@@ -1,0 +1,330 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.18.618793",
+  "title": "Phosphorylation-dependent tuning of mRNA deadenylation rates",
+  "doi": "10.1101/2024.10.18.618793",
+  "abstract": "mRNA decay is a major determinant of gene regulation that is controlled through shortening of mRNA poly(A) tails by the Ccr4-Not complex. The specificity of deadenylation can be mediated through RNA adaptors – RNA-binding proteins that tether substrate mRNAs to Ccr4-Not in a regulated and context-specific manner. Interaction with Ccr4-Not is mediated by intrinsically disordered regions (IDRs) within the RNA adaptors. Due to the difficulty in studying large IDR-containing complexes, the determinants of specificity and their regulation remain unclear. Here we use structural biology and biochemical reconstitution to show that dispersed segments within IDRs of RNA adaptors bind to several distinct binding sites on Ccr4-Not through multivalent interactions. We further demonstrate that binding can be modulated by phosphorylation, altering the consequent deadenylation rate in a continuously tunable manner. This mechanism is broadly applicable in evolutionarily divergent IDRs from multiple RNA adaptors including fission yeast Puf3, and human Pumilio/PUM1 and Tristetraprolin/TTP. Together, our work suggests that multivalent interactions and phosphorylation represent conserved strategies for regulating gene expression. Thus, in response to cellular cues, mRNA decay can be regulated by a graded mechanism, rather than a bistable on/off switch, rationalizing how post-transcriptional gene expression is fine-tuned.",
+  "authors": [
+    "Stowell JA",
+    "Yu CW",
+    "Chen ZA",
+    "Lee G",
+    "Morgan T",
+    "Sinn L",
+    "Agnello S",
+    "O’Reilly FJ",
+    "Rappsilber J",
+    "Freund SM",
+    "Passmore LA"
+  ],
+  "published_date": "2024-10-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.18.618793",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.18.618793.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR927739",
+    "raw_record": {
+      "id": "PPR927739",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR927739"
+        ]
+      },
+      "doi": "10.1101/2024.10.18.618793",
+      "title": "Phosphorylation-dependent tuning of mRNA deadenylation rates",
+      "authorString": "Stowell JA, Yu CW, Chen ZA, Lee G, Morgan T, Sinn L, Agnello S, O’Reilly FJ, Rappsilber J, Freund SM, Passmore LA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Stowell JA",
+            "lastName": "Stowell",
+            "firstName": "James A.W.",
+            "initials": "JA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yu CW",
+            "lastName": "Yu",
+            "firstName": "Conny W.H.",
+            "initials": "CW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chen ZA",
+            "lastName": "Chen",
+            "firstName": "Zhuo",
+            "initials": "ZA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Chair of Bioanalytics, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lee G",
+            "lastName": "Lee",
+            "firstName": "Giselle",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morgan T",
+            "lastName": "Morgan",
+            "firstName": "Tomos",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3366-8889"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sinn L",
+            "lastName": "Sinn",
+            "firstName": "Ludwig",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Chair of Bioanalytics, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Agnello S",
+            "lastName": "Agnello",
+            "firstName": "Sylvie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "O’Reilly FJ",
+            "lastName": "O’Reilly",
+            "firstName": "Francis",
+            "initials": "FJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Chair of Bioanalytics, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rappsilber J",
+            "lastName": "Rappsilber",
+            "firstName": "Juri",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5999-1310"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Chair of Bioanalytics, ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Freund SM",
+            "lastName": "Freund",
+            "firstName": "Stefan M.V.",
+            "initials": "SM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Passmore LA",
+            "lastName": "Passmore",
+            "firstName": "Lori",
+            "initials": "LA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1815-3710"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5999-1310"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3366-8889"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1815-3710"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "mRNA decay is a major determinant of gene regulation that is controlled through shortening of mRNA poly(A) tails by the Ccr4-Not complex. The specificity of deadenylation can be mediated through RNA adaptors – RNA-binding proteins that tether substrate mRNAs to Ccr4-Not in a regulated and context-specific manner. Interaction with Ccr4-Not is mediated by intrinsically disordered regions (IDRs) within the RNA adaptors. Due to the difficulty in studying large IDR-containing complexes, the determinants of specificity and their regulation remain unclear. Here we use structural biology and biochemical reconstitution to show that dispersed segments within IDRs of RNA adaptors bind to several distinct binding sites on Ccr4-Not through multivalent interactions. We further demonstrate that binding can be modulated by phosphorylation, altering the consequent deadenylation rate in a continuously tunable manner. This mechanism is broadly applicable in evolutionarily divergent IDRs from multiple RNA adaptors including fission yeast Puf3, and human Pumilio/PUM1 and Tristetraprolin/TTP. Together, our work suggests that multivalent interactions and phosphorylation represent conserved strategies for regulating gene expression. Thus, in response to cellular cues, mRNA decay can be regulated by a graded mechanism, rather than a bistable on/off switch, rationalizing how post-transcriptional gene expression is fine-tuned.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "725685",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "227434",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.10.18.618793"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.18.618793"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR927739"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR927739&type=FILE&fileName=EMS199555-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41184513",
+            "reference": "Nature structural & molecular biology. 2026 Jan;33(1):63-70",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199555",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pxd",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-10-21",
+      "firstPublicationDate": "2024-10-19",
+      "firstIndexDate": "2024-10-21",
+      "fullTextReceivedDate": "2024-10-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

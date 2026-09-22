@@ -1,0 +1,215 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.29.715078",
+  "title": "Tardigrade-Derived Strategy for Low-Cost Storage of Cell-Free Expression Lysates",
+  "doi": "10.64898/2026.03.29.715078",
+  "abstract": "Cell-free expression systems (CFES) are increasingly used alongside conventional biotechnological approaches to accelerate early-stage prototyping and are particularly valuable in point-of-use settings. However, their broader adoption remains limited by time- and cost-intensive preparation, as well as stringent cryogenic storage requirements. To address this, several studies have explored lyophilization with protective additives to generate stable, solid-state CFES. These approaches had to balance the protection gained with a loss of activity due to the additives. In this study, we present a CFES that contains a tardigrade-derived Cytosolic-Abundant Heat-Soluble (CAHS) protein to protect the biosynthetic machinery in lysates from damages during drying. We show that the CAHS protein, without any other additives, preserves protein synthesis activity during low-cost room temperature desiccation, while unprotected lysates are affected in mRNA synthesis kinetics and translation yields. The diversity of tardigrade-derived protective proteins is a treasure trove for cell-free synthetic biology, in particular for making CFES more accessible and portable. <h4>Graphical abstract</h4>",
+  "authors": [
+    "Meckelburg M",
+    "Banlaki I",
+    "Gaizauskaite A",
+    "Niederholtmeyer H"
+  ],
+  "published_date": "2026-03-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.29.715078",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.29.715078.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1217249",
+    "raw_record": {
+      "id": "PPR1217249",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1217249"
+        ]
+      },
+      "doi": "10.64898/2026.03.29.715078",
+      "title": "Tardigrade-Derived Strategy for Low-Cost Storage of Cell-Free Expression Lysates",
+      "authorString": "Meckelburg M, Banlaki I, Gaizauskaite A, Niederholtmeyer H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Meckelburg M",
+            "lastName": "Meckelburg",
+            "firstName": "Marten",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Campus Straubing for Biotechnology and Sustainability, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Banlaki I",
+            "lastName": "Banlaki",
+            "firstName": "Imre",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0002-8192-846X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Campus Straubing for Biotechnology and Sustainability, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gaizauskaite A",
+            "lastName": "Gaizauskaite",
+            "firstName": "Aukse",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0000-1709-6932"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Campus Straubing for Biotechnology and Sustainability, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Niederholtmeyer H",
+            "lastName": "Niederholtmeyer",
+            "firstName": "Henrike",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1375-0287"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Campus Straubing for Biotechnology and Sustainability, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1375-0287"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0000-1709-6932"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0002-8192-846X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Cell-free expression systems (CFES) are increasingly used alongside conventional biotechnological approaches to accelerate early-stage prototyping and are particularly valuable in point-of-use settings. However, their broader adoption remains limited by time- and cost-intensive preparation, as well as stringent cryogenic storage requirements. To address this, several studies have explored lyophilization with protective additives to generate stable, solid-state CFES. These approaches had to balance the protection gained with a loss of activity due to the additives. In this study, we present a CFES that contains a tardigrade-derived Cytosolic-Abundant Heat-Soluble (CAHS) protein to protect the biosynthetic machinery in lysates from damages during drying. We show that the CAHS protein, without any other additives, preserves protein synthesis activity during low-cost room temperature desiccation, while unprotected lysates are affected in mRNA synthesis kinetics and translation yields. The diversity of tardigrade-derived protective proteins is a treasure trove for cell-free synthetic biology, in particular for making CFES more accessible and portable. <h4>Graphical abstract</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101078028",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.29.715078"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1217249"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1217249&type=FILE&fileName=EMS215127-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42319881",
+            "reference": "ACS synthetic biology. \n    2026 Jun;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215127",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-03-30",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

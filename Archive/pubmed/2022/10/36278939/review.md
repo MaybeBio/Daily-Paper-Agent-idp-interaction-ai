@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, conclusions, and methods.
+- **Assessment boundary** Scientific content, methodological rigor, and support of claims by presented evidence. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors use atomistic discrete molecular dynamics (DMD) simulations to characterize the conformational ensembles and dimerization dynamics of full-length α-synuclein. They report that monomers and dimers predominantly adopt unstructured conformations with partial helices (residues 8–32) and β-sheets (residues 35–56 and 61–95), that dimerization increases β-sheet content, that inter-peptide β-sheets primarily involve the N-terminal tail and NACore (residues 68–78), and that C-terminal interactions with these regions are suppressed in dimers, suggesting a protective role against aggregation.
+- **Visible evidence base** Main text figures referenced (Figures 1–8), supplementary figures referenced (Figures S1–S8), methods section, and cited literature. No raw simulation trajectories, force field parameters, or convergence metrics beyond those described in text.
+- **Missing materials affecting confidence** No supplementary information file was provided, including Figures S1–S8 referenced in the text. No simulation input files, force field parameter details, or explicit convergence criteria for the ensemble. No error bars or statistical analysis of ensemble averages. No direct experimental validation data within the manuscript.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic computational study of α-synuclein monomer and dimer conformations using DMD simulations. The work addresses an important problem in neurodegeneration research, and the simulation strategy is reasonable. However, the evidence provided is insufficient to fully support several key claims, particularly regarding the quantitative changes in secondary structure upon dimerization and the proposed protective role of the C-terminus. The lack of supplementary data and limited methodological detail reduce the ability to assess technical soundness. The conclusions are plausible but not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying protein misfolding and aggregation, particularly those focused on α-synuclein and Parkinson's disease. Computational biophysicists interested in DMD methodology and its application to intrinsically disordered proteins. Experimentalists seeking structural models of early aggregation intermediates.
+- **Major strengths** The study uses a full-length α-synuclein construct, which is more physiologically relevant than truncated fragments. The use of 100 independent simulations per system is commendable for sampling disordered conformations. The identification of specific regions (N-terminal tail, NACore) involved in inter-peptide β-sheet formation provides testable hypotheses. The comparison between monomeric and dimeric states is a logical approach to studying early aggregation events.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that dimerization enhances β-sheet formation with a decrease in unstructured content (abstract and results).
+  - **Evidence pointer** Figure 5 and associated text, location not provided
+  - **Concern** The quantitative secondary structure comparison between monomer and dimer is presented as average probabilities, but no statistical analysis (e.g., standard deviations, confidence intervals, or significance testing) is provided. The text states values of ~49.0% vs ~38.9% for unstructured content and ~22.8% vs ~26.4% for β-sheet content, but it is unclear whether these differences are statistically meaningful given the expected variability across 100 independent simulations.
+  - **Why it matters** The central conclusion that dimerization promotes β-sheet formation relies on this comparison. Without error estimates or significance testing, the reader cannot determine whether the observed differences are robust or within sampling noise.
+  - **Resolution test** Provide standard deviations or confidence intervals for the secondary structure percentages across the 100 simulations, and perform a statistical test (e.g., t-test or bootstrap) to establish significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the C-terminus dynamically wraps around the β-sheet core and that its interactions are suppressed in dimers, suggesting a protective role (abstract, results, conclusions).
+  - **Evidence pointer** Figures 6, 7, S6, S8 and associated text, location not provided
+  - **Concern** The evidence for C-terminal wrapping and its suppression in dimers is based on contact frequency maps and contact surface area analyses. However, the manuscript does not provide quantitative measures of the statistical significance of these differences, nor does it show representative trajectories or time series that demonstrate the dynamic wrapping behavior. The claim that C-terminal interactions "prevent" aggregation is speculative, as the simulations do not directly test the effect of removing or perturbing the C-terminus.
+  - **Why it matters** The proposed protective role of the C-terminus is a key mechanistic insight. Without direct evidence (e.g., simulations with C-terminally truncated constructs) or statistical support, this claim remains a hypothesis rather than a demonstrated finding.
+  - **Resolution test** Provide statistical comparison of contact frequencies between monomer and dimer states, and include simulations of C-terminally truncated α-synuclein to directly test the protective role.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the simulations reached equilibrium and are converged (results section, Figures S1, S2).
+  - **Evidence pointer** Figures S1, S2, location not provided
+  - **Concern** The manuscript states that equilibrium was assessed by examining time evolution of structural parameters, but the supplementary figures showing this are not provided. No quantitative convergence criteria are given (e.g., block averaging, autocorrelation times, or split-half analysis). The statement that "not many changes" occurred is vague and does not constitute a rigorous convergence assessment.
+  - **Why it matters** For a study drawing conclusions from equilibrium ensembles, demonstrating convergence is essential. Without this, the reported structural propensities may be biased by insufficient sampling.
+  - **Resolution test** Provide the supplementary figures and quantitative convergence metrics, such as time series of ensemble averages with running means, or a comparison of structural properties between the first and second halves of the trajectories.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the identified β-sheet regions are consistent with prior experimental and computational studies (results, discussion).
+  - **Evidence pointer** References 20, 29, 32, 39–53, location not provided
+  - **Concern** While the manuscript cites prior work supporting the involvement of the N-terminal tail and NAC region in aggregation, the comparison is qualitative. The authors do not provide a systematic mapping of their predicted β-sheet regions to the specific residues or structural elements identified in experimental studies (e.g., cryo-EM fibril structures). This limits the ability to assess the accuracy of the simulations.
+  - **Why it matters** Validation against experimental data is critical for establishing the credibility of computational predictions. A more detailed comparison would strengthen the case that the simulations capture biologically relevant conformations.
+  - **Resolution test** Provide a residue-level comparison of predicted β-sheet propensity with experimentally determined fibril structures or other experimental data, and discuss any discrepancies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract is dense and uses technical terms without definition, which may limit accessibility for nonspecialist readers.
+  - **Required correction** Briefly define key terms such as "discrete molecular dynamics" and "NACore" in the abstract, or rephrase for broader accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of the DMD simulation parameters is incomplete. The manuscript states the force field and implicit solvent model but does not provide specific parameters such as temperature control, time step, or how the 100 independent simulations were initialized.
+  - **Required correction** Add details on simulation setup, including initialization protocol, temperature coupling, and any constraints applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results
+  - **Evidence pointer** Figure 4 and associated text, location not provided
+  - **Issue** The potential of mean force (PMF) analysis is described, but the choice of reaction coordinates is not justified. The manuscript does not explain why β-sheet and α-helix contents are appropriate collective variables for describing the conformational landscape.
+  - **Required correction** Justify the choice of reaction coordinates or discuss alternative variables that could be relevant.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions, location not provided
+  - **Issue** The conclusions restate the results without acknowledging limitations of the computational approach, such as the use of an implicit solvent model or the absence of experimental validation.
+  - **Required correction** Add a brief statement on limitations and potential future directions.
+
+## Risk / unsupported claims
+- The claim that C-terminal interactions "prevent" α-synuclein aggregation is not directly supported by the simulations, as no perturbation experiments were performed.
+- The quantitative differences in secondary structure between monomer and dimer are not supported by statistical analysis.
+- The convergence of the simulations is not demonstrated due to missing supplementary figures and quantitative criteria.
+- The comparison with experimental data is qualitative and does not provide residue-level validation.
+- The claim that the simulations provide a "full picture" of monomer conformations and dimerization dynamics is overstated given the limitations of the implicit solvent model and the absence of experimental validation.

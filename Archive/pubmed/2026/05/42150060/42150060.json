@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "42150060",
+    "doi": "10.1073/pnas.2604562123",
+    "title": "A functional map of the human intrinsically disordered proteome."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) represent at least one-third of the human proteome and defy the established structure-function paradigm. Because IDRs often have limited positional sequence conservation, the functional classification of IDRs using standard bioinformatics is generally not possible. Here, we show that evolutionarily conserved molecular features of IDRs enable clustering of the human disordered proteome (IDRome) into a map with strong functional enrichments. We quantify how conserved IDR features correlate with functional terms and, for a subset of terms, provide proteome-wide predictions of annotations for IDRs. Further, we show that conserved features of IDRs can predict protein localization to different biomolecular condensates and underlie elevated intracluster connectivity in condensate-associated IDRs, as well as enrich for short-linear motif-binding domains among interaction partners. We highlight patterns of conservation in disordered proteins with unknown function and in clusters enriched for proteins encoded by disease-risk genes. Our map of the human IDR-ome should be a valuable resource that aids in the discovery of new IDR biology.",
+    "keywords": [
+      "biomolecular condensates",
+      "interaction networks",
+      "intrinsically disordered proteins",
+      "molecular features",
+      "protein functional prediction"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "*Proteome/metabolism/chemistry/genetics",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pritisanac, Iva",
+        "Alderson, T Reid",
+        "Kolaric, Desika",
+        "Zarin, Taraneh",
+        "Xie, Shuting",
+        "Lu, Alex",
+        "Alam, Aqsa",
+        "Maqsood, Abdullah",
+        "Youn, Ji-Young",
+        "Forman-Kay, Julie D",
+        "Moses, Alan M"
+      ],
+      "short_names": [
+        "Pritisanac I",
+        "Alderson TR",
+        "Kolaric D",
+        "Zarin T",
+        "Xie S",
+        "Lu A",
+        "Alam A",
+        "Maqsood A",
+        "Youn JY",
+        "Forman-Kay JD",
+        "Moses AM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3569-6653",
+        "ORCID: 0009-0008-4207-096X",
+        "ORCID: 0000-0001-6799-5709",
+        "ORCID: 0000-0001-8265-972X",
+        "ORCID: 0000-0003-3118-3121"
+      ],
+      "affiliations": [
+        "Department of Cell and Systems Biology, University of Toronto, Toronto, ON M5S 3G5, Canada. ROR: https://ror.org/03dbr7087",
+        "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, ON M5G 0A4, Canada. ROR: https://ror.org/057q4rt57",
+        "Department of Medicinal Chemistry, Otto Loewi Research Center, Medical University of Graz, Graz 8043, Austria.",
+        "Helmholtz Munich, Computational Health Center, Institute of Computational Biology, Neuherberg 85764, Germany. ROR: https://ror.org/00kg2yq63",
+        "Helmholtz Munich, Molecular Targets and Therapeutics Center, Institute of Structural Biology, Neuherberg 85764, Germany.",
+        "Technical University of Munich School of Natural Sciences, Department of Bioscience, Bavarian Nuclear Magnetic Resonance Center, Technical University of Munich, Garching 85747, Germany. ROR: https://ror.org/02kkvpp62",
+        "Helmholtz Munich, Molecular Targets and Therapeutics Center, Institute of Structural Biology, Neuherberg 85764, Germany.",
+        "Technical University of Munich School of Natural Sciences, Department of Bioscience, Bavarian Nuclear Magnetic Resonance Center, Technical University of Munich, Garching 85747, Germany. ROR: https://ror.org/02kkvpp62",
+        "Department of Cell and Systems Biology, University of Toronto, Toronto, ON M5S 3G5, Canada. ROR: https://ror.org/03dbr7087",
+        "Department of Cell and Systems Biology, University of Toronto, Toronto, ON M5S 3G5, Canada. ROR: https://ror.org/03dbr7087",
+        "Department of Cell and Systems Biology, University of Toronto, Toronto, ON M5S 3G5, Canada. ROR: https://ror.org/03dbr7087",
+        "Department of Computer Science, University of Toronto, Toronto, ON M5S 2E4, Canada. ROR: https://ror.org/03dbr7087",
+        "Department of Cell and Systems Biology, University of Toronto, Toronto, ON M5S 3G5, Canada. ROR: https://ror.org/03dbr7087",
+        "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, ON M5G 0A4, Canada. ROR: https://ror.org/057q4rt57",
+        "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, ON M5G 0A4, Canada. ROR: https://ror.org/057q4rt57",
+        "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada. ROR: https://ror.org/03dbr7087",
+        "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, ON M5G 0A4, Canada. ROR: https://ror.org/057q4rt57",
+        "Department of Biochemistry, The University of Toronto, Toronto, ON M5S 1A8, Canada. ROR: https://ror.org/03dbr7087",
+        "Department of Cell and Systems Biology, University of Toronto, Toronto, ON M5S 3G5, Canada. ROR: https://ror.org/03dbr7087",
+        "Department of Computer Science, University of Toronto, Toronto, ON M5S 2E4, Canada. ROR: https://ror.org/03dbr7087"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pritišanac, Iva",
+        "short_name": "Pritišanac I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Systems Biology, University of Toronto, Toronto, ON M5S 3G5, Canada.",
+          "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, ON M5G 0A4, Canada.",
+          "Department of Medicinal Chemistry, Otto Loewi Research Center, Medical University of Graz, Graz 8043, Austria.",
+          "Helmholtz Munich, Computational Health Center, Institute of Computational Biology, Neuherberg 85764, Germany."
+        ]
+      },
+      {
+        "full_name": "Alderson, T Reid",
+        "short_name": "Alderson TR",
+        "identifiers": [],
+        "affiliations": [
+          "Helmholtz Munich, Molecular Targets and Therapeutics Center, Institute of Structural Biology, Neuherberg 85764, Germany.",
+          "Technical University of Munich School of Natural Sciences, Department of Bioscience, Bavarian Nuclear Magnetic Resonance Center, Technical University of Munich, Garching 85747, Germany."
+        ]
+      },
+      {
+        "full_name": "Kolarić, Đesika",
+        "short_name": "Kolarić Đ",
+        "identifiers": [
+          "0000-0003-3569-6653"
+        ],
+        "affiliations": [
+          "Helmholtz Munich, Molecular Targets and Therapeutics Center, Institute of Structural Biology, Neuherberg 85764, Germany.",
+          "Technical University of Munich School of Natural Sciences, Department of Bioscience, Bavarian Nuclear Magnetic Resonance Center, Technical University of Munich, Garching 85747, Germany."
+        ]
+      },
+      {
+        "full_name": "Zarin, Taraneh",
+        "short_name": "Zarin T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Systems Biology, University of Toronto, Toronto, ON M5S 3G5, Canada."
+        ]
+      },
+      {
+        "full_name": "Xie, Shuting",
+        "short_name": "Xie S",
+        "identifiers": [
+          "0009-0008-4207-096X"
+        ],
+        "affiliations": [
+          "Department of Cell and Systems Biology, University of Toronto, Toronto, ON M5S 3G5, Canada."
+        ]
+      },
+      {
+        "full_name": "Lu, Alex",
+        "short_name": "Lu A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Systems Biology, University of Toronto, Toronto, ON M5S 3G5, Canada.",
+          "Department of Computer Science, University of Toronto, Toronto, ON M5S 2E4, Canada."
+        ]
+      },
+      {
+        "full_name": "Alam, Aqsa",
+        "short_name": "Alam A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Systems Biology, University of Toronto, Toronto, ON M5S 3G5, Canada."
+        ]
+      },
+      {
+        "full_name": "Maqsood, Abdullah",
+        "short_name": "Maqsood A",
+        "identifiers": [],
+        "affiliations": [
+          "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, ON M5G 0A4, Canada."
+        ]
+      },
+      {
+        "full_name": "Youn, Ji-Young",
+        "short_name": "Youn JY",
+        "identifiers": [
+          "0000-0001-6799-5709"
+        ],
+        "affiliations": [
+          "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, ON M5G 0A4, Canada.",
+          "Department of Molecular Genetics, University of Toronto, Toronto, ON M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Forman-Kay, Julie D",
+        "short_name": "Forman-Kay JD",
+        "identifiers": [
+          "0000-0001-8265-972X"
+        ],
+        "affiliations": [
+          "Program in Molecular Medicine, The Hospital for Sick Children, Toronto, ON M5G 0A4, Canada.",
+          "Department of Biochemistry, The University of Toronto, Toronto, ON M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Moses, Alan M",
+        "short_name": "Moses AM",
+        "identifiers": [
+          "0000-0003-3118-3121"
+        ],
+        "affiliations": [
+          "Department of Cell and Systems Biology, University of Toronto, Toronto, ON M5S 3G5, Canada.",
+          "Department of Computer Science, University of Toronto, Toronto, ON M5S 2E4, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 May 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/18 18:32",
+    "fetched_at": "2026-09-18 03:25:59"
+  },
+  "links": {
+    "cites": [
+      "42506199",
+      "42338018",
+      "42282589",
+      "42190015",
+      "41232529",
+      "40667294",
+      "38895487"
+    ],
+    "refs": [],
+    "similar": [
+      "42150060",
+      "41337585",
+      "41378882",
+      "41232529",
+      "38297118",
+      "35094056",
+      "33248138",
+      "40530859",
+      "33616531",
+      "34418423",
+      "31441158",
+      "40828855",
+      "41276815",
+      "36291695",
+      "29066345",
+      "28387819",
+      "28934129",
+      "31264965",
+      "34390736",
+      "38588835",
+      "40221640",
+      "35767567",
+      "27062995",
+      "38662765",
+      "40944448",
+      "30841624",
+      "39933697",
+      "41218076",
+      "41053545",
+      "33866372",
+      "34626492",
+      "41512952",
+      "31425549",
+      "41033554",
+      "41534519",
+      "39232584",
+      "36959451",
+      "28002650",
+      "30878482",
+      "39826710",
+      "42306853",
+      "33719450",
+      "31207240",
+      "40060677",
+      "39093570",
+      "39205298",
+      "30096183",
+      "29080786",
+      "41629626",
+      "22416277",
+      "31521236",
+      "32553192",
+      "39383002",
+      "32503351",
+      "42244740",
+      "37634152",
+      "26149687",
+      "39537752",
+      "29550429",
+      "25752799",
+      "41659523",
+      "42370415",
+      "40100159",
+      "41571439",
+      "26699268",
+      "33627133",
+      "32535960",
+      "35275927",
+      "27179590",
+      "33806614",
+      "41688823",
+      "39614773",
+      "25391399",
+      "36008992",
+      "32696354",
+      "42057657",
+      "41114728",
+      "36908253",
+      "36575582",
+      "28381244",
+      "26790343",
+      "33267376",
+      "29763584",
+      "41394673",
+      "24027208",
+      "32722039",
+      "42190015",
+      "35196007",
+      "37878721",
+      "36833360",
+      "39984675",
+      "34656333",
+      "39718444",
+      "38987470",
+      "34905768",
+      "34347206",
+      "24115198",
+      "28167781",
+      "33076213",
+      "28924037"
+    ],
+    "review": [
+      "42150060",
+      "33248138",
+      "34418423",
+      "31441158",
+      "34390736",
+      "38588835",
+      "36959451",
+      "42306853",
+      "39093570",
+      "39205298",
+      "31521236",
+      "25752799",
+      "42057657",
+      "24027208",
+      "36833360",
+      "39984675"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2604562123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

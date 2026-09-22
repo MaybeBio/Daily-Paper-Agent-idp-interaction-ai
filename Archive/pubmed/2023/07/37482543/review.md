@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusion, methods) as provided
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text; no external data or supplementary files were accessible
+- **Shared manuscript claim summary** The authors report the cloning and sequence analysis of five date palm LEA2 genes, functional characterization of three recombinant PdLEA2 proteins, and demonstrate that these proteins enhance the thermostability and activity of lactate dehydrogenase (LDH) and β-glucosidase (bglG) under heat stress in vitro. They also report salt-induced expression of PdLEA2 genes in two date palm cultivars.
+- **Visible evidence base** Main text figures (Fig. 1, 2, 3, 4), tables (Tables 1–4), and methods descriptions; supplementary figures and tables referenced but not provided
+- **Missing materials affecting confidence** Supplementary figures (Fig. S1, S2) and tables (Tables S1–S4) are referenced but not available; raw data for enzymatic assays and expression analyses are not shown; statistical details (exact p-values, effect sizes) are partially reported; no data on protein purity quantification or concentration determination are provided
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely topic, namely the functional characterization of intrinsically disordered LEA2 proteins from date palm and their potential role in enzyme stabilization under heat stress. The experimental approach is straightforward and the in vitro protection assays are appropriate for the stated hypothesis. However, several technical and interpretive issues limit the strength of the conclusions. The structural predictions are presented as evidence for functional mechanisms without experimental validation, the statistical reporting is incomplete in places, and the mechanistic basis for the observed protection remains speculative. The work is of interest to researchers in plant stress biology and protein biochemistry, but the current evidence does not fully establish the claimed chaperone-like function of PdLEA2 proteins.
+- **Who would be interested in the results, and why** Researchers studying late embryogenesis abundant (LEA) proteins, intrinsically disordered proteins, plant abiotic stress tolerance, and enzyme stabilization technologies would find this work relevant. The potential application of LEA2 proteins as additives for preserving enzyme activity under heat stress could also interest industrial biotechnologists working on thermostable enzyme formulations.
+- **Major strengths** The study addresses a relatively under-explored group of LEA proteins (LEA2) in a non-model but economically important species (date palm). The use of multiple complementary assays (enzyme activity recovery, aggregation measurement) strengthens the functional claims. The inclusion of two date palm cultivars with contrasting salt tolerance adds a comparative dimension to the expression analysis. The structural predictions using multiple tools (AlphaFold2, PSIPRED, DISOPRED) provide a useful framework for future studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that PdLEA2 proteins "enhanced the activity and reduced the aggregate formation of LDH under the heat stress" and that they "displayed their capacity to preserve and stabilize the bglG enzymatic activity."
+  - **Evidence pointer** Results section "PdLEA2 proteins stabilization of the LDH enzyme under heat stress conditions" and "PdLEA2 improved the thermostability and activity of bglG"; Figure 4 and Figure 6
+  - **Concern** The enzymatic assays are described only in qualitative terms in the results. The exact experimental conditions (enzyme concentration, substrate concentration, buffer composition, heating protocol) are not fully described in the methods. More critically, the data presentation in Figure 4 shows percentage activity recovery, but the baseline (100% activity) is not clearly defined, and the statistical comparisons between PdLEA2 proteins and BSA are not fully reported for all time points and ratios. For the bglG assay, only a single concentration of PdLEA2 proteins (0.5 µg ml−1) was tested, and the time course data are incomplete. The claim of "preservation" of enzyme activity requires demonstration that the effect is not simply due to a general protein-stabilizing effect (osmolytes, crowding agents), which BSA partially shows. The distinction between specific chaperone-like activity and non-specific protection is not adequately addressed.
+  - **Why it matters** The central conclusion of the paper, namely that PdLEA2 proteins function as chaperones to protect enzymes from heat inactivation, depends on the robustness of these assays. Without proper controls (e.g., other disordered proteins, heat-inactivated PdLEA2), the specificity of the effect cannot be established. Incomplete statistical reporting prevents the reader from assessing the reliability of the observed differences.
+  - **Resolution test** Provide full experimental details for the enzyme assays, including exact concentrations, buffer conditions, and heating protocols. Show complete time-course data for all conditions tested. Include appropriate controls such as a non-chaperone disordered protein (e.g., casein) and a heat-denatured PdLEA2 protein. Report exact p-values and effect sizes for all comparisons, and clearly define the 100% activity baseline.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the presence of a stretch of hydrophobic residues near the N-terminus that could potentially form a transmembrane helix" and that "the stacked β-sheet structure is duplicated in the case of PdLEA2.3."
+  - **Evidence pointer** Results section "Structural characteristics of PdLEA2 proteins"; Figure 1; Tables 2 and 3
+  - **Concern** The structural predictions are presented with considerable confidence, but they are based solely on computational tools without experimental validation. The claim of a transmembrane helix is particularly problematic, as LEA proteins are generally considered cytosolic and the functional relevance of a transmembrane domain is not discussed. The AlphaFold2 models are shown as static representations, but the confidence metrics (pLDDT values) are only qualitatively described. The duplication of the β-sheet structure in PdLEA2.3 is stated but not clearly shown in the figure. Furthermore, the relationship between these predicted structural features and the observed enzyme protection activity is not established experimentally.
+  - **Why it matters** The structural predictions form the basis for the mechanistic interpretation of the enzyme protection data. If the transmembrane helix prediction is an artifact or if the structural features are not functionally relevant, the proposed mechanism of action becomes speculative. Overinterpretation of computational predictions without experimental validation weakens the scientific rigor of the study.
+  - **Resolution test** Provide the pLDDT confidence scores for the AlphaFold2 models and discuss the reliability of the transmembrane helix prediction. Consider experimental validation of the disordered nature of the proteins (e.g., circular dichroism, size-exclusion chromatography) and the oligomeric state. Clarify whether the predicted structural features correlate with the differential protective activities of the three PdLEA2 proteins tested.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "the present study will be the first breakthrough to identify the chaperone property of date palm LEA2 proteins in protein-enzyme interaction."
+  - **Evidence pointer** Introduction and Discussion sections
+  - **Concern** The novelty of the findings is overstated. While the study is the first to characterize date palm LEA2 proteins in this context, chaperone-like and enzyme-protective functions have been reported for other LEA proteins, including LEA2 members from other species. The authors themselves cite studies on wheat dehydrins protecting LDH and bglG. The incremental advance here is the specific proteins studied, not the conceptual finding. The discussion does not adequately position this work within the broader context of LEA protein research, nor does it address how these findings advance the field beyond what is already known.
+  - **Why it matters** For a journal with broad readership, the significance of the findings must be clearly articulated. Overclaiming novelty can mislead readers and diminishes the credibility of the work. The authors should more carefully delineate what is genuinely new about their study.
+  - **Resolution test** Revise the discussion to acknowledge prior work on LEA protein-mediated enzyme protection and clearly state the specific novel contributions of this study (e.g., the particular proteins studied, the comparative analysis across multiple PdLEA2 members, the potential applications for date palm improvement).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, first paragraph of Introduction
+  - **Issue** The abstract and introduction use technical terminology (e.g., "intrinsically disordered proteins," "GRAVY index," "pLDDT") without brief explanations. Nonspecialist readers may struggle to understand the significance of these terms.
+  - **Required correction** Add brief parenthetical explanations for key technical terms on first use, or rephrase to make the text more accessible to a broad scientific audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section, "Expression analysis" subsection
+  - **Evidence pointer** Methods, "Expression analysis of PdLEA2.2, PdLEA2.3, and PdLEA2.4 genes in different date palm tissues"
+  - **Issue** The reference gene used for normalization of qRT-PCR data is not specified. The authors mention "Actin gene" but do not provide the specific gene identifier or validation of its stable expression under the experimental conditions.
+  - **Required correction** Specify the Actin gene used, provide its accession number, and include data on its expression stability across tissues and treatments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section, "LDH and bglG protection assays"
+  - **Evidence pointer** Methods, "LDH and bglG protection assays"
+  - **Issue** The methods state that LDH activity was measured by observing NADH oxidation at 340 nm, but the exact formula for calculating enzyme activity is only partially given. The bglG assay description lacks details on substrate concentration, reaction time, and how the released p-nitrophenol was quantified.
+  - **Required correction** Provide complete details for both enzyme assays, including all reagent concentrations, reaction volumes, incubation times, and the full calculation formula for enzyme activity.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1 and its legend
+  - **Issue** The figure legend is dense and does not clearly explain the relationship between panels A, B, and C. The color coding for pLDDT scores is described in the legend but may be difficult to interpret in the figure itself.
+  - **Required correction** Simplify the figure legend, ensure all abbreviations are defined, and consider adding labels directly on the figure panels to improve clarity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section, "Expression pattern of PdLEA2 genes under salt stress"
+  - **Evidence pointer** Results, "Expression pattern of PdLEA2 genes under salt stress in two contrasting genotypes of date palm"; Figure 2
+  - **Issue** The results describe significant differences in expression between tolerant and sensitive varieties in leaves under salinity stress, but the magnitude of these differences and the specific genes showing the most pronounced changes are not reported. The figure shows grouped data, but individual gene-level comparisons are not clearly presented.
+  - **Required correction** Report the fold-change values for each gene in each tissue and condition, and clearly indicate which specific comparisons are statistically significant.
+
+## Risk / unsupported claims
+- The claim that PdLEA2 proteins act as chaperones is not directly supported by mechanistic experiments; the observed protection could be due to non-specific effects.
+- The predicted transmembrane helix in PdLEA2 proteins is presented as a structural feature without experimental validation and its functional relevance is not established.
+- The statement that the study represents a "first breakthrough" is overstated given prior work on LEA protein-mediated enzyme protection.
+- The conclusion that PdLEA2 proteins "stabilize various partner molecules such as enzymes or target proteins in different cellular compartments" is speculative and not supported by in vivo evidence.
+- The claim that the high abundance of LEA2 genes in date palm "indicates the major part it plays in improving the plants survival" is an inference without direct functional evidence in date palm.
+- The assertion that PdLEA2 proteins' protective effect is due to their "disorder structure, transmembrane helix, and folded region consisting of β-sheets" is a correlative interpretation without causal evidence.

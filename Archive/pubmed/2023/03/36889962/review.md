@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or methods
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to study the intrinsically disordered protein N-WASP, focusing on competition between PIP2 and an acidic motif for binding to the basic region. They report that at 30% PIP2 in the membrane, only 8.5% of the population adopts a fully open state, while conformations with only the C-terminal three residues of the acidic motif free are 40- to 6-fold more populated. They conclude that N-WASP can signal to Arp2/3 before full release from autoinhibition.
+- **Visible evidence base** Abstract text only; no simulation details, force fields, system setup, convergence criteria, or quantitative population data beyond the cited percentages and fold ranges
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field choice, system size, sampling length, convergence assessment, definition of states (open, A tail free), error estimates, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding about partial autoinhibition release in an IDP, but the evidence base is too limited to evaluate the robustness of the central claim. The population numbers are stated without error bars or methodological context, and the biological relevance of the "A tail free" state is asserted rather than demonstrated. The work may be of interest to the IDP and cytoskeletal signaling communities, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and allosteric regulation, particularly those focused on N-WASP and Arp2/3-mediated actin polymerization. The finding that partial release from autoinhibition can confer signaling competence may also interest those modeling IDP conformational ensembles and their functional consequences.
+- **Major strengths** The study addresses an understudied area, namely allosteric regulation of IDPs. The competition between PIP2 and the acidic motif for the basic region is a mechanistically clear question. The distinction between fully open and partially free states is a useful conceptual framework that could refine understanding of N-WASP activation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that at 30% PIP2, the open state population is 8.5% and the A tail free population is 40- to 6-fold higher
+  - **Evidence pointer** Abstract, population percentages; location not provided
+  - **Concern** The population numbers are presented without any indication of statistical uncertainty, convergence of the simulations, or sensitivity to force field parameters. For an IDP, conformational populations are highly sensitive to the force field and sampling length. Without error estimates or convergence analysis, these numbers cannot be assessed for reliability.
+  - **Why it matters** The central conclusion depends entirely on the relative populations of the open and A tail free states. If the simulations are not converged or the force field biases the ensemble, the fold differences could be artifacts. The claim that N-WASP is competent before full release hinges on these quantitative comparisons.
+  - **Resolution test** Provide error bars or confidence intervals for the population estimates, demonstrate convergence of the simulations (e.g., block averaging, multiple independent runs), and show that the qualitative conclusion is robust to force field choice or at least discuss the sensitivity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that N-WASP is competent for Arp2/3 binding before full release from autoinhibition
+  - **Evidence pointer** Abstract, concluding statement; location not provided
+  - **Concern** The abstract asserts that the A tail free state confers competence for Arp2/3 binding, but no direct evidence of binding is presented. The claim is based solely on the structural accessibility of the C-terminal three residues. There is no demonstration that this state actually binds Arp2/3 with relevant affinity or kinetics, nor any comparison with experimental binding data.
+  - **Why it matters** The biological significance of the finding rests on the functional relevance of the A tail free state. Structural accessibility alone does not establish signaling competence, as binding may require additional conformational features or may be kinetically limited. Without functional evidence, the conclusion is speculative.
+  - **Resolution test** Provide either direct simulation evidence of Arp2/3 binding to the A tail free state, or cite and compare with experimental data on N-WASP activation thresholds. At minimum, discuss the relationship between the observed populations and known functional outcomes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The description of the system and the significance of the findings
+  - **Evidence pointer** Abstract, overall; location not provided
+  - **Concern** The abstract assumes familiarity with N-WASP, PIP2, Arp2/3, and the autoinhibition mechanism without sufficient context for a general biophysics readership. Terms like "basic region," "acidic motif," and "open state" are used without definition or schematic explanation. The significance of the 40- to 6-fold range is not explained.
+  - **Why it matters** The Journal of Chemical Physics has a broad readership. If the abstract is not accessible to nonspecialists, the work will not reach its potential audience. The finding about partial autoinhibition release could be of interest beyond the actin community, but only if the context is made clear.
+  - **Resolution test** Revise the abstract to briefly define key components and states, and explain why the fold differences matter for function. Consider adding a sentence on the broader implications for IDP regulation.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract, opening; location not provided
+  - **Issue** The contrast between IDPs and structured proteins is stated but not elaborated. The reader is left to infer why this contrast matters.
+  - **Required correction** Add a brief explanation of why allosteric regulation of IDPs is understudied and why it matters, e.g., the prevalence of IDPs in signaling pathways.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Population percentages
+  - **Evidence pointer** Abstract, "8.5% of the population" and "40- to 6-fold"; location not provided
+  - **Issue** The fold range "40- to 6-fold" is presented without explanation of why the range is so wide. This could confuse readers.
+  - **Required correction** Clarify what determines the range, e.g., different PIP2 levels or simulation conditions, and state the specific values for each condition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Concluding claim
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Issue** The conclusion is stated as a definitive finding, but the abstract does not discuss any limitations or alternative interpretations.
+  - **Required correction** Add a sentence acknowledging that the finding is based on simulations and that experimental validation is needed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of error estimates and convergence analysis) and R1-M2 (no direct evidence of Arp2/3 binding competence) are the primary technical failings. Without addressing these, the central claim is not established from the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The focus on partial autoinhibition release in an IDP is somewhat novel, but the concept of graded activation is not entirely new in the signaling field. The originality is moderate.
+  - Scientific importance: The finding could refine understanding of N-WASP activation, but the functional significance is not demonstrated. The importance is currently limited by the lack of binding evidence.
+  - Interdisciplinary readership: The topic has potential appeal to biophysicists, cell biologists, and biochemists, but the abstract is not sufficiently accessible to nonspecialists.
+  - Technical soundness: The simulation approach is appropriate for the question, but the lack of error analysis and convergence demonstration undermines confidence in the quantitative claims.
+  - Readability for nonspecialists: The abstract is too jargon-heavy and assumes background knowledge that many readers will not have.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the quantitative claims lack statistical support and the functional conclusion is not directly evidenced. I would be supportive if the full manuscript addresses the technical concerns and provides or cites functional validation.
+
+## Risk / unsupported claims
+- The specific population percentages (8.5% open, 40- to 6-fold higher A tail free) are unsupported without error estimates or convergence analysis.
+- The claim that N-WASP is "competent for Arp2/3 binding" is unsupported by direct binding evidence.
+- The biological relevance of the A tail free state is asserted but not demonstrated.
+- The relationship between the simulation conditions and physiological PIP2 levels is not stated, making the 30% condition difficult to interpret.

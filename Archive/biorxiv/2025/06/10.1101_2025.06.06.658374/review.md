@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary data provided
+- **Shared manuscript claim summary** The authors propose that mutations in the linker sequence of the HIF-1α C-terminal activation domain modulate the thermodynamic coupling between its TAZ1-binding motifs, thereby altering the affinity of HIF-1α for TAZ1 and its ability to compete with CITED2 in a unidirectional hypoxia-responsive switch. They report that linker mutations can enhance TAZ1 affinity and CITED2 competition, and attribute this to linker flexibility (glycine content) and unfavorable electrostatic interactions of a conserved arginine with an electropositive TAZ1 surface.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details
+- **Missing materials affecting confidence** Full manuscript, experimental methods, native-gel assay details, fluorescence anisotropy competition data, NMR spectra, mutagenesis constructs, quantitative affinity values, statistical analyses, and structural or computational models
+
+## Reviewer
+- **Overall assessment** The abstract presents a compelling and mechanistically focused hypothesis regarding the role of linker composition in a multivalent protein interaction switch. The findings are potentially significant for understanding allosteric regulation in intrinsically disordered proteins and the hypoxia response. However, the abstract alone provides insufficient detail to evaluate the robustness of the experimental evidence, the quantitative magnitude of the reported effects, or the validity of the mechanistic conclusions. The claim that linker flexibility and electrostatic repulsion govern affinity enhancement is plausible but not fully substantiated from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, allosteric regulation, multivalent interactions, transcriptional regulation, and hypoxia signaling. The work may also interest those studying protein engineering of binding affinity and specificity, as well as biophysicists focused on thermodynamic coupling in disordered systems.
+- **Major strengths** The study addresses a biologically important and mechanistically nuanced question, namely how a disordered linker tunes the reversibility and directionality of a multivalent switch. The use of multiple complementary assays (native-gel, fluorescence anisotropy, NMR) is commendable. The systematic mutagenesis approach, including insertion, deletion, replacement, and scrambling, provides a broad platform for dissecting sequence determinants.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Certain linker mutations enhance the affinity of HIF-1α for TAZ1, and fluorescence anisotropy competition and NMR measurements show that these mutants can compete with CITED2 for TAZ1 more effectively than wild-type HIF-1α."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that certain mutations enhance affinity and competition, but provides no quantitative data, such as dissociation constants, IC50 values, or fold changes relative to wild-type. Without these values, the magnitude and statistical significance of the enhancement cannot be assessed.
+  - **Why it matters** The central claim of the paper is that linker mutations can alter the balance of the hypoxic switch. If the reported enhancements are small or within experimental error, the biological relevance of the effect would be questionable. Quantitative reporting is essential for evaluating the strength of the claim.
+  - **Resolution test** Provide quantitative affinity and competition data (e.g., Kd values, competition IC50 or Ki) with error bars and statistical tests for at least wild-type and representative mutants, in the main text or supplementary figures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** "The TAZ1 affinity and consequent CITED2 competition enhancement depends both on the flexibility of the linker sequence (particularly the presence of glycine residues) and the unfavorable electrostatic interactions of a highly conserved arginine side chain in the center of the linker with an electropositive surface of TAZ1."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract attributes the observed effects to two specific molecular features, glycine-mediated flexibility and arginine-mediated electrostatic repulsion, but no direct evidence is presented to support these mechanisms. For example, no data are shown that link glycine content to conformational flexibility, nor that the arginine side chain specifically interacts with an electropositive TAZ1 surface.
+  - **Why it matters** The mechanistic conclusion is a key novelty of the study. If the proposed determinants are not directly tested, the conclusion remains speculative and could be challenged by alternative explanations, such as changes in secondary structure propensity or altered solvation.
+  - **Resolution test** Include experiments or analyses that directly test the proposed mechanisms, such as circular dichroism or NMR relaxation to assess flexibility, site-directed mutagenesis of the arginine to neutral or negatively charged residues, and structural or computational models showing the arginine-TAZ1 interaction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and scope
+  - **Claim pointer** "The wide range of mutants, which include insertion, deletion, replacement and scrambling of residues in the linker, provide insights into the molecular basis for the exquisite tuning of the hypoxic switch."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims that the mutant panel provides "insights into the molecular basis" but does not specify how many mutants were tested, whether the effects were monotonic or threshold-like, or whether any mutants showed reduced affinity. The absence of a negative or neutral control within the panel is not addressed.
+  - **Why it matters** A comprehensive mutant panel should include examples that disrupt or abolish the effect to demonstrate specificity. Without such controls, the claim that the linker is "exquisitely tuned" is not fully supported.
+  - **Resolution test** Describe the full mutant panel, including the number of mutants per category, and report the range of observed affinities, including any mutants with reduced or unchanged affinity, in the main text or supplementary tables.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "modulates the Avidity and Reversibility" in the title is not explicitly addressed in the abstract. The abstract focuses on affinity and competition, but does not describe how reversibility is measured or affected.
+  - **Required correction** Clarify in the abstract how reversibility is defined and assessed, or adjust the title to better reflect the measured parameters.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "avidity" vs. "affinity"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses "affinity" for a multivalent interaction, which may be more accurately described as "avidity" in some contexts. The distinction is not defined.
+  - **Required correction** Define the terms "affinity" and "avidity" as used in the study, and ensure consistent usage throughout the abstract and manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Statistical reporting
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No statistical details are provided for the reported differences between mutants and wild-type.
+  - **Required correction** Include p-values or confidence intervals for key comparisons, or state that such details are in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of affinity enhancement and mechanistic basis are not quantitatively or directly supported by the abstract. R1-M3 is non-blocking but should be addressed to strengthen the generalizability claim.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a novel question about linker composition in a multivalent disordered protein switch, which is a relatively underexplored area. The approach is creative, but the abstract does not demonstrate a fully original conceptual framework beyond prior work on CITED2 and HIF-1α.
+  - Scientific importance: The hypoxia response is a critical biological process, and understanding the molecular basis of the switch could have broad implications. However, the abstract does not establish the broader significance beyond the specific system.
+  - Interdisciplinary readership: The topic is relevant to biophysics, structural biology, and cell signaling, but the abstract is written in a specialized manner that may limit accessibility to a general scientific audience.
+  - Technical soundness: The use of multiple assays is a strength, but the lack of quantitative data and mechanistic validation in the abstract prevents a full assessment of technical rigor.
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with the hypoxia system and biophysical methods. It is not written for a broad readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the lack of quantitative data and direct mechanistic evidence means the core claims cannot be evaluated. I would be supportive if the full manuscript provides the missing quantitative results and direct tests of the proposed mechanisms.
+
+## Risk / unsupported claims
+- The claim that linker mutations enhance TAZ1 affinity and CITED2 competition is unsupported without quantitative values.
+- The mechanistic attribution to glycine-mediated flexibility and arginine-mediated electrostatic repulsion is unsupported without direct experimental or structural evidence.
+- The claim that the mutant panel provides "insights into the molecular basis for the exquisite tuning" is not evaluable without details on the full panel and range of effects.
+- The title's reference to "reversibility" is not addressed in the abstract and is therefore unassessable.

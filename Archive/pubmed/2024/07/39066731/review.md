@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, experimental section, results, conclusions, and supplementary figure references
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided manuscript material
+- **Shared manuscript claim summary** The authors report that minimal tryptophan/arginine peptides W2R2 and W3R3 undergo liquid-liquid phase separation via self-coacervation in salt-free aqueous solution at high pH, while the dipeptide WR does not self-coacervate but forms complex coacervates with ATP. The study combines experimental characterization (turbidimetry, microscopy, DLS, zeta potential, SAXS, CD) with atomistic molecular dynamics simulations to propose molecular driving forces including π–π stacking and cation−π interactions, and introduces a method to estimate interfacial tension from droplet size and zeta potential measurements.
+- **Visible evidence base** Abstract; full experimental methods; results text with figure references (Figures 1–6); supplementary figure and table references (SI Figures S1–S22, SI Tables S1–S3); conclusions
+- **Missing materials affecting confidence** Actual figures and supplementary data not provided; numerical data (e.g., turbidity values, DLS distributions, SAXS fits) not available; simulation trajectory details and convergence metrics only partially described; no raw spectra or microscopy images accessible for independent verification
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic and technically diverse study of minimal peptide systems capable of liquid-liquid phase separation, which is of interest to the biomolecular condensate and origins-of-life communities. The combination of experimental methods with atomistic simulations is commendable. However, several technical concerns regarding data interpretation, methodological rigor, and the generality of the proposed interfacial tension model require clarification before the central claims can be fully established. The claim that these are among the simplest peptide systems showing self-coacervation is plausible but requires more careful comparison with existing literature.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and liquid-liquid phase separation, particularly those interested in minimal model systems; synthetic biologists developing protocell models; physical chemists working on coacervation and polyelectrolyte complexation; computational chemists studying peptide interactions. The minimal peptide systems could serve as tractable models for understanding molecular driving forces in LLPS.
+- **Major strengths** 1) Systematic experimental characterization using multiple complementary techniques (turbidimetry, optical and confocal microscopy, cryo-TEM, DLS, zeta potential, SAXS, CD). 2) Combination of experimental observations with atomistic MD simulations to propose molecular-level driving forces. 3) Identification of a minimal dipeptide system (WR with ATP) for complex coacervation, which is a significant simplification over existing models. 4) Introduction of a simple method to estimate interfacial tension from droplet size and zeta potential measurements, which could be broadly applicable. 5) Clear phase diagrams mapping LLPS conditions as a function of concentration and pH.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of interfacial tension model
+  - **Claim pointer** The authors claim that interfacial tension can be estimated from droplet size and zeta potential measurements using equations 1–3, yielding γ = 1.8 mN m−1 for W3R3.
+  - **Evidence pointer** Results section, equations 1–3; SI Table S1
+  - **Concern** The proposed model assumes a charged droplet with zero internal charge and surface charge balanced by interfacial tension at the stability limit. This is a highly idealized picture. The derivation from Gauss's law to equation 1 requires the droplet to be a perfect conductor with all charge at the surface, which is not established for peptide coacervates. Furthermore, the use of the Grahame equation (equation 3) assumes a specific electrostatic model (Poisson-Boltzmann) that may not be valid for concentrated peptide systems with significant ion correlations. The estimated γ = 1.8 mN m−1 is at the upper boundary of the cited literature range (10−4–1 mN m−1), and the authors acknowledge large variability due to polydispersity. The model's validity is not tested against any independent measurement of interfacial tension, and no error analysis is provided for the propagation of uncertainties from zeta potential and droplet size measurements.
+  - **Why it matters** The interfacial tension estimation is presented as a novel methodological contribution and is used to support the physical picture of charge-stabilized droplets. If the model is not rigorously justified, this claim is not established, and the quantitative value of γ could be misleading.
+  - **Resolution test** Provide independent validation of the interfacial tension using an established method (e.g., optical trapping microrheology, capillary fluctuation spectroscopy, or coalescence kinetics). Alternatively, provide a detailed derivation with explicit assumptions and a sensitivity analysis showing how γ varies with reasonable uncertainties in zeta potential and droplet size. Demonstrate that the model reproduces known results for a test system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of simulation interpretation
+  - **Claim pointer** The authors claim that MD simulations confirm that self-coacervation of W2R2 is driven by a combination of π–π stacking, anion−π, and cation−π interactions, with specific interaction distances identified from RDF analysis (W–W π–π stacking at r = 0.43 nm; anion−π and cation−π at r = 0.62 and 0.70 nm).
+  - **Evidence pointer** Results section, Figure 6, SI Figures S19–S22, SI Table S3
+  - **Concern** The simulation is performed on a system of 1600 W2R2 molecules at 3 wt% concentration, which is a specific condition. The RDF assignments of interaction types (π–π, anion−π, cation−π) based solely on distance peaks are ambiguous without additional validation (e.g., interaction energy decomposition, orientation analysis, or contact lifetime analysis). The authors state that "a population of anions is expected due to charged peptide C termini" but do not quantify this population or its contribution to the observed RDF peaks. The simulation time (1540 ps) is short for establishing equilibrium in a phase-separating system, and the convergence metrics (Rg, RMSD) shown in SI Figure S20 may not be sufficient to demonstrate that the system has reached a steady state. The connection between the simulated aggregates (hundreds of molecules) and the experimentally observed droplets (micrometer scale) is not established.
+  - **Why it matters** The molecular driving forces proposed (π–π, cation−π interactions) are central to the mechanistic interpretation of coacervation. If the simulation evidence is not robust, the mechanistic claims are weakened, and the distinction from alternative explanations (e.g., hydrophobic effects, hydrogen bonding) is not established.
+  - **Resolution test** Provide additional simulation analyses: interaction energy decomposition (e.g., MM/GBSA or energy by residue pair), orientation analysis of aromatic rings, and contact lifetime distributions. Extend simulation time or provide evidence of convergence (e.g., block averaging, multiple independent runs). If possible, simulate at multiple concentrations to show that the observed interactions are robust. Clarify how the simulated aggregate size relates to experimental droplet sizes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance and contextualization
+  - **Claim pointer** The authors claim that W2R2 and W3R3 are "among the simplest peptide systems observed to date able to undergo either simple or complex coacervation."
+  - **Evidence pointer** Introduction, Conclusions
+  - **Concern** The claim of minimality is not rigorously established. The authors cite prior work on a 14-residue peptide and a computational screen of all dipeptides, but do not systematically compare with other short peptide systems reported in the literature (e.g., dipeptides, tripeptides, or short arginine-rich peptides that may show LLPS). The statement "among the simplest" is vague and not supported by a comprehensive literature comparison. Additionally, the authors do not discuss whether the observed coacervation is specific to the tryptophan/arginine sequence or whether other aromatic/cationic combinations would behave similarly.
+  - **Why it matters** The significance of the work depends partly on the claim of minimality, which positions these peptides as particularly valuable model systems. If comparable or simpler systems exist, the novelty is reduced.
+  - **Resolution test** Provide a systematic literature comparison of short peptide systems reported to undergo LLPS, including sequence length, conditions, and type of coacervation. If possible, test a few control peptides (e.g., W2K2, F2R2, or scrambled sequences) to demonstrate sequence specificity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness of phase diagram determination
+  - **Claim pointer** The authors present phase diagrams for W2R2 and W3R3 showing "extensive areas of LLPS" as a function of peptide concentration and pH.
+  - **Evidence pointer** Results section, Figure 2, SI Figure S7
+  - **Concern** The phase boundaries are determined by turbidimetry and optical microscopy, but the criteria for defining the phase boundary are not clearly specified. Turbidity can arise from non-equilibrium aggregates, kinetic trapping, or precipitation, and the distinction between LLPS (liquid droplets) and solid-like aggregates is not always clear from turbidity alone. The authors mention that W2R2 and W3R3 with ATP form precipitates as well as coacervate droplets, but the phase diagram for the self-coacervation case does not appear to distinguish between these possibilities. The reversibility of the phase transition (e.g., by dilution or pH change) is not demonstrated, which is important for establishing equilibrium LLPS.
+  - **Why it matters** Accurate phase diagrams are essential for the practical use of these peptides as model systems. If the phase boundaries are not rigorously defined, the reported "extensive areas of LLPS" may be misleading.
+  - **Resolution test** Provide clear criteria for phase boundary determination (e.g., turbidity threshold, visual confirmation of spherical droplets by microscopy). Demonstrate reversibility of the phase transition (e.g., by cycling pH or temperature). If possible, use fluorescence recovery after photobleaching (FRAP) or similar methods to confirm the liquid nature of the droplets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Sample preparation
+  - **Evidence pointer** Experimental Section, Sample Preparation
+  - **Issue** The method for preparing coacervates by "titrating a solution containing 1.4 wt% NaOH" is described, but the final pH values for the coacervate samples are not reported in the main text. The pH is stated to be 12.5 for CD measurements and pH 12 for zeta potential, but the pH range over which coacervation occurs is not clearly specified.
+  - **Required correction** Report the final pH values for all coacervate samples and specify the pH range over which LLPS is observed. Provide details on how pH was measured (e.g., pH meter calibration, electrode type).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure references
+  - **Evidence pointer** Results section, Figures 1–6
+  - **Issue** The manuscript refers to multiple supplementary figures and tables, but the main text does not always clearly indicate which data are most critical for supporting each claim. For example, the phase diagrams in Figure 2 are central to the paper, but the corresponding turbidity data are only shown in SI Figure S7.
+  - **Required correction** Consider moving key data (e.g., representative turbidity curves, DLS distributions) to the main text or clearly indicate in the figure captions which supplementary data support each main figure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** CD spectroscopy
+  - **Evidence pointer** Experimental Section, Circular Dichroism Spectroscopy
+  - **Issue** The path length is stated as 0.01 nm, which is likely a typographical error (should be 0.01 cm or 0.1 mm). This affects the calculation of molar ellipticity.
+  - **Required correction** Correct the path length unit and verify that molar ellipticity values are calculated correctly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Experimental Section, Molecular Dynamics Simulations
+  - **Issue** The simulation methods describe the system setup but do not specify the water model, ion parameters, or the method for generating initial configurations beyond "randomly packed." The choice of force field (Amber03) is stated, but the specific parameters for tryptophan and arginine are not detailed.
+  - **Required correction** Provide complete simulation parameters, including water model, ion parameters, temperature coupling details, and the method for generating initial configurations. State the total simulation time and the number of independent runs.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** CD spectral assignment
+  - **Evidence pointer** Results section, Figure 3
+  - **Issue** The assignment of the negative peak at 223 nm to cation−π interactions is based on prior literature for tryptophan–Cu2+ complexes. The relevance of this assignment to peptide self-coacervation in the absence of metal ions is not fully justified.
+  - **Required correction** Provide additional evidence for the cation−π assignment, such as comparison with model compounds, mutation studies, or theoretical calculations of CD spectra.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (interfacial tension model validity), R1-M2 (simulation interpretation robustness), R1-M3 (minimality claim not rigorously established), R1-M4 (phase diagram criteria not fully specified)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work presents a novel combination of minimal peptide sequences and a proposed method for interfacial tension estimation. The identification of a dipeptide system (WR with ATP) for complex coacervation is original. However, the conceptual framework of coacervation driven by cation−π and π–π interactions is well established, and the novelty lies primarily in the specific systems studied.
+  - **Scientific importance** The results are of moderate importance. They provide useful model systems for studying LLPS and protocell formation, but the fundamental insights are incremental rather than transformative. The proposed interfacial tension method, if validated, could be a useful contribution.
+  - **Interdisciplinary readership** The work bridges peptide chemistry, physical chemistry, and origins-of-life research, and would be of interest to researchers in these areas. The methods are described in sufficient detail for specialists, but the broader significance could be better articulated for a general audience.
+  - **Technical soundness** The experimental methods are generally sound, but the interfacial tension model and simulation interpretation require additional validation as detailed in the major concerns. The lack of independent verification of the central methodological claim is a significant weakness.
+  - **Readability for nonspecialists** The manuscript is clearly written and logically organized. The abstract effectively summarizes the key findings. However, the technical details of the interfacial tension model and simulation analysis may be challenging for nonspecialists, and a brief conceptual explanation of these methods would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents interesting and potentially useful results, but the central methodological claim (interfacial tension estimation) and the mechanistic interpretation from simulations require additional validation. The minimality claim should be more carefully contextualized. If these concerns are adequately addressed, the work would be suitable for publication in a specialized journal such as Biomacromolecules.
+
+## Risk / unsupported claims
+- The claim that interfacial tension can be reliably estimated from droplet size and zeta potential measurements (γ = 1.8 mN m−1) is not supported by independent validation or a rigorous derivation of the model's assumptions.
+- The assignment of specific interaction types (π–π, cation−π, anion−π) from RDF peak positions in MD simulations is not fully supported without additional analysis (e.g., energy decomposition, orientation analysis).
+- The claim that W2R2 and W3R3 are "among the simplest peptide systems observed to date" for coacervation is not supported by a systematic literature comparison.
+- The statement that "the population of neutral species facilitates nonelectrostatic intermolecular interactions" is speculative and not directly tested.
+- The assertion that CD spectral changes indicate cation−π interactions is based on analogy with metal complexes and is not independently verified for the peptide systems studied.
+- The phase boundaries in Figure 2 are not rigorously defined, and the distinction between LLPS and other forms of aggregation is not fully established.

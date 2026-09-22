@@ -1,0 +1,156 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.02.21.481360",
+  "title": "Effect of an amyloidogenic SARS-COV-2 protein fragment on α-synuclein monomers and fibrils",
+  "doi": "10.1101/2022.02.21.481360",
+  "abstract": "<h4>ABSTRACT</h4> Using molecular dynamic simulations we study whether amyloidogenic regions in viral proteins can initiate and modulate formation of α-synuclein aggregates, thought to be the disease-causing agent in Parkinson’s Disease. As an example we choose the nine-residue fragment SFYVYSRVK (SK9), located on the C-terminal of the Envelope protein of SARS-COV-2. We probe how the presence of SK9 affects the conformational ensemble of α-synuclein monomers and the stability of two resolved fibril polymorphs. We find that the viral protein fragment SK9 may alter α-synuclein amyloid formation by shifting the ensemble toward aggregation-prone and preferentially rod-like fibril seeding conformations. However, SK9 has only little effect of the stability of pre-existing or newly-formed fibrils.",
+  "authors": [
+    "Jana AK",
+    "Lander CW",
+    "Chesney AD",
+    "Hansmann UHE"
+  ],
+  "published_date": "2022-02-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.02.21.481360",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.02.21.481360.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR460842",
+    "raw_record": {
+      "id": "PPR460842",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR460842"
+        ]
+      },
+      "doi": "10.1101/2022.02.21.481360",
+      "title": "Effect of an amyloidogenic SARS-COV-2 protein fragment on α-synuclein monomers and fibrils",
+      "authorString": "Jana AK, Lander CW, Chesney AD, Hansmann UHE.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Jana AK",
+            "lastName": "Jana",
+            "firstName": "Asis",
+            "initials": "AK"
+          },
+          {
+            "fullName": "Lander CW",
+            "lastName": "Lander",
+            "firstName": "Chance",
+            "initials": "CW"
+          },
+          {
+            "fullName": "Chesney AD",
+            "lastName": "Chesney",
+            "firstName": "Andrew",
+            "initials": "AD"
+          },
+          {
+            "fullName": "Hansmann UHE",
+            "lastName": "Hansmann",
+            "firstName": "Ulrich",
+            "initials": "UHE"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  Using molecular dynamic simulations we study whether amyloidogenic regions in viral proteins can initiate and modulate formation of α-synuclein aggregates, thought to be the disease-causing agent in Parkinson’s Disease. As an example we choose the nine-residue fragment SFYVYSRVK (SK9), located on the C-terminal of the Envelope protein of SARS-COV-2. We probe how the presence of SK9 affects the conformational ensemble of α-synuclein monomers and the stability of two resolved fibril polymorphs. We find that the viral protein fragment SK9 may alter α-synuclein amyloid formation by shifting the ensemble toward aggregation-prone and preferentially rod-like fibril seeding conformations. However, SK9 has only little effect of the stability of pre-existing or newly-formed fibrils.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/02/24/2022.02.21.481360.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.02.21.481360"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR460842"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.02.21.481360"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35580331",
+            "reference": "The journal of physical chemistry. B. \n    2022 May;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS161173",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-02-25",
+      "firstPublicationDate": "2022-02-24",
+      "firstIndexDate": "2022-02-25",
+      "fullTextReceivedDate": "2023-01-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

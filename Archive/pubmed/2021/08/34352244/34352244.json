@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "34352244",
+    "doi": "10.1016/j.abb.2021.109001",
+    "title": "Coarse-grained simulations of phase separation driven by DNA and its sensor protein cGAS."
+  },
+  "content": {
+    "abstract": "The enzyme cGAS functions as a sensor that recognizes the cytosolic DNA from foreign pathogen. The activation of the protein triggers the transcription of inflammatory genes, leading into the establishment of an antipathogen state. An interesting new discovery is that the detection of DNA by cGAS induced the formation of liquid-like droplets. However how cells regulate the formation of these droplets is still not fully understood. In order to unravel the molecular mechanism beneath the DNA-mediated phase separation of cGAS, we developed a polymer-based coarse-grained model which takes into accounts the basic structural organization in DNA and cGAS, as well as the binding properties between these biomolecules. This model was further integrated into a hybrid simulation algorithm. With this computational method, a multi-step kinetic process of aggregation between cGAS and DNA was observed. Moreover, we systematically tested the model under different concentrations and binding parameters. Our simulation results show that phase separation requires both cGAS dimerization and protein-DNA interactions, whereas polymers can be kinetically trapped in small aggregates under strong binding affinities. Additionally, we demonstrated that supramolecular assembly can be facilitated by increasing the number of functional modules in protein or DNA polymers, suggesting that multivalency and intrinsic disordered regions play positive roles in regulating phase separation. This is consistent to previous experimental evidences. Taken together, this is, to the best of our knowledge, the first computational model to study condensation of cGAS-DNA complexes. While the method can reach the timescale beyond the capability of atomic-level MD simulations, it still includes information about spatial arrangement of functional modules in biopolymers that is missing in the mean-field theory. Our work thereby adds a useful dimension to a suite of existing experimental and computational techniques to study the dynamics of phase separation in biological systems.",
+    "keywords": [
+      "Cell signaling",
+      "Coarse-grained simulation",
+      "Phase separation"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Computer Simulation",
+      "DNA/*chemistry/*metabolism",
+      "Humans",
+      "Kinetics",
+      "Membrane Proteins/chemistry/metabolism",
+      "Models, Biological",
+      "Models, Molecular",
+      "Nucleotidyltransferases/*chemistry/*metabolism",
+      "Protein Aggregates",
+      "Signal Transduction",
+      "STING Protein",
+      "Cyclic Guanosine Monophosphate-Adenosine Monophosphate Synthase"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Su, Zhaoqian",
+        "Dhusia, Kalyani",
+        "Wu, Yinghao"
+      ],
+      "short_names": [
+        "Su Z",
+        "Dhusia K",
+        "Wu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Systems and Computational Biology, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY, 10461, USA.",
+        "Department of Systems and Computational Biology, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY, 10461, USA.",
+        "Department of Systems and Computational Biology, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY, 10461, USA. Electronic address: yinghao.wu@einsteinmed.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Su, Zhaoqian",
+        "short_name": "Su Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems and Computational Biology, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY, 10461, USA."
+        ]
+      },
+      {
+        "full_name": "Dhusia, Kalyani",
+        "short_name": "Dhusia K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems and Computational Biology, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY, 10461, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Yinghao",
+        "short_name": "Wu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems and Computational Biology, Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY, 10461, USA. Electronic address: yinghao.wu@einsteinmed.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of biochemistry and biophysics"
+    ],
+    "journal_abbrev": [
+      "Arch Biochem Biophys"
+    ],
+    "pub_date": "2021 Oct 15",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/06 06:00",
+    "fetched_at": "2026-09-20 04:44:21"
+  },
+  "links": {
+    "cites": [
+      "41902470",
+      "39814011",
+      "38014115",
+      "37788587",
+      "35108264"
+    ],
+    "refs": [],
+    "similar": [
+      "34352244",
+      "23912807",
+      "29976794",
+      "24116191",
+      "23722159",
+      "31455523",
+      "32911480",
+      "24462292",
+      "24332024",
+      "32424334",
+      "31142647",
+      "28940468",
+      "30295605",
+      "34015248",
+      "32170294",
+      "34948027",
+      "31772125",
+      "28902841",
+      "28801534",
+      "36070696",
+      "27637147",
+      "24332030",
+      "31534008",
+      "33051594",
+      "33606975",
+      "36243958",
+      "24981511",
+      "33885101",
+      "26199418",
+      "32383996",
+      "37252724",
+      "32911481",
+      "32912999",
+      "35095914",
+      "35322803",
+      "28363908",
+      "33179635",
+      "36139387",
+      "32913000",
+      "29963044",
+      "32911482",
+      "27648547",
+      "35536585",
+      "32860267",
+      "18270964",
+      "27935834",
+      "33539417",
+      "28214358",
+      "33708225",
+      "33406424",
+      "33115500",
+      "35604097",
+      "30791397",
+      "30673358",
+      "32253733",
+      "30510222",
+      "32792394",
+      "27902332",
+      "25425575",
+      "28077645",
+      "32339908",
+      "32796076",
+      "34016129",
+      "32948836",
+      "30872316",
+      "30918080",
+      "33296647",
+      "27125983",
+      "31068249",
+      "29546673",
+      "29446653",
+      "30270045",
+      "30135424",
+      "36189363",
+      "33453922",
+      "24766893",
+      "28930687",
+      "35108342",
+      "34536913",
+      "36541820",
+      "38862770",
+      "39044429",
+      "26723608",
+      "34748548",
+      "36778479",
+      "37292850",
+      "37705794",
+      "36191203",
+      "39356071",
+      "39328748",
+      "36607820",
+      "36771812",
+      "39283459",
+      "33826337",
+      "26136125",
+      "30128255",
+      "31331025",
+      "35795820",
+      "29859829",
+      "36322659",
+      "38359990",
+      "38506294",
+      "39157948",
+      "37186597",
+      "28825749",
+      "32175915",
+      "38115481",
+      "38605028",
+      "35437537",
+      "37989290",
+      "35425240",
+      "35488075"
+    ],
+    "review": [
+      "34352244",
+      "32424334",
+      "34948027",
+      "35095914",
+      "36139387",
+      "27648547",
+      "35536585",
+      "32860267",
+      "33708225",
+      "30673358",
+      "32339908",
+      "32948836",
+      "29546673",
+      "36189363",
+      "24766893"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0003-9861(21)00250-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-STING1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

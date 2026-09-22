@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "41933798",
+    "doi": "10.1016/j.jconrel.2026.114890",
+    "title": "AI-validated fusion proteins for local inhibition of interleukin-17A."
+  },
+  "content": {
+    "abstract": "IL-17A is a potent immunomodulatory cytokine that is upregulated in many disorders characterized by chronic inflammation, including autoimmune-mediated dry eye observed in patients with Sjogren's Disease. Existing IL-17A inhibiting therapies are delivered systemically and have been associated with increased infection rates in patients. Inhibiting IL-17A signaling locally, only in affected tissues, may provide therapeutic benefits without compromising systemic immune functions. To address this unmet need, we have developed a local IL-17A inhibiting therapy by fusing HAP, a peptide which binds and inhibits IL-17A, with elastin-like polypeptides (ELPs), which are intrinsically disordered thermosensitive protein-polymers that can be engineered to undergo liquid-liquid phase separation to form depots after injection. We show tuning of ELP composition allows us to manipulate the pharmacokinetics, and specifically mean absorption time of our local immunosuppressive depots, demonstrating the potential for extended, local therapy. Furthermore, the fusions retain the binding and inhibitory activity of the HAP peptide, aligning with our in silico predictions using AlphaFold3. Finally, we confirmed that our formulations, which are bacterially derived, do not measurably stimulate the innate or adaptive immune system, which is critical for therapies for autoimmune diseases. Together, these findings establish the utility of our novel peptide-ELP fusions for extended local IL-17A inhibition to address chronic inflammation with fewer off-target effects.",
+    "keywords": [
+      "AlphaFold",
+      "Autoimmune disease",
+      "Elastin-like polypeptides",
+      "IL-17A",
+      "In silico design",
+      "LLPS",
+      "Local therapy",
+      "Peptide therapeutics",
+      "Protein-polymers",
+      "Sjogren's disease"
+    ],
+    "mesh_terms": [
+      "*Interleukin-17/antagonists & inhibitors",
+      "Humans",
+      "Animals",
+      "*Peptides/administration & dosage/chemistry/pharmacokinetics/pharmacology",
+      "*Elastin/chemistry/administration & dosage",
+      "*Recombinant Fusion Proteins/administration & dosage/pharmacokinetics/chemistry/pharmacology",
+      "Elastin-Like Polypeptides",
+      "*Immunosuppressive Agents/administration & dosage/pharmacokinetics",
+      "Mice"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Shin-Jae",
+        "Abdelhamid, Sara",
+        "Bhatti, Quratulain",
+        "Attia, Sara Aly",
+        "Ramirez, Ashley D",
+        "Edman, Maria C",
+        "Hamm-Alvarez, Sarah F",
+        "MacKay, J A"
+      ],
+      "short_names": [
+        "Lee SJ",
+        "Abdelhamid S",
+        "Bhatti Q",
+        "Attia SA",
+        "Ramirez AD",
+        "Edman MC",
+        "Hamm-Alvarez SF",
+        "MacKay JA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Alfred E. Mann Department of Biomedical Engineering, Viterbi School of Engineering, University of Southern California, 1042 Downey Way, Los Angeles, CA 90089, United States.",
+        "Department of Pharmacology and Pharmaceutical Sciences, Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, CA 90033, United States.",
+        "Department of Pharmacology and Pharmaceutical Sciences, Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, CA 90033, United States.",
+        "Department of Pharmacology and Pharmaceutical Sciences, Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, CA 90033, United States.",
+        "Department of Pharmacology and Pharmaceutical Sciences, Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, CA 90033, United States.",
+        "Department of Ophthalmology, Roski Eye Institute, Keck School of Medicine, University of Southern California, 1450 San Pablo Street, Los Angeles, CA 90033, United States.",
+        "Department of Pharmacology and Pharmaceutical Sciences, Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, CA 90033, United States; Department of Ophthalmology, Roski Eye Institute, Keck School of Medicine, University of Southern California, 1450 San Pablo Street, Los Angeles, CA 90033, United States. Electronic address: shalvar@usc.edu.",
+        "Alfred E. Mann Department of Biomedical Engineering, Viterbi School of Engineering, University of Southern California, 1042 Downey Way, Los Angeles, CA 90089, United States; Department of Pharmacology and Pharmaceutical Sciences, Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, CA 90033, United States; Department of Ophthalmology, Roski Eye Institute, Keck School of Medicine, University of Southern California, 1450 San Pablo Street, Los Angeles, CA 90033, United States. Electronic address: jamackay@usc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Shin-Jae",
+        "short_name": "Lee SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Alfred E. Mann Department of Biomedical Engineering, Viterbi School of Engineering, University of Southern California, 1042 Downey Way, Los Angeles, CA 90089, United States."
+        ]
+      },
+      {
+        "full_name": "Abdelhamid, Sara",
+        "short_name": "Abdelhamid S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Pharmaceutical Sciences, Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, CA 90033, United States."
+        ]
+      },
+      {
+        "full_name": "Bhatti, Quratulain",
+        "short_name": "Bhatti Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Pharmaceutical Sciences, Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, CA 90033, United States."
+        ]
+      },
+      {
+        "full_name": "Attia, Sara Aly",
+        "short_name": "Attia SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Pharmaceutical Sciences, Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, CA 90033, United States."
+        ]
+      },
+      {
+        "full_name": "Ramirez, Ashley D",
+        "short_name": "Ramirez AD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Pharmaceutical Sciences, Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, CA 90033, United States."
+        ]
+      },
+      {
+        "full_name": "Edman, Maria C",
+        "short_name": "Edman MC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Roski Eye Institute, Keck School of Medicine, University of Southern California, 1450 San Pablo Street, Los Angeles, CA 90033, United States."
+        ]
+      },
+      {
+        "full_name": "Hamm-Alvarez, Sarah F",
+        "short_name": "Hamm-Alvarez SF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Pharmaceutical Sciences, Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, CA 90033, United States; Department of Ophthalmology, Roski Eye Institute, Keck School of Medicine, University of Southern California, 1450 San Pablo Street, Los Angeles, CA 90033, United States. Electronic address: shalvar@usc.edu."
+        ]
+      },
+      {
+        "full_name": "MacKay, J A",
+        "short_name": "MacKay JA",
+        "identifiers": [],
+        "affiliations": [
+          "Alfred E. Mann Department of Biomedical Engineering, Viterbi School of Engineering, University of Southern California, 1042 Downey Way, Los Angeles, CA 90089, United States; Department of Pharmacology and Pharmaceutical Sciences, Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, CA 90033, United States; Department of Ophthalmology, Roski Eye Institute, Keck School of Medicine, University of Southern California, 1450 San Pablo Street, Los Angeles, CA 90033, United States. Electronic address: jamackay@usc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of controlled release : official journal of the Controlled Release Society"
+    ],
+    "journal_abbrev": [
+      "J Control Release"
+    ],
+    "pub_date": "2026 Jun 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/04 06:34",
+    "fetched_at": "2026-09-18 02:10:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41067490",
+      "40924614",
+      "40141149",
+      "39185801",
+      "38936360",
+      "38718835",
+      "38216608",
+      "38110617",
+      "37891896",
+      "37816755",
+      "37236601",
+      "36753519",
+      "36323382",
+      "36212052",
+      "36110854",
+      "35838944",
+      "35365655",
+      "35306230",
+      "35291656",
+      "35013344",
+      "34950923",
+      "34917605",
+      "33968407",
+      "33718344",
+      "33362761",
+      "32428520",
+      "31276401",
+      "31086200",
+      "30995505",
+      "29550766",
+      "28719196",
+      "28479839",
+      "28343398",
+      "27965257",
+      "27736775",
+      "27580411",
+      "27184415",
+      "26422722",
+      "26252407",
+      "25407963",
+      "25007392",
+      "24872599",
+      "24871936",
+      "24418308",
+      "23752063",
+      "22628962",
+      "21852777",
+      "20814933",
+      "18311793"
+    ],
+    "similar": [
+      "41933798",
+      "30359668",
+      "23892265",
+      "41326239",
+      "31095909",
+      "17968946",
+      "41478668",
+      "31408605",
+      "24692552",
+      "40626948",
+      "37531360",
+      "27184415",
+      "41873721",
+      "23406497",
+      "34504501",
+      "38704431",
+      "23928357",
+      "21182786",
+      "35306230",
+      "40114173",
+      "23565607",
+      "26578439",
+      "28033649",
+      "41627289",
+      "41612770",
+      "32326657",
+      "42251873",
+      "25481446",
+      "20546809",
+      "20478348",
+      "39609315",
+      "38698072",
+      "41482418",
+      "20814933",
+      "22208987",
+      "36741386",
+      "40591233",
+      "24961229",
+      "29678878",
+      "26820997",
+      "19400960",
+      "30217600",
+      "37415317",
+      "38802812",
+      "38843642",
+      "23253932",
+      "29784932",
+      "40269970",
+      "23819583",
+      "37144630",
+      "24607361",
+      "42204138",
+      "32544369",
+      "23422214",
+      "27924160",
+      "28572155",
+      "32398312",
+      "27111242",
+      "39542072",
+      "38281625",
+      "38980747",
+      "27038196",
+      "32402913",
+      "41836391",
+      "20017902",
+      "32190533",
+      "30652654",
+      "30048621",
+      "37236601",
+      "40729967",
+      "17407348",
+      "29791150",
+      "20584972",
+      "30715857",
+      "26325592",
+      "27627061",
+      "23714121",
+      "23355735",
+      "38367550",
+      "40840813",
+      "29778783",
+      "29087202",
+      "39298642",
+      "31952530",
+      "26334030",
+      "28570931",
+      "40575826",
+      "27207443",
+      "35620115",
+      "35066019",
+      "24455775",
+      "39519167",
+      "27005861",
+      "24291675",
+      "28249243",
+      "24866938",
+      "27616043",
+      "32360069",
+      "21699930",
+      "35583908"
+    ],
+    "review": [
+      "41933798",
+      "26578439",
+      "20546809",
+      "20478348",
+      "30217600",
+      "23253932",
+      "23819583",
+      "27111242",
+      "38281625",
+      "30652654",
+      "26325592"
+    ],
+    "pmc": [
+      "13175603"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0168-3659(26)00292-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41933798/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41933798",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

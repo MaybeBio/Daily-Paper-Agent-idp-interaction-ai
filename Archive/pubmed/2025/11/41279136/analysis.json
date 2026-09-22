@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41279136",
+  "title": "Direct Optical Quantification of Chain Collapse, Reduced Dielectric, and Water Release Driving Protein Phase Separation.",
+  "authors": "Perets, Ethan A; Spies, Jacob A; Cheong, Justin H; Shi, Lixue; Asamoto, DeeAnn K; Holehouse, Alex S; Kim, Judy E; Min, Wei; Neu, Jens; Yan, Elsa C Y",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-11-24",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合无标记光学光谱与深度学习预测，定量揭示DDX4无序N端结构域链塌缩、介电降低和水释放增强凝聚体内多价PPI的相分离机制，对象、互作与方法齐备且聚焦机制建模。",
+  "abstract": "Biomolecular condensates represent unique microenvironments that organize intracellular biology and promote biochemical reactions. However, the biomolecular interactions driving condensate phase separation are often weak, transient, and heterogeneous. Investigating the structural biology and chemical properties of condensate interiors has therefore proven experimentally challenging, often requiring the use of perturbative probes. To overcome this challenge, we combine label-free optical scattering and vibrational spectroscopy approaches spanning ultraviolet, visible, mid-infrared, and terahertz wavelengths with deep-learning-based ensemble prediction of intrinsically disordered protein conformations. Our experimental and computational results reveal that the intrinsically disordered N-terminal domain of the RNA Deadbox helicase 4 (DDX4) deviates from random coil behavior and undergoes chain collapse that correlates with phase separation, which leads to lower dielectric and reduced water content inside condensates. Our data support a model of DDX4 phase separation whereby chain collapse, reduced dielectric, and water release enhance the strength of multivalent protein-protein interactions within condensates, driving condensate growth and phase separation through positive feedback. Our study addresses the critical driving forces of biomolecular phase separation across a range of length scales, providing quantitative insights into protein-protein/protein-solvent interactions and the chemical properties of condensate interiors.",
+  "abstract_zh": "生物分子凝聚体代表了组织细胞内生物学并促进生化反应的独特微环境。然而，驱动凝聚体相分离的生物分子相互作用通常较弱、短暂且异质。因此，研究凝聚体内部的结构生物学和化学性质在实验上具有挑战性，往往需要使用扰动性探针。为克服这一挑战，我们结合了跨越紫外、可见光、中红外和太赫兹波长的无标记光学散射和振动光谱方法，以及基于深度学习的固有无序蛋白构象集成预测。我们的实验和计算结果揭示，RNA死盒螺旋酶4（DDX4）的固有无序N端结构域偏离随机卷曲行为，并发生与相分离相关的链塌缩，这导致凝聚体内部介电常数降低和水分含量减少。我们的数据支持DDX4相分离模型，其中链塌缩、介电常数降低和水分释放增强凝聚体内多价蛋白-蛋白相互作用的强度，通过正反馈驱动凝聚体生长和相分离。我们的研究解决了跨多个长度尺度生物分子相分离的关键驱动力，为蛋白-蛋白/蛋白-溶剂相互作用及凝聚体内部的化学性质提供了定量见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41279136/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41279136/",
+  "paper_page_path": "papers/pubmed/41279136/index.html"
+}

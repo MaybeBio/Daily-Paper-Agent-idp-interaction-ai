@@ -1,0 +1,162 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.05.515309",
+  "title": "Enrichment of charge-absent regions in phase separated proteins",
+  "doi": "10.1101/2022.11.05.515309",
+  "abstract": "Many studies focus on the relationship between protein charge and liquid-liquid phase separation (LLPS), generally finding that a large degree of charge neutralisation is involved for condensate formation. Here, sequences within human proteins that lack the charge-bearing residues Asp, Glu, Lys, and Arg (termed charge-absent) are analysed alongside annotation for involvement in LLPS. Scaffold proteins, central to condensate formation, on average possess longer charge-absent regions than those not key for LLPS. Charge-absent regions tend to have relatively high hydropathy scores. Overall, they are enriched in Ala, Gly, Pro, and Ser with more specific groupings evident when the subset is clustered by amino acid composition. For several proteins, segments with charge-absent regions have been identified as modulators of LLPS. It is hypothesised that for at least some of the charge-absent regions, a lack of charged group desolvation energy, together with a relatively hydrophobic sequence composition, may facilitate condensation through homomeric interactions. If this is the case, it should be relatively easy to modulate through incorporation of charge through engineering, potentially including pH-sensing.",
+  "authors": [
+    "Nicolaou ST",
+    "Verma CS",
+    "Warwicker J"
+  ],
+  "published_date": "2022-11-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.05.515309",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.05.515309.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR567785",
+    "raw_record": {
+      "id": "PPR567785",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR567785"
+        ]
+      },
+      "doi": "10.1101/2022.11.05.515309",
+      "title": "Enrichment of charge-absent regions in phase separated proteins",
+      "authorString": "Nicolaou ST, Verma CS, Warwicker J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Nicolaou ST",
+            "lastName": "Nicolaou",
+            "firstName": "Sonia",
+            "initials": "ST",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biological Sciences, Faculty of Biology, Medicine and Health, Manchester Institute of Biotechnology, University of Manchester, Manchester M1 7DN, UK"
+                },
+                {
+                  "affiliation": "Bioinformatics Institute, Agency for Science, Technology, and Research (A*STAR)"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Verma CS",
+            "lastName": "Verma",
+            "firstName": "Chandra",
+            "initials": "CS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Institute, Agency for Science, Technology, and Research (A*STAR)"
+                },
+                {
+                  "affiliation": "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, Singapore 637551"
+                },
+                {
+                  "affiliation": "Department of Biological Sciences, National University of Singapore, 14 Science Drive 4, Singapore 117543"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Warwicker J",
+            "lastName": "Warwicker",
+            "firstName": "Jim",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biological Sciences, Faculty of Biology, Medicine and Health, Manchester Institute of Biotechnology, University of Manchester, Manchester M1 7DN, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Many studies focus on the relationship between protein charge and liquid-liquid phase separation (LLPS), generally finding that a large degree of charge neutralisation is involved for condensate formation. Here, sequences within human proteins that lack the charge-bearing residues Asp, Glu, Lys, and Arg (termed charge-absent) are analysed alongside annotation for involvement in LLPS. Scaffold proteins, central to condensate formation, on average possess longer charge-absent regions than those not key for LLPS. Charge-absent regions tend to have relatively high hydropathy scores. Overall, they are enriched in Ala, Gly, Pro, and Ser with more specific groupings evident when the subset is clustered by amino acid composition. For several proteins, segments with charge-absent regions have been identified as modulators of LLPS. It is hypothesised that for at least some of the charge-absent regions, a lack of charged group desolvation energy, together with a relatively hydrophobic sequence composition, may facilitate condensation through homomeric interactions. If this is the case, it should be relatively easy to modulate through incorporation of charge through engineering, potentially including pH-sensing.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/06/2022.11.05.515309.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.05.515309"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR567785"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR567785&type=FILE&fileName=EMS156777-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS156777",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-11-08",
+      "firstPublicationDate": "2022-11-06",
+      "firstIndexDate": "2022-11-08",
+      "fullTextReceivedDate": "2022-11-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

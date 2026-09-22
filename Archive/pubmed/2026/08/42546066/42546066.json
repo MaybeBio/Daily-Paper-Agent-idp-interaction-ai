@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "42546066",
+    "doi": "10.1371/journal.pcbi.1014568",
+    "title": "Cell-specific Cahn-Hilliard models predict condensed fates of the chromosomal passenger complex."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates create dynamic subcellular compartments that alter systems-level properties of the networks surrounding them. Standard reaction-diffusion models of systems biology cannot define where these compartments emerge nor track how they evolve. One alternative physicochemical model of soluble and condensed states in space and time is the Cahn-Hilliard equation, which specifies a diffuse interface between the two phases. Customized numerical approaches required to solve this equation are absent from computing environments often used for systems biology, however, and the equation's interfacial energy coefficient lacks empirical constraints. Here, using two complementary numerical strategies, we built stable, self-consistent Cahn-Hilliard solvers in three common systems-biology programming languages. The algorithms simulated the complete time evolution of condensed droplets as they dissolved or persisted, relating critical equilibrium droplet size to the Cahn-Hilliard interfacial energy coefficient. We applied this universal relationship to the chromosomal passenger complex, a multi-protein assembly that reportedly condenses on mitotic chromosomes. The fully constrained Cahn-Hilliard simulations predicted spatiotemporal dewetting and coarsening behaviors that matched experiments in cell types with different interfacial energy coefficients. Together, these results suggest how initially variegated recruitment yields robust localization of the chromosomal passenger complex to the inner centromere by the end of prometaphase. More generally, the Cahn-Hilliard equation tests whether condensate dynamics behave as a simple phase-separated liquid, and its numerical solutions advance generalized modeling of biomolecular systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Models, Biological",
+      "Algorithms",
+      "Computer Simulation",
+      "Computational Biology",
+      "Systems Biology/methods",
+      "*Chromosomes/metabolism/chemistry",
+      "Mitosis"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Groves, Sarah M",
+        "Lu, Min-Jhe",
+        "Alvarez-Yela, Astrid Catalina",
+        "Gerardo-Ramirez, Monserrat",
+        "Stukenberg, P Todd",
+        "Lowengrub, John S",
+        "Janes, Kevin A"
+      ],
+      "short_names": [
+        "Groves SM",
+        "Lu MJ",
+        "Alvarez-Yela AC",
+        "Gerardo-Ramirez M",
+        "Stukenberg PT",
+        "Lowengrub JS",
+        "Janes KA"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9613-7703",
+        "ORCID: 0000-0002-8028-6138"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia, United States of America.",
+        "Institute of Computational and Modeling Science, National Tsing Hua University, Hsinchu, Taiwan.",
+        "Department of Mathematics, University of California at Irvine, Irvine, California, United States of America.",
+        "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia, United States of America.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia, Charlottesville, Virginia, United States of America.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia, Charlottesville, Virginia, United States of America.",
+        "Department of Mathematics, University of California at Irvine, Irvine, California, United States of America.",
+        "Department of Biomedical Engineering, University of California at Irvine, Irvine, California, United States of America.",
+        "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia, United States of America.",
+        "Department of Biochemistry and Molecular Genetics, University of Virginia, Charlottesville, Virginia, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Groves, Sarah M",
+        "short_name": "Groves SM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia, United States of America."
+        ]
+      },
+      {
+        "full_name": "Lu, Min-Jhe",
+        "short_name": "Lu MJ",
+        "identifiers": [
+          "0000-0001-9613-7703"
+        ],
+        "affiliations": [
+          "Institute of Computational and Modeling Science, National Tsing Hua University, Hsinchu, Taiwan.",
+          "Department of Mathematics, University of California at Irvine, Irvine, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Alvarez-Yela, Astrid Catalina",
+        "short_name": "Alvarez-Yela AC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia, United States of America."
+        ]
+      },
+      {
+        "full_name": "Gerardo-Ramírez, Monserrat",
+        "short_name": "Gerardo-Ramírez M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia, Charlottesville, Virginia, United States of America."
+        ]
+      },
+      {
+        "full_name": "Stukenberg, P Todd",
+        "short_name": "Stukenberg PT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Genetics, University of Virginia, Charlottesville, Virginia, United States of America."
+        ]
+      },
+      {
+        "full_name": "Lowengrub, John S",
+        "short_name": "Lowengrub JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics, University of California at Irvine, Irvine, California, United States of America.",
+          "Department of Biomedical Engineering, University of California at Irvine, Irvine, California, United States of America."
+        ]
+      },
+      {
+        "full_name": "Janes, Kevin A",
+        "short_name": "Janes KA",
+        "identifiers": [
+          "0000-0002-8028-6138"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Virginia, Charlottesville, Virginia, United States of America.",
+          "Department of Biochemistry and Molecular Genetics, University of Virginia, Charlottesville, Virginia, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/03 18:37",
+    "fetched_at": "2026-09-18 05:26:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41193876",
+      "41084487",
+      "39385023",
+      "39333715",
+      "38905351",
+      "38781967",
+      "38614097",
+      "37862637",
+      "37683610",
+      "37055441",
+      "37024649",
+      "36657389",
+      "36459561",
+      "36368307",
+      "36323859",
+      "36071192",
+      "35507881",
+      "35211183",
+      "34883116",
+      "34702821",
+      "34400648",
+      "34135122",
+      "33113512",
+      "33110215",
+      "32939066",
+      "32684431",
+      "32028528",
+      "31753533",
+      "31570499",
+      "31481798",
+      "30778230",
+      "30737408",
+      "29973724",
+      "28935776",
+      "28681151",
+      "28343965",
+      "28225081",
+      "28202730",
+      "26705896",
+      "26175154",
+      "25852189",
+      "23818579",
+      "21529714",
+      "20929775",
+      "20228812",
+      "19918049",
+      "19053173",
+      "18345008",
+      "15314214",
+      "15117008",
+      "11923843",
+      "11815634",
+      "11799242",
+      "1975513"
+    ],
+    "similar": [
+      "42546066",
+      "40791366",
+      "42475469",
+      "31498000",
+      "42316717",
+      "23912807",
+      "24023005",
+      "33231755",
+      "41430887",
+      "20365347",
+      "31226118",
+      "18643048",
+      "11970189",
+      "40329837",
+      "36089998",
+      "26775855",
+      "26871173",
+      "24711722",
+      "34095939",
+      "15446995",
+      "39391269",
+      "27739765",
+      "21230581",
+      "40371835",
+      "22680484",
+      "26223676",
+      "15903773",
+      "41440410",
+      "39073969",
+      "17358244",
+      "30694617",
+      "30780260",
+      "24125222",
+      "23520980",
+      "37219647",
+      "34714899",
+      "31929667",
+      "33505106",
+      "32053104",
+      "27248512",
+      "27501043",
+      "19905429",
+      "37739387",
+      "38491582",
+      "24249770",
+      "34942763",
+      "35974741",
+      "34046183",
+      "28040877",
+      "21106119",
+      "40745720",
+      "33132737",
+      "31108671",
+      "23410429",
+      "36842986",
+      "27110063",
+      "35617199",
+      "18485374",
+      "25679741",
+      "15888343",
+      "26175154",
+      "39636062",
+      "18622650",
+      "32684321",
+      "25353927",
+      "16332371",
+      "11088203",
+      "22727185",
+      "42543210",
+      "31481798",
+      "21761246",
+      "26577816",
+      "38849360",
+      "38243507",
+      "15571701",
+      "20211843",
+      "14754351",
+      "31306061",
+      "18787827",
+      "17358297",
+      "34206440",
+      "37322949",
+      "32922975",
+      "30945244",
+      "31958956",
+      "36247354",
+      "41183382",
+      "33307683",
+      "40454651",
+      "32688516",
+      "17764552",
+      "22181256",
+      "26609922",
+      "42204152",
+      "39578406",
+      "34309513",
+      "33879053",
+      "33601548",
+      "39191787",
+      "32250245"
+    ],
+    "review": [
+      "42546066",
+      "32684321",
+      "20211843"
+    ],
+    "pmc": [
+      "13446744"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1014568",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42546066/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

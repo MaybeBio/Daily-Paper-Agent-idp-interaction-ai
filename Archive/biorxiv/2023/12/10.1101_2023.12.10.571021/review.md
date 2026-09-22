@@ -1,0 +1,90 @@
+## Review setup
+
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a hybrid graph neural network framework (HGNNPIP) for protein-protein interaction (PPI) prediction. They argue that existing machine learning methods suffer from high false positives due to data distribution bias introduced by subcellular localization (SL)-based negative sampling. They introduce a new negative instance sampling strategy and report superior performance over four existing methods on six benchmark datasets. They also apply HGNNPIP to a rice-pathogen interaction system and report in vivo validation of multiple disease-resistance-related regulations.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, model architecture details, or experimental protocols are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, benchmark dataset specifications, baseline method details, hyperparameter settings, statistical significance tests, in vivo experimental methods and raw data, code availability
+
+## Reviewer
+
+- **Overall assessment** The abstract presents a potentially useful contribution to computational PPI prediction, particularly the critique of SL-based negative sampling and the proposed alternative sampling strategy. However, the abstract alone provides insufficient evidence to evaluate the technical soundness, reproducibility, or validity of the reported claims. The performance comparison lacks quantitative detail, and the in vivo validation is described only in passing. The core claims are plausible but currently not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on PPI prediction, graph neural network applications in biology, and interactome-scale machine learning. Researchers studying plant-pathogen interactions, particularly rice immunity, may also find the application component relevant. The negative sampling critique could interest method developers focused on benchmark construction in biological prediction tasks.
+- **Major strengths** The authors identify a specific and plausible source of bias in existing PPI prediction methods, namely SL-based negative sampling, and propose a targeted remedy. The inclusion of in vivo validation for a downstream biological application is commendable and suggests attention to experimental corroboration beyond computational metrics. The framework is positioned as hybrid, which may offer architectural flexibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that HGNNPIP outperforms four existing methods on six benchmark datasets.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No quantitative performance metrics, statistical significance values, or dataset-specific results are reported. The claim of superiority cannot be assessed without knowing the magnitude of improvement, variance across datasets, or whether differences are statistically meaningful.
+  - **Why it matters** A central claim of the work is that the proposed method is better than existing approaches. Without numerical evidence, the reader cannot judge whether the improvement is substantive or marginal, nor whether it generalizes across the six datasets.
+  - **Resolution test** Provide a table or figure with performance metrics for all methods on all six datasets, including standard deviations and significance tests (e.g., paired t-test or Wilcoxon). State the evaluation metric clearly (e.g., AUROC, AUPRC, F1).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that high false positives in existing methods are due to bias in data distribution caused by subcellular localization.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The causal link between SL-based negative sampling and high false positives is asserted but not demonstrated. No analysis is shown that isolates the effect of SL bias from other potential sources of error, such as feature representation, class imbalance, or model architecture.
+  - **Why it matters** The proposed negative sampling strategy is motivated by this causal claim. If the claim is not rigorously established, the novelty and necessity of the proposed approach are weakened.
+  - **Resolution test** Include a controlled experiment where the only variable is the negative sampling strategy, with all other components held fixed. Show that SL-based sampling leads to inflated false positives relative to the proposed strategy on the same datasets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe a hybrid graph neural network framework and a new negative instance sampling strategy.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No architectural details, hyperparameter choices, training procedures, or data preprocessing steps are provided. The negative sampling strategy is described only conceptually.
+  - **Why it matters** Reproducibility is a core requirement for computational method papers. Without these details, other researchers cannot implement or benchmark the method independently.
+  - **Resolution test** Provide a full methods section with model architecture, training details, and a precise algorithmic description of the negative sampling strategy. State code and data availability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors report that in vivo experiments confirmed multiple regulations related to disease resistance in rice.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The in vivo validation is mentioned in a single sentence with no experimental details, no number of validated interactions, no statistical measures, and no description of the biological assays used.
+  - **Why it matters** This is a strong claim that bridges computational prediction with biological confirmation. Without experimental detail, the claim cannot be evaluated for rigor or significance.
+  - **Resolution test** Provide a dedicated results section describing the experimental system, assays, controls, sample sizes, and statistical analysis. Include representative data in figures or tables.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "almost all existing machine learning methods rely on Subcellular Localization (SL) to construct balanced datasets" is overly broad and may not accurately represent the field.
+  - **Required correction** Qualify the statement with a citation or rephrase to "many existing methods" or "a common approach in the field."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The six benchmark datasets are not named or described.
+  - **Required correction** List the dataset names and provide basic characteristics such as size, organism, and interaction type.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison scope
+  - **Affected element** Baseline methods
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The four existing methods used for comparison are not named.
+  - **Required correction** Name the baseline methods and briefly justify their selection as representative of the state of the art.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Framework description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "hybrid" is used without specifying what is hybridized.
+  - **Required correction** Clarify whether the hybridity refers to combining graph neural network types, integrating multiple data modalities, or another design choice.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality: The critique of SL-based negative sampling is a potentially original contribution, but its novelty cannot be fully assessed without a literature comparison. Scientific importance: PPI prediction is a relevant problem, and addressing benchmark bias is valuable, but the significance of the proposed solution is not yet demonstrated. Interdisciplinary readership: The work bridges machine learning and molecular biology, which could appeal to a broad audience, but the abstract does not make the biological findings accessible to nonspecialists. Technical soundness: Cannot be evaluated from the abstract alone; the absence of quantitative results and methodological detail is a major limitation. Readability for nonspecialists: The abstract is generally readable but uses field-specific terms without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The authors should be encouraged to resubmit a complete manuscript with full methodological detail, quantitative results, and rigorous validation. If the full manuscript addresses the concerns above, the work could become a solid contribution to the computational PPI prediction literature.
+
+## Risk / unsupported claims
+
+- The claim that HGNNPIP outperforms four existing methods on six benchmark datasets is unsupported without quantitative results.
+- The causal claim that SL-based negative sampling causes high false positives is unsupported without controlled experiments.
+- The claim that in vivo experiments confirmed multiple disease-resistance-related regulations is unsupported without experimental detail.
+- The general statement that "almost all existing machine learning methods rely on SL" is unsupported and likely overstated.
+- The overall claim of "high reliability" of the framework is not established from the abstract alone.

@@ -1,0 +1,97 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, sections on CCM, shell permeability, assembly, Discussion, Conclusion) as provided by the user.
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the review article as presented. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors review computational (primarily molecular dynamics) studies of bacterial microcompartment (BMC) shell permeability and assembly, with the goal of informing carboxysome redesign for enhanced cyanobacterial carbon fixation. They argue that MD simulations reveal pore biophysical properties and electrostatic surfaces that govern substrate diffusion, and that assembly pathways are kinetically controlled by cargo interactions while morphology depends on shell factors. They contextualize these findings within experimental literature and propose future directions.
+- **Visible evidence base** The manuscript cites numerous experimental and computational studies, including specific simulation works (e.g., Park et al., 2017; Faulkner et al., 2020; Mahinthichaichan et al., 2018; Trettel et al., 2023; Perlmutter et al., 2016; Mohajerani and Hagan, 2018; Mohajerani et al., 2021; Tsidilkovski et al., 2022). Figures are referenced (Figures 1–4) but not provided in the supplied material.
+- **Missing materials affecting confidence** Figures and their legends are not provided, limiting verification of data presentation. No supplementary information or detailed methods for cited simulations are available. The manuscript is a review, so primary data are not expected, but the absence of figures reduces the ability to assess the accuracy of visual summaries.
+
+## Reviewer
+- **Overall assessment** This is a well-structured and timely review that addresses an important and growing area: the use of computational methods to understand and engineer bacterial microcompartments for carbon fixation. The authors successfully synthesize a range of simulation studies and connect them to experimental observations, offering practical insights for carboxysome redesign. The writing is generally clear and accessible, though some sections could benefit from tighter organization and more explicit critical evaluation of the cited models. The main weakness is a tendency to present simulation results as more definitive than the underlying methods may warrant, and a lack of discussion of limitations or potential artifacts in the reviewed studies. Overall, the manuscript makes a useful contribution but would be strengthened by more balanced and critical treatment of the computational evidence.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, bioengineering, and plant biotechnology, particularly those working on carbon fixation, carboxysome engineering, or BMC-based applications. The review provides a concise entry point for experimentalists seeking to understand what computational models can and cannot tell them about BMC permeability and assembly. It may also interest computational biologists looking for a summary of current modeling approaches in this niche area.
+- **Major strengths** 
+  - Clear and logical organization, moving from biological context to specific simulation findings and then to future directions.
+  - Effective integration of computational and experimental literature, which enhances the practical relevance of the review.
+  - The discussion of design implications (e.g., scaffold engineering, expression system design) is valuable and actionable.
+  - The authors acknowledge the limited number of carboxysome-specific simulations and appropriately draw on broader BMC literature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that MD simulations "predict the biophysical properties surrounding the central pore in BMC-H shell subunits, which in turn dictate the efficiency of substrate diffusion" and that "the higher free-energy barrier does not wholly block substrates... but does impede the process kinetically."
+  - **Evidence pointer** Section "The biophysical properties of the central pore present an energetic barrier to diffusion"; location not provided
+  - **Concern** The review presents simulation results (e.g., free-energy barriers, hydrogen-bonding explanations) as if they are robust and directly transferable to carboxysome function. However, the cited studies use different force fields, system sizes, and sampling methods, and the authors do not discuss how these choices might affect the conclusions. For example, the claim that pore-lining residues dictate permeability is based on a limited number of systems, and the transferability to carboxysome-specific pores (which may have different electrostatic environments) is not critically examined.
+  - **Why it matters** Overstating the certainty of computational predictions could mislead experimentalists who rely on these models for design decisions. A more nuanced discussion of the limitations and assumptions of MD simulations would increase the credibility and utility of the review.
+  - **Resolution test** The authors should add a paragraph or subsection explicitly addressing the limitations of the reviewed simulations, including force field sensitivity, sampling convergence, and the extent to which simplified models (e.g., single pores, isolated shell patches) capture the behavior of intact BMCs. They should also note where experimental validation exists and where it is lacking.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "assembly pathway is largely dictated kinetically by cargo interactions while final morphology is dependent on shell factors" and that these findings "carry direct carboxysome design implications."
+  - **Evidence pointer** Section "Modeling the physical principles underlying carboxysome assembly"; location not provided
+  - **Concern** The review does not critically evaluate the extent to which the cited assembly simulations (e.g., Perlmutter et al., Mohajerani et al.) are validated by experimental data. For instance, the claim that stronger cargo-cargo interactions lead to larger shells is based on coarse-grained models with specific assumptions about interaction strengths and stoichiometry. The authors mention experimental support (e.g., concentric layers) but do not discuss cases where simulations and experiments disagree or where alternative explanations exist.
+  - **Why it matters** The design implications drawn from these simulations are a key selling point of the review. If the underlying models are not robustly validated, the recommendations may be premature. A more critical assessment would help readers judge the reliability of the proposed design rules.
+  - **Resolution test** The authors should explicitly compare simulation predictions with experimental observations for each major claim (e.g., size, packaging, pathway), noting where agreement is strong, where it is weak, and what additional experiments or simulations are needed to resolve discrepancies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The manuscript aims to present computational insights to a broad audience, including experimentalists.
+  - **Evidence pointer** Throughout; location not provided
+  - **Concern** Some sections assume familiarity with simulation techniques (e.g., umbrella sampling, metadynamics, coarse-grained models) without sufficient explanation of what these methods do or why they are appropriate. Terms like "free-energy barrier," "electrostatic funnel," and "concentric layers" are used without clear definitions or context for readers who may not be computational specialists.
+  - **Why it matters** The stated goal of the review is to inform experimental design. If the computational concepts are not accessible, the target audience may struggle to extract actionable insights.
+  - **Resolution test** The authors should add a brief primer or glossary explaining key simulation methods and terms, or expand the text to define these concepts in plain language when first introduced.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract is dense and lists multiple findings without a clear take-home message. The phrase "practical inferences to be made between classes" is vague.
+  - **Required correction** Consider revising the abstract to state the main conclusion more directly, e.g., "MD simulations have identified key pore and surface features that control permeability and assembly, providing a basis for rational carboxysome engineering."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "The biophysical properties of the central pore present an energetic barrier to diffusion"
+  - **Evidence pointer** Location not provided
+  - **Issue** The statement that "the higher free-energy barrier does not wholly block substrates... but does impede the process kinetically" is presented without quantitative context. It is unclear how large the barriers are or how they compare across different substrates.
+  - **Required correction** Provide specific free-energy values or ranges from the cited studies, and note whether these are consistent across different simulation setups.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section "The role of carboxysome-inspired scaffolds in BMC assembly"
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of scaffold engineering is interesting but brief. The authors mention CsoS2 and CcmM but do not elaborate on how the simulation findings translate into specific design parameters (e.g., scaffold length, binding affinity).
+  - **Required correction** Expand this section to provide more concrete examples of how simulation-derived insights could guide scaffold modification, perhaps with a table or figure summarizing key parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "The future of computational models and methods"
+  - **Evidence pointer** Location not provided
+  - **Issue** The phrase "supra coarse-grained" is used without definition, and the discussion of multi-resolution methods is brief and somewhat abstract.
+  - **Required correction** Define "supra coarse-grained" and provide a simple example of how multi-resolution approaches could be applied to carboxysome modeling.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusion
+  - **Evidence pointer** Location not provided
+  - **Issue** The conclusion repeats earlier points without synthesizing them into a clear forward-looking statement. The phrase "undoubtably" is a typo.
+  - **Required correction** Tighten the conclusion to emphasize the most important take-home messages and correct the typo to "undoubtedly."
+- **Technical failings that need to be addressed before the case is established** 
+  - The review does not critically assess the limitations of the cited simulation methods (e.g., force field accuracy, sampling convergence, system size effects). This is a significant gap for a review that aims to guide experimental design.
+  - The manuscript does not provide a clear framework for how simulation predictions should be validated experimentally, which weakens the practical utility of the proposed design rules.
+  - Some claims about permeability and assembly are presented as established facts rather than as model-dependent predictions, which could mislead readers.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The review covers a relatively niche area, but it does not present a novel framework or synthesis that would be considered highly original. It is a useful summary of existing work rather than a new conceptual contribution.
+  - **Scientific importance** The topic is important for carbon fixation and synthetic biology, but the review does not make a strong case for why the computational insights are transformative or how they change current thinking. The importance is more incremental than paradigm-shifting.
+  - **Interdisciplinary readership** The review bridges computational biology, structural biology, and bioengineering, which could appeal to a broad audience. However, the lack of accessible explanations for simulation methods may limit its reach to nonspecialists.
+  - **Technical soundness** The review is generally accurate in its descriptions of the cited studies, but it lacks critical evaluation of the methods and assumptions. This is a notable weakness for a review that aims to inform experimental design.
+  - **Readability for nonspecialists** The writing is clear in places but assumes familiarity with simulation techniques. The abstract and some sections are dense and could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The review addresses a relevant and timely topic and provides a useful synthesis of computational and experimental work. However, the lack of critical assessment of simulation limitations and the absence of a clear validation framework are significant weaknesses that should be addressed before the manuscript can be considered a reliable guide for experimentalists.
+
+## Risk / unsupported claims
+- The claim that "MD simulations reveal that substrate permeation is controlled by a series of biophysical properties, encoded by residues mainly along the outer concave surface, and substrate competition" is presented as a general conclusion, but the supporting evidence comes from a small number of studies on specific BMC-H proteins. The generalizability to all carboxysomes is not established.
+- The statement that "assembly pathway is largely dictated kinetically by cargo interactions while final morphology is dependent on shell factors" is a simplification that may not hold across all BMC systems. The review does not discuss exceptions or alternative models.
+- The assertion that "increasing fsc, analogous to the number of cargo binding sites, transitioned systems from a one-step to a two-step assembly pathway" is based on a single simulation study and is presented without discussion of whether this has been experimentally confirmed.
+- The claim that "MD simulations have helped explain the molecular basis for carbon concentration in the carboxysomal CCM" is not fully supported by the cited evidence, as the simulations focus on isolated pores or simplified systems rather than intact carboxysomes.
+- The statement that "the outer shell can enhance the passage bicarbonate and, in combination with the encapsulated carbonic anhydrase, locally increase the CO2 concentration around Rubisco" is a reasonable hypothesis but is not directly tested in the reviewed simulations.

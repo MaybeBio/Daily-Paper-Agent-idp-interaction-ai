@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41902470",
+  "title": "Investigating Phase Separation in Genome Folding via Multiscale Computational Modeling.",
+  "authors": "Tang, Jiahu; Feng, Cibo; Su, Haibin; Chu, Xiakun",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2026-03-28",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述通过多尺度计算建模（物理模拟与机器学习）探讨相分离在基因组折叠中的作用，虽对象为染色质而非典型IDP，但相分离机制建模思路对无序蛋白介导的PPI研究有可迁移启发。",
+  "abstract": "The 3D organization of the genome is central to gene regulation, and phase separation has emerged as an important physical principle for this architecture. This review synthesizes how phase separation contributes to genome folding across scales, from compartmental segregation and topologically associating domains to transcriptional condensates and nucleosome arrays, with a special focus on computational advances. We organize the field into two complementary modeling paradigms: (1) physics-based simulations, spanning all-atom to coarse-grained polymer representations that reveal the mechanisms driving chromatin condensation; and (2) data-driven approaches, including machine learning, that learn structural features and regulatory interactions from high-throughput genomic and imaging data. We highlight how integrating these models with experiments clarifies the interplay among phase separation, loop extrusion, epigenetic modifications, and the intrinsic polymer properties of chromatin in genome folding. By linking microscopic molecular interactions to mesoscale and nuclear organization, these combined approaches provide mechanistic insight into normal regulation and its dysregulation in disease, and they chart a path toward predictive, non-equilibrium models of the 4D nucleome.",
+  "abstract_zh": "基因组的三维组织对基因调控至关重要，而相分离（phase separation）已成为这一结构的重要物理原理。本综述综合了相分离如何在不同尺度上促进基因组折叠，从区室分离和拓扑关联结构域到转录凝聚体和核小体阵列，并特别关注计算方面的进展。我们将该领域组织为两种互补的建模范式：（1）基于物理的模拟，涵盖从全原子到粗粒化聚合物表示，揭示驱动染色质凝聚的机制；（2）数据驱动方法，包括机器学习，从高通量基因组和成像数据中学习结构特征和调控相互作用。我们强调将这些模型与实验相结合，如何阐明相分离、环挤压、表观遗传修饰以及染色质固有聚合物性质在基因组折叠中的相互作用。通过将微观分子相互作用与介观和核组织联系起来，这些综合方法为正常调控及其在疾病中的失调提供了机制性见解，并为预测性的非平衡4D核组模型绘制了路径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41902470/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41902470/",
+  "paper_page_path": "papers/pubmed/41902470/index.html"
+}

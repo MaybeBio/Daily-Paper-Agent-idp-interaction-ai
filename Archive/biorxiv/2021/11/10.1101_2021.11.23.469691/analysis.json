@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.11.23.469691",
+  "title": "Global Structure of the Intrinsically Disordered Protein Tau Emerges from its Local Structure",
+  "authors": "Lukas S. Stelzl; Lisa M. Pietrek; Andrea Holla; Javier Oroz; Mateusz Sikora; Jürgen Köfinger; Benjamin Schuler; Markus Zweckstetter; Gerhard Hummer",
+  "journal": "bioRxiv",
+  "published_date": "2021-11-24",
+  "window": {
+    "start": "2021-11-22",
+    "end": "2021-11-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过分子动力学模拟与贝叶斯集成精修构建tau K18无序蛋白的原子级结构系综，揭示局部结构决定全局构象并影响致病突变下的功能与聚集态平衡，虽未直接研究PPI，但为IDP构象机制建模提供了可迁移的整合方法。",
+  "abstract": "The paradigmatic disordered protein tau plays an important role in neuronal function and neurodegenerative diseases. To disentangle the factors controlling the balance between functional and disease-associated conformational states, we build a structural ensemble of the tau K18 fragment containing the four pseudorepeat domains involved in both microtubule binding and amyloid fibril formation. We assemble 129-residue-long tau K18 chains at atomic resolution from an extensive fragment library constructed with molecular dynamics simulations. We introduce a reweighted hierarchical chain growth (RHCG) algorithm that integrates experimental data reporting on the local structure into the assembly process in a systematic manner. By combining Bayesian ensemble refinement with importance sampling, we obtain well-defined ensembles and overcome the problem of exponentially varying weights in the integrative modeling of long-chain polymeric molecules. The resulting tau K18 ensembles capture nuclear magnetic resonance (NMR) chemical shift and J-coupling measurements. Without further fitting, we achieve excellent agreement with measurements of NMR residual dipolar couplings. The good agreement with experimental measures of global structures such as singlemolecule Förster resonance energy transfer (FRET) efficiencies is improved further by ensemble refinement. By comparing wild-type and mutant ensembles, we show that pathogenic single-point P301 mutations shift the population from the turn-like conformations of the functional microtubule-bound state to the extended conformations of disease-associated tau fibrils. RHCG thus provides us with an atomically resolved view of the population equilibrium between functional and aggregation-prone states of tau K18, and demonstrates that global structural characteristics of this intrinsically disordered protein emerge from its local structure.",
+  "abstract_zh": "范式性无序蛋白tau在神经元功能和神经退行性疾病中扮演重要角色。为了解析控制功能相关构象状态与疾病相关构象状态之间平衡的因素，我们构建了包含四个假重复结构域的tau K18片段的结构集合，这些结构域参与微管结合和淀粉样纤维形成。我们利用分子动力学模拟构建的广泛片段库，以原子分辨率组装了129个残基长的tau K18链。我们引入了一种重加权层次链增长（RHCG）算法，该算法将报告局部结构的实验数据系统地整合到组装过程中。通过结合贝叶斯集合细化和重要性采样，我们获得了明确的集合，并克服了长链聚合物分子整合建模中指数变化权重的问题。所得的tau K18集合捕获了核磁共振（NMR）化学位移和J耦合测量结果。无需进一步拟合，我们就与NMR残余偶极耦合测量结果取得了极好的一致性。与全局结构实验测量（如单分子福斯特共振能量转移（FRET）效率）的良好一致性通过集合细化得到进一步改善。通过比较野生型和突变型集合，我们表明致病性单点P301突变将群体从功能微管结合状态的转角样构象转变为疾病相关tau纤维的延伸构象。因此，RHCG为我们提供了tau K18功能状态与易聚集状态之间群体平衡的原子级分辨率视图，并证明这种固有无序蛋白的全局结构特征源于其局部结构。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.11.23.469691",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.11.23.469691",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.11.23.469691/index.html"
+}

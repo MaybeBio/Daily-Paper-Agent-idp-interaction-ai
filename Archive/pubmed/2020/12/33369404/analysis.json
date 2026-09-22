@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33369404",
+  "title": "Tunable Electromechanical Nanopore Trap Reveals Populations of Peripheral Membrane Protein Binding Conformations.",
+  "authors": "Hoogerheide, David P; Rostovtseva, Tatiana K; Jacobs, Daniel; Gurnev, Philip A; Bezrukov, Sergey M",
+  "journal": "ACS nano",
+  "published_date": "2020-12-29",
+  "window": {
+    "start": "2020-12-28",
+    "end": "2021-01-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文利用纳米孔电机械陷阱在单分子水平研究α-突触核蛋白（IDP）与膜表面的结合构象及解离动力学，虽非典型PPI界面建模，但聚焦IDP构象与结合行为，方法新颖且对无序蛋白互作机制有启发。",
+  "abstract": "We demonstrate that a naturally occurring nanopore, the voltage-dependent anion channel (VDAC) of the mitochondrion, can be used to electromechanically trap and interrogate proteins bound to a lipid surface at the single-molecule level. Electromechanically probing alpha-synuclein (alphaSyn), an intrinsically disordered neuronal protein intimately associated with Parkinson's pathology, reveals wide variation in the time required for individual proteins to unbind from the same membrane surface. The observed distributions of unbinding times span up to 3 orders of magnitude and depend strongly on the lipid composition of the membrane; surprisingly, lipid membranes to which alphaSyn binds weakly are most likely to contain subpopulations in which electromechanically driven unbinding is very slow. We conclude that unbinding of alphaSyn from the membrane surface depends not only on membrane binding affinity but also on the conformation adopted by an individual alphaSyn molecule on the membrane surface.",
+  "abstract_zh": "我们证明，一种天然存在的纳米孔——线粒体的电压依赖性阴离子通道（VDAC）——可用于在单分子水平上对结合在脂质表面的蛋白质进行机电捕获和探测。对α-突触核蛋白（alphaSyn）进行机电探测，这是一种与帕金森病理密切相关的固有无序神经元蛋白，揭示了单个蛋白质从同一膜表面解离所需时间的广泛差异。观察到的解离时间分布跨越高达3个数量级，并强烈依赖于膜的脂质组成；令人惊讶的是，alphaSyn结合较弱的脂质膜最可能包含亚群，其中机电驱动的解离非常缓慢。我们得出结论，alphaSyn从膜表面的解离不仅取决于膜结合亲和力，还取决于单个alphaSyn分子在膜表面所采用的构象。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33369404/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33369404/",
+  "paper_page_path": "papers/pubmed/33369404/index.html"
+}

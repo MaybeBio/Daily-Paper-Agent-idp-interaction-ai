@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.05.14.594077",
+  "title": "An integrative characterisation of proline cis and trans conformers in a disordered peptide",
+  "authors": "Pettitt AJ; Shukla VK; Figueiredo AM; Newton LS; McCarthy S; Tabor AB; Heller GT; Lorenz CD; Hansen DF",
+  "journal": "bioRxiv",
+  "published_date": "2024-05-15",
+  "window": {
+    "start": "2024-05-13",
+    "end": "2024-05-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合增强采样MD、NMR和SAXS表征无序肽中脯氨酸顺反异构亚群，虽未直接研究PPI，但为IDP动态构象机制建模提供了可迁移的整合方法。",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically disordered proteins (IDPs) often contain proline residues, which undergo cis/trans isomerisation. While molecular dynamics (MD) simulations have the potential to fully characterise the proline cis and trans sub-ensembles, they are limited by the slow timescales of isomerisation and force field inaccuracies. Nuclear magnetic resonance (NMR) spectroscopy can report on ensemble-averaged observables for both the cis and trans proline states, but a full atomistic characterisation of these sub-ensembles is challenging. Given the importance of proline cis/trans isomerisation for influencing the conformational sampling of disordered proteins, we employed a combination of all-atom MD simulations with enhanced sampling (metadynamics), NMR, and small-angle X-ray scattering (SAXS) to characterise the two sub-ensembles of the ORF6 C-terminal region (ORF6 CTR ) from SARS-CoV-2 corresponding to the proline-57 (P57) cis and trans states. We performed MD simulations in three distinct force fields: AMBER03ws, AMBER99SB- disp , and CHARMM36m, which are all optimised for disordered proteins. Each simulation was run for an accumulated time of 180-220 µs until convergence was reached, as assessed by blocking analysis. A good agreement between the cis -P57 populations predicted from metadynamics simulations in AMBER03ws was observed with populations obtained from experimental NMR data. Moreover, we observed good agreement between the radius of gyration predicted from the metadynamics simulations in AMBER03ws and that measured using SAXS. Our findings suggest that both the cis -P57 and trans -P57 conformations of ORF6 CTR are extremely dynamic and that interdisciplinary approaches combining both multi-scale computations and experiments offer avenues to explore highly dynamic states that cannot be reliably characterised by either approach in isolation. <h4>SIGNIFICANCE</h4> This study employs MD simulations (with metadynamics), NMR spectroscopy, and SAXS to elucidate the individual cis and trans proline conformations of ORF6 CTR from SARS-CoV-2. The good agreement on proline cis / trans populations observed in experiments (NMR) and those calculated from simulations in the AMBER03ws force field (with SAXS reweighting) showcases the efficiency of this interdisciplinary approach, which can be used to characterise highly dynamic disordered protein states, even for very slow processes. Furthermore, our study emphasises the importance of considering both computational and experimental methodologies to gain a more holistic understanding of highly dynamic proteins. The presented integrative approach sets a precedent for future studies aiming to explore complex and dynamic biological systems with slow transitions such as proline isomerisations.",
+  "abstract_zh": "<h4>摘要</h4> 固有无序蛋白（IDPs）常含有脯氨酸残基，这些残基会发生顺反异构化。尽管分子动力学（MD）模拟有潜力全面表征脯氨酸的顺式和反式亚集合，但其受限于异构化的缓慢时间尺度及力场的不准确性。核磁共振（NMR）波谱能够报告脯氨酸顺式和反式状态的系综平均可观测值，但对这些亚集合进行全原子表征颇具挑战。鉴于脯氨酸顺反异构化对无序蛋白构象采样具有重要影响，我们结合了全原子MD模拟与增强采样（元动力学）、NMR及小角X射线散射（SAXS），以表征SARS-CoV-2 ORF6 C末端区域（ORF6 CTR）中对应于脯氨酸-57（P57）顺式和反式状态的两个亚集合。我们在三种针对无序蛋白优化的不同力场中进行了MD模拟：AMBER03ws、AMBER99SB-disp和CHARMM36m。每次模拟累计运行180-220微秒，直至通过分块分析评估达到收敛。在AMBER03ws力场中，元动力学模拟预测的顺式-P57群体与实验NMR数据获得的群体之间观察到良好一致性。此外，我们还观察到AMBER03ws元动力学模拟预测的回转半径与SAXS测量值之间具有良好一致性。我们的发现表明，ORF6 CTR的顺式-P57和反式-P57构象均极具动态性，结合多尺度计算与实验的跨学科方法为探索高度动态状态提供了途径，这些状态单独使用任一方法均难以可靠表征。<h4>意义</h4> 本研究采用MD模拟（含元动力学）、NMR波谱和SAXS来阐明SARS-CoV-2 ORF6 CTR中脯氨酸的顺式和反式构象。实验中（NMR）观察到的脯氨酸顺反群体与AMBER03ws力场模拟（结合SAXS重加权）计算值之间的良好一致性，展示了这种跨学科方法的有效性，可用于表征高度动态的无序蛋白状态，即使对于非常缓慢的过程亦然。此外，我们的研究强调了同时考虑计算和实验方法以获得对高度动态蛋白更全面理解的重要性。所提出的整合方法为未来旨在探索具有缓慢转变（如脯氨酸异构化）的复杂动态生物系统的研究树立了先例。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.05.14.594077",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.05.14.594077",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.05.14.594077/index.html"
+}

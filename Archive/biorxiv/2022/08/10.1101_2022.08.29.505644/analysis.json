@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.08.29.505644",
+  "title": "Improved methodology for protein NMR structure calculation using hydrogen bond restraints and ANSURR validation: the SH2 domain of SH2B1",
+  "authors": "Fowler NJ; Albalwi MF; Lee S; Hounslow AM; Williamson MP",
+  "journal": "bioRxiv",
+  "published_date": "2022-08-29",
+  "window": {
+    "start": "2022-08-29",
+    "end": "2022-09-04"
+  },
+  "score": 2,
+  "one_liner_zh": "该文改进NMR结构计算中氢键约束方法并验证SH2结构域，对象为折叠蛋白且无PPI或AI/物理模拟机制建模，与本课题关联甚微。",
+  "abstract": "Protein structures calculated using NMR data are less accurate and less well defined than they could be. Here we use the program ANSURR to show that this deficiency is at least in part due to a lack of hydrogen bond restraints. We then describe a protocol to introduce hydrogen bond restraints into the structure calculation of the SH2 domain from SH2B1 in a systematic and transparent way, and show that the structures generated are more accurate and better defined as a result. We also show that ANSURR can be used as a guide to know when the structure calculation is good enough to stop.",
+  "abstract_zh": "使用核磁共振（NMR）数据计算出的蛋白质结构，其准确性和定义程度均未达到应有水平。在此，我们利用ANSURR程序表明，这一缺陷至少部分归因于氢键约束的缺失。随后，我们描述了一种方案，以系统且透明的方式将氢键约束引入SH2B1中SH2结构域的结构计算中，并证明由此生成的结构更为准确且定义更佳。我们还展示了ANSURR可作为指导，用于判断结构计算何时已达到足够好的程度而可停止。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.08.29.505644",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.08.29.505644",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.08.29.505644/index.html"
+}

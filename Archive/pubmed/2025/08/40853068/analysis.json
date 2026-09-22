@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40853068",
+  "title": "Conformational Ensemble Dynamics of Intrinsically Disordered Full-Length alpha- and beta-Synuclein Monomers.",
+  "authors": "Lv, Zhongyue; Xu, Huan; Zhang, Ying; Tang, Huayuan; Ding, Feng; Huang, Fengjuan; Sun, Yunxiang",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-08-25",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用原子级离散分子动力学模拟比较α-和β-突触核蛋白单体的构象系综动力学，揭示无序构象中瞬态二级结构及焓熵权衡机制，虽未直接研究PPI，但为IDP构象动力学与聚集机制建模提供了可迁移的物理模拟框架。",
+  "abstract": "Abnormal aggregation of alpha-synuclein (alphaS) into amyloid fibrils is a hallmark of neurodegenerative diseases such as Parkinson's disease. In contrast, its homologue beta-synuclein (betaS), colocalized at presynaptic terminals, resists amyloid formation and can even inhibit alphaS fibrillization. However, how sequence variations affect their structural dynamics remains poorly understood. To address this, we conducted 100 independent 1000 ns atomistic discrete molecular dynamics simulations for both alphaS and betaS monomers. Our results revealed that both proteins predominantly adopted intrinsically disordered conformations, punctuated by transient helices and beta-sheets. Both alphaS and betaS exhibited a conserved helical tendency in the first half of the N-terminal domain, while the latter half showed dynamic beta-sheet characteristics with alphaS displaying greater abundance. Notably, the nonamyloid component (NAC) region in alphaS horizontal line critical for its aggregation horizontal line frequently adopted dynamic beta-sheet structures, whereas the homologous region in betaS displayed a greater tendency toward dynamic helices. Despite being largely disordered, the C-terminal regions transiently interacted with beta-sheet-prone segments, potentially acting as dynamic caps that limit beta-sheet growth in both proteins. Free-energy landscape analysis indicated a clear enthalpy-entropy trade-off: structured conformations were stabilized by lower potential energy but penalized by reduced entropy, whereas disordered states, despite higher potential energy, were entropically favored. Importantly, potential energy reduction in alphaS was primarily associated with beta-sheet formation, while in betaS, it was mainly driven by helix formation. These findings offer mechanistic insights into the distinct conformational landscapes of alphaS and betaS and establish a thermodynamic framework for understanding how sequence differences modulate their structural properties and functional roles.",
+  "abstract_zh": "α-突触核蛋白（alpha-synuclein, alphaS）的异常聚集形成淀粉样纤维，是帕金森病等神经退行性疾病的标志性特征。相比之下，其同源蛋白β-突触核蛋白（beta-synuclein, betaS）共定位于突触前末端，抵抗淀粉样形成，甚至能抑制alphaS的纤维化。然而，序列变异如何影响其结构动力学仍知之甚少。为此，我们对alphaS和betaS单体进行了100次独立的1000 ns原子级离散分子动力学模拟。结果表明，两种蛋白主要采用 intrinsically disordered 构象，其间穿插瞬态螺旋和β-折叠。alphaS和betaS在N端结构域前半部分均表现出保守的螺旋倾向，而后半部分则显示出动态β-折叠特征，其中alphaS的丰度更高。值得注意的是，alphaS中对其聚集至关重要的非淀粉样组分（nonamyloid component, NAC）区域频繁采用动态β-折叠结构，而betaS中的同源区域则更倾向于动态螺旋。尽管C端区域大体上无序，但它们与易形成β-折叠的片段发生瞬态相互作用，可能作为动态帽，限制两种蛋白中β-折叠的生长。自由能景观分析表明存在明显的焓-熵权衡：结构化构象通过较低势能稳定，但受熵减少惩罚；而无序状态尽管势能较高，却在熵上更有利。重要的是，alphaS中势能的降低主要与β-折叠形成相关，而betaS中则主要由螺旋形成驱动。这些发现为alphaS和betaS的独特构象景观提供了机制性见解，并建立了理解序列差异如何调节其结构特性和功能作用的热力学框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40853068/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40853068/",
+  "paper_page_path": "papers/pubmed/40853068/index.html"
+}

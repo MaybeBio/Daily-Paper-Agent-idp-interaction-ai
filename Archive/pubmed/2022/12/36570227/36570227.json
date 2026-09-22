@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "36570227",
+    "doi": "10.1021/acsomega.2c04076",
+    "title": "Unsupervised Machine Learning Organization of the Functional Dark Proteome of Gram-Negative \"Superbugs\": Six Protein Clusters Amenable for Distinct Scientific Applications."
+  },
+  "content": {
+    "abstract": "Uncharacterized proteins have been underutilized as targets for the development of novel therapeutics for difficult-to-treat bacterial infections. To facilitate the exploration of these proteins, 2819 predicted, uncharacterized proteins (19.1% of the total) from reference strains of multidrug Acinetobacter baumannii, Klebsiella pneumoniae, and Pseudomonas aeruginosa species were organized using an unsupervised k-means machine learning algorithm. Classification using normalized values for protein length, pI, hydrophobicity, degree of conservation, structural disorder, and %AT of the coding gene rendered six natural clusters. Cluster proteins showed different trends regarding operon membership, expression, presence of unknown function domains, and interactomic relevance. Clusters 2, 4, and 5 were enriched with highly disordered proteins, nonworkable membrane proteins, and likely spurious proteins, respectively. Clusters 1, 3, and 6 showed closer distances to known antigens, antibiotic targets, and virulence factors. Up to 21.8% of proteins in these clusters were structurally covered by modeling, which allowed assessment of druggability and discontinuous B-cell epitopes. Five proteins (4 in Cluster 1) were potential druggable targets for antibiotherapy. Eighteen proteins (11 in Cluster 6) were strong B-cell and T-cell immunogen candidates for vaccine development. Conclusively, we provide a feature-based schema to fractionate the functional dark proteome of critical pathogens for fundamental and biomedical purposes.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sicilia, Carlos",
+        "Corral-Lugo, Andres",
+        "Smialowski, Pawel",
+        "McConnell, Michael J",
+        "Martin-Galiano, Antonio J"
+      ],
+      "short_names": [
+        "Sicilia C",
+        "Corral-Lugo A",
+        "Smialowski P",
+        "McConnell MJ",
+        "Martin-Galiano AJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6662-329X"
+      ],
+      "affiliations": [
+        "Intrahospital Infections Laboratory, National Centre for Microbiology, Instituto de Salud Carlos III (ISCIII), Majadahonda, 28220 Madrid, Spain.",
+        "Intrahospital Infections Laboratory, National Centre for Microbiology, Instituto de Salud Carlos III (ISCIII), Majadahonda, 28220 Madrid, Spain.",
+        "Core Facility Bioinformatics, Biomedical Center Munich, Faculty of Medicine, Ludwig Maximilians Universitat Munchen, Munich 80539, Germany.",
+        "Institute of Stem Cell Research, Helmholtz Center Munich, Planegg-Martinsried 82152, Germany.",
+        "Intrahospital Infections Laboratory, National Centre for Microbiology, Instituto de Salud Carlos III (ISCIII), Majadahonda, 28220 Madrid, Spain.",
+        "Intrahospital Infections Laboratory, National Centre for Microbiology, Instituto de Salud Carlos III (ISCIII), Majadahonda, 28220 Madrid, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sicilia, Carlos",
+        "short_name": "Sicilia C",
+        "identifiers": [],
+        "affiliations": [
+          "Intrahospital Infections Laboratory, National Centre for Microbiology, Instituto de Salud Carlos III (ISCIII), Majadahonda, 28220 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Corral-Lugo, Andrés",
+        "short_name": "Corral-Lugo A",
+        "identifiers": [],
+        "affiliations": [
+          "Intrahospital Infections Laboratory, National Centre for Microbiology, Instituto de Salud Carlos III (ISCIII), Majadahonda, 28220 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Smialowski, Pawel",
+        "short_name": "Smialowski P",
+        "identifiers": [],
+        "affiliations": [
+          "Core Facility Bioinformatics, Biomedical Center Munich, Faculty of Medicine, Ludwig Maximilians Universität München, Munich 80539, Germany.",
+          "Institute of Stem Cell Research, Helmholtz Center Munich, Planegg-Martinsried 82152, Germany."
+        ]
+      },
+      {
+        "full_name": "McConnell, Michael J",
+        "short_name": "McConnell MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Intrahospital Infections Laboratory, National Centre for Microbiology, Instituto de Salud Carlos III (ISCIII), Majadahonda, 28220 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Martín-Galiano, Antonio J",
+        "short_name": "Martín-Galiano AJ",
+        "identifiers": [
+          "0000-0002-6662-329X"
+        ],
+        "affiliations": [
+          "Intrahospital Infections Laboratory, National Centre for Microbiology, Instituto de Salud Carlos III (ISCIII), Majadahonda, 28220 Madrid, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS omega"
+    ],
+    "journal_abbrev": [
+      "ACS Omega"
+    ],
+    "pub_date": "2022 Dec 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/27 06:00",
+    "fetched_at": "2026-09-20 18:17:15"
+  },
+  "links": {
+    "cites": [
+      "41299863"
+    ],
+    "refs": [
+      "35902752",
+      "34751095",
+      "34659158",
+      "34599769",
+      "33957120",
+      "33668195",
+      "33568002",
+      "33417598",
+      "33290552",
+      "33289833",
+      "33282821",
+      "33263573",
+      "33237286",
+      "33125078",
+      "33095861",
+      "32628954",
+      "32406916",
+      "32318354",
+      "32210046",
+      "30778233",
+      "30559204",
+      "30476243",
+      "30426331",
+      "30395255",
+      "30269496",
+      "29931111",
+      "29788355",
+      "29587180",
+      "29276051",
+      "29126136",
+      "28736578",
+      "28472356",
+      "28149057",
+      "27022144",
+      "26635392",
+      "26618166",
+      "26578582",
+      "26578580",
+      "26060277",
+      "25775563",
+      "25096389",
+      "24895306",
+      "24587305",
+      "24381303",
+      "23598997",
+      "23563421",
+      "23300419",
+      "23060610",
+      "22665780",
+      "22536855",
+      "22520973",
+      "22148551",
+      "22127870",
+      "21844638",
+      "21233508",
+      "20944204",
+      "20700439",
+      "20647113",
+      "20472543",
+      "20139279",
+      "20041708",
+      "19541617",
+      "19055730",
+      "18641417",
+      "18599513",
+      "18262675",
+      "15930492",
+      "15772141",
+      "15769473",
+      "15728743",
+      "15256573",
+      "12576590",
+      "12117993",
+      "12023080",
+      "11152613",
+      "2231712",
+      "2031185"
+    ],
+    "similar": [
+      "36570227",
+      "34042702",
+      "27935770",
+      "28150578",
+      "31646866",
+      "29089426",
+      "34689464",
+      "31281799",
+      "36106853",
+      "23815072",
+      "34812714",
+      "31096587",
+      "24796217",
+      "29164074",
+      "25182483",
+      "28758635",
+      "33738267",
+      "29609277",
+      "29587180",
+      "34764949",
+      "31859083",
+      "28176481",
+      "28124025",
+      "34555571",
+      "30797936",
+      "19037514",
+      "32403049",
+      "35670904",
+      "32992120",
+      "17148068",
+      "30481922",
+      "28242720",
+      "32127452",
+      "29907439",
+      "34672535",
+      "29753164",
+      "32291303",
+      "28230771",
+      "31100418",
+      "25134721",
+      "32562830",
+      "36274729",
+      "34760797",
+      "33288627",
+      "32977435",
+      "36060914",
+      "26614015",
+      "33044242",
+      "32729399",
+      "23936064",
+      "26846651",
+      "9451816",
+      "35564967",
+      "30550846",
+      "37468968",
+      "19942379",
+      "32692197",
+      "25352627",
+      "33412630",
+      "30712199",
+      "20566417",
+      "17490999",
+      "32843552",
+      "28051952",
+      "34044590",
+      "31250593",
+      "28246361",
+      "32276082",
+      "33167383",
+      "35043558",
+      "27927163",
+      "30522419",
+      "32687952",
+      "31353294",
+      "29876099",
+      "34861492",
+      "35368516",
+      "35840082",
+      "20080354",
+      "34683425",
+      "32849325",
+      "28642945",
+      "24987094"
+    ],
+    "review": [
+      "36570227",
+      "33044242",
+      "9451816",
+      "19942379",
+      "25352627",
+      "30712199",
+      "35043558",
+      "34683425"
+    ],
+    "pmc": [
+      "9774411"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acsomega.2c04076",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36570227/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36570227",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://bacdive.dsmz.de/strain/8093",
+        "provider": "BacDive",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "Acinetobacter baumannii BD-ID 8093"
+      },
+      {
+        "url": "https://pubs.acs.org/acsodf/article-lookup/doi/10.1021/acsomega.2c04076",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

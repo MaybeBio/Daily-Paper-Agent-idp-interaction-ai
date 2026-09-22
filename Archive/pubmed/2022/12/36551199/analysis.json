@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36551199",
+  "title": "Sequence-Based Prediction of Protein Phase Separation: The Role of Beta-Pairing Propensity.",
+  "authors": "Mullick, Pratik; Trovato, Antonio",
+  "journal": "Biomolecules",
+  "published_date": "2022-12-24",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文基于序列特征（pi-pi与beta配对倾向）构建相分离蛋白预测器，并探讨beta配对构象熵对液滴态稳定性的机制，虽涉及LLPS与序列预测，但未直接研究PPI或使用AI/物理模拟方法，机制深度有限。",
+  "abstract": "The formation of droplets of bio-molecular condensates through liquid-liquid phase separation (LLPS) of their component proteins is a key factor in the maintenance of cellular homeostasis. Different protein properties were shown to be important in LLPS onset, making it possible to develop predictors, which try to discriminate a positive set of proteins involved in LLPS against a negative set of proteins not involved in LLPS. On the other hand, the redundancy and multivalency of the interactions driving LLPS led to the suggestion that the large conformational entropy associated with non specific side-chain interactions is also a key factor in LLPS. In this work we build a LLPS predictor which combines the ability to form pi-pi interactions, with an unrelated feature, the propensity to stabilize the beta-pairing interaction mode. The cross-beta structure is formed in the amyloid aggregates, which are involved in degenerative diseases and may be the final thermodynamically stable state of protein condensates. Our results show that the combination of pi-pi and beta-pairing propensity yields an improved performance. They also suggest that protein sequences are more likely to be involved in phase separation if the main chain conformational entropy of the beta-pairing maintained droplet state is increased. This would stabilize the droplet state against the more ordered amyloid state. Interestingly, the entropic stabilization of the droplet state appears to proceed according to different mechanisms, depending on the fraction of \"droplet-driving\" proteins present in the positive set.",
+  "abstract_zh": "通过其组分蛋白的液-液相分离（liquid-liquid phase separation, LLPS）形成生物分子凝聚体液滴，是维持细胞稳态的关键因素。研究表明，多种蛋白质特性在LLPS启动中起重要作用，这使得开发预测器成为可能，这些预测器试图区分参与LLPS的阳性蛋白质集合与未参与LLPS的阴性蛋白质集合。另一方面，驱动LLPS的相互作用具有冗余性和多价性，这导致人们提出，与非特异性侧链相互作用相关的大构象熵也是LLPS的关键因素。在本工作中，我们构建了一个LLPS预测器，它结合了形成π-π相互作用的能力与一个不相关的特征，即稳定β-配对相互作用模式的倾向性。交叉β结构在淀粉样聚集体中形成，这些聚集体与退行性疾病相关，并可能是蛋白质凝聚体的最终热力学稳定状态。我们的结果表明，π-π与β-配对倾向性的组合提高了预测性能。这些结果还提示，如果β-配对维持的液滴状态的主链构象熵增加，蛋白质序列更可能参与相分离。这将使液滴状态相对于更有序的淀粉样状态更稳定。有趣的是，液滴状态的熵稳定化似乎根据阳性集合中“液滴驱动”蛋白质的比例，通过不同机制进行。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36551199/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36551199/",
+  "paper_page_path": "papers/pubmed/36551199/index.html"
+}

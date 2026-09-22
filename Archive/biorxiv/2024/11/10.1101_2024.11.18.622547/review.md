@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, figure legends not provided, methods not provided, supplementary information not provided)
+- **Assessment boundary** Assessment is limited to the claims and evidence presented in the abstract and main text sections provided. Experimental methods, detailed protocols, and supplementary figures/tables referenced in the text were not available for review.
+- **Shared manuscript claim summary** The authors present RFpeptides, a denoising diffusion-based pipeline for the de novo design of macrocyclic peptide binders against protein targets. They report medium to high-affinity binders against four diverse proteins (MCL1, MDM2, GABARAP, RbtA), with KD values ranging from 1-10 μM for MCL1 and MDM2, 6 nM for GABARAP, and 9.4 nM for RbtA. X-ray crystal structures of three macrocycle-target complexes closely match design models (Cα RMSD 0.4-1.4 Å). The authors emphasize that binding modes are known by design, contrasting with library screening approaches.
+- **Visible evidence base** Abstract, main text sections describing target selection, design pipeline, experimental characterization, and discussion. References to figures (Figure 1-4, S1-S19) and tables (Table S1-S4) are made but the actual figures, tables, and supplementary materials were not provided.
+- **Missing materials affecting confidence** Methods section, all figures and figure legends, all supplementary information (including tables of sequences and design metrics), crystallographic data and refinement statistics, SPR sensorgrams, AlphaScreen assay details, and sequence-level information for designed macrocycles. These omissions substantially limit the ability to independently evaluate the technical soundness of the claims.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially significant advance in the computational design of macrocyclic peptide binders. The reported success rates and binding affinities are impressive, and the structural validation is a notable strength. However, the absence of methods details, figures, and supplementary data in the provided material prevents a full technical evaluation. The core claims are plausible and well-aligned with recent advances in diffusion-based protein design, but several aspects require clarification and additional evidence before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in computational protein design, peptide therapeutics, and structural biology would find this work of high interest. The demonstrated ability to design high-affinity macrocyclic binders de novo, including against a target with no experimental structure, addresses a long-standing challenge in the field. The potential therapeutic applications for targeting protein-protein interactions, particularly for intracellular targets, would also attract interest from drug discovery groups.
+- **Major strengths** The work addresses a significant unsolved problem in protein design. The reported experimental success rate (binders identified from 20 or fewer tested designs per target) is remarkably high compared to prior computational design efforts. The structural validation showing close agreement between design models and experimentally determined crystal structures is compelling evidence for the accuracy of the approach. The demonstration of design against a target with no known structure (RbtA) extends the practical utility of the method.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that RFpeptides generates macrocyclic binders with high affinity and accuracy across diverse targets, with KD values ranging from 6 nM to 2 μM.
+  - **Evidence pointer** Figures 2, 3, 4; Tables S1-S4; location not provided
+  - **Concern** The binding affinity data are presented as KD values from SPR experiments, but the experimental details are not provided. It is unclear whether these are equilibrium KD values from steady-state analysis, kinetic KD values from fitting, or single-concentration estimates. The SPR methodology (e.g., immobilization strategy, analyte concentrations tested, fitting model) is critical for evaluating the reliability of the reported affinities. Additionally, the number of independent replicates and the statistical uncertainty on each KD value are not stated.
+  - **Why it matters** The central claim of the manuscript is that high-affinity binders can be designed de novo. If the affinity measurements are not rigorously performed and reported, the strength of this claim is undermined. Reproducibility and comparability with other design methods depend on clear reporting of biophysical characterization.
+  - **Resolution test** Provide full SPR experimental details, including immobilization levels, concentration series, fitting procedures, replicate numbers, and the derived kinetic and equilibrium parameters with uncertainties. If possible, include a secondary orthogonal binding assay (e.g., ITC or MST) for at least the highest-affinity binders.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that X-ray crystal structures of macrocycle-bound MCL1, GABARAP, and RbtA complexes match design models with Cα RMSD values of 0.7 Å, 1.2 Å, and 1.4 Å, respectively.
+  - **Evidence pointer** Figures 2C-D, 3C, 3F-G, 4D-E; location not provided
+  - **Concern** The structural validation is a key strength of the manuscript, but the provided text does not include crystallographic statistics (resolution, R-factor, R-free, completeness, etc.) or details on how the RMSD calculations were performed (e.g., which residues were included in the superposition, whether the entire macrocycle or only ordered regions were considered). The statement that the GAB_D8-GABARAPL1 structure shows two conformations with one partially deviating from the design model raises questions about how the RMSD was calculated for this complex.
+  - **Why it matters** The claim of accurate structural prediction is central to the manuscript's significance. Without proper crystallographic reporting and clear RMSD calculation methodology, the reader cannot assess whether the agreement between design and experiment is as strong as claimed.
+  - **Resolution test** Provide crystallographic data collection and refinement statistics for all structures in a supplementary table. Clearly describe the RMSD calculation procedure, including the atoms and residues used for superposition. Discuss the implications of the observed conformational heterogeneity for the accuracy of the design models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that for RbtA, a target with no experimentally determined structure, they successfully designed a high-affinity binder (KD < 10 nM) starting from the target sequence alone.
+  - **Evidence pointer** Figure 4; location not provided
+  - **Concern** The design against RbtA relied on predicted structures from AF2 and RF2. The authors state that the apo X-ray structure matches the predictions with Cα RMSD of 1.2 Å and 1.1 Å, but the details of the structure prediction (e.g., which regions were used for the comparison, whether the predictions were confident across the entire domain) and the criteria for selecting the binding site on a predicted structure are not described. The binding site selection appears to have been guided by preliminary design runs, but the specifics of this process are unclear.
+  - **Why it matters** Designing binders against targets without experimental structures is a major claimed advantage of the method. If the structure prediction and binding site selection process is not clearly described and validated, the generalizability of the approach to other unknown-structure targets is uncertain.
+  - **Resolution test** Describe the structure prediction process in detail, including confidence metrics and how the binding site was selected. Provide a comparison of the predicted and experimental structures highlighting the regions used for RMSD calculation. Discuss the potential limitations of designing against predicted structures and how the method handles prediction errors.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "to our knowledge, this is a considerably higher success rate than achieved with any previous method" for computational design of protein-binding macrocycles.
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** The comparison to previous methods is made without a systematic literature review or quantitative comparison. The success rate is reported as binders identified from 20 or fewer tested designs per target, but the criteria for what constitutes a "binder" (e.g., affinity threshold, specificity) are not clearly defined. The number of designs tested per target varies (14 for MCL1, 8 for MDM2, 6 for GABARAP, 11 for RbtA), and it is unclear how these numbers were determined.
+  - **Why it matters** The claim of superior success rate is a key differentiator for the method. Without a clear definition of success and a systematic comparison to prior work, this claim is difficult to evaluate.
+  - **Resolution test** Provide a clear definition of what constitutes a successful design (e.g., KD below a threshold, specific binding verified by competition). Include a table comparing the success rates and affinities of RFpeptides to previously published computational macrocycle design methods, with appropriate caveats about differences in target difficulty and experimental conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses technical terms such as "denoising diffusion-based pipeline" and "Cα RMSD" without brief explanations. While these terms are standard in the field, the abstract could be more accessible to a broader readership.
+  - **Required correction** Consider adding brief parenthetical explanations for key technical terms, or rephrasing to make the abstract more self-contained.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Design filtering criteria
+  - **Evidence pointer** Main text, section "De novo design and characterization of protein binding macrocycles"; location not provided
+  - **Issue** The filtering criteria for selecting designs for experimental testing are described qualitatively (e.g., "confidence metric (iPAE)", "similarity between the original design model and the protein-macrocycle complex predicted by the AfCycDesign"). The specific thresholds used for these metrics are not stated.
+  - **Required correction** Provide the specific numerical thresholds used for each filtering step, or state that the thresholds were chosen empirically and describe the rationale.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Sequence diversity analysis
+  - **Evidence pointer** Main text, section "De novo design and characterization of protein binding macrocycles"; location not provided
+  - **Issue** The authors mention that four iterative rounds of ProteinMPNN and Rosetta Relax were used to design sequences, but the rationale for this specific number of rounds and the impact on sequence diversity are not discussed.
+  - **Required correction** Briefly discuss the effect of iterative design rounds on sequence diversity and design success, or cite prior work establishing this protocol.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The discussion of potential therapeutic applications is brief and does not address practical considerations such as cell permeability, metabolic stability, or delivery of macrocyclic peptides.
+  - **Required correction** Consider adding a brief paragraph discussing the challenges and opportunities for therapeutic translation of designed macrocycles, including relevant references.
+- **Technical failings that need to be addressed before the case is established** The absence of the Methods section, figures, and supplementary data in the provided material is a significant limitation. Specifically, the following are required to fully evaluate the claims: (1) detailed description of the RFpeptides pipeline architecture and training; (2) complete experimental protocols for peptide synthesis, SPR, AlphaScreen, and crystallography; (3) all figures showing design models, experimental structures, and binding data; (4) supplementary tables with sequences, design metrics, and crystallographic statistics. Without these, the technical soundness of the approach cannot be fully assessed.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work presents a novel application of diffusion models to macrocyclic peptide design, which has not been previously demonstrated. The approach extends existing protein design methods to a new molecular class, representing a meaningful advance.
+  - Scientific importance: The ability to design high-affinity macrocyclic binders de novo addresses a significant challenge in chemical biology and drug discovery. The demonstrated success against diverse targets, including one without an experimental structure, suggests broad applicability.
+  - Interdisciplinary readership: The work bridges computational biology, structural biology, and medicinal chemistry. The findings would be of interest to researchers in protein design, peptide therapeutics, and drug discovery. However, the technical depth may limit accessibility to nonspecialists.
+  - Technical soundness: The reported results are promising, but the lack of methods details and supplementary data in the provided material prevents full evaluation. The structural validation is a strength, but the crystallographic statistics and RMSD calculation methodology need to be reported.
+  - Readability for nonspecialists: The main text is generally well-written and logically organized. However, some technical terms and concepts may be challenging for readers outside the computational protein design field. The abstract could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core claims are plausible and potentially significant, but the provided material is insufficient for a complete technical evaluation. The authors should provide the missing methods, figures, and supplementary data to allow full assessment of the pipeline's performance and the validity of the reported affinities and structural validations.
+
+## Risk / unsupported claims
+- The claim of "considerably higher success rate than achieved with any previous method" is not supported by a systematic comparison to prior work within the provided text.
+- The statement that "binding modes of RFpeptides-generated macrocycles are known by design" is partially supported by the structural data, but the extent to which this holds for all designs (including those not structurally characterized) is unclear.
+- The claim that RFpeptides can design binders against targets with no experimental structure is supported by the RbtA example, but the generalizability of this finding to other targets with less predictable structures is not established.
+- The assertion that the approach "should enable faster and more efficient discovery of macrocyclic binders" is a reasonable inference but is not directly demonstrated by the data presented.
+- The functional relevance of the designed binders (e.g., ability to modulate biological activity in cells) is not demonstrated, limiting the strength of claims about therapeutic applicability.

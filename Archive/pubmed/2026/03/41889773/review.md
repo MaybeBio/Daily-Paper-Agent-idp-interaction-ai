@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusions, methods, and supplementary material references.
+- **Assessment boundary** Scientific validity, technical soundness, and clarity of the claims as presented in the provided manuscript. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations with enhanced sampling (REST3 and bias-exchange metadynamics) to show that multisite phosphorylation of the intrinsically disordered N-terminal domain (NTD) of p53, particularly at S46 and T55, modulates its structural ensemble and enhances its auto-inhibitory interaction with the DNA-binding domain (DBD), with T55 phosphorylation playing a dominant role and S46 phosphorylation acting synergistically by reducing conformational entropy.
+- **Visible evidence base** Simulation results including free energy surfaces, contact probability analyses, chemical shift comparisons with NMR data, and mutational analysis (R248A). Figures referenced but not fully visible in the provided text.
+- **Missing materials affecting confidence** Full figures and supplementary figures (S1–S20) are referenced but not provided. Experimental validation data (e.g., NMR or fluorescence anisotropy) are cited from prior work but not reproduced. Convergence details for BE-MetaD simulations are partially described but not fully quantified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question regarding the molecular mechanism of phosphorylation-regulated autoinhibition in p53, a key tumor suppressor. The use of advanced enhanced sampling methods is appropriate and the results are largely consistent with prior experimental observations. However, several technical aspects require clarification and additional validation before the conclusions can be fully supported. The claim that S46 phosphorylation acts primarily by reducing conformational entropy, while plausible, is not rigorously demonstrated. The manuscript would benefit from more detailed convergence analysis, explicit error reporting, and a clearer distinction between correlation and causation in the proposed mechanism.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, post-translational modification signaling, p53 biology, and computational biophysics. The study provides mechanistic insights into how multisite phosphorylation can regulate IDP function, which is relevant for understanding cancer biology and for designing therapeutic interventions targeting p53 regulation.
+- **Major strengths** The study employs state-of-the-art enhanced sampling techniques to address a challenging problem involving IDPs. The results are compared with experimental data, lending credibility to the simulations. The proposed dual-lock mechanism is conceptually novel and provides a testable hypothesis. The manuscript is generally well-written and logically structured.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that dual phosphorylation at S46 and T55 enhances autoinhibition by reducing the conformational entropy of the NTD, thereby stabilizing the NTD-DBD interaction.
+  - **Evidence pointer** Results section "The Regulation of the Binding Process of p53-NTD and DBD by Dual-Site Phosphorylation"; Discussion section "Comparison with Experiments and Previous Computational Results"
+  - **Concern** The claim that S46 phosphorylation reduces conformational entropy is not directly quantified. No entropy calculations or free energy decomposition are presented. The authors infer this mechanism from contact analyses and free energy surfaces, but this is insufficient to establish a causal role for entropy reduction. The statement that "pS46 can bind to the DBD in a relatively stable manner" and that this "reduces the conformational entropy" is speculative without explicit entropy or enthalpy calculations.
+  - **Why it matters** The proposed dual-lock mechanism is a central conclusion of the manuscript. If the entropy argument is not rigorously supported, the mechanistic model is weakened. The distinction between enthalpic and entropic contributions is critical for understanding the thermodynamics of the interaction.
+  - **Resolution test** The authors should perform explicit entropy calculations (e.g., quasi-harmonic or mutual information approaches) on the NTD conformational ensembles in the different phosphorylation states. Alternatively, they could perform thermodynamic integration or free energy perturbation to decompose the binding free energy into enthalpic and entropic components. If such calculations are not feasible, the claim should be softened to state that S46 phosphorylation "may" reduce conformational entropy, and the mechanism should be presented as a hypothesis rather than a conclusion.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "only T55 phosphorylation promotes the interaction between the TAD2 and DBP domains, thereby inducing self-inhibition" and that S46 phosphorylation alone does not induce autoinhibition.
+  - **Evidence pointer** Results section "Regulation of the Binding Ability between p53-NTD and DBD by Phosphorylation"; Figure 2 (referenced but not visible)
+  - **Concern** The free energy surfaces for the pS46 system are described as showing "high free energies of the states with a large AD2-DBP contact number," but the quantitative values are not provided. The distinction between "promotes interaction" and "does not induce autoinhibition" is not clearly defined. What is the threshold for autoinhibition? The authors should provide quantitative free energy differences between the bound and unbound states for each system to support this claim.
+  - **Why it matters** The differential role of S46 versus T55 phosphorylation is a key finding. Without quantitative free energy data, the reader cannot assess the magnitude of the effect or the statistical significance of the differences between systems.
+  - **Resolution test** Provide the free energy differences (ΔG) between the bound and unbound states for WT, pS46, pT55, and pS46pT55 systems, with associated errors. If possible, perform bootstrapping or block averaging to estimate uncertainties. The authors should also define a clear criterion for what constitutes "autoinhibition" in their simulations (e.g., a specific contact number or binding free energy threshold).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "the convergence of REST3 was estimated by the time evolution of the free energy landscape projected onto the first two principal components" and that "the free energy landscape reached equilibrium in the final 500 ns, with an average free energy difference of less than 1 kJ/mol."
+  - **Evidence pointer** Methods section "REST3 Simulation"; Figures S12 and S13 (referenced but not provided)
+  - **Concern** The convergence criterion of "less than 1 kJ/mol" is not well-defined. What is the metric for this difference? Is it the average difference across all grid points? The authors should provide a more detailed description of the convergence analysis, including the number of replicas, exchange rates, and the specific method used to compute the free energy difference. Additionally, the total simulation time of 33.6 μs per system is substantial, but the number of independent simulations or replicates is not stated.
+  - **Why it matters** Convergence is critical for the validity of enhanced sampling simulations. Without a clear and rigorous convergence assessment, the reader cannot be confident that the free energy surfaces are accurate.
+  - **Resolution test** Provide a detailed description of the convergence analysis, including the exact metric used, the number of replicas, and the exchange acceptance rates. Show the time evolution of the free energy difference for each system. If possible, perform multiple independent simulations to assess reproducibility.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "phosphorylation at T55 induces reorientation of the side chains of adjacent aromatic residues F54 and W53" and that this "promotes the formation of specific local hydrophobic clusters."
+  - **Evidence pointer** Discussion section "Regulation of Intrinsically Disordered Protein Structure and Function by Phosphorylation"; Figure 4 (referenced but not visible)
+  - **Concern** The claim of side chain reorientation is based on simulation data, but no quantitative analysis (e.g., dihedral angle distributions, side chain contact maps) is presented. The authors should provide quantitative measures of side chain orientation and hydrophobic cluster formation to support this claim.
+  - **Why it matters** The proposed mechanism relies on specific structural rearrangements. Without quantitative evidence, the claim is anecdotal and not reproducible.
+  - **Resolution test** Provide dihedral angle distributions for F54 and W53 side chains in the different phosphorylation states. Calculate the frequency of hydrophobic contacts between these residues and the DBD. Show representative structures from the simulations to illustrate the proposed reorientation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "T55 phosphorylation promotes the insertion of the aromatic rings of F54 and W53 into the DNA-binding pocket (DBP) of DBD." This is a strong claim that is not fully supported by the data presented in the main text, as the quantitative evidence is not shown.
+  - **Required correction** Soften the language to "suggests" or "indicates" and reference the relevant figure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Simulation Setup"
+  - **Issue** The initial structure of p53-NTD was generated using PyMOL to construct a fully extended conformation. This is a non-physiological starting structure. While the authors equilibrated for 100 ns, it is unclear whether this is sufficient to relax the structure to a representative ensemble.
+  - **Required correction** Justify the choice of starting structure and provide evidence that the equilibration is sufficient (e.g., show the time evolution of Rg during equilibration).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results
+  - **Evidence pointer** Results section "Regulation of the p53 NTD Structural Ensemble by Phosphorylation"
+  - **Issue** The authors state that "phosphorylation not only affects the local structure of the disordered p53-NTD domain but also modulates the structures of residues separated along the sequence." This is vague. Which residues are affected? What is the magnitude of the effect?
+  - **Required correction** Provide a more detailed description of the structural changes, including specific residue ranges and the magnitude of the chemical shift changes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Bias-Exchange Metadynamics (BE-MetaD)"
+  - **Issue** The authors state that "the simulation time of the four systems ranged from 500 to 1000 ns." This is a wide range. It is unclear why the simulation times differ and whether the shorter simulations are sufficiently converged.
+  - **Required correction** Justify the different simulation times and provide convergence data for each system.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking concerns. The entropy claim and the differential role of S46 versus T55 phosphorylation require quantitative support. Without this, the central mechanistic model is not fully established.
+- **Assessment against Nature-style criteria** Originality: The study is original in its use of enhanced sampling to address the specific question of multisite phosphorylation in p53 autoinhibition. However, the concept of phosphorylation regulating IDP function is well-established. Scientific importance: The results are important for understanding p53 regulation and IDP biology, but the incremental advance over prior experimental work is moderate. Interdisciplinary readership: The work will appeal to computational biophysicists, structural biologists, and cancer biologists. Technical soundness: The methods are appropriate, but the lack of quantitative convergence and entropy analysis weakens the technical rigor. Readability for nonspecialists: The manuscript is generally readable, but the methods section is dense and may be challenging for non-specialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a significant question and the overall approach is sound. However, the blocking concerns regarding the entropy mechanism and the quantitative distinction between S46 and T55 phosphorylation must be addressed before the conclusions can be fully supported.
+
+## Risk / unsupported claims
+- The claim that S46 phosphorylation reduces conformational entropy is not directly supported by quantitative calculations.
+- The claim that T55 phosphorylation is the dominant driver of autoinhibition, while S46 plays a secondary role, is not supported by quantitative free energy differences.
+- The proposed "dual-lock" mechanism is a hypothesis that is not directly tested.
+- The statement that "phosphorylation at T55 induces reorientation of the side chains of adjacent aromatic residues F54 and W53" is not quantitatively supported.
+- The convergence of the REST3 simulations is not rigorously demonstrated with a clear metric.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39116045",
+  "title": "The Entamoeba histolytica Vps26 (EhVps26) retromeric protein is involved in phagocytosis: Bioinformatic and experimental approaches.",
+  "authors": "Martinez-Valencia, Diana; Banuelos, Cecilia; Garcia-Rivera, Guillermina; Talamas-Lara, Daniel; Orozco, Esther",
+  "journal": "PloS one",
+  "published_date": "2024-08-08",
+  "window": {
+    "start": "2024-08-05",
+    "end": "2024-08-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合AlphaFold2预测与分子动力学模拟，分析溶组织内阿米巴Vps26蛋白含IDR的retromer复合物互作界面，并实验验证其在吞噬中的功能，虽对象非相分离但IDR介导PPI机制建模可迁移启发。",
+  "abstract": "The retromer is a cellular structure that recruits and recycles proteins inside the cell. In mammalian and yeast, the retromer components have been widely studied, but very little in parasites. In yeast, it is formed by a SNX-BAR membrane remodeling heterodimer and the cargo selecting complex (CSC), composed by three proteins. One of them, the Vps26 protein, possesses a flexible and intrinsically disordered region (IDR), that facilitates interactions with other proteins and contributes to the retromer binding to the endosomal membrane. In Entamoeba histolytica, the protozoan parasite responsible for human amoebiasis, the retromer actively participates during the high mobility and phagocytosis of trophozoites, but the molecular details in these events, are almost unknown. Here, we studied the EhVps26 role in phagocytosis. Bioinformatic analyses of EhVps26 revealed a typical arrestin folding structure of the protein, and a long and charged IDR, as described in other systems. EhVps26 molecular dynamics simulations (MDS) allowed us to predict binding pockets for EhVps35, EhSNX3, and a PX domain-containing protein; these pockets were disorganized in a EhVps26 truncated version lacking the IDR. The AlphaFold2 software predicted the interaction of EhVps26 with EhVps35, EhVps29 and EhSNX3, in a model similar to the reported mammalian crystals. By confocal and transmission electron microscopy, EhVps26 was found in the trophozoites plasma membrane, cytosol, endosomes, and Golgi-like apparatus. During phagocytosis, it followed the erythrocytes pathway, probably participating in cargoes selection and recycling. Ehvps26 gene knocking down evidenced that the EhVps26 protein is necessary for efficient phagocytosis.",
+  "abstract_zh": "逆转录复合体（retromer）是一种细胞结构，负责在细胞内招募和回收蛋白质。在哺乳动物和酵母中，逆转录复合体的组分已被广泛研究，但在寄生虫中研究甚少。在酵母中，它由SNX-BAR膜重塑异二聚体和货物选择复合体（CSC）组成，后者包含三种蛋白质。其中一种蛋白质Vps26，具有一个柔性的内在无序区域（IDR），该区域促进与其他蛋白质的相互作用，并有助于逆转录复合体与内体膜的结合。在溶组织内阿米巴（Entamoeba histolytica）中，这种导致人类阿米巴病的原生动物寄生虫，逆转录复合体在滋养体的高运动性和吞噬作用中积极参与，但这些事件中的分子细节几乎未知。在此，我们研究了EhVps26在吞噬作用中的作用。对EhVps26的生物信息学分析揭示了该蛋白质典型的arrestin折叠结构，以及一个长且带电荷的IDR，正如在其他系统中所描述的那样。EhVps26的分子动力学模拟（MDS）使我们能够预测与EhVps35、EhSNX3以及一个含PX结构域蛋白质的结合口袋；这些口袋在缺乏IDR的EhVps26截短版本中变得无序。AlphaFold2软件预测了EhVps26与EhVps35、EhVps29和EhSNX3的相互作用，其模型类似于已报道的哺乳动物晶体结构。通过共聚焦和透射电子显微镜，发现EhVps26存在于滋养体的质膜、细胞质、内体和类高尔基体结构中。在吞噬作用过程中，它遵循红细胞的路径，可能参与货物的选择和回收。Ehvps26基因敲低实验表明，EhVps26蛋白质对于高效吞噬作用是必需的。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39116045/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39116045/",
+  "paper_page_path": "papers/pubmed/39116045/index.html"
+}

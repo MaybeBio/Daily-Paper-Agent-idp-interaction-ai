@@ -1,0 +1,353 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.27.684844",
+  "title": "Determination of nucleotide-nucleotide and nucleotide-amino acid binding interactions from all-atom potential-of-mean-force calculations",
+  "doi": "10.1101/2025.10.27.684844",
+  "abstract": "Biomolecular condensates emerge from multivalent interactions between proteins and nucleic acids and are frequently modeled using coarse-grained molecular dynamics simulations. The parametrization of these models critically depends on atomistic data describing the underlying molecular interactions. In this work, we employ all-atom molecular dynamics simulations and potential-of-mean-force (PMF) calculations to investigate the interaction landscape between RNA nucleotides and protein amino acids. We begin by characterizing nucleotide–nucleotide binding modes through canonical base-pairing analysis, observing notable agreement in the predictions from both AMBER03ws and CHARMM36 force fields. Further rationalization of different nucleotide–nucleotide interaction modes involves the calculation of PMFs for ribose–ribose, phosphate–phosphate, and RNA tertiary interactions such as G-quadruplex formation. We also examine the effect of salt concentration on these interactions, finding a reduction on electrostatic self-repulsion for phosphate–phosphate binding upon increasing the ionic strength. Extending our analysis to amino acids, we first benchmark the performance of both AMBER03ws and a99SB-disp force fields for describing pairwise amino acid interactions, and then we evaluate different nucleotide–amino acid binding profiles. Our findings reveal a subset of amino acids—Lys and Arg (positively charged), Asp and Glu (negatively charged), and Gln, Ser, and Asn (polar residues)—that consistently engage with the nitrogenous bases of different nucleotides. Such binding is primarily mediated by hydrogen bonding and, in some cases, cation– π interactions. Furthermore, we identify strong π – π stacking interactions with aromatic residues and phosphate–Arg contacts as key contributors to condensate cohesion in RNA-protein condensates. Our comprehensive analysis provides a detailed library of nucleotide–amino acid interactions, offering quantitative insights to inform coarse-grained model parametrization and deepening our understanding of condensate self-assembly, nucleic acid recognition, and phase-separation regulation at submolecular scale.",
+  "authors": [
+    "Feito A",
+    "Pedraza E",
+    "Cuesta E",
+    "Castro A",
+    "Sanchez-Burgos I",
+    "Rey A",
+    "Collepardo-Guevara R",
+    "Tejedor AR",
+    "Espinosa JR"
+  ],
+  "published_date": "2025-10-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.27.684844",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.27.684844.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1109197",
+    "raw_record": {
+      "id": "PPR1109197",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1109197"
+        ]
+      },
+      "doi": "10.1101/2025.10.27.684844",
+      "title": "Determination of nucleotide-nucleotide and nucleotide-amino acid binding interactions from all-atom potential-of-mean-force calculations",
+      "authorString": "Feito A, Pedraza E, Cuesta E, Castro A, Sanchez-Burgos I, Rey A, Collepardo-Guevara R, Tejedor AR, Espinosa JR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Feito A",
+            "lastName": "Feito",
+            "firstName": "Alejandro",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physical Chemistry, , Av. Complutense s/n , ,"
+                },
+                {
+                  "affiliation": "Instituto Pluridisciplinar, , P.º de Juan XXIII, 1, Moncloa - Aravaca , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pedraza E",
+            "lastName": "Pedraza",
+            "firstName": "Eduardo",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0154-4643"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physical Chemistry, , Av. Complutense s/n , ,"
+                },
+                {
+                  "affiliation": "Instituto Pluridisciplinar, , P.º de Juan XXIII, 1, Moncloa - Aravaca , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cuesta E",
+            "lastName": "Cuesta",
+            "firstName": "Estefania",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physical Chemistry, , Av. Complutense s/n , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Castro A",
+            "lastName": "Castro",
+            "firstName": "Alejandro",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-3214-5815"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physical Chemistry, , Av. Complutense s/n , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sanchez-Burgos I",
+            "lastName": "Sanchez-Burgos",
+            "firstName": "Ignacio",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1160-3945"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rey A",
+            "lastName": "Rey",
+            "firstName": "Antonio",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physical Chemistry, , Av. Complutense s/n , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Collepardo-Guevara R",
+            "lastName": "Collepardo-Guevara",
+            "firstName": "Rosana",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1781-7351"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road , ,"
+                },
+                {
+                  "affiliation": "Department of Genetics, , Downing Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tejedor AR",
+            "lastName": "Tejedor",
+            "firstName": "Andrés",
+            "initials": "AR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9437-6169"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Espinosa JR",
+            "lastName": "Espinosa",
+            "firstName": "Jorge",
+            "initials": "JR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physical Chemistry, , Av. Complutense s/n , ,"
+                },
+                {
+                  "affiliation": "Instituto Pluridisciplinar, , P.º de Juan XXIII, 1, Moncloa - Aravaca , ,"
+                },
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1160-3945"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9437-6169"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0154-4643"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1781-7351"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0005-3214-5815"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Biomolecular condensates emerge from multivalent interactions between proteins and nucleic acids and are frequently modeled using coarse-grained molecular dynamics simulations. The parametrization of these models critically depends on atomistic data describing the underlying molecular interactions. In this work, we employ all-atom molecular dynamics simulations and potential-of-mean-force (PMF) calculations to investigate the interaction landscape between RNA nucleotides and protein amino acids. We begin by characterizing nucleotide–nucleotide binding modes through canonical base-pairing analysis, observing notable agreement in the predictions from both AMBER03ws and CHARMM36 force fields. Further rationalization of different nucleotide–nucleotide interaction modes involves the calculation of PMFs for ribose–ribose, phosphate–phosphate, and RNA tertiary interactions such as G-quadruplex formation. We also examine the effect of salt concentration on these interactions, finding a reduction on electrostatic self-repulsion for phosphate–phosphate binding upon increasing the ionic strength. Extending our analysis to amino acids, we first benchmark the performance of both AMBER03ws and a99SB-disp force fields for describing pairwise amino acid interactions, and then we evaluate different nucleotide–amino acid binding profiles. Our findings reveal a subset of amino acids—Lys and Arg (positively charged), Asp and Glu (negatively charged), and Gln, Ser, and Asn (polar residues)—that consistently engage with the nitrogenous bases of different nucleotides. Such binding is primarily mediated by hydrogen bonding and, in some cases, cation–  π interactions. Furthermore, we identify strong  π –  π stacking interactions with aromatic residues and phosphate–Arg contacts as key contributors to condensate cohesion in RNA-protein condensates. Our comprehensive analysis provides a detailed library of nucleotide–amino acid interactions, offering quantitative insights to inform coarse-grained model parametrization and deepening our understanding of condensate self-assembly, nucleic acid recognition, and phase-separation regulation at submolecular scale.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Spanish MICIN",
+            "grantId": "PID2022- 136919NA-C33",
+            "orderIn": 0
+          },
+          {
+            "agency": "MareNostrum 5",
+            "grantId": "FI-2024-3-0001",
+            "orderIn": 0
+          },
+          {
+            "agency": "Spanish MICIN",
+            "grantId": "PID2023-147156NB-I00",
+            "orderIn": 0
+          },
+          {
+            "agency": "Spanish MICIN",
+            "grantId": "RYC2021-030937-I",
+            "orderIn": 0
+          },
+          {
+            "agency": "UKRI EPSRC",
+            "grantId": "EP/Z002028/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "MareNostrum 5",
+            "grantId": "FI-2025-1-0008",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "acronym": "ERC_",
+            "grantId": "101160499",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "acronym": "ERC_",
+            "grantId": "803326",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.10.27.684844"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1109197"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1109197&type=FILE&fileName=EMS210136-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41909144",
+            "reference": "ACS physical chemistry Au. 2026 Mar;6(2):308-323",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS210136",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-10-29",
+      "firstPublicationDate": "2025-10-28",
+      "firstIndexDate": "2025-10-29",
+      "fullTextReceivedDate": "2025-11-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

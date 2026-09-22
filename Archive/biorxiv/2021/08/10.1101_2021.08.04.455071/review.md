@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, appendices) as provided.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and adequacy of evidence as presented in the supplied text. No external data, code, or supplementary figures were assessed beyond what is described.
+- **Shared manuscript claim summary** The authors propose RPnet, a neural network-based method for coarse-graining microstates into metastable macrostates in Markov State Models (MSMs) of protein dynamics. The method uses a "reverse projection" scheme derived from projection operator formalism to construct a loss function (Y-loss) that quantifies the quality of kinetic lumping. The network is trained to minimize this loss, and the resulting lumping is evaluated on three systems: alanine dipeptide, a 2D potential, and the clamp domain of bacterial RNA polymerase. The authors claim comparable or better performance than existing methods (PCCA+, hierarchical clustering, MPP) in terms of state partitioning and reproduction of slow dynamics.
+- **Missing materials affecting confidence** The manuscript text does not include figures, tables, or supplementary material contents. The pseudocode in Appendix B is referenced but not fully provided. The exact definitions of some mathematical symbols (e.g., in Eq. 11 and Appendix A) are incomplete in the text. The GitHub link is mentioned but not assessed. The RNA polymerase system results are described qualitatively without quantitative metrics in the text provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to kinetic lumping in MSMs, grounded in a physically motivated projection operator framework. The idea of using a neural network to optimize a lumping quality metric based on eigenvector overlap is novel and potentially useful. However, the current text has several gaps in mathematical rigor, clarity of the method description, and quantitative evidence. The claims of superiority over existing methods are not fully supported by the data presented in the text alone. The work is promising but requires substantial revision and additional evidence to be fully convincing.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, molecular dynamics simulation, and Markov State Model methodology would be the primary audience. Those developing or applying coarse-graining and lumping algorithms for conformational dynamics of biomolecules would find the approach relevant. The method could also interest machine learning practitioners working on physics-informed neural networks for dynamical systems.
+- **Major strengths**
+  - The reverse projection concept is physically motivated and provides a clear criterion for evaluating lumping quality.
+  - The use of a neural network for optimization is a modern and potentially scalable approach.
+  - The method is demonstrated on multiple systems of increasing complexity, from a simple 1D potential to a large biomolecular system.
+  - The authors compare against several established lumping methods, which is appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the Y-loss function "directly examines the similarity between the transition modes before and after kinetic lumping" and that minimizing it yields optimized macrostates.
+  - **Evidence pointer** Methods Section II.B, Eq. (12) and (13); Appendix A
+  - **Concern** The mathematical derivation of the reverse projection and the Y-loss is incomplete and contains potential errors. In Appendix A, the proof of idempotency and the relation between eigenvectors is sketched but several steps are missing or unclear. The definition of the overlap matrix Y in Eq. (12) uses symbols (V_trial, Phi_trial, v_T, phi_T) that are not fully defined in the text. The claim that Y equals the identity matrix for a perfectly Markovian lumping is stated but not rigorously proven. The relationship between the Y-loss and the variational principle (VAMP score) is mentioned but not formally established. Without a complete and correct derivation, the theoretical foundation of the method is not fully established.
+  - **Why it matters** The Y-loss is the core of the method. If the mathematical basis is flawed or incomplete, the validity of the entire approach is in question. The authors need to provide a rigorous derivation and clear definitions to convince readers that the loss function is a valid measure of lumping quality.
+  - **Resolution test** Provide a complete, step-by-step derivation of the reverse projection, the Y-loss, and its properties. Clearly define all symbols. Prove that Y = I for a perfectly lumpable model and that minimizing ||I - Y||_F is equivalent to maximizing the similarity of transition modes. Show the relationship to the variational principle and VAMP score explicitly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that RPnet "yields comparable or better results than competing methods" across all three test systems.
+  - **Evidence pointer** Results Section III, Figures 3-5 (not provided in text)
+  - **Concern** The results section is largely qualitative. For alanine dipeptide, the authors state that all methods "correctly identify 4 macrostates containing largely similar microstate assignments" but do not provide quantitative comparisons (e.g., VAMP scores, GMRQ values, metastability numbers) in the text. For the 2D potential, they claim RPnet outperforms PCCA+ based on "higher GMRQ and metastability" but the actual values are not given. For the RNA polymerase system, the results are described only in terms of state assignment consistency with a previous study, without quantitative metrics. The figures referenced are not available in the text provided, making it impossible to assess the validity of the claims.
+  - **Why it matters** The central claim of the paper is that RPnet is a competitive or superior lumping method. Without quantitative evidence, this claim is not substantiated. The reader cannot evaluate the magnitude of improvement or the statistical significance of the differences.
+  - **Resolution test** Provide quantitative results for all three systems, including numerical values for Y-loss, GMRQ, metastability, and implied timescales for all methods compared. Include error bars or confidence intervals where appropriate. For the RNA polymerase system, provide quantitative metrics of state assignment quality and comparison with the previous study.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that the RPnet algorithm is described in Appendix B and that the code is available at a GitHub link.
+  - **Evidence pointer** Appendix B, Conclusion Section
+  - **Concern** The pseudocode in Appendix B is referenced but not fully provided in the text. The description of the network architecture (Section II.D) gives layer sizes but lacks details on activation functions (beyond ReLU and Softmax), initialization, regularization, and optimization hyperparameters beyond learning rate and batch size. The preprocessing steps for the RNA polymerase system are not fully described (e.g., how the 100 microstates were defined from the tICA projection). The GitHub link is mentioned but not assessed.
+  - **Why it matters** For a method to be adopted by the community, it must be reproducible. The current description is insufficient for an independent implementation. The authors should provide complete algorithmic details and ensure the code is accessible and documented.
+  - **Resolution test** Provide the full pseudocode in the main text or supplement. Include all hyperparameters and training details. Describe the preprocessing steps for each system in sufficient detail. Verify that the GitHub repository contains working, documented code.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section I
+  - **Issue** The abstract and introduction use terms like "reverse projection" and "projection operator framework" without sufficient context for a general reader. The connection to the Zwanzig-Mori formalism is mentioned but not explained.
+  - **Required correction** Briefly explain the projection operator concept in the introduction and define "reverse projection" clearly in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Notation consistency
+  - **Affected element** Methods Section II.A and II.B
+  - **Evidence pointer** Eqs. (1)-(13)
+  - **Issue** The notation for vectors and matrices is inconsistent. For example, p and P are used for population vectors, but the boldface is not consistently applied. The symbol A is used for the lumping matrix, but its dimensions are not explicitly stated.
+  - **Required correction** Use consistent notation throughout, clearly define all symbols at first use, and state the dimensions of all matrices and vectors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods Section II.E
+  - **Evidence pointer** Section II.E.5
+  - **Issue** The number of nodes for each layer is given for the three systems, but the rationale for these choices is not discussed. The sensitivity of the results to network architecture is not explored.
+  - **Required correction** Briefly justify the chosen architecture sizes and discuss any sensitivity analysis performed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Comparison fairness
+  - **Affected element** Results Section III
+  - **Evidence pointer** Sections III.A-C
+  - **Issue** The comparison with PCCA+ and other methods is not described in detail. It is unclear whether the same microstate models and lag times were used for all methods.
+  - **Required correction** Describe the exact comparison protocol, including the number of macrostates, lag times, and evaluation metrics used for each method.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1 (incomplete mathematical derivation)
+  - R1-M2 (insufficient quantitative evidence)
+  - R1-M3 (incomplete algorithmic description)
+- **Assessment against Nature-style criteria**
+  - **Originality** The reverse projection concept for lumping quality assessment is a novel contribution. The use of a neural network to optimize this criterion is a creative combination of physics-based and machine learning approaches. However, the conceptual novelty is somewhat incremental, as it builds on existing projection operator theory and existing neural network-based lumping methods.
+  - **Scientific importance** The problem of coarse-graining MSMs is important for interpreting complex biomolecular dynamics. A robust and automated lumping method would be valuable. However, the current evidence does not clearly demonstrate a significant advantage over existing methods, limiting the perceived importance.
+  - **Interdisciplinary readership** The work sits at the intersection of statistical mechanics, computational chemistry, and machine learning. The potential readership is interdisciplinary, but the current presentation is likely too technical for a broad audience. The abstract and introduction need to be more accessible.
+  - **Technical soundness** The technical soundness is currently not fully established due to the incomplete mathematical derivation and the lack of quantitative results. The method's validity rests on the correctness of the Y-loss, which is not rigorously proven.
+  - **Readability for nonspecialists** The manuscript is written for specialists in MSM methodology. The concepts of transition matrices, eigenvectors, and projection operators are used without sufficient explanation for a general scientific audience. The readability could be improved with more context and simpler explanations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and worth pursuing, but the current manuscript does not provide sufficient evidence to fully support the claims. The authors must address the mathematical rigor, provide quantitative results, and improve the clarity of the method description before the case is established.

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to study the thermo-responsive phase behavior of the P1 domain (residues 36-42) of alpha-synuclein. They report that P1 phase separates above a lower critical solution temperature, driven by hydrophobic water exclusion, with condensate density governed by weak multi-chain interactions and tyrosine Y39 forming the strongest inter-residue contacts.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or methodological parameters provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system size and composition, temperature range and sampling details, convergence criteria, phase separation analysis methods, and all figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study on a biologically relevant IDP segment, but the current evidence base is insufficient to evaluate the technical soundness or robustness of the claims. The central findings, while plausible, lack the quantitative and methodological detail required to assess their validity. The study addresses a timely topic in biomolecular condensate research, but the abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, intrinsically disordered proteins, and phase separation mechanisms would find these results relevant. The focus on alpha-synuclein and its P1 domain also targets the neurodegeneration community, particularly those interested in the molecular drivers of Parkinson's disease pathology. Computational biophysicists working on atomistic simulations of IDPs would be the primary technical audience.
+- **Major strengths** The study targets a specific, biologically relevant domain with a clear hypothesis about its phase behavior. The use of all-atom simulations for a short peptide system is computationally tractable and allows for detailed interaction analysis. The identification of a lower critical solution temperature and the specific role of tyrosine Y39 provide concrete, testable predictions.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that P1 phase separates above a lower critical solution temperature
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no information on the simulation methodology, including force field choice, water model, system size, salt concentration, or the range of temperatures sampled. Without these details, it is impossible to assess whether the observed phase separation is an artifact of the simulation setup or a genuine thermodynamic property. The identification of a lower critical solution temperature requires careful free energy calculations or coexistence simulations, and the abstract does not describe how this was established.
+  - **Why it matters** Phase separation in simulations is highly sensitive to force field parameters and system size. If the lower critical solution temperature is not rigorously determined, the central claim of the paper is not supported. The biological relevance of the finding depends on the simulations being thermodynamically reliable.
+  - **Resolution test** Provide full simulation details, including force field and water model, system composition, temperature range and increments, simulation length, and convergence criteria. Demonstrate that the phase separation is reversible and that the critical temperature is determined through robust methods such as free energy perturbation or direct coexistence simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that condensate density is determined by weak multi-chain interactions and that Y39 forms the strongest contacts
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states these findings without presenting any quantitative data, such as radial distribution functions, contact maps, or density profiles. The relative strength of Y39 contacts is asserted but not supported by any numerical comparison. The mechanism of water exclusion by hydrophobic chains is described qualitatively, but no solvent distribution data are referenced.
+  - **Why it matters** These claims form the molecular-level explanation for the phase behavior. Without quantitative evidence, the reader cannot evaluate whether the proposed mechanism is supported or whether alternative explanations are possible. The specificity of the Y39 claim requires direct comparison with other residue pairs.
+  - **Resolution test** Include quantitative analysis of inter-residue contact frequencies, solvent density profiles across the condensate interface, and a systematic comparison of residue pair interaction strengths. Provide error bars or statistical measures to demonstrate the significance of Y39's dominance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The overall simulation study and its findings
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not mention whether multiple independent simulation replicates were performed, how many chains were simulated, or whether the results were consistent across different initial configurations. The absence of this information makes it impossible to assess the statistical robustness of the phase separation observations.
+  - **Why it matters** Phase separation in finite-size simulations can be stochastic, and single trajectories may not represent equilibrium behavior. Reproducibility across independent runs is essential for establishing that the observed condensate formation is a reliable property of the system.
+  - **Resolution test** State the number of independent simulations, the range of system sizes tested, and demonstrate that the phase behavior is consistent across replicates. Provide evidence of equilibration and statistical sampling.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of P1 domain
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states P1 spans residues 36-42 but does not clarify whether this refers to the human alpha-synuclein sequence or a specific isoform. The sequence context is important for interpreting the hydrophobic character and the role of Y39.
+  - **Required correction** Specify the sequence and species, and provide the full sequence of the P1 peptide in the methods or supplementary information.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Comparison with experimental data
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not mention any comparison with experimental observations of alpha-synuclein phase behavior or P1 domain properties. Such comparison would strengthen the biological relevance of the simulation findings.
+  - **Required correction** Add a brief statement in the discussion comparing the simulation results with available experimental data on alpha-synuclein or P1 domain phase behavior, if such data exist.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "master controller"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "master controller" is used without citation or definition. This is a strong claim that requires support from the cited literature.
+  - **Required correction** Provide a reference for this term and clarify its operational meaning in the context of alpha-synuclein function.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of methodological detail and quantitative evidence prevents any assessment of the central claims. R1-M3, while not blocking, further undermines confidence in the results.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a specific domain of alpha-synuclein with a focused computational approach, which is a reasonable contribution but not conceptually novel. The originality is moderate.
+  - Scientific importance: The topic is relevant to the condensate field and neurodegeneration, but the abstract does not demonstrate a significant advance beyond existing knowledge of IDP phase behavior.
+  - Interdisciplinary readership: The work would appeal to computational biophysicists and possibly biochemists studying alpha-synuclein, but the abstract is too technical and lacks context for a broader readership.
+  - Technical soundness: Not assessable from the abstract. The absence of methodological details is a critical deficiency.
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with IDP phase separation and simulation terminology. It is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible findings, but the lack of methodological and quantitative detail means the claims cannot be evaluated. A revised submission with full simulation details and quantitative analysis could change this assessment.
+
+## Risk / unsupported claims
+- The claim of a lower critical solution temperature is unsupported without simulation temperature series and phase boundary determination.
+- The claim that Y39 forms the strongest inter-residue contacts is unsupported without quantitative contact analysis.
+- The mechanism of water exclusion by hydrophobic chains is asserted without solvent distribution data.
+- The biological relevance of the P1 domain as a "master controller" is stated without experimental validation or citation.
+- The generalizability of the findings to full-length alpha-synuclein is not addressed and cannot be assumed from a 7-residue peptide simulation.

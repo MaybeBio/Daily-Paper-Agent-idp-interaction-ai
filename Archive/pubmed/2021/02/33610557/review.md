@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary figure references
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors report that Brazilin, a natural polyphenol, inhibits alpha-synuclein fibrillogenesis by binding preferentially to the compact conformation of the monomer, preserves the unfolded state, inactivates seeding-competent assemblies from Parkinson's disease brain homogenates, reduces neuronal toxicity, and promotes formation of large fibril clusters. Molecular dynamics simulations are used to support the proposed mechanism.
+- **Visible evidence base** ThT fluorescence assays, circular dichroism, atomic force microscopy, transmission electron microscopy, ultracentrifugation with SDS-PAGE, native ESI-IM-MS, RT-QuIC assays, primary neuronal culture toxicity assays, and molecular dynamics simulations
+- **Missing materials affecting confidence** Supplementary figures S1-S15 are referenced but not provided; raw data for statistical analyses are not shown; details of molecular dynamics simulation convergence and force field validation are incomplete; no information on Brazilin stability under assay conditions is provided
+
+## Reviewer
+- **Overall assessment** The manuscript presents a comprehensive investigation of Brazilin's effects on alpha-synuclein aggregation, combining biochemical, biophysical, cellular, and computational approaches. The finding that Brazilin binds preferentially to the compact monomer conformation and inactivates brain-derived seeding assemblies is potentially significant for Parkinson's disease therapeutics. However, several technical concerns regarding the interpretation of the seeding assays, the quantitative analysis of fibril morphology, and the relevance of the molecular dynamics simulations to the experimental conditions need to be addressed before the mechanistic claims are fully established.
+- **Who would be interested in the results, and why** Researchers in the fields of neurodegenerative disease, protein misfolding, amyloid biology, and drug discovery would be interested. The work addresses a fundamental question about how small molecules can modulate protein conformational equilibria and seeding competence, which is relevant to understanding disease mechanisms and developing therapeutic strategies for Parkinson's disease and related synucleinopathies.
+- **Major strengths** The study combines multiple orthogonal techniques to characterize the effect of Brazilin on alpha-synuclein aggregation. The use of patient-derived brain homogenates in RT-QuIC assays provides translational relevance. The identification of a distinct mechanism involving stabilization of large fibril clusters, rather than fibril disassembly, is an important contribution. The native ESI-IM-MS data provide direct evidence for preferential binding to the compact monomer conformation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation
+  - **Claim pointer** The authors claim that Brazilin "eliminates seeding competence of alpha-synuclein assemblies from Parkinson's disease patient brain tissue" based on RT-QuIC experiments.
+  - **Evidence pointer** Results section, Figure 7
+  - **Concern** The RT-QuIC experiments were performed with Brazilin present in the reaction mixture during the entire incubation. The authors previously showed that Brazilin does not directly inhibit fibril elongation when seeds are present at high concentrations (Figure 5), but the RT-QuIC conditions use much lower seed concentrations. It is unclear whether the observed inhibition of seeding is due to inactivation of the brain-derived seeds themselves or due to Brazilin binding to the monomeric substrate and preventing its incorporation into growing fibrils. The claim of "eliminating seeding competence" implies a direct effect on the seeds, but the experimental design does not distinguish between these possibilities.
+  - **Why it matters** The distinction between inactivating pre-existing seeds versus inhibiting monomer recruitment is mechanistically important. If Brazilin only prevents monomer addition but does not inactivate the seeds, then the therapeutic implication would be different, as the seeds could remain competent once Brazilin is cleared.
+  - **Resolution test** The authors should pre-incubate brain-derived seeds with Brazilin, then remove Brazilin by washing or dilution before adding to the RT-QuIC reaction. Alternatively, they could use a pulse-chase design where Brazilin is added only during a defined window and then washed out.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative analysis
+  - **Claim pointer** The authors claim that Brazilin treatment results in fibrils that are "significantly longer, wider and assembled into fibril clusters more often than untreated alpha-syn fibrils" based on TEM image analysis.
+  - **Evidence pointer** Results section, Figure 6d-e, Supplementary Figure S4
+  - **Concern** The quantitative analysis of fibril morphology is described only briefly. The methods section does not provide details on how fibril length, width, and clustering were measured, how many fibrils were analyzed per condition, whether the analysis was blinded, or what statistical tests were used. The claim of "significantly" different requires proper statistical reporting. Additionally, the authors state that "at least 6 aggregates were analyzed for height" in the AFM section, which is a very small sample size for quantitative conclusions.
+  - **Why it matters** The morphological changes are central to the proposed mechanism that Brazilin promotes formation of large fibril clusters. Without rigorous quantitative analysis, this claim is not adequately supported.
+  - **Resolution test** Provide detailed methods for image analysis, including sample sizes, blinding procedures, and statistical tests. Show distribution plots of fibril length and width rather than only mean values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational support
+  - **Claim pointer** The authors state that molecular dynamics simulations "support a direct effect of Brazilin on the aggregation competent monomer" and that binding occurs "throughout the alpha-syn chain, but affinity decreased near the C-terminus."
+  - **Evidence pointer** Results section, Figure 9, Supplementary Figures S9-S15
+  - **Concern** The molecular dynamics simulations are described with insufficient detail to assess their validity. The methods state that 100 simulations of 100 ns each were performed for monomers, and two large simulations of 200 ns for 64 monomers. These timescales are very short for assessing conformational equilibria of an intrinsically disordered protein. The force field parameters for Brazilin are not described, and no validation of the docking approach is provided. The claim of "affinity decreased near the C-terminus" is not supported by any quantitative binding free energy calculations.
+  - **Why it matters** The simulations are used to support the mechanistic model, but the limited sampling and lack of quantitative analysis weaken this support. Overinterpretation of short simulations could mislead the mechanistic conclusions.
+  - **Resolution test** Provide more detailed methods for the simulations, including force field parameters, equilibration protocols, and convergence checks. If possible, perform longer simulations or enhanced sampling methods. Quantify binding affinities or residence times rather than qualitative visual inspection.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Concentration relevance
+  - **Claim pointer** The authors suggest Brazilin "may be a strong candidate as a neuroprotective and therapeutic agent in PD" based on its in vitro activity and pharmacokinetic properties.
+  - **Evidence pointer** Discussion section
+  - **Concern** The concentrations of Brazilin used in the aggregation assays (up to 300 micromolar, or 10x molar ratio) are very high. The authors cite pharmacokinetic data showing brain concentrations of Brazilin after intravenous injection in rats, but the relevance of these concentrations to the effective concentrations in the assays is not directly discussed. The brain concentration achieved (Cmax of 254 ng/mL, approximately 0.8 micromolar) is substantially lower than the concentrations that show strong effects in the aggregation assays.
+  - **Why it matters** The therapeutic potential depends on whether effective concentrations can be achieved in the brain. If the active concentrations are orders of magnitude higher than achievable brain concentrations, the translational relevance is limited.
+  - **Resolution test** Discuss the concentration dependence of Brazilin's effects and whether sub-micromolar concentrations show meaningful activity. If possible, test Brazilin at concentrations closer to the reported brain concentrations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Methods, ThT aggregation assays
+  - **Evidence pointer** Methods section
+  - **Issue** The methods state that Brazilin was dissolved in DMSO, but the final DMSO concentration in the assays is not reported. DMSO can affect protein aggregation at high concentrations.
+  - **Required correction** Report the final DMSO concentration in all assays and include a DMSO-only control.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, Figure 3
+  - **Evidence pointer** Results section, Figure 3
+  - **Issue** The SDS-PAGE quantification in Figure 3 is described as showing soluble and pellet fractions, but the representative gel images are not shown in the main text. The reader cannot assess the quality of the data.
+  - **Required correction** Include representative gel images in the main text or supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results, Figure 8
+  - **Evidence pointer** Results section, Figure 8
+  - **Issue** The neurite length data are described as showing significant differences, but the statistical test used and the number of independent experiments are not clearly stated in the figure legend or methods.
+  - **Required correction** Clearly state the statistical test, sample size, and number of independent experiments in the figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The term "conformational equilibrium" is used to describe the mechanism, but the data do not directly measure conformational equilibria. The ESI-IM-MS data show preferential binding to a compact conformation, but this does not necessarily demonstrate a shift in equilibrium.
+  - **Required correction** Use more precise language, such as "preferential binding to the compact conformation" rather than "altering conformational equilibria," unless direct evidence for an equilibrium shift is provided.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Figure 7
+  - **Evidence pointer** Results section, Figure 7
+  - **Issue** The RT-QuIC experiments use three PD brain homogenates, but the clinical characteristics of these patients (e.g., disease duration, Braak stage, medication) are not provided. This information is important for assessing the generalizability of the findings.
+  - **Required correction** Provide clinical details for the brain samples used, or state that this information is not available.
+
+## Risk / unsupported claims
+- The claim that Brazilin "eliminates seeding competence" of brain-derived assemblies is not fully supported because the experimental design does not distinguish between seed inactivation and inhibition of monomer recruitment.
+- The claim that Brazilin "alters conformational equilibria" is not directly measured; the data show preferential binding to a compact conformation but do not demonstrate an equilibrium shift.
+- The molecular dynamics simulation results are used to support mechanistic conclusions, but the limited sampling and lack of quantitative analysis make these claims weak.
+- The therapeutic potential claim is based on pharmacokinetic data from rats, but the relevance of the achieved brain concentrations to the effective concentrations in the assays is not established.
+- The quantitative analysis of fibril morphology (length, width, clustering) lacks sufficient methodological detail to assess the robustness of the claims.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39534915",
+  "title": "Nonspecific Yet Selective Interactions Contribute to Small Molecule Condensate Binding.",
+  "authors": "Wang, Cong; Kilgore, Henry R; Latham, Andrew P; Zhang, Bin",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2024-11-13",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用多尺度全原子模拟研究小分子与生物分子凝聚体的非特异性但选择性结合机制，虽对象为小分子而非IDP-PPI，但聚焦凝聚体中的结合环境与选择性机制建模，对无序蛋白介导互作及相分离背景下的机制研究有直接启发。",
+  "abstract": "Biomolecular condensates are essential in various cellular processes, and their misregulation has been demonstrated to underlie disease. Small molecules that modulate condensate stability and material properties offer promising therapeutic approaches, but mechanistic insights into their interactions with condensates remain largely lacking. We employ a multiscale approach to enable long-time, equilibrated all-atom simulations of various condensate-ligand systems. Systematic characterization of the ligand binding poses reveals that condensates can form diverse and heterogeneous chemical environments with one or multiple chains to bind small molecules. Unlike traditional protein-ligand interactions, these chemical environments are dominated by nonspecific hydrophobic interactions. Nevertheless, the chemical environments feature unique amino acid compositions and physicochemical properties that favor certain small molecules over others, resulting in varied ligand partitioning coefficients within condensates. Notably, different condensates share similar sets of chemical environments but at different populations. This population shift drives ligand selectivity toward specific condensates. Our approach can enhance the interpretation of experimental screening data and may assist in the rational design of small molecules targeting specific condensates.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）在各种细胞过程中至关重要，其失调已被证明是疾病的基础。调节凝聚体稳定性和材料性质的小分子提供了有前景的治疗方法，但对其与凝聚体相互作用的机制性见解仍 largely 缺乏。我们采用多尺度方法，以实现多种凝聚体-配体系统的长时间、平衡的全原子模拟。对配体结合姿态的系统表征揭示，凝聚体可形成多样且异质的化学环境，通过一条或多条链结合小分子。与传统蛋白质-配体相互作用不同，这些化学环境主要由非特异性疏水相互作用主导。然而，这些化学环境具有独特的氨基酸组成和物理化学性质，使某些小分子优先于其他分子，导致凝聚体内配体分配系数各异。值得注意的是，不同凝聚体共享相似的化学环境集合，但群体分布不同。这种群体偏移驱动配体对特定凝聚体的选择性。我们的方法可增强对实验筛选数据的解读，并可能有助于针对特定凝聚体的小分子的合理设计。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39534915/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39534915/",
+  "paper_page_path": "papers/pubmed/39534915/index.html"
+}

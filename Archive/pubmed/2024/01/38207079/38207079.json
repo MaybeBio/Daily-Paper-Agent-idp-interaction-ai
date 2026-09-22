@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "38207079",
+    "doi": "10.1073/pnas.2309152121",
+    "title": "Liquid-like condensates mediate competition between actin branching and bundling."
+  },
+  "content": {
+    "abstract": "Cellular remodeling of actin networks underlies cell motility during key morphological events, from embryogenesis to metastasis. In these transformations, there is an inherent competition between actin branching and bundling, because steric clashes among branches create a mechanical barrier to bundling. Recently, liquid-like condensates consisting purely of proteins involved in either branching or bundling of the cytoskeleton have been found to catalyze their respective functions. Yet in the cell, proteins that drive branching and bundling are present simultaneously. In this complex environment, which factors determine whether a condensate drives filaments to branch or become bundled? To answer this question, we added the branched actin nucleator, Arp2/3, to condensates composed of VASP, an actin bundling protein. At low actin to VASP ratios, branching activity, mediated by Arp2/3, robustly inhibited VASP-mediated bundling of filaments, in agreement with agent-based simulations. In contrast, as the actin to VASP ratio increased, addition of Arp2/3 led to formation of aster-shaped structures, in which bundled filaments emerged from a branched actin core, analogous to filopodia emerging from a branched lamellipodial network. These results demonstrate that multi-component, liquid-like condensates can modulate the inherent competition between bundled and branched actin morphologies, leading to organized, higher-order structures, similar to those found in motile cells.",
+    "keywords": [
+      "actin",
+      "biomechanics",
+      "biomolecular condensate",
+      "cytoskeleton",
+      "liquid-liquid phase separation"
+    ],
+    "mesh_terms": [
+      "*Actins/metabolism",
+      "*Microfilament Proteins/genetics/metabolism",
+      "Cytoskeleton/metabolism",
+      "Cell Movement/physiology",
+      "Actin Cytoskeleton/metabolism",
+      "Actin-Related Protein 2-3 Complex/genetics/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Graham, Kristin",
+        "Chandrasekaran, Aravind",
+        "Wang, Liping",
+        "Yang, Noel",
+        "Lafer, Eileen M",
+        "Rangamani, Padmini",
+        "Stachowiak, Jeanne C"
+      ],
+      "short_names": [
+        "Graham K",
+        "Chandrasekaran A",
+        "Wang L",
+        "Yang N",
+        "Lafer EM",
+        "Rangamani P",
+        "Stachowiak JC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6523-7143",
+        "ORCID: 0000-0001-5953-4347"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, University of Texas at Austin, Austin, TX 78712.",
+        "Department of Mechanical and Aerospace Engineering, University of California San Diego, La Jolla, CA 92093.",
+        "Department of Biochemistry and Structural Biology, University of Texas Health Science Center at San Antonio, San Antonio, TX 78229.",
+        "Department of Biomedical Engineering, University of Texas at Austin, Austin, TX 78712.",
+        "Department of Biochemistry and Structural Biology, University of Texas Health Science Center at San Antonio, San Antonio, TX 78229.",
+        "Department of Mechanical and Aerospace Engineering, University of California San Diego, La Jolla, CA 92093.",
+        "Department of Biomedical Engineering, University of Texas at Austin, Austin, TX 78712.",
+        "Department of Chemical Engineering, University of Texas at Austin, Austin, TX 78712."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Graham, Kristin",
+        "short_name": "Graham K",
+        "identifiers": [
+          "0000-0002-6523-7143"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Texas at Austin, Austin, TX 78712."
+        ]
+      },
+      {
+        "full_name": "Chandrasekaran, Aravind",
+        "short_name": "Chandrasekaran A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mechanical and Aerospace Engineering, University of California San Diego, La Jolla, CA 92093."
+        ]
+      },
+      {
+        "full_name": "Wang, Liping",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Structural Biology, University of Texas Health Science Center at San Antonio, San Antonio, TX 78229."
+        ]
+      },
+      {
+        "full_name": "Yang, Noel",
+        "short_name": "Yang N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Texas at Austin, Austin, TX 78712."
+        ]
+      },
+      {
+        "full_name": "Lafer, Eileen M",
+        "short_name": "Lafer EM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Structural Biology, University of Texas Health Science Center at San Antonio, San Antonio, TX 78229."
+        ]
+      },
+      {
+        "full_name": "Rangamani, Padmini",
+        "short_name": "Rangamani P",
+        "identifiers": [
+          "0000-0001-5953-4347"
+        ],
+        "affiliations": [
+          "Department of Mechanical and Aerospace Engineering, University of California San Diego, La Jolla, CA 92093."
+        ]
+      },
+      {
+        "full_name": "Stachowiak, Jeanne C",
+        "short_name": "Stachowiak JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Texas at Austin, Austin, TX 78712.",
+          "Department of Chemical Engineering, University of Texas at Austin, Austin, TX 78712."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2024 Jan 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/11 18:42",
+    "fetched_at": "2026-09-21 04:10:57"
+  },
+  "links": {
+    "cites": [
+      "42487407",
+      "42102188",
+      "41730871",
+      "41443423",
+      "41240313",
+      "40667218",
+      "40408482",
+      "40320716",
+      "39927755",
+      "39914390",
+      "38826190",
+      "38775207"
+    ],
+    "refs": [
+      "38405682",
+      "37549294",
+      "36598940",
+      "35927959",
+      "35918536",
+      "35830600",
+      "35285496",
+      "35211183",
+      "34133215",
+      "32579429",
+      "30297718",
+      "29386393",
+      "29064502",
+      "28813247",
+      "28667124",
+      "27056844",
+      "25355952",
+      "25321392",
+      "25203209",
+      "25145849",
+      "24591594",
+      "24382887",
+      "23623350",
+      "22398450",
+      "21676863",
+      "21041447",
+      "20439759",
+      "20404198",
+      "20110992",
+      "19913792",
+      "19847840",
+      "19746192",
+      "19648907",
+      "18995840",
+      "18923426",
+      "18820726",
+      "18464790",
+      "17712139",
+      "17475772",
+      "16966425",
+      "16675552",
+      "16565053",
+      "16549794",
+      "15569942",
+      "14570581",
+      "14530401",
+      "12642617",
+      "12566431",
+      "11598004",
+      "11029465",
+      "10940259",
+      "10801131",
+      "10563804",
+      "10498433",
+      "10438535",
+      "10087267",
+      "9889097",
+      "9600938",
+      "8432732"
+    ],
+    "similar": [
+      "38207079",
+      "37425724",
+      "37890285",
+      "18820726",
+      "32470361",
+      "28331069",
+      "17535252",
+      "30601697",
+      "19847840",
+      "34133215",
+      "39826693",
+      "38605007",
+      "38405682",
+      "14557252",
+      "21642440",
+      "36939020",
+      "35830600",
+      "35275060",
+      "30471998",
+      "25160634",
+      "12566431",
+      "29731300",
+      "30042427",
+      "39914390",
+      "25246528",
+      "16675552",
+      "15458649",
+      "38277459",
+      "12086607",
+      "21925510",
+      "11792818",
+      "11525747",
+      "27957528",
+      "22791711",
+      "38367669",
+      "25540195",
+      "34504078",
+      "35090589",
+      "36662867",
+      "25355952",
+      "25145849",
+      "14570581",
+      "37977138",
+      "21814501",
+      "35858327",
+      "11706047",
+      "11093254",
+      "36868090",
+      "12642617",
+      "3793760",
+      "38277158",
+      "12517699",
+      "18283104",
+      "11069108",
+      "32868296",
+      "24120641",
+      "34836783",
+      "35819332",
+      "26812019",
+      "19362000",
+      "38826190",
+      "32391788",
+      "32579429",
+      "16684607",
+      "35533728",
+      "16371509",
+      "35622886",
+      "19633175",
+      "39487253",
+      "38288872",
+      "37819623",
+      "38493594",
+      "35971979",
+      "11560487",
+      "15236643",
+      "29212790",
+      "23052975",
+      "27775702",
+      "24560576",
+      "22100337",
+      "27879315",
+      "18923426",
+      "12754935",
+      "14669958",
+      "11790308",
+      "34507987",
+      "32461373",
+      "26446836",
+      "36834689",
+      "31564494",
+      "17430976",
+      "23444374",
+      "17760506",
+      "26322783",
+      "10679358",
+      "14977545",
+      "34264264",
+      "15196561",
+      "27169557",
+      "27546710"
+    ],
+    "review": [
+      "38207079",
+      "25145849",
+      "14570581",
+      "36868090",
+      "12517699",
+      "34836783",
+      "38288872",
+      "29212790",
+      "12754935",
+      "14669958",
+      "36834689",
+      "10679358",
+      "14977545"
+    ],
+    "pmc": [
+      "10801869"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2309152121?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38207079/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

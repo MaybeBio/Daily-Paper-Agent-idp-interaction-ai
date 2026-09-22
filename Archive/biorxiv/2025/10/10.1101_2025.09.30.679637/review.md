@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, supplementary information description, declarations)
+- **Assessment boundary** Scientific content, methodology, claims, and evidence as presented in the provided text. No external validation of data or code was performed.
+- **Shared manuscript claim summary** The authors propose a theoretical framework, Co-Translational Condensation (CTC), in which polysomes interact with biomolecular condensates via nascent protein chains, localizing translation to condensate surfaces. They use coarse-grained simulations, Langmuir adsorption modeling, and reaction-diffusion equations to argue that protein architecture dictates CTC propensity, that CTC is kinetically feasible, and that CTC enhances post-translational modification efficiency.
+- **Visible evidence base** Simulation results (Figs. 1e,f, 2c-f, 3a-e, 4a-d, 5a-d), bioinformatic analysis of >7,500 proteins (Fig. 2f), Langmuir adsorption model fits (Fig. 2d,e), reaction-diffusion modeling (Figs. 4, 5), and references to experimental observations (Refs. 10, 11).
+- **Missing materials affecting confidence** Full methods section, simulation parameters, convergence criteria, classification algorithm details, complete bioinformatic dataset description, code availability, and all supplementary figures and videos. The manuscript text provided is incomplete (e.g., equations are referenced but not fully shown, some figure panels are described but not visible).
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially impactful theoretical framework linking translation to phase separation. The multi-scale modeling approach is ambitious and the bioinformatic analysis adds a useful dimension. However, the evidence as presented is insufficient to fully establish the central claims. Key methodological details are missing, the connection between simulation parameters and biological reality is not rigorously justified, and the functional implications section relies on a simplified model that may not capture the complexity of cellular PTM processes. The manuscript would benefit from clearer presentation of the models, additional validation of the coarse-graining approach, and a more critical discussion of the assumptions underlying the kinetic and functional analyses.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, translation regulation, and cellular organization would find this work relevant. The proposed CTC mechanism could inform experimental studies on mRNA localization, condensate nucleation, and co-translational folding. Synthetic biologists interested in engineering condensate-based systems may also find the framework useful. The bioinformatic classification of protein architectures could be of interest to evolutionary biologists studying protein domain organization.
+- **Major strengths** 1) The conceptual framework of CTC is novel and addresses a largely unexplored interface between translation and phase separation. 2) The multi-scale approach, combining coarse-grained simulations with reaction-diffusion modeling, is appropriate for the timescales involved. 3) The bioinformatic analysis provides a broad survey of protein architectures, strengthening the generality of the claims. 4) The functional implication for PTM efficiency is a concrete, testable prediction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "protein domain architecture dictates the thermodynamics of CTC" and that the Langmuir adsorption model "agrees well with simulations for all architectures."
+  - **Evidence pointer** Fig. 2c-e, Extended Data Fig. 2, Methods (location not provided)
+  - **Concern** The Langmuir adsorption model is a mean-field description that assumes independent, non-interacting binding sites on a homogeneous surface. Real condensate surfaces are heterogeneous, dynamic, and composed of multi-component mixtures. The authors do not justify why this simplified model is appropriate for polysome-condensate interactions, nor do they discuss the potential impact of multivalent interactions between multiple nascent chains on a single polysome and multiple binding sites on the condensate. The claim that the model "agrees well" is based on fits to simulation data, but the quality of these fits and the uniqueness of the extracted parameters (ϵ, σ) are not quantitatively reported. Without error bars on the fits or a comparison to alternative models, the conclusion that the Langmuir model captures the essential physics is not fully supported.
+  - **Why it matters** The Langmuir model is central to the quantitative claims about CTC propensity across architectures. If the model is inappropriate, the ranking of architectures by ϵ and the subsequent conclusions about which architectures favor CTC would be unreliable.
+  - **Resolution test** Provide quantitative goodness-of-fit metrics (e.g., R², chi-squared) for the Langmuir fits. Compare the Langmuir model to alternative adsorption models that account for multivalency or surface heterogeneity. Show that the extracted ϵ values are robust to changes in simulation parameters (e.g., interaction strengths, polymer length).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "large polysomes promote phase separation (lowering c_Dilute) for small condensates" and that this effect is size-dependent.
+  - **Evidence pointer** Fig. 3a,b, Extended Data Fig. 3, Methods (location not provided)
+  - **Concern** The observation that large polysomes lower c_Dilute for small condensates is presented as a key result, but the physical mechanism is not clearly explained. The authors mention that polysomes "stabilize otherwise unstable small condensates," but the thermodynamic basis for this stabilization is not derived. Is it due to an effective increase in local protein concentration? Or a reduction in surface tension? The size-dependence of the effect is also not rationalized. Furthermore, the claim that "biologically relevant condensates are typically larger than 100 nm" and therefore "binodals measured experimentally reflect the underlying protein phase behavior" seems to dismiss the size-dependent effects they just demonstrated. This is contradictory and needs clarification.
+  - **Why it matters** The phase diagram modification by polysomes is a central prediction of the CTC framework. If the mechanism is not understood, it is difficult to assess whether this effect would be relevant in cells, where condensate sizes and polysome concentrations vary widely.
+  - **Resolution test** Provide a theoretical derivation or a clear physical explanation for the size-dependent stabilization of condensates by large polysomes. Discuss the conditions under which this effect would be significant in a cellular context, given the stated size threshold of 100 nm.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / Claim support
+  - **Claim pointer** The authors claim that "CTC enhances post-translational modifications by minimizing unmodified intermediates" and that this is a "functional synergy."
+  - **Evidence pointer** Fig. 5a-d, Methods (location not provided)
+  - **Concern** The PTM model is highly simplified. It assumes a single enzymatic reaction converting A to B, with no explicit description of enzyme kinetics (e.g., Michaelis-Menten), no consideration of enzyme saturation, and no feedback regulation. The conclusion that CTC reduces unmodified intermediates is based on a steady-state analysis of this simplified system. While the result is plausible, the model does not account for the complexity of real PTM systems, where multiple enzymes, competing modifications, and regulatory loops are common. The claim of "functional synergy" is therefore overstated relative to the evidence provided. The authors should either expand the model to include more realistic features or temper their conclusions.
+  - **Why it matters** The functional benefit of CTC is a major selling point of the manuscript. If the PTM model is too simplistic, the claim that CTC provides a physiological advantage is not well-supported.
+  - **Resolution test** Extend the PTM model to include enzyme saturation and multiple competing reactions. Show that the qualitative conclusion (CTC reduces unmodified intermediates) holds under these more realistic conditions. Alternatively, clearly state the limitations of the simplified model and frame the result as a proof-of-concept rather than a general conclusion.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "most condensate-associated proteins (79%) exhibit Homo, Cross, or M-Block architectures, all comparably favorable for CTC."
+  - **Evidence pointer** Fig. 2f, Extended Data Fig. 1, Methods (location not provided)
+  - **Concern** The classification of protein architectures relies on catGRANULE 2.0 predictions of LLPS propensity. The authors do not provide details on how the classification thresholds were set, how robust the classification is to parameter choices, or whether the catGRANULE predictions are validated against experimental data for the proteins in the CD-CODE database. The claim that 79% of proteins favor CTC depends entirely on this classification. If the classification is sensitive to arbitrary thresholds, the conclusion could change.
+  - **Why it matters** The bioinformatic analysis is used to argue for the generality of CTC. If the classification is not robust, the claim that most condensate-associated proteins are predisposed to CTC is weakened.
+  - **Resolution test** Provide a sensitivity analysis of the classification to threshold choices. Validate catGRANULE predictions against a subset of experimentally characterized proteins. Show that the 79% figure is stable across reasonable parameter variations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction, Section 1
+  - **Evidence pointer** Location not provided
+  - **Issue** The introduction is well-written but could benefit from a more explicit statement of the gap in knowledge that CTC addresses. The phrase "how the spatiotemporal control of condensates is connected to its prerequisite – protein synthesis" is somewhat vague. Clarify what specific questions about this connection remain unanswered.
+  - **Required correction** Rephrase the gap statement to be more specific, e.g., "It remains unknown whether the process of protein synthesis itself can be spatially organized by condensates, and if so, what the functional consequences are."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2, Multi-scale modeling
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the coarse-grained model is brief. The authors state that proteins are represented as chains of 18 lattice beads, but do not specify the interaction potential, the range of interactions, or how the "strong-interaction" regions are mapped to bead types. This level of detail is insufficient for reproducibility.
+  - **Required correction** Provide a more detailed description of the simulation model in the Methods section, including the Hamiltonian, interaction parameters, and mapping from sequence to bead types.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.1, Fig. 2
+  - **Evidence pointer** Fig. 2a
+  - **Issue** The schematic in Fig. 2a is described in the text but not visible in the provided material. The description of the five architectures is clear, but a visual would help the reader understand the differences, especially between M-Block and Cross.
+  - **Required correction** Ensure the figure is included in the final manuscript and that the schematic clearly distinguishes the architectures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.1, Fig. 3c,d
+  - **Evidence pointer** Fig. 3c,d
+  - **Issue** The statistical significance of the nucleation time differences is not reported. The p-value for the large polysome comparison is given (p = 0.052), but the number of simulations (n=20) is small. The authors should report confidence intervals or effect sizes.
+  - **Required correction** Report 95% confidence intervals for the nucleation times and consider increasing the number of simulations to improve statistical power.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 6, Outlook
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of evolutionary implications is brief and somewhat speculative. The comparison to oligomerization proteins (Ref. 50) is interesting but could be expanded.
+  - **Required correction** Expand the discussion of evolutionary pressures, perhaps by discussing specific protein families or providing a more detailed comparison to the oligomerization case.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (Langmuir model justification), R1-M2 (mechanism of size-dependent stabilization), R1-M3 (PTM model simplicity), R1-M4 (classification robustness). These are the primary technical issues that prevent the core claims from being fully established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The concept of CTC is novel and addresses a previously unexplored connection between translation and phase separation. The multi-scale approach is creative.
+  - **Scientific importance** Potentially high, but not yet fully demonstrated. If CTC is a general mechanism, it could have broad implications for understanding cellular organization and protein function. However, the evidence presented is largely theoretical, and the connection to experimental reality is not yet established.
+  - **Interdisciplinary readership** The topic is inherently interdisciplinary, spanning biophysics, cell biology, and molecular biology. The manuscript is likely to appeal to researchers in all these fields, but the technical detail may be challenging for non-specialists.
+  - **Technical soundness** The modeling approach is reasonable, but the lack of methodological detail and the simplified functional model are significant weaknesses. The claims are not yet fully supported by the evidence.
+  - **Readability for nonspecialists** The abstract and introduction are accessible, but the results sections are dense and assume familiarity with polymer physics and phase separation concepts. The manuscript would benefit from a more accessible summary of the key findings and their implications.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the multi-scale approach is promising, but the current evidence is insufficient to fully establish the claims. The authors need to provide more rigorous justification for their models, more detailed methodology, and a more nuanced discussion of the limitations of their approach.
+
+## Risk / unsupported claims
+- The claim that "most condensate-associated proteins have architectures favoring CTC" is based on a classification that is not fully described or validated.
+- The claim that "CTC enhances post-translational modifications" is based on a simplified model that does not capture the complexity of real PTM systems.
+- The claim that "large polysomes promote phase separation for small condensates" is presented without a clear mechanistic explanation.
+- The claim that "CTC is a general mechanism coupling translation with phase separation" is an extrapolation from simulations and bioinformatic analysis that has not been directly tested experimentally.
+- The statement that "CTC may also influence protein folding, misfolding, and signal-integration latency" is speculative and not supported by any evidence in the manuscript.

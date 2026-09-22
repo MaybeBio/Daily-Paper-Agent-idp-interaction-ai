@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38347806",
+  "title": "Elucidating the reversible and irreversible self-assembly mechanisms of low-complexity aromatic-rich kinked peptides and steric zipper peptides.",
+  "authors": "Lao, Zenghui; Tang, Yiming; Dong, Xuewei; Tan, Yuan; Li, Xuhua; Liu, Xianshi; Li, Le; Guo, Cong; Wei, Guanghong",
+  "journal": "Nanoscale",
+  "published_date": "2024-02-13",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用全原子和粗粒化分子动力学模拟系统解析FUS低复杂度芳香族富集肽段与淀粉样拉链肽段的可逆/不可逆自组装机制，聚焦IDR介导的互作与相分离行为，方法为物理模拟且机制深度强，与课题高度契合。",
+  "abstract": "Many RNA-binding proteins such as fused-in sarcoma (FUS) can self-assemble into reversible liquid droplets and fibrils through the self-association of their low-complexity (LC) domains. Recent experiments have revealed that SYG-rich segments in the FUS LC domains play critical roles in the reversible self-assembly behaviors of FUS. These FUS LC segments alone can self-assemble into reversible kinked fibrils, which are markedly different from the canonical irreversible steric zipper beta-sheet fibrils. However, the molecular determinants underlying the reversible and irreversible self-assembly are poorly understood. Herein we conducted extensive all-atom and coarse-grained molecular dynamics simulations of four representative hexapeptides: two low-complexity aromatic-rich kinked peptides from the amyotrophic lateral sclerosis-related FUS protein, FUS(37-42) (SYSGYS) and FUS(54-59) (SYSSYG); and two steric zipper peptides from Alzheimer's-associated Abeta and Tau proteins, Abeta(16-21) (KLVFFA) and Tau(306-311) (VQIVYK). We dissected their reversible and irreversible self-assembly dynamics, predicted their phase separation behaviors, and elucidated the underpinning molecular interactions. Our simulations showed that alternating stickers (Tyr) and spacers (Gly and Ser) in FUS(37-42) and FUS(54-59) facilitate the formation of highly dynamic coil-rich oligomers and lead to reversible self-assembly, while consecutive hydrophobic residues of LVFF in Abeta(16-21) and IVY in Tau(306-311) act as hydrophobic patches, favoring the formation of stable beta-sheet-rich oligomers and driving the irreversible self-assembly. Intriguingly, we found that FUS(37-42) and FUS(54-59) peptides, possessing the same amino acid composition and the same number of sticker and spacer residues, display differential self-assembly propensities. This finding suggests that the self-assembly behaviors of FUS peptides are fine-tuned by the site-specific patterning of spacer residues (Ser and Gly). This study provides significant mechanistic insights into reversible and irreversible peptide self-assembly, which would be helpful for understanding the molecular mechanisms underlying the formation of biological liquid condensates and pathological solid amyloid fibrils.",
+  "abstract_zh": "许多RNA结合蛋白，如融合肉瘤蛋白（fused-in sarcoma, FUS），可通过其低复杂度（low-complexity, LC）域的自关联自组装成可逆的液滴和纤维。近期实验揭示，FUS LC域中的SYG富集片段在FUS的可逆自组装行为中发挥关键作用。这些FUS LC片段单独即可自组装成可逆的扭结纤维，这与典型的不可逆立体拉链β-折叠纤维显著不同。然而，可逆与不可逆自组装背后的分子决定因素尚不清楚。在此，我们对四个代表性六肽进行了广泛的原子级和粗粒化分子动力学（molecular dynamics）模拟：两个来自肌萎缩侧索硬化相关FUS蛋白的低复杂度芳香族富集扭结肽，FUS(37-42)（SYSGYS）和FUS(54-59)（SYSSYG）；以及两个来自阿尔茨海默病相关Aβ和Tau蛋白的立体拉链肽，Aβ(16-21)（KLVFFA）和Tau(306-311)（VQIVYK）。我们剖析了它们的可逆与不可逆自组装动力学，预测了其相分离（phase separation）行为，并阐明了支撑性的分子相互作用。模拟显示，FUS(37-42)和FUS(54-59)中交替的粘附残基（Tyr）和间隔残基（Gly和Ser）促进了高度动态的卷曲富集寡聚体形成，并导致可逆自组装；而Aβ(16-21)中连续的疏水残基LVFF和Tau(306-311)中的IVY则作为疏水补丁，有利于形成稳定的β-折叠富集寡聚体，并驱动不可逆自组装。有趣的是，我们发现FUS(37-42)和FUS(54-59)肽具有相同的氨基酸组成以及相同数量的粘附和间隔残基，却表现出不同的自组装倾向。这一发现表明，FUS肽的自组装行为受间隔残基（Ser和Gly）位点特异性模式的精细调控。本研究为可逆与不可逆肽自组装提供了重要的机制见解，有助于理解生物液体凝聚物和病理性固体淀粉样纤维形成的分子机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38347806/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38347806/",
+  "paper_page_path": "papers/pubmed/38347806/index.html"
+}

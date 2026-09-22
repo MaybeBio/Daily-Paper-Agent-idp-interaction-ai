@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "41071870",
+    "doi": "10.1126/sciadv.ady2604",
+    "title": "Mechanism of USP21 autoinhibition and histone H2AK119 deubiquitination."
+  },
+  "content": {
+    "abstract": "Monoubiquitinated histone H2A lysine 119 (H2AK119ub) is a modification associated with transcriptional silencing and heterochromatin formation. Ubiquitin-specific protease 21 (USP21), one of four major H2AK119-specific deubiquitinating enzymes (DUBs), plays critical roles in diverse cellular processes. However, the mechanisms by which USP21 specifically deubiquitinates H2AK119ub and is regulated are unknown. We determined the cryo-EM structure of the USP21 catalytic domain bound to an H2AK119ub nucleosome, which revealed a recognition mode that differs from that of other H2AK119-specific DUBs. We unexpectedly found that the N-terminal IDR of USP21 inhibits the enzyme's activity. Using AlphaFold-Multimer to perform a virtual screen of USP21 interactors, we identified kinases that phosphorylate the USP21 IDR and thereby relieve autoinhibition. AlphaFold3 modeling of USP21 suggests a structural model for autoinhibition. AlphaFold analysis suggests that phosphorylation-regulated autoinhibition may be a feature of various USP enzymes. These findings shed light on the mechanisms of H2AK119 deubiquitination and reveal a previously unexplored mode of phosphorylation-dependent DUB autoregulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Histones/metabolism/chemistry",
+      "*Ubiquitination",
+      "*Ubiquitin Thiolesterase/metabolism/chemistry/genetics",
+      "Humans",
+      "Phosphorylation",
+      "Models, Molecular",
+      "Catalytic Domain",
+      "Protein Binding",
+      "*Lysine/metabolism",
+      "Cryoelectron Microscopy",
+      "Nucleosomes/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rahman, Sanim",
+        "Hicks, Chad W",
+        "Gwizdala, Alexander",
+        "Wolberger, Cynthia"
+      ],
+      "short_names": [
+        "Rahman S",
+        "Hicks CW",
+        "Gwizdala A",
+        "Wolberger C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7144-4600",
+        "ORCID: 0000-0002-6040-6227",
+        "ORCID: 0009-0006-0162-8483",
+        "ORCID: 0000-0001-8578-2969"
+      ],
+      "affiliations": [
+        "Department of Biophysics and Biophysical Chemistry, The Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+        "Department of Biophysics and Biophysical Chemistry, The Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+        "Department of Biophysics and Biophysical Chemistry, The Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA.",
+        "Department of Biophysics and Biophysical Chemistry, The Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rahman, Sanim",
+        "short_name": "Rahman S",
+        "identifiers": [
+          "0000-0001-7144-4600"
+        ],
+        "affiliations": [
+          "Department of Biophysics and Biophysical Chemistry, The Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA."
+        ]
+      },
+      {
+        "full_name": "Hicks, Chad W",
+        "short_name": "Hicks CW",
+        "identifiers": [
+          "0000-0002-6040-6227"
+        ],
+        "affiliations": [
+          "Department of Biophysics and Biophysical Chemistry, The Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA."
+        ]
+      },
+      {
+        "full_name": "Gwizdala, Alexander",
+        "short_name": "Gwizdala A",
+        "identifiers": [
+          "0009-0006-0162-8483"
+        ],
+        "affiliations": [
+          "Department of Biophysics and Biophysical Chemistry, The Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA."
+        ]
+      },
+      {
+        "full_name": "Wolberger, Cynthia",
+        "short_name": "Wolberger C",
+        "identifiers": [
+          "0000-0001-8578-2969"
+        ],
+        "affiliations": [
+          "Department of Biophysics and Biophysical Chemistry, The Johns Hopkins University School of Medicine, Baltimore, MD 21205, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2025 Oct 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/10 18:29",
+    "fetched_at": "2026-09-17 20:55:31"
+  },
+  "links": {
+    "cites": [
+      "42395432"
+    ],
+    "refs": [
+      "40015271",
+      "39214302",
+      "39149911",
+      "39043678",
+      "38918638",
+      "38718835",
+      "38528151",
+      "38183204",
+      "38177667",
+      "37556531",
+      "36991118",
+      "36631611",
+      "36413069",
+      "34470856",
+      "34293799",
+      "34198054",
+      "33582281",
+      "33479123",
+      "33305911",
+      "33257830",
+      "33070389",
+      "32881101",
+      "32658293",
+      "32296183",
+      "31135381",
+      "30926243",
+      "30926242",
+      "29706623",
+      "28743957",
+      "28257702",
+      "28254948",
+      "28165473",
+      "27886188",
+      "27621083",
+      "27173435",
+      "26912860",
+      "26876938",
+      "26711108",
+      "26474655",
+      "26344097",
+      "25735772",
+      "24278184",
+      "23287719",
+      "22298430",
+      "21888622",
+      "21596315",
+      "21399617",
+      "21222274",
+      "20739938",
+      "20436459",
+      "20395473",
+      "20124702",
+      "20057044",
+      "19910467",
+      "19815555",
+      "19615732",
+      "19027299",
+      "18172164",
+      "18082604",
+      "17914355",
+      "17707232",
+      "15572765",
+      "15525528",
+      "15386022",
+      "14870657",
+      "12079350",
+      "10799498",
+      "10372352",
+      "9514715"
+    ],
+    "similar": [
+      "41071870",
+      "38918638",
+      "36991118",
+      "37556531",
+      "39537923",
+      "33827943",
+      "39149911",
+      "39214302",
+      "41513855",
+      "40619097",
+      "30923167",
+      "27462807",
+      "20436459",
+      "18172164",
+      "41873495",
+      "39196936",
+      "36865140",
+      "36738766",
+      "29706623",
+      "39528729",
+      "39383876",
+      "40801566",
+      "41257953",
+      "32003988",
+      "29288197",
+      "38952265",
+      "33589814",
+      "26912860",
+      "40716115",
+      "31485071",
+      "19440361",
+      "17914355",
+      "28073915",
+      "41197730",
+      "19910467",
+      "35739357",
+      "31253698",
+      "30981630",
+      "27956178",
+      "40373892",
+      "25305019",
+      "25197364",
+      "29643509",
+      "34470856",
+      "24278184",
+      "34321665",
+      "30765112",
+      "31403616",
+      "27582499",
+      "28855339",
+      "40683254",
+      "40645181",
+      "26149687",
+      "38293106",
+      "18758443",
+      "23824326",
+      "42262137",
+      "39305962",
+      "39900593",
+      "39270458",
+      "38870940",
+      "41653121",
+      "41920286",
+      "39680331",
+      "40441142",
+      "40513740",
+      "38385089",
+      "27923209",
+      "37743467",
+      "31439846",
+      "38992002",
+      "37595555",
+      "36919585",
+      "21183687",
+      "30759380",
+      "26416890",
+      "22298430",
+      "28254948",
+      "42091690",
+      "38562823",
+      "34529927",
+      "40923761",
+      "38518599",
+      "38705724",
+      "17707232",
+      "31488580",
+      "38891087",
+      "34524082",
+      "27129259",
+      "31804488",
+      "12167634",
+      "15386022",
+      "36062559",
+      "42298713",
+      "21399617",
+      "39979508",
+      "18687060",
+      "38462164",
+      "35974001",
+      "33361816"
+    ],
+    "review": [
+      "41071870",
+      "36738766",
+      "41920286",
+      "40513740",
+      "27923209"
+    ],
+    "pmc": [
+      "12513422"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/sciadv.ady2604?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/41071870.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41071870/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41071870",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

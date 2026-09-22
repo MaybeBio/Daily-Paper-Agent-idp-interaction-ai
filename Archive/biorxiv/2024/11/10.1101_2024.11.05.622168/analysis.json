@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.05.622168",
+  "title": "Metapredict enables accurate disorder prediction across the Tree of Life",
+  "authors": "Lotthammer JM; Hernández-García J; Griffith D; Weijers D; Holehouse AS; Emenecker RJ",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-07",
+  "window": {
+    "start": "2024-11-04",
+    "end": "2024-11-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了无序预测工具metapredict V3，实现跨物种蛋白质组的快速准确无序预测，但聚焦于序列预测而非PPI互作机制建模，方法上属AI应用但无互作机制深度。",
+  "abstract": "<h4>SUMMARY</h4> Intrinsically disordered proteins and protein regions (collectively IDRs) are critical in numerous cellular processes. To understand how IDRs facilitate function, we need tools to accurately and rapidly identify them from sequence. While many methods for disorder prediction exist, we are currently limited by throughput and accuracy for evolutionary scale analyses. To bridge this gap, we developed metapredict V3, an updated version of our disorder predictor that enables evolutionary-scale disorder prediction. Metapredict V3 enables proteome-scale prediction with state-of-the-art accuracy in seconds and was developed with a focus on usability. It is distributed as a web server, Python software package, command-line interface, and Google Colab notebook. Here, we leverage the accuracy and throughput of metapredict V3 to predict disorder for over 20,000 proteomes to evaluate the prevalence of disorder across the kingdoms of life.",
+  "abstract_zh": "<h4>摘要</h4> 内在无序蛋白质及蛋白质区域（统称为IDRs）在众多细胞过程中至关重要。为了理解IDRs如何促进功能，我们需要能够从序列中准确且快速识别它们的工具。尽管存在许多无序预测方法，但目前我们在进化尺度分析上受限于通量和准确性。为弥合这一差距，我们开发了metapredict V3，这是我们无序预测器的更新版本，能够实现进化尺度的无序预测。metapredict V3以最先进的准确性在数秒内实现蛋白质组尺度的预测，并注重易用性进行开发。它作为网络服务器、Python软件包、命令行界面和Google Colab笔记本分发。在此，我们利用metapredict V3的准确性和通量，对超过20,000个蛋白质组进行无序预测，以评估生命各界的无序普遍性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.05.622168",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.05.622168",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.05.622168/index.html"
+}

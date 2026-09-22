@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37205474",
+  "title": "Phase Separation in Mixtures of Prion-Like Low Complexity Domains is Driven by the Interplay of Homotypic and Heterotypic Interactions.",
+  "authors": "Pappu, Rohit; Farag, Mina; Borcherds, Wade; Bremer, Anne; Mittag, Tanja",
+  "journal": "Research square",
+  "published_date": "2023-05-19",
+  "window": {
+    "start": "2023-05-15",
+    "end": "2023-05-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合模拟与实验研究朊病毒样低复杂度域(A1-LCD与FUS-LCD)混合物的相分离，揭示同型与异型相互作用共同驱动凝聚体形成及界面构象偏好，直接聚焦无序蛋白介导的PPI与相分离机制建模，方法上含物理模拟，高度契合课题。",
+  "abstract": "Prion-like low-complexity domains (PLCDs) are involved in the formation and regulation of distinct biomolecular condensates that form via coupled associative and segregative phase transitions. We previously deciphered how evolutionarily conserved sequence features drive phase separation of PLCDs through homotypic interactions. However, condensates typically encompass a diverse mixture of proteins with PLCDs. Here, we combine simulations and experiments to study mixtures of PLCDs from two RNA binding proteins namely, hnRNPA1 and FUS. We find that 1:1 mixtures of the A1-LCD and FUS-LCD undergo phase separation more readily than either of the PLCDs on their own. The enhanced driving forces for phase separation of mixtures of A1-LCD and FUS-LCD arise partly from complementary electrostatic interactions between the two proteins. This complex coacervation-like mechanism adds to complementary interactions among aromatic residues. Further, tie line analysis shows that stoichiometric ratios of different components and their sequence-encoded interactions jointly contribute to the driving forces for condensate formation. These results highlight how expression levels might be tuned to regulate the driving forces for condensate formation in vivo . Simulations also show that the organization of PLCDs within condensates deviates from expectations based on random mixture models. Instead, spatial organization within condensates will reflect the relative strengths of homotypic versus heterotypic interactions. We also uncover rules for how interaction strengths and sequence lengths modulate conformational preferences of molecules at interfaces of condensates formed by mixtures of proteins. Overall, our findings emphasize the network-like organization of molecules within multicomponent condensates, and the distinctive, composition-specific conformational features of condensate interfaces.",
+  "abstract_zh": "朊病毒样低复杂度结构域（PLCDs）参与通过偶联的缔合和分离相变形成的不同生物分子凝聚体的形成与调控。我们先前解析了进化保守的序列特征如何通过同型相互作用驱动PLCDs的相分离。然而，凝聚体通常包含多种具有PLCDs的蛋白质混合物。在此，我们结合模拟与实验，研究来自两种RNA结合蛋白（即hnRNPA1和FUS）的PLCDs混合物。我们发现，A1-LCD和FUS-LCD的1:1混合物比任一单独的PLCDs更易发生相分离。A1-LCD和FUS-LCD混合物相分离驱动力增强，部分源于两种蛋白质之间的互补静电相互作用。这种复杂的共凝聚类机制补充了芳香族残基间的互补相互作用。此外，连接线分析表明，不同组分的化学计量比及其序列编码的相互作用共同贡献于凝聚体形成的驱动力。这些结果强调了体内表达水平如何可能被调节以控制凝聚体形成的驱动力。模拟还显示，PLCDs在凝聚体内的组织偏离基于随机混合模型的预期。相反，凝聚体内的空间组织将反映同型与异型相互作用的相对强度。我们还揭示了相互作用强度和序列长度如何调节由蛋白质混合物形成的凝聚体界面处分子构象偏好的规则。总体而言，我们的发现强调了多组分凝聚体内分子的网络状组织，以及凝聚体界面独特的、组成特异性的构象特征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37205474/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37205474/",
+  "paper_page_path": "papers/pubmed/37205474/index.html"
+}

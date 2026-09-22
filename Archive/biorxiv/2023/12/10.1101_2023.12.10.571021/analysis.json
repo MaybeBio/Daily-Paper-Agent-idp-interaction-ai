@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.10.571021",
+  "title": "HGNNPIP: A Hybrid Graph Neural Network framework for Protein-protein Interaction Prediction",
+  "authors": "Lutong Chi; Jinbiao Ma; Yingqiao Wan; Yang Deng; Yufeng Wu; Xiaochen Cen; Xiaobo Zhou; Xin Zhao; Yiming Wang; Zhiwei Ji",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-11",
+  "window": {
+    "start": "2023-12-11",
+    "end": "2023-12-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出混合图神经网络框架HGNNPIP用于蛋白-蛋白互作预测，改进负采样策略提升泛化能力，但对象非无序蛋白/相分离，且侧重预测而非互作机制建模。",
+  "abstract": "A deep understanding of Protein-protein interactions (PPIs) can provide comprehensive insights into many biological functions, thereby facilitating drug target identification and novel therapeutic design. Recent developments in artificial intelligence (AI)-driven computational methods have enabled the discovery of previously uncharacterized PPIs from large-scale interactome datasets. Almost all existing machine learning methods rely on Subcellular Localization (SL) to construct balanced datasets based on positive interactions to achieve predictions. Despite high fitting accuracy, the generalization ability of these models is questionable. To solve this problem, we analyzed existing methods and found that the high false positives in these methods are due to the bias in data distribution caused by SL. Therefore, we proposed a new strategy for negative instance sampling in PPI prediction and developed a Hybrid Graph Neural Network framework for Protein-protein Interaction Prediction (HGNNPIP). The experimental results showed that HGNNPIP works well on six benchmark datasets. Comparison analysis demonstrated that our model outperformed the other four existing methods. We also used HGNNPIP to explore the molecular contacts involved in the rice-pathogen interaction system. In vivo experiments confirmed multiple regulations related to disease resistance in rice. In summary, this study provides new insights into establishing a computational framework for PPI prediction with high reliability.",
+  "abstract_zh": "对蛋白质-蛋白质相互作用（PPIs）的深入理解能为众多生物功能提供全面见解，从而促进药物靶点识别和新型治疗设计。人工智能（AI）驱动的计算方法的最新进展，使得从大规模相互作用组数据集中发现先前未表征的PPIs成为可能。几乎所有现有的机器学习方法都依赖亚细胞定位（SL）来基于正相互作用构建平衡数据集以实现预测。尽管拟合精度高，但这些模型的泛化能力值得怀疑。为解决此问题，我们分析了现有方法，发现这些方法中的高假阳性率源于SL导致的数据分布偏差。因此，我们提出了一种新的PPI预测中负实例采样策略，并开发了一个用于蛋白质-蛋白质相互作用预测的混合图神经网络框架（HGNNPIP）。实验结果表明，HGNNPIP在六个基准数据集上表现良好。比较分析显示，我们的模型优于其他四种现有方法。我们还利用HGNNPIP探索了水稻-病原体相互作用系统中的分子接触。体内实验证实了与水稻抗病性相关的多种调控。总之，本研究为建立高可靠性PPI预测的计算框架提供了新见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.10.571021",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.10.571021",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.10.571021/index.html"
+}

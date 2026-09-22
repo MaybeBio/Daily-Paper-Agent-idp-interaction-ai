@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.01.673587",
+  "title": "Hyperbolic Wavelet Interaction Network (HyWinNet): Multi-Scale Geometric Learning for Interpretable Protein-Protein Interaction Prediction",
+  "authors": "Qingzhi Yu; Shuai Yan; Wenfeng Dai; Zhengrong Xi; Yuxin Cheng; Xiang Cheng",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-07",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出HyWinNet，用双曲图神经网络与谱小波变换预测蛋白-蛋白互作，方法新颖且涉及PPI机制建模，但对象并非无序蛋白/IDR或相分离，故对象轴为中档，整体评6分。",
+  "abstract": "Understanding the multi-scale organization of protein-protein interactions (PPIs) is fundamental to deciphering cellular signaling, allosteric regulation, and disease mechanisms, yet existing computational approaches fail to simultaneously resolve atomic-scale binding interfaces and pathway-level coordination. We present HyWinNet, a geometric deep learning framework that unifies Lorentzian hyperbolic graph neural networks with spectral graph wavelet transforms to intrinsically model the hierarchical architecture of biological interactions. The core innovation lies in three synergistic components: (1) Hyperbolic embeddings that preserve evolutionary-conserved topological relationships through negatively curved space projections, capturing scale-free properties of protein networks; (2) Multi-scale wavelet decomposition operating at biologically grounded resolutions to jointly analyze local residue contacts and global pathway dynamics; (3) Contrastive learning with stochastic feature dropout that mimics natural binding interface plasticity. Benchmarked against state-of-the-art methods, HyWinNet demonstrates superior performance in recovering known interactions while predicting previously unannotated functional sites validated through independent structural and biochemical studies. By bridging hyperbolic geometry with graph signal processing, this work establishes a new paradigm for analyzing multi-scale biological networks, offering both interpretable computational predictions and testable hypotheses for experimental validation. The framework’s ability to map hierarchical relationships from atomic details to system-level modules provides a transformative tool for drug discovery and mechanistic studies of complex diseases.",
+  "abstract_zh": "理解蛋白质-蛋白质相互作用（PPIs）的多尺度组织是解析细胞信号传导、别构调控和疾病机制的基础，然而现有计算方法无法同时解析原子尺度的结合界面和通路水平的协调性。我们提出HyWinNet，一种几何深度学习框架，将洛伦兹双曲图神经网络与谱图小波变换统一起来，内在建模生物相互作用的层级结构。核心创新在于三个协同组件：（1）双曲嵌入，通过负曲率空间投影保留进化保守的拓扑关系，捕捉蛋白质网络的无标度特性；（2）多尺度小波分解，在生物学合理分辨率下运行，联合分析局部残基接触和全局通路动态；（3）对比学习与随机特征丢弃，模拟自然结合界面可塑性。与最先进方法相比，HyWinNet在恢复已知相互作用方面表现出优越性能，同时预测了先前未注释的功能位点，并通过独立的结构和生化研究验证。通过桥接双曲几何与图信号处理，这项工作为分析多尺度生物网络建立了新范式，提供可解释的计算预测和可测试的实验验证假设。该框架从原子细节到系统级模块映射层级关系的能力，为药物发现和复杂疾病机制研究提供了变革性工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.01.673587",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.01.673587",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.01.673587/index.html"
+}

@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "42172452",
+    "doi": "10.1096/fj.202600308R",
+    "title": "Modular Organization of Rba50 Reveals Distinct Domains for RNAPII Assembly and Interaction Network Formation."
+  },
+  "content": {
+    "abstract": "RNA polymerase II (RNAPII) is a conserved 12-subunit enzyme essential for eukaryotic transcription. Although the structure and biological functions of RNAPII are well-defined, the mechanisms by which its subunits are assembled into a functional complex remain only partially understood. Several RNAPII assembly factors have been identified, but the molecular principles by which they cooperate during polymerase biogenesis remain unclear. Rba50 is an essential, conserved RNAPII assembly factor implicated in multiple stages of polymerase biogenesis, yet its mode of action remains unknown. Here, we combine structural prediction, targeted interaction assays, and functional analyses to reveal a modular organization of Rba50 with separable activities. Rba50 comprises two functionally distinct but cooperative regions: a structured C-terminal module that provides RNAPII assembly-associated activity and an intrinsically disordered N-terminal module that functions as a multivalent interaction hub. We map a direct interaction between the assembly factor Npa3 and the first N-terminal disordered segment, residues 1-89, and show that the N-terminal module expands the Rba50 interaction network. Functional assays indicate that the C-terminal region rescues specific rba50-3 phenotypes and supports proliferative recovery under permissive plasmid-shuffle conditions, whereas robust Rba50 function also requires determinants outside the C-terminal region. We further identify a CRM1-dependent leucine-rich nuclear export signal within residues 239-249 that limits nuclear accumulation of Rba50 at steady state. Together, our results support a modular architecture in which distinct functional elements within Rba50 contribute to RNAPII biogenesis, interaction-network formation, and nucleocytoplasmic distribution.",
+    "keywords": [
+      "IDR (intrinsically disordered region)",
+      "RNAPII (RNA polymerase II)",
+      "Rba50",
+      "assembly factor"
+    ],
+    "mesh_terms": [
+      "*RNA Polymerase II/metabolism/genetics/chemistry",
+      "*Saccharomyces cerevisiae Proteins/metabolism/genetics/chemistry",
+      "Protein Domains",
+      "Receptors, Cytoplasmic and Nuclear/metabolism",
+      "Karyopherins/metabolism/genetics",
+      "Protein Binding",
+      "Exportin 1 Protein",
+      "Saccharomyces cerevisiae/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Debao",
+        "Wang, Le",
+        "Sun, Xizhe",
+        "Yan, Yuanyuan",
+        "Li, Pan",
+        "Gao, Mengdi",
+        "Quintana, David G",
+        "Zeng, Fanli"
+      ],
+      "short_names": [
+        "Xie D",
+        "Wang L",
+        "Sun X",
+        "Yan Y",
+        "Li P",
+        "Gao M",
+        "Quintana DG",
+        "Zeng F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Life Sciences, Hebei Agricultural University, Baoding, China.",
+        "State Key Laboratory of North China Crop Improvement and Regulation, Baoding, China.",
+        "College of Life Sciences, Hebei Agricultural University, Baoding, China.",
+        "State Key Laboratory of North China Crop Improvement and Regulation, Baoding, China.",
+        "College of Life Sciences, Hebei Agricultural University, Baoding, China.",
+        "State Key Laboratory of North China Crop Improvement and Regulation, Baoding, China.",
+        "College of Life Sciences, Hebei Agricultural University, Baoding, China.",
+        "College of Life Sciences, Hebei Agricultural University, Baoding, China.",
+        "State Key Laboratory of North China Crop Improvement and Regulation, Baoding, China.",
+        "College of Life Sciences, Hebei Agricultural University, Baoding, China.",
+        "State Key Laboratory of North China Crop Improvement and Regulation, Baoding, China.",
+        "Biophysics Unit, Department of Biochemistry and Molecular Biology, School of Medicine, Autonomous University of Barcelona, Bellaterra, Spain.",
+        "College of Life Sciences, Hebei Agricultural University, Baoding, China.",
+        "State Key Laboratory of North China Crop Improvement and Regulation, Baoding, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Debao",
+        "short_name": "Xie D",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Hebei Agricultural University, Baoding, China.",
+          "State Key Laboratory of North China Crop Improvement and Regulation, Baoding, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Le",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Hebei Agricultural University, Baoding, China.",
+          "State Key Laboratory of North China Crop Improvement and Regulation, Baoding, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xizhe",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Hebei Agricultural University, Baoding, China.",
+          "State Key Laboratory of North China Crop Improvement and Regulation, Baoding, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Yuanyuan",
+        "short_name": "Yan Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Hebei Agricultural University, Baoding, China."
+        ]
+      },
+      {
+        "full_name": "Li, Pan",
+        "short_name": "Li P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Hebei Agricultural University, Baoding, China.",
+          "State Key Laboratory of North China Crop Improvement and Regulation, Baoding, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Mengdi",
+        "short_name": "Gao M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Hebei Agricultural University, Baoding, China.",
+          "State Key Laboratory of North China Crop Improvement and Regulation, Baoding, China."
+        ]
+      },
+      {
+        "full_name": "Quintana, David G",
+        "short_name": "Quintana DG",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics Unit, Department of Biochemistry and Molecular Biology, School of Medicine, Autonomous University of Barcelona, Bellaterra, Spain."
+        ]
+      },
+      {
+        "full_name": "Zeng, Fanli",
+        "short_name": "Zeng F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, Hebei Agricultural University, Baoding, China.",
+          "State Key Laboratory of North China Crop Improvement and Regulation, Baoding, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "FASEB journal : official publication of the Federation of American Societies for Experimental Biology"
+    ],
+    "journal_abbrev": [
+      "FASEB J"
+    ],
+    "pub_date": "2026 May 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/22 19:21",
+    "fetched_at": "2026-09-18 03:25:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42172452",
+      "29661922",
+      "32985767",
+      "35176321",
+      "36190433",
+      "27965115",
+      "35314265",
+      "21844196",
+      "41500282",
+      "21676864",
+      "38431777",
+      "26945063",
+      "23563140",
+      "34652274",
+      "40788873",
+      "27924005",
+      "39657659",
+      "21419780",
+      "21708948",
+      "35660944",
+      "15282305",
+      "23418395",
+      "32107786",
+      "36058424",
+      "34967414",
+      "19928061",
+      "31807700",
+      "40068679",
+      "23267056",
+      "17347149",
+      "9651390",
+      "33293419",
+      "41354346",
+      "24035501",
+      "23836886",
+      "24196955",
+      "38548891",
+      "22579255",
+      "23438601",
+      "26711263",
+      "38955181",
+      "40188244",
+      "39779918",
+      "40405832",
+      "25213169",
+      "29523636",
+      "16253993",
+      "35679405",
+      "12724356",
+      "24671508",
+      "31784551",
+      "34180355",
+      "18056993",
+      "17376774",
+      "17913884",
+      "15913559",
+      "30948432",
+      "20855544",
+      "24501251",
+      "15798214",
+      "16497660",
+      "40513950",
+      "21504834",
+      "17116658",
+      "19368889",
+      "33775921",
+      "31537648",
+      "18408053",
+      "20926373",
+      "1508210",
+      "18086892",
+      "24009531",
+      "42134803",
+      "34543624",
+      "7862117",
+      "29057997",
+      "25416796",
+      "25998554",
+      "21856751",
+      "18573877",
+      "19144820",
+      "12612062",
+      "39607887",
+      "15020051",
+      "36834876",
+      "32187185",
+      "39244754",
+      "35189816",
+      "18076379",
+      "25776559",
+      "21212361",
+      "34852272",
+      "40393801",
+      "20154708",
+      "39547229",
+      "29073019",
+      "41542892",
+      "19394294",
+      "39482307",
+      "21467036"
+    ],
+    "review": [
+      "42172452",
+      "15020051"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1096/fj.202600308R",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

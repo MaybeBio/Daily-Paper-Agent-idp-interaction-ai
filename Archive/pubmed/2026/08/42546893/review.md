@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that isolated peptides derived from RING1B (Arg231) and RYBP (Arg53), in both wild-type and citrullinated forms, bind to PADI4 with low micromolar affinities (Kd approximately 10-20 µM), that citrullinated variants show reduced affinity, and that molecular docking places these peptides in the PADI4 active site near Cys645. The authors infer that these peptide affinities are similar to those of the intact proteins and that citrullination diminishes enzyme binding.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or numerical data beyond the stated Kd range
+- **Missing materials affecting confidence** Full experimental methods (CD, NMR, fluorescence, BLI, ITC protocols), raw binding data, replicate statistics, docking parameters and scoring functions, peptide sequences and purity, control experiments, and any comparison data for intact RING1B or RYBP binding
+
+## Reviewer
+- **Overall assessment** The abstract presents a focused biophysical study on peptide-level interactions with PADI4, with a clear hypothesis and a multi-technique approach. However, the evidence base is too limited to evaluate the robustness of the claims. The central inference that peptide affinities mirror those of intact proteins is not supported by any comparative data shown in the abstract. The docking results are described qualitatively without scoring or validation details. The work may be of interest to specialists in protein citrullination and Polycomb biology, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers studying post-translational modifications, particularly citrullination and PADI enzymes, as well as those investigating Polycomb repressive complex assembly and regulation. The peptide-level binding data could inform inhibitor design or substrate recognition studies for PADI4.
+- **Major strengths** The study addresses a relevant and under-explored question regarding citrullination of Polycomb complex proteins. The use of multiple orthogonal biophysical techniques (fluorescence, BLI, ITC) to measure binding affinities is commendable. The inclusion of both wild-type and citrullinated peptide variants allows direct comparison of modification effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The isolated peptides, either in wild-type or modified form, were monomeric and disordered as indicated by far-UV CD and NMR."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that CD and NMR indicate monomeric and disordered states, but no spectral data, assignment details, or criteria for these conclusions are provided. Without seeing the actual spectra or the analysis thresholds, this claim cannot be verified.
+  - **Why it matters** The biophysical state of the peptides is foundational to interpreting the binding measurements. If peptides aggregated or adopted secondary structure, the affinity constants and docking results would be compromised.
+  - **Resolution test** Provide representative CD spectra with molar ellipticity values, NMR chemical shift dispersion or 1H-15N HSQC data, and explicit criteria for defining disorder and monomeric state (e.g., concentration dependence, diffusion measurements).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative claim support
+  - **Claim pointer** "These findings suggest that the isolated peptides were capable of binding to the enzyme with affinities similar to those of intact RING1B or RYBP"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not present any binding data for intact RING1B or RYBP proteins. The claim of similarity to intact proteins is therefore unsupported by any visible comparative evidence.
+  - **Why it matters** This is a central conclusion that extends the peptide results to the full-length protein context. Without direct comparison, the relevance of the peptide affinities to the physiological interaction remains speculative.
+  - **Resolution test** Include binding measurements for intact RING1B and RYBP under identical conditions, or clearly state that such data are not available and temper the claim accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Docking validation
+  - **Claim pointer** "Molecular docking simulations showed that the isolated peptides from each protein, either in wild-type form or modified variants, targeted the active site of PADI4, corresponding to the catalytic residue Cys645."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The docking results are described qualitatively. No scoring functions, docking software, ensemble sizes, or validation metrics (e.g., RMSD to known ligands, cross-docking controls) are mentioned. The claim that peptides target the active site is not quantitatively supported.
+  - **Why it matters** Docking predictions are highly dependent on methodology and can produce false positives. Without validation, the active-site targeting claim is weak.
+  - **Resolution test** Provide docking scores, software and parameters, and validation against a known PADI4 ligand or a negative control peptide. If possible, support with mutagenesis or competition experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Affinity range statement
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states "dissociation constants around 10-20 µM" but does not specify whether this range applies to all peptides or varies between wild-type and citrullinated forms.
+  - **Required correction** Specify the Kd values for each peptide variant separately, or state the range and note any differences between wild-type and modified forms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "N-terminal (Arg53)" for RYBP
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** RYBP is described as intrinsically disordered, and Arg53 is called N-terminal. Clarify whether Arg53 is within the first 10% of the sequence or simply in the N-terminal half, as "N-terminal" can be ambiguous.
+  - **Required correction** Define the sequence position relative to the full-length protein or use a more precise descriptor such as "near the N-terminus."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Binding measurements
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** No error estimates, replicate numbers, or statistical significance tests are mentioned for the affinity differences between wild-type and citrullinated peptides.
+  - **Required correction** Report mean values with standard deviations or confidence intervals, and indicate whether the observed affinity reductions are statistically significant.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (peptide state characterization not verifiable), R1-M2 (no comparative data for intact proteins), R1-M3 (docking not validated)
+- **Assessment against Nature-style criteria** Originality: The question of citrullination in Polycomb complex proteins is relatively novel, but the peptide-level approach is incremental. Scientific importance: Moderate; the findings could inform PADI4 substrate specificity but do not yet establish physiological relevance. Interdisciplinary readership: Limited; the work is primarily biophysical and will appeal mainly to specialists. Technical soundness: Cannot be fully assessed from the abstract; the multi-technique approach is appropriate, but validation is missing. Readability for nonspecialists: The abstract is concise and understandable, though some terms (e.g., BLI, ITC) assume familiarity.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the central comparative claim and the biophysical characterization are not verifiable without full data. Supportive if technical concerns are resolved and comparative data are provided.
+
+## Risk / unsupported claims
+- The claim that peptide affinities are similar to those of intact RING1B or RYBP is unsupported, as no intact protein binding data are presented.
+- The claim that citrullination diminishes affinity is only weakly supported, as no statistical details or individual Kd values are given.
+- The docking conclusion that peptides target the active site near Cys645 is unvalidated and should be treated as preliminary.
+- The statement that peptides are monomeric and disordered is not verifiable from the abstract alone.

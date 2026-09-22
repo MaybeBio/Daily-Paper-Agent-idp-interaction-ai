@@ -1,0 +1,525 @@
+{
+  "identity": {
+    "pmid": "40973726",
+    "doi": "10.1038/s41467-025-64051-4",
+    "title": "Transient ligand contacts of the intrinsically disordered N-terminus of neuropeptide Y(2) receptor regulate arrestin-3 recruitment."
+  },
+  "content": {
+    "abstract": "Previous efforts in delineating molecular mechanisms of G protein-coupled receptor (GPCR) activation have focused on transmembrane regions and ligand-receptor contacts of the extracellular loops. The role of the highly flexible N-termini of rhodopsin-like GPCRs have not been well characterized to date. We hypothesize that transient contacts between the peptide ligand and the intrinsically disordered N-terminus (NT) of the neuropeptide Y (NPY) receptor Y(2) (Y(2)R) will affect receptor signaling. We employ cross-linking mass spectrometry to capture ligand-receptor contacts including transient binding modes. A photo-reactive NPY analogue allows mapping the interaction between NPY and Y(2)R NT resulting in a total number of 40 cross-links. The cross-links provide distance constraints for deriving structural models of the interaction. Molecular dynamics simulations highlight the structural flexibility and rapid interconversion of ligand-receptor contacts. Mutagenesis of Y(2)R and functional characterization suggest that the cross-linking hotspots in the NT electrostatically control its conformational ensemble. The NT engages in transient contacts to the peptide and prolongs ligand residence time, which is required for efficient interaction of Y(2)R with arrestin-3, but not G(i.) We delineate structure-function relationships for the intrinsically disordered Y(2)R NT and propose a functional role for transient binding modes involving the NT of a peptide-binding receptor.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Receptors, Neuropeptide Y/metabolism/chemistry/genetics",
+      "Ligands",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "Protein Binding",
+      "HEK293 Cells",
+      "Neuropeptide Y/metabolism/chemistry",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "Animals",
+      "Signal Transduction",
+      "Protein Conformation",
+      "Arrestins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kaiser, Anette",
+        "Rojas Echeverri, Juan C",
+        "Baischew, Asat",
+        "Pankonin, Maik",
+        "Leitner, Karl D",
+        "Iacobucci, Claudio",
+        "Sala, Davide",
+        "Ihling, Christian",
+        "Muller, Ronny",
+        "Ferenc, Rok",
+        "Beck-Sickinger, Annette G",
+        "Schmidt, Peter",
+        "Meiler, Jens",
+        "Hildebrand, Peter W",
+        "Sinz, Andrea"
+      ],
+      "short_names": [
+        "Kaiser A",
+        "Rojas Echeverri JC",
+        "Baischew A",
+        "Pankonin M",
+        "Leitner KD",
+        "Iacobucci C",
+        "Sala D",
+        "Ihling C",
+        "Muller R",
+        "Ferenc R",
+        "Beck-Sickinger AG",
+        "Schmidt P",
+        "Meiler J",
+        "Hildebrand PW",
+        "Sinz A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5477-201X",
+        "ORCID: 0000-0002-5675-9724",
+        "ORCID: 0009-0004-2295-7513",
+        "ORCID: 0009-0008-1709-5161",
+        "ORCID: 0000-0003-4560-8020",
+        "ORCID: 0000-0001-8945-193X",
+        "ORCID: 0000-0003-0063-1104",
+        "ORCID: 0000-0003-1521-4899"
+      ],
+      "affiliations": [
+        "Department of Anesthesiology and Intensive Care, University of Leipzig Medical Center, Leipzig, Germany. anette.kaiser@medizin.uni-leipzig.de.",
+        "Institute of Biochemistry, Faculty of Life Sciences, Leipzig University, Leipzig, Germany. anette.kaiser@medizin.uni-leipzig.de.",
+        "Department of Pharmaceutical Chemistry and Bioanalytics, Institute of Pharmacy, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany.",
+        "Center for Structural Mass Spectrometry, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany.",
+        "Department of Pharmaceutical Chemistry and Bioanalytics, Institute of Pharmacy, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany.",
+        "Center for Structural Mass Spectrometry, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany.",
+        "Institute of Medical Physics and Biophysics, Medical Faculty, Leipzig University, Leipzig, Germany.",
+        "Department of Anesthesiology and Intensive Care, University of Leipzig Medical Center, Leipzig, Germany.",
+        "Department of Pharmaceutical Chemistry and Bioanalytics, Institute of Pharmacy, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany.",
+        "Center for Structural Mass Spectrometry, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany.",
+        "Department of Physical and Chemical Sciences, University of L'Aquila, Via Vetoio, L'Aquila, Italy.",
+        "Institute for Drug Discovery, Medical Faculty, Leipzig University, Leipzig, Germany.",
+        "Department of Pharmaceutical Chemistry and Bioanalytics, Institute of Pharmacy, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany.",
+        "Center for Structural Mass Spectrometry, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany.",
+        "Institute of Biochemistry, Faculty of Life Sciences, Leipzig University, Leipzig, Germany.",
+        "Institute of Medical Physics and Biophysics, Medical Faculty, Leipzig University, Leipzig, Germany.",
+        "Institute of Biochemistry, Faculty of Life Sciences, Leipzig University, Leipzig, Germany.",
+        "Institute of Medical Physics and Biophysics, Medical Faculty, Leipzig University, Leipzig, Germany.",
+        "Institute for Drug Discovery, Medical Faculty, Leipzig University, Leipzig, Germany.",
+        "Institute of Medical Physics and Biophysics, Medical Faculty, Leipzig University, Leipzig, Germany.",
+        "Department of Pharmaceutical Chemistry and Bioanalytics, Institute of Pharmacy, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany. andrea.sinz@pharmazie.uni-halle.de.",
+        "Center for Structural Mass Spectrometry, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany. andrea.sinz@pharmazie.uni-halle.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kaiser, Anette",
+        "short_name": "Kaiser A",
+        "identifiers": [
+          "0000-0002-5477-201X"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology and Intensive Care, University of Leipzig Medical Center, Leipzig, Germany. anette.kaiser@medizin.uni-leipzig.de.",
+          "Institute of Biochemistry, Faculty of Life Sciences, Leipzig University, Leipzig, Germany. anette.kaiser@medizin.uni-leipzig.de."
+        ]
+      },
+      {
+        "full_name": "Rojas Echeverri, Juan C",
+        "short_name": "Rojas Echeverri JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry and Bioanalytics, Institute of Pharmacy, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany.",
+          "Center for Structural Mass Spectrometry, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany."
+        ]
+      },
+      {
+        "full_name": "Baischew, Asat",
+        "short_name": "Baischew A",
+        "identifiers": [
+          "0000-0002-5675-9724"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry and Bioanalytics, Institute of Pharmacy, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany.",
+          "Center for Structural Mass Spectrometry, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany."
+        ]
+      },
+      {
+        "full_name": "Pankonin, Maik",
+        "short_name": "Pankonin M",
+        "identifiers": [
+          "0009-0004-2295-7513"
+        ],
+        "affiliations": [
+          "Institute of Medical Physics and Biophysics, Medical Faculty, Leipzig University, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Leitner, Karl D",
+        "short_name": "Leitner KD",
+        "identifiers": [
+          "0009-0008-1709-5161"
+        ],
+        "affiliations": [
+          "Department of Anesthesiology and Intensive Care, University of Leipzig Medical Center, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Iacobucci, Claudio",
+        "short_name": "Iacobucci C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry and Bioanalytics, Institute of Pharmacy, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany.",
+          "Center for Structural Mass Spectrometry, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany.",
+          "Department of Physical and Chemical Sciences, University of L'Aquila, Via Vetoio, L'Aquila, Italy."
+        ]
+      },
+      {
+        "full_name": "Sala, Davide",
+        "short_name": "Sala D",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Drug Discovery, Medical Faculty, Leipzig University, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Ihling, Christian",
+        "short_name": "Ihling C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry and Bioanalytics, Institute of Pharmacy, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany.",
+          "Center for Structural Mass Spectrometry, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany."
+        ]
+      },
+      {
+        "full_name": "Müller, Ronny",
+        "short_name": "Müller R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry, Faculty of Life Sciences, Leipzig University, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Ferenc, Rok",
+        "short_name": "Ferenc R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Physics and Biophysics, Medical Faculty, Leipzig University, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Beck-Sickinger, Annette G",
+        "short_name": "Beck-Sickinger AG",
+        "identifiers": [
+          "0000-0003-4560-8020"
+        ],
+        "affiliations": [
+          "Institute of Biochemistry, Faculty of Life Sciences, Leipzig University, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmidt, Peter",
+        "short_name": "Schmidt P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Medical Physics and Biophysics, Medical Faculty, Leipzig University, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Meiler, Jens",
+        "short_name": "Meiler J",
+        "identifiers": [
+          "0000-0001-8945-193X"
+        ],
+        "affiliations": [
+          "Institute for Drug Discovery, Medical Faculty, Leipzig University, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Hildebrand, Peter W",
+        "short_name": "Hildebrand PW",
+        "identifiers": [
+          "0000-0003-0063-1104"
+        ],
+        "affiliations": [
+          "Institute of Medical Physics and Biophysics, Medical Faculty, Leipzig University, Leipzig, Germany."
+        ]
+      },
+      {
+        "full_name": "Sinz, Andrea",
+        "short_name": "Sinz A",
+        "identifiers": [
+          "0000-0003-1521-4899"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Chemistry and Bioanalytics, Institute of Pharmacy, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany. andrea.sinz@pharmazie.uni-halle.de.",
+          "Center for Structural Mass Spectrometry, Martin Luther University Halle-Wittenberg, Halle, Saale, Germany. andrea.sinz@pharmazie.uni-halle.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Sep 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/20 00:31",
+    "fetched_at": "2026-09-17 20:10:48"
+  },
+  "links": {
+    "cites": [
+      "42291135",
+      "41460885"
+    ],
+    "refs": [
+      "40258031",
+      "38978399",
+      "38947516",
+      "38696819",
+      "37892113",
+      "37569573",
+      "37423610",
+      "37252352",
+      "37038975",
+      "37037825",
+      "36890236",
+      "36882417",
+      "36525977",
+      "36285908",
+      "36115020",
+      "35933013",
+      "35517958",
+      "35507650",
+      "35333001",
+      "35113559",
+      "34822209",
+      "34759375",
+      "34516756",
+      "34507520",
+      "34290238",
+      "34272643",
+      "34265844",
+      "33939217",
+      "33876925",
+      "33744315",
+      "33738925",
+      "33531491",
+      "33149304",
+      "33076289",
+      "32927734",
+      "32881101",
+      "32483333",
+      "32414020",
+      "32385295",
+      "32296761",
+      "31855179",
+      "31792443",
+      "31283178",
+      "30976204",
+      "30382245",
+      "30004692",
+      "29925258",
+      "29860432",
+      "29774740",
+      "29670288",
+      "29436493",
+      "29387686",
+      "29376325",
+      "29335412",
+      "29298813",
+      "29227473",
+      "29075003",
+      "28691345",
+      "28430426",
+      "28283573",
+      "28188824",
+      "27899324",
+      "27819658",
+      "26905976",
+      "25924821",
+      "25574629",
+      "25358478",
+      "25198166",
+      "25130509",
+      "24831006",
+      "24290358",
+      "24035711",
+      "23732681",
+      "23056231",
+      "22729149",
+      "22681902",
+      "22455376",
+      "22190692",
+      "21864311",
+      "21545413",
+      "21488100",
+      "20972986",
+      "20959467",
+      "20421142",
+      "19953226",
+      "19055817",
+      "18845246",
+      "18598760",
+      "17269722",
+      "15782218",
+      "15337367",
+      "12915697",
+      "12524448",
+      "12503621",
+      "12167864",
+      "9553103",
+      "9549761",
+      "9162944",
+      "9023338",
+      "8744570"
+    ],
+    "similar": [
+      "40973726",
+      "36525977",
+      "25924821",
+      "29436493",
+      "32223755",
+      "40780192",
+      "21696823",
+      "29670288",
+      "29944985",
+      "20438572",
+      "12665544",
+      "18767100",
+      "16998904",
+      "24111902",
+      "20471432",
+      "33531491",
+      "25817573",
+      "8795076",
+      "7957231",
+      "35165283",
+      "11756401",
+      "12209475",
+      "40517292",
+      "41052902",
+      "9089810",
+      "30503694",
+      "21855645",
+      "24686081",
+      "8426366",
+      "11358498",
+      "20676138",
+      "18457425",
+      "10346911",
+      "38985766",
+      "12069594",
+      "25007879",
+      "10759209",
+      "32790043",
+      "7629181",
+      "10519913",
+      "7489825",
+      "33865871",
+      "29309751",
+      "31919571",
+      "21452195",
+      "8952003",
+      "16382996",
+      "8907173",
+      "24444822",
+      "21595512",
+      "15576634",
+      "11884204",
+      "9001438",
+      "9802402",
+      "22487268",
+      "8254609",
+      "16097949",
+      "24365162",
+      "18845246",
+      "34748345",
+      "30881304",
+      "9738898",
+      "36219818",
+      "32927734",
+      "29367257",
+      "7688568",
+      "8300621",
+      "29310113",
+      "33255213",
+      "7473586",
+      "38580186",
+      "8450492",
+      "11124908",
+      "34838984",
+      "31310716",
+      "12523644",
+      "32700391",
+      "30091227",
+      "7893945",
+      "1433176",
+      "31533726",
+      "15908753",
+      "9705087",
+      "10658578",
+      "19725122",
+      "16231000",
+      "11179953",
+      "26055055",
+      "23178200",
+      "21999704",
+      "14755515",
+      "7518295",
+      "15178255",
+      "40884023",
+      "22182779",
+      "19459152",
+      "20959467",
+      "10710288",
+      "27818291",
+      "10407172"
+    ],
+    "review": [
+      "40973726",
+      "12209475",
+      "10759209",
+      "10519913",
+      "16382996",
+      "9001438",
+      "24365162",
+      "29310113",
+      "7893945"
+    ],
+    "pmc": [
+      "12449476"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-64051-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40973726/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40973726",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1287",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

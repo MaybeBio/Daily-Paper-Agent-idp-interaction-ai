@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "40816076",
+    "doi": "10.1016/j.foodchem.2025.145895",
+    "title": "Synergistic modulation of myofibrillar protein self-assembly in aqueous systems via nonenzymatic glycation and amino acid supplementation."
+  },
+  "content": {
+    "abstract": "This study systematically investigated the synergistic effects of l-glutamic acid, l-proline, and l-lysine on the self-assembly behavior of myofibrillar proteins (MPs) in aqueous systems when combined with non-enzymatic glycation reactions. Results revealed that glycation with amino acid supplementation effectively inhibited MP self-assembly, with l-glutamic acid and l-lysine showing the strongest impact, increasing MP water solubility to 50.83 % and 42.03 %, respectively, while ensuring stable dispersion (P < 0.05). Structural and micromorphological analyses showed that l-glutamic acid and l-lysine boosted electrostatic repulsion in myosin, significantly lowering alpha-helix content and particle size (P < 0.05), causing a loose, disordered protein structure. This facilitated dextran-myosin interactions, further inhibiting assembly via steric hindrance. Conversely, l-proline limited dextran's inhibitory effect by forming unique protein aggregates. Self-assembly simulations confirmed these findings. Overall, combining amino acid supplementation with glycation offers a promising approach for controlling MP assembly, with potential for innovative meat protein-based products.",
+    "keywords": [
+      "Aqueous systems",
+      "Exogenous amino acids",
+      "Myofibrillar proteins",
+      "Nonenzymatic glycation",
+      "Protein self-assembly"
+    ],
+    "mesh_terms": [
+      "Glycosylation",
+      "*Amino Acids/chemistry",
+      "*Muscle Proteins/chemistry",
+      "*Myofibrils/chemistry",
+      "Animals",
+      "Solubility"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Huang, Yuxin",
+        "Xu, Xinyao",
+        "Guo, Xiaoming",
+        "Kong, Baohua",
+        "Guo, Zengwang",
+        "Liu, Haotian",
+        "Wang, Zhongjiang"
+      ],
+      "short_names": [
+        "Huang Y",
+        "Xu X",
+        "Guo X",
+        "Kong B",
+        "Guo Z",
+        "Liu H",
+        "Wang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China.",
+        "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China.",
+        "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China.",
+        "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China.",
+        "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China.",
+        "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China. Electronic address: liuht920@neau.edu.cn.",
+        "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China. Electronic address: wzjname@126.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Huang, Yuxin",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xinyao",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Xiaoming",
+        "short_name": "Guo X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Baohua",
+        "short_name": "Kong B",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Zengwang",
+        "short_name": "Guo Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Haotian",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China. Electronic address: liuht920@neau.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhongjiang",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food Science, Northeast Agricultural University, Harbin, Heilongjiang 150030, China. Electronic address: wzjname@126.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Food chemistry"
+    ],
+    "journal_abbrev": [
+      "Food Chem"
+    ],
+    "pub_date": "2025 Nov 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/16 00:29",
+    "fetched_at": "2026-09-21 22:26:03"
+  },
+  "links": {
+    "cites": [
+      "42419087"
+    ],
+    "refs": [],
+    "similar": [
+      "40816076",
+      "40031132",
+      "40953528",
+      "35779510",
+      "41412652",
+      "36041374",
+      "37573906",
+      "39316410",
+      "34428492",
+      "40570532",
+      "32388315",
+      "38865845",
+      "40597525",
+      "39255701",
+      "35299018",
+      "38795377",
+      "40356121",
+      "33682127",
+      "37979277",
+      "33933959",
+      "38432134",
+      "38397606",
+      "38820704",
+      "39106755",
+      "32101205",
+      "39862610",
+      "41033538",
+      "40922205",
+      "39150724",
+      "40436159",
+      "39172110",
+      "41174424",
+      "35149469",
+      "38582465",
+      "40939385",
+      "40504624",
+      "32815729",
+      "35661602",
+      "12105966",
+      "39675263",
+      "35483289",
+      "41214947",
+      "39447268",
+      "39437947",
+      "10637043",
+      "37254354",
+      "40081720",
+      "39577516",
+      "31552989",
+      "38870818",
+      "32505986",
+      "39848043",
+      "23438261",
+      "39528197",
+      "39919430",
+      "41004996",
+      "40440846",
+      "28873725",
+      "40957280",
+      "36305316",
+      "36641026",
+      "37183695",
+      "40057065",
+      "40294679",
+      "33933962",
+      "39736290",
+      "40845694",
+      "41485213",
+      "40467205",
+      "26916602",
+      "39742607",
+      "32330829",
+      "34242867",
+      "28873678",
+      "22838408",
+      "36113593",
+      "38901348",
+      "31655245",
+      "40472517",
+      "33725542",
+      "35580519",
+      "37450954",
+      "38056743",
+      "39476902",
+      "40122425",
+      "28197578",
+      "38653104",
+      "38838569",
+      "39593377",
+      "40527378",
+      "36596105",
+      "39614527",
+      "38678659",
+      "39324370",
+      "38872574",
+      "39427800",
+      "33887661",
+      "41218309",
+      "39938256",
+      "21074947"
+    ],
+    "review": [
+      "40816076",
+      "39150724",
+      "36305316"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0308-8146(25)03146-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "identity": {
+    "pmid": "37100914",
+    "doi": "10.1038/s41586-023-05990-0",
+    "title": "Visualizing the disordered nuclear transport machinery in situ."
+  },
+  "content": {
+    "abstract": "The approximately 120 MDa mammalian nuclear pore complex (NPC) acts as a gatekeeper for the transport between the nucleus and cytosol(1). The central channel of the NPC is filled with hundreds of intrinsically disordered proteins (IDPs) called FG-nucleoporins (FG-NUPs)(2,3). Although the structure of the NPC scaffold has been resolved in remarkable detail, the actual transport machinery built up by FG-NUPs-about 50 MDa-is depicted as an approximately 60-nm hole in even highly resolved tomograms and/or structures computed with artificial intelligence(4-11). Here we directly probed conformations of the vital FG-NUP98 inside NPCs in live cells and in permeabilized cells with an intact transport machinery by using a synthetic biology-enabled site-specific small-molecule labelling approach paired with highly time-resolved fluorescence microscopy. Single permeabilized cell measurements of the distance distribution of FG-NUP98 segments combined with coarse-grained molecular simulations of the NPC allowed us to map the uncharted molecular environment inside the nanosized transport channel. We determined that the channel provides-in the terminology of the Flory polymer theory(12)-a 'good solvent' environment. This enables the FG domain to adopt expanded conformations and thus control transport between the nucleus and cytoplasm. With more than 30% of the proteome being formed from IDPs, our study opens a window into resolving disorder-function relationships of IDPs in situ, which are important in various processes, such as cellular signalling, phase separation, ageing and viral entry.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Active Transport, Cell Nucleus",
+      "Artificial Intelligence",
+      "*Cell Nucleus/metabolism",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Nuclear Pore/metabolism",
+      "*Nuclear Pore Complex Proteins/chemistry/metabolism",
+      "Microscopy, Fluorescence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yu, Miao",
+        "Heidari, Maziar",
+        "Mikhaleva, Sofya",
+        "Tan, Piau Siong",
+        "Mingu, Sara",
+        "Ruan, Hao",
+        "Reinkemeier, Christopher D",
+        "Obarska-Kosinska, Agnieszka",
+        "Siggel, Marc",
+        "Beck, Martin",
+        "Hummer, Gerhard",
+        "Lemke, Edward A"
+      ],
+      "short_names": [
+        "Yu M",
+        "Heidari M",
+        "Mikhaleva S",
+        "Tan PS",
+        "Mingu S",
+        "Ruan H",
+        "Reinkemeier CD",
+        "Obarska-Kosinska A",
+        "Siggel M",
+        "Beck M",
+        "Hummer G",
+        "Lemke EA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5890-9204",
+        "ORCID: 0000-0001-7686-695X",
+        "ORCID: 0000-0003-3393-4988",
+        "ORCID: 0000-0002-7397-1321",
+        "ORCID: 0000-0001-7768-746X",
+        "ORCID: 0000-0002-0634-0503"
+      ],
+      "affiliations": [
+        "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Institute of Molecular Biology Mainz, Mainz, Germany.",
+        "Structural and Computational Biology, European Molecular Biology Laboratory, Heidelberg, Germany.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, Germany.",
+        "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Institute of Molecular Biology Mainz, Mainz, Germany.",
+        "Structural and Computational Biology, European Molecular Biology Laboratory, Heidelberg, Germany.",
+        "Structural and Computational Biology, European Molecular Biology Laboratory, Heidelberg, Germany.",
+        "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Institute of Molecular Biology Mainz, Mainz, Germany.",
+        "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Institute of Molecular Biology Mainz, Mainz, Germany.",
+        "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Institute of Molecular Biology Mainz, Mainz, Germany.",
+        "Structural and Computational Biology, European Molecular Biology Laboratory, Heidelberg, Germany.",
+        "Department of Molecular Sociology, Max Planck Institute of Biophysics, Frankfurt am Main, Germany.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, Germany.",
+        "Centre for Structural Systems Biology, Hamburg, Germany.",
+        "European Molecular Biology Laboratory Hamburg, Hamburg, Germany.",
+        "Department of Molecular Sociology, Max Planck Institute of Biophysics, Frankfurt am Main, Germany.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, Germany. gerhard.hummer@biophys.mpg.de.",
+        "Institute of Biophysics, Goethe University Frankfurt, Frankfurt am Main, Germany. gerhard.hummer@biophys.mpg.de.",
+        "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany. edlemke@uni-mainz.de.",
+        "Institute of Molecular Biology Mainz, Mainz, Germany. edlemke@uni-mainz.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yu, Miao",
+        "short_name": "Yu M",
+        "identifiers": [
+          "0000-0002-5890-9204"
+        ],
+        "affiliations": [
+          "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany.",
+          "Institute of Molecular Biology Mainz, Mainz, Germany.",
+          "Structural and Computational Biology, European Molecular Biology Laboratory, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Heidari, Maziar",
+        "short_name": "Heidari M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Mikhaleva, Sofya",
+        "short_name": "Mikhaleva S",
+        "identifiers": [],
+        "affiliations": [
+          "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany.",
+          "Institute of Molecular Biology Mainz, Mainz, Germany.",
+          "Structural and Computational Biology, European Molecular Biology Laboratory, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Tan, Piau Siong",
+        "short_name": "Tan PS",
+        "identifiers": [],
+        "affiliations": [
+          "Structural and Computational Biology, European Molecular Biology Laboratory, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Mingu, Sara",
+        "short_name": "Mingu S",
+        "identifiers": [],
+        "affiliations": [
+          "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany.",
+          "Institute of Molecular Biology Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Ruan, Hao",
+        "short_name": "Ruan H",
+        "identifiers": [],
+        "affiliations": [
+          "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany.",
+          "Institute of Molecular Biology Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Reinkemeier, Christopher D",
+        "short_name": "Reinkemeier CD",
+        "identifiers": [],
+        "affiliations": [
+          "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany.",
+          "Institute of Molecular Biology Mainz, Mainz, Germany.",
+          "Structural and Computational Biology, European Molecular Biology Laboratory, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Obarska-Kosinska, Agnieszka",
+        "short_name": "Obarska-Kosinska A",
+        "identifiers": [
+          "0000-0001-7686-695X"
+        ],
+        "affiliations": [
+          "Department of Molecular Sociology, Max Planck Institute of Biophysics, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Siggel, Marc",
+        "short_name": "Siggel M",
+        "identifiers": [
+          "0000-0003-3393-4988"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, Germany.",
+          "Centre for Structural Systems Biology, Hamburg, Germany.",
+          "European Molecular Biology Laboratory Hamburg, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Beck, Martin",
+        "short_name": "Beck M",
+        "identifiers": [
+          "0000-0002-7397-1321"
+        ],
+        "affiliations": [
+          "Department of Molecular Sociology, Max Planck Institute of Biophysics, Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Hummer, Gerhard",
+        "short_name": "Hummer G",
+        "identifiers": [
+          "0000-0001-7768-746X"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Frankfurt am Main, Germany. gerhard.hummer@biophys.mpg.de.",
+          "Institute of Biophysics, Goethe University Frankfurt, Frankfurt am Main, Germany. gerhard.hummer@biophys.mpg.de."
+        ]
+      },
+      {
+        "full_name": "Lemke, Edward A",
+        "short_name": "Lemke EA",
+        "identifiers": [
+          "0000-0002-0634-0503"
+        ],
+        "affiliations": [
+          "Biocenter, Johannes Gutenberg University Mainz, Mainz, Germany. edlemke@uni-mainz.de.",
+          "Institute of Molecular Biology Mainz, Mainz, Germany. edlemke@uni-mainz.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2023 May",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/27 00:42",
+    "fetched_at": "2026-09-20 21:27:37"
+  },
+  "links": {
+    "cites": [
+      "42573943",
+      "42478741",
+      "42473993",
+      "42465456",
+      "42435060",
+      "42417517",
+      "42355542",
+      "42301231",
+      "42273831",
+      "42172735",
+      "42164661",
+      "41943216",
+      "41826677",
+      "41436085",
+      "41387701",
+      "41343238",
+      "41331088",
+      "41253788",
+      "41101500",
+      "41100670",
+      "41068455",
+      "41019633",
+      "41004004",
+      "41000985",
+      "40973737",
+      "40928103",
+      "40926106",
+      "40830340",
+      "40576548",
+      "40490488",
+      "40464641",
+      "40221424",
+      "40193850",
+      "40067309",
+      "39944881",
+      "39866708",
+      "39826710",
+      "39737807",
+      "39735932",
+      "39642200",
+      "39567561",
+      "39455581",
+      "39282864",
+      "39273335",
+      "39142062",
+      "39120726",
+      "39013028",
+      "39000572",
+      "38940456",
+      "38714656",
+      "38410695",
+      "38400853",
+      "38383349",
+      "38254150",
+      "38241438",
+      "37957331",
+      "37957147",
+      "37903771",
+      "37856873",
+      "37577555",
+      "37498221"
+    ],
+    "refs": [
+      "36765044",
+      "36599981",
+      "36138110",
+      "35679425",
+      "35679405",
+      "35679404",
+      "35679397",
+      "35512095",
+      "35314668",
+      "35119945",
+      "35089308",
+      "34982960",
+      "34931046",
+      "34887356",
+      "34762489",
+      "34716273",
+      "34646014",
+      "34516789",
+      "34433013",
+      "34193851",
+      "33779550",
+      "33307683",
+      "32692309",
+      "31723007",
+      "30883195",
+      "30190551",
+      "30171252",
+      "29961577",
+      "29642023",
+      "29604882",
+      "29590630",
+      "28864541",
+      "28716919",
+      "27697925",
+      "27136131",
+      "27091992",
+      "26621095",
+      "26589065",
+      "26456112",
+      "26371551",
+      "26317470",
+      "26147918",
+      "26015579",
+      "25863585",
+      "25562883",
+      "25288112",
+      "24739174",
+      "24606139",
+      "22984159",
+      "22901806",
+      "21481779",
+      "20368288",
+      "19503137",
+      "19281653",
+      "18798613",
+      "17916694",
+      "17897945",
+      "17185422",
+      "17082456",
+      "16341800",
+      "15738986",
+      "15314214",
+      "14624840",
+      "11250898",
+      "11248054",
+      "2391365"
+    ],
+    "similar": [
+      "37100914",
+      "33548309",
+      "35679397",
+      "39282864",
+      "29374059",
+      "34473567",
+      "35098921",
+      "26791761",
+      "33336681",
+      "35412248",
+      "21647294",
+      "27673359",
+      "26658558",
+      "30902367",
+      "30704069",
+      "28068389",
+      "28887410",
+      "28506890",
+      "33790297",
+      "32794558",
+      "31262825",
+      "28579449",
+      "26311873",
+      "29350911",
+      "28669824",
+      "17875746",
+      "39205388",
+      "36302971",
+      "32096308",
+      "19801417",
+      "25229147",
+      "34995711",
+      "29442997",
+      "19278659",
+      "38260360",
+      "12543930",
+      "20482319",
+      "32168597",
+      "38018404",
+      "24213245",
+      "17630825",
+      "32696372",
+      "24626154",
+      "21447814",
+      "25562883",
+      "29033133",
+      "28734076",
+      "26456112",
+      "22901806",
+      "23202855",
+      "38267582",
+      "29500415",
+      "26338152",
+      "33617830",
+      "32622019",
+      "34639238",
+      "31723007",
+      "29590630",
+      "30017917",
+      "15557115",
+      "31914646",
+      "24739174",
+      "21961597",
+      "26541386",
+      "33856346",
+      "24144701",
+      "19098896",
+      "34237287",
+      "27198189",
+      "22577827",
+      "34191541",
+      "30471692",
+      "22100335",
+      "37528778",
+      "35679401",
+      "29572326",
+      "17418788",
+      "26371551",
+      "23090414",
+      "12604785",
+      "37099395",
+      "26878241",
+      "20627572",
+      "25797490",
+      "11248054",
+      "29429880",
+      "35491934",
+      "24857723",
+      "27136131",
+      "37307457",
+      "34339633",
+      "35923096",
+      "16045929",
+      "28624666",
+      "36674958",
+      "26705895",
+      "24558427",
+      "31241896",
+      "25410863",
+      "36257947",
+      "23427268",
+      "21987633",
+      "24929341",
+      "35408855",
+      "39142062",
+      "39356635",
+      "39389027",
+      "31673318"
+    ],
+    "review": [
+      "37100914",
+      "39282864",
+      "26791761",
+      "33336681",
+      "27673359",
+      "28506890",
+      "32794558",
+      "28579449",
+      "28669824",
+      "19801417",
+      "34995711",
+      "20482319",
+      "26338152",
+      "30017917",
+      "22577827",
+      "23090414",
+      "20627572",
+      "24857723",
+      "35923096",
+      "28624666",
+      "26705895",
+      "39142062"
+    ],
+    "pmc": [
+      "10156602"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-023-05990-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37100914/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37100914",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

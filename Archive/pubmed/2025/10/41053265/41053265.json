@@ -1,0 +1,412 @@
+{
+  "identity": {
+    "pmid": "41053265",
+    "doi": "10.1038/s42004-025-01682-0",
+    "title": "Transient non-local interactions dominate the dynamics of measles virus N(TAIL)."
+  },
+  "content": {
+    "abstract": "The RNA genome of measles virus is encapsidated by the nucleoprotein within a helical nucleocapsid that serves as a template for both transcription and replication. The intrinsically disordered domain of the nucleoprotein (N(TAIL)) is essential for binding the polymerase complex responsible for viral transcription and replication. As for many IDPs, binding of N(TAIL) occurs through a short molecular recognition element (MoRE) that folds upon binding, with the majority of N(TAIL) remaining disordered. Although N(TAIL) regions far from the MoRE influence the binding affinity, interactions between them and the MoRE have not been investigated in depth. Relying on photo-induced electron transfer (PET) experiments between tryptophan and cysteine pairs placed at different positions in the protein under varying salt and pH conditions, combined with analytical models, simulations, and coevolutionary analysis, we identified transient interactions between two disordered regions distant in sequence, which dominate N(TAIL) dynamics, and regulate the conformational preferences of both the MoRE and the entire N(TAIL) domain. We propose mechanisms by which these non-local interactions may regulate binding to the measles phosphoprotein, polymerase recruitment, and ultimately viral transcription and replication. Our findings may be extended to other IDPs, where non-local intra-protein interactions affect the conformational preferences of intermolecular binding sites.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Otteson, Lillian",
+        "Nagy, Gabor",
+        "Kunkel, John",
+        "Kodis, Gerdenis",
+        "Bock, Lars V",
+        "Bignon, Christophe",
+        "Longhi, Sonia",
+        "Zheng, Wenwei",
+        "Grubmuller, Helmut",
+        "Vaiana, Andrea C",
+        "Vaiana, Sara M"
+      ],
+      "short_names": [
+        "Otteson L",
+        "Nagy G",
+        "Kunkel J",
+        "Kodis G",
+        "Bock LV",
+        "Bignon C",
+        "Longhi S",
+        "Zheng W",
+        "Grubmuller H",
+        "Vaiana AC",
+        "Vaiana SM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8607-9682",
+        "ORCID: 0000-0003-4998-7005",
+        "ORCID: 0000-0003-4554-7336",
+        "ORCID: 0000-0002-6829-6771",
+        "ORCID: 0000-0002-9603-009X",
+        "ORCID: 0000-0002-3270-3144",
+        "ORCID: 0000-0002-8865-0651",
+        "ORCID: 0009-0000-1108-1481"
+      ],
+      "affiliations": [
+        "Center for Biological Physics, Arizona State University, Tempe, AZ, USA.",
+        "Department of Physics, Arizona State University, Tempe, AZ, USA.",
+        "Department of Theoretical and Computational Biophysics, Max Planck Institute for Multidisciplinary Sciences, Gottingen, Germany.",
+        "Center for Biological Physics, Arizona State University, Tempe, AZ, USA.",
+        "Department of Physics, Arizona State University, Tempe, AZ, USA.",
+        "Center for Biological Physics, Arizona State University, Tempe, AZ, USA.",
+        "Department of Physics, Arizona State University, Tempe, AZ, USA.",
+        "Department of Theoretical and Computational Biophysics, Max Planck Institute for Multidisciplinary Sciences, Gottingen, Germany.",
+        "Aix Marseille Univ, CNRS, AFMB, Marseille, France.",
+        "Aix Marseille Univ, CNRS, AFMB, Marseille, France.",
+        "College of Integrative Sciences and Arts, Arizona State University, Mesa, AZ, USA. wenweizheng@asu.edu.",
+        "Department of Theoretical and Computational Biophysics, Max Planck Institute for Multidisciplinary Sciences, Gottingen, Germany. helmut.grubmueller@mpinat.mpg.de.",
+        "Department of Theoretical and Computational Biophysics, Max Planck Institute for Multidisciplinary Sciences, Gottingen, Germany. avaiana@unm.edu.",
+        "Department of Chemistry and Chemical Biology, University of New Mexico, Albuquerque, NM, USA. avaiana@unm.edu.",
+        "Center for Biological Physics, Arizona State University, Tempe, AZ, USA. sara.vaiana@asu.edu.",
+        "Department of Physics, Arizona State University, Tempe, AZ, USA. sara.vaiana@asu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Otteson, Lillian",
+        "short_name": "Otteson L",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biological Physics, Arizona State University, Tempe, AZ, USA.",
+          "Department of Physics, Arizona State University, Tempe, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Nagy, Gabor",
+        "short_name": "Nagy G",
+        "identifiers": [
+          "0000-0002-8607-9682"
+        ],
+        "affiliations": [
+          "Department of Theoretical and Computational Biophysics, Max Planck Institute for Multidisciplinary Sciences, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Kunkel, John",
+        "short_name": "Kunkel J",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biological Physics, Arizona State University, Tempe, AZ, USA.",
+          "Department of Physics, Arizona State University, Tempe, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Kodis, Gerdenis",
+        "short_name": "Kodis G",
+        "identifiers": [
+          "0000-0003-4998-7005"
+        ],
+        "affiliations": [
+          "Center for Biological Physics, Arizona State University, Tempe, AZ, USA.",
+          "Department of Physics, Arizona State University, Tempe, AZ, USA."
+        ]
+      },
+      {
+        "full_name": "Bock, Lars V",
+        "short_name": "Bock LV",
+        "identifiers": [
+          "0000-0003-4554-7336"
+        ],
+        "affiliations": [
+          "Department of Theoretical and Computational Biophysics, Max Planck Institute for Multidisciplinary Sciences, Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Bignon, Christophe",
+        "short_name": "Bignon C",
+        "identifiers": [],
+        "affiliations": [
+          "Aix Marseille Univ, CNRS, AFMB, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Longhi, Sonia",
+        "short_name": "Longhi S",
+        "identifiers": [
+          "0000-0002-6829-6771"
+        ],
+        "affiliations": [
+          "Aix Marseille Univ, CNRS, AFMB, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Zheng, Wenwei",
+        "short_name": "Zheng W",
+        "identifiers": [
+          "0000-0002-9603-009X"
+        ],
+        "affiliations": [
+          "College of Integrative Sciences and Arts, Arizona State University, Mesa, AZ, USA. wenweizheng@asu.edu."
+        ]
+      },
+      {
+        "full_name": "Grubmüller, Helmut",
+        "short_name": "Grubmüller H",
+        "identifiers": [
+          "0000-0002-3270-3144"
+        ],
+        "affiliations": [
+          "Department of Theoretical and Computational Biophysics, Max Planck Institute for Multidisciplinary Sciences, Göttingen, Germany. helmut.grubmueller@mpinat.mpg.de."
+        ]
+      },
+      {
+        "full_name": "Vaiana, Andrea C",
+        "short_name": "Vaiana AC",
+        "identifiers": [
+          "0000-0002-8865-0651"
+        ],
+        "affiliations": [
+          "Department of Theoretical and Computational Biophysics, Max Planck Institute for Multidisciplinary Sciences, Göttingen, Germany. avaiana@unm.edu.",
+          "Department of Chemistry and Chemical Biology, University of New Mexico, Albuquerque, NM, USA. avaiana@unm.edu."
+        ]
+      },
+      {
+        "full_name": "Vaiana, Sara M",
+        "short_name": "Vaiana SM",
+        "identifiers": [
+          "0009-0000-1108-1481"
+        ],
+        "affiliations": [
+          "Center for Biological Physics, Arizona State University, Tempe, AZ, USA. sara.vaiana@asu.edu.",
+          "Department of Physics, Arizona State University, Tempe, AZ, USA. sara.vaiana@asu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications chemistry"
+    ],
+    "journal_abbrev": [
+      "Commun Chem"
+    ],
+    "pub_date": "2025 Oct 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/07 00:29",
+    "fetched_at": "2026-09-17 20:55:31"
+  },
+  "links": {
+    "cites": [
+      "42338018",
+      "42168213",
+      "42147780",
+      "41929039",
+      "39554085"
+    ],
+    "refs": [
+      "36750251",
+      "36148633",
+      "34960734",
+      "34687712",
+      "33302617",
+      "32613009",
+      "32323533",
+      "32270045",
+      "32181359",
+      "31496998",
+      "31402660",
+      "31375591",
+      "31362509",
+      "30865832",
+      "30715849",
+      "30591682",
+      "30581045",
+      "30304492",
+      "30140745",
+      "29735729",
+      "29735687",
+      "29604882",
+      "29364893",
+      "29197511",
+      "28600653",
+      "28273070",
+      "27936158",
+      "27819658",
+      "27243806",
+      "26684000",
+      "26331261",
+      "26328871",
+      "26029193",
+      "25883315",
+      "25764013",
+      "25564857",
+      "25511246",
+      "25400522",
+      "25008930",
+      "24043820",
+      "24003217",
+      "23901099",
+      "23811056",
+      "23312353",
+      "21613569",
+      "21405192",
+      "20628786",
+      "20303863",
+      "20058326",
+      "19948124",
+      "18536007",
+      "16046624",
+      "15280472",
+      "15159535",
+      "15015496",
+      "14645906",
+      "12946342",
+      "12944395",
+      "12621042",
+      "11576531",
+      "10860987"
+    ],
+    "similar": [
+      "41053265",
+      "39091801",
+      "27936158",
+      "28168220",
+      "29197511",
+      "25492314",
+      "26684000",
+      "23811056",
+      "22881220",
+      "29437959",
+      "32323533",
+      "31496998",
+      "30591682",
+      "25511246",
+      "12944395",
+      "37546728",
+      "29694866",
+      "38294935",
+      "29262365",
+      "36148633",
+      "30715849",
+      "19445677",
+      "25008930",
+      "15914856",
+      "28661120",
+      "19198564",
+      "24043820",
+      "21613569",
+      "25960280",
+      "24003217",
+      "26719278",
+      "20657787",
+      "26387109",
+      "22318731",
+      "31326517",
+      "26071376",
+      "28031463",
+      "16046624",
+      "35317998",
+      "30140745",
+      "32696382",
+      "30471687",
+      "25523747",
+      "39230304",
+      "28600653",
+      "16364741",
+      "27423742",
+      "20450481",
+      "34730389",
+      "34730394",
+      "12621042",
+      "31852780",
+      "29144446",
+      "28926706",
+      "34679283",
+      "24086133",
+      "31050626",
+      "32570195",
+      "32321813",
+      "15201055",
+      "25883315",
+      "22506277",
+      "20058326",
+      "21766125",
+      "9191839",
+      "22108848",
+      "33065883",
+      "31748390",
+      "27170753",
+      "30680534",
+      "29237836",
+      "26195786",
+      "26184170",
+      "34960734",
+      "31381607",
+      "32696368",
+      "29326986",
+      "32579908",
+      "24074578",
+      "28179533",
+      "34578318",
+      "38039868",
+      "20303863",
+      "30787192",
+      "14749181",
+      "35931116",
+      "25207671",
+      "12163594",
+      "30025858",
+      "31702919",
+      "20143306",
+      "21159870",
+      "34439894",
+      "15280472",
+      "26742101",
+      "26445449",
+      "29691656",
+      "24211251",
+      "18468621",
+      "31375591"
+    ],
+    "review": [
+      "41053265",
+      "31496998",
+      "30591682",
+      "36148633",
+      "19198564",
+      "26387109",
+      "31326517",
+      "26071376",
+      "28600653",
+      "16364741",
+      "20450481",
+      "32570195",
+      "34960734",
+      "29326986"
+    ],
+    "pmc": [
+      "12501004"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42004-025-01682-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41053265/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

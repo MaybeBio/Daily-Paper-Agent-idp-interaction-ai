@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full text of a review article, including abstract, main text, figures (referenced but not provided), and references (not provided in full).
+- **Assessment boundary** Scientific content, logical coherence, evidence quality, and alignment with the stated scope of a review article. No assessment of formatting, grammar, or journal-specific style beyond what affects clarity.
+- **Shared manuscript claim summary** The manuscript argues that heterologous ubiquitination, particularly LUBAC-mediated linear (M1-linked) ubiquitination, contributes to the pathogenesis of Alzheimer's disease (AD) and amyotrophic lateral sclerosis (ALS) through effects on protein aggregation, NF-κB signaling, and liquid-liquid phase separation (LLPS). It further proposes that targeting ubiquitination pathways, including via LUBAC inhibitors and PROTACs, represents a promising therapeutic strategy.
+- **Visible evidence base** The manuscript cites published primary literature, including the authors' own work, and presents structural models and simulation data (Figures 2 and 3) to support claims about SNP effects. Experimental data from cited studies are described but not independently verifiable from the manuscript alone.
+- **Missing materials affecting confidence** Figures 1–5 are referenced but not provided. Full reference list is not included. No supplementary data or methods for structural simulations or AlphaFold2 predictions are provided. This limits independent verification of specific structural claims and quantitative results.
+
+## Reviewer
+- **Overall assessment** This is a well-structured and readable review that consolidates emerging evidence on the role of non-canonical ubiquitination, especially M1-linked linear ubiquitination, in neurodegenerative proteinopathies. The focus on LUBAC, its regulators, and the potential therapeutic implications is timely and of interest to the neurodegeneration and ubiquitin signaling communities. However, the review is largely descriptive and relies heavily on the authors' own prior work, with limited critical synthesis of conflicting or alternative viewpoints. Several claims, particularly regarding SNP effects and the role of linear ubiquitination in LLPS, are presented with more certainty than the cited evidence may support. The therapeutic section, while relevant, is somewhat disconnected from the mechanistic sections and would benefit from a more integrated discussion of feasibility and challenges.
+- **Who would be interested in the results, and why** Researchers in the fields of ubiquitin signaling, neurodegeneration, protein aggregation, and neuroinflammation. Clinicians and drug developers interested in novel therapeutic targets for AD and ALS, particularly those exploring PROTACs and E3 ligase inhibitors, would also find the review relevant. The structural analysis of disease-associated SNPs may appeal to those studying the molecular basis of genetic risk factors.
+- **Major strengths** The manuscript provides a comprehensive overview of the ubiquitin code and its relevance to neurodegeneration, with a clear focus on the less-discussed M1-linked ubiquitination. The integration of structural biology, including AlphaFold2 predictions and molecular dynamics simulations, adds a valuable dimension. The discussion of LUBAC inhibitors and PROTACs is forward-looking and highlights actionable therapeutic avenues. The authors effectively connect genetic risk factors (SNPs in SHARPIN and RBCK1) to potential functional consequences, which is a strength.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and interpretation
+  - **Claim pointer** The manuscript states that "most of the SHARPIN SNPs that cause an amino acid replacement affect the structure and function of SHARPIN" and that specific mutations (e.g., G186R, R274W, D291G, P294S) would impair LUBAC complex formation or ubiquitin binding, thereby contributing to AD.
+  - **Evidence pointer** Section 3.2, Figures 2 and 3, location not provided
+  - **Concern** The structural predictions and simulations are presented as if they establish functional consequences, but no experimental validation is shown for most of the specific SNP effects described. The manuscript cites some functional data (e.g., Asanomi et al., 2019, 2022; Park et al., 2021), but the reasoning from structure to function is largely inferential. For example, the claim that G186R would cause steric clash and electrostatic repulsion is based on a homology model, not a direct structure of the mutant. Similarly, the assertion that T358A would significantly reduce M1-linked chain affinity is extrapolated from a single related mutation in HOIL-1L.
+  - **Why it matters** The central thesis linking AD-associated SNPs to LUBAC dysfunction and disease pathogenesis rests on these structural inferences. If the structural predictions are not robust or are not supported by functional data, the argument is substantially weakened. Overstating the certainty of these predictions could mislead readers and future research directions.
+  - **Resolution test** Provide experimental evidence (e.g., binding assays, cellular NF-κB reporter assays, or co-immunoprecipitation) for at least the key SNPs (G186R, R274W, D291G, P294S, T358A) to confirm the predicted effects on LUBAC assembly and function. Alternatively, clearly frame these as hypotheses requiring validation, and temper the language accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Logical coherence and integration
+  - **Claim pointer** The manuscript proposes that linear ubiquitination promotes LLPS and that this is a key mechanism in neurodegeneration, citing that "M1-ubiquitin reportedly facilitates fibrillar aggregates formation than that of K48- and K63-linked ubiquitin chains" and that M1- and K63-chains enhance UBQLN2 and NEMO LLPS.
+  - **Evidence pointer** Section 4, location not provided
+  - **Concern** The connection between LLPS and disease is presented as a linear progression (linear ubiquitination → enhanced LLPS → aggregation → neurodegeneration), but the evidence for a causal role of LLPS in neurodegeneration is still debated. The manuscript does not critically discuss whether LLPS is a protective or pathological process, nor does it address the possibility that ubiquitination of aggregates is a clearance mechanism rather than a driver of pathology. The section would benefit from a more balanced discussion of the dual roles of ubiquitination and LLPS.
+  - **Why it matters** The therapeutic implications drawn from this section (e.g., targeting LUBAC to reduce LLPS) depend on the assumption that LLPS and linear ubiquitination are pathogenic. If the relationship is more complex, the proposed therapeutic strategy may be misguided.
+  - **Resolution test** Add a critical discussion of the evidence for and against a pathogenic role of LLPS in neurodegeneration, and acknowledge alternative interpretations of the data (e.g., ubiquitination as a clearance signal). Clarify whether the authors propose that inhibiting LUBAC would be beneficial or harmful in different disease stages.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and focus
+  - **Claim pointer** The title and abstract emphasize the involvement of heterologous ubiquitination in AD and ALS, and the therapeutic section discusses PROTACs and LUBAC inhibitors.
+  - **Evidence pointer** Sections 5.2 and 5.4, location not provided
+  - **Concern** The therapeutic section is largely a list of potential approaches without a critical evaluation of their feasibility, specificity, or potential off-target effects. For example, the discussion of PROTACs does not address the challenges of blood-brain barrier penetration, target specificity, or the risk of promoting neurodegeneration by degrading proteins that may have protective functions. Similarly, the discussion of HOIPIN-8 is based on in vitro and cell-based studies, and the leap to therapeutic potential in AD and ALS is speculative.
+  - **Why it matters** A review that proposes therapeutic strategies should provide a balanced assessment of the current state of the art, including limitations and challenges. Without this, the review may overstate the readiness of these approaches for clinical translation.
+  - **Resolution test** Add a critical discussion of the challenges and limitations of PROTACs and LUBAC inhibitors for CNS applications, including pharmacokinetics, specificity, and potential toxicity. Clearly distinguish between preclinical promise and clinical reality.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Abstract and Section 1
+  - **Evidence pointer** Abstract, Section 1, location not provided
+  - **Issue** The term "heterologous ubiquitination" is used throughout but is not explicitly defined. It is unclear whether this refers to mixed/branched chains, non-Lys linkages, or ubiquitination by non-canonical E3s. A clear definition at first use would improve accessibility.
+  - **Required correction** Define "heterologous ubiquitination" explicitly in the introduction, distinguishing it from homotypic polyubiquitination and clarifying which types of chains are included.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2, location not provided
+  - **Issue** The manuscript discusses AD-associated SNPs in SHARPIN and RBCL1 but does not mention the allele frequencies or effect sizes of these SNPs, nor whether they have been replicated in independent cohorts. This information would help readers assess the strength of the genetic evidence.
+  - **Required correction** Include brief information on the genetic evidence (e.g., odds ratios, replication status) for the cited SNPs, or explicitly state that such data are not yet available.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 5.4
+  - **Evidence pointer** Section 5.4, location not provided
+  - **Issue** The description of HOIPIN-8's mechanism of action is dense and assumes familiarity with the LUBAC catalytic mechanism. A brief explanation of the RING-HECT-hybrid reaction and the role of the LDD would aid non-specialist readers.
+  - **Required correction** Add a short primer on LUBAC catalysis and the significance of the LDD before describing HOIPIN-8's mechanism.
+- **Technical failings that need to be addressed before the case is established** The structural predictions for SNP effects (R1-M1) are the most significant technical concern. Without experimental validation or clear framing as hypotheses, the central argument linking SNPs to LUBAC dysfunction is not fully established. Additionally, the lack of a critical discussion of the LLPS evidence (R1-M2) and the therapeutic feasibility (R1-M3) weakens the overall case.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The focus on M1-linked ubiquitination in neurodegeneration is relatively novel and adds a new perspective to the field. However, much of the content is a synthesis of existing literature, and the original contributions (e.g., structural predictions) are limited.  
+  - **Scientific importance** The topic is important, as understanding ubiquitin signaling in neurodegeneration could lead to new therapeutic targets. The link between genetic risk factors and LUBAC function is a potentially significant contribution.  
+  - **Interdisciplinary readership** The review bridges ubiquitin biology, structural biology, and neurodegeneration, which could appeal to a broad audience. However, the technical density of the structural sections may limit accessibility.  
+  - **Technical soundness** The technical content is generally sound, but the overinterpretation of structural predictions and the lack of experimental validation for key claims are concerns.  
+  - **Readability for nonspecialists** The manuscript is generally well-written and logically organized, but some sections (e.g., LUBAC mechanism) require prior knowledge. A clearer definition of key terms and more context would improve readability.  
+  Overall, the manuscript has merit but does not yet meet the standard of a high-impact review due to the issues outlined above.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a timely and important topic, and the authors have the expertise to strengthen the evidence base. However, the current version overstates the certainty of structural predictions and lacks critical discussion of key concepts. Revisions addressing these issues would significantly improve the manuscript.
+
+## Risk / unsupported claims
+- The claim that most AD-associated SHARPIN SNPs affect protein structure and function is not directly supported by experimental data presented in the manuscript; it is based on structural inference and simulation.
+- The assertion that M1-linked ubiquitination promotes LLPS and that this is a key pathogenic mechanism in AD and ALS is presented without critical discussion of conflicting evidence or alternative interpretations.
+- The therapeutic potential of HOIPIN-8 and PROTACs for AD and ALS is speculative and not supported by in vivo efficacy data, which the authors acknowledge but do not critically evaluate.
+- The statement that "aberrant LUBAC activity is related to AD" is a broad claim that may overgeneralize the current evidence, which is largely correlative.

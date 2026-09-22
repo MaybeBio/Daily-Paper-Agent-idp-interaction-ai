@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "39578406",
+    "doi": "10.1016/j.bpj.2024.11.014",
+    "title": "Formation of multicompartment structures through aging of protein-RNA condensates."
+  },
+  "content": {
+    "abstract": "Cells can dynamically organize reactions through the formation of biomolecular condensates. These viscoelastic networks exhibit complex material properties and mesoscale architectures, including the ability to form multiphase assemblies. It was shown previously that condensates with complex architectures may arise at equilibrium in multicomponent systems or in condensates that were driven out of equilibrium by changes in external parameters such as temperature. In this study, we demonstrate that the aging of initially homogeneous protein-RNA condensates can spontaneously lead to the formation of kinetically arrested double-emulsion and core-shell structures without changes in external variables such as temperature or solution conditions. By combining time-resolved fluorescence-based experimental techniques with simulations based on the Cahn-Hilliard theory, we show that, as the protein-RNA condensates age, the decrease of the relative strength of protein-RNA interactions induces the release of RNA molecules from the dense phase. In condensates exceeding a critical size, aging combined with slow diffusion of the macromolecules trigger nucleation of dilute phase inside the condensates, which leads to the formation of double-emulsion structures. These findings illustrate a new mechanism of formation of multicompartment condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA/chemistry/metabolism",
+      "Biomolecular Condensates/chemistry/metabolism",
+      "Emulsions/chemistry",
+      "Kinetics",
+      "Time Factors",
+      "Diffusion"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Makasewicz, Katarzyna",
+        "Schneider, Timo N",
+        "Mathur, Prerit",
+        "Stavrakis, Stavros",
+        "deMello, Andrew J",
+        "Arosio, Paolo"
+      ],
+      "short_names": [
+        "Makasewicz K",
+        "Schneider TN",
+        "Mathur P",
+        "Stavrakis S",
+        "deMello AJ",
+        "Arosio P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry and Applied Biosciences ETH Zurich, Zurich, Switzerland.",
+        "Department of Chemistry and Applied Biosciences ETH Zurich, Zurich, Switzerland.",
+        "Department of Chemistry and Applied Biosciences ETH Zurich, Zurich, Switzerland.",
+        "Department of Chemistry and Applied Biosciences ETH Zurich, Zurich, Switzerland.",
+        "Department of Chemistry and Applied Biosciences ETH Zurich, Zurich, Switzerland.",
+        "Department of Chemistry and Applied Biosciences ETH Zurich, Zurich, Switzerland. Electronic address: paolo.arosio@chem.ethz.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Makasewicz, Katarzyna",
+        "short_name": "Makasewicz K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Applied Biosciences ETH Zürich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Schneider, Timo N",
+        "short_name": "Schneider TN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Applied Biosciences ETH Zürich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Mathur, Prerit",
+        "short_name": "Mathur P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Applied Biosciences ETH Zürich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Stavrakis, Stavros",
+        "short_name": "Stavrakis S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Applied Biosciences ETH Zürich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "deMello, Andrew J",
+        "short_name": "deMello AJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Applied Biosciences ETH Zürich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Arosio, Paolo",
+        "short_name": "Arosio P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Applied Biosciences ETH Zürich, Zurich, Switzerland. Electronic address: paolo.arosio@chem.ethz.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2025 Jan 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/23 11:17",
+    "fetched_at": "2026-09-21 12:46:35"
+  },
+  "links": {
+    "cites": [
+      "42196474",
+      "42049750",
+      "41909144",
+      "41613751",
+      "41378109",
+      "41255707",
+      "40768359",
+      "40166346",
+      "39573880"
+    ],
+    "refs": [
+      "37996438",
+      "37749234",
+      "36881934",
+      "36755024",
+      "36595668",
+      "36175408",
+      "35727989",
+      "35293386",
+      "34206440",
+      "34129784",
+      "33453923",
+      "33446423",
+      "33333019",
+      "33303613",
+      "31958956",
+      "31435012",
+      "31430179",
+      "30833787",
+      "29650702",
+      "29602697",
+      "29472250",
+      "28935776",
+      "28792742",
+      "28556382",
+      "28537592",
+      "28225081",
+      "27692063",
+      "27212236",
+      "26412307",
+      "26317470",
+      "19251628",
+      "15388866",
+      "4334851"
+    ],
+    "similar": [
+      "39578406",
+      "35727989",
+      "36191226",
+      "39636939",
+      "34772789",
+      "34862761",
+      "39356108",
+      "38472406",
+      "34772786",
+      "39080253",
+      "39227569",
+      "37408305",
+      "39366355",
+      "40102453",
+      "35641495",
+      "35978196",
+      "34371110",
+      "41452986",
+      "40768359",
+      "40603603",
+      "40481268",
+      "37194953",
+      "34090478",
+      "40518709",
+      "40194320",
+      "37996438",
+      "35001622",
+      "40640131",
+      "39303698",
+      "34552246",
+      "34772787",
+      "34636323",
+      "41187075",
+      "40074825",
+      "39320949",
+      "36227474",
+      "38781377",
+      "33864415",
+      "39418394",
+      "40972943",
+      "40539511",
+      "39075031",
+      "34785657",
+      "38383656",
+      "36883003",
+      "23912807",
+      "34767801",
+      "30926670",
+      "36758221",
+      "38884477",
+      "37480229",
+      "38999934",
+      "38832749",
+      "40848932",
+      "39300202",
+      "39080489",
+      "34129784",
+      "40381401",
+      "34903621",
+      "40009520",
+      "36755024",
+      "39670461",
+      "40931032",
+      "40307207",
+      "39327453",
+      "38831505",
+      "39591652",
+      "37489654",
+      "40614690",
+      "39503320",
+      "39455581",
+      "40108179",
+      "38773325",
+      "34271007",
+      "40730570",
+      "39705355",
+      "40954121",
+      "36350032",
+      "38848869",
+      "39535884",
+      "38781207",
+      "39168125",
+      "40531332",
+      "40539959",
+      "41191214",
+      "39326881",
+      "38363841",
+      "36993212",
+      "41208646",
+      "40327693",
+      "40521608",
+      "35597639",
+      "40229261",
+      "40168179",
+      "39827079",
+      "39400294",
+      "40985078",
+      "40389460",
+      "38609349",
+      "40570844"
+    ],
+    "review": [
+      "39578406",
+      "34772789",
+      "34772786",
+      "39366355",
+      "34371110",
+      "40194320",
+      "39303698",
+      "34772787",
+      "34767801",
+      "34129784",
+      "40381401",
+      "39327453",
+      "38831505",
+      "40614690",
+      "38773325",
+      "34271007",
+      "36350032",
+      "41191214",
+      "39326881",
+      "39827079",
+      "38609349"
+    ],
+    "pmc": [
+      "11739879"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(24)00737-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39578406/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

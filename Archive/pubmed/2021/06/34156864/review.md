@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that liquid-liquid phase separation (LLPS) of the RNA-binding protein FUS is pressure- and temperature-dependent, with two distinct condensed phases (LP-LLPS and HP-LLPS) observed at low and high pressure, respectively. They propose a pressure-temperature phase diagram, characterize the HP-LLPS state as more condensed and less susceptible to dissolution by 1,6-hexanediol and karyopherin-beta2, and use molecular dynamics simulations to suggest that electrostatic interactions are destabilized while cation-pi, pi-pi, and hydrophobic interactions are stabilized in HP-LLPS. They further speculate that transient stabilization of these interactions in cells may promote HP-LLPS, potentially linking to aberrant cytoplasmic ribonucleoprotein granule enrichment in amyotrophic lateral sclerosis (ALS).
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or simulation parameters provided
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, simulation protocols, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation of pressure-dependent LLPS in FUS, with a proposed two-state phase behavior. However, the evidence base is too limited to evaluate the robustness of the claims. Key quantitative data, experimental controls, and simulation details are absent. The speculative link to ALS is not supported by the presented material. The work may be of interest to biophysicists and cell biologists studying phase separation, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers in biophysics, protein self-assembly, and phase separation, particularly those studying RNA-binding proteins and their role in neurodegeneration. The pressure-temperature phase diagram approach could appeal to those interested in thermodynamic characterization of biomolecular condensates. The potential link to ALS may attract cell biologists and neurobiologists, though this is speculative.
+- **Major strengths** The use of high-pressure microscopy and UV/vis spectroscopy to probe LLPS is a distinctive methodological approach. The identification of two distinct condensed phases (LP-LLPS and HP-LLPS) with different physical properties is a novel observation. The combination of experimental and simulation approaches is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "The phase-separated condensate of FUS was obliterated with increasing pressure but was observed again at a higher pressure," implying a re-entrant phase behavior.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data, such as pressure and temperature ranges, or the magnitude of the observed effects. It is unclear whether the re-appearance of condensates at higher pressure is reproducible, reversible, or an artifact of the experimental setup (e.g., pressure-induced changes in solution pH or protein concentration).
+  - **Why it matters** Re-entrant phase behavior is a strong claim that requires rigorous demonstration of reversibility and control experiments to rule out experimental artifacts. Without these, the existence of HP-LLPS as a distinct phase is not established.
+  - **Resolution test** Provide pressure-temperature phase diagrams with error bars, show reversibility of the transition, and include control experiments (e.g., buffer-only or non-phase-separating protein) under identical conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "HP-LLPS state was more condensed and exhibited lower susceptibility to dissolution by 1,6-hexanediol and karyopherin-beta2 than the LP-LLPS state."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative measures of "more condensed" are provided, such as density, viscosity, or fluorescence recovery after photobleaching (FRAP) data. The dissolution assays are described qualitatively, with no concentrations, time courses, or statistical comparisons.
+  - **Why it matters** The distinction between LP-LLPS and HP-LLPS is central to the paper's novelty. Without quantitative characterization, the claim that these are distinct phases rather than variations of the same state is unsupported.
+  - **Resolution test** Provide quantitative measurements of condensate properties (e.g., FRAP, fluorescence lifetime, or electron microscopy) and dose-response curves for dissolution agents with statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "molecular dynamic simulations revealed that electrostatic interactions were destabilized, whereas cation-pi, pi-pi, and hydrophobic interactions were stabilized in HP-LLPS."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No simulation details are given, including force field, system size, simulation time, or how pressure was applied. The abstract does not specify whether these interaction changes are derived from free energy calculations, contact maps, or other analyses.
+  - **Why it matters** Simulation results are only meaningful if the methods are transparent and validated. Without these details, the claim is not reproducible or assessable.
+  - **Resolution test** Describe simulation parameters, validation against experimental data, and provide quantitative interaction energy changes with uncertainties.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors speculate that "the phase transition to HP-LLPS occurred; this might be correlated to the aberrant enrichment of cytoplasmic ribonucleoprotein granules, leading to amyotrophic lateral sclerosis."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This statement is purely speculative and not supported by any data in the abstract. No cellular experiments, patient samples, or disease models are mentioned.
+  - **Why it matters** Linking a biophysical observation to a disease mechanism is a significant claim that requires direct evidence. Without it, the statement risks overinterpretation and may mislead readers.
+  - **Resolution test** Provide cellular or in vivo data showing that HP-LLPS occurs under pathological conditions and contributes to ALS pathology, or remove the claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms like "LP-LLPS" and "HP-LLPS" without defining them in the abstract, which may confuse readers unfamiliar with the abbreviations.
+  - **Required correction** Define these abbreviations at first use, e.g., "low-pressure liquid-liquid phase separation (LP-LLPS)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the temperature range studied, despite the title emphasizing a "Pressure and Temperature Phase Diagram."
+  - **Required correction** Include the temperature range and how it was varied in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "obliterated with increasing pressure but was observed again at a higher pressure" is ambiguous regarding the pressure values and whether the process is cyclic.
+  - **Required correction** Specify the pressure values and clarify whether the re-appearance is reversible upon pressure cycling.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality: The pressure-dependent re-entrant phase behavior is potentially original, but the abstract does not provide enough context to distinguish it from prior work on FUS LLPS. Scientific importance: The work could be important for understanding phase separation thermodynamics, but the speculative ALS link is not justified. Interdisciplinary readership: The topic bridges biophysics and cell biology, but the abstract is too technical for a broad audience. Technical soundness: Not assessable from the abstract due to missing quantitative data and methods. Readability for nonspecialists: The abstract is concise but uses jargon without definition, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests interesting findings, but the lack of quantitative data, experimental controls, and simulation details prevents a supportive recommendation. The authors should address the major concerns, particularly R1-M1 through R1-M4, before the case can be considered.
+
+## Risk / unsupported claims
+- The existence of two distinct phases (LP-LLPS and HP-LLPS) is unsupported without quantitative characterization.
+- The re-entrant phase behavior (disappearance and re-appearance of condensates) is unsupported without reversibility and control experiments.
+- The claim that HP-LLPS is "more condensed" is unsupported without density or viscosity measurements.
+- The simulation-based interaction changes (electrostatic destabilization, cation-pi, pi-pi, and hydrophobic stabilization) are unsupported without method details.
+- The link between HP-LLPS and ALS pathology is speculative and unsupported by any data in the abstract.

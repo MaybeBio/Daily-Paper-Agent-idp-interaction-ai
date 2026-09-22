@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "41666260",
+    "doi": "10.1021/acs.jpclett.6c00044",
+    "title": "Mechanism of Ag(+)-Induced Folding of a Bacterial Peptide from Replica-Exchange Molecular Simulations."
+  },
+  "content": {
+    "abstract": "Interactions between proteins and metal cations are central to biochemical processes and shape protein structures. SilE, an intrinsically disordered protein involved in bacterial silver resistance, folds into alpha-helices upon binding Ag(+) ions. Focusing on the B1 peptide fragment from SilE, we investigate the mechanism of Ag(+)-induced folding with atomistic simulations and experiments. Guided by Mass Spectrometry and NMR, we prepare a structural model of Ag(+)-bound B1, which we parametrize using DFT. Then, with replica-exchange simulations and deep learning, we map B1's folding landscape and how it is shaped by Ag(+). Specifically, Ag(+) binding promotes folding by lowering the entropy of the disordered state and stabilizing the folded state. We also describe how Ag(+) alters the folding pathways. Overall, we improve our understanding of metal-induced protein folding and lay the groundwork for further computational investigations of the bacterial silver-resistance machinery.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Silver/chemistry",
+      "Protein Folding",
+      "*Molecular Dynamics Simulation",
+      "*Bacterial Proteins/chemistry",
+      "*Peptides/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Blanc, Florian E C",
+        "Hologne, Maggy",
+        "Girod, Marion",
+        "Demontrond, Melodie",
+        "Chermette, Henry",
+        "Walker, Olivier"
+      ],
+      "short_names": [
+        "Blanc FEC",
+        "Hologne M",
+        "Girod M",
+        "Demontrond M",
+        "Chermette H",
+        "Walker O"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0762-0478",
+        "ORCID: 0000-0002-4977-7887",
+        "ORCID: 0000-0003-0728-2111",
+        "ORCID: 0000-0002-5890-7479",
+        "ORCID: 0000-0001-7284-2555"
+      ],
+      "affiliations": [
+        "Universite de Lyon, CNRS, UCB Lyon1, Institut des Sciences Analytiques, UMR5280 Villeurbanne, France.",
+        "Universite de Lyon, CNRS, UCB Lyon1, Institut des Sciences Analytiques, UMR5280 Villeurbanne, France.",
+        "Universite de Lyon, CNRS, UCB Lyon1, Institut des Sciences Analytiques, UMR5280 Villeurbanne, France.",
+        "Universite de Lyon, CNRS, UCB Lyon1, Institut des Sciences Analytiques, UMR5280 Villeurbanne, France.",
+        "Universite de Lyon, CNRS, UCB Lyon1, Institut des Sciences Analytiques, UMR5280 Villeurbanne, France.",
+        "Universite de Lyon, CNRS, UCB Lyon1, Institut des Sciences Analytiques, UMR5280 Villeurbanne, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Blanc, Florian E C",
+        "short_name": "Blanc FEC",
+        "identifiers": [
+          "0000-0002-0762-0478"
+        ],
+        "affiliations": [
+          "Université de Lyon, CNRS, UCB Lyon1, Institut des Sciences Analytiques, UMR5280 Villeurbanne, France."
+        ]
+      },
+      {
+        "full_name": "Hologne, Maggy",
+        "short_name": "Hologne M",
+        "identifiers": [
+          "0000-0002-4977-7887"
+        ],
+        "affiliations": [
+          "Université de Lyon, CNRS, UCB Lyon1, Institut des Sciences Analytiques, UMR5280 Villeurbanne, France."
+        ]
+      },
+      {
+        "full_name": "Girod, Marion",
+        "short_name": "Girod M",
+        "identifiers": [
+          "0000-0003-0728-2111"
+        ],
+        "affiliations": [
+          "Université de Lyon, CNRS, UCB Lyon1, Institut des Sciences Analytiques, UMR5280 Villeurbanne, France."
+        ]
+      },
+      {
+        "full_name": "Demontrond, Mélodie",
+        "short_name": "Demontrond M",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Lyon, CNRS, UCB Lyon1, Institut des Sciences Analytiques, UMR5280 Villeurbanne, France."
+        ]
+      },
+      {
+        "full_name": "Chermette, Henry",
+        "short_name": "Chermette H",
+        "identifiers": [
+          "0000-0002-5890-7479"
+        ],
+        "affiliations": [
+          "Université de Lyon, CNRS, UCB Lyon1, Institut des Sciences Analytiques, UMR5280 Villeurbanne, France."
+        ]
+      },
+      {
+        "full_name": "Walker, Olivier",
+        "short_name": "Walker O",
+        "identifiers": [
+          "0000-0001-7284-2555"
+        ],
+        "affiliations": [
+          "Université de Lyon, CNRS, UCB Lyon1, Institut des Sciences Analytiques, UMR5280 Villeurbanne, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2026 Feb 26",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/10 19:00",
+    "fetched_at": "2026-09-18 00:46:04"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41666260",
+      "27085056",
+      "36914220",
+      "23912807",
+      "29990433",
+      "25387963",
+      "30209295",
+      "25973961",
+      "37394004",
+      "41733301",
+      "36591705",
+      "30802465",
+      "38294935",
+      "33909430",
+      "32323533",
+      "20536262",
+      "34845619",
+      "23500629",
+      "28614661",
+      "28530293",
+      "25313042",
+      "22253588",
+      "20166738",
+      "26574335",
+      "21289072",
+      "26742101",
+      "37341654",
+      "41318999",
+      "19399241",
+      "23839056",
+      "15339816",
+      "26453216",
+      "36617868",
+      "32737158",
+      "30134731",
+      "29522679",
+      "21766125",
+      "32184088",
+      "22947876",
+      "17173285",
+      "22829760",
+      "25633876",
+      "24318649",
+      "27111190",
+      "38996889",
+      "21931542",
+      "25643174",
+      "42129207",
+      "29734867",
+      "19654879",
+      "15800044",
+      "25207671",
+      "18775599",
+      "31951234",
+      "16236315",
+      "19333422",
+      "19361525",
+      "18465944",
+      "32914959",
+      "33982037",
+      "21591767",
+      "39210596",
+      "21469746",
+      "39285530",
+      "15828005",
+      "27617340",
+      "30528464",
+      "29558133",
+      "19173315",
+      "22125611",
+      "31071262",
+      "38456607",
+      "22954175",
+      "18570534",
+      "23082978",
+      "40827676",
+      "21268115",
+      "30192538",
+      "29501958",
+      "28130780",
+      "20085382",
+      "24763499",
+      "30865832",
+      "22429139",
+      "21958108",
+      "22070323",
+      "31683063",
+      "25725756",
+      "27031562",
+      "35930769",
+      "30520528",
+      "41056214",
+      "31552948",
+      "24563686",
+      "10512702",
+      "26195786",
+      "9671702",
+      "25483828",
+      "12808142",
+      "34396382"
+    ],
+    "review": [
+      "41666260",
+      "19333422",
+      "23082978"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.6c00044",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

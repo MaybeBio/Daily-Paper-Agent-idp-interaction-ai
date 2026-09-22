@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39552194",
+  "title": "Molecular origin of the differential stabilities of the protofilaments in different polymorphs: molecular dynamics simulation and deep learning.",
+  "authors": "Basak, Premananda; Ray Chaudhuri, Nibedita; Basu, Debadrita; Ganguly, Debabani; Ghosh Dastidar, Shubhra",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2024-11-18",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用MD模拟和深度神经网络分析α-突触核蛋白（IDP）不同多态原纤维的稳定性差异及E46K突变影响，虽对象为淀粉样纤维而非直接PPI，但无序蛋白聚集机制建模与AI结合对本课题有可迁移启发。",
+  "abstract": "Fragments of alpha-synuclein, an intrinsically disordered protein, whose misfolding and aggregation are responsible for diseases like Parkinson's disease and others, can co-exist in different polymorphs like 'rod' and 'twister'. Their apparently stable structures have different degrees of tolerance to perturbations like point mutations. The molecular basis of this is investigated using molecular dynamics-based conformational sampling. A charge-swapping mutation, E46K, known to be a reason for the early onset of Parkinson's disease, has differential impact on two polymorphs, and its molecular reason has been probed by investigating the intra-fibril interaction network that is responsible for stabilizing the aggregates. Two different quaternary level arrangement of the peptides in two polymorphs, establishing two different types of interrelations between residues of the peptide monomers, form the basis of their differential stabilities; a Deep Neural Network (DNN)-based analysis has extracted different pairs of residues and their spatial proximities as features to distinguish the states of two polymorphs. It has revealed that difference in these molecular arrangements intrinsically assigns key roles to different sets of residues in two different forms, like a feedback loop from quaternary structure to sequence level; an important insight into the sequence-structure relationship in general. Such atomic level insights were substantiated with the proof of differences in the dynamic correlation between residue pairs, altered mobilities of the sidechains that affects packing and redistribution of the weightage of different principal modes of internal motions in different systems. The identification of key residues with altered significance in different polymorphs is likely to benefit the planned design of fibril breaking molecules.",
+  "abstract_zh": "α-突触核蛋白（alpha-synuclein）是一种 intrinsically disordered protein（固有无序蛋白），其错误折叠和聚集是帕金森病及其他疾病的原因，其片段可以以不同的多态形式共存，如“rod”和“twister”。这些看似稳定的结构对点突变等扰动的耐受程度不同。本文利用基于分子动力学（molecular dynamics）的构象采样研究了其分子基础。一个电荷交换突变E46K，已知是帕金森病早发的原因，对两种多态形式具有不同的影响，其分子原因通过研究稳定聚集体的纤维内相互作用网络进行了探究。两种多态形式中肽段的不同四级排列，建立了肽单体残基之间两种不同类型的相互关系，构成了它们差异稳定性的基础；基于深度神经网络（Deep Neural Network, DNN）的分析提取了不同的残基对及其空间邻近性作为特征，以区分两种多态形式的状态。结果表明，这些分子排列的差异内在赋予了不同形式中不同残基集合的关键角色，如同从四级结构到序列水平的反馈回路；这是对序列-结构关系一般规律的重要见解。这些原子级见解通过残基对动态相关性差异、影响堆积的侧链迁移率改变以及不同系统中内部运动主要模式权重重新分布的证明得到了证实。识别不同多态形式中意义改变的关键残基，可能有助于设计断裂纤维的分子。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39552194/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39552194/",
+  "paper_page_path": "papers/pubmed/39552194/index.html"
+}

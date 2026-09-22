@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "40441416",
+    "doi": "10.1016/j.jmb.2025.169236",
+    "title": "pLMMoRF: A Web Server That Accurately Predicts Membrane-interacting Molecular Recognition Features by Employing a Protein Language Model."
+  },
+  "content": {
+    "abstract": "Interactions between proteins and lipids are crucial for numerous cellular processes. Some of the lipid interacting segments in protein sequences are intrinsically disordered regions (IDRs), which may gain secondary structures upon binding. We collected experimentally annotated lipid-interacting IDRs, named membrane molecular recognition features (MemMoRFs). We used this dataset to develop and test an accurate and relatively fast sequence-based MemMoRF predictor, pLMMoRF, thereby supporting tedious and costly experimental identification of MemMoRFs. Our predictor utilizes a protein language model (pLM) which we processed to generate inputs to a deep convolutional neural network. We considered various pLMs (ESM-2, ProstT5, ProtT5 and Ankh) and applied feature selection to reduce their outputs, creating a more compact neural network model. pLMMoRF leverages the Ankh-based model, selected for its higher accuracy compared to our other models. Tests on low similarity test datasets demonstrate that pLMMoRF is more accurate than the sole current predictor of MemMoRFs, CoMemMoRFPred. Moreover, pLMMoRF has a relatively small computational footprint because of the compact network size and use of dedicated GPU nodes. This allowed us to make MemMoRF predictions for the human proteome. We analyzed these predictions and made them publicly available, facilitating an improved understanding of functions of membrane-coupled proteins. Our work underscores the importance of selecting key embedding features to enhance predictive performance and reduce computational footprint of sequence-based predictors of protein functions. The web server for the pLMMoRF predictor and the predictions for human proteins are freely available at https://plmmorf.hegelab.org.",
+    "keywords": [
+      "intrinsically disordered protein regions",
+      "machine learning",
+      "membrane interacting molecular recognition feature",
+      "protein language model"
+    ],
+    "mesh_terms": [
+      "*Software",
+      "Neural Networks, Computer",
+      "*Computational Biology/methods",
+      "Humans",
+      "Internet",
+      "*Membrane Proteins/metabolism/chemistry",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Databases, Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Csepi, Mate",
+        "Berta, Blanka",
+        "Basu, Sushmita",
+        "Kurgan, Lukasz",
+        "Hegedus, Tamas"
+      ],
+      "short_names": [
+        "Csepi M",
+        "Berta B",
+        "Basu S",
+        "Kurgan L",
+        "Hegedus T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biophysics and Radiation Biology, Semmelweis University, Budapest H-1094, Hungary.",
+        "Department of Biophysics and Radiation Biology, Semmelweis University, Budapest H-1094, Hungary.",
+        "Department of Computer Science, Virginia Commonwealth University, Virginia, VA 23284-3068, USA.",
+        "Department of Computer Science, Virginia Commonwealth University, Virginia, VA 23284-3068, USA.",
+        "Department of Biophysics and Radiation Biology, Semmelweis University, Budapest H-1094, Hungary; HUN-REN-SE Biophysical Virology Research Group, Budapest H-1052, Hungary. Electronic address: hegedus.tamas@hegelab.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Csepi, Máté",
+        "short_name": "Csepi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Radiation Biology, Semmelweis University, Budapest H-1094, Hungary."
+        ]
+      },
+      {
+        "full_name": "Berta, Blanka",
+        "short_name": "Berta B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Radiation Biology, Semmelweis University, Budapest H-1094, Hungary."
+        ]
+      },
+      {
+        "full_name": "Basu, Sushmita",
+        "short_name": "Basu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Virginia, VA 23284-3068, USA."
+        ]
+      },
+      {
+        "full_name": "Kurgan, Lukasz",
+        "short_name": "Kurgan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Virginia, VA 23284-3068, USA."
+        ]
+      },
+      {
+        "full_name": "Hegedűs, Tamás",
+        "short_name": "Hegedűs T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Radiation Biology, Semmelweis University, Budapest H-1094, Hungary; HUN-REN-SE Biophysical Virology Research Group, Budapest H-1052, Hungary. Electronic address: hegedus.tamas@hegelab.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2025 Sep 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/30 01:42",
+    "fetched_at": "2026-09-21 19:21:24"
+  },
+  "links": {
+    "cites": [
+      "41689628"
+    ],
+    "refs": [],
+    "similar": [
+      "40441416",
+      "33119751",
+      "40133791",
+      "37709009",
+      "30866736",
+      "34830151",
+      "39576583",
+      "40728621",
+      "38812466",
+      "36458437",
+      "40138319",
+      "39433833",
+      "40133781",
+      "40577786",
+      "34905768",
+      "39576584",
+      "38866950",
+      "25391399",
+      "40628826",
+      "39246251",
+      "38986796",
+      "35469832",
+      "40054813",
+      "32535960",
+      "40254833",
+      "40944448",
+      "40133775",
+      "41257586",
+      "30135358",
+      "32019410",
+      "38166858",
+      "27787828",
+      "31207240",
+      "40867524",
+      "39237195",
+      "39900285",
+      "32112084",
+      "39708500",
+      "32173600",
+      "34864847",
+      "31521235",
+      "38747347",
+      "38701796",
+      "37883249",
+      "34487138",
+      "36315580",
+      "38048333",
+      "33450251",
+      "29042212",
+      "37864911",
+      "40133785",
+      "31870849",
+      "29360926",
+      "32702119",
+      "39571839",
+      "26109352",
+      "40728619",
+      "33291838",
+      "41378882",
+      "39576585",
+      "40031750",
+      "40728620",
+      "33381830",
+      "38781245",
+      "31504193",
+      "41232885",
+      "26090958",
+      "34290238",
+      "31616935",
+      "36272675",
+      "34418423",
+      "40286477",
+      "36851914",
+      "34048569",
+      "36908253",
+      "41218076",
+      "38871100",
+      "38297118",
+      "38555810",
+      "32696395",
+      "24573480",
+      "38587188",
+      "30099775",
+      "30298407",
+      "32901090",
+      "39763873",
+      "29080786",
+      "39457474",
+      "38662579",
+      "24739163",
+      "41174318",
+      "40221640",
+      "37740110",
+      "41053908",
+      "24203321",
+      "41055109",
+      "38079339",
+      "40133784",
+      "36304335",
+      "39858443"
+    ],
+    "review": [
+      "40441416",
+      "31521235",
+      "33291838",
+      "31616935",
+      "34418423",
+      "36851914"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(25)00302-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

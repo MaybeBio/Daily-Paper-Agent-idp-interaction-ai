@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33610557",
+  "title": "Brazilin Removes Toxic Alpha-Synuclein and Seeding Competent Assemblies from Parkinson Brain by Altering Conformational Equilibrium.",
+  "authors": "Nahass, George R; Sun, Yuanzi; Xu, Yong; Batchelor, Mark; Reilly, Madeleine; Benilova, Iryna; Kedia, Niraja; Spehar, Kevin; Sobott, Frank; Sessions, Richard B; Caughey, Byron; Radford, Sheena E; Jat, Parmjit S; Collinge, John; Bieschke, Jan",
+  "journal": "Journal of molecular biology",
+  "published_date": "2021-02-22",
+  "window": {
+    "start": "2021-02-22",
+    "end": "2021-02-28"
+  },
+  "score": 6,
+  "one_liner_zh": "研究小分子巴西林通过结合α-突触核蛋白单体与纤维改变构象平衡、抑制纤维化并消除种子能力，涉及无序蛋白聚集与分子对接，但非PPI机制建模，方法以实验为主。",
+  "abstract": "Alpha-synuclein (alpha-syn) fibrils, a major constituent of the neurotoxic Lewy Bodies in Parkinson's disease, form via nucleation dependent polymerization and can replicate by a seeding mechanism. Brazilin, a small molecule derived from red cedarwood trees in Brazil, has been shown to inhibit the fibrillogenesis of amyloid-beta (Abeta) and alpha-syn as well as remodel mature fibrils and reduce cytotoxicity. Here we test the effects of Brazilin on both seeded and unseeded alpha-syn fibril formation and show that the natural polyphenol inhibits fibrillogenesis of alpha-syn by a unique mechanism that alters conformational equilibria in two separate points of the assembly mechanism: Brazilin preserves the natively unfolded state of alpha-syn by specifically binding to the compact conformation of the alpha-syn monomer. Brazilin also eliminates seeding competence of alpha-syn assemblies from Parkinson's disease patient brain tissue, and reduces toxicity of pre-formed assemblies in primary neurons by inducing the formation of large fibril clusters. Molecular docking of Brazilin shows the molecule to interact both with unfolded alpha-syn monomers and with the cross-beta sheet structure of alpha-syn fibrils. Our findings suggest that Brazilin has substantial potential as a neuroprotective and therapeutic agent for Parkinson's disease.",
+  "abstract_zh": "α-突触核蛋白（alpha-syn）纤维，作为帕金森病中神经毒性路易小体的主要成分，通过依赖成核的聚合过程形成，并可通过种子机制进行复制。巴西木素（Brazilin），一种源自巴西红雪松木的小分子，已被证明能抑制淀粉样β蛋白（Abeta）和alpha-syn的纤维形成，并能重塑成熟纤维及降低细胞毒性。在此，我们测试了巴西木素对有无种子条件下alpha-syn纤维形成的影响，并显示这种天然多酚通过一种独特机制抑制alpha-syn的纤维形成，该机制在组装过程的两个不同节点改变构象平衡：巴西木素通过特异性结合alpha-syn单体的紧凑构象，保持其天然未折叠状态。巴西木素还能消除来自帕金森病患者脑组织的alpha-syn组装体的种子能力，并通过诱导形成大型纤维簇，降低原代神经元中预形成组装体的毒性。分子对接显示，巴西木素既能与未折叠的alpha-syn单体相互作用，也能与alpha-syn纤维的交叉β-折叠结构结合。我们的发现表明，巴西木素作为帕金森病的神经保护及治疗剂具有巨大潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33610557/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33610557/",
+  "paper_page_path": "papers/pubmed/33610557/index.html"
+}

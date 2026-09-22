@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplemental figure legends, as provided.
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness, based solely on the provided manuscript text. No external data, figures, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors propose that the non-catalytic subunit of human DNA polymerase ε (POLE2) is a general receptor for NPF (Asn-Pro-Phe) motifs, a class of short linear motifs previously associated primarily with EH-domain-mediated interactions. They support this with native holdup (nHU) assays, fluorescence polarization, mutagenesis, AlphaFold 3 predictions, and BioID proximity labeling, and suggest that POLE2's NPF-binding activity links DNA replication with other nuclear processes.
+- **Visible evidence base** Text descriptions of nHU-MS experiments, fluorescence polarization binding assays, mutagenesis studies, AlphaFold 3 structural predictions, BioID proximity labeling, and bioinformatic motif analysis. Quantitative data (e.g., Kd values, fold-changes) are referenced but not fully presented in the text.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are referenced but not provided. Specific numerical data (e.g., Kd values, θ values, spectral counts, p-values) are largely absent from the text. Detailed methods for some experiments (e.g., BioID data analysis) are summarized but not fully described.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting finding: that POLE2, a non-catalytic subunit of DNA polymerase ε, can bind NPF motifs, a class of short linear motifs previously associated with EH domains. The use of multiple orthogonal approaches (nHU, FP, mutagenesis, AF3, BioID) is commendable. However, the manuscript as provided has significant gaps in data presentation and methodological detail that prevent full evaluation of the claims. The central claim that POLE2 is a "general NPF-motif receptor" is supported by the identification of multiple NPF-containing partners, but the physiological relevance and specificity of these interactions remain unclear. The structural model relies heavily on AF3 predictions with limited experimental validation. The manuscript would benefit from clearer presentation of quantitative data and a more critical discussion of the limitations of the approaches used.
+- **Who would be interested in the results, and why** Researchers studying DNA replication and the replisome, particularly those interested in the non-catalytic functions of polymerase subunits. Also, the SLiM community, as this work expands the known repertoire of NPF-binding proteins beyond EH domains. The finding that POLE2 may link replication to other nuclear processes (e.g., transcription, repair) could be of interest to a broader cell biology audience.
+- **Major strengths** 1. The use of a quantitative native holdup assay to identify interactions from cell extracts is a methodological strength, as it can capture weak and transient interactions that are often missed by other approaches. 2. The combination of experimental (mutagenesis, FP) and computational (AF3) approaches to probe the binding interface is a good strategy. 3. The identification of natural variants (D284G, Y513C) that affect NPF binding adds a potential functional and clinical dimension. 4. The BioID experiment provides in situ evidence for some of the interactions, complementing the in vitro and ex vivo approaches.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors claim that POLE2 binds NPF motifs with micromolar affinities, and that these interactions are specific and functionally relevant.
+  - **Evidence pointer** Results sections "Direct interaction between NPF motifs and POLE2" and "POLE2 interacts with NPF motifs proteome-wide"; Figures 1I-K, 3A; Tables S1, S2.
+  - **Concern** The quantitative data supporting the affinity measurements are not presented in the text. For example, the Kd for the POLE2-DONSON interaction is stated as 16 μM (FP) and 13 μM (competition), but the nHU-derived apparent affinities for other partners are not given. The text mentions "micromolar affinities" but does not provide a range or specific values for the proteome-wide screen. Without these data, it is impossible to assess the strength and specificity of the interactions. Furthermore, the claim that POLE2 is a "general" NPF receptor is based on a screen that detected only 70 significant partners out of 6516 proteins, and only 17 of these contained NPF motifs. The text does not discuss the false negative rate or the potential for missing many true interactors due to the assay's limitations.
+  - **Why it matters** The central claim of the paper is that POLE2 is a general NPF receptor. This claim rests on the affinity and specificity of the interactions. Without quantitative data, the reader cannot evaluate whether the observed interactions are biologically meaningful or merely weak, non-specific binding events common to many proteins with exposed hydrophobic patches.
+  - **Resolution test** Provide a table of all significant interactors from the nHU screen with their calculated apparent Kd values, along with a discussion of the assay's detection limits. Include a comparison of the affinities of POLE2 for NPF motifs versus those of known EH domains for the same motifs. Show that the interactions are specific by demonstrating that mutations in the POLE2 binding pocket abolish binding to multiple partners, not just DONSON.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that AlphaFold 3 predictions confirm key roles for Y513, E520, and S522 in motif coordination, and that the predicted binding mode is consistent with experimental mutagenesis data.
+  - **Evidence pointer** Results section "Structural insight into NPF motif binding by POLE2"; Figure 2; Figure S17.
+  - **Concern** The manuscript relies heavily on AF3 predictions to define the binding interface, but the experimental validation is limited. The mutagenesis data show that E520A, S522A, and Y513C abolish binding, but the text does not provide a detailed comparison of the predicted structure with the experimental results. For example, does the Y311F mutation, which has no effect, fit with the predicted structure? The text mentions a crystallographic artifact (QGF motif) that supports the binding mode, but this is not a direct experimental validation of the NPF-POLE2 interaction. The authors should provide a more rigorous analysis of the AF3 predictions, including confidence metrics (e.g., pLDDT, PAE) and a discussion of the limitations of AF3 for predicting peptide-protein interactions.
+  - **Why it matters** The structural model is a key part of the paper's mechanistic claim. If the model is not well-supported, the mechanistic interpretation of the mutagenesis data is weakened. AF3 predictions, while powerful, are not experimental evidence and can be inaccurate, especially for peptide interactions.
+  - **Resolution test** Provide a figure showing the AF3-predicted complex with confidence metrics. Show a detailed comparison of the predicted contacts with the mutagenesis data. If possible, validate the model with an independent experimental approach, such as NMR or X-ray crystallography, or at least with a more extensive mutagenesis scan of the binding interface.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the NPF-binding activity of POLE2 links DNA replication with other nuclear processes, and that this interaction network is physiologically relevant.
+  - **Evidence pointer** Results sections "POLE2 interacts with NPF motifs proteome-wide" and "In vivo proximity interactome of POLE2"; Figures 3, 6; Table S4.
+  - **Concern** The physiological relevance of the identified interactions is not established. The BioID experiment identified only 26 significant partners, and only three of these (WDHD1, DONSON, EXO1) overlapped with the nHU screen. The text does not discuss this discrepancy. For example, if the nHU screen identified many NPF-containing partners, why were so few of these confirmed by BioID? The authors suggest that some interactions may be transient or spatially separated, but this is speculative. The functional significance of the interactions is also not tested. For example, does mutation of the NPF-binding pocket in POLE2 affect DNA replication or repair in cells?
+  - **Why it matters** The paper's broader significance hinges on the claim that POLE2's NPF-binding activity is functionally important. Without functional data, the finding remains a biochemical curiosity. The discrepancy between the nHU and BioID results also raises questions about the specificity and relevance of the interactions.
+  - **Resolution test** Provide functional experiments, such as complementation assays with POLE2 mutants in cells, or knockdown/rescue experiments, to show that NPF binding is required for a specific cellular process. Discuss the overlap and discrepancies between the nHU and BioID datasets in more detail.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that "most [SLiMs] remain uncharacterized," which is a broad and somewhat vague statement. It would be more precise to state that most SLiMs lack identified binding partners or functions.
+  - **Required correction** Rephrase to be more specific, e.g., "most SLiMs lack experimentally characterized binding partners."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Single-point and titration nHU experiments"
+  - **Evidence pointer** Methods section, paragraph on nHU experiments
+  - **Issue** The description of the nHU assay is detailed but the equation for calculating θ is not fully defined in the text. The variables I_tot and I_free are mentioned but the equation itself is not shown.
+  - **Required correction** Include the full equation for θ and define all variables clearly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, "POLE2 interacts with NPF motifs proteome-wide"
+  - **Evidence pointer** Results section, Figure 3A
+  - **Issue** The text states that 70 proteins showed significant binding to POLE2, but it is not clear how many of these were identified in multiple replicates or how the significance threshold was applied.
+  - **Required correction** Provide a clear description of the statistical criteria used to define significant interactors, including the number of replicates and the false discovery rate.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, "Motif mediated interactions: distinct networks or coherent interactome"
+  - **Evidence pointer** Discussion section, first paragraph
+  - **Issue** The discussion of "interactomic degeneracy" is interesting but somewhat speculative. The authors suggest that NPF motifs can be recognized by multiple unrelated protein families, but they do not provide a quantitative estimate of how widespread this degeneracy is.
+  - **Required correction** Consider adding a more quantitative analysis of the overlap between different NPF-binding protein families, or at least a more nuanced discussion of the limitations of the current data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "In vivo proximity interactome of POLE2"
+  - **Evidence pointer** Results section, Figure 6
+  - **Issue** The BioID experiment is described but the text does not mention whether the identified partners were validated by an independent method, such as co-immunoprecipitation.
+  - **Required correction** State whether any of the BioID hits were validated by an orthogonal approach, or acknowledge that they were not.
+
+## Risk / unsupported claims
+- The claim that POLE2 is a "general NPF-motif receptor" is not fully supported by the data presented, as the quantitative affinity data and a comprehensive analysis of specificity are missing.
+- The claim that the NPF-binding activity of POLE2 links replication with other nuclear processes is speculative and not supported by functional experiments.
+- The structural model of the POLE2-NPF interaction, based on AF3 predictions, is not experimentally validated to a sufficient degree.
+- The physiological relevance of the identified interactions is not established, and the discrepancy between the nHU and BioID datasets is not adequately explained.
+- The statement that "these results indicate that it can also recruit various NPF-bearing partners involved in replication, DNA repair, and transcription regulation" is an overinterpretation, as the functional consequences of these interactions are not tested.

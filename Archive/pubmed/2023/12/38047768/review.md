@@ -1,0 +1,61 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that monomeric alpha-synuclein (alphaS), an intrinsically disordered protein in solution, adopts a defined, mostly helical secondary structure at the air-water interface, as determined by a combination of interface-specific sum frequency generation (SFG) experiments and theoretical SFG spectra calculated from molecular dynamics simulations. The proposed binding pose is described as umbrella-like, with the C-terminus protruding into the water phase and the N-terminus and NAC region spanning the canopy at the interface. The authors further suggest that this binding pose renders alphaS prone to aggregation, potentially explaining the catalytic effect of hydrophobic surfaces and air bubbles on alphaS fibrillation.
+- **Visible evidence base** Abstract text only; no experimental spectra, simulation details, statistical analyses, or structural coordinates provided
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, experimental methods, simulation parameters, force field details, spectral fitting procedures, error analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant structural finding for alphaS at hydrophobic interfaces, with clear relevance to Parkinson's disease pathology. However, the evidence base available for this review is limited to the abstract, which precludes independent verification of the central claims. The structural interpretation, particularly the umbrella-like binding pose and the helical content, rests on a complex interplay between experimental SFG data and theoretical spectral calculations. Without access to the underlying spectra, simulation convergence criteria, and validation steps, the robustness of the assignment cannot be assessed. The claim that the binding pose promotes aggregation is presented as a plausible inference rather than a directly tested hypothesis, and its strength is therefore limited.
+- **Who would be interested in the results, and why** Researchers studying protein misfolding and amyloid aggregation, particularly those focused on alpha-synuclein and Parkinson's disease, would find these results relevant. The work also targets the biophysics community interested in protein behavior at interfaces, including those studying membrane-associated protein structure and the role of hydrophobic surfaces in protein conformational transitions. Additionally, methodologists developing or applying surface-specific spectroscopic techniques combined with molecular simulation would be interested in the demonstrated approach.
+- **Major strengths** The study addresses a significant and unresolved question regarding the three-dimensional structure of alphaS at hydrophobic interfaces, which is directly relevant to understanding the catalytic role of such surfaces in fibrillation. The combination of experimental SFG with theoretical spectral calculations based on molecular dynamics simulations represents a sophisticated and potentially powerful approach for deriving structural information from interface-specific data. The proposed umbrella-like binding pose is a concrete, testable structural model that could guide future experimental and computational studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that alphaS folds into a defined, mostly helical secondary structure at the air-water interface, as determined by combining SFG experiments with theoretical spectra from molecular dynamics simulations.
+  - **Evidence pointer** Abstract only; no spectra, fitting details, or simulation validation provided
+  - **Concern** The central structural claim rests on the agreement between experimental and theoretical SFG spectra. However, the abstract provides no information on the quality of this agreement, the criteria used to judge it, or the uniqueness of the structural interpretation. SFG spectra are sensitive to orientation and secondary structure, but multiple structural ensembles could potentially produce similar spectral features. The helical content and the specific umbrella-like pose are derived from simulations, yet no details are given on simulation length, convergence, force field choice, or whether multiple independent simulations were performed.
+  - **Why it matters** If the spectral match is not quantitatively robust or if the simulation sampling is insufficient, the proposed structure could be an artifact of the modeling approach rather than a true representation of the interfacial conformation. This would undermine the primary conclusion of the study.
+  - **Resolution test** Provide the experimental and calculated SFG spectra with quantitative measures of agreement, demonstrate that the structural assignment is unique by testing alternative conformations, and show simulation convergence through time-dependent structural metrics and replicate runs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for causal claim
+  - **Claim pointer** The authors state that in the proposed binding pose, alphaS is prone to aggregate, which could explain the catalytic effect of hydrophobic interfaces and air bubbles on alphaS fibrillation.
+  - **Evidence pointer** Abstract only; no aggregation experiments or kinetic data provided
+  - **Concern** The link between the observed interfacial structure and aggregation propensity is presented as an inference, but no direct experimental evidence is provided in the abstract to support this connection. The statement that the binding pose renders alphaS prone to aggregation is not substantiated by any aggregation assays, fibrillation kinetics, or comparison with solution-state behavior.
+  - **Why it matters** The proposed mechanistic explanation for the catalytic effect of hydrophobic surfaces is a key motivation for the study. Without direct evidence linking the interfacial structure to enhanced aggregation, this claim remains speculative and could be misinterpreted as an established finding.
+  - **Resolution test** Include experimental data on alphaS aggregation at the air-water interface or in the presence of hydrophobic surfaces, or clearly frame this as a hypothesis requiring future testing rather than a conclusion of the present study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Structural description
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "mostly helical" is vague and does not specify the fraction of residues in helical conformation, the type of helix (alpha-helix, 3-10 helix, or pi-helix), or the distribution of helical segments along the sequence.
+  - **Required correction** Specify the helical content quantitatively and describe the location and type of helical segments within the N-terminus and NAC region.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental and simulation methods
+  - **Evidence pointer** Abstract text
+  - **Issue** No details are provided on the SFG experimental setup, polarization combinations used, or the simulation parameters, which are essential for reproducing the work.
+  - **Required correction** Ensure the full manuscript includes complete experimental and computational methods, including SFG beam geometry, polarization conditions, simulation box setup, and force field parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Comparison with prior work
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not mention how the proposed structure compares with previously reported models of alphaS at interfaces or in membrane-bound states, which would help contextualize the novelty of the finding.
+  - **Required correction** Add a brief comparison with existing structural models of alphaS at hydrophobic or membrane interfaces in the abstract or introduction.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 as described above. The structural assignment requires quantitative validation of the spectral match and demonstration of uniqueness, and the aggregation claim requires direct experimental support or explicit reframing as a hypothesis.
+- **Assessment against Nature-style criteria** Originality: The proposed umbrella-like structure is a novel and specific model for alphaS at hydrophobic interfaces, which appears to advance beyond prior descriptions. Scientific importance: The question of how hydrophobic surfaces catalyze alphaS aggregation is of high relevance to Parkinson's disease research, and a structural answer would be valuable. Interdisciplinary readership: The work bridges biophysics, surface chemistry, and neurobiology, and could attract readers across these fields. Technical soundness: Cannot be fully assessed from the abstract alone; the central claims require detailed spectral and simulation evidence that is not visible here. Readability for nonspecialists: The abstract is concise and accessible, though terms such as "sum frequency generation" and "NAC region" may require some background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural claim is potentially significant, but the current evidence base, limited to the abstract, does not allow verification of the spectral agreement or the aggregation link. Full manuscript review would be required to establish the case.
+
+## Risk / unsupported claims
+- The claim that alphaS folds into a defined, mostly helical secondary structure at the air-water interface is unsupported in the abstract because no spectral data or quantitative agreement metrics are provided.
+- The claim that the binding pose resembles an umbrella shape with specific domain localization is unsupported in the abstract because no structural coordinates or orientation analysis are shown.
+- The claim that alphaS is prone to aggregate in this binding pose is unsupported in the abstract because no aggregation experiments or kinetic data are presented.
+- The causal link between the proposed structure and the catalytic effect of hydrophobic surfaces on fibrillation is not established from the abstract alone.

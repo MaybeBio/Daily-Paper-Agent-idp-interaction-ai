@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41325725",
+  "title": "CG-COA: a coarse-grained cubic orientation approach for systematic protein-protein docking validation.",
+  "authors": "Duzgun, Zekeriya; Eroglu, Zuhal",
+  "journal": "Journal of molecular graphics & modelling",
+  "published_date": "2025-12-02",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出粗粒化立方取向对接方法CG-COA，结合MD与MM/PBSA验证柔性蛋白互作，虽涉及IDP但明确其不适用，机制建模思路对无序蛋白PPI预测有参考价值。",
+  "abstract": "Traditional protein-protein docking algorithms face significant limitations when handling flexible protein systems, particularly where conformational flexibility plays crucial roles in binding specificity. This study developed and validated a Coarse-Grained Cubic Orientation Approach (CG-COA) that systematically samples six cubic orientations combined with coarse-grained molecular dynamics simulations and MM/PBSA free energy calculations. As a local docking approach, CG-COA requires prior knowledge of putative bioactive surfaces and focuses computational resources on biologically relevant binding orientations. The methodology was validated using six protein complexes: four core systems (PDB codes: 2HD5, 1MIM, 3QML, 2MWS) representing diverse binding mechanisms, plus two extreme scenarios (2MZD: intrinsically disordered proteins; 2QCS-1RGS: large conformational changes). Benchmark comparisons against established docking methods (ZDOCK and ClusPro) evaluated relative performance across different system types. Results demonstrated robust performance with overall AUROC of 0.94, achieving F-scores up to 1.00 for well-defined systems. Benchmark analysis revealed system-dependent performance: significant advantages for flexible systems (3QML: 3.7-5.1-fold improvement over rigid-body methods) but inferior performance for rigid interfaces (2HD5: outperformed by conventional approaches). Extreme docking scenarios revealed clear method limitations with poor structural accuracy (RMSDs >13 A), defining important applicability boundaries. The approach correctly diagnosed inherently flexible systems (2MWS) by not converging to single conformations. CG-COA addresses specific limitations of conventional protein-protein docking methods for systems with moderate conformational flexibility while clearly defining applicability boundaries. The methodology is unsuitable for extensive structural rearrangements or intrinsically disordered regions. The dual capability to identify native binding modes and diagnose flexibility provides valuable guidance for protein interaction studies.",
+  "abstract_zh": "传统蛋白质-蛋白质对接算法在处理柔性蛋白质系统时面临显著限制，尤其是在构象柔性对结合特异性起关键作用的情况下。本研究开发并验证了一种粗粒化立方取向方法（Coarse-Grained Cubic Orientation Approach, CG-COA），该方法系统采样六种立方取向，并结合粗粒化分子动力学（molecular dynamics）模拟和MM/PBSA自由能计算。作为一种局部对接方法，CG-COA需要预先了解推定的生物活性表面，并将计算资源集中于生物学相关的结合取向。该方法通过六个蛋白质复合物进行验证：四个核心系统（PDB代码：2HD5、1MIM、3QML、2MWS），代表不同的结合机制，以及两个极端场景（2MZD：固有无序蛋白质；2QCS-1RGS：大规模构象变化）。与已建立的对接方法（ZDOCK和ClusPro）进行基准比较，评估了不同系统类型下的相对性能。结果表明，该方法性能稳健，总体AUROC为0.94，对于定义明确的系统，F分数最高可达1.00。基准分析揭示了系统依赖性性能：对柔性系统具有显著优势（3QML：比刚性体方法提高3.7-5.1倍），但对刚性界面表现较差（2HD5：被传统方法超越）。极端对接场景揭示了方法的明显局限性，结构准确性较差（RMSDs >13 Å），界定了重要的适用边界。该方法通过不收敛于单一构象，正确诊断了固有柔性系统（2MWS）。CG-COA解决了传统蛋白质-蛋白质对接方法在处理中等构象柔性系统时的特定局限性，同时清晰界定了适用边界。该方法不适用于大规模结构重排或固有无序区域。识别天然结合模式和诊断柔性的双重能力为蛋白质相互作用研究提供了宝贵指导。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41325725/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41325725/",
+  "paper_page_path": "papers/pubmed/41325725/index.html"
+}

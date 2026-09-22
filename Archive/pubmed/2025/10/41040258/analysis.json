@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41040258",
+  "title": "Monomer binding modes of small molecules that modulate the kinetics of hIAPP amyloid formation.",
+  "authors": "Garcia, Michelle; Reid, Korey M; Robustelli, Paul",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-10-03",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全原子MD模拟研究小分子调节剂与hIAPP无序单体的结合模式，揭示结合亲和力与溶剂暴露片段对聚集动力学的影响，属于无序蛋白单体互作机制建模，方法为物理模拟，对象与互作机制均契合。",
+  "abstract": "Human islet amyloid polypeptide (hIAPP) forms amyloid fibrils that accumulate in pancreatic beta-cells of Type II Diabetes (T2D) patients. Recently discovered small molecules that modulate the kinetics of hIAPP amyloid formation could serve as starting points for developing T2D therapeutics, but no structural or mechanistic rationale exists to explain their binding mechanisms or effects on hIAPP aggregation pathways. Here, we utilize all-atom molecular dynamics computer simulations to elucidate the binding mechanisms of an hIAPP aggregation inhibitor (YX-I-1) and an aggregation accelerator (YX-A-1) to disordered monomers of wild-type hIAPP and the naturally occurring pathogenic S20G hIAPP variant associated with early-onset T2D. We observe that the inhibitor exhibits substantially higher affinity for monomeric wild-type hIAPP than the accelerator, consistent with previously reported biophysical experiments. We dissect the interactions that stabilize binding of each molecule to wild-type and S20G hIAPP and characterize conformational changes that occur upon ligand binding. In all ligand-bound ensembles, distinct fragments of YX-I-1 and YX-A-1 are sequestered from solvent upon binding while other fragments remain solvent-exposed. Based on our simulations we hypothesize that buried ligand moieties confer hIAPP monomer binding affinity while solvent-exposed ligand moieties modulate the kinetics of intermolecular association of bound hIAPP into higher-order oligomeric intermediates on amyloid aggregation pathways.",
+  "abstract_zh": "人胰岛淀粉样多肽（hIAPP）形成淀粉样纤维，这些纤维在II型糖尿病（T2D）患者的胰腺β细胞中积累。最近发现的小分子能够调节hIAPP淀粉样形成的动力学，可作为开发T2D治疗药物的起点，但目前尚无结构或机制上的依据来解释其结合机制或对hIAPP聚集途径的影响。在此，我们利用全原子分子动力学计算机模拟，阐明hIAPP聚集抑制剂（YX-I-1）和聚集加速剂（YX-A-1）与野生型hIAPP及与早发性T2D相关的天然致病性S20G hIAPP变体的无序单体的结合机制。我们观察到，抑制剂对单体野生型hIAPP的亲和力显著高于加速剂，这与先前报道的生物物理实验一致。我们剖析了稳定每种分子与野生型和S20G hIAPP结合的相互作用，并表征了配体结合时发生的构象变化。在所有配体结合的整体中，YX-I-1和YX-A-1的不同片段在结合时被隔离于溶剂之外，而其他片段则保持溶剂暴露状态。基于我们的模拟，我们假设埋藏的配体部分赋予hIAPP单体结合亲和力，而溶剂暴露的配体部分则调节结合的hIAPP在淀粉样聚集途径上向高阶寡聚中间体进行分子间结合的动力学。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41040258/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41040258/",
+  "paper_page_path": "papers/pubmed/41040258/index.html"
+}

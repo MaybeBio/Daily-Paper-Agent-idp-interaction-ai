@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "37144752",
+    "doi": "10.1080/07391102.2023.2208219",
+    "title": "Interaction and simulation studies suggest the possible molecular targets of intrinsically disordered amyloidogenic antimicrobial peptides in Acinetobacter baumannii."
+  },
+  "content": {
+    "abstract": "Acinetobacter baumannii is one of the causing agents of nosocomial infections. A wide range of antibiotics fails to work against these pathogens. Hence, there is an urgent requirement to develop other therapeutics to solve this problem. Antimicrobial peptides (AMPs) are a diverse group of naturally occurring peptides that have the ability to kill diverse groups of microorganisms. The major challenge of using AMPs as therapeutics is their unstable nature and the fact that most of their molecular targets are still unknown. In this study, we have selected intrinsically disordered and amyloidogenic AMPs, showing activity against A. baumannii, that is, Bactenecin, Cath BF, Citropin 1.1, DP7, NA-CATH, Tachyplesin, and WAM-1. To identify the probable target of these AMPs in A. baumannii, calculation of docking score, binding energy, dissociation constant, and molecular dynamics analysis was performed with selected seventeen possible molecular targets. The result showed that the most probable molecular targets of most of the intrinsically disordered amyloidogenic AMPs were UDP-N-acetylenol-pyruvoyl-glucosamine reductase (MurB), followed by 33-36 kDa outer membrane protein (Omp 33-36), UDP-N-acetylmuramoyl-l-alanyl-d-glutamate-2,6-diaminopimelate ligase (MurE), and porin Subfamily Protein (PorinSubF). Further, molecular dynamics analysis concluded that the target of antimicrobial peptide Bactenecin is MurB of A. baumannii, and identified other molecular targets of selected AMPs. Additionally, the oligomerization capacity of the selected AMPs was also investigated, and it was shown that the selected AMPs form oligomeric states, and interact with their molecular targets in that state. Experimental validation using purified AMPs and molecular targets needs to be done to confirm the interaction.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "Acinetobacter baumannii",
+      "amyloid forming AMPs",
+      "antimicrobial peptides",
+      "carbapenem resistance",
+      "molecular target of AMPs"
+    ],
+    "mesh_terms": [
+      "*Antimicrobial Peptides",
+      "*Acinetobacter baumannii",
+      "Anti-Bacterial Agents/pharmacology/chemistry",
+      "Microbial Sensitivity Tests"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sarkar, Sayani",
+        "Kumari, Aruna",
+        "Tiwari, Monalisa",
+        "Tiwari, Vishvanath"
+      ],
+      "short_names": [
+        "Sarkar S",
+        "Kumari A",
+        "Tiwari M",
+        "Tiwari V"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1664-3871"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Central University of Rajasthan, Ajmer, India.",
+        "Department of Biochemistry, Central University of Rajasthan, Ajmer, India.",
+        "Department of Biochemistry, Central University of Rajasthan, Ajmer, India.",
+        "Department of Biochemistry, Central University of Rajasthan, Ajmer, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sarkar, Sayani",
+        "short_name": "Sarkar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Central University of Rajasthan, Ajmer, India."
+        ]
+      },
+      {
+        "full_name": "Kumari, Aruna",
+        "short_name": "Kumari A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Central University of Rajasthan, Ajmer, India."
+        ]
+      },
+      {
+        "full_name": "Tiwari, Monalisa",
+        "short_name": "Tiwari M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Central University of Rajasthan, Ajmer, India."
+        ]
+      },
+      {
+        "full_name": "Tiwari, Vishvanath",
+        "short_name": "Tiwari V",
+        "identifiers": [
+          "0000-0003-1664-3871"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Central University of Rajasthan, Ajmer, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2024 Apr",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/05 12:42",
+    "fetched_at": "2026-09-20 21:40:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37144752",
+      "32387392",
+      "36190276",
+      "38486459",
+      "42331919",
+      "30043322",
+      "40221130",
+      "37670010",
+      "41977294",
+      "42190240",
+      "41581941",
+      "41649287",
+      "39735565",
+      "34766874",
+      "39075773",
+      "35355819",
+      "36329825",
+      "31577808",
+      "29370365",
+      "40288555",
+      "37104206",
+      "36858184",
+      "37148452",
+      "40891852",
+      "33218302",
+      "30562602",
+      "40231443",
+      "34676806",
+      "38700330",
+      "32268193",
+      "37937796",
+      "33068184",
+      "39349945",
+      "39862464",
+      "35216307",
+      "36920795",
+      "26484669",
+      "37099644",
+      "39907455",
+      "39908380",
+      "30334982",
+      "41686421",
+      "39589395",
+      "32036742",
+      "39327354",
+      "39276418",
+      "25730460",
+      "21672084",
+      "39375209",
+      "41654506",
+      "32189050",
+      "36226982",
+      "35561952",
+      "39193648",
+      "36177621",
+      "42511731",
+      "42635919",
+      "29164074",
+      "38239064",
+      "42485280",
+      "40126422",
+      "37646649",
+      "40028178",
+      "20424311",
+      "37067411",
+      "40049251",
+      "36971982",
+      "32731183",
+      "40556116",
+      "41427713",
+      "31114762",
+      "39265475",
+      "36658487",
+      "24366740",
+      "29529934",
+      "28393677",
+      "38622637",
+      "36200470",
+      "35040024",
+      "36094301",
+      "41077039",
+      "39613285",
+      "28356719",
+      "39480053",
+      "42188612",
+      "37093361",
+      "35841965",
+      "22925814",
+      "38723723",
+      "38863365",
+      "27542832",
+      "35420470",
+      "39395188",
+      "33795739",
+      "36042694",
+      "30848594",
+      "33346078",
+      "33115656",
+      "41838520",
+      "39825096"
+    ],
+    "review": [
+      "37144752",
+      "32387392",
+      "37104206",
+      "39276418",
+      "36200470",
+      "39480053",
+      "36042694"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2208219?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1112",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2208219",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34487791",
+  "title": "Intrinsic Disorder in Human RNA-Binding Proteins.",
+  "authors": "Zhao, Bi; Katuwawala, Akila; Oldfield, Christopher J; Hu, Gang; Wu, Zhonghua; Uversky, Vladimir N; Kurgan, Lukasz",
+  "journal": "Journal of molecular biology",
+  "published_date": "2021-09-07",
+  "window": {
+    "start": "2021-09-06",
+    "end": "2021-09-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文系统分析人类RNA结合蛋白中内在无序的分布，但对象为RNA-蛋白互作而非PPI，且无AI/物理模拟方法，仅预测与统计，对无序介导蛋白互作机制建模启发有限。",
+  "abstract": "Although RNA-binding proteins (RBPs) are known to be enriched in intrinsic disorder, no previous analysis focused on RBPs interacting with specific RNA types. We fill this gap with a comprehensive analysis of the putative disorder in RBPs binding to six common RNA types: messenger RNA (mRNA), transfer RNA (tRNA), small nuclear RNA (snRNA), non-coding RNA (ncRNA), ribosomal RNA (rRNA), and internal ribosome RNA (irRNA). We also analyze the amount of putative intrinsic disorder in the RNA-binding domains (RBDs) and non-RNA-binding-domain regions (non-RBD regions). Consistent with previous studies, we show that in comparison with human proteome, RBPs are significantly enriched in disorder. However, closer examination finds significant enrichment in predicted disorder for the mRNA-, rRNA- and snRNA-binding proteins, while the proteins that interact with ncRNA and irRNA are not enriched in disorder, and the tRNA-binding proteins are significantly depleted in disorder. We show a consistent pattern of significant disorder enrichment in the non-RBD regions coupled with low levels of disorder in RBDs, which suggests that disorder is relatively rarely utilized in the RNA-binding regions. Our analysis of the non-RBD regions suggests that disorder harbors posttranslational modification sites and is involved in the putative interactions with DNA. Importantly, we utilize experimental data from DisProt and independent data from Pfam to validate the above observations that rely on the disorder predictions. This study provides new insights into the distribution of disorder across proteins that bind different RNA types and the functional role of disorder in the regions where it is enriched.",
+  "abstract_zh": "尽管已知RNA结合蛋白（RBPs）富含内在无序区域，但此前尚无研究专门针对与特定类型RNA相互作用的RBPs进行分析。我们通过全面分析结合六种常见RNA类型的RBPs中推定的无序区域来填补这一空白，这六种RNA包括：信使RNA（mRNA）、转移RNA（tRNA）、小核RNA（snRNA）、非编码RNA（ncRNA）、核糖体RNA（rRNA）和内部核糖体RNA（irRNA）。我们还分析了RNA结合结构域（RBDs）和非RNA结合结构域区域（非RBD区域）中推定内在无序的含量。与先前研究一致，我们表明，与人类蛋白质组相比，RBPs显著富集于无序区域。然而，进一步检查发现，mRNA、rRNA和snRNA结合蛋白在预测无序区域上显著富集，而与ncRNA和irRNA相互作用的蛋白质并未富集于无序区域，且tRNA结合蛋白在无序区域上显著贫乏。我们展示了非RBD区域显著富集无序而RBDs中无序水平较低的一致模式，这表明无序在RNA结合区域中相对较少被利用。对非RBD区域的分析表明，无序区域含有翻译后修饰位点，并参与与DNA的推定相互作用。重要的是，我们利用DisProt的实验数据和Pfam的独立数据来验证上述依赖无序预测的观察结果。本研究为不同RNA类型结合蛋白中无序区域的分布以及无序在富集区域中的功能作用提供了新见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34487791/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34487791/",
+  "paper_page_path": "papers/pubmed/34487791/index.html"
+}

@@ -1,0 +1,295 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.11.557128",
+  "title": "Modeling flexible protein structure with AlphaFold2 and cross-linking mass spectrometry",
+  "doi": "10.1101/2023.09.11.557128",
+  "abstract": "We propose a pipeline that combines AlphaFold2 (AF2) and crosslinking mass spectrometry (XL-MS) to model the structure of proteins with multiple conformations. The pipeline consists of two main steps: ensemble generation using AF2, and conformer selection using XL-MS data. For conformer selection, we developed two scores – the monolink probability score (MP) and the crosslink probability score (XLP), both of which are based on residue depth. We benchmarked MP and XLP on a large dataset of decoy protein structures, and showed that our scores outperform previously developed scores. We then tested our methodology on three proteins having an open and closed conformation in the Protein Data Bank: Complement component 3 (C3), luciferase, and glutamine-binding periplasmic protein (QBP), first generating ensembles using AF2, which were then screened for the open and closed conformations using experimental XL-MS data. In five out of six cases, the most accurate model within the AF2 ensembles – or a conformation within 1 Å of this model – was identified using crosslinks, as assessed through the XLP score. In the remaining case, only the monolinks (assessed through the MP score) successfully identified the open conformation of QBP. This serves as a compelling proof-of-concept for the effectiveness of monolinks. In contrast, the AF2 assessment score (pTM) was only able to identify the most accurate conformation in two out of six cases. Our results highlight the complementarity of AF2 with experimental methods like XL-MS, with the MP and XLP scores providing reliable metrics to assess the quality of the predicted models.",
+  "authors": [
+    "Manalastas-Cantos K",
+    "Adoni KR",
+    "Pfeifer M",
+    "Märtens B",
+    "Grünewald K",
+    "Thalassinos K",
+    "Topf M"
+  ],
+  "published_date": "2023-09-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.11.557128",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.11.557128.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR723331",
+    "raw_record": {
+      "id": "PPR723331",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR723331"
+        ]
+      },
+      "doi": "10.1101/2023.09.11.557128",
+      "title": "Modeling flexible protein structure with AlphaFold2 and cross-linking mass spectrometry",
+      "authorString": "Manalastas-Cantos K, Adoni KR, Pfeifer M, Märtens B, Grünewald K, Thalassinos K, Topf M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Manalastas-Cantos K",
+            "lastName": "Manalastas-Cantos",
+            "firstName": "Karen",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5483-9616"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Data and Computing in Natural Sciences, Universität Hamburg, Hamburg, Germany"
+                },
+                {
+                  "affiliation": "Leibniz-Institut für Virologie (LIV), Centre for Structural Systems Biology (CSSB), Hamburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Adoni KR",
+            "lastName": "Adoni",
+            "firstName": "Kish",
+            "initials": "KR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7390-501X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Structural and Molecular Biology, Division of Biosciences, University College London, London, WC1E 6BT"
+                },
+                {
+                  "affiliation": "Institute of Structural and Molecular Biology, Birkbeck College, University of London, London, WC1E 7HX, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pfeifer M",
+            "lastName": "Pfeifer",
+            "firstName": "Matthias",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Leibniz-Institut für Virologie (LIV), Centre for Structural Systems Biology (CSSB), Hamburg, Germany"
+                },
+                {
+                  "affiliation": "Universitätsklinikum Hamburg Eppendorf (UKE), Hamburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Märtens B",
+            "lastName": "Märtens",
+            "firstName": "Birgit",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Leibniz-Institut für Virologie (LIV), Centre for Structural Systems Biology (CSSB), Hamburg, Germany"
+                },
+                {
+                  "affiliation": "Universitätsklinikum Hamburg Eppendorf (UKE), Hamburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grünewald K",
+            "lastName": "Grünewald",
+            "firstName": "Kay",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Leibniz-Institut für Virologie (LIV), Centre for Structural Systems Biology (CSSB), Hamburg, Germany"
+                },
+                {
+                  "affiliation": "Department of Chemistry, Universität Hamburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thalassinos K",
+            "lastName": "Thalassinos",
+            "firstName": "Konstantinos",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5072-8428"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Structural and Molecular Biology, Division of Biosciences, University College London, London, WC1E 6BT"
+                },
+                {
+                  "affiliation": "Institute of Structural and Molecular Biology, Birkbeck College, University of London, London, WC1E 7HX, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Topf M",
+            "lastName": "Topf",
+            "firstName": "Maya",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8185-1215"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Leibniz-Institut für Virologie (LIV), Centre for Structural Systems Biology (CSSB), Hamburg, Germany"
+                },
+                {
+                  "affiliation": "Universitätsklinikum Hamburg Eppendorf (UKE), Hamburg, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5072-8428"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7390-501X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5483-9616"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8185-1215"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "We propose a pipeline that combines AlphaFold2 (AF2) and crosslinking mass spectrometry (XL-MS) to model the structure of proteins with multiple conformations. The pipeline consists of two main steps: ensemble generation using AF2, and conformer selection using XL-MS data. For conformer selection, we developed two scores – the monolink probability score (MP) and the crosslink probability score (XLP), both of which are based on residue depth. We benchmarked MP and XLP on a large dataset of decoy protein structures, and showed that our scores outperform previously developed scores. We then tested our methodology on three proteins having an open and closed conformation in the Protein Data Bank: Complement component 3 (C3), luciferase, and glutamine-binding periplasmic protein (QBP), first generating ensembles using AF2, which were then screened for the open and closed conformations using experimental XL-MS data. In five out of six cases, the most accurate model within the AF2 ensembles – or a conformation within 1 Å of this model – was identified using crosslinks, as assessed through the XLP score. In the remaining case, only the monolinks (assessed through the MP score) successfully identified the open conformation of QBP. This serves as a compelling proof-of-concept for the effectiveness of monolinks. In contrast, the AF2 assessment score (pTM) was only able to identify the most accurate conformation in two out of six cases. Our results highlight the complementarity of AF2 with experimental methods like XL-MS, with the MP and XLP scores providing reliable metrics to assess the quality of the predicted models.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "221521/Z/20/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/11/2023.09.11.557128.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.11.557128"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR723331"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR723331&type=FILE&fileName=EMS187974-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38266916",
+            "reference": "Molecular & cellular proteomics : MCP. 2024 Mar;23(3):100724",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS187974",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-09-14",
+      "firstPublicationDate": "2023-09-11",
+      "firstIndexDate": "2023-09-14",
+      "fullTextReceivedDate": "2023-11-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

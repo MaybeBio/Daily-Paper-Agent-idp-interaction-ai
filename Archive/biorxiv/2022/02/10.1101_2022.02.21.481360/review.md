@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary material were provided
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to investigate whether the nine-residue SARS-CoV-2 envelope protein fragment SK9 (SFYVYSRVK) can initiate or modulate α-synuclein aggregation. They report that SK9 shifts the α-synuclein monomer conformational ensemble toward aggregation-prone and rod-like fibril seeding conformations, but has little effect on the stability of pre-existing or newly-formed fibrils.
+- **Visible evidence base** Abstract text only; no simulation details, force fields, system setups, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation parameters, statistical analyses, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis linking viral protein fragments to α-synuclein aggregation, which could have relevance for understanding post-viral neurological sequelae. However, the current evidence base is insufficient to evaluate the technical soundness of the simulations or the robustness of the reported findings. The claims are plausible but not verifiable from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying protein misfolding and aggregation, particularly those focused on α-synuclein and Parkinson's disease; investigators exploring molecular mechanisms of viral-host protein interactions; computational biophysicists interested in amyloidogenic peptide effects on intrinsically disordered proteins.
+- **Major strengths** The study addresses a timely and clinically relevant question regarding potential links between SARS-CoV-2 infection and Parkinson's disease pathology. The choice of a specific viral fragment and two resolved fibril polymorphs provides a focused and mechanistically testable framework. The distinction between effects on monomer conformation versus fibril stability is a useful conceptual separation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that SK9 shifts the α-synuclein monomer ensemble toward aggregation-prone and rod-like fibril seeding conformations.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No simulation methodology is described. The reader cannot assess whether the simulations were adequately converged, which force field and water model were used, how the SK9 fragment was modeled, what the simulation timescales were, or how the conformational ensembles were sampled and analyzed. Without this information, the reliability of the reported conformational shift cannot be evaluated.  
+  - **Why it matters** Molecular dynamics results for intrinsically disordered proteins such as α-synuclein are highly sensitive to force field choice, sampling length, and analysis methods. If the simulations are underconverged or use inappropriate parameters, the reported ensemble shift could be an artifact.  
+  - **Resolution test** Provide full methods including force field parameters, simulation length, replica exchange or enhanced sampling details, convergence metrics, and validation against experimental data where available.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence strength  
+  - **Claim pointer** The abstract states that SK9 has little effect on the stability of pre-existing or newly-formed fibrils.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No quantitative data are presented to support this negative claim. The abstract does not report binding free energies, dissociation constants, or any comparative stability metrics for the fibril polymorphs in the presence versus absence of SK9. A "little effect" claim requires statistical comparison and error estimates.  
+  - **Why it matters** Negative results are only meaningful if the measurements have sufficient statistical power and sensitivity to detect meaningful differences. Without quantitative evidence, the claim is unsupported.  
+  - **Resolution test** Provide numerical stability measures with error bars and statistical tests comparing control and SK9-treated conditions for both fibril polymorphs.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Biological relevance  
+  - **Claim pointer** The abstract implies that the observed effects may be relevant to α-synuclein amyloid formation in Parkinson's disease.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not discuss whether the concentrations of SK9 used in simulations are physiologically relevant, nor whether the fragment would be accessible in the cellular context where α-synuclein aggregation occurs. The connection between in silico observations and in vivo relevance is not established.  
+  - **Why it matters** Without contextualizing the simulation conditions relative to biological concentrations and compartmentalization, the translational significance of the findings remains speculative.  
+  - **Resolution test** Add discussion of physiological relevance, including estimated local concentrations of viral fragments during infection and whether these are achievable in relevant cellular compartments.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "initiate and modulate" is vague and conflates two distinct processes that may require different experimental or computational approaches.  
+  - **Required correction** Specify whether the study addresses initiation, modulation, or both, and clarify the operational definitions used.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The abstract does not state how many replicas or independent simulations were performed, nor whether the results were consistent across them.  
+  - **Required correction** Include a brief statement on reproducibility, such as number of independent runs and consistency of results.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract, "rod-like fibril seeding conformations"  
+  - **Evidence pointer** Abstract, results sentence  
+  - **Issue** The term "rod-like fibril seeding conformations" is not standard and is not defined in the abstract.  
+  - **Required correction** Define this term or use established nomenclature for fibril polymorphs and seeding-competent conformations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims regarding conformational shifts and fibril stability effects cannot be evaluated without methodological detail and quantitative evidence. The absence of these elements means the case for the reported findings is not currently established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The hypothesis that a specific SARS-CoV-2 envelope fragment modulates α-synuclein aggregation is timely and somewhat novel, though the general concept of viral protein fragments influencing amyloid formation is not entirely new.  
+  - **Scientific importance** If substantiated, the findings could contribute to understanding potential links between viral infections and neurodegenerative disease risk. However, the current abstract does not establish the magnitude or biological significance of the effect.  
+  - **Interdisciplinary readership** The topic bridges virology, neurodegeneration, and computational biophysics, which could attract a broad audience. The abstract is written in accessible language for nonspecialists.  
+  - **Technical soundness** Not assessable from the abstract alone. The lack of methodological detail is a critical gap.  
+  - **Readability for nonspecialists** The abstract is clear and concise, with appropriate context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the study could be valuable, but the abstract alone does not provide sufficient methodological or quantitative support for the claims. A full manuscript with detailed methods and results would be required to assess whether the findings are robust and significant.
+
+## Risk / unsupported claims
+- The claim that SK9 shifts the α-synuclein monomer ensemble toward aggregation-prone conformations is unsupported without simulation details and quantitative ensemble comparisons.
+- The claim that SK9 has little effect on fibril stability is unsupported without numerical stability data and statistical analysis.
+- The implied biological relevance to Parkinson's disease is not assessable from the abstract, as no physiological context or concentration arguments are provided.
+- Any statement about the reliability or convergence of the simulations is not assessable from the supplied material.

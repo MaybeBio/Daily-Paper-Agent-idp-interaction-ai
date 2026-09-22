@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.16.688718",
+  "title": "Reliable repurposing of antibody interactome inside the cell",
+  "authors": "O’Shea CM; Shahzad R; Aghasoleimani K; Newman S; Panmanee J; Schalkwyk LC; Brooke GN; Benson FE; Trimmer JS; Bosco DA; Fujisawa T; Ichijo H; Cashman NR; Engel S; Wright GSA",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-16",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过AI逆折叠优化抗体可变区电荷与连接子，设计可溶性胞内抗体（intrabody）以靶向胞质蛋白（含α-synuclein、FUS等无序相关蛋白），虽涉及PPI与AI方法，但核心是抗体工程而非无序蛋白互作机制建模，可迁移性有限。",
+  "abstract": "In biology proximity is paramount and eighty-five percent of the human proteome has at least one documented interacting monoclonal antibody. These molecules penetrate the cytoplasm poorly and are very often non-functional within the cell. Sequence analysis of 10 6 antibody variable domains alongside the cytoplasmic human proteome shows charge and isoelectric point are characteristics ill adapted to intracellular monodispersity. Characterisation of forty-five single-chain variable fragment (scFv) intrabodies expressed in human cells confirmed charge to have the greatest impact on solubility. We created new interdomain linkers, optimised scFv domain orientation and found variable heavy domain framework sites to be generally positively charged, and promote insolubility, but be amenable to optimisation. This is applied in combination to reduce the search space and refine the products of AI-led inverse folding to create highly soluble, abundant and thermally stable intrabodies that maintain parent antibody epitope recognition. Over six hundred intrabody sequences are described targeting sixty cytoplasmic proteins with linear, conformational, post-translational modification or oligomeric state specificity. Interactions were validated for p53, α-synuclein, SOD1, polyQ, FUS/TLS, UCHL1 and GFP. This approach removes obstacles hindering intracellular repurposing of the vast sequenced antibody interactome with applications relevant to many human disease states.",
+  "abstract_zh": "在生物学中，邻近性至关重要，人类蛋白质组中85%的蛋白质至少有一个已记录在案的相互作用单克隆抗体。这些分子穿透细胞质的能力较差，且在细胞内往往无功能。对10^6个抗体可变结构域与细胞质人类蛋白质组的序列分析显示，电荷和等电点是适应细胞内单分散性不良的特征。对在人类细胞中表达的45个单链可变片段（scFv）内抗体进行表征，确认电荷对溶解性影响最大。我们创建了新的结构域间连接子，优化了scFv结构域方向，并发现可变重链结构域框架位点通常带正电荷，促进不溶性，但可通过优化加以改善。这些方法结合应用，以缩小搜索空间并精炼AI引导的逆折叠产物，从而生成高度可溶、丰富且热稳定的内抗体，同时保持亲本抗体的表位识别。描述了超过600个内抗体序列，靶向60种细胞质蛋白，具有线性、构象、翻译后修饰或寡聚状态特异性。针对p53、α-突触核蛋白、SOD1、polyQ、FUS/TLS、UCHL1和GFP的相互作用已得到验证。该方法消除了阻碍庞大已测序抗体相互作用组在细胞内重新利用的障碍，其应用与多种人类疾病状态相关。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.16.688718",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.16.688718",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.16.688718/index.html"
+}

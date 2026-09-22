@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "41279136",
+    "doi": "10.1101/2025.11.04.686660",
+    "title": "Direct Optical Quantification of Chain Collapse, Reduced Dielectric, and Water Release Driving Protein Phase Separation."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates represent unique microenvironments that organize intracellular biology and promote biochemical reactions. However, the biomolecular interactions driving condensate phase separation are often weak, transient, and heterogeneous. Investigating the structural biology and chemical properties of condensate interiors has therefore proven experimentally challenging, often requiring the use of perturbative probes. To overcome this challenge, we combine label-free optical scattering and vibrational spectroscopy approaches spanning ultraviolet, visible, mid-infrared, and terahertz wavelengths with deep-learning-based ensemble prediction of intrinsically disordered protein conformations. Our experimental and computational results reveal that the intrinsically disordered N-terminal domain of the RNA Deadbox helicase 4 (DDX4) deviates from random coil behavior and undergoes chain collapse that correlates with phase separation, which leads to lower dielectric and reduced water content inside condensates. Our data support a model of DDX4 phase separation whereby chain collapse, reduced dielectric, and water release enhance the strength of multivalent protein-protein interactions within condensates, driving condensate growth and phase separation through positive feedback. Our study addresses the critical driving forces of biomolecular phase separation across a range of length scales, providing quantitative insights into protein-protein/protein-solvent interactions and the chemical properties of condensate interiors.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Perets, Ethan A",
+        "Spies, Jacob A",
+        "Cheong, Justin H",
+        "Shi, Lixue",
+        "Asamoto, DeeAnn K",
+        "Holehouse, Alex S",
+        "Kim, Judy E",
+        "Min, Wei",
+        "Neu, Jens",
+        "Yan, Elsa C Y"
+      ],
+      "short_names": [
+        "Perets EA",
+        "Spies JA",
+        "Cheong JH",
+        "Shi L",
+        "Asamoto DK",
+        "Holehouse AS",
+        "Kim JE",
+        "Min W",
+        "Neu J",
+        "Yan ECY"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9554-776X",
+        "ORCID: 0000-0002-0148-4823",
+        "ORCID: 0000-0003-3841-3532",
+        "ORCID: 0000-0001-9712-5800",
+        "ORCID: 0000-0001-8632-9293",
+        "ORCID: 0000-0002-4155-5729",
+        "ORCID: 0000-0001-8695-4363",
+        "ORCID: 0000-0003-2570-3557",
+        "ORCID: 0000-0002-1054-0444",
+        "ORCID: 0000-0002-3583-1627"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Yale University, New Haven, CT 06520, USA.",
+        "Department of Molecular Biology, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Department of Chemistry, Yale University, New Haven, CT 06520, USA.",
+        "Department of Chemistry, Yale University, New Haven, CT 06520, USA.",
+        "Department of Chemistry, Columbia University, New York, NY 10027, USA.",
+        "Department of Chemistry and Biochemistry, University of California at San Diego, La Jolla, CA 92093, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO 63110, USA.",
+        "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO 63110, USA.",
+        "Department of Chemistry and Biochemistry, University of California at San Diego, La Jolla, CA 92093, USA.",
+        "Department of Chemistry, Columbia University, New York, NY 10027, USA.",
+        "Department of Chemistry, Yale University, New Haven, CT 06520, USA.",
+        "Department of Chemistry, Yale University, New Haven, CT 06520, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Perets, Ethan A",
+        "short_name": "Perets EA",
+        "identifiers": [
+          "0000-0001-9554-776X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Yale University, New Haven, CT 06520, USA.",
+          "Department of Molecular Biology, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Spies, Jacob A",
+        "short_name": "Spies JA",
+        "identifiers": [
+          "0000-0002-0148-4823"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Yale University, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Cheong, Justin H",
+        "short_name": "Cheong JH",
+        "identifiers": [
+          "0000-0003-3841-3532"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Yale University, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Shi, Lixue",
+        "short_name": "Shi L",
+        "identifiers": [
+          "0000-0001-9712-5800"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Columbia University, New York, NY 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Asamoto, DeeAnn K",
+        "short_name": "Asamoto DK",
+        "identifiers": [
+          "0000-0001-8632-9293"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California at San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [
+          "0000-0002-4155-5729"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO 63110, USA.",
+          "Center for Biomolecular Condensates, Washington University in St. Louis, St. Louis, MO 63110, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Judy E",
+        "short_name": "Kim JE",
+        "identifiers": [
+          "0000-0001-8695-4363"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California at San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Min, Wei",
+        "short_name": "Min W",
+        "identifiers": [
+          "0000-0003-2570-3557"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Columbia University, New York, NY 10027, USA."
+        ]
+      },
+      {
+        "full_name": "Neu, Jens",
+        "short_name": "Neu J",
+        "identifiers": [
+          "0000-0002-1054-0444"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Yale University, New Haven, CT 06520, USA."
+        ]
+      },
+      {
+        "full_name": "Yan, Elsa C Y",
+        "short_name": "Yan ECY",
+        "identifiers": [
+          "0000-0002-3583-1627"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Yale University, New Haven, CT 06520, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Nov 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 18:20",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40188296",
+      "39878648",
+      "39356108",
+      "38580324",
+      "38297184",
+      "38061016",
+      "37840355",
+      "37546704",
+      "37515326",
+      "37468629",
+      "37463458",
+      "37334684",
+      "36881934",
+      "36745512",
+      "35795820",
+      "35709358",
+      "35581788",
+      "35405425",
+      "34480923",
+      "34163831",
+      "33978290",
+      "33890467",
+      "33877835",
+      "33515602",
+      "32029630",
+      "31974256",
+      "31471618",
+      "30017918",
+      "29961577",
+      "29677514",
+      "29602697",
+      "29517898",
+      "28938114",
+      "28483149",
+      "28225081",
+      "28191978",
+      "27838525",
+      "27824447",
+      "27807972",
+      "27077243",
+      "25747659",
+      "25664638",
+      "22897252",
+      "20428473",
+      "19431389",
+      "18506808",
+      "7990132",
+      "7171730"
+    ],
+    "similar": [
+      "41279136",
+      "42464491",
+      "39042834",
+      "42425985",
+      "35179885",
+      "33139563",
+      "41342450",
+      "37470705",
+      "37668016",
+      "36993212",
+      "42475469",
+      "39605385",
+      "41480717",
+      "39677697",
+      "40690668",
+      "40748104",
+      "35333653",
+      "36979462",
+      "34074792",
+      "23912807",
+      "41206632",
+      "28894006",
+      "38526948",
+      "32426986",
+      "38308651",
+      "40098319",
+      "34716273",
+      "42081454",
+      "41544898",
+      "40521608",
+      "39568893",
+      "37961424",
+      "38252962",
+      "33069007",
+      "33890467",
+      "30926670",
+      "37468629",
+      "40588121",
+      "40136009",
+      "41524628",
+      "36993371",
+      "37964343",
+      "37161095",
+      "40661423",
+      "33515602",
+      "39947751",
+      "40954121",
+      "42102067",
+      "38260590",
+      "41415473",
+      "42555238",
+      "38429263",
+      "41129218",
+      "38279531",
+      "30471685",
+      "33302617",
+      "36883003",
+      "32619404",
+      "36009025",
+      "33078839",
+      "40291420",
+      "40161686",
+      "39026887",
+      "32004090",
+      "39824169",
+      "40009520",
+      "36657879",
+      "37043540",
+      "37980572",
+      "41481439",
+      "39535884",
+      "40672301",
+      "31199001",
+      "36982909",
+      "37287829",
+      "32312191",
+      "34737230",
+      "39319382",
+      "33076213",
+      "41933903",
+      "39486437",
+      "37215004",
+      "37735186",
+      "35918061",
+      "42578644",
+      "32696384",
+      "42497855",
+      "41667449",
+      "41022842",
+      "41673446",
+      "39484615",
+      "37293933",
+      "39225535",
+      "39172789",
+      "40441156",
+      "39271032",
+      "41700935",
+      "33629837",
+      "39896463",
+      "31797598"
+    ],
+    "review": [
+      "41279136",
+      "35179885",
+      "41480717",
+      "41206632",
+      "41544898",
+      "33069007",
+      "39947751",
+      "33078839",
+      "32004090",
+      "39824169",
+      "36982909",
+      "32312191"
+    ],
+    "pmc": [
+      "12637620"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41279136/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.11.04.686660",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

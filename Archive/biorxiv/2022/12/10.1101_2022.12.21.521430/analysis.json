@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.21.521430",
+  "title": "Crosstalk between regulatory elements in the disordered TRPV4 N-terminus modulates lipid-dependent channel activity",
+  "authors": "Goretzki B; Wiedemann C; McCray BA; Schäfer SL; Jansen J; Tebbe F; Mitrovic S; Nöth J; Donohue JK; Jeffries CM; Steinchen W; Stengel F; Sumner CJ; Hummer G; Hellmich UA",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-22",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过整合结构生物学与分子动力学模拟，揭示TRPV4无序N端内调控元件网络经瞬态长程互作和脂质依赖性机制调节通道活性，虽非典型PPI但聚焦IDR互作机制建模，对本课题有方法迁移价值。",
+  "abstract": "Intrinsically disordered regions (IDRs) are essential for membrane receptor regulation but often remain unresolved in structural studies. TRPV4, a member of the TRP vanilloid channel family involved in thermo- and osmosensation, has a large N-terminal IDR of approximately 150 amino acids. With an integrated structural biology approach, we analyze the structural ensemble of the TRPV4 IDR and identify a network of regulatory elements that modulate channel activity in a hierarchical lipid-dependent manner through transient long-range interactions. A highly conserved autoinhibitory patch acts as a master regulator by competing with PIP 2 binding to attenuate channel activity. Molecular dynamics simulations show that loss of the interaction between the PIP 2 -binding site and the membrane reduces the force exerted by the IDR on the structured core of TRPV4. This work demonstrates that IDR structural dynamics are coupled to TRPV4 activity and highlights the importance of IDRs for TRP channel function and regulation.",
+  "abstract_zh": "intrinsically disordered regions (IDRs) 对于膜受体的调控至关重要，但在结构研究中常常无法解析。TRPV4 是 TRP 香草酸通道家族的一员，参与温度和渗透压感知，其 N 端含有一个约 150 个氨基酸的大段 IDR。通过整合结构生物学方法，我们分析了 TRPV4 IDR 的结构集合，并识别出一个调控元件网络，该网络通过瞬时的长程相互作用，以层级脂质依赖的方式调节通道活性。一个高度保守的自抑制斑块作为主调控因子，通过与 PIP 2 结合竞争来减弱通道活性。分子动力学 (molecular dynamics) 模拟显示，PIP 2 结合位点与膜之间相互作用的丧失会减少 IDR 对 TRPV4 结构核心施加的力。这项工作表明，IDR 的结构动力学与 TRPV4 活性相耦合，并强调了 IDR 在 TRP 通道功能和调控中的重要性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.21.521430",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.21.521430",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.21.521430/index.html"
+}

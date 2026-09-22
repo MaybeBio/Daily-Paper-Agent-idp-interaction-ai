@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "pmid": "33517146",
+    "doi": "10.1016/j.compbiolchem.2021.107437",
+    "title": "The RIT1 C-terminus associates with lipid bilayers via charge complementarity."
+  },
+  "content": {
+    "abstract": "RIT1 is a member of the Ras superfamily of small GTPases involved in regulation of cellular signaling. Mutations to RIT1 are involved in cancer and developmental disorders. Like many Ras subfamily members, RIT1 is localized to the plasma membrane. However, RIT1 lacks the C-terminal prenylation that helps many other subfamily members adhere to cellular membranes. We used molecular dynamics simulations to examine the mechanisms by which the C-terminal peptide (CTP) of RIT1 associates with lipid bilayers. We show that the CTP is unstructured and that its membrane interactions depend on lipid composition. While a 12-residue region of the CTP binds strongly to anionic bilayers containing phosphatidylserine lipids, the CTP termini fray from the membrane allowing for accommodation of the RIT1 globular domain at the membrane-water interface.",
+    "keywords": [
+      "Enhanced sampling",
+      "Molecular dynamics",
+      "Protein-membrane interactions",
+      "RIT1"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Cell Membrane/metabolism",
+      "Humans",
+      "Intrinsically Disordered Proteins/*chemistry/genetics/metabolism",
+      "Lipid Bilayers/*chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Mutation",
+      "Protein Prenylation",
+      "ras Proteins/*chemistry/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Migliori, Amy D",
+        "Patel, Lara A",
+        "Neale, Chris"
+      ],
+      "short_names": [
+        "Migliori AD",
+        "Patel LA",
+        "Neale C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Nonlinear Studies, Los Alamos National Laboratory, Los Alamos, NM, 87545, United States; Theoretical Biology and Biophysics, Los Alamos National Laboratory, Los Alamos, NM, 87545, United States.",
+        "Center for Nonlinear Studies, Los Alamos National Laboratory, Los Alamos, NM, 87545, United States; Theoretical Biology and Biophysics, Los Alamos National Laboratory, Los Alamos, NM, 87545, United States.",
+        "Theoretical Biology and Biophysics, Los Alamos National Laboratory, Los Alamos, NM, 87545, United States. Electronic address: cneale@lanl.gov."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Migliori, Amy D",
+        "short_name": "Migliori AD",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Nonlinear Studies, Los Alamos National Laboratory, Los Alamos, NM, 87545, United States; Theoretical Biology and Biophysics, Los Alamos National Laboratory, Los Alamos, NM, 87545, United States."
+        ]
+      },
+      {
+        "full_name": "Patel, Lara A",
+        "short_name": "Patel LA",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Nonlinear Studies, Los Alamos National Laboratory, Los Alamos, NM, 87545, United States; Theoretical Biology and Biophysics, Los Alamos National Laboratory, Los Alamos, NM, 87545, United States."
+        ]
+      },
+      {
+        "full_name": "Neale, Chris",
+        "short_name": "Neale C",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Biology and Biophysics, Los Alamos National Laboratory, Los Alamos, NM, 87545, United States. Electronic address: cneale@lanl.gov."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2021 Apr",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/02/01 06:00",
+    "fetched_at": "2026-09-20 01:14:56"
+  },
+  "links": {
+    "cites": [
+      "39952269",
+      "38560754",
+      "37450595",
+      "37215053",
+      "34533984"
+    ],
+    "refs": [],
+    "similar": [
+      "33517146",
+      "38942776",
+      "32766847",
+      "24892900",
+      "27226556",
+      "26958889",
+      "25992726",
+      "21872568",
+      "22562795",
+      "21112291",
+      "16131204",
+      "30872527",
+      "29734338",
+      "30504247",
+      "23062351",
+      "18712896",
+      "23923044",
+      "30898653",
+      "33155649",
+      "7547927",
+      "17044712",
+      "9724538",
+      "26617739",
+      "30297718",
+      "8823199",
+      "31247273",
+      "26714497",
+      "23805758",
+      "33526670",
+      "32831193",
+      "10889039",
+      "33577583",
+      "21354399",
+      "29208465",
+      "29120102",
+      "9585579",
+      "22181459",
+      "22630563",
+      "29843527",
+      "15548025",
+      "34846918",
+      "32770092",
+      "26735936",
+      "23765226",
+      "32452115",
+      "28372945",
+      "31554397",
+      "32783888",
+      "29949342",
+      "15031297",
+      "30351122",
+      "26650755",
+      "25959749",
+      "28597297",
+      "27435187",
+      "15491620",
+      "24144543",
+      "26757980",
+      "14767908",
+      "28571787",
+      "24516166",
+      "22935734",
+      "37919400",
+      "28041850",
+      "12866958",
+      "21310660",
+      "28991313",
+      "20570648",
+      "30348939",
+      "26518681",
+      "27109146",
+      "27977396",
+      "31136713",
+      "25646717",
+      "34680072",
+      "35467524",
+      "38712287",
+      "26724997",
+      "23906604",
+      "36582138",
+      "38744147",
+      "32212610",
+      "35104125",
+      "37780758",
+      "22994893",
+      "20223222",
+      "39161959",
+      "38077017",
+      "35098229",
+      "35419481"
+    ],
+    "review": [
+      "33517146",
+      "32766847",
+      "33155649",
+      "29120102",
+      "32452115",
+      "28597297",
+      "26518681",
+      "27977396",
+      "34680072",
+      "23906604"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(21)00004-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33517146",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

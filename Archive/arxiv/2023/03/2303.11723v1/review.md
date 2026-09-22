@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, main text, equations, and references. Figures are referenced but not provided.
+- **Assessment boundary** The scientific claims, mathematical derivations, and logical structure of the presented work. No assessment of experimental validation, as none is claimed.
+- **Shared manuscript claim summary** The authors propose a control-theoretic framework to determine, for a continuum model coupling phase separation (Cahn-Hilliard-type conserved dynamics) with chemical reaction networks (CRNs), whether microphase separation (MS) is impossible, possible for some parameter values, or robustly guaranteed for all parameter values within given bounds. The key technical contribution is mapping the spectral abscissa problem of an uncertain matrix to a determinant-based condition, enabling computationally simple checks via vertex analysis.
+- **Visible evidence base** Theoretical derivations (Sections II, III, III-A, III-B), four illustrative examples (Section IV), and references to figures (Fig. 1, Fig. 2) that are not included in the provided material.
+- **Missing materials affecting confidence** Figures 1 and 2 are referenced but not provided, limiting verification of the illustrative examples. The full derivation of the BDC decomposition and its applicability conditions are cited to prior work [5, 6, 13] but not reproduced. No numerical simulation results or quantitative comparisons are provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question: how chemical reactions can arrest phase separation to produce finite-size patterns. The authors present a mathematically rigorous framework that converts a challenging spectral problem into a tractable determinant condition, with clear categorical outcomes (impossible, possible, robust). The work is well-structured and the logical flow from problem formulation to theorems to examples is coherent. However, the practical utility of the framework is not fully demonstrated, as the examples are purely illustrative with no quantitative validation or connection to specific experimental systems. The assumptions (one conservation law, marginal stability of the CRN Jacobian, Metzler structure for eigenvalue discrimination) may limit the breadth of applicability, and this is not thoroughly discussed.
+- **Who would be interested in the results, and why** Researchers in systems biology studying biomolecular condensates, particularly those interested in how biochemical reactions regulate condensate size and spatial organization. Also relevant to the synthetic biology community aiming to engineer phase-separating systems with controlled pattern formation, and to the broader control theory community interested in robust analysis of uncertain dynamical systems. The determinant-based conditions are computationally accessible and could be adopted by non-specialists in control theory.
+- **Major strengths** 1) The problem is well-motivated and of broad interdisciplinary relevance. 2) The theoretical contribution is significant: converting a spectral abscissa problem to a determinant problem is elegant and practically useful. 3) The categorical framework (impossible/possible/robust) is clear and actionable. 4) The assumptions are explicitly stated, and the proofs are provided in the appendix. 5) The writing is generally clear and accessible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the determinant conditions in Theorems 1-3 are "easily computable" and provide a complete characterization of MS.
+  - **Evidence pointer** Section III, Theorems 1-3, Section III-B
+  - **Concern** The theorems provide necessary and sufficient conditions for MS based on the sign behavior of Ψ⁻ and Ψ⁺. However, the relationship between the determinant of the matrix and the spectral abscissa is not one-to-one. A negative determinant implies a positive eigenvalue, but a positive determinant does not guarantee all eigenvalues have negative real parts. The authors acknowledge this in Section III (the determinant may be positive even when the spectral abscissa is positive), but the implications for the completeness of the conditions are not fully explored. Specifically, Theorem 2 states that if Ψ⁻ or Ψ⁺ is initially positive and has a negative sign change, then MS occurs for some parameters. But could there be parameter sets where MS occurs yet neither Ψ⁻ nor Ψ⁺ exhibits the required sign behavior? If so, the conditions are not exhaustive, and the "possible" category is incomplete.
+  - **Why it matters** If the conditions are not exhaustive, the framework may incorrectly classify some CRN structures as "impossible" for MS when in fact MS could occur for parameters not captured by the vertex analysis. This would undermine the practical utility of the framework for screening candidate CRNs.
+  - **Resolution test** Provide a proof or counterexample demonstrating that the conditions in Theorems 1-3 are both necessary and sufficient for the respective categories. Alternatively, explicitly state the limitations and provide a discussion of cases where the conditions may fail to detect MS.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the framework "offer[s] useful insight for the robust experimental design of phase-separating systems in synthetic biology or material science."
+  - **Evidence pointer** Section V, Concluding Discussion
+  - **Concern** The manuscript does not demonstrate how the framework translates into experimental design. The examples in Section IV are abstract CRN structures with arbitrary parameter bounds. There is no connection to specific molecular systems, no discussion of how parameter bounds would be estimated experimentally, and no consideration of whether the assumptions (e.g., one conservation law, marginal stability) hold in realistic biological or materials contexts. The gap between the mathematical framework and experimental applicability is substantial and not addressed.
+  - **Why it matters** The stated motivation is to understand and engineer life. Without a clear pathway to experimental implementation, the work remains a purely theoretical contribution, which may limit its impact and readership.
+  - **Resolution test** Add a discussion section that maps the framework to a specific experimental system (e.g., a known protein-RNA condensate system), including how the CRN structure and parameter bounds would be determined, and what predictions the framework makes that could be tested.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The assumption that the CRN Jacobian can be decomposed as J_R = BΔC with Δ diagonal and positive, and that this decomposition is possible for "any generic CRN."
+  - **Evidence pointer** Section II, paragraph on BDC decomposition
+  - **Concern** The BDC decomposition is cited to prior work [5, 6, 13], but the conditions under which this decomposition is valid are not stated. The claim that it is possible for "any generic CRN" is vague. If the decomposition requires specific structural properties (e.g., monotone networks, certain reaction graph topologies), then the framework's applicability is narrower than claimed. Additionally, the assumption that Δ entries are positive and bounded in intervals may not hold for all CRNs, particularly those with negative feedback loops or autocatalytic steps.
+  - **Why it matters** The framework's generality is a key selling point. If the decomposition is not universally applicable, the scope of the results is overstated.
+  - **Resolution test** Provide a precise statement of the conditions under which the BDC decomposition is valid, with references or a proof. Discuss which classes of CRNs are excluded and the implications for the framework's applicability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section II, Definition 2
+  - **Evidence pointer** Section II, Definition 2
+  - **Issue** The definition of MS is given in terms of the sign changes of the spectral abscissa ρ(Δ,κ), but the physical interpretation of these sign changes (i.e., what it means for the spatial pattern) is not explained in the main text. The reference to Fig. 1 helps, but the figure is not provided.
+  - **Required correction** Add a brief intuitive explanation of why the sign behavior of ρ(Δ,κ) corresponds to the formation of finite-size patterns, and consider including a schematic figure in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section III-B, Proposition 1
+  - **Evidence pointer** Section III-B, Proposition 1
+  - **Issue** The proof that Ψ⁻ and Ψ⁺ are piecewise polynomials relies on the fact that two polynomials of order N can intersect in at most N points. This is correct, but the computational complexity of finding all intersection points is not discussed. For large N (i.e., many species or reactions), this could become prohibitive.
+  - **Required correction** Add a brief comment on the computational complexity of the proposed checks and discuss whether the approach scales to larger CRNs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Section IV, examples
+  - **Evidence pointer** Section IV
+  - **Issue** The examples are presented with minimal context. It is unclear whether these CRNs correspond to any known biological or materials systems, or whether they are purely illustrative mathematical constructs.
+  - **Required correction** Add a sentence or two for each example explaining its relevance or motivation, even if purely illustrative.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (completeness of determinant conditions) and R1-M2 (experimental relevance) are the primary technical concerns. R1-M3 (generality of BDC decomposition) also needs clarification. Without addressing R1-M1, the framework's classification categories may be incomplete, which is a fundamental issue.
+- **Assessment against Nature-style criteria** Originality: The approach of using robust control theory and determinant conditions to analyze microphase separation in reaction-diffusion systems is novel and distinct from prior computational explorations. Scientific importance: The question of how chemistry regulates condensate size is of high importance in biology and materials science, but the manuscript does not yet demonstrate practical impact. Interdisciplinary readership: The topic bridges control theory, physical chemistry, and biology, and the writing is largely accessible, though some control-theoretic concepts may be challenging for non-specialists. Technical soundness: The mathematics appears rigorous, but the completeness of the conditions (R1-M1) and the generality of the decomposition (R1-M3) need to be established. Readability for nonspecialists: The structure is clear, but the physical intuition behind the mathematical conditions could be strengthened.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the mathematical framework is elegant, but the completeness of the conditions and the pathway to experimental application must be addressed before the case is fully established.

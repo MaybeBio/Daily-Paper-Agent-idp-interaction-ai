@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33865866",
+  "title": "Modulating Microtubules: A Molecular Perspective on the Effects of Tail Modifications.",
+  "authors": "Bigman, Lavi S; Levy, Yaakov",
+  "journal": "Journal of molecular biology",
+  "published_date": "2021-04-19",
+  "window": {
+    "start": "2021-04-19",
+    "end": "2021-04-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用全原子和粗粒化分子动力学模拟研究微管蛋白无序尾部及其多聚修饰（PTM）对尾部构象和与微管相关蛋白EB1互作扩散的影响，对象为无序尾部且涉及PPI机制，但非IDP介导的典型PPI/相分离，方法为物理模拟，机制建模有启发。",
+  "abstract": "Microtubules (MTs), an essential component of the eukaryotic cytoskeleton, are a lattice of polymerized tubulin dimers and are crucial for various cellular processes. The genetic and chemical diversity of tubulin and their disordered tails gives rise to a \"tubulin code\". The functional role of tubulin post-translational modifications (PTMs), which contribute to the chemical diversity of the tubulin code, is gradually being unraveled. However, variation in the length and spatial organization of tubulin poly-modifications leads to an enormous combinatorial PTM space, which is difficult to study experimentally. Hence, the impact of the combinatorial tubulin PTM space on the biophysical properties of tubulin tails and their interactions with other proteins remains elusive. Here, we combine all-atom and coarse-grained molecular dynamics simulations to elucidate the biophysical implications of the large combinatorial tubulin PTM space in the context of an MT lattice. We find that tail-body interactions are more dominant in the tubulin dimer than in an MT lattice, and are more significant for the tails of alpha compared with beta tubulin. In addition, polyglutamylation, but not polyglycylation, expands the dimensions of the tubulin tails. Polyglutamylation also leads to a decrease in the diffusion rate of MT-associated protein EB1 on MTs, while polyglycylation often increases diffusion rate. These observations are generally not sensitive to the organization of the polymodifications. The effect of PTMs on MT charge density and tail dynamics are also discussed. Overall, this study presents a molecular quantification of the biophysical properties of tubulin tails and their polymodifications, and provides predictions on the functional importance of tubulin PTMs.",
+  "abstract_zh": "微管（MTs）作为真核细胞骨架的重要组成部分，是由聚合的微管蛋白二聚体构成的晶格结构，对多种细胞过程至关重要。微管蛋白的遗传和化学多样性及其无序尾部产生了“微管蛋白密码”。微管蛋白翻译后修饰（PTMs）有助于微管蛋白密码的化学多样性，其功能作用正逐渐被揭示。然而，微管蛋白多聚修饰的长度和空间组织变化导致了巨大的组合性PTM空间，这在实验上难以研究。因此，组合性微管蛋白PTM空间对微管蛋白尾部生物物理性质及其与其他蛋白质相互作用的影响仍不明确。在此，我们结合全原子和粗粒化分子动力学模拟，阐明在微管晶格背景下大型组合性微管蛋白PTM空间的生物物理意义。我们发现，尾部-主体相互作用在微管蛋白二聚体中比在微管晶格中更为主导，并且对α-微管蛋白尾部的影响比β-微管蛋白更为显著。此外，多聚谷氨酰化（而非多聚甘氨酰化）扩展了微管蛋白尾部的尺寸。多聚谷氨酰化还导致微管相关蛋白EB1在微管上的扩散速率降低，而多聚甘氨酰化通常增加扩散速率。这些观察结果通常对多聚修饰的组织不敏感。PTMs对微管电荷密度和尾部动力学的影响也进行了讨论。总体而言，本研究对微管蛋白尾部及其多聚修饰的生物物理性质进行了分子层面的量化，并提供了关于微管蛋白PTMs功能重要性的预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33865866/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33865866/",
+  "paper_page_path": "papers/pubmed/33865866/index.html"
+}

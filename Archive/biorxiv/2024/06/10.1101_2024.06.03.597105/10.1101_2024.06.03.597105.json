@@ -1,0 +1,189 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.03.597105",
+  "title": "Protein Design with StructureGPT: a Deep Learning Model for Protein Structure-to-Sequence Translation",
+  "doi": "10.1101/2024.06.03.597105",
+  "abstract": "Motivation: Protein design, crucial for understanding and engineering protein functionalities, has traditionally been challenged by the reverse translation of complex protein tertiary structures into sequences. Existing computational tools have focused predominantly on sequence-to-structure predictions, with less attention given to structure-to-sequence processes. Our research introduces StructureGPT, a novel deep learning model that employs advanced natural language processing techniques to translate complex protein tertiary structures into their corresponding amino acid sequences. This model addresses critical gaps in protein engineering, particularly improving solubility and stability, which are essential for pharmaceutical development and industrial applications. Results: StructureGPT demonstrates the capability to autoregressively generate amino acid sequences from detailed structural inputs, enhancing the design of proteins with specific functionalities. By leveraging the linguistic parallels between protein structures and human language, our model not only predicts sequences with high accuracy but also suggests modifications that could lead to improved protein properties. The application of StructureGPT in multiple protein design tasks showcases its utility in various biomedical and biotechnological contexts. Availability: The source code for StructureGPT is freely available at https://github.com/StructureGPT DOI: 10.5281/zenodo.11065607",
+  "authors": [
+    "Nicanor Zalba",
+    "Pablo Ursua-Medrano",
+    "Humberto Bustince"
+  ],
+  "published_date": "2024-06-07",
+  "updated_date": "2024-06-07T05:45:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.03.597105",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.03.597105.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T21:32:10Z",
+        "timestamp": 1768512730564,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            7
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Motivation: Protein design, crucial for understanding and engineering protein functionalities, has traditionally been challenged by the reverse translation of complex protein tertiary structures into sequences. Existing computational tools have focused predominantly on sequence-to-structure predictions, with less attention given to structure-to-sequence processes. Our research introduces StructureGPT, a novel deep learning model that employs advanced natural language processing techniques to translate complex protein tertiary structures into their corresponding amino acid sequences. This model addresses critical gaps in protein engineering, particularly improving solubility and stability, which are essential for pharmaceutical development and industrial applications. Results: StructureGPT demonstrates the capability to autoregressively generate amino acid sequences from detailed structural inputs, enhancing the design of proteins with specific functionalities. By leveraging the linguistic parallels between protein structures and human language, our model not only predicts sequences with high accuracy but also suggests modifications that could lead to improved protein properties. The application of StructureGPT in multiple protein design tasks showcases its utility in various biomedical and biotechnological contexts. Availability: The source code for StructureGPT is freely available at https://github.com/StructureGPT DOI: 10.5281/zenodo.11065607</jats:p>",
+      "DOI": "10.1101/2024.06.03.597105",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            7
+          ]
+        ],
+        "date-time": "2024-06-07T05:45:12Z",
+        "timestamp": 1717739112000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Protein Design with StructureGPT: a Deep Learning Model for Protein Structure-to-Sequence Translation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1846-3284",
+          "authenticated-orcid": false,
+          "suffix": "Sr.",
+          "given": "Nicanor",
+          "family": "Zalba",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6607-3486",
+          "authenticated-orcid": false,
+          "suffix": "Sr.",
+          "given": "Pablo",
+          "family": "Ursua-Medrano",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1279-6195",
+          "authenticated-orcid": false,
+          "suffix": "Sr.",
+          "given": "Humberto",
+          "family": "Bustince",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.06.03.597105",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:31:36Z",
+        "timestamp": 1768458696000
+      },
+      "score": 61.10907,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.06.03.597105"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            7
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.1101/2024.06.03.597105",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

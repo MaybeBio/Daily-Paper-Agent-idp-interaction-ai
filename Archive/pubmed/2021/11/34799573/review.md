@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary information description.
+- **Assessment boundary** Scientific validity, methodological soundness, statistical rigor, and alignment of claims with provided evidence. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors propose a differential binding score (DIBS) to identify ligand binding sites in intrinsically disordered proteins (IDPs) by comparing ensemble docking results between IDP conformations and random coil conformations. The method is applied to the binding of epigallocatechin gallate (EGCG) to the N-terminal domain of p53 (p53-NTD), and the results are compared with experimental NMR chemical shift perturbation data from the literature.
+- **Visible evidence base** Main text figures (Figures 1, 2, 3), equations (Eq. 1 and Eq. 2), methods description, and references to supplementary figures (Fig. S1, S2). Experimental NMR data are cited from a prior publication (Zhao and Blayney et al., reference 12).
+- **Missing materials affecting confidence** Supplementary figures (S1, S2) are referenced but not provided in the submitted material. The full docking output tables, raw statistical analysis results, and the exact parameters for the linear model are not included. The experimental chemical shift perturbation data are only described qualitatively, not shown in full.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to a challenging problem in IDP drug discovery. The idea of using a differential score between IDP and random coil ensembles as a control is novel and potentially useful. However, the evidence provided is insufficient to fully establish the validity and generalizability of the method. Key methodological details are missing, the statistical analysis is underdescribed, and the comparison with experimental data is qualitative rather than quantitative. The computational cost and practical utility are discussed but not benchmarked. The manuscript would benefit from clearer presentation of the method, more rigorous statistical validation, and a more direct quantitative comparison with experimental data.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, particularly those focused on intrinsically disordered proteins as therapeutic targets. The method could also interest biophysicists studying protein-ligand interactions in conformational ensembles, and computational chemists developing docking and scoring approaches. The potential application to IDP-based drug discovery makes it relevant to a broad audience in structural biology and medicinal chemistry.
+- **Major strengths** 1. The conceptual framing of a differential score between IDP and random coil ensembles is a thoughtful and potentially powerful idea. 2. The use of repeated sampling and statistical testing is a step toward rigor in ensemble docking. 3. The application to a biologically relevant system (p53-NTD with EGCG) and comparison with experimental data grounds the method in a real problem. 4. The discussion of limitations and computational cost is honest and balanced.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors claim that the differential binding score identifies residues of significant preferential binding between IDP and random coil ensembles, with statistical significance defined by p-value < 0.05 and fold change > 2.
+  - **Evidence pointer** Figure 3, Methods section "Statistical analysis"
+  - **Concern** The statistical analysis is underdescribed. The authors state that a linear model was employed, but do not specify the model structure, the response variable, the fixed and random effects, or how the p-values were computed. With only three independent runs per ensemble, the statistical power is extremely limited, and the use of a linear model without further detail is not reproducible. The volcano plot in Figure 3 shows p-values and fold changes, but the exact test used to generate these values is not clear.
+  - **Why it matters** The core claim of the paper is that DIBS identifies statistically significant differential binding sites. Without a clear and reproducible statistical framework, this claim cannot be evaluated. The small number of replicates (three) raises concerns about the reliability of the p-values and the robustness of the conclusions.
+  - **Resolution test** Provide a complete description of the statistical model, including the equation, the distributional assumptions, the method for multiple testing correction (if any), and the exact computation of p-values. Ideally, include a supplementary table with the full results for all residues, and consider a permutation-based or bootstrapped approach to validate the p-values given the small number of replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors claim that the DIBS approach "closely reproduce[s] the experimental data" from NMR chemical shift perturbation studies.
+  - **Evidence pointer** Figure 2, Results section "The differential binding scores (DIBS) defined between IDP vs. random coil ensembles"
+  - **Concern** The comparison with experimental data is qualitative. The authors state that "the binding score of many of the amino acid residues match with the experimental data" and list specific residues, but no quantitative correlation or statistical measure of agreement is provided. The experimental data are not shown in full, and the criteria for "match" are not defined. The authors also acknowledge that a residue-by-residue comparison is incomplete due to missing assignments, which further weakens the claim of close agreement.
+  - **Why it matters** The claim of agreement with experimental data is a key validation of the method. Without a quantitative comparison, the reader cannot assess how well the method performs. The partial nature of the experimental data makes this even more critical.
+  - **Resolution test** Provide a quantitative comparison, such as a correlation coefficient between the predicted DIBS values and the experimental chemical shift perturbations for residues with available data. Define the criteria for a "match" a priori. If a full comparison is not possible, state this limitation explicitly and temper the claim accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and parameter sensitivity
+  - **Claim pointer** The method relies on ensemble docking of 1000 conformations, with 100 randomly sampled for each of three replicate runs, and 24 docking trials per conformation.
+  - **Evidence pointer** Methods section "Docking protocol"
+  - **Concern** The choice of parameters (number of conformations, number of replicates, number of docking trials) appears arbitrary, and no sensitivity analysis is provided. The authors do not demonstrate that the results are stable with respect to these choices. The docking protocol is described as using Autodock VINA with default parameters, but the scoring function and the treatment of ligand flexibility are not discussed.
+  - **Why it matters** The reliability of the DIBS depends on the adequacy of the sampling and the docking protocol. Without a sensitivity analysis, it is unclear whether the results are robust or an artifact of the specific parameter choices.
+  - **Resolution test** Perform a sensitivity analysis varying the number of conformations, replicates, and docking trials, and show that the identified significant residues are stable. Discuss the choice of docking parameters and justify them with reference to the literature or preliminary tests.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors suggest that DIBS "could serve as a screening tool to identify potential ligands that bind to IDPs."
+  - **Evidence pointer** Discussion section
+  - **Concern** The method is demonstrated on a single protein-ligand pair (p53-NTD with EGCG). No evidence is provided that the approach generalizes to other IDPs or other ligands. The choice of EGCG as a test case is not justified, and the authors do not discuss how the method would perform on a larger set of ligands or on IDPs with different sequence properties.
+  - **Why it matters** The claim of utility as a screening tool implies broad applicability. A single case study is insufficient to support this claim.
+  - **Resolution test** Apply the method to at least one additional IDP-ligand system with experimental data, or provide a clear discussion of the expected scope and limitations of the approach. If additional validation is not feasible, temper the claim to reflect the preliminary nature of the results.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1 caption and text
+  - **Issue** The intensity plots in Figure 1 are described as showing binding energy per residue per docking run, but the color scale and the interpretation of the plots are not explained in the caption. The reader cannot easily discern how the binding score is derived from these plots.
+  - **Required correction** Add a clear description of the color scale, the axes, and how the binding score is computed from the intensity plots. Consider adding a schematic or flowchart of the overall DIBS workflow.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Equation 1
+  - **Evidence pointer** Methods section "Docking protocol"
+  - **Issue** The term "probability score" is used for PSk, but the equation includes a sum over docking runs weighted by the dissociation constant. This is not a probability in the usual sense, and the name may be misleading.
+  - **Required correction** Rename the score to something more descriptive, such as "weighted binding frequency" or "binding propensity score," and clarify the interpretation in the text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** MD simulation parameters
+  - **Evidence pointer** Methods section "Generation of the ensemble of IDP conformations"
+  - **Issue** The MD simulation is described as using the OPLS-AA 2005 force field and TIP4PD water, but the total simulation time, the number of atoms, the equilibration protocol, and the criteria for convergence are not stated. The choice of the TIP4PD water model is justified, but the simulation setup is incomplete.
+  - **Required correction** Provide the full simulation details, including the system size, the equilibration and production run lengths, the temperature and pressure coupling parameters, and the criteria used to assess convergence.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Supplementary figures
+  - **Evidence pointer** Results section, Supplementary Information
+  - **Issue** The supplementary figures (Fig. S1, S2) are referenced but not provided in the submitted material. The reader cannot verify the characterization of the ensembles or the comparison with experimental chemical shift data.
+  - **Required correction** Ensure that the supplementary figures are included in the submission and are clearly referenced in the text. If the figures are essential to the claims, consider moving key panels into the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor), R1-M2 (quantitative validation), R1-M3 (parameter sensitivity). These are the primary technical issues that prevent the current evidence from fully supporting the claims.
+
+## Risk / unsupported claims
+- The claim that DIBS "closely reproduce[s] the experimental data" is not quantitatively supported; the comparison is qualitative and incomplete.
+- The claim that DIBS "could serve as a screening tool" is not supported by evidence of generalizability beyond a single case.
+- The statistical significance of the identified residues is not reliably established due to the underdescribed linear model and the small number of replicates.
+- The choice of the random coil ensemble as a control is reasonable, but the authors do not demonstrate that the random coil ensemble is an appropriate null model for the specific IDP under study.
+- The statement that "the IDP ensemble better discriminated along with the first component" (PCA analysis) is presented without statistical testing or clear interpretation of its relevance to the DIBS method.

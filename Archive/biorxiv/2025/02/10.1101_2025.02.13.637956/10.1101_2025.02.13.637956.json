@@ -1,0 +1,196 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.02.13.637956",
+  "title": "Morpheus: A fragment-based algorithm to predict metamorphic behaviour in proteins across proteomes",
+  "doi": "10.1101/2025.02.13.637956",
+  "abstract": "Functionally important “fold-switching” proteins, which do not obey the classical folding dogma, are now thought to be widespread. Algorithms that can accurately annotate fold-switching proteins from sequence information can help uncover the true extent of the “metamorphome”. Here, we present Morpheus, a fragment-based classification approach, that works by analysing the diversity of structures within a query protein sequence. Morpheus exhaustively curates and uses fragment structural data from the protein data bank as well as the AlphaFold Protein Structure Database. We employed our algorithm on 57 different proteomes consisting of a total of 601,218 proteins and identified about 10% of these proteins with the ability to fold switch. Additionally, we provide a web server for Morpheus to test for metamorphic propensities for user-defined sequences ( http://mbu.iisc.ac.in/∼anand/morpheus ). Besides screening for metamorphic behaviour in proteomes, our work will be useful in de novo design and engineering of such proteins through further experimentation.",
+  "authors": [
+    "Subramanian V",
+    "Appadurai R",
+    "Venkatesh H",
+    "Sekhar A",
+    "Srivastava A"
+  ],
+  "published_date": "2025-02-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.02.13.637956",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.02.13.637956.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR979133",
+    "raw_record": {
+      "id": "PPR979133",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR979133"
+        ]
+      },
+      "doi": "10.1101/2025.02.13.637956",
+      "title": "Morpheus: A fragment-based algorithm to predict metamorphic behaviour in proteins across proteomes",
+      "authorString": "Subramanian V, Appadurai R, Venkatesh H, Sekhar A, Srivastava A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Subramanian V",
+            "lastName": "Subramanian",
+            "firstName": "Vijay",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Appadurai R",
+            "lastName": "Appadurai",
+            "firstName": "Rajeswari",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                },
+                {
+                  "affiliation": "Molecular Biophysics Unit, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Venkatesh H",
+            "lastName": "Venkatesh",
+            "firstName": "Harikrishnan",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", EGL Business Park , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sekhar A",
+            "lastName": "Sekhar",
+            "firstName": "Ashok",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biophysics Unit, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Srivastava A",
+            "lastName": "Srivastava",
+            "firstName": "Anand",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2757-1511"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biophysics Unit, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2757-1511"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Functionally important “fold-switching” proteins, which do not obey the classical folding dogma, are now thought to be widespread. Algorithms that can accurately annotate fold-switching proteins from sequence information can help uncover the true extent of the “metamorphome”. Here, we present Morpheus, a fragment-based classification approach, that works by analysing the diversity of structures within a query protein sequence. Morpheus exhaustively curates and uses fragment structural data from the protein data bank as well as the AlphaFold Protein Structure Database. We employed our algorithm on 57 different proteomes consisting of a total of 601,218 proteins and identified about 10% of these proteins with the ability to fold switch. Additionally, we provide a web server for Morpheus to test for metamorphic propensities for user-defined sequences (  http://mbu.iisc.ac.in/∼anand/morpheus ). Besides screening for metamorphic behaviour in proteomes, our work will be useful in de novo design and engineering of such proteins through further experimentation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.02.13.637956"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR979133"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR979133&type=FILE&fileName=EMS203415-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS203415",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-02-18",
+      "firstPublicationDate": "2025-02-17",
+      "firstIndexDate": "2025-02-18",
+      "fullTextReceivedDate": "2025-02-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

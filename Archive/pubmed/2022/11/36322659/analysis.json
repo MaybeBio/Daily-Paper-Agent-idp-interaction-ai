@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36322659",
+  "title": "Kinetic frustration by limited bond availability controls the LAT protein condensation phase transition on membranes.",
+  "authors": "Sun, Simou; GrandPre, Trevor; Limmer, David T; Groves, Jay T",
+  "journal": "Science advances",
+  "published_date": "2022-11-03",
+  "window": {
+    "start": "2022-10-31",
+    "end": "2022-11-06"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合粗粒化模拟与动力学测量，揭示膜上无序蛋白LAT通过有限多价键可用性导致的动力学受阻相分离机制，直接聚焦IDP介导的PPI网络与凝聚体形成机制建模。",
+  "abstract": "LAT is a membrane-linked scaffold protein that undergoes a phase transition to form a two-dimensional protein condensate on the membrane during T cell activation. Governed by tyrosine phosphorylation, LAT recruits various proteins that ultimately enable condensation through a percolation network of discrete and selective protein-protein interactions. Here, we describe detailed kinetic measurements of the phase transition, along with coarse-grained model simulations, that reveal that LAT condensation is kinetically frustrated by the availability of bonds to form the network. Unlike typical miscibility transitions in which compact domains may coexist at equilibrium, the LAT condensates are dynamically arrested in extended states, kinetically trapped out of equilibrium. Modeling identifies the structural basis for this kinetic arrest as the formation of spindle arrangements, favored by limited multivalent binding interactions along the flexible, intrinsically disordered LAT protein. These results reveal how local factors controlling the kinetics of LAT condensation enable formation of different, stable condensates, which may ultimately coexist within the cell.",
+  "abstract_zh": "LAT是一种膜连接支架蛋白，在T细胞激活过程中经历相变，在膜上形成二维蛋白质凝聚体。受酪氨酸磷酸化调控，LAT招募多种蛋白质，最终通过离散且选择性的蛋白质-蛋白质相互作用渗透网络实现凝聚。在此，我们描述了相变的详细动力学测量，并结合粗粒化模型模拟，揭示LAT凝聚在动力学上受限于形成网络所需键的可用性。与典型的混溶转变（其中紧凑域可能在平衡态共存）不同，LAT凝聚体在扩展状态下被动态阻滞，动力学上被困于非平衡态。建模确定了这种动力学阻滞的结构基础为纺锤体排列的形成，这由沿柔性、本质无序的LAT蛋白上有限的多价结合相互作用所促进。这些结果揭示了控制LAT凝聚动力学的局部因素如何促成不同、稳定凝聚体的形成，这些凝聚体最终可能在细胞内共存。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36322659/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36322659/",
+  "paper_page_path": "papers/pubmed/36322659/index.html"
+}

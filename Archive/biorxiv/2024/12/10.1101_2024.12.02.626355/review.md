@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors report that six structurally defined α-synuclein fibril polymorphs differ in their susceptibility to disaggregation by the human Hsc70 chaperone machinery, that fibril conformation influences the dominant disaggregation pathway (depolymerization versus fragmentation), and that disaggregation produces seeding-competent species that can promote further aggregation in vitro and in cells.
+- **Visible evidence base** Results sections describing sedimentation assays, ThT-based disaggregation kinetics, sucrose density gradient analysis, in vitro seeding assays, and cell-based seeding assays. Methods sections for protein purification, fibril preparation, labelling, and assays. Figure legends referenced as Fig. 1-5 and Extended Data Figs. 1-6.
+- **Missing materials affecting confidence** Actual figures and raw data are not provided. Statistical details for several comparisons are incomplete. The manuscript is a preprint and has not undergone peer review. Some methodological details (e.g., exact buffer compositions for certain polymorphs, labelling efficiency calculations) are only partially described.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question: whether α-synuclein fibril polymorphism modulates the activity of the Hsc70 disaggregase system. The authors use a well-characterized panel of six fibril polymorphs and combine biochemical disaggregation assays with product characterization to show that fibril conformation affects both the efficiency and the pathway of disaggregation. The finding that fragmentation-prone polymorphs generate seeding-competent species is novel and has implications for understanding disease propagation. However, several technical concerns, particularly regarding the quantification of disaggregation products, the interpretation of seeding assays, and the limited mechanistic depth, currently prevent full support of the conclusions as stated.
+- **Who would be interested in the results, and why** Researchers studying molecular chaperones and protein disaggregation, particularly those focused on Hsp70 systems and their co-chaperones. Also of interest to the α-synuclein and synucleinopathy community, including those investigating prion-like propagation and strain-specific pathology. The work may also appeal to structural biologists studying amyloid polymorphism and its functional consequences.
+- **Major strengths** The use of multiple well-defined fibril polymorphs is a clear strength, allowing systematic comparison. The combination of bulk assays (sedimentation, ThT) with product analysis (sucrose gradients) provides complementary views of the disaggregation process. The inclusion of cell-based seeding assays extends the relevance beyond purely biochemical observations. The identification of pathway differences (depolymerization versus fragmentation) as a function of polymorph structure is conceptually interesting and potentially important.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and claim support
+  - **Claim pointer** The authors claim that "amyloid conformation influences not only how efficiently fibrils are cleared by the Hsc70 machinery but also the preferred pathway of disaggregation."
+  - **Evidence pointer** Fig. 3A, 3B, Extended Data Fig. 3H
+  - **Concern** The sucrose density gradient data are used to infer pathway differences, but the interpretation relies heavily on the assignment of fractions 3-10 to "shortened fibrils, smaller fibril fragments or oligomers." The authors do not provide direct evidence (e.g., electron microscopy of individual fractions, size exclusion chromatography, or native gel analysis) to confirm the nature of species in these fractions. The distinction between "fragmentation" and "depolymerization" is inferred from the time-dependent distribution of fluorescence, but alternative explanations, such as differential release of labelled versus unlabelled monomers or differential sedimentation properties of polymorphs, are not fully excluded.
+  - **Why it matters** The central claim of the paper is that polymorphs differ in their disaggregation pathway. If the fraction assignments are incorrect or if the observed differences reflect artefacts of labelling or sedimentation, the conclusion would be substantially weakened.
+  - **Resolution test** Provide direct characterization of the species in fractions 3-10 for at least two polymorphs (e.g., F65 and FM) using electron microscopy or size-based separation. Show that the fluorescence distribution reflects protein mass and not differential quenching or labelling artefacts. Quantify the size distribution of fragments and demonstrate that fragmentation is indeed the dominant process for FM and F91.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental design and controls
+  - **Claim pointer** The authors state that "the active processing of fibrils by the Hsc70 machinery inadvertently produces seeding competent species that further promote protein aggregation."
+  - **Evidence pointer** Fig. 4A-H, Extended Data Fig. 4A-C
+  - **Concern** The seeding assays compare disaggregation products to untreated fibrils and "no disaggregation" controls. However, the "no disaggregation" control involves incubation with chaperones in the absence of ATP, which may not fully control for the effects of chaperone binding on seeding. Additionally, the fractionation procedure (low-speed then high-speed centrifugation) may not completely separate monomers from small oligomers or fragments, and the authors do not demonstrate that the high-speed supernatant is truly monomeric. The claim that disaggregation produces "novel seeding competent species" requires demonstrating that these species are distinct from the starting fibrils and are generated specifically by the disaggregation process.
+  - **Why it matters** The potential production of seeding-competent species during disaggregation is a key finding with implications for understanding whether chaperone activity is beneficial or harmful. If the observed seeding is due to residual fibrils or to artefacts of the assay, the conclusion would be undermined.
+  - **Resolution test** Characterize the high-speed supernatant by size exclusion chromatography or dynamic light scattering to confirm the absence of fibrillar material. Include a control where fibrils are incubated with chaperones in the absence of ATP and then subjected to the same fractionation, to show that the seeding-competent species are specifically produced by active disaggregation. Quantify the seeding activity per unit protein mass to compare the potency of disaggregation products versus untreated fibrils.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic insight
+  - **Claim pointer** The authors propose that "differences in chaperone affinity likely reflect the accessibility and geometry of important chaperone binding sites in the N- and C-terminus of α-syn."
+  - **Evidence pointer** Fig. 2A-D, Extended Data Fig. 2A-D
+  - **Concern** The correlation between DnaJB1 affinity and disaggregation efficiency is presented, but the mechanistic link is not directly tested. The authors do not provide structural or mutational data to support the claim that specific binding site accessibility differs between polymorphs. The discussion of N- versus C-terminal contributions is speculative and not experimentally addressed.
+  - **Why it matters** Understanding the molecular basis for polymorph-specific differences would strengthen the paper and provide a more general framework for predicting chaperone susceptibility. Without direct evidence, the mechanistic model remains speculative.
+  - **Resolution test** Perform binding studies with truncated or mutated α-syn constructs to map the relevant binding sites. Alternatively, use crosslinking or hydrogen-deuterium exchange to compare chaperone engagement on different polymorphs. If such experiments are not feasible, temper the mechanistic claims in the discussion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Fig. 1D, E
+  - **Evidence pointer** Fig. 1D, E
+  - **Issue** The ThT disaggregation kinetics are presented as normalized fluorescence ratios, but the authors do not state whether the initial fluorescence intensity differs between polymorphs. If the polymorphs have different intrinsic ThT binding properties, normalization to t=0 may not allow direct comparison of disaggregation rates.
+  - **Required correction** Report the absolute ThT fluorescence values at t=0 for each polymorph and discuss whether differences in ThT binding affinity could affect the interpretation of the kinetics.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Fig. 5C, Extended Data Fig. 5A, B
+  - **Evidence pointer** Fig. 5C, Extended Data Fig. 5A, B
+  - **Issue** The cell-based seeding data are described as significant with nonparametric two-way ANOVA, but the number of independent experiments and the exact p-values are not reported in the text.
+  - **Required correction** Provide the number of biological replicates, the p-values for all pairwise comparisons, and state whether the data in Fig. 5C are from a single representative experiment or pooled from multiple experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Fibril preparation
+  - **Evidence pointer** Methods, "Fibril preparation"
+  - **Issue** The buffer compositions for the different polymorphs are listed, but the exact conditions for the F110 polymorph (C-terminal truncation) are not fully described. It is unclear whether the truncation affects fibril formation kinetics or morphology.
+  - **Required correction** Clarify the aggregation conditions for F110 and state whether the truncation was verified by mass spectrometry or other means.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability section
+  - **Issue** The data availability statement indicates no external deposition, which is acceptable for a preprint, but the authors should consider depositing raw data (e.g., ThT traces, sedimentation blots) in a repository to facilitate reproducibility.
+  - **Required correction** Consider depositing raw data in a public repository or providing them as supplementary files.
+
+## Risk / unsupported claims
+- The claim that "amyloid conformation thus is an important feature that can tilt the balance between beneficial or detrimental protein quality control activities" is a broad extrapolation from in vitro and cell-based data and is not directly supported by in vivo evidence.
+- The statement that "the Hsc70 chaperone is remarkable in its ability to disassemble pre-existing amyloid fibrils of different proteins" is presented as established fact but is not referenced in the provided text.
+- The assertion that "fibril polymorphism directly affects interactions with the proteostasis network" is supported by the data, but the term "directly" implies a causal relationship that is not fully established given the correlative nature of the binding and activity measurements.
+- The discussion of "thermodynamic limit to the ability of the chaperone machinery to disaggregate amyloid fibrils" is speculative and not directly tested by the experiments presented.

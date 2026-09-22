@@ -1,0 +1,516 @@
+{
+  "identity": {
+    "pmid": "41337585",
+    "doi": "10.1126/sciadv.ady1420",
+    "title": "Proteome-wide computational analyses reveal links between protein condensate formation and RNA biology."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates mediate dynamic compartmentalization of cellular processes. The multivalent interactions that underlie biomolecular condensation are often promoted by intrinsically disordered regions (IDRs) within proteins. Although the role of IDRs in biomolecular condensates is well appreciated, predicting whether an IDR forms condensates in cells remains challenging. Here, we developed a machine learning model to accurately predict the condensation behavior of IDRs, analyzing 215 IDRs from fusion oncoproteins in human embryonic kidney (HEK) 293T cells. We identified distinct sequence-derived physicochemical features associated with condensation. Leveraging these data, our model predicts that ~12% of the ~13,000 IDRs in the human proteome are likely to form cellular condensates, establishing a robust framework for proteome-wide analysis of IDR-mediated biomolecular condensation. Notably, proteins with condensate-forming IDRs are significantly enriched in RNA processing and splicing functions and are predominantly localized to membraneless organelles, highlighting a central role of IDR-mediated biomolecular condensation in cellular organization and RNA biology.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Proteome/metabolism",
+      "HEK293 Cells",
+      "*Computational Biology/methods",
+      "*RNA/metabolism/genetics",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "*Biomolecular Condensates/metabolism/chemistry",
+      "Machine Learning"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maiti, Snigdha",
+        "Tripathi, Swarnendu",
+        "Baggett, David W",
+        "Phillips, Aaron H",
+        "Park, Cheon-Gil",
+        "Wang, Jina",
+        "Wahiduzzaman",
+        "Freyaldenhoven, William T",
+        "Kinger, Swati",
+        "Pioso, Brittany J",
+        "Bollinger, John C",
+        "Somjee, Ramiz",
+        "Lang, Benjamin",
+        "Babu, M Madan",
+        "Kriwacki, Richard W"
+      ],
+      "short_names": [
+        "Maiti S",
+        "Tripathi S",
+        "Baggett DW",
+        "Phillips AH",
+        "Park CG",
+        "Wang J",
+        "Wahiduzzaman",
+        "Freyaldenhoven WT",
+        "Kinger S",
+        "Pioso BJ",
+        "Bollinger JC",
+        "Somjee R",
+        "Lang B",
+        "Babu MM",
+        "Kriwacki RW"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4864-2101",
+        "ORCID: 0000-0002-7694-0301",
+        "ORCID: 0000-0001-7437-1603",
+        "ORCID: 0000-0002-2053-0944",
+        "ORCID: 0000-0002-0123-8905",
+        "ORCID: 0000-0002-5213-4719",
+        "ORCID: 0000-0003-1721-1616",
+        "ORCID: 0000-0001-6358-8380",
+        "ORCID: 0000-0003-0556-6196",
+        "ORCID: 0000-0002-9798-6018"
+      ],
+      "affiliations": [
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Rhodes College, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Rhodes College, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Center of Excellence for Data-Driven Discovery, Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Center of Excellence for Data-Driven Discovery, Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Microbiology, Immunology and Biochemistry, University of Tennessee Health Sciences Center, Memphis, TN, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maiti, Snigdha",
+        "short_name": "Maiti S",
+        "identifiers": [
+          "0000-0003-4864-2101"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Tripathi, Swarnendu",
+        "short_name": "Tripathi S",
+        "identifiers": [
+          "0000-0002-7694-0301"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Baggett, David W",
+        "short_name": "Baggett DW",
+        "identifiers": [
+          "0000-0001-7437-1603"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Phillips, Aaron H",
+        "short_name": "Phillips AH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Park, Cheon-Gil",
+        "short_name": "Park CG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Jina",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Wahiduzzaman",
+        "short_name": "Wahiduzzaman",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Freyaldenhoven, William T",
+        "short_name": "Freyaldenhoven WT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Kinger, Swati",
+        "short_name": "Kinger S",
+        "identifiers": [
+          "0000-0002-2053-0944"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+          "Rhodes College, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Pioso, Brittany J",
+        "short_name": "Pioso BJ",
+        "identifiers": [
+          "0000-0002-0123-8905"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Bollinger, John C",
+        "short_name": "Bollinger JC",
+        "identifiers": [
+          "0000-0002-5213-4719"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Somjee, Ramiz",
+        "short_name": "Somjee R",
+        "identifiers": [
+          "0000-0003-1721-1616"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+          "Rhodes College, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Lang, Benjamin",
+        "short_name": "Lang B",
+        "identifiers": [
+          "0000-0001-6358-8380"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+          "Center of Excellence for Data-Driven Discovery, Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Babu, M Madan",
+        "short_name": "Babu MM",
+        "identifiers": [
+          "0000-0003-0556-6196"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+          "Center of Excellence for Data-Driven Discovery, Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Kriwacki, Richard W",
+        "short_name": "Kriwacki RW",
+        "identifiers": [
+          "0000-0002-9798-6018"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+          "Department of Microbiology, Immunology and Biochemistry, University of Tennessee Health Sciences Center, Memphis, TN, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2025 Dec 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/03 19:14",
+    "fetched_at": "2026-09-17 22:37:00"
+  },
+  "links": {
+    "cites": [
+      "42306984",
+      "42265005",
+      "42184109"
+    ],
+    "refs": [
+      "40286793",
+      "40131954",
+      "39663388",
+      "39333476",
+      "38565952",
+      "38503281",
+      "38459036",
+      "37770423",
+      "37151216",
+      "37024650",
+      "36747054",
+      "36603581",
+      "36528065",
+      "36304323",
+      "36124686",
+      "36009025",
+      "35687670",
+      "35325185",
+      "35025997",
+      "34710373",
+      "34480923",
+      "33932623",
+      "33827920",
+      "33771451",
+      "33731873",
+      "33517364",
+      "33357399",
+      "33318659",
+      "33318217",
+      "33139563",
+      "33069007",
+      "32719551",
+      "32405004",
+      "31732717",
+      "31612960",
+      "31439799",
+      "31324804",
+      "31270472",
+      "30994888",
+      "30894536",
+      "30500535",
+      "30099026",
+      "29961577",
+      "29930091",
+      "29860432",
+      "29602697",
+      "29483575",
+      "29439243",
+      "29438978",
+      "29424691",
+      "28965817",
+      "28709000",
+      "28708999",
+      "28225081",
+      "27838525",
+      "27392146",
+      "27320918",
+      "27212236",
+      "26836305",
+      "26412307",
+      "26406374",
+      "26317470",
+      "26015579",
+      "25810428",
+      "25747659",
+      "25619996",
+      "25613900",
+      "24825614",
+      "23455423",
+      "22579281",
+      "22398450",
+      "17998252",
+      "17344234",
+      "10592235",
+      "10428969"
+    ],
+    "similar": [
+      "41337585",
+      "39232584",
+      "42150060",
+      "39663388",
+      "42230638",
+      "39537752",
+      "34090478",
+      "38316988",
+      "38987300",
+      "41232529",
+      "39826710",
+      "41480717",
+      "33248138",
+      "40943143",
+      "41325268",
+      "38588835",
+      "36945618",
+      "39510346",
+      "40588121",
+      "40521608",
+      "39933697",
+      "41378882",
+      "41571439",
+      "39947751",
+      "34390736",
+      "41524628",
+      "40028898",
+      "40804711",
+      "40325419",
+      "37986933",
+      "35094056",
+      "40530859",
+      "40848932",
+      "42306853",
+      "42420726",
+      "39271032",
+      "30926670",
+      "42266718",
+      "41933903",
+      "39383002",
+      "39390911",
+      "42244740",
+      "39929988",
+      "38705823",
+      "38297118",
+      "34905768",
+      "39093570",
+      "35481633",
+      "40828855",
+      "41265448",
+      "34871434",
+      "38824391",
+      "41053545",
+      "37328094",
+      "41481439",
+      "41526500",
+      "42425985",
+      "33650968",
+      "39316611",
+      "32456986",
+      "33866372",
+      "28924037",
+      "42260147",
+      "38252962",
+      "38773325",
+      "40009520",
+      "33548202",
+      "41659523",
+      "34291921",
+      "40034645",
+      "40131954",
+      "38831505",
+      "40287942",
+      "41500492",
+      "41667469",
+      "39042834",
+      "33076213",
+      "39592156",
+      "42450221",
+      "42143038",
+      "41824454",
+      "33357399",
+      "34552246",
+      "40069234",
+      "40913895",
+      "42259285",
+      "38832749",
+      "34716273",
+      "41667449",
+      "36657879",
+      "42336922",
+      "33616531",
+      "32048997",
+      "41276815",
+      "34772786",
+      "31207240",
+      "39947282",
+      "38383656",
+      "40221640",
+      "39138204"
+    ],
+    "review": [
+      "41337585",
+      "41480717",
+      "33248138",
+      "40943143",
+      "38588835",
+      "39947751",
+      "34390736",
+      "40804711",
+      "40325419",
+      "42306853",
+      "39271032",
+      "38705823",
+      "39093570",
+      "32456986",
+      "38773325",
+      "34291921",
+      "38831505",
+      "41500492",
+      "39592156",
+      "42450221",
+      "33357399",
+      "40913895"
+    ],
+    "pmc": [
+      "12674133"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/sciadv.ady1420?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/41337585.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41337585/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41337585",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1774",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "35051666",
+    "doi": "10.1016/j.bbapap.2022.140757",
+    "title": "Molecular simulations of proteins: From simplified physical interactions to complex biological phenomena."
+  },
+  "content": {
+    "abstract": "Molecular dynamics simulation is the most popular computational technique for investigating the structural and dynamical behaviour of proteins, in search of the molecular basis of their function. Far from being a completely settled field of research, simulations are still evolving to best capture the essential features of the atomic interactions that govern a protein's inner motions. Modern force fields are becoming increasingly accurate in providing a physical description adequate to this purpose, and allow us to model complex biological systems under fairly realistic conditions. Furthermore, the use of accelerated sampling techniques is improving our access to the observation of progressively larger molecular structures, longer time scales, and more hidden functional events. In this review, the basic principles of molecular dynamics simulations and a number of key applications in the area of protein science are summarized, and some of the most important results are discussed. Examples include the study of the structure, dynamics and binding properties of 'difficult' targets, such as intrinsically disordered proteins and membrane receptors, and the investigation of challenging phenomena like hydration-driven processes and protein aggregation. The findings described provide an overall picture of the current state of this research field, and indicate new perspectives on the road ahead to the upcoming future of molecular simulations.",
+    "keywords": [
+      "Computational methods",
+      "Enhanced sampling",
+      "Force fields",
+      "Molecular dynamics",
+      "Molecular modeling",
+      "Protein dynamics"
+    ],
+    "mesh_terms": [
+      "Biological Phenomena",
+      "Humans",
+      "Intrinsically Disordered Proteins/*chemistry/metabolism",
+      "Membrane Proteins/*chemistry/metabolism",
+      "Models, Molecular",
+      "*Molecular Dynamics Simulation",
+      "Molecular Structure",
+      "Protein Aggregates",
+      "Protein Binding",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rizzuti, Bruno"
+      ],
+      "short_names": [
+        "Rizzuti B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "CNR-NANOTEC, SS Rende (CS), Department of Physics, University of Calabria, 87036 Rende, Italy; Institute for Biocomputation and Physics of Complex Systems (BIFI), Joint Unit GBsC-CSIC-BIFI, University of Zaragoza, 50018 Zaragoza, Spain. Electronic address: bruno.rizzuti@cnr.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rizzuti, Bruno",
+        "short_name": "Rizzuti B",
+        "identifiers": [],
+        "affiliations": [
+          "CNR-NANOTEC, SS Rende (CS), Department of Physics, University of Calabria, 87036 Rende, Italy; Institute for Biocomputation and Physics of Complex Systems (BIFI), Joint Unit GBsC-CSIC-BIFI, University of Zaragoza, 50018 Zaragoza, Spain. Electronic address: bruno.rizzuti@cnr.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimica et biophysica acta. Proteins and proteomics"
+    ],
+    "journal_abbrev": [
+      "Biochim Biophys Acta Proteins Proteom"
+    ],
+    "pub_date": "2022 Mar 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/21 06:00",
+    "fetched_at": "2026-09-20 07:47:03"
+  },
+  "links": {
+    "cites": [
+      "42564957",
+      "42265227",
+      "42196256",
+      "42093264",
+      "41840037",
+      "41828700",
+      "41752194",
+      "41676917",
+      "41380116",
+      "41096841",
+      "40869137",
+      "40835742",
+      "40261977",
+      "39840810",
+      "39792834",
+      "39604425",
+      "39496651",
+      "39125791",
+      "38288816",
+      "38005300",
+      "37978934",
+      "37894901",
+      "37409874",
+      "36553788",
+      "35998323"
+    ],
+    "refs": [],
+    "similar": [
+      "35051666",
+      "23912807",
+      "33355572",
+      "25625937",
+      "25814479",
+      "31903719",
+      "30813315",
+      "32859072",
+      "25871264",
+      "28157327",
+      "30840442",
+      "29080468",
+      "34509724",
+      "28095698",
+      "28493424",
+      "33167839",
+      "31552948",
+      "31259246",
+      "33459730",
+      "29735687",
+      "25207671",
+      "29812937",
+      "24763499",
+      "24589355",
+      "28226222",
+      "30259679",
+      "28926706",
+      "32929427",
+      "28259050",
+      "34656328",
+      "26575776",
+      "33382616",
+      "29990433",
+      "29808548",
+      "31241933",
+      "28834051",
+      "28554553",
+      "30979035",
+      "33411518",
+      "30184304",
+      "25774711",
+      "30372613",
+      "27988422",
+      "29907037",
+      "19754142",
+      "26910732",
+      "30865820",
+      "25387963",
+      "32579908",
+      "30514082",
+      "25855872",
+      "33444020",
+      "34358545",
+      "25544254",
+      "35167070",
+      "31535860",
+      "36232586",
+      "27341016",
+      "27819658",
+      "32323533",
+      "25017730",
+      "26387099",
+      "29113819",
+      "37134270",
+      "32168597",
+      "34504002",
+      "30397651",
+      "29667836",
+      "33100165",
+      "33078950",
+      "31548393",
+      "27558720",
+      "28805390",
+      "30803034",
+      "34032235",
+      "25331250",
+      "32623047",
+      "31613621",
+      "24098099",
+      "31877033",
+      "22339051",
+      "32020911",
+      "27484738",
+      "30404229",
+      "32436706",
+      "28625737",
+      "26562397",
+      "30865832",
+      "23298176",
+      "32268219",
+      "38181399",
+      "35335203",
+      "38740001",
+      "37014931",
+      "22524225",
+      "35252885",
+      "18246106",
+      "33409541",
+      "20667175",
+      "37875115"
+    ],
+    "review": [
+      "35051666",
+      "33355572",
+      "25625937",
+      "25814479",
+      "30840442",
+      "29080468",
+      "33167839",
+      "28226222",
+      "28259050",
+      "28554553",
+      "30979035",
+      "27988422",
+      "34358545",
+      "25544254",
+      "27341016",
+      "26387099",
+      "29113819",
+      "33100165",
+      "32020911",
+      "30404229",
+      "28625737",
+      "23298176",
+      "32268219",
+      "35335203",
+      "38740001",
+      "37014931",
+      "22524225",
+      "18246106",
+      "33409541",
+      "20667175",
+      "37875115"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1570-9639(22)00004-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

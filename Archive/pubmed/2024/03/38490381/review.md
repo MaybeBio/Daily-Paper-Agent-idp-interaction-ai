@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that Getah virus capsid protein (CP) undergoes liquid-liquid phase separation (LLPS) with viral genomic RNA (gRNA), that specific gRNA regions and a lysine-rich Link region of CP modulate this process, and that enhanced LLPS correlates with increased gRNA binding, virion assembly efficiency, and infectivity in a recombinant virus mutant.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or methodological descriptions provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, virus titration data, imaging data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic study linking CP phase separation to alphavirus assembly. However, the evidence base is limited to a summary, and several key claims cannot be evaluated for rigor or reproducibility. The central hypothesis is plausible, but the current abstract does not provide sufficient detail to assess technical soundness or the strength of causal inferences.
+- **Who would be interested in the results, and why** Virologists studying alphavirus assembly and replication, researchers in the field of liquid-liquid phase separation in viral life cycles, and those interested in antiviral drug development targeting viral assembly mechanisms. The findings could also appeal to structural biologists and cell biologists studying RNA-protein condensates.
+- **Major strengths** The study addresses a timely and underexplored topic, namely the role of LLPS in alphavirus capsid assembly. The use of both in vitro and cell-based assays, along with recombinant virus mutants, suggests a multi-level approach. The identification of specific RNA regions and a protein domain involved in phase separation provides mechanistic depth.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that CP undergoes LLPS with GETV gRNA in vitro and forms cytoplasmic puncta in cells.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No experimental details are provided to support the LLPS claim, such as microscopy methods, droplet fusion or fission assays, fluorescence recovery after photobleaching (FRAP) data, or controls for non-specific aggregation. The distinction between LLPS and other forms of condensation is not established.  
+  - **Why it matters** LLPS is a specific biophysical phenomenon with defined criteria. Without rigorous evidence, the claim that CP undergoes true phase separation rather than simple aggregation or multimerization is unsupported. This is foundational to the entire study.  
+  - **Resolution test** Provide representative microscopy images, FRAP recovery curves, droplet fusion events, and control experiments showing reversibility and concentration dependence.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that CP(K/R) mutant exhibits improved LLPS versus wild type CP, and that this correlates with higher gRNA binding affinity, virion assembly efficiency, and infectivity.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The causal link between enhanced LLPS and improved viral fitness is asserted but not demonstrated. No quantitative data are shown for gRNA binding affinity, assembly efficiency, or infectivity. It is unclear whether the observed effects are due to LLPS per se or to other properties of the mutant CP, such as altered RNA binding or protein stability.  
+  - **Why it matters** The study's central conclusion depends on establishing that phase separation directly drives assembly and infectivity. Without controls or mechanistic dissection, alternative explanations remain plausible.  
+  - **Resolution test** Provide quantitative binding assays (e.g., electrophoretic mobility shift or surface plasmon resonance), assembly efficiency measurements (e.g., particle counts or density gradient analysis), and infectivity titers with statistical comparisons. Include a mutant that disrupts LLPS without affecting other CP functions to strengthen causality.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The abstract claims that two regions of GETV gRNA (nucleotides 1-4000 and 5000-8000) enhance CP droplet formation in vitro.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The specificity of these RNA regions is not established. It is unclear whether the effect is sequence-specific or due to general RNA properties such as length, secondary structure, or charge. No negative controls with unrelated RNAs are mentioned.  
+  - **Why it matters** Without demonstrating specificity, the claim that these regions are functionally relevant to viral assembly is weakened.  
+  - **Resolution test** Include control RNAs of similar length and structure, and test truncated or mutated versions of the identified regions to map minimal functional elements.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The term "Link region" is used without definition or context.  
+  - **Required correction** Define the Link region with amino acid coordinates or a brief description of its location within CP.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Experimental scope  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract mentions "cytoplasmic puncta in cells" but does not specify the cell type or whether these puncta co-localize with viral RNA or other assembly components.  
+  - **Required correction** Specify cell types and include co-localization data with gRNA or capsid markers.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Conclusion  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The final statement about "development of new antiviral drugs" is speculative and not directly supported by the data presented.  
+  - **Required correction** Soften the claim or provide a brief rationale linking the findings to potential drug targets.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of rigorous LLPS characterization and the absence of quantitative data linking phase separation to viral fitness prevent the core hypothesis from being validated.
+- **Assessment against Nature-style criteria**  
+  - Originality: The topic is timely and the application of LLPS to alphavirus assembly is relatively novel, though LLPS in viral systems is an emerging field.  
+  - Scientific importance: If fully validated, the findings could advance understanding of alphavirus assembly and offer new antiviral targets.  
+  - Interdisciplinary readership: The work bridges virology, biophysics, and cell biology, which could attract a broad audience.  
+  - Technical soundness: Currently not established from the abstract; key methods and controls are missing.  
+  - Readability for nonspecialists: The abstract is concise but uses specialized terms without sufficient context, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide enough detail to assess the validity of the central claims. A revised manuscript with full experimental data and rigorous controls would be needed to evaluate the case.
+
+## Risk / unsupported claims
+- The claim that CP undergoes LLPS is unsupported without detailed biophysical evidence.
+- The causal relationship between enhanced LLPS and increased viral fitness is not established.
+- The specificity of the identified gRNA regions is not demonstrated.
+- The relevance of the findings to antiviral drug development is speculative and not supported by the data.

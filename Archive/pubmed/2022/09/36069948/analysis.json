@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36069948",
+  "title": "The High Mutational Sensitivity of ccdA Antitoxin Is Linked to Codon Optimality.",
+  "authors": "Chandra, Soumyanetra; Gupta, Kritika; Khare, Shruti; Kohli, Pehu; Asok, Aparna; Mohan, Sonali Vishwa; Gowda, Harsha; Varadarajan, Raghavan",
+  "journal": "Molecular biology and evolution",
+  "published_date": "2022-09-08",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究ccdA抗毒素对突变的敏感性，涉及无序蛋白CcdA及其与CcdB的互作，但核心是密码子最优性对翻译效率的影响，而非互作机制建模，且无AI/物理模拟方法。",
+  "abstract": "Deep mutational scanning studies suggest that synonymous mutations are typically silent and that most exposed, nonactive-site residues are tolerant to mutations. Here, we show that the ccdA antitoxin component of the Escherichia coli ccdAB toxin-antitoxin system is unusually sensitive to mutations when studied in the operonic context. A large fraction ( approximately 80%) of single-codon mutations, including many synonymous mutations in the ccdA gene shows inactive phenotype, but they retain native-like binding affinity towards cognate toxin, CcdB. Therefore, the observed phenotypic effects are largely not due to alterations in protein structure/stability, consistent with a large region of CcdA being intrinsically disordered. E. coli codon preference and strength of ribosome-binding associated with translation of downstream ccdB gene are found to be major contributors of the observed ccdA mutant phenotypes. In select cases, proteomics studies reveal altered ratios of CcdA:CcdB protein levels in vivo, suggesting that the ccdA mutations likely alter relative translation efficiencies of the two genes in the operon. We extend these results by studying single-site synonymous mutations that lead to loss of function phenotypes in the relBE operon upon introduction of rarer codons. Thus, in their operonic context, genes are likely to be more sensitive to both synonymous and nonsynonymous point mutations than inferred previously.",
+  "abstract_zh": "深度突变扫描研究表明，同义突变通常是沉默的，且大多数暴露的、非活性位点残基对突变具有耐受性。在此，我们展示了在大肠杆菌ccdAB毒素-抗毒素系统的操纵子背景下，ccdA抗毒素组分对突变异常敏感。ccdA基因中大部分（约80%）的单密码子突变，包括许多同义突变，表现出无活性表型，但它们对同源毒素CcdB仍保留类似天然的结合亲和力。因此，观察到的表型效应在很大程度上并非由于蛋白质结构/稳定性的改变，这与CcdA的大区域本质上是无序的相一致。我们发现，大肠杆菌的密码子偏好及与下游ccdB基因翻译相关的核糖体结合强度，是观察到的ccdA突变体表型的主要贡献因素。在特定案例中，蛋白质组学研究揭示了体内CcdA:CcdB蛋白水平比率的改变，表明ccdA突变可能改变了操纵子中两个基因的相对翻译效率。我们通过研究在relBE操纵子中引入稀有密码子导致功能丧失表型的单位点同义突变，扩展了这些结果。因此，在操纵子背景下，基因对同义和非同义点突变的敏感性可能比先前推断的更高。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36069948/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36069948/",
+  "paper_page_path": "papers/pubmed/36069948/index.html"
+}

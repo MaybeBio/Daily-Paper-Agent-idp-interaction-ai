@@ -1,0 +1,373 @@
+{
+  "identity": {
+    "pmid": "39984300",
+    "doi": "10.1021/acs.jcim.4c01838",
+    "title": "Sampling Conformational Ensembles of Highly Dynamic Proteins via Generative Deep Learning."
+  },
+  "content": {
+    "abstract": "Proteins are inherently dynamic, and their conformational ensembles play a crucial role in biological function. Large-scale motions may govern the protein structure-function relationship, and numerous transient but stable conformations of intrinsically disordered proteins (IDPs) can play a crucial role in biological function. Investigating conformational ensembles to understand regulations and disease-related aggregations of IDPs is challenging, both experimentally and computationally. In this paper, we first introduce a deep learning-based model, termed Internal Coordinate Net (ICoN), which learns the physical principles of conformational changes from molecular dynamics simulation data. Second, we selected data points through interpolation in the learned latent space to rapidly identify novel synthetic conformations with sophisticated and large-scale side chains and backbone arrangements. Third, with the highly dynamic amyloid-beta(1-42) (Abeta42) monomer, our deep learning model provided a comprehensive sampling of Abeta42's conformational landscape. Analysis of these synthetic conformations revealed conformational clusters that could be used to rationalize experimental findings. Additionally, the method can identify novel conformations with important interactions in atomistic details that are not included in the training data. New synthetic conformations showed distinct side chain rearrangements that are probed by our electron paramagnetic resonance and amino acid substitution studies. This approach is highly transferable and can be used for any available data for training. The work also demonstrated the ability of deep learning to utilize natural atomistic motions in protein conformation sampling.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "*Amyloid beta-Peptides/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Peptide Fragments/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ruzmetov, Talant",
+        "Hung, Ta I",
+        "Jonnalagedda, Saisri Padmaja",
+        "Chen, Si-Han",
+        "Fasihianifard, Parisa",
+        "Guo, Zhefeng",
+        "Bhanu, Bir",
+        "Chang, Chia-En A"
+      ],
+      "short_names": [
+        "Ruzmetov T",
+        "Hung TI",
+        "Jonnalagedda SP",
+        "Chen SH",
+        "Fasihianifard P",
+        "Guo Z",
+        "Bhanu B",
+        "Chang CA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1992-7255",
+        "ORCID: 0000-0002-6504-8529"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of California, Riverside, California 92521, United States.",
+        "Department of Chemistry, University of California, Riverside, California 92521, United States.",
+        "Department of Bioengineering, University of California, Riverside, California 92521, United States.",
+        "Department of Electrical and Computer Engineering, University of California, Riverside, California 92521, United States.",
+        "Department of Chemistry, University of California, Riverside, California 92521, United States.",
+        "Department of Chemistry, University of California, Riverside, California 92521, United States.",
+        "Department of Neurology, Brain Research Institute, University of California, Los Angeles, California 90095, United States.",
+        "Department of Bioengineering, University of California, Riverside, California 92521, United States.",
+        "Department of Electrical and Computer Engineering, University of California, Riverside, California 92521, United States.",
+        "Department of Chemistry, University of California, Riverside, California 92521, United States.",
+        "Department of Bioengineering, University of California, Riverside, California 92521, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ruzmetov, Talant",
+        "short_name": "Ruzmetov T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, California 92521, United States."
+        ]
+      },
+      {
+        "full_name": "Hung, Ta I",
+        "short_name": "Hung TI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, California 92521, United States.",
+          "Department of Bioengineering, University of California, Riverside, California 92521, United States."
+        ]
+      },
+      {
+        "full_name": "Jonnalagedda, Saisri Padmaja",
+        "short_name": "Jonnalagedda SP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of California, Riverside, California 92521, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Si-Han",
+        "short_name": "Chen SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, California 92521, United States."
+        ]
+      },
+      {
+        "full_name": "Fasihianifard, Parisa",
+        "short_name": "Fasihianifard P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, California 92521, United States."
+        ]
+      },
+      {
+        "full_name": "Guo, Zhefeng",
+        "short_name": "Guo Z",
+        "identifiers": [
+          "0000-0003-1992-7255"
+        ],
+        "affiliations": [
+          "Department of Neurology, Brain Research Institute, University of California, Los Angeles, California 90095, United States."
+        ]
+      },
+      {
+        "full_name": "Bhanu, Bir",
+        "short_name": "Bhanu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of California, Riverside, California 92521, United States.",
+          "Department of Electrical and Computer Engineering, University of California, Riverside, California 92521, United States."
+        ]
+      },
+      {
+        "full_name": "Chang, Chia-En A",
+        "short_name": "Chang CA",
+        "identifiers": [
+          "0000-0002-6504-8529"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Riverside, California 92521, United States.",
+          "Department of Bioengineering, University of California, Riverside, California 92521, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Mar 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/22 00:21",
+    "fetched_at": "2026-09-21 15:50:43"
+  },
+  "links": {
+    "cites": [
+      "42440533",
+      "42261871",
+      "41959345",
+      "41647538",
+      "41278674",
+      "41065478",
+      "40727661",
+      "40264953"
+    ],
+    "refs": [
+      "41082321",
+      "38587006",
+      "38382572",
+      "38316764",
+      "38303931",
+      "38053335",
+      "38018910",
+      "37714883",
+      "37555670",
+      "37386015",
+      "37241789",
+      "37108059",
+      "37001856",
+      "36774359",
+      "36749957",
+      "36472885",
+      "36302506",
+      "36030416",
+      "35725761",
+      "35705565",
+      "35568532",
+      "35459300",
+      "35325529",
+      "35200019",
+      "35025654",
+      "34152264",
+      "34021153",
+      "33961840",
+      "33945269",
+      "33629765",
+      "33591749",
+      "33421906",
+      "33351613",
+      "33338762",
+      "32786508",
+      "32756904",
+      "32541820",
+      "32227937",
+      "31488660",
+      "31416918",
+      "31397498",
+      "31381336",
+      "30632745",
+      "30252470",
+      "30236283",
+      "30087945",
+      "29529369",
+      "28448138",
+      "28418661",
+      "27951672",
+      "27469165",
+      "26574453",
+      "25785262",
+      "24061923",
+      "23258296",
+      "22300765",
+      "21986527",
+      "21500218",
+      "21219138",
+      "19125574",
+      "17614541",
+      "16444756",
+      "15521057",
+      "14531053",
+      "12150948"
+    ],
+    "similar": [
+      "39984300",
+      "38979147",
+      "38978607",
+      "38018910",
+      "38781245",
+      "37241789",
+      "38928405",
+      "38816696",
+      "38370653",
+      "29490247",
+      "39555603",
+      "24410358",
+      "29364151",
+      "42475469",
+      "37108059",
+      "36774359",
+      "23912807",
+      "34152264",
+      "26052838",
+      "30865832",
+      "41082321",
+      "30708285",
+      "31362509",
+      "40029731",
+      "42014948",
+      "31793290",
+      "39522439",
+      "21056574",
+      "42261871",
+      "29548979",
+      "35725761",
+      "34680048",
+      "37144719",
+      "30876367",
+      "35129612",
+      "30840442",
+      "41259435",
+      "30811210",
+      "29235155",
+      "41073429",
+      "41644540",
+      "32579908",
+      "39163334",
+      "42129207",
+      "36084124",
+      "40172236",
+      "42340349",
+      "40264953",
+      "28095698",
+      "32345021",
+      "40960922",
+      "36934808",
+      "41706900",
+      "31031199",
+      "39158517",
+      "41959345",
+      "23811057",
+      "40042172",
+      "24446357",
+      "40147456",
+      "25625937",
+      "24763499",
+      "38173388",
+      "30204435",
+      "28877484",
+      "21797254",
+      "39190324",
+      "34680137",
+      "33481784",
+      "33581430",
+      "39588651",
+      "41137856",
+      "27727496",
+      "41129692",
+      "38116756",
+      "39387316",
+      "36030416",
+      "28970487",
+      "30979035",
+      "36791464",
+      "40161645",
+      "41053908",
+      "38505224",
+      "36183447",
+      "41053403",
+      "39952928",
+      "42140310",
+      "41432303",
+      "37646172",
+      "28834051",
+      "25207671",
+      "40360271",
+      "41225715",
+      "41851975",
+      "39983022",
+      "41981770",
+      "30230839",
+      "32403216",
+      "38394363",
+      "39807013"
+    ],
+    "review": [
+      "39984300",
+      "37241789",
+      "39555603",
+      "29364151",
+      "42014948",
+      "31793290",
+      "39522439",
+      "34680048",
+      "35129612",
+      "30840442",
+      "40264953",
+      "24446357",
+      "25625937",
+      "30979035",
+      "38505224",
+      "36183447"
+    ],
+    "pmc": [
+      "13401506"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39984300/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c01838",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

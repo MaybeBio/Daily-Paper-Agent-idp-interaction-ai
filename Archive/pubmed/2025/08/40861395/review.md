@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the TEMPO integrator and MSBD simulation framework, based solely on the supplied manuscript content. No external data, code, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors propose a new integration algorithm, TEMPO, that uses recursive temporal multiscale force prediction to reduce the number of force evaluations in Brownian dynamics simulations. They report 27- to 32-fold efficiency gains for coarse-grained intrinsically disordered protein models and a seven-fold gain for a nucleocytoplasmic transport model of the nuclear pore complex, while preserving thermodynamic and kinetic accuracy relative to naive BD.
+- **Visible evidence base** Main text figures referenced (Figs. 1–6), algorithm descriptions (Algorithms 1–3), model descriptions in Sections 2.3–2.5, and results in Section 3. Supplementary materials are mentioned but not provided.
+- **Missing materials affecting confidence** Supplementary Methods, Supplementary Tables 1–3, the heuristic for hyperparameter selection, actual figure content, algorithm pseudocode details, and code repository contents were not available for review. These are critical for verifying implementation details, reproducibility, and the robustness of reported results.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting idea: applying recursive temporal coarse-graining to force prediction in Brownian dynamics. The reported speedups are substantial and the application to the NPC model is timely. However, the evidence provided in the main text is insufficient to fully validate the method's accuracy, stability, and generalizability. Key methodological details, error analysis, and comparisons to existing approaches are either missing or only superficially described. The claims of preserved kinetics and thermodynamics rest on limited metrics and a single test system class. The manuscript would benefit from a more rigorous and transparent presentation of the algorithm, a broader benchmark suite, and a clearer discussion of failure modes.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular simulators developing accelerated sampling and coarse-graining methods would be the primary audience. Researchers studying intrinsically disordered proteins and nucleocytoplasmic transport may also find the application relevant. The method's potential to complement existing enhanced sampling techniques could attract a broader computational chemistry audience, but the current evidence base is too narrow to convincingly demonstrate broad utility.
+- **Major strengths**
+  - The core idea of temporal multiscale force prediction is novel and addresses a real bottleneck in BD simulations.
+  - The recursive structure is elegant and conceptually well-motivated by the separation of timescales in biomolecular systems.
+  - The application to a biologically important system (NPC) adds practical relevance.
+  - The authors acknowledge limitations and propose future improvements, showing scientific maturity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that MSBD "preserves kinetic properties, such as reaction rates" and maintains accuracy of thermodynamic and kinetic observables.
+  - **Evidence pointer** Section 3, Figures 3–6; location not provided for specific data points.
+  - **Concern** The evidence for accuracy preservation is limited to comparisons of Rg distributions, autocorrelation half-lives, and diffusion rates. No error bars, statistical significance tests, or convergence analyses are presented. The gold-standard simulations use an artificially small time step (0.02 fs), and it is unclear how this relates to physically realistic conditions. The manuscript does not report quantitative agreement metrics (e.g., relative errors, confidence intervals) between MSBD and naive BD.
+  - **Why it matters** The central claim of the method is that it maintains accuracy while improving efficiency. Without rigorous error quantification, the reader cannot assess whether the observed speedups come at an acceptable cost in fidelity. This is a fundamental requirement for any numerical integration scheme.
+  - **Resolution test** Provide quantitative error metrics (e.g., mean absolute error, Kullback-Leibler divergence) for all observables across the tested parameter range, with multiple independent runs to establish statistical significance. Show convergence of MSBD results as the recursion depth and time step approach the naive BD limit.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** The description of the TEMPO algorithm (Algorithms 1–3) and the surrogate force calculation (GetSurrogateForce, FMean, FTaylor, hyperparameter α).
+  - **Evidence pointer** Section 2.1, Algorithms 1–3; location not provided.
+  - **Concern** The algorithm pseudocode is referenced but not shown in the provided text. The mathematical formulation of the surrogate force, the normalization step, and the role of α are described only qualitatively. The heuristic for choosing time step and recursion depth is relegated to supplementary material, which was not available. This makes it impossible to reproduce the method or understand its parameter sensitivity.
+  - **Why it matters** Reproducibility is a cornerstone of computational research. Without a complete algorithmic specification and parameter guidance, other researchers cannot implement or build upon the method. The lack of detail also prevents a critical assessment of the method's stability and convergence properties.
+  - **Resolution test** Include the full pseudocode in the main text or a clearly accessible supplement. Provide a formal definition of FMean, FTaylor, the normalization procedure, and the update rules. Describe the hyperparameter selection heuristic in sufficient detail to be applied by an independent researcher.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and scope of validation
+  - **Claim pointer** The claim that TEMPO is "generalizable to various biomolecular systems" and "could complement existing enhanced sampling methods."
+  - **Evidence pointer** Section 4 (Discussion); location not provided.
+  - **Concern** The method is only tested on coarse-grained models of IDPs and a simplified NPC model. No results are shown for systems with more complex energy landscapes, stronger coupling between degrees of freedom, or different dynamics (e.g., Langevin dynamics with inertia). The discussion of generalizability is speculative and not supported by data.
+  - **Why it matters** The stated potential impact of the method depends on its applicability beyond the tested cases. Without evidence of performance on a diverse set of systems, the claims of generality are overstated.
+  - **Resolution test** Apply TEMPO to at least one additional system with qualitatively different dynamics (e.g., a folded protein with stable secondary structure, or a system with explicit solvent friction). Report accuracy and speedup for these cases, and discuss any observed limitations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison to existing methods
+  - **Claim pointer** The claim that TEMPO offers efficiency improvements over "standard Brownian dynamics using the Euler-Maruyama integrator."
+  - **Evidence pointer** Section 3; location not provided.
+  - **Concern** The comparison is only against a single baseline integrator. No comparison is made to other acceleration techniques, such as multiple time-stepping methods, machine-learned force fields, or enhanced sampling approaches. The speedup numbers are presented without context on how they compare to state-of-the-art alternatives.
+  - **Why it matters** To establish the method's value, it must be positioned relative to existing solutions. A 27-fold speedup over a naive baseline may be less impressive if other methods achieve similar or better gains with comparable accuracy.
+  - **Resolution test** Include a benchmark against at least one established acceleration technique (e.g., RESPA multiple time-stepping, or a neural network force surrogate) on the same test systems, reporting both speedup and accuracy metrics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure descriptions
+  - **Evidence pointer** Figures 1–6; location not provided.
+  - **Issue** The text references figures but does not describe their content in sufficient detail. For example, it is unclear what exactly is plotted in Figures 3–6 (e.g., histograms, time series, scatter plots) and how the data are aggregated.
+  - **Required correction** Add explicit figure captions or in-text descriptions that state the plotted quantities, the simulation conditions, and the number of replicates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Force-call efficiency"
+  - **Evidence pointer** Section 3; location not provided.
+  - **Issue** The term "force-call efficiency" is used throughout but never formally defined. It appears to mean the number of force evaluations per unit simulated time, but this should be stated explicitly.
+  - **Required correction** Define "force-call efficiency" at first use, e.g., as the ratio of simulated time to the number of force function calls.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of model description
+  - **Affected element** NPC model parameters
+  - **Evidence pointer** Section 2.4; location not provided.
+  - **Issue** The NPC model description is brief. Key parameters such as the number of FG chains, the total number of beads, the diffusion coefficient for cargo, and the simulation temperature are not all stated in the main text.
+  - **Required correction** Provide a complete list of model parameters in the main text or refer explicitly to a table in the supplementary material.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Section 4 (Discussion)
+  - **Evidence pointer** Section 4; location not provided.
+  - **Issue** The discussion of limitations is brief and does not address potential issues such as the method's behavior in systems with strong non-local correlations or the impact of the normalization step on long-time dynamics.
+  - **Required correction** Expand the limitations paragraph to include a more detailed analysis of when the method is expected to fail and how users can detect such failures in practice.
+
+## Risk / unsupported claims
+- The claim that TEMPO "preserves kinetic properties" is not quantitatively supported; only qualitative statements are made.
+- The claim of "generalizability to various biomolecular systems" is unsupported by the limited test set.
+- The reported speedup factors (27–32x, 7x) are presented without error bars or sensitivity analysis to hyperparameter choices.
+- The assertion that MSBD "does not rely on prior knowledge of the energy landscape" is not fully substantiated, as the method requires tuning of recursion depth and time step, which may implicitly depend on system-specific timescales.
+- The statement that TEMPO "could complement existing enhanced sampling methods" is speculative and not demonstrated.
+- The performance of the method on systems with rugged energy landscapes or strong coupling between degrees of freedom is not assessed, making claims of broad applicability unverifiable from the provided evidence.

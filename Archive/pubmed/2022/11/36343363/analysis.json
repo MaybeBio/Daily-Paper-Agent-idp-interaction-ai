@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36343363",
+  "title": "Analytical Formulation and Field-Theoretic Simulation of Sequence-Specific Phase Separation of Protein-Like Heteropolymers with Short- and Long-Spatial-Range Interactions.",
+  "authors": "Wessen, Jonas; Das, Suman; Pal, Tanmoy; Chan, Hue Sun",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2022-11-08",
+  "window": {
+    "start": "2022-11-07",
+    "end": "2022-11-13"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出解析理论与场论模拟方法，预测序列特异性IDP相分离，并通过粗粒化MD验证，直接契合无序蛋白互作机制建模。",
+  "abstract": "A theory for sequence-dependent liquid-liquid phase separation (LLPS) of intrinsically disordered proteins (IDPs) in the study of biomolecular condensates is formulated by extending the random phase approximation (RPA) and field-theoretic simulation (FTS) of heteropolymers with spatially long-range Coulomb interactions to include the fundamental effects of short-range, hydrophobic-like interactions between amino acid residues. To this end, short-range effects are modeled by Yukawa interactions between multiple nonelectrostatic charges derived from an eigenvalue decomposition of pairwise residue-residue contact energies. Chain excluded volume is afforded by incompressibility constraints. A mean-field approximation leads to an effective Flory-Huggins chi parameter, which, in conjunction with RPA, accounts for the contact-interaction effects of amino acid composition and the sequence-pattern effects of long-range electrostatics in IDP LLPS, whereas FTS based on the formulation provides full sequence dependence for both short- and long-range interactions. This general approach is illustrated here by applications to variants of a natural IDP in the context of several different amino-acid interaction schemes as well as a set of different model hydrophobic-polar sequences sharing the same composition. Effectiveness of the methodology is verified by coarse-grained explicit-chain molecular dynamics simulations.",
+  "abstract_zh": "在生物分子凝聚体研究中，通过扩展异质聚合物在空间长程库仑相互作用下的随机相近似（random phase approximation, RPA）和场论模拟（field-theoretic simulation, FS），并纳入氨基酸残基间短程疏水样相互作用的基本效应，构建了一个用于描述固有无序蛋白（intrinsically disordered proteins, IDPs）序列依赖性液-液相分离（liquid-liquid phase separation, LLPS）的理论。为此，短程效应通过由成对残基-残基接触能特征值分解导出的多个非静电电荷之间的Yukawa相互作用来建模。链的排除体积通过不可压缩性约束实现。平均场近似导出一个有效的Flory-Huggins chi参数，该参数与RPA结合，解释了IDP LLPS中氨基酸组成对接触相互作用的影响以及长程静电作用的序列模式效应，而基于该公式的FTS则提供了短程和长程相互作用的完整序列依赖性。此通用方法通过应用于天然IDP变体在不同氨基酸相互作用方案以及一组共享相同组成的不同模型疏水-极性序列中加以说明。该方法的有效性通过粗粒化显链分子动力学模拟得到验证。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36343363/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36343363/",
+  "paper_page_path": "papers/pubmed/36343363/index.html"
+}

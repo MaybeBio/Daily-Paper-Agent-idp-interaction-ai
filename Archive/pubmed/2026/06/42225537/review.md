@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The review argues that liquid-liquid phase separation (LLPS) provides a mechanistic framework for constructing membraneless organelles that enable multiscale, precise regulation of metabolic networks, and that LLPS-based condensates offer advantages over static regulatory strategies in metabolic engineering. It further claims that AI and deep learning are transforming the field by enabling data-driven design of intrinsically disordered regions (IDRs), establishing quantitative sequence-phase behavior relationships, and shifting the field from empirical to predictive engineering. The authors also identify challenges including condensate aging and host compatibility, and position the review as an integrated framework for next-generation programmable LLPS platforms in microbial cell factories.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or cited literature are available for verification
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, reference list, methodological details for any computational or experimental analyses, and any quantitative data supporting the claimed advances
+
+## Reviewer
+- **Overall assessment** The abstract presents a timely and potentially valuable review topic at the interface of LLPS biology and metabolic engineering. The scope is broad, covering mechanistic principles, applications, and emerging computational approaches. However, the abstract is largely descriptive and programmatic, with no quantitative evidence or specific examples provided to substantiate the claimed advances. The AI/DL section, in particular, makes strong assertions about transformative impact without presenting any concrete results, benchmarks, or case studies. The review's contribution cannot be fully assessed from the abstract alone, and several claims appear overstated relative to the evidence presented.
+- **Who would be interested in the results, and why** Researchers in synthetic biology, metabolic engineering, and bioprocess engineering would be the primary audience, as the review promises to connect LLPS mechanisms to practical strategies for improving microbial production. Additionally, biophysicists and computational biologists working on phase separation and protein sequence design may find the AI/DL perspective relevant. The review could serve as an entry point for engineers seeking to adopt LLPS-based tools, provided the full text delivers concrete design rules and case studies.
+- **Major strengths** The topic is timely and interdisciplinary, bridging fundamental biophysics with applied biotechnology. The abstract clearly articulates a logical structure from mechanistic understanding to engineering applications and future challenges. The inclusion of AI/DL as a transformative tool is forward-looking and likely to attract broad readership. The explicit acknowledgment of challenges such as condensate aging and host compatibility indicates a balanced perspective.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The review claims that LLPS-based condensates enable "enhanced biosynthetic efficiency, improved metabolic robustness, and dynamic control that are difficult to achieve with conventional static regulatory strategies."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract asserts superiority of LLPS-based strategies over static regulation without presenting any comparative data, quantitative metrics, or specific examples. No yields, titers, productivity values, or robustness measurements are cited.
+  - **Why it matters** This is a central claim that justifies the entire review's relevance to metabolic engineering. Without evidence, the claim reads as promotional rather than evidence-based, and readers cannot evaluate whether the purported advantages are real or context-dependent.
+  - **Resolution test** The full text must provide at least several case studies with quantitative comparisons between LLPS-engineered strains and appropriate controls, including specific performance metrics and statistical significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The review claims that AI and deep learning are "transforming this field" by enabling database construction for IDRs and rational design of data-driven synthetic IDRs, establishing "quantitative sequence-phase behavior relationships."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract makes strong claims about AI/DL-driven transformation but provides no examples of specific models, datasets, prediction accuracies, or successful design outcomes. The phrase "quantitative sequence-phase behavior relationships" implies a level of predictive maturity that is not yet established in the published literature.
+  - **Why it matters** This section appears to be a major differentiator for the review. If the claims are not backed by concrete examples or at least a critical assessment of current limitations, the review risks overstating the readiness of AI/DL tools for IDR design, which could mislead practitioners.
+  - **Resolution test** The full text must include specific AI/DL methodologies, training data sources, validation results, and at least one example where a designed IDR was experimentally confirmed to phase separate with predicted behavior.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope coherence
+  - **Claim pointer** The review claims to provide "an integrated theoretical framework and forward-looking perspective" covering mechanistic principles, applications, and challenges.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract lists many topics (mechanistic determinants, metabolic channeling, gene expression control, programmable modules, AI/DL, aging, compatibility) but does not indicate how these are integrated into a coherent framework. The risk is that the review becomes a catalog of topics rather than a synthesis.
+  - **Why it matters** A review's value lies in synthesis and critical evaluation, not enumeration. Without a clear integrative thesis, the readership may not gain actionable insights.
+  - **Resolution test** The full text should present a conceptual model or design workflow that connects molecular determinants to engineering outcomes, and should critically compare different strategies rather than merely describing them.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "multiscale and highly precise regulation" is vague and could apply to many regulatory mechanisms. The abstract does not define what "multiscale" means in this context (molecular, organelle, cellular, population?).
+  - **Required correction** Define the scales explicitly and explain how LLPS uniquely enables regulation at each scale.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** Review scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "microbial cell factories" at the end, but the earlier text refers broadly to "cells" and "metabolic engineering." It is unclear whether the review is limited to microbial systems or includes eukaryotic and cell-free systems.
+  - **Required correction** State the organismal scope explicitly in the abstract and ensure the full text consistently adheres to that scope.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Balance
+  - **Affected element** Critical evaluation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "condensate aging and compatibility with host cellular environments" as challenges but does not indicate whether these are discussed with proposed solutions or merely flagged as open problems.
+  - **Required correction** Indicate whether the review offers design strategies to mitigate these challenges or identifies them as unresolved research gaps.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of performance superiority and AI/DL transformation are not supported by any evidence in the abstract. The full text must provide quantitative case studies and concrete AI/DL examples to establish these claims.
+- **Assessment against Nature-style criteria** Originality: The topic is timely and the combination of LLPS with metabolic engineering and AI/DL is relatively novel, though individual components are well studied. Scientific importance: Potentially high, as LLPS-based regulation could offer new tools for metabolic engineering, but the importance is not yet demonstrated from the abstract. Interdisciplinary readership: The topic bridges biophysics, synthetic biology, and computational biology, which could attract a broad audience. Technical soundness: Cannot be assessed from the abstract; no methods or data are presented. Readability for nonspecialists: The abstract is accessible but uses jargon (e.g., "membraneless organelles," "intrinsic disorder regions") without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The review may become a valuable contribution if the full text provides the quantitative evidence and critical synthesis that the abstract promises. A revised abstract that tempers claims and specifies the evidence base would also strengthen the submission.
+
+## Risk / unsupported claims
+- The claim that LLPS-based condensates achieve "enhanced biosynthetic efficiency, improved metabolic robustness, and dynamic control" superior to static strategies is unsupported in the abstract.
+- The claim that AI/DL are "transforming" the field and enabling "quantitative sequence-phase behavior relationships" is unsupported and likely overstated given the current state of the field.
+- The claim that the review provides an "integrated theoretical framework" is not verifiable from the abstract.
+- The scope of the review (microbial vs. general cellular systems) is ambiguous.

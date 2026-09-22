@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "pmid": "42288727",
+    "doi": "10.1186/s12859-026-06532-x",
+    "title": "Predicting molecular recognition features in protein sequences with MoRFchibi 2.0."
+  },
+  "content": {
+    "abstract": "Molecular Recognition Features (MoRFs) are segments within disordered protein regions (IDRs) that undergo a disorder-to-order transition upon binding to their partners. Identifying MoRFs remains a significant challenge. This paper introduces MoRFchibi 2.0, a specialized prediction tool designed to identify the locations of MoRFs within protein sequences. Our results show that MoRFchibi 2.0 outperforms all existing MoRF and general predictors of protein-binding sites within IDRs, including the top-performing models from the Critical Assessment of protein Intrinsic Disorder (CAID) rounds 1, 2, and 3. Remarkably, MoRFchibi 2.0 surpasses predictors that utilize AlphaFold data and state-of-the-art protein language models, achieving superior ROC and Precision-Recall curves and higher success rates. MoRFchibi 2.0 generates output scores using an ensemble of logistic regression convolutional neural network models normalized for the priors in the training data, making them individually interpretable and compatible with other tools utilizing the same scoring framework.",
+    "keywords": [
+      "Computational Biology",
+      "Convolutional Neural Network (CNN)",
+      "Intrinsically disordered protein regions (IDRs)",
+      "Machine learning",
+      "Molecular recognition features (MoRFs)",
+      "Reverse Bayes Rule"
+    ],
+    "mesh_terms": [
+      "*Computational Biology/methods",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Sequence Analysis, Protein/methods",
+      "Binding Sites",
+      "Prediction Algorithms",
+      "*Software",
+      "Convolutional Neural Networks",
+      "Amino Acid Sequence",
+      "*Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Malhis, Nawar",
+        "Gsponer, Jorg"
+      ],
+      "short_names": [
+        "Malhis N",
+        "Gsponer J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Michael Smith Laboratories, University of British Columbia, Vancouver, BC, V6T 1Z4, Canada. nmalhis@msl.ubc.ca.",
+        "Michael Smith Laboratories, University of British Columbia, Vancouver, BC, V6T 1Z4, Canada.",
+        "Department of Biochemistry and Molecular Biology, University of British Columbia, Vancouver, BC, V6T 1Z3, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Malhis, Nawar",
+        "short_name": "Malhis N",
+        "identifiers": [],
+        "affiliations": [
+          "Michael Smith Laboratories, University of British Columbia, Vancouver, BC, V6T 1Z4, Canada. nmalhis@msl.ubc.ca."
+        ]
+      },
+      {
+        "full_name": "Gsponer, Jörg",
+        "short_name": "Gsponer J",
+        "identifiers": [],
+        "affiliations": [
+          "Michael Smith Laboratories, University of British Columbia, Vancouver, BC, V6T 1Z4, Canada.",
+          "Department of Biochemistry and Molecular Biology, University of British Columbia, Vancouver, BC, V6T 1Z3, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2026 Jun 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 11:33",
+    "fetched_at": "2026-09-18 04:11:17"
+  },
+  "links": {
+    "cites": [
+      "42057422"
+    ],
+    "refs": [],
+    "similar": [
+      "42288727",
+      "25637562",
+      "29042212",
+      "26517836",
+      "29360926",
+      "32019410",
+      "30866736",
+      "40031750",
+      "31660849",
+      "27174932",
+      "24093637",
+      "37709009",
+      "21152297",
+      "38812466",
+      "28155710",
+      "40054813",
+      "36458437",
+      "30717652",
+      "31504193",
+      "36851914",
+      "25424537",
+      "29080786",
+      "16935303",
+      "39571839",
+      "32535960",
+      "40859602",
+      "30298407",
+      "22689782",
+      "35469832",
+      "40133791",
+      "41534519",
+      "39708500",
+      "30324701",
+      "40133781",
+      "39789785",
+      "31007871",
+      "31207240",
+      "16618368",
+      "32173600",
+      "39576583",
+      "26651072",
+      "42598852",
+      "25391399",
+      "35350759",
+      "41921197",
+      "38866950",
+      "31521235",
+      "38701796",
+      "40441416",
+      "40728619",
+      "18831799",
+      "37883249",
+      "26230689",
+      "30135358",
+      "34830151",
+      "33267349",
+      "23328413",
+      "24573479",
+      "40577786",
+      "28365882",
+      "34391457",
+      "38166858",
+      "38079339",
+      "18831774",
+      "39433833",
+      "42635213",
+      "24727949",
+      "26109352",
+      "40138319",
+      "40662788",
+      "17973494",
+      "39576585",
+      "40944448",
+      "39237195",
+      "32696395",
+      "31889261",
+      "36908253",
+      "41454828",
+      "41500381",
+      "33875885",
+      "42642559",
+      "37740110",
+      "32901090",
+      "26940649",
+      "34290238",
+      "40728621",
+      "17488107",
+      "40650026",
+      "26090958",
+      "29066345",
+      "35652477",
+      "35507260",
+      "40867524",
+      "34905768",
+      "39711079",
+      "39246251",
+      "40254833",
+      "40728620",
+      "26366527",
+      "19439068"
+    ],
+    "review": [
+      "42288727",
+      "36851914",
+      "39789785",
+      "31007871",
+      "35350759",
+      "31521235",
+      "37740110",
+      "40650026",
+      "35652477"
+    ],
+    "pmc": [
+      "13505122"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-026-06532-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42288727/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

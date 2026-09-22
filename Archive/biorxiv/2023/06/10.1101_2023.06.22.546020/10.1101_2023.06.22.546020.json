@@ -1,0 +1,455 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.22.546020",
+  "title": "Thermosensitivity of translation underlies the mammalian nocturnal-diurnal switch",
+  "doi": "10.1101/2023.06.22.546020",
+  "abstract": "Early mammals were nocturnal until the Cretaceous-Paleogene extinction facilitated their rapid expansion into daytime niches. Diurnality subsequently evolved multiple times, independently, but the mechanisms facilitating this switch are unknown. We found that physiological daily temperature shifts oppositely affect circadian clock rhythms in nocturnal versus diurnal mammals. This occurs through a cell-intrinsic signal inverter, mediated by global differences in protein phosphorylation, and effected at the level of bulk protein synthesis rates, with diurnal translation rate being less thermosensitive than nocturnal. Perturbations that reduce translational initiation or mTOR activity are sufficient to trigger the nocturnal-to-diurnal switch at the cellular, tissue, and organismal scale. Our results suggest a convergent selection pressure to attain diurnality by reducing the effect of temperature-dependent changes in protein synthesis on circadian clocks. <h4>One sentence summary</h4> Recalibrating the thermosensitivity of protein synthesis drives daytime-selective activity in mammals.",
+  "authors": [
+    "Beale AD",
+    "Rzechorzek NM",
+    "Mihut A",
+    "Zeng A",
+    "Smyllie NJ",
+    "Pilorz V",
+    "Richardson R",
+    "Bertlesen MF",
+    "James NR",
+    "Fazal SV",
+    "Voysey Z",
+    "Pelletier J",
+    "Crosby P",
+    "Peak-Chew SY",
+    "Lancaster MA",
+    "Hut RA",
+    "O’Neill JS"
+  ],
+  "published_date": "2023-06-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.22.546020",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.22.546020.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR680171",
+    "raw_record": {
+      "id": "PPR680171",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR680171"
+        ]
+      },
+      "doi": "10.1101/2023.06.22.546020",
+      "title": "Thermosensitivity of translation underlies the mammalian nocturnal-diurnal switch",
+      "authorString": "Beale AD, Rzechorzek NM, Mihut A, Zeng A, Smyllie NJ, Pilorz V, Richardson R, Bertlesen MF, James NR, Fazal SV, Voysey Z, Pelletier J, Crosby P, Peak-Chew SY, Lancaster MA, Hut RA, O’Neill JS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Beale AD",
+            "lastName": "Beale",
+            "firstName": "Andrew",
+            "initials": "AD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2051-0919"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "; Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rzechorzek NM",
+            "lastName": "Rzechorzek",
+            "firstName": "Nina",
+            "initials": "NM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3209-5019"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medical Biochemistry and Microbiology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mihut A",
+            "lastName": "Mihut",
+            "firstName": "Andrei",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4241-2567"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "; Francis Crick Avenue , , ,"
+                },
+                {
+                  "affiliation": "Department of Engineering, , Trumpington St , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zeng A",
+            "lastName": "Zeng",
+            "firstName": "Aiwei",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0354-2529"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "; Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smyllie NJ",
+            "lastName": "Smyllie",
+            "firstName": "Nicola",
+            "initials": "NJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6324-1421"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "; Francis Crick Avenue , , ,"
+                },
+                {
+                  "affiliation": "Department of Infectious Disease, ; ,"
+                },
+                {
+                  "affiliation": ", 1 Midland Road ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pilorz V",
+            "lastName": "Pilorz",
+            "firstName": "Violetta",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "; Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Richardson R",
+            "lastName": "Richardson",
+            "firstName": "Rose",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7164-0337"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "; Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bertlesen MF",
+            "lastName": "Bertlesen",
+            "firstName": "Mads",
+            "initials": "MF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "; Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "James NR",
+            "lastName": "James",
+            "firstName": "Nathan",
+            "initials": "NR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Neurobiology, Center of Brain, Behavior & Metabolism, ; Marie Curie Street , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fazal SV",
+            "lastName": "Fazal",
+            "firstName": "Shaline",
+            "initials": "SV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2813-4022"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Biological Timing, Faculty of Biology Medicine and Health, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Voysey Z",
+            "lastName": "Voysey",
+            "firstName": "Zanna",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pelletier J",
+            "lastName": "Pelletier",
+            "firstName": "Jerry",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical Neurosciences, John Van Geest Centre for Brain Repair, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Crosby P",
+            "lastName": "Crosby",
+            "firstName": "Priya",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7532-7708"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical Neurosciences, John Van Geest Centre for Brain Repair, ; , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Peak-Chew SY",
+            "lastName": "Peak-Chew",
+            "firstName": "Sew",
+            "initials": "SY",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Safety Sciences, Clinical Pharmacology & Safety Sciences, R&D, , Francis Crick Avenue ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lancaster MA",
+            "lastName": "Lancaster",
+            "firstName": "Madeline",
+            "initials": "MA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2324-8853"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, ; , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hut RA",
+            "lastName": "Hut",
+            "firstName": "Roelof",
+            "initials": "RA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Biochemistry, ; 1156 High Street , , ,"
+                },
+                {
+                  "affiliation": "Institute of Cell Biology, School of Biological Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "O’Neill JS",
+            "lastName": "O’Neill",
+            "firstName": "John",
+            "initials": "JS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "; Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7164-0337"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2051-0919"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2813-4022"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6324-1421"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7532-7708"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0354-2529"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2204-6096"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2324-8853"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3209-5019"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4241-2567"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Early mammals were nocturnal until the Cretaceous-Paleogene extinction facilitated their rapid expansion into daytime niches. Diurnality subsequently evolved multiple times, independently, but the mechanisms facilitating this switch are unknown. We found that physiological daily temperature shifts oppositely affect circadian clock rhythms in nocturnal versus diurnal mammals. This occurs through a cell-intrinsic signal inverter, mediated by global differences in protein phosphorylation, and effected at the level of bulk protein synthesis rates, with diurnal translation rate being less thermosensitive than nocturnal. Perturbations that reduce translational initiation or mTOR activity are sufficient to trigger the nocturnal-to-diurnal switch at the cellular, tissue, and organismal scale. Our results suggest a convergent selection pressure to attain diurnality by reducing the effect of temperature-dependent changes in protein synthesis on circadian clocks. <h4>One sentence summary</h4>  Recalibrating the thermosensitivity of protein synthesis drives daytime-selective activity in mammals.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "210684/Z/18/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/22/2023.06.22.546020.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.22.546020"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR680171"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR680171&type=FILE&fileName=EMS178034-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 6,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS178034",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-06-26",
+      "firstPublicationDate": "2023-06-22",
+      "firstIndexDate": "2023-06-26",
+      "fullTextReceivedDate": "2025-04-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

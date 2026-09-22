@@ -1,0 +1,186 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.02.11.480029",
+  "title": "Omicron (BA.1) and Sub-Variants (BA.1, BA.2 and BA.3) of SARS-CoV-2 Spike Infectivity and Pathogenicity: A Comparative Sequence and Structural-based Computational Assessment",
+  "doi": "10.1101/2022.02.11.480029",
+  "abstract": "<h4>ABSTRACT</h4> The Omicron variant of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has now spread throughout the world. We used computational tools to assess the spike infectivity, transmission, and pathogenicity of Omicron (BA.1) and sub-variants (BA.1.1, BA.2, and BA.3) in this study. BA.1 has 39 mutations, BA.1.1 has 40 mutations, BA.2 has 31 mutations, and BA.3 has 34 mutations, with 21 shared mutations between all. We observed 11 common mutations in Omicron’s receptor-binding domain and sub-variants. In pathogenicity analysis, the Y505H, N786K, T95I, N211I, N856K, and V213R mutations in omicron and sub-variants are predicted to be deleterious. Due to the major effect of the mutations characterising, in the receptor-binding domain (RBD), we found that Omicron and sub-variants had a higher positive electrostatic surface potential. This could increase interaction between RBD and electronegative human angiotensin-converting enzyme 2 (hACE2). Omicron and sub-variants had a higher affinity for hACE2 and the potential for increased transmission when compared to the wild type. Among Omicron sub-lineages, BA.2 and BA.3 have a higher transmission potential than BA.1 and BA.1.1. We predicted that mutated residues in BA.1.1 (K478), BA.2 (R400, R490, R495), and BA.3 (R397 and H499) formation of new salt bridges and hydrogen bonds. Omicron and sub-variant mutations at Receptor-binding Motif (RBM) residues such as Q493R, N501Y, Q498, T478K, and Y505H all contribute significantly to binding affinity with human ACE2. Interactions with Omicron variant mutations at residues 493, 496, 498, and 501 seem to restore ACE2 binding effectiveness lost due to other mutations like K417N and Y505H.",
+  "authors": [
+    "Kumar S",
+    "Karuppanan K",
+    "Subramaniam G"
+  ],
+  "published_date": "2022-02-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.02.11.480029",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.02.11.480029.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR452856",
+    "raw_record": {
+      "id": "PPR452856",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR452856"
+        ]
+      },
+      "doi": "10.1101/2022.02.11.480029",
+      "title": "Omicron (BA.1) and Sub-Variants (BA.1, BA.2 and BA.3) of SARS-CoV-2 Spike Infectivity and Pathogenicity: A Comparative Sequence and Structural-based Computational Assessment",
+      "authorString": "Kumar S, Karuppanan K, Subramaniam G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kumar S",
+            "lastName": "Kumar",
+            "firstName": "Suresh",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5682-0938"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Diagnostic & Allied Health Science, Faculty of Health and Life Sciences, Management and Science University, Shah Alam, Selangor, Malaysia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Karuppanan K",
+            "lastName": "Karuppanan",
+            "firstName": "Kalimuthu",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cardiovascular Medicine, Radcliffe Department of Medicine, Wellcome Centre for Human Genetics, University of Oxford, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Subramaniam G",
+            "lastName": "Subramaniam",
+            "firstName": "Gunasekaran",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Anatomy and Genetics, University of Oxford, Oxford, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5682-0938"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  The Omicron variant of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has now spread throughout the world. We used computational tools to assess the spike infectivity, transmission, and pathogenicity of Omicron (BA.1) and sub-variants (BA.1.1, BA.2, and BA.3) in this study. BA.1 has 39 mutations, BA.1.1 has 40 mutations, BA.2 has 31 mutations, and BA.3 has 34 mutations, with 21 shared mutations between all. We observed 11 common mutations in Omicron’s receptor-binding domain and sub-variants. In pathogenicity analysis, the Y505H, N786K, T95I, N211I, N856K, and V213R mutations in omicron and sub-variants are predicted to be deleterious. Due to the major effect of the mutations characterising, in the receptor-binding domain (RBD), we found that Omicron and sub-variants had a higher positive electrostatic surface potential. This could increase interaction between RBD and electronegative human angiotensin-converting enzyme 2 (hACE2). Omicron and sub-variants had a higher affinity for hACE2 and the potential for increased transmission when compared to the wild type. Among Omicron sub-lineages, BA.2 and BA.3 have a higher transmission potential than BA.1 and BA.1.1. We predicted that mutated residues in BA.1.1 (K478), BA.2 (R400, R490, R495), and BA.3 (R397 and H499) formation of new salt bridges and hydrogen bonds. Omicron and sub-variant mutations at Receptor-binding Motif (RBM) residues such as Q493R, N501Y, Q498, T478K, and Y505H all contribute significantly to binding affinity with human ACE2. Interactions with Omicron variant mutations at residues 493, 496, 498, and 501 seem to restore ACE2 binding effectiveness lost due to other mutations like K417N and Y505H.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/02/11/2022.02.11.480029.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.02.11.480029"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR452856"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR452856&type=FILE&fileName=EMS143271-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35680610",
+            "reference": "Journal of medical virology. 2022 Oct;94(10):4780-4791",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 4,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS143271",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "uniprot",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-02-12",
+      "firstPublicationDate": "2022-02-11",
+      "firstIndexDate": "2022-02-12",
+      "fullTextReceivedDate": "2022-03-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

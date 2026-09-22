@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2601.00769v1",
+  "title": "Evolutionary and Structural Constraints Define a Mutation-Resistant Catalytic Core in E. coli Serine Hydroxy methyltransferase (SHMT)",
+  "authors": "Deeptanshu Pandey; Dwipanjan Sanyal; Vladimir N. Uversky; Daniel C. Zielinski; Sourav Chowdhury",
+  "journal": "",
+  "published_date": "2026-01-02",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用多尺度计算框架分析大肠杆菌SHMT的进化与结构约束，涉及无序谱分析，但对象为折叠酶且无PPI或AI/物理模拟机制建模，仅对无序蛋白互作课题有边缘启发。",
+  "abstract": "Serine hydroxymethyltransferase is an essential enzyme in the Escherichia coli folate pathway, yet it has not been adopted as an antibacterial target, unlike DHFR, DHPS, or thymidylate synthase. To investigate this discrepancy, we applied a multi-scale computational framework that integrates large-scale sequence analysis of 1000 homologs, coevolutionary interaction mapping, structural community analysis, intrinsic disorder profiling, and adaptive fitness modelling. These analyses converge on a single conclusion: the catalytic core of SHMT forms an exceptionally conserved and tightly coupled structural unit. This region exhibits dense coevolution, strong intramolecular connectivity, minimal disorder, and extremely low mutational tolerance. Peripheral loops and termini, in contrast, are far more flexible. Relative to established folate-pathway antibiotic targets, SHMT active site is even more rigid and evolutionarily constrained. This extreme constraint may limit the emergence of resistance-compatible mutations, providing a plausible explanation for the absence of natural-product inhibitors. Fitness trajectory modelling supports this interpretation, showing that nearly all active-site residues tolerate only rare or neutral substitutions. Together, these findings identify SHMT as a structurally stable and evolutionarily restricted enzyme whose catalytic architecture is unusually protected. This makes SHMT an underexplored yet promising target for the rational design of next-generation antibacterial agents.",
+  "abstract_zh": "丝氨酸羟甲基转移酶是大肠杆菌叶酸途径中的一种必需酶，然而与DHFR、DHPS或胸苷酸合酶不同，它尚未被用作抗菌靶点。为探究这一差异，我们应用了一个多尺度计算框架，该框架整合了1000个同源物的大规模序列分析、共进化相互作用图谱、结构群落分析、内在无序性谱分析以及适应性适应度建模。这些分析汇聚于一个单一结论：SHMT的催化核心形成了一个异常保守且紧密耦合的结构单元。该区域表现出密集的共进化、强烈的分子内连接性、极低的无序性以及极低的突变耐受性。相比之下，外围环区和末端则更为灵活。相对于已确立的叶酸途径抗生素靶点，SHMT活性位点甚至更为刚性和进化受限。这种极端约束可能限制了抗性兼容突变的发生，为缺乏天然产物抑制剂提供了合理解释。适应度轨迹建模支持这一解释，显示几乎所有活性位点残基仅耐受稀有或中性替换。综合这些发现，SHMT被识别为一种结构稳定且进化受限的酶，其催化架构受到异常保护。这使得SHMT成为下一代抗菌药物理性设计中一个尚未充分探索但前景广阔的靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2601.00769v1",
+  "source_url": "https://arxiv.org/abs/2601.00769v1",
+  "paper_page_path": "papers/arxiv/2601.00769v1/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39071267",
+  "title": "Diffusing protein binders to intrinsically disordered proteins.",
+  "authors": "Liu, Caixuan; Wu, Kejia; Choi, Hojun; Han, Hannah; Zhang, Xulie; Watson, Joseph L; Shijo, Sara; Bera, Asim K; Kang, Alex; Brackenbrough, Evans; Coventry, Brian; Hick, Derrick R; Hoofnagle, Andrew N; Zhu, Ping; Li, Xingting; Decarreau, Justin; Gerben, Stacey R; Yang, Wei; Wang, Xinru; Lamp, Mila; Murray, Analisa; Bauer, Magnus; Baker, David",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-07-29",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用RFdiffusion从序列出发自由采样构象，生成针对无序蛋白/无序区域的高亲和力结合蛋白，并验证其抑制淀粉样纤维等功能，直接命中无序蛋白对象、PPI结合机制与AI生成方法三轴，且对无序蛋白互作机制建模有重要启发。",
+  "abstract": "Proteins which bind intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs) with high affinity and specificity could have considerable utility for therapeutic and diagnostic applications. However, a general methodology for targeting IDPs/IDRs has yet to be developed. Here, we show that starting only from the target sequence of the input, and freely sampling both target and binding protein conformation, RFdiffusion can generate binders to IDPs and IDRs in a wide range of conformations. We use this approach to generate binders to the IDPs Amylin, C-peptide and VP48 in a range of conformations with Kds in the 3 -100nM range. The Amylin binder inhibits amyloid fibril formation and dissociates existing fibers, and enables enrichment of amylin for mass spectrometry-based detection. For the IDRs G3bp1, common gamma chain (IL2RG) and prion, we diffused binders to beta strand conformations of the targets, obtaining 10 to 100 nM affinity. The IL2RG binder colocalizes with the receptor in cells, enabling new approaches to modulating IL2 signaling. Our approach should be widely useful for creating binders to flexible IDPs/IDRs spanning a wide range of intrinsic conformational preferences.",
+  "abstract_zh": "以高亲和力和特异性结合固有无序蛋白（IDPs）及固有无序区域（IDRs）的蛋白质，在治疗和诊断应用中可能具有相当大的用途。然而，针对IDPs/IDRs的通用靶向方法尚未开发出来。在此，我们表明，仅从输入的靶标序列出发，并自由采样靶标和结合蛋白的构象，RFdiffusion能够生成针对多种构象下IDPs和IDRs的结合物。我们利用该方法生成了针对IDPs Amylin、C-peptide和VP48的结合物，其构象多样，Kd值在3-100 nM范围内。Amylin结合物抑制淀粉样纤维形成并解离现有纤维，同时能够富集amylin以用于基于质谱的检测。对于IDRs G3bp1、共同γ链（IL2RG）和朊蛋白，我们扩散生成了针对靶标β链构象的结合物，获得10至100 nM的亲和力。IL2RG结合物在细胞内与受体共定位，为调节IL2信号传导提供了新方法。我们的方法应广泛适用于创建针对具有广泛内在构象偏好的柔性IDPs/IDRs的结合物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39071267/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39071267/",
+  "paper_page_path": "papers/pubmed/39071267/index.html"
+}

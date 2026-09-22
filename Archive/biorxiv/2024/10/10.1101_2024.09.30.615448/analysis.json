@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.09.30.615448",
+  "title": "Promiscuous and multivalent interactions between Eps15 and partner protein Dab2 generate a complex interaction network",
+  "authors": "Andromachi Papagiannoula; Ida Marie Vedel; Kathrin Motzny; Maud Tengo; Arbesa Saiti; Sigrid Milles",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-01",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过NMR研究Eps15的EH结构域与无序Dab2片段及自身IDR的多价混杂互作，揭示竞争性动态网络促进相分离凝聚体招募，直接聚焦IDR介导的PPI机制建模，虽方法为实验但机制深度强，对无序蛋白互作建模有重要启发。",
+  "abstract": "Clathrin-mediated endocytosis depends on complex protein interactions. Eps15 plays a key role through interactions of its three EH domains with Asn-Pro-Phe (NPF) motifs in intrinsically disordered regions (IDRs) of other endocytic proteins. Using nuclear magnetic resonance spectroscopy, we investigate the interaction between Eps15’s EH domains and a highly disordered Dab2 fragment (Dab2₃₂₀₋₄₉₅). We find that the EH domains exhibit binding promiscuity, recognizing not only the NPF motif of Dab2 but also other phenylalanine containing motifs. This promiscuity enables interactions with Eps15’s own IDR (Eps15 IDR ), which lacks NPF motifs, suggesting an self-inhibitory state that promotes liquid-liquid phase separation. Despite competing for the same EH domain binding sites, Eps15 IDR and Dab2₃₂₀₋₄₉₅ can bind EH123 simultaneously, forming a highly dynamic interaction network that facilitates the recruitment of Dab2₃₂₀₋₄₉₅ into Eps15 condensates. Our findings provide molecular insights into the competitive interactions shaping the early stages of clathrin-mediated endocytosis.",
+  "abstract_zh": "网格蛋白介导的内吞作用依赖于复杂的蛋白质相互作用。Eps15通过其三个EH结构域与其他内吞蛋白的内在无序区域（IDRs）中的Asn-Pro-Phe（NPF）基序相互作用，发挥关键作用。利用核磁共振波谱法，我们研究了Eps15的EH结构域与高度无序的Dab2片段（Dab2₃₂₀₋₄₉₅）之间的相互作用。我们发现EH结构域表现出结合混杂性，不仅识别Dab2的NPF基序，还识别其他含苯丙氨酸的基序。这种混杂性使其能够与缺乏NPF基序的Eps15自身IDR（Eps15 IDR）相互作用，提示存在一种促进液-液相分离的自抑制状态。尽管竞争相同的EH结构域结合位点，Eps15 IDR和Dab2₃₂₀₋₄₉₅仍能同时结合EH123，形成高度动态的相互作用网络，促进Dab2₃₂₀₋₄₉₅被招募至Eps15凝聚体中。我们的发现为塑造网格蛋白介导内吞作用早期阶段的竞争性相互作用提供了分子层面的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.09.30.615448",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.09.30.615448",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.09.30.615448/index.html"
+}

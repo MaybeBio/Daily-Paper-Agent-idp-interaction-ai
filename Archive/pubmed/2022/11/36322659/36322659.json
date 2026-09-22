@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "36322659",
+    "doi": "10.1126/sciadv.abo5295",
+    "title": "Kinetic frustration by limited bond availability controls the LAT protein condensation phase transition on membranes."
+  },
+  "content": {
+    "abstract": "LAT is a membrane-linked scaffold protein that undergoes a phase transition to form a two-dimensional protein condensate on the membrane during T cell activation. Governed by tyrosine phosphorylation, LAT recruits various proteins that ultimately enable condensation through a percolation network of discrete and selective protein-protein interactions. Here, we describe detailed kinetic measurements of the phase transition, along with coarse-grained model simulations, that reveal that LAT condensation is kinetically frustrated by the availability of bonds to form the network. Unlike typical miscibility transitions in which compact domains may coexist at equilibrium, the LAT condensates are dynamically arrested in extended states, kinetically trapped out of equilibrium. Modeling identifies the structural basis for this kinetic arrest as the formation of spindle arrangements, favored by limited multivalent binding interactions along the flexible, intrinsically disordered LAT protein. These results reveal how local factors controlling the kinetics of LAT condensation enable formation of different, stable condensates, which may ultimately coexist within the cell.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Simou",
+        "GrandPre, Trevor",
+        "Limmer, David T",
+        "Groves, Jay T"
+      ],
+      "short_names": [
+        "Sun S",
+        "GrandPre T",
+        "Limmer DT",
+        "Groves JT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0596-1156",
+        "ORCID: 0000-0002-3565-6873",
+        "ORCID: 0000-0002-3037-5220"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of California, Berkeley, Berkeley, CA 94720, USA.",
+        "California Institute for Quantitative Biosciences, University of California, Berkeley, Berkeley, CA 94720, USA.",
+        "Institute for Digital Molecular Analytics and Science, Nanyang Technological University, 639798 Singapore.",
+        "Department of Physics, University of California, Berkeley, Berkeley, CA 94720, USA.",
+        "Department of Chemistry, University of California, Berkeley, Berkeley, CA 94720, USA.",
+        "Materials Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.",
+        "Chemical Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.",
+        "Department of Chemistry, University of California, Berkeley, Berkeley, CA 94720, USA.",
+        "California Institute for Quantitative Biosciences, University of California, Berkeley, Berkeley, CA 94720, USA.",
+        "Institute for Digital Molecular Analytics and Science, Nanyang Technological University, 639798 Singapore.",
+        "Division of Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Simou",
+        "short_name": "Sun S",
+        "identifiers": [
+          "0000-0002-0596-1156"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Berkeley, Berkeley, CA 94720, USA.",
+          "California Institute for Quantitative Biosciences, University of California, Berkeley, Berkeley, CA 94720, USA.",
+          "Institute for Digital Molecular Analytics and Science, Nanyang Technological University, 639798 Singapore."
+        ]
+      },
+      {
+        "full_name": "GrandPre, Trevor",
+        "short_name": "GrandPre T",
+        "identifiers": [
+          "0000-0002-3565-6873"
+        ],
+        "affiliations": [
+          "Department of Physics, University of California, Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Limmer, David T",
+        "short_name": "Limmer DT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of California, Berkeley, Berkeley, CA 94720, USA.",
+          "Materials Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA.",
+          "Chemical Science Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Groves, Jay T",
+        "short_name": "Groves JT",
+        "identifiers": [
+          "0000-0002-3037-5220"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Berkeley, Berkeley, CA 94720, USA.",
+          "California Institute for Quantitative Biosciences, University of California, Berkeley, Berkeley, CA 94720, USA.",
+          "Institute for Digital Molecular Analytics and Science, Nanyang Technological University, 639798 Singapore.",
+          "Division of Molecular Biophysics and Integrated Bioimaging, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2022 Nov 4",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/03 06:00",
+    "fetched_at": "2026-09-20 16:26:25"
+  },
+  "links": {
+    "cites": [
+      "41279981",
+      "41021801",
+      "40445763",
+      "40424940",
+      "40240649",
+      "39677715",
+      "38434676",
+      "37475548",
+      "37399423",
+      "36920097",
+      "35507881"
+    ],
+    "refs": [
+      "36460640",
+      "35597653",
+      "35507881",
+      "34507991",
+      "33929486",
+      "33303613",
+      "33169001",
+      "32484438",
+      "32405004",
+      "31970984",
+      "31611699",
+      "31337677",
+      "31139718",
+      "30846600",
+      "30846599",
+      "30682370",
+      "30672955",
+      "30125111",
+      "29313527",
+      "29269020",
+      "29182244",
+      "29072444",
+      "29045874",
+      "28225081",
+      "27700984",
+      "27370798",
+      "27056844",
+      "26388440",
+      "26354432",
+      "25321392",
+      "25288112",
+      "23528987",
+      "22726438",
+      "22396725",
+      "19348745",
+      "19254014",
+      "18579777",
+      "18497820",
+      "18303929",
+      "18067340",
+      "17930475",
+      "11459050",
+      "10823898",
+      "10811803",
+      "10649991",
+      "9383403"
+    ],
+    "similar": [
+      "36322659",
+      "29182244",
+      "33080222",
+      "36460640",
+      "41279981",
+      "42573083",
+      "37668985",
+      "39568948",
+      "41292751",
+      "40445763",
+      "38656803",
+      "37126554",
+      "40963550",
+      "33076213",
+      "42620098",
+      "35054543",
+      "35293386",
+      "38260590",
+      "42444326",
+      "22396725",
+      "31268421",
+      "40009520",
+      "33307683",
+      "35918061",
+      "42620391",
+      "29091028",
+      "42438122",
+      "30099028",
+      "40098319",
+      "42182307",
+      "35679397",
+      "23912807",
+      "40588121",
+      "11038169",
+      "41088757",
+      "42709078",
+      "40766493",
+      "31634364",
+      "34352244",
+      "37194953",
+      "40389455",
+      "36758221",
+      "40970906",
+      "12646565",
+      "39211144",
+      "12186560",
+      "34862761",
+      "11368773",
+      "33653957",
+      "29440364",
+      "42721241",
+      "37155880",
+      "41505255",
+      "41169547",
+      "15029250",
+      "38316988",
+      "30913878",
+      "39225535",
+      "42060760",
+      "34737230",
+      "17339448",
+      "11395491",
+      "10811803",
+      "12209631",
+      "40848932",
+      "36993212",
+      "42336922",
+      "42260147",
+      "38466837",
+      "11752630",
+      "37961424",
+      "40291420",
+      "12496416",
+      "24412752",
+      "42106138",
+      "42160388",
+      "36175408",
+      "32393642",
+      "29789604",
+      "42425985",
+      "36804705",
+      "33672806",
+      "28924037",
+      "36749320",
+      "40962203",
+      "31021441",
+      "37664947",
+      "34890409",
+      "32619404",
+      "22973450",
+      "10021361",
+      "30471685",
+      "36945618",
+      "38383656",
+      "41673446",
+      "37018196",
+      "41001641",
+      "42276972",
+      "33929486",
+      "32571937"
+    ],
+    "review": [
+      "36322659",
+      "30099028",
+      "11752630",
+      "36804705",
+      "40962203",
+      "31021441",
+      "37664947"
+    ],
+    "pmc": [
+      "9629719"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/sciadv.abo5295?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/36322659.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36322659/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36322659",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LAT-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt9215829w",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

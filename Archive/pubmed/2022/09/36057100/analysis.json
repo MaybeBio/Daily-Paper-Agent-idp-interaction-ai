@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36057100",
+  "title": "A high-throughput approach to predict A-to-I effects on RNA structure indicates a change of double-stranded content in noncoding RNAs.",
+  "authors": "Delli Ponti, Riccardo; Broglia, Laura; Vandelli, Andrea; Armaos, Alexandros; Burgas, Marc Torrent; Sanchez de Groot, Natalia; Tartaglia, Gian Gaetano",
+  "journal": "IUBMB life",
+  "published_date": "2022-09-04",
+  "window": {
+    "start": "2022-08-29",
+    "end": "2022-09-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用高通量方法预测A-to-I编辑对RNA结构的影响，并关联RNA结合蛋白互作与相分离，但对象是RNA而非无序蛋白/IDR，互作机制建模较浅，方法为预测工具而非AI/物理模拟，故相关性有限。",
+  "abstract": "RNA molecules undergo a number of chemical modifications whose effects can alter their structure and molecular interactions. Previous studies have shown that RNA editing can impact the formation of ribonucleoprotein complexes and influence the assembly of membrane-less organelles such as stress granules. For instance, N6-methyladenosine (m6A) enhances SG formation and N1-methyladenosine (m1A) prevents their transition to solid-like aggregates. Yet, very little is known about adenosine to inosine (A-to-I) modification that is very abundant in human cells and not only impacts mRNAs but also noncoding RNAs. Here, we introduce the CROSSalive predictor of A-to-I effects on RNA structure based on high-throughput in-cell experiments. Our method shows an accuracy of 90% in predicting the single and double-stranded content of transcripts and identifies a general enrichment of double-stranded regions caused by A-to-I in long intergenic noncoding RNAs (lincRNAs). For the individual cases of NEAT1, NORAD, and XIST, we investigated the relationship between A-to-I editing and interactions with RNA-binding proteins using available CLIP data and catRAPID predictions. We found that A-to-I editing is linked to the alteration of interaction sites with proteins involved in phase separation, which suggests that RNP assembly can be influenced by A-to-I. CROSSalive is available at http://service.tartaglialab.com/new_submission/crossalive.",
+  "abstract_zh": "RNA分子经历多种化学修饰，其效应可改变它们的结构和分子相互作用。先前的研究表明，RNA编辑能影响核糖核蛋白复合物的形成，并调控无膜细胞器（如应激颗粒）的组装。例如，N6-甲基腺苷（m6A）增强应激颗粒（SG）的形成，而N1-甲基腺苷（m1A）则阻止其向固态样聚集体转变。然而，关于腺苷到肌苷（A-to-I）修饰知之甚少，这种修饰在人类细胞中非常丰富，不仅影响mRNA，还影响非编码RNA。在此，我们介绍CROSSalive预测器，它基于高通量细胞内实验预测A-to-I对RNA结构的影响。我们的方法在预测转录本单链和双链含量方面显示出90%的准确率，并识别出A-to-I在长基因间非编码RNA（lincRNAs）中普遍富集双链区域。针对NEAT1、NORAD和XIST的个别案例，我们利用可用的CLIP数据和catRAPID预测，研究了A-to-I编辑与RNA结合蛋白相互作用之间的关系。我们发现A-to-I编辑与参与相分离的蛋白相互作用位点的改变相关联，这表明核糖核蛋白（RNP）组装可能受A-to-I影响。CROSSalive可在http://service.tartaglialab.com/new_submission/crossalive获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36057100/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36057100/",
+  "paper_page_path": "papers/pubmed/36057100/index.html"
+}

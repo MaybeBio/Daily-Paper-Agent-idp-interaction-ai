@@ -1,0 +1,214 @@
+{
+  "identity": {
+    "pmid": "40823881",
+    "doi": "10.1021/acs.jcim.5c01294",
+    "title": "Employing Artificial Neural Networks for Optimal Storage and Facile Sharing of Molecular Dynamics Simulation Trajectories."
+  },
+  "content": {
+    "abstract": "With the remarkable stride in computing power and advances in Molecular Dynamics (MD) simulation programs, the crucial challenge of storing and sharing large biomolecular simulation data sets has emerged. By leveraging AutoEncoders, a type of artificial neural network, we developed a method to compress MD trajectories into significantly smaller latent spaces. Our method can save up to 98% in disk space compared to xtc, a highly compressed trajectory format from the widely used MD program package GROMACS, thus facilitating storage and sharing of simulation trajectories. Atom coordinates are very accurately reconstructed from compressed data. The method was tested across a diverse sets of biomolecular systems, including folded proteins, intrinsically disordered proteins, phospholipid bilayers, protein-ligand complexes, large protein complexes and membrane-bound protein systems. The reconstructed trajectories demonstrated consistent accuracy in recovering key biophysically relevant properties for proteins, lipids and composite systems. The compression efficiency was particularly beneficial for larger systems. This approach enables the scientific community to efficiently store and share large-scale biomolecular simulation data, potentially enhancing collaborative research efforts. The workflow, termed \"compresstraj\", is implemented in PyTorch and is publicly available at https://github.com/SerpentByte/compresstraj, offering a practical solution for handling the increasing volumes of data generated in biomolecular simulation studies.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Neural Networks, Computer",
+      "Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wasim, Abdul",
+        "Schafer, Lars V",
+        "Mondal, Jagannath"
+      ],
+      "short_names": [
+        "Wasim A",
+        "Schafer LV",
+        "Mondal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8498-3061",
+        "ORCID: 0000-0003-1090-5199"
+      ],
+      "affiliations": [
+        "Tata Institute of Fundamental Research Hyderabad, Hyderabad 500046, Telangana, India.",
+        "Center for Theoretical Chemistry, Faculty of Chemistry and Biochemistry, Ruhr University Bochum, 44780 Bochum, Germany.",
+        "Tata Institute of Fundamental Research Hyderabad, Hyderabad 500046, Telangana, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wasim, Abdul",
+        "short_name": "Wasim A",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad, Hyderabad 500046, Telangana, India."
+        ]
+      },
+      {
+        "full_name": "Schäfer, Lars V",
+        "short_name": "Schäfer LV",
+        "identifiers": [
+          "0000-0002-8498-3061"
+        ],
+        "affiliations": [
+          "Center for Theoretical Chemistry, Faculty of Chemistry and Biochemistry, Ruhr University Bochum, 44780 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Mondal, Jagannath",
+        "short_name": "Mondal J",
+        "identifiers": [
+          "0000-0003-1090-5199"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad, Hyderabad 500046, Telangana, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Sep 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/18 12:32",
+    "fetched_at": "2026-09-21 22:45:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40823881",
+      "37854635",
+      "33794973",
+      "35257580",
+      "21267752",
+      "41171086",
+      "38867698",
+      "40439145",
+      "36472885",
+      "40835585",
+      "40658364",
+      "31793290",
+      "38972499",
+      "39913331",
+      "23912807",
+      "40828893",
+      "33003755",
+      "39846243",
+      "38299978",
+      "39361452",
+      "36382864",
+      "37489036",
+      "24920464",
+      "37133846",
+      "30759217",
+      "30084079",
+      "37184003",
+      "36949402",
+      "25176255",
+      "35532115",
+      "39933881",
+      "26238484",
+      "39499823",
+      "35972783",
+      "31580061",
+      "38643169",
+      "24638223",
+      "29735687",
+      "37694852",
+      "21425293",
+      "34944432",
+      "39013164",
+      "37079775",
+      "19843465",
+      "40012586",
+      "40552661",
+      "35834424",
+      "22025759",
+      "31396908",
+      "31423789",
+      "38018910",
+      "24588150",
+      "32833550",
+      "40372445",
+      "23407358",
+      "40742756",
+      "34289011",
+      "26989950",
+      "38775680",
+      "38795562",
+      "29414703",
+      "22370965",
+      "35213804",
+      "24175728",
+      "15959866",
+      "36282990",
+      "21500218",
+      "40495006",
+      "21831299",
+      "30943891",
+      "40768497",
+      "37104393",
+      "31525965",
+      "33914551",
+      "40692309",
+      "39014286",
+      "38912752",
+      "41252524",
+      "37068044",
+      "19569183",
+      "29513352",
+      "37219922",
+      "39772562",
+      "33496579",
+      "40421423",
+      "30840442",
+      "33720293",
+      "39056185",
+      "32790375",
+      "35381009",
+      "24273238",
+      "28345910",
+      "35428386",
+      "38816696",
+      "39212001",
+      "35353508",
+      "28093787",
+      "39806145",
+      "21819149",
+      "27862047"
+    ],
+    "review": [
+      "40823881",
+      "31793290",
+      "38795562",
+      "30840442",
+      "27862047"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01294",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

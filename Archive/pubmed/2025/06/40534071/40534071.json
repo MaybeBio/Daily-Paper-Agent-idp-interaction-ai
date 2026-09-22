@@ -1,0 +1,220 @@
+{
+  "identity": {
+    "pmid": "40534071",
+    "doi": "10.1103/PhysRevE.111.054403",
+    "title": "Sequence-dependent biomolecular phase separation driven by short-range interaction: From material properties to coarsening dynamics."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) of biomacromolecules drives the formation of biomolecular condensates, which possess material properties crucial for various biological functions. While recent studies have primarily focused on LLPS driven by long-range, nonspecific interactions, the role of short-range, one-to-one specific interactions in sequence-dependent behavior still remains elusive. In this study, we combined theoretical analysis and coarse-grained molecular dynamics simulations to systematically investigate the sequence-dependent material properties of biomolecular condensates. By introducing the sequence descriptor varphi;*, we identified strong correlations between varphi;* and key material or structural properties, such as the single-chain radius of gyration, critical temperature, density, surface tension, viscosity, and diffusion coefficient. Notably, near critical points, surface tension and viscosity exhibit distinct scaling relationships with temperature, with viscosity showing much greater sensitivity. Additionally, we found that sequences with high varphi;* may impede the efficient growth of droplets. Our findings provide a framework for understanding sequence-dependent material properties and offer valuable insights into designing biomolecular condensates with tailored stability and dynamic functionality.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Jun-Qi",
+        "Yan, Zeng-Shuai",
+        "Ma, Yu-Qiang",
+        "Ding, Hong-Ming"
+      ],
+      "short_names": [
+        "Li JQ",
+        "Yan ZS",
+        "Ma YQ",
+        "Ding HM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Nanjing University, National Laboratory of Solid State Microstructures and Department of Physics, Collaborative Innovation Center of Advanced Microstructures, Nanjing 210093, China. ROR: https://ror.org/01rxvg760",
+        "Soochow University, Center for Soft Condensed Matter Physics and Interdisciplinary Research, School of Physical Science and Technology, Suzhou 215006, China. ROR: https://ror.org/05t8y2r12",
+        "Nanjing University, National Laboratory of Solid State Microstructures and Department of Physics, Collaborative Innovation Center of Advanced Microstructures, Nanjing 210093, China. ROR: https://ror.org/01rxvg760",
+        "Soochow University, Center for Soft Condensed Matter Physics and Interdisciplinary Research, School of Physical Science and Technology, Suzhou 215006, China. ROR: https://ror.org/05t8y2r12"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Jun-Qi",
+        "short_name": "Li JQ",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University, National Laboratory of Solid State Microstructures and Department of Physics, Collaborative Innovation Center of Advanced Microstructures, Nanjing 210093, China."
+        ]
+      },
+      {
+        "full_name": "Yan, Zeng-Shuai",
+        "short_name": "Yan ZS",
+        "identifiers": [],
+        "affiliations": [
+          "Soochow University, Center for Soft Condensed Matter Physics and Interdisciplinary Research, School of Physical Science and Technology, Suzhou 215006, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Yu-Qiang",
+        "short_name": "Ma YQ",
+        "identifiers": [],
+        "affiliations": [
+          "Nanjing University, National Laboratory of Solid State Microstructures and Department of Physics, Collaborative Innovation Center of Advanced Microstructures, Nanjing 210093, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Hong-Ming",
+        "short_name": "Ding HM",
+        "identifiers": [],
+        "affiliations": [
+          "Soochow University, Center for Soft Condensed Matter Physics and Interdisciplinary Research, School of Physical Science and Technology, Suzhou 215006, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical review. E"
+    ],
+    "journal_abbrev": [
+      "Phys Rev E"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/19 07:53",
+    "fetched_at": "2026-09-21 19:58:40"
+  },
+  "links": {
+    "cites": [
+      "41637578"
+    ],
+    "refs": [],
+    "similar": [
+      "40534071",
+      "37194953",
+      "39804953",
+      "40748104",
+      "37252985",
+      "40985078",
+      "41481439",
+      "39636939",
+      "40098319",
+      "34762868",
+      "39937084",
+      "23912807",
+      "39605385",
+      "33453924",
+      "40172489",
+      "40196628",
+      "38429263",
+      "39815790",
+      "33307683",
+      "37489654",
+      "39113361",
+      "35108264",
+      "40291420",
+      "36227468",
+      "33864415",
+      "38979955",
+      "32482873",
+      "40791470",
+      "39225535",
+      "38621751",
+      "38804888",
+      "40455990",
+      "40112030",
+      "40102453",
+      "39071308",
+      "37215004",
+      "37222424",
+      "41169547",
+      "36883003",
+      "39257779",
+      "31237369",
+      "35802394",
+      "41279444",
+      "38405951",
+      "33672806",
+      "40616404",
+      "37468629",
+      "32312191",
+      "34206440",
+      "39865610",
+      "37325682",
+      "39964249",
+      "39386700",
+      "39513041",
+      "38175843",
+      "34785657",
+      "37293933",
+      "33755443",
+      "38487243",
+      "34759902",
+      "39460625",
+      "38181073",
+      "35293386",
+      "39171763",
+      "40439464",
+      "33453922",
+      "38446881",
+      "38251748",
+      "41480717",
+      "40009520",
+      "34654286",
+      "37721444",
+      "39987501",
+      "34716273",
+      "33076213",
+      "30926670",
+      "38781207",
+      "33139563",
+      "40954121",
+      "35795820",
+      "35501484",
+      "38553587",
+      "40531332",
+      "37130439",
+      "38862770",
+      "37013374",
+      "33629837",
+      "41457474",
+      "36758221",
+      "39880155",
+      "40661456",
+      "34767801",
+      "41378109",
+      "30397688",
+      "40782375",
+      "38260590",
+      "40766493",
+      "29509422",
+      "36106018",
+      "36657879"
+    ],
+    "review": [
+      "40534071",
+      "40172489",
+      "38979955",
+      "38621751",
+      "31237369",
+      "35802394",
+      "40616404",
+      "32312191",
+      "39964249",
+      "38175843",
+      "34759902",
+      "41480717",
+      "39880155",
+      "34767801",
+      "41378109",
+      "29509422",
+      "36106018"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

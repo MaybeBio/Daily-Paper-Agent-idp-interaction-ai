@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "33704061",
+    "doi": "10.7554/eLife.62403",
+    "title": "Decoding the physical principles of two-component biomolecular phase separation."
+  },
+  "content": {
+    "abstract": "Cells possess a multiplicity of non-membrane-bound compartments, which form via liquid-liquid phase separation. These condensates assemble and dissolve as needed to enable central cellular functions. One important class of condensates is those composed of two associating polymer species that form one-to-one specific bonds. What are the physical principles that underlie phase separation in such systems? To address this question, we employed coarse-grained molecular dynamics simulations to examine how the phase boundaries depend on polymer valence, stoichiometry, and binding strength. We discovered a striking phenomenon - for sufficiently strong binding, phase separation is suppressed at rational polymer stoichiometries, which we termed the magic-ratio effect. We further developed an analytical dimer-gel theory that confirmed the magic-ratio effect and disentangled the individual roles of polymer properties in shaping the phase diagram. Our work provides new insights into the factors controlling the phase diagrams of biomolecular condensates, with implications for natural and synthetic systems.",
+    "keywords": [
+      "associative polymers",
+      "biomolecular condensates",
+      "molecular dynamics simulations",
+      "none",
+      "phase separation",
+      "physics of living systems"
+    ],
+    "mesh_terms": [
+      "*Biophysical Phenomena",
+      "*Molecular Dynamics Simulation",
+      "*Phase Transition"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yaojun",
+        "Xu, Bin",
+        "Weiner, Benjamin G",
+        "Meir, Yigal",
+        "Wingreen, Ned S"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Xu B",
+        "Weiner BG",
+        "Meir Y",
+        "Wingreen NS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4587-6834",
+        "ORCID: 0000-0002-1995-8660",
+        "ORCID: 0000-0001-7384-2821"
+      ],
+      "affiliations": [
+        "Center for the Physics of Biological Function, Princeton University, Princeton, United States.",
+        "Department of Physics, Princeton University, Princeton, United States.",
+        "Department of Physics, Princeton University, Princeton, United States.",
+        "Department of Physics, Princeton University, Princeton, United States.",
+        "Department of Physics, Ben Gurion University of the Negev, Beersheba, Israel.",
+        "Department of Molecular Biology, Princeton University, Princeton, United States.",
+        "Department of Molecular Biology, Princeton University, Princeton, United States.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yaojun",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0003-4587-6834"
+        ],
+        "affiliations": [
+          "Center for the Physics of Biological Function, Princeton University, Princeton, United States."
+        ]
+      },
+      {
+        "full_name": "Xu, Bin",
+        "short_name": "Xu B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Princeton University, Princeton, United States."
+        ]
+      },
+      {
+        "full_name": "Weiner, Benjamin G",
+        "short_name": "Weiner BG",
+        "identifiers": [
+          "0000-0002-1995-8660"
+        ],
+        "affiliations": [
+          "Department of Physics, Princeton University, Princeton, United States."
+        ]
+      },
+      {
+        "full_name": "Meir, Yigal",
+        "short_name": "Meir Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Princeton University, Princeton, United States.",
+          "Department of Physics, Ben Gurion University of the Negev, Beersheba, Israel.",
+          "Department of Molecular Biology, Princeton University, Princeton, United States."
+        ]
+      },
+      {
+        "full_name": "Wingreen, Ned S",
+        "short_name": "Wingreen NS",
+        "identifiers": [
+          "0000-0001-7384-2821"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Princeton University, Princeton, United States.",
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2021 Mar 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/12 06:00",
+    "fetched_at": "2026-09-20 01:58:31"
+  },
+  "links": {
+    "cites": [
+      "42473993",
+      "42281556",
+      "41637578",
+      "41288458",
+      "41114728",
+      "40985614",
+      "40909695",
+      "40777465",
+      "39950286",
+      "39642206",
+      "39534915",
+      "39483238",
+      "39320949",
+      "39152221",
+      "39112465",
+      "39046778",
+      "38824391",
+      "38617366",
+      "38596704",
+      "38328089",
+      "38316988",
+      "38293146",
+      "38241434",
+      "38076908",
+      "37408305",
+      "37252985",
+      "37079924",
+      "36987392",
+      "36819870",
+      "36658112",
+      "36639416",
+      "36103543",
+      "35994036",
+      "35540725",
+      "35484234",
+      "35198903",
+      "35119898",
+      "34965250",
+      "34869607",
+      "34866377",
+      "34759902"
+    ],
+    "refs": [
+      "33395293",
+      "33230314",
+      "33212590",
+      "32302570",
+      "32214099",
+      "32004090",
+      "31634364",
+      "30767279",
+      "30661665",
+      "30498228",
+      "30099028",
+      "29364893",
+      "29091028",
+      "28938114",
+      "28935776",
+      "28225081",
+      "27392146",
+      "27374333",
+      "26553976",
+      "26406374",
+      "22398450",
+      "21331432",
+      "19460965",
+      "17081985",
+      "16572472"
+    ],
+    "similar": [
+      "33704061",
+      "32214099",
+      "23912807",
+      "35198903",
+      "37159305",
+      "37252985",
+      "39320949",
+      "35597639",
+      "36227468",
+      "32426986",
+      "39071308",
+      "37194953",
+      "33765580",
+      "29509422",
+      "32004090",
+      "35119898",
+      "32800925",
+      "39398199",
+      "32584357",
+      "35501484",
+      "34144468",
+      "37489654",
+      "34965250",
+      "33496264",
+      "36071192",
+      "34236318",
+      "35293386",
+      "33539874",
+      "31634364",
+      "33087563",
+      "37190858",
+      "29632271",
+      "27526680",
+      "36227469",
+      "36222390",
+      "37276062",
+      "35054543",
+      "36829460",
+      "33049214",
+      "34748548",
+      "33597515",
+      "37325682",
+      "38949285",
+      "30682370",
+      "33300985",
+      "32726575",
+      "36400991",
+      "36543777",
+      "27216316",
+      "33319830",
+      "37759550",
+      "29258725",
+      "32405004",
+      "33119461",
+      "34636323",
+      "32571937",
+      "29323488",
+      "38847600",
+      "36709795",
+      "35245500",
+      "33978410",
+      "30826216",
+      "33397597",
+      "35643628",
+      "33810681",
+      "31845799",
+      "36771812",
+      "31076235",
+      "36400992",
+      "31606941",
+      "39078082",
+      "29569441",
+      "32679076",
+      "33231755",
+      "38961263",
+      "36819870",
+      "37886520",
+      "38349628",
+      "31199001",
+      "30252481",
+      "36175408",
+      "31017394",
+      "30514760",
+      "34235141",
+      "29517898",
+      "37856873",
+      "32934220",
+      "31604601",
+      "33348982",
+      "35378855",
+      "31260737",
+      "32087632",
+      "33577557",
+      "23635170",
+      "34639077",
+      "32302549",
+      "32456986",
+      "32662769",
+      "36993371",
+      "36671536",
+      "37577555",
+      "36397514",
+      "36227473",
+      "32708547",
+      "35567087",
+      "36994084",
+      "35880435",
+      "36291688",
+      "30661665",
+      "36565390",
+      "36179193",
+      "39102550",
+      "26727894",
+      "36227484",
+      "37094002",
+      "33395293",
+      "31913664",
+      "37955602",
+      "34478002",
+      "35597653",
+      "32273899",
+      "36911995",
+      "36103543",
+      "36416856",
+      "35533203",
+      "36261037",
+      "37772172",
+      "35132182",
+      "35098222",
+      "30573819",
+      "37287689",
+      "33532844"
+    ],
+    "review": [
+      "33704061",
+      "33765580",
+      "29509422",
+      "32004090",
+      "32800925",
+      "34144468",
+      "36071192",
+      "33539874",
+      "29632271",
+      "37276062",
+      "33049214",
+      "30682370",
+      "33300985",
+      "32726575",
+      "36400991",
+      "33319830",
+      "37759550",
+      "29258725",
+      "36709795",
+      "35245500",
+      "30826216",
+      "31076235",
+      "36400992",
+      "31606941",
+      "34235141",
+      "31604601",
+      "31260737",
+      "34639077",
+      "32302549",
+      "32456986",
+      "36671536",
+      "35567087",
+      "26727894",
+      "31913664",
+      "35132182",
+      "35098222"
+    ],
+    "pmc": [
+      "7952089"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33704061/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33704061",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.62403",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33704061",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, concluding remarks) as provided.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and alignment of claims with presented evidence. No assessment of editorial fit or publication venue suitability.
+- **Shared manuscript claim summary** The authors present a divide-and-conquer molecular dynamics approach (PATCH) to construct conformational ensembles of the intrinsically disordered protein α-synuclein at pH ~7 and pH ~3. They claim pH-dependent global compaction at low pH, maintenance of end-to-end distance, local secondary structure differences, and altered inter-domain contact patterns, with implications for pathogenic fibril formation.
+- **Visible evidence base** Abstract, full methods description, results sections A–D, figures referenced (Figures 1–7), supplementary material referenced (Figures S1–S6), and comparison to published experimental data (smFRET, SAXS, NMR).
+- **Missing materials affecting confidence** Actual figure content (plots, data points, error bars) not visible; supplementary figures not provided; no raw simulation trajectories or analysis scripts; no explicit statistical significance tests reported; no direct comparison of ensemble distributions to experimental data beyond qualitative statements.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computationally intensive and conceptually interesting approach to sampling IDP conformational ensembles, applied to a biologically relevant question regarding pH effects on α-synuclein. The PATCH method is described in sufficient detail to be reproducible, and the authors make reasonable efforts to validate their ensembles against experimental observables. However, several technical aspects of the method and the strength of the conclusions drawn from the data require clarification and additional analysis before the central claims can be considered fully established. The qualitative agreement with experimental trends is encouraging, but the lack of quantitative comparisons and the absence of visible figures limit the current assessment.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, computational biophysics, and molecular simulation methodology would find this work relevant. Those studying α-synuclein aggregation and the molecular basis of Parkinson's disease may also be interested in the pH-dependent conformational insights. The PATCH method itself could attract interest from method developers seeking efficient sampling strategies for large IDPs.
+- **Major strengths** The PATCH method is a novel and potentially powerful approach to address the sampling problem in IDP simulations. The authors provide a clear physical rationale for the method and describe its implementation in detail. The comparison of ensemble properties to multiple experimental techniques (smFRET, SAXS, NMR) is a commendable effort to validate the computational results. The analysis of contact patterns and hydrophobicity changes provides a mechanistic interpretation of pH effects that goes beyond simple radius of gyration comparisons.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The PATCH method produces conformational ensembles that "reproduced key statistical properties obtained by experimental studies" and that the ensembles are representative of the true IDP conformational space.
+  - **Evidence pointer** Methods section "IDP Sampling method overview"; Results section "pH induced global conformational changes"; Figures 3 and 4.
+  - **Concern** The validation of the PATCH ensembles relies on comparison of ensemble averages (e.g., Rg, inter-residue distances) to experimental values. However, the manuscript does not provide a quantitative measure of agreement, such as chi-squared statistics or overlap coefficients between simulated and experimental distributions. Furthermore, the weighting scheme (step IV) is described as a "posteriori perturbation" but the details of how the weights are calculated and how sensitive the final ensembles are to the choice of weighting parameters are not fully specified. The potential for the weighting scheme to bias the ensemble toward experimental observables in a circular manner is not addressed.
+  - **Why it matters** If the weighting scheme is tuned to reproduce experimental Rg values, then the agreement with experiment is not an independent validation. The central claim that PATCH provides unbiased or enhanced sampling of the IDP ensemble is not fully supported without a demonstration that the method converges to the same ensemble from different initial conditions or that the weights do not overfit to specific observables.
+  - **Resolution test** Provide a quantitative comparison between simulated and experimental observables, including error estimates. Describe the weighting scheme in full mathematical detail and demonstrate that the final ensemble is robust to variations in the weighting parameters. Show convergence of ensemble properties with respect to the number of generated conformations and the length of segment simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the low pH ensemble (asyn3) shows a compacted C-terminal region as compared with the asyn7 ensemble while maintaining approximately the same end-to-end distance, a result also seen in FRET data."
+  - **Evidence pointer** Results section "pH induced global conformational changes"; Figures 4 and 5.
+  - **Concern** The comparison to smFRET data is described as "qualitatively consistent" but no quantitative analysis is presented. The FRET efficiency is related to distance in a nonlinear manner, and the conversion between FRET efficiency and distance is acknowledged to be challenging. However, the manuscript does not show how the simulated distance distributions are converted to predicted FRET efficiencies for direct comparison, nor does it provide statistical measures of agreement. The claim that the end-to-end distance is "approximately the same" between pH conditions is based on visual inspection of distributions, but no numerical values or confidence intervals are given.
+  - **Why it matters** The validation against smFRET is a key piece of evidence for the reliability of the PATCH ensembles. Without a rigorous quantitative comparison, the claim of consistency with experiment is weakened, and the reader cannot assess the degree of agreement or disagreement.
+  - **Resolution test** Convert simulated distance distributions to predicted FRET efficiencies using a suitable dye model and compare directly to experimental FRET efficiency distributions. Provide quantitative metrics such as mean squared error or Kolmogorov-Smirnov statistics. Report numerical values for end-to-end distances with standard deviations for both pH conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "reduced self-interaction of the NAC region as well as increased interaction between the NAC and C-terminal domains due to increased hydrophobicity and elimination of adjacent negative charges may create new opportunities for inter-protein interactions resulting in aggregation."
+  - **Evidence pointer** Results section "Physical interaction of pH induced conformational changes"; Figure 7.
+  - **Concern** The connection between intramolecular contact changes and intermolecular aggregation propensity is speculative. The authors observe changes in intramolecular contacts within the monomer, but the leap to aggregation mechanisms requires additional evidence or a more nuanced discussion. The claim that reduced NAC self-interaction "may free up this region to interact with other molecules" is plausible but not directly supported by the presented data, which only examines monomeric ensembles.
+  - **Why it matters** The biological relevance of the study hinges on the link between pH-induced conformational changes and aggregation. If this link is not clearly established, the significance of the findings for understanding Parkinson's disease pathology is diminished.
+  - **Resolution test** Discuss alternative interpretations of the contact changes, such as increased exposure of aggregation-prone regions, and relate the findings to known aggregation mechanisms. If possible, perform coarse-grained or simplified intermolecular simulations to test the hypothesis directly, or cite experimental evidence that supports the proposed mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction assumes familiarity with IDP terminology and concepts without sufficient background for a general scientific audience. Terms such as "conformational ensemble," "IDP," and "smFRET" are used without definition.
+  - **Required correction** Provide brief definitions or explanations of key terms when first introduced, or add a short background paragraph on IDPs and their biological relevance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section, "Modeling a-synuclein"
+  - **Evidence pointer** Methods section, "Modeling a-synuclein"
+  - **Issue** The choice of protonation states is described as based on pKa values from NMR, but the specific pKa values used and how they were mapped to the simulation conditions are not provided. The statement that "asparagine is not present in the peptide" is noted, but the handling of histidine protonation (H50) is not fully explained.
+  - **Required correction** Provide a table or list of the pKa values used for each titratable residue and the resulting protonation states for both pH conditions. Clarify the rationale for the histidine protonation state at pH 3 and pH 7.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section, "pH induced global conformational changes"
+  - **Evidence pointer** Results section, "pH induced global conformational changes"; Figure 3
+  - **Issue** The comparison of simulated Rg values to experimental SAXS data is presented as supportive, but the experimental values are cited from different studies with potentially different solution conditions. The manuscript does not discuss whether differences in ionic strength, temperature, or protein concentration between experiments and simulations could affect the comparison.
+  - **Required correction** Discuss the solution conditions of the experimental references and how they compare to the simulation conditions. Acknowledge any potential discrepancies and their impact on the interpretation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Results section, "Physical interaction of pH induced conformational changes"
+  - **Evidence pointer** Results section, "Physical interaction of pH induced conformational changes"; Figure 7c
+  - **Issue** The "saddle plot" analysis is introduced with reference to chromosome structural analysis, but the connection to protein biophysics may not be immediately clear to all readers. The interpretation of the saddle plot in terms of hydrophobic and hydrophilic interactions is described, but the figure itself is not visible in the provided text.
+  - **Required correction** Provide a more detailed explanation of how to read the saddle plot and what features indicate changes in hydrophobic/hydrophilic interactions. Ensure the figure is clearly labeled and self-explanatory.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The lack of quantitative validation against experimental data and the incomplete description of the weighting scheme undermine the central claim that PATCH produces reliable ensembles. Additionally, the absence of visible figures prevents full assessment of the data quality and the appropriateness of the analyses.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The PATCH method is a novel contribution to the field of IDP simulation, offering a potentially efficient alternative to brute-force long-timescale simulations. The application to pH-dependent conformational changes in α-synuclein is not entirely new, but the methodological approach provides a fresh perspective.
+  - **Scientific importance** The study addresses a relevant question regarding the environmental sensitivity of IDPs and its potential link to disease. However, the direct implications for aggregation mechanisms are speculative, and the importance of the findings for a broad audience is moderate.
+  - **Interdisciplinary readership** The work bridges computational biophysics, protein chemistry, and neurobiology. The methods and results would be of interest to researchers in these fields, but the presentation may be too specialized for a general scientific audience.
+  - **Technical soundness** The methodological framework is sound in principle, but the lack of quantitative validation and incomplete description of the weighting scheme are significant weaknesses. The technical details of the simulations are generally well described, but the analysis could be more rigorous.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with IDP simulation and analysis methods. The introduction and some results sections could be made more accessible with additional background and clearer explanations of key concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The PATCH method is interesting and the qualitative agreement with experiment is encouraging, but the current evidence does not fully establish the reliability of the ensembles or the strength of the biological conclusions. Addressing the major concerns regarding quantitative validation and methodological transparency would significantly strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that PATCH ensembles "reproduced key statistical properties obtained by experimental studies" is not quantitatively supported.
+- The claim that the end-to-end distance is "approximately the same" between pH conditions is not supported by numerical data.
+- The conclusion that reduced NAC self-interaction may promote intermolecular aggregation is speculative and not directly tested.
+- The statement that "the structural changes observed are consistent with those from experiments" is based on qualitative comparisons and lacks statistical backing.
+- The assertion that the PATCH method provides "enhanced sampling" is not demonstrated through convergence tests or comparison to unbiased simulations.

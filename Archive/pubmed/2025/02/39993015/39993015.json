@@ -1,0 +1,261 @@
+{
+  "identity": {
+    "pmid": "39993015",
+    "doi": "10.1021/acs.jpcb.4c07616",
+    "title": "Studying the Signaling Mechanism of Neuropilin-1's Intracellular Disorder Region via Conformational Mining and Dynamic Interaction Characterization."
+  },
+  "content": {
+    "abstract": "Many single-pass membrane proteins contain an intrinsically disordered region (IDR) within their intracellular domain, playing a key role in regulating cellular signaling. However, understanding the functional mechanisms of these disordered regions has remained a challenge. In this study, we focus on the cytoplasmic IDR of neuropilin-1 (NRP-1 IDR) and employ a combination of experimental and computational methods to investigate its dynamics and function. We compare several enhanced sampling molecular simulations, structural statistics-based methods, and AI-driven conformation mining techniques, emphasizing the strengths and limitations of each with respect to sampling diversity and energy landscape exploration. Subsequently, we investigate the broad array of potential binding partners for the NRP-1 IDR and employ AlphaFold3 for complex structure prediction, highlighting the promiscuous binding behavior of the NRP-1 IDR. Finally, we focus on high-confidence binding partners, GIPC-1 and SNX-5, validating the interaction of the NRP-1 IDR with these proteins and investigating the effects of membrane context and phosphorylation on these interactions. Our findings provide critical insights into how a flexible cytoplasmic region in signal-transmembrane proteins can modulate transmembrane signaling.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Neuropilin-1/chemistry/metabolism",
+      "Signal Transduction",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Binding",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yue, Congran",
+        "Shi, Sai",
+        "Li, Zhenlu",
+        "Ye, Sheng"
+      ],
+      "short_names": [
+        "Yue C",
+        "Shi S",
+        "Li Z",
+        "Ye S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4853-6907",
+        "ORCID: 0000-0001-9300-6257"
+      ],
+      "affiliations": [
+        "School of Life Science, Tianjin University, 92 Weijin Road, Tianjin 300072, China.",
+        "Frontiers Science Center for Synthetic Biology (Ministry of Education), Tianjin Key Laboratory of Function and Application of Biological Macromolecular Structures, Tianjin University, 92 Weijin Road, Tianjin 300072, China.",
+        "School of Life Science, Tianjin University, 92 Weijin Road, Tianjin 300072, China.",
+        "Frontiers Science Center for Synthetic Biology (Ministry of Education), Tianjin Key Laboratory of Function and Application of Biological Macromolecular Structures, Tianjin University, 92 Weijin Road, Tianjin 300072, China.",
+        "School of Life Science, Tianjin University, 92 Weijin Road, Tianjin 300072, China.",
+        "Frontiers Science Center for Synthetic Biology (Ministry of Education), Tianjin Key Laboratory of Function and Application of Biological Macromolecular Structures, Tianjin University, 92 Weijin Road, Tianjin 300072, China.",
+        "School of Life Science, Tianjin University, 92 Weijin Road, Tianjin 300072, China.",
+        "Frontiers Science Center for Synthetic Biology (Ministry of Education), Tianjin Key Laboratory of Function and Application of Biological Macromolecular Structures, Tianjin University, 92 Weijin Road, Tianjin 300072, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yue, Congran",
+        "short_name": "Yue C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Tianjin University, 92 Weijin Road, Tianjin 300072, China.",
+          "Frontiers Science Center for Synthetic Biology (Ministry of Education), Tianjin Key Laboratory of Function and Application of Biological Macromolecular Structures, Tianjin University, 92 Weijin Road, Tianjin 300072, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Sai",
+        "short_name": "Shi S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Tianjin University, 92 Weijin Road, Tianjin 300072, China.",
+          "Frontiers Science Center for Synthetic Biology (Ministry of Education), Tianjin Key Laboratory of Function and Application of Biological Macromolecular Structures, Tianjin University, 92 Weijin Road, Tianjin 300072, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhenlu",
+        "short_name": "Li Z",
+        "identifiers": [
+          "0000-0003-4853-6907"
+        ],
+        "affiliations": [
+          "School of Life Science, Tianjin University, 92 Weijin Road, Tianjin 300072, China.",
+          "Frontiers Science Center for Synthetic Biology (Ministry of Education), Tianjin Key Laboratory of Function and Application of Biological Macromolecular Structures, Tianjin University, 92 Weijin Road, Tianjin 300072, China."
+        ]
+      },
+      {
+        "full_name": "Ye, Sheng",
+        "short_name": "Ye S",
+        "identifiers": [
+          "0000-0001-9300-6257"
+        ],
+        "affiliations": [
+          "School of Life Science, Tianjin University, 92 Weijin Road, Tianjin 300072, China.",
+          "Frontiers Science Center for Synthetic Biology (Ministry of Education), Tianjin Key Laboratory of Function and Application of Biological Macromolecular Structures, Tianjin University, 92 Weijin Road, Tianjin 300072, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Mar 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/24 23:04",
+    "fetched_at": "2026-09-21 16:07:33"
+  },
+  "links": {
+    "cites": [
+      "40799364"
+    ],
+    "refs": [],
+    "similar": [
+      "39993015",
+      "29414700",
+      "39093570",
+      "38942776",
+      "41580895",
+      "25625937",
+      "23912807",
+      "30813315",
+      "40467883",
+      "33627133",
+      "30855964",
+      "30878482",
+      "28780862",
+      "31441158",
+      "31932309",
+      "39589885",
+      "39740355",
+      "29550429",
+      "34243065",
+      "40650026",
+      "26742101",
+      "39384813",
+      "41365991",
+      "33030249",
+      "33355572",
+      "34845619",
+      "40574713",
+      "39453744",
+      "26735936",
+      "25017730",
+      "40101966",
+      "41378882",
+      "40403066",
+      "33779503",
+      "38985766",
+      "35914331",
+      "34681718",
+      "30071273",
+      "39555603",
+      "35658951",
+      "30979035",
+      "39446390",
+      "40693919",
+      "39190324",
+      "27844185",
+      "31804089",
+      "12610149",
+      "33087759",
+      "33877595",
+      "25814479",
+      "33243935",
+      "31894361",
+      "38166858",
+      "41534519",
+      "39186607",
+      "40973726",
+      "39984297",
+      "29309620",
+      "32020911",
+      "38018910",
+      "41930927",
+      "34883116",
+      "39163306",
+      "39539017",
+      "32708183",
+      "31671865",
+      "34656327",
+      "30514761",
+      "40308178",
+      "37125110",
+      "26195786",
+      "39285530",
+      "32034199",
+      "32592801",
+      "29364151",
+      "29382046",
+      "35051666",
+      "38987470",
+      "34461937",
+      "32544231",
+      "29990433",
+      "29626537",
+      "25315821",
+      "25207671",
+      "34825861",
+      "27391701",
+      "27720589",
+      "29758263",
+      "41972736",
+      "26030674",
+      "18831774",
+      "29276882",
+      "36987865",
+      "29080786",
+      "35658083",
+      "32654182",
+      "28554553",
+      "28493424",
+      "37905972",
+      "34179096"
+    ],
+    "review": [
+      "39993015",
+      "39093570",
+      "25625937",
+      "31441158",
+      "39740355",
+      "40650026",
+      "33355572",
+      "39555603",
+      "30979035",
+      "25814479",
+      "33243935",
+      "32020911",
+      "32708183",
+      "32034199",
+      "29364151",
+      "29382046",
+      "35051666",
+      "28554553"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1385",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.4c07616",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

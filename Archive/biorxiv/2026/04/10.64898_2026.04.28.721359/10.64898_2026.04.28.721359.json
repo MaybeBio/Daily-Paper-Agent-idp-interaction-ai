@@ -1,0 +1,127 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.28.721359",
+  "title": "SPPIDER-seq: Sequence-based partner-aware predictor of protein-protein interaction sites",
+  "doi": "10.64898/2026.04.28.721359",
+  "abstract": "<h4>Motivation</h4> Sequence-based protein–protein interaction (PPI) site predictors typically analyze proteins in isolation, neglecting partner-specific context that is critical for interface specificity, particularly in transient and disordered interactions. <h4>Results</h4> We introduce SPPIDER-seq, a partner-aware PPI site prediction framework that combines pretrained ESM-2 embeddings with a cross-attention architecture to enable residue-level conditioning on interacting partners. We curated non-redundant protein–peptide interaction datasets from BioLiP and used them to train and benchmark two complementary models: a receptor-centric model optimized for structured interfaces and a peptide-centric model tailored to disordered, motif-driven binding. On blind benchmarks, SPPIDER-seq achieved AUROC values up to 0.797 and MCC values up to 0.269, outperforming AlphaFold3 on peptide-mediated and disordered interfaces while remaining complementary on globular complexes. Application to 341 TP53 interaction partners revealed coherent, partner-specific interface patterns across both structured and intrinsically disordered regions. <h4>Availability and Implementation</h4> SPPIDER-seq models, datasets, and the Python code are freely available on the web at: https://github.com/aporollo-lab/SPPIDER-seq and archived on Zenodo at DOI: 10.5281/zenodo.19835990, corresponding to GitHub release v2.0-manuscript. <h4>Contact</h4> Dr. Aleksey Porollo – porollay@ucmail.uc.edu Dr. Jichao Chen – jichao.chen@cchmc.org <h4>Supplementary Information</h4> Available online with the manuscript.",
+  "authors": [
+    "Porollo A",
+    "Jadhav O",
+    "Alvarez A",
+    "Chen J"
+  ],
+  "published_date": "2026-04-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.28.721359",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.28.721359.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1211180",
+    "raw_record": {
+      "id": "PPR1211180",
+      "source": "PPR",
+      "doi": "10.64898/2026.04.28.721359",
+      "title": "SPPIDER-seq: Sequence-based partner-aware predictor of protein-protein interaction sites",
+      "authorString": "Porollo A, Jadhav O, Alvarez A, Chen J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Porollo A",
+            "lastName": "Porollo",
+            "firstName": "Aleksey",
+            "initials": "A"
+          },
+          {
+            "fullName": "Jadhav O",
+            "lastName": "Jadhav",
+            "firstName": "Om",
+            "initials": "O"
+          },
+          {
+            "fullName": "Alvarez A",
+            "lastName": "Alvarez",
+            "firstName": "Aaron",
+            "initials": "A"
+          },
+          {
+            "fullName": "Chen J",
+            "lastName": "Chen",
+            "firstName": "Jichao",
+            "initials": "J"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>Motivation</h4>  Sequence-based protein–protein interaction (PPI) site predictors typically analyze proteins in isolation, neglecting partner-specific context that is critical for interface specificity, particularly in transient and disordered interactions. <h4>Results</h4>  We introduce SPPIDER-seq, a partner-aware PPI site prediction framework that combines pretrained ESM-2 embeddings with a cross-attention architecture to enable residue-level conditioning on interacting partners. We curated non-redundant protein–peptide interaction datasets from BioLiP and used them to train and benchmark two complementary models: a receptor-centric model optimized for structured interfaces and a peptide-centric model tailored to disordered, motif-driven binding. On blind benchmarks, SPPIDER-seq achieved AUROC values up to 0.797 and MCC values up to 0.269, outperforming AlphaFold3 on peptide-mediated and disordered interfaces while remaining complementary on globular complexes. Application to 341 TP53 interaction partners revealed coherent, partner-specific interface patterns across both structured and intrinsically disordered regions. <h4>Availability and Implementation</h4>  SPPIDER-seq models, datasets, and the Python code are freely available on the web at:  https://github.com/aporollo-lab/SPPIDER-seq and archived on Zenodo at DOI: 10.5281/zenodo.19835990, corresponding to GitHub release v2.0-manuscript.  <h4>Contact</h4>  Dr. Aleksey Porollo –  porollay@ucmail.uc.edu Dr. Jichao Chen –  jichao.chen@cchmc.org <h4>Supplementary Information</h4>  Available online with the manuscript.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.04.28.721359"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42289971",
+            "reference": "Bioinformatics (Oxford, England). \n    2026 Jun;:btag388",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-04-30",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

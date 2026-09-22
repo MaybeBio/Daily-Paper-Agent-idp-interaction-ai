@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.05.742966",
+  "title": "Viral Protease Nsp5 Hijacks La Autoantigen to Orchestrate the Translation to Replication Transition in SARS-CoV-2",
+  "authors": "Sahu R; Raheja H; Gaurav SNG; Paul S; Sabari SV; Ghosh PK; Rajmani RS; Das S",
+  "journal": "bioRxiv",
+  "published_date": "2026-08-05",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过MD模拟与对接研究SARS-CoV-2 Nsp5蛋白酶切割La自身抗原的C端无序区，破坏其二聚化与RNA结合，从而调控病毒翻译-复制转换，虽对象为病毒蛋白与宿主RNA结合蛋白而非典型IDP-PPI，但聚焦IDR介导的互作机制且采用物理模拟，对本课题有较强可迁移启发。",
+  "abstract": "Viruses genetically encode proteins to regulate their life cycle. To translate this genetic information, most viruses exploit host translation machinery. Host dependency leads to competition between viral RNA and host mRNAs. Most viruses overcome it by inhibiting cap-dependent translation of host mRNAs and shifting its own translation into cap-independent mode. This switch is largely orchestrated by host RNA binding proteins (RBPs) by binding to viral 5’UTRs. Here we demonstrate that human La autoantigen (La protein) specifically binds to GCAC sequence near the initiator AUG within the 5’UTR of SARS-CoV-2 RNA promoting viral non-structural protein synthesis by cap independent translation, while suppressing replication early in infection. Interestingly, around 18-24 h post-infection, the viral protease Nsp5 cleaves La at a conserved LQ site, abrogating its 5′UTR interaction, which correlates with reduced polysome association and increased viral RNA availability for replication. MD simulation and docking study suggests that the cleavage disrupts La dimerization and truncates its C-terminal intrinsically disordered region, reducing RNA-binding affinity and conformational stability required for translation-competent ribonucleoprotein complexes. Results put forward a unique mechanism by which Nsp5-mediated proteolysis of La drives the temporal switch from translation to replication of SARS-CoV-2.",
+  "abstract_zh": "病毒通过基因编码蛋白质来调控其生命周期。为翻译这些遗传信息，大多数病毒利用宿主翻译机制。宿主依赖性导致病毒RNA与宿主mRNA之间的竞争。多数病毒通过抑制宿主mRNA的帽依赖性翻译，并将其自身翻译转变为非帽依赖性模式来克服这一竞争。这一转换主要由宿主RNA结合蛋白（RBPs）通过结合病毒5'UTR来协调。在此，我们证明人类La自身抗原（La蛋白）特异性结合SARS-CoV-2 RNA 5'UTR内起始密码子AUG附近的GCAC序列，通过非帽依赖性翻译促进病毒非结构蛋白合成，同时在感染早期抑制复制。有趣的是，在感染后约18-24小时，病毒蛋白酶Nsp5在保守的LQ位点切割La，消除其5'UTR相互作用，这与多聚体关联减少及病毒RNA用于复制的可用性增加相关。分子动力学模拟和对接研究表明，切割破坏La二聚化并截短其C端内在无序区域，降低RNA结合亲和力及翻译能力核糖核蛋白复合物所需的构象稳定性。结果提出了一种独特机制，即Nsp5介导的La蛋白水解驱动SARS-CoV-2从翻译到复制的时序转换。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.05.742966",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.05.742966",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.05.742966/index.html"
+}

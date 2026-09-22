@@ -1,0 +1,36 @@
+{
+  "source": "arxiv",
+  "source_id": "2509.08100v2",
+  "title": "Combinatorial decision-making driven by multicomponent surface condensates",
+  "doi": "10.1073/pnas.2527873123",
+  "abstract": "Living organisms rely on molecular networks, such as gene circuits and signaling pathways, for information processing and robust decision-making in crowded, noisy environments. Recent advances show that interacting biomolecules self-organize by phase transitions into coexisting spatial compartments called condensates, often on cellular surfaces such as chromatin and membranes. In this paper, we demonstrate that multicomponent fluids can be designed to recruit distinct condensates to surfaces with differing compositions, performing a form of surface classification by condensation. We draw an analogy to multidimensional classification in machine learning and explore how hidden species, analogous to hidden nodes, expand the expressivity and capacity of these interacting ensembles to facilitate complex decision boundaries. By simply changing levels of individual species, we find that the same molecular repertoire can be reprogrammed to solve new tasks. Together, our findings suggest that the physical processes underlying biomolecular condensates can encode and drive adaptive information processing beyond compartmentalization.",
+  "authors": [
+    "Aidan Zentner",
+    "Ethan V. Halingstad",
+    "Cameron Chalk",
+    "Michael P. Brenner",
+    "Arvind Murugan",
+    "Erik Winfree",
+    "Krishna Shrinivas"
+  ],
+  "published_date": "2025-09-09T19:21:26Z",
+  "updated_date": "2026-06-18T17:01:55Z",
+  "journal": "",
+  "category": "physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2509.08100v2",
+  "pdf_url": "https://arxiv.org/pdf/2509.08100v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2509.08100v2",
+    "raw_categories": [
+      "physics.bio-ph"
+    ],
+    "journal_ref": ""
+  }
+}

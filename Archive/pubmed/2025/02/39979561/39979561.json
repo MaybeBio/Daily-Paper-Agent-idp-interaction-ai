@@ -1,0 +1,375 @@
+{
+  "identity": {
+    "pmid": "39979561",
+    "doi": "10.1007/s10930-025-10253-0",
+    "title": "An Analysis of Intrinsic Protein Disorder in Antimicrobial Peptides."
+  },
+  "content": {
+    "abstract": "Antibiotic resistance, driven by the rise of pathogens like VRE and MRSA, poses a global health threat, prompting the exploration of antimicrobial peptides (AMPs) as alternatives to traditional antibiotics. AMPs, known for their broad-spectrum activity and structural flexibility, share characteristics with intrinsically disordered proteins, which lack a rigid structure and play diverse roles in cellular processes. This study aims to quantify the intrinsic disorder and liquid-liquid phase separation (LLPS) propensity in AMPs, advancing our understanding of their antimicrobial mechanisms and potential therapeutic applications. To investigate the propensity for intrinsic disorder and LLPS in AMPs, we compared the AMPs to the human proteome. The AMP sequences were retrieved from the AMP database (APD3), while the human proteome was obtained from the UniProt database. We analyzed amino acid composition using the Composition Profiler tool and assessed intrinsic disorder using various predictors, including PONDR(R) and IUPred, through the Rapid Intrinsic Disorder Analysis Online (RIDAO) platform. For LLPS propensity, we employed FuzDrop, and FuzPred was used to predict context-dependent binding behaviors. Statistical analyses, such as ANOVA and chi(2) tests, were performed to determine the significance of observed differences between the two groups. We analyzed over 3000 AMPs and 20,000 human proteins to investigate differences in amino acid composition, intrinsic disorder, and LLPS potential. Composition analysis revealed distinct differences in amino acid abundance, with AMPs showing an enrichment in both order-promoting and disorder-promoting amino acids compared to the human proteome. Intrinsic disorder analysis, performed using a range of predictors, consistently demonstrated that AMPs exhibit higher levels of predicted disorder than human proteins, with significant differences confirmed by statistical tests. LLPS analysis, conducted using FuzDrop, showed that AMPs had a lower overall propensity for LLPS compared to human proteins, although specific subsets of AMPs exhibited high LLPS potential. Additionally, redox-dependent disorder predictions highlighted significant differences in how AMP and human proteins respond to oxidative conditions, further suggesting functional divergences between the two proteomes. CH-CDF plot analysis revealed that AMPs and human proteins occupy distinct structural categories, with AMPs showing a greater proportion of highly disordered proteins compared to the human proteome. These findings underscore key molecular differences between AMPs and human proteins, with implications for their antimicrobial activity and potential therapeutic applications. Our study reveals that AMPs possess a significantly higher degree of intrinsic disorder and specific subsets exhibit LLPS potential, distinguishing them from the human proteome. These molecular characteristics likely contribute to their antimicrobial function and adaptability, offering valuable insights for developing novel therapeutic strategies to combat antibiotic resistance.",
+    "keywords": [
+      "Antimicrobial peptides",
+      "intrinsic protein disorder",
+      "liquid-liquid phase separation",
+      "proteomics"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Antimicrobial Peptides/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Proteome/chemistry",
+      "Databases, Protein"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Antonietti, Michael",
+        "Kim, Colin K",
+        "Granack, Sydney",
+        "Hadzijahic, Nedym",
+        "Taylor Gonzalez, David J",
+        "Herskowitz, William R",
+        "Uversky, Vladimir N",
+        "Djulbegovic, Mak B"
+      ],
+      "short_names": [
+        "Antonietti M",
+        "Kim CK",
+        "Granack S",
+        "Hadzijahic N",
+        "Taylor Gonzalez DJ",
+        "Herskowitz WR",
+        "Uversky VN",
+        "Djulbegovic MB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, USA.",
+        "University of Miami, Miami, FL, USA.",
+        "Hamilton Eye Institute, University of Tennessee Health and Science Center, Memphis, United States.",
+        "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, USA.",
+        "Wills Eye Hospital, Thomas Jefferson University, Philadelphia, PA, USA. makdjulbegovic@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Antonietti, Michael",
+        "short_name": "Antonietti M",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Colin K",
+        "short_name": "Kim CK",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Granack, Sydney",
+        "short_name": "Granack S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Hadzijahic, Nedym",
+        "short_name": "Hadzijahic N",
+        "identifiers": [],
+        "affiliations": [
+          "University of Miami, Miami, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Taylor Gonzalez, David J",
+        "short_name": "Taylor Gonzalez DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Hamilton Eye Institute, University of Tennessee Health and Science Center, Memphis, United States."
+        ]
+      },
+      {
+        "full_name": "Herskowitz, William R",
+        "short_name": "Herskowitz WR",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, Miami, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Djulbegovic, Mak B",
+        "short_name": "Djulbegovic MB",
+        "identifiers": [],
+        "affiliations": [
+          "Wills Eye Hospital, Thomas Jefferson University, Philadelphia, PA, USA. makdjulbegovic@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The protein journal"
+    ],
+    "journal_abbrev": [
+      "Protein J"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/21 00:21",
+    "fetched_at": "2026-09-21 15:50:43"
+  },
+  "links": {
+    "cites": [
+      "42370218",
+      "41865229"
+    ],
+    "refs": [
+      "39535659",
+      "39117985",
+      "38569991",
+      "38082064",
+      "37938626",
+      "37626310",
+      "37561450",
+      "37506796",
+      "37056758",
+      "36575582",
+      "36568838",
+      "36529161",
+      "36430530",
+      "36408920",
+      "36334049",
+      "36292588",
+      "36289996",
+      "35610022",
+      "35472218",
+      "35139468",
+      "35133401",
+      "35128080",
+      "34716273",
+      "34606679",
+      "34496967",
+      "34428231",
+      "34425316",
+      "34391803",
+      "34103467",
+      "34067510",
+      "33875885",
+      "33805777",
+      "33613470",
+      "33396637",
+      "33318217",
+      "33178164",
+      "32947964",
+      "32828470",
+      "32653070",
+      "32453748",
+      "32169484",
+      "32112804",
+      "31928725",
+      "31329574",
+      "30833614",
+      "30065727",
+      "29906412",
+      "29351202",
+      "29214002",
+      "29142102",
+      "28819546",
+      "28490127",
+      "27291647",
+      "26957115",
+      "26766224",
+      "26602694",
+      "26079210",
+      "25436423",
+      "24809821",
+      "23633940",
+      "23553817",
+      "21680034",
+      "19768526",
+      "19351533",
+      "18957441",
+      "18573080",
+      "18522489",
+      "18423411",
+      "18337513",
+      "17621952",
+      "17578581",
+      "16187360",
+      "15751111",
+      "15608167",
+      "14681488",
+      "12949495",
+      "12368089",
+      "7866702",
+      "3286634"
+    ],
+    "similar": [
+      "39979561",
+      "38569991",
+      "36575582",
+      "37626310",
+      "39117985",
+      "39075773",
+      "39382284",
+      "37561450",
+      "26957115",
+      "40100125",
+      "37634152",
+      "36334049",
+      "31326853",
+      "35883530",
+      "27062995",
+      "32696395",
+      "40013796",
+      "39540425",
+      "39637960",
+      "39256186",
+      "39480053",
+      "39276418",
+      "30380085",
+      "30099775",
+      "39311963",
+      "35142991",
+      "35481633",
+      "34769122",
+      "36430801",
+      "39330266",
+      "35862981",
+      "33719450",
+      "37796176",
+      "37446185",
+      "34502067",
+      "38934543",
+      "39557756",
+      "37812573",
+      "38932209",
+      "40286095",
+      "31911439",
+      "37890707",
+      "16939197",
+      "37888440",
+      "31442477",
+      "36586039",
+      "40231443",
+      "26513658",
+      "39383473",
+      "39395188",
+      "40107127",
+      "31941785",
+      "35290420",
+      "39138702",
+      "38855848",
+      "36768473",
+      "36283984",
+      "29511089",
+      "34600037",
+      "40142093",
+      "39973083",
+      "36329825",
+      "38672516",
+      "35254957",
+      "36671338",
+      "32371601",
+      "33139563",
+      "30198635",
+      "18831774",
+      "35168792",
+      "28971739",
+      "39871592",
+      "26648572",
+      "34985302",
+      "19067583",
+      "32999081",
+      "38322526",
+      "17206849",
+      "40043049",
+      "34937169",
+      "24939692",
+      "38755524",
+      "29388242",
+      "37369638",
+      "37144752",
+      "27037624",
+      "28934129",
+      "38526948",
+      "36464283",
+      "35531270",
+      "37992221",
+      "37695921",
+      "36135381",
+      "36350034",
+      "37287138",
+      "34867843",
+      "17391016",
+      "37450018",
+      "37914524",
+      "39935019"
+    ],
+    "review": [
+      "39979561",
+      "39480053",
+      "39276418",
+      "39311963",
+      "35142991",
+      "34769122",
+      "39557756",
+      "40286095",
+      "31911439",
+      "40107127",
+      "38855848",
+      "34600037",
+      "38672516",
+      "35254957",
+      "39871592",
+      "26648572",
+      "36464283",
+      "36350034",
+      "37450018"
+    ],
+    "pmc": [
+      "11937183"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39979561/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://link.springer.com/article/10.1007/s10930-025-10253-0",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

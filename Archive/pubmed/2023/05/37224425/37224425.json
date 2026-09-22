@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "37224425",
+    "doi": "10.1021/acs.biochem.3c00096",
+    "title": "Elucidation of Short Linear Motif-Based Interactions of the FERM Domains of Ezrin, Radixin, Moesin, and Merlin."
+  },
+  "content": {
+    "abstract": "The ERM (ezrin, radixin, and moesin) family of proteins and the related protein merlin participate in scaffolding and signaling events at the cell cortex. The proteins share an N-terminal FERM [band four-point-one (4.1) ERM] domain composed of three subdomains (F1, F2, and F3) with binding sites for short linear peptide motifs. By screening the FERM domains of the ERMs and merlin against a phage library that displays peptides representing the intrinsically disordered regions of the human proteome, we identified a large number of novel ligands. We determined the affinities for the ERM and merlin FERM domains interacting with 18 peptides and validated interactions with full-length proteins through pull-down experiments. The majority of the peptides contained an apparent Yx[FILV] motif; others show alternative motifs. We defined distinct binding sites for two types of similar but distinct binding motifs (YxV and FYDF) using a combination of Rosetta FlexPepDock computational peptide docking protocols and mutational analysis. We provide a detailed molecular understanding of how the two types of peptides with distinct motifs bind to different sites on the moesin FERM phosphotyrosine binding-like subdomain and uncover interdependencies between the different types of ligands. The study expands the motif-based interactomes of the ERMs and merlin and suggests that the FERM domain acts as a switchable interaction hub.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Neurofibromin 2/genetics/chemistry/metabolism",
+      "*FERM Domains",
+      "Ligands",
+      "Protein Structure, Tertiary",
+      "Peptides",
+      "Ezrin",
+      "Cytoskeletal Proteins",
+      "Membrane Proteins",
+      "Microfilament Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ali, Muhammad",
+        "Khramushin, Alisa",
+        "Yadav, Vikash K",
+        "Schueler-Furman, Ora",
+        "Ivarsson, Ylva"
+      ],
+      "short_names": [
+        "Ali M",
+        "Khramushin A",
+        "Yadav VK",
+        "Schueler-Furman O",
+        "Ivarsson Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7081-3846"
+      ],
+      "affiliations": [
+        "Department of Chemistry - BMC, Uppsala University, Husargatan 3, 751 23 Uppsala, Sweden.",
+        "Department of Microbiology and Molecular Genetics, Institute for Medical Research Israel-Canada, Faculty of Medicine, The Hebrew University of Jerusalem, Jerusalem 9112102, Israel.",
+        "Department of Chemistry - BMC, Uppsala University, Husargatan 3, 751 23 Uppsala, Sweden.",
+        "Department of Microbiology and Molecular Genetics, Institute for Medical Research Israel-Canada, Faculty of Medicine, The Hebrew University of Jerusalem, Jerusalem 9112102, Israel.",
+        "Department of Chemistry - BMC, Uppsala University, Husargatan 3, 751 23 Uppsala, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ali, Muhammad",
+        "short_name": "Ali M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry - BMC, Uppsala University, Husargatan 3, 751 23 Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Khramushin, Alisa",
+        "short_name": "Khramushin A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Institute for Medical Research Israel-Canada, Faculty of Medicine, The Hebrew University of Jerusalem, Jerusalem 9112102, Israel."
+        ]
+      },
+      {
+        "full_name": "Yadav, Vikash K",
+        "short_name": "Yadav VK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry - BMC, Uppsala University, Husargatan 3, 751 23 Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Schueler-Furman, Ora",
+        "short_name": "Schueler-Furman O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Molecular Genetics, Institute for Medical Research Israel-Canada, Faculty of Medicine, The Hebrew University of Jerusalem, Jerusalem 9112102, Israel."
+        ]
+      },
+      {
+        "full_name": "Ivarsson, Ylva",
+        "short_name": "Ivarsson Y",
+        "identifiers": [
+          "0000-0002-7081-3846"
+        ],
+        "affiliations": [
+          "Department of Chemistry - BMC, Uppsala University, Husargatan 3, 751 23 Uppsala, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemistry"
+    ],
+    "journal_abbrev": [
+      "Biochemistry"
+    ],
+    "pub_date": "2023 Jun 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/24 19:13",
+    "fetched_at": "2026-09-20 22:20:06"
+  },
+  "links": {
+    "cites": [
+      "40129965",
+      "39009827",
+      "38296350",
+      "37087524",
+      "34771624"
+    ],
+    "refs": [
+      "35044719",
+      "33961781",
+      "33765559",
+      "32296183",
+      "31015291",
+      "29626191",
+      "29568061",
+      "29281622",
+      "28002650",
+      "26933971",
+      "26289026",
+      "26045165",
+      "25792740",
+      "25554515",
+      "24912773",
+      "24735870",
+      "24726726",
+      "24706749",
+      "24554596",
+      "24012335",
+      "22679391",
+      "22516197",
+      "22433855",
+      "22012890",
+      "21887241",
+      "21592758",
+      "21167305",
+      "21073878",
+      "20497999",
+      "20455260",
+      "20308985",
+      "20178741",
+      "18753140",
+      "18614175",
+      "18076570",
+      "17459884",
+      "16615918",
+      "16049001",
+      "15688006",
+      "15149851",
+      "15020681",
+      "14872095",
+      "12554651",
+      "12154370",
+      "12086860",
+      "11802789",
+      "10984534",
+      "10970839",
+      "10847681",
+      "10567424",
+      "7579708"
+    ],
+    "similar": [
+      "37224425",
+      "22012890",
+      "21402777",
+      "31018575",
+      "19910496",
+      "11756419",
+      "24706749",
+      "19388049",
+      "37280085",
+      "19884346",
+      "11856822",
+      "10847681",
+      "21512128",
+      "39062914",
+      "27364155",
+      "19778867",
+      "27871951",
+      "12558984",
+      "16221668",
+      "11106646",
+      "11070492",
+      "17134719",
+      "36302494",
+      "33765559",
+      "16615918",
+      "18076570",
+      "15020681",
+      "11401550",
+      "16324214",
+      "14529273",
+      "28002650",
+      "15913605",
+      "21642618",
+      "24912773",
+      "17980164",
+      "10036239",
+      "11988100",
+      "10567424",
+      "36809290",
+      "18178840",
+      "21074722",
+      "29626191",
+      "15699051",
+      "32727844",
+      "17459884",
+      "10490812",
+      "24882693",
+      "32649767",
+      "11587846",
+      "15797715",
+      "12429733",
+      "16582480",
+      "31851361",
+      "21167305",
+      "38450250",
+      "22710802",
+      "37866628",
+      "23249734",
+      "18753140",
+      "28698152",
+      "9703963",
+      "12554651",
+      "28473293",
+      "11706008",
+      "15123692",
+      "34337379",
+      "15467741",
+      "38416831",
+      "18071304",
+      "14981079",
+      "36814382",
+      "32992803",
+      "11368764",
+      "18086884",
+      "14724586",
+      "22235127",
+      "17914868",
+      "20491622",
+      "30124011",
+      "9403715",
+      "24294828",
+      "16824698",
+      "9457076",
+      "12154370",
+      "18614175",
+      "25275700",
+      "11782491",
+      "15313460",
+      "11703924",
+      "9748471",
+      "22750751",
+      "21750658",
+      "17234759",
+      "20966971",
+      "22325036",
+      "31109284",
+      "25652588",
+      "11996670",
+      "29587439",
+      "16953231",
+      "11031232",
+      "29694864",
+      "37292860",
+      "38296350"
+    ],
+    "review": [
+      "37224425",
+      "31018575",
+      "17980164",
+      "20491622",
+      "12154370",
+      "15313460",
+      "9748471",
+      "22750751",
+      "20966971",
+      "29587439",
+      "11031232"
+    ],
+    "pmc": [
+      "10249358"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.biochem.3c00096",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37224425/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37224425",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37224425",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MSN-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1479",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/bichaw/article-lookup/doi/10.1021/acs.biochem.3c00096",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "36659992",
+    "doi": "10.1007/s12551-022-01025-6",
+    "title": "Reflecting on mutational and biophysical analysis of Gaussia princeps Luciferase from a structural perspective: a unique bioluminescent enzyme."
+  },
+  "content": {
+    "abstract": "Gaussia princeps luciferase (GLuc 18.2 kDa; 168 residues) is a marine copepod luciferase that emits a bright blue light when oxidizing coelenterazine (CTZ). GLuc is a small luciferase, attracting much attention as a potential reporter protein. However, compared to firefly and Renilla luciferases, which have been thoroughly characterized and are used in a wide range of applications, structural and biophysical studies of GLuc have been slow to appear. Here, we review the biophysical and mutational studies of GLuc's bioluminescence from a structural viewpoint, particularly in view of its recent NMR solution structure, where two homologous sequential repeats form two anti-parallel bundles, each made of four helices, grabbing a short N-terminal helix. Additionally, a long loop classified as an intrinsically disordered region separates the two bundles forming one side of a hydrophobic pocket that is most likely the binding/catalytic site. We compare the NMR-determined structure with a recent AlphaFold2 prediction. Overall, the AlphaFold2 structure was in line with the solution structure; however, it surprisingly revealed a possible, alternative conformation, where the N-terminal helix is replaced by a newly formed alpha helix in the C-terminal tail that is unfolded in the NMR structure. In addition, we discuss the results of previous mutational analysis focusing on a putative catalytic core identified by chemical shift perturbation analysis and molecular dynamics simulations performed using both the NMR and the AlphaFold2 structures. In particular, we discuss the role of the possible conformational change and the hydrophobic pocket in GLuc's activity. Overall, the discussion points toward GLuc's unexpected and unusual characteristics that appear to be much more flexible than traditional enzymes, resulting in a unique mode of catalysis to achieve CTZ oxidative decarboxylation. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s12551-022-01025-6.",
+    "keywords": [
+      "Bioluminescence",
+      "Dynamic structure",
+      "Intrinsically disordered region (IDR)",
+      "NMR"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Nan",
+        "Kobayashi, Naohiro",
+        "Kuroda, Yutaka",
+        "Yamazaki, Toshio"
+      ],
+      "short_names": [
+        "Wu N",
+        "Kobayashi N",
+        "Kuroda Y",
+        "Yamazaki T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4719-0828"
+      ],
+      "affiliations": [
+        "College of Food and Bioengineering, Zhengzhou University of Light Industry, 136 Kexue Road, Zhengzhou, 450001 People's Republic of China. GRID: grid.413080.e. ISNI: 0000 0001 0476 2801",
+        "RIKEN Center for Biosystems Dynamics Research, RSC, RIKEN, 1-7-22 Suehiro-Cho, Tsurumi-Ku, Yokohama, Kanagawa 230-0045 Japan. GRID: grid.7597.c. ISNI: 0000000094465255",
+        "Department of Biotechnology and Life Science, Graduate School of Engineering, Tokyo University of Agriculture and Technology, 2-24-16 Nakamachi, Koganei-Shi, Tokyo, 184-8588 Japan. GRID: grid.136594.c. ISNI: 0000 0001 0689 5974",
+        "RIKEN Center for Biosystems Dynamics Research, RSC, RIKEN, 1-7-22 Suehiro-Cho, Tsurumi-Ku, Yokohama, Kanagawa 230-0045 Japan. GRID: grid.7597.c. ISNI: 0000000094465255"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Nan",
+        "short_name": "Wu N",
+        "identifiers": [],
+        "affiliations": [
+          "College of Food and Bioengineering, Zhengzhou University of Light Industry, 136 Kexue Road, Zhengzhou, 450001 People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Kobayashi, Naohiro",
+        "short_name": "Kobayashi N",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, RSC, RIKEN, 1-7-22 Suehiro-Cho, Tsurumi-Ku, Yokohama, Kanagawa 230-0045 Japan."
+        ]
+      },
+      {
+        "full_name": "Kuroda, Yutaka",
+        "short_name": "Kuroda Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Life Science, Graduate School of Engineering, Tokyo University of Agriculture and Technology, 2-24-16 Nakamachi, Koganei-Shi, Tokyo, 184-8588 Japan."
+        ]
+      },
+      {
+        "full_name": "Yamazaki, Toshio",
+        "short_name": "Yamazaki T",
+        "identifiers": [
+          "0000-0003-4719-0828"
+        ],
+        "affiliations": [
+          "RIKEN Center for Biosystems Dynamics Research, RSC, RIKEN, 1-7-22 Suehiro-Cho, Tsurumi-Ku, Yokohama, Kanagawa 230-0045 Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical reviews"
+    ],
+    "journal_abbrev": [
+      "Biophys Rev"
+    ],
+    "pub_date": "2022 Dec",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/21 06:00",
+    "fetched_at": "2026-09-20 18:39:55"
+  },
+  "links": {
+    "cites": [
+      "42045216",
+      "40615570",
+      "40034448",
+      "39836695",
+      "38979209",
+      "36620377"
+    ],
+    "refs": [
+      "37082267",
+      "34559429",
+      "34520210",
+      "33426745",
+      "33208800",
+      "30882838",
+      "29754049",
+      "26746005",
+      "26694096",
+      "26025768",
+      "24850022",
+      "23886588",
+      "22768230",
+      "21988835",
+      "21951281",
+      "21945374",
+      "20452471",
+      "19601604",
+      "19499576",
+      "19481444",
+      "19373229",
+      "18555198",
+      "17981153",
+      "17980388",
+      "17099704",
+      "16211538",
+      "12123671",
+      "10830969"
+    ],
+    "similar": [
+      "36659992",
+      "37082267",
+      "33208800",
+      "26025768",
+      "20452471",
+      "39274876",
+      "39023083",
+      "29754049",
+      "20641352",
+      "29696739",
+      "38979209",
+      "37240867",
+      "17981153",
+      "12236345",
+      "15727940",
+      "23485150",
+      "30585639",
+      "21329797",
+      "26694096",
+      "19825431",
+      "16000745",
+      "20527045",
+      "31048084",
+      "35821464",
+      "36129943",
+      "29897056",
+      "21945374",
+      "27424892",
+      "27271118",
+      "19852937",
+      "24595353",
+      "23912807",
+      "21951281",
+      "19219023",
+      "34864391",
+      "28767220",
+      "33426745",
+      "20641378",
+      "18031021",
+      "36732398",
+      "28606077",
+      "22020521",
+      "37622174",
+      "27391007",
+      "33721241",
+      "21521553",
+      "33030907",
+      "18359861",
+      "20641444",
+      "28381628",
+      "24103420",
+      "23425213",
+      "17927700",
+      "27973743",
+      "12755603",
+      "34189489",
+      "23274053",
+      "33050422",
+      "22768230",
+      "35821461",
+      "8764403",
+      "11297422",
+      "23886588",
+      "8805533",
+      "24029239",
+      "19119851",
+      "35658951",
+      "18661130",
+      "23679848",
+      "34050467",
+      "18516621",
+      "19687206",
+      "34802167",
+      "33851009",
+      "17980388",
+      "11838236",
+      "35562983",
+      "9398519",
+      "23778500",
+      "23792095",
+      "26746005",
+      "10852703",
+      "38692549",
+      "22148161",
+      "24138575",
+      "24960591",
+      "18199619",
+      "38373700",
+      "18310240",
+      "25843263",
+      "34050466",
+      "11915938",
+      "31989575",
+      "23000947",
+      "36768474",
+      "15683224",
+      "21983629",
+      "36361837",
+      "30101036"
+    ],
+    "review": [
+      "36659992",
+      "26025768",
+      "30585639",
+      "33050422",
+      "11838236"
+    ],
+    "pmc": [
+      "9842821"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36659992/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12551-022-01025-6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36659992",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36659992",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

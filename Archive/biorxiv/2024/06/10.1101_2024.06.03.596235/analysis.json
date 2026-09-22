@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.03.596235",
+  "title": "Crystallographic fragment screening of CDK2-cyclin A: FragLites map sites of protein-protein interaction",
+  "authors": "Hope I; Noble MEM; Waring MJ; Noble EMM; Endicott JA; Tatum NJ",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-03",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究用X射线晶体学片段筛选（FragLites）绘制CDK2-cyclin A的蛋白-蛋白互作热点，虽对象为折叠蛋白复合物而非IDP，但方法可迁移至无序蛋白互作位点预测，且明确提及增强AI复合物预测，机制建模思路有启发。",
+  "abstract": "Protein-protein interaction sites (PPIs) are potentially more selective therapeutic binding sites than protein substrate binding sites. PPIs include distinct regions frequently called “hotspots,” sites of key amino acid interactions. Prospective identification of these hotspots through X-ray crystallographic screening could assist in the identification of separation of function mutants for experimental validation, enhance confidence in AI-generated multiprotein complex predictions and accelerate development of selective chemical probes. To explore these applications, we utilize the FragLite library to examine the binding surfaces of CDK2-cyclin A. The many protein- and peptide-CDK2-cyclin A complexes that have been structurally characterised make this complex an appropriate test case. We show that FragLites comprehensively map both known sites of protein-protein interaction on CDK2-cyclin A and identify a possible uncharacterised site, providing a structural method toward directing mechanistic studies and providing starting points for chemical probe design.",
+  "abstract_zh": "蛋白-蛋白相互作用位点（PPIs）可能比蛋白底物结合位点更具选择性的治疗性结合位点。PPIs包含通常被称为“热点”的独特区域，即关键氨基酸相互作用的位点。通过X射线晶体学筛选前瞻性地识别这些热点，有助于识别功能分离突变体以进行实验验证，增强对AI生成的多蛋白复合物预测的信心，并加速选择性化学探针的开发。为探索这些应用，我们利用FragLite库检查CDK2-cyclin A的结合表面。许多已结构表征的蛋白和肽-CDK2-cyclin A复合物使该复合物成为合适的测试案例。我们表明，FragLites全面映射了CDK2-cyclin A上已知的蛋白-蛋白相互作用位点，并识别出一个可能未表征的位点，为引导机制研究提供了一种结构方法，并为化学探针设计提供了起点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.03.596235",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.03.596235",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.03.596235/index.html"
+}

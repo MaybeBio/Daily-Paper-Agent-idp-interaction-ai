@@ -1,0 +1,210 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.08.531814",
+  "title": "Combining pairwise structural similarity and deep learning interface contact prediction to estimate protein complex model accuracy in CASP15",
+  "doi": "10.1101/2023.03.08.531814",
+  "abstract": "Estimating the accuracy of quaternary structural models of protein complexes and assemblies (EMA) is important for predicting quaternary structures and applying them to studying protein function and interaction. The pairwise similarity between structural models is proven useful for estimating the quality of protein tertiary structural models, but it has been rarely applied to predicting the quality of quaternary structural models. Moreover, the pairwise similarity approach often fails when many structural models are of low quality and similar to each other. To address the gap, we developed a hybrid method (MULTICOM_qa) combining a pairwise similarity score (PSS) and an interface contact probability score (ICPS) based on the deep learning inter-chain contact prediction for estimating protein complex model accuracy. It blindly participated in the 15th Critical Assessment of Techniques for Protein Structure Prediction (CASP15) in 2022 and ranked first out of 24 predictors in estimating the global accuracy of assembly models. The average per-target correlation coefficient between the model quality scores predicted by MULTICOM_qa and the true quality scores of the models of CASP15 assembly targets is 0.66. The average per-target ranking loss in using the predicted quality scores to rank the models is 0.14. It was able to select good models for most targets. Moreover, several key factors (i.e., target difficulty, model sampling difficulty, skewness of model quality, and similarity between good/bad models) for EMA are identified and analayzed. The results demonstrate that combining the multi-model method (PSS) with the complementary single-model method (ICPS) is a promising approach to EMA. The source code of MULTICOM_qa is available at https://github.com/BioinfoMachineLearning/MULTICOM_qa .",
+  "authors": [
+    "Jianlin Cheng",
+    "Raj Shekhor Roy",
+    "Jian Liu",
+    "Nabin Giri",
+    "Zhiye Guo"
+  ],
+  "published_date": "2023-03-12",
+  "updated_date": "2023-03-12T13:10:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531814",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531814.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:13:35Z",
+        "timestamp": 1768504415679,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            12
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Estimating the accuracy of quaternary structural models of protein complexes and assemblies (EMA) is important for predicting quaternary structures and applying them to studying protein function and interaction. The pairwise similarity between structural models is proven useful for estimating the quality of protein tertiary structural models, but it has been rarely applied to predicting the quality of quaternary structural models. Moreover, the pairwise similarity approach often fails when many structural models are of low quality and similar to each other. To address the gap, we developed a hybrid method (MULTICOM_qa) combining a pairwise similarity score (PSS) and an interface contact probability score (ICPS) based on the deep learning inter-chain contact prediction for estimating protein complex model accuracy. It blindly participated in the 15th Critical Assessment of Techniques for Protein Structure Prediction (CASP15) in 2022 and ranked first out of 24 predictors in estimating the global accuracy of assembly models. The average per-target correlation coefficient between the model quality scores predicted by MULTICOM_qa and the true quality scores of the models of CASP15 assembly targets is 0.66. The average per-target ranking loss in using the predicted quality scores to rank the models is 0.14. It was able to select good models for most targets. Moreover, several key factors (i.e., target difficulty, model sampling difficulty, skewness of model quality, and similarity between good/bad models) for EMA are identified and analayzed. The results demonstrate that combining the multi-model method (PSS) with the complementary single-model method (ICPS) is a promising approach to EMA. The source code of MULTICOM_qa is available at https://github.com/BioinfoMachineLearning/MULTICOM_qa .</jats:p>",
+      "DOI": "10.1101/2023.03.08.531814",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            12
+          ]
+        ],
+        "date-time": "2023-03-12T13:10:13Z",
+        "timestamp": 1678626613000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Combining pairwise structural similarity and deep learning interface contact prediction to estimate protein complex model accuracy in CASP15"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-0305-2853",
+          "authenticated-orcid": false,
+          "given": "Jianlin",
+          "family": "Cheng",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2400-7210",
+          "authenticated-orcid": false,
+          "given": "Raj Shekhor",
+          "family": "Roy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jian",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Nabin",
+          "family": "Giri",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhiye",
+          "family": "Guo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.03.08.531814",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:23:00Z",
+        "timestamp": 1768450980000
+      },
+      "score": 64.280624,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.03.08.531814"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            12
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.1101/2023.03.08.531814",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

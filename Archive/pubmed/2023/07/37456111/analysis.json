@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37456111",
+  "title": "Early stages in Abeta1-42 spontaneous aggregation: An unbiased dataset from coarse-grained molecular dynamics simulations.",
+  "authors": "Barrera, Exequiel E; Pantano, Sergio",
+  "journal": "Data in brief",
+  "published_date": "2023-07-17",
+  "window": {
+    "start": "2023-07-17",
+    "end": "2023-07-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提供Aβ1-42无序肽二聚化的粗粒化MD模拟数据集，虽聚焦自聚集而非典型PPI，但为IDP互作界面建模和对接提供了可迁移的模拟数据与方法。",
+  "abstract": "The small soluble aggregates of Abeta(1-42) are broadly documented as potential targets for the development of new compounds with the capacity to inhibit the early stages of Alzheimer s disease. Nevertheless, Abeta(1-42) peptides show an intrinsically disordered character with a high propensity for aggregation, which complicates the identification of conserved structural patterns. Because of this, experimental techniques find substantial difficulties in the characterization of such soluble oligomers. Theoretical techniques, such as molecular dynamics (MD) simulations, provide a possible workaround for this problem. However, the computational cost associated with comprehensively sampling the vast conformational space accessible to these peptides might become prohibitive. In this sense, coarse-grained (CG) simulations can effectively overcome that hurdle at a fraction of the computational cost. In this dataset, we furnish an extensive collection of Abeta(1-42) peptides in dimeric conformation generated with the SIRAH force field for CG MD simulation. It comprises 25 independent trajectories in .xtc (gromacs) format of Abeta(1-42) couples of peptides that evolve towards dimeric states along eleven micros-long unbiased simulations. Thanks to the backmapping capabilities of our force field, pseudo atomistic coordinates can be straightforwardly recovered from MD trajectories reported here and analyzed with popular molecular editing programs. This set of simulations performed at room conditions and physiological salt concentrations may furnish a complete collection of inter-peptide interfaces that can be used in high-throughput docking or as new starting states for peptide oligomerization seeding of Abeta(1-42) dimerization.",
+  "abstract_zh": "Abeta(1-42)的小型可溶性聚集体被广泛记录为开发能够抑制阿尔茨海默病早期阶段的新化合物的潜在靶点。然而，Abeta(1-42)肽表现出内在无序的特征，并具有高度聚集倾向，这使保守结构模式的识别变得复杂。因此，实验技术在表征此类可溶性寡聚体时面临重大困难。理论技术，如分子动力学 (molecular dynamics, MD) 模拟，为此问题提供了可能的解决方案。然而，全面采样这些肽可及的广阔构象空间所涉及的计算成本可能变得过高。在此意义上，粗粒化 (coarse-grained, CG) 模拟能够以计算成本的一小部分有效克服这一障碍。在本数据集中，我们提供了使用SIRAH力场进行CG MD模拟生成的Abeta(1-42)肽二聚体构象的广泛集合。该集合包含25条独立的.xtc (gromacs) 格式轨迹，涉及Abeta(1-42)肽对，在十一微秒长的无偏模拟中演化至二聚体状态。得益于我们力场的反向映射能力，可以从此处报告的MD轨迹中直接恢复伪原子坐标，并使用流行的分子编辑程序进行分析。这套在室温条件和生理盐浓度下进行的模拟可能提供完整的肽间界面集合，可用于高通量对接或作为Abeta(1-42)二聚化肽寡聚体成核的新起始状态。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37456111/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37456111/",
+  "paper_page_path": "papers/pubmed/37456111/index.html"
+}

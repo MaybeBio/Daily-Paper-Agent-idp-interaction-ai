@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39437152",
+  "title": "Inhibition of alpha-Synuclein Misfolding into beta-Sheet Domains on Medium-Sized Gold Nanoclusters: Evidence from Enhanced Sampling MD Simulations.",
+  "authors": "Gong, Shuai; Gao, Guanbin; Sun, Taolei; Shen, Lei",
+  "journal": "ACS macro letters",
+  "published_date": "2024-10-22",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用增强采样MD模拟研究α-突触核蛋白(IDP)在金纳米团簇表面的吸附与β-折叠错误折叠抑制机制，对象为无序蛋白且聚焦构象转变机制，但互作对象是纳米团簇而非蛋白，方法为物理模拟，整体对IDP互作机制建模有启发。",
+  "abstract": "Targeting Parkinson's disease (PD) related protein, alpha-synuclein (alphaS), via gold nanoclusters (AuNCs) has received considerable attention in PD treatments, but its molecular basis on the initial interactions between alphaS and AuNCs remains elusive due to the absence of a unique secondary structure of alphaS chains. Here, at the single-cluster level, we incorporate well-tempered metadynamics simulations to explore the structural and thermodynamic characteristics of the full length alphaS adsorbed on different-sized AuNCs (Au(n), n = 25, 36, 44, 68, 102) with modeled thiolated ligands (Au(n)@Lig). The conformational landscapes of alphaS indicate that uncharged Au(n)@SCH(2)OH chaperones the native intrinsically disordered conformations of alphaS, while negatively and positively charged AuNCs greatly increase the likelihood of forming intramolecular beta-sheet domains, which are necessary for alphaS fibrillation and are a hallmark of PD. The binding details further demonstrate the significant inhibitory effect of the medium-sized Au(36)@SCH(2)OH on alphaS misfolding into beta-sheet domains. This provides a valuable guideline for customizing AuNCs to precisely manipulate protein folding and misfolding behaviors, with potential implications for disease treatments.",
+  "abstract_zh": "通过金纳米簇（AuNCs）靶向帕金森病（PD）相关蛋白α-突触核蛋白（alphaS）在PD治疗中受到广泛关注，但由于alphaS链缺乏独特的二级结构，其与AuNCs初始相互作用的分子基础仍不明确。在此，我们在单簇水平上，结合良驯元动力学模拟，探索全长alphaS在不同尺寸AuNCs（Au(n)，n = 25, 36, 44, 68, 102）及模拟硫醇化配体（Au(n)@Lig）上的结构和热力学特性。alphaS的构象景观表明，不带电的Au(n)@SCH(2)OH伴侣蛋白维持alphaS天然的内在无序构象，而带负电和正电的AuNCs则显著增加形成分子内β-折叠结构域的可能性，这些结构域是alphaS纤维化所必需的，也是PD的标志。结合细节进一步证明，中等尺寸的Au(36)@SCH(2)OH对alphaS错误折叠为β-折叠结构域具有显著抑制作用。这为定制AuNCs以精确操控蛋白质折叠和错误折叠行为提供了宝贵指导，对疾病治疗具有潜在意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39437152/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39437152/",
+  "paper_page_path": "papers/pubmed/39437152/index.html"
+}

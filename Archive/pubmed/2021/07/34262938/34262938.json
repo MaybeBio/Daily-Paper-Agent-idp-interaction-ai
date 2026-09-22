@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "34262938",
+    "doi": "10.3389/fmolb.2021.676235",
+    "title": "Ubiquitin Interacting Motifs: Duality Between Structured and Disordered Motifs."
+  },
+  "content": {
+    "abstract": "Ubiquitin is a small protein at the heart of many cellular processes, and several different protein domains are known to recognize and bind ubiquitin. A common motif for interaction with ubiquitin is the Ubiquitin Interacting Motif (UIM), characterized by a conserved sequence signature and often found in multi-domain proteins. Multi-domain proteins with intrinsically disordered regions mediate interactions with multiple partners, orchestrating diverse pathways. Short linear motifs for binding are often embedded in these disordered regions and play crucial roles in modulating protein function. In this work, we investigated the structural propensities of UIMs using molecular dynamics simulations and NMR chemical shifts. Despite the structural portrait depicted by X-crystallography of stable helical structures, we show that UIMs feature both helical and intrinsically disordered conformations. Our results shed light on a new class of disordered UIMs. This group is here exemplified by the C-terminal domain of one isoform of ataxin-3 and a group of ubiquitin-specific proteases. Intriguingly, UIMs not only bind ubiquitin. They can be a recruitment point for other interactors, such as parkin and the heat shock protein Hsc70-4. Disordered UIMs can provide versatility and new functions to the client proteins, opening new directions for research on their interactome.",
+    "keywords": [
+      "intrinsic disorder",
+      "molecular dynamics",
+      "moonlight functions",
+      "peptide arrays",
+      "short linear motifs",
+      "ubiquitin"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lambrughi, Matteo",
+        "Maiani, Emiliano",
+        "Aykac Fas, Burcu",
+        "Shaw, Gary S",
+        "Kragelund, Birthe B",
+        "Lindorff-Larsen, Kresten",
+        "Teilum, Kaare",
+        "Invernizzi, Gaetano",
+        "Papaleo, Elena"
+      ],
+      "short_names": [
+        "Lambrughi M",
+        "Maiani E",
+        "Aykac Fas B",
+        "Shaw GS",
+        "Kragelund BB",
+        "Lindorff-Larsen K",
+        "Teilum K",
+        "Invernizzi G",
+        "Papaleo E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computational Biology Laboratory, Danish Cancer Society Research Center, Copenhagen, Denmark.",
+        "Department of Biotechnology and Bioscience, University of Milano-Bicocca, Milano, Italy.",
+        "Computational Biology Laboratory, Danish Cancer Society Research Center, Copenhagen, Denmark.",
+        "Computational Biology Laboratory, Danish Cancer Society Research Center, Copenhagen, Denmark.",
+        "Department of Biochemistry, Schulich School of Medicine and Dentistry, The University of Western Ontario, London, ON, Canada.",
+        "Structural Biology and NMR Laboratory and The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory and The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory and The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory and The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Computational Biology Laboratory, Danish Cancer Society Research Center, Copenhagen, Denmark.",
+        "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lambrughi, Matteo",
+        "short_name": "Lambrughi M",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Laboratory, Danish Cancer Society Research Center, Copenhagen, Denmark.",
+          "Department of Biotechnology and Bioscience, University of Milano-Bicocca, Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Maiani, Emiliano",
+        "short_name": "Maiani E",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Laboratory, Danish Cancer Society Research Center, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Aykac Fas, Burcu",
+        "short_name": "Aykac Fas B",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Laboratory, Danish Cancer Society Research Center, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Shaw, Gary S",
+        "short_name": "Shaw GS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Schulich School of Medicine and Dentistry, The University of Western Ontario, London, ON, Canada."
+        ]
+      },
+      {
+        "full_name": "Kragelund, Birthe B",
+        "short_name": "Kragelund BB",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory and The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Lindorff-Larsen, Kresten",
+        "short_name": "Lindorff-Larsen K",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory and The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Teilum, Kaare",
+        "short_name": "Teilum K",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory and The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Invernizzi, Gaetano",
+        "short_name": "Invernizzi G",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory and The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Papaleo, Elena",
+        "short_name": "Papaleo E",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Laboratory, Danish Cancer Society Research Center, Copenhagen, Denmark.",
+          "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/16 06:00",
+    "fetched_at": "2026-09-20 04:18:51"
+  },
+  "links": {
+    "cites": [
+      "40529183",
+      "39420763",
+      "39320846",
+      "39268210",
+      "37962385",
+      "36746748",
+      "36008946",
+      "35974206"
+    ],
+    "refs": [
+      "34235479",
+      "33848145",
+      "33065068",
+      "32955441",
+      "32613009",
+      "32587856",
+      "32173600",
+      "31680160",
+      "31396903",
+      "31363226",
+      "31134895",
+      "31003202",
+      "30955882",
+      "30914747",
+      "30527137",
+      "30455355",
+      "30439587",
+      "30013831",
+      "29972812",
+      "29906412",
+      "29634920",
+      "29530980",
+      "29427109",
+      "29306779",
+      "29100108",
+      "29080468",
+      "29022880",
+      "28845302",
+      "28554535",
+      "28516009",
+      "28259050",
+      "28063280",
+      "27738173",
+      "27663422",
+      "26584388",
+      "26578815",
+      "26574197",
+      "26541461",
+      "26498066",
+      "26073430",
+      "25531225",
+      "25482668",
+      "25400522",
+      "25327553",
+      "25140435",
+      "24930020",
+      "24926813",
+      "24889800",
+      "24773235",
+      "24627472",
+      "24225580",
+      "24063750",
+      "23891935",
+      "23754700",
+      "23754699",
+      "22972619",
+      "22841719",
+      "22829760",
+      "22713792",
+      "22485929",
+      "22480932",
+      "22360139",
+      "22339051",
+      "21909575",
+      "21742258",
+      "21539772",
+      "21500218",
+      "21060878",
+      "21038907",
+      "20927613",
+      "20598937",
+      "20053359",
+      "19714377",
+      "19536136",
+      "18429317",
+      "18232845",
+      "18007608",
+      "17212484",
+      "16847934",
+      "16645638",
+      "16392929",
+      "15826667",
+      "15766868",
+      "14559776",
+      "12970172",
+      "12914917",
+      "12857950",
+      "12750381",
+      "12062168",
+      "11450850",
+      "11406394",
+      "10550212",
+      "10493868",
+      "9649402",
+      "9488668",
+      "9274833",
+      "8520220",
+      "6667333"
+    ],
+    "similar": [
+      "34262938",
+      "15155768",
+      "20053359",
+      "28276594",
+      "32955441",
+      "16040601",
+      "12207904",
+      "35385646",
+      "28327663",
+      "27881680",
+      "12121618",
+      "16118278",
+      "29870658",
+      "12970172",
+      "35974206",
+      "22507829",
+      "18949821",
+      "35310482",
+      "23891935",
+      "24668165",
+      "17276991",
+      "16462748",
+      "26149687",
+      "15809337",
+      "26851277",
+      "21879107",
+      "27844185",
+      "32708183",
+      "31985874",
+      "23035694",
+      "28002650",
+      "39420763",
+      "25312846",
+      "28355271",
+      "22280012",
+      "17368669",
+      "26976603",
+      "26719330",
+      "27461074",
+      "15694383",
+      "34897022",
+      "30228181",
+      "30858488",
+      "32784707",
+      "29944921",
+      "31299122",
+      "32305337",
+      "26205498",
+      "23754700",
+      "17079677",
+      "14585839",
+      "16159959",
+      "28934129",
+      "32323533",
+      "16862145",
+      "15497503",
+      "22079048",
+      "28554535",
+      "27709416",
+      "27288992",
+      "17949686",
+      "21909575",
+      "24211251",
+      "28597880",
+      "26794929",
+      "31521236",
+      "27627884",
+      "26387106",
+      "26652654",
+      "36504386",
+      "32696353",
+      "20544079",
+      "34189442",
+      "38966365",
+      "38507200",
+      "24478706",
+      "37034755",
+      "37632170",
+      "39131360",
+      "30241614"
+    ],
+    "review": [
+      "34262938",
+      "26851277",
+      "32708183",
+      "22280012",
+      "34897022",
+      "31521236"
+    ],
+    "pmc": [
+      "8273247"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34262938/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34262938",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3713",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2021.676235",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

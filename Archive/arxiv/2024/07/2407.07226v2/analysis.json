@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2407.07226v2",
+  "title": "Differential Effects of Sequence-Local versus Nonlocal Charge Patterns on Phase Separation and Conformational Dimensions of Polyampholytes as Model Intrinsically Disordered Proteins",
+  "authors": "Tanmoy Pal; Jonas Wessén; Suman Das; Hue Sun Chan",
+  "journal": "The Journal of Physical Chemistry Letters 15:8248-8256 (2024)",
+  "published_date": "2024-07-09",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用场论模拟和粗粒化MD比较电荷模式参数对多聚两性电解质（模型IDP）构象尺寸与相分离倾向的预测，聚焦序列-ensemble关系与凝聚相PPI机制，方法为物理模拟，对象与互作机制建模高度相关。",
+  "abstract": "Conformational properties of intrinsically disordered proteins (IDPs) are governed by a sequence-ensemble relationship. To differentiate the impact of sequence-local versus sequence-nonlocal features of an IDP's charge pattern on its conformational dimensions and its phase-separation propensity, the charge \"blockiness'' $κ$ and the nonlocality-weighted sequence charge decoration (SCD) parameters are compared for their correlations with isolated-chain radii of gyration ($R_{\\rm g}$s) and upper critical solution temperatures (UCSTs) of polyampholytes modeled by random phase approximation, field-theoretic simulation, and coarse-grained molecular dynamics. SCD is superior to $κ$ in predicting $R_{\\rm g}$ because SCD accounts for effects of contact order, i.e., nonlocality, on dimensions of isolated chains. In contrast, $κ$ and SCD are comparably good, though nonideal, predictors of UCST because frequencies of interchain contacts in the multiple-chain condensed phase are less sensitive to sequence positions than frequencies of intrachain contacts of an isolated chain, as reflected by $κ$ correlating better with condensed-phase interaction energy than SCD.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 的构象性质由序列-系综关系所支配。为区分IDP电荷模式中序列局部与序列非局部特征对其构象尺寸和相分离倾向的影响，比较了电荷“块状度” $κ$ 与非局部加权序列电荷装饰（SCD）参数与由随机相位近似、场论模拟和粗粒化分子动力学建模的聚两性电解质孤立链回转半径（$R_{\\rm g}$s）及上临界溶液温度（UCSTs）的相关性。SCD在预测$R_{\\rm g}$方面优于$κ$，因为SCD考虑了接触序（即非局部性）对孤立链尺寸的影响。相反，$κ$和SCD在预测UCST方面表现相当，尽管均非理想，这是因为多链凝聚相中链间接触的频率对序列位置的敏感性低于孤立链内接触的频率，这反映在$κ$与凝聚相相互作用能的相关性优于SCD。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2407.07226v2",
+  "source_url": "https://arxiv.org/abs/2407.07226v2",
+  "paper_page_path": "papers/arxiv/2407.07226v2/index.html"
+}

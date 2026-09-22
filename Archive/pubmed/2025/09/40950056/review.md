@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and supplementary figure legends (figures themselves not provided)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness based solely on the provided text
+- **Shared manuscript claim summary** The authors propose that centromere surface localisation during mitosis is driven by electrostatic repulsion between negatively charged centromere-associated proteins (kinetochore complexes and CENP-B) and condensed chromatin, independent of condensin-mediated loop extrusion and microtubule engagement
+- **Visible evidence base** Cellular imaging data (CENP-A localisation under various perturbations), in vitro reconstitution assays with purified components, multiscale coarse-grained molecular dynamics simulations, cryo-electron tomography, and bioinformatic charge calculations
+- **Missing materials affecting confidence** Figures and supplementary figures (referenced but not provided), numerical data with statistical details, simulation parameter files, detailed analysis code outputs, and full experimental replicates
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually novel and potentially important physical mechanism for centromere organisation. The combination of cellular perturbations, biochemical reconstitution, and multiscale simulations is ambitious and, if fully validated, would represent a significant advance in understanding chromosome architecture. However, several technical concerns regarding the quantitative rigour of the imaging analysis, the biological relevance of the in vitro conditions, and the interpretation of simulation results need to be addressed before the central claims can be considered fully established.
+- **Who would be interested in the results, and why** Chromosome biologists, biophysicists, and researchers studying phase separation in chromatin organisation would find this work of high interest. The proposed electrostatic repulsion mechanism offers a new conceptual framework that could extend beyond centromeres to general principles of chromatin spatial organisation. The demonstration that synthetic negatively charged proteins can program chromatin positioning has potential implications for synthetic biology and genome engineering.
+- **Major strengths** The study addresses a fundamental and long-standing question in chromosome biology with a multidisciplinary approach. The combination of in vivo, in vitro, and in silico methods provides complementary lines of evidence. The finding that centromere positioning is independent of condensin and microtubules is a strong and surprising result. The use of a synthetic system (TetR-GFP(neg25)) to test the generality of the electrostatic mechanism is elegant and persuasive.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative analysis rigour
+  - **Claim pointer** The claim that CENP-A foci are "essentially at the chromatin surface" with "average depth of 46 ± 107 nm" and "only 5.7 ± 5.0% of foci located deeper than 200 nm"
+  - **Evidence pointer** Figure 1a-d; Figure S1a,b; location not provided
+  - **Concern** The quantitative imaging analysis relies on a custom semi-automated pipeline whose accuracy and validation are not fully described. The large standard deviation (107 nm relative to a mean of 46 nm) suggests substantial heterogeneity or potential measurement uncertainty. The threshold of 200 nm for "surface" localisation needs justification relative to the expected size of kinetochores and the optical resolution limits. No information is provided on how the chromatin surface was defined in 3D, how partial volume effects were handled, or how the analysis was validated against manual annotation or simulated data.
+  - **Why it matters** The central quantitative claim of the paper, that centromeres are specifically surface-localised, depends entirely on this measurement. If the analysis pipeline has systematic biases or the surface definition is inappropriate, the conclusion could be artefactual.
+  - **Resolution test** Provide validation of the analysis pipeline (e.g., comparison with manual annotation, phantom simulations), report the full distribution of depth measurements rather than only mean and SD, and justify the 200 nm threshold with reference to known biological dimensions and imaging resolution.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Biological relevance of in vitro conditions
+  - **Claim pointer** The claim that in vitro reconstitution with purified CENP-B and nucleosome arrays recapitulates the surface localisation observed in cells
+  - **Evidence pointer** Figure 3a,b; Figure S5; location not provided
+  - **Concern** The in vitro system uses 12×601 nucleosome arrays at concentrations and salt conditions that may not reflect the cellular environment. The ratio of CENP-B-bound arrays to unmodified arrays (1:10) is arbitrary, and the concentration of CENP-B (1 μM) may be far from physiological. The phase-separated condensates formed in vitro may have different physical properties (surface tension, viscosity, density) than mitotic chromosomes. The claim that this system "recapitulates" cellular behaviour requires more careful consideration of whether the observed surface enrichment is a generic property of any repulsive moiety in a phase-separated system, rather than a specific property of CENP-B.
+  - **Why it matters** The in vitro system is used to establish the sufficiency of the electrostatic mechanism. If the conditions are not representative of the cellular context, the conclusions may not be generalisable.
+  - **Resolution test** Perform a systematic variation of salt concentration, protein concentration, and array stoichiometry to demonstrate that surface localisation is robust across a physiologically relevant parameter range. Include a control with a neutral or positively charged protein to show specificity of the charge effect.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation model validation
+  - **Claim pointer** The claim that multiscale molecular dynamics simulations "accurately recapitulate" the experimental observations and support the electrostatic repulsion mechanism
+  - **Evidence pointer** Figure 3c,d; Methods section "Single fibre MD simulation details" and "Direct Coexistence MD simulations"; location not provided
+  - **Concern** The simulation model represents CENP-B as a single large bead plus a flexible negatively charged polymer, and the interaction parameters are assigned using an "empirical mapping" that is not fully described. The simulations are performed at a single salt concentration (0.075 M) with no systematic variation. The timescales accessible to coarse-grained simulations may not capture the equilibrium organisation of the system. The claim that the model "accurately recapitulates" the experiments requires quantitative comparison between simulated and experimental enrichment values, which is not provided.
+  - **Why it matters** The simulations are used to provide mechanistic insight into the experimental observations. If the model is not validated against quantitative experimental data, the mechanistic conclusions drawn from it are not secure.
+  - **Resolution test** Provide a quantitative comparison between simulated and experimental enrichment values, including error bars. Perform simulations at multiple salt concentrations to demonstrate the predicted salt dependence of surface localisation. Describe the parameterisation of the CENP-B model in sufficient detail to be reproducible.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Causal sufficiency of electrostatic repulsion
+  - **Claim pointer** The claim that "electrostatic repulsion is a key determinant of surface localisation" and that the mechanism is "independent of condensin-mediated loop extrusion and microtubule engagement"
+  - **Evidence pointer** Figures 1-5; location not provided
+  - **Concern** While the data show that condensin depletion and microtubule depolymerisation do not abolish surface localisation, this does not exclude other mechanisms that could contribute. The experiments with CENP-B knockout show only a partial reduction in surface localisation (from ~98% to ~78% within 200 nm), suggesting that other factors also contribute. The claim that electrostatic repulsion is "key" would be strengthened by a more direct manipulation of charge, such as altering the net charge of CENP-B or the ionic environment in cells.
+  - **Why it matters** The paper proposes a specific physical mechanism. If other factors contribute significantly, the model may be incomplete or the relative importance of electrostatic repulsion may be overstated.
+  - **Resolution test** Provide a more complete accounting of the factors contributing to surface localisation, perhaps through a quantitative model that incorporates multiple mechanisms. Consider experiments that directly modulate electrostatic interactions in cells.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative claims
+  - **Evidence pointer** Figures 1-5; location not provided
+  - **Issue** The manuscript reports means and standard deviations but does not consistently report sample sizes, statistical tests used, or effect sizes. The number of biological replicates and cells analysed per condition is not stated for most experiments.
+  - **Required correction** Add a statistical analysis section describing the tests used, sample sizes, and how replicates were defined. Report effect sizes and confidence intervals where appropriate.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Control experiments
+  - **Affected element** CENP-B knockout experiments
+  - **Evidence pointer** Figure 2e-h; location not provided
+  - **Issue** The CENP-B knockout is described as having "no detectable effect" on CENP-A localisation alone, but the data are not shown. The combination of CENP-B knockout with kinetochore depletion shows a further reduction, but it is unclear if this is statistically significant compared to kinetochore depletion alone.
+  - **Required correction** Show the CENP-B knockout alone data and perform a statistical comparison between all conditions to establish whether the effects are additive or synergistic.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Electrostatic polarity"
+  - **Evidence pointer** Throughout; location not provided
+  - **Issue** The term "electrostatic polarity" is introduced but not rigorously defined. It is used to describe a directional asymmetry in charge distribution, but the relationship to conventional electrostatic concepts (e.g., dipole moments, surface charge density) is not clarified.
+  - **Required correction** Provide a clear operational definition of "electrostatic polarity" and explain how it differs from or relates to existing concepts in electrostatics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Simulation-experiment correspondence
+  - **Affected element** Figure 3c,d vs 3a,b
+  - **Evidence pointer** Figure 3; location not provided
+  - **Issue** The simulation results are presented as qualitative agreement with experiments, but no quantitative metric of agreement is provided. It is unclear whether the simulated enrichment values are within the experimental range.
+  - **Required correction** Provide a quantitative comparison, such as a plot of simulated versus experimental enrichment values with error bars, or a statistical test of agreement.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Generality of the model
+  - **Affected element** Conclusions section
+  - **Evidence pointer** Conclusions; location not provided
+  - **Issue** The authors suggest that electrostatic polarity may be a "general and programmable mechanism" for chromatin organisation, but the evidence is limited to centromeres and synthetic constructs. The claim of generality is speculative.
+  - **Required correction** Soften the claim of generality or provide additional evidence that the mechanism operates in other chromatin contexts.
+
+## Risk / unsupported claims
+- The claim that centromere surface localisation is "independent of condensin-mediated loop extrusion" is supported by the depletion experiments, but the possibility of residual condensin activity or redundant mechanisms is not fully excluded
+- The quantitative claim that "98.4% ± 1.5% of foci were within 200 nm of the surface" in condensin-depleted cells is presented without showing the underlying data distribution or the statistical comparison to control conditions
+- The in silico charge estimate of −303.9e per kinetochore complex is based on amino acid composition alone and does not account for post-translational modifications, ion binding, or the actual 3D structure of the kinetochore
+- The claim that the synthetic TetR-GFP(neg25) system "recapitulates" the behaviour of endogenous centromeres is based on qualitative similarity, not quantitative equivalence
+- The thermodynamic interpretation of the PMF calculations (Figure 3g,h) is presented without a clear explanation of how the free energy values relate to the observed enrichment in the simulations
+- The statement that "electrostatic repulsion is a key determinant" is not directly tested by any experiment that manipulates electrostatic interactions in cells; the evidence is indirect
+- The claim that the mechanism operates "independent of microtubule engagement" is based on experiments with nocodazole, but the possibility that kinetochore-microtubule interactions during earlier stages of mitosis influence centromere positioning is not addressed
+
+## Assessment against Nature-style criteria
+- **Originality** High. The electrostatic repulsion model for centromere organisation is a novel conceptual framework that departs from prevailing loop-extrusion and structural models. The idea that charge-based repulsion, rather than specific protein-protein interactions, drives spatial organisation is creative and potentially transformative.
+- **Scientific importance** High if validated. Understanding how centromeres achieve their precise spatial position is fundamental to chromosome biology and genome stability. The proposed mechanism could have broad implications for how chromatin is organised in three dimensions.
+- **Interdisciplinary readership** Moderate to high. The work bridges cell biology, biophysics, and computational modelling. The concepts of phase separation and electrostatic interactions will appeal to biophysicists, while the cellular and chromosomal context will interest cell biologists. The synthetic biology angle may attract a broader readership.
+- **Technical soundness** Currently not fully established. The imaging analysis pipeline requires validation, the in vitro conditions need systematic characterisation, and the simulation model needs quantitative validation against experiments. The statistical reporting is incomplete.
+- **Readability for nonspecialists** Good. The manuscript is clearly written and the conceptual model is accessible. The figures, if they match the text descriptions, should aid understanding. The abstract effectively communicates the key findings and their significance.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41022992",
+  "title": "A comprehensive application of FiveFold for conformation ensemble-based protein structure prediction.",
+  "authors": "Niazi, Sarfaraz K; Yang, Jiaan",
+  "journal": "Scientific reports",
+  "published_date": "2025-09-30",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文介绍FiveFold集成方法预测无序蛋白构象系综，虽以IDP为对象并涉及PPI抑制剂应用，但侧重方法综述与构象多样性，未深入互作机制建模。",
+  "abstract": "The emergence of artificial intelligence in protein structure prediction has significantly advanced our understanding of protein folding. Yet, challenges remain in accurately modeling intrinsically disordered proteins (IDPs) and capturing conformational diversity essential for drug discovery. FiveFold is a novel ensemble method that combines predictions from five complementary algorithms (AlphaFold2, RoseTTAFold, OmegaFold, ESMFold, and EMBER3D) to improve our understanding of protein conformational landscapes, representing a significant advancement in structural biology. This review examines current applications of the methodology, analyzes its unique advantages in modeling IDPs, and explores its expanding potential in drug discovery. To demonstrate the utility of this method, we conducted computational modeling of alpha-synuclein as a model IDP system, proving it can better capture conformational diversity than traditional single-structure methods. We discuss future applications in structure-based drug design, allosteric drug discovery, protein-protein interaction inhibitors, and precision medicine. The framework's ability to generate multiple plausible conformations through its Protein Folding Shape Code (PFSC) and Protein Folding Variation Matrix (PFVM) addresses critical limitations in current structure prediction methodologies, enabling novel therapeutic intervention strategies targeting previously \"undruggable\" proteins.",
+  "abstract_zh": "人工智能在蛋白质结构预测领域的出现显著推进了我们对蛋白质折叠的理解。然而，在准确建模固有无序蛋白质（IDPs）以及捕捉药物发现所必需的构象多样性方面，挑战依然存在。FiveFold是一种新颖的集成方法，它结合了五种互补算法（AlphaFold2、RoseTTAFold、OmegaFold、ESMFold和EMBER3D）的预测，以提升我们对蛋白质构象景观的理解，代表了结构生物学的一项重大进展。本综述考察了该方法的当前应用，分析了其在建模IDPs方面的独特优势，并探讨了其在药物发现中不断扩展的潜力。为展示该方法的实用性，我们以α-突触核蛋白作为模型IDP系统进行了计算建模，证明其比传统单结构方法能更好地捕捉构象多样性。我们讨论了其在基于结构的药物设计、变构药物发现、蛋白质-蛋白质相互作用抑制剂以及精准医学中的未来应用。该框架通过其蛋白质折叠形状代码（PFSC）和蛋白质折叠变异矩阵（PFVM）生成多种合理构象的能力，解决了当前结构预测方法中的关键局限性，从而实现了针对先前“不可成药”蛋白质的新型治疗干预策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41022992/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41022992/",
+  "paper_page_path": "papers/pubmed/41022992/index.html"
+}

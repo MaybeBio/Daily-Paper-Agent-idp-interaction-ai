@@ -1,0 +1,219 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.18.599470",
+  "title": "ER-phagy Receptor’s Intrinsically Disordered Modules Drive ER Fragmentation and ER-phagy",
+  "doi": "10.1101/2024.06.18.599470",
+  "abstract": "Membrane remodeling leading to fragmentation is crucial for autophagy programs that control capture by phagophores or endolysosomes of portions of organelles to be removed from cells. It is driven by membrane-bound autophagy receptors that display cytoplasmic intrinsically disordered modules (IDRs) engaging Atg8/LC3/GABARAP (LC3). Studies on endoplasmic reticulum (ER)-phagy receptors of the FAM134 family revealed the importance of sequential FAM134 proteins phosphorylation, ubiquitylation and clustering for execution of the ER-phagy programs. In this model, ER fragmentation is promoted/facilitated by the membrane-remodeling function of FAM134 reticulon homology domains (RHDs). However, RHDs are not conserved in ER-phagy receptors. The question that we tackle in this work is if activation of ER-phagy receptors anchored at the ER membrane with conventional membrane spanning domains, i.e., most of the ER-phagy receptors known to date, eventually trigger ER remodeling and fragmentation, and how. Here, we show that the membrane-tethering modules of ER-phagy receptors (RHDs for FAM134B, single/multi spanning transmembrane domains for TEX264 and SEC62) determine the sub-compartmental distribution of the receptors but are dispensable for ER fragmentation, regardless of their propensity to remodel the ER membrane. Rather, ER fragmentation is promoted by the ER-phagy receptors intrinsically disordered region (IDR) modules that are a conserved feature of all ER-phagy receptors exposed at the cytoplasmic face of the ER membrane. Since cytoplasmic IDRs with net negative charge are conserved in autophagy receptors at the limiting membrane of other organelles, we anticipate that conserved mechanisms of organelle fragmentaVon driven by cytoplasmic exposed IDRs could operate in eukaryoVc cells.",
+  "authors": [
+    "Rudinskiy M",
+    "Galli C",
+    "Raimondi A",
+    "Molinari M"
+  ],
+  "published_date": "2024-06-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.18.599470",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.18.599470.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR869122",
+    "raw_record": {
+      "id": "PPR869122",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR869122"
+        ]
+      },
+      "doi": "10.1101/2024.06.18.599470",
+      "title": "ER-phagy Receptor’s Intrinsically Disordered Modules Drive ER Fragmentation and ER-phagy",
+      "authorString": "Rudinskiy M, Galli C, Raimondi A, Molinari M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Rudinskiy M",
+            "lastName": "Rudinskiy",
+            "firstName": "Mikhail",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7915-5616"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; ,"
+                },
+                {
+                  "affiliation": "Department of Biology, ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Galli C",
+            "lastName": "Galli",
+            "firstName": "Carmela",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Raimondi A",
+            "lastName": "Raimondi",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4563-386X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Molinari M",
+            "lastName": "Molinari",
+            "firstName": "Maurizio",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7636-5829"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ; ,"
+                },
+                {
+                  "affiliation": "School of Life Sciences, ; ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4563-386X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7636-5829"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7915-5616"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Membrane remodeling leading to fragmentation is crucial for autophagy programs that control capture by phagophores or endolysosomes of portions of organelles to be removed from cells. It is driven by membrane-bound autophagy receptors that display cytoplasmic intrinsically disordered modules (IDRs) engaging Atg8/LC3/GABARAP (LC3). Studies on endoplasmic reticulum (ER)-phagy receptors of the FAM134 family revealed the importance of sequential FAM134 proteins phosphorylation, ubiquitylation and clustering for execution of the ER-phagy programs. In this model, ER fragmentation is promoted/facilitated by the membrane-remodeling function of FAM134 reticulon homology domains (RHDs). However, RHDs are not conserved in ER-phagy receptors. The question that we tackle in this work is if activation of ER-phagy receptors anchored at the ER membrane with conventional membrane spanning domains, i.e., most of the ER-phagy receptors known to date, eventually trigger ER remodeling and fragmentation, and how. Here, we show that the membrane-tethering modules of ER-phagy receptors (RHDs for FAM134B, single/multi spanning transmembrane domains for TEX264 and SEC62) determine the sub-compartmental distribution of the receptors but are dispensable for ER fragmentation, regardless of their propensity to remodel the ER membrane. Rather, ER fragmentation is promoted by the ER-phagy receptors intrinsically disordered region (IDR) modules that are a conserved feature of all ER-phagy receptors exposed at the cytoplasmic face of the ER membrane. Since cytoplasmic IDRs with net negative charge are conserved in autophagy receptors at the limiting membrane of other organelles, we anticipate that conserved mechanisms of organelle fragmentaVon driven by cytoplasmic exposed IDRs could operate in eukaryoVc cells.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "214903",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "320030",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.18.599470"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR869122"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR869122&type=FILE&fileName=EMS196967-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196967",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-06-20",
+      "firstPublicationDate": "2024-06-18",
+      "firstIndexDate": "2024-06-20",
+      "fullTextReceivedDate": "2024-07-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "39829920",
+    "doi": "10.1101/2024.11.14.623669",
+    "title": "Lipid Packing Defects are Necessary and Sufficient for Membrane Binding of alpha-Synuclein."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein (alphaSyn), an intrinsically disordered protein implicated in Parkinson's disease, is thought to initiate aggregation by binding to cellular membranes. Previous studies suggest that anionic lipids are necessary for this binding. However, these studies largely focused on unmodified alphaSyn, while physiological alphaSyn is N-terminally acetylated (NTA). Our work challenges the long-standing paradigm that anionic lipids are necessary for alphaSyn binding by demonstrating that NTA diminishes alphaSyn's reliance on anionic membrane charge, revealing that membrane packing defects (i.e., interfacial hydrophobicity) alone can drive membrane binding. Using fluorescence microscopy and circular dichroism spectroscopy, we monitored the binding of NTA-alphaSyn to membrane vesicles with different lipid compositions. Phosphatidylcholine and phosphatidylserine concentrations were varied to control surface charge, while phospholipid tail unsaturation and methylation were varied to modulate lipid packing. We also formulated cholesterol-containing membranes that mimicked the lipid composition of synaptic vesicles. In these membranes, all-atom molecular dynamics simulations were used to visualize and quantify membrane packing defects. Our results demonstrate that membrane packing defects are necessary for NTA-alphaSyn binding and that defect-rich membranes are sufficient for NTA-alphaSyn binding regardless of membrane charge. These findings provide a molecular mechanism by which lipid structural properties, such as poly-unsaturation, can regulate alphaSyn binding to physiological membranes.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Johnson, David H",
+        "Kou, Orianna H",
+        "White, John M",
+        "Ramirez, Stephanie Y",
+        "Margaritakis, Antonis",
+        "Chung, Peter J",
+        "Jaeger, Vance W",
+        "Zeno, Wade F"
+      ],
+      "short_names": [
+        "Johnson DH",
+        "Kou OH",
+        "White JM",
+        "Ramirez SY",
+        "Margaritakis A",
+        "Chung PJ",
+        "Jaeger VW",
+        "Zeno WF"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2341-8923"
+      ],
+      "affiliations": [
+        "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, 90089, United States.",
+        "Department of Physics and Astronomy, University of Southern California, Los Angeles, California, 90089, United States.",
+        "Department of Chemical Engineering, University of Louisville, Ernst Hall, Room 312, 216 Eastern Parkway, Louisville, Kentucky 40292, United States.",
+        "Department of Biological Sciences, University of Southern California, Los Angeles, 90089, United States.",
+        "Department of Physics and Astronomy, University of Southern California, Los Angeles, California, 90089, United States.",
+        "Department of Physics and Astronomy, University of Southern California, Los Angeles, California, 90089, United States.",
+        "Department of Chemistry, University of Southern California, Los Angeles, California, 90089, United States.",
+        "Alfred E. Mann Department of Biomedical Engineering, University of Southern California, Los Angeles, California, 90089, United States.",
+        "Department of Chemical Engineering, University of Louisville, Ernst Hall, Room 312, 216 Eastern Parkway, Louisville, Kentucky 40292, United States.",
+        "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, 90089, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Johnson, David H",
+        "short_name": "Johnson DH",
+        "identifiers": [],
+        "affiliations": [
+          "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, 90089, United States."
+        ]
+      },
+      {
+        "full_name": "Kou, Orianna H",
+        "short_name": "Kou OH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Southern California, Los Angeles, California, 90089, United States."
+        ]
+      },
+      {
+        "full_name": "White, John M",
+        "short_name": "White JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, University of Louisville, Ernst Hall, Room 312, 216 Eastern Parkway, Louisville, Kentucky 40292, United States."
+        ]
+      },
+      {
+        "full_name": "Ramirez, Stephanie Y",
+        "short_name": "Ramirez SY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, University of Southern California, Los Angeles, 90089, United States."
+        ]
+      },
+      {
+        "full_name": "Margaritakis, Antonis",
+        "short_name": "Margaritakis A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Southern California, Los Angeles, California, 90089, United States."
+        ]
+      },
+      {
+        "full_name": "Chung, Peter J",
+        "short_name": "Chung PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Southern California, Los Angeles, California, 90089, United States.",
+          "Department of Chemistry, University of Southern California, Los Angeles, California, 90089, United States.",
+          "Alfred E. Mann Department of Biomedical Engineering, University of Southern California, Los Angeles, California, 90089, United States."
+        ]
+      },
+      {
+        "full_name": "Jaeger, Vance W",
+        "short_name": "Jaeger VW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, University of Louisville, Ernst Hall, Room 312, 216 Eastern Parkway, Louisville, Kentucky 40292, United States."
+        ]
+      },
+      {
+        "full_name": "Zeno, Wade F",
+        "short_name": "Zeno WF",
+        "identifiers": [
+          "0000-0002-2341-8923"
+        ],
+        "affiliations": [
+          "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, 90089, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 May 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/20 22:52",
+    "fetched_at": "2026-09-21 14:54:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39729359",
+      "39306670",
+      "38962715",
+      "38702883",
+      "38508884",
+      "38100855",
+      "37883437",
+      "36982988",
+      "36812386",
+      "36567199",
+      "36099961",
+      "35944093",
+      "35787839",
+      "35474118",
+      "34572099",
+      "34473498",
+      "34248606",
+      "34139199",
+      "33903234",
+      "33568632",
+      "33566579",
+      "33538574",
+      "33437978",
+      "33356274",
+      "33263429",
+      "32063829",
+      "31937832",
+      "31389467",
+      "31191239",
+      "31057362",
+      "30297718",
+      "30055754",
+      "30054468",
+      "29853639",
+      "29725687",
+      "29573133",
+      "28671142",
+      "27531743",
+      "26808899",
+      "26119565",
+      "25931201",
+      "25824255",
+      "25772372",
+      "25643172",
+      "25387473",
+      "25246573",
+      "24338013",
+      "23891661",
+      "23823878",
+      "23765500",
+      "23740253",
+      "23442908",
+      "23153485",
+      "22836248",
+      "22694188",
+      "22315227",
+      "21929559",
+      "21841800",
+      "21527634",
+      "21524999",
+      "21203426",
+      "20923663",
+      "19749743",
+      "19420222",
+      "19220042",
+      "19066219",
+      "18082181",
+      "17406547",
+      "17176082",
+      "17110340",
+      "16581836",
+      "15028717",
+      "14507911",
+      "12621030",
+      "12586824",
+      "10915790",
+      "9600990",
+      "9545270",
+      "9278044",
+      "3411354"
+    ],
+    "similar": [
+      "39829920",
+      "40775530",
+      "33971161",
+      "41428873",
+      "31048377",
+      "29853639",
+      "30198000",
+      "39188788",
+      "32304757",
+      "38100855",
+      "35718804",
+      "40315262",
+      "40902974",
+      "39306670",
+      "25824255",
+      "30826264",
+      "33318779",
+      "41278972",
+      "32953942",
+      "34667532",
+      "23823878",
+      "36114228",
+      "25985082",
+      "33862084",
+      "23583776",
+      "26119565",
+      "36939875",
+      "39335634",
+      "32356963",
+      "31740740",
+      "36830656",
+      "29428500",
+      "31424918",
+      "34617653",
+      "39133842",
+      "25490121",
+      "40341765",
+      "30871620",
+      "32513706",
+      "34788284",
+      "34680099",
+      "24338013",
+      "18930058",
+      "23740253",
+      "33587036",
+      "18082181",
+      "33369404",
+      "29305919",
+      "16669622",
+      "31760463",
+      "31064841",
+      "15028717",
+      "38948777",
+      "18198943",
+      "33538595",
+      "38951707",
+      "40967508",
+      "36493587",
+      "31333408",
+      "27507836",
+      "32173400",
+      "39318230",
+      "39584804",
+      "9649334",
+      "39208301",
+      "24099487",
+      "25075858",
+      "20923663",
+      "27766878",
+      "35701444",
+      "22500765",
+      "16455667",
+      "22439820",
+      "39965930",
+      "30093536",
+      "28698628",
+      "40715768",
+      "38147546",
+      "33538574",
+      "27095675",
+      "40307230",
+      "33499263",
+      "30327435",
+      "36812386",
+      "40011177",
+      "40785227",
+      "24146972",
+      "16519533",
+      "39201619",
+      "40721018",
+      "34948050",
+      "28671142",
+      "20923645",
+      "29633780",
+      "41241941",
+      "37782491",
+      "15265037",
+      "33003328",
+      "26297828",
+      "31181290"
+    ],
+    "review": [
+      "39829920",
+      "39188788",
+      "25985082",
+      "39335634",
+      "29428500",
+      "29305919",
+      "31064841",
+      "40967508",
+      "31333408",
+      "32173400",
+      "39201619",
+      "28671142"
+    ],
+    "pmc": [
+      "11741239"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39829920/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.11.14.623669",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

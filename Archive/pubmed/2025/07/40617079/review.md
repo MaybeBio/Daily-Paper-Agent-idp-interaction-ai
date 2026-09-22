@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a computational pipeline combining structure-based virtual screening, binding site identification, small molecule-peptide docking, protein-protein docking, and molecular dynamics simulations to identify novel molecules that interact with aggregation-prone monomeric conformers of amyloid-beta and potentially reduce their aggregation propensity, with implications for Alzheimer's disease intervention.
+- **Visible evidence base** Abstract text only; no quantitative results, validation metrics, or methodological details provided
+- **Missing materials affecting confidence** Full methods, docking scores, simulation parameters, force fields, ensemble generation details, compound identities, validation against experimental data, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational strategy for targeting aggregation-prone amyloid-beta conformers, but the evidence provided is insufficient to evaluate the validity, novelty, or significance of the findings. The workflow is described at a high level without quantitative outcomes or comparative benchmarks, and the central claim of identifying "novel molecules" with aggregation-reducing potential is unsupported by any data in the supplied material. The relevance to Alzheimer's disease is stated but not contextualized against existing literature or experimental validation.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on protein aggregation and drug discovery for neurodegenerative diseases would be the primary audience. Researchers developing virtual screening pipelines for intrinsically disordered proteins may find the methodological approach of interest, provided the full manuscript offers sufficient technical detail and validation.
+- **Major strengths** The abstract addresses a biologically relevant target, the monomeric aggregation-prone conformers of amyloid-beta, which is a critical yet underexplored intermediate in fibrillation. The proposed multi-step computational workflow is logically structured and integrates several established techniques, suggesting a systematic approach. The focus on conformational ensembles rather than a single static structure is conceptually sound for intrinsically disordered proteins.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "a set of novel molecules was identified as capable of interacting with aggregation-prone forms of amyloid-beta, potentially reducing their tendency to form toxic aggregates."
+  - **Evidence pointer** Abstract, results section not provided
+  - **Concern** No quantitative data are presented to support the identification of these molecules. There are no docking scores, binding affinities, simulation stability metrics, or any comparative analysis against known binders or negative controls. The term "novel" is unsubstantiated without a demonstration of chemical novelty or prior literature search.
+  - **Why it matters** The central conclusion of the study rests on the identification of specific molecules with functional potential. Without numerical evidence or validation, the claim is not verifiable and cannot be assessed for reliability or reproducibility.
+  - **Resolution test** Provide docking scores, binding free energy estimates, simulation convergence data, and a comparison with known amyloid-beta binders or decoy compounds. Include chemical identities and a statement on novelty relative to existing databases.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract describes a workflow including "binding site identification, small molecule-peptide docking, protein-protein docking, and molecular dynamics simulations to evaluate interaction stability and aggregation propensity."
+  - **Evidence pointer** Abstract, methods section not provided
+  - **Concern** The abstract lacks essential methodological details, including the source and generation of the structural ensemble, the specific docking algorithms and scoring functions used, the force field and simulation length for molecular dynamics, and how "aggregation propensity" was quantified. Without these details, the reproducibility of the pipeline is questionable.
+  - **Why it matters** Computational studies are only meaningful if the methods are sufficiently specified to allow replication. The absence of these details prevents an independent assessment of technical soundness and limits the utility of the approach for other researchers.
+  - **Resolution test** Specify the ensemble generation method, software versions, parameters, and analysis protocols. Provide justification for parameter choices and any validation of the simulation setup.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and biological relevance
+  - **Claim pointer** The abstract implies that the identified molecules "potentially reducing their tendency to form toxic aggregates" and links this to Alzheimer's disease.
+  - **Evidence pointer** Abstract, validation section not provided
+  - **Concern** There is no mention of experimental validation, comparison with known aggregation inhibitors, or assessment of whether the computational predictions translate to functional outcomes. The link to Alzheimer's disease is asserted without evidence that the targeted conformers are physiologically relevant or that the molecules would be effective in a biological context.
+  - **Why it matters** Computational predictions without experimental or literature-based validation remain speculative. The clinical relevance of the findings cannot be established from the abstract alone, and the claim of potential therapeutic utility is premature.
+  - **Resolution test** Include experimental validation data, such as Thioflavin T assays or cellular toxicity studies, or clearly state the limitations of the computational approach and position the findings as hypothesis-generating.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening statement on Alzheimer's disease is generic and does not establish the specific gap this study addresses.
+  - **Required correction** Briefly state why targeting monomeric aggregation-prone conformers is a distinct and underexplored strategy compared to existing approaches.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Morphological inhibitors"
+  - **Evidence pointer** Title
+  - **Issue** The term "morphological inhibitors" is not defined or explained in the abstract, and its meaning is unclear in the context of molecular interactions.
+  - **Required correction** Define the term in the abstract or replace it with a more standard descriptor such as "conformational modulators" or "aggregation inhibitors."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound characterization
+  - **Evidence pointer** Abstract, results not provided
+  - **Issue** The abstract does not indicate the number of molecules identified, their chemical classes, or any diversity analysis.
+  - **Required correction** Provide a summary of the hit count, chemical diversity, and any selection criteria used to prioritize compounds.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and validation means the core claims are not currently supported by the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of targeting monomeric aggregation-prone conformers via a multi-step computational pipeline is not inherently novel, as similar strategies exist for other amyloidogenic proteins. The abstract does not demonstrate a unique methodological contribution or conceptual advance.
+  - Scientific importance: The topic is relevant to Alzheimer's disease research, but the abstract does not establish how these findings advance the field beyond existing computational studies or provide testable hypotheses with clear impact.
+  - Interdisciplinary readership: The work sits at the intersection of computational chemistry, structural biology, and neurobiology, but the abstract is too technical and sparse to engage a broad audience. The lack of context on disease relevance limits cross-disciplinary appeal.
+  - Technical soundness: Cannot be assessed from the abstract alone. The described workflow is plausible, but the absence of parameters, validation, and results precludes any judgment on reliability.
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with docking and simulation terminology. The relevance to Alzheimer's disease is stated but not explained in a way that would inform a general scientific reader.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract outlines a reasonable computational strategy, but the lack of quantitative results, methodological transparency, and validation means the central claims cannot be evaluated. A revised submission with full data and methods would be required to assess the study's contribution.
+
+## Risk / unsupported claims
+- The claim that "a set of novel molecules was identified" is unsupported without compound identities, docking metrics, or novelty assessment.
+- The claim that these molecules "potentially reducing their tendency to form toxic aggregates" is unsupported without simulation-based aggregation propensity data or experimental correlation.
+- The relevance to Alzheimer's disease is asserted but not substantiated with evidence linking the targeted conformers to disease pathology.
+- The methodological workflow is described but not verifiable due to missing parameters and software details.

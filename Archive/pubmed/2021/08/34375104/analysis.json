@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34375104",
+  "title": "Tardigrade Secretory-Abundant Heat-Soluble Protein Has a Flexible beta-Barrel Structure in Solution and Keeps This Structure in Dehydration.",
+  "authors": "Miyazawa, Kazuhisa; Itoh, Satoru G; Watanabe, Hiroki; Uchihashi, Takayuki; Yanaka, Saeko; Yagi-Utsumi, Maho; Kato, Koichi; Arakawa, Kazuharu; Okumura, Hisashi",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-08-11",
+  "window": {
+    "start": "2021-08-09",
+    "end": "2021-08-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过MD模拟和高速AFM研究缓步动物SAHS蛋白RvSAHS1在溶液和脱水条件下的柔性β-桶结构及N端无序域动态，虽涉及IDR和MD方法，但未聚焦PPI或互作机制建模，故为中档。",
+  "abstract": "Secretory-abundant heat-soluble (SAHS) proteins are unique heat-soluble proteins of Tardigrada and are believed to play an essential role in anhydrobiosis, a latent state of life induced by desiccation. To investigate the dynamic properties, molecular dynamics (MD) simulations of a SAHS protein, RvSAHS1, were performed in solution and under dehydrating conditions. For comparison purposes, MD simulations of a human liver-type fatty-acid binding protein (LFABP) were performed in solution. Furthermore, high-speed atomic force microscopy observations were conducted to ascertain the results of the MD simulations. Three properties of RvSAHS1 were found as follows. (1) The entrance region of RvSAHS1 is more flexible and can be more extensive in solutions compared with that of a human LFABP because there is no salt bridge between the betaD and betaE strands. (2) The intrinsically disordered domain in the N-terminal region significantly fluctuates and can form an amphiphilic alpha-helix. (3) The size of the entrance region gets smaller along with dehydration, keeping the beta-barrel structure. Overall, the obtained results provide atomic-level dynamics of SAHS proteins.",
+  "abstract_zh": "分泌丰富热溶性（SAHS）蛋白是缓步动物门特有的热溶性蛋白，被认为在脱水诱导的潜伏生命状态——脱水休眠（anhydrobiosis）中发挥关键作用。为探究其动态特性，在溶液及脱水条件下对SAHS蛋白RvSAHS1进行了分子动力学（molecular dynamics, MD）模拟。为比较，对人肝脏型脂肪酸结合蛋白（LFABP）在溶液中进行了MD模拟。此外，采用高速原子力显微镜观察以验证MD模拟结果。发现RvSAHS1具有以下三个特性：（1）与人类LFABP相比，RvSAHS1的入口区域在溶液中更柔韧且可更广泛扩展，因为其βD和βE链之间缺乏盐桥。（2）N端区域的内在无序结构域显著波动，并能形成两亲性α-螺旋。（3）入口区域尺寸随脱水而减小，同时保持β-桶结构。总体而言，所得结果提供了SAHS蛋白的原子级动态特性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34375104/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34375104/",
+  "paper_page_path": "papers/pubmed/34375104/index.html"
+}

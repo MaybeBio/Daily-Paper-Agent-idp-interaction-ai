@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42538434",
+  "title": "Variant characterization in the intrinsically disordered human proteome.",
+  "authors": "Hubrich, Dalmira; Alvarado Valverde, Jesus; Lee, Chop Yan; Djokic, Milena; Welzel, Mareen; Hintz, Kristina; Strom, Joelle Morgan; Luck, Katja",
+  "journal": "Nature structural & molecular biology",
+  "published_date": "2026-08-01",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合序列模式搜索与AlphaFold，对无序蛋白区域中由短线性基序介导的蛋白-蛋白互作界面进行结构注释，并预测错义变异的有害效应，直接聚焦IDR介导的PPI机制建模，方法上融合AI结构预测，高度契合本课题。",
+  "abstract": "Variant effect prediction remains a key challenge in precision medicine. Computational models are increasingly successful in the characterization of missense variants in folded protein regions. However, 37% of all annotated missense variants reside in the 25% of the proteome that is intrinsically disordered, lacking positional sequence conservation and stable structures. To advance the characterization of variants in intrinsically disordered protein regions (IDRs), we combined sequence pattern searches with AlphaFold to structurally annotate 1,300 protein-protein interactions with interfaces mediated by short disordered motifs binding to folded domains in partner proteins. These interfaces were selected based on their overlap with uncertain missense variants enabling structural model-based prediction of deleterious effects of 1,187 of these variants in IDRs. Extensive experimental efforts validated the predicted interfaces and deleterious variant effects that were predicted as benign by AlphaMissense, demonstrating that the combination of sequence analysis and structural modeling can readily generate numerous testable hypotheses of variant effects on protein function in IDRs.",
+  "abstract_zh": "变异效应预测仍是精准医学中的一个关键挑战。计算模型在折叠蛋白区域中错义变异特征描述方面日益成功。然而，所有已注释的错义变异中有37%位于蛋白质组中25%的内在无序区域，这些区域缺乏位置序列保守性和稳定结构。为了推进内在无序蛋白区域（IDRs）中变异特征的描述，我们将序列模式搜索与AlphaFold相结合，对1,300个蛋白质-蛋白质相互作用进行了结构注释，这些相互作用的界面由短无序基序介导，与伴侣蛋白中的折叠结构域结合。这些界面基于其与不确定错义变异的重叠进行选择，从而能够基于结构模型预测IDRs中1,187个这些变异的有害效应。大量实验努力验证了预测的界面和有害变异效应，这些效应被AlphaMissense预测为良性，表明序列分析与结构建模的结合可以轻松生成大量关于IDRs中变异对蛋白质功能影响的可测试假设。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42538434/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42538434/",
+  "paper_page_path": "papers/pubmed/42538434/index.html"
+}

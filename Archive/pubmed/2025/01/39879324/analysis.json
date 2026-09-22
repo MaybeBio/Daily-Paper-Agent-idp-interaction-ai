@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39879324",
+  "title": "Recalibrating Protection Factors Using Millisecond Hydrogen/Deuterium Exchange Mass Spectrometry.",
+  "authors": "Stofella, Michele; Seetaloo, Neeleema; St John, Alexander N; Paci, Emanuele; Phillips, Jonathan J; Sobott, Frank",
+  "journal": "Analytical chemistry",
+  "published_date": "2025-01-29",
+  "window": {
+    "start": "2025-01-27",
+    "end": "2025-02-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用毫秒HDX-MS和MD模拟重新校准无序肽的氢氘交换速率，虽涉及无序蛋白和MD方法，但核心是实验技术校准而非PPI互作机制建模，故为中档。",
+  "abstract": "Hydrogen/deuterium exchange mass spectrometry (HDX-MS) is a powerful technique to interrogate protein structure and dynamics. With the ability to study almost any protein without a size limit, including intrinsically disordered ones, HDX-MS has shown fast growing importance as a complement to structural elucidation techniques. Current experiments compare two or more related conditions (sequences, interaction partners, excipients, conformational states, etc.) to determine statistically significant differences at a number of fixed time points and highlight areas of changed structural dynamics in the protein. The work presented here builds on the fundamental research performed in the early days of the technique and re-examines exchange rate calculations with the aim of establishing HDX-MS as an absolute and quantitative, rather than relative and qualitative, measurement. We performed millisecond HDX-MS experiments on a mixture of three unstructured peptides (angiotensin, bradykinin, and atrial natriuretic peptide amide rat) and compared experimental deuterium uptake curves with theoretical ones predicted using established exchange rate calculations. With poly-dl-alanine (PDLA) commonly used as a reference,(,) we find that experimental rates are sometimes faster than theoretically possible, while they agree much better, and are never faster, with the fully unstructured trialanine peptide (3-Ala). Molecular dynamics (MD) simulations confirm the high helical propensity of the longer and partially structured PDLA peptides, which need as few as 15 residues to form a stable helix and are therefore not suitable as an unstructured reference. Reanalysis of previously published data by Weis et al. at 100 mM NaCl however still shows a discrepancy with predictions based on 3-Ala in the absence of salt, highlighting the need for a better understanding of salt effects on exchange rates. Such currently unquantifiable salt effects prevent us from proposing a comprehensive, universal calibration framework at the moment. Nevertheless, an accurate recalibration of intrinsic exchange rate calculations is crucial to enable kinetic modeling of the exchange process and to ultimately allow HDX-MS to move toward a direct link with atomistic structural models.",
+  "abstract_zh": "氢/氘交换质谱（HDX-MS）是一种用于探究蛋白质结构与动力学的强大技术。凭借其能够研究几乎任何蛋白质（包括 intrinsically disordered proteins）且不受大小限制的能力，HDX-MS 作为结构解析技术的补充，其重要性日益凸显。当前实验通过比较两种或多种相关条件（如序列、相互作用伙伴、辅料、构象状态等），在多个固定时间点确定统计学显著差异，并突出蛋白质中结构动力学发生变化的区域。本文工作基于该技术早期的基础研究，重新审视交换速率计算，旨在将 HDX-MS 确立为一种绝对且定量的测量方法，而非相对且定性的测量。我们对三种非结构化肽（血管紧张素、缓激肽和大鼠心房利钠肽酰胺）的混合物进行了毫秒级 HDX-MS 实验，并将实验测得的氘摄取曲线与基于既定交换速率计算预测的理论曲线进行比较。以常用的聚-DL-丙氨酸（PDLA）作为参考时，我们发现实验速率有时快于理论可能值，而与完全非结构化的三丙氨酸肽（3-Ala）相比，实验速率则吻合得更好，且从未超过理论值。分子动力学（MD）模拟证实了较长且部分结构化的 PDLA 肽具有高螺旋倾向，这些肽仅需 15 个残基即可形成稳定螺旋，因此不适合作为非结构化参考。然而，对 Weis 等人先前在 100 mM NaCl 条件下发表的数据进行重新分析，仍显示出与无盐条件下基于 3-Ala 的预测存在差异，这凸显了更好地理解盐效应对交换速率影响的必要性。目前这些尚无法量化的盐效应阻碍了我们提出全面、通用的校准框架。尽管如此，对内在交换速率计算进行精确重新校准，对于实现交换过程的动力学建模以及最终推动 HDX-MS 与原子级结构模型直接关联至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39879324/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39879324/",
+  "paper_page_path": "papers/pubmed/39879324/index.html"
+}

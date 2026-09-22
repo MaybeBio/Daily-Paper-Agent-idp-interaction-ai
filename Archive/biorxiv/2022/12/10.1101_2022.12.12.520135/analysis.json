@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.12.520135",
+  "title": "Ultrafast molecular dynamics observed within a dense protein condensate",
+  "authors": "Galvanetto N; Ivanović MT; Chowdhury A; Sottini A; Nüesch MF; Nettels D; Best RB; Schuler B",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-14",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合单分子光谱与全原子分子动力学模拟，揭示致密蛋白凝聚体中无序蛋白链的亚微秒级快速重排动力学，直接关联无序蛋白相分离中的分子互作机制建模。",
+  "abstract": "Many biological macromolecules can phase-separate in the cell and form highly concentrated condensates. The mesoscopic dynamics of these assemblies have been widely characterized, but their behavior at the molecular scale has remained more elusive. Here we investigate condensates of two highly charged disordered human proteins as a characteristic example of liquid-liquid phase separation. The dense phase is 1000 times more concentrated and has 300 times higher bulk viscosity than the dilute phase. However, single-molecule spectroscopy in individual droplets reveals that the polypeptide chains are remarkably dynamic, with sub-microsecond reconfiguration times. We rationalize this behavior with large-scale all-atom molecular-dynamics simulations, which reveal an unexpectedly similar short-range molecular environment in the dense and dilute phases, suggesting that local biochemical processes and interactions can remain exceedingly rapid in phase-separated systems.",
+  "abstract_zh": "许多生物大分子能够在细胞内发生相分离（phase separation），形成高浓度的凝聚体（condensates）。这些组装体的介观动力学已被广泛表征，但其在分子尺度上的行为仍较为难以捉摸。在此，我们研究了两种高度带电的无序人类蛋白质的凝聚体，作为液-液相分离（liquid-liquid phase separation）的一个典型例子。致密相浓度比稀相高1000倍，其整体黏度比稀相高300倍。然而，单个液滴中的单分子光谱学揭示，多肽链表现出显著的动态性，其重构时间在亚微秒级别。我们通过大规模全原子分子动力学（molecular dynamics）模拟来合理化这一行为，模拟结果揭示了致密相和稀相中短程分子环境出乎意料地相似，这表明在相分离系统中，局部生化过程和相互作用可以保持极其快速。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.12.520135",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.12.520135",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.12.520135/index.html"
+}

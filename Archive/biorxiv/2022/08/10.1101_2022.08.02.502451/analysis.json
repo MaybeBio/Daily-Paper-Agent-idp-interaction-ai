@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.08.02.502451",
+  "title": "Can pseudotopological models for SMC-driven DNA loop extrusion explain the traversal of physical roadblocks bigger than the SMC ring size?",
+  "authors": "Pradhan B; Barth R; Kim E; Davidson IF; van der Torre J; Peters J; Dekker C",
+  "journal": "bioRxiv",
+  "published_date": "2022-08-03",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 3,
+  "one_liner_zh": "该文通过物理模型检验SMC驱动DNA环挤压的假拓扑模型与路障穿越实验的兼容性，对象为DNA/染色质结构而非无序蛋白，且无PPI或AI/物理模拟方法贡献，仅对机制建模有间接启发。",
+  "abstract": "<h4>SUMMARY</h4> DNA loop extrusion by structural-maintenance-of-chromosome (SMC) complexes has emerged as a primary organizing principle for chromosomes. The mechanism by which SMC motor proteins extrude DNA loops is still unresolved and much debated. The ring-like structure of SMC complexes prompted multiple models where the extruded DNA is topologically or pseudotopologically entrapped within the ring during loop extrusion. However, recent experiments showed the passage of roadblocks much bigger than the SMC ring size, suggesting a nontopological mechanism. Recently, attempts were made to reconcile the observed passage of large roadblocks with a pseudotopological mechanism. Here we examine the predictions of these pseudotopological models, and find that they are not consistent with some experimental data on SMC roadblock encounters. Particularly, these models predict the formation of two loops and that roadblocks will reside near the stem of the loop upon encounter – both in contrast to experimental observations. Overall, the experimental data reinforce the notion of a nontopological mechanism for extrusion of DNA.",
+  "abstract_zh": "<h4>摘要</h4> 结构维持染色体（SMC）复合物介导的DNA环挤压已成为染色体组织的主要组织原则。SMC马达蛋白挤出DNA环的机制仍未解决且备受争议。SMC复合物的环状结构催生了多种模型，其中挤出过程中的DNA在拓扑学或伪拓扑学上被包埋在环内。然而，近期实验显示，比SMC环尺寸大得多的路障能够通过，提示存在非拓扑学机制。最近，有研究尝试将观察到的较大路障通过现象与伪拓扑学机制相协调。在此，我们检验这些伪拓扑学模型的预测，并发现它们与某些关于SMC路障遭遇的实验数据不一致。特别是，这些模型预测会形成两个环，且路障在遭遇时会位于环的茎部附近——这两点均与实验观察相悖。总体而言，实验数据强化了DNA挤出采用非拓扑学机制的观点。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.08.02.502451",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.08.02.502451",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.08.02.502451/index.html"
+}

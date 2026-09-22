@@ -1,0 +1,73 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors state that annexins, a family of calcium-dependent phospholipid-binding proteins, also bind RNA. Using the catRAPID algorithm, they claim accurate prediction of known RNA-binding partners of annexins, supported by experimental validation. They further claim construction of a virtual library of potential mRNA partners for Annexin A2, identification of RNA-binding regions within its structure, and observation of phase separation tendencies for AnxA7 and AnxA11 driven by N-termini. They propose these properties may influence RNA trafficking and localization in neurons, affecting synaptic plasticity, learning, and memory, and present catRAPID as a powerful computational tool for predicting RNA-binding properties.
+- **Visible evidence base** Abstract text only; no experimental data, algorithm parameters, validation statistics, or structural details provided
+- **Missing materials affecting confidence** Full manuscript, methods section, experimental validation data, computational predictions and their statistical metrics, figures, tables, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant hypothesis linking annexin RNA-binding properties to phase separation and neuronal function. However, the claims are broad and the evidence base is not assessable from the abstract alone. The central assertion of accurate prediction of known RNA-binding partners is stated without quantitative support, and the experimental validation is mentioned but not described. The phase separation claims for AnxA7 and AnxA11 are presented as observations but lack mechanistic detail. The proposed implications for neuronal processes such as synaptic plasticity, learning, and memory are speculative and not supported by direct evidence in the abstract. The manuscript may have merit, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in RNA biology, particularly those studying RNA-binding proteins and post-transcriptional regulation, would be interested in the expansion of annexin functions to include RNA interaction. Investigators working on phase separation and membraneless organelles would find the proposed link between annexin N-termini and condensation relevant. Neuroscientists studying RNA trafficking and localization in neurons, especially in the context of synaptic function, may also be interested given the proposed implications for plasticity and memory. Computational biologists developing or applying RNA-binding prediction tools would be interested in the catRAPID application.
+- **Major strengths** The abstract addresses a controversial and under-recognized function of annexins, namely RNA binding, which could broaden the understanding of this protein family. The integration of computational prediction with experimental validation is a commendable approach. The connection between RNA binding and phase separation is a timely and conceptually interesting direction. The focus on neuronal contexts provides a potentially high-impact biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that using the catRAPID algorithm, they accurately predicted known RNA-binding partners of Annexins, supported by experimental validation.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of accurate prediction is stated without any quantitative metrics, such as sensitivity, specificity, or area under the curve. The nature of the experimental validation is not described, including which annexins were tested, which RNA partners were validated, and what experimental methods were used.
+  - **Why it matters** Without quantitative performance measures and a description of the validation experiments, the accuracy of the predictions cannot be evaluated. This is the foundational claim of the manuscript, and if it is not supported, the subsequent predictions for Annexin A2 and the broader conclusions are undermined.
+  - **Resolution test** Provide prediction performance statistics against known RNA-binding partners, describe the experimental validation methods and results in detail, and clarify whether the validation was independent or used training data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim construction of a virtual library of potential mRNA partners for Annexin A2 and identification of regions within its structure directly involved in RNA binding.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify the size or composition of the virtual library, the criteria for selecting potential partners, or the methods used to identify RNA-binding regions. No structural or sequence details are given.
+  - **Why it matters** The identification of RNA-binding regions is a key output of the study. Without details on how these regions were determined and validated, the claim is not verifiable. The biological relevance of the predicted partners and regions cannot be assessed.
+  - **Resolution test** Describe the virtual library construction, including the source of mRNA sequences and filtering criteria. Provide details on the predicted RNA-binding regions, including their location in the Annexin A2 structure and any experimental confirmation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that some Annexins, notably AnxA7 and AnxA11, exhibit strong phase separation tendencies driven by their N-termini.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of phase separation is presented as a finding, but no experimental or computational evidence is described. The role of the N-termini in driving this behavior is asserted without supporting data.
+  - **Why it matters** Phase separation is a complex biophysical phenomenon that requires specific evidence, such as turbidity assays, microscopy, or fluorescence recovery after photobleaching. Without such evidence, the claim is unsupported. The link to RNA trafficking and neuronal function depends on this property being real.
+  - **Resolution test** Provide experimental evidence for phase separation, such as droplet formation assays, and demonstrate that the N-termini are necessary and sufficient for this behavior, for example through deletion or mutation constructs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Speculation vs. evidence
+  - **Claim pointer** The authors propose that these biophysical properties likely play roles in RNA trafficking and localization particularly in neurons, where they may influence processes such as synaptic plasticity, learning, and memory.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The connection between annexin RNA binding, phase separation, and neuronal processes is presented as a likely role, but no direct evidence is provided in the abstract. This appears to be a speculative extrapolation from in vitro or computational findings.
+  - **Why it matters** The potential impact on synaptic plasticity, learning, and memory is a major selling point of the study. If this is purely speculative, it should be clearly framed as a hypothesis, not a conclusion. Overstating the implications could mislead readers.
+  - **Resolution test** Clarify in the abstract that these neuronal implications are hypotheses. If any supporting evidence exists, such as experiments in neuronal cells or animal models, describe them. Otherwise, temper the language to reflect speculation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "we accurately predicted known RNA-binding partners" is vague. It is unclear whether this refers to a retrospective test on known partners or a prospective prediction.
+  - **Required correction** Specify whether the prediction was retrospective or prospective, and clarify the definition of "accurate" in this context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "experimental validation" but does not indicate which annexins or RNA partners were experimentally tested. This omission limits the reader's ability to gauge the breadth of validation.
+  - **Required correction** Briefly state the scope of experimental validation, such as the number of annexins and RNA partners tested and the types of experiments performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "powerful computational tool"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The claim that catRAPID is a "powerful computational tool" is subjective and not supported by comparative benchmarks in the abstract.
+  - **Required correction** Replace with a more neutral description, such as "a computational tool," and let the results speak to its utility.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient evidence to establish the central claims of accurate prediction, identification of RNA-binding regions, phase separation, and neuronal implications. These need to be substantiated with detailed methods and results.
+- **Assessment against Nature-style criteria** Originality: The idea of annexins as RNA-binding proteins with phase separation properties is original and could be of interest, but the abstract does not demonstrate novelty beyond prior suggestions of annexin RNA binding. Scientific importance: If substantiated, the findings could have broad implications for RNA regulation and neuronal function, but the importance is not yet established from the abstract. Interdisciplinary readership: The topic bridges RNA biology, biophysics, and neuroscience, which could attract a broad audience, but the abstract does not provide enough detail to engage specialists in each field. Technical soundness: Not assessable from the abstract; the methods and validation are not described. Readability for nonspecialists: The abstract is generally readable, but terms like "catRAPID algorithm" and "phase separation" are used without explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses and a plausible approach, but the claims are not supported by sufficient detail. A full manuscript with detailed methods, quantitative results, and appropriate framing of speculative implications would be needed to assess the case.

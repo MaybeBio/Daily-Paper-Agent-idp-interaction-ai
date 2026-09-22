@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42358691",
+  "title": "A Molecular Grammar for Programmable Multiphase Protein-RNA Vesicles.",
+  "authors": "Ramachandran, Vysakh; Potoyan, Davit A",
+  "journal": "JACS Au",
+  "published_date": "2026-06-26",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过大规模残基级粗粒化模拟揭示蛋白-RNA相分离中序列编码的分子语法，将多相凝聚体形态（如囊泡）归因于蛋白-蛋白/蛋白-RNA互作不对称性与两亲性自组装，为无序蛋白介导的PPI与凝聚体机制建模提供了高度可迁移的物理模拟框架。",
+  "abstract": "Protein-RNA phase separation gives rise to biomolecular condensates with rich internal organization, yet the molecular rules that connect sequence-encoded interactions to the emergent condensate spatial organization remain poorly understood. Here, using large-scale residue-level coarse-grained simulations, we identify a molecular grammar that governs the formation of multiphase protein-RNA condensates. We show that asymmetries in protein-protein and protein-RNA interactions, together with protein stoichiometry, chain length, and condensate density, collectively determine whether condensates adopt homogeneous, layered, biphasic, or vesicle-like morphologies. Vesicular condensates form spontaneously from well-mixed initial conditions without requiring flux-driven oversaturation or extreme charge imbalance, distinguishing this mechanism from previously proposed routes to condensate hollowing. We rationalize the full morphological progression as sequence-encoded amphiphile self-assembly: the protein-RNA complex behaves as a single-chain amphiphile whose effective packing parameter is set by Domain H/L stoichiometry, spanning micelles, cylinders, hollow vesicles, and inverse phases.",
+  "abstract_zh": "蛋白质-RNA相分离（phase separation）产生具有丰富内部组织的生物分子凝聚体，然而连接序列编码相互作用与涌现性凝聚体空间组织的分子规则仍知之甚少。在此，我们利用大规模残基级粗粒化模拟，识别出一种控制多相蛋白质-RNA凝聚体形成的分子语法。我们表明，蛋白质-蛋白质和蛋白质-RNA相互作用的非对称性，连同蛋白质化学计量、链长和凝聚体密度，共同决定凝聚体呈现均质、层状、双相或囊泡状形态。囊泡状凝聚体从充分混合的初始条件自发形成，无需通量驱动的过饱和或极端电荷失衡，这将该机制与先前提出的凝聚体空心化途径区分开来。我们将完整的形态演变过程合理化，视为序列编码的两亲分子自组装：蛋白质-RNA复合物表现为单链两亲分子，其有效堆积参数由Domain H/L化学计量设定，跨越胶束、圆柱体、空心囊泡和反相结构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42358691/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42358691/",
+  "paper_page_path": "papers/pubmed/42358691/index.html"
+}

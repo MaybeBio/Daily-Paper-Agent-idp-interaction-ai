@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "37540843",
+    "doi": "10.1093/jb/mvad061",
+    "title": "The stability of NPM1 oligomers regulated by acidic disordered regions controls the quality of liquid droplets."
+  },
+  "content": {
+    "abstract": "The nucleolus is a membrane-less nuclear body that typically forms through the process of liquid-liquid phase separation (LLPS) involving its components. NPM1 drives LLPS within the nucleolus and its oligomer formation and inter-oligomer interactions play a cooperative role in inducing LLPS. However, the molecular mechanism underlaying the regulation of liquid droplet quality formed by NPM1 remains poorly understood. In this study, we demonstrate that the N-terminal and central acidic residues within the intrinsically disordered regions (IDR) of NPM1 contribute to attenuating oligomer stability, although differences in the oligomer stability were observed only under stringent conditions. Furthermore, the impact of the IDRs is augmented by an increase in net negative charges resulting from phosphorylation within the IDRs. Significantly, we observed an increase in fluidity of liquid droplets formed by NPM1 with decreased oligomer stability. These results indicate that the difference in oligomer stability only observed biochemically under stringent conditions has a significant impact on liquid droplet quality formed by NPM1. Our findings provide new mechanistic insights into the regulation of nucleolar dynamics during the cell cycle.",
+    "keywords": [
+      "Intrinsically disordered region",
+      "MD simulation",
+      "liquid droplets",
+      "nucleolus",
+      "phosphorylation.Abbreviations: FRAP, fluorescence recovery after photobleaching;",
+      "GC, granular component; IDR, intrinsically disordered region; LLPS, liquid-liquid",
+      "phase separation; MD simulation, molecular dynamics simulation; NPM1,",
+      "nucleophosmin 1; rRNA, ribosomal RNA"
+    ],
+    "mesh_terms": [
+      "Protein Domains",
+      "*Cell Nucleolus/metabolism",
+      "Nuclear Proteins/metabolism",
+      "*Intrinsically Disordered Proteins/analysis"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Okuwaki, Mitsuru",
+        "Ozawa, Shin-Ichiro",
+        "Ebine, Shuhei",
+        "Juichi, Motoki",
+        "Umeki, Tadanobu",
+        "Niioka, Kazuki",
+        "Kikuchi, Taiyo",
+        "Tanaka, Nobutada"
+      ],
+      "short_names": [
+        "Okuwaki M",
+        "Ozawa SI",
+        "Ebine S",
+        "Juichi M",
+        "Umeki T",
+        "Niioka K",
+        "Kikuchi T",
+        "Tanaka N"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2118-442X",
+        "ORCID: 0000-0001-7350-2069"
+      ],
+      "affiliations": [
+        "Laboratory of Biochemistry, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan.",
+        "Laboratory of Physical Chemistry for Drug Design, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan.",
+        "Laboratory of Biochemistry, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan.",
+        "Laboratory of Biochemistry, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan.",
+        "Laboratory of Biochemistry, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan.",
+        "Laboratory of Biochemistry, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan.",
+        "Laboratory of Biochemistry, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan.",
+        "Laboratory of Physical Chemistry for Drug Design, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Okuwaki, Mitsuru",
+        "short_name": "Okuwaki M",
+        "identifiers": [
+          "0000-0003-2118-442X"
+        ],
+        "affiliations": [
+          "Laboratory of Biochemistry, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ozawa, Shin-Ichiro",
+        "short_name": "Ozawa SI",
+        "identifiers": [
+          "0000-0001-7350-2069"
+        ],
+        "affiliations": [
+          "Laboratory of Physical Chemistry for Drug Design, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ebine, Shuhei",
+        "short_name": "Ebine S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Biochemistry, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Juichi, Motoki",
+        "short_name": "Juichi M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Biochemistry, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Umeki, Tadanobu",
+        "short_name": "Umeki T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Biochemistry, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Niioka, Kazuki",
+        "short_name": "Niioka K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Biochemistry, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Kikuchi, Taiyo",
+        "short_name": "Kikuchi T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Biochemistry, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Tanaka, Nobutada",
+        "short_name": "Tanaka N",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Physical Chemistry for Drug Design, School of Pharmacy, Kitasato University, 5-9-1, Shirokane, Minato-Ku, 108-8641 Tokyo, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biochemistry"
+    ],
+    "journal_abbrev": [
+      "J Biochem"
+    ],
+    "pub_date": "2023 Oct 31",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/04 19:15",
+    "fetched_at": "2026-09-21 00:04:26"
+  },
+  "links": {
+    "cites": [
+      "41806061",
+      "41755632",
+      "41632872",
+      "41455700",
+      "40705480",
+      "40631955",
+      "40260502",
+      "39690184"
+    ],
+    "refs": [],
+    "similar": [
+      "37540843",
+      "29483575",
+      "30498217",
+      "26836305",
+      "36543022",
+      "39162498",
+      "33443146",
+      "31941785",
+      "38203210",
+      "34571015",
+      "32853771",
+      "31751897",
+      "35513709",
+      "33076213",
+      "34358306",
+      "29511089",
+      "28924037",
+      "24106084",
+      "30531905",
+      "34029402",
+      "30981631",
+      "37047451",
+      "36575582",
+      "23285058",
+      "35962177",
+      "35887012",
+      "34179096",
+      "34884901",
+      "38446061",
+      "33039556",
+      "33684117",
+      "38382671",
+      "36444977",
+      "39206638",
+      "37446185",
+      "33982369",
+      "35883530",
+      "35481633",
+      "37705750",
+      "34102212",
+      "25349213",
+      "36394358",
+      "36463407",
+      "33744316",
+      "36291695",
+      "32615218",
+      "27983985",
+      "33078839",
+      "37202475",
+      "36743470",
+      "32824743",
+      "29526694",
+      "37189373",
+      "37943867",
+      "25490769",
+      "25531824",
+      "32405004",
+      "33432115",
+      "31054969",
+      "38341436",
+      "35163537",
+      "36464283",
+      "33069007",
+      "35902591",
+      "23328624",
+      "33971237",
+      "34422830",
+      "31296649",
+      "31237369",
+      "39206127",
+      "37998041",
+      "29507312",
+      "38553595",
+      "36755093",
+      "38232052",
+      "33627133",
+      "36350034",
+      "28055106",
+      "29791766",
+      "34223614",
+      "27886181",
+      "29064502",
+      "18259216",
+      "34152774",
+      "32189162",
+      "35142991",
+      "32225071",
+      "34522448",
+      "33073687",
+      "31769409",
+      "37668918",
+      "37312409",
+      "37764358",
+      "29716768",
+      "22717133",
+      "31270472",
+      "34862032",
+      "38982922",
+      "35381286",
+      "36524527",
+      "36316314",
+      "18511415",
+      "23019224",
+      "24616519",
+      "39108718",
+      "37898314",
+      "37961614",
+      "39248370",
+      "37310764",
+      "38405961",
+      "39108706",
+      "37992221",
+      "37917664",
+      "37596729",
+      "37961422",
+      "38721279",
+      "36526633",
+      "39328748",
+      "33981018"
+    ],
+    "review": [
+      "37540843",
+      "32853771",
+      "34358306",
+      "34884901",
+      "33078839",
+      "31054969",
+      "36464283",
+      "33069007",
+      "31237369",
+      "39206127",
+      "38232052",
+      "36350034",
+      "34223614",
+      "32189162",
+      "35142991",
+      "34522448",
+      "37764358",
+      "29716768",
+      "38982922"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37540843.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3321",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/jb/article-lookup/doi/10.1093/jb/mvad061",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

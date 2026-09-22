@@ -1,0 +1,60 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full text, figures, or methods
+- **Shared manuscript claim summary** The authors use Monte Carlo simulations and mean field theory to propose that cytoskeletal steric hindrance on adhesion proteins and protrusive forces on the cell membrane cooperatively drive condensation and phase separation of integral membrane proteins during cell adhesion, independent of active cytoskeletal transport. They further claim that the net intercellular receptor-ligand interaction can be enhanced or suppressed depending on the interplay between cytoskeleton-protein and cytoskeleton-membrane interactions.
+- **Visible evidence base** Abstract text only; no figures, tables, equations, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, simulation details, model parameters, mean field derivations, all figures and tables, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract addresses a timely and interesting question regarding the role of the cytoskeleton in regulating condensation of integral membrane proteins during cell adhesion. The proposed mechanism, combining steric hindrance and protrusive forces, is plausible and potentially novel. However, the abstract provides insufficient detail to evaluate the technical soundness of the simulations and theory, and the claim regarding functional consequences is presented without quantitative or contextual support. The work may be of interest to biophysicists and cell biologists, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Biophysicists studying phase separation and membrane adhesion, cell biologists investigating cytoskeleton-membrane interactions, and researchers in mechanobiology interested in how physical forces regulate protein organization at the cell surface. The potential link between cytoskeletal mechanics and receptor clustering could also appeal to those studying immune synapse formation or cell migration.
+- **Major strengths** The question is well motivated and addresses a gap in the literature, as most prior work focuses on cytoplasmic proteins. The combination of Monte Carlo simulations and mean field theory is a rigorous approach for studying phase behavior. The abstract clearly states a novel mechanism that does not require active transport, which is a conceptually important distinction.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that steric hindrance and protrusive forces cooperatively drive protein condensation and facilitate phase separation
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any details on the model construction, parameter ranges, or validation of the simulations and mean field theory. Without this information, it is impossible to assess whether the findings are robust or an artifact of specific assumptions.
+  - **Why it matters** The central conclusion depends entirely on the validity of the computational and theoretical models. If the parameters are unrealistic or the theory makes uncontrolled approximations, the claimed mechanism may not hold in biological systems.
+  - **Resolution test** Provide a description of the model, including key parameters and their biological justification, and show that the results are robust across a reasonable parameter range. Include validation against known experimental observations or analytical limits.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for functional claims
+  - **Claim pointer** The claim that the overall intercellular receptor-ligand interaction can be either enhanced or suppressed during protein condensation
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that the interaction can be enhanced or suppressed depending on the interplay between cytoskeleton-protein and cytoskeleton-membrane interactions, but no quantitative results or phase diagrams are shown. The conditions under which enhancement versus suppression occurs are not specified.
+  - **Why it matters** This is a key functional implication of the work. Without specifying the conditions or providing quantitative evidence, the claim is too vague to be evaluated or reproduced.
+  - **Resolution test** Present a phase diagram or quantitative analysis showing the regimes of enhancement and suppression, and relate these to biologically relevant parameter values.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence is overly broad and generic, stating that understanding protein condensation is crucial for physiology and therapy. This does not add specific information about the current work.
+  - **Required correction** Replace with a more focused statement that directly introduces the gap in knowledge regarding integral membrane proteins and the cytoskeleton.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract, methods mention
+  - **Issue** The abstract mentions Monte Carlo simulations and mean field theory but gives no indication of system size, timescales, or whether the simulations are particle-based or lattice-based.
+  - **Required correction** Add a brief description of the simulation approach and key parameters in the abstract or refer to a methods section with sufficient detail.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract, second sentence
+  - **Issue** The abstract notes that the cytoskeleton regulates condensation of cytoplasmic proteins but does not specify how the current findings differ from or extend those prior results beyond the distinction of integral versus cytoplasmic proteins.
+  - **Required correction** Briefly state what new mechanistic insight is provided for integral membrane proteins that was not captured in studies of cytoplasmic proteins.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of model details and quantitative results prevents assessment of the core mechanism and its functional consequences.
+- **Assessment against Nature-style criteria** Originality is potentially high, as the focus on integral membrane proteins and the proposed passive mechanism are novel. Scientific importance is moderate to high, given the broad relevance of protein condensation and adhesion. Interdisciplinary readership is plausible, spanning biophysics and cell biology. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is adequate, though the abstract could be more specific and less generic in its framing.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of methodological and quantitative detail means the claims cannot be verified. I would be supportive if the full manuscript provides robust model descriptions, parameter sensitivity analyses, and clear evidence for the functional outcomes.
+
+## Risk / unsupported claims
+- The claim that steric hindrance and protrusive forces cooperatively drive condensation is unsupported without model details.
+- The claim that receptor-ligand interaction can be enhanced or suppressed is unsupported without quantitative results.
+- The statement that findings advance understanding of the cytoskeleton's role is a general conclusion that cannot be evaluated from the abstract.

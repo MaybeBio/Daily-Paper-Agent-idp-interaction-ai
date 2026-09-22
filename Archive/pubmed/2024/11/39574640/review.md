@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency as presented in the provided text
+- **Shared manuscript claim summary** The authors claim that Dsup, an intrinsically disordered protein from tardigrades, binds to DNA in living mammalian cells (demonstrated via FLIM-FRET) and that its expression enhances survival of HEK293T cells and yeast under hydrogen peroxide-induced oxidative stress. They also present MD simulations suggesting a mechanistic basis for DNA binding and protection.
+- **Visible evidence base** Main text including Abstract, Introduction, Results (3 subsections), Discussion, Methods, Data availability, Acknowledgments. Figures referenced but not provided. Supplementary Information referenced but not provided.
+- **Missing materials affecting confidence** Figures, Supplementary Information, Source Data, statistical details (exact P values, effect sizes, raw data), and any experimental replicates beyond what is stated in the text. The manuscript is a preprint and has not undergone peer review.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question regarding the function of the tardigrade protein Dsup in living cells. The combination of MD simulations and FLIM-FRET is a reasonable approach, and the results are potentially interesting. However, several technical and evidentiary gaps prevent the case from being fully established. The statistical reporting is incomplete, the MD simulation methodology has potential issues, and the functional assays lack key controls and quantitative rigor. The manuscript would benefit from additional experiments and clearer presentation of data.
+- **Who would be interested in the results, and why** Researchers in the fields of extremophile biology, DNA repair, oxidative stress, and cellular stress responses. The potential application of Dsup in biotechnology and medicine (e.g., enhancing stress resistance in therapeutic cells) would also attract interest from applied biologists and bioengineers.
+- **Major strengths** The study addresses a significant gap by visualizing Dsup-DNA interactions in living cells, which has not been previously demonstrated. The use of FLIM-FRET is a robust and quantitative method for this purpose. The inclusion of both mammalian and yeast models strengthens the claim of cross-species relevance. The MD simulations provide a plausible mechanistic framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MD simulations demonstrate Dsup binding to DNA and protection against melting.
+  - **Evidence pointer** Results section "MD simulations of Dsup-DNA interactions"; Methods section "MD simulations"
+  - **Concern** The MD simulations are performed with only three copies of the C-terminal region (residues 361-445) of Dsup, not the full-length protein. The full-length Dsup is 445 amino acids, and the N-terminal region may contribute to DNA binding or protection. The choice of three copies is not justified. Additionally, the simulations are only 350 ns long, which may be insufficient to sample the conformational landscape of an intrinsically disordered protein. The melting simulations at 500 K are a non-physiological condition, and the relevance of this to cellular protection is unclear. The force field combination (OL21 for DNA, ff14SB for protein) is not standard and may not be well validated.
+  - **Why it matters** The mechanistic claims rest on the MD simulations. If the simulations are not representative of the full-length protein or are not long enough to be reliable, the proposed mechanism of protection is not supported.
+  - **Resolution test** Provide simulations with the full-length Dsup protein, justify the number of copies, extend simulation times, and validate the force field combination. Alternatively, provide experimental validation of the proposed mechanism (e.g., mutational analysis of key residues).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Dsup expression enhances cell survival in HEK293T cells under H2O2-induced oxidative stress.
+  - **Evidence pointer** Results section "Dsup expression enhances cell survival in the presence of hydrogen peroxide"; Figure 3 (not provided)
+  - **Concern** The CCK-8 assay measures dehydrogenase activity, which is a proxy for cell viability but can be influenced by metabolic changes not directly related to cell death. The authors do not report the exact P values, effect sizes, or the number of independent experiments for each condition. The text states "Dsup expression increased cell viability compared to the EGFP control under conditions from 0.25 mM to 2 mM H2O2" for 24-hour treatment, but the figure is not available for verification. The lack of a dose-response curve and the absence of a positive control (e.g., a known antioxidant) weaken the claim.
+  - **Why it matters** The functional claim is central to the paper. Without rigorous statistical reporting and appropriate controls, the effect cannot be properly evaluated.
+  - **Resolution test** Provide full statistical details, including exact P values, effect sizes, and the number of replicates. Include a positive control and a dose-response analysis. Consider using a more direct cell death assay (e.g., propidium iodide staining, as used in the yeast experiments) to confirm the CCK-8 results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Dsup expression in yeast enhances survival under H2O2-induced stress.
+  - **Evidence pointer** Results section "Effects of the Dsup protein from Tardigrade on stress-resistance of yeast"; Figure 4 (not provided)
+  - **Concern** The yeast experiments use a very low concentration of H2O2 (2 μM), which may not induce significant oxidative stress. The text states that "after four hours of exposure to hydrogen peroxide, the Dsup-expressing cells started to exhibit statistically significant lower cell death," but the effect size appears modest (43.0% vs. 51.4% at 3 hours; 42.4% vs. 52.1% at 4 hours). The statistical test used is not specified, and the number of independent experiments is not reported. The use of propidium iodide staining to assess cell death is appropriate, but the gating strategy and analysis details are not provided.
+  - **Why it matters** The cross-species claim is important for the universality of Dsup function. If the effect is small and the experimental conditions are not well characterized, the claim is not robust.
+  - **Resolution test** Provide full statistical details, including the test used, exact P values, and the number of replicates. Justify the H2O2 concentration and consider testing a range of concentrations. Provide details on the PI staining and analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their study "provides a better understanding of the property and functional role of Dsup and lays a foundation to explore new approaches to enhance stress resistance."
+  - **Evidence pointer** Abstract; Discussion
+  - **Concern** The Discussion is largely speculative and does not adequately address the conflicting results in the literature. The authors mention that Dsup expression in cortical neurons was reported to cause DNA damage, but they do not reconcile this with their findings. The claim that Dsup could be a "possible solution for oxidative stress linked diseases such as cancer" is an overstatement given the limited evidence presented.
+  - **Why it matters** The broader significance of the work is overstated relative to the evidence. A more balanced discussion would strengthen the manuscript.
+  - **Resolution test** Revise the Discussion to acknowledge the limitations and conflicting literature. Avoid overstating the therapeutic potential without direct evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The Introduction is overly general and does not provide sufficient context for readers unfamiliar with tardigrades or Dsup. The transition from the general description of tardigrades to the specific aims of the study is abrupt.
+  - **Required correction** Provide a more focused introduction that clearly states the gap in knowledge and the specific hypotheses being tested.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "MD simulations"
+  - **Evidence pointer** Methods section "MD simulations"
+  - **Issue** The description of the MD simulation setup is incomplete. The authors do not specify the number of water molecules, the ionic strength, or the equilibration protocol in sufficient detail to be reproducible.
+  - **Required correction** Provide a more detailed description of the simulation setup, including the exact number of water molecules, ions, and the equilibration steps.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "FLIM-FRET imaging and analysis"
+  - **Evidence pointer** Methods section "FLIM-FRET imaging and analysis"
+  - **Issue** The authors state that "a region of interest (ROI) corresponding to the cell nucleus was selected per cell," but they do not specify how the ROI was defined or whether the analysis was blinded.
+  - **Required correction** Provide details on ROI selection and analysis, including whether the analysis was performed blinded to the experimental condition.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Dsup expression enhances cell survival in the presence of hydrogen peroxide"
+  - **Evidence pointer** Results section, Figure 3 (not provided)
+  - **Issue** The text states that "Dsup expression increased cell viability compared to the EGFP control under conditions from 0.25 mM to 2 mM H2O2" but does not specify the exact concentrations tested or the number of replicates.
+  - **Required correction** Provide a clear description of the concentrations tested and the number of replicates for each condition.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The Discussion contains several long, complex sentences that are difficult to follow. The logical flow from the results to the broader implications is not always clear.
+  - **Required correction** Simplify the language and structure the Discussion to clearly separate the summary of findings, the interpretation, and the limitations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (MD simulations not representative of full-length protein), R1-M2 (incomplete statistical reporting and lack of controls in CCK-8 assay), R1-M3 (weak effect and incomplete statistical reporting in yeast experiments)
+- **Assessment against Nature-style criteria**
+  - **Originality** The study is original in its use of FLIM-FRET to visualize Dsup-DNA interactions in living cells, which has not been previously reported. However, the overall concept of Dsup as a DNA-protective protein is not new.
+  - **Scientific importance** The findings are of moderate importance. They provide evidence for Dsup-DNA binding in living cells and a protective effect in two model systems, but the effect sizes are modest and the mechanistic insights are limited.
+  - **Interdisciplinary readership** The topic is likely to appeal to researchers in cell biology, biophysics, and stress biology. The use of both computational and experimental approaches broadens the potential audience.
+  - **Technical soundness** The technical soundness is currently insufficient due to the issues with the MD simulations, incomplete statistical reporting, and lack of key controls.
+  - **Readability for nonspecialists** The manuscript is generally readable but could be improved with a more focused introduction and clearer discussion.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question and has potential, but the technical and evidentiary gaps must be addressed before the claims can be considered robust.
+
+## Risk / unsupported claims
+- The claim that MD simulations demonstrate a protective mechanism of Dsup against DNA melting is not fully supported, as the simulations use only a fragment of the protein and a non-physiological temperature.
+- The claim that Dsup expression enhances cell survival in HEK293T cells is not fully supported due to incomplete statistical reporting and lack of a positive control.
+- The claim that Dsup expression in yeast enhances survival is not fully supported due to the modest effect size and incomplete statistical details.
+- The statement in the Discussion that Dsup could be a "possible solution for oxidative stress linked diseases such as cancer" is an overstatement not directly supported by the data.
+- The claim that the FLIM-FRET assay is "readily extensible to other systems" is speculative and not demonstrated in this study.

@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence consistency based solely on the provided text
+- **Shared manuscript claim summary** The authors present TUnA, a Transformer-based model using ESM-2 embeddings and a Spectral-normalized Neural Gaussian Process (SNGP), claiming state-of-the-art performance on cross-species and Bernett PPI benchmarks, with novel uncertainty estimates that improve calibration and reduce false positives for unseen sequences
+- **Visible evidence base** Text descriptions of results (Figs. 2a-d referenced but not visible), methods, and dataset construction details
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, benchmark dataset details, hyperparameter tables, and code repository contents are not provided, limiting quantitative verification
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in PPI prediction, namely generalizability and uncertainty quantification, and proposes a reasonable architectural combination. However, the provided text lacks sufficient quantitative detail to verify the claimed state-of-the-art performance, and several methodological choices require clarification. The uncertainty framework is conceptually sound but its practical value is only partially demonstrated. The writing is clear but some claims are overstated relative to the evidence presented.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on protein function prediction, particularly those interested in uncertainty-aware deep learning for high-throughput screening. The practical demonstration of uncertainty-based filtering for experimental prioritization would appeal to experimentalists using computational predictions.
+- **Major strengths** The problem is well motivated, with clear limitations of existing models identified. The architectural choices are justified, particularly the use of ESM-2 embeddings and SNGP. The inclusion of ablation models (T-FC, ESM2-GP) is commendable for isolating component contributions. The practical application of uncertainty for precision improvement is a valuable contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "TUnA achieves state-of-the-art performance" on both cross-species and Bernett datasets
+  - **Evidence pointer** Results sections "Performance on cross-species dataset" and "Performance on Bernett dataset", Fig. 2a-b (not visible)
+  - **Concern** The manuscript claims SoTA performance but provides no numerical values in the text. Without access to Fig. 2, the reader cannot assess the magnitude of improvement, statistical significance, or comparison baselines. The claim is therefore unverifiable from the provided material.
+  - **Why it matters** The central contribution of the paper is performance improvement; without quantitative evidence, the claim cannot be evaluated or reproduced.
+  - **Resolution test** Provide exact metric values (AUPR, AUROC, MCC) with standard deviations for all models and datasets, ideally in a table, and specify statistical tests used for comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "TUnA achieves SoTA performance on the Bernett dataset" using a training set limited to proteins of length 1500 or less, while testing on the full test set
+  - **Evidence pointer** "Performance on Bernett dataset" section, Supplementary Table 2 (not visible)
+  - **Concern** The training set is truncated by sequence length, but the test set is not. This distribution shift between training and test data is not discussed. If the test set contains longer proteins, the model may be at a disadvantage, or conversely, the comparison with baselines trained on full-length data may be unfair. The impact of this truncation on performance is not analyzed.
+  - **Why it matters** This could bias the reported performance and affect the validity of comparisons with other methods that may use full-length sequences.
+  - **Resolution test** Report the number of proteins and PPIs excluded by the length cutoff, analyze performance on the excluded subset, and discuss potential bias.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "TUnA's uncertainty awareness improves calibration" and "effectively identify the most reliable predictions, significantly reducing false positives"
+  - **Evidence pointer** "Effect of uncertainty awareness" section, Fig. 2c-d (not visible)
+  - **Concern** The text describes ECE improvements and precision gains from uncertainty filtering but provides no numerical values. The claim of "significantly reducing false positives" is not supported by any statistical test or effect size. The practical demonstration is limited to a single threshold (0.2) without discussion of how this threshold would be chosen in practice.
+  - **Why it matters** The uncertainty contribution is a key novelty; without quantitative evidence, its practical value is not established.
+  - **Resolution test** Provide ECE values for all models, precision-recall curves at various uncertainty thresholds, and a clear protocol for threshold selection.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** "We use the code for TransformerCPI as a starting point and heavily adapt the architecture and workflow"
+  - **Evidence pointer** "Implementation and training details" section
+  - **Concern** The extent of adaptation is not specified. It is unclear which components are retained from TransformerCPI and which are novel. This limits reproducibility and assessment of the architectural contribution.
+  - **Why it matters** Without clear delineation of novel versus borrowed components, the technical contribution is ambiguous.
+  - **Resolution test** Provide a detailed architecture diagram with annotations indicating which parts are inherited versus modified, and justify each modification.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "Positional embeddings are not added"
+  - **Evidence pointer** "Protein Embedding" section
+  - **Issue** The rationale for omitting positional embeddings is not explained. While this may be intentional for proteins, the reader is left to infer the reasoning.
+  - **Required correction** Add a sentence explaining why positional information is not needed or is implicitly captured by ESM-2 embeddings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Hyperparameter selection
+  - **Evidence pointer** "Implementation and training details" section, Supplementary Tables 3-4 (not visible)
+  - **Issue** The text states that "the size of the hidden dimensions appeared to have a large impact on performance" but does not report the range of values tested or the final selected value.
+  - **Required correction** Report the hidden dimension values considered and the selected value in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Random seed handling
+  - **Evidence pointer** "Implementation and training details" section
+  - **Issue** The manuscript reports averages over three random initializations but does not specify how seeds were chosen or whether results are available for individual runs.
+  - **Required correction** Specify the random seeds used and provide per-run results in supplementary materials.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Uncertainty definition
+  - **Evidence pointer** "Gaussian Process prediction module" section
+  - **Issue** The uncertainty is defined as (1-p)(p)/0.25, but the text does not explain why this particular normalization is chosen or how it relates to the GP variance.
+  - **Required correction** Clarify the derivation of this uncertainty measure and its relationship to the GP posterior variance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative results), R1-M2 (training/test distribution shift), R1-M3 (unsupported uncertainty claims)
+- **Assessment against Nature-style criteria** Originality: The combination of ESM-2, Transformer, and SNGP for PPI prediction is novel, though each component is established. Scientific importance: Uncertainty-aware PPI prediction is timely and relevant, but the demonstrated impact is limited without quantitative evidence. Interdisciplinary readership: The work bridges machine learning and biology, but the presentation assumes familiarity with both fields. Technical soundness: The architecture is plausible, but key details (adaptation from TransformerCPI, hyperparameters, data handling) are insufficiently specified. Readability for nonspecialists: The text is generally clear, but the results sections rely heavily on figures that are not visible, making the narrative incomplete.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central performance and uncertainty claims cannot be verified without the missing figures and tables. The authors should provide quantitative results in the text or supplementary materials and address the training/test distribution shift before the case is convincing.
+
+## Risk / unsupported claims
+- "TUnA achieves state-of-the-art performance" on cross-species and Bernett datasets (no numerical evidence provided)
+- "TUnA's uncertainty awareness improves calibration" (no ECE values reported)
+- "significantly reducing false positives" (no statistical test or effect size)
+- "TUnA is the first model to emphasize uncertainty as a core component" (literature coverage not demonstrated)
+- "ESM-2 embeddings play a critical role in generalizing to unseen sequences" (based on comparison with ESM2-MLP, but no quantitative support)
+- "The higher computational cost of the Transformer is justified when used in conjunction with SNGP" (no cost-benefit analysis provided)

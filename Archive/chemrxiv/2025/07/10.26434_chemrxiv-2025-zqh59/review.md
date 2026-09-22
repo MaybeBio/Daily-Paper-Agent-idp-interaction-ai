@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors evaluate 20 molecular dynamics (MD) models for simulating the intrinsically disordered protein COR15A, using a two-step validation approach: short 200-ns simulations against small-angle X-ray scattering (SAXS) data, followed by extended 1.2-µs simulations of the six best-performing models against nuclear magnetic resonance (NMR) data, including a single-point mutant with increased helicity. They report that only DES-amber and ff99SBws capture helicity differences between wild-type and mutant, with ff99SBws overestimating helicity, and that only DES-amber adequately reproduces COR15A dynamics as assessed by NMR relaxation times at two magnetic field strengths. They conclude that DES-amber is the best-performing force field for COR15A and highlight remaining discrepancies requiring further force-field development.
+- **Visible evidence base** Abstract text only; no quantitative results, statistical measures, simulation details, or experimental data are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation parameters, force field versions and parameter details, SAXS and NMR data processing procedures, error analysis, and any comparison with prior force field validation studies
+
+## Reviewer
+- **Overall assessment** The abstract presents a well-structured force field validation study addressing an important gap in IDP simulation, namely the performance of force fields for IDPs undergoing subtle conformational changes. The two-step validation strategy is logical and the focus on dynamics via NMR relaxation is commendable. However, the abstract alone provides insufficient quantitative evidence to assess the robustness of the claims. The conclusion that DES-amber is the best model rests on qualitative statements without reported error margins, statistical significance, or convergence criteria. The study is potentially valuable but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular simulation, particularly those working on intrinsically disordered proteins and force field development. The study also has relevance for experimentalists using SAXS and NMR to characterize IDPs, as it provides guidance on choosing appropriate simulation models. The findings may inform future force field parameterization efforts aimed at improving accuracy for partially structured IDPs.
+- **Major strengths** The study addresses a timely and underexplored question, namely force field performance for IDPs on the verge of folding. The two-step validation approach, combining SAXS for initial screening and NMR for detailed dynamic assessment, is methodologically sound. The inclusion of a single-point mutant with slightly increased helicity provides a sensitive test of force field ability to capture subtle structural differences. The use of NMR relaxation times at two magnetic field strengths strengthens the dynamic assessment.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that only DES-amber adequately reproduces COR15A dynamics, as assessed by NMR relaxation times at two magnetic field strengths
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that only DES-amber adequately reproduces dynamics but provides no quantitative metrics, such as chi-squared values, root-mean-square deviations between simulated and experimental relaxation times, or statistical comparison against other force fields. The term "adequately" is undefined and could encompass a wide range of agreement levels.
+  - **Why it matters** Without quantitative criteria for what constitutes adequate reproduction of dynamics, the central conclusion that DES-amber is superior cannot be independently evaluated. This is the primary basis for the paper's main recommendation.
+  - **Resolution test** Provide numerical comparisons of simulated versus experimental relaxation times for all six force fields, including error estimates and a defined threshold for adequacy, ideally with statistical testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that only DES-amber and ff99SBws capture helicity differences between wild-type and mutant, with ff99SBws overestimating helicity
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not report the magnitude of helicity differences, the experimental reference values, or the degree of overestimation by ff99SBws. Without these numbers, the reader cannot assess whether the differences captured are within experimental uncertainty or biologically meaningful.
+  - **Why it matters** The ability to capture subtle structural differences is a key differentiator among force fields. If the reported differences are small relative to simulation noise or experimental error, the conclusion may not be robust.
+  - **Resolution test** Report helicity percentages for wild-type and mutant from experiment and from each force field, with standard errors and the experimental uncertainty range.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The two-step approach of validating 200-ns simulations against SAXS and then 1.2-µs simulations against NMR
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not explain how the six best-performing models were selected from the initial 20 based on SAXS data. The selection criteria are not stated, and it is unclear whether the SAXS validation was sufficiently discriminating to justify the reduction.
+  - **Why it matters** If the initial screening is not rigorous, the subsequent detailed analysis may be based on an arbitrary subset, weakening the overall conclusion.
+  - **Resolution test** Describe the quantitative criteria used to rank the 20 models against SAXS data and justify the cutoff for selecting the top six.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of COR15A as "just on the verge of folding"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** This phrase is vague and not quantitatively defined. It is unclear what structural or biophysical property places COR15A in this category.
+  - **Required correction** Provide a quantitative descriptor, such as fractional helicity or secondary structure propensity from prior experiments, to define the structural state of COR15A.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Force field list
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions 20 MD models but does not list them. This limits the reader's ability to contextualize the findings within the broader force field landscape.
+  - **Required correction** Include the names of all 20 force fields tested, either in the abstract or as a supplementary table referenced in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Statement that DES-amber provides insights into the dynamic conformational landscape "albeit not perfectly reproducing all experimental data"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The nature and extent of the remaining discrepancies are not specified. It is unclear whether these are minor deviations or systematic failures in certain observables.
+  - **Required correction** Briefly indicate which experimental observables are not well reproduced and the approximate magnitude of the discrepancies.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of force field ranking and adequacy rest on qualitative statements without quantitative support. R1-M3 is non-blocking but should be addressed for methodological completeness.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a specific and underexplored niche, namely force field performance for IDPs undergoing subtle conformational changes. This is a meaningful contribution but not a conceptual breakthrough.
+  - Scientific importance: Force field validation is important for the IDP simulation community, and the findings may guide model selection. However, the importance is incremental rather than transformative.
+  - Interdisciplinary readership: The work bridges computational chemistry, biophysics, and structural biology. It may appeal to a moderate interdisciplinary audience, but the technical nature limits broader appeal.
+  - Technical soundness: The two-step validation approach is reasonable, but the abstract does not provide sufficient technical detail to assess the soundness of the implementation, including convergence, sampling adequacy, and error analysis.
+  - Readability for nonspecialists: The abstract is accessible to a broad scientific audience, with clear language and logical flow. However, the lack of quantitative results reduces its informative value for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a relevant question with a sensible methodology, but the abstract-level evidence is insufficient to establish the central claims. Provision of quantitative results, statistical measures, and methodological details would be required to support publication.
+
+## Risk / unsupported claims
+- The claim that only DES-amber adequately reproduces COR15A dynamics is unsupported without quantitative comparison metrics.
+- The claim that only DES-amber and ff99SBws capture helicity differences is unsupported without reported helicity values and error estimates.
+- The assertion that DES-amber is the best MD model for COR15A is not fully supported from the abstract alone, as the basis for ranking is not quantitatively defined.
+- The statement that COR15A is "just on the verge of folding" is not supported by any quantitative structural descriptor in the abstract.
+- The selection process for the six best-performing models from the initial 20 is not described and cannot be evaluated.

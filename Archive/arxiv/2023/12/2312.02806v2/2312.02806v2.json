@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2312.02806v2",
+  "title": "Predicting the morphology of multiphase biomolecular condensates from protein interaction networks",
+  "doi": "10.1103/PRXLife.2.023013",
+  "abstract": "Phase-separated biomolecular condensates containing proteins and RNAs can assemble into higher-order structures by forming thermodynamically stable interfaces between immiscible phases. Using a minimal model of a protein/RNA interaction network, we demonstrate how a \"shared\" protein species that partitions into both phases of a multiphase condensate can function as a tunable surfactant that modulates the interfacial properties. We use Monte Carlo simulations and free-energy calculations to identify conditions under which a low concentration of this shared species is sufficient to trigger a wetting transition. We also describe a numerical approach based on classical density functional theory to predict concentration profiles and surface tensions directly from the model protein/RNA interaction network. Finally, we show that the wetting phase diagrams that emerge from our calculations can be understood in terms of a simple model of selective adsorption to a fluctuating interface. Our work shows how a low-concentration protein species might function as a biological switch for regulating multiphase condensate morphologies.",
+  "authors": [
+    "Tianhao Li",
+    "William M. Jacobs"
+  ],
+  "published_date": "2023-12-05T14:49:24Z",
+  "updated_date": "2024-03-29T20:55:57Z",
+  "journal": "PRX Life 2, 023013 2024",
+  "category": "cond-mat.soft, physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2312.02806v2",
+  "pdf_url": "https://arxiv.org/pdf/2312.02806v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft",
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2312.02806v2",
+    "raw_categories": [
+      "cond-mat.soft",
+      "physics.bio-ph"
+    ],
+    "journal_ref": "PRX Life 2, 023013 2024"
+  }
+}

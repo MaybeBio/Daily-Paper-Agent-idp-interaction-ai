@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "41224739",
+    "doi": "10.1038/s41467-025-64884-z",
+    "title": "A composite motif in calcimembrin/C16orf74 dictates multimeric dephosphorylation by calcineurin."
+  },
+  "content": {
+    "abstract": "Calcineurin, the Ca(2+)/calmodulin-activated protein phosphatase, recognizes substrates and regulators via short linear motifs, PxIxIT and LxVP, which dock to distinct sites on calcineurin to determine enzyme distribution and catalysis, respectively. Calcimembrin/C16orf74 (CLMB), an intrinsically disordered microprotein whose expression correlates with poor cancer outcomes, targets calcineurin to membranes where it may promote oncogenesis by shaping calcineurin signaling. We show that CLMB associates with membranes via lipidation, i.e., N-myristoylation and reversible S-acylation. Furthermore, CLMB contains an unusual composite 'LxVPxIxIT' motif, that binds the PxIxIT-docking site on calcineurin with extraordinarily high affinity when phosphorylated, (33)LDVPDIIITPP(p)T(44). Calcineurin dephosphorylates CLMB to decrease this affinity, but Thr44 is protected from dephosphorylation when PxIxIT-bound. We propose that CLMB is dephosphorylated in multimeric complexes, where one PxIxIT-bound CLMB recruits calcineurin to membranes, allowing a second CLMB to engage via its LxVP motif to be dephosphorylated. In vivo and in vitro data, including nuclear magnetic resonance (NMR) analyses of CLMB-calcineurin complexes, support this model. Thus, CLMB with its composite motif imposes distinct properties to calcineurin signaling at membranes including sensitivity to CLMB:calcineurin ratios, CLMB phosphorylation and dynamic S-acylation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Calcineurin/metabolism",
+      "Phosphorylation",
+      "Humans",
+      "Amino Acid Motifs",
+      "Protein Binding",
+      "Signal Transduction",
+      "Cell Membrane/metabolism",
+      "HEK293 Cells",
+      "Animals",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bradburn, Devin A",
+        "Reis, Joana C",
+        "Moreno, R Yvette",
+        "Qayyum, Shariq",
+        "Viennet, Thibault",
+        "Arthanari, Haribabu",
+        "Cyert, Martha S"
+      ],
+      "short_names": [
+        "Bradburn DA",
+        "Reis JC",
+        "Moreno RY",
+        "Qayyum S",
+        "Viennet T",
+        "Arthanari H",
+        "Cyert MS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8192-6005",
+        "ORCID: 0000-0001-5349-0179",
+        "ORCID: 0000-0002-7281-1289",
+        "ORCID: 0000-0003-3825-7437"
+      ],
+      "affiliations": [
+        "Department of Biology, Stanford University, Stanford, CA, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Biology, Stanford University, Stanford, CA, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Men's Health: Aging & Metabolism, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+        "Cardiovascular Research Center, Department of Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, USA.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Chemistry and iNANO, Aarhus University, Aarhus, Denmark.",
+        "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+        "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, USA.",
+        "Department of Biology, Stanford University, Stanford, CA, USA. mcyert@stanford.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bradburn, Devin A",
+        "short_name": "Bradburn DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Reis, Joana C",
+        "short_name": "Reis JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Moreno, R Yvette",
+        "short_name": "Moreno RY",
+        "identifiers": [
+          "0000-0001-8192-6005"
+        ],
+        "affiliations": [
+          "Department of Biology, Stanford University, Stanford, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Qayyum, Shariq",
+        "short_name": "Qayyum S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Men's Health: Aging & Metabolism, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA.",
+          "Cardiovascular Research Center, Department of Medicine, Massachusetts General Hospital and Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Viennet, Thibault",
+        "short_name": "Viennet T",
+        "identifiers": [
+          "0000-0001-5349-0179"
+        ],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, USA.",
+          "Department of Chemistry and iNANO, Aarhus University, Aarhus, Denmark."
+        ]
+      },
+      {
+        "full_name": "Arthanari, Haribabu",
+        "short_name": "Arthanari H",
+        "identifiers": [
+          "0000-0002-7281-1289"
+        ],
+        "affiliations": [
+          "Department of Cancer Biology, Dana-Farber Cancer Institute, Boston, MA, USA.",
+          "Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Cyert, Martha S",
+        "short_name": "Cyert MS",
+        "identifiers": [
+          "0000-0003-3825-7437"
+        ],
+        "affiliations": [
+          "Department of Biology, Stanford University, Stanford, CA, USA. mcyert@stanford.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Nov 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/13 00:31",
+    "fetched_at": "2026-09-17 21:54:51"
+  },
+  "links": {
+    "cites": [
+      "42093559",
+      "41894539",
+      "40355556"
+    ],
+    "refs": [
+      "40392971",
+      "40355556",
+      "38718835",
+      "38427601",
+      "38355760",
+      "37774136",
+      "37013443",
+      "36730443",
+      "36631611",
+      "36416224",
+      "36191737",
+      "35550603",
+      "34612814",
+      "34507520",
+      "34146207",
+      "32645368",
+      "32311332",
+      "32305250",
+      "32218953",
+      "31633908",
+      "31427372",
+      "31375679",
+      "31308145",
+      "31282865",
+      "31152406",
+      "30445427",
+      "28881575",
+      "27974827",
+      "27044110",
+      "26794871",
+      "25502373",
+      "24930733",
+      "23728592",
+      "23468591",
+      "23435576",
+      "22343722",
+      "21139605",
+      "21115349",
+      "20694007",
+      "20418879",
+      "20028662",
+      "19897109",
+      "19395593",
+      "17640527",
+      "17498738",
+      "16636202",
+      "16341750",
+      "15815974",
+      "15364589",
+      "10842755",
+      "10601316",
+      "10497131",
+      "9660947",
+      "8684469",
+      "8520220",
+      "7896854",
+      "4202581",
+      "3013843",
+      "2833077"
+    ],
+    "similar": [
+      "41224739",
+      "38798520",
+      "16407284",
+      "19285944",
+      "32645368",
+      "26106221",
+      "17498738",
+      "31941790",
+      "24954618",
+      "31633908",
+      "23486469",
+      "35697294",
+      "35218735",
+      "24930733",
+      "27109380",
+      "12601010",
+      "16738335",
+      "25202008",
+      "17502104",
+      "19996458",
+      "32859215",
+      "17386265",
+      "23732701",
+      "11877380",
+      "30404891",
+      "36191737",
+      "15189990",
+      "19273587",
+      "33482473",
+      "40583197",
+      "19332797",
+      "15364589",
+      "22869619",
+      "34894973",
+      "26864964",
+      "19189965",
+      "27911714",
+      "16148011",
+      "32654182",
+      "7508382",
+      "29555327",
+      "22164265",
+      "10866678",
+      "16569637",
+      "32933064",
+      "22343722",
+      "27974827",
+      "22688515",
+      "28890387",
+      "2546935",
+      "21689596",
+      "31672499",
+      "37013443",
+      "31375679",
+      "21199863",
+      "30071273",
+      "9727000",
+      "23990785",
+      "21730063",
+      "21447388",
+      "38001892",
+      "34663815",
+      "23824189",
+      "11279262",
+      "27871170",
+      "28842480",
+      "34443374",
+      "7864622",
+      "23669360",
+      "31932309",
+      "38996909",
+      "7727417",
+      "35163061",
+      "17694572",
+      "10861750",
+      "40355556",
+      "35550603",
+      "11467941",
+      "8576111",
+      "25209144",
+      "25533957",
+      "22116820",
+      "22675472",
+      "30377224",
+      "28341239",
+      "34320339",
+      "31308145",
+      "16442073",
+      "15123671",
+      "1688057",
+      "16998534",
+      "22270398",
+      "17689535",
+      "25821446",
+      "15671020",
+      "18639592",
+      "16959779",
+      "29498046",
+      "28077617",
+      "34612814"
+    ],
+    "review": [
+      "41224739",
+      "19996458",
+      "32859215",
+      "36191737",
+      "27911714",
+      "31672499",
+      "35163061",
+      "31308145",
+      "1688057"
+    ],
+    "pmc": [
+      "12612047"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-64884-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41224739/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

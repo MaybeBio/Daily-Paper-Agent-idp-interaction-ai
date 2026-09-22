@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.11.617911",
+  "title": "Protein Language Models Trained on Biophysical Dynamics Inform Mutation Effects",
+  "authors": "Hou C; Zhao H; Shen Y",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-15",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于MD模拟和简正模式动态特征训练的蛋白语言模型SeqDance/ESMDance，可预测无序蛋白动态和突变效应，虽非直接聚焦IDR介导的PPI机制，但其动态建模思路对无序蛋白互作机制研究有迁移启发。",
+  "abstract": "Structural dynamics are fundamental to protein functions and mutation effects. Current protein deep learning models are predominantly trained on sequence and/or static structure data, which often fail to capture the dynamic nature of proteins. To address this, we introduce SeqDance and ESMDance, two protein language models trained on dynamic biophysical properties derived from molecular dynamics simulations and normal mode analyses of over 64,000 proteins. Both models can be directly applied to predict dynamic properties of unseen ordered and disordered proteins. SeqDance, trained from scratch, has attentions that capture dynamic interaction and co-movement between residues, and its embeddings encode rich representations of protein dynamics that can be further utilized to predict conformational properties beyond the training tasks via transfer learning. SeqDance predicted dynamic property changes reflect mutation effect on protein folding stability. ESMDance, built upon ESM2 (Evolutionary Scale Model II) outputs, substantially outperforms ESM2 in zero-shot prediction of mutation effects for designed and viral proteins which lack evolutionary information. Together, SeqDance and ESMDance offer a new framework for integrating protein dynamics into language models, enabling more generalizable predictions of protein behavior and mutation effects. <h4>Significance Statement</h4> The sequence—structure (ensemble)—function relationship is central to biology. Protein dynamics in the structure ensemble play a decisive role in determining function and mutation effects, and are widely used to study thermodynamics, folding pathways, and dynamic interactions of ordered proteins, as well as the conformational variability of intrinsically disordered proteins. However, current state-of-the-art protein deep learning models, such as AlphaFold2,3 and ESM, focus on static structures and sequences, which failed to directly capture protein dynamics. Here, we address this gap by developing protein language models to learn dynamic properties of over 64,000 proteins. We show that the model’s Transformer attentions capture protein dynamic interactions, and our model can be applied to predict conformational properties and mutation effects.",
+  "abstract_zh": "结构动力学是蛋白质功能和突变效应的基础。当前的蛋白质深度学习模型主要基于序列和/或静态结构数据进行训练，往往无法捕捉蛋白质的动态特性。为解决这一问题，我们引入了SeqDance和ESMDance，这两个蛋白质语言模型基于对超过64,000种蛋白质的分子动力学模拟和简正模式分析所衍生的动态生物物理特性进行训练。这两个模型可直接应用于预测未见过的有序和无序蛋白质的动态特性。SeqDance从零开始训练，其注意力机制能够捕捉残基之间的动态相互作用和协同运动，其嵌入表示编码了丰富的蛋白质动态信息，可通过迁移学习进一步用于预测超出训练任务范围的构象特性。SeqDance预测的动态特性变化反映了突变对蛋白质折叠稳定性的影响。ESMDance基于ESM2（进化尺度模型II）的输出构建，在缺乏进化信息的设计蛋白质和病毒蛋白质的突变效应零样本预测中显著优于ESM2。综上，SeqDance和ESMDance提供了一种将蛋白质动态整合到语言模型中的新框架，能够实现更泛化的蛋白质行为和突变效应预测。\n\n<h4>意义声明</h4> 序列—结构（集合）—功能关系是生物学的核心。结构集合中的蛋白质动态在决定功能和突变效应方面起着决定性作用，并被广泛用于研究有序蛋白质的热力学、折叠路径和动态相互作用，以及固有无序蛋白质的构象变异性。然而，当前最先进的蛋白质深度学习模型，如AlphaFold2、3和ESM，侧重于静态结构和序列，未能直接捕捉蛋白质动态。在此，我们通过开发蛋白质语言模型来学习超过64,000种蛋白质的动态特性，填补了这一空白。我们表明，模型的Transformer注意力机制能够捕捉蛋白质动态相互作用，且我们的模型可应用于预测构象特性和突变效应。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.11.617911",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.11.617911",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.11.617911/index.html"
+}

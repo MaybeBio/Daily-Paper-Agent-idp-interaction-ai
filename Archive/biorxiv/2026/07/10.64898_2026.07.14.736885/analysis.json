@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.07.14.736885",
+  "title": "Interpretable Prediction of Phase Separation and Disease Variant Effects in Intrinsically Disordered Regions",
+  "authors": "Zhao M; Kumar S",
+  "journal": "bioRxiv",
+  "published_date": "2026-07-20",
+  "window": {
+    "start": "2026-07-20",
+    "end": "2026-07-26"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用可解释集成机器学习框架（结合蛋白语言模型与结构预测）预测IDR介导的相分离倾向并量化疾病突变对LLPS的扰动，聚焦IDR与相分离互作机制，方法上AI建模且具机制解释性，与本课题高度契合。",
+  "abstract": "Coding mutations within intrinsically disordered regions (IDRs) of proteins are increasingly implicated in human diseases yet remain poorly interpreted by conventional variant-effect predictors that rely on structural stability and conservation-based metrics. Quantifying disruption of IDR-mediated liquid-liquid phase separation (LLPS) offers a biophysically principled approach to interpreting the pathogenic impact of such variants. However, existing LLPS predictors suffer from training biases toward self-separating proteins, show limited performance on partner- dependent phase separation, and often lack interpretability for variant prioritization. We present an interpretable ensemble machine-learning framework that integrates protein language model embeddings of sequence and predicted structure to predict LLPS propensity and classify proteins as self-separating or partner-dependent. Our two-step classifiers outperform existing methods on independent benchmark datasets, with the largest gains for partner-dependent LLPS proteins. Beyond classification, our framework identifies critical phase-separating regions and quantifies mutation-induced perturbations in LLPS. Applied to disease-associated variant databases, we found that pathogenic mutations are enriched in predicted phase-separating regions and frequently perturb LLPS propensity scores, implicating mutation-induced LLPS dysregulation as a potential pathogenic mechanism for numerous diseases. Overall, our framework provides an accurate, interpretable approach for identifying phase-separating proteins and linking aberrant phase- separation behavior to disease pathogenesis.",
+  "abstract_zh": "蛋白质内在无序区（IDRs）内的编码突变日益被认为与人类疾病相关，但传统依赖结构稳定性和保守性指标的变异效应预测器对其解读效果不佳。量化IDR介导的液-液相分离（LLPS）的破坏，为解读此类变异的致病影响提供了一种基于生物物理原理的方法。然而，现有LLPS预测器存在对自分离蛋白的训练偏差，在依赖伙伴的相分离上表现有限，且通常缺乏用于变异优先排序的可解释性。我们提出了一种可解释的集成机器学习框架，该框架整合了序列和预测结构的蛋白质语言模型嵌入，以预测LLPS倾向性并将蛋白质分类为自分离型或伙伴依赖型。我们的两步分类器在独立基准数据集上优于现有方法，其中对伙伴依赖型LLPS蛋白的提升最大。除分类外，我们的框架还能识别关键相分离区域并量化突变诱导的LLPS扰动。应用于疾病相关变异数据库时，我们发现致病突变富集于预测的相分离区域，并频繁扰动LLPS倾向性评分，这表明突变诱导的LLPS失调可能是多种疾病的潜在致病机制。总体而言，我们的框架提供了一种准确、可解释的方法，用于识别相分离蛋白并将异常相分离行为与疾病发病机制联系起来。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.07.14.736885",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.14.736885",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.07.14.736885/index.html"
+}

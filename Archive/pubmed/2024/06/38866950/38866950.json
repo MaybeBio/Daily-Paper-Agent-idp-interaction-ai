@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "38866950",
+    "doi": "10.1038/s41598-024-64211-4",
+    "title": "Protein embeddings predict binding residues in disordered regions."
+  },
+  "content": {
+    "abstract": "The identification of protein binding residues helps to understand their biological processes as protein function is often defined through ligand binding, such as to other proteins, small molecules, ions, or nucleotides. Methods predicting binding residues often err for intrinsically disordered proteins or regions (IDPs/IDPRs), often also referred to as molecular recognition features (MoRFs). Here, we presented a novel machine learning (ML) model trained to specifically predict binding regions in IDPRs. The proposed model, IDBindT5, leveraged embeddings from the protein language model (pLM) ProtT5 to reach a balanced accuracy of 57.2 +/- 3.6% (95% confidence interval). Assessed on the same data set, this did not differ at the 95% CI from the state-of-the-art (SOTA) methods ANCHOR2 and DeepDISOBind that rely on expert-crafted features and evolutionary information from multiple sequence alignments (MSAs). Assessed on other data, methods such as SPOT-MoRF reached higher MCCs. IDBindT5's SOTA predictions are much faster than other methods, easily enabling full-proteome analyses. Our findings emphasize the potential of pLMs as a promising approach for exploring and predicting features of disordered proteins. The model and a comprehensive manual are publicly available at https://github.com/jahnl/binding_in_disorder .",
+    "keywords": [
+      "Machine learning",
+      "Protein binding",
+      "Protein binding prediction",
+      "Protein disorder",
+      "Protein function",
+      "Protein language model"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Protein Binding",
+      "*Machine Learning",
+      "Binding Sites",
+      "Computational Biology/methods",
+      "Databases, Protein",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jahn, Laura R",
+        "Marquet, Celine",
+        "Heinzinger, Michael",
+        "Rost, Burkhard"
+      ],
+      "short_names": [
+        "Jahn LR",
+        "Marquet C",
+        "Heinzinger M",
+        "Rost B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computation, Information, and Technology (CIT), Department of Informatics, Bioinformatics and Computational Biology, TUM (Technical University of Munich), 85748, Garching/Munich, Germany.",
+        "School of Computation, Information, and Technology (CIT), Department of Informatics, Bioinformatics and Computational Biology, TUM (Technical University of Munich), 85748, Garching/Munich, Germany. celine.marquet@tum.de.",
+        "School of Computation, Information, and Technology (CIT), Department of Informatics, Bioinformatics and Computational Biology, TUM (Technical University of Munich), 85748, Garching/Munich, Germany.",
+        "School of Computation, Information, and Technology (CIT), Department of Informatics, Bioinformatics and Computational Biology, TUM (Technical University of Munich), 85748, Garching/Munich, Germany.",
+        "Institute for Advanced Study (TUM-IAS), Lichtenbergstr. 2a, 85748, Garching/Munich, Germany.",
+        "TUM School of Life Sciences Weihenstephan (TUM-WZW), Alte Akademie 8, Freising, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jahn, Laura R",
+        "short_name": "Jahn LR",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computation, Information, and Technology (CIT), Department of Informatics, Bioinformatics and Computational Biology, TUM (Technical University of Munich), 85748, Garching/Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Marquet, Céline",
+        "short_name": "Marquet C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computation, Information, and Technology (CIT), Department of Informatics, Bioinformatics and Computational Biology, TUM (Technical University of Munich), 85748, Garching/Munich, Germany. celine.marquet@tum.de."
+        ]
+      },
+      {
+        "full_name": "Heinzinger, Michael",
+        "short_name": "Heinzinger M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computation, Information, and Technology (CIT), Department of Informatics, Bioinformatics and Computational Biology, TUM (Technical University of Munich), 85748, Garching/Munich, Germany."
+        ]
+      },
+      {
+        "full_name": "Rost, Burkhard",
+        "short_name": "Rost B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computation, Information, and Technology (CIT), Department of Informatics, Bioinformatics and Computational Biology, TUM (Technical University of Munich), 85748, Garching/Munich, Germany.",
+          "Institute for Advanced Study (TUM-IAS), Lichtenbergstr. 2a, 85748, Garching/Munich, Germany.",
+          "TUM School of Life Sciences Weihenstephan (TUM-WZW), Alte Akademie 8, Freising, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Jun 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/13 00:42",
+    "fetched_at": "2026-09-21 07:48:27"
+  },
+  "links": {
+    "cites": [
+      "42288727",
+      "41865079",
+      "41652166",
+      "41608984",
+      "41444992",
+      "41394632",
+      "40859602",
+      "40601248",
+      "40496891",
+      "40439671",
+      "40380914",
+      "40242292",
+      "40165821",
+      "40116777",
+      "39944881",
+      "39763873",
+      "39253485"
+    ],
+    "refs": [
+      "37621223",
+      "36454227",
+      "36416266",
+      "36408920",
+      "36366745",
+      "36304335",
+      "36210722",
+      "35941534",
+      "35648435",
+      "35609601",
+      "34980915",
+      "34967936",
+      "34905768",
+      "34903827",
+      "34718738",
+      "34265844",
+      "34232869",
+      "33961736",
+      "33875885",
+      "33827920",
+      "33325498",
+      "32091580",
+      "32015543",
+      "31847804",
+      "31713636",
+      "31504193",
+      "30615063",
+      "30020551",
+      "29959318",
+      "29860432",
+      "29385418",
+      "29036655",
+      "29035372",
+      "28516007",
+      "27548131",
+      "24178034",
+      "23060610",
+      "21928402",
+      "20287819",
+      "19260013",
+      "17998252",
+      "12824419",
+      "12215414",
+      "10550212",
+      "9697205"
+    ],
+    "similar": [
+      "38866950",
+      "29042212",
+      "29080786",
+      "32019410",
+      "31504193",
+      "38812466",
+      "30866736",
+      "24093637",
+      "30324701",
+      "28155710",
+      "30717652",
+      "34905768",
+      "37883249",
+      "31425549",
+      "29360926",
+      "36458437",
+      "31739058",
+      "31521236",
+      "34967936",
+      "21152297",
+      "32173600",
+      "39237735",
+      "36304335",
+      "22689782",
+      "34626492",
+      "34232869",
+      "32535960",
+      "25424537",
+      "28365882",
+      "34390736",
+      "25637562",
+      "31894361",
+      "37827403",
+      "37498545",
+      "31207240",
+      "28934129",
+      "38097100",
+      "28098335",
+      "34290238",
+      "30657889",
+      "35609601",
+      "33875885",
+      "31847804",
+      "38701796",
+      "28369666",
+      "28381244",
+      "33548309",
+      "30002402",
+      "37866116",
+      "27787828",
+      "25391399",
+      "26517836",
+      "30135358",
+      "39182368",
+      "26198229",
+      "26109352",
+      "35507260",
+      "31441158",
+      "24668165",
+      "35350759",
+      "24573480",
+      "26549326",
+      "38662579",
+      "21541066",
+      "34903827",
+      "28589442",
+      "29228892",
+      "23466039",
+      "26090958",
+      "33291838",
+      "38175787",
+      "38166858",
+      "36700108",
+      "29982297",
+      "29413001",
+      "30298407",
+      "25287424",
+      "32599863",
+      "32712910",
+      "27115638",
+      "33417598",
+      "26851286",
+      "38540707",
+      "34487138",
+      "35325330",
+      "26513658",
+      "33119751",
+      "31007871",
+      "38895377",
+      "37440576",
+      "36257361",
+      "24573479",
+      "32696395",
+      "26073257",
+      "30099775",
+      "23328413",
+      "38048333",
+      "16935303",
+      "35941534",
+      "38275091",
+      "31139867",
+      "26742101",
+      "34830151",
+      "39276905",
+      "38747347",
+      "39098138",
+      "39092854",
+      "36454227",
+      "39246251",
+      "39164870",
+      "35702380",
+      "38507682",
+      "37577664"
+    ],
+    "review": [
+      "38866950",
+      "31521236",
+      "34390736",
+      "38097100",
+      "30657889",
+      "31441158",
+      "35350759",
+      "26549326",
+      "28589442",
+      "23466039",
+      "33291838",
+      "29982297",
+      "29413001",
+      "25287424",
+      "26851286",
+      "31007871",
+      "36257361",
+      "26073257"
+    ],
+    "pmc": [
+      "11169622"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-64211-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38866950/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38866950",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

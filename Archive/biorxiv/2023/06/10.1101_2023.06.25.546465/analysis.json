@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.25.546465",
+  "title": "Intrinsically Disordered Regions Promote Protein Refoldability and Facilitate Retrieval from Biomolecular Condensates",
+  "authors": "Philip To; Atharva M. Bhagwat; Haley E. Tarbox; Ayse Ecer; Hannah Wendorff; Zanya Jamieson; Tatjana Trcek; Stephen D. Fried",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-25",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究无序区域(IDR)如何促进蛋白质从凝聚体中被提取后的再折叠能力，涉及IDR与生物分子凝聚体的关系，但未聚焦PPI互作机制或AI/物理模拟方法，故综合评分为7。",
+  "abstract": "Many eukaryotic proteins contain intrinsically disordered regions (IDRs) that intersperse globular folded domains, in contrast with bacterial proteins which are typically highly globular 1, 2 . Recent years have seen great progress in identifying biological functions associated with these elusive protein sequence: in specific cases, they mediate liquid liquid phase separation 3 , perform molecular recognition 4 , or act as sensors to changes in the environment 5 . Nevertheless, only a small number of IDRs have annotated functions 6 despite their presence in 64% of yeast proteins, 7 stimulating some to question what ‘general purpose’ they may serve 8, 9 . Here, by interrogating the refoldability of two fungal proteomes ( Saccharomyces cerevisiae and Neurosporra crassa ), we show that IDRs render their host proteins more refoldable from the denatured state, allowing them to cohere more closely to Anfinsen’s thermodynamic hypothesis 10, 11 . The data provide an exceptionally clear picture of which biophysical and topological characteristics enable refoldability. Moreover, we find that almost all yeast proteins that partition into stress granules during heat shock are refoldable, a finding that holds for other condensates such as P-bodies and the nucleolus. Finally, we find that the Hsp104 unfoldase 12 is the principal actor in mediating disassembly of heat stress granules and that the efficiency with which condensed proteins are returned to the soluble phase is also well explained by refoldability. Hence, these studies establish spontaneous refoldability as an adaptive trait that endows proteins with the capacity to reform their native soluble structures following their extraction from condensates. Altogether, our results provide an intuitive model for the function of IDRs in many multidomain proteins and clarifies their relationship to the phenomenon of biomolecular condensation.",
+  "abstract_zh": "许多真核生物蛋白含有内在无序区域（IDRs），这些区域穿插在球状折叠结构域之间，与通常高度球状的细菌蛋白形成对比1, 2。近年来，在识别这些难以捉摸的蛋白序列相关的生物学功能方面取得了巨大进展：在特定情况下，它们介导液-液相分离（liquid-liquid phase separation）3，执行分子识别4，或作为环境变化的传感器5。然而，尽管IDRs存在于64%的酵母蛋白中7，但只有少数IDRs具有注释功能6，这促使一些人质疑它们可能服务于什么“通用目的”8, 9。在此，通过探究两种真菌蛋白质组（酿酒酵母Saccharomyces cerevisiae和粗糙脉孢菌Neurospora crassa）的可重折叠性，我们表明IDRs使其宿主蛋白从变性状态更易重折叠，使它们更紧密地符合Anfinsen的热力学假说10, 11。数据提供了极其清晰的图景，展示了哪些生物物理和拓扑特征能够实现可重折叠性。此外，我们发现，在热休克期间几乎所有的酵母蛋白，如果分配到应激颗粒中，都是可重折叠的，这一发现也适用于其他凝聚体，如P小体和核仁。最后，我们发现Hsp104解聚酶12是介导热应激颗粒解体的主要角色，并且凝聚蛋白返回可溶相的效率也能很好地通过可重折叠性来解释。因此，这些研究确立了自发可重折叠性作为一种适应性特征，赋予蛋白在从凝聚体中提取后重新形成其天然可溶结构的能力。总之，我们的结果为许多多结构域蛋白中IDRs的功能提供了一个直观模型，并阐明了它们与生物分子凝聚现象的关系。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.25.546465",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.25.546465",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.25.546465/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.15.603342",
+  "title": "Mixtures of Intrinsically Disordered Neuronal Protein Tau and Anionic Liposomes Reveal Distinct Anionic Liposome-Tau Complexes Coexisting with Tau Liquid-Liquid Phase Separated Coacervates",
+  "authors": "Christine Tchounwou; Anjali J. Jobanputra; Dylan Lasher; Bretton J. Fletcher; Jorge Jacinto; Arjun Bhaduri; Rebecca L. Best; William S. Fisher; Kai K. Ewert; Youli Li; Stuart C. Feinstein; Cyrus R. Safinya",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-17",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过实验观察Tau无序蛋白与阴离子脂质体的互作及相分离凝聚体共存，虽无AI/物理模拟方法，但聚焦IDP介导的互作机制与凝聚体，对课题有对象和互作层面的参考价值。",
+  "abstract": "Tau, an intrinsically disordered neuronal protein and polyampholyte with an overall positive charge, is a microtubule (MT) associated protein, which binds to anionic domains of MTs and suppresses their dynamic instability. Aberrant tau-MT interactions are implicated in Alzheimer’s and other neurodegenerative diseases. Here, we studied the interactions between full length human protein tau and other negatively charged binding substrates, as revealed by differential-interference-contrast (DIC) and fluorescence microscopy. As a binding substrate, we chose anionic liposomes (ALs) containing either 1,2-dioleoyl-sn-glycero-3-phosphatidylserine (DOPS, −1e) or 1,2-dioleoyl-sn-glycero-3-phosphatidylglycerol (DOPG, −1e) mixed with zwitterionic 1,2-dioleoyl-sn-glycero-3-phosphatidylcholine (DOPC) to mimic anionic plasma membranes of axons where tau resides. At low salt concentrations (0 to 10 mM KCl or NaCl) with minimal charge screening, reaction mixtures of tau and ALs resulted in the formation of distinct states of AL-tau complexes coexisting with liquid-liquid phase separated tau self-coacervates arising from the polyampholytic nature of tau containing cationic and anionic domains. AL-tau complexes exhibited distinct types of morphologies. This included, large ≈20-30 micron tau-decorated giant vesicles with additional smaller liposomes with bound tau attached to the giant vesicles, and tau-mediated finite-size assemblies of small liposomes. As the ionic strength of the solution was increased to near and above physiological salt concentrations for 1:1 electrolytes (≈150 mM), AL-tau complexes remained stable while tau self-coacervate droplets were found to dissolve indicative of breaking of (anionic/cationic) electrostatic bonds between tau chains due to increased charge screening. The findings are consistent with the hypothesis that distinct cationic domains of tau may interact with anionic lipid domains of the lumen facing monolayer of the axon plasma membrane suggesting the possibility of transient yet robust interactions at physiologically relevant ionic strengths.",
+  "abstract_zh": "Tau是一种本质无序的神经元蛋白和多聚电解质，整体带正电荷，是一种微管（MT）相关蛋白，与MT的阴离子结构域结合并抑制其动态不稳定性。异常的tau-MT相互作用与阿尔茨海默病及其他神经退行性疾病有关。在此，我们通过微分干涉对比（DIC）和荧光显微镜研究了全长人tau蛋白与其他带负电荷的结合底物之间的相互作用。作为结合底物，我们选择了含有1,2-二油酰-sn-甘油-3-磷脂酰丝氨酸（DOPS，−1e）或1,2-二油酰-sn-甘油-3-磷脂酰甘油（DOPG，−1e）与两性离子1,2-二油酰-sn-甘油-3-磷脂酰胆碱（DOPC）混合的阴离子脂质体（ALs），以模拟tau所在的轴突质膜阴离子环境。在低盐浓度（0至10 mM KCl或NaCl）且电荷屏蔽最小的情况下，tau与ALs的反应混合物形成了不同的AL-tau复合物状态，并与由tau含阳离子和阴离子结构域的多聚电解质性质引起的液体-液体相分离tau自凝聚体共存。AL-tau复合物表现出不同类型的形态，包括约20-30微米的大型tau装饰巨囊泡，其上附着有结合tau的较小脂质体，以及tau介导的小脂质体有限尺寸组装体。当溶液离子强度增加到接近或超过生理盐浓度（约150 mM，1:1电解质）时，AL-tau复合物保持稳定，而tau自凝聚体液滴溶解，表明由于电荷屏蔽增强，tau链间的（阴离子/阳离子）静电键断裂。这些发现与以下假设一致：tau的不同阳离子结构域可能与轴突质膜腔面单层的阴离子脂质结构域相互作用，提示在生理相关离子强度下存在短暂但稳健的相互作用可能性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.15.603342",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.15.603342",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.15.603342/index.html"
+}

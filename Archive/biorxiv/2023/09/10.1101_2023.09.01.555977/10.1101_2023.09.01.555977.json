@@ -1,0 +1,948 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.01.555977",
+  "title": "G- <i>PLIP</i> : Knowledge graph neural network for structure-free protein-ligand bioactivity prediction",
+  "doi": "10.1101/2023.09.01.555977",
+  "abstract": "Protein-ligand interaction (PLI) shapes efficacy and safety profiles of small molecule drugs. Existing methods rely on either structural information or resource-intensive computation to predict PLI, making us wonder whether it is possible to perform structure-free PLI prediction with low computational cost. Here we show that a light-weight graph neural network (GNN), trained with quantitative PLIs of a small number of proteins and ligands, is able to predict the strength of unseen PLIs. The model has no direct access to structural information of protein-ligand complexes. Instead, the predictive power is provided by encoding the entire chemical and proteomic space in a single heterogeneous graph, encapsulating primary protein sequence, gene expression, protein-protein interaction network, and structural similarities between ligands. The novel model performs competitively with or better than structure-aware models. Our observations suggest that existing PLI-prediction methods may be further improved by using representation learning techniques that embed biological and chemical knowledge.",
+  "authors": [
+    "Simon J. Crouzet",
+    "Anja Maria Lieberherr",
+    "Kenneth Atz",
+    "Tobias Nilsson",
+    "Lisa Sach-Peltason",
+    "Alex T. Müller",
+    "Matteo Dal Peraro",
+    "Jitao David Zhang"
+  ],
+  "published_date": "2023-09-05",
+  "updated_date": "2023-09-05T21:05:23Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.01.555977",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.01.555977.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:16:08Z",
+        "timestamp": 1768508168092,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            5
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 94,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            26
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Protein-ligand interaction (PLI) shapes efficacy and safety profiles of small molecule drugs. Existing methods rely on either structural information or resource-intensive computation to predict PLI, making us wonder whether it is possible to perform structure-free PLI prediction with low computational cost. Here we show that a light-weight graph neural network (GNN), trained with quantitative PLIs of a small number of proteins and ligands, is able to predict the strength of unseen PLIs. The model has no direct access to structural information of protein-ligand complexes. Instead, the predictive power is provided by encoding the entire chemical and proteomic space in a single heterogeneous graph, encapsulating primary protein sequence, gene expression, protein-protein interaction network, and structural similarities between ligands. The novel model performs competitively with or better than structure-aware models. Our observations suggest that existing PLI-prediction methods may be further improved by using representation learning techniques that embed biological and chemical knowledge.</jats:p>",
+      "DOI": "10.1101/2023.09.01.555977",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            5
+          ]
+        ],
+        "date-time": "2023-09-05T21:05:23Z",
+        "timestamp": 1693947923000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "G-\n                  <i>PLIP</i>\n                  : Knowledge graph neural network for structure-free protein-ligand bioactivity prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-5012-4621",
+          "authenticated-orcid": false,
+          "given": "Simon J.",
+          "family": "Crouzet",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Anja Maria",
+          "family": "Lieberherr",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2628-1619",
+          "authenticated-orcid": false,
+          "given": "Kenneth",
+          "family": "Atz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tobias",
+          "family": "Nilsson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4425-2958",
+          "authenticated-orcid": false,
+          "given": "Lisa",
+          "family": "Sach-Peltason",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8063-9952",
+          "authenticated-orcid": false,
+          "given": "Alex T.",
+          "family": "Müller",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2973-3975",
+          "authenticated-orcid": false,
+          "given": "Matteo",
+          "family": "Dal Peraro",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3085-0909",
+          "authenticated-orcid": false,
+          "given": "Jitao David",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsb0902-646"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm100112j"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "e427",
+          "DOI": "10.1016/j.ddtec.2013.02.001",
+          "article-title": "Multi-objective optimization methods in drug design",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "Drug Discovery Today: Technologies"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature03193"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "573",
+          "DOI": "10.1038/s42256-020-00236-4",
+          "article-title": "Drug discovery with explainable artificial intelligence",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "353",
+          "DOI": "10.1038/s41573-019-0050-3",
+          "article-title": "Rethinking drug design in the artificial intelligence era",
+          "volume": "19",
+          "year": "2020",
+          "journal-title": "Nature Reviews Drug Discovery"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "815",
+          "DOI": "10.1038/s41592-019-0530-8",
+          "article-title": "FRET as a biomolecular research tool-understanding its potential while avoiding pitfalls",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "187",
+          "DOI": "10.1007/978-1-0716-0954-5_17",
+          "article-title": "Microscale Thermophoresis (MST) to Detect the Interaction Between Purified Protein and Small Molecule",
+          "volume": "2213",
+          "year": "2021",
+          "journal-title": "Methods in Molecular Biology"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jproteome.8b00341"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature18002"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "4538",
+          "DOI": "10.1016/j.csbj.2021.08.011",
+          "article-title": "A review on machine learning approaches and trends in drug discovery",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "Computational and Structural Biotechnology Journal"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1175",
+          "DOI": "10.1080/17460441.2021.1929921",
+          "article-title": "Computational representations of protein–ligand interfaces for structure-based virtual screening",
+          "volume": "16",
+          "year": "2021",
+          "journal-title": "Expert Opinion on Drug Discovery"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Romano, J. D. & Tatonetti, N. P. Informatics and Computational Methods in Natural Product Drug Discovery: A Review and Perspectives. Frontiers in Genetics 10 (2019).",
+          "DOI": "10.3389/fgene.2019.00368"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.14",
+          "first-page": "720",
+          "article-title": "The HADDOCK2.2 Web Server: User-Friendly Integrative Modeling of Biomolecular Complexes",
+          "volume": "428",
+          "year": "2016",
+          "journal-title": "Journal of Molecular Biology. Computation Resources for Molecular Biology"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Honorato, R. V. et al. Structural Biology in the Clouds: The WeNMR-EOSC Ecosystem. Frontiers in Molecular Biosciences 8 (2021).",
+          "DOI": "10.3389/fmolb.2021.729513"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.2c00487"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty374"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c01306"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.7b00650"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "4323",
+          "DOI": "10.1038/s41467-023-40064-9",
+          "article-title": "A preclinical secondary pharmacology resource illuminates target-adverse drug reaction associations of marketed drugs",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1758",
+          "DOI": "10.1021/acs.molpharmaceut.2c00962",
+          "article-title": "Systematic Evaluation of Local and Global Machine Learning Models for the Prediction of ADME Properties",
+          "volume": "20",
+          "year": "2023",
+          "journal-title": "Molecular Pharmaceutics"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.22",
+          "first-page": "635",
+          "article-title": "Toward Quantitative Models in Safety Assessment: A Case Study to Show Impact of Dose–Response Inference on hERG Inhibition Models",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "International Journal of Molecular Sciences"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp167"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "949",
+          "DOI": "10.1080/17460441.2021.1909567",
+          "article-title": "Artificial intelligence in drug discovery: recent advances and future perspectives",
+          "volume": "16",
+          "year": "2021",
+          "journal-title": "Expert Opinion on Drug Discovery"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "1023",
+          "DOI": "10.1038/s42256-021-00418-8",
+          "article-title": "Geometric deep learning on molecular representations",
+          "volume": "3",
+          "year": "2021",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "102548",
+          "DOI": "10.1016/j.sbi.2023.102548",
+          "article-title": "Structure-based drug design with geometric deep learning",
+          "volume": "79",
+          "year": "2023",
+          "journal-title": "Current Opinion in Structural Biology"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.27",
+          "unstructured": "Schneuing, A. et al. Structure-based Drug Design with Equivariant Diffusion Models 2022."
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.28",
+          "unstructured": "Luo, S. , Guan, J. , Ma, J. & Peng, J. A 3D Generative Model for Structure-Based Drug Design in 35th Conference on Neural Information Processing Systems (NeurIPS) (2021)."
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.29",
+          "first-page": "17644",
+          "volume": "162",
+          "year": "2022",
+          "journal-title": "Pocket2Mol: Efficient Molecular Sampling Based on 3D Protein Pockets in Proceedings of the 39th International Conference on Machine Learning (ICML)"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "10775",
+          "DOI": "10.1039/D2CP00834C",
+          "article-title": "Δ-Quantum machine-learning for medicinal chemistry",
+          "volume": "24",
+          "year": "2022",
+          "journal-title": "Physical Chemistry Chemical Physics"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "2046",
+          "DOI": "10.1021/acsomega.2c05607",
+          "article-title": "Machine Learning for Fast, Quantum Mechanics-Based Approximation of Drug Lipophilicity",
+          "volume": "8",
+          "year": "2023",
+          "journal-title": "ACS Omega"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.32",
+          "unstructured": "Satorras, V. G. , Hoogeboom, E. & Welling, M. E (n) equivariant graph neural networks. Proceedings of the 38th International Conference on Machine Learning (ICML), 9323–9332 (2021)."
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1186/s13321-019-0407-y",
+          "article-title": "Building attention and edge message passing neural networks for bioactivity and physical–chemical property prediction",
+          "volume": "12",
+          "year": "2020",
+          "journal-title": "Journal of Cheminformatics",
+          "ISSN": "https://id.crossref.org/issn/1758-2946",
+          "issn-type": "print"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1009284",
+          "DOI": "10.1371/journal.pcbi.1009284",
+          "article-title": "Pre-training of Graph Neural Network for Modeling Effects of Mutations on Protein-Protein Binding Affinity. en",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MSP.2017.2693418"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.36",
+          "unstructured": "Zhang, Z. et al. Protein Representation Learning by Geometric Structure Pretraining in The Eleventh International Conference on Learning Representations (2023)."
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.37",
+          "first-page": "15820",
+          "volume": "1417",
+          "year": "2019",
+          "journal-title": "in Proceedings of the 33rd International Conference on Neural Information Processing Systems"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.38",
+          "first-page": "20503",
+          "volume": "162",
+          "year": "2022",
+          "journal-title": "EquiBind: Geometric Deep Learning for Drug Binding Structure Prediction in Proceedings of the 39th International Conference on Machine Learning (ICML)"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rudden, L. S. P. , Hijazi, M. & Barth, P. Deep learning approaches for conformational flexibility and switching properties in protein design. Frontiers in Molecular Biosciences 9 (2022).",
+          "DOI": "10.3389/fmolb.2022.928534"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Krapp, L. F. , Meireles, F. A. , Abriata, L. A. & Dal Peraro, M. Context-aware geometric deep learning for protein sequence design 2023.",
+          "DOI": "10.1101/2023.06.19.545381"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "4505",
+          "DOI": "10.1093/bioinformatics/btac551",
+          "article-title": "Deep Local Analysis evaluates protein docking conformations with locally oriented cubes",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "i544",
+          "DOI": "10.1093/bioinformatics/btad231",
+          "article-title": "Deep Local Analysis deconstructs protein–protein interfaces and accurately estimates binding affinity changes upon mutation",
+          "volume": "39",
+          "year": "2023",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "184",
+          "DOI": "10.1038/s41592-019-0666-6",
+          "article-title": "Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning",
+          "volume": "17",
+          "year": "2020",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "1114",
+          "DOI": "10.1093/bioinformatics/btz699",
+          "article-title": "Protein-protein interaction site prediction through combining local and global features with deep neural networks",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty573"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "2175",
+          "DOI": "10.1038/s41467-023-37701-8",
+          "article-title": "PeSTo: parameter-free geometric deep learning for accurate prediction of protein binding interfaces",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac258"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/1568026620666200710101307"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41573-019-0024-5"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty294"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Janela, T. & Bajorath, J. Simple nearest-neighbour analysis meets the accuracy of compound potency predictions using complex machine learning models. Nature Machine Intelligence, 1–10 (2022).",
+          "DOI": "10.1038/s42256-022-00581-6"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.52",
+          "unstructured": "Hamilton, W. L. , Ying, R. & Leskovec, J. Inductive Representation Learning on Large Graphs in Proceedings of the 31st International Conference on Neural Information Processing Systems (NeurIPS) (2017), 1025–1035."
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-5-113"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1052"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "214",
+          "DOI": "10.1038/ng0304-214",
+          "article-title": "Gene expression as a drug discovery tool",
+          "volume": "36",
+          "year": "2004",
+          "journal-title": "Nature Genetics"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Karlsson, M. et al. A single-cell type transcriptomics map of human tissues. Science Advances 7 (2021).",
+          "DOI": "10.1126/sciadv.abh2169"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0169-409X(00)00129-0"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jmedchem.8b00686"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "1146",
+          "DOI": "10.3390/pharmaceutics13081146",
+          "article-title": "A Bidirectional Permeability Assay for beyond Rule of 5 Compounds",
+          "volume": "13",
+          "year": "2021",
+          "journal-title": "Pharmaceutics"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci990307l"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci100050t"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c00695"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.63",
+          "doi-asserted-by": "crossref",
+          "first-page": "3572",
+          "DOI": "10.3390/ijms20143572",
+          "article-title": "Targeting HIV/HCV Coinfection Using a Machine Learning-Based Multiple Quantitative Structure-Activity Relationships (Multiple QSAR) Method",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "International Journal of Molecular Sciences"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.64",
+          "unstructured": "Kingma, D. P. & Ba, J. Adam: A Method for Stochastic Optimization. CoRR (2014)."
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.65",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Waldmann, P. On the Use of the Pearson Correlation Coefficient for Model Evaluation in Genome-Wide Prediction. Frontiers in Genetics 10 (2019).",
+          "DOI": "10.3389/fgene.2019.00899"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "209",
+          "DOI": "10.1016/j.semcancer.2020.02.003",
+          "article-title": "Turning liabilities into opportunities: Off-target based drug repurposing in cancer",
+          "volume": "68",
+          "year": "2021",
+          "journal-title": "Seminars in Cancer Biology. Drug Repurposing for Cancer"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.67",
+          "first-page": "20",
+          "article-title": "A similarity measure for indefinite rankings",
+          "volume": "28",
+          "year": "2010",
+          "journal-title": "ACM Transactions on Information Systems"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1911532117"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm9602928"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm030580l"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm048957q"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.72",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Isert, C. , Atz, K. , Riniker, S. & Schneider, G. Exploring protein-ligand binding affinity prediction with electron density-based geometric deep learning 2023.",
+          "DOI": "10.26434/chemrxiv-2023-585vf"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.73",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yang, J. , Shen, C. & Huang, N. Predicting or Pretending: Artificial Intelligence for Protein-Ligand Interactions Lack of Sufficiently Large and Unbiased Datasets. Frontiers in Pharmacology 11 (2020).",
+          "DOI": "10.3389/fphar.2020.00069"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty593"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.75",
+          "article-title": "AutoGluon-Tabular: Robust and Accurate AutoML for Structured Data",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.76",
+          "doi-asserted-by": "crossref",
+          "first-page": "463",
+          "DOI": "10.1021/acs.jcim.1c01531",
+          "article-title": "Yuel: Improving the Generalizability of Structure-Free Compound– Protein Interaction Prediction",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.77",
+          "doi-asserted-by": "crossref",
+          "first-page": "2332",
+          "DOI": "10.1093/ckj/sfab085",
+          "article-title": "Conducting correlation analysis: important limitations and pitfalls",
+          "volume": "14",
+          "year": "2021",
+          "journal-title": "Clinical Kidney Journal"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.78",
+          "doi-asserted-by": "crossref",
+          "first-page": "10947",
+          "DOI": "10.3390/molecules200610947",
+          "article-title": "Low-Quality Structural and Interaction Data Improves Binding Affinity Prediction via Random Forest",
+          "volume": "20",
+          "year": "2015",
+          "journal-title": "Molecules"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.79",
+          "unstructured": "Klarner, L. , Reutlinger, M. , Schindler, T. , Deane, C. & Morris, G. Bias in the Benchmark: Systematic experimental errors in bioactivity databases confound multi-task and meta-learning algorithms in 2nd AI4Science Workshop at the 39th International Conference on Machine Learning (ICML), (2022)."
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.80",
+          "doi-asserted-by": "crossref",
+          "first-page": "2389",
+          "DOI": "10.1021/acsomega.2c06781",
+          "article-title": "Latent Biases in Machine Learning Models for Predicting Binding Affinities Using Popular Data Sets",
+          "volume": "8",
+          "year": "2023",
+          "journal-title": "ACS Omega"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.82",
+          "doi-asserted-by": "crossref",
+          "first-page": "1885",
+          "DOI": "10.1038/s41467-023-36956-5",
+          "article-title": "Structural mechanism of a drug-binding process involving a large conformational change of the protein target",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.83",
+          "doi-asserted-by": "crossref",
+          "first-page": "22",
+          "DOI": "10.1016/j.csbj.2014.08.008",
+          "article-title": "The role of protein interaction networks in systems biomedicine",
+          "volume": "11",
+          "year": "2014",
+          "journal-title": "Computational and Structural Biotechnology Journal",
+          "ISSN": "https://id.crossref.org/issn/2001-0370",
+          "issn-type": "print"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2188-x"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.85",
+          "doi-asserted-by": "crossref",
+          "first-page": "389",
+          "DOI": "10.1038/s41588-023-01327-9",
+          "article-title": "Network expansion of genetic associations defines a pleiotropy map of human cell biology",
+          "volume": "55",
+          "year": "2023",
+          "journal-title": "Nature Genetics",
+          "ISSN": "https://id.crossref.org/issn/1546-1718",
+          "issn-type": "print"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.86",
+          "doi-asserted-by": "crossref",
+          "first-page": "1256",
+          "DOI": "10.1038/s42256-022-00580-7",
+          "article-title": "Large-scale chemical language representations capture molecular structure and properties",
+          "volume": "4",
+          "year": "2022",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.87",
+          "doi-asserted-by": "crossref",
+          "first-page": "6298",
+          "DOI": "10.1038/s41467-022-34032-y",
+          "article-title": "Protein language models trained on multiple sequence alignments learn phylogenetic relationships",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.88",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.79854"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.89",
+          "doi-asserted-by": "crossref",
+          "first-page": "7112",
+          "DOI": "10.1109/TPAMI.2021.3095381",
+          "article-title": "ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning",
+          "volume": "44",
+          "year": "2022",
+          "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "ISSN": "https://id.crossref.org/issn/1939-3539",
+          "issn-type": "print"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.90",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Dougall, I. G. & Unitt, J. in The Practice of Medicinal Chemistry (Fourth Edition) (eds Wermuth, C. G. , Aldous, D. , Raboisson, P. & Rognan, D .) 15–43 (2015).",
+          "DOI": "10.1016/B978-0-12-417205-0.00002-X"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.91",
+          "doi-asserted-by": "crossref",
+          "first-page": "7",
+          "DOI": "10.1016/j.vascn.2018.07.001",
+          "article-title": "In vitro secondary pharmacological profiling: An IQ-DruSafe industry survey on current practices",
+          "volume": "93",
+          "year": "2018",
+          "journal-title": "Journal of Pharmacological and Toxicological Methods"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.92",
+          "doi-asserted-by": "crossref",
+          "first-page": "648",
+          "DOI": "10.1016/j.chembiol.2021.03.011",
+          "article-title": "Targeted degradation of transcription factors by TRAFTACs: TRAn-scription Factor TArgeting Chimeras",
+          "volume": "28",
+          "year": "2021",
+          "journal-title": "Cell Chemical Biology"
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.93",
+          "unstructured": "Paszke, A. et al. PyTorch: An Imperative Style, High-Performance Deep Learning Library in Proceedings of the 33rd International Conference on Neural Information Processing Systems (2019)."
+        },
+        {
+          "key": "2024042904000514000_2023.09.01.555977v3.94",
+          "unstructured": "Fey, M. & Lenssen, J. E. Fast Graph Representation Learning with PyTorch Geometric in Representation Learning on Graphs and Manifolds Workshop of the 7th International Conference on Learning Representations (ICLR) (2019)."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.09.01.555977",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:10:44Z",
+        "timestamp": 1768453844000
+      },
+      "score": 52.76734,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.09.01.555977"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            5
+          ]
+        ]
+      },
+      "references-count": 94,
+      "URL": "https://doi.org/10.1101/2023.09.01.555977",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.csbj.2024.06.029",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "40558524",
+    "doi": "10.3390/cells14120897",
+    "title": "Age-Related Increases in PDE11A4 Protein Expression Trigger Liquid-Liquid Phase Separation (LLPS) of the Enzyme That Can Be Reversed by PDE11A4 Small Molecule Inhibitors."
+  },
+  "content": {
+    "abstract": "PDE11A is a little-studied phosphodiesterase sub-family that breaks down cAMP/cGMP, with the PDE11A4 isoform enriched in the memory-related hippocampal formation. Age-related increases in PDE11A expression occur in human and rodent hippocampus and cause age-related cognitive decline of social memories. Interestingly, age-related increases in PDE11A4 protein ectopically accumulate in spherical clusters that group together in the brain to form linear filamentous patterns termed \"PDE11A4 ghost axons\". The biophysical/physiochemical mechanisms underlying this age-related clustering are not known. Here, we determine if age-related clustering of PDE11A4 reflects liquid-liquid phase separation (LLPS; biomolecular condensation), and if PDE11A inhibitors can reverse this LLPS. We show human and mouse PDE11A4 exhibit several LLPS-promoting sequence features, including intrinsically disordered regions, non-covalent pi-pi interactions, and prion-like domains that were particularly enriched in the N-terminal regulatory region. Further, multiple bioinformatic tools predict PDE11A4 undergoes LLPS. Consistent with these predictions, aging-like PDE11A4 clusters in HT22 hippocampal neuronal cells were membraneless spherical droplets that progressively fuse over time in a concentration-dependent manner. Deletion of the N-terminal intrinsically disordered region prevented PDE11A4 LLPS despite equal protein expression between WT and mutant constructs. 1,6-hexanediol, along with tadalafil and BC11-38 that inhibit PDE11A4, reversed PDE11A4 LLPS in HT22 hippocampal neuronal cells. Interestingly, PDE11A4 inhibitors reverse PDE11A4 LLPS independently of increasing cAMP/cGMP levels via catalytic inhibition. Importantly, orally dosed tadalafil reduced PDE11A4 ghost axons in old mouse ventral hippocampus by 50%. Thus, PDE11A4 exhibits the four defining criteria of LLPS, and PDE11A inhibitors reverse this age-related phenotype both in vitro and in vivo.",
+    "keywords": [
+      "PDE11A",
+      "aging",
+      "biomolecular condensation",
+      "cognitive impairment",
+      "hippocampus",
+      "inclusion body",
+      "memory",
+      "phosphodiesterase",
+      "tadalafil"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "Mice",
+      "*Aging/metabolism",
+      "*Phosphoric Diester Hydrolases/metabolism/chemistry",
+      "Hippocampus/metabolism",
+      "*Phosphodiesterase Inhibitors/pharmacology",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Amurrio, Elvis",
+        "Patel, Janvi H",
+        "Danaher, Marie",
+        "Goodwin, Madison",
+        "Kargbo, Porschderek",
+        "Klimentova, Eliska",
+        "Lin, Sonia",
+        "Kelly, Michy P"
+      ],
+      "short_names": [
+        "Amurrio E",
+        "Patel JH",
+        "Danaher M",
+        "Goodwin M",
+        "Kargbo P",
+        "Klimentova E",
+        "Lin S",
+        "Kelly MP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1735-3342"
+      ],
+      "affiliations": [
+        "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA.",
+        "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA.",
+        "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA.",
+        "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA.",
+        "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA.",
+        "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA.",
+        "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA.",
+        "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA.",
+        "Center for Research on Aging, University of Maryland School of Medicine, Baltimore, MD 21201, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Amurrio, Elvis",
+        "short_name": "Amurrio E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Patel, Janvi H",
+        "short_name": "Patel JH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Danaher, Marie",
+        "short_name": "Danaher M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Goodwin, Madison",
+        "short_name": "Goodwin M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Kargbo, Porschderek",
+        "short_name": "Kargbo P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Klimentova, Eliska",
+        "short_name": "Klimentova E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Lin, Sonia",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Kelly, Michy P",
+        "short_name": "Kelly MP",
+        "identifiers": [
+          "0000-0002-1735-3342"
+        ],
+        "affiliations": [
+          "Department of Neurobiology, University of Maryland School of Medicine, Baltimore, MD 21201, USA.",
+          "Center for Research on Aging, University of Maryland School of Medicine, Baltimore, MD 21201, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2025 Jun 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/25 12:27",
+    "fetched_at": "2026-09-21 20:10:55"
+  },
+  "links": {
+    "cites": [
+      "41704346"
+    ],
+    "refs": [
+      "39321314",
+      "38316988",
+      "38132157",
+      "37862143",
+      "37572526",
+      "37238596",
+      "36835140",
+      "36702317",
+      "36073342",
+      "35750966",
+      "35687670",
+      "35168563",
+      "34551810",
+      "33835157",
+      "33610793",
+      "33578193",
+      "33532844",
+      "33517364",
+      "33461072",
+      "32867340",
+      "32846158",
+      "32675410",
+      "32119913",
+      "31694155",
+      "31430179",
+      "31388135",
+      "30682370",
+      "30651783",
+      "30401788",
+      "29505961",
+      "29424691",
+      "29180859",
+      "29175000",
+      "28956334",
+      "28076807",
+      "27732797",
+      "27646265",
+      "27339393",
+      "27320918",
+      "26657753",
+      "26482651",
+      "24825614",
+      "24454947",
+      "24184653",
+      "23948935",
+      "23709025",
+      "23238576",
+      "23222672",
+      "23203878",
+      "22776546",
+      "22741044",
+      "22284362",
+      "21384413",
+      "21274962",
+      "21091654",
+      "20864809",
+      "20631411",
+      "20600853",
+      "20404172",
+      "20007729",
+      "19864144",
+      "19717576",
+      "19601822",
+      "19247303",
+      "18347351",
+      "18287551",
+      "16968949",
+      "16635808",
+      "16350889",
+      "15538396",
+      "12873709",
+      "10082824",
+      "9369498",
+      "2077688"
+    ],
+    "similar": [
+      "40558524",
+      "40475610",
+      "28956334",
+      "36073342",
+      "37572526",
+      "38132157",
+      "37862143",
+      "17696499",
+      "10906126",
+      "38014312",
+      "27646265",
+      "27339393",
+      "15538396",
+      "27544407",
+      "34887755",
+      "25159071",
+      "11121118",
+      "31303492",
+      "38657863",
+      "15800651",
+      "40216137",
+      "34029402",
+      "39321314",
+      "40616404",
+      "36444977",
+      "41457474",
+      "36310223",
+      "34102212",
+      "24184653",
+      "10725373",
+      "31941785",
+      "34321593",
+      "29511089",
+      "23576401",
+      "40515902",
+      "19641165",
+      "37805139",
+      "33139563",
+      "31911439",
+      "38446061",
+      "16079899",
+      "40646517",
+      "38997630",
+      "38547652",
+      "38526948",
+      "41363845",
+      "36524527",
+      "40484382",
+      "39342654",
+      "41272974",
+      "20404172",
+      "38356260",
+      "35883530",
+      "32824618",
+      "34984754",
+      "41009632",
+      "11134002",
+      "33971237",
+      "25125473",
+      "34179096",
+      "40792356",
+      "29526694",
+      "39947751",
+      "34156864",
+      "39194247",
+      "38322526",
+      "19689430",
+      "16330539",
+      "34522448",
+      "35929507",
+      "35142991",
+      "38245749",
+      "41000164",
+      "40112030",
+      "39833115",
+      "39987501",
+      "38855848",
+      "11502204",
+      "31237369",
+      "16204472",
+      "39884379",
+      "36350034",
+      "39460625",
+      "39705832",
+      "18312413",
+      "37496271",
+      "38898313",
+      "38847095",
+      "32312191",
+      "33744316",
+      "39566743",
+      "37961614",
+      "33076213",
+      "38982922",
+      "34233002",
+      "37032432",
+      "34206440",
+      "37735903",
+      "41064885",
+      "16549271"
+    ],
+    "review": [
+      "40558524",
+      "28956334",
+      "25159071",
+      "40616404",
+      "31911439",
+      "38547652",
+      "36524527",
+      "32824618",
+      "41009632",
+      "25125473",
+      "39947751",
+      "34522448",
+      "35142991",
+      "38245749",
+      "38855848",
+      "31237369",
+      "36350034",
+      "39705832",
+      "37496271",
+      "32312191",
+      "39566743",
+      "38982922",
+      "37032432",
+      "37735903"
+    ],
+    "pmc": [
+      "12190369"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells14120897",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/olderadulthealth.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Older Adult Health"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40558524/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

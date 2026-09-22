@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided.
+- **Assessment boundary** Scientific validity, methodological soundness, dataset curation rigor, model evaluation, and claims as presented in the provided text. No supplementary materials, figures, or tables were available for inspection beyond textual references.
+- **Shared manuscript claim summary** The authors claim to (1) construct the largest curated dataset of structure-based protein-protein binding affinities with pairwise interaction labels, and (2) introduce ProAffinity-GNN, a deep learning framework combining protein language model embeddings and graph neural networks, which outperforms existing methods in accuracy and generalization.
+- **Visible evidence base** Textual descriptions of dataset curation, graph construction, network architecture, training protocol, evaluation metrics, and reported results (R, MAE) from cross-validation, benchmark comparisons, and an external SKEMPI evaluation. Tables and figures are referenced but not provided.
+- **Missing materials affecting confidence** Actual data tables (Tables 1–3), figures (Figures 1–6), dataset details (e.g., PDB IDs, curation annotations), code availability, hyperparameter settings, and full benchmark results. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in structural bioinformatics: predicting protein-protein binding affinity from structure. The authors propose a curated dataset and a GNN-based model with protein language model embeddings. The motivation is clear, and the methodological framework is plausible. However, the evidence provided in the text is insufficient to substantiate the central claims of superiority and generalization. Key quantitative results are referenced but not shown, and several methodological details are ambiguous or missing. The dataset curation process, while described, lacks validation and reproducibility details. The claim of being the "first purely deep learning-based approach" is questionable given existing literature. Overall, the work has potential but is currently not established from the provided evidence.
+- **Who would be interested in the results, and why** Computational biologists, structural bioinformaticians, and researchers in protein engineering and drug discovery would be interested. The curated dataset could serve as a benchmark resource, and the model offers a potentially efficient alternative to physics-based affinity calculations. The integration of protein language models with GNNs is of methodological interest to the machine learning for biology community.
+- **Major strengths** (1) The problem is important and underexplored in terms of quantitative affinity prediction. (2) The dataset curation effort addresses a real bottleneck in the field. (3) The model design is conceptually sound, leveraging modern protein language models and graph representations. (4) The evaluation includes multiple benchmark sets and an external dataset, suggesting an attempt at rigorous assessment.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "ProAffinity-GNN not only outperforms existing models in terms of accuracy but also shows strong generalization capabilities."
+  - **Evidence pointer** Tables 1 and 2, location not provided
+  - **Concern** The central performance claims are made without presenting the actual numerical results. Tables 1 and 2 are referenced but not included in the provided text. Without these data, the reader cannot assess the magnitude of improvement, statistical significance, or whether the comparisons are fair (e.g., same train/test splits, same metrics).
+  - **Why it matters** The primary contribution of the paper is the claimed superior performance. If the evidence is not visible, the claim is unverifiable and the scientific case is not established.
+  - **Resolution test** Provide the full tables with all compared methods, including standard deviations, sample sizes, and statistical tests (e.g., paired t-tests or confidence intervals). Clearly state the evaluation protocol for each benchmark.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset validity
+  - **Claim pointer** "We have created a refined dataset with 2,285 unique protein-protein pairs with their binding affinity."
+  - **Evidence pointer** Section "Dataset creation", location not provided
+  - **Concern** The dataset curation process is described only at a high level. The manual labeling rules are stated, but there is no information on inter-annotator agreement, quality control, or how ambiguous cases were resolved. The exclusion of DNA/RNA complexes and the handling of multi-chain assemblies are mentioned, but the criteria for "minimum interaction unit" are not fully operationalized. The final dataset size (2,285) is stated, but the reduction from the original 2,852 is not fully explained (e.g., how many were excluded for each reason).
+  - **Why it matters** A curated dataset is a key deliverable. If the curation is not reproducible or validated, the dataset's utility as a benchmark is compromised, and any model trained on it may be biased.
+  - **Resolution test** Provide a detailed curation protocol, including annotation guidelines, examples of ambiguous cases, and a summary of exclusion reasons. Ideally, release the dataset with PDB IDs and interaction labels for public scrutiny. Report inter-annotator agreement if multiple annotators were used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** "ProAffinity-GNN... using protein language model and graph neural network (GNN) to improve the accuracy of prediction."
+  - **Evidence pointer** Sections "Graph construction" and "Network", location not provided
+  - **Concern** Several methodological details are underspecified. The graph construction uses distance cutoffs (3.5Å intra, 15Å inter), but the rationale for these specific values is not given. The edge features are described as shell-based counts, but the exact binning and feature dimensions are not fully specified. The network architecture mentions "multiple GNN layers" and "fully connected layers," but the number of layers, hidden dimensions, and activation functions are not fully detailed. The GRU equations are standard but their integration into the AttentiveFP framework is not fully explained.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without full architectural and hyperparameter details, other researchers cannot replicate or build upon the work.
+  - **Resolution test** Provide a complete specification of the model architecture, including layer counts, dimensions, dropout placement, and any normalization. Justify the choice of cutoffs and binning. Consider releasing code and trained models.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison fairness
+  - **Claim pointer** "ProAffinity-GNN... outperforms existing methods."
+  - **Evidence pointer** Section "Comparative analysis", location not provided
+  - **Concern** The comparison with existing methods (PRODIGY, PPI-Affinity) is mentioned, but the conditions of comparison are unclear. Were the same training and test splits used? Were the baseline methods retrained or used as pre-trained models? The text notes that the test set includes a homo-dimer, which is not in the training data, but the impact of this on performance is not discussed. The conversion from pK a to ΔG is described, but the effect on MAE comparison is not fully addressed.
+  - **Why it matters** Unfair or inconsistent comparisons can lead to misleading conclusions about model superiority.
+  - **Resolution test** Clearly describe the evaluation protocol for each baseline, including whether they were retrained, the exact data splits, and any preprocessing differences. Discuss the homo-dimer case explicitly and its potential effect on results.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty claim
+  - **Claim pointer** "To our best knowledge, this is the first purely deep learning-based approach for the structure-based prediction of protein-protein binding affinities."
+  - **Evidence pointer** Introduction, location not provided
+  - **Concern** This claim of novelty is strong and likely inaccurate. There are existing deep learning methods for protein-protein binding affinity prediction, such as those based on 3D-CNNs or graph networks (e.g., PPI-Affinity itself uses machine learning, and other GNN-based approaches exist in the literature). The authors do not provide a comprehensive literature review to support this claim.
+  - **Why it matters** Overclaiming novelty undermines the credibility of the work and may mislead readers about the state of the field.
+  - **Resolution test** Revise the claim to be more precise, e.g., "to our knowledge, the first to combine protein language model embeddings with GNNs for this task." Provide a thorough literature review in the introduction to contextualize the contribution.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "creating the largest dataset for structure-based pairwise protein interaction with binding affinity to date," but the basis for "largest" is not defined (e.g., number of complexes, number of unique protein pairs, coverage of interaction types).
+  - **Required correction** Specify the metric used for "largest" and provide a comparison with existing datasets (e.g., PDBbind, SKEMPI) in terms of size and scope.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data preparation
+  - **Evidence pointer** Section "Data preparation", location not provided
+  - **Issue** The conversion of affinity values to pK a is described, but the handling of different units (K d , K i , IC 50 ) and potential inconsistencies in experimental conditions are not discussed.
+  - **Required correction** Clarify whether all affinity values are treated as equivalent, and discuss any potential biases introduced by mixing different measurement types.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Cross-validation
+  - **Evidence pointer** Section "Performance through 5-Fold cross-validation", location not provided
+  - **Issue** The cross-validation results are reported as mean and standard deviation, but no confidence intervals or significance tests are provided for the comparison with PPI-Affinity.
+  - **Required correction** Add statistical significance testing (e.g., paired t-test across folds) or report confidence intervals to support the claim of improvement.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Network section
+  - **Evidence pointer** Section "Network", location not provided
+  - **Issue** The description of the AttentiveFP framework and its integration with GRU is dense and may be difficult for nonspecialist readers to follow.
+  - **Required correction** Provide a high-level summary of the architecture in plain language, possibly with a schematic figure, before diving into equations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Ablation study
+  - **Evidence pointer** Section "Ablation study", location not provided
+  - **Issue** The ablation study compares variants but does not report the number of parameters or computational cost for each variant, which is relevant for practical deployment.
+  - **Required correction** Include model size and inference time for the baseline and variants.
+- **Technical failings that need to be addressed before the case is established** (1) Missing numerical results for all benchmark comparisons (Tables 1–2). (2) Incomplete dataset curation details and lack of validation. (3) Insufficient architectural and hyperparameter specifications for reproducibility. (4) Unclear comparison protocol with baseline methods. (5) Overstated novelty claim without adequate literature support.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The combination of protein language model embeddings with GNNs for affinity prediction is a reasonable extension of existing work, but the approach is not fundamentally novel. The curated dataset is a potential contribution, but its uniqueness is not fully demonstrated.  
+  - **Scientific importance** High. Accurate binding affinity prediction is a significant challenge with broad implications for drug discovery and protein engineering. A reliable method and dataset would be valuable.  
+  - **Interdisciplinary readership** Moderate. The work bridges machine learning and structural biology, but the presentation is technical and may not be accessible to a broad biological audience without additional context.  
+  - **Technical soundness** Currently insufficient. The methodological framework is plausible, but the lack of visible results and incomplete details prevent a rigorous assessment.  
+  - **Readability for nonspecialists** Below the standard for a general journal. The methods section is dense, and the abstract overstates claims without supporting data.  
+  Overall, the manuscript does not currently meet the bar for a high-impact general journal like Nature, but it could be suitable for a specialized journal after substantial revision and evidence provision.
+- **Recommendation posture** Currently not established from the provided evidence. The core claims of performance and dataset utility cannot be verified without the missing tables, figures, and methodological details. I would be supportive if the authors provide full results, clarify the dataset curation, and temper the novelty claim.
+
+## Risk / unsupported claims
+- "ProAffinity-GNN not only outperforms existing models in terms of accuracy but also shows strong generalization capabilities" — unsupported without Tables 1–2.
+- "Creating the largest dataset for structure-based pairwise protein interaction with binding affinity to date" — unsupported without a comparative dataset analysis.
+- "This is the first purely deep learning-based approach for the structure-based prediction of protein-protein binding affinities" — likely inaccurate and unsupported by the provided literature review.
+- "ProAffinity-GNN has shown enhanced accuracy and extensive generalizability across diverse benchmark test sets" — unsupported without visible results.
+- The ablation study conclusions ("Solely employing GAT layers... results in a performance decline") are unverifiable without Table 3 and Figure 6.

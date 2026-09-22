@@ -1,0 +1,228 @@
+{
+  "identity": {
+    "pmid": "42396211",
+    "doi": "",
+    "title": "Droplet Fusion as a Relaxation Process: Comparison with Shape Recovery of Newtonian and Viscoelastic Droplets."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates formed by phase separation inside cells often exhibit viscoelastic behavior, yet their shape recovery and fusion dynamics are frequently interpreted using purely viscous models. Here, we develop a unified theoretical and computational framework to quantify how viscoelasticity governs these two fundamental processes. We combine analytical theory for small-deformation shape recovery with axisymmetric finite-element simulations based on the Oldroyd-B constitutive model to systematically investigate both shape recovery and droplet fusion under comparable physical conditions. Our results show that, although both processes are driven by capillary forces, they are fundamentally distinct in their underlying physics. Shape recovery is governed by global viscocapillary relaxation of a single connected interface and follows single- or multi-exponential decay depending on the relative magnitude of the viscocapillary timescale and the stress relaxation time. In contrast, droplet fusion is intrinsically a multistage process involving localized curvature-driven neck formation, rapid bridge expansion, and a transition to global relaxation. We demonstrate that viscoelasticity introduces an additional intrinsic timescale that governs the competition between capillary driving and stress relaxation, characterized by the Deborah number. This leads to enhanced intermediate-stage fusion dynamics and modified relaxation behavior compared to Newtonian droplets. Furthermore, we show that the presence of an exterior fluid with finite viscosity introduces additional hydrodynamic dissipation through two-phase coupling, significantly slowing the fusion process. Finally, we compared the computationally predicted droplet fusion in the Newtonian and viscoelastic cases with a stretched-exponential empirical formula. Deviations observed in viscoelastic regimes highlight the limitations of purely viscous descriptions and the need for models incorporating stress relaxation and memory effects.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Naderi, Mohammad Moein",
+        "Peng, Zhangli",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "Naderi MM",
+        "Peng Z",
+        "Zhou HX"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, USA.",
+        "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, USA.",
+        "Center for Bioinformatics and Quantitative Biology (CBQB), University of Illinois Chicago, Chicago, IL 60612, USA.",
+        "Center for Bioinformatics and Quantitative Biology (CBQB), University of Illinois Chicago, Chicago, IL 60612, USA.",
+        "Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA.",
+        "Department of Physics, University of Illinois Chicago, Chicago, IL 60607, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Naderi, Mohammad Moein",
+        "short_name": "Naderi MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Peng, Zhangli",
+        "short_name": "Peng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, USA.",
+          "Center for Bioinformatics and Quantitative Biology (CBQB), University of Illinois Chicago, Chicago, IL 60612, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Bioinformatics and Quantitative Biology (CBQB), University of Illinois Chicago, Chicago, IL 60612, USA.",
+          "Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA.",
+          "Department of Physics, University of Illinois Chicago, Chicago, IL 60607, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ArXiv"
+    ],
+    "journal_abbrev": [
+      "ArXiv"
+    ],
+    "pub_date": "2026 Jun 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/03 06:31",
+    "fetched_at": "2026-09-18 04:37:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37288322",
+      "36557430",
+      "33510441",
+      "33303613",
+      "33303604",
+      "33235917",
+      "32857503",
+      "32632317",
+      "31995729",
+      "31444270",
+      "30449618",
+      "29930091",
+      "29258725",
+      "26406374",
+      "26317470",
+      "24176641",
+      "19460965"
+    ],
+    "similar": [
+      "42396211",
+      "42596545",
+      "42475469",
+      "34654286",
+      "42030154",
+      "25215849",
+      "34645832",
+      "23912807",
+      "41059952",
+      "36763387",
+      "23410434",
+      "26130967",
+      "42678206",
+      "42025986",
+      "37158200",
+      "28745766",
+      "41930743",
+      "41670285",
+      "31386512",
+      "42106386",
+      "17115793",
+      "23380996",
+      "41527931",
+      "26794502",
+      "35344881",
+      "32621160",
+      "26232814",
+      "26810396",
+      "36030049",
+      "15571660",
+      "31675049",
+      "41899843",
+      "37631494",
+      "35632006",
+      "25378894",
+      "27414249",
+      "35030836",
+      "35457884",
+      "38855576",
+      "36372152",
+      "30511773",
+      "40935304",
+      "28950172",
+      "37820604",
+      "41279444",
+      "33690767",
+      "24994710",
+      "35124354",
+      "39365107",
+      "42322735",
+      "18517513",
+      "41799151",
+      "40894760",
+      "25591049",
+      "32722371",
+      "36680958",
+      "41307006",
+      "40430689",
+      "15607877",
+      "23004770",
+      "38157727",
+      "35892063",
+      "18345850",
+      "38265427",
+      "17328629",
+      "35030885",
+      "29288084",
+      "39225536",
+      "32549922",
+      "25768597",
+      "25353893",
+      "41340374",
+      "25818160",
+      "36053000",
+      "32083258",
+      "12366112",
+      "16813454",
+      "29249336",
+      "28332667",
+      "35630196",
+      "26050200",
+      "26163369",
+      "22106263",
+      "39441635",
+      "35502790",
+      "40846493",
+      "23679512",
+      "42206969",
+      "35169151",
+      "37196085",
+      "19366587",
+      "33546484",
+      "42301115",
+      "38976113",
+      "29347502",
+      "32168660",
+      "17500912",
+      "41315651",
+      "37129690",
+      "15015115"
+    ],
+    "review": [
+      "42396211",
+      "24994710"
+    ],
+    "pmc": [
+      "13321329"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42396211/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

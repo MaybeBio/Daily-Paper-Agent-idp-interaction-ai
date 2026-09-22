@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.06.506782",
+  "title": "Phase separation-based visualization of protein-protein interactions and kinase activities in plants",
+  "authors": "Safi A; Smagghe W; Gonçalves A; Xu K; Fernandez AI; Cappe B; Riquet FB; Mylle E; Van Damme D; Geelen D; Jaeger GD; Beeckman T; Leene JV; Vanneste S",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-08",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用基于相分离的SYMPL载体系统在植物体内可视化蛋白互作和激酶活性，虽以相分离为工具而非研究对象，且无AI/物理模拟方法，但涉及PPI检测和相分离机制，对本课题有间接参考价值。",
+  "abstract": "Protein activities depend heavily on protein complex formation and dynamic post-translational modifications, such as phosphorylation. Their dynamic nature is notoriously difficult to monitor in planta at cellular resolution, often requiring extensive optimization and high-end microscopy. Here, we generated and exploited the SYnthetic Multivalency in PLants (SYMPL)-vector set to study protein-protein interactions (PPIs) and kinase activities in planta based on phase separation. This technology enabled easy detection of inducible, binary and ternary protein-protein interactions among cytoplasmic, nuclear and plasma membrane proteins in plant cells via a robust image-based readout. Moreover, we applied the SYMPL toolbox to develop an in vivo reporter for SnRK1 kinase activity, allowing us to visualize tissue-specific, dynamic SnRK1 activation upon energy deprivation in stable transgenic Arabidopsis plants. The applications of the SYMPL cloning toolbox lay the foundation for the exploration of PPIs, phosphorylation and other post-translational modifications with unprecedented ease and sensitivity.",
+  "abstract_zh": "蛋白质活性高度依赖于蛋白质复合物的形成及动态翻译后修饰，如磷酸化。这些动态过程在植物体内以细胞分辨率进行监测极为困难，通常需要大量优化和高端显微镜技术。在此，我们生成并利用了植物合成多价性（SYMPL）载体集，基于相分离（phase separation）在植物体内研究蛋白质-蛋白质相互作用（PPIs）和激酶活性。该技术通过稳健的基于图像的读数，能够轻松检测植物细胞中细胞质、核及质膜蛋白间的诱导性、二元及三元蛋白质-蛋白质相互作用。此外，我们应用SYMPL工具箱开发了一种SnRK1激酶活性的体内报告系统，使我们能够在稳定转基因拟南芥植株中，可视化能量匮乏时组织特异性的动态SnRK1激活。SYMPL克隆工具箱的应用为以空前简便性和灵敏度探索PPIs、磷酸化及其他翻译后修饰奠定了基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.06.506782",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.06.506782",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.06.506782/index.html"
+}

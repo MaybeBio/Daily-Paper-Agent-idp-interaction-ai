@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39384813",
+  "title": "Disordered regions of human eIF4B orchestrate a dynamic self-association landscape.",
+  "authors": "Swain, Bikash Chandra; Sarkis, Pascale; Ung, Vanessa; Rousseau, Sabrina; Fernandez, Laurent; Meltonyan, Ani; Aho, V Esperance; Mercadante, Davide; Mackereth, Cameron D; Aznauryan, Mikayel",
+  "journal": "Nature communications",
+  "published_date": "2024-10-10",
+  "window": {
+    "start": "2024-10-07",
+    "end": "2024-10-13"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究整合单分子光谱与分子模拟，揭示eIF4B无序区域通过动态寡聚化到相分离的自组装机制，直接聚焦IDR介导的互作与凝聚体形成，方法上以物理模拟为核心，高度契合本课题。",
+  "abstract": "Eukaryotic translation initiation factor eIF4B is required for efficient cap-dependent translation, it is overexpressed in cancer cells, and may influence stress granule formation. Due to the high degree of intrinsic disorder, eIF4B is rarely observed in cryo-EM structures of translation complexes and only ever by its single structured RNA recognition motif domain, leaving the molecular details of its large intrinsically disordered region (IDR) unknown. By integrating experiments and simulations we demonstrate that eIF4B IDR orchestrates and fine-tunes an intricate transition from monomers to a condensed phase, in which large-size dynamic oligomers form before mesoscopic phase separation. Single-molecule spectroscopy combined with molecular simulations enabled us to characterize the conformational ensembles and underlying intra- and intermolecular dynamics across the oligomerization transition. The observed sensitivity to ionic strength and molecular crowding in the self-association landscape suggests potential regulation of eIF4B nanoscopic and mesoscopic behaviors such as driven by protein modifications, binding partners or changes to the cellular environment.",
+  "abstract_zh": "真核翻译起始因子eIF4B对于高效的帽依赖性翻译是必需的，它在癌细胞中过表达，并可能影响应激颗粒的形成。由于高度内在无序性，eIF4B在翻译复合物的冷冻电镜结构中很少被观察到，且仅通过其单一的结构化RNA识别基序结构域被识别，这使其大段内在无序区域（IDR）的分子细节未知。通过整合实验和模拟，我们证明eIF4B IDR协调并微调了从单体到凝聚相的复杂转变，在此过程中，大型动态寡聚体在介观相分离之前形成。单分子光谱结合分子模拟使我们能够表征寡聚化转变过程中的构象集合以及潜在的分子内和分子间动力学。在自组装景观中对离子强度和分子拥挤的观察到的敏感性表明，eIF4B纳米尺度和介观行为可能受到蛋白质修饰、结合伙伴或细胞环境变化的调节。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39384813/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39384813/",
+  "paper_page_path": "papers/pubmed/39384813/index.html"
+}

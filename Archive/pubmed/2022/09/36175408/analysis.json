@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36175408",
+  "title": "Protein structural transitions critically transform the network connectivity and viscoelasticity of RNA-binding protein condensates but RNA can prevent it.",
+  "authors": "Tejedor, Andres R; Sanchez-Burgos, Ignacio; Estevez-Espinosa, Maria; Garaizar, Adiran; Collepardo-Guevara, Rosana; Ramirez, Jorge; Espinosa, Jorge R",
+  "journal": "Nature communications",
+  "published_date": "2022-09-30",
+  "window": {
+    "start": "2022-09-26",
+    "end": "2022-10-02"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过多尺度模拟（原子模拟+序列依赖粗粒化）研究RNA结合蛋白FUS/hnRNPA1凝聚体中链间β-折叠累积如何改变网络连接性与黏弹性并驱动液-固转变，且RNA可延缓该过程，直接聚焦IDP凝聚体PPI网络机制建模，与课题高度契合。",
+  "abstract": "Biomolecular condensates, some of which are liquid-like during health, can age over time becoming gel-like pathological systems. One potential source of loss of liquid-like properties during ageing of RNA-binding protein condensates is the progressive formation of inter-protein beta-sheets. To bridge microscopic understanding between accumulation of inter-protein beta-sheets over time and the modulation of FUS and hnRNPA1 condensate viscoelasticity, we develop a multiscale simulation approach. Our method integrates atomistic simulations with sequence-dependent coarse-grained modelling of condensates that exhibit accumulation of inter-protein beta-sheets over time. We reveal that inter-protein beta-sheets notably increase condensate viscosity but does not transform the phase diagrams. Strikingly, the network of molecular connections within condensates is drastically altered, culminating in gelation when the network of strong beta-sheets fully percolates. However, high concentrations of RNA decelerate the emergence of inter-protein beta-sheets. Our study uncovers molecular and kinetic factors explaining how the accumulation of inter-protein beta-sheets can trigger liquid-to-solid transitions in condensates, and suggests a potential mechanism to slow such transitions down.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates），其中一些在健康状态下呈液态，会随时间老化，转变为凝胶状的病理系统。RNA结合蛋白凝聚体老化过程中失去液态特性的一个潜在来源是蛋白质间β-折叠（inter-protein beta-sheets）的逐步形成。为了在微观层面桥接蛋白质间β-折叠随时间积累与FUS和hnRNPA1凝聚体粘弹性调节之间的理解，我们开发了一种多尺度模拟方法。我们的方法将原子级模拟与序列依赖的粗粒化建模相结合，用于模拟随时间积累蛋白质间β-折叠的凝聚体。我们揭示，蛋白质间β-折叠显著增加凝聚体粘度，但并未改变相图。引人注目的是，凝聚体内分子连接网络发生剧烈改变，当强β-折叠网络完全渗透时，最终导致凝胶化。然而，高浓度RNA减缓了蛋白质间β-折叠的出现。我们的研究揭示了分子和动力学因素，解释了蛋白质间β-折叠的积累如何触发凝聚体中的液-固转变，并提出了一种减缓此类转变的潜在机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36175408/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36175408/",
+  "paper_page_path": "papers/pubmed/36175408/index.html"
+}

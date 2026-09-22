@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "40098319",
+    "doi": "10.1021/acsmacrolett.4c00821",
+    "title": "Impact of Coiled-Coil Domains on the Phase Behavior of Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "Spatial organization is fundamental to cells, with biomolecular condensates as a key subset. Many studies show that folded domains play important roles in condensate formation by facilitating interactions. However, little is known about how the geometry and structure of folded domains impact condensate formation. Using coarse-grained simulations, we investigated a model system of two multivalent proteins, one containing a coiled-coil domain (CCD), which undergoes liquid-liquid phase separation (LLPS). We found that CCDs promote LLPS by preventing loop-closure defects, enabling protein networking. Replacing the CCD with a flexible linker abolishes LLPS due to formation of oligomeric clusters. There is a critical length of the CCD where the system rapidly changes from no LLPS to LLPS at low concentrations. This highlights their potential in regulating condensate formation and properties. This study provides insights into the phase behavior of biomolecular condensates and offers a framework for designing synthetic condensates with tunable phase behaviors.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biomolecular Condensates/chemistry",
+      "Phase Transition",
+      "Protein Domains",
+      "*Proteins/chemistry",
+      "Protein Folding"
+    ],
+    "pub_types": [
+      "Letter",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Zhouyi",
+        "Sommer, Jens-Uwe",
+        "Harmon, Tyler S"
+      ],
+      "short_names": [
+        "He Z",
+        "Sommer JU",
+        "Harmon TS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9604-294X",
+        "ORCID: 0000-0001-8239-3570",
+        "ORCID: 0000-0002-2822-540X"
+      ],
+      "affiliations": [
+        "Leibniz-Institut fur Polymerforschung, Institut Theorie der Polymer, 01069, Dresden, Germany.",
+        "Institut fur Theoretische Physik, Technische Universitat Dresden, Zellescher Weg 17, 01062 Dresden, Germany.",
+        "Leibniz-Institut fur Polymerforschung, Institut Theorie der Polymer, 01069, Dresden, Germany.",
+        "Institut fur Theoretische Physik, Technische Universitat Dresden, Zellescher Weg 17, 01062 Dresden, Germany.",
+        "Leibniz-Institut fur Polymerforschung, Institut Theorie der Polymer, 01069, Dresden, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Zhouyi",
+        "short_name": "He Z",
+        "identifiers": [
+          "0000-0001-9604-294X"
+        ],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung, Institut Theorie der Polymer, 01069, Dresden, Germany.",
+          "Institut für Theoretische Physik, Technische Universität Dresden, Zellescher Weg 17, 01062 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Sommer, Jens-Uwe",
+        "short_name": "Sommer JU",
+        "identifiers": [
+          "0000-0001-8239-3570"
+        ],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung, Institut Theorie der Polymer, 01069, Dresden, Germany.",
+          "Institut für Theoretische Physik, Technische Universität Dresden, Zellescher Weg 17, 01062 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Harmon, Tyler S",
+        "short_name": "Harmon TS",
+        "identifiers": [
+          "0000-0002-2822-540X"
+        ],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung, Institut Theorie der Polymer, 01069, Dresden, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS macro letters"
+    ],
+    "journal_abbrev": [
+      "ACS Macro Lett"
+    ],
+    "pub_date": "2025 Apr 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Letter",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/18 06:22",
+    "fetched_at": "2026-09-21 16:45:24"
+  },
+  "links": {
+    "cites": [
+      "42608397",
+      "42283388",
+      "40894760",
+      "40817404"
+    ],
+    "refs": [],
+    "similar": [
+      "40098319",
+      "42126444",
+      "41272974",
+      "41480717",
+      "41535729",
+      "40748104",
+      "40664121",
+      "40172489",
+      "39937084",
+      "40463193",
+      "33672806",
+      "37735903",
+      "39804953",
+      "38042897",
+      "40616404",
+      "39964249",
+      "40954121",
+      "41206632",
+      "39827079",
+      "40164149",
+      "38526948",
+      "29511089",
+      "41721403",
+      "33139563",
+      "41575805",
+      "39116032",
+      "41268679",
+      "39987501",
+      "40791163",
+      "39476948",
+      "41118627",
+      "34129784",
+      "34784177",
+      "40867025",
+      "36883003",
+      "35293386",
+      "34029402",
+      "40291420",
+      "34767801",
+      "38885177",
+      "41360394",
+      "38356260",
+      "40962203",
+      "37470705",
+      "37293933",
+      "34916288",
+      "36657879",
+      "39947751",
+      "35108264",
+      "41307542",
+      "32482873",
+      "32881044",
+      "39568893",
+      "38722189",
+      "41673459",
+      "34236318",
+      "38251748",
+      "36004748",
+      "40985078",
+      "39976773",
+      "38446881",
+      "35881789",
+      "40849651",
+      "37668016",
+      "33076213",
+      "40766493",
+      "41979049",
+      "38999934",
+      "40439464",
+      "34090478",
+      "38593269",
+      "34772789",
+      "37398035",
+      "34762868",
+      "40550186",
+      "40515902",
+      "41524628",
+      "39482532",
+      "35918061",
+      "41933903",
+      "42002974",
+      "41346115",
+      "37194953",
+      "40848932",
+      "41648378",
+      "38175843",
+      "39271032",
+      "37252985",
+      "39257779",
+      "39541973",
+      "41457474",
+      "35802394",
+      "34624295",
+      "33583140",
+      "41187075",
+      "40184654",
+      "40531332",
+      "29517898",
+      "39460625",
+      "37343188"
+    ],
+    "review": [
+      "40098319",
+      "41480717",
+      "40664121",
+      "40172489",
+      "37735903",
+      "40616404",
+      "39964249",
+      "41206632",
+      "39827079",
+      "41721403",
+      "41575805",
+      "34129784",
+      "34767801",
+      "38885177",
+      "40962203",
+      "39947751",
+      "41307542",
+      "32881044",
+      "39976773",
+      "40849651",
+      "41979049",
+      "34772789",
+      "40550186",
+      "39482532",
+      "41346115",
+      "38175843",
+      "39271032",
+      "35802394"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/amlccd/article-lookup/doi/10.1021/acsmacrolett.4c00821",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

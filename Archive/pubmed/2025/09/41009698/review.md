@@ -1,0 +1,117 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, conclusions)
+- **Assessment boundary** Scientific content, methodological soundness, structural claims, and interpretative validity as presented in the provided text
+- **Shared manuscript claim summary** The authors map all TP53 mutations from COSMIC onto experimentally determined and AlphaFold-predicted structures, classify mutations by structural context, and use multiple prediction tools to infer destabilisation and pathogenicity, linking these to chemoresistance mechanisms.
+- **Visible evidence base** Abstract, Introduction, Results, Discussion, Materials and Methods, Conclusions; references to Supplementary Figures S1, S2 and Supplementary Tables S1, S2; PDB IDs 8DC8, 8R1G, 2ATA, 7EEU, 3D09; Table 1 (referenced but not shown)
+- **Missing materials affecting confidence** Table 1 contents, Supplementary Figures S1 and S2, Supplementary Tables S1 and S2, PDB validation metrics, raw prediction scores, statistical analyses, and methodological details for distance thresholds and residue classification
+
+## Reviewer
+- **Overall assessment** The manuscript presents a large-scale structural annotation of TP53 mutations with potential utility as a reference resource. However, the current text contains substantial gaps in reporting, including missing tables and supplementary data, incomplete methodological detail, and several claims that outpace the evidence shown. The central link to chemoresistance is asserted rather than demonstrated. The work is descriptive and may be of interest to the TP53 community, but the case for mechanistic insight or therapeutic guidance is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying TP53 biology, structural biologists working on tumour suppressor proteins, and computational oncologists interested in variant effect prediction. Clinicians or translational scientists seeking to interpret TP53 mutations in treatment contexts may also find the structural mapping useful as a reference, though the direct chemoresistance link is not substantiated.
+- **Major strengths** The systematic coverage of all COSMIC TP53 mutations across multiple structural contexts is a useful integrative effort. The combination of experimental and AlphaFold structures to achieve full sequence coverage is pragmatic. The use of multiple complementary prediction tools and the attempt to harmonise sign conventions across methods is methodologically thoughtful. The identification of a consensus set of highly destabilising mutations across all three structural contexts provides a concrete, testable output.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that mutations such as R249S, G245S, R175H, Y220C, R273C, and R248Q have specific structural and functional consequences, including stabilisation, disruption of zinc coordination, cavity formation, and reduced DNA-binding affinity.
+  - **Evidence pointer** Results section, Table 1 (referenced but not provided), PDB IDs 7EEU, 3D09, 8DC8
+  - **Concern** The detailed structural interpretations for individual mutations are presented without showing the supporting data. Table 1, which presumably contains the comparative analysis, is not included in the provided material. No structural alignments, interaction maps, or quantitative measures are shown to substantiate claims such as "R249S appears to stabilise its surrounding region" or "Y220C generates a unique surface cavity." The reader cannot verify these assertions.
+  - **Why it matters** The central value of the manuscript lies in its mutation-specific structural interpretations. Without the underlying data, these claims are unverifiable and the scientific case is not established.
+  - **Resolution test** Provide Table 1 and any associated structural figures. Show quantitative measures (e.g., ΔΔG values, RMSD comparisons, contact maps) for each discussed mutation. For qualitative claims such as stabilisation or cavity formation, provide explicit structural evidence or cite prior experimental validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The methods state that mutations were mapped using "multiple distance thresholds" and that residues were classified as core, interface, or non-interface based on SASA cutoffs of 25 and 80 Å².
+  - **Evidence pointer** Materials and Methods, Solvent Accessibility and Residue Classification
+  - **Concern** The SASA cutoffs are presented without justification or citation. The term "interface residues" is used ambiguously, as SASA alone cannot distinguish protein–protein interfaces from protein–DNA interfaces or other surface features. The "multiple distance thresholds" are not specified. The classification scheme appears to conflate solvent exposure with interface membership, which is not methodologically sound.
+  - **Why it matters** The structural context classification is the foundation of the entire analysis. If the classification criteria are arbitrary or misapplied, all downstream distributions and interpretations are compromised.
+  - **Resolution test** Justify the SASA cutoffs with citations or calibration data. Define what constitutes an interface residue and how interfaces were identified (e.g., via PISA, literature curation, or distance to partner chains). Specify the distance thresholds used and how they were applied.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The abstract and introduction state that TP53 mutations are "strongly associated with chemoresistance" and that the structural analysis provides "mechanistic insights into how alterations in p53 compromise its tumour-suppressive functions and contribute to chemoresistance."
+  - **Evidence pointer** Abstract, Introduction, Discussion
+  - **Concern** The manuscript does not present any functional, clinical, or experimental data linking the identified structural effects to chemoresistance. The discussion mentions cisplatin and doxorubicin and apoptosis-related genes, but no data are shown connecting specific mutations to drug response. The chemoresistance framing appears to be an extrapolation from prior literature rather than a finding of this study.
+  - **Why it matters** The title and framing promise a structural approach to understanding chemoresistance. If the study does not test or demonstrate this link, the claim is overstated and the manuscript does not deliver on its stated purpose.
+  - **Resolution test** Either add data connecting structural classifications to chemoresistance outcomes (e.g., correlation with drug sensitivity datasets, clinical response data) or revise the title, abstract, and discussion to accurately reflect that the study is a structural annotation without direct chemoresistance evidence.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretative validity
+  - **Claim pointer** The manuscript states that "complete agreement among the three structure-based prediction methods was observed for a subset of mutations" and that "there was 100% agreement between the sequence-based method and all three structure-based tools for the 82 mutations classified as highly destabilising."
+  - **Evidence pointer** Results, Figure 4 (referenced but not provided)
+  - **Concern** The agreement statistics are presented without the underlying contingency data. It is unclear whether agreement is measured on a continuous scale, a categorical scale, or a binary classification. The statement "100% agreement" for 82 mutations is strong and requires clear definition of what constitutes agreement. Additionally, the relationship between the three structural contexts and the sequence-based method is not explained.
+  - **Why it matters** The consensus predictions are a key output of the study. Without a clear definition of agreement and the underlying data, the robustness of this finding cannot be assessed.
+  - **Resolution test** Provide the full agreement matrix, define the criteria for agreement, and show the distribution of predictions across all mutations, not just the consensus subset.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of reporting
+  - **Claim pointer** The results describe four frequency-based categories of TP53 variants, but the text cuts off mid-sentence: "Based on mutation frequency, TP53 variants are categorised into four groups" followed by descriptions of "nine mutations," "66 mutations," "62 mutations," and "170 mutations" without naming the categories or explaining the criteria.
+  - **Evidence pointer** Results section, final paragraphs
+  - **Concern** The categorisation is incomplete and the criteria are not stated. The reader cannot determine what defines each group or how the cutoffs were chosen. This appears to be a structural error in the manuscript where content is missing.
+  - **Why it matters** The frequency-based categorisation is presented as a result, but without definition or completeness, it is not interpretable.
+  - **Resolution test** Complete the categorisation with explicit criteria, group names, and a summary table or figure.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that mutations were "evaluated using complementary sequence- and structure-based predictive tools" but does not name the tools or the number of mutations analysed.
+  - **Required correction** Briefly name the tools and provide the total number of mutations analysed in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results, PDB ID 8DC8 description
+  - **Evidence pointer** Results section
+  - **Issue** The text refers to "R50 ligand" without explaining what this ligand is. It is unclear whether this is a small molecule, a peptide, or a solvent component.
+  - **Required correction** Identify the ligand or remove the reference if it is not relevant to the analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results, mutation counts
+  - **Evidence pointer** Results section
+  - **Issue** The text reports 988 mutations in PDB 8DC8, 1045 in PDB 7EEU, and 1060 in PDB 8R1G, but the total number of unique mutations is stated as 1472. The relationship between these numbers is not explained.
+  - **Required correction** Clarify whether these are overlapping sets and how the counts relate to the total.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Discussion, predictive tool comparison
+  - **Evidence pointer** Discussion section
+  - **Issue** The statement "strong concordance for core and ligand-binding mutations" is vague without quantitative correlation coefficients or agreement rates.
+  - **Required correction** Provide quantitative measures of concordance or state the proportion of mutations with consistent predictions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion, final paragraphs
+  - **Evidence pointer** Discussion section
+  - **Issue** The final paragraphs contain run-on sentences and incomplete bullet points, making the text difficult to follow.
+  - **Required correction** Rewrite for clarity and complete the bulleted list with full sentences.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The methods do not specify the version of COSMIC used beyond "v102," the date of data retrieval, or the criteria for including or excluding mutations.
+  - **Required correction** Add data retrieval dates and inclusion criteria.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Figure referencing
+  - **Affected element** Results
+  - **Evidence pointer** Results section
+  - **Issue** Figure 1A is referenced in the Introduction but not described in the Results. Figure 2 and Figure 3 are referenced with subpanels but the figures themselves are not provided.
+  - **Required correction** Ensure all figures are described in the text and that subpanel references match the figure contents.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing Table 1 and structural evidence), R1-M2 (unjustified classification scheme), R1-M3 (unsupported chemoresistance link), R1-M4 (undefined agreement criteria), R1-M5 (incomplete categorisation)
+- **Assessment against Nature-style criteria** Originality: The integrative mapping of all COSMIC TP53 mutations onto structural contexts is a useful contribution, though similar structural annotation efforts exist for TP53. Scientific importance: The potential resource value is real, but the mechanistic claims are not supported by the data shown. Interdisciplinary readership: The work bridges structural biology and oncology, but the chemoresistance framing is not delivered. Technical soundness: The methodology has gaps in classification criteria and agreement definitions that undermine confidence. Readability for nonspecialists: The text is generally accessible but contains incomplete sections and undefined terms that hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential as a descriptive structural resource, but the missing data, methodological ambiguities, and overstated chemoresistance claims must be addressed before the scientific case can be evaluated.
+
+## Risk / unsupported claims
+- The claim that specific mutations (R249S, G245S, R175H, Y220C, R273C, R248Q) have particular structural and functional consequences is unsupported because Table 1 and associated structural data are not provided.
+- The claim that the study provides "mechanistic insights" into chemoresistance is unsupported; no functional or clinical data linking structural effects to drug response are presented.
+- The claim of "100% agreement" between prediction methods for 82 mutations is unverifiable without the agreement criteria and underlying data.
+- The frequency-based categorisation of TP53 variants into four groups is incomplete and the criteria are not stated.
+- The statement that AlphaFold models "closely align" with experimental structures is supported only by a single RMSD value for one domain, which is insufficient to establish overall model reliability.

@@ -1,0 +1,200 @@
+{
+  "identity": {
+    "pmid": "35298807",
+    "doi": "10.1007/978-1-0716-1855-4_2",
+    "title": "Tools for Characterizing Proteins: Circular Variance, Mutual Proximity, Chameleon Sequences, and Subsequence Propensities."
+  },
+  "content": {
+    "abstract": "For the characterization of various aspects of protein structures, four useful concepts are discussed: chameleon sequences, circular variance, mutual proximity, and a subsequence-based foldability score. These concepts were used in estimating foldability of globular, intrinsically disordered and fold-switching proteins, properties of protein-protein interfaces, quantifying sphericity, helping to improve protein-protein docking scores, and estimating the effect of mutations on stability. A conjecture about the Achilles' heel of proteins is presented as well.",
+    "keywords": [
+      "Amino acid propensity",
+      "Chameleon sequence",
+      "Circular variance",
+      "Foldability score",
+      "Mutual proximity"
+    ],
+    "mesh_terms": [
+      "*Proteins/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mezei, Mihaly"
+      ],
+      "short_names": [
+        "Mezei M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA. Mihaly.Mezei@mssm.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mezei, Mihaly",
+        "short_name": "Mezei M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, USA. Mihaly.Mezei@mssm.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/18 06:00",
+    "fetched_at": "2026-09-20 08:54:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "32415863",
+      "31479556",
+      "29784778",
+      "27899601",
+      "26702193",
+      "20740566",
+      "20645648",
+      "17956630",
+      "15980490",
+      "15215358",
+      "10592235",
+      "8208723",
+      "4023714"
+    ],
+    "similar": [
+      "35298807",
+      "32729941",
+      "31479556",
+      "21468433",
+      "26920059",
+      "35532457",
+      "27001160",
+      "15313629",
+      "9283292",
+      "19323540",
+      "27885528",
+      "23526551",
+      "21432934",
+      "20866647",
+      "19759809",
+      "20875082",
+      "24635049",
+      "26517836",
+      "33267368",
+      "19937649",
+      "17206849",
+      "28097742",
+      "33225697",
+      "17299764",
+      "15267515",
+      "32828465",
+      "26727467",
+      "9930663",
+      "10336377",
+      "20007729",
+      "34654294",
+      "8614471",
+      "29228340",
+      "16487481",
+      "9565752",
+      "25345468",
+      "10064693",
+      "25244701",
+      "31456307",
+      "27111521",
+      "15376949",
+      "31623284",
+      "16967317",
+      "24146608",
+      "31683980",
+      "15158717",
+      "29341251",
+      "23716641",
+      "24037790",
+      "25970262",
+      "19468045",
+      "16964979",
+      "10048320",
+      "21676898",
+      "18398853",
+      "32568687",
+      "15849755",
+      "22821527",
+      "32771522",
+      "22857400",
+      "30558718",
+      "22978315",
+      "27284086",
+      "21850362",
+      "8909296",
+      "11727705",
+      "11928510",
+      "25099351",
+      "34948202",
+      "28914483",
+      "23214731",
+      "22279560",
+      "27862307",
+      "21268115",
+      "23867606",
+      "25287424",
+      "22155233",
+      "19646926",
+      "11093259",
+      "20129805",
+      "27936491",
+      "22174270",
+      "7952898",
+      "26138206",
+      "15476208",
+      "34369007",
+      "31362700",
+      "33687216",
+      "20969427",
+      "31933010",
+      "21158416",
+      "29042212",
+      "30443712",
+      "27601214",
+      "37613189"
+    ],
+    "review": [
+      "35298807",
+      "20007729",
+      "31456307",
+      "25970262",
+      "32568687",
+      "21850362",
+      "11727705"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-1855-4_2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

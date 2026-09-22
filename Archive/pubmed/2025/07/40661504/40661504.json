@@ -1,0 +1,220 @@
+{
+  "identity": {
+    "pmid": "40661504",
+    "doi": "10.1101/2025.06.09.658693",
+    "title": "Controlling Multicomponent Condensate Morphology via Additive-Modulated Interactions."
+  },
+  "content": {
+    "abstract": "The morphology of biomolecular condensates plays a critical role in regulating intracellular organization and function by enabling both spatial and temporal control over biochemical processes. Recent studies have shown that small-molecule cosolutes can not only modulate phase separation but also influence condensate morphology. However, the mechanistic understanding of how small molecules regulate condensate structure remains limited. In this study, we employ coarse-grained molecular dynamics simulations to investigate how the morphology of two-component condensates can be modulated through the introduction of additional small-molecule cosolutes. By systematically varying the interaction strengths between the small molecules and the macromolecular components, we observe morphological transitions between, e.g., core-shell and dewetted structures. To rationalize these transitions, we calculate second virial coefficients in the presence of the small molecules, providing a molecular-level framework to capture shifts in effective homotypic and heterotypic interactions. We further investigate the role of stoichiometry between the small molecules and macromolecules, demonstrating that stoichiometry and interaction strength jointly determine the condensate morphology by altering the relative interaction strengths among components. Additionally, we show that fully miscible two-component condensates can undergo transitions to microphase-separated morphologies, such as core-shell or dewetted, upon small molecule introduction. Together, these findings reveal that condensate morphology can be rationally tuned through interaction- and stoichiometry-dependent mechanisms, offering molecular-scale insights into how small-molecule cosolutes modulate condensate structure.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jiahui",
+        "Nikoubashman, Arash",
+        "Kim, Young C",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Wang J",
+        "Nikoubashman A",
+        "Kim YC",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0563-825X",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jiahui",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Nikoubashman, Arash",
+        "short_name": "Nikoubashman A",
+        "identifiers": [
+          "0000-0003-0563-825X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jun 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/15 06:27",
+    "fetched_at": "2026-09-21 21:02:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40661504",
+      "40881393",
+      "36993212",
+      "40661423",
+      "37205474",
+      "40954121",
+      "37684240",
+      "33672806",
+      "40848932",
+      "40172489",
+      "40196628",
+      "34179888",
+      "40985078",
+      "36883003",
+      "33558506",
+      "41169547",
+      "35727989",
+      "41279444",
+      "34772789",
+      "33087563",
+      "38349628",
+      "38915678",
+      "33653957",
+      "39271915",
+      "40108179",
+      "39605385",
+      "39541973",
+      "40747072",
+      "39071308",
+      "40972943",
+      "40661408",
+      "39070659",
+      "37131735",
+      "39534915",
+      "37159305",
+      "37549295",
+      "39636939",
+      "36191226",
+      "40291709",
+      "40321778",
+      "39184067",
+      "37013374",
+      "38466837",
+      "40098319",
+      "39386700",
+      "40629499",
+      "40229261",
+      "40985614",
+      "35198903",
+      "40603603",
+      "35881789",
+      "33864415",
+      "38987300",
+      "40626470",
+      "40744081",
+      "35364105",
+      "34236318",
+      "36595668",
+      "33453268",
+      "40664121",
+      "37470705",
+      "38405951",
+      "37294104",
+      "37156794",
+      "40766389",
+      "40616404",
+      "40667293",
+      "35293386",
+      "36829460",
+      "38961263",
+      "39677715",
+      "34090478",
+      "38260307",
+      "39896463",
+      "40475453",
+      "39568948",
+      "38260590",
+      "38383656",
+      "36004748",
+      "40545646",
+      "40635595",
+      "39319382",
+      "39042834",
+      "36227474",
+      "39591652",
+      "38781207",
+      "41481439",
+      "37549257",
+      "40136009",
+      "23912807",
+      "35108264",
+      "41129218",
+      "40408482",
+      "40766493",
+      "30926670",
+      "35597639",
+      "40877270",
+      "40093099",
+      "31634364",
+      "41118627"
+    ],
+    "review": [
+      "40661504",
+      "40172489",
+      "34179888",
+      "34772789",
+      "40744081",
+      "40664121"
+    ],
+    "pmc": [
+      "12259057"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40661504/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.06.09.658693",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

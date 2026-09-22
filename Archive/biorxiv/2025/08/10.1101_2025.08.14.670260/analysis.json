@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.14.670260",
+  "title": "DynaRepo: The repository of macromolecular conformational dynamics",
+  "authors": "Mokhtari O; Bignon E; Khakzad H; Karami Y",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-18",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文构建了包含约450个复合物和270个单链蛋白的分子动力学构象动态数据库DynaRepo，覆盖抗体-抗原识别、无序蛋白及蛋白-核酸结合等动态互作场景，为动力学感知的深度学习框架提供数据基础，虽未直接建模IDR介导的PPI机制，但数据资源和方法思路对本课题高度可迁移。",
+  "abstract": "Proteins, RNA, and DNA are central to virtually all cellular processes, often assembling into macro-molecular complexes to perform their functions. While these molecules are inherently dynamic, most methods for studying their mechanisms focus on static structures. Recent deep learning advances in protein structure prediction highlight the potential of data-driven approaches, yet dynamic behavior that is critical for interactions such as antibody–antigen recognition, intrinsically disordered proteins, and protein–nucleic acid binding, remains underexplored. To address this gap, we present DynaRepo, a repository of macromolecular conformational dynamics comprising ~450 complexes and ~270 single-chain proteins from PDBbind, the Structural Antibody Database (SAbDab), and benchmark sets. Each complex was simulated in triplicate for 500 ns, totaling >1100 µ s of molecular dynamics data, with extensive pre-calculated analyses. DynaRepo provides a foundation for dynamics-aware deep learning frameworks and is freely available at: https://dynarepo.inria.fr/ .",
+  "abstract_zh": "蛋白质、RNA和DNA几乎对所有细胞过程都至关重要，它们常常组装成大分子复合物以执行其功能。尽管这些分子本质上是动态的，但大多数研究其机制的方法都侧重于静态结构。近期深度学习在蛋白质结构预测方面的进展凸显了数据驱动方法的潜力，然而对于抗体-抗原识别、固有无序蛋白质以及蛋白质-核酸结合等关键相互作用至关重要的动态行为，仍未被充分探索。为弥补这一空白，我们提出了DynaRepo，一个包含约450个复合物和约270个单链蛋白质的大分子构象动态数据库，数据来源于PDBbind、结构抗体数据库（SAbDab）及基准测试集。每个复合物进行了三次重复模拟，每次500纳秒，总计超过1100微秒的分子动力学数据，并附有大量预计算分析。DynaRepo为动态感知的深度学习框架提供了基础，并可在以下网址免费获取：https://dynarepo.inria.fr/。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.14.670260",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.14.670260",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.14.670260/index.html"
+}

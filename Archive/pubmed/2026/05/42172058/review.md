@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that in poly-L-arginine (poly-R) and adenosine monophosphate (AMP) condensates, peptide chain length (10-, 30-, 50-, 100-mer) does not alter backbone conformation but does modulate picosecond hydrogen-bond dynamics. In dilute solution, correlation lifetimes increase with chain length, attributed to hindered solvent rearrangement. In the condensed phase, dynamics become nonlinear with longer chains showing pronounced slowing, attributed to enhanced multivalency, network connectivity, and partial dynamic arrest. Simulations provide an atomistic picture. The authors conclude that chain length lowers the entropic cost of association and promotes network formation, determining local chemical environments.
+- **Visible evidence base** FTIR and ultrafast 2D IR spectroscopy on four poly-R lengths; simulations described but not detailed; no quantitative data, spectra, or simulation parameters provided in the abstract
+- **Missing materials affecting confidence** Full text, all figures and tables, experimental methods, simulation details, fitting procedures, error analysis, and control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis that chain length modulates hydrogen-bond dynamics in biocondensates, with a plausible mechanistic framework. However, the evidence base visible in the abstract is insufficient to evaluate the robustness of the claims. Key quantitative results, error bars, simulation validation, and control experiments are not described. The central conclusion that chain length "lowers the entropic cost of association" is not directly supported by any presented measurement. The work may be of interest to the biophysics and soft matter communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and intracellular organization would be interested in how molecular parameters such as chain length control local solvent and hydrogen-bond environments. The ultrafast spectroscopy community, particularly those using 2D IR to probe dynamics in complex biological systems, would also find the methodological application relevant. Physical chemists and polymer physicists interested in polyelectrolyte dynamics and network formation may find the chain-length dependence informative.
+- **Major strengths** The use of a systematic series of chain lengths (10-, 30-, 50-, 100-mer) is a clean design to isolate chain-length effects. Combining FTIR for structural assessment with 2D IR for picosecond dynamics is an appropriate methodological pairing. The observation that backbone conformation is invariant while dynamics change is a useful separation of structural and dynamical effects. The inclusion of simulations to provide molecular interpretation is a positive feature, though details are not visible.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "correlation lifetimes increase with peptide length" and "dynamics become nonlinear, with longer chains exhibiting pronounced slowing"  
+  - **Evidence pointer** Abstract, no specific figure or table referenced; location not provided  
+  - **Concern** The abstract reports qualitative trends in correlation lifetimes but provides no numerical values, uncertainties, or statistical significance. It is unclear whether the reported differences between chain lengths exceed experimental error, and whether the "nonlinear" behavior in the condensed phase is a robust, reproducible effect or within noise.  
+  - **Why it matters** The central claim of the paper is that chain length is a molecular determinant of hydrogen-bond dynamics. Without quantitative data and error analysis, the reader cannot assess whether the observed trends are real effects or artifacts of fitting or sample preparation.  
+  - **Resolution test** Provide correlation lifetime values with standard deviations or confidence intervals for each chain length in both dilute and condensed phases, and state the statistical test used to establish significance of differences.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** "chain length lowers the entropic cost of association and promotes network formation"  
+  - **Evidence pointer** Abstract, no direct measurement described; location not provided  
+  - **Concern** The abstract concludes that chain length lowers the entropic cost of association, but no thermodynamic measurement (e.g., calorimetry, temperature-dependent studies, or free energy calculations) is described. The connection between observed picosecond dynamics and entropic cost is not established.  
+  - **Why it matters** This is the mechanistic conclusion of the paper. If it is not directly supported by data, the claim is speculative and overreaches the evidence presented.  
+  - **Resolution test** Provide a direct thermodynamic or computational estimate of the entropic contribution to association as a function of chain length, or explicitly reframe the conclusion as a hypothesis consistent with the dynamics data rather than a demonstrated result.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Simulation validation  
+  - **Claim pointer** "Simulations provide an atomistic picture of this slowdown"  
+  - **Evidence pointer** Abstract, no simulation details; location not provided  
+  - **Concern** The abstract mentions simulations but provides no information on the simulation method, force field, system size, simulation time, or how the simulations were validated against the experimental observables. Without this, the atomistic picture cannot be evaluated.  
+  - **Why it matters** The simulations are used to support the mechanistic interpretation. If the simulations are not validated against the 2D IR data or are not converged, the atomistic picture may be misleading.  
+  - **Resolution test** Describe the simulation protocol, show a direct comparison between simulated and experimental correlation lifetimes or spectral observables, and state the convergence criteria.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Alternative explanations  
+  - **Claim pointer** "consistent with hindered solvent rearrangement around compact polyelectrolyte chains" and "enhanced multivalency, increased network connectivity, and partial dynamic arrest"  
+  - **Evidence pointer** Abstract, no control experiments described; location not provided  
+  - **Concern** The interpretations attribute the observed dynamics to specific physical mechanisms, but alternative explanations are not considered in the abstract. For example, chain-length-dependent aggregation states, differences in sample concentration, or variations in ionic strength could also affect dynamics.  
+  - **Why it matters** Without ruling out alternative explanations, the mechanistic attribution may be premature.  
+  - **Resolution test** Include control experiments (e.g., varying concentration, ionic strength, or using a non-associating counterion) or explicitly discuss and rule out alternative interpretations in the full text.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** "dynamics become nonlinear"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "nonlinear" is ambiguous. It could mean a nonlinear dependence on chain length, a deviation from single-exponential decay, or a nonlinear response to perturbation.  
+  - **Required correction** Specify what "nonlinear" refers to, and provide the functional form or metric used to characterize the dynamics.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Sample preparation and conditions  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not state the concentration, buffer conditions, temperature, or pH for the dilute and condensed phase measurements. These parameters are critical for reproducibility and for interpreting chain-length effects.  
+  - **Required correction** State the experimental conditions in the abstract or refer to a methods section with full details.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** "invariant backbone conformations"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The claim of invariant backbone conformations is based on line shapes, but the abstract does not specify which vibrational mode was probed or the sensitivity of the line shape to conformational changes.  
+  - **Required correction** Specify the probed mode and provide evidence that the line shape is a sensitive reporter of backbone conformation in this system.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative data and error analysis), R1-M2 (direct support for entropic claim), R1-M3 (simulation validation), R1-M4 (alternative explanations)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The idea that chain length specifically modulates hydrogen-bond dynamics in condensates is a reasonable extension of existing work on condensate internal dynamics, but the abstract does not clearly distinguish it from prior studies on polyelectrolyte dynamics or condensate mobility. Originality is plausible but not fully demonstrated.  
+  - **Scientific importance** If the claims are robust, the work could inform understanding of how sequence and length control condensate internal environments, which is relevant to biology and materials science. However, the importance is not yet established from the abstract alone.  
+  - **Interdisciplinary readership** The topic bridges physical chemistry, biophysics, and soft matter, and the methods are of interest to spectroscopists. The abstract is written accessibly for these audiences.  
+  - **Technical soundness** The combination of FTIR and 2D IR is appropriate, but the lack of quantitative detail and simulation validation prevents assessment of technical soundness.  
+  - **Readability for nonspecialists** The abstract is concise and uses jargon appropriately, but terms like "correlation lifetimes" and "partial dynamic arrest" may require background knowledge. It is readable for a physical science audience but not for a general one.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the experimental design is sensible, but the abstract does not provide sufficient quantitative data, error analysis, simulation validation, or direct support for the central mechanistic claim. The authors should be encouraged to resubmit with full evidence, but the case is not made from the supplied material.
+
+## Risk / unsupported claims
+- The claim that chain length "lowers the entropic cost of association" is unsupported by any direct thermodynamic measurement or calculation described in the abstract.
+- The claim that "dynamics become nonlinear" is unsupported without a defined metric or quantitative data.
+- The claim that simulations "provide an atomistic picture" is unassessable without simulation details or validation.
+- The claim that backbone conformations are "invariant" is weakly supported without specification of the probed mode or sensitivity analysis.
+- The attribution of dynamics to "hindered solvent rearrangement," "enhanced multivalency," "increased network connectivity," and "partial dynamic arrest" is speculative without control experiments or direct structural evidence.

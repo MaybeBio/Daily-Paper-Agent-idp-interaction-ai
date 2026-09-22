@@ -1,0 +1,333 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.09.544221",
+  "title": "Content-enriched fluorescence lifetime fluctuation spectroscopy to study bio-molecular condensate formation",
+  "doi": "10.1101/2023.06.09.544221",
+  "abstract": "Quantitative fluorescence microscopy is experiencing an important revolution thanks to single-photon array detectors. These detectors provide users with so far inaccessible specimen information: The distribution of the specimen’s fluorescence emission at single-photon level and high spatiotemporal sampling. In laser-scanning microscopy, this photon-resolved measurement has enabled robust fluorescence lifetime imaging at sub-diffraction spatial resolution, thus opening new perspectives for structural and functional imaging. Despite these significant advances in imaging, studying the time evolution of biological processes remains a considerable challenge. Here we present a com-prehensive framework of live-cell spectroscopy methodologies – compatible with imaging – to investigate bio-molecular processes at various spatiotemporal scales. We use photon-resolved spatial and temporal measurements granted by a single-photon array detector to boost the information content of a unified fluorescence fluctuation spectroscopy and fluorescence lifetime experiment. To demonstrate the potential of this approach, we investigate the phase transition of liquid-like condensates during oxidative stress inside living cells. These condensates are generally found in several cellular processes and exhibit substantial variations in molecular composition, size, and kinetics, posing a significant challenge for quantifying their underlying molecular dynamics. This study demonstrates how the pro-posed approach reveals the mutual dynamics of different RNA-binding proteins involved in the stress granules formation – inaccessible to imaging alone. We observe condensate formation by performing time-lapse super-resolved imaging of the cellular macro-environment while simultaneously monitoring the molecular mobility, the sub-diffraction environment organization, interactions, and nano-environment properties through fluorescence lifetime fluctuation spectroscopy. We are confident that our framework offers a versatile toolkit for investigating a broad range of bio-molecular processes – not limited to liquid-liquid phase transition – and we anticipate their widespread application in future life-science research.",
+  "authors": [
+    "Perego E",
+    "Zappone S",
+    "Castagnetti F",
+    "Mariani D",
+    "Vitiello E",
+    "Rupert J",
+    "Zacco E",
+    "Tartaglia GG",
+    "Bozzoni I",
+    "Slenders E",
+    "Vicidomini G"
+  ],
+  "published_date": "2023-06-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.09.544221",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.09.544221.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR674048",
+    "raw_record": {
+      "id": "PPR674048",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR674048"
+        ]
+      },
+      "doi": "10.1101/2023.06.09.544221",
+      "title": "Content-enriched fluorescence lifetime fluctuation spectroscopy to study bio-molecular condensate formation",
+      "authorString": "Perego E, Zappone S, Castagnetti F, Mariani D, Vitiello E, Rupert J, Zacco E, Tartaglia GG, Bozzoni I, Slenders E, Vicidomini G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Perego E",
+            "lastName": "Perego",
+            "firstName": "Eleonora",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1700-584X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Via Enrico Melen 83 Bldg. B, 16152, Genoa, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zappone S",
+            "lastName": "Zappone",
+            "firstName": "Sabrina",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Via Enrico Melen 83 Bldg. B, 16152, Genoa, Italy"
+                },
+                {
+                  "affiliation": "Dipartimento di Informatiche, Bioingegneria, Robotica e Ingegneria dei Sistemi, University of Genoa, Via All’Opera Pia 13, 16145, Genoa, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Castagnetti F",
+            "lastName": "Castagnetti",
+            "firstName": "Francesco",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Non coding RNAs in Physiology and Pathology, Istituto Italiano di Tecnologia, Via Enrico Melen 83 Bldg. B, 16152, Genoa, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mariani D",
+            "lastName": "Mariani",
+            "firstName": "Davide",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0903-5632"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Non coding RNAs in Physiology and Pathology, Istituto Italiano di Tecnologia, Via Enrico Melen 83 Bldg. B, 16152, Genoa, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vitiello E",
+            "lastName": "Vitiello",
+            "firstName": "Erika",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5383-1295"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Non coding RNAs in Physiology and Pathology, Istituto Italiano di Tecnologia, Via Enrico Melen 83 Bldg. B, 16152, Genoa, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rupert J",
+            "lastName": "Rupert",
+            "firstName": "Jakob",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "RNA Systems Biology, Istituto Italiano di Tecnologia, Via Enrico Melen 85 Bldg. B, 16152, Genoa, Italy"
+                },
+                {
+                  "affiliation": "Department of Biology and Biotechnologies “C. Darwin”, Sapienza University of Rome, Piazzale Aldo Moro, 00185, Rome, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zacco E",
+            "lastName": "Zacco",
+            "firstName": "Elsa",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "RNA Systems Biology, Istituto Italiano di Tecnologia, Via Enrico Melen 85 Bldg. B, 16152, Genoa, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tartaglia GG",
+            "lastName": "Tartaglia",
+            "firstName": "Gian Gaetano",
+            "initials": "GG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7524-6310"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "RNA Systems Biology, Istituto Italiano di Tecnologia, Via Enrico Melen 85 Bldg. B, 16152, Genoa, Italy"
+                },
+                {
+                  "affiliation": "Department of Biology and Biotechnologies “C. Darwin”, Sapienza University of Rome, Piazzale Aldo Moro, 00185, Rome, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bozzoni I",
+            "lastName": "Bozzoni",
+            "firstName": "Irene",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Non coding RNAs in Physiology and Pathology, Istituto Italiano di Tecnologia, Via Enrico Melen 83 Bldg. B, 16152, Genoa, Italy"
+                },
+                {
+                  "affiliation": "Department of Biology and Biotechnologies “C. Darwin”, Sapienza University of Rome, Piazzale Aldo Moro, 00185, Rome, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Slenders E",
+            "lastName": "Slenders",
+            "firstName": "Eli",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Via Enrico Melen 83 Bldg. B, 16152, Genoa, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vicidomini G",
+            "lastName": "Vicidomini",
+            "firstName": "Giuseppe",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Microscopy and Spectroscopy, Istituto Italiano di Tecnologia, Via Enrico Melen 83 Bldg. B, 16152, Genoa, Italy"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5383-1295"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7524-6310"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1700-584X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0903-5632"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Quantitative fluorescence microscopy is experiencing an important revolution thanks to single-photon array detectors. These detectors provide users with so far inaccessible specimen information: The distribution of the specimen’s fluorescence emission at single-photon level and high spatiotemporal sampling. In laser-scanning microscopy, this photon-resolved measurement has enabled robust fluorescence lifetime imaging at sub-diffraction spatial resolution, thus opening new perspectives for structural and functional imaging. Despite these significant advances in imaging, studying the time evolution of biological processes remains a considerable challenge. Here we present a com-prehensive framework of live-cell spectroscopy methodologies – compatible with imaging – to investigate bio-molecular processes at various spatiotemporal scales. We use photon-resolved spatial and temporal measurements granted by a single-photon array detector to boost the information content of a unified fluorescence fluctuation spectroscopy and fluorescence lifetime experiment. To demonstrate the potential of this approach, we investigate the phase transition of liquid-like condensates during oxidative stress inside living cells. These condensates are generally found in several cellular processes and exhibit substantial variations in molecular composition, size, and kinetics, posing a significant challenge for quantifying their underlying molecular dynamics. This study demonstrates how the pro-posed approach reveals the mutual dynamics of different RNA-binding proteins involved in the stress granules formation – inaccessible to imaging alone. We observe condensate formation by performing time-lapse super-resolved imaging of the cellular macro-environment while simultaneously monitoring the molecular mobility, the sub-diffraction environment organization, interactions, and nano-environment properties through fluorescence lifetime fluctuation spectroscopy. We are confident that our framework offers a versatile toolkit for investigating a broad range of bio-molecular processes – not limited to liquid-liquid phase transition – and we anticipate their widespread application in future life-science research.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "818699",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "855923",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/11/2023.06.09.544221.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.09.544221"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR674048"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR674048&type=FILE&fileName=EMS177280-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS177280",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-06-13",
+      "firstPublicationDate": "2023-06-11",
+      "firstIndexDate": "2023-06-13",
+      "fullTextReceivedDate": "2023-07-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

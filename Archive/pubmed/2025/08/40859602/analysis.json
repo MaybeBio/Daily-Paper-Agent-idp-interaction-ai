@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40859602",
+  "title": "Critical Assessment of Protein Intrinsic Disorder Round 3 - Predicting Disorder in the Era of Protein Language Models.",
+  "authors": "Mehdiabadi, Mahta; Del Conte, Alessio; Nugnes, Maria Victoria; Aspromonte, Maria Cristina; Tosatto, Silvio C E; Piovesan, Damiano",
+  "journal": "Proteins",
+  "published_date": "2025-08-27",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文是CAID3竞赛报告，评估无序蛋白预测方法，重点引入IDR内结合区域预测子挑战，并显示蛋白语言模型显著提升性能，虽非机制建模，但直接聚焦IDR与结合位点预测，方法上以AI为主，对本课题有直接参考价值。",
+  "abstract": "Intrinsic disorder (ID) in proteins is a complex phenomenon, encompassing a continuum from entirely disordered regions to structured domains with flexible segments. The absence of a ground truth for all forms of disorder, combined with the possibility of structural transitions between ordered and disordered states under specific conditions, makes accurate prediction of ID especially challenging. The Critical Assessment of Protein Intrinsic Disorder (CAID) evaluates ID prediction methods using diverse benchmarks derived from DisProt, a manually curated database of experimentally validated annotations. This paper presents findings from the third round (CAID3), in which 24 new methods were assessed along with the predictors from previous rounds. Compared to CAID2, the top-performing methods in CAID3 demonstrated significant gains in average precision: over 31% improvement in predicting linker regions, and 15% in disorder prediction. This round introduces a new binding sub-challenge focused on identifying binding regions within known IDR boundaries. The results indicate that this task remains challenging, highlighting the potential for improvement. The top-performing methods in CAID3 are mostly new and commonly used embeddings from protein language models (pLMs), underscoring the growing impact of pLMs in tackling the complexities of disordered proteins and advancing ID prediction.",
+  "abstract_zh": "蛋白质中的内在无序（ID）是一种复杂现象，涵盖从完全无序区域到具有柔性片段的结构域连续体。由于缺乏所有形式无序的金标准，加上在特定条件下有序与无序状态之间可能发生结构转变，使得ID的准确预测尤为具有挑战性。蛋白质内在无序关键评估（CAID）使用源自DisProt（一个手动整理的实验验证注释数据库）的多样化基准来评估ID预测方法。本文介绍了第三轮（CAID3）的结果，其中评估了24种新方法以及前几轮的预测器。与CAID2相比，CAID3中表现最佳的方法在平均精度上取得了显著提升：预测连接子区域提高了超过31%，无序预测提高了15%。本轮引入了一个新的结合子挑战，专注于在已知IDR边界内识别结合区域。结果表明，该任务仍具挑战性，凸显了改进的潜力。CAID3中表现最佳的方法大多是新的，并普遍使用来自蛋白质语言模型（pLMs）的嵌入，这强调了pLMs在应对无序蛋白质复杂性和推进ID预测方面日益增长的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40859602/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40859602/",
+  "paper_page_path": "papers/pubmed/40859602/index.html"
+}

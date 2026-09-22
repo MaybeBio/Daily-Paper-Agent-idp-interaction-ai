@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "41372463",
+    "doi": "10.1038/s42004-025-01810-w",
+    "title": "Insights into de-mixing and morphology modulation in coacervate-membrane interactions from integrating experiments and simulations."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins can undergo liquid-liquid phase separation to form condensates or coacervates, which play numerous regulatory roles in the cell. Recently, it was recognized that membrane-adsorbed condensates are crucial for biomolecular localization, and in some cases, induce significant changes in membrane morphology. A detailed understanding of the underlying mechanisms remains incomplete. Here, we combine experiments and simulations to unravel structural and dynamic features of the coacervate/membrane interface across scales. We study poly-Lysine/poly-Aspartate (K(10)/D(10)) coacervates with different unilamellar liposomes. By combining confocal microscopy, hyperspectral imaging, fluorescence recovery after photobleaching, and two complementary coarse-grained approaches, we show that the membrane affinity of the K(10)/D(10) coacervate can be tuned by the anionic lipid content and quantified through the intrinsic contact angle, both in vitro and in silico. We find that the membrane in contact with the condensate displays a nearly two-fold reduced fluidity compared to the bare membrane. This is attributed to the crowding of lipids at the contact region, resulting in decreased area per lipid. Moreover, we observed local lipid de-mixing upon coacervate adsorption. This study provides an effective framework for integrating experiment and computation to characterize the properties of coacervate-membrane interfaces that are critical to the functional impacts of these interactions.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mondal, Sayantan",
+        "Mangiarotti, Agustin",
+        "Dimova, Rumiana",
+        "Cui, Qiang"
+      ],
+      "short_names": [
+        "Mondal S",
+        "Mangiarotti A",
+        "Dimova R",
+        "Cui Q"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2694-6200",
+        "ORCID: 0000-0002-3872-8502",
+        "ORCID: 0000-0001-6214-5211"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Boston University, Boston, MA, USA.",
+        "Max Planck Institute of Colloids and Interfaces, Science Park Golm, Potsdam, Germany.",
+        "Centro de Investigaciones en Quimica Biologica de Cordoba, CONICET, Cordoba, Argentina.",
+        "Departamento de Quimica Biologica Ranwel Caputto, Universidad Nacional de Cordoba, Cordoba, Argentina.",
+        "Max Planck Institute of Colloids and Interfaces, Science Park Golm, Potsdam, Germany. rumiana.dimova@mpikg.mpg.de.",
+        "Department of Chemistry, Boston University, Boston, MA, USA. qiangcui@bu.edu.",
+        "Department of Physics, Boston University, Boston, MA, USA. qiangcui@bu.edu.",
+        "Department of Biomedical Engineering, Boston University, Boston, MA, USA. qiangcui@bu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mondal, Sayantan",
+        "short_name": "Mondal S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Boston University, Boston, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Mangiarotti, Agustín",
+        "short_name": "Mangiarotti A",
+        "identifiers": [
+          "0000-0003-2694-6200"
+        ],
+        "affiliations": [
+          "Max Planck Institute of Colloids and Interfaces, Science Park Golm, Potsdam, Germany.",
+          "Centro de Investigaciones en Química Biológica de Córdoba, CONICET, Córdoba, Argentina.",
+          "Departamento de Química Biológica Ranwel Caputto, Universidad Nacional de Córdoba, Córdoba, Argentina."
+        ]
+      },
+      {
+        "full_name": "Dimova, Rumiana",
+        "short_name": "Dimova R",
+        "identifiers": [
+          "0000-0002-3872-8502"
+        ],
+        "affiliations": [
+          "Max Planck Institute of Colloids and Interfaces, Science Park Golm, Potsdam, Germany. rumiana.dimova@mpikg.mpg.de."
+        ]
+      },
+      {
+        "full_name": "Cui, Qiang",
+        "short_name": "Cui Q",
+        "identifiers": [
+          "0000-0001-6214-5211"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Boston University, Boston, MA, USA. qiangcui@bu.edu.",
+          "Department of Physics, Boston University, Boston, MA, USA. qiangcui@bu.edu.",
+          "Department of Biomedical Engineering, Boston University, Boston, MA, USA. qiangcui@bu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications chemistry"
+    ],
+    "journal_abbrev": [
+      "Commun Chem"
+    ],
+    "pub_date": "2025 Dec 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/11 01:22",
+    "fetched_at": "2026-09-17 22:50:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41263305",
+      "40203039",
+      "39482532",
+      "39455581",
+      "39385023",
+      "39327453",
+      "39260373",
+      "39211498",
+      "39134696",
+      "39112699",
+      "39034215",
+      "38971597",
+      "38885177",
+      "38597222",
+      "38582523",
+      "38407041",
+      "38360555",
+      "38177243",
+      "38160256",
+      "38061016",
+      "38049424",
+      "37973891",
+      "37770422",
+      "37414881",
+      "37354057",
+      "37231298",
+      "37217523",
+      "37171907",
+      "37159305",
+      "37126554",
+      "37018196",
+      "36837726",
+      "36780528",
+      "36739277",
+      "36289351",
+      "36071192",
+      "35930639",
+      "35918535",
+      "35878395",
+      "35865903",
+      "35773489",
+      "35411085",
+      "35377637",
+      "35179885",
+      "35049497",
+      "34785657",
+      "34710248",
+      "34599097",
+      "34342967",
+      "34221333",
+      "33782607",
+      "33720709",
+      "33688043",
+      "33558506",
+      "33319830",
+      "33080222",
+      "32934220",
+      "32675239",
+      "32597189",
+      "32302572",
+      "32239914",
+      "32004090",
+      "31675499",
+      "31604601",
+      "31543265",
+      "31539493",
+      "30951647",
+      "30873835",
+      "30811220",
+      "29976799",
+      "29961577",
+      "29465241",
+      "28225081",
+      "27578804",
+      "27392146",
+      "27056844",
+      "26406374",
+      "25309628",
+      "25288112",
+      "23805747",
+      "23451897",
+      "22873775",
+      "22242924",
+      "20366179",
+      "19225105",
+      "18712871",
+      "16791507",
+      "16089969",
+      "8744570"
+    ],
+    "similar": [
+      "41372463",
+      "40159770",
+      "35865903",
+      "23912807",
+      "40291420",
+      "38407041",
+      "38063842",
+      "40411463",
+      "37159305",
+      "38252962",
+      "37190858",
+      "41251020",
+      "32239914",
+      "41169547",
+      "41472652",
+      "34221333",
+      "34398617",
+      "39423330",
+      "15248727",
+      "39402790",
+      "41296325",
+      "41277093",
+      "38847278",
+      "37462244",
+      "38968602",
+      "40069227",
+      "31091880",
+      "41007377",
+      "38260590",
+      "36829460",
+      "31995710",
+      "40559352",
+      "34090478",
+      "31540706",
+      "40112030",
+      "41424598",
+      "39568893",
+      "41314084",
+      "37350836",
+      "40916479",
+      "40525694",
+      "35653686",
+      "37815312",
+      "40297234",
+      "39340452",
+      "40113768",
+      "37781214",
+      "37964343",
+      "39567561",
+      "40094245",
+      "39575859",
+      "35878395",
+      "39568948",
+      "34856104",
+      "30384702",
+      "35054543",
+      "35792669",
+      "39071287",
+      "39763935",
+      "39071308",
+      "27599198",
+      "35179885",
+      "40009520",
+      "37337618",
+      "40172489",
+      "39833115",
+      "40547321",
+      "38360555",
+      "40557772",
+      "36463407",
+      "31001538",
+      "40367746",
+      "36327740",
+      "40455990",
+      "36993212",
+      "37272663",
+      "39113361",
+      "39588871",
+      "40324711",
+      "40661423",
+      "37468629",
+      "39500569",
+      "34636323",
+      "40954121",
+      "40211087",
+      "40184654",
+      "39952921",
+      "34144468",
+      "40028356",
+      "15244462",
+      "31584062",
+      "40089856",
+      "41025298",
+      "34346669",
+      "40963550",
+      "27352848",
+      "35796384",
+      "39605385",
+      "40135632",
+      "37770422"
+    ],
+    "review": [
+      "41372463",
+      "39423330",
+      "37462244",
+      "41007377",
+      "40559352",
+      "39575859",
+      "35179885",
+      "40172489",
+      "40547321",
+      "38360555",
+      "40557772",
+      "31001538"
+    ],
+    "pmc": [
+      "12770480"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42004-025-01810-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41372463/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

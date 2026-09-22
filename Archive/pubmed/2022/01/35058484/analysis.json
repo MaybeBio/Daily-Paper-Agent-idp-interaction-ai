@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35058484",
+  "title": "Rational design of a helical peptide inhibitor targeting c-Myb-KIX interaction.",
+  "authors": "Suetaka, Shunji; Oka, Yoshiki; Kunihara, Tomoko; Hayashi, Yuuki; Arai, Munehito",
+  "journal": "Scientific reports",
+  "published_date": "2022-01-22",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究基于AGADIR理论预测，通过保守Lys-to-Arg替换稳定c-Myb无序反式激活域的螺旋结构，设计出高亲和力肽抑制剂阻断c-Myb-KIX互作，虽对象为IDR且涉及PPI机制（构象选择），但方法为经典理论预测而非AI/物理模拟，机制深度有限。",
+  "abstract": "The transcription factor c-Myb promotes the proliferation of hematopoietic cells by interacting with the KIX domain of CREB-binding protein; however, its aberrant expression causes leukemia. Therefore, inhibitors of the c-Myb-KIX interaction are potentially useful as antitumor drugs. Since the intrinsically disordered transactivation domain (TAD) of c-Myb binds KIX via a conformational selection mechanism where helix formation precedes binding, stabilizing the helical structure of c-Myb TAD is expected to increase the KIX-binding affinity. Here, to develop an inhibitor of the c-Myb-KIX interaction, we designed mutants of the c-Myb TAD peptide fragment where the helical structure is stabilized, based on theoretical predictions using AGADIR. Three of the four initially designed peptides each had a different Lys-to-Arg substitution on the helix surface opposite the KIX-binding interface. Furthermore, the triple mutant with three Lys-to-Arg substitutions, named RRR, showed a high helical propensity and achieved three-fold higher affinity to KIX than the wild-type TAD with a dissociation constant of 80 nM. Moreover, the RRR inhibitor efficiently competed out the c-Myb-KIX interaction. These results suggest that stabilizing the helical structure based on theoretical predictions, especially by conservative Lys-to-Arg substitutions, is a simple and useful strategy for designing helical peptide inhibitors of protein-protein interactions.",
+  "abstract_zh": "转录因子c-Myb通过与CREB结合蛋白的KIX结构域相互作用促进造血细胞增殖；然而，其异常表达会导致白血病。因此，c-Myb-KIX相互作用的抑制剂可能作为抗肿瘤药物具有潜在价值。由于c-Myb的内在无序反式激活结构域（TAD）通过构象选择机制结合KIX，其中螺旋形成先于结合，因此稳定c-Myb TAD的螺旋结构预计会增加KIX结合亲和力。在此，为了开发c-Myb-KIX相互作用的抑制剂，我们基于AGADIR的理论预测，设计了c-Myb TAD肽段片段的突变体，其中螺旋结构得到稳定。四个初始设计的肽段中，有三个各自在KIX结合界面相对的螺旋表面具有不同的Lys-to-Arg替换。此外，具有三个Lys-to-Arg替换的三重突变体，命名为RRR，显示出高螺旋倾向，并实现了比野生型TAD高三倍的KIX亲和力，解离常数为80 nM。而且，RRR抑制剂能有效竞争性抑制c-Myb-KIX相互作用。这些结果表明，基于理论预测稳定螺旋结构，特别是通过保守的Lys-to-Arg替换，是设计蛋白-蛋白相互作用螺旋肽抑制剂的一种简单且有用的策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35058484/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35058484/",
+  "paper_page_path": "papers/pubmed/35058484/index.html"
+}

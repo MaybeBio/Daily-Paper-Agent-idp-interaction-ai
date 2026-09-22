@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.02.03.703498",
+  "title": "FrustrAI-Seq: Scaling Local Energetic Frustration to the Protein Sequence Space",
+  "authors": "Leusch J; Poley-Gil M; Fernandez-Martin M; Simonetti FL; Schlensok J; Bordin N; Rost B; Parra RG; Heinzinger M",
+  "journal": "bioRxiv",
+  "published_date": "2026-02-05",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用蛋白质语言模型从序列直接预测局部能量挫折，并扩展到无序区域，虽非直接研究PPI机制，但为IDR功能位点预测提供了可迁移的AI建模思路。",
+  "abstract": "Proteins fold into their native three-dimensional (3D) structures by navigating complex energy landscapes shaped by the bio-physical and biochemical properties of their sequence. Once folded, some residues remain locally frustrated, reflecting functional constraints incompatible with optimal packing. This local energetic frustration provides important insights into protein function and dynamics, but its analysis typically relies on structure-based energy calculations and remains computationally costly at scale. Here, we introduce an ultra-fast sequence-based prediction of local energetic frustration directly from protein sequences using embeddings from protein language models (pLMs). Our method, coined FrustrAI-Seq , enables proteome-wide frustration profiling in minutes (∼ 17 minutes for the entire human proteome on a single NVIDIA H100 GPU) while retaining biologically relevant performance as shown for the α -globin and β -lactamase family. By eliminating the need for explicit structural or evolutionary information, this approach expands frustration analysis to protein regions and classes that were previously inaccessible, including intrinsically disordered regions and high-throughput de novo designed protein datasets. To support reproducibility and large-scale applications, we provide the largest freely available resource of precomputed local frustration scores to date (∼ 10 6 proteins), along with model weights and complete training and inference code at: github.com/leuschjanphilipp/FrustrAI-Seq .",
+  "abstract_zh": "蛋白质通过穿越由其序列的生物物理和生物化学特性所塑造的复杂能量景观，折叠成其天然三维（3D）结构。一旦折叠完成，一些残基仍保持局部受挫状态，反映出与最优堆积不相容的功能约束。这种局部能量受挫为蛋白质功能和动力学提供了重要见解，但其分析通常依赖于基于结构的能量计算，且在大规模应用中计算成本高昂。在此，我们介绍一种超快速的基于序列的局部能量受挫预测方法，直接利用蛋白质语言模型（pLMs）的嵌入从蛋白质序列进行预测。我们的方法命名为FrustrAI-Seq，能够在几分钟内实现蛋白质组范围的受挫谱分析（在单个NVIDIA H100 GPU上，整个人类蛋白质组约需17分钟），同时保持生物学相关性能，如α-珠蛋白和β-内酰胺酶家族所示。通过消除对显式结构或进化信息的需求，该方法将受挫分析扩展到以前无法触及的蛋白质区域和类别，包括内在无序区域和高通量从头设计蛋白质数据集。为支持可重复性和大规模应用，我们提供了迄今最大的自由可用的预计算局部受挫评分资源（约10^6个蛋白质），以及模型权重和完整的训练与推理代码，见：github.com/leuschjanphilipp/FrustrAI-Seq。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.02.03.703498",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.03.703498",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.02.03.703498/index.html"
+}

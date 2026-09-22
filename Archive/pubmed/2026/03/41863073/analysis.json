@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41863073",
+  "title": "Computational rheometry for modeling viscoelasticity and mechanical responses of biomolecular condensates.",
+  "authors": "Zhang, Ruoyao; Mitra, Gaurav; Ghosh, Souradeep; Pappu, Rohit V",
+  "journal": "Biophysical journal",
+  "published_date": "2026-03-21",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出计算流变测量法，用图网络和广义Rouse模型从粗粒化模拟中提取生物分子凝聚体的粘弹性，桥接分子与介观尺度，虽未直接预测PPI，但聚焦IDP凝聚体的力学机制建模，方法可迁移至互作机制研究。",
+  "abstract": "Biomolecular condensates are viscoelastic materials that display composition-specific rheological properties and responses to mechanical forces. For condensates formed by intrinsically disordered proteins and multivalent nucleic acids, structures from coarse-grained simulations have been used in graph-based descriptions of internal, mesoscale structures to extract viscoelastic moduli using a generalized Rouse model. This model rests on the use of eigenvalues of graph Laplacians that are derived from computed, condensate-specific graphs. Here, we introduce the formalism of computational rheometry to enable mechanistic understanding of material properties by bridging the molecular and continuum scales. In computational rheometry, condensates are described as graphs, and each node in the graph is a Maxwell element coupled to a Stokes fluid, thus generating a network of Stokes-Maxwell elements. We describe the formalism and its adaptation to model mechanical responses of graphs derived from coarse-grained simulations of condensates. Using small amplitude oscillatory shear tests, we reproduce the full spectrum of frequency-dependent responses that have been reported for condensates probed using passive microrheology. Computational rheometry also allows for the simulation of different forms of creep tests. We adapt and deploy these creep tests, and the results are discussed in the context of recent experiments. Overall, our work establishes computational rheometry as a route to bridge disparate length and timescales to assess how molecular-scale interactions and dynamics give rise to viscoelastic responses on the mesoscale.",
+  "abstract_zh": "生物分子凝聚体是粘弹性材料，表现出组成特异性的流变学性质和对机械力的响应。对于由固有无序蛋白质和多价核酸形成的凝聚体，粗粒化模拟得到的结构已被用于内部介观结构的基于图的描述中，以通过广义Rouse模型提取粘弹性模量。该模型依赖于从计算得到的、凝聚体特异性图导出的图拉普拉斯算子的特征值。在此，我们引入计算流变测量学（computational rheometry）的形式体系，以通过桥接分子尺度和连续介质尺度来实现对材料性质的机制性理解。在计算流变测量学中，凝聚体被描述为图，图中的每个节点是一个与Stokes流体耦合的Maxwell单元，从而生成Stokes-Maxwell单元网络。我们描述了该形式体系及其对模拟从凝聚体粗粒化模拟中导出的图的机械响应的适应性。利用小振幅振荡剪切测试，我们重现了被动微流变学探测凝聚体时所报告的频率依赖响应的全谱。计算流变测量学还允许模拟不同形式的蠕变测试。我们调整并部署了这些蠕变测试，并在近期实验的背景下讨论了结果。总体而言，我们的工作确立了计算流变测量学作为桥接不同长度和时间尺度以评估分子尺度相互作用和动力学如何在介观尺度上产生粘弹性响应的途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41863073/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41863073/",
+  "paper_page_path": "papers/pubmed/41863073/index.html"
+}

@@ -1,0 +1,119 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, background, methods, results, discussion, conclusions, and tables. Figures are referenced but not fully described in the provided text.
+- **Assessment boundary** The review is limited to the scientific content, methodology, and claims presented in the manuscript. No assessment is made of the journal's editorial policies or the manuscript's fit with a specific journal.
+- **Shared manuscript claim summary** The authors claim that the HEV ORF2 protein exhibits significant intrinsic disorder, classifying it as an intrinsically disordered protein (IDP) or intrinsically disordered protein region (IDPR). They further claim that predicted disorder-based features, including molecular recognition features (MoRFs) and phosphorylation sites, support multifunctional roles for ORF2 beyond its capsid function, and that these features may serve as novel drug targets and inform vaccine development.
+- **Visible evidence base** The evidence base consists of computational predictions from multiple online tools: Phyre2 and I-TASSER for structure prediction; PONDR (VLXT, VL3, VSL2) and DISOPRED3 for disorder prediction; IUPred3 and IUPred2A for MoRF prediction; DEPP for phosphorylation site prediction; and COFACTOR for Gene Ontology (GO) term prediction. Results are presented in Tables 1-6 and Figures 1-4.
+- **Missing materials affecting confidence** The manuscript does not provide the actual disorder prediction graphs (Figure 3) or phosphorylation score plots (Figure 4) in the text, only descriptions. The accession numbers for the eight ORF2 sequences are listed in Table 1, but the specific strains, hosts, and genotypes are not described in the text. No experimental validation data are provided. The methods section lacks specific parameters, thresholds, and version details for the prediction tools used.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational analysis of intrinsic disorder in HEV ORF2 proteins from eight sequences representing different genotypes and hosts. The topic is of potential interest to the hepatitis E virus community, as intrinsic disorder in viral proteins is increasingly recognized as functionally important. However, the study is largely descriptive and confirmatory, applying well-established prediction tools to a small sequence set without providing novel biological insight or experimental validation. The claims of multifunctionality and drug target potential are speculative and not supported by the computational evidence presented. The manuscript would benefit from a more rigorous analytical framework, including statistical comparisons, functional enrichment analysis, and a clearer link between predicted disorder and known ORF2 biology.
+- **Who would be interested in the results, and why** Researchers studying hepatitis E virus biology, particularly those interested in the structural and functional properties of the ORF2 capsid protein. The results may also be of interest to the broader community studying intrinsic disorder in viral proteins, as ORF2 represents a case where a structural protein exhibits significant predicted disorder. However, the interest is likely to be limited given the lack of experimental validation and the descriptive nature of the analysis.
+- **Major strengths**
+  - The study addresses a relevant and under-explored topic: intrinsic disorder in a viral capsid protein.
+  - The use of multiple complementary prediction tools is appropriate and strengthens the reliability of the disorder predictions.
+  - The inclusion of sequences from different genotypes and hosts provides some breadth to the analysis.
+  - The manuscript is clearly written and the results are presented in a logical order.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific soundness
+  - **Claim pointer** The authors claim that "the results predicted ORF2 as a protein with multiple functions besides its role as a capsid protein" and that "its disordered region might serve as novel drug targets."
+  - **Evidence pointer** Results section, Tables 3-6; Discussion section
+  - **Concern** The central claim of multifunctionality is not supported by the evidence presented. The GO term predictions from COFACTOR are highly heterogeneous across the eight sequences, with no consistent functional theme emerging. For example, only one sequence (JF443720) is associated with immune response, and the predicted functions range from carbohydrate metabolism to DNA replication. The authors do not provide any statistical analysis to determine whether these GO terms are significantly enriched compared to what would be expected by chance. Furthermore, the link between predicted disorder and specific functions is purely speculative. The claim that disordered regions are "novel drug targets" is not substantiated by any docking, binding, or functional studies.
+  - **Why it matters** The title and abstract promise insights into "multiple functions beyond viral capsid." If the evidence does not support this claim, the manuscript's central thesis is undermined. Overinterpretation of computational predictions as functional evidence is a common pitfall that can mislead readers and the field.
+  - **Resolution test** The authors should either (a) provide a more conservative interpretation of their results, clearly stating that the predicted functions are hypotheses requiring experimental validation, or (b) strengthen the analysis by including statistical enrichment tests for GO terms, comparing their results to appropriate controls, and discussing the biological plausibility of each predicted function in the context of known ORF2 biology.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the modeled three dimensional (3D) structures of ORF2 showed the predominance of random coils or unstructured regions" and use this as initial evidence of disorder.
+  - **Evidence pointer** Results section, Table 1, Figure 2
+  - **Concern** The use of I-TASSER and Phyre2 for structure prediction is problematic for a protein that is predicted to be intrinsically disordered. These homology-based methods rely on templates from structured proteins and are not designed to accurately model disordered regions. The secondary structure percentages reported in Table 1 (e.g., 13% alpha helix, 36% beta strand for JF443720) are inconsistent with the claim of "predominance of random coils," and the authors do not explain how these values were derived from the structure prediction. The statement that "disorderness of proteins exists in loops only" (Discussion) is an oversimplification and not universally accepted.
+  - **Why it matters** The structural modeling is presented as a key initial finding, but the methodology is inappropriate for the question being asked. If the structural models are unreliable, the conclusions drawn from them are also unreliable. This undermines the credibility of the entire analysis.
+  - **Resolution test** The authors should either (a) remove the structural modeling section or clearly state its limitations, (b) use disorder-specific prediction tools (e.g., IUPred, PONDR) as the primary evidence for disorder, and (c) provide a more nuanced discussion of the relationship between secondary structure elements and disorder.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific soundness
+  - **Claim pointer** The authors claim that "the abundance of MoRFs in ORF2 was observed that signified their interaction with binding partners which might further assist in viral infection."
+  - **Evidence pointer** Results section, Table 4
+  - **Concern** The MoRF predictions are presented as a list of regions without any analysis of their significance. The authors do not compare the number or location of predicted MoRFs to what would be expected in a random protein sequence of similar length. No information is provided about the confidence scores of the predictions or the agreement between the three tools used. The claim that MoRFs "signify interaction with binding partners" is an assumption that is not tested. Furthermore, the authors do not discuss which specific binding partners might interact with these MoRFs or how this relates to viral infection.
+  - **Why it matters** MoRFs are a key piece of evidence for the multifunctionality claim. Without a rigorous analysis of their significance and functional relevance, the claim is unsupported.
+  - **Resolution test** The authors should (a) provide a statistical comparison of MoRF frequency in ORF2 versus appropriate controls, (b) discuss the agreement between prediction tools, and (c) relate the predicted MoRFs to known protein-protein interaction data for ORF2, if available.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific soundness
+  - **Claim pointer** The authors state that "the presence of several phosphorylation sites signified the involvement of ORF2 in diverse and significant biological processes."
+  - **Evidence pointer** Results section, Table 5, Figure 4
+  - **Concern** The phosphorylation analysis is purely predictive and lacks any experimental validation. The authors do not discuss whether any of the predicted phosphorylation sites have been experimentally confirmed in previous studies. The claim that phosphorylation sites "signify involvement in diverse biological processes" is a logical leap. The authors also do not discuss the functional significance of the specific residues predicted to be phosphorylated or how phosphorylation might regulate ORF2 function.
+  - **Why it matters** Phosphorylation is a key post-translational modification that can regulate protein function. However, computational predictions of phosphorylation sites are known to have high false-positive rates. Without experimental validation or at least a discussion of the biological context, the claim is not supported.
+  - **Resolution test** The authors should (a) compare their predicted phosphorylation sites with experimentally confirmed sites in the literature, (b) discuss the potential functional consequences of phosphorylation at these specific sites, and (c) acknowledge the limitations of computational phosphorylation prediction.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific soundness
+  - **Claim pointer** The authors claim that "the occurrence of IDPR/IDP in ORF2 protein suggests that its disordered region might serve as novel drug targets via functioning as potential interacting domains."
+  - **Evidence pointer** Conclusions section
+  - **Concern** The claim that disordered regions in ORF2 are "novel drug targets" is speculative and not supported by any data presented in the manuscript. No druggability analysis was performed, no comparison with known drug targets was made, and no discussion of the feasibility of targeting disordered regions was provided. The authors also do not discuss the potential challenges of targeting disordered proteins, which are generally considered difficult drug targets.
+  - **Why it matters** This claim is part of the manuscript's stated significance and is likely to attract attention. However, making unsupported claims about therapeutic potential can mislead readers and overstate the importance of the findings.
+  - **Resolution test** The authors should either (a) remove or significantly soften this claim, or (b) provide a more detailed discussion of the potential for targeting disordered regions in ORF2, including challenges and opportunities, based on the existing literature.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract and Background
+  - **Evidence pointer** Abstract, Background section
+  - **Issue** The abstract and background contain grammatical errors and awkward phrasing. For example, "the translation product of HEV ORF2 has recently been demonstrated as a protein involved in multiple functions" could be more clearly stated as "the translation product of HEV ORF2 has recently been shown to be involved in multiple functions." The background section also contains redundant statements about the importance of IDRs.
+  - **Required correction** The manuscript should be carefully edited for grammar and clarity. Redundant statements should be removed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section, "Disorder plot evaluation"
+  - **Issue** The methods section states that PONDR predictors were used "by considering its default parameters" but does not specify which version of the tools was used or provide URLs for reproducibility. The description of the DEPP tool is also incomplete.
+  - **Required correction** The methods section should include version numbers, URLs, and specific parameters for all prediction tools used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Results section, Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** Table 1 is titled "Secondary structure and disorder prediction by Phyre2" but the table includes data from I-TASSER as well. The table is not self-explanatory and the reader cannot determine which tool produced which data.
+  - **Required correction** The table should be split or clearly annotated to indicate which tool produced each set of predictions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Results section, Figure 2
+  - **Evidence pointer** Figure 2
+  - **Issue** The figure legend for Figure 2 is incomplete. It does not describe what the different colors or structural elements represent, nor does it explain how the models were generated.
+  - **Required correction** The figure legend should be expanded to include a full description of the models and the methods used to generate them.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific soundness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, paragraph 3
+  - **Issue** The discussion states that "coils/loops are not necessarily found within disorder protein segments, necessarily disorderness of proteins exists in loops only." This statement is confusing and appears to be a misrepresentation of the cited literature. The relationship between loops and disorder is more nuanced.
+  - **Required correction** The statement should be clarified and the citation should be checked for accuracy.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Results section, Table 6
+  - **Evidence pointer** Table 6
+  - **Issue** The GO terms in Table 6 are presented without any indication of statistical significance or confidence scores. The reader cannot assess the reliability of these predictions.
+  - **Required correction** The table should include confidence scores or a note about the limitations of the predictions.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Scientific soundness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section, paragraph 4
+  - **Issue** The discussion of phosphorylation states that "serines's hydroxyl group act as target for phosphorylation by protein kinases, within the disordered protein segments." This is a general statement that does not add specific insight to the ORF2 analysis.
+  - **Required correction** The discussion should focus on the specific predicted phosphorylation sites in ORF2 and their potential functional relevance.
+
+## Risk / unsupported claims
+- The claim that ORF2 is a "protein with multiple functions beyond viral capsid" is not supported by the computational evidence presented. The GO term predictions are heterogeneous and not statistically validated.
+- The claim that disordered regions in ORF2 "might serve as novel drug targets" is speculative and not supported by any druggability analysis or discussion of feasibility.
+- The claim that "the abundance of MoRFs in ORF2 was observed that signified their interaction with binding partners" is an overinterpretation. The presence of predicted MoRFs does not confirm actual binding interactions.
+- The claim that "the presence of several phosphorylation sites signified the involvement of ORF2 in diverse and significant biological processes" is not supported without experimental validation or comparison with known data.
+- The structural models generated by IUPred and I-TASSER are presented as evidence of disorder, but the methods are not appropriate for disordered proteins, and the results are not critically evaluated.
+- The statement that "disorderness of proteins exists in loops only" is an oversimplification and not universally accepted in the field.

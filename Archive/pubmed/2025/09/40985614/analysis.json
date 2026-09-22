@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40985614",
+  "title": "Multiphase separation in postsynaptic density regulated by membrane geometry via interaction valency and volume.",
+  "authors": "Yamada, Risa; Brandani, Giovanni B; Takada, Shoji",
+  "journal": "eLife",
+  "published_date": "2025-09-23",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用多尺度模拟研究突触后致密区膜上多相凝聚体的反转形态，揭示CaMKII多价性与体积效应在膜几何调控下的竞争机制，虽非AI方法但以物理模拟深入解析IDR相关PPI与相分离机制，高度契合本课题。",
+  "abstract": "Biomolecular condensates are found at various cellular locations, nucleus, cytoplasm, and membrane. These condensates often contain multiple components and can separate into multiple phases with various morphologies such as core-shell droplets, implicating functional roles. Demixing and arrangements of condensates are determined by competitive interactions and their locations. Recent studies reported a puzzling multiphase morphology in postsynaptic density components: AMPA receptor, NMDA receptor, PSD-95, and CaMKII. The multiphase morphology appears reversed when transitioning from the solution to the membrane. Using this system as a model, we study the multiphase behavior of condensates in solution (3D) and domain formation on and beneath the membrane (2D) and elucidate molecular mechanisms behind the puzzle. Our simulations reproduce the core-shell structure in 3D in vitro solution, where AMPA-receptor/PSD-95 form the core and NMDA-receptor/CaMKII form the shell, triggered by CaMKII activation. Then, we obtain a reversed morphology on the membrane. This reversal is primarily driven by CaMKII's high valency and large volume. We find that, in solution, CaMKII's non-specific volume interaction dominates, while on the membrane, specific multivalent interactions overcome the excluded volume interaction of CaMKII. The layered structures of receptors and CaMKIIs reduce the excluded volume effects of CaMKII on receptors, making the multivalent interaction dominant. These findings highlight the differences between condensate formation in solution and membrane domain formation, modulated by their layered arrangement.",
+  "abstract_zh": "生物分子凝聚体存在于细胞的不同位置，包括细胞核、细胞质和细胞膜。这些凝聚体通常包含多种组分，并能分离成具有多种形态的多相结构，如核-壳液滴，暗示其具有功能作用。凝聚体的去混合和排列由竞争性相互作用及其位置决定。近期研究报道了突触后密度组分中一个令人困惑的多相形态：AMPA受体、NMDA受体、PSD-95和CaMKII。当从溶液过渡到膜上时，这种多相形态出现反转。以该系统为模型，我们研究了溶液中（3D）凝聚体的多相行为以及膜上和膜下（2D）的结构域形成，并阐明了这一谜团背后的分子机制。我们的模拟重现了3D体外溶液中的核-壳结构，其中AMPA受体/PSD-95形成核心，NMDA受体/CaMKII形成壳层，由CaMKII激活触发。随后，我们在膜上获得了反转的形态。这种反转主要由CaMKII的高价性和大体积驱动。我们发现，在溶液中，CaMKII的非特异性体积相互作用占主导，而在膜上，特异性多价相互作用克服了CaMKII的排除体积效应。受体和CaMKII的分层结构减少了CaMKII对受体的排除体积效应，使多价相互作用占主导。这些发现强调了溶液中凝聚体形成与膜上结构域形成之间的差异，这些差异受其分层排列的调节。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40985614/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40985614/",
+  "paper_page_path": "papers/pubmed/40985614/index.html"
+}

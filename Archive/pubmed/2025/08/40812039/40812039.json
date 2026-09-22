@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "40812039",
+    "doi": "10.1016/j.colsurfb.2025.115037",
+    "title": "Molecular mechanism of self-activation induced by the intrinsically disordered region in Rac1b: Structural and functional insights."
+  },
+  "content": {
+    "abstract": "Rac1b is a splicing variant of the RAC1 gene, characterized by a 19-amino-acid (19AA) insertion between residues 75 and 76. Overexpression of Rac1b has been observed in various cancers, establishing it as a potential target for anticancer therapies. Similar to Rac1, Rac1b functions as a GTPase, cycling between an active GTP-bound state and an inactive GDP-bound state. However, due to the presence of the 19AA insertion, Rac1b undergoes GTP/GDP exchange independently of guanine nucleotide exchange factors (GEFs). Using combined molecular dynamics simulations and experimental approaches, we demonstrate that this insertion enhances the flexibility of the critical Switch I and Switch II regions, weakens Rac1b's interaction with Mg(2)(+), and reduces its GDP-binding affinity. Mechanistically, the 19AA insertion disrupts Switch I-II interactions, inducing a destabilizing \"see-saw\" dynamic in Switch I that facilitates rapid GDP dissociation. This mechanism resembles GEF-mediated Rac1 activation, suggesting that the 19AA insertion functionally mimics GEF activity. Furthermore, five distinct conformational sub-states were identified during Rac1b inactivation, revealing cryptic small-molecule binding pockets. These findings provide deeper insights into the role of intrinsically disordered regions in protein function and offer a structural foundation for the rational design of Rac1b-targeted inhibitors.",
+    "keywords": [
+      "GEF",
+      "Intrinsically disordered region",
+      "MD simulations",
+      "Rac1",
+      "Rac1b"
+    ],
+    "mesh_terms": [
+      "*rac1 GTP-Binding Protein/chemistry/metabolism/genetics",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "Guanosine Diphosphate/metabolism/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Binding",
+      "Guanosine Triphosphate/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Shuo",
+        "Jiang, Yabo",
+        "Yang, Hai",
+        "Yang, Zaixing",
+        "Jiao, Yang",
+        "Yu, Chanchan",
+        "Zhao, Huanyu",
+        "Meng, Xuanyu"
+      ],
+      "short_names": [
+        "Li S",
+        "Jiang Y",
+        "Yang H",
+        "Yang Z",
+        "Jiao Y",
+        "Yu C",
+        "Zhao H",
+        "Meng X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Quantitative Biology and Medicine, State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Collaborative Innovation Center of Radiological Medicine of Jiangsu Higher Education Institutions, Soochow University, Suzhou 215123, China.",
+        "The Six Department of Hepatic Surgery, Eastern Hepatobiliary Surgery Hospital, Navy Military Medical University, 225 Changhai Road, Shanghai, China.",
+        "Institute of Quantitative Biology and Medicine, State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Collaborative Innovation Center of Radiological Medicine of Jiangsu Higher Education Institutions, Soochow University, Suzhou 215123, China.",
+        "Institute of Quantitative Biology and Medicine, State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Collaborative Innovation Center of Radiological Medicine of Jiangsu Higher Education Institutions, Soochow University, Suzhou 215123, China.",
+        "Institute of Quantitative Biology and Medicine, State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Collaborative Innovation Center of Radiological Medicine of Jiangsu Higher Education Institutions, Soochow University, Suzhou 215123, China.",
+        "Institute of Quantitative Biology and Medicine, State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Collaborative Innovation Center of Radiological Medicine of Jiangsu Higher Education Institutions, Soochow University, Suzhou 215123, China.",
+        "Institute of Theoretical Chemistry, Jilin University, Changchun 130012, China.",
+        "Institute of Quantitative Biology and Medicine, State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Collaborative Innovation Center of Radiological Medicine of Jiangsu Higher Education Institutions, Soochow University, Suzhou 215123, China. Electronic address: xymeng@suda.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Shuo",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Quantitative Biology and Medicine, State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Collaborative Innovation Center of Radiological Medicine of Jiangsu Higher Education Institutions, Soochow University, Suzhou 215123, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yabo",
+        "short_name": "Jiang Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Six Department of Hepatic Surgery, Eastern Hepatobiliary Surgery Hospital, Navy Military Medical University, 225 Changhai Road, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Hai",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Quantitative Biology and Medicine, State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Collaborative Innovation Center of Radiological Medicine of Jiangsu Higher Education Institutions, Soochow University, Suzhou 215123, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Zaixing",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Quantitative Biology and Medicine, State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Collaborative Innovation Center of Radiological Medicine of Jiangsu Higher Education Institutions, Soochow University, Suzhou 215123, China."
+        ]
+      },
+      {
+        "full_name": "Jiao, Yang",
+        "short_name": "Jiao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Quantitative Biology and Medicine, State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Collaborative Innovation Center of Radiological Medicine of Jiangsu Higher Education Institutions, Soochow University, Suzhou 215123, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Chanchan",
+        "short_name": "Yu C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Quantitative Biology and Medicine, State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Collaborative Innovation Center of Radiological Medicine of Jiangsu Higher Education Institutions, Soochow University, Suzhou 215123, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Huanyu",
+        "short_name": "Zhao H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Theoretical Chemistry, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Xuanyu",
+        "short_name": "Meng X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Quantitative Biology and Medicine, State Key Laboratory of Radiation Medicine and Protection, School of Radiation Medicine and Protection, Collaborative Innovation Center of Radiological Medicine of Jiangsu Higher Education Institutions, Soochow University, Suzhou 215123, China. Electronic address: xymeng@suda.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Colloids and surfaces. B, Biointerfaces"
+    ],
+    "journal_abbrev": [
+      "Colloids Surf B Biointerfaces"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/14 22:52",
+    "fetched_at": "2026-09-21 22:26:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40812039",
+      "39632743",
+      "14625275",
+      "16472645",
+      "15850775",
+      "11513578",
+      "15557278",
+      "21390270",
+      "14506233",
+      "25846136",
+      "15709769",
+      "10843989",
+      "10871853",
+      "30891502",
+      "8740369",
+      "12475976",
+      "11595749",
+      "41352676",
+      "41034404",
+      "40548642",
+      "18505730",
+      "20395297",
+      "11513579",
+      "20174625",
+      "38501467",
+      "33418033",
+      "33497604",
+      "30981505",
+      "31811797",
+      "31457101",
+      "26542736",
+      "20363740",
+      "37059183",
+      "40543590",
+      "19356586",
+      "33848152",
+      "11114252",
+      "30714195",
+      "22106281",
+      "24378395",
+      "2491852",
+      "17363564",
+      "30621237",
+      "26453300",
+      "23617789",
+      "26718888",
+      "18093184",
+      "36781028",
+      "19942850",
+      "21828055",
+      "39241998",
+      "33347888",
+      "15516977",
+      "17497936",
+      "19602482",
+      "17452788",
+      "20479006",
+      "7980444",
+      "22887821",
+      "29106825",
+      "18000047",
+      "31601460",
+      "22275120",
+      "24308970",
+      "35167282",
+      "38014448",
+      "38857861",
+      "9763446",
+      "10748207",
+      "39670652",
+      "18644982",
+      "41427738",
+      "21112297",
+      "36762439",
+      "39098911",
+      "19499504",
+      "39999282",
+      "29967243",
+      "20018869",
+      "15817154",
+      "33135673",
+      "16413282",
+      "14597635",
+      "19745154",
+      "22144266",
+      "24146998",
+      "16551621",
+      "31601145",
+      "9194162",
+      "25047891",
+      "28726720",
+      "12213964",
+      "10998360",
+      "26902995",
+      "8049218",
+      "12878844",
+      "34877916",
+      "24787956",
+      "15242348",
+      "9223188"
+    ],
+    "review": [
+      "40812039",
+      "30621237",
+      "24308970"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0927-7765(25)00544-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-RAC1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

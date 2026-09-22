@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability)
+- **Assessment boundary** Scientific validity of the claims as presented in the manuscript; no assessment of reproducibility beyond what is described
+- **Shared manuscript claim summary** The authors propose two ensemble docking protocols (AutoDock Vina-based and DiffDock-based) for predicting relative binding affinities of small molecules to intrinsically disordered proteins (IDPs) and for characterizing their dynamic binding modes. They validate these protocols against experimental NMR data and long-timescale molecular dynamics simulations for a C-terminal fragment of α-synuclein.
+- **Visible evidence base** Abstract, full results section, discussion, methods, figure legends referenced in text, supplementary figure/table references
+- **Missing materials affecting confidence** Figures and supplementary materials not provided; specific numerical data (docking scores, correlation coefficients, RMSD distributions) only partially reported in text; no access to code or trajectories
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem: adapting docking methodologies to intrinsically disordered proteins, which are increasingly recognized as drug targets but are poorly served by conventional structure-based approaches. The proposed ensemble docking protocols are computationally efficient and conceptually sound. The validation against both experimental NMR data and long-timescale MD simulations is a strong feature. However, several technical concerns limit the strength of the conclusions as currently presented, particularly regarding the statistical treatment of comparisons, the interpretation of correlation coefficients, and the generalizability of the findings beyond the single test case.
+- **Who would be interested in the results, and why** Researchers in the fields of computational drug discovery, biophysics of disordered proteins, and medicinal chemistry targeting IDPs. The work is also relevant to method developers in molecular docking and to experimental groups studying α-synuclein and other IDP drug targets. The potential for high-throughput screening against IDPs makes this of interest to pharmaceutical research.
+- **Major strengths** The study addresses a clear gap in methodology. The use of experimentally validated MD ensembles as a benchmark is appropriate and rigorous. The comparison of two distinct docking approaches (physics-based and deep learning) provides useful insight. The analysis of binding modes at the level of conformational subpopulations is more sophisticated than typical docking studies. The computational efficiency of the proposed methods is a practical advantage.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** "All ensemble docking approaches predict the correct rank order of ligand affinities measured by NMR and predicted by long-time scale MD simulation."
+  - **Evidence pointer** Results section "Ensemble docking accurately predicts the relative affinities of small molecules to α-synuclein", Figure 2, SI Table 1
+  - **Concern** The claim of correct rank order is based on only three ligands. With three data points, any method that places the known highest-affinity ligand first and the known lowest-affinity ligand last would satisfy this criterion. The manuscript does not report confidence intervals or statistical tests for the differences in mean docking scores between ligands. The bootstrap uncertainties are mentioned but not reported in the text, making it impossible to assess whether the rank ordering is statistically robust.
+  - **Why it matters** The central claim of the paper is that ensemble docking can predict relative affinities. With only three ligands and no statistical assessment, the evidence is insufficient to establish this claim. A failure to demonstrate statistical separation between ligands would undermine the practical utility of the method.
+  - **Resolution test** Report the full distribution of bootstrap uncertainties for mean normalized docking scores for each ligand and each method. Provide a statistical test (e.g., permutation test or ANOVA with post-hoc comparisons) demonstrating that the differences in mean docking scores between ligands are significant. If possible, include additional ligands with known affinities to strengthen the rank-order claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation methodology
+  - **Claim pointer** "We demonstrate that these ensemble docking protocols accurately predict the relative binding affinities of small molecule α-synuclein ligands measured by NMR spectroscopy and generate conformational ensembles of ligand binding modes in remarkable agreement with experimentally validated long-timescale molecular dynamics simulations."
+  - **Evidence pointer** Results sections "Ensemble docking accurately reproduces IDP ligand binding modes..." and "Quantifying the similarity of ligand binding poses...", Figures 3-5, SI Tables 3-4
+  - **Concern** The validation of binding modes relies on comparisons between docked ensembles and MD ensembles. However, the MD ensembles themselves were used to define the t-SNE clusters onto which docking was performed. This creates a circularity: the docking results are evaluated against the same conformational states used to construct the docking input. The manuscript does not address how this circularity might inflate the apparent agreement.
+  - **Why it matters** If the t-SNE clusters are derived from the MD ensembles, then the comparison between docked poses and MD poses within those clusters is not an independent test of the docking method's ability to predict binding modes. The claim of "remarkable agreement" may be an artifact of the validation design.
+  - **Resolution test** Perform a truly prospective test: use an apo ensemble from an independent MD simulation (or from an ensemble generated by other means) that was not used to define the clusters, and assess whether docking onto that ensemble reproduces binding modes observed in the MD simulations with ligands present. Alternatively, demonstrate that the t-SNE clustering is not sensitive to the presence of the ligand and that the same clusters are obtained from apo and holo ensembles.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "Our results display the potential of ensemble docking approaches for predicting small molecule binding to IDPs and suggest that these methods may be valuable tools for IDP drug discovery campaigns."
+  - **Evidence pointer** Discussion section
+  - **Concern** The study is performed on a single 20-residue fragment of one IDP (α-synuclein) with three ligands. The fragment is highly charged and predominantly extended, which the authors acknowledge as a "difficult edge case." However, the generalizability of the findings to other IDPs, to full-length proteins, to larger ligands, or to IDPs with different sequence properties (e.g., more hydrophobic, more compact) is not demonstrated. The discussion acknowledges this but does not provide any preliminary data or a clear roadmap for how the method would be adapted.
+  - **Why it matters** The stated potential for drug discovery campaigns implies broad applicability. Without evidence on multiple systems, the claim of general utility is speculative. The method may work well for this specific fragment but fail for other IDPs with different conformational properties.
+  - **Resolution test** Include at least one additional IDP system with different sequence characteristics and a different set of ligands. Alternatively, clearly frame the manuscript as a proof-of-concept on a single system and temper the claims of general utility accordingly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** "We find that AutoDock Vina and DiffDock generate largely similar docked ensembles for α-syn-C-term but also identify some key differences."
+  - **Evidence pointer** Results section "Ensemble docking accurately reproduces IDP ligand binding modes...", SI Figures 11-17
+  - **Concern** The comparison between AutoDock Vina and DiffDock is described qualitatively. The manuscript does not provide a quantitative comparison of the two methods' performance, such as the distribution of correlation coefficients across clusters, the fraction of clusters where one method outperforms the other, or any statistical test of differences. The "key differences" are not enumerated or systematically characterized.
+  - **Why it matters** A central contribution of the paper is the comparison of two fundamentally different docking approaches. Without quantitative comparison, the reader cannot assess which method is more suitable for IDP docking or under what conditions one might be preferred.
+  - **Resolution test** Provide a systematic quantitative comparison: for each ligand and each cluster, report the correlation coefficients for both methods, and test whether the differences are statistically significant. Identify the specific interaction types or cluster properties where the methods diverge.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "AutoDock Vina ensemble docking"
+  - **Evidence pointer** Methods, "AutoDock Vina ensemble docking" paragraph
+  - **Issue** The description of the AutoDock Vina protocol states that "the ligand of interest is docked on every residue of the protein" with the search space "centered on the center of mass of each residue in a volume proportional to the ligand's radius of gyration." It is unclear how the volume is exactly determined from the radius of gyration and whether the search space overlaps between adjacent residues, which could lead to redundant sampling.
+  - **Required correction** Provide the exact formula or algorithm used to determine the search space dimensions from the radius of gyration. Clarify whether overlapping search spaces are permitted and how duplicate poses are handled.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Ensemble docking accurately predicts the relative affinities..."
+  - **Evidence pointer** Results, Figure 2, SI Table 1
+  - **Issue** The manuscript states that "MD binding affinities are defined as the fraction of frames in the MD simulation where at least one heavy atom of the ligand is within 6Å of at least one heavy atom of the protein." This is a binary contact definition that does not account for the strength or duration of contacts. The choice of 6Å is not justified.
+  - **Required correction** Justify the choice of 6Å cutoff or show that results are robust to reasonable variations in the cutoff. Consider reporting additional metrics such as average number of contacts or contact lifetimes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph 3
+  - **Issue** The discussion of previous ensemble docking studies for IDPs is brief and does not fully contextualize the novelty of the current approach. The authors mention one previous study on p53-NTD but do not discuss other relevant work on ensemble docking for flexible or disordered systems.
+  - **Required correction** Expand the discussion of prior work to include other ensemble docking approaches for flexible proteins and clearly articulate what is novel about the current protocols.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "DiffDock Ensemble docking"
+  - **Evidence pointer** Methods, "DiffDock Ensemble docking" paragraph
+  - **Issue** The description of DiffDock parameters is minimal: "the ligand was docked only once on each protein conformation using the default DiffDock parameters." It is unclear whether any preprocessing of the protein structures (e.g., protonation, energy minimization) was performed before docking.
+  - **Required correction** Specify any preprocessing steps and the exact version of DiffDock used. If default parameters were used, state this explicitly and reference the DiffDock publication.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "Quantifying the similarity of ligand binding poses..."
+  - **Evidence pointer** Results, Figure 5, Tables 1-2
+  - **Issue** The manuscript reports fractions of poses with RMSD below thresholds (3.0Å and 5.0Å) but does not report the full distribution or the median RMSD. The choice of thresholds is not justified.
+  - **Required correction** Report the full distribution of RMSD values (e.g., as cumulative distribution plots) and justify the choice of thresholds. Consider reporting median and interquartile ranges.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validity of rank-order claim), R1-M2 (circularity in validation design)
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of ensemble docking to IDPs with validation against both NMR and long-timescale MD is a novel contribution. The comparison of physics-based and deep learning docking methods in this context is also original. However, the core concept of ensemble docking is not new, and the novelty lies primarily in the specific application.
+  - Scientific importance: The problem addressed is important. IDPs are major drug targets, and the lack of computational tools for structure-based design against them is a significant gap. If the method is robust, it could have substantial impact.
+  - Interdisciplinary readership: The work bridges computational chemistry, biophysics, and drug discovery. The writing is generally accessible, though some sections assume familiarity with docking and MD terminology.
+  - Technical soundness: The methods are appropriate in principle, but the statistical treatment of the central claims is insufficient. The circularity concern in the validation design is a substantive technical issue.
+  - Readability for nonspecialists: The abstract and introduction are clear. The results section is dense but understandable. The methods section is appropriately detailed for specialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results are encouraging, but the statistical validity of the rank-order claim and the potential circularity in the validation design must be addressed before the conclusions can be considered established.
+
+## Risk / unsupported claims
+- The claim that "all ensemble docking approaches predict the correct rank order of ligand affinities" is not statistically supported with only three ligands and no reported significance testing.
+- The claim of "remarkable agreement" between docked and MD binding modes may be inflated by the circular use of MD-derived clusters for both docking input and validation.
+- The claim that the methods "may be valuable tools for IDP drug discovery campaigns" is speculative given the single test system.
+- The statement that "both approaches correctly rank the relative binding affinities" is not supported by quantitative comparison of the two methods' performance.
+- The claim that the ensemble docking protocols "generate conformational ensembles of ligand binding modes in remarkable agreement with experimentally validated long-timescale molecular dynamics simulations" is not fully supported because the agreement metrics are not comprehensively reported across all clusters and interaction types.

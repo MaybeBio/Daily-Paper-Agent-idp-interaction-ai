@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations, supported by NMR data on BAF mutants, to show that the intrinsically disordered N-terminal region of BAF becomes less flexible upon S4 phosphorylation and more so upon S4/T3 di-phosphorylation. They identify a dynamic salt bridge network involving pS4 and pT3 with residues in helices alpha1 and alpha6, and report that flexibility depends on ionic strength and pH, with H7 deprotonation reducing flexibility. They conclude that the conformation of this region is highly tunable.
+- **Visible evidence base** Abstract text only; no experimental details, simulation parameters, NMR spectra, or statistical analyses are provided
+- **Missing materials affecting confidence** Full methods for MD simulations (force field, sampling time, replica or enhanced sampling approaches, system setup), NMR experimental details (constructs, buffer conditions, pH values, ionic strengths, assignment completeness), mutant design and validation, quantitative flexibility metrics (e.g., RMSF, order parameters), and any statistical comparisons between conditions
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting hypothesis that phosphorylation and pH modulate the conformational ensemble of the BAF N-terminal region. However, the evidence base is too limited to evaluate the robustness of the claims. Key quantitative results, simulation validation, and NMR support are not visible. The central conclusion that a salt bridge network controls flexibility is asserted without showing the underlying data. The work may be of interest to the structural biology and intrinsically disordered protein communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, phosphorylation-dependent regulation, and protein-DNA interactions in genome maintenance. The work could also interest those developing or applying MD methods to disordered regions, as it proposes a specific electrostatic mechanism for conformational tuning.
+- **Major strengths** The study addresses a biologically relevant question about how post-translational modifications and environmental conditions modulate an intrinsically disordered region. The combination of MD and NMR is appropriate for this problem. The focus on a dynamic salt bridge network is mechanistically specific and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that S4 phosphorylation reduces flexibility and S4/T3 di-phosphorylation reduces it to a larger extent, and that this is due to a dynamic salt bridge network involving pS4 and pT3 with residues in helices alpha1 and alpha6.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data (e.g., RMSF values, order parameters, or free energy differences) to support the claimed reduction in flexibility. The salt bridge network is described qualitatively, and no evidence is shown that these interactions are persistent or functionally relevant. The NMR support is mentioned but not detailed.
+  - **Why it matters** Without quantitative measures and evidence for the specific interactions, the central mechanistic claim cannot be evaluated. The reader cannot assess whether the observed effects are significant or within simulation error.
+  - **Resolution test** Provide quantitative flexibility metrics for each phosphorylation state, show representative salt bridge occupancy or lifetime data, and present NMR-derived chemical shift or relaxation data that corroborate the MD findings.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that flexibility depends on ionic strength and pH, and that H7 deprotonation reduces flexibility.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states these dependencies but provides no simulation conditions, pH values, ionic strength ranges, or data showing the effect. The role of H7 is asserted without showing titration behavior or pKa calculations.
+  - **Why it matters** pH and ionic strength effects are central to the claim of tunability. Without specifying conditions and showing the response, the claim is unsupported and cannot be reproduced or assessed.
+  - **Resolution test** Specify the range of ionic strengths and pH values tested, show the corresponding flexibility metrics, and provide evidence for H7 protonation state (e.g., constant-pH MD or NMR pH titration).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that MD was supported by NMR studies of several BAF mutants.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not identify which mutants were made, what they were designed to test, or how the NMR data were used to support the MD results. No validation metrics are given.
+  - **Why it matters** The claim of MD-NMR agreement is central to the credibility of the simulations. Without details on mutant design and comparison criteria, the support is unverifiable.
+  - **Resolution test** List the mutants, their expected effects on the salt bridge network, and show quantitative agreement between MD predictions and NMR observables (e.g., chemical shift perturbations or relaxation rates).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, statement on "intrinsic flexibility observed in the N-terminal region"
+  - **Issue** The term "intrinsic flexibility" is used without defining the baseline condition (e.g., unphosphorylated state at specific pH and ionic strength).
+  - **Required correction** Specify the reference conditions for the baseline flexibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract statement on "two negative charges of the phosphoryl groups"
+  - **Evidence pointer** Abstract, statement on di-phosphorylation requirement
+  - **Issue** The claim that two negative charges are required is not supported by a comparison with mono-phosphorylation at a different site or with phosphomimetic mutations.
+  - **Required correction** Clarify whether the effect is due to charge number or specific site identity, and state if any control simulations were performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Abstract conclusion on "highly tunable" conformation
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The link between tunability and "diverse functions" is speculative and not developed.
+  - **Required correction** Either provide a specific functional hypothesis or temper the claim to avoid overreach.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative data, simulation conditions, and mutant validation means the central claims are not currently supported by the provided material.
+- **Assessment against Nature-style criteria** Originality: The idea that phosphorylation and pH jointly tune a disordered region via a salt bridge network is moderately original, but similar mechanisms have been proposed for other disordered proteins. Scientific importance: The work could be important for understanding BAF regulation, but the significance is not fully demonstrated from the abstract. Interdisciplinary readership: The topic may appeal to structural biologists, biophysicists, and cell biologists, but the abstract is too technical for a broad audience. Technical soundness: Not assessable from the abstract; key methods and validation are missing. Readability for nonspecialists: The abstract is dense and assumes familiarity with MD and NMR terminology, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible but require full methods, quantitative results, and validation data to be assessed. A revised manuscript with complete evidence could be supportive.
+
+## Risk / unsupported claims
+- The claim that S4 phosphorylation reduces flexibility and S4/T3 di-phosphorylation reduces it further is unsupported without quantitative data.
+- The claim that a dynamic salt bridge network involving pS4 and pT3 with helix alpha1 and alpha6 residues is responsible for the conformational restriction is unsupported without interaction analysis.
+- The claim that flexibility depends on ionic strength and pH is unsupported without specified conditions and data.
+- The claim that H7 deprotonation reduces flexibility is unsupported without titration or pKa evidence.
+- The claim that MD is supported by NMR studies of BAF mutants is unverifiable without mutant details and comparison metrics.
+- The conclusion that the conformation is "highly tunable" and related to diverse functions is speculative.

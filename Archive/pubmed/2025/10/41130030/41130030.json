@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "41130030",
+    "doi": "10.1016/j.carres.2025.109708",
+    "title": "Molecular dynamics study of the impact of glycosylation on conformational properties of trimeric N-terminal domain of human copper transporter 1."
+  },
+  "content": {
+    "abstract": "In this study, we investigate how N- and O-glycosylation affect the structure and dynamics of the disordered N-terminal extracellular domain of human copper transporter 1 (hCtr1), a trimeric transmembrane protein responsible for cellular copper uptake. Copper is an essential trace element, with both deficiency and excess linked to severe disorders. In mammals, its homeostasis is tightly regulated by proteins involved in copper transport and storage. The N-terminal region of hCtr1, comprising 65 amino acids, contains specific copper-binding motifs critical for its function but remains structurally uncharacterized due to its intrinsically disordered nature. This domain can be N- and O-glycosylated at Asn15 and Thr27, respectively, with the latter potentially influencing its physiological function. However, the structural consequences of these modifications remain unclear. We built a trimeric model of the hCtr1 N-terminal domain and performed microsecond-scale molecular dynamics simulations for both glycosylated and non-glycosylated forms. The resulting conformational ensembles revealed unimodal distributions across structural and dynamical descriptors, consistent with disordered behaviour and showing no significant impact of glycosylation. These findings enhance our understanding of the structural flexibility of hCtr1 and provide a foundation for future studies into its structure, function and regulation.",
+    "keywords": [
+      "Conformational analysis",
+      "Copper transporter 1",
+      "Glycosylation",
+      "Intrinsically disordered protein",
+      "Molecular dynamics",
+      "Molecular modeling"
+    ],
+    "mesh_terms": [
+      "Glycosylation",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "*Copper Transporter 1/chemistry",
+      "*Cation Transport Proteins/chemistry/metabolism",
+      "Protein Domains",
+      "Copper/metabolism",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Samsonov, Sergey A",
+        "Fraczyk, Tomasz",
+        "Ufnalska, Iwona",
+        "Bal, Wojciech"
+      ],
+      "short_names": [
+        "Samsonov SA",
+        "Fraczyk T",
+        "Ufnalska I",
+        "Bal W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Faculty of Chemistry, University of Gdansk, ul, Wita Stwosza 63, 80-308, Gdansk, Poland. Electronic address: sergey.samsonov@ug.edu.pl.",
+        "Institute of Biochemistry and Biophysics, Polish Academy of Sciences, Pawinskiego 5a, 02-106, Warsaw, Poland.",
+        "Institute of Biochemistry and Biophysics, Polish Academy of Sciences, Pawinskiego 5a, 02-106, Warsaw, Poland.",
+        "Institute of Biochemistry and Biophysics, Polish Academy of Sciences, Pawinskiego 5a, 02-106, Warsaw, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Samsonov, Sergey A",
+        "short_name": "Samsonov SA",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Chemistry, University of Gdańsk, ul, Wita Stwosza 63, 80-308, Gdańsk, Poland. Electronic address: sergey.samsonov@ug.edu.pl."
+        ]
+      },
+      {
+        "full_name": "Frączyk, Tomasz",
+        "short_name": "Frączyk T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Biophysics, Polish Academy of Sciences, Pawińskiego 5a, 02-106, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Ufnalska, Iwona",
+        "short_name": "Ufnalska I",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Biophysics, Polish Academy of Sciences, Pawińskiego 5a, 02-106, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Bal, Wojciech",
+        "short_name": "Bal W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Biophysics, Polish Academy of Sciences, Pawińskiego 5a, 02-106, Warsaw, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Carbohydrate research"
+    ],
+    "journal_abbrev": [
+      "Carbohydr Res"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/24 00:26",
+    "fetched_at": "2026-09-17 21:23:13"
+  },
+  "links": {
+    "cites": [
+      "41463392"
+    ],
+    "refs": [],
+    "similar": [
+      "41130030",
+      "39858521",
+      "17525160",
+      "19684018",
+      "35202609",
+      "19669174",
+      "20534491",
+      "23658018",
+      "12034741",
+      "19570948",
+      "22569840",
+      "19240214",
+      "15326162",
+      "31461100",
+      "12466020",
+      "22962276",
+      "22172574",
+      "20451502",
+      "39231533",
+      "31083932",
+      "22552365",
+      "14976198",
+      "16135512",
+      "19740744",
+      "18483225",
+      "19813030",
+      "24447817",
+      "20519567",
+      "15634665",
+      "17211682",
+      "26061257",
+      "23543413",
+      "15634647",
+      "23642142",
+      "16356544",
+      "24132751",
+      "17627945",
+      "11734551",
+      "30489586",
+      "24639459",
+      "24837030",
+      "19449859",
+      "12501239",
+      "12023893",
+      "17959139",
+      "15229296",
+      "21258844",
+      "24122978",
+      "35090891",
+      "36409899",
+      "41463392",
+      "22068728",
+      "37026711",
+      "19088072",
+      "23962988",
+      "23075277",
+      "28383086",
+      "22615137",
+      "20224886",
+      "17211679",
+      "25091475",
+      "19856191",
+      "18523133",
+      "41494012",
+      "26411623",
+      "41387689",
+      "26004625",
+      "21375246",
+      "26618856",
+      "39093570",
+      "29402466",
+      "12532272",
+      "30327321",
+      "21387471",
+      "25794362",
+      "24706876",
+      "25253690",
+      "26778425",
+      "36208051",
+      "24703712",
+      "15134922",
+      "18203200",
+      "24967972",
+      "28551160",
+      "20078131",
+      "23675861",
+      "26745404",
+      "19878721",
+      "17627943",
+      "12827356",
+      "33030907",
+      "28271598",
+      "17108132",
+      "21788094",
+      "32396355",
+      "12029094",
+      "40707521",
+      "25666620",
+      "22555879",
+      "40702731"
+    ],
+    "review": [
+      "41130030",
+      "22962276",
+      "19813030",
+      "17211682",
+      "24122978",
+      "41463392",
+      "17211679",
+      "26004625",
+      "39093570",
+      "12532272",
+      "24703712",
+      "26745404",
+      "12827356"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0008-6215(25)00334-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SLC31A1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

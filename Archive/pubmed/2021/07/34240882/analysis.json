@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34240882",
+  "title": "Mechanistic Insights on ATP's Role as a Hydrotrope.",
+  "authors": "Sarkar, Susmita; Mondal, Jagannath",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-07-10",
+  "window": {
+    "start": "2021-07-05",
+    "end": "2021-07-11"
+  },
+  "score": 7,
+  "one_liner_zh": "通过粗粒化模拟揭示ATP作为水溶助剂通过优先结合并协同电荷作用解聚疏水/带电大分子组装、抑制凝聚体的机制，虽对象为模型大分子而非真实IDP，但机制建模思路对无序蛋白相分离PPI调控有直接启发。",
+  "abstract": "Hydrotropes are the small amphiphilic molecules which help in solubilizing hydrophobic entities in an aqueous medium. Recent experimental investigation has provided convincing evidence that adenosine triphosphate (ATP), besides being the energy currency of cell, also can act as a hydrotrope to inhibit the formation of protein condensates. In this work, we have designed computer simulations of prototypical macromolecules in aqueous ATP solution to dissect the molecular mechanism underlying ATP's newly discovered role as a hydrotrope. The simulation demonstrates that ATP can unfold a single chain of hydrophobic macromolecule as well as can disrupt the aggregation process of a hydrophobic assembly. Moreover, the introduction of charges in the macromolecule is found to reinforce ATP's disaggregation effects in a synergistic fashion, a behavior reminiscent of recent experimental observation of pronounced hydrotropic action of ATP in intrinsically disordered proteins. Molecular analysis indicates that this newfound ability of ATP is ingrained in its propensity of preferential binding to the polymer surface, which gets fortified in the presence of charges. The investigation also renders evidence that the key to the ATP's superior hydrotropic role over chemical hydrotropes (sodium xylene sulfonate, NaXS) may lie in its inherent self-aggregation propensity. Overall, via employing a bottom-up approach, the current investigation provides fresh mechanistic insights into the dual solubilizing and denaturing abilities of ATP.",
+  "abstract_zh": "水溶助剂（hydrotropes）是小型两亲性分子，有助于在水介质中溶解疏水实体。最近的实验研究提供了令人信服的证据，表明三磷酸腺苷（ATP）除了作为细胞的能量货币外，还能充当水溶助剂，抑制蛋白质凝聚体的形成。在本工作中，我们设计了典型大分子在水性ATP溶液中的计算机模拟，以剖析ATP作为水溶助剂这一新发现角色背后的分子机制。模拟表明，ATP能够展开疏水大分子的单链，并能破坏疏水组装体的聚集过程。此外，发现在大分子中引入电荷会以协同方式增强ATP的解聚效应，这一行为 reminiscent 了最近在 intrinsically disordered proteins 中观察到的ATP显著水溶助作用的实验现象。分子分析表明，ATP的这一新能力根植于其对聚合物表面的优先结合倾向，而这种倾向在电荷存在时得到加强。本研究还提供了证据，表明ATP优于化学水溶助剂（如二甲苯磺酸钠，NaXS）的关键可能在于其固有的自聚集倾向。总体而言，通过采用自下而上的方法，本研究为ATP的双重增溶和变性能力提供了新的机制性见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34240882/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34240882/",
+  "paper_page_path": "papers/pubmed/34240882/index.html"
+}

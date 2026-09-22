@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38376900",
+  "title": "Diameter dependence of transport through nuclear pore complex mimics studied using optical nanopores.",
+  "authors": "Klughammer, Nils; Barth, Anders; Dekker, Maurice; Fragasso, Alessio; Onck, Patrick R; Dekker, Cees",
+  "journal": "eLife",
+  "published_date": "2024-02-20",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用光学纳米孔模拟核孔复合物，结合粗粒化分子动力学研究FG-无序蛋白Nsp1网格对转运受体与惰性蛋白的选择性通透机制，虽对象为NPC模拟体系而非直接PPI，但无序蛋白介导的分子识别与动态网格机制建模对本课题有启发。",
+  "abstract": "The nuclear pore complex (NPC) regulates the selective transport of large biomolecules through the nuclear envelope. As a model system for nuclear transport, we construct NPC mimics by functionalizing the pore walls of freestanding palladium zero-mode waveguides with the FG-nucleoporin Nsp1. This approach enables the measurement of single-molecule translocations through individual pores using optical detection. We probe the selectivity of Nsp1-coated pores by quantitatively comparing the translocation rates of the nuclear transport receptor Kap95 to the inert probe BSA over a wide range of pore sizes from 35 nm to 160 nm. Pores below 55 +/- 5 nm show significant selectivity that gradually decreases for larger pores. This finding is corroborated by coarse-grained molecular dynamics simulations of the Nsp1 mesh within the pore, which suggest that leakage of BSA occurs by diffusion through transient openings within the dynamic mesh. Furthermore, we experimentally observe a modulation of the BSA permeation when varying the concentration of Kap95. The results demonstrate the potential of single-molecule fluorescence measurements on biomimetic NPCs to elucidate the principles of nuclear transport.",
+  "abstract_zh": "核孔复合体（NPC）调控大分子生物通过核膜的选择性转运。作为核转运的模型系统，我们通过将游离钯零模波导的孔壁功能化，并修饰FG-核孔蛋白Nsp1，构建了NPC模拟物。该方法利用光学检测实现了对单个孔内单分子转位的测量。我们通过定量比较核转运受体Kap95与惰性探针BSA在35 nm至160 nm宽范围孔径下的转位速率，探究了Nsp1包被孔的选择性。低于55 ± 5 nm的孔表现出显著的选择性，而较大孔的选择性则逐渐降低。这一发现得到了孔内Nsp1网格的粗粒化分子动力学模拟的支持，模拟表明BSA的泄漏是通过动态网格中瞬时开口的扩散发生的。此外，我们实验观察到改变Kap95浓度时BSA渗透性的调节。这些结果展示了仿生NPC上单分子荧光测量的潜力，有助于阐明核转运的原理。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38376900/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38376900/",
+  "paper_page_path": "papers/pubmed/38376900/index.html"
+}

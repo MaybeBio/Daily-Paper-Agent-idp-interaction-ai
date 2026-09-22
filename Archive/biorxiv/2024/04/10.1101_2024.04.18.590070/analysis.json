@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.18.590070",
+  "title": "A protein condensation network contextualises cell fate decisions",
+  "authors": "Peskett TR; Lee SS; Barral Y",
+  "journal": "bioRxiv",
+  "published_date": "2024-04-18",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究酵母中Whi3等核蛋白凝聚体网络如何整合衰老与信息素刺激信号、调控细胞命运决定，属于IDR/相分离介导的蛋白互作与功能机制研究，但方法以实验为主，缺乏AI或物理模拟建模，故评8分。",
+  "abstract": "<h4>Summary</h4> For cells to thrive, they must make appropriate fate decisions based on a myriad of internal and external stimuli. But how do they integrate these different forms of information to contextualise their decisions? Old yeast cells showed an ability to dampen their proliferation as they entered senescence. Conversely, they had an enhanced ability to promote proliferation during escape from pheromone stimulation. A network of nucleoprotein condensation states involving processing bodies (P-bodies) and the prion-like RNA-binding protein, Whi3, controlled these opposing fate decisions. In old but not in young cells, condensation of Whi3 was both necessary and sufficient for senescence entry. In old cells, Whi3 localised to age-dependent P-bodies. Preventing their formation stopped Whi3 condensation from driving senescence entry. Challenging old cells with an external stimulus, pheromone, revealed that the condensates had a second function: potentiating the cell’s ability to trigger escape from the mating pheromone response. These findings identify biomolecular condensation as an integrator of contextual information as cells make decisions, enabling them to navigate overlapping life events.",
+  "abstract_zh": "<h4>摘要</h4> 为了细胞能够茁壮成长，它们必须基于众多内部和外部刺激做出适当的命运决定。但它们如何整合这些不同形式的信息来情境化其决策呢？老酵母细胞在进入衰老期时表现出抑制增殖的能力。相反，在逃避信息素刺激时，它们增强促进增殖的能力。涉及加工体（P-bodies）和朊病毒样RNA结合蛋白Whi3的核蛋白凝聚状态网络控制了这些对立的命运决定。在老年细胞而非年轻细胞中，Whi3的凝聚对于衰老进入既是必要的也是充分的。在老年细胞中，Whi3定位于年龄依赖性的P-bodies。阻止其形成可停止Whi3凝聚驱动衰老进入。用外部刺激信息素挑战老年细胞，揭示出凝聚体具有第二个功能：增强细胞触发逃避交配信息素反应的能力。这些发现将生物分子凝聚识别为细胞做决策时情境信息的整合器，使它们能够导航重叠的生命事件。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.18.590070",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.18.590070",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.18.590070/index.html"
+}

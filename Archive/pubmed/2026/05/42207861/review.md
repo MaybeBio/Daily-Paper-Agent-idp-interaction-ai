@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors use multiscale simulations of alpha-synuclein (alphaS) wild-type and five familial mutants to compute early dimerization kinetics, dimer interaction energies, and protofilament binding free energies. They report that the time scale of WT-mutant heterodimer formation is a statistically informative predictor of Parkinson's disease age of onset, whereas homodimer formation kinetics and heterodimer protofilament binding affinities are not. Homodimer protofilament binding free energies show only moderate correlation. The authors interpret these results as consistent with a two-stage aggregation process in which early oligomeric dynamics contribute to clinically relevant aggregation behavior.
+- **Visible evidence base** Abstract text only. No quantitative results, statistical details, simulation parameters, or validation data are visible.
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, statistical analysis details, simulation convergence criteria, force field parameters, and any validation against experimental data. Without these, the central predictive claim cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis linking early heterodimerization kinetics of alpha-synuclein mutants to clinical age of onset in Parkinson's disease. The conceptual framing is attractive and the two-stage aggregation model is plausible. However, the abstract alone provides insufficient evidence to evaluate the robustness of the statistical claim, the quality of the simulation methodology, or the biological significance of the reported correlations. The phrase "fail miserably" is informal and unsupported by any visible quantitative comparison. The central claim that heterodimer formation kinetics predict age of onset requires careful statistical validation, including correction for multiple comparisons, sensitivity analysis, and demonstration that the predictor outperforms trivial alternatives. As presented, the case is not established.
+- **Who would be interested in the results, and why** Researchers in protein misfolding and aggregation, computational biophysics, and translational neurology would be interested. The work addresses a long-standing gap between molecular simulation of aggregation and clinical phenotypes, and if validated, could inform patient stratification or therapeutic timing in Parkinson's disease. The methodological combination of coarse-grained and atomistic simulations is also of interest to the simulation community.
+- **Major strengths** The hypothesis is clinically relevant and addresses a real gap in the field. The multiscale approach, combining CG kinetics with atomistic energetics, is methodologically ambitious. The explicit comparison of homo- versus heterodimeric species and early versus late-stage descriptors is a thoughtful design. The conclusion that late-stage fibril stability alone does not determine disease initiation is a useful conceptual contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** "The time scale of WT-mutant heterodimer formation emerges as a statistically informative predictor of age of onset"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a statistically informative predictor but provides no statistical details. No correlation coefficients, p-values, confidence intervals, sample sizes, or multiple-comparison corrections are given. With only five familial mutants, the effective sample size is extremely small, and the risk of overfitting or spurious correlation is high. The term "statistically informative" is undefined.
+  - **Why it matters** The central claim of the paper rests entirely on this statistical association. Without transparent reporting of the statistical framework, the reader cannot judge whether the finding is robust or an artifact of small-sample analysis. A predictor based on five data points is inherently fragile.
+  - **Resolution test** Provide the full statistical analysis, including the correlation coefficient, p-value, confidence interval, and a multiple-comparison correction across all tested descriptors. Demonstrate that the heterodimer kinetics predictor remains significant after correction and that the result is not driven by a single outlier mutant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** "Using a multiscale simulation framework, we combine coarse-grained (CG) models to quantify the kinetics of early dimerization with atomistic simulations to estimate dimer interaction energies"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No information is provided on the simulation methodology, including force field parameters, system setup, simulation length, convergence criteria, or validation against experimental data. For intrinsically disordered proteins, simulation results are highly sensitive to force field choice and sampling strategy. Without this information, the reliability of the computed kinetic and thermodynamic descriptors cannot be assessed.
+  - **Why it matters** The predictive claim depends entirely on the accuracy of the simulated descriptors. If the simulations are not converged or the force fields are inappropriate for disordered proteins, the reported correlations could be artifacts of the model rather than reflections of biology.
+  - **Resolution test** Provide a detailed methods section describing force fields, simulation protocols, convergence checks, and any benchmarking against experimental dimerization or aggregation data. Show that the computed descriptors are robust to reasonable variations in simulation parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Clinical relevance and causal inference
+  - **Claim pointer** "The time scale of WT-mutant heterodimer formation emerges as a statistically informative predictor of age of onset"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract implies a predictive relationship between a simulated molecular descriptor and a clinical phenotype, but no information is given on how age of onset data were obtained, how the five familial mutants were selected, or whether the correlation is confounded by other factors such as mutation location, expression levels, or clinical heterogeneity. Correlation does not establish causation, and the abstract does not acknowledge this limitation.
+  - **Why it matters** The clinical relevance of the finding depends on whether the correlation is biologically meaningful and not confounded. If the five mutants differ systematically in ways unrelated to heterodimerization kinetics, the reported predictor could be spurious.
+  - **Resolution test** Provide details on the clinical data source, inclusion criteria, and a discussion of potential confounders. If possible, test the predictor on additional mutants or independent datasets. Acknowledge the correlational nature of the finding and the limits of inference from five mutants.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of negative results
+  - **Claim pointer** "homodimer formation kinetics and heterodimer protofilament binding affinities fail miserably"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The phrase "fail miserably" is informal and does not convey the quantitative extent of the failure. It is unclear whether these descriptors showed no correlation, weak correlation, or correlation in the wrong direction. The abstract also does not explain why these negative results are informative.
+  - **Why it matters** Negative results are valuable, but only if reported with sufficient quantitative detail to allow comparison with the positive finding. The current phrasing is vague and undermines the scientific tone of the abstract.
+  - **Resolution test** Replace the informal phrasing with quantitative descriptions, such as correlation coefficients and p-values, for all tested descriptors. Explain what the negative results imply for the proposed two-stage model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract phrasing
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "fail miserably" is informal and inappropriate for a scientific abstract.
+  - **Required correction** Replace with a neutral quantitative statement, such as "showed no significant correlation" or "were not predictive."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "statistically informative predictor"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "statistically informative" is vague and not standard in the statistical literature.
+  - **Required correction** Specify the statistical measure used, such as Pearson or Spearman correlation, and report the corresponding coefficient and p-value.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "two-stage aggregation process"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The two-stage model is mentioned only in the final sentence and is not defined or contextualized.
+  - **Required correction** Briefly define the two stages and explain how the results specifically support this model over alternative interpretations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical validity), R1-M2 (methodological validation), R1-M3 (clinical relevance and causal inference). These are blocking because the central predictive claim cannot be evaluated without statistical detail, simulation methodology, and clinical data provenance.
+- **Assessment against Nature-style criteria** Originality: the idea of linking early heterodimerization kinetics to clinical age of onset is novel and potentially valuable. Scientific importance: if validated, the finding could inform understanding of disease initiation and patient stratification, but the current evidence is insufficient to establish importance. Interdisciplinary readership: the topic bridges biophysics and clinical neurology, which is attractive, but the abstract is too thin to engage either community fully. Technical soundness: cannot be assessed from the abstract alone; the lack of methodological detail is a major limitation. Readability for nonspecialists: the abstract is generally readable, but the informal phrasing and undefined statistical terms detract from clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is ambitious, but the abstract does not provide sufficient statistical, methodological, or clinical detail to support the central claim. I would be supportive if the full manuscript addresses the blocking concerns, particularly the statistical robustness of the predictor and the validation of the simulation methodology.
+
+## Risk / unsupported claims
+- The claim that WT-mutant heterodimer formation kinetics is a statistically informative predictor of age of onset is unsupported without statistical details.
+- The claim that homodimer formation kinetics and heterodimer protofilament binding affinities "fail miserably" is unsupported without quantitative results.
+- The claim that homodimer protofilament binding free energies display "moderate correlation" is unsupported without correlation coefficients.
+- The interpretation that the results are consistent with a two-stage aggregation process is speculative and not directly tested.
+- The clinical relevance of the findings cannot be assessed without information on the age of onset data and potential confounders.

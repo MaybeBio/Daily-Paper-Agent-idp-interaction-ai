@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "41223292",
+    "doi": "10.1021/acs.langmuir.5c04826",
+    "title": "Poly(1-naphthylamine)-Reinforced Chitosan Films for Smart Packaging: Enhanced Mechanical, Morphological, and Antibacterial Properties."
+  },
+  "content": {
+    "abstract": "The development of sustainable smart packaging materials has driven interest in chitosan (CS) films, reinforced with conducting polymers. In the present work, poly(1-naphthylamine) (PNA) was incorporated into CS matrix at low weight fractions (0.15-1.0 wt %) of PNA to produce composite films with enhanced mechanical and antibacterial performance. Characterizations using Fourier transform infrared, X-ray photoelectron, ultraviolet-visible, and fluorescence spectroscopy revealed significant interfacial interactions, as evidenced by distinct shifts in characteristic absorption peaks and the appearance of polaronic signatures. SEM and confocal imaging confirmed homogeneous PNA dispersion up to 0.5 wt %. The morphological transition from uniform network domains to the formation of agglomerates causes phase separation, which was noticed in composite films with higher PNA content (0.75 and 1 wt %). Mechanical testing indicated a substantial increase in tensile strength to 40 MPa for 0.15-PNA/CS compared to  approximately 5 MPa for pristine CS. The hybrid films exhibited reduced moisture uptake <20% and improved antibacterial activity against Bacillus subtilis, with zones of inhibition increasing from  approximately 0.9 cm for CS to 1.5-2.0 cm for PNA/CS composites. Molecular docking studies supported these findings, showing PNA bound strongly to bacterial target proteins, with the highest affinity (-10.0 kcal mol(-1)) at cavity 3 involving residues HIS353, GLU352, ASP339, and ARG364. Additional binding at cavities 1 and 2 (-7.9 and -7.0 kcal mol(-1)) suggests multisite inhibition of bacterial function. Collectively, these results demonstrate that PNA/CS hybrid films combine structural integrity, moisture resistance, and antimicrobial efficacy, making them promising candidates for active food packaging applications.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chitosan/chemistry/pharmacology",
+      "*Anti-Bacterial Agents/pharmacology/chemistry",
+      "Bacillus subtilis/drug effects",
+      "Microbial Sensitivity Tests",
+      "Food Packaging",
+      "Escherichia coli/drug effects",
+      "Tensile Strength"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Taylor, Mary",
+        "Jenkins, Jayla",
+        "Rodriguez, Cristian",
+        "Adcock, Audrey",
+        "Yang, Liju",
+        "Mohiuddin, Mohammad",
+        "Riaz, Ufana"
+      ],
+      "short_names": [
+        "Taylor M",
+        "Jenkins J",
+        "Rodriguez C",
+        "Adcock A",
+        "Yang L",
+        "Mohiuddin M",
+        "Riaz U"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4776-7597",
+        "ORCID: 0000-0001-7485-4103"
+      ],
+      "affiliations": [
+        "Julius L. Chambers Biomedical/Biotechnology Research Institute (BBRI), North Carolina Central University, 1801 Fayetteville St., Durham, North Carolina 27707, United States.",
+        "School of Packaging, Michigan State University, 110 Packaging Building 448 Wilson Road, East Lansing, Michigan 48824-1223, United States.",
+        "Julius L. Chambers Biomedical/Biotechnology Research Institute (BBRI), North Carolina Central University, 1801 Fayetteville St., Durham, North Carolina 27707, United States.",
+        "Biomanufacturing Research Institute and Technology Enterprise, North Carolina Central University, 1801 Fayetteville St., Durham, North Carolina 27707, United States.",
+        "Biomanufacturing Research Institute and Technology Enterprise, North Carolina Central University, 1801 Fayetteville St., Durham, North Carolina 27707, United States.",
+        "Biomanufacturing Research Institute and Technology Enterprise, North Carolina Central University, 1801 Fayetteville St., Durham, North Carolina 27707, United States.",
+        "School of Packaging, Michigan State University, 110 Packaging Building 448 Wilson Road, East Lansing, Michigan 48824-1223, United States.",
+        "Julius L. Chambers Biomedical/Biotechnology Research Institute (BBRI), North Carolina Central University, 1801 Fayetteville St., Durham, North Carolina 27707, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Taylor, Mary",
+        "short_name": "Taylor M",
+        "identifiers": [],
+        "affiliations": [
+          "Julius L. Chambers Biomedical/Biotechnology Research Institute (BBRI), North Carolina Central University, 1801 Fayetteville St., Durham, North Carolina 27707, United States.",
+          "School of Packaging, Michigan State University, 110 Packaging Building 448 Wilson Road, East Lansing, Michigan 48824-1223, United States."
+        ]
+      },
+      {
+        "full_name": "Jenkins, Jayla",
+        "short_name": "Jenkins J",
+        "identifiers": [],
+        "affiliations": [
+          "Julius L. Chambers Biomedical/Biotechnology Research Institute (BBRI), North Carolina Central University, 1801 Fayetteville St., Durham, North Carolina 27707, United States."
+        ]
+      },
+      {
+        "full_name": "Rodriguez, Cristian",
+        "short_name": "Rodriguez C",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, North Carolina Central University, 1801 Fayetteville St., Durham, North Carolina 27707, United States."
+        ]
+      },
+      {
+        "full_name": "Adcock, Audrey",
+        "short_name": "Adcock A",
+        "identifiers": [],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, North Carolina Central University, 1801 Fayetteville St., Durham, North Carolina 27707, United States."
+        ]
+      },
+      {
+        "full_name": "Yang, Liju",
+        "short_name": "Yang L",
+        "identifiers": [
+          "0000-0002-4776-7597"
+        ],
+        "affiliations": [
+          "Biomanufacturing Research Institute and Technology Enterprise, North Carolina Central University, 1801 Fayetteville St., Durham, North Carolina 27707, United States."
+        ]
+      },
+      {
+        "full_name": "Mohiuddin, Mohammad",
+        "short_name": "Mohiuddin M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Packaging, Michigan State University, 110 Packaging Building 448 Wilson Road, East Lansing, Michigan 48824-1223, United States."
+        ]
+      },
+      {
+        "full_name": "Riaz, Ufana",
+        "short_name": "Riaz U",
+        "identifiers": [
+          "0000-0001-7485-4103"
+        ],
+        "affiliations": [
+          "Julius L. Chambers Biomedical/Biotechnology Research Institute (BBRI), North Carolina Central University, 1801 Fayetteville St., Durham, North Carolina 27707, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Langmuir : the ACS journal of surfaces and colloids"
+    ],
+    "journal_abbrev": [
+      "Langmuir"
+    ],
+    "pub_date": "2025 Nov 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/12 23:30",
+    "fetched_at": "2026-09-17 21:54:51"
+  },
+  "links": {
+    "cites": [
+      "41640133"
+    ],
+    "refs": [
+      "40895732",
+      "40761904",
+      "40065818",
+      "39735903",
+      "39478997",
+      "39437198",
+      "38331427",
+      "31984265",
+      "31105200",
+      "27918986",
+      "26908114",
+      "26396360",
+      "25458295",
+      "20492188",
+      "18973728"
+    ],
+    "similar": [
+      "41223292",
+      "41640133",
+      "39631612",
+      "41175654",
+      "31132162",
+      "39567677",
+      "33910732",
+      "42235764",
+      "41831954",
+      "34051252",
+      "37059517",
+      "41861887",
+      "37858659",
+      "31887375",
+      "28450247",
+      "40653241",
+      "41398352",
+      "39537760",
+      "41056534",
+      "38583837",
+      "28923566",
+      "27106077",
+      "32241399",
+      "40840753",
+      "33887287",
+      "31917987",
+      "36898454",
+      "34973266",
+      "39715835",
+      "41684275",
+      "42169334",
+      "42116497",
+      "40744182",
+      "29588206",
+      "39004254",
+      "40210033",
+      "42157578",
+      "41673880",
+      "40533005",
+      "32747228",
+      "39305641",
+      "37567533",
+      "40878883",
+      "41067346",
+      "38885862",
+      "34453980",
+      "40032089",
+      "30026100",
+      "39402571",
+      "41652735",
+      "41074609",
+      "41977548",
+      "31151524",
+      "23009669",
+      "33038397",
+      "41592651",
+      "42027062",
+      "38838885",
+      "40482759",
+      "31730981",
+      "39111470",
+      "41672173",
+      "40043999",
+      "42013660",
+      "39481726",
+      "32738726",
+      "40527372",
+      "38825276",
+      "39979993",
+      "41435944",
+      "42049105",
+      "38177381",
+      "34450140",
+      "42202934",
+      "41297809",
+      "40174818",
+      "41558332",
+      "38521301",
+      "42251379",
+      "39837452",
+      "31739485",
+      "33838808",
+      "37776934",
+      "41122950",
+      "40543788",
+      "34893271",
+      "38403229",
+      "38548906",
+      "41043759",
+      "34420717",
+      "40533000",
+      "39848372",
+      "38878411",
+      "42309458",
+      "34455003",
+      "39339118",
+      "39571848",
+      "41348811",
+      "36581036",
+      "41962708"
+    ],
+    "review": [
+      "41223292"
+    ],
+    "pmc": [
+      "12659422"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41223292/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/langd5/article-lookup/doi/10.1021/acs.langmuir.5c04826",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

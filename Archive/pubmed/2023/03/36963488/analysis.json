@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36963488",
+  "title": "Exploration of O-GlcNAc transferase glycosylation sites reveals a target sequence compositional bias.",
+  "authors": "Chong, P Andrew; Nosella, Michael L; Vanama, Manasvi; Ruiz-Arduengo, Roxana; Forman-Kay, Julie D",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2023-03-25",
+  "window": {
+    "start": "2023-03-20",
+    "end": "2023-03-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究OGT对无序蛋白区域的糖基化位点识别，揭示TPR结构域与FUS等IDR的结合及组成偏好，涉及IDR-蛋白互作机制但无AI/物理模拟方法，属对象相关、互作机制明确而方法较弱。",
+  "abstract": "O-GlcNAc transferase (OGT) is an essential glycosylating enzyme that catalyzes the addition of N-acetylglucosamine to serine or threonine residues of nuclear and cytoplasmic proteins. The enzyme glycosylates a broad range of peptide sequences and the prediction of glycosylation sites has proven challenging. The lack of an experimentally verified set of polypeptide sequences that are not glycosylated by OGT has made prediction of legitimate glycosylation sites more difficult. Here, we tested a number of intrinsically disordered protein regions as substrates of OGT to establish a set of sequences that are not glycosylated by OGT. The negative data set suggests an amino acid compositional bias for OGT targets. This compositional bias was validated by modifying the amino acid composition of the protein fused in sarcoma (FUS) to enhance glycosylation. NMR experiments demonstrate that the tetratricopeptide repeat region of OGT can bind FUS and that glycosylation-promoting mutations enhance binding. These results provide evidence that the tetratricopeptide repeat region recognizes disordered segments of substrates with particular compositions to promote glycosylation, providing insight into the broad specificity of OGT.",
+  "abstract_zh": "O-GlcNAc转移酶（OGT）是一种必需的糖基化酶，催化N-乙酰氨基葡萄糖添加到核蛋白和胞质蛋白的丝氨酸或苏氨酸残基上。该酶可糖基化多种肽序列，而糖基化位点的预测一直颇具挑战。缺乏经实验验证的、不被OGT糖基化的多肽序列集合，使得预测合法糖基化位点更加困难。在此，我们测试了多个固有无序蛋白区域作为OGT底物，以建立一组不被OGT糖基化的序列。该负数据集提示OGT靶标存在氨基酸组成偏好。通过修改融合肉瘤蛋白（FUS）的氨基酸组成以增强糖基化，验证了这一组成偏好。核磁共振实验表明，OGT的四肽重复区域能结合FUS，且促进糖基化的突变增强了这种结合。这些结果提供了证据，表明四肽重复区域识别具有特定组成的底物无序片段以促进糖基化，从而揭示了OGT广泛特异性的机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36963488/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36963488/",
+  "paper_page_path": "papers/pubmed/36963488/index.html"
+}

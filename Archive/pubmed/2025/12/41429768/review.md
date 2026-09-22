@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends. Supplementary figures referenced but not provided.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript text. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors report the development of a high-throughput screening platform (isPLA-seq, NanoBiT, C-degron) to identify single-domain antibodies (sdAbs) against the intrinsically disordered protein NUPR1. They identify sdAb#07.81 as a lead candidate that binds NUPR1, induces its degradation, suppresses TNBC cell growth in vitro, induces premature senescence and ferroptosis, and reduces tumor progression in a syngeneic 4T1 mouse model.
+- **Visible evidence base** Figures 1–6 with legends; Table 1; supplementary figure references (Supplementary Figs. 1A–B, 2A–B, 3A–E); materials and methods sections for cell culture, isPLA, isPLA-seq, CRISPR knockout, NanoBiT, Western blotting, immunoprecipitation, GST pull-down, immunofluorescence, CCK-8, GLB1 staining, lipid peroxidation, RNA-seq, recombinant protein purification, and in vivo allograft experiments.
+- **Missing materials affecting confidence** Original Western blot images (referenced as supplementary but not provided); full RNA-seq dataset and differential expression tables; gating and statistical details for flow cytometry sorting; SPR sensorgram quantitative parameters (e.g., KD values); raw tumor growth curves over time; histopathology images for toxicity assessment; details on sdAb library construction and diversity; validation of NUPR1 antibody specificity in IHC; details on C-degron construct design and controls.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically ambitious and potentially useful approach for targeting an intracellular disordered protein with sdAbs. The integration of multiple screening and validation methods is commendable. However, several critical technical details and controls are missing or underreported, and the in vivo efficacy data are presented in a limited manner. The mechanistic claims regarding ferroptosis and senescence are partially supported but require additional quantitative and genetic evidence. The manuscript would benefit from clearer presentation of experimental replicates, statistical methods, and raw data availability.
+- **Who would be interested in the results, and why** Researchers in the fields of targeted cancer therapy, antibody engineering, and the biology of intrinsically disordered proteins. The platform described could be of interest to those developing intracellular targeting strategies beyond NUPR1. Clinicians and translational scientists focused on TNBC may also find the therapeutic candidate relevant.
+- **Major strengths** The study addresses a challenging target class (intrinsically disordered proteins) with a creative screening cascade. The use of isPLA-seq for functional sdAb discovery is novel. The inclusion of in vivo efficacy and preliminary toxicity data strengthens the translational potential. The mechanistic link to ferroptosis and senescence is biologically plausible and aligns with prior NUPR1 literature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that sdAb#07.81 specifically binds NUPR1 and induces its degradation is central to the study.
+  - **Evidence pointer** Figure 2D (IP), Figure 3C–E (GST pull-down, SPR, isPLA), Figure 3F–I (Western blot)
+  - **Concern** The specificity of sdAb#07.81 for NUPR1 over other proteins is not rigorously demonstrated. The GST pull-down and IP experiments lack negative controls with unrelated sdAbs or a scrambled sdAb. The SPR data are presented without quantitative binding parameters (e.g., KD, kon, koff), making it impossible to assess affinity. The Western blots in Figure 3F–I are not quantified, and loading controls are only shown for one representative blot.
+  - **Why it matters** Without demonstrated specificity and quantitative binding affinity, the mechanism of action attributed to NUPR1 degradation could be confounded by off-target effects. This is a foundational claim for the entire therapeutic rationale.
+  - **Resolution test** Provide SPR sensorgrams with fitted kinetic parameters and KD values. Include negative control sdAbs in pull-down and IP experiments. Quantify Western blot data from at least three independent experiments with statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that sdAb#07.81 suppresses TNBC progression in vivo.
+  - **Evidence pointer** Figure 4A–E
+  - **Concern** The in vivo experiment is described as a single independent experiment with seven mice per group. Tumor growth curves over time are not shown; only endpoint tumor weight and representative images are provided. The statistical analysis is limited to an unpaired Student's t test on endpoint weights. No information is given on tumor volume measurements, randomization, blinding, or inclusion/exclusion criteria. The immunoblot in Figure 4E is not quantified.
+  - **Why it matters** The in vivo efficacy is a key translational claim. The current presentation does not allow assessment of the magnitude, consistency, or time course of the effect. Lack of blinding and randomization increases risk of bias.
+  - **Resolution test** Provide tumor growth curves with repeated measurements, include individual animal data points, report effect sizes and confidence intervals, and describe randomization and blinding procedures. Ideally, include a second independent experiment to confirm reproducibility.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic support
+  - **Claim pointer** The claim that sdAb#07.81 acts by inducing premature senescence and derepressing ferroptosis.
+  - **Evidence pointer** Figure 5A–H, Figure 6C–K
+  - **Concern** The evidence for senescence relies solely on GLB1 staining, which is a standard but not definitive marker. The ferroptosis evidence is based on C11-BODIPY oxidation and changes in SLC7A11 and LCN2 protein levels. No genetic or pharmacological rescue experiments are shown to establish causality. The RNA-seq data are described but not presented in sufficient detail (e.g., no differential expression tables, no pathway enrichment statistics beyond a description).
+  - **Why it matters** The mechanistic model is plausible but not proven. Without rescue experiments or complementary approaches (e.g., ferroptosis inhibitors, senescence markers like p16 or SAHF), alternative explanations for the observed phenotypes cannot be excluded.
+  - **Resolution test** Include ferroptosis rescue with ferrostatin-1 or liproxstatin-1, and senescence validation with additional markers. Provide RNA-seq differential expression tables and enrichment statistics. Consider genetic knockdown or overexpression of NUPR1 to confirm on-target effects.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and rigor
+  - **Claim pointer** The claim that the screening platform is robust and reproducible.
+  - **Evidence pointer** Figure 1D–I, Table 1
+  - **Concern** The isPLA-seq screening results are presented as a list of 17 enriched CDR3 sequences, but the criteria for enrichment, the number of biological replicates, and the statistical significance of enrichment are not described. The NanoBiT assay data in Figure 1E are shown as a bar graph without error bars or statistical analysis. The C-degron validation in Figure 1F–I is qualitative.
+  - **Why it matters** The platform is a major contribution claim. Without clear metrics for hit selection and reproducibility, the generalizability of the approach is uncertain.
+  - **Resolution test** Provide detailed methods for isPLA-seq data analysis, including enrichment thresholds and statistical tests. Include replicate data with error bars and statistical comparisons for NanoBiT and C-degron assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Figure 1A legend
+  - **Issue** The IHC quantification method is not described in the legend or methods. The scale bar is given but the number of patient samples and scoring system are unclear.
+  - **Required correction** Specify the number of patient samples, the scoring criteria, and the statistical test used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Cell culture conditions
+  - **Evidence pointer** Materials and methods, Cell culture
+  - **Issue** Cells were maintained at 1% O2, which is hypoxic. This is unusual and not standard for most cell lines. The rationale is not provided.
+  - **Required correction** Justify the hypoxic culture conditions or clarify if this is a typographical error.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3J–M
+  - **Evidence pointer** Figure 3J–M legends
+  - **Issue** The CCK-8 and 3D culture assays are described as showing significant differences, but the number of replicates and statistical methods are not stated in the legends.
+  - **Required correction** Add replicate numbers and statistical details to the figure legends.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Supplementary figures
+  - **Evidence pointer** Supplementary Figures 1–3
+  - **Issue** The supplementary figures are referenced but not provided. Their content cannot be assessed.
+  - **Required correction** Ensure all supplementary materials are included in the submission for review.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The term "derepressed ferroptosis" is used. This is unconventional phrasing; ferroptosis is typically described as "induced" or "activated."
+  - **Required correction** Revise to "induced ferroptosis" or "activated ferroptosis" for clarity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding specificity and affinity quantification), R1-M2 (in vivo experimental rigor and data presentation), R1-M3 (mechanistic causality), R1-M4 (screening platform reproducibility metrics).
+- **Assessment against Nature-style criteria**
+  - **Originality** The use of isPLA-seq for functional sdAb discovery against an intracellular disordered protein is a novel approach. The combination of screening methods is creative. However, the concept of targeting NUPR1 therapeutically is not new, and the use of sdAbs for intracellular targets has been previously explored.
+  - **Scientific importance** If fully validated, the platform could be broadly applicable to other intracellular disordered targets, which are largely considered undruggable. The therapeutic candidate for TNBC addresses an unmet need. However, the current evidence is not sufficient to establish clinical relevance.
+  - **Interdisciplinary readership** The work spans antibody engineering, cancer biology, and structural biology. It would appeal to a broad audience if the technical claims are substantiated.
+  - **Technical soundness** The experimental design is generally logical, but several key controls and quantitative analyses are missing. The lack of binding kinetics, negative controls, and detailed in vivo methodology weakens the technical foundation.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The figures are informative, though some legends lack essential statistical details. The abstract is clear.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is promising, but the current evidence does not fully establish the specificity, efficacy, and mechanistic claims. Major revisions are required to address the concerns outlined above.
+
+## Risk / unsupported claims
+- The claim that sdAb#07.81 has "strong binding affinity" is unsupported without quantitative SPR data.
+- The claim that sdAb#07.81 "derepresses ferroptosis" is partially supported by lipid peroxidation data but lacks rescue experiments.
+- The claim that the platform is "robust" is not fully supported without detailed enrichment statistics and replicate data.
+- The in vivo efficacy claim is supported by only one experiment with limited endpoint data.
+- The toxicity assessment is based on body weight and limited histopathology, which is insufficient to claim a "reasonable safety profile."
+- The claim that NUPR1 expression is "higher in TNBC" is based on IHC but lacks detailed quantification and statistical analysis in the figure legend.

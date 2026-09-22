@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present ExVivo PhaseScan, a droplet microfluidics platform combining mammalian lysate-based reconstitution with scalable analysis to generate high-resolution phase diagrams of physiological protein condensates. They apply this to stress granules and nucleoli, use a machine learning pipeline for condensate morphology analysis, identify liquid-to-solid transitions of ALS-linked mutant FUS within these condensates, and demonstrate reversal of these transitions by RNA aptamer-based interventions. They conclude that ExVivo PhaseScan is a versatile tool for dissecting physicochemical and pathological regulation of condensates with therapeutic potential.
+- **Visible evidence base** Abstract text only. No figures, tables, methods descriptions, statistical analyses, or supplementary data were provided.
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, machine learning pipeline details, statistical analyses, validation experiments, and any control experiments. The absence of these materials severely limits the ability to assess technical soundness and the validity of the central claims.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting technological advance in the study of biomolecular condensates, addressing a real gap between simplified recombinant systems and complex live-cell models. The concept of combining lysate-based reconstitution with droplet microfluidics and machine learning is appealing and could appeal to a broad readership. However, the abstract alone provides insufficient evidence to evaluate the technical soundness, reproducibility, or validity of the major claims. Key assertions, such as the generation of high-resolution phase diagrams, the identification of liquid-to-solid transitions, and the reversal by RNA aptamers, are stated without supporting data. The claim of physiological relevance is plausible but not demonstrated from the supplied material. The work may be of interest to the condensate biology and biophysics communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, cell biology, biophysics, and neurodegeneration. The platform could be of interest to those studying stress granules, nucleoli, and other membraneless organelles, as well as those investigating disease-linked mutations in proteins such as FUS. The machine learning approach for morphology analysis may also appeal to computational biologists. The potential therapeutic implications for ALS and other diseases driven by aberrant phase transitions could attract translational researchers.
+- **Major strengths** The abstract addresses a clear methodological gap in the field, namely the trade-off between physiological relevance and experimental control. The combination of lysate-based reconstitution with droplet microfluidics is conceptually innovative. The application to two distinct multicomponent condensate systems (stress granules and nucleoli) suggests generalizability. The inclusion of a machine learning pipeline for morphology analysis adds a quantitative dimension. The identification of liquid-to-solid transitions and their reversal by RNA aptamers, if validated, would be of high significance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The platform generates high-resolution phase diagrams of physiological protein condensates.
+  - **Evidence pointer** Abstract only; no figures or methods provided
+  - **Concern** The abstract claims the generation of high-resolution phase diagrams but provides no information on how these diagrams were constructed, what parameters were varied, how many data points were collected, or how resolution was defined and validated. No representative phase diagrams are shown.
+  - **Why it matters** The central technological claim rests on the ability to produce phase diagrams that are both high-resolution and physiologically relevant. Without evidence of the methodology and output quality, the utility of the platform cannot be assessed.
+  - **Resolution test** Provide representative phase diagrams with clear axes, error bars, and a description of the parameter space sampled. Include validation against known phase behavior of the systems studied.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Mutations in ALS-linked FUS remodel condensate phase landscapes, and liquid-to-solid transitions are identified within stress granules and nucleoli.
+  - **Evidence pointer** Abstract only; no figures or data provided
+  - **Concern** The abstract states that machine learning analysis reveals how FUS mutations remodel phase landscapes and that liquid-to-solid transitions are identified. No data are shown to support these claims, including the nature of the mutations, the metrics used to define liquid-to-solid transitions, or the statistical significance of the findings.
+  - **Why it matters** These are the key biological findings of the study. Without supporting data, the claims are unverifiable and the significance cannot be evaluated.
+  - **Resolution test** Provide quantitative data showing phase diagram shifts for mutant versus wild-type FUS, with clear definitions and validation of liquid-to-solid transition criteria. Include statistical analyses and appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** RNA aptamer-based interventions reverse liquid-to-solid transitions of mutant FUS.
+  - **Evidence pointer** Abstract only; no data provided
+  - **Concern** The claim of reversal by RNA aptamers is stated without any experimental details, including the aptamer sequences, delivery method, concentrations, or the extent of reversal. No time course or dose-response data are mentioned.
+  - **Why it matters** This claim has potential therapeutic implications and is likely to be a highlight of the paper. Without evidence, it cannot be assessed for validity or significance.
+  - **Resolution test** Provide experimental data demonstrating reversal, including quantitative measures of condensate material properties before and after aptamer treatment, with appropriate controls and statistical analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The machine learning pipeline analyses condensate morphology and is used to reveal phase landscape remodeling.
+  - **Evidence pointer** Abstract only; no methods or validation provided
+  - **Concern** The machine learning pipeline is described but no details are given on the architecture, training data, feature extraction, or validation. The abstract does not state how the pipeline was benchmarked against manual analysis or other methods.
+  - **Why it matters** Machine learning results are only as reliable as their validation. Without evidence of accuracy and robustness, the conclusions drawn from the pipeline are not trustworthy.
+  - **Resolution test** Provide details of the pipeline, including training and test datasets, validation against ground truth, and a discussion of potential biases or limitations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of physiological relevance
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract claims physiological relevance of the lysate-based system but does not define what is meant by physiological in this context. It is unclear whether the lysates are derived from specific cell types, under what conditions, and how the reconstituted condensates compare to endogenous ones.
+  - **Required correction** Clarify the source and preparation of lysates and provide evidence that the reconstituted condensates recapitulate key features of endogenous condensates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Scope of application
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The abstract states that the platform is applied to stress granules and nucleoli but does not indicate how broadly applicable the method is. It is unclear whether the platform can be adapted to other condensate systems without major modifications.
+  - **Required correction** Include a brief statement on the generalizability of the platform or acknowledge limitations in the current application.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Machine learning pipeline
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The abstract does not mention whether the machine learning pipeline and associated code will be made publicly available, which is important for reproducibility.
+  - **Required correction** State the availability of code and data, or provide a statement on data availability.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient evidence to establish the central claims of the platform's capability, the biological findings, or the therapeutic intervention. All four major concerns must be addressed with data before the case can be considered established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of combining lysate-based reconstitution with droplet microfluidics and machine learning appears novel and could offer a new approach to studying condensates. However, the abstract does not provide enough context to fully assess novelty relative to existing methods.
+  - Scientific importance: The potential to dissect physicochemical and pathological regulation of condensates, particularly in the context of ALS-linked mutations, is of high importance. The findings, if validated, could have significant implications for understanding disease mechanisms.
+  - Interdisciplinary readership: The work spans biophysics, cell biology, microfluidics, and machine learning, which could attract a broad readership. The abstract is written in a way that is accessible to nonspecialists, though technical details are lacking.
+  - Technical soundness: Not assessable from the abstract alone. The lack of methodological details and data prevents evaluation of the technical rigor.
+  - Readability for nonspecialists: The abstract is clearly written and accessible, with jargon kept to a minimum. However, the absence of data makes it difficult for any reader to evaluate the claims.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting concept and potentially significant findings, but the absence of data and methodological details means that the claims cannot be evaluated. The authors should be encouraged to submit the full manuscript for review, as the concept has merit. However, based on the abstract alone, the case is not made.
+
+## Risk / unsupported claims
+- The claim that ExVivo PhaseScan generates high-resolution phase diagrams of physiological protein condensates is unsupported without representative data or methodological details.
+- The claim that machine learning analysis reveals how FUS mutations remodel condensate phase landscapes is unsupported without data on the mutations, analysis metrics, or statistical validation.
+- The claim that liquid-to-solid transitions of mutant FUS occur within stress granules and nucleoli is unsupported without experimental evidence defining these transitions.
+- The claim that RNA aptamer-based interventions reverse these transitions is unsupported without experimental data.
+- The claim that the platform has potential to inform therapeutic strategies is speculative and not supported by the data presented in the abstract.
+- The physiological relevance of the lysate-based system is asserted but not demonstrated.

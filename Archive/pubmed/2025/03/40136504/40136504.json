@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "40136504",
+    "doi": "10.3390/biology14030247",
+    "title": "Evolution of the PE_PGRS Proteins of Mycobacteria: Are All Equal or Are Some More Equal than Others?"
+  },
+  "content": {
+    "abstract": "PE_PGRS domain proteins represent a family of proteins found in pathogenic and non-pathogenic mycobacteria such as M. smegmatis. This conserved family is characterized by two distinct regions denoted as the variable PGRS domain defined by glycine-rich repeats, and a PE domain consisting of two antiparallel alpha-helices. There are many indications that PE_PGRS proteins are involved in immunopathogenesis and virulence by evading or triggering the host immune response. However, there is not yet any information on their degree of specialization or redundancy. Computational analysis and structural annotation using AlphaFold3 combined with other tools reveals an exceptionally powerful and unprecedented ability to undergo phase separation by the PGRS domain. This suggests that PGRS's glycine-rich, multivalent, low-complexity composition supports phase separation while adopting a structured conformation, contrary to the disordered nature typical of such domains. While previously never reported, the hypothesized role of PGRS in virulence indicates a novel window into the seemingly ubiquitous role of phase separation in cellular compartmentalization and molecular dynamics. This review aims to summarize the current understanding of the PE_PGRS family and its various biological roles in the context of bioinformatic analyses of some interesting representatives of M. marinum that are under control by host sterols. Based on the structural bioinformatics analysis, we discuss future approaches to uncover the mechanistic role of this intriguing family of mycobacterial proteins in both pathogenic and non-pathogenic mycobacteria.",
+    "keywords": [
+      "AlphaFold3",
+      "Mycobacterium tuberculosis",
+      "PE_PGRS",
+      "host immune response",
+      "phase separation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Bei",
+        "Bajramovic, Belmin",
+        "Vriesendorp, Bastienne",
+        "Spaink, Herman Pieter"
+      ],
+      "short_names": [
+        "Chen B",
+        "Bajramovic B",
+        "Vriesendorp B",
+        "Spaink HP"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-0701-6507",
+        "ORCID: 0009-0002-7672-8308",
+        "ORCID: 0000-0003-4128-9501"
+      ],
+      "affiliations": [
+        "Institute of Biology, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands.",
+        "Institute of Biology, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands.",
+        "Institute of Biology, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands.",
+        "Institute of Biology, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Bei",
+        "short_name": "Chen B",
+        "identifiers": [
+          "0009-0003-0701-6507"
+        ],
+        "affiliations": [
+          "Institute of Biology, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Bajramović, Belmin",
+        "short_name": "Bajramović B",
+        "identifiers": [
+          "0009-0002-7672-8308"
+        ],
+        "affiliations": [
+          "Institute of Biology, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Vriesendorp, Bastienne",
+        "short_name": "Vriesendorp B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biology, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Spaink, Herman Pieter",
+        "short_name": "Spaink HP",
+        "identifiers": [
+          "0000-0003-4128-9501"
+        ],
+        "affiliations": [
+          "Institute of Biology, Leiden University, Einsteinweg 55, 2333 CC Leiden, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology"
+    ],
+    "journal_abbrev": [
+      "Biology (Basel)"
+    ],
+    "pub_date": "2025 Feb 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/26 12:30",
+    "fetched_at": "2026-09-21 17:08:33"
+  },
+  "links": {
+    "cites": [
+      "42069913",
+      "41063792"
+    ],
+    "refs": [
+      "39372902",
+      "39273496",
+      "39065108",
+      "38908454",
+      "38785795",
+      "38718835",
+      "38337112",
+      "38314675",
+      "38135617",
+      "38103641",
+      "37841250",
+      "37675111",
+      "37238682",
+      "36805109",
+      "36778852",
+      "36584479",
+      "36048802",
+      "35639773",
+      "35572598",
+      "35464444",
+      "35293852",
+      "35240996",
+      "35205112",
+      "35008950",
+      "34346699",
+      "34224720",
+      "33824847",
+      "33800290",
+      "33573039",
+      "33571491",
+      "33469971",
+      "33467487",
+      "33217152",
+      "33006405",
+      "32848244",
+      "32713249",
+      "32457723",
+      "32164908",
+      "32139546",
+      "32047597",
+      "31661176",
+      "31643141",
+      "30937925",
+      "30837375",
+      "30673778",
+      "30138457",
+      "30010947",
+      "29921671",
+      "29912964",
+      "29424691",
+      "29335553",
+      "28911035",
+      "28484686",
+      "28440335",
+      "28377529",
+      "28261567",
+      "28225081",
+      "27987050",
+      "27483162",
+      "27280885",
+      "27120981",
+      "26978522",
+      "25938982",
+      "25727695",
+      "25625930",
+      "25249284",
+      "24825614",
+      "24611808",
+      "24425732",
+      "24334610",
+      "24106104",
+      "22870206",
+      "22658664",
+      "22496726",
+      "21081760",
+      "20638467",
+      "20221673",
+      "20167624",
+      "19602152",
+      "18981138",
+      "17105670",
+      "17095513",
+      "16798044",
+      "16458305",
+      "16207947",
+      "16203168",
+      "15101979",
+      "11967065",
+      "11705904",
+      "11500435",
+      "10827956",
+      "9634230"
+    ],
+    "similar": [
+      "40136504",
+      "32713249",
+      "24904584",
+      "33217152",
+      "25390359",
+      "34502303",
+      "20638467",
+      "11967065",
+      "16203168",
+      "27120981",
+      "24425732",
+      "10827956",
+      "27129781",
+      "20221673",
+      "20176745",
+      "15101979",
+      "23705005",
+      "31662454",
+      "38785795",
+      "19128836",
+      "19602152",
+      "35140886",
+      "29921671",
+      "18957600",
+      "11705904",
+      "24975480",
+      "11500435",
+      "33467487",
+      "27483162",
+      "34346699",
+      "29912964",
+      "17095513",
+      "10627046",
+      "24530527",
+      "14585500",
+      "22658664",
+      "35008950",
+      "28440335",
+      "30937925",
+      "16207947",
+      "24106104",
+      "30207307",
+      "35750685",
+      "31643141",
+      "36778852",
+      "39809090",
+      "38337112",
+      "24951307",
+      "37022460",
+      "40009799",
+      "37238682",
+      "21732963",
+      "33757409",
+      "31661176",
+      "17163995",
+      "23259719",
+      "19068228",
+      "22505711",
+      "30192424",
+      "26655202",
+      "36830581",
+      "18267304",
+      "26978522",
+      "25727695",
+      "35572598",
+      "22050772",
+      "16672626",
+      "17172340",
+      "22110736",
+      "23663047",
+      "18028308",
+      "27987050",
+      "17105670",
+      "31757695",
+      "39273496",
+      "22496726",
+      "27872707",
+      "18313360",
+      "16798044",
+      "40183374",
+      "30833360",
+      "28161108",
+      "33824847",
+      "29116636",
+      "26158346",
+      "17938218",
+      "29378889",
+      "19602151",
+      "25693607",
+      "36048802",
+      "14766927",
+      "36409073",
+      "35021968",
+      "17399860",
+      "21081760",
+      "26104967",
+      "21471225",
+      "22286037",
+      "16638629",
+      "38086162"
+    ],
+    "review": [
+      "40136504",
+      "32713249",
+      "33217152",
+      "20638467",
+      "24975480",
+      "33467487",
+      "35008950",
+      "31661176",
+      "25727695",
+      "40183374",
+      "29116636",
+      "25693607",
+      "35021968",
+      "26104967"
+    ],
+    "pmc": [
+      "11939664"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biology14030247",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40136504/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

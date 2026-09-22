@@ -1,0 +1,53 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report that the binding site for dynein intermediate chain (IC) on dynactin p150Glued coiled-coil 1B (CC1B) is located at a position distinct from that proposed in a recent cryo-EM/AlphaFold-based model, and that a phosphomimetic mutation of IC does not alter binding to p150Glued.
+- **Visible evidence base** Abstract text only; no experimental details, structural coordinates, or statistical analyses provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, structural models, binding assay data, paramagnetic relaxation enhancement (PRE) data, and any statistical or validation information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important finding that challenges a current structural model of the dynein/dynactin complex. The use of intermolecular paramagnetic relaxation enhancements to localize the IC binding site on p150Glued is a technically sound approach for studying dynamic and disordered systems. However, the abstract provides insufficient detail to evaluate the robustness of the conclusions. The key claim of a novel binding interface rests on a comparison with a cryo-EM/AlphaFold model, but the abstract does not describe how the discrepancy was resolved or validated. The negative result regarding the phosphomimetic mutation is presented without context on the phosphorylation site chosen or the functional relevance of the assay. The work is of interest to the cytoskeletal motor and structural biology communities, but the evidence base is too limited to assess whether the conclusions are fully supported.
+- **Who would be interested in the results, and why** Researchers studying cytoplasmic dynein and dynactin function, motor protein regulation, and the assembly of large protein complexes. Structural biologists using integrative approaches such as PRE, cryo-EM, and AlphaFold will also be interested in the discrepancy between solution-based and model-based predictions. The phosphorylation result may interest those studying post-translational regulation of motor proteins.
+- **Major strengths** The study addresses a specific and unresolved question in the field, namely the exact binding interface between IC and p150Glued. The use of PRE is appropriate for characterizing interactions involving intrinsically disordered regions. The finding that the binding site differs from a recent cryo-EM/AlphaFold model is potentially significant and could refine current understanding of complex assembly.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that intermolecular PREs constrain the IC binding site on p150Glued to a position different from that proposed in a cryo-EM/AlphaFold model.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the PRE data were collected, analyzed, or converted into distance restraints. No information is given on the number of PRE probes, the labeling strategy, the quality of the data, or how the derived restraints were used to define the binding interface. Without these details, the reliability of the localization cannot be assessed.
+  - **Why it matters** The central claim of the paper depends entirely on the quality and interpretation of the PRE data. If the restraints are sparse or ambiguous, the proposed alternative binding site may not be robustly determined. The comparison with the cryo-EM/AlphaFold model also requires a clear description of how the two models were aligned and how the discrepancy was quantified.
+  - **Resolution test** Provide a description of the PRE experimental design, including the number and positions of paramagnetic labels, the measured PRE values, and the resulting distance restraints. Show how these restraints define the binding interface and include a comparison of the proposed binding site with the cryo-EM/AlphaFold model using a structural overlay or residue-level mapping.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that a phosphomimetic mutation of IC is not sufficient to alter binding with p150Glued.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which residue was mutated, why that particular site was chosen, or what binding assay was used to assess the interaction. Without this information, it is unclear whether the negative result reflects a true lack of effect or a limitation of the assay or the chosen mutation.
+  - **Why it matters** The conclusion that phosphorylation does not regulate this interaction is only meaningful if the correct phosphorylation site was targeted and the assay is sensitive enough to detect changes in binding affinity. The abstract does not provide enough context to evaluate the significance of this negative result.
+  - **Resolution test** Specify the phosphomimetic mutation used, the rationale for choosing that site, and the binding assay employed. Include a positive control demonstrating that the assay can detect changes in binding affinity, and discuss the sensitivity and dynamic range of the assay.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses technical terms such as "intermolecular paramagnetic relaxation enhancements" and "coiled-coil 1B" without brief explanations. Nonspecialist readers may struggle to understand the significance of the approach and the findings.
+  - **Required correction** Add a brief explanatory phrase for PRE and CC1B, such as "a nuclear magnetic resonance method that measures distances between proteins" and "a structural region of p150Glued."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not discuss the functional implications of the alternative binding site. It is unclear whether the new location has consequences for understanding dynein activation or regulation.
+  - **Required correction** Add a sentence on the potential functional significance of the revised binding interface, such as how it may affect the assembly or regulation of the dynein/dynactin complex.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2, as described above. The PRE-based localization and the phosphomimetic negative result both require additional experimental detail to be evaluated.
+- **Assessment against Nature-style criteria** Originality: The claim of a binding interface distinct from a recent cryo-EM/AlphaFold model is original and potentially impactful. Scientific importance: The dynein/dynactin interaction is central to understanding motor protein function, and refining the binding site could have broad implications. Interdisciplinary readership: The work will appeal to structural biologists, cell biologists, and biochemists, but the abstract is too technical for a broader audience. Technical soundness: Cannot be assessed from the abstract alone; the PRE methodology is appropriate in principle, but the lack of detail prevents evaluation. Readability for nonspecialists: The abstract is dense and assumes familiarity with the dynein/dynactin system and NMR methods.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of methodological detail and validation prevents a full assessment. The work may be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the IC binding site on p150Glued is different from the cryo-EM/AlphaFold model is unsupported without details on the PRE data and model comparison.
+- The claim that a phosphomimetic mutation does not alter binding is unsupported without specification of the mutation site and the binding assay used.
+- The abstract implies that the PRE approach provides a more accurate localization than cryo-EM/AlphaFold, but this comparative claim is not substantiated.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.14.531382",
+  "title": "Structure-Based Neural Network Protein-Carbohydrate Interaction Predictions at the Residue Level",
+  "authors": "Samuel W. Canner; Sudhanshu Shanker; Jeffrey J. Gray",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-15",
+  "window": {
+    "start": "2023-03-13",
+    "end": "2023-03-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用3D-UNet和等变图神经网络预测蛋白质-碳水化合物结合位点，并联合GlycanDock预测复合物结构，虽对象为折叠蛋白与糖而非IDP/相分离，但残基级互作位点预测与对接的AI+物理建模思路对无序蛋白PPI机制建模有可迁移启发。",
+  "abstract": "Carbohydrates dynamically and transiently interact with proteins for cell-cell recognition, cellular differentiation, immune response, and many other cellular processes. Despite the molecular importance of these interactions, there are currently few reliable computational tools to predict potential carbohydrate binding sites on any given protein. Here, we present two deep learning models named CArbohydrate-Protein interaction Site IdentiFier (CAPSIF) that predict carbohydrate binding sites on proteins: (1) a 3D-UNet voxel-based neural network model (CAPSIF:V) and (2) an equivariant graph neural network model (CAPSIF:G). While both models outperform previous surrogate methods used for carbohydrate binding site prediction, CAPSIF:V performs better than CAPSIF:G, achieving test Dice scores of 0.597 and 0.543 and test set Matthews correlation coefficients (MCCs) of 0.599 and 0.538, respectively. We further tested CAPSIF:V on AlphaFold2-predicted protein structures. CAPSIF:V performed equivalently on both experimentally determined structures and AlphaFold2 predicted structures. Finally, we demonstrate how CAPSIF models can be used in conjunction with local glycan-docking protocols, such as GlycanDock, to predict bound protein-carbohydrate structures.",
+  "abstract_zh": "碳水化合物与蛋白质动态且瞬时地相互作用，参与细胞识别、细胞分化、免疫应答及许多其他细胞过程。尽管这些相互作用在分子层面具有重要意义，但目前缺乏可靠的计算工具来预测任意给定蛋白质上潜在的碳水化合物结合位点。在此，我们提出两个名为碳水化合物-蛋白质相互作用位点识别器（CAPSIF）的深度学习模型，用于预测蛋白质上的碳水化合物结合位点：（1）一个基于3D-UNet体素的神经网络模型（CAPSIF:V）和（2）一个等变图神经网络模型（CAPSIF:G）。虽然两个模型均优于先前用于碳水化合物结合位点预测的替代方法，但CAPSIF:V表现优于CAPSIF:G，其测试Dice分数分别为0.597和0.543，测试集马修斯相关系数（MCCs）分别为0.599和0.538。我们进一步在AlphaFold2预测的蛋白质结构上测试了CAPSIF:V。CAPSIF:V在实验确定的结构和AlphaFold2预测的结构上表现相当。最后，我们展示了CAPSIF模型如何与局部聚糖对接协议（如GlycanDock）结合使用，以预测结合的蛋白质-碳水化合物结构。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.14.531382",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.14.531382",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.14.531382/index.html"
+}

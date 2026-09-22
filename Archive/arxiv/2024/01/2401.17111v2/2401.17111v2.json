@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2401.17111v2",
+  "title": "Self-consistent sharp interface theory of active condensate dynamics",
+  "doi": "10.1103/PhysRevResearch.6.033082",
+  "abstract": "Biomolecular condensates help organize the cell cytoplasm and nucleoplasm into spatial compartments with different chemical compositions. A key feature of such compositional patterning is the local enrichment of enzymatically active biomolecules which, after transient binding via molecular interactions, catalyze reactions among their substrates. Thereby, biomolecular condensates provide a spatial template for non-uniform concentration profiles of substrates. In turn, the concentration profiles of substrates, and their molecular interactions with enzymes, drive enzyme fluxes which can enable novel non-equilibrium dynamics. To analyze this generic class of systems, with a current focus on self-propelled droplet motion, we here develop a self-consistent sharp interface theory. In our theory, we diverge from the usual bottom-up approach, which involves calculating the dynamics of concentration profiles based on a given chemical potential gradient. Instead, reminiscent of control theory, we take the reverse approach by deriving the chemical potential profile and enzyme fluxes required to maintain a desired condensate form and dynamics. The chemical potential profile and currents of enzymes come with a corresponding power dissipation rate, which allows us to derive a thermodynamic consistency criterion for the passive part of the system (here, reciprocal enzyme-enzyme interactions). As a first use case of our theory, we study the role of reciprocal interactions, where the transport of substrates due to reactions and diffusion is, in part, compensated by redistribution due to molecular interactions. More generally, our theory applies to mass-conserved active matter systems with moving phase boundaries.",
+  "authors": [
+    "Andriy Goychuk",
+    "Leonardo Demarchi",
+    "Ivan Maryshev",
+    "Erwin Frey"
+  ],
+  "published_date": "2024-01-30T15:46:57Z",
+  "updated_date": "2024-08-04T16:28:34Z",
+  "journal": "Phys. Rev. Research 6, 033082 (2024)",
+  "category": "physics.bio-ph, cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2401.17111v2",
+  "pdf_url": "https://arxiv.org/pdf/2401.17111v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "physics.bio-ph",
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2401.17111v2",
+    "raw_categories": [
+      "physics.bio-ph",
+      "cond-mat.soft"
+    ],
+    "journal_ref": "Phys. Rev. Research 6, 033082 (2024)"
+  }
+}

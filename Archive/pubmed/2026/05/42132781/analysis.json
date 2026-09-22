@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42132781",
+  "title": "Recent innovative approaches for drug delivery systems targeting cancer and CNS disorders.",
+  "authors": "Anand, Milind Kumar; Premalatha, Elumalai; Moorthy, Hariharan; Govindaraju, Thimmaiah",
+  "journal": "Journal of materials chemistry. B",
+  "published_date": "2026-05-14",
+  "window": {
+    "start": "2026-05-11",
+    "end": "2026-05-17"
+  },
+  "score": 3,
+  "one_liner_zh": "综述药物递送系统（含LLPS体系）在癌症和中枢神经系统疾病中的应用，虽提及相分离但非无序蛋白介导的PPI机制建模，且无AI/物理模拟方法，与本课题关联弱。",
+  "abstract": "Advancements in drug delivery systems (DDSs) have revolutionized pharmaceutical development by enhancing therapeutic precision, minimizing off-target effects, and improving patient compliance. Modern DDS technologies, such as lipid nanoparticles (LNPs), liquid-liquid phase separated (LLPS) systems, inorganic nanoparticles, GalNac systems, small molecules, dendrimers, polymers, peptides, and silk fibroin (SF) hydrogels, have significantly expanded the range of anti-cancer therapeutics. These advancements extend beyond conventional chemotherapeutics to include biologics such as nucleic acids (NAs), peptides, proteins, and monoclonal antibodies. These innovations have transformed oncology treatment paradigms and are gradually being adapted for central nervous system (CNS) disorders, where effective drug delivery is hindered by the protective blood-brain barrier (BBB) and the intricate architecture of neural networks. In this context, stimuli-responsive DDSs have emerged as promising tools, capable of crossing the BBB and releasing drugs in response to pathological cues. Theranostic DDSs, which integrate diagnostic and therapeutic functionalities into a single platform, hold particular promise in imaging-guided interventions. This review provides a comprehensive overview of DDS applications in both oncology and neurodegenerative diseases (NDDs), emphasizing mechanistic insights, delivery strategies, and material innovations. Furthermore, it explores key translational considerations - including safety, efficacy, and clinical scalability - essential for advancing next-generation DDS platforms from bench to bedside, thereby maximizing therapeutic outcomes in complex diseases.",
+  "abstract_zh": "药物递送系统（DDSs）的进展通过增强治疗精准性、减少脱靶效应及提高患者依从性，彻底改变了药物开发领域。现代DDS技术，如脂质纳米颗粒（LNPs）、液-液相分离（LLPS）系统、无机纳米颗粒、GalNac系统、小分子、树状大分子、聚合物、肽类及丝素蛋白（SF）水凝胶，显著扩展了抗癌治疗药物的范围。这些进展不仅限于传统化疗药物，还包括生物制剂，如核酸（NAs）、肽类、蛋白质及单克隆抗体。这些创新已转变肿瘤治疗范式，并逐渐被应用于中枢神经系统（CNS）疾病，其中有效药物递送受到保护性血脑屏障（BBB）及神经网络复杂结构的阻碍。在此背景下，刺激响应型DDSs已成为有前景的工具，能够穿越BBB并根据病理信号释放药物。诊疗一体化DDSs将诊断与治疗功能整合于单一平台，在影像引导干预中尤具潜力。本综述全面概述了DDSs在肿瘤学和神经退行性疾病（NDDs）中的应用，重点强调机制见解、递送策略及材料创新。此外，它探讨了关键转化考量——包括安全性、有效性及临床可扩展性——这些对于推进下一代DDS平台从实验室到临床至关重要，从而在复杂疾病中最大化治疗成果。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42132781/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42132781/",
+  "paper_page_path": "papers/pubmed/42132781/index.html"
+}

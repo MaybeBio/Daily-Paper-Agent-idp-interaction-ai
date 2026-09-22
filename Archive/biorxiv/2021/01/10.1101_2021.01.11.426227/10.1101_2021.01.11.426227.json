@@ -1,0 +1,215 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.11.426227",
+  "title": "Microsecond simulations and CD spectroscopy reveals the intrinsically disordered nature of SARS-CoV-2 Spike-C-terminal cytoplasmic tail (residues 1242-1273) in isolation",
+  "doi": "10.1101/2021.01.11.426227",
+  "abstract": "All available SARS-CoV-2 spike protein crystal and cryo-EM structures have shown missing electron densities for cytosolic C-terminal regions. Generally, the missing electron densities point towards the intrinsically disordered nature of the protein region. This curiosity has led us to investigate the C terminal cytosolic region of the spike glycoprotein of SARS-CoV-2 in isolation. The cytosolic regions is supposed to be from 1235-1273 residues or 1242-1273 residues depending on what prediction tool we use. Therefore, we have demonstrated the structural conformation of cytosolic region and its dynamics through computer simulations up to microsecond timescale using OPLS and CHARMM forcefields. The simulations have revealed the unstructured conformation of cytosolic region. Also, in temperature dependent replica-exchange molecular dynamics simulations it has shown its conformational dynamics. Further, we have validated our computational observations with circular dichroism (CD) spectroscopy-based experiments and found its signature spectra at 198 nm which is also adding the analysis as its intrinsically disordered nature. We believe that our findings will surely help us understand the structure-function relationship of the spike protein’s cytosolic region. <h4>Graphical Abstract</h4>",
+  "authors": [
+    "Kumar P",
+    "Bhardwaj T",
+    "Garg N",
+    "Giri R"
+  ],
+  "published_date": "2021-01-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.11.426227",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.11.426227.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR264353",
+    "raw_record": {
+      "id": "PPR264353",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR264353"
+        ]
+      },
+      "doi": "10.1101/2021.01.11.426227",
+      "title": "Microsecond simulations and CD spectroscopy reveals the intrinsically disordered nature of SARS-CoV-2 Spike-C-terminal cytoplasmic tail (residues 1242-1273) in isolation",
+      "authorString": "Kumar P, Bhardwaj T, Garg N, Giri R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kumar P",
+            "lastName": "Kumar",
+            "firstName": "Prateek",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7392-5045"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bhardwaj T",
+            "lastName": "Bhardwaj",
+            "firstName": "Taniya",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7226-6348"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garg N",
+            "lastName": "Garg",
+            "firstName": "Neha",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2227-8292"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicinal Chemistry, Faculty of Ayurveda, Institute of Medical Sciences, Banaras Hindu University, Varanasi, Uttar Pradesh, 221005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Giri R",
+            "lastName": "Giri",
+            "firstName": "Rajanish",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2046-836X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7392-5045"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2046-836X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7226-6348"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2227-8292"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "All available SARS-CoV-2 spike protein crystal and cryo-EM structures have shown missing electron densities for cytosolic C-terminal regions. Generally, the missing electron densities point towards the intrinsically disordered nature of the protein region. This curiosity has led us to investigate the C terminal cytosolic region of the spike glycoprotein of SARS-CoV-2 in isolation. The cytosolic regions is supposed to be from 1235-1273 residues or 1242-1273 residues depending on what prediction tool we use. Therefore, we have demonstrated the structural conformation of cytosolic region and its dynamics through computer simulations up to microsecond timescale using OPLS and CHARMM forcefields. The simulations have revealed the unstructured conformation of cytosolic region. Also, in temperature dependent replica-exchange molecular dynamics simulations it has shown its conformational dynamics. Further, we have validated our computational observations with circular dichroism (CD) spectroscopy-based experiments and found its signature spectra at 198 nm which is also adding the analysis as its intrinsically disordered nature. We believe that our findings will surely help us understand the structure-function relationship of the spike protein’s cytosolic region. <h4>Graphical Abstract</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/05/17/2021.01.11.426227.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.11.426227"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR264353"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.11.426227"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34864296",
+            "reference": "Virology. 2022 Jan;566:42-55",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS110756",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-01-15",
+      "firstPublicationDate": "2021-01-11",
+      "firstIndexDate": "2021-01-15",
+      "fullTextReceivedDate": "2021-01-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

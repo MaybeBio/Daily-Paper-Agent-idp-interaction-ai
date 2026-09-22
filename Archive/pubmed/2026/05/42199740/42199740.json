@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "42199740",
+    "doi": "10.47895/amp.vi0.13453",
+    "title": "Neutralization of SARS-CoV-2 Spike Pseudotyped Viruses Using Postbiotic Preparations from Lactiplantibacillus plantarum BS25."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Despite the presence of SARS-CoV-2 antivirals, namely, remdesivir, nirmatrelvir and toremifene, these drugs entail adverse effects and limited effectiveness. Thus, development of a safer alternative is imperative, and likely candidates include the cell-free supernatant (CFS) and protein fractions from Lactiplantibacillus plantarum strains. These postbiotics have known antiviral properties primarily mediated by plantaricins and enhanced by organic acids. OBJECTIVES: The study determined the in silico mechanism of plantaricins against the receptor-binding domain (RBD) and angiotensin-converting enzyme 2 (ACE2), as well as compared the in vitro activities of the L. plantarum BS25 CFS, semi-purified and crude protein fractions, against the SARS-CoV-2 pseudotyped viruses (nCoV-S-EGFP) expressing the spike of wild-type (wt) Wuhan strain, Omicron BA.1 and BA.4/5 variants. Further, this study determined the metabolome of the strain BS25 CFS. METHODS: A quasi-experimental approach was utilized in the study. Plantaricins were screened for safety in silico, followed by molecular docking with RBD and ACE2. Using a cell culture model, two-fold dilutions of the CFS and fractions were tested for cytotoxicity and microneutralization against the pseudoviruses. Mass spectrometry was utilized for the metabolomics. RESULTS: Plantaricins interact stably with RBD than ACE2 which were mediated by hydrogen, hydrophobic and covalent bonds. The activities of the CFS and fractions were substantially higher against the nCoV-S-EGFP BA.4/5 variant. The 1:8 dilution of CFS entailed no cytotoxicity and displayed higher activities than toremifene. Metabolomics has identified a relatively abundant putative peptide, followed by organic acids and cyclic peptides. CONCLUSION: Plantaricins can prevent SARS-CoV-2 entry by interacting with key RBD mutations or with intrinsically disordered RBD residues. The cationic and hydrophobic RBD mutations in the BA.4/5 variant may facilitate interactions with the putative peptide from the CFS and fractions, hence the observed potent activities. These findings can be used as basis for the development of an alternative antiviral targeting the RBD of live or pseudotyped SARS-CoV-2 variants.",
+    "keywords": [
+      "Lactiplantibacillus plantarum",
+      "SARS-CoV-2",
+      "cell-free supernatant"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mandanas, Joshua Angelo Hermida",
+        "Yu-Chao, Day",
+        "Dalmacio, Leslie Michelle M"
+      ],
+      "short_names": [
+        "Mandanas JAH",
+        "Yu-Chao D",
+        "Dalmacio LMM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, College of Medicine, University of the Philippines Manila, Manila, Philippines.",
+        "Graduate Institute of Microbiology and Public Health, National Chung Hsing University, Taichung, Taiwan.",
+        "Graduate Institute of Microbiology and Public Health, National Chung Hsing University, Taichung, Taiwan.",
+        "Institut Pasteur, Paris, France.",
+        "Department of Biochemistry and Molecular Biology, College of Medicine, University of the Philippines Manila, Manila, Philippines."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mandanas, Joshua Angelo Hermida",
+        "short_name": "Mandanas JAH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, College of Medicine, University of the Philippines Manila, Manila, Philippines.",
+          "Graduate Institute of Microbiology and Public Health, National Chung Hsing University, Taichung, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Yu-Chao, Day",
+        "short_name": "Yu-Chao D",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate Institute of Microbiology and Public Health, National Chung Hsing University, Taichung, Taiwan.",
+          "Institut Pasteur, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Dalmacio, Leslie Michelle M",
+        "short_name": "Dalmacio LMM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, College of Medicine, University of the Philippines Manila, Manila, Philippines."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Acta medica Philippina"
+    ],
+    "journal_abbrev": [
+      "Acta Med Philipp"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/27 12:21",
+    "fetched_at": "2026-09-18 03:38:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39525491",
+      "38179907",
+      "37956428",
+      "36566761",
+      "36005246",
+      "35760080",
+      "35403431",
+      "35326252",
+      "34925381",
+      "34769500",
+      "34697350",
+      "34696175",
+      "34687367",
+      "34685491",
+      "34683428",
+      "34534511",
+      "34518867",
+      "34356310",
+      "34324210",
+      "33928117",
+      "33634085",
+      "33532865",
+      "33324406",
+      "33260592",
+      "32977547",
+      "32904251",
+      "32826129",
+      "32521828",
+      "32475223",
+      "32422996",
+      "32366720",
+      "32301390",
+      "32201353",
+      "30323792",
+      "30267215",
+      "30174666",
+      "29795550",
+      "29625659",
+      "28079879",
+      "27911701",
+      "26821017",
+      "24476540",
+      "24385362",
+      "19275169",
+      "17406207",
+      "15319487",
+      "14973042",
+      "11238971"
+    ],
+    "similar": [
+      "42199740",
+      "34033342",
+      "34462749",
+      "40817788",
+      "36336003",
+      "41615206",
+      "38305152",
+      "35343765",
+      "37555663",
+      "40950043",
+      "36084746",
+      "39580631",
+      "35964366",
+      "33922914",
+      "34105996",
+      "35236358",
+      "36851526",
+      "40426227",
+      "34991443",
+      "35013687",
+      "37578234",
+      "32802318",
+      "33737804",
+      "35289643",
+      "35632769",
+      "36000849",
+      "32448098",
+      "35972290",
+      "35923684",
+      "36597465",
+      "36362302",
+      "41155509",
+      "36681052",
+      "42589407",
+      "33654454",
+      "36077490",
+      "34403938",
+      "35916510",
+      "39267752",
+      "41674904",
+      "42075932",
+      "32866780",
+      "35620980",
+      "33785634",
+      "36499120",
+      "40799935",
+      "36250723",
+      "34324175",
+      "36971310",
+      "34924897",
+      "36219223",
+      "33671255",
+      "35833966",
+      "38641844",
+      "41667627",
+      "35595778",
+      "34140558",
+      "38893549",
+      "37493168",
+      "34643438",
+      "35734581",
+      "35728285",
+      "36003511",
+      "37569522",
+      "35862965",
+      "35669924",
+      "34550770",
+      "33093202",
+      "35638818",
+      "35957673",
+      "39189731",
+      "35651657",
+      "34149735",
+      "34375189",
+      "39004311",
+      "37199217",
+      "33208074",
+      "35680610",
+      "38885553",
+      "35200677",
+      "32762417",
+      "35906408",
+      "40944451",
+      "35189779",
+      "34049205",
+      "31996437",
+      "33897423",
+      "36613459",
+      "36398990",
+      "37869063",
+      "36805129",
+      "34029937",
+      "41746043",
+      "39392057",
+      "34435953",
+      "37200310",
+      "37166054",
+      "35194375",
+      "34142531",
+      "35688710"
+    ],
+    "review": [
+      "42199740",
+      "36597465",
+      "35669924"
+    ],
+    "pmc": [
+      "13199787"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42199740/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.27.702026",
+  "title": "The missing link between biomolecular condensates and amyloid fibrils",
+  "doi": "10.64898/2026.01.27.702026",
+  "abstract": "The traditional view of protein self-assembly posits a binary choice between phase separation into fluid condensates and nucleation into crystalline amyloid fibers. However, this framework is incomplete. Experiments show that liquid condensates are non-equilibrium systems that mature into solid-like structures mediated by amphiphilic prion-like domains (PLDs). Being spatially organized yet dynamic, lyotropic phases represent an intermediate regime between these states. Using physics-based de novo protein design (Evo-MD), we identify a vast amphiphilic motif space encoding fluid lyotropic phases (e.g., micelles and bicelles). TEM, CD, and AlphaFold predictions confirm that these motifs also assemble into amyloid-based hydrogels as thermodynamic endpoints. Notably, the molecular grammar of lyotropic motifs overlaps strongly with that of PLDs and LARKS. Thus, while PLDs likely evolved to stabilize condensates through transient interactions near criticality, our results show that these same amphiphilic forces inherently encode lyotropic structuring and subsequent amyloid formation — linking functional condensation with pathological aggregation.",
+  "authors": [
+    "Hoti A",
+    "Zang S",
+    "Prantl E",
+    "Grunëwald M",
+    "Kros A",
+    "Risselada HJ",
+    "Sevink GJA"
+  ],
+  "published_date": "2026-01-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.27.702026",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.27.702026.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1228381",
+    "raw_record": {
+      "id": "PPR1228381",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1228381"
+        ]
+      },
+      "doi": "10.64898/2026.01.27.702026",
+      "title": "The missing link between biomolecular condensates and amyloid fibrils",
+      "authorString": "Hoti A, Zang S, Prantl E, Grunëwald M, Kros A, Risselada HJ, Sevink GJA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hoti A",
+            "lastName": "Hoti",
+            "firstName": "Art",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Leiden Institute of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zang S",
+            "lastName": "Zang",
+            "firstName": "Shuya",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Leiden Institute of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prantl E",
+            "lastName": "Prantl",
+            "firstName": "Ephraim",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Leiden Institute of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grunëwald M",
+            "lastName": "Grunëwald",
+            "firstName": "Michele",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Leiden Institute of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kros A",
+            "lastName": "Kros",
+            "firstName": "Alexander",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3983-3048"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Leiden Institute of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Risselada HJ",
+            "lastName": "Risselada",
+            "firstName": "Herre Jelger",
+            "initials": "HJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Physics, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sevink GJA",
+            "lastName": "Sevink",
+            "firstName": "Geert Jan Agur",
+            "initials": "GJA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8005-0697"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Leiden Institute of Chemistry, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8005-0697"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3983-3048"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "The traditional view of protein self-assembly posits a binary choice between phase separation into fluid condensates and nucleation into crystalline amyloid fibers. However, this framework is incomplete. Experiments show that liquid condensates are non-equilibrium systems that mature into solid-like structures mediated by amphiphilic prion-like domains (PLDs). Being spatially organized yet dynamic, lyotropic phases represent an intermediate regime between these states. Using physics-based  de novo protein design (Evo-MD), we identify a vast amphiphilic motif space encoding fluid lyotropic phases (e.g., micelles and bicelles). TEM, CD, and AlphaFold predictions confirm that these motifs also assemble into amyloid-based hydrogels as thermodynamic endpoints. Notably, the molecular grammar of lyotropic motifs overlaps strongly with that of PLDs and LARKS. Thus, while PLDs likely evolved to stabilize condensates through transient interactions near criticality, our results show that these same amphiphilic forces inherently encode lyotropic structuring and subsequent amyloid formation — linking functional condensation with pathological aggregation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.27.702026"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1228381"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1228381&type=FILE&fileName=EMS214537-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214537",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-01-29",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

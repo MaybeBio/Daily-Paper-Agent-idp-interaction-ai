@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39172501",
+  "title": "Extended Conformational Selection in the Antigen-Antibody Interaction of the PfAMA1 Protein.",
+  "authors": "da Silva, Pamella Cristiny Carneiro; Martinez, Leandro",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2024-08-22",
+  "window": {
+    "start": "2024-08-19",
+    "end": "2024-08-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用HREMD增强采样研究PfAMA1抗原-抗体互作中无序表位的构象选择机制，聚焦IDR与结合机制建模，虽对象非典型IDP但方法思路高度可迁移。",
+  "abstract": "Plasmodium falciparum apical membrane antigen 1 (PfAMA1) is a surface protein found in two stages of the malaria life cycle. This is a protein involved in a reorientation movement of the parasite so that cell invasion occurs in the so-called \"moving junction\", relevant when the membranes of the parasite and the host are in contact. The structure of a conformational epitope of domain III of PfAMA1 in complex with the monoclonal antibody Fab F8.12.19 is experimentally known. Here, we used molecular dynamics with enhanced sampling by Hamiltonian replica exchange molecular dynamics (HREMD) to understand the effect of intermolecular interactions, conformational variability, and intrinsically disordered regions on the mechanism of antigen-antibody interaction. Clustering methods and the analysis of conformational variability were used in order to understand the influence of the presence of the partner protein in the complex. The free-state epitope accesses a broader conformational pool, including disordered conformations not seen in the bound state. The simulations suggest an extended conformational selection mechanism in which the antibody stabilizes a conformational set of the epitope existing in the free state. The stabilization of the active conformation occurs mainly through hydrogen bonds: Tyr(H33)-Asp493, His(L94)-Val510, Ser(L93)-Glu511, Tyr(H56)-Asp485, and Tyr(H35)-Asp493. The antibody has a structure with few flexible regions, and only the complementarity determining region (CDR) H3 shows greater plasticity in the presence of the epitope.",
+  "abstract_zh": "恶性疟原虫顶端膜抗原1（PfAMA1）是一种在疟疾生命周期两个阶段中存在的表面蛋白。该蛋白参与寄生虫的重新定向运动，使细胞入侵发生在所谓的“移动连接”处，这一过程在寄生虫与宿主膜接触时具有重要意义。PfAMA1结构域III的一个构象表位与单克隆抗体Fab F8.12.19复合物的结构已通过实验确定。在此，我们采用分子动力学（molecular dynamics）结合哈密顿副本交换分子动力学（HREMD）增强采样方法，以理解分子间相互作用、构象变异性和固有无序区域对抗原-抗体相互作用机制的影响。我们使用聚类方法和构象变异性分析来理解复合物中伴侣蛋白存在的影响。自由态表位可访问更广泛的构象池，包括结合态中未观察到的无序构象。模拟结果表明存在一种扩展的构象选择机制，其中抗体稳定了自由态中存在的表位构象集合。活性构象的稳定主要通过氢键实现：Tyr(H33)-Asp493、His(L94)-Val510、Ser(L93)-Glu511、Tyr(H56)-Asp485和Tyr(H35)-Asp493。抗体结构具有较少的柔性区域，仅互补决定区（CDR）H3在表位存在时表现出更大的可塑性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39172501/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39172501/",
+  "paper_page_path": "papers/pubmed/39172501/index.html"
+}

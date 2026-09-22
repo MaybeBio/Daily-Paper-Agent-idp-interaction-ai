@@ -1,0 +1,42 @@
+{
+  "source": "arxiv",
+  "source_id": "2312.01817v2",
+  "title": "A simulation method for the wetting dynamics of liquid droplets on deformable membranes",
+  "doi": "",
+  "abstract": "Biological cells utilize membranes and liquid-like droplets, known as biomolecular condensates, to structure their interior. The interaction of droplets and membranes, despite being involved in several key biological processes, is so far little understood. Here, we present a first numerical method to simulate the continuum dynamics of droplets interacting with deformable membranes via wetting. The method combines the advantages of the phase-field method for multi-phase flow simulation and the arbitrary Lagrangian-Eulerian (ALE) method for an explicit description of the elastic surface. The model is thermodynamically consistent, coupling bulk hydrodynamics with capillary forces, as well as bending, tension, and stretching of a thin membrane. The method is validated by comparing simulations for single droplets to theoretical results of shape equations, and its capabilities are illustrated in 2D and 3D axisymmetric scenarios.",
+  "authors": [
+    "Marcel Mokbel",
+    "Dominic Mokbel",
+    "Susanne Liese",
+    "Christoph A. Weber",
+    "Sebastian Aland"
+  ],
+  "published_date": "2023-12-04T11:45:55Z",
+  "updated_date": "2024-02-20T08:48:57Z",
+  "journal": "",
+  "category": "cond-mat.soft, cs.CE, physics.bio-ph, physics.comp-ph, q-bio.SC",
+  "landing_url": "https://arxiv.org/abs/2312.01817v2",
+  "pdf_url": "https://arxiv.org/pdf/2312.01817v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft",
+    "cs.CE",
+    "physics.bio-ph",
+    "physics.comp-ph",
+    "q-bio.SC"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2312.01817v2",
+    "raw_categories": [
+      "cond-mat.soft",
+      "cs.CE",
+      "physics.bio-ph",
+      "physics.comp-ph",
+      "q-bio.SC"
+    ],
+    "journal_ref": ""
+  }
+}

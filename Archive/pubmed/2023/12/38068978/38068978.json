@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "pmid": "38068978",
+    "doi": "10.3390/ijms242316658",
+    "title": "Challenges in Brugada Syndrome Stratification: Investigating SCN5A Mutation Localization and Clinical Phenotypes."
+  },
+  "content": {
+    "abstract": "Brugada Syndrome (BrS) is a genetic heart condition linked to sudden cardiac death. Though the SCN5A gene is primarily associated with BrS, there is a lack of comprehensive studies exploring the connection between SCN5A mutation locations and the clinical presentations of the syndrome. This study aimed to address this gap and gain further understanding of the syndrome. The investigation classified 36 high-risk BrS patients based on SCN5A mutations within the transmembrane/structured (TD) and intra-domain loops (IDLs) lacking a 3D structure. We characterized the intrinsically disordered regions (IDRs) abundant in IDLs, using bioinformatics tools to predict IDRs and post-translational modifications (PTMs) in NaV1.5. Interestingly, it was found that current predictive tools often underestimate the impacts of mutations in IDLs and disordered regions. Moreover, patients with SCN5A mutations confined to IDL regions-previously deemed 'benign'-displayed clinical symptoms similar to those carrying 'damaging' variants. Our research illuminates the difficulty in stratifying patients based on SCN5A mutation locations, emphasizing the vital role of IDLs in the NaV1.5 channel's functioning and protein interactions. We advocate for caution when using predictive tools for mutation evaluation in these regions and call for the development of improved strategies in accurately assessing BrS risk.",
+    "keywords": [
+      "BrS genetics",
+      "PTMs in IDRs",
+      "SCN5A mutations",
+      "in silico prediction tools",
+      "protein unstructured regions",
+      "voltage-gated sodium channel"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Brugada Syndrome/diagnosis",
+      "Mutation",
+      "Phenotype",
+      "Death, Sudden, Cardiac",
+      "Heart",
+      "NAV1.5 Voltage-Gated Sodium Channel/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tarantino, Adriana",
+        "Ciconte, Giuseppe",
+        "Ghiroldi, Andrea",
+        "Mastrocinque, Flavio",
+        "Micaglio, Emanuele",
+        "Boccellino, Antonio",
+        "Negro, Gabriele",
+        "Piccoli, Marco",
+        "Cirillo, Federica",
+        "Vicedomini, Gabriele",
+        "Santinelli, Vincenzo",
+        "Anastasia, Luigi",
+        "Pappone, Carlo"
+      ],
+      "short_names": [
+        "Tarantino A",
+        "Ciconte G",
+        "Ghiroldi A",
+        "Mastrocinque F",
+        "Micaglio E",
+        "Boccellino A",
+        "Negro G",
+        "Piccoli M",
+        "Cirillo F",
+        "Vicedomini G",
+        "Santinelli V",
+        "Anastasia L",
+        "Pappone C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2896-7390",
+        "ORCID: 0000-0003-0902-9136",
+        "ORCID: 0000-0002-8298-7800",
+        "ORCID: 0000-0002-9461-2715",
+        "ORCID: 0000-0002-0196-5977"
+      ],
+      "affiliations": [
+        "Institute for Molecular and Translational Cardiology (IMTC), IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+        "School of Medicine, University Vita-Salute San Raffaele, Via Olgettina 58, 20132 Milan, Italy.",
+        "School of Medicine, University Vita-Salute San Raffaele, Via Olgettina 58, 20132 Milan, Italy.",
+        "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+        "Institute for Molecular and Translational Cardiology (IMTC), IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+        "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+        "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+        "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+        "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+        "Institute for Molecular and Translational Cardiology (IMTC), IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+        "Institute for Molecular and Translational Cardiology (IMTC), IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+        "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+        "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+        "Institute for Molecular and Translational Cardiology (IMTC), IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+        "School of Medicine, University Vita-Salute San Raffaele, Via Olgettina 58, 20132 Milan, Italy.",
+        "School of Medicine, University Vita-Salute San Raffaele, Via Olgettina 58, 20132 Milan, Italy.",
+        "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tarantino, Adriana",
+        "short_name": "Tarantino A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Molecular and Translational Cardiology (IMTC), IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+          "School of Medicine, University Vita-Salute San Raffaele, Via Olgettina 58, 20132 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Ciconte, Giuseppe",
+        "short_name": "Ciconte G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, University Vita-Salute San Raffaele, Via Olgettina 58, 20132 Milan, Italy.",
+          "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Ghiroldi, Andrea",
+        "short_name": "Ghiroldi A",
+        "identifiers": [
+          "0000-0002-2896-7390"
+        ],
+        "affiliations": [
+          "Institute for Molecular and Translational Cardiology (IMTC), IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Mastrocinque, Flavio",
+        "short_name": "Mastrocinque F",
+        "identifiers": [
+          "0000-0003-0902-9136"
+        ],
+        "affiliations": [
+          "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Micaglio, Emanuele",
+        "short_name": "Micaglio E",
+        "identifiers": [
+          "0000-0002-8298-7800"
+        ],
+        "affiliations": [
+          "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Boccellino, Antonio",
+        "short_name": "Boccellino A",
+        "identifiers": [],
+        "affiliations": [
+          "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Negro, Gabriele",
+        "short_name": "Negro G",
+        "identifiers": [],
+        "affiliations": [
+          "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Piccoli, Marco",
+        "short_name": "Piccoli M",
+        "identifiers": [
+          "0000-0002-9461-2715"
+        ],
+        "affiliations": [
+          "Institute for Molecular and Translational Cardiology (IMTC), IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Cirillo, Federica",
+        "short_name": "Cirillo F",
+        "identifiers": [
+          "0000-0002-0196-5977"
+        ],
+        "affiliations": [
+          "Institute for Molecular and Translational Cardiology (IMTC), IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Vicedomini, Gabriele",
+        "short_name": "Vicedomini G",
+        "identifiers": [],
+        "affiliations": [
+          "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Santinelli, Vincenzo",
+        "short_name": "Santinelli V",
+        "identifiers": [],
+        "affiliations": [
+          "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Anastasia, Luigi",
+        "short_name": "Anastasia L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Molecular and Translational Cardiology (IMTC), IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy.",
+          "School of Medicine, University Vita-Salute San Raffaele, Via Olgettina 58, 20132 Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Pappone, Carlo",
+        "short_name": "Pappone C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, University Vita-Salute San Raffaele, Via Olgettina 58, 20132 Milan, Italy.",
+          "Arrhythmology Department, IRCCS Policlinico San Donato, Piazza Malan 2, San Donato Milanese, 20097 Milan, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Nov 23",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/09 10:46",
+    "fetched_at": "2026-09-21 03:16:20"
+  },
+  "links": {
+    "cites": [
+      "39355588",
+      "39078224",
+      "39062601"
+    ],
+    "refs": [
+      "36017572",
+      "33741410",
+      "33391024",
+      "33357399",
+      "33306788",
+      "32121523",
+      "31866066",
+      "31694155",
+      "29959160",
+      "29780404",
+      "29650119",
+      "29574140",
+      "28516007",
+      "28500178",
+      "28370132",
+      "27977610",
+      "27761167",
+      "27229125",
+      "27140628",
+      "26892727",
+      "26126425",
+      "25741868",
+      "24010708",
+      "23783762",
+      "23771687",
+      "23633940",
+      "23233352",
+      "23133622",
+      "23055912",
+      "22080206",
+      "21385947",
+      "20129283",
+      "18573080",
+      "17368479",
+      "15851227",
+      "12381310",
+      "11381529",
+      "11337480"
+    ],
+    "similar": [
+      "38068978",
+      "24768612",
+      "37547970",
+      "26511399",
+      "38036776",
+      "34204499",
+      "24573164",
+      "34219138",
+      "36303204",
+      "33797273",
+      "27287068",
+      "30170230",
+      "26154754",
+      "26776555",
+      "36446338",
+      "31627867",
+      "33164571",
+      "34649698",
+      "34245912",
+      "29709101",
+      "30203441",
+      "30126015",
+      "32619740",
+      "25341504",
+      "34628415",
+      "24998131",
+      "25829473",
+      "31292628",
+      "33131149",
+      "26179811",
+      "19251209",
+      "33946750",
+      "36361941",
+      "36834739",
+      "25904541",
+      "38614189",
+      "23503384",
+      "23840796",
+      "33641026",
+      "29959160",
+      "34048814",
+      "27381756",
+      "24269159",
+      "28584071",
+      "30963536",
+      "20129283",
+      "37298497",
+      "25339316",
+      "26279430",
+      "29202755",
+      "29574140",
+      "36453498",
+      "28341781",
+      "35331424",
+      "32490690",
+      "37894777",
+      "34843967",
+      "31590245",
+      "33221895",
+      "32824506",
+      "25261036",
+      "29798782",
+      "24167619",
+      "24463578",
+      "24140416",
+      "30821013",
+      "35124229",
+      "38426305",
+      "30282806",
+      "28391114",
+      "33202810",
+      "22876298",
+      "36764349",
+      "24400717",
+      "37679791",
+      "35247843",
+      "25998140",
+      "23612926",
+      "27915266",
+      "23257389",
+      "24529773",
+      "24795344",
+      "25650408",
+      "31900993",
+      "36745970",
+      "37942788",
+      "28597987",
+      "34348284",
+      "24613995",
+      "23818691",
+      "33463855",
+      "27281089",
+      "26921764",
+      "27485484",
+      "33610078",
+      "35675436",
+      "24903439",
+      "27625342",
+      "25253298",
+      "31106349",
+      "39387761",
+      "38196587",
+      "39001575",
+      "38906516"
+    ],
+    "review": [
+      "38068978",
+      "36446338",
+      "30203441",
+      "30126015",
+      "36834739",
+      "38614189",
+      "24269159",
+      "30963536",
+      "29798782",
+      "33202810"
+    ],
+    "pmc": [
+      "10706434"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms242316658",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38068978/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38068978",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39849666",
+  "title": "Allostery.",
+  "authors": "Montserrat-Canals, Mateu; Cordara, Gabriele; Krengel, Ute",
+  "journal": "Quarterly reviews of biophysics",
+  "published_date": "2025-01-24",
+  "window": {
+    "start": "2025-01-20",
+    "end": "2025-01-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述系统梳理别构调控机制，涵盖无序蛋白与构象系综，并综述模拟与AI方法，虽非聚焦IDR-PPI建模，但机制思路与工具可迁移启发本课题。",
+  "abstract": "Allostery describes the ability of biological macromolecules to transmit signals spatially through the molecule from an allosteric site - a site that is distinct from orthosteric binding sites of primary, endogenous ligands - to the functional or active site. This review starts with a historical overview and a description of the classical example of allostery - hemoglobin - and other well-known examples (aspartate transcarbamoylase, Lac repressor, kinases, G-protein-coupled receptors, adenosine triphosphate synthase, and chaperonin). We then discuss fringe examples of allostery, including intrinsically disordered proteins and inter-enzyme allostery, and the influence of dynamics, entropy, and conformational ensembles and landscapes on allosteric mechanisms, to capture the essence of the field. Thereafter, we give an overview over central methods for investigating molecular mechanisms, covering experimental techniques as well as simulations and artificial intelligence (AI)-based methods. We conclude with a review of allostery-based drug discovery, with its challenges and opportunities: with the recent advent of AI-based methods, allosteric compounds are set to revolutionize drug discovery and medical treatments.",
+  "abstract_zh": "别构性（allostery）描述了生物大分子通过分子内部空间传递信号的能力，即从别构位点——该位点不同于主要内源性配体的正构结合位点——传递至功能或活性位点。本综述首先进行历史概述，并描述别构性的经典例子——血红蛋白——以及其他著名实例（天冬氨酸转氨甲酰酶、Lac阻遏物、激酶、G蛋白偶联受体、三磷酸腺苷合酶和伴侣蛋白）。随后，我们讨论别构性的边缘案例，包括固有无序蛋白和酶间别构性，以及动力学、熵、构象集合和构象景观对别构机制的影响，以捕捉该领域的本质。之后，我们概述研究分子机制的核心方法，涵盖实验技术以及模拟和基于人工智能（AI）的方法。最后，我们回顾基于别构性的药物发现，及其挑战与机遇：随着近期AI方法的出现，别构化合物有望彻底改变药物发现和医学治疗。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39849666/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39849666/",
+  "paper_page_path": "papers/pubmed/39849666/index.html"
+}

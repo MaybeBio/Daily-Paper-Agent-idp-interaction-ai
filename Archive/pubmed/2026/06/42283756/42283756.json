@@ -1,0 +1,261 @@
+{
+  "identity": {
+    "pmid": "42283756",
+    "doi": "10.1021/acs.jcim.6c00488",
+    "title": "Deciphering the Molecular Mechanisms of Tau K18 Liquid-Liquid Phase Separation and Its Phosphorylation/RNA-Mediated Modulation via Coarse-Grained Simulations."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS), which underlies the formation of various biomolecular condensates, has attracted extensive attention because of its close association with various physiological and pathological processes. Although weak, physical, and multivalent interactions have been recognized to drive biomolecular LLPS, it remains challenging to elucidate how distinct types of molecular interactions synergize with or counteract one another to drive LLPS and which interaction dominates the process. In this work, via coarse-grained model simulations, we employed a \"driving-force\" free energy decomposition strategy to quantify the contributions of enthalpy and entropy in LLPS, taking the assemblies of the Tau K18 fragment as model systems. The regulatory mechanism of phosphorylation and RNA in condensate formation was also explored. Our simulation results reproduce a closed-loop phase diagram for Tau K18, in line with experimental observation. Detailed decomposition analysis of driving-force free energy reveals that the phase separation of the K18, phosphorylated K18, and K18 + RNA systems is primarily driven by hydrophobic entropy. Phosphorylation or RNA enhances the K18 LLPS tendency, with hydrophobic entropy increasing cooperatively as electrostatic enthalpy decreases. These findings provide insights into the mechanism of Tau K18 LLPS and its regulation, highlighting the delicate balance between different molecular driving forces involved in the phase separation process. The free energy decomposition strategy employed in this study establishes a general framework for quantifying contributions from distinct driving components in the phase separation of related biomolecular systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phosphorylation",
+      "Phase Separation",
+      "*RNA/chemistry/metabolism",
+      "*tau Proteins/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Thermodynamics",
+      "Entropy",
+      "Hydrophobic and Hydrophilic Interactions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yan, Qinglin",
+        "Liu, Yangchen",
+        "Wang, Tinglan",
+        "Liu, Zhirong",
+        "Zhang, Zhuqing"
+      ],
+      "short_names": [
+        "Yan Q",
+        "Liu Y",
+        "Wang T",
+        "Liu Z",
+        "Zhang Z"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-3229-6980",
+        "ORCID: 0000-0001-5070-8048",
+        "ORCID: 0000-0003-3514-834X"
+      ],
+      "affiliations": [
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing101408, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing101408, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing101408, China.",
+        "College of Chemistry and Molecular Engineering, Peking University, Beijing100871, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing101408, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yan, Qinglin",
+        "short_name": "Yan Q",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing101408, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yangchen",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing101408, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Tinglan",
+        "short_name": "Wang T",
+        "identifiers": [
+          "0009-0001-3229-6980"
+        ],
+        "affiliations": [
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing101408, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhirong",
+        "short_name": "Liu Z",
+        "identifiers": [
+          "0000-0001-5070-8048"
+        ],
+        "affiliations": [
+          "College of Chemistry and Molecular Engineering, Peking University, Beijing100871, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhuqing",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0003-3514-834X"
+        ],
+        "affiliations": [
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing101408, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 Aug 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 13:02",
+    "fetched_at": "2026-09-18 04:01:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42283756",
+      "39421885",
+      "30950394",
+      "33686854",
+      "40074668",
+      "31097543",
+      "37515326",
+      "37230179",
+      "41535729",
+      "39302099",
+      "42103118",
+      "37735186",
+      "38960272",
+      "41575805",
+      "42223083",
+      "33279579",
+      "38862770",
+      "37840355",
+      "40149942",
+      "33453922",
+      "39605385",
+      "40439464",
+      "33139563",
+      "33876938",
+      "40058249",
+      "33955104",
+      "42102067",
+      "40748104",
+      "41001641",
+      "39342654",
+      "41363845",
+      "33017094",
+      "38526948",
+      "38446061",
+      "42442913",
+      "37325682",
+      "41673459",
+      "41524628",
+      "42589422",
+      "39460625",
+      "42243951",
+      "40616404",
+      "41480717",
+      "33930220",
+      "41804277",
+      "38979955",
+      "35320624",
+      "41609052",
+      "39964249",
+      "41346115",
+      "41442811",
+      "37815389",
+      "36471564",
+      "39865610",
+      "39043267",
+      "42383738",
+      "41785961",
+      "35381286",
+      "38512104",
+      "32696384",
+      "42280206",
+      "36883003",
+      "38547652",
+      "42475469",
+      "41807382",
+      "40865571",
+      "37557974",
+      "38804888",
+      "40149872",
+      "32405004",
+      "35298090",
+      "38585945",
+      "40966042",
+      "38580324",
+      "40291420",
+      "40131954",
+      "30926670",
+      "33307683",
+      "41206815",
+      "40098319",
+      "37662293",
+      "32096047",
+      "36310209",
+      "33452693",
+      "39044475",
+      "29364893",
+      "34575888",
+      "42126444",
+      "41307542",
+      "36702317",
+      "39432826",
+      "38322526",
+      "35980344",
+      "24506488",
+      "33262278",
+      "38512667",
+      "38847095",
+      "39225535",
+      "40479073",
+      "41603224"
+    ],
+    "review": [
+      "42283756",
+      "37230179",
+      "41575805",
+      "40058249",
+      "42442913",
+      "42589422",
+      "42243951",
+      "40616404",
+      "41480717",
+      "33930220",
+      "38979955",
+      "39964249",
+      "41346115",
+      "41442811",
+      "39043267",
+      "38547652",
+      "40865571",
+      "37557974",
+      "41206815",
+      "32096047",
+      "41307542",
+      "36702317"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.6c00488",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

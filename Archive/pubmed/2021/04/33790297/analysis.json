@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33790297",
+  "title": "A designer FG-Nup that reconstitutes the selective transport barrier of the nuclear pore complex.",
+  "authors": "Fragasso, Alessio; de Vries, Hendrik W; Andersson, John; van der Sluis, Eli O; van der Giessen, Erik; Dahlin, Andreas; Onck, Patrick R; Dekker, Cees",
+  "journal": "Nature communications",
+  "published_date": "2021-04-02",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过设计人工FG-Nup重构核孔复合物的选择性屏障，结合粗粒化分子动力学模拟揭示无序FG-Nup形成选择性网格的机制，直接涉及IDP介导的PPI选择性互作与物理模拟建模，高度契合课题。",
+  "abstract": "Nuclear Pore Complexes (NPCs) regulate bidirectional transport between the nucleus and the cytoplasm. Intrinsically disordered FG-Nups line the NPC lumen and form a selective barrier, where transport of most proteins is inhibited whereas specific transporter proteins freely pass. The mechanism underlying selective transport through the NPC is still debated. Here, we reconstitute the selective behaviour of the NPC bottom-up by introducing a rationally designed artificial FG-Nup that mimics natural Nups. Using QCM-D, we measure selective binding of the artificial FG-Nup brushes to the transport receptor Kap95 over cytosolic proteins such as BSA. Solid-state nanopores with the artificial FG-Nups lining their inner walls support fast translocation of Kap95 while blocking BSA, thus demonstrating selectivity. Coarse-grained molecular dynamics simulations highlight the formation of a selective meshwork with densities comparable to native NPCs. Our findings show that simple design rules can recapitulate the selective behaviour of native FG-Nups and demonstrate that no specific spacer sequence nor a spatial segregation of different FG-motif types are needed to create selective NPCs.",
+  "abstract_zh": "核孔复合体（NPCs）调控细胞核与细胞质之间的双向运输。 intrinsically disordered FG-Nups 排列在 NPC 管腔中，形成选择性屏障，其中大多数蛋白质的运输受到抑制，而特定转运蛋白则可自由通过。通过 NPC 进行选择性运输的机制仍存在争议。在此，我们通过引入一种合理设计的人工 FG-Nup（模拟天然 Nups），自下而上地重构了 NPC 的选择性行为。利用 QCM-D，我们测量了人工 FG-Nup 刷对转运受体 Kap95 相对于胞质蛋白（如 BSA）的选择性结合。内壁衬有人工 FG-Nups 的固态纳米孔支持 Kap95 的快速转运，同时阻断 BSA，从而展示了选择性。粗粒化分子动力学模拟强调了形成与天然 NPC 密度相当的选择性网状结构。我们的研究结果表明，简单的设计规则即可重现天然 FG-Nups 的选择性行为，并证明无需特定的间隔序列或不同 FG 基序类型的空间分离即可构建选择性 NPC。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33790297/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33790297/",
+  "paper_page_path": "papers/pubmed/33790297/index.html"
+}

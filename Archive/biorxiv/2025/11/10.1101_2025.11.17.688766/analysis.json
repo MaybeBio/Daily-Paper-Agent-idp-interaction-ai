@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.17.688766",
+  "title": "Selective Targeting of Kinesin on Lipid Droplets in the Liver Reduces Serum Lipids",
+  "authors": "Tripathy S; Mahapatra A; Saharan O; Chatterjee H; Sengupta N; Kamat S; Nair S; Mallik R",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-17",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究驱动蛋白尾部肽段选择性结合脂滴单层膜以降低血脂，对象为脂滴而非无序蛋白/IDR，无PPI机制建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "The liver controls plasma lipids by secreting lipid-rich very low density lipoproteins (VLDL) into blood. Inside hepatocytes in the liver, Lipid Droplets (LDs) are transported to the smooth Endoplasmic Reticulum (sER) by kinesin-1 motors, and then catabolized in the sER to supply lipids for VLDL assembly. LDs are the only cellular organelle bounded by a phospholipid monolayer, and are thus distinct from all other (bilayer-bounded) organelles. It is therefore plausible that a given protein can bind to the LD membrane using mechanisms that are completely different from all other organelles. Indeed, here we find that kinesin-1 uses its tail domain to bind LDs, but alternative mechanisms to bind other organelles. A peptide corresponding to kinesin’s tail domain therefore competes with, and removes kinesin-1 selectively from LDs with minimal effect on other organelles. Delivery of lipids for VLDL assembly is consequently reduced, causing a remarkable reduction of ∼50% of secreted lipids (triglycerides and cholesterol) in cell culture. We further develop Orally fed Egg-liposomes as a method to deliver kinesin tail domain peptide to the liver of Zebrafish. The peptide reverses diet-induced hyperlipidaemia in Zebrafish larvae and brings the larvae back to a normolipidaemic state, thus confirming the effectiveness of our method in a physiologically relevant in-vivo situation. Strikingly, the peptide causes no unwanted accumulation of lipids in the liver, no toxicity and no developmental or behavioural defects in Zebrafish. Using a peptide to displace proteins (e.g. kinesin) selectively from LDs provides a conceptually novel and radically different approach against hyperlipidaemia. This monolayer-versus-bilayer strategy can be potentially extended to target other LD-bound proteins that function as key regulators of Lipid metabolism.",
+  "abstract_zh": "肝脏通过向血液中分泌富含脂质的极低密度脂蛋白（VLDL）来控制血浆脂质。在肝脏的肝细胞内，脂滴（LDs）由驱动蛋白-1（kinesin-1）马达蛋白运输至光滑内质网（sER），随后在sER中被分解代谢，为VLDL组装提供脂质。LDs是唯一由磷脂单层包裹的细胞器，因此与所有其他（双层膜包裹的）细胞器截然不同。因此，一种给定的蛋白质可能利用完全不同于其他细胞器的机制结合到LD膜上，这是合理的。确实，在此我们发现kinesin-1利用其尾部结构域结合LDs，但通过其他机制结合其他细胞器。因此，对应于kinesin尾部结构域的肽能够竞争性且选择性地从LDs上移除kinesin-1，而对其他细胞器影响极小。这导致用于VLDL组装的脂质递送减少，在细胞培养中分泌的脂质（甘油三酯和胆固醇）显著减少约50%。我们进一步开发了口服卵脂质体（Egg-liposomes）作为将kinesin尾部结构域肽递送至斑马鱼肝脏的方法。该肽逆转了斑马鱼幼鱼中饮食诱导的高脂血症，并使幼鱼恢复到正常脂质状态，从而在生理相关的体内环境中证实了我们方法的有效性。引人注目的是，该肽在斑马鱼中未引起肝脏脂质的不必要积累，无毒性，且无发育或行为缺陷。利用肽选择性地从LDs上置换蛋白质（如kinesin）提供了一种概念新颖且根本不同的抗高脂血症方法。这种单层对双层策略可潜在扩展至靶向其他作为脂质代谢关键调控因子的LD结合蛋白。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688766",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688766",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.17.688766/index.html"
+}

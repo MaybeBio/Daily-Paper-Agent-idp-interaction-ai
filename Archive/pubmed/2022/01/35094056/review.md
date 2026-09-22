@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors present DisEnrich, a database of human intrinsically disordered regions (IDRs) significantly enriched in specific amino acids, built using three disorder prediction methods and Gene Ontology (GO) functional annotations. They report that R- and Y-enriched IDRs are overrepresented in metabolic and enzymatic activities, F-enriched IDRs in transport, and that about 75% of functional categories contain IDRs enriched in hydrophobic residues relevant to protein–protein interactions.
+- **Visible evidence base** Abstract text only; database URL provided; no quantitative results, statistical details, or validation metrics included
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, database contents and query interface, disorder prediction method details, statistical methodology, and validation analyses
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful community resource for studying compositional bias in human disordered regions. The motivation is clear and the topic is of interest to the intrinsically disordered protein research community. However, the abstract provides limited quantitative evidence and methodological detail, making it difficult to assess the technical rigor and biological significance of the reported findings. The claims about functional overrepresentation and the proportion of hydrophobic-enriched IDRs are presented without supporting statistics or effect sizes.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and regions, particularly those interested in amino acid compositional bias, protein function prediction, and protein–protein interaction mechanisms. The database could also serve bioinformaticians developing or benchmarking disorder prediction tools and functional annotation methods.
+- **Major strengths** The resource addresses a gap in consistent description of amino acid-enriched IDRs in the human proteome. The use of three disorder prediction methods and GO functional annotations is a reasonable approach. The database is publicly available, which supports community use and further validation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that R- and Y-enriched IDRs are significantly overrepresented in metabolic and enzymatic activities and F-enriched IDRs in transport, and that about 75% of functional categories contain IDRs enriched in hydrophobic residues.
+  - **Evidence pointer** Abstract Results section; location not provided
+  - **Concern** The abstract reports significant overrepresentation and a specific percentage (75%) without providing any statistical measures, such as p-values, enrichment scores, confidence intervals, or the number of functional categories analyzed. The methods for defining "enriched" and for assigning functional categories are not described.
+  - **Why it matters** Without quantitative support, the reader cannot evaluate the strength or reliability of the reported associations. The 75% figure is presented as a key result but lacks context regarding how functional categories were defined, how many were tested, and what threshold was used for "enriched."
+  - **Resolution test** Provide statistical details in the abstract or full manuscript, including enrichment test methods, multiple testing corrections, effect sizes, and the number of categories and IDRs analyzed. If space is limited, state that full statistics are in the main text or supplementary materials.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that each human protein is described using disorder prediction for the full-length sequence using three methods.
+  - **Evidence pointer** Abstract Results section; location not provided
+  - **Concern** The three disorder prediction methods are not named, and no information is given about their agreement, calibration, or how discrepancies were resolved. The choice of methods can substantially affect which regions are classified as disordered and thus which are considered enriched.
+  - **Why it matters** Reproducibility and comparability with other resources depend on knowing which predictors were used and how their outputs were integrated. Different predictors have different biases and accuracies, and the results may not generalize if the methods are not standard or well-validated.
+  - **Resolution test** Name the three methods in the abstract or full manuscript, describe how predictions were combined (e.g., consensus, union, intersection), and provide performance benchmarks or citations for each method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract claims that IDRs enriched in hydrophobic residues are important for protein–protein interactions.
+  - **Evidence pointer** Abstract Results section; location not provided
+  - **Concern** The link between hydrophobic-enriched IDRs and protein–protein interactions is stated as a fact but is not supported by any data or citation in the abstract. It is unclear whether this is a novel finding from the database analysis or a general assumption from the literature.
+  - **Why it matters** If this is a novel observation, it needs statistical support. If it is a known principle, it should be cited and framed as context rather than a result. The current phrasing blurs the line between established knowledge and new findings.
+  - **Resolution test** Clarify whether this is a hypothesis, a literature-based statement, or a database-derived result. If the latter, provide supporting analysis. If the former, cite relevant literature and rephrase as context.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract Motivation section
+  - **Evidence pointer** Abstract Motivation section; location not provided
+  - **Issue** The phrase "Bias in amino acid composition of these proteins determines their unique biophysical and functional features" is vague and could be misinterpreted. It is not clear what kind of bias is meant or how it "determines" features.
+  - **Required correction** Rephrase to specify the type of compositional bias (e.g., enrichment or depletion of specific residues) and soften "determines" to "contributes to" or "is associated with" to avoid overstatement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract Results section
+  - **Evidence pointer** Abstract Results section; location not provided
+  - **Issue** The term "enriched IDR composition" is used without defining what constitutes an enriched region or what statistical threshold was applied.
+  - **Required correction** Define the enrichment criterion in the abstract or state that the definition is provided in the full manuscript. A brief example or threshold would improve clarity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract Availability section
+  - **Evidence pointer** Abstract Availability section; location not provided
+  - **Issue** The database URL is provided, but there is no description of the database content, size, or user interface, which limits the reader's ability to assess its utility.
+  - **Required correction** Add a sentence describing the database scope (e.g., number of proteins, IDRs, search features) or refer to the full manuscript for details.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of significant functional overrepresentation and the database construction method cannot be evaluated without statistical details and named prediction methods. R1-M3 is not blocking but requires clarification to distinguish novel findings from established knowledge.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of a database specifically for amino acid-enriched IDRs in the human proteome appears novel, but the abstract does not clearly differentiate it from existing disorder databases or compositional bias resources.
+  - **Scientific importance** The topic is relevant to the IDP field, but the abstract does not demonstrate broad biological impact beyond descriptive statistics. The functional associations, if robust, could be important, but current evidence is insufficient.
+  - **Interdisciplinary readership** The abstract is accessible to bioinformaticians and molecular biologists, but the lack of methodological detail may limit appeal to experimentalists who need confidence in the predictions.
+  - **Technical soundness** Not assessable from the abstract alone. The absence of statistical methods, prediction tool names, and validation metrics prevents evaluation.
+  - **Readability for nonspecialists** The abstract is generally clear but contains jargon (e.g., "enriched IDR composition") and vague statements that could confuse readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially useful resource, but the lack of quantitative results and methodological transparency means the core claims cannot be verified. Supportive if the full manuscript provides the missing statistical details, names the prediction methods, and clarifies the basis for the functional association claims.
+
+## Risk / unsupported claims
+- The claim that R- and Y-enriched IDRs are significantly overrepresented in metabolic and enzymatic activities is unsupported without statistical measures.
+- The claim that F-enriched IDRs are overrepresented in transport is unsupported without statistical measures.
+- The claim that about 75% of functional categories contain IDRs enriched in hydrophobic residues is unsupported without defining the categories and enrichment threshold.
+- The claim that hydrophobic-enriched IDRs are important for protein–protein interactions is presented as a result but may be a literature-based assumption; this is not distinguishable from the abstract.
+- The database's utility and content cannot be assessed from the abstract alone; the URL is provided but no usage metrics, validation, or comparison with existing resources are given.

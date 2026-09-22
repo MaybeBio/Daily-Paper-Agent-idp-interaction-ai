@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusions) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with stated evidence; no assessment of formatting or editorial policy
+- **Shared manuscript claim summary** The authors propose a computational procedure combining atomic-resolution MD simulations, binding polynomial theory, and Wertheim thermodynamic perturbation theory to predict the rank order of excipient effectiveness in reducing protein-protein association and solution viscosity for a monoclonal antibody (MEDI-4212). They introduce "Oreo models" (Empty, Traditional, Double-Stuf) to account for excipient occupancy within the protein-protein interface and validate against experimental viscosity data for four amino acid excipients (Arg, Asp, Glu, Lys).
+- **Visible evidence base** Main text figures referenced (Figs. 1–6), tables (Table 1), supplementary figures and tables (Figs. S1–S10, Tables S1–S4), and experimental references (refs 25, 26)
+- **Missing materials affecting confidence** Full supplementary information not provided; specific numerical values for fits (e.g., aavg from simulations and experiments) not shown in main text; detailed MD simulation parameters (force field validation, convergence checks) only partially described; experimental viscosity data not reproduced in the manuscript
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and computationally tractable approach to a practically important problem in biologics formulation. The combination of binding polynomial theory with MD-derived parameters is a reasonable strategy, and the Oreo model framework is a creative way to handle interface occupancy. However, the evidence base is thin: validation rests on a single antibody and four excipients, with no quantitative error analysis or comparison to alternative methods. The claim of "semi-quantitative agreement" is not fully supported by the data shown, as key numerical comparisons between simulated and experimental aavg values are not presented in the main text. The manuscript would benefit from clearer presentation of the fitting procedure, uncertainty quantification, and a more critical discussion of model limitations.
+- **Who would be interested in the results, and why** Researchers in biopharmaceutical formulation science, computational biophysics, and protein engineering would find this relevant. The approach offers a potential high-throughput screening tool for excipient selection, which is of direct industrial interest. The methodological framework (binding polynomials + MD) may also appeal to those studying weak protein-ligand interactions more broadly.
+- **Major strengths** 1) The conceptual framing of excipient effects via binding polynomials is elegant and physically motivated. 2) The Oreo model variants provide a simple, interpretable way to parameterize interface occupancy. 3) The use of a proxy parameter (a = NKe) to avoid non-uniqueness in fitting is pragmatic. 4) The computational pipeline (ClusPro → MD → binding polynomial → Wertheim theory) is modular and potentially transferable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "This approach appears useful for predicting effects of excipients on protein association and phase separation" (Abstract) and "we find semi-quantitative agreement with experimental results" (Conclusions)
+  - **Evidence pointer** Fig. 6, Table 1, Section "Evaluating the Oreo Models"
+  - **Concern** The validation is based on a single antibody (MEDI-4212) and four excipients. The manuscript does not provide quantitative comparison between simulated aavg and experimentally fitted aavg values in the main text; only qualitative rank ordering is shown. Without numerical values, error bars, or a statistical measure of agreement, the claim of "semi-quantitative agreement" is not substantiated. The generalizability to other antibodies or excipients is asserted but not demonstrated.
+  - **Why it matters** The core claim of the manuscript is that the method can predict excipient effects. If the agreement is only qualitative and based on a single system, the practical utility and scientific robustness of the approach remain unestablished. Readers cannot assess whether the method would work for other systems or whether the observed rank ordering could arise by chance.
+  - **Resolution test** Provide a table or figure with numerical aavg values from simulations and experiments for each excipient, including confidence intervals or standard errors. Add a statistical test (e.g., Spearman rank correlation) to quantify agreement. Ideally, include at least one additional antibody or protein system to demonstrate transferability.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "we can use the values of the parameter a calculated from simulations, and the same parameter calculated from fitting the experimental data" (Section "Evaluating the Oreo Models")
+  - **Evidence pointer** Section "Obtaining the microscopic parameters from atomistic simulations", Table 1, Fig. 4
+  - **Concern** The procedure for extracting N and Ke (or a) from MD simulations is not fully described. The manuscript states that probability distributions of bound excipient counts are fit to binomial distributions, but details on the definition of "bound" (distance cutoff, residence time), the treatment of multiple binding sites, and the handling of statistical noise are missing. The sensitivity of the results to these choices is not discussed. Additionally, the fitting of the Oreo models to experimental Kp(c) data (Fig. 6) is not described in sufficient detail (e.g., optimization algorithm, initial guesses, parameter bounds).
+  - **Why it matters** Reproducibility is a cornerstone of computational studies. Without a complete description of the parameter extraction and fitting procedures, other researchers cannot apply or verify the method. The lack of sensitivity analysis means that the robustness of the conclusions to methodological choices is unknown.
+  - **Resolution test** Provide a step-by-step protocol for extracting N and Ke from MD trajectories, including the exact definition of binding, the fitting procedure, and the handling of uncertainties. Describe the fitting of Oreo models to experimental data with equations, algorithms, and convergence criteria. Include a sensitivity analysis (e.g., varying the binding cutoff or the number of binding sites) to show that conclusions are robust.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model assumptions
+  - **Claim pointer** "we assume that all N excipient binding sites at the protein-protein interface are equivalent" (Section "The protein-excipient binding polynomial")
+  - **Evidence pointer** Section "The protein-excipient binding polynomial", Fig. 1
+  - **Concern** The assumption of equivalent, independent binding sites is a strong simplification. Real protein interfaces are heterogeneous, and excipient binding may be cooperative or site-specific. The manuscript does not test whether this assumption holds for the MEDI-4212 system or discuss its potential impact on predictions. The extension to heterotypic interfaces (Eq. 12) partially addresses this, but the homotypic approximation used for fitting (aavg) may obscure site-specific effects.
+  - **Why it matters** If the binding site equivalence assumption is violated, the extracted parameters (N, Ke) may be effective rather than mechanistic, limiting the interpretability and transferability of the model. The manuscript's claim of physical insight ("physical rationale for the PPI-disrupting behavior") depends on the validity of this assumption.
+  - **Resolution test** Perform a site-resolved analysis of excipient binding from MD simulations to check whether binding affinities vary across sites. If heterogeneity is found, discuss how the effective parameters relate to site-specific values and whether the Oreo model predictions remain valid. Alternatively, test the model on a system where site-specific binding data are available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "combining atomic-resolution MD simulations, binding polynomials and a thermodynamic perturbation theory" but does not specify the role of each component. A reader unfamiliar with the methods may not understand how these are integrated.
+  - **Required correction** Add one sentence in the abstract clarifying the logical flow (e.g., "MD simulations provide microscopic binding parameters, which are used in a binding polynomial to compute affinity changes, which are then input to thermodynamic perturbation theory to predict viscosity").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section "The Oreo Model of binding interfaces"
+  - **Evidence pointer** Fig. 2
+  - **Issue** The names "Empty Oreo," "Traditional Oreo," and "Double-Stuf Oreo" are memorable but may be confusing to non-native English speakers or those unfamiliar with the cookie brand. The definitions are given, but the naming could be seen as informal for a scientific manuscript.
+  - **Required correction** Consider adding a parenthetical clarification (e.g., "mi = 0, 1, 2 respectively") at first mention, or use more descriptive terms alongside the Oreo names.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "From the microscopics to macroscopic predictions"
+  - **Evidence pointer** Eq. 11
+  - **Issue** The constant C in Eq. 11 is stated as 18.2 kJ/mol but its origin is not explained. It is described as "related to the loss of entropy upon dimerization," but no derivation or reference is given.
+  - **Required correction** Provide a reference for the value of C or a brief derivation in the main text or supplementary information.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section "Evaluating the Oreo Models"
+  - **Evidence pointer** Fig. 6
+  - **Issue** The figure shows fits of three Oreo models to experimental Kp(c) data, but the quality of fits is not quantified (e.g., R², RMSE). The statement "all three models seem to fit the data reasonably well" is subjective.
+  - **Required correction** Add goodness-of-fit metrics to the figure or text, and discuss which model is statistically preferred if applicable.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Section "Obtaining the microscopic parameters from atomistic simulations"
+  - **Evidence pointer** "acheive" (typo in Introduction), "thee" (typo in Section "From the microscopics to macroscopic predictions")
+  - **Issue** Several typographical errors are present (e.g., "acheive" should be "achieve," "thee" should be "the").
+  - **Required correction** Proofread the manuscript for typographical errors.
+
+## Risk / unsupported claims
+- The claim that the method "appears useful for predicting effects of excipients on protein association and phase separation" (Abstract) is not supported by direct evidence for phase separation; only viscosity is addressed.
+- The statement "we find semi-quantitative agreement with experimental results" (Conclusions) is not quantitatively substantiated in the main text.
+- The assertion that AlphaFold Multimer "did not identify bound configurations that agree with the experimental data" is presented without details on the AlphaFold runs (e.g., model version, confidence scores), making it difficult to assess.
+- The claim that the "Traditional Oreo model has the best quantitative agreement with the aavg parameters obtained from simulations" is not backed by numerical comparisons in the main text.
+- The generalizability of the approach to other antibodies or proteins is asserted but not demonstrated; the study uses a single antibody system.

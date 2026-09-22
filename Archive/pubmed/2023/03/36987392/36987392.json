@@ -1,0 +1,258 @@
+{
+  "identity": {
+    "pmid": "36987392",
+    "doi": "10.1016/j.bpj.2023.03.036",
+    "title": "The maximum solubility product marks the threshold for condensation of multivalent biomolecules."
+  },
+  "content": {
+    "abstract": "Clustering of weakly interacting multivalent biomolecules underlies the formation of membraneless compartments known as condensates. As opposed to single-component (homotypic) systems, the concentration dependence of multicomponent (heterotypic) condensate formation is not well understood. We previously proposed the solubility product (SP), the product of monomer concentrations in the dilute phase, as a tool for understanding the concentration dependence of multicomponent systems. In this study, we further explore the limits of the SP concept using spatial Langevin dynamics and rule-based stochastic simulations. We show, for a variety of idealized molecular structures, how the maximum SP coincides with the onset of the phase transition, i.e., the formation of large clusters. We reveal the importance of intracluster binding in steering the free and cluster phase molecular distributions. We also show how structural features of biomolecules shape the SP profiles. The interplay of flexibility, length, and steric hindrance of linker regions controls the phase transition threshold. Remarkably, when SPs are normalized to nondimensional variables and plotted against the concentration scaled to the threshold for phase transition, the curves all coincide independent of the structural features of the binding partners. Similar coincidence is observed for the normalized clustering versus concentration plots. Overall, the principles derived from these systematic models will help guide and interpret in vitro and in vivo experiments on the biophysics of biomolecular condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Solubility",
+      "*Biomolecular Condensates/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chattaraj, Aniruddha",
+        "Loew, Leslie M"
+      ],
+      "short_names": [
+        "Chattaraj A",
+        "Loew LM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "R. D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut.",
+        "R. D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut. Electronic address: les@volt.uchc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chattaraj, Aniruddha",
+        "short_name": "Chattaraj A",
+        "identifiers": [],
+        "affiliations": [
+          "R. D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut."
+        ]
+      },
+      {
+        "full_name": "Loew, Leslie M",
+        "short_name": "Loew LM",
+        "identifiers": [],
+        "affiliations": [
+          "R. D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut. Electronic address: les@volt.uchc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2023 May 2",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/30 06:00",
+    "fetched_at": "2026-09-20 20:44:12"
+  },
+  "links": {
+    "cites": [
+      "42161313",
+      "41288458",
+      "40909695",
+      "40063811",
+      "39046778",
+      "38328089"
+    ],
+    "refs": [
+      "35787038",
+      "35675815",
+      "34785657",
+      "34637756",
+      "34334791",
+      "34236318",
+      "34135122",
+      "33704061",
+      "33597515",
+      "33453922",
+      "33212590",
+      "33076213",
+      "33004511",
+      "32484438",
+      "32405004",
+      "32214099",
+      "32004090",
+      "31974256",
+      "31634364",
+      "31430179",
+      "30682370",
+      "30661665",
+      "29091028",
+      "28935776",
+      "28225081",
+      "27402907",
+      "26840718",
+      "25288112",
+      "24314076",
+      "22398450",
+      "21186362",
+      "19835637",
+      "18851068"
+    ],
+    "similar": [
+      "36987392",
+      "34236318",
+      "39046778",
+      "38328089",
+      "33672806",
+      "36993212",
+      "34090478",
+      "36758221",
+      "30926670",
+      "37549257",
+      "38163950",
+      "38472406",
+      "34772789",
+      "37019112",
+      "36071192",
+      "34772786",
+      "33653957",
+      "38363841",
+      "36321557",
+      "34129784",
+      "38915678",
+      "35974095",
+      "35727989",
+      "36227486",
+      "34767801",
+      "35881789",
+      "35787038",
+      "34552246",
+      "34654286",
+      "36400992",
+      "34916288",
+      "34772787",
+      "36150962",
+      "32482873",
+      "36269080",
+      "23912807",
+      "37464880",
+      "34179888",
+      "33684296",
+      "33650968",
+      "31634364",
+      "35675815",
+      "37194953",
+      "32405004",
+      "38562796",
+      "34706978",
+      "38591689",
+      "33087563",
+      "35325654",
+      "37252985",
+      "35001622",
+      "33914074",
+      "37013374",
+      "37468629",
+      "36847235",
+      "38466837",
+      "34890409",
+      "33864415",
+      "37586369",
+      "36227480",
+      "37261897",
+      "36227474",
+      "38621751",
+      "34588591",
+      "36439121",
+      "36291688",
+      "38175843",
+      "37343188",
+      "39102550",
+      "37438363",
+      "35179885",
+      "32004090",
+      "38429263",
+      "36543777",
+      "38349628",
+      "36993371",
+      "37293933",
+      "33302617",
+      "33765580",
+      "35761089",
+      "37546967",
+      "34636323",
+      "34772790",
+      "34241502"
+    ],
+    "review": [
+      "36987392",
+      "34772789",
+      "36071192",
+      "34772786",
+      "36321557",
+      "34129784",
+      "35974095",
+      "34767801",
+      "36400992",
+      "34772787",
+      "36150962",
+      "36269080",
+      "37464880",
+      "34179888",
+      "33684296",
+      "35675815",
+      "34706978",
+      "33914074",
+      "38621751",
+      "36439121",
+      "38175843",
+      "35179885",
+      "32004090",
+      "33765580",
+      "35761089"
+    ],
+    "pmc": [
+      "10183374"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(23)00209-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36987392/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36987392",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

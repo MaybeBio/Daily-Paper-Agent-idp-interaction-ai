@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35869787",
+  "title": "The effect of lipid composition on the dynamics of tau fibrils.",
+  "authors": "Chowdhury, Unmesh Dutta; Paul, Arnav; Bhargava, B L",
+  "journal": "Proteins",
+  "published_date": "2022-07-24",
+  "window": {
+    "start": "2022-07-18",
+    "end": "2022-07-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用粗粒化和全原子MD模拟研究脂质组成对tau纤维与膜互作动态的影响，对象为tau纤维（含IDR相关但非典型IDP），互作轴为tau纤维-膜结合机制，方法轴为物理模拟，但未涉及无序蛋白介导的PPI或相分离，机制建模可迁移性中等。",
+  "abstract": "Knowledge of the interaction of the tau fibrils with the cell membrane is critical for the understanding of the underlying tauopathy pathogenesis. Lipid composition is found to affect the conformational ensemble of the tau fibrils. Using coarse-grained and all-atom molecular dynamics simulations we have shown the effect of the lipid composition in modulating the tau structure and dynamics. Molecular dynamics simulations show that tau proteins interact differentially with the zwitterionic compared to the charged lipid membranes. The negatively charged POPG lipid membranes increase the binding propensity of the tau fibrils. The addition of cholesterol is also found to modify the tau binding to the membrane. The binding of tau fibril leads to the concomitant loss of the beta-sheet structures across the tau residues alongside the change in the membrane properties (like area per lipid, bilayer thickness, and order parameter of the lipid tails) over the pure bilayers.",
+  "abstract_zh": "tau纤维与细胞膜相互作用的知识对于理解潜在的tau蛋白病发病机制至关重要。研究发现脂质组成会影响tau纤维的构象集合。利用粗粒化和全原子分子动力学模拟，我们展示了脂质组成在调节tau结构和动力学中的作用。分子动力学模拟表明，tau蛋白与两性离子脂质膜和带电脂质膜的相互作用存在差异。带负电的POPG脂质膜增加了tau纤维的结合倾向。胆固醇的添加也被发现会改变tau与膜的结合。tau纤维的结合导致tau残基上β-折叠结构的伴随性丧失，同时纯双层膜上的膜性质（如每个脂质的面积、双层厚度和脂质尾部的有序参数）也发生变化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35869787/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35869787/",
+  "paper_page_path": "papers/pubmed/35869787/index.html"
+}

@@ -1,0 +1,65 @@
+## Review setup
+- **Input scope** Abstract and significance statement only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract and significance statement
+- **Shared manuscript claim summary** The authors report that phase separation in mixtures of prion-like low complexity domains is governed by the interplay of homotypic and heterotypic interactions, and that this interplay can be tuned via expression levels to modulate condensate structure, composition, and interfaces.
+- **Visible evidence base** Abstract text and significance statement only; no figures, tables, methods, or results sections provided
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, methods descriptions, quantitative data, and experimental/computational details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely claim regarding the role of homotypic and heterotypic interactions in driving phase separation of prion-like low complexity domain mixtures. The combination of computational and experimental approaches is appropriate for the question posed. However, the supplied material is insufficient to evaluate the technical soundness of the work, the strength of the evidence, or the validity of the conclusions. The central claims are plausible but currently not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, intrinsically disordered proteins, and cell biology would be interested. The work addresses a fundamental question about how multicomponent condensates form and how their properties might be regulated, which has implications for understanding cellular organization and potentially for diseases involving prion-like domains.
+- **Major strengths** The question addressed is of high relevance to the condensate field, moving beyond single-component studies to mixtures. The stated use of both computations and experiments is a strength, as it allows for cross-validation. The significance statement clearly articulates the potential biological implications regarding expression level tuning.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that phase transitions of mixtures are governed by a complex interplay of homotypic and heterotypic interactions.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that the investigations show this interplay governs phase transitions, but no quantitative data, representative results, or methodological details are provided to support this claim. It is unclear what specific measurements or calculations were performed, what the magnitude of the effects was, or how the interplay was dissected.
+  - **Why it matters** Without evidence, the central mechanistic claim cannot be evaluated. The conclusion that homotypic and heterotypic interactions jointly drive phase separation requires demonstration that both types of interactions contribute and that their interplay is necessary to explain the observed behavior.
+  - **Resolution test** Provide specific experimental and computational results, such as phase diagrams, interaction measurements, or mutational analyses, that quantitatively demonstrate the contributions of homotypic and heterotypic interactions to phase separation in the mixtures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim scope
+  - **Claim pointer** The claim that expression levels can be tuned to modulate internal structures, compositions, and interfaces of condensates.
+  - **Evidence pointer** Significance statement, location not provided
+  - **Concern** This claim extends from the phase behavior of purified protein mixtures to cellular contexts, implying that the in vitro findings translate to in vivo regulation. No evidence is presented that expression level changes affect condensate properties in cells or that the in vitro system recapitulates cellular conditions.
+  - **Why it matters** The significance of the work depends on the biological relevance of the findings. If the claim about expression level tuning is not supported by direct evidence, the broader implications are overstated.
+  - **Resolution test** Provide data linking changes in component concentrations to measurable changes in condensate properties, either in vitro with relevance to cellular concentrations or directly in cellular assays.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify which prion-like low complexity domains were studied or from which proteins they derive.
+  - **Required correction** Name the specific domains and source proteins to allow readers to assess relevance and generalizability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No information is given about the computational model or experimental assay used.
+  - **Required correction** Briefly state the computational approach and experimental technique in the abstract or ensure the full manuscript provides sufficient detail.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantitative support
+  - **Affected element** Results summary
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract lacks any quantitative descriptors, such as concentrations, interaction strengths, or phase separation thresholds.
+  - **Required correction** Include representative quantitative values to give readers a sense of the magnitude of the effects.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The evidence base is insufficient to establish the central mechanistic claim or the biological implications. No technical failings can be identified from the supplied material, but the absence of methods and results prevents assessment of technical soundness.
+- **Assessment against Nature-style criteria** 
+  - Originality: The move from single-component to multicomponent phase separation is a valuable step, and the focus on homotypic versus heterotypic interactions is a useful framing. However, the concept of interaction interplay in mixtures is not entirely new, and the novelty depends on the specific findings, which are not visible.
+  - Scientific importance: The question of how mixtures phase separate is important for understanding condensate biology. The potential link to expression level control is significant if supported.
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and computational biology, and would appeal to a broad readership if the findings are clearly presented.
+  - Technical soundness: Cannot be assessed from the abstract alone. The blend of computation and experiment is promising, but no details are available.
+  - Readability for nonspecialists: The abstract is reasonably accessible, though terms like "prion-like low complexity domains" and "homotypic and heterotypic interactions" may require some background. The significance statement is clear.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible and the topic is of interest, but the abstract alone does not provide sufficient information to evaluate the work. A full assessment requires the complete manuscript.
+
+## Risk / unsupported claims
+- The claim that phase transitions of mixtures are governed by a complex interplay of homotypic and heterotypic interactions is unsupported by the supplied material.
+- The claim that expression levels can be tuned to modulate condensate structure, composition, and interfaces is unsupported and extends beyond the presented scope.
+- Any specific quantitative or mechanistic conclusions are not assessable from the abstract.

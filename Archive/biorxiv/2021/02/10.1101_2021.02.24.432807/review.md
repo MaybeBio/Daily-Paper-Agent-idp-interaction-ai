@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, limitations, conclusions) as provided on bioRxiv
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. No line numbers were provided; references to sections and figures are based on the manuscript structure as supplied.
+- **Shared manuscript claim summary** The authors used extended ensemble molecular dynamics (REST2) to model the complex between SARS-CoV-2 nsp1 and the 5'-UTR stem loop SL1. They report that SL1 is recognized by both the globular N-terminal domain and the intrinsically disordered C-terminal region of nsp1, that binding is multimodal with no single stable conformation, and that this interaction likely lifts the C-terminal helices from the 40S ribosome, thereby enabling translation of viral RNA.
+- **Visible evidence base** Simulation setup and analysis methods, representative snapshots (Fig. 1), secondary structure analysis, distance distributions (Fig. 3), contact probability tables (Table 1, Fig. 4), clustering results (Fig. 7, Supplementary Tables S2-S5, Supplementary Figures S3-S6), and comparisons to published experimental data (cryo-EM structures, mutational analyses, binding assays).
+- **Missing materials affecting confidence** The supporting information (SI.pdf, forcefield.zip, patch.zip) was not provided. Convergence tests, detailed cluster descriptions, and the cryo-EM distance estimation procedure are referenced but not accessible. This limits full verification of several technical claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study aimed at explaining how SARS-CoV-2 viral RNA evades nsp1-mediated host translation shutoff. The work addresses a timely and biologically important question. The use of REST2 extended ensemble simulations is appropriate for the highly charged nsp1-RNA system, and the authors are transparent about their modeling assumptions and limitations. However, the central mechanistic claim, that SL1 binding physically displaces the nsp1 C-terminal helices from the ribosome, is inferred from simulations performed in the absence of the ribosome and is not directly tested. The evidence for multimodal binding is reasonable, but the link to ribosomal displacement remains speculative. Several technical details, including force field parameterization for modified RNA caps and the convergence of the weighted ensemble, could not be fully assessed due to missing supplementary materials. Overall, the study is a useful contribution to the structural biology of SARS-CoV-2, but the central claim is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Structural biologists and computational biophysicists studying protein-RNA interactions, particularly those focused on SARS-CoV-2 replication and host-pathogen interactions. Researchers investigating the molecular basis of viral translation evasion and those developing nsp1-targeted therapeutics would also find the identified interaction hotspots (e.g., Arg124, Lys47, Arg43, Asn126) of interest for mutational and drug design studies.
+- **Major strengths** 1. The study addresses a biologically significant and timely question with clear practical implications. 2. The use of REST2 is methodologically appropriate for overcoming sampling limitations in highly charged protein-RNA systems. 3. The authors are transparent about modeling assumptions and limitations, including the absence of the ribosome and force field uncertainties. 4. The identification of specific residues and RNA bases involved in binding provides testable predictions for experimental validation. 5. The multimodal binding hypothesis is consistent with the intrinsically disordered nature of the nsp1 C-terminal region.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The central mechanistic claim that SL1 binding to nsp1 lifts the C-terminal helices from the 40S ribosome, thereby unblocking translation of viral RNA.
+  - **Evidence pointer** Results and discussion, section "Model of the mechanism", Fig. 8
+  - **Concern** The proposed mechanism is inferred from simulations of nsp1 and SL1 in isolation. The ribosome is absent from the simulation system, and the authors acknowledge that the orientation of nsp1 on the 40S ribosome is ambiguous. The claim that SL1 binding displaces the C-terminal helices from the ribosome is therefore not directly tested. The distance analysis (Fig. 3) compares the nsp1 N-terminal domain to C-terminal helices in the nsp1-SL1 complex, but this does not establish that the helices would be displaced from the ribosome in a ternary complex.
+  - **Why it matters** The proposed mechanism is the primary conclusion of the study and has implications for understanding viral translation evasion. If the displacement is not directly supported, the conclusion remains speculative and could mislead subsequent experimental designs.
+  - **Resolution test** The authors should either (a) perform simulations or modeling that include the ribosome (or a simplified ribosomal surface) to test whether SL1 binding is compatible with ribosome binding, or (b) clearly reframe the claim as a hypothesis that requires experimental validation, rather than a conclusion drawn from the simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The use of distance restraints on G-C base pairs in SL1 to maintain stem-loop stability, and the claim that this does not significantly bias the binding mode.
+  - **Evidence pointer** Methods, section "Simulation setup"
+  - **Concern** The authors applied harmonic restraints to four G-C base pairs in SL1 to maintain the stem-loop structure. While they argue this is justified by secondary structure predictions, the restraints may bias the conformational sampling of SL1 and could affect the observed binding modes. The manuscript does not report control simulations without restraints or a systematic analysis of how the restraints influence the ensemble.
+  - **Why it matters** If the restraints artificially stabilize a particular RNA conformation, the observed binding modes and interaction hotspots may not reflect the true conformational ensemble of SL1, potentially undermining the generality of the conclusions.
+  - **Resolution test** The authors should provide evidence that the restraints do not qualitatively alter the binding modes, for example by comparing a subset of unrestrained simulations or by showing that the restrained base pairs remain stable without restraints in short test simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The convergence of the REST2 simulation and the reliability of the weighted ensemble obtained via MBAR analysis.
+  - **Evidence pointer** Methods, section "Simulation analysis"; Supplementary material (not provided)
+  - **Concern** The authors state that convergence was tested using secondary structure distributions and hydrogen bond stability, but the details are only in the supplementary material, which was not provided. The simulation length is 50 ns per replica (9.6 μs total), which may be short for a system of this size and complexity, particularly for convergence of protein-RNA binding modes involving an intrinsically disordered region.
+  - **Why it matters** If the ensemble is not converged, the reported contact probabilities, cluster populations, and distance distributions may not be representative, and the conclusions drawn from them could be unreliable.
+  - **Resolution test** The authors should provide the convergence data in the main text or ensure the supplementary material is accessible. Ideally, they should show that key observables (e.g., contact probabilities, cluster populations) are stable over the second half of the simulation or across independent runs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim support
+  - **Claim pointer** The claim that the simulation results explain the discrepancy between two experimental studies on nsp1-5'-UTR binding (one reporting binding with Kd = 0.18 μM, the other reporting no gel shift).
+  - **Evidence pointer** Results and discussion, section "Relation to other experimental results"
+  - **Concern** The authors state that their finding of weak, multimodal binding is consistent with both experimental results, but this is a post-hoc rationalization. The simulations do not provide a quantitative binding free energy or affinity estimate, so the claim that the observed binding mode is "weak" is not directly supported by the data.
+  - **Why it matters** The reconciliation of conflicting experimental results is presented as a strength of the study, but without quantitative binding affinity estimates, the argument is not rigorous and could be seen as overinterpretation.
+  - **Resolution test** The authors should either compute a binding free energy estimate (e.g., via MM-PBSA or similar) or temper the claim to state that the simulations are qualitatively consistent with weak binding, without asserting a quantitative reconciliation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the recognition "presumably enables selective translation of viral RNAs," which is appropriately cautious, but the final sentence states the mechanism as a conclusion ("unblocking translation of the viral RNA"). This inconsistency in certainty could confuse readers.
+  - **Required correction** Align the language in the abstract to consistently reflect the hypothesis-driven nature of the conclusion, e.g., "suggesting that SL1 binding may unblock translation."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, simulation setup
+  - **Evidence pointer** Methods, section "Simulation setup"
+  - **Issue** The number of replicas (192) and the exchange acceptance ratios are reported, but the temperature distribution across replicas and the specific REST2 scaling schedule are not described.
+  - **Required correction** Provide the temperature or scaling factor distribution for the replicas to allow reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, clustering analysis
+  - **Evidence pointer** Results and discussion, section "Clustering analysis of the binding poses"
+  - **Issue** The clustering parameters (eps = 6, minPts = 200) are described as "arbitrarily determined," which is honest but leaves the reader without a sense of robustness. The statement that OPTICS gave "qualitatively similar results" is not quantified.
+  - **Required correction** Provide a brief sensitivity analysis (e.g., how cluster populations change with eps) or a quantitative comparison between DBSCAN and OPTICS results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, interaction analysis
+  - **Evidence pointer** Results and discussion, section "SL1's hairpin is recognized by the nsp1 IDR"
+  - **Issue** The text mentions "Supplementary Table S1" for the categorization of binding interface regions, but this table was not provided in the submitted material.
+  - **Required correction** Ensure all referenced supplementary materials are accessible to reviewers and readers.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction contains several typographical errors (e.g., "nown" for "known", "icluding" for "including", "initiaion" for "initiation", "compsled" for "composed").
+  - **Required correction** Proofread the manuscript for typographical errors before submission.
+
+## Risk / unsupported claims
+- The central mechanism (SL1 binding displaces nsp1 C-terminal helices from the ribosome) is not directly supported by the simulations, as the ribosome is absent from the system. This is a hypothesis, not a demonstrated conclusion.
+- The claim that the simulations reconcile conflicting experimental binding results is not quantitatively supported, as no binding free energy was computed.
+- The assertion that the C-terminal helices form before ribosome binding ("pre-existing equilibrium") is based on secondary structure analysis in the nsp1-SL1 complex, but the functional relevance to ribosome binding is not established.
+- The claim that specific residues (Arg124, Lys47, Arg43, Asn126) are "important" for SL1 recognition is based on contact frequencies, but no mutational or energetic analysis is provided to confirm their functional significance.
+- The convergence of the REST2 simulation and the reliability of the MBAM-weighted ensemble could not be assessed due to missing supplementary material.

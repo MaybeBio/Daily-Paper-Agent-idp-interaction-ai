@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "40105139",
+    "doi": "10.1063/5.0239634",
+    "title": "The synergy between compartmentalization and motorization in chromatin architecture."
+  },
+  "content": {
+    "abstract": "High-resolution techniques capable of manipulating from single molecules to millions of cells are combined with three-dimensional modeling followed by simulation to comprehend the specific aspects of chromosomes. From the theoretical perspective, the energy landscape theory from protein folding inspired the development of the minimal chromatin model (MiChroM). In this work, two biologically relevant MiChroM energy terms were minimized under different conditions, revealing a competition between loci compartmentalization and motor-driven activity mechanisms in chromatin folding. Enhancing the motor activity energy baseline increased the lengthwise compaction and reduced the polymer entanglement. Concomitantly, decreasing compartmentalization-related interactions reduced the overall polymer collapse, although compartmentalization given by the microphase separation remained almost intact. For multiple chromosome simulations, increased motorization intensified the territory formation of the different chains and reduced compartmentalization strength lowered the probability of contact formation of different loci between multiple chains, approximating to the experimental inter-contacts of the human chromosomes. These findings have direct implications for experimental data-driven chromosome modeling, specially those involving multiple chromosomes. The interplay between phase-separation and territory formation mechanisms should be properly implemented in order to recover the genome architecture and dynamics, features that might play critical roles in regulating nuclear functions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin/chemistry",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Oliveira, Ronaldo J",
+        "Oliveira Junior, Antonio B",
+        "Contessoto, Vinicius G",
+        "Onuchic, Jose N"
+      ],
+      "short_names": [
+        "Oliveira RJ",
+        "Oliveira Junior AB",
+        "Contessoto VG",
+        "Onuchic JN"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4860-309X",
+        "ORCID: 0000-0003-1955-3556",
+        "ORCID: 0000-0002-1891-9563",
+        "ORCID: 0000-0002-9448-0388"
+      ],
+      "affiliations": [
+        "Laboratorio de Biofisica Teorica, Departamento de Fisica, Instituto de Ciencias Exatas, Naturais e Educacao, Universidade Federal do Triangulo Mineiro, Uberaba, MG 38064-200, Brazil.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77030, USA.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77030, USA.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77030, USA.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77030, USA.",
+        "Department of Physics and Astronomy, Rice University, Houston, Texas 77030, USA.",
+        "Department of Chemistry, Rice University, Houston, Texas 77030, USA.",
+        "Department of Biosciences, Rice University, Houston, Texas 77030, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Oliveira, Ronaldo J",
+        "short_name": "Oliveira RJ",
+        "identifiers": [
+          "0000-0003-4860-309X"
+        ],
+        "affiliations": [
+          "Laboratório de Biofísica Teórica, Departamento de Física, Instituto de Ciências Exatas, Naturais e Educação, Universidade Federal do Triângulo Mineiro, Uberaba, MG 38064-200, Brazil.",
+          "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Oliveira Junior, Antonio B",
+        "short_name": "Oliveira Junior AB",
+        "identifiers": [
+          "0000-0003-1955-3556"
+        ],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Contessoto, Vinícius G",
+        "short_name": "Contessoto VG",
+        "identifiers": [
+          "0000-0002-1891-9563"
+        ],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77030, USA."
+        ]
+      },
+      {
+        "full_name": "Onuchic, José N",
+        "short_name": "Onuchic JN",
+        "identifiers": [
+          "0000-0002-9448-0388"
+        ],
+        "affiliations": [
+          "Center for Theoretical Biological Physics, Rice University, Houston, Texas 77030, USA.",
+          "Department of Physics and Astronomy, Rice University, Houston, Texas 77030, USA.",
+          "Department of Chemistry, Rice University, Houston, Texas 77030, USA.",
+          "Department of Biosciences, Rice University, Houston, Texas 77030, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2025 Mar 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/19 12:30",
+    "fetched_at": "2026-09-21 16:45:24"
+  },
+  "links": {
+    "cites": [
+      "41902470"
+    ],
+    "refs": [],
+    "similar": [
+      "40105139",
+      "33160979",
+      "29087948",
+      "30125668",
+      "39651819",
+      "34319725",
+      "27688758",
+      "36871158",
+      "37496267",
+      "31114898",
+      "33155082",
+      "23912807",
+      "32311333",
+      "34518339",
+      "31757850",
+      "35839701",
+      "34282837",
+      "29967174",
+      "39601793",
+      "11186332",
+      "35860407",
+      "28468672",
+      "24990374",
+      "33583147",
+      "36993500",
+      "36835064",
+      "39971382",
+      "35831310",
+      "33574602",
+      "26787893",
+      "36348120",
+      "25757416",
+      "31876274",
+      "37212988",
+      "27008015",
+      "25912650",
+      "29503869",
+      "37254161",
+      "32045823",
+      "25299688",
+      "19234129",
+      "36577295",
+      "39576608",
+      "38491617",
+      "37580627",
+      "38753513",
+      "31168090",
+      "9887267",
+      "27405443",
+      "25887659",
+      "34001913",
+      "32158765",
+      "32101700",
+      "33446254",
+      "32586227",
+      "35617433",
+      "28703188",
+      "40211002",
+      "34415543",
+      "28091870",
+      "34749781",
+      "32313950",
+      "20811620",
+      "34400556",
+      "29813054",
+      "37155885",
+      "32620890",
+      "36718642",
+      "33572740",
+      "33047670",
+      "39016234",
+      "35420130",
+      "28588240",
+      "32093610",
+      "35096966",
+      "38658703",
+      "32250245",
+      "39306948",
+      "20519580",
+      "35410381",
+      "10491386",
+      "11060439",
+      "27028634",
+      "26553003",
+      "38328091",
+      "26068134",
+      "21378305",
+      "33080019",
+      "29626919",
+      "31112939",
+      "34078602",
+      "28153411",
+      "25690896",
+      "27445307",
+      "30344096",
+      "25092923",
+      "36725757",
+      "31181064",
+      "40210623",
+      "37365687"
+    ],
+    "review": [
+      "40105139",
+      "30125668",
+      "32311333",
+      "34518339",
+      "35839701",
+      "34282837",
+      "39601793",
+      "11186332",
+      "33583147",
+      "36835064",
+      "39971382",
+      "25757416",
+      "31876274",
+      "25912650",
+      "32045823",
+      "36577295",
+      "39576608",
+      "32158765",
+      "32586227",
+      "28091870",
+      "32313950",
+      "34400556",
+      "39016234",
+      "35096966",
+      "38658703",
+      "39306948",
+      "11060439",
+      "29626919",
+      "28153411",
+      "36725757"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0239634",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and acknowledgments.
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and alignment with claims. Editorial and formatting issues are noted only where they affect comprehension.
+- **Shared manuscript claim summary** The authors propose that HIV-1 nucleocapsid (NC) regulates its own condensation during viral maturation via a phase-separated, quinary interaction network. They identify two palindromic RNA-binding triads (KxxFxxQ and QxxFxxK) on NC, show that the viral protease (PR) is sequestered within the nucleocapsid RNP, and demonstrate that this sequestration enhances PR activity in an RNA-length-dependent manner, temporally coupling budding and maturation.
+- **Visible evidence base** Methods sections 2.1–2.7; Results sections 3.1–3.4; Figures 1–5 (referenced but not fully visible); Supplementary Figures S1–S6 and Supplementary Note (referenced but not fully visible); Discussion section 4.
+- **Missing materials affecting confidence** Full figure panels and supplementary data are not provided in the submitted text. Specifically, Figure 1B–F, Figure 2A–I, Figure 3A–D, Figure 4A–E, Figure 5A–D, and Figure 6 are referenced but not shown. Supplementary Figures S1–S6 and the Supplementary Note are also not available. This limits verification of quantitative results, statistical analyses, and the molecular dynamics simulation details.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and novel hypothesis that HIV-1 nucleocapsid maturation is governed by quinary interactions and phase-separated dynamics, with PR sequestration as a key regulatory mechanism. The integration of biophysical assays, molecular dynamics simulations, and in virio electron microscopy is ambitious and potentially impactful. However, the current evidence base, as presented in the text alone, is insufficient to fully establish the central claims. Key quantitative data, simulation details, and control experiments are not visible, and some conclusions appear to extend beyond what the described experiments can support. The work is of high interest to the virology and phase-separation communities, but requires substantial clarification and additional evidence before the case is fully established.
+- **Who would be interested in the results, and why** Virologists studying HIV-1 assembly and maturation, particularly those focused on Gag processing, NC function, and PR activity. Researchers in the field of biomolecular condensates and liquid–liquid phase separation, as this work extends these concepts to a viral system. Structural biologists and biophysicists interested in protein–nucleic acid interactions and quinary structure. The potential therapeutic implications for targeting NC–RNA interactions during maturation would also interest drug discovery researchers.
+- **Major strengths**
+  - The hypothesis is original and intellectually stimulating, connecting phase-separation concepts to a well-studied viral maturation pathway.
+  - The study uses a multi-technique approach (EMSA, AFM, DLS, MD simulations, FRET, TEM) to address the question from multiple angles.
+  - The identification of specific palindromic triads (KxxFxxQ and QxxFxxK) as quinary interaction modules is a concrete and testable contribution.
+  - The temporal coupling of budding and maturation, supported by in virio imaging, is a significant observation that challenges existing models.
+- **Major Concerns**
+  - **R1-M1**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** The claim that "PR is sequestered within this RNP and drives its maturation/condensation within minutes" is central to the paper.
+    - **Evidence pointer** Results section 3.3, Figure 3C–D, Figure 4C–E; location not provided for specific data points.
+    - **Concern** The sequestration effect is inferred from a delay in cleavage of a competitive substrate (MA-CA octapeptide) in the presence of NCp15 and ssDNA. However, the text does not provide the raw kinetic traces, the fitted parameters, or the statistical significance of the delay. The model predicts 90% NCp15 processing at ~400 s, but this is a model output, not a direct measurement. The claim that this scales to "within ~5 min" in virio is an extrapolation that requires justification of the scaling assumptions.
+    - **Why it matters** The entire mechanistic model rests on this sequestration phenomenon. Without direct evidence of PR binding to the RNP (e.g., co-localization, pull-down, or single-molecule data) and a robust kinetic analysis, the claim remains speculative.
+    - **Resolution test** Provide the raw FRET traces, the fitted kinetic parameters with confidence intervals, and a direct biochemical or biophysical demonstration of PR–RNP interaction (e.g., fluorescence correlation spectroscopy, microscale thermophoresis, or a pull-down assay). Justify the in virio scaling with explicit calculations.
+  - **R1-M2**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical rigor
+    - **Claim pointer** The claim that "two palindromic RNA-binding triads on NC, KxxFxxQ and QxxFxxK, provide quinary NC-gRNA interactions" is presented as a key finding.
+    - **Evidence pointer** Results section 3.2, Figure 2A–E; location not provided for mutation data.
+    - **Concern** The identification of these triads is based on sequence analysis and MD simulations of an octapeptide. The mutational analysis (K3A/F6A/Q9A) is described as abrogating aggregation, but the text does not specify which assays were used, the magnitude of the effect, or whether the mutations affect NC folding or zinc binding. The MD simulation is performed on an isolated octapeptide, which may not represent the behavior of the full NC domain in the context of a large RNP.
+    - **Why it matters** The triads are proposed as functional modules. If the mutations disrupt global NC structure rather than specifically the quinary interaction, the conclusion is weakened. The relevance of an octapeptide simulation to a full-length protein in a crowded environment is questionable.
+    - **Resolution test** Show that the mutations do not alter NC secondary structure or zinc finger integrity (e.g., circular dichroism, NMR, or zinc-binding assays). Provide quantitative aggregation data (e.g., DLS size distributions, turbidity) for wild-type vs. mutant NC. Extend the MD simulations to the full NC domain or justify the octapeptide model.
+  - **R1-M3**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Interpretive overreach
+    - **Claim pointer** The claim that "budding and maturation appear temporally coupled" based on TEM of attached particles.
+    - **Evidence pointer** Results section 3.4, Figure 5B–D; location not provided for quantification.
+    - **Concern** The TEM analysis of attached particles is qualitative. The text states that "most" attached particles exhibited a dark spot and closed envelope without quantification or statistical analysis. The comparison between treated and untreated conditions is not described in detail. The temporal resolution of TEM is limited, and the observation of mature particles at the membrane does not necessarily demonstrate that maturation occurs during budding; it could reflect rapid maturation after release.
+    - **Why it matters** The temporal coupling is a major conceptual claim with implications for understanding the maturation timeline. If the evidence is only correlative and static, the claim is overstated.
+    - **Resolution test** Provide quantitative counts of particle morphologies (immature, intermediate, mature) with statistical analysis. Use time-resolved assays (e.g., synchronized maturation with PR inhibitors and washout) to directly demonstrate the temporal sequence.
+  - **R1-M4**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Model validation
+    - **Claim pointer** The theoretical model of "RNP-modulated enzyme-substrate reaction kinetics" is used to interpret the data and predict in virio timescales.
+    - **Evidence pointer** Results section 3.3, Figure 4, Supplementary Note; location not provided for model equations and fitting.
+    - **Concern** The model is described in the text but the full derivation, assumptions, and parameter values are in the Supplementary Note, which is not provided. The model has several free parameters (e.g., κ, ccrit, ξ, f) and the text does not state how these were constrained or whether the fit is unique. The model's prediction of a phase transition at ccrit~3 is interesting but not directly tested.
+    - **Why it matters** The model is used to extrapolate from in vitro to in virio conditions. If the model is not validated or its parameters are not well-constrained, the extrapolation is unreliable.
+    - **Resolution test** Provide the full model derivation and parameter estimation in the main text or ensure the Supplementary Note is available. Perform sensitivity analysis on the key parameters. Test the model's predictions with independent experiments (e.g., varying NC:RNA ratios, using different RNA lengths).
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract
+    - **Evidence pointer** Abstract, first sentence
+    - **Issue** The phrase "phase-separated molecular 'sponges'" is evocative but not defined in the abstract. Readers unfamiliar with the condensate field may find this jargon-heavy.
+    - **Required correction** Briefly define or rephrase to "membraneless compartments formed by phase separation that sequester proteins."
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Reproducibility
+    - **Affected element** Methods section 2.5
+    - **Evidence pointer** Section 2.5, proteolysis assays
+    - **Issue** The text states that the assay was "optimized in this study" but does not specify the optimization steps or the final conditions (e.g., enzyme-to-substrate ratio, incubation times, temperature) beyond what is mentioned.
+    - **Required correction** Provide a detailed protocol or reference to a prior publication with the full conditions.
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Statistical rigor
+    - **Affected element** Results section 3.4
+    - **Evidence pointer** Section 3.4, TEM analysis
+    - **Issue** The text states "more than 80%" and "more than 90%" without reporting the number of particles counted or the statistical method used.
+    - **Required correction** Report the exact counts, percentages, and a measure of variability (e.g., standard deviation or confidence interval) across independent experiments.
+  - **R1-m4**
+    - **Severity** Minor
+    - **Axis** Terminology
+    - **Affected element** Results section 3.1
+    - **Evidence pointer** Section 3.1, "weak-strong-moderate" model
+    - **Issue** The terms "weak," "strong," and "moderate" are used to describe quinary interaction strengths but are not quantitatively defined.
+    - **Required correction** Define these terms operationally (e.g., based on dissociation constants, aggregation kinetics, or FRET efficiency) or use a more neutral descriptor such as "differential."
+  - **R1-m5**
+    - **Severity** Minor
+    - **Axis** Literature context
+    - **Affected element** Introduction
+    - **Evidence pointer** Introduction, paragraph 2
+    - **Issue** The statement that "PR appears to engage in an intricate partnership with NC and gRNA" is not contextualized with prior work on PR–RNA interactions beyond reference [64].
+    - **Required correction** Add a brief discussion of prior studies on PR–RNA binding and its functional significance to position this work within the field.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of direct evidence for PR–RNP interaction and incomplete kinetic analysis.
+  - R1-M2: Insufficient validation that mutations specifically disrupt quinary interactions without affecting NC structure.
+  - R1-M3: Qualitative TEM data without quantification or temporal resolution.
+  - R1-M4: Model parameters and derivation not fully visible, limiting assessment of the in virio extrapolation.
+- **Assessment against Nature-style criteria**
+  - **Originality** High. The application of phase-separation and quinary interaction concepts to HIV-1 maturation is novel and not a simple extension of existing work.
+  - **Scientific importance** Potentially high. If the claims are substantiated, this work could reshape understanding of HIV-1 maturation and offer new therapeutic angles. However, the importance is contingent on the strength of the evidence, which is currently incomplete.
+  - **Interdisciplinary readership** Moderate to high. The work bridges virology, biophysics, and cell biology. The phase-separation angle may attract readers beyond traditional virology, but the technical depth may limit accessibility.
+  - **Technical soundness** Currently insufficient. The multi-technique approach is commendable, but the lack of visible quantitative data, controls, and model validation prevents a full assessment. The MD simulation on an octapeptide is a particular weakness.
+  - **Readability for nonspecialists** The abstract and introduction are accessible, but the results and discussion sections assume significant background in HIV biology and biophysics. The use of terms like "quinary interactions" and "contiguity" without clear definitions may hinder nonspecialist readers.
+- **Recommendation posture** Supportive if technical concerns are resolved. The hypothesis is exciting and the experimental approach is broad, but the current evidence base, as presented, does not fully establish the central claims. The authors must provide direct evidence of PR sequestration, validate the specificity of the identified triads, quantify the TEM observations, and make the model fully transparent. If these issues are addressed, the work could be a significant contribution.
+
+## Risk / unsupported claims
+- The claim that PR is "sequestered" within the RNP is inferred from indirect kinetic data and is not directly demonstrated.
+- The identification of KxxFxxQ and QxxFxxK as functional quinary interaction modules is based on sequence analysis and an octapeptide simulation, without direct binding or mutagenesis data confirming their role in the full-length protein.
+- The temporal coupling of budding and maturation is based on static TEM images and lacks direct time-resolved evidence.
+- The extrapolation of in vitro kinetics to "within ~5 min" in virio is a model prediction that is not experimentally validated.
+- The "weak-strong-moderate" model is descriptive and lacks quantitative definitions of interaction strengths.

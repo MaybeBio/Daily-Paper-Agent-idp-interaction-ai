@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full text, figures, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the SARS-CoV-2 nucleocapsid (N) protein undergoes liquid-liquid phase separation (LLPS) and that a construct spanning residues 1-249 recapitulates this behavior while being amenable to NMR. They claim that nucleic acids modulate LLPS through dynamic, multivalent, specific interactions with both folded domains (NTD/CTD) and Arg/Lys residues in IDRs; that ATP binds specifically to NTD/CTD and Arg residues with a Kd of 2.8 mM; that ATP dissolves LLPS by competitively displacing nucleic acid; and that ATP and nucleic acid interplay through competition for overlapping binding sites. They further propose that this mechanism is targetable by small molecules and that ATP provides a lead for broad-spectrum anti-SARS-CoV-2 drug development, with implications for conserved LLPS mechanisms across human and viral IDR-containing proteins.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, NMR spectra, DIC images, binding data, quantitative phase separation assays, domain construct details, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant mechanistic model for N protein LLPS, with the identification of a tractable construct (N 1-249) being a notable technical advance. However, the evidence base is limited to the abstract, and several central claims, particularly regarding ATP binding specificity, competitive displacement, and the conservation argument, cannot be evaluated without the underlying data. The work is of interest to the virology and phase separation communities, but the current evidence is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying SARS-CoV-2 biology, particularly those focused on nucleocapsid protein function and host-virus interactions; investigators in the liquid-liquid phase separation field, especially those interested in the role of ATP and nucleic acids in biomolecular condensates; and drug discovery groups targeting SARS-CoV-2, given the proposed small-molecule targetability.
+- **Major strengths** The identification of a minimal construct (N 1-249) that both phase separates and yields high-quality NMR spectra is a practical and important advance, enabling high-resolution studies that were previously intractable. The proposal that ATP and nucleic acids compete for overlapping binding sites provides a conceptually unifying model for LLPS regulation. The suggestion that ATP is a cellular factor modulating host-virus interaction is novel and potentially impactful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that ATP specifically binds NTD/CTD and Arg residues within IDRs with a Kd of 2.8 mM, and that ATP dissolves LLPS by competitively displacing nucleic acid.
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract provides a single Kd value for ATP binding but does not describe how this was measured, whether it reflects specific versus nonspecific interactions, or how competition with nucleic acid was demonstrated. The claim of specificity is central to the proposed mechanism, yet no comparative data (e.g., other nucleotides, mutants) are mentioned.
+  - **Why it matters** Without evidence for specificity and direct competition, the model that ATP and nucleic acid interplay through overlapping binding sites is not established. Nonspecific electrostatic interactions could produce similar observations, and the distinction is critical for the proposed therapeutic relevance.
+  - **Resolution test** Provide binding data for ATP against mutant proteins lacking Arg residues or with disrupted NTD/CTD sites, and show that ATP displaces nucleic acid in a dose-dependent manner in both biophysical and cellular or in vitro phase separation assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-data alignment
+  - **Claim pointer** The abstract states that nucleic acid modulates LLPS by dynamic but specific interactions multivalently over both folded NTD/CTD and Arg/Lys residues within IDRs.
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract does not specify which nucleic acid species were tested, the length or sequence context, or how "specific" interactions were distinguished from generic RNA or DNA binding. The term "multivalent" is used without quantitative support, such as stoichiometry or binding site mapping.
+  - **Why it matters** The mechanistic claim rests on the specificity and multivalency of nucleic acid interactions. If the interactions are largely electrostatic and sequence-independent, the proposed model and its implications for drug development would be substantially weakened.
+  - **Resolution test** Include data showing differential binding of nucleic acids of varying sequence and length, and map interaction sites using NMR chemical shift perturbations or mutagenesis to demonstrate multivalency and specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract claims that the mechanisms of LLPS of IDR-containing proteins mediated by ATP and nucleic acids appear to be highly conserved from human to virus.
+  - **Evidence pointer** Location not provided
+  - **Concern** This is a broad evolutionary claim that extends far beyond the SARS-CoV-2 N protein data described. No comparative data from human proteins or other viral proteins are presented in the abstract, and the basis for this conclusion is unclear.
+  - **Why it matters** Overgeneralization from a single system to a universal mechanism is not supported by the evidence described. This claim, if included in the manuscript, would require substantial comparative analysis.
+  - **Resolution test** Provide direct experimental evidence from at least one human IDR-containing protein and one additional viral protein showing similar ATP and nucleic acid competition, or temper the claim to a hypothesis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract statement on ATP concentration
+  - **Evidence pointer** Location not provided
+  - **Issue** The phrase "mysteriously with concentrations >mM in all living cells but absent in viruses" is informal and not standard scientific language.
+  - **Required correction** Rephrase to state that ATP is present at millimolar concentrations in cells but is not a component of virions, and clarify the relevance of this observation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Kd value reporting
+  - **Evidence pointer** Location not provided
+  - **Issue** The Kd of 2.8 mM is reported without error estimates or experimental conditions (e.g., temperature, buffer, protein concentration).
+  - **Required correction** Provide the Kd with uncertainty and specify the measurement conditions in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "specific" for ATP and nucleic acid binding
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "specific" is used repeatedly but not defined in the abstract context, which could be confused with sequence-specific binding.
+  - **Required correction** Define what is meant by "specific" (e.g., saturable, competitive, or structure-dependent) in the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central mechanistic claims regarding ATP specificity, competitive displacement, and evolutionary conservation are not supported by the abstract-level evidence and require full experimental data.
+- **Assessment against Nature-style criteria** Originality: The idea that ATP and nucleic acid compete for overlapping sites on a viral protein to regulate LLPS is conceptually novel and could be of broad interest. Scientific importance: If established, the work would advance understanding of host-virus interactions and phase separation regulation, with potential therapeutic implications. Interdisciplinary readership: The topic bridges virology, biophysics, and cell biology, which could attract a wide audience. Technical soundness: Cannot be assessed from the abstract; the NMR and DIC approaches are appropriate in principle, but the key quantitative claims lack supporting detail. Readability for nonspecialists: The abstract is generally accessible, though some terms (e.g., LLPS, IDR) are used without definition, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the central claims require full experimental validation. I would be supportive if the technical concerns are resolved with rigorous data.
+
+## Risk / unsupported claims
+- The claim that ATP specifically binds NTD/CTD and Arg residues with a Kd of 2.8 mM is unsupported without binding data and controls.
+- The claim that ATP dissolves LLPS by competitively displacing nucleic acid is unsupported without direct competition experiments.
+- The claim that the mechanism is "highly conserved from human to virus" is unsupported and not evaluable from the abstract.
+- The claim that the mechanism is "targetable by small molecules" is speculative without demonstration of small-molecule modulation.
+- The identification of N (1-249) as a construct that phase separates like the full-length protein is plausible but not verifiable without imaging and quantitative comparison data.

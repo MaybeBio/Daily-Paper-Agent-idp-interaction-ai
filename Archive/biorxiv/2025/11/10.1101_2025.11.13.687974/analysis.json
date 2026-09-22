@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.13.687974",
+  "title": "HP1 dimerization drives the condensation and segregation of H3K9me-marked chromatin",
+  "authors": "Eswara K; Semple J; Rivas-Cuestas F; Muzzopappa F; Ali S; El Mouridi S; Ostwal Y; Frøkjær-Jensen C; Erdel F; Meister P; Fischle W",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-13",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过体内外实验揭示HP1二聚化驱动H3K9me染色质凝聚并形成相分离凝聚体，虽以实验为主且对象为染色质而非典型IDP，但聚焦凝聚体形成机制，对无序蛋白介导的相分离PPI机制建模有参考价值。",
+  "abstract": "<h4>ABSTRACT</h4> Heterochromatin protein 1 (HP1) is a conserved chromatin-associated factor implicated in the establishment and maintenance of H3K9me-marked heterochromatin, potentially through phase separation–mediated condensation. Whether HP1 promotes heterochromatin condensation primarily through its dimerization or liquid–liquid phase separation (LLPS) remains unresolved. Using the C. elegans HP1 orthologue HPL-2 and a combined in vitro–in vivo approach, we systematically dissected the molecular determinants of HPL-2 function in heterochromatin condensation. Through specific mutants, we demonstrate that HPL-2 dimerization is essential for condensing H3K9me chromatin arrays in vitro and for maintaining HPL-2 and H3K9me heterochromatin foci in C. elegans embryos, while LLPS enhances or stabilizes these foci. We further show that HPL-2 dimerization is sufficient to mediate segregation of H3K9me from unmodified chromatin arrays in vitro , forming spatially distinct H3K9me-enriched condensates. Surprisingly, HPL-2 mutants defective in heterochromatin foci formation cause only minor transcriptional changes among genes associated with H3K9me-marked heterochromatin, implying that HP1-dependent heterochromatin foci and gene silencing are not tightly coupled in vivo . Nonetheless, these mutant C. elegans exhibit profound physiological and developmental defects. Our findings establish dimerization as the principal molecular mechanism of HP1-driven H3K9me-chromatin condensation, elucidate an auxiliary role of LLPS, and reveal the uncoupling between HP1-dependent heterochromatin and transcriptional regulation. <h4>GRAPHICAL ABSTRACT</h4>",
+  "abstract_zh": "<h4>摘要</h4> 异染色质蛋白1（HP1）是一种保守的染色质相关因子，参与H3K9me标记异染色质的建立与维持，可能通过相分离（phase separation）介导的凝聚作用实现。HP1是否主要通过其二聚化或液-液相分离（liquid-liquid phase separation, LLPS）促进异染色质凝聚仍悬而未决。利用线虫（C. elegans）HP1同源物HPL-2及体外-体内联合方法，我们系统解析了HPL-2在异染色质凝聚中功能的分子决定因素。通过特异性突变体，我们证明HPL-2二聚化对于体外凝聚H3K9me染色质阵列及维持线虫胚胎中HPL-2和H3K9me异染色质焦点至关重要，而LLPS则增强或稳定这些焦点。我们进一步显示，HPL-2二聚化足以介导体外H3K9me与未修饰染色质阵列的分离，形成空间上 distinct 的H3K9me富集凝聚体。令人惊讶的是，异染色质焦点形成缺陷的HPL-2突变体仅导致H3K9me标记异染色质相关基因的轻微转录变化，暗示HP1依赖性异染色质焦点与基因沉默在体内并非紧密偶联。尽管如此，这些突变线虫表现出显著的生理和发育缺陷。我们的发现确立二聚化为HP1驱动H3K9me染色质凝聚的主要分子机制，阐明LLPS的辅助作用，并揭示HP1依赖性异染色质与转录调控之间的解偶联。 <h4>图形摘要</h4>",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.13.687974",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.13.687974",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.13.687974/index.html"
+}

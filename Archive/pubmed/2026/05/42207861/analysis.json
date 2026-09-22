@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42207861",
+  "title": "Early alpha-Synuclein Heterodimerization Kinetics Predict Parkinson's Disease Onset.",
+  "authors": "Chaudhary, Sachin; Tammara, Vaishnavi; Choudhary, Bhargavi; Das, Atanu",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2026-05-29",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用多尺度模拟（粗粒化+原子模拟）研究无序蛋白α-突触核蛋白的早期二聚化动力学与异源二聚体形成，预测帕金森病发病年龄，聚焦IDP介导的蛋白互作机制建模，虽未涉及相分离，但对象、互作与方法三者齐备且具机制深度。",
+  "abstract": "Identifying physicochemical predictors that connect protein aggregation to clinical phenotypes remains challenging. Here, we examine whether simulated aggregation descriptors of the intrinsically disordered protein alpha-synuclein (alphaS) relate to the clinical age of onset in Parkinson's disease. Using a multiscale simulation framework, we combine coarse-grained (CG) models to quantify the kinetics of early dimerization with atomistic simulations to estimate dimer interaction energies, as well as CG thermodynamic protofilament binding free energies complemented by atomistic calculations. These analyses were performed for wild-type alphaS and five familial mutants, considering both homo- and heterodimeric species. The time scale of WT-mutant heterodimer formation emerges as a statistically informative predictor of age of onset, whereas homodimer formation kinetics and heterodimer protofilament binding affinities fail miserably. In contrast, homodimer protofilament binding free energies display only moderate correlation, suggesting that late-stage fibril stability alone does not determine disease initiation. Overall, the results are consistent with a two-stage aggregation process in which early oligomeric dynamics may contribute to clinically relevant aggregation behavior.",
+  "abstract_zh": "识别将蛋白质聚集与临床表型联系起来的理化预测因子仍然具有挑战性。在此，我们考察了 intrinsically disordered protein alpha-synuclein (alphaS) 的模拟聚集描述符是否与帕金森病的临床发病年龄相关。利用多尺度模拟框架，我们结合粗粒化 (coarse-grained, CG) 模型来量化早期二聚化的动力学，并通过原子级模拟估算二聚体相互作用能，同时辅以原子级计算来评估CG热力学原丝结合自由能。这些分析针对野生型alphaS和五种家族性突变体进行，并考虑了同源和异源二聚体物种。WT-突变体异源二聚体形成的时间尺度成为发病年龄的统计学信息预测因子，而同源二聚体形成动力学和异源二聚体原丝结合亲和力则表现不佳。相比之下，同源二聚体原丝结合自由能仅显示中等相关性，表明仅凭晚期纤维稳定性并不能决定疾病起始。总体而言，结果与两阶段聚集过程一致，其中早期寡聚体动力学可能有助于临床相关的聚集行为。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42207861/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42207861/",
+  "paper_page_path": "papers/pubmed/42207861/index.html"
+}

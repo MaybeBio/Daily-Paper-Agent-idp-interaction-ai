@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, theory, simulation details, results, and acknowledgments
+- **Assessment boundary** Technical soundness of the proposed model reformulation, validity of the reported results against the stated claims, and reproducibility of the methodology as described
+- **Shared manuscript claim summary** The authors present a Bayesian reformulation of the multi-eGO structure-based model, replacing a uniform prior with a polymer-based random coil prior, and claim that this improved model can (1) accurately learn the conformational ensemble of the intrinsically disordered protein Aβ42, (2) reproduce the folding mechanism of the folded protein GB1, and (3) qualitatively reproduce the concentration-dependent aggregation kinetics of the TTR105–115 amyloidogenic peptide
+- **Visible evidence base** Figures 1 through 4, equations 1 through 6, simulation protocols described in the Theory and Simulations Details sections, and statistical analyses including Kolmogorov–Smirnov test results
+- **Missing materials affecting confidence** The manuscript does not provide the actual parameter files, force field constants, or the specific training trajectories used for the Aβ42 and TTR105–115 systems beyond referencing prior publications. The RC model simulation details are described qualitatively but the exact implementation (e.g., chain length, excluded volume parameters, simulation length) is not fully specified. The clustering analysis methodology is referenced but the number of clusters and the criteria for selecting the six most representative clusters are not detailed. The comparison between experimental and simulated aggregation half-times lacks error bars on the experimental data points, and the statistical significance of the slope comparison is not quantified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually sound and potentially valuable reformulation of the multi-eGO model, addressing a clear limitation in the original parametrization when applied to intrinsically disordered proteins. The Bayesian interpretation of the contact probability weighting is elegant and provides a principled framework for incorporating prior knowledge. The demonstration across three distinct systems, spanning disordered, folded, and aggregating states, is commendable in scope. However, several technical aspects require clarification and additional validation before the claims can be fully accepted. The most significant concerns relate to the sensitivity of the results to the choice of the random coil prior, the treatment of repulsive interactions, and the interpretation of the aggregation kinetics comparison. The manuscript would benefit from a more systematic analysis of parameter sensitivity and a clearer articulation of the limitations of the model.
+- **Who would be interested in the results, and why** Researchers in the fields of coarse-grained modeling, protein folding, intrinsically disordered proteins, and amyloid aggregation would find this work relevant. The methodological advance in incorporating polymer physics into structure-based models could be of interest to the broader computational biophysics community. The demonstration on Aβ42 and TTR105–115 may also attract researchers studying neurodegenerative diseases who are interested in simulation approaches for aggregation processes.
+- **Major strengths** The Bayesian reformulation provides a principled and generalizable framework for improving structure-based models. The demonstration across three distinct systems with different conformational characteristics is thorough and strengthens the generalizability claims. The inclusion of repulsive interactions, previously absent, addresses a known limitation of structure-based models. The comparison of aggregation kinetics with experimental scaling laws provides a meaningful macroscopic validation. The public availability of scripts and parameters is commendable for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the random coil prior
+  - **Claim pointer** The authors claim that the random coil prior, obtained from a simulation of a self-avoiding chain with protein-like local geometries, provides a more informative prior than the uniform prior used previously, and that this leads to improved learning of the conformational ensemble of Aβ42
+  - **Evidence pointer** Section "Multi-eGO Prior, Random Coil, Model", Figure 2
+  - **Concern** The random coil prior is central to the reformulation, yet its construction is described only qualitatively. The authors state that local geometries were reoptimized by reparametrizing C(12) parameters, 1–4 excluded volume pairs, and dihedral parameters, but the specific procedure for generating the RC ensemble is not fully specified. It is unclear whether the RC simulation uses the same chain length as the target protein, how the chain is initialized, how long the simulation is run, and whether the RC ensemble is converged. The sensitivity of the final model to the choice of RC prior is not explored. If the RC prior is poorly converged or not representative of the true polymer behavior, the resulting model could be biased. The authors should provide a more detailed description of the RC model construction and demonstrate that the results are robust to reasonable variations in the RC prior.
+  - **Why it matters** The entire reformulation rests on the quality and appropriateness of the RC prior. If the prior is not well-defined or is sensitive to arbitrary choices, the model's predictions cannot be considered reliable. The claim that the model can "effectively and accurately learn" the conformational ensemble of Aβ42 depends critically on the prior being a faithful representation of the polymer baseline.
+  - **Resolution test** The authors should provide a detailed protocol for generating the RC ensemble, including the exact parameters used, the simulation length, and convergence criteria. They should also perform a sensitivity analysis by varying the RC prior (e.g., using different chain lengths, different dihedral parameter sets, or different excluded volume treatments) and showing that the resulting multi-eGO models produce consistent results for the Aβ42 ensemble.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of the repulsive interaction treatment
+  - **Claim pointer** The authors claim that the repulsive interactions, derived from equation 6, are necessary to reproduce the training ensemble and that the regularization scheme prevents unphysical interactions
+  - **Evidence pointer** Section "Repulsive Interactions", equations 4 through 6
+  - **Concern** The derivation of equation 4, which relates the probability of a contact to the interaction length, is not rigorously justified. The authors state that this is an "approximate relationship" but do not provide a derivation or validation. The regularization scheme in equation 6 involves several ad hoc choices, including the clamping of C(12) to between 1/10 and 20 times the default value, and the restriction of 1–4 interactions to a factor of 1.5. The sensitivity of the results to these choices is not explored. Furthermore, the treatment of cases where Pi,jMD is between max(Pi,jRC, PthresholdRC) and (PthresholdRC)−fϵ max(Pi,jRC, PthresholdRC) is described but the behavior of the model in this regime is not demonstrated. The authors should provide a more rigorous justification for the repulsive interaction formulation and demonstrate that the results are robust to the choice of regularization parameters.
+  - **Why it matters** The repulsive interactions are a new feature of the model and are essential for preventing unphysical conformations. If the formulation is not well-justified or is sensitive to arbitrary parameters, the model's predictions could be unreliable, particularly for systems where repulsive interactions play a significant role.
+  - **Resolution test** The authors should provide a derivation or at least a more detailed justification for equation 4. They should perform a sensitivity analysis by varying the clamping factors (e.g., 1/5 to 50, or 1/20 to 10) and the 1–4 interaction scaling factor, and show that the resulting models produce consistent results for the test systems. They should also demonstrate the behavior of the model in the intermediate regime where Pi,jMD is between the two thresholds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of the aggregation kinetics comparison
+  - **Claim pointer** The authors claim that the aggregation kinetics of TTR105–115 show a linear trend in the log–log plot of half-times versus concentration with a slope of −2.4 ± 0.2, comparable to the experimental slope of −2.1 ± 0.1, indicating "macroscopically comparable kinetics"
+  - **Evidence pointer** Section "Multi-eGO Can Still Qualitatively Describe the Aggregation Kinetics of TTR105–115", Figure 4c
+  - **Concern** The comparison between simulated and experimental aggregation kinetics relies on a single metric, the scaling exponent of half-time versus concentration. While the slopes are similar within the reported uncertainties, the authors do not provide error bars on the experimental data points or a statistical test to quantify the significance of the slope comparison. Moreover, the simulated half-times are obtained from only three replicates per concentration, and the uncertainty in the simulated slopes is not reported. The authors also do not discuss whether the absolute values of the half-times are comparable to experiments, or only the scaling behavior. The claim of "macroscopically comparable kinetics" is therefore somewhat overstated given the limited statistical power and the lack of a formal comparison.
+  - **Why it matters** The aggregation kinetics comparison is a key validation of the model's ability to capture concentration-dependent behavior. If the comparison is not statistically robust, the claim that the model can "reproduce the aggregation as a function of the concentration" is not fully supported.
+  - **Resolution test** The authors should provide error bars on the experimental half-times and perform a formal statistical comparison of the slopes (e.g., a t-test or confidence interval overlap). They should also report the uncertainty in the simulated slopes, either from the three replicates or from additional replicates. If possible, they should compare the absolute half-times, not just the scaling behavior, and discuss any discrepancies.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the model
+  - **Claim pointer** The authors envision that "by learning from the dynamics of a few minima, multi-eGO can become a platform for simulating processes inaccessible to other simulation techniques"
+  - **Evidence pointer** Abstract, Conclusion (implicit in the final paragraph of the Results section)
+  - **Concern** The three test systems, while diverse, are all relatively small peptides or proteins. The authors do not discuss the scalability of the model to larger systems, the computational cost of generating the RC prior, or the sensitivity of the model to the choice of training data. The claim that the model can become a "platform" for simulating processes inaccessible to other techniques is ambitious but not supported by the current evidence. The authors should discuss the limitations of the model in terms of system size, complexity, and the quality of the training data required.
+  - **Why it matters** The broader impact of the work depends on the model's applicability to a wide range of systems. If the model is limited to small peptides or requires high-quality training data that are not readily available, its utility as a general platform is questionable.
+  - **Resolution test** The authors should discuss the computational cost of the method, the requirements for training data, and the potential challenges in applying the model to larger or more complex systems. They should also provide a more realistic assessment of the model's current capabilities and limitations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of the methodology
+  - **Affected element** Section "Multi-eGO Prior, Random Coil, Model"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the RC model construction is brief and lacks specific details on the simulation protocol, such as the number of chains simulated, the simulation length, and the convergence criteria. This makes it difficult for readers to reproduce the RC prior.
+  - **Required correction** Provide a more detailed description of the RC simulation protocol, including the number of chains, simulation length, and convergence assessment.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section "Multi-eGO Can Simulate the Folding Mechanism of a Small Protein", Figure 3c
+  - **Evidence pointer** Location not provided
+  - **Issue** The Kolmogorov–Smirnov test p-value of 0.994 is reported for the folding time distribution, but the number of folding events used in the test is not stated. The authors also do not report the uncertainty in the average folding time of 17.4 ns.
+  - **Required correction** Report the number of folding events and the uncertainty in the average folding time.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure clarity
+  - **Affected element** Figure 2
+  - **Evidence pointer** Location not provided
+  - **Issue** The contact map comparison in Figure 2c is described as having an average error of around 3.5%, but the definition of this error is not provided. It is unclear whether this is a per-contact difference, a root-mean-square deviation, or another metric.
+  - **Required correction** Define the error metric used for the contact map comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Parameter sensitivity
+  - **Affected element** Section "Attractive Interactions"
+  - **Evidence pointer** Location not provided
+  - **Issue** The choice of fϵ = 0.2 and Plearn = 0.9995 are presented as default values without justification or sensitivity analysis. It is unclear how sensitive the model predictions are to these choices.
+  - **Required correction** Provide a brief justification for the default values or include a sensitivity analysis in the Supporting Information.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Comparison with original model
+  - **Affected element** Section "Multi-eGO Can Still Qualitatively Describe the Aggregation Kinetics of TTR105–115", Figure 4b
+  - **Evidence pointer** Location not provided
+  - **Issue** The comparison between the original and reformulated multi-eGO models for the TTR105–115 monomer radius of gyration distribution is shown in Figure 4b, but the original model results are not described in detail. It would be helpful to know whether the improvement is consistent across all systems.
+  - **Required correction** Briefly describe the performance of the original model for the TTR105–115 monomer and compare it with the reformulated model.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the most critical. The RC prior is the foundation of the reformulation, and its construction must be fully specified and validated. The repulsive interaction formulation requires a more rigorous justification and sensitivity analysis. Without these, the model's predictions cannot be considered reliable. R1-M3 is also important, as the aggregation kinetics comparison is a key validation but lacks statistical rigor.
+
+## Risk / unsupported claims
+- The claim that the reformulated multi-eGO "can effectively and accurately learn the conformational ensemble" of Aβ42 is supported by the comparison with the training data, but the sensitivity of this result to the RC prior is not established.
+- The claim that the model "can be used to describe the folding mechanism" of GB1 is supported by the folding time analysis, but the comparison with experimental folding mechanisms is only qualitative and relies on prior literature.
+- The claim that the model "can still reproduce the recently published results on the aggregation" of TTR105–115 is supported by the scaling analysis, but the statistical significance of the comparison is not quantified.
+- The statement that "multi-eGO can become a platform for simulating processes inaccessible to other simulation techniques" is an aspirational claim that is not supported by the current evidence, as the model has only been tested on three relatively small systems.

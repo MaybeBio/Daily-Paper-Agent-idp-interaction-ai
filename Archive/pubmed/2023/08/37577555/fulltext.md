@@ -1,0 +1,11 @@
+# Conformational Properties of Polymers at Droplet Interfaces as Model Systems for Disordered Proteins
+
+
+## Abstract
+  Polymer models serve as useful tools for studying the formation and physical properties of biomolecular condensates. In recent years, the interface dividing the dense and dilute phases of condensates has been discovered to be closely related to their functionality, but the conformational preferences of the constituent proteins remain unclear. To elucidate this, we perform molecular simulations of a droplet formed by liquid‒liquid phase separation of homopolymers, as a surrogate model for the prion-like low-complexity domains. By systematically analyzing the polymer conformations at different locations in the droplet, we find that the chains become compact at the droplet interface compared to the droplet interior. Further, segmental analysis revealed that the end sections of the chains are enriched at the interface to maximize conformational entropy, and are more expanded than the middle sections of the chains. We find that the majority of chain segments lie tangential to the droplet surface and only the chain ends tend to align perpendicular to the interface. These trends also hold for the natural proteins FUC LC and LAF-1 RGG, which exhibit more compact chain conformations at the interface compared with the droplet interior. Our findings provide important insights into the interfacial properties of biomolecular condensates and highlight the value of using simple polymer physics models to understand the underlying mechanisms.
+
+
+## Supplementary Material
+
+## Acknowledgments
+  This material is based on the research supported by the National Institute of General Medical Science of the National Institutes of Health under the grant R01GM136917 and the Welch Foundation under the grant A-2113-20220331. A.N. acknowledges funding by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) through Project 470113688. We gratefully acknowledge the computational resources provided by the Texas A&M High Performance Research Computing (HPRC) to complete this work.

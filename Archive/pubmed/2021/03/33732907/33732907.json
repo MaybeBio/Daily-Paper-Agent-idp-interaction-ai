@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "33732907",
+    "doi": "10.1016/j.bbrep.2021.100975",
+    "title": "Structural properties and peptide ligand binding of the capsid homology domains of human Arc."
+  },
+  "content": {
+    "abstract": "The activity-regulated cytoskeleton-associated protein (Arc) is important for synaptic plasticity and the normal function of the brain. Arc interacts with neuronal postsynaptic proteins, but the mechanistic details of its function have not been fully established. The C-terminal domain of Arc consists of tandem domains, termed the N- and C-lobe. The N-lobe harbours a peptide binding site, able to bind multiple targets. By measuring the affinity of human Arc towards various peptides from stargazin and guanylate kinase-associated protein (GKAP), we have refined its specificity determinants. We found two sites in the GKAP repeat region that bind to Arc and confirmed these interactions by X-ray crystallography. Phosphorylation of the stargazin peptide did not affect binding affinity but caused changes in thermodynamic parameters. Comparison of the crystal structures of three high-resolution human Arc-peptide complexes identifies three conserved C-H...pi interactions at the binding cavity, explaining the sequence specificity of short linear motif binding by Arc. We further characterise central residues of the Arc lobe fold, show the effects of peptide binding on protein dynamics, and identify acyl carrier proteins as structures similar to the Arc lobes. We hypothesise that Arc may affect protein-protein interactions and phase separation at the postsynaptic density, affecting protein turnover and re-modelling of the synapse. The present data on Arc structure and ligand binding will help in further deciphering these processes.",
+    "keywords": [
+      "Capsid homology",
+      "Crystal structure",
+      "Peptide binding",
+      "Postsynaptic density",
+      "Protein interaction",
+      "Specificity"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hallin, Erik I",
+        "Bramham, Clive R",
+        "Kursula, Petri"
+      ],
+      "short_names": [
+        "Hallin EI",
+        "Bramham CR",
+        "Kursula P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedicine, University of Bergen, Norway.",
+        "Department of Biomedicine, University of Bergen, Norway.",
+        "Department of Biomedicine, University of Bergen, Norway.",
+        "Faculty of Biochemistry and Molecular Medicine, University of Oulu, Finland.",
+        "Biocenter Oulu, University of Oulu, Finland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hallin, Erik I",
+        "short_name": "Hallin EI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, University of Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Bramham, Clive R",
+        "short_name": "Bramham CR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, University of Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Kursula, Petri",
+        "short_name": "Kursula P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, University of Bergen, Norway.",
+          "Faculty of Biochemistry and Molecular Medicine, University of Oulu, Finland.",
+          "Biocenter Oulu, University of Oulu, Finland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemistry and biophysics reports"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Rep"
+    ],
+    "pub_date": "2021 Jul",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/19 06:00",
+    "fetched_at": "2026-09-20 02:06:52"
+  },
+  "links": {
+    "cites": [
+      "40867212",
+      "40843979",
+      "40185232",
+      "39851571",
+      "38683783",
+      "36073248",
+      "35671319",
+      "35307777",
+      "34368472",
+      "34077555",
+      "33989344"
+    ],
+    "refs": [
+      "33989344",
+      "33175445",
+      "32941943",
+      "32888346",
+      "32632186",
+      "31911950",
+      "31907439",
+      "31862888",
+      "31492534",
+      "31106363",
+      "31080121",
+      "31036670",
+      "30849620",
+      "30442670",
+      "30078712",
+      "30028513",
+      "29947605",
+      "29861284",
+      "29570995",
+      "29473168",
+      "29328915",
+      "29311144",
+      "29281827",
+      "29067766",
+      "29045836",
+      "28890419",
+      "28790183",
+      "28647360",
+      "28009574",
+      "27796417",
+      "27565345",
+      "27368053",
+      "27257628",
+      "27151201",
+      "26631734",
+      "26574453",
+      "25864631",
+      "25824339",
+      "25775468",
+      "25748042",
+      "23143515",
+      "22505256",
+      "22174138",
+      "21278731",
+      "20711360",
+      "20383002",
+      "20347015",
+      "20124692",
+      "19690847",
+      "19465380",
+      "19461840",
+      "18614031",
+      "18001770",
+      "17898216",
+      "17329211",
+      "17088213",
+      "17088212",
+      "17088210",
+      "15664178",
+      "15496675",
+      "14684878",
+      "12954649",
+      "12577062",
+      "12359873",
+      "11160391",
+      "10873863",
+      "10818134",
+      "10488079",
+      "10433268",
+      "9024696"
+    ],
+    "similar": [
+      "33732907",
+      "33989344",
+      "35671319",
+      "30028513",
+      "31080121",
+      "38683783",
+      "33175445",
+      "29473168",
+      "12122038",
+      "35307777",
+      "25864631",
+      "25152391",
+      "9698566",
+      "31151856",
+      "15496675",
+      "10488079",
+      "28701415",
+      "12954649",
+      "7528772",
+      "16870733",
+      "21626699",
+      "32991626",
+      "16527308",
+      "18067320",
+      "7521735",
+      "28736134",
+      "26173260",
+      "39367947",
+      "11491285",
+      "30168208",
+      "9405157",
+      "29980598",
+      "10748113",
+      "37415832",
+      "22803956",
+      "10804199",
+      "31358613",
+      "20145116",
+      "15329396",
+      "11805122",
+      "8887653",
+      "28647360",
+      "9148913",
+      "25748042",
+      "17069616",
+      "12450381",
+      "23602987",
+      "30659095",
+      "24021866",
+      "15223324",
+      "15533451",
+      "10760239",
+      "26984442",
+      "9351809",
+      "18092830",
+      "12482754",
+      "11846567",
+      "11911879",
+      "35716775",
+      "17407569",
+      "7479908",
+      "20408559",
+      "31831623",
+      "19919182",
+      "10527873",
+      "27317745",
+      "10835283",
+      "2649682",
+      "25158098",
+      "25979333",
+      "8590001",
+      "11060025",
+      "31872783",
+      "11257508",
+      "9109651",
+      "10752619",
+      "27927989",
+      "25882846",
+      "11509564",
+      "11555646",
+      "8523566",
+      "10955995",
+      "15014124",
+      "20297673",
+      "12475216",
+      "36106955",
+      "10607564",
+      "26748546",
+      "23243314",
+      "18553937",
+      "9512716",
+      "19590096",
+      "11827484",
+      "9878439",
+      "12225753",
+      "11178896",
+      "15465056"
+    ],
+    "review": [
+      "33732907",
+      "23602987",
+      "11911879"
+    ],
+    "pmc": [
+      "7941041"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-5808(21)00069-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33732907/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33732907",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33732907",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

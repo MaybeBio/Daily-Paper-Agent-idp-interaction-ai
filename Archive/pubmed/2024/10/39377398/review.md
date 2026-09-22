@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report microsecond-long atomistic molecular simulations of short homopolymeric and heteropolymeric RNA chains, and claim that spontaneous RNA-RNA association is governed by sequence-intrinsic properties, specifically base composition, base-specific hydrogen bonding, stacking interactions, purine versus pyrimidine content, metal ion binding (Na+, K+, Mg2+), and hydration properties.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or methodological descriptions provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system setup, convergence criteria, quantitative association free energies or rates, ion concentration details, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract addresses a timely and biologically relevant question regarding sequence-mediated spontaneous RNA-RNA association, with potential implications for understanding phase separation and repeat expansion disorders. The use of microsecond-long atomistic simulations is ambitious and potentially valuable. However, the abstract provides only qualitative claims without quantitative evidence, simulation details, or validation. The central conclusions regarding the roles of base composition, ion binding, and hydration are plausible but cannot be evaluated from the supplied material. The case for the mechanistic claims is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying RNA phase separation, biomolecular condensates, stress granule assembly, repeat expansion disorders, and RNA biophysics. The findings could inform understanding of sequence determinants of RNA-RNA interactions and guide experimental design in RNA biology and therapeutic development for RNA repeat disorders.
+- **Major strengths** The topic is of high current interest and interdisciplinary relevance. The use of atomistic simulations at microsecond timescales is technically ambitious and could provide mechanistic insight not accessible to experimental approaches. The focus on sequence-intrinsic properties, including base composition and ion effects, addresses a gap in understanding spontaneous RNA association.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "spontaneous processes make the key contributions governed by the sequence-intrinsic properties of RNA chains" and that "purine versus pyrimidine contents of RNA chains can directly influence the association properties."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data, such as association free energies, contact probabilities, or time series of association events, to support the claim that spontaneous association is governed by sequence-intrinsic properties. No comparison between different sequences is shown, and no statistical measures of association propensity are reported.
+  - **Why it matters** Without quantitative evidence, the claim that sequence composition directly influences association cannot be distinguished from stochastic variation or simulation artifacts. The central mechanistic conclusion requires demonstrable differences across sequences with appropriate error analysis.
+  - **Resolution test** Provide quantitative association metrics (e.g., free energy profiles, mean first passage times, or equilibrium contact probabilities) with error bars for each RNA sequence studied, and demonstrate statistically significant differences between sequences with different purine and pyrimidine contents.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the definite roles of base-specific hydrogen bonding and stacking interactions are prominent in the association of the RNA chains" and that "Na(+), K(+), and Mg(2+) ions" have specific impacts on association.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No simulation methodology is described, including force field parameters, water model, ion parameters, salt concentrations, temperature, pressure, or simulation box size. The abstract does not state how ion effects were isolated or whether ion concentrations are physiologically relevant. No evidence is provided for the claimed base-specific interactions.
+  - **Why it matters** Atomistic simulation results are highly sensitive to force field and ion parameter choices. Without methodological details, the reliability of the claims regarding hydrogen bonding, stacking, and ion effects cannot be assessed. The absence of ion concentration information prevents evaluation of physiological relevance.
+  - **Resolution test** Describe the complete simulation protocol, including force field, water model, ion parameters, salt concentrations, and system size. Provide evidence that the observed interactions are robust to parameter choices, and show quantitative comparisons of association behavior across different ionic conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their findings reveal "how essential aspects of RNA chains, namely, base composition, metal ion binding, and hydration properties, contribute to the association" and that this informs understanding of RNA-mediated phase-separated condensate formation.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not connect the simulation results to the biological context of stress granules or repeat expansion disorders beyond the introductory statements. No evidence is provided that the short RNA chains studied are representative of biologically relevant sequences, or that the observed association behavior scales to longer RNAs or condensate formation.
+  - **Why it matters** The stated biological significance of the work depends on the relevance of the model systems to real RNA sequences involved in phase separation. Without a demonstrated link, the broader implications remain speculative.
+  - **Resolution test** Show that the sequences studied are biologically relevant (e.g., derived from repeat expansion motifs or stress granule-associated RNAs), and provide evidence or discussion connecting the observed association behavior to condensate formation, such as comparisons with longer RNAs or known phase-separating sequences.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses technical terms such as "atomistic molecular simulations" and "base-specific hydrogen bonding" without brief contextual explanation, which may limit accessibility for readers outside the simulation community.
+  - **Required correction** Add a brief phrase describing the simulation approach and the significance of base-specific interactions for a broader readership.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the length of the RNA chains studied or the specific sequences used, which is essential for interpreting the claims about "short RNA chains."
+  - **Required correction** Specify the RNA chain lengths and the sequences studied in the abstract.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation timescale
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "microseconds-long" simulations but does not specify the number of independent simulations or whether convergence was achieved.
+  - **Required correction** State the number of replicate simulations and provide evidence of convergence in the abstract or refer to methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence, methodological detail, and biological contextualization, all of which are required to establish the central claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of sequence-mediated spontaneous RNA association is not entirely new, but the atomistic simulation approach at microsecond timescales may offer novel mechanistic insight. The originality cannot be fully assessed from the abstract.
+  - Scientific importance: The topic is important for RNA biology and disease mechanisms, but the abstract does not demonstrate that the findings advance understanding beyond existing knowledge.
+  - Interdisciplinary readership: The work has potential appeal to biophysicists, biochemists, and cell biologists, but the abstract is written in a way that may not fully engage nonspecialists.
+  - Technical soundness: Not assessable from the abstract due to missing methodological details and quantitative results.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses technical jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible hypotheses and an ambitious simulation approach, but the absence of quantitative data, methodological transparency, and biological validation prevents assessment of the claims. A full manuscript with detailed methods, results, and validation would be required to evaluate the case.
+
+## Risk / unsupported claims
+- The claim that "spontaneous processes make the key contributions governed by the sequence-intrinsic properties" is unsupported without quantitative association metrics.
+- The claim that "purine versus pyrimidine contents can directly influence association" is unsupported without comparative data across sequences.
+- The claim that "definite roles of base-specific hydrogen bonding and stacking interactions are prominent" is unsupported without interaction analysis.
+- The claim that Na+, K+, and Mg2+ ions have specific impacts on association is unsupported without ion concentration details and comparative results.
+- The connection to stress granules and repeat expansion disorders is speculative and not supported by the abstract.
+- The relevance of the studied short RNA chains to biologically relevant phase-separating systems is not established.

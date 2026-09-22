@@ -1,0 +1,314 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.21.558797",
+  "title": "Dynamin 1xA interacts with Endophilin A1 via its spliced long C-terminus for ultrafast endocytosis",
+  "doi": "10.1101/2023.09.21.558797",
+  "abstract": "<h4>Summary</h4> Dynamin 1 (Dyn1) has two major splice variants, xA and xB, with unique C-terminal extensions of 20 and 7 amino acids, respectively. Of these, only Dyn1xA is enriched at endocytic zones and accelerates vesicle fission during ultrafast endocytosis. Here, we report that the long tail variant, Dyn1xA, achieves this localization by preferentially binding to Endophilin A through a newly defined Class II binding site overlapping with its extension, at a site spanning the splice boundary. Endophilin binds this site at higher affinity than the previously reported site, and this affinity is determined by amino acids outside the binding sites acting as long distance elements within the xA tail. Their interaction is regulated by the phosphorylation state of two serine residues specific to the xA variant. Dyn1xA and Endophilin colocalize in patches near the active zone of synapses. Mutations selectively disrupting Endophilin binding to the long extension cause Dyn1xA mislocalization along axons. In these mutants, endocytic pits are stalled on the plasma membrane during ultrafast endocytosis. These data suggest that the specificity for ultrafast endocytosis is defined by the phospho-regulated interaction of Endophilin A through a newly identified site of Dyn1xA’s long tail.",
+  "authors": [
+    "Imoto Y",
+    "Xue J",
+    "Luo L",
+    "Raychaudhuri S",
+    "Itoh K",
+    "Ma Y",
+    "Craft GE",
+    "Kwan AH",
+    "Mackay JP",
+    "Ha T",
+    "Watanabe S",
+    "Robinson PJ"
+  ],
+  "published_date": "2023-09-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.21.558797",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.21.558797.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR728339",
+    "raw_record": {
+      "id": "PPR728339",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR728339"
+        ]
+      },
+      "doi": "10.1101/2023.09.21.558797",
+      "title": "Dynamin 1xA interacts with Endophilin A1 via its spliced long C-terminus for ultrafast endocytosis",
+      "authorString": "Imoto Y, Xue J, Luo L, Raychaudhuri S, Itoh K, Ma Y, Craft GE, Kwan AH, Mackay JP, Ha T, Watanabe S, Robinson PJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Imoto Y",
+            "lastName": "Imoto",
+            "firstName": "Yuuta",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, Johns Hopkins University School of Medicine, Baltimore MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xue J",
+            "lastName": "Xue",
+            "firstName": "Jing",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Signalling Unit, Children’s Medical Research Institute, The University of Sydney, Locked Bag 23, Wentworthville 2145, NSW, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Luo L",
+            "lastName": "Luo",
+            "firstName": "Lin",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecular Bioscience, Institute for Molecular Bioscience Centre for Inflammation and Disease Research, and Australian Infectious Diseases Research Centre, The University of Queensland, Brisbane, QLD 4072, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Raychaudhuri S",
+            "lastName": "Raychaudhuri",
+            "firstName": "Sumana",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, Johns Hopkins University School of Medicine, Baltimore MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Itoh K",
+            "lastName": "Itoh",
+            "firstName": "Kie",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, Johns Hopkins University School of Medicine, Baltimore MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ma Y",
+            "lastName": "Ma",
+            "firstName": "Ye",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Craft GE",
+            "lastName": "Craft",
+            "firstName": "George",
+            "initials": "GE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Signalling Unit, Children’s Medical Research Institute, The University of Sydney, Locked Bag 23, Wentworthville 2145, NSW, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kwan AH",
+            "lastName": "Kwan",
+            "firstName": "Ann",
+            "initials": "AH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life and Environmental Sciences and Sydney Nano Institute, University of Sydney, New South Wales, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mackay JP",
+            "lastName": "Mackay",
+            "firstName": "Joel",
+            "initials": "JP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life and Environmental Sciences, University of Sydney, NSW 2006, Australia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ha T",
+            "lastName": "Ha",
+            "firstName": "Taekjip",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Engineering, Johns Hopkins University, Baltimore, MD, USA"
+                },
+                {
+                  "affiliation": "Department of Biophysics and Biophysical Chemistry, Johns Hopkins University, Baltimore, MD, USA"
+                },
+                {
+                  "affiliation": "Howard Hughes Medical Institute, Baltimore, MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Watanabe S",
+            "lastName": "Watanabe",
+            "firstName": "Shigeki",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7580-8141"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cell Biology, Johns Hopkins University School of Medicine, Baltimore MD, USA"
+                },
+                {
+                  "affiliation": "The Center for Cell Dynamics, Johns Hopkins University, Baltimore, MD, USA"
+                },
+                {
+                  "affiliation": "Solomon H. Snyder Department of Neuroscience, Johns Hopkins University, School of Medicine, Baltimore MD, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Robinson PJ",
+            "lastName": "Robinson",
+            "firstName": "Phillip",
+            "initials": "PJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Signalling Unit, Children’s Medical Research Institute, The University of Sydney, Locked Bag 23, Wentworthville 2145, NSW, Australia"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7580-8141"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Summary</h4>  Dynamin 1 (Dyn1) has two major splice variants, xA and xB, with unique C-terminal extensions of 20 and 7 amino acids, respectively. Of these, only Dyn1xA is enriched at endocytic zones and accelerates vesicle fission during ultrafast endocytosis. Here, we report that the long tail variant, Dyn1xA, achieves this localization by preferentially binding to Endophilin A through a newly defined Class II binding site overlapping with its extension, at a site spanning the splice boundary. Endophilin binds this site at higher affinity than the previously reported site, and this affinity is determined by amino acids outside the binding sites acting as long distance elements within the xA tail. Their interaction is regulated by the phosphorylation state of two serine residues specific to the xA variant. Dyn1xA and Endophilin colocalize in patches near the active zone of synapses. Mutations selectively disrupting Endophilin binding to the long extension cause Dyn1xA mislocalization along axons. In these mutants, endocytic pits are stalled on the plasma membrane during ultrafast endocytosis. These data suggest that the specificity for ultrafast endocytosis is defined by the phospho-regulated interaction of Endophilin A through a newly identified site of Dyn1xA’s long tail.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.21.558797"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR728339"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR728339&type=FILE&fileName=EMS188366-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38907032",
+            "reference": "The EMBO journal. 2024 Aug;43(16):3327-3357",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS188366",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot"
+        ]
+      },
+      "dateOfCreation": "2023-09-23",
+      "firstPublicationDate": "2023-09-21",
+      "firstIndexDate": "2023-09-23",
+      "fullTextReceivedDate": "2024-01-13",
+      "hasEvaluations": "Y"
+    }
+  }
+}

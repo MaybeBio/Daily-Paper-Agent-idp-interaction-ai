@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or data tables were provided for evaluation
+- **Shared manuscript claim summary** The authors report that the C-terminal RNA-binding domain (RBD) of hnRNP U, containing two RGG/RG motifs within an intrinsically disordered region, binds RNA promiscuously with high affinity for structured RNAs and little sequence preference, whereas the isolated RGG/RG motif preferentially binds G-quadruplexes. They propose that RGG/RG motifs modulate the affinity or selectivity of adjacent RNA-binding domains.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, eCLIP data sources, sequence details of RNA constructs, binding constants, replicates, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding the role of RGG/RG motifs in modulating RNA-binding selectivity within a disordered domain. However, the claims are supported only by qualitative statements, and the absence of quantitative data, experimental details, and controls prevents a rigorous evaluation of the conclusions. The central claim that the RBD attenuates selectivity of the RGG motifs is plausible but not established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying RNA-binding proteins, particularly those investigating disordered regions, RGG/RG motifs, and G-quadruplex recognition. The work may also interest those focused on nuclear RNA biology and chromatin regulation, as hnRNP U is a multifunctional nuclear protein.
+- **Major strengths** The study addresses a relevant question about the RNA-binding selectivity of a disordered RNA-binding domain. The comparison between the full RBD and the isolated RGG/RG motif is a logical approach to dissect the contribution of flanking regions. The use of eCLIP-derived RNA targets adds biological relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the hnRNP U RBD binds RNA in a promiscuous manner with high affinity for a broad range of structured RNAs, but with little preference for any distinct sequence motif.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative binding data, such as dissociation constants, binding curves, or statistical comparisons across RNA targets. The terms "promiscuous," "high affinity," and "little preference" are not defined or supported by numerical evidence.
+  - **Why it matters** Without quantitative measures, the reader cannot assess the magnitude of binding differences or the robustness of the selectivity claim. The conclusion that the RBD lacks sequence preference requires a systematic comparison across multiple RNA motifs with appropriate statistical testing.
+  - **Resolution test** Provide binding affinities (e.g., Kd values) for a panel of structured and unstructured RNAs, with replicates and error estimates, and demonstrate statistically significant differences or lack thereof.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that the isolated RGG/RG motif exhibits a strong preference for G-quadruplexes, similar to other RGG motif bearing peptides.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify how the isolated motif was prepared, what RNA constructs were tested, or how G-quadruplex preference was quantified. The comparison to "other RGG motif bearing peptides" is made without citation or data.
+  - **Why it matters** The selectivity claim for the isolated motif is central to the proposed model. Without experimental details and quantitative evidence, the claim cannot be evaluated or reproduced.
+  - **Resolution test** Describe the peptide construct, RNA library, and binding assays in detail, and provide quantitative binding data showing preferential binding to G-quadruplex structures over other RNA conformations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical inference
+  - **Claim pointer** The authors propose that the RBD attenuates the RNA binding selectivity of its core RGG motifs to achieve an extensive RNA interactome.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not demonstrate a direct mechanistic link between the presence of the disordered region and the loss of selectivity. The comparison between the full RBD and the isolated motif is suggestive, but alternative explanations, such as differences in protein folding, multivalency, or RNA binding stoichiometry, are not addressed.
+  - **Why it matters** The proposed model is the main conceptual contribution. If the attenuation is due to other factors, the conclusion would be weakened.
+  - **Resolution test** Provide experiments that directly test the role of the disordered region, such as truncation or mutation of specific elements, and show that these changes restore or alter selectivity in a predictable manner.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "abolished by elements within the intrinsically disordered region" in the title is not clearly reflected in the abstract, which describes attenuation rather than abolition.
+  - **Required correction** Align the title with the abstract's findings, or clarify the distinction between attenuation and abolition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions equilibrium binding assays using fluorescence anisotropy and EMSAs, but no details on buffer conditions, protein concentrations, or RNA labeling are provided.
+  - **Required correction** Include key experimental parameters in the methods section of the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Literature comparison
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that the isolated RGG/RG motif behaves "similar to that observed for other RGG motif bearing peptides" lacks specific references.
+  - **Required correction** Cite relevant studies and briefly describe the basis for comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea that disordered regions modulate the selectivity of RGG motifs is not entirely novel, as similar concepts have been proposed for other RNA-binding proteins, but the specific application to hnRNP U may offer new insights. The abstract does not clearly distinguish the work from prior studies.
+  - Scientific importance: The findings could be relevant to understanding how multifunctional RNA-binding proteins achieve broad target recognition, but the significance is not fully articulated in the abstract.
+  - Interdisciplinary readership: The topic is of interest to RNA biologists and biochemists, but the abstract may not appeal to a broader audience without clearer framing of the broader implications.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of quantitative data and methodological details is a major limitation.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon such as "RGG/RG motifs" and "G-quadruplexes" without brief definitions, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis, but the lack of quantitative data and experimental details prevents a rigorous assessment. Supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the RBD binds RNA "in a promiscuous manner with high affinity" is unsupported without quantitative binding data.
+- The claim that the isolated RGG/RG motif has a "strong preference for G-quadruplexes" is unsupported without experimental details and data.
+- The proposal that RGG/RG motifs alter binding affinity or selectivity of adjacent domains is speculative and not directly tested in the abstract.
+- The title's assertion that selectivity is "abolished" is not supported by the abstract's language of attenuation.

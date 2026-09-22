@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to propose a mechanistic explanation for the general protein-binding ability of ATP. They report that negatively charged ATP accumulates around three proteins with distinct net charges, that only a fraction of ATP binds directly to protein surfaces while the rest forms clusters, that arginine residues dominate direct ATP binding and regulate cluster size, and that these findings explain ATP's broad protein-binding capability.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology, force field validation, sampling statistics, error analysis, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting simulation-based hypothesis for the general protein-binding ability of ATP, with a focus on arginine-mediated interactions and ATP clustering. However, the evidence base is limited to a brief summary, and several claims are either undersupported or not assessable without the full methodology and quantitative results. The central mechanistic proposal is plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, liquid-liquid phase separation, protein aggregation, and nucleotide-protein interactions would find these results relevant. The proposed role of arginine in mediating ATP binding could inform studies on ATP's cellular functions beyond energy metabolism, particularly in the context of protein homeostasis and phase behavior.
+- **Major strengths** The study addresses a timely and important question regarding the nonspecific binding of ATP to diverse proteins. The use of three proteins with distinct net charges is a reasonable design to probe electrostatic effects. The proposal that ATP forms clusters and that arginine regulates both direct binding and cluster size offers a potentially novel mechanistic framework.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that "negatively charged ATP exhibits a strong trend to accumulate around all of these proteins" and that "ATP tightly binds to Arg with high affinity."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No quantitative data are presented to support the strength of accumulation or binding affinity. The terms "strong trend" and "high affinity" are not defined, and no binding free energies, contact probabilities, or comparison with experimental affinities are given.  
+  - **Why it matters** Without quantitative measures, the reader cannot evaluate whether the observed accumulation is statistically significant or biologically meaningful, nor whether the claimed affinity for arginine is specific or merely a consequence of electrostatic attraction.  
+  - **Resolution test** Provide quantitative metrics such as radial distribution functions, binding free energies, or occupancy fractions, with error bars and comparison to a control system, to substantiate the claims of strong accumulation and high arginine affinity.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that "additional ATPs indirectly bind to proteins by aggregating into ATP clusters" and that "the size of the ATP cluster is effectively regulated by the distribution of Arg."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The mechanism of ATP clustering and its regulation by arginine is described qualitatively. No cluster size distributions, cluster lifetimes, or dependence on arginine density are provided. The claim that arginine regulates cluster size is not supported by any quantitative analysis.  
+  - **Why it matters** The clustering mechanism is central to the proposed general binding capability. Without evidence that clusters are stable and that their size correlates with arginine distribution, the mechanistic model remains speculative.  
+  - **Resolution test** Show cluster size distributions under different arginine distributions, with statistical sampling and convergence checks, and demonstrate a clear correlation between arginine placement and cluster properties.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract concludes that "our findings are helpful to understand the general binding capability of ATP."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The generalization from three proteins to "a wide variety of proteins" is not justified. The three proteins differ in net charge, but other factors such as surface composition, flexibility, and specific sequence motifs are not addressed. The claim of generality is therefore overstated.  
+  - **Why it matters** The broader significance of the work depends on whether the proposed mechanism applies beyond the tested systems. Without additional proteins or a systematic variation of surface properties, the generality claim is not established.  
+  - **Resolution test** Either test additional proteins with varied surface chemistries or clearly limit the conclusions to the studied systems and discuss the conditions under which the mechanism might generalize.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract implies that the simulation results explain experimental observations of ATP regulating LLPS and inhibiting aggregation.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No direct link is made between the simulation observables and the experimental phenomena. The abstract mentions experiments in the introduction but does not show how the binding and clustering behavior translates to LLPS regulation or aggregation inhibition.  
+  - **Why it matters** The relevance to experimental biology is a key motivation, but the abstract does not provide a mechanistic bridge. Without this connection, the significance of the simulation findings for real biological processes remains unclear.  
+  - **Resolution test** Include a discussion or preliminary data connecting the simulation results to experimental observables, such as how ATP clustering might affect protein solubility or phase separation propensity.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract uses terms like "LLPS" and "NTD" without defining them, which may hinder readers outside the immediate field.  
+  - **Required correction** Define abbreviations at first use, such as "liquid-liquid phase separation (LLPS)" and "N-terminal domain (NTD)."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Simulation methodology  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract does not specify the simulation method (e.g., all-atom vs. coarse-grained), force field, or simulation timescale, which are critical for assessing the reliability of the results.  
+  - **Required correction** Include brief methodological details in the abstract or ensure the full text provides them prominently.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Conclusion  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The statement that "Arg dominates the direct binding of ATP" is presented without acknowledging potential contributions from other residues, such as lysine or histidine, which are also positively charged.  
+  - **Required correction** Clarify whether the dominance is relative to other residues and discuss the possible role of other basic residues in the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative evidence for binding strength, cluster properties, and generality prevents the mechanistic claims from being established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The idea that ATP forms clusters and that arginine regulates both direct binding and cluster size is a novel angle, though the general concept of ATP-protein interactions is not new.  
+  - **Scientific importance** The topic is relevant to understanding ATP's non-canonical roles in protein regulation, but the importance is not fully demonstrated without a clear link to experimental phenomena.  
+  - **Interdisciplinary readership** The work could appeal to biophysicists, biochemists, and cell biologists, but the abstract is too technical and lacks context for a broad audience.  
+  - **Technical soundness** Not assessable from the abstract alone; the absence of methodological details and quantitative results is a major limitation.  
+  - **Readability for nonspecialists** The abstract is concise but uses field-specific jargon without explanation, reducing accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic hypothesis is interesting, but the abstract lacks the quantitative and methodological detail needed to support the claims. A revised manuscript with full simulation data, statistical analysis, and a clearer connection to experimental observations could change this assessment.
+
+## Risk / unsupported claims
+- The claim that ATP "exhibits a strong trend to accumulate around all of these proteins" is unsupported without quantitative accumulation data.
+- The claim that "ATP tightly binds to Arg with high affinity" is unsupported without binding free energies or comparable metrics.
+- The claim that "the size of the ATP cluster is effectively regulated by the distribution of Arg" is unsupported without cluster size analysis.
+- The claim that the findings "are helpful to understand the general binding capability of ATP" is not established from three proteins alone.
+- The connection between simulation results and experimental observations of LLPS regulation and aggregation inhibition is not assessable from the abstract.

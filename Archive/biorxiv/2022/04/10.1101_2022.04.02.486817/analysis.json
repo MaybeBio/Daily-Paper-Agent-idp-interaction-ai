@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.02.486817",
+  "title": "FCHO controls AP2’s critical endocytic roles through a PtdIns4,5P 2 membrane-dependent switch",
+  "authors": "Zaccai NR; Kadlecova Z; Dickson VK; Korobchevskaya K; Kamenicky J; Kovtun O; Umasankar PK; Wrobel AG; Kaufman JG; Gray S; Qu K; Evans PR; Fritzsche M; Sroubek F; Höning S; Briggs JA; Kelly BT; Owen DJ; Traub LM",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-03",
+  "window": {
+    "start": "2022-03-28",
+    "end": "2022-04-03"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过活细胞成像和生化实验解析FCHO与AP2在网格蛋白介导内吞中的互作开关机制，对象为折叠蛋白复合物且无AI/物理模拟方法，仅机制思路对无序蛋白互作建模有间接启发。",
+  "abstract": "Clathrin-mediated endocytosis (CME) is the main mechanism by which mammalian cells control their cell surface proteome. Proper operation of the pivotal CME cargo-adaptor AP2 requires membrane-localised FCHO. Here, live-cell eTIRF-SIM shows that FCHO marks sites of clathrin- coated pit (CCP) initiation, which mature into uniform sized CCPs comprising a central patch of AP2 and clathrin corralled by an FCHO/Eps15 ring. We dissect the network of interactions between the FCHO interdomain-linker and AP2, which concentrates, orients, tethers and partially destabilizes closed AP2 at the plasma membrane. AP2’s subsequent membrane deposition drives its opening, which triggers FCHO displacement through steric competition with PtdIns4,5P 2 , clathrin, cargo and CME accessory factors. FCHO can now relocate toward a CCP’s outer edge to engage and activate further AP2s to drive CCP growth/maturation. <h4>125 character summary</h4> FCHO primes AP2 for CCV incorporation, a process that triggers FCHO release to enable activation/recruitment of further AP2s",
+  "abstract_zh": "网格蛋白介导的内吞作用（clathrin-mediated endocytosis, CME）是哺乳动物细胞调控其细胞表面蛋白质组的主要机制。关键的CME货物适配器AP2的正常运作需要膜定位的FCHO。在此，活细胞eTIRF-SIM显示FCHO标记网格蛋白包被小窝（clathrin-coated pit, CCP）起始位点，这些位点成熟为均匀大小的CCP，包含由FCHO/Eps15环包围的AP2和网格蛋白中央斑块。我们剖析了FCHO结构域间连接子与AP2之间的相互作用网络，该网络在质膜上浓缩、定向、拴系并部分 destabilizes 闭合状态的AP2。AP2随后的膜沉积驱动其开放，通过与PtdIns4,5P₂、网格蛋白、货物及CME辅助因子的空间竞争触发FCHO位移。FCHO现在可重新定位至CCP的外缘，以接合并激活更多AP2，从而驱动CCP的生长/成熟。<h4>125字符摘要</h4> FCHO为AP2进入CCV整合做准备，此过程触发FCHO释放，以促进更多AP2的激活/招募。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.02.486817",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.02.486817",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.02.486817/index.html"
+}

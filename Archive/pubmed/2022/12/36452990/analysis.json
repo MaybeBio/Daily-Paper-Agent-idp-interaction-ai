@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36452990",
+  "title": "DisCanVis: Visualizing integrated structural and functional annotations to better understand the effect of cancer mutations located within disordered proteins.",
+  "authors": "Deutsch, Norbert; Pajkos, Matyas; Erdos, Gabor; Dosztanyi, Zsuzsanna",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2022-12-02",
+  "window": {
+    "start": "2022-11-28",
+    "end": "2022-12-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该文开发了可视化工具DisCanVis，整合癌症突变与无序蛋白的结构功能注释，但缺乏PPI互作机制和AI/物理模拟方法，仅作数据展示，对机制建模启发有限。",
+  "abstract": "Intrinsically disordered proteins (IDPs) play important roles in a wide range of biological processes and have been associated with various diseases, including cancer. In the last few years, cancer genome projects have systematically collected genetic variations underlying multiple cancer types. In parallel, the number and different types of disordered proteins characterized by experimental methods have also significantly increased. Nevertheless, the role of IDPs in various types of cancer is still not well understood. In this work, we present DisCanVis, a novel visualization tool for cancer mutations with a special focus on IDPs. In order to aid the interpretation of observed mutations, genome level information is combined with information about the structural and functional properties of proteins. The web server enables users to inspect individual proteins, collect examples with existing annotations of protein disorder and associated function or to discover currently uncharacterized examples with likely disease relevance. Through a REST API interface and precompiled tables the analysis can be extended to a group of proteins.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在广泛的生物过程中扮演重要角色，并与多种疾病（包括癌症）相关联。近年来，癌症基因组计划系统性地收集了多种癌症类型背后的遗传变异。与此同时，通过实验方法表征的紊乱蛋白的数量和类型也显著增加。然而，IDPs 在各类癌症中的作用仍未被充分理解。在本工作中，我们提出了 DisCanVis，一种新型的可视化工具，专门关注癌症突变，特别聚焦于 IDPs。为了帮助解释观察到的突变，基因组水平信息与蛋白质的结构和功能特性信息相结合。该网络服务器使用户能够检查单个蛋白质，收集具有现有蛋白紊乱和相关功能注释的示例，或发现可能具有疾病相关性的当前未表征示例。通过 REST API 接口和预编译表格，分析可扩展到一组蛋白质。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36452990/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36452990/",
+  "paper_page_path": "papers/pubmed/36452990/index.html"
+}

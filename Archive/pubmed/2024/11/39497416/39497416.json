@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "39497416",
+    "doi": "10.1016/j.bpj.2024.11.001",
+    "title": "Conformations of a low-complexity protein in homogeneous and phase-separated frozen solutions."
+  },
+  "content": {
+    "abstract": "Solutions of the intrinsically disordered, low-complexity domain of the FUS protein (FUS-LC) undergo liquid-liquid phase separation (LLPS) below a temperature T(LLPS). To investigate whether local conformational distributions are detectably different in the homogeneous (i.e., single-phase) and phase-separated states of FUS-LC, we performed solid-state NMR (ssNMR) measurements on solutions that were frozen on submillisecond timescales after equilibration at temperatures well above (50 degrees C) or well below (4 degrees C) T(LLPS). Measurements were performed at 25 K with signal enhancements from dynamic nuclear polarization. Crosspeak patterns in two-dimensional ssNMR spectra of rapidly frozen solutions in which FUS-LC was uniformly (15)N,(13)C labeled were found to be nearly identical for the two states. Similar results were obtained for solutions in which FUS-LC was labeled only at Thr, Tyr, and Gly residues, as well as solutions of a FUS construct in which five specific residues were labeled by ligation of synthetic and recombinant fragments. These experiments show that local conformational distributions are nearly the same in the homogeneous and phase-separated solutions, despite the much greater protein concentrations and more abundant intermolecular interactions within phase-separated, protein-rich \"droplets.\" Comparison of the experimental results with simulations of the sensitivity of two-dimensional ssNMR crosspeaks to changes in populations of beta strand-like conformations suggests that changes in conformational distributions are no larger than 5-10%.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Solutions",
+      "*Freezing",
+      "*RNA-Binding Protein FUS/chemistry/metabolism",
+      "Protein Conformation",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Protein Domains",
+      "Temperature"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wilson, C Blake",
+        "Lee, Myungwoon",
+        "Yau, Wai-Ming",
+        "Tycko, Robert"
+      ],
+      "short_names": [
+        "Wilson CB",
+        "Lee M",
+        "Yau WM",
+        "Tycko R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland. Electronic address: robertty@mail.nih.gov."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wilson, C Blake",
+        "short_name": "Wilson CB",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Lee, Myungwoon",
+        "short_name": "Lee M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Yau, Wai-Ming",
+        "short_name": "Yau WM",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland."
+        ]
+      },
+      {
+        "full_name": "Tycko, Robert",
+        "short_name": "Tycko R",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland. Electronic address: robertty@mail.nih.gov."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2024 Dec 3",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/05 10:18",
+    "fetched_at": "2026-09-21 12:22:21"
+  },
+  "links": {
+    "cites": [
+      "42055637",
+      "41576087"
+    ],
+    "refs": [
+      "38553463",
+      "38467846",
+      "38335342",
+      "38279531",
+      "37749095",
+      "37735186",
+      "37604044",
+      "37468629",
+      "37146977",
+      "36893281",
+      "36638831",
+      "36499553",
+      "36350034",
+      "36040869",
+      "36018855",
+      "35986970",
+      "35866309",
+      "35771920",
+      "35617672",
+      "35025654",
+      "34931046",
+      "34787433",
+      "34759379",
+      "34670847",
+      "34619090",
+      "34516126",
+      "34301955",
+      "34074792",
+      "33978290",
+      "33896178",
+      "33712624",
+      "33686294",
+      "33607084",
+      "33452693",
+      "33311513",
+      "33302617",
+      "33280387",
+      "33279579",
+      "33144500",
+      "32796831",
+      "32603876",
+      "32312191",
+      "32270045",
+      "32029630",
+      "32003979",
+      "31911439",
+      "31898464",
+      "31895552",
+      "31790873",
+      "31439799",
+      "31387974",
+      "31341602",
+      "31270472",
+      "31050890",
+      "30845353",
+      "30791483",
+      "30279180",
+      "30217894",
+      "30127355",
+      "29642031",
+      "29602697",
+      "29358076",
+      "29303268",
+      "28942918",
+      "28894006",
+      "28716441",
+      "26920835",
+      "26544936",
+      "26526393",
+      "26455390",
+      "26406374",
+      "25531225",
+      "24232250",
+      "24034249",
+      "23728592",
+      "23456039",
+      "23238592",
+      "20628786",
+      "20483348",
+      "18930418",
+      "17143859",
+      "15718283",
+      "12626339",
+      "8744570",
+      "7881273",
+      "1960729"
+    ],
+    "similar": [
+      "39497416",
+      "39372747",
+      "31895552",
+      "31270472",
+      "35709363",
+      "28942918",
+      "33184287",
+      "37399327",
+      "33607084",
+      "33547841",
+      "31805282",
+      "29677513",
+      "34516126",
+      "31188823",
+      "28924037",
+      "26455390",
+      "37211763",
+      "34654750",
+      "28432364",
+      "33515602",
+      "36453011",
+      "35297101",
+      "34156864",
+      "40857360",
+      "40842365",
+      "29677515",
+      "32231288",
+      "28790177",
+      "35943083",
+      "38029395",
+      "37130459",
+      "34233002",
+      "34787417",
+      "34862761",
+      "39486437",
+      "38462838",
+      "33307683",
+      "34648275",
+      "30205960",
+      "33686294",
+      "37231298",
+      "34759379",
+      "35617672",
+      "40285725",
+      "40334877",
+      "26317470",
+      "33110735",
+      "31887554",
+      "36945688",
+      "38347806",
+      "40516596",
+      "33200826",
+      "26068174",
+      "19647001",
+      "38381862",
+      "39495179",
+      "29547565",
+      "39129227",
+      "33280387",
+      "38279531",
+      "39555969",
+      "34018649",
+      "40281357",
+      "38492239",
+      "37847566",
+      "36268634",
+      "40794831",
+      "40693919",
+      "31387974",
+      "20121096",
+      "37890778",
+      "36690069",
+      "29897835",
+      "15718283",
+      "40973004",
+      "38632300",
+      "29364893",
+      "29511089",
+      "39885825",
+      "38593618",
+      "38996511",
+      "41311968",
+      "38467846",
+      "41001641",
+      "33022038",
+      "33758287",
+      "34029402",
+      "31240261",
+      "32643734",
+      "32915994",
+      "33076213",
+      "23470028",
+      "39920231",
+      "41415473",
+      "33159856",
+      "35500664",
+      "22778397",
+      "37155880",
+      "35998398",
+      "41433062"
+    ],
+    "review": [
+      "39497416",
+      "37399327",
+      "38029395",
+      "33110735",
+      "38381862",
+      "29547565",
+      "37847566",
+      "36268634"
+    ],
+    "pmc": [
+      "11628836"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(24)00710-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39497416/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

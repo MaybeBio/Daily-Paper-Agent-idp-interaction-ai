@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors report the in situ molecular organization of the ER-mitochondria encounter structure (ERMES) in yeast, determined by integrative structural biology combining quantitative live-imaging, cryo-correlative microscopy, subtomogram averaging, and molecular modeling. They claim ERMES assembles into approximately 25 discrete bridge-like complexes per contact site, each bridge contains three lipid-binding SMP domains arranged in a zig-zag fashion, and their molecular model reveals an unconventional restrained pathway for lipids, resolving a supramolecular architecture controlling interorganelle lipid fluxes.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods details, statistical analyses, model validation metrics, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding ERMES architecture and lipid transfer mechanisms at membrane contact sites. The integrative approach is commendable and aligns with current trends in structural cell biology. However, the abstract alone provides insufficient detail to evaluate the technical rigor, model quality, or the strength of the claims. The central conclusions, particularly the stoichiometry, the zig-zag arrangement of SMP domains, and the "restrained pathway" for lipids, require substantial supporting evidence that is not visible here. The work is likely of interest to the membrane biology and organelle communication communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Cell biologists studying organelle contact sites, membrane lipid homeostasis, and interorganelle communication; structural biologists interested in in situ macromolecular complexes; and researchers working on ER-mitochondria signaling and lipid transfer proteins. The findings could also inform studies on diseases linked to ERMES dysfunction, such as neuropathies and metabolic disorders.
+- **Major strengths** The use of integrative structural biology in a native cellular environment is a strong methodological choice, as it addresses limitations of in vitro reconstitution. The claim of approximately 25 discrete complexes per contact site provides quantitative insight into ERMES organization. The proposed zig-zag arrangement of three SMP domains offers a concrete architectural hypothesis that is testable and mechanistically relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "ERMES assembles into approximately 25 discrete bridge-like complexes distributed irregularly across a contact site"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states a specific number of complexes per contact site but provides no information on how this count was derived, the variability across cells or contact sites, or the statistical confidence of this estimate. Without details on the quantitative live-imaging analysis, including sample size, segmentation criteria, and error bounds, the precision implied by "approximately 25" is unverifiable.
+  - **Why it matters** The quantitative claim is central to the proposed supramolecular architecture. If the counting method is biased or the variance is high, the conclusion about discrete complex distribution could be overstated or incorrect, affecting the broader model of ERMES function.
+  - **Resolution test** Provide the full quantitative imaging methods, including the number of cells analyzed, the criteria for identifying individual complexes, the distribution of counts (e.g., mean, standard deviation, range), and any controls for false positives or negatives. A figure showing representative images and a histogram of complex counts per contact site would be necessary.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Each bridge consists of three lipid-binding SMP domains arranged in zig-zag fashion"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The stoichiometry and arrangement of SMP domains are presented as definitive, but the abstract does not describe how this was determined. Subtomogram averaging can yield density maps, but the resolution, the assignment of SMP domains within the density, and the validation of the zig-zag arrangement are not reported. The claim implies a level of structural detail that requires specific evidence, such as map resolution, fitting statistics, or cross-validation with molecular modeling.
+  - **Why it matters** The zig-zag arrangement is a key architectural feature that underpins the proposed lipid pathway. If the assignment is ambiguous or the resolution is insufficient to distinguish domain orientations, the model could be incorrect, undermining the mechanistic conclusions.
+  - **Resolution test** Provide the subtomogram averaging resolution (e.g., Fourier shell correlation), the method for assigning SMP domains to density regions, and the modeling procedure. Include figures showing the density map with fitted domains and a comparison of alternative arrangements (e.g., linear vs. zig-zag) with quantitative fit scores.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "Our molecular model of ERMES reveals an unconventional restrained pathway for lipids"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The "restrained pathway" is a central mechanistic claim, but the abstract does not define what "restrained" means in structural or functional terms, nor does it describe the evidence supporting this pathway. It is unclear whether this is based on the model's geometry, molecular dynamics simulations, or functional assays. Without a clear definition and supporting data, this claim is not assessable.
+  - **Why it matters** The novelty of the work hinges on this mechanistic insight. If the pathway is not well-supported or is described vaguely, the contribution to understanding lipid transfer is diminished, and the claim may overreach the data.
+  - **Resolution test** Define "restrained" explicitly (e.g., limited conformational flexibility, restricted lipid trajectory) and provide evidence from the model, simulations, or experiments. Include a figure illustrating the proposed lipid pathway with key residues or interactions, and any functional validation (e.g., mutagenesis or lipid transfer assays).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "restrained pathway" is used without explanation, which may confuse readers unfamiliar with the structural biology jargon. The abstract also assumes knowledge of SMP domains and ERMES function without brief context.
+  - **Required correction** Add a brief clarification of "restrained" in the context of lipid transfer, and consider a one-sentence primer on SMP domains and their role in lipid binding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Quantitative claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "approximately 25" is vague; it is unclear if this is a mean, median, or a range. The abstract does not indicate whether this number is consistent across different contact sites or conditions.
+  - **Required correction** Specify the statistical measure (e.g., mean with standard deviation) and the number of contact sites or cells analyzed, or rephrase to indicate a range if variability is high.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention the yeast species or the specific conditions under which the imaging was performed, which limits reproducibility and comparability for other researchers.
+  - **Required correction** Include the yeast species and key experimental conditions (e.g., growth phase, temperature) in the abstract or methods summary.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The quantitative counting, structural assignment, and mechanistic pathway claims are all insufficiently supported by the abstract alone. Full methods, validation metrics, and figures are required.
+- **Assessment against Nature-style criteria** Originality: The integrative in situ approach and the proposed zig-zag architecture are potentially original, but the novelty of the "restrained pathway" is unclear without definition. Scientific importance: The work addresses a fundamental question in organelle communication and lipid homeostasis, which is of high importance if the claims hold. Interdisciplinary readership: The topic bridges cell biology, structural biology, and biophysics, and the abstract is accessible to a broad audience, though some jargon could be clarified. Technical soundness: Not assessable from the abstract; the methods and validation are not described. Readability for nonspecialists: The abstract is generally clear but uses terms like "restrained pathway" without explanation, which could hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a compelling premise, but the central claims require full manuscript evaluation. I would be supportive if the technical concerns are resolved with detailed methods, validation, and clear mechanistic evidence.
+
+## Risk / unsupported claims
+- The specific count of approximately 25 complexes per contact site is unsupported without quantitative imaging details.
+- The zig-zag arrangement of three SMP domains is unsupported without subtomogram averaging resolution and fitting validation.
+- The "restrained pathway" for lipids is undefined and unsupported without model details or functional evidence.
+- The claim that the findings "resolve a supramolecular architecture" is overstated relative to the evidence provided in the abstract.

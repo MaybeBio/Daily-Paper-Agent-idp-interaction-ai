@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34870419",
+  "title": "Intrinsically Disordered Region Modulates Ligand Binding in Glutaredoxin 1 from Trypanosoma Brucei.",
+  "authors": "Balatti, Galo E; Barletta, G Patricio; Parisi, Gustavo; Tosatto, Silvio C E; Bellanda, Massimo; Fernandez-Alberti, Sebastian",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-12-07",
+  "window": {
+    "start": "2021-12-06",
+    "end": "2021-12-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用原子级分子动力学模拟研究布氏锥虫谷氧还蛋白1中无序N端延伸对配体结合口袋动态的调控，虽对象为IDR且方法为MD，但聚焦单蛋白配体结合而非PPI互作机制，故为中上分。",
+  "abstract": "Glutaredoxins are small proteins that share a common well-conserved thioredoxin-fold and participate in a wide variety of biological processes. Among them, class II Grx are redox-inactive proteins involved in iron-sulfur (Fe-S) metabolism. In the present work, we report different structural and dynamics aspects of 1CGrx1 from the pathogenic parasite Trypanosoma brucei that differentiate it from other orthologues by the presence of a parasite-specific unstructured N-terminal extension whose role has not been fully elucidated yet. Previous nuclear magnetic resonance (NMR) studies revealed significant differences with respect to the mutant lacking the disordered tail. Herein, we have performed atomistic molecular dynamics simulations that, complementary to NMR studies, confirm the intrinsically disordered nature of the N-terminal extension. Moreover, we confirm the main role of these residues in modulating the conformational dynamics of the glutathione-binding pocket. We observe that the N-terminal extension modifies the ligand cavity stiffening it by specific interactions that ultimately modulate its intrinsic flexibility, which may modify its role in the storage and/or transfer of preformed iron-sulfur clusters. These unique structural and dynamics aspects of Trypanosoma brucei 1CGrx1 differentiate it from other orthologues and could have functional relevance. In this way, our results encourage the study of other similar protein folding families with intrinsically disordered regions whose functional roles are still unrevealed and the screening of potential 1CGrx1 inhibitors as antitrypanosomal drug candidates.",
+  "abstract_zh": "谷氧还蛋白（glutaredoxins）是一类共享高度保守硫氧还蛋白折叠结构的小蛋白，参与多种多样的生物过程。其中，II类Grx是无氧化还原活性的蛋白，参与铁硫（Fe-S）代谢。在本研究中，我们报道了来自致病性寄生虫布氏锥虫（Trypanosoma brucei）的1CGrx1的结构和动力学方面的不同特征，这些特征通过存在寄生虫特异性的非结构化N端延伸区而与其他直系同源蛋白区分开来，该延伸区的作用尚未完全阐明。先前的核磁共振（NMR）研究揭示了与缺乏无序尾部的突变体相比存在显著差异。在此，我们进行了原子级分子动力学（molecular dynamics）模拟，与NMR研究互补，确认了N端延伸区的内在无序性质。此外，我们确认了这些残基在调节谷胱甘肽结合口袋构象动力学中的主要作用。我们观察到N端延伸区通过特定相互作用修饰配体腔，使其刚性增强，最终调节其内在柔性，这可能改变其在储存和/或转移预形成铁硫簇中的作用。布氏锥虫1CGrx1的这些独特结构和动力学特征使其区别于其他直系同源蛋白，并可能具有功能相关性。因此，我们的结果鼓励对其他具有内在无序区域且功能作用尚未揭示的类似蛋白折叠家族进行研究，并筛选潜在的1CGrx1抑制剂作为抗锥虫药物候选物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34870419/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34870419/",
+  "paper_page_path": "papers/pubmed/34870419/index.html"
+}

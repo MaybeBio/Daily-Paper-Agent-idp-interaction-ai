@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "35298864",
+    "doi": "10.1111/febs.16435",
+    "title": "Integrative structure determination of histones H3 and H4 using genetic interactions."
+  },
+  "content": {
+    "abstract": "Integrative structure modeling is increasingly used for determining the architectures of biological assemblies, especially those that are structurally heterogeneous. Recently, we reported on how to convert in vivo genetic interaction measurements into spatial restraints for structural modeling: first, phenotypic profiles are generated for each point mutation and thousands of gene deletions or environmental perturbations. Following, the phenotypic profile similarities are converted into distance restraints on the pairs of mutated residues. We illustrate the approach by determining the structure of the histone H3-H4 complex. The method is implemented in our open-source IMP program, expanding the structural biology toolbox by allowing structural characterization based on in vivo data without the need to purify the target system. We compare genetic interaction measurements to other sources of structural information, such as residue coevolution and deep-learning structure prediction of complex subunits. We also suggest that determining genetic interactions could benefit from new technologies, such as CRISPR-Cas9 approaches to gene editing, especially for mammalian cells. Finally, we highlight the opportunity for using genetic interactions to determine recalcitrant biomolecular structures, such as those of disordered proteins, transient protein assemblies, and host-pathogen protein complexes.",
+    "keywords": [
+      "genetic interactions",
+      "integrative structure modeling",
+      "in vivo data"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Histones/metabolism",
+      "*Mammals/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Echeverria, Ignacia",
+        "Braberg, Hannes",
+        "Krogan, Nevan J",
+        "Sali, Andrej"
+      ],
+      "short_names": [
+        "Echeverria I",
+        "Braberg H",
+        "Krogan NJ",
+        "Sali A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4717-1467",
+        "ORCID: 0000-0002-7070-2257",
+        "ORCID: 0000-0003-4902-337X",
+        "ORCID: 0000-0003-0435-6197"
+      ],
+      "affiliations": [
+        "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, CA, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, CA, USA.",
+        "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, CA, USA.",
+        "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, CA, USA.",
+        "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA.",
+        "Quantitative Biosciences Institute, University of California, San Francisco, CA, USA.",
+        "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, CA, USA.",
+        "Department of Pharmaceutical Chemistry, University of California, San Francisco, CA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Echeverria, Ignacia",
+        "short_name": "Echeverria I",
+        "identifiers": [
+          "0000-0003-4717-1467"
+        ],
+        "affiliations": [
+          "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, CA, USA.",
+          "Quantitative Biosciences Institute, University of California, San Francisco, CA, USA.",
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Braberg, Hannes",
+        "short_name": "Braberg H",
+        "identifiers": [
+          "0000-0002-7070-2257"
+        ],
+        "affiliations": [
+          "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, CA, USA.",
+          "Quantitative Biosciences Institute, University of California, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Krogan, Nevan J",
+        "short_name": "Krogan NJ",
+        "identifiers": [
+          "0000-0003-4902-337X"
+        ],
+        "affiliations": [
+          "Department of Cellular and Molecular Pharmacology, University of California, San Francisco, CA, USA.",
+          "Quantitative Biosciences Institute, University of California, San Francisco, CA, USA.",
+          "Gladstone Institute of Data Science and Biotechnology, J. David Gladstone Institutes, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Sali, Andrej",
+        "short_name": "Sali A",
+        "identifiers": [
+          "0000-0003-0435-6197"
+        ],
+        "affiliations": [
+          "Quantitative Biosciences Institute, University of California, San Francisco, CA, USA.",
+          "Department of Bioengineering and Therapeutic Sciences, University of California, San Francisco, CA, USA.",
+          "Department of Pharmaceutical Chemistry, University of California, San Francisco, CA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The FEBS journal"
+    ],
+    "journal_abbrev": [
+      "FEBS J"
+    ],
+    "pub_date": "2023 May",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/18 06:00",
+    "fetched_at": "2026-09-20 08:54:41"
+  },
+  "links": {
+    "cites": [
+      "39553940",
+      "37213254"
+    ],
+    "refs": [
+      "36344848",
+      "35273146",
+      "35013567",
+      "34762488",
+      "34389466",
+      "34282049",
+      "34265844",
+      "34218458",
+      "34019789",
+      "33957123",
+      "33303586",
+      "33166013",
+      "33084570",
+      "32840111",
+      "32719457",
+      "32483332",
+      "32152544",
+      "32084337",
+      "32034103",
+      "31838147",
+      "31809054",
+      "31634902",
+      "31395745",
+      "31270507",
+      "31209395",
+      "31209393",
+      "31150619",
+      "31025855",
+      "29734294",
+      "29539637",
+      "29477337",
+      "29211988",
+      "29128390",
+      "29078326",
+      "28746306",
+      "28591576",
+      "28481362",
+      "28319113",
+      "27984732",
+      "27936040",
+      "27731797",
+      "27708008",
+      "27663738",
+      "27101578",
+      "27091992",
+      "26967199",
+      "26463011",
+      "26402457",
+      "26340423",
+      "25896389",
+      "25888283",
+      "25255213",
+      "25253489",
+      "25161197",
+      "25087511",
+      "24842992",
+      "24842270",
+      "24797426",
+      "23932120",
+      "23620725",
+      "23407553",
+      "23242262",
+      "22737063",
+      "22702725",
+      "22307589",
+      "22272186",
+      "22174245",
+      "22163331",
+      "22028648",
+      "21145464",
+      "20510918",
+      "20450483",
+      "19730696",
+      "19116270",
+      "18827877",
+      "18728193",
+      "18523072",
+      "18421374",
+      "18046405",
+      "17520018",
+      "17314980",
+      "17146057",
+      "17051159",
+      "16497304",
+      "16269340",
+      "16002620",
+      "15766533",
+      "14764870",
+      "11566884",
+      "10033814",
+      "9281423"
+    ],
+    "similar": [
+      "35298864",
+      "33303586",
+      "27036862",
+      "21812398",
+      "29408485",
+      "17293877",
+      "26109053",
+      "36924088",
+      "23912807",
+      "29035199",
+      "39944881",
+      "3216389",
+      "25618846",
+      "1276122",
+      "31396911",
+      "25781956",
+      "18601901",
+      "23034810",
+      "30528735",
+      "39553940",
+      "3656451",
+      "21715494",
+      "21965532",
+      "16568950",
+      "21447559",
+      "40299996",
+      "9606197",
+      "35772497",
+      "23075851",
+      "10891506",
+      "27454815",
+      "35969180",
+      "21441216",
+      "28315525",
+      "33558622",
+      "29357286",
+      "29382722",
+      "20139424",
+      "17142268",
+      "23184661",
+      "21656278",
+      "14992573",
+      "22307274",
+      "23926351",
+      "3816782",
+      "8554340",
+      "14561399",
+      "27690308",
+      "17507373",
+      "17292837",
+      "17081973",
+      "12866056",
+      "24493739",
+      "24121686",
+      "35393344",
+      "17166288",
+      "32913112",
+      "21742760",
+      "21454705",
+      "36322721",
+      "23178455",
+      "24835250",
+      "18579787",
+      "12421817",
+      "14661947",
+      "15456858",
+      "12779337",
+      "21877292",
+      "25301943",
+      "38795564",
+      "9012662",
+      "28123037",
+      "27618665",
+      "8754835",
+      "19914933",
+      "22199229",
+      "21550984",
+      "7729422",
+      "18543948",
+      "10567583",
+      "16567635",
+      "9535919",
+      "33353064",
+      "15039081",
+      "891547",
+      "7590252",
+      "21220302",
+      "12554783",
+      "34819355",
+      "22183605",
+      "22796493",
+      "26167883",
+      "39273649",
+      "25093933",
+      "22337870",
+      "30536627",
+      "35465919",
+      "15871046",
+      "37943892",
+      "3371351"
+    ],
+    "review": [
+      "35298864",
+      "39944881",
+      "16568950",
+      "38795564",
+      "33353064"
+    ],
+    "pmc": [
+      "9481981"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35298864.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35298864/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35298864",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/febs.16435",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt33k416p0",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

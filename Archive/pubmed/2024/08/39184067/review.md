@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a multiscale simulation approach enabling long-time, equilibrated all-atom simulations of condensate-ligand systems. They report that condensates form heterogeneous chemical environments dominated by non-specific hydrophobic interactions, that these environments nonetheless favor certain small molecules, and that population shifts of shared chemical environments across condensates drive ligand selectivity. They further claim the approach can enhance interpretation of experimental screening data and assist rational design of condensate-targeting small molecules.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or experimental comparisons are available
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field choices, system compositions, partitioning coefficient data, validation against experiments, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that condensate ligand partitioning arises from shared chemical environments whose population differences confer selectivity, despite interactions being non-specific. The multiscale simulation strategy is potentially valuable. However, the abstract provides no quantitative evidence, no methodological detail, and no experimental validation. The central claims regarding population shifts and selectivity are stated without supporting data. As presented, the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biomolecular condensate biology, drug discovery targeting condensates, and computational biophysics. The work could interest those seeking mechanistic frameworks for small molecule condensate partitioning and those developing simulation methods for condensate-ligand systems.
+- **Major strengths** The conceptual framing distinguishing non-specific interactions from selectivity is thoughtful and addresses a real gap in the field. The proposed multiscale approach for equilibrated all-atom simulations of condensate-ligand systems is ambitious and potentially enabling. The idea that shared chemical environments with different populations drive selectivity is testable and could unify observations across condensate types.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "population shift drives ligand selectivity towards specific condensates."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states this population shift mechanism as a finding, but no quantitative data on environment populations, ligand partitioning coefficients, or selectivity ratios are presented. No comparison across condensates or ligands is shown.
+  - **Why it matters** This is the central mechanistic claim of the work. Without quantitative support, the claim is an assertion rather than an established result. The distinction between non-specific interactions and selectivity hinges on demonstrating that population differences, rather than other factors, explain observed partitioning.
+  - **Resolution test** Provide quantitative partitioning coefficients for multiple ligands across multiple condensates, with statistical uncertainties, and demonstrate that environment population differences correlate with selectivity in a way that cannot be explained by alternative mechanisms.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors claim their multiscale approach enables "long-time, equilibrated all-atom simulations of various condensate-ligand systems."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No methodological details are given. The abstract does not describe the multiscale scheme, the system sizes, the simulation timescales, the equilibration criteria, or the force fields used. Without this information, the feasibility and reliability of the simulations cannot be assessed.
+  - **Why it matters** Equilibrated all-atom simulations of condensate-ligand systems are computationally challenging. The claim that this is achieved is central to the work's technical contribution. If the equilibration or sampling is inadequate, all downstream conclusions about binding poses and partitioning are compromised.
+  - **Resolution test** Describe the multiscale method, report system compositions, simulation lengths, convergence metrics, and validation of equilibration. Show that results are robust to initial conditions and simulation parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors claim the approach "can enhance the interpretation of experimental screening data."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No experimental data are referenced or compared. The abstract does not show any correlation between simulated partitioning behavior and experimentally measured partitioning or screening outcomes.
+  - **Why it matters** The utility of the approach for interpreting experiments is a stated goal. Without any experimental comparison, the predictive power and relevance of the simulations remain unverified. The claim of practical utility is unsupported.
+  - **Resolution test** Include comparisons between simulated partitioning coefficients and experimentally measured values for at least a subset of ligands and condensates. Report correlation statistics and discuss discrepancies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "chemical environments"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "chemical environments" without defining what constitutes such an environment, how they are identified, or how their boundaries are determined in the simulations.
+  - **Required correction** Define chemical environments operationally, for example by clustering of ligand contact residues or by local amino acid composition, and state the criteria used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of "non-specific yet selective"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The title and abstract juxtapose "non-specific" and "selective," which could confuse readers. The abstract explains that interactions are non-specific at the molecular level but selectivity arises from environment populations, but this distinction could be stated more explicitly.
+  - **Required correction** Clarify early in the abstract that non-specificity refers to individual interaction types, while selectivity emerges from the collective distribution of environments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope of claims
+  - **Affected element** Generalization to "various condensate-ligand systems"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims generality across "various" systems but does not state how many condensates or ligands were studied or their identities.
+  - **Required correction** Specify the number and types of condensates and ligands studied, and note any limitations on generalizability.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central mechanistic claim, the methodological feasibility, and the experimental relevance are all unsupported in the provided abstract.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the population shift concept for condensate selectivity is a fresh framing. Scientific importance is potentially high given the therapeutic interest in condensate-modulating small molecules. Interdisciplinary readership is plausible, spanning biophysics, cell biology, and medicinal chemistry. Technical soundness cannot be assessed from the abstract alone, as no methodological or quantitative details are provided. Readability for nonspecialists is adequate, though the abstract uses jargon such as "partitioning coefficients" and "multiscale approach" without full explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract alone does not support the central claims. A full manuscript with methodological detail, quantitative results, and experimental validation would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that population shifts drive ligand selectivity is unsupported without quantitative data.
+- The claim that the multiscale approach enables long-time, equilibrated all-atom simulations is unverifiable without methodological details.
+- The claim that the approach can enhance interpretation of experimental screening data is unsupported without any experimental comparison.
+- The general statement that condensates "can form diverse and heterogeneous chemical environments" is plausible but not quantitatively demonstrated in the abstract.
+- The claim that different condensates "share similar sets of chemical environments but at different populations" is stated without supporting evidence.

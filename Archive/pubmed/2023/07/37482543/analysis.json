@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37482543",
+  "title": "Enzyme stabilization and thermotolerance function of the intrinsically disordered LEA2 proteins from date palm.",
+  "authors": "Aziz, Mughair Abdul; Sabeem, Miloofer; Kutty, M Sangeeta; Rahman, Shafeeq; Alneyadi, Maitha Khalfan; Alkaabi, Alia Binghushoom; Almeqbali, Eiman Saeed; Brini, Faical; Vijayan, Ranjit; Masmoudi, Khaled",
+  "journal": "Scientific reports",
+  "published_date": "2023-07-24",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究枣椰树LEA2无序蛋白对两种酶的热稳定保护功能，涉及IDP对象和酶互作，但互作对象为酶而非PPI，且方法以实验表征为主，缺乏AI或物理模拟建模，故综合评分为5。",
+  "abstract": "In date palm, the LEA2 genes are of abundance with sixty-two members that are nearly all ubiquitous. However, their functions and interactions with potential target molecules are largely unexplored. In this study, five date palm LEA2 genes, PdLEA2.2, PdLEA2.3, PdLEA2.4, PdLEA2.6, and PdLEA2.7 were cloned, sequenced, and three of them, PdLEA2.2, PdLEA2.3, and PdLEA2.4 were functionally characterized for their effects on the thermostability of two distinct enzymes, lactate dehydrogenase (LDH) and beta-glucosidase (bglG) in vitro. Overall, PdLEA2.3 and PdLEA2.4 were moderately hydrophilic, PdLEA2.7 was slightly hydrophobic, and PdLEA2.2 and PdLEA2.6 were neither. Sequence and structure prediction indicated the presence of a stretch of hydrophobic residues near the N-terminus that could potentially form a transmembrane helix in PdLEA2.2, PdLEA2.4, PdLEA2.6 and PdLEA2.7. In addition to the transmembrane helix, secondary and tertiary structures prediction showed the presence of a disordered region followed by a stacked beta-sheet region in all the PdLEA2 proteins. Moreover, three purified recombinant PdLEA2 proteins were produced in vitro, and their presence in the LDH enzymatic reaction enhanced the activity and reduced the aggregate formation of LDH under the heat stress. In the bglG enzymatic assays, PdLEA2 proteins further displayed their capacity to preserve and stabilize the bglG enzymatic activity.",
+  "abstract_zh": "在椰枣中，LEA2基因数量丰富，共有62个成员，几乎全部普遍存在。然而，它们的功能及与潜在靶分子的相互作用在很大程度上尚未被探索。本研究克隆并测序了五个椰枣LEA2基因，即PdLEA2.2、PdLEA2.3、PdLEA2.4、PdLEA2.6和PdLEA2.7，并对其中的三个基因PdLEA2.2、PdLEA2.3和PdLEA2.4进行了功能表征，以评估它们对两种不同酶——乳酸脱氢酶（LDH）和β-葡萄糖苷酶（bglG）在体外的热稳定性的影响。总体而言，PdLEA2.3和PdLEA2.4呈中等亲水性，PdLEA2.7呈轻微疏水性，而PdLEA2.2和PdLEA2.6则两者皆非。序列和结构预测表明，在PdLEA2.2、PdLEA2.4、PdLEA2.6和PdLEA2.7的N端附近存在一段疏水残基，可能形成跨膜螺旋。除跨膜螺旋外，二级和三级结构预测显示，所有PdLEA2蛋白均含有一个无序区域，随后是一个堆叠的β-折叠区域。此外，在体外生成了三种纯化的重组PdLEA2蛋白，它们在LDH酶促反应中的存在增强了LDH的活性，并减少了热应激下LDH的聚集体形成。在bglG酶促测定中，PdLEA2蛋白进一步展示了其保持和稳定bglG酶活性的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37482543/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37482543/",
+  "paper_page_path": "papers/pubmed/37482543/index.html"
+}

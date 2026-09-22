@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40530727",
+  "title": "Clustering-based Method for Constructing the Phase Diagram of the van der Waals Model Fluid.",
+  "authors": "Pham, Dinh Quoc Huy; Anila, Midhun Mohan; Chwastyk, Mateusz",
+  "journal": "Current protein & peptide science",
+  "published_date": "2025-06-18",
+  "window": {
+    "start": "2025-06-16",
+    "end": "2025-06-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于SPACEBALL聚类和团簇监测的MD模拟方法，从轨迹构建范德华流体的相图（双节线与旋节线），为无序蛋白相分离/凝聚体在缺乏状态方程时的相图构建提供了可迁移的物理模拟方法，但对象为模型流体而非IDP/PPI，互作机制深度有限。",
+  "abstract": "INTRODUCTION: Membraneless organelles, such as nucleoli, stress granules, and P-bodies, are not enclosed by lipid membranes; rather, they are formed through a process known as liquid-liquid phase separation. To fully understand the biophysics behind the formation and regulation of these organelles, knowledge that has significant implications for cellular biology and disease research, the creation of phase diagrams is essential. Phase diagrams help clarify the physical and chemical conditions under which these organelles form, exist, and function within cells. However, methods for creating phase diagrams are often limited when the equation of state is unknown, a challenge that becomes more pronounced with increasing system complexity. While several methods exist to address this issue, their application is not universal. METHODS: We present a new method based on the SPACEBALL algorithm and cluster size monitoring, which enables the determination of binodal and spinodal line positions by analyzing system clustering during molecular dynamics simulations of a well-studied van der Waals fluid under various conditions. RESULTS: Based on an analysis of the system's clustering behavior, we constructed the phase diagram for the monoatomic van der Waals fluid simulated at various densities and temperatures, observing that uniformly distributed van der Waals beads aggregate, causing changes in the system's density. DISCUSSION: Using the generated data, we discuss how a fitting function can be used to determine the binodal line location, and how observations of the system's density fluctuations can be used to determine the spinodal line location and assess the critical temperature. CONCLUSION: We have presented alternative methods for locating phase boundaries in protein solutions, where the absence of a validated equation of state necessitates innovative approaches and makes traditional methods challenging to apply. Our SPACEBALL-based approach enables the creation of phase diagrams using pure trajectories obtained from molecular dynamics simulations.",
+  "abstract_zh": "引言：无膜细胞器，如核仁、应激颗粒和P-小体，并非由脂质膜包裹；相反，它们通过一种称为液-液相分离（liquid-liquid phase separation）的过程形成。为了全面理解这些细胞器形成和调控背后的生物物理学，这一知识对细胞生物学和疾病研究具有重要意义，构建相图（phase diagrams）至关重要。相图有助于阐明这些细胞器在细胞内形成、存在和发挥功能的物理和化学条件。然而，当状态方程未知时，构建相图的方法往往受限，这一挑战随着系统复杂性的增加而变得更加突出。尽管存在多种方法来解决此问题，但其应用并非普遍适用。方法：我们提出了一种基于SPACEBALL算法和簇大小监测的新方法，通过分析在不同条件下对一种研究充分的范德瓦尔斯流体（van der Waals fluid）进行分子动力学（molecular dynamics）模拟过程中的系统聚类，从而能够确定双节线（binodal）和旋节线（spinodal）的位置。结果：基于对系统聚类行为的分析，我们构建了在不同密度和温度下模拟的单原子范德瓦尔斯流体的相图，观察到均匀分布的范德瓦尔斯珠粒发生聚集，导致系统密度发生变化。讨论：利用生成的数据，我们讨论了如何使用拟合函数来确定双节线位置，以及如何通过观察系统密度波动来确定旋节线位置并评估临界温度。结论：我们提出了在蛋白质溶液中定位相边界的替代方法，在这些系统中，缺乏经过验证的状态方程需要创新方法，使得传统方法难以应用。我们基于SPACEBALL的方法能够利用从分子动力学模拟中获得的纯轨迹来构建相图。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40530727/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40530727/",
+  "paper_page_path": "papers/pubmed/40530727/index.html"
+}

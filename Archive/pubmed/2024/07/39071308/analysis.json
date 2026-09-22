@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39071308",
+  "title": "Controlled and orthogonal partitioning of large particles into biomolecular condensates.",
+  "authors": "Kelley, Fleurie M; Ani, Anas; Pinlac, Emily G; Linders, Bridget; Favetta, Bruna; Barai, Mayur; Ma, Yuchen; Singh, Arjun; Dignon, Gregory L; Gu, Yuwei; Schuster, Benjamin S",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-07-29",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过聚合物纳米颗粒表面化学修饰与粗粒化分子动力学模拟，研究大颗粒在生物分子凝聚体中的可控分配机制，虽对象为合成颗粒而非天然IDP，但聚焦凝聚体互作机制建模，对无序蛋白介导的PPI与相分离机制研究有方法学启发。",
+  "abstract": "Biomolecular condensates arising from liquid-liquid phase separation contribute to diverse cellular processes, such as gene expression. Partitioning of client molecules into condensates is critical to regulating the composition and function of condensates. Previous studies suggest that client size limits partitioning, with dextrans >5 nm excluded from condensates. Here, we asked whether larger particles, such as macromolecular complexes, can partition into condensates based on particle-condensate interactions. We sought to discover the biophysical principles that govern particle inclusion in or exclusion from condensates using polymer nanoparticles with tailored surface chemistries as models of macromolecular complexes. Particles coated with polyethylene glycol (PEG) did not partition into condensates. We next leveraged the PEGylated particles as an inert platform to which we conjugated specific adhesive moieties. Particles functionalized with biotin partitioned into condensates containing streptavidin, driven by high-affinity biotin-streptavidin binding. Oligonucleotide-decorated particles exhibited varying degrees of partitioning into condensates, depending on condensate composition. Partitioning of oligonucleotide-coated particles was tuned by altering salt concentration, oligonucleotide length, and oligonucleotide surface density. Remarkably, beads with distinct surface chemistries partitioned orthogonally into immiscible condensates. Based on our experiments, we conclude that arbitrarily large particles can controllably partition into biomolecular condensates given sufficiently strong condensate-particle interactions, a conclusion also supported by our coarse-grained molecular dynamics simulations and theory. These findings may provide insights into how various cellular processes are achieved based on partitioning of large clients into biomolecular condensates, as well as offer design principles for the development of drug delivery systems that selectively target disease-related biomolecular condensates.",
+  "abstract_zh": "由液-液相分离 (liquid-liquid phase separation) 产生的生物分子凝聚体 (biomolecular condensates) 参与多种细胞过程，例如基因表达。客户分子分配到凝聚体中对调节凝聚体的组成和功能至关重要。先前研究表明，客户大小限制分配，其中分子量大于5纳米的葡聚糖被排除在凝聚体之外。在此，我们探讨了是否更大的颗粒，如大分子复合物，能基于颗粒-凝聚体相互作用分配到凝聚体中。我们旨在利用具有定制表面化学性质的聚合物纳米颗粒作为大分子复合物的模型，发现控制颗粒进入或排除于凝聚体的生物物理原理。涂覆有聚乙二醇 (polyethylene glycol, PEG) 的颗粒未分配到凝聚体中。接下来，我们利用PEG化颗粒作为惰性平台，将特定粘附基团偶联其上。功能化生物素的颗粒分配到含有链霉亲和素的凝聚体中，由高亲和力的生物素-链霉亲和素结合驱动。寡核苷酸修饰的颗粒表现出不同程度的分配到凝聚体中，这取决于凝聚体组成。寡核苷酸包被颗粒的分配通过改变盐浓度、寡核苷酸长度和寡核苷酸表面密度来调节。值得注意的是，具有不同表面化学性质的珠子正交分配到不混溶的凝聚体中。基于我们的实验，我们得出结论，在足够强的凝聚体-颗粒相互作用下，任意大的颗粒可受控分配到生物分子凝聚体中，这一结论也得到我们粗粒化分子动力学 (coarse-grained molecular dynamics) 模拟和理论的支持。这些发现可能为理解基于大客户分子分配到生物分子凝聚体中的各种细胞过程提供见解，并为开发选择性靶向疾病相关生物分子凝聚体的药物递送系统提供设计原则。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39071308/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39071308/",
+  "paper_page_path": "papers/pubmed/39071308/index.html"
+}

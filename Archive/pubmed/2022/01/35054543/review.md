@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodological soundness, computational claims, and presentation quality as presented in the manuscript
+- **Shared manuscript claim summary** The authors use coarse-grained dissipative particle dynamics (DPD) simulations to explore equilibrium morphologies of a model disordered protein interacting with a two-component lipid membrane. They report wetting, phase-separated droplets bound to membrane domains, and reversible coupling between bulk phase separation and membrane domain formation. They also present a novel compute architecture (POETS) that accelerates DPD simulations and validate their small-system results with larger simulations on this hardware.
+- **Visible evidence base** Full text including Methods (Sections 2.1, 2.2), Results (Sections 3.1–3.4), Discussion (Section 4), Conclusions (Section 5), Figures 1–11 (referenced), Tables 1–2 (referenced), Supplementary Videos S1–S9 (referenced)
+- **Missing materials affecting confidence** Figures and tables are referenced but not provided in the submitted text. Supplementary videos are referenced but not available for review. Performance data in Table 2 is described but not shown. No simulation parameter tables beyond those mentioned in text are provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and timely biophysical question: how bulk phase separation of disordered proteins couples to membrane domain formation. The simulation model is simple but appropriate for a qualitative exploration. The results are plausible and the morphology diagram is a useful summary. However, the manuscript has significant weaknesses in quantitative analysis, validation, and presentation. The computational claims regarding POETS are interesting but not rigorously substantiated with the data provided. The writing is sometimes unclear and the structure is unconventional for a research article. The work is likely of interest to the computational biophysics and soft matter communities, but the current form does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, soft matter physics, and membrane biology would be interested. The morphology diagram and the demonstration of reversible coupling between protein phase separation and membrane domain formation are conceptually valuable. The POETS hardware demonstration may interest computational scientists working on high-performance simulation methods.
+- **Major strengths** The study addresses a relevant and under-explored question. The model is simple and transparent. The morphology diagram (Figure 8) is a clear and useful summary. The demonstration of reversible coupling is a nice conceptual result. The interdisciplinary angle (biophysics driving hardware development) is commendable and potentially impactful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative analysis
+  - **Claim pointer** The authors claim to have "qualitatively explored" equilibrium morphologies and present a morphology diagram, but no quantitative measures are provided to support the classification of morphologies or the boundaries between them.
+  - **Evidence pointer** Section 3.1, Figure 8
+  - **Concern** The morphology diagram is presented as a key result, but the criteria for classifying a state as "dispersed," "wetting," "droplet," etc. are not defined quantitatively. No order parameters, cluster size distributions, or other metrics are reported. The boundaries in the diagram appear to be drawn by eye. This makes the results difficult to reproduce or compare with future work.
+  - **Why it matters** Without quantitative definitions, the morphology diagram is subjective and cannot be validated or extended by others. This undermines the scientific value of the central result.
+  - **Resolution test** Provide quantitative order parameters (e.g., cluster size, domain area fraction, contact number) and show how they vary across the parameter space. Define thresholds for each morphology class.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation
+  - **Claim pointer** The authors state that POETS-DPD results "confirm the observations" from smaller conventional simulations, and that "each platform provides consistent results."
+  - **Evidence pointer** Section 3.4, Figure 11, Section 5
+  - **Concern** The comparison between small-system OSPREY-DPD and large-system POETS-DPD results is only shown visually in Figure 11. No quantitative comparison is provided. It is unclear whether the two platforms produce statistically equivalent results, or whether the observed similarity is merely qualitative. The claim of "consistent results" is therefore not rigorously supported.
+  - **Why it matters** The validation of POETS-DPD against an established code is a central claim of the paper. Without quantitative comparison, the reader cannot assess whether the new hardware produces correct results.
+  - **Resolution test** Provide quantitative comparison of key observables (e.g., domain size, density profiles, radial distribution functions) between OSPREY-DPD and POETS-DPD for the same system. Report statistical measures of agreement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational claims
+  - **Claim pointer** The authors claim a "speedup of more than a factor of 40" for POETS-DPD compared to conventional DPD, and present performance and power consumption comparisons in Table 2.
+  - **Evidence pointer** Section 1, Section 4, Table 2
+  - **Concern** The performance comparison is presented in a table that is not provided in the submitted text. The methodology for measuring performance is described only briefly. It is unclear whether the comparison is apples-to-apples (same system, same number of steps, same precision, same force field). The power consumption figures are described as "indicative" but no measurement methodology is given.
+  - **Why it matters** Performance claims are a key motivation for the POETS work. Without clear methodology and data, these claims cannot be evaluated or reproduced.
+  - **Resolution test** Provide the full Table 2 with clear definitions of all metrics. Describe the measurement methodology in detail, including hardware configurations, software versions, and simulation parameters. Discuss potential sources of bias in the comparison.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The authors suggest the results are relevant to cellular processes such as T cell receptor signaling and membrane domain formation.
+  - **Evidence pointer** Section 1, Section 4
+  - **Concern** The model is highly simplified: the protein is a generic telechelic polymer, the membrane is a two-component ideal mixture, and the timescales are short. The connection to real biological systems is asserted but not developed. No attempt is made to map simulation parameters to physical values or to discuss the limitations of the model in biological terms.
+  - **Why it matters** The biological framing is a major motivation for the work. Without a clear discussion of the model's limitations and its relationship to real systems, the relevance to cellular biology remains speculative.
+  - **Resolution test** Add a section discussing the mapping of simulation parameters to physical scales, the simplifications made, and the specific biological scenarios where the model might apply or fail.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, POETS algorithm description
+  - **Issue** The algorithm description is confusing. The two phases are labeled "Force calculation" and "Bead movement," but the sub-steps are not clearly separated. The notation "aSharing" and "bIntegration" is unclear.
+  - **Required correction** Rewrite the algorithm description with clear numbered steps and consistent terminology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1, Table 1
+  - **Issue** The simulation parameters are described in text, but the full parameter set is not provided in a machine-readable format. The equilibration protocol is not described in detail.
+  - **Required correction** Provide a table of all simulation parameters, including system size, number of steps, equilibration time, and any additional parameters not listed in Table 1.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, Figure 4
+  - **Issue** The text states "In the following figures, the left panel shows the whole system while the right panel shows just the membrane for clarity." This is helpful, but it is not clear whether this convention is consistent across all figures.
+  - **Required correction** State the convention explicitly in each figure caption.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 1
+  - **Evidence pointer** Section 1, Introduction
+  - **Issue** The introduction cites relevant literature but does not clearly position this work relative to existing simulation studies of protein-membrane interactions or phase separation.
+  - **Required correction** Add a brief paragraph explicitly comparing this work to prior simulation studies and stating the novel contribution.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Throughout
+  - **Evidence pointer** Various sections
+  - **Issue** There are several grammatical errors and awkward phrasings (e.g., "POET-DPD executes in in two phases", "The upper panel shows the equilibrium state in the small simulation box").
+  - **Required correction** Careful proofreading and language editing.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative morphology classification) and R1-M2 (quantitative validation of POETS-DPD) are the most critical. Without these, the central scientific and computational claims are not fully supported.
+- **Assessment against Nature-style criteria** Originality: The question of coupling between bulk protein phase separation and membrane domain formation is timely and the model approach is reasonable, but similar ideas have been explored in other contexts. The work is moderately original. Scientific importance: The results are conceptually interesting but largely qualitative. The potential implications for cellular biology are not developed. Interdisciplinary readership: The biophysics- hardware interface is unusual and could attract interest from both communities, but the presentation is not sufficiently clear for a broad audience. Technical soundness: The DPD methodology is standard, but the lack of quantitative analysis and validation is a significant weakness. Readability for nonspecialists: The manuscript is not easily accessible to nonspecialists due to unclear writing and insufficient context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The scientific question is worth pursuing and the qualitative results are plausible, but the manuscript requires substantial revision to provide quantitative support for the morphology diagram, rigorous validation of the POETS-DPD results, and clearer presentation.
+
+## Risk / unsupported claims
+- The claim of "consistent results" between OSPREY-DPD and POETS-DPD is not quantitatively supported.
+- The speedup claim of "more than a factor of 40" is not verifiable without the full performance data and methodology.
+- The morphology diagram (Figure 8) is presented without quantitative definitions of the morphology classes.
+- The biological relevance of the model is asserted but not supported by any mapping to physical parameters or discussion of limitations.
+- The claim that POETS-DPD "provides functionally correct answers" is not validated beyond visual comparison.

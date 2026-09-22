@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or full text were provided
+- **Shared manuscript claim summary** The authors propose a method to predict and interpret MAS NMR peak shapes for frozen regions of intrinsic disorder under DNP conditions, using dihedral angle populations, and demonstrate it on alpha-synuclein. They claim the approach yields experimental structural restraints for intrinsically disordered regions in simplified and biological settings, complementing or surpassing diffraction, solution NMR, and molecular dynamics methods limited by molecular size.
+- **Visible evidence base** Abstract text only; no experimental data, spectra, simulations, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, figures, tables, methods, statistical analyses, and any supporting data; without these, the technical validity and reproducibility of the claims cannot be assessed
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially valuable approach for structural studies of intrinsically disordered proteins under DNP conditions. However, the provided material is insufficient to evaluate the scientific claims. The core assertion that peak shapes can be predicted and interpreted in terms of dihedral angle populations is plausible but unsubstantiated in the abstract. The demonstration on alpha-synuclein is mentioned without any quantitative results, controls, or comparisons. The broader claim about providing information that eludes other methods is not supported by the evidence presented. The work may be of interest to the solid-state NMR and IDP communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in solid-state NMR spectroscopy, particularly those applying DNP to biological systems, and structural biologists studying intrinsically disordered proteins in native or cellular contexts. The method could offer a new route to obtain conformational restraints for IDPs that are difficult to access by solution NMR or cryo-EM due to size or dynamics.
+- **Major strengths** The problem addressed is timely and relevant, as DNP-enhanced MAS NMR is increasingly used for in-cell and native-context studies, and peak broadening for IDPs is a recognized limitation. The proposed link between peak shapes and dihedral angle populations is a creative idea that could provide a practical framework for extracting structural information from broadened spectra. The choice of alpha-synuclein as a demonstration system is appropriate given its biological importance and well-studied disorder.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method can predict and interpret peak shapes for frozen regions of intrinsic disorder in terms of dihedral angle populations.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on how the prediction is performed, what model or algorithm is used, how dihedral angle populations are derived, or how the prediction is validated against experimental spectra. No quantitative metrics (e.g., correlation coefficients, residuals) are given.
+  - **Why it matters** Without a clear description of the method and its validation, the central claim is not testable. The scientific value hinges on whether the predicted peak shapes accurately reproduce experimental data, which cannot be assessed from the abstract.
+  - **Resolution test** Provide a detailed methods section describing the prediction algorithm, input parameters, and validation procedure. Include quantitative comparisons between predicted and experimental peak shapes for alpha-synuclein, with error estimates and statistical significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The approach can be used to obtain experimental structural restraints for regions of intrinsic disorder in both simplified and biological settings, providing information that eludes characterization by diffraction-based methods as well as solution-state NMR spectroscopy and molecular dynamics due to molecular size limitations.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims broad applicability and superiority over existing methods, but no evidence is presented for performance in biological settings or for comparisons with other techniques. The claim that the method provides information eluding other methods is unsupported.
+  - **Why it matters** The significance of the work depends on demonstrating that the method works beyond a single simplified case and offers unique advantages. Overstating applicability without evidence undermines the credibility of the conclusions.
+  - **Resolution test** Include experimental results from at least one biological context (e.g., in-cell or membrane-associated conditions) and direct comparisons with solution NMR or MD-derived data, showing where the method provides new or complementary information.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The method is demonstrated using the protein alpha-synuclein.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No experimental details are given, such as sample preparation, DNP conditions, magnetic field, temperature, or data processing. The reproducibility of the demonstration cannot be evaluated.
+  - **Why it matters** Reproducibility is a core requirement for any methodological advance. Without these details, other groups cannot replicate the work or apply the method to their own systems.
+  - **Resolution test** Provide full experimental and computational details in the methods section, including all parameters necessary for replication.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms like "DNP," "MAS NMR," and "dihedral angle populations" without brief definitions or context, which may limit accessibility to a broader structural biology audience.
+  - **Required correction** Add a short phrase explaining DNP and MAS NMR (e.g., "dynamic nuclear polarization, a technique that enhances NMR sensitivity") and clarify what dihedral angle populations refer to in this context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "particularly for for regions of intrinsic disorder" contains a typographical error ("for for").
+  - **Required correction** Correct the typo to "particularly for regions of intrinsic disorder."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the specific findings or outcomes of the alpha-synuclein demonstration, such as which regions were analyzed or what structural insights were obtained.
+  - **Required correction** Include a brief summary of the key results from the alpha-synuclein study, such as the identified dihedral angle populations or how the method improved peak interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The method's validity, applicability, and reproducibility are not established from the abstract alone.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of linking DNP-induced peak shapes to dihedral angle populations appears novel and potentially creative, but the abstract does not provide enough detail to confirm novelty relative to existing IDP NMR approaches.
+  - Scientific importance: The problem is important for structural biology of IDPs in native contexts, but the claimed broad applicability is not evidenced.
+  - Interdisciplinary readership: The work may appeal to NMR spectroscopists, structural biologists, and biophysicists, but the abstract's technical jargon may limit broader appeal.
+  - Technical soundness: Not assessable from the abstract; no data or methods are provided.
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with DNP and MAS NMR; minor improvements could enhance accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising, but the abstract alone does not support the central claims. A full manuscript with detailed methods, validation, and comparisons is required to assess technical soundness and significance. I would be supportive if the technical concerns are resolved in the full paper.
+
+## Risk / unsupported claims
+- The claim that the method can predict and interpret peak shapes in terms of dihedral angle populations is unsupported without validation data.
+- The claim that the approach provides information eluding diffraction, solution NMR, and molecular dynamics is unsupported without comparative evidence.
+- The claim of applicability in biological settings is unsupported without experimental demonstration.
+- The demonstration on alpha-synuclein is mentioned but not substantiated with any results.

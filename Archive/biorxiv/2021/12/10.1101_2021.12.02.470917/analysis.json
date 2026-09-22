@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.12.02.470917",
+  "title": "PEPPI: Whole-proteome protein-protein interaction prediction through structure and sequence similarity, functional association, and machine learning",
+  "authors": "Eric W. Bell; Jacob H. Schwartz; Peter L. Freddolino; Yang Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-03",
+  "window": {
+    "start": "2021-11-29",
+    "end": "2021-12-05"
+  },
+  "score": 6,
+  "one_liner_zh": "PEPPI通过结构/序列相似性、功能关联和朴素贝叶斯机器学习进行全蛋白质组PPI预测，虽非IDP特异且机制建模较浅，但其整合多源特征预测互作的思路对无序蛋白互作预测有可迁移启发。",
+  "abstract": "Proteome-wide identification of protein-protein interactions is a formidable task which has yet to be sufficiently addressed by experimental methodologies. Many computational methods have been developed to predict proteome-wide interaction networks, but few leverage both the sensitivity of structural information and the wide availability of sequence data. We present PEPPI, a pipeline which integrates structural similarity, sequence similarity, functional association data, and machine learning-based classification through a naïve Bayesian classifier model to accurately predict protein-protein interactions at a proteomic scale. Through benchmarking against a set of 798 ground truth interactions and an equal number of noninteractions, we have found that PEPPI attains 4.5% higher AUROC than the best of other state-of-the-art methods. As a proteomic-scale application, PEPPI was applied to model the interactions which occur between SARS-CoV-2 and human host cells during coronavirus infection, where 403 high-confidence interactions were identified with predictions covering 73% of a gold standard dataset from PSICQUIC and demonstrating significant complementarity with the most recent high-throughput experiments. PEPPI is available both as a webserver and in a standalone version and should be a powerful and generally applicable tool for computational screening of protein-protein interactions.",
+  "abstract_zh": "全蛋白质组范围内的蛋白质-蛋白质相互作用鉴定是一项艰巨任务，尚未通过实验方法得到充分解决。许多计算方法已被开发用于预测全蛋白质组相互作用网络，但很少有方法能同时利用结构信息的敏感性和序列数据的广泛可用性。我们提出PEPPI，这是一个整合结构相似性、序列相似性、功能关联数据以及基于机器学习分类的朴素贝叶斯分类器模型的流程，以在蛋白质组尺度上准确预测蛋白质-蛋白质相互作用。通过针对798个真实相互作用和同等数量非相互作用的基准测试，我们发现PEPPI的AUROC比最佳的其他先进方法高出4.5%。作为蛋白质组尺度的应用，PEPPI被用于模拟冠状病毒感染期间SARS-CoV-2与人类宿主细胞之间发生的相互作用，其中识别出403个高置信度相互作用，预测覆盖了PSICQUIC中金标准数据集的73%，并显示出与最新高通量实验的显著互补性。PEPPI可作为网络服务器和独立版本使用，应成为计算筛选蛋白质-蛋白质相互作用的强大且普遍适用的工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.12.02.470917",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.12.02.470917",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.12.02.470917/index.html"
+}

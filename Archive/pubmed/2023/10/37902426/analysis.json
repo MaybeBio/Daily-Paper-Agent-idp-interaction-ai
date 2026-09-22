@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37902426",
+  "title": "The dual-action mechanism of Arabidopsis cryptochromes.",
+  "authors": "Qu, Gao-Ping; Jiang, Bochen; Lin, Chentao",
+  "journal": "Journal of integrative plant biology",
+  "published_date": "2023-10-30",
+  "window": {
+    "start": "2023-10-30",
+    "end": "2023-11-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该综述分析拟南芥隐花色素CRY与84种蛋白互作的光调控机制，提出Lock-and-Key与LLPS双机制，涉及IDR/相分离背景但缺乏AI或物理模拟方法，机制深度有限。",
+  "abstract": "Photoreceptor cryptochromes (CRYs) mediate blue-light regulation of plant growth and development. It has been reported that Arabidopsis CRY1and CRY2 function by physically interacting with at least 84 proteins, including transcription factors or co-factors, chromatin regulators, splicing factors, messenger RNA methyltransferases, DNA repair proteins, E3 ubiquitin ligases, protein kinases and so on. Of these 84 proteins, 47 have been reported to exhibit altered binding affinity to CRYs in response to blue light, and 41 have been shown to exhibit condensation to CRY photobodies. The blue light-regulated composition or condensation of CRY complexes results in changes of gene expression and developmental programs. In this mini-review, we analyzed recent studies of the photoregulatory mechanisms of Arabidopsis CRY complexes and proposed the dual mechanisms of action, including the \"Lock-and-Key\" and the \"Liquid-Liquid Phase Separation (LLPS)\" mechanisms. The dual CRY action mechanisms explain, at least partially, the structural diversity of CRY-interacting proteins and the functional diversity of the CRY photoreceptors.",
+  "abstract_zh": "光受体隐花色素（CRYs）介导蓝光对植物生长发育的调控。已有报道称，拟南芥CRY1和CRY2通过至少与84种蛋白质发生物理相互作用而发挥功能，这些蛋白质包括转录因子或辅助因子、染色质调控因子、剪接因子、信使RNA甲基转移酶、DNA修复蛋白、E3泛素连接酶、蛋白激酶等。在这84种蛋白质中，已有47种被报道在响应蓝光时对CRYs的结合亲和力发生改变，41种被显示会凝聚形成CRY光体。蓝光调控的CRY复合物组成或凝聚导致基因表达和发育程序的变化。在本篇小型综述中，我们分析了近期关于拟南芥CRY复合物光调控机制的研究，并提出了双重作用机制，包括“锁钥”机制和“液-液相分离 (LLPS)”机制。双重CRY作用机制至少部分解释了CRY相互作用蛋白的结构多样性和CRY光受体的功能多样性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37902426/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37902426/",
+  "paper_page_path": "papers/pubmed/37902426/index.html"
+}

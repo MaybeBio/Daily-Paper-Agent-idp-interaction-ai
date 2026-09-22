@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.01.18.576271",
+  "title": "A Multiscale approach reveals the molecular architecture of the autoinhibited kinesin KIF5A",
+  "authors": "Carrington G; Fatima U; Caramujo I; Lewis T; Casas-Mao D; Peckham M",
+  "journal": "bioRxiv",
+  "published_date": "2024-01-18",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究结合负染电镜、交联质谱与AlphaFold2，解析全长自抑制驱动蛋白KIF5A的分子架构，虽对象非IDP，但多尺度建模互作机制的方法对本课题有可迁移启发。",
+  "abstract": "Kinesin-1 is a microtubule motor that transports cellular cargo along microtubules. KIF5A is one of three kinesin-1 isoforms in humans, all of which are autoinhibited by an interaction between the motor and an IAK motif in the proximal region of the C-terminal tail. The C-terminal tail of KIF5A is ∼80 residues longer than the other two kinesin-1 isoforms (KIF5B and KIF5C) and it is unclear if it contributes to autoinhibition. Mutations in KIF5A cause neuronal diseases and could affect autoinhibition, as reported for a mutation that skips exon 27, altering its C-terminal sequence. Here, we combined negative-stain electron microscopy, crosslinking mass spectrometry (XL-MS) and AlphaFold2 structure prediction to determine the molecular architecture of the full-length autoinhibited KIF5A homodimer, in the absence of light chains. We show that KIF5A forms a compact, bent conformation, through a bend between coiled coils 2 and 3, around P687. XL-MS of WT KIF5A revealed extensive interactions between residues in the motor, between coiled-coil 1 and the motor, between coiled-coils 1 and 2, with coiled coils 3 and 4, and the proximal region of the C-terminal tail and the motor in the autoinhibited state, but not between the distal C-terminal region and the rest of the molecule. While negative stain electron microscopy of exon-27 KIF5A splice mutant showed the presence of autoinhibited molecules, XL-MS analysis suggested that its autoinhibited state is more labile. Our model offers a conceptual framework for understanding how mutations within the motor and stalk domain may affect motor activity.",
+  "abstract_zh": "Kinesin-1是一种微管马达蛋白，负责沿微管运输细胞货物。KIF5A是人类中三种kinesin-1亚型之一，所有这些亚型均通过马达结构域与C末端尾部近端区域中的IAK基序之间的相互作用而自我抑制。KIF5A的C末端尾部比其他两种kinesin-1亚型（KIF5B和KIF5C）长约80个残基，目前尚不清楚其是否参与自我抑制。KIF5A中的突变可导致神经元疾病，并可能影响自我抑制，如报道中跳过外显子27的突变改变其C末端序列所示。在此，我们结合负染色电子显微镜、交联质谱（XL-MS）和AlphaFold2结构预测，确定了无轻链状态下全长自我抑制KIF5A同源二聚体的分子结构。我们显示，KIF5A通过卷曲螺旋2和3之间围绕P687的弯曲，形成紧凑的弯曲构象。野生型KIF5A的XL-MS分析揭示了马达结构域内残基之间、卷曲螺旋1与马达结构域之间、卷曲螺旋1和2之间、卷曲螺旋3和4之间，以及C末端尾部近端区域与马达结构域在自我抑制状态下的广泛相互作用，但未发现远端C末端区域与分子其余部分之间的相互作用。虽然外显子27 KIF5A剪接突变体的负染色电子显微镜显示存在自我抑制分子，但XL-MS分析表明其自我抑制状态更不稳定。我们的模型为理解马达结构域和茎部结构域内的突变如何影响马达活性提供了概念框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.01.18.576271",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.01.18.576271",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.01.18.576271/index.html"
+}

@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report structural characterisation of two DPF3 isoforms, DPF3b and DPF3a, showing both are intrinsically disordered proteins that time-dependently aggregate into amyloid fibrils, with DPF3a more disordered, more expanded, and fibrillating faster than DPF3b, likely via reordering of its C-terminal domain.
+- **Visible evidence base** Abstract text only; mentions use of predictors, spectroscopy, dynamic light scattering, circular dichroism, deep-blue autofluorescence, and amyloid-dye binding assays, but no numerical data, figures, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, sequence information, and any control experiments; without these, quantitative claims and mechanistic interpretations cannot be verified
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting comparative study of two intrinsically disordered protein isoforms with amyloidogenic properties. The topic is relevant to the fields of protein disorder, amyloid formation, and chromatin-associated proteins. However, the abstract alone provides insufficient detail to evaluate the robustness of the experimental design, the quality of the data, or the validity of the mechanistic conclusions. Several claims, particularly regarding the relative disorder levels and the role of the C-terminal domain in fibrillisation kinetics, are stated without supporting quantitative evidence. The work may be of interest to specialists in IDP biology and amyloid research, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, amyloid fibrillation mechanisms, zinc finger proteins, and chromatin remodelling complexes. The comparative analysis of two isoforms with different disorder propensities and aggregation kinetics could inform understanding of how sequence features dictate IDP behaviour and amyloid formation. The link to the BAF complex may also interest those investigating epigenetic regulation and protein misfolding in disease contexts.
+- **Major strengths** The study addresses a gap in structural knowledge of DPF3 isoforms, which are poorly characterised. The use of multiple complementary biophysical techniques is appropriate for studying IDPs. The comparative design between two isoforms is a useful approach to probe sequence-structure-function relationships. The identification of amyloidogenic behaviour in both isoforms extends previous findings on DPF3a.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that DPF3a is more disordered than DPF3b and exhibits more expanded conformations.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that predictions, spectroscopy, and dynamic light scattering revealed high disorder content and that DPF3a is more disordered and more expanded than DPF3b, but no quantitative data are presented. No numerical values for disorder scores, secondary structure percentages, hydrodynamic radii, or statistical comparisons are given.
+  - **Why it matters** The relative disorder and conformational expansion are central to the study's comparative conclusion. Without quantitative evidence and appropriate statistical analysis, the claim cannot be assessed for validity or significance.
+  - **Resolution test** Provide specific numerical data for disorder predictions, circular dichroism-derived secondary structure estimates, and hydrodynamic diameters for both isoforms, including error bars and statistical tests demonstrating significant differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors claim that DPF3a fibrillates at a faster rate, likely through reordering of its C-terminal domain.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The mechanistic interpretation that faster fibrillisation of DPF3a is due to C-terminal domain reordering is presented without any direct experimental evidence. No data on domain-specific conformational changes, mutagenesis studies, or time-resolved structural analyses are mentioned.
+  - **Why it matters** The proposed mechanism is a key conclusion of the study. Without evidence linking the C-terminal domain to the observed kinetic difference, the claim is speculative and unsupported.
+  - **Resolution test** Include experiments that directly probe the C-terminal domain, such as truncated constructs, site-specific spectroscopy, or hydrogen-deuterium exchange, and show that its reordering correlates with fibrillisation kinetics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors claim that both isoforms time-dependently aggregate into amyloid fibrils, as revealed by typical circular dichroism, deep-blue autofluorescence, and amyloid-dye binding assay fingerprints.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts amyloid fibril formation based on three indirect assays, but no data are shown. The specificity of these assays for amyloid structures, particularly in the context of IDPs, requires careful controls, such as thioflavin T binding kinetics, electron microscopy images, or X-ray diffraction patterns. None are described.
+  - **Why it matters** Amyloid identification is a central claim. Indirect assays can produce false positives or be ambiguous, and the absence of direct structural evidence weakens the conclusion that true amyloid fibrils are formed.
+  - **Resolution test** Provide representative raw data for each assay, including negative controls, and include direct visualisation of fibrils by electron microscopy or atomic force microscopy, with time-course data supporting the claimed kinetics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "amyloidogenic" in the title and "sensitive to amyloid fibrillation" in the abstract are used without clear definition of the operational criteria for amyloidogenicity.
+  - **Required correction** Define what constitutes amyloidogenic behaviour in this context and specify the threshold for calling a protein amyloidogenic.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methodological detail
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "an array of predictors and biophysical techniques" but does not specify which predictors or techniques were used for which measurements.
+  - **Required correction** List the specific prediction tools and experimental methods in the abstract or ensure the full manuscript clearly maps each technique to the corresponding data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Prior work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract references previous work on DPF3a but does not clarify what new information this study adds beyond that prior report.
+  - **Required correction** Explicitly state the novel findings relative to the previous study, such as the comparative analysis with DPF3b or the kinetic differences.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative data, direct structural evidence for amyloid fibrils, and experimental support for the C-terminal domain mechanism means the core claims are not currently verifiable from the supplied material.
+- **Assessment against Nature-style criteria** Originality: The comparative study of two DPF3 isoforms is somewhat novel, but the abstract does not demonstrate a sufficiently distinct advance over prior work on DPF3a. Scientific importance: The findings could be relevant to IDP and amyloid fields, but the significance is not clearly articulated in terms of broader biological or disease implications. Interdisciplinary readership: The topic may appeal to structural biologists, biophysicists, and cell biologists, but the abstract lacks the context needed to engage nonspecialists. Technical soundness: The use of multiple techniques is appropriate, but the lack of presented data and controls prevents assessment of technical rigour. Readability for nonspecialists: The abstract is reasonably clear but uses jargon without sufficient explanation, and the mechanistic claims are not accessible without deeper context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests potentially interesting findings, but the absence of quantitative data, direct amyloid confirmation, and mechanistic support means the case is not made. A revised submission with full experimental details and evidence would be needed to assess the claims properly.
+
+## Risk / unsupported claims
+- The claim that DPF3a is more disordered than DPF3b is unsupported without quantitative data.
+- The claim that DPF3a exhibits more expanded conformations is unsupported without hydrodynamic or other size measurements.
+- The claim that both isoforms form amyloid fibrils is unsupported without direct structural evidence.
+- The claim that DPF3a fibrillates faster than DPF3b is unsupported without time-course data.
+- The mechanistic claim that faster fibrillisation occurs through C-terminal domain reordering is unsupported and speculative.
+- The general statement that both isoforms share a similar aggregation pathway is not verifiable from the abstract.

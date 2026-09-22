@@ -1,0 +1,193 @@
+{
+  "identity": {
+    "pmid": "40091211",
+    "doi": "10.1021/acs.jpcb.4c07728",
+    "title": "Understanding Anti-Polyelectrolyte Effect in Polyzwitterions Using Coarse-Grained Molecular Dynamics Simulations."
+  },
+  "content": {
+    "abstract": "Polyzwitterions (PZs) horizontal line polymers bearing both positive and negative charges within each repeating unit horizontal line exhibit an unusual antipolyelectrolyte effect where their solubility and viscosity increase upon the addition of salt, contrary to typical polyelectrolytes. As model synthetic analogues of intrinsically disordered proteins, PZs in dilute aqueous solutions are expected to adopt either globular or random coil conformations, with salt addition influencing these structures. We employed coarse-grained Langevin dynamics simulations to investigate how structural parameters horizontal line specifically, the spacing between dipolar side chains (d), and the overall polymer chain length (N) horizontal line affect the conformational properties of polyzwitterions in salt solutions. Our simulations reveal that added salt leads to nonmonotonic changes in the polymer's radius of gyration, exhibiting both antipolyelectrolyte and polyelectrolyte effects depending on the salt concentration. This behavior is attributed to charge regulation and screening of dipole-dipole interactions by ions. Understanding and controlling the conformations of PZs in aqueous solutions by adjusting salt concentration is of paramount interest for applications in antimicrobial materials, antifouling coatings, drug delivery, membranes, and polymer electrolytes.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chauhan, Akshay",
+        "Chaudhury, Srabanti"
+      ],
+      "short_names": [
+        "Chauhan A",
+        "Chaudhury S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6718-8886"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Indian Institute of Science Education and Research, Dr. Homi Bhabha Road, Pune 411008 Maharashtra, India.",
+        "Department of Chemistry, Indian Institute of Science Education and Research, Dr. Homi Bhabha Road, Pune 411008 Maharashtra, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chauhan, Akshay",
+        "short_name": "Chauhan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Science Education and Research, Dr. Homi Bhabha Road, Pune 411008 Maharashtra, India."
+        ]
+      },
+      {
+        "full_name": "Chaudhury, Srabanti",
+        "short_name": "Chaudhury S",
+        "identifiers": [
+          "0000-0001-6718-8886"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Science Education and Research, Dr. Homi Bhabha Road, Pune 411008 Maharashtra, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Mar 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/17 15:19",
+    "fetched_at": "2026-09-21 16:45:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40091211",
+      "37424896",
+      "27544126",
+      "38920939",
+      "40224165",
+      "32771806",
+      "17705621",
+      "34410041",
+      "23722188",
+      "26910617",
+      "36314101",
+      "33769787",
+      "17411160",
+      "35709429",
+      "30384680",
+      "30970691",
+      "22830728",
+      "38359799",
+      "37796422",
+      "31808691",
+      "26411726",
+      "16674260",
+      "20025346",
+      "31820991",
+      "17579398",
+      "26018174",
+      "26723618",
+      "14104085",
+      "17461664",
+      "35668586",
+      "39831289",
+      "38904255",
+      "19053684",
+      "30193467",
+      "20192314",
+      "16229618",
+      "29566508",
+      "29399691",
+      "31310250",
+      "30960167",
+      "28742350",
+      "35943182",
+      "23114112",
+      "30553263",
+      "17604391",
+      "30384758",
+      "40222981",
+      "17279652",
+      "28764357",
+      "38532553",
+      "30376714",
+      "26047770",
+      "30106583",
+      "17134228",
+      "17155292",
+      "32506917",
+      "16711850",
+      "17261051",
+      "38648610",
+      "29989128",
+      "30589251",
+      "34807216",
+      "20095707",
+      "20455593",
+      "34412211",
+      "21902229",
+      "30853717",
+      "27598701",
+      "28623782",
+      "24154722",
+      "27131566",
+      "37261758",
+      "31404496",
+      "36018307",
+      "35080232",
+      "34132314",
+      "31034239",
+      "26278070",
+      "17212513",
+      "25319727",
+      "37781214",
+      "34418934",
+      "20158023",
+      "19154053",
+      "39082438",
+      "16853938",
+      "19344142",
+      "25615036",
+      "39125837",
+      "36674958",
+      "24005163",
+      "22148262",
+      "30706070",
+      "16438611",
+      "25375525",
+      "24437914",
+      "29331138",
+      "39185775",
+      "17358511",
+      "35912826"
+    ],
+    "review": [
+      "40091211",
+      "30706070"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.4c07728",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

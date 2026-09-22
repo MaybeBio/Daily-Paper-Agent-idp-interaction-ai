@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "40907012",
+    "doi": "10.1021/acs.jctc.5c00854",
+    "title": "Molecular Dynamics of the Intrinsically Disordered Protein COR15A horizontal line A Force Field Validation on Structure and Dynamics."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) pose a challenge for structural characterization, as experimental methods lack the subnanometer/subnanosecond resolution to capture their dynamic conformational ensembles. Molecular dynamics (MD) simulations can, in principle, provide this information, but for the simulation of IDPs, dedicated protein and water force fields are needed, as traditional MD models for folded proteins prove inadequate for IDPs. Substantial effort was invested to develop IDP-specific force fields, but their performance in describing IDPs that undergo conformational changes horizontal line such as those induced by molecular partner binding or changes in solution environment horizontal line remains underexplored. In this study, we investigated the ability of 20 MD models to accurately simulate structural and dynamic aspects of COR15A, an IDP just on the verge of folding, with a particular focus on their ability to capture subtle structural differences. We employ a two-step approach: (i) validation of short 200 ns simulations against small-angle X-ray scattering (SAXS) data and (ii) detailed evaluation of the six best-performing MD models through extended 1.2 mus MD simulations against nuclear magnetic resonance (NMR) data, including a single-point mutant with slightly increased helicity. Only DES-amber and ff99SBws capture helicity differences between wild-type and mutant, but ff99SBws overestimates helicity. Notably, only DES-amber adequately reproduces the COR15A dynamics, as assessed by NMR relaxation times at two different magnetic field strengths. Among the tested force fields, DES-amber emerges as the best MD model for the simulation of COR15A. Its application provides insights into its dynamic conformational landscape, albeit not perfectly reproducing all experimental data. Our study highlights the need for rigorous force field validation for IDPs and identifies remaining discrepancies in need of further force-field development.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Scattering, Small Angle",
+      "X-Ray Diffraction",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rindfleisch, Tobias",
+        "Nencini, Ricky",
+        "Ollila, O H Samuli",
+        "Walther, Dirk",
+        "Miettinen, Markus S",
+        "Thalhammer, Anja"
+      ],
+      "short_names": [
+        "Rindfleisch T",
+        "Nencini R",
+        "Ollila OHS",
+        "Walther D",
+        "Miettinen MS",
+        "Thalhammer A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0329-0544",
+        "ORCID: 0000-0003-4449-2396",
+        "ORCID: 0000-0002-8728-1006",
+        "ORCID: 0000-0002-3999-4722",
+        "ORCID: 0000-0002-6480-0993"
+      ],
+      "affiliations": [
+        "Computational Biology Unit, Department of Informatics, University of Bergen, 5008 Bergen, Norway.",
+        "Department of Chemistry, University of Bergen, 5007 Bergen, Norway.",
+        "Physical Biochemistry, University of Potsdam, 14476 Potsdam, Germany.",
+        "Max-Planck Institute of Molecular Plant Physiology, 14476 Potsdam, Germany.",
+        "Institute of Biotechnology, University of Helsinki, 00014 Helsinki, Finland.",
+        "Division of Pharmaceutical Biosciences, Faculty of Pharmacy, University of Helsinki, 00790 Helsinki, Finland.",
+        "Institute of Biotechnology, University of Helsinki, 00014 Helsinki, Finland.",
+        "VTT Technical Research Centre of Finland, 02044 Espoo, Finland.",
+        "Max-Planck Institute of Molecular Plant Physiology, 14476 Potsdam, Germany.",
+        "Computational Biology Unit, Department of Informatics, University of Bergen, 5008 Bergen, Norway.",
+        "Department of Chemistry, University of Bergen, 5007 Bergen, Norway.",
+        "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, 14476 Potsdam, Germany.",
+        "Physical Biochemistry, University of Potsdam, 14476 Potsdam, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rindfleisch, Tobias",
+        "short_name": "Rindfleisch T",
+        "identifiers": [
+          "0000-0003-0329-0544"
+        ],
+        "affiliations": [
+          "Computational Biology Unit, Department of Informatics, University of Bergen, 5008 Bergen, Norway.",
+          "Department of Chemistry, University of Bergen, 5007 Bergen, Norway.",
+          "Physical Biochemistry, University of Potsdam, 14476 Potsdam, Germany.",
+          "Max-Planck Institute of Molecular Plant Physiology, 14476 Potsdam, Germany."
+        ]
+      },
+      {
+        "full_name": "Nencini, Ricky",
+        "short_name": "Nencini R",
+        "identifiers": [
+          "0000-0003-4449-2396"
+        ],
+        "affiliations": [
+          "Institute of Biotechnology, University of Helsinki, 00014 Helsinki, Finland.",
+          "Division of Pharmaceutical Biosciences, Faculty of Pharmacy, University of Helsinki, 00790 Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Ollila, O H Samuli",
+        "short_name": "Ollila OHS",
+        "identifiers": [
+          "0000-0002-8728-1006"
+        ],
+        "affiliations": [
+          "Institute of Biotechnology, University of Helsinki, 00014 Helsinki, Finland.",
+          "VTT Technical Research Centre of Finland, 02044 Espoo, Finland."
+        ]
+      },
+      {
+        "full_name": "Walther, Dirk",
+        "short_name": "Walther D",
+        "identifiers": [],
+        "affiliations": [
+          "Max-Planck Institute of Molecular Plant Physiology, 14476 Potsdam, Germany."
+        ]
+      },
+      {
+        "full_name": "Miettinen, Markus S",
+        "short_name": "Miettinen MS",
+        "identifiers": [
+          "0000-0002-3999-4722"
+        ],
+        "affiliations": [
+          "Computational Biology Unit, Department of Informatics, University of Bergen, 5008 Bergen, Norway.",
+          "Department of Chemistry, University of Bergen, 5007 Bergen, Norway.",
+          "Department of Theory and Bio-Systems, Max Planck Institute of Colloids and Interfaces, 14476 Potsdam, Germany."
+        ]
+      },
+      {
+        "full_name": "Thalhammer, Anja",
+        "short_name": "Thalhammer A",
+        "identifiers": [
+          "0000-0002-6480-0993"
+        ],
+        "affiliations": [
+          "Physical Biochemistry, University of Potsdam, 14476 Potsdam, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2025 Sep 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/04 18:34",
+    "fetched_at": "2026-09-21 23:26:34"
+  },
+  "links": {
+    "cites": [
+      "42172087",
+      "41808404"
+    ],
+    "refs": [
+      "39353179",
+      "39099394",
+      "38659213",
+      "37276045",
+      "36084347",
+      "36084124",
+      "35950933",
+      "35793147",
+      "33382616",
+      "32929427",
+      "32661425",
+      "32316452",
+      "31914313",
+      "31548393",
+      "31424463",
+      "30832369",
+      "30186676",
+      "29812937",
+      "29805999",
+      "29735687",
+      "29695158",
+      "29571687",
+      "29160584",
+      "29026044",
+      "28793210",
+      "28483149",
+      "27911701",
+      "27819658",
+      "27557051",
+      "27300592",
+      "27255148",
+      "26632962",
+      "26620784",
+      "26617301",
+      "26606367",
+      "26588601",
+      "26575776",
+      "26574339",
+      "26451841",
+      "26331256",
+      "26320411",
+      "25988244",
+      "25764013",
+      "25721341",
+      "25615859",
+      "25400522",
+      "25352545",
+      "25096979",
+      "24889800",
+      "24815738",
+      "24773235",
+      "24739139",
+      "23901099",
+      "23542743",
+      "23362206",
+      "23341755",
+      "22984159",
+      "22570416",
+      "22455930",
+      "22381384",
+      "22044150",
+      "22034434",
+      "21539772",
+      "21530234",
+      "21514144",
+      "21038907",
+      "20715028",
+      "20628786",
+      "20510170",
+      "20408171",
+      "20117254",
+      "18856071",
+      "17212484",
+      "17109406",
+      "16981200",
+      "16392929",
+      "15697224",
+      "15476259",
+      "15185334",
+      "11381529",
+      "11352588",
+      "11125061",
+      "10550212",
+      "9895674",
+      "7514039",
+      "6667333",
+      "2690953",
+      "1606151"
+    ],
+    "similar": [
+      "40907012",
+      "30840442",
+      "41073429",
+      "30878202",
+      "40060049",
+      "41298416",
+      "32859072",
+      "25207671",
+      "32816485",
+      "31809054",
+      "31402649",
+      "33623120",
+      "29808548",
+      "36641212",
+      "33382616",
+      "37646172",
+      "33078950",
+      "26575776",
+      "40172236",
+      "31424463",
+      "29548755",
+      "26574339",
+      "33355572",
+      "32227937",
+      "32840111",
+      "28448138",
+      "39651234",
+      "30979035",
+      "34817999",
+      "30865820",
+      "34032235",
+      "33444020",
+      "30865832",
+      "31552948",
+      "35377637",
+      "32585849",
+      "31548393",
+      "37108059",
+      "36468450",
+      "31613621",
+      "32074499",
+      "33591749",
+      "26320411",
+      "38928405",
+      "29080468",
+      "26030189",
+      "37990496",
+      "39340152",
+      "40095314",
+      "29571687",
+      "26387105",
+      "34656328",
+      "33459730",
+      "37133846",
+      "34252246",
+      "26387110",
+      "29792674",
+      "37452752",
+      "28805390",
+      "30250773",
+      "32696361",
+      "28095698",
+      "32050065",
+      "34845619",
+      "30204435",
+      "39056166",
+      "36674958",
+      "30091924",
+      "36084124",
+      "33945530",
+      "35912724",
+      "29735687",
+      "41082321",
+      "30876367",
+      "28834051",
+      "39163306",
+      "24589355",
+      "34680048",
+      "39499823",
+      "35725761",
+      "31241933",
+      "38018910",
+      "39642200",
+      "34546059",
+      "40128232",
+      "36533639",
+      "36934808",
+      "36291634",
+      "31657215",
+      "40068541",
+      "31877033",
+      "35950933",
+      "36131545",
+      "32579908",
+      "33574233",
+      "28226222",
+      "33411518",
+      "26387101",
+      "30617833",
+      "34504009"
+    ],
+    "review": [
+      "40907012",
+      "30840442",
+      "33355572",
+      "30979035",
+      "33591749",
+      "26320411",
+      "29080468",
+      "26387105",
+      "26387110",
+      "34680048",
+      "40068541",
+      "28226222",
+      "26387101"
+    ],
+    "pmc": [
+      "12461933"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40907012/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.5c00854",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

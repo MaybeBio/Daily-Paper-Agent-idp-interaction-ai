@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.20.553608",
+  "title": "Improved modeling of RNA-binding protein motifs in an interpretable neural model of RNA splicing",
+  "authors": "Kavi Gupta; Chenxi Yang; Kayla McCue; Osbert Bastani; Phillip A Sharp; Christopher B Burge; Armando Solar-Lezama",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-20",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用可解释神经网络建模RNA剪接中RNA结合蛋白（RBP）的结合基序，对象是RNA结合蛋白而非无序蛋白/IDR，且不涉及PPI或相分离，方法虽为AI但机制建模与本课题（IDR介导的PPI）无直接可迁移启发。",
+  "abstract": "Sequence-specific RNA-binding proteins (RBPs) play central roles in splicing decisions, but their exact binding locations and activities are difficult to predict. Here, we describe a modular splicing architecture that leverages in vitro -derived RNA affinity models for 79 human RBPs and the annotated human genome to produce improved models of RBP binding and activity. Binding and activity are modeled by separate Motif and Aggregator components that can be mixed and matched, enforcing sparsity to improve interpretability. Standard affinity models yielded reasonable predictions, but substantial improvements resulted from using a new Adjusted Motif (AM) architecture. While maintaining accurate modeling of in vitro binding, training these AMs on the splicing task yielded improved predictions of binding sites in vivo and of splicing activity, using independent crosslinking and massively parallel splicing reporter assay data. The modular structure of our model enables improved generalizability to other species (insects, plants) and to exons of different evolutionary ages.",
+  "abstract_zh": "序列特异性RNA结合蛋白（RBPs）在剪接决策中发挥核心作用，但其精确的结合位置和活性难以预测。在此，我们描述了一种模块化剪接架构，该架构利用体外衍生的79种人类RBPs的RNA亲和力模型及注释的人类基因组，以生成改进的RBP结合和活性模型。结合和活性分别由可混合匹配的Motif和Aggregator组件建模，通过强制稀疏性来提高可解释性。标准亲和力模型产生了合理的预测，但使用新的调整Motif（AM）架构带来了显著改进。在保持体外结合准确建模的同时，在剪接任务上训练这些AMs，利用独立的交联和超高通量剪接报告基因检测数据，改进了体内结合位点和剪接活性的预测。我们模型的模块化结构使其能够更好地泛化到其他物种（昆虫、植物）以及不同进化年龄的外显子。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.20.553608",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.20.553608",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.20.553608/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42358499",
+  "title": "Bromodomain dimers: A case study of BRD4 and family-wide AlphaFold predictions.",
+  "authors": "Dengler, Alisa S; Lunglmeir, Lara; Brandl, Matthias J; Alderson, T Reid",
+  "journal": "Structural dynamics (Melville, N.Y.)",
+  "published_date": "2026-06-26",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文结合NMR与AlphaFold预测研究BRD4溴结构域弱二聚化及家族范围内的二聚倾向，虽对象非IDP，但聚焦蛋白-蛋白互作机制建模，方法可迁移至IDR介导的弱互作预测。",
+  "abstract": "Bromodomains are conserved acetyl-lysine reader domains that play a central role in the assembly of transcriptional regulatory complexes. While generally presumed to function as monomers, bromodomain homo-dimers have been identified, and several bromodomain-containing proteins have been linked to biomolecular condensates, where locally elevated concentrations may promote dimerization. Here, we investigated bromodomain dimerization with an integrated approach that combines structural and biophysical measurements with AlphaFold-based predictions across the bromodomain family. Using the second bromodomain (BD2) of BRD4 as a model system, we characterized the thermodynamics and kinetics of its monomer-dimer equilibrium by two-dimensional nuclear magnetic resonance (NMR) lineshape analysis and CPMG relaxation dispersion. We found that the BRD4(BD2) dimer forms transiently with a dissociation constant near 400 muM and a lifetime near 1 ms. Using our NMR-derived restraints, we performed data-driven docking to generate models of the BRD4(BD2) dimer. To assess dimerization propensity across the wider bromodomain family, we leveraged AlphaFold-Multimer and AlphaFold3 to systematically predict homo-dimeric models for all human bromodomains. We identified several predicted dimer architectures, with 15 bromodomain dimers that have higher interface-confidence scores than BRD4(BD2). Overall, our results suggest that weak and reversible dimerization may be more widespread among bromodomains, where it could contribute to function in dynamic transcriptional assemblies.",
+  "abstract_zh": "溴结构域（bromodomains）是保守的乙酰赖氨酸阅读结构域，在转录调控复合物的组装中发挥核心作用。尽管通常被认为以单体形式发挥作用，但溴结构域同源二聚体已被识别，且若干含溴结构域的蛋白质与生物分子凝聚体（biomolecular condensates）相关联，在这些凝聚体中，局部升高的浓度可能促进二聚化。在此，我们采用一种整合方法研究了溴结构域的二聚化，该方法结合了结构测量、生物物理测量以及基于AlphaFold的跨溴结构域家族预测。以BRD4的第二个溴结构域（BD2）作为模型系统，我们通过二维核磁共振（NMR）线形分析和CPMG弛豫色散表征了其单体-二聚体平衡的热力学和动力学。我们发现BRD4(BD2)二聚体瞬时形成，解离常数约为400微摩尔，寿命约为1毫秒。利用我们基于NMR获得的约束，我们进行了数据驱动的对接，以生成BRD4(BD2)二聚体的模型。为了评估更广泛溴结构域家族中的二聚化倾向，我们利用AlphaFold-Multimer和AlphaFold3系统预测了所有人类溴结构域的同源二聚体模型。我们识别出若干预测的二聚体架构，其中15个溴结构域二聚体的界面置信度得分高于BRD4(BD2)。总体而言，我们的结果表明，弱且可逆的二聚化可能在溴结构域中更为普遍，这可能有助于其在动态转录组装中的功能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42358499/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42358499/",
+  "paper_page_path": "papers/pubmed/42358499/index.html"
+}

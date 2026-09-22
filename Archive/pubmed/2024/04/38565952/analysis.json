@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38565952",
+  "title": "MolPhase, an advanced prediction algorithm for protein phase separation.",
+  "authors": "Liang, Qiyu; Peng, Nana; Xie, Yi; Kumar, Nivedita; Gao, Weibo; Miao, Yansong",
+  "journal": "The EMBO journal",
+  "published_date": "2024-04-03",
+  "window": {
+    "start": "2024-04-01",
+    "end": "2024-04-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于理化特征和结构预测的相分离预测算法MolPhase，并验证了细菌效应蛋白的相分离行为，虽聚焦相分离预测而非直接PPI机制建模，但对象和方法与本课题高度相关。",
+  "abstract": "We introduce MolPhase, an advanced algorithm for predicting protein phase separation (PS) behavior that improves accuracy and reliability by utilizing diverse physicochemical features and extensive experimental datasets. MolPhase applies a user-friendly interface to compare distinct biophysical features side-by-side along protein sequences. By additional comparison with structural predictions, MolPhase enables efficient predictions of new phase-separating proteins and guides hypothesis generation and experimental design. Key contributing factors underlying MolPhase include electrostatic pi-interactions, disorder, and prion-like domains. As an example, MolPhase finds that phytobacterial type III effectors (T3Es) are highly prone to homotypic PS, which was experimentally validated in vitro biochemically and in vivo in plants, mimicking their injection and accumulation in the host during microbial infection. The physicochemical characteristics of T3Es dictate their patterns of association for multivalent interactions, influencing the material properties of phase-separating droplets based on the surrounding microenvironment in vivo or in vitro. Robust integration of MolPhase's effective prediction and experimental validation exhibit the potential to evaluate and explore how biomolecule PS functions in biological systems.",
+  "abstract_zh": "我们介绍MolPhase，一种用于预测蛋白质相分离（PS）行为的高级算法，通过利用多样的理化特征和广泛的实验数据集，提高了准确性和可靠性。MolPhase采用用户友好的界面，可沿蛋白质序列并排比较不同的生物物理特征。通过与结构预测的额外比较，MolPhase能够高效预测新的相分离蛋白，并指导假设生成和实验设计。MolPhase的关键贡献因素包括静电π相互作用、无序性和朊病毒样结构域。例如，MolPhase发现植物细菌III型效应因子（T3Es）高度倾向于同型PS，这一发现在体外生化实验和体内植物实验中均得到验证，模拟了微生物感染期间其在宿主中的注射和积累过程。T3Es的理化特征决定了它们多价相互作用的结合模式，影响基于体内或体外周围微环境的相分离液滴的材料性质。MolPhase有效预测与实验验证的稳健整合，展示了评估和探索生物分子PS在生物系统中功能的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38565952/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38565952/",
+  "paper_page_path": "papers/pubmed/38565952/index.html"
+}

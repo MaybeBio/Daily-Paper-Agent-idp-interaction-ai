@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39412378",
+  "title": "A coarse-grained model for disordered and multi-domain proteins.",
+  "authors": "Cao, Fan; von Bulow, Soren; Tesei, Giulio; Lindorff-Larsen, Kresten",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2024-10-16",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出改进的CALVADOS粗粒化模型，用于模拟多结构域及无序蛋白的构象和相分离，虽非直接聚焦PPI机制，但为无序-折叠区域互作及相分离建模提供了可迁移的物理模拟方法。",
+  "abstract": "Many proteins contain more than one folded domain, and such modular multi-domain proteins help expand the functional repertoire of proteins. Because of their larger size and often substantial dynamics, it may be difficult to characterize the conformational ensembles of multi-domain proteins by simulations. Here, we present a coarse-grained model for multi-domain proteins that is both fast and provides an accurate description of the global conformational properties in solution. We show that the accuracy of a one-bead-per-residue coarse-grained model depends on how the interaction sites in the folded domains are represented. Specifically, we find excessive domain-domain interactions if the interaction sites are located at the position of the C(alpha) atoms. We also show that if the interaction sites are located at the center of mass of the residue, we obtain good agreement between simulations and experiments across a wide range of proteins. We then optimize our previously described CALVADOS model using this center-of-mass representation, and validate the resulting model using independent data. Finally, we use our revised model to simulate phase separation of both disordered and multi-domain proteins, and to examine how the stability of folded domains may differ between the dilute and dense phases. Our results provide a starting point for understanding interactions between folded and disordered regions in proteins, and how these regions affect the propensity of proteins to self-associate and undergo phase separation.",
+  "abstract_zh": "许多蛋白质包含不止一个折叠结构域，这种模块化的多结构域蛋白质有助于扩展蛋白质的功能谱系。由于它们尺寸较大且通常具有显著的动态性，通过模拟来表征多结构域蛋白质的构象集合可能较为困难。在此，我们提出一种针对多结构域蛋白质的粗粒化模型，该模型既快速又能准确描述溶液中的全局构象特性。我们表明，每残基一个珠子的粗粒化模型的准确性取决于折叠结构域中相互作用位点的表示方式。具体而言，我们发现当相互作用位点位于C(alpha)原子位置时，会出现过度的结构域间相互作用。我们还表明，如果相互作用位点位于残基的质心处，则在多种蛋白质中，模拟与实验之间能获得良好的一致性。随后，我们使用这种质心表示优化了我们先前描述的CALVADOS模型，并利用独立数据验证了所得模型。最后，我们使用修订后的模型模拟了无序和多结构域蛋白质的相分离，并考察了折叠结构域的稳定性在稀相和浓相之间可能存在的差异。我们的结果为理解蛋白质中折叠区与无序区之间的相互作用，以及这些区域如何影响蛋白质自结合和发生相分离的倾向提供了起点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39412378/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39412378/",
+  "paper_page_path": "papers/pubmed/39412378/index.html"
+}

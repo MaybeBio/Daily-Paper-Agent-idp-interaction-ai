@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41629604",
+  "title": "The filamentous ultrastructure of the PopZ condensate is required for its cellular function.",
+  "authors": "Scholl, Daniel; Boyd, Tumara; Latham, Andrew P; Salazar, Alexandra; Khan, Asma M A M; Boeynaems, Steven; Holehouse, Alex S; Lander, Gabriel C; Sali, Andrej; Park, Donghyun; Deniz, Ashok A; Lasker, Keren",
+  "journal": "Nature structural & molecular biology",
+  "published_date": "2026-02-03",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究整合冷冻电镜断层扫描与分子动力学模拟，揭示PopZ凝聚体中螺旋域驱动丝状超微结构组装、无序区抑制组装并暴露客户结合位点的层级机制，直接关联IDR介导的PPI与凝聚体功能，机制建模深度契合课题。",
+  "abstract": "Biomolecular condensates have key roles in regulating cellular processes. Yet, the relationship between atomic features and condensate function remains poorly understood. We studied this relationship using the polar organizing protein Z (PopZ). Here, we revealed hierarchical assembly of PopZ into a filamentous condensate by integrating cryo-electron tomography, biochemistry, single-molecule techniques and molecular dynamics simulations. The PopZ helical domain drives filamentation and condensation, while the disordered region inhibits them. Phase-dependent conformational changes prevent interfilament contacts in the dilute phase and expose client-binding sites in the dense phase. Perturbing filament formation in vitro alters the dynamics of scaffold and client proteins and the condensate's wetting behavior. In cells, perturbing either filament formation or the ability of filaments to condense impairs PopZ function and leads to growth phenotypes. These findings establish a multiscale framework linking molecular interactions and condensate ultrastructure to cellular function.",
+  "abstract_zh": "生物分子凝聚体在调控细胞过程中具有关键作用。然而，原子特征与凝聚体功能之间的关系仍知之甚少。我们利用极性组织蛋白Z（PopZ）研究了这一关系。在此，我们通过整合冷冻电子断层扫描、生物化学、单分子技术和分子动力学模拟，揭示了PopZ分级组装成丝状凝聚体的过程。PopZ螺旋结构域驱动成丝和凝聚，而无序区域则抑制这些过程。相依赖的构象变化在稀相中阻止丝间接触，并在密相中暴露客户蛋白结合位点。在体外干扰丝形成会改变支架蛋白和客户蛋白的动态以及凝聚体的润湿行为。在细胞中，干扰丝形成或丝凝聚能力均会损害PopZ功能并导致生长表型。这些发现建立了一个多尺度框架，将分子相互作用和凝聚体超微结构与细胞功能联系起来。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41629604/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41629604/",
+  "paper_page_path": "papers/pubmed/41629604/index.html"
+}

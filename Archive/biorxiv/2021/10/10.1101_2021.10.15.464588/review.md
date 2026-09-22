@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided; supplementary figures and movies referenced but not supplied.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No assessment of formatting, grammar, or editorial style beyond readability for a general scientific audience.
+- **Shared manuscript claim summary** The authors report that the N-terminal disease-associated Tau mutation R5L does not reduce Tau's affinity for microtubules but instead reduces Tau occupancy and disrupts formation of higher-order Tau complexes ("patches") on Taxol-stabilized microtubules. They attribute this to a local structural change in the N-terminal projection domain, detected by NMR, which reduces projection domain interactions with the microtubule surface. They argue this challenges the canonical model that Tau mutations cause disease primarily by reducing microtubule binding affinity.
+- **Visible evidence base** Main text figures 1-5 (described in text), supplementary figures S1-S10 (referenced), supplementary movies S1-S6 (referenced), Table 1 (referenced). Actual figure panels, numerical data, and statistical details are not fully visible in the provided text.
+- **Missing materials affecting confidence** Full figure panels with error bars and statistical annotations, exact numerical values for all reported measurements, supplementary figures and movies, detailed methods for TIRF image analysis and classification parameters, and raw NMR spectra or peak assignments. These are referenced but not provided, limiting independent verification of quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting and novel observation that an N-terminal disease-associated Tau mutation (R5L) does not follow the canonical mechanism of reduced microtubule affinity, but instead disrupts higher-order complex formation on microtubules. The combination of TIRF microscopy, pelleting assays, and NMR spectroscopy is appropriate and complementary. However, the strength of the conclusions is limited by incomplete presentation of quantitative data, potential overinterpretation of the link between local structural changes and functional outcomes, and insufficient discussion of alternative explanations. The core claim that R5L disrupts patch formation without altering affinity is reasonably supported, but the mechanistic link to the N-terminal structural change and the broader disease relevance remain speculative. The manuscript would benefit from clearer presentation of statistical analyses and more direct evidence connecting the structural perturbation to the functional phenotype.
+- **Who would be interested in the results, and why** Researchers studying microtubule-associated proteins, Tau biology, neurodegeneration, and the molecular mechanisms of Tauopathies. The work challenges a prevailing assumption about how Tau mutations cause disease and may be of interest to those investigating the role of the N-terminal projection domain in Tau function. The findings could also be relevant to those studying protein condensation and phase separation on microtubules.
+- **Major strengths** 1) The study addresses a clinically relevant mutation (R5L) associated with PSP that has been relatively understudied compared to C-terminal mutations. 2) The use of multiple complementary techniques (TIRF, pelleting, NMR, CD, DLS) provides a multi-scale view from single-molecule behavior to structural changes. 3) The finding that R5L does not reduce affinity but reduces occupancy and patch formation is a clear and potentially important distinction from the canonical model. 4) The NMR data provide residue-level insight into the local structural perturbation, which is a strength given the intrinsically disordered nature of Tau.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Quantitative data presentation and statistical rigor  
+    - **Claim pointer** The authors claim that R5L-Tau does not significantly alter affinity for Taxol-microtubules (KD = 140 ± 19 nM for WT vs 98 ± 10 nM for R5L) and that there is a two-fold difference in fluorescence intensity at saturation.  
+    - **Evidence pointer** Figure 1B, Figure 1C, "location not provided" for statistical details  
+    - **Concern** The reported KD values appear to differ by approximately 30% (140 vs 98 nM), yet the authors state there is no significant difference. No statistical test, p-value, or confidence interval is provided in the text. Similarly, the two-fold difference in saturation intensity is stated without quantification of variability or statistical comparison. The pelleting assay data in Figure 1C is described qualitatively ("less R5L-Tau bound") without numerical values or replicates.  
+    - **Why it matters** The central claim that R5L does not alter affinity while reducing occupancy depends entirely on the statistical robustness of these measurements. Without proper statistical reporting, the reader cannot assess whether the difference in KD is truly non-significant or whether the occupancy difference is reproducible. This is the foundation of the paper's main conclusion.  
+    - **Resolution test** Provide exact p-values or confidence intervals for KD comparisons, saturation intensity comparisons, and pelleting assay differences. Report the number of independent replicates and the statistical test used. If the KD difference is not significant, show this explicitly with appropriate power analysis.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Mechanistic link between structural change and functional outcome  
+    - **Claim pointer** The authors state that "the R5L mutation results in a local structural change that reduces interactions of the projection domain in the presence of microtubules" and that this "disrupts Tau patch formation."  
+    - **Evidence pointer** Figure 4C-F, Figure 5A-C, "location not provided" for quantitative NMR intensity ratios  
+    - **Concern** The NMR data show chemical shift perturbations within 5-10 residues of the mutation in solution and reduced signal attenuation in the N-terminal region in the presence of microtubules. However, the direct causal link between this local structural change and the disruption of patch formation is not demonstrated. The authors propose loss of a salt bridge involving R5 as a mechanism, but this is speculative and not tested. The observation that the structural effect extends to ~50 residues in the presence of microtubules is interesting but not mechanistically explained.  
+    - **Why it matters** The paper's novelty rests on identifying a new mechanism for Tau mutation pathogenicity. If the link between the local structural change and patch disruption is not established, the conclusion remains correlative rather than causal. The authors themselves acknowledge uncertainty about the specific salt bridge involved, which weakens the mechanistic claim.  
+    - **Resolution test** Provide direct evidence that the R5L-induced structural change alters projection domain interactions with microtubules, for example through mutagenesis of the proposed salt bridge partner(s) or through cross-linking experiments. Alternatively, show that a peptide or construct lacking the projection domain phenocopies the R5L patch disruption, or that restoring the salt bridge (e.g., through a compensatory mutation) rescues patch formation.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Interpretation of TIRF intensity as occupancy  
+    - **Claim pointer** The authors interpret the two-fold difference in fluorescence intensity at saturation as reduced occupancy of R5L-Tau on microtubules.  
+    - **Evidence pointer** Figure 1B, "location not provided" for calibration details  
+    - **Concern** Fluorescence intensity on microtubules in TIRF experiments can be affected by factors other than the number of bound Tau molecules, including the oligomerization state of Tau on the microtubule, the local environment affecting fluorophore quantum yield, or differences in the fraction of fluorescently labeled protein. The authors state they ruled out labeling efficiency and quenching (Fig. S9), but the details of this control are not provided in the text. Additionally, the pelleting assay is used to confirm reduced occupancy, but the two assays measure different things (surface-associated fluorescence vs. sedimented protein) and may not be directly comparable.  
+    - **Why it matters** The distinction between reduced affinity and reduced occupancy is central to the paper's thesis. If the intensity difference reflects a change in the mode of binding (e.g., more diffuse vs. clustered) rather than fewer bound molecules, the interpretation would change. The authors need to demonstrate that intensity is proportional to the number of bound Tau molecules under their conditions.  
+    - **Resolution test** Provide calibration data showing a linear relationship between Tau concentration and fluorescence intensity per unit length of microtubule. Show that the pelleting assay and TIRF intensity measurements are quantitatively consistent. If possible, use single-molecule counting or step-photobleaching to directly determine the number of bound Tau molecules per unit length.  
+  - **R1-M4**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Generalizability of findings across Tau isoforms and microtubule conditions  
+    - **Claim pointer** The authors conclude that "the R5L mutation is unlike other disease-associated mutations and alters Tau-microtubule interactions in a previously unreported manner."  
+    - **Evidence pointer** All experiments use the 3RS isoform and Taxol- or GMPCPP-stabilized microtubules; "location not provided" for isoform comparison  
+    - **Concern** The study is performed exclusively with the 3RS isoform of Tau. The R5L mutation occurs in the N-terminal region common to all six isoforms, but the behavior of Tau on microtubules is known to be isoform-dependent, particularly regarding the number of microtubule-binding repeats. The authors do not test whether the R5L effect on patch formation is conserved across isoforms. Additionally, Taxol-stabilized microtubules may not fully recapitulate the behavior of dynamic microtubules in cells, and the authors do not test the effect of the mutation on microtubule dynamics directly.  
+    - **Why it matters** The claim that this represents a new disease mechanism implies generalizability. If the effect is specific to the 3RS isoform or to Taxol-stabilized microtubules, the broader relevance to PSP and other tauopathies is weakened. The authors do discuss potential implications for microtubule assembly and bundling, but these are not tested.  
+    - **Resolution test** Repeat key experiments (patch formation, occupancy, NMR) with at least one other Tau isoform (e.g., 4RS or 3RL). Test the effect of R5L on microtubule dynamics using label-free assays or with dynamic microtubules. If isoform-specific effects are found, discuss the implications for disease relevance.  
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity of methods  
+    - **Affected element** TIRF image analysis and classification of static/diffusive states  
+    - **Evidence pointer** Materials and Methods, "TIRF Microscopy" section; "location not provided" for analysis details  
+    - **Issue** The text states that binding state classification was performed but does not describe the algorithm or parameters used. The authors mention a "classification parameter" in the discussion (Fig. S10) but do not define it in the main text.  
+    - **Required correction** Provide a clear description of the classification method, including the threshold parameters and how they were chosen. Define the "classification parameter" in the main text or methods.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Completeness of NMR data  
+    - **Affected element** Chemical shift perturbation analysis  
+    - **Evidence pointer** Figure 4C-F, "location not provided" for assignment details  
+    - **Issue** The text reports chemical shift perturbations but does not specify which residues were assigned or the confidence of the assignments. The use of a 10 μM protein concentration for 2D 1H-15N HSQC is noted as challenging for IDPs due to sensitivity, but no signal-to-noise or assignment completeness metrics are given.  
+    - **Required correction** Report the percentage of residues assigned, the confidence of assignments, and the signal-to-noise ratio of the HSQC spectra. If assignments were transferred from the peptide data, state this explicitly.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Discussion of alternative interpretations  
+    - **Affected element** Interpretation of reduced occupancy on GMPCPP-microtubules  
+    - **Evidence pointer** Results section "R5L-Tau reduces occupancy but does not alter affinity on GMPCPP-microtubules"  
+    - **Issue** The authors note reduced occupancy on GMPCPP-microtubules but do not discuss whether this could be due to a difference in the conformation of tubulin in GMPCPP-microtubules versus Taxol-microtubules, which is known to affect Tau binding.  
+    - **Required correction** Add a brief discussion of how the structural differences between Taxol- and GMPCPP-stabilized microtubules might influence the interpretation of the occupancy results.  
+  - **R1-m4**  
+    - **Severity** Minor  
+    - **Axis** Statistical reporting in Table 1  
+    - **Affected element** Table 1 (referenced)  
+    - **Evidence pointer** Table 1, "location not provided"  
+    - **Issue** The text references Table 1 for binding state equilibrium, diffusion coefficients, and dwell times, but the table is not provided in the supplied text. The reader cannot assess the variability or significance of these measurements.  
+    - **Required correction** Ensure Table 1 includes error estimates, sample sizes, and statistical comparisons between WT and R5L for each condition.  
+  - **R1-m5**  
+    - **Severity** Minor  
+    - **Axis** Clarity of the spiking experiment  
+    - **Affected element** Methods description of three-color spiking experiments  
+    - **Evidence pointer** Materials and Methods, "TIRF Microscopy" section  
+    - **Issue** The description of the spiking experiment is brief. It is unclear how the 250 nM unlabeled (or Alexa 488-labeled) Tau and 300 pM Alexa 647 Tau interact, and whether the presence of high concentrations of Alexa 488 Tau affects the behavior of the sparsely labeled Alexa 647 Tau.  
+    - **Required correction** Clarify the purpose of the spiking experiment and whether the Alexa 488 Tau is intended to represent the "bulk" population while Alexa 647 Tau reports on individual molecules. State any controls performed to ensure the spiked molecules behave identically to the bulk population.  
+- **Technical failings that need to be addressed before the case is established**  
+  - R1-M1 (statistical rigor of KD and occupancy measurements) must be resolved to support the central claim.  
+  - R1-M2 (causal link between structural change and patch disruption) requires additional experiments or more cautious interpretation.  
+  - R1-M3 (interpretation of TIRF intensity as occupancy) needs calibration data.  
+  - R1-M4 (generalizability across isoforms) should be addressed or explicitly acknowledged as a limitation.  
+- **Assessment against Nature-style criteria**  
+  - **Originality** The finding that an N-terminal Tau mutation disrupts higher-order complex formation without altering affinity is a novel observation that challenges the prevailing focus on C-terminal mutations and affinity-based mechanisms. This is a genuine contribution to the field.  
+  - **Scientific importance** The work has potential importance for understanding Tauopathies, as it suggests a mechanism beyond simple affinity loss. However, the disease relevance is inferred rather than demonstrated, and the connection to neurodegeneration remains speculative. The importance would be strengthened by showing functional consequences in cellular or in vivo models.  
+  - **Interdisciplinary readership** The topic is of interest to biophysicists, cell biologists, and neuroscientists. The combination of single-molecule imaging and NMR is technically impressive and could appeal to a broad audience. However, the presentation assumes familiarity with Tau biology and microtubule assays, which may limit accessibility.  
+  - **Technical soundness** The experimental approaches are appropriate and state-of-the-art. However, the lack of detailed statistical reporting and the incomplete presentation of quantitative data (as noted in R1-M1 and R1-m4) undermine the technical rigor. The NMR and TIRF methods are well-established, but the interpretation of the data requires more careful justification.  
+  - **Readability for nonspecialists** The abstract and introduction are clear, but the results section is dense and assumes significant background knowledge. The discussion is accessible but could benefit from a more explicit summary of the key findings and their implications for a general audience.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation is interesting and potentially important, but the manuscript currently does not fully establish the mechanistic link between the local structural change and the functional disruption of patch formation. The statistical reporting must be improved to support the central claims. If the authors can address these issues, the work would be suitable for publication in a high-impact journal.

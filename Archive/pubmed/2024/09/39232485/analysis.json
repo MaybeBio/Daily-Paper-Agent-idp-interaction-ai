@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39232485",
+  "title": "Simulating the anti-aggregative effect of fasudil in early dimerisation process of alpha-synuclein.",
+  "authors": "Menon, Sneha; Mondal, Jagannath",
+  "journal": "Biophysical chemistry",
+  "published_date": "2024-09-05",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用原子级分子动力学模拟研究小分子fasudil对无序蛋白alpha-synuclein早期二聚化的抑制机制，对象为IDP且涉及PPI形成，但互作对象为小分子而非蛋白-蛋白，方法为物理模拟，机制建模有深度但非典型PPI，故评7分。",
+  "abstract": "The aggregation of the protein alpha-synuclein into amyloid deposits is associated with multiple neurological disorders, including Parkinson's disease. Soluble amyloid oligomers are reported to exhibit higher toxicity than insoluble amyloid fibrils, with dimers being the smallest toxic oligomer. Small molecule drugs, such as fasudil, have shown potential in targeting alpha-synuclein aggregation and reducing its toxicity. In this study, we use atomistic molecular dynamics simulations to demonstrate how fasudil affects the earliest stage of aggregation, namely dimerization. Our results show that the presence of fasudil reduces the propensity for intermolecular contact formation between protein chains. Consistent with previous reports, our analysis confirms that fasudil predominantly interacts with the negatively charged C-terminal region of alpha-synuclein. However, we also observe transient interactions with residues in the charged N-terminal and hydrophobic NAC regions. Our simulations indicate that while fasudil prominently interacts with the C-terminal region, it is the transient interactions with residues in the N-terminal and NAC regions that effectively block the formation of intermolecular contacts between protein chains and prevent early dimerization of this disordered protein.",
+  "abstract_zh": "蛋白质α-突触核蛋白（alpha-synuclein）聚集成淀粉样沉积物与多种神经系统疾病相关，包括帕金森病。可溶性淀粉样寡聚体据报道比不溶性淀粉样纤维具有更高的毒性，其中二聚体是最小的毒性寡聚体。小分子药物，如法舒地尔（fasudil），已显示出靶向α-突触核蛋白聚集并降低其毒性的潜力。在本研究中，我们使用原子级分子动力学（molecular dynamics）模拟来展示法舒地尔如何影响聚集的最早阶段，即二聚化。我们的结果表明，法舒地尔的存在降低了蛋白质链之间分子间接触形成的倾向。与先前报道一致，我们的分析确认法舒地尔主要与α-突触核蛋白带负电的C端区域相互作用。然而，我们也观察到与带电荷的N端和疏水性NAC区域残基的瞬时相互作用。我们的模拟表明，尽管法舒地尔显著与C端区域相互作用，但正是与N端和NAC区域残基的瞬时相互作用有效阻断了蛋白质链之间分子间接触的形成，并阻止了这种无序蛋白的早期二聚化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39232485/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39232485/",
+  "paper_page_path": "papers/pubmed/39232485/index.html"
+}

@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint version, bioRxiv 2022.06.23.497276)
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality as presented in the provided text. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors introduce SETH, a convolutional neural network that predicts per-residue protein disorder (as defined by NMR-derived chemical shift Z-scores, CheZOD) using embeddings from the protein language model ProtT5. The method uses only single protein sequences as input, avoiding the need for multiple sequence alignments. The authors report that SETH outperforms existing disorder prediction methods, including those using MSAs, on a common benchmark, and that it is fast enough to enable proteome-wide predictions. They also report that SETH's predictions correlate with AlphaFold2 pLDDT scores and can serve as a pre-filter for AlphaFold2 structure prediction. Additionally, they report that CheZOD score distributions across organisms capture aspects of evolution.
+- **Visible evidence base** Abstract, Introduction, Methods (Sections 2.1, 2.2, 2.3, 2.4, 2.5, 2.6), Results (Sections 3.1 through 3.8), Conclusions, Software availability, Author contributions, Funding, Acknowledgments. Figures referenced: Fig. 1, Fig. 2, Fig. 3, Fig. 4, Fig. 5, Fig. 6, Fig. S1-S12, Tables S2, S5. Equations referenced: Eqn. 1, 2, 3.
+- **Missing materials affecting confidence** The manuscript text provided does not include the actual figures, tables, or supplementary material. The Methods section for LinReg, ANN, and LogReg is referenced as "Supplementary Material 1.1" but not provided. The exact architecture of SETH (number of layers, kernel sizes beyond the first layer, pooling, etc.) is not fully described in the visible text. The full list of 37 organisms used in the evolutionary analysis is not provided in the visible text. The exact details of the ODiNPred and flDPnn web server runs are not provided. The statistical test used for significance comparisons is not explicitly named in the visible text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a timely and potentially useful contribution to the field of protein disorder prediction. The core idea, using protein language model embeddings to predict continuous disorder scores without MSAs, is sensible and aligns with current trends in the field. The reported performance, if reproducible, would be competitive with state-of-the-art methods. The speed advantage is a clear practical benefit. However, the manuscript has several significant weaknesses that need to be addressed. The most critical issues are: (1) the lack of a fully described SETH architecture in the main text, (2) the reliance on a single, relatively small test set for the main performance claims, (3) the potential for information leakage in the training data despite the redundancy reduction, and (4) the evolutionary analysis, while intriguing, is presented with limited quantitative support. The claim that SETH can serve as a pre-filter for AlphaFold2 is interesting but the analysis presented is correlational and the practical utility needs more rigorous demonstration. The manuscript is generally well-written and the logic is clear, but the depth of analysis in some areas, particularly the evolutionary claims, is insufficient for the strength of the conclusions drawn.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein structure and function prediction, particularly those interested in intrinsically disordered proteins. Researchers developing and applying protein language models for downstream prediction tasks. Biologists studying the role of disorder in evolution and disease, who may benefit from a fast, scalable tool for proteome-wide disorder prediction. Researchers using AlphaFold2 who need to prioritize targets or identify potentially low-confidence regions.
+- **Major strengths**
+    1.  The core methodological idea is simple, relevant, and well-motivated: leveraging pre-trained protein language model embeddings to predict a continuous disorder score, bypassing the computational cost and potential failure modes of MSA generation.
+    2.  The use of the CheZOD score, a continuous measure of disorder, is a strength, as it allows the method to capture nuances that binary classification approaches might miss.
+    3.  The reported speed of the method is a significant practical advantage, enabling proteome-wide analyses that are not feasible with MSA-based methods.
+    4.  The authors compare their methods against a wide range of existing predictors, including recent ones, using a common benchmark, which facilitates direct comparison.
+    5.  The analysis of the single most informative embedding dimension (LinReg1D) is an interesting and insightful contribution, suggesting that the language model has captured disorder-relevant information in a concentrated form.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that SETH outperforms all compared state-of-the-art methods is based on performance on a single test set (CheZOD117).
+    - **Evidence pointer** Section 3.3, Figure 3
+    - **Concern** The primary performance evaluation is conducted on a single, small test set of 117 proteins. While this test set has been used in previous studies, its small size and specific composition (average length 112 residues) may not be representative of the diversity of protein sequences and disorder patterns in real-world applications. The statistical significance of the performance difference between SETH and the next best methods (e.g., ODiNPred, ADOPT ESM-1b) is not established, as the confidence intervals appear to overlap. The manuscript states that the differences between the authors' own models are not significant, but does not explicitly state the significance of the difference between SETH and the best external methods.
+    - **Why it matters** A single, small test set is insufficient to robustly support a claim of state-of-the-art performance. The conclusion that SETH is superior to existing methods is a central claim of the manuscript and requires stronger evidence, such as evaluation on multiple independent test sets or a more rigorous statistical analysis of the differences.
+    - **Resolution test** The authors should evaluate SETH on additional, independent benchmark datasets for disorder prediction. They should also provide a clear statistical comparison (e.g., a formal test for the difference in correlated correlation coefficients) between SETH and the top-performing external methods to demonstrate that the observed differences are not due to chance.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that SETH's predictions can be used as a pre-filter for AlphaFold2, allowing users to prioritize targets or identify low-quality predictions.
+    - **Evidence pointer** Section 3.7, Figure 5
+    - **Concern** The analysis supporting the pre-filter claim is purely correlational. The authors show that SETH's predicted disorder scores correlate with AlphaFold2's pLDDT scores across 17 organisms. However, they do not demonstrate the practical utility of this correlation. For example, they do not show that using a SETH-based filter would lead to a meaningful reduction in computational cost while maintaining a high recall of well-predicted structures, or that it would accurately identify regions where AlphaFold2 predictions are unreliable. The analysis is also confounded by the fact that both SETH and AlphaFold2 are likely to make similar errors (e.g., over-predicting order in certain regions), which could inflate the correlation.
+    - **Why it matters** The pre-filter application is a major stated motivation for the work. A correlational analysis is not sufficient to establish that SETH is a useful tool for this purpose. The claim needs to be supported by a direct demonstration of the utility, such as a simulation or a case study showing how SETH could be used in a real AlphaFold2 pipeline.
+    - **Resolution test** The authors should provide a more direct demonstration of the pre-filter utility. For example, they could simulate a scenario where a user wants to run AlphaFold2 on a large proteome and show that using a SETH-based filter to select a subset of proteins (e.g., those predicted to be ordered) would result in a significant saving of compute time while still capturing the majority of proteins with high-confidence structures. They could also analyze cases where SETH and AlphaFold2 disagree to understand the nature of these discrepancies.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the evolutionary analysis reveals a connection between predicted CheZOD score distributions and the evolution of species.
+    - **Evidence pointer** Section 3.8, Figure 6
+    - **Concern** The evolutionary analysis is presented in a very preliminary and qualitative manner. The authors state that a PCA on 8-dimensional vectors of binned CheZOD scores separates eukaryotes and prokaryotes, and shows some separation within these groups. However, no quantitative measure of the separation is provided (e.g., a statistical test for the difference in distributions, a measure of clustering quality). The choice of 37 organisms is not justified, and the analysis is based on predicted scores, which may introduce biases. The claim that this "captures aspects of evolution" is vague and not well-supported by the presented evidence.
+    - **Why it matters** This is a potentially interesting and novel observation, but as presented, it is not a rigorous scientific analysis. The claim is too strong for the evidence provided. A more rigorous analysis would strengthen the paper, while a weaker claim (e.g., "predictions are consistent with known differences in disorder content between eukaryotes and prokaryotes") would be more appropriate for the current level of evidence.
+    - **Resolution test** The authors should provide a quantitative analysis of the PCA results, such as a statistical test for the separation of groups (e.g., PERMANOVA) or a measure of classification accuracy. They should also justify the choice of organisms and discuss potential biases in using predicted scores. The claim should be tempered to match the level of evidence.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the redundancy reduction procedure adequately addresses the risk of information leakage between training and test sets.
+    - **Evidence pointer** Section 2.1, Section 3.5
+    - **Concern** The authors removed training sequences with >20% sequence identity to test sequences, but this threshold is relatively high, and the coverage threshold of 80% may allow for significant local similarity. The authors acknowledge this limitation but do not fully explore its impact. The analysis of the single most informative dimension (LinReg1D) suggests that the model is capturing a strong biological signal, which is reassuring, but it does not rule out the possibility that some of the performance is due to residual similarity.
+    - **Why it matters** If there is information leakage, the reported performance of SETH would be an overestimate. This is a fundamental issue for any machine learning method, and the authors need to be more thorough in their analysis to convince the reader that their results are not inflated.
+    - **Resolution test** The authors could perform a more stringent redundancy reduction (e.g., lower sequence identity threshold, or using a different measure of similarity) and re-evaluate the performance. They could also analyze the relationship between the degree of similarity of test proteins to training proteins and the prediction error, to see if there is a correlation.
+    - **Concern ID** R1-M5
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that SETH is a "novel" method, distinct from other pLM-based approaches.
+    - **Evidence pointer** Section 1, Section 3.3
+    - **Concern** The manuscript does not clearly differentiate SETH from other recently published methods that use protein language model embeddings for disorder prediction, such as ADOPT (Redl et al., 2022) and flDPnn (Hu et al., 2021). While the authors compare against these methods, they do not clearly state what the key architectural or methodological differences are. The use of a CNN on top of ProtT5 embeddings is a relatively straightforward approach, and the novelty may lie more in the specific application and the continuous training target than in the architecture itself.
+    - **Why it matters** The novelty of the method is a key criterion for a high-impact publication. The authors need to clearly articulate what is new about their approach compared to the existing literature.
+    - **Resolution test** The authors should add a section to the Introduction or Discussion that explicitly compares and contrasts SETH with ADOPT and flDPnn, highlighting the key differences in architecture, training data, and objectives.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity and presentation
+    - **Affected element** Methods section 2.3
+    - **Evidence pointer** Section 2.3
+    - **Issue** The description of the SETH architecture is incomplete. The text mentions a "two-layer CNN" with a kernel size of (5,1) and 28 output channels for the first layer, but does not describe the second layer, the pooling strategy, or the final output layer.
+    - **Required correction** Provide a complete description of the SETH architecture, including the number of layers, kernel sizes, number of channels for each layer, activation functions, and any pooling or normalization layers. A table or a figure of the architecture would be helpful.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Clarity and presentation
+    - **Affected element** Results section 3.3
+    - **Evidence pointer** Section 3.3, Figure 3
+    - **Issue** The manuscript states that SETH and ANN "numerically outperformed all others" but does not provide a clear statistical comparison between SETH and the other top methods. The confidence intervals in Figure 3 appear to overlap.
+    - **Required correction** Provide a clear statistical comparison, such as a test for the difference in correlated correlation coefficients (e.g., Steiger's test) or a statement about the overlap of confidence intervals, to clarify whether the observed differences are statistically significant.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Clarity and presentation
+    - **Affected element** Results section 3.8
+    - **Evidence pointer** Section 3.8, Figure 6
+    - **Issue** The evolutionary analysis is described in a single paragraph and the figure is not provided. The choice of 37 organisms and the selection of the 8 bins for the CheZOD score distribution are not justified.
+    - **Required correction** Expand the description of the evolutionary analysis, justify the choice of organisms and bins, and provide the figure. Consider adding a quantitative measure of the separation observed in the PCA plot.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Clarity and presentation
+    - **Affected element** Abstract
+    - **Evidence pointer** Abstract
+    - **Issue** The abstract states that SETH can predict the human proteome in "about one hour on a consumer-grade PC with one NVIDIA GeForce RTX 3060". This is a specific and useful claim, but it is not clear if this includes the time to generate the ProtT5 embeddings, which is a significant computational step.
+    - **Required correction** Clarify in the abstract or methods whether the reported runtime includes the embedding generation step or only the SETH inference time.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Clarity and presentation
+    - **Affected element** Discussion/Conclusion
+    - **Evidence pointer** Section 5
+    - **Issue** The conclusion states that SETH "captured fine-grained nuances of disorder on a continuous scale". While this is supported by the use of the CheZOD score, the manuscript does not provide a detailed analysis of where these nuances are captured or how they differ from binary predictions.
+    - **Required correction** Provide a more detailed analysis of the types of errors SETH makes compared to binary classifiers. For example, are the errors concentrated in regions of intermediate disorder? This would strengthen the claim that the continuous output provides additional value.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: The performance claim is based on a single, small test set without a clear statistical demonstration of superiority over the closest competitors.
+    - R1-M2: The pre-filter claim for AlphaFold2 is based on correlation only and lacks a demonstration of practical utility.
+    - R1-M3: The evolutionary analysis is qualitative and lacks statistical support.
+- **Assessment against Nature-style criteria**
+    - **Originality** The application of pLM embeddings to predict continuous CheZOD scores is a logical extension of existing work, but the manuscript does not clearly articulate a novel conceptual insight. The finding that a single embedding dimension captures much of the signal is interesting. The evolutionary analysis, while preliminary, is a novel idea. Overall, the originality is moderate.
+    - **Scientific importance** Protein disorder prediction is an important problem, and a fast, accurate, single-sequence method would be a valuable tool for the community. The potential to use SETH as a pre-filter for AlphaFold2 is practically important. The link between disorder scores and evolution, if confirmed, would be of broad interest. The importance is potentially high, but the current evidence does not fully establish it.
+    - **Interdisciplinary readership** The topic is of primary interest to computational biologists and bioinformaticians. The potential applications in evolutionary biology and the link to AlphaFold2 could broaden the appeal, but the presentation is currently too specialized for a general audience.
+    - **Technical soundness** The core methodology is sound, but the evaluation is not sufficiently rigorous to support all the claims. The lack of a complete architecture description and the reliance on a single test set are significant weaknesses. The statistical analysis needs to be more thorough.
+    - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, the methods section assumes a high level of familiarity with machine learning and protein language models. The abstract is accessible, but the main text would be challenging for a non-specialist.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the reported performance is competitive. However, the manuscript requires a more rigorous evaluation, a complete description of the method, and a more careful and quantitative analysis of the secondary claims (pre-filter, evolution) before the case for its significance is fully established.

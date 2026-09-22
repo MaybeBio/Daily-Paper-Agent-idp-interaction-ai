@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, results, figures, or tables were provided
+- **Shared manuscript claim summary** The authors propose a hybrid quantum-classical machine learning approach combining variational quantum circuits with the ESM2 protein language model and a prototypical network for multi-class prediction of binding partners of Intrinsically Disordered Regions (IDRs). They report statistically significant performance improvements over classical baselines, with entanglement topology governing model stability and encoding methods determining performance gains. They further claim that quantum advantage in computational biology emerges from architectural design principles rather than computational scale.
+- **Visible evidence base** Abstract text only; no quantitative results, statistical tests, dataset descriptions, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset specifications, baseline definitions, statistical analysis details, hyperparameter settings, code availability, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of quantum machine learning to a biologically relevant prediction problem. However, the claims of quantum advantage and statistically significant improvements cannot be evaluated from the supplied material. The abstract lacks quantitative results, statistical details, and methodological transparency. The conceptual framing is reasonable, but the evidence base is insufficient to assess technical soundness or the validity of the central claims.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics interested in protein function prediction, particularly those working on intrinsically disordered proteins. The work may also attract researchers in quantum machine learning seeking practical applications in the life sciences, as well as those exploring hybrid quantum-classical approaches for biological sequence analysis.
+- **Major strengths** The problem is biologically relevant and timely, as IDR binding partner prediction remains challenging. The combination of a protein language model with variational quantum circuits is a plausible and potentially novel architectural direction. The emphasis on architectural design principles over computational scale is a thoughtful framing that could guide future work in the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims "statistically significant performance improvements over classical baselines" and that "entanglement topology governing model stability and encoding methods determining performance gains."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative results are presented. There are no performance metrics, no effect sizes, no confidence intervals, and no description of the statistical tests used to establish significance. The claims of statistical significance and the specific roles of entanglement topology and encoding methods are stated without supporting data.
+  - **Why it matters** The central claim of the work is that the hybrid model outperforms classical baselines. Without any numerical evidence or statistical detail, this claim cannot be verified. The assertion that quantum advantage emerges from architectural design principles is a strong conclusion that requires direct comparative evidence.
+  - **Resolution test** Provide performance metrics for the hybrid model and classical baselines on the same datasets, including effect sizes and confidence intervals. Describe the statistical tests used and report p-values or equivalent measures. Show ablation results demonstrating the independent contributions of entanglement topology and encoding methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract describes a "hybrid quantum-classical machine learning approach" combining variational quantum circuits with ESM2 and a prototypical network, evaluated through "factorial experiments."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No methodological details are provided. The architecture of the variational quantum circuits, the nature of the encoding methods, the design of the factorial experiments, the dataset composition, and the training procedures are all unspecified. The abstract mentions "systematic evaluation of quantum circuit architectures" but gives no indication of what was varied or how.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific claims. Without details on the quantum circuit design, encoding strategies, experimental design, and data handling, the work cannot be replicated or independently assessed. The absence of this information also prevents evaluation of whether the comparisons with classical baselines were fair and controlled.
+  - **Resolution test** Provide a complete methods section describing the quantum circuit architecture, encoding methods, prototypical network design, dataset splits, baseline implementations, and hyperparameter choices. Include details on the factorial experimental design and the number of runs per condition.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validity
+  - **Claim pointer** The abstract states that "quantum advantage in computational biology emerges from architectural design principles rather than computational scale."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** This is a broad and strong conclusion. The abstract does not define what is meant by "quantum advantage" in this context, nor does it provide evidence that the observed improvements are attributable to quantum effects rather than to other factors such as the prototypical network architecture, the ESM2 embeddings, or differences in training procedures. The claim appears to generalize beyond the specific experimental setting described.
+  - **Why it matters** The conclusion has implications for how the field interprets the value of quantum approaches in bioinformatics. If the claim is not carefully supported, it could mislead future research directions. The distinction between quantum-specific benefits and general architectural improvements must be demonstrated through controlled experiments.
+  - **Resolution test** Define "quantum advantage" operationally. Provide experiments that isolate the contribution of the quantum components, for example by comparing against classical analogues of the variational circuits with the same expressivity. Show that the observed gains cannot be reproduced by classical models with similar architectural features.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "performance plateaus where traditional approaches to improve accuracy have become ineffective" is vague. It is unclear which specific methods have plateaued and on which benchmarks.
+  - **Required correction** Specify the baseline methods and datasets that exhibit the plateau, with references to prior work.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "multi-class IDR binding partner prediction" but does not state the number of classes or the types of binding partners considered.
+  - **Required correction** State the number of classes and the categories of binding partners (for example, proteins, nucleic acids, lipids, metal ions).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "quantum advantage"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "quantum advantage" is used without definition. In the quantum computing literature, this term has a specific meaning that may not apply here.
+  - **Required correction** Define the term as used in this context, or use a more neutral phrase such as "performance improvement from quantum components."
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, methodological detail, and controlled comparisons means the central claims are currently unsupported.
+- **Assessment against Nature-style criteria** Originality: The combination of variational quantum circuits with ESM2 for IDR binding partner prediction appears novel, but novelty cannot be fully assessed without a literature comparison in the full manuscript. Scientific importance: The problem is relevant, and the framing around architectural design principles is potentially valuable, but the importance of the specific contribution depends on the validity of the performance claims. Interdisciplinary readership: The work bridges quantum computing and computational biology, which could attract a broad audience, but the abstract assumes familiarity with both fields. Technical soundness: Cannot be evaluated from the abstract alone; the lack of methodological detail and quantitative evidence is a major limitation. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting direction, but the central claims of statistical significance and quantum advantage require the full manuscript with detailed methods and results to be assessed. A supportive stance would be possible if the technical concerns are resolved in the full paper.
+
+## Risk / unsupported claims
+- The claim of "statistically significant performance improvements over classical baselines" is unsupported due to the absence of any quantitative results or statistical details.
+- The claim that "entanglement topology governing model stability and encoding methods determining performance gains" is unsupported without ablation studies or comparative data.
+- The claim that "quantum advantage in computational biology emerges from architectural design principles rather than computational scale" is unsupported and appears to generalize beyond the evidence presented.
+- The existence of "performance plateaus" in current computational methods is asserted without supporting data or references.
+- The overall effectiveness of the hybrid model cannot be evaluated from the abstract alone.

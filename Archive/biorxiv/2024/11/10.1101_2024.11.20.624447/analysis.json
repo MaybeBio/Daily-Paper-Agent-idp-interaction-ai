@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.20.624447",
+  "title": "CTCF depletion decouples enhancer-mediated gene activation from chromatin hub formation during cellular differentiation",
+  "authors": "Karpinska MA; Zhu Y; Ghazvini ZF; Ramasamy S; Barbieri M; Cao TBN; Varahram N; Aljahani A; Lidschreiber M; Papantonis A; Oudelaar AM",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-21",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过计算建模分析CTCF耗竭对染色质hub形成与基因调控的影响，但对象为染色质结构而非无序蛋白/IDR，且不涉及PPI或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "<h4>ABSTRACT</h4> Enhancers and promoters interact in 3D chromatin structures to regulate gene expression. Here, we characterize the mechanisms that drive the formation of these structures and their function in gene regulation in a lymphoid-to-myeloid transdifferentiation system. Based on analyses at base-pair resolution, we demonstrate a close correlation between binding of regulatory proteins, formation of chromatin interactions, and gene expression. Integration of multi-way interaction analyses and computational modeling shows that tissue-specific gene loci are organized into chromatin hubs, characterized by cooperative interactions between multiple enhancers, promoters, and CTCF-binding sites. Depletion of CTCF strongly impairs the formation of these structures. However, the effects of CTCF depletion on gene expression are modest and can be explained by rewired enhancer-promoter interactions. This demonstrates an instructive role for enhancer-promoter interactions in gene regulation that is independent of cooperative interactions in chromatin hubs. Together, these results contribute to a mechanistic understanding of the structure-function relationship of the genome during cellular differentiation.",
+  "abstract_zh": "<h4>摘要</h4> 增强子与启动子在三维染色质结构中相互作用以调控基因表达。在此，我们在淋巴系向髓系转分化系统中，刻画了驱动这些结构形成及其在基因调控中功能的机制。基于碱基对分辨率分析，我们证明了调控蛋白结合、染色质相互作用形成及基因表达之间的密切相关性。多向相互作用分析与计算建模的整合表明，组织特异性基因位点组织成染色质枢纽，其特征是多个增强子、启动子和CTCF结合位点之间的协同相互作用。CTCF的耗竭强烈损害这些结构的形成。然而，CTCF耗竭对基因表达的影响较为温和，且可通过重连的增强子-启动子相互作用来解释。这证明了增强子-启动子相互作用在基因调控中的指导性作用，该作用独立于染色质枢纽中的协同相互作用。综合来看，这些结果有助于从机制上理解细胞分化过程中基因组的结构-功能关系。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.20.624447",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.20.624447",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.20.624447/index.html"
+}

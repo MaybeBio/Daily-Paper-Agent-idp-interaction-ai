@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "41575228",
+    "doi": "10.1021/acschemneuro.5c00908",
+    "title": "Tricyclic Antidepressants as Prospective alpha-Synucleinopathy Fighters: Evidence of Protein Binding and Antiaggregation Activity."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) like alpha-synuclein are pivotal in neurodegenerative diseases but present formidable challenges for drug discovery due to their conformational heterogeneity and lack of defined binding pockets. Here, we report the finding that clinically approved tricyclic antidepressants imipramine, amitriptyline, and doxepin bind directly to monomeric alpha-synuclein and inhibit its fibrillation, a key process in Parkinson's pathology. Using a combination of NMR spectroscopy (WaterLOGSY and chemical shift perturbation, CSP) and molecular dynamics simulation methods, we elucidate a nonspecific, multiligand binding mechanism of tricyclic antidepressants predominantly targeting the C-terminal domain of the protein. The experimental CSP magnitudes correlate with the inhibitory potency of ligands, with imipramine emerging as the most potent inhibitor, and agree with the contact probabilities with different residues from simulations. The protein-ligand binding is driven by a dynamic combination of electrostatic attraction of positively charged ligands to anionic side chains, pi-stacking with aromatic residues, and hydrophobic contacts. Moreover, simulations show that a single ligand molecule frequently engages in simultaneous salt-bridge and pi-stacking interactions, unlike some previously studied alpha-synuclein binders. Our findings position tricyclic antidepressants as promising scaffolds for targeting alpha-synuclein and demonstrate the efficiency of molecular dynamics approaches for the description of interactions between small drug molecules and IDPs.",
+    "keywords": [
+      "Parkinson's disease",
+      "intrinsically disordered protein (IDP)",
+      "molecular dynamics",
+      "nuclear magnetic resonance (NMR)",
+      "tricyclic antidepressants",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [
+      "*Antidepressive Agents, Tricyclic/pharmacology/metabolism/chemistry",
+      "*alpha-Synuclein/metabolism/drug effects",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Protein Binding/drug effects",
+      "*Synucleinopathies/drug therapy/metabolism",
+      "Amitriptyline/pharmacology",
+      "Imipramine/pharmacology",
+      "Magnetic Resonance Spectroscopy",
+      "Doxepin/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khairutdinov, Bulat I",
+        "Khaibrakhmanova, Diliara R",
+        "Leisi, Evgeniia V",
+        "Sidorova, Ekaterina R",
+        "Sofronov, Yegor A",
+        "Muronetz, Vladimir I",
+        "Zuev, Yuriy F",
+        "Sedov, Igor A"
+      ],
+      "short_names": [
+        "Khairutdinov BI",
+        "Khaibrakhmanova DR",
+        "Leisi EV",
+        "Sidorova ER",
+        "Sofronov YA",
+        "Muronetz VI",
+        "Zuev YF",
+        "Sedov IA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6715-2530",
+        "ORCID: 0000-0003-0438-5991"
+      ],
+      "affiliations": [
+        "Kazan Institute of Biochemistry and Biophysics, 420111 Kazan, Russia.",
+        "Chemical Institute, Kazan Federal University, Kremlevskaya Str., 18, Kazan 420008, Russia.",
+        "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, Leninskie Gory 1, Bld 73, Moscow 119991, Russia.",
+        "Institute of Physics, Kazan Federal University, Kazan 420008, Russia.",
+        "Kazan Institute of Biochemistry and Biophysics, 420111 Kazan, Russia.",
+        "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, Leninskie Gory 1, Bld 73, Moscow 119991, Russia.",
+        "Belozersky Research Institute of Physico-Chemical Biology, Lomonosov Moscow State University, Leninskie Gory 1, Bld 40, Moscow 119991, Russia.",
+        "Kazan Institute of Biochemistry and Biophysics, 420111 Kazan, Russia.",
+        "Chemical Institute, Kazan Federal University, Kremlevskaya Str., 18, Kazan 420008, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khairutdinov, Bulat I",
+        "short_name": "Khairutdinov BI",
+        "identifiers": [],
+        "affiliations": [
+          "Kazan Institute of Biochemistry and Biophysics, 420111 Kazan, Russia."
+        ]
+      },
+      {
+        "full_name": "Khaibrakhmanova, Diliara R",
+        "short_name": "Khaibrakhmanova DR",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Institute, Kazan Federal University, Kremlevskaya Str., 18, Kazan 420008, Russia."
+        ]
+      },
+      {
+        "full_name": "Leisi, Evgeniia V",
+        "short_name": "Leisi EV",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, Leninskie Gory 1, Bld 73, Moscow 119991, Russia."
+        ]
+      },
+      {
+        "full_name": "Sidorova, Ekaterina R",
+        "short_name": "Sidorova ER",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, Kazan Federal University, Kazan 420008, Russia."
+        ]
+      },
+      {
+        "full_name": "Sofronov, Yegor A",
+        "short_name": "Sofronov YA",
+        "identifiers": [],
+        "affiliations": [
+          "Kazan Institute of Biochemistry and Biophysics, 420111 Kazan, Russia."
+        ]
+      },
+      {
+        "full_name": "Muronetz, Vladimir I",
+        "short_name": "Muronetz VI",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Bioengineering and Bioinformatics, Lomonosov Moscow State University, Leninskie Gory 1, Bld 73, Moscow 119991, Russia.",
+          "Belozersky Research Institute of Physico-Chemical Biology, Lomonosov Moscow State University, Leninskie Gory 1, Bld 40, Moscow 119991, Russia."
+        ]
+      },
+      {
+        "full_name": "Zuev, Yuriy F",
+        "short_name": "Zuev YF",
+        "identifiers": [
+          "0000-0002-6715-2530"
+        ],
+        "affiliations": [
+          "Kazan Institute of Biochemistry and Biophysics, 420111 Kazan, Russia."
+        ]
+      },
+      {
+        "full_name": "Sedov, Igor A",
+        "short_name": "Sedov IA",
+        "identifiers": [
+          "0000-0003-0438-5991"
+        ],
+        "affiliations": [
+          "Chemical Institute, Kazan Federal University, Kremlevskaya Str., 18, Kazan 420008, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS chemical neuroscience"
+    ],
+    "journal_abbrev": [
+      "ACS Chem Neurosci"
+    ],
+    "pub_date": "2026 Feb 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/23 13:05",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41575228",
+      "41874470",
+      "35130691",
+      "29364151",
+      "40532196",
+      "11899840",
+      "36749138",
+      "40079830",
+      "29704625",
+      "20223294",
+      "41604267",
+      "15094841",
+      "38648769",
+      "33345970",
+      "1975106",
+      "18314100",
+      "36232847",
+      "19655784",
+      "39232485",
+      "33719460",
+      "20620148",
+      "31903719",
+      "20359221",
+      "40878020",
+      "41301496",
+      "12009302",
+      "2870173",
+      "31900363",
+      "24551051",
+      "19576220",
+      "23583776",
+      "33581430",
+      "39980393",
+      "30045",
+      "42093278",
+      "23607785",
+      "29286644",
+      "40818051",
+      "40994307",
+      "14573389",
+      "33513387",
+      "29715424",
+      "15643843",
+      "39896485",
+      "11357174",
+      "20363235",
+      "41345992",
+      "39251364",
+      "37198991",
+      "25207671",
+      "39202",
+      "28460628",
+      "28711409",
+      "30184304",
+      "36278939",
+      "35139916",
+      "32623047",
+      "30142698",
+      "27092002",
+      "40515635",
+      "28075555",
+      "23964651",
+      "31740740",
+      "36131545",
+      "42027070",
+      "29548979",
+      "36974517",
+      "30840442",
+      "17437653",
+      "29990546",
+      "29408361",
+      "22947936",
+      "19948720",
+      "30933517",
+      "37407505",
+      "19213730",
+      "42000821",
+      "40819250",
+      "22988855",
+      "29603451",
+      "42055633",
+      "29601727",
+      "9781919",
+      "37686208",
+      "37060757",
+      "29733855",
+      "29704492",
+      "19895818",
+      "25081642",
+      "26923286",
+      "38857533",
+      "23162382",
+      "29874605",
+      "10991922",
+      "23912807",
+      "35543707",
+      "32982240",
+      "39584804",
+      "28759722",
+      "17681539"
+    ],
+    "review": [
+      "41575228",
+      "29364151",
+      "30045",
+      "37198991",
+      "30142698",
+      "30840442",
+      "22988855",
+      "37060757"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acncdm/article-lookup/doi/10.1021/acschemneuro.5c00908",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

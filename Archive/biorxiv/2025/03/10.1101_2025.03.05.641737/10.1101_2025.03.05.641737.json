@@ -1,0 +1,256 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.05.641737",
+  "title": "Amino acids bind to phase-separating proteins and modulate biomolecular condensate stability and dynamics",
+  "doi": "10.1101/2025.03.05.641737",
+  "abstract": "Biomolecular condensates (BCs) are versatile intracellular compartments that help organize intracellular space and perform diverse biological functions. In living cells, BCs are surrounded by a complex environment, of which amino acids (AAs) are prominent components. However, it is unclear how AAs interact with condensate components and influence the formation and material properties of condensates. Here, we show that phase separation is suppressed with increasing glycine concentration by using model heterotypic condensates made of nucleophosmin 1 (NPM1) and ribosomal ribonucleic acid (RNA): the condensate density is decreased and the dynamics inside the condensate are increased. We find that glycine weakly binds to amide groups in the protein backbone and aromatic groups in the side chains with a 1~2 M affinity, weakening the backbone-backbone interactions between neutral and charged disordered proteins while strengthening the interactions between aromatic stickers. This leads to different modulations of the phase behaviour in condensates formed by cation/π-π interactions and condensates formed by charge complexation. We further show that a similar modulation effect on BCs is observed for other proteinogenic AAs and can be transferred to short peptides. These insights offer a better understanding of BC stability, with implications for new strategies to modulate the dynamic properties of BCs in vivo.",
+  "authors": [
+    "Xu X",
+    "Haren M",
+    "Smokers I",
+    "Visser B",
+    "White P",
+    "Jansen R",
+    "Spruijt E"
+  ],
+  "published_date": "2025-03-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.05.641737",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.05.641737.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR987887",
+    "raw_record": {
+      "id": "PPR987887",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR987887"
+        ]
+      },
+      "doi": "10.1101/2025.03.05.641737",
+      "title": "Amino acids bind to phase-separating proteins and modulate biomolecular condensate stability and dynamics",
+      "authorString": "Xu X, Haren M, Smokers I, Visser B, White P, Jansen R, Spruijt E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Xu X",
+            "lastName": "Xu",
+            "firstName": "Xufeng",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecules and Materials, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Haren M",
+            "lastName": "Haren",
+            "firstName": "Merlijn",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecules and Materials, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smokers I",
+            "lastName": "Smokers",
+            "firstName": "Iris",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7938-1616"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecules and Materials, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Visser B",
+            "lastName": "Visser",
+            "firstName": "Brent",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0850-8426"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecules and Materials, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "White P",
+            "lastName": "White",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6741-828X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecules and Materials, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jansen R",
+            "lastName": "Jansen",
+            "firstName": "Robert",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9612-2798"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Radboud Institute for Biological and Environmental Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spruijt E",
+            "lastName": "Spruijt",
+            "firstName": "Evan",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Molecules and Materials, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7938-1616"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9612-2798"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6741-828X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0850-8426"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Biomolecular condensates (BCs) are versatile intracellular compartments that help organize intracellular space and perform diverse biological functions. In living cells, BCs are surrounded by a complex environment, of which amino acids (AAs) are prominent components. However, it is unclear how AAs interact with condensate components and influence the formation and material properties of condensates. Here, we show that phase separation is suppressed with increasing glycine concentration by using model heterotypic condensates made of nucleophosmin 1 (NPM1) and ribosomal ribonucleic acid (RNA): the condensate density is decreased and the dynamics inside the condensate are increased. We find that glycine weakly binds to amide groups in the protein backbone and aromatic groups in the side chains with a 1~2 M affinity, weakening the backbone-backbone interactions between neutral and charged disordered proteins while strengthening the interactions between aromatic stickers. This leads to different modulations of the phase behaviour in condensates formed by cation/π-π interactions and condensates formed by charge complexation. We further show that a similar modulation effect on BCs is observed for other proteinogenic AAs and can be transferred to short peptides. These insights offer a better understanding of BC stability, with implications for new strategies to modulate the dynamic properties of BCs in vivo.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.05.641737"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR987887"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR987887&type=FILE&fileName=EMS203812-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41027866",
+            "reference": "Nature communications. 2025 Sep;16(1):8723",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS203812",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-03-14",
+      "firstPublicationDate": "2025-03-11",
+      "firstIndexDate": "2025-03-14",
+      "fullTextReceivedDate": "2025-03-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

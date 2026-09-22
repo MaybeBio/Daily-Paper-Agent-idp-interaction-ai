@@ -1,0 +1,230 @@
+{
+  "identity": {
+    "pmid": "40769718",
+    "doi": "10.1261/rna.080578.125",
+    "title": "Caenorhabditis elegans FBF-1 and FBF-2 C-terminal intrinsically disordered regions differentially regulate RNA-binding affinity."
+  },
+  "content": {
+    "abstract": "PUF proteins (named for Drosophila melanogaster Pumilio and Caenorhabditis elegans fem-3 mRNA binding factor or FBF) are a family of RNA-binding proteins. C. elegans FBF is a collective term for two PUF proteins, FBF-1 and FBF-2, that maintain germline stem cells. FBF binds the 3'UTR of target RNAs and together with partner proteins represses translation of mRNAs that promote differentiation. Until recently, little was known about the functions of the FBF C-terminal intrinsically disordered regions that follow the RNA-binding domain (RBD). Despite high overall protein sequence conservation (91% identical residues), the FBF-1 and FBF-2 C-terminal tails (CTs) are distinct, and the FBF-2 CT is essential for its function. The FBF-2 CT contains a PUF-interacting motif (PIM) that binds its own RBD and autoinhibits RNA-binding affinity. Here we investigated whether differences in the FBF-1 and FBF-2 CTs impact molecular function. Unlike FBF-2, the FBF-1 CT had no impact on RNA binding. Despite this, a crystal structure of FBF-1 demonstrated that a PIM in the FBF-1 CT binds to its RBD, like FBF-2. By creating FBF-1/FBF-2 chimeric proteins, we discovered that the FBF-2 CT can autoinhibit FBF-1 RNA binding, and substitution of the FBF-1 PIM for the FBF-2 PIM diminished FBF-2 autoinhibition. Our results exemplify how RBP paralogs diverge to fine-tune their RNA-binding activities.",
+    "keywords": [
+      "PUF protein",
+      "RNA-binding protein",
+      "fem-3 binding factor",
+      "intrinsically disordered region"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Caenorhabditis elegans Proteins/metabolism/chemistry/genetics",
+      "*Caenorhabditis elegans/genetics/metabolism",
+      "*RNA-Binding Proteins/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "Amino Acid Sequence",
+      "3' Untranslated Regions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hawthorne, Hope R",
+        "Qiu, Chen",
+        "Tanaka Hall, Traci M"
+      ],
+      "short_names": [
+        "Hawthorne HR",
+        "Qiu C",
+        "Tanaka Hall TM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6166-3009"
+      ],
+      "affiliations": [
+        "Epigenetics and RNA Biology Laboratory, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, North Carolina 27709, USA.",
+        "Epigenetics and RNA Biology Laboratory, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, North Carolina 27709, USA.",
+        "Epigenetics and RNA Biology Laboratory, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, North Carolina 27709, USA hall4@niehs.nih.gov."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hawthorne, Hope R",
+        "short_name": "Hawthorne HR",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and RNA Biology Laboratory, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, North Carolina 27709, USA."
+        ]
+      },
+      {
+        "full_name": "Qiu, Chen",
+        "short_name": "Qiu C",
+        "identifiers": [],
+        "affiliations": [
+          "Epigenetics and RNA Biology Laboratory, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, North Carolina 27709, USA."
+        ]
+      },
+      {
+        "full_name": "Tanaka Hall, Traci M",
+        "short_name": "Tanaka Hall TM",
+        "identifiers": [
+          "0000-0001-6166-3009"
+        ],
+        "affiliations": [
+          "Epigenetics and RNA Biology Laboratory, National Institute of Environmental Health Sciences, National Institutes of Health, Research Triangle Park, North Carolina 27709, USA hall4@niehs.nih.gov."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "RNA (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "RNA"
+    ],
+    "pub_date": "2025 Sep 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/07 00:27",
+    "fetched_at": "2026-09-21 22:09:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40769718",
+      "37953271",
+      "23159559",
+      "23159558",
+      "12050669",
+      "22205700",
+      "15769874",
+      "39747099",
+      "41495898",
+      "31740451",
+      "19901328",
+      "12431376",
+      "34908132",
+      "39984282",
+      "31397673",
+      "27165521",
+      "20431119",
+      "16037210",
+      "32804074",
+      "22991439",
+      "34478557",
+      "27864381",
+      "18579869",
+      "38427913",
+      "10508609",
+      "17412319",
+      "20427513",
+      "15525531",
+      "23696350",
+      "30459181",
+      "38290520",
+      "30652968",
+      "17234175",
+      "11157761",
+      "20142496",
+      "18166083",
+      "21372189",
+      "19221201",
+      "22467831",
+      "16908630",
+      "21968099",
+      "29232700",
+      "33231880",
+      "22797076",
+      "19100255",
+      "9393998",
+      "31515205",
+      "21653694",
+      "24638209",
+      "12546787",
+      "19146813",
+      "23444359",
+      "12088146",
+      "40192507",
+      "26268245",
+      "19369425",
+      "38915480",
+      "15454534",
+      "22708079",
+      "21350339",
+      "29775245",
+      "19461891",
+      "22496444",
+      "37070766",
+      "14584586",
+      "16000383",
+      "16244662",
+      "28003515",
+      "12762036",
+      "27294288",
+      "23050230",
+      "11105754",
+      "14511482",
+      "22231398",
+      "29385744",
+      "24942623",
+      "25254367",
+      "36063869",
+      "32294479",
+      "21911377",
+      "16319922",
+      "39617253",
+      "31294800",
+      "25445286",
+      "32039211",
+      "28782521",
+      "20921392",
+      "21455289",
+      "23731364",
+      "11040214",
+      "26068572",
+      "24254995",
+      "16641369",
+      "12239571",
+      "24131629",
+      "36766775",
+      "31975687",
+      "35816006",
+      "30924287",
+      "32117964"
+    ],
+    "review": [
+      "40769718",
+      "24638209",
+      "21350339",
+      "14584586",
+      "29385744",
+      "23731364",
+      "30924287"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://www.rnajournal.org/cgi/pmidlookup?view=long&pmid=40769718",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TTR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

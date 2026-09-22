@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supplementary figure legends as referenced)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no external data or unpublished materials consulted
+- **Shared manuscript claim summary** The authors propose a reciprocal regulatory relationship between clathrin assembly and protein condensates formed by endocytic accessory proteins. They report that Eps15 condensates concentrate clathrin triskelia and facilitate their assembly into lattices and baskets at the condensate surface, and that clathrin assembly in turn stabilizes condensates and arrests their growth. They further report that AP2, when activated by Fcho2, enhances condensate-mediated clathrin assembly.
+- **Visible evidence base** In vitro reconstitution assays, confocal fluorescence microscopy, FRAP, DLS, TEM with FFT analysis, NMR spectroscopy (TROSY, CSP, 15N R1ρ relaxation), FCS
+- **Missing materials affecting confidence** Figures and supplementary figures are referenced but not provided; quantitative data (e.g., partition coefficients, statistical analyses, replicate numbers for key experiments) are largely absent from the text; NMR assignment transfer details and full titration data not shown; no raw data or statistical methods section
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and interesting question at the interface of phase separation and clathrin-mediated endocytosis. The central hypothesis, that condensates of endocytic proteins serve as platforms for clathrin assembly and that clathrin in turn constrains condensate growth, is conceptually appealing and potentially significant. The combination of reconstitution, imaging, and NMR approaches is ambitious. However, the evidence as presented in the text is incomplete in several critical respects. Key claims regarding the specificity of the Eps15-clathrin interaction, the mechanism of condensate-mediated assembly, and the surfactant-like behavior of clathrin are not fully supported by the quantitative data described. The manuscript would benefit from clearer presentation of controls, statistical rigor, and a more direct test of the proposed reciprocal regulation.
+- **Who would be interested in the results, and why** Researchers in membrane trafficking, clathrin biology, and the growing field of biomolecular condensates. The work bridges two communities and could inform how phase-separated assemblies interface with structured protein complexes in cellular architecture. The potential connection to endocytic site maturation and size control would interest cell biologists studying endocytosis.
+- **Major strengths** The question is well motivated and timely. The use of multiple orthogonal techniques (microscopy, DLS, TEM, NMR) is commendable. The observation that clathrin triskelia partition into condensates while assembled baskets are excluded is a clean and interesting finding. The demonstration that AP2 and Fcho2 modulate clathrin assembly within condensates extends the work toward more physiologically relevant compositions. The reciprocal design, examining both condensate-driven assembly and clathrin-driven growth restriction, is conceptually strong.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that Eps15 condensates facilitate clathrin assembly into lattices and baskets at the condensate surface, and that this assembly is driven by a specific interaction between Eps15's IDR and clathrin's N-terminal domain.
+  - **Evidence pointer** Results sections "Eps15 triskelia are incorporated into condensates while clathrin baskets are excluded", "Eps15 interacts specifically with the N-terminal domain of the clathrin heavy chain", "Eps15 condensates facilitate clathrin assembly"; Figures 1-5 (not provided)
+  - **Concern** The text describes NMR experiments showing interaction between Eps15 IDR and TD40, but the data presented are qualitative. The claim of a "previously undocumented molecular interaction" requires demonstration of specificity, including appropriate negative controls (e.g., a non-interacting IDR or a mutated Eps15 IDR). The functional link between this interaction and condensate-mediated assembly is inferred but not directly tested. For example, does mutation of the identified Eps15 IDR region abolish clathrin recruitment to condensates? The TEM data showing lattices on condensate surfaces are described, but the quantification of these structures and the distinction between bona fide clathrin lattices and other protein aggregates is not clear from the text.
+  - **Why it matters** The central claim of the paper rests on the specificity and functional relevance of the Eps15-clathrin interaction within condensates. Without direct evidence linking the NMR-identified interaction to the observed assembly, the mechanistic model is not established.
+  - **Resolution test** Provide mutagenesis data disrupting the identified Eps15 IDR-TD40 interaction and show loss of clathrin recruitment and assembly in condensates. Include negative controls in NMR titrations (e.g., unrelated IDR or TD40 mutant). Quantify TEM lattice coverage and compare to appropriate controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The authors claim that clathrin acts as a surfactant, stabilizing condensates and arresting their growth, and that this results in condensates with physiologically relevant dimensions.
+  - **Evidence pointer** Results section "Clathrin stabilizes condensates and arrests their growth"; Figure 7 (not provided)
+  - **Concern** The text reports that increasing clathrin concentration reduces final condensate size and that at a 1:1 ratio, growth is arrested below the diffraction limit. However, the quantitative data supporting this are not presented in the text. The melting temperature measurements show an increase from 32°C to 37°C with clathrin, but the stoichiometry and conditions are not fully described. The claim of "physiologically relevant dimensions" is not supported by any direct comparison to endocytic pit sizes in cells or by a mechanistic model. The surfactant analogy is invoked but not rigorously tested, for example by varying clathrin concentration systematically and measuring interfacial properties or by testing whether the effect is specific to clathrin's assembly properties.
+  - **Why it matters** The reciprocal regulation, specifically the growth arrest, is a key conceptual advance. Without quantitative dose-response data and a clear mechanistic explanation, the surfactant model remains speculative.
+  - **Resolution test** Provide full dose-response curves of condensate size versus clathrin concentration with appropriate statistics. Test whether a non-assembling clathrin mutant (e.g., lacking the terminal domain or with disrupted assembly) fails to arrest growth. Provide a quantitative model or direct comparison to cellular endocytic pit dimensions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Control adequacy
+  - **Claim pointer** The authors claim that AP2, when activated by Fcho2, enhances condensate-mediated clathrin assembly, and that this effect requires Fcho2-mediated opening of AP2.
+  - **Evidence pointer** Results section "AP2 Enhances condensate-mediated clathrin assembly"; Figure 6 (not provided)
+  - **Concern** The text reports that AP2 alone does not enhance assembly (37% exclusion) while AP2 with Fcho2 does (94%). However, the text does not describe controls for the specificity of Fcho2's effect. Is Fcho2 simply increasing the local concentration of AP2 in condensates, or is the conformational change in AP2 specifically required? The experiment with AP2βHE, which lacks the regulatory domains, is informative but the text does not state whether AP2βHE alone (without Fcho2) was tested. The statistical comparison between conditions is mentioned (p values) but the number of replicates and the nature of the statistical test are not described.
+  - **Why it matters** The claim that Fcho2 acts as a conformational switch within condensates is important for the physiological relevance of the findings. Without appropriate controls, alternative explanations (e.g., concentration effects) cannot be excluded.
+  - **Resolution test** Include AP2βHE alone condition. Test a constitutively open AP2 mutant. Provide replicate numbers and statistical methods for all comparisons.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "protein networks" in the title and abstract is vague. The authors likely mean condensates or protein assemblies, but the term is not defined.
+  - **Required correction** Define "protein networks" or use more precise terminology such as "protein condensates" or "protein assemblies."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, NMR spectroscopy
+  - **Evidence pointer** Methods section "NMR spectroscopy"
+  - **Issue** The text states "Combined chemical shift perturbations (CSPs) were calculated using" and the formula is missing. This appears to be an incomplete sentence.
+  - **Required correction** Complete the sentence with the CSP formula and reference.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, FRAP data
+  - **Evidence pointer** Results section "Clathrin triskelia are incorporated into condensates while clathrin baskets are excluded"
+  - **Issue** The FRAP recovery values for Eps15 are reported as percentages with standard deviations, but the number of replicates and the method of normalization are not described in the text.
+  - **Required correction** Specify the number of independent experiments and the normalization procedure in the methods or figure legends.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The authors state that clathrin "imposes the preferred curvature of the clathrin lattice" on condensates. This is a strong claim that is not directly tested. The TEM data show lattice-like structures, but the curvature of the underlying condensate is not measured.
+  - **Required correction** Soften the language or provide direct measurements of condensate curvature in the presence and absence of clathrin.
+- **Technical failings that need to be addressed before the case is established** The manuscript lacks quantitative data in the text for several key claims, including partition coefficients, dose-response curves, and statistical comparisons. The NMR interaction data require specificity controls and functional validation. The link between the molecular interaction and the observed assembly is not directly tested. The surfactant model requires more rigorous testing.
+- **Assessment against Nature-style criteria** Originality: The concept of reciprocal regulation between condensates and clathrin coats is novel and would be of interest to a broad readership. Scientific importance: If established, the findings could reshape understanding of how endocytic sites are sized and matured. However, the current evidence is insufficient to fully establish the claims. Interdisciplinary readership: The work bridges biophysics, cell biology, and membrane trafficking, which would appeal to a broad audience. Technical soundness: The techniques are appropriate, but the presentation of data and controls is incomplete. Readability for nonspecialists: The manuscript is generally well written, but some terms and concepts could be better explained for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising and the preliminary data are intriguing, but the current evidence does not fully establish the central claims. The authors should address the specificity of the Eps15-clathrin interaction, provide quantitative dose-response data for the surfactant model, and include appropriate controls for the AP2/Fcho2 experiments.
+
+## Risk / unsupported claims
+- The claim of a "previously undocumented molecular interaction" between Eps15 IDR and TD40 is not fully supported without specificity controls and functional validation.
+- The claim that clathrin "imposes the preferred curvature of the clathrin lattice" on condensates is not directly measured.
+- The claim that condensate-mediated assembly produces structures with "physiologically relevant dimensions" is not supported by direct comparison to cellular structures.
+- The surfactant model for clathrin behavior is invoked but not rigorously tested.
+- The statement that AP2's clathrin-assembly function "persists within the condensate environment" is inferred from indirect measurements and requires direct demonstration.

@@ -1,0 +1,641 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.02.15.528697",
+  "title": "Identifying Promising Sequences For Protein Engineering Using A Deep Transformer Protein Language Model",
+  "doi": "10.1101/2023.02.15.528697",
+  "abstract": "Protein engineers aim to discover and design novel sequences with targeted, desirable properties. Given the near limitless size of the protein sequence landscape, it is no surprise that these desirable sequences are often a relative rarity. This makes identifying such sequences a costly and time-consuming endeavor. In this work, we show how to use a deep Transformer Protein Language Model to identify sequences that have the most promise . Specifically, we use the model’s self-attention map to calculate a PROMISE SCORE that weights the relative importance of a given sequence according to predicted interactions with a specified binding partner. This PROMISE SCORE can then be used to identify strong binders worthy of further study and experimentation. We use the PROMISE SCORE within two protein engineering contexts— Nanobody (Nb) discovery and protein optimization. With Nb discovery, we show how the PROMISE SCORE provides an effective way to select lead sequences from Nb repertoires. With protein optimization, we show how to use the PROMISE SCORE to select site-specific mutagenesis experiments that identify a high percentage of improved sequences. In both cases, we also show how the self-attention map used to calculate the PROMISE SCORE can indicate which regions of a protein are involved in intermolecular interactions that drive the targeted property. Finally, we describe how to fine-tune the Transformer Protein Language Model to learn a predictive model for the targeted property, and discuss the capabilities and limitations of fine-tuning with and without knowledge transfer within the context of protein engineering.",
+  "authors": [
+    "Trevor S. Frisby",
+    "Christopher James Langmead"
+  ],
+  "published_date": "2023-02-16",
+  "updated_date": "2023-02-16T13:50:21Z",
+  "journal": "bioRxiv",
+  "category": "Bioengineering",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.02.15.528697",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.02.15.528697.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioengineering"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioengineering",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:25:08Z",
+        "timestamp": 1768505108627,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            16
+          ]
+        ]
+      },
+      "group-title": "Bioengineering",
+      "reference-count": 66,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Protein engineers aim to discover and design novel sequences with targeted, desirable properties. Given the near limitless size of the protein sequence landscape, it is no surprise that these desirable sequences are often a relative rarity. This makes identifying such sequences a costly and time-consuming endeavor. In this work, we show how to use a deep Transformer Protein Language Model to identify sequences that have the most\n                  <jats:italic>promise</jats:italic>\n                  . Specifically, we use the model’s self-attention map to calculate a PROMISE SCORE that weights the relative importance of a given sequence according to predicted interactions with a specified binding partner. This PROMISE SCORE can then be used to identify strong binders worthy of further study and experimentation. We use the PROMISE SCORE within two protein engineering contexts— Nanobody (Nb) discovery and protein optimization. With Nb discovery, we show how the PROMISE SCORE provides an effective way to select lead sequences from Nb repertoires. With protein optimization, we show how to use the PROMISE SCORE to select site-specific mutagenesis experiments that identify a high percentage of improved sequences. In both cases, we also show how the self-attention map used to calculate the PROMISE SCORE can indicate which regions of a protein are involved in intermolecular interactions that drive the targeted property. Finally, we describe how to fine-tune the Transformer Protein Language Model to learn a predictive model for the targeted property, and discuss the capabilities and limitations of fine-tuning with and without knowledge transfer within the context of protein engineering.\n                </jats:p>",
+      "DOI": "10.1101/2023.02.15.528697",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            16
+          ]
+        ],
+        "date-time": "2023-02-16T13:50:21Z",
+        "timestamp": 1676555421000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Identifying Promising Sequences For Protein Engineering Using A Deep Transformer Protein Language Model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-2865-6955",
+          "authenticated-orcid": false,
+          "given": "Trevor S.",
+          "family": "Frisby",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7521-6736",
+          "authenticated-orcid": false,
+          "given": "Christopher James",
+          "family": "Langmead",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.yexcr.2011.02.013"
+        },
+        {
+          "issue": "4",
+          "key": "2023021812050648000_2023.02.15.528697v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "55",
+          "DOI": "10.3390/antib8040055",
+          "article-title": "Antibody structure and function: the basis for engineering therapeutics",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "Antibodies"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12929-019-0592-z"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41587-020-0512-5"
+        },
+        {
+          "issue": "1",
+          "key": "2023021812050648000_2023.02.15.528697v1.5",
+          "first-page": "33",
+          "article-title": "Converting enzymes into tools of industrial importance",
+          "volume": "12",
+          "year": "2018",
+          "journal-title": "Recent Pat. Biotechnol."
+        },
+        {
+          "issue": "213039",
+          "key": "2023021812050648000_2023.02.15.528697v1.6",
+          "first-page": "213039",
+          "article-title": "Engineering of nanoscale coordination polymers with biomolecules for advanced applications",
+          "volume": "399",
+          "year": "2019",
+          "journal-title": "Coord. Chem. Rev"
+        },
+        {
+          "issue": "9",
+          "key": "2023021812050648000_2023.02.15.528697v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "20774",
+          "DOI": "10.3390/ijms160920774",
+          "article-title": "Recombinant lipases and phospholipases and their use as biocatalysts for industrial applications",
+          "volume": "16",
+          "year": "2015",
+          "journal-title": "Int. J. Mol. Sci"
+        },
+        {
+          "issue": "1",
+          "key": "2023021812050648000_2023.02.15.528697v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "22",
+          "DOI": "10.1016/j.tibtech.2021.02.008",
+          "article-title": "Enzyme discovery and engineering for sustainable plastic recycling",
+          "volume": "40",
+          "year": "2022",
+          "journal-title": "Trends in biotechnology"
+        },
+        {
+          "issue": "4",
+          "key": "2023021812050648000_2023.02.15.528697v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "3519",
+          "DOI": "10.1021/acscatal.9b00568",
+          "article-title": "Rational protein engineering of thermo-stable petase from ideonella sakaiensis for highly efficient pet degradation",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "ACS Catalysis"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc3930"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.02.034"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.xphs.2019.05.031"
+        },
+        {
+          "issue": "11",
+          "key": "2023021812050648000_2023.02.15.528697v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "108856",
+          "DOI": "10.1016/j.celrep.2021.108856",
+          "article-title": "A compact vocabulary of paratope-epitope interactions enables predictability of antibody-antigen binding",
+          "volume": "34",
+          "year": "2021",
+          "journal-title": "Cell Rep"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Inbal Sela-Culang , Vered Kunik , and Yanay Ofran . The structural basis of antibody-antigen recognition. Frontiers in Immunology, 4, 2013.",
+          "DOI": "10.3389/fimmu.2013.00302"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Emily Y. Yang and Khalid Shah . Nanobodies: Next generation of cancer diagnostics and therapeutics. Frontiers in Oncology, 10, 2020.",
+          "DOI": "10.3389/fonc.2020.01182"
+        },
+        {
+          "issue": "1",
+          "key": "2023021812050648000_2023.02.15.528697v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "11",
+          "DOI": "10.1007/s40259-019-00392-z",
+          "article-title": "The therapeutic potential of nanobodies",
+          "volume": "34",
+          "year": "2020",
+          "journal-title": "BioDrugs"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0033583519000131"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "100558",
+          "DOI": "10.1016/j.jbc.2021.100558",
+          "article-title": "Recent advances in de novo protein design: Principles, methods, and applications",
+          "volume": "296",
+          "year": "2021",
+          "journal-title": "Journal of Biological Chemistry"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/anie.201708408"
+        },
+        {
+          "issue": "3",
+          "key": "2023021812050648000_2023.02.15.528697v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "181",
+          "DOI": "10.1016/j.bcab.2012.03.010",
+          "article-title": "Site saturation mutagenesis: Methods and applications in protein engineering",
+          "volume": "1",
+          "year": "2012",
+          "journal-title": "Biocatalysis and Agricultural Biotechnology"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/abio.1997.2428"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1385/1592590381"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2144/99264st03"
+        },
+        {
+          "issue": "8",
+          "key": "2023021812050648000_2023.02.15.528697v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "801",
+          "DOI": "10.1038/nmeth.3027",
+          "article-title": "Deep mutational scanning: a new style of protein science",
+          "volume": "11",
+          "year": "2014",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1708268114"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lucas F. Ribeiro , Liliane F. C. Ribeiro , Matheus Q. Barreto , and Richard J. Ward . Protein engineering strategies to expand crispr-cas9 applications. International Journal of Genomics, 2018:1652567, Aug 2018.",
+          "DOI": "10.1155/2018/1652567"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1359-6446(05)03484-7"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "issue": "12",
+          "key": "2023021812050648000_2023.02.15.528697v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "1711",
+          "DOI": "10.1002/prot.26257",
+          "article-title": "Applying and improving AlphaFold at CASP14",
+          "volume": "89",
+          "year": "2021",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1901979116"
+        },
+        {
+          "issue": "1",
+          "key": "2023021812050648000_2023.02.15.528697v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.1186/s13015-021-00195-4",
+          "article-title": "Bayesian optimization with evolutionary and structure-based regularization for directed protein evolution",
+          "volume": "16",
+          "year": "2021",
+          "journal-title": "Algorithms for Molecular Biology"
+        },
+        {
+          "issue": "Suppl_1",
+          "key": "2023021812050648000_2023.02.15.528697v1.32",
+          "first-page": "i451",
+          "article-title": "Asynchronous parallel bayesian optimization for AI-driven cloud laboratories",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.146.3651.1593"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/2.3.193"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gr.7205808"
+        },
+        {
+          "issue": "4",
+          "key": "2023021812050648000_2023.02.15.528697v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "1061",
+          "DOI": "10.1002/prot.22934",
+          "article-title": "Learning generative models for protein fold families",
+          "volume": "79",
+          "year": "2011",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "issue": "D1",
+          "key": "2023021812050648000_2023.02.15.528697v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "D158",
+          "DOI": "10.1093/nar/gkw1099",
+          "article-title": "UniProt: the universal protein knowledgebase",
+          "volume": "45",
+          "author": "The UniProt Consortium",
+          "year": "2016",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.38",
+          "unstructured": "Jacob Devlin , Ming-Wei Chang , Kenton Lee , and Kristina Toutanova . Bert: Pre-training of deep bidirectional transformers for language understanding, 2018."
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.39",
+          "unstructured": "Yinhan Liu , Myle Ott , Naman Goyal , Jingfei Du , Mandar Joshi , Danqi Chen , Omer Levy , Mike Lewis , Luke Zettlemoyer , and Veselin Stoyanov . Roberta: A robustly optimized bert pretraining approach, 2019."
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Anthony Gillioz , Jacky Casas , Elena Mugellini , and Omar Abou Khaled . Overview of the transformer-based models for nlp tasks. In 2020 15th Conference on Computer Science and Information Systems (FedCSIS), pages 179–183, 2020.",
+          "DOI": "10.15439/2020F20"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.41",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Thomas Wolf , Lysandre Debut , Victor Sanh , Julien Chaumond , Clement Delangue , Anthony Moi , Pierric Cistac , Tim Rault , Rémi Louf , Morgan Funtowicz , et al. Huggingface’s transformers: State-of-the-art natural language processing. arXiv, 2019.",
+          "DOI": "10.18653/v1/2020.emnlp-demos.6"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.43",
+          "unstructured": "Ashish Vaswani , Noam Shazeer , Niki Parmar , Jakob Uszkoreit , Llion Jones , Aidan N Gomez , Ł ukasz Kaiser , and Illia Polosukhin . Attention is all you need. In I. Guyon , U. Von Luxburg , S. Bengio , H. Wallach , R. Fergus , S. Vishwanathan , and R. Garnett , editors, Advances in Neural Information Processing Systems, volume 30. Curran Associates, Inc., 2017."
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.44",
+          "first-page": "1877",
+          "volume-title": "Advances in Neural Information Processing Systems",
+          "volume": "33",
+          "year": "2020"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.45",
+          "unstructured": "Yen-Chun Chen , Zhe Gan , Yu Cheng , Jingzhou Liu , and Jingjing Liu . Distilling the knowledge of BERT for text generation. CoRR, abs/1911.03829, 2019."
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.46",
+          "unstructured": "Ting Chen , Simon Kornblith , Kevin Swersky , Mohammad Norouzi , and Geoffrey Hinton . Big self-supervised models are strong semi-supervised learners. In Proceedings of the 34th International Conference on Neural Information Processing Systems, NIPS’20, Red Hook, NY, USA, 2020. Curran Associates Inc."
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.47",
+          "first-page": "9689",
+          "article-title": "Evaluating protein transfer learning with TAPE",
+          "volume": "32",
+          "year": "2019",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.48",
+          "first-page": "8024",
+          "volume-title": "Advances in Neural Information Processing Systems",
+          "volume": "32",
+          "year": "2019"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.49",
+          "unstructured": "Ilya Loshchilov and Frank Hutter . Decoupled weight decay regularization, 2017."
+        },
+        {
+          "issue": "3",
+          "key": "2023021812050648000_2023.02.15.528697v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "220",
+          "DOI": "10.1016/j.cels.2021.01.003",
+          "article-title": "Integrative proteomics identifies thousands of distinct, multi-epitope, and high-affinity nanobodies",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.115.175802"
+        },
+        {
+          "issue": "5",
+          "key": "2023021812050648000_2023.02.15.528697v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "1295",
+          "DOI": "10.1016/j.cell.2020.08.012",
+          "article-title": "Deep mutational scanning of sars-cov-2 receptor binding domain reveals constraints on folding and ace2 binding",
+          "volume": "182",
+          "year": "2020",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/elps.11501401163"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/elps.1150150171"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.55",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhenwei Zhong , Yue Yang , Xiaorui Chen , Zhen Han , Jincai Zhou , Bohua Li , and Xiaowen He . Positive charge in the complementarity-determining regions of synthetic nanobody prevents aggregation. Biochemical and Biophysical Research Communications, 572:1–6, 2021.",
+          "DOI": "10.1016/j.bbrc.2021.07.054"
+        },
+        {
+          "issue": "7",
+          "key": "2023021812050648000_2023.02.15.528697v1.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "2198",
+          "DOI": "10.3390/molecules27072198",
+          "article-title": "Structural insights into the design of synthetic nanobody libraries",
+          "volume": "27",
+          "year": "2022",
+          "journal-title": "Molecules"
+        },
+        {
+          "issue": "2",
+          "key": "2023021812050648000_2023.02.15.528697v1.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "141",
+          "DOI": "10.1002/prot.340190207",
+          "article-title": "Accuracy of protein flexibility predictions",
+          "volume": "19",
+          "year": "1994",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsb1001-833"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2180-5"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1342"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.61",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tomer Cohen , Matan Halfon , and Dina Schneidman-Duhovny . Nanonet: Rapid and accurate end-to-end nanobody modeling by deep learning. Frontiers in Immunology, 13, 2022.",
+          "DOI": "10.3389/fimmu.2022.958584"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/19420862.2015.1046648"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.63",
+          "first-page": "29287",
+          "volume-title": "Advances in Neural Information Processing Systems",
+          "volume": "34",
+          "year": "2021"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.64",
+          "unstructured": "Zeming Lin , Halil Akin , Roshan Rao , Brian Hie , Zhongkai Zhu , Wenting Lu , Nikita Smetanin , Robert Verkuil , Ori Kabeli , Yaniv Shmueli , Allan dos Santos Costa , Maryam Fazel-Zarandi , Tom Sercu , Salvatore Candido , and Alexander Rives . Evolutionary-scale prediction of atomic level protein structure with a language model. bioRxiv, 2022."
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.65",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chloe Hsu , Robert Verkuil , Jason Liu , Zeming Lin , Brian Hie , Tom Sercu , Adam Lerer , and Alexander Rives . Learning inverse folding from millions of predicted structures. In Kamalika Chaudhuri , Stefanie Jegelka , Le Song , Csaba Szepesvari , Gang Niu , and Sivan Sabato , editors, Proceedings of the 39th International Conference on Machine Learning, volume 162 of Proceedings of Machine Learning Research, pages 8946–8970. PMLR, 17–23 Jul 2022.",
+          "DOI": "10.1101/2022.04.10.487779"
+        },
+        {
+          "key": "2023021812050648000_2023.02.15.528697v1.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "64323",
+          "DOI": "10.1109/ACCESS.2019.2917620",
+          "article-title": "Diversity in machine learning",
+          "volume": "7",
+          "year": "2019",
+          "journal-title": "IEEE Access"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.02.15.528697",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:16:53Z",
+        "timestamp": 1768450613000
+      },
+      "score": 67.281685,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.02.15.528697"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            16
+          ]
+        ]
+      },
+      "references-count": 66,
+      "URL": "https://doi.org/10.1101/2023.02.15.528697",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1002/prot.26536",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

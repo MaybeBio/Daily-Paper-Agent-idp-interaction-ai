@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.27.702026",
+  "title": "The missing link between biomolecular condensates and amyloid fibrils",
+  "authors": "Hoti A; Zang S; Prantl E; Grunëwald M; Kros A; Risselada HJ; Sevink GJA",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-29",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用物理模拟(Evo-MD)与AlphaFold研究两亲性朊病毒样结构域介导的凝聚体向淀粉样纤维成熟过程，揭示无序蛋白互作机制从相分离到病理聚集的连续谱，与本课题的IDR-PPI机制建模高度相关。",
+  "abstract": "The traditional view of protein self-assembly posits a binary choice between phase separation into fluid condensates and nucleation into crystalline amyloid fibers. However, this framework is incomplete. Experiments show that liquid condensates are non-equilibrium systems that mature into solid-like structures mediated by amphiphilic prion-like domains (PLDs). Being spatially organized yet dynamic, lyotropic phases represent an intermediate regime between these states. Using physics-based de novo protein design (Evo-MD), we identify a vast amphiphilic motif space encoding fluid lyotropic phases (e.g., micelles and bicelles). TEM, CD, and AlphaFold predictions confirm that these motifs also assemble into amyloid-based hydrogels as thermodynamic endpoints. Notably, the molecular grammar of lyotropic motifs overlaps strongly with that of PLDs and LARKS. Thus, while PLDs likely evolved to stabilize condensates through transient interactions near criticality, our results show that these same amphiphilic forces inherently encode lyotropic structuring and subsequent amyloid formation — linking functional condensation with pathological aggregation.",
+  "abstract_zh": "关于蛋白质自组装的传统观点认为，在流体凝聚体中的相分离与结晶性淀粉样纤维的成核之间存在二元选择。然而，这一框架并不完整。实验表明，液体凝聚体是非平衡系统，它们通过两亲性朊病毒样结构域（PLDs）成熟为固体状结构。溶致液晶相在空间上有序却动态变化，代表了这些状态之间的中间区域。利用基于物理学的从头蛋白质设计（Evo-MD），我们识别出编码流体溶致液晶相（如胶束和双分子层片）的广阔两亲性基序空间。TEM、CD和AlphaFold预测证实，这些基序也组装成以淀粉样为基础的水凝胶，作为热力学终点。值得注意的是，溶致液晶基序的分子语法与PLDs和LARKS的分子语法高度重叠。因此，尽管PLDs可能通过接近临界点的瞬态相互作用进化以稳定凝聚体，我们的结果表明，这些相同的两亲性力量固有地编码了溶致液晶结构及随后的淀粉样形成——将功能性凝聚与病理性聚集联系起来。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.27.702026",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.27.702026",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.27.702026/index.html"
+}

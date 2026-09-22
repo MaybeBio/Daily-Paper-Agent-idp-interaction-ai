@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2105.13427v2",
+  "title": "Small-Angle X-Ray Scattering Signatures of Conformational Heterogeneity and Homogeneity of Disordered Protein Ensembles",
+  "authors": "Jianhui Song; Jichen Li; Hue Sun Chan",
+  "journal": "J. Phys. Chem. B 125, 6451-6478 (2021)",
+  "published_date": "2021-05-27",
+  "window": {
+    "start": "2021-05-24",
+    "end": "2021-05-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过链模型模拟和解析微扰理论，研究无序蛋白构象集合的异质性/均质性及其SAXS分子形状因子特征，虽聚焦构象而非直接PPI，但为无序蛋白构象集合的物理建模提供了可迁移的方法学启发。",
+  "abstract": "Physically, disordered ensembles of non-homopolymeric polypeptides are expected to be heterogeneous; i.e., they should differ from those homogeneous ensembles of homopolymers that harbor an essentially unique relationship between average values of end-to-end distance $R_{\\rm EE}$ and radius of gyration $R_{\\rm g}$. It was posited recently, however, that small-angle X-ray scattering (SAXS) data on conformational dimensions of disordered proteins can be rationalized almost exclusively by homopolymer ensembles. Assessing this perspective, chain-model simulations are used to evaluate the discriminatory power of SAXS-determined molecular form factors (MFFs) with regard to homogeneous versus heterogeneous ensembles. The general approach adopted here is not bound by any assumption about ensemble encodability, in that the postulated heterogeneous ensembles we evaluated are not restricted to those entailed by simple interaction schemes. Our analysis of MFFs for certain heterogeneous ensembles with more narrowly distributed $R_{\\rm EE}$ and $R_{\\rm g}$ indicates that while they deviates from MFFs of homogeneous ensembles, the differences can be rather small. Remarkably, some heterogeneous ensembles with asphericity and $R_{\\rm EE}$ drastically different from those of homogeneous ensembles can nonetheless exhibit practically identical MFFs, demonstrating that SAXS MFFs do not afford unique characterizations of basic properties of conformational ensembles in general. In other words, the ensemble to MFF mapping is practically many-to-one and likely non-smooth. Heteropolymeric variations of the $R_{\\rm EE}$--$R_{\\rm g}$ relationship were further showcased using an analytical perturbation theory developed here for flexible heteropolymers. Ramifications of our findings for interpretation of experimental data are discussed.",
+  "abstract_zh": "物理上，非均聚多肽的无序集合体预期是异质的；即，它们应不同于那些均聚物的均质集合体，后者在内末端距 $R_{\\rm EE}$ 与回转半径 $R_{\\rm g}$ 的平均值之间具有本质上唯一的关系。然而，最近有人提出，关于无序蛋白质构象维度的小角X射线散射（SAXS）数据几乎可以完全通过均聚物集合体来合理化。为评估这一观点，我们使用链模型模拟来评估SAXS确定的分子形状因子（MFFs）在区分均质与异质集合体方面的判别能力。这里采用的通用方法不受任何关于集合体可编码性假设的约束，因为我们评估的假设异质集合体不限于简单相互作用方案所蕴含的那些。我们对某些具有更窄分布 $R_{\\rm EE}$ 和 $R_{\\rm g}$ 的异质集合体的MFFs分析表明，尽管它们偏离均质集合体的MFFs，但差异可能相当小。值得注意的是，一些具有与均质集合体显著不同的非球形度和 $R_{\\rm EE}$ 的异质集合体，却可能表现出几乎相同的MFFs，这表明SAXS MFFs通常不能提供构象集合体基本属性的唯一表征。换句话说，集合体到MFF的映射实际上是多对一的，且可能非光滑。我们进一步通过为柔性异聚物开发的解析微扰理论，展示了 $R_{\\rm EE}$--$R_{\\rm g}$ 关系的异聚物变异。讨论了我们的发现对实验数据解释的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2105.13427v2",
+  "source_url": "https://arxiv.org/abs/2105.13427v2",
+  "paper_page_path": "papers/arxiv/2105.13427v2/index.html"
+}

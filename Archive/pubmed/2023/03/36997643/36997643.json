@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "36997643",
+    "doi": "10.1038/s42003-023-04720-6",
+    "title": "Mutual induced-fit mechanism drives binding between intrinsically disordered Bim and cryptic binding site of Bcl-xL."
+  },
+  "content": {
+    "abstract": "The intrinsically disordered region (IDR) of Bim binds to the flexible cryptic site of Bcl-xL, a pro-survival protein involved in cancer progression that plays an important role in initiating apoptosis. However, their binding mechanism has not yet been elucidated. We have applied our dynamic docking protocol, which correctly reproduced both the IDR properties of Bim and the native bound configuration, as well as suggesting other stable/meta-stable binding configurations and revealed the binding pathway. Although the cryptic site of Bcl-xL is predominantly in a closed conformation, initial binding of Bim in an encounter configuration leads to mutual induced-fit binding, where both molecules adapt to each other; Bcl-xL transitions to an open state as Bim folds from a disordered to an alpha-helical conformation while the two molecules bind each other. Finally, our data provides new avenues to develop novel drugs by targeting newly discovered stable conformations of Bcl-xL.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Apoptosis",
+      "*Apoptosis Regulatory Proteins/metabolism",
+      "bcl-X Protein",
+      "Binding Sites",
+      "Protein Domains",
+      "Bcl-2-Like Protein 11/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bekker, Gert-Jan",
+        "Araki, Mitsugu",
+        "Oshima, Kanji",
+        "Okuno, Yasushi",
+        "Kamiya, Narutoshi"
+      ],
+      "short_names": [
+        "Bekker GJ",
+        "Araki M",
+        "Oshima K",
+        "Okuno Y",
+        "Kamiya N"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8385-5693",
+        "ORCID: 0000-0002-7810-4905",
+        "ORCID: 0000-0003-3596-4208",
+        "ORCID: 0000-0002-0527-6968"
+      ],
+      "affiliations": [
+        "Institute for Protein Research, Osaka University, 3-2 Yamadaoka, Suita, Osaka, 565-0871, Japan. gertjan.bekker@protein.osaka-u.ac.jp.",
+        "Graduate School of Medicine, Kyoto University, 53 Shogoin-Kawaharacho, Sakyo-ku, Kyoto, 606-8507, Japan.",
+        "Bio-Pharma Research Laboratories, KANEKA CORPORATION, 1-8 Miyamae-cho, Takasago-cho, Takasago, Hyogo, 676-8688, Japan.",
+        "Graduate School of Medicine, Kyoto University, 53 Shogoin-Kawaharacho, Sakyo-ku, Kyoto, 606-8507, Japan.",
+        "Graduate School of Information Science, University of Hyogo, 7-1-28 Minatojima Minami-machi, Chuo-ku, Kobe, Hyogo, 650-0047, Japan. n.kamiya@sim.u-hyogo.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bekker, Gert-Jan",
+        "short_name": "Bekker GJ",
+        "identifiers": [
+          "0000-0001-8385-5693"
+        ],
+        "affiliations": [
+          "Institute for Protein Research, Osaka University, 3-2 Yamadaoka, Suita, Osaka, 565-0871, Japan. gertjan.bekker@protein.osaka-u.ac.jp."
+        ]
+      },
+      {
+        "full_name": "Araki, Mitsugu",
+        "short_name": "Araki M",
+        "identifiers": [
+          "0000-0002-7810-4905"
+        ],
+        "affiliations": [
+          "Graduate School of Medicine, Kyoto University, 53 Shogoin-Kawaharacho, Sakyo-ku, Kyoto, 606-8507, Japan."
+        ]
+      },
+      {
+        "full_name": "Oshima, Kanji",
+        "short_name": "Oshima K",
+        "identifiers": [],
+        "affiliations": [
+          "Bio-Pharma Research Laboratories, KANEKA CORPORATION, 1-8 Miyamae-cho, Takasago-cho, Takasago, Hyogo, 676-8688, Japan."
+        ]
+      },
+      {
+        "full_name": "Okuno, Yasushi",
+        "short_name": "Okuno Y",
+        "identifiers": [
+          "0000-0003-3596-4208"
+        ],
+        "affiliations": [
+          "Graduate School of Medicine, Kyoto University, 53 Shogoin-Kawaharacho, Sakyo-ku, Kyoto, 606-8507, Japan."
+        ]
+      },
+      {
+        "full_name": "Kamiya, Narutoshi",
+        "short_name": "Kamiya N",
+        "identifiers": [
+          "0000-0002-0527-6968"
+        ],
+        "affiliations": [
+          "Graduate School of Information Science, University of Hyogo, 7-1-28 Minatojima Minami-machi, Chuo-ku, Kobe, Hyogo, 650-0047, Japan. n.kamiya@sim.u-hyogo.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2023 Mar 30",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/31 06:00",
+    "fetched_at": "2026-09-20 20:44:12"
+  },
+  "links": {
+    "cites": [
+      "41309963",
+      "41274891",
+      "38284074",
+      "37661929"
+    ],
+    "refs": [
+      "36659995",
+      "34856806",
+      "34664328",
+      "34549581",
+      "34418423",
+      "34265844",
+      "33658550",
+      "33545530",
+      "33140952",
+      "32998885",
+      "32962386",
+      "32267975",
+      "32026396",
+      "31996730",
+      "31260119",
+      "30865832",
+      "30808168",
+      "30394618",
+      "30110540",
+      "29307002",
+      "29165360",
+      "28903561",
+      "28815765",
+      "28482660",
+      "28209992",
+      "27789697",
+      "27570544",
+      "27515703",
+      "26854760",
+      "26619985",
+      "26574453",
+      "25907960",
+      "25400877",
+      "24355989",
+      "23603658",
+      "21528950",
+      "21376230",
+      "20408171",
+      "18593145",
+      "18428767",
+      "17636570",
+      "17572662",
+      "17439167",
+      "17212484",
+      "16645638",
+      "15902208",
+      "14534311",
+      "14499110",
+      "12237452",
+      "11206074",
+      "10506280",
+      "9597135",
+      "9020082",
+      "8692274",
+      "8358789",
+      "6667333"
+    ],
+    "similar": [
+      "36997643",
+      "22609401",
+      "28682312",
+      "27262527",
+      "26245900",
+      "25343522",
+      "29507390",
+      "33658550",
+      "23986435",
+      "23243017",
+      "25907960",
+      "21148306",
+      "25437618",
+      "25076060",
+      "17331788",
+      "31056264",
+      "19427863",
+      "17525735",
+      "15452118",
+      "12198137",
+      "32966763",
+      "28982759",
+      "24556425",
+      "14499110",
+      "24850748",
+      "27689871",
+      "18452209",
+      "19805519",
+      "28009301",
+      "29053589",
+      "23828564",
+      "27689874",
+      "34942070",
+      "9430630",
+      "22895112",
+      "24650799",
+      "17881896",
+      "20580954",
+      "21041309",
+      "29743589",
+      "21899728",
+      "19139118",
+      "11997495",
+      "19670908",
+      "21367852",
+      "24120870",
+      "19293158",
+      "19494111",
+      "15592435",
+      "22464442",
+      "17011577",
+      "17540843",
+      "26136077",
+      "19669391",
+      "30526410",
+      "18843207",
+      "23340338",
+      "18500555",
+      "29483196",
+      "19762431",
+      "22081075",
+      "31976859",
+      "35617726",
+      "32651234",
+      "25299770",
+      "35189130",
+      "22825467",
+      "28903561",
+      "15724238",
+      "33848145",
+      "22608393",
+      "21247487",
+      "23152504",
+      "22702834",
+      "19293378",
+      "27310874",
+      "20404322",
+      "24858047",
+      "26043078",
+      "20363230",
+      "24825007",
+      "27980105",
+      "23648111",
+      "21378313",
+      "32412687",
+      "20716171",
+      "30429221",
+      "16258364",
+      "22875003",
+      "21739479",
+      "26874859",
+      "21113147",
+      "26045046",
+      "24901320",
+      "9463381",
+      "14739602",
+      "16949642",
+      "32888404",
+      "32998885",
+      "24900309"
+    ],
+    "review": [
+      "36997643",
+      "17881896"
+    ],
+    "pmc": [
+      "10063584"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-023-04720-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36997643/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36997643",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BCL2L1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

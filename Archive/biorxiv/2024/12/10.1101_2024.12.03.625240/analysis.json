@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.03.625240",
+  "title": "High-throughput discovery and deep characterization of cyclin-CDK docking motifs",
+  "authors": "Örd M; Winters MJ; Subbanna MS; de Martin Garrido N; Cushing VI; Kliche J; Benz C; Ivarsson Y; Greber BJ; Pryciak PM; Davey NE",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-04",
+  "window": {
+    "start": "2024-12-02",
+    "end": "2024-12-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过高通量肽段筛选和结构/突变分析，系统刻画了细胞周期蛋白-CDK对接基序的结合强度与特异性规则，虽对象为短肽基序而非无序蛋白/IDR，但PPI结合机制建模思路（序列-亲和力-选择性规则）对本课题有可迁移启发。",
+  "abstract": "Cyclin-CDKs are master regulators of cell division. In addition to directly activating the CDK, the cyclin subunit regulates CDK specificity by binding short peptide “docking” motifs in CDK substrates. Here, we measure the relative binding strength of ∼100,000 peptides to 11 human cyclins from five cyclin families (D, E, A, B and F). Using a quantitative intracellular binding assay and large-scale tiled peptide screening, we identified a range of non-canonical binders that unveil a broader than anticipated repertoire of cyclin docking motif types. Structural and saturation mutagenesis studies revealed distinct binding modes and sequence features that govern motif recognition, binding strength, and cyclin preference. Docking motifs vary from highly selective to pan-cyclin, thereby fine-tuning the timing of CDK phosphorylation during cell cycle progression. Overall, these findings provide an unprecedented depth of understanding about the rules encoding specificity and affinity within a group of related but distinct protein domains.",
+  "abstract_zh": "Cyclin-CDKs是细胞分裂的主要调控因子。除了直接激活CDK外，cyclin亚基还通过结合CDK底物中的短肽“对接”基序来调节CDK的特异性。在此，我们测量了来自五个cyclin家族（D、E、A、B和F）的11种人类cyclins对约100,000个肽段的相对结合强度。利用定量细胞内结合测定和大规模平铺肽筛选，我们识别出一系列非经典结合物，揭示了cyclin对接基序类型的范围比预期更广泛。结构和饱和突变研究揭示了不同的结合模式和序列特征，这些特征决定了基序识别、结合强度以及cyclin偏好。对接基序从高度选择性到泛cyclin不等，从而在细胞周期进程中微调CDK磷酸化的时机。总体而言，这些发现为理解一组相关但不同的蛋白质结构域内编码特异性和亲和力的规则提供了前所未有的深度认识。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.03.625240",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.03.625240",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.03.625240/index.html"
+}

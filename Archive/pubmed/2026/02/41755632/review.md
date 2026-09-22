@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by the presented evidence. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors propose that phosphorylation at Ser254, Ser260, and Tyr271 in the C-terminal DNA-binding domain of NPM1 induces structural and electrostatic changes that reduce DNA binding affinity, alter histone chaperone activity, and diminish charge block-driven phase separation, thereby explaining NPM1 delocalization in AML.
+- **Visible evidence base** Molecular dynamics simulations (2 µs, AMBER 14SB), circular dichroism spectroscopy, NMR chemical shift perturbation analysis, isothermal titration calorimetry, histone-capture disaggregation assays, and in vitro droplet formation assays with Ficoll.
+- **Missing materials affecting confidence** Figures 1–6 and Supplementary Figures S1–S7 are referenced but not provided. Supplementary Table S1 (NMR acquisition parameters) is referenced but not provided. Full experimental replicates and statistical details for several assays are not fully described in the text.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a biologically important question regarding how post-translational modifications of the NPM1 C-terminal domain influence its molecular functions. The combination of computational and experimental approaches is appropriate and the work is generally well designed. However, the absence of key figures and supplementary data prevents full evaluation of the evidence. Several claims, particularly regarding the mechanistic link between phosphorylation and phase separation, are supported by indirect evidence and correlative observations rather than direct demonstration. The manuscript would benefit from additional quantitative analyses and clearer presentation of the relationship between the phosphomimetic models and bona fide phosphorylation.
+- **Who would be interested in the results, and why** Researchers studying nucleophosmin biology, AML pathogenesis, post-translational modification effects on protein structure and function, liquid-liquid phase separation in nuclear organization, and the development of phosphomimetic approaches for studying phosphorylation effects. The work may also interest structural biologists using integrative approaches combining MD simulations with biophysical validation.
+- **Major strengths** The study addresses a clinically relevant question with potential implications for understanding AML pathogenesis. The use of multiple complementary techniques (MD simulations, NMR, CD, ITC, functional assays) provides a multifaceted view of the system. The inclusion of bona fide phosphorylated variants in MD simulations to validate the phosphomimetic approach is a thoughtful methodological consideration. The authors acknowledge limitations of phosphomimetics and provide comparative analysis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "phosphorylation of Ser254, Ser260, and Tyr271 of the C-end DNA-binding domain weakens both DNA affinity and charge block-driven liquid-liquid phase separation, offering a molecular explanation for the delocalization of NPM1 outside of the nucleolus."
+  - **Evidence pointer** Results sections "Ser254–Ser260 and Tyr271 phosphomimetic substitutions result in mild domain-level perturbations" and "Concomitant Ser254, Ser260, and Tyr271 phosphomimetic substitutions in the NPM1 DNA binding domain prompts its aggregation, limits both nucleic acids binding and charge block-driven phase transition"; Figures 3, 5, 6 (not provided)
+  - **Concern** The central claim linking phosphorylation to NPM1 delocalization via reduced phase separation is not directly tested. The in vitro droplet assays use purified protein with Ficoll as a crowding agent, which may not recapitulate the complex nuclear environment. The connection between reduced droplet formation in vitro and nucleolar delocalization in cells is inferential. No cellular experiments are presented to validate that the observed biochemical changes translate to altered NPM1 localization in a physiological context.
+  - **Why it matters** The title and abstract present the findings as providing "a molecular explanation" for NPM1 delocalization in AML. Without cellular validation, the physiological relevance of the observed biochemical changes remains uncertain. The claim extends beyond what the presented evidence can support.
+  - **Resolution test** Provide cellular experiments demonstrating that phosphomimetic NPM1 variants show altered localization compared to wild-type, or temper the claims to reflect that the study demonstrates biochemical consequences of phosphorylation that may contribute to delocalization.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The authors state that "Ser-to-Asp (S254D–S260D) and Tyr-to-pCMF (Y271pCMF) phosphomimetic mutations induce significant structural and dynamical rearrangements, as well as drastic modifications in electrostatic surface potential."
+  - **Evidence pointer** Results section "Molecular dynamics simulations on NPM1 C70 phosphomimetic variants suggest helix-bundle destabilization"; Figure 1C–E (not provided)
+  - **Concern** The MD simulations use the phosphomimetic variants as proxies for phosphorylation, and the authors acknowledge this limitation. However, the validation of these proxies relies on comparison with phosphorylated variants in simulations only. No experimental validation (e.g., using genetically encoded phosphoserine or enzymatic phosphorylation) is provided to confirm that the phosphomimetics faithfully recapitulate the structural and electrostatic effects of true phosphorylation. The claim that phosphomimetics "preserve key structural and electrostatic features" is based solely on computational comparison.
+  - **Why it matters** The entire experimental program depends on the validity of the phosphomimetic approach. If the phosphomimetics do not accurately mimic phosphorylation, the conclusions drawn from the biochemical and biophysical experiments may not reflect the true effects of phosphorylation.
+  - **Resolution test** Provide experimental validation of the phosphomimetic approach, such as comparison with enzymatically phosphorylated protein or use of alternative phosphomimetic strategies, or clearly state this as a limitation and temper conclusions accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors report that "the S254D–S260D phosphomimetic variant showed the highest disaggregation ability" and that "NPM1 FL Y271pCMF exhibited reduced droplet wetting on hydrophobic glass surfaces."
+  - **Evidence pointer** Results sections "NPM1 phosphomimetic variants reshape histone capturing activity and reorganize the homotypic contact network that drives phase separation" and "Concomitant Ser254, Ser260, and Tyr271 phosphomimetic substitutions in the NPM1 DNA binding domain prompts its aggregation, limits both nucleic acids binding and charge block-driven phase transition"; Figures 4, 5 (not provided)
+  - **Concern** The histone-capture and phase separation assays are described qualitatively. No quantitative metrics (e.g., EC50 values for disaggregation, saturation concentrations for phase separation, droplet size distributions) are provided. The statistical analysis is limited to a Mann-Whitney U test for droplet area occupancy, but effect sizes and confidence intervals are not reported. The claim that the triple variant "limits charge block-driven phase transition" is based on reduced droplet area occupancy, but the relationship between this metric and the thermodynamic driving force for phase separation is not established.
+  - **Why it matters** Without quantitative measures, it is difficult to assess the magnitude of the reported effects and their biological significance. The field of phase separation research increasingly requires rigorous quantitative characterization to distinguish specific effects from general crowding or aggregation phenomena.
+  - **Resolution test** Provide quantitative analyses of the functional assays, including dose-response relationships, saturation concentrations, and appropriate statistical measures with effect sizes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** The authors state that "the fact that aggregation only occurs when all three substitutions are present suggests a model in which domain destabilization is driven by cooperative, multisite phosphorylation."
+  - **Evidence pointer** Results section "Concomitant Ser254, Ser260, and Tyr271 phosphomimetic substitutions in the NPM1 DNA binding domain prompts its aggregation, limits both nucleic acids binding and charge block-driven phase transition"; Figure 6 (not provided)
+  - **Concern** The interpretation of cooperativity is inferred from the observation that the triple variant aggregates while single and double variants do not. However, this could also reflect a threshold effect of cumulative charge addition rather than true cooperativity between phosphorylation sites. The distinction between cooperative and additive effects is not addressed experimentally or computationally.
+  - **Why it matters** The proposed cooperative model has implications for understanding how multisite phosphorylation regulates NPM1 function. If the effects are simply additive, the regulatory logic would be different from a cooperative mechanism.
+  - **Resolution test** Perform experiments with intermediate combinations (e.g., S254D alone, S260D alone, S254D-S260D-Y271pCMF with individual mutations reverted) and analyze whether the effects are consistent with additive or cooperative models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** MD simulation parameters
+  - **Evidence pointer** Materials and methods section "Molecular dynamics simulations"
+  - **Issue** The description of the REST2 simulations lacks specific details on the number of replicas used for each system, the total simulation time per replica, and the criteria for determining convergence of the enhanced sampling simulations.
+  - **Required correction** Provide complete simulation parameters including number of replicas, simulation length, and convergence criteria.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** NMR chemical shift perturbation analysis
+  - **Evidence pointer** Results section "NPM1 phosphomimetic variants display changes in binding to the c-MYC promoter DNA oligonucleotide Pu24I"
+  - **Issue** The text describes CSPs for specific residues but does not provide a quantitative threshold for what constitutes a significant CSP. The criteria for defining "significant" perturbations are not stated.
+  - **Required correction** Define the significance threshold for CSPs (e.g., combined chemical shift perturbation exceeding a specific value) and state this clearly in the methods or results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Phase separation assays
+  - **Evidence pointer** Results section "NPM1 phosphomimetic variants reshape histone capturing activity and reorganize the homotypic contact network that drives phase separation"
+  - **Issue** The number of replicates for the droplet formation assays is stated as four, but the text does not specify whether these are independent experiments or technical replicates, and no measure of variability is reported.
+  - **Required correction** Clarify the nature of replicates and report measures of variability (e.g., standard deviation, standard error) for the droplet area occupancy measurements.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The discussion of NPM1 phosphorylation in AML context would benefit from more explicit comparison with previous studies on NPM1 phosphorylation and its functional consequences, particularly regarding whether the specific phosphorylation sites studied here have been observed in patient samples.
+  - **Required correction** Add discussion of whether phosphorylation at Ser254, Ser260, and Tyr271 has been documented in AML patient samples or cellular models, and how the present findings relate to prior observations.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Abstract and Results sections
+  - **Issue** The term "charge block-driven phase separation" is used throughout, but the relationship between the observed reduction in charge blockiness and the specific mechanism of phase separation is not fully explained. The authors may wish to clarify whether they are referring to a specific theoretical framework for charge pattern-driven phase separation.
+  - **Required correction** Briefly define what is meant by "charge block-driven" phase separation and how the charge blockiness parameter is calculated or conceptualized in this context.
+
+## Risk / unsupported claims
+- The claim that phosphorylation at Ser254, Ser260, and Tyr271 "offers a molecular explanation for the delocalization of NPM1 outside of the nucleolus" in AML is not directly supported by the presented evidence, as no cellular or in vivo experiments are shown.
+- The assertion that the triple phosphomimetic variant's aggregation propensity reflects "cooperative, multisite phosphorylation" is inferred from limited data and alternative explanations (e.g., additive charge effects) are not excluded.
+- The statement that reduced droplet formation in vitro indicates reduced phase separation propensity in cells is an extrapolation that requires validation in cellular contexts.
+- The claim that phosphomimetic variants "preserve key structural and electrostatic features" of true phosphorylation is based solely on computational comparison and lacks experimental validation.
+- The quantitative relationship between the observed reduction in DNA binding affinity (approximately 2-fold) and the proposed biological consequences is not established.

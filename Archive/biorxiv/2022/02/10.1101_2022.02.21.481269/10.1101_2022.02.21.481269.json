@@ -1,0 +1,164 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.02.21.481269",
+  "title": "An in-silico study of the mutation-associated effects on the spike protein of SARS-CoV-2, Omicron variant",
+  "doi": "10.1101/2022.02.21.481269",
+  "abstract": "The emergence of Omicron (B.1.1.529), a new Variant of Concern in the COVID-19 outbreak, while accompanied by the ongoing Delta variant infection, has once again fueled fears of a new infection wave and global health concern. In the Omicron variant, the receptor-binding domain (RBD) of its spike glycoprotein is heavily mutated, a feature critical for the transmission rate of the virus by interacting with hACE2. In this study, we used a combination of conventional and advanced neural network-based in silico approaches to predict how these mutations would affect the spike protein. The results demonstrated a decrease in the electrostatic potentials of residues corresponding to receptor recognition sites, an increase in the alkalinity of the protein, a change in hydrophobicity, variations in functional residues, and an increase in the percentage of alpha-helix structure. Our next step was to predict the structural changes of the spike protein using the AI-based tool Alphafold2 and dock it with hACE2. The results revealed that the RBD of the Omicron variant had a higher affinity than the reference. Moreover, all-atom molecular dynamics simulations concluded that the RBD of the Omicron variant exhibits a more dispersed interaction network since mutations resulted in an increased number of hydrophobic interactions and hydrogen bonds with hACE2 compared to the reference RBD. In summary, our current study highlighted the potential structural basis for the enhanced transmissibility and pathogenicity of the Omicron variant, although further research is needed to investigate its epidemiological and biological implications.",
+  "authors": [
+    "Shishir TA",
+    "Jannat T",
+    "Naser IB"
+  ],
+  "published_date": "2022-02-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.02.21.481269",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.02.21.481269.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR461396",
+    "raw_record": {
+      "id": "PPR461396",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR461396"
+        ]
+      },
+      "doi": "10.1101/2022.02.21.481269",
+      "title": "An in-silico study of the mutation-associated effects on the spike protein of SARS-CoV-2, Omicron variant",
+      "authorString": "Shishir TA, Jannat T, Naser IB.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shishir TA",
+            "lastName": "Shishir",
+            "firstName": "Tushar Ahmed",
+            "initials": "TA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1347-1739"
+            }
+          },
+          {
+            "fullName": "Jannat T",
+            "lastName": "Jannat",
+            "firstName": "Taslimun",
+            "initials": "T"
+          },
+          {
+            "fullName": "Naser IB",
+            "lastName": "Naser",
+            "firstName": "Iftekhar Bin",
+            "initials": "IB"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1347-1739"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The emergence of Omicron (B.1.1.529), a new Variant of Concern in the COVID-19 outbreak, while accompanied by the ongoing Delta variant infection, has once again fueled fears of a new infection wave and global health concern. In the Omicron variant, the receptor-binding domain (RBD) of its spike glycoprotein is heavily mutated, a feature critical for the transmission rate of the virus by interacting with hACE2. In this study, we used a combination of conventional and advanced neural network-based in silico approaches to predict how these mutations would affect the spike protein. The results demonstrated a decrease in the electrostatic potentials of residues corresponding to receptor recognition sites, an increase in the alkalinity of the protein, a change in hydrophobicity, variations in functional residues, and an increase in the percentage of alpha-helix structure. Our next step was to predict the structural changes of the spike protein using the AI-based tool Alphafold2 and dock it with hACE2. The results revealed that the RBD of the Omicron variant had a higher affinity than the reference. Moreover, all-atom molecular dynamics simulations concluded that the RBD of the Omicron variant exhibits a more dispersed interaction network since mutations resulted in an increased number of hydrophobic interactions and hydrogen bonds with hACE2 compared to the reference RBD. In summary, our current study highlighted the potential structural basis for the enhanced transmissibility and pathogenicity of the Omicron variant, although further research is needed to investigate its epidemiological and biological implications.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/02/23/2022.02.21.481269.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.02.21.481269"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR461396"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.02.21.481269"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35446879",
+            "reference": "PloS one. 2022 ;17(4):e0266844",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS161174",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gisaid",
+          "uniprot",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-02-26",
+      "firstPublicationDate": "2022-02-23",
+      "firstIndexDate": "2022-02-26",
+      "fullTextReceivedDate": "2023-02-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

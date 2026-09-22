@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "37486022",
+    "doi": "10.1021/acs.biomac.3c00361",
+    "title": "Competition between beta-Sheet and Coacervate Domains Yields Diverse Morphologies in Mixtures of Oppositely Charged Homochiral Polypeptides."
+  },
+  "content": {
+    "abstract": "Biomolecular assembly processes involving competition between specific intermolecular interactions and thermodynamic phase instability have been implicated in a number of pathological states and technological applications of biomaterials. As a model for such processes, aqueous mixtures of oppositely charged homochiral polypeptides such as poly-l-lysine and poly-l-glutamic acid have been reported to form either beta-sheet-rich solid-like precipitates or liquid-like coacervate droplets depending on competing hydrogen bonding interactions. Herein, we report studies of polypeptide mixtures that reveal unexpectedly diverse morphologies ranging from partially coalescing and aggregated droplets to bulk precipitates, as well as a previously unreported re-entrant liquid-liquid phase separation at high polypeptide concentration and ionic strength. Combining our experimental results with all-atom molecular dynamics simulations of folded polypeptide complexes reveals a concentration dependence of beta-sheet-rich secondary structure, whose relative composition correlates with the observed macroscale morphologies of the mixtures. These results elucidate a crucial balance of interactions that are important for controlling morphology during coacervation in these and potentially similar biologically relevant systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Conformation, beta-Strand",
+      "*Peptides/chemistry",
+      "Protein Structure, Secondary",
+      "Hydrogen Bonding",
+      "Osmolar Concentration"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sinha, Nairiti J",
+        "Cunha, Keila Cristina",
+        "Murphy, Robert",
+        "Hawker, Craig J",
+        "Shea, Joan-Emma",
+        "Helgeson, Matthew E"
+      ],
+      "short_names": [
+        "Sinha NJ",
+        "Cunha KC",
+        "Murphy R",
+        "Hawker CJ",
+        "Shea JE",
+        "Helgeson ME"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1305-7500",
+        "ORCID: 0000-0003-3147-3196",
+        "ORCID: 0000-0001-9951-851X",
+        "ORCID: 0000-0002-9801-9273",
+        "ORCID: 0000-0001-9384-4023"
+      ],
+      "affiliations": [
+        "Department of Chemical Engineering, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Materials Department and Materials Research Laboratory, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Department of Chemistry and Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Department of Chemistry and Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Department of Chemistry and Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Materials Department and Materials Research Laboratory, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Department of Chemistry and Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Department of Chemistry and Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+        "Department of Chemical Engineering, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sinha, Nairiti J",
+        "short_name": "Sinha NJ",
+        "identifiers": [
+          "0000-0003-1305-7500"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+          "Materials Department and Materials Research Laboratory, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+          "Department of Chemistry and Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Cunha, Keila Cristina",
+        "short_name": "Cunha KC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Murphy, Robert",
+        "short_name": "Murphy R",
+        "identifiers": [
+          "0000-0003-3147-3196"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Hawker, Craig J",
+        "short_name": "Hawker CJ",
+        "identifiers": [
+          "0000-0001-9951-851X"
+        ],
+        "affiliations": [
+          "Materials Department and Materials Research Laboratory, University of California Santa Barbara, Santa Barbara, California 93106, United States.",
+          "Department of Chemistry and Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Shea, Joan-Emma",
+        "short_name": "Shea JE",
+        "identifiers": [
+          "0000-0002-9801-9273"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Helgeson, Matthew E",
+        "short_name": "Helgeson ME",
+        "identifiers": [
+          "0000-0001-9384-4023"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, University of California Santa Barbara, Santa Barbara, California 93106, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2023 Aug 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/24 13:08",
+    "fetched_at": "2026-09-20 23:49:56"
+  },
+  "links": {
+    "cites": [
+      "41061706",
+      "39567535"
+    ],
+    "refs": [],
+    "similar": [
+      "37486022",
+      "26296388",
+      "30996987",
+      "26352023",
+      "25586861",
+      "38495383",
+      "15969163",
+      "23083137",
+      "34202468",
+      "30763891",
+      "16831011",
+      "26301845",
+      "25589156",
+      "39066731",
+      "24328126",
+      "38366971",
+      "28869254",
+      "36900563",
+      "32263121",
+      "35610798",
+      "20166681",
+      "24156236",
+      "21568346",
+      "27099990",
+      "33455356",
+      "25646959",
+      "33666204",
+      "26619132",
+      "37387688",
+      "24032485",
+      "16463358",
+      "30597119",
+      "8003624",
+      "29240407",
+      "7548169",
+      "26881998",
+      "30292393",
+      "29231947",
+      "22578030",
+      "25379651",
+      "36511362",
+      "30204420",
+      "28876055",
+      "12204560",
+      "22070325",
+      "15244462",
+      "29549741",
+      "19072205",
+      "33750125",
+      "29210575",
+      "16221545",
+      "30948640",
+      "24164315",
+      "25920513",
+      "24550393",
+      "24727034",
+      "31584062",
+      "19016556",
+      "31581064",
+      "38072599",
+      "10199655",
+      "20938982",
+      "12419262",
+      "35865901",
+      "30384692",
+      "16388578",
+      "33886330",
+      "12115132",
+      "10199660",
+      "19572698",
+      "11567099",
+      "23426573",
+      "34114290",
+      "31584823",
+      "30192538",
+      "25099892",
+      "33751754",
+      "1676733",
+      "36182948",
+      "18215070",
+      "32431012",
+      "31063381",
+      "23495825",
+      "15946678",
+      "30504813",
+      "34328340",
+      "34669392",
+      "20973498",
+      "1252405",
+      "2216408",
+      "20809576",
+      "21329333",
+      "28631793",
+      "34361434",
+      "23518303",
+      "39155426",
+      "18851071",
+      "9849622",
+      "29380494",
+      "38426942"
+    ],
+    "review": [
+      "37486022",
+      "19572698"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.3c00361",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

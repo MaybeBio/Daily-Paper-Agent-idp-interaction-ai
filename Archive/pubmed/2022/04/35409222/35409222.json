@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "35409222",
+    "doi": "10.3390/ijms23073862",
+    "title": "Dimerization Activity of a Disordered N-Terminal Domain from Drosophila CLAMP Protein."
+  },
+  "content": {
+    "abstract": "In Drosophila melanogaster, CLAMP is an essential zinc-finger transcription factor that is involved in chromosome architecture and functions as an adaptor for the dosage compensation complex. Most of the known Drosophila architectural proteins have structural N-terminal homodimerization domains that facilitate distance interactions. Because CLAMP performs architectural functions, we tested its N-terminal region for the presence of a homodimerization domain. We used a yeast two-hybrid assay and biochemical studies to demonstrate that the adjacent N-terminal region between 46 and 86 amino acids is capable of forming homodimers. This region is conserved in CLAMP orthologs from most insects, except Hymenopterans. Biophysical techniques, including nuclear magnetic resonance (NMR) and small-angle X-ray scattering (SAXS), suggested that this domain lacks secondary structure and has features of intrinsically disordered regions despite the fact that the protein structure prediction algorithms suggested the presence of beta-sheets. The dimerization domain is essential for CLAMP functions in vivo because its deletion results in lethality. Thus, CLAMP is the second architectural protein after CTCF that contains an unstructured N-terminal dimerization domain.",
+    "keywords": [
+      "C2H2 protein",
+      "NMR",
+      "architectural protein",
+      "dimerization",
+      "dosage compensation",
+      "intrinsically disordered protein",
+      "small-angle X-ray scattering"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "DNA-Binding Proteins/genetics/metabolism",
+      "Dimerization",
+      "*Drosophila Proteins/metabolism",
+      "*Drosophila melanogaster/genetics/metabolism",
+      "Scattering, Small Angle",
+      "Transcription Factors/metabolism",
+      "X-Ray Diffraction"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tikhonova, Evgeniya",
+        "Mariasina, Sofia",
+        "Arkova, Olga",
+        "Maksimenko, Oksana",
+        "Georgiev, Pavel",
+        "Bonchuk, Artem"
+      ],
+      "short_names": [
+        "Tikhonova E",
+        "Mariasina S",
+        "Arkova O",
+        "Maksimenko O",
+        "Georgiev P",
+        "Bonchuk A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5353-0748",
+        "ORCID: 0000-0002-6509-3194",
+        "ORCID: 0000-0002-0948-0640"
+      ],
+      "affiliations": [
+        "Department of the Control of Genetic Processes, Institute of Gene Biology, Russian Academy of Sciences, 119334 Moscow, Russia.",
+        "Center for Magnetic Tomography and Spectroscopy, Faculty of Fundamental Medicine, M.V. Lomonosov Moscow State University, 119991 Moscow, Russia.",
+        "Center for Precision Genome Editing and Genetic Technologies for Biomedicine, Institute of Gene Biology, Russian Academy of Sciences, 119334 Moscow, Russia.",
+        "Center for Precision Genome Editing and Genetic Technologies for Biomedicine, Institute of Gene Biology, Russian Academy of Sciences, 119334 Moscow, Russia.",
+        "Department of the Control of Genetic Processes, Institute of Gene Biology, Russian Academy of Sciences, 119334 Moscow, Russia.",
+        "Department of the Control of Genetic Processes, Institute of Gene Biology, Russian Academy of Sciences, 119334 Moscow, Russia.",
+        "Center for Precision Genome Editing and Genetic Technologies for Biomedicine, Institute of Gene Biology, Russian Academy of Sciences, 119334 Moscow, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tikhonova, Evgeniya",
+        "short_name": "Tikhonova E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of the Control of Genetic Processes, Institute of Gene Biology, Russian Academy of Sciences, 119334 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Mariasina, Sofia",
+        "short_name": "Mariasina S",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Magnetic Tomography and Spectroscopy, Faculty of Fundamental Medicine, M.V. Lomonosov Moscow State University, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Arkova, Olga",
+        "short_name": "Arkova O",
+        "identifiers": [
+          "0000-0002-5353-0748"
+        ],
+        "affiliations": [
+          "Center for Precision Genome Editing and Genetic Technologies for Biomedicine, Institute of Gene Biology, Russian Academy of Sciences, 119334 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Maksimenko, Oksana",
+        "short_name": "Maksimenko O",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Precision Genome Editing and Genetic Technologies for Biomedicine, Institute of Gene Biology, Russian Academy of Sciences, 119334 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Georgiev, Pavel",
+        "short_name": "Georgiev P",
+        "identifiers": [
+          "0000-0002-6509-3194"
+        ],
+        "affiliations": [
+          "Department of the Control of Genetic Processes, Institute of Gene Biology, Russian Academy of Sciences, 119334 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Bonchuk, Artem",
+        "short_name": "Bonchuk A",
+        "identifiers": [
+          "0000-0002-0948-0640"
+        ],
+        "affiliations": [
+          "Department of the Control of Genetic Processes, Institute of Gene Biology, Russian Academy of Sciences, 119334 Moscow, Russia.",
+          "Center for Precision Genome Editing and Genetic Technologies for Biomedicine, Institute of Gene Biology, Russian Academy of Sciences, 119334 Moscow, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Mar 31",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/13 06:00",
+    "fetched_at": "2026-09-20 09:34:47"
+  },
+  "links": {
+    "cites": [
+      "39699942",
+      "38561749",
+      "38471568",
+      "36769179",
+      "36462455",
+      "36142884",
+      "35682878"
+    ],
+    "refs": [
+      "35648444",
+      "34849887",
+      "34844028",
+      "34418423",
+      "34342574",
+      "34187599",
+      "34140353",
+      "33959385",
+      "33638995",
+      "33604523",
+      "33445415",
+      "33259986",
+      "33208948",
+      "32060375",
+      "31817975",
+      "31706027",
+      "31551239",
+      "31320325",
+      "31209019",
+      "30718365",
+      "30541149",
+      "30469390",
+      "30290144",
+      "30250250",
+      "29860432",
+      "29668306",
+      "29281702",
+      "29077765",
+      "28838946",
+      "28808438",
+      "28784719",
+      "28740726",
+      "27995349",
+      "27729494",
+      "27630371",
+      "27580037",
+      "27137890",
+      "26303531",
+      "26248466",
+      "25102930",
+      "23873939",
+      "22972754",
+      "22894929",
+      "22735705",
+      "22411565",
+      "22095648",
+      "21782886",
+      "21509745",
+      "20160946",
+      "20117254",
+      "18831774",
+      "18792934",
+      "17569752",
+      "17360644",
+      "17120193",
+      "15044227",
+      "11430757",
+      "10869041",
+      "10354416",
+      "8259515"
+    ],
+    "similar": [
+      "35409222",
+      "35648444",
+      "38561749",
+      "39128960",
+      "33153474",
+      "31706027",
+      "37958900",
+      "31320325",
+      "38471568",
+      "34830280",
+      "24704038",
+      "33752739",
+      "23873939",
+      "28074868",
+      "23456097",
+      "27137890",
+      "19846792",
+      "38769058",
+      "37340291",
+      "23084835",
+      "8196641",
+      "33638995",
+      "28838946",
+      "26160178",
+      "38831503",
+      "25209665",
+      "34426923",
+      "32060375",
+      "35580610",
+      "26248466",
+      "17101769",
+      "36933821",
+      "8978051",
+      "26320411",
+      "38775472",
+      "25452275",
+      "27414415",
+      "29944921",
+      "18086881",
+      "37834476",
+      "27995349",
+      "18369190",
+      "12620233",
+      "34187599",
+      "28315749",
+      "22722341",
+      "22936607",
+      "14604529",
+      "25339177",
+      "21194420",
+      "10619853",
+      "28619827",
+      "14977043",
+      "25286318",
+      "1640455",
+      "25112875",
+      "18508761",
+      "20139418",
+      "18184648",
+      "32316259",
+      "25538246",
+      "19556241",
+      "9234738",
+      "16107725",
+      "34962606",
+      "22399320",
+      "35913965",
+      "32628956",
+      "7760839",
+      "32696361",
+      "9409833",
+      "29077765",
+      "31366733",
+      "28760886",
+      "9774480",
+      "30805612",
+      "12954775",
+      "28064318",
+      "29066499",
+      "15507447",
+      "31892537",
+      "11706010",
+      "29395785",
+      "15988010",
+      "24074028",
+      "29281702",
+      "7604032",
+      "23731888",
+      "22273583",
+      "12176927",
+      "11350941",
+      "10556033",
+      "25158899",
+      "19424425",
+      "27580037",
+      "27622635",
+      "16049008"
+    ],
+    "review": [
+      "35409222",
+      "26320411",
+      "28315749"
+    ],
+    "pmc": [
+      "8998743"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=35409222",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23073862",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35409222/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35409222",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

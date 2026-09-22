@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39163306",
+  "title": "Predicting the Dynamic Interaction of Intrinsically Disordered Proteins.",
+  "authors": "Zheng, Yuchuan; Li, Qixiu; Freiberger, Maria I; Song, Haoyu; Hu, Guorong; Zhang, Moxin; Gu, Ruoxu; Li, Jingyuan",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2024-08-20",
+  "window": {
+    "start": "2024-08-19",
+    "end": "2024-08-25"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出GSALIDP（GraphSAGE-LSTM）模型，将IDP多构象建模为动态图，结合MD模拟数据预测IDP间动态互作位点与接触残基对，直接命中无序蛋白互作机制建模且AI+物理模拟方法齐备。",
+  "abstract": "Intrinsically disordered proteins (IDPs) participate in various biological processes. Interactions involving IDPs are usually dynamic and are affected by their inherent conformation fluctuations. Comprehensive characterization of these interactions based on current techniques is challenging. Here, we present GSALIDP, a GraphSAGE-embedded LSTM network, to capture the dynamic nature of IDP-involved interactions and predict their behaviors. This framework models multiple conformations of IDP as a dynamic graph, which can effectively describe the fluctuation of its flexible conformation. The dynamic interaction between IDPs is studied, and the data sets of IDP conformations and their interactions are obtained through atomistic molecular dynamic (MD) simulations. Residues of IDP are encoded through a series of features including their frustration. GSALIDP can effectively predict the interaction sites of IDP and the contact residue pairs between IDPs. Its performance in predicting IDP interactions is on par with or even better than the conventional models in predicting the interaction of structural proteins. To the best of our knowledge, this is the first model to extend the protein interaction prediction to IDP-involved interactions.",
+  "abstract_zh": "固有无序蛋白（IDPs）参与多种生物过程。涉及IDPs的相互作用通常是动态的，并受其固有构象波动的影响。基于现有技术对这些相互作用进行全面表征具有挑战性。在此，我们提出GSALIDP，一种嵌入GraphSAGE的LSTM网络，以捕捉IDP参与相互作用的动态特性并预测其行为。该框架将IDP的多种构象建模为动态图，能有效描述其柔性构象的波动。研究了IDPs之间的动态相互作用，并通过原子级分子动力学（MD）模拟获得IDP构象及其相互作用的数据集。IDP残基通过一系列特征进行编码，包括其挫折度。GSALIDP能有效预测IDP的相互作用位点及IDPs之间的接触残基对。其在预测IDP相互作用方面的性能与预测结构蛋白相互作用的传统模型相当，甚至更优。据我们所知，这是首个将蛋白质相互作用预测扩展到涉及IDP相互作用的模型。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39163306/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39163306/",
+  "paper_page_path": "papers/pubmed/39163306/index.html"
+}

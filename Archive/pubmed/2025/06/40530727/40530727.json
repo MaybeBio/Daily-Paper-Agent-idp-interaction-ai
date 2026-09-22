@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "40530727",
+    "doi": "10.2174/0113892037360348250528003832",
+    "title": "Clustering-based Method for Constructing the Phase Diagram of the van der Waals Model Fluid."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Membraneless organelles, such as nucleoli, stress granules, and P-bodies, are not enclosed by lipid membranes; rather, they are formed through a process known as liquid-liquid phase separation. To fully understand the biophysics behind the formation and regulation of these organelles, knowledge that has significant implications for cellular biology and disease research, the creation of phase diagrams is essential. Phase diagrams help clarify the physical and chemical conditions under which these organelles form, exist, and function within cells. However, methods for creating phase diagrams are often limited when the equation of state is unknown, a challenge that becomes more pronounced with increasing system complexity. While several methods exist to address this issue, their application is not universal. METHODS: We present a new method based on the SPACEBALL algorithm and cluster size monitoring, which enables the determination of binodal and spinodal line positions by analyzing system clustering during molecular dynamics simulations of a well-studied van der Waals fluid under various conditions. RESULTS: Based on an analysis of the system's clustering behavior, we constructed the phase diagram for the monoatomic van der Waals fluid simulated at various densities and temperatures, observing that uniformly distributed van der Waals beads aggregate, causing changes in the system's density. DISCUSSION: Using the generated data, we discuss how a fitting function can be used to determine the binodal line location, and how observations of the system's density fluctuations can be used to determine the spinodal line location and assess the critical temperature. CONCLUSION: We have presented alternative methods for locating phase boundaries in protein solutions, where the absence of a validated equation of state necessitates innovative approaches and makes traditional methods challenging to apply. Our SPACEBALL-based approach enables the creation of phase diagrams using pure trajectories obtained from molecular dynamics simulations.",
+    "keywords": [
+      "Liquid-liquid phase separation",
+      "SPACEBALL algorithm",
+      "binodal and spinodal lines",
+      "membraneless organelles",
+      "molecular dynamics simulations",
+      "phase diagram",
+      "protein phase behavior.",
+      "van der Waals fluid"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Algorithms",
+      "Phase Transition",
+      "Cluster Analysis",
+      "Temperature"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pham, Dinh Quoc Huy",
+        "Anila, Midhun Mohan",
+        "Chwastyk, Mateusz"
+      ],
+      "short_names": [
+        "Pham DQH",
+        "Anila MM",
+        "Chwastyk M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4054-2632"
+      ],
+      "affiliations": [
+        "Institute of Physics, Polish Academy of Sciences, Al. Lotnikow 32/46, Warsaw, 02-668, Poland.",
+        "Institute of Physics, Polish Academy of Sciences, Al. Lotnikow 32/46, Warsaw, 02-668, Poland.",
+        "Institute of Physics, Polish Academy of Sciences, Al. Lotnikow 32/46, Warsaw, 02-668, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pham, Dinh Quoc Huy",
+        "short_name": "Pham DQH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Al. Lotników 32/46, Warsaw, 02-668, Poland."
+        ]
+      },
+      {
+        "full_name": "Anila, Midhun Mohan",
+        "short_name": "Anila MM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Al. Lotników 32/46, Warsaw, 02-668, Poland."
+        ]
+      },
+      {
+        "full_name": "Chwastyk, Mateusz",
+        "short_name": "Chwastyk M",
+        "identifiers": [
+          "0000-0003-4054-2632"
+        ],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Al. Lotników 32/46, Warsaw, 02-668, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current protein & peptide science"
+    ],
+    "journal_abbrev": [
+      "Curr Protein Pept Sci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/18 14:19",
+    "fetched_at": "2026-09-21 19:58:40"
+  },
+  "links": {
+    "cites": [
+      "40943551",
+      "40708522"
+    ],
+    "refs": [
+      "38597222",
+      "37774379",
+      "37705755",
+      "36930713",
+      "36760519",
+      "36682493",
+      "36543777",
+      "35998851",
+      "35445278",
+      "34552246",
+      "34334791",
+      "34301955",
+      "34164435",
+      "33240933",
+      "33095011",
+      "32364240",
+      "31805238",
+      "31609113",
+      "31430179",
+      "30914480",
+      "30795655",
+      "30682370",
+      "30132772",
+      "29602697",
+      "29313527",
+      "29166058",
+      "28935776",
+      "28392184",
+      "28272886",
+      "28225081",
+      "28051124",
+      "27713406",
+      "27231838",
+      "27228560",
+      "24979791",
+      "24606362",
+      "24457316",
+      "24206126",
+      "24123195",
+      "22398450",
+      "21368180",
+      "19460965",
+      "15473749"
+    ],
+    "similar": [
+      "40530727",
+      "36760519",
+      "32120904",
+      "19275205",
+      "29422417",
+      "15600606",
+      "25122383",
+      "15930649",
+      "31458448",
+      "34742214",
+      "32696386",
+      "40217576",
+      "15350119",
+      "26039358",
+      "22360168",
+      "12144484",
+      "11308638",
+      "23822250",
+      "36559360",
+      "24320349",
+      "40943551",
+      "21405191",
+      "21428639",
+      "35808572",
+      "25871106",
+      "30426735",
+      "21469648",
+      "15524516",
+      "35731986",
+      "40954696",
+      "15476796",
+      "36930713",
+      "25314536",
+      "33499279",
+      "31962528",
+      "18046466",
+      "37761628",
+      "35350364",
+      "23912807",
+      "24985663",
+      "25300825",
+      "31452100",
+      "22612331",
+      "25194357",
+      "17554777",
+      "23565965",
+      "39030967",
+      "18361602",
+      "38295050",
+      "27250323",
+      "16592320",
+      "19466856",
+      "12324404",
+      "17155045",
+      "23249384",
+      "40333435",
+      "16942109",
+      "40549970",
+      "37432424",
+      "17500788",
+      "31129337",
+      "27548816",
+      "23864835",
+      "26274136",
+      "30068175",
+      "21895195",
+      "17880673",
+      "31770995",
+      "12005831",
+      "28524693",
+      "17315911",
+      "34904892",
+      "11863506",
+      "21386483",
+      "37690305",
+      "38979701",
+      "15903723",
+      "40932286",
+      "16863371",
+      "29221408",
+      "29364893",
+      "39030761",
+      "35149771",
+      "36567692",
+      "37287828",
+      "36550026",
+      "23234868",
+      "40423158",
+      "41326397",
+      "39972495",
+      "37834619",
+      "12636684",
+      "32895691",
+      "28094253",
+      "28722965",
+      "17388524",
+      "30500534",
+      "12636502",
+      "17358142",
+      "33806946"
+    ],
+    "review": [
+      "40530727",
+      "32120904",
+      "29422417",
+      "18046466",
+      "39030967",
+      "31129337"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.eurekaselect.com/242724/article",
+        "provider": "Bentham Science Publishers Ltd.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

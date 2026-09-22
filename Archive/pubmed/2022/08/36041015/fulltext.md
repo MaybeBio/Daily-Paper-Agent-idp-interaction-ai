@@ -1,0 +1,7 @@
+# When acidic residues do not mimic phosphorylation: high-affinity binding of the reticulophagy receptor TEX264 to LC3/GABARAP
+
+
+## ABSTRACT
+  Substrates that are selected for degradation by autophagy interact in more complex eukaryotes with Atg8-family proteins via the LC3-interacting region (LIR) that is often preceded by either acidic residues or phosphorylated serine or threonine. These upstream amino acid residues increase the binding affinity of the LIR motif to its binding site on the surface of LC3/GABARAP. It is not fully understood whether or how phosphorylation functionally replaces acidic residues in the LIR-Atg8-family protein interactions. A recent study by Chino et al. discussed in this article analyzed the phosphorylation of two serine residues upstream of the LIR motif in TEX264, a reticulophagy receptor that exhibits a high binding affinity to LC3/GABARAP proteins. The authors found a structural basis for the high-affinity interaction yielded by phosphorylation but not by an acidic residue in place of phosphoserine. Furthermore, finding that phosphorylation of TEX264 generates its high binding affinity to Atg8-family proteins uncovers a mechanistic alternative to that utilized by other reticulophagy receptors when they interact with LC3/GABARAP.
+
+  Abbreviations: CSNK2: casein kinase 2; ER: endoplasmic reticulum; IDPR: intrinsically disordered protein region; LIR: LC3-interacting region; p-S: phosphorylated serine

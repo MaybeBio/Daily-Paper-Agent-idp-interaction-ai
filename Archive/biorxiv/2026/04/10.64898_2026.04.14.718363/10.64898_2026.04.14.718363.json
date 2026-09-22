@@ -1,0 +1,584 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.14.718363",
+  "title": "Generative design of intrinsically disordered proteins based on conditioned protein language models: Data is the limit",
+  "doi": "10.64898/2026.04.14.718363",
+  "abstract": "Intrinsically disordered proteins and regions (IDRs) are central to a multitude of biological processes. Despite extensive studies of their structural and physicochemical properties, the rational design of IDRs with defined conformational behavior remains challenging due to their ensemble nature. Here we present a generative framework for designing disordered protein sequences conditioned on target conformational ensemble descriptors using protein language models (pLMs). We formulate IDR design as the task of generating amino acid sequences predicted to realize specified biophysical properties and implement a Transformer encoder–decoder architecture that maps numerical descriptors to protein sequences. By training models on datasets spanning two orders of magnitude in size, we show that accurate control of conformational and physicochemical properties is achieved only at large data scale. These results demonstrate the feasibility of conditioning generative models on ensemble-level descriptors for IDR design. More broadly, these results support a data-centric paradigm for protein engineering, in which data availability emerges as a key limiting factor for the accurate design of IDRs.",
+  "authors": [
+    "Laure Carrière",
+    "Alexandre Huyghe",
+    "Mátyás Pajkos",
+    "Pau Bernadó",
+    "Juan Cortés"
+  ],
+  "published_date": "2026-04-16",
+  "updated_date": "2026-04-16T20:00:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718363",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718363.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            25
+          ]
+        ],
+        "date-time": "2026-08-25T01:44:08Z",
+        "timestamp": 1787622248112,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            16
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 36,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                16
+              ]
+            ],
+            "date-time": "2026-04-16T00:00:00Z",
+            "timestamp": 1776297600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001665",
+          "name": "Agence Nationale de la Recherche",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "ANR-22-CE45-0003"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "ANR-22-CE45-0003"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001665",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "award": [
+            "“AI for Health” Program"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "“AI for Health” Program"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/05mzwwx48",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000921",
+          "name": "European Cooperation in Science and Technology",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "CA21160"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "CA21160"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000921",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000780",
+          "name": "European Union",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "HORIZON-MSCA-SE, grant agreement no. 101182949"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "HORIZON-MSCA-SE, grant agreement no. 101182949"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000780",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Intrinsically disordered proteins and regions (IDRs) are central to a multitude of biological processes. Despite extensive studies of their structural and physicochemical properties, the rational design of IDRs with defined conformational behavior remains challenging due to their ensemble nature. Here we present a generative framework for designing disordered protein sequences conditioned on target conformational ensemble descriptors using protein language models (pLMs). We formulate IDR design as the task of generating amino acid sequences predicted to realize specified biophysical properties and implement a Transformer encoder–decoder architecture that maps numerical descriptors to protein sequences. By training models on datasets spanning two orders of magnitude in size, we show that accurate control of conformational and physicochemical properties is achieved only at large data scale. These results demonstrate the feasibility of conditioning generative models on ensemble-level descriptors for IDR design. More broadly, these results support a data-centric paradigm for protein engineering, in which data availability emerges as a key limiting factor for the accurate design of IDRs.</jats:p>",
+      "DOI": "10.64898/2026.04.14.718363",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            16
+          ]
+        ],
+        "date-time": "2026-04-16T20:00:11Z",
+        "timestamp": 1776369611000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Generative design of intrinsically disordered proteins based on conditioned protein language models: Data is the limit"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Laure",
+          "family": "Carrière",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "LAAS-CNRS, Université de Toulouse, CNRS, Toulouse, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexandre",
+          "family": "Huyghe",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "LAAS-CNRS, Université de Toulouse, CNRS, Toulouse, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mátyás",
+          "family": "Pajkos",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "LAAS-CNRS, Université de Toulouse, CNRS, Toulouse, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pau",
+          "family": "Bernadó",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Centre de Biologie Structurale, Université de Montpellier, INSERM, CNRS, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4660-0306",
+          "authenticated-orcid": false,
+          "given": "Juan",
+          "family": "Cortés",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "LAAS-CNRS, Université de Toulouse, CNRS, Toulouse, France"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06415-8"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.add2187"
+        },
+        {
+          "issue": "1",
+          "key": "2026041921300702000_2026.04.14.718363v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.1038/s43586-025-00383-1",
+          "article-title": "Computational protein design",
+          "volume": "5",
+          "year": "2025",
+          "journal-title": "Nature Reviews Methods Primers"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "gzae004",
+          "DOI": "10.1093/protein/gzae004",
+          "article-title": "Design of functional intrinsically disordered proteins",
+          "volume": "37",
+          "year": "2024",
+          "journal-title": "Protein Engineering, Design and Selection"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "103210",
+          "DOI": "10.1016/j.sbi.2025.103210",
+          "article-title": "Computational design of intrinsically disordered proteins",
+          "volume": "96",
+          "year": "2026",
+          "journal-title": "Current Opinion in Structural Biology"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr500288y"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-023-00673-0"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1304749110"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.CELL.2025.10.019"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "B. Strome , K. Elemam , I. Pritisanac , J. D. Forman-Kay , and A. M. Moses . “Computational design of intrinsically disordered protein regions by matching bulk molecular properties”. bioRxiv (2023).",
+          "DOI": "10.1101/2023.04.28.538739"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.adm9926"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. K. Krueger , M. P. Brenner , and K. Shrinivas . “Generalized design of sequence–ensemble–function relationships for intrinsically disordered proteins”. Nature Computational Science (2025).",
+          "DOI": "10.1038/s43588-025-00881-y"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.adj2448"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.89.9.4163"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.16",
+          "unstructured": "C. Raffel , N. Shazeer , A. Roberts , K. Lee , S. Narang , M. Matena , Y. Zhou , W. Li , and P. J. Liu . “Exploring the limits of transfer learning with a unified text-to-text transformer”. J. Mach. Learn. Res. 21.1 (2020)."
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.17",
+          "unstructured": "A. Vaswani , N. Shazeer , N. Parmar , J. Uszkoreit , L. Jones , A. N. Gomez , Ł. Kaiser , and I. Polosukhin . “Attention is all you need”. Proceedings of the 31st International Conference on Neural Information Processing Systems. NIPS’17. Red Hook, NY, USA: Curran Associates Inc., 2017, pp. 6000–6010."
+        },
+        {
+          "issue": "11",
+          "key": "2026041921300702000_2026.04.14.718363v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "968",
+          "DOI": "10.1016/j.cels.2023.10.002",
+          "article-title": "ProGen2: Exploring the boundaries of protein language models",
+          "volume": "14",
+          "year": "2023",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "issue": "1",
+          "key": "2026041921300702000_2026.04.14.718363v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "4348",
+          "DOI": "10.1038/s41467-022-32007-7",
+          "article-title": "ProtGPT2 is a deep unsupervised language model for protein design",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "issue": "D1",
+          "key": "2026041921300702000_2026.04.14.718363v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "D383",
+          "DOI": "10.1093/nar/gkaf1175",
+          "article-title": "DisProt in 2026: enhancing intrinsically disordered proteins accessibility, deposition, and annotation",
+          "volume": "54",
+          "year": "2026",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad947"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-07004-5"
+        },
+        {
+          "issue": "3",
+          "key": "2026041921300702000_2026.04.14.718363v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "465",
+          "DOI": "10.1038/s41592-023-02159-5",
+          "article-title": "Direct prediction of intrinsically disordered protein conformational properties from sequence",
+          "volume": "21",
+          "year": "2024",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2021.3095381"
+        },
+        {
+          "issue": "201",
+          "key": "2026041921300702000_2026.04.14.718363v1.26",
+          "first-page": "1",
+          "article-title": "Understanding How Dimension Reduction Tools Work: An Empirical Approach to Deciphering t-SNE, UMAP, TriMap, and PaCMAP for Data Visualization",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Journal of Machine Learning Research"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2401622121"
+        },
+        {
+          "issue": "1",
+          "key": "2026041921300702000_2026.04.14.718363v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "414",
+          "DOI": "10.1002/prot.70045",
+          "article-title": "Critical Assessment of Protein Intrinsic Disorder Round 3 - Predicting Disorder in the Era of Protein Language Models",
+          "volume": "94",
+          "year": "2026",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.29",
+          "doi-asserted-by": "crossref",
+          "unstructured": "H. Ghafouri , P. Kadeřávek , A. M. Melo , M. C. Aspromonte , P. Bernadó , J. Cortes , Z. Dosztányi , G. Erdos , M. Feig , G. Janson , K. Lindorff-Larsen , F. A. A. Mulder , P. Nagy , R. Pestell , D. Piovesan , M. Schiavina , B. Schuler , N. Sibille , G. Tesei , P. Tompa , M. Vendruscolo , J. Vondrasek , W. Vranken , L. Zidek , S. C. E. Tosatto , and A. M. Monzon . “Toward a unified framework for determining conformational ensembles of disordered proteins”. Nature Methods (2026).",
+          "DOI": "10.1038/s41592-026-03003-2"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "103198",
+          "DOI": "10.1016/j.sbi.2025.103198",
+          "article-title": "Advances in the determination of disordered protein ensemble",
+          "volume": "96",
+          "year": "2026",
+          "journal-title": "Current Opinion in Structural Biology"
+        },
+        {
+          "issue": "1",
+          "key": "2026041921300702000_2026.04.14.718363v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "362",
+          "DOI": "10.1002/prot.70062",
+          "article-title": "Predicting Pose Distribution of Protein Domains Connected by Flexible Linkers Is an Unsolved Problem",
+          "volume": "94",
+          "year": "2026",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "S. Rodriguez , A. Fournet , S. Bartels , M. Pajkos , I. Clerc , L. Carriere , A. Thureau , C. Montanier , C. Dumon , F. Allemand , J. Cortes , and P. Bernado . “Conformational ensembles of flexible multidomain proteins: How close are we to accurate and reliable predictions?” bioRxiv (2026).",
+          "DOI": "10.2139/ssrn.6304927"
+        },
+        {
+          "issue": "11",
+          "key": "2026041921300702000_2026.04.14.718363v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "btae627",
+          "DOI": "10.1093/bioinformatics/btae627",
+          "article-title": "Weighted families of contact maps to characterize conformational ensembles of (highly-)flexible proteins",
+          "volume": "40",
+          "year": "2024",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026041921300702000_2026.04.14.718363v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1061.biopython"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.14.718363",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            20
+          ]
+        ],
+        "date-time": "2026-04-20T04:30:23Z",
+        "timestamp": 1776659423000
+      },
+      "score": 104.703606,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.14.718363"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            16
+          ]
+        ]
+      },
+      "references-count": 36,
+      "URL": "https://doi.org/10.64898/2026.04.14.718363",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

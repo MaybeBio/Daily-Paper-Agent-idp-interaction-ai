@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods statement, acknowledgments)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the supplied text. Figures, tables, and supplementary materials referenced but not provided are noted as such.
+- **Shared manuscript claim summary** The authors report a pipeline combining cell-free protein crystallization (CFPC) with computational design (Foldit) and automated synchrotron data collection to determine the structure of an 11-residue intrinsically disordered fragment of c-Myc (c-Myc_1) fused to polyhedrin monomer (PhM). They report that the fragment adopts an α-helical conformation matching the c-Myc/MAX complex structure, and identify two hydrophobic residues (I403, V406) as key determinants of helix stabilization. They further report that 8 of 22 mutants yielded diffracting crystals, with 5 structures of the c-Myc_1 fragment determined.
+- **Visible evidence base** Abstract, Introduction, Results sections (Computational design, Crystallization and structure determination, Crystal structure of c-Myc_1/PhC Δ15–25, Replacement with c-Myc_2, MD simulations, Stepwise replacement), Discussion, Acknowledgments. References to Figures 1–4, Tables 1, S1, S2, and Figures S1–S14 are made but the actual figures/tables are not provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials (including crystallographic statistics, electron density maps, MD simulation details, SDS-PAGE gels, SEM images, and B-factor plots) are referenced but not supplied. This substantially limits the ability to verify the structural claims, data quality, and statistical significance of the results.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting methodological advance in using cell-free protein crystallization for rapid structure determination of IDP fragments. The concept of using a crystalline scaffold to fix and determine the structure of a disordered peptide is appealing and could be of interest to a specialized audience. However, the evidence as presented in the text alone is insufficient to fully evaluate the technical soundness of the crystallographic work, the validity of the MD simulations, or the robustness of the conclusions regarding the determinants of helix stabilization. The claims are plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in structural biology, particularly those working on intrinsically disordered proteins, protein crystallization methods, and scaffold-based structure determination. The work may also interest those developing high-throughput pipelines for protein structure analysis and those studying c-Myc as a drug target.
+- **Major strengths** The concept of combining CFPC with computational design and automated data collection is innovative and addresses a real bottleneck in IDP structure determination. The reported speed and small scale of the experiments (30 μL, 72 hours) are notable practical advantages. The identification of specific hydrophobic residues as structural determinants through systematic mutagenesis is a logical and potentially valuable approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of crystallographic results
+  - **Claim pointer** The authors claim that the structure of the c-Myc_1 fragment was determined at 1.92 Å resolution and that the electron density allowed full modeling of the fragment.
+  - **Evidence pointer** Results section "Crystallization and structure determination of c-Myc_1 fused PhCs"; Table S2 (not provided)
+  - **Concern** The crystallographic evidence is referenced but not shown. No electron density maps, refinement statistics, or validation metrics (e.g., R-free, Ramachandran statistics, B-factor distributions) are presented in the text. The claim that the fragment was "successfully determined" and that the structure is "identical" to the c-Myc/MAX complex cannot be assessed without these data.
+  - **Why it matters** The central claim of the paper rests on the quality and interpretability of the electron density for the fused IDP fragment. Without access to the maps and refinement statistics, the reader cannot verify that the modeled conformation is unambiguous or that the resolution claim is justified.
+  - **Resolution test** Provide the crystallographic table (Table S2) with resolution, completeness, R-work/R-free, and coordinate error. Show representative electron density for the c-Myc_1 fragment in a figure. State the real-space correlation coefficient or similar metric for the fragment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the mechanistic conclusion
+  - **Claim pointer** The authors conclude that hydrophobic interactions at I403 and V406 are the key determinants that fix the α-helical structure of c-Myc_1, and that the absence of these interactions explains why the c-Myc_1 fragment in c-Myc_1/PhC Δ14–24 could not be modeled.
+  - **Evidence pointer** Results sections "Crystal structure of c-Myc_1/PhC Δ15–25" and "Stepwise replacement of the c-Myc_1 sequence"; Figures 2, 4 (not provided)
+  - **Concern** The conclusion that I403 and V406 are essential is based on a limited set of mutants (four stepwise replacements, of which two crystallized). The claim that the Δ14–24 construct failed because the hydrophobic pair was not retained is speculative, as other factors (e.g., crystal packing, expression levels, or disorder) could equally explain the absence of interpretable density. The text does not report whether the Δ14–24 construct was expressed and crystallized but lacked density, or whether it failed to crystallize at all.
+  - **Why it matters** The paper's main scientific contribution is the identification of specific residues that stabilize the IDP conformation. If the evidence for this is indirect or incomplete, the conclusion is not established.
+  - **Resolution test** Clarify the outcome for each mutant: did it crystallize, diffract, and yield interpretable density? Provide a table summarizing the fate of all 22 mutants. For the Δ14–24 construct, state explicitly whether crystals were obtained and whether density for the fragment was absent or ambiguous. Consider additional mutants that disrupt the hydrophobic pair to strengthen the causal claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Adequacy of MD simulation evidence
+  - **Claim pointer** The authors use MD simulations to support the claim that the α-helical structure of c-Myc_1 is intrinsically stable and that the c-Myc_2 fragment unfolds in the crystal environment.
+  - **Evidence pointer** Results section "MD simulations of c-Myc fragment-fused PhC"; Figure 3, Figure S12 (not provided)
+  - **Concern** The MD simulation methods are described only as "all-atom MD simulations using AMBER" with no force field, water model, simulation protocol, or analysis details. The results are summarized qualitatively. Without these details, the simulations cannot be evaluated for convergence, sampling adequacy, or relevance to the crystallographic observations.
+  - **Why it matters** The simulations are used to argue that the crystal environment cooperates with intrinsic helical propensity. If the simulations are not reproducible or are underpowered, this argument is weakened.
+  - **Resolution test** Provide full simulation parameters, force field, water model, temperature/pressure coupling, simulation length, and convergence metrics. Show time evolution of RMSD and secondary structure content for both c-Myc_1 and c-Myc_2 in monomer and tetramer simulations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of construct nomenclature
+  - **Affected element** Table 1 and Results text
+  - **Evidence pointer** Results section "Computational design of c-Myc fragment-fused PhMs"
+  - **Issue** The naming convention for the mutants (e.g., c-Myc_1/PhM Δ14–24, c-Myc_1/PhM Δ15–25) is not explained. It is unclear whether the numbering refers to PhM residues or c-Myc residues, and whether the deletion notation indicates replacement of the PhM sequence with the c-Myc sequence.
+  - **Required correction** Define the nomenclature explicitly in the text or a table footnote. State which residues are replaced and the numbering scheme used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of mutant outcome reporting
+  - **Affected element** Results text
+  - **Evidence pointer** Results sections "Crystallization and structure determination" and "Stepwise replacement"
+  - **Issue** The text states that 22 mutants were investigated and 8 diffracted, but the outcomes for the remaining 14 mutants are not described. It is unclear whether they failed to express, failed to crystallize, or diffracted poorly.
+  - **Required correction** Provide a summary table or supplementary table listing all 22 mutants and their outcomes (expression, crystallization, diffraction, structure determination).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision of structural comparison
+  - **Affected element** Results section "Crystal structure of c-Myc_1/PhC Δ15–25"
+  - **Evidence pointer** Figure 2c (not provided)
+  - **Issue** The claim that the c-Myc_1 fragment is "structurally similar" to the c-Myc/MAX complex is stated without a quantitative comparison. The all-atom RMSD of 0.47 Å is given, but the number of atoms used in the superposition and the reference structure (PDB ID) are not stated.
+  - **Required correction** State the PDB ID of the c-Myc/MAX complex used for comparison, the atoms included in the RMSD calculation, and the superposition method.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability of the method
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors state that the pipeline is "valuable for rapid structure determination of IDPs" but only one IDP fragment (c-Myc_1) was successfully determined. The failure with c-Myc_2 and the Δ14–24 construct suggests limitations that are not discussed.
+  - **Required correction** Add a paragraph discussing the limitations of the method, including the success rate observed in this study and the factors that may influence whether a given IDP fragment can be structured in the PhC scaffold.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (crystallographic evidence not shown), R1-M2 (mechanistic conclusion not fully supported), R1-M3 (MD simulation details missing)
+- **Assessment against Nature-style criteria**
+  - **Originality** The combination of CFPC with computational design and automated data collection for IDP structure determination is a novel methodological contribution. The use of a crystalline scaffold to fix an IDP fragment in a defined conformation is creative.
+  - **Scientific importance** The work addresses a genuine challenge in structural biology, namely the determination of IDP structures. However, the importance of the specific finding (two hydrophobic residues stabilize the helix) is limited to the c-Myc system and may not generalize broadly.
+  - **Interdisciplinary readership** The work sits at the interface of structural biology, protein engineering, and biophysics. It may appeal to a specialized audience but is unlikely to attract broad interdisciplinary interest given the narrow scope of the biological question.
+  - **Technical soundness** Cannot be fully assessed from the supplied text. The crystallographic and simulation evidence is referenced but not shown. The success rate of the method (8 of 22 mutants diffracted, 5 structures determined) is modest and not fully explained.
+  - **Readability for nonspecialists** The text is generally clear and logically organized. However, the nomenclature for mutants and the lack of explanatory figures make it difficult for a nonspecialist to follow the experimental design and outcomes.
+- **Recommendation posture** Currently not established from the provided evidence. The methodological concept is promising and the work may be suitable for a specialized journal after the technical concerns are addressed. The crystallographic evidence, MD simulation details, and a complete accounting of mutant outcomes are required to support the central claims.
+
+## Risk / unsupported claims
+- The claim that the c-Myc_1 structure is "identical" to the c-Myc/MAX complex conformation is not supported by quantitative comparison data in the text.
+- The claim that hydrophobic interactions at I403 and V406 are the key determinants of helix stabilization is not fully supported, as the evidence is based on a limited set of mutants and the outcome for the Δ14–24 construct is ambiguous.
+- The claim that the pipeline is "valuable for rapid structure determination of IDPs" is not established from a single successful example, especially given the modest success rate reported.
+- The MD simulation results are described qualitatively without sufficient methodological detail to be evaluated or reproduced.
+- The statement that "5 were determined as the ordered structure of the c-Myc_1 fragment" is unclear, as the text elsewhere reports 8 structures determined from 22 mutants; the relationship between these numbers is not explained.

@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "42421755",
+    "doi": "10.1016/j.xops.2026.101249",
+    "title": "A Disorder-Aware Computational Framework to Identify Structurally Tractable Targets in Proliferative Vitreoretinopathy."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Proliferative vitreoretinopathy (PVR) remains a major cause of failure after rhegmatogenous retinal detachment repair and lacks effective pharmacologic therapies. Although epithelial-mesenchymal transition (EMT) is central to PVR pathogenesis, the structural determinants governing the tractability of EMT regulators, particularly those involving intrinsic disorder, remain poorly defined. We developed a disorder-aware, artificial intelligence-enabled computational framework to evaluate EMT-associated proteins in PVR and prioritize structurally tractable regulators for structure-based targeting. DESIGN: A computational, hypothesis-generating study employing an in silico screening and structural modeling pipeline. SUBJECTS: No human subjects or biological specimens were included. The dataset comprised 25 EMT-associated proteins implicated in PVR, curated through a narrative review of peer-reviewed literature. METHODS: Candidate proteins were evaluated using a multistage pipeline integrating intrinsic disorder profiling (Rapid Intrinsic Disorder Analysis Online), redox-sensitive disorder-to-order transition (DOT) analysis (AIUPred), and protein-protein interaction network assessment (Search Tool for the Retrieval of Interacting Genes/Proteins [STRING]). Structure-based modeling and generative binder design were then applied to the top-ranked candidate using RFdiffusion for de novo backbone generation, protein message passing neural network for sequence design, and AlphaFold2 for structural validation. MAIN OUTCOME MEASURES: Primary measures were the proportion of intrinsically disordered residues, redox-sensitive disorder change, STRING network coherence within EMT-related pathways, and the structural consistency of the designed binder-target complex, assessed by root mean square deviation (RMSD) and mean per-residue confidence (predicted local distance difference test [pLDDT]). RESULTS: Of the 25 EMT-associated proteins screened, several exhibited intermediate intrinsic disorder profiles and measurable DOT potential. Snail Family Transcriptional Repressor 1 (SNAIL1) emerged as the highest-priority candidate, demonstrating an intermediate intrinsic disorder profile ( approximately 35%), a pronounced redox-sensitive DOT region, and selective connectivity within EMT-related signaling networks. Functional mapping of the SNAIL1 C-terminal DOT segment identified 6 basic residues with literature-supported or motif-based regulatory significance (K187, R191, R224, K234, K253, and R264). Following sequence design and structural validation, the top-ranked binder exhibited the lowest structural deviation within the generated ensemble (RMSD 18.5 A) and high per-residue confidence (mean pLDDT 0.84). CONCLUSIONS: Our study introduces a disorder-informed computational framework for prioritizing structurally tractable EMT regulators in PVR. As a proof-of-concept, the pipeline nominates SNAIL1 and generates a structure-aware de novo binder targeting its C-terminal DOT region, providing a foundation for disorder-based therapeutic discovery in fibrotic retinal disease. FINANCIAL DISCLOSURES: Proprietary or commercial disclosure may be found in the Footnotes and Disclosures at the end of this article.",
+    "keywords": [
+      "Artificial intelligence",
+      "Epithelial-mesenchymal transition",
+      "Intrinsic disorder",
+      "Proliferative vitreoretinopathy",
+      "SNAIL1"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Djulbegovic, Mak B",
+        "Hadzijahic, Nedym",
+        "Taylor Gonzalez, David J",
+        "Antonietti, Michael",
+        "Zafar, Sidra",
+        "Kuriyan, Ajay E"
+      ],
+      "short_names": [
+        "Djulbegovic MB",
+        "Hadzijahic N",
+        "Taylor Gonzalez DJ",
+        "Antonietti M",
+        "Zafar S",
+        "Kuriyan AE"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Wills Eye Hospital, Thomas Jefferson University Hospital, Philadelphia, Pennsylvania.",
+        "University of Miami, Miami, Florida.",
+        "Department of Ophthalmology, Broward Health North, Pompano Beach, Florida.",
+        "Department of Ophthalmology, Massachusetts Eye and Ear Infirmary, Harvard Medical School, Boston, Massachusetts.",
+        "Wills Eye Hospital, Thomas Jefferson University Hospital, Philadelphia, Pennsylvania.",
+        "Mid Atlantic Retina at Wills Eye Hospital, Philadelphia, Pennsylvania.",
+        "Wills Eye Hospital, Thomas Jefferson University Hospital, Philadelphia, Pennsylvania.",
+        "University of Miami, Miami, Florida."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Djulbegovic, Mak B",
+        "short_name": "Djulbegovic MB",
+        "identifiers": [],
+        "affiliations": [
+          "Wills Eye Hospital, Thomas Jefferson University Hospital, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Hadzijahic, Nedym",
+        "short_name": "Hadzijahic N",
+        "identifiers": [],
+        "affiliations": [
+          "University of Miami, Miami, Florida."
+        ]
+      },
+      {
+        "full_name": "Taylor Gonzalez, David J",
+        "short_name": "Taylor Gonzalez DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Broward Health North, Pompano Beach, Florida."
+        ]
+      },
+      {
+        "full_name": "Antonietti, Michael",
+        "short_name": "Antonietti M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, Massachusetts Eye and Ear Infirmary, Harvard Medical School, Boston, Massachusetts."
+        ]
+      },
+      {
+        "full_name": "Zafar, Sidra",
+        "short_name": "Zafar S",
+        "identifiers": [],
+        "affiliations": [
+          "Wills Eye Hospital, Thomas Jefferson University Hospital, Philadelphia, Pennsylvania.",
+          "Mid Atlantic Retina at Wills Eye Hospital, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Kuriyan, Ajay E",
+        "short_name": "Kuriyan AE",
+        "identifiers": [],
+        "affiliations": [
+          "Wills Eye Hospital, Thomas Jefferson University Hospital, Philadelphia, Pennsylvania.",
+          "University of Miami, Miami, Florida."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Ophthalmology science"
+    ],
+    "journal_abbrev": [
+      "Ophthalmol Sci"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/09 06:32",
+    "fetched_at": "2026-09-18 04:48:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40674483",
+      "40632995",
+      "40384869",
+      "40364580",
+      "39940795",
+      "39826818",
+      "39752596",
+      "39219934",
+      "38780937",
+      "38747347",
+      "38707546",
+      "38492583",
+      "38452047",
+      "38220424",
+      "37957331",
+      "37933859",
+      "37918204",
+      "37850517",
+      "37626310",
+      "37433327",
+      "36648282",
+      "36494806",
+      "36430530",
+      "36370105",
+      "36334049",
+      "36048826",
+      "35835183",
+      "35579905",
+      "35359617",
+      "35288070",
+      "34838574",
+      "34681726",
+      "34681018",
+      "34598306",
+      "34339656",
+      "34265844",
+      "34006959",
+      "34001820",
+      "33861322",
+      "33177614",
+      "33150072",
+      "32736702",
+      "31792351",
+      "30585928",
+      "30116008",
+      "30096838",
+      "30012187",
+      "28296173",
+      "27899622",
+      "27294805",
+      "26675400",
+      "26552368",
+      "26109834",
+      "25314079",
+      "25177496",
+      "24788939",
+      "24699649",
+      "24297167",
+      "21853110",
+      "19386897",
+      "7843590"
+    ],
+    "similar": [
+      "42421755",
+      "42475469",
+      "36321557",
+      "42222300",
+      "40311677",
+      "41743358",
+      "37626310",
+      "37453482",
+      "38906219",
+      "36717076",
+      "42220119",
+      "39870644",
+      "41767322",
+      "40752572",
+      "41687307",
+      "28906008",
+      "42473438",
+      "39505109",
+      "42155609",
+      "18831774",
+      "42061571",
+      "37659204",
+      "29698960",
+      "41425088",
+      "39566570",
+      "40553882",
+      "27600720",
+      "18682805",
+      "39524785",
+      "32432726",
+      "37496518",
+      "30347087",
+      "38296203",
+      "21853110",
+      "28706757",
+      "26109834",
+      "34598306",
+      "32042767",
+      "40753949",
+      "42421348",
+      "40289074",
+      "30088405",
+      "26562474",
+      "36333112",
+      "36841807",
+      "35680097",
+      "24532038",
+      "37191619",
+      "24302586",
+      "42285191",
+      "33759344",
+      "37506796",
+      "38823559",
+      "34336257",
+      "42420840",
+      "38395214",
+      "36290802",
+      "39779937",
+      "41529022",
+      "23912807",
+      "36508524",
+      "40371444",
+      "42309610",
+      "41347811",
+      "42021363",
+      "42565562",
+      "40151358",
+      "40466854",
+      "42199731",
+      "42470596",
+      "26552368",
+      "40799657",
+      "41492010",
+      "39227412",
+      "36901938",
+      "42496704",
+      "33664479",
+      "33257736",
+      "40320752",
+      "39113261",
+      "32821520",
+      "36048826",
+      "40897171",
+      "42366251",
+      "41120700",
+      "30309666",
+      "39226050",
+      "37561450",
+      "32201364",
+      "23601805",
+      "30383450",
+      "38873396",
+      "29296073",
+      "26572553",
+      "31527897",
+      "38104666",
+      "40720817",
+      "39150724",
+      "41544460",
+      "33861322"
+    ],
+    "review": [
+      "42421755",
+      "36321557",
+      "28706757",
+      "26109834",
+      "26562474",
+      "24532038",
+      "40371444",
+      "36901938",
+      "40897171",
+      "38873396",
+      "39150724"
+    ],
+    "pmc": [
+      "13343151"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-9145(26)00187-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42421755/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PVR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

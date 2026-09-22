@@ -1,0 +1,583 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.25.564023",
+  "title": "A machine learning-based approach to identify reliable gold standards for protein complex composition prediction",
+  "doi": "10.1101/2023.10.25.564023",
+  "abstract": "Co-Fractionation Mass Spectrometry (CFMS) enables the discovery of protein complexes and the systems-level analyses of multimer dynamics that facilitate responses to environmental and developmental conditions. A major challenge in the CFMS analyses, and other omics approaches in general, is to conduct validation experiments at scale and develop precise methods to evaluate the performance of the analyses. For protein complex composition predictions, CORUM is commonly used as a source of known complexes; however, the subunit pools in cell extracts are very rarely in the assumed fully assembled states. Therefore, a fundamental conflict exists between the assumed multimerization of the CORUM “gold standards” and the CFMS experimental datasets to be evaluated. In this paper, we develop a machine learning-based “small world” data analysis method. This method uses size exclusion chromatography profiles of predicted CORUM complex subunits to identify relatively rare instances of fully assembled complexes, as well as bona fide stable CORUM subcomplexes. Our method involves a two-stage machine learning approach that is designed to leverage evolutionarily conserved sequences among CORUM subunits and integrate it with size exclusion chromatography profile data from CFMS experiments. The generated gold standards are evaluated by both statistical significance and size comparison between calculated and predicted complexes. We expect these gold standards to serve as improved benchmarks to assess the overall reliability of CFMS-based protein complex composition predictions.",
+  "authors": [
+    "Pengcheng Yang",
+    "Youngwoo Lee",
+    "Daniel B. Szymanski",
+    "Jun Xie"
+  ],
+  "published_date": "2023-10-30",
+  "updated_date": "2023-10-30T22:10:39Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.25.564023",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.25.564023.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:51:16Z",
+        "timestamp": 1768506676994,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            30
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 51,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2023-10-30T00:00:00Z",
+            "timestamp": 1698624000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            10
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Co-Fractionation Mass Spectrometry (CFMS) enables the discovery of protein complexes and the systems-level analyses of multimer dynamics that facilitate responses to environmental and developmental conditions. A major challenge in the CFMS analyses, and other omics approaches in general, is to conduct validation experiments at scale and develop precise methods to evaluate the performance of the analyses. For protein complex composition predictions, CORUM is commonly used as a source of known complexes; however, the subunit pools in cell extracts are very rarely in the assumed fully assembled states. Therefore, a fundamental conflict exists between the assumed multimerization of the CORUM “gold standards” and the CFMS experimental datasets to be evaluated. In this paper, we develop a machine learning-based “small world” data analysis method. This method uses size exclusion chromatography profiles of predicted CORUM complex subunits to identify relatively rare instances of fully assembled complexes, as well as bona fide stable CORUM subcomplexes. Our method involves a two-stage machine learning approach that is designed to leverage evolutionarily conserved sequences among CORUM subunits and integrate it with size exclusion chromatography profile data from CFMS experiments. The generated gold standards are evaluated by both statistical significance and size comparison between calculated and predicted complexes. We expect these gold standards to serve as improved benchmarks to assess the overall reliability of CFMS-based protein complex composition predictions.</jats:p>",
+      "DOI": "10.1101/2023.10.25.564023",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            30
+          ]
+        ],
+        "date-time": "2023-10-30T22:10:39Z",
+        "timestamp": 1698703839000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "A machine learning-based approach to identify reliable gold standards for protein complex composition prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0008-1550-9113",
+          "authenticated-orcid": false,
+          "given": "Pengcheng",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5260-0153",
+          "authenticated-orcid": false,
+          "given": "Youngwoo",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8255-424X",
+          "authenticated-orcid": false,
+          "given": "Daniel B.",
+          "family": "Szymanski",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1444-9234",
+          "authenticated-orcid": false,
+          "given": "Jun",
+          "family": "Xie",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature02166"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "907",
+          "DOI": "10.1038/nmeth.2131",
+          "article-title": "A high-throughput approach for measuring temporal changes in the interactome",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.08.011"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.114.127563"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "8",
+          "DOI": "10.1016/j.jprot.2017.06.004",
+          "article-title": "Analysis of protein complexes in Arabidopsis leaves using size exclusion chromatography and label-free protein correlation profiling",
+          "volume": "166",
+          "year": "2017",
+          "journal-title": "Journal of Proteomics"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.6",
+          "first-page": "002017",
+          "article-title": "Global analysis of membrane-associated protein oligomerization using protein correlation profiling",
+          "volume": "000276",
+          "year": "2017",
+          "journal-title": "Molecular & Cellular Proteomics, mcp"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.7",
+          "first-page": "107",
+          "article-title": "Global identification of protein complexes within the membrane proteome of Arabidopsis roots using a SEC-MS approach",
+          "volume": "18",
+          "year": "2019",
+          "journal-title": "Journal of Proteome Research"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-020-2094-2"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.02.049"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1594",
+          "DOI": "10.1074/mcp.M000038-MCP201",
+          "article-title": "Megadalton Complexes in the Chloroplast Stroma of Arabidopsis thaliana Characterized by Size Exclusion Chromatography, Mass Spectrometry, and Hierarchical Clustering*",
+          "volume": "9",
+          "year": "2010",
+          "journal-title": "Molecular & Cellular Proteomics"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/tpj.13448"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1105/tpc.109.073726"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "11523",
+          "DOI": "10.1038/s41598-019-47829-7",
+          "article-title": "Protein Complex Identification and quantitative complexome by CN-PAGE",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "42387",
+          "DOI": "10.1038/srep42387",
+          "article-title": "System-wide detection of protein-small molecule complexes suggests extensive metabolite regulation in plants",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.RA118.003351"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/plcell/koab182"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.1074/mcp.R119.001803",
+          "article-title": "Next-generation Interactomics: Considerations for the use of co-elution to measure protein interaction networks",
+          "volume": "19",
+          "year": "2020",
+          "journal-title": "Molecular & Cellular Proteomics"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "1876",
+          "DOI": "10.1074/mcp.RA120.002154",
+          "article-title": "Analytical Guidelines for co-fractionation Mass Spectrometry Obtained through Global Profiling of Gold Standard Saccharomyces cerevisiae Protein Complexes",
+          "volume": "19",
+          "year": "2020",
+          "journal-title": "Molecular & Cellular Proteomics"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "538",
+          "DOI": "10.1016/j.cmet.2012.08.009",
+          "article-title": "Complexome Profiling Identifies TMEM126B as a Component of the Mitochondrial Complex I Assembly Complex",
+          "volume": "16",
+          "year": "2012",
+          "journal-title": "Cell Metabolism"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14877"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.20188438"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.abf0984"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "1588",
+          "DOI": "10.1074/mcp.RA119.001400",
+          "article-title": "A label-free mass spectrometry method to predict endogenous protein complex composition",
+          "volume": "18",
+          "year": "2019",
+          "journal-title": "Molecular & Cellular Proteomics"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "133",
+          "DOI": "10.1016/j.cels.2020.01.001",
+          "article-title": "A Global Screen for Assembly State Changes of the Mitotic Proteome by SEC-SWATH-MS",
+          "volume": "10",
+          "year": "2020",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky973"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1203"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1085"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "520",
+          "DOI": "10.1038/s41592-021-01107-5",
+          "article-title": "PCprophet: a framework for protein complex prediction and differential analysis using proteomic data",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chroma.2007.10.067"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "933",
+          "DOI": "10.1016/j.tplants.2018.07.006",
+          "article-title": "Whole-genome duplication and plant macroevolution",
+          "volume": "23",
+          "year": "2018",
+          "journal-title": "Trends in Plant Science"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/1096-987X(200102)22:3<273::AID-JCC1001>3.0.CO;2-0"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/5.58325"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1136800"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.34",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Evans, R. , O’Neill, M. , Pritzel, A. , Antropova, N. , Senior, A. , Green, T. , Žídek, A. , Bates, R. , Blackwell, S. , Yim, J. , Ronneberger, O. , Bodenstein, S. , Zielinski, M. , Bridgland, A. , Potapenko, A. , Cowie, A. , Tunyasuvunakool, K. , Jain, R. , Clancy, E. , Kohli, P. , Jumper, J. , and Hassabis, D. (2022) Protein complex prediction with AlphaFold-Multimer. bioRxiv, 2021.2010.2004.463034",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cianfrocco, M. A. , Wong-Barnum, M. , Youn, C. , Wagner, R. , and Leschziner, A . (2017) COSMIC2: A Science Gateway for Cryo-Electron Microscopy Structure Determination. Proceedings of the Practice and Experience in Advanced Research Computing 2017 on Sustainability, Success and Impact, p. Article 22, Association for Computing Machinery, New Orleans, LA, USA",
+          "DOI": "10.1145/3093338.3093390"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkl976"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.37",
+          "first-page": "D1178",
+          "article-title": "Phytozome: a comparative platform for green plant genomics",
+          "volume": "40",
+          "year": "2011",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.38",
+          "unstructured": "R Core Team (2018) R: A language and environment for statistical computing. 3.5.1 Ed., R Foundation for Statistical Computing, Vienna, Austria"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.39",
+          "unstructured": "RStudio Team (2018) RStudio: Integrated development environment for R. 1.1.463 Ed., RStudio, Inc., Boston, MA"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.40",
+          "first-page": "1",
+          "article-title": "Flexible Self-Organizing Maps in kohonen 3.0",
+          "volume": "87",
+          "year": "2018",
+          "journal-title": "Journal of Statistical Software"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr406"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "397",
+          "DOI": "10.1038/s41594-019-0220-3",
+          "article-title": "Transcription preinitiation complex structure and dynamics provide insight into genetic diseases",
+          "volume": "26",
+          "year": "2019",
+          "journal-title": "Nature Structural & Molecular Biology"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.271.9.5085"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.272.27.16815"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Garrido-Godino, A. I. , Gutiérrez-Santiago, F. , and Navarro, F . (2021) Biogenesis of RNA Polymerases in Yeast. Frontiers in Molecular Biosciences 8",
+          "DOI": "10.3389/fmolb.2021.669300"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2011.12.001"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2010.08.023"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "3851",
+          "DOI": "10.1074/mcp.M113.032367",
+          "article-title": "Characterization of native protein complexes and protein isoform variation using size-fractionation-based quantitative proteomics",
+          "volume": "12",
+          "year": "2013",
+          "journal-title": "Molecular and Cellular Proteomics"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "2254",
+          "DOI": "10.1074/mcp.O117.068122",
+          "article-title": "Prediction of Protein Complexes in Trypanosoma brucei by Protein Correlation Profiling Mass Spectrometry and Machine Learning",
+          "volume": "16",
+          "year": "2017",
+          "journal-title": "Molecular & Cellular Proteomics"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "32",
+          "DOI": "10.1038/s43586-021-00029-y",
+          "article-title": "Subcellular proteomics",
+          "volume": "1",
+          "year": "2021",
+          "journal-title": "Nature Reviews Methods Primers"
+        },
+        {
+          "key": "2024081311101396000_2023.10.25.564023v2.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "250",
+          "DOI": "10.1111/pbi.13929",
+          "article-title": "Spatial proteomics of vesicular trafficking: coupling mass spectrometry and imaging approaches in membrane biology",
+          "volume": "21",
+          "year": "2023",
+          "journal-title": "Plant Biotechnology Journal"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.10.25.564023",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:26:54Z",
+        "timestamp": 1768454814000
+      },
+      "score": 52.994926,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.10.25.564023"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            30
+          ]
+        ]
+      },
+      "references-count": 51,
+      "URL": "https://doi.org/10.1101/2023.10.25.564023",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bib/bbaf154",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

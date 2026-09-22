@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41071870",
+  "title": "Mechanism of USP21 autoinhibition and histone H2AK119 deubiquitination.",
+  "authors": "Rahman, Sanim; Hicks, Chad W; Gwizdala, Alexander; Wolberger, Cynthia",
+  "journal": "Science advances",
+  "published_date": "2025-10-10",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过冷冻电镜和AlphaFold建模揭示USP21的IDR自抑制及磷酸化调控机制，涉及IDR介导的酶-底物互作，但对象为酶与核小体而非典型PPI，方法以AI预测为主，机制建模有启发。",
+  "abstract": "Monoubiquitinated histone H2A lysine 119 (H2AK119ub) is a modification associated with transcriptional silencing and heterochromatin formation. Ubiquitin-specific protease 21 (USP21), one of four major H2AK119-specific deubiquitinating enzymes (DUBs), plays critical roles in diverse cellular processes. However, the mechanisms by which USP21 specifically deubiquitinates H2AK119ub and is regulated are unknown. We determined the cryo-EM structure of the USP21 catalytic domain bound to an H2AK119ub nucleosome, which revealed a recognition mode that differs from that of other H2AK119-specific DUBs. We unexpectedly found that the N-terminal IDR of USP21 inhibits the enzyme's activity. Using AlphaFold-Multimer to perform a virtual screen of USP21 interactors, we identified kinases that phosphorylate the USP21 IDR and thereby relieve autoinhibition. AlphaFold3 modeling of USP21 suggests a structural model for autoinhibition. AlphaFold analysis suggests that phosphorylation-regulated autoinhibition may be a feature of various USP enzymes. These findings shed light on the mechanisms of H2AK119 deubiquitination and reveal a previously unexplored mode of phosphorylation-dependent DUB autoregulation.",
+  "abstract_zh": "单泛素化组蛋白H2A第119位赖氨酸（H2AK119ub）是一种与转录沉默和异染色质形成相关的修饰。泛素特异性蛋白酶21（USP21）是四种主要的H2AK119特异性去泛素化酶（DUBs）之一，在多种细胞过程中发挥关键作用。然而，USP21特异性去泛素化H2AK119ub及其调控机制尚不清楚。我们解析了USP21催化结构域与H2AK119ub核小体结合的冷冻电镜结构，揭示了一种不同于其他H2AK119特异性DUBs的识别模式。我们意外发现，USP21的N端内在无序区（IDR）抑制了该酶的活性。利用AlphaFold-Multimer对USP21相互作用因子进行虚拟筛选，我们鉴定出能够磷酸化USP21 IDR并从而解除自抑制的激酶。AlphaFold3对USP21的建模提出了自抑制的结构模型。AlphaFold分析表明，磷酸化调控的自抑制可能是多种USP酶的共同特征。这些发现阐明了H2AK119去泛素化的机制，并揭示了一种此前未被探索的磷酸化依赖性DUB自调控模式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41071870/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41071870/",
+  "paper_page_path": "papers/pubmed/41071870/index.html"
+}

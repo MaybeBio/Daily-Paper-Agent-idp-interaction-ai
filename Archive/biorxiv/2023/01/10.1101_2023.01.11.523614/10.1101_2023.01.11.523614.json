@@ -1,0 +1,226 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.01.11.523614",
+  "title": "Characterization of the REC114-MEI4-IHO1 complex regulating meiotic DNA double-strand break formation",
+  "doi": "10.1101/2023.01.11.523614",
+  "abstract": "Meiotic recombination is initiated by the formation of DNA double-strand breaks (DSBs), essential for fertility and genetic diversity. In the mouse, DSBs are formed by the catalytic TOPOVIL complex consisting of SPO11 and TOPOVIBL. To preserve genome integrity, the activity of the TOPOVIL complex is finely controlled by several meiotic factors including REC114, MEI4 and IHO1, but the underlying mechanism is poorly understood. Here, we report that mouse REC114 forms homodimers, that it associates with MEI4 as a 2:1 heterotrimer that further dimerizes, and that IHO1 forms coiled-coil based tetramers. Using AlphaFold2 modelling combined with biochemical characterization we uncovered the molecular details of these assemblies. Finally, we show that IHO1 directly interacts with the PH domain of REC114 by recognizing the same surface as TOPOVIBL and another meiotic factor ANKRD31. These results provide strong evidence for the existence of a ternary IHO1-REC114-MEI4 complex and show that REC114 is a potential regulatory platform mediating mutually exclusive interactions with several partners.",
+  "authors": [
+    "Laroussi H",
+    "Juarez-Martinez AB",
+    "Roy AL",
+    "Erba EB",
+    "de Massy B",
+    "Kadlec J"
+  ],
+  "published_date": "2023-01-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.01.11.523614",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.01.11.523614.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR595339",
+    "raw_record": {
+      "id": "PPR595339",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR595339"
+        ]
+      },
+      "doi": "10.1101/2023.01.11.523614",
+      "title": "Characterization of the REC114-MEI4-IHO1 complex regulating meiotic DNA double-strand break formation",
+      "authorString": "Laroussi H, Juarez-Martinez AB, Roy AL, Erba EB, de Massy B, Kadlec J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Laroussi H",
+            "lastName": "Laroussi",
+            "firstName": "Hamida",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Juarez-Martinez AB",
+            "lastName": "Juarez-Martinez",
+            "firstName": "Ariadna",
+            "initials": "AB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roy AL",
+            "lastName": "Roy",
+            "firstName": "Aline Le",
+            "initials": "AL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Erba EB",
+            "lastName": "Erba",
+            "firstName": "Elisabetta Boeri",
+            "initials": "EB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Massy B",
+            "lastName": "de Massy",
+            "firstName": "Bernard",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0950-2758"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut de Génétique Humaine (IGH), Centre National de la Recherche Scientifique, Univ Montpellier, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kadlec J",
+            "lastName": "Kadlec",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Grenoble Alpes, CNRS, CEA, IBS, F-38000 Grenoble, France"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0950-2758"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Meiotic recombination is initiated by the formation of DNA double-strand breaks (DSBs), essential for fertility and genetic diversity. In the mouse, DSBs are formed by the catalytic TOPOVIL complex consisting of SPO11 and TOPOVIBL. To preserve genome integrity, the activity of the TOPOVIL complex is finely controlled by several meiotic factors including REC114, MEI4 and IHO1, but the underlying mechanism is poorly understood. Here, we report that mouse REC114 forms homodimers, that it associates with MEI4 as a 2:1 heterotrimer that further dimerizes, and that IHO1 forms coiled-coil based tetramers. Using AlphaFold2 modelling combined with biochemical characterization we uncovered the molecular details of these assemblies. Finally, we show that IHO1 directly interacts with the PH domain of REC114 by recognizing the same surface as TOPOVIBL and another meiotic factor ANKRD31. These results provide strong evidence for the existence of a ternary IHO1-REC114-MEI4 complex and show that REC114 is a potential regulatory platform mediating mutually exclusive interactions with several partners.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/01/11/2023.01.11.523614.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.01.11.523614"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR595339"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR595339&type=FILE&fileName=EMS160085-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37431931",
+            "reference": "The EMBO journal. 2023 Aug;42(16):e113866",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS160085",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-01-13",
+      "firstPublicationDate": "2023-01-11",
+      "firstIndexDate": "2023-01-13",
+      "fullTextReceivedDate": "2023-02-01",
+      "hasEvaluations": "Y"
+    }
+  }
+}

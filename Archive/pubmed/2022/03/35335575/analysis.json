@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35335575",
+  "title": "Modulating Role of Co-Solutes in Complexation between Bovine Serum Albumin and Sodium Polystyrene Sulfonate.",
+  "authors": "Simoncic, Matjaz; Luksic, Miha",
+  "journal": "Polymers",
+  "published_date": "2022-03-27",
+  "window": {
+    "start": "2022-03-21",
+    "end": "2022-03-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究共溶质对牛血清白蛋白与聚苯乙烯磺酸钠复合物形成的影响，涉及蛋白质-聚电解质互作及MD模拟，但对象为折叠蛋白而非无序蛋白/IDR，互作机制建模深度有限。",
+  "abstract": "The action of three types of co-solutes: (i) salts (NaCl, NaBr, NaI), (ii) polymer (polyethylene glycol; PEG-400, PEG-3000, PEG-20000), and (iii) sugars (sucrose, sucralose) on the complexation between bovine serum albumin (BSA) and sodium polystyrene sulfonate (NaPSS) was studied. Three critical pH parameters were extracted from the pH dependence of the solution's turbidity: pHc corresponding to the formation of the soluble complexes, pHPhi corresponding to the formation of the insoluble complexes, and pHopt corresponding to the charge neutralization of the complexes. In the presence of salts, the formation of soluble and insoluble complexes as well as the charge neutralization of complexes was hindered, which is a consequence of the electrostatic screening of attractive interactions between BSA and NaPSS. Distinct anion-specific trends were observed in which the stabilizing effect of the salt increased in the order: NaCl < NaBr < NaI. The presence of PEG, regardless of its molecular weight, showed no measurable effect on the formation of soluble complexes. PEG-400 and PEG-3000 showed no effect on the formation of insoluble complexes, but PEG-20000 in high concentrations promoted their formation due to the molecular crowding effect. The presence of sugar molecules had little effect on BSA-NaPSS complexation. Sucralose showed a minor stabilizing effect with respect to the onset of complex formation, which was due to its propensity to the protein surface. This was confirmed by the fluorescence quenching assay (Stern-Volmer relationship) and all-atom MD simulations. This study highlights that when evaluating the modulatory effect of co-solutes on protein-polyelectrolyte interactions, (co-solute)-protein interactions and their subsequent impact on protein aggregation must also be considered.",
+  "abstract_zh": "研究了三种共溶质：（i）盐类（NaCl、NaBr、NaI）、（ii）聚合物（聚乙二醇；PEG-400、PEG-3000、PEG-20000）以及（iii）糖类（蔗糖、三氯蔗糖）对牛血清白蛋白（BSA）与聚苯乙烯磺酸钠（NaPSS）之间络合作用的影响。从溶液浊度对pH的依赖性中提取了三个关键pH参数：pHc对应于可溶性络合物的形成，pHPhi对应于不溶性络合物的形成，pHopt对应于络合物的电荷中和。在盐存在下，可溶性和不溶性络合物的形成以及络合物的电荷中和均受到阻碍，这是BSA与NaPSS之间吸引性相互作用被静电屏蔽的结果。观察到明显的阴离子特异性趋势，其中盐的稳定效应按以下顺序增强：NaCl < NaBr < NaI。PEG的存在，无论其分子量如何，对可溶性络合物的形成均无可测量影响。PEG-400和PEG-3000对不溶性络合物的形成无影响，但高浓度的PEG-20000由于分子拥挤效应促进了其形成。糖分子的存在对BSA-NaPSS络合作用影响甚微。三氯蔗糖在络合物形成起始方面表现出轻微的稳定效应，这归因于其对蛋白质表面的亲和性。这一结论通过荧光猝灭实验（Stern-Volmer关系）和全原子分子动力学（MD）模拟得到证实。本研究强调，在评估共溶质对蛋白质-聚电解质相互作用的调节效应时，还必须考虑（共溶质）-蛋白质相互作用及其对蛋白质聚集的后续影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35335575/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35335575/",
+  "paper_page_path": "papers/pubmed/35335575/index.html"
+}

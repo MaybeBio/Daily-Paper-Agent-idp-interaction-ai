@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and figure legends
+- **Assessment boundary** Scientific claims, methodological rigor, evidence quality, and internal consistency of the presented work
+- **Shared manuscript claim summary** The authors use long MD simulations of eight IDPs to define general rules for sequence-dependent backbone dynamics, identifying that slow dynamics arise from local interactions or secondary structures while glycines promote fast dynamics, and that this dynamics distribution enables versatile binding responses
+- **Visible evidence base** MD simulation results validated against SAXS, chemical shifts, PREs, and NMR relaxation data; contact maps and secondary structure propensity analyses; three-exponential fits of NH correlation functions
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; experimental NMR relaxation data for A1-LCD R1 and NOE not available; no access to simulation input files or trajectory analysis scripts
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and computationally intensive study of backbone dynamics in eight IDPs, with careful validation against multiple experimental observables. The central claim that sequence-dependent dynamics can be rationalized through local interactions, secondary structure propensities, and glycine content is plausible and supported by the presented analyses. However, the generalizability of the proposed rules, the quantitative robustness of the three-exponential fitting approach, and the functional implications section require further scrutiny. The work is technically sound in its core simulation and validation strategy, but several interpretive leaps and incomplete validations temper enthusiasm.
+- **Who would be interested in the results, and why** Researchers in the IDP biophysics community, computational chemists developing and benchmarking force fields for disordered proteins, NMR spectroscopists studying protein dynamics, and structural biologists interested in sequence-dynamics-function relationships. The work provides a useful benchmark for the AMBER ff14SB/TIP4P-D force field combination and offers a framework for interpreting relaxation data in disordered systems.
+- **Major strengths** 1) Large-scale simulation effort (102.4 μs total) across eight diverse IDPs with varying sequence properties. 2) Multi-observable validation strategy (SAXS, chemical shifts, PREs, NMR relaxation) that strengthens confidence in the conformational ensembles. 3) Novel correction scheme for Langevin thermostat-induced time dilation, addressing a known artifact in MD simulations. 4) Clear identification of two distinct dynamical regimes (A1-dominated vs A2-dominated) that correlate with structural and interaction features. 5) Practical implications for interpreting NMR relaxation data in IDPs, including cautionary notes on secondary chemical shift interpretation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "blocks of residues exhibiting large amplitudes in slow dynamics are rigidified by local inter-residue interactions or secondary structures" as a general rule across IDPs.
+  - **Evidence pointer** Figures 3, 4, S13, S14; Results sections on individual IDPs
+  - **Concern** The causal link between contact formation and slow dynamics is inferred primarily from correlative observations (contact maps overlaid with relaxation profiles). For several IDPs, particularly Aβ40 and A1-LCD, the authors identify specific interactions (salt bridges, hydrogen bonds, π-interactions) but do not perform perturbation analyses (e.g., mutation studies or interaction-disrupting simulations) to demonstrate that these contacts are necessary for the observed dynamics. The claim of causality is therefore not fully established.
+  - **Why it matters** The central thesis of the paper is that specific interaction types cause rigidification. Without direct tests of causality, the proposed rules remain descriptive rather than mechanistic, limiting their predictive power for other IDPs.
+  - **Resolution test** Perform targeted mutations or interaction-blocking simulations for at least two IDPs (e.g., Aβ40 and A1-LCD) to show that disrupting identified contacts eliminates the corresponding slow dynamics features. Alternatively, demonstrate that the same contacts in other IDPs produce similar dynamical consequences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological robustness
+  - **Claim pointer** The three-exponential fit of NH correlation functions is stated to be optimal, with time constants τ1 (3–8 ns), τ2 (1–2 ns), and τ3 (0.1–0.2 ns) across all IDPs.
+  - **Evidence pointer** Computational Methods, NMR relaxation section; Figures S5, S6
+  - **Concern** The choice of three exponentials is justified by comparison to two- and four-exponential fits, but the criteria for "optimal" are not quantitatively defined. The authors note that four-exponential fits produced "marginally lower residuals" for disordered residues but caused overfitting for structured ones. However, no statistical measures (e.g., AIC, BIC, F-tests) are provided to support this judgment. Additionally, the physical interpretation of the three discrete time constants as representing distinct motional modes is assumed rather than demonstrated.
+  - **Why it matters** The entire dynamics analysis rests on the validity of the tri-exponential decomposition. If the fitting model is not rigorously justified, the derived amplitudes (A1, A2, A3) and their interpretation as slow/intermediate/fast dynamics could be artifacts of the fitting procedure.
+  - **Resolution test** Provide quantitative model selection criteria (AIC, BIC, or similar) for the tri-exponential vs alternative fits across all residues and IDPs. Additionally, validate the physical meaning of the three components by comparing with independent analyses (e.g., spectral density mapping, model-free analysis) where experimental data permit.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors propose that "sequence-dependent backbone dynamics endows IDPs with versatile response to binding partners, with some blocks recalcitrant while others readily adapting to intermolecular interactions."
+  - **Evidence pointer** Discussion section; Figure 6
+  - **Concern** The functional implications are largely speculative. The only direct test of the "recalcitrant vs adaptable" hypothesis comes from a prior study on ChiZ-NT binding to membranes, which is cited but not reproduced here. For the other IDPs, the proposed functional roles (e.g., Aβ40 fibril nucleation, tau-microtubule binding, HOX-DNA recognition) are not tested experimentally or computationally. The schematic in Figure 6 is illustrative but does not constitute evidence.
+  - **Why it matters** The claim that dynamics encodes function is a major motivation for the study. Without direct tests linking the identified dynamical features to binding outcomes, the functional relevance remains an untested hypothesis, weakening the broader significance of the work.
+  - **Resolution test** For at least one IDP, perform binding simulations or experiments (e.g., with a known partner) to test whether the predicted "recalcitrant" and "adaptable" regions behave as expected. Alternatively, compare dynamics predictions with available experimental binding data for the studied IDPs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "blocks of residues exhibiting large amplitudes in slow dynamics are rigidified" without defining what constitutes "large amplitudes" or "blocks" quantitatively. This makes the central finding difficult to evaluate from the abstract alone.
+  - **Required correction** Provide quantitative thresholds (e.g., amplitude values, block sizes) or refer to specific figures in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Computational Methods, MD Simulations
+  - **Issue** The manuscript does not specify the exact software versions, force field parameters (beyond naming ff14SB and TIP4P-D), or the procedure for generating initial structures for all IDPs. The statement "initial structures were generated in several ways" is vague.
+  - **Required correction** Provide a detailed table or supplementary text listing initial structure generation methods, simulation parameters, and software versions for each IDP.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, Experimental Validation
+  - **Evidence pointer** Figures 2, 3, S1–S12
+  - **Issue** The agreement between calculated and experimental observables is described qualitatively (e.g., "good agreement," "reasonable agreement") without quantitative metrics (e.g., χ², RMSD values for SAXS, correlation coefficients for chemical shifts).
+  - **Required correction** Provide numerical measures of agreement for each validation comparison, either in the main text or supplementary tables.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, Backbone Dynamics of α-Synuclein
+  - **Evidence pointer** Figure 3C, S13
+  - **Issue** The authors attribute the R2 peak at Asp121 to PPII propensity and surrounding prolines, but do not discuss the potential contribution of the nearby C-terminal region's negative charge or the possibility of transient long-range contacts with the N-terminus, which have been reported in other studies.
+  - **Required correction** Acknowledge alternative interpretations or provide additional analysis (e.g., contact maps with the C-terminus) to rule them out.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The comparison with structured globular proteins is brief and does not address how the proposed dynamical regimes in IDPs relate to known concepts such as "slaved" vs "local" dynamics or the energy landscape perspective.
+  - **Required correction** Expand the discussion to place the findings in the broader context of protein dynamics theory.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of quantitative model selection for the tri-exponential fitting (R1-M2). 2) Absence of causal tests for the proposed interaction-dynamics relationships (R1-M1). 3) Insufficient detail on simulation setup for reproducibility (R1-m2). 4) No quantitative validation metrics for experimental comparisons (R1-m3).
+- **Assessment against Nature-style criteria** Originality: The work is original in its systematic multi-IDP approach and the identification of two dynamical regimes, though individual components (MD validation, contact analysis) are not novel. Scientific importance: Potentially high for the IDP community, as it offers a framework for interpreting dynamics data, but the functional implications remain speculative. Interdisciplinary readership: The work is primarily of interest to computational biophysicists and NMR spectroscopists; the broader cell biology audience may find the functional claims insufficiently tested. Technical soundness: The simulation and validation methodology is generally sound, but the fitting model justification and causal inference require strengthening. Readability for nonspecialists: The manuscript is well-structured but assumes familiarity with NMR relaxation theory and MD simulation practices; the abstract is accessible but the methods and results sections are dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core simulation effort and validation strategy are commendable, and the proposed rules for sequence-dependent dynamics are plausible. However, the causal claims, fitting model justification, and functional implications need to be substantially strengthened before the case is fully established.

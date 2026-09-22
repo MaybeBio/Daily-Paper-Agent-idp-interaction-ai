@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38068978",
+  "title": "Challenges in Brugada Syndrome Stratification: Investigating SCN5A Mutation Localization and Clinical Phenotypes.",
+  "authors": "Tarantino, Adriana; Ciconte, Giuseppe; Ghiroldi, Andrea; Mastrocinque, Flavio; Micaglio, Emanuele; Boccellino, Antonio; Negro, Gabriele; Piccoli, Marco; Cirillo, Federica; Vicedomini, Gabriele; Santinelli, Vincenzo; Anastasia, Luigi; Pappone, Carlo",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2023-12-09",
+  "window": {
+    "start": "2023-12-04",
+    "end": "2023-12-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究探讨SCN5A基因无序区域(IDL)突变与Brugada综合征临床表型的关系，虽涉及IDR和蛋白功能，但缺乏PPI机制建模及AI/物理模拟方法，仅用生物信息学预测工具，故评分为5。",
+  "abstract": "Brugada Syndrome (BrS) is a genetic heart condition linked to sudden cardiac death. Though the SCN5A gene is primarily associated with BrS, there is a lack of comprehensive studies exploring the connection between SCN5A mutation locations and the clinical presentations of the syndrome. This study aimed to address this gap and gain further understanding of the syndrome. The investigation classified 36 high-risk BrS patients based on SCN5A mutations within the transmembrane/structured (TD) and intra-domain loops (IDLs) lacking a 3D structure. We characterized the intrinsically disordered regions (IDRs) abundant in IDLs, using bioinformatics tools to predict IDRs and post-translational modifications (PTMs) in NaV1.5. Interestingly, it was found that current predictive tools often underestimate the impacts of mutations in IDLs and disordered regions. Moreover, patients with SCN5A mutations confined to IDL regions-previously deemed 'benign'-displayed clinical symptoms similar to those carrying 'damaging' variants. Our research illuminates the difficulty in stratifying patients based on SCN5A mutation locations, emphasizing the vital role of IDLs in the NaV1.5 channel's functioning and protein interactions. We advocate for caution when using predictive tools for mutation evaluation in these regions and call for the development of improved strategies in accurately assessing BrS risk.",
+  "abstract_zh": "Brugada综合征（BrS）是一种与心脏性猝死相关的遗传性心脏病。尽管SCN5A基因主要与BrS相关，但缺乏全面研究探讨SCN5A突变位置与该综合征临床表现之间的联系。本研究旨在填补这一空白，并进一步了解该综合征。研究根据SCN5A突变位于跨膜/结构化区域（TD）和缺乏三维结构的域内环（IDLs）内，将36名高风险BrS患者进行分类。我们利用生物信息学工具预测NaV1.5中的固有无序区域（IDRs）和翻译后修饰（PTMs），对IDLs中丰富的IDRs进行了表征。有趣的是，发现当前预测工具往往低估了IDLs和无序区域中突变的影响。此外，SCN5A突变仅限于IDL区域（先前被视为“良性”）的患者，其临床表现与携带“有害”变异的患者相似。我们的研究揭示了根据SCN5A突变位置对患者进行分层的难度，强调了IDLs在NaV1.5通道功能和蛋白质相互作用中的关键作用。我们建议在使用预测工具评估这些区域的突变时保持谨慎，并呼吁开发改进策略以准确评估BrS风险。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38068978/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38068978/",
+  "paper_page_path": "papers/pubmed/38068978/index.html"
+}

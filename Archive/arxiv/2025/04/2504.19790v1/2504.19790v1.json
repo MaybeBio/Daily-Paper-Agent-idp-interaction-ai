@@ -1,0 +1,37 @@
+{
+  "source": "arxiv",
+  "source_id": "2504.19790v1",
+  "title": "TDP-43 multidomains and RNA modulate interactions and viscoelasticity in biomolecular condensates",
+  "doi": "10.1016/j.bpj.2026.03.058",
+  "abstract": "RNA-binding proteins form biomolecular condensates with RNA through phase separation, playing crucial roles in various cellular processes. While intrinsically disordered regions (IDRs) are key drivers of phase separation, additional factors such as folded domains and RNA also influence condensate formation and physical properties. However, the molecular mechanisms underlying this regulation remain elusive. Here, using molecular dynamics simulations, we investigate how the multidomain structure of TDP-43, which consists of its IDR, RNA recognition motifs (RRMs), and N-terminal domain (NTD), interacts with RNA and affects the characteristics of phase separation. Our analysis reveals that interaction sites within the IDR undergo dynamic rearrangement, driven by key residues that depend on the specific combination of folded domains. Upon RNA binding, several intermolecular interactions of TDP-43 are replaced by TDP-43-polyA interactions, altering viscoelastic properties of the condensate. Specifically, RRMs enhance viscosity, whereas the NTD reduces it. The presence of polyA increases elasticity, making viscosity and elasticity comparable in magnitude. These findings suggest that the multidomain structure of TDP-43 and its RNA interactions orchestrate condensate organization, modulating their viscoelastic properties.",
+  "authors": [
+    "Yui Matsushita",
+    "Ikki Yasuda",
+    "Fuga Watanabe",
+    "Eiji Yamamoto"
+  ],
+  "published_date": "2025-04-28T13:34:20Z",
+  "updated_date": "2025-04-28T13:34:20Z",
+  "journal": "Biophys. J. 125, 2152-2163 (2026)",
+  "category": "cond-mat.soft, physics.comp-ph, q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2504.19790v1",
+  "pdf_url": "https://arxiv.org/pdf/2504.19790v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft",
+    "physics.comp-ph",
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2504.19790v1",
+    "raw_categories": [
+      "cond-mat.soft",
+      "physics.comp-ph",
+      "q-bio.BM"
+    ],
+    "journal_ref": "Biophys. J. 125, 2152-2163 (2026)"
+  }
+}

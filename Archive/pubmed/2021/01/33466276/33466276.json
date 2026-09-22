@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "33466276",
+    "doi": "10.3390/ijms22010447",
+    "title": "Evolution of A bHLH Interaction Motif."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins and regions with their associated short linear motifs play key roles in transcriptional regulation. The disordered MYC-interaction motif (MIM) mediates interactions between MYC and MYB transcription factors in Arabidopsis thaliana that are critical for constitutive and induced glucosinolate (GLS) biosynthesis. GLSs comprise a class of plant defense compounds that evolved in the ancestor of the Brassicales order. We used a diverse set of search strategies to discover additional occurrences of the MIM in other proteins and in other organisms and evaluate the findings by means of structural predictions, interaction assays, and biophysical experiments. Our search revealed numerous MIM instances spread throughout the angiosperm lineage. Experiments verify that several of the newly discovered MIM-containing proteins interact with MYC TFs. Only hits found within the same transcription factor family and having similar characteristics could be validated, indicating that structural predictions and sequence similarity are good indicators of whether the presence of a MIM mediates interaction. The experimentally validated MIMs are found in organisms outside the Brassicales order, showing that MIM function is broader than regulating GLS biosynthesis.",
+    "keywords": [
+      "MYB",
+      "MYC",
+      "bHLH",
+      "interaction motif",
+      "intrinsically disordered protein (IDP)",
+      "jasmonate signaling",
+      "plant defense metabolism",
+      "protein interaction",
+      "short linear motif (SLiM)",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Arabidopsis/genetics",
+      "Arabidopsis Proteins/genetics",
+      "Basic Helix-Loop-Helix Proteins/*genetics",
+      "Gene Expression Regulation, Plant/genetics",
+      "Glucosinolates/genetics",
+      "Helix-Loop-Helix Motifs/*genetics",
+      "Intrinsically Disordered Proteins/genetics",
+      "Transcription Factors/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Millard, Peter S",
+        "Kragelund, Birthe B",
+        "Burow, Meike"
+      ],
+      "short_names": [
+        "Millard PS",
+        "Kragelund BB",
+        "Burow M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1975-952X",
+        "ORCID: 0000-0002-7454-1761",
+        "ORCID: 0000-0002-2350-985X"
+      ],
+      "affiliations": [
+        "The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, DK-2200 Copenhagen N, Denmark.",
+        "REPIN and Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, DK-2200 Copenhagen N, Denmark.",
+        "DynaMo Center, Department of Plant and Environmental Sciences, University of Copenhagen, 1871 Frederiksberg C, Denmark.",
+        "The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, DK-2200 Copenhagen N, Denmark.",
+        "REPIN and Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, DK-2200 Copenhagen N, Denmark.",
+        "DynaMo Center, Department of Plant and Environmental Sciences, University of Copenhagen, 1871 Frederiksberg C, Denmark.",
+        "Copenhagen Plant Science Centre, Department of Plant and Environmental Sciences, University of Copenhagen, 1871 Frederiksberg C, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Millard, Peter S",
+        "short_name": "Millard PS",
+        "identifiers": [
+          "0000-0003-1975-952X"
+        ],
+        "affiliations": [
+          "The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, DK-2200 Copenhagen N, Denmark.",
+          "REPIN and Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, DK-2200 Copenhagen N, Denmark.",
+          "DynaMo Center, Department of Plant and Environmental Sciences, University of Copenhagen, 1871 Frederiksberg C, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kragelund, Birthe B",
+        "short_name": "Kragelund BB",
+        "identifiers": [
+          "0000-0002-7454-1761"
+        ],
+        "affiliations": [
+          "The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, DK-2200 Copenhagen N, Denmark.",
+          "REPIN and Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, DK-2200 Copenhagen N, Denmark."
+        ]
+      },
+      {
+        "full_name": "Burow, Meike",
+        "short_name": "Burow M",
+        "identifiers": [
+          "0000-0002-2350-985X"
+        ],
+        "affiliations": [
+          "DynaMo Center, Department of Plant and Environmental Sciences, University of Copenhagen, 1871 Frederiksberg C, Denmark.",
+          "Copenhagen Plant Science Centre, Department of Plant and Environmental Sciences, University of Copenhagen, 1871 Frederiksberg C, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Jan 5",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/01/21 06:00",
+    "fetched_at": "2026-09-20 00:55:26"
+  },
+  "links": {
+    "cites": [
+      "41006709",
+      "37960120",
+      "37789447",
+      "34539701"
+    ],
+    "refs": [
+      "32901090",
+      "32771155",
+      "32613009",
+      "32519347",
+      "31642121",
+      "31400117",
+      "31358471",
+      "31299122",
+      "31134302",
+      "30357350",
+      "30091878",
+      "29873773",
+      "29860432",
+      "29231169",
+      "29209354",
+      "28928760",
+      "28906468",
+      "28597296",
+      "28597295",
+      "28514654",
+      "28387819",
+      "28262589",
+      "28007954",
+      "27911701",
+      "27814969",
+      "27462337",
+      "27313596",
+      "27282591",
+      "27189555",
+      "26589632",
+      "26125498",
+      "26100883",
+      "26047035",
+      "25770109",
+      "25758811",
+      "25731753",
+      "25667003",
+      "25531225",
+      "25453132",
+      "25398906",
+      "25391399",
+      "25306921",
+      "25049362",
+      "24926813",
+      "23943862",
+      "23577014",
+      "23161676",
+      "23142764",
+      "22876960",
+      "22405332",
+      "22236699",
+      "21604143",
+      "21443626",
+      "21335373",
+      "21242320",
+      "21234644",
+      "20717979",
+      "20674465",
+      "18446225",
+      "17637675",
+      "17539659",
+      "16734424",
+      "16618368",
+      "16187360",
+      "15923339",
+      "15815974",
+      "15114421",
+      "12196411",
+      "11597504",
+      "8019132",
+      "1737021",
+      "1631139"
+    ],
+    "similar": [
+      "33466276",
+      "31400117",
+      "34281206",
+      "15361138",
+      "12897250",
+      "31653121",
+      "21551388",
+      "35995835",
+      "33313802",
+      "15486100",
+      "12956536",
+      "12826627",
+      "12679534",
+      "22334670",
+      "16896230",
+      "23943862",
+      "29513733",
+      "12509522",
+      "25443829",
+      "18075757",
+      "25049362",
+      "24859977",
+      "23673982",
+      "27080593",
+      "26829586",
+      "18532978",
+      "18036197",
+      "14627722",
+      "16837081",
+      "36721100",
+      "21443626",
+      "12911037",
+      "9368419",
+      "23161888",
+      "33361159",
+      "27927998",
+      "23852442",
+      "30482177",
+      "24553285",
+      "18094747",
+      "12535353",
+      "24118612",
+      "29882068",
+      "23935516",
+      "31128564",
+      "23333962",
+      "15356333",
+      "30202032",
+      "31358471",
+      "31732703",
+      "15231736",
+      "18315540",
+      "12136026",
+      "28137867",
+      "20023194",
+      "27881680",
+      "23184474",
+      "15539473",
+      "26913794",
+      "33315514",
+      "26002869",
+      "18532977",
+      "20472752",
+      "16867983",
+      "31898148",
+      "19449054",
+      "36222356",
+      "18454855",
+      "26929142",
+      "19675148",
+      "22822211",
+      "31963591",
+      "25627909",
+      "26556796",
+      "23760157",
+      "15923349",
+      "26915584",
+      "30326829",
+      "38143207",
+      "11245574",
+      "15851686",
+      "20363772",
+      "21489651",
+      "23615997",
+      "33799876",
+      "28940573",
+      "34778747",
+      "39067107",
+      "25794933",
+      "31658678",
+      "15035986",
+      "30417276",
+      "22644767",
+      "27465838",
+      "27351386",
+      "20009022",
+      "35838067",
+      "25304202",
+      "15556641",
+      "21401746"
+    ],
+    "review": [
+      "33466276",
+      "34281206",
+      "31653121",
+      "33313802",
+      "21443626",
+      "33361159",
+      "27927998",
+      "31358471"
+    ],
+    "pmc": [
+      "7794824"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22010447",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33466276/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33466276",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FHL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-516",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33466276",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

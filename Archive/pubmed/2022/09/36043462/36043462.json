@@ -1,0 +1,219 @@
+{
+  "identity": {
+    "pmid": "36043462",
+    "doi": "10.1039/d2cp02168d",
+    "title": "Conformational fluctuations in the molten globule state of alpha-lactalbumin."
+  },
+  "content": {
+    "abstract": "A molten globule (MG) state is an intermediate state of a protein observed during the unfolding of the native structure. The MG state of the protein is induced by various denaturing agents (like urea), extreme pH, pressure, and heat. Experiments suggest that the MG state of some proteins is functionally relevant even if there is no well-defined tertiary structure. Earlier experimental and theoretical studies show that the MG state of a protein is dynamic in nature, where conformational states are interconverted on nanosecond time scales. These observations lead us to study and compare the conformational fluctuations of the MG state to those of intrinsic disordered proteins (IDPs). We consider a milk protein, alpha-lactalbumin (aLA), which shows an MG state at low pH upon removal of the calcium (Ca(2+)) ion. We use the constant pH molecular dynamics (CpHMD) simulation to maintain the protonation state of titratable residues at a low pH during the simulation. We use the dihedral principal component analysis, the density based clustering method, and the machine learning technique to identify the conformational fluctuations. We observe metastable states in the MG state. The residues containing the essential coordinates responsible for metastability belong to a stable helix in the crystal structure, but most of them prefer unstructured or bent conformation in the MG state. These residues control the exposure of the putative binding residues for fatty acids. Thus, the MG state of a protein behaves as an intrinsic disorder protein, although the disorder here is induced by external conditions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Circular Dichroism",
+      "Hydrogen-Ion Concentration",
+      "*Lactalbumin/chemistry",
+      "Protein Conformation",
+      "Protein Denaturation",
+      "*Protein Folding",
+      "Protein Structure, Secondary"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Moulick, Abhik Ghosh",
+        "Chakrabarti, J"
+      ],
+      "short_names": [
+        "Moulick AG",
+        "Chakrabarti J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1960-6729",
+        "ORCID: 0000-0003-0753-3259"
+      ],
+      "affiliations": [
+        "Department of Physics of Complex Systems, S.N. Bose National Centre for Basic Sciences, Block JD, Salt Lake, Kolkata-700098, India. ghoshabhik.physics@gmail.com.",
+        "Department of Physics of Complex Systems, S.N. Bose National Centre for Basic Sciences, Block JD, Salt Lake, Kolkata-700098, India. ghoshabhik.physics@gmail.com.",
+        "Department of Chemical and Biological Sciences, S. N. Bose National Centre for Basic Sciences, Block JD, Salt Lake, Kolkata-700098, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Moulick, Abhik Ghosh",
+        "short_name": "Moulick AG",
+        "identifiers": [
+          "0000-0002-1960-6729"
+        ],
+        "affiliations": [
+          "Department of Physics of Complex Systems, S.N. Bose National Centre for Basic Sciences, Block JD, Salt Lake, Kolkata-700098, India. ghoshabhik.physics@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Chakrabarti, J",
+        "short_name": "Chakrabarti J",
+        "identifiers": [
+          "0000-0003-0753-3259"
+        ],
+        "affiliations": [
+          "Department of Physics of Complex Systems, S.N. Bose National Centre for Basic Sciences, Block JD, Salt Lake, Kolkata-700098, India. ghoshabhik.physics@gmail.com.",
+          "Department of Chemical and Biological Sciences, S. N. Bose National Centre for Basic Sciences, Block JD, Salt Lake, Kolkata-700098, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2022 Sep 14",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/01 06:00",
+    "fetched_at": "2026-09-20 12:57:36"
+  },
+  "links": {
+    "cites": [
+      "39417787"
+    ],
+    "refs": [],
+    "similar": [
+      "36043462",
+      "10764588",
+      "11401570",
+      "11488928",
+      "10512708",
+      "12833543",
+      "9761690",
+      "1472507",
+      "12360528",
+      "10801363",
+      "1400308",
+      "7500347",
+      "10707027",
+      "8563628",
+      "9079390",
+      "10556040",
+      "8819981",
+      "8504087",
+      "14991658",
+      "9761473",
+      "10504730",
+      "10899783",
+      "9253412",
+      "19766656",
+      "9761482",
+      "12211019",
+      "10064716",
+      "15050830",
+      "9731236",
+      "10756101",
+      "7984625",
+      "11119648",
+      "10500168",
+      "23485328",
+      "11354000",
+      "15287723",
+      "12860137",
+      "11150528",
+      "9037752",
+      "8566530",
+      "10595532",
+      "8439536",
+      "20372885",
+      "1901628",
+      "8547351",
+      "8289283",
+      "11718563",
+      "11575938",
+      "30583389",
+      "20346348",
+      "10606762",
+      "11112553",
+      "7737986",
+      "15641801",
+      "11029574",
+      "10631994",
+      "7994570",
+      "8784206",
+      "7880819",
+      "12578383",
+      "15276846",
+      "9761689",
+      "15558602",
+      "15913646",
+      "9144778",
+      "8145245",
+      "8241174",
+      "10630998",
+      "11743799",
+      "11237603",
+      "17786546",
+      "7473740",
+      "8609608",
+      "10395454",
+      "18939797",
+      "7664062",
+      "11106160",
+      "11782453",
+      "20080106",
+      "15283921",
+      "16121399",
+      "9346914",
+      "15607026",
+      "7709804",
+      "10091658",
+      "9041645",
+      "10679522",
+      "8561856",
+      "9109670",
+      "11545601",
+      "11135190",
+      "25405350",
+      "12493829",
+      "12139938",
+      "11488594",
+      "8988012",
+      "15313473",
+      "10610779",
+      "7608972",
+      "15263072",
+      "37646788",
+      "21609872",
+      "37637481"
+    ],
+    "review": [
+      "36043462",
+      "8566530",
+      "15283921"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d2cp02168d",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

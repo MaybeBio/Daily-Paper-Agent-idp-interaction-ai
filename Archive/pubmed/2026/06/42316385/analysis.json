@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42316385",
+  "title": "Disentangling Intrachain Folding from Interchain Assembly through Multidimensional Visualization.",
+  "authors": "Sanches, Murilo N; Ganguly, Pritam; Shea, Joan-Emma; Leite, Vitor B P",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2026-06-19",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过增强的ELViM算法框架，结合副本交换分子动力学数据，在统一度量空间中同时映射tau蛋白无序片段单体和寡聚体的构象景观，解耦链内折叠与链间组装，并揭示P301L突变对PHF6区域互作界面的稳定化机制，直接契合无序蛋白PPI互作机制建模的核心课题。",
+  "abstract": "Characterizing the conformational landscapes of intrinsically disordered proteins is essential for elucidating their roles in health and disease, but remains challenging due to their structural heterogeneity. In this study, we introduce an enhanced algorithmic framework for the Energy Landscape Visualization Method (ELViM) that enables the simultaneous mapping of monomeric and oligomeric conformational spaces within a unified metric space. Unlike traditional reaction-coordinate-based approaches, this extended ELViM implementation employs a distance-based similarity metric and force projection embedding to generate low-dimensional representations that preserve high-dimensional structural relationships without predefined bias. We expanded the standard workflow by integrating a density-guided Local Conformational Signature analysis coupled with a new consensus interchain contact mapping protocol. This development allows for the systematic disentanglement of intrachain folding dynamics from the interchain assembly interactions that drive protein aggregation. Using replica exchange molecular dynamics data for a 19-residue fragment of the tau protein, we demonstrate the method's utility by comparing the conformational landscapes of the wild type and the aggregation-associated P301L mutant. ELViM effectively captures continuous conformational transitions and highlights key structural motifs, including the aggregation-prone PHF6 segment (VQIVYK). The analysis reveals how the P301L mutation acts as a structural stabilizer, shifting conformational preferences toward compact, preorganized ensembles with more persistent interchain contacts around PHF6. By providing a quantitative yet intuitive framework for exploring heterogeneous ensembles, this enhanced ELViM workflow offers broad applicability to studying folding landscapes, protein-protein interactions, and complex aggregation pathways.",
+  "abstract_zh": "表征固有无序蛋白的构象景观对于阐明其在健康和疾病中的作用至关重要，但由于其结构异质性，这仍然具有挑战性。在本研究中，我们引入了一种增强的算法框架，用于能量景观可视化方法（ELViM），能够在统一度量空间内同时映射单体和寡聚体构象空间。与传统基于反应坐标的方法不同，这种扩展的ELViM实现采用基于距离的相似性度量和力投影嵌入，生成低维表示，在无预定义偏差的情况下保留高维结构关系。我们通过整合密度引导的局部构象特征分析以及一种新的共识链间接触映射协议，扩展了标准工作流程。这一发展使得能够系统地区分链内折叠动力学与驱动蛋白质聚集的链间组装相互作用。利用tau蛋白19残基片段的副本交换分子动力学数据，我们通过比较野生型和聚集相关P301L突变体的构象景观，展示了该方法的实用性。ELViM有效捕获连续构象转变，并突出关键结构基序，包括易聚集的PHF6片段（VQIVYK）。分析揭示了P301L突变如何作为结构稳定剂，将构象偏好转向紧凑、预组织的集合体，并在PHF6周围形成更持久的链间接触。通过提供一种定量且直观的框架来探索异质集合体，这种增强的ELViM工作流程在研究折叠景观、蛋白质-蛋白质相互作用和复杂聚集途径方面具有广泛适用性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42316385/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42316385/",
+  "paper_page_path": "papers/pubmed/42316385/index.html"
+}

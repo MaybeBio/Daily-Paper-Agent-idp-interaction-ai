@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "36749077",
+    "doi": "10.1128/jvi.00039-23",
+    "title": "Flexibility of the Rotavirus NSP2 C-Terminal Region Supports Factory Formation via Liquid-Liquid Phase Separation."
+  },
+  "content": {
+    "abstract": "Many viruses sequester the materials needed for their replication into discrete subcellular factories. For rotaviruses (RVs), these factories are called viroplasms, and they are formed in the host cell cytosol via the process of liquid-liquid phase separation (LLPS). The nonstructural protein 2 (NSP2) and its binding partner, nonstructural protein 5 (NSP5), are critical for viroplasm biogenesis. Yet it is not fully understood how NSP2 and NSP5 cooperate to form factories. The C-terminal region (CTR) of NSP2 (residues 291 to 317) is flexible, allowing it to participate in domain-swapping interactions that promote interoctamer interactions and, presumably, viroplasm formation. Molecular dynamics simulations showed that a lysine-to-glutamic acid change at position 294 (K294E) reduces NSP2 CTR flexibility in silico. To test the impact of reduced NSP2 CTR flexibility during infection, we engineered a mutant RV bearing this change (rRV-NSP2(K294E)). Single-cycle growth assays revealed a >1.2-log reduction in endpoint titers for rRV-NSP2(K294E) versus the wild-type control (rRV-WT). Using immunofluorescence assays, we found that rRV-NSP2(K294E) formed smaller, more numerous viroplasms than rRV-WT. Live-cell imaging experiments confirmed these results and revealed that rRV-NSP2(K294E) factories had delayed fusion kinetics. Moreover, NSP2(K294E) and several other CTR mutants formed fewer viroplasm-like structures in NSP5 coexpressing cells than did control NSP2(WT). Finally, NSP2(K294E) exhibited defects in its capacity to induce LLPS droplet formation in vitro when incubated alongside NSP5. These results underscore the importance of NSP2 CTR flexibility in supporting the biogenesis of RV factories. IMPORTANCE Viruses often condense the materials needed for their replication into discrete intracellular factories. For rotaviruses, agents of severe gastroenteritis in children, factory formation is mediated in part by an octameric protein called NSP2. A flexible C-terminal region of NSP2 has been proposed to link several NSP2 octamers together, a feature that might be important for factory formation. Here, we created a change in NSP2 that reduced C-terminal flexibility and analyzed the impact on rotavirus factories. We found that the change caused the formation of smaller and more numerous factories that could not readily fuse together like those of the wild-type virus. The altered NSP2 protein also had a reduced capacity to form factory-like condensates in a test tube. Together, these results add to our growing understanding of how NSP2 supports rotavirus factory formation-a key step of viral replication.",
+    "keywords": [
+      "LLPS",
+      "NSP2",
+      "NSP5",
+      "rotavirus",
+      "viral factory",
+      "viroplasm"
+    ],
+    "mesh_terms": [
+      "Phosphorylation",
+      "*Rotavirus/chemistry/physiology",
+      "*Viral Nonstructural Proteins/chemistry",
+      "*Virus Replication"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nichols, Sarah L",
+        "Nilsson, Emil M",
+        "Brown-Harding, Heather",
+        "LaConte, Leslie E W",
+        "Acker, Julia",
+        "Borodavka, Alexander",
+        "McDonald Esstman, Sarah"
+      ],
+      "short_names": [
+        "Nichols SL",
+        "Nilsson EM",
+        "Brown-Harding H",
+        "LaConte LEW",
+        "Acker J",
+        "Borodavka A",
+        "McDonald Esstman S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4004-7343"
+      ],
+      "affiliations": [
+        "Department of Biology, Wake Forest University, Winston-Salem, North Carolina, USA.",
+        "Department of Biology, Wake Forest University, Winston-Salem, North Carolina, USA.",
+        "Department of Biology, Wake Forest University, Winston-Salem, North Carolina, USA.",
+        "Fralin Biomedical Research Institute, Roanoke, Virginia, USA.",
+        "Department of Basic Science Education, Virginia Tech Carilion School of Medicine, Roanoke, Virginia, USA.",
+        "Department of Biochemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Biochemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Biology, Wake Forest University, Winston-Salem, North Carolina, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nichols, Sarah L",
+        "short_name": "Nichols SL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Wake Forest University, Winston-Salem, North Carolina, USA."
+        ]
+      },
+      {
+        "full_name": "Nilsson, Emil M",
+        "short_name": "Nilsson EM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Wake Forest University, Winston-Salem, North Carolina, USA."
+        ]
+      },
+      {
+        "full_name": "Brown-Harding, Heather",
+        "short_name": "Brown-Harding H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Wake Forest University, Winston-Salem, North Carolina, USA."
+        ]
+      },
+      {
+        "full_name": "LaConte, Leslie E W",
+        "short_name": "LaConte LEW",
+        "identifiers": [],
+        "affiliations": [
+          "Fralin Biomedical Research Institute, Roanoke, Virginia, USA.",
+          "Department of Basic Science Education, Virginia Tech Carilion School of Medicine, Roanoke, Virginia, USA."
+        ]
+      },
+      {
+        "full_name": "Acker, Julia",
+        "short_name": "Acker J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Borodavka, Alexander",
+        "short_name": "Borodavka A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "McDonald Esstman, Sarah",
+        "short_name": "McDonald Esstman S",
+        "identifiers": [
+          "0000-0002-4004-7343"
+        ],
+        "affiliations": [
+          "Department of Biology, Wake Forest University, Winston-Salem, North Carolina, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of virology"
+    ],
+    "journal_abbrev": [
+      "J Virol"
+    ],
+    "pub_date": "2023 Feb 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/08 06:00",
+    "fetched_at": "2026-09-20 19:05:35"
+  },
+  "links": {
+    "cites": [
+      "42192130",
+      "41524628",
+      "41085289",
+      "40999894",
+      "40723899",
+      "40521608",
+      "40475503",
+      "40267083",
+      "40172227",
+      "39330815",
+      "39194242",
+      "38932107",
+      "38793550",
+      "38769067",
+      "37239817"
+    ],
+    "refs": [
+      "36016945",
+      "35654950",
+      "35492603",
+      "34648608",
+      "34615715",
+      "34524703",
+      "34372555",
+      "34146610",
+      "33669141",
+      "32997981",
+      "32461314",
+      "31619556",
+      "31597761",
+      "31233764",
+      "31101900",
+      "30509975",
+      "28922109",
+      "28839154",
+      "28137864",
+      "28100623",
+      "27341619",
+      "25635339",
+      "24198401",
+      "23515026",
+      "23110139",
+      "22978691",
+      "22811529",
+      "22743772",
+      "22266782",
+      "21864538",
+      "21157433",
+      "20408171",
+      "20335253",
+      "20200190",
+      "19885940",
+      "18289986",
+      "16928740",
+      "16909900",
+      "15520389",
+      "15264254",
+      "14993647",
+      "14699117",
+      "12072508",
+      "12015608",
+      "11884570",
+      "11312322",
+      "11050943",
+      "10073692",
+      "8811003",
+      "2552662"
+    ],
+    "similar": [
+      "36749077",
+      "32461314",
+      "31619556",
+      "33053412",
+      "39194242",
+      "31915278",
+      "24198401",
+      "34372555",
+      "30509975",
+      "34379449",
+      "14993647",
+      "35938869",
+      "23193175",
+      "10073692",
+      "34524703",
+      "20200190",
+      "17182692",
+      "25165107",
+      "20335253",
+      "16928740",
+      "38793550",
+      "14581555",
+      "21864538",
+      "17072471",
+      "14699117",
+      "34569635",
+      "21114853",
+      "28100623",
+      "15914838",
+      "12072508",
+      "23926336",
+      "16873255",
+      "38932107",
+      "15010217",
+      "23115286",
+      "39194247",
+      "9820143",
+      "17699573",
+      "17872534",
+      "35492603",
+      "29769336",
+      "20032187",
+      "22811529",
+      "38421167",
+      "17804496",
+      "39494903",
+      "38470055",
+      "11884570",
+      "16439537",
+      "23970830",
+      "36189370",
+      "29142132",
+      "11967345",
+      "15220450",
+      "8551639",
+      "35862708",
+      "15831961",
+      "8985320",
+      "12525609",
+      "15520389",
+      "20036292",
+      "32069901",
+      "12951038",
+      "17825341",
+      "34225484",
+      "21697352",
+      "31845505",
+      "9645203",
+      "16909900",
+      "23698306",
+      "33328310",
+      "28839154",
+      "31375591",
+      "11121414",
+      "31125854",
+      "31996431",
+      "18974199",
+      "36700549",
+      "27341619",
+      "23110139",
+      "11778700",
+      "31645445",
+      "31597778",
+      "18032499",
+      "28794037",
+      "10675420",
+      "40195509",
+      "16934294",
+      "30258011",
+      "38079544",
+      "34523969",
+      "18428132",
+      "10559306",
+      "22487061",
+      "15483242",
+      "23515026",
+      "10769066",
+      "17522233",
+      "16603530",
+      "21689784"
+    ],
+    "review": [
+      "36749077",
+      "33053412",
+      "34372555",
+      "38793550",
+      "38932107",
+      "15010217",
+      "35492603",
+      "36189370",
+      "16909900"
+    ],
+    "pmc": [
+      "9973012"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/jvi.00039-23?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36749077/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36749077",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

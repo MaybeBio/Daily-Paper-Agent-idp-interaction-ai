@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.03.02.583136",
+  "title": "Transformer-Based Deep Learning Model with Latent Space Regularization for CRISPR-Cas Protein Sequence Classification",
+  "authors": "Bharani Nammi; Sita Sirisha Madugula; Pranav Pujar; Vindi Mahesha Jayasinghe Arachchige; Jin Liu; Shouyi Wang",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-06",
+  "window": {
+    "start": "2024-03-04",
+    "end": "2024-03-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用Transformer和ProtBert对CRISPR-Cas蛋白序列进行分类，对象为折叠蛋白且无PPI或无序蛋白/相分离机制建模，仅方法上AI分类可迁移性有限。",
+  "abstract": "The discovery of the CRISPR-Cas system has significantly advanced genome editing, offering vast applications in medical treatments and life sciences research. Despite their immense potential, the existing CRISPR-Cas proteins still face challenges concerning size, delivery efficiency, and cleavage specificity. Addressing these challenges necessitates a deeper understanding of CRISPR-Cas proteins to enhance the design and discovery of novel Cas proteins for precision gene editing. In this study, we performed extensive deep-learning research on CRISPR-Cas proteins, aiming to develop a classification model capable of distinguishing CAS from non-CAS proteins, as well as discriminating sub-categories of CAS proteins, specifically CAS9 and CAS12. We developed two types of deep learning models: 1) a transformer encoder-based classification model, trained from scratch; and 2) a large protein language model fine-tuned on ProtBert, pre-trained on more than 200 million proteins. To boost learning efficiency for the model trained from scratch, we introduced a novel margin-based loss function to maximize inter-class separability and intra-class compactness in protein sequence embedding latent space of a transformer encoder. The experimental results show that the Fine-Tuned ProtBert-based (FTPB) classification model achieved accuracies of 99.06%, 94.42%, 96.80%, 97.57% for CAS9 vs. Non-CAS, CAS12 vs. Non-CAS, CAS9 vs. CAS12, and multi-class classification of CAS9 vs. CAS12 vs. Non-CAS, respectively. The Latent Space Regularized Max-Margin Transformer (LSRMT) model achieved classification accuracies of 99.81%, 99.81%, 99.06%, 99.27% for the same tasks, respectively. These results demonstrate the effectiveness of the proposed Max-Margin-based latent space regularization in enhancing model robustness and generalization capabilities. Remarkably, the LSRMT model, even when trained on a significantly smaller dataset, outperformed the fine-tuned state-of-the-art large protein model. The high classification accuracies achieved by the LSRMT model demonstrate its proficiency in identifying discriminative features of CAS proteins, marking a significant step towards advancing our understanding of CAS protein structures in future research endeavors.",
+  "abstract_zh": "CRISPR-Cas系统的发现极大地推进了基因组编辑技术，在医学治疗和生命科学研究中展现出广泛的应用前景。尽管其潜力巨大，现有的CRISPR-Cas蛋白仍面临尺寸、递送效率和切割特异性等方面的挑战。应对这些挑战需要更深入地理解CRISPR-Cas蛋白，以增强新型Cas蛋白的设计与发现，实现精准基因编辑。在本研究中，我们对CRISPR-Cas蛋白进行了广泛的深度学习研究，旨在开发一种分类模型，能够区分CAS与非CAS蛋白，并判别CAS蛋白的亚类，特别是CAS9和CAS12。我们开发了两种深度学习模型：1）基于transformer编码器的分类模型，从头训练；2）基于ProtBert微调的大型蛋白质语言模型，该模型在超过2亿个蛋白质上进行了预训练。为提高从头训练模型的学习效率，我们引入了一种新颖的基于边距的损失函数，以最大化transformer编码器蛋白质序列嵌入潜空间中类间可分性和类内紧凑性。实验结果表明，基于微调ProtBert（FTPB）的分类模型在CAS9与非CAS、CAS12与非CAS、CAS9与CAS12以及CAS9与CAS12与非CAS的多类分类任务中，分别达到了99.06%、94.42%、96.80%和97.57%的准确率。潜空间正则化最大边距transformer（LSRMT）模型在相同任务中分别实现了99.81%、99.81%、99.06%和99.27%的分类准确率。这些结果证明了所提出的基于最大边距的潜空间正则化在增强模型鲁棒性和泛化能力方面的有效性。值得注意的是，即使在显著较小的数据集上训练，LSRMT模型也优于微调的最先进大型蛋白质模型。LSRMT模型实现的高分类准确率展示了其在识别CAS蛋白判别性特征方面的能力，标志着在未来的研究工作中推进我们对CAS蛋白结构理解的重要一步。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.03.02.583136",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.03.02.583136",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.03.02.583136/index.html"
+}

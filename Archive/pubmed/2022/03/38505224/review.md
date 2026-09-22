@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The abstract argues that intrinsically disordered proteins (IDPs) exist as conformational ensembles at the extreme limit of Anfinsen's dogma, play critical roles in cellular decision making through interaction network rewiring, require advanced computational methods for study, and represent promising therapeutic targets via small molecule modulation.
+- **Visible evidence base** Abstract text only; specific examples, simulation details, and experimental results are referenced but not provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methodological details, specific case studies, simulation parameters, experimental validation data, and any quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting perspective on IDPs as ensembles at the limits of Anfinsen's dogma, with potential implications for understanding cellular decision making and therapeutic targeting. However, the abstract is largely descriptive and programmatic, lacking specific quantitative evidence or novel findings that would establish a strong scientific case. The claims about energy landscape visualization, molecular dynamics simulations, and small molecule targeting are asserted without supporting data visible in the abstract. The framing around Anfinsen's dogma is intellectually appealing but the abstract does not demonstrate how the work extends or refines this paradigm in a concrete, testable manner.
+- **Who would be interested in the results, and why** Biophysicists and computational biologists studying protein folding and conformational dynamics would find the perspective relevant. Cell biologists interested in signaling networks and phenotypic switching may value the conceptual link between IDP dynamics and cellular decision making. Drug discovery researchers targeting previously undruggable proteins could be interested in the therapeutic angle. However, the abstract does not provide enough specific findings to clearly identify a target audience beyond those already working on IDPs.
+- **Major strengths** The abstract articulates a clear conceptual framework connecting IDP ensembles to Anfinsen's dogma, which provides intellectual coherence. The emphasis on conformational noise and promiscuous interactions as drivers of network rewiring is a useful conceptual contribution. The mention of both knowledge-based and physics-based sampling techniques indicates methodological breadth. The therapeutic angle adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "using specific examples, we highlight recent advances in energy landscape visualization and molecular dynamics simulations to discern conformational dynamics and discuss how the conformational preferences of IDPs modulate their function, especially in phenotypic switching."
+  - **Evidence pointer** Abstract only; specific examples not provided
+  - **Concern** The abstract asserts that specific examples are used to highlight advances, but none of these examples, their outcomes, or their significance are described. The reader cannot evaluate whether the examples are representative, whether the simulations are validated, or whether the conclusions drawn from them are robust.
+  - **Why it matters** Without visible evidence, the central scientific contribution of the work cannot be assessed. The claim that conformational preferences modulate function in phenotypic switching is a strong causal statement that requires experimental or simulation-based support.
+  - **Resolution test** Provide specific case studies with quantitative results, including simulation parameters, validation against experimental data, and clear demonstration of how conformational preferences link to functional outcomes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The abstract claims that "dysregulation of IDPs contributes to increased noise and 'promiscuous' interactions. This leads to PIN rewiring to output an appropriate response underscoring the critical role of IDPs in cellular decision making."
+  - **Evidence pointer** Abstract only; no experimental or computational data provided
+  - **Concern** This is a mechanistic claim linking IDP dysregulation to network rewiring and cellular decision making. The abstract provides no evidence for this causal chain, such as specific examples of dysregulated IDPs, quantitative measures of noise, or demonstrations of network rewiring consequences.
+  - **Why it matters** This claim is central to the biological significance of the work. If not substantiated, the abstract overstates the established role of IDPs in decision making.
+  - **Resolution test** Include specific examples with quantitative data showing altered conformational noise, changed interaction partners, and downstream phenotypic consequences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and advance
+  - **Claim pointer** The abstract claims that "we discuss recent progress in identifying small molecules targeting IDPs underscoring the potential therapeutic value of IDPs."
+  - **Evidence pointer** Abstract only; no specific small molecules, targets, or efficacy data provided
+  - **Concern** The therapeutic claim is presented as a discussion topic, but no specific progress, compound classes, or validation results are mentioned. The reader cannot assess whether this represents a genuine advance or a general overview.
+  - **Why it matters** Therapeutic claims require specific evidence of target engagement, selectivity, and functional consequences. Without these, the claim remains speculative.
+  - **Resolution test** Provide specific examples of small molecules with binding data, selectivity profiles, and functional readouts in relevant models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "conformational noise"
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The term "conformational noise" is introduced without definition or operationalization. It is unclear whether this refers to ensemble width, temporal fluctuations, or something else.
+  - **Required correction** Define the term explicitly and indicate how it is measured or quantified.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Statement on Anfinsen's dogma
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states IDPs "are often misconceived to present a challenge to Anfinsen's dogma" and then frames them as "at the extreme limit." This dual framing is somewhat ambiguous regarding whether the authors view IDPs as consistent with or extending the dogma.
+  - **Required correction** Clarify the precise relationship between IDP ensembles and Anfinsen's dogma, specifying what is preserved and what is extended.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Statement on experimental tractability
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The claim that IDPs "are not easily tractable experimentally" is overly broad and may be outdated given recent advances in NMR, cryo-EM, and single-molecule methods.
+  - **Required correction** Specify which experimental challenges remain and acknowledge recent methodological progress.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish the central claims about simulation advances, functional modulation, or therapeutic potential.
+- **Assessment against Nature-style criteria** 
+  - Originality: The conceptual framing around Anfinsen's dogma is somewhat original, but the abstract does not demonstrate a novel finding or method. The perspective appears synthetic rather than groundbreaking.
+  - Scientific importance: The topic is important given the prevalence of IDPs in biology and disease, but the abstract does not show how the work advances understanding beyond existing reviews.
+  - Interdisciplinary readership: The abstract could appeal to biophysicists, cell biologists, and drug developers, but the lack of specific findings limits cross-disciplinary impact.
+  - Technical soundness: Cannot be assessed from the abstract alone. No methods, parameters, or validation data are visible.
+  - Readability for nonspecialists: The abstract is generally readable but uses jargon such as "weakly funneled" and "conformational noise" without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible perspective but does not provide the specific findings, data, or methodological details needed to evaluate the scientific contribution. A revised version with concrete examples, quantitative results, and clear evidence for the central claims would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that specific examples highlight advances in energy landscape visualization and molecular dynamics simulations is unsupported because no examples are provided.
+- The causal claim linking IDP dysregulation to increased noise, promiscuous interactions, PIN rewiring, and cellular decision making is unsupported by visible evidence.
+- The claim that small molecules targeting IDPs show therapeutic potential is unsupported without specific compound data.
+- The statement that IDPs are "not easily tractable experimentally" is presented without qualification or evidence.
+- The claim that understanding IDPs "may help to refine and extend Anfinsen's structure/function paradigm" is speculative and not substantiated with specific conceptual or experimental advances.

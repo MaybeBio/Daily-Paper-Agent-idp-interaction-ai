@@ -1,0 +1,291 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.18.558189",
+  "title": "Proteome-scale characterisation of motif-based interactome rewiring by disease mutations",
+  "doi": "10.1101/2023.09.18.558189",
+  "abstract": "Whole genome and exome sequencing are reporting on hundreds of thousands of missense mutations. Taking a pan-disease approach, we explored how mutations in the intrinsically disordered regions (IDRs) break or generate protein interactions mediated by short linear motifs. We created a peptide-phage display library tiling ∼57,000 peptides from the IDRs of the human proteome overlapping 12,301 single nucleotide variant associated with diverse phenotypes including cancer, metabolic diseases and neurological diseases. By screening 80 human proteins, we identified 366 mutation-modulated interactions, with half of the mutations diminishing binding, and half enhancing binding or creating novel interaction interfaces. The effects of the mutations were confirmed by affinity measurements. In cellular assays, the effects of motif-disruptive mutations were validated, including loss of a nuclear localisation signal in the cell division control protein CDC45 by a mutation associated with Meier-Gorlin syndrome. The study provides insights into how disease-associated mutations may perturb and rewire the motif-based interactome.",
+  "authors": [
+    "Kliche J",
+    "Simonetti L",
+    "Krystkowiak I",
+    "Kuss H",
+    "Diallo M",
+    "Rask E",
+    "Nilsson J",
+    "Davey NE",
+    "Ivarsson Y"
+  ],
+  "published_date": "2023-09-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.18.558189",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.18.558189.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR727217",
+    "raw_record": {
+      "id": "PPR727217",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR727217"
+        ]
+      },
+      "doi": "10.1101/2023.09.18.558189",
+      "title": "Proteome-scale characterisation of motif-based interactome rewiring by disease mutations",
+      "authorString": "Kliche J, Simonetti L, Krystkowiak I, Kuss H, Diallo M, Rask E, Nilsson J, Davey NE, Ivarsson Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kliche J",
+            "lastName": "Kliche",
+            "firstName": "Johanna",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - BMC, Box 576, Husargatan 3, 751 23 Uppsala, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Simonetti L",
+            "lastName": "Simonetti",
+            "firstName": "Leandro",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - BMC, Box 576, Husargatan 3, 751 23 Uppsala, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Krystkowiak I",
+            "lastName": "Krystkowiak",
+            "firstName": "Izabella",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Biology, Institute of Cancer Research, Chester Beatty Laboratories, 237 Fulham Road, SW3 6JB, Chelsea, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kuss H",
+            "lastName": "Kuss",
+            "firstName": "Hanna",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - BMC, Box 576, Husargatan 3, 751 23 Uppsala, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Diallo M",
+            "lastName": "Diallo",
+            "firstName": "Marcel",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0056-7333"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rask E",
+            "lastName": "Rask",
+            "firstName": "Emma",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - BMC, Box 576, Husargatan 3, 751 23 Uppsala, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nilsson J",
+            "lastName": "Nilsson",
+            "firstName": "Jakob",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4100-1125"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davey NE",
+            "lastName": "Davey",
+            "firstName": "Norman",
+            "initials": "NE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6988-4850"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Biology, Institute of Cancer Research, Chester Beatty Laboratories, 237 Fulham Road, SW3 6JB, Chelsea, London, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ivarsson Y",
+            "lastName": "Ivarsson",
+            "firstName": "Ylva",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7081-3846"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - BMC, Box 576, Husargatan 3, 751 23 Uppsala, Sweden"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6988-4850"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7081-3846"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0056-7333"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4100-1125"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Whole genome and exome sequencing are reporting on hundreds of thousands of missense mutations. Taking a pan-disease approach, we explored how mutations in the intrinsically disordered regions (IDRs) break or generate protein interactions mediated by short linear motifs. We created a peptide-phage display library tiling ∼57,000 peptides from the IDRs of the human proteome overlapping 12,301 single nucleotide variant associated with diverse phenotypes including cancer, metabolic diseases and neurological diseases. By screening 80 human proteins, we identified 366 mutation-modulated interactions, with half of the mutations diminishing binding, and half enhancing binding or creating novel interaction interfaces. The effects of the mutations were confirmed by affinity measurements. In cellular assays, the effects of motif-disruptive mutations were validated, including loss of a nuclear localisation signal in the cell division control protein CDC45 by a mutation associated with Meier-Gorlin syndrome. The study provides insights into how disease-associated mutations may perturb and rewire the motif-based interactome.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/18/2023.09.18.558189.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.18.558189"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR727217"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR727217&type=FILE&fileName=EMS188321-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39009827",
+            "reference": "Molecular systems biology. 2024 Sep;20(9):1025-1048",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS188321",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-09-21",
+      "firstPublicationDate": "2023-09-18",
+      "firstIndexDate": "2023-09-21",
+      "fullTextReceivedDate": "2024-05-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

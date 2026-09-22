@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "37764437",
+    "doi": "10.3390/molecules28186659",
+    "title": "Einstein Model of a Graph to Characterize Protein Folded/Unfolded States."
+  },
+  "content": {
+    "abstract": "The folded structures of proteins can be accurately predicted by deep learning algorithms from their amino-acid sequences. By contrast, in spite of decades of research studies, the prediction of folding pathways and the unfolded and misfolded states of proteins, which are intimately related to diseases, remains challenging. A two-state (folded/unfolded) description of protein folding dynamics hides the complexity of the unfolded and misfolded microstates. Here, we focus on the development of simplified order parameters to decipher the complexity of disordered protein structures. First, we show that any connected, undirected, and simple graph can be associated with a linear chain of atoms in thermal equilibrium. This analogy provides an interpretation of the usual topological descriptors of a graph, namely the Kirchhoff index and Randic resistance, in terms of effective force constants of a linear chain. We derive an exact relation between the Kirchhoff index and the average shortest path length for a linear graph and define the free energies of a graph using an Einstein model. Second, we represent the three-dimensional protein structures by connected, undirected, and simple graphs. As a proof of concept, we compute the topological descriptors and the graph free energies for an all-atom molecular dynamics trajectory of folding/unfolding events of the proteins Trp-cage and HP-36 and for the ensemble of experimental NMR models of Trp-cage. The present work shows that the local, nonlocal, and global force constants and free energies of a graph are promising tools to quantify unfolded/disordered protein states and folding/unfolding dynamics. In particular, they allow the detection of transient misfolded rigid states.",
+    "keywords": [
+      "Kirchhoff index",
+      "Wiener index",
+      "graph theory",
+      "intrinsically disordered proteins",
+      "molecular dynamics",
+      "protein folding"
+    ],
+    "mesh_terms": [
+      "*Proteins/chemistry",
+      "*Protein Folding",
+      "Amino Acid Sequence",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tyler, Steve",
+        "Laforge, Christophe",
+        "Guzzo, Adrien",
+        "Nicolai, Adrien",
+        "Maisuradze, Gia G",
+        "Senet, Patrick"
+      ],
+      "short_names": [
+        "Tyler S",
+        "Laforge C",
+        "Guzzo A",
+        "Nicolai A",
+        "Maisuradze GG",
+        "Senet P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7779-4652"
+      ],
+      "affiliations": [
+        "Laboratoire Interdisciplinaire Carnot de Bourgogne, UMR CNRS 6303, Universite de Bourgogne, 21078 Dijon CEDEX, France.",
+        "Laboratoire Interdisciplinaire Carnot de Bourgogne, UMR CNRS 6303, Universite de Bourgogne, 21078 Dijon CEDEX, France.",
+        "Laboratoire Interdisciplinaire Carnot de Bourgogne, UMR CNRS 6303, Universite de Bourgogne, 21078 Dijon CEDEX, France.",
+        "Laboratoire Interdisciplinaire Carnot de Bourgogne, UMR CNRS 6303, Universite de Bourgogne, 21078 Dijon CEDEX, France.",
+        "Baker Laboratory of Chemistry and Chemical Biology, Cornell University, Ithaca, NY 14853, USA.",
+        "Laboratoire Interdisciplinaire Carnot de Bourgogne, UMR CNRS 6303, Universite de Bourgogne, 21078 Dijon CEDEX, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tyler, Steve",
+        "short_name": "Tyler S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Interdisciplinaire Carnot de Bourgogne, UMR CNRS 6303, Université de Bourgogne, 21078 Dijon CEDEX, France."
+        ]
+      },
+      {
+        "full_name": "Laforge, Christophe",
+        "short_name": "Laforge C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Interdisciplinaire Carnot de Bourgogne, UMR CNRS 6303, Université de Bourgogne, 21078 Dijon CEDEX, France."
+        ]
+      },
+      {
+        "full_name": "Guzzo, Adrien",
+        "short_name": "Guzzo A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Interdisciplinaire Carnot de Bourgogne, UMR CNRS 6303, Université de Bourgogne, 21078 Dijon CEDEX, France."
+        ]
+      },
+      {
+        "full_name": "Nicolaï, Adrien",
+        "short_name": "Nicolaï A",
+        "identifiers": [
+          "0000-0001-7779-4652"
+        ],
+        "affiliations": [
+          "Laboratoire Interdisciplinaire Carnot de Bourgogne, UMR CNRS 6303, Université de Bourgogne, 21078 Dijon CEDEX, France."
+        ]
+      },
+      {
+        "full_name": "Maisuradze, Gia G",
+        "short_name": "Maisuradze GG",
+        "identifiers": [],
+        "affiliations": [
+          "Baker Laboratory of Chemistry and Chemical Biology, Cornell University, Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Senet, Patrick",
+        "short_name": "Senet P",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Interdisciplinaire Carnot de Bourgogne, UMR CNRS 6303, Université de Bourgogne, 21078 Dijon CEDEX, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2023 Sep 16",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/28 06:42",
+    "fetched_at": "2026-09-21 01:42:22"
+  },
+  "links": {
+    "cites": [
+      "41584445"
+    ],
+    "refs": [
+      "37165178",
+      "36319775",
+      "35836937",
+      "35046575",
+      "35017741",
+      "35017725",
+      "34912851",
+      "34265844",
+      "33637710",
+      "32548853",
+      "32392067",
+      "29446945",
+      "29120630",
+      "28552172",
+      "27602721",
+      "27574021",
+      "27131359",
+      "27101436",
+      "26845039",
+      "26658321",
+      "26216963",
+      "25255057",
+      "25225856",
+      "24128764",
+      "22715321",
+      "22404685",
+      "22034434",
+      "19073932",
+      "18573083",
+      "18336321",
+      "18221865",
+      "18008324",
+      "17030792",
+      "15313625",
+      "15303830",
+      "15102452",
+      "14695252",
+      "14638943",
+      "12188762",
+      "11979279",
+      "11943859",
+      "11891336",
+      "11391777",
+      "11159421",
+      "10834833",
+      "10500173",
+      "7613459",
+      "4124164",
+      "1749933",
+      "1191643",
+      "237413"
+    ],
+    "similar": [
+      "37764437",
+      "24089737",
+      "21773639",
+      "27878168",
+      "28915352",
+      "27754673",
+      "23754493",
+      "25866611",
+      "26619349",
+      "22070323",
+      "26096263",
+      "19887634",
+      "20408169",
+      "23705683",
+      "17293125",
+      "21158416",
+      "24050152",
+      "36705525",
+      "31167941",
+      "12465960",
+      "36150186",
+      "29446945",
+      "30091592",
+      "25854260",
+      "23083720",
+      "24563686",
+      "22339051",
+      "32914959",
+      "23020351",
+      "27926841",
+      "23963761",
+      "22747188",
+      "17902706",
+      "30277396",
+      "24779395",
+      "27504963",
+      "20536262",
+      "29604891",
+      "29735687",
+      "32298093",
+      "17035504",
+      "15268287",
+      "17505540",
+      "20568747",
+      "18553935",
+      "12385986",
+      "23280507",
+      "15808225",
+      "26404828",
+      "11297422",
+      "26845039",
+      "33187403",
+      "20883829",
+      "26574335",
+      "28693322",
+      "18602478",
+      "30520528",
+      "20409339",
+      "12054824",
+      "20218718",
+      "8471598",
+      "11159461",
+      "32541047",
+      "30395709",
+      "22768951",
+      "11580255",
+      "12368107",
+      "32323533",
+      "7827045",
+      "29604826",
+      "36591705",
+      "29981536",
+      "28068774",
+      "26559408",
+      "28107009",
+      "12833552",
+      "36194758",
+      "26020564",
+      "29627125",
+      "29851345",
+      "35462186",
+      "28409081",
+      "7626599",
+      "12946362",
+      "25517160",
+      "22497240",
+      "30566837",
+      "36239220",
+      "12059241",
+      "24320303",
+      "22909017",
+      "35883496",
+      "30577777",
+      "26032339",
+      "39431217",
+      "32316881",
+      "36993592",
+      "35860006"
+    ],
+    "review": [
+      "37764437",
+      "26845039",
+      "20883829",
+      "30566837"
+    ],
+    "pmc": [
+      "10536427"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules28186659",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37764437/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37764437",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-DLC1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-671",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

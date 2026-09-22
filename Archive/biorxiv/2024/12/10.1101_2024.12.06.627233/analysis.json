@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.06.627233",
+  "title": "An all-atom view into the disordered interaction interface of the TRIM5 α PRYSPRY domain and the HIV capsid",
+  "authors": "Haas-Neill L; Meneksedag-Erol D; Andeejani I; del Banco S; Tenthorey J; Rauscher S",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-09",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用全原子分子动力学模拟解析TRIM5α无序PRYSPRY结构域与HIV衣壳蛋白的模糊互作界面，揭示R332P突变通过静电作用增强限制的分子机制，是IDR介导PPI机制建模的典范。",
+  "abstract": "Tripartite motif-containing protein 5, alpha isoform (TRIM5 α ) is an innate immune factor that provides rhesus macaques with immunity to HIV. Despite high sequence similarity to rhesus TRIM5 α , human TRIM5 α weakly restricts HIV without the introduction of mutations. The structural underpinnings of this functional difference are poorly understood because the interaction interface between TRIM5 α and its target, the HIV capsid, involves intrinsically disordered regions. Here, we use all-atom molecular dynamics simulations to study several TRIM5 α variants: rhesus TRIM5 α , human TRIM5 α , and human TRIM5 α with an R332P mutation (a mutation known to enhance HIV restriction). Our data reveal differences in the conformational ensembles of wild-type and R332P human TRIM5 α , including a significant increase in the formation of a turn that includes the mutation site residue. We also carried out simulations of rhesus TRIM5 α in complex with the HIV capsid protein. Our results indicate that the variable loops of TRIM5 α are highly flexible, both in solution and in the complex with the capsid, indicative of a fuzzy interaction interface. Simulations of the complex, as well as experimental infections, indicate the basis for weak HIV restriction by human TRIM5 α that is improved by an R332P mutation: replacing the positively charged arginine with a neutral residue decreases electrostatic repulsion with residue R82 of the capsid protein, which can be phenocopied by neutralizing mutations at capsid residue R82. Overall, our simulations provide a first view of the atomistic details of the HIV capsid-TRIM5 α binding interface and a molecular mechanism for the observed functional differences between variants of the TRIM5 α protein. <h4>Significance Statement</h4> Humans and viruses are engaged in an evolutionary arms race, which involves evolutionary cycles in which viruses escape host defense and hosts evolve to chase after them. The protein TRIM5 α is a crucial part of the immune system’s defense against viruses, and the region of TRIM5 α that interacts with viral capsids is evolving rapidly. While a wealth of structural information is separately available for the HIV capsid protein and TRIM5 α , the interaction interface between these two proteins remains poorly understood because it involves multiple disordered regions. We present a first atomistic view of the TRIM5 α -capsid interaction interface using all-atom molecular dynamics simulations. We use our model of the interface and the probabilistic description of interactions to explain the improved HIV restriction of a mutation in the human TRIM5 α protein, which has been proposed for human gene therapy, in terms of specific electrostatic interactions. Finally, we validate our findings with experimental infections. Our data provide detailed structural insight into how TRIM5 evolves improved restriction against its retroviral targets.",
+  "abstract_zh": "三基序蛋白5α亚型（TRIM5α）是一种先天免疫因子，为恒河猴提供对HIV的免疫能力。尽管与人TRIM5α具有高度序列相似性，但人TRIM5α在不引入突变的情况下对HIV的限制作用较弱。由于TRIM5α与其靶标HIV衣壳之间的相互作用界面涉及 intrinsically disordered regions（内在无序区域），这种功能差异的结构基础尚不清楚。在此，我们使用全原子分子动力学 (molecular dynamics) 模拟研究了几种TRIM5α变体：恒河猴TRIM5α、人TRIM5α以及带有R332P突变（已知增强HIV限制作用的突变）的人TRIM5α。我们的数据揭示了野生型和R332P人TRIM5α构象集合的差异，包括包含突变位点残基的转角形成显著增加。我们还进行了恒河猴TRIM5α与HIV衣壳蛋白复合物的模拟。我们的结果表明，TRIM5α的可变环在溶液中和与衣壳复合时均高度灵活，表明存在模糊的相互作用界面。复合物的模拟以及实验感染表明，人TRIM5α对HIV限制作用较弱但通过R332P突变得以改善的基础是：将带正电荷的精氨酸替换为中性残基减少了与衣壳蛋白R82残基的静电排斥，这可通过衣壳R82残基的中和突变来模拟表型。总体而言，我们的模拟首次提供了HIV衣壳-TRIM5α结合界面的原子细节视图，以及TRIM5α蛋白变体间观察到的功能差异的分子机制。\n\n<h4>意义声明</h4> 人类与病毒处于进化军备竞赛中，这涉及病毒逃逸宿主防御和宿主进化追赶病毒的进化循环。TRIM5α蛋白是免疫系统抵御病毒的关键部分，且TRIM5α与病毒衣壳相互作用的区域正在快速进化。尽管HIV衣壳蛋白和TRIM5α分别有丰富的结构信息，但这两个蛋白之间的相互作用界面仍知之甚少，因为它涉及多个无序区域。我们利用全原子分子动力学模拟首次提供了TRIM5α-衣壳相互作用界面的原子视图。我们使用界面模型和相互作用的概率描述，从特定静电相互作用的角度解释了人TRIM5α蛋白中一个突变（已被提议用于人类基因治疗）改善HIV限制作用的原因。最后，我们通过实验感染验证了我们的发现。我们的数据为TRIM5如何进化出对逆转录病毒靶标的增强限制作用提供了详细的结构见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.06.627233",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.06.627233",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.06.627233/index.html"
+}

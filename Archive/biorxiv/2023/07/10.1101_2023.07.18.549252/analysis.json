@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.18.549252",
+  "title": "Strategy of selection and optimization of single domain antibodies targeting the PHF6 linear peptide within the Tau intrinsically disordered protein",
+  "authors": "Justine Mortelecque; Orgeta Zejneli; Séverine Bégard; Nguyen Marine; François-Xavier Cantrelle; Xavier Hanoulle; Jean-Christophe Rain; Morvane Colin; Luc Buée; Isabelle Landrieu; Clément Danis; Elian Dupré",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-19",
+  "window": {
+    "start": "2023-07-17",
+    "end": "2023-07-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过随机突变与酵母双杂交筛选优化靶向Tau无序蛋白内PHF6线性表位的单域抗体VHH，结合NMR、SPR及复合物晶体结构解析结合机制，但方法以实验为主、AI/物理模拟贡献有限，且互作机制建模深度一般。",
+  "abstract": "The use of VHHs (Variable domain of the Heavy-chain of the Heavy-chain-only antibodies) as disease-modifying biomolecules in neurodegenerative disorders holds promises including to target aggregation-sensitive proteins. Exploitation of their clinical values dependents however on the capacity to deliver VHHs with optimal physico-chemical properties for their specific context of use. We described previously a VHH with high therapeutic potential in a family of neurodegenerative diseases called tauopathies. The activity of this promising parent VHH named Z70 relies on its binding within the central region of the Tau protein. Accordingly, we carried out random mutagenesis followed by yeast two-hybrid screening to obtain optimized variants. The VHHs selected from this initial screen targeted the same epitope as VHH Z70 as shown using nuclear magnetic resonance spectroscopy and had indeed improved binding affinities according to dissociation constant values obtained by surface plasmon resonance spectroscopy. The improved affinities can be partially rationalized based on three-dimensional structures of three complexes consisting of an optimized VHH and a peptide containing the Tau epitope. Interestingly, the ability of the VHH variants to inhibit Tau aggregation and seeding could not be predicted from their affinity alone. We indeed showed that the in vitro and in cellulo VHH stabilities are other limiting key factors to their efficacy. Our results demonstrate that only a complete pipeline of experiments, here described, permits a rational selection of optimized VHH variants, resulting in our capacity to propose two VHH variants derived from the parent Z70 for their next development steps.",
+  "abstract_zh": "使用VHHs（重链抗体重链可变域）作为神经退行性疾病中的疾病修饰生物分子具有前景，包括靶向易聚集蛋白。然而，其临床价值的利用取决于能否以针对特定使用环境优化的物理化学性质递送VHHs。我们此前描述了一种在称为tau蛋白病的神经退行性疾病家族中具有高治疗潜力的VHH。这种有前景的亲本VHH名为Z70，其活性依赖于其与Tau蛋白中心区域的结合。因此，我们进行了随机突变，随后通过酵母双杂交筛选以获得优化变体。从这一初始筛选中选出的VHHs靶向与VHH Z70相同的表位，如核磁共振波谱所示，并且根据表面等离子体共振波谱获得的解离常数，其结合亲和力确实有所提高。改进的亲和力可部分通过三个复合物的三维结构合理化解释，这些复合物由优化的VHH和含有Tau表位的肽段组成。有趣的是，VHH变体抑制Tau聚集和播种的能力不能仅凭其亲和力预测。我们确实表明，体外和细胞内VHH稳定性是其功效的其他关键限制因素。我们的结果表明，只有这里描述的完整实验流程，才能实现优化VHH变体的合理选择，从而使我们能够提出两个源自亲本Z70的VHH变体用于其后续开发步骤。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.18.549252",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.18.549252",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.18.549252/index.html"
+}

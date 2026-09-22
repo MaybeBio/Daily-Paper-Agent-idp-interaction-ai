@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report an integrated in silico, chemoproteomics-based, and in vitro approach to identify small-molecule inhibitors of c-Myc/Max heterodimerization. From a virtual screening campaign, 11 candidate binders were selected; three showed potential as c-Myc/Max heterodimerization inhibitors in biophysical and biological assays. Compound 11 was the most active, with KD values of approximately 60 µM for c-Myc and 80 µM for Max, antiproliferative effects in three cancer cell lines, and an 85% reduction in c-Myc levels in U937 cells. Molecular dynamics simulations and proteomic studies were used to propose a binding site and key interacting residues.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data beyond those stated, statistical analyses, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, compound structures, SPR sensorgrams, MTT dose-response curves, Western blot or proteomics data, molecular dynamics simulation parameters and trajectories, statistical analysis details, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially interesting integrated strategy for targeting the intrinsically disordered protein c-Myc, which is a challenging and clinically relevant target. The combination of virtual screening, biophysical validation, cellular assays, and computational/proteomic binding-site identification is conceptually attractive. However, the evidence presented in the abstract is insufficient to establish the central claims. Key quantitative data are reported without error estimates or statistical context, the selectivity of compound 11 for c-Myc over other targets is not addressed, and the mechanistic link between c-Myc/Max disruption and the observed antiproliferative effects is not demonstrated. The work may be of interest to the cancer biology and drug discovery communities, but the case is not yet established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in cancer drug discovery, particularly those focused on transcription factors and intrinsically disordered proteins as therapeutic targets. The work may also interest medicinal chemists developing small-molecule protein-protein interaction inhibitors and structural biologists studying c-Myc dynamics. The integrated methodology could serve as a template for similar target-based campaigns.
+- **Major strengths** The abstract presents a multi-pronged strategy that combines computational screening with biophysical, cellular, and proteomic validation, which is appropriate for a challenging IDP target. The identification of a new chemotype (1,3-diphenylurea moiety) with measurable binding to c-Myc and Max, and the reported cellular activity, provide a reasonable starting point for further optimization. The inclusion of molecular dynamics and proteomic studies to propose a binding site adds mechanistic depth beyond simple screening.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that compound 11 is a c-Myc/Max heterodimerization inhibitor based on KD values of approximately 60 µM for c-Myc and 80 µM for Max, and that it shows significant antiproliferative effects in three cancer cell lines.
+  - **Evidence pointer** Abstract text; specific figures and tables not provided
+  - **Concern** The abstract reports KD values and antiproliferative effects without any indication of experimental variability, replicate numbers, or statistical significance. The KD values are in the high micromolar range, which is generally considered weak binding, and the difference from the reference compound 10058-F4 (40 µM vs 60 µM) may not be meaningful without error bars. The claim of "significant" antiproliferative effects is not supported by any quantitative data such as IC50 values or confidence intervals.
+  - **Why it matters** Without measures of variability and statistical testing, the reader cannot assess whether the observed effects are reproducible or whether compound 11 is genuinely distinct from the reference compound. The weak binding affinity also raises questions about whether the observed cellular effects are specifically due to c-Myc/Max disruption or to off-target effects.
+  - **Resolution test** Provide replicate measurements with standard deviations or confidence intervals for all KD values and cellular assay results, along with appropriate statistical tests comparing compound 11 to controls and to 10058-F4. Report IC50 values with confidence intervals for the antiproliferative effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The abstract states that compound 11 disrupts c-Myc/Max heterodimerization and that an 85% reduction in c-Myc levels was observed in U937 cells, implying a mechanistic link between these observations.
+  - **Evidence pointer** Abstract text; specific figures and tables not provided
+  - **Concern** The abstract does not provide direct evidence that compound 11 disrupts the c-Myc/Max heterodimer in cells. The reported reduction in c-Myc levels could result from multiple mechanisms, including transcriptional repression, increased protein degradation, or off-target effects. No data are shown to demonstrate that the antiproliferative effects are causally linked to c-Myc/Max disruption rather than to other cellular activities of the compound.
+  - **Why it matters** The central claim of the manuscript is that compound 11 acts as a c-Myc/Max heterodimerization inhibitor. Without direct evidence of heterodimer disruption in a cellular context, the mechanism of action remains speculative, and the observed cellular effects could be unrelated to the proposed target.
+  - **Resolution test** Include co-immunoprecipitation or proximity ligation assays showing reduced c-Myc/Max interaction in treated cells, or a rescue experiment with c-Myc overexpression. Demonstrate that the antiproliferative effect is attenuated in cells with reduced c-Myc dependence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Selectivity and specificity
+  - **Claim pointer** The abstract implies that compound 11 is a selective modulator of c-Myc based on binding to c-Myc and Max and on cellular effects in cancer cell lines.
+  - **Evidence pointer** Abstract text; specific figures and tables not provided
+  - **Concern** No selectivity data are presented. The abstract does not report whether compound 11 binds to other proteins, particularly other bHLH-LZ transcription factors or unrelated targets, nor does it address potential cytotoxicity due to general membrane disruption or other nonspecific mechanisms. The KD values on c-Myc and Max are similar, but no data are shown for off-target binding.
+  - **Why it matters** For a compound with micromolar affinity, selectivity is a major concern. Without selectivity profiling, the observed cellular effects cannot be attributed to c-Myc/Max inhibition, and the therapeutic potential of the compound is unclear.
+  - **Resolution test** Provide selectivity data from a panel of related and unrelated proteins, or from a proteome-wide profiling experiment. Include a counter-screen against a structurally similar but inactive analog to demonstrate specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reporting clarity
+  - **Affected element** KD values
+  - **Evidence pointer** Abstract text
+  - **Issue** The KD values are reported as "~ 60 µM" and "~ 80 µM" without units for the reference compound comparison being fully clear. The abstract states "slightly higher than the known binder 10058-F4 (with a KD ~ 40 µM)", but the context of these measurements (e.g., same experimental conditions, same protein construct) is not specified.
+  - **Required correction** Specify the exact experimental conditions under which all KD values were measured, and report values with appropriate significant figures and error estimates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "Disruption" of heterodimerization
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses the term "disruption" but the evidence described (binding to c-Myc and Max) is consistent with binding, not necessarily with disruption of the heterodimer. The distinction between binding and functional disruption is not clarified.
+  - **Required correction** Use precise terminology that distinguishes between binding affinity and functional inhibition of heterodimerization, and clarify what evidence supports each claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Cell line panel
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions three cell lines (U937, HCT-116, HT-29) but does not report the concentration range tested or the magnitude of the antiproliferative effects beyond "dose- and cell-dependent manner".
+  - **Required correction** Report the concentration range and the extent of the antiproliferative effects, such as IC50 values or percentage inhibition at specified concentrations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of statistical context for all quantitative claims and the absence of direct evidence for c-Myc/Max disruption in cells prevent the case from being established. R1-M3, while not blocking, is important for interpreting the specificity of the compound.
+- **Assessment against Nature-style criteria** Originality: The approach of combining virtual screening with chemoproteomics for an IDP target is not entirely novel but is applied to a relevant and challenging target. Scientific importance: c-Myc is a high-value target, and new chemical matter with a distinct scaffold could be of interest, but the weak affinity and lack of mechanistic evidence limit the current impact. Interdisciplinary readership: The work spans computational chemistry, biophysics, cell biology, and proteomics, which could appeal to a broad audience if the evidence were more complete. Technical soundness: The described methods are appropriate in principle, but the abstract does not provide enough detail to assess the quality of the experiments or the rigor of the analysis. Readability for nonspecialists: The abstract is generally clear, but the significance of the findings is overstated relative to the evidence presented.
+
+## Risk / unsupported claims
+- The claim that compound 11 is a c-Myc/Max heterodimerization inhibitor is unsupported by direct evidence of heterodimer disruption.
+- The claim of "significant" antiproliferative effects is unsupported without quantitative data or statistical analysis.
+- The claim that an 85% reduction in c-Myc levels in U937 cells is mechanistically linked to c-Myc/Max disruption is unsupported.
+- The identification of a binding site and key interacting residues from molecular dynamics and proteomic studies is not verifiable from the abstract alone.
+- The statement that the work "offers valuable insights for identifying new c-Myc/Max disruptors" is a reasonable conclusion but is not yet substantiated by the evidence presented.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41877182",
+  "title": "ER tethering and active transport govern condensate diffusion during hyperosmotic stress.",
+  "authors": "Halder, Bisal; Gao, Guoming; Ahnoud, Armin; Stakenas, Shelby; Sumrall, Emily R; Walter, Nils G",
+  "journal": "Genome biology",
+  "published_date": "2026-03-25",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过单颗粒追踪研究高渗胁迫下DCP1A凝聚体的扩散动力学，揭示其受内质网锚定和微管主动运输调控，虽聚焦相分离凝聚体且涉及互作机制，但方法以实验成像为主，缺乏AI或物理模拟建模。",
+  "abstract": "BACKGROUND: Hyperosmotic shock and the resulting cell volume compression are commonly experienced by organs such as the kidneys, causing rapid formation of hyperosmotic phase separation (HOPS) condensates in the cytoplasm and nucleoplasm. Although the causal relationship between hyperosmotic shock and condensation has been characterized, the diffusion dynamics of biomolecular condensates in hyperosmotically compressed cells and their underlying mechanisms remain largely unknown. RESULTS: We systematically characterize the dynamics of HOPS condensates formed by model protein mRNA decapping enzyme 1A (DCP1A) through live-cell fluorescent single-particle tracking (SPT) across timescales. We find that HOPS condensates predominantly exhibit sub-diffusion rather than free diffusion, while a small fraction undergo bursts of super-diffusion. Using imaging to measure spatial accessibility inside cells and fluorescence labels for specific cellular organelles, we show that sub-diffusion arises from endoplasmic reticulum (ER) attachment, whereas super-diffusion reflects microtubule-dependent active transport. We further reconstruct spatial accessibility within hyperosmotically compressed cells using trajectories of genetically encoded multimeric nanoparticles (GEMs) and find that, despite compression, the cytoplasm remains accessible via diffusion and does not exhibit physical corralling. This indicates that restricted condensate mobility arises primarily from specific molecular interactions rather than from physical barriers. CONCLUSIONS: Our findings challenge the view that the cytosol becomes static and constrained during hyperosmotic compression. Instead, it remains dynamic, while condensates are spatially organized through docking to membrane structures with intermittent episodes of long-range transport. This model reshapes our understanding of the physical environment within stressed cells and provides a framework for how condensates achieve spatiotemporal organization through interactions with cellular structures and active processes.",
+  "abstract_zh": "背景：高渗休克及其导致的细胞体积压缩是肾脏等器官常经历的过程，会引发细胞质和核质中高渗相分离（HOPS）凝聚体的快速形成。尽管高渗休克与凝聚之间的因果关系已被表征，但高渗压缩细胞中生物分子凝聚体的扩散动力学及其潜在机制仍 largely 未知。结果：我们通过活细胞荧光单粒子追踪（SPT）跨时间尺度系统表征了模型蛋白 mRNA 脱帽酶 1A（DCP1A）形成的 HOPS 凝聚体的动力学。我们发现 HOPS 凝聚体主要表现出亚扩散而非自由扩散，而一小部分则经历超扩散的爆发。利用成像测量细胞内空间可达性并用荧光标记特定细胞器，我们表明亚扩散源于内质网（ER）附着，而超扩散则反映微管依赖性主动运输。我们进一步利用基因编码多聚纳米颗粒（GEMs）的轨迹重建高渗压缩细胞内的空间可达性，并发现尽管存在压缩，细胞质仍可通过扩散保持可达性，且未表现出物理围栏效应。这表明凝聚体受限的流动性主要源于特定分子相互作用，而非物理屏障。结论：我们的发现挑战了高渗压缩期间细胞质变得静态和受限的观点。相反，它保持动态，而凝聚体通过锚定膜结构进行空间组织，并伴有间歇性的长距离运输事件。该模型重塑了我们对应激细胞内物理环境的理解，并为凝聚体如何通过与细胞结构和主动过程的相互作用实现时空组织提供了框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41877182/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41877182/",
+  "paper_page_path": "papers/pubmed/41877182/index.html"
+}

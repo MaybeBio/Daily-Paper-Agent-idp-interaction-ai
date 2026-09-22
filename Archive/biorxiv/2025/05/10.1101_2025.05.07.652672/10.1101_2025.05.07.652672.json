@@ -1,0 +1,555 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.07.652672",
+  "title": "Substitutions in RNA-binding protein Hrp1 map a potential interaction surface with the yeast RNA polymerase II elongation complex",
+  "doi": "10.1101/2025.05.07.652672",
+  "abstract": "Anti-termination factors for eukaryotic RNA polymerase II (RNAP II) that are released upon binding sequences in the terminator of nascent transcripts were proposed almost 40 years ago but few candidates have been found. Here we report genetic evidence that the yeast nuclear RNA-binding protein Hrp1, also known as Nab4 and CF1B, acts as an RNAP II anti-termination factor. A Lys to Glu substitution at residue 9 (K9E) of the Rpb3 subunit of RNAP II causes readthrough of Nrd1-Nab3-Sen1-dependent (NNS) terminators and cold-sensitive growth, as does Asp but not Ala, Met, Arg, or Gln substitution. These allele-specific phenotypes and the location of Rpb3-K9 suggests substitution with Glu or Asp stabilizes binding of an anti-termination factor via a salt bridge. A genome-wide selection for suppressors of the cold-sensitivity of Rpb3-K9E yielded an Arg to Gly substitution at residue 317 of Hrp1 in RNA recognition motif 2 (RRM2), consistent with the hypothesis. A targeted selection for suppressors of Rpb3-K9E in HRP1 yielded substitutions in RRMs 1 and 2, an essential Met- and Gln-rich region C-terminal to the RRMs, and other mutations. We propose that Hrp1 binds to the RNAP II elongation complex via these regions to promote elongation and, in the presence of Rpb3-K9E, is less rapidly released upon binding terminator sequences in the nascent transcript, resulting in terminator readthrough. The Rpb3-K9E-suppressor substitutions in Hrp1 likely weaken binding to the RNAP II elongation complex, compensating for Rpb3-K9E.",
+  "authors": [
+    "Moyao Wang",
+    "Payal Arora",
+    "Craig D. Kaplan",
+    "David A. Brow"
+  ],
+  "published_date": "2025-05-07",
+  "updated_date": "2025-05-08T00:25:17Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.07.652672",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.07.652672.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:49:19Z",
+        "timestamp": 1782280159313,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            7
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 49,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                7
+              ]
+            ],
+            "date-time": "2025-05-07T00:00:00Z",
+            "timestamp": 1746576000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "NIH/NIGMS",
+          "award": [
+            "R01 GM082956"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01 GM082956"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH/NIGMS",
+          "award": [
+            "R35 GM118075"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35 GM118075"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH/NIGMS",
+          "award": [
+            "R01 GM120450"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01 GM120450"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH/NIGMS",
+          "award": [
+            "R35 GM144116"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35 GM144116"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  Anti-termination factors for eukaryotic RNA polymerase II (RNAP II) that are released upon binding sequences in the terminator of nascent transcripts were proposed almost 40 years ago but few candidates have been found. Here we report genetic evidence that the yeast nuclear RNA-binding protein Hrp1, also known as Nab4 and CF1B, acts as an RNAP II anti-termination factor. A Lys to Glu substitution at residue 9 (K9E) of the Rpb3 subunit of RNAP II causes readthrough of Nrd1-Nab3-Sen1-dependent (NNS) terminators and cold-sensitive growth, as does Asp but not Ala, Met, Arg, or Gln substitution. These allele-specific phenotypes and the location of Rpb3-K9 suggests substitution with Glu or Asp stabilizes binding of an anti-termination factor via a salt bridge. A genome-wide selection for suppressors of the cold-sensitivity of Rpb3-K9E yielded an Arg to Gly substitution at residue 317 of Hrp1 in RNA recognition motif 2 (RRM2), consistent with the hypothesis. A targeted selection for suppressors of Rpb3-K9E in\n                  <jats:italic>HRP1</jats:italic>\n                  yielded substitutions in RRMs 1 and 2, an essential Met- and Gln-rich region C-terminal to the RRMs, and other mutations. We propose that Hrp1 binds to the RNAP II elongation complex via these regions to promote elongation and, in the presence of Rpb3-K9E, is less rapidly released upon binding terminator sequences in the nascent transcript, resulting in terminator readthrough. The Rpb3-K9E-suppressor substitutions in Hrp1 likely weaken binding to the RNAP II elongation complex, compensating for Rpb3-K9E.\n                </jats:p>",
+      "DOI": "10.1101/2025.05.07.652672",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            8
+          ]
+        ],
+        "date-time": "2025-05-08T00:25:17Z",
+        "timestamp": 1746663917000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Substitutions in RNA-binding protein Hrp1 map a potential interaction surface with the yeast RNA polymerase II elongation complex"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6767-3950",
+          "authenticated-orcid": false,
+          "given": "Moyao",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Biomolecular Chemistry, University of Wisconsin School of Medicine and Public Health, Madison, WI"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-1512-2777",
+          "authenticated-orcid": false,
+          "given": "Payal",
+          "family": "Arora",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, PA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7518-695X",
+          "authenticated-orcid": false,
+          "given": "Craig D.",
+          "family": "Kaplan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biological Sciences, University of Pittsburgh, Pittsburgh, PA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8028-014X",
+          "authenticated-orcid": false,
+          "given": "David A.",
+          "family": "Brow",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Biomolecular Chemistry, University of Wisconsin School of Medicine and Public Health, Madison, WI"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-060614-034457"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku663"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.119.301922"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abe2913"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1006863"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "80",
+          "DOI": "10.4161/fly.19695",
+          "article-title": "A program for annotating and predicting the effects of single nucleotide polymorphisms, SnpEff: SNPs in the genome of Drosophila melanogaster strain w1118; iso-2; iso-3",
+          "volume": "6",
+          "year": "2012",
+          "journal-title": "Fly (Austin)"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr330"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Danecek P , Bonfield JK , Liddle J , Marshall J , Ohan V , Pollard MO , Whitwham A , Keane T , McCarthy SA , Davies RM , and Li H . 2021. Twelve years of SAMtools and BCFtools. GigaScience 10.",
+          "DOI": "10.1093/gigascience/giab008"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-0554-6_12"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.7.12a.2446"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/g3.120.401396"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/genetics/iyad134"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2019.04.038"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.11.19.2545"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M116.715771"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2008.05.018"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3098"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2005.04.029"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M800898200"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1923"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/genetics/133.4.851"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp352"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.84.23.8306"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks377"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Martin M . 2011. Cutadapt removes adapter sequences from high-throughput sequencing reads. EMBnet.journal 17.",
+          "DOI": "10.14806/ej.17.1.200"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/17.24.7454"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(81)90552-0"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.emboj.7601190"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nsmb.2592"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-024-01409-0"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2022.12.021"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2220542120"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chembiol.2008.09.008"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2011.09.013"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1200188"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.16.12.6993"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.23.18.6339-6349.2003"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35095090"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.26.7.2688-2696.2006"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2006.10.023"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2014.05.031"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s002940050160"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.44",
+          "first-page": "368",
+          "article-title": "AlphaFold Protein Structure Database in 2024: providing structure coverage for over 214 million protein sequences",
+          "volume": "52",
+          "year": "2023",
+          "journal-title": "Nucl Acids Res"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2015.123"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2005.11.028"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/9.13.3077"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/yea.1244"
+        },
+        {
+          "key": "2026041120465745000_2025.05.07.652672v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.24.24.10742-10756.2004"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.07.652672",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T04:58:24Z",
+        "timestamp": 1782277104000
+      },
+      "score": 51.151054,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.05.07.652672"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            7
+          ]
+        ]
+      },
+      "references-count": 49,
+      "URL": "https://doi.org/10.1101/2025.05.07.652672",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/genetics/iyaf225",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

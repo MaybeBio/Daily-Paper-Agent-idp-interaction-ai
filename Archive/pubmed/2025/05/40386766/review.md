@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, main review sections, conclusions, conflicts of interest, data availability, acknowledgements)
+- **Assessment boundary** Scientific content, technical soundness, and presentation quality of the review as provided; no external literature or unpublished data consulted
+- **Shared manuscript claim summary** The review argues that simulation methods, particularly all-atom MD and coarse-grained models, have advanced to the point where they can meaningfully complement experiment in understanding and predicting the phase behavior, assembly, and material properties of intrinsically disordered proteins (IDPs), with emphasis on elastin-like polypeptides (ELPs) and resilin-like polypeptides (RLPs). The authors further claim that continued integration of simulation and experiment, alongside emerging data-driven approaches, will enable de novo design of IDP-based materials.
+- **Visible evidence base** Descriptions of published simulation and experimental studies, including specific sequences, methods (e.g., CHARMM, AMBER, Martini3, HPS, Mpipi, REMD, PT-WTE), and qualitative comparisons to experimental observations; figures referenced but not provided
+- **Missing materials affecting confidence** Figures 1–7 are cited but not included; no quantitative data, simulation parameters, or error estimates are provided; primary sources are not accessible for verification; no systematic search methodology or inclusion criteria for the review is stated
+
+## Reviewer
+- **Overall assessment** This is a competent and readable narrative review covering a topical area of significant current interest. The authors demonstrate familiarity with both simulation techniques and experimental characterization of IDP-based materials, and they make a reasonable case for the complementary roles of these approaches. However, the review is largely descriptive rather than critical, with limited depth in comparing methodologies, assessing limitations quantitatively, or identifying unresolved controversies. The absence of figures and the lack of a stated literature search strategy reduce the ability to fully evaluate the review's comprehensiveness and balance. The manuscript would benefit from a more structured critical analysis and clearer articulation of open questions.
+- **Who would be interested in the results, and why** Researchers in biomaterials, protein engineering, and computational biophysics would find this review useful as an entry point to the literature on IDP simulation and experiment. Those specifically working on ELPs, RLPs, or related stimuli-responsive polypeptides would appreciate the focused coverage. The review may also serve as a teaching resource for graduate students entering the field. However, specialists in either simulation methodology or IDP biophysics may find the treatment too shallow to be of substantial value.
+- **Major strengths** The review covers a timely and important topic with a clear organizational structure. The authors successfully highlight key studies that combine simulation and experiment, which is a valuable perspective. The discussion of specific residue-level interactions (e.g., π–π, cation–π, hydrogen bonding) in the context of phase behavior is informative. The concluding section identifies genuine challenges, including system size, timescale, and force field limitations, and points toward promising future directions such as machine learning.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The review claims that simulation methods have "successfully captured experimental behavior" and that specific interactions (e.g., Tyr–Tyr, Arg–Tyr) are "essential for driving association and LLPS" in the discussed IDP systems.
+  - **Evidence pointer** Sections "Simulations of elastin-like (poly)peptides (ELPs)" and "Simulations of resilin-like (poly)peptide interactions"; figures referenced but not provided
+  - **Concern** The review makes strong claims about the ability of simulations to capture experimental behavior and about the mechanistic importance of specific residue interactions, but the supporting evidence is presented only qualitatively. No quantitative metrics (e.g., correlation coefficients, error bars, convergence criteria) are given for the simulation-experiment comparisons. The referenced figures, which presumably contain the supporting data, are not available in the provided material. Without these, the strength of the claims cannot be assessed.
+  - **Why it matters** The central thesis of the review is that simulation and experiment can be productively integrated to understand IDP materials. If the evidence for this integration is not presented in a verifiable form, the review's conclusions rest on assertion rather than demonstration.
+  - **Resolution test** Provide the figures with quantitative comparisons (e.g., simulated vs. experimental transition temperatures, Rg values, or interaction energies) and state the statistical or systematic uncertainties. Alternatively, soften the claims to reflect the qualitative nature of the current evidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The review states that "simulation approaches provide promising tools to both understand IDP interactions and to design IDPs with targeted properties" and that "continued synergistic improvement... will be critical to advance the prediction of materials properties and the successful de-novo design of artificial IDPs."
+  - **Evidence pointer** Sections "Conclusions and perspectives" and "Simulation of IDPs conjugated with ordered domains"
+  - **Concern** The review does not critically assess the predictive power of current simulation methods. While several examples of simulation-experiment agreement are cited, there is no discussion of cases where simulations failed to predict experimental outcomes or where different models gave conflicting results. The claim that simulations can guide de novo design is plausible but not critically examined.
+  - **Why it matters** A review that only presents successes gives an unbalanced view of the field's capabilities and limitations. For readers considering using simulations in their own work, an honest assessment of failure modes and uncertainties is essential.
+  - **Resolution test** Add a section or paragraph discussing known limitations, failed predictions, or discrepancies between simulation and experiment. If such cases are rare in the literature, state that explicitly and justify why.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The review describes the Martini3 CG model as being applied to ELPs and notes that "the Martini CG model does not capture secondary structures well and thus requires initial definition of the secondary structures, which could introduce artifacts in the simulations."
+  - **Evidence pointer** Section "Simulations of elastin-like (poly)peptides (ELPs)"
+  - **Concern** This is a potentially important caveat, but it is stated in passing and not elaborated. The review does not discuss how this limitation affects the validity of the results obtained with Martini3 for ELPs, nor does it compare this limitation with those of other CG models (e.g., HPS, Mpipi) that are also discussed. The reader is left uncertain about the relative reliability of the different approaches.
+  - **Why it matters** The choice of simulation method is central to the review's topic. A more detailed comparison of the strengths and weaknesses of each method, with respect to the specific questions being asked, would substantially increase the review's utility.
+  - **Resolution test** Expand the discussion of model limitations, including a comparative table or structured text that lists the key assumptions, strengths, and weaknesses of all-atom, HPS, Martini, and other CG approaches for IDP simulations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Section "Introduction"
+  - **Issue** The introduction assumes familiarity with terms such as "liquid–liquid phase separation" and "lower critical solution temperature" without defining them. While the target audience likely knows these terms, a brief definition would make the review more accessible to a broader readership.
+  - **Required correction** Add one-sentence definitions or parenthetical explanations for key technical terms on first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Simulations of resilin-like (poly)peptide interactions"
+  - **Evidence pointer** Section "Simulations of resilin-like (poly)peptide interactions"
+  - **Issue** The description of the study by Rekhi et al. mentions that viscosity was estimated by mean squared displacement of fluorescent tracer beads, but the relationship between MSD and viscosity is not explained. For readers unfamiliar with microrheology, this connection may not be obvious.
+  - **Required correction** Add a brief explanation of how MSD measurements relate to viscosity, or cite a review of microrheology methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section "Simulations of other IDPs"
+  - **Evidence pointer** Section "Simulations of other IDPs"
+  - **Issue** The discussion of the Mpipi model mentions correlation coefficients for Rg and Tc but does not state the number of sequences or proteins used for these correlations. This makes it difficult to judge the statistical significance of the reported agreement.
+  - **Required correction** Report the sample sizes for the correlations, or state that this information is available in the original publication.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Simulation of IDPs conjugated with ordered domains"
+  - **Evidence pointer** Section "Simulation of IDPs conjugated with ordered domains"
+  - **Issue** The description of the RLP–BFP–RLP conjugates and their assembly into 1D nanofibers and 2D ribbon-like structures is dense and would benefit from a schematic figure. Since figures are not provided, a more explicit verbal description of the proposed assembly mechanism would help.
+  - **Required correction** Add a sentence or two describing the proposed hierarchical assembly pathway in words, or refer the reader to the original figures in the cited publications.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of verifiable quantitative evidence for the central claims of simulation-experiment agreement. The review relies on qualitative descriptions of results that are presented in figures not included in the provided material. Additionally, the review does not state its literature search methodology, making it impossible to assess whether the coverage is comprehensive or selective. These issues must be addressed before the review's conclusions can be fully evaluated.
+- **Assessment against Nature-style criteria** Originality: The review does not present new data or a novel conceptual framework, but it does offer a useful synthesis of recent work in a rapidly evolving area. Scientific importance: The topic is of high importance given the growing interest in IDP-based materials and the challenges of characterizing them. Interdisciplinary readership: The review bridges simulation, biophysics, and materials science, and should appeal to readers across these fields. Technical soundness: The technical content appears accurate based on the descriptions provided, but the lack of quantitative evidence and figures limits verification. Readability for nonspecialists: The review is generally well-written and accessible, though some terms and methods could be explained more fully. Overall, the review is competent but would benefit from a more critical and quantitative treatment to meet the standards of a high-impact journal.
+- **Recommendation posture** Supportive if technical concerns are resolved. The review addresses a timely and important topic and provides a useful overview of recent work. However, the lack of quantitative evidence and the absence of figures prevent full evaluation of the claims. If the authors can provide the missing figures, add quantitative comparisons, and include a more critical discussion of method limitations, the review would be a valuable contribution.

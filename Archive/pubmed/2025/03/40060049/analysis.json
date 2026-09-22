@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40060049",
+  "title": "Optimal scaling of protein-water interactions coupled with targeted torsional refinements yields balanced force fields suitable for simulations of single-chain folded proteins, disordered polypeptides, and protein-protein complexes.",
+  "authors": "Mittal, Jeetain; Phan, Tien; Mohanty, Priyesh",
+  "journal": "Research square",
+  "published_date": "2025-03-10",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过系统优化蛋白-水相互作用和扭转参数，开发了能同时模拟折叠蛋白、无序多肽和蛋白复合物的力场，虽非AI方法但以MD物理模拟深入处理IDP构象与PPI稳定性，机制建模思路对本课题有直接借鉴价值。",
+  "abstract": "All-atom molecular dynamics (MD) simulations based on physics-based force fields, serve as an essential complement to experiments for investigating protein structure, dynamics, and interactions. Despite significant advances in force field development, achieving a consistent balance of molecular interactions that stabilize folded proteins and protein-protein complexes while simultaneously capturing the conformational dynamics of intrinsically disordered polypeptides (IDPs), remains challenging. In this work, we systematically evaluated two current state-of-the-art force fields (i) AMBER ff03ws, and (ii) AMBER ff99SBws, by comprehensively assessing their performance on both folded domains and IDPs. By selectively scaling side chain-water interactions for uncharged residues, the refined AMBER ff03w-sc force field demonstrated improved conformational stability of folded proteins while maintaining accurate representations of IDPs. However, AMBER ff03w-sc failed to correct the discrepancies in NMR-derived ps-ns timescale backbone dynamics associated with flexible loops. Interestingly, AMBER ff99SBws retained its structural stability despite the application of upscaled interactions with water for both sidechain and backbone atoms and displayed robust agreement with NMR-derived backbone dynamics. Further, a targeted refinement of glutamine backbone torsion parameters, yielded AMBER ff99SBws-STQ', which effectively resolved discrepancies associated with glutamine alpha-helicity predictions. Extensive validation against small angle X-ray scattering (SAXS) and NMR chemical shifts, revealed that both refined force fields accurately reproduced chain dimensions and secondary structure propensities of disordered peptides and prion-like domains. Importantly, both force fields reliably maintained the stability of protein-protein complexes over microsecond timescales. Our systematic refinement strategies provide improved accuracy and transferability for simulating diverse protein systems, from folded domains to IDPs and protein complexes.",
+  "abstract_zh": "基于物理力场的全原子分子动力学（MD）模拟，作为实验的重要补充，用于研究蛋白质结构、动态及相互作用。尽管力场开发取得了显著进展，但在稳定折叠蛋白质和蛋白质-蛋白质复合物的分子相互作用与同时捕捉 intrinsically disordered polypeptides (IDPs) 的构象动态之间实现一致平衡，仍具挑战性。在本工作中，我们系统评估了两种当前最先进的力场：(i) AMBER ff03ws 和 (ii) AMBER ff99SBws，通过全面评估它们在折叠结构域和 IDPs 上的表现。通过选择性缩放不带电残基的侧链-水相互作用，改进的 AMBER ff03w-sc 力场在保持 IDPs 准确表征的同时，增强了折叠蛋白质的构象稳定性。然而，AMBER ff03w-sc 未能纠正与柔性环相关的 NMR 衍生的 ps-ns 时间尺度骨架动态差异。有趣的是，AMBER ff99SBws 在应用侧链和骨架原子与水相互作用的放大后，仍保持其结构稳定性，并与 NMR 衍生的骨架动态表现出稳健的一致性。进一步，针对谷氨酰胺骨架扭转参数进行定向优化，产生了 AMBER ff99SBws-STQ'，有效解决了与谷氨酰胺 α-螺旋性预测相关的差异。通过与小角X射线散射（SAXS）和 NMR 化学位移的广泛验证，发现两种改进力场均准确再现了无序肽和朊病毒样结构域的链尺寸及二级结构倾向。重要的是，两种力场在微秒时间尺度上可靠维持了蛋白质-蛋白质复合物的稳定性。我们的系统优化策略为模拟从折叠结构域到 IDPs 及蛋白质复合物的多样化蛋白质系统，提供了更高的准确性和可转移性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40060049/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40060049/",
+  "paper_page_path": "papers/pubmed/40060049/index.html"
+}

@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "36555748",
+    "doi": "10.3390/ijms232416096",
+    "title": "In Silico Study of the Interactions of Anle138b Isomer, an Inhibitor of Amyloid Aggregation, with Partner Proteins."
+  },
+  "content": {
+    "abstract": "Herein, we aimed to highlight current \"gaps\" in the understanding of the potential interactions between the Anle138b isomer ligand, a promising agent for clinical research, and the intrinsically disordered alpha-synuclein protein. The presence of extensive unstructured areas in alpha-synuclein determines its existence in the cell of partner proteins, including the cyclophilin A chaperone, which prevents the aggregation of alpha-synuclein molecules that are destructive to cell life. Using flexible and cascaded molecular docking techniques, we aimed to expand our understanding of the molecular architecture of the protein complex between alpha-synuclein, cyclophilin A and the Anle138b isomer ligand. We demonstrated the possibility of intricate complex formation under cellular conditions and revealed that the main interactions that stabilize the complex are hydrophobic and involve hydrogen.",
+    "keywords": [
+      "Anle138b isomer",
+      "alpha-synuclein",
+      "cyclophilin A",
+      "molecular docking"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/metabolism",
+      "Molecular Docking Simulation",
+      "Ligands",
+      "*Cyclophilin A",
+      "Amyloid/metabolism",
+      "Amyloidogenic Proteins",
+      "Pyrazoles",
+      "Benzodioxoles"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kondratyev, Maxim S",
+        "Rudnev, Vladimir R",
+        "Nikolsky, Kirill S",
+        "Petrovsky, Denis V",
+        "Kulikova, Liudmila I",
+        "Malsagova, Kristina A",
+        "Stepanov, Alexander A",
+        "Kopylov, Arthur T",
+        "Kaysheva, Anna L"
+      ],
+      "short_names": [
+        "Kondratyev MS",
+        "Rudnev VR",
+        "Nikolsky KS",
+        "Petrovsky DV",
+        "Kulikova LI",
+        "Malsagova KA",
+        "Stepanov AA",
+        "Kopylov AT",
+        "Kaysheva AL"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6717-4206",
+        "ORCID: 0000-0001-9404-1660",
+        "ORCID: 0000-0002-9113-9440",
+        "ORCID: 0000-0002-7199-372X",
+        "ORCID: 0000-0003-4472-2016"
+      ],
+      "affiliations": [
+        "Institute of Cell Biophysics, Russian Academy of Sciences, 142290 Pushchino, Russia.",
+        "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia.",
+        "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia.",
+        "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia.",
+        "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia.",
+        "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia.",
+        "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia.",
+        "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia.",
+        "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kondratyev, Maxim S",
+        "short_name": "Kondratyev MS",
+        "identifiers": [
+          "0000-0001-6717-4206"
+        ],
+        "affiliations": [
+          "Institute of Cell Biophysics, Russian Academy of Sciences, 142290 Pushchino, Russia."
+        ]
+      },
+      {
+        "full_name": "Rudnev, Vladimir R",
+        "short_name": "Rudnev VR",
+        "identifiers": [],
+        "affiliations": [
+          "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Nikolsky, Kirill S",
+        "short_name": "Nikolsky KS",
+        "identifiers": [],
+        "affiliations": [
+          "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Petrovsky, Denis V",
+        "short_name": "Petrovsky DV",
+        "identifiers": [],
+        "affiliations": [
+          "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Kulikova, Liudmila I",
+        "short_name": "Kulikova LI",
+        "identifiers": [],
+        "affiliations": [
+          "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Malsagova, Kristina A",
+        "short_name": "Malsagova KA",
+        "identifiers": [
+          "0000-0001-9404-1660"
+        ],
+        "affiliations": [
+          "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Stepanov, Alexander A",
+        "short_name": "Stepanov AA",
+        "identifiers": [
+          "0000-0002-9113-9440"
+        ],
+        "affiliations": [
+          "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Kopylov, Arthur T",
+        "short_name": "Kopylov AT",
+        "identifiers": [
+          "0000-0002-7199-372X"
+        ],
+        "affiliations": [
+          "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Kaysheva, Anna L",
+        "short_name": "Kaysheva AL",
+        "identifiers": [
+          "0000-0003-4472-2016"
+        ],
+        "affiliations": [
+          "Biobanking Group, Branch of Institute of Biomedical Chemistry \"Scientific and Education Center\", 109028 Moscow, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Dec 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/24 06:00",
+    "fetched_at": "2026-09-20 17:54:17"
+  },
+  "links": {
+    "cites": [
+      "37462852"
+    ],
+    "refs": [
+      "36104315",
+      "35968137",
+      "35681426",
+      "35500536",
+      "35390347",
+      "34769310",
+      "34733860",
+      "34462738",
+      "34312398",
+      "34183676",
+      "33950214",
+      "33826483",
+      "33617693",
+      "33390129",
+      "33100054",
+      "32732936",
+      "32390826",
+      "32277934",
+      "31830361",
+      "31633065",
+      "30979084",
+      "30775459",
+      "30385782",
+      "30249646",
+      "29991596",
+      "28666710",
+      "28516008",
+      "28134587",
+      "28109332",
+      "27679481",
+      "27013960",
+      "26884195",
+      "26598349",
+      "25835573",
+      "25531225",
+      "24850022",
+      "24746362",
+      "24532726",
+      "23604588",
+      "23526723",
+      "23457019",
+      "23254192",
+      "22632969",
+      "22355802",
+      "21919503",
+      "21728990",
+      "19158505",
+      "18774805",
+      "18573080",
+      "18364713",
+      "17828561",
+      "16218947",
+      "15615727",
+      "15338272",
+      "14755719",
+      "11517324",
+      "11262981",
+      "9462735"
+    ],
+    "similar": [
+      "36555748",
+      "38711999",
+      "36232847",
+      "26028294",
+      "31417259",
+      "30452793",
+      "28759722",
+      "31111370",
+      "28906103",
+      "36104315",
+      "33269918",
+      "36499173",
+      "22274962",
+      "28238838",
+      "31945397",
+      "37037308",
+      "29704492",
+      "30743095",
+      "32972456",
+      "35849955",
+      "30216674",
+      "32584021",
+      "29715424",
+      "31695369",
+      "26119103",
+      "31034892",
+      "37242709",
+      "34982538",
+      "21376144",
+      "23604588",
+      "34450484",
+      "34684701",
+      "33247146",
+      "19759002",
+      "30098337",
+      "36252622",
+      "28460628",
+      "30814575",
+      "34380879",
+      "31861692",
+      "15236975",
+      "30917651",
+      "34636232",
+      "27916677",
+      "20620148",
+      "35667457",
+      "32959853",
+      "18005454",
+      "25869255",
+      "35144022",
+      "35670831",
+      "30315896",
+      "15035641",
+      "23723000",
+      "33352154",
+      "31306510",
+      "34046949",
+      "25784353",
+      "36252334",
+      "32170541",
+      "23637226",
+      "35657723",
+      "34860005",
+      "18691634",
+      "20132485",
+      "26601760",
+      "27808107",
+      "33862084",
+      "33979124",
+      "31894960",
+      "36008493",
+      "36500474",
+      "35276458",
+      "25557164",
+      "31165254",
+      "35681426",
+      "29886528",
+      "29621630",
+      "23790379",
+      "16962995",
+      "26477939",
+      "32078298",
+      "34871547",
+      "22260746",
+      "32202164",
+      "32183378"
+    ],
+    "review": [
+      "36555748",
+      "30743095",
+      "30216674",
+      "34450484",
+      "34380879",
+      "35144022",
+      "35670831",
+      "30315896",
+      "35681426"
+    ],
+    "pmc": [
+      "9786835"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms232416096",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36555748/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36555748",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

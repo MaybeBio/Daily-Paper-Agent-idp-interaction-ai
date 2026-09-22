@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "39486437",
+    "doi": "10.1021/acs.jpclett.4c02142",
+    "title": "Heterogeneous Slowdown of Dynamics in the Condensate of an Intrinsically Disordered Protein."
+  },
+  "content": {
+    "abstract": "The high concentration of proteins and other biological macromolecules inside biomolecular condensates leads to dense and confined environments, which can affect the dynamic ensembles and the time scales of the conformational transitions. Here, we use atomistic molecular dynamics (MD) simulations of the intrinsically disordered low complexity domain (LCD) of the human fused in sarcoma (FUS) RNA-binding protein to study how self-crowding inside a condensate affects the dynamic motions of the protein. We found a heterogeneous retardation of the protein dynamics in the condensate with respect to the dilute phase, with large-amplitude motions being strongly slowed by up to 2 orders of magnitude, whereas small-scale motions, such as local backbone fluctuations and side-chain rotations, are less affected. The results support the notion of a liquid-like character of the condensates and show that different protein motions respond differently to the environment.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Humans",
+      "*RNA-Binding Protein FUS/chemistry/metabolism",
+      "Biomolecular Condensates/chemistry",
+      "Protein Domains",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mukherjee, Saumyak",
+        "Schafer, Lars V"
+      ],
+      "short_names": [
+        "Mukherjee S",
+        "Schafer LV"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2196-3423",
+        "ORCID: 0000-0002-8498-3061"
+      ],
+      "affiliations": [
+        "Center for Theoretical Chemistry, Ruhr University Bochum, 44780 Bochum, Germany.",
+        "Center for Theoretical Chemistry, Ruhr University Bochum, 44780 Bochum, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mukherjee, Saumyak",
+        "short_name": "Mukherjee S",
+        "identifiers": [
+          "0000-0003-2196-3423"
+        ],
+        "affiliations": [
+          "Center for Theoretical Chemistry, Ruhr University Bochum, 44780 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Schäfer, Lars V",
+        "short_name": "Schäfer LV",
+        "identifiers": [
+          "0000-0002-8498-3061"
+        ],
+        "affiliations": [
+          "Center for Theoretical Chemistry, Ruhr University Bochum, 44780 Bochum, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2024 Nov 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/02 23:13",
+    "fetched_at": "2026-09-21 12:02:18"
+  },
+  "links": {
+    "cites": [
+      "42055532",
+      "41868013",
+      "40521608",
+      "40455990",
+      "39398199"
+    ],
+    "refs": [
+      "38580324",
+      "38573961",
+      "38553587",
+      "38061016",
+      "38056002",
+      "37757589",
+      "37735186",
+      "37468629",
+      "37146977",
+      "36881934",
+      "36150344",
+      "35902591",
+      "35709358",
+      "35675815",
+      "35534011",
+      "35179885",
+      "35025997",
+      "34718734",
+      "34259506",
+      "33656505",
+      "33587794",
+      "33307683",
+      "33302617",
+      "33169001",
+      "33159068",
+      "32554597",
+      "32514159",
+      "32494070",
+      "32312191",
+      "32015539",
+      "31911439",
+      "31906602",
+      "31816234",
+      "31790873",
+      "31540706",
+      "31444270",
+      "31382251",
+      "31270472",
+      "31259246",
+      "30822020",
+      "30700721",
+      "30682370",
+      "30455313",
+      "30316104",
+      "30127355",
+      "29751016",
+      "29438978",
+      "29120326",
+      "29064502",
+      "29021520",
+      "28935776",
+      "28894006",
+      "28783431",
+      "28711050",
+      "28636597",
+      "28340338",
+      "28225081",
+      "27801646",
+      "27548572",
+      "27289443",
+      "26922996",
+      "26526393",
+      "26455390",
+      "26147918",
+      "25999294",
+      "25747659",
+      "25321392",
+      "24049082",
+      "21368180",
+      "20221255",
+      "19460965",
+      "18075575",
+      "18054235",
+      "17319669",
+      "15111064",
+      "11839490",
+      "10908673",
+      "10625424"
+    ],
+    "similar": [
+      "39486437",
+      "35179885",
+      "34862761",
+      "33307683",
+      "40842365",
+      "34767801",
+      "34487489",
+      "37735186",
+      "37468629",
+      "40521608",
+      "28924037",
+      "37399327",
+      "40420812",
+      "35297101",
+      "36004748",
+      "23912807",
+      "40848932",
+      "35727989",
+      "41481439",
+      "40009520",
+      "40693919",
+      "39947751",
+      "38383656",
+      "37146977",
+      "39495179",
+      "34598583",
+      "40794831",
+      "38832749",
+      "39537752",
+      "31270472",
+      "34648275",
+      "34090478",
+      "39356108",
+      "30184304",
+      "34916288",
+      "37134270",
+      "28575444",
+      "32426986",
+      "40455990",
+      "29677513",
+      "37961424",
+      "37470705",
+      "39591652",
+      "40654645",
+      "28834051",
+      "39225535",
+      "26455390",
+      "40136009",
+      "36883003",
+      "32929427",
+      "38492239",
+      "32643734",
+      "39535884",
+      "40588121",
+      "41342450",
+      "39987501",
+      "40768359",
+      "41360394",
+      "33076213",
+      "30840442",
+      "40985078",
+      "38824391",
+      "36463772",
+      "39983022",
+      "37549257",
+      "32020911",
+      "36350032",
+      "39807013",
+      "39929988",
+      "30813315",
+      "40164149",
+      "38971830",
+      "39390911",
+      "37211763",
+      "28095698",
+      "39455581",
+      "33302617",
+      "34716273",
+      "39112465",
+      "34516126",
+      "33184287",
+      "40981365",
+      "35709363",
+      "40954121",
+      "40028898",
+      "39412378",
+      "35053240",
+      "39232584",
+      "41415473",
+      "36524527",
+      "39271032",
+      "36579699",
+      "39510346",
+      "38999934",
+      "38018910",
+      "37155880",
+      "38996511",
+      "36657879",
+      "25774711",
+      "41187075"
+    ],
+    "review": [
+      "39486437",
+      "35179885",
+      "34767801",
+      "37399327",
+      "39947751",
+      "30840442",
+      "36463772",
+      "32020911",
+      "36350032",
+      "36524527"
+    ],
+    "pmc": [
+      "11571228"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39486437/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.4c02142",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

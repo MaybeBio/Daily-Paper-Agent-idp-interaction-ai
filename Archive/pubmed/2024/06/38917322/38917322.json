@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "38917322",
+    "doi": "10.1093/nar/gkae536",
+    "title": "Refining the pool of RNA-binding domains advances the classification and prediction of RNA-binding proteins."
+  },
+  "content": {
+    "abstract": "From transcription to decay, RNA-binding proteins (RBPs) influence RNA metabolism. Using the RBP2GO database that combines proteome-wide RBP screens from 13 species, we investigated the RNA-binding features of 176 896 proteins. By compiling published lists of RNA-binding domains (RBDs) and RNA-related protein family (Rfam) IDs with lists from the InterPro database, we analyzed the distribution of the RBDs and Rfam IDs in RBPs and non-RBPs to select RBDs and Rfam IDs that were enriched in RBPs. We also explored proteins for their content in intrinsically disordered regions (IDRs) and low complexity regions (LCRs). We found a strong positive correlation between IDRs and RBDs and a co-occurrence of specific LCRs. Our bioinformatic analysis indicated that RBDs/Rfam IDs were strong indicators of the RNA-binding potential of proteins and helped predicting new RBP candidates, especially in less investigated species. By further analyzing RBPs without RBD, we predicted new RBDs that were validated by RNA-bound peptides. Finally, we created the RBP2GO composite score by combining the RBP2GO score with new quality factors linked to RBDs and Rfam IDs. Based on the RBP2GO composite score, we compiled a list of 2018 high-confidence human RBPs. The knowledge collected here was integrated into the RBP2GO database at https://RBP2GO-2-Beta.dkfz.de.",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA-Binding Proteins/metabolism/chemistry/classification/genetics",
+      "Humans",
+      "*Databases, Protein",
+      "*Protein Domains",
+      "RNA/metabolism/chemistry",
+      "Binding Sites",
+      "Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "Computational Biology/methods",
+      "Protein Binding",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wassmer, Elsa",
+        "Koppany, Gergely",
+        "Hermes, Malte",
+        "Diederichs, Sven",
+        "Caudron-Herger, Maiwen"
+      ],
+      "short_names": [
+        "Wassmer E",
+        "Koppany G",
+        "Hermes M",
+        "Diederichs S",
+        "Caudron-Herger M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7901-4752",
+        "ORCID: 0000-0002-7030-8153"
+      ],
+      "affiliations": [
+        "Research Group \"RNA-Protein Complexes & Cell Proliferation\", German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Research Group \"RNA-Protein Complexes & Cell Proliferation\", German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Research Group \"RNA-Protein Complexes & Cell Proliferation\", German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany.",
+        "Division of Cancer Research, Department of Thoracic Surgery, Medical Center - University of Freiburg, Faculty of Medicine, University of Freiburg, and German Cancer Consortium (DKTK), partner site Freiburg, a partnership between DKFZ and University Medical Center Freiburg, 79106 Freiburg, Germany.",
+        "Research Group \"RNA-Protein Complexes & Cell Proliferation\", German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wassmer, Elsa",
+        "short_name": "Wassmer E",
+        "identifiers": [],
+        "affiliations": [
+          "Research Group \"RNA-Protein Complexes & Cell Proliferation\", German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Koppány, Gergely",
+        "short_name": "Koppány G",
+        "identifiers": [],
+        "affiliations": [
+          "Research Group \"RNA-Protein Complexes & Cell Proliferation\", German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Hermes, Malte",
+        "short_name": "Hermes M",
+        "identifiers": [],
+        "affiliations": [
+          "Research Group \"RNA-Protein Complexes & Cell Proliferation\", German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Diederichs, Sven",
+        "short_name": "Diederichs S",
+        "identifiers": [
+          "0000-0001-7901-4752"
+        ],
+        "affiliations": [
+          "Division of Cancer Research, Department of Thoracic Surgery, Medical Center - University of Freiburg, Faculty of Medicine, University of Freiburg, and German Cancer Consortium (DKTK), partner site Freiburg, a partnership between DKFZ and University Medical Center Freiburg, 79106 Freiburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Caudron-Herger, Maïwen",
+        "short_name": "Caudron-Herger M",
+        "identifiers": [
+          "0000-0002-7030-8153"
+        ],
+        "affiliations": [
+          "Research Group \"RNA-Protein Complexes & Cell Proliferation\", German Cancer Research Center (DKFZ), 69120 Heidelberg, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2024 Jul 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/25 18:42",
+    "fetched_at": "2026-09-21 08:10:44"
+  },
+  "links": {
+    "cites": [
+      "42080737",
+      "41699382",
+      "41683618",
+      "41493706",
+      "41415435",
+      "41277526",
+      "40537558",
+      "40176294",
+      "40057470",
+      "39819844",
+      "39386702",
+      "39188185"
+    ],
+    "refs": [
+      "37421941",
+      "36551595",
+      "36408920",
+      "35709751",
+      "35561170",
+      "35511045",
+      "35481633",
+      "35098694",
+      "34717010",
+      "33875885",
+      "33325498",
+      "33290552",
+      "33237329",
+      "33237311",
+      "33235359",
+      "33196814",
+      "33156333",
+      "33125078",
+      "32728246",
+      "32587247",
+      "32243832",
+      "32094787",
+      "31900328",
+      "31251911",
+      "31213602",
+      "31213136",
+      "31076284",
+      "30962360",
+      "30881302",
+      "30824702",
+      "30804569",
+      "30607034",
+      "30581145",
+      "30528433",
+      "30395331",
+      "30388412",
+      "30352994",
+      "30069656",
+      "29790588",
+      "29339797",
+      "28792939",
+      "28751969",
+      "28718405",
+      "28648085",
+      "28601559",
+      "28516007",
+      "28381614",
+      "27768875",
+      "27729395",
+      "27720645",
+      "27453046",
+      "27452465",
+      "27281784",
+      "27048167",
+      "27040163",
+      "27037624",
+      "26883116",
+      "26632259",
+      "26520658",
+      "26439842",
+      "25982388",
+      "25365966",
+      "25316157",
+      "24353314",
+      "23912277",
+      "23901099",
+      "23846655",
+      "23415593",
+      "22681889",
+      "22658674",
+      "22354987",
+      "22325280",
+      "21642970",
+      "21127008",
+      "21041408",
+      "21036867",
+      "20605501",
+      "19377484",
+      "18492746",
+      "18438418",
+      "17473849",
+      "15853797",
+      "10782096",
+      "10217141"
+    ],
+    "similar": [
+      "38917322",
+      "39353735",
+      "41277526",
+      "34487791",
+      "33196814",
+      "39537752",
+      "31598693",
+      "27453046",
+      "29339797",
+      "40631955",
+      "27720645",
+      "30923827",
+      "30172766",
+      "29806170",
+      "21143803",
+      "41714637",
+      "32703884",
+      "24217996",
+      "28315749",
+      "28334975",
+      "34871434",
+      "31680457",
+      "34905768",
+      "26059946",
+      "32225071",
+      "27048167",
+      "32824743",
+      "31117939",
+      "33217949",
+      "24123256",
+      "35098694",
+      "42150060",
+      "27729395",
+      "29425497",
+      "36464283",
+      "27956239",
+      "26540053",
+      "40069726",
+      "41053545",
+      "39716381",
+      "31888461",
+      "20677174",
+      "26965268",
+      "41916609",
+      "31213602",
+      "39589885",
+      "33722631",
+      "38705823",
+      "37421941",
+      "36008992",
+      "41714110",
+      "30091184",
+      "34246632",
+      "40646507",
+      "29529991",
+      "7509757",
+      "32697992",
+      "27787828",
+      "31889261",
+      "19700370",
+      "39498484",
+      "37158175",
+      "32920048",
+      "39999571",
+      "40399037",
+      "26109352",
+      "8609610",
+      "27161996",
+      "29970003",
+      "39267376",
+      "18959479",
+      "31547849",
+      "33352065",
+      "25150170",
+      "40944448",
+      "41160875",
+      "40847540",
+      "31251911",
+      "40250958",
+      "35481633",
+      "34694603",
+      "37002329",
+      "27229125",
+      "40769718",
+      "31212691",
+      "31207240",
+      "23737738",
+      "32962543",
+      "41419011",
+      "31323206",
+      "41337585",
+      "36458437",
+      "21857109",
+      "32553192",
+      "24747191",
+      "23872922",
+      "32047888",
+      "26790343",
+      "35649392",
+      "26481498"
+    ],
+    "review": [
+      "38917322",
+      "29339797",
+      "30172766",
+      "24217996",
+      "28315749",
+      "31680457",
+      "26059946",
+      "27048167",
+      "33217949",
+      "35098694",
+      "36464283",
+      "26540053",
+      "33722631",
+      "38705823",
+      "30091184",
+      "7509757",
+      "25150170",
+      "40847540",
+      "27229125",
+      "24747191",
+      "23872922"
+    ],
+    "pmc": [
+      "11260472"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38917322/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkae536",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

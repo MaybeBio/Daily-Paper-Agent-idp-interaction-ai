@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.07.21.453232",
+  "title": "Structure insights, thermodynamic profiles, dsDNA melting activity, and liquid-liquid phase separation of the SARS-CoV-2 nucleocapsid N-terminal domain binding to DNA",
+  "authors": "Caruso IP; dos Santos Almeida V; Juliani do Amaral M; de Andrade GC; de Araújo GR; de Araújo TS; de Azevedo JM; Barbosa GM; Bartkevihi L; Bezerra PR; dos Santos Cabral KM; Lourenço IO; Malizia-Motta CLF; de Luna Marques A; Mebus-Antunes NC; Neves-Martins TC; de Sá JM; Sanches K; Santana-Silva MC; Vasconcelos AA; da Silva Almeida M; de Amorim GC; Anobom CD; Da Poian AT; Gomes-Neto F; Pinheiro AS; Almeida FCL",
+  "journal": "bioRxiv",
+  "published_date": "2021-07-22",
+  "window": {
+    "start": "2021-07-19",
+    "end": "2021-07-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究SARS-CoV-2核衣壳蛋白N端无序区域与DNA结合的结构、热力学及液-液相分离，涉及无序蛋白介导的核酸互作与凝聚体形成，但对象为蛋白-DNA而非蛋白-蛋白互作，且方法以实验为主，AI/物理模拟较弱。",
+  "abstract": "<h4>ABSTRACT</h4> The SARS-CoV-2 nucleocapsid protein (N) is a multifunctional promiscuous nucleic acid-binding protein, which plays a major role in nucleocapsid assembly and discontinuous RNA transcription, facilitating the template switch of transcriptional regulatory sequences (TRS). Here, we dissect the structural features of the N protein N-terminal domain (N-NTD), either with or without the SR-rich motif (SR), upon binding to single and double-stranded TRS DNA, as well as their activities for dsTRS melting and TRS-induced liquid-liquid phase separation (LLPS). Our study gives insights on specificity for N-NTD/N-NTD-SR interaction with TRS, including an unfavorable energetic contribution to binding along with hydrogen bonds between the triple-thymidine (TTT) motif in the dsTRS and β-sheet II due to the defined position and orientation of the DNA duplex, a well-defined pattern (ΔH > 0 and ΔS > 0 for ssTRS, and ΔH < 0 and ΔS < 0 for dsTRS) for the thermodynamic profile of binding, and a preference for TRS in the formation of liquid condensates when compared to a non-specific sequence. Moreover, our results on DNA binding may serve as a starting point for the design of inhibitors, including aptamers, against N, a possible therapeutic target essential for the virus infectivity.",
+  "abstract_zh": "<h4>摘要</h4> SARS-CoV-2核衣壳蛋白（N）是一种多功能混杂核酸结合蛋白，在核衣壳组装和不连续RNA转录中发挥重要作用，促进转录调控序列（TRS）的模板切换。本文中，我们解析了N蛋白N端结构域（N-NTD）在有或无富含SR基序（SR）的情况下，与单链和双链TRS DNA结合的结构特征，以及它们在dsTRS熔解和TRS诱导的液-液相分离（LLPS）中的活性。我们的研究揭示了N-NTD/N-NTD-SR与TRS相互作用的特异性，包括结合过程中不利的能量贡献以及dsTRS中三胸腺嘧啶（TTT）基序与β-折叠II之间的氢键，这归因于DNA双链的确定位置和取向；结合热力学谱的明确模式（ssTRS为ΔH > 0和ΔS > 0，dsTRS为ΔH < 0和ΔS < 0）；以及与非特异性序列相比，在形成液体凝聚物时对TRS的偏好性。此外，我们关于DNA结合的结果可能为设计针对N的抑制剂（包括适配体）提供起点，N是病毒传染性所必需的可能治疗靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.07.21.453232",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.07.21.453232",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.07.21.453232/index.html"
+}

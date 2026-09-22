@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2503.22300v1",
+  "title": "Bond-dependent interactions and ill-ordered state in the honeycomb cobaltate BaCo$_2$(AsO$_4$)$_2$",
+  "authors": "A. Devillez; J. Robert; E. Lhotel; R. Ballou; C. Cavenel; F. Denis Romero; Q. Faure; H. Jacobsen; J. Lass; D. G. Mazzone; U. Bengaard Hansen; M. Enderle; S. Raymond; S. De Brion; V. Simonet; M. Songvilay",
+  "journal": "",
+  "published_date": "2025-03-28",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究蜂窝状钴酸盐BaCo2(AsO4)2的磁性基态与Kitaev相互作用，对象为磁性材料而非无序蛋白，无PPI或AI/物理模拟方法用于蛋白互作，与本课题无关。",
+  "abstract": "The ground state and Hamiltonian of the honeycomb lattice material BaCo$_{2}$(AsO$_{4}$)$_{2}$ hosting magnetic Co$^{2+}$, have been debated for decades. The recent proposal for anisotropic bond-dependent interactions in such honeycomb cobaltates has raised the prospect of revisiting its Hamiltonian in the context of Kitaev physics. To test this hypothesis, we have combined magnetization, ac-susceptibility and neutron scattering measurements on a BaCo$_{2}$(AsO$_{4}$)$_{2}$ single-crystal, together with advanced modeling. Our experimental results highlight a collinear magnetic ground state with intrinsic disorder associated to an average incommensurate propagation vector. Monte Carlo simulations and linear spin wave calculations were performed to obtain a spin model compatible with this unusual ground state, the dispersion of magnetic excitations and a magnetization plateau under magnetic field. We thus show that bond-dependent anisotropic interactions, including Kitaev-like interactions, are necessary to account for the puzzling properties of this long-explored material, and are hence a general ingredient in the cobaltates.",
+  "abstract_zh": "蜂窝晶格材料BaCo$_{2}$(AsO$_{4}$)$_{2}$中承载磁性Co$^{2+}$的基态和哈密顿量已争论数十年。最近关于此类蜂窝钴酸盐中各向异性键依赖相互作用的提议，提出了在Kitaev物理背景下重新审视其哈密顿量的可能性。为验证这一假设，我们结合了BaCo$_{2}$(AsO$_{4}$)$_{2}$单晶的磁化强度、交流磁化率和中子散射测量，以及先进建模。我们的实验结果表明，存在一个共线磁基态，并伴有与平均非公度传播矢量相关的内在无序。进行了蒙特卡洛模拟和线性自旋波计算，以获得与该异常基态、磁激发色散以及磁场下磁化平台兼容的自旋模型。因此，我们表明，包括类Kitaev相互作用在内的键依赖各向异性相互作用，对于解释这一长期探索材料的令人困惑的性质是必要的，并且因此是钴酸盐中的一般要素。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2503.22300v1",
+  "source_url": "https://arxiv.org/abs/2503.22300v1",
+  "paper_page_path": "papers/arxiv/2503.22300v1/index.html"
+}

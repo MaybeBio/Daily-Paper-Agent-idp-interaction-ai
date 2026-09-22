@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40577786",
+  "title": "FusionEncoder: identification of intrinsically disordered regions based on multi-feature fusion.",
+  "authors": "Liu, Sicen; Chen, Shutao; Bai, Tao; Liu, Bin",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2025-06-27",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 5,
+  "one_liner_zh": "提出基于LSTM与Transformer融合传统生物特征和蛋白质语言模型特征的IDR预测方法，对象为无序区域但无PPI/互作机制建模，方法为AI预测，属对象相关但互作轴缺失。",
+  "abstract": "MOTIVATION: Intrinsic disorder regions (IDRs) play a significant role in diverse biological processes and are widely distributed in proteins. Thus, accurately predicting these regions is essential for analyzing protein structure and function. Amino acid feature extraction servers as a foundational process in the development of computational predictive models. Existing methods typically rely on traditional biological features (e.g. PSSM) or use pre-trained protein language models (PPLMs) to capture sequence semantic information, often resorting to straightforward feature concatenation. However, these approaches fail to capture the multi-semantic interactions between traditional biological features and PPLMs-based features. RESULTS: In this study, we propose a method named FusionEncoder designed for the integration of traditional biological and PPLMs-based features of the protein. FusionEncoder is a fusion network built on a variant of long short-term memory (LSTM). We consider traditional biological features and PPLMs-based features to be two types of semantic inputs within a \"multi-semantic\" space. Traditional features are input into the cell state of the LSTM, while PPLMs-based features are fed into the input part. A fusion cell is then utilized to fuse these two types of features. This strategy leverages the capability of LSTM to encode long sequences, enhancing context-aware semantic learning of amino acid sequences. Finally, a transformer-based encoder layer is employed to predict the IDRs. Evaluation on four independent test datasets indicate that FusionEncoder obviously improves the accuracy of amino acid feature representation and achieves superior performance compared to the other existing methods. AVAILABILITY AND IMPLEMENTATION: To facilitate accessibility for experimental researchers, a user-friendly and publicly available webserver for the FusionEncoder predictor has been deployed at http://bliulab.net/FusionEncoder/. FusionEncoder is expected to serve as a valuable tool for the accurate identification of IDRs.",
+  "abstract_zh": "动机：内在无序区域（IDRs）在多种生物过程中扮演重要角色，并广泛分布于蛋白质中。因此，准确预测这些区域对于分析蛋白质结构和功能至关重要。氨基酸特征提取是开发计算预测模型的基础过程。现有方法通常依赖传统生物特征（如PSSM）或使用预训练蛋白质语言模型（PPLMs）来捕获序列语义信息，往往采用简单的特征拼接方式。然而，这些方法未能捕捉传统生物特征与基于PPLMs的特征之间的多语义交互。结果：在本研究中，我们提出了一种名为FusionEncoder的方法，旨在整合蛋白质的传统生物特征和基于PPLMs的特征。FusionEncoder是一种基于长短期记忆（LSTM）变体构建的融合网络。我们将传统生物特征和基于PPLMs的特征视为“多语义”空间中的两种语义输入。传统特征被输入到LSTM的细胞状态中，而基于PPLMs的特征则被馈送到输入部分。随后，利用融合细胞对这两类特征进行融合。该策略利用了LSTM编码长序列的能力，增强了氨基酸序列的上下文感知语义学习。最后，采用基于Transformer的编码器层来预测IDRs。在四个独立测试数据集上的评估表明，FusionEncoder明显提高了氨基酸特征表示的准确性，并相较于其他现有方法实现了更优的性能。可用性与实现：为便于实验研究人员访问，FusionEncoder预测器已部署于一个用户友好且公开可用的网络服务器，网址为http://bliulab.net/FusionEncoder/。预计FusionEncoder将成为准确识别IDRs的有价值工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40577786/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40577786/",
+  "paper_page_path": "papers/pubmed/40577786/index.html"
+}

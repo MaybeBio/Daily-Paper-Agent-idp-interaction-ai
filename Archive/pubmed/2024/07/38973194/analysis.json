@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38973194",
+  "title": "Phase Separation and Aggregation of alpha-Synuclein Diverge at Different Salt Conditions.",
+  "authors": "Sternke-Hoffmann, Rebecca; Sun, Xun; Menzel, Andreas; Pinto, Miriam Dos Santos; Venclovaite, Urte; Wordehoff, Michael; Hoyer, Wolfgang; Zheng, Wenwei; Luo, Jinghui",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2024-07-08",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过实验扫描不同盐浓度下α-突触核蛋白的相分离与聚集行为，揭示其盐依赖性差异及两种组装状态的动态转化，虽为纯实验且无AI/物理模拟方法，但聚焦IDP的相分离与聚集互作机制，对本课题的机制建模有参考价值。",
+  "abstract": "The coacervation of alpha-synuclein (alphaSyn) into cytotoxic oligomers and amyloid fibrils are considered pathological hallmarks of Parkinson's disease. While aggregation is central to amyloid diseases, liquid-liquid phase separation (LLPS) and its interplay with aggregation have gained increasing interest. Previous work shows that factors promoting or inhibiting aggregation have similar effects on LLPS. This study provides a detailed scanning of a wide range of parameters, including protein, salt and crowding concentrations at multiple pH values, revealing different salt dependencies of aggregation and LLPS. The influence of salt on aggregation under crowding conditions follows a non-monotonic pattern, showing increased effects at medium salt concentrations. This behavior can be elucidated through a combination of electrostatic screening and salting-out effects on the intramolecular interactions between the N-terminal and C-terminal regions of alphaSyn. By contrast, this study finds a monotonic salt dependence of LLPS due to intermolecular interactions. Furthermore, it observes time evolution of the two distinct assembly states, with macroscopic fibrillar-like bundles initially forming at medium salt concentration but subsequently converting into droplets after prolonged incubation. The droplet state is therefore capable of inhibiting aggregation or even dissolving aggregates through heterotypic interactions, thus preventing alphaSyn from its dynamically arrested state.",
+  "abstract_zh": "α-突触核蛋白（alphaSyn）凝聚成细胞毒性寡聚体和淀粉样原纤维被认为是帕金森病的病理标志。虽然聚集是淀粉样疾病的核心，但液-液相分离（LLPS）及其与聚集的相互作用日益受到关注。先前研究表明，促进或抑制聚集的因素对LLPS具有类似效应。本研究对多种参数进行了详细扫描，包括蛋白质、盐和拥挤剂浓度在不同pH值下的变化，揭示了聚集和LLPS对盐依赖性的差异。在拥挤条件下，盐对聚集的影响呈非单调模式，在中等盐浓度下效应增强。这种行为可通过静电屏蔽和盐析效应对alphaSyn N端与C端区域间分子内相互作用的综合影响来阐明。相比之下，本研究发现LLPS因分子间相互作用而呈现单调的盐依赖性。此外，研究观察到两种不同组装状态的时间演化，宏观纤维样束最初在中等盐浓度下形成，但长时间孵育后转化为液滴。因此，液滴状态能够通过异型相互作用抑制聚集甚至溶解聚集体，从而防止alphaSyn进入动态停滞状态。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38973194/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38973194/",
+  "paper_page_path": "papers/pubmed/38973194/index.html"
+}

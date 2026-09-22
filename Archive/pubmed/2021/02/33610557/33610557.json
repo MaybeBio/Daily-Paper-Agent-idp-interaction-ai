@@ -1,0 +1,482 @@
+{
+  "identity": {
+    "pmid": "33610557",
+    "doi": "10.1016/j.jmb.2021.166878",
+    "title": "Brazilin Removes Toxic Alpha-Synuclein and Seeding Competent Assemblies from Parkinson Brain by Altering Conformational Equilibrium."
+  },
+  "content": {
+    "abstract": "Alpha-synuclein (alpha-syn) fibrils, a major constituent of the neurotoxic Lewy Bodies in Parkinson's disease, form via nucleation dependent polymerization and can replicate by a seeding mechanism. Brazilin, a small molecule derived from red cedarwood trees in Brazil, has been shown to inhibit the fibrillogenesis of amyloid-beta (Abeta) and alpha-syn as well as remodel mature fibrils and reduce cytotoxicity. Here we test the effects of Brazilin on both seeded and unseeded alpha-syn fibril formation and show that the natural polyphenol inhibits fibrillogenesis of alpha-syn by a unique mechanism that alters conformational equilibria in two separate points of the assembly mechanism: Brazilin preserves the natively unfolded state of alpha-syn by specifically binding to the compact conformation of the alpha-syn monomer. Brazilin also eliminates seeding competence of alpha-syn assemblies from Parkinson's disease patient brain tissue, and reduces toxicity of pre-formed assemblies in primary neurons by inducing the formation of large fibril clusters. Molecular docking of Brazilin shows the molecule to interact both with unfolded alpha-syn monomers and with the cross-beta sheet structure of alpha-syn fibrils. Our findings suggest that Brazilin has substantial potential as a neuroprotective and therapeutic agent for Parkinson's disease.",
+    "keywords": [
+      "Amyloid",
+      "Molecular Modelling",
+      "Neurdegeneration",
+      "Parkinson's disease",
+      "Polyphenol"
+    ],
+    "mesh_terms": [
+      "Amyloid/metabolism",
+      "Amyloid beta-Peptides/metabolism",
+      "Animals",
+      "Benzopyrans/*chemistry/*pharmacology",
+      "Brain/*metabolism",
+      "Humans",
+      "Mice",
+      "Molecular Conformation",
+      "Molecular Docking Simulation",
+      "Neurons",
+      "Parkinson Disease/*metabolism",
+      "alpha-Synuclein/*chemistry/*metabolism/toxicity"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nahass, George R",
+        "Sun, Yuanzi",
+        "Xu, Yong",
+        "Batchelor, Mark",
+        "Reilly, Madeleine",
+        "Benilova, Iryna",
+        "Kedia, Niraja",
+        "Spehar, Kevin",
+        "Sobott, Frank",
+        "Sessions, Richard B",
+        "Caughey, Byron",
+        "Radford, Sheena E",
+        "Jat, Parmjit S",
+        "Collinge, John",
+        "Bieschke, Jan"
+      ],
+      "short_names": [
+        "Nahass GR",
+        "Sun Y",
+        "Xu Y",
+        "Batchelor M",
+        "Reilly M",
+        "Benilova I",
+        "Kedia N",
+        "Spehar K",
+        "Sobott F",
+        "Sessions RB",
+        "Caughey B",
+        "Radford SE",
+        "Jat PS",
+        "Collinge J",
+        "Bieschke J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Colorado College, Colorado Springs, CO, USA; Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK; Washington University in St. Louis, St Louis, MO, USA; Rocky Mountain Laboratories, NIAID, NIH, Hamilton, MT, USA.",
+        "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK.",
+        "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, University of Leeds, Leeds LS2 9JT, UK.",
+        "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK.",
+        "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK.",
+        "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK.",
+        "Washington University in St. Louis, St Louis, MO, USA.",
+        "Washington University in St. Louis, St Louis, MO, USA.",
+        "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, University of Leeds, Leeds LS2 9JT, UK.",
+        "Biomedical Sciences Building, University Walk, Bristol BS8 1TD, UK.",
+        "Rocky Mountain Laboratories, NIAID, NIH, Hamilton, MT, USA.",
+        "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, University of Leeds, Leeds LS2 9JT, UK.",
+        "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK.",
+        "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK.",
+        "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK; Washington University in St. Louis, St Louis, MO, USA. Electronic address: j.bieschke@ucl.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nahass, George R",
+        "short_name": "Nahass GR",
+        "identifiers": [],
+        "affiliations": [
+          "Colorado College, Colorado Springs, CO, USA; Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK; Washington University in St. Louis, St Louis, MO, USA; Rocky Mountain Laboratories, NIAID, NIH, Hamilton, MT, USA."
+        ]
+      },
+      {
+        "full_name": "Sun, Yuanzi",
+        "short_name": "Sun Y",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Xu, Yong",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, University of Leeds, Leeds LS2 9JT, UK."
+        ]
+      },
+      {
+        "full_name": "Batchelor, Mark",
+        "short_name": "Batchelor M",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Reilly, Madeleine",
+        "short_name": "Reilly M",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Benilova, Iryna",
+        "short_name": "Benilova I",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Kedia, Niraja",
+        "short_name": "Kedia N",
+        "identifiers": [],
+        "affiliations": [
+          "Washington University in St. Louis, St Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Spehar, Kevin",
+        "short_name": "Spehar K",
+        "identifiers": [],
+        "affiliations": [
+          "Washington University in St. Louis, St Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Sobott, Frank",
+        "short_name": "Sobott F",
+        "identifiers": [],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, University of Leeds, Leeds LS2 9JT, UK."
+        ]
+      },
+      {
+        "full_name": "Sessions, Richard B",
+        "short_name": "Sessions RB",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Sciences Building, University Walk, Bristol BS8 1TD, UK."
+        ]
+      },
+      {
+        "full_name": "Caughey, Byron",
+        "short_name": "Caughey B",
+        "identifiers": [],
+        "affiliations": [
+          "Rocky Mountain Laboratories, NIAID, NIH, Hamilton, MT, USA."
+        ]
+      },
+      {
+        "full_name": "Radford, Sheena E",
+        "short_name": "Radford SE",
+        "identifiers": [],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, University of Leeds, Leeds LS2 9JT, UK."
+        ]
+      },
+      {
+        "full_name": "Jat, Parmjit S",
+        "short_name": "Jat PS",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Collinge, John",
+        "short_name": "Collinge J",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK."
+        ]
+      },
+      {
+        "full_name": "Bieschke, Jan",
+        "short_name": "Bieschke J",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Council Prion Unit / UCL Institute of Prion Diseases, University College London, London, UK; Washington University in St. Louis, St Louis, MO, USA. Electronic address: j.bieschke@ucl.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2021 Apr 16",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/02/22 06:00",
+    "fetched_at": "2026-09-20 01:42:20"
+  },
+  "links": {
+    "cites": [
+      "41683750",
+      "40305223",
+      "38591917",
+      "37002248",
+      "35975807",
+      "35414105"
+    ],
+    "refs": [
+      "32499486",
+      "31575115",
+      "31371504",
+      "31001578",
+      "30341601",
+      "30197194",
+      "30038334",
+      "29992960",
+      "29978862",
+      "29422107",
+      "27467405",
+      "27458018",
+      "27353564",
+      "26799377",
+      "26723627",
+      "26666838",
+      "26647156",
+      "25972727",
+      "25816357",
+      "25784353",
+      "25732184",
+      "25613018",
+      "25436420",
+      "25406896",
+      "24095700",
+      "23817832",
+      "23777611",
+      "23670234",
+      "23303567",
+      "22573613",
+      "22133042",
+      "22101602",
+      "22024360",
+      "21443877",
+      "21120859",
+      "20798282",
+      "20511235",
+      "20412383",
+      "20408171",
+      "20385841",
+      "20308987",
+      "19645507",
+      "19603484",
+      "19088715",
+      "18550842",
+      "18511942",
+      "18366183",
+      "17714865",
+      "17617226",
+      "17284452",
+      "16681381",
+      "16492146",
+      "15794636",
+      "15297610",
+      "15116359",
+      "12217698",
+      "12124613",
+      "11707429",
+      "11701929",
+      "11553618",
+      "11276088",
+      "10704204",
+      "10639120",
+      "10507030",
+      "9809558",
+      "9242912"
+    ],
+    "similar": [
+      "33610557",
+      "31575115",
+      "25613018",
+      "34172566",
+      "30917654",
+      "36373662",
+      "30769283",
+      "40763859",
+      "32971232",
+      "25937088",
+      "28386933",
+      "39264814",
+      "37741548",
+      "34146705",
+      "35390347",
+      "32424162",
+      "26061766",
+      "29866153",
+      "32365408",
+      "29487216",
+      "38056304",
+      "31939603",
+      "31142553",
+      "31427526",
+      "23339399",
+      "35353605",
+      "35327628",
+      "41575853",
+      "27982082",
+      "38499535",
+      "32737160",
+      "10704204",
+      "37433401",
+      "41162400",
+      "35561861",
+      "40339505",
+      "30277753",
+      "30366065",
+      "40015369",
+      "26479553",
+      "32069013",
+      "34684701",
+      "19711118",
+      "36830639",
+      "26839406",
+      "31759806",
+      "36871760",
+      "29608598",
+      "30093536",
+      "41067404",
+      "31925956",
+      "19892735",
+      "40610077",
+      "33997868",
+      "36966976",
+      "32013170",
+      "16162499",
+      "28467708",
+      "37198991",
+      "29851342",
+      "36823759",
+      "36513068",
+      "37466885",
+      "30478174",
+      "32143619",
+      "32868414",
+      "26972727",
+      "31092553",
+      "39694308",
+      "39584804",
+      "39762762",
+      "26272943",
+      "28373279",
+      "42276304",
+      "33903234",
+      "18769546",
+      "26799377",
+      "40320462",
+      "31140178",
+      "41830769",
+      "26099047",
+      "33713002",
+      "16947080",
+      "33798579",
+      "31643109",
+      "38347213",
+      "26138444",
+      "34205249",
+      "39977508",
+      "36757890",
+      "34043188",
+      "30290273",
+      "17456777",
+      "35041853",
+      "22843682",
+      "36348612",
+      "33352154",
+      "29364151",
+      "36961221",
+      "32350746"
+    ],
+    "review": [
+      "33610557",
+      "36373662",
+      "19711118",
+      "41067404",
+      "40610077",
+      "36966976",
+      "37198991",
+      "26972727",
+      "31140178"
+    ],
+    "pmc": [
+      "7610480"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(21)00072-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33610557/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33610557",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33610557",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/172514/",
+        "provider": "White Rose Research Online",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

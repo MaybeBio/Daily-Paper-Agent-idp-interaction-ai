@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38328089",
+  "title": "Measurement of solubility product in a model condensate reveals the interplay of small oligomerization and self-association.",
+  "authors": "Chattaraj, Aniruddha; Baltaci, Zeynep; Mayer, Bruce J; Loew, Leslie M; Ditlev, Jonathon A",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-02-08",
+  "window": {
+    "start": "2024-02-05",
+    "end": "2024-02-11"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过实验与计算结合，在模型凝聚体系统中验证溶解度积作为相分离预测参数，并揭示小寡聚体与同型弱相互作用对相分离的影响，虽对象为设计蛋白而非天然IDP，但其对多价异型PPI介导相分离的机制建模思路对本课题有直接启发。",
+  "abstract": "Cellular condensates often consist of 10s to 100s of distinct interacting molecular species. Because of the complexity of these interactions, predicting the point at which they will undergo phase separation into discrete compartments is daunting. Using experiments and computation, we therefore studied a simple model system consisting of 2 proteins, polySH3 and polyPRM, designed for pentavalent heterotypic binding. We tested whether the peak solubility product, the product of dilute phase monomer concentrations, is a predictive parameter for the onset of phase separation. Titrating up equal total concentrations of each component showed that the maximum solubility product does approximately coincide with the threshold for phase separation in both the experiments and models. However, we found that measurements of dilute phase concentration include contributions from small oligomers, not just monomers; therefore, a quantitative comparison of the experiments and models required inclusion of small oligomers in the model analysis. We also examined full phase diagrams where the model results were almost symmetric along the diagonal, but the experimental results were highly asymmetric. This led us to perform dynamic light scattering experiments, where we discovered a weak homotypic interaction for polyPRM; when this was added to the computational model, it was able to recapitulate the experimentally observed asymmetry. Thus, comparing experiments to simulation reveals that the solubility product can be predictive of phase separation, even if small oligomers and low affinity homotypic interactions preclude experimental measurement of monomer concentration.",
+  "abstract_zh": "细胞凝聚体通常由数十到数百种不同的相互作用分子种类组成。由于这些相互作用的复杂性，预测它们何时会发生相分离形成离散区室是一项艰巨的任务。因此，我们通过实验和计算研究了一个简单的模型系统，该系统由两种蛋白质——polySH3和polyPRM——组成，设计用于五价异型结合。我们测试了峰值溶解度积，即稀相单体浓度的乘积，是否可作为相分离起始的预测参数。通过等量滴定各组分的总浓度，实验和模型均显示最大溶解度积大致与相分离阈值吻合。然而，我们发现稀相浓度的测量包含小寡聚体的贡献，而不仅仅是单体；因此，实验与模型的定量比较需要在模型分析中纳入小寡聚体。我们还检查了完整相图，其中模型结果沿对角线几乎对称，但实验结果高度不对称。这促使我们进行动态光散射实验，发现polyPRM存在弱同型相互作用；当将此加入计算模型后，模型能够重现实验观察到的非对称性。因此，将实验与模拟进行比较揭示，即使小寡聚体和低亲和力同型相互作用妨碍了单体浓度的实验测量，溶解度积仍可预测相分离。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38328089/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38328089/",
+  "paper_page_path": "papers/pubmed/38328089/index.html"
+}

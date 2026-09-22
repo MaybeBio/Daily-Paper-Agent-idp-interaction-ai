@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40816076",
+  "title": "Synergistic modulation of myofibrillar protein self-assembly in aqueous systems via nonenzymatic glycation and amino acid supplementation.",
+  "authors": "Huang, Yuxin; Xu, Xinyao; Guo, Xiaoming; Kong, Baohua; Guo, Zengwang; Liu, Haotian; Wang, Zhongjiang",
+  "journal": "Food chemistry",
+  "published_date": "2025-08-16",
+  "window": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究肌原纤维蛋白在糖基化与氨基酸补充下的自组装调控，对象为食品蛋白而非无序蛋白/IDR，无PPI机制建模或AI/物理模拟方法，仅涉及实验表征与简单模拟，与本课题关联微弱。",
+  "abstract": "This study systematically investigated the synergistic effects of l-glutamic acid, l-proline, and l-lysine on the self-assembly behavior of myofibrillar proteins (MPs) in aqueous systems when combined with non-enzymatic glycation reactions. Results revealed that glycation with amino acid supplementation effectively inhibited MP self-assembly, with l-glutamic acid and l-lysine showing the strongest impact, increasing MP water solubility to 50.83 % and 42.03 %, respectively, while ensuring stable dispersion (P < 0.05). Structural and micromorphological analyses showed that l-glutamic acid and l-lysine boosted electrostatic repulsion in myosin, significantly lowering alpha-helix content and particle size (P < 0.05), causing a loose, disordered protein structure. This facilitated dextran-myosin interactions, further inhibiting assembly via steric hindrance. Conversely, l-proline limited dextran's inhibitory effect by forming unique protein aggregates. Self-assembly simulations confirmed these findings. Overall, combining amino acid supplementation with glycation offers a promising approach for controlling MP assembly, with potential for innovative meat protein-based products.",
+  "abstract_zh": "本研究系统探讨了L-谷氨酸、L-脯氨酸和L-赖氨酸在非酶糖化反应协同作用下，对水相体系中肌原纤维蛋白（MPs）自组装行为的影响。结果表明，添加氨基酸的糖化处理有效抑制了MP自组装，其中L-谷氨酸和L-赖氨酸作用最强，分别将MP水溶性提高至50.83%和42.03%，同时确保分散稳定性（P < 0.05）。结构和微观形态分析显示，L-谷氨酸和L-赖氨酸增强了肌球蛋白中的静电排斥力，显著降低α-螺旋含量和粒径（P < 0.05），导致蛋白质结构松散无序。这促进了葡聚糖-肌球蛋白相互作用，通过空间位阻进一步抑制组装。相反，L-脯氨酸通过形成独特的蛋白质聚集体，限制了葡聚糖的抑制作用。自组装模拟证实了这些发现。总体而言，将氨基酸补充与糖化相结合，为控制MP组装提供了一种有前景的方法，并有望用于创新肉蛋白基产品的开发。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40816076/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40816076/",
+  "paper_page_path": "papers/pubmed/40816076/index.html"
+}

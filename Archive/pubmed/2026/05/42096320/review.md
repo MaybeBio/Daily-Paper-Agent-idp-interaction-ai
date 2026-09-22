@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or data tables were available for evaluation
+- **Shared manuscript claim summary** The authors report that acetylation of the N-terminal histone H3 peptide inhibits liquid-liquid phase separation (LLPS) with nucleosomal-linker DNA in a model system, and that the inhibitory effect is stronger when acetylation occurs near the peptide terminus than near the center. They attribute this position-dependent effect to multiple factors, including DNA thermal stability, hydrophobic effects, and charge distribution, which together promote intercomplex network formation. They further suggest implications for chromatin biology and for site-specific chemical modulation of LLPS.
+- **Visible evidence base** Abstract text only; no experimental methods, simulation details, quantitative results, or figure/table references were provided
+- **Missing materials affecting confidence** Full manuscript, experimental protocols, MD simulation parameters, quantitative phase diagrams, statistical analyses, and all primary data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation regarding the position-dependent effect of histone acetylation on LLPS. However, the current evidence base is insufficient to evaluate the robustness of the claims. The mechanistic interpretation is plausible but underspecified, and the broader implications are stated without direct support. The work may be of interest to the chromatin and biomolecular condensate communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying chromatin organization, histone post-translational modifications, and biomolecular phase separation would be interested. The finding that acetylation site position modulates LLPS could inform mechanistic models of chromatin condensation and may attract attention from those developing synthetic or biomimetic condensate systems.
+- **Major strengths** The study addresses a timely and important question regarding how the position of a chemical modification, rather than its mere presence, influences phase behavior. The combination of experimental and MD simulation approaches is appropriate for probing mechanistic origins. The potential for site-specific modulation of LLPS is a conceptually valuable direction.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that acetylation near the H3 peptide end more strongly inhibits LLPS than acetylation near the center is presented as a central finding.  
+  - **Evidence pointer** Abstract only; no quantitative data or figure references provided  
+  - **Concern** The abstract does not provide any quantitative measure of LLPS inhibition, such as saturation concentrations, turbidity values, or droplet counts, nor does it indicate the magnitude of the position-dependent difference. Without these data, the strength and reproducibility of the effect cannot be assessed.  
+  - **Why it matters** A central quantitative claim requires quantitative support. The absence of any numerical evidence prevents evaluation of effect size, statistical significance, and biological relevance.  
+  - **Resolution test** Provide quantitative phase behavior data, including error estimates and statistical comparisons across acetylation positions, in the full manuscript.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The claim that the phenomenon arises from differences in DNA thermal stability, hydrophobic effects, and charge distribution, which together promote intercomplex network formation.  
+  - **Evidence pointer** Abstract only; no experimental or simulation data shown  
+  - **Concern** The mechanistic explanation is presented as a conclusion, but no evidence is visible to support the individual contributions of each factor or their integration into a coherent mechanism. It is unclear how these factors were measured or perturbed, and whether the MD simulations directly tested the proposed network formation.  
+  - **Why it matters** A multi-factor mechanistic claim requires explicit evidence for each factor and for their causal relationship to the observed phase behavior. Without this, the mechanism remains speculative.  
+  - **Resolution test** Present data from controlled experiments or simulations that isolate each factor, and show how their combination quantitatively explains the position-dependent inhibition.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scope of implications  
+  - **Claim pointer** The claim that the findings link LLPS-mediated chromatin condensation to biological phenomena depending on acetylation sites and suggest novel avenues for site-specific chemical modulation.  
+  - **Evidence pointer** Abstract only; no biological context or application data provided  
+  - **Concern** The abstract extends the findings to chromatin biology and biotechnological applications without presenting any data connecting the model system to cellular or in vivo contexts. The relevance of the synthetic peptide and DNA system to native chromatin is not established.  
+  - **Why it matters** Overreach beyond the demonstrated system weakens the manuscript's impact and may mislead readers about the direct biological applicability of the results.  
+  - **Resolution test** Either temper the claims to the model system or provide additional data linking the findings to biological contexts, such as experiments with native chromatin or cellular assays.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The term "nucleosomal-linker DNA" is used without definition or context, which may confuse readers unfamiliar with the specific model system.  
+  - **Required correction** Define the DNA construct used and clarify its relationship to native nucleosomal linker DNA.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Experimental conditions  
+  - **Evidence pointer** Abstract, methods not described  
+  - **Issue** No information is given on buffer conditions, salt concentration, temperature, or peptide and DNA concentrations, all of which critically affect LLPS.  
+  - **Required correction** Include key experimental conditions in the abstract or ensure they are prominently described in the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Simulation details  
+  - **Evidence pointer** Abstract, MD simulations mentioned  
+  - **Issue** The abstract mentions MD simulations but provides no indication of the simulation length, force field, or system size, which are essential for evaluating the reliability of the computational results.  
+  - **Required correction** Summarize key simulation parameters in the abstract or refer to a methods section with full details.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central quantitative claim and the mechanistic interpretation require direct evidence that is not visible in the abstract. Without these, the case for the position-dependent effect and its proposed origin is not established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of position-dependent PTM effects on LLPS is a fresh angle within a rapidly growing field. The idea itself is not entirely novel, as position effects of modifications are known in other contexts, but its application to histone acetylation and LLPS is a reasonable extension.  
+  - **Scientific importance** If the quantitative and mechanistic claims hold, the work could contribute meaningfully to understanding how specific acetylation patterns modulate chromatin condensation. The importance is moderate, as the model system may not directly reflect native chromatin behavior.  
+  - **Interdisciplinary readership** The topic bridges chromatin biology, biophysics, and soft matter science, which could attract a broad readership. However, the abstract does not currently make the interdisciplinary relevance sufficiently accessible.  
+  - **Technical soundness** Cannot be assessed from the abstract. The combination of experiments and simulations is appropriate in principle, but no technical details are available to judge the quality of either component.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses field-specific terms without explanation. The mechanistic description is dense and would benefit from simplification for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible mechanism, but the absence of quantitative data and mechanistic evidence prevents a supportive recommendation. If the full manuscript provides robust experimental and simulation data that substantiate the claims, the work could become publishable in a high-impact venue, but this cannot be determined from the abstract alone.
+
+## Risk / unsupported claims
+- The quantitative claim that acetylation near the terminus inhibits LLPS more strongly than near the center is unsupported by any numerical data in the abstract.
+- The mechanistic claim involving DNA thermal stability, hydrophobic effects, and charge distribution is unsupported by visible evidence.
+- The claim that the findings link to biological phenomena depending on acetylation sites is unsupported by any biological data.
+- The suggestion of novel avenues for site-specific chemical modulation is speculative and not backed by application-oriented evidence.

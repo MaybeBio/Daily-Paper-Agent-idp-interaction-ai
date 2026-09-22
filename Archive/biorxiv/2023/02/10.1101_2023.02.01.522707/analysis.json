@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.01.522707",
+  "title": "Systematic identification of structure-specific protein–protein interactions",
+  "authors": "Holfeld A; Schuster D; Sesterhenn F; Stalder P; Haenseler W; Barrio-Hernandez I; Ghosh D; Vowles J; Cowley SA; Nagel L; Khanppnavar B; Beltrao P; Korkhov VM; Riek R; Souza Nd; Picotti P",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-03",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用LiP-MS实验方法系统鉴定结构特异性蛋白互作，对象涉及α-突触核蛋白单体/淀粉样纤维等无序相关状态，但方法为实验而非AI/物理模拟，机制建模深度有限。",
+  "abstract": "Protein–protein interactions (PPIs) mediate numerous essential functions and regulatory events in living organisms. The physical interactome of a protein can be abnormally altered in response to external and internal cues, thus modulating cell physiology and contributing to human disease. In particular, neurodegenerative diseases due to the accumulation of aberrantly folded and aggregated proteins may lead to alterations in protein interactomes. Identifying changes in the interactomes of normal and disease states of proteins could help to understand molecular disease mechanisms, but current interactomics methods are limited in the ability to pinpoint structure-specific PPIs and their interaction interfaces on a proteome-wide scale. Here, we adapted limited proteolysis–mass spectrometry (LiP–MS) to systematically identify putative structure-specific PPIs by probing protein structural alterations within cellular extracts upon treatment with specific structural states of a given protein. We demonstrate the feasibility of our method to detect well-characterized PPIs, including antibody–target protein interactions and interactions with membrane proteins, and show that it pinpoints PPI interfaces. We then applied the LiP–MS approach to study the structure-specific interactors of the Parkinson’s disease hallmark protein alpha-synuclein (aSyn). We identified several previously known interactors of both aSyn monomer and amyloid fibrils and provide a resource of novel putative structure-specific interactors for further studies. This approach is applicable to identify structure-specific interactomes of any protein, including posttranslationally modified and unmodified, or metabolite-bound and unbound structural states of proteins.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）介导了生物体中众多基本功能和调控事件。蛋白质的物理相互作用组可因外部和内部信号而异常改变，从而调节细胞生理并参与人类疾病的发生。特别是，由异常折叠和聚集蛋白积累导致的神经退行性疾病可能引起蛋白质相互作用组的改变。识别正常与疾病状态下蛋白质相互作用组的变化有助于理解分子疾病机制，但当前相互作用组学方法在蛋白质组-wide尺度上精确定位结构特异性PPIs及其相互作用界面方面能力有限。在此，我们改进了有限蛋白水解-质谱法（LiP–MS），通过探测细胞提取物中特定蛋白质结构状态处理后的蛋白质结构变化，系统性地识别推定的结构特异性PPIs。我们证明了该方法检测已充分表征的PPIs（包括抗体-靶蛋白相互作用及与膜蛋白的相互作用）的可行性，并显示其能精确定位PPI界面。随后，我们应用LiP–MS方法研究帕金森病标志性蛋白α-突触核蛋白（aSyn）的结构特异性相互作用因子。我们识别了aSyn单体及淀粉样纤维的多个已知相互作用因子，并为后续研究提供了新型推定结构特异性相互作用因子的资源。该方法适用于识别任何蛋白质的结构特异性相互作用组，包括翻译后修饰与未修饰、或代谢物结合与未结合的蛋白质结构状态。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.01.522707",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.01.522707",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.01.522707/index.html"
+}

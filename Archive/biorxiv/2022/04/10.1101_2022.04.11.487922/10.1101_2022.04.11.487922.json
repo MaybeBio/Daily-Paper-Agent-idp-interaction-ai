@@ -1,0 +1,184 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.11.487922",
+  "title": "An intrinsically disordered transcription activation domain alters the DNA binding affinity and specificity of NFκB p50/RelA",
+  "doi": "10.1101/2022.04.11.487922",
+  "abstract": "<h4>ABSTRACT</h4> Many transcription factors contain intrinsically disordered transcription activation domains (TADs), which mediate interactions with co-activators to activate transcription. Historically, DNA-binding domains and TADs have been considered as modular units, but recent studies have shown that TADs can influence DNA binding. We biophysically characterized the NFκB p50/RelA heterodimer including the RelA TAD and investigated the TAD’s influence on NFκB-DNA interactions. In solution the RelA TAD is disordered but compact, with helical tendency in two regions that interact with co-activators. The presence of the TAD increased the stoichiometry of NFκB-DNA complexes containing promoter DNA sequences with tandem κB recognition motifs by promoting the binding of NFκB dimers in excess of the number of κB sites. We measured the binding affinity of p50/RelA for DNA containing tandem κB sites and single κB sites. While the presence of the TAD enhanced the binding affinity of p50/RelA for all κB sequences tested, it increased the affinity for non-specific DNA sequences by over 10-fold, leading to an overall decrease in specificity for κB DNA sequences. Our results reveal a novel function of the RelA TAD in promoting binding to non-consensus DNA previously observed by in vivo studies of NFκB-DNA binding in response to strong inflammatory signals.",
+  "authors": [
+    "Baughman HE",
+    "Narang D",
+    "Chen W",
+    "Villagrán Suárez AC",
+    "Lee J",
+    "Bachochin M",
+    "Gunther TR",
+    "Wolynes PG",
+    "Komives EA"
+  ],
+  "published_date": "2022-04-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.11.487922",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.11.487922.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR480880",
+    "raw_record": {
+      "id": "PPR480880",
+      "source": "PPR",
+      "doi": "10.1101/2022.04.11.487922",
+      "title": "An intrinsically disordered transcription activation domain alters the DNA binding affinity and specificity of NFκB p50/RelA",
+      "authorString": "Baughman HE, Narang D, Chen W, Villagrán Suárez AC, Lee J, Bachochin M, Gunther TR, Wolynes PG, Komives EA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Baughman HE",
+            "lastName": "Baughman",
+            "firstName": "Hannah E.R.",
+            "initials": "HE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0615-2403"
+            }
+          },
+          {
+            "fullName": "Narang D",
+            "lastName": "Narang",
+            "firstName": "Dominic",
+            "initials": "D"
+          },
+          {
+            "fullName": "Chen W",
+            "lastName": "Chen",
+            "firstName": "Wei",
+            "initials": "W"
+          },
+          {
+            "fullName": "Villagrán Suárez AC",
+            "lastName": "Villagrán Suárez",
+            "firstName": "Amalia",
+            "initials": "AC"
+          },
+          {
+            "fullName": "Lee J",
+            "lastName": "Lee",
+            "firstName": "Joan",
+            "initials": "J"
+          },
+          {
+            "fullName": "Bachochin M",
+            "lastName": "Bachochin",
+            "firstName": "Maxwell",
+            "initials": "M"
+          },
+          {
+            "fullName": "Gunther TR",
+            "lastName": "Gunther",
+            "firstName": "Tristan",
+            "initials": "TR"
+          },
+          {
+            "fullName": "Wolynes PG",
+            "lastName": "Wolynes",
+            "firstName": "Peter",
+            "initials": "PG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7975-9287"
+            }
+          },
+          {
+            "fullName": "Komives EA",
+            "lastName": "Komives",
+            "firstName": "Elizabeth",
+            "initials": "EA"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7975-9287"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0615-2403"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  Many transcription factors contain intrinsically disordered transcription activation domains (TADs), which mediate interactions with co-activators to activate transcription. Historically, DNA-binding domains and TADs have been considered as modular units, but recent studies have shown that TADs can influence DNA binding. We biophysically characterized the NFκB p50/RelA heterodimer including the RelA TAD and investigated the TAD’s influence on NFκB-DNA interactions. In solution the RelA TAD is disordered but compact, with helical tendency in two regions that interact with co-activators. The presence of the TAD increased the stoichiometry of NFκB-DNA complexes containing promoter DNA sequences with tandem κB recognition motifs by promoting the binding of NFκB dimers in excess of the number of κB sites. We measured the binding affinity of p50/RelA for DNA containing tandem κB sites and single κB sites. While the presence of the TAD enhanced the binding affinity of p50/RelA for all κB sequences tested, it increased the affinity for non-specific DNA sequences by over 10-fold, leading to an overall decrease in specificity for κB DNA sequences. Our results reveal a novel function of the RelA TAD in promoting binding to non-consensus DNA previously observed by in vivo studies of NFκB-DNA binding in response to strong inflammatory signals.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/04/11/2022.04.11.487922.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.04.11.487922"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35934050",
+            "reference": "The Journal of biological chemistry. 2022 Sep;298(9):102349",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-04-13",
+      "firstPublicationDate": "2022-04-11",
+      "firstIndexDate": "2022-04-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

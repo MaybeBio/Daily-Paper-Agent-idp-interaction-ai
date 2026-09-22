@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text methods, figures, or statistical details were available for evaluation
+- **Shared manuscript claim summary** The authors report that carboxylated polystyrene nanoparticles (PS-COOH NPs) selectively induce liquid-liquid phase separation (LLPS) of VGLL3, a transcriptional cofactor linked to fibrosis, in a concentration- and size-dependent manner with re-entrant dissolution at high NP fractions. They propose a scaffold model based on molecular docking in which PS-COOH surfaces stabilize multivalent hydrogen-bonding and hydrophobic interactions between VGLL3 molecules, and they suggest implications for MNP health risk assessment and nanomaterial design.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full methods, experimental conditions (buffer, protein concentration, temperature), quantitative LLPS assay data, dynamic light scattering (DLS) raw distributions, docking parameters and scoring, negative control details, statistical analyses, and any validation of VGLL3 relevance to fibrosis in the experimental system
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation that carboxylated polystyrene nanoparticles can modulate the phase behavior of a fibrosis-associated transcriptional cofactor. The claim of selectivity for PS-COOH over unmodified or aminated particles, combined with a proposed molecular mechanism, is scientifically appealing. However, the evidence base available for this review is limited to the abstract, which lacks the quantitative detail, controls, and methodological transparency needed to assess the robustness of the central claims. The mechanistic model rests on docking simulations without experimental validation, and the link to fibrosis is asserted rather than demonstrated. The work may be of interest to the nanotoxicology and biomolecular condensate communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in nanotoxicology and environmental health, particularly those studying micro- and nanoplastic effects on protein homeostasis; investigators in the biomolecular condensate and phase separation field interested in exogenous modulators of LLPS; and scientists working on fibrosis mechanisms, given the proposed connection to VGLL3. The potential for designing safer nanomaterials or condensate-targeting interventions would also attract materials scientists and regulatory toxicologists.
+- **Major strengths** The study addresses a timely and underexplored intersection of nanoplastic pollution and protein phase separation. The use of defined surface chemistries and sizes is a thoughtful experimental design that allows attribution of effects to specific NP properties. The observation of re-entrant dissolution is a nontrivial finding that suggests a nuanced interaction regime. The inclusion of a negative control (oligonucleotide) to test the charge-only hypothesis is a reasonable approach.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that PS-COOH NPs "robustly and selectively induced VGLL3 LLPS in a concentration- and size-dependent manner" with re-entrant dissolution at higher NP fractions
+  - **Evidence pointer** Abstract; no quantitative data provided
+  - **Concern** The abstract reports concentration- and size-dependent LLPS induction and re-entrant dissolution, but no quantitative metrics are given. There is no information on how LLPS was scored, what concentration ranges were tested, what the magnitude of the effect was, or how many replicates were performed. The selectivity claim for PS-COOH over PS and PS-NH2 is stated but not supported by comparative data.
+  - **Why it matters** Without quantitative dose-response data and statistical comparison across particle types, the central claim of selectivity and the described phase behavior cannot be evaluated. Re-entrant dissolution is a specific and nontrivial phenomenon that requires careful titration data to be credible.
+  - **Resolution test** Provide dose-response curves for LLPS induction across a range of NP concentrations for all three particle types, with clear thresholds, error bars, and statistical tests. Show the full phase diagram including the re-entrant regime with replicate data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that DLS revealed "right-shifted size distributions consistent with higher-order NP-protein complexes"
+  - **Evidence pointer** Abstract; DLS data not shown
+  - **Concern** DLS is a bulk technique that reports intensity-weighted hydrodynamic diameters and is prone to artifacts from polydisperse samples, dust, or aggregation. The abstract does not describe how the DLS data were analyzed, whether the size distributions were unimodal, or how the right shift was quantified. The interpretation that the shift indicates higher-order complexes is speculative without complementary evidence.
+  - **Why it matters** The DLS result is used to support the scaffold model. If the size distribution shift is not rigorously characterized, the interpretation of NP-protein complex formation is weakened.
+  - **Resolution test** Show representative DLS correlation functions and size distributions, report the number of replicates, and provide a quantitative comparison of peak positions and widths. Consider orthogonal methods such as sedimentation assays or fluorescence correlation spectroscopy to confirm complex formation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that molecular docking "supports a scaffold model in which PS-COOH NP surfaces stabilize multivalent hydrogen-bonding and hydrophobic contacts between VGLL3 molecules"
+  - **Evidence pointer** Abstract; docking details not provided
+  - **Concern** Molecular docking is a computational prediction method with well-known limitations in accuracy, especially for protein-surface interactions involving nanoparticles. The abstract does not specify the docking software, scoring function, force field, or how the NP surface was modeled. No experimental validation of the predicted interactions is presented.
+  - **Why it matters** The scaffold model is the proposed mechanistic basis for the observed LLPS. If the docking is not validated experimentally, the mechanism remains speculative, and the claim that the model is "supported" is overstated.
+  - **Resolution test** Provide full docking parameters and scores, and validate the predicted interactions experimentally, for example by mutating key residues predicted to mediate hydrogen bonding or hydrophobic contacts and testing the effect on LLPS.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the findings "provide a mechanistic basis for how carboxylate-rich/aged MNPs can remodel condensates of a fibrosis regulator"
+  - **Evidence pointer** Abstract; no fibrosis-related experiments
+  - **Concern** The abstract links VGLL3 to fibrosis only by stating it is "implicated in fibrosis." No experimental evidence connects the observed LLPS modulation to fibrotic outcomes. The phrase "mechanistic basis" implies a causal chain that is not demonstrated.
+  - **Why it matters** The broader significance of the work depends on the relevance to fibrosis. Without any cellular or in vivo data linking PS-COOH-induced VGLL3 condensation to fibrotic processes, the claim of implications for fibrosis is unsupported.
+  - **Resolution test** Provide evidence that VGLL3 LLPS modulation affects its transcriptional activity or downstream fibrosis markers in a relevant cell model, or temper the claim to reflect the speculative nature of the fibrosis connection.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract
+  - **Issue** The term "re-entrant dissolution" is used without explanation. Nonspecialist readers in the nanotoxicology community may not be familiar with this phase behavior concept.
+  - **Required correction** Briefly define re-entrant dissolution in the abstract, for example as the loss of phase separation at very high NP concentrations after initial induction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Negative control interpretation
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that a negatively charged oligonucleotide failed to trigger LLPS, suggesting that charge alone is insufficient. However, the oligonucleotide differs from PS-COOH NPs in many properties beyond charge, including size, shape, and chemical composition. The conclusion that charge alone is insufficient is not strongly supported by this single control.
+  - **Required correction** Acknowledge the limitations of this control or add additional controls that vary charge independently of other properties.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** 1,6-hexanediol sensitivity
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that condensates were sensitive to 1,6-hexanediol, indicating dynamic and reversible nature. While 1,6-hexanediol is commonly used to test hydrophobic interactions in condensates, it can also affect membranes and other cellular structures. The interpretation is reasonable but should be presented with appropriate caution.
+  - **Required correction** Note that 1,6-hexanediol sensitivity is consistent with, but not definitive proof of, dynamic LLPS, and consider complementary assays such as fluorescence recovery after photobleaching.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not specify the concentration range of NPs used or the protein concentration, which are critical parameters for readers to assess the physiological relevance of the findings.
+  - **Required correction** Include the concentration ranges tested and note whether these are environmentally relevant or intentionally higher for mechanistic studies.
+
+## Risk / unsupported claims
+- The claim that PS-COOH NPs "robustly and selectively" induce VGLL3 LLPS is unsupported without quantitative comparative data.
+- The claim that DLS data are "consistent with higher-order NP-protein complexes" is weakly supported and requires additional analysis.
+- The scaffold model based on molecular docking is unsupported without experimental validation.
+- The implication for fibrosis is unsupported by any direct experimental evidence in the abstract.
+- The statement that the findings "offer a framework to assess MNP health risks" is an extrapolation beyond the presented data.

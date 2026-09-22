@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42161313",
+  "title": "Distinguishing near- versus off-critical phase behaviors of intrinsically disordered proteins.",
+  "authors": "Mitra, Gaurav; Ghosh, Souradeep; Ruff, Kiersten M; Zhang, Ruoyao; Chauhan, Gaurav; Pappu, Rohit V",
+  "journal": "Reports on progress in physics. Physical Society (Great Britain)",
+  "published_date": "2026-05-21",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过大规模蒙特卡洛模拟与有限尺寸标度，精确刻画了朊病毒样低复杂度无序蛋白的相分离临界行为与双节线分区，虽未直接聚焦PPI，但为无序蛋白相分离机制建模提供了关键物理框架与方法，对理解IDR介导的凝聚体互作有重要启发。",
+  "abstract": "Intrinsically disordered prion-like low complexity domains (PLCDs) drive phase transitions that underlie the biogenesis of many biomolecular condensates. Here, we report results from large-scale Monte Carlo simulations on lattices aided by computations of Binder cumulants and rigorous finite-size scaling. These approaches enable accurate mapping of the critical regime and computations of the full binodal of an archetypal PLCD. This weakly associating polymer undergoes phase separation coupled to percolation. Between the lowest temperature and the critical point, the concentrations along the left arm of the binodal vary by four orders of magnitude. The overlap line intersects the left arm of the binodal well below the critical point. This, taken together with the intersection of the percolation line and the left arm of the binodal, leads to demarcation of the binodal into three regimes. Regime I is farthest from the critical point. Here, the coexisting dilute phase is akin to a gas of dispersed polymers. The dilute arm of the binodal lies above the overlap line in Regimes II and III. Here, the semidilute nature of dilute phases enables clustering of polymers that is enhanced by intermolecular associations. The coexisting dense phases form confined percolated networks in Regimes I and II. In Regime III, which is closest to the critical point, the dense phase becomes unconfined and fragmented, and the system is defined by two interconnected, system-spanning networks. In addition to mapping the critical point accurately, we evaluated methods for identifying the theta temperature. We find that scaling approaches based on assumptions from two-parameter theories for homopolymers yield erroneous estimates of the theta temperature of an archetypal PLCD. Accurate estimation of the theta temperature requires direct calculation of the temperature dependence of the two-body interaction coefficient. We discuss implications for inferring solvent quality from scaling analysis of segmental distances of disordered proteins.",
+  "abstract_zh": "天然无序的朊病毒样低复杂度结构域（PLCDs）驱动相变，这些相变是许多生物分子凝聚体生物发生的基础。在此，我们报告了在格点上进行的大规模蒙特卡洛模拟结果，并辅以Binder累积量的计算和严格的有限尺寸标度分析。这些方法能够精确绘制临界区域，并计算一个典型PLCD的完整双节线。这种弱缔合聚合物经历与渗流耦合的相分离。在最低温度与临界点之间，双节线左臂上的浓度变化跨越四个数量级。重叠线与双节线左臂的交点远低于临界点。这一点，连同渗流线与双节线左臂的交点，导致双节线被划分为三个区域。区域I离临界点最远。在此，共存的稀相类似于分散聚合物的气体。在区域II和III中，双节线的稀臂位于重叠线之上。在此，稀相的半稀释性质使得聚合物能够聚集，并通过分子间缔合得到增强。共存的浓相在区域I和II中形成受限的渗流网络。在区域III中，该区域最接近临界点，浓相变得不受限且碎片化，系统由两个相互连接、跨越系统的网络所定义。除了精确绘制临界点外，我们还评估了确定θ温度的方法。我们发现，基于均聚物双参数理论假设的标度方法会产生对典型PLCDθ温度的错误估计。准确估计θ温度需要直接计算两体相互作用系数的温度依赖性。我们讨论了从无序蛋白质片段距离的标度分析推断溶剂质量的含义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42161313/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42161313/",
+  "paper_page_path": "papers/pubmed/42161313/index.html"
+}

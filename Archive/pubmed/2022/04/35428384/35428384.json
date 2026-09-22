@@ -1,0 +1,435 @@
+{
+  "identity": {
+    "pmid": "35428384",
+    "doi": "10.1063/5.0089134",
+    "title": "Unraveling multi-state molecular dynamics in single-molecule FRET experiments. I. Theory of FRET-lines."
+  },
+  "content": {
+    "abstract": "Conformational dynamics of biomolecules are of fundamental importance for their function. Single-molecule studies of Forster Resonance Energy Transfer (smFRET) between a tethered donor and acceptor dye pair are a powerful tool to investigate the structure and dynamics of labeled molecules. However, capturing and quantifying conformational dynamics in intensity-based smFRET experiments remains challenging when the dynamics occur on the sub-millisecond timescale. The method of multiparameter fluorescence detection addresses this challenge by simultaneously registering fluorescence intensities and lifetimes of the donor and acceptor. Together, two FRET observables, the donor fluorescence lifetime tau(D) and the intensity-based FRET efficiency E, inform on the width of the FRET efficiency distribution as a characteristic fingerprint for conformational dynamics. We present a general framework for analyzing dynamics that relates average fluorescence lifetimes and intensities in two-dimensional burst frequency histograms. We present parametric relations of these observables for interpreting the location of FRET populations in E-tau(D) diagrams, called FRET-lines. To facilitate the analysis of complex exchange equilibria, FRET-lines serve as reference curves for a graphical interpretation of experimental data to (i) identify conformational states, (ii) resolve their dynamic connectivity, (iii) compare different kinetic models, and (iv) infer polymer properties of unfolded or intrinsically disordered proteins. For a simplified graphical analysis of complex kinetic networks, we derive a moment-based representation of the experimental data that decouples the motion of the fluorescence labels from the conformational dynamics of the biomolecule. Importantly, FRET-lines facilitate exploring complex dynamic models via easily computed experimental observables. We provide extensive computational tools to facilitate applying FRET-lines.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Fluorescence Resonance Energy Transfer/methods",
+      "Molecular Conformation",
+      "*Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Barth, Anders",
+        "Opanasyuk, Oleg",
+        "Peulen, Thomas-Otavio",
+        "Felekyan, Suren",
+        "Kalinin, Stanislav",
+        "Sanabria, Hugo",
+        "Seidel, Claus A M"
+      ],
+      "short_names": [
+        "Barth A",
+        "Opanasyuk O",
+        "Peulen TO",
+        "Felekyan S",
+        "Kalinin S",
+        "Sanabria H",
+        "Seidel CAM"
+      ],
+      "auids": [
+        "ORCID: s0000000336713072",
+        "ORCID: s0000000184789755",
+        "ORCID: s0000000170686827",
+        "ORCID: s000000025171149X"
+      ],
+      "affiliations": [
+        "Institut fur Physikalische Chemie, Lehrstuhl fur Molekulare Physikalische Chemie, Heinrich-Heine-Universitat, Dusseldorf, Germany.",
+        "Institut fur Physikalische Chemie, Lehrstuhl fur Molekulare Physikalische Chemie, Heinrich-Heine-Universitat, Dusseldorf, Germany.",
+        "Institut fur Physikalische Chemie, Lehrstuhl fur Molekulare Physikalische Chemie, Heinrich-Heine-Universitat, Dusseldorf, Germany.",
+        "Institut fur Physikalische Chemie, Lehrstuhl fur Molekulare Physikalische Chemie, Heinrich-Heine-Universitat, Dusseldorf, Germany.",
+        "Institut fur Physikalische Chemie, Lehrstuhl fur Molekulare Physikalische Chemie, Heinrich-Heine-Universitat, Dusseldorf, Germany.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29631, USA.",
+        "Institut fur Physikalische Chemie, Lehrstuhl fur Molekulare Physikalische Chemie, Heinrich-Heine-Universitat, Dusseldorf, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Barth, Anders",
+        "short_name": "Barth A",
+        "identifiers": [
+          "s0000000336713072"
+        ],
+        "affiliations": [
+          "Institut für Physikalische Chemie, Lehrstuhl für Molekulare Physikalische Chemie, Heinrich-Heine-Universität, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Opanasyuk, Oleg",
+        "short_name": "Opanasyuk O",
+        "identifiers": [],
+        "affiliations": [
+          "Institut für Physikalische Chemie, Lehrstuhl für Molekulare Physikalische Chemie, Heinrich-Heine-Universität, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Peulen, Thomas-Otavio",
+        "short_name": "Peulen TO",
+        "identifiers": [
+          "s0000000184789755"
+        ],
+        "affiliations": [
+          "Institut für Physikalische Chemie, Lehrstuhl für Molekulare Physikalische Chemie, Heinrich-Heine-Universität, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Felekyan, Suren",
+        "short_name": "Felekyan S",
+        "identifiers": [],
+        "affiliations": [
+          "Institut für Physikalische Chemie, Lehrstuhl für Molekulare Physikalische Chemie, Heinrich-Heine-Universität, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Kalinin, Stanislav",
+        "short_name": "Kalinin S",
+        "identifiers": [],
+        "affiliations": [
+          "Institut für Physikalische Chemie, Lehrstuhl für Molekulare Physikalische Chemie, Heinrich-Heine-Universität, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Sanabria, Hugo",
+        "short_name": "Sanabria H",
+        "identifiers": [
+          "s0000000170686827"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29631, USA."
+        ]
+      },
+      {
+        "full_name": "Seidel, Claus A M",
+        "short_name": "Seidel CAM",
+        "identifiers": [
+          "s000000025171149X"
+        ],
+        "affiliations": [
+          "Institut für Physikalische Chemie, Lehrstuhl für Molekulare Physikalische Chemie, Heinrich-Heine-Universität, Düsseldorf, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2022 Apr 14",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/17 06:00",
+    "fetched_at": "2026-09-20 09:34:47"
+  },
+  "links": {
+    "cites": [
+      "42579015",
+      "42423889",
+      "42215555",
+      "42172735",
+      "42022033",
+      "41889770",
+      "41736549",
+      "41491124",
+      "41282130",
+      "40838883",
+      "40595536",
+      "40494165",
+      "40165371",
+      "39836627",
+      "39588651",
+      "39019880",
+      "38895430",
+      "38782886",
+      "38699162",
+      "38585429",
+      "38514627",
+      "38263337",
+      "38232732",
+      "37726007",
+      "37559939",
+      "37485372",
+      "37468629",
+      "37362335",
+      "37314846",
+      "37068599",
+      "36973549",
+      "36866225",
+      "36693159",
+      "36671509",
+      "36204594",
+      "36069777",
+      "35868918",
+      "35841142",
+      "35194038",
+      "34888535"
+    ],
+    "refs": [
+      "36411678",
+      "33779550",
+      "32300110",
+      "32144241",
+      "32088186",
+      "31150619",
+      "30976006",
+      "30649478",
+      "30471690",
+      "30429330",
+      "30413085",
+      "30351105",
+      "30230835",
+      "30171252",
+      "29604831",
+      "29543457",
+      "29466338",
+      "29348210",
+      "28920931",
+      "28877485",
+      "28820590",
+      "28760960",
+      "28716919",
+      "28709377",
+      "28542243",
+      "27977207",
+      "27939973",
+      "27918541",
+      "27833095",
+      "27799531",
+      "27566405",
+      "27226581",
+      "26878382",
+      "26814575",
+      "26812046",
+      "26584062",
+      "26583233",
+      "26439729",
+      "26424125",
+      "26263254",
+      "26243190",
+      "26147918",
+      "26095030",
+      "25429558",
+      "25323157",
+      "25088495",
+      "24824374",
+      "24568646",
+      "24100609",
+      "23312353",
+      "23280107",
+      "23142871",
+      "22821515",
+      "22550169",
+      "22492978",
+      "22407544",
+      "22404939",
+      "22404588",
+      "22383292",
+      "22356317",
+      "22306460",
+      "22276948",
+      "21988909",
+      "21888382",
+      "21629703",
+      "21402040",
+      "21291253",
+      "21108866",
+      "21028764",
+      "20575136",
+      "20517631",
+      "20509636",
+      "20486698",
+      "20030305",
+      "19841261",
+      "19620213",
+      "19588948",
+      "19584244",
+      "19475638",
+      "19293380",
+      "18410159",
+      "18029448",
+      "17981902",
+      "17929964",
+      "17900110",
+      "16957321",
+      "16509620",
+      "16028886",
+      "15699337",
+      "15638691",
+      "14668446",
+      "12578980",
+      "11354494",
+      "11257530",
+      "11252968",
+      "11243837",
+      "10966638",
+      "10856219",
+      "10570145",
+      "10388780",
+      "10073925",
+      "9465054",
+      "8494980",
+      "8266098",
+      "1406315",
+      "1057171"
+    ],
+    "similar": [
+      "35428384",
+      "35868918",
+      "22550169",
+      "30230835",
+      "30252475",
+      "20486698",
+      "26812046",
+      "31117611",
+      "23280107",
+      "28709377",
+      "29490247",
+      "35194038",
+      "20397670",
+      "36973549",
+      "36693159",
+      "37824009",
+      "16509620",
+      "23085845",
+      "30317517",
+      "32159932",
+      "33138911",
+      "17251351",
+      "33151943",
+      "17929964",
+      "22428667",
+      "11999691",
+      "28542243",
+      "25222115",
+      "20627168",
+      "21218223",
+      "17547447",
+      "33571667",
+      "18855410",
+      "26854711",
+      "25296318",
+      "19588948",
+      "16221762",
+      "34127856",
+      "27793290",
+      "34059282",
+      "21402040",
+      "35226322",
+      "29981536",
+      "30413085",
+      "31393133",
+      "29604882",
+      "29800904",
+      "31751800",
+      "33723285",
+      "37012383",
+      "27532626",
+      "36435903",
+      "16674202",
+      "29570297",
+      "30149870",
+      "22352641",
+      "17099864",
+      "29292190",
+      "34845614",
+      "29314107",
+      "38975639",
+      "18790855",
+      "28108168",
+      "21152580",
+      "12496132",
+      "30471690",
+      "17276585",
+      "20818380",
+      "20575136",
+      "30171252",
+      "28297644",
+      "28177636",
+      "29058191",
+      "27793289",
+      "23028078",
+      "21629703",
+      "38699162",
+      "25988351",
+      "17822310",
+      "15041684",
+      "35965010",
+      "34935263",
+      "26439729",
+      "25338770",
+      "21801176",
+      "33201466",
+      "27793283",
+      "37559939",
+      "34817999",
+      "29737844",
+      "20180598",
+      "27793284",
+      "24071719",
+      "26049487",
+      "36104339",
+      "28223518",
+      "38727910",
+      "34125097",
+      "23912807",
+      "29780500",
+      "24108638",
+      "35582137",
+      "39311512",
+      "36582656",
+      "36582655",
+      "36530182",
+      "39380468"
+    ],
+    "review": [
+      "35428384",
+      "11999691",
+      "30413085",
+      "29800904",
+      "29314107"
+    ],
+    "pmc": [
+      "9014241"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35428384/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35428384",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0089134",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

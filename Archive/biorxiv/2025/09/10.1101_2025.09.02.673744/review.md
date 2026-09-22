@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, experimental section, results and discussion, and conclusions.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with stated evidence. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors propose a novel XL-MS-based analytical framework for comparing conformational states of intrinsically disordered proteins (IDPs), exemplified by Tau and phosphorylated Tau (pTau). The method constructs weighted interaction networks from cross-link-derived residue pairs, quantifies structural divergence via loop-clustering similarity, and demonstrates sensitivity to structural changes during arachidonic acid-induced aggregation.
+- **Visible evidence base** Abstract, full methods, results narrative, and figure references. No raw data, spectra, or supplementary files were provided.
+- **Missing materials affecting confidence** Raw mass spectrometry data, detailed cross-link lists, statistical output from CluSim, figure panels (referenced but not shown), and validation metrics for the saturation analysis.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to a challenging problem, namely the structural comparison of IDPs using XL-MS without reliance on predefined structural models. The idea of using loop-based network clustering is creative and potentially useful. However, the current evidence base is insufficient to establish the method's reliability or the validity of the biological conclusions. Key methodological details are missing, the saturation analysis is incompletely described, and the interpretation of Tau/pTau aggregation data is under-supported. The manuscript would benefit from substantial revision and additional validation before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in structural biology, particularly those studying IDPs and protein conformational dynamics. The method could also interest scientists working on protein quality control in biopharmaceutical development, as the authors suggest. The potential to link PTM patterns to structural behavior may attract those studying neurodegeneration and tauopathies.
+- **Major strengths** The conceptual novelty of applying network-based loop clustering to XL-MS data is a genuine strength. The authors correctly identify a limitation of existing approaches that rely on structural prediction and propose a model-free alternative. The use of saturation analysis to address data completeness is a thoughtful addition. The application to a biologically relevant system (Tau aggregation) adds potential impact.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method can reliably detect structural divergence between protein conformers using loop-clustering similarity.
+  - **Evidence pointer** Results section "Set-up of loop-networks as models for protein structures", Figures 3A-E
+  - **Concern** The core validation of the method relies on comparing native vs. denatured BSA, but the manuscript does not provide sufficient detail on how the loop networks are constructed, how clustering is performed, or how similarity scores are interpreted. The leave-one-out analysis is described only qualitatively, and no statistical significance or effect sizes are reported. Without these details, the claim that the method reliably detects structural divergence is not substantiated.
+  - **Why it matters** The entire premise of the manuscript rests on the validity of this analytical framework. If the method cannot be independently assessed or reproduced, the conclusions drawn from its application to Tau/pTau are unsupported.
+  - **Resolution test** Provide a step-by-step description of network construction, clustering parameters, and similarity calculation. Include a quantitative validation, such as a permutation test or comparison to a known structural transition, with confidence intervals or p-values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** At least 500 cross-links are needed for reliable detection of structural divergence, requiring 5-10 replicate measurements.
+  - **Evidence pointer** Results section "Sample size and associated error for pair-wise comparison of clusterings", Figure 3F,H
+  - **Concern** The saturation analysis is described in a single paragraph with no methodological detail. The authors state that randomized subsamples were analyzed, but do not specify how subsamples were generated, how many iterations were performed, what metric was used to define "reliable detection," or how the threshold of 500 was derived. The figure is not available for inspection.
+  - **Why it matters** This is a critical practical claim that directly informs experimental design for any user of the method. Without transparent methodology, the threshold cannot be evaluated or applied by others.
+  - **Resolution test** Describe the subsampling procedure in full, including the number of randomizations, the statistical test used to compare distributions, and the criterion for declaring divergence. Show the data in a figure with error bars and a clear threshold indication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The structural analysis reveals distinct patterns of structural evolution between Tau and pTau during arachidonic acid-induced aggregation.
+  - **Evidence pointer** Results section "Structure changings of Tau and pTau in the run-up to aggregation", Figures 4B-E, 5A-F
+  - **Concern** The biological conclusion is based on a comparison of two proteins with different phosphorylation states, but the manuscript does not control for potential differences in cross-linking efficiency, protein concentration, or aggregation kinetics between Tau and pTau. The ELISA data show that pTau does not aggregate under these conditions, yet the structural comparison is still interpreted as meaningful. The authors acknowledge this limitation only partially.
+  - **Why it matters** The claim of distinct structural evolution is central to the manuscript's significance. If the observed differences are artifacts of experimental conditions rather than genuine structural differences, the conclusion is invalid.
+  - **Resolution test** Include control experiments showing that cross-linking efficiency and protein concentration are comparable between Tau and pTau. Alternatively, demonstrate that the structural differences persist when aggregation conditions are matched or when using a non-aggregating control protein.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The pTau material is uniformly triphosphorylated at T169, S199, and T217.
+  - **Evidence pointer** Experimental section "Protein materials"
+  - **Concern** The phosphorylation state of pTau is stated but not supported by data. The authors reference a previous study for the phosphorylation protocol but do not show mass spectrometry data confirming the site-specific phosphorylation. The intact mass difference between Tau and pTau (234.7 Da) is consistent with three phosphates, but this does not confirm the specific sites.
+  - **Why it matters** The biological interpretation depends on the specific phosphorylation sites. If the sites are incorrect or heterogeneous, the conclusions about phosphorylation-dependent structural changes are compromised.
+  - **Resolution test** Provide MS/MS data or a table listing identified phosphorylation sites with localization scores. If not available, soften the claim to "triphosphorylated" without specifying sites.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction contains typographical errors ("x-ray chrystallography", "spacial") and informal phrasing ("Attemps were made" in the results section). These distract from the scientific content.
+  - **Required correction** Proofread the manuscript for spelling and grammar. Replace informal phrases with formal scientific language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Cross-linking methodology
+  - **Evidence pointer** Experimental section "Cross-linking"
+  - **Issue** The cross-linking reaction is described as optimized for intramolecular cross-links by using low protein concentration, but no concentration is specified. The potential for intermolecular cross-links during aggregation is acknowledged but not quantified.
+  - **Required correction** Specify the protein concentration used and provide evidence (e.g., SDS-PAGE or size-exclusion chromatography) that intramolecular cross-links dominate under the conditions used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data analysis
+  - **Evidence pointer** Experimental section "Database search for cross-links"
+  - **Issue** The FDR is stated as 1%, but the method for FDR estimation is not described. MeroX typically uses a target-decoy approach, but this is not stated.
+  - **Required correction** Specify the FDR estimation method (e.g., target-decoy) and the number of decoy hits used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure references
+  - **Evidence pointer** Results section, multiple locations
+  - **Issue** Several figures are referenced but not described in sufficient detail in the text. For example, Figure 2C-F is mentioned but the reader cannot interpret the distance distributions without seeing the figure.
+  - **Required correction** Add a brief description of each figure panel in the text, including axes and key trends, so the narrative is understandable without the figures.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions section
+  - **Issue** The conclusion mentions potential applications to quality control of therapeutic proteins, but this is not discussed in the results or introduction. This claim appears speculative and unsupported.
+  - **Required correction** Either remove this claim or add a brief discussion in the introduction or results to contextualize it.
+
+## Risk / unsupported claims
+- The claim that the method can reliably detect structural divergence is not quantitatively supported (R1-M1).
+- The threshold of 500 cross-links for reliable detection is not derived from transparent methodology (R1-M2).
+- The distinct structural evolution of Tau vs. pTau during aggregation is not adequately controlled for experimental confounds (R1-M3).
+- The specific phosphorylation sites of pTau are stated without supporting data (R1-M4).
+- The application to therapeutic protein quality control is speculative and not supported by the presented evidence.
+- The saturation percentages (9.7%, 5.0%, 6.2%, 10.8%, 5.5%) are reported without confidence intervals or measures of variability, making their precision unclear.

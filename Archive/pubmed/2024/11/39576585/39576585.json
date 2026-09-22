@@ -1,0 +1,255 @@
+{
+  "identity": {
+    "pmid": "39576585",
+    "doi": "10.1007/978-1-0716-4196-5_14",
+    "title": "Computational Prediction of Linear Interacting Peptides."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered protein regions, IDRs, are observed in many eukaryotic proteins. They play critical roles in essentially all cellular processes because segments of these regions, known as linear interacting peptides (LIPs), are heavily involved in regulatory protein interactions across proteomes. This chapter presents an integrated summary of the results from the last two Critical Assessments of protein Intrinsic Disorder predictions, known as CAID events, on the computational prediction of LIP segments. Because the CAID community questioned the quality of the test dataset used by the first CAID event, we reannotated this dataset using more accurate annotations from the latest DisProt database release. Then, we compared the results of the first CAID with the updated data and the results of the second CAID event. Our comparison highlights the importance of data annotation on the evaluation outcome and provides recommendations for users of LIP predictors.",
+    "keywords": [
+      "CAID",
+      "Intrinsic disorder",
+      "Linear interacting peptides LIP",
+      "MoRF",
+      "Prediction",
+      "Protein protein interactions"
+    ],
+    "mesh_terms": [
+      "*Computational Biology/methods",
+      "*Peptides/chemistry/metabolism",
+      "*Databases, Protein",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Software",
+      "Humans",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Malhis, Nawar",
+        "Gsponer, Jorg"
+      ],
+      "short_names": [
+        "Malhis N",
+        "Gsponer J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Michael Smith Laboratories, the University of British Columbia, Vancouver, BC, Canada.",
+        "Michael Smith Laboratories, the University of British Columbia, Vancouver, BC, Canada. gsponer@msl.ubc.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Malhis, Nawar",
+        "short_name": "Malhis N",
+        "identifiers": [],
+        "affiliations": [
+          "Michael Smith Laboratories, the University of British Columbia, Vancouver, BC, Canada."
+        ]
+      },
+      {
+        "full_name": "Gsponer, Jörg",
+        "short_name": "Gsponer J",
+        "identifiers": [],
+        "affiliations": [
+          "Michael Smith Laboratories, the University of British Columbia, Vancouver, BC, Canada. gsponer@msl.ubc.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/22 12:26",
+    "fetched_at": "2026-09-21 12:46:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36458437",
+      "35863661",
+      "35836176",
+      "35537902",
+      "34905768",
+      "34791371",
+      "34487138",
+      "34391457",
+      "34290238",
+      "33875885",
+      "33862077",
+      "33267349",
+      "33237329",
+      "32473054",
+      "32105731",
+      "31504193",
+      "30324701",
+      "29860432",
+      "29360926",
+      "28387819",
+      "27787828",
+      "26651072",
+      "26615199",
+      "26109352",
+      "25792551",
+      "25637562",
+      "25531225",
+      "25391399",
+      "24773235",
+      "24606139",
+      "24019881",
+      "23988124",
+      "22079048",
+      "21909575",
+      "21514144",
+      "21152297",
+      "19717576",
+      "19412530",
+      "17973494",
+      "17488107",
+      "16935303",
+      "16884331",
+      "16156658",
+      "15943979"
+    ],
+    "similar": [
+      "39576585",
+      "39576583",
+      "40054813",
+      "39571839",
+      "36458437",
+      "40859602",
+      "41249866",
+      "38701796",
+      "33875885",
+      "37621223",
+      "40728620",
+      "39718444",
+      "42681205",
+      "28369666",
+      "28589442",
+      "38079339",
+      "39708500",
+      "39576584",
+      "40867524",
+      "40347452",
+      "27787828",
+      "33291838",
+      "36851914",
+      "42288727",
+      "39237195",
+      "41500381",
+      "34290238",
+      "30657889",
+      "31870849",
+      "38540707",
+      "40133791",
+      "31521235",
+      "40944448",
+      "40133781",
+      "31616935",
+      "40441416",
+      "32696395",
+      "37709009",
+      "24573480",
+      "31504193",
+      "33017101",
+      "33866372",
+      "40728619",
+      "36908253",
+      "34894985",
+      "34048569",
+      "33647288",
+      "18831774",
+      "26090958",
+      "37246642",
+      "40138319",
+      "27115638",
+      "36210722",
+      "27326998",
+      "28381244",
+      "38166858",
+      "30135358",
+      "40031750",
+      "24939692",
+      "32696351",
+      "34830151",
+      "32696355",
+      "25637562",
+      "26109352",
+      "32621220",
+      "25361972",
+      "23946100",
+      "40254833",
+      "39246251",
+      "28934129",
+      "41689628",
+      "30717652",
+      "29360926",
+      "37904585",
+      "34905768",
+      "36334049",
+      "27498275",
+      "24573479",
+      "25424537",
+      "26198229",
+      "31207240",
+      "32901090",
+      "33719450",
+      "16618368",
+      "42585785",
+      "37740110",
+      "31713636",
+      "34850135",
+      "31326853",
+      "24668165",
+      "38048333",
+      "41419011",
+      "29595057",
+      "39470701",
+      "33237329",
+      "42475469",
+      "28365882",
+      "40662788",
+      "27085142",
+      "42598852"
+    ],
+    "review": [
+      "39576585",
+      "28589442",
+      "33291838",
+      "36851914",
+      "30657889",
+      "31521235",
+      "31616935",
+      "41689628"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-4196-5_14",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

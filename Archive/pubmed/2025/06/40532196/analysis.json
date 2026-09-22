@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40532196",
+  "title": "Ensemble Docking for Intrinsically Disordered Proteins.",
+  "authors": "Dhar, Anjali; Sisk, Thomas R; Robustelli, Paul",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-06-18",
+  "window": {
+    "start": "2025-06-16",
+    "end": "2025-06-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用集合对接方法预测小分子与无序蛋白α-突触核蛋白的相对亲和力并表征动态结合机制，对象为IDP且涉及结合机制建模，但互作对象是小分子而非蛋白-蛋白互作，方法为对接而非AI/物理模拟深度建模，故综合评7分。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are implicated in many human diseases and are increasingly being pursued as drug targets. Conventional structure-based drug design methods that rely on well-defined binding sites are, however, largely unsuitable for IDPs. Here, we present computationally efficient ensemble docking approaches to predict the relative affinities of small molecules to IDPs and characterize their dynamic, heterogeneous binding mechanisms at atomic resolution. We show that these ensemble docking protocols accurately predict the relative binding affinities of three small molecule alpha-synuclein ligands measured by NMR spectroscopy and generate conformational ensembles of ligand binding modes in remarkable agreement with experimentally validated long-time scale molecular dynamics simulations of ligand binding. Our results demonstrate the potential of ensemble docking approaches for predicting small molecule binding to IDPs and suggest that these methods may be valuable tools for IDP drug discovery campaigns.",
+  "abstract_zh": "固有无序蛋白（IDPs）与多种人类疾病相关，并日益成为药物靶点。然而，依赖明确结合位点的传统基于结构的药物设计方法在很大程度上不适用于IDPs。在此，我们提出了计算高效的集合对接方法，以预测小分子与IDPs的相对亲和力，并在原子分辨率下表征其动态、异质的结合机制。我们表明，这些集合对接协议能准确预测通过核磁共振波谱测量的三种小分子α-突触核蛋白配体的相对结合亲和力，并生成与实验验证的长时间尺度分子动力学模拟配体结合结果高度一致的配体结合模式构象集合。我们的结果证明了集合对接方法在预测小分子与IDPs结合方面的潜力，并提示这些方法可能成为IDP药物发现活动的有价值工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40532196/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40532196/",
+  "paper_page_path": "papers/pubmed/40532196/index.html"
+}

@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "37287826",
+    "doi": "10.52601/bpr.2022.210047",
+    "title": "Principles of fluorescence correlation spectroscopy applied to studies of biomolecular liquid-liquid phase separation."
+  },
+  "content": {
+    "abstract": "Fluorescence correlation spectroscopy (FCS) investigates the temporal relationship of fluctuating fluorescence signals reflecting underlying molecular processes occurring in a solution sample or a single live cell. This review article introduces the principles of two basic and most used FCS techniques: fluorescence auto-correlation spectroscopy (FACS) and fluorescence cross-correlation spectroscopy (FCCS). Combined, FACS and FCCS techniques can quantitatively analyze multiple properties of molecule or nanoparticle samples, including molar concentration, diffusion coefficient and hydrodynamic radius, homo- or hetero-interaction, fluorescence brightness, etc. Not surprisingly, FCS techniques have long been used to investigate molecular mechanisms of biomolecular phase separation, first in the lipid bilayer and more recently in cell cytosol and nucleoplasm. The latter applications are especially exciting since a whole new class of membraneless cellular organelles have been discovered, which are proposed to be results of biomolecule liquid-liquid phase separation (LLPS). LLPS research can benefit significantly from the multifunctionality and single-molecule sensitivity of a variety of FCS techniques, particularly for live-cell studies. This review illustrates how FACS and FCCS techniques can be used to investigate multiple aspects of the molecular mechanisms of LLPS, and summarizes FCS applications to LLPS research in vivo and in vitro.",
+    "keywords": [
+      "Binding affinity",
+      "Diffusion coefficient",
+      "Fluorescence correlation spectroscopy",
+      "Hydrodynamic radius",
+      "Liquid-liquid phase separation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Zhulou",
+        "Zhang, Huizhi",
+        "Jian, Lin",
+        "Ding, Bo",
+        "Huang, Keying",
+        "Zhang, Wolun",
+        "Xiao, Qian",
+        "Huang, Shaohui"
+      ],
+      "short_names": [
+        "Wang Z",
+        "Zhang H",
+        "Jian L",
+        "Ding B",
+        "Huang K",
+        "Zhang W",
+        "Xiao Q",
+        "Huang S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "LightEdge Technologies Limited, Zhongshan, Guangdong 528403, China.",
+        "LightEdge Technologies Limited, Zhongshan, Guangdong 528403, China.",
+        "LightEdge Technologies Limited, Zhongshan, Guangdong 528403, China.",
+        "Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+        "School of Life Sciences, University of Chinese Academy of Sciences, Beijing 101499, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Zhulou",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Huizhi",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Jian, Lin",
+        "short_name": "Jian L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Bo",
+        "short_name": "Ding B",
+        "identifiers": [],
+        "affiliations": [
+          "LightEdge Technologies Limited, Zhongshan, Guangdong 528403, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Keying",
+        "short_name": "Huang K",
+        "identifiers": [],
+        "affiliations": [
+          "LightEdge Technologies Limited, Zhongshan, Guangdong 528403, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wolun",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "LightEdge Technologies Limited, Zhongshan, Guangdong 528403, China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Qian",
+        "short_name": "Xiao Q",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Shaohui",
+        "short_name": "Huang S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "School of Life Sciences, University of Chinese Academy of Sciences, Beijing 101499, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysics reports"
+    ],
+    "journal_abbrev": [
+      "Biophys Rep"
+    ],
+    "pub_date": "2022 Apr 30",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/30 00:00",
+    "fetched_at": "2026-09-20 09:58:54"
+  },
+  "links": {
+    "cites": [
+      "42226800",
+      "41957067",
+      "39663842",
+      "39273672",
+      "38736449",
+      "38579177",
+      "37180732"
+    ],
+    "refs": [
+      "35651258",
+      "34552246",
+      "34508658",
+      "34374536",
+      "34301955",
+      "33782395",
+      "33779550",
+      "33558506",
+      "33453268",
+      "33087563",
+      "32934220",
+      "32571937",
+      "32302572",
+      "32302570",
+      "32101700",
+      "32029630",
+      "32025038",
+      "31952807",
+      "31675499",
+      "31481798",
+      "31399547",
+      "30682370",
+      "30500534",
+      "30342746",
+      "30171252",
+      "29981536",
+      "29937223",
+      "29930090",
+      "29454862",
+      "29348210",
+      "29064502",
+      "28935776",
+      "27910545",
+      "27838525",
+      "26924846",
+      "26489794",
+      "25410140",
+      "24908406",
+      "24104267",
+      "23280110",
+      "23280107",
+      "23280106",
+      "23276537",
+      "23276536",
+      "23276535",
+      "22208184",
+      "21576470",
+      "21219145",
+      "19098897",
+      "18801332",
+      "17952641",
+      "17269116",
+      "16055549",
+      "15884075",
+      "15722439",
+      "15189894",
+      "12606221",
+      "12324447",
+      "11790090",
+      "11106594",
+      "10570145",
+      "10411897",
+      "10388780",
+      "10049342",
+      "9083691",
+      "8241393",
+      "7517036",
+      "4818131"
+    ],
+    "similar": [
+      "37287826",
+      "39029539",
+      "33834430",
+      "38525957",
+      "37092470",
+      "38051203",
+      "32824618",
+      "30324593",
+      "36444977",
+      "38905722",
+      "32246329",
+      "17825783",
+      "16375728",
+      "25697526",
+      "15078154",
+      "20553227",
+      "37287688",
+      "37287830",
+      "15078150",
+      "24108645",
+      "35543798",
+      "33765580",
+      "36310223",
+      "26540588",
+      "33809541",
+      "34334791",
+      "31941785",
+      "35803926",
+      "23931520",
+      "36350034",
+      "28145686",
+      "36524527",
+      "16248814",
+      "23912807",
+      "34235141",
+      "36843414",
+      "24866260",
+      "24987147",
+      "35142991",
+      "39028519",
+      "29155588",
+      "12543073",
+      "34522448",
+      "36016945",
+      "36702825",
+      "35895272",
+      "30536014",
+      "33517364",
+      "26849155",
+      "17258199",
+      "31594803",
+      "24726724",
+      "19883607",
+      "35596607",
+      "32080961",
+      "20588915",
+      "32227891",
+      "15087217",
+      "34156864",
+      "34619090",
+      "36230986",
+      "37251408",
+      "31444270",
+      "35116344",
+      "25692215",
+      "24663528",
+      "37005672",
+      "24561824",
+      "36575582",
+      "33348982",
+      "31506351",
+      "36310218",
+      "20586411",
+      "36310217",
+      "24108644",
+      "18077328",
+      "35998851",
+      "35365630",
+      "30682370",
+      "36279601",
+      "24108647",
+      "22615144",
+      "33583140",
+      "36227475",
+      "29277246",
+      "15951373",
+      "30045872",
+      "26887989",
+      "34011998",
+      "37161904",
+      "26924846",
+      "36778294"
+    ],
+    "review": [
+      "37287826",
+      "37092470",
+      "32824618",
+      "38905722",
+      "35543798",
+      "33765580",
+      "34334791",
+      "35803926",
+      "36350034",
+      "36524527",
+      "16248814",
+      "34235141",
+      "35142991",
+      "12543073",
+      "34522448",
+      "36016945",
+      "31594803",
+      "24726724",
+      "32080961",
+      "32227891",
+      "34619090",
+      "36230986",
+      "37251408",
+      "31444270",
+      "35116344",
+      "37005672",
+      "35998851",
+      "30682370",
+      "36279601",
+      "33583140",
+      "36227475",
+      "29277246",
+      "30045872"
+    ],
+    "pmc": [
+      "10195812"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37287826/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37287826",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

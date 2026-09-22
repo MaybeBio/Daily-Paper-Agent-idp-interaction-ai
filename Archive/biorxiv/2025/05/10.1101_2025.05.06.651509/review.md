@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) from bioRxiv preprint
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided text; no supplementary figures or data were available for direct inspection
+- **Shared manuscript claim summary** The authors adapted thermal proteome profiling (TPP) via proteome integral solubility alteration (PISA) to identify glucose-binding proteins in 3T3-L1 pre-adipocyte lysates. They report 23 candidate proteins, and characterize two: TSC22D4 (Kd ≈ 464 μM) and IGF2BP2 (Kd ≈ 8.2 μM). For TSC22D4, they identify a putative glucose-binding site at the C-terminal leucine zipper (I322), show that glucose increases accessibility of this region, and report glucose-dependent changes in the interactome, including associations with fatty acid metabolism and mitochondrial proteins. For IGF2BP2, they identify Y40 in RRM1 as a glucose-binding residue, and show that a Y40A mutant has dominant-negative effects on beta cell proliferation and insulin secretion, with glucose enhancing binding to client mRNAs including Igf2 and Pdx1.
+- **Visible evidence base** Results sections describing PISA screening, MST binding assays, UV-crosslinking mass spectrometry, BS3 crosslinking, formaldehyde-based chemoproteomics (TRAP), AP-MS interactomics, Cut&Run, ChIP, FPLC, RIP-seq/qPCR, and functional assays in MIN6-6 cells; methods sections for all major techniques
+- **Missing materials affecting confidence** All figures and supplementary figures (referenced as Fig 1-4, Fig S1-S7) were not provided; raw mass spectrometry data, statistical details, replicate numbers, and complete lists of identified proteins/peptides were not available; details of computational docking predictions for IGF2BP2 were not provided
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic approach to identify direct glucose-protein interactions using thermal proteome profiling, and provides initial characterization of two disease-relevant candidates. The work addresses an emerging and important area of nutrient sensing. However, the evidence as presented has several gaps that limit confidence in the central claims. The PISA screen nominates candidates but the validation strategy is uneven: TSC22D4 binding affinity (Kd ≈ 464 μM) is weak and of questionable physiological relevance, while the functional link between glucose binding and the observed interactome changes is correlative. For IGF2BP2, the binding affinity is more compelling (Kd ≈ 8.2 μM), and the dominant-negative phenotype of the binding mutant is suggestive, but the mechanistic chain from glucose binding to enhanced mRNA association to insulin secretion is not fully established. Several key controls and quantitative details are missing from the text.
+- **Who would be interested in the results, and why** Researchers studying nutrient sensing, protein-metabolite interactions, metabolic disease mechanisms (particularly type 2 diabetes and fatty liver disease), and those applying thermal proteome profiling or chemoproteomic approaches to discover metabolite-binding proteins. The methodological extension of TPP to physiological glucose concentrations and the identification of specific binding sites in disease-associated proteins would be of interest to the broader metabolism and chemical biology communities.
+- **Major strengths** The application of PISA at physiological osmolyte concentrations is a thoughtful methodological advance. The combination of multiple orthogonal approaches (MST, UV-crosslinking MS, TRAP, BS3 crosslinking, AP-MS) to characterize TSC22D4 is rigorous. The identification of a specific residue (I322) that abolishes glucose binding, with a control showing the mutant still dimerizes, is a strong point. For IGF2BP2, the use of computational docking to guide mutagenesis, followed by experimental validation, is a good strategy. The functional experiments in MIN6-6 cells with a dominant-negative mutant provide a clear phenotype. The manuscript is generally well-written and the logic is easy to follow.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for physiological relevance
+  - **Claim pointer** "MST confirmed direct glucose-protein interaction of TSC22D4" with Kd ≈ 464 μM
+  - **Evidence pointer** Results section "TSC22D4 binds glucose at TSC box"; Figure S2A
+  - **Concern** The reported Kd of approximately 464 μM for TSC22D4-glucose binding is two orders of magnitude higher than physiological glucose concentrations (typically 5-10 mM in blood, but intracellular glucose can be lower). The authors do not discuss whether this affinity is physiologically meaningful. For comparison, the IGF2BP2 Kd of 8.2 μM is much more plausible. The manuscript needs to address whether such weak binding can drive the observed functional effects, or whether the measured affinity reflects a low-affinity site that may not be relevant in vivo.
+  - **Why it matters** If the TSC22D4-glucose interaction is too weak to occur at physiological glucose concentrations, the entire characterization of TSC22D4 as a glucose-binding protein with metabolic relevance is called into question. This is a central claim of the paper.
+  - **Resolution test** Provide a quantitative discussion of occupancy at physiological glucose concentrations, or perform binding assays at lower temperatures or with competitor sugars to establish specificity. Alternatively, demonstrate that glucose-induced thermal shifts and interactome changes occur at physiologically relevant glucose concentrations (e.g., 5-25 mM) rather than the 350 μM used in the PISA screen.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between glucose binding and functional outcomes
+  - **Claim pointer** "Glucose increased IGF2BP2 binding to client mRNAs Igf2 and Pdx1, which has previously been demonstrated to mediate its impact on insulin secretion. Thus, our data suggests that IGF2BP2 directly binds glucose to enhance insulin secretion."
+  - **Evidence pointer** Results section "IGF2BP2 binds glucose at RRM1 domain to modulate insulin secretion"; Figures 4D-H, S6E
+  - **Concern** The manuscript shows that IGF2BP2 Y40A has a dominant-negative effect on insulin secretion and that glucose increases IGF2BP2 binding to client mRNAs. However, it is not demonstrated that the Y40A mutant fails to show glucose-enhanced mRNA binding. If Y40A still shows glucose-dependent RNA binding, then the dominant-negative phenotype may be due to other effects of the mutation (e.g., altered protein stability, folding, or RNA binding affinity independent of glucose). The causal chain from glucose binding to mRNA binding to insulin secretion is therefore incomplete.
+  - **Why it matters** The central claim for IGF2BP2 is that direct glucose binding enhances its association with client mRNAs, leading to increased insulin secretion. Without showing that the glucose-binding mutant specifically abrogates the glucose-dependent increase in mRNA binding, alternative explanations for the dominant-negative phenotype remain plausible.
+  - **Resolution test** Perform RIP-qPCR or RIP-seq with IGF2BP2 Y40A under glucose-treated conditions to show that the mutant does not exhibit glucose-enhanced mRNA binding. Alternatively, perform RNA binding assays in vitro with purified WT and Y40A proteins in the presence and absence of glucose.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation of PISA screen
+  - **Claim pointer** "We identified 23 proteins whose solubility significantly shifted with glucose treatment"
+  - **Evidence pointer** Results section "Thermal proteome profiling nominates glucose-binding proteins"; Figures 1B-C, S1H-I
+  - **Concern** The PISA screen was performed at 350 μM glucose, which the authors describe as "physiological." However, intracellular glucose concentrations in adipocytes can vary widely, and 350 μM is at the low end of physiological ranges. The authors do not report the number of biological replicates, the statistical threshold for significance, or the false discovery rate for the 23 identified proteins. Additionally, the weak correlation between glucose and galactose thermal shifts (Figure S1H) is mentioned but not quantified. Without these details, the robustness of the screen is difficult to assess.
+  - **Why it matters** The screen is the foundation for the entire manuscript. If the identification of the 23 candidates is not statistically robust, the subsequent characterization of TSC22D4 and IGF2BP2 may be built on false positives.
+  - **Resolution test** Provide full statistical details of the PISA screen, including replicate numbers, significance thresholds, FDR control, and a complete list of the 23 proteins with their fold-changes and p-values. Also clarify the rationale for the 350 μM glucose concentration and discuss whether higher concentrations were tested.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of glucose binding
+  - **Claim pointer** "Glucose binding leads to increased accessibility of the leucine zipper region" and "glucose increases accessibility of the C-terminal region"
+  - **Evidence pointer** Results section "TSC22D4 binds glucose at TSC box"; Figures 2D-E, S2I
+  - **Concern** The TRAP and BS3 crosslinking experiments show that glucose increases accessibility of the C-terminal region and induces new long-range contacts. However, it is not clear whether these effects are specific to glucose or could be induced by other sugars or osmolytes. The authors use galactose as a control in the PISA screen but do not report whether galactose has similar effects on TSC22D4 conformation in the TRAP or BS3 experiments. Additionally, the functional significance of increased C-terminal accessibility is not directly linked to any downstream effect.
+  - **Why it matters** Without demonstrating sugar specificity for the conformational changes, the claim that glucose specifically modulates TSC22D4 structure is weakened. This is important for establishing that the observed effects are due to glucose binding rather than nonspecific sugar or osmolyte effects.
+  - **Resolution test** Repeat TRAP and BS3 crosslinking experiments with galactose or other hexoses as negative controls. If galactose induces similar conformational changes, the specificity of the glucose effect must be reconsidered.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1A description
+  - **Evidence pointer** Results section "Thermal proteome profiling nominates glucose-binding proteins"
+  - **Issue** The description of the PISA workflow in Figure 1A is brief and does not explain how the 16 temperature points are pooled and processed in the TMT experiment. A reader unfamiliar with PISA may struggle to follow the experimental design.
+  - **Required correction** Expand the figure legend or text to briefly explain the PISA pooling strategy and how the TMT labeling enables multiplexed quantification across conditions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** MST binding data
+  - **Evidence pointer** Results section "TSC22D4 binds glucose at TSC box"; Figure S2A
+  - **Issue** The Kd values are reported without error estimates or the number of independent experiments. For a binding measurement, this is essential information.
+  - **Required correction** Report Kd values with standard errors or confidence intervals and state the number of independent replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Computational docking for IGF2BP2
+  - **Evidence pointer** Methods section "Protein-Metabolite Co-Folding"
+  - **Issue** The description of Boltz-2 docking is minimal. It is unclear how the glucose binding pose was selected, what scoring function was used, and how the Y40A mutation was modeled.
+  - **Required correction** Provide additional details on the docking protocol, including input structures, sampling parameters, and criteria for selecting the top pose.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of negative results
+  - **Affected element** Cut&Run and ChIP experiments
+  - **Evidence pointer** Results section "Glucose modulates TSC22D4 interactome"; Figures S3A-E
+  - **Issue** The authors state they were "unable to see any robust TSC22D4 genomic binding regions" and "unable to confirm any chromatin binding." This is presented as a negative result that led them to pursue alternative hypotheses. However, the possibility that the experimental conditions were suboptimal (e.g., antibody quality, crosslinking efficiency) is not discussed.
+  - **Required correction** Briefly discuss potential technical reasons for the negative Cut&Run/ChIP results and whether positive controls were performed to validate the assays.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** "TSC box" vs "leucine zipper"
+  - **Evidence pointer** Results section "TSC22D4 binds glucose at TSC box"
+  - **Issue** The terms "TSC box" and "leucine zipper" are used somewhat interchangeably. It would be helpful to define the TSC box and clarify whether it encompasses the leucine zipper or is a distinct motif.
+  - **Required correction** Define the TSC box in the text and clarify the relationship between the TSC box and the leucine zipper domain.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (physiological relevance of TSC22D4 Kd), R1-M2 (missing Y40A RNA binding data under glucose conditions), R1-M3 (incomplete statistical reporting for PISA screen)
+- **Assessment against Nature-style criteria** Originality: The application of TPP to identify glucose-binding proteins at physiological osmolyte concentrations is a novel extension of existing methods, and the identification of specific binding sites in disease-associated proteins adds originality. Scientific importance: The work addresses an emerging area of direct metabolite-protein interactions and has potential implications for understanding metabolic disease mechanisms. However, the physiological relevance of the TSC22D4 interaction is questionable given the weak affinity, which tempers the importance. Interdisciplinary readership: The work bridges metabolomics, proteomics, and cell biology, and would appeal to researchers in metabolism, chemical biology, and diabetes research. Technical soundness: The combination of orthogonal methods is a strength, but the missing controls and statistical details noted above reduce confidence. Readability for nonspecialists: The manuscript is generally well-organized and clearly written, though some methods (e.g., PISA, TRAP) may require additional context for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a promising approach and initial characterization of two glucose-binding proteins, but the physiological relevance of the TSC22D4 interaction and the causal link between glucose binding and IGF2BP2 function need to be strengthened. The missing statistical details and controls should be addressed.
+
+## Risk / unsupported claims
+- The claim that TSC22D4-glucose binding (Kd ≈ 464 μM) is physiologically relevant is unsupported without a quantitative discussion of occupancy at physiological glucose concentrations.
+- The claim that "glucose increases IGF2BP2 binding to client mRNAs" leading to enhanced insulin secretion is not fully supported, as the Y40A mutant was not tested for glucose-dependent RNA binding.
+- The claim that the PISA screen identified 23 proteins with "glucose-induced thermal solubility" is not fully assessable without statistical thresholds, replicate numbers, and FDR control.
+- The statement that "glucose increases accessibility of the leucine zipper region, resulting in intra-protein contacts" is based on BS3 crosslinking and TRAP data, but the functional consequence of this conformational change is not demonstrated.
+- The claim that TSC22D4 "associates with fatty acid metabolism machinery proteins in response to high glucose conditions" is presented without quantitative enrichment data or validation of the key interactions (e.g., by co-immunoprecipitation with endogenous proteins).
+- The statement that "IGF2BP2 Y40A exhibited a dominant negative impact on proliferation and insulin secretion" is not fully supported without showing that the mutant protein is expressed at comparable levels to WT and that the phenotype is specifically due to loss of glucose binding rather than other effects of the mutation.

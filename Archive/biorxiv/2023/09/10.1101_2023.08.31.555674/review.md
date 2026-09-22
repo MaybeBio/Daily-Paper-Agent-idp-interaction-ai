@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, methods, and supplementary figure/table legends as provided)
+- **Assessment boundary** Scientific claims, structural interpretations, experimental support, and technical soundness based solely on the provided manuscript content
+- **Shared manuscript claim summary** The authors report cryo-EM structures of human APC/C CDH1:EMI1 at 2.9 Å and apo-APC/C at 3.2 Å, improving on previous 3.6 Å reconstructions. They assign an N-terminal α-helix of CDH1 (CDH1 α1) binding to APC1 WD40, identify a novel zinc-binding module in APC2, model several intrinsically disordered regions, and propose a pseudo-substrate KEN motif in EMI1 that binds the CDH1 KEN-box site. They also present functional assays on chimeric coactivators, APC2 zinc-site mutants, and EMI1 KEN mutants.
+- **Visible evidence base** Cryo-EM maps and models (PDB 9GAW, 8PKP; EMDB entries listed in Supplementary Table 1), PIXE metal analysis, thermal stability assays, ubiquitination assays, SUMOylation assays, multiple sequence alignments, AlphaFold predictions, and supplementary figures and tables as referenced
+- **Missing materials affecting confidence** Supplementary figures and tables (including Supplementary Figs 1-8 and Supplementary Tables 1-3) were not provided in full; specific numerical data for ubiquitination and SUMOylation assays are not shown; PIXE quantification details are incomplete; validation statistics (e.g., MolProbity scores, FSC curves) are referenced but not presented
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically impressive improvement in APC/C cryo-EM structure determination, with several novel and potentially significant findings. The assignment of CDH1 α1, the identification of the APC2 zinc-binding module, and the EMI1 KEN motif are all interesting contributions. However, the functional significance of several findings remains incompletely established, and some conclusions are supported by limited or indirect evidence. The manuscript would benefit from clearer presentation of validation metrics and more direct functional data linking the structural features to APC/C regulation.
+- **Who would be interested in the results, and why** Cell cycle researchers, structural biologists studying large multi-subunit complexes, and investigators interested in ubiquitin ligase regulation. The improved APC/C structures will be a valuable resource for the community, and the findings on coactivator binding, zinc-dependent stability, and EMI1 inhibition mechanisms are directly relevant to understanding mitotic regulation and APC/C biology.
+- **Major strengths** 1) Significant improvement in resolution (2.9 Å and 3.2 Å) over previous APC/C structures, enabling unambiguous assignment of previously unbuilt regions. 2) The identification and experimental validation of a novel zinc-binding module in APC2 is a clear and well-supported finding. 3) The assignment of CDH1 α1 and the proposed phosphorylation-dependent regulatory mechanism is structurally compelling. 4) The use of AlphaFold predictions to aid modelling of difficult regions is appropriate and well-integrated. 5) The functional assays, while limited, are relevant and directly test the proposed mechanisms.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The authors claim that the EMI1 KEN motif binds the CDH1 KEN-box site and both enhances EMI1 affinity for APC/C CDH1 and blocks KEN-box dependent substrate binding.
+  - **Evidence pointer** Figure 6 and Supplementary Fig 6; ubiquitination assays described in Methods
+  - **Concern** The functional evidence for the EMI1 KEN motif is limited to a single ubiquitination assay using EMI1 105-340 fragments. The claim that the KEN motif enhances EMI1 binding affinity is not directly tested (e.g., by binding assays or kinetic measurements). Furthermore, the claim that the KEN motif blocks KEN-box dependent substrate binding is not tested with a competitive substrate. The assay shown demonstrates reduced ubiquitination of the ΔKEN mutant, but this could reflect altered substrate positioning rather than a specific KEN-box interaction. Direct binding or competition experiments are needed to support the proposed dual role.
+  - **Why it matters** The proposed EMI1 KEN motif is presented as a novel mechanism of APC/C inhibition. Without direct evidence for KEN-box binding and functional competition, the physiological relevance of this finding remains speculative.
+  - **Resolution test** Provide direct binding data (e.g., ITC, pull-down, or surface plasmon resonance) showing EMI1 KEN peptide binds CDH1 WD40 with measurable affinity, and demonstrate that a KEN-box containing substrate is competitively displaced by EMI1 or EMI1-derived peptides in ubiquitination assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors state that the CDH1 α1 helix overlaps with the C-terminal region of the APC1 300s loop (residues 400-402) as observed in the apo state, and that CDH1 binding pushes this loop upwards towards APC8.
+  - **Evidence pointer** Figure 2 and associated text; apo-APC/C structure (PDB 8PKP)
+  - **Concern** The conformational comparison between the apo and CDH1-bound states is described qualitatively. The manuscript does not provide a quantitative analysis of the conformational changes (e.g., RMSD calculations, domain movement vectors, or a superposition figure clearly showing the displacement). The claim that CDH1 α1 binding "pushes" the APC1 300s loop is a mechanistic interpretation that requires more rigorous structural evidence, such as a clear comparison of the two states with the relevant residues highlighted.
+  - **Why it matters** The proposed phosphorylation-dependent switch mechanism relies on this conformational coupling. If the structural comparison is not rigorously demonstrated, the mechanistic model is weakened.
+  - **Resolution test** Provide a clear superposition figure of apo-APC/C and APC/C CDH1:EMI1 with the APC1 300s loop and CDH1 α1 highlighted, along with quantitative measures of the conformational change (e.g., Cα RMSD for the relevant regions). If possible, include a local resolution map to show the confidence of the model in this region.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional significance
+  - **Claim pointer** The authors state that the zinc-binding module in APC2 confers thermostability on APC2 at temperatures above 37°C, and suggest it may play a role in APC/C activity under physiological conditions.
+  - **Evidence pointer** Figure 3e; thermal stability assays described in Methods
+  - **Concern** The thermal stability assay shows a clear difference in T m between wild-type and mutant APC2:APC11, which is a solid biophysical result. However, the physiological relevance is unclear. The authors acknowledge that future studies are needed, but the manuscript does not explore whether the zinc-binding module affects APC/C assembly, activity, or regulation in cells. The claim that it "confers thermostability at temperatures above 37°C" is somewhat misleading, as the T m1 of the wild-type is 43.8°C, which is above physiological temperature, and the mutant still has a T m1 of 35.7°C, which is close to physiological temperature. The functional significance of this difference is not established.
+  - **Why it matters** Without cellular or functional data, the physiological relevance of the zinc-binding module remains speculative. The finding is interesting but incomplete.
+  - **Resolution test** Perform cellular or biochemical assays to test whether disruption of the zinc-binding module affects APC/C function, assembly, or regulation under physiological conditions. Alternatively, temper the claims to reflect the biophysical observation without overstating physiological relevance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model completeness and validation
+  - **Claim pointer** The authors claim to have built "the most complete and accurate structural models of the APC/C available to date" and that several intrinsically disordered regions were modelled with the aid of AlphaFold predictions.
+  - **Evidence pointer** Model building section; Supplementary Table 2; Supplementary Table 3
+  - **Concern** The manuscript does not provide sufficient validation metrics for the newly built regions. While the overall resolution improvement is clear, the local resolution of the newly modelled IDRs and the confidence of the AlphaFold-guided assignments are not discussed in detail. The claim of "most complete and accurate" is strong and requires robust validation data, including local resolution maps, model-to-map fit statistics (e.g., Q-scores or CC values) for the newly built regions, and a discussion of any ambiguities.
+  - **Why it matters** The structural claims are the core of the manuscript. Without rigorous validation of the newly built regions, the reliability of the conclusions is uncertain.
+  - **Resolution test** Provide local resolution maps, model-to-map fit metrics for the newly built regions, and a discussion of the confidence of the AlphaFold-guided assignments. If possible, include a comparison of the new model with the previous model to highlight the improvements.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract states that the study provides "novel insights into the regulation of APC/C activity" but does not clearly summarize the key findings. The introduction is dense and assumes significant prior knowledge of APC/C biology.
+  - **Required correction** Consider revising the abstract to explicitly list the main findings (CDH1 α1 assignment, APC2 zinc-binding module, EMI1 KEN motif). The introduction could benefit from a brief primer on APC/C architecture for non-specialist readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 6 and Supplementary Fig 6
+  - **Evidence pointer** Figure 6, Supplementary Fig 6
+  - **Issue** The ubiquitination assay data for EMI1 105-340-WT and ΔKEN are described but the actual gel images or quantification are not shown in the provided text. The degree of reduced ubiquitination is not quantified.
+  - **Required correction** Include representative gel images and quantification (e.g., mean ± SD from at least three independent experiments) for the ubiquitination assays.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** PIXE experiments
+  - **Evidence pointer** Methods, Table 1
+  - **Issue** The PIXE experiment is described briefly, and the stoichiometry calculation (2.5 zinc ions per APC2:APC11) is mentioned but the details of the calibration and error analysis are not provided.
+  - **Required correction** Provide more detail on the PIXE data analysis, including the calibration method, the error on the zinc quantification, and how the stoichiometry was calculated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results and Discussion
+  - **Evidence pointer** Results and Discussion, "Apo-APC/C" section
+  - **Issue** The text states that the apo-APC/C structure was "rebuilt based on the revised 2.9 Å APC/C CDH1:EMI1 structure," but the details of what was rebuilt and how the two models were compared are not described.
+  - **Required correction** Clarify the relationship between the two models and describe the specific improvements in the apo-APC/C model.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Throughout
+  - **Evidence pointer** Various sections
+  - **Issue** Several statements reference "previous studies" or "as described previously" without specific citations in the provided text.
+  - **Required correction** Ensure all references are complete and specific, particularly for methods and prior structural work.
+- **Technical failings that need to be addressed before the case is established** 1) The functional evidence for the EMI1 KEN motif is insufficient; direct binding and competition experiments are needed. 2) The conformational comparison between apo and CDH1-bound states requires quantitative structural analysis. 3) Validation metrics for the newly built regions, particularly the IDRs, are lacking. 4) The physiological relevance of the APC2 zinc-binding module is not established.
+- **Assessment against Nature-style criteria** Originality: The findings are original, particularly the CDH1 α1 assignment and the APC2 zinc-binding module, which have not been previously reported. Scientific importance: The improved APC/C structures and the proposed regulatory mechanisms are of significant interest to the cell cycle and structural biology communities. Interdisciplinary readership: The work will appeal primarily to structural biologists and cell cycle researchers; the broader interdisciplinary appeal is moderate. Technical soundness: The cryo-EM methodology is sound, and the resolution improvement is clear. However, the functional assays are limited, and some structural interpretations require additional validation. Readability for nonspecialists: The manuscript is dense and assumes significant background knowledge; the abstract and introduction could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural findings are likely to be of interest, but the functional claims, particularly regarding the EMI1 KEN motif and the physiological relevance of the zinc-binding module, need to be strengthened. The manuscript would be suitable for publication after major revisions addressing the concerns above.
+
+## Risk / unsupported claims
+- The claim that the EMI1 KEN motif "blocks KEN-box dependent substrates from binding the APC/C" is not directly supported by the data presented; no competition or binding experiments are shown.
+- The claim that CDH1 α1 binding "pushes" the APC1 300s loop is a mechanistic interpretation not rigorously demonstrated by quantitative structural comparison.
+- The statement that the zinc-binding module "confers thermostability on APC2 at temperatures above 37°C" is imprecise, as the T m values are above physiological temperature for the wild-type and near it for the mutant; the physiological relevance is speculative.
+- The claim of "the most complete and accurate structural models of the APC/C available to date" is not fully supported without detailed validation metrics for the newly built regions.
+- The functional significance of the modelled IDRs in "proper APC/C assembly and regulation of its activity" is stated without direct experimental evidence.

@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "37988476",
+    "doi": "10.1021/acs.jctc.3c00525",
+    "title": "Coarse-Grained Models to Study Protein-DNA Interactions and Liquid-Liquid Phase Separation."
+  },
+  "content": {
+    "abstract": "Recent advances in coarse-grained (CG) computational models for DNA have enabled molecular-level insights into the behavior of DNA in complex multiscale systems. However, most existing CG DNA models are not compatible with CG protein models, limiting their applications for emerging topics such as protein-nucleic acid assemblies. Here, we present a new computationally efficient CG DNA model. We first use experimental data to establish the model's ability to predict various aspects of DNA behavior, including melting thermodynamics and relevant local structural properties such as the major and minor grooves. We then employ an all-atom hydropathy scale to define nonbonded interactions between protein and DNA sites, to make our DNA model compatible with an existing CG protein model (HPS-Urry), which is extensively used to study protein phase separation, and show that our new model reasonably reproduces the experimental binding affinity for a prototypical protein-DNA system. To further demonstrate the capabilities of this new model, we simulate a full nucleosome with and without histone tails, on a microsecond time scale, generating conformational ensembles and provide molecular insights into the role of histone tails in influencing the liquid-liquid phase separation (LLPS) of HP1alpha proteins. We find that histone tails interact favorably with DNA, influencing the conformational ensemble of the DNA and antagonizing the contacts between HP1alpha and DNA, thus affecting the ability of DNA to promote LLPS of HP1alpha. These findings shed light on the complex molecular framework that fine-tunes the phase transition properties of heterochromatin proteins and contributes to heterochromatin regulation and function. Overall, the CG DNA model presented here is suitable to facilitate micrometer-scale studies with sub-nm resolution in many biological and engineering applications and can be used to investigate protein-DNA complexes, such as nucleosomes, or LLPS of proteins with DNA, enabling a mechanistic understanding of how molecular information may be propagated at the genome level.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Histones/metabolism",
+      "*Heterochromatin",
+      "Phase Separation",
+      "DNA",
+      "Nucleosomes"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kapoor, Utkarsh",
+        "Kim, Young C",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Kapoor U",
+        "Kim YC",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4977-3405",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 78743, United States.",
+        "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, District of Columbia 20375, United States.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 78743, United States.",
+        "Department of Chemistry, Texas A&M University, College Station, Texas 78743, United States.",
+        "Interdisciplinary Graduate Program in Genetics in Genomics, Texas A&M University, College Station, Texas 78743, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kapoor, Utkarsh",
+        "short_name": "Kapoor U",
+        "identifiers": [
+          "0000-0002-4977-3405"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 78743, United States."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, District of Columbia 20375, United States."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 78743, United States.",
+          "Department of Chemistry, Texas A&M University, College Station, Texas 78743, United States.",
+          "Interdisciplinary Graduate Program in Genetics in Genomics, Texas A&M University, College Station, Texas 78743, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2024 Feb 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/21 18:43",
+    "fetched_at": "2026-09-21 02:59:59"
+  },
+  "links": {
+    "cites": [
+      "41902470",
+      "41875330",
+      "41652163",
+      "41279384",
+      "41129218",
+      "41114728",
+      "41001641",
+      "40954121",
+      "40853970",
+      "40830340",
+      "40782375",
+      "40777465",
+      "40766493",
+      "40661423",
+      "40614690",
+      "40531589",
+      "40350613",
+      "40029962",
+      "39605385",
+      "39148776",
+      "39055163",
+      "38885177",
+      "38592759"
+    ],
+    "refs": [
+      "36537242",
+      "35802394",
+      "35364104",
+      "35317553",
+      "35166834",
+      "34992286",
+      "34489435",
+      "34241389",
+      "34235262",
+      "33934416",
+      "33888707",
+      "33826337",
+      "33453922",
+      "33417833",
+      "33238611",
+      "32144738",
+      "31176328",
+      "31091895",
+      "30301810",
+      "29870236",
+      "29806939",
+      "29644850",
+      "29397721",
+      "29390830",
+      "29364893",
+      "29194442",
+      "29078285",
+      "27725965",
+      "27698366",
+      "27300314",
+      "26940867",
+      "26896338",
+      "26777980",
+      "26699921",
+      "26615701",
+      "26262925",
+      "26072273",
+      "25399156",
+      "25361282",
+      "25053341",
+      "24618358",
+      "24265699",
+      "24120937",
+      "24116642",
+      "23527587",
+      "23473491",
+      "23039613",
+      "22967176",
+      "22789535",
+      "22207822",
+      "22128958",
+      "21361556",
+      "21059937",
+      "20800089",
+      "20615963",
+      "20095755",
+      "19917233",
+      "18576630",
+      "18212006",
+      "18083189",
+      "17439252",
+      "17343470",
+      "16603492",
+      "15504401",
+      "14611559",
+      "12144782",
+      "12023209",
+      "11328188",
+      "10387087",
+      "9735291",
+      "9305837",
+      "8744570"
+    ],
+    "similar": [
+      "37988476",
+      "37292850",
+      "37870432",
+      "36537242",
+      "31952807",
+      "34001913",
+      "33934416",
+      "38592759",
+      "38048471",
+      "26699921",
+      "33660589",
+      "38429335",
+      "37915169",
+      "30514760",
+      "28636604",
+      "17142268",
+      "23142645",
+      "39383876",
+      "38547652",
+      "38746378",
+      "24069233",
+      "37398008",
+      "35158124",
+      "38979955",
+      "22243406",
+      "30007360",
+      "30845353",
+      "33453922",
+      "34489435",
+      "38862770",
+      "29339721",
+      "31618757",
+      "34850679",
+      "26262925",
+      "33076213",
+      "27300314",
+      "35166834",
+      "39302099",
+      "35381009",
+      "38160320",
+      "39193905",
+      "38309957",
+      "22385856",
+      "35580041",
+      "31866201",
+      "26575522",
+      "37943892",
+      "38664966",
+      "36710442",
+      "31701657",
+      "25517156",
+      "31176328",
+      "20232937",
+      "39192031",
+      "38106110",
+      "37662293",
+      "22409399",
+      "33309853",
+      "33551235",
+      "33876938",
+      "17060627",
+      "23418426",
+      "26956528",
+      "29336876",
+      "34152774",
+      "17252562",
+      "35042897",
+      "29685391",
+      "38076844",
+      "38443490",
+      "38512104",
+      "18270964",
+      "38546977",
+      "38289342",
+      "25332400",
+      "38870940",
+      "33667509",
+      "28185115",
+      "29644850",
+      "33387534",
+      "39148776",
+      "33888707",
+      "28764380",
+      "26192632",
+      "33133421",
+      "31984192",
+      "21361530",
+      "11336697",
+      "25418099",
+      "21441216",
+      "23927278",
+      "19498464",
+      "16687578",
+      "38187700",
+      "19280018",
+      "22004754",
+      "33661100",
+      "24662054",
+      "29466859",
+      "33037201"
+    ],
+    "review": [
+      "37988476",
+      "38547652",
+      "38979955",
+      "26575522",
+      "36710442",
+      "33309853",
+      "33551235",
+      "26956528"
+    ],
+    "pmc": [
+      "10911113"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37988476/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37988476",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.3c00525",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

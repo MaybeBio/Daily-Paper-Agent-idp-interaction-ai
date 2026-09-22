@@ -1,0 +1,442 @@
+{
+  "identity": {
+    "pmid": "41896944",
+    "doi": "10.1186/s12964-026-02767-6",
+    "title": "Stabilization of cyclin D3 protein by CDKN1A (p21(Cip/Waf1)) in butyrate-treated cells."
+  },
+  "content": {
+    "abstract": "Butyrate-mediated inhibition of cell proliferation is part of the preventive role of dietary fiber against colorectal cancer (CRC). This effect notably involves the cyclin-dependent kinase inhibitor CDKN1A (p21Cip/Waf1) in human intestinal cells, yet the underlying molecular mechanisms remain incompletely understood. Previously, we observed a paradoxical increase in cyclin D3 (CCND3)-but not cyclin D1-levels upon butyrate exposure. Here, we demonstrate that the butyrate-induced accumulation of CCND3 protein results both from mRNA increase and a CDKN1A-dependent protein stabilization, specifically extending its nuclear half-life. Proteomic analyses of CCND3 co-immunoprecipitates identified complexes particularly enriched in butyrate-treated cells and involving CDKN1A, CDK4, CDK6, and the CRC-associated kinase CDK5. Phosphorylation at a conserved Thr residue in the C-terminal intrinsically disordered region, crucial for CCND nuclear export and subsequent proteasomal degradation, was notably reduced following butyrate treatment and inversely correlated with CDKN1A expression levels. Structural modeling based on AlphaFold2, complemented by molecular dynamics simulations, revealed possible differential interactions between CDKN1A and cyclins D1 and D3, predicting that CCND3-Thr283 becomes structurally buried upon CDKN1A binding, limiting its phosphorylation. Our findings suggest novel mechanistic insights into how the droplet driver CDKN1A might regulate CCND3 stability, highlighting previously unexplored roles of cyclin D3-containing complexes in cell cycle arrest induced by butyrate.",
+    "keywords": [
+      "Butyrate",
+      "Cyclin D",
+      "Intrinsically disordered protein structure",
+      "Phosphorylation",
+      "Protein interactions"
+    ],
+    "mesh_terms": [
+      "*Cyclin-Dependent Kinase Inhibitor p21/metabolism/chemistry",
+      "Humans",
+      "Protein Stability/drug effects",
+      "*Butyrates/pharmacology",
+      "*Cyclin D3/metabolism/chemistry/genetics",
+      "Phosphorylation/drug effects",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ghrib, Mohammed Ala",
+        "Dayhoff, Guy W 2nd",
+        "Chahtour, Cherif",
+        "Rodrigues-Machado, Carine",
+        "Youssef, Abdelrahaman",
+        "Schillaci, Giorgio",
+        "Gautreau, Guillaume",
+        "Henry, Celine",
+        "Uversky, Vladimir N",
+        "Rigolet, Pascal",
+        "Blottiere, Herve M",
+        "Lelievre, Jean-Marc"
+      ],
+      "short_names": [
+        "Ghrib MA",
+        "Dayhoff GW 2nd",
+        "Chahtour C",
+        "Rodrigues-Machado C",
+        "Youssef A",
+        "Schillaci G",
+        "Gautreau G",
+        "Henry C",
+        "Uversky VN",
+        "Rigolet P",
+        "Blottiere HM",
+        "Lelievre JM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0856-978X"
+      ],
+      "affiliations": [
+        "Universite Paris-Saclay, INRAE, AgroParisTech, Micalis Institute, Jouy-en-Josas, F- 78350, France.",
+        "Department of Chemistry, University of South Florida, Tampa, FL, 33620, USA.",
+        "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD, 21201, USA.",
+        "Universite Paris-Saclay, INRAE, MGP, Jouy-en-Josas, F-78350, France.",
+        "Universite Paris-Saclay, INRAE, AgroParisTech, Micalis Institute, Jouy-en-Josas, F- 78350, France.",
+        "Universite Paris-Saclay, INRAE, MGP, Jouy-en-Josas, F-78350, France.",
+        "Department of Molecular Biosciences, University of South Florida, Tampa, FL, 33620, USA.",
+        "Universite Paris-Saclay, INRAE, MGP, Jouy-en-Josas, F-78350, France.",
+        "Universite Paris-Saclay, INRAE, MAIAGE, Jouy-en-Josas, F-78350, France.",
+        "Universite Paris-Saclay, INRAE, AgroParisTech, Micalis Institute, Jouy-en-Josas, F- 78350, France.",
+        "Department of Molecular Medicine, and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, 33620, USA.",
+        "Universite Paris-Saclay, Orsay, 91405, France.",
+        "Universite Paris-Saclay, INRAE, AgroParisTech, Micalis Institute, Jouy-en-Josas, F- 78350, France.",
+        "Universite Paris-Saclay, INRAE, MGP, Jouy-en-Josas, F-78350, France.",
+        "Nantes Universite,INRAE, IMAD, UMR 1280 PhAN, CHU Hotel-Dieu, Place Alexis Ricordeau, Nantes, F-44000, France.",
+        "Universite Paris-Saclay, INRAE, AgroParisTech, Micalis Institute, Jouy-en-Josas, F- 78350, France. jean-marc.lelievre@inrae.fr.",
+        "Universite Paris-Saclay, INRAE, MGP, Jouy-en-Josas, F-78350, France. jean-marc.lelievre@inrae.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ghrib, Mohammed Ala",
+        "short_name": "Ghrib MA",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INRAE, AgroParisTech, Micalis Institute, Jouy-en-Josas, F- 78350, France."
+        ]
+      },
+      {
+        "full_name": "Dayhoff, Guy W",
+        "short_name": "Dayhoff GW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of South Florida, Tampa, FL, 33620, USA.",
+          "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD, 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Chahtour, Cherif",
+        "short_name": "Chahtour C",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INRAE, MGP, Jouy-en-Josas, F-78350, France."
+        ]
+      },
+      {
+        "full_name": "Rodrigues-Machado, Carine",
+        "short_name": "Rodrigues-Machado C",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INRAE, AgroParisTech, Micalis Institute, Jouy-en-Josas, F- 78350, France."
+        ]
+      },
+      {
+        "full_name": "Youssef, Abdelrahaman",
+        "short_name": "Youssef A",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INRAE, MGP, Jouy-en-Josas, F-78350, France."
+        ]
+      },
+      {
+        "full_name": "Schillaci, Giorgio",
+        "short_name": "Schillaci G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biosciences, University of South Florida, Tampa, FL, 33620, USA."
+        ]
+      },
+      {
+        "full_name": "Gautreau, Guillaume",
+        "short_name": "Gautreau G",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INRAE, MGP, Jouy-en-Josas, F-78350, France.",
+          "Université Paris-Saclay, INRAE, MAIAGE, Jouy-en-Josas, F-78350, France."
+        ]
+      },
+      {
+        "full_name": "Henry, Céline",
+        "short_name": "Henry C",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INRAE, AgroParisTech, Micalis Institute, Jouy-en-Josas, F- 78350, France."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, 33620, USA."
+        ]
+      },
+      {
+        "full_name": "Rigolet, Pascal",
+        "short_name": "Rigolet P",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, Orsay, 91405, France."
+        ]
+      },
+      {
+        "full_name": "Blottière, Hervé M",
+        "short_name": "Blottière HM",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, INRAE, AgroParisTech, Micalis Institute, Jouy-en-Josas, F- 78350, France.",
+          "Université Paris-Saclay, INRAE, MGP, Jouy-en-Josas, F-78350, France.",
+          "Nantes Université,INRAE, IMAD, UMR 1280 PhAN, CHU Hôtel-Dieu, Place Alexis Ricordeau, Nantes, F-44000, France."
+        ]
+      },
+      {
+        "full_name": "Lelièvre, Jean-Marc",
+        "short_name": "Lelièvre JM",
+        "identifiers": [
+          "0000-0003-0856-978X"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, INRAE, AgroParisTech, Micalis Institute, Jouy-en-Josas, F- 78350, France. jean-marc.lelievre@inrae.fr.",
+          "Université Paris-Saclay, INRAE, MGP, Jouy-en-Josas, F-78350, France. jean-marc.lelievre@inrae.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell communication and signaling : CCS"
+    ],
+    "journal_abbrev": [
+      "Cell Commun Signal"
+    ],
+    "pub_date": "2026 Mar 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/28 06:39",
+    "fetched_at": "2026-09-18 01:57:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40578285",
+      "39965630",
+      "39200243",
+      "38458201",
+      "37074084",
+      "36350034",
+      "36334049",
+      "35966199",
+      "35445278",
+      "34830152",
+      "34677127",
+      "34293345",
+      "34265844",
+      "33503380",
+      "33122824",
+      "31885322",
+      "31831640",
+      "31698798",
+      "31696832",
+      "31467029",
+      "31163256",
+      "31023505",
+      "30901834",
+      "30143714",
+      "30061045",
+      "29860432",
+      "29754332",
+      "28751497",
+      "27735944",
+      "27138454",
+      "27061836",
+      "25649771",
+      "25436423",
+      "25288112",
+      "25266735",
+      "25087893",
+      "24727949",
+      "24515438",
+      "24280698",
+      "24177748",
+      "24116071",
+      "24010479",
+      "23644662",
+      "23390492",
+      "23079655",
+      "23063526",
+      "23000424",
+      "22951541",
+      "22885699",
+      "22189166",
+      "21734724",
+      "20408171",
+      "20100603",
+      "17407153",
+      "17406391",
+      "17212484",
+      "17205132",
+      "16717102",
+      "16618368",
+      "16537903",
+      "16299712",
+      "16211538",
+      "16160080",
+      "15955779",
+      "15868485",
+      "15769473",
+      "15389542",
+      "15326477",
+      "15149598",
+      "14712207",
+      "14612495",
+      "12955081",
+      "12740064",
+      "12727871",
+      "12444543",
+      "11751903",
+      "11375949",
+      "11124803",
+      "11093259",
+      "10716680",
+      "10597247",
+      "10385618",
+      "10373569",
+      "10075928",
+      "9832503",
+      "9618491",
+      "9584157",
+      "9467956",
+      "9268365",
+      "9125124",
+      "7784076",
+      "7753174",
+      "7308309",
+      "7214343",
+      "1974861",
+      "1358458",
+      "212178",
+      "2548"
+    ],
+    "similar": [
+      "41896944",
+      "25486476",
+      "16717102",
+      "10716680",
+      "9663465",
+      "20970954",
+      "11756412",
+      "8584027",
+      "10607727",
+      "9099745",
+      "10022898",
+      "20113529",
+      "16916940",
+      "8651753",
+      "9655257",
+      "7664296",
+      "10712520",
+      "16782892",
+      "24533688",
+      "8930396",
+      "9407125",
+      "15171713",
+      "9492054",
+      "10362250",
+      "11355576",
+      "10899165",
+      "11807956",
+      "10942587",
+      "14526425",
+      "10896783",
+      "9528753",
+      "37055530",
+      "24292681",
+      "20107311",
+      "11106251",
+      "39988732",
+      "17881769",
+      "9716177",
+      "26926171",
+      "12730225",
+      "11423993",
+      "10693934",
+      "10477583",
+      "12085346",
+      "22814742",
+      "15498118",
+      "19211566",
+      "8957087",
+      "16956884",
+      "9778049",
+      "11089522",
+      "15033903",
+      "9811471",
+      "28607489",
+      "26372468",
+      "11463860",
+      "10597222",
+      "23894605",
+      "9667749",
+      "16294008",
+      "12455373",
+      "11023508",
+      "11272092",
+      "12429646",
+      "10597247",
+      "8999999",
+      "28368408",
+      "38714024",
+      "11029587",
+      "10373569",
+      "18296682",
+      "17513615",
+      "9092548",
+      "14597415",
+      "16537903",
+      "12899527",
+      "9106657",
+      "9135019",
+      "7649471",
+      "11751903",
+      "17517622",
+      "20935470",
+      "8994188",
+      "9210954",
+      "11073976",
+      "19009649",
+      "21789682",
+      "11154267",
+      "11420705",
+      "9154817",
+      "15263796",
+      "11360184",
+      "14729633",
+      "9125124",
+      "18773862",
+      "11350919",
+      "11260657",
+      "16434969",
+      "17013808",
+      "25689470"
+    ],
+    "review": [
+      "41896944",
+      "11355576"
+    ],
+    "pmc": [
+      "13151386"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biosignaling.biomedcentral.com/articles/10.1186/s12964-026-02767-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41896944/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CCND1-3",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

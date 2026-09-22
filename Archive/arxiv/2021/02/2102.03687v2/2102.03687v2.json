@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2102.03687v2",
+  "title": "A Simple Explicit-Solvent Model of Polyampholyte Phase Behaviors and its Ramifications for Dielectric Effects in Biomolecular Condensates",
+  "doi": "10.1021/acs.jpcb.1c00954",
+  "abstract": "Biomolecular condensates such as membraneless organelles, underpinned by liquid-liquid phase separation (LLPS), are important for physiological function, with electrostatics -- among other interaction types -- being a prominent force in their assembly. Charge interactions of intrinsically disordered proteins (IDPs) and other biomolecules are sensitive to the aqueous dielectric environment. Because the relative permittivity of protein is significantly lower than that of water, the interior of an IDP condensate is a relatively low-dielectric regime, which, aside from its possible functional effects on client molecules, should facilitate stronger electrostatic interactions among the scaffold IDPs. To gain insight into this LLPS-induced dielectric heterogeneity, addressing in particular whether a low-dielectric condensed phase entails more favorable LLPS than that posited by assuming IDP electrostatic interactions are uniformly modulated by the higher dielectric constant of the pure solvent, we consider a simplified multiple-chain model of polyampholytes immersed in explicit solvents that are either polarizable or possess a permanent dipole. Notably, simulated phase behaviors of these systems exhibit only minor to moderate differences from those obtained using implicit-solvent models with a uniform relative permittivity equals to that of pure solvent. Buttressed by theoretical treatments developed here using random phase approximation and polymer field-theoretic simulations, these observations indicate a partial compensation of effects between favorable solvent-mediated interactions among the polyampholytes in the condensed phase and favorable polyampholyte-solvent interactions in the dilute phase, often netting only a minor enhancement of overall LLPS propensity from the very dielectric heterogeneity that arises from the LLPS itself. Further ramifications of this principle are discussed.",
+  "authors": [
+    "Jonas Wessén",
+    "Tanmoy Pal",
+    "Suman Das",
+    "Yi-Hsuan Lin",
+    "Hue Sun Chan"
+  ],
+  "published_date": "2021-02-06T23:52:36Z",
+  "updated_date": "2021-04-07T06:08:30Z",
+  "journal": "J. Phys. Chem. B 125, 4337-4358 (2021)",
+  "category": "q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2102.03687v2",
+  "pdf_url": "https://arxiv.org/pdf/2102.03687v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2102.03687v2",
+    "raw_categories": [
+      "q-bio.BM"
+    ],
+    "journal_ref": "J. Phys. Chem. B 125, 4337-4358 (2021)"
+  }
+}

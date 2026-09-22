@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.05.22.727120",
+  "title": "ARACoFusion: Uncertainty-aware calibrated deep learning for protein-protein interaction network prediction in <i>Arabidopsis thaliana</i>",
+  "authors": "Dipayan Sarkar; Chiranjib Sarkar",
+  "journal": "bioRxiv",
+  "published_date": "2026-05-26",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度学习预测拟南芥PPI网络，方法上含注意力机制与不确定性校准，但对象非无序蛋白/相分离，且未涉及互作机制建模，仅作网络预测，故为中档。",
+  "abstract": "Accurate mapping of the Arabidopsis thaliana protein-protein interaction (PPI) network is essential for deciphering complexity of plant systems biology. Here, we present ARACoFusion, a specialized deep learning architecture designed to predict inter-protein connectivity directly from primary sequences. To capture the asymmetric dependencies between plant proteins, the framework utilizes a reciprocal cross-attention encoder combined with latent interaction projections and multi-source feature fusion. Addressing the severe class imbalance inherent in plant interactomes, the model integrates uncertainty-aware variance regularization and focal loss with label smoothing, further enhancing reliability through post-hoc probability calibration via temperature scaling. Extensive benchmarking on gold-standard Arabidopsis datasets demonstrates that ARACoFusion significantly outperforms existing plant-specific predictors, achieving superior scores in Area Under the Precision-Recall Curve (AUPRC), Balanced Accuracy, and Matthew’s Correlation Coefficient (MCC). Additionally, the model exhibits robust cross-species generalization and clear class separability in t-SNE latent space visualizations. To facilitate community-wide usage, we provide a dedicated web server for scalable network-level inference at https://ARAcofusion.compbiosysnbu.in/ .",
+  "abstract_zh": "拟南芥（Arabidopsis thaliana）蛋白质-蛋白质相互作用（PPI）网络的精确映射对于解析植物系统生物学的复杂性至关重要。在此，我们提出ARACoFusion，一种专门的深度学习架构，旨在直接从初级序列预测蛋白质间连接性。为捕捉植物蛋白质之间的非对称依赖性，该框架利用互惠交叉注意力编码器，结合潜在相互作用投影和多源特征融合。针对植物相互作用组中固有的严重类别不平衡问题，该模型整合了不确定性感知方差正则化和带标签平滑的焦点损失，并通过温度缩放的事后概率校准进一步增强可靠性。在金标准拟南芥数据集上的广泛基准测试表明，ARACoFusion显著优于现有植物特异性预测器，在精确率-召回率曲线下面积（AUPRC）、平衡准确率和马修斯相关系数（MCC）方面取得卓越得分。此外，该模型在t-SNE潜在空间可视化中展现出稳健的跨物种泛化能力和清晰的类别可分性。为促进社区广泛使用，我们提供了一个专用网络服务器，用于可扩展的网络级推断，网址为 https://ARAcofusion.compbiosysnbu.in/ 。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.05.22.727120",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.05.22.727120",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.05.22.727120/index.html"
+}

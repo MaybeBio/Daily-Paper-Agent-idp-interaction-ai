@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report coarse-grained Monte Carlo simulations of amyloid-beta 42 using a statistical potential derived from intrinsically disordered proteins. They claim that the two-body potential captures hydrophobic and electrostatic interactions, that increased two-body hydrophobic interactions favor amorphous over fibrillar aggregates, that aggregate formation is validated by interchain distances and total energy, that aggregates show decreased solvent-accessible surface area (SASA), increased non-local interactions, and a distinct free energy minimum relative to the monomer, and that hydrophobic residues drive nucleation while charged residues drive oligomerization and aggregation.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or validation metrics are visible
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, parameter values, dataset composition for the statistical potential, convergence criteria, error analysis, comparison with experimental or prior computational results, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible simulation study of amyloid-beta 42 aggregation, but the evidence base is too limited to evaluate the validity of the central claims. The methodological choices are described only qualitatively, and no quantitative results are provided. The mechanistic conclusions, while interesting, are not supported by any visible data in the supplied material. The work may have merit, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in protein aggregation, amyloid biology, and computational biophysics would be interested because the study addresses the molecular driving forces of amyloid-beta 42 aggregation, which is central to Alzheimer's disease pathology. Those developing coarse-grained models for disordered proteins would also find the statistical potential approach relevant.
+- **Major strengths** The study addresses a biologically important problem with a computationally tractable approach. The use of a statistical potential derived from intrinsically disordered proteins is a reasonable strategy for modeling amyloid-beta 42. The abstract identifies specific interaction types and proposes a mechanistic distinction between nucleation and oligomerization, which provides a clear conceptual framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the two-body potential captures hydrophobic and electrostatic interactions and that increased two-body hydrophobic interactions facilitate amorphous aggregate formation.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative description of the two-body potential, its functional form, or how hydrophobic and electrostatic contributions are separated. The claim that increased hydrophobic interactions favor amorphous over fibrillar aggregates is presented without any comparative data or control simulations.
+  - **Why it matters** Without details on the potential and the simulation conditions, the reader cannot assess whether the observed aggregation behavior is an artifact of the model or a genuine physical result. The distinction between amorphous and fibrillar aggregates is structurally significant, and the claim requires evidence that the model can actually distinguish these states.
+  - **Resolution test** Provide the functional form of the two-body potential, the range of interaction strengths tested, and quantitative comparison of aggregate morphologies under varying hydrophobic interaction strengths, including error bars and replicate simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that aggregate formation is validated by interchain distances and total energy, and that aggregates show decreased SASA, increased non-local interactions, and a distinct free energy minimum.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No numerical values, statistical measures, or comparison to the monomeric state are provided. The free energy minimum is mentioned but no free energy calculation method or profile is described. The validation metrics are listed but not quantified.
+  - **Why it matters** These metrics are central to the claim that aggregation occurs and that the aggregate state is thermodynamically distinct. Without quantitative data, the claims are unverifiable and could reflect simulation artifacts such as insufficient sampling or finite-size effects.
+  - **Resolution test** Report the numerical values for interchain distances, total energy, SASA, non-local contact fraction, and free energy differences with associated uncertainties. Describe the free energy calculation method and show the profile comparing monomer and aggregate states.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that a statistical potential is developed from a selected dataset of intrinsically disordered proteins.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The dataset composition, selection criteria, and validation of the statistical potential are not described. No information is given on how the potential was benchmarked against known protein behavior or experimental data.
+  - **Why it matters** The reliability of all simulation results depends on the quality of the potential. Without details on the dataset and validation, the potential could be biased or poorly transferable to amyloid-beta 42, undermining the entire study.
+  - **Resolution test** Describe the dataset size, sequence diversity, and selection criteria. Provide validation results showing that the potential reproduces known structural properties of disordered proteins or amyloid peptides.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses terms such as "two-body potential" and "non-local interactions" without brief definitions, which may limit accessibility for readers outside computational biophysics.
+  - **Required correction** Add a brief parenthetical explanation for these terms, for example "two-body potential (pairwise interaction energy)" and "non-local interactions (contacts between residues distant in sequence)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the simulation length, number of chains, or system size, which are essential for interpreting the aggregation results.
+  - **Required correction** Include the number of simulated chains, simulation box size, and total simulation time in the abstract or methods summary.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific context
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not compare the findings to experimental observations of amyloid-beta 42 aggregation, such as the known role of hydrophobic core residues or the existence of oligomeric intermediates.
+  - **Required correction** Add a sentence relating the simulation findings to experimental evidence on amyloid-beta 42 aggregation to strengthen the biological relevance.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, potential details, and validation data means that the central claims of aggregation mechanism and structural characterization cannot be assessed.
+- **Assessment against Nature-style criteria** Originality: The approach of using a statistical potential from disordered proteins for amyloid-beta 42 is moderately original, but the abstract does not show how it advances beyond existing coarse-grained models. Scientific importance: The topic is important for Alzheimer's disease research, but the abstract does not demonstrate a new biological insight that would elevate its significance. Interdisciplinary readership: The work could appeal to biophysicists and computational chemists, but the abstract is too technical and lacks context for a broader audience. Technical soundness: Not assessable from the abstract due to missing methodological and quantitative details. Readability for nonspecialists: The abstract is concise but uses jargon without explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The study may be sound, but the abstract alone does not provide sufficient data or methodological detail to support the claims. A full manuscript with quantitative results and validation would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that increased two-body hydrophobic interactions facilitate amorphous rather than fibrillar aggregate formation is unsupported by any visible comparative data.
+- The claim that aggregate formation is validated by interchain distances and total energy is unsupported because no numerical values or statistical analysis are provided.
+- The claim that aggregates show decreased SASA, increased non-local interactions, and a distinct free energy minimum is unsupported without quantitative data and a described free energy method.
+- The claim that hydrophobic residues help in nucleation while charged residues help in oligomerization and aggregation is unsupported by any residue-level analysis or mutation data.
+- The statistical potential development and its validation are not assessable from the supplied material.

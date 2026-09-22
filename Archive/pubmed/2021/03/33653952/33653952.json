@@ -1,0 +1,488 @@
+{
+  "identity": {
+    "pmid": "33653952",
+    "doi": "10.1073/pnas.2015618118",
+    "title": "Mesoscopic protein-rich clusters host the nucleation of mutant p53 amyloid fibrils."
+  },
+  "content": {
+    "abstract": "The protein p53 is a crucial tumor suppressor, often called \"the guardian of the genome\"; however, mutations transform p53 into a powerful cancer promoter. The oncogenic capacity of mutant p53 has been ascribed to enhanced propensity to fibrillize and recruit other cancer fighting proteins in the fibrils, yet the pathways of fibril nucleation and growth remain obscure. Here, we combine immunofluorescence three-dimensional confocal microscopy of human breast cancer cells with light scattering and transmission electron microscopy of solutions of the purified protein and molecular simulations to illuminate the mechanisms of phase transformations across multiple length scales, from cellular to molecular. We report that the p53 mutant R248Q (R, arginine; Q, glutamine) forms, both in cancer cells and in solutions, a condensate with unique properties, mesoscopic protein-rich clusters. The clusters dramatically diverge from other protein condensates. The cluster sizes are decoupled from the total cluster population volume and independent of the p53 concentration and the solution concentration at equilibrium with the clusters varies. We demonstrate that the clusters carry out a crucial biological function: they host and facilitate the nucleation of amyloid fibrils. We demonstrate that the p53 clusters are driven by structural destabilization of the core domain and not by interactions of its extensive unstructured region, in contradistinction to the dense liquids typical of disordered and partially disordered proteins. Two-step nucleation of mutant p53 amyloids suggests means to control fibrillization and the associated pathologies through modifying the cluster characteristics. Our findings exemplify interactions between distinct protein phases that activate complex physicochemical mechanisms operating in biological systems.",
+    "keywords": [
+      "fibrillization",
+      "nucleation mechanism",
+      "precursors"
+    ],
+    "mesh_terms": [
+      "Amino Acid Substitution",
+      "Amyloid/*chemistry/genetics/metabolism",
+      "Humans",
+      "MCF-7 Cells",
+      "*Mutation, Missense",
+      "Tumor Suppressor Protein p53/*chemistry/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, David S",
+        "Saeedi, Arash",
+        "Davtyan, Aram",
+        "Fathi, Mohsen",
+        "Sherman, Michael B",
+        "Safari, Mohammad S",
+        "Klindziuk, Alena",
+        "Barton, Michelle C",
+        "Varadarajan, Navin",
+        "Kolomeisky, Anatoly B",
+        "Vekilov, Peter G"
+      ],
+      "short_names": [
+        "Yang DS",
+        "Saeedi A",
+        "Davtyan A",
+        "Fathi M",
+        "Sherman MB",
+        "Safari MS",
+        "Klindziuk A",
+        "Barton MC",
+        "Varadarajan N",
+        "Kolomeisky AB",
+        "Vekilov PG"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7742-3819",
+        "ORCID: 0000-0001-9971-4166",
+        "ORCID: 0000-0002-3680-8066",
+        "ORCID: 0000-0001-7524-8228",
+        "ORCID: 0000-0001-5677-6690",
+        "ORCID: 0000-0002-3424-8720"
+      ],
+      "affiliations": [
+        "William A. Brookshire Department of Chemical and Biomolecular Engineering, University of Houston, Houston, TX 77204.",
+        "William A. Brookshire Department of Chemical and Biomolecular Engineering, University of Houston, Houston, TX 77204.",
+        "Department of Chemistry, Rice University, Houston, TX 77251.",
+        "William A. Brookshire Department of Chemical and Biomolecular Engineering, University of Houston, Houston, TX 77204.",
+        "Department of Biochemistry and Molecular Biology, University of Texas Medical Branch, Galveston, TX 77555.",
+        "Sealy Center for Structural Biology and Molecular Biophysics, University of Texas Medical Branch, Galveston, TX 77555.",
+        "William A. Brookshire Department of Chemical and Biomolecular Engineering, University of Houston, Houston, TX 77204.",
+        "Department of Molecular Biology, Princeton University, Princeton, NJ 08544.",
+        "Department of Chemistry, Rice University, Houston, TX 77251.",
+        "Department of Epigenetics and Molecular Carcinogenesis, The University of Texas MD Anderson Cancer Center, Houston, TX 77030.",
+        "William A. Brookshire Department of Chemical and Biomolecular Engineering, University of Houston, Houston, TX 77204.",
+        "Department of Chemistry, Rice University, Houston, TX 77251.",
+        "Center for Theoretical Biological Physics, Rice University, Houston, TX 77251.",
+        "William A. Brookshire Department of Chemical and Biomolecular Engineering, University of Houston, Houston, TX 77204; vekilov@uh.edu.",
+        "Department of Chemistry, University of Houston, Houston, TX 77204."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, David S",
+        "short_name": "Yang DS",
+        "identifiers": [
+          "0000-0001-7742-3819"
+        ],
+        "affiliations": [
+          "William A. Brookshire Department of Chemical and Biomolecular Engineering, University of Houston, Houston, TX 77204."
+        ]
+      },
+      {
+        "full_name": "Saeedi, Arash",
+        "short_name": "Saeedi A",
+        "identifiers": [],
+        "affiliations": [
+          "William A. Brookshire Department of Chemical and Biomolecular Engineering, University of Houston, Houston, TX 77204."
+        ]
+      },
+      {
+        "full_name": "Davtyan, Aram",
+        "short_name": "Davtyan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Rice University, Houston, TX 77251."
+        ]
+      },
+      {
+        "full_name": "Fathi, Mohsen",
+        "short_name": "Fathi M",
+        "identifiers": [
+          "0000-0001-9971-4166"
+        ],
+        "affiliations": [
+          "William A. Brookshire Department of Chemical and Biomolecular Engineering, University of Houston, Houston, TX 77204."
+        ]
+      },
+      {
+        "full_name": "Sherman, Michael B",
+        "short_name": "Sherman MB",
+        "identifiers": [
+          "0000-0002-3680-8066"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Texas Medical Branch, Galveston, TX 77555.",
+          "Sealy Center for Structural Biology and Molecular Biophysics, University of Texas Medical Branch, Galveston, TX 77555."
+        ]
+      },
+      {
+        "full_name": "Safari, Mohammad S",
+        "short_name": "Safari MS",
+        "identifiers": [],
+        "affiliations": [
+          "William A. Brookshire Department of Chemical and Biomolecular Engineering, University of Houston, Houston, TX 77204.",
+          "Department of Molecular Biology, Princeton University, Princeton, NJ 08544."
+        ]
+      },
+      {
+        "full_name": "Klindziuk, Alena",
+        "short_name": "Klindziuk A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Rice University, Houston, TX 77251."
+        ]
+      },
+      {
+        "full_name": "Barton, Michelle C",
+        "short_name": "Barton MC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epigenetics and Molecular Carcinogenesis, The University of Texas MD Anderson Cancer Center, Houston, TX 77030."
+        ]
+      },
+      {
+        "full_name": "Varadarajan, Navin",
+        "short_name": "Varadarajan N",
+        "identifiers": [
+          "0000-0001-7524-8228"
+        ],
+        "affiliations": [
+          "William A. Brookshire Department of Chemical and Biomolecular Engineering, University of Houston, Houston, TX 77204."
+        ]
+      },
+      {
+        "full_name": "Kolomeisky, Anatoly B",
+        "short_name": "Kolomeisky AB",
+        "identifiers": [
+          "0000-0001-5677-6690"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Rice University, Houston, TX 77251.",
+          "Center for Theoretical Biological Physics, Rice University, Houston, TX 77251."
+        ]
+      },
+      {
+        "full_name": "Vekilov, Peter G",
+        "short_name": "Vekilov PG",
+        "identifiers": [
+          "0000-0002-3424-8720"
+        ],
+        "affiliations": [
+          "William A. Brookshire Department of Chemical and Biomolecular Engineering, University of Houston, Houston, TX 77204; vekilov@uh.edu.",
+          "Department of Chemistry, University of Houston, Houston, TX 77204."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2021 Mar 9",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/04 06:00",
+    "fetched_at": "2026-09-20 01:51:39"
+  },
+  "links": {
+    "cites": [
+      "42497281",
+      "41536998",
+      "41334905",
+      "40804158",
+      "40668067",
+      "40449598",
+      "40273505",
+      "40221836",
+      "40124402",
+      "39975445",
+      "39661689",
+      "39284933",
+      "39198705",
+      "39148776",
+      "39071719",
+      "38612940",
+      "38435052",
+      "37794023",
+      "37681092",
+      "37250469",
+      "37164156",
+      "36625274",
+      "36293489",
+      "36232329",
+      "36230002",
+      "36164646",
+      "36117111",
+      "35921445",
+      "35787038",
+      "35558561",
+      "35340607",
+      "35298090",
+      "35142991"
+    ],
+    "refs": [
+      "31953488",
+      "31634364",
+      "31457104",
+      "31147533",
+      "31099555",
+      "30739016",
+      "30285883",
+      "29930090",
+      "29358329",
+      "29064502",
+      "28935776",
+      "28881129",
+      "28868354",
+      "28292898",
+      "28193873",
+      "27838525",
+      "27698130",
+      "27489111",
+      "27212236",
+      "27145840",
+      "26748848",
+      "26565277",
+      "26536272",
+      "26215675",
+      "26144225",
+      "25675527",
+      "24739573",
+      "24665023",
+      "24449867",
+      "24357366",
+      "24282292",
+      "23305200",
+      "23263379",
+      "22889282",
+      "22869713",
+      "22768950",
+      "22715097",
+      "22545654",
+      "21764777",
+      "21639491",
+      "21530061",
+      "21445056",
+      "21132117",
+      "21097469",
+      "20423058",
+      "20204471",
+      "19460965",
+      "19361437",
+      "18172579",
+      "17493579",
+      "17449671",
+      "17051203",
+      "16688164",
+      "14990498",
+      "12955122",
+      "12367518",
+      "12070342",
+      "10713666",
+      "10411893",
+      "9504803",
+      "8744570",
+      "8168507",
+      "8023157",
+      "2610349",
+      "2456365",
+      "2062844"
+    ],
+    "similar": [
+      "33653952",
+      "22715097",
+      "16260757",
+      "16460008",
+      "30739016",
+      "24003888",
+      "12634062",
+      "28881129",
+      "39007865",
+      "18996393",
+      "25692950",
+      "23261448",
+      "30826454",
+      "30548750",
+      "24687952",
+      "24100332",
+      "34172723",
+      "10704204",
+      "32386876",
+      "37477386",
+      "21056685",
+      "24598910",
+      "31028175",
+      "35796018",
+      "28644435",
+      "31841126",
+      "37379327",
+      "22002245",
+      "22869713",
+      "37665658",
+      "14519637",
+      "24775734",
+      "35082148",
+      "20113312",
+      "25453085",
+      "26442703",
+      "16687402",
+      "29260852",
+      "26536272",
+      "33984364",
+      "18550490",
+      "36108750",
+      "27481166",
+      "19173542",
+      "22893702",
+      "11156366",
+      "29191831",
+      "24368046",
+      "19923901",
+      "23209591",
+      "26030124",
+      "10411893",
+      "29670092",
+      "20978130",
+      "9990839",
+      "18199664",
+      "18342332",
+      "22438863",
+      "35276047",
+      "28420731",
+      "30787262",
+      "30602570",
+      "22889282",
+      "23294335",
+      "19596087",
+      "33004626",
+      "21112305",
+      "19773755",
+      "19913028",
+      "18692132",
+      "23251530",
+      "28813011",
+      "35856925",
+      "32917811",
+      "26077813",
+      "33184287",
+      "36555140",
+      "21454711",
+      "20656489",
+      "10064694",
+      "26196342",
+      "26144225",
+      "32260447",
+      "25284680",
+      "17170111",
+      "28373279",
+      "34612239",
+      "21445056",
+      "16364365",
+      "17401433",
+      "16533927",
+      "33208462",
+      "26181206",
+      "9766574",
+      "11791616",
+      "26923710",
+      "23233678",
+      "10926522"
+    ],
+    "review": [
+      "33653952",
+      "24003888",
+      "25692950",
+      "30826454",
+      "24598910",
+      "37379327",
+      "24775734",
+      "29260852",
+      "18550490",
+      "11156366",
+      "24368046",
+      "23294335",
+      "20656489",
+      "32260447",
+      "17401433"
+    ],
+    "pmc": [
+      "7958401"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2015618118?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33653952/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33653952",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/33653952",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33653952",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

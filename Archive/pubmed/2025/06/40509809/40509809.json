@@ -1,0 +1,364 @@
+{
+  "identity": {
+    "pmid": "40509809",
+    "doi": "10.1021/acs.jcim.5c00785",
+    "title": "The Glycine-Rich Region as a Flexible Molecular Glue Promoting hPrP(106-145) Aggregation into beta-Sheet Structures."
+  },
+  "content": {
+    "abstract": "The abnormal aggregation of human prion protein (hPrP) into cross-beta fibrillar amyloid deposits is associated with prion diseases such as Creutzfeldt-Jakob disease and fatal familial insomnia. However, the molecular mechanisms underlying the early stages of prion aggregation remain poorly understood. In this study, we employed multiple long-time scale atomistic discrete molecular dynamics (DMD) simulations to investigate the conformational dynamics of hPrP(106-145), a critical fragment with intrinsic aggregation propensity and key involvement in infectivity. Our results revealed that the hPrP(106-145) monomer primarily adopted a helical conformation in the alanine-rich region (residues 109-118), while the remaining sequence was largely unstructured, exhibiting dynamic beta-sheet formation around residues (120)AVV(122), (128)YVL(130), and (138)IIH(140). Upon dimerization, beta-sheet formation was significantly enhanced, particularly around (138)IIH(140), which displayed the highest beta-sheet propensity and interpeptide contact frequency, underscoring its pivotal role in aggregate stabilization. The glycine-rich region (residues 119-131) was found to facilitate aggregation by conferring structural flexibility due to glycine's minimal steric hindrance. This flexibility allowed hydrophobic and aromatic residues to collapse dynamically, forming transient intra- and interpeptide beta-sheets. These interactions acted as a molecular glue, promoting aggregation while maintaining structural adaptability. Although beta-sheet formation lowered potential energy, excessive beta-sheet content resulted in significant entropic loss, highlighting a trade-off between stability and conformational entropy. Overall, this study provides molecular insights into the early nucleation events of hPrP(106-145) aggregation, emphasizing the critical role of glycine-mediated flexibility. Our findings deepen the understanding of prion misfolding and offer a computational framework for exploring glycine-rich peptide phase separation in amyloid-related disorders.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "*Glycine/chemistry",
+      "*Protein Aggregates",
+      "Protein Conformation, beta-Strand",
+      "Humans",
+      "*Prion Proteins/chemistry/metabolism",
+      "Protein Multimerization",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Xiaohan",
+        "Xu, Huan",
+        "Tang, Huayuan",
+        "Lv, Zhongyue",
+        "Zou, Yu",
+        "Huang, Fengjuan",
+        "Ding, Feng",
+        "Sun, Yunxiang"
+      ],
+      "short_names": [
+        "Zhang X",
+        "Xu H",
+        "Tang H",
+        "Lv Z",
+        "Zou Y",
+        "Huang F",
+        "Ding F",
+        "Sun Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5699-5869",
+        "ORCID: 0000-0003-1850-6336",
+        "ORCID: 0000-0001-9799-7131"
+      ],
+      "affiliations": [
+        "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+        "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+        "Department of Engineering Mechanics, Hohai University, Nanjing 211100, China.",
+        "Ningbo Institute of Innovation for Combined Medicine and Engineering, The Affiliated LiHuiLi Hospital of Ningbo University, Ningbo 315211, China.",
+        "Department of Neurology, The Affiliated LiHuiLi Hospital of Ningbo University, Ningbo 315211, China.",
+        "Department of Sport and Exercise Science, Zhejiang University, Hangzhou 310058, China.",
+        "Ningbo Institute of Innovation for Combined Medicine and Engineering, The Affiliated LiHuiLi Hospital of Ningbo University, Ningbo 315211, China.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States.",
+        "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Xiaohan",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Huan",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Huayuan",
+        "short_name": "Tang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Engineering Mechanics, Hohai University, Nanjing 211100, China."
+        ]
+      },
+      {
+        "full_name": "Lv, Zhongyue",
+        "short_name": "Lv Z",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Institute of Innovation for Combined Medicine and Engineering, The Affiliated LiHuiLi Hospital of Ningbo University, Ningbo 315211, China.",
+          "Department of Neurology, The Affiliated LiHuiLi Hospital of Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Yu",
+        "short_name": "Zou Y",
+        "identifiers": [
+          "0000-0001-5699-5869"
+        ],
+        "affiliations": [
+          "Department of Sport and Exercise Science, Zhejiang University, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Fengjuan",
+        "short_name": "Huang F",
+        "identifiers": [],
+        "affiliations": [
+          "Ningbo Institute of Innovation for Combined Medicine and Engineering, The Affiliated LiHuiLi Hospital of Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Ding, Feng",
+        "short_name": "Ding F",
+        "identifiers": [
+          "0000-0003-1850-6336"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+        ]
+      },
+      {
+        "full_name": "Sun, Yunxiang",
+        "short_name": "Sun Y",
+        "identifiers": [
+          "0000-0001-9799-7131"
+        ],
+        "affiliations": [
+          "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Jul 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/13 06:35",
+    "fetched_at": "2026-09-21 19:48:09"
+  },
+  "links": {
+    "cites": [
+      "42346789",
+      "40853068"
+    ],
+    "refs": [
+      "40305655",
+      "39761900",
+      "39504036",
+      "39354680",
+      "39342654",
+      "39226847",
+      "38745385",
+      "38553587",
+      "38424082",
+      "38164981",
+      "37964018",
+      "37434215",
+      "36646960",
+      "36580661",
+      "36565210",
+      "36456917",
+      "36440874",
+      "36098068",
+      "36097290",
+      "36069777",
+      "36056255",
+      "35901284",
+      "35857020",
+      "35831275",
+      "34687758",
+      "34648275",
+      "34502545",
+      "34433091",
+      "33936250",
+      "32514176",
+      "32284600",
+      "31270472",
+      "31207327",
+      "31097749",
+      "30981220",
+      "30908844",
+      "30502402",
+      "30214057",
+      "30181558",
+      "30042992",
+      "29389107",
+      "29151170",
+      "28838659",
+      "28702523",
+      "28674988",
+      "28030950",
+      "27849581",
+      "26638022",
+      "24606939",
+      "22676969",
+      "22280505",
+      "21839748",
+      "21441913",
+      "21296677",
+      "18672869",
+      "18611374",
+      "17046666",
+      "15755151",
+      "15493925",
+      "15169044",
+      "12834829",
+      "12641727",
+      "11466311",
+      "10753811",
+      "10618385",
+      "10220323",
+      "8097911",
+      "7913763",
+      "7902575",
+      "6667333",
+      "1557131"
+    ],
+    "similar": [
+      "40509809",
+      "41448320",
+      "39761900",
+      "24498083",
+      "39504036",
+      "36456917",
+      "42475469",
+      "37782573",
+      "31661961",
+      "27576687",
+      "36278939",
+      "27390876",
+      "38745385",
+      "39778221",
+      "30502402",
+      "30336980",
+      "24028418",
+      "28241387",
+      "40853068",
+      "39226847",
+      "42312952",
+      "42334185",
+      "36098068",
+      "33289734",
+      "34032430",
+      "30605312",
+      "41299034",
+      "30575391",
+      "38164981",
+      "41872054",
+      "23294335",
+      "39643934",
+      "21761818",
+      "27091578",
+      "32392276",
+      "29789820",
+      "22876967",
+      "41386615",
+      "26911543",
+      "27736724",
+      "30935958",
+      "36179370",
+      "29967919",
+      "29019683",
+      "37038252",
+      "27844078",
+      "42409643",
+      "40916915",
+      "19089953",
+      "41173868",
+      "28406520",
+      "39422640",
+      "38483181",
+      "37253119",
+      "16204250",
+      "41045215",
+      "21674205",
+      "31271401",
+      "23607785",
+      "27184108",
+      "19108587",
+      "40605637",
+      "39009034",
+      "33049945",
+      "31161647",
+      "33322900",
+      "37262327",
+      "23811055",
+      "25785896",
+      "34848178",
+      "21174134",
+      "40962260",
+      "27616019",
+      "27933940",
+      "35269542",
+      "23951128",
+      "32108838",
+      "38731878",
+      "36841957",
+      "12237456",
+      "37964757",
+      "29401635",
+      "39875340",
+      "42002168",
+      "37218694",
+      "30696005",
+      "30908844",
+      "37217059",
+      "34153362",
+      "41825390",
+      "30367504",
+      "36037966",
+      "31685848",
+      "35134456",
+      "37070341",
+      "40167418",
+      "30722990",
+      "27214008",
+      "38489841",
+      "20442863"
+    ],
+    "review": [
+      "40509809",
+      "23294335",
+      "29789820",
+      "37038252"
+    ],
+    "pmc": [
+      "12227174"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40509809/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c00785",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

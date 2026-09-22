@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "40963550",
+    "doi": "10.1039/d5sc04862a",
+    "title": "Simulations reveal a balance between protein-protein and protein-lipid interactions during condensation on membrane surfaces."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation of protein condensates occurs frequently on biological membranes, where it is involved in diverse physiological processes from cell-cell recognition to endocytosis. Several recent studies have suggested that binding to lipids promotes phase separation of proteins. However, relatively little is known about the underlying molecular mechanisms. Here we use coarse-grained molecular dynamics simulations, grounded by data from experiments, to investigate the condensation of intrinsically disordered proteins on membrane surfaces. Attaching polyampholytic intrinsically disordered proteins to membranes composed of lipids with neutral head groups resulted in spontaneous protein condensation and coarsening on membrane surfaces, in agreement with experimentally-derived phase diagrams. Introducing lipids with negatively charged head groups strengthened association of proteins with membranes. However, as the concentration of charged lipids increased, protein-lipid interactions began to compete with protein-protein interactions, driving protein condensates to disperse, as confirmed by experiments. Contrary to previous understanding, this work suggests that negatively charged membranes, which are found throughout the cell, can regulate protein condensation both positively and negatively, depending on the balance between protein-protein and protein-lipid interactions.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zinga, Ketsia",
+        "Lee, Yohan",
+        "Pathak, Shireen",
+        "Patel, Nishi",
+        "Stachowiak, Jeanne",
+        "Ren, Pengyu"
+      ],
+      "short_names": [
+        "Zinga K",
+        "Lee Y",
+        "Pathak S",
+        "Patel N",
+        "Stachowiak J",
+        "Ren P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8877-3830",
+        "ORCID: 0000-0002-0440-8092",
+        "ORCID: 0009-0002-9275-4717",
+        "ORCID: 0000-0003-2501-142X",
+        "ORCID: 0000-0002-5613-1910"
+      ],
+      "affiliations": [
+        "University of Texas at Austin, Department of Biomedical Engineering Austin TX 78712 USA jcstach@austin.utexas.edu pren@utexas.edu.",
+        "University of Texas at Austin, Department of Biomedical Engineering Austin TX 78712 USA jcstach@austin.utexas.edu pren@utexas.edu.",
+        "University of Texas at Austin, Department of Biomedical Engineering Austin TX 78712 USA jcstach@austin.utexas.edu pren@utexas.edu.",
+        "University of Texas at Austin, Department of Biomedical Engineering Austin TX 78712 USA jcstach@austin.utexas.edu pren@utexas.edu.",
+        "University of Texas at Austin, Department of Biomedical Engineering Austin TX 78712 USA jcstach@austin.utexas.edu pren@utexas.edu.",
+        "University of Texas at Austin, Department of Chemical Engineering Austin TX 78712 USA.",
+        "University of Texas at Austin, Department of Biomedical Engineering Austin TX 78712 USA jcstach@austin.utexas.edu pren@utexas.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zinga, Ketsia",
+        "short_name": "Zinga K",
+        "identifiers": [
+          "0000-0001-8877-3830"
+        ],
+        "affiliations": [
+          "University of Texas at Austin, Department of Biomedical Engineering Austin TX 78712 USA jcstach@austin.utexas.edu pren@utexas.edu."
+        ]
+      },
+      {
+        "full_name": "Lee, Yohan",
+        "short_name": "Lee Y",
+        "identifiers": [
+          "0000-0002-0440-8092"
+        ],
+        "affiliations": [
+          "University of Texas at Austin, Department of Biomedical Engineering Austin TX 78712 USA jcstach@austin.utexas.edu pren@utexas.edu."
+        ]
+      },
+      {
+        "full_name": "Pathak, Shireen",
+        "short_name": "Pathak S",
+        "identifiers": [],
+        "affiliations": [
+          "University of Texas at Austin, Department of Biomedical Engineering Austin TX 78712 USA jcstach@austin.utexas.edu pren@utexas.edu."
+        ]
+      },
+      {
+        "full_name": "Patel, Nishi",
+        "short_name": "Patel N",
+        "identifiers": [
+          "0009-0002-9275-4717"
+        ],
+        "affiliations": [
+          "University of Texas at Austin, Department of Biomedical Engineering Austin TX 78712 USA jcstach@austin.utexas.edu pren@utexas.edu."
+        ]
+      },
+      {
+        "full_name": "Stachowiak, Jeanne",
+        "short_name": "Stachowiak J",
+        "identifiers": [
+          "0000-0003-2501-142X"
+        ],
+        "affiliations": [
+          "University of Texas at Austin, Department of Biomedical Engineering Austin TX 78712 USA jcstach@austin.utexas.edu pren@utexas.edu.",
+          "University of Texas at Austin, Department of Chemical Engineering Austin TX 78712 USA."
+        ]
+      },
+      {
+        "full_name": "Ren, Pengyu",
+        "short_name": "Ren P",
+        "identifiers": [
+          "0000-0002-5613-1910"
+        ],
+        "affiliations": [
+          "University of Texas at Austin, Department of Biomedical Engineering Austin TX 78712 USA jcstach@austin.utexas.edu pren@utexas.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2025 Oct 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/18 06:31",
+    "fetched_at": "2026-09-17 20:10:48"
+  },
+  "links": {
+    "cites": [
+      "42465451",
+      "41965924"
+    ],
+    "refs": [
+      "39112699",
+      "38698644",
+      "38049424",
+      "37957331",
+      "37770422",
+      "37190858",
+      "37126554",
+      "36821400",
+      "36739277",
+      "36460640",
+      "36173346",
+      "35865903",
+      "35507881",
+      "35412456",
+      "35411085",
+      "35377637",
+      "34265844",
+      "33820972",
+      "33782607",
+      "33688043",
+      "33597515",
+      "33307683",
+      "33155649",
+      "32924281",
+      "32312191",
+      "31675499",
+      "31604601",
+      "31096049",
+      "30682370",
+      "30061688",
+      "29064502",
+      "28935776",
+      "28851831",
+      "27392146",
+      "27056844",
+      "26575938",
+      "26574417",
+      "26015579",
+      "25586378",
+      "25531225",
+      "24773235",
+      "23708257",
+      "18351591",
+      "17569554",
+      "16211538",
+      "11306272"
+    ],
+    "similar": [
+      "40963550",
+      "37190858",
+      "37162535",
+      "32393642",
+      "38407041",
+      "37352127",
+      "35411085",
+      "38462838",
+      "40970906",
+      "31604601",
+      "37159305",
+      "39225535",
+      "38049424",
+      "39319382",
+      "26764733",
+      "31499808",
+      "40559352",
+      "32368578",
+      "26222139",
+      "40588121",
+      "36749320",
+      "32179374",
+      "27141936",
+      "36322659",
+      "36778479",
+      "40373290",
+      "35865903",
+      "40946167",
+      "22325271",
+      "34285781",
+      "27841477",
+      "33076213",
+      "37742069",
+      "32936641",
+      "40297234",
+      "38260590",
+      "33496264",
+      "24892900",
+      "33876938",
+      "41031027",
+      "40009520",
+      "27797198",
+      "38656803",
+      "35085576",
+      "39025580",
+      "34293345",
+      "33069007",
+      "40848932",
+      "38579181",
+      "34737230",
+      "37753922",
+      "39947751",
+      "37241931",
+      "41169547",
+      "35054543",
+      "37843472",
+      "25719673",
+      "34621743",
+      "36524527",
+      "35930639",
+      "34716273",
+      "32212610",
+      "33629837",
+      "29159013",
+      "34165988",
+      "30926670",
+      "37006777",
+      "37418523",
+      "33453922",
+      "39248370",
+      "40781776",
+      "40389455",
+      "37425774",
+      "33441107",
+      "35179885",
+      "35428303",
+      "17921207",
+      "35562982",
+      "26659855",
+      "18065451",
+      "39450869",
+      "27742354",
+      "41372463",
+      "40143738",
+      "35869787",
+      "32639157",
+      "39568948",
+      "27526680",
+      "37993409",
+      "35802394",
+      "36642341",
+      "38287572",
+      "23912807",
+      "32571937",
+      "37705794",
+      "34203110",
+      "21884678",
+      "28924037",
+      "29874610",
+      "33307683"
+    ],
+    "review": [
+      "40963550",
+      "31604601",
+      "40559352",
+      "34285781",
+      "34293345",
+      "33069007",
+      "39947751",
+      "34621743",
+      "36524527",
+      "29159013",
+      "35179885",
+      "35802394"
+    ],
+    "pmc": [
+      "12439209"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40963550/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d5sc04862a",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40963550",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

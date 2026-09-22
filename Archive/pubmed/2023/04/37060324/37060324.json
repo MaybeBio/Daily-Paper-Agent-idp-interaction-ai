@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "37060324",
+    "doi": "10.1002/pro.4643",
+    "title": "Electronegative clusters modulate folding status and RNA binding of unstructured RNA-binding proteins."
+  },
+  "content": {
+    "abstract": "Electronegative clusters (ENCs) made up of acidic residues and/or phosphorylation sites are the most abundant repetitive sequences in RNA-binding proteins. Previous studies have indicated that ENCs inhibit RNA binding for structured RNA-binding domains (RBDs). However, this is not the case for the unstructured RBD in histone pre-mRNA stem-loop binding protein (SLBP). The SLBP RBD contains 70 amino acids and is followed by a phosphorylatable ENC. ENC phosphorylation increases RNA-binding affinity of SLBP to the sub-picomolar range. In this study, we use NMR and molecular dynamics simulations to elucidate the mechanism for this tight binding. Our NMR data demonstrate that the ENC transiently folds apo SLBP into an RNA-bound resembling state. We find that in the RNA-bound state, the phosphorylated ENC interacts with the loop region opposite to the RNA-binding site. This allosteric interaction stabilizes the complex and therefore enhances RNA binding. To evaluate the generality of our findings, we graft an ENC onto endoribonuclease homolog 1's first double-stranded RNA-binding motif (DRBM1), an unstructured RBD that shares no homology with SLBP. We find that the engineered ENC increases the folded species of DRBM1 and inhibits RNA binding. On the contrary, introducing basic residues to DRBM1 makes the domain more unfolded, enhances RNA binding, and mitigates the inhibitory effect of the engineered ENC. In summary, our study suggests that ENCs promote folding of unstructured RNA-binding domains, and their effects on RNA binding depend on the electropositive charges on the RBD surface.",
+    "keywords": [
+      "RNA-binding proteins",
+      "acidic patch",
+      "allostery",
+      "electronegative clusters",
+      "intrinsically disordered proteins",
+      "poly-D/E",
+      "stem-loop binding protein"
+    ],
+    "mesh_terms": [
+      "*Histones/metabolism",
+      "*Nuclear Proteins/chemistry",
+      "mRNA Cleavage and Polyadenylation Factors/metabolism",
+      "RNA, Messenger/metabolism",
+      "RNA-Binding Proteins/chemistry",
+      "Binding Sites",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zaharias, Steve",
+        "Fargason, Talia",
+        "Greer, Rory",
+        "Song, Yuhua",
+        "Zhang, Jun"
+      ],
+      "short_names": [
+        "Zaharias S",
+        "Fargason T",
+        "Greer R",
+        "Song Y",
+        "Zhang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2583-850X",
+        "ORCID: 0000-0002-5842-7424"
+      ],
+      "affiliations": [
+        "Department of Chemistry, College of Arts and Sciences, The University of Alabama at Birmingham, Birmingham, Alabama, USA.",
+        "Department of Chemistry, College of Arts and Sciences, The University of Alabama at Birmingham, Birmingham, Alabama, USA.",
+        "Department of Biomedical Engineering, The University of Alabama at Birmingham, Birmingham, Alabama, USA.",
+        "Department of Biomedical Engineering, The University of Alabama at Birmingham, Birmingham, Alabama, USA.",
+        "Department of Chemistry, College of Arts and Sciences, The University of Alabama at Birmingham, Birmingham, Alabama, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zaharias, Steve",
+        "short_name": "Zaharias S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Arts and Sciences, The University of Alabama at Birmingham, Birmingham, Alabama, USA."
+        ]
+      },
+      {
+        "full_name": "Fargason, Talia",
+        "short_name": "Fargason T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Arts and Sciences, The University of Alabama at Birmingham, Birmingham, Alabama, USA."
+        ]
+      },
+      {
+        "full_name": "Greer, Rory",
+        "short_name": "Greer R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, The University of Alabama at Birmingham, Birmingham, Alabama, USA."
+        ]
+      },
+      {
+        "full_name": "Song, Yuhua",
+        "short_name": "Song Y",
+        "identifiers": [
+          "0000-0002-2583-850X"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, The University of Alabama at Birmingham, Birmingham, Alabama, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jun",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0002-5842-7424"
+        ],
+        "affiliations": [
+          "Department of Chemistry, College of Arts and Sciences, The University of Alabama at Birmingham, Birmingham, Alabama, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2023 May",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/16 06:00",
+    "fetched_at": "2026-09-20 21:13:04"
+  },
+  "links": {
+    "cites": [
+      "40631955",
+      "39885181",
+      "38365983"
+    ],
+    "refs": [
+      "34593993",
+      "34246632",
+      "33237286",
+      "30357350",
+      "30055158",
+      "29425356",
+      "29100108",
+      "29040681",
+      "28826489",
+      "28196883",
+      "27037624",
+      "26995783",
+      "26101256",
+      "25533957",
+      "25002523",
+      "24061923",
+      "23329046",
+      "23203878",
+      "23161676",
+      "22911360",
+      "22554188",
+      "22080206",
+      "20639465",
+      "19626706",
+      "18375510",
+      "16200636",
+      "16094605",
+      "15572765",
+      "12565051",
+      "12473341",
+      "12381310",
+      "12192062",
+      "11784292",
+      "11025552",
+      "10908673",
+      "8876165",
+      "8744570",
+      "8520220",
+      "7108955"
+    ],
+    "similar": [
+      "37060324",
+      "34246632",
+      "22439849",
+      "23286197",
+      "11238936",
+      "25002523",
+      "25893362",
+      "12588979",
+      "10207079",
+      "28289156",
+      "11214174",
+      "15987814",
+      "12192062",
+      "22907757",
+      "12391154",
+      "25379382",
+      "23941746",
+      "18025107",
+      "15829567",
+      "16931877",
+      "16492733",
+      "11105762",
+      "24255165",
+      "7899087",
+      "14536070",
+      "27773672",
+      "15260483",
+      "8957003",
+      "11871662",
+      "16125165",
+      "12415002",
+      "18036581",
+      "26377992",
+      "19155325",
+      "37021545",
+      "25266719",
+      "12242288",
+      "24122909",
+      "19759367",
+      "14762208",
+      "15358832",
+      "25748361",
+      "29483154",
+      "11782445",
+      "11105754",
+      "8652556",
+      "24145821",
+      "27254819",
+      "15260482",
+      "16982637",
+      "8643381",
+      "18490441",
+      "10571029",
+      "23329046",
+      "25016523",
+      "37516934",
+      "15611298",
+      "27203182",
+      "15916543",
+      "11157774",
+      "28118078",
+      "9148924",
+      "34416372",
+      "40239992",
+      "8548655",
+      "11871659",
+      "14999087",
+      "23234701",
+      "10825184",
+      "29288414",
+      "16495235",
+      "16914750",
+      "33408246",
+      "9199325",
+      "12809490",
+      "29695507",
+      "17499042",
+      "8548656",
+      "19470752",
+      "1380452",
+      "8676391",
+      "17570845",
+      "35929799",
+      "29529248",
+      "19450530",
+      "10080895",
+      "9862964",
+      "23804756",
+      "23071092",
+      "15546920",
+      "14706861",
+      "22467188",
+      "19298784",
+      "11531333",
+      "11284683",
+      "8083209",
+      "20634199",
+      "10710426",
+      "11023788",
+      "34487791"
+    ],
+    "review": [
+      "37060324",
+      "25748361",
+      "10571029"
+    ],
+    "pmc": [
+      "10127258"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37060324/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37060324",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4643",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

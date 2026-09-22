@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.25.645354",
+  "title": "Biomolecular condensate microstructure couples molecular and mesoscale properties",
+  "authors": "Tan D; Aierken D; Garcia PL; Joseph JA",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-27",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化分子模拟与图论分析，揭示LCD无序蛋白凝聚体微观网络结构（小世界网络、hub/clique）如何耦合单分子构象与液滴尺度材料性质，直接聚焦IDR凝聚体中的互作网络机制建模，方法为物理模拟，高度契合本课题。",
+  "abstract": "Biomolecular condensates, including those formed by prion-like low complexity domains (LCDs) of proteins, are typically maintained by networks of molecular interactions. Such collective interactions give rise to the rich array of material behaviors underlying condensate function. Previous work has uncovered distinct LCD conformations in condensates versus dilute phases, and recently, single-component LCD condensates have been predicted to exhibit microstructures with “small-world” networks—where molecular nodes are highly clustered and connected via short pathlengths. However, a framework linking single-molecule properties, condensate microstructure, and macroscopic material properties remains elusive. Here, we combine molecular simulation and graph-theoretic analysis to reveal how molecular features encode condensate microstructure, which impacts molecule-scale conformations and droplet-scale material properties. Using a residue-resolution coarse-grained model, we probe condensates comprising natural LCD sequences and generalize our findings by varying composition and patterning in binary sequences of hydrophobic and polar residues. We show that non-blocky sequences form condensates with small-world internal networks featuring “hubs”—molecules responsible for global connectivity—and “cliques”, molecular clusters bound by persistent short-ranged associations. Cliques localize near interfaces without a secondary phase transition, suggesting a role in mediating molecular partitioning and condensate aging by tuning interfacial material properties. Moreover, we demonstrate that network smallworldness predicts droplet surface tension. We also track single-molecule structure and dynamics inside condensates, revealing that internal heterogeneity at the single-molecule level is systematically encoded by network topology. Collectively, our work establishes multiscale structure–property relationships in LCD condensates, providing general principles for designing and interpreting condensates with complex internal organization and material properties.",
+  "abstract_zh": "生物分子凝聚体，包括由蛋白质的朊病毒样低复杂度结构域（LCDs）形成的那些，通常通过分子相互作用网络来维持。这些集体相互作用产生了支撑凝聚体功能的丰富材料行为。先前的研究已揭示凝聚体与稀相中LCD构象的差异，并且最近，单组分LCD凝聚体被预测会表现出具有“小世界”网络的微结构——其中分子节点高度聚集并通过短路径长度相连。然而，一个将单分子性质、凝聚体微结构和宏观材料性质联系起来的框架仍然难以捉摸。在此，我们结合分子模拟和图论分析，揭示分子特征如何编码凝聚体微结构，这影响分子尺度构象和液滴尺度材料性质。使用残基分辨率的粗粒化模型，我们探测包含天然LCD序列的凝聚体，并通过改变疏水性和极性残基二元序列的组成和模式来推广我们的发现。我们表明，非嵌段序列形成的凝聚体具有小世界内部网络，其特征包括“枢纽”——负责全局连接的分子——以及“团簇”，即由持久短程关联结合的分子簇。团簇在界面附近定位，无需次级相变，表明其在通过调节界面材料性质来介导分子分配和凝聚体老化中发挥作用。此外，我们证明网络小世界性可预测液滴表面张力。我们还追踪凝聚体内单分子结构和动力学，揭示单分子水平的内部异质性由网络拓扑系统编码。总体而言，我们的工作建立了LCD凝聚体中的多尺度结构-性质关系，为设计和解释具有复杂内部组织和材料性质的凝聚体提供了通用原则。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.25.645354",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.25.645354",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.25.645354/index.html"
+}

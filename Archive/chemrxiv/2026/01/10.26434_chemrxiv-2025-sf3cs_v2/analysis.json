@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-sf3cs/v2",
+  "title": "A new benchmark for deep learning based affinity prediction: Solving the inter-protein scoring noise problem",
+  "authors": "Malte Grieswelle; Samuel Homberg; Philipp Janssen; Johannes Kaminski; Joana Massa; Ann-Kathrin Prinz; Stefan Georgiev; Oliver Koch",
+  "journal": "ChemRxiv",
+  "published_date": "2026-01-29",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 3,
+  "one_liner_zh": "该文提出基于靶标识别的新基准，评估深度学习模型Boltz-2在蛋白-配体亲和力预测中的泛化能力，但对象为折叠蛋白与小分子，不涉及无序蛋白或PPI机制建模，仅方法思路对亲和力预测基准有间接启发。",
+  "abstract": "The incredible advances in deep learning architectures have not only led to successful protein structure prediction methods, but also to many interesting new methods related to protein-ligand docking and co-folding. The most recent biomolecular foundation model, Boltz-2, even claimed to approach the performance of free-energy perturbation (FEP) in estimating small molecule–protein binding affinity. However, there is still an ongoing debate about the capabilities of such models regarding generalisation or memorisation. A comprehensive assessment remains difficult due to the lack of demanding and relevant benchmark data sets. Here, we present a new approach to benchmark affinity prediction based on the interprotein scoring noise problem of classical scoring functions. This well-known phenomenon describes the problem that classical scoring functions are capable of enriching active molecules for a protein target but are unable to identify the correct protein target for a given active molecule. This is due to scoring variation between different binding pockets, which limits the ranking capabilities for target identification. In contrast, a successful and reliable binding affinity prediction method should be able to identify the correct protein target and differentiate between binders and non-binders. We therefore developed a new benchmark set for target identification based on the LIT-PCBA and tested whether Boltz-2 can correctly identify the target of active molecules. Our study highlights that, while the affinity module of Boltz-2 seems promising, it is still not able to identify the correct protein target by correctly predicting a higher binding affinity in comparison to the decoy targets. This indicates that a generalisation of protein-ligand interactions is still not achieved, which is in line with other benchmarks that indicate a memorizing effect. Such a benchmark can be seen as the next major hurdle to successful deep-learning-based affinity prediction using protein-ligand complexes. Any model or method truly capable of accurate binding affinity prediction should perform well on target-prediction benchmark tasks",
+  "abstract_zh": "深度学习架构的惊人进展不仅催生了成功的蛋白质结构预测方法，也带来了许多与蛋白质-配体对接和共折叠相关的新颖方法。最新的生物分子基础模型Boltz-2甚至声称在估算小分子-蛋白质结合亲和力方面接近自由能微扰 (free-energy perturbation, FEP) 的性能。然而，关于此类模型在泛化或记忆方面的能力仍存在持续争论。由于缺乏要求严格且相关的基准数据集，全面评估仍然困难。在此，我们提出一种基于经典评分函数中蛋白质间评分噪声问题的新亲和力预测基准方法。这一众所周知的现象描述了这样一个问题：经典评分函数能够为某一蛋白质靶标富集活性分子，但无法为给定活性分子识别正确的蛋白质靶标。这源于不同结合口袋之间的评分差异，限制了靶标识别的排序能力。相比之下，一个成功且可靠的结合亲和力预测方法应能识别正确的蛋白质靶标，并区分结合物与非结合物。因此，我们基于LIT-PCBA开发了一个新的靶标识别基准集，并测试Boltz-2是否能正确识别活性分子的靶标。我们的研究强调，尽管Boltz-2的亲和力模块看似有前景，但它仍无法通过正确预测比诱饵靶标更高的结合亲和力来识别正确的蛋白质靶标。这表明蛋白质-配体相互作用的泛化尚未实现，这与其他表明记忆效应的基准结果一致。此类基准可被视为基于蛋白质-配体复合物的深度学习亲和力预测成功的下一个主要障碍。任何真正能够准确预测结合亲和力的模型或方法都应在靶标预测基准任务中表现良好。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-sf3cs/v2",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-sf3cs/v2",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-sf3cs_v2/index.html"
+}

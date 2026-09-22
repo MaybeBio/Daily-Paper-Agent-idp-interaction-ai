@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "39693390",
+    "doi": "10.7554/eLife.97709",
+    "title": "An integrated machine learning approach delineates an entropic expansion mechanism for the binding of a small molecule to alpha-synuclein."
+  },
+  "content": {
+    "abstract": "The mis-folding and aggregation of intrinsically disordered proteins (IDPs) such as alpha-synuclein (alphaS) underlie the pathogenesis of various neurodegenerative disorders. However, targeting alphaS with small molecules faces challenges due to the lack of defined ligand-binding pockets in its disordered structure. Here, we implement a deep artificial neural network-based machine learning approach, which is able to statistically distinguish the fuzzy ensemble of conformational substates of alphaS in neat water from those in aqueous fasudil (small molecule of interest) solution. In particular, the presence of fasudil in the solvent either modulates pre-existing states of alphaS or gives rise to new conformational states of alphaS, akin to an ensemble-expansion mechanism. The ensembles display strong conformation-dependence in residue-wise interaction with the small molecule. A thermodynamic analysis indicates that small-molecule modulates the structural repertoire of alphaS by tuning protein backbone entropy, however entropy of the water remains unperturbed. Together, this study sheds light on the intricate interplay between small molecules and IDPs, offering insights into entropic modulation and ensemble expansion as key biophysical mechanisms driving potential therapeutics.",
+    "keywords": [
+      "alpha synuclein",
+      "machine learning",
+      "molecular biophysics",
+      "none",
+      "small molecule",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "*Entropy",
+      "*Machine Learning",
+      "Protein Binding",
+      "1-(5-Isoquinolinesulfonyl)-2-Methylpiperazine/analogs & derivatives/chemistry/pharmacology",
+      "Humans",
+      "Protein Conformation",
+      "Thermodynamics",
+      "Intrinsically Disordered Proteins/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Menon, Sneha",
+        "Adhikari, Subinoy",
+        "Mondal, Jagannath"
+      ],
+      "short_names": [
+        "Menon S",
+        "Adhikari S",
+        "Mondal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1079-8928",
+        "ORCID: 0000-0003-1090-5199"
+      ],
+      "affiliations": [
+        "Tata Institute of Fundamental Research, Hyderabad, India.",
+        "Tata Institute of Fundamental Research, Hyderabad, India.",
+        "Tata Institute of Fundamental Research, Hyderabad, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Menon, Sneha",
+        "short_name": "Menon S",
+        "identifiers": [
+          "0000-0003-1079-8928"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Adhikari, Subinoy",
+        "short_name": "Adhikari S",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Jagannath",
+        "short_name": "Mondal J",
+        "identifiers": [
+          "0000-0003-1090-5199"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Hyderabad, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2024 Dec 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/18 18:21",
+    "fetched_at": "2026-09-21 13:47:24"
+  },
+  "links": {
+    "cites": [
+      "42543922"
+    ],
+    "refs": [
+      "38516046",
+      "37905972",
+      "37735186",
+      "36345707",
+      "36127374",
+      "36115020",
+      "35649268",
+      "35373198",
+      "35130691",
+      "33968988",
+      "33812316",
+      "33503539",
+      "33148639",
+      "32840111",
+      "32775701",
+      "32323533",
+      "31866823",
+      "30682370",
+      "30049874",
+      "29960344",
+      "29897235",
+      "29735687",
+      "29596915",
+      "29323881",
+      "28935776",
+      "28715635",
+      "28049340",
+      "27819658",
+      "27552079",
+      "27101974",
+      "26967199",
+      "26958875",
+      "26922996",
+      "26844300",
+      "26596450",
+      "26574340",
+      "26528090",
+      "26275458",
+      "25614222",
+      "25531225",
+      "25400522",
+      "24930020",
+      "24845231",
+      "24604825",
+      "24586124",
+      "24551051",
+      "24010662",
+      "23883055",
+      "23485282",
+      "23464140",
+      "23440928",
+      "23360400",
+      "23277597",
+      "22393064",
+      "22229789",
+      "22029383",
+      "21548671",
+      "21514144",
+      "21358637",
+      "21325059",
+      "20598937",
+      "20504009",
+      "20028147",
+      "19887634",
+      "19791846",
+      "19261718",
+      "19022175",
+      "18573080",
+      "18512919",
+      "18511942",
+      "18249784",
+      "17411046",
+      "17212484",
+      "16873662",
+      "16785435",
+      "16284250",
+      "15671169",
+      "15643843",
+      "15376593",
+      "11839490",
+      "11125150",
+      "11125149"
+    ],
+    "similar": [
+      "39693390",
+      "35130691",
+      "39087984",
+      "29474083",
+      "29364151",
+      "23607785",
+      "39232485",
+      "29733855",
+      "33054197",
+      "30771181",
+      "29621630",
+      "32623047",
+      "23583776",
+      "27612332",
+      "31903719",
+      "35543707",
+      "25345588",
+      "26923286",
+      "25331250",
+      "24551051",
+      "29925017",
+      "22552968",
+      "23374074",
+      "31521231",
+      "27111521",
+      "37338049",
+      "29885328",
+      "37716093",
+      "28111343",
+      "34504009",
+      "31740740",
+      "32709107",
+      "31034892",
+      "33903234",
+      "30184304",
+      "26950519",
+      "34439733",
+      "21044603",
+      "29596915",
+      "28667699",
+      "28226222",
+      "24604825",
+      "24361273",
+      "37114769",
+      "30420606",
+      "28612216",
+      "32179119",
+      "21570984",
+      "29451381",
+      "36232847",
+      "31635031",
+      "25075858",
+      "33568632",
+      "30703278",
+      "29364143",
+      "25209675",
+      "39915220",
+      "27809690",
+      "39437152",
+      "31441158",
+      "36934808",
+      "27101974",
+      "30471705",
+      "30933517",
+      "23531173",
+      "29544285",
+      "30142698",
+      "38987470",
+      "17681539",
+      "33812316",
+      "26477939",
+      "28914483",
+      "28980756",
+      "39255305",
+      "24607710",
+      "29990433",
+      "19293380",
+      "21524999",
+      "31699336",
+      "40147456",
+      "27844185",
+      "37345454",
+      "32403216",
+      "31900363",
+      "35912724",
+      "31375817",
+      "26275458",
+      "36346711",
+      "24098099",
+      "33513387",
+      "23199922",
+      "33581430",
+      "25631161",
+      "40233005",
+      "33310020",
+      "24930020",
+      "36217309",
+      "31147655",
+      "33434528",
+      "39093570"
+    ],
+    "review": [
+      "39693390",
+      "29364151",
+      "31521231",
+      "37716093",
+      "29596915",
+      "28226222",
+      "28612216",
+      "31441158",
+      "30471705",
+      "30142698",
+      "33812316",
+      "37345454",
+      "32403216",
+      "26275458",
+      "24930020",
+      "36217309",
+      "33434528"
+    ],
+    "pmc": [
+      "11655066"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39693390/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.97709",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

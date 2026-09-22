@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "34298994",
+    "doi": "10.3390/ijms22147375",
+    "title": "Folding and Intrinsic Disorder of the Receptor Tyrosine Kinase KIT Insert Domain Seen by Conventional Molecular Dynamics Simulations."
+  },
+  "content": {
+    "abstract": "The kinase insert domain (KID) of RTK KIT is the key recruitment region for downstream signalling proteins. KID, studied by molecular dynamics simulations as a cleaved polypeptide and as a native domain fused to KIT, showed intrinsic disorder represented by a set of heterogeneous conformations. The accurate atomistic models showed that the helical fold of KID is mainly sequence dependent. However, the reduced fold of the native KID suggests that its folding is allosterically controlled by the kinase domain. The tertiary structure of KID represents a compact array of highly variable alpha- and 3(10)-helices linked by flexible loops playing a principal role in the conformational diversity. The helically folded KID retains a collapsed globule-like shape due to non-covalent interactions associated in a ternary hydrophobic core. The free energy landscapes constructed from first principles-the size, the measure of the average distance between the conformations, the amount of helices and the solvent-accessible surface area-describe the KID disorder through a collection of minima (wells), providing a direct evaluation of conformational ensembles. We found that the cleaved KID simulated with restricted N- and C-ends better reproduces the native KID than the isolated polypeptide. We suggest that a cyclic, generic KID would be best suited for future studies of KID f post-transduction effects.",
+    "keywords": [
+      "KID",
+      "KIT cytoplasmic region",
+      "RTK",
+      "conformational plasticity",
+      "free energy landscape",
+      "intrinsically disordered region",
+      "kinase insert domain",
+      "molecular dynamics and folding",
+      "receptor tyrosine kinase",
+      "transient structures"
+    ],
+    "mesh_terms": [
+      "Allosteric Regulation",
+      "Amino Acid Sequence/*genetics",
+      "Catalytic Domain",
+      "Entropy",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Models, Molecular",
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Protein Conformation, alpha-Helical",
+      "Protein Domains",
+      "Protein Folding",
+      "Receptor Protein-Tyrosine Kinases/*chemistry/genetics",
+      "Tyrosine/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ledoux, Julie",
+        "Trouve, Alain",
+        "Tchertanov, Luba"
+      ],
+      "short_names": [
+        "Ledoux J",
+        "Trouve A",
+        "Tchertanov L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8298-5995"
+      ],
+      "affiliations": [
+        "Centre Borelli, CNRS, ENS Paris-Saclay, Universite Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France.",
+        "Centre Borelli, CNRS, ENS Paris-Saclay, Universite Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France.",
+        "Centre Borelli, CNRS, ENS Paris-Saclay, Universite Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ledoux, Julie",
+        "short_name": "Ledoux J",
+        "identifiers": [],
+        "affiliations": [
+          "Centre Borelli, CNRS, ENS Paris-Saclay, Université Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Trouvé, Alain",
+        "short_name": "Trouvé A",
+        "identifiers": [
+          "0000-0002-8298-5995"
+        ],
+        "affiliations": [
+          "Centre Borelli, CNRS, ENS Paris-Saclay, Université Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Tchertanov, Luba",
+        "short_name": "Tchertanov L",
+        "identifiers": [],
+        "affiliations": [
+          "Centre Borelli, CNRS, ENS Paris-Saclay, Université Paris-Saclay, 4 Avenue des Sciences, F-91190 Gif-sur-Yvette, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Jul 9",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/25 06:00",
+    "fetched_at": "2026-09-20 04:25:22"
+  },
+  "links": {
+    "cites": [
+      "41053984",
+      "38887855",
+      "36361689",
+      "35163518"
+    ],
+    "refs": [
+      "33574233",
+      "32722039",
+      "32608199",
+      "32593398",
+      "32214210",
+      "31372066",
+      "31356778",
+      "31303975",
+      "30589534",
+      "30159398",
+      "29634920",
+      "28572459",
+      "27565340",
+      "26614317",
+      "26588119",
+      "26583988",
+      "25531225",
+      "25530262",
+      "25435369",
+      "25330964",
+      "25135216",
+      "25004990",
+      "24739139",
+      "24606139",
+      "23906711",
+      "22710164",
+      "22689785",
+      "21570668",
+      "21501695",
+      "21471012",
+      "20602996",
+      "20147452",
+      "20143816",
+      "19225609",
+      "18856071",
+      "18059446",
+      "17494761",
+      "17306972",
+      "17081050",
+      "16617086",
+      "16200636",
+      "15933191",
+      "15869310",
+      "15583854",
+      "15526160",
+      "15267263",
+      "15123710",
+      "15102452",
+      "12824176",
+      "12021456",
+      "11894079",
+      "11381529",
+      "11057895",
+      "9080190",
+      "8744570",
+      "7724609",
+      "6667333",
+      "2207096"
+    ],
+    "similar": [
+      "34298994",
+      "36361689",
+      "35163518",
+      "22506277",
+      "10368301",
+      "19278259",
+      "32214210",
+      "11080633",
+      "23912807",
+      "19654879",
+      "26925779",
+      "32184088",
+      "23312584",
+      "28426203",
+      "38566451",
+      "27423742",
+      "10698632",
+      "12417204",
+      "10548040",
+      "16761278",
+      "32371882",
+      "22229497",
+      "30462715",
+      "34502559",
+      "27111521",
+      "19959481",
+      "22253588",
+      "24043820",
+      "23189058",
+      "21766125",
+      "38415678",
+      "18284208",
+      "11838236",
+      "36562610",
+      "35298814",
+      "21732676",
+      "32323533",
+      "11292350",
+      "9512716",
+      "33030907",
+      "24675991",
+      "30865832",
+      "27010561",
+      "31624293",
+      "31285328",
+      "39684679",
+      "12930988",
+      "23959873",
+      "23811057",
+      "36692364",
+      "11724558",
+      "24940782",
+      "20955581",
+      "30038016",
+      "10593256",
+      "29279008",
+      "41556500",
+      "24050152",
+      "18570534",
+      "24615227",
+      "21426301",
+      "32619402",
+      "21627111",
+      "20226790",
+      "29907037",
+      "24214490",
+      "24828813",
+      "28009299",
+      "14517967",
+      "16214166",
+      "37373197",
+      "7532003",
+      "23205665",
+      "15764601",
+      "23373423",
+      "30802465",
+      "14672664",
+      "26096263",
+      "40446154",
+      "29410316",
+      "32530065",
+      "33454008",
+      "40179880",
+      "18547520",
+      "17201450",
+      "31204250",
+      "16365636",
+      "32787218",
+      "23762412",
+      "21761818",
+      "8183574",
+      "40827676",
+      "20816077",
+      "12962492",
+      "28155647",
+      "26812092",
+      "7618103",
+      "19751679",
+      "38928093",
+      "12206784"
+    ],
+    "review": [
+      "34298994",
+      "23312584",
+      "11838236",
+      "10593256"
+    ],
+    "pmc": [
+      "8307779"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22147375",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34298994/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34298994",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

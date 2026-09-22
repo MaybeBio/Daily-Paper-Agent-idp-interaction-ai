@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33792323",
+  "title": "Potential of ATP toward Prevention of hIAPP Oligomerization and Destabilization of hIAPP Protofibrils: An In Silico Perspective.",
+  "authors": "Roy, Rituparna; Paul, Sandip",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-04-02",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用全原子分子动力学模拟研究ATP抑制无序蛋白hIAPP寡聚化并解聚原纤维的机制，对象为IDP且聚焦聚集/互作机制，但互作对象为小分子ATP而非蛋白-蛋白互作，方法为物理模拟，整体对无序蛋白聚集机制建模有启发。",
+  "abstract": "The aggregation of an intrinsically disordered protein, human islet amyloid polypeptide (hIAPP), leads to one of the most prevalent endocrine disorders, type II diabetes mellitus (T2DM). Hence inhibition of hIAPP aggregation provides a possible therapeutic approach for the treatment of T2DM. In this regard, a new aspect of adenosine triphosphate (ATP), which is widely known as the energy source for biological reactions, has recently been discovered, where it can inhibit the formation of protein aggregates and simultaneously dissolve preformed aggregates at a millimolar concentration scale. In this work, we investigate the effect of ATP on the aggregation of an amyloidogenic segment of hIAPP, hIAPP(22-28), and also of the full length sequence. Using all-atom classical molecular dynamics simulations, we observe that the tendency of hIAPP to oligomerize into beta-sheet conformers is inhibited by ATP, due to which the peptides remain distant, loosely packed random monomers. Moreover, it can also disassemble preformed hIAPP protofibrils. ATP preferentially interacts with the hydrophobic residues of hIAPP(22-28) fragment and the terminal and turn residues of the full length peptide. The hydrogen bonding, hydrophobic, pi-pi, and N-H-pi stacking interactions are the driving forces for the ATP induced inhibition of hIAPP aggregation. Interestingly, the hydrophobic adenosine of ATP is found to be more in contact with the peptide residues than the hydrophilic triphosphate moiety. The insight into the inhibitory mechanism of ATP on hIAPP aggregation can prove to be beneficial for the design of novel amyloid inhibitors in the future.",
+  "abstract_zh": "一种天然无序蛋白——人胰岛淀粉样多肽（hIAPP）的聚集，导致最普遍的内分泌疾病之一——II型糖尿病（T2DM）的发生。因此，抑制hIAPP聚集为治疗T2DM提供了一种可能的治疗途径。在这方面，三磷酸腺苷（ATP）——广泛被认为是生物反应的能量来源——最近被发现具有新的功能，即它可以在毫摩尔浓度范围内抑制蛋白质聚集体的形成，并同时溶解预先形成的聚集体。在本工作中，我们研究了ATP对hIAPP的淀粉样生成片段hIAPP(22-28)以及全长序列聚集的影响。利用全原子经典分子动力学模拟，我们观察到ATP抑制了hIAPP寡聚化为β-折叠构象的倾向，使得肽段保持分散、松散堆积的无规单体状态。此外，ATP还能解聚预先形成的hIAPP原纤维。ATP优先与hIAPP(22-28)片段的疏水残基以及全长肽的末端和转角残基相互作用。氢键、疏水作用、π-π堆积和N-H-π堆积相互作用是ATP诱导抑制hIAPP聚集的驱动力。有趣的是，发现ATP的疏水性腺苷部分与肽残基的接触多于亲水性三磷酸部分。对ATP抑制hIAPP聚集机制的深入理解，未来可能有助于设计新型淀粉样抑制剂。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33792323/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33792323/",
+  "paper_page_path": "papers/pubmed/33792323/index.html"
+}

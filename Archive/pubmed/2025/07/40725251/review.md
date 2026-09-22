@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, materials and methods, conclusions) as provided by the user.
+- **Assessment boundary** Scientific content, technical soundness, and clarity of claims as presented in the supplied text. No external data, figures, or supplementary materials were available for verification.
+- **Shared manuscript claim summary** The authors report that a recombinant fragment of titin's intrinsically disordered PEVK domain (PEVKII, 733 residues) enhances actin polymerization in vitro, primarily by facilitating nucleation, without altering steady-state assembly kinetics. Structural analysis via AFM reveals radially symmetric actin filament complexes in the presence of PEVKII, contrasting with parallel paracrystalline arrays in controls. The authors propose a potential role for PEVK in modulating sarcomeric actin dynamics.
+- **Visible evidence base** Text descriptions of results from pyrene fluorescence assays (time courses, concentration dependence, time-of-addition experiments), AFM imaging with 2D FFT analysis, and AlphaFold3 structure prediction. Methods sections describe cloning, expression, purification, actin labeling, and AFM protocols.
+- **Missing materials affecting confidence** All figures and figure legends, raw data, statistical analyses, and supplementary information. Specific numerical values for rates, fold-changes, and concentrations are only partially described in text. No information on replicates, error bars, or statistical tests is provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question regarding the non-canonical actin-binding and polymerization-modulating activity of titin's PEVK domain. The experimental design is logical, and the use of complementary techniques (pyrene assay, AFM) is appropriate. However, the current presentation lacks critical quantitative details, statistical rigor, and mechanistic depth. The claim that PEVK facilitates nucleation is plausible but not fully established from the described evidence, as alternative explanations (e.g., effects on elongation or capping) are not rigorously excluded. The manuscript would benefit from more comprehensive data presentation and a clearer articulation of the proposed mechanism.
+- **Who would be interested in the results, and why** Researchers in muscle biology, sarcomere structure and function, actin cytoskeleton dynamics, and intrinsically disordered proteins. The work may also appeal to those studying non-canonical actin-binding proteins and the molecular basis of actin nucleation. The potential link to sarcomeric actin turnover could be of interest to those investigating muscle maintenance and disease.
+- **Major strengths** The study addresses a novel and timely question, extending the known functions of titin's PEVK domain beyond passive elasticity. The use of a recombinant PEVKII fragment and standard actin polymerization assays is methodologically sound. The AFM imaging provides a visual correlate to the biochemical data, and the observation of radially symmetric complexes is intriguing. The discussion of potential in situ relevance is thoughtful and appropriately cautious.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that PEVKII enhances actin polymerization by facilitating nucleation, based on increased initial and log-phase rates and unchanged steady-state kinetics.
+  - **Evidence pointer** Section 2.1, Figures 2 and 3 (described in text)
+  - **Concern** The conclusion that nucleation is specifically enhanced is not rigorously supported. The pyrene assay measures total F-actin mass, and increased rates could also result from accelerated elongation or reduced depolymerization. The time-of-addition experiment (Figure 4) shows that adding PEVKII during log phase increases the rate, but this does not distinguish between nucleation and elongation effects. No direct nucleation assay (e.g., pyrene-labeled actin at subcritical concentrations, or TIRF microscopy) is presented.
+  - **Why it matters** The central mechanistic claim of the paper hinges on identifying the specific step of polymerization that is affected. Without this distinction, the proposed model of PEVK as a nucleation facilitator remains speculative.
+  - **Resolution test** Provide direct evidence for nucleation enhancement, such as measuring actin polymerization at concentrations below the critical concentration for spontaneous nucleation, or using a seeded elongation assay. Alternatively, perform kinetic modeling to fit the data and compare models with and without nucleation enhancement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the steady-state actin assembly kinetics remain unaltered in the presence of PEVKII.
+  - **Evidence pointer** Section 2.1, Figure 5 (described in text)
+  - **Concern** The evidence for unchanged steady-state kinetics is based on comparing fluorescence intensities at late time points, which the authors note are affected by photobleaching. The statement that intensities become "comparable" is qualitative, and no quantitative analysis (e.g., plateau values, critical concentration measurements) is provided. The critical concentration of actin polymerization is stated to be unaltered, but the data supporting this are not shown.
+  - **Why it matters** The claim that PEVK affects only the initial phases is central to the proposed mechanism. If steady-state kinetics are actually altered, the interpretation would change substantially.
+  - **Resolution test** Perform explicit measurements of the critical concentration (e.g., by varying actin concentration and measuring steady-state F-actin levels) with and without PEVKII, with proper correction for photobleaching. Provide quantitative comparisons with statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and data presentation
+  - **Claim pointer** The authors report concentration-dependent effects of PEVKII on actin polymerization, including a "step-wise" increase in initial rate and a six-fold enhancement of half-maximal rate.
+  - **Evidence pointer** Section 2.1, Figure 3 (described in text)
+  - **Concern** The description of results lacks quantitative detail. No numerical values for rates, fold-changes, or concentrations are provided in the text. The "step-wise" function is not defined, and it is unclear if this is a reproducible phenomenon or an artifact. The number of replicates and error bars are not mentioned.
+  - **Why it matters** Without quantitative data and measures of variability, the reader cannot assess the robustness or significance of the reported effects.
+  - **Resolution test** Include a table or figure with mean ± SD/SEM for all measured parameters, with statistical tests (e.g., ANOVA) comparing conditions. Clarify the nature of the "step-wise" response and provide a plausible explanation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation and overreach
+  - **Claim pointer** The authors suggest that PEVK's actin polymerization-modulating effect "may, in principle, have a function in regulating sarcomeric actin length and turnover."
+  - **Evidence pointer** Section 2.3, Conclusions
+  - **Concern** This speculation is presented without any direct evidence linking the in vitro observations to in situ sarcomeric function. The concentrations of PEVKII used (3.25–125 nM) are far below the estimated in situ concentration of PEVK in the sarcomere, and the relevance of the observed radially symmetric complexes to sarcomeric structure is unclear.
+  - **Why it matters** While speculation is acceptable in a discussion, the framing here risks overstating the physiological relevance of the findings, which could mislead readers.
+  - **Resolution test** Soften the language to clearly distinguish speculation from established findings. If possible, provide preliminary evidence for in situ relevance (e.g., localization studies, effects on sarcomeric actin in cell models).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that PEVK "accelerates actin polymerization by facilitating its nucleation," but the evidence for nucleation-specific effects is not fully established (see R1-M1). The abstract should be more cautious.
+  - **Required correction** Rephrase to "enhances the initial phases of actin polymerization, likely by facilitating nucleation," or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Section 3.1
+  - **Issue** The method for estimating PEVKII concentration by SDS-PAGE densitometry is described, but the accuracy and precision of this method are not discussed. Given the importance of concentration for the reported effects, this is a potential source of error.
+  - **Required correction** Provide validation of the concentration estimation method (e.g., comparison with amino acid analysis or UV absorbance) or acknowledge the limitation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results
+  - **Evidence pointer** Section 2.1, Figure 4
+  - **Issue** The time-of-addition experiment is described briefly. It is unclear whether the "3.4-fold increase" in assembly rate is calculated relative to the control or to the rate before PEVKII addition.
+  - **Required correction** Clarify the calculation and provide the relevant control data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results
+  - **Evidence pointer** Section 2.2, Figure 6
+  - **Issue** The AFM images are described qualitatively. The claim that globular structures "conceivably" correspond to PEVKII molecules is speculative and not supported by any labeling or control experiments.
+  - **Required correction** Acknowledge the speculative nature of this interpretation, or provide additional evidence (e.g., antibody labeling, size analysis).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 2.3
+  - **Issue** The discussion of in situ relevance is somewhat disjointed, with several open questions listed but not systematically addressed.
+  - **Required correction** Organize the discussion into a clearer framework, perhaps addressing each question in turn with relevant literature.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (nucleation-specific claim not established), R1-M2 (steady-state kinetics claim not quantitatively supported), R1-M3 (lack of quantitative data and statistics).
+- **Assessment against Nature-style criteria** Originality: The idea that titin's PEVK domain modulates actin polymerization is novel and extends the known functions of this domain. Scientific importance: The findings could have implications for understanding sarcomeric actin dynamics, but the physiological relevance is not yet demonstrated. Interdisciplinary readership: The topic is of interest to muscle biologists and cytoskeleton researchers, but the presentation is somewhat specialized. Technical soundness: The core claims are not fully supported by the presented evidence, particularly regarding the nucleation-specific mechanism and steady-state kinetics. Readability for nonspecialists: The manuscript is generally clear but would benefit from more context on actin polymerization kinetics for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question, but the central mechanistic claims require additional experimental support and more rigorous data presentation. I would be supportive if the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that PEVKII specifically facilitates nucleation is not directly supported by the data presented.
+- The claim that steady-state kinetics are unaltered is based on qualitative comparisons and is not quantitatively established.
+- The speculation that PEVK modulates sarcomeric actin length and turnover in situ is not supported by any direct evidence.
+- The interpretation of globular structures in AFM images as PEVKII molecules is speculative.
+- The "step-wise" concentration dependence of the initial rate is not explained or quantified.

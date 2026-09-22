@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary materials were available for evaluation
+- **Shared manuscript claim summary** The authors propose that biomolecular condensate micropolarity, particularly hydrophobicity, is a key determinant of small-molecule drug targeting efficiency for phase-separated proteins. They support this with correlative analyses (L1000 dataset), machine learning models (random forest), and in cellulo experiments on ESR1 condensates, and propose a new drug design principle based on condensate micropolarity.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, model validation metrics, or raw data are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, model performance metrics, dataset preprocessing details, experimental protocols, statistical tests, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely hypothesis linking condensate physicochemical properties to drug design. However, the evidence as described is largely correlational, and the causal or predictive claims are not sufficiently supported by the information provided. The machine learning component and the in cellulo experiments are mentioned but not described in enough detail to assess their validity. The central claim that condensate micropolarity should be a design principle for drug targeting is plausible but not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in chemical biology, drug discovery, and biomolecular condensate biology would be interested. The work could inform medicinal chemistry strategies for targets that partition into condensates, and it bridges biophysics with translational pharmacology. The use of machine learning to predict targeting efficiency may also appeal to computational chemists.
+- **Major strengths** The question is timely and of broad relevance. The integration of public dataset analysis, machine learning, and cellular experiments is a strong multi-pronged approach. The focus on a specific, clinically relevant target (ESR1) adds translational significance. The proposed design principle is actionable and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "condensate micropolarity" is a key determinant of drug targeting efficiency and propose it as a new drug design principle.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports correlational findings (L1000 dataset) and model predictions, but no causal evidence is presented that manipulating condensate micropolarity directly alters drug targeting efficiency. The in cellulo experiments are mentioned but not described in terms of design, controls, or quantitative outcomes.
+  - **Why it matters** A design principle implies a predictive and causal relationship. Without experimental manipulation of micropolarity or validation that the proposed principle improves drug design outcomes beyond existing approaches, the claim remains speculative.
+  - **Resolution test** Provide experimental data where condensate micropolarity is systematically varied and drug targeting efficiency is measured, with appropriate controls. Alternatively, show that the random forest model outperforms existing hydrophobicity-based predictors in prospective validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "random forest models to predict inhibitor targeting efficiency from molecular properties, with hydrophobicity identified as a key determinant."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No model performance metrics, feature importance rankings, cross-validation procedures, or external validation results are reported. The claim that hydrophobicity is "key" is not quantified relative to other features.
+  - **Why it matters** Without validation metrics, the predictive utility of the model cannot be assessed. The relative importance of hydrophobicity versus other molecular properties is central to the proposed principle.
+  - **Resolution test** Report model accuracy, precision, recall, AUC, and feature importance with confidence intervals. Show external validation on an independent dataset.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "in cellulo experiments with ESR1 condensates confirmed that both binding affinity and hydrophobicity of inhibitors contribute significantly to potency."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe the experimental design, the range of inhibitors tested, the method of potency measurement, or the statistical analysis supporting the claim that both factors "contribute significantly."
+  - **Why it matters** The phrase "confirmed" implies a rigorous test. Without details on sample size, controls, and statistical methods, the claim cannot be evaluated.
+  - **Resolution test** Provide full experimental methods, including inhibitor series design, potency assays, statistical models, and effect sizes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "condensate micropolarity" is used as a central concept but is not defined. It is unclear whether it refers to dielectric constant, hydrophobicity, or a composite measure.
+  - **Required correction** Define micropolarity explicitly and state how it is measured or computed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract generalizes from ESR1 to "phase-separated proteins" broadly, but only one protein is experimentally tested.
+  - **Required correction** Soften the generalization or provide evidence from multiple phase-separated targets.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The L1000 dataset analysis is mentioned but the specific subset, filtering criteria, and how "targeting efficiency" was defined are not described.
+  - **Required correction** Specify the dataset version, inclusion criteria, and the metric used for targeting efficiency.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish a causal or predictive relationship between condensate micropolarity and drug targeting efficiency.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as the link between condensate micropolarity and drug design is relatively underexplored. Scientific importance is potentially high given the relevance to drug discovery. Interdisciplinary readership is plausible, spanning biophysics, chemical biology, and pharmacology. Technical soundness cannot be assessed from the abstract alone, and the lack of model validation and experimental detail is a concern. Readability for nonspecialists is acceptable, though the term "micropolarity" would benefit from clearer definition.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and worth pursuing, but the abstract does not provide enough detail to support the central claims. A revised manuscript with full methods, validation metrics, and causal experiments could change this assessment.
+
+## Risk / unsupported claims
+- The claim that condensate micropolarity is a "new drug design principle" is unsupported without causal or prospective validation.
+- The claim that hydrophobicity is a "key determinant" is unsupported without quantified feature importance and model validation.
+- The claim that in cellulo experiments "confirmed" the contribution of both binding affinity and hydrophobicity is unsupported without experimental details.
+- The generalization from ESR1 to all phase-separated proteins is unsupported.

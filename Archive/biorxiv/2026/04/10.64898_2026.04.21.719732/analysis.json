@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.21.719732",
+  "title": "SPIN: A Scalable Bioinformatics Pipeline for Screening Pathogenicity Related Host-Pathogen Protein INteractions Using AlphaFold3",
+  "authors": "Bao Z; Khanna H; Dhand B; Boukari W; Tiwari T; Poudel M; Messina CD; Jain M; Huguet-Tapia JC; Loria R",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-23",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发了基于AlphaFold3的SPIN流程，大规模预测宿主-病原蛋白互作，并针对含无序区域的蛋白优化界面几何与残基接触指标（ipSAE/pDockQ）以提升互作预测可靠性，虽对象为植物病原互作而非相分离，但无序蛋白PPI的AI建模与界面机制评估对本课题有直接借鉴价值。",
+  "abstract": "Traditional experimental approaches have greatly advanced our understanding of protein-protein interactions (PPIs) that govern host susceptibility or resistance. Nonetheless, the molecular characterization of microbial effectors and their cognate host targets remains challenging in many economically important plant pathosystems. AlphaFold3 (AF3) has transformed structural biology by achieving near-experimental accuracy in protein structure and complex prediction. A bioinformatics pipeline SPIN (Screening Pathogenicity-Related Host/Pathogen Protein INteractions) was developed for large-scale prediction of interactions between the host and pathogen-secreted proteins. SPIN integrates three core modules: pathogen and host protein preprocessing using bioinformatics tools (SignalP6.0, OrthoFinder, CD-HIT), AF3-based interaction modeling, supported by automated input generation and output filtering. However, AF3 training bias toward mammalian proteins necessitated careful evaluation in plant systems. Benchmarking against experimentally validated plant PPIs revealed that derivative metrics emphasizing interfacial geometry and residue-level contact (ipSAE and pDockQ) provide superior discrimination compared to native global confidence measures (pTM and ipTM), particularly for proteins with intrinsically disordered regions. A multi-metric confidence scoring framework combining pLDDT, PAE, ipSAE, and pDockQ, improved prediction reliability by enhancing recall and reduced false positives through robust assessment of structural confidence and interface quality. For proof-of-concept, SPIN was applied to examine the molecular landscape underlying two economically important diseases of citrus (Citrus L.) caused by Candidatus Liberibacter asiaticus and Ca. Phytoplasma citri. Both pathogens are phloem-limited and cause distinct symptoms, citrus greening and witches' broom, respectively. AF3-predicted interactome data revealed conserved host colonization strategies alongside disease-specific molecular mechanisms, demonstrating the utility of SPIN for dissecting and supporting mechanistic studies in plant-pathogen interactions.",
+  "abstract_zh": "传统实验方法极大地推进了我们对控制宿主易感性或抗性的蛋白质-蛋白质相互作用（PPIs）的理解。然而，在许多经济上重要的植物病理系统中，微生物效应因子及其同源宿主靶标的分子表征仍具挑战性。AlphaFold3（AF3）通过实现接近实验精度的蛋白质结构和复合物预测，已变革了结构生物学领域。开发了一种生物信息学流程SPIN（筛选致病性相关宿主/病原体蛋白质相互作用），用于大规模预测宿主与病原体分泌蛋白之间的相互作用。SPIN整合了三个核心模块：使用生物信息学工具（SignalP6.0、OrthoFinder、CD-HIT）进行病原体和宿主蛋白质预处理，基于AF3的相互作用建模，并辅以自动化输入生成和输出过滤。然而，AF3对哺乳动物蛋白质的训练偏差需在植物系统中进行谨慎评估。针对实验验证的植物PPIs进行基准测试表明，强调界面几何和残基水平接触的衍生指标（ipSAE和pDockQ）相比原生全局置信度指标（pTM和ipTM）提供了更优的区分能力，尤其对于具有内在无序区域的蛋白质。一种结合pLDDT、PAE、ipSAE和pDockQ的多指标置信度评分框架，通过增强召回率并通过对结构置信度和界面质量的稳健评估减少假阳性，提高了预测可靠性。为验证概念，SPIN被应用于检查由柑橘黄龙病菌（Candidatus Liberibacter asiaticus）和柑橘植原体（Ca. Phytoplasma citri）引起的两种经济上重要的柑橘（Citrus L.）疾病的分子景观。这两种病原体均局限于韧皮部，并分别引起柑橘黄龙病和丛枝病的不同症状。AF3预测的相互作用组数据揭示了保守的宿主定殖策略及疾病特异性分子机制，展示了SPIN在解析和支持植物-病原体相互作用机制研究中的实用性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.21.719732",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.21.719732",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.21.719732/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41298246",
+  "title": "Mapping Charge Interactions in Intrinsically Disordered Proteins.",
+  "authors": "Phillips, Michael; Holla, Andrea; Wojtas, Magdalena; Chowdhury, Aritra; Sottini, Andrea; Konig, Sebastian L B; Mutter, Natalie; Lamb, Nick; Huihui, Jonathan; Lopko, Monika; Soranno, Andrea; Nettels, Daniel; Ozyhar, Andrzej; Schuler, Benjamin; Ghosh, Kingshuk",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2025-11-27",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发解析聚合物模型预测无序蛋白内残基间距离随盐浓度的变化，虽非直接PPI或AI/物理模拟，但聚焦IDP电荷互作机制建模，对理解IDP介导互作有方法学启发。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are often rich in charged residues, and electrostatic interactions have a pronounced effect on their conformational distributions, interactions and functions. However, attaining quantitative understanding of electrostatics is challenging because of the sequence-specific arrangement of charges in the chain, the long-range nature of electrostatic interactions, charge screening, and the condensation of counterions-effects that all need to be taken into account self-consistently. Here, analytically tractable quantitative models are developed to predict ensemble average distances between any pair of residues in IDPs as a function of sequence and salt concentration, explicitly considering charge patterning. These models are tested systematically against extensive single-molecule Forster resonance energy transfer (FRET) data mapping intrachain distances for a range of charged IDPs with different sequence compositions, as a function of salt concentration, and with different labeling positions and fluorophores. The resulting polymer model with a minimal set of adjustable parameters accounts for counterion condensation, the resulting effective charges, as well as dipolar interactions, and can be used to predict detailed intrachain distance maps between all residues. Analytical models of this kind offer a valuable complement to simulations and can provide fundamental insight into the interactions underlying the conformational distributions of IDPs.",
+  "abstract_zh": "固有无序蛋白质（IDPs）通常富含带电残基，静电相互作用对其构象分布、相互作用及功能具有显著影响。然而，由于链中电荷的序列特异性排列、静电相互作用的远程性质、电荷屏蔽以及反离子凝聚等效应需自洽考虑，实现对静电作用的定量理解颇具挑战。本文开发了可解析处理的定量模型，以预测IDPs中任意残基对之间的系综平均距离，作为序列和盐浓度的函数，并明确考虑电荷图案化。这些模型系统性地针对广泛的单分子福斯特共振能量转移（FRET）数据进行测试，该数据映射了不同序列组成、不同盐浓度、不同标记位置和荧光团下多种带电IDPs的链内距离。所得聚合物模型采用最小可调参数集，考虑了反离子凝聚、由此产生的有效电荷以及偶极相互作用，可用于预测所有残基间详细的链内距离图谱。此类解析模型为模拟提供了宝贵补充，并能深入理解IDPs构象分布背后的相互作用机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41298246/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41298246/",
+  "paper_page_path": "papers/pubmed/41298246/index.html"
+}

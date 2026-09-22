@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results sections, conclusion, funding, data availability, acknowledgements). Figures and tables referenced but not provided.
+- **Assessment boundary** Assessment is limited to the claims and descriptions presented in the supplied text. Claims about database content, web functionality, and tool performance are evaluated based on internal consistency and the evidence described in the manuscript. No external verification of database contents or tool outputs was performed.
+- **Shared manuscript claim summary** The manuscript describes the 2026 release of DisProt (version 9.8), an open database of experimentally validated intrinsically disordered proteins and regions. Key claims include: (i) growth to 3201 proteins and 13,347 pieces of evidence; (ii) systematic adoption of MIADE guidelines with more than doubling of MIADE-annotated evidence; (iii) introduction of a Deposition Page for direct user submissions; (iv) expansion of thematic datasets from five to nine; (v) updates to the IDPO ontology including new ECO terms for computational prediction evidence; (vi) homology-based propagation of DisProt annotations to over 330,000 proteins across more than 11,000 organisms via MobiDB; and (vii) release of DisTriage, an AI-based literature triage tool.
+- **Visible evidence base** The manuscript text includes: abstract; introduction; sections on the Deposition Page, protein coverage and re-annotation, MIADE integration, taxonomic coverage, homology propagation, ontology updates, and community support; conclusion; funding; data availability; and acknowledgements. References to Figures 1–5 and Tables 1–3 are present, but the figures and tables themselves were not provided.
+- **Missing materials affecting confidence** Figures 1–5 and Tables 1–3 were not provided. These are essential for verifying quantitative claims about growth rates, annotation distributions, taxonomic coverage, and DisTriage precision. The manuscript also references a GitHub repository for IDPO and a deposition website, but these were not assessed. No supplementary methods or detailed statistical analyses were provided.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a substantial update to DisProt, a key community resource for the intrinsically disordered protein field. The reported growth in content, the systematic adoption of MIADE guidelines, the new deposition mechanism, and the integration with MobiDB for homology-based expansion are all meaningful developments. The shift toward accepting manually checked computational predictions as evidence, supported by new ECO terms, is a notable and timely policy change. However, the manuscript is largely descriptive and the absence of the referenced figures and tables limits the ability to fully evaluate the quantitative claims. The DisTriage evaluation is presented with minimal detail, and the precision figures cannot be assessed without Table 3. The overall case for the resource's value is plausible but the evidence base provided is incomplete.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and regions, including experimentalists using NMR, SAXS, smFRET, and other biophysical methods; computational biologists developing disorder predictors; curators of biological databases; and researchers interested in phase separation, linear motifs, and host-pathogen interactions. The manuscript is also relevant to the broader biocuration community, particularly those involved in ontology development and AI-assisted literature triage.
+- **Major strengths**
+  - The manuscript documents a clear and substantial expansion of a valuable community resource, with quantitative growth in proteins, evidence, and annotations.
+  - The systematic adoption of MIADE guidelines and the reported re-annotation effort demonstrate a commitment to data quality and interpretability.
+  - The introduction of a user-facing Deposition Page is a practical step toward community engagement and data sharing.
+  - The integration with MobiDB for homology-based propagation is a powerful approach that dramatically extends the reach of curated annotations.
+  - The decision to accept manually checked computational predictions as evidence, supported by new ECO terms, is a forward-looking policy change that reflects advances in prediction accuracy.
+  - The DisTriage tool addresses a real bottleneck in biocuration and the description of its integration into a weekly workflow is useful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims specific growth percentages (20.8% for proteins, 22.33% for annotations) and specific counts (3201 proteins, 13,347 evidence pieces, 3982 GO annotations, 330,748 homology-propagated proteins, 100,078 LIP-inherited proteins, 11,655 organisms).
+  - **Evidence pointer** Figures 1–5 and Tables 1–3, location not provided
+  - **Concern** The quantitative claims that form the core of the manuscript's "progress" narrative are presented without the supporting figures and tables. The reader cannot verify the growth rates, the distribution of annotations across ontologies, the taxonomic breakdown, or the DisTriage precision values. The claim that DisTriage achieves "relatively good precision at high ranks (70%)" is presented without the underlying data or a description of the evaluation methodology.
+  - **Why it matters** For a database paper, the quantitative evidence of growth and the performance characteristics of new tools are the primary evidence that the resource is achieving its stated goals. Without access to the figures and tables, these claims are unverifiable from the supplied material.
+  - **Resolution test** Provide the missing figures and tables. For DisTriage, provide a clear description of the evaluation dataset, the definition of precision used, and the number of queries or articles assessed. The precision claim should be accompanied by confidence intervals or a breakdown by rank.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that DisTriage is a "query independent triage" system that uses a fine-tuned PubMedBERT model for binary classification, and that it is "geared toward supporting high-recall document triage for downstream text ranking APIs."
+  - **Evidence pointer** Section "DisTriage: query independent triage as a digest to support AI-readiness", Table 3, location not provided
+  - **Concern** The description of the DisTriage system is thin. The manuscript does not describe the training data composition (beyond N=500 positive and negative PMIDs), the hyperparameters used for fine-tuning, the evaluation protocol, or how the system's output is integrated into the curation workflow. The claim of "high-recall" is not supported by any recall figures. The relationship between the binary classifier and the "downstream text ranking APIs" is unclear.
+  - **Why it matters** The manuscript presents DisTriage as a significant new tool, but the technical description is insufficient for a reader to understand its capabilities, limitations, or how it compares to other triage systems. The claim of "AI-readiness" is vague.
+  - **Resolution test** Provide a more detailed description of the model training, evaluation, and deployment. Include recall and precision figures, ideally with a comparison to a baseline. Clarify what "query independent" means in practice and how the system handles the trade-off between precision and recall.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim substantiation
+  - **Claim pointer** The manuscript states that "This version represents a major paradigm shift for DisProt" because computational predictions are now considered valid evidence if manually checked, and that this is supported by "clear progress observed in the CAID."
+  - **Evidence pointer** Section "Updates to the ontologies contents and structure: ECO and IDPO", references [26, 27, 39], location not provided
+  - **Concern** The claim of a "major paradigm shift" is significant, but the manuscript does not describe the criteria for "manually checked" predictions, the process by which a curator would validate a prediction, or how this evidence is distinguished from experimental evidence in the database. The reference to CAID progress is general and does not provide specific performance metrics that would justify the policy change.
+  - **Why it matters** The inclusion of computational predictions as evidence, even if manually checked, has implications for how users interpret DisProt entries. Without a clear description of the validation process and the evidence codes used, users cannot assess the reliability of these new entries.
+  - **Resolution test** Describe the specific workflow for incorporating manually checked predictions, including the evidence codes used, the criteria for manual checking, and how this is indicated to users. Provide specific CAID results that support the claim of improved prediction accuracy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "New feature: DisProt article deposition page"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the "Complete" and "Partial" submission workflows is brief. It is unclear what distinguishes them and what the practical implications are for the submitter.
+  - **Required correction** Provide a brief explanation of the difference between the two workflows and the circumstances under which a user would choose one over the other.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Expanded integration of MIAME terms for experimental precision"
+  - **Evidence pointer** Figure 4A and 4B, location not provided
+  - **Issue** The text describes the Venn diagram in Figure 4A and the bar chart in Figure 4B, but the figures are not provided. The text mentions "408 annotations combine experimental components and construct alterations" and "9 annotations include all three category descriptors," but the context for these numbers is unclear.
+  - **Required correction** Ensure the figures are included and that the text clearly references the specific data points shown.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "Integrating annotation across the tree of life"
+  - **Evidence pointer** Figure 5A and 5B, location not provided
+  - **Issue** The text states that "Eukaryota represent the predominant group, followed by bacteria," but the figure is not provided. The sentence "The total number of proteins collected in DisProt in all major domains of life, as well as the percentage of species among eukaryota, is reported in Figure 5A and B, respectively" is grammatically awkward.
+  - **Required correction** Rephrase the sentence for clarity and ensure the figure is included.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section "Updates to the ontologies contents and structure: ECO and IDPO"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text mentions "the six SLiM site categories used in the ELM database []" with an empty citation bracket.
+  - **Required correction** Add the appropriate citation for the ELM database.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section "DisTriage: query independent triage as a digest to support AI-readiness"
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "query independent" is used but not defined. It is unclear whether this means the system does not take a user query as input, or whether it operates independently of specific search terms.
+  - **Required correction** Define the term "query independent" in the context of the triage system.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "Supporting the community"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text contains a typo: "blogp ost" should be "blog post".
+  - **Required correction** Correct the typo.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Missing figures and tables that contain the core quantitative evidence.
+  - R1-M2: Insufficient technical detail on DisTriage training, evaluation, and deployment.
+  - R1-M3: Unclear criteria and process for incorporating manually checked computational predictions as evidence.
+- **Assessment against Nature-style criteria**
+  - **Originality** The manuscript describes incremental but meaningful updates to an established resource. The adoption of MIAME guidelines and the inclusion of manually checked computational predictions are notable policy changes, but they are not conceptually novel. The DisTriage tool is a practical application of existing language models rather than a methodological innovation. The originality is moderate and typical of a database update paper.
+  - **Scientific importance** DisProt is a central resource for the IDP field, and its continued maintenance and improvement are important for the community. The expansion of content and the integration with MobiDB for homology propagation have the potential to benefit a wide range of researchers. The importance is clear but is an extension of existing value rather than a new capability.
+  - **Interdisciplinary readership** The manuscript is primarily of interest to researchers in structural biology, biophysics, bioinformatics, and biocuration. The content is specialized and the readership is likely to be limited to these fields. The potential for broader interdisciplinary appeal is limited.
+  - **Technical soundness** The technical soundness cannot be fully assessed due to the missing figures and tables. The description of the homology propagation method is brief but appears reasonable. The DisTriage evaluation is insufficiently described to assess its soundness. The ontology updates are described at a high level.
+  - **Readability for nonspecialists** The manuscript is written in a clear and direct style, but the content is inherently specialized. Terms such as MIAME, IDPO, and ECO are used without extensive explanation, which is appropriate for the target audience but would be challenging for nonspecialists. The abstract provides a reasonable summary.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript describes a valuable update to an important resource, and the reported developments are plausible. However, the missing figures and tables must be provided, and the DisTriage evaluation must be described in sufficient detail to allow assessment. The policy change regarding computational predictions should be clarified. Once these issues are addressed, the manuscript would be suitable for publication.
+
+## Risk / unsupported claims
+- The specific growth percentages (20.8%, 22.33%) and counts (3201 proteins, 13,347 evidence pieces, 3982 GO annotations) are unverifiable without Tables 1 and 2 and Figure 2.
+- The claim that DisTriage achieves "relatively good precision at high ranks (70%)" is unsupported without Table 3 and a description of the evaluation methodology.
+- The claim that the adoption of computational predictions as evidence is a "major paradigm shift" is not fully substantiated without a description of the validation workflow.
+- The claim that DisTriage improves the "AI-readiness" of the database is vague and not defined.
+- The claim that the homology propagation in MobiDB extends annotations to "hundreds of thousands of proteins" is plausible but the specific numbers (330,748 and 100,078) are not verifiable from the text alone.
+- The statement that DisProt is "the primary database of experimentally validated disorder annotations" is a strong claim that is not supported by a comparative analysis in this manuscript.

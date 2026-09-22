@@ -1,0 +1,186 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.06.651509",
+  "title": "Thermal proteome profiling identifies glucose binding proteins involved in metabolic disease",
+  "doi": "10.1101/2025.05.06.651509",
+  "abstract": "Recent work has shown that glucose can directly bind non-enzymatic proteins to modulate their function. We sought to build on this work by adapting thermal proteome profiling screens to uncover novel glucose interactors involved in metabolism. Proteome integral solubility alternation (PISA) profiling nominated 23 proteins with glucose-induced thermal solubility, including two proteins strongly implicated in metabolic disease, TSC22D4 and IGF2BP2. First, we characterized glucose binding of TSC22D4, an intrinsically disordered leucine zipper protein strongly implicated in hepatic steatosis. MST confirmed direct glucose-protein interaction of TSC22D4. UV-crosslinking mass spectrometry identified putative glucose binding at the C-terminal leucine zipper. Mutating isoleucine 322 to tryptophan (I322W) abolishes glucose binding. Crosslinking-MS and chemo-proteomic experiments suggest that glucose increases accessibility of the leucine zipper region, resulting in intra-protein contacts between C-terminal zipper domain and N-terminal intrinsically-disordered domain. TSC22D4 associates with fatty acid metabolism machinery proteins in response to high glucose conditions, suggesting a possible role for TSC22D4 in altering fatty acid metabolism. Next, we characterized glucose-binding in IGF2BP2, an RNA-binding protein essential for beta cell insulin secretion. We first confirmed direct IGF2BP2-glucose interaction and created glucose-binding mutant Y40A based on computational docking predictions. IGF2BP2 Y40A exhibited a dominant negative impact on proliferation and insulin secretion in MIN6-6 beta cells. Glucose increased IGF2BP2 binding to client mRNAs Igf2 and Pdx1, which has previously been demonstrated to mediate its impact on insulin secretion. Thus, our data suggests that IGF2BP2 directly binds glucose to enhance insulin secretion.",
+  "authors": [
+    "Meservey LM",
+    "Ferguson ID",
+    "Tien VB",
+    "Ducoli L",
+    "Miao W",
+    "Lu DM",
+    "Srinivasan S",
+    "Lopez-Pajares V",
+    "Porter DF",
+    "Cao Z",
+    "Wang Y",
+    "Khavari PA"
+  ],
+  "published_date": "2025-05-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.06.651509",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.06.651509.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1015502",
+    "raw_record": {
+      "id": "PPR1015502",
+      "source": "PPR",
+      "doi": "10.1101/2025.05.06.651509",
+      "title": "Thermal proteome profiling identifies glucose binding proteins involved in metabolic disease",
+      "authorString": "Meservey LM, Ferguson ID, Tien VB, Ducoli L, Miao W, Lu DM, Srinivasan S, Lopez-Pajares V, Porter DF, Cao Z, Wang Y, Khavari PA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Meservey LM",
+            "lastName": "Meservey",
+            "firstName": "Lindsey",
+            "initials": "LM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9436-7185"
+            }
+          },
+          {
+            "fullName": "Ferguson ID",
+            "lastName": "Ferguson",
+            "firstName": "Ian",
+            "initials": "ID"
+          },
+          {
+            "fullName": "Tien VB",
+            "lastName": "Tien",
+            "firstName": "Vivian",
+            "initials": "VB"
+          },
+          {
+            "fullName": "Ducoli L",
+            "lastName": "Ducoli",
+            "firstName": "Luca",
+            "initials": "L"
+          },
+          {
+            "fullName": "Miao W",
+            "lastName": "Miao",
+            "firstName": "Weili",
+            "initials": "W"
+          },
+          {
+            "fullName": "Lu DM",
+            "lastName": "Lu",
+            "firstName": "David",
+            "initials": "DM"
+          },
+          {
+            "fullName": "Srinivasan S",
+            "lastName": "Srinivasan",
+            "firstName": "Suhas",
+            "initials": "S"
+          },
+          {
+            "fullName": "Lopez-Pajares V",
+            "lastName": "Lopez-Pajares",
+            "firstName": "Vanessa",
+            "initials": "V"
+          },
+          {
+            "fullName": "Porter DF",
+            "lastName": "Porter",
+            "firstName": "Douglas",
+            "initials": "DF"
+          },
+          {
+            "fullName": "Cao Z",
+            "lastName": "Cao",
+            "firstName": "Zhongwen",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Wang Y",
+            "lastName": "Wang",
+            "firstName": "Yisheng",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Khavari PA",
+            "lastName": "Khavari",
+            "firstName": "Paul",
+            "initials": "PA"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9436-7185"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Recent work has shown that glucose can directly bind non-enzymatic proteins to modulate their function. We sought to build on this work by adapting thermal proteome profiling screens to uncover novel glucose interactors involved in metabolism. Proteome integral solubility alternation (PISA) profiling nominated 23 proteins with glucose-induced thermal solubility, including two proteins strongly implicated in metabolic disease, TSC22D4 and IGF2BP2. First, we characterized glucose binding of TSC22D4, an intrinsically disordered leucine zipper protein strongly implicated in hepatic steatosis. MST confirmed direct glucose-protein interaction of TSC22D4. UV-crosslinking mass spectrometry identified putative glucose binding at the C-terminal leucine zipper. Mutating isoleucine 322 to tryptophan (I322W) abolishes glucose binding. Crosslinking-MS and chemo-proteomic experiments suggest that glucose increases accessibility of the leucine zipper region, resulting in intra-protein contacts between C-terminal zipper domain and N-terminal intrinsically-disordered domain. TSC22D4 associates with fatty acid metabolism machinery proteins in response to high glucose conditions, suggesting a possible role for TSC22D4 in altering fatty acid metabolism. Next, we characterized glucose-binding in IGF2BP2, an RNA-binding protein essential for beta cell insulin secretion. We first confirmed direct IGF2BP2-glucose interaction and created glucose-binding mutant Y40A based on computational docking predictions. IGF2BP2  Y40A exhibited a dominant negative impact on proliferation and insulin secretion in MIN6-6 beta cells. Glucose increased IGF2BP2 binding to client mRNAs Igf2 and Pdx1, which has previously been demonstrated to mediate its impact on insulin secretion. Thus, our data suggests that IGF2BP2 directly binds glucose to enhance insulin secretion.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/07/2025.05.06.651509.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.06.651509"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-05-09",
+      "firstPublicationDate": "2025-05-07",
+      "firstIndexDate": "2025-05-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, and evidence as presented in the provided manuscript text; no external data or code verification performed
+- **Shared manuscript claim summary** The authors present Disobind, a deep learning method that predicts inter-protein contact maps and interface residues for intrinsically disordered regions (IDRs) and their binding partners from sequence alone, using ProtT5 embeddings. They claim Disobind outperforms state-of-the-art IDR interface predictors and AlphaFold-multimer (AF2) and AlphaFold3 (AF3) at multiple confidence cutoffs, and that combining Disobind with AF2 further improves performance.
+- **Visible evidence base** Main text (Summary, Introduction, Results, Discussion, STAR Methods), Tables 1-2, Figures 1-4, S1-S5, Tables S1-S10 (referenced but not fully visible in provided text)
+- **Missing materials affecting confidence** Full figures and supplementary tables (S1-S10) not provided; detailed hyperparameter values, ablation results, and case study visualizations not visible; code and data availability statements present but not independently verified
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem: predicting interactions involving intrinsically disordered regions, which remain challenging for current structure prediction methods. The proposed method, Disobind, is conceptually sound, leveraging protein language model embeddings in a shallow architecture to predict contact maps and interface residues. The authors provide a reasonable dataset construction pipeline and comparisons against strong baselines. However, several technical and evidential gaps limit the strength of the claims as presented. The lack of visible supplementary data, limited description of evaluation metrics for AlphaFold comparisons, and unclear handling of class imbalance and threshold selection require clarification. The case studies are illustrative but not systematically evaluated. Overall, the work is promising but the current evidence does not fully establish the superiority claims over AF2/AF3 across all settings.
+- **Who would be interested in the results, and why** Researchers in computational structural biology, protein-protein interaction prediction, and intrinsically disordered protein biology. The method could be useful for those working on integrative modeling of large assemblies where IDR localization is needed, and for those studying IDR-mediated interactions in signaling and regulatory pathways. The comparison with AlphaFold models is of broad interest to the protein structure prediction community.
+- **Major strengths** 1) Addresses an important and underexplored problem: IDR interaction prediction, which is distinct from general complex structure prediction. 2) The method is simple and computationally efficient, using a shallow architecture with pre-trained embeddings, making it accessible. 3) The dataset construction leverages multiple existing IDR databases and includes a thoughtful merging procedure to account for conformational heterogeneity. 4) The comparison against AF2 and AF3, including confidence masking, is a relevant and rigorous benchmark design. 5) The case studies cover both disorder-to-order and disorder-to-disorder binding modes, demonstrating applicability across IDR binding diversity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Disobind outperforms state-of-the-art interface predictors for IDRs. It also outperforms AlphaFold-multimer and AlphaFold3 at multiple confidence cutoffs."
+  - **Evidence pointer** Table 1, Table S5, Figure S2; location not provided for supplementary details
+  - **Concern** The claim of outperformance over AF2 and AF3 relies on comparisons at "multiple confidence cutoffs," but the specific cutoffs, the rationale for their selection, and the statistical significance of differences are not described in the visible text. The manuscript states that AF2 and AF3 predictions are masked based on ipTM, pLDDT, and PAE, but the exact thresholds and how they were applied to derive contact maps and interface residues are not fully specified. Furthermore, the comparison with "state-of-the-art interface predictors" (AIUPred, MORFchibi, DeepDISOBind) is only presented for the IDR partner, not for the full complex, which may not be a fair comparison if those methods are designed for single-chain prediction.
+  - **Why it matters** Without clear specification of evaluation protocols and statistical testing, the claimed superiority cannot be independently assessed or reproduced. The comparison with single-chain predictors on a complex-level task may be methodologically mismatched.
+  - **Resolution test** Provide a detailed description of all thresholds and masking procedures for AF2/AF3, report performance with confidence intervals or significance tests, and clarify the evaluation setup for partner-independent predictors, including whether they were applied to the IDR alone or to the complex.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Disobind is trained on a dataset of merged binary complexes with the sequence fragments as input and the merged contact map as output."
+  - **Evidence pointer** Methods section "Creating merged binary complexes"; location not provided
+  - **Concern** The dataset construction involves merging contact maps across multiple structures of the same protein pair using a logical OR operation. This approach may introduce bias: if a protein pair has many structures, the merged contact map becomes denser, potentially overrepresenting contacts that are only present in a few conformations. The manuscript does not discuss how this affects the balance between true positive contacts and noise, nor how the model handles the varying number of structures per pair. The filtering of merged complexes by contact density (0.5% to 5%) is mentioned but the rationale and impact on the final dataset composition are not elaborated.
+  - **Why it matters** The training data construction directly influences model performance and generalizability. If the merging procedure biases toward certain binding modes or overrepresents certain complexes, the reported performance may not generalize to unseen IDR-partner pairs.
+  - **Resolution test** Provide statistics on the distribution of structures per protein pair, discuss the potential bias introduced by merging, and perform an ablation or sensitivity analysis showing model performance as a function of the number of merged structures or the density filtering thresholds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Its predictions can be used to localize IDRs in large assemblies and characterize IDR-mediated interactions."
+  - **Evidence pointer** Discussion section "Uses and limitations"; location not provided
+  - **Concern** The manuscript claims practical utility for integrative modeling and characterization of IDR interactions, but the case studies are presented qualitatively without quantitative comparison to alternative approaches or demonstration of how the predictions improve integrative models. The claim that predictions can be used as distance restraints in integrative modeling is plausible but not demonstrated. The authors do not show an example where Disobind predictions lead to a better model of a large assembly compared to using AF2 alone or other methods.
+  - **Why it matters** The stated motivation for developing the method is to improve IDR localization in large assemblies. Without a concrete demonstration of this utility, the broader impact claim remains unsupported.
+  - **Resolution test** Provide a quantitative case study where Disobind+AF2 predictions are used in an integrative modeling pipeline, comparing the resulting model quality (e.g., accuracy of IDR placement) against models built without Disobind predictions or with alternative methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Combining Disobind and AlphaFold-multimer predictions further improves the performance."
+  - **Evidence pointer** Table 2; location not provided
+  - **Concern** The combination strategy (logical OR of Disobind and AF2 predictions) is simple but the manuscript does not discuss potential issues with this approach. For example, if AF2 predicts a contact that Disobind does not, and that contact is incorrect, the OR operation would propagate the error. The manuscript does not analyze the precision-recall trade-off of the combined model compared to individual models, nor does it discuss whether the improvement is consistent across different types of IDR binding modes (DOR vs. DDR).
+  - **Why it matters** The combined model is presented as a key contribution, but the lack of analysis on error propagation and mode-specific performance limits the understanding of when and why the combination helps.
+  - **Resolution test** Provide a breakdown of combined model performance by binding mode (DOR vs. DDR) and by contact density, and discuss the precision-recall characteristics of the OR combination, including cases where the combination may hurt performance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Location not provided
+  - **Issue** The introduction uses several terms (e.g., "coupled-folding-and-binding," "fuzzy binding," "disorder-to-order") without defining them for readers who may not be experts in IDP biology.
+  - **Required correction** Add brief definitions or a glossary for these terms to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Creating the dataset for Disobind"
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript states that fragments longer than 100 residues were divided, but the division strategy (e.g., overlapping windows, random splitting) is not described. This could affect the consistency of the dataset.
+  - **Required correction** Specify the fragment division strategy and whether overlapping regions are allowed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Evaluating Disobind"
+  - **Evidence pointer** Location not provided
+  - **Issue** The threshold of 0.5 for converting predicted scores to binary outputs is mentioned, but the sensitivity of results to this threshold is not explored.
+  - **Required correction** Report performance across a range of thresholds or justify the choice of 0.5.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, "Performance of AF2 and AF3"
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion on AF2/AF3 performance is largely qualitative and does not provide concrete numbers or comparisons from the literature to contextualize the findings.
+  - **Required correction** Add quantitative comparisons with published benchmarks on IDR-containing complexes to strengthen the discussion.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evaluation protocol clarity and statistical rigor), R1-M2 (dataset construction bias analysis), R1-M3 (demonstration of practical utility), R1-M4 (analysis of combination strategy limitations)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its specific focus on IDR interaction prediction using a shallow architecture with pLM embeddings, and in its systematic comparison with AF2/AF3. However, the approach is not conceptually novel, as similar transfer learning strategies are common in protein property prediction.
+  - **Scientific importance** The problem is important, and the method could be useful for the IDP community. However, the demonstrated impact is limited by the lack of quantitative case studies showing improved integrative modeling.
+  - **Interdisciplinary readership** The manuscript is likely to appeal to computational biologists and structural biologists, but the technical details may be less accessible to experimentalists studying IDPs. The writing is generally clear but could benefit from more context for nonspecialists.
+  - **Technical soundness** The core methodology is reasonable, but the evaluation protocol and dataset construction have gaps that need to be addressed to establish the claims. The lack of statistical testing and detailed threshold descriptions is a concern.
+  - **Readability for nonspecialists** The manuscript is readable but uses field-specific terminology without sufficient explanation. The structure is logical, and the figures are referenced appropriately, though not visible in the provided text.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant problem and presents a plausible method, but the current evidence does not fully establish the claimed superiority over AF2/AF3 or the practical utility for integrative modeling. The authors should address the evaluation protocol clarity, dataset bias analysis, and provide a concrete demonstration of utility in a large assembly context.
+
+## Risk / unsupported claims
+- The claim that Disobind "outperforms state-of-the-art interface predictors for IDRs" is not fully supported without detailed comparison results and statistical significance testing.
+- The claim that "combining Disobind and AlphaFold-multimer predictions further improves the performance" is not supported by analysis of error propagation or mode-specific performance.
+- The claim that predictions "can be used to localize IDRs in large assemblies" is plausible but not demonstrated with a quantitative case study.
+- The statement that "Disobind considers the context of the binding partner and does not depend on structures and multiple sequence alignments" is a strength but the advantage over MSA-based methods is not quantified.
+- The dataset construction procedure's potential bias from merging contact maps across varying numbers of structures is not assessed.

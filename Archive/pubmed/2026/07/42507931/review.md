@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full text, figures, tables, or supplementary materials were provided for evaluation
+- **Shared manuscript claim summary** The authors propose that methionine oxidation in the conserved region (CR) of the TDP-43 C-terminal domain (CTD) disrupts helical structure and intermolecular helical association, while oxidation of methionines in the flanking intrinsically disordered regions (IDRs) disrupts long-range contacts, and that both mechanisms contribute to impaired phase separation through distinct pathways
+- **Visible evidence base** NMR spectroscopy and molecular dynamics (MD) simulations, as described in the abstract; specific data points, spectra, simulation parameters, and statistical analyses are not available
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, experimental methods, simulation protocols, statistical details, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically plausible and potentially important hypothesis regarding the differential roles of methionine oxidation in distinct regions of the TDP-43 CTD. The proposed dual mechanism, with CR oxidation disrupting helical assembly and IDR oxidation disrupting long-range contacts, is conceptually appealing and would be of interest to the neurodegeneration and biomolecular condensation communities. However, the abstract alone provides insufficient evidence to evaluate the robustness of the NMR assignments, the quality of the MD simulations, the statistical significance of the observed differences, or the functional relevance of the proposed mechanisms. The claim that oxidation of both regions contributes to impaired phase separation through different mechanisms is stated as a conclusion, but the supporting quantitative data are not visible in the abstract. The work appears to be a natural extension of prior studies on TDP-43 phase separation and oxidation, but the novelty relative to existing literature cannot be fully assessed without the full text.
+- **Who would be interested in the results, and why** Researchers studying TDP-43 biology and ALS pathogenesis, investigators in the field of liquid-liquid phase separation and biomolecular condensates, biophysicists and computational chemists interested in disordered proteins and oxidative modifications, and those developing therapeutic strategies targeting oxidative stress in neurodegeneration
+- **Major strengths** The study addresses a specific and mechanistically unresolved question, namely how methionine oxidation in different regions of the TDP-43 CTD differentially affects phase separation. The combination of NMR spectroscopy and MD simulations is well suited to probe both structural and dynamic changes. The proposed distinction between CR-mediated helical assembly and IDR-mediated long-range contacts provides a clear conceptual framework. The identification of methionines as redox-sensitive modulators has potential translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that oxidation of CR methionines disrupts helical structure and directly impairs intermolecular helical association, and that oxidation of IDR methionines disrupts long-range contacts
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states these conclusions but provides no quantitative data, such as chemical shift perturbations, helical fraction changes, contact probability maps, or phase separation assay results. Without these data, the magnitude of the observed effects, the statistical significance, and the reproducibility of the findings cannot be assessed.
+  - **Why it matters** The central claim of the paper rests on the ability to distinguish between two distinct mechanisms. If the NMR and MD data do not clearly separate these effects, or if the observed changes are small relative to experimental noise, the conclusions would be substantially weakened.
+  - **Resolution test** Provide quantitative NMR chemical shift differences for oxidized versus unoxidized states, helical population estimates from secondary structure propensity calculations, MD-derived contact maps showing specific loss of long-range contacts upon IDR oxidation, and phase separation assays with appropriate statistical comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors used NMR random coil chemical shift values for methionine sulfoxide to assess secondary structure changes caused by oxidation
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract mentions measuring NMR random coil chemical shift values for methionine sulfoxide, but it is unclear whether these values were experimentally determined or taken from literature, how they were validated for the specific sequence context of TDP-43, and whether the MD simulations were benchmarked against experimental data.
+  - **Why it matters** The accuracy of the secondary structure assessment depends critically on the reliability of the random coil chemical shift reference values. If these values are not properly calibrated for the TDP-43 sequence, the interpretation of helical disruption could be incorrect.
+  - **Resolution test** Describe the source and validation of the methionine sulfoxide random coil chemical shift values, show comparisons with experimental data where available, and detail the MD force field parameters and validation procedures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors conclude that oxidation of methionines in both regions contributes to impaired phase separation, albeit through different mechanisms
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not present any direct phase separation measurements, such as turbidity assays, fluorescence microscopy of condensates, or saturation concentration determinations. The link between the structural changes observed by NMR and MD and the functional outcome of impaired phase separation is therefore inferred rather than demonstrated.
+  - **Why it matters** The title and central conclusion of the paper concern phase separation behavior. Without direct experimental evidence connecting the molecular-level changes to macroscopic phase behavior, the functional claim remains unsupported.
+  - **Resolution Test** Include phase separation assays comparing wild-type, CR-oxidized, and IDR-oxidized TDP-43 CTD, with quantitative measures such as saturation concentrations or droplet formation efficiency.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "directly impairs intermolecular helical association" is somewhat ambiguous, as it could imply a direct binding assay or an inference from structural data.
+  - **Required correction** Clarify whether intermolecular helical association was measured directly, for example by NMR concentration-dependent chemical shift changes or cross-linking, or whether it was inferred from MD simulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methionine distribution statement
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the CTD contains ten methionines distributed equally between the CR and IDRs, but does not specify how many are in each region or whether all were oxidized in the experiments.
+  - **Required Correction** Specify the number of methionines in each region and state whether oxidation was complete or partial, and whether all methionines were oxidized simultaneously or individually.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Comparison with prior work
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that methionine oxidation is known to impair TDP-43 phase separation, but does not indicate how the present findings extend or refine prior observations.
+  - **Required Correction** Briefly state what new information this study provides beyond the established fact that oxidation impairs phase separation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative evidence to establish the proposed dual mechanism, the methodological basis for the NMR chemical shift analysis is not described in sufficient detail, and direct phase separation measurements are absent.
+- **Assessment against Nature-style criteria** Originality: The proposed differential mechanism for CR versus IDR methionine oxidation is a reasonable extension of existing work, but the abstract does not clearly articulate how this goes beyond prior studies on TDP-43 oxidation and phase separation. Scientific importance: The topic is relevant to ALS and neurodegeneration, and the identification of redox-sensitive modulators has potential significance, but the importance relative to existing literature is not fully established from the abstract. Interdisciplinary readership: The work bridges structural biology, biophysics, and neurobiology, which could appeal to a broad audience, but the abstract is written in a specialized manner that may limit accessibility. Technical soundness: The combination of NMR and MD is appropriate, but the abstract does not provide enough detail to assess the rigor of either approach. Readability for nonspecialists: The abstract is concise but assumes familiarity with phase separation, NMR, and MD concepts; it would benefit from a brief explanation of why helical assembly and long-range contacts matter for phase behavior.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the lack of quantitative data, methodological detail, and direct phase separation measurements prevents a definitive assessment. The manuscript could become publishable if the full text provides the missing evidence and addresses the concerns raised.
+
+## Risk / unsupported claims
+- The claim that CR methionine oxidation directly impairs intermolecular helical association is unsupported in the abstract, as no direct measurement of intermolecular association is described.
+- The claim that IDR methionine oxidation disrupts long-range contacts is stated without quantitative contact data.
+- The conclusion that both mechanisms contribute to impaired phase separation is not supported by any direct phase separation measurements in the abstract.
+- The reliability of the methionine sulfoxide random coil chemical shift values cannot be assessed from the abstract alone.
+- The relative contribution of CR versus IDR oxidation to the overall impairment of phase separation is not quantified.

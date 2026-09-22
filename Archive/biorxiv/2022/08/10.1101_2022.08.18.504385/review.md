@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors propose that the aromatic character of the androgen receptor (AR) activation domain is essential for its transcriptional activity by enabling partitioning into transcriptional condensates. They further claim that structure-based optimization of a small molecule inhibitor targeting a partially folded, aromatic-rich transactivation unit yields compounds with increased affinity, inhibition of AR-dependent transcriptional programs, and antitumorigenic effects in cellular and in vivo models of castration-resistant prostate cancer (CRPC). A generalizable framework for targeting activation domains of oncogenic transcription factors is proposed.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information were supplied
+- **Missing materials affecting confidence** Full manuscript, experimental methods, compound structures, affinity data, transcriptional profiling results, in vivo efficacy data, statistical analyses, and any structural or biophysical characterization of the AR activation domain and inhibitor complexes
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially impactful approach to targeting a transcription factor activation domain, an area of high therapeutic interest. However, the claims are broad and the evidence base is entirely inaccessible from the abstract alone. The mechanistic link between aromatic character, condensate partitioning, and inhibitor optimization is plausible but not verifiable from the supplied material. The therapeutic claims, particularly in vivo efficacy, require substantial experimental validation that cannot be assessed here. The generalizable framework claim is premature without evidence of applicability beyond AR.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, intrinsically disordered proteins, drug discovery for challenging targets, and prostate cancer biology would find these results relevant. The potential to drug transcription factor activation domains could interest medicinal chemists and structural biologists focused on disordered protein targets, as well as clinicians working on CRPC therapeutics.
+- **Major strengths** The work addresses a well-recognized challenge in drug discovery, namely targeting intrinsically disordered transcription factor activation domains. The proposed mechanistic rationale linking aromatic residues to condensate partitioning provides a testable hypothesis. The progression from mechanistic insight to compound optimization and in vivo testing represents a comprehensive translational arc, if the underlying data are robust.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that aromatic character of the AR activation domain is key for its activity by allowing partitioning into transcriptional condensates
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract asserts a causal relationship between aromatic residues, condensate partitioning, and transcriptional activity without presenting any direct experimental evidence. It is unclear whether this is supported by mutagenesis, biophysical measurements, or imaging data. The term "key" implies essentiality, which requires loss-of-function and rescue experiments that are not described.
+  - **Why it matters** This mechanistic claim forms the conceptual foundation for the inhibitor optimization strategy. If the aromatic character is not truly essential or if condensate partitioning is not the operative mechanism, the rationale for the optimization approach is weakened.
+  - **Resolution test** Provide mutagenesis data showing that substitution of aromatic residues reduces condensate partitioning and transcriptional activity, with rescue experiments restoring function. Include quantitative imaging or biophysical data demonstrating condensate localization.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that optimized compounds had more affinity for their target and inhibited AR-dependent transcriptional programs
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative affinity data, selectivity data, or transcriptional profiling results are presented. The abstract does not specify the magnitude of affinity improvement, the assay formats used, or whether the transcriptional inhibition is specific to AR or reflects general toxicity. Without these details, the strength of the optimization claim cannot be evaluated.
+  - **Why it matters** The core therapeutic premise depends on demonstrating that the optimized compounds are genuinely improved over the parent molecule and that their effects are on-target. Off-target effects or nonspecific transcriptional suppression would undermine the framework.
+  - **Resolution test** Provide binding affinities for parent and optimized compounds, selectivity panels against related transcription factors, and RNA-seq or reporter assays showing AR-specific transcriptional inhibition with appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim of antitumorigenic effect in models of CRPC in cells and in vivo
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states antitumorigenic effects but provides no details on the models used, dosing regimens, endpoints, or magnitude of effect. In vivo efficacy claims are particularly consequential and require rigorous experimental design, including appropriate controls and statistical power. The absence of any numerical or qualitative outcome data makes this claim unverifiable.
+  - **Why it matters** The translational significance of the work rests on the in vivo data. Overstated or underpowered in vivo results would misrepresent the therapeutic potential and could mislead subsequent research efforts.
+  - **Resolution test** Provide tumor growth curves, survival data, or other quantitative endpoints from at least one in vivo CRPC model, with statistical analysis and clear description of sample sizes and controls.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The claim that these results establish a generalizable framework to target small molecules to activation domains of oncogenic transcription factors and other disease-associated proteins
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract presents a single example targeting the AR activation domain. Generalizability requires demonstration in at least one additional transcription factor or disease-associated protein with a distinct activation domain sequence and context. The framework may be specific to AR or to aromatic-rich activation domains.
+  - **Why it matters** The broader impact and significance of the work depend on whether the approach can be applied beyond AR. Overclaiming generalizability without supporting evidence reduces the credibility of the conclusions.
+  - **Resolution test** Provide proof-of-concept data in a second transcription factor system, or explicitly limit the claim to aromatic-rich activation domains with appropriate caveats.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "partially folded" is used to describe the transactivation unit, but the degree and nature of this partial folding are not defined. This is important for understanding the structural basis of inhibitor binding.
+  - **Required correction** Define the structural state with reference to specific biophysical or structural data, or clarify that this is a working hypothesis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Compound characterization
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not indicate whether the optimized compounds are drug-like, including properties such as solubility, permeability, or metabolic stability, which are relevant for in vivo efficacy.
+  - **Required correction** Include a brief statement on the physicochemical properties or refer to supplementary data where these are reported.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to existing approaches
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not contextualize the optimized compounds against existing AR-targeting therapies, such as enzalutamide or abiraterone, which are standard of care for CRPC.
+  - **Required correction** Add a sentence comparing the mechanism or potential advantages of the new compounds relative to current therapies.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking because the core mechanistic, biochemical, and therapeutic claims cannot be evaluated from the abstract alone. R1-M4 is non-blocking but requires tempering or additional evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of targeting a disordered activation domain via its aromatic character and condensate partitioning is novel and potentially original, but the abstract does not provide enough detail to distinguish it from prior work on AR inhibitors or condensate-modulating agents.
+  - Scientific importance: If the claims are fully supported, the work would be important for the fields of transcription factor drug discovery and CRPC therapy. The importance is high but contingent on the evidence.
+  - Interdisciplinary readership: The topic bridges structural biology, biophysics, chemical biology, and oncology, which would appeal to a broad readership. However, the abstract assumes familiarity with condensate biology and AR signaling, which may limit accessibility.
+  - Technical soundness: Cannot be assessed from the abstract. The absence of methods and data prevents evaluation of experimental rigor.
+  - Readability for nonspecialists: The abstract is concise and generally clear, but terms such as "transactivation unit" and "transcriptional condensates" are used without definition, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a compelling narrative, but the absence of any supporting data means the claims cannot be verified. A full manuscript with detailed methods and results would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that aromatic character is "key" for AR activation domain activity is unsupported without mutagenesis or biophysical data.
+- The claim that optimized compounds had "more affinity" is unquantified and unverifiable.
+- The claim of "antitumorigenic effect in vivo" is unsupported without any experimental details or outcome data.
+- The claim of a "generalizable framework" is unsupported by evidence beyond a single target.
+- The mechanistic link between condensate partitioning and inhibitor optimization is asserted but not demonstrated.

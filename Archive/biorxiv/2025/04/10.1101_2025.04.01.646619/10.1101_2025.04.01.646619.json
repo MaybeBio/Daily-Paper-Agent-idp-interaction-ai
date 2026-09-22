@@ -1,0 +1,157 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.04.01.646619",
+  "title": "Assessing variant effect predictors and disease mechanisms in intrinsically disordered proteins",
+  "doi": "10.1101/2025.04.01.646619",
+  "abstract": "Intrinsically disordered protein regions (IDPRs) are central to diverse cellular processes but present unique challenges for interpreting genetic variants implicated in human disease. Unlike structured protein domains, IDPRs lack stable three-dimensional conformations and are often involved in regulation through transient interactions and post-translational modifications. These features can affect both the distribution of pathogenic variants and the performance of computational tools used to predict their effects. Here, we systematically assessed the distribution of pathogenic vs benign missense variants across disordered, intermediate, and structured protein regions in the human proteome. Pathogenic variants were notably depleted in IDPRs yet were associated with distinct molecular mechanisms, particularly dominant gain- and loss-of-function effects. We evaluated 33 variant effect predictors (VEPs), revealing widespread reductions in sensitivity for pathogenic variants in IDPRs—despite high AUROC scores largely driven by accurate benign variant predictions. We also observed substantial discordance among VEP classifications in disordered regions, underscoring the need for region-aware thresholds and disorder-informed prediction strategies. Incorporating features reflective of IDPR biology, such as transient interaction motifs and modification sites, may enhance the accuracy and interpretability of future tools.",
+  "authors": [
+    "Fawzy M",
+    "Marsh JA"
+  ],
+  "published_date": "2025-04-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.04.01.646619",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.01.646619.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR997247",
+    "raw_record": {
+      "id": "PPR997247",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR997247"
+        ]
+      },
+      "doi": "10.1101/2025.04.01.646619",
+      "title": "Assessing variant effect predictors and disease mechanisms in intrinsically disordered proteins",
+      "authorString": "Fawzy M, Marsh JA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Fawzy M",
+            "lastName": "Fawzy",
+            "firstName": "Mohamed",
+            "initials": "M"
+          },
+          {
+            "fullName": "Marsh JA",
+            "lastName": "Marsh",
+            "firstName": "Joseph",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4132-0628"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4132-0628"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Intrinsically disordered protein regions (IDPRs) are central to diverse cellular processes but present unique challenges for interpreting genetic variants implicated in human disease. Unlike structured protein domains, IDPRs lack stable three-dimensional conformations and are often involved in regulation through transient interactions and post-translational modifications. These features can affect both the distribution of pathogenic variants and the performance of computational tools used to predict their effects. Here, we systematically assessed the distribution of pathogenic  vs benign missense variants across disordered, intermediate, and structured protein regions in the human proteome. Pathogenic variants were notably depleted in IDPRs yet were associated with distinct molecular mechanisms, particularly dominant gain- and loss-of-function effects. We evaluated 33 variant effect predictors (VEPs), revealing widespread reductions in sensitivity for pathogenic variants in IDPRs—despite high AUROC scores largely driven by accurate benign variant predictions. We also observed substantial discordance among VEP classifications in disordered regions, underscoring the need for region-aware thresholds and disorder-informed prediction strategies. Incorporating features reflective of IDPR biology, such as transient interaction motifs and modification sites, may enhance the accuracy and interpretability of future tools.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.04.01.646619"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.04.01.646619"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR997247"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR997247&type=FILE&fileName=EMS204276-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40828855",
+            "reference": "PLoS computational biology. 2025 Aug;21(8):e1013400",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS204276",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pfam",
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-04-02",
+      "firstPublicationDate": "2025-04-01",
+      "firstIndexDate": "2025-04-02",
+      "fullTextReceivedDate": "2025-04-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

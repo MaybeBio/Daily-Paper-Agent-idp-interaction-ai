@@ -1,0 +1,611 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.25.572648",
+  "title": "Pair-EGRET: enhancing the prediction of protein-protein interaction sites through graph attention networks and protein language models",
+  "doi": "10.1101/2023.12.25.572648",
+  "abstract": "Proteins are responsible for most biological functions, many of which require the interaction of more than one protein molecule. However, accurately predicting protein-protein interaction (PPI) sites (the interfacial residues of a protein that interact with other protein molecules) remains a challenge. The growing demand and cost associated with the reliable identification of PPI sites using conventional experimental methods call for computational tools for automated prediction and understanding of PPIs. Here, we present Pair-EGRET, an edge-aggregated graph attention network that leverages the features extracted from pre-trained transformer-like models to accurately predict PPI sites. Pair-EGRET works on a k -nearest neighbor graph, representing the three-dimensional structure of a protein, and utilizes the cross-attention mechanism for accurate identification of interfacial residues of a pair of proteins. Through an extensive evaluation study using a diverse array of experimental data, evaluation metrics, and case studies on representative protein sequences, we find that our method outperforms other state-of-the-art methods for predicting PPI sites. Moreover, Pair-EGRET can provide interpretable insights from the learned cross-attention matrix. Pair-EGRET is freely available in open source form at ( https://github.com/1705004/Pair-EGRET ).",
+  "authors": [
+    "Ramisa Alam",
+    "Sazan Mahbub",
+    "Md. Shamsuzzoha Bayzid"
+  ],
+  "published_date": "2023-12-26",
+  "updated_date": "2023-12-27T03:10:10Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.25.572648",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.25.572648.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:47:47Z",
+        "timestamp": 1768510067328,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            26
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 57,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            26
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Proteins are responsible for most biological functions, many of which require the interaction of more than one protein molecule. However, accurately predicting protein-protein interaction (PPI) sites (the interfacial residues of a protein that interact with other protein molecules) remains a challenge. The growing demand and cost associated with the reliable identification of PPI sites using conventional experimental methods call for computational tools for automated prediction and understanding of PPIs. Here, we present Pair-EGRET, an edge-aggregated graph attention network that leverages the features extracted from pre-trained transformer-like models to accurately predict PPI sites. Pair-EGRET works on a\n                  <jats:italic>k</jats:italic>\n                  -nearest neighbor graph, representing the three-dimensional structure of a protein, and utilizes the cross-attention mechanism for accurate identification of interfacial residues of a pair of proteins. Through an extensive evaluation study using a diverse array of experimental data, evaluation metrics, and case studies on representative protein sequences, we find that our method outperforms other state-of-the-art methods for predicting PPI sites. Moreover, Pair-EGRET can provide interpretable insights from the learned cross-attention matrix. Pair-EGRET is freely available in open source form at (\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/1705004/Pair-EGRET\">https://github.com/1705004/Pair-EGRET</jats:ext-link>\n                  ).\n                </jats:p>",
+      "DOI": "10.1101/2023.12.25.572648",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            27
+          ]
+        ],
+        "date-time": "2023-12-27T03:10:10Z",
+        "timestamp": 1703646610000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Pair-EGRET: enhancing the prediction of protein-protein interaction sites through graph attention networks and protein language models"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Ramisa",
+          "family": "Alam",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sazan",
+          "family": "Mahbub",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Md. Shamsuzzoha",
+          "family": "Bayzid",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "6",
+          "key": "2023122907450944000_2023.12.25.572648v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1000807",
+          "DOI": "10.1371/journal.pcbi.1000807",
+          "article-title": "Protein–protein interactions essentials: key concepts to building and analyzing interactome networks",
+          "volume": "6",
+          "year": "2010",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "issue": "4",
+          "key": "2023122907450944000_2023.12.25.572648v1.2",
+          "first-page": "1",
+          "article-title": "Protein-protein interaction networks: probing disease mechanisms using model systems",
+          "volume": "5",
+          "year": "2013",
+          "journal-title": "Genome medicine"
+        },
+        {
+          "issue": "3",
+          "key": "2023122907450944000_2023.12.25.572648v1.3",
+          "first-page": "357",
+          "article-title": "Protein– protein interaction networks and subnetworks in the biology of disease",
+          "volume": "3",
+          "year": "2011",
+          "journal-title": "Wiley Interdisciplinary Reviews: Systems Biology and Medicine"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/mt.2015.214"
+        },
+        {
+          "issue": "30",
+          "key": "2023122907450944000_2023.12.25.572648v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "4585",
+          "DOI": "10.2174/138161212802651661",
+          "article-title": "Toward the design of drugs on protein-protein interactions",
+          "volume": "18",
+          "year": "2012",
+          "journal-title": "Current pharmaceutical design"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.6",
+          "first-page": "1",
+          "article-title": "Improving the prediction of yeast protein function using weighted protein-protein interactions",
+          "volume": "8",
+          "year": "2011",
+          "journal-title": "Theoretical Biology and Medical Modelling"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0049029"
+        },
+        {
+          "issue": "2",
+          "key": "2023122907450944000_2023.12.25.572648v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbab578",
+          "DOI": "10.1093/bib/bbab578",
+          "article-title": "Egret: edge aggregated graph attention networks and transfer learning improve protein–protein interaction site prediction",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.9",
+          "first-page": "184",
+          "article-title": "Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning",
+          "volume": "17",
+          "year": "2019",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.10",
+          "unstructured": "Alex Fout , Jonathon Byrd , Basir Shariat , and Asa Ben-Hur . Protein interface prediction using graph convolutional networks. Advances in neural information processing systems, 30, 2017."
+        },
+        {
+          "issue": "3",
+          "key": "2023122907450944000_2023.12.25.572648v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "470",
+          "DOI": "10.1093/bioinformatics/bty647",
+          "article-title": "Bipspi: a method for the prediction of partner-specific protein–protein interfaces",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btg371"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu097"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki481"
+        },
+        {
+          "issue": "5",
+          "key": "2023122907450944000_2023.12.25.572648v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1829",
+          "DOI": "10.1038/s41596-020-0312-x",
+          "article-title": "The hdock server for integrated protein–protein docking",
+          "volume": "15",
+          "year": "2020",
+          "journal-title": "Nature protocols"
+        },
+        {
+          "issue": "1",
+          "key": "2023122907450944000_2023.12.25.572648v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "47",
+          "DOI": "10.1038/nmeth.2289",
+          "article-title": "Interactome3d: adding structural details to protein networks",
+          "volume": "10",
+          "year": "2013",
+          "journal-title": "Nature methods"
+        },
+        {
+          "issue": "4",
+          "key": "2023122907450944000_2023.12.25.572648v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "766",
+          "DOI": "10.1016/j.bpj.2015.11.3519",
+          "article-title": "3diana: 3d domain interaction analysis: a toolbox for quaternary structure modeling",
+          "volume": "110",
+          "year": "2016",
+          "journal-title": "Biophysical Journal"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-12-1"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti242"
+        },
+        {
+          "issue": "1",
+          "key": "2023122907450944000_2023.12.25.572648v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1000278",
+          "DOI": "10.1371/journal.pcbi.1000278",
+          "article-title": "Prediction of protein–protein interaction sites in sequences and 3d structures by random forests",
+          "volume": "5",
+          "year": "2009",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Feihong Wu , Byron Olson , Drena Dobbs , and Vasant Honavar . Comparing kernels for predicting protein binding sites from amino acid sequence. In The 2006 IEEE International Joint Conference on Neural Network Proceedings, pages 1612–1616. IEEE, 2006.",
+          "DOI": "10.1109/IJCNN.2006.246626"
+        },
+        {
+          "issue": "2",
+          "key": "2023122907450944000_2023.12.25.572648v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "223",
+          "DOI": "10.1093/bioinformatics/btx585",
+          "article-title": "Intpred: a structure-based predictor of protein–protein interaction sites",
+          "volume": "34",
+          "year": "2018",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "14",
+          "key": "2023122907450944000_2023.12.25.572648v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "2395",
+          "DOI": "10.1093/bioinformatics/bty995",
+          "article-title": "Protein–protein interaction sites prediction by ensemble random forests with synthetic minority oversampling technique",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "10",
+          "key": "2023122907450944000_2023.12.25.572648v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "1479",
+          "DOI": "10.1093/bioinformatics/btx005",
+          "article-title": "Seeing the trees through the forest: sequence-based homo-and heteromeric protein-protein interaction sites prediction using random forest",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yi Liu , Hao Yuan , Lei Cai , and Shuiwang Ji . Deep learning of high-order interactions for protein interface prediction. In Proceedings of the 26th ACM SIGKDD international conference on knowledge discovery & data mining, pages 679–687, 2020.",
+          "DOI": "10.1145/3394486.3403110"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.26",
+          "unstructured": "Fang Wu , Tao Yu , Dragomir Radev , and Jinbo Xu . When geometric deep learning meets pretrained protein language models. CoRR, abs/2212.03447, 2022."
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Jesse Vig , Ali Madani , Lav R Varshney , Caiming Xiong , Richard Socher , and Nazneen Fatema Rajani . Bertology meets biology: interpreting attention in protein language models. 2021.",
+          "DOI": "10.1101/2020.06.26.174417"
+        },
+        {
+          "issue": "10",
+          "key": "2023122907450944000_2023.12.25.572648v1.28",
+          "first-page": "7112",
+          "article-title": "Prottrans: Toward understanding the language of life through self-supervised learning",
+          "volume": "44",
+          "year": "2021",
+          "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+        },
+        {
+          "issue": "6",
+          "key": "2023122907450944000_2023.12.25.572648v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "730",
+          "DOI": "10.1038/s41592-022-01490-7",
+          "article-title": "Scannet: an interpretable geometric deep learning model for structure-based protein binding site prediction",
+          "volume": "19",
+          "year": "2022",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "issue": "17",
+          "key": "2023122907450944000_2023.12.25.572648v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "2580",
+          "DOI": "10.1093/bioinformatics/btab154",
+          "article-title": "Protein interaction interface region prediction by geometric deep learning",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2023122907450944000_2023.12.25.572648v1.31",
+          "first-page": "61",
+          "article-title": "The graph neural network model",
+          "volume": "20",
+          "year": "2008",
+          "journal-title": "IEEE transactions on neural networks"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.32",
+          "unstructured": "Petar Velickovic , Guillem Cucurull , Arantxa Casanova , Adriana Romero , Pietro Lio , Yoshua Bengio , et al. Graph attention networks. 2018."
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.33",
+          "unstructured": "Ashish Vaswani , Noam Shazeer , Niki Parmar , Jakob Uszkoreit , Llion Jones , Aidan N Gomez , Lukasz Kaiser , and Illia Polosukhin . Attention is all you need. Advances in neural information processing systems, 30, 2017."
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "263",
+          "DOI": "10.1007/PL00009293",
+          "article-title": "On nearest-neighbor graphs",
+          "volume": "17",
+          "year": "1997",
+          "journal-title": "Discrete & Computational Geometry"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.36",
+          "unstructured": "Soumyadeep Debnath and Ayatullah Faruk Mollah . A supervised machine learning approach for sequence based protein-protein interaction (ppi) prediction. CoRR, abs/2203.12659, 2022."
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.37",
+          "unstructured": "Thomas N. Kipf and Max Welling . Semi-supervised classification with graph convolutional networks. In 5th International Conference on Learning Representations, ICLR 2017, Toulon, France, April 24-26, 2017, Conference Track Proceedings. OpenReview.net, 2017."
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.38",
+          "unstructured": "Kaiming He , Xiangyu Zhang , Shaoqing Ren , and Jian Sun . Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770–778, 2016."
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.39",
+          "unstructured": "Jimmy Lei Ba , Jamie Ryan Kiros , and Geoffrey E Hinton . Layer normalization. CoRR, abs/1607.06450, 2016."
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2015.07.016"
+        },
+        {
+          "issue": "1",
+          "key": "2023122907450944000_2023.12.25.572648v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "172",
+          "DOI": "10.1002/pro.3295",
+          "article-title": "Dockground: a comprehensive data resource for modeling of protein complexes",
+          "volume": "27",
+          "year": "2018",
+          "journal-title": "Protein Science"
+        },
+        {
+          "issue": "7",
+          "key": "2023122907450944000_2023.12.25.572648v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "1142",
+          "DOI": "10.1002/prot.24479",
+          "article-title": "Pairpred: partner-specific prediction of interacting residues from sequence and structure",
+          "volume": "82",
+          "year": "2014",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "issue": "15",
+          "key": "2023122907450944000_2023.12.25.572648v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "3111",
+          "DOI": "10.1002/prot.22830",
+          "article-title": "Protein–protein docking benchmark version 4.0",
+          "volume": "78",
+          "year": "2010",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.44",
+          "unstructured": "Raphael Townshend , Rishi Bedi , Patricia Suriana , and Ron Dror . End-to-end learning on 3d protein structure for interface prediction. Advances in Neural Information Processing Systems, 32, 2019."
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki585"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm048957q"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1043"
+        },
+        {
+          "issue": "7",
+          "key": "2023122907450944000_2023.12.25.572648v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "896",
+          "DOI": "10.1093/bioinformatics/btaa750",
+          "article-title": "Delphi: accurate deep ensemble model for protein interaction sites prediction",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.49",
+          "unstructured": "James Atwood and Don Towsley . Diffusion-convolutional neural networks. Advances in neural information processing systems, 29, 2016."
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.50",
+          "unstructured": "David K Duvenaud , Dougal Maclaurin , Jorge Iparraguirre , Rafael Bombarell , Timothy Hirzel , Alán Aspuru-Guzik , and Ryan P Adams . Convolutional networks on graphs for learning molecular fingerprints. Advances in neural information processing systems, 28, 2015."
+        },
+        {
+          "issue": "1",
+          "key": "2023122907450944000_2023.12.25.572648v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "13890",
+          "DOI": "10.1038/ncomms13890",
+          "article-title": "Quantum-chemical insights from deep tensor neural networks",
+          "volume": "8",
+          "year": "2017",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.52",
+          "unstructured": "Vıctor Garcia Satorras , Emiel Hoogeboom , and Max Welling . E (n) equivariant graph neural networks. In International conference on machine learning, pages 9323–9332. PMLR, 2021."
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.53",
+          "unstructured": "Bowen Jing , Stephan Eismann , Patricia Suriana , Raphael John Lamarre Townshend , and Ron Dror . Learning from protein structure with geometric vector perceptrons. In International Conference on Learning Representations, 2021."
+        },
+        {
+          "issue": "11",
+          "key": "2023122907450944000_2023.12.25.572648v1.54",
+          "doi-asserted-by": "crossref",
+          "first-page": "167556",
+          "DOI": "10.1016/j.jmb.2022.167556",
+          "article-title": "Bipspi+: Mining typespecific datasets of protein complexes to improve protein binding site prediction",
+          "volume": "434",
+          "year": "2022",
+          "journal-title": "Journal of Molecular Biology"
+        },
+        {
+          "issue": "3",
+          "key": "2023122907450944000_2023.12.25.572648v1.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "630",
+          "DOI": "10.1002/prot.21248",
+          "article-title": "Prediction-based fingerprints of protein–protein interactions",
+          "volume": "66",
+          "year": "2007",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.56",
+          "unstructured": "Warren L DeLano . The pymol molecular graphics system. http://www.pymol.org/, 2002."
+        },
+        {
+          "key": "2023122907450944000_2023.12.25.572648v1.57",
+          "unstructured": "Zeming Lin , Halil Akin , Roshan Rao , Brian Hie , Zhongkai Zhu , Wenting Lu , Allan dos Santos Costa , Maryam Fazel-Zarandi , Tom Sercu , Sal Candido , et al. Language models of protein sequences at the scale of evolution enable accurate structure prediction. BioRxiv, 2022:500902, 2022."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.12.25.572648",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:43:40Z",
+        "timestamp": 1768455820000
+      },
+      "score": 69.67843,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.12.25.572648"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            26
+          ]
+        ]
+      },
+      "references-count": 57,
+      "URL": "https://doi.org/10.1101/2023.12.25.572648",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1093/bioinformatics/btae588",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

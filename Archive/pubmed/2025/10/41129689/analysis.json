@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41129689",
+  "title": "Immune-Induced Antibody-DNA Hybrid Condensates.",
+  "authors": "Scalia, Sara; Cappa, Marco; Rovigatti, Lorenzo; Del Grosso, Erica; Ricci, Francesco",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2025-10-23",
+  "window": {
+    "start": "2025-10-20",
+    "end": "2025-10-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用抗体-抗原与DNA碱基配对协同驱动杂合凝聚体相分离，虽对象非IDP，但相分离机制建模（相场模拟）对无序蛋白介导的PPI相分离机制研究有可迁移启发。",
+  "abstract": "We report here the combined use of Watson-Crick and antibody-antigen interactions to induce phase separation of antibody-DNA hybrid condensates. To achieve this, we have used an antigen-conjugated star-shaped DNA motif (nanostar) in which three arms terminate with single-stranded DNA sticky ends while the fourth arm is end-conjugated with a moiety (i.e., an antigen) that can be recognized by a specific bivalent antibody. Through the concerted action of selective Watson-Crick base-pairing between the sticky ends and bivalent antibody-antigen binding, such antigen-conjugated nanostars phase-separate to form micron-scale hybrid condensates with structural stability provided by both nucleic acids and antibodies. We have demonstrated the specific and orthogonal antibody-induced phase separation of four different antigen-conjugated nanostars (biotin, DIG, DNP and MUC1), each with their corresponding antibody. By adding increasing concentrations of the specific antibody to a fixed concentration of antigen-conjugated nanostars (300 nM), we observe concentration-dependent formation of antibody-DNA condensates, starting at low nanomolar levels of the antibody. The antibody-DNA hybrid condensates are also reversible and can be cyclically formed/dissolved by the cyclic degradation/addition of the specific antibody. We qualitatively (and in some cases quantitatively) reproduce these results with an approach that conjugates theory and simulations of a phase-field model. The introduction of antibody-antigen interactions into the phase separation process of DNA brings these systems closer to natural cellular systems that rely on intricate networks of protein-protein or protein-nucleic acid interactions and allows for greater programmability and versatility that could have applications in sensing and drug delivery.",
+  "abstract_zh": "我们在此报告了结合Watson-Crick碱基配对与抗体-抗原相互作用，诱导抗体-DNA杂合凝聚体的相分离。为实现这一目标，我们使用了抗原偶联的星形DNA基序（纳米星），其中三个臂末端带有单链DNA粘性末端，而第四个臂末端偶联了一个可被特定二价抗体识别的部分（即抗原）。通过粘性末端之间的选择性Watson-Crick碱基配对与二价抗体-抗原结合的协同作用，这类抗原偶联纳米星发生相分离，形成微米尺度的杂合凝聚体，其结构稳定性由核酸和抗体共同提供。我们展示了四种不同抗原偶联纳米星（生物素、DIG、DNP和MUC1）各自对应抗体的特异性和正交性抗体诱导相分离。通过向固定浓度的抗原偶联纳米星（300 nM）中添加递增浓度的特定抗体，我们观察到从低纳摩尔抗体水平开始，抗体-DNA凝聚体的形成呈浓度依赖性。抗体-DNA杂合凝聚体也是可逆的，可通过特定抗体的循环降解/添加实现循环形成/溶解。我们通过结合相场模型的理论与模拟方法，定性地（在某些情况下定量地）重现了这些结果。将抗体-抗原相互作用引入DNA的相分离过程，使这些系统更接近依赖复杂蛋白质-蛋白质或蛋白质-核酸相互作用网络的天然细胞系统，并提供了更高的可编程性和多功能性，可能在传感和药物递送领域具有应用前景。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41129689/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41129689/",
+  "paper_page_path": "papers/pubmed/41129689/index.html"
+}

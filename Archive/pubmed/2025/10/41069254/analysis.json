@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41069254",
+  "title": "The significance of lipid membrane curvature and lipid order for nano-C60 uptake.",
+  "authors": "Singhal, Ankush; van Daalen, T J J; Sevink, G J Agur",
+  "journal": "Nanoscale",
+  "published_date": "2025-10-10",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用粗粒化模拟研究纳米C60在脂膜曲率与相态下的摄取，对象为纳米颗粒与脂膜而非无序蛋白PPI，机制建模虽可迁移但与本课题关联弱。",
+  "abstract": "Interactions that invasive mesoscopic nanoparticles (NPs) experience with the variety of lipid membranes present in our body have the potential to trigger diverse biological responses and endocytic pathways. From a safety perspective, it is therefore crucial to comprehend how these NPs are absorbed by complex biological environments and how they subsequently disperse and disassemble within them. Previous computational research has focussed on evaluating the compositional dependence of NP binding and translocation to 'model' lipid membranes, i.e. membranes that are in equilibrium, flat, fluid and composed of a few lipid species. The observation of strong local variation of curvature and phase along many membranes in biology, however, suggests that these features are important for membrane-related processes. In particular, the thermodynamic factors underlying curvature formation and phase separation appear to be essential for regulating intricate membrane functions such as insertion and dispersion in a precise and controllable manner. In this study, we have employed coarse-grained simulation to shed light on the role of curvature and phase on the adsorption and dispersion of a typical hydrophobic NPs like nano-C60 (or n-C60), for a model setup of a lung membrane at biologically relevant scales. The effect of curvature on n-C60 uptake, which is particularly striking when the membrane is in the gel phase, is explained in terms of lipid defects, and we find that uptake modulates the fluidity and defect characteristics of the resulting membrane in a state-dependent fashion, and will affect protein binding. Our discovery offers key functional insight in the role of the particular curvature and phase, i.e. a combination of a flat gel state and curved fluid state, that the lung membranes exhibits as a primary barrier.",
+  "abstract_zh": "侵入性介观纳米颗粒（NPs）与人体内多种脂质膜之间的相互作用，有可能触发多种生物反应和内吞途径。从安全性角度来看，理解这些NPs如何被复杂的生物环境吸收，以及它们随后如何在这些环境中分散和分解，至关重要。以往的计算研究集中于评估NPs与“模型”脂质膜（即处于平衡态、平坦、流动且由少数脂质种类组成的膜）结合和易位的组成依赖性。然而，生物学中许多膜上曲率和相位的强烈局部变化观察表明，这些特征对膜相关过程具有重要意义。特别是，曲率形成和相分离（phase separation）背后的热力学因素，似乎对于以精确可控方式调节复杂膜功能（如插入和分散）至关重要。在本研究中，我们采用粗粒化模拟，以生物相关尺度上的肺膜模型设置，阐明曲率和相位对典型疏水性NPs（如纳米C60（n-C60））吸附和分散的作用。曲率对n-C60摄取的影响，在膜处于凝胶相时尤为显著，我们通过脂质缺陷来解释这一现象，并发现摄取以状态依赖方式调节所得膜的流动性和缺陷特征，且会影响蛋白质结合。我们的发现为肺膜作为主要屏障所表现出的特定曲率和相位组合（即平坦凝胶态与弯曲流体态的结合）的作用提供了关键功能见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41069254/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41069254/",
+  "paper_page_path": "papers/pubmed/41069254/index.html"
+}

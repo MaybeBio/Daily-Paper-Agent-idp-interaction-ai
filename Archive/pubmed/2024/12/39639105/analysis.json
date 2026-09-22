@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39639105",
+  "title": "Dynamic pre-structuration of lipid nanodomain-segregating remorin proteins.",
+  "authors": "Xu, Zeren; Schahl, Adrien; Jolivet, Marie-Dominique; Legrand, Anthony; Grelard, Axelle; Berbon, Melanie; Morvan, Estelle; Lagardere, Louis; Piquemal, Jean-Philip; Loquet, Antoine; Germain, Veronique; Chavent, Matthieu; Mongrand, Sebastien; Habenstein, Birgit",
+  "journal": "Communications biology",
+  "published_date": "2024-12-06",
+  "window": {
+    "start": "2024-12-02",
+    "end": "2024-12-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合NMR与分子动力学模拟，揭示植物remorin蛋白N端无序区域在膜结合前围绕卷曲螺旋二聚体形成预结构化构象，并作为脂质纳米域靶向单元，虽对象为膜蛋白而非典型IDP-PPI，但其无序区预结构化与膜互作机制建模对本课题有可迁移启发。",
+  "abstract": "Remorins are multifunctional proteins, regulating immunity, development and symbiosis in plants. When associating to the membrane, remorins sequester specific lipids into functional membrane nanodomains. The multigenic protein family contains six groups, classified upon their protein-domain composition. Membrane targeting of remorins occurs independently from the secretory pathway. Instead, they are directed into different nanodomains depending on their phylogenetic group. All family members contain a C-terminal membrane anchor and a homo-oligomerization domain, flanked by an intrinsically disordered region of variable length at the N-terminal end. We here combined molecular imaging, NMR spectroscopy, protein structure calculations and advanced molecular dynamics simulation to unveil a stable pre-structuration of coiled-coil dimers as nanodomain-targeting units, containing a tunable fuzzy coat and a bar code-like positive surface charge before membrane association. Our data suggest that remorins fold in the cytosol with the N-terminal disordered region as a structural ensemble around a dimeric anti-parallel coiled-coil core containing a symmetric interface motif reminiscent of a hydrophobic Leucine zipper. The domain geometry, the charge distribution in the coiled-coil remorins and the differences in structures and dynamics between C-terminal lipid anchors of the remorin groups provide a selective platform for phospholipid binding when encountering the membrane surface.",
+  "abstract_zh": "Remorins是多功能蛋白质，调控植物的免疫、发育和共生。当与膜结合时，remorins将特定脂质隔离到功能性膜纳米域中。该多基因蛋白家族包含六个组，根据其蛋白质结构域组成进行分类。Remorins的膜靶向独立于分泌途径发生。相反，它们根据其系统发育组被引导到不同的纳米域。所有家族成员均含有一个C端膜锚定结构域和一个同源寡聚化结构域，其N端侧翼为长度可变的固有无序区域。我们在此结合分子成像、核磁共振波谱、蛋白质结构计算和先进的分子动力学模拟，揭示了卷曲螺旋二聚体作为纳米域靶向单元的稳定预结构化，该单元在膜结合前包含一个可调模糊外壳和类似条形码的正表面电荷。我们的数据表明，remorins在细胞质中折叠，N端无序区域作为结构集合体围绕一个二聚体反平行卷曲螺旋核心，该核心包含一个对称界面基序，类似于疏水性亮氨酸拉链。结构域几何形状、卷曲螺旋remorins中的电荷分布以及remorin组间C端脂质锚在结构和动力学上的差异，为遇到膜表面时磷脂结合提供了选择性平台。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39639105/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39639105/",
+  "paper_page_path": "papers/pubmed/39639105/index.html"
+}

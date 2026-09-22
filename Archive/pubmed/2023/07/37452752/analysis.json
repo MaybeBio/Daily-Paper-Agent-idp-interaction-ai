@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37452752",
+  "title": "Balanced Three-Point Water Model OPC3-B for Intrinsically Disordered and Ordered Proteins.",
+  "authors": "Pan, Zhengsong; Mu, Junxi; Chen, Hai-Feng",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2023-07-15",
+  "window": {
+    "start": "2023-07-10",
+    "end": "2023-07-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了针对无序蛋白优化的三点水模型OPC3-B，通过MD模拟提升IDP构象采样精度，虽聚焦水模型而非直接PPI机制，但为IDP互作模拟提供了关键物理建模基础。",
+  "abstract": "Intrinsically disordered proteins (IDPs) play a critical role in many biological processes. Due to the inherent structural flexibility of IDPs, experimental methods present significant challenges for sampling their conformational information at the atomic level. Therefore, molecular dynamics (MD) simulations have emerged as the primary tools for modeling IDPs whose accuracy depend on force field and water model. To enhance the accuracy of physical modeling of IDPs, several force fields have been developed. However, current water models lack precision and underestimate the interaction between water molecules and proteins. Here, we used Monte-Carlo re-weighting method to re-parameterize a three-point water model based on OPC3 for IDPs (named OPC3-B). We benchmarked the performance of OPC3-B compared with nine different water models for 10 IDPs and three ordered proteins. The results indicate that the performance of OPC3-B is better than other water models for both IDPs and ordered proteins. At the same time, OPC3-B possess the power of transferability with other force field to simulate IDPs. This newly developed water model can be used to insight into the research of sequence-disordered-function paradigm for IDPs.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在许多生物过程中扮演关键角色。由于IDPs固有的结构灵活性，实验方法在原子水平上采样其构象信息面临重大挑战。因此，分子动力学 (molecular dynamics) 模拟已成为建模IDPs的主要工具，其准确性取决于力场和水模型。为提高IDPs物理建模的精度，已开发了多种力场。然而，当前的水模型缺乏精确性，低估了水分子与蛋白质之间的相互作用。在此，我们采用蒙特卡洛重加权方法，基于OPC3重新参数化了一个三点水模型，专为IDPs设计（命名为OPC3-B）。我们评估了OPC3-B与九种不同水模型在10个IDPs和三个有序蛋白质上的性能。结果表明，对于IDPs和有序蛋白质，OPC3-B的性能均优于其他水模型。同时，OPC3-B具备与其他力场模拟IDPs的可转移性。这一新开发的水模型可用于深入探究IDPs的序列-无序-功能范式研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37452752/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37452752/",
+  "paper_page_path": "papers/pubmed/37452752/index.html"
+}

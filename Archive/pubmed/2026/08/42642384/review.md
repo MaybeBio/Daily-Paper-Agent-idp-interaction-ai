@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that two structural proteins (FCSP-1 and FCSP-2) from the cuticle of Ostrinia furnacalis form a β-sheet-rich matrix via liquid-liquid phase separation, adhere to chitin scaffolds, and enhance energy dissipation through reversible hydrogen bond disruption and secondary structure transitions. They further demonstrate a biomimetic chitin-protein composite hydrogel with high toughness and impact resistance.
+- **Visible evidence base** Figures 1–6, Supplementary Figures 1–35, Supplementary Tables 1–10, Supplementary Movies 1–2, Methods section
+- **Missing materials affecting confidence** Raw proteomics data files, NMR spectral assignments, MD simulation trajectory files, detailed statistical analysis for mechanical testing, and full supplementary figure legends were not fully accessible in the provided text
+
+## Reviewer
+- **Overall assessment** This manuscript presents an interesting bioinspired approach to impact-resistant materials, drawing on a less-studied natural system (caterpillar cuticle) and combining experimental and computational methods. The identification of two key structural proteins and their phase separation behavior is a valuable contribution. However, several technical concerns regarding the strength of the evidence for the proposed molecular mechanism, the quantitative rigor of the mechanical characterizations, and the generalizability of the biomimetic design need to be addressed before the central claims can be fully supported.
+- **Who would be interested in the results, and why** Researchers in biomimetics, soft materials engineering, structural biology of insect cuticles, and hydrogel design would find this work relevant. The proposed mechanism of LLPS-driven matrix formation and its modulation via phosphorylation offers a potentially new design principle for tunable, tough hydrogels, which could interest groups working on protective materials, soft robotics, and biomedical coatings.
+- **Major strengths** The study addresses a relevant problem (flexible impact-resistant materials) and explores a relatively underexamined natural model. The combination of proteomics, biophysical characterization, computational modeling, and materials testing is comprehensive. The demonstration of a biomimetic hydrogel with improved toughness and the ability to tune properties via phosphorylation is a notable advance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for molecular mechanism
+  - **Claim pointer** The claim that FCSP-1 and FCSP-2 form a β-sheet-rich matrix via LLPS that adheres to chitin and that this matrix is responsible for energy dissipation through reversible β-sheet to random coil transitions.
+  - **Evidence pointer** Figures 2, 3, 5; Methods sections on LLPS assay, FTIR, NMR, MD simulations
+  - **Concern** The evidence linking the in vitro LLPS behavior of FCSP-1/FCSP-2 to the in vivo mechanical properties of the cuticle is largely correlative. The FTIR data showing secondary structure changes during loading are presented as representative spectra without quantitative analysis across multiple samples or clear statistical comparison. The MD simulations are performed on short peptide fragments (YF14, DV18) rather than the full-length proteins, and the timescales (500 ns) may be insufficient to capture the proposed reversible structural transitions relevant to macroscopic energy dissipation. The claim that the matrix "promotes lamellar structures" in the cuticle is supported mainly by SEM images after protein removal, but the direct role of the FCSP matrix in forming these structures is not experimentally demonstrated.
+  - **Why it matters** The central mechanistic claim of the paper rests on the idea that the LLPS-derived matrix and its reversible secondary structure changes are the primary source of energy dissipation. If this link is not rigorously established, the proposed design principle for the biomimetic material is weakened.
+  - **Resolution test** Provide quantitative FTIR analysis (e.g., fraction of β-sheet content) with error bars and statistical tests across multiple loading cycles and samples. Perform MD simulations on longer constructs or with enhanced sampling methods to demonstrate reversible transitions on relevant timescales. Include experiments that directly modulate the LLPS or secondary structure of the matrix (e.g., via mutation or osmotic stress) and show a corresponding change in macroscopic mechanical properties of the cuticle or hydrogel.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of mechanical characterization
+  - **Claim pointer** The claim that the FCSP-chitin hydrogel exhibits superior impact resistance and energy dissipation compared to controls and commercial materials, with a work of fracture of 8.24 MJ/m³.
+  - **Evidence pointer** Figure 6c–g; Methods sections on tensile testing, falling-ball tests, protective tests
+  - **Concern** The mechanical testing data are presented as mean values with standard deviations, but the number of samples, statistical tests used, and effect sizes are not consistently reported. The falling-ball test methodology (drop height, ball mass, sample thickness) is described, but the interpretation of "energy dissipation" from rebound height is not fully explained, and potential confounding factors (e.g., sample stiffness, boundary effects) are acknowledged but not quantitatively addressed. The comparison with commercial materials in Figure 6f appears to be a single representative dataset without statistical comparison. The claim of "superior" performance needs a more rigorous statistical framework.
+  - **Why it matters** The applied value of the material is a key part of the paper's significance. Without robust statistical evidence, the claim of superiority over existing materials is not convincing.
+  - **Resolution test** Report sample sizes, statistical tests (e.g., ANOVA with post-hoc comparisons), and effect sizes for all mechanical comparisons. Provide a detailed protocol for the falling-ball test, including how rebound height is measured and how energy dissipation is calculated. Include multiple independent batches of hydrogels to demonstrate reproducibility.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the biomimetic design
+  - **Claim pointer** The claim that the phosphorylation state of FCSP-2 can be used to "precisely tune" the mechanical properties of the biomimetic hydrogel.
+  - **Evidence pointer** Figure 6a, c; Methods section on in-situ phosphorylation
+  - **Concern** The demonstration of tunability is shown for a limited range of conditions (phosphorylated vs. dephosphorylated vs. in-situ dephosphorylated). The claim of "precise tuning" implies a continuous or graded control, which is not demonstrated. The mechanism by which phosphorylation alters the mechanical properties (e.g., by changing LLPS propensity, network crosslinking density, or secondary structure) is not directly investigated.
+  - **Why it matters** The ability to program material properties is a significant selling point. If the tuning is only binary (on/off) and the mechanism is unclear, the practical utility is limited.
+  - **Resolution test** Generate a series of hydrogels with varying degrees of phosphorylation (e.g., using different ratios of modified/unmodified FCSP-2) and show a graded response in mechanical properties. Investigate the molecular basis of the phosphorylation effect using techniques like NMR or MD simulations on phosphorylated vs. unphosphorylated peptides.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1e
+  - **Evidence pointer** Figure 1e
+  - **Issue** The recovery kinetics data are presented as fitted curves with rate constants, but the fitting model is not described in the Methods. It is unclear what equation was used and how the rate constants were extracted.
+  - **Required correction** Add a description of the fitting model used for the recovery data in the Methods section or figure legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, NMR spectroscopy
+  - **Evidence pointer** Methods section on NMR
+  - **Issue** The NMR experiments are described, but the specific assignments of the chemical shift perturbations to particular residues are not provided in the main text or supplementary information. This makes it difficult to assess the significance of the interactions.
+  - **Required correction** Provide a table or figure in the supplementary information with the chemical shift assignments and the specific residues involved in the interactions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** MD simulation data
+  - **Evidence pointer** Methods section on MD simulations
+  - **Issue** The MD simulation data are deposited in Figshare, but the accession number is only given in the text. It would be helpful to include this in the Data Availability statement.
+  - **Required correction** Include the Figshare DOI in the Data Availability section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 2a, b
+  - **Evidence pointer** Figure 2a, b
+  - **Issue** The proteomics data are presented as percentages, but the variability across the three biological replicates is not shown. It is unclear how consistent the protein abundances are.
+  - **Required correction** Add error bars or a measure of variability to the proteomics data in Figure 2a, b.
+
+## Risk / unsupported claims
+- The claim that the FCSP matrix is the primary determinant of the cuticle's energy dissipation is not fully supported; the evidence is correlative and lacks direct mechanistic proof.
+- The claim of "precise tuning" of mechanical properties via phosphorylation is overstated given the limited demonstration.
+- The claim that the biomimetic hydrogel's performance is "superior" to commercial materials is not rigorously established due to limited statistical analysis.
+- The generalizability of the proposed design principle to other material systems is speculative and not tested.
+- The evolutionary or ecological significance of the proposed mechanism in the natural context (e.g., why this specific combination of proteins evolved) is not discussed, and the claim that this represents a "distinct biological strategy" is not compared to other potential strategies in insects.

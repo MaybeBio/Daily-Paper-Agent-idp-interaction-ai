@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.08.622053",
+  "title": "A bacterial cell wall repair and modification system to resist host antibacterial factors",
+  "authors": "Burnier J; Gallay C; Bruce K; Bjånes E; Martin L; Jim K; Tsui HT; Cremers A; Mignolet J; Vollmer D; Biboy J; Nizet V; Vollmer W; Winkler ME; Veening J",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-09",
+  "window": {
+    "start": "2024-11-04",
+    "end": "2024-11-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究细菌S蛋白协调细胞壁修复以抵抗宿主抗菌因子，涉及蛋白-蛋白互作但对象为细菌细胞壁蛋白，非无序蛋白/相分离，且无AI或物理模拟方法，与本课题关联微弱。",
+  "abstract": "Pathogenic bacteria have acquired the ability to resist antibacterial defense mechanisms of the host. Streptococci are common in animal microbiota and include opportunistic pathogens like Group A Streptococcus (GAS) and Streptococcus pneumoniae (pneumococcus). While the conserved streptococcal S protein has been identified as a key factor in GAS virulence, its exact function is unclear. Here, we show that the pneumococcal S protein is crucial for resisting against host-derived antimicrobials by coordinating cell wall modification and repair. Specifically, we show that S proteins are septally localized through their transmembrane domain and contain an extracellular peptidoglycan (PG) binding LysM domain which is required for its function. Protein-protein and genetic interaction studies demonstrate that the pneumococcal S protein directly interacts with a PG synthase, class A penicillin binding protein PBP1a, and the PG deacetylase PgdA. Single-molecule experiments reveal that the fraction of circumferentially moving PBP1a molecules is reduced in the absence of S protein. Consistent with an impaired PBP1a function, streptococci lacking S protein exhibit increased susceptibility to cell wall targeting antibiotics and altered cell morphologies. PG analysis showed reduced N-deacetylation of glycans in the S. pneumoniae S protein mutant, indicating reduced PgdA activity. We show that pneumococci lacking the S protein cannot persist transient penicillin treatment, are more susceptible to the human antimicrobial peptide LL-37 and to lysozyme, and show decreased virulence in zebrafish and mice. Our data support a model in which S proteins regulate PBP1a activity and play a key role in coordinating PG repair and modification. This cell wall ‘sentinel’ control system provides defense against host-derived and environmental antimicrobial attack.",
+  "abstract_zh": "病原细菌已获得抵抗宿主抗菌防御机制的能力。链球菌常见于动物微生物群中，包括机会性病原体，如A族链球菌（Group A Streptococcus, GAS）和肺炎链球菌（pneumococcus）。尽管保守的链球菌S蛋白已被确定为GAS毒力的关键因子，但其确切功能尚不清楚。在此，我们表明肺炎球菌S蛋白通过协调细胞壁修饰和修复，对抵抗宿主来源的抗菌物质至关重要。具体而言，我们显示S蛋白通过其跨膜结构域定位于隔膜，并包含一个对其功能必需的胞外肽聚糖（peptidoglycan, PG）结合LysM结构域。蛋白质-蛋白质和遗传相互作用研究表明，肺炎球菌S蛋白直接与PG合酶、A类青霉素结合蛋白PBP1a以及PG脱乙酰酶PgdA相互作用。单分子实验揭示，在缺乏S蛋白的情况下，圆周运动的PBP1a分子比例减少。与PBP1a功能受损一致，缺乏S蛋白的链球菌对靶向细胞壁的抗生素表现出增加的敏感性，并出现改变的细胞形态。PG分析显示，肺炎链球菌S蛋白突变体中聚糖的N-脱乙酰化减少，表明PgdA活性降低。我们显示，缺乏S蛋白的肺炎球菌无法在短暂青霉素处理中存活，对人抗菌肽LL-37和溶菌酶更敏感，并在斑马鱼和小鼠中表现出降低的毒力。我们的数据支持一个模型，其中S蛋白调节PBP1a活性，并在协调PG修复和修饰中发挥关键作用。这种细胞壁“哨兵”控制系统提供了针对宿主来源和环境抗菌攻击的防御。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.08.622053",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.08.622053",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.08.622053/index.html"
+}

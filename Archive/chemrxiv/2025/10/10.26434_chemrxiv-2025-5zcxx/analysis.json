@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-5zcxx",
+  "title": "Genetically encoded sterol-modification of a synthetic intrinsically disordered protein leads to diverse self-assembly behavior",
+  "authors": "Sarah Kim; Taranpreet Kaur; Yulia Shmidov; Matthew Wang; Lixin Fan; Abigail Leo; Yan Xiang; Daniel Reker; Ashutosh Chilkoti",
+  "journal": "ChemRxiv",
+  "published_date": "2025-10-15",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究将甾醇修饰到合成无序蛋白(ELP)上，观察其自组装行为与LCST调控，涉及无序蛋白对象但无PPI互作机制，且方法为实验合成而非AI/物理模拟，仅部分相关。",
+  "abstract": "Post translational modifications (PTMs) of proteins are used by natural systems to expand beyond the 20 canonical amino acids. The variation introduced at the sequence level by PTMs after expression leads to changes in both the structure and function of proteins. PTMs expand the chemical repertoire from which new biomaterials can be constructed. Inspired by the post-translational addition of cholesterol to proteins, we have synthesized five new hybrid lipid-protein biomaterials called Sterol modified polypeptides (STaMPs). These STaMPs consist of an elastin like polypeptide (ELP) conjugated to a sterol, namely coprostanol, epicoprostanol, androstanol, galeterone, or dehydroepiandrosterone. We show that the STaMPs form self-assembled nanostructures such as spherical and cylindrical micelles, and vesicles. Furthermore, the sterols modify the typical LCST behavior of ELPs in a predictable fashion depending on the hydrophobicity of the sterol appended. STaMPs could expand the possibilities for drug delivery by enabling the physical encapsulation of hydrophobic drugs, increasing the solubility and half-life of sterol-based chemotherapeutics, and forming thermosensitive drug depots.",
+  "abstract_zh": "蛋白质的翻译后修饰（PTMs）被自然系统用于扩展20种标准氨基酸之外的范围。表达后PTMs在序列水平上引入的变异导致蛋白质结构和功能的变化。PTMs扩展了可用于构建新型生物材料的化学库。受蛋白质翻译后添加胆固醇的启发，我们合成了五种新的杂合脂质-蛋白质生物材料，称为甾醇修饰多肽（STaMPs）。这些STaMPs由弹性蛋白样多肽（ELP）与一种甾醇结合而成，即粪甾醇、表粪甾醇、雄甾醇、加莱特龙或脱氢表雄酮。我们展示了STaMPs形成自组装纳米结构，如球形和圆柱形胶束以及囊泡。此外，甾醇以可预测的方式修饰ELP的典型LCST行为，这取决于所附加甾醇的疏水性。STaMPs可能通过实现疏水性药物的物理封装、增加基于甾醇的化疗药物的溶解度和半衰期，以及形成热敏性药物储库，从而扩展药物递送的可能性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-5zcxx",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-5zcxx",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-5zcxx/index.html"
+}

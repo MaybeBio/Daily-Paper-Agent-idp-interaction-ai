@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, including the Importance section
+- **Shared manuscript claim summary** The authors report that in *Myxococcus xanthus*, the PomX/Y/Z system positions the FtsZ ring at midcell via the PomZ ATPase. They map the ATPase activating protein (AAP) activity of PomY to residues 496-682, show this activity is important for division site positioning and initiation of cell division, and use AlphaFold 3 structural modeling to propose that PomY 496-682 and PomX NPEP bind distinct, non-overlapping sites on the PomZ dimer, with PomY acting via a non-canonical mechanism and PomX NPEP functioning analogously to MinE.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, structural modeling details, validation data, statistical analyses, and all primary figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding the dual activation of a ParA/MinD ATPase by two AAPs, which would be novel in the field. However, the evidence base is limited to the abstract, and the central mechanistic claims rest on structural modeling without experimental validation. The functional importance of PomY 496-682 is stated but not substantiated with quantitative data. The case for a non-canonical AAP mechanism is intriguing but not established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying bacterial cell division, particularly division site positioning mechanisms, and those working on ParA/MinD ATPase systems and their activating proteins. The findings may also interest structural biologists studying protein-protein interactions in nucleotide-dependent signaling, as the proposed bipartite architecture and distinct binding sites could inform broader understanding of AAP diversity.
+- **Major strengths** The study addresses a clear gap in knowledge, namely how a second AAP activates PomZ, which is unusual among ParA/MinD systems. The mapping of PomY activity to a specific C-terminal region provides a concrete starting point. The use of AlphaFold 3 to generate testable structural hypotheses is timely and could guide future experiments.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that PomY AAP activity resides in residues 496-682 and that this activity is important for division site positioning and initiation of cell division.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that PomY 496-682 has AAP activity and is functionally important, but no experimental data are shown. It is unclear whether this conclusion is based on truncation mutants, point mutations, or biochemical assays, and whether the functional importance is demonstrated by phenotypic rescue, depletion, or other approaches. Without these details, the claim cannot be evaluated.
+  - **Why it matters** The functional significance of PomY 496-682 is a core claim that underpins the entire study. If the evidence is weak or indirect, the mechanistic conclusions lose their foundation.
+  - **Resolution test** Provide the experimental data, including the specific assays used to map AAP activity and the functional experiments demonstrating importance for division site positioning and cell division initiation, with appropriate controls and statistics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The authors propose a bipartite PomY 496-682 architecture with a globular domain and an intrinsically disordered region containing the α5 helix, and that α5 binds the PomZ dimer at a site partially overlapping with ParB on ParA.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The structural model is derived solely from AlphaFold 3 predictions, as stated in the abstract. No experimental validation, such as mutagenesis, crosslinking, or binding assays, is presented. The claim that α5 lacks a positively charged residue critical for ParB AAP activity is based on modeling, not on functional data.
+  - **Why it matters** Structural models are hypotheses, not evidence. The proposed non-canonical mechanism of PomY hinges on the accuracy of the model and the functional relevance of the predicted interface. Without validation, the mechanistic claim is speculative.
+  - **Resolution test** Provide experimental validation of the predicted α5-PomZ interaction, such as site-directed mutagenesis of α5 residues followed by activity assays, or binding studies, and demonstrate that the absence of the critical positively charged residue is functionally relevant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that PomX NPEP binds the PomZ dimer at a site distinct from α5 and overlapping with the MinE binding site on MinD, and that PomX and PomY act in concert through distinct but complementary mechanisms.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that modeling supported the PomX NPEP binding site, but no experimental evidence is provided. The conclusion that the two AAPs act in concert is inferred from the model, not from functional experiments showing synergy or additivity.
+  - **Why it matters** The central novelty of the study is the dual activation mechanism. If the distinct binding sites and complementary mechanisms are not experimentally demonstrated, the claim of a concerted action remains unsupported.
+  - **Resolution test** Provide experimental evidence for PomX NPEP binding to the predicted site, and functional assays showing that PomX and PomY together produce a greater or distinct effect on PomZ ATPase activity compared to each alone.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "AAP activity" is used without a clear definition of the assay or the quantitative readout. The abstract also refers to "positively charged N-terminal peptide" and "positively charged residue" without specifying the residues.
+  - **Required correction** Define AAP activity in terms of the specific assay used, and provide residue numbers for the positively charged elements mentioned.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Functional importance statement
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that PomY 496-682 activity is "important for division site positioning and the initiation of cell division" is vague. It is unclear what phenotypes were observed and to what degree.
+  - **Required correction** Specify the observed phenotypes, such as mispositioning frequency or division timing, and the magnitude of the effects.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Model interpretation
+  - **Affected element** AlphaFold 3 usage
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "structural modeling using AlphaFold 3 supports" the proposed interactions, but it does not indicate the confidence of the predictions or whether alternative conformations were considered.
+  - **Required correction** Report model confidence metrics, such as pLDDT or PAE, and discuss the robustness of the predicted interfaces.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The functional mapping, structural model validation, and the concerted action claim all require experimental evidence that is not visible in the abstract.
+- **Assessment against Nature-style criteria** Originality: The concept of two AAPs activating a single ParA/MinD ATPase is novel and would be of interest to a specialized audience. Scientific importance: The findings could advance understanding of division site positioning, but the importance is not fully established without functional validation. Interdisciplinary readership: The topic is likely to appeal primarily to microbiologists and cell biologists, with limited broader appeal. Technical soundness: Cannot be assessed from the abstract alone; the reliance on modeling without experimental validation is a concern. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific jargon that may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the core claims require experimental support that is not visible. A full manuscript with detailed methods and data would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that PomY AAP activity maps to residues 496-682 is unsupported without experimental data.
+- The claim that PomY 496-682 is important for division site positioning and initiation of cell division is unsupported without phenotypic data.
+- The proposed bipartite architecture of PomY 496-682 and the α5-PomZ interaction are unsupported without model validation.
+- The claim that PomX NPEP binds a site overlapping with MinE on MinD is unsupported without experimental evidence.
+- The conclusion that PomX and PomY act in concert through distinct but complementary mechanisms is unsupported without functional synergy experiments.

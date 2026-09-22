@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "41889770",
+    "doi": "10.1021/jacsau.5c01753",
+    "title": "Dynamical Buffering of Reconfiguration Dynamics in Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "The dynamics of intrinsically disordered proteins are important for their function, allowing their heterogeneous conformational ensembles to rapidly reconfigure in response to binding partners or changes in solution conditions. However, the relation between sequence composition and chain dynamics has rarely been studied. Here, we characterize the dynamics of a set of 16 naturally occurring disordered regions of identical chain length but with highly diverse sequences. In spite of the strong variation of chain dimensions with sequence in this set inferred from single-molecule FRET, nanosecond fluorescence correlation spectroscopy yields chain reconfiguration times that are almost independent of sequence. This surprising observation contrasts with the slowdown in dynamics, attributed to internal friction, that has been observed in more compact disordered proteins. We investigated this effect with the aid of multimicrosecond, all-atom explicit-solvent simulations of all 16 disordered proteins. The simulations reproduce the experimental FRET efficiencies with near-quantitative accuracy, with explicit inclusion of the FRET dyes improving agreement with experiment while minimally perturbing the protein ensemble. Critically, the simulations also reproduce the lack of correlation between reconfiguration times and chain dimensions across the sequences and allow us to rationalize this observation as arising from two competing factors as the chains get more compact. The narrowing of end-to-end distance distributions and a concomitant reduction of the corresponding intrachain diffusion coefficients have opposite effects that end up resulting in only a small variation of reconfiguration times with chain dimensions. These compensating factors \"buffer\" the effect of sequence on linker dynamics, which may help to conserve function as sequences evolve.",
+    "keywords": [
+      "all-atom molecular dynamics",
+      "chain reconfiguration time",
+      "nanosecond fluorescence correlation spectroscopy",
+      "salt bridges",
+      "single-molecule FRET",
+      "single-molecule spectroscopy"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ivanovic, Milos T",
+        "Holla, Andrea",
+        "Nuesch, Mark F",
+        "von Roten, Valentin",
+        "Schuler, Benjamin",
+        "Best, Robert B"
+      ],
+      "short_names": [
+        "Ivanovic MT",
+        "Holla A",
+        "Nuesch MF",
+        "von Roten V",
+        "Schuler B",
+        "Best RB"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3164-9411",
+        "ORCID: 0000-0002-5970-4251",
+        "ORCID: 0000-0002-7893-3543"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland. RINGGOLD: 27217",
+        "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland. RINGGOLD: 27217",
+        "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland. RINGGOLD: 27217",
+        "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland. RINGGOLD: 27217",
+        "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland. RINGGOLD: 27217",
+        "Department of Physics, University of Zurich, Zurich 8057, Switzerland.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892-0520, United States. RINGGOLD: 2511"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ivanović, Miloš T",
+        "short_name": "Ivanović MT",
+        "identifiers": [
+          "0000-0003-3164-9411"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Holla, Andrea",
+        "short_name": "Holla A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Nüesch, Mark F",
+        "short_name": "Nüesch MF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "von Roten, Valentin",
+        "short_name": "von Roten V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Schuler, Benjamin",
+        "short_name": "Schuler B",
+        "identifiers": [
+          "0000-0002-5970-4251"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich 8057, Switzerland.",
+          "Department of Physics, University of Zurich, Zurich 8057, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Best, Robert B",
+        "short_name": "Best RB",
+        "identifiers": [
+          "0000-0002-7893-3543"
+        ],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892-0520, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2026 Mar 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/27 07:15",
+    "fetched_at": "2026-09-18 01:57:41"
+  },
+  "links": {
+    "cites": [
+      "42172735"
+    ],
+    "refs": [
+      "40957196",
+      "40595536",
+      "40455990",
+      "40199041",
+      "40165371",
+      "39735932",
+      "39134696",
+      "39019880",
+      "38776371",
+      "38297118",
+      "37957331",
+      "37468629",
+      "36750251",
+      "35948766",
+      "35791387",
+      "35428384",
+      "35179885",
+      "34992286",
+      "34970909",
+      "33827920",
+      "33545530",
+      "33510441",
+      "33184256",
+      "32936641",
+      "31914313",
+      "31805437",
+      "31548393",
+      "31509647",
+      "31462772",
+      "31153683",
+      "31125523",
+      "30992378",
+      "30939006",
+      "30913885",
+      "30277791",
+      "30166459",
+      "30049874",
+      "29961577",
+      "29910983",
+      "29604882",
+      "29539396",
+      "29026044",
+      "28259050",
+      "28223518",
+      "27583687",
+      "27583570",
+      "27566405",
+      "27145874",
+      "27052117",
+      "26919016",
+      "26723635",
+      "26637017",
+      "26632962",
+      "26583233",
+      "26575776",
+      "26328871",
+      "26147918",
+      "26039173",
+      "25863585",
+      "25855813",
+      "25400522",
+      "24758710",
+      "24702709",
+      "24128758",
+      "23901099",
+      "23149740",
+      "22988847",
+      "22550169",
+      "22492978",
+      "22455930",
+      "20486698",
+      "20483348",
+      "19933333",
+      "19739874",
+      "19514729",
+      "18456823",
+      "17301233",
+      "17212484",
+      "16458552",
+      "16200636",
+      "2720055",
+      "1615323"
+    ],
+    "similar": [
+      "41889770",
+      "23912807",
+      "39735932",
+      "28223518",
+      "22492978",
+      "30092636",
+      "29981536",
+      "30277791",
+      "42239067",
+      "29490247",
+      "38127117",
+      "29604882",
+      "27145874",
+      "36674958",
+      "36346711",
+      "29055320",
+      "33831596",
+      "36416865",
+      "39019880",
+      "28805390",
+      "30184304",
+      "29604877",
+      "27566405",
+      "34817999",
+      "24758710",
+      "41759065",
+      "40165371",
+      "30471690",
+      "41137856",
+      "41298246",
+      "32840111",
+      "23199922",
+      "22984159",
+      "25296318",
+      "39588651",
+      "40042172",
+      "17251351",
+      "24844314",
+      "33587794",
+      "27440558",
+      "36750251",
+      "27558720",
+      "40095314",
+      "34970909",
+      "34576338",
+      "21108951",
+      "22821515",
+      "32357776",
+      "33470118",
+      "27583687",
+      "34203110",
+      "33030907",
+      "26498157",
+      "42172735",
+      "40449653",
+      "42332380",
+      "21819149",
+      "28542243",
+      "34681718",
+      "28003858",
+      "34252246",
+      "32088186",
+      "31869980",
+      "19933333",
+      "28625737",
+      "31626641",
+      "18410159",
+      "35068142",
+      "28192291",
+      "32859072",
+      "32159932",
+      "42427316",
+      "26030189",
+      "33337879",
+      "15959866",
+      "32828471",
+      "41082321",
+      "30840442",
+      "24620016",
+      "31241933",
+      "32929427",
+      "23445002",
+      "42475469",
+      "20159166",
+      "23811057",
+      "38053335",
+      "33581430",
+      "37468629",
+      "41073429",
+      "24673507",
+      "27936491",
+      "42129207",
+      "26574429",
+      "38365983",
+      "33747706",
+      "35948766",
+      "30204435",
+      "30913885",
+      "36934808",
+      "28448138"
+    ],
+    "review": [
+      "41889770",
+      "27145874",
+      "36750251",
+      "42172735",
+      "28003858",
+      "28625737",
+      "28192291",
+      "32828471",
+      "30840442",
+      "24620016"
+    ],
+    "pmc": [
+      "13014269"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41889770/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.5c01753",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

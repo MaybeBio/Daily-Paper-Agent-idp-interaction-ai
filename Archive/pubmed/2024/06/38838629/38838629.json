@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "38838629",
+    "doi": "10.1016/j.jcis.2024.05.188",
+    "title": "Unlocking roles of cationic and aromatic residues in peptide amphiphiles in treating drug-resistant gram-positive pathogens."
+  },
+  "content": {
+    "abstract": "Multidrug resistance (MDR) is a rising threat to global health because the number of essential antibiotics used for treating MDR infections is increasingly compromised. In this work we report a group of new amphiphilic peptides (AMPs) derived from the well-studied G(3) (G(IIKK)(3)I-NH(2)) to fight infections from Gram-positive bacteria including susceptible Staphylococcus aureus and methicillin-resistant Staphylococcus aureus (MRSA), focusing on membrane interactions. Time-dependent killing experiments revealed that substitutions of II by WW (GWK), II by FF (GFK) and KK by RR (GIR) resulted in improved bactericidal efficiencies compared to G(3) (GIK) on both S. aureus and MRSA, with the order of GWK > GIR > GFK > GIK. Electronic microscopy imaging revealed structural disruptions of AMP binding to bacterial cell walls. Fluorescence assays including AMP binding to anionic lipoteichoic acids (LTA) in cell-free and cell systems indicated concentration and time-dependent membrane destabilization associated with bacterial killing. Furthermore, AMP's binding to anionic plasma membrane via similar fluorescence assays revealed a different extent of membrane depolarization and leakage. These observations were supported by the penetration of AMPs into the LTA barrier and the subsequent structural compromise to the cytoplasmic membrane as revealed from SANS (small angle neutron scattering). Both experiments and molecular dynamics (MD) simulations revealed that GWK and GIR could make the membrane more rigid but less effective in diffusive efficiency than GIK and GFK through forming intramembrane peptide nanoaggregates associated with hydrophobic mismatch and formation of fluidic and rigid patches. The reported peptide-aggregate-induced phase-separation emerged as a crucial factor in accelerated membrane disintegration and fast bacterial killing. This work has demonstrated the importance of membrane interactions to the development of more effective AMPs and the relevance of the approaches as reported in assisting this area of research.",
+    "keywords": [
+      "AMP",
+      "Cell wall",
+      "Cytoplasmic membrane",
+      "Fast antimicrobial activity",
+      "LTA",
+      "MDR",
+      "Membrane depolarization",
+      "Membrane fluidity change"
+    ],
+    "mesh_terms": [
+      "*Anti-Bacterial Agents/pharmacology/chemistry",
+      "*Methicillin-Resistant Staphylococcus aureus/drug effects",
+      "*Microbial Sensitivity Tests",
+      "Staphylococcus aureus/drug effects",
+      "Antimicrobial Cationic Peptides/chemistry/pharmacology",
+      "Cations/chemistry",
+      "Surface-Active Agents/chemistry/pharmacology",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liao, Mingrui",
+        "Gong, Haoning",
+        "Shen, Kangcheng",
+        "Wang, Ziwei",
+        "Li, Renzhi",
+        "Campana, Mario",
+        "Hu, Xuzhi",
+        "Lu, Jian R"
+      ],
+      "short_names": [
+        "Liao M",
+        "Gong H",
+        "Shen K",
+        "Wang Z",
+        "Li R",
+        "Campana M",
+        "Hu X",
+        "Lu JR"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biological Physics Laboratory, Department of Physics and Astronomy, School of Natural Science, The University of Manchester, Oxford Road, Manchester M13 9PL, UK.",
+        "Biological Physics Laboratory, Department of Physics and Astronomy, School of Natural Science, The University of Manchester, Oxford Road, Manchester M13 9PL, UK.",
+        "Biological Physics Laboratory, Department of Physics and Astronomy, School of Natural Science, The University of Manchester, Oxford Road, Manchester M13 9PL, UK.",
+        "National Graphene Institute, The University of Manchester, Oxford Road, Manchester M13 9PL, UK.",
+        "Department of Materials, The University of Manchester, Oxford Road, Manchester M13 9PL, UK.",
+        "ISIS Pulsed Neutron & Muon Source, STFC Rutherford Appleton Laboratory, Didcot OX11 0QX, UK.",
+        "State Key Laboratory of Solid Lubrication, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences, Lanzhou 730000, PR China. Electronic address: xuzhihu@licp.cas.cn.",
+        "Biological Physics Laboratory, Department of Physics and Astronomy, School of Natural Science, The University of Manchester, Oxford Road, Manchester M13 9PL, UK. Electronic address: J.lu@manchester.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liao, Mingrui",
+        "short_name": "Liao M",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Physics Laboratory, Department of Physics and Astronomy, School of Natural Science, The University of Manchester, Oxford Road, Manchester M13 9PL, UK."
+        ]
+      },
+      {
+        "full_name": "Gong, Haoning",
+        "short_name": "Gong H",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Physics Laboratory, Department of Physics and Astronomy, School of Natural Science, The University of Manchester, Oxford Road, Manchester M13 9PL, UK."
+        ]
+      },
+      {
+        "full_name": "Shen, Kangcheng",
+        "short_name": "Shen K",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Physics Laboratory, Department of Physics and Astronomy, School of Natural Science, The University of Manchester, Oxford Road, Manchester M13 9PL, UK."
+        ]
+      },
+      {
+        "full_name": "Wang, Ziwei",
+        "short_name": "Wang Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Graphene Institute, The University of Manchester, Oxford Road, Manchester M13 9PL, UK."
+        ]
+      },
+      {
+        "full_name": "Li, Renzhi",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Materials, The University of Manchester, Oxford Road, Manchester M13 9PL, UK."
+        ]
+      },
+      {
+        "full_name": "Campana, Mario",
+        "short_name": "Campana M",
+        "identifiers": [],
+        "affiliations": [
+          "ISIS Pulsed Neutron & Muon Source, STFC Rutherford Appleton Laboratory, Didcot OX11 0QX, UK."
+        ]
+      },
+      {
+        "full_name": "Hu, Xuzhi",
+        "short_name": "Hu X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Solid Lubrication, Lanzhou Institute of Chemical Physics, Chinese Academy of Sciences, Lanzhou 730000, PR China. Electronic address: xuzhihu@licp.cas.cn."
+        ]
+      },
+      {
+        "full_name": "Lu, Jian R",
+        "short_name": "Lu JR",
+        "identifiers": [],
+        "affiliations": [
+          "Biological Physics Laboratory, Department of Physics and Astronomy, School of Natural Science, The University of Manchester, Oxford Road, Manchester M13 9PL, UK. Electronic address: J.lu@manchester.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of colloid and interface science"
+    ],
+    "journal_abbrev": [
+      "J Colloid Interface Sci"
+    ],
+    "pub_date": "2024 Oct 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/06 01:14",
+    "fetched_at": "2026-09-21 07:38:01"
+  },
+  "links": {
+    "cites": [
+      "41545749"
+    ],
+    "refs": [],
+    "similar": [
+      "38838629",
+      "38183806",
+      "32909733",
+      "32605985",
+      "35092568",
+      "30360400",
+      "30076752",
+      "30345920",
+      "36417574",
+      "23598079",
+      "22083479",
+      "38691893",
+      "20648478",
+      "28953347",
+      "24798285",
+      "31153908",
+      "32912428",
+      "38848266",
+      "33797891",
+      "33427970",
+      "29871599",
+      "30463701",
+      "35294769",
+      "28731688",
+      "30802593",
+      "30849936",
+      "36162730",
+      "31448597",
+      "30831407",
+      "24302996",
+      "33295774",
+      "25551573",
+      "38236024",
+      "23070152",
+      "38663759",
+      "29567316",
+      "27531221",
+      "25680229",
+      "36061863",
+      "30588791",
+      "34626966",
+      "32234322",
+      "24694059",
+      "37419291",
+      "26450121",
+      "35835775",
+      "31778756",
+      "35158080",
+      "36602379",
+      "35227007",
+      "33202277",
+      "31466017",
+      "25147134",
+      "29626660",
+      "30066172",
+      "23159560",
+      "28120188",
+      "36476441",
+      "21693068",
+      "37400427",
+      "31519325",
+      "34028161",
+      "32099353",
+      "26873587",
+      "37148452",
+      "35862981",
+      "30675774",
+      "34634935",
+      "34147544",
+      "39137610",
+      "29567140",
+      "38503396",
+      "24211081",
+      "34506975",
+      "35467395",
+      "23988790",
+      "29133052",
+      "32307486",
+      "31520928",
+      "36377870",
+      "26986223",
+      "36635396",
+      "29730266",
+      "39054961",
+      "24243598",
+      "22475325",
+      "38069046",
+      "38606960",
+      "31096152",
+      "21709105",
+      "31634552",
+      "22803960",
+      "32276085",
+      "29966917",
+      "34069651",
+      "31954105",
+      "32138506",
+      "14609430",
+      "27301970",
+      "26204061",
+      "32114436",
+      "28885829",
+      "29738229",
+      "30118800",
+      "38428282",
+      "32930504",
+      "39096701",
+      "38393614",
+      "39067494",
+      "39133006",
+      "39089018",
+      "39238505",
+      "39026634",
+      "38704476"
+    ],
+    "review": [
+      "38838629",
+      "35294769"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9797(24)01176-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      }
+    ],
+    "text_mined": []
+  }
+}

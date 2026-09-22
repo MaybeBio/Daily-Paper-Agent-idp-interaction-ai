@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.17.694834",
+  "title": "The structural disorder of Dsup and its interaction with the human nucleosome: A computational study",
+  "authors": "Mínguez-Toral M; Cuevas-Zuviría B; Vílchez-Pinto G; Díaz-Perales A; Pacios LF; Garrido-Arandia M",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-19",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该计算研究通过分子动力学与静电计算，揭示完全无序蛋白Dsup与人类核小体的动态互作机制，证实HMGN样结合模式并阐明其静电保护包膜效应，完美契合无序蛋白介导PPI的机制建模主题。",
+  "abstract": "The known role of the tardigrade-unique protein Dsup in protecting DNA from damage produced by radiation and radicals has prompted great attention for its biomedical applications. While we reported before a computational study on the Dsup-free DNA interaction (Minguez-Toral et al., Sci. Rep. 2020, 10, 13424), our objective here is to help characterize the interaction of Dsup with nucleosomal DNA. We first address the disordered status of Dsup to prove that it is a completely disordered protein. With a proper 3D model of Dsup and by means of molecular modeling, all-atom molecular dynamics simulations and calculations of electrostatic potentials and electric fields, we then present results for several complexes of the human nucleosome with one and two Dsup molecules. Our findings complement and expand upon a recent cryoEM structural study (Alegrio-Louro et al., Genes Dev. 2025, 39, 1-7) which demonstrated that Dsup is recognized through a HMGN-like nucleosome binding motif and resolved the structure for the short 5-residue binding motif of Dsup. In addition to confirming this HMGN-like binding mode, our computational approach reveals dynamic details about the complete 445-residue Dsup in its interaction with the nucleosome. Since our study includes complete histone tails (missing in X-ray and cryoEM structures), it provides a complete picture of distinct possible conformations of Dsup around the nucleosome improving upon low-resolution cryoEM maps available for some Dsup segments. Electrostatic potentials and electric fields reveal in one complex that while the HMGN-like binding motif anchors Dsup at the nucleosome binding site, the conformational freedom of the disordered protein dynamically confers a possible electrostatic protective envelope. This shielding-like effect of Dsup on nucleosomal DNA would thus be similar to that suggested in our previous report on free DNA.",
+  "abstract_zh": "缓步动物特有蛋白Dsup在保护DNA免受辐射和自由基损伤中的已知作用，已引起对其生物医学应用的广泛关注。尽管我们此前报道了一项关于无Dsup的DNA相互作用的计算研究（Minguez-Toral等，Sci. Rep. 2020, 10, 13424），但我们的目标在此是帮助表征Dsup与核小体DNA的相互作用。我们首先探讨Dsup的无序状态，以证明它是一种完全无序的蛋白。通过适当的Dsup三维模型，并借助分子建模、全原子分子动力学模拟以及静电势和电场计算，我们随后展示了人核小体与一个和两个Dsup分子形成的多个复合物的结果。我们的发现补充并扩展了近期一项冷冻电镜结构研究（Alegrio-Louro等，Genes Dev. 2025, 39, 1-7），该研究证明Dsup通过一个类HMGN核小体结合基序被识别，并解析了Dsup短5残基结合基序的结构。除了确认这种类HMGN结合模式外，我们的计算方法还揭示了完整445残基Dsup在与核小体相互作用中的动态细节。由于我们的研究包含完整的组蛋白尾部（在X射线和冷冻电镜结构中缺失），它提供了Dsup在核小体周围不同可能构象的完整图景，优于某些Dsup片段可用的低分辨率冷冻电镜图谱。在一个复合物中，静电势和电场揭示，虽然类HMGN结合基序将Dsup锚定在核小体结合位点，但无序蛋白的构象自由度动态地赋予了一种可能的静电保护包膜。因此，Dsup对核小体DNA的这种屏蔽样效应，与我们先前关于游离DNA的报告中提出的效应相似。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.17.694834",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.17.694834",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.17.694834/index.html"
+}

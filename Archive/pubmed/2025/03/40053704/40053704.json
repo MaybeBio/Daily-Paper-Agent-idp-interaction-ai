@@ -1,0 +1,456 @@
+{
+  "identity": {
+    "pmid": "40053704",
+    "doi": "10.1021/acs.jpcb.4c07064",
+    "title": "Growth of Clusters toward Liquid-Liquid Phase Separation of Monoclonal Antibodies as Characterized by Small-Angle X-ray Scattering and Molecular Dynamics Simulation."
+  },
+  "content": {
+    "abstract": "In concentrated protein solutions, short-range attractions (SRAs) contribute to liquid-liquid phase separation (LLPS) as a function of temperature and salinity, particularly when the charge and thus long-range repulsions are low near the isoelectric point pI. Herein, we study how SRA and solution morphology vary with the approach to LLPS from increased SRA for two monoclonal antibodies (mAbs) as salt concentration is reduced near the pI. These properties are quantified using small-angle X-ray scattering (SAXS) interpreted via coarse-grained (CG) molecular dynamics (MD) simulations and compared with less descriptive properties from static and dynamic light scattering. Experimental structure factors are fit with a library of MD simulations for a CG 12-bead mAb model to determine the SRA strength (K) and cluster size distributions. Proximity to LLPS and clustering characteristics in mAb solutions are impacted by both net charge, which are modified by pH, and the strength of anisotropic electrostatic SRA (charge-charge, charge-dipole, hydrogen bonding, etc.), which are screened and weakened by added salts. The trends in LLPS are consistent with the reduced diffusion interaction parameter kD/B(22)(ex) for dilute solutions. However, greater insight is provided with SAXS along with CG-MD simulations; in particular, the growth of clusters is observed with the approach to LLPS with decreasing salinity over a wide range of concentrations.",
+    "keywords": [],
+    "mesh_terms": [
+      "Scattering, Small Angle",
+      "*Molecular Dynamics Simulation",
+      "*Antibodies, Monoclonal/chemistry/isolation & purification",
+      "X-Ray Diffraction",
+      "Hydrogen-Ion Concentration",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kimball, William D",
+        "Lanzaro, Alfredo",
+        "Hurd, Christian",
+        "Jhaveri, Neel",
+        "Huang, Jintian",
+        "Lewandowski, Joshua",
+        "Qian, Ken K",
+        "Woldeyes, Mahlet A",
+        "Majumdar, Ranajoy",
+        "Witek, Marta A",
+        "Feng, Jiangyan",
+        "Gillilan, Richard E",
+        "Huang, Qingqiu",
+        "Marras, Alexander E",
+        "Truskett, Thomas M",
+        "Johnston, Keith P"
+      ],
+      "short_names": [
+        "Kimball WD",
+        "Lanzaro A",
+        "Hurd C",
+        "Jhaveri N",
+        "Huang J",
+        "Lewandowski J",
+        "Qian KK",
+        "Woldeyes MA",
+        "Majumdar R",
+        "Witek MA",
+        "Feng J",
+        "Gillilan RE",
+        "Huang Q",
+        "Marras AE",
+        "Truskett TM",
+        "Johnston KP"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-4133-2068",
+        "ORCID: 0000-0001-8972-9532",
+        "ORCID: 0000-0002-6607-6468",
+        "ORCID: 0000-0002-0915-1337"
+      ],
+      "affiliations": [
+        "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States.",
+        "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States.",
+        "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States.",
+        "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States.",
+        "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States.",
+        "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States.",
+        "Eli Lilly and Company, Indianapolis, Indiana 46225, United States.",
+        "Eli Lilly and Company, Indianapolis, Indiana 46225, United States.",
+        "Eli Lilly and Company, Indianapolis, Indiana 46225, United States.",
+        "Eli Lilly and Company, Indianapolis, Indiana 46225, United States.",
+        "Eli Lilly and Company, Indianapolis, Indiana 46225, United States.",
+        "Center for High Energy X-ray Sciences at CHESS, Cornell University, Ithaca, New York 14853, United States.",
+        "Center for High Energy X-ray Sciences at CHESS, Cornell University, Ithaca, New York 14853, United States.",
+        "Walker Department of Mechanical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States.",
+        "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States.",
+        "Department of Physics, The University of Texas at Austin, Austin, Texas 78712, United States.",
+        "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kimball, William D",
+        "short_name": "Kimball WD",
+        "identifiers": [
+          "0009-0004-4133-2068"
+        ],
+        "affiliations": [
+          "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Lanzaro, Alfredo",
+        "short_name": "Lanzaro A",
+        "identifiers": [],
+        "affiliations": [
+          "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Hurd, Christian",
+        "short_name": "Hurd C",
+        "identifiers": [],
+        "affiliations": [
+          "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Jhaveri, Neel",
+        "short_name": "Jhaveri N",
+        "identifiers": [],
+        "affiliations": [
+          "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Huang, Jintian",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Lewandowski, Joshua",
+        "short_name": "Lewandowski J",
+        "identifiers": [],
+        "affiliations": [
+          "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Qian, Ken K",
+        "short_name": "Qian KK",
+        "identifiers": [],
+        "affiliations": [
+          "Eli Lilly and Company, Indianapolis, Indiana 46225, United States."
+        ]
+      },
+      {
+        "full_name": "Woldeyes, Mahlet A",
+        "short_name": "Woldeyes MA",
+        "identifiers": [],
+        "affiliations": [
+          "Eli Lilly and Company, Indianapolis, Indiana 46225, United States."
+        ]
+      },
+      {
+        "full_name": "Majumdar, Ranajoy",
+        "short_name": "Majumdar R",
+        "identifiers": [],
+        "affiliations": [
+          "Eli Lilly and Company, Indianapolis, Indiana 46225, United States."
+        ]
+      },
+      {
+        "full_name": "Witek, Marta A",
+        "short_name": "Witek MA",
+        "identifiers": [],
+        "affiliations": [
+          "Eli Lilly and Company, Indianapolis, Indiana 46225, United States."
+        ]
+      },
+      {
+        "full_name": "Feng, Jiangyan",
+        "short_name": "Feng J",
+        "identifiers": [],
+        "affiliations": [
+          "Eli Lilly and Company, Indianapolis, Indiana 46225, United States."
+        ]
+      },
+      {
+        "full_name": "Gillilan, Richard E",
+        "short_name": "Gillilan RE",
+        "identifiers": [],
+        "affiliations": [
+          "Center for High Energy X-ray Sciences at CHESS, Cornell University, Ithaca, New York 14853, United States."
+        ]
+      },
+      {
+        "full_name": "Huang, Qingqiu",
+        "short_name": "Huang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Center for High Energy X-ray Sciences at CHESS, Cornell University, Ithaca, New York 14853, United States."
+        ]
+      },
+      {
+        "full_name": "Marras, Alexander E",
+        "short_name": "Marras AE",
+        "identifiers": [
+          "0000-0001-8972-9532"
+        ],
+        "affiliations": [
+          "Walker Department of Mechanical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Truskett, Thomas M",
+        "short_name": "Truskett TM",
+        "identifiers": [
+          "0000-0002-6607-6468"
+        ],
+        "affiliations": [
+          "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States.",
+          "Department of Physics, The University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Johnston, Keith P",
+        "short_name": "Johnston KP",
+        "identifiers": [
+          "0000-0002-0915-1337"
+        ],
+        "affiliations": [
+          "McKetta Department of Chemical Engineering, The University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Mar 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/07 18:22",
+    "fetched_at": "2026-09-21 16:19:19"
+  },
+  "links": {
+    "cites": [
+      "42198809",
+      "42120585"
+    ],
+    "refs": [
+      "38661388",
+      "38136574",
+      "37906640",
+      "37782765",
+      "37549226",
+      "37191356",
+      "37067466",
+      "37039349",
+      "36716270",
+      "36471135",
+      "35778071",
+      "35412625",
+      "35282775",
+      "35274955",
+      "34647231",
+      "34637319",
+      "34121411",
+      "33125371",
+      "32923611",
+      "32101441",
+      "31830196",
+      "31241333",
+      "31146525",
+      "31059276",
+      "30913985",
+      "30614707",
+      "30077735",
+      "29981328",
+      "29557476",
+      "29338267",
+      "29021737",
+      "28754261",
+      "27838577",
+      "27837522",
+      "27830221",
+      "27165990",
+      "27077243",
+      "27017836",
+      "26707135",
+      "26505877",
+      "25956118",
+      "25683855",
+      "25556561",
+      "24639233",
+      "24484044",
+      "24089716",
+      "21638285",
+      "21112304",
+      "20401522",
+      "20304511",
+      "19475558",
+      "18851577",
+      "17155440",
+      "15124199",
+      "9896944",
+      "3478681"
+    ],
+    "similar": [
+      "40053704",
+      "37782765",
+      "32101441",
+      "31146525",
+      "37191356",
+      "36716270",
+      "37039349",
+      "31487466",
+      "31726055",
+      "34939811",
+      "26849155",
+      "38661388",
+      "28796519",
+      "30419274",
+      "30617833",
+      "26078002",
+      "40624892",
+      "36194430",
+      "38386020",
+      "28422503",
+      "24739175",
+      "39145427",
+      "28754261",
+      "25383990",
+      "38965780",
+      "23560896",
+      "29274822",
+      "29359938",
+      "22113861",
+      "37549226",
+      "30913985",
+      "25559441",
+      "19795191",
+      "29423600",
+      "31984192",
+      "37751332",
+      "40698779",
+      "38862770",
+      "39163212",
+      "34225583",
+      "37906640",
+      "35386098",
+      "39508447",
+      "20401522",
+      "31241333",
+      "30017887",
+      "31618040",
+      "32416079",
+      "20849134",
+      "29996057",
+      "40278867",
+      "23316912",
+      "41722705",
+      "24171386",
+      "28159365",
+      "41804277",
+      "40320242",
+      "36859088",
+      "36856266",
+      "32961238",
+      "29469576",
+      "36251838",
+      "26914439",
+      "35776490",
+      "34747330",
+      "36198003",
+      "32721563",
+      "22827493",
+      "27838577",
+      "42120585",
+      "37067466",
+      "29423596",
+      "37923304",
+      "39964197",
+      "30230663",
+      "30840442",
+      "32339173",
+      "33453925",
+      "27017836",
+      "25117055",
+      "40409637",
+      "37569415",
+      "36641212",
+      "30593783",
+      "25180816",
+      "40113105",
+      "41087027",
+      "35778071",
+      "35705644",
+      "21112304",
+      "18329044",
+      "33170708",
+      "38958508",
+      "38979955",
+      "25920721",
+      "26237070",
+      "39778472",
+      "30702291",
+      "39815790",
+      "39302099"
+    ],
+    "review": [
+      "40053704",
+      "30617833",
+      "30840442",
+      "27017836"
+    ],
+    "pmc": [
+      "12186533"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40053704/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.4c07064",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

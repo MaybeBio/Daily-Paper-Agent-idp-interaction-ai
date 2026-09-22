@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "34667532",
+    "doi": "10.1016/j.csbj.2021.09.011",
+    "title": "Similarity of the non-amyloid-beta component and C-terminal tail of monomeric and tetrameric alpha-synuclein with 14-3-3 sigma."
+  },
+  "content": {
+    "abstract": "Alpha-synuclein (alphaSyn) is often described as a predominantly disordered protein that has a propensity to self-assemble into toxic oligomers that are found in patients with Parkinson's and Alzheimer's diseases. alphaSyn's chaperone behavior and tetrameric structure are proposed to be protective against toxic oligomerization. In this paper, we extended the previously proposed similarity between alphaSyn and 14-3-3 proteins to the alpha-helical tetrameric species of alphaSyn in detail. 14-3-3 proteins are a family of well-folded proteins with seven human isoforms, and function in signal transduction and as molecular chaperones. We investigated protein homology, using sequence alignment, amyloid, and disorder prediction, as well as three-dimensional visualization and protein-interaction networks. Our results show sequence homology and structural similarity between the aggregation-prone non-amyloid-beta component (NAC) residues Val-52 to Gly-111 in alphaSyn and 14-3-3 sigma residues Leu-12 to Gly-78. We identified an additional region of sequence homology in the C-terminal region of alphaSyn (residues Ser-129 to Asp-135) and a C-terminal loop of 14-3-3 between helix alphaH and alphaI (residues Ser-209 to Asp-215). This data indicates alphaSyn shares conserved domain architecture with small heat shock proteins. We show predicted regions of high amyloidogenic propensity and intrinsic structural disorder in alphaSyn coincide with amyloidogenic and disordered predictions for 14-3-3 proteins. The homology in the NAC region aligns with residues involved in dimer- and tetramerization of the non-amyloidogenic 14-3-3 proteins. Because 14-3-3 proteins are generally not prone to misfolding, our results lend further support to the hypothesis that the NAC region is critical to the assembly of alphaSyn into the non-toxic tetrameric state.",
+    "keywords": [
+      "14-3-3 proteins",
+      "Alpha-synuclein",
+      "BAD, BCL2 associated agonist of cell death gene name",
+      "Homology",
+      "IDP, Intrinsically disorder protein(s)",
+      "MAPT, microtubule-associated protein tau gene name",
+      "PPI, Protein-Protein interactions",
+      "Prediction",
+      "Protein structure",
+      "SIP, shared interaction partner",
+      "SNCA, alpha-synuclein gene name",
+      "TH, tyrosine hydroxylase gene name",
+      "Tetramer",
+      "YWHAB, 14-3-3 protein beta isoform gene name",
+      "YWHAE, 14-3-3 protein epsilon isoform gene name",
+      "YWHAH, 14-3-3 protein eta isoform gene name",
+      "pHSPB6, phosphorylated Heat Shock Protein beta-6",
+      "sHSP, small heat shock protein",
+      "alphaSyn, alpha-synuclein"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Evans, Sarah R",
+        "West, Colista",
+        "Klein-Seetharaman, Judith"
+      ],
+      "short_names": [
+        "Evans SR",
+        "West C",
+        "Klein-Seetharaman J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Colorado School of Mines, Quantitative Biosciences and Engineering, 1012 14 St, Chemistry, Golden, CO 80401, USA.",
+        "Colorado School of Mines, Department of Chemistry, 1012 14 St, Chemistry, Golden, CO 80401, USA.",
+        "Colorado School of Mines, Quantitative Biosciences and Engineering, 1012 14 St, Chemistry, Golden, CO 80401, USA.",
+        "Colorado School of Mines, Department of Chemistry, 1012 14 St, Chemistry, Golden, CO 80401, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Evans, Sarah R",
+        "short_name": "Evans SR",
+        "identifiers": [],
+        "affiliations": [
+          "Colorado School of Mines, Quantitative Biosciences and Engineering, 1012 14 St, Chemistry, Golden, CO 80401, USA."
+        ]
+      },
+      {
+        "full_name": "West, Colista",
+        "short_name": "West C",
+        "identifiers": [],
+        "affiliations": [
+          "Colorado School of Mines, Department of Chemistry, 1012 14 St, Chemistry, Golden, CO 80401, USA."
+        ]
+      },
+      {
+        "full_name": "Klein-Seetharaman, Judith",
+        "short_name": "Klein-Seetharaman J",
+        "identifiers": [],
+        "affiliations": [
+          "Colorado School of Mines, Quantitative Biosciences and Engineering, 1012 14 St, Chemistry, Golden, CO 80401, USA.",
+          "Colorado School of Mines, Department of Chemistry, 1012 14 St, Chemistry, Golden, CO 80401, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/21 06:00",
+    "fetched_at": "2026-09-20 06:04:51"
+  },
+  "links": {
+    "cites": [
+      "38228169",
+      "37108886",
+      "36438187",
+      "36278939"
+    ],
+    "refs": [
+      "32665974",
+      "31988522",
+      "31594249",
+      "31571649",
+      "31487003",
+      "31440136",
+      "31068777",
+      "30489014",
+      "30327435",
+      "30281929",
+      "30224724",
+      "30041032",
+      "29971274",
+      "29613769",
+      "29555518",
+      "28884485",
+      "28651250",
+      "28510303",
+      "28452474",
+      "28282814",
+      "28089448",
+      "27640673",
+      "27080380",
+      "27018801",
+      "26864076",
+      "26808899",
+      "26076669",
+      "25939020",
+      "25800794",
+      "25490121",
+      "24854788",
+      "24634806",
+      "24532983",
+      "24501346",
+      "24364034",
+      "23669636",
+      "23398399",
+      "23326595",
+      "22315227",
+      "22274962",
+      "22151054",
+      "22006323",
+      "21988835",
+      "21841800",
+      "21158432",
+      "20679480",
+      "20209636",
+      "18614564",
+      "17940884",
+      "17085597",
+      "16943323",
+      "16847063",
+      "16678437",
+      "16269331",
+      "15857576",
+      "15731107",
+      "15615727",
+      "15173315",
+      "12621030",
+      "12196094",
+      "12032141",
+      "11943812",
+      "11911880",
+      "11206070",
+      "11093259",
+      "10840038",
+      "10464279",
+      "10407019",
+      "7603574",
+      "7603573"
+    ],
+    "similar": [
+      "34667532",
+      "33003328",
+      "33862084",
+      "38170745",
+      "32356963",
+      "36008493",
+      "32647130",
+      "30093536",
+      "35529629",
+      "31740740",
+      "31571649",
+      "36278939",
+      "38324572",
+      "39133842",
+      "32157247",
+      "29995210",
+      "30826264",
+      "34680099",
+      "34307295",
+      "18198943",
+      "32304757",
+      "29704492",
+      "36744543",
+      "27341336",
+      "23369945",
+      "38003322",
+      "27097022",
+      "29364151",
+      "31181290",
+      "23607785",
+      "26306045",
+      "38980078",
+      "37373401",
+      "26601760",
+      "32173400",
+      "27507836",
+      "19875982",
+      "24192542",
+      "28533388",
+      "19934398",
+      "30477568",
+      "33211011",
+      "25985082",
+      "17209570",
+      "29636661",
+      "22274962",
+      "32424039",
+      "29428500",
+      "25866630",
+      "29575453",
+      "37893236",
+      "23499431",
+      "34220490",
+      "34205689",
+      "26443817",
+      "25490121",
+      "32078298",
+      "35836937",
+      "23374074",
+      "24058647",
+      "18436529",
+      "33235246",
+      "22482021",
+      "33971161",
+      "27338814",
+      "31424918",
+      "36830656",
+      "25389903",
+      "32417755",
+      "29092095",
+      "30327435",
+      "31064841",
+      "32508330",
+      "23748003",
+      "36786129",
+      "25471588",
+      "28877262",
+      "34684701",
+      "26515689",
+      "31697492",
+      "31048377",
+      "28763125",
+      "20704592",
+      "31931835",
+      "37190853",
+      "23319586",
+      "25131592",
+      "32790707",
+      "21237164",
+      "15840579",
+      "34948050",
+      "17088319",
+      "29305919",
+      "9851705",
+      "28870519",
+      "32560668",
+      "33445653",
+      "33269918",
+      "38464093",
+      "38586052"
+    ],
+    "review": [
+      "34667532",
+      "31571649",
+      "34307295",
+      "29364151",
+      "37373401",
+      "32173400",
+      "24192542",
+      "25985082",
+      "32424039",
+      "29428500",
+      "23499431",
+      "31064841",
+      "32508330",
+      "23748003"
+    ],
+    "pmc": [
+      "8495038"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(21)00396-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34667532/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34667532",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAB-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

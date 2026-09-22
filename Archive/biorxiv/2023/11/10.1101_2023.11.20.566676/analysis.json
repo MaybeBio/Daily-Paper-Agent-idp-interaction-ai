@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.20.566676",
+  "title": "LightRoseTTA: High-efficient and Accurate Protein Structure Prediction Using an Ultra-Lightweight Deep Graph Model",
+  "authors": "Xudong Wang; Tong Zhang; Guangbu Liu; Zhen Cui; Zhiyong Zeng; Cheng Long; Wenming Zheng; Jian Yang",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-21",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出超轻量图神经网络LightRoseTTA用于高效蛋白质结构预测，虽非无序蛋白/PPI对象，但其轻量建模思路对IDR互作机制建模有可迁移启发。",
+  "abstract": "Accurately predicting protein structure, from amino acid sequences to three-dimensional structures, is of great significance in biological research. To tackle this issue, a representative deep big model, RoseTTAFold, has been proposed with promising success. Here, we report an ultra-lightweight deep graph network , named LightRoseTTA , to achieve accurate and high-efficient prediction for proteins. Notably, three highlights are possessed by our LightRoseTTA: (i) high-accurate structure prediction for proteins, being competitive with RoseTTAFold on multiple popular datasets including CASP14 and CAMEO; (ii) high-e ffi cient training and inference with an ultra-lightweight model, costing only one week on one single general NVIDIA 3090 GPU for model-training (vs 30 days on 8 high-speed NVIDIA V100 GPUs for RoseTTAFold) and containing only 1 . 4M parameters (vs 130M in RoseTTAFold); (iii) low dependency on multi-sequence alignments (MSA, widely-used homologous information), achieving the best performance on three MSA-insu ffi cient datasets: Orphan, De novo, and Orphan25 . Besides, our LightRoseTTA is transferable from general proteins to antibody data, as verified in our experiments. We visualize some case studies to demonstrate the high-quality prediction, and provide some insights on how the structure predictions facilitate the understanding of biological functions. We further make a discussion on the time and resource costs of LightRoseTTA and RoseTTAFold, and demonstrate the feasibility of lightweight models for protein structure prediction, which may be crucial in the resource-limited research for universities and academy institutions. We release our code and model to speed biological research .",
+  "abstract_zh": "从氨基酸序列到三维结构的蛋白质结构精确预测，在生物学研究中具有重要意义。为解决这一问题，一种代表性的深度大模型RoseTTAFold已被提出，并取得了显著成功。在此，我们报告一种名为LightRoseTTA的超轻量级深度图网络，以实现对蛋白质的精确高效预测。值得注意的是，我们的LightRoseTTA具备三大亮点：（i）对蛋白质结构的高精度预测，在包括CASP14和CAMEO在内的多个流行数据集上与RoseTTAFold竞争；（ii）超轻量级模型的高效训练与推理，仅需在单个通用NVIDIA 3090 GPU上花费一周时间进行模型训练（相比之下，RoseTTAFold需在8个高速NVIDIA V100 GPU上训练30天），且仅包含1.4M参数（而RoseTTAFold为130M）；（iii）对多序列比对（MSA，广泛使用的同源信息）的低依赖性，在三个MSA不足的数据集：Orphan、De novo和Orphan25上实现了最佳性能。此外，我们的LightRoseTTA可从通用蛋白质迁移至抗体数据，这已在我们的实验中得到验证。我们可视化了一些案例研究以展示高质量预测，并提供了一些关于结构预测如何促进生物功能理解的见解。我们进一步讨论了LightRoseTTA和RoseTTAFold的时间与资源成本，并展示了轻量级模型在蛋白质结构预测中的可行性，这可能对大学和学术机构在资源有限的研究中至关重要。我们发布代码和模型以加速生物学研究。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.20.566676",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.20.566676",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.20.566676/index.html"
+}

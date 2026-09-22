@@ -1,0 +1,67 @@
+## Review setup
+- **Input scope** Full manuscript text, including main figures and supplementary figure references, but no actual figure panels, tables, or supplementary files were provided.
+- **Assessment boundary** Scientific claims, methodological soundness, and internal consistency based solely on the supplied text. No assessment of data quality, statistical validity, or reproducibility is possible without the actual datasets, figure panels, or code.
+- **Shared manuscript claim summary** The authors report that the intrinsically disordered cytoplasmic tail of E-cadherin (E-cad) remains highly dynamic when bound to its folded ligand β-catenin (β-cat), diffusing across the entire ligand surface at submillisecond to millisecond timescales. They propose a "Velcro-like" model of many weak, transient contacts superimposed on a few persistent interactions, reconciling specificity, high affinity, and flexibility. They further estimate the ruggedness of the binding energy landscape at 3 to 4 kBT.
+- **Visible evidence base** Text descriptions of smFRET experiments (Fig. 2A–E), binding titrations (Fig. 3B–C), salt-dependent FRET changes (Fig. 3D), nsFCS data (Fig. 4A), RASP kinetic analyses (Fig. 4E–F), temperature-dependent kinetics (Fig. 6A–C), and coarse-grained (CG) simulations (Figs. 3E–F, 5A–E). Supplementary figure references (Figs. S1–S6) and table (Table S1) are mentioned but not provided.
+- **Missing materials affecting confidence** All figure panels, supplementary figures and tables, source data (Dataset S1), simulation parameters, analysis code, and methodological details in the SI Appendix. Without these, quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the biology of intrinsically disordered proteins (IDPs): the dynamics of a disordered protein on its folded ligand. The combination of smFRET, nsFCS, RASP analysis, and CG simulations is ambitious and appropriate. The central claim, that E-cad diffuses across the β-cat surface with no dominant barrier but with a rugged landscape of 3 to 4 kBT, is interesting and potentially significant. However, the evidence as presented in the text alone is insufficient to fully establish this claim. Several key quantitative results are described but not shown, and the interpretation of the RASP kinetics as two-state (and hence barrier-dominated) versus barrier-less diffusion appears to be resolved only by a model-dependent argument. The manuscript is well written and likely to appeal to a broad readership, but the technical soundness cannot be fully assessed from the provided material.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein-protein interactions, single-molecule biophysics, and cell adhesion signaling. The work is also relevant to those studying fuzzy complexes and the role of conformational dynamics in signaling specificity and affinity. The methodological combination of smFRET, nsFCS, and CG modeling will interest biophysicists developing or applying such tools.
+- **Major strengths** 1) The question is important and timely, addressing a poorly understood aspect of IDP-ligand complexes. 2) The experimental approach is multi-pronged, combining ensemble and single-molecule fluorescence with computational modeling. 3) The authors explicitly address potential artifacts (e.g., dye-dye contacts, static quenching) and provide control experiments. 4) The interpretation in terms of a rugged energy landscape with weak, transient contacts is physically plausible and testable. 5) The writing is clear and accessible, with a strong significance statement.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that E-cad diffuses across the entire β-cat surface at submillisecond to millisecond timescales, with no dominant barrier, is central to the paper.
+  - **Evidence pointer** Figures 4E–F, 6A–C; text descriptions in "E-cad Is Highly Dynamic in Complex with β-cat" and "Intrachain Diffusion of E-cad on β-cat"
+  - **Concern** The RASP analysis is described as showing "pronounced decays" and "exponential decays" consistent with two-state kinetics, which the authors interpret as indicating a dominant barrier. However, they then argue that the temperature dependence is inconsistent with a barrier and instead support barrier-less diffusion in a rugged landscape. This apparent contradiction is resolved only by invoking a model-dependent fit to the Smoluchowski equation. The text does not provide sufficient detail on how the RASP data were fit, what the quality of the fits was, or how the two models were statistically compared. Without seeing the actual data and fits, it is impossible to judge whether the barrier-less interpretation is uniquely supported or merely one of several possibilities.
+  - **Why it matters** The distinction between a dominant barrier and a rugged landscape with many small barriers is a key conceptual outcome of the paper. If the data cannot robustly distinguish these scenarios, the central mechanistic claim is weakened.
+  - **Resolution test** Provide the RASP correlation functions, the fits to exponential decays, the fits to the Smoluchowski equation, and a statistical comparison (e.g., AIC or BIC) between the two models. Show that the barrier-less model is preferred and that the inferred diffusion coefficients are robust to fitting assumptions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The estimate of the ruggedness amplitude (σ = 2.9 ± 0.1 and 4.3 ± 0.1 kBT for random and periodic fluctuations, respectively) is presented as a quantitative result.
+  - **Evidence pointer** Figure 6C and associated text in "Intrachain Diffusion of E-cad on β-cat"
+  - **Concern** The derivation of σ relies on the assumption that the free energy potentials for free and bound E-cad are very similar, and that D0 and D can be equated with the diffusion coefficients of isolated and bound E-cad, respectively. The text states that the DA distance distributions "changed only slightly" upon binding, but no quantitative comparison is shown. The uncertainty in σ is reported as ±0.1 kBT, which seems remarkably small given the indirect nature of the inference and the multiple assumptions involved. The propagation of errors from the measured diffusion coefficients and the potential comparison is not described.
+  - **Why it matters** The numerical value of σ is a headline result that quantifies the "ruggedness" of the landscape. If the uncertainty is underestimated or the assumptions are not met, the value could be misleading.
+  - **Resolution test** Show the DA distance distributions for free and bound E-cad, quantify their similarity (e.g., overlap coefficient or Kullback-Leibler divergence), and provide a full error propagation analysis for σ. Discuss the sensitivity of σ to the assumption of similar potentials.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The CG model is used to predict FRET efficiencies, salt sensitivity, and contact maps, and is claimed to recapitulate experimental observations.
+  - **Evidence pointer** Figures 3D–F, 5A–E
+  - **Concern** The CG model is described as having a single global parameter (ε) for hydrophobic interactions and another (ζ) for intermolecular contacts. The text states that the "rigid" model described FRET efficiencies within ±0.07 FRET units, but no details are given on how the model was parameterized, how the rigid regions were defined, or how the model was validated against the experimental data beyond this single error metric. The claim that the model "recapitulated" the observed dynamics is based on qualitative agreement, not a quantitative comparison.
+  - **Why it matters** The CG model is a central tool for interpreting the experimental data and generating the structural ensemble. If the model is not rigorously validated, the structural interpretations (e.g., the distribution of E-cad on β-cat) are uncertain.
+  - **Resolution test** Provide a detailed description of the CG model parameterization, including how ε and ζ were determined, and show a quantitative comparison between model predictions and experimental observables (e.g., FRET efficiency histograms, salt-dependent changes, contact maps) with appropriate uncertainty estimates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2A–B
+  - **Evidence pointer** Text in "E-cad Is Expanded in Solution"
+  - **Issue** The text states that FRET labels map the N-terminal (A), central (B), and C-terminal (C) segments, and that "homogeneous FRET distributions" were obtained. However, the actual FRET efficiency values and the widths of the distributions are not reported in the text.
+  - **Required correction** Report the mean FRET efficiencies and distribution widths for all six constructs, either in the text or in a table, to allow quantitative comparison with the model predictions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Figure 4A
+  - **Evidence pointer** Text in "E-cad Is Highly Dynamic in Complex with β-cat"
+  - **Issue** The positive cross-correlation amplitudes for segments B, C, and BC are attributed to static quenching and restricted dye mobility. While control experiments are mentioned, the text does not explain how these effects were quantitatively separated from genuine distance dynamics.
+  - **Required correction** Briefly describe the control experiments and how they were used to correct or interpret the cross-correlation amplitudes, or refer the reader to the SI for a detailed explanation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of alternative models
+  - **Evidence pointer** Text in "Intrachain Diffusion of E-cad on β-cat"
+  - **Issue** The authors consider two models for the energy landscape (dominant barrier vs. rugged landscape) but do not discuss other possible interpretations, such as anisotropic diffusion or transient trapping in specific binding modes.
+  - **Required correction** Add a brief discussion of alternative interpretations and why the data favor the rugged landscape model over these alternatives.
+
+## Risk / unsupported claims
+- The claim that E-cad "diffuses across the entire surface" of β-cat is based on the CG model prediction that 91% of the β-cat surface is explored. This is a model-dependent extrapolation and is not directly measured experimentally.
+- The estimate of "more than 100,000 reconfigurations before dissociation" relies on the ratio of the reconfiguration rate to the macroscopic dissociation rate, but the reconfiguration rate is inferred from model-dependent fits and the dissociation rate is taken from a previous study. The uncertainty in this number is not provided.
+- The statement that the "rugged energy landscape... is a defining feature of dynamic and partially disordered protein complexes" is a generalization beyond the single system studied here and is presented as a speculation in the Discussion, not a conclusion.
+- The claim that the "flexible parts of E-cad serve an important function: they boost affinity" is supported by the low affinity of the core-binding region, but the quantitative contribution of the flexible segments (5.5 kBT) is inferred from a comparison of KD values and is not directly measured.

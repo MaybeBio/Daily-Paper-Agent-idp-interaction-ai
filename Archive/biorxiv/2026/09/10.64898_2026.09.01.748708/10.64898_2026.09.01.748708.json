@@ -34,26 +34,26 @@
         "author": [
           {
             "fullName": "Gopi S",
-            "firstName": "Soundhararajan",
             "lastName": "Gopi",
+            "firstName": "Soundhararajan",
             "initials": "S"
           },
           {
             "fullName": "Qin H",
-            "firstName": "Hanling",
             "lastName": "Qin",
+            "firstName": "Hanling",
             "initials": "H"
           },
           {
             "fullName": "Best RB",
-            "firstName": "Robert",
             "lastName": "Best",
+            "firstName": "Robert",
             "initials": "RB"
           },
           {
             "fullName": "Schuler B",
-            "firstName": "Benjamin",
             "lastName": "Schuler",
+            "firstName": "Benjamin",
             "initials": "B"
           }
         ]
@@ -83,24 +83,24 @@
       "isOpenAccess": "N",
       "inEPMC": "N",
       "inPMC": "N",
-      "hasPDF": "N",
-      "hasBook": "N",
-      "hasSuppl": "N",
       "citedByCount": 0,
-      "hasData": "N",
       "hasReferences": "N",
       "hasTextMinedTerms": "Y",
       "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
       "hasLabsLinks": "N",
+      "hasData": "N",
       "license": "cc by",
-      "hasEvaluations": "N",
       "authMan": "N",
       "epmcAuthMan": "N",
       "nihAuthMan": "N",
       "hasTMAccessionNumbers": "N",
       "dateOfCreation": "2026-09-04",
+      "firstPublicationDate": "2026-09-02",
       "firstIndexDate": "2026-09-04",
-      "firstPublicationDate": "2026-09-02"
+      "hasEvaluations": "N"
     }
   }
 }

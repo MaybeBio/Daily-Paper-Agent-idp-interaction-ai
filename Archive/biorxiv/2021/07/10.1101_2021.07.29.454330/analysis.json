@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.07.29.454330",
+  "title": "Discovering molecular features of intrinsically disordered regions by using evolution for contrastive learning",
+  "authors": "Alex X Lu; Amy X Lu; Iva Pritišanac; Taraneh Zarin; Julie D Forman-Kay; Alan M Moses",
+  "journal": "bioRxiv",
+  "published_date": "2021-07-30",
+  "window": {
+    "start": "2021-07-26",
+    "end": "2021-08-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用进化对比学习从无序蛋白IDR序列中自动发现保守功能特征（基序/重复/理化性质），虽不直接研究PPI或互作机制，但其IDR特征发现方法可迁移至无序蛋白介导互作界面的建模与预测。",
+  "abstract": "A major challenge to the characterization of intrinsically disordered regions (IDRs), which are widespread in the proteome, but relatively poorly understood, is the identification of molecular features that mediate functions of these regions, such as short motifs, amino acid repeats and physicochemical properties. Here, we introduce a proteome-scale feature discovery approach for IDRs. Our approach, which we call “reverse homology”, exploits the principle that important functional features are conserved over evolution. We use this as a contrastive learning signal for deep learning: given a set of homologous IDRs, the neural network has to correctly choose a held-out homologue from another set of IDRs sampled randomly from the proteome. We pair reverse homology with a simple architecture and standard interpretation techniques, and show that the network learns conserved features of IDRs that can be interpreted as motifs, repeats, or bulk features like charge or amino acid propensities. We also show that our model can be used to produce visualizations of what residues and regions are most important to IDR function, generating hypotheses for uncharacterized IDRs. Our results suggest that feature discovery using unsupervised neural networks is a promising avenue to gain systematic insight into poorly understood protein sequences.",
+  "abstract_zh": "固有无序区域（IDRs）在蛋白质组中广泛存在，但对其了解相对有限，其表征面临的一个主要挑战是识别介导这些区域功能的分子特征，如短基序、氨基酸重复序列及理化性质。在此，我们介绍一种针对IDRs的蛋白质组规模特征发现方法。该方法我们称之为“反向同源性”，利用重要功能特征在进化中得以保留的原理。我们将此作为深度学习的对比学习信号：给定一组同源IDRs，神经网络需从蛋白质组中随机采样的另一组IDRs中正确选出一个留出的同源序列。我们将反向同源性结合简单架构和标准解释技术，并展示网络能学习到IDRs的保守特征，这些特征可被解释为基序、重复序列或电荷、氨基酸倾向性等整体特性。我们还表明，该模型可用于生成关于哪些残基和区域对IDR功能最为重要的可视化，为未表征的IDRs提出假设。我们的结果表明，使用无监督神经网络进行特征发现是系统理解知之甚少的蛋白质序列的一个有前景的途径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.07.29.454330",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.07.29.454330",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.07.29.454330/index.html"
+}

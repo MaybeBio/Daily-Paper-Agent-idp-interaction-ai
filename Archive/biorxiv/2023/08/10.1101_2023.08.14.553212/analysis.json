@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.14.553212",
+  "title": "Met58 and di-acidic motif located at C-terminal region of SARS-CoV-2 ORF6 plays a crucial role in its structural conformations",
+  "authors": "Kumar P; Saumya KU; Bhardwaj T; Giri R",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-14",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过计算模拟研究SARS-CoV-2 ORF6无序C端区域的结构动态及其关键残基对互作的影响，对象为IDR且涉及PPI机制，但方法以经典MD为主、未深入结合AI或相分离背景。",
+  "abstract": "Despite being mostly neglected in structural biology, the C-terminal Regions (CTRs) are studied to be multifunctional in humans as well as in viruses. Their role in cellular processes such as trafficking, protein-protein interactions, and protein-lipid interactions are known due to their structural properties. In our previous findings on SARS-CoV-2 Spike and NSP1 proteins, the C-terminal regions (CTRs) are observed to be disordered and experimental evidence showed a gain of structure properties in different physiological environments. In this line, we have investigated the structural dynamics of CTR (residues 38-61) of SARS-CoV-2 ORF6 protein, disrupting bidirectional transport between the nucleus and cytoplasm. Like Spike and NSP1-CTR, the ORF6-CTR is also disordered in nature but possesses gain of structure properties in minimal physiological conditions. As per studies, the residue such as Methionine at 58 th position in ORF6 is critical for interaction with Rae1-Nup98. Therefore, along with M58, we have identified a few other mutations from the literature and performed extensive structure modelling and dynamics studies using computational simulations. The exciting revelations in CTR models provide evidence of its structural flexibility and possible capabilities to perform multifunctionality inside the host.",
+  "abstract_zh": "尽管在结构生物学中大多被忽视，C端区域（CTRs）在人类及病毒中被研究为具有多功能性。它们在运输、蛋白质-蛋白质相互作用和蛋白质-脂质相互作用等细胞过程中的作用，因其结构特性而为人所知。在我们先前对SARS-CoV-2 Spike和NSP1蛋白的研究中，观察到C端区域（CTRs）呈无序状态，实验证据显示在不同生理环境中具有结构获得特性。基于此，我们研究了SARS-CoV-2 ORF6蛋白的CTR（残基38-61）的结构动力学，该区域破坏细胞核与细胞质之间的双向运输。与Spike和NSP1-CTR类似，ORF6-CTR在本质上也是无序的，但在最小生理条件下具有结构获得特性。根据研究，ORF6中第58位的甲硫氨酸残基对与Rae1-Nup98的相互作用至关重要。因此，除了M58，我们还从文献中识别了其他几个突变，并利用计算模拟进行了广泛的结构建模和动力学研究。CTR模型中的激动人心发现提供了其结构灵活性的证据，以及其在宿主内执行多功能性的潜在能力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.14.553212",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.14.553212",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.14.553212/index.html"
+}

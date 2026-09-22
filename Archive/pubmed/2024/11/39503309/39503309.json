@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "39503309",
+    "doi": "10.1002/cm.21954",
+    "title": "SEC-SAXS/MC Ensemble Structural Studies of the Microtubule Binding Protein Cdt1 Show Monomeric, Folded-Over Conformations."
+  },
+  "content": {
+    "abstract": "Cdt1 is a mixed folded protein critical for DNA replication licensing and it also has a \"moonlighting\" role at the kinetochore via direct binding to microtubules and the Ndc80 complex. However, it is unknown how the structure and conformations of Cdt1 could allow it to participate in these multiple, unique sets of protein complexes. While robust methods exist to study entirely folded or unfolded proteins, structure-function studies of combined, mixed folded/disordered proteins remain challenging. In this work, we employ orthogonal biophysical and computational techniques to provide structural characterization of mitosis-competent human Cdt1. Thermal stability analyses shows that both folded winged helix domains1 are unstable. CD and NMR show that the N-terminal and linker regions are intrinsically disordered. DLS shows that Cdt1 is monomeric and polydisperse, while SEC-MALS confirms that it is monomeric at high concentrations, but without any apparent inter-molecular self-association. SEC-SAXS enabled computational modeling of the protein structures. Using the program SASSIE, we performed rigid body Monte Carlo simulations to generate a conformational ensemble of structures. We observe that neither fully extended nor extremely compact Cdt1 conformations are consistent with SAXS. The best-fit models have the N-terminal and linker disordered regions extended into the solution and the two folded domains close to each other in apparent \"folded over\" conformations. We hypothesize the best-fit Cdt1 conformations could be consistent with a function as a scaffold protein that may be sterically blocked without binding partners. Our study also provides a template for combining experimental and computational techniques to study mixed-folded proteins.",
+    "keywords": [
+      "Monte Carlo",
+      "conformational dynamics",
+      "intrinsically disordered protein",
+      "kinetochore",
+      "rigid body modeling",
+      "small angle x-ray scattering"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Cell Cycle Proteins/chemistry/metabolism",
+      "Scattering, Small Angle",
+      "*X-Ray Diffraction/methods",
+      "Protein Folding",
+      "Protein Conformation",
+      "Monte Carlo Method",
+      "*Microtubules/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Smith, Kyle P",
+        "Chakravarthy, Srinivas",
+        "Rahi, Amit",
+        "Chakraborty, Manas",
+        "Vosberg, Kristen M",
+        "Tonelli, Marco",
+        "Plach, Maximilian G",
+        "Grigorescu, Arabela A",
+        "Curtis, Joseph E",
+        "Varma, Dileep"
+      ],
+      "short_names": [
+        "Smith KP",
+        "Chakravarthy S",
+        "Rahi A",
+        "Chakraborty M",
+        "Vosberg KM",
+        "Tonelli M",
+        "Plach MG",
+        "Grigorescu AA",
+        "Curtis JE",
+        "Varma D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA.",
+        "Biophysics Collaborative Access Team, Argonne National Laboratory, Argonne, Illinois, USA.",
+        "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA.",
+        "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA.",
+        "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA.",
+        "National Magnetic Resonance Facility at Madison, Department of Biochemistry, University of Wisconsin, Madison, Wisconsin, USA.",
+        "2bind GmbH, Regensburg, Germany.",
+        "Keck Biophysics Facility, Department of Molecular Biosciences, Northwestern University, Evanston, Illinois, USA.",
+        "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland, USA.",
+        "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Smith, Kyle P",
+        "short_name": "Smith KP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA."
+        ]
+      },
+      {
+        "full_name": "Chakravarthy, Srinivas",
+        "short_name": "Chakravarthy S",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics Collaborative Access Team, Argonne National Laboratory, Argonne, Illinois, USA."
+        ]
+      },
+      {
+        "full_name": "Rahi, Amit",
+        "short_name": "Rahi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA."
+        ]
+      },
+      {
+        "full_name": "Chakraborty, Manas",
+        "short_name": "Chakraborty M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA."
+        ]
+      },
+      {
+        "full_name": "Vosberg, Kristen M",
+        "short_name": "Vosberg KM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA."
+        ]
+      },
+      {
+        "full_name": "Tonelli, Marco",
+        "short_name": "Tonelli M",
+        "identifiers": [],
+        "affiliations": [
+          "National Magnetic Resonance Facility at Madison, Department of Biochemistry, University of Wisconsin, Madison, Wisconsin, USA."
+        ]
+      },
+      {
+        "full_name": "Plach, Maximilian G",
+        "short_name": "Plach MG",
+        "identifiers": [],
+        "affiliations": [
+          "2bind GmbH, Regensburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Grigorescu, Arabela A",
+        "short_name": "Grigorescu AA",
+        "identifiers": [],
+        "affiliations": [
+          "Keck Biophysics Facility, Department of Molecular Biosciences, Northwestern University, Evanston, Illinois, USA."
+        ]
+      },
+      {
+        "full_name": "Curtis, Joseph E",
+        "short_name": "Curtis JE",
+        "identifiers": [],
+        "affiliations": [
+          "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Varma, Dileep",
+        "short_name": "Varma D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell & Developmental Biology, Northwestern University Feinberg School of Medicine, Chicago, Illinois, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cytoskeleton (Hoboken, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Cytoskeleton (Hoboken)"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/06 16:18",
+    "fetched_at": "2026-09-21 12:22:21"
+  },
+  "links": {
+    "cites": [
+      "41053316"
+    ],
+    "refs": [
+      "37265445",
+      "35373198",
+      "34972950",
+      "34282049",
+      "34265844",
+      "33207556",
+      "33185281",
+      "33065068",
+      "32844209",
+      "32756877",
+      "32669428",
+      "31937751",
+      "31528692",
+      "31442477",
+      "31425549",
+      "31282880",
+      "30840442",
+      "30304678",
+      "30154187",
+      "29972812",
+      "29629870",
+      "29571687",
+      "29021737",
+      "28808438",
+      "28643783",
+      "28191894",
+      "28191893",
+      "28054562",
+      "28025549",
+      "28025526",
+      "27980506",
+      "27939973",
+      "27583570",
+      "27294484",
+      "26500468",
+      "26320411",
+      "26306089",
+      "26301997",
+      "25531225",
+      "25505092",
+      "24810534",
+      "23851460",
+      "23727886",
+      "23395375",
+      "23372670",
+      "23341755",
+      "22820921",
+      "22760329",
+      "22611034",
+      "22581055",
+      "22208199",
+      "22116789",
+      "21802429",
+      "21134384",
+      "20944740",
+      "20543496",
+      "20335175",
+      "20192264",
+      "20085727",
+      "20005848",
+      "19906994",
+      "19722278",
+      "19269643",
+      "19153597",
+      "19041372",
+      "18508524",
+      "17598984",
+      "17406547",
+      "17097677",
+      "16277991",
+      "16222654",
+      "16218947",
+      "15980472",
+      "15849414",
+      "15629940",
+      "15286659",
+      "15211037",
+      "11573094",
+      "10027275",
+      "9428652",
+      "8744570",
+      "8520220",
+      "7470476",
+      "1942038"
+    ],
+    "similar": [
+      "39503309",
+      "38260441",
+      "21947276",
+      "30840442",
+      "29548755",
+      "35317998",
+      "26387105",
+      "19933326",
+      "42178622",
+      "22095648",
+      "29632904",
+      "20801888",
+      "26320411",
+      "37265445",
+      "23912807",
+      "29925592",
+      "32679070",
+      "30557358",
+      "30217822",
+      "22581055",
+      "26548662",
+      "17182256",
+      "30154187",
+      "39499823",
+      "32696361",
+      "27111521",
+      "29314274",
+      "30617833",
+      "35696898",
+      "33725442",
+      "32840111",
+      "36641212",
+      "42227953",
+      "29573987",
+      "40574713",
+      "42427316",
+      "41102979",
+      "27551949",
+      "29218556",
+      "27496803",
+      "24100323",
+      "29208936",
+      "22044150",
+      "29605933",
+      "34627764",
+      "22821520",
+      "31525284",
+      "25230952",
+      "31073392",
+      "40810511",
+      "40475948",
+      "34310942",
+      "31251056",
+      "40907012",
+      "31350339",
+      "38522710",
+      "19592714",
+      "31860156",
+      "36641214",
+      "41053403",
+      "36062318",
+      "18694757",
+      "40095314",
+      "36641210",
+      "33177626",
+      "15608373",
+      "26314310",
+      "19906994",
+      "20335175",
+      "36710010",
+      "36029961",
+      "29218557",
+      "23456097",
+      "33065068",
+      "42129207",
+      "39048355",
+      "29045862",
+      "28668130",
+      "32696370",
+      "41446988",
+      "36410960",
+      "39674478",
+      "35290631",
+      "37646172",
+      "30878202",
+      "41298416",
+      "36641211",
+      "31589784",
+      "22639100",
+      "34817999",
+      "25112875",
+      "30125451",
+      "18078545",
+      "29352739",
+      "19722278",
+      "36856266",
+      "11399083",
+      "32339173",
+      "26195786",
+      "30554840"
+    ],
+    "review": [
+      "39503309",
+      "21947276",
+      "30840442",
+      "26387105",
+      "26320411",
+      "30617833",
+      "29218556",
+      "22044150",
+      "31073392",
+      "36641211",
+      "22639100",
+      "18078545"
+    ],
+    "pmc": [
+      "12074537"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39503309/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/cm.21954",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

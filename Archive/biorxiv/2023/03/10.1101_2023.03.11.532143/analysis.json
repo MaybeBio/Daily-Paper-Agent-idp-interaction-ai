@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.11.532143",
+  "title": "Modulating Nucleic Acid Phase Transitions as a Mechanism of Action for Cell-Penetrating Antimicrobial Peptides",
+  "authors": "Sneideris T; Erkamp NA; Ausserwöger H; Saar KL; Welsh TJ; Qian D; Johncock MLLY; Krainer G; Borodavka A; Knowles TPJ",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-12",
+  "window": {
+    "start": "2023-03-06",
+    "end": "2023-03-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用机器学习序列分析发现抗菌肽可驱动核酸相分离/凝聚，并关联其抗菌机制，虽对象为核酸-肽而非IDP-PPI，但相分离机制建模思路对无序蛋白介导互作研究有可迁移启发。",
+  "abstract": "Antimicrobial peptides (AMPs) are a vital part of the immune system that helps combat bacterial infections by disrupting the bacterial cell membrane or interacting with intracellular targets. However, the mechanisms by which AMPs act on intracellular targets are not well understood. Using machine learning-based sequence analysis, we have discovered that a significant number of AMPs have a strong tendency to form liquid-like condensates in the presence of nucleic acids, a process known as phase separation. We have demonstrated that this phase separation propensity is linked to the effectiveness of the AMPs in inhibiting transcription and translation in vitro, as well as their ability to compact nucleic acids and form clusters with bacterial nucleic acids in bacterial cells. We propose that the AMP-driven compaction of nucleic acids and modulation of their phase transitions constitute a previously unrecognised mechanism by which AMPs exert their antibacterial effects. These findings open up exciting possibilities for the development of antimicrobials that target nucleic acid phase transitions.",
+  "abstract_zh": "抗菌肽（AMPs）是免疫系统的重要组成部分，通过破坏细菌细胞膜或与细胞内靶标相互作用来帮助抵抗细菌感染。然而，AMPs作用于细胞内靶标的机制尚不完全清楚。利用基于机器学习的序列分析，我们发现大量AMPs在核酸存在时具有形成液体样凝聚体的强烈倾向，这一过程被称为相分离（phase separation）。我们证明，这种相分离倾向与AMPs在体外抑制转录和翻译的有效性相关，也与它们压缩核酸并在细菌细胞内与细菌核酸形成簇的能力相关。我们提出，AMPs驱动的核酸压缩及其相变调节构成了一种先前未被识别的机制，通过该机制AMPs发挥其抗菌作用。这些发现为开发靶向核酸相变的抗菌药物开辟了令人兴奋的可能性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.11.532143",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.11.532143",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.11.532143/index.html"
+}

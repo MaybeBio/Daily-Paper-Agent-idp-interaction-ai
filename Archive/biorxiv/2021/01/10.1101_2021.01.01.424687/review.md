@@ -1,0 +1,66 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that CLIP-170 overexpression induces cellular "patch" structures that behave as biomolecular condensates, containing +TIP proteins and excluding other condensate markers. They further suggest that conserved intrinsically disordered regions in key +TIPs support functional significance, and that the endogenous +TIP network may form liquid droplets at microtubule ends or other locations.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or figure references
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant hypothesis linking +TIP network organization to biomolecular condensate behavior. However, the evidence described is qualitative and lacks quantitative support. The claim that CLIP-170-induced patches are phase-separated liquid condensates is plausible but not established from the abstract alone. The broader speculation about endogenous +TIP network behavior is not directly supported by the presented data.
+- **Who would be interested in the results, and why** Cell biologists studying microtubule dynamics, +TIP network function, and intracellular phase separation. Researchers interested in biomolecular condensates and their roles in cellular organization would also find the results relevant, as the work bridges two active fields.
+- **Major strengths** The hypothesis is well motivated by known features of +TIP proteins, including multivalency and intrinsic disorder. The use of multiple complementary techniques (video microscopy, immunofluorescence, FRAP) is appropriate for testing condensate behavior. The bioinformatic analysis adds evolutionary perspective.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Our data show that the CLIP-170-induced patches have hallmarks indicative of a biomolecular condensate"
+  - **Evidence pointer** Abstract only; no specific figures or quantitative results provided
+  - **Concern** The abstract states that patches have "hallmarks" of condensates but does not specify which hallmarks were tested or how they were quantified. FRAP recovery rates, droplet fusion events, and sensitivity to disruption agents are standard criteria, but none are described with numerical or statistical support.
+  - **Why it matters** Without quantitative evidence, the distinction between a true liquid-liquid phase-separated condensate and other aggregated or gel-like structures cannot be made. The central claim depends on this distinction.
+  - **Resolution test** Provide FRAP recovery curves with half-times and mobile fractions, demonstrate fusion or dripping events, and show sensitivity to 1,6-hexanediol or similar agents, with appropriate controls and statistics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim scope
+  - **Claim pointer** "raise the possibility that the endogenous +TIP network might form a liquid droplet at MT ends or other +TIP locations"
+  - **Evidence pointer** Abstract only; no direct evidence for endogenous condensate formation
+  - **Concern** The abstract extends findings from overexpression conditions to endogenous behavior, but no data are presented to support this extrapolation. Overexpression artifacts are a known concern in condensate studies.
+  - **Why it matters** The physiological relevance of the findings depends on whether endogenous +TIP networks form condensates. Without evidence at endogenous expression levels, the broader claim remains speculative.
+  - **Resolution test** Show that endogenous CLIP-170 or other +TIPs form similar structures under physiological conditions, or provide evidence that overexpression does not alter the fundamental interaction properties.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of "patch" structures
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "patch" is used without a clear operational definition, such as size range, morphology, or temporal persistence.
+  - **Required correction** Define "patch" with quantitative criteria in the abstract or refer to a figure that provides this information.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Exclusion of other condensate markers
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that patches exclude "other known condensate markers" but does not specify which markers were tested.
+  - **Required correction** List the markers tested and the basis for their selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Bioinformatic analysis
+  - **Evidence pointer** Abstract text
+  - **Issue** The claim that conserved intrinsically disordered regions imply functional significance is reasonable but not directly tested. Conservation could reflect other constraints.
+  - **Required correction** Clarify that this is an inference, and consider discussing alternative explanations for conservation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The abstract does not provide sufficient quantitative or mechanistic evidence to establish that the patches are bona fide liquid condensates, nor does it support the extrapolation to endogenous conditions.
+- **Assessment against Nature-style criteria**  
+  - Originality: The hypothesis linking +TIP network organization to condensate behavior is novel and timely.  
+  - Scientific importance: If established, the work could reshape understanding of +TIP network function and microtubule regulation.  
+  - Interdisciplinary readership: The topic bridges cell biology and biophysics, appealing to a broad audience.  
+  - Technical soundness: The described techniques are appropriate, but the abstract lacks the quantitative rigor needed to assess soundness.  
+  - Readability for nonspecialists: The abstract is generally clear, though terms like "+TIP network superstructure" and "biomolecular condensate" may require contextual explanation for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is intriguing and the approach is promising, but the abstract alone does not provide sufficient support for the central claims. A revised version with quantitative data and direct evidence for endogenous behavior would be needed to make the case convincing.
+
+## Risk / unsupported claims
+- The claim that CLIP-170-induced patches are phase-separated liquid condensates is unsupported without quantitative FRAP and fusion data.
+- The claim that the endogenous +TIP network might form liquid droplets is speculative and not directly tested.
+- The inference that conserved intrinsically disordered regions are functionally significant is plausible but not experimentally validated.
+- The exclusion of "other known condensate markers" is unverifiable without specifying which markers were tested.

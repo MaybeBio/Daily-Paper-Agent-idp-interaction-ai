@@ -1,0 +1,206 @@
+{
+  "identity": {
+    "pmid": "41318999",
+    "doi": "10.1016/j.bpj.2025.11.2689",
+    "title": "Backbone conformational entropy change in helix folding."
+  },
+  "content": {
+    "abstract": "The main thermodynamic force opposing protein folding is the loss of the polypeptide conformational entropy. Backbone conformational entropy, as well as other thermodynamic forces associated with folding, are difficult to measure directly, even for simple model systems such as alpha-helices. Helix-coil theories describe alpha-helix folding as a process involving the loss of backbone conformational freedom and the formation of hydrogen bonds. However, measuring the parameters for these two processes is difficult due to their coupled nature and requires additional parameters associated with the experimental observables. Here, we determine the backbone conformational entropy change (DeltaS(BB)) accompanying alpha-helix formation by measuring the absolute heat capacities of a series of alanine peptides using differential scanning calorimetry. Directly measuring one of the system's thermodynamic properties enables a robust determination of helix-coil parameters using an ensemble-based statistical-thermodynamic model and Bayesian inference. The resulting backbone entropy change for the helix-to-coil transition is DeltaS(BB) = (5.2 +/- 0.3) cal mol(-1) K(-1) per peptide unit, less than previous experimental values but in line with the recent estimates from molecular dynamics simulations. Additionally, the determination of enthalpy and heat capacity changes offers a unified thermodynamic picture of alpha-helix formation. This has important implications for understanding the net energetic balance in protein folding and the interactions of intrinsically disordered proteins that undergo alpha-helix folding upon binding.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Entropy",
+      "*Protein Folding",
+      "Protein Conformation, alpha-Helical",
+      "*Peptides/chemistry",
+      "Molecular Dynamics Simulation",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zavrtanik, Uros",
+        "Lah, Jurij",
+        "Hadzi, San"
+      ],
+      "short_names": [
+        "Zavrtanik U",
+        "Lah J",
+        "Hadzi S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia.",
+        "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia.",
+        "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia. Electronic address: san.hadzi@fkkt.uni-lj.si."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zavrtanik, Uroš",
+        "short_name": "Zavrtanik U",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Lah, Jurij",
+        "short_name": "Lah J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia."
+        ]
+      },
+      {
+        "full_name": "Hadži, San",
+        "short_name": "Hadži S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry, Faculty of Chemistry and Chemical Technology, University of Ljubljana, 1000 Ljubljana, Slovenia. Electronic address: san.hadzi@fkkt.uni-lj.si."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Jan 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/30 06:31",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41318999",
+      "10452900",
+      "19173655",
+      "8811731",
+      "7563056",
+      "34502559",
+      "15326600",
+      "12034440",
+      "10610796",
+      "17034243",
+      "32877193",
+      "9641985",
+      "30542771",
+      "11162106",
+      "33280379",
+      "21280020",
+      "15339816",
+      "16755589",
+      "31498638",
+      "29558133",
+      "32735736",
+      "10983411",
+      "27310440",
+      "9235002",
+      "12225756",
+      "30209295",
+      "11297420",
+      "15671166",
+      "19408261",
+      "2043644",
+      "21320459",
+      "9889160",
+      "16963082",
+      "31605655",
+      "39150098",
+      "25246551",
+      "9144777",
+      "24324160",
+      "19514729",
+      "23912807",
+      "21058639",
+      "11443927",
+      "34855369",
+      "15554696",
+      "29925017",
+      "30694671",
+      "21289072",
+      "28111343",
+      "31685242",
+      "30395709",
+      "7473752",
+      "9772190",
+      "11297422",
+      "24050152",
+      "28914483",
+      "10588902",
+      "10387087",
+      "25227444",
+      "25313044",
+      "40351163",
+      "33893863",
+      "9080196",
+      "35762718",
+      "11369854",
+      "7479911",
+      "17581082",
+      "10903873",
+      "34473923",
+      "15665128",
+      "11818561",
+      "39210596",
+      "18399522",
+      "18163629",
+      "16383641",
+      "16204250",
+      "8090712",
+      "16494355",
+      "11093262",
+      "27111521",
+      "15244845",
+      "16957326",
+      "28375008",
+      "1786342",
+      "19948130",
+      "40827676",
+      "23878243",
+      "22506277",
+      "18630933",
+      "10441132",
+      "8061613",
+      "17521916",
+      "9585569",
+      "21548576",
+      "9521744",
+      "21769353",
+      "10757996",
+      "9062118",
+      "23670702",
+      "16315271",
+      "17412361"
+    ],
+    "review": [
+      "41318999"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(25)03455-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

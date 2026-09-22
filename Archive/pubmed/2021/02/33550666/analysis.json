@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33550666",
+  "title": "A survey of human histone H1 subtypes interaction networks: Implications for histones H1 functioning.",
+  "authors": "Kowalski, Andrzej",
+  "journal": "Proteins",
+  "published_date": "2021-02-08",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过序列生物信息学方法分析组蛋白H1亚型互作网络，揭示其通过内在无序区域以耦合折叠结合机制介导瞬时中等强度PPI，虽对象为组蛋白H1（含IDR）且聚焦互作机制，但方法为传统序列预测工具而非AI/物理模拟，故评7分。",
+  "abstract": "To show a spectrum of histone H1 subtypes (H1.1-H1.5) activity realized through the protein-protein interactions, data selected from APID resources were processed with sequence-based bioinformatics approaches. Histone H1 subtypes participate in over half a thousand interactions with nuclear and cytosolic proteins (ComPPI database) engaged in the enzymatic activity and binding of nucleic acids and proteins (SIFTER tool). Small-scale networks of H1 subtypes (STRING network) have similar topological parameters (P > .05) which are, however, different for networks hubs between subtype H1.1 and H1.4 and subtype H1.3 and H1.5 (P < .05) (Cytoscape software). Based on enriched GO terms (g:Profiler toolset) of interacting proteins, molecular function and biological process of networks hubs is related to RNA binding and ribosome biogenesis (subtype H1.1 and H1.4), cell cycle and cell division (subtype H1.3 and H1.5) and protein ubiquitination and degradation (subtype H1.2). The residue propensity (BIPSPI predictor) and secondary structures of interacting surfaces (GOR algorithm) as well as a value of equilibrium dissociation constant (ISLAND predictor) indicate that a type of H1 subtypes interactions is transient in term of the stability and medium-strong in relation to the strength of binding. Histone H1 subtypes bind interacting partners in the intrinsic disorder-dependent mode (FoldIndex, PrDOS predictor), according to the coupled folding and binding and mutual synergistic folding mechanism. These results evidence that multifunctional H1 subtypes operate via protein interactions in the networks of crucial cellular processes and, therefore, confirm a new histone H1 paradigm relating to its functioning in the protein-protein interaction networks.",
+  "abstract_zh": "为展示组蛋白H1亚型（H1.1-H1.5）通过蛋白质-蛋白质相互作用实现的功能谱系，从APID资源中选取的数据经基于序列的生物信息学方法处理。组蛋白H1亚型参与超过五百种与核蛋白和胞质蛋白（ComPPI数据库）的相互作用，这些蛋白涉及酶活性及核酸和蛋白质结合（SIFTER工具）。H1亚型的小规模网络（STRING网络）具有相似拓扑参数（P > .05），但亚型H1.1与H1.4及亚型H1.3与H1.5的网络枢纽间存在差异（P < .05）（Cytoscape软件）。基于相互作用蛋白的富集GO术语（g:Profiler工具集），网络枢纽的分子功能和生物学过程与RNA结合和核糖体生物发生（亚型H1.1和H1.4）、细胞周期和细胞分裂（亚型H1.3和H1.5）以及蛋白质泛素化和降解（亚型H1.2）相关。残基倾向性（BIPSPI预测器）和相互作用表面的二级结构（GOR算法）以及平衡解离常数值（ISLAND预测器）表明，H1亚型相互作用的类型在稳定性方面是瞬时的，在结合强度方面为中强。组蛋白H1亚型以内在无序依赖模式（FoldIndex、PrDOS预测器）结合相互作用伙伴，遵循偶联折叠与结合及相互协同折叠机制。这些结果证明，多功能H1亚型通过蛋白质相互作用在关键细胞过程网络中运作，因此确认了关于其在蛋白质-蛋白质相互作用网络中功能的新组蛋白H1范式。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33550666/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33550666/",
+  "paper_page_path": "papers/pubmed/33550666/index.html"
+}

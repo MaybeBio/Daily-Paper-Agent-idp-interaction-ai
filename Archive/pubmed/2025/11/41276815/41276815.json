@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "41276815",
+    "doi": "10.1186/s13059-025-03854-6",
+    "title": "Mycobacterium tuberculosis uses intrinsically disordered, fast evolving proteins to interact with conserved host factors."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Intrinsically disordered protein regions (IDRs) are implicated in diverse cellular processes in eukaryotes and, in these organisms, they cover up to 40% of the proteome. Surprisingly little is known about IDRs in bacterial proteomes. Specifically, a number of questions remain unanswered, such as the role of these regions in host-pathogen interactions, their adaptive potential and evolutionary trajectories, as well as their biophysical properties. Here we focus on Mycobacterium tuberculosis and take advantage of the fact that, due to its extreme epidemiological relevance, several large-scale analyses are available. RESULTS: After benchmarking different disorder prediction tools, we integrate multiple levels of biological information to show that IDR-containing proteins are involved in virulence, in the modulation of host immune response, and in lipid metabolism. Mycobacterium tuberculosis IDRs are fast evolving and poorly antigenic, and they display specific sequence-ensemble-function relationships. Conversely, human proteins that interact with Mycobacterium tuberculosis are evolutionary constrained, widely expressed, and highly connected in the human interactome map. This indicates that the classical arms race paradigm is not universal in host-pathogen interactions. We also extend analysis to 540 human-infecting bacteria and we underscore wide variations in IDR representation and conformational properties. CONCLUSIONS: Our data point to a role of IDRs in contributing to bacterial virulence, interaction with the human host, and control of immune responses. Although this awaits experimental validation, we suggest that Mycobacterium tuberculosis also uses IDRs to sense and interact with its environment. Herein, we provide a database of bacterial IDRs, together with relevant parameters, for public use.",
+    "keywords": [
+      "Mycobacterium tuberculosis",
+      "Bacterial proteomes",
+      "Conformational features",
+      "Evolution",
+      "Host-pathogen interaction",
+      "Intrinsically disordered protein regions"
+    ],
+    "mesh_terms": [
+      "*Mycobacterium tuberculosis/pathogenicity/metabolism/genetics",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "*Host-Pathogen Interactions",
+      "Humans",
+      "*Bacterial Proteins/metabolism/chemistry/genetics",
+      "Evolution, Molecular",
+      "Proteome",
+      "Virulence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pozzoli, Uberto",
+        "Forni, Diego",
+        "Arrigoni, Federica",
+        "Cagliani, Rachele",
+        "De Gioia, Luca",
+        "Sironi, Manuela"
+      ],
+      "short_names": [
+        "Pozzoli U",
+        "Forni D",
+        "Arrigoni F",
+        "Cagliani R",
+        "De Gioia L",
+        "Sironi M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computational Biology Unit, Scientific Institute IRCCS E. MEDEA, Bosisio Parini, 23842, Italy. uberto.pozzoli@lanostrafamiglia.it.",
+        "Computational Biology Unit, Scientific Institute IRCCS E. MEDEA, Bosisio Parini, 23842, Italy.",
+        "Department of Biotechnology and Biosciences, University of Milan-Bicocca, Milan, 20126, Italy.",
+        "Computational Biology Unit, Scientific Institute IRCCS E. MEDEA, Bosisio Parini, 23842, Italy.",
+        "Department of Biotechnology and Biosciences, University of Milan-Bicocca, Milan, 20126, Italy.",
+        "School of Medicine and Surgery, University of Milano-Bicocca, Monza, 20900, Italy. manuela.sironi@unimib.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pozzoli, Uberto",
+        "short_name": "Pozzoli U",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Unit, Scientific Institute IRCCS E. MEDEA, Bosisio Parini, 23842, Italy. uberto.pozzoli@lanostrafamiglia.it."
+        ]
+      },
+      {
+        "full_name": "Forni, Diego",
+        "short_name": "Forni D",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Unit, Scientific Institute IRCCS E. MEDEA, Bosisio Parini, 23842, Italy."
+        ]
+      },
+      {
+        "full_name": "Arrigoni, Federica",
+        "short_name": "Arrigoni F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biosciences, University of Milan-Bicocca, Milan, 20126, Italy."
+        ]
+      },
+      {
+        "full_name": "Cagliani, Rachele",
+        "short_name": "Cagliani R",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Biology Unit, Scientific Institute IRCCS E. MEDEA, Bosisio Parini, 23842, Italy."
+        ]
+      },
+      {
+        "full_name": "De Gioia, Luca",
+        "short_name": "De Gioia L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biosciences, University of Milan-Bicocca, Milan, 20126, Italy."
+        ]
+      },
+      {
+        "full_name": "Sironi, Manuela",
+        "short_name": "Sironi M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine and Surgery, University of Milano-Bicocca, Monza, 20900, Italy. manuela.sironi@unimib.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genome biology"
+    ],
+    "journal_abbrev": [
+      "Genome Biol"
+    ],
+    "pub_date": "2025 Nov 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 00:49",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [
+      "42353681"
+    ],
+    "refs": [],
+    "similar": [
+      "41276815",
+      "40530859",
+      "38297118",
+      "38662765",
+      "33866372",
+      "41207939",
+      "38941236",
+      "33248138",
+      "39205298",
+      "41378882",
+      "25456444",
+      "33719450",
+      "25424537",
+      "40513736",
+      "39093570",
+      "31441158",
+      "35094056",
+      "29066345",
+      "38297184",
+      "34452345",
+      "38874491",
+      "29763584",
+      "33036302",
+      "31643141",
+      "32409584",
+      "40997106",
+      "30878482",
+      "36908253",
+      "37657994",
+      "35008950",
+      "41337585",
+      "35767567",
+      "39914051",
+      "36291695",
+      "32126063",
+      "33616531",
+      "40828855",
+      "26149687",
+      "30518031",
+      "24115198",
+      "30763345",
+      "33243935",
+      "29844400",
+      "38588835",
+      "26650755",
+      "25049399",
+      "29216510",
+      "41207937",
+      "39933697",
+      "32824743",
+      "39383002",
+      "39539017",
+      "31448322",
+      "34418423",
+      "37000361",
+      "41365991",
+      "37878721",
+      "41207944",
+      "29362230",
+      "41114728",
+      "24505389",
+      "18004752",
+      "29945970",
+      "35196007",
+      "32411391",
+      "33267376",
+      "27062995",
+      "29494752",
+      "33567297",
+      "30366125",
+      "27807972",
+      "29699482",
+      "33191750",
+      "39688428",
+      "32503351",
+      "26699268",
+      "34656333",
+      "26786654",
+      "41033554",
+      "34960638",
+      "36265902",
+      "33228849",
+      "38942776",
+      "39453744",
+      "38874407",
+      "31175370",
+      "39446390",
+      "34626492",
+      "39234301",
+      "31724233",
+      "27129781",
+      "28167781",
+      "32696354",
+      "41207942",
+      "35882686",
+      "24727949",
+      "40183374",
+      "32553192",
+      "39614773",
+      "40574713"
+    ],
+    "review": [
+      "41276815",
+      "41207939",
+      "33248138",
+      "39205298",
+      "39093570",
+      "31441158",
+      "34452345",
+      "37657994",
+      "35008950",
+      "39914051",
+      "33243935",
+      "38588835",
+      "29216510",
+      "41207937",
+      "34418423",
+      "41207944",
+      "33567297",
+      "34960638",
+      "35882686"
+    ],
+    "pmc": [
+      "12642385"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03854-6",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41276815/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

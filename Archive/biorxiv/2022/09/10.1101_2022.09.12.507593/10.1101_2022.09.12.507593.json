@@ -1,0 +1,151 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.09.12.507593",
+  "title": "Exploration of O-GlcNAc-transferase (OGT) glycosylation sites reveals a target sequence compositional bias",
+  "doi": "10.1101/2022.09.12.507593",
+  "abstract": "O-GlcNAc transferase (OGT) is an essential glycosylating enzyme that catalyzes the addition of N-acetylglucosamine to serine or threonine residues of nuclear and cytoplasmic proteins. The enzyme glycosylates a broad range of peptide sequences and prediction of glycosylation sites has proven challenging. The lack of an experimentally verified set of polypeptide sequences that are not glycosylated by OGT has made prediction of legitimate glycosylation sites more difficult. Here, we tested a number of intrinsically disordered protein regions as substrates of OGT to establish a set of sequences that are not glycosylated by OGT. The negative data set suggests an amino acid compositional bias for OGT targets. This compositional bias was validated by modifying the amino acid composition of the protein Fused in sarcoma (FUS) to enhance glycosylation. NMR experiments demonstrate that the tetratricopeptide repeat (TPR) region of OGT can bind FUS and that glycosylation-promoting mutations enhance binding. These results provide evidence that the TPR recognizes disordered segments of substrates with particular compositions to promote glycosylation, providing insight into the broad specificity of OGT.",
+  "authors": [
+    "Chong PA",
+    "Nosella M",
+    "Vanama M",
+    "Ruiz-Arduengo R",
+    "Forman-Kay JD"
+  ],
+  "published_date": "2022-09-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.09.12.507593",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.09.12.507593.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR543582",
+    "raw_record": {
+      "id": "PPR543582",
+      "source": "PPR",
+      "doi": "10.1101/2022.09.12.507593",
+      "title": "Exploration of O-GlcNAc-transferase (OGT) glycosylation sites reveals a target sequence compositional bias",
+      "authorString": "Chong PA, Nosella M, Vanama M, Ruiz-Arduengo R, Forman-Kay JD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chong PA",
+            "lastName": "Chong",
+            "firstName": "Andrew",
+            "initials": "PA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4416-0631"
+            }
+          },
+          {
+            "fullName": "Nosella M",
+            "lastName": "Nosella",
+            "firstName": "Michael",
+            "initials": "M"
+          },
+          {
+            "fullName": "Vanama M",
+            "lastName": "Vanama",
+            "firstName": "Manasvi",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4445-2829"
+            }
+          },
+          {
+            "fullName": "Ruiz-Arduengo R",
+            "lastName": "Ruiz-Arduengo",
+            "firstName": "Roxana",
+            "initials": "R"
+          },
+          {
+            "fullName": "Forman-Kay JD",
+            "lastName": "Forman-Kay",
+            "firstName": "Julie",
+            "initials": "JD"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4416-0631"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4445-2829"
+          }
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "O-GlcNAc transferase (OGT) is an essential glycosylating enzyme that catalyzes the addition of N-acetylglucosamine to serine or threonine residues of nuclear and cytoplasmic proteins. The enzyme glycosylates a broad range of peptide sequences and prediction of glycosylation sites has proven challenging. The lack of an experimentally verified set of polypeptide sequences that are not glycosylated by OGT has made prediction of legitimate glycosylation sites more difficult. Here, we tested a number of intrinsically disordered protein regions as substrates of OGT to establish a set of sequences that are not glycosylated by OGT. The negative data set suggests an amino acid compositional bias for OGT targets. This compositional bias was validated by modifying the amino acid composition of the protein Fused in sarcoma (FUS) to enhance glycosylation. NMR experiments demonstrate that the tetratricopeptide repeat (TPR) region of OGT can bind FUS and that glycosylation-promoting mutations enhance binding. These results provide evidence that the TPR recognizes disordered segments of substrates with particular compositions to promote glycosylation, providing insight into the broad specificity of OGT.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/09/13/2022.09.12.507593.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.09.12.507593"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36963488",
+            "reference": "The Journal of biological chemistry. 2023 May;299(5):104629",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-09-15",
+      "firstPublicationDate": "2022-09-13",
+      "firstIndexDate": "2022-09-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

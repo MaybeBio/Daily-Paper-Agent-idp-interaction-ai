@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "37134270",
+    "doi": "10.1021/acs.jctc.3c00148",
+    "title": "Benchmarking Molecular Dynamics Force Fields for All-Atom Simulations of Biological Condensates."
+  },
+  "content": {
+    "abstract": "Proteins containing intrinsically disordered regions are integral parts of the cellular signaling pathways and common components of biological condensates. Point mutations in the protein sequence, genetic at birth or acquired through aging, can alter the properties of the condensates, marking the onset of neurodegenerative diseases such as ALS and dementia. While the all-atom molecular dynamics method can, in principle, elucidate the conformational changes that arise from point mutations, the applications of this method to protein condensate systems is conditioned upon the availability of molecular force fields that can accurately describe both structured and disordered regions of such proteins. Using the special-purpose Anton 2 supercomputer, we benchmarked the efficacy of nine presently available molecular force fields in describing the structure and dynamics of a Fused in sarcoma (FUS) protein. Five-microsecond simulations of the full-length FUS protein characterized the effect of the force field on the global conformation of the protein, self-interactions among its side chains, solvent accessible surface area, and the diffusion constant. Using the results of dynamic light scattering as a benchmark for the FUS radius of gyration, we identified several force fields that produced FUS conformations within the experimental range. Next, we used these force fields to perform ten-microsecond simulations of two structured RNA binding domains of FUS bound to their respective RNA targets, finding the choice of the force field to affect stability of the RNA-FUS complex. Taken together, our data suggest that a combination of protein and RNA force fields sharing a common four-point water model provides an optimal description of proteins containing both disordered and structured regions and RNA-protein interactions. To make simulations of such systems available beyond the Anton 2 machines, we describe and validate implementation of the best performing force fields in a publicly available molecular dynamics program NAMD. Our NAMD implementation enables simulations of large (tens of millions of atoms) biological condensate systems and makes such simulations accessible to a broader scientific community.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Infant, Newborn",
+      "*Molecular Dynamics Simulation",
+      "*Benchmarking",
+      "Proteins",
+      "Molecular Conformation",
+      "RNA/chemistry",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sarthak, Kumar",
+        "Winogradoff, David",
+        "Ge, Yingda",
+        "Myong, Sua",
+        "Aksimentiev, Aleksei"
+      ],
+      "short_names": [
+        "Sarthak K",
+        "Winogradoff D",
+        "Ge Y",
+        "Myong S",
+        "Aksimentiev A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9094-343X",
+        "ORCID: 0000-0002-1982-2093",
+        "ORCID: 0000-0001-9098-3423",
+        "ORCID: 0000-0002-6042-8442"
+      ],
+      "affiliations": [
+        "Center for Biophysics and Quantitative Biology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61820, United States.",
+        "Department of Physics, University of Illinois at Urbana-Champaign, Urbana, Illinois 61820, United States.",
+        "Center for the Physics of Living Cells, University of Illinois at Urbana-Champaign, Urbana, Illinois 61820, United States.",
+        "Department of Biophysics, Johns Hopkins University, Baltimore, Maryland 21218, United States.",
+        "Center for the Physics of Living Cells, University of Illinois at Urbana-Champaign, Urbana, Illinois 61820, United States.",
+        "Program in Cell, Molecular, Developmental Biology, and Biophysics, Johns Hopkins University, Baltimore, Maryland 21218, United States.",
+        "Center for the Physics of Living Cells, University of Illinois at Urbana-Champaign, Urbana, Illinois 61820, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sarthak, Kumar",
+        "short_name": "Sarthak K",
+        "identifiers": [
+          "0000-0001-9094-343X"
+        ],
+        "affiliations": [
+          "Center for Biophysics and Quantitative Biology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61820, United States."
+        ]
+      },
+      {
+        "full_name": "Winogradoff, David",
+        "short_name": "Winogradoff D",
+        "identifiers": [
+          "0000-0002-1982-2093"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Illinois at Urbana-Champaign, Urbana, Illinois 61820, United States.",
+          "Center for the Physics of Living Cells, University of Illinois at Urbana-Champaign, Urbana, Illinois 61820, United States."
+        ]
+      },
+      {
+        "full_name": "Ge, Yingda",
+        "short_name": "Ge Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, Johns Hopkins University, Baltimore, Maryland 21218, United States."
+        ]
+      },
+      {
+        "full_name": "Myong, Sua",
+        "short_name": "Myong S",
+        "identifiers": [
+          "0000-0001-9098-3423"
+        ],
+        "affiliations": [
+          "Center for the Physics of Living Cells, University of Illinois at Urbana-Champaign, Urbana, Illinois 61820, United States.",
+          "Program in Cell, Molecular, Developmental Biology, and Biophysics, Johns Hopkins University, Baltimore, Maryland 21218, United States."
+        ]
+      },
+      {
+        "full_name": "Aksimentiev, Aleksei",
+        "short_name": "Aksimentiev A",
+        "identifiers": [
+          "0000-0002-6042-8442"
+        ],
+        "affiliations": [
+          "Center for the Physics of Living Cells, University of Illinois at Urbana-Champaign, Urbana, Illinois 61820, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2023 Jun 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/03 18:41",
+    "fetched_at": "2026-09-20 21:40:16"
+  },
+  "links": {
+    "cites": [
+      "42581579",
+      "42577789",
+      "42055017",
+      "41979361",
+      "41868013",
+      "41769164",
+      "41503904",
+      "41298416",
+      "41001641",
+      "40877270",
+      "40842365",
+      "40801528",
+      "40766644",
+      "40693919",
+      "40666827",
+      "40614690",
+      "40464641",
+      "40172489",
+      "39757214",
+      "39660892",
+      "39534915",
+      "38348795",
+      "38261634",
+      "38176097",
+      "38118122",
+      "38112495",
+      "37890778",
+      "37853696",
+      "37793083",
+      "37757589",
+      "37735186",
+      "37490313"
+    ],
+    "refs": [
+      "36348631",
+      "35182479",
+      "34716273",
+      "33319830",
+      "33307683",
+      "33159856",
+      "32802734",
+      "32752662",
+      "32426986",
+      "32080694",
+      "32029630",
+      "31914313",
+      "31714766",
+      "31630970",
+      "31548393",
+      "31329947",
+      "30865832",
+      "30581145",
+      "30236283",
+      "30091924",
+      "29961577",
+      "29735687",
+      "29677513",
+      "29547221",
+      "29378935",
+      "29364893",
+      "29362359",
+      "29038539",
+      "28935776",
+      "28924037",
+      "28483149",
+      "28225081",
+      "27819658",
+      "27617340",
+      "27374333",
+      "27212236",
+      "26791761",
+      "26574453",
+      "26574374",
+      "26574339",
+      "26455390",
+      "26406374",
+      "26317470",
+      "25764013",
+      "25531225",
+      "25400877",
+      "25400522",
+      "25288112",
+      "25145273",
+      "24889800",
+      "24278298",
+      "23811058",
+      "23341755",
+      "23200923",
+      "21921995",
+      "21645856",
+      "21539772",
+      "21256132",
+      "20408171",
+      "19514729",
+      "18627125",
+      "18593145",
+      "18083189",
+      "16981200",
+      "16392929",
+      "16277496",
+      "15738986",
+      "9895674",
+      "9348663",
+      "8749853",
+      "8744570",
+      "2207096"
+    ],
+    "similar": [
+      "37134270",
+      "36798393",
+      "23912807",
+      "39486437",
+      "19754142",
+      "36348631",
+      "32367806",
+      "33382616",
+      "32816485",
+      "21721539",
+      "32859072",
+      "32426986",
+      "31560849",
+      "26020564",
+      "30840442",
+      "40128232",
+      "35594194",
+      "15959866",
+      "36883003",
+      "29378935",
+      "37646172",
+      "33078950",
+      "29735687",
+      "31552948",
+      "36827446",
+      "29080468",
+      "26575776",
+      "40172489",
+      "34487489",
+      "35297101",
+      "40060049",
+      "31509647",
+      "30990694",
+      "26765212",
+      "31903719",
+      "39495179",
+      "37399327",
+      "39499823",
+      "34598583",
+      "35174713",
+      "37648703",
+      "33184287",
+      "37890778",
+      "39250601",
+      "29864281",
+      "26138282",
+      "35950933",
+      "39709776",
+      "40321778",
+      "40291709",
+      "25952623",
+      "31241933",
+      "26548477",
+      "30933517",
+      "33307683",
+      "26579770",
+      "23197420",
+      "33444020",
+      "34152264",
+      "29235155",
+      "38029395",
+      "37961424",
+      "29677513",
+      "28805390",
+      "35130441",
+      "30204435",
+      "38877893",
+      "33515602",
+      "27300587",
+      "40324844",
+      "20825228",
+      "36232586",
+      "30514082",
+      "25149274",
+      "31470695",
+      "28773773",
+      "20701388",
+      "40009520",
+      "37194953",
+      "38447040",
+      "34862761",
+      "37155880",
+      "33591749",
+      "12116391",
+      "30865832",
+      "36563129",
+      "34576338",
+      "33159856",
+      "25207671",
+      "16852728",
+      "32227937",
+      "33302617",
+      "22497310",
+      "38347806",
+      "39340152",
+      "35686985",
+      "32035448",
+      "28637405",
+      "33580600",
+      "33459730"
+    ],
+    "review": [
+      "37134270",
+      "30840442",
+      "29080468",
+      "40172489",
+      "37399327",
+      "38029395",
+      "40324844",
+      "25149274",
+      "33591749"
+    ],
+    "pmc": [
+      "11169342"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37134270/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37134270",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.3c00148",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

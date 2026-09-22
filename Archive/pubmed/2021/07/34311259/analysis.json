@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34311259",
+  "title": "Disulfide-stapled design of alpha-helical bundles to target the trimer-of-hairpins motif of human respiratory syncytial virus fusion protein.",
+  "authors": "Zhuang, Xinrong; Shen, Xuefeng; Niu, Wensi; Kong, Lingjun",
+  "journal": "Journal of molecular graphics & modelling",
+  "published_date": "2021-07-27",
+  "window": {
+    "start": "2021-07-26",
+    "end": "2021-08-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过二硫键缝合设计α-螺旋束靶向RSV融合蛋白三聚体发夹基序，用分子模拟揭示缝合稳定构象并竞争性破坏NtHR-CtHR互作，虽对象非IDP但涉及无序肽段构象稳定化与PPI机制建模，方法可迁移。",
+  "abstract": "Human respiratory syncytial virus (RSV) is the major cause of acute lower respiratory tract infections worldwide in infants and young children. The RSV F glycoprotein is a class I fusion protein that mediates viral entry into host cells and is a major target of neutralizing antibodies. Targeting F glycoprotein has been recognized as a promising antiviral therapeutic strategy against RSV infection. Here, we reported the disulfide-stapled design of alpha-helical bundle to target the trimer-of-hairpins (TOH) motif of RSV F glycoprotein, which is the central regulatory module that triggers viral membrane fusion event. In TOH motif, three N-terminal heptad repeat (NtHR) helices form a trimeric coiled-coil core and other three C-terminal heptad repeat (CtHR) helices add to the core in an antiparallel manner. Interaction analysis between NtHR and CtHR revealed that the C-terminal tail of CtHR packs tightly against NtHR as compared to the N-terminal and middle regions of CtHR. A core binding site in CtHR C-terminus was identified, which represents a 13-mer chp peptide and can effectively interact with NtHR helix in native ordered conformation but would become largely disordered when splitting from the protein context of CtHR helix. Two chp helices were stapled together in a parallel manner with single, double or triple disulfide bridges, thus systematically resulting in seven disulfide-stapled alpha-helical bundles. Molecular simulations revealed that the double and triple stapling can effectively stabilize the structured conformation of alpha-helical bundles, whereas the free conformation of single-stapled bundles still remain intrinsically disordered in solvent. The double-stapled bundle chp-ds[508,516] and the triple-stapled bundle chp-ts[508,512,516] were rationally designed to have high potency; they can form a tight three-helix bundle with NtHR helix, thus potently targeting NtHR-CtHR interactions involved in RSV-F TOH motif through a competitive disruption mechanism.",
+  "abstract_zh": "人呼吸道合胞病毒（RSV）是全球婴幼儿急性下呼吸道感染的主要病原体。RSV F糖蛋白是一种I类融合蛋白，介导病毒进入宿主细胞，并且是中和抗体的主要靶点。靶向F糖蛋白已被认为是针对RSV感染的极具前景的抗病毒治疗策略。在此，我们报道了通过二硫键缝合设计α-螺旋束以靶向RSV F糖蛋白的三聚体发夹（TOH）基序，该基序是触发病毒膜融合事件的核心调控模块。在TOH基序中，三个N端七肽重复（NtHR）螺旋形成三聚卷曲螺旋核心，另外三个C端七肽重复（CtHR）螺旋以反平行方式添加到核心上。NtHR与CtHR之间的相互作用分析显示，与CtHR的N端和中间区域相比，CtHR的C端尾部与NtHR紧密堆积。在CtHR C端鉴定出一个核心结合位点，该位点代表一个13-mer chp肽，能够以天然有序构象有效与NtHR螺旋相互作用，但当从CtHR螺旋的蛋白质上下文中分离时，会变得高度无序。两个chp螺旋通过单、双或三重二硫键以平行方式缝合在一起，从而系统性地产生七个二硫键缝合的α-螺旋束。分子模拟揭示，双和三重缝合能有效稳定α-螺旋束的结构构象，而单缝合束的自由构象在溶剂中仍保持本质无序。双缝合束chp-ds[508,516]和三重缝合束chp-ts[508,512,516]被合理设计为具有高效力；它们能与NtHR螺旋形成紧密的三螺旋束，从而通过竞争性破坏机制有效靶向RSV-F TOH基序中涉及的NtHR-CtHR相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34311259/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34311259/",
+  "paper_page_path": "papers/pubmed/34311259/index.html"
+}

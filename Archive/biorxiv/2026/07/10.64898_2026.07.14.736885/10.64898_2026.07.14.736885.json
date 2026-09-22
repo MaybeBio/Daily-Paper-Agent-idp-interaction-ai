@@ -1,0 +1,92 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.14.736885",
+  "title": "Interpretable Prediction of Phase Separation and Disease Variant Effects in Intrinsically Disordered Regions",
+  "doi": "10.64898/2026.07.14.736885",
+  "abstract": "Coding mutations within intrinsically disordered regions (IDRs) of proteins are increasingly implicated in human diseases yet remain poorly interpreted by conventional variant-effect predictors that rely on structural stability and conservation-based metrics. Quantifying disruption of IDR-mediated liquid-liquid phase separation (LLPS) offers a biophysically principled approach to interpreting the pathogenic impact of such variants. However, existing LLPS predictors suffer from training biases toward self-separating proteins, show limited performance on partner- dependent phase separation, and often lack interpretability for variant prioritization. We present an interpretable ensemble machine-learning framework that integrates protein language model embeddings of sequence and predicted structure to predict LLPS propensity and classify proteins as self-separating or partner-dependent. Our two-step classifiers outperform existing methods on independent benchmark datasets, with the largest gains for partner-dependent LLPS proteins. Beyond classification, our framework identifies critical phase-separating regions and quantifies mutation-induced perturbations in LLPS. Applied to disease-associated variant databases, we found that pathogenic mutations are enriched in predicted phase-separating regions and frequently perturb LLPS propensity scores, implicating mutation-induced LLPS dysregulation as a potential pathogenic mechanism for numerous diseases. Overall, our framework provides an accurate, interpretable approach for identifying phase-separating proteins and linking aberrant phase- separation behavior to disease pathogenesis.",
+  "authors": [
+    "Zhao M",
+    "Kumar S"
+  ],
+  "published_date": "2026-07-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.14.736885",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.14.736885.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1281725",
+    "raw_record": {
+      "id": "PPR1281725",
+      "source": "PPR",
+      "doi": "10.64898/2026.07.14.736885",
+      "title": "Interpretable Prediction of Phase Separation and Disease Variant Effects in Intrinsically Disordered Regions",
+      "authorString": "Zhao M, Kumar S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhao M",
+            "lastName": "Zhao",
+            "firstName": "Mingjie",
+            "initials": "M"
+          },
+          {
+            "fullName": "Kumar S",
+            "lastName": "Kumar",
+            "firstName": "Sushant",
+            "initials": "S"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Coding mutations within intrinsically disordered regions (IDRs) of proteins are increasingly implicated in human diseases yet remain poorly interpreted by conventional variant-effect predictors that rely on structural stability and conservation-based metrics. Quantifying disruption of IDR-mediated liquid-liquid phase separation (LLPS) offers a biophysically principled approach to interpreting the pathogenic impact of such variants. However, existing LLPS predictors suffer from training biases toward self-separating proteins, show limited performance on partner- dependent phase separation, and often lack interpretability for variant prioritization. We present an interpretable ensemble machine-learning framework that integrates protein language model embeddings of sequence and predicted structure to predict LLPS propensity and classify proteins as self-separating or partner-dependent. Our two-step classifiers outperform existing methods on independent benchmark datasets, with the largest gains for partner-dependent LLPS proteins. Beyond classification, our framework identifies critical phase-separating regions and quantifies mutation-induced perturbations in LLPS. Applied to disease-associated variant databases, we found that pathogenic mutations are enriched in predicted phase-separating regions and frequently perturb LLPS propensity scores, implicating mutation-induced LLPS dysregulation as a potential pathogenic mechanism for numerous diseases. Overall, our framework provides an accurate, interpretable approach for identifying phase-separating proteins and linking aberrant phase- separation behavior to disease pathogenesis.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.07.14.736885"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-07-21",
+      "firstPublicationDate": "2026-07-20",
+      "firstIndexDate": "2026-07-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.24.600010",
+  "title": "G-quadruplex structures regulate long-range transcriptional reprogramming to promote drug resistance in ovarian cancer",
+  "authors": "Robinson J; Flint G; Garner I; Galli S; Maher TE; Kuimova MK; Vilar R; McNeish IA; Brown R; Keun H; Di Antonio M",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-28",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究探讨G-四链体DNA结构在卵巢癌耐药中的表观遗传调控作用，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Epigenetic evolution is a common mechanism used by cancer cells to evade the therapeutic effects of drug treatment. In ovarian cancers, epigenetically-driven resistance may be responsible for a large number of late-stage patient deaths. Here, we describe the first investigation into the role of G-quadruplex (G4) DNA secondary structures in mediating epigenetic regulation in drug-resistant ovarian cancer cells. Through genome-wide mapping of G4s in paired drug-sensitive and drug-resistant cell lines, we find that increased G4 formation is associated with significant increase in gene expression, with high enrichment in signalling pathways previously established to promote drug-resistant states. However, in contrast to previous studies, the expression-enhancing effects of G4s were not found at gene promoters, but intergenic and intronic regions, indicating that G4s promote long-range transcriptional regulation in drug-resistant cells. Furthermore, we discovered that clusters of G4s (super-G4s) are associated with particularly high levels of transcriptional enhancement that surpass the effects of super-enhancers, which act as well established regulatory sites in many cancers. Finally, we demonstrate that targeting G4s with small molecules results in significant down-regulation of pathways associated with drug-resistance, which results in resensitisation of resistant cells to chemotherapy agents. These findings indicate that G4 structures are critical for the epigenetic regulatory networks of drug-resistant cells and may represent a promising target to treat drug-tolerant ovarian cancer.",
+  "abstract_zh": "表观遗传进化是癌细胞逃避药物治疗效果的常见机制。在卵巢癌中，表观遗传驱动的耐药性可能是导致大量晚期患者死亡的原因。在此，我们首次研究了G-四链体 (G-quadruplex, G4) DNA二级结构在介导耐药卵巢癌细胞表观遗传调控中的作用。通过对配对的药物敏感和耐药细胞系进行G4的全基因组定位，我们发现G4形成的增加与基因表达的显著升高相关，并在先前已确立促进耐药状态的信号通路中高度富集。然而，与先前研究相反，G4的表达增强效应并非在基因启动子区域发现，而是在基因间区和内含子区域，表明G4在耐药细胞中促进长程转录调控。此外，我们发现G4簇（超级G4）与特别高的转录增强水平相关，其效果超过超级增强子 (super-enhancers)，后者在许多癌症中被视为已确立的调控位点。最后，我们证明用小分子靶向G4会导致与耐药性相关通路的显著下调，从而使耐药细胞对化疗药物重新敏感。这些发现表明，G4结构对耐药细胞的表观遗传调控网络至关重要，并可能代表治疗耐药性卵巢癌的一个有前景的靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.24.600010",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.24.600010",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.24.600010/index.html"
+}

@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external validation or replication of data was performed.
+- **Shared manuscript claim summary** The manuscript proposes a mechanistic model for Wnt signalosome assembly, identifying a bipartite intrinsically disordered region in Axin (LIR) that binds the PPPSPAT element of LRP6, a phospho-dependent intramolecular foldback within Axin LIR that antagonizes LRP6 binding, a multi-pronged Axin-GSK3 interaction, and a requirement for AP2 clathrin adaptor binding to tandem YxxΦ motifs in LRP6 for efficient Wnt signaling.
+- **Visible evidence base** Co-immunoprecipitation assays, NMR chemical shift perturbation/bleaching experiments, isothermal titration calorimetry, CRISPR-engineered cell lines with functional reporter assays, AlphaFold structural predictions, and BioID/TurboID proximity labeling.
+- **Missing materials affecting confidence** Full NMR spectra assignments and validation statistics, complete ITC thermograms and fitting parameters, detailed CRISPR editing validation (e.g., sequencing chromatograms for all lines), uncropped Western blots, and the full proteomics dataset (Source Data file 1) are not fully accessible in the provided text. Statistical details for some comparisons are incomplete.
+
+## Reviewer
+- **Overall assessment** This is a technically sophisticated and mechanistically insightful study that addresses a long-standing question in Wnt signaling: how GSK3 and Axin are recruited to LRP6. The combination of NMR, ITC, cell-based assays, and proximity labeling is powerful and generally well-executed. The identification of a bipartite Axin LIR and the phospho-dependent foldback mechanism is novel and conceptually important. The discovery of functional AP2-binding motifs in LRP6 and their role in signaling adds a new dimension to the field. However, several concerns regarding data interpretation, the physiological relevance of some in vitro measurements, and the completeness of validation for some CRISPR lines need to be addressed to fully support the proposed model.
+- **Who would be interested in the results, and why** Researchers in Wnt signal transduction, cell signaling, structural biology of intrinsically disordered proteins, and clathrin-mediated trafficking. The study provides new molecular details of signalosome assembly and links endocytic machinery directly to signaling output, which will be of broad interest to cell and developmental biologists.
+- **Major strengths** The study uses a multidisciplinary approach to tackle a difficult problem involving disordered proteins. The NMR-based mapping of binding sites is rigorous. The functional validation using CRISPR-edited endogenous loci is commendable. The proposed model is conceptually novel and integrates previously disparate observations about Axin phosphorylation, GSK3 inhibition, and LRP6 clustering.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation / Physiological relevance
+  - **Claim pointer** The manuscript claims that the phospho-dependent foldback within Axin LIR antagonizes Axin binding to LRP6 in the absence of Wnt, based on in vitro ITC data with phosphorylated peptides and coIP data with phospho-mimetic mutants.
+  - **Evidence pointer** Figure 4f, Figure 4b/c, Discussion
+  - **Concern** The ITC data show that phosphorylation of the S1 triplet promotes binding of LIRup to LIRα with a KD in the mid-micromolar range. However, the physiological relevance of this affinity is unclear. The authors argue this is an "efficient intramolecular interaction," but the concentration of Axin in cells is sub-micromolar. While intramolecular interactions are concentration-independent, the competition between the intramolecular foldback and the intermolecular LIR-LRP6 interaction needs to be quantitatively addressed. The coIP data with S1>A and S1>D mutants are supportive but are performed under overexpression conditions, which may not reflect endogenous stoichiometry. The claim that this foldback "antagonizes" LRP6 binding in the absence of Wnt needs a more direct test, perhaps by measuring LIR-LRP6 binding in the presence of competing LIRup peptides or by using a cellular assay that can distinguish between conformational states.
+  - **Why it matters** The proposed regulatory mechanism is a central pillar of the model. If the foldback is not physiologically relevant, the model for how Wnt signaling is gated needs revision.
+  - **Resolution test** Provide a quantitative model for the competition between the intramolecular foldback and the intermolecular LRP6 interaction, considering cellular concentrations. Perform a cellular assay (e.g., FRET or a complementation assay) that directly reports on the conformational state of Axin LIR in cells, comparing wild-type and phospho-mutant Axin.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation / Functional significance
+  - **Claim pointer** The manuscript claims that the multi-pronged interaction between Axin and GSK3, involving the PRTxR motif, favors their detachment from LRP6 and presages termination of Wnt signaling, based on the hyperactive phenotype of P372A mutant cells.
+  - **Evidence pointer** Figure 5, Figure 6d, Discussion
+  - **Concern** The P372A mutation is in the PRTxR motif, which the authors show is part of the extended GSK3 interaction surface. The hyperactive phenotype is interpreted as a loss of a "termination" function. However, it is also possible that P372A enhances the ability of Axin to bind LRP6 or increases the stability of the Axin-GSK3 complex, leading to more efficient signaling. The authors do not directly test whether the P372A mutation affects the Axin-GSK3 interaction in cells. The claim that this interaction "favors detachment" is speculative and not directly supported by the data presented. The model would be strengthened by showing that the P372A mutation affects the dynamics of the Axin-GSK3-LRP6 complex, for example, by measuring the residence time of the complex or by performing FRAP experiments.
+  - **Why it matters** The proposed role of the multi-pronged interaction in signal termination is a key conceptual advance. Without direct evidence for the detachment mechanism, the interpretation remains one of several possibilities.
+  - **Resolution test** Perform coIP or in vitro binding assays to directly compare the affinity of wild-type and P372A Axin for GSK3. Use live-cell imaging (e.g., FRAP or single-molecule tracking) to measure the dynamics of Axin and GSK3 at the membrane in wild-type and P372A cells. Test whether the P372A mutation affects the phosphorylation state of Axin or LRP6.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Data completeness
+  - **Claim pointer** The manuscript claims that the tandem YxxΦ motifs in LRP6 are functional AP2-binding sites and are required for efficient Wnt signaling, based on ITC, coIP, and cell-based signaling assays.
+  - **Evidence pointer** Figure 7, Figure 8
+  - **Concern** The ITC data show that the extended peptide containing both YxxΦ motifs binds AP2μ with higher affinity than the single motif. However, the coIP data in Figure 7c show only weak binding of AP2μ to LRP6, and the YYYF>A mutation reduces but does not eliminate this interaction. The signaling assays show a strong requirement for these motifs. The authors propose that AP2-dependent clustering is critical. However, the proximity labeling data (Figure 8) do not clearly show a strong enrichment of AP2 subunits at the LRP6 complex, and the interpretation of the BioID/TurboID data is limited by the lack of a clear description of the controls and the statistical power. The claim that AP2 binding is "critical" for signaling needs to be reconciled with the relatively weak biochemical interaction.
+  - **Why it matters** The role of AP2 in Wnt signaling is a novel and potentially important finding. However, the mechanistic link between AP2 binding, clustering, and signaling output needs to be more firmly established.
+  - **Resolution test** Provide a more detailed analysis of the BioID/TurboID data, including a clear description of the controls and statistical analysis. Perform a more quantitative analysis of AP2 binding to LRP6 in cells, perhaps using a more sensitive assay. Test whether the YxxΦ motifs are required for LRP6 clustering in response to Wnt. Investigate whether AP2 is required for the recruitment of Axin and GSK3 to LRP6.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Figure 1b
+  - **Evidence pointer** Figure 1b
+  - **Issue** The coIP data in Figure 1b are presented as a single representative blot with mean values from three experiments. It would be helpful to show the individual data points or a more detailed statistical analysis to assess the variability.
+  - **Required correction** Provide a more detailed statistical analysis, including individual data points or error bars for the densitometry values.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Figure 2f-j
+  - **Evidence pointer** Figure 2f-j
+  - **Issue** The NMR bleaching experiments with the Axin fragments show that the minimal LIRα does not bind LRP6, while the longer A5 fragment does. The authors conclude that the LIR is bipartite. However, it is possible that the LIRα fragment is simply too short to fold into a stable structure. The authors should discuss this alternative interpretation.
+  - **Required correction** Add a sentence to the discussion acknowledging that the lack of binding by the minimal LIRα could be due to its instability or lack of structure, and that the bipartite nature of the LIR is inferred from the requirement for both LIRup and LIRα sequences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Methods, CRISPR engineering
+  - **Evidence pointer** Methods section
+  - **Issue** The methods for CRISPR engineering are described, but the validation of the edited cell lines is not fully detailed. For example, it is not clear if the edited lines were checked for off-target effects or if the protein expression levels of the mutant Axin were comparable to wild-type.
+  - **Required correction** Provide more details on the validation of the CRISPR-edited cell lines, including a statement on off-target analysis and a Western blot showing comparable expression levels of wild-type and mutant Axin.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data interpretation
+  - **Affected element** Figure 8h
+  - **Evidence pointer** Figure 8h
+  - **Issue** The KL scores for the kinases predicted to phosphorylate Axin LIR are presented, but the significance of these scores is not fully explained. It would be helpful to provide a threshold for what constitutes a "high" score and to discuss the limitations of these predictions.
+  - **Required correction** Add a sentence to the figure legend or text explaining the KL score threshold and the limitations of the prediction.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The physiological relevance of the phospho-dependent foldback needs to be quantitatively addressed.
+  - R1-M2: The mechanism by which the multi-pronged interaction leads to signal termination needs direct experimental support.
+  - R1-M3: The link between AP2 binding, clustering, and signaling output needs to be more firmly established with more quantitative data.
+
+## Risk / unsupported claims
+- The claim that the phospho-dependent foldback "antagonizes" LRP6 binding in the absence of Wnt is not fully supported by the data, as the competition between the intramolecular and intermolecular interactions is not quantitatively addressed.
+- The claim that the multi-pronged interaction "favors detachment" of Axin and GSK3 from LRP6 is speculative and not directly tested.
+- The claim that AP2-dependent clustering is "critical" for Wnt signaling is based on correlative data and requires a more direct test of the clustering mechanism.
+- The prediction that specific kinases (e.g., TTK, AAK1) phosphorylate Axin LIR is based on in silico predictions and proximity labeling, but direct evidence for these phosphorylation events in the context of Wnt signaling is lacking.
+- The statement that "the conformational flexibility of Axin and its encounter with LRP6-proximal kinase in clathrin locales may have pivotal roles" is a hypothesis that is not directly tested in this study.

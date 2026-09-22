@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36372288",
+  "title": "Acetylation and phosphorylation processes modulate Tau's binding to microtubules: A molecular dynamics study.",
+  "authors": "Castro, Tarsila G; Ferreira, Tiago; Matama, Teresa; Munteanu, Florentina-Daniela; Cavaco-Paulo, Artur",
+  "journal": "Biochimica et biophysica acta. General subjects",
+  "published_date": "2022-11-14",
+  "window": {
+    "start": "2022-11-14",
+    "end": "2022-11-20"
+  },
+  "score": 7,
+  "one_liner_zh": "用分子动力学模拟研究Tau蛋白乙酰化/磷酸化修饰对其微管结合的影响，对象为无序蛋白Tau且涉及结合机制，但互作对象是微管而非蛋白，方法为物理模拟。",
+  "abstract": "The microtubule-associated protein Tau has its normal function impaired when undergoing post-translational modifications. In this work, molecular modelling techniques were used to infer the effects of acetylation and phosphorylation in Tau's overall conformation, electrostatics, and interactions, but mostly in Tau's ability to bind microtubules. Reported harmful Lys sites were mutated by its acetylated form, generating eight different acetylated Tau (aTau) analogues. Similarly, phosphorylation sites found in normal brains and in Alzheimer's lesioned brains were considered to design phosphorylated Tau (pTau) analogues. All these designed variants were evaluated in intracellular fluid and near a microtubule (MT) model. Our in silico findings demonstrated that the electrostatic changes, due to the absence of positive Lys' charges in acetylation cases, or the increasingly negative charge in the phosphorylated forms, hamper the association to the MT tubulins in most cases. Post-translational modifications also pose very distinct conformations to the ones described for native Tau, which hinders the microtubule-binding region (MTBR) and turns difficult the expected binding. Our study elucidates important molecular processes behind Tau abnormal function which can inspire novel therapeutics to address Alzheimer's disease.",
+  "abstract_zh": "微管相关蛋白Tau在经历翻译后修饰时，其正常功能受损。本研究采用分子建模技术推断乙酰化和磷酸化对Tau整体构象、静电特性及相互作用的影响，尤其关注Tau结合微管的能力。将已报道的有害赖氨酸位点突变为其乙酰化形式，生成了八种不同的乙酰化Tau（aTau）类似物。同样，考虑正常大脑及阿尔茨海默病病变大脑中发现的磷酸化位点，设计了磷酸化Tau（pTau）类似物。所有设计变体均在细胞内液及微管（MT）模型附近进行了评估。我们的计算机模拟结果表明，由于乙酰化情况下正电荷赖氨酸缺失或磷酸化形式中负电荷增加导致的静电变化，在多数情况下阻碍了与微管管蛋白的结合。翻译后修饰还使Tau呈现出与天然Tau截然不同的构象，这妨碍了微管结合区域（MTBR）的暴露，使预期结合变得困难。本研究阐明了Tau功能异常背后的重要分子过程，可为针对阿尔茨海默病的新疗法提供灵感。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36372288/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36372288/",
+  "paper_page_path": "papers/pubmed/36372288/index.html"
+}

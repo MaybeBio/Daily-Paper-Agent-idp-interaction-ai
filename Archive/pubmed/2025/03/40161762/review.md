@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a polymer-based platform, HYDRAC, for targeted protein degradation. Copolymers displaying target-binding peptides and degradation inducers are claimed to selectively degrade disease-associated proteins. Proof-of-concept is provided for MYC, with in vitro and in vivo efficacy, modularity across three E3 ligases, and extension to KRAS with potential pan-KRAS activity.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, characterization data for polymers, degradation assays, animal study details, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to targeted protein degradation using heterobifunctional polymers. The claimed modularity and generalizability are appealing, and the inclusion of in vivo data for MYC adds translational relevance. However, the abstract lacks sufficient quantitative detail to assess the robustness of the claims. Key issues include the absence of specificity data, unclear stoichiometry and polymer characterization, and limited evidence for the claimed pan-KRAS activity. The platform's novelty relative to existing TPD modalities is plausible but not fully contextualized. Overall, the concept merits consideration, but the evidence base as presented is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in targeted protein degradation, chemical biology, polymer chemistry, and drug discovery would find this work relevant. Those working on undruggable targets such as MYC and KRAS, as well as groups developing alternative degrader platforms (e.g., PROTACs, molecular glues), would be interested in the potential for a polymer-based approach to expand the degradable target space.
+- **Major strengths** The concept of using polymers to display both target-binding and degron elements is creative and could address limitations of small-molecule degraders, such as the need for defined binding pockets. The claimed modularity across three E3 ligases is a notable strength, as is the demonstration of in vivo efficacy for MYC. The extension to KRAS, a challenging clinical target, suggests potential broad applicability.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and selectivity
+  - **Claim pointer** The abstract claims that HYDRACs are "highly selective" and show "robust and selective degradation" of MYC.
+  - **Evidence pointer** Abstract only; no data on off-target effects or selectivity controls are provided
+  - **Concern** The claim of high selectivity is not supported by any quantitative or comparative data in the abstract. No information is given on how selectivity was assessed, such as proteomics, western blotting of related proteins, or counterscreens against other transcription factors.
+  - **Why it matters** Selectivity is a critical determinant of therapeutic utility and safety. Without evidence that HYDRACs do not degrade off-target proteins, the claim of selective degradation is unsubstantiated, and the potential for nonspecific effects remains a major concern.
+  - **Resolution test** Provide data from proteome-wide profiling or targeted analysis of related proteins, demonstrating that MYC degradation occurs without significant depletion of other cellular proteins.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative efficacy and dose response
+  - **Claim pointer** The abstract claims "robust" degradation of MYC and "significantly suppressed tumor growth in vivo."
+  - **Evidence pointer** Abstract only; no quantitative values for degradation efficiency, IC50, or tumor growth inhibition are provided
+  - **Concern** The terms "robust" and "significantly" are qualitative. No numerical data are given for the extent of MYC degradation, the concentration required for effect, or the magnitude of tumor growth suppression. Without these, the efficacy claims cannot be evaluated or compared to existing TPD approaches.
+  - **Why it matters** Quantitative metrics are essential for assessing the practical utility of a new degradation platform. The absence of such data prevents an objective evaluation of whether HYDRACs are competitive with or superior to existing degraders.
+  - **Resolution test** Report degradation efficiency (e.g., DC50 and Dmax), in vivo tumor growth inhibition percentages, and statistical significance values with appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability and pan-KRAS claim
+  - **Claim pointer** The abstract claims that RAS-targeted HYDRACs show degradation in two cell lines with separate KRAS alleles, suggesting "potential pan-KRAS activity."
+  - **Evidence pointer** Abstract only; no details on the KRAS alleles, cell lines, or degradation data are provided
+  - **Concern** The evidence for pan-KRAS activity is limited to two cell lines, which is insufficient to support a generalizable claim. The abstract does not specify which KRAS mutations are present, whether the effect is specific to KRAS or also affects HRAS and NRAS, or whether the degradation is selective over other RAS family members.
+  - **Why it matters** The claim of pan-KRAS activity has significant therapeutic implications, but it requires broader evidence across multiple mutant alleles and demonstration of selectivity within the RAS family. Overinterpretation from two cell lines could mislead the field.
+  - **Resolution test** Provide data from a panel of cell lines covering multiple KRAS mutations, and include selectivity assays against HRAS and NRAS.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Polymer characterization and mechanism
+  - **Claim pointer** The abstract describes HYDRACs as copolymers that "densely display" degradation inducers and target-binding peptides, and claims they are "synthesized in a facile manner."
+  - **Evidence pointer** Abstract only; no polymer characterization data are provided
+  - **Concern** No information is given on polymer composition, molecular weight, dispersity, density of functional groups, or batch-to-batch reproducibility. The mechanism of action, including how the polymer engages the E3 ligase and target simultaneously, is not described. Without this, the platform's reliability and mechanistic basis are unclear.
+  - **Why it matters** For a polymer-based therapeutic, characterization is essential to ensure reproducibility and to understand how the architecture influences efficacy. A lack of such data undermines confidence in the platform's practical applicability.
+  - **Resolution test** Provide full polymer characterization (e.g., GPC, NMR, DLS) and mechanistic studies (e.g., ternary complex formation, ubiquitination assays).
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** The term "proteomimetic" in the title
+  - **Evidence pointer** Abstract title
+  - **Issue** The term "proteomimetic" is not defined or explained in the abstract. It is unclear whether the polymers mimic protein structure, function, or both.
+  - **Required correction** Define "proteomimetic" in the abstract or introduction to clarify the intended meaning.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Comparison to existing TPD approaches
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract mentions challenges with small-molecule TPD but does not explicitly state how HYDRACs overcome these challenges beyond being "facile" and "modular."
+  - **Required correction** Briefly state specific advantages of the polymer approach, such as avoiding the need for defined binding pockets or enabling multivalent interactions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental details
+  - **Affected element** In vivo study description
+  - **Evidence pointer** Abstract, in vivo sentence
+  - **Issue** The abstract does not specify the tumor model, dosing regimen, route of administration, or whether the polymer was systemically delivered.
+  - **Required correction** Include key in vivo experimental parameters in the abstract or refer to methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (selectivity), R1-M2 (quantitative efficacy), R1-M3 (pan-KRAS evidence), R1-M4 (polymer characterization and mechanism)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The polymer-based approach to TPD is conceptually distinct from small-molecule degraders and could be considered original. However, the abstract does not fully differentiate it from other macromolecular degraders or existing polymer-drug conjugates.
+  - **Scientific importance** If the claims are substantiated, the platform could address undruggable targets and expand TPD applications, which would be of high importance. The inclusion of MYC and KRAS, both challenging targets, supports this potential.
+  - **Interdisciplinary readership** The work bridges polymer chemistry, chemical biology, and cancer therapeutics, which would appeal to a broad readership. However, the abstract's lack of technical detail may limit accessibility for nonspecialists.
+  - **Technical soundness** The technical soundness cannot be assessed from the abstract alone. The absence of quantitative data and characterization is a significant limitation.
+  - **Readability for nonspecialists** The abstract is generally readable but uses jargon (e.g., "proteomimetic," "degron") without sufficient explanation. The claims are presented clearly, but the lack of context for polymer chemistry may hinder nonspecialist understanding.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising, but the abstract lacks the quantitative and mechanistic data necessary to support the major claims. A full manuscript with detailed experimental evidence would be required to assess the platform's validity.
+
+## Risk / unsupported claims
+- The claim of "highly selective" degradation is unsupported without selectivity data.
+- The claim of "robust" degradation and "significantly suppressed tumor growth" is unsupported without quantitative values.
+- The claim of "potential pan-KRAS activity" is unsupported based on only two cell lines.
+- The claim of "facile" synthesis and "modular" design is unverifiable without polymer characterization and synthesis details.
+- The generalizability of the platform beyond MYC and KRAS is speculative and not evidenced.

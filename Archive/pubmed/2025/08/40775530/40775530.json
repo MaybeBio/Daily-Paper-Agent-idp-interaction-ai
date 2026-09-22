@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "40775530",
+    "doi": "10.1038/s42003-025-08622-7",
+    "title": "Lipid packing defects are necessary and sufficient for membrane binding of alpha-synuclein."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein (alphaSyn), an intrinsically disordered protein implicated in Parkinson's disease, is thought to initiate aggregation by binding to cellular membranes. Previous studies suggest that anionic lipids are necessary for this binding. However, these studies largely focused on unmodified alphaSyn, while physiological alphaSyn is N-terminally acetylated (NTA). Our work challenges the long-standing paradigm that anionic lipids are necessary for alphaSyn binding by demonstrating that NTA diminishes alphaSyn's reliance on anionic membranes, revealing that membrane packing defects (i.e., interfacial hydrophobicity) alone can drive membrane binding. Using fluorescence microscopy and circular dichroism spectroscopy, we monitored the binding of NTA-alphaSyn to membrane vesicles with different lipid compositions. Phosphatidylcholine and phosphatidylserine concentrations were varied to control surface charge, while phospholipid tail unsaturation and methylation were varied to modulate lipid packing. We also formulated cholesterol-containing membranes that mimicked the lipid composition of synaptic vesicles. In these membranes, all-atom molecular dynamics simulations were used to visualize and quantify membrane packing defects. Our results demonstrate that membrane packing defects are necessary for NTA-alphaSyn binding and that defect-rich membranes are sufficient for NTA-alphaSyn binding regardless of membrane charge. These findings provide a molecular mechanism by which lipid structural properties, such as poly-unsaturation, can regulate alphaSyn binding to physiological membranes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/metabolism/chemistry",
+      "Protein Binding",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "*Cell Membrane/metabolism",
+      "Phosphatidylserines/metabolism/chemistry",
+      "Parkinson Disease/metabolism",
+      "Cholesterol/metabolism",
+      "*Membrane Lipids/metabolism/chemistry",
+      "Phosphatidylcholines/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Johnson, David H",
+        "Kou, Orianna H",
+        "White, John M",
+        "Ramirez, Stephanie Y",
+        "Margaritakis, Antonis",
+        "Chung, Peter J",
+        "Jaeger, Vance W",
+        "Zeno, Wade F"
+      ],
+      "short_names": [
+        "Johnson DH",
+        "Kou OH",
+        "White JM",
+        "Ramirez SY",
+        "Margaritakis A",
+        "Chung PJ",
+        "Jaeger VW",
+        "Zeno WF"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-6649-3029",
+        "ORCID: 0009-0006-7455-0760",
+        "ORCID: 0000-0002-5187-8281",
+        "ORCID: 0000-0002-2341-8923"
+      ],
+      "affiliations": [
+        "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Chemical Engineering, University of Louisville, Louisville, KY, USA.",
+        "Department of Biological Sciences, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Chemistry, University of Southern California, Los Angeles, CA, USA.",
+        "Alfred E. Mann Department of Biomedical Engineering, University of Southern California, Los Angeles, CA, USA.",
+        "Department of Chemical Engineering, University of Louisville, Louisville, KY, USA.",
+        "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, USA. wzeno@usc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Johnson, David H",
+        "short_name": "Johnson DH",
+        "identifiers": [
+          "0009-0000-6649-3029"
+        ],
+        "affiliations": [
+          "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kou, Orianna H",
+        "short_name": "Kou OH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "White, John M",
+        "short_name": "White JM",
+        "identifiers": [
+          "0009-0006-7455-0760"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, University of Louisville, Louisville, KY, USA."
+        ]
+      },
+      {
+        "full_name": "Ramirez, Stephanie Y",
+        "short_name": "Ramirez SY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Margaritakis, Antonis",
+        "short_name": "Margaritakis A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Chung, Peter J",
+        "short_name": "Chung PJ",
+        "identifiers": [
+          "0000-0002-5187-8281"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Southern California, Los Angeles, CA, USA.",
+          "Department of Chemistry, University of Southern California, Los Angeles, CA, USA.",
+          "Alfred E. Mann Department of Biomedical Engineering, University of Southern California, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Jaeger, Vance W",
+        "short_name": "Jaeger VW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, University of Louisville, Louisville, KY, USA."
+        ]
+      },
+      {
+        "full_name": "Zeno, Wade F",
+        "short_name": "Zeno WF",
+        "identifiers": [
+          "0000-0002-2341-8923"
+        ],
+        "affiliations": [
+          "Mork Family Department of Chemical Engineering and Materials Science, University of Southern California, Los Angeles, CA, USA. wzeno@usc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2025 Aug 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/08 06:29",
+    "fetched_at": "2026-09-21 22:09:01"
+  },
+  "links": {
+    "cites": [
+      "42430503",
+      "42265918",
+      "42146498",
+      "41927759",
+      "41890075",
+      "41834991",
+      "41827884",
+      "41821508",
+      "41445182",
+      "41404624"
+    ],
+    "refs": [
+      "39729359",
+      "39306670",
+      "38962715",
+      "38702883",
+      "38508884",
+      "38100855",
+      "37883437",
+      "36982988",
+      "36812386",
+      "36567199",
+      "36099961",
+      "35944093",
+      "35787839",
+      "35474118",
+      "34572099",
+      "34473498",
+      "34248606",
+      "34139199",
+      "33903234",
+      "33620194",
+      "33568632",
+      "33566579",
+      "33538574",
+      "33437978",
+      "33356274",
+      "33263429",
+      "32063829",
+      "31937832",
+      "31389467",
+      "31191239",
+      "31057362",
+      "30297718",
+      "30055754",
+      "30054468",
+      "29853639",
+      "29725687",
+      "29573133",
+      "28671142",
+      "28497616",
+      "27531743",
+      "26808899",
+      "26631602",
+      "26119565",
+      "25931201",
+      "25824255",
+      "25772372",
+      "25643172",
+      "25387473",
+      "25246573",
+      "25130509",
+      "24338013",
+      "23891661",
+      "23823878",
+      "23765500",
+      "23740253",
+      "23442908",
+      "23153485",
+      "22836248",
+      "22694188",
+      "22315227",
+      "21929559",
+      "21841800",
+      "21527634",
+      "21524999",
+      "21203426",
+      "20923663",
+      "20496934",
+      "19749743",
+      "19575467",
+      "19420222",
+      "19229944",
+      "19220042",
+      "19066219",
+      "18351591",
+      "18082181",
+      "17406547",
+      "17176082",
+      "17110340",
+      "16581836",
+      "15028717",
+      "14507911",
+      "12621030",
+      "12586824",
+      "10915790",
+      "9600990",
+      "9545270",
+      "9278044",
+      "3411354"
+    ],
+    "similar": [
+      "40775530",
+      "39829920",
+      "41428873",
+      "29853639",
+      "18082181",
+      "31048377",
+      "23823878",
+      "33971161",
+      "39306670",
+      "32304757",
+      "33437978",
+      "28671142",
+      "38100855",
+      "27766878",
+      "35718804",
+      "25985082",
+      "29273335",
+      "19167303",
+      "32513706",
+      "40315262",
+      "23831067",
+      "24146972",
+      "36812386",
+      "33318779",
+      "33587036",
+      "40902974",
+      "18930058",
+      "23740253",
+      "31424918",
+      "25824255",
+      "22500765",
+      "39803688",
+      "26297828",
+      "24316000",
+      "30826264",
+      "33415971",
+      "16953580",
+      "31937832",
+      "40341765",
+      "23583776",
+      "39133842",
+      "28274844",
+      "20923663",
+      "22009045",
+      "10827979",
+      "32157247",
+      "36939875",
+      "36830656",
+      "40721018",
+      "16519533",
+      "29305919",
+      "39208301",
+      "27298346",
+      "30198000",
+      "39334852",
+      "26381411",
+      "40878020",
+      "39188788",
+      "16455667",
+      "27742354",
+      "31064841",
+      "39584804",
+      "36493587",
+      "23499431",
+      "25757154",
+      "30281310",
+      "39318230",
+      "31740740",
+      "39450869",
+      "32356963",
+      "21330368",
+      "22439820",
+      "40715768",
+      "33862084",
+      "33277360",
+      "26497753",
+      "29633780",
+      "34233191",
+      "21491910",
+      "20923645",
+      "39201619",
+      "31181290",
+      "34788284",
+      "28698628",
+      "34948050",
+      "16762368",
+      "34680099",
+      "30093536",
+      "37768058",
+      "18198943",
+      "24383916",
+      "30269885",
+      "26119565",
+      "29577851",
+      "26703192",
+      "24338013",
+      "36744543",
+      "7547876",
+      "40967508",
+      "30871620"
+    ],
+    "review": [
+      "40775530",
+      "28671142",
+      "25985082",
+      "29305919",
+      "39188788",
+      "31064841",
+      "23499431",
+      "39201619",
+      "26703192"
+    ],
+    "pmc": [
+      "12332086"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-025-08622-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40775530/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

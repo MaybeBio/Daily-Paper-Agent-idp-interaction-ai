@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40133791",
+  "title": "PUNCH: An Interactive Web Server for Predicting Intrinsically Disordered Regions in Protein Sequences.",
+  "authors": "Meng, Di; Pollastri, Gianluca",
+  "journal": "Journal of molecular biology",
+  "published_date": "2025-03-26",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 4,
+  "one_liner_zh": "该文介绍预测无序区域(IDR)的Web服务器PUNCH，仅涉及IDR序列预测，不涉及蛋白互作或机制建模，方法为计算预测但无AI/物理模拟深度，与本课题关联较弱。",
+  "abstract": "PUNCH is a freely accessible web server designed for the rapid and accurate prediction of intrinsically disordered regions (IDRs) in protein sequences. Built on a high-performance computational framework, PUNCH web server which built on PUNCH2-Light predictor, combines speed with predictive accuracy, offering users a streamlined interface for generating predictions from sequence input. Validated against the CAID2 benchmarking datasets, PUNCH web server demonstrates competitive performance in detecting IDRs across diverse protein sequences. Notably, it excels in the Disorder_PDB dataset and provides reliable results for the Disorder_NOX dataset, addressing the challenges of predicting disordered regions with low sequence similarity. The server is available at https://alienlabs.ucd.ie/punch2/, with extensive documentation and downloadable example datasets to support researchers in structural biology and bioinformatics.",
+  "abstract_zh": "PUNCH是一个免费访问的Web服务器，旨在快速且准确地预测蛋白质序列中的内在无序区域（IDRs）。该服务器基于高性能计算框架构建，依托PUNCH2-Light预测器，将速度与预测准确性相结合，为用户提供从序列输入生成预测结果的简化界面。经过CAID2基准数据集的验证，PUNCH Web服务器在检测多种蛋白质序列中的IDRs方面表现出竞争性性能。值得注意的是，它在Disorder_PDB数据集中表现优异，并为Disorder_NOX数据集提供可靠结果，解决了低序列相似性下预测无序区域的挑战。该服务器可在https://alienlabs.ucd.ie/punch2/访问，提供广泛的文档和可下载的示例数据集，以支持结构生物学和生物信息学领域的研究人员。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40133791/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40133791/",
+  "paper_page_path": "papers/pubmed/40133791/index.html"
+}

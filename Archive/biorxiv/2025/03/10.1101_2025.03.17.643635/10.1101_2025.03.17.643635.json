@@ -1,0 +1,165 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.17.643635",
+  "title": "The non-catalytic ε DNA polymerase subunit is an NPF motif recognition protein",
+  "doi": "10.1101/2025.03.17.643635",
+  "abstract": "Short linear motifs (SLiMs) in disordered protein regions direct numerous protein–protein interactions, yet most remain uncharacterized. The Asn-Pro-Phe (NPF) motif is a well-known EH-domain ligand implicated in endocytosis, but here we reveal that the non-catalytic subunit of human DNA polymerase ε (POLE2) also serves as a general NPF-motif receptor. Using a quantitative “native holdup” assay, we find that POLE2 selectively binds diverse NPF-containing peptides, including canonical EH-domain ligands (e.g., SYNJ1) and previously uncharacterized motifs. Biochemical measurements and mutational analysis show that NPF motifs interact with a shallow pocket near the POLE2 C-terminus, and AlphaFold predictions confirm key roles for Y513, E520, and S522 in motif coordination. Proteome-scale affinity screens identify NPF-containing nuclear proteins (e.g., WDHD1, DONSON, TTF2) that bind POLE2 with micromolar affinities, and their motif mutations abolish binding in cell extracts. Although POLE2 primarily tethers the catalytic POLE subunit to replication forks, these results indicate that it can also recruit various NPF-bearing partners involved in replication, DNA repair, and transcription regulation. Notably, NPF motifs optimized for EH-domain binding can still associate with POLE2, highlighting the inherent degeneracy of SLiM-mediated networks. Overall, these findings establish POLE2 as a central hub linking replication with other processes via broad NPF-motif recognition.",
+  "authors": [
+    "Keskitalo S",
+    "Zambo B",
+    "Tuhkala A",
+    "Salokas K",
+    "Turunen T",
+    "Deutsch N",
+    "Davey N",
+    "Dosztányi Z",
+    "Varjosalo M",
+    "Gogl G"
+  ],
+  "published_date": "2025-03-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643635",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643635.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR991452",
+    "raw_record": {
+      "id": "PPR991452",
+      "source": "PPR",
+      "doi": "10.1101/2025.03.17.643635",
+      "title": "The non-catalytic ε DNA polymerase subunit is an NPF motif recognition protein",
+      "authorString": "Keskitalo S, Zambo B, Tuhkala A, Salokas K, Turunen T, Deutsch N, Davey N, Dosztányi Z, Varjosalo M, Gogl G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Keskitalo S",
+            "lastName": "Keskitalo",
+            "firstName": "Salla",
+            "initials": "S"
+          },
+          {
+            "fullName": "Zambo B",
+            "lastName": "Zambo",
+            "firstName": "Boglarka",
+            "initials": "B"
+          },
+          {
+            "fullName": "Tuhkala A",
+            "lastName": "Tuhkala",
+            "firstName": "Antti",
+            "initials": "A"
+          },
+          {
+            "fullName": "Salokas K",
+            "lastName": "Salokas",
+            "firstName": "Kari",
+            "initials": "K"
+          },
+          {
+            "fullName": "Turunen T",
+            "lastName": "Turunen",
+            "firstName": "Tanja",
+            "initials": "T"
+          },
+          {
+            "fullName": "Deutsch N",
+            "lastName": "Deutsch",
+            "firstName": "Norbert",
+            "initials": "N"
+          },
+          {
+            "fullName": "Davey N",
+            "lastName": "Davey",
+            "firstName": "Norman",
+            "initials": "N"
+          },
+          {
+            "fullName": "Dosztányi Z",
+            "lastName": "Dosztányi",
+            "firstName": "Zsuzsanna",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Varjosalo M",
+            "lastName": "Varjosalo",
+            "firstName": "Markku",
+            "initials": "M"
+          },
+          {
+            "fullName": "Gogl G",
+            "lastName": "Gogl",
+            "firstName": "Gergo",
+            "initials": "G"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Short linear motifs (SLiMs) in disordered protein regions direct numerous protein–protein interactions, yet most remain uncharacterized. The Asn-Pro-Phe (NPF) motif is a well-known EH-domain ligand implicated in endocytosis, but here we reveal that the non-catalytic subunit of human DNA polymerase ε (POLE2) also serves as a general NPF-motif receptor. Using a quantitative “native holdup” assay, we find that POLE2 selectively binds diverse NPF-containing peptides, including canonical EH-domain ligands (e.g., SYNJ1) and previously uncharacterized motifs. Biochemical measurements and mutational analysis show that NPF motifs interact with a shallow pocket near the POLE2 C-terminus, and AlphaFold predictions confirm key roles for Y513, E520, and S522 in motif coordination. Proteome-scale affinity screens identify NPF-containing nuclear proteins (e.g., WDHD1, DONSON, TTF2) that bind POLE2 with micromolar affinities, and their motif mutations abolish binding in cell extracts. Although POLE2 primarily tethers the catalytic POLE subunit to replication forks, these results indicate that it can also recruit various NPF-bearing partners involved in replication, DNA repair, and transcription regulation. Notably, NPF motifs optimized for EH-domain binding can still associate with POLE2, highlighting the inherent degeneracy of SLiM-mediated networks. Overall, these findings establish POLE2 as a central hub linking replication with other processes via broad NPF-motif recognition.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.17.643635"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41390769",
+            "reference": "Nature communications. 2025 Dec;17(1):586",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-03-21",
+      "firstPublicationDate": "2025-03-17",
+      "firstIndexDate": "2025-03-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

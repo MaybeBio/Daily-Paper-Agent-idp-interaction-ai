@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures, tables, or supplementary material
+- **Assessment boundary** Technical and conceptual evaluation of the methodology, validation strategy, and claims as presented in the text; no assessment of figures or supplementary data
+- **Shared manuscript claim summary** The authors present Martini3-NMR, an integrative framework that incorporates NMR chemical shift and NOE restraints into Martini3 coarse-grained simulations via an ANN-based chemical shift predictor (NapShift-CG), and demonstrate its application to soluble proteins, membrane proteins, and amyloid fibrils with disordered fuzzy coats
+- **Visible evidence base** Text descriptions of results, methodological details, and references to figures and supplementary materials; no actual numerical data, figures, or tables were provided
+- **Missing materials affecting confidence** All figures, tables, supplementary materials, and numerical results; validation statistics for the ANN; simulation parameters and convergence data; comparison details for reference ensembles
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually appealing and potentially impactful approach to integrating NMR restraints into coarse-grained simulations. The core idea of using an ANN to predict chemical shifts from CG coordinates is technically sound and addresses a genuine gap in the field. However, the absence of all figures, tables, and quantitative results in the provided material makes it impossible to evaluate the central claims of accuracy, broad applicability, and biological insight. The manuscript is well-structured and clearly written, but the evidence base for the key conclusions cannot be assessed from the supplied text alone.
+- **Who would be interested in the results, and why** Computational biophysicists and method developers working on coarse-grained simulations and integrative structural biology would be the primary audience. Researchers studying intrinsically disordered proteins, membrane protein assemblies, and amyloid fibrils would also find the approach relevant, as these systems are notoriously difficult to characterize by both experiment and simulation. The potential to combine experimental NMR data with efficient CG sampling addresses a long-standing limitation in the field.
+- **Major strengths** The conceptual advance of bringing NMR restraints into the CG domain is timely and well-motivated. The choice to model chemical shifts with a single ANN trained on multiple atom types simultaneously is a sensible design decision. The application range, from soluble proteins to membrane assemblies and amyloid fibrils, demonstrates ambition and potential generalizability. The authors also address a known limitation of CG models, namely the inability to retain tertiary contacts, by combining CS with NOE restraints.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence
+  - **Claim pointer** The claim that NapShift-CG achieves accuracy of similar magnitude to full-atom chemical shift predictors (Results section, NMR Chemical Shift Calculations in Coarse-Grained Protein Structures)
+  - **Evidence pointer** Figure 1b; location not provided
+  - **Concern** The central enabling technology of this work is the ANN-based chemical shift predictor. The claim of state-of-the-art accuracy is made without any quantitative data in the provided text. No correlation coefficients, RMSE values, or comparisons to existing predictors are given. The figure referenced is not available for inspection.
+  - **Why it matters** The entire framework rests on the reliability of the chemical shift predictions. If the ANN is not sufficiently accurate, the resulting restraints will be misleading and the ensembles will be incorrect. This is a foundational claim that must be quantitatively established.
+  - **Resolution test** Provide the test-set RMSE for each of the six atom types, a comparison to full-atom predictors such as SPARTA+ or CamShift, and a scatter plot of predicted versus observed shifts for the test set.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence
+  - **Claim pointer** The claim that Martini3-NMR generates ensembles with significantly improved accuracy compared to unrestrained Martini3 and Martini3-DSSP across all tested systems (Results sections on ubiquitin, KRAS, membrane proteins, and amyloid fibrils)
+  - **Evidence pointer** Figures 1c, 2a, 3a, 4a, S2, S5, S6, S11; location not provided
+  - **Concern** The manuscript reports RMSD improvements for multiple systems, but no numerical values are provided in the text. The magnitude of improvement, the statistical significance, and the system-to-system variability cannot be assessed. For the PLN system, the claim of capturing monomer-pentamer equilibrium is based on free energy differences and barrier heights, but the actual values and their uncertainties are not given.
+  - **Why it matters** The broad applicability claim is a key selling point of the manuscript. Without quantitative evidence, the reader cannot judge whether the improvements are meaningful, whether they are consistent across systems, or whether they are statistically robust.
+  - **Resolution test** Provide a summary table with mean and standard error of RMSD values for each system and each method (Martini3, Martini3-DSSP, Martini3-NMR), along with the number of replicates and appropriate statistical tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The claim that the observed properties of the amyloid fuzzy coat, including condensate-like density profiles and dynamics, are accurately captured by Martini3-NMR (Results section on amyloid fibrils)
+  - **Evidence pointer** Figure 4c-e; location not provided
+  - **Concern** The comparison of fuzzy coat properties to condensate behavior is intriguing but requires careful validation. The density profile calculation depends on several assumptions, including the excluded volume of the fibril core and the choice of binning. The diffusion coefficient analysis relies on identifying a linear regime in the MSD, which may be system-dependent. The text does not provide sufficient detail to assess the robustness of these analyses.
+  - **Why it matters** The claim that fuzzy coats display condensate-like properties is a significant biological finding. If the analysis methods are not rigorously validated, this claim could be an artifact of the simulation setup or analysis choices.
+  - **Resolution test** Provide a sensitivity analysis of the density profile and diffusion coefficient calculations to the choice of parameters. Compare the fuzzy coat properties to those of a control system, such as a purely repulsive or non-interacting tail, to demonstrate that the observed behavior is specific to the sequence and interactions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology
+  - **Claim pointer** The claim that the ANN-based chemical shift prediction is transferable to systems with post-translational modifications, non-standard residues, or ligands (Discussion section)
+  - **Evidence pointer** Discussion; location not provided
+  - **Concern** The training set is limited to standard amino acids with the addition of oxidized cysteine and cis-proline. The authors suggest broad applicability, but the ANN has not been trained on modified residues, which are common in membrane proteins and amyloid systems. The featurization also does not account for protonation states, as acknowledged for the Glu residues in the Tau system.
+  - **Why it matters** The stated goal of studying complex protein systems implies that post-translational modifications and non-standard chemical environments will be encountered. If the ANN cannot handle these, the method's applicability is more limited than claimed.
+  - **Resolution test** Either demonstrate that the ANN can be retrained or extended to handle modified residues, or explicitly state the limitations and provide guidance on when the method is applicable.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, NOE Restraints
+  - **Evidence pointer** Methods section, NOE Restraints; location not provided
+  - **Issue** The equation for converting atomistic NOE distances to CG distances is presented without derivation or justification. The weighting scheme in the second equation is not explained.
+  - **Required correction** Provide a brief derivation or citation for the conversion scheme, and explain the rationale for the weighting factor.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Simulations
+  - **Evidence pointer** Methods section, Simulations; location not provided
+  - **Issue** The text states that simulation times and equilibration protocols are reported in a supplementary spreadsheet, but no details are given in the main text. The choice of simulation length, number of replicates, and equilibration criteria are critical for assessing convergence.
+  - **Required correction** Provide a summary of simulation lengths, replicate numbers, and convergence criteria in the main text or a table.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, Amyloid fibrils
+  - **Evidence pointer** Results section, Elucidating the Properties of Amyloid Fibrils; location not provided
+  - **Issue** The statement that the fuzzy coat density profile resembles that of condensates is made without a quantitative comparison to known condensate profiles or a defined metric for similarity.
+  - **Required correction** Define a quantitative metric for condensate-like behavior and compare the simulated profiles to reference data or a theoretical model.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Membrane proteins
+  - **Evidence pointer** Results section, Conformational Ensembles of Membrane Proteins; location not provided
+  - **Issue** The HER1 TM domain simulation is described as sampling both inactive and active states, but the text does not describe how the active state was defined or whether the simulation captured a transition between states.
+  - **Required correction** Clarify the definition of active and inactive states and describe whether transitions were observed or whether the two states were sampled independently.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative validation for the ANN predictor, the lack of numerical results for the ensemble improvements, and the insufficient methodological detail for the fuzzy coat analysis prevent the core claims from being evaluated.
+- **Assessment against Nature-style criteria** Originality: The concept of integrating NMR restraints into CG simulations via ANN-based chemical shift prediction is novel and represents a meaningful advance over existing approaches. Scientific importance: The potential to study large, heterogeneous, and dynamic systems with experimental accuracy is significant for the field. Interdisciplinary readership: The work bridges NMR spectroscopy, computational chemistry, and structural biology, and would appeal to a broad audience. Technical soundness: The methodological framework is plausible, but the lack of quantitative results in the provided material prevents a full assessment. Readability for nonspecialists: The manuscript is clearly written and the concepts are accessible, though some methodological details assume specialist knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising and the applications are well chosen, but the manuscript cannot be accepted in its current form without the missing quantitative evidence and methodological clarifications.
+
+## Risk / unsupported claims
+- The claim that NapShift-CG achieves accuracy comparable to full-atom predictors is unsupported without test-set statistics.
+- The claim of significant improvement over Martini3 and Martini3-DSSP across all systems is unsupported without numerical RMSD values and statistical tests.
+- The claim that the fuzzy coat displays condensate-like properties is not quantitatively established.
+- The claim of broad applicability to systems with post-translational modifications is not supported by the training data.
+- The claim that Martini3-NMR captures the monomer-pentamer equilibrium of PLN is not supported by the free energy values, which are not provided.
+- The claim that the method is applicable to systems ranging from 5 kDa to 320 kDa is not supported by a systematic analysis of size-dependent performance.

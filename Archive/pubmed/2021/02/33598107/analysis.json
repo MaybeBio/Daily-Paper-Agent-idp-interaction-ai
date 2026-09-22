@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33598107",
+  "title": "Structure-based peptide design targeting intrinsically disordered proteins: Novel histone H4 and H2A peptidic inhibitors.",
+  "authors": "Wichapong, Kanin; Silvestre-Roig, Carlos; Braster, Quinte; Schumski, Ariane; Soehnlein, Oliver; Nicolaes, Gerry A F",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2021-02-19",
+  "window": {
+    "start": "2021-02-15",
+    "end": "2021-02-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用基于结构的结合自由能方法设计靶向无序组蛋白H4/H2A的肽抑制剂，虽对象为IDP且涉及PPI，但方法为经典物理模拟而非AI，机制建模深度有限。",
+  "abstract": "A growing body of research has demonstrated that targeting intrinsically disordered proteins (IDPs) and intrinsically disordered protein regions (IDPRs) is feasible and represents a new trending strategy in drug discovery. However, the number of inhibitors targeting IDPs/IDPRs is increasing slowly due to limitations of the methods that can be used to accelerate the discovery process. We have applied structure-based methods to successfully develop the first peptidic inhibitor (HIPe - Histone Inhibitory Peptide) that targets histone H4 that are released from NETs (Neutrophil Extracellular Traps). HIPe binds stably to the disordered N-terminal tail of histone H4, thereby preventing histone H4-induced cell death. Recently, by utilisation of the same state-of-the-art approaches, we have developed a novel peptidic inhibitor (CHIP - Cyclical Histone H2A Interference Peptide) that binds to NET-resident histone H2A, which results in a blockade of monocyte adhesion and consequently reduction in atheroprogression. Here, we present comprehensive details on the computational methods utilised to design and develop HIPe and CHIP. We have exploited protein-protein complexes as starting structures for rational peptide design and then applied binding free energy methods to predict and prioritise binding strength of the designed peptides with histone H4 and H2A. By doing this way, we have modelled only around 20 peptides and from these were able to select 4-5 peptides, from a total of more than a trillion candidate peptides, for functional characterisation in different experiments. The developed computational protocols are generic and can be widely used to design and develop novel inhibitors for other disordered proteins.",
+  "abstract_zh": "越来越多的研究表明，靶向固有无序蛋白（IDPs）及固有无序蛋白区域（IDPRs）是可行的，并代表了药物发现中的一种新兴策略。然而，由于可用于加速发现过程的方法存在局限性，针对IDPs/IDPRs的抑制剂数量增长缓慢。我们已应用基于结构的方法，成功开发了首个靶向中性粒细胞胞外陷阱（NETs）释放的组蛋白H4的肽类抑制剂（HIPe - 组蛋白抑制肽）。HIPe稳定结合于组蛋白H4的无序N端尾部，从而阻止组蛋白H4诱导的细胞死亡。近期，通过利用同样的先进方法，我们开发了一种新型肽类抑制剂（CHIP - 环状组蛋白H2A干扰肽），其结合于NET驻留的组蛋白H2A，导致单核细胞粘附受阻，进而减缓动脉粥样硬化进展。在此，我们提供了用于设计和开发HIPe及CHIP的计算方法的全面细节。我们利用蛋白质-蛋白质复合物作为合理肽设计的起始结构，然后应用结合自由能方法来预测并优先排序所设计肽与组蛋白H4和H2A的结合强度。通过这种方式，我们仅建模了约20种肽，并从中能够从超过一万亿候选肽中选出4-5种，用于不同实验中的功能表征。所开发的计算方案具有通用性，可广泛用于设计和开发针对其他无序蛋白的新型抑制剂。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33598107/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33598107/",
+  "paper_page_path": "papers/pubmed/33598107/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38980064",
+  "title": "Ligand-Receptor Interaction-Induced Intracellular Phase Separation: A Global Disruption Strategy for Resistance-Free Lethality of Pathogenic Bacteria.",
+  "authors": "Yang, Anming; Song, Junfeng; Li, Jiaqi; Li, Youzhi; Bai, Silei; Zhou, Cailing; Wang, Min; Zhou, Yu; Wen, Kang; Luo, Miaomiao; Chen, Peiren; Liu, Bo; Yang, Huan; Bai, Yugang; Wong, Wing-Leung; Cai, Qingyun; Pu, Huangsheng; Qian, Yu; Hu, Wenhao; Huang, Wei; Wan, Muyang; Zhang, Chunhui; Feng, Xinxin",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2024-07-09",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 3,
+  "one_liner_zh": "该文研究配体-受体诱导的细胞内小分子聚集以广谱破坏细菌功能，虽涉及相分离样聚集和蛋白互作，但对象为细菌小分子抗菌剂，非无序蛋白/IDR，且无AI或物理模拟方法，仅机制性生化分析，与本课题关联度低。",
+  "abstract": "Addressing the global challenge of bacterial resistance demands innovative approaches, among which multitargeting is a widely used strategy. Current strategies of multitargeting, typically achieved through drug combinations or single agents inherently aiming at multiple targets, face challenges such as stringent pharmacokinetic and pharmacodynamic requirements and cytotoxicity concerns. In this report, we propose a bacterial-specific global disruption approach as a vastly expanded multitargeting strategy that effectively disrupts bacterial subcellular organization. This effect is achieved through a pioneering chemical design of ligand-receptor interaction-induced aggregation of small molecules, i.e., DNA-induced aggregation of a diarginine peptidomimetic within bacterial cells. These intracellular aggregates display affinity toward various proteins and thus substantially interfere with essential bacterial functions and rupture bacterial cell membranes in an \"inside-out\" manner, leading to robust antibacterial activities and suppression of drug resistance. Additionally, biochemical analysis of macromolecule binding affinity, cytoplasmic localization patterns, and bacterial stress responses suggests that this bacterial-specific intracellular aggregation mechanism is fundamentally different from nonselective classic DNA or membrane binding mechanisms. These mechanistic distinctions, along with the peptidomimetic's selective permeation of bacterial membranes, contribute to its favorable biocompatibility and pharmacokinetic properties, enabling its in vivo antimicrobial efficacy in several animal models, including mice-based superficial wound models, subcutaneous abscess models, and septicemia infection models. These results highlight the great promise of ligand-receptor interaction-induced intracellular aggregation in achieving a globally disruptive multitargeting effect, thereby offering potential applications in the treatment of malignant cells, including pathogens, tumor cells, and infected tissues.",
+  "abstract_zh": "应对细菌耐药性的全球挑战需要创新方法，其中多靶点策略是一种广泛采用的手段。当前的多靶点策略通常通过药物组合或天然针对多个靶点的单一药物实现，但面临严格的药代动力学和药效学要求以及细胞毒性问题等挑战。在本报告中，我们提出一种细菌特异性全局破坏方法，作为一种大幅扩展的多靶点策略，有效破坏细菌亚细胞组织。这一效应通过开创性的配体-受体相互作用诱导小分子聚集的化学设计实现，即DNA诱导细菌细胞内二精氨酸肽模拟物的聚集。这些细胞内聚集体对多种蛋白质表现出亲和力，从而显著干扰细菌必需功能，并以“由内而外”的方式破裂细菌细胞膜，导致强效抗菌活性和耐药性抑制。此外，对大分子结合亲和力、细胞质定位模式和细菌应激反应的生化分析表明，这种细菌特异性细胞内聚集机制与非选择性经典DNA或膜结合机制根本不同。这些机制差异，连同肽模拟物对细菌膜的选择性渗透，有助于其良好的生物相容性和药代动力学特性，使其在多种动物模型中发挥体内抗菌功效，包括小鼠浅表伤口模型、皮下脓肿模型和败血症感染模型。这些结果凸显了配体-受体相互作用诱导的细胞内聚集在实现全局破坏性多靶点效应方面的巨大潜力，从而为治疗恶性细胞（包括病原体、肿瘤细胞和感染组织）提供潜在应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38980064/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38980064/",
+  "paper_page_path": "papers/pubmed/38980064/index.html"
+}

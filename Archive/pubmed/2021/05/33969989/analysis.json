@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33969989",
+  "title": "Effect of RNA on Morphology and Dynamics of Membraneless Organelles.",
+  "authors": "Ranganathan, Srivastav; Shakhnovich, Eugene",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-05-11",
+  "window": {
+    "start": "2021-05-10",
+    "end": "2021-05-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究用最小模型模拟P小体蛋白-蛋白互作网络，揭示RNA作为超支架促进无膜细胞器相分离并维持液滴动态，直接关联无序蛋白介导的PPI与凝聚体机制建模。",
+  "abstract": "Membraneless organelles (MLOs) are spatiotemporally regulated structures that concentrate multivalent proteins or RNA, often in response to stress. The proteins enriched within MLOs are often classified as high-valency \"scaffolds\" or low-valency \"clients\", with the former being associated with a phase-separation promoting role. In this study, we employ a minimal model for P-body components, with a defined protein-protein interaction network, to study their phase separation at biologically realistic low protein concentrations. Without RNA, multivalent proteins can assemble into solid-like clusters only in the regime of high concentration and stable interactions. RNA molecules promote cluster formation in an RNA-length-dependent manner, even in the regime of weak interactions and low protein volume fraction. Our simulations reveal that long RNA chains act as superscaffolds that stabilize large RNA-protein clusters by recruiting low-valency proteins within them while also ensuring functional \"liquid-like\" turnover of components. Our results suggest that RNA-mediated phase separation could be a plausible mechanism for spatiotemporally regulated phase separation in the cell.",
+  "abstract_zh": "无膜细胞器（MLOs）是时空调控的结构，富集多价蛋白质或RNA，通常响应于应激条件。MLOs内富集的蛋白质常被分类为高价的“支架”或低价的“客户”，前者与促进相分离的作用相关联。在本研究中，我们采用一个针对P小体组分的简化模型，具有明确的蛋白质-蛋白质相互作用网络，以研究其在生物学现实低蛋白质浓度下的相分离行为。在无RNA情况下，多价蛋白质仅在高浓度和稳定相互作用的条件下能组装成类固体簇。RNA分子以依赖于RNA长度的方式促进簇形成，即使在弱相互作用和低蛋白质体积分数条件下也是如此。我们的模拟揭示，长RNA链充当超支架，通过招募低价的蛋白质稳定大型RNA-蛋白质簇，同时确保组分的功能性“液态”周转。我们的结果表明，RNA介导的相分离可能是细胞中时空调控相分离的一种合理机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33969989/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33969989/",
+  "paper_page_path": "papers/pubmed/33969989/index.html"
+}

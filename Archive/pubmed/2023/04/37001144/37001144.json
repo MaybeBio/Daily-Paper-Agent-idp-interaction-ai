@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "37001144",
+    "doi": "10.1021/jacs.3c00587",
+    "title": "Investigating Native Metal Ion Binding Sites in Mammalian Histidine-Rich Glycoprotein."
+  },
+  "content": {
+    "abstract": "Mammalian histidine-rich glycoprotein (HRG) is a highly versatile and abundant blood plasma glycoprotein with a diverse range of ligands that is involved in regulating many essential biological processes, including coagulation, cell adhesion, and angiogenesis. Despite its biomedical importance, structural information on the multi-domain protein is sparse, not least due to intrinsically disordered regions that elude high-resolution structural characterization. Binding of divalent metal ions, particularly Zn(II), to multiple sites within the HRG protein is of critical functional importance and exerts a regulatory role. However, characterization of the Zn(II) binding sites of HRG is a challenge; their number and composition as well as their affinities and stoichiometries of binding are currently not fully understood. In this study, we explored modern electron paramagnetic resonance (EPR) spectroscopy methods supported by protein secondary and tertiary structure prediction to assemble a holistic picture of native HRG and its interaction with metal ions. To the best of our knowledge, this is the first time that this suite of EPR techniques has been applied to count and characterize endogenous metal ion binding sites in a native mammalian protein of unknown structure.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Glycoproteins/metabolism",
+      "Binding Sites",
+      "*Blood Coagulation",
+      "Mammals/metabolism",
+      "Histidine-Rich Glycoprotein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ackermann, Katrin",
+        "Khazaipoul, Siavash",
+        "Wort, Joshua L",
+        "Sobczak, Amelie I S",
+        "Mkami, Hassane El",
+        "Stewart, Alan J",
+        "Bode, Bela E"
+      ],
+      "short_names": [
+        "Ackermann K",
+        "Khazaipoul S",
+        "Wort JL",
+        "Sobczak AIS",
+        "Mkami HE",
+        "Stewart AJ",
+        "Bode BE"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1632-0503",
+        "ORCID: 0000-0003-4580-1840",
+        "ORCID: 0000-0002-3384-271X"
+      ],
+      "affiliations": [
+        "EaStCHEM School of Chemistry, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "Biomedical Sciences Research Complex, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "Biomedical Sciences Research Complex, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "School of Medicine, University of St Andrews, North Haugh, St Andrews KY16 9TF, Scotland.",
+        "EaStCHEM School of Chemistry, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "Biomedical Sciences Research Complex, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "Biomedical Sciences Research Complex, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "School of Medicine, University of St Andrews, North Haugh, St Andrews KY16 9TF, Scotland.",
+        "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "School of Physics and Astronomy, University of St Andrews, North Haugh, St Andrews KY16 9SS, Scotland.",
+        "Biomedical Sciences Research Complex, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "School of Medicine, University of St Andrews, North Haugh, St Andrews KY16 9TF, Scotland.",
+        "EaStCHEM School of Chemistry, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "Biomedical Sciences Research Complex, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+        "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ackermann, Katrin",
+        "short_name": "Ackermann K",
+        "identifiers": [
+          "0000-0003-1632-0503"
+        ],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+          "Biomedical Sciences Research Complex, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+          "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland."
+        ]
+      },
+      {
+        "full_name": "Khazaipoul, Siavash",
+        "short_name": "Khazaipoul S",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Sciences Research Complex, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+          "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+          "School of Medicine, University of St Andrews, North Haugh, St Andrews KY16 9TF, Scotland."
+        ]
+      },
+      {
+        "full_name": "Wort, Joshua L",
+        "short_name": "Wort JL",
+        "identifiers": [],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+          "Biomedical Sciences Research Complex, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+          "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland."
+        ]
+      },
+      {
+        "full_name": "Sobczak, Amélie I S",
+        "short_name": "Sobczak AIS",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Sciences Research Complex, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+          "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+          "School of Medicine, University of St Andrews, North Haugh, St Andrews KY16 9TF, Scotland."
+        ]
+      },
+      {
+        "full_name": "Mkami, Hassane El",
+        "short_name": "Mkami HE",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+          "School of Physics and Astronomy, University of St Andrews, North Haugh, St Andrews KY16 9SS, Scotland."
+        ]
+      },
+      {
+        "full_name": "Stewart, Alan J",
+        "short_name": "Stewart AJ",
+        "identifiers": [
+          "0000-0003-4580-1840"
+        ],
+        "affiliations": [
+          "Biomedical Sciences Research Complex, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+          "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+          "School of Medicine, University of St Andrews, North Haugh, St Andrews KY16 9TF, Scotland."
+        ]
+      },
+      {
+        "full_name": "Bode, Bela E",
+        "short_name": "Bode BE",
+        "identifiers": [
+          "0000-0002-3384-271X"
+        ],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+          "Biomedical Sciences Research Complex, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland.",
+          "Centre of Magnetic Resonance, University of St Andrews, North Haugh, St Andrews KY16 9ST, Scotland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2023 Apr 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/01 06:00",
+    "fetched_at": "2026-09-20 20:44:12"
+  },
+  "links": {
+    "cites": [
+      "41762653",
+      "41718688",
+      "41516401",
+      "41190777",
+      "40847539",
+      "39918201",
+      "39225197",
+      "39072685",
+      "38560521",
+      "38294197"
+    ],
+    "refs": [
+      "35837993",
+      "35282619",
+      "35234757",
+      "34791371",
+      "34664948",
+      "34265844",
+      "34163679",
+      "33533341",
+      "31450188",
+      "31218813",
+      "30566257",
+      "29963662",
+      "29872214",
+      "29117521",
+      "28934288",
+      "28191714",
+      "26434726",
+      "26409900",
+      "25883141",
+      "25821033",
+      "25757985",
+      "25587579",
+      "25353308",
+      "25014537",
+      "24501222",
+      "23561535",
+      "22404592",
+      "21491887",
+      "21215706",
+      "20971949",
+      "20099820",
+      "19919160",
+      "19903770",
+      "19786305",
+      "19294709",
+      "19186148",
+      "18593109",
+      "17609127",
+      "17487970",
+      "16489009",
+      "16436387",
+      "15748207",
+      "14653724",
+      "14523924",
+      "12207548",
+      "12198539",
+      "7225317",
+      "4374138",
+      "3011081",
+      "2831972",
+      "2558712",
+      "1648261"
+    ],
+    "similar": [
+      "37001144",
+      "28257077",
+      "15748207",
+      "15138272",
+      "27930811",
+      "25353308",
+      "23809442",
+      "29872214",
+      "30518643",
+      "3427089",
+      "18219588",
+      "2831972",
+      "34955533",
+      "24501222",
+      "20971949",
+      "39072685",
+      "26409900",
+      "23576524",
+      "41190777",
+      "8286377",
+      "19712047",
+      "26299797",
+      "2636901",
+      "38272220",
+      "21757718",
+      "1639922",
+      "29431781",
+      "4084500",
+      "17521131",
+      "19786305",
+      "42475469",
+      "21805445",
+      "32967483",
+      "1581496",
+      "15220341",
+      "1821809",
+      "42237632",
+      "26214303",
+      "3328221",
+      "40756183",
+      "36078092",
+      "7972057",
+      "27030529",
+      "10421785",
+      "188447",
+      "9184145",
+      "18565588",
+      "2827651",
+      "23912807",
+      "4086476",
+      "38084602",
+      "6415849",
+      "8942630",
+      "678554",
+      "19404418",
+      "23726993",
+      "25042361",
+      "21304106",
+      "15476415",
+      "17140191",
+      "23430773",
+      "10460161",
+      "37244517",
+      "10715116",
+      "30734790",
+      "10467132",
+      "30191219",
+      "21520306",
+      "24510988",
+      "19903770",
+      "29544683",
+      "8943007",
+      "39150724",
+      "35224154",
+      "37147085",
+      "11472012",
+      "30187212",
+      "19679159",
+      "8639676",
+      "8810919",
+      "15869579",
+      "28832106",
+      "26525373",
+      "32298815",
+      "1327773",
+      "19883117",
+      "26051322",
+      "21264222",
+      "1730300",
+      "8690451",
+      "3986189",
+      "29561927",
+      "18797515",
+      "11434304",
+      "17276716",
+      "19361445",
+      "22178668",
+      "23841698",
+      "37163663",
+      "34967109"
+    ],
+    "review": [
+      "37001144",
+      "28257077",
+      "15748207",
+      "23809442",
+      "18219588",
+      "34955533",
+      "20971949",
+      "26409900",
+      "29431781",
+      "21805445",
+      "3328221",
+      "23726993",
+      "23430773",
+      "24510988",
+      "39150724",
+      "35224154"
+    ],
+    "pmc": [
+      "10103162"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/jacs.3c00587",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37001144/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37001144",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3299",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.3c00587",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

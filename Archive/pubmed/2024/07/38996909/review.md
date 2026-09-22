@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table references.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors investigate the RNA-binding selectivity of the hnRNP U C-terminal RNA-binding domain (U-CTD) containing two RGG/RG motifs. They report that the full U-CTD binds RNA promiscuously with high affinity and minimal sequence specificity, while the isolated first RGG/RG motif (RGG1) shows enhanced selectivity for G-quadruplex structures. They propose that flanking sequences within the intrinsically disordered region attenuate the intrinsic G-quadruplex preference of the core RGG/RG motifs, enabling broad RNA interaction. They also present evidence that U-rich and G-rich sequence motifs identified in eCLIP datasets are largely crosslinking artifacts rather than genuine binding determinants.
+- **Visible evidence base** Fluorescence anisotropy binding assays, electrophoretic mobility shift assays, RNase I and T1 structure probing, computational G-quadruplex prediction (pqsfinder), comparison with rG4-Seq data, permutation tests, and PureCLIP reanalysis of eCLIP datasets for multiple RBPs.
+- **Missing materials affecting confidence** Supplementary figures and tables (Figures S1–S8, Tables S1–S4) are referenced but not provided. Raw binding isotherms, fitted curves, and statistical details for individual Kobs values are not shown in the main text. The PureCLIP analysis parameters and full MEME motif outputs are only partially described. No structural data or direct binding-site mapping is provided.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question about the RNA-binding selectivity of RGG/RG motifs, which are abundant in the human proteome yet poorly understood. The authors combine quantitative binding assays with bioinformatic analysis to argue that the full hnRNP U RBD is a promiscuous RNA binder, while the isolated RGG/RG motif retains intrinsic G-quadruplex selectivity that is masked by flanking sequences. The experimental design is logical and the conclusions are largely supported by the data presented. However, several technical concerns, particularly regarding the interpretation of the salt-dependence experiments, the lack of quantitative comparison between binding modes, and the incomplete presentation of supplementary data, limit the strength of the conclusions. The manuscript is well written and will be of interest to the RNA biology and intrinsically disordered protein communities.
+- **Who would be interested in the results, and why** Researchers studying RNA-binding proteins, particularly those containing RGG/RG motifs or intrinsically disordered regions, will find this work valuable. The study also has implications for understanding the limitations of eCLIP methodology, which will interest the broader RNA-protein interaction field. The proposed model of flanking sequences modulating intrinsic motif selectivity is conceptually important for understanding how disordered regions shape binding specificity.
+- **Major strengths** The study uses a well-defined set of biologically relevant RNA targets derived from eCLIP data, combining quantitative binding assays with structure probing. The comparison between the full RBD and isolated RGG/RG motifs is a powerful approach to dissect the contribution of flanking sequences. The reanalysis of eCLIP data across multiple proteins to identify crosslinking artifacts is a thoughtful and important contribution. The writing is clear and the logical flow from observation to hypothesis to test is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the full U-CTD shows minimal RNA-binding selectivity and that the isolated RGG1 motif shows enhanced G-quadruplex selectivity, with Krel values increasing from 3- to 30-fold as the RBD is minimized.
+  - **Evidence pointer** Figure 8B, Table 2, Figure S8A–B
+  - **Concern** The Krel values reported in Table 2 and Figure 8B are derived from Kobs measurements, but the authors do not provide a statistical comparison between the Krel values for different protein fragments. The claim that selectivity increases from 3- to 30-fold is based on a single comparison of mean Kobs values without error propagation or significance testing. Additionally, the Krel values for the full U-CTD are reported as 3- to 4-fold, but the authors do not demonstrate that this modest preference is statistically distinguishable from no preference (Krel = 1).
+  - **Why it matters** The central conclusion of the manuscript is that flanking sequences attenuate the intrinsic G-quadruplex selectivity of the RGG/RG motifs. Without statistical evidence that the Krel values differ significantly between the full RBD and the isolated motifs, this conclusion is not firmly established. The difference between a 3-fold and a 30-fold preference could be within experimental error given the reported s.e.m. values.
+  - **Resolution test** Provide statistical analysis (e.g., t-test or ANOVA) comparing Krel values across protein fragments, including error propagation from individual Kobs measurements. Alternatively, perform competition binding assays with a mixture of G-quadruplex and non-G-quadruplex RNAs to directly demonstrate differential selectivity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the salt-dependence experiments show that the U-CTD binding is not dominated by electrostatic interactions, while the RGG1 motif binding is electrostatically driven.
+  - **Evidence pointer** Figure S7A–E
+  - **Concern** The salt-dependence data are only presented in supplementary figures and the authors do not provide quantitative analysis of the salt dependence, such as the number of ion pairs released or the slope of log(Kobs) versus log([KCl]). The claim that the U-CTD shows a biphasic salt dependence similar to FUS is based on visual inspection of the curves. Moreover, the authors state that binding curves for RGG1 did not saturate at KCl concentrations above 150 mM, which means Kobs values could not be accurately measured in this regime. This limits the interpretability of the salt-dependence comparison.
+  - **Why it matters** The conclusion that the full RBD uses non-electrostatic interactions (hydrogen bonding to bases and ribose sugars) while the isolated RGG1 motif uses electrostatic interactions is a key mechanistic claim. Without quantitative salt-dependence analysis, this claim is not supported. The inability to measure Kobs at high salt for RGG1 means the comparison is incomplete.
+  - **Resolution test** Provide quantitative analysis of salt dependence, including calculation of the number of ions released (from the slope of log(Kobs) versus log([salt])). For RGG1, either extend the titration to higher protein concentrations to achieve saturation or use a different assay format (e.g., ITC) to measure Kobs at high salt concentrations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that U-rich and G-rich motifs identified in eCLIP datasets are crosslinking artifacts, based on the observation that these motifs are enriched in eCLIP data for many proteins regardless of their RNA-binding domain composition.
+  - **Evidence pointer** Figure 6, Figure S5
+  - **Concern** The PureCLIP analysis is performed on eCLIP datasets from different cell lines (HepG2 and K562) and the authors do not control for differences in RNA expression levels, RNA structure, or protein abundance across cell lines. The conclusion that these motifs are artifacts is based on the observation that they appear across many proteins, but this could also reflect a common RNA-binding preference shared by many RBPs. The authors do not perform a negative control analysis using a protein known to lack RNA binding.
+  - **Why it matters** The claim that U-rich and G-rich motifs are crosslinking artifacts is a strong statement that has implications for the interpretation of many eCLIP datasets. If this claim is not rigorously supported, it could mislead the field. The lack of appropriate controls weakens the conclusion.
+  - **Resolution test** Include a negative control protein that does not bind RNA (e.g., a DNA-binding protein) in the PureCLIP analysis. Additionally, perform a comparison of motif enrichment between eCLIP datasets and input RNA controls to demonstrate that the motifs are not enriched in the input. Consider analyzing datasets from the same cell line to control for cell-type-specific effects.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the full U-CTD binds a broad range of structured RNAs with high affinity, but with little preference for any distinct sequence motif.
+  - **Evidence pointer** Figure 4, Figure 5, Table 1
+  - **Concern** The panel of RNA targets tested is limited to 11 eCLIP-derived fragments plus a few variants. The authors conclude that the U-CTD is promiscuous based on this limited panel, but they do not test a diverse set of RNA structures (e.g., pseudoknots, triple helices, or RNAs with different secondary structure topologies). The claim of promiscuity is therefore only as strong as the diversity of the RNA panel tested.
+  - **Why it matters** The conclusion that hnRNP U is a promiscuous RNA binder is a central claim of the manuscript. If the RNA panel is not sufficiently diverse, the conclusion may be an overstatement. The authors should either expand the RNA panel or temper their conclusion to reflect the limited diversity of RNAs tested.
+  - **Resolution test** Expand the RNA panel to include a broader range of RNA structures and sequences, including RNAs with known secondary structures that are not represented in the current panel. Alternatively, use a library-based approach (e.g., SELEX or RNA Bind-n-Seq) to comprehensively assess sequence and structure preferences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the U-CTD binds RNA in a "promiscuous manner" without defining what is meant by promiscuous in this context. Nonspecialist readers may not understand whether this means low sequence specificity, low structure specificity, or both.
+  - **Required correction** Define "promiscuous" in the abstract, for example, "binds a broad range of RNA sequences and structures with similar affinity."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 4B
+  - **Evidence pointer** Figure 4B
+  - **Issue** The Krel values for the U-CTD binding to Syncrip and Syncrip G-quad in Li+ versus K+ are reported as 1.4 and 2.4, respectively. However, the authors do not report the Krel values for the RGG1 motif in the same figure, making direct comparison difficult.
+  - **Required correction** Include the Krel values for RGG1 in Figure 4B or in the corresponding text to facilitate direct comparison.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Fluorescence Anisotropy Binding Assays
+  - **Evidence pointer** Methods section
+  - **Issue** The authors state that Kobs values are the mean of at least three separate technical replicates, but they do not specify whether these are independent experiments or repeated measurements from the same experiment. This affects the interpretation of the reported s.e.m. values.
+  - **Required correction** Clarify whether the replicates are independent biological replicates or technical replicates from the same protein preparation and RNA batch.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of UV crosslinking bias in eCLIP is detailed and technical. Nonspecialist readers may struggle to understand why this bias occurs and why it is relevant to the conclusions.
+  - **Required correction** Add a brief explanation of why UV crosslinking biases toward U-rich and G-rich sequences, and why this matters for interpreting eCLIP data.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 3
+  - **Evidence pointer** Figure 3A–D
+  - **Issue** The RNase I probing data are presented as gel images, but the authors do not provide densitometry quantification or statistical analysis of the differences between K+ and Li+ conditions. The conclusion that Syncrip and Syncrip G-quad form G-quadruplexes is based on visual inspection.
+  - **Required correction** Provide quantification of the RNase I cleavage patterns, with statistical analysis of the differences between K+ and Li+ conditions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical comparison of Krel values), R1-M2 (quantitative salt-dependence analysis), R1-M3 (negative controls for PureCLIP analysis), R1-M4 (diversity of RNA panel).
+- **Assessment against Nature-style criteria** Originality: The study is original in its systematic comparison of full RBD versus isolated RGG/RG motif selectivity and in its proposal that flanking sequences modulate intrinsic motif preference. Scientific importance: The findings have implications for understanding how disordered regions shape RNA-binding specificity and for interpreting eCLIP data across many RBPs. Interdisciplinary readership: The work will appeal to RNA biologists, biochemists, and computational biologists, but the technical nature of some analyses may limit broader appeal. Technical soundness: The experimental design is generally sound, but the lack of statistical rigor in key comparisons and the incomplete salt-dependence analysis are significant weaknesses. Readability for nonspecialists: The manuscript is generally well written, but some sections, particularly the discussion of eCLIP artifacts, may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the experimental approach is appropriate, but the statistical and quantitative analyses need to be strengthened to firmly establish the conclusions.
+
+## Risk / unsupported claims
+- The claim that the full U-CTD shows minimal RNA-binding selectivity is based on a limited panel of 11 RNA targets and lacks statistical comparison with the isolated RGG/RG motif selectivity.
+- The claim that the isolated RGG/RG motif preferentially binds G-quadruplexes is supported by Krel values, but the statistical significance of these values is not demonstrated.
+- The claim that U-rich and G-rich motifs in eCLIP data are crosslinking artifacts is not rigorously supported due to the lack of negative controls and cell-line-specific confounding factors.
+- The claim that the U-CTD binding is not dominated by electrostatic interactions is based on qualitative salt-dependence data that are not quantitatively analyzed.
+- The claim that flanking sequences within the intrinsically disordered region attenuate the intrinsic G-quadruplex selectivity of the RGG/RG motifs is a reasonable hypothesis but is not directly tested with mutagenesis or domain-swap experiments.

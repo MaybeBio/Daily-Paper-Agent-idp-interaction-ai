@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35806385",
+  "title": "The Multivalent Polyampholyte Domain of Nst1, a P-Body-Associated Saccharomyces cerevisiae Protein, Provides a Platform for Interacting with P-Body Components.",
+  "authors": "Choi, Yoon-Jeong; Lee, Yujin; Lin, Yuxi; Heo, Yunseok; Lee, Young-Ho; Song, Kiwon",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2022-07-10",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过结构预测和缺失突变体实验，揭示酵母P-body蛋白Nst1的无序多聚两性电解质域(PD)作为与Dcp2等P-body组分互作的平台，虽以实验为主、无AI/物理模拟方法，但聚焦IDR介导的PPI机制，对本课题有直接参考价值。",
+  "abstract": "The condensation of nuclear promyelocytic leukemia bodies, cytoplasmic P-granules, P-bodies (PBs), and stress granules is reversible and dynamic via liquid-liquid phase separation. Although each condensate comprises hundreds of proteins with promiscuous interactions, a few key scaffold proteins are required. Essential scaffold domain sequence elements, such as poly-Q, low-complexity regions, oligomerizing domains, and RNA-binding domains, have been evaluated to understand their roles in biomolecular condensation processes. However, the underlying mechanisms remain unclear. We analyzed Nst1, a PB-associated protein that can intrinsically induce PB component condensations when overexpressed. Various Nst1 domain deletion mutants with unique sequence distributions, including intrinsically disordered regions (IDRs) and aggregation-prone regions, were constructed based on structural predictions. The overexpression of Nst1 deletion mutants lacking the aggregation-prone domain (APD) significantly inhibited self-condensation, implicating APD as an oligomerizing domain promoting self-condensation. Remarkably, cells overexpressing the Nst1 deletion mutant of the polyampholyte domain (PD) in the IDR region (Nst1(∆PD)) rarely accumulate endogenous enhanced green fluorescent protein (EGFP)-tagged Dcp2. However, Nst1(∆PD) formed self-condensates, suggesting that Nst1 requires PD to interact with Dcp2, regardless of its self-condensation. In Nst1(∆PD)-overexpressing cells treated with cycloheximide (CHX), Dcp2, Xrn1, Dhh1, and Edc3 had significantly diminished condensation compared to those in CHX-treated Nst1-overexpressing cells. These observations suggest that the PD of the IDR in Nst1 functions as a hub domain interacting with other PB components.",
+  "abstract_zh": "核早幼粒细胞白血病小体、细胞质P颗粒、P小体（PBs）和应激颗粒的凝聚通过液-液相分离（liquid-liquid phase separation）是可逆且动态的。尽管每个凝聚体包含数百种具有混杂相互作用的蛋白质，但少数关键支架蛋白是必需的。已评估了基本支架结构域序列元件，如多聚Q（poly-Q）、低复杂度区域、寡聚化结构域和RNA结合结构域，以理解它们在生物分子凝聚过程中的作用。然而，其潜在机制仍不清楚。我们分析了Nst1，一种与PB相关的蛋白质，当过表达时可内在诱导PB组分凝聚。基于结构预测，构建了具有独特序列分布的各种Nst1结构域缺失突变体，包括 intrinsically disordered regions (IDRs) 和聚集倾向区域。缺失聚集倾向结构域（APD）的Nst1缺失突变体的过表达显著抑制了自身凝聚，表明APD作为促进自身凝聚的寡聚化结构域。值得注意的是，过表达IDR区域中多聚两性电解质结构域（PD）缺失的Nst1突变体（Nst1(∆PD)）的细胞，很少积累内源性增强型绿色荧光蛋白（EGFP）标记的Dcp2。然而，Nst1(∆PD)形成了自身凝聚体，表明Nst1需要PD与Dcp2相互作用，而不依赖于其自身凝聚。在用环己酰亚胺（CHX）处理的Nst1(∆PD)过表达细胞中，Dcp2、Xrn1、Dhh1和Edc3的凝聚相较于CHX处理的Nst1过表达细胞显著减少。这些观察结果表明，Nst1中IDR的PD作为与其他PB组分相互作用的枢纽结构域。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35806385/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35806385/",
+  "paper_page_path": "papers/pubmed/35806385/index.html"
+}

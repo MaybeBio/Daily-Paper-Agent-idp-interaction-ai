@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full manuscript, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors present DR-BERT, a compact protein language model pretrained on unannotated proteins and fine-tuned to predict intrinsically disordered regions. They claim statistically significant improvement over several existing methods on a gold standard dataset, without using explicit evolutionary or biophysical features, and attribute this performance to pretraining and contextual information.
+- **Visible evidence base** Abstract text only; no dataset details, benchmark specifications, statistical test descriptions, or model architecture specifics
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset definitions, benchmark results, statistical analysis details, model architecture and training hyperparameters, web application and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of protein language models to disordered region annotation. The core claim of improved performance without explicit evolutionary or biophysical features is interesting but cannot be verified from the abstract alone. The lack of methodological detail and quantitative results prevents a robust evaluation of the stated improvements.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein structure and function prediction, particularly those developing or using deep learning methods for disordered region annotation. Researchers interested in protein language models and their transfer learning capabilities would also find the approach relevant.
+- **Major strengths** The use of a compact language model pretrained on unannotated proteins is a novel angle for disordered region prediction, potentially reducing reliance on computationally expensive evolutionary features. The availability of a web application and open-source code enhances reproducibility and accessibility.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "DR-BERT shows a statistically significant improvement when compared to several existing methods on a gold standard dataset"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide any quantitative results, such as performance metrics, effect sizes, or confidence intervals, to support the claim of statistically significant improvement. No details on the gold standard dataset, the compared methods, or the statistical tests used are given.
+  - **Why it matters** Without specific numbers and statistical details, the claim of improvement cannot be independently assessed. The significance of the result is central to the paper's contribution, and the abstract alone does not establish it.
+  - **Resolution test** Provide performance metrics (e.g., AUC, F1, MCC) for DR-BERT and each compared method on the gold standard dataset, along with p-values or confidence intervals from appropriate statistical tests. Specify the dataset name and version.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "DR-BERT, a compact protein language model that is first pretrained on a large number of unannotated proteins before being trained to predict disordered regions"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract lacks essential details about the model architecture, pretraining data size and source, fine-tuning procedure, and how "compact" is defined. The claim that performance is due to pretraining and contextual information is not supported by any ablation or analysis.
+  - **Why it matters** Reproducibility and scientific validity depend on clear methodological descriptions. Without these details, readers cannot evaluate whether the approach is sound or whether the attributed mechanisms are justified.
+  - **Resolution test** Include a methods summary in the abstract or provide access to a full methods section that details model architecture, pretraining corpus, fine-tuning protocol, and ablation studies comparing DR-BERT with and without pretraining or with reduced context.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and comparison scope
+  - **Claim pointer** "compared to several existing methods"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which existing methods were compared, how they were selected, or whether they represent the current state of the art. The comparison may be limited or biased, and the reader cannot judge the significance of the improvement in context.
+  - **Why it matters** The value of a new method is assessed relative to established baselines. Without a clear description of the comparison set, the claim of improvement may be misleading or incomplete.
+  - **Resolution test** List the compared methods, their versions or implementations, and justify their selection. Include results for all methods on the same dataset and evaluation protocol.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "statistically significant improvement" is used without specifying the significance level or the statistical test, which is ambiguous.
+  - **Required correction** Specify the statistical test and significance threshold (e.g., p < 0.05) in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Resource availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions a web application and code repository but does not indicate whether the pretrained model weights or training data are available, which may limit reproducibility.
+  - **Required correction** State the availability of model weights and any restrictions on data or code access.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Claim of no explicit features
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that DR-BERT does not use "any explicit evolutionary or biophysical information" is strong, but the abstract does not clarify whether such information is implicitly encoded in the pretraining data or model architecture.
+  - **Required correction** Clarify whether the model input is solely the amino acid sequence and discuss any potential implicit biases from pretraining data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of performance improvement and mechanistic attribution cannot be evaluated from the provided material. R1-M3 is important but not blocking if the full manuscript provides adequate comparison details.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of a compact protein language model to disordered region prediction is a novel contribution, but the abstract does not demonstrate how it differs fundamentally from existing language model approaches in the field.
+  - Scientific importance: Disordered region annotation is a relevant problem in structural biology, and improved methods would be valuable. However, the significance of the improvement is not established.
+  - Interdisciplinary readership: The work bridges machine learning and protein biology, which could appeal to a broad audience, but the abstract lacks sufficient context for nonspecialists to appreciate the methodological novelty.
+  - Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological and statistical details is a major limitation.
+  - Readability for nonspecialists: The abstract is generally clear but uses terms like "protein language model" and "gold standard dataset" without explanation, which may hinder accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting idea, but the lack of quantitative results and methodological details prevents a supportive recommendation. The case would be strengthened by providing specific performance data, statistical analyses, and model details.
+
+## Risk / unsupported claims
+- The claim of statistically significant improvement over existing methods is unsupported without quantitative results or statistical details.
+- The attribution of performance to pretraining and contextual information is unsupported without ablation studies or mechanistic analysis.
+- The claim of not using explicit evolutionary or biophysical information is not verifiable from the abstract alone.
+- The generalizability of the method to diverse protein datasets is not addressed.

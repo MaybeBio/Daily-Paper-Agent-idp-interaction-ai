@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39578406",
+  "title": "Formation of multicompartment structures through aging of protein-RNA condensates.",
+  "authors": "Makasewicz, Katarzyna; Schneider, Timo N; Mathur, Prerit; Stavrakis, Stavros; deMello, Andrew J; Arosio, Paolo",
+  "journal": "Biophysical journal",
+  "published_date": "2024-11-23",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过实验与Cahn-Hilliard模拟揭示蛋白-RNA凝聚体老化自发形成多室结构（双乳液/核壳）的动力学机制，对象为相分离凝聚体且涉及蛋白-RNA互作，但方法为介观理论模拟而非AI/分子级物理模拟，机制建模深度中等。",
+  "abstract": "Cells can dynamically organize reactions through the formation of biomolecular condensates. These viscoelastic networks exhibit complex material properties and mesoscale architectures, including the ability to form multiphase assemblies. It was shown previously that condensates with complex architectures may arise at equilibrium in multicomponent systems or in condensates that were driven out of equilibrium by changes in external parameters such as temperature. In this study, we demonstrate that the aging of initially homogeneous protein-RNA condensates can spontaneously lead to the formation of kinetically arrested double-emulsion and core-shell structures without changes in external variables such as temperature or solution conditions. By combining time-resolved fluorescence-based experimental techniques with simulations based on the Cahn-Hilliard theory, we show that, as the protein-RNA condensates age, the decrease of the relative strength of protein-RNA interactions induces the release of RNA molecules from the dense phase. In condensates exceeding a critical size, aging combined with slow diffusion of the macromolecules trigger nucleation of dilute phase inside the condensates, which leads to the formation of double-emulsion structures. These findings illustrate a new mechanism of formation of multicompartment condensates.",
+  "abstract_zh": "细胞能够通过形成生物分子凝聚体（biomolecular condensates）来动态组织反应。这些粘弹性网络展现出复杂的材料特性和介观结构，包括形成多相组装体的能力。先前的研究表明，具有复杂结构的凝聚体可能在多组分系统中于平衡态下出现，或在外界参数（如温度）变化驱动下偏离平衡态的凝聚体中形成。在本研究中，我们证明，初始均匀的蛋白质-RNA凝聚体的老化过程可以自发导致动力学停滞的双乳液和核壳结构的形成，而无需改变温度或溶液条件等外部变量。通过结合基于时间分辨荧光的实验技术与基于Cahn-Hilliard理论的模拟，我们显示，随着蛋白质-RNA凝聚体的老化，蛋白质-RNA相互作用相对强度的降低诱导RNA分子从稠密相中释放。在超过临界尺寸的凝聚体中，老化与大分子缓慢扩散相结合，触发凝聚体内部稀相的成核，从而形成双乳液结构。这些发现阐明了一种多室凝聚体形成的新机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39578406/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39578406/",
+  "paper_page_path": "papers/pubmed/39578406/index.html"
+}

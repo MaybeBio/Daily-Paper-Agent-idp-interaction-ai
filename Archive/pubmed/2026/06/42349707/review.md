@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that the E3 ubiquitin ligase beta-TrCP targets nucleolin (NCL) for ubiquitination, that hypoxia induces liquid-liquid phase separation (LLPS) of NCL in the nucleus, and that NCL depletion impairs ribosome biogenesis and cardiomyocyte renewal, thereby hindering cardiac repair after myocardial infarction (MI). They further suggest beta-TrCP and NCL LLPS as potential therapeutic targets for MI.
+- **Visible evidence base** Methods named in the abstract include Ribo-Halo, Ribo-disome, AgNOR staining, co-immunoprecipitation, molecular docking, FRAP, and confocal imaging. Model systems are MI mice and hypoxic cells. Results described include an inverse correlation between beta-TrCP and NCL levels, a cytoplasmic interaction between beta-TrCP and NCL, hypoxia-induced LLPS transition of NCL in the nucleus, and impaired ribosome biogenesis and CM renewal upon NCL depletion.
+- **Missing materials affecting confidence** Full text, all figures and tables, statistical details, experimental replicates, controls, quantification methods, and any supplementary data. The abstract does not provide effect sizes, sample numbers, or significance values.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic link between beta-TrCP-mediated NCL ubiquitination, LLPS, and ribosome biogenesis in the context of MI. However, the claims are broad and the evidence base is only summarized, with no quantitative data or experimental details visible. The causal chain from beta-TrCP to NCL ubiquitination to LLPS to impaired ribosome biogenesis to reduced CM renewal is asserted but not demonstrated in the abstract. The therapeutic claim is speculative at this stage. The work may be of interest to cardiovascular biologists and researchers studying ribosome biogenesis or phase separation, but the current evidence as presented is insufficient to fully establish the proposed mechanism.
+- **Who would be interested in the results, and why** Cardiovascular researchers studying post-MI repair and cardiomyocyte regeneration would be interested in the potential role of NCL and ribosome biogenesis. Cell biologists studying liquid-liquid phase separation and its regulatory roles in stress responses would also find relevance. Additionally, investigators working on ubiquitin ligase substrates in cardiac pathology may be interested in beta-TrCP as a new regulator of NCL.
+- **Major strengths** The study addresses a clinically relevant problem, namely inadequate cardiomyocyte regeneration after MI. The combination of multiple orthogonal methods (Ribo-Halo, Ribo-disome, AgNOR, Co-IP, FRAP, confocal imaging) suggests a technically ambitious approach. The identification of a specific E3 ligase for NCL and the link to LLPS is a novel angle that could open new research directions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal evidence
+  - **Claim pointer** The abstract claims that beta-TrCP targets NCL and that NCL depletion mediated by beta-TrCP and LLPS formation is a key mechanism hindering cardiac repair post-MI.
+  - **Evidence pointer** Abstract results section; location not provided
+  - **Concern** The abstract states an inverse correlation between beta-TrCP and NCL levels and a functional interaction in the cytoplasm, but it does not provide direct evidence that beta-TrCP ubiquitinates NCL, nor that this ubiquitination is required for the observed NCL depletion. The causal link from beta-TrCP activity to NCL degradation to LLPS changes to impaired ribosome biogenesis is not established from the summarized data.
+  - **Why it matters** Without direct evidence of ubiquitination and a demonstration that blocking beta-TrCP rescues NCL levels and downstream phenotypes, the proposed mechanism remains correlative. The central claim of the paper depends on this causal chain.
+  - **Resolution test** Provide ubiquitination assays (e.g., in vitro ubiquitination, lysine mutants of NCL), rescue experiments with beta-TrCP knockdown or dominant-negative constructs, and show that NCL depletion phenocopies beta-TrCP overexpression and that beta-TrCP loss restores ribosome biogenesis and CM renewal.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** LLPS functional relevance
+  - **Claim pointer** The abstract claims that hypoxia induces LLPS transition of NCL in the nucleus and that this LLPS formation is part of the mechanism hindering cardiac repair.
+  - **Evidence pointer** Abstract results section; location not provided
+  - **Concern** The abstract reports an LLPS transition of NCL under hypoxia but does not show whether this LLPS is required for NCL depletion, for impaired ribosome biogenesis, or for reduced CM renewal. It is unclear whether LLPS is a cause, a consequence, or a bystander of NCL dysfunction.
+  - **Why it matters** The title emphasizes phase separation as a key modulator. If LLPS is not functionally linked to the downstream phenotypes, the central novelty of the paper is weakened.
+  - **Resolution test** Disrupt NCL LLPS (e.g., via mutations in predicted intrinsically disordered regions or treatment with LLPS-modulating agents) and test whether ribosome biogenesis and CM renewal are affected independently of NCL protein levels.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** The abstract claims that NCL depletion impaired ribosome biogenesis and CM renewal, and that beta-TrCP and NCL levels are inversely correlated in MI mice and hypoxic cells.
+  - **Evidence pointer** Abstract results section; location not provided
+  - **Concern** No quantitative data are provided. There are no effect sizes, statistical tests, sample sizes, or representative images described. The strength of the inverse correlation and the degree of impairment in ribosome biogenesis and CM renewal are not assessable.
+  - **Why it matters** Without quantitative support, the reader cannot evaluate the robustness or biological significance of the findings. This is particularly important for a mechanism proposed to be clinically relevant.
+  - **Resolution test** Provide statistical summaries with n numbers, p values or confidence intervals, and effect sizes for all key comparisons, including correlation coefficients for beta-TrCP and NCL levels.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model systems
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract methods section; location not provided
+  - **Issue** The abstract mentions MI mice and hypoxic cells but does not specify the cell type used for hypoxia experiments (e.g., primary cardiomyocytes, cell lines) or the time points examined.
+  - **Required correction** Specify the cell type and the duration of hypoxia and post-MI time points in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Therapeutic claim
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract conclusion; location not provided
+  - **Issue** The abstract states that the study introduces a potential therapeutic target for MI, but no intervention experiments (e.g., beta-TrCP inhibition in vivo) are described.
+  - **Required correction** Soften the therapeutic claim or add a sentence indicating that this is a hypothesis-generating finding requiring further validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** LLPS description
+  - **Evidence pointer** Abstract results section; location not provided
+  - **Issue** The phrase "hypoxia induced LLPS transition of NCL in nuclear" is grammatically awkward and lacks mechanistic detail. It is unclear whether this refers to NCL forming new condensates or relocating into existing ones.
+  - **Required correction** Rephrase to clarify the nature of the LLPS transition, for example, "hypoxia promoted NCL phase separation into nuclear condensates."
+- **Technical failings that need to be addressed before the case is established** Direct evidence of beta-TrCP-mediated NCL ubiquitination is missing. Functional linkage between NCL LLPS and downstream phenotypes is not shown. Quantitative data with statistical support are absent from the abstract. The causal chain from beta-TrCP to NCL depletion to LLPS to impaired ribosome biogenesis to reduced CM renewal is not demonstrated.
+- **Assessment against Nature-style criteria** Originality: The combination of beta-TrCP, NCL, and LLPS in the context of MI is novel and not previously reported to my knowledge. Scientific importance: The topic is relevant to cardiac repair and regeneration, which is a high-priority area, but the clinical significance is not yet established. Interdisciplinary readership: The work bridges cardiovascular biology, ubiquitin signaling, and phase separation, which could attract a broad audience if the mechanism is rigorously demonstrated. Technical soundness: The methods listed are appropriate, but the abstract does not allow assessment of execution quality, controls, or reproducibility. Readability for nonspecialists: The abstract is concise but uses specialized terminology without sufficient context; the mechanistic logic is not fully transparent.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the direct causal and quantitative evidence needed to support the central claims. I would be supportive if the full manuscript provides ubiquitination assays, functional LLPS perturbation experiments, and robust statistical data.
+
+## Risk / unsupported claims
+- The claim that beta-TrCP "targets" NCL for ubiquitination is unsupported in the abstract; only an interaction and inverse correlation are mentioned.
+- The claim that LLPS formation is a mechanism hindering cardiac repair is unsupported; no functional data linking LLPS to phenotypes are provided.
+- The claim that the study introduces a potential therapeutic target is unsupported; no intervention or rescue experiments are described.
+- The general statement that NCL depletion impairs ribosome biogenesis and CM renewal is not quantifiable from the abstract.

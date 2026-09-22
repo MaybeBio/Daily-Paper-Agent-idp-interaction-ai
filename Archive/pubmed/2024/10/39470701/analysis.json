@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39470701",
+  "title": "MOBIDB in 2025: integrating ensemble properties and function annotations for intrinsically disordered proteins.",
+  "authors": "Piovesan, Damiano; Del Conte, Alessio; Mehdiabadi, Mahta; Aspromonte, Maria Cristina; Blum, Matthias; Tesei, Giulio; von Bulow, Soren; Lindorff-Larsen, Kresten; Tosatto, Silvio C E",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-10-29",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍MobiDB数据库2025版更新，整合无序蛋白的ensemble性质与功能注释，虽以无序蛋白为对象但无PPI机制或AI/物理建模方法，仅作为资源工具提供数据支持。",
+  "abstract": "The MobiDB database (URL: https://mobidb.org/) aims to provide structural and functional information about intrinsic protein disorder, aggregating annotations from the literature, experimental data, and predictions for all known protein sequences. Here, we describe the improvements made to our resource to capture more information, simplify access to the aggregated data, and increase documentation of all MobiDB features. Compared to the previous release, all underlying pipeline modules were updated. The prediction module is ten times faster and can detect if a predicted disordered region is structurally extended or compact. The PDB component is now able to process large cryo-EM structures extending the number of processed entries. The entry page has been restyled to highlight functional aspects of disorder and all graphical modules have been completely reimplemented for better flexibility and faster rendering. The server has been improved to optimise bulk downloads. Annotation provenance has been standardised by adopting ECO terms. Finally, we propagated disorder function (IDPO and GO terms) from the DisProt database exploiting sequence similarity and protein embeddings. These improvements, along with the addition of comprehensive training material, offer a more intuitive interface and novel functional knowledge about intrinsic disorder.",
+  "abstract_zh": "MobiDB数据库（网址：https://mobidb.org/）旨在提供关于内在蛋白质无序性的结构和功能信息，整合来自文献、实验数据以及所有已知蛋白质序列的预测注释。在此，我们描述了为捕捉更多信息、简化聚合数据访问以及增加所有MobiDB功能文档而对我们资源所做的改进。与上一版本相比，所有底层流水线模块均已更新。预测模块速度提升十倍，并能检测预测的无序区域是结构延伸型还是紧凑型。PDB组件现在能够处理大型冷冻电镜结构，从而增加了处理条目的数量。条目页面已重新设计，以突出无序性的功能方面，所有图形模块已完全重新实现，以提高灵活性和渲染速度。服务器已优化以改善批量下载。注释来源已通过采用ECO术语实现标准化。最后，我们利用序列相似性和蛋白质嵌入，从DisProt数据库传播了无序功能（IDPO和GO术语）。这些改进，加上全面培训材料的添加，提供了更直观的界面和关于内在无序性的新功能知识。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39470701/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39470701/",
+  "paper_page_path": "papers/pubmed/39470701/index.html"
+}

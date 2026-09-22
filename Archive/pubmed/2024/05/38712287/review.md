@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or results sections were provided
+- **Shared manuscript claim summary** The authors use atomistic molecular dynamics simulations to study three intrinsically disordered membrane anchors from Rheb, RhoA, and DiRas3 small GTPases in model membranes. They report that sequence-lipid complementarity determines conformational plasticity, that electrostatic interactions between anionic lipids and basic residues generate semi-stable conformational sub-states, and that polybasic domains in these IDRs segregate anionic lipids locally while excluding other lipids.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, convergence criteria, or quantitative results are available
+- **Missing materials affecting confidence** Full manuscript, all figures, simulation methodology, system construction details, force field choices, simulation lengths, replicate information, analysis protocols, and quantitative lipid sorting data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of lipidated IDR membrane interactions for three small GTPases. The claims are internally coherent and align with prior work on Ras family membrane anchoring. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the simulations, the statistical robustness of the lipid sorting observations, or the biological significance of the reported conformational sub-states. The central claims are reasonable but currently not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying Ras superfamily GTPase membrane targeting and signaling, computational biophysicists interested in IDR-membrane interactions, and cell biologists investigating how lipid composition and protein sequence jointly regulate membrane organization. The comparative approach across three GTPases with different physiological target membranes could provide useful general principles for lipidated IDR behavior.
+- **Major strengths** The comparative design across three GTPases with distinct membrane targets is a strength. The focus on lipid sorting by polybasic domains addresses a mechanistically important and understudied aspect of IDR function. The claim that electrostatic interactions generate semi-stable conformational sub-states is a testable and mechanistically meaningful hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "complementarity between lipidated IDR sequence and target membrane lipid composition is a determinant of conformational plasticity."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative measure of conformational plasticity, no definition of how complementarity was assessed, and no comparison across the three systems that would substantiate this claim. Without simulation details such as system composition, simulation length, replica counts, and analysis metrics, the claim cannot be evaluated.
+  - **Why it matters** This is the central mechanistic claim of the study. If the relationship between sequence-lipid complementarity and conformational plasticity is not rigorously quantified, the primary conclusion is unsupported.
+  - **Resolution test** Provide quantitative metrics of conformational plasticity (e.g., radius of gyration distributions, secondary structure propensities, principal component analysis) for each IDR in each membrane, with statistical comparisons across systems and clear definitions of sequence-lipid complementarity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "electrostatic interactions between anionic lipids and basic residues on IDRs generate semi-stable conformational sub-states, and a lack of these residues leads to greater conformational diversity."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The concept of "semi-stable conformational sub-states" requires a defined clustering or state-identification methodology. The abstract does not specify how sub-states were identified, how stability was assessed, or what statistical confidence supports the distinction between systems with and without basic residues. The comparison between Rheb, RhoA, and DiRas3 is mentioned but not quantified.
+  - **Why it matters** This claim distinguishes the study from prior work and is likely a key novel contribution. Without a rigorous state-identification protocol and statistical validation, the claim of distinct conformational behavior is not established.
+  - **Resolution test** Describe the clustering algorithm, state definitions, transition analysis, and free energy estimates. Provide occupancy times and populations for each sub-state with error bars, and demonstrate that the differences between systems are statistically significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "small GTPase IDRs with a polybasic domain alter local lipid composition by segregating anionic membrane lipids, and, in some cases, excluding other lipids from their immediate proximity in favor of anionic lipids."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** Lipid sorting claims require careful analysis of local lipid enrichment or depletion relative to bulk composition, with appropriate statistical treatment. The abstract provides no quantitative enrichment factors, no definition of "immediate proximity," and no information on how many independent simulations or time points were used to establish the sorting effect. The phrase "in some cases" suggests variability that is not explained.
+  - **Why it matters** Lipid segregation by IDRs is a potentially important mechanism for membrane organization and signaling. If the effect is not robustly quantified and shown to be statistically significant, the claim is anecdotal rather than established.
+  - **Resolution test** Provide radial distribution functions or enrichment factors for each lipid type around the IDR, with bulk composition normalization, error estimates from replicate simulations, and statistical tests comparing systems with and without polybasic domains.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "conformational plasticity" is used without definition. Nonspecialist readers may not know whether this refers to backbone flexibility, ensemble breadth, or something else.
+  - **Required correction** Define conformational plasticity explicitly in the abstract or use a more concrete term such as "ensemble breadth" or "backbone flexibility" with a brief operational definition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextual framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions that IDR-membrane interactions affect signaling in RAS proteins but does not state how the findings for Rheb, RhoA, and DiRas3 extend or challenge this prior work. The novelty relative to existing studies on Ras family IDRs is not articulated.
+  - **Required correction** Add one or two sentences in the abstract that explicitly state what new insight the comparative study provides beyond prior work on Ras family IDR-membrane interactions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that model membranes "represent their physiological target membranes" but does not specify the lipid compositions used or how they were chosen. This limits the reader's ability to assess the physiological relevance of the simulations.
+  - **Required correction** Briefly state the lipid compositions used for each membrane model in the abstract or indicate that full details are in the methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. All three major concerns relate to the absence of quantitative evidence and methodological detail in the abstract. The claims are plausible but cannot be verified without the full manuscript.
+- **Assessment against Nature-style criteria** Originality: The comparative approach across three GTPases with different membrane targets is somewhat original, but the general concept of IDR-lipid interactions in Ras family proteins is established. Scientific importance: Potentially moderate to high if the lipid sorting and conformational sub-state claims are robust, as these could inform understanding of membrane organization in signaling. Interdisciplinary readership: The topic bridges computational biophysics and cell signaling, which could attract a broad readership, but the abstract currently lacks the quantitative detail needed to engage computational specialists. Technical soundness: Not assessable from the abstract alone; the absence of simulation parameters, statistical analysis, and validation is a significant limitation. Readability for nonspecialists: The abstract is generally clear but uses undefined technical terms such as "conformational plasticity" and "semi-stable conformational sub-states" that may hinder accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a coherent and potentially valuable study, but the central claims require quantitative support and methodological transparency that are not visible in the supplied material. A full manuscript review would be needed to determine whether the technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim that sequence-lipid complementarity determines conformational plasticity is unsupported without quantitative metrics and statistical comparisons.
+- The claim of semi-stable conformational sub-states generated by electrostatic interactions is unsupported without a defined state-identification methodology and population analysis.
+- The claim of lipid segregation by polybasic domains is unsupported without enrichment factors, bulk normalization, and statistical tests.
+- The physiological relevance of the membrane models is not assessable because lipid compositions are not specified in the abstract.
+- The relationship between the observed conformational behavior and signaling outcomes is asserted but not demonstrated in the abstract.

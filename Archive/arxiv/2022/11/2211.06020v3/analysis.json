@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2211.06020v3",
+  "title": "Current Topics, Methods, and Challenges in the Modelling of Intrinsically Disordered Protein Dynamics",
+  "authors": "Rickie Xian; Sarah Rauscher",
+  "journal": "",
+  "published_date": "2022-11-11",
+  "window": {
+    "start": "2022-11-07",
+    "end": "2022-11-13"
+  },
+  "score": 7,
+  "one_liner_zh": "综述了分子动力学模拟建模无序蛋白动态的方法、挑战与解决方案，聚焦IDP对象与物理模拟方法，但未涉及具体PPI互作机制建模。",
+  "abstract": "The paradigm that the primary amino acid sequence prescribes structure and thus function has for a long time been central to the understanding of protein science. Though the theory is supported by the behaviour of most structured proteins, it loses much of its applicability when discussing intrinsically disordered proteins (IDPs). These peculiar proteins, whose tertiary structure constantly interconverts between a series of energetically favourable conformations, are the root of many current, pressing scientific mechanisms. Many biological processes that are still yet to be elucidated--the mechanisms of of protein folding, ligand binding, and general protein dynamics--involve IDPs. Because most dynamic protein events are on such short time scales, using experimental methods to observe their action often times doesn't yield useful data. As well, the data resulting from scientific techniques developed for structured, \"static proteins\" must be presented in conjunction with data from methods tailored specifically to IDPs in order to have significance. A method that models IDPs with shocking accuracy is computer simulation, particularly Molecular Dynamics (MD) simulations. With computational power only recently increasing enough to encompass the timescale needed for protein dynamics, MD simulations are still fairly novel in their implementations. This paper will discuss and consolidate the current methods, problems, and solutions of using MD simulation to model IDPs. Which simulation parameters can be altered to more precisely describe observed biological behaviour? How can one accurately use MD simulation to answer questions that, when using experimental methods, have no answer? How can the data resulting from MD simulation be analyzed and quantified to support the conclusions being drawn?",
+  "abstract_zh": "长期以来，主要氨基酸序列决定结构进而决定功能的范式一直是理解蛋白质科学的核心。尽管这一理论得到了大多数结构化蛋白质行为的支持，但在讨论 intrinsically disordered proteins (IDPs)（固有无序蛋白）时，其适用性大打折扣。这些特殊蛋白质的三级结构在一系列能量有利的构象之间不断转换，是许多当前紧迫科学机制的根源。许多尚未阐明的生物过程——如蛋白质折叠、配体结合和一般蛋白质动力学的机制——都涉及IDPs。由于大多数动态蛋白质事件发生在极短的时间尺度上，使用实验方法观察其行为往往无法产生有用数据。此外，为结构化“静态蛋白质”开发的科学技术所得数据，必须与专门针对IDPs的方法所得数据结合呈现，才具有意义。一种以惊人准确性模拟IDPs的方法是计算机模拟，特别是分子动力学 (Molecular Dynamics, MD) 模拟。由于计算能力直到最近才足以覆盖蛋白质动力学所需的时间尺度，MD模拟在实施中仍相对新颖。本文旨在讨论并整合使用MD模拟建模IDPs的当前方法、问题和解决方案。哪些模拟参数可以调整以更精确地描述观察到的生物行为？如何准确使用MD模拟来回答那些实验方法无法解答的问题？如何分析和量化MD模拟产生的数据，以支持所提出的结论？",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2211.06020v3",
+  "source_url": "https://arxiv.org/abs/2211.06020v3",
+  "paper_page_path": "papers/arxiv/2211.06020v3/index.html"
+}

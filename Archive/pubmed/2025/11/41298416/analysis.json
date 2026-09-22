@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41298416",
+  "title": "Optimized protein-water interactions and torsional refinements yield balanced atomistic protein force fields.",
+  "authors": "Phan, Tien Minh; Mohanty, Priyesh; Mittal, Jeetain",
+  "journal": "Nature communications",
+  "published_date": "2025-11-27",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发并验证了优化蛋白-水相互作用与骨架扭转采样的原子力场，能同时稳定折叠蛋白和蛋白复合物并准确模拟IDP构象，虽非直接研究IDP介导的PPI机制，但为无序蛋白互作的MD模拟提供了关键方法基础。",
+  "abstract": "All-atom molecular dynamics (MD) simulations based on physics-based force fields serve as an essential complement to experiments for investigating protein structure, dynamics, and interactions. Despite significant advances in force field parameterization, achieving a consistent balance of molecular interactions that stabilize folded proteins while accurately capturing the conformational dynamics of intrinsically disordered polypeptides in solution remains challenging. In this work, we introduce two refined force fields which incorporate either a selective upscaling of protein-water interactions or targeted improvements to backbone torsional sampling: (i) amber ff03w-sc, and (ii) amber ff99SBws-STQ'. Extensive validation against small-angle X-ray scattering (SAXS) and nuclear magnetic resonance (NMR) spectroscopy observables revealed that both force fields accurately reproduced the chain dimensions and secondary structure propensities of IDPs. Importantly, both force fields also maintained the stability of single-chain folded proteins and protein-protein complexes over microsecond-timescale simulations. Overall, our refinement strategies result in transferable force fields with improved accuracy for simulating diverse protein systems, ranging from folded domains to IDPs and protein-protein complexes.",
+  "abstract_zh": "基于物理力场的全原子分子动力学（MD）模拟，作为实验的重要补充，用于研究蛋白质结构、动态及相互作用。尽管力场参数化取得了显著进展，但在稳定折叠蛋白质的分子相互作用与准确捕捉溶液中 intrinsically disordered polypeptides（IDPs）的构象动态之间实现一致平衡，仍具挑战性。在本工作中，我们引入了两种精炼力场，分别通过选择性增强蛋白质-水相互作用或针对主链扭转采样的定向改进：(i) amber ff03w-sc，及(ii) amber ff99SBws-STQ'。针对小角X射线散射（SAXS）和核磁共振（NMR）光谱观测值的广泛验证表明，两种力场均能准确重现IDPs的链尺寸和二级结构倾向。重要的是，在微秒时间尺度的模拟中，两种力场也维持了单链折叠蛋白质及蛋白质-蛋白质复合物的稳定性。总体而言，我们的精炼策略产生了具有更高准确性的可转移力场，适用于模拟从折叠结构域到IDPs及蛋白质-蛋白质复合物的多样蛋白质系统。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41298416/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41298416/",
+  "paper_page_path": "papers/pubmed/41298416/index.html"
+}

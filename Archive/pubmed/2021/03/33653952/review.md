@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract and Significance section only
+- **Assessment boundary** Claims presented in the Significance section and the abstract-level content of the manuscript
+- **Shared manuscript claim summary** The authors report discovery of mesoscopic p53-rich clusters as a distinct class of biological condensate, and propose a two-step mechanism where these clusters host nucleation of mutant p53 amyloid fibrils, establishing a new biophysical paradigm for assembly of ordered biological solids.
+- **Visible evidence base** Significance section text; no figures, tables, methods, or results sections provided
+- **Missing materials affecting confidence** Full manuscript text, experimental methods, quantitative data, figures, statistical analyses, and any supporting information are not available for assessment
+
+## Reviewer
+- **Overall assessment** The Significance section presents a conceptually interesting hypothesis linking mesoscopic protein clusters to amyloid nucleation via a two-step mechanism. However, the provided material is insufficient to evaluate the validity of the central claims. No experimental evidence, methodological details, or quantitative results are visible. The claim of a "new class of biological condensate" and the proposed nucleation paradigm require substantial supporting data that are not accessible in the supplied scope. The work may be of interest to the biophysics and protein aggregation communities, but the case is not established from the provided evidence alone.
+- **Who would be interested in the results, and why** Researchers studying protein phase separation, amyloid formation, and nucleation theory would find the proposed two-step mechanism relevant. Those investigating p53 biology and its role in cancer may also be interested in the pathological aggregation pathway. The broader community working on biological condensates and ordered protein assembly could benefit from the conceptual framework, provided the experimental support is robust.
+- **Major strengths** The conceptual framing is clear and potentially impactful, linking nonclassical nucleation concepts to intracellular amyloid formation. The proposed distinction between mesoscopic clusters and other aggregate types offers a testable hypothesis. The significance statement is well written and accessible to a broad scientific audience.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The manuscript claims discovery of mesoscopic p53-rich clusters as a new class of biological condensate distinct from amorphous aggregates, ordered aggregates, and dense liquids.  
+  - **Evidence pointer** Significance section; location not provided  
+  - **Concern** The provided material contains no experimental data, imaging, biophysical characterization, or comparative analysis to support the claim that these clusters are distinct from previously described condensates or aggregates.  
+  - **Why it matters** The central novelty of the work rests on establishing this distinction. Without quantitative evidence such as size distributions, composition analysis, and comparison to known aggregate states, the claim is unsupported.  
+  - **Resolution test** Provide experimental data showing cluster size, composition, and physical properties, with direct comparison to amorphous aggregates, ordered fibrils, and dense liquid phases under identical conditions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The manuscript claims a two-step mechanism where mesoscopic clusters host the nucleation of p53 amyloid fibrils.  
+  - **Evidence pointer** Significance section; location not provided  
+  - **Concern** No kinetic, structural, or microscopic evidence is presented to demonstrate that fibril nucleation occurs within the clusters or that the clusters are necessary intermediates.  
+  - **Why it matters** The proposed mechanism is the core scientific contribution. Without time-resolved data, colocalization studies, or nucleation rate measurements, the causal relationship between clusters and fibril formation cannot be assessed.  
+  - **Resolution test** Provide time-resolved microscopy or scattering data showing fibril appearance within clusters, and kinetic analyses demonstrating that nucleation rates correlate with cluster properties.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability  
+  - **Claim pointer** The manuscript claims this finding establishes a new biophysical paradigm for assembly of tubules, filaments, sickle cell polymers, amyloids, and crystals.  
+  - **Evidence pointer** Significance section; location not provided  
+  - **Concern** The generalization to multiple other biological solids is stated without any comparative evidence or theoretical framework connecting the p53 system to those systems.  
+  - **Why it matters** Overreach in the significance statement could mislead readers into assuming broad applicability without demonstrated support.  
+  - **Resolution test** Provide either experimental evidence in at least one additional system or a rigorous theoretical model showing how the two-step mechanism applies generally.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "mesoscopic"  
+  - **Evidence pointer** Significance section; location not provided  
+  - **Issue** The term "mesoscopic" is used without a size range or physical definition, which may confuse readers unfamiliar with the specific length scale intended.  
+  - **Required correction** Define the size range and the physical basis for calling these clusters mesoscopic, such as 100 nm to 1 micron or relative to molecular dimensions.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Protein-rich clusters"  
+  - **Evidence pointer** Significance section; location not provided  
+  - **Issue** The composition of the clusters is not specified beyond being protein-rich, leaving ambiguity about whether other biomolecules are present.  
+  - **Required correction** Clarify whether the clusters contain only p53 or include other components, and if so, specify their identities and proportions.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Comparison to "dense liquids"  
+  - **Evidence pointer** Significance section; location not provided  
+  - **Issue** The distinction from dense liquids is asserted but not explained, and the physical state of the clusters is not defined.  
+  - **Required correction** Provide a brief description of how the clusters differ from dense liquid phases, such as viscosity, internal structure, or reversibility.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking because the provided material lacks any experimental or theoretical evidence to support the central claims of cluster discovery, two-step nucleation, and generalizability.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The conceptual idea of mesoscopic clusters hosting amyloid nucleation is potentially original, but originality cannot be confirmed without full literature comparison and experimental novelty assessment.  
+  - **Scientific importance** If validated, the work could have high importance for understanding protein aggregation and condensate biology, but the current evidence does not establish this importance.  
+  - **Interdisciplinary readership** The topic bridges biophysics, cell biology, and cancer biology, and the writing is accessible, suggesting broad appeal if the science is sound.  
+  - **Technical soundness** Not assessable from the provided material; no methods, data, or analyses are visible.  
+  - **Readability for nonspecialists** The Significance section is clearly written and avoids excessive jargon, which is a positive feature.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is intriguing, but the absence of any experimental or theoretical support in the supplied material prevents a supportive recommendation. A full manuscript with robust data would be required to assess the claims properly.
+
+## Risk / unsupported claims
+- The existence of mesoscopic p53-rich clusters as a distinct class of biological condensate is unsupported in the provided material.
+- The two-step nucleation mechanism where clusters host fibril formation is unsupported.
+- The claim that this finding establishes a new paradigm for assembly of multiple biological solids is unsupported and appears overreaching without comparative evidence.
+- The distinction between the reported clusters and previously known aggregate or condensate types is not assessable.

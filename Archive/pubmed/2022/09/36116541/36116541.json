@@ -1,0 +1,212 @@
+{
+  "identity": {
+    "pmid": "36116541",
+    "doi": "10.1016/j.jmb.2022.167831",
+    "title": "AlphaFold and Structural Mass Spectrometry Enable Interrogations on the Intrinsically Disordered Regions in Cyanobacterial Light-harvesting Complex Phycobilisome."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins/regions (IDPRs) are a very large and functionally important class of proteins that participate in weak multivalent interactions in protein complexes. They are recalcitrant for interrogations using X-ray crystallography and cryo-EM. The IDPRs observed at the interface of the photosynthetic pigment protein complexes (PPCs) remain much less clear, e.g., the major cyanobacterial light-harvesting complex (PBS) contains an unstructured PB-loop insertion in the phycocyanobilin domain (PB domain) of ApcE (the largest polypeptide in PBS). Here, a joint platform is built to probe such structural domains. This platform is characterized by two-round progressive justifications of in silico models by using the structural mass spectrometry data. First, the AlphaFold-generated 3D structure of the PB domain (containing PB-loop) was justified in the context of PBS. Second, docking the AlphaFold-generated ApcG (a ligand) into the first-step justified structure (a receptor). The final ligand-receptor complex was then subjected to a second-round justification, again, by using unequivocal isotopically-encoded cross-links identified in LC-MS/MS. This work reveals a full-length PB-loop structure modelled in the PBS basal cylinder, free from any spatial conflicts against the other subunits in PBS. The structure of PB domain highlights the close associations of the intrinsically disordered PB-loop with its binding partners in PBS, including ApcG, another IDPR. The PB-loop region involved in the binding of photosystem II (PSII) is also discussed in the context of excitation energy transfer regulation. This work calls attention to the highly disordered, yet interrogatable interface between the light-harvesting antenna complexes and the reaction centers.",
+    "keywords": [
+      "AlphaFold",
+      "PB-loop",
+      "chemical cross-linking",
+      "mass spectrometry",
+      "phycobilisome"
+    ],
+    "mesh_terms": [
+      "Chromatography, Liquid",
+      "*Cyanobacteria/enzymology",
+      "Ligands",
+      "*Phycobilisomes/chemistry",
+      "Tandem Mass Spectrometry",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Folding",
+      "Protein Domains",
+      "Crystallography, X-Ray"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Haijun"
+      ],
+      "short_names": [
+        "Liu H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biology Washington University in St. Louis, St. Louis, MO 63130, USA. Electronic address: liuhaijun@wustl.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Haijun",
+        "short_name": "Liu H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology Washington University in St. Louis, St. Louis, MO 63130, USA. Electronic address: liuhaijun@wustl.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2022 Nov 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/19 06:00",
+    "fetched_at": "2026-09-20 15:14:51"
+  },
+  "links": {
+    "cites": [
+      "41819263",
+      "40996466",
+      "40731978",
+      "38409704",
+      "38268190",
+      "36907321",
+      "36503929"
+    ],
+    "refs": [],
+    "similar": [
+      "36116541",
+      "36943676",
+      "38801856",
+      "9799114",
+      "30414413",
+      "26957606",
+      "33523959",
+      "24407142",
+      "31518567",
+      "29464557",
+      "25998682",
+      "31015331",
+      "34171163",
+      "24335507",
+      "34515634",
+      "34535665",
+      "36710009",
+      "27121945",
+      "39169020",
+      "27564010",
+      "28185041",
+      "37972281",
+      "25296757",
+      "29045394",
+      "36045294",
+      "36922595",
+      "28078551",
+      "31799708",
+      "29391123",
+      "28365856",
+      "34062150",
+      "15977057",
+      "25893897",
+      "26848988",
+      "35715389",
+      "14636046",
+      "23941594",
+      "35609776",
+      "21036140",
+      "31421078",
+      "20230507",
+      "24550276",
+      "34903149",
+      "11590154",
+      "24727864",
+      "28365882",
+      "8188669",
+      "26388233",
+      "17468217",
+      "36859522",
+      "12369631",
+      "39446390",
+      "28542288",
+      "34933453",
+      "11779550",
+      "39038807",
+      "23912807",
+      "32076914",
+      "22172739",
+      "24288334",
+      "22582961",
+      "26498711",
+      "25286841",
+      "28253354",
+      "28780862",
+      "11518716",
+      "34842241",
+      "38747396",
+      "15907691",
+      "19067963",
+      "30820745",
+      "38579990",
+      "26921809",
+      "32076272",
+      "29982297",
+      "8246846",
+      "38012412",
+      "36768613",
+      "32045581",
+      "22634762",
+      "31306623",
+      "37739300",
+      "37407580",
+      "38407779",
+      "31029593",
+      "37626310",
+      "6802826",
+      "1460543",
+      "25905572",
+      "10428952",
+      "17922214",
+      "35302607",
+      "2107546",
+      "23546881",
+      "36982707",
+      "26669441",
+      "28872312",
+      "23583332",
+      "15147696",
+      "31139867"
+    ],
+    "review": [
+      "36116541",
+      "31518567",
+      "15977057",
+      "19067963",
+      "29982297",
+      "8246846",
+      "36768613",
+      "32045581",
+      "31306623",
+      "23583332"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(22)00451-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

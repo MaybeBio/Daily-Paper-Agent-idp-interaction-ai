@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, and materials and methods. No figures or supplementary data were provided for review.
+- **Assessment boundary** The review is limited to the claims and evidence as presented in the text. Experimental details, figure contents, and supplementary tables are referenced but not independently verifiable from the provided material.
+- **Shared manuscript claim summary** The manuscript identifies TNK1 as a JAK-independent activator of STAT signaling, particularly STAT1, through direct phosphorylation at canonical JAK sites. The authors propose a mechanism involving 14-3-3-regulated formation of kinase-active TNK1 condensates that compartmentalize STAT1 interactions. They further demonstrate that TNK1 inhibition or deletion reduces STAT1 activation and ameliorates colitis in a mouse model, suggesting TNK1 as a therapeutic target for inflammatory bowel disease.
+- **Visible evidence base** Text descriptions of results, including references to Figures 1-7, Supplemental Figures S1-S6, Supplemental Tables S1-S3, and Supplemental Movies S1-S3. Materials and methods sections for cell culture, mutagenesis, immunoprecipitation, Western blot, siRNA, phospho-tyrosine proteomics, co-IP proteomics, RNA-seq, mouse models, and molecular dynamics simulations.
+- **Missing materials affecting confidence** All figures, supplementary figures, tables, and movies are not provided. Quantitative data, statistical analyses, and full proteomics/RNA-seq results are not accessible. This significantly limits the ability to assess the robustness of the claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and understudied area: JAK-independent STAT activation. The identification of TNK1 as a direct STAT kinase, with a proposed regulatory mechanism involving 14-3-3 and condensate formation, is potentially novel and of broad interest. However, the current text, without access to the figures and supplementary data, does not allow for a full evaluation of the evidence. Several claims, particularly those regarding the multiomics approach, the specificity of TNK1 for STATs, and the in vivo efficacy of the inhibitor, require careful scrutiny of the data. The molecular dynamics simulations, as described, appear preliminary and may not strongly support the mechanistic model. The manuscript is well-written and logically structured, but the evidence base is incomplete from the provided material.
+- **Who would be interested in the results, and why** Researchers in signal transduction, particularly those studying STAT biology and JAK-STAT signaling. The work is also relevant to the inflammation and inflammatory bowel disease communities, as it identifies a potential new therapeutic target. Additionally, those interested in kinase biology, protein condensates, and 14-3-3-mediated regulation would find this study of interest.
+- **Major strengths** The study addresses a significant gap in the field by identifying a JAK-independent pathway for STAT activation. The multiomics approach is comprehensive and appropriate for identifying substrates and interactors. The combination of in vitro, cell-based, and in vivo experiments is a strength. The proposed mechanism involving 14-3-3-regulated condensate formation is conceptually interesting and testable.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence quality and reproducibility
+    - **Claim pointer** The claim that TNK1 directly phosphorylates STATs at canonical JAK sites is central to the paper.
+    - **Evidence pointer** Figure 3K, Supplemental Figure S3B-F, "In vitro kinase assay" in Materials and Methods
+    - **Concern** The in vitro kinase assay is described using immunoprecipitated FLAG-TNK1 and recombinant STATs. However, the text does not specify the purity of the kinase preparation, the concentration of ATP used, or whether the assay was performed with a kinase-dead control (K148R) to demonstrate specificity. The claim that ACK1 shows little activity is based on a single experiment without clear quantification.
+    - **Why it matters** Direct phosphorylation is the foundational claim of the paper. If the assay is not rigorously controlled, the conclusion that TNK1 is a direct STAT kinase is not established. The lack of a kinase-dead control in the described assay is a critical omission.
+    - **Resolution test** The authors must show that the kinase-dead TNK1 (K148R) does not phosphorylate STATs in the same assay, and provide quantitative data (e.g., from multiple replicates) for both TNK1 and ACK1 activity. The assay should be described with sufficient detail to be reproduced.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence quality and reproducibility
+    - **Claim pointer** The claim that TNK1 inhibition with TP5801 ameliorates DSS-induced colitis and blocks STAT1 activation in the colon.
+    - **Evidence pointer** Figure 7A-K, Supplemental Figure S6B, "Mouse models" and "In vivo treatment with TNK1 inhibitor (TP5801)" in Materials and Methods
+    - **Concern** The in vivo experiments are described only in text. Key details are missing, including the number of mice per group, the statistical tests used, the specific metrics for "colitis severity scores," and the specificity of TP5801. The claim that the effect is "on-target" is supported by the TNK1 knockout data, but the inhibitor data alone could be confounded by off-target effects.
+    - **Why it matters** The therapeutic potential of TNK1 inhibition is a major conclusion. Without proper statistical reporting and a clear demonstration of on-target specificity (e.g., through a rescue experiment or a structurally distinct inhibitor), the claim is not fully supported.
+    - **Resolution test** The authors must provide full details of the mouse experiments, including group sizes, statistical methods, and all measured parameters. They should also discuss the selectivity of TP5801 and ideally show that the inhibitor does not affect STAT phosphorylation in TNK1-knockout mice.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Conceptual model and mechanistic support
+    - **Claim pointer** The claim that 14-3-3 binding inhibits the formation of kinase-active TNK1 condensates, which are required for STAT1 phosphorylation.
+    - **Evidence pointer** Figures 4E-J, 5A-G, Supplemental Figure S4, "Molecular dynamics" and "All-atom molecular dynamics simulations" in Materials and Methods
+    - **Concern** The model is based on correlative observations: 14-3-3 binding-deficient mutants form condensates and show increased STAT1 phosphorylation. The molecular dynamics simulations are described as showing reduced flexibility of the PRR upon 14-3-3 binding, but the simulations are short (50 ns) and use a truncated 100-amino-acid region. This is a weak test of the model. The functional requirement of condensates for STAT1 phosphorylation is not directly tested (e.g., by disrupting condensates with 1,6-hexanediol, which is mentioned but not shown to be specific).
+    - **Why it matters** The proposed mechanism is a key part of the paper's novelty. If the link between condensate formation and STAT1 phosphorylation is not causal, the model is weakened.
+    - **Resolution test** The authors should provide more direct evidence for causality, such as using an optogenetic tool to induce TNK1 condensates in the absence of 14-3-3 loss, or showing that a non-condensable TNK1 mutant (e.g., with a disrupted PRR) cannot phosphorylate STAT1 even when 14-3-3 binding is ablated. The MD simulations should be extended or supplemented with experimental validation of PRR flexibility.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity and completeness
+    - **Affected element** Figure 1A
+    - **Evidence pointer** "Fig. 1A" in Results
+    - **Issue** The text states that TP5801 "abolishes most of their global phospho-tyrosine signal," but the figure is not provided. It is unclear if this is a quantitative or qualitative assessment.
+    - **Required correction** Clarify the quantification method and provide the data in the figure or legend.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Clarity and completeness
+    - **Affected element** Figure 1C
+    - **Evidence pointer** "Fig. 1C" in Results
+    - **Issue** The text describes a comparison of the MS-identified motifs with a kinase library, but the statistical method for determining the "most significant match" is not described.
+    - **Required correction** Provide details of the statistical test used for the motif enrichment analysis.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Clarity and completeness
+    - **Affected element** Figure 3D-E
+    - **Evidence pointer** "Fig. 3D,E" in Results
+    - **Issue** The text mentions that JAK3 is not expressed in the cells, but the evidence for this is not shown.
+    - **Required correction** Provide the data (e.g., Western blot or RNA-seq) supporting the lack of JAK3 expression.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Clarity and completeness
+    - **Affected element** Figure 5E-G
+    - **Evidence pointer** "Fig. 5E-G" in Results
+    - **Issue** The FRAP data are described as showing "dynamic diffusion," but the recovery kinetics are not quantified.
+    - **Required correction** Provide quantitative FRAP data (e.g., mobile fraction, half-time of recovery) for all conditions.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Clarity and completeness
+    - **Affected element** Figure 6A
+    - **Evidence pointer** "Fig. 6A" in Results
+    - **Issue** The text states that the PRR is "scored highly" by prediction tools, but the specific tools and scores are not mentioned.
+    - **Required correction** List the prediction tools used and provide the scores in the figure or legend.
+    - **Concern ID** R1-m6
+    - **Severity** Minor
+    - **Axis** Clarity and completeness
+    - **Affected element** Materials and Methods, "Molecular dynamics"
+    - **Evidence pointer** "Molecular dynamics" section
+    - **Issue** The description of the MD simulations is incomplete. The force field, water model, and simulation temperature are mentioned, but the software used is not specified.
+    - **Required correction** Specify the software (e.g., GROMACS, AMBER) and version used for the simulations.
+    - **Concern ID** R1-m7
+    - **Severity** Minor
+    - **Axis** Clarity and completeness
+    - **Affected element** Materials and Methods, "Bulk RNA sequencing"
+    - **Evidence pointer** "Bulk RNA sequencing" section
+    - **Issue** The text mentions "six different contrasts" but does not specify what these contrasts are.
+    - **Required correction** List the specific contrasts used in the DESeq2 analysis.
+    - **Concern ID** R1-m8
+    - **Severity** Minor
+    - **Axis** Clarity and completeness
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion section
+    - **Issue** The discussion mentions "certain subsets of triple-negative breast cancer" but does not provide a citation.
+    - **Required correction** Add the appropriate citation for this claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (in vitro kinase assay controls), R1-M2 (in vivo experimental details and statistics), R1-M3 (causality of condensate model).
+- **Assessment against Nature-style criteria**
+    - **Originality** The work is original in identifying TNK1 as a JAK-independent STAT kinase and proposing a 14-3-3-regulated condensate mechanism. This is a novel contribution to the field.
+    - **Scientific importance** The findings have significant implications for understanding STAT signaling and for potential therapeutic intervention in inflammatory diseases. The identification of a new druggable target in IBD is of high importance.
+    - **Interdisciplinary readership** The topic is of interest to cell biologists, immunologists, and clinical researchers. The work bridges basic kinase biology with a disease-relevant model, which should appeal to a broad audience.
+    - **Technical soundness** The technical soundness cannot be fully assessed without the figures and supplementary data. The described methods are generally appropriate, but key controls and statistical details are missing. The MD simulations, as described, are a weak point.
+    - **Readability for nonspecialists** The manuscript is clearly written and the logic is easy to follow. The abstract and introduction effectively set the stage. The discussion is accessible. However, some parts of the results, particularly the multiomics and MD sections, may be dense for a general reader.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and potentially important, but the evidence as presented in the text is incomplete. The authors must provide the missing data and address the concerns regarding the kinase assay, in vivo experiments, and the causal link between condensates and STAT activation.
+
+## Risk / unsupported claims
+- The claim that TNK1 directly phosphorylates STATs is not fully supported without a kinase-dead control in the in vitro assay.
+- The claim that TNK1 inhibition ameliorates colitis is not fully supported without complete statistical reporting and a demonstration of on-target specificity.
+- The claim that 14-3-3 binding inhibits condensate formation, which is required for STAT1 phosphorylation, is correlative and not causally established.
+- The claim that the PRR is essential for STAT1 phosphorylation is complicated by the L540 cell data, which the authors acknowledge but do not fully resolve.
+- The molecular dynamics simulations are described in insufficient detail to assess their validity, and the short simulation time limits their interpretative power.

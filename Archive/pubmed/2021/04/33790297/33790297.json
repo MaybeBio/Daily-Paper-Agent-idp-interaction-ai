@@ -1,0 +1,481 @@
+{
+  "identity": {
+    "pmid": "33790297",
+    "doi": "10.1038/s41467-021-22293-y",
+    "title": "A designer FG-Nup that reconstitutes the selective transport barrier of the nuclear pore complex."
+  },
+  "content": {
+    "abstract": "Nuclear Pore Complexes (NPCs) regulate bidirectional transport between the nucleus and the cytoplasm. Intrinsically disordered FG-Nups line the NPC lumen and form a selective barrier, where transport of most proteins is inhibited whereas specific transporter proteins freely pass. The mechanism underlying selective transport through the NPC is still debated. Here, we reconstitute the selective behaviour of the NPC bottom-up by introducing a rationally designed artificial FG-Nup that mimics natural Nups. Using QCM-D, we measure selective binding of the artificial FG-Nup brushes to the transport receptor Kap95 over cytosolic proteins such as BSA. Solid-state nanopores with the artificial FG-Nups lining their inner walls support fast translocation of Kap95 while blocking BSA, thus demonstrating selectivity. Coarse-grained molecular dynamics simulations highlight the formation of a selective meshwork with densities comparable to native NPCs. Our findings show that simple design rules can recapitulate the selective behaviour of native FG-Nups and demonstrate that no specific spacer sequence nor a spatial segregation of different FG-motif types are needed to create selective NPCs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Active Transport, Cell Nucleus",
+      "*Algorithms",
+      "Cytoplasm/metabolism",
+      "*Models, Biological",
+      "Nanopores",
+      "Nuclear Pore/*metabolism",
+      "Nuclear Pore Complex Proteins/*metabolism",
+      "Protein Transport",
+      "Saccharomyces cerevisiae Proteins/*metabolism",
+      "beta Karyopherins/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fragasso, Alessio",
+        "de Vries, Hendrik W",
+        "Andersson, John",
+        "van der Sluis, Eli O",
+        "van der Giessen, Erik",
+        "Dahlin, Andreas",
+        "Onck, Patrick R",
+        "Dekker, Cees"
+      ],
+      "short_names": [
+        "Fragasso A",
+        "de Vries HW",
+        "Andersson J",
+        "van der Sluis EO",
+        "van der Giessen E",
+        "Dahlin A",
+        "Onck PR",
+        "Dekker C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8366-2998",
+        "ORCID: 0000-0002-9307-9015",
+        "ORCID: 0000-0002-2977-8305",
+        "ORCID: 0000-0002-8369-2254",
+        "ORCID: 0000-0001-5632-9727",
+        "ORCID: 0000-0001-6273-071X"
+      ],
+      "affiliations": [
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, The Netherlands.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, The Netherlands.",
+        "Department of Chemistry and Chemical Engineering, Chalmers University of Technology, Gothenburg, Sweden.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, The Netherlands.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, The Netherlands.",
+        "Department of Chemistry and Chemical Engineering, Chalmers University of Technology, Gothenburg, Sweden.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, The Netherlands. p.r.onck@rug.nl.",
+        "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, The Netherlands. c.dekker@tudelft.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fragasso, Alessio",
+        "short_name": "Fragasso A",
+        "identifiers": [
+          "0000-0001-8366-2998"
+        ],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "de Vries, Hendrik W",
+        "short_name": "de Vries HW",
+        "identifiers": [
+          "0000-0002-9307-9015"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Andersson, John",
+        "short_name": "Andersson J",
+        "identifiers": [
+          "0000-0002-2977-8305"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Engineering, Chalmers University of Technology, Gothenburg, Sweden."
+        ]
+      },
+      {
+        "full_name": "van der Sluis, Eli O",
+        "short_name": "van der Sluis EO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "van der Giessen, Erik",
+        "short_name": "van der Giessen E",
+        "identifiers": [
+          "0000-0002-8369-2254"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Dahlin, Andreas",
+        "short_name": "Dahlin A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Engineering, Chalmers University of Technology, Gothenburg, Sweden."
+        ]
+      },
+      {
+        "full_name": "Onck, Patrick R",
+        "short_name": "Onck PR",
+        "identifiers": [
+          "0000-0001-5632-9727"
+        ],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, The Netherlands. p.r.onck@rug.nl."
+        ]
+      },
+      {
+        "full_name": "Dekker, Cees",
+        "short_name": "Dekker C",
+        "identifiers": [
+          "0000-0001-6273-071X"
+        ],
+        "affiliations": [
+          "Department of Bionanoscience, Kavli Institute of Nanoscience, Delft University of Technology, Delft, The Netherlands. c.dekker@tudelft.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Mar 31",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/02 06:00",
+    "fetched_at": "2026-09-20 02:22:30"
+  },
+  "links": {
+    "cites": [
+      "42371839",
+      "41408288",
+      "41387701",
+      "41068455",
+      "41019633",
+      "40749166",
+      "40464641",
+      "40193850",
+      "40164612",
+      "40027662",
+      "39536094",
+      "39311028",
+      "39282864",
+      "39205388",
+      "38766144",
+      "38640928",
+      "38626108",
+      "38483313",
+      "38376900",
+      "37991877",
+      "37459601",
+      "37407505",
+      "37307457",
+      "37099395",
+      "37064528",
+      "36757893",
+      "36674958",
+      "36504753",
+      "36494425",
+      "36050301",
+      "34680573",
+      "34339633",
+      "34324340",
+      "34282823",
+      "34277589",
+      "33617830"
+    ],
+    "refs": [
+      "31839259",
+      "31247592",
+      "31170242",
+      "30328860",
+      "30217894",
+      "29539637",
+      "29500415",
+      "29442997",
+      "29350911",
+      "29183001",
+      "28864541",
+      "28094501",
+      "27999437",
+      "27629638",
+      "27091992",
+      "27058170",
+      "26894898",
+      "26878241",
+      "26589045",
+      "26456112",
+      "25950237",
+      "25812004",
+      "25692596",
+      "25631821",
+      "25391399",
+      "25229147",
+      "24929341",
+      "24739174",
+      "23901099",
+      "23404701",
+      "22780202",
+      "21939220",
+      "21843480",
+      "21730759",
+      "21685911",
+      "21524134",
+      "20379223",
+      "19801417",
+      "19098896",
+      "17916694",
+      "17693259",
+      "17082456",
+      "16863383",
+      "16769882",
+      "16338415",
+      "16290571",
+      "15878174",
+      "15813752",
+      "15306682",
+      "15039779",
+      "15019783",
+      "14624840",
+      "11250898",
+      "10929717",
+      "10827939",
+      "10543952",
+      "8744570",
+      "2324201"
+    ],
+    "similar": [
+      "33790297",
+      "15557115",
+      "28506890",
+      "35098921",
+      "26658558",
+      "30704069",
+      "25692596",
+      "30902367",
+      "15039779",
+      "38018404",
+      "29442997",
+      "27673359",
+      "17875746",
+      "12917401",
+      "34639238",
+      "31723007",
+      "34473567",
+      "39282864",
+      "32622019",
+      "29374059",
+      "28068389",
+      "24739174",
+      "29033133",
+      "26878241",
+      "12543930",
+      "28887410",
+      "21447814",
+      "32794558",
+      "19098896",
+      "24626154",
+      "25562883",
+      "24857739",
+      "17182855",
+      "36302971",
+      "22357553",
+      "28669824",
+      "26338152",
+      "28864541",
+      "30110828",
+      "17630825",
+      "21647294",
+      "29429880",
+      "19278659",
+      "19801417",
+      "29590630",
+      "26311873",
+      "22901806",
+      "23202855",
+      "17418788",
+      "26541386",
+      "35412248",
+      "38376900",
+      "28579449",
+      "33336681",
+      "39356635",
+      "11716302",
+      "34237287",
+      "39205388",
+      "26791761",
+      "23404701",
+      "34339633",
+      "33548309",
+      "22020388",
+      "33617830",
+      "37498221",
+      "25229147",
+      "24213245",
+      "37100914",
+      "23295456",
+      "31262825",
+      "26456112",
+      "27136131",
+      "32168597",
+      "37307457",
+      "24144701",
+      "24165935",
+      "23043112",
+      "21673865",
+      "12604785",
+      "24165936",
+      "21995724",
+      "31914646",
+      "22665783",
+      "29350911",
+      "17916694",
+      "38302116",
+      "21327077",
+      "21659568",
+      "23907389",
+      "28791779",
+      "17897934",
+      "25631821",
+      "35679397",
+      "32696372",
+      "34995711",
+      "26530420",
+      "32713250",
+      "12552102",
+      "19274657",
+      "24929341",
+      "17079785",
+      "21690354",
+      "24931410",
+      "29500415",
+      "23264634",
+      "26371551",
+      "24857736",
+      "24857723",
+      "29572326",
+      "37254647",
+      "36040030",
+      "16461911",
+      "30342747",
+      "27147062",
+      "35923096",
+      "36757893",
+      "38640928",
+      "38260360",
+      "38649536",
+      "35408855",
+      "34324340",
+      "35089308",
+      "34127448",
+      "36050301",
+      "37652464",
+      "37853046",
+      "38766144",
+      "36765044",
+      "19507204",
+      "37099395",
+      "19596381",
+      "38179752",
+      "37066338",
+      "24806932",
+      "29116248",
+      "38904303",
+      "31834369",
+      "27470900",
+      "37198214",
+      "37077045",
+      "37876551",
+      "23320434",
+      "37665327",
+      "31572794",
+      "38260487",
+      "38318384",
+      "37908226",
+      "36504753"
+    ],
+    "review": [
+      "33790297",
+      "28506890",
+      "27673359",
+      "39282864",
+      "32794558",
+      "28669824",
+      "26338152",
+      "19801417",
+      "28579449",
+      "33336681",
+      "11716302",
+      "26791761",
+      "22020388",
+      "34995711",
+      "24857723",
+      "35923096",
+      "34127448",
+      "37652464",
+      "19596381",
+      "38179752",
+      "37876551",
+      "37908226"
+    ],
+    "pmc": [
+      "8012357"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-22293-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33790297/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/33790297",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33790297",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33790297",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

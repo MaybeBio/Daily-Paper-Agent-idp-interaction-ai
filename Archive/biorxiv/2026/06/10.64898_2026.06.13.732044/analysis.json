@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.13.732044",
+  "title": "Intrinsically disordered N-terminal regions suppress cotranslational protein degradation",
+  "authors": "Donghong Ju; Daniel Xie; Junzhe Wang; ShiChao Wu; Li Li; Youming Xie",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-13",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究无序N端区域抑制共翻译蛋白降解的机制，涉及IDR与HSP70互作，但聚焦降解调控而非PPI结合机制建模，且无AI/物理模拟方法，仅部分相关。",
+  "abstract": "Intrinsically disordered regions (IDRs) of proteins are thought to be inherently sensitive to proteolysis and considered one of the key components constituting an efficient degron. Here we report that IDRs can also suppress protein degradation. Our recent study showed that yeast ribosomal proteins, while posttranslationally stable, are subject to cotranslational protein degradation (CTPD). In mapping the degron responsible for CTPD of ribosomal protein Rpl8A, we found that its N-terminal IDR suppresses CTPD, whereas the adjacent structured domain acts as a degron. We further assessed the N-terminal IDRs of 9 other yeast proteins and found that they all inhibit CTPD. These results suggest that suppression of CTPD is likely a generic function of N-terminal IDRs. Moreover, we showed that the N-terminal IDR of human ribosomal protein hRpl7A also functions as a stabilizer against CTPD in human cells. When transplanted to the N-terminus of cystic fibrosis transmembrane conductance regulator (CFTR), the N-terminal IDR of hRpl7A reduces CTPD of CFTR by more than 80%. Thus, the stabilizer function of N-terminal IDRs is conserved from yeast to human. Using mass spectrometry, we demonstrated that HSP70 chaperone proteins Ssa and Ssb bind to the N-terminal IDR of Rpl8A. These data suggest that N-terminal IDRs may inhibit CTPD through recruiting HSP70 chaperone proteins to nascent chains, thereby facilitating cotranslational folding. Our study unveils a new role for IDRs in suppressing CTPD.",
+  "abstract_zh": "蛋白质的固有无序区域（IDRs）被认为本质上对蛋白水解敏感，并被视为构成高效降解子（degron）的关键组分之一。在此，我们报道IDRs也能抑制蛋白质降解。我们最近的研究表明，酵母核糖体蛋白在翻译后稳定，但会经历共翻译蛋白质降解（CTPD）。在定位负责核糖体蛋白Rpl8A CTPD的降解子时，我们发现其N端IDR抑制CTPD，而相邻的结构域则作为降解子发挥作用。我们进一步评估了其他9种酵母蛋白的N端IDRs，发现它们均抑制CTPD。这些结果表明，抑制CTPD可能是N端IDRs的普遍功能。此外，我们展示了人类核糖体蛋白hRpl7A的N端IDR在人类细胞中也作为稳定剂对抗CTPD。当移植到囊性纤维化跨膜传导调节因子（CFTR）的N端时，hRpl7A的N端IDR将CFTR的CTPD降低超过80%。因此，N端IDRs的稳定剂功能从酵母到人类是保守的。利用质谱分析，我们证明了HSP70伴侣蛋白Ssa和Ssb与Rpl8A的N端IDR结合。这些数据表明，N端IDRs可能通过招募HSP70伴侣蛋白至新生链，从而促进共翻译折叠，来抑制CTPD。我们的研究揭示了IDRs在抑制CTPD中的新作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.13.732044",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.13.732044",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.13.732044/index.html"
+}

@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, references) as provided.
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality. No assessment of formatting or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors present coarse-grained simulations of 33 intrinsically disordered proteins using two hydropathy scales (HPS1, HPS2) with screened Coulomb interactions. They identify optimal interaction parameters (ε = 0.1 kcal/mol for HPS1, ε = 0.2 kcal/mol for HPS2) by comparison with experimental radii of gyration. They report a universal Flory exponent ν ≈ 0.56 for IDPs, introduce a Wilson charge index and a skewness index to characterize sequence-specific and shape-specific features, and analyze salt-concentration-dependent conformational changes.
+- **Visible evidence base** Abstract, introduction, model description, hydropathy scale definitions, results narrative, and partial figure/table references. No actual figures, tables, or numerical data are included in the provided material.
+- **Missing materials affecting confidence** All figures (Figs. 1–9), Table 1, supplementary materials, and any numerical datasets. The manuscript text references these extensively but they are not available for verification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in the IDP field: whether IDPs exhibit universal polymer-like scaling or sequence-specific fine structure. The authors combine two established CG models with new analysis metrics (Wilson index, skewness index) and a systematic salt-dependence study across 33 IDPs. The conceptual framing is strong and the conclusions are potentially significant. However, the provided text alone does not allow verification of the central quantitative claims. The Wilson index is described in a manner that is difficult to follow, and its physical interpretation is not fully justified. The salt-dependence classification into four quadrants is interesting but the decision boundaries appear arbitrary. The relationship between the skewness index and the universal scaling claims is not clearly articulated. The manuscript would benefit from clearer presentation of the new metrics and a more explicit connection between the universal and sequence-specific aspects.
+- **Who would be interested in the results, and why** Researchers in the intrinsically disordered protein community, particularly those working on coarse-grained modeling, sequence-conformation relationships, and phase separation. The universal scaling analysis will interest polymer physicists working on biological systems. The salt-dependence classification may interest researchers studying IDP behavior in cellular environments and origins-of-life scenarios. The Wilson index, if validated, could provide a new sequence-analysis tool for the broader protein biophysics community.
+- **Major strengths** 1) Large and diverse dataset of 33 IDPs spanning a wide range of lengths and charge distributions. 2) Systematic comparison of two hydropathy scales with experimental data. 3) Introduction of new analysis metrics (Wilson index, skewness index) that go beyond simple radius of gyration comparisons. 4) Integration of universal polymer physics concepts with sequence-specific IDP behavior. 5) Salt-dependence study across a physiologically relevant concentration range.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim optimal interaction parameters ε = 0.1 kcal/mol (HPS1) and ε = 0.2 kcal/mol (HPS2) based on comparison with experimental radii of gyration, with approximately 14% error for both models.
+  - **Evidence pointer** Section V, Table 1 (columns 13 and 15), Figure 2
+  - **Concern** The manuscript text states that ε = 0.1 kcal/mol and ε = 0.2 kcal/mol have the lowest mean square errors (MSE = 0.23 and 0.26) for HPS1 and HPS2 respectively, and that both show approximately 14% error. However, the actual data supporting this conclusion (Figure 2, Table 1) is not provided. The MSE values are presented without confidence intervals or statistical significance testing. It is unclear whether the difference between MSE = 0.23 and MSE = 0.26 is meaningful, and whether the optimal ε values are robust across the full set of 33 IDPs or driven by a subset. The claim that both models show approximately 14% error is difficult to evaluate without seeing the per-protein errors and their distribution.
+  - **Why it matters** The optimal ε values are the foundation for all subsequent analysis. If these parameters are not robustly determined, the universal scaling claims and the fine-structure analysis built on them are compromised. The comparison between HPS1 and HPS2 is a central contribution, and the claim that they perform similarly needs statistical support.
+  - **Resolution test** Provide the full data behind Figure 2 and Table 1, including per-protein errors for both models at each ε value tested. Include confidence intervals or bootstrap analysis for the optimal ε determination. Show that the 14% error is consistent across the full range of protein lengths and charge distributions, not dominated by a few outliers.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim** The authors claim that IDPs are broadly characterized by a Flory exponent ν ≈ 0.56, with conformations interpolating between Gaussian and self-avoiding random walk chains.
+  - **Evidence pointer** Section V-A, Figure 3
+  - **Concern** The universal scaling analysis relies on the scaled end-to-end distance ⟨R_N²⟩/(2Lℓ_p) and scaled transverse fluctuations plotted against L/ℓ_p. The manuscript states that IDPs lie between the Gaussian and SAW limits, but the actual data collapse and the fitting procedure for ν are not shown. The value ν ≈ 0.56 is presented as a single number without uncertainty estimates. The manuscript does not discuss how the persistence length ℓ_p is determined for each IDP, which is critical for the scaling analysis. The claim that IDPs "interpolate" between Gaussian and SAW behavior is vague; it is unclear whether this means individual IDPs fall at different points along a continuum, or whether the ensemble average is intermediate.
+  - **Why it matters** The universal scaling claim is a central result that connects IDP behavior to established polymer physics. If the scaling analysis is not rigorously performed, the conclusion that IDPs are neither Gaussian nor fully self-avoiding is not established. The interpolation claim has implications for how IDPs are modeled and understood.
+  - **Resolution test** Show the full scaling plots with all 33 IDPs, including the determination of ℓ_p for each protein. Provide the fitting procedure for ν with uncertainty estimates. Clarify whether the interpolation is a property of individual IDPs or an ensemble average. Discuss how finite-size effects (N = 24–283) are accounted for in the scaling analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim** The Wilson charge index (𝒲) captures essential features of charge interactions and distribution in sequence space and can serve as a fingerprint for IDPs.
+  - **Evidence pointer** Section V-B, Figures 4 and 5, Table 1 (column 16)
+  - **Concern** The Wilson index is introduced as a renormalization-based averaging procedure, but the description is incomplete. The manuscript states that a window of length n is used for sliding averages, and the process is iterated until a final value 𝒲̃(n) is obtained, but the exact algorithm is not fully specified. The connection to Wilson renormalization in spin systems is mentioned but not explained in the context of IDP charge sequences. The physical interpretation of 𝒲 is unclear: what does it mean for an IDP to have a particular Wilson index value? The claim that IDPs with similar Wilson charge will behave the same way is presented without supporting evidence. The relationship between 𝒲 and established metrics like the charge asymmetry parameter f* is not discussed.
+  - **Why it matters** The Wilson index is presented as a new tool for IDP classification. If the metric is not clearly defined and its physical basis not established, its utility as a fingerprint is questionable. The claim that it captures "essential features" of charge interactions needs validation against existing metrics.
+  - **Resolution test** Provide a complete mathematical description of the Wilson index algorithm. Explain the physical rationale for using renormalization-based averaging for charge sequences. Show that IDPs with similar 𝒲 values indeed exhibit similar conformational properties. Compare 𝒲 with existing metrics (f*, NCPR, FCR) and demonstrate its added value.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim** The authors claim that the variation of ⟨R_g⟩ as a function of salt concentration provides an important metric to bring out finer characteristics of IDPs which may carry relevant information for the origin of life.
+  - **Evidence pointer** Section V-E, Figure 9
+  - **Concern** The salt-dependence study classifies IDPs into four quadrants based on (q_abs, q_net) values, with decision boundaries at q_abs = 0.275 and q_net = 0.13. The choice of these boundaries is not justified. The claim that this classification provides information relevant to the origin of life is speculative and not developed. The manuscript notes that some IDPs are robust to salt concentration changes but does not explore what features confer this robustness. The connection between salt-dependent conformational changes and prebiotic chemistry or early cellular environments is not articulated.
+  - **Why it matters** The origin-of-life connection is presented as a motivation for the salt study, but the link is not established. If the classification scheme is arbitrary and the origin-of-life relevance is speculative, this section adds limited value beyond the empirical observation of salt-dependent behavior.
+  - **Resolution test** Justify the choice of decision boundaries for the four-quadrant classification, or use a data-driven approach. Develop the origin-of-life connection with specific hypotheses about how salt-dependent IDP behavior might relate to prebiotic conditions. Alternatively, reframe this section as a purely biophysical characterization without the origin-of-life framing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section V-B, Wilson index description
+  - **Evidence pointer** Section V-B, Figures 4 and 5
+  - **Issue** The description of the Wilson index algorithm is difficult to follow. The text mentions sliding averages and iterative procedures but does not provide a clear step-by-step explanation. The example in Figure 4 is referenced but not described in the text.
+  - **Required correction** Provide a clear, step-by-step description of the Wilson index calculation, possibly with a pseudocode or algorithmic box. Describe the example in Figure 4 explicitly in the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section III, Simulation model
+  - **Evidence pointer** Section III, Equations 2–8
+  - **Issue** The manuscript states that the temperature-dependent dielectric constant is implemented, but the specific temperature range and how it affects the results are not discussed. The Debye screening length depends on ionic concentration, but the range of concentrations studied and the corresponding κ values are not given.
+  - **Required correction** Specify the temperature range studied and how the dielectric constant varies over this range. Provide the ionic concentration range and corresponding Debye lengths.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section V-A, Universal scaling
+  - **Evidence pointer** Section V-A, Figure 3
+  - **Issue** The manuscript references "our recently established universal results" (Universal1, Universal2) but does not summarize what these results are. A reader unfamiliar with these prior works cannot fully appreciate the comparison being made.
+  - **Required correction** Briefly summarize the universal scaling results from the prior works, or provide sufficient context in the text so the comparison is self-contained.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section V-D, Skewness index
+  - **Evidence pointer** Section V-D, Equations 15–17, Figure 7
+  - **Issue** The manuscript states that the skewness index is obtained by fitting the distribution of scaled gyration radii with an exponentially modified Gaussian distribution, but the fitting procedure and the quality of fits are not discussed. The relationship between the skewness index and the shape parameter K is given, but the statistical uncertainty in K is not addressed.
+  - **Required correction** Describe the fitting procedure, including how the fits are performed and how goodness-of-fit is assessed. Provide uncertainties in the extracted skewness indices.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section V-E, Salt concentration study
+  - **Evidence pointer** Section V-E, Figure 9
+  - **Issue** The manuscript states that "the IDPs can be placed on any one of the four quadrants" but does not explain how the quadrant assignment affects the interpretation. The text describes the behavior of quadrants I and IV in detail but gives limited attention to quadrants II and III.
+  - **Required correction** Provide a more balanced discussion of all four quadrants, including the expected behavior for each and the implications of the classification.
+
+## Risk / unsupported claims
+- The optimal interaction parameters (ε = 0.1 kcal/mol for HPS1, ε = 0.2 kcal/mol for HPS2) cannot be verified without the data in Figure 2 and Table 1.
+- The claim of approximately 14% error for both models is unverifiable without per-protein error data.
+- The universal Flory exponent ν ≈ 0.56 is presented without uncertainty estimates or fitting details.
+- The claim that IDPs interpolate between Gaussian and SAW chains is not quantitatively supported in the provided text.
+- The Wilson index is not fully defined mathematically, and its physical interpretation is not established.
+- The claim that IDPs with similar Wilson indices behave similarly is asserted without supporting evidence.
+- The four-quadrant classification based on (q_abs, q_net) uses decision boundaries (q_abs = 0.275, q_net = 0.13) that are not justified.
+- The origin-of-life relevance of the salt-concentration study is speculative and not developed.
+- The statement that "some of the IDPs remain unaffected with the variation of salt concentration" is made without specifying which IDPs or providing supporting data.
+- The claim that the skewness index shows a linear dependence on q_net (Equation 19) is presented without statistical measures of fit quality.
+- The relationship between the skewness index and the universal scaling behavior is not clearly established.
+- The comparison with experimental data is mentioned but the specific experimental sources and the nature of the comparison are not fully described in the provided text.

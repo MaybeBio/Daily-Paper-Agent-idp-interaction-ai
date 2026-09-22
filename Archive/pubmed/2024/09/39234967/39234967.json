@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "39234967",
+    "doi": "10.1063/5.0224809",
+    "title": "Anisotropic coarse-grain Monte Carlo simulations of lysozyme, lactoferrin, and NISTmAb by precomputing atomistic models."
+  },
+  "content": {
+    "abstract": "We develop a multiscale coarse-grain model of the NIST Monoclonal Antibody Reference Material 8671 (NISTmAb) to enable systematic computational investigations of high-concentration physical instabilities such as phase separation, clustering, and aggregation. Our multiscale coarse-graining strategy captures atomic-resolution interactions with a computational approach that is orders of magnitude more efficient than atomistic models, assuming the biomolecule can be decomposed into one or more rigid bodies with known, fixed structures. This method reduces interactions between tens of thousands of atoms to a single anisotropic interaction site. The anisotropic interaction between unique pairs of rigid bodies is precomputed over a discrete set of relative orientations and stored, allowing interactions between arbitrarily oriented rigid bodies to be interpolated from the precomputed table during coarse-grained Monte Carlo simulations. We present this approach for lysozyme and lactoferrin as a single rigid body and for the NISTmAb as three rigid bodies bound by a flexible hinge with an implicit solvent model. This coarse-graining strategy predicts experimentally measured radius of gyration and second osmotic virial coefficient data, enabling routine Monte Carlo simulation of medically relevant concentrations of interacting proteins while retaining atomistic detail. All methodologies used in this work are available in the open-source software Free Energy and Advanced Sampling Simulation Toolkit.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Monte Carlo Method",
+      "*Lactoferrin/chemistry",
+      "*Muramidase/chemistry",
+      "Anisotropy",
+      "Antibodies, Monoclonal/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hatch, Harold W",
+        "Bergonzo, Christina",
+        "Blanco, Marco A",
+        "Yuan, Guangcui",
+        "Grudinin, Sergei",
+        "Lund, Mikael",
+        "Curtis, Joseph E",
+        "Grishaev, Alexander V",
+        "Liu, Yun",
+        "Shen, Vincent K"
+      ],
+      "short_names": [
+        "Hatch HW",
+        "Bergonzo C",
+        "Blanco MA",
+        "Yuan G",
+        "Grudinin S",
+        "Lund M",
+        "Curtis JE",
+        "Grishaev AV",
+        "Liu Y",
+        "Shen VK"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2926-9145",
+        "ORCID: 0000-0003-1990-2912",
+        "ORCID: 0000-0001-5768-9038",
+        "ORCID: 0000-0002-1903-7220",
+        "ORCID: 0000-0001-8178-8175",
+        "ORCID: 0000-0001-5818-295X",
+        "ORCID: 0000-0002-9347-2327",
+        "ORCID: 0000-0002-0944-3153"
+      ],
+      "affiliations": [
+        "Chemical Informatics Research Group, Chemical Sciences Division, National Institute of Standards and Technology, Gaithersburg, Maryland 20899-8380, USA.",
+        "Institute for Bioscience and Biotechnology Research, Rockville, Maryland 20850, USA.",
+        "Biomolecular Structure and Function Group, Biomolecular Measurement Division, National Institute of Standards and Technology, Gaithersburg, Maryland 20899-8380, USA.",
+        "Discovery Pharmaceutical Sciences, Merck Research Laboratories, Merck & Co., Inc., West Point, Pennsylvania 19486, USA.",
+        "Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899, USA.",
+        "CNRS, Grenoble INP, LJK, Universite Grenoble Alpes, 38000 Grenoble, France.",
+        "Division of Computational Chemistry, Lund University, Lund, Sweden.",
+        "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899, USA.",
+        "Institute for Bioscience and Biotechnology Research, Rockville, Maryland 20850, USA.",
+        "Biomolecular Structure and Function Group, Biomolecular Measurement Division, National Institute of Standards and Technology, Gaithersburg, Maryland 20899-8380, USA.",
+        "Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899, USA.",
+        "Center for Neutron Science, Department of Chemical and Biomolecular Engineering, College of Engineering, University of Delaware, Newark, Delaware 19711, USA.",
+        "Chemical Informatics Research Group, Chemical Sciences Division, National Institute of Standards and Technology, Gaithersburg, Maryland 20899-8380, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hatch, Harold W",
+        "short_name": "Hatch HW",
+        "identifiers": [
+          "0000-0003-2926-9145"
+        ],
+        "affiliations": [
+          "Chemical Informatics Research Group, Chemical Sciences Division, National Institute of Standards and Technology, Gaithersburg, Maryland 20899-8380, USA."
+        ]
+      },
+      {
+        "full_name": "Bergonzo, Christina",
+        "short_name": "Bergonzo C",
+        "identifiers": [
+          "0000-0003-1990-2912"
+        ],
+        "affiliations": [
+          "Institute for Bioscience and Biotechnology Research, Rockville, Maryland 20850, USA.",
+          "Biomolecular Structure and Function Group, Biomolecular Measurement Division, National Institute of Standards and Technology, Gaithersburg, Maryland 20899-8380, USA."
+        ]
+      },
+      {
+        "full_name": "Blanco, Marco A",
+        "short_name": "Blanco MA",
+        "identifiers": [
+          "0000-0001-5768-9038"
+        ],
+        "affiliations": [
+          "Discovery Pharmaceutical Sciences, Merck Research Laboratories, Merck & Co., Inc., West Point, Pennsylvania 19486, USA."
+        ]
+      },
+      {
+        "full_name": "Yuan, Guangcui",
+        "short_name": "Yuan G",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899, USA."
+        ]
+      },
+      {
+        "full_name": "Grudinin, Sergei",
+        "short_name": "Grudinin S",
+        "identifiers": [
+          "0000-0002-1903-7220"
+        ],
+        "affiliations": [
+          "CNRS, Grenoble INP, LJK, Université Grenoble Alpes, 38000 Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Lund, Mikael",
+        "short_name": "Lund M",
+        "identifiers": [
+          "0000-0001-8178-8175"
+        ],
+        "affiliations": [
+          "Division of Computational Chemistry, Lund University, Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Curtis, Joseph E",
+        "short_name": "Curtis JE",
+        "identifiers": [
+          "0000-0001-5818-295X"
+        ],
+        "affiliations": [
+          "NIST Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899, USA."
+        ]
+      },
+      {
+        "full_name": "Grishaev, Alexander V",
+        "short_name": "Grishaev AV",
+        "identifiers": [
+          "0000-0002-9347-2327"
+        ],
+        "affiliations": [
+          "Institute for Bioscience and Biotechnology Research, Rockville, Maryland 20850, USA.",
+          "Biomolecular Structure and Function Group, Biomolecular Measurement Division, National Institute of Standards and Technology, Gaithersburg, Maryland 20899-8380, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Yun",
+        "short_name": "Liu Y",
+        "identifiers": [
+          "0000-0002-0944-3153"
+        ],
+        "affiliations": [
+          "Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899, USA.",
+          "Center for Neutron Science, Department of Chemical and Biomolecular Engineering, College of Engineering, University of Delaware, Newark, Delaware 19711, USA."
+        ]
+      },
+      {
+        "full_name": "Shen, Vincent K",
+        "short_name": "Shen VK",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Informatics Research Group, Chemical Sciences Division, National Institute of Standards and Technology, Gaithersburg, Maryland 20899-8380, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2024 Sep 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/05 12:43",
+    "fetched_at": "2026-09-21 10:01:38"
+  },
+  "links": {
+    "cites": [
+      "42262899",
+      "41954249",
+      "40996797",
+      "40948459",
+      "40261915"
+    ],
+    "refs": [],
+    "similar": [
+      "39234967",
+      "42295168",
+      "22120971",
+      "27063730",
+      "23912807",
+      "23534624",
+      "29423600",
+      "33650860",
+      "34298961",
+      "30951539",
+      "26588552",
+      "18083189",
+      "27314827",
+      "25400525",
+      "40113105",
+      "34939811",
+      "26723605",
+      "35568534",
+      "16853520",
+      "18855436",
+      "29923722",
+      "36321557",
+      "24204592",
+      "38314956",
+      "29486559",
+      "30633517",
+      "26587613",
+      "27333362",
+      "39212344",
+      "31013302",
+      "20158022",
+      "38380763",
+      "20707563",
+      "37712507",
+      "37428045",
+      "24777775",
+      "18163606",
+      "37782694",
+      "27997210",
+      "23005883",
+      "36417670",
+      "30735393",
+      "19594147",
+      "22612087",
+      "40624892",
+      "24511980",
+      "21443228",
+      "29274822",
+      "28992694",
+      "17249883",
+      "21740053",
+      "11197668",
+      "41103614",
+      "21815624",
+      "18500884",
+      "36456243",
+      "40602418",
+      "24659927",
+      "23883051",
+      "19280017",
+      "15527384",
+      "38731411",
+      "16223273",
+      "20441258",
+      "16494412",
+      "26723644",
+      "24289039",
+      "27434770",
+      "29423596",
+      "21943424",
+      "37211878",
+      "15836359",
+      "34998351",
+      "15521059",
+      "38011344",
+      "37745447",
+      "26901452",
+      "30708941",
+      "16863357",
+      "18412407",
+      "37246723",
+      "37037120",
+      "26259782",
+      "39162195",
+      "26605632",
+      "24511929",
+      "18601324",
+      "17286516",
+      "20161121",
+      "21386576",
+      "22380060",
+      "33821645",
+      "20429923",
+      "26914439",
+      "38316012",
+      "33639741",
+      "20151757",
+      "24171386",
+      "26600167",
+      "36375294"
+    ],
+    "review": [
+      "39234967",
+      "36321557",
+      "27333362"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0224809",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

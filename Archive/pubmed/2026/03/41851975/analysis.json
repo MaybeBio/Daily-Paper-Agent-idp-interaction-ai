@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41851975",
+  "title": "Integrating NMR Restraints into Coarse-Grained Simulations: Toward Accurate Conformational Ensembles of Complex Protein Systems.",
+  "authors": "Cullen, Mina; Biancaniello, Carmen; Taskova, Katerina; Miletic, Vedran; Mercadante, Davide; De Simone, Alfonso",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2026-03-19",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出Martini3-NMR框架，将NMR化学位移（经神经网络建模）与NOE约束整合进粗粒化MD模拟，以提升无序蛋白、膜相关组装及淀粉样纤维模糊外壳等复杂体系的构象系综精度，并涉及凝聚体样性质，直接契合无序蛋白互作机制建模的方法需求。",
+  "abstract": "Structural dynamics play critical roles for the biological activity of protein molecules. Characterizing the inherent conformational landscapes of these macromolecules remains a major experimental and computational challenge, particularly for heterogeneous and transient systems such as intrinsically disordered proteins, membrane-associated assemblies and disordered fuzzy coats of amyloid aggregates. In this context, coarse-grained (CG) molecular dynamics simulations have enabled accessing to extended time scales and large system sizes, however, their reduced resolution and simplified interaction potentials often limit the structural accuracy. Here, we introduce Martini3-NMR, an integrative framework that incorporates nuclear magnetic resonance (NMR) observables directly into CG protein force fields. Using artificial neural networks to model NMR chemical shifts at the CG level, and integrating these data with NOE restraints, we define an approach to significantly enhance the accuracy of CG simulations while maintaining their elevated sampling efficiency, thereby resulting in a substantially improved description of protein conformational ensembles. We demonstrate the broad applicability of Martini3-NMR by generating CG ensembles for a range of systems involved in diverse biological processes such as protein folding, oligomer disassembly within lipid bilayers and conformational transitions of disordered fuzzy regions decorating amyloid fibril surfaces, which were found to display condensate-like properties. By enabling an experimentally driven and computationally efficient exploration of protein conformational landscapes, Martini3-NMR provides a novel general framework for investigating dynamic, heterogeneous and multiscale biomolecular processes. This approach opens to significant new opportunities for extending CG simulations toward a more quantitative understanding of the relationship between molecular structure, dynamics and biological function.",
+  "abstract_zh": "结构动力学对蛋白质分子的生物活性起着关键作用。表征这些大分子的固有构象景观仍是一项重大的实验和计算挑战，尤其是对于异质性和瞬态系统，如固有无序蛋白、膜相关组装体以及淀粉样聚集体的无序模糊外壳。在此背景下，粗粒化（CG）分子动力学模拟已能触及更长时间尺度和更大系统规模，但其降低的分辨率和简化的相互作用势常限制结构精度。本文中，我们引入Martini3-NMR，一个将核磁共振（NMR）可观测数据直接整合进CG蛋白质力场的集成框架。通过使用人工神经网络在CG水平上建模NMR化学位移，并将这些数据与NOE约束相结合，我们定义了一种方法，在保持高采样效率的同时显著提升CG模拟的精度，从而大幅改善蛋白质构象系综的描述。我们通过为涉及多种生物过程的系统生成CG系综，展示了Martini3-NMR的广泛适用性，这些过程包括蛋白质折叠、脂双层内的寡聚体解聚，以及装饰淀粉样纤维表面的无序模糊区域的构象转变，后者被发现具有类似凝聚体的特性。通过实现实验驱动且计算高效的蛋白质构象景观探索，Martini3-NMR为研究动态、异质性和多尺度生物分子过程提供了一个新颖的通用框架。该方法为扩展CG模拟以更定量地理解分子结构、动力学与生物功能之间的关系开辟了重要的新机遇。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41851975/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41851975/",
+  "paper_page_path": "papers/pubmed/41851975/index.html"
+}

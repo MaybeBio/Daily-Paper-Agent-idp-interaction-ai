@@ -1,0 +1,114 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) for the article by Saar et al., published in *Proteins* (2024), DOI 10.1002/prot.26774.
+- **Assessment boundary** The scientific content, methodology, data interpretation, and claims as presented in the provided text. No external data, supplementary figures, or peer review history were assessed beyond what is described in the manuscript.
+- **Shared manuscript claim summary** The authors argue that the C-terminal domains (CTDs) of the 14 human myotubularin-related proteins (MTMRs) are largely disordered, enriched in short linear motifs (SLiMs) and post-translational modification sites, and therefore harbor substantial, unexplored functional potential beyond the canonical phosphatase activity. They support this with bioinformatic predictions (ELM, MobiDB, IUPred2A, AlphaFold) and biophysical experiments (CD, NMR, cross-linking) on the coiled-coil (CC) domains of MTMR7 and MTMR9, showing distinct homo- and hetero-oligomerization preferences.
+- **Visible evidence base** Abstract, Introduction, Material and Methods (partial), Results (narrative), Discussion, Conclusion, Author Contributions, Data Availability Statement. Figures and tables are referenced but not provided in the submitted text.
+- **Missing materials affecting confidence** All figures (Figures 1–6, S1–S7), all tables (Tables 1–3, S1), the full Material and Methods section (only SLiM prediction methods are described in detail), and the peer review history. Without these, quantitative assessment of the bioinformatic predictions and experimental data is not possible.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a timely and conceptually valuable perspective on a protein family whose disordered regions have been largely overlooked. The combination of bioinformatic prediction with biophysical validation on two representative CC domains is a sensible approach, and the authors are appropriately cautious in framing most predictions as hypotheses requiring experimental testing. However, the manuscript's impact is currently limited by the absence of key experimental details and quantitative data in the provided text, and by the largely descriptive nature of the bioinformatic analyses. The central claim that the CTDs are "brimming" with functional potential is plausible but not yet rigorously established from the evidence presented.
+- **Who would be interested in the results, and why** Researchers studying myotubularins and phosphoinositide metabolism, as well as the broader community interested in intrinsically disordered proteins, short linear motifs, and the functional diversification of enzyme families through disordered appendages. The predicted links to autophagy, signaling, and neurological function may also attract cell biologists and neurobiologists. The methodological approach, combining ELM/MobiDB predictions with CD/NMR validation of CC domains, will be of interest to biophysicists and computational biologists working on disordered regions.
+- **Major strengths**
+  1. The manuscript addresses a genuinely understudied aspect of a medically relevant protein family, shifting focus from the well-characterized catalytic core to the neglected disordered tails.
+  2. The combination of multiple bioinformatic tools (ELM, MobiDB, IUPred2A, AlphaFold) with experimental biophysics (CD, NMR, cross-linking) provides a multi-pronged approach.
+  3. The authors are appropriately cautious, repeatedly noting that predictions require experimental validation.
+  4. The grouping of MTMRs into four structural classes based on CTD architecture is a useful framework for future studies.
+  5. The experimental data on MTMR7-CC and MTMR9-CC, showing different oligomerization preferences, provide concrete, novel biophysical information.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the CTDs of MTMRs are "brimming with SLiMs" and that these motifs "implicate" the proteins in signaling, phase separation, and interaction with transcription factors.
+  - **Evidence pointer** Results section, Table 2 (not provided), Figures S3–S6 (not provided)
+  - **Concern** The central bioinformatic claim rests entirely on ELM predictions, which are known to produce high false-positive rates. The authors set a "motif probability cutoff" but do not report the number of predictions, the statistical significance relative to randomized sequences, or any filtering based on conservation or accessibility. Without these controls, the claim that the CTDs are enriched in functional SLiMs is not quantitatively supported.
+  - **Why it matters** The entire premise of the manuscript, that the CTDs harbor untapped interaction potential, depends on the reliability of these predictions. If the SLiM density is not significantly higher than expected by chance, the central thesis is weakened.
+  - **Resolution test** Provide a statistical comparison of SLiM density in MTMR CTDs versus shuffled or randomized sequences of matched composition, and report the number of high-confidence predictions per protein. Ideally, validate at least one novel predicted interaction experimentally.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "AF3 is not yet a helpful tool when investigating MTMR CC domains computationally" based on its failure to distinguish experimentally confirmed versus unconfirmed complexes.
+  - **Evidence pointer** Results section, Figure 3D–J (not provided)
+  - **Concern** The conclusion that AlphaFold3 is unhelpful is drawn from a single, small test set (a handful of CC domain pairs). This is an overgeneralization. AF3's confidence scores are not calibrated to reflect binding affinity or biological likelihood, and the absence of a complex prediction does not mean the tool is useless. The authors may be overinterpreting a negative result.
+  - **Why it matters** This claim could mislead readers about the utility of a widely used tool. The conclusion is not supported by the limited data presented.
+  - **Resolution test** Either expand the AF3 analysis to a larger, well-characterized set of CC domain interactions (including known non-interactors) and report sensitivity/specificity, or temper the conclusion to state that AF3 predictions do not correlate with the specific experimental outcomes observed here.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental rigor
+  - **Claim pointer** The authors conclude that MTMR7-CC and MTMR9-CC form hetero-oligomers based on CD and NMR data, and that MTMR9-CC forms trimers based on cross-linking.
+  - **Evidence pointer** Results section, Figure 5A–E (not provided)
+  - **Concern** The stoichiometry of the proposed complexes is not rigorously established. Cross-linking with BS3 can produce artifactual higher-order bands due to intermolecular cross-links in concentrated samples. The NMR data show loss of signals, which is consistent with oligomerization but could also reflect aggregation or exchange broadening. No sedimentation equilibrium, size-exclusion chromatography with multi-angle light scattering, or other definitive mass determination is presented.
+  - **Why it matters** The claim of specific oligomerization preferences (dimer vs. trimer) is a key experimental result. If the stoichiometry is incorrect, the structural interpretations and predictions for other MTMRs are compromised.
+  - **Resolution test** Perform analytical ultracentrifugation or SEC-MALS on both CC domains alone and in mixtures to determine absolute molecular weights and stoichiometry. Also, repeat cross-linking at multiple concentrations to demonstrate that band patterns are concentration-dependent in a manner consistent with specific oligomerization.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and framing
+  - **Claim pointer** The authors state that "the predictions show that the CTDs are disordered and carry SLiMs important for targeting of MTMRs to defined subcellular compartments."
+  - **Evidence pointer** Abstract, Results
+  - **Concern** The manuscript is framed as a broad survey of all 14 MTMRs, but the experimental work is limited to two CC domains. The bioinformatic predictions for the other 12 MTMRs are not validated, and the discussion of their potential functions is largely speculative. The title promises an "untapped interaction potential" but the manuscript does not deliver a systematic experimental test of this potential.
+  - **Why it matters** The scope of the claims exceeds the scope of the evidence. This is a common issue in bioinformatics-driven papers, but it is particularly important here because the authors themselves note that prediction tools are unreliable for this family.
+  - **Resolution test** Either expand the experimental validation to additional MTMR CTDs, or reframe the manuscript as a hypothesis-generating study with a clear statement that the experimental work is proof-of-principle on two representative members.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, protein constructs
+  - **Evidence pointer** Material and Methods, "Protein Production"
+  - **Issue** The exact domain boundaries for MTMR7-CC (residues 514–554) and MTMR9-CC (residues 502–549) are given, but the rationale for choosing these boundaries is not explained. Are these based on the CC prediction servers, sequence alignment, or prior literature?
+  - **Required correction** Add a sentence explaining how the CC domain boundaries were defined, and whether the constructs include any flanking residues.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, CD spectroscopy
+  - **Evidence pointer** Material and Methods, "Circular Dichroism Spectropolarimetry"
+  - **Issue** The buffer composition is given (PBS, pH 7.3, 137 mM NaF), but the protein concentration, path length, and temperature are not stated in the provided text. The equation for mean residue ellipticity is given, but the number of residues used for the calculation is not specified.
+  - **Required correction** Provide the missing experimental parameters (concentration, path length, temperature, number of residues) to allow reproduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, NMR spectroscopy
+  - **Evidence pointer** Results section, Figure 5C–D (not provided)
+  - **Issue** The NMR data are described qualitatively ("all peaks are lost"). It would be helpful to quantify the extent of signal loss and to show representative spectra in the main text, not just in supplementary material.
+  - **Required correction** Include a representative overlaid spectrum (free vs. titrated) in the main figure, and report the number of peaks assigned and lost.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, phase separation
+  - **Evidence pointer** Results, "Motifs With Implication for the Life Cycle of MTMR Proteins"
+  - **Issue** The authors mention phase separation as a potential function but do not provide any experimental evidence or detailed sequence-based prediction (e.g., using catGRANULE or PScore) to support this. The link between multivalency and phase separation is stated as a general principle, not a specific prediction for MTMRs.
+  - **Required correction** Either add a specific prediction for phase-separation propensity in MTMR CTDs or soften the claim to note that multivalency is a prerequisite but not sufficient for phase separation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction, Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript cites recent work on MTMR7 interactions with KRAS and PPARγ, but does not discuss the broader literature on disordered regions in lipid phosphatases or related enzyme families. A brief comparison to other families where disordered regions have been shown to mediate non-catalytic functions would strengthen the context.
+  - **Required correction** Add a short paragraph in the Discussion comparing the MTMR CTDs to well-characterized disordered regions in other enzyme families (e.g., PTEN, kinases).
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses the term "SLiMs" without defining it. While specialists will know this, the journal's readership may include non-specialists.
+  - **Required correction** Spell out "short linear motifs (SLiMs)" at first use in the abstract.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of statistical control for SLiM enrichment.
+  - R1-M2: Overgeneralized conclusion about AF3 utility based on limited data.
+  - R1-M3: Insufficient determination of oligomeric stoichiometry.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The focus on MTMR CTDs is novel, and the experimental characterization of MTMR7-CC and MTMR9-CC oligomerization provides new data. However, the bioinformatic approach is standard, and the conceptual framework (disordered regions as functional hubs) is well established.
+  - **Scientific importance** Moderate. The manuscript strengthens the case that MTMRs have functions beyond phosphatase activity, which is important for understanding their roles in disease. However, the claims are largely predictive, and the direct disease relevance is not experimentally demonstrated.
+  - **Interdisciplinary readership** Limited. The manuscript will primarily appeal to biophysicists and biochemists studying disordered proteins and to cell biologists working on phosphoinositide signaling. The clinical relevance is mentioned but not developed.
+  - **Technical soundness** The experimental methods (CD, NMR, cross-linking) are appropriate, but the stoichiometry determination is incomplete. The bioinformatic analyses lack statistical rigor. The manuscript is technically sound in execution but not in the strength of the conclusions drawn.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, but the abstract and some sections assume familiarity with disordered protein concepts. The lack of figure access in the provided text makes it difficult to fully assess readability.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a valid gap and provides useful hypotheses and some novel experimental data. However, the central claims require stronger statistical support for the bioinformatic predictions and more rigorous determination of oligomeric states. If these are addressed, the manuscript would be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that MTMR CTDs are "brimming with SLiMs" is unsupported without statistical enrichment analysis.
+- The claim that "AF3 is not yet a helpful tool" for MTMR CC domains is an overgeneralization from a small, non-systematic test.
+- The prediction that MTMRs are involved in phase separation is speculative and not supported by any direct or indirect experimental evidence.
+- The extrapolation from MTMR7-CC and MTMR9-CC behavior to the entire family's oligomerization landscape is not supported by the limited data.
+- The statement that "the predictions show that the CTDs are disordered and carry SLiMs important for targeting of MTMRs to defined subcellular compartments" overstates the certainty of the predictions, which are based on in silico tools with known limitations.

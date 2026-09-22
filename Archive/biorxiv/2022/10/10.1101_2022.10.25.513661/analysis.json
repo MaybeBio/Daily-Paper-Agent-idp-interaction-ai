@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.10.25.513661",
+  "title": "The structure of pathogenic huntingtin exon-1 defines the bases of its aggregation propensity",
+  "authors": "Elena-Real CA; Sagar A; Urbanek A; Popovic M; Morató A; Estaña A; Fournet A; Lund XL; Shi Z; Costa L; Thureau A; Allemand F; Swenson RE; Milhiet P; Barducci A; Cortés J; Sinnaeve D; Sibille N; Bernadó P",
+  "journal": "bioRxiv",
+  "published_date": "2022-10-26",
+  "window": {
+    "start": "2022-10-24",
+    "end": "2022-10-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过NMR与分子动力学模拟揭示致病性亨廷顿蛋白外显子1中poly-Q区域形成长α-螺旋的构象机制及其对聚集动力学的影响，对象为无序蛋白IDR、涉及聚集互作机制且采用物理模拟方法，高度契合本课题。",
+  "abstract": "Huntington’s Disease is a neurodegenerative disorder caused by a CAG expansion of the first exon of the HTT gene, resulting in an extended poly-glutamine (poly-Q) tract in the N-terminus of the protein huntingtin (httex1). The structural changes occurring to the poly-Q when increasing its length remain poorly understood mainly due to its intrinsic flexibility and the strong compositional bias of the protein. The systematic application of site-specific isotopic labeling has enabled residue-specific NMR investigations of the poly-Q tract of pathogenic httex1 variants with 46 and 66 consecutive glutamines. The integrative analysis of the data reveals that the poly-Q tract adopts long α-helical conformations stabilized by glutamine side-chain to backbone hydrogen bonds. 19 F-NMR of site-specifically incorporated fluoro-glutamines and molecular dynamics simulations demonstrate that the mechanism propagating α-helical conformations towards the poly-Q from the upstream N17 domain is independent of the poly-Q track length. Aggregation and atomic force microscopy experiments show that the presence of long and persistent α-helices in the poly-Q tract is a stronger signature in defining the aggregation kinetics and the structure of the resulting fibrils than the number of glutamines. The ensemble of our observations provides a structural perspective of the pathogenicity of expanded httex1 and paves the way to a deeper understanding of poly-Q related diseases.",
+  "abstract_zh": "亨廷顿病是一种神经退行性疾病，由HTT基因第一外显子的CAG扩增引起，导致蛋白质亨廷顿蛋白（httex1）N端出现延长的多聚谷氨酰胺（poly-Q）片段。由于poly-Q固有的柔性和蛋白质强烈的组成偏倚，其长度增加时发生的结构变化仍知之甚少。位点特异性同位素标记的系统应用使得对具有46和66个连续谷氨酰胺的致病性httex1变体中poly-Q片段进行残基特异性核磁共振（NMR）研究成为可能。数据的综合分析揭示，poly-Q片段采用长α-螺旋构象，该构象由谷氨酰胺侧链与主链之间的氢键稳定。位点特异性掺入氟代谷氨酰胺的19F-NMR和分子动力学 (molecular dynamics) 模拟表明，从上游N17结构域向poly-Q传播α-螺旋构象的机制与poly-Q片段长度无关。聚集和原子力显微镜实验显示，poly-Q片段中长且持久的α-螺旋的存在在定义聚集动力学和所得原纤维结构方面，比谷氨酰胺数量更具标志性。我们的观察结果整体提供了扩展httex1致病性的结构视角，并为更深入理解poly-Q相关疾病铺平了道路。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.10.25.513661",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.10.25.513661",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.10.25.513661/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34888535",
+  "title": "Integrative structural dynamics probing of the conformational heterogeneity in synaptosomal-associated protein 25.",
+  "authors": "Saikia, Nabanita; Yanez-Orozco, Inna S; Qiu, Ruoyi; Hao, Pengyu; Milikisiyants, Sergey; Ou, Erkang; Hamilton, George L; Weninger, Keith R; Smirnova, Tatyana I; Sanabria, Hugo; Ding, Feng",
+  "journal": "Cell reports. Physical science",
+  "published_date": "2021-12-11",
+  "window": {
+    "start": "2021-12-06",
+    "end": "2021-12-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该文整合rxDMD模拟与单分子/系综实验，系统刻画IDP SNAP-25的构象异质性与螺旋-卷曲转变，为无序蛋白互作前的构象动态机制建模提供可迁移方法。",
+  "abstract": "SNAP-25 (synaptosomal-associated protein of 25 kDa) is a prototypical intrinsically disordered protein (IDP) that is unstructured by itself but forms coiled-coil helices in the SNARE complex. With high conformational heterogeneity, detailed structural dynamics of unbound SNAP-25 remain elusive. Here, we report an integrative method to probe the structural dynamics of SNAP-25 by combining replica-exchange discrete molecular dynamics (rxDMD) simulations and label-based experiments at ensemble and single-molecule levels. The rxDMD simulations systematically characterize the coil-to-molten globular transition and reconstruct structural ensemble consistent with prior ensemble experiments. Label-based experiments using Forster resonance energy transfer and double electron-electron resonance further probe the conformational dynamics of SNAP-25. Agreements between simulations and experiments under both ensemble and single-molecule conditions allow us to assign specific helix-coil transitions in SNAP-25 that occur in submillisecond timescales and potentially play a vital role in forming the SNARE complex. We expect that this integrative approach may help further our understanding of IDPs.",
+  "abstract_zh": "SNAP-25（25 kDa突触体相关蛋白）是一种典型的固有无序蛋白（IDP），其本身无结构，但在SNARE复合物中形成卷曲螺旋。由于具有高度构象异质性，未结合状态下SNAP-25的详细结构动力学仍难以捉摸。在此，我们报告了一种整合方法，通过结合副本交换离散分子动力学（rxDMD）模拟以及基于标记的群体和单分子水平实验，来探测SNAP-25的结构动力学。rxDMD模拟系统地表征了从无规卷曲到熔球态的转变，并重建了与先前群体实验一致的结构系综。使用福斯特共振能量转移和双电子-电子共振的基于标记实验进一步探测了SNAP-25的构象动力学。在群体和单分子条件下，模拟与实验之间的一致性使我们能够指定SNAP-25中在亚毫秒时间尺度上发生的特定螺旋-卷曲转变，这些转变可能在形成SNARE复合物中发挥关键作用。我们预期这种整合方法可能有助于加深我们对IDPs的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34888535/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34888535/",
+  "paper_page_path": "papers/pubmed/34888535/index.html"
+}

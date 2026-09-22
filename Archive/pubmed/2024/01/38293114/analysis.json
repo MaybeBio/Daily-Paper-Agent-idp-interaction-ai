@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38293114",
+  "title": "The blobulator: a toolkit for identification and visual exploration of hydrophobic modularity in protein sequences.",
+  "authors": "Pitman, Connor; Santiago-McRae, Ezry; Lohia, Ruchi; Lamb, Ryan; Bassi, Kaitlin; Riggs, Lindsey; Joseph, Thomas T; Hansen, Matthew E B; Brannigan, Grace",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-01-31",
+  "window": {
+    "start": "2024-01-29",
+    "end": "2024-02-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了blobulator工具包，用于识别和可视化蛋白质序列中的疏水模块，并在IDP模拟中辅助解释接触，但主要聚焦于序列特征分析而非PPI互作机制建模。",
+  "abstract": "While contiguous subsequences of hydrophobic residues are essential to protein structure and function, as in the hydrophobic core and transmembrane regions, there are no current bioinformatics tools for module identification focused on hydrophobicity. To fill this gap, we created the blobulator toolkit for detecting, visualizing, and characterizing hydrophobic modules in protein sequences. This toolkit uses our previously developed algorithm, blobulation, which was critical in both interpreting intra-protein contacts in a series of intrinsically disordered protein simulations [1] and defining the \"local context\" around disease-associated mutations across the human proteome [2]. The blobulator toolkit provides accessible, interactive, and scalable implementations of blobulation. These are available via a webtool, a VMD plugin, and a command line interface. We highlight use cases for visualization, interaction analysis, and modular annotation through three example applications: a globular protein, two orthologous membrane proteins, and an IDP. The blobulator webtool can be found at www.blobulator.branniganlab.org, and the source code with pip installable command line tool, as well as the VMD plugin with installation instructions, can be found on GitHub at www.GitHub.com/BranniganLab/blobulator.",
+  "abstract_zh": "虽然连续的疏水残基子序列对蛋白质结构和功能至关重要，如疏水核心和跨膜区域，但目前尚无专注于疏水性的模块识别生物信息学工具。为填补这一空白，我们创建了blobulator工具包，用于检测、可视化和表征蛋白质序列中的疏水模块。该工具包采用我们先前开发的算法blobulation，该算法在解释一系列固有无序蛋白质模拟中的蛋白质内接触[1]以及定义人类蛋白质组中疾病相关突变周围的“局部上下文”[2]方面均发挥了关键作用。blobulator工具包提供了blobulation的可访问、交互式和可扩展实现，可通过网络工具、VMD插件和命令行界面获得。我们通过三个示例应用突出展示了可视化、相互作用分析和模块化注释的用例：一个球状蛋白质、两个直系同源膜蛋白质和一个IDP。blobulator网络工具可在www.blobulator.branniganlab.org找到，源代码（含可通过pip安装的命令行工具）以及带安装说明的VMD插件可在GitHub上的www.GitHub.com/BranniganLab/blobulator获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38293114/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38293114/",
+  "paper_page_path": "papers/pubmed/38293114/index.html"
+}

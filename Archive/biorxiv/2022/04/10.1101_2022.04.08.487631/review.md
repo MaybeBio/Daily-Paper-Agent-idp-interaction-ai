@@ -1,0 +1,59 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supporting information captions.
+- **Assessment boundary** Scientific content, technical soundness, and internal consistency of the reported findings. No assessment of data availability, code, or external reproducibility beyond the provided text.
+- **Shared manuscript claim summary** The authors report the recombinant expression, purification, biophysical characterization, and low-resolution X-ray diffraction of the mature, membrane-localized form of FopA from Francisella tularensis. They propose a dimeric, two-domain architecture comprising an N-terminal eight-stranded β-barrel and a C-terminal OmpA-like domain connected by a long, flexible linker.
+- **Visible evidence base** Abstract; Results sections on bioinformatics, expression/purification, biophysical characterization (CD, native-PAGE, SEC, DLS, negative stain EM, SAXS), and crystallization/X-ray diffraction; Discussion; Materials and Methods; Supporting information captions (S1-S5 Figs, S1-S3 Tables).
+- **Missing materials affecting confidence** The actual figures, tables, and supporting information files are not provided. Specific numerical data for CD deconvolution, SAXS parameters (e.g., Rg, Dmax, MW estimates), and X-ray diffraction statistics are referenced but not visible. No raw data or statistical analyses are available for independent verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic and technically sound approach to characterizing a challenging membrane protein. The combination of bioinformatics, biophysical methods, and initial crystallographic data is appropriate and the conclusions are largely consistent with the described evidence. However, the absence of the actual figures and tables limits the ability to fully verify the claims, particularly regarding the SAXS-derived model and the quality of the X-ray data. The proposed structural model, while plausible, relies heavily on predictions and low-resolution data and should be framed with appropriate caution.
+- **Who would be interested in the results, and why** Researchers in the fields of bacterial pathogenesis, membrane protein biochemistry, and structural biology. The work is directly relevant to those studying Francisella tularensis virulence mechanisms and vaccine development. The methodological pipeline for expressing and characterizing a difficult membrane protein may also be of interest to a broader audience working on similar systems.
+- **Major strengths** The study addresses a significant gap in knowledge regarding the structure of a key virulence factor. The experimental strategy is logical and multi-pronged, combining predictive and experimental approaches. The successful expression, purification, and crystallization of a membrane protein with a long disordered region is a notable technical achievement. The use of multiple complementary biophysical techniques (CD, native-PAGE, SEC, DLS, SAXS) strengthens the conclusions about oligomeric state and domain organization.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that SAXS data supports a dimeric model with a specific arrangement of N-terminal β-barrels and C-terminal domains connected by a flexible linker.
+    - **Evidence pointer** Results section "Purified FopA is predominantly a dimer and has a distinct molecular envelope"; Figure 6 and 7; Table 1.
+    - **Concern** The interpretation of the SAXS data, particularly the 31 Å ab initio envelope, is presented as strong evidence for the proposed domain arrangement. However, the resolution is very low, and the envelope is likely to be an average of multiple conformations given the predicted flexibility. The assignment of high-density regions to specific domains (N-terminal barrel vs. C-terminal domains) is speculative without additional validation, such as fitting the predicted domain structures into the envelope or performing contrast variation experiments.
+    - **Why it matters** The proposed structural model is a central conclusion of the paper. If the SAXS interpretation is over-stated, the model may be incorrect or misleading, which could misdirect future studies on FopA function and structure.
+    - **Resolution test** The authors should provide a quantitative fit of the proposed dimeric model (e.g., using predicted structures of the N-terminal barrel and the known C-terminal domain structure) into the SAXS envelope. They should also discuss the inherent limitations of interpreting envelopes at this resolution for flexible, multi-domain proteins. If fitting is not possible, the model should be presented as a hypothesis, not a definitive conclusion.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that the X-ray diffraction data, despite being low-resolution and anisotropic, represents a significant step towards structure determination.
+    - **Evidence pointer** Results section "FopA was crystallized and X-ray diffracted to ∼6.5 Å"; Figure 8; S3 Table.
+    - **Concern** The manuscript reports X-ray diffraction to ~6.5 Å with severe anisotropy and a low number of unique reflections. While this is a preliminary result, the claim that it "paves the way" for structure determination is not fully supported. The data quality, as described, is insufficient for even a low-resolution structure solution, and no details on data completeness, multiplicity, or merging statistics are provided. The authors do not discuss a strategy for overcoming the anisotropy or improving the crystals.
+    - **Why it matters** The crystallographic data is presented as a key outcome of the work. Without a clear path to improve crystal quality or a demonstration that the data can be used for meaningful structural information (e.g., molecular replacement), the significance of this result is limited.
+    - **Resolution test** The authors should provide a more detailed analysis of the diffraction data, including statistics on completeness and I/σI in the highest resolution shell. They should also discuss specific strategies for crystal optimization (e.g., additive screening, dehydration, seeding) and whether the current data is suitable for any preliminary phasing attempts.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity and presentation
+    - **Affected element** Abstract and Discussion
+    - **Evidence pointer** Abstract; Discussion section
+    - **Issue** The abstract and discussion state that FopA has "less than 40% sequence identity to known bacterial Omps" and is a "major outer membrane protein." While this is likely true, the specific percentage and the definition of "major" are not quantified in the text. The abstract also implies a definitive structural model, which is not fully supported by the data.
+    - **Required correction** Clarify the basis for the "major" designation (e.g., abundance, immunogenicity) and consider softening the language in the abstract to reflect that the proposed model is a hypothesis based on current data.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Results section "FopA has a transmembrane β-barrel domain"
+    - **Evidence pointer** Figure 5B
+    - **Issue** The heat modifiability assay is described, but the figure is not visible. The text states the protein is "properly folded" based on this assay. It would be helpful to state the expected apparent molecular weight shift and whether the observed shift is consistent with a β-barrel of the predicted size.
+    - **Required correction** Provide the expected and observed molecular weights for the folded and unfolded states in the text or figure legend.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Clarity and presentation
+    - **Affected element** Materials and Methods, "Small angle X-ray scattering experiments"
+    - **Evidence pointer** Materials and Methods section
+    - **Issue** The SAXS data collection and analysis are described, but key parameters such as the concentration range, buffer conditions, and the specific software used for Guinier and P(r) analysis are not fully detailed. The resolution of the final envelope is stated as 31 Å, but the method for determining this resolution is not mentioned.
+    - **Required correction** Add details on the SAXS data collection parameters, the concentration series used, and the method for estimating the resolution of the reconstructed envelope.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the over-interpretation of low-resolution data (SAXS envelope and X-ray diffraction) to support a detailed structural model. The lack of quantitative validation for the SAXS model and the absence of a clear strategy for improving the X-ray data are significant gaps. The manuscript would be strengthened by a more cautious interpretation of these results and a clearer discussion of their limitations.
+
+## Risk / unsupported claims
+- The specific dimeric arrangement of the N-terminal β-barrels and the connection to the C-terminal domains via a flexible linker, as derived from the 31 Å SAXS envelope, is not fully supported by the provided evidence and should be considered a hypothesis.
+- The claim that the X-ray diffraction data "pave the way" towards structure determination is not fully supported, as the data quality is insufficient for structure solution and no optimization strategy is presented.
+- The statement that FopA is a "major" outer membrane protein is not quantified in the text.
+- The secondary structure percentages estimated from CD spectroscopy (S2 Table) are referenced but not visible, making the claim of a β-barrel structure reliant on the heat modifiability assay and prediction, which is reasonable but not fully verifiable.

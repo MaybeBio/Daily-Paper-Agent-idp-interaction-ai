@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38932209",
+  "title": "Intrinsic Disorder in the Host Proteins Entrapped in Rabies Virus Particles.",
+  "authors": "Ashraf, Hafiza Nimra; Uversky, Vladimir N",
+  "journal": "Viruses",
+  "published_date": "2024-06-27",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过蛋白质组学和生物信息学工具分析狂犬病毒颗粒内高无序宿主蛋白的IDP特性，推测其在病毒致病和免疫逃逸中的作用，但缺乏对PPI结合机制或AI/物理模拟的实质建模，仅作预测性关联分析。",
+  "abstract": "A proteomics analysis of purified rabies virus (RABV) revealed 47 entrapped host proteins within the viral particles. Out of these, 11 proteins were highly disordered. Our study was particularly focused on five of the RABV-entrapped mouse proteins with the highest levels of disorder: Neuromodulin, Chmp4b, DnaJB6, Vps37B, and Wasl. We extensively utilized bioinformatics tools, such as FuzDrop, D(2)P(2), UniProt, RIDAO, STRING, AlphaFold, and ELM, for a comprehensive analysis of the intrinsic disorder propensity of these proteins. Our analysis suggested that these disordered host proteins might play a significant role in facilitating the rabies virus pathogenicity, immune system evasion, and the development of antiviral drug resistance. Our study highlighted the complex interaction of the virus with its host, with a focus on how the intrinsic disorder can play a crucial role in virus pathogenic processes, and suggested that these intrinsically disordered proteins (IDPs) and disorder-related host interactions can also be a potential target for therapeutic strategies.",
+  "abstract_zh": "对纯化狂犬病病毒（RABV）的蛋白质组学分析揭示了病毒颗粒内包埋的47种宿主蛋白。其中，11种蛋白质高度无序。我们的研究特别关注了RABV包埋的小鼠蛋白中无序程度最高的五种：神经调节蛋白（Neuromodulin）、Chmp4b、DnaJB6、Vps37B和Wasl。我们广泛利用了生物信息学工具，如FuzDrop、D(2)P(2)、UniProt、RIDAO、STRING、AlphaFold和ELM，对这些蛋白质的内在无序倾向进行了全面分析。我们的分析表明，这些无序宿主蛋白可能在促进狂犬病病毒致病性、免疫系统逃逸以及抗病毒药物耐药性的发展中发挥重要作用。我们的研究强调了病毒与其宿主之间的复杂相互作用，重点关注内在无序如何在病毒致病过程中发挥关键作用，并提示这些内在无序蛋白（IDPs）及与无序相关的宿主相互作用也可能成为治疗策略的潜在靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38932209/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38932209/",
+  "paper_page_path": "papers/pubmed/38932209/index.html"
+}

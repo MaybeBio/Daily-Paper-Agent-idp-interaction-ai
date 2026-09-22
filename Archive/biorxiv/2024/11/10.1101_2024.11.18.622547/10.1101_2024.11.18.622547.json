@@ -1,0 +1,733 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.18.622547",
+  "title": "Accurate <i>de novo</i> design of high-affinity protein binding macrocycles using deep learning",
+  "doi": "10.1101/2024.11.18.622547",
+  "abstract": "The development of macrocyclic binders to therapeutic proteins typically relies on large-scale screening methods that are resource-intensive and provide little control over binding mode. Despite considerable progress in physics-based methods for peptide design and deep-learning methods for protein design, there are currently no robust approaches for de novo design of protein-binding macrocycles. Here, we introduce RFpeptides, a denoising diffusion-based pipeline for designing macrocyclic peptide binders against protein targets of interest. We test 20 or fewer designed macrocycles against each of four diverse proteins and obtain medium to high-affinity binders against all selected targets. Designs against MCL1 and MDM2 demonstrate K D between 1-10 μM, and the best anti-GABARAP macrocycle binds with a K D of 6 nM and a sub-nanomolar IC 50 in vitro . For one of the targets, RbtA, we obtain a high-affinity binder with K D < 10 nM despite starting from the target sequence alone due to the lack of an experimentally determined target structure. X-ray structures determined for macrocycle-bound MCL1, GABARAP, and RbtA complexes match very closely with the computational design models, with three out of the four structures demonstrating Ca RMSD of less than 1.5 Å to the design models. In contrast to library screening approaches for which determining binding mode can be a major bottleneck, the binding modes of RFpeptides-generated macrocycles are known by design, which should greatly facilitate downstream optimization. RFpeptides thus provides a powerful framework for rapid and custom design of macrocyclic peptides for diagnostic and therapeutic applications.",
+  "authors": [
+    "Stephen A. Rettie",
+    "David Juergens",
+    "Victor Adebomi",
+    "Yensi Flores Bueso",
+    "Qinqin Zhao",
+    "Alexandria N. Leveille",
+    "Andi Liu",
+    "Asim K. Bera",
+    "Joana A. Wilms",
+    "Alina Üffing",
+    "Alex Kang",
+    "Evans Brackenbrough",
+    "Mila Lamb",
+    "Stacey R. Gerben",
+    "Analisa Murray",
+    "Paul M. Levine",
+    "Maika Schneider",
+    "Vibha Vasireddy",
+    "Sergey Ovchinnikov",
+    "Oliver H. Weiergräber",
+    "Dieter Willbold",
+    "Joshua A. Kritzer",
+    "Joseph D. Mougous",
+    "David Baker",
+    "Frank DiMaio",
+    "Gaurav Bhardwaj"
+  ],
+  "published_date": "2024-11-18",
+  "updated_date": "2024-11-18T22:15:12Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.18.622547",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.18.622547.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            18
+          ]
+        ],
+        "date-time": "2026-09-18T17:03:22Z",
+        "timestamp": 1789751002036,
+        "version": "4.0.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            18
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 37,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                18
+              ]
+            ],
+            "date-time": "2024-11-18T00:00:00Z",
+            "timestamp": 1731888000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  The development of macrocyclic binders to therapeutic proteins typically relies on large-scale screening methods that are resource-intensive and provide little control over binding mode. Despite considerable progress in physics-based methods for peptide design and deep-learning methods for protein design, there are currently no robust approaches for\n                  <jats:italic>de novo</jats:italic>\n                  design of protein-binding macrocycles. Here, we introduce RFpeptides, a denoising diffusion-based pipeline for designing macrocyclic peptide binders against protein targets of interest. We test 20 or fewer designed macrocycles against each of four diverse proteins and obtain medium to high-affinity binders against all selected targets. Designs against MCL1 and MDM2 demonstrate K\n                  <jats:sub>D</jats:sub>\n                  between 1-10 μM, and the best anti-GABARAP macrocycle binds with a K\n                  <jats:sub>D</jats:sub>\n                  of 6 nM and a sub-nanomolar IC\n                  <jats:sub>50</jats:sub>\n                  <jats:italic>in vitro</jats:italic>\n                  . For one of the targets, RbtA, we obtain a high-affinity binder with K\n                  <jats:sub>D</jats:sub>\n                  &lt; 10 nM despite starting from the target sequence alone due to the lack of an experimentally determined target structure. X-ray structures determined for macrocycle-bound MCL1, GABARAP, and RbtA complexes match very closely with the computational design models, with three out of the four structures demonstrating Ca RMSD of less than 1.5 Å to the design models. In contrast to library screening approaches for which determining binding mode can be a major bottleneck, the binding modes of RFpeptides-generated macrocycles are known by design, which should greatly facilitate downstream optimization. RFpeptides thus provides a powerful framework for rapid and custom design of macrocyclic peptides for diagnostic and therapeutic applications.\n                </jats:p>",
+      "DOI": "10.1101/2024.11.18.622547",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            18
+          ]
+        ],
+        "date-time": "2024-11-18T22:15:12Z",
+        "timestamp": 1731968112000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 18,
+      "title": [
+        "Accurate\n                  <i>de novo</i>\n                  design of high-affinity protein binding macrocycles using deep learning"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-9797-6939",
+          "authenticated-orcid": false,
+          "given": "Stephen A.",
+          "family": "Rettie",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6425-8391",
+          "authenticated-orcid": false,
+          "given": "David",
+          "family": "Juergens",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4573-5102",
+          "authenticated-orcid": false,
+          "given": "Victor",
+          "family": "Adebomi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2118-2195",
+          "authenticated-orcid": false,
+          "given": "Yensi Flores",
+          "family": "Bueso",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qinqin",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0534-4828",
+          "authenticated-orcid": false,
+          "given": "Alexandria N.",
+          "family": "Leveille",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andi",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9473-2912",
+          "authenticated-orcid": false,
+          "given": "Asim K.",
+          "family": "Bera",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5655-7009",
+          "authenticated-orcid": false,
+          "given": "Joana A.",
+          "family": "Wilms",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8808-1033",
+          "authenticated-orcid": false,
+          "given": "Alina",
+          "family": "Üffing",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-5487-0499",
+          "authenticated-orcid": false,
+          "given": "Alex",
+          "family": "Kang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-1476-0219",
+          "authenticated-orcid": false,
+          "given": "Evans",
+          "family": "Brackenbrough",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7318-1805",
+          "authenticated-orcid": false,
+          "given": "Mila",
+          "family": "Lamb",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0313-6248",
+          "authenticated-orcid": false,
+          "given": "Stacey R.",
+          "family": "Gerben",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1560-6673",
+          "authenticated-orcid": false,
+          "given": "Analisa",
+          "family": "Murray",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4874-5557",
+          "authenticated-orcid": false,
+          "given": "Paul M.",
+          "family": "Levine",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maika",
+          "family": "Schneider",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Vibha",
+          "family": "Vasireddy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2774-2744",
+          "authenticated-orcid": false,
+          "given": "Sergey",
+          "family": "Ovchinnikov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2410-3691",
+          "authenticated-orcid": false,
+          "given": "Oliver H.",
+          "family": "Weiergräber",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0065-7366",
+          "authenticated-orcid": false,
+          "given": "Dieter",
+          "family": "Willbold",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2878-6781",
+          "authenticated-orcid": false,
+          "given": "Joshua A.",
+          "family": "Kritzer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5417-4861",
+          "authenticated-orcid": false,
+          "given": "Joseph D.",
+          "family": "Mougous",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7896-6217",
+          "authenticated-orcid": false,
+          "given": "David",
+          "family": "Baker",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7524-8938",
+          "authenticated-orcid": false,
+          "given": "Frank",
+          "family": "DiMaio",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6554-2335",
+          "authenticated-orcid": false,
+          "given": "Gaurav",
+          "family": "Bhardwaj",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.8b13178"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41573-020-00135-8"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ejmech.2015.01.014"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41573-020-00114-z"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2022.07.019"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature19791"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aap7577"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2012800118"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-23609-8"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-43718-w"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.02.25.529956"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.12",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Grambow, C. A. , Weir, H. , Cunningham, C. N. , Biancalani, T. & Chuang, K. V. CREMP: Conformer-Rotamer Ensembles of Macrocyclic Peptides for Machine Learning. arXiv [q-bio.BM] (2023).",
+          "DOI": "10.1038/s41597-024-03698-y"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, C. et al. HighFold: accurately predicting structures of cyclic peptides and complexes with head-to-tail and disulfide bridge constraints. Brief. Bioinform. 25, (2024).",
+          "DOI": "10.1093/bib/bbae215"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-023-05464-z"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acscentsci.3c01488"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, Q. , Vlachos, E. N. & Bryant, P. Design of linear and cyclic peptide binders of different lengths from protein sequence information. bioRxiv (2024).",
+          "DOI": "10.1101/2024.06.20.599739"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06415-8"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06953-1"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sci-ence.adl2528"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42003-021-02564-6"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-020-0848-2"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.274.5289.948"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.yexcr.2015.02.003"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.2c04699"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "904",
+          "DOI": "10.1038/s41467-022-28520-4",
+          "article-title": "The AUTOTAC chemical biology platform for targeted protein degradation via the autophagy-lysosome system",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/15548627.2015.1111503"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2008.06.086"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/MCSE.2007.55"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.21105/joss.03021"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/PRO.3943"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.32",
+          "unstructured": "van der Maaten, L. Visualizing Data using t-SNE. https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf?fbcl (2008)."
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki524"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.34",
+          "unstructured": "Pedregosa, F. et al. Scikit-learn: Machine Learning in Python. arXiv [cs.LG] 2825–2830 (2012)."
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.12.22.573103"
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.36",
+          "unstructured": "Sternberg, A. MaxCluster: a tool for protein structure comparison and clustering. http://www.sbg.bio.ic.ac.uk/maxcluster/index.html."
+        },
+        {
+          "key": "2024112105451136000_2024.11.18.622547v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/16.9.776"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.11.18.622547",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:29:27Z",
+        "timestamp": 1768462167000
+      },
+      "score": 33.80176,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.11.18.622547"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            18
+          ]
+        ]
+      },
+      "references-count": 37,
+      "URL": "https://doi.org/10.1101/2024.11.18.622547",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            18
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

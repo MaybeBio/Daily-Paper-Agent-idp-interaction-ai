@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "34576338",
+    "doi": "10.3390/ijms221810174",
+    "title": "Molecular Dynamics Simulations of Phosphorylated Intrinsically Disordered Proteins: A Force Field Comparison."
+  },
+  "content": {
+    "abstract": "Phosphorylation is a common post-translational modification among intrinsically disordered proteins and regions, which helps regulate function by changing the protein conformations, dynamics, and interactions with binding partners. To fully comprehend the effects of phosphorylation, computer simulations are a helpful tool, although they are dependent on the accuracy of the force field used. Here, we compared the conformational ensembles produced by Amber ff99SB-ILDN+TIP4P-D and CHARMM36m, for four phosphorylated disordered peptides ranging in length from 14-43 residues. CHARMM36m consistently produced more compact conformations with a higher content of bends, mainly due to more stable salt bridges. Based on comparisons with experimental size estimates for the shortest and longest peptide, CHARMM36m appeared to overestimate the compactness. The difference between the force fields was largest for the peptide showing the greatest separation between positively charged and phosphorylated residues, in line with the importance of charge distribution. For this peptide, the conformational ensemble did not change significantly upon increasing the ionic strength from 0 mM to 150 mM, despite a reduction of the salt-bridging probability in the CHARMM36m simulations, implying that salt concentration has negligible effects in this study.",
+    "keywords": [
+      "force fields",
+      "intrinsically disordered proteins",
+      "phosphorylation"
+    ],
+    "mesh_terms": [
+      "Hydrophobic and Hydrophilic Interactions",
+      "Intrinsically Disordered Proteins/*chemistry/*metabolism",
+      "*Molecular Dynamics Simulation",
+      "Phosphorylation",
+      "Protein Folding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rieloff, Ellen",
+        "Skepo, Marie"
+      ],
+      "short_names": [
+        "Rieloff E",
+        "Skepo M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4502-8395",
+        "ORCID: 0000-0002-8639-9993"
+      ],
+      "affiliations": [
+        "Division of Theoretical Chemistry, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden.",
+        "Division of Theoretical Chemistry, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden.",
+        "LINXS-Lund Institute of Advanced Neutron and X-ray Science, Scheelevagen 19, SE-223 70 Lund, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rieloff, Ellen",
+        "short_name": "Rieloff E",
+        "identifiers": [
+          "0000-0002-4502-8395"
+        ],
+        "affiliations": [
+          "Division of Theoretical Chemistry, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Skepö, Marie",
+        "short_name": "Skepö M",
+        "identifiers": [
+          "0000-0002-8639-9993"
+        ],
+        "affiliations": [
+          "Division of Theoretical Chemistry, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden.",
+          "LINXS-Lund Institute of Advanced Neutron and X-ray Science, Scheelevägen 19, SE-223 70 Lund, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Sep 21",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/29 06:00",
+    "fetched_at": "2026-09-20 05:39:35"
+  },
+  "links": {
+    "cites": [
+      "42518455",
+      "42172087",
+      "39830132",
+      "39685120",
+      "39539017",
+      "39536029",
+      "39462994",
+      "39183923",
+      "38973087",
+      "38915510",
+      "38830621",
+      "38230670",
+      "37890778",
+      "37870995",
+      "37788371",
+      "37676592",
+      "37530723",
+      "37143168",
+      "36969402",
+      "36506032",
+      "36232586",
+      "35409045",
+      "34681718"
+    ],
+    "refs": [
+      "33945530",
+      "33909430",
+      "32050065",
+      "32015543",
+      "31713840",
+      "31396897",
+      "31194908",
+      "30878202",
+      "29910983",
+      "29735687",
+      "29573987",
+      "29548755",
+      "29080468",
+      "28808438",
+      "28226222",
+      "28076807",
+      "27819658",
+      "27807972",
+      "26789759",
+      "26620784",
+      "26575776",
+      "26488642",
+      "26165593",
+      "25764013",
+      "25380779",
+      "24889800",
+      "24702709",
+      "24559475",
+      "23901099",
+      "23407358",
+      "23264757",
+      "22889332",
+      "21539772",
+      "21530234",
+      "21483785",
+      "20408171",
+      "20399186",
+      "19778072",
+      "18855662",
+      "17929924",
+      "17212484",
+      "16240095",
+      "15060287",
+      "12368089",
+      "12206505",
+      "11749371",
+      "11381529",
+      "10677823",
+      "9745898",
+      "8749853",
+      "8744570",
+      "6667333",
+      "1313424"
+    ],
+    "similar": [
+      "34576338",
+      "33382616",
+      "25207671",
+      "27819658",
+      "34681718",
+      "32050065",
+      "29235155",
+      "26910732",
+      "33945530",
+      "34524800",
+      "30865832",
+      "25017730",
+      "36232586",
+      "31470695",
+      "29309620",
+      "26020564",
+      "30514082",
+      "26742101",
+      "32654182",
+      "36080494",
+      "29080468",
+      "26575776",
+      "37646172",
+      "35950933",
+      "31552948",
+      "39074869",
+      "24589355",
+      "29548979",
+      "30259679",
+      "36387274",
+      "25533957",
+      "30840442",
+      "27727496",
+      "25814479",
+      "31951234",
+      "32816485",
+      "35174713",
+      "26784558",
+      "28095698",
+      "30433786",
+      "30193467",
+      "33909430",
+      "31613621",
+      "25387963",
+      "29735687",
+      "29734867",
+      "34152264",
+      "32323533",
+      "26735936",
+      "31362509",
+      "33459730",
+      "35048087",
+      "29573987",
+      "33876640",
+      "29537020",
+      "30250773",
+      "36934808",
+      "33355572",
+      "34845619",
+      "32184088",
+      "33444020",
+      "22904695",
+      "31756104",
+      "31509121",
+      "30979035",
+      "29808548",
+      "33076213",
+      "31724233",
+      "34883116",
+      "27243806",
+      "32859072",
+      "34509724",
+      "29990433",
+      "29185737",
+      "26030189",
+      "33581430",
+      "36800279",
+      "31657215",
+      "30420606",
+      "33810353",
+      "26912067",
+      "32325001",
+      "36468450",
+      "32579908",
+      "30823702",
+      "31241933",
+      "33122085",
+      "36533639",
+      "26195786",
+      "37905972",
+      "25919886",
+      "30878202",
+      "33078950",
+      "31356683",
+      "38739602",
+      "30933517",
+      "27484738",
+      "33454008",
+      "31402649",
+      "26574339",
+      "30813315",
+      "33167839",
+      "29424691",
+      "35298814",
+      "38877893",
+      "38892222",
+      "33453267",
+      "37990496",
+      "39196938",
+      "39089542",
+      "27807972",
+      "31936201",
+      "39190324",
+      "36774359",
+      "27392146",
+      "36774964",
+      "38053335",
+      "37155239",
+      "39384813",
+      "34680162",
+      "37134270",
+      "38965780",
+      "38607226",
+      "35912826",
+      "38973087",
+      "38915510",
+      "38830621",
+      "28003858",
+      "39186607",
+      "39285530",
+      "37648703",
+      "22754404",
+      "38605029",
+      "36711874",
+      "28387381",
+      "39253398",
+      "38687180",
+      "38057554"
+    ],
+    "review": [
+      "34576338",
+      "29080468",
+      "30840442",
+      "25814479",
+      "33355572",
+      "30979035",
+      "33167839",
+      "39196938",
+      "34680162"
+    ],
+    "pmc": [
+      "8470740"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms221810174",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34576338/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34576338",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

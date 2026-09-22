@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34736057",
+  "title": "From molecular dynamics to quantum mechanics of misfolded proteins and amyloid-like macroaggregates applied to neurodegenerative diseases.",
+  "authors": "Gillet, Jean-Numa",
+  "journal": "Journal of molecular graphics & modelling",
+  "published_date": "2021-11-05",
+  "window": {
+    "start": "2021-11-01",
+    "end": "2021-11-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文以朊蛋白（一种无序蛋白）为对象，结合经典分子动力学与从头量子力学方法，从结合自由能、界面残基转化到分子轨道对接，系统建模了错误折叠蛋白间PPI驱动的聚集与淀粉样纤维组装机制，对无序蛋白互作机制建模有直接启发。",
+  "abstract": "A misfolded protein compared with its native state lacks its biological function resulting in cell dysregulations and often death. Outdated hypotheses on protein folding must be revised: More realistic molecular models, focusing not only on classical molecular dynamics (MD) but also on ab initio quantum mechanics (QM) at the molecular orbitals (MOs) scale, which is not experimentally achievable, are presented to improve our understanding of the thermodynamics of the protein-protein interactions leading to misfolding and neurodegenerative diseases for future drug design. Protein misfolding is characterized by the formation of highly reactive beta-sheets oligomers leading to fibrillar macroscopic aggregates, which are studied with the models given herein that can be useful for the development of new immunotherapies against the Alzheimer's disease and prion, e.g. The example of the prion - an intrinsically disordered protein - is studied, but the models can be generalized to other misfolding diseases. The binding free energy and interactions in a complex of a misfolded prion with a native prion are first analyzed by MD and compared to a complex of two native conformers. A conversion of residues to toxic beta-sheets is observed in the optimized misfolded complex. Then, QM is used to compute, with a much better accuracy than that of MD, the binding free energy of the hydrophobic binding site, responsible of the aggregation, between the bound misfolded and native conformers in the misfolded complex. The latter quantity is significantly negative, so that aggregation is strong and fast. The frontier MOs from QM are used for docking to determine how the first repetitive beta-sheets building blocks of the nanofibrils can be assembled from initial cleaved complexes of the native and misfolded proteins. Successive aggregation of multiple monomers leads to an amyloid-like nanofibril that grows along a principal elongation direction, as also observed experimentally.",
+  "abstract_zh": "与天然状态相比，错误折叠的蛋白质丧失其生物学功能，导致细胞失调并常引发细胞死亡。关于蛋白质折叠的过时假说必须加以修正：本文提出了更真实的分子模型，不仅聚焦于经典分子动力学（molecular dynamics, MD），还涉及在分子轨道（molecular orbitals, MOs）尺度上实验上无法实现的从头量子力学（ab initio quantum mechanics, QM），以增进我们对导致错误折叠和神经退行性疾病的蛋白质-蛋白质相互作用热力学的理解，为未来药物设计提供支持。蛋白质错误折叠的特征是形成高反应性的β-折叠寡聚体，进而导致纤维状宏观聚集体的产生，本文给出的模型可用于研究这些聚集体，并可能有助于开发针对阿尔茨海默病和朊病毒病等的新型免疫疗法。以朊病毒——一种 intrinsically disordered protein——为例进行研究，但该模型可推广至其他错误折叠疾病。首先，通过MD分析错误折叠朊病毒与天然朊病毒复合物中的结合自由能和相互作用，并与两个天然构象体的复合物进行比较。在优化后的错误折叠复合物中，观察到残基向毒性β-折叠的转化。随后，利用QM以远高于MD的精度计算负责聚集的疏水结合位点在错误折叠复合物中结合的错误折叠与天然构象体之间的结合自由能。该量显著为负，表明聚集作用强烈且迅速。利用QM的前线分子轨道进行对接，以确定纳米纤维的首个重复β-折叠构建块如何从天然和错误折叠蛋白的初始切割复合物中组装而成。多个单体的连续聚集导致类淀粉样纳米纤维沿主伸长方向生长，这与实验观察结果一致。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34736057/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34736057/",
+  "paper_page_path": "papers/pubmed/34736057/index.html"
+}

@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "33498179",
+    "doi": "10.3390/ijms22030983",
+    "title": "Identification of Sortilin Alternatively Spliced Variants in Mouse 3T3L1 Adipocytes."
+  },
+  "content": {
+    "abstract": "Type 2 diabetes mellitus is a metabolic disorder defined by systemic insulin resistance. Insulin resistance in adipocytes, an important regulator of glucose metabolism, results in impaired glucose uptake. The trafficking protein, sortilin, regulates major glucose transporter 4 (Glut4) movement, thereby promoting glucose uptake in adipocytes. Here, we demonstrate the presence of an alternatively spliced sortilin variant (Sort(17b)), whose levels increase with insulin resistance in mouse 3T3L1 adipocytes. Using a splicing minigene, we show that inclusion of alternative exon 17b results in the expression of Sort(17b) splice variant. Bioinformatic analysis indicated a novel intrinsic disorder region (IDR) encoded by exon 17b of Sort(17b). Root mean square deviation (RMSD) and root mean square fluctuation (RMSF) measurements using molecular dynamics demonstrated increased flexibility of the protein backbone within the IDR. Using protein-protein docking and co-immunoprecipitation assays, we show robust binding of Glut4 to Sort(17b). Further, results demonstrate that over-expression of Sort(17b) correlates with reduced Glut4 translocation and decreased glucose uptake in adipocytes. The study demonstrates that insulin resistance in 3T3L1 adipocytes promotes expression of a novel sortilin splice variant with thus far unknown implications in glucose metabolism. This knowledge may be used to develop therapeutics targeting sortilin variants in the management of type 2 diabetes and metabolic syndrome.",
+    "keywords": [
+      "Glut4",
+      "Sortilin",
+      "adipocytes",
+      "alternative splicing",
+      "molecular dynamics",
+      "protein-protein docking"
+    ],
+    "mesh_terms": [
+      "3T3-L1 Cells",
+      "Adaptor Proteins, Vesicular Transport/chemistry/*genetics/metabolism",
+      "Adipocytes/metabolism",
+      "*Alternative Splicing",
+      "Animals",
+      "Binding Sites",
+      "Glucose/metabolism",
+      "Insulin Resistance",
+      "Intrinsically Disordered Proteins/chemistry",
+      "Mice",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Protein Domains",
+      "Sortilin"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lui, Ashley",
+        "Sparks, Robert",
+        "Patel, Rekha",
+        "Patel, Niketa A"
+      ],
+      "short_names": [
+        "Lui A",
+        "Sparks R",
+        "Patel R",
+        "Patel NA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4090-4680",
+        "ORCID: 0000-0003-4811-8596"
+      ],
+      "affiliations": [
+        "Department of Molecular Medicine, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA.",
+        "Department of Molecular Medicine, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA.",
+        "Research Service, James A. Haley Veteran's Hospital, Tampa, FL 33612, USA.",
+        "Department of Molecular Medicine, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA.",
+        "Research Service, James A. Haley Veteran's Hospital, Tampa, FL 33612, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lui, Ashley",
+        "short_name": "Lui A",
+        "identifiers": [
+          "0000-0003-4090-4680"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA."
+        ]
+      },
+      {
+        "full_name": "Sparks, Robert",
+        "short_name": "Sparks R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA."
+        ]
+      },
+      {
+        "full_name": "Patel, Rekha",
+        "short_name": "Patel R",
+        "identifiers": [],
+        "affiliations": [
+          "Research Service, James A. Haley Veteran's Hospital, Tampa, FL 33612, USA."
+        ]
+      },
+      {
+        "full_name": "Patel, Niketa A",
+        "short_name": "Patel NA",
+        "identifiers": [
+          "0000-0003-4811-8596"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA.",
+          "Research Service, James A. Haley Veteran's Hospital, Tampa, FL 33612, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Jan 20",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/01/28 06:00",
+    "fetched_at": "2026-09-20 01:05:51"
+  },
+  "links": {
+    "cites": [
+      "37762628",
+      "36397124"
+    ],
+    "refs": [
+      "32616519",
+      "31766750",
+      "31608989",
+      "31175156",
+      "31104815",
+      "30697159",
+      "30395287",
+      "28716821",
+      "28450454",
+      "28192432",
+      "27936493",
+      "27819658",
+      "27668217",
+      "26616056",
+      "26504501",
+      "25883148",
+      "25549265",
+      "25037567",
+      "24985322",
+      "23485461",
+      "23444368",
+      "23236149",
+      "23159624",
+      "22262463",
+      "22247191",
+      "21358643",
+      "20360767",
+      "20100603",
+      "19918805",
+      "19686698",
+      "18817523",
+      "18443370",
+      "17059388",
+      "16393139",
+      "16222654",
+      "15992544",
+      "15364913",
+      "12419319",
+      "11994746",
+      "11331584",
+      "9677404",
+      "9452485",
+      "8744570",
+      "8289285"
+    ],
+    "similar": [
+      "33498179",
+      "37762628",
+      "28450454",
+      "15992544",
+      "9452485",
+      "28844948",
+      "17050738",
+      "19219422",
+      "16713429",
+      "18469500",
+      "19146827",
+      "17220298",
+      "29767231",
+      "18771725",
+      "15774496",
+      "15928020",
+      "22262463",
+      "21910807",
+      "32593716",
+      "25561724",
+      "38105115",
+      "12456717",
+      "28846649",
+      "9677404",
+      "16497797",
+      "17202135",
+      "11016454",
+      "17475247",
+      "9065437",
+      "21195125",
+      "31683681",
+      "19258741",
+      "12297296",
+      "10772913",
+      "27816451",
+      "31806561",
+      "9341192",
+      "15665038",
+      "25586176",
+      "23219340",
+      "31330381",
+      "11217863",
+      "10834933",
+      "19195868",
+      "19968963",
+      "10713150",
+      "23313788",
+      "17536066",
+      "27207531",
+      "30389528",
+      "26407946",
+      "8995390",
+      "20721637",
+      "15576463",
+      "28063949",
+      "29773651",
+      "25596527",
+      "16339278",
+      "23253816",
+      "18258592",
+      "8243823",
+      "28325821",
+      "20026082",
+      "11701721",
+      "25956568",
+      "29676131",
+      "12974673",
+      "20816811",
+      "15231829",
+      "22601779",
+      "28905607",
+      "11079746",
+      "30111834",
+      "10383432",
+      "8243832",
+      "31945607",
+      "11145966",
+      "15582607",
+      "27791278",
+      "24705589",
+      "23167795",
+      "32004930",
+      "34784266",
+      "33769476",
+      "32738972",
+      "32474917",
+      "19122660",
+      "36683537",
+      "26305723"
+    ],
+    "review": [
+      "33498179",
+      "34784266",
+      "32474917"
+    ],
+    "pmc": [
+      "7863940"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms22030983",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33498179/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33498179",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33498179",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

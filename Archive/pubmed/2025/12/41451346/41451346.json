@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "41451346",
+    "doi": "10.3389/fbinf.2025.1641521",
+    "title": "Neurogenic locus notch homolog protein 1 (NOTCH 1) SNP informatics coupled with intrinsically disordered regions and post-translational modifications reveals the complex structural crosstalk of Lung Adenocarcinoma (LUAD)."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Lung adenocarcinoma (LUAD) is the predominant histological subtype of lung cancer, representing a major contributor to cancer mortality rate marked by a high frequency of mutations and intricate interactions between multiple signalling pathways. OBJECTIVE: Here we explore the role of NOTCH1 associated Single nucleotide polymorphisms (SNPs) IDR and PTM in LUAD progression. Although the NOTCH1 expression is downregulated, it has been validated as an important prognostic marker because of its complex biological roles under specific conditions. METHODS: With the aid of In silico tools we predicted and identified the deleterious SNPs. The Molecular Docking and dynamics simulations (MDS) were conducted to characterize these mutations. RESULTS: A total of 43 deleterious SNPs were found in the sequential SNP analysis with 13 SNPs resulted deleterious and damaging effects. The stabilizing SNPs such as S1464I, A1705V and T1602I are found within the conserved and functional domains of NOTCH1. In addition, 1660-2555 sequence region of the PEST domain was recognized as an Intrinsically Disordered Region (IDR) with a score of above 0.5. Moreover, the presence of the two phosphodegrons (SCF_FBW7_1 at 2129-2136 and SCF_FBW7_2 at 2508-2515) along with the Post Translational Modification (PTM) such as o-linked glycosylation and Phosphothreonine within the IDR region, PEST and conserved domains suggest functional significance in LUAD progression. CONCLUSION: In conclusion our research highlights the potential regulatory role of identified SNPs, PTMs, and the functional domains of Notch1, particularly the PEST domain and IDR, in pathophysiology of LUAD particularly through the crosstalk of the EMT signalling.",
+    "keywords": [
+      "deleterious SNP",
+      "epithelial-mesenchymal transition signaling",
+      "intrinsically disordered region",
+      "lung adenocarcinoma",
+      "molecular dynamics simulation",
+      "neurogenic locus notch homolog protein 1",
+      "post-translational modification"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "John, Pearl",
+        "Sudandiradoss, C"
+      ],
+      "short_names": [
+        "John P",
+        "Sudandiradoss C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, School of Biosciences and Technology, Vellore Institute of Technology, Vellore, Tamilnadu, India.",
+        "Department of Biotechnology, School of Biosciences and Technology, Vellore Institute of Technology, Vellore, Tamilnadu, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "John, Pearl",
+        "short_name": "John P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, School of Biosciences and Technology, Vellore Institute of Technology, Vellore, Tamilnadu, India."
+        ]
+      },
+      {
+        "full_name": "Sudandiradoss, C",
+        "short_name": "Sudandiradoss C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, School of Biosciences and Technology, Vellore Institute of Technology, Vellore, Tamilnadu, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/26 07:40",
+    "fetched_at": "2026-09-17 23:16:21"
+  },
+  "links": {
+    "cites": [
+      "42602159"
+    ],
+    "refs": [
+      "39427874",
+      "39092729",
+      "38636522",
+      "38544827",
+      "38389415",
+      "38282473",
+      "37962044",
+      "37957848",
+      "37709932",
+      "37582358",
+      "37173831",
+      "36923423",
+      "36305146",
+      "36223541",
+      "36117156",
+      "35332121",
+      "35301413",
+      "34795215",
+      "33806614",
+      "32884013",
+      "32482852",
+      "32075174",
+      "31943162",
+      "31681582",
+      "31114017",
+      "30030832",
+      "29572294",
+      "29299175",
+      "27507209",
+      "27378579",
+      "26930648",
+      "25821232",
+      "25477004",
+      "24773235",
+      "23856888",
+      "23279446",
+      "20041844",
+      "20007775",
+      "19768584",
+      "19379690",
+      "18799787",
+      "18663143",
+      "18427106",
+      "16429119",
+      "14988227",
+      "14976548",
+      "14701881",
+      "12824425",
+      "12022860"
+    ],
+    "similar": [
+      "41451346",
+      "39427874",
+      "38282473",
+      "33191397",
+      "37171793",
+      "37321467",
+      "39697539",
+      "37820570",
+      "39631830",
+      "26307970",
+      "24888500",
+      "31301363",
+      "41234561",
+      "36827926",
+      "40010763",
+      "40223999",
+      "35859664",
+      "39291803",
+      "32483111",
+      "29626537",
+      "40486872",
+      "39344317",
+      "40315631",
+      "38910478",
+      "29486777",
+      "38656135",
+      "41283948",
+      "36185284",
+      "39173230",
+      "41365991",
+      "37680151",
+      "39546155",
+      "38616208",
+      "35645555",
+      "39180939",
+      "38987529",
+      "38087364",
+      "40404106",
+      "40776873",
+      "26765751",
+      "40356720",
+      "38322947",
+      "40474806",
+      "37790630",
+      "40517220",
+      "40811979",
+      "29507390",
+      "34970415",
+      "32194819",
+      "40799432",
+      "37559628",
+      "38705823",
+      "30212242",
+      "38404047",
+      "41342621",
+      "34745947",
+      "30215764",
+      "37309595",
+      "27785690",
+      "33273537",
+      "36824434",
+      "38978503",
+      "39187946",
+      "40051143",
+      "36358727",
+      "38576019",
+      "35158979",
+      "34061466",
+      "31768767",
+      "39696439",
+      "37424293",
+      "37131252",
+      "40657370",
+      "41415280",
+      "39551781",
+      "35832442",
+      "37586202",
+      "26043787",
+      "40950705",
+      "34326698",
+      "38265702",
+      "33627133",
+      "25004243",
+      "37919050",
+      "25120100",
+      "39462268",
+      "38872157",
+      "32519739",
+      "39789998",
+      "38783288",
+      "33340396",
+      "36481966",
+      "28760777",
+      "36398231",
+      "39845190",
+      "36138468",
+      "34352456",
+      "31724233",
+      "34107009",
+      "41168822"
+    ],
+    "review": [
+      "41451346",
+      "31301363",
+      "38705823"
+    ],
+    "pmc": [
+      "12727990"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41451346/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-YWHAE-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-103",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbinf.2025.1641521",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

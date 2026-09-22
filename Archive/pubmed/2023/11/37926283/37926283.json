@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "37926283",
+    "doi": "10.1016/j.jbc.2023.105427",
+    "title": "Reduction of oligomer size modulates the competition between cluster formation and phase separation of the tumor suppressor SPOP."
+  },
+  "content": {
+    "abstract": "Phase separation compartmentalizes many cellular pathways. Given that the same interactions that drive phase separation mediate the formation of soluble complexes below the saturation concentration, the contribution of condensates versus complexes to function is sometimes unclear. Here, we characterized several new cancer-associated mutations of the tumor suppressor speckle-type POZ protein (SPOP), a substrate recognition subunit of the Cullin3-RING ubiquitin ligase. This pointed to a strategy for generating separation-of-function mutations. SPOP self-associates into linear oligomers and interacts with multivalent substrates, and this mediates the formation of condensates. These condensates bear the hallmarks of enzymatic ubiquitination activity. We characterized the effect of mutations in the dimerization domains of SPOP on its linear oligomerization, binding to its substrate DAXX, and phase separation with DAXX. We showed that the mutations reduce SPOP oligomerization and shift the size distribution of SPOP oligomers to smaller sizes. The mutations therefore reduce the binding affinity to DAXX but unexpectedly enhance the poly-ubiquitination activity of SPOP toward DAXX. Enhanced activity may be explained by enhanced phase separation of DAXX with the SPOP mutants. Our results provide a comparative assessment of the functional role of complexes versus condensates and support a model in which phase separation is an important factor in SPOP function. Our findings also suggest that tuning of linear SPOP self-association could be used by the cell to modulate activity and provide insights into the mechanisms underlying hypermorphic SPOP mutations. The characteristics of cancer-associated SPOP mutations suggest a route for designing separation-of-function mutations in other phase-separating systems.",
+    "keywords": [
+      "biomolecular condensate",
+      "endometrial cancer",
+      "phase transition",
+      "soluble complex",
+      "ubiquitin ligase"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Neoplasms/pathology",
+      "Nuclear Proteins/genetics/metabolism",
+      "*Phase Separation",
+      "Repressor Proteins/genetics/metabolism",
+      "Ubiquitin/metabolism",
+      "Ubiquitin-Protein Ligases/metabolism",
+      "Ubiquitination",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sabri, Nafiseh",
+        "Cuneo, Matthew J",
+        "Marzahn, Melissa R",
+        "Lee, Jihun",
+        "Bouchard, Jill J",
+        "Gullulu, Omer",
+        "Vaithiyalingam, Sivaraja",
+        "Borgia, Madeleine B",
+        "Schmit, Jeremy",
+        "Mittag, Tanja"
+      ],
+      "short_names": [
+        "Sabri N",
+        "Cuneo MJ",
+        "Marzahn MR",
+        "Lee J",
+        "Bouchard JJ",
+        "Gullulu O",
+        "Vaithiyalingam S",
+        "Borgia MB",
+        "Schmit J",
+        "Mittag T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA.",
+        "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA.",
+        "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA.",
+        "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA.",
+        "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA.",
+        "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA.",
+        "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA.",
+        "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA.",
+        "Department of Physics, Kansas State University, Manhattan, Kansas, USA.",
+        "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA. Electronic address: tanja.mittag@stjude.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sabri, Nafiseh",
+        "short_name": "Sabri N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Cuneo, Matthew J",
+        "short_name": "Cuneo MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Marzahn, Melissa R",
+        "short_name": "Marzahn MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Jihun",
+        "short_name": "Lee J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Bouchard, Jill J",
+        "short_name": "Bouchard JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Güllülü, Ömer",
+        "short_name": "Güllülü Ö",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Vaithiyalingam, Sivaraja",
+        "short_name": "Vaithiyalingam S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Borgia, Madeleine B",
+        "short_name": "Borgia MB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA."
+        ]
+      },
+      {
+        "full_name": "Schmit, Jeremy",
+        "short_name": "Schmit J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Kansas State University, Manhattan, Kansas, USA."
+        ]
+      },
+      {
+        "full_name": "Mittag, Tanja",
+        "short_name": "Mittag T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, St Jude Children's Research Hospital, Memphis, Tennessee, USA. Electronic address: tanja.mittag@stjude.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/06 00:41",
+    "fetched_at": "2026-09-21 02:42:42"
+  },
+  "links": {
+    "cites": [
+      "42442353",
+      "42090249",
+      "42049750",
+      "41288458",
+      "40909695",
+      "40849651",
+      "40830340",
+      "39824169",
+      "39521940",
+      "38575527",
+      "37824531",
+      "36993708"
+    ],
+    "refs": [],
+    "similar": [
+      "37926283",
+      "36993550",
+      "30244836",
+      "31495053",
+      "16524876",
+      "25766326",
+      "35364375",
+      "27220849",
+      "36693379",
+      "34353330",
+      "31901237",
+      "23999291",
+      "31776466",
+      "23559371",
+      "28599312",
+      "18218622",
+      "21577200",
+      "33894201",
+      "28414305",
+      "33862460",
+      "28216678",
+      "35438056",
+      "28805821",
+      "27780719",
+      "25278611",
+      "31771591",
+      "24990631",
+      "33069770",
+      "34133717",
+      "29996942",
+      "18414007",
+      "22632832",
+      "28448495",
+      "29777712",
+      "36360288",
+      "33762355",
+      "32460168",
+      "19818708",
+      "26475525",
+      "33023230",
+      "34599168",
+      "22085717",
+      "36512624",
+      "31624231",
+      "24656772",
+      "36868187",
+      "30955223",
+      "38008278",
+      "34987184",
+      "31845799",
+      "36791496",
+      "39121161",
+      "37996058",
+      "34795264",
+      "28805822",
+      "24845504",
+      "29546395",
+      "15240113",
+      "36856266",
+      "38409107",
+      "24451148",
+      "31026449",
+      "27622336",
+      "37373284",
+      "26527005",
+      "25058385",
+      "35194188",
+      "31126914",
+      "38246227",
+      "36585710",
+      "27930311",
+      "28089830",
+      "25274033",
+      "31967940",
+      "35773729",
+      "19955409",
+      "24508459",
+      "30595538",
+      "28032859",
+      "28810879",
+      "34593637",
+      "28805820",
+      "28412462",
+      "36604567",
+      "26693071",
+      "24072710",
+      "18997279",
+      "23216165",
+      "32736710",
+      "30882175",
+      "25204806",
+      "36474188",
+      "25204354",
+      "38352842",
+      "35081502",
+      "35252555",
+      "26156804",
+      "33311589",
+      "15897469",
+      "33209975",
+      "29695423",
+      "38559018",
+      "38262618",
+      "37961422",
+      "39046778",
+      "38328089",
+      "38225666",
+      "39261929"
+    ],
+    "review": [
+      "37926283",
+      "31495053",
+      "35364375",
+      "31901237",
+      "36360288",
+      "33023230",
+      "36512624"
+    ],
+    "pmc": [
+      "10696467"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(23)02455-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/37926283",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37926283/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37926283",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37926283",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

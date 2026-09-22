@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34639140",
+  "title": "An Overview of Several Inhibitors for Alzheimer's Disease: Characterization and Failure.",
+  "authors": "Boopathi, Subramanian; Poma, Adolfo B; Garduno-Juarez, Ramon",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-10-14",
+  "window": {
+    "start": "2021-10-11",
+    "end": "2021-10-17"
+  },
+  "score": 6,
+  "one_liner_zh": "综述阿尔茨海默病中Aβ无序蛋白寡聚体聚集及抑制剂，结合计算机模拟探讨金属离子与Aβ结合机制，但缺乏AI/物理模拟方法深度，互作机制建模较浅。",
+  "abstract": "Amyloid beta (Abeta) oligomers are the most neurotoxic aggregates causing neuronal death and cognitive damage. A detailed elucidation of the aggregation pathways from oligomers to fibril formation is crucial to develop therapeutic strategies for Alzheimer's disease (AD). Although experimental techniques rely on the measure of time- and space-average properties, they face severe difficulties in the investigation of Abeta peptide aggregation due to their intrinsically disorder character. Computer simulation is a tool that allows tracing the molecular motion of molecules; hence it complements Abeta experiments, as it allows to explore the binding mechanism between metal ions and Abeta oligomers close to the cellular membrane at the atomic resolution. In this context, integrated studies of experiments and computer simulations can assist in mapping the complete pathways of aggregation and toxicity of Abeta peptides. Abeta oligomers are disordered proteins, and due to a rapid exploration of their intrinsic conformational space in real-time, they are challenging therapeutic targets. Therefore, no good drug candidate could have been identified for clinical use. Our previous investigations identified two small molecules, M30 (2-Octahydroisoquinolin-2(1H)-ylethanamine) and Gabapentin, capable of Abeta binding and inhibiting molecular aggregation, synaptotoxicity, intracellular calcium signaling, cellular toxicity and memory losses induced by Abeta. Thus, we recommend these molecules as novel candidates to assist anti-AD drug discovery in the near future. This review discusses the most recent research investigations about the Abeta dynamics in water, close contact with cell membranes, and several therapeutic strategies to remove plaque formation.",
+  "abstract_zh": "淀粉样β（Abeta）寡聚体是最具神经毒性的聚集体，导致神经元死亡和认知损伤。从寡聚体到纤维形成的聚集途径的详细阐明对于开发阿尔茨海默病（AD）的治疗策略至关重要。尽管实验技术依赖于时间和空间平均性质的测量，但由于Abeta肽的固有无序特性，它们在研究其聚集时面临严重困难。计算机模拟是一种能够追踪分子运动的工具；因此，它补充了Abeta实验，因为它允许在原子分辨率下探索金属离子与靠近细胞膜的Abeta寡聚体之间的结合机制。在此背景下，实验与计算机模拟的综合研究有助于绘制Abeta肽聚集和毒性的完整途径。Abeta寡聚体是无序蛋白质，由于其实时快速探索内在构象空间，它们成为具有挑战性的治疗靶点。因此，目前尚未确定可用于临床的良好候选药物。我们先前的研究确定了两种小分子，M30（2-八氢异喹啉-2(1H)-基乙胺）和加巴喷丁，它们能够结合Abeta并抑制分子聚集、突触毒性、细胞内钙信号传导、细胞毒性以及Abeta诱导的记忆丧失。因此，我们推荐这些分子作为近期辅助抗AD药物发现的新候选物。本综述讨论了关于Abeta在水中的动力学、与细胞膜的紧密接触以及几种去除斑块形成的治疗策略的最新研究进展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34639140/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34639140/",
+  "paper_page_path": "papers/pubmed/34639140/index.html"
+}

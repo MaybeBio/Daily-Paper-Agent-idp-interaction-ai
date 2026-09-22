@@ -1,0 +1,255 @@
+{
+  "identity": {
+    "pmid": "40062555",
+    "doi": "10.1021/acs.jcim.4c02248",
+    "title": "Nonbonded Parameter Optimization Improving Simulation of Intrinsically Disordered Phosphoproteins."
+  },
+  "content": {
+    "abstract": "Phosphorylated proteins play a crucial role in numerous cellular processes, acting as key regulators in signal transduction networks, cell expansion, and various biochemical reactions. Molecular dynamics (MD) simulations are powerful tools for exploring the dynamic conformations of phosphoproteins. However, conventional force fields often underestimate the radii of gyration (Rg) of phosphoproteins. To address this limitation, we reoptimized the parameters of the vDW radius for the oxygen atom and the charge for the phosphorus atom with a reweighting algorithm and thermodynamic integration, named phosRg. Validation on test systems of seven representative phosphoproteins demonstrates that phosRg has better agreement with experiment for Rg and chemical shift than does phosaa10. Furthermore, phosRg generated more extensional conformations with fewer hydrophobic interactions and hydrogen bonds than phosaa10. At the same time, we found that the TIP4P-D solvent model is a suitable choice to be used with phosRg for the simulation of phosphorylated proteins. These results indicate that our dual-objective optimization strategy is powerful and necessary for improving the parameters. In summary, phosRg should also be used for simulations of other phosphorylated proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Phosphoproteins/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Thermodynamics",
+      "Hydrogen Bonding",
+      "Protein Conformation",
+      "Algorithms",
+      "Hydrophobic and Hydrophilic Interactions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zheng, Xinyao",
+        "Song, Ge",
+        "Li, Zhengxin",
+        "Duan, Bowen",
+        "Zhu, Bofan",
+        "Chen, Hai-Feng"
+      ],
+      "short_names": [
+        "Zheng X",
+        "Song G",
+        "Li Z",
+        "Duan B",
+        "Zhu B",
+        "Chen HF"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2782-2023",
+        "ORCID: 0000-0002-7496-4182"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, SJTU-Yale Joint Center for Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 200240 Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, SJTU-Yale Joint Center for Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 200240 Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, SJTU-Yale Joint Center for Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 200240 Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, SJTU-Yale Joint Center for Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 200240 Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, SJTU-Yale Joint Center for Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 200240 Shanghai, China.",
+        "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, SJTU-Yale Joint Center for Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 200240 Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zheng, Xinyao",
+        "short_name": "Zheng X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, SJTU-Yale Joint Center for Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 200240 Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Song, Ge",
+        "short_name": "Song G",
+        "identifiers": [
+          "0000-0003-2782-2023"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, SJTU-Yale Joint Center for Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 200240 Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhengxin",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, SJTU-Yale Joint Center for Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 200240 Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Bowen",
+        "short_name": "Duan B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, SJTU-Yale Joint Center for Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 200240 Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Bofan",
+        "short_name": "Zhu B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, SJTU-Yale Joint Center for Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 200240 Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hai-Feng",
+        "short_name": "Chen HF",
+        "identifiers": [
+          "0000-0002-7496-4182"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial Metabolism, Department of Bioinformatics and Biostatistics, SJTU-Yale Joint Center for Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, 200240 Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Mar 24",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/10 12:31",
+    "fetched_at": "2026-09-21 16:32:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40062555",
+      "34546059",
+      "36800279",
+      "27819658",
+      "34576338",
+      "31470695",
+      "40172236",
+      "36178373",
+      "35950933",
+      "30990694",
+      "25207671",
+      "30865832",
+      "23912807",
+      "27583687",
+      "33444020",
+      "32859072",
+      "36533639",
+      "30204435",
+      "31756104",
+      "32816485",
+      "36232586",
+      "30840442",
+      "33355572",
+      "31552948",
+      "36468450",
+      "24589355",
+      "38018910",
+      "37646172",
+      "38996889",
+      "32367806",
+      "28226222",
+      "39949041",
+      "26575776",
+      "34681718",
+      "25375525",
+      "26574429",
+      "30259679",
+      "29734867",
+      "40128232",
+      "32696370",
+      "38928405",
+      "29571687",
+      "27423742",
+      "26574374",
+      "28355271",
+      "36641212",
+      "31903719",
+      "33382616",
+      "33459730",
+      "29080468",
+      "27440558",
+      "30134733",
+      "25855872",
+      "31548393",
+      "31613621",
+      "40072940",
+      "29548979",
+      "31136713",
+      "28805390",
+      "40042172",
+      "37133846",
+      "36084124",
+      "31657215",
+      "29735687",
+      "33945530",
+      "37222424",
+      "28448138",
+      "29808548",
+      "28886645",
+      "37134270",
+      "34509724",
+      "39163306",
+      "39907269",
+      "29382046",
+      "37452752",
+      "39340152",
+      "36080494",
+      "38739602",
+      "32828471",
+      "31259246",
+      "27484738",
+      "23990768",
+      "28926706",
+      "26020564",
+      "39555603",
+      "37407505",
+      "37905972",
+      "28095698",
+      "26885844",
+      "35174713",
+      "32323533",
+      "30933517",
+      "32693598",
+      "31951234",
+      "33030249",
+      "30021108",
+      "21038907",
+      "34680048",
+      "26735936",
+      "26030189"
+    ],
+    "review": [
+      "40062555",
+      "30840442",
+      "33355572",
+      "28226222",
+      "29080468",
+      "29382046",
+      "32828471",
+      "39555603"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c02248",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

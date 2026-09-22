@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35297101",
+  "title": "The role of ATP in solubilizing RNA-binding protein fused in sarcoma.",
+  "authors": "Aida, Hayato; Shigeta, Yasuteru; Harada, Ryuhei",
+  "journal": "Proteins",
+  "published_date": "2022-03-18",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全原子MD模拟研究ATP与FUS无序低复杂度区域在拥挤体系中的互作，揭示ATP通过腺嘌呤基团接触和磷酸基团暴露促进FUS水合与溶解的机制，直接聚焦IDP介导的互作机制建模。",
+  "abstract": "Intrinsically disordered protein (IDP) plays an important role in liquid-liquid phase separation (LLPS). RNA-binding protein fused in sarcoma (FUS) is a well-studied IDP that induces LLPS since its low-complexity core region (FUS-LC-core) is essential for droplet formation through contacts between FUS-LC-cores. Several experimental studies have reported that adenosine triphosphate (ATP) concentrations modulate LLPS-driven droplet formation through the dissolution of FUS. To elucidate the role of ATP in this dissolution, microsecond-order all-atom molecular dynamics (MD) simulations were performed for a crowded system of FUS-LC-cores in the presence of multiple ATP molecules. Our analysis revealed that the adenine group of ATP frequently contacted the FUS-LC-core, and the phosphoric acid group of ATP was exposed to the external solvent, which promoted both hydration and solubilization of FUS.",
+  "abstract_zh": "固有无序蛋白（IDP）在液-液相分离（LLPS）中扮演重要角色。RNA结合蛋白融合肉瘤（FUS）是一种研究充分的IDP，能诱导LLPS，因其低复杂度核心区域（FUS-LC-core）通过FUS-LC-core间的接触对液滴形成至关重要。多项实验研究报告称，三磷酸腺苷（ATP）浓度通过溶解FUS调节LLPS驱动的液滴形成。为阐明ATP在此溶解过程中的作用，对含多个ATP分子的FUS-LC-core拥挤体系进行了微秒级全原子分子动力学（MD）模拟。我们的分析揭示，ATP的腺嘌呤基团频繁接触FUS-LC-core，而ATP的磷酸基团暴露于外部溶剂，这促进了FUS的水合与增溶。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35297101/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35297101/",
+  "paper_page_path": "papers/pubmed/35297101/index.html"
+}

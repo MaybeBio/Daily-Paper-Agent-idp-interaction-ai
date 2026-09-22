@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39763716",
+  "title": "Cellular Function of a Biomolecular Condensate Is Determined by Its Ultrastructure.",
+  "authors": "Scholl, Daniel; Boyd, Tumara; Latham, Andrew P; Salazar, Alexandra; Khan, Asma; Boeynaems, Steven; Holehouse, Alex S; Lander, Gabriel C; Sali, Andrej; Park, Donghyun; Deniz, Ashok A; Lasker, Keren",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-01-07",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究以无序蛋白PopZ形成的生物分子凝聚体为对象，整合冷冻电镜、单分子技术与分子动力学模拟，揭示其超微结构如何通过相依赖构象变化调控客户蛋白结合与材料性质，直接关联无序蛋白介导的PPI机制建模。",
+  "abstract": "Biomolecular condensates play key roles in the spatiotemporal regulation of cellular processes. Yet, the relationship between atomic features and condensate function remains poorly understood. We studied this relationship using the polar organizing protein Z (PopZ) as a model system, revealing how its material properties and cellular function depend on its ultrastructure. We revealed PopZ's hierarchical assembly into a filamentous condensate by integrating cryo-electron tomography, biochemistry, single-molecule techniques, and molecular dynamics simulations. The helical domain drives filamentation and condensation, while the disordered domain inhibits them. Phase-dependent conformational changes prevent interfilament contacts in the dilute phase and expose client binding sites in the dense phase. These findings establish a multiscale framework that links molecular interactions and condensate ultrastructure to macroscopic material properties that drive cellular function.",
+  "abstract_zh": "生物分子凝聚体在细胞过程的时空调控中扮演关键角色。然而，原子特征与凝聚体功能之间的关系仍知之甚少。我们以极性组织蛋白Z（PopZ）为模型系统研究了这一关系，揭示了其材料特性和细胞功能如何依赖于其超微结构。通过整合冷冻电子断层扫描、生物化学、单分子技术和分子动力学模拟，我们揭示了PopZ分级组装成丝状凝聚体的过程。螺旋结构域驱动成丝和凝聚，而无序结构域则抑制这些过程。相依赖的构象变化在稀相中阻止丝间接触，并在密相中暴露客户结合位点。这些发现建立了一个多尺度框架，将分子相互作用和凝聚体超微结构与驱动细胞功能的宏观材料特性联系起来。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39763716/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39763716/",
+  "paper_page_path": "papers/pubmed/39763716/index.html"
+}

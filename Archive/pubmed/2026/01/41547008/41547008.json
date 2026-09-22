@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "41547008",
+    "doi": "10.1016/j.foodchem.2026.147971",
+    "title": "Insights into the interaction of DHA/EPA-containing phospholipids with modified whey protein isolate (mWPI) and chitosan quaternary ammonium salt (CQAS) to form microgel."
+  },
+  "content": {
+    "abstract": "This study developed a composite microgel system utilizing modified whey protein isolate (mWPI) and chitosan quaternary ammonium salt (CQAS) for encapsulating docosahexaenoic acid and eicosapentaenoic acid-containing phospholipids (PL-DHA/EPA). Single-component systems exhibited limited encapsulation efficiencies of 15.50% (mWPI-PL) and 30.92% (CQAS-PL), attributed to high-pressure homogenization-induced protein denaturation and insufficient electrostatic interactions, respectively. The composite mWPI-CQAS-PL system achieved 88.75% encapsulation efficiency through synergistic electrostatic charge neutralization and interpenetrating polymer network formation, with positive zeta potential (+41.5 mV) ensuring colloidal stability and complete absence of phase separation over thirty days. Microstructural characterization revealed bi-layered particle architecture (approximately 10 mum) featuring CQAS-rich outer shells and mWPI cores with uniform phospholipid distribution. Fluorescence spectroscopy evidenced protein-phospholipid interactions through excimer formation (480 nm) and microenvironmental polarity changes (430 nm), while molecular docking validated hydrogen bonding interactions. This mechanistic framework establishes design principles for advanced phospholipid delivery systems, significantly advancing marine lipid processing through innovative encapsulation strategies that preserve bioactivity while enhancing delivery performance.",
+    "keywords": [
+      "Chitosan quaternary ammonium salt",
+      "Composite microgel",
+      "DHA/EPA-containing phospholipids",
+      "Interpenetrating polymer network",
+      "Microencapsulation",
+      "Modified whey protein isolate"
+    ],
+    "mesh_terms": [
+      "*Whey Proteins/chemistry",
+      "*Chitosan/chemistry",
+      "*Phospholipids/chemistry",
+      "*Quaternary Ammonium Compounds/chemistry",
+      "*Docosahexaenoic Acids/chemistry",
+      "*Eicosapentaenoic Acid/chemistry",
+      "*Microgels/chemistry",
+      "*Drug Compounding/methods/instrumentation",
+      "Gels/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Yi",
+        "Heng, Jiangying",
+        "Zhang, Xian",
+        "Zhang, Zhihua",
+        "Sun, Hongshuai",
+        "Ma, Xuan",
+        "Zhang, Yu",
+        "Wang, Feng"
+      ],
+      "short_names": [
+        "He Y",
+        "Heng J",
+        "Zhang X",
+        "Zhang Z",
+        "Sun H",
+        "Ma X",
+        "Zhang Y",
+        "Wang F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Biochemical Engineering, Beijing Union University, Beijing, China.",
+        "College of Biochemical Engineering, Beijing Union University, Beijing, China.",
+        "China Green Food Development Center, Ministry of Agriculture, Beijing, China.",
+        "China Green Food Development Center, Ministry of Agriculture, Beijing, China.",
+        "Weifang Hairun Huachen Testing Technology Co., Ltd, ShanDong, China.",
+        "College of Biochemical Engineering, Beijing Union University, Beijing, China.",
+        "College of Biochemical Engineering, Beijing Union University, Beijing, China.",
+        "College of Biochemical Engineering, Beijing Union University, Beijing, China.. Electronic address: fengwang88@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Yi",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biochemical Engineering, Beijing Union University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Heng, Jiangying",
+        "short_name": "Heng J",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biochemical Engineering, Beijing Union University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xian",
+        "short_name": "Zhang X",
+        "identifiers": [],
+        "affiliations": [
+          "China Green Food Development Center, Ministry of Agriculture, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhihua",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "China Green Food Development Center, Ministry of Agriculture, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Hongshuai",
+        "short_name": "Sun H",
+        "identifiers": [],
+        "affiliations": [
+          "Weifang Hairun Huachen Testing Technology Co., Ltd, ShanDong, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Xuan",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biochemical Engineering, Beijing Union University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yu",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biochemical Engineering, Beijing Union University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Feng",
+        "short_name": "Wang F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biochemical Engineering, Beijing Union University, Beijing, China.. Electronic address: fengwang88@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Food chemistry"
+    ],
+    "journal_abbrev": [
+      "Food Chem"
+    ],
+    "pub_date": "2026 Mar 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/18 00:37",
+    "fetched_at": "2026-09-17 23:51:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41547008",
+      "34400132",
+      "34100500",
+      "30380846",
+      "42055373",
+      "32379465",
+      "33736285",
+      "28702650",
+      "40922233",
+      "27417448",
+      "19961266",
+      "29345914",
+      "28502496",
+      "38833855",
+      "30565622",
+      "31740197",
+      "29595967",
+      "30633384",
+      "34216672",
+      "32588470",
+      "30697752",
+      "41856180",
+      "36076398",
+      "9497179",
+      "41203161",
+      "25218676",
+      "30587981",
+      "21535641",
+      "30799231",
+      "34883425",
+      "42169287",
+      "40803469",
+      "26537218",
+      "40618598",
+      "41724475",
+      "41093193",
+      "36838712",
+      "38583335",
+      "40378464",
+      "9450671",
+      "41643979",
+      "40414405",
+      "25241928",
+      "40882746",
+      "31548058",
+      "29974102",
+      "8596201",
+      "35908471",
+      "9252957",
+      "30542006",
+      "29548446",
+      "18469236",
+      "36197792",
+      "20471951",
+      "29355517",
+      "27151222",
+      "30188131",
+      "35429934",
+      "38289251",
+      "35174699",
+      "39182336",
+      "21854650",
+      "40812725",
+      "31614820",
+      "25722139",
+      "28888462",
+      "30203029",
+      "42116475",
+      "19237271",
+      "32255339",
+      "26718869",
+      "39556492",
+      "23486565",
+      "10690163",
+      "30195507",
+      "36177701",
+      "36703262",
+      "32763737",
+      "30831393",
+      "39666280",
+      "34606557",
+      "38246556",
+      "18072818",
+      "38513888",
+      "34700037",
+      "25342698",
+      "15848008",
+      "24807616",
+      "26283657",
+      "39488046",
+      "9670342",
+      "27085996",
+      "38248665",
+      "22676394",
+      "28373143",
+      "31734459",
+      "24629958",
+      "8914943",
+      "30058990",
+      "39965699"
+    ],
+    "review": [
+      "41547008",
+      "25218676",
+      "30542006"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0308-8146(26)00129-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TIMP1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

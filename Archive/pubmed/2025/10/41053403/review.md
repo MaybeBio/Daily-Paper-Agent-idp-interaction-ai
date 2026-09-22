@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors introduce a computational framework for de novo design of intrinsically disordered proteins (IDPs) by inverting molecular simulations that approximate sequence-ensemble relationships. They claim the framework is general and versatile, enabling design of IDPs with target ensemble dimensions, loops and linkers, sensitive sensors of physicochemical stimuli, and binders to disordered substrates with distinct conformational biases.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, benchmark datasets, comparison with existing methods, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important computational framework for IDP design, addressing a significant gap in protein engineering. The concept of inverting molecular simulations to design sequence-ensemble relationships is timely and could have broad utility. However, the abstract provides no quantitative evidence, no methodological specifics, and no validation details. The claims of generality and versatility are stated but not supported by any visible data. The work may be of high interest, but the current evidence base is insufficient to assess technical soundness or establish the case.
+- **Who would be interested in the results, and why** Researchers in computational protein design, biophysics of disordered proteins, synthetic biology, and biomolecular engineering would be interested. The framework could enable rational design of IDPs for applications such as smart biomaterials, biosensors, and protein linkers, which are relevant to biotechnology and therapeutic development.
+- **Major strengths** The problem addressed is important and underexplored relative to folded protein design. The proposed approach, inversion of molecular simulations, is conceptually elegant and potentially generalizable. The range of demonstrated applications, as listed, suggests broad versatility if the claims are substantiated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The framework enables de novo design of IDPs with target ensemble dimensions, loops and linkers, sensors, and binders.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative results, no benchmarks, no comparison to existing methods, and no details on how the inversion is performed or validated. Without such evidence, the core claim of successful design across multiple IDP types cannot be assessed.
+  - **Why it matters** The central contribution is the claimed generality and versatility of the framework. If the evidence is not presented or is weak, the case for a general design method is not established.
+  - **Resolution test** Provide in the full manuscript quantitative metrics for design success, such as agreement between designed and target ensemble properties, accuracy of sensor response, binding affinity or specificity for binders, and comparison with baseline or existing methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The framework is based on rational and efficient inversion of molecular simulations.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given on the simulation method, the inversion algorithm, computational cost, or the software and parameters used. Reproducibility is a core requirement for computational methods.
+  - **Why it matters** Without methodological transparency, other researchers cannot implement or test the framework, which limits its utility and credibility.
+  - **Resolution test** Include in the full manuscript a detailed methods section with simulation force fields, sampling protocols, inversion algorithm, convergence criteria, and code availability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation
+  - **Claim pointer** Designed IDPs include binders to target disordered substrates with distinct conformational biases.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of designing binders to disordered substrates is strong and nontrivial. The abstract does not indicate whether these binders were experimentally validated or only computationally predicted.
+  - **Why it matters** Computational predictions of binding, especially involving disordered regions, are prone to false positives. Experimental validation is critical to support such a claim.
+  - **Resolution test** Clarify in the full manuscript whether any experimental validation was performed, and if so, provide binding data. If not, temper the claim to computational prediction only.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "sequence-ensemble-function relationships" is used but not defined. It is unclear whether "function" refers to a specific biological activity or a general property.
+  - **Required correction** Define the term explicitly in the abstract or introduction, and clarify the scope of "function" as used in the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Application scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The list of designed IDP types is broad, but no indication is given of the number of design examples, success rate, or failure cases.
+  - **Required correction** Provide in the full manuscript a summary of design attempts, including success rates and limitations, to give a balanced view of the method's capabilities.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison
+  - **Affected element** Context
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention how the proposed framework compares with existing IDP design methods, if any exist.
+  - **Required correction** Add a brief statement in the abstract or introduction on the state of the art and how this work advances beyond it.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative evidence and methodological detail prevents assessment of the core claims. R1-M3 is non-blocking but requires clarification on validation status.
+- **Assessment against Nature-style criteria** Originality is high, as the concept of inverting simulations for IDP design is novel and distinct from folded protein design. Scientific importance is potentially high, given the growing recognition of IDP roles in biology and disease. Interdisciplinary readership is plausible, spanning computational biology, biophysics, and bioengineering. Technical soundness cannot be assessed from the abstract alone, which is a major limitation. Readability for nonspecialists is adequate, but the abstract would benefit from clearer definitions and a brief statement of the method's novelty in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is promising, but the lack of quantitative results and methodological detail means the case is not made. I would be supportive if the full manuscript provides robust evidence and addresses the blocking concerns.
+
+## Risk / unsupported claims
+- The claim of a "general framework" for IDP design is unsupported without evidence of success across diverse targets and comparison to alternatives.
+- The claim of designing "highly sensitive sensors" is unsupported without quantitative sensitivity metrics.
+- The claim of designing "binders to target disordered substrates" is unsupported without binding data or experimental validation.
+- The claim of "rational and efficient inversion" is unsupported without details on computational cost and algorithm performance.

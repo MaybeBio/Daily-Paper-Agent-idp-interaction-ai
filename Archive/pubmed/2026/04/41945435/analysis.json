@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41945435",
+  "title": "Elucidation of the aragonite nanofiber formation mechanism of LICP contained in the hinge ligament of Pinctada fucata.",
+  "authors": "Futagawa, Kei; Namikawa, Yuto; Morioka, Taichi; Meguro, Haruki; Shida, Akira; Nagano, Yuki; Furihata, Kazuo; Watanabe, Hiroyuki; Nudelman, Fabio; Okumura, Taiga; Kogure, Toshihiro; Ikeya, Teppei; Ito, Yutaka; Katayama, Hidekazu; Nagata, Koji; Suzuki, Michio",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2026-04-07",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究贝壳铰合韧带中无序短肽LICP结合文石晶体并调控其生长的机制，采用NMR和分子动力学模拟揭示构象可塑性对晶体表面识别的贡献；虽非蛋白-蛋白互作，但无序肽-固相界面识别的机制建模思路对IDR介导互作研究有可迁移启发。",
+  "abstract": "The hinge ligament of bivalves exhibits remarkable flexibility and compressive strength due to its composite structure of aragonite nanofibers embedded in an organic matrix. While these nanofibers are crucial for shell mechanics, the molecular mechanisms underlying their formation remain unclear. We investigated the function of a 10-residue intracrystalline peptide, ligament intracrystalline peptide (LICP), in regulating aragonite crystal growth. Using a solution-state NMR technique optimized for biomineral systems with dispersive calcium carbonate particles, we showed that LICP adopted a planar, elongated conformation in binding to aragonite. This structure features a coplanar arrangement of carboxyl and aromatic side chains-particularly tyrosines-that enables selective interaction with the aragonite 110. Saturation transfer difference NMR and dose-dependent structural analyses confirmed that this conformational change is triggered by solid-phase contact, rather than free calcium ions. Molecular dynamics simulations revealed enhanced binding stability of LICP to the 110 surface through multiple carboxyl and aromatic residues. Furthermore, in vitro crystallization assays showed that LICP promoted elongation of aragonite crystals along the c-axis, consistent with its selective surface binding. These findings demonstrated that conformational plasticity in short, disordered peptides enabled specific recognition of crystal faces and directed modulation of mineral growth. LICP serves as a minimal yet powerful model for exploring protein-mineral interfaces, offering broader insights into the structural principles by which intrinsically disordered peptides function in solid-phase biological systems.",
+  "abstract_zh": "双壳类的铰合韧带因其文石纳米纤维嵌入有机基质的复合结构，展现出卓越的柔韧性和抗压强度。尽管这些纳米纤维对贝壳力学性能至关重要，但其形成的分子机制仍不清楚。我们研究了一个由10个残基组成的晶内肽——韧带晶内肽 (ligament intracrystalline peptide, LICP)——在调控文石晶体生长中的功能。利用针对含分散碳酸钙颗粒的生物矿化系统优化的溶液态核磁共振 (NMR) 技术，我们表明LICP在与文石结合时采用平面、延长的构象。该结构特征在于羧基和芳香族侧链——特别是酪氨酸——的共面排列，使其能够选择性地与文石110面相互作用。饱和转移差谱 (saturation transfer difference) NMR 和剂量依赖性结构分析证实，这种构象变化由固相接触触发，而非游离钙离子。分子动力学 (molecular dynamics) 模拟揭示，通过多个羧基和芳香族残基，LICP与110面的结合稳定性增强。此外，体外结晶实验表明，LICP促进文石晶体沿c轴方向伸长，与其选择性表面结合一致。这些发现证明，短无序肽中的构象可塑性能够实现晶面的特异性识别并定向调控矿物生长。LICP作为探索蛋白质-矿物界面的最小而有力的模型，为理解 intrinsically disordered peptides 在固相生物系统中发挥作用的结构原理提供了更广泛的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41945435/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41945435/",
+  "paper_page_path": "papers/pubmed/41945435/index.html"
+}

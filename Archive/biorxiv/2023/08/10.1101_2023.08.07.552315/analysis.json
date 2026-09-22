@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.07.552315",
+  "title": "Insights into human outer kinetochore assembly and force transmission from a structure-function analysis of the KMN network",
+  "authors": "Polley S; Raisch T; Koerner M; Terbeck M; Gräter F; Raunser S; Aponte-Santamaría C; Vetter IR; Musacchio A",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-07",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究结合冷冻电镜、AlphaFold2和分子动力学模拟解析KMN网络（含无序区域）的组装与力传导机制，虽对象非典型IDP/相分离，但PPI界面建模与MD方法对本课题有可迁移启发。",
+  "abstract": "The biorientation of chromosomes during cell division is necessary for precise dispatching of a mother cell’s chromosomes into its two daughters. Kinetochores, large layered structures built on specialized chromosome loci named centromeres, promote biorientation by binding and sensing spindle microtubules. The kinetochore outer layer consists of a 10-subunit apparatus comprising Knl1C, Mis12C, and Ndc80C subcomplexes (KMN network). The KMN network is highly elongated and docks on kinetochores and microtubules using interfaces at its opposite extremes. Here, we combine cryo-EM reconstructions and AlphaFold2 predictions to generate a model of the KMN network that reveals all intra-KMN interfaces. We identify and functionally validate two interaction interfaces that link Mis12C to Ndc80C and Knl1C. Through targeted interference experiments and molecular dynamics simulations we demonstrate this mutual organization stabilizes the KMN network. Our work reports the first comprehensive structural and functional analysis of the microtubule binding machinery of kinetochores and elucidates a path of microtubule-generated force transmission",
+  "abstract_zh": "细胞分裂过程中染色体的双极定向对于母细胞染色体精确分配到两个子细胞中是必需的。着丝粒（kinetochores）是构建在特化染色体位点——着丝粒（centromeres）上的大型分层结构，通过结合并感知纺锤体微管来促进双极定向。着丝粒外层由包含Knl1C、Mis12C和Ndc80C亚复合体（KMN网络）的10亚基装置组成。KMN网络高度延伸，并利用其相对两端的界面停靠于着丝粒和微管上。在此，我们结合冷冻电镜（cryo-EM）重建和AlphaFold2预测，生成了一个揭示所有KMN内部界面的KMN网络模型。我们识别并功能验证了两个连接Mis12C至Ndc80C和Knl1C的相互作用界面。通过靶向干扰实验和分子动力学（molecular dynamics）模拟，我们证明这种相互组织稳定了KMN网络。我们的工作首次对着丝粒微管结合机制进行了全面的结构和功能分析，并阐明了微管产生力传递的路径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.07.552315",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.07.552315",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.07.552315/index.html"
+}

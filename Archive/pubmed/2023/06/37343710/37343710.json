@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "37343710",
+    "doi": "10.1016/j.jsb.2023.107986",
+    "title": "Challenging level of rigid-body approach involving numerical elements (CHLORAINE) applied to repeated elastin peptides."
+  },
+  "content": {
+    "abstract": "Elastic proteins and derived biomaterials contain numerous tandemly repeated peptides along their sequences, ranging from a few copies to hundreds. These repetitions are responsible for their biochemical, biological and biomechanical properties. These sequences are considered to be intrinsically disordered, and the variations in their behavior are actually mainly due to their high flexibility and lack of stable secondary structures originating from their unique amino acid sequences. Consequently, the simulation of elastic proteins and large elastomeric biomaterials using classical molecular dynamics is an important challenge. Here, we propose a novel approach that allows the application of the DURABIN protocol to repeated elastin-like peptides (r-ELPs) in a simple way. Four large r-ELPs were studied to evaluate our method, which was developed for simulating extracellular matrix proteins at the mesoscopic scale. After structure clustering applied on molecular dynamic trajectories of constitutive peptides (5-mers and 6-mers), the main conformations were used as starting points to define the corresponding primitives, further used as rigid body fragments in our program. Contributions derived from electrostatic and molecular hydrophobicity potentials were tested to evaluate their influence on the interactions during simple mesoscopic simulations. The CHLORAINE approach, despite the thinner granularity due to the size of the patterns used, was included in the DURABIN protocol and emerges as a promising way to simulate elastic macromolecular systems.",
+    "keywords": [
+      "Elastomeric polymers",
+      "Extracellular matrix",
+      "Mesoscopic simulations",
+      "Multiscale approach",
+      "Repeated elastin-like peptides"
+    ],
+    "mesh_terms": [
+      "*Elastin",
+      "*Peptides/chemistry",
+      "Amino Acid Sequence",
+      "Molecular Dynamics Simulation",
+      "Biocompatible Materials"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Depenveiller, C",
+        "Wong, H",
+        "Crowet, J M",
+        "Debelle, L",
+        "Baud, S",
+        "Dauchez, M",
+        "Belloy, N"
+      ],
+      "short_names": [
+        "Depenveiller C",
+        "Wong H",
+        "Crowet JM",
+        "Debelle L",
+        "Baud S",
+        "Dauchez M",
+        "Belloy N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Universite de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France; Universite de Picardie Jules Verne, CNRS, GEC UMR 7025, 80039 Amiens, France.",
+        "Universite de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France; Universite de Reims Champagne Ardenne, Plateau de Modelisation Moleculaire Multi-Echelle (P3M), Maison de la simulation de Champagne Ardenne (MaSCA), 51097 Reims, France.",
+        "Universite de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France; Universite de Reims Champagne Ardenne, Plateau de Modelisation Moleculaire Multi-Echelle (P3M), Maison de la simulation de Champagne Ardenne (MaSCA), 51097 Reims, France.",
+        "Universite de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France.",
+        "Universite de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France; Universite de Reims Champagne Ardenne, Plateau de Modelisation Moleculaire Multi-Echelle (P3M), Maison de la simulation de Champagne Ardenne (MaSCA), 51097 Reims, France.",
+        "Universite de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France; Universite de Reims Champagne Ardenne, Plateau de Modelisation Moleculaire Multi-Echelle (P3M), Maison de la simulation de Champagne Ardenne (MaSCA), 51097 Reims, France.",
+        "Universite de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France; Universite de Reims Champagne Ardenne, Plateau de Modelisation Moleculaire Multi-Echelle (P3M), Maison de la simulation de Champagne Ardenne (MaSCA), 51097 Reims, France. Electronic address: nicolas.belloy@univ-reims.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Depenveiller, C",
+        "short_name": "Depenveiller C",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France; Université de Picardie Jules Verne, CNRS, GEC UMR 7025, 80039 Amiens, France."
+        ]
+      },
+      {
+        "full_name": "Wong, H",
+        "short_name": "Wong H",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France; Université de Reims Champagne Ardenne, Plateau de Modélisation Moléculaire Multi-Echelle (P3M), Maison de la simulation de Champagne Ardenne (MaSCA), 51097 Reims, France."
+        ]
+      },
+      {
+        "full_name": "Crowet, J M",
+        "short_name": "Crowet JM",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France; Université de Reims Champagne Ardenne, Plateau de Modélisation Moléculaire Multi-Echelle (P3M), Maison de la simulation de Champagne Ardenne (MaSCA), 51097 Reims, France."
+        ]
+      },
+      {
+        "full_name": "Debelle, L",
+        "short_name": "Debelle L",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France."
+        ]
+      },
+      {
+        "full_name": "Baud, S",
+        "short_name": "Baud S",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France; Université de Reims Champagne Ardenne, Plateau de Modélisation Moléculaire Multi-Echelle (P3M), Maison de la simulation de Champagne Ardenne (MaSCA), 51097 Reims, France."
+        ]
+      },
+      {
+        "full_name": "Dauchez, M",
+        "short_name": "Dauchez M",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France; Université de Reims Champagne Ardenne, Plateau de Modélisation Moléculaire Multi-Echelle (P3M), Maison de la simulation de Champagne Ardenne (MaSCA), 51097 Reims, France."
+        ]
+      },
+      {
+        "full_name": "Belloy, N",
+        "short_name": "Belloy N",
+        "identifiers": [],
+        "affiliations": [
+          "Université de Reims Champagne Ardenne, CNRS, MEDyC UMR 7369, 51097 Reims, France; Université de Reims Champagne Ardenne, Plateau de Modélisation Moléculaire Multi-Echelle (P3M), Maison de la simulation de Champagne Ardenne (MaSCA), 51097 Reims, France. Electronic address: nicolas.belloy@univ-reims.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of structural biology"
+    ],
+    "journal_abbrev": [
+      "J Struct Biol"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/22 01:07",
+    "fetched_at": "2026-09-20 22:55:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37343710",
+      "11727705",
+      "34545666",
+      "23912807",
+      "27736076",
+      "30715857",
+      "27627061",
+      "32208723",
+      "32396850",
+      "34080796",
+      "33730140",
+      "36323382",
+      "15332621",
+      "34251181",
+      "29388768",
+      "32343908",
+      "36877869",
+      "35830538",
+      "23529691",
+      "32248607",
+      "34288691",
+      "31288085",
+      "23375722",
+      "36516874",
+      "36757021",
+      "26519668",
+      "29868966",
+      "33751927",
+      "25811498",
+      "24686253",
+      "27005861",
+      "29449596",
+      "32602815",
+      "14648756",
+      "11911775",
+      "29932654",
+      "20527981",
+      "28236790",
+      "34666482",
+      "12596268",
+      "32539154",
+      "37540116",
+      "23359490",
+      "24909705",
+      "29791150",
+      "25142785",
+      "32692541",
+      "29886015",
+      "36539170",
+      "30179124",
+      "26595324",
+      "20667475",
+      "6150137",
+      "34424695",
+      "29551651",
+      "25268037",
+      "32142846",
+      "26310504",
+      "34472058",
+      "36349439",
+      "21373795",
+      "17471765",
+      "30630151",
+      "17098192",
+      "18534097",
+      "24429702",
+      "36038531",
+      "18973305",
+      "24979207",
+      "27028208",
+      "15812830",
+      "26667190",
+      "24215207",
+      "25423757",
+      "23427027",
+      "3076447",
+      "21038397",
+      "19324406",
+      "36371418",
+      "21166482",
+      "34941264",
+      "18754687",
+      "27257908",
+      "12384307",
+      "23714121",
+      "3076450"
+    ],
+    "review": [
+      "37343710",
+      "11727705",
+      "34545666",
+      "34080796",
+      "33730140",
+      "36323382",
+      "34251181",
+      "32343908",
+      "31288085",
+      "33751927",
+      "32602815",
+      "11911775",
+      "29886015",
+      "30179124",
+      "6150137",
+      "29551651",
+      "36349439",
+      "17471765",
+      "24979207",
+      "24215207",
+      "3076447",
+      "21166482",
+      "12384307"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1047-8477(23)00049-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

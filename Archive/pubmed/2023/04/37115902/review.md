@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, or supplementary materials provided
+- **Shared manuscript claim summary** The authors propose a molecular theory combining self-consistent field theory for charged macromolecules with dilute solution thermodynamics to describe protein aggregation kinetics. They claim a two-step nucleated process at low salt concentrations, involving a conformational transition from metastable spherical oligomers to elongated fibrils, with electrostatic screening as the driving mechanism. At higher salt concentrations, they recover one-step nucleation corresponding to macroscopic liquid-liquid phase separation. They state that theoretical predictions agree with experimental observations of real proteins.
+- **Visible evidence base** Abstract text only; no equations, derivations, simulation data, or experimental comparisons are visible
+- **Missing materials affecting confidence** Full manuscript, methods, derivation details, parameter choices, simulation or numerical results, experimental datasets, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting theoretical framework for protein aggregation, with a specific mechanistic claim about electrostatic control of conformational transitions. However, the evidence base is limited to a summary, and the core claims cannot be independently evaluated without the full derivation, numerical implementation, and quantitative comparison to experiments. The scientific premise is plausible, but the current material does not establish the case.
+- **Who would be interested in the results, and why** Researchers in biophysics, soft matter physics, and protein science, particularly those studying aggregation mechanisms, amyloid formation, and the role of electrostatics in biomolecular assembly. The claim of a salt-dependent switch between two nucleation modes could be relevant to understanding disease-related aggregation and to designing conditions for controlling protein assembly.
+- **Major strengths** The theoretical approach appears to integrate established methods (self-consistent field theory and solution thermodynamics) in a way that may capture both thermodynamic and kinetic aspects. The claim of tracking kinetic pathways without morphological restrictions is ambitious and, if true, would be a methodological advance. The explicit prediction of a salt-dependent transition between two nucleation modes is a clear, testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The theory "tracks the kinetic pathway without any restriction on the morphology of the aggregates."
+  - **Evidence pointer** Abstract, methods not provided
+  - **Concern** The abstract claims unrestricted morphological tracking, but no details are given on how the theory handles arbitrary aggregate shapes, size distributions, or transitions between morphologies. Without a description of the numerical or analytical methods, it is impossible to assess whether the claim is technically feasible or whether hidden constraints exist.
+  - **Why it matters** This claim is central to the novelty of the work. If the method imposes implicit restrictions, the conclusion about the two-step pathway may be an artifact of the model rather than a general result.
+  - **Resolution test** Provide a clear description of the theoretical framework, including how aggregate morphology is parameterized, how kinetic pathways are computed, and any approximations or constraints. Show that the method can reproduce known aggregation behavior in test cases.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "The theoretical predictions of the kinetic pathway and the morphology of the aggregates are in good agreement with the experimental observations of real proteins."
+  - **Evidence pointer** Abstract, no experimental data or comparison shown
+  - **Concern** The abstract states agreement with experiments but provides no specific proteins, conditions, or quantitative metrics. Without a direct comparison, the claim of agreement is unverifiable.
+  - **Why it matters** Agreement with experiments is a key validation of the theory. If the comparison is qualitative or selective, the claim may overstate the predictive power.
+  - **Resolution test** Present quantitative comparisons for at least one or two specific proteins, including experimental and theoretical kinetic profiles and aggregate morphologies, with error estimates or statistical measures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "The screened electrostatic interaction is essential for the existence of the metastable oligomer and its subsequent conformational transition to fibril."
+  - **Evidence pointer** Abstract, scaling analysis mentioned but not shown
+  - **Concern** The claim of electrostatic essentiality is based on a scaling analysis that is not presented. It is unclear whether the conclusion is robust to parameter variations, such as protein charge distribution, dielectric effects, or specific ion binding.
+  - **Why it matters** This is the central mechanistic claim. If the scaling analysis is incomplete or relies on specific assumptions, the conclusion may not generalize.
+  - **Resolution test** Provide the full scaling derivation and show that the conclusion holds across a reasonable range of model parameters. Discuss potential limitations, such as non-electrostatic interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, terminology
+  - **Evidence pointer** Abstract, "self-consistent field theory" and "dilute solution thermodynamics"
+  - **Issue** The abstract uses technical terms without brief explanation, which may limit accessibility to a broader physics or biology audience.
+  - **Required correction** Add a brief phrase explaining the role of each method, for example, "a method that accounts for charge distributions" and "a framework for solution-phase equilibria."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract, "two-step nucleated process"
+  - **Evidence pointer** Abstract, description of the pathway
+  - **Issue** The term "nucleated process" is used without defining what constitutes the nucleus or how the two steps are distinguished kinetically.
+  - **Required correction** Define the two steps explicitly, for example, "formation of a metastable spherical oligomer followed by a conformational transition to a fibrillar nucleus."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Abstract, salt concentration range
+  - **Evidence pointer** Abstract, "low salt concentrations" and "as salt concentration increases"
+  - **Issue** The abstract does not specify the range of salt concentrations studied or the transition point between the two regimes.
+  - **Required correction** Provide approximate salt concentration values or a dimensionless parameter that defines the regimes.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of methodological detail, quantitative experimental comparison, and full scaling analysis prevents verification of the core claims.
+- **Assessment against Nature-style criteria** Originality is plausible, as the combination of self-consistent field theory with solution thermodynamics for aggregation kinetics may be novel, but this cannot be confirmed without the full method. Scientific importance is potentially high given the relevance to protein aggregation diseases, but the current evidence does not demonstrate broad impact. Interdisciplinary readership is likely, but the abstract is not fully accessible to nonspecialists. Technical soundness is unverifiable from the abstract alone. Readability for nonspecialists is moderate, with some jargon that could be clarified.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially interesting theory, but the core claims require full methodological and experimental details for evaluation. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim of unrestricted morphological tracking is unsupported without method details.
+- The claim of agreement with experimental observations is unsupported without specific data.
+- The claim that electrostatic screening is essential for the metastable oligomer and conformational transition is unsupported without the scaling analysis.
+- The recovery of one-step nucleation at higher salt concentrations is stated but not quantified or compared to any reference.

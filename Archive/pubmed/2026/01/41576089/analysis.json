@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41576089",
+  "title": "Protein language models trained on biophysical dynamics inform mutation effects.",
+  "authors": "Hou, Chao; Zhao, Haiqing; Shen, Yufeng",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2026-01-23",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于分子动力学模拟动态生物物理性质训练蛋白质语言模型(SeqDance/ESMDance)，用于预测突变效应，虽非直接研究IDR介导的PPI，但其动态建模思路对无序蛋白互作机制预测具有可迁移启发。",
+  "abstract": "Structural dynamics are fundamental to protein functions and mutation effects. Current protein deep learning models are predominantly trained on sequence and/or static structure data, which often fail to capture the dynamic nature of proteins. To address this, we introduce SeqDance and ESMDance, two protein language models trained on dynamic biophysical properties derived from molecular dynamics simulations and normal mode analyses of over 64,000 proteins. Both models can be directly applied to predict dynamic properties of unseen ordered and disordered proteins. SeqDance, trained from scratch, has attentions that capture dynamic interaction and comovement between residues, and its embeddings encode rich representations of protein dynamics that can be further utilized to predict conformational properties beyond the training tasks via transfer learning. SeqDance predicted dynamic property changes reflect mutation effect on protein folding stability. ESMDance, built upon ESM2 (Evolutionary Scale Model II) outputs, substantially outperforms ESM2 in zero-shot prediction of mutation effects for designed and viral proteins which lack evolutionary information. Together, SeqDance and ESMDance offer a framework for integrating protein dynamics into language models, enabling more generalizable predictions of protein behavior and mutation effects.",
+  "abstract_zh": "结构动力学是蛋白质功能和突变效应的基础。当前的蛋白质深度学习模型主要基于序列和/或静态结构数据进行训练，往往无法捕捉蛋白质的动态特性。为解决这一问题，我们引入了SeqDance和ESMDance，这两个蛋白质语言模型基于对超过64,000种蛋白质的分子动力学模拟和简正模式分析所衍生的动态生物物理特性进行训练。这两个模型可直接应用于预测未见过的有序和无序蛋白质的动态特性。SeqDance从零开始训练，其注意力机制能够捕捉残基间的动态相互作用和协同运动，其嵌入表示编码了丰富的蛋白质动态信息，可通过迁移学习进一步用于预测超出训练任务范围的构象特性。SeqDance预测的动态特性变化反映了突变对蛋白质折叠稳定性的影响。ESMDance基于ESM2（进化尺度模型II）的输出构建，在缺乏进化信息的设计蛋白质和病毒蛋白质的突变效应零样本预测中，显著优于ESM2。综合来看，SeqDance和ESMDance提供了一个将蛋白质动力学整合到语言模型中的框架，从而实现对蛋白质行为和突变效应的更泛化预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41576089/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41576089/",
+  "paper_page_path": "papers/pubmed/41576089/index.html"
+}

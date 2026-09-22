@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "33779503",
+    "doi": "10.1080/07391102.2021.1904005",
+    "title": "Understanding disorder-to-order transitions in protein-RNA complexes using molecular dynamics simulations."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) in proteins are characterized by their flexibilities and low complexity regions, which lack unique 3 D structures in solution. IDRs play a significant role in signaling, regulation, and binding multiple partners, including DNA, RNA, and proteins. Although various experiments have shown the role of disordered regions in binding with RNA, a detailed computational analysis is required to understand their binding and recognition mechanism. In this work, we performed molecular dynamics simulations of 10 protein-RNA complexes to understand the binding governed by intrinsically disordered regions. The simulation results show that most of the disordered regions are important for RNA-binding and have a transition from disordered-to-ordered conformation upon binding, which often contribute significantly towards the binding affinity. Interestingly, most of the disordered residues are present at the interface or located as a linker between two regions having similar movements. The DOT regions are overlaped or flanked with experimentally reported functionally important residues in the recognition of protein-RNA complexes. This study provides additional insights for understanding the role and recognition mechanism of disordered regions in protein-RNA complexes.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "Intrinsically disordered proteins",
+      "disorder-to-order transition",
+      "flexible",
+      "molecular dynamics simulation",
+      "protein-RNA complex"
+    ],
+    "mesh_terms": [
+      "DNA",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Protein Domains",
+      "Proteins",
+      "RNA"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Srivastava, Ambuj",
+        "Yesudhas, Dhanusha",
+        "Ahmad, Shandar",
+        "Gromiha, M Michael"
+      ],
+      "short_names": [
+        "Srivastava A",
+        "Yesudhas D",
+        "Ahmad S",
+        "Gromiha MM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai, Tamil Nadu, India.",
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai, Tamil Nadu, India.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi, India.",
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai, Tamil Nadu, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Srivastava, Ambuj",
+        "short_name": "Srivastava A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Yesudhas, Dhanusha",
+        "short_name": "Yesudhas D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Shandar",
+        "short_name": "Ahmad S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Gromiha, M Michael",
+        "short_name": "Gromiha MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai, Tamil Nadu, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/30 06:00",
+    "fetched_at": "2026-09-20 02:22:30"
+  },
+  "links": {
+    "cites": [
+      "41919199",
+      "35340298",
+      "34067172"
+    ],
+    "refs": [],
+    "similar": [
+      "33779503",
+      "29843482",
+      "39032884",
+      "35098694",
+      "38275091",
+      "32824743",
+      "35139468",
+      "31136713",
+      "36774964",
+      "31709918",
+      "35562983",
+      "31804089",
+      "31756456",
+      "33567297",
+      "27179590",
+      "36959451",
+      "36131545",
+      "25871264",
+      "32323533",
+      "34201262",
+      "36008992",
+      "28381244",
+      "24027208",
+      "26661739",
+      "32020911",
+      "25387963",
+      "24532081",
+      "32929427",
+      "31207240",
+      "28355271",
+      "34825861",
+      "29907037",
+      "35605677",
+      "24589355",
+      "33454008",
+      "31889261",
+      "29791766",
+      "38166858",
+      "28780862",
+      "38116756",
+      "27787828",
+      "32034199",
+      "29080786",
+      "32859072",
+      "29276882",
+      "25099811",
+      "32112804",
+      "26742101",
+      "36272675",
+      "29666277",
+      "29066345",
+      "35298814",
+      "25752799",
+      "33122085",
+      "30802457",
+      "30813315",
+      "33806614",
+      "29309620",
+      "31521235",
+      "34390736",
+      "37892124",
+      "29763584",
+      "33167839",
+      "26297830",
+      "33617899",
+      "32225071",
+      "32696395",
+      "34626492",
+      "21541066",
+      "23055912",
+      "33417598",
+      "24668165",
+      "31521329",
+      "34418423",
+      "33087759",
+      "32473054",
+      "36987865",
+      "30058229",
+      "27037624",
+      "27450808",
+      "28554553",
+      "32579908",
+      "30841624",
+      "30507941",
+      "39384813",
+      "28834051",
+      "25919886",
+      "35102880",
+      "31548393",
+      "33799704",
+      "28924037",
+      "36674574",
+      "32735805",
+      "31999450",
+      "24763499",
+      "35507260",
+      "30940742",
+      "33207556",
+      "31683063",
+      "34680162",
+      "30855964",
+      "36648282",
+      "39253485",
+      "36840694",
+      "39285530",
+      "37463458",
+      "36851914",
+      "38284524",
+      "37498545",
+      "27229125",
+      "36346589",
+      "33184256",
+      "36463772",
+      "23364837",
+      "37761851",
+      "38915483",
+      "27048167",
+      "36413333",
+      "36988562",
+      "37329857",
+      "36348631",
+      "39072126",
+      "38771003",
+      "39353735",
+      "35739160",
+      "31659043",
+      "38883712",
+      "38910419",
+      "36209362",
+      "37609146",
+      "35962177",
+      "37400558",
+      "36318590",
+      "37709009",
+      "36498959",
+      "37778184",
+      "38039154",
+      "36409899",
+      "38895487",
+      "36830732",
+      "34971347",
+      "32268219",
+      "38672470",
+      "28387381",
+      "37065494",
+      "39071356",
+      "35485934",
+      "38212624",
+      "36395332",
+      "21776336",
+      "38178552",
+      "37060758",
+      "39158131",
+      "37494018"
+    ],
+    "review": [
+      "33779503",
+      "35098694",
+      "35139468",
+      "31709918",
+      "33567297",
+      "36959451",
+      "24027208",
+      "32020911",
+      "24532081",
+      "32034199",
+      "25752799",
+      "31521235",
+      "34390736",
+      "33167839",
+      "34418423",
+      "28554553",
+      "35102880",
+      "30940742",
+      "33207556",
+      "34680162",
+      "36648282",
+      "36851914",
+      "27229125",
+      "36463772",
+      "27048167",
+      "37329857",
+      "37400558",
+      "36498959",
+      "37778184",
+      "32268219"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2021.1904005?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2021.1904005",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      },
+      {
+        "url": "https://scite.ai/reports/33779503",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

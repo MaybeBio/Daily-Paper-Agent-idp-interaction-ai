@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40995693",
+  "title": "Nortriptyline Inhibits Lysosomal Exocytosis-Mediated SASP During Gastric Cancer Progression via Targeting HOXA1-PITX2 Phase Separation.",
+  "authors": "Zhou, Yi; Yang, Chunhui; Li, Xinyue; Wang, Xiaojing; Jiao, Wanju; Wang, Xiaolin; Qu, Jiaying; Zhao, Bosen; Zhou, Shunchen; Tong, Qiangsong; Zheng, Liduan",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2025-09-25",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究去甲替林通过靶向HOXA1-PITX2相分离抑制胃癌溶酶体胞吐介导的SASP，涉及IDR相分离与PPI机制，但方法以实验为主，AI/物理模拟仅分子对接辅助，机制建模深度有限。",
+  "abstract": "Lysosomal exocytosis, a calcium-dependent secretory process, facilitates extracellular release of cargos that promote cancer progression, though its regulatory pathways and therapeutic strategies are poorly understood. Herein, using combined transcriptomic and proteomic approaches, we identify homeobox A1 (HOXA1) as a functional partner of paired like homeodomain 2 (PITX2) within biomolecular condensates forming via liquid-liquid phase separation. Mechanistically, HOXA1-PITX2 complex facilitates the expression of mucolipin 1 (MCOLN1) and RAS-related protein Rab-3A (RAB3A), which drive lysosomal exocytosis of galectin-1 (LGALS1) and insulin like growth factor binding protein 7 (IGFBP7) from senescent gastric cancer cells. This process potentiates AKT activation and epithelial-mesenchymal transition, accelerating tumorigenesis and aggressiveness of gastric cancer. Molecular docking and affinity purification assays reveal nortriptyline (Nor) as a potent phase separation disruptor of HOXA1-PITX2 complex. Preclinical studies demonstrate that Nor administration attenuates lysosomal exocytosis-mediated senescence-associated secretory phenotype (SASP) and reduces aggressive phenotypes in gastric cancer models, underscoring the HOXA1/PITX2 axis as a critical regulator of gastric cancer progression. Clinically, elevated expression of HOXA1, PITX2, MCOLN1, RAB3A, LGALS1, and IGFBP7 constitutes a prognostic signature correlating with poor outcomes of gastric cancer patients. Collectively, these results indicate that Nor impedes gastric cancer progression by suppressing HOXA1-PITX2 phase separation and subsequent lysosomal exocytosis-mediated SASP.",
+  "abstract_zh": "溶酶体胞吐（lysosomal exocytosis）是一种钙依赖的分泌过程，促进促进癌症进展的货物释放至细胞外，尽管其调控途径和治疗策略尚不明确。在此，通过结合转录组学和蛋白质组学方法，我们鉴定出同源盒A1（HOXA1）作为配对样同源结构域2（PITX2）的功能伙伴，在通过液-液相分离（liquid-liquid phase separation）形成的生物分子凝聚体中发挥作用。机制上，HOXA1-PITX2复合物促进黏脂蛋白1（MCOLN1）和RAS相关蛋白Rab-3A（RAB3A）的表达，这些蛋白驱动衰老胃癌细胞中半乳糖凝集素1（LGALS1）和胰岛素样生长因子结合蛋白7（IGFBP7）的溶酶体胞吐。该过程增强AKT激活和上皮-间质转化，加速胃癌的肿瘤发生和侵袭性。分子对接和亲和纯化实验揭示去甲替林（Nor）作为HOXA1-PITX2复合物的强效相分离干扰剂。临床前研究表明，Nor给药减弱溶酶体胞吐介导的衰老相关分泌表型（SASP），并减少胃癌模型中的侵袭性表型，强调HOXA1/PITX2轴作为胃癌进展的关键调控因子。临床上，HOXA1、PITX2、MCOLN1、RAB3A、LGALS1和IGFBP7的高表达构成一个预后特征，与胃癌患者的不良预后相关。总体而言，这些结果表明Nor通过抑制HOXA1-PITX2相分离及随后的溶酶体胞吐介导的SASP来阻碍胃癌进展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40995693/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40995693/",
+  "paper_page_path": "papers/pubmed/40995693/index.html"
+}

@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "pmid": "42387508",
+    "doi": "10.1186/s12929-026-01274-7",
+    "title": "Calcium and phosphorylation coordination is a novel mechanism that stabilises protein-complexes during HIV assembly."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Calcium (Ca(2+)) signalling and phosphorylation are independent mechanisms that regulate diverse biological processes. It is, however, not appreciated that a normal function of phospho-mimic amino acids (aspartate/glutamate) is to interact with Ca(2+) at the atomic level. METHODS: In this work, we have utilised a combination of molecular virology, phosphorylation proteomics mass spectrometry, surface plasmon resonance, nuclear magnetic resonance, AlphaFold structural prediction, and electron microscopy imaging to systematically evaluated the biology of calcium - phosphorylation interplay. RESULTS: Here, we leveraged HIV-Ca(2+) biology to enable polarised targeting in primary cells to describe an unknown layer of regulatory processes via Ca(2+)-phosphate (PO(4)(3-)) bridge to support protein complex formation. We identified novel HIV phosphorylation sites proximal to Endosomal Sorting Complex Required for Transport (ESCRT) binding motifs and potential Ca(2+) binding sites through phospho-proteomics. Integrating primary cells, molecular virology, structural biology, biophysical and ultrastructural analyses, we presented multiple examples of coordination between calcium and phosphorylated amino acids to support HIV assembly and function. Our data suggest Ca(2+)-PO(4)(3-) could form a bridge between intrinsically disordered protein regions of HIV to: (i) stabilise Pr55(Gag)-Pr160(GagPol) complex for virus function; (ii) mediate p6(Pol) dimerization to support virion maturation; and (iii) modulate viral complex formation to package both viral enzymatic- and cellular- proteins. CONCLUSIONS: Our work has identified the coordination between calcium and phosphorylated amino acids (presumably via the formation of a salt-bridge) is an unknown layer of regulation that support protein complex formation. In the context of HIV, these Ca(2+)-PO(4)(3-) cooperation via the intrinsically disordered protein regions regulates the assembly of HIV complex and modulates its interactions with ESCRT cellular proteins. Importantly, the convergent enrichment of calcium-phosphorylation domains across a wide range of viral and cellular intrinsically disordered protein regions implies Ca(2+)-PO(4)(3-) cooperation to be a general regulatory principle in biology.",
+    "keywords": [
+      "Biophysics",
+      "Calcium",
+      "Calcium-phosphate bridge",
+      "Disordered",
+      "ESCRT",
+      "Endosomal sorting complex required for transport",
+      "Exocytosis",
+      "HIV assembly",
+      "Intrinsically disorder proteins",
+      "PEST",
+      "Phosphorylation switch",
+      "Pr160GagPol",
+      "Pr55Gag",
+      "Protein complex stability",
+      "Ryanodine receptors",
+      "TSG101",
+      "Ubiquitination",
+      "Virological synapses"
+    ],
+    "mesh_terms": [
+      "Phosphorylation",
+      "Humans",
+      "*Calcium/metabolism",
+      "*Virus Assembly",
+      "*HIV-1/physiology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bremaud, Erwan",
+        "Mishra, Biswa Prasanna",
+        "Baqi, Ablikim",
+        "Masic, Veronika",
+        "Flipo, Thibaut",
+        "Everest-Dass, Arun",
+        "Hartley-Tassell, Lauren",
+        "Gorry, Paul R",
+        "Ve, Thomas",
+        "Spillings, Belinda L",
+        "Mak, Johnson"
+      ],
+      "short_names": [
+        "Bremaud E",
+        "Mishra BP",
+        "Baqi A",
+        "Masic V",
+        "Flipo T",
+        "Everest-Dass A",
+        "Hartley-Tassell L",
+        "Gorry PR",
+        "Ve T",
+        "Spillings BL",
+        "Mak J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5229-5707"
+      ],
+      "affiliations": [
+        "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia.",
+        "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia.",
+        "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia.",
+        "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia.",
+        "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia.",
+        "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia.",
+        "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia.",
+        "The Peter Doherty Institute for Infection and Immunity, The University of Melbourne, Melbourne, Australia.",
+        "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia.",
+        "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia.",
+        "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia. j.mak@griffith.edu.au."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Brémaud, Erwan",
+        "short_name": "Brémaud E",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Mishra, Biswa Prasanna",
+        "short_name": "Mishra BP",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Baqi, Ablikim",
+        "short_name": "Baqi A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Masic, Veronika",
+        "short_name": "Masic V",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Flipo, Thibaut",
+        "short_name": "Flipo T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Everest-Dass, Arun",
+        "short_name": "Everest-Dass A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Hartley-Tassell, Lauren",
+        "short_name": "Hartley-Tassell L",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Gorry, Paul R",
+        "short_name": "Gorry PR",
+        "identifiers": [],
+        "affiliations": [
+          "The Peter Doherty Institute for Infection and Immunity, The University of Melbourne, Melbourne, Australia."
+        ]
+      },
+      {
+        "full_name": "Ve, Thomas",
+        "short_name": "Ve T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Spillings, Belinda L",
+        "short_name": "Spillings BL",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia."
+        ]
+      },
+      {
+        "full_name": "Mak, Johnson",
+        "short_name": "Mak J",
+        "identifiers": [
+          "0000-0002-5229-5707"
+        ],
+        "affiliations": [
+          "Institute for Biomedicine & Glycomics, Griffith University, Gold Coast, QLD, Australia. j.mak@griffith.edu.au."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomedical science"
+    ],
+    "journal_abbrev": [
+      "J Biomed Sci"
+    ],
+    "pub_date": "2026 Jul 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/02 06:39",
+    "fetched_at": "2026-09-18 04:37:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41218419",
+      "38718835",
+      "38718258",
+      "37957331",
+      "37889756",
+      "37889755",
+      "36350035",
+      "35726784",
+      "35253001",
+      "35108536",
+      "34439840",
+      "34287363",
+      "33806881",
+      "30905686",
+      "30706658",
+      "29515578",
+      "28222188",
+      "27292632",
+      "27120610",
+      "26196731",
+      "25531225",
+      "25279819",
+      "25147561",
+      "24810910",
+      "24257210",
+      "23962882",
+      "23684312",
+      "23255153",
+      "23115284",
+      "22762019",
+      "22595671",
+      "22033837",
+      "21949786",
+      "21324168",
+      "19029910",
+      "18923188",
+      "18212344",
+      "18083096",
+      "16364736",
+      "16234236",
+      "15155723",
+      "14960716",
+      "13252012",
+      "12838335",
+      "12379843",
+      "12094216",
+      "12006492",
+      "11773377",
+      "11749371",
+      "11160682",
+      "11114499",
+      "10571231",
+      "9564043",
+      "9151881",
+      "8755249",
+      "8235594"
+    ],
+    "similar": [
+      "42387508",
+      "41808998",
+      "40956082",
+      "25710462",
+      "31189701",
+      "27803188",
+      "27120610",
+      "30327442",
+      "22978549",
+      "15218037",
+      "23027949",
+      "35253001",
+      "32213612",
+      "32994219",
+      "21324168",
+      "24623418",
+      "24257210",
+      "27170757",
+      "23408603",
+      "16873251",
+      "25099357",
+      "23895345",
+      "23912807",
+      "34730397",
+      "21394083",
+      "27648839",
+      "39459900",
+      "25279819",
+      "15509564",
+      "24436186",
+      "29972351",
+      "29954247",
+      "24834918",
+      "21875593",
+      "40071921",
+      "40135896",
+      "16973552",
+      "31413124",
+      "24447338",
+      "26268989",
+      "29046462",
+      "25488808",
+      "41218419",
+      "41772600",
+      "23115284",
+      "28053097",
+      "29571744",
+      "27784779",
+      "20519395",
+      "12465460",
+      "42475469",
+      "26223638",
+      "34203832",
+      "16571793",
+      "30615963",
+      "27338237",
+      "12743307",
+      "32424346",
+      "19692479",
+      "11726971",
+      "25524645",
+      "20427536",
+      "33799890",
+      "16981686",
+      "15140952",
+      "20459747",
+      "17158451",
+      "17853893",
+      "32391791",
+      "19403673",
+      "15155723",
+      "23305486",
+      "35891508",
+      "27466427",
+      "12663786",
+      "29123089",
+      "28363991",
+      "25392219",
+      "17182674",
+      "20023299",
+      "25031324",
+      "21314091",
+      "40838881",
+      "14722278",
+      "37172824",
+      "25320329",
+      "22761998",
+      "20455269",
+      "34076483",
+      "9501077",
+      "32326417",
+      "28122978",
+      "29444944",
+      "26178992",
+      "12915533",
+      "22318318",
+      "34851141",
+      "19143627",
+      "38263239",
+      "21394086"
+    ],
+    "review": [
+      "42387508",
+      "41218419",
+      "41772600",
+      "12465460",
+      "34203832",
+      "30615963",
+      "33799890",
+      "23305486"
+    ],
+    "pmc": [
+      "13326380"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://jbiomedsci.biomedcentral.com/articles/10.1186/s12929-026-01274-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42387508/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1186/s12929-026-01274-7",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-S100A12-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,374 @@
+{
+  "identity": {
+    "pmid": "34577606",
+    "doi": "10.3390/ph14090906",
+    "title": "Semaphorin 3A-Glycosaminoglycans Interaction as Therapeutic Target for Axonal Regeneration."
+  },
+  "content": {
+    "abstract": "Semaphorin 3A (Sema3A) is a cell-secreted protein that participates in the axonal guidance pathways. Sema3A acts as a canonical repulsive axon guidance molecule, inhibiting CNS regenerative axonal growth and propagation. Therefore, interfering with Sema3A signaling is proposed as a therapeutic target for achieving functional recovery after CNS injuries. It has been shown that Sema3A adheres to the proteoglycan component of the extracellular matrix (ECM) and selectively binds to heparin and chondroitin sulfate-E (CS-E) glycosaminoglycans (GAGs). We hypothesize that the biologically relevant interaction between Sema3A and GAGs takes place at Sema3A C-terminal polybasic region (SCT). The aims of this study were to characterize the interaction of the whole Sema3A C-terminal polybasic region (Sema3A 725-771) with GAGs and to investigate the disruption of this interaction by small molecules. Recombinant Sema3A basic domain was produced and we used a combination of biophysical techniques (NMR, SPR, and heparin affinity chromatography) to gain insight into the interaction of the Sema3A C-terminal domain with GAGs. The results demonstrate that SCT is an intrinsically disordered region, which confirms that SCT binds to GAGs and helps to identify the specific residues involved in the interaction. NMR studies, supported by molecular dynamics simulations, show that a new peptoid molecule (CSIC02) may disrupt the interaction between SCT and heparin. Our structural study paves the way toward the design of new molecules targeting these protein-GAG interactions with potential therapeutic applications.",
+    "keywords": [
+      "NMR",
+      "glycosaminoglycan-protein interaction",
+      "peptoids",
+      "semaphorin 3A"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Perez, Yolanda",
+        "Bonet, Roman",
+        "Corredor, Miriam",
+        "Domingo, Cecilia",
+        "Moure, Alejandra",
+        "Messeguer, Angel",
+        "Bujons, Jordi",
+        "Alfonso, Ignacio"
+      ],
+      "short_names": [
+        "Perez Y",
+        "Bonet R",
+        "Corredor M",
+        "Domingo C",
+        "Moure A",
+        "Messeguer A",
+        "Bujons J",
+        "Alfonso I"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3767-5346",
+        "ORCID: 0000-0003-2944-2905",
+        "ORCID: 0000-0003-0678-0362"
+      ],
+      "affiliations": [
+        "NMR Facility, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain.",
+        "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain.",
+        "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain.",
+        "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain.",
+        "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain.",
+        "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain.",
+        "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain.",
+        "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pérez, Yolanda",
+        "short_name": "Pérez Y",
+        "identifiers": [
+          "0000-0003-3767-5346"
+        ],
+        "affiliations": [
+          "NMR Facility, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Bonet, Roman",
+        "short_name": "Bonet R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Corredor, Miriam",
+        "short_name": "Corredor M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Domingo, Cecilia",
+        "short_name": "Domingo C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Moure, Alejandra",
+        "short_name": "Moure A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Messeguer, Àngel",
+        "short_name": "Messeguer À",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Bujons, Jordi",
+        "short_name": "Bujons J",
+        "identifiers": [
+          "0000-0003-2944-2905"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Alfonso, Ignacio",
+        "short_name": "Alfonso I",
+        "identifiers": [
+          "0000-0003-0678-0362"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry, Institute for Advanced Chemistry of Catalonia (IQAC-CSIC), Jordi Girona 18-26, 08034 Barcelona, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmaceuticals (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Pharmaceuticals (Basel)"
+    ],
+    "pub_date": "2021 Sep 7",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/29 06:00",
+    "fetched_at": "2026-09-20 05:39:35"
+  },
+  "links": {
+    "cites": [
+      "42358159",
+      "42353024",
+      "41744690",
+      "40926092",
+      "39042673",
+      "38646100",
+      "36776771",
+      "36699743"
+    ],
+    "refs": [
+      "34265844",
+      "34096718",
+      "33796549",
+      "33768117",
+      "33670945",
+      "33609512",
+      "33545660",
+      "33269115",
+      "33143303",
+      "32757871",
+      "32640719",
+      "32623943",
+      "32577918",
+      "32237272",
+      "32218163",
+      "32210960",
+      "32173600",
+      "31668808",
+      "30878449",
+      "30706367",
+      "30471686",
+      "30463575",
+      "30273653",
+      "29998599",
+      "29579579",
+      "28653068",
+      "28133533",
+      "27906605",
+      "27787839",
+      "27057361",
+      "27028639",
+      "26709493",
+      "25855660",
+      "25615273",
+      "25534081",
+      "25386118",
+      "25082288",
+      "24739139",
+      "24606135",
+      "24246365",
+      "24079887",
+      "24012743",
+      "23994753",
+      "23962882",
+      "23940048",
+      "23919803",
+      "23665579",
+      "23211458",
+      "23104057",
+      "23019154",
+      "22927827",
+      "22360139",
+      "22333131",
+      "22325954",
+      "20375348",
+      "20071458",
+      "19895822",
+      "19615921",
+      "19090915",
+      "18967553",
+      "18725627",
+      "18065465",
+      "17896349",
+      "17598000",
+      "17391016",
+      "17034125",
+      "15980072",
+      "15866045",
+      "15815974",
+      "15603739",
+      "15557467",
+      "15231514",
+      "15027866",
+      "15027865",
+      "12933805",
+      "12904464",
+      "12495031",
+      "12376549",
+      "11093259",
+      "10592235",
+      "10367884",
+      "9949192",
+      "9746340",
+      "9631661",
+      "9624167",
+      "9516427",
+      "9321387",
+      "9210650",
+      "9169007",
+      "8402908",
+      "8037658",
+      "2463827",
+      "712855"
+    ],
+    "similar": [
+      "34577606",
+      "27028639",
+      "23940048",
+      "23665579",
+      "10934324",
+      "26921371",
+      "28637841",
+      "27057361",
+      "31733191",
+      "23891937",
+      "25528666",
+      "29058876",
+      "26945060",
+      "11920727",
+      "32499377",
+      "15078553",
+      "29740048",
+      "29370308",
+      "23999154",
+      "32184710",
+      "12151545",
+      "31814697",
+      "10875745",
+      "30355116",
+      "29203371",
+      "11027230",
+      "21953086",
+      "18096366",
+      "12401447",
+      "15866045",
+      "26381016",
+      "10864481",
+      "18039974",
+      "17607942",
+      "14727128",
+      "24060749",
+      "19515904",
+      "11025205",
+      "15831706",
+      "12610647",
+      "10781943",
+      "23602477",
+      "24886696",
+      "15155748",
+      "24045994",
+      "11331362",
+      "17631638",
+      "19454481",
+      "32939673",
+      "31537704",
+      "28480592",
+      "33143303",
+      "10860881",
+      "8508806",
+      "20071458",
+      "29229841",
+      "28151637",
+      "26638837",
+      "21933622",
+      "33449368",
+      "28254884",
+      "30872177",
+      "29909462",
+      "12372285",
+      "26884395",
+      "25352735",
+      "19615921",
+      "31264681",
+      "10985345",
+      "29430872",
+      "31898491",
+      "12925274",
+      "30816586",
+      "18180379",
+      "10508610",
+      "31828567",
+      "25188662",
+      "34361063",
+      "31394943",
+      "33768554",
+      "35631323"
+    ],
+    "review": [
+      "34577606",
+      "10934324",
+      "27057361",
+      "29058876",
+      "10875745",
+      "17607942"
+    ],
+    "pmc": [
+      "8465649"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ph14090906",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34577606/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34577606",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

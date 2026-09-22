@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific and technical evaluation of the methodology, results, and claims as presented; no evaluation of editorial fit or publication decision
+- **Shared manuscript claim summary** The authors present a restrained umbrella sampling approach based on the Woo-Roux method to calculate the absolute binding free energy of Aβ9–40 monomer addition to a protofilament tip. They report improved convergence and agreement with experimental binding free energy compared to unrestrained umbrella sampling, and they decompose the total free energy into axial, orientational, and conformational contributions, finding that conformational restriction opposes binding by a magnitude larger than the total binding free energy. They also report a reduction in computational cost.
+- **Visible evidence base** Full text including methods, results, tables (Table 1, Table 2), figures (Figures 1–9), and references to supporting information
+- **Missing materials affecting confidence** Supporting information (SI) files, including Tables S1–S8 and Figures S1–S4, are referenced but not provided. Force field parameter details, simulation input files, and raw trajectory data are not available. Experimental binding free energy reference values are cited but not reproduced in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically detailed application of the Woo-Roux restrained binding free energy method to a biologically relevant amyloid system. The central claim, that restraining axial, orientational, and conformational degrees of freedom improves convergence and yields a binding free energy in close agreement with experiment, is plausible and supported by the presented data. The decomposition of free energy contributions is informative and highlights the large opposing conformational entropy cost. However, the assessment is limited by the absence of the supporting information, which contains essential validation details. The comparison with experiment relies on a single reference value, and the uncertainty of the final estimate is relatively large. The computational cost reduction analysis is useful but depends on convergence criteria that are not fully detailed. Overall, the work is a solid methodological contribution, but the case for broad applicability and the robustness of the quantitative conclusions would be strengthened by additional validation and clearer reporting of uncertainties.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and physical chemistry studying protein-ligand and protein-protein binding free energies, particularly those working on intrinsically disordered proteins and amyloid systems. The methodological comparison between restrained and unrestrained umbrella sampling, and the decomposition of free energy contributions, will be of interest to practitioners of free energy calculations. The application to Aβ fibril propagation is relevant to the Alzheimer's disease research community, though the methodological focus may limit the appeal to a broader biological audience.
+- **Major strengths** The manuscript addresses a challenging and biologically relevant problem: computing binding free energies for an intrinsically disordered peptide to a fibrillar template. The application of the Woo-Roux method with a dRMSD-based conformational restraint is a sensible adaptation. The decomposition of the total free energy into axial, orientational, and conformational contributions provides mechanistic insight. The authors report a significant improvement in agreement with experiment compared to their previous unrestrained approach. The analysis of minimum simulation time required for convergence is practical and useful for future applications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the WR-method yields a binding free energy in "close agreement" with experiment, with a value of −8.8 kcal/mol compared to an experimental reference of −8.6 kcal/mol.
+  - **Evidence pointer** Table 1, Results section "Calculation of the Aβ9–40 protofilament propagation free energy"
+  - **Concern** The agreement with experiment is based on a single experimental reference value, and the reported uncertainty of the calculated value is ±2.0 kcal/mol. This uncertainty is large relative to the difference between the calculated and experimental values (0.2 kcal/mol). The manuscript does not discuss whether this level of agreement is robust given the uncertainty, nor does it compare against a range of experimental measurements or independent estimates. The claim of "close agreement" may be overstated given the statistical uncertainty.
+  - **Why it matters** The central claim of the manuscript is that the restrained method improves accuracy relative to experiment. If the uncertainty is ±2.0 kcal/mol, the apparent agreement could be fortuitous. A more rigorous comparison, including a discussion of the experimental uncertainty and a sensitivity analysis, is needed to support the claim.
+  - **Resolution test** Provide a quantitative comparison of the calculated binding free energy against multiple experimental measurements or a range of reported values, and discuss the implications of the ±2.0 kcal/mol uncertainty for the claimed agreement. Alternatively, demonstrate that the uncertainty is an overestimate and provide a more precise estimate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the conformational free energy contribution (ΔGcbulk − ΔGcsite = 9.11 kcal/mol) is "larger than the total binding free energy" and makes a "large opposing contribution."
+  - **Evidence pointer** Table 1, Results section "Conformational restraints", Discussion section
+  - **Concern** The decomposition of the total binding free energy into axial, orientational, and conformational contributions depends on the choice of restraint definitions, reference states, and force constants. The manuscript acknowledges that the contributions depend on these choices but does not provide a systematic analysis of how sensitive the decomposition is to these parameters. The claim that the conformational contribution is larger than the total binding free energy is a key mechanistic insight, but its robustness is not established.
+  - **Why it matters** The decomposition is presented as a major outcome of the work. If the relative magnitudes of the contributions change significantly with reasonable variations in the restraint parameters, the mechanistic interpretation would be weakened.
+  - **Resolution test** Perform a sensitivity analysis varying the restraint force constants and reference angles, and report the range of values for each contribution. Demonstrate that the qualitative conclusion (conformational contribution opposing binding by a magnitude larger than the total) holds across this range.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the WR-method achieves "much closer agreement with experimental binding free energy data compared to unrestrained umbrella sampling" and that convergence is improved.
+  - **Evidence pointer** Table 1, Figure 6, Results section "Comparison of potential-of-mean-force along separation coordinate"
+  - **Concern** The comparison between the restrained and unrestrained methods is based on a single system and a single experimental reference. The unrestrained simulation was performed in previous work, and the details of that simulation (force field, system size, sampling time) are not fully described in the present manuscript. The claim of improved convergence is supported by the observation that the restrained PMF reached convergence in 20 ns per window versus 100 ns for the unrestrained case, but the criteria for convergence are not rigorously defined.
+  - **Why it matters** The methodological advantage of the restrained approach is a central claim. Without a clear definition of convergence and a more systematic comparison, it is difficult to assess whether the improvement is general or specific to this system.
+  - **Resolution test** Define quantitative convergence criteria (e.g., block averaging, overlap between adjacent windows) and apply them to both methods. Discuss whether the improvement in convergence is expected to generalize to other amyloid systems or binding geometries.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript states that "the data that support the findings of this study are available from the corresponding author upon reasonable request."
+  - **Evidence pointer** Data Availability Statement
+  - **Concern** The supporting information, which contains essential details of the simulation setup, validation, and additional results, is not provided for review. The manuscript references SI Tables S1–S8 and Figures S1–S4, but these are not accessible. Without these materials, the technical details of the calculations cannot be fully evaluated.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The absence of the supporting information prevents a full assessment of the methodology and the validity of the results.
+  - **Resolution test** Provide the supporting information for review, including simulation parameters, force field details, convergence tests, and the full set of results tables and figures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The abstract states that "optimization of the approach leads to further significant reduction of the computational demand" but does not quantify the reduction or specify which optimization was applied.
+  - **Required correction** Provide a quantitative statement of the computational cost reduction (e.g., total simulation time reduced from X to Y) and specify the optimization strategy in the abstract or refer to the relevant section.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Binding free energy calculation" section
+  - **Evidence pointer** Equation (1) and surrounding text
+  - **Issue** The notation for the free energy corrections is not fully defined. The terms ΔGasite, ΔGosite, ΔGcsite, ΔGobulk, and ΔGcbulk are introduced but the subscripts are not explained.
+  - **Required correction** Define each term explicitly, e.g., "ΔGasite is the free energy cost of applying the axial restraint in the binding site."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Methods, "Conformational restraints based on distance-RMSD" section
+  - **Evidence pointer** Equation (11) and surrounding text
+  - **Issue** The dRMSD coordinate is defined, but the choice of atom pairs (37 pairs) and the reference structure are not fully justified. The text states that a subset is illustrated in Figure 5A, but the full list is in SI Table S1.
+  - **Required correction** Briefly justify the choice of atom pairs and the reference structure, and ensure the SI table is complete and accessible.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, first paragraph
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions the possibility of studying mutations and inhibitors but does not address the limitations of the approach for such applications, such as the need to re-parameterize restraints for each mutant or the sensitivity of the results to the choice of reference state.
+  - **Required correction** Add a brief discussion of the limitations and challenges for future applications.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 6
+  - **Evidence pointer** Figure 6 caption and text
+  - **Issue** The comparison between the restrained and unrestrained PMFs is qualitative. The figure shows different well depths, but the statistical significance of the difference is not discussed.
+  - **Required correction** Add a statement about the statistical significance of the difference between the two PMFs, or acknowledge that the comparison is qualitative.
+- **Technical failings that need to be addressed before the case is established** The supporting information is not provided, which prevents full evaluation of the methodology. The uncertainty of the final binding free energy (±2.0 kcal/mol) is large relative to the claimed agreement with experiment, and the robustness of the free energy decomposition to parameter choices is not established. The convergence criteria for the PMF calculations are not rigorously defined.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of the Woo-Roux method to amyloid fibril propagation with a dRMSD-based conformational restraint is a novel adaptation, though the method itself is established. The decomposition of free energy contributions is a useful contribution.
+  - **Scientific importance** The work addresses a challenging problem in amyloid biophysics and provides a methodological framework that could be applied to other systems. The quantitative agreement with experiment is encouraging, but the large uncertainty limits the strength of the conclusion.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biophysicists and physical chemists. The biological relevance to Alzheimer's disease is clear, but the technical focus may limit broader appeal.
+  - **Technical soundness** The methodology is generally sound, but the absence of the supporting information and the lack of a sensitivity analysis for the free energy decomposition are significant gaps.
+  - **Readability for nonspecialists** The manuscript is clearly written but assumes familiarity with free energy calculation methods. The abstract is accessible, but the methods section is highly technical.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claims are plausible and the methodology is promising, but the missing supporting information, the large uncertainty in the final estimate, and the lack of a sensitivity analysis must be addressed before the case is fully established.
+
+## Risk / unsupported claims
+- The claim of "close agreement" with experiment is not fully supported given the ±2.0 kcal/mol uncertainty and the reliance on a single experimental reference value.
+- The claim that the conformational free energy contribution is "larger than the total binding free energy" is not robustly established without a sensitivity analysis of the restraint parameters.
+- The claim of improved convergence compared to unrestrained umbrella sampling is supported by the presented data, but the convergence criteria are not rigorously defined.
+- The computational cost reduction claim is not quantified in the abstract and depends on convergence criteria that are not fully detailed.
+- The suitability of the approach for future applications to mutations, denaturants, and inhibitors is speculative and not supported by data in the present manuscript.

@@ -1,0 +1,399 @@
+{
+  "identity": {
+    "pmid": "39558004",
+    "doi": "10.1038/s41380-024-02837-6",
+    "title": "The pathogenic APP N-terminal Val225Ala mutation alters tau protein liquid-liquid phase separation and exacerbates synaptic damage."
+  },
+  "content": {
+    "abstract": "Amyloid precursor protein (APP) is predominantly located in synapses of neurons and its mutations have been well recognized as the most important genetic causal factor for the familial Alzheimer's disease (AD). While most disease-causal mutations of APP occur within the Abeta-coding region or immediately proximal, the pathological impacts of mutations in the N-terminus of APP protein, which remote from the Abeta sequence, on neuron and synapse are still largely unknown. It was recently reported a pathogenic APP N-terminal Val225Ala mutation (APP(V225A)) with clinically featuring progressive dementia and typical AD pathologies in brain. In our present study, we further found that APP(V225A) mutation alters the N-terminal structure of APP, which enhances its binding affinity to tau protein and significantly increases APP-mediated endocytosis. Consequently, APP(V225A) promotes the uptake of extracellular tau into SH-SY5Y cells, further linking the structural change in APP to intracellular tau accumulation. In addition, APP(V225A) also notably alters the liquid-liquid phase separation (LLPS) of intracellular tau and intensified tau phosphorylation and aggregation in SH-SY5Y cells. Moreover, APP(V225A) promote AD-like tau pathology and synaptic damages in human induced pluripotent stem cells (hiPSCs)-derived neural progenitor cells and neurons, as well as in hiPSCs-derived human brain organoids and mouse brain, which can be ameliorated by tau knockdown. Proximity labeling identified several key APP(V225A)-interacting proteins, including HS3ST3A1, which was shown to directly regulate tau LLPS and phosphorylation. These findings nicely build on our previous work on roles for APP in tau-related pathological phenotypes and further highlight the involvement of N-terminal APP as the key region for both amyloidopathy and tauopathy, two aspects of AD pathogenesis and progression. Our study may also provide a theoretical breakthrough for AD therapy and highlight the important hub roles of APP and making previously neglected N-terminal APP as a potential target for the discovery of novel disease-modifying therapeutic agents against AD, holding significant scientific values and clinical promise.",
+    "keywords": [],
+    "mesh_terms": [
+      "*tau Proteins/metabolism/genetics",
+      "Animals",
+      "*Amyloid beta-Protein Precursor/genetics/metabolism",
+      "Humans",
+      "Alzheimer Disease/genetics/metabolism/pathology",
+      "Mice",
+      "Synapses/metabolism/pathology",
+      "Neurons/metabolism",
+      "Mutation/genetics",
+      "Phosphorylation",
+      "Brain/metabolism",
+      "Induced Pluripotent Stem Cells/metabolism",
+      "Endocytosis",
+      "Amyloid beta-Peptides/metabolism",
+      "Mice, Transgenic",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jiang",
+        "Li, Song",
+        "Zhang, Fengning",
+        "Chen, Junsheng",
+        "Cai, Chuanbin",
+        "Guo, Yi",
+        "Lei, Zhifeng",
+        "Zeng, Ling-Hui",
+        "Zi, Dan",
+        "Shen, Yong",
+        "Tan, Jun"
+      ],
+      "short_names": [
+        "Chen J",
+        "Li S",
+        "Zhang F",
+        "Chen J",
+        "Cai C",
+        "Guo Y",
+        "Lei Z",
+        "Zeng LH",
+        "Zi D",
+        "Shen Y",
+        "Tan J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2713-9136",
+        "ORCID: 0000-0002-5048-8134",
+        "ORCID: 0000-0002-1703-8596"
+      ],
+      "affiliations": [
+        "Institute of Translational Medicine; Key Laboratory of Novel Targets and Drug Study for Neural Repair of Zhejiang Province, School of Medicine, Hangzhou City University, Hangzhou, 310015, China.",
+        "Department of Pharmacology, Zhejiang University School of Medicine, Hangzhou, 310058, China.",
+        "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China.",
+        "Center for Clinical Research on Neurological Diseases, the First Affiliated Hospital of Dalian Medical University, Dalian, 116021, China.",
+        "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China.",
+        "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China.",
+        "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China.",
+        "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China.",
+        "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China.",
+        "Institute of Translational Medicine; Key Laboratory of Novel Targets and Drug Study for Neural Repair of Zhejiang Province, School of Medicine, Hangzhou City University, Hangzhou, 310015, China.",
+        "Department of Obstetrics and Gynecology, Guizhou Provincial People's Hospital, Guiyang, 550025, China.",
+        "Department of Neurology, Institute on Aging and Brain Disorders, The First Affiliated Hospital of USTC, Neurodegenerative Disorder Research Center, Division of Biological and Medical Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China; CAS Key Laboratory of Brain Function and Disease, Anhui Provincial Key Laboratory of Biomedical Aging Research, University of Science and Technology of China, Hefei, 23006, China.",
+        "Institute of Translational Medicine; Key Laboratory of Novel Targets and Drug Study for Neural Repair of Zhejiang Province, School of Medicine, Hangzhou City University, Hangzhou, 310015, China. tanjun@anyuhz.cn.",
+        "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China. tanjun@anyuhz.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jiang",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Translational Medicine; Key Laboratory of Novel Targets and Drug Study for Neural Repair of Zhejiang Province, School of Medicine, Hangzhou City University, Hangzhou, 310015, China.",
+          "Department of Pharmacology, Zhejiang University School of Medicine, Hangzhou, 310058, China.",
+          "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Li, Song",
+        "short_name": "Li S",
+        "identifiers": [
+          "0000-0003-2713-9136"
+        ],
+        "affiliations": [
+          "Center for Clinical Research on Neurological Diseases, the First Affiliated Hospital of Dalian Medical University, Dalian, 116021, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fengning",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Junsheng",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Chuanbin",
+        "short_name": "Cai C",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yi",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Zhifeng",
+        "short_name": "Lei Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Ling-Hui",
+        "short_name": "Zeng LH",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Translational Medicine; Key Laboratory of Novel Targets and Drug Study for Neural Repair of Zhejiang Province, School of Medicine, Hangzhou City University, Hangzhou, 310015, China."
+        ]
+      },
+      {
+        "full_name": "Zi, Dan",
+        "short_name": "Zi D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Obstetrics and Gynecology, Guizhou Provincial People's Hospital, Guiyang, 550025, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Yong",
+        "short_name": "Shen Y",
+        "identifiers": [
+          "0000-0002-5048-8134"
+        ],
+        "affiliations": [
+          "Department of Neurology, Institute on Aging and Brain Disorders, The First Affiliated Hospital of USTC, Neurodegenerative Disorder Research Center, Division of Biological and Medical Sciences, Division of Life Sciences and Medicine, University of Science and Technology of China; CAS Key Laboratory of Brain Function and Disease, Anhui Provincial Key Laboratory of Biomedical Aging Research, University of Science and Technology of China, Hefei, 23006, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Jun",
+        "short_name": "Tan J",
+        "identifiers": [
+          "0000-0002-1703-8596"
+        ],
+        "affiliations": [
+          "Institute of Translational Medicine; Key Laboratory of Novel Targets and Drug Study for Neural Repair of Zhejiang Province, School of Medicine, Hangzhou City University, Hangzhou, 310015, China. tanjun@anyuhz.cn.",
+          "Key Laboratory of Endemic and Ethnic Diseases, Laboratory of Molecular Biology, Ministry of Education, Guizhou Medical University, Guiyang, 550025, China. tanjun@anyuhz.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular psychiatry"
+    ],
+    "journal_abbrev": [
+      "Mol Psychiatry"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/19 00:21",
+    "fetched_at": "2026-09-21 12:46:35"
+  },
+  "links": {
+    "cites": [
+      "42228248",
+      "42074305",
+      "42004644",
+      "41912985",
+      "41016929",
+      "40960157",
+      "40849651",
+      "40563464",
+      "39930075"
+    ],
+    "refs": [
+      "37923712",
+      "37891164",
+      "37667136",
+      "37499037",
+      "37235665",
+      "37071198",
+      "36702317",
+      "36574593",
+      "36513730",
+      "36371002",
+      "36361631",
+      "36066504",
+      "35044772",
+      "35017410",
+      "34889934",
+      "34753506",
+      "34560101",
+      "34515635",
+      "34502116",
+      "33994545",
+      "33822840",
+      "33262278",
+      "33009641",
+      "32987141",
+      "32804096",
+      "32784025",
+      "32603410",
+      "32499559",
+      "32380752",
+      "31937505",
+      "31208706",
+      "30796750",
+      "29472250",
+      "29263384",
+      "29112196",
+      "28819146",
+      "28696204",
+      "28360418",
+      "26908138",
+      "26837733",
+      "26631930",
+      "25869641",
+      "25853174",
+      "25827095",
+      "24382801",
+      "24278307",
+      "22867711",
+      "22801501",
+      "18603345",
+      "18467692",
+      "14685252",
+      "12552037",
+      "12130773",
+      "9593736",
+      "9212751",
+      "8546229",
+      "8500862",
+      "7585068",
+      "2881207",
+      "1671712",
+      "1302033"
+    ],
+    "similar": [
+      "39558004",
+      "37071198",
+      "27748574",
+      "29191219",
+      "32966331",
+      "31414210",
+      "24524897",
+      "38918213",
+      "27629715",
+      "26707129",
+      "27459671",
+      "24625695",
+      "24531886",
+      "23648430",
+      "23747045",
+      "16768248",
+      "35943292",
+      "24278307",
+      "30238389",
+      "30605056",
+      "24440055",
+      "26198711",
+      "26567742",
+      "23312564",
+      "22926141",
+      "31208706",
+      "36688823",
+      "27030769",
+      "37496076",
+      "25921538",
+      "34391814",
+      "26563932",
+      "19664757",
+      "28073379",
+      "30021167",
+      "24063855",
+      "28374012",
+      "23225010",
+      "31937505",
+      "32957903",
+      "22305478",
+      "20032300",
+      "31858697",
+      "22273754",
+      "24080821",
+      "22278060",
+      "25930235",
+      "18771816",
+      "30409172",
+      "38658772",
+      "13678670",
+      "29690919",
+      "38167557",
+      "18679696",
+      "24223757",
+      "30397132",
+      "32975365",
+      "20610758",
+      "21741124",
+      "36766763",
+      "28760161",
+      "31839610",
+      "28173111",
+      "23430246",
+      "15658002",
+      "12505425",
+      "22787047",
+      "31416668",
+      "30102687",
+      "38102482",
+      "21368863",
+      "36209950",
+      "38871852",
+      "35897046",
+      "20091183",
+      "28877763",
+      "37968719",
+      "40001463",
+      "20595388",
+      "36635241",
+      "34719499",
+      "24694184",
+      "16242627",
+      "20936700",
+      "39441557",
+      "32921309",
+      "28417423",
+      "30016458",
+      "39707506",
+      "36152121",
+      "38575959",
+      "22869680",
+      "32475008",
+      "36966431",
+      "23197725",
+      "38104129",
+      "21958963",
+      "29101243",
+      "31527120",
+      "19497998"
+    ],
+    "review": [
+      "39558004",
+      "30605056",
+      "26567742",
+      "23225010",
+      "32957903",
+      "24080821",
+      "36766763",
+      "20091183"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41380-024-02837-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

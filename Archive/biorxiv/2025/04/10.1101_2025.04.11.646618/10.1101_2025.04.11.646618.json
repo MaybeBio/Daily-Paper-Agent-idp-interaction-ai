@@ -1,0 +1,417 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.04.11.646618",
+  "title": "Recognition-dependent activation of the RRS1-R/RPS4 immune receptor complex",
+  "doi": "10.1101/2025.04.11.646618",
+  "abstract": "The Arabidopsis TIR-NLR immune receptors RPS4 and RRS1 function together to enable recognition of multiple effector proteins including AvrRps4 and PopP2. We show here that both in the presence and absence of effector, RPS4 and RRS1 form an oligomer that does not change in size upon effector provision. Oligomer formation involves interactions between the RPS4 and RRS1 TIR domains and requires nucleotide binding capacity in RPS4. RPS4 mutants that lose TIR domain NADase activity abrogate immune activation but retain oligomerization. A cysteine residue in the RPS4 LRR domain contributes to oligomer stabilization. We propose that upon effector recognition, conformational changes in the complex relieve inhibition of RPS4 TIR domains by RRS1 TIR domains, enabling proximity between RPS4 TIR domains to create NADase activity.",
+  "authors": [
+    "Ahn H",
+    "Guo G",
+    "Skłenar J",
+    "Keh SPY",
+    "Huh SU",
+    "Hulin MT",
+    "Burdett H",
+    "Sindalovskaya M",
+    "Choi J",
+    "Mukhi N",
+    "Zhao H",
+    "Knorr L",
+    "Banfield MJ",
+    "Menke FL",
+    "Ma W",
+    "Jones JD"
+  ],
+  "published_date": "2025-04-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.04.11.646618",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.11.646618.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1003380",
+    "raw_record": {
+      "id": "PPR1003380",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1003380"
+        ]
+      },
+      "doi": "10.1101/2025.04.11.646618",
+      "title": "Recognition-dependent activation of the RRS1-R/RPS4 immune receptor complex",
+      "authorString": "Ahn H, Guo G, Skłenar J, Keh SPY, Huh SU, Hulin MT, Burdett H, Sindalovskaya M, Choi J, Mukhi N, Zhao H, Knorr L, Banfield MJ, Menke FL, Ma W, Jones JD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ahn H",
+            "lastName": "Ahn",
+            "firstName": "Hee-Kyung",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8884-0156"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Norwich Research Park , , ,"
+                },
+                {
+                  "affiliation": "Institute of Molecular Plant Sciences, , Daniel Rutherford Building, Kings Buildings , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guo G",
+            "lastName": "Guo",
+            "firstName": "Guanghao",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1847-0006"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Norwich Research Park , , ,"
+                },
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Skłenar J",
+            "lastName": "Skłenar",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Norwich Research Park , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Keh SPY",
+            "lastName": "Keh",
+            "firstName": "Shania Pin Yin",
+            "initials": "SPY",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-0964-8611"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Norwich Research Park , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huh SU",
+            "lastName": "Huh",
+            "firstName": "Sung Un",
+            "initials": "SU",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Norwich Research Park , , ,"
+                },
+                {
+                  "affiliation": "Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hulin MT",
+            "lastName": "Hulin",
+            "firstName": "Michelle",
+            "initials": "MT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4240-5746"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Norwich Research Park , , ,"
+                },
+                {
+                  "affiliation": "Department of Plant Soil & Microbial Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Burdett H",
+            "lastName": "Burdett",
+            "firstName": "Hayden",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4803-9660"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Cell Biology, , Michael Swann Building, Kings Buildings, Mayfield Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sindalovskaya M",
+            "lastName": "Sindalovskaya",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Norwich Research Park , , ,"
+                },
+                {
+                  "affiliation": ", Norwich Research Park , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Choi J",
+            "lastName": "Choi",
+            "firstName": "Jihyeon",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Norwich Research Park , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mukhi N",
+            "lastName": "Mukhi",
+            "firstName": "Nitika",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5717-7948"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Norwich Research Park , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhao H",
+            "lastName": "Zhao",
+            "firstName": "He",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Norwich Research Park , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Knorr L",
+            "lastName": "Knorr",
+            "firstName": "Lena",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Norwich Research Park , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Banfield MJ",
+            "lastName": "Banfield",
+            "firstName": "Mark",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Norwich Research Park , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Menke FL",
+            "lastName": "Menke",
+            "firstName": "Frank L.H.",
+            "initials": "FL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2490-4824"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Norwich Research Park , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ma W",
+            "lastName": "Ma",
+            "firstName": "Wenbo",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Norwich Research Park , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jones JD",
+            "lastName": "Jones",
+            "firstName": "Jonathan D.G.",
+            "initials": "JD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , Norwich Research Park , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5717-7948"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1847-0006"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8884-0156"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2490-4824"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4240-5746"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4803-9660"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-0964-8611"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The Arabidopsis TIR-NLR immune receptors RPS4 and RRS1 function together to enable recognition of multiple effector proteins including AvrRps4 and PopP2. We show here that both in the presence and absence of effector, RPS4 and RRS1 form an oligomer that does not change in size upon effector provision. Oligomer formation involves interactions between the RPS4 and RRS1 TIR domains and requires nucleotide binding capacity in RPS4. RPS4 mutants that lose TIR domain NADase activity abrogate immune activation but retain oligomerization. A cysteine residue in the RPS4 LRR domain contributes to oligomer stabilization. We propose that upon effector recognition, conformational changes in the complex relieve inhibition of RPS4 TIR domains by RRS1 TIR domains, enabling proximity between RPS4 TIR domains to create NADase activity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/04/14/2025.04.11.646618.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.04.11.646618"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1003380"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1003380&type=FILE&fileName=EMS204797-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS204797",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-04-15",
+      "firstPublicationDate": "2025-04-14",
+      "firstIndexDate": "2025-04-15",
+      "fullTextReceivedDate": "2025-04-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

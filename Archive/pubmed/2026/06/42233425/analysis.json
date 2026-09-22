@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42233425",
+  "title": "Intrinsically disordered regions facilitate Mlp1-Nab2 recognition in mRNA quality control.",
+  "authors": "Soheilypour, Mohammad; Peyro, Mohaddeseh; Shams, Hengameh; Mofrad, Mohammad R K",
+  "journal": "Nucleus (Austin, Tex.)",
+  "published_date": "2026-06-03",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过计算建模揭示Mlp1无序区域通过构象适应性识别Nab2的PPI机制，聚焦IDR介导的互作机制建模，虽未涉及相分离，但对象、互作与方法三者齐备且具机制深度。",
+  "abstract": "Quality control of mRNAs ensures that only properly processed transcripts are exported from the nucleus. Myosin-like protein 1 (Mlp1), plays a central role in this process by interacting with RNA-binding proteins (RBPs), including Nab2. While previous studies identified Phe73 in Nab2 as critical for Mlp1 binding, the molecular mechanism remains unclear. Here, we employed a computational approach to develop a mechanistic model of Mlp1-Nab2 interaction. Our results suggest that Phe73 does not act through direct contacts with Mlp1, but instead stabilizes intramolecular interactions between Nab2 helices that promote a compact conformation. F73A disrupted this helix-helix stabilization and weakened binding, whereas F73W enhanced the interaction. Our findings support a binding mechanism in which the structural flexibility of Mlp1's disordered domain enables adaptive recognition of Nab2. This mechanism may represent a general strategy by which the nuclear basket inspects mRNPs, highlighting the importance of flexible protein-protein recognition in mRNA quality control.",
+  "abstract_zh": "mRNA的质量控制确保只有正确加工的转录本才能从细胞核中输出。肌球蛋白样蛋白1（Myosin-like protein 1, Mlp1）通过与其相互作用的RNA结合蛋白（RNA-binding proteins, RBPs），包括Nab2，在这一过程中发挥核心作用。尽管先前的研究确定Nab2中的Phe73对Mlp1结合至关重要，但其分子机制仍不清楚。在此，我们采用计算方法开发了Mlp1-Nab2相互作用的机制模型。我们的结果表明，Phe73并非通过与Mlp1的直接接触起作用，而是通过稳定Nab2螺旋之间的分子内相互作用，从而促进紧凑构象的形成。F73A破坏了这种螺旋-螺旋稳定性并削弱了结合，而F73W则增强了相互作用。我们的发现支持一种结合机制，其中Mlp1无序结构域的结构灵活性使其能够适应性识别Nab2。这一机制可能代表了核篮检查mRNPs的通用策略，强调了柔性蛋白质-蛋白质识别在mRNA质量控制中的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42233425/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42233425/",
+  "paper_page_path": "papers/pubmed/42233425/index.html"
+}

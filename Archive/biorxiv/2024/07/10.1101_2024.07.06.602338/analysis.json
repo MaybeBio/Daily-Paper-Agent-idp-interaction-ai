@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.06.602338",
+  "title": "Plastid translocon recycling in dinoflagellates demonstrates the portability of complex plastids between hosts",
+  "authors": "Lewis WH; Paris G; Beedessee G; Koreny L; Flores V; Dendooven T; Gallet B; Yee D; Lam S; Decelle J; Luisi BF; Waller RF",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-07",
+  "window": {
+    "start": "2024-07-01",
+    "end": "2024-07-07"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究甲藻复杂质体蛋白转运机制的可移植性，对象为细胞器而非无序蛋白/IDR，无PPI机制建模或AI/物理模拟方法，与本课题无关。",
+  "abstract": "<h4>ABSTRACT</h4> The plastids of photosynthetic organisms on land are predominantly ‘primary plastids’ derived from an ancient endosymbiosis of a cyanobacterium. Conversely, marine photosynthetic diversity is dominated by plastids gained by subsequent endosymbioses of photosynthetic eukaryotes, so-called ‘complex plastids’. The plastids of major eukaryotic lineages including cryptophytes, haptophytes, stramenopiles, dinoflagellates and apicomplexans, were originally all posited to derive from a single secondary endosymbiosis of a red alga—the ‘chromalveloate’ hypothesis 1 . Subsequent phylogenetic resolution of eukaryotes indicated that separate events of plastid acquisition must have occurred to account for this distribution of plastids 2,3 . The number of such events, however, and the donor organisms for the new plastid endosymbioses are still not resolved. A perceived bottleneck of endosymbiotic plastid gain is the development of protein targeting from the hosts into new plastids, and this supposition has often driven hypotheses towards minimising the number of plastid-gain events to explain plastid distribution in eukaryotes. But how plastid protein-targeting is established for new endosymbionts is often unclear, which makes it difficult to assess the likelihood of plastid transfers between lineages. Here we show that Kareniaceae dinoflagellates, that possess complex plastids known to be derived from haptophytes, acquired all the necessary protein import machinery from these haptophytes. Furthermore, cryo-electron tomography revealed that no additional membranes were added to the Kareniaceae complex plastid during serial endosymbiosis, suggesting that the haptophyte-derived import processes were sufficient. Our analyses suggests that complex red plastids are preadapted for horizontal transmission, potentially explaining their widespread distribution in aquatic algal diversity.",
+  "abstract_zh": "<h4>摘要</h4> 陆生光合生物体的质体主要是源自古老蓝细菌内共生的“原始质体”。相反，海洋光合多样性则由通过后续光合真核生物内共生获得的质体主导，即所谓的“复杂质体”。包括隐藻、定鞭藻、不等鞭毛藻、甲藻和顶复门在内的主要真核谱系的质体，最初均被认为源自单一的红藻二次内共生事件——“色素藻类”假说¹。随后对真核生物的系统发育解析表明，必须发生多次独立的质体获得事件才能解释这种质体分布²,³。然而，这些事件的数量以及新质体内共生的供体生物仍未得到解决。内共生质体获得的一个公认瓶颈是宿主向新质体蛋白质靶向机制的发展，这一假设常促使理论倾向于最小化质体获得事件的数量，以解释真核生物中的质体分布。但新内共生体的质体蛋白质靶向机制如何建立往往不清楚，这使得评估谱系间质体转移的可能性变得困难。在此，我们展示了拥有已知源自定鞭藻的复杂质体的Kareniaceae甲藻，从这些定鞭藻中获得了所有必要的蛋白质导入机制。此外，冷冻电子断层扫描揭示，在连续内共生过程中，Kareniaceae复杂质体未添加额外膜，表明源自定鞭藻的导入过程已足够。我们的分析表明，复杂红质体预适应于水平传播，这可能解释了它们在水生藻类多样性中的广泛分布。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.06.602338",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.06.602338",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.06.602338/index.html"
+}

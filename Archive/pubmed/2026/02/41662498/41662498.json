@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "41662498",
+    "doi": "10.1002/advs.202524324",
+    "title": "Asymmetry in Hydrophobicity Induces Electric Potential in Non-Charged Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "The capacity of biomolecular condensates to establish and modulate electrochemical equilibria is emerging as an important functioning mechanism in cellular biochemistry. However, the physical chemistry basis of the electric potentials arising from biomacromolecular phase transitions remains unclear. Here, we show that asymmetry in hydrophobicity, which is a generalizable feature in a condensate system, can directly encode an electric potential gradient between the dilute and the dense phases. We demonstrate that using a non-charged intrinsically disordered protein, ion-dependent kosmotropic effect can encode measurable pH and interphase potential gradients into condensate. All-atom molecular dynamics simulations further reveal that the distinct intrinsic transfer free energy of ions defines the ion partitioning capability of condensates via favorable interactions with protein backbones. The simulation also shows the existence of both interfacial and interphase electric potentials. These built-in potentials modulate the partitioning and reactivity of charged solutes, enabling non-enzymatic, potential-dependent chemistry within condensates. Our findings identify hydrophobic asymmetry as a simple and generalizable mechanism for charging biological matter, linking water activity and ion energetics to the emergent electrochemistry of condensates.",
+    "keywords": [
+      "Phase transition",
+      "biomolecular phase separation",
+      "electrochemistry of condensates",
+      "hydrophobicity asymmetry",
+      "water activity"
+    ],
+    "mesh_terms": [
+      "*Hydrophobic and Hydrophilic Interactions",
+      "*Biomolecular Condensates/chemistry",
+      "Molecular Dynamics Simulation",
+      "Hydrogen-Ion Concentration",
+      "Phase Transition",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Leshan",
+        "Yu, Wen",
+        "Zeng, Xiangze",
+        "Dai, Yifan"
+      ],
+      "short_names": [
+        "Yang L",
+        "Yu W",
+        "Zeng X",
+        "Dai Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1009-5790"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Washington University in St. Louis, Saint Louis, Missouri, USA.",
+        "Department of Biomedical Engineering, Washington University in St. Louis, Saint Louis, Missouri, USA.",
+        "Center For Biomolecular Condensates, Washington University in St. Louis, Saint Louis, Missouri, USA.",
+        "Department of Physics, Hong Kong Baptist University, Kowloon Tong, Hong Kong.",
+        "Department of Biomedical Engineering, Washington University in St. Louis, Saint Louis, Missouri, USA.",
+        "Center For Biomolecular Condensates, Washington University in St. Louis, Saint Louis, Missouri, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Leshan",
+        "short_name": "Yang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Washington University in St. Louis, Saint Louis, Missouri, USA."
+        ]
+      },
+      {
+        "full_name": "Yu, Wen",
+        "short_name": "Yu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Washington University in St. Louis, Saint Louis, Missouri, USA.",
+          "Center For Biomolecular Condensates, Washington University in St. Louis, Saint Louis, Missouri, USA."
+        ]
+      },
+      {
+        "full_name": "Zeng, Xiangze",
+        "short_name": "Zeng X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Hong Kong Baptist University, Kowloon Tong, Hong Kong."
+        ]
+      },
+      {
+        "full_name": "Dai, Yifan",
+        "short_name": "Dai Y",
+        "identifiers": [
+          "0000-0002-1009-5790"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Washington University in St. Louis, Saint Louis, Missouri, USA.",
+          "Center For Biomolecular Condensates, Washington University in St. Louis, Saint Louis, Missouri, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/09 18:49",
+    "fetched_at": "2026-09-18 00:46:04"
+  },
+  "links": {
+    "cites": [
+      "42497855",
+      "42261607",
+      "41997364",
+      "41881426"
+    ],
+    "refs": [
+      "41612036",
+      "41540236",
+      "40925983",
+      "40715083",
+      "40704511",
+      "40692136",
+      "40690668",
+      "40653653",
+      "40518709",
+      "40412392",
+      "40386802",
+      "40108466",
+      "40074825",
+      "39999421",
+      "39983028",
+      "39356108",
+      "39327453",
+      "39260373",
+      "38968602",
+      "38781377",
+      "38722189",
+      "38503281",
+      "37973891",
+      "37973889",
+      "37853127",
+      "37546704",
+      "37468629",
+      "37359769",
+      "35925890",
+      "35512095",
+      "34645986",
+      "34330707",
+      "34160191",
+      "33877835",
+      "33876544",
+      "33230101",
+      "33124825",
+      "32804510",
+      "32165622",
+      "31667345",
+      "30384721",
+      "30323334",
+      "29357255",
+      "28935776",
+      "28537592",
+      "28225081",
+      "28094985",
+      "27219701",
+      "27161661",
+      "26390327",
+      "23808597",
+      "22568748",
+      "21769357",
+      "19508106",
+      "19072549",
+      "18311970",
+      "16827587",
+      "11724607",
+      "10545920"
+    ],
+    "similar": [
+      "41662498",
+      "40074825",
+      "39356108",
+      "39327453",
+      "40136009",
+      "39260373",
+      "39005320",
+      "41703914",
+      "42261607",
+      "41667469",
+      "40690668",
+      "40985078",
+      "41612036",
+      "40748104",
+      "40455990",
+      "42497855",
+      "41187075",
+      "41342450",
+      "42531022",
+      "41670285",
+      "33302617",
+      "40640131",
+      "40653653",
+      "37468629",
+      "40830100",
+      "39227569",
+      "41700935",
+      "39964249",
+      "36883003",
+      "38348795",
+      "39042834",
+      "37019112",
+      "41457474",
+      "40108179",
+      "40094245",
+      "38429263",
+      "40704402",
+      "33139563",
+      "42065721",
+      "42081454",
+      "37546704",
+      "41944040",
+      "41933903",
+      "37470705",
+      "40954121",
+      "40172489",
+      "39591652",
+      "38383656",
+      "30926670",
+      "40028898",
+      "40521608",
+      "41524628",
+      "39677697",
+      "40721018",
+      "40441156",
+      "40616404",
+      "39486437",
+      "40664121",
+      "35179885",
+      "39271915",
+      "40614690",
+      "39670461",
+      "41540236",
+      "39987501",
+      "41629604",
+      "40962203",
+      "42290133",
+      "41481439",
+      "42260147",
+      "40184654",
+      "38987300",
+      "42425985",
+      "37034777",
+      "40196628",
+      "39225535",
+      "36071192",
+      "38260590",
+      "35597639",
+      "42360027",
+      "41881426",
+      "37904914",
+      "35727989",
+      "39947751",
+      "34916288",
+      "41698919",
+      "40009520",
+      "33597515",
+      "41703712",
+      "41705673",
+      "41480717",
+      "39232584",
+      "33864415",
+      "39271032",
+      "42537606",
+      "40098319",
+      "38722189",
+      "37194953",
+      "41904915",
+      "41957206",
+      "40531332"
+    ],
+    "review": [
+      "41662498",
+      "39327453",
+      "39964249",
+      "38348795",
+      "42065721",
+      "40172489",
+      "40616404",
+      "40664121",
+      "35179885",
+      "40614690",
+      "40962203",
+      "36071192",
+      "42360027",
+      "39947751",
+      "41480717",
+      "39271032",
+      "42537606",
+      "41904915"
+    ],
+    "pmc": [
+      "13088320"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41662498/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34850135",
+  "title": "DisProt in 2022: improved quality and accessibility of protein intrinsic disorder annotation.",
+  "authors": "Quaglia, Federica; Meszaros, Balint; Salladini, Edoardo; Hatos, Andras; Pancsa, Rita; Chemes, Lucia B; Pajkos, Matyas; Lazar, Tamas; Pena-Diaz, Samuel; Santos, Jaime; Acs, Veronika; Farahi, Nazanin; Ficho, Erzsebet; Aspromonte, Maria Cristina; Bassot, Claudio; Chasapi, Anastasia; Davey, Norman E; Davidovic, Radoslav; Dobson, Laszlo; Elofsson, Arne; Erdos, Gabor; Gaudet, Pascale; Giglio, Michelle; Glavina, Juliana; Iserte, Javier; Iglesias, Valentin; Kalman, Zsofia; Lambrughi, Matteo; Leonardi, Emanuela; Longhi, Sonia; Macedo-Ribeiro, Sandra; Maiani, Emiliano; Marchetti, Julia; Marino-Buslje, Cristina; Meszaros, Attila; Monzon, Alexander Miguel; Minervini, Giovanni; Nadendla, Suvarna; Nilsson, Juliet F; Novotny, Marian; Ouzounis, Christos A; Palopoli, Nicolas; Papaleo, Elena; Pereira, Pedro Jose Barbosa; Pozzati, Gabriele; Promponas, Vasilis J; Pujols, Jordi; Rocha, Alma Carolina Sanchez; Salas, Martin; Sawicki, Luciana Rodriguez; Schad, Eva; Shenoy, Aditi; Szaniszlo, Tamas; Tsirigos, Konstantinos D; Veljkovic, Nevena; Parisi, Gustavo; Ventura, Salvador; Dosztanyi, Zsuzsanna; Tompa, Peter; Tosatto, Silvio C E; Piovesan, Damiano",
+  "journal": "Nucleic acids research",
+  "published_date": "2021-12-02",
+  "window": {
+    "start": "2021-11-29",
+    "end": "2021-12-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文介绍无序蛋白数据库DisProt的更新，虽以IDP为对象但无PPI互作机制或AI/物理模拟方法，仅提供数据资源，对机制建模启发有限。",
+  "abstract": "The Database of Intrinsically Disordered Proteins (DisProt, URL: https://disprot.org) is the major repository of manually curated annotations of intrinsically disordered proteins and regions from the literature. We report here recent updates of DisProt version 9, including a restyled web interface, refactored Intrinsically Disordered Proteins Ontology (IDPO), improvements in the curation process and significant content growth of around 30%. Higher quality and consistency of annotations is provided by a newly implemented reviewing process and training of curators. The increased curation capacity is fostered by the integration of DisProt with APICURON, a dedicated resource for the proper attribution and recognition of biocuration efforts. Better interoperability is provided through the adoption of the Minimum Information About Disorder (MIADE) standard, an active collaboration with the Gene Ontology (GO) and Evidence and Conclusion Ontology (ECO) consortia and the support of the ELIXIR infrastructure.",
+  "abstract_zh": "内在无序蛋白质数据库（DisProt，网址：https://disprot.org）是文献中手动注释的内在无序蛋白质及区域的主要存储库。我们在此报告DisProt版本9的最新更新，包括重新设计的网页界面、重构的内在无序蛋白质本体论（IDPO）、注释流程的改进以及约30%的显著内容增长。通过新实施的审查流程和策展人培训，注释的质量和一致性得到提升。增加的策展能力得益于DisProt与APICURON的整合，后者是一个专门用于生物策展工作适当归属和认可的资源。通过采用无序蛋白质最低信息（MIADE）标准、与基因本体论（GO）及证据与结论本体论（ECO）联盟的积极合作，以及ELIXIR基础设施的支持，实现了更好的互操作性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34850135/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34850135/",
+  "paper_page_path": "papers/pubmed/34850135/index.html"
+}

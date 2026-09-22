@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "35058484",
+    "doi": "10.1038/s41598-021-04497-w",
+    "title": "Rational design of a helical peptide inhibitor targeting c-Myb-KIX interaction."
+  },
+  "content": {
+    "abstract": "The transcription factor c-Myb promotes the proliferation of hematopoietic cells by interacting with the KIX domain of CREB-binding protein; however, its aberrant expression causes leukemia. Therefore, inhibitors of the c-Myb-KIX interaction are potentially useful as antitumor drugs. Since the intrinsically disordered transactivation domain (TAD) of c-Myb binds KIX via a conformational selection mechanism where helix formation precedes binding, stabilizing the helical structure of c-Myb TAD is expected to increase the KIX-binding affinity. Here, to develop an inhibitor of the c-Myb-KIX interaction, we designed mutants of the c-Myb TAD peptide fragment where the helical structure is stabilized, based on theoretical predictions using AGADIR. Three of the four initially designed peptides each had a different Lys-to-Arg substitution on the helix surface opposite the KIX-binding interface. Furthermore, the triple mutant with three Lys-to-Arg substitutions, named RRR, showed a high helical propensity and achieved three-fold higher affinity to KIX than the wild-type TAD with a dissociation constant of 80 nM. Moreover, the RRR inhibitor efficiently competed out the c-Myb-KIX interaction. These results suggest that stabilizing the helical structure based on theoretical predictions, especially by conservative Lys-to-Arg substitutions, is a simple and useful strategy for designing helical peptide inhibitors of protein-protein interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "CREB-Binding Protein/chemistry/*metabolism",
+      "*Drug Design",
+      "Models, Molecular",
+      "Mutant Proteins/chemistry/metabolism",
+      "Peptides/chemistry/*metabolism/pharmacology",
+      "Protein Binding",
+      "Protein Conformation",
+      "Protein Domains",
+      "Protein Structure, Secondary",
+      "Proto-Oncogene Proteins c-myb/genetics/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Suetaka, Shunji",
+        "Oka, Yoshiki",
+        "Kunihara, Tomoko",
+        "Hayashi, Yuuki",
+        "Arai, Munehito"
+      ],
+      "short_names": [
+        "Suetaka S",
+        "Oka Y",
+        "Kunihara T",
+        "Hayashi Y",
+        "Arai M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo, 153-8902, Japan.",
+        "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo, 153-8902, Japan.",
+        "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo, 153-8902, Japan.",
+        "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo, 153-8902, Japan.",
+        "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo, 153-8902, Japan. arai@bio.c.u-tokyo.ac.jp.",
+        "Department of Physics, Graduate School of Science, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo, 153-8902, Japan. arai@bio.c.u-tokyo.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Suetaka, Shunji",
+        "short_name": "Suetaka S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo, 153-8902, Japan."
+        ]
+      },
+      {
+        "full_name": "Oka, Yoshiki",
+        "short_name": "Oka Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo, 153-8902, Japan."
+        ]
+      },
+      {
+        "full_name": "Kunihara, Tomoko",
+        "short_name": "Kunihara T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo, 153-8902, Japan."
+        ]
+      },
+      {
+        "full_name": "Hayashi, Yuuki",
+        "short_name": "Hayashi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo, 153-8902, Japan."
+        ]
+      },
+      {
+        "full_name": "Arai, Munehito",
+        "short_name": "Arai M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo, 153-8902, Japan. arai@bio.c.u-tokyo.ac.jp.",
+          "Department of Physics, Graduate School of Science, The University of Tokyo, 3-8-1 Komaba, Meguro, Tokyo, 153-8902, Japan. arai@bio.c.u-tokyo.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2022 Jan 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/22 06:00",
+    "fetched_at": "2026-09-20 07:47:03"
+  },
+  "links": {
+    "cites": [
+      "42592701",
+      "40585227",
+      "39017837",
+      "38542205",
+      "37430747",
+      "37077825",
+      "37072438",
+      "35762718",
+      "35313552"
+    ],
+    "refs": [
+      "33637673",
+      "33580154",
+      "32968059",
+      "31091705",
+      "30596073",
+      "30232260",
+      "29890118",
+      "29704633",
+      "29654795",
+      "29317678",
+      "29307002",
+      "28889766",
+      "28425697",
+      "28287151",
+      "28234469",
+      "26631113",
+      "26195786",
+      "25995438",
+      "25591543",
+      "25560066",
+      "25531225",
+      "25362358",
+      "25147597",
+      "24725184",
+      "24449148",
+      "24291335",
+      "23381088",
+      "22874877",
+      "22191432",
+      "21948968",
+      "21828272",
+      "19810079",
+      "19668855",
+      "19222027",
+      "19220000",
+      "18585056",
+      "18574464",
+      "18573080",
+      "18054235",
+      "17690249",
+      "17510165",
+      "16935303",
+      "16253272",
+      "15738986",
+      "15585582",
+      "15019774",
+      "12549909",
+      "12437352",
+      "12196545",
+      "12000848",
+      "11779867",
+      "11381529",
+      "11290547",
+      "10550212",
+      "10473588",
+      "10409749",
+      "10378697",
+      "9811549",
+      "9413984",
+      "9010222",
+      "7844817",
+      "7664054",
+      "7604007",
+      "4343790",
+      "2668947",
+      "1631139"
+    ],
+    "similar": [
+      "35058484",
+      "19220000",
+      "31515273",
+      "24753318",
+      "29890118",
+      "37072438",
+      "26195786",
+      "34491719",
+      "15019774",
+      "30232260",
+      "22438798",
+      "23980173",
+      "12205094",
+      "25002472",
+      "12196545",
+      "16253272",
+      "28786199",
+      "20969867",
+      "24340053",
+      "36883372",
+      "25740244",
+      "23026051",
+      "33284914",
+      "10409749",
+      "25564305",
+      "26912067",
+      "15796530",
+      "21998171",
+      "12437352",
+      "21497608",
+      "27080133",
+      "32430574",
+      "14623102",
+      "27082784",
+      "27054660",
+      "32937031",
+      "33382616",
+      "11073948",
+      "16761278",
+      "22474372",
+      "19203263",
+      "11094091",
+      "32007275",
+      "35452454",
+      "28472346",
+      "12384703",
+      "14624582",
+      "16914730",
+      "23875714",
+      "38086054",
+      "9765496",
+      "34224597",
+      "22803956",
+      "30136215",
+      "25651535",
+      "9413984",
+      "21244843",
+      "10222196",
+      "32325001",
+      "15515068",
+      "18565542",
+      "33121486",
+      "19737967",
+      "24253305",
+      "20802522",
+      "10815807",
+      "8552098",
+      "17522630",
+      "11585920",
+      "12795599",
+      "29262363",
+      "15507152",
+      "16195416",
+      "11864910",
+      "35233453",
+      "28754059",
+      "23544065",
+      "15927960",
+      "16980541",
+      "9271393",
+      "11545594",
+      "20831260",
+      "10744749",
+      "28017646",
+      "9657674",
+      "29954426",
+      "25207671",
+      "18765672",
+      "10473588",
+      "37525583",
+      "12734436",
+      "15308626",
+      "8415700",
+      "12354778",
+      "9558319",
+      "23651431",
+      "20156532",
+      "19821614",
+      "32873855",
+      "19278259",
+      "23618903",
+      "39017851",
+      "14580193",
+      "26976603",
+      "20823231",
+      "18818396",
+      "35171684",
+      "23940332",
+      "38863138",
+      "36703366",
+      "19348463",
+      "35029987",
+      "15582447"
+    ],
+    "review": [
+      "35058484",
+      "24253305",
+      "28017646"
+    ],
+    "pmc": [
+      "8776815"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-021-04497-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35058484/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35058484",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

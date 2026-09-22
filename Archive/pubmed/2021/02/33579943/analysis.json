@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33579943",
+  "title": "EGCG binds intrinsically disordered N-terminal domain of p53 and disrupts p53-MDM2 interaction.",
+  "authors": "Zhao, Jing; Blayney, Alan; Liu, Xiaorong; Gandy, Lauren; Jin, Weihua; Yan, Lufeng; Ha, Jeung-Hoi; Canning, Ashley J; Connelly, Michael; Yang, Chao; Liu, Xinyue; Xiao, Yuanyuan; Cosgrove, Michael S; Solmaz, Sozanne R; Zhang, Yingkai; Ban, David; Chen, Jianhan; Loh, Stewart N; Wang, Chunyu",
+  "journal": "Nature communications",
+  "published_date": "2021-02-14",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合NMR/SPR与大规模原子模拟，研究EGCG与p53无序N端结构域的动态结合并破坏p53-MDM2互作，直接聚焦IDR介导的PPI机制建模，对无序蛋白-小分子调控互作具有高度可迁移性。",
+  "abstract": "Epigallocatechin gallate (EGCG) from green tea can induce apoptosis in cancerous cells, but the underlying molecular mechanisms remain poorly understood. Using SPR and NMR, here we report a direct, muM interaction between EGCG and the tumor suppressor p53 (K(D) = 1.6 +/- 1.4 muM), with the disordered N-terminal domain (NTD) identified as the major binding site (K(D) = 4 +/- 2 muM). Large scale atomistic simulations (>100 mus), SAXS and AUC demonstrate that EGCG-NTD interaction is dynamic and EGCG causes the emergence of a subpopulation of compact bound conformations. The EGCG-p53 interaction disrupts p53 interaction with its regulatory E3 ligase MDM2 and inhibits ubiquitination of p53 by MDM2 in an in vitro ubiquitination assay, likely stabilizing p53 for anti-tumor activity. Our work provides insights into the mechanisms for EGCG's anticancer activity and identifies p53 NTD as a target for cancer drug discovery through dynamic interactions with small molecules.",
+  "abstract_zh": "绿茶中的表没食子儿茶素没食子酸酯（EGCG）可诱导癌细胞凋亡，但其潜在的分子机制仍知之甚少。利用SPR和NMR技术，我们在此报道了EGCG与肿瘤抑制因子p53之间的直接、微摩尔级相互作用（K(D) = 1.6 ± 1.4 μM），其中无序N端结构域（NTD）被鉴定为主要结合位点（K(D) = 4 ± 2 μM）。大规模原子模拟（>100 μs）、SAXS和AUC表明，EGCG-NTD相互作用是动态的，且EGCG导致紧凑结合构象亚群的出现。EGCG-p53相互作用破坏了p53与其调控性E3连接酶MDM2的结合，并在体外泛素化实验中抑制了MDM2对p53的泛素化，这可能稳定p53以发挥抗肿瘤活性。我们的工作为EGCG抗癌活性的机制提供了见解，并确定p53 NTD为通过与小分子动态相互作用进行癌症药物发现的靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33579943/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33579943/",
+  "paper_page_path": "papers/pubmed/33579943/index.html"
+}

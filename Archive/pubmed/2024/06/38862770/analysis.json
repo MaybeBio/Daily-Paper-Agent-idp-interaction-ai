@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38862770",
+  "title": "Molecular dynamics simulation on regulation of liquid-liquid phase separation of repetitive peptides.",
+  "authors": "Yang, Xiaojun; Wang, Yanwei; Yang, Guangcan",
+  "journal": "Scientific reports",
+  "published_date": "2024-06-12",
+  "window": {
+    "start": "2024-06-10",
+    "end": "2024-06-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究用残基级粗粒化分子动力学模拟重复性多肽（poly PR/GR）的液-液相分离，揭示序列顺序、盐浓度及疏水/静电作用对LLPS的调控机制，对象为无序肽、方法为物理模拟且聚焦相分离机制，与本课题高度契合。",
+  "abstract": "Understanding the intricate interactions governing protein and peptide behavior in liquid-liquid phase separation (LLPS) is crucial for unraveling biological functions and dysfunctions. This study employs a residue-leveled coarse-grained molecular dynamics approach to simulate the phase separation of repetitive polyproline and polyarginine peptides (poly PR) with varying lengths and sequences in solution, considering different concentrations and temperatures. Our findings highlight the crucial role of sequence order in promoting LLPS in peptides with identical lengths of repetitive sequences. Interestingly, repetitive peptides containing fewer than 10 polyarginine repeats exhibit no LLPS, even at salt concentrations up to 3 M. Notably, our simulations align with experimental observations, pinpointing a salt concentration of 2.7 M for PR25-induced LLPS. Utilizing the same methodology, we predict the required salt concentrations for LLPS induction as 1.2 M, 1.5 M, and 2.7 M for PR12, PR15, and PR35, respectively. These predictions demonstrate good agreement with experimental results. Extending our investigation to include the peptide glutamine and arginine (GR15) in DNA solution, our simulations mirror experimental observations of phase separation. To unveil the molecular forces steering peptide phase separation, we introduce a dielectric constant modifier and hydrophobicity disruptor into poly PR systems. Our coarse-grained analysis includes an examination of temperature effects, leading to the inference that both hydrophobic and electrostatic interactions drive phase separation in peptide systems.",
+  "abstract_zh": "理解控制蛋白质和肽在液-液相分离（LLPS）中行为的复杂相互作用，对于揭示生物学功能与功能障碍至关重要。本研究采用残基级别的粗粒化分子动力学方法，模拟不同长度和序列的重复多脯氨酸和多精氨酸肽（poly PR）在溶液中的相分离，并考虑不同浓度和温度条件。我们的发现强调了序列顺序在促进相同长度重复序列肽的LLPS中的关键作用。有趣的是，含有少于10个多精氨酸重复序列的重复肽即使在盐浓度高达3 M时也不表现出LLPS。值得注意的是，我们的模拟与实验观察一致，确定了PR25诱导LLPS的盐浓度为2.7 M。利用相同方法，我们预测PR12、PR15和PR35诱导LLPS所需的盐浓度分别为1.2 M、1.5 M和2.7 M。这些预测与实验结果表现出良好的一致性。将研究扩展到包括谷氨酰胺和精氨酸肽（GR15）在DNA溶液中的情况，我们的模拟反映了实验观察到的相分离现象。为了揭示驱动肽相分离的分子力，我们在poly PR系统中引入了介电常数调节剂和疏水性破坏剂。我们的粗粒化分析包括对温度效应的考察，从而推断疏水性和静电相互作用共同驱动肽系统中的相分离。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38862770/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38862770/",
+  "paper_page_path": "papers/pubmed/38862770/index.html"
+}

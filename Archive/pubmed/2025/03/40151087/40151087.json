@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "40151087",
+    "doi": "10.1002/anie.202505188",
+    "title": "Functional Ambidexterity of an Ancient Nucleic Acid-Binding Domain."
+  },
+  "content": {
+    "abstract": "The helix-hairpin-helix (HhH) motif is an ancient and ubiquitous nucleic acid-binding element that has emerged as a model system for studying the evolution of dsDNA-binding domains from simple peptides that phase separate with RNA. We analyzed the entire putative evolutionary trajectory of the HhH motif - from a flexible peptide to a folded domain - for functional robustness to total chiral inversion. Against expectations, functional \"ambidexterity\" was observed for both the phase separation of HhH peptides with RNA and binding of the duplicated (HhH)(2)-Fold to dsDNA. Moreover, dissociation kinetics, mutational analysis, and molecular dynamics simulations revealed an overlap between the binding modes adopted by the natural and mirror-image proteins to natural dsDNA. The similarity of several dissociation phases upon chiral inversion may reflect the history of (HhH)(2)-Fold binding, with the ultimate emergence of a high-affinity binding mode, supported by a bridging metal ion, depopulating but not displacing more primitive (potentially ambidextrous) modes. These data underscore the surprising functional robustness of the HhH protein family and suggest that the veil between worlds with alternative chiral preferences may not be as impenetrable as is often assumed.",
+    "keywords": [
+      "Chemical protein synthesis",
+      "Mirror-image proteins",
+      "Nucleic acid-binding proteins",
+      "Origin of life",
+      "Protein evolution"
+    ],
+    "mesh_terms": [
+      "*DNA/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*RNA/chemistry/metabolism",
+      "Binding Sites",
+      "Peptides/chemistry",
+      "*Nucleic Acids/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Weil-Ktorza, Orit",
+        "Naveh-Tassa, Segev",
+        "Fridmann-Sirkis, Yael",
+        "Despotovic, Dragana",
+        "Cherukuri, Kesava Phaneendra",
+        "Corlett, Tatsuya",
+        "Levy, Yaakov",
+        "Metanis, Norman",
+        "Longo, Liam M"
+      ],
+      "short_names": [
+        "Weil-Ktorza O",
+        "Naveh-Tassa S",
+        "Fridmann-Sirkis Y",
+        "Despotovic D",
+        "Cherukuri KP",
+        "Corlett T",
+        "Levy Y",
+        "Metanis N",
+        "Longo LM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Chemistry, The Center for Nanoscience and Nanotechnology, Casali Center of Applied Chemistry, The Hebrew University of Jerusalem, Jerusalem, 9190401, Israel.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, 7610001, Israel.",
+        "Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot, 7610001, Israel.",
+        "Department of Biomolecular Sciences, Weizmann Institute of Science, Rehovot, 7610001, Israel.",
+        "Institute of Molecular Genetics and Genetic Engineering, University of Belgrade, Belgrade, 11042, Serbia.",
+        "Department of Biomolecular Sciences, Weizmann Institute of Science, Rehovot, 7610001, Israel.",
+        "Institute of Science Tokyo, Earth-Life Science Institute, Tokyo, 152-8550, Japan.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, 7610001, Israel.",
+        "Institute of Chemistry, The Center for Nanoscience and Nanotechnology, Casali Center of Applied Chemistry, The Hebrew University of Jerusalem, Jerusalem, 9190401, Israel.",
+        "Institute of Science Tokyo, Earth-Life Science Institute, Tokyo, 152-8550, Japan.",
+        "Blue Marble Space Institute of Science, Seattle, Washington, 98104, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Weil-Ktorza, Orit",
+        "short_name": "Weil-Ktorza O",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chemistry, The Center for Nanoscience and Nanotechnology, Casali Center of Applied Chemistry, The Hebrew University of Jerusalem, Jerusalem, 9190401, Israel."
+        ]
+      },
+      {
+        "full_name": "Naveh-Tassa, Segev",
+        "short_name": "Naveh-Tassa S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Fridmann-Sirkis, Yael",
+        "short_name": "Fridmann-Sirkis Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences Core Facilities, Weizmann Institute of Science, Rehovot, 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Despotović, Dragana",
+        "short_name": "Despotović D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomolecular Sciences, Weizmann Institute of Science, Rehovot, 7610001, Israel.",
+          "Institute of Molecular Genetics and Genetic Engineering, University of Belgrade, Belgrade, 11042, Serbia."
+        ]
+      },
+      {
+        "full_name": "Cherukuri, Kesava Phaneendra",
+        "short_name": "Cherukuri KP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomolecular Sciences, Weizmann Institute of Science, Rehovot, 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Corlett, Tatsuya",
+        "short_name": "Corlett T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Science Tokyo, Earth-Life Science Institute, Tokyo, 152-8550, Japan."
+        ]
+      },
+      {
+        "full_name": "Levy, Yaakov",
+        "short_name": "Levy Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Metanis, Norman",
+        "short_name": "Metanis N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chemistry, The Center for Nanoscience and Nanotechnology, Casali Center of Applied Chemistry, The Hebrew University of Jerusalem, Jerusalem, 9190401, Israel."
+        ]
+      },
+      {
+        "full_name": "Longo, Liam M",
+        "short_name": "Longo LM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Science Tokyo, Earth-Life Science Institute, Tokyo, 152-8550, Japan.",
+          "Blue Marble Space Institute of Science, Seattle, Washington, 98104, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Angewandte Chemie (International ed. in English)"
+    ],
+    "journal_abbrev": [
+      "Angew Chem Int Ed Engl"
+    ],
+    "pub_date": "2025 Jun 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/28 06:24",
+    "fetched_at": "2026-09-21 17:08:33"
+  },
+  "links": {
+    "cites": [
+      "41018264",
+      "40852889",
+      "40745929",
+      "40231896"
+    ],
+    "refs": [
+      "39629944",
+      "39215490",
+      "38718835",
+      "38407532",
+      "36302022",
+      "35904499",
+      "35546190",
+      "34541184",
+      "34265844",
+      "32783952",
+      "32561643",
+      "30880154",
+      "29908104",
+      "28738409",
+      "28252057",
+      "26653858",
+      "25474468",
+      "25071217",
+      "24232250",
+      "23329690",
+      "22927390",
+      "22743772",
+      "22125473",
+      "20877851",
+      "20660730",
+      "20452962",
+      "18651678",
+      "18046687",
+      "17942675",
+      "16731699",
+      "16211538",
+      "15331417",
+      "12070349",
+      "11456564",
+      "10908318",
+      "8841120",
+      "8692686",
+      "8596952",
+      "7973629",
+      "3449856",
+      "1604320"
+    ],
+    "similar": [
+      "40151087",
+      "35904499",
+      "40852889",
+      "8841118",
+      "8841120",
+      "10908318",
+      "32561643",
+      "40631955",
+      "23661679",
+      "34904892",
+      "10924106",
+      "31147715",
+      "39576589",
+      "40693919",
+      "35077748",
+      "15048824",
+      "26156556",
+      "19487258",
+      "1740426",
+      "28028171",
+      "15251957",
+      "39616716",
+      "32476604",
+      "19751212",
+      "19846792",
+      "26574454",
+      "40185232",
+      "21905121",
+      "35054954",
+      "8692686",
+      "11182314",
+      "7476164",
+      "14500838",
+      "12598368",
+      "23079036",
+      "36762966",
+      "9571037",
+      "18515356",
+      "27936513",
+      "23912807",
+      "9168050",
+      "27825805",
+      "23768997",
+      "16143607",
+      "9421501",
+      "34232702",
+      "29864683",
+      "23657842",
+      "25112690",
+      "41045511",
+      "12660239",
+      "2633035",
+      "10194309",
+      "28808060",
+      "27417968",
+      "26609765",
+      "29956256",
+      "1475188",
+      "29225080",
+      "27317745",
+      "17715145",
+      "42176847",
+      "9080548",
+      "30731167",
+      "12006568",
+      "18351707",
+      "28115843",
+      "12600940",
+      "30535108",
+      "9331418",
+      "11972051",
+      "22734485",
+      "22483113",
+      "42080265",
+      "25474259",
+      "16084390",
+      "40967212",
+      "27936518",
+      "17540026",
+      "8903344",
+      "20399190",
+      "11304669",
+      "22292090",
+      "40914361",
+      "16467938",
+      "12553882",
+      "21825162",
+      "10903858",
+      "33051202",
+      "26612539",
+      "9342332",
+      "7527138",
+      "10839621",
+      "15645082",
+      "23666816",
+      "30963726",
+      "29750033",
+      "16100266",
+      "8450553",
+      "35686985"
+    ],
+    "review": [
+      "40151087",
+      "39616716",
+      "40185232",
+      "11182314",
+      "12598368",
+      "36762966",
+      "23768997"
+    ],
+    "pmc": [
+      "12171331"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40151087/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/anie.202505188",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

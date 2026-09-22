@@ -1,0 +1,457 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.19.488691",
+  "title": "CPGL: Prediction of compound-protein interaction by integrating graph attention network with long short-term memory neural network",
+  "doi": "10.1101/2022.04.19.488691",
+  "abstract": "Recent advancements of artificial intelligence based on deep learning algorithms have made it possible to computationally predict compound-protein interaction (CPI) without conducting laboratory experiments. In this manuscript, we integrated a graph attention network (GAT) for compounds and a long short-term memory neural network (LSTM) for proteins, used end-to-end representation learning for both compounds and proteins, and proposed a deep learning algorithm, CPGL (CPI with GAT and LSTM) to optimize the feature extraction from compounds and proteins and to improve the model robustness and generalizability. CPGL demonstrated an excellent predictive performance and outperforms recently reported deep learning models. Based on 3 public CPI datasets, C.elegans, Human and BindingDB, CPGL represented 1 - 5% improvement compared to existing deep-learning models. Our method also achieves excellent results on datasets with imbalanced positive and negative proportions constructed based on the above two datasets. More importantly, using 2 label reversal datasets, GPCR and Kinase, CPGL showed superior performance compared to other existing deep learning models. The AUC were substantially improved by 15% to 50% on the Kinase dataset, indicative of the robustness and generalizability of CPGL.",
+  "authors": [
+    "Minghua Zhao",
+    "Min Yuan",
+    "Yaning Yang",
+    "Steven X Xu"
+  ],
+  "published_date": "2022-04-19",
+  "updated_date": "2022-04-21T01:50:20Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.19.488691",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.19.488691.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:21:45Z",
+        "timestamp": 1768501305939,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            19
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 41,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            19
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Recent advancements of artificial intelligence based on deep learning algorithms have made it possible to computationally predict compound-protein interaction (CPI) without conducting laboratory experiments. In this manuscript, we integrated a graph attention network (GAT) for compounds and a long short-term memory neural network (LSTM) for proteins, used end-to-end representation learning for both compounds and proteins, and proposed a deep learning algorithm, CPGL (CPI with GAT and LSTM) to optimize the feature extraction from compounds and proteins and to improve the model robustness and generalizability. CPGL demonstrated an excellent predictive performance and outperforms recently reported deep learning models. Based on 3 public CPI datasets, C.elegans, Human and BindingDB, CPGL represented 1 - 5% improvement compared to existing deep-learning models. Our method also achieves excellent results on datasets with imbalanced positive and negative proportions constructed based on the above two datasets. More importantly, using 2 label reversal datasets, GPCR and Kinase, CPGL showed superior performance compared to other existing deep learning models. The AUC were substantially improved by 15% to 50% on the Kinase dataset, indicative of the robustness and generalizability of CPGL.</jats:p>",
+      "DOI": "10.1101/2022.04.19.488691",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            21
+          ]
+        ],
+        "date-time": "2022-04-21T01:50:20Z",
+        "timestamp": 1650505820000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "CPGL: Prediction of compound-protein interaction by integrating graph attention network with long short-term memory neural network"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Minghua",
+          "family": "Zhao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Min",
+          "family": "Yuan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yaning",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Steven X",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "17",
+          "key": "2022051801501076000_2022.04.19.488691v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "4633",
+          "DOI": "10.1093/bioinformatics/btaa544",
+          "article-title": "DeepCDA: deep cross-domain compound-protein affinity prediction through LSTM and convolutional neural networks",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.2",
+          "first-page": "3035ĺC3042",
+          "article-title": "GLASS: a comprehensive database for experimentally validated GPCRÍCligand associations",
+          "volume": "31",
+          "year": "2015",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa524"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.4",
+          "unstructured": "Costa, F. and De Grave, K. (2010) Fast neighborhood subgraph pairwise distance kernel. In: International Conference on Machine Learning."
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti801"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.6",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gao, K. et al. (2018) Interpretable drug target prediction using deep neural representation. In:Proceedings of the Twenty-Seventh International Joint Conference on Artificial Intelligence, AAAI Press, Stockholm, Sweden. pp.3371–3377.",
+          "DOI": "10.24963/ijcai.2018/468"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.7",
+          "first-page": "D1045ĺC1053",
+          "article-title": "BindingDB in 2015: a public database for medicinal chemistry, computational chemistry and systems pharmacology",
+          "volume": "44",
+          "year": "2016",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "37",
+          "DOI": "10.1007/978-3-642-24797-2_4",
+          "volume-title": "Supervised Sequence Labelling with Recurrent Neural Networks, Studies in Computational Intelligence",
+          "volume": "385",
+          "year": "2012"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm862"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/neco.1997.9.8.1735"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz111"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature08506"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.13",
+          "unstructured": "Kimothi, D. et al. (2016) Distributed Representations for Biological Sequence Analysis In: arXiv e-prints, 2016. p. arXiv:1609.05949."
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.14",
+          "unstructured": "Kipf, T. and Welling, M. (2016) Semi-supervised classification with graph convolutional networks. In: arXiv e-prints, 2016. p. arXiv:1609.02907."
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0141287"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.16",
+          "unstructured": "Landrum, G. (2015) RDKit Documentation. Release 2015.09.1: 1–105, URL http://www.rdkit.org."
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1007129"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btv256"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.20",
+          "unstructured": "Liu, L. et al. (2019) On the variance of the adaptive learning rate and beyond. In: arXiv e-prints, 2019. p. arXiv:1908.03265."
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11159"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mazzaferro, C. (2017) Predicting protein binding affinity with word embeddings and recurrent neural networks. http://dx.doi.org/10.1101/128223.",
+          "DOI": "10.1101/128223"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2013.01.008"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1075"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.25",
+          "unstructured": "Mikolov, T. et al. (2013a) Efficient estimation of word representations in vector space. In: arXiv e-prints, 2013. p. arXiv:1301.3781."
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.26",
+          "first-page": "3111",
+          "article-title": "Distributed representations of words and phrases and their compositionality",
+          "volume": "26",
+          "year": "2013",
+          "journal-title": "Adv. Neural Inform. Process. Syst"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.27",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nguyen, T. et al. (2019) GraphDTA: prediction of drug-target binding affinity using graph convolutional networks. bioRxiv: doi: http://dx.doi.org/10.1101/684662.",
+          "DOI": "10.1101/684662"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty593"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.29",
+          "unstructured": "Ozturk, H. et al. (2019) WideDTA: prediction of drug-target binding affinity. In:arXiv e-prints, 2019. p. arXiv:1902.04166."
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "27",
+          "DOI": "10.1038/d41586-019-02307-y",
+          "article-title": "Three pitfalls to avoid in machine learning",
+          "volume": "572",
+          "year": "2019",
+          "journal-title": "Nature"
+        },
+        {
+          "issue": "5",
+          "key": "2022051801501076000_2022.04.19.488691v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "1878",
+          "DOI": "10.1093/bib/bby061",
+          "article-title": "Recent applications of deep learning and machine intelligence on in silico drug discovery: methods, tools and databases",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "191",
+          "DOI": "10.1038/nrd3681",
+          "article-title": "Diagnosing the decline in pharmaceutical R&D efficiency",
+          "volume": "11",
+          "year": "2012",
+          "journal-title": "Nat.Rev.Drug.Discov"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.33",
+          "first-page": "735ĺC743",
+          "article-title": "Making sense of large-scale kinase inhibitor bioactivity data sets: a comparative and integrative analysis",
+          "volume": "54",
+          "year": "2014",
+          "journal-title": "J. Chem. Inf. Model"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "309",
+          "DOI": "10.1093/bioinformatics/bty535",
+          "article-title": "Compound-protein interaction prediction with end-to-end learning of neural networks for graphs and sequences",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.35",
+          "unstructured": "Velickovic, P. et al. (2018) Graph Attention Networks. In: arXiv e-prints, p.arXiv:1710.10903v3."
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm958"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty178"
+        },
+        {
+          "issue": "7",
+          "key": "2022051801501076000_2022.04.19.488691v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "1235",
+          "DOI": "10.1162/neco_a_01199",
+          "article-title": "A Review of Recurrent Neural Networks: LSTM Cells and Network Architectures",
+          "volume": "31",
+          "year": "2019",
+          "journal-title": "Neural Comput"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.39",
+          "unstructured": "Zhang M. et al. (2019) Lookahead optimizer: k steps forward, 1 step back. In: arXiv e-prints, p. arXiv:1907.08610."
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "134",
+          "DOI": "10.1038/s42256-020-0152-y",
+          "article-title": "Predicting drugĺCprotein interaction using quasi-visual question answering system",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nat. Mach. Intell"
+        },
+        {
+          "key": "2022051801501076000_2022.04.19.488691v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aiopen.2021.01.001"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.04.19.488691",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:56:19Z",
+        "timestamp": 1768445779000
+      },
+      "score": 75.01346,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.04.19.488691"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            19
+          ]
+        ]
+      },
+      "references-count": 41,
+      "URL": "https://doi.org/10.1101/2022.04.19.488691",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1109/TCBB.2022.3225296",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            4,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

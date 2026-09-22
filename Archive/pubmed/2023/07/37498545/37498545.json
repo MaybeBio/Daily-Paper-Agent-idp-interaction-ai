@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "37498545",
+    "doi": "10.1002/pro.4739",
+    "title": "IFF: Identifying key residues in intrinsically disordered regions of proteins using machine learning."
+  },
+  "content": {
+    "abstract": "Conserved residues in protein homolog sequence alignments are structurally or functionally important. For intrinsically disordered proteins or proteins with intrinsically disordered regions (IDRs), however, alignment often fails because they lack a steric structure to constrain evolution. Although sequences vary, the physicochemical features of IDRs may be preserved in maintaining function. Therefore, a method to retrieve common IDR features may help identify functionally important residues. We applied unsupervised contrastive learning to train a model with self-attention neuronal networks on human IDR orthologs. Parameters in the model were trained to match sequences in ortholog pairs but not in other IDRs. The trained model successfully identifies previously reported critical residues from experimental studies, especially those with an overall pattern (e.g., multiple aromatic residues or charged blocks) rather than short motifs. This predictive model can be used to identify potentially important residues in other proteins, improving our understanding of their functions. The trained model can be run directly from the Jupyter Notebook in the GitHub repository using Binder (mybinder.org). The only required input is the primary sequence. The training scripts are available on GitHub (https://github.com/allmwh/IFF). The training datasets have been deposited in an Open Science Framework repository (https://osf.io/jk29b).",
+    "keywords": [
+      "intrinsically disordered proteins",
+      "liquid-liquid phase separation",
+      "unsupervised contrastive machine learning"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Sequence Alignment",
+      "Machine Learning",
+      "Models, Molecular",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ho, Wen-Lin",
+        "Huang, Hsuan-Cheng",
+        "Huang, Jie-Rong"
+      ],
+      "short_names": [
+        "Ho WL",
+        "Huang HC",
+        "Huang JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3674-2228"
+      ],
+      "affiliations": [
+        "Institute of Biochemistry and Molecular Biology, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Institute of Biochemistry and Molecular Biology, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+        "Department of Life Sciences and Institute of Genome Sciences, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ho, Wen-Lin",
+        "short_name": "Ho WL",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biochemistry and Molecular Biology, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Huang, Hsuan-Cheng",
+        "short_name": "Huang HC",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Huang, Jie-Rong",
+        "short_name": "Huang JR",
+        "identifiers": [
+          "0000-0003-3674-2228"
+        ],
+        "affiliations": [
+          "Institute of Biochemistry and Molecular Biology, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+          "Institute of Biomedical Informatics, National Yang Ming Chiao Tung University, Taipei, Taiwan.",
+          "Department of Life Sciences and Institute of Genome Sciences, National Yang Ming Chiao Tung University, Taipei, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/27 13:10",
+    "fetched_at": "2026-09-20 23:49:56"
+  },
+  "links": {
+    "cites": [
+      "42184109",
+      "41629626",
+      "40396357",
+      "40100159",
+      "39383002"
+    ],
+    "refs": [
+      "35767567",
+      "35487971",
+      "35481633",
+      "35354917",
+      "35020807",
+      "34390736",
+      "34282049",
+      "34265844",
+      "34232869",
+      "33876751",
+      "33827920",
+      "33510441",
+      "33174605",
+      "32828470",
+      "32132204",
+      "32048997",
+      "32029630",
+      "31898464",
+      "31399549",
+      "31043738",
+      "31005579",
+      "30982603",
+      "30765518",
+      "30682370",
+      "30397651",
+      "30395287",
+      "29961577",
+      "29576456",
+      "29511089",
+      "29483575",
+      "28988034",
+      "28935776",
+      "28924037",
+      "28894006",
+      "28893908",
+      "28225081",
+      "26781812",
+      "26571108",
+      "26455390",
+      "26406374",
+      "26317470",
+      "24825614",
+      "24037790",
+      "23209182",
+      "22936568",
+      "22106262",
+      "21988835",
+      "21268112",
+      "20448178",
+      "20117254",
+      "19116270",
+      "17158572",
+      "11700597",
+      "11072311",
+      "9791540",
+      "9649402",
+      "8606779",
+      "8090708",
+      "3303334",
+      "708713",
+      "270744"
+    ],
+    "similar": [
+      "37498545",
+      "35767567",
+      "39383002",
+      "35481633",
+      "36272675",
+      "36291695",
+      "33248138",
+      "30324701",
+      "38297118",
+      "29763584",
+      "29066345",
+      "38275091",
+      "36908253",
+      "31441158",
+      "36959451",
+      "34390736",
+      "39093570",
+      "32756939",
+      "31756456",
+      "31724233",
+      "28924037",
+      "33076213",
+      "37883249",
+      "29791766",
+      "32535960",
+      "24115198",
+      "39253485",
+      "31207240",
+      "32824743",
+      "35659505",
+      "37905972",
+      "38701796",
+      "27807972",
+      "33191750",
+      "34825861",
+      "38866950",
+      "33036302",
+      "38296708",
+      "30135358",
+      "34626492",
+      "30878482",
+      "34656334",
+      "34418423",
+      "33616531",
+      "32225071",
+      "38459060",
+      "36009025",
+      "29759983",
+      "34830151",
+      "34571015",
+      "24037790",
+      "38662765",
+      "36528065",
+      "35436286",
+      "38941236",
+      "36315580",
+      "30058229",
+      "24532081",
+      "31521235",
+      "33806614",
+      "36008992",
+      "33078839",
+      "35275927",
+      "29511089",
+      "36210722",
+      "31175370",
+      "32553192",
+      "34905768",
+      "34020549",
+      "31709918",
+      "38507044",
+      "24727949",
+      "35139468",
+      "30873835",
+      "30802457",
+      "39248370",
+      "35094056",
+      "37657994",
+      "33087759",
+      "36153968",
+      "33779503",
+      "38781245",
+      "23142703",
+      "36648282",
+      "21647374",
+      "30841624",
+      "32696354",
+      "34179096",
+      "35883444",
+      "36821650",
+      "33567297",
+      "32702119",
+      "36851914",
+      "30518031",
+      "35882686",
+      "24027208",
+      "32112084",
+      "30823702",
+      "32393642",
+      "29042212",
+      "28167781",
+      "39333476",
+      "36304335",
+      "37574757",
+      "37986812",
+      "37961106",
+      "39071356"
+    ],
+    "review": [
+      "37498545",
+      "33248138",
+      "31441158",
+      "36959451",
+      "34390736",
+      "39093570",
+      "38296708",
+      "34656334",
+      "34418423",
+      "24532081",
+      "31521235",
+      "33078839",
+      "31709918",
+      "35139468",
+      "37657994",
+      "36648282",
+      "36821650",
+      "33567297",
+      "36851914",
+      "35882686",
+      "24027208"
+    ],
+    "pmc": [
+      "10443345"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37498545/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4739",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

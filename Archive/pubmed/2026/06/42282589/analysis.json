@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42282589",
+  "title": "Physics-guided design of intrinsically disordered proteins.",
+  "authors": "Tyagi, Neha; Boodry, Jackson; Chou, Vita; Snead, Wilton T; Shrinivas, Krishna",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-06-12",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出物理引导的机器学习框架，通过反演物理模型实现无序蛋白的从头设计，可编程调控其响应、相分离凝聚体性质及细胞内的选择性分配，虽侧重设计而非直接互作机制建模，但深度涉及IDP介导的凝聚体组装与组分特异性，对无序蛋白互作机制建模有重要启发。",
+  "abstract": "Intrinsically disordered protein regions (IDPs) are found across the tree of life and characterized by the lack of a stable 3D fold, encoding function through a vast ensemble of conformations. This plasticity makes rational design of IDPs challenging. Physics-based approaches capturing distinct aspects of sequence composition, charge patterning, and molecular interactions have emerged as powerful predictors of ensemble-derived properties. Here, we present a machine learning framework for proteome-scale de novo IDP design by rationally inverting physics-based models. We first program IDPs to tunably sense and respond to diverse biophysical cues and show that IDP ensembles can directly encode complex signal processing, including threshold detection, bandpass filtering, and Boolean-type multi-input logic. We next engineer multicomponent IDP mixtures with tailored emergent condensate properties, including layering and number of phases, compositional specificity, and RNA-dependent remodeling of structure and composition. Finally, we demonstrate designed IDPs that selectively partition into or deplete from biological condensates in living cells. Together, our framework establishes a flexible and scalable strategy for design of ensemble-derived and collective properties in dynamic biomolecules.",
+  "abstract_zh": "intrinsically disordered protein regions (IDPs) 遍布生命之树，其特征是缺乏稳定的三维折叠，通过庞大的构象集合编码功能。这种可塑性使得IDPs的理性设计具有挑战性。基于物理的方法捕捉序列组成、电荷图案和分子相互作用的不同方面，已成为预测集合衍生性质的有力工具。在此，我们提出一个机器学习框架，通过理性反转基于物理的模型，实现蛋白质组规模的从头IDP设计。我们首先编程IDPs以可调方式感知并响应多样的生物物理线索，并展示IDP集合能直接编码复杂信号处理，包括阈值检测、带通滤波和布尔型多输入逻辑。接着，我们工程化多组分IDP混合物，赋予其定制的涌现凝聚体性质，包括分层和相数、组成特异性，以及RNA依赖的结构和组成重塑。最后，我们展示设计的IDPs在活细胞中选择性分配进入或排除出生物凝聚体。综合而言，我们的框架为动态生物分子中集合衍生和集体性质的设计建立了一种灵活且可扩展的策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42282589/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42282589/",
+  "paper_page_path": "papers/pubmed/42282589/index.html"
+}

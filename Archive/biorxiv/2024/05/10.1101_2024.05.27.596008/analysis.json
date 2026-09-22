@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.05.27.596008",
+  "title": "Arabidopsis terminal nucleotidyl transferases govern secondary siRNA production at distinct steps",
+  "authors": "Vigh ML; Thieffry A; Arribas-Hernández L; Brodersen P",
+  "journal": "bioRxiv",
+  "published_date": "2024-05-31",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究拟南芥末端核苷酸转移酶在次级siRNA生成中的功能，属于植物RNA干扰机制，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "<h4>ABSTRACT</h4> In plants, RNA interference (RNAi) mediated by the endonucleolytic RNA-Induced Silencing Complex (RISC) defends against foreign RNA and regulates endogenous genes. Targeting of RISC to foreign RNA establishes amplification loops, wherein RNA-dependent RNA Polymerase 6 (RDR6) synthesizes double-stranded RNA (dsRNA) for secondary small interfering RNA (siRNA) biogenesis, using cleavage fragments of RNA targeted by RISC programmed with a primary siRNA as template. Secondary siRNA production from endogenous RISC targets requires a particular primary small RNA size or target site multiplicity. siRNA amplification in yeast and nematodes requires terminal nucleotidyl transferases (TNTases), but their roles in plants are unclear. Here, we demonstrate two functions of TNTases in siRNA amplification in Arabidopsis thaliana . URT1 prevents initiation of microRNA-induced secondary siRNA formation through uridylation of 5’-cleavage fragments, sometimes redundantly with the exosome and the TNTase HESO1. Once initiated via RDR6 recruitment, HESO1 and other TNTases stimulate secondary siRNA formation by producing 2-nt 3’overhangs on RDR6-synthesized dsRNA to yield substrates for processing into siRNAs by DICER-LIKE4. These results define molecular mechanisms by which TNTases control siRNA amplification in plants.",
+  "abstract_zh": "<h4>摘要</h4> 在植物中，由核酸内切酶RNA诱导沉默复合体（RISC）介导的RNA干扰（RNAi）防御外来RNA并调控内源基因。RISC靶向外来RNA建立扩增环，其中RNA依赖性RNA聚合酶6（RDR6）以由初级siRNA编程的RISC靶向RNA的切割片段为模板，合成双链RNA（dsRNA），用于次级小干扰RNA（siRNA）的生物发生。从内源RISC靶标产生次级siRNA需要特定的初级小RNA大小或靶位点多拷贝性。酵母和线虫中的siRNA扩增需要末端核苷酸转移酶（TNTases），但其在植物中的作用尚不清楚。在此，我们展示了TNTases在拟南芥（Arabidopsis thaliana）siRNA扩增中的两个功能。URT1通过尿苷化5‘切割片段阻止microRNA诱导的次级siRNA形成的起始，有时与外泌体和TNTase HESO1冗余作用。一旦通过RDR6招募启动，HESO1和其他TNTases通过在RDR6合成的dsRNA上产生2-nt 3’突出端，生成底物以供DICER-LIKE4加工成siRNA，从而刺激次级siRNA形成。这些结果定义了TNTases在植物中控制siRNA扩增的分子机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.05.27.596008",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.05.27.596008",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.05.27.596008/index.html"
+}

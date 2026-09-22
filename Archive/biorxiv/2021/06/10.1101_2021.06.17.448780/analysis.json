@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.06.17.448780",
+  "title": "X-DPI: A structure-aware multi-modal deep learning model for drug-protein interactions prediction",
+  "authors": "Penglei Wang; Shuangjia Zheng; Yize Jiang; Chengtao Li; Junhong Liu; Chang Wen; Atanas Patronov; Dahong Qian; Hongming Chen; Yuedong Yang",
+  "journal": "bioRxiv",
+  "published_date": "2021-06-18",
+  "window": {
+    "start": "2021-06-14",
+    "end": "2021-06-20"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出结构感知多模态深度学习模型X-DPI预测药物-蛋白质相互作用，虽涉及蛋白质结合位点机制，但对象为折叠蛋白与小分子药物，非无序蛋白/IDR/相分离，且互作机制建模启发有限。",
+  "abstract": "Motivation Identifying the drug-protein interactions (DPIs) is crucial in drug discovery, and a number of machine learning methods have been developed to predict DPIs. Existing methods usually use unrealistic datasets with hidden bias, which will limit the accuracy of virtual screening methods. Meanwhile, most DPIs prediction methods pay more attention to molecular representation but lack effective research on protein representation and high-level associations between different instances. To this end, we presented here a novel structure-aware multi-modal DPIs prediction model, X-DPI, performing on a curated industry-scale benchmark dataset. Results We built a high-quality benchmark dataset named GalaxyDB for DPIs prediction. This industry-scale dataset along with an unbiased training procedure resulted in a more robust benchmark study. For informative protein representation, we constructed a structure-aware graph neural network method from the protein sequence by combining predicted contact maps and graph neural networks. Through further integration of structure-based representation and high-level pre-trained embeddings for molecules and proteins, our model captured more effectively the feature representation of the interactions between them. As a result, X-DPI outperformed state-of-the-art DPIs prediction methods and obtained 5.30% Mean Square Error (MSE) improved in the DAVIS dataset and 8.89% area under the curve (AUC) improved in GalaxyDB dataset. Moreover, our model is an interpretable model with the transformer-based interaction mechanism, which can accurately reveal the binding sites between molecule and protein.",
+  "abstract_zh": "动机 识别药物-蛋白质相互作用（DPIs）在药物发现中至关重要，已有多种机器学习方法被开发用于预测DPIs。现有方法通常使用带有隐藏偏差的不切实际数据集，这将限制虚拟筛选方法的准确性。同时，大多数DPIs预测方法更关注分子表示，但缺乏对蛋白质表示及不同实例间高层次关联的有效研究。为此，我们在此提出了一种新颖的结构感知多模态DPIs预测模型X-DPI，并在一个精心策划的行业规模基准数据集上进行了验证。结果 我们构建了一个名为GalaxyDB的高质量基准数据集用于DPIs预测。该行业规模数据集结合无偏训练流程，产生了更稳健的基准研究。为了获得信息丰富的蛋白质表示，我们通过结合预测接触图（contact maps）和图神经网络（graph neural networks），从蛋白质序列构建了一种结构感知的图神经网络方法。通过进一步整合基于结构的表示以及分子和蛋白质的高层次预训练嵌入，我们的模型更有效地捕捉了它们之间相互作用的特征表示。因此，X-DPI优于最先进的DPIs预测方法，在DAVIS数据集上平均平方误差（MSE）提高了5.30%，在GalaxyDB数据集上曲线下面积（AUC）提高了8.89%。此外，我们的模型是一个可解释模型，采用基于Transformer的交互机制，能够准确揭示分子与蛋白质之间的结合位点。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.06.17.448780",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.06.17.448780",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.06.17.448780/index.html"
+}

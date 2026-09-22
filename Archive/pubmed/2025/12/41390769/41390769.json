@@ -1,0 +1,431 @@
+{
+  "identity": {
+    "pmid": "41390769",
+    "doi": "10.1038/s41467-025-67284-5",
+    "title": "The non-catalytic DNA polymerase epsilon subunit is an NPF motif recognition protein."
+  },
+  "content": {
+    "abstract": "Short linear motifs (SLiMs) in disordered protein regions direct numerous protein-protein interactions, yet most remain uncharacterized. The Asn-Pro-Phe (NPF) motif is a well-known EH-domain ligand implicated in endocytosis, but here we reveal that the non-catalytic subunit of human DNA polymerase epsilon (POLE2) also serves as a general NPF-motif receptor. Using a quantitative \"native holdup\" assay, we find that POLE2 selectively binds diverse NPF-containing peptides, including canonical EH-domain ligands (e.g., SYNJ1) and previously uncharacterized motifs. Biochemical measurements and mutational analyses show that NPF motifs interact with a shallow pocket near the POLE2 C-terminus, and AlphaFold predictions confirm key roles for Y513, E520, and S522 in motif coordination. Proteome-scale affinity screens identify NPF-containing nuclear proteins (e.g., WDHD1, DONSON, TTF2) that bind POLE2 with micromolar affinities, and their motif mutations abolish binding in cell extracts. Although POLE2 primarily tethers the catalytic POLE subunit to replication forks, these results indicate that it can also recruit various NPF-bearing partners involved in replication, DNA repair, and transcription regulation. Notably, NPF motifs optimized for EH-domain binding can still associate with POLE2, highlighting the inherent degeneracy of SLiM-mediated networks. Overall, these findings establish POLE2 as a central hub possibly linking replication with other processes via broad NPF-motif recognition.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Amino Acid Motifs",
+      "*DNA Polymerase II/metabolism/genetics/chemistry",
+      "Protein Binding",
+      "Poly-ADP-Ribose Binding Proteins/metabolism/genetics",
+      "DNA Replication",
+      "HEK293 Cells",
+      "Nuclear Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Keskitalo, Salla",
+        "Zambo, Boglarka",
+        "Malaymar Pinar, Dicle",
+        "Tuhkala, Antti",
+        "Salokas, Kari",
+        "Turunen, Tanja",
+        "Deutsch, Norbert",
+        "Davey, Norman",
+        "Dosztanyi, Zsuzsanna",
+        "Varjosalo, Markku",
+        "Gogl, Gergo"
+      ],
+      "short_names": [
+        "Keskitalo S",
+        "Zambo B",
+        "Malaymar Pinar D",
+        "Tuhkala A",
+        "Salokas K",
+        "Turunen T",
+        "Deutsch N",
+        "Davey N",
+        "Dosztanyi Z",
+        "Varjosalo M",
+        "Gogl G"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5555-1975",
+        "ORCID: 0000-0002-5912-699X",
+        "ORCID: 0009-0001-5764-4320",
+        "ORCID: 0009-0008-7956-9043",
+        "ORCID: 0000-0002-4471-6698",
+        "ORCID: 0009-0006-7459-0201",
+        "ORCID: 0000-0001-6988-4850",
+        "ORCID: 0000-0002-3624-5937",
+        "ORCID: 0000-0002-1340-9732",
+        "ORCID: 0000-0002-8597-3711"
+      ],
+      "affiliations": [
+        "Institute of Biotechnology, Helsinki Institute of Life Science HiLIFE, University of Helsinki, Helsinki, Finland.",
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), INSERM U1258/CNRS UMR 7104/Universite de Strasbourg, Illkirch, France.",
+        "Institut de Biologie Valrose - iBV, Universite Cote d'Azur, CNRS UMR7277, Inserm, Nice, France.",
+        "Institute of Biotechnology, Helsinki Institute of Life Science HiLIFE, University of Helsinki, Helsinki, Finland.",
+        "Institute of Biotechnology, Helsinki Institute of Life Science HiLIFE, University of Helsinki, Helsinki, Finland.",
+        "Institute of Biotechnology, Helsinki Institute of Life Science HiLIFE, University of Helsinki, Helsinki, Finland.",
+        "Institute of Biotechnology, Helsinki Institute of Life Science HiLIFE, University of Helsinki, Helsinki, Finland.",
+        "Department of Biochemistry, ELTE Eotvos Lorand University, Budapest, Hungary.",
+        "Institute of Cancer Research, Chester Beatty Laboratories, London, UK.",
+        "Department of Biochemistry, ELTE Eotvos Lorand University, Budapest, Hungary.",
+        "Institute of Biotechnology, Helsinki Institute of Life Science HiLIFE, University of Helsinki, Helsinki, Finland. markku.varjosalo@helsinki.fi.",
+        "Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), INSERM U1258/CNRS UMR 7104/Universite de Strasbourg, Illkirch, France. gergo.gogl@univ-cotedazur.fr.",
+        "Institut de Biologie Valrose - iBV, Universite Cote d'Azur, CNRS UMR7277, Inserm, Nice, France. gergo.gogl@univ-cotedazur.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Keskitalo, Salla",
+        "short_name": "Keskitalo S",
+        "identifiers": [
+          "0000-0001-5555-1975"
+        ],
+        "affiliations": [
+          "Institute of Biotechnology, Helsinki Institute of Life Science HiLIFE, University of Helsinki, Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Zambo, Boglarka",
+        "short_name": "Zambo B",
+        "identifiers": [
+          "0000-0002-5912-699X"
+        ],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), INSERM U1258/CNRS UMR 7104/Université de Strasbourg, Illkirch, France.",
+          "Institut de Biologie Valrose - iBV, Université Côte d'Azur, CNRS UMR7277, Inserm, Nice, France."
+        ]
+      },
+      {
+        "full_name": "Malaymar Pinar, Dicle",
+        "short_name": "Malaymar Pinar D",
+        "identifiers": [
+          "0009-0001-5764-4320"
+        ],
+        "affiliations": [
+          "Institute of Biotechnology, Helsinki Institute of Life Science HiLIFE, University of Helsinki, Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Tuhkala, Antti",
+        "short_name": "Tuhkala A",
+        "identifiers": [
+          "0009-0008-7956-9043"
+        ],
+        "affiliations": [
+          "Institute of Biotechnology, Helsinki Institute of Life Science HiLIFE, University of Helsinki, Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Salokas, Kari",
+        "short_name": "Salokas K",
+        "identifiers": [
+          "0000-0002-4471-6698"
+        ],
+        "affiliations": [
+          "Institute of Biotechnology, Helsinki Institute of Life Science HiLIFE, University of Helsinki, Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Turunen, Tanja",
+        "short_name": "Turunen T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biotechnology, Helsinki Institute of Life Science HiLIFE, University of Helsinki, Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Deutsch, Norbert",
+        "short_name": "Deutsch N",
+        "identifiers": [
+          "0009-0006-7459-0201"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, ELTE Eötvös Loránd University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Davey, Norman",
+        "short_name": "Davey N",
+        "identifiers": [
+          "0000-0001-6988-4850"
+        ],
+        "affiliations": [
+          "Institute of Cancer Research, Chester Beatty Laboratories, London, UK."
+        ]
+      },
+      {
+        "full_name": "Dosztányi, Zsuzsanna",
+        "short_name": "Dosztányi Z",
+        "identifiers": [
+          "0000-0002-3624-5937"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, ELTE Eötvös Loránd University, Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Varjosalo, Markku",
+        "short_name": "Varjosalo M",
+        "identifiers": [
+          "0000-0002-1340-9732"
+        ],
+        "affiliations": [
+          "Institute of Biotechnology, Helsinki Institute of Life Science HiLIFE, University of Helsinki, Helsinki, Finland. markku.varjosalo@helsinki.fi."
+        ]
+      },
+      {
+        "full_name": "Gogl, Gergo",
+        "short_name": "Gogl G",
+        "identifiers": [
+          "0000-0002-8597-3711"
+        ],
+        "affiliations": [
+          "Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), INSERM U1258/CNRS UMR 7104/Université de Strasbourg, Illkirch, France. gergo.gogl@univ-cotedazur.fr.",
+          "Institut de Biologie Valrose - iBV, Université Côte d'Azur, CNRS UMR7277, Inserm, Nice, France. gergo.gogl@univ-cotedazur.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Dec 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/14 00:39",
+    "fetched_at": "2026-09-17 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "41606196"
+    ],
+    "refs": [
+      "40129024",
+      "40015271",
+      "39552041",
+      "39470701",
+      "38995680",
+      "38718835",
+      "37962385",
+      "37590370",
+      "37458194",
+      "37349336",
+      "36998104",
+      "36542723",
+      "36526023",
+      "36496453",
+      "36452990",
+      "36402816",
+      "36115835",
+      "35803928",
+      "35384245",
+      "35271311",
+      "34700328",
+      "34694004",
+      "34265844",
+      "33961781",
+      "33771996",
+      "33760053",
+      "33482987",
+      "33257825",
+      "33237311",
+      "33125078",
+      "32616513",
+      "32428443",
+      "32424176",
+      "32296183",
+      "32294469",
+      "31837246",
+      "31768060",
+      "31680160",
+      "30385480",
+      "30368054",
+      "29860432",
+      "28747437",
+      "28387819",
+      "26543202",
+      "26053890",
+      "25038412",
+      "24513533",
+      "23921808",
+      "22977176",
+      "19893489",
+      "19798736",
+      "19717576",
+      "17912346",
+      "17363896",
+      "16904109",
+      "16884919",
+      "16169192",
+      "16155252",
+      "15173120",
+      "15093828",
+      "14679291",
+      "12941276",
+      "11389591",
+      "11062555",
+      "10657980",
+      "10579923",
+      "10567358",
+      "10360184",
+      "9822599",
+      "9428629",
+      "9303539"
+    ],
+    "similar": [
+      "41390769",
+      "10757979",
+      "18154663",
+      "11062555",
+      "18200045",
+      "19798736",
+      "20106972",
+      "11756442",
+      "36402816",
+      "34694004",
+      "20329706",
+      "11433027",
+      "10801849",
+      "12711691",
+      "28002650",
+      "32161100",
+      "40841375",
+      "33051204",
+      "40320752",
+      "39155507",
+      "40806338",
+      "41404803",
+      "26903512",
+      "9443964",
+      "11389591",
+      "30503519",
+      "9822599",
+      "22718908",
+      "39776131",
+      "37097331",
+      "39112807",
+      "24051051",
+      "40928249",
+      "39864625",
+      "10360184",
+      "37891003",
+      "10557078",
+      "25228659",
+      "32012149",
+      "19781553",
+      "20826785",
+      "35039475",
+      "30132567",
+      "27881680",
+      "34228709",
+      "32497495",
+      "33152268",
+      "16155252",
+      "23528559",
+      "30124468",
+      "9813051",
+      "29109278",
+      "35780178",
+      "23499531",
+      "30968138",
+      "30498216",
+      "12665575",
+      "9199353",
+      "29225079",
+      "32415104",
+      "14679291",
+      "39245668",
+      "38219146",
+      "9721102",
+      "22593576",
+      "11058115",
+      "29320758",
+      "31134302",
+      "32304567",
+      "9303539",
+      "39616187",
+      "39575998",
+      "10366722",
+      "31199850",
+      "15579205",
+      "23754701",
+      "11024162",
+      "27189942",
+      "27235625",
+      "32567205",
+      "24356582",
+      "25875965",
+      "28199690",
+      "41016010",
+      "32645368",
+      "37121125",
+      "18851837",
+      "33322195",
+      "31765407",
+      "23034803",
+      "33761311",
+      "21157497",
+      "38413589",
+      "32831648",
+      "24573677",
+      "35139130",
+      "37733085",
+      "35942639",
+      "11595739",
+      "41463297"
+    ],
+    "review": [
+      "41390769",
+      "37891003",
+      "35780178",
+      "14679291"
+    ],
+    "pmc": [
+      "12808100"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-67284-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41390769/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41390769",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FHL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

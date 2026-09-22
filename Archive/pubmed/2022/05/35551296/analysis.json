@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35551296",
+  "title": "Structural dynamics of SARS-CoV-2 nucleocapsid protein induced by RNA binding.",
+  "authors": "Ribeiro-Filho, Helder Veras; Jara, Gabriel Ernesto; Batista, Fernanda Aparecida Heleno; Schleder, Gabriel Ravanhani; Costa Tonoli, Celisa Caldana; Soprano, Adriana Santos; Guimaraes, Samuel Leite; Borges, Antonio Carlos; Cassago, Alexandre; Bajgelman, Marcio Chaim; Marques, Rafael Elias; Trivella, Daniela Barretto Barbosa; Franchini, Kleber Gomes; Figueira, Ana Carolina Migliorini; Benedetti, Celso Eduardo; Lopes-de-Oliveira, Paulo Sergio",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-05-14",
+  "window": {
+    "start": "2022-05-09",
+    "end": "2022-05-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合分子建模与MD模拟，研究SARS-CoV-2核衣壳蛋白IDR连接的结构域在RNA结合下的构象动态与寡聚化机制，虽对象非典型IDP-PPI但聚焦IDR介导的构象重排与复合物形成，机制建模思路可迁移。",
+  "abstract": "The nucleocapsid (N) protein of the SARS-CoV-2 virus, the causal agent of COVID-19, is a multifunction phosphoprotein that plays critical roles in the virus life cycle, including transcription and packaging of the viral RNA. To play such diverse roles, the N protein has two globular RNA-binding modules, the N- (NTD) and C-terminal (CTD) domains, which are connected by an intrinsically disordered region. Despite the wealth of structural data available for the isolated NTD and CTD, how these domains are arranged in the full-length protein and how the oligomerization of N influences its RNA-binding activity remains largely unclear. Herein, using experimental data from electron microscopy and biochemical/biophysical techniques combined with molecular modeling and molecular dynamics simulations, we show that, in the absence of RNA, the N protein formed structurally dynamic dimers, with the NTD and CTD arranged in extended conformations. However, in the presence of RNA, the N protein assumed a more compact conformation where the NTD and CTD are packed together. We also provided an octameric model for the full-length N bound to RNA that is consistent with electron microscopy images of the N protein in the presence of RNA. Together, our results shed new light on the dynamics and higher-order oligomeric structure of this versatile protein.",
+  "abstract_zh": "SARS-CoV-2病毒（COVID-19的病原体）的核衣壳（N）蛋白是一种多功能磷酸化蛋白，在病毒生命周期中发挥关键作用，包括病毒RNA的转录和包装。为发挥这些多样功能，N蛋白具有两个球状RNA结合模块，即N端（NTD）和C端（CTD）结构域，它们由一段内在无序区域连接。尽管已有大量关于分离的NTD和CTD的结构数据，但这些结构域在全长蛋白中的排列方式以及N的寡聚化如何影响其RNA结合活性仍 largely 不清楚。在此，我们利用电子显微镜和生化/生物物理技术的实验数据，结合分子建模和分子动力学模拟，表明在无RNA存在时，N蛋白形成结构动态的二聚体，其中NTD和CTD以延伸构象排列。然而，在RNA存在时，N蛋白呈现更紧凑的构象，NTD和CTD紧密堆积在一起。我们还提供了全长N与RNA结合时的八聚体模型，该模型与N蛋白在RNA存在下的电子显微镜图像一致。综合来看，我们的结果揭示了这一多功能蛋白的动态特性和高阶寡聚结构的新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35551296/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35551296/",
+  "paper_page_path": "papers/pubmed/35551296/index.html"
+}

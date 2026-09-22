@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35381009",
+  "title": "Implementation of residue-level coarse-grained models in GENESIS for large-scale molecular dynamics simulations.",
+  "authors": "Tan, Cheng; Jung, Jaewoon; Kobayashi, Chigusa; Torre, Diego Ugarte La; Takada, Shoji; Sugita, Yuji",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-04-06",
+  "window": {
+    "start": "2022-04-04",
+    "end": "2022-04-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文在GENESIS中实现残基级粗粒化模型，支持大规模MD模拟，涵盖无序区域并提及相分离凝聚体，但未聚焦PPI机制建模，方法为物理模拟而非AI。",
+  "abstract": "Residue-level coarse-grained (CG) models have become one of the most popular tools in biomolecular simulations in the trade-off between modeling accuracy and computational efficiency. To investigate large-scale biological phenomena in molecular dynamics (MD) simulations with CG models, unified treatments of proteins and nucleic acids, as well as efficient parallel computations, are indispensable. In the GENESIS MD software, we implement several residue-level CG models, covering structure-based and context-based potentials for both well-folded biomolecules and intrinsically disordered regions. An amino acid residue in protein is represented as a single CG particle centered at the Calpha atom position, while a nucleotide in RNA or DNA is modeled with three beads. Then, a single CG particle represents around ten heavy atoms in both proteins and nucleic acids. The input data in CG MD simulations are treated as GROMACS-style input files generated from a newly developed toolbox, GENESIS-CG-tool. To optimize the performance in CG MD simulations, we utilize multiple neighbor lists, each of which is attached to a different nonbonded interaction potential in the cell-linked list method. We found that random number generations for Gaussian distributions in the Langevin thermostat are one of the bottlenecks in CG MD simulations. Therefore, we parallelize the computations with message-passing-interface (MPI) to improve the performance on PC clusters or supercomputers. We simulate Herpes simplex virus (HSV) type 2 B-capsid and chromatin models containing more than 1,000 nucleosomes in GENESIS as examples of large-scale biomolecular simulations with residue-level CG models. This framework extends accessible spatial and temporal scales by multi-scale simulations to study biologically relevant phenomena, such as genome-scale chromatin folding or phase-separated membrane-less condensations.",
+  "abstract_zh": "残基级粗粒化（CG）模型已成为生物分子模拟中最常用的工具之一，在建模精度与计算效率之间取得平衡。为了在分子动力学（MD）模拟中使用CG模型研究大规模生物现象，对蛋白质和核酸的统一处理以及高效并行计算不可或缺。在GENESIS MD软件中，我们实现了多种残基级CG模型，涵盖基于结构和基于上下文的势能，适用于折叠良好的生物分子及 intrinsically disordered regions（内在无序区域）。蛋白质中的氨基酸残基被表示为单个CG粒子，其中心位于Cα原子位置，而RNA或DNA中的核苷酸则用三个珠子建模。这样，在蛋白质和核酸中，单个CG粒子约代表十个重原子。CG MD模拟中的输入数据被处理为GROMACS风格的输入文件，由新开发的工具箱GENESIS-CG-tool生成。为优化CG MD模拟性能，我们利用多个邻居列表，每个列表在细胞链接列表方法中关联不同的非键相互作用势能。我们发现，Langevin恒温器中高斯分布的随机数生成是CG MD模拟的瓶颈之一。因此，我们通过消息传递接口（MPI）并行化计算，以提升在PC集群或超级计算机上的性能。我们在GENESIS中模拟了单纯疱疹病毒（HSV）2型B-衣壳和包含超过1,000个核小体的染色质模型，作为残基级CG模型大规模生物分子模拟的示例。该框架通过多尺度模拟扩展了可访问的空间和时间尺度，以研究生物学相关现象，如基因组规模的染色质折叠或相分离的无膜凝聚体。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35381009/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35381009/",
+  "paper_page_path": "papers/pubmed/35381009/index.html"
+}

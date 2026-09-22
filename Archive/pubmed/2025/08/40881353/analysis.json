@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40881353",
+  "title": "The dimerization domain of SARS-CoV-2 nucleocapsid protein is partially disordered and forms a dynamic high-affinity dimer.",
+  "authors": "Cubuk, Jasmine; Incicco, J Jeremias; Hall, Kathleen B; Holehouse, Alex S; Stuchell-Brereton, Melissa D; Soranno, Andrea",
+  "journal": "Cell reports. Physical science",
+  "published_date": "2025-08-31",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过单分子FRET实验揭示SARS-CoV-2核衣壳蛋白二聚化域的部分无序构象及偶联折叠结合机制，虽以实验为主且未用AI/物理模拟，但聚焦IDR介导的高亲和PPI机制，对无序蛋白互作建模有直接参考价值。",
+  "abstract": "The SARS-CoV-2 nucleocapsid (N) drives the compaction and packaging of the viral genome. Here, we focused on quantifying the mechanisms that control dimer formation utilizing single-molecule Forster resonance energy transfer to investigate the conformations and energetics of the dimerization domain in the context of the full-length protein. Under monomeric conditions, we observed significantly expanded configurations of the dimerization domain (compared to the folded dimer structure), which is consistent with a dynamic conformational ensemble. The addition of unlabeled protein stabilizes a folded dimer configuration with a high mean transfer efficiency, which is in agreement with predictions based on known structures. Dimerization is characterized by a dissociation constant of ~12 nM at 23 degrees C and is driven by strong enthalpic interactions between the two protein subunits, which originate from the coupled folding and binding. We propose that the retained flexibility of the dimer can affect its interaction with RNA and phase separation propensity.",
+  "abstract_zh": "SARS-CoV-2核衣壳（N）蛋白驱动病毒基因组的压缩和包装。在此，我们聚焦于量化控制二聚体形成的机制，利用单分子福斯特共振能量转移来研究全长蛋白背景下二聚化结构域的构象和能量学。在单体条件下，我们观察到二聚化结构域显著扩展的构象（与折叠的二聚体结构相比），这与动态构象系综一致。添加未标记蛋白稳定了具有高平均转移效率的折叠二聚体构象，这与基于已知结构的预测相符。二聚化的解离常数在23°C下约为12 nM，并由两个蛋白亚基之间的强焓相互作用驱动，这种相互作用源于偶联的折叠与结合。我们提出，二聚体保留的灵活性可能影响其与RNA的相互作用及相分离倾向。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40881353/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40881353/",
+  "paper_page_path": "papers/pubmed/40881353/index.html"
+}

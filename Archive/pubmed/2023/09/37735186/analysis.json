@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37735186",
+  "title": "Thermodynamic forces from protein and water govern condensate formation of an intrinsically disordered protein domain.",
+  "authors": "Mukherjee, Saumyak; Schafer, Lars V",
+  "journal": "Nature communications",
+  "published_date": "2023-09-22",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用原子级分子动力学模拟解析FUS无序低复杂度结构域凝聚体形成中蛋白质与水分的自由能贡献，直接聚焦IDP相分离的互作热力学机制，方法为物理模拟，高度契合课题。",
+  "abstract": "Liquid-liquid phase separation (LLPS) can drive a multitude of cellular processes by compartmentalizing biological cells via the formation of dense liquid biomolecular condensates, which can function as membraneless organelles. Despite its importance, the molecular-level understanding of the underlying thermodynamics of this process remains incomplete. In this study, we use atomistic molecular dynamics simulations of the low complexity domain (LCD) of human fused in sarcoma (FUS) protein to investigate the contributions of water and protein molecules to the free energy changes that govern LLPS. Both protein and water components are found to have comparably sizeable thermodynamic contributions to the formation of FUS condensates. Moreover, we quantify the counteracting effects of water molecules that are released into the bulk upon condensate formation and the waters retained within the protein droplets. Among the various factors considered, solvation entropy and protein interaction enthalpy are identified as the most important contributions, while solvation enthalpy and protein entropy changes are smaller. These results provide detailed molecular insights on the intricate thermodynamic interplay between protein- and solvation-related forces underlying the formation of biomolecular condensates.",
+  "abstract_zh": "液-液相分离（LLPS）可通过形成致密的液体生物分子凝聚体来分隔生物细胞，从而驱动多种细胞过程，这些凝聚体可作为无膜细胞器。尽管其重要性不言而喻，但对该过程底层热力学的分子层面理解仍不完整。在本研究中，我们利用人源融合肉瘤（FUS）蛋白低复杂度结构域（LCD）的原子级分子动力学模拟，探讨水和蛋白质分子对调控LLPS的自由能变化的贡献。研究发现，蛋白质和水组分对FUS凝聚体形成均具有相当可观的热力学贡献。此外，我们量化了凝聚体形成时释放到体相中的水分子与保留在蛋白质液滴内的水分子之间的抵消效应。在考虑的各种因素中，溶剂化熵和蛋白质相互作用焓被确定为最重要的贡献因素，而溶剂化焓和蛋白质熵变化则较小。这些结果为生物分子凝聚体形成中蛋白质相关力与溶剂化相关力之间复杂的热力学相互作用提供了详细的分子层面见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37735186/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37735186/",
+  "paper_page_path": "papers/pubmed/37735186/index.html"
+}

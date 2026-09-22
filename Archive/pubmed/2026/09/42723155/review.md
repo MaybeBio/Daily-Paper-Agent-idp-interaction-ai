@@ -1,128 +1,107 @@
 ## Review setup
-- **Input scope** Full manuscript (abstract, introduction, results, discussion, experimental section, and references)
-- **Assessment boundary** Scientific claims, methodology, experimental design, results, and conclusions as presented in the manuscript
-- **Shared manuscript claim summary** The authors propose MolDBG, a unified site-aware framework that integrates drug-target affinity prediction, binding-site identification, and affinity-conditioned molecular generation within a single architecture, using only sequence data and achieving competitive performance across all three tasks.
-- **Visible evidence base** Full text including figures (referenced but not provided), tables (Table 1 referenced but not provided), and supplementary materials (referenced but not provided)
-- **Missing materials affecting confidence** Figures 1-5, Table 1, Tables S1-S10, and all supplementary sections (S2-S8) are referenced but not provided. The code repository URL is provided but not accessible for verification.
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, experimental section) without figures, tables, or supplementary materials.
+- **Assessment boundary** Scientific claims, methodological soundness, experimental design, and interpretation as presented in the provided text. Visual elements (figures, tables) and supplementary data are referenced but not directly assessable.
+- **Shared manuscript claim summary** The authors propose MolDBG, a unified sequence-based framework that jointly performs drug-target affinity prediction, binding-site identification, and affinity-conditioned molecular generation. The central claim is that explicit binding-site supervision improves performance across all three tasks, enables site-specific affinity discrimination, and generalizes to structurally challenging targets such as cryptic pockets and intrinsically disordered proteins.
+- **Visible evidence base** Textual descriptions of results, including quantitative metrics (e.g., AUROC 0.9014 on PocketMiner, sample-level success rate 72.62% on UniProtKB-IDP, MSE 0.6933, Pearson 0.9009, CI 0.8850 on affinity prediction), comparisons against named baselines, and methodological details in the Experimental Section.
+- **Missing materials affecting confidence** All figures (Figure 1-5), all tables (Tables 1, S1-S10), supplementary sections (S2-S8), and the GitHub repository contents. Without these, statistical significance, effect sizes, baseline configurations, and visual evidence for key claims cannot be independently verified.
 
 ## Reviewer
-- **Overall assessment** This manuscript presents an ambitious and technically sophisticated framework that attempts to unify three critical tasks in computational drug discovery. The core idea of using binding-site supervision to guide both affinity prediction and molecular generation is conceptually sound and addresses a genuine limitation in current methods. However, the manuscript suffers from several significant issues that undermine the strength of the claims. The most critical concern is the lack of a rigorous comparison against state-of-the-art methods under identical conditions, particularly for the molecular generation task where key baselines (e.g., REINVENT 2.0, PGMG) are not retrained on the same data. Additionally, the evaluation of site-specific affinity prediction relies on a single case study (CA2) with limited statistical power, and the generalization claims to cryptic pockets and IDPs are based on binding-site prediction alone, not on the full integrated tasks. The technical novelty, while present, is incremental over existing multi-task and pre-training approaches.
-- **Who would be interested in the results, and why** Computational chemists, medicinal chemists, and researchers in AI-driven drug discovery would be interested because the framework offers a unified approach to affinity prediction, binding-site identification, and molecular generation, which could streamline the drug design pipeline. The demonstrated ability to handle cryptic pockets and IDPs, even if only for binding-site prediction, is of particular interest to those working on challenging protein targets.
-- **Major strengths** 1. The unified multi-task framework is conceptually elegant and addresses a real need in the field. 2. The use of binding-site supervision to guide representation learning is a well-motivated approach that improves interpretability. 3. The extension to challenging protein classes (cryptic pockets, IDPs) is a valuable contribution. 4. The two-stage training strategy (pre-training on large-scale data, fine-tuning on curated data) is practical and well-justified.
-- **Major Concerns** 
+- **Overall assessment** The manuscript presents a technically ambitious and potentially valuable contribution to computational drug discovery. The idea of unifying affinity prediction, binding-site identification, and conditional generation within a single site-aware framework is timely and addresses a real limitation in existing sequence-based methods. The reported results, if reproducible, would represent a meaningful advance. However, the provided text alone is insufficient to fully evaluate the validity of the core claims. Several critical details regarding baseline fairness, statistical rigor, and the interpretation of key results are either missing or under-specified. The generalization claims to cryptic pockets and IDPs, while intriguing, rest on metrics that are not fully contextualized. The manuscript is well-written and the conceptual framing is clear, but the evidence base as presented does not yet fully establish the superiority or broad applicability of the proposed method.
+- **Who would be interested in the results, and why** Computational biologists, medicinal chemists, and AI researchers working on drug discovery. The unified framework is directly relevant to those developing deep learning models for virtual screening, de novo design, and binding-site prediction. The emphasis on interpretability and generalization to dynamic proteins would also appeal to structural biologists and researchers studying intrinsically disordered proteins or cryptic allosteric sites.
+- **Major Strengths** The conceptual unification of three distinct tasks within a single architecture is a clear strength. The explicit incorporation of binding-site supervision to guide representation learning is a well-motivated design choice. The inclusion of challenging test cases (cryptic pockets, IDPs) demonstrates an ambition beyond standard benchmarks. The use of external validation (docking) for site-specific affinity predictions adds a practical dimension. The writing is clear and the methodological rationale is well-articulated.
+- **Major Concerns** The concerns below detail issues with baseline fairness, statistical validation, and the interpretation of generalization results.
+- **Minor Comments** Several minor issues regarding clarity and reporting are listed below.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (baseline fairness), R1-M2 (statistical significance), R1-M3 (interpretation of generalization metrics), R1-M4 (novelty assessment).
+- **Assessment against Nature-style criteria** **Originality:** The unified site-aware framework is a novel combination of existing ideas (ESM-2, MolFormer, cross-attention, MoE, autoregressive generation). The specific mechanism of using binding-site prediction to constrain the latent interaction space appears original. However, the individual components are well-established, and the novelty lies in their integration. **Scientific importance:** If validated, the framework could streamline drug discovery pipelines by providing a single model for screening and design with interpretable outputs. The potential to handle dynamic proteins is scientifically important. **Interdisciplinary readership:** The topic is of high interest to both computational and experimental drug discovery communities. The writing is accessible to a broad scientific audience, though some familiarity with deep learning terminology is assumed. **Technical soundness:** The architecture is plausible, but the provided evidence is insufficient to fully assess soundness. Key concerns include baseline fairness, statistical rigor, and the interpretation of generalization metrics. **Readability for nonspecialists:** The abstract and introduction are clear. The results and methods sections are dense but generally comprehensible. The use of acronyms is heavy but standard for the field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results are encouraging, but the current evidence base does not fully establish the claims of superiority and broad applicability. A revised manuscript with more rigorous baseline comparisons, statistical validation, and clearer interpretation of generalization results would be needed to make a compelling case.
+
+### Major Concerns
+
 - **Concern ID** R1-M1
 - **Severity** Major
 - **Blocking** Yes
-- **Axis** Experimental design and fairness of comparison
-- **Claim pointer** "MolDBG achieved competitive performance across all three tasks" and "our approach consistently outperforms baselines across all three base tasks"
-- **Evidence pointer** Results sections (Drug-Target affinity Prediction Performance, Small Molecule-Protein Interaction Binding Sites Prediction Performance, Random Molecule Generation Performance)
-- **Concern** The baseline comparisons are fundamentally unfair. For the molecular generation task, the authors compare against models like REINVENT 2.0 and PGMG that were trained on different datasets (likely much larger or different chemical spaces) and report their published performance. The authors explicitly state that DeepDTAGen could not converge on the BioLip-BS dataset due to its small size, yet they compare MolDBG (pre-trained on 1.4M pairs) against models that were not pre-trained on the same data. For affinity prediction, all baselines are retrained on BioLip-BS, but this dataset is only 11,045 samples, which is extremely small for training deep learning models from scratch. The authors do not report whether these baselines were also pre-trained or if they were trained from scratch, creating an apples-to-oranges comparison. The claim of "outperforming" is not supported without controlling for training data size and pre-training strategy.
-- **Why it matters** The central claim of the paper is that MolDBG achieves superior or competitive performance. If the baselines are not evaluated under equivalent conditions (same training data, same pre-training if applicable), the comparison is invalid and the claims are unsupported. This undermines the entire results section.
-- **Resolution test** The authors must retrain all baseline models under identical conditions: either (a) pre-train all baselines on the same 1.4M BindingDB data before fine-tuning on BioLip-BS, or (b) train MolDBG from scratch on BioLip-BS without pre-training and compare against baselines trained from scratch. Alternatively, provide a clear ablation showing the contribution of pre-training by comparing MolDBG with and without pre-training against baselines with and without pre-training.
+- **Axis** Technical soundness
+- **Claim pointer** The claim that MolDBG "consistently outperforms baselines across all three base tasks" and achieves "competitive performance" in affinity prediction.
+- **Evidence pointer** Results section, Figure 2c-h, Table 1, Section S5, Table S4.
+- **Concern** The fairness of the baseline comparisons is not established. For affinity prediction, the baselines (DeepDTA, GraphDTA, WGNN-DTA, AttentionDTA, DTIAM, DeepDTAGen) are retrained on the BioLip-BS dataset. However, it is unclear if these baselines were given the same pre-training opportunities, hyperparameter tuning, or data augmentation (e.g., SMILES randomization) as MolDBG. For generation, the comparison set (PGMG, REINVENT 2.0, SyntaLinker, Pocket2Mol, DEVELOP, LS-MolGen) is heterogeneous, with some methods being structure-based and others sequence-based. The text notes DeepDTAGen was excluded due to convergence issues, which raises questions about the comparability of the training setup. Without a clear statement of the experimental protocol for each baseline, the reported improvements could be attributed to unfair advantages rather than architectural merit.
+- **Why it matters** The central claim of the paper is that the proposed framework is superior to existing methods. If the baselines are not optimally configured or fairly compared, the reported performance gains are not convincing. This is a fundamental issue that undermines the validity of the main conclusions.
+- **Resolution test** The authors should provide a detailed description of the training and evaluation protocol for each baseline, including hyperparameter search, pre-training strategies, and data augmentation. Ideally, they should also report results with baselines using their recommended settings from the original papers. A table summarizing the configuration of each baseline would be helpful.
 
 - **Concern ID** R1-M2
 - **Severity** Major
 - **Blocking** Yes
-- **Axis** Statistical rigor and validation
-- **Claim pointer** "MolDBG achieved a CI value of 0.7124 and a Pearson of 0.6010, indicating that the model possesses a robust ability to distinguish affinity variations across distinct binding sites"
-- **Evidence pointer** Site-Specific Affinity Prediction and the Discrimination of Regional Binding Variations section, Figure 3
-- **Concern** The site-specific affinity prediction evaluation is based on a single protein (CA2) with a limited number of binding sites. The authors report CI and Pearson values but do not provide confidence intervals, p-values, or any measure of statistical significance. The comparison against AutoDock Vina docking scores is problematic because Vina scores are not directly comparable to pKd/pIC50 values; the authors negate Vina scores to align correlation direction, but this transformation is not validated. Furthermore, the authors acknowledge a discrepancy between Site 2 and Site 20 but dismiss it as "acceptable" without quantitative justification. A single case study with 20-30 data points is insufficient to support the claim of "robust ability."
-- **Why it matters** The ability to discriminate binding affinities across different sites on the same protein is a key claimed advantage of MolDBG over global methods. Without rigorous statistical validation on multiple proteins and a larger number of binding sites, this claim remains anecdotal. The field requires systematic evaluation across diverse multi-site proteins.
-- **Resolution test** The authors should evaluate site-specific affinity prediction on at least 5-10 multi-site proteins from UniSite-DS, report per-protein and aggregate statistics with confidence intervals, and provide a statistical test (e.g., permutation test) to assess whether the correlation is significantly better than random. The comparison against docking should use a validated transformation or a common metric.
+- **Axis** Technical soundness
+- **Claim pointer** The claim that MolDBG achieves "competitive performance" in affinity prediction with MSE 0.6933, Pearson 0.9009, and CI 0.8850, and that it "consistently outperforms baselines."
+- **Evidence pointer** Results section, Figure 2c-h.
+- **Concern** No statistical significance testing is reported for the affinity prediction results. The text mentions "5-fold cross-validation" but does not provide standard deviations, confidence intervals, or p-values for the differences between MolDBG and the baselines. The observed improvements, particularly the 10% MSE reduction over MolDBG-Vanilla, could be within the range of random variation. The same issue applies to the binding-site prediction and generation metrics.
+- **Why it matters** Without statistical validation, it is impossible to determine if the reported improvements are meaningful or merely noise. This is a critical omission for a paper claiming superior performance.
+- **Resolution test** The authors should report the mean and standard deviation (or confidence intervals) for all metrics across the cross-validation folds. They should also perform appropriate statistical tests (e.g., paired t-test or Wilcoxon signed-rank test) to compare MolDBG against each baseline and report the resulting p-values.
 
 - **Concern ID** R1-M3
 - **Severity** Major
-- **Blocking** No
-- **Axis** Generalization claims vs. evidence
-- **Claim pointer** "The framework generalizes to structurally elusive targets, including cryptic pockets and intrinsically disordered proteins"
-- **Evidence pointer** Cryptic Pocket Proteins Binding Site Prediction and Disordered Protein Binding Sites Prediction sections, Figure 4b-e
-- **Concern** The generalization claims are based solely on binding-site prediction, not on the full integrated tasks of affinity prediction or molecular generation for these challenging targets. For cryptic pockets, the model achieves an AUROC of 0.9014 on PocketMiner, but this is a binding-site prediction benchmark, not a test of whether the model can predict affinity or generate molecules for cryptic pocket proteins. For IDPs, the model achieves an AUROC of 0.8187, but the authors note that most annotated sites bind nucleotides or coenzymes, not clinical drug molecules, and fewer than 15% involve drug molecules. The claim of generalization to "structurally elusive targets" for the full framework (affinity prediction and molecular design) is not supported by the evidence presented.
-- **Why it matters** The abstract and introduction frame MolDBG as a unified framework for all three tasks, and the generalization to challenging targets is a major selling point. If the evidence only supports binding-site prediction for these targets, the claims are overstated and misleading. Readers may assume the model can perform affinity prediction and molecular design for IDPs and cryptic pockets, which is not demonstrated.
-- **Resolution test** The authors should either (a) provide evidence of affinity prediction and/or molecular generation performance on cryptic pocket and IDP targets, or (b) explicitly qualify the claims to state that generalization is demonstrated only for binding-site prediction, and that affinity prediction and molecular generation for these targets remain to be validated.
+- **Blocking** Yes
+- **Axis** Scientific importance
+- **Claim pointer** The claim that MolDBG "generalizes to structurally elusive targets, including cryptic pockets and intrinsically disordered proteins."
+- **Evidence pointer** Results section, "Cryptic Pocket Proteins Binding Site Prediction" and "Disordered Protein Binding Sites Prediction", Figure 4b-e, Table S5.
+- **Concern** The interpretation of the results on cryptic pockets and IDPs is not fully convincing. For cryptic pockets, the comparison is made against the PocketMiner model, which is a specialized tool. The text reports an AUROC of 0.9014 for MolDBG versus 0.87 for PocketMiner, but it is unclear if this difference is statistically significant. More importantly, the text does not explain how MolDBG, a sequence-based method, can predict cryptic pockets that are defined by conformational changes. The claim that the model "generalizes" to these targets is not well-supported by the provided description. For IDPs, the text reports a sample-level success rate of 72.62% at a specific threshold, but the choice of threshold and the definition of "success" are not fully justified. The text also acknowledges that the IDP dataset contains mostly nucleotide or coenzyme binders, which may not be representative of drug-like molecules.
+- **Why it matters** The generalization to challenging targets is a key selling point of the paper. If the evidence for this claim is weak or misinterpreted, the broader impact of the work is diminished.
+- **Resolution test** The authors should provide a more detailed analysis of the cryptic pocket predictions, including a discussion of the mechanism by which a sequence-based model can identify conformationally hidden pockets. They should also report statistical significance for the AUROC comparison. For IDPs, they should justify the choice of threshold and provide a breakdown of performance by binder type (e.g., nucleotide vs. drug-like).
 
 - **Concern ID** R1-M4
 - **Severity** Major
 - **Blocking** No
-- **Axis** Novelty and conservatism in molecular generation
-- **Claim pointer** "MolDBG achieved performance comparable to PGMG and REINVENT 2.0 across multiple metrics" and "While the Novelty scores were modest, we attribute this primarily to minor overfitting"
-- **Evidence pointer** Random Molecule Generation Performance section, Table 1
-- **Concern** The authors report modest Novelty scores and attribute this to "minor overfitting" and the "inherent constraints" of target-specific generation. However, the novelty metric is critical for generative models: a model that generates molecules already in the training set is not truly designing new compounds. The authors do not provide a quantitative analysis of how many generated molecules are truly novel (i.e., not in any training or test set) versus simple variations of known molecules. The claim that "these results confirm the model's ability to generate valid drug candidates" is weakened if the generated molecules are largely known. Furthermore, the comparison against PGMG and REINVENT 2.0 is problematic because these models were not retrained on the same data (see R1-M1).
-- **Why it matters** The value of a generative model in drug discovery is its ability to propose novel, synthesizable molecules with desired properties. If the model primarily reproduces known molecules, its practical utility is limited. The authors need to provide a more rigorous analysis of novelty, including Tanimoto similarity to nearest training set molecules and a discussion of whether the generated molecules are truly novel or merely recombinations of known fragments.
-- **Resolution test** The authors should provide a detailed novelty analysis: (a) report the distribution of Tanimoto similarities between generated molecules and the nearest training set molecules, (b) provide examples of truly novel molecules (e.g., with Tanimoto < 0.4 to any training molecule), and (c) discuss whether the modest novelty is a fundamental limitation of the approach or can be addressed by future modifications.
+- **Axis** Originality
+- **Claim pointer** The claim that MolDBG is a "new model" and a "unified site-aware framework."
+- **Evidence pointer** Introduction, Results, Experimental Section.
+- **Concern** The novelty of the proposed framework is not fully established. The text cites prior work on multi-task learning for DTI prediction and generation (e.g., DeepDTAGen) and on binding-site prediction (e.g., LABind). The key innovation appears to be the integration of these tasks with explicit binding-site supervision. However, the text does not clearly articulate how this integration differs from or improves upon existing multi-task approaches. The use of ESM-2 and MolFormer as frozen encoders is standard practice. The MoE decoder for affinity prediction is a known technique. The authors should more clearly delineate the specific novel contributions of their architecture.
+- **Why it matters** For a high-impact journal, the novelty of the contribution must be clearly articulated. If the framework is largely a combination of existing components, the significance of the work is reduced.
+- **Resolution test** The authors should add a dedicated section or paragraph that explicitly states the novel contributions of their work, contrasting it with the closest existing methods (e.g., DeepDTAGen, LABind) and highlighting the specific design choices that lead to improved performance.
 
-- **Concern ID** R1-M5
-- **Severity** Major
-- **Blocking** No
-- **Axis** Interpretability and validation of binding-site predictions
-- **Claim pointer** "MolDBG explicitly models drug-target interactions and predicts binding sites concomitantly with molecule generation" and "the physical interaction sites determined by Vina docking exhibit a high degree of spatial overlap with the binding sites predicted by our model"
-- **Evidence pointer** Affinity-Based Conditional Molecular Design section, Figure 5g-l
-- **Concern** The claim of interpretability is supported by a qualitative comparison between MolDBG-predicted binding sites and Vina docking poses for two targets (EGFR and VEGFR2). However, the authors do not provide quantitative metrics (e.g., overlap coefficient, distance between predicted and docked residues) to support the claim of "high degree of spatial overlap." The visualization is limited to six molecules (three per target), which is insufficient to demonstrate general interpretability. Additionally, the use of Vina docking as a ground truth for binding sites is questionable because docking predictions can be inaccurate, especially for flexible targets.
-- **Why it matters** Interpretability is a key claimed advantage of MolDBG over black-box models. Without quantitative validation on a larger set of protein-ligand complexes, the interpretability claim remains anecdotal. The field needs rigorous benchmarks for evaluating interpretability, such as comparing predicted binding residues against crystallographic data.
-- **Resolution test** The authors should provide a quantitative evaluation of binding-site prediction accuracy for the generated molecules, using either (a) crystallographic data from the PDB for known complexes, or (b) a larger set of docking predictions with statistical measures (e.g., mean distance between predicted and docked residues, fraction of predicted residues within 5Å of docked ligand). A minimum of 50-100 protein-ligand pairs should be evaluated.
+### Minor Comments
 
-- **Minor Comments** 
 - **Concern ID** R1-m1
 - **Severity** Minor
-- **Axis** Clarity and completeness
+- **Axis** Clarity
 - **Affected element** Abstract
 - **Evidence pointer** Abstract
-- **Issue** The abstract states "MolDBG achieves competitive performance across all three tasks" but does not specify which metrics or datasets were used. This is too vague for a Nature-style abstract.
-- **Required correction** Include specific performance numbers (e.g., MSE, Pearson, AUROC) for at least the primary task in the abstract.
+- **Issue** The abstract states that MolDBG "achieves competitive performance across all three tasks" but does not provide any quantitative results. This is common for abstracts, but given the space constraints, a single headline metric (e.g., AUROC on PocketMiner) would strengthen the impact.
+- **Required correction** Consider adding one or two key quantitative results to the abstract to support the claims.
 
 - **Concern ID** R1-m2
 - **Severity** Minor
 - **Axis** Reproducibility
-- **Affected element** Experimental Section - Datasets
-- **Evidence pointer** Datasets section
-- **Issue** The authors state that the BioLip-BS dataset was constructed by "performing rigorous structure, sequence, and binding-site alignment checks on Q-BioLiP" but do not provide the exact filtering criteria or thresholds used. This makes it difficult for others to reproduce the dataset.
-- **Required correction** Provide the exact filtering criteria (e.g., sequence identity threshold, structure alignment RMSD cutoff, binding-site overlap requirement) in the main text or supplementary materials.
+- **Affected element** Experimental Section, "Training Details and Parameter Settings"
+- **Evidence pointer** Experimental Section
+- **Issue** The text mentions that the model was trained on 8 NVIDIA V100 GPUs for 5 days but does not provide the total number of parameters, the inference time, or the computational cost of the baseline models. This information is important for assessing the practical utility of the method.
+- **Required correction** Add a table or paragraph detailing the model size, training time, and inference speed for MolDBG and all baselines.
 
 - **Concern ID** R1-m3
-- **Severity** Minor
-- **Axis** Statistical reporting
-- **Affected element** Drug-Target affinity Prediction Performance section
-- **Evidence pointer** Figure 2c-h
-- **Issue** The authors report MSE, Pearson, and CI for MolDBG but do not provide standard deviations or confidence intervals for these metrics, even though 5-fold cross-validation was performed.
-- **Required correction** Report mean and standard deviation (or 95% confidence intervals) for all metrics across the 5 folds.
-
-- **Concern ID** R1-m4
-- **Severity** Minor
-- **Axis** Clarity of methodology
-- **Affected element** Model Architecture - Drug-Target Interaction Learning Module
-- **Evidence pointer** Equation 2 and surrounding text
-- **Issue** The LSQM module uses cross-attention with molecular embedding as Query and protein embedding as Key/Value. However, the authors do not explain how the "pseudo-ligand embedding" is generated for the molecular design task. They mention "random sampling" but do not specify the distribution or dimensionality.
-- **Required correction** Clearly specify the distribution (e.g., N(0,I)) and dimensionality of the pseudo-ligand embedding, and explain how it is sampled during training and inference.
-
-- **Concern ID** R1-m5
 - **Severity** Minor
 - **Axis** Data availability
 - **Affected element** Data Availability Statement
 - **Evidence pointer** Data Availability Statement
-- **Issue** The code repository URL is provided, but the authors do not state whether the data (BioLip-BS, processed BindingDB) will be made available. Given the complexity of dataset construction, this is essential for reproducibility.
-- **Required correction** State explicitly that all datasets (raw and processed) will be made available upon publication, and provide a plan for data deposition (e.g., Zenodo, Figshare).
+- **Issue** The statement says code and data are available at a GitHub link, but the link is not included in the provided text. Also, it is unclear if the BioLip-BS dataset is publicly available or if it is a new dataset created by the authors.
+- **Required correction** Include the full URL in the final version. Clarify the provenance of the BioLip-BS dataset and provide a detailed description of how it was constructed.
 
-- **Concern ID** R1-m6
+- **Concern ID** R1-m4
 - **Severity** Minor
-- **Axis** Overclaiming
-- **Affected element** Discussion
-- **Evidence pointer** Discussion section
-- **Issue** The authors state "MolDBG can not only predict affinity but also dynamically distinguish binding strengths across distinct pockets for the same ligand." This is supported by only a single case study (CA2), which is insufficient for such a strong claim.
-- **Required correction** Qualify the claim by adding "as demonstrated in a case study on Carbonic Anhydrase II" or provide additional validation.
+- **Axis** Interpretation
+- **Affected element** Results, "Site-Specific Affinity Prediction and the Discrimination of Regional Binding Variations"
+- **Evidence pointer** Results section
+- **Issue** The CA2 case study is interesting, but the text does not explain how the "perturbation window strategy" works in detail. The reader is left to infer the mechanism from the name alone.
+- **Required correction** Provide a brief description of the perturbation window strategy in the main text or refer the reader to a specific supplementary section.
 
-- **Technical failings that need to be addressed before the case is established** R1-M1 (unfair baseline comparison), R1-M2 (insufficient statistical validation for site-specific affinity prediction), R1-M3 (overclaimed generalization), R1-M4 (insufficient novelty analysis), R1-M5 (unvalidated interpretability claim)
-
-- **Assessment against Nature-style criteria** 
-  - **Originality**: Moderate. The idea of unifying affinity prediction, binding-site identification, and molecular generation in a single framework is not entirely novel (DeepDTAGen and other multi-task models exist), but the specific use of binding-site supervision to guide representation learning is a meaningful contribution. The extension to cryptic pockets and IDPs, while limited, adds some originality.
-  - **Scientific importance**: High. The problem of integrating multiple tasks in drug discovery is important, and the potential to improve interpretability and reduce false positives is valuable. However, the importance is diminished by the lack of rigorous validation and the overclaimed generalization.
-  - **Interdisciplinary readership**: Moderate. The work is relevant to computational chemistry, structural biology, and machine learning, but the technical depth and lack of clear biological validation may limit appeal to a broader audience.
-  - **Technical soundness**: Low to moderate. The methodology is well-motivated and technically sophisticated, but the experimental validation is flawed (unfair comparisons, insufficient statistics, overclaimed results). The technical soundness of the core claims is not established from the provided evidence.
-  - **Readability for nonspecialists**: Moderate. The manuscript is well-written and the concepts are explained clearly, but the heavy reliance on technical jargon and the lack of a clear summary of key results for a general audience are limitations.
-
-- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a promising framework with a sound conceptual basis, but the experimental validation is insufficient to support the major claims. The authors must address the critical concerns regarding baseline fairness, statistical rigor, and overclaimed generalization before the case can be considered established. A major revision with additional experiments and more careful claims is required.
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Clarity
+- **Affected element** Results, "Random Molecule Generation Performance"
+- **Evidence pointer** Results section
+- **Issue** The text states that MolDBG "surpassed PGMG by approximately 2.5% in validity" but does not provide the absolute values for either method. This makes it difficult to gauge the practical significance of the improvement.
+- **Required correction** Report the absolute values for all metrics in Table 1 and refer to them explicitly in the text.
 
 ## Risk / unsupported claims
-- "MolDBG achieves competitive performance across all three tasks" - unsupported due to unfair baseline comparisons (R1-M1)
-- "robust ability to distinguish affinity variations across distinct binding sites" - unsupported due to single case study and lack of statistical rigor (R1-M2)
-- "The framework generalizes to structurally elusive targets, including cryptic pockets and intrinsically disordered proteins" - unsupported for affinity prediction and molecular generation; only binding-site prediction is demonstrated (R1-M3)
-- "the physical interaction sites determined by Vina docking exhibit a high degree of spatial overlap with the binding sites predicted by our model" - unsupported due to lack of quantitative metrics and small sample size (R1-M5)
-- "MolDBG effectively generates drug candidates with specified binding affinities for given protein sequences" - partially supported but weakened by modest novelty scores and lack of rigorous novelty analysis (R1-M4)
+- The claim of "consistent outperformance" across all tasks is not supported without statistical significance testing and a clear description of baseline configurations.
+- The claim of generalization to cryptic pockets is not fully supported by the provided evidence, as the mechanism by which a sequence-based model predicts conformationally hidden pockets is not explained.
+- The claim of generalization to IDPs is based on a dataset where most binders are nucleotides or coenzymes, which may not be representative of drug-like molecules. The relevance of this result to drug discovery is not fully established.
+- The claim of "interpretable binding-site discovery" is plausible but not directly demonstrated in the text. The visualization in Figure 3 is referenced but not assessable.
+- The novelty of the framework relative to existing multi-task approaches is not clearly articulated, making it difficult to assess the originality of the contribution.

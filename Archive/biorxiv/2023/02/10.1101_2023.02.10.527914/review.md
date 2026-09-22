@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, contributions, acknowledgements) as provided in the submission
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with stated claims. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors report that the disordered N-terminal tail (NTD) of the SARS-CoV-2 Nucleocapsid protein forms a dynamic complex with RNA, increasing the binding affinity of the RNA Binding Domain (RBD) by approximately 50-fold. They propose that the NTD-RBD complex is a "fuzzy" complex, that binding is length-dependent, and that Omicron mutations in the NTD reduce binding affinity. These claims are supported by single-molecule FRET, ns-FCS, and coarse-grained simulations.
+- **Visible evidence base** Abstract, full introduction, full methods (protein expression, labeling, RNA preparation, instrumentation, analysis, simulations), full results (folding stability, nonspecific RNA binding, NTD-RBD binding, simulations, salt dependence, specific RNA binding, Omicron variant), full discussion, conclusions, contributions, acknowledgements. Figures and tables are referenced but not provided in the submitted text.
+- **Missing materials affecting confidence** Figures and tables (Figs. 1-9, Supplementary Figs. 1-12, Supplementary Tables 1-15) are referenced but not included. Raw single-molecule data, simulation trajectories, and analysis code are not directly assessable. The manuscript states data are deposited at a GitHub repository, but the contents are not reviewed here. The extended methods in Supplementary Information are not provided.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-designed and carefully executed study addressing an important question in SARS-CoV-2 biology: the role of the disordered N-terminal tail of the Nucleocapsid protein in RNA binding. The combination of single-molecule FRET, ns-FCS, and coarse-grained simulations is powerful and appropriate. The central claim, that the NTD enhances RBD affinity for RNA by approximately 50-fold and forms a dynamic complex, is well supported by the evidence described. The study is technically sound, and the conclusions are generally consistent with the data presented. However, the absence of figures and tables in the submitted material limits full verification of the quantitative claims. The manuscript would benefit from clearer presentation of the binding models and a more explicit discussion of the limitations of the coarse-grained simulations. Overall, this is a strong contribution that will interest the biophysics and virology communities.
+- **Who would be interested in the results, and why** Researchers studying SARS-CoV-2 molecular biology, particularly those focused on Nucleocapsid protein function and genome packaging. The work will also appeal to biophysicists interested in intrinsically disordered proteins, protein-nucleic acid interactions, and single-molecule methods. The finding that Omicron mutations alter RNA binding affinity has implications for understanding variant-specific differences in viral replication and may inform therapeutic development targeting N protein-RNA interactions.
+- **Major strengths** The study addresses a significant gap in understanding the role of disordered regions in N protein function. The combination of experimental and computational approaches is rigorous and complementary. The use of single-molecule methods to avoid ensemble averaging artifacts is a clear strength. The systematic variation of RNA length and sequence provides a thorough characterization of binding. The identification of a "fuzzy" complex and the length-dependent conformational response of the NTD are novel and important findings. The salt-dependence experiments provide mechanistic insight into the electrostatic nature of the interaction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim a 50-fold increase in binding affinity for NTD-RBD compared to RBD alone, and a contact site size of 12-25 nucleotides.
+  - **Evidence pointer** Results section "Binding of nonspecific RNA to RBD" and "Binding of nonspecific RNA to NTD-RBD"; Figures 3 and 4; Supplementary Tables 6-7
+  - **Concern** The quantitative claims of affinity enhancement and contact site size are central to the paper, but the figures and tables that would allow verification of these numbers are not provided in the submitted material. The text describes fits to binding models, but the quality of the fits, the scatter of the data, and the statistical uncertainties are not assessable. The authors report two different contact site sizes (12 ± 2 from Eq. 4 and 23 ± 2 from Eq. 5) and state the true value lies between them, but the rationale for this conclusion is not fully explained in the text.
+  - **Why it matters** The 50-fold affinity enhancement is the key quantitative finding of the paper. Without access to the primary data and fits, the reader cannot independently assess the robustness of this claim. The ambiguity in contact site size also needs clearer justification.
+  - **Resolution test** Provide the figures and tables, including representative FRET histograms, titration curves with fits, and the full table of binding constants with uncertainties. Clarify the reasoning for the range of contact site sizes and, if possible, provide a more precise estimate with confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors state that the NTD-RBD complex is a "fuzzy" complex and that the NTD remains dynamic upon RNA binding.
+  - **Evidence pointer** Results section "Binding of nonspecific RNA to NTD-RBD"; Figure 5; Supplementary Figures 2-4
+  - **Concern** The interpretation of the complex as "fuzzy" is based on ns-FCS measurements showing that the NTD reconfiguration time is only marginally affected by RNA binding. However, the text does not provide the actual reconfiguration times or the uncertainties associated with these measurements. The claim that the complex is dynamic is plausible, but the evidence is not fully presented. Additionally, the simulations are used to support this interpretation, but the limitations of the coarse-grained model in capturing the full dynamics of the system are not discussed.
+  - **Why it matters** The "fuzzy" complex model is a central conceptual contribution of the paper. If the evidence is not clearly presented, the interpretation may be seen as overreaching.
+  - **Resolution test** Provide the ns-FCS data, including autocorrelation curves and fitted reconfiguration times with uncertainties. Discuss the limitations of the coarse-grained simulations in capturing dynamic behavior and whether the simulations can distinguish between a "fuzzy" complex and other models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors propose that the NTD-RBD interaction mechanism enables the N protein to search the viral genome for high-affinity motifs.
+  - **Evidence pointer** Discussion section "The NTD-RBD region prefers single-stranded RNA" and "Conclusions"
+  - **Concern** The speculation that the dynamic complex enables genome searching is intriguing but is not directly tested in this study. The authors do not provide evidence that the NTD-RBD can diffuse along RNA or that the observed binding properties translate to the full-length N protein in the context of the viral genome. The connection between the in vitro findings and the in vivo function is speculative.
+  - **Why it matters** This speculation is presented as a potential functional implication of the work. If not clearly framed as a hypothesis, it may be misinterpreted as a demonstrated mechanism.
+  - **Resolution test** Clearly label this as a hypothesis and discuss alternative models. If possible, cite or discuss any evidence that the NTD-RBD can search along RNA or that the binding properties are conserved in the full-length protein.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states that the N protein is "responsible for condensation of the viral genome" without mentioning the role of other viral or host factors. This is an oversimplification.
+  - **Required correction** Rephrase to acknowledge that N protein is a key player in genome condensation, not the sole determinant.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Protein labeling
+  - **Evidence pointer** Methods, "Protein labeling"
+  - **Issue** The labeling efficiency and the position of the dyes relative to the binding site are not discussed. This could affect the FRET signal and the interpretation of conformational changes.
+  - **Required correction** Add a sentence describing the labeling efficiency and any control experiments performed to ensure that the dyes do not perturb binding or conformation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Binding constants
+  - **Evidence pointer** Results, "Binding of nonspecific RNA to RBD" and "Binding of nonspecific RNA to NTD-RBD"
+  - **Issue** The number of independent measurements (n) for each binding constant is not stated. The text mentions "at least two points" for statistical analysis, which is insufficient for a quantitative binding study.
+  - **Required correction** Report the number of independent experiments and the uncertainty for each binding constant.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Omicron variant
+  - **Evidence pointer** Results, "Omicron variant"
+  - **Issue** The authors report a 4-fold weaker binding affinity for the Omicron variant but do not discuss the potential structural basis for this effect beyond charge changes. The simulations are used to support the interpretation, but the specific residues involved are not identified.
+  - **Required correction** Discuss the specific residues affected by the Omicron mutations and how they might alter the electrostatic interactions with RNA.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "The NTD is essential for RBD function"
+  - **Issue** The discussion of the "fly-casting model" is brief and could be expanded to help non-specialist readers understand its relevance.
+  - **Required correction** Add a brief explanation of the fly-casting model and how the results support or refine it.
+- **Technical failings that need to be addressed before the case is established** The primary technical concern is the lack of access to the figures and tables that contain the quantitative data supporting the main claims. The binding constants, contact site sizes, and reconfiguration times are all reported in the text, but the underlying data are not visible. This must be addressed by providing the figures and tables in the manuscript or supplementary material. Additionally, the statistical treatment of the data (number of replicates, error bars, goodness-of-fit) needs to be clearly reported.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is original in its focus on the disordered NTD of the SARS-CoV-2 N protein and its contribution to RNA binding. While previous work has characterized the RBD, the role of the flanking disordered region has been underexplored. The finding that the NTD enhances affinity and forms a dynamic complex is novel.
+  - **Scientific importance** The work has significant implications for understanding SARS-CoV-2 genome packaging and the functional role of disordered regions in viral proteins. The finding that Omicron mutations alter binding affinity is relevant to understanding variant-specific differences in viral fitness.
+  - **Interdisciplinary readership** The work will appeal to researchers in virology, biophysics, and molecular biology. The combination of single-molecule methods and simulations is accessible to a broad audience, though some familiarity with FRET and coarse-grained modeling is assumed.
+  - **Technical soundness** The experimental design is sound, and the combination of methods is appropriate. The use of single-molecule methods to avoid ensemble averaging is a strength. However, the lack of access to the primary data limits full verification of the quantitative claims.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The introduction and discussion provide sufficient context for non-specialists. However, the methods section is dense and may be challenging for readers unfamiliar with single-molecule techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question and presents a compelling model. The main issues are the lack of access to the primary data and the need for clearer reporting of statistical details. Once these are addressed, the manuscript would be suitable for publication in a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that the NTD-RBD complex is a "fuzzy" complex is supported by the described data but cannot be fully verified without the ns-FCS data and simulation details.
+- The speculation that the dynamic complex enables genome searching is not directly tested and should be clearly framed as a hypothesis.
+- The claim that the Omicron mutations reduce binding affinity is supported by the described experiments, but the structural basis for this effect is not fully explored.
+- The contact site size estimate is presented as a range (12-25 nucleotides) with limited justification for the upper bound.
+- The statement that the NTD "increases the affinity of the RBD for RNA by about 50-fold" is a key quantitative claim that cannot be independently verified without the binding data.

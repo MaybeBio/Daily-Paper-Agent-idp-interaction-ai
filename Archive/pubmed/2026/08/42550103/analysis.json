@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42550103",
+  "title": "Potential structure induced effects of the hairpin motif in RNA to form the phase separated droplet like associate in different solution condition.",
+  "authors": "Mondal, Manas; Li, Maodong; Gao, Yi Qin",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2026-08-04",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用原子级增强采样模拟研究RNA发夹结构对无蛋白相分离凝聚体形成的影响，虽对象为RNA而非无序蛋白，但聚焦相分离机制的结构效应建模，对IDR介导的凝聚体互作机制研究有方法学启发。",
+  "abstract": "Reversible associations of RNAs among themselves, or with RNA binding proteins through the process of phase separation, are found to be important in many different cellular contexts, including cellular responses to stress, gene regulation, development, and disease. Short RNA repeat sequences, which are mostly linked with many repeat expansion neurodegenerative diseases, are found to undergo phase separation and yield protein-free biomolecular condensates in vitro and in cells. However, the physicochemical principles governing phase separation of RNAs considering both sequence and structural aspects, especially for short RNAs, remain elusive. It is intriguing, as well as challenging, to characterize the RNA phase behavior at a submolecular resolution. Based on atomistic enhanced sampling simulations, here we report potential dynamic structural effects in the mutual association properties of a tetra loop containing 14-mer hairpin RNA. We show that the folded and unfolded conformations of the hairpin fragment lead to different energetic barriers for the formation of an associated pair. Unfolded conformation leads to the formation of gel like energetically stable associated phases spontaneously; the folded hairpin motif is found to yield droplet like associated phases accompanying by cations in solution. Overall, our findings illustrate that dynamic association/dissociation is energetically more favorable for folded RNA hairpins, and the presence of additional salt in solution assists the formation of dense droplet like associated phases, while ionic concentration plays a critical role in the formation and stability of the droplet like associated phase. These observations open avenues for exploring structure-based phase separation mechanisms of RNAs in the context of RNA mediated functional biomolecular condensate formation within cells and designing RNA based novel biomaterials.",
+  "abstract_zh": "RNA之间或RNA与RNA结合蛋白通过相分离（phase separation）过程发生的可逆关联，在许多不同的细胞情境中被发现具有重要意义，包括细胞对压力的响应、基因调控、发育及疾病。短RNA重复序列，主要与多种重复扩增神经退行性疾病相关，被发现经历相分离并在体外和细胞内产生无蛋白的生物分子凝聚体。然而，控制RNA相分离的物理化学原理，同时考虑序列和结构方面，尤其是对于短RNA，仍然难以捉摸。在亚分子分辨率下表征RNA相行为既引人入胜又具有挑战性。基于原子级增强采样模拟，我们在此报告了含有14-mer发夹RNA的四环在相互关联特性中的潜在动态结构效应。我们表明，发夹片段的折叠和未折叠构象导致形成关联对的不同能垒。未折叠构象自发形成凝胶状能量稳定的关联相；折叠发夹基序被发现产生液滴状关联相，并伴随溶液中的阳离子。总体而言，我们的发现表明，动态关联/解离在能量上更有利于折叠RNA发夹，溶液中额外盐的存在有助于形成致密的液滴状关联相，而离子浓度在液滴状关联相的形成和稳定性中起关键作用。这些观察为探索基于结构的RNA相分离机制开辟了途径，在RNA介导的功能性生物分子凝聚体形成于细胞内的背景下，以及设计基于RNA的新型生物材料。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42550103/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42550103/",
+  "paper_page_path": "papers/pubmed/42550103/index.html"
+}

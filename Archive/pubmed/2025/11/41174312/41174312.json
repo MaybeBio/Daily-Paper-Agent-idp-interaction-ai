@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "41174312",
+    "doi": "10.1007/978-1-0716-4828-5_10",
+    "title": "Computational Identification of Potential Shape-Shifting Proteins from Structures."
+  },
+  "content": {
+    "abstract": "The \"one structure-one function\" paradigm is central to most computational methods for predicting protein function. However, a subset of proteins known as shape-shifters can adopt multiple well-defined structures to perform distinct biological functions. These proteins, along with intrinsically disordered proteins (IDPs) that fold upon binding, challenge conventional views of protein functionality. Despite their biological significance, identifying fold-switching proteins remains difficult due to limited structural data and the limitations of current prediction methods.In this study, we present a computational protocol to identify potential shape-shifting proteins within structural databases. By integrating structural and sequence data, this approach enables the screening of the Protein Data Bank (PDB) for proteins exhibiting significant conformational variability.",
+    "keywords": [
+      "Fold-switching",
+      "Function",
+      "Shape-shifting proteins",
+      "Structural alignment"
+    ],
+    "mesh_terms": [
+      "*Computational Biology/methods",
+      "*Intrinsically Disordered Proteins/chemistry/genetics",
+      "Protein Folding",
+      "Databases, Protein",
+      "*Protein Conformation",
+      "Sequence Alignment",
+      "Amino Acid Sequence",
+      "*Proteins/chemistry/genetics",
+      "Models, Molecular",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Cryoelectron Microscopy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Perez-Canales, Francisco M",
+        "Alanis-Dominguez, Enrique",
+        "Rojas, Ana M"
+      ],
+      "short_names": [
+        "Perez-Canales FM",
+        "Alanis-Dominguez E",
+        "Rojas AM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "CABD-CSIC, Computational Biology and Bioinformatics Group, Seville, Spain.",
+        "CABD-CSIC, Computational Biology and Bioinformatics Group, Seville, Spain.",
+        "CABD-CSIC, Computational Biology and Bioinformatics Group, Seville, Spain. a.rojas.m@csic.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pérez-Canales, Francisco M",
+        "short_name": "Pérez-Canales FM",
+        "identifiers": [],
+        "affiliations": [
+          "CABD-CSIC, Computational Biology and Bioinformatics Group, Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Alanís-Domínguez, Enrique",
+        "short_name": "Alanís-Domínguez E",
+        "identifiers": [],
+        "affiliations": [
+          "CABD-CSIC, Computational Biology and Bioinformatics Group, Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Rojas, Ana M",
+        "short_name": "Rojas AM",
+        "identifiers": [],
+        "affiliations": [
+          "CABD-CSIC, Computational Biology and Bioinformatics Group, Seville, Spain. a.rojas.m@csic.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/01 05:37",
+    "fetched_at": "2026-09-17 21:34:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34607199",
+      "32937108",
+      "32469061",
+      "29784778",
+      "29035372",
+      "27692984",
+      "26113641",
+      "23329690",
+      "22817892",
+      "21233849",
+      "20591649",
+      "19553204",
+      "19151095",
+      "18583598",
+      "18364395",
+      "18004789",
+      "16731699",
+      "15476259",
+      "15130475",
+      "14613939",
+      "13683522",
+      "12878003",
+      "10964570",
+      "9796821",
+      "6667333",
+      "3709526",
+      "2231712"
+    ],
+    "similar": [
+      "41174312",
+      "27115638",
+      "30554840",
+      "40074747",
+      "23466039",
+      "38079339",
+      "40131945",
+      "26387098",
+      "28365882",
+      "18831774",
+      "41309611",
+      "38987470",
+      "31756456",
+      "18542859",
+      "27159632",
+      "31441158",
+      "20221927",
+      "33310020",
+      "40823744",
+      "34390736",
+      "24010708",
+      "27844185",
+      "36782353",
+      "41174305",
+      "41022992",
+      "39196930",
+      "32771522",
+      "34358545",
+      "19462392",
+      "26387101",
+      "20684774",
+      "39214891",
+      "30657889",
+      "33875885",
+      "28369666",
+      "41053403",
+      "38226524",
+      "23142703",
+      "35507260",
+      "11588250",
+      "28952717",
+      "39952928",
+      "34626492",
+      "34418423",
+      "41028845",
+      "32599863",
+      "27548131",
+      "33269926",
+      "16960974",
+      "40081192",
+      "30527137",
+      "17387736",
+      "30819075",
+      "34265844",
+      "39475380",
+      "21617841",
+      "30066087",
+      "32696367",
+      "25287424",
+      "26513658",
+      "21301031",
+      "34830151",
+      "41028986",
+      "33248138",
+      "31783068",
+      "22505141",
+      "11584296",
+      "29595057",
+      "41534519",
+      "30352491",
+      "27787828",
+      "34845619",
+      "26790343",
+      "28104891",
+      "18604264",
+      "32135192",
+      "39158131",
+      "15009198",
+      "31479556",
+      "39392124",
+      "32914959",
+      "18818722",
+      "30717652",
+      "38166858",
+      "14579329",
+      "15850477",
+      "20170534",
+      "29136219",
+      "41082321",
+      "41241904",
+      "29990433",
+      "21098306",
+      "26178143",
+      "31606894",
+      "32901090",
+      "15133161",
+      "24204234",
+      "18075164",
+      "28076807",
+      "29982297"
+    ],
+    "review": [
+      "41174312",
+      "23466039",
+      "26387098",
+      "31441158",
+      "34390736",
+      "36782353",
+      "41022992",
+      "34358545",
+      "19462392",
+      "26387101",
+      "39214891",
+      "30657889",
+      "34418423",
+      "27548131",
+      "40081192",
+      "30527137",
+      "21617841",
+      "30066087",
+      "25287424",
+      "33248138",
+      "22505141",
+      "11584296",
+      "30352491",
+      "32135192",
+      "29982297"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-4828-5_10",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

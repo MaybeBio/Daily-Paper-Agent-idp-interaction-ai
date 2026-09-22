@@ -1,0 +1,1080 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.23.684059",
+  "title": "Intrinsically Disordered Protein Coating for Oral Delivery of Peptide Drugs",
+  "doi": "10.1101/2025.10.23.684059",
+  "abstract": "Advancing oral delivery of peptide therapeutics requires innovative materials that overcome gastrointestinal barriers. We introduce the first engineered synthetic intrinsically disordered protein (SynIDP) that self-assembles into an enteric coating, encapsulating peptide drugs to enhance gastric acid resistance and intestinal targeting. This SynIDP recapitulates the molecular design principles and phase transitions of native IDPs to exhibit temperature-controlled condensation and pH-controlled solidification—both transitions being reversible and precisely tuned to intestinal cues. Through detailed analysis of the kinetics of the liquid-to-solid phase transition, we achieve control over the nano-to-microscale morphology of the protein coating, optimizing drug encapsulation and protection. The coating protects peptide-based weight loss drugs for over 60 minutes in simulated gastric conditions, then dissolves to release the active compound. Oral delivery to obese mice results in more consistent weight loss compared to the unencapsulated drug. This modular protein-based coating is a promising platform technology for enhancing oral peptide drug delivery and improving patient compliance.",
+  "authors": [
+    "Max Ney",
+    "Parul Sirohi",
+    "Yulia Shmidov",
+    "Anurag Singh",
+    "Gable Wadsworth",
+    "Xinghai Li",
+    "James Zheng",
+    "Erica Peng",
+    "Lixin Fan",
+    "Tharun Selvam Mahendran",
+    "Sonal Deshpande",
+    "Navya Tripathi",
+    "Jonathan C. Su",
+    "Joshua James Milligan",
+    "Yun-Xing Wang",
+    "Priya R. Banerjee",
+    "Ashutosh Chilkoti"
+  ],
+  "published_date": "2025-10-24",
+  "updated_date": "2025-10-25T03:35:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioengineering",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.23.684059",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.23.684059.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioengineering"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioengineering",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T06:04:26Z",
+        "timestamp": 1782281066621,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            24
+          ]
+        ]
+      },
+      "group-title": "Bioengineering",
+      "reference-count": 77,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                24
+              ]
+            ],
+            "date-time": "2025-10-24T00:00:00Z",
+            "timestamp": 1761264000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100000057",
+          "name": "National Institute of General Medical Sciences",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "P30GM133893"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "P30GM133893"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000057",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "DOE Office of Biological and Environmental Research",
+          "award": [
+            "KP1605010"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "KP1605010"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NIH",
+          "award": [
+            "OD012331"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "OD012331"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "National Cancer Institute",
+          "award": [
+            "ZIA BC 010379, ZIC BC 011535, and ZIA BC 011669"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "ZIA BC 010379, ZIC BC 011535, and ZIA BC 011669"
+              ]
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000002",
+          "name": "National Institutes of Health",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "GM138186"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "GM138186"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000002",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100000181",
+          "name": "Air Force Office of Scientific Research",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "FA9550-20-1-0241"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "FA9550-20-1-0241"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100000181",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100006510",
+          "name": "Duke University",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "Beyond the Horizons grant"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "Beyond the Horizons grant"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100006510",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            24
+          ]
+        ]
+      },
+      "abstract": "<jats:title>\n                  <jats:bold>Abstract</jats:bold>\n                </jats:title>\n                <jats:p>Advancing oral delivery of peptide therapeutics requires innovative materials that overcome gastrointestinal barriers. We introduce the first engineered synthetic intrinsically disordered protein (SynIDP) that self-assembles into an enteric coating, encapsulating peptide drugs to enhance gastric acid resistance and intestinal targeting. This SynIDP recapitulates the molecular design principles and phase transitions of native IDPs to exhibit temperature-controlled condensation and pH-controlled solidification—both transitions being reversible and precisely tuned to intestinal cues. Through detailed analysis of the kinetics of the liquid-to-solid phase transition, we achieve control over the nano-to-microscale morphology of the protein coating, optimizing drug encapsulation and protection. The coating protects peptide-based weight loss drugs for over 60 minutes in simulated gastric conditions, then dissolves to release the active compound. Oral delivery to obese mice results in more consistent weight loss compared to the unencapsulated drug. This modular protein-based coating is a promising platform technology for enhancing oral peptide drug delivery and improving patient compliance.</jats:p>",
+      "DOI": "10.1101/2025.10.23.684059",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            25
+          ]
+        ],
+        "date-time": "2025-10-25T03:35:15Z",
+        "timestamp": 1761363315000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Intrinsically Disordered Protein Coating for Oral Delivery of Peptide Drugs"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-8244-1683",
+          "authenticated-orcid": false,
+          "given": "Max",
+          "family": "Ney",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5791-3383",
+          "authenticated-orcid": false,
+          "given": "Parul",
+          "family": "Sirohi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4152-0670",
+          "authenticated-orcid": false,
+          "given": "Yulia",
+          "family": "Shmidov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anurag",
+          "family": "Singh",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0417-9613",
+          "authenticated-orcid": false,
+          "given": "Gable",
+          "family": "Wadsworth",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xinghai",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "James",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Erica",
+          "family": "Peng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lixin",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7536-1236",
+          "authenticated-orcid": false,
+          "given": "Tharun Selvam",
+          "family": "Mahendran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3055-0065",
+          "authenticated-orcid": false,
+          "given": "Sonal",
+          "family": "Deshpande",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Navya",
+          "family": "Tripathi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan C.",
+          "family": "Su",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joshua James",
+          "family": "Milligan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yun-Xing",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6169-1461",
+          "authenticated-orcid": false,
+          "given": "Priya R.",
+          "family": "Banerjee",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1569-2228",
+          "authenticated-orcid": false,
+          "given": "Ashutosh",
+          "family": "Chilkoti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "issue": "1",
+          "key": "2025102811101186000_2025.10.23.684059v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "74",
+          "DOI": "10.1038/s41392-024-02107-5",
+          "article-title": "Advance in peptide-based drug development: delivery platforms, therapeutics and vaccines",
+          "volume": "10",
+          "year": "2025",
+          "journal-title": "Signal Transduct Target Ther"
+        },
+        {
+          "issue": "5",
+          "key": "2025102811101186000_2025.10.23.684059v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "513",
+          "DOI": "10.1111/bcpt.13169",
+          "article-title": "Exendin-4 from Heloderma suspectum venom: From discovery to its latest application as type II diabetes combatant",
+          "volume": "124",
+          "year": "2019",
+          "journal-title": "Basic Clin Pharmacol Toxicol"
+        },
+        {
+          "issue": "12",
+          "key": "2025102811101186000_2025.10.23.684059v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1571",
+          "DOI": "10.1007/s40262-018-0649-2",
+          "article-title": "Pharmacokinetics, Safety and Tolerability of Oral Semaglutide in Subjects with Renal Impairment",
+          "volume": "57",
+          "year": "2018",
+          "journal-title": "Clin Pharmacokinet"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41573-020-00135-8"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.06.006"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-020-00326-6"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-018-0050-8"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09902-7"
+        },
+        {
+          "issue": "6",
+          "key": "2025102811101186000_2025.10.23.684059v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "463",
+          "DOI": "10.1038/s41594-018-0064-2",
+          "article-title": "Atomic structures of TDP-43 LCD segments and insights into reversible or pathogenic aggregation",
+          "volume": "25",
+          "year": "2018",
+          "journal-title": "Nat Struct Mol Biol"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-52681-z"
+        },
+        {
+          "issue": "31",
+          "key": "2025102811101186000_2025.10.23.684059v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "6546",
+          "DOI": "10.1002/adma.201505961",
+          "article-title": "Amyloid Fibrils as Building Blocks for Natural and Artificial Functional Materials",
+          "volume": "28",
+          "year": "2016",
+          "journal-title": "Adv Mater"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-30521-2"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41567-024-02558-1"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2025.05.011"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bm4007166"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bm034215n"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp8062977"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "MacEwan, S.R. , W. Hassouneh , and A. Chilkoti , Non-chromatographic purification of recombinant elastin-like polypeptides and their fusions with peptides and proteins from Escherichia coli. J Vis Exp, 2014(88).",
+          "DOI": "10.3791/51583-v"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1432-1327.1998.2580001.x"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr010167q"
+        },
+        {
+          "issue": "14",
+          "key": "2025102811101186000_2025.10.23.684059v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1876",
+          "DOI": "10.1016/j.devcel.2024.04.018",
+          "article-title": "An evolutionarily conserved mechanism controls reversible amyloids of pyruvate kinase via pH-sensing regions",
+          "volume": "59",
+          "year": "2024",
+          "journal-title": "Dev Cell"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.07.047"
+        },
+        {
+          "issue": "1",
+          "key": "2025102811101186000_2025.10.23.684059v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "6620",
+          "DOI": "10.1038/s41467-021-26733-7",
+          "article-title": "Programmable viscoelasticity in protein-RNA condensates with disordered sticker-spacer polypeptides",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.adi6539"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mahendran, T.S. , et al., Homotypic RNA clustering accompanies a liquid-to-solid transition inside the core of multi-component biomolecular condensates. Nature Chemistry, 2025: p. 1–11.",
+          "DOI": "10.1038/s41557-025-01847-3"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Mahendran, T.S. , et al., Decoupling Phase Separation and Fibrillization Preserves Activity of Biomolecular Condensates. bioRxiv, 2025.",
+          "DOI": "10.1101/2025.03.18.643977"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2021.01.005"
+        },
+        {
+          "issue": "7",
+          "key": "2025102811101186000_2025.10.23.684059v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "1076",
+          "DOI": "10.1038/s41589-024-01828-6",
+          "article-title": "Expanding the molecular grammar of polar residues and arginine in FUS phase separation",
+          "volume": "21",
+          "year": "2025",
+          "journal-title": "Nat Chem Biol"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.10153"
+        },
+        {
+          "issue": "16",
+          "key": "2025102811101186000_2025.10.23.684059v1.30",
+          "first-page": "7509",
+          "article-title": "Delineation of electrostatic– and hydrophobic-induced pKa shifts in polypentapeptides: the glutamic acid residue",
+          "volume": "115",
+          "year": "2002",
+          "journal-title": "Journal of the American Chemical Society"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-36059-1"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Milligan, J.J. , et al., Controlling Release Kinetics of an Adjuvant from a Depot Improves the Efficacy of Local Immunotherapy in Metastatic Cancer. Adv Sci (Weinh), 2025: p. e03591.",
+          "DOI": "10.1002/advs.202503591"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41567-022-01917-0"
+        },
+        {
+          "issue": "8",
+          "key": "2025102811101186000_2025.10.23.684059v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "4646",
+          "DOI": "10.1021/la063664g",
+          "article-title": "Fractal-type particle gel formed from gelatin + starch solution",
+          "volume": "23",
+          "year": "2007",
+          "journal-title": "Langmuir"
+        },
+        {
+          "issue": "1",
+          "key": "2025102811101186000_2025.10.23.684059v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "4390",
+          "DOI": "10.1038/s41598-022-08130-2",
+          "article-title": "Kinetic interplay between droplet maturation and coalescence modulates shape of aged protein condensates",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2119800119"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jsb.2004.11.008"
+        },
+        {
+          "issue": "51",
+          "key": "2025102811101186000_2025.10.23.684059v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2220755120",
+          "DOI": "10.1073/pnas.2220755120",
+          "article-title": "Nanocolloidal hydrogel mimics the structure and nonlinear mechanical properties of biological fibrous networks",
+          "volume": "120",
+          "year": "2023",
+          "journal-title": "Proc Natl Acad Sci U S A"
+        },
+        {
+          "issue": "1",
+          "key": "2025102811101186000_2025.10.23.684059v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "55",
+          "DOI": "10.2174/138920312799277901",
+          "article-title": "How random are intrinsically disordered proteins? A small angle scattering perspective",
+          "volume": "13",
+          "year": "2012",
+          "journal-title": "Current Protein and Peptide Science"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.40",
+          "unstructured": "Guinier, A. , et al., Small-angle Scattering of X-rays. 1955: Wiley New York."
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.41",
+          "unstructured": "Glatter, O ., Small angle X-ray scattering. (No Title), 1982."
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ma00171a050"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0129076"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1117/1.JBO.25.9.095001"
+        },
+        {
+          "issue": "4",
+          "key": "2025102811101186000_2025.10.23.684059v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "1738",
+          "DOI": "10.1021/acs.chemrev.3c00573",
+          "article-title": "Design and Application of Fluorescent Probes to Detect Cellular Physical Microenvironments",
+          "volume": "124",
+          "year": "2024",
+          "journal-title": "Chemical Reviews"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1364/OE.23.029342"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Twarog, C. , et al., Intestinal Permeation Enhancers for Oral Delivery of Macromolecules: A Comparison between Salcaprozate Sodium (SNAC) and Sodium Caprate (C(10)). Pharmaceutics, 2019. 11(2).",
+          "DOI": "10.3390/pharmaceutics11020078"
+        },
+        {
+          "issue": "1",
+          "key": "2025102811101186000_2025.10.23.684059v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "569",
+          "DOI": "10.1080/10717544.2017.1279238",
+          "article-title": "pH-Responsive carriers for oral drug delivery: challenges and opportunities of current platforms",
+          "volume": "24",
+          "year": "2017",
+          "journal-title": "Drug Deliv"
+        },
+        {
+          "issue": "10403",
+          "key": "2025102811101186000_2025.10.23.684059v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "693",
+          "DOI": "10.1016/S0140-6736(23)01127-3",
+          "article-title": "Efficacy and safety of once-daily oral semaglutide 25 mg and 50 mg compared with 14 mg in adults with type 2 diabetes (PIONEER PLUS): a multicentre, randomised, phase 3b trial",
+          "volume": "402",
+          "year": "2023",
+          "journal-title": "Lancet"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.50",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rakhat, Y. , et al., Oral Semaglutide under Human Protocols and Doses Regulates Food Intake, Body Weight, and Glycemia in Diet-Induced Obese Mice. Nutrients, 2023. 15(17).",
+          "DOI": "10.3390/nu15173765"
+        },
+        {
+          "issue": "2",
+          "key": "2025102811101186000_2025.10.23.684059v1.51",
+          "doi-asserted-by": "crossref",
+          "first-page": "127",
+          "DOI": "10.1038/s41578-019-0156-6",
+          "article-title": "Materials for oral delivery of proteins and peptides",
+          "volume": "5",
+          "year": "2019",
+          "journal-title": "Nature Reviews Materials"
+        },
+        {
+          "issue": "11",
+          "key": "2025102811101186000_2025.10.23.684059v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "9704",
+          "DOI": "10.1021/jacs.4c17880",
+          "article-title": "Extreme pH Tolerance in Peptide Coacervates Mediated by Multivalent Hydrogen Bonds for Enzyme-Triggered Oral Drug Delivery",
+          "volume": "147",
+          "year": "2025",
+          "journal-title": "J Am Chem Soc"
+        },
+        {
+          "issue": "43",
+          "key": "2025102811101186000_2025.10.23.684059v1.53",
+          "doi-asserted-by": "crossref",
+          "first-page": "58370",
+          "DOI": "10.1021/acsami.4c13792",
+          "article-title": "Biomolecular Condensates Based on Amino Acid for Enhancing Oral Bioavailability and Therapeutic Efficacy of Hydrophobic Drugs",
+          "volume": "16",
+          "year": "2024",
+          "journal-title": "ACS Appl Mater Interfaces"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.54",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rose Galvan, A. , et al., Peptide Coacervates Can Protect Sequestered Oligonucleotides from Nucleases and Release Them for Transcription and Translation. Biomacromolecules, 2025.",
+          "DOI": "10.1021/acs.biomac.5c00600"
+        },
+        {
+          "issue": "9",
+          "key": "2025102811101186000_2025.10.23.684059v1.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "1465",
+          "DOI": "10.1038/s41563-025-02300-z",
+          "article-title": "Adaptive peptide dispersions enable drying-induced biomolecule encapsulation",
+          "volume": "24",
+          "year": "2025",
+          "journal-title": "Nat Mater"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2023.10.009"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2301366120"
+        },
+        {
+          "issue": "5",
+          "key": "2025102811101186000_2025.10.23.684059v1.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "756",
+          "DOI": "10.1038/s41557-025-01762-7",
+          "article-title": "Aging-dependent evolving electrochemical potentials of biomolecular condensates regulate their physicochemical activities",
+          "volume": "17",
+          "year": "2025",
+          "journal-title": "Nat Chem"
+        },
+        {
+          "issue": "6",
+          "key": "2025102811101186000_2025.10.23.684059v1.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "1594",
+          "DOI": "10.1016/j.chempr.2023.04.001",
+          "article-title": "Interface of biomolecular condensates modulates redox reactions",
+          "volume": "9",
+          "year": "2023",
+          "journal-title": "Chem"
+        },
+        {
+          "issue": "10",
+          "key": "2025102811101186000_2025.10.23.684059v1.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "8267",
+          "DOI": "10.1021/jacs.4c15532",
+          "article-title": "Transition-State-Dependent Spontaneous Generation of Reactive Oxygen Species by Abeta Assemblies Encodes a Self-Regulated Positive Feedback Loop for Aggregate Formation",
+          "volume": "147",
+          "year": "2025",
+          "journal-title": "J Am Chem Soc"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.abb6030"
+        },
+        {
+          "issue": "5",
+          "key": "2025102811101186000_2025.10.23.684059v1.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "496",
+          "DOI": "10.1038/s41557-018-0005-z",
+          "article-title": "Genetically encoded lipid-polypeptide hybrid biomaterials that exhibit temperature-triggered hierarchical self-assembly",
+          "volume": "10",
+          "year": "2018",
+          "journal-title": "Nat Chem"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41563-018-0182-6"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.64",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sim, P. , et al., Influence of Acidic pH on Wound Healing In Vivo: A Novel Perspective for Wound Treatment. Int J Mol Sci, 2022. 23(21).",
+          "DOI": "10.3390/ijms232113655"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-17756-7"
+        },
+        {
+          "issue": "6",
+          "key": "2025102811101186000_2025.10.23.684059v1.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "787",
+          "DOI": "10.1038/s41551-024-01178-7",
+          "article-title": "Severely polarized extracellular acidity around tumour cells",
+          "volume": "8",
+          "year": "2024",
+          "journal-title": "Nat Biomed Eng"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12866-019-1388-8"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/ddr.1195"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s40262-018-0668-z"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bm901387t"
+        },
+        {
+          "issue": "11",
+          "key": "2025102811101186000_2025.10.23.684059v1.71",
+          "doi-asserted-by": "crossref",
+          "first-page": "892",
+          "DOI": "10.2174/1389200219666180628171531",
+          "article-title": "Metabolism of Peptide Drugs and Strategies to Improve their Metabolic Stability",
+          "volume": "19",
+          "year": "2018",
+          "journal-title": "Curr Drug Metab"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.72",
+          "unstructured": "Administration, U.S.F.a.D., Guidance for Industry: Pyrogen and Endotoxins Testing: Questions and Answers."
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.mie.2020.06.009"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2019.08.030"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2016.09.016"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0021889809002222"
+        },
+        {
+          "key": "2025102811101186000_2025.10.23.684059v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.yrtph.2003.11.003"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.10.23.684059",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:14:53Z",
+        "timestamp": 1782278093000
+      },
+      "score": 70.819176,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.10.23.684059"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            24
+          ]
+        ]
+      },
+      "references-count": 77,
+      "URL": "https://doi.org/10.1101/2025.10.23.684059",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.celbio.2026.100460",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            10,
+            24
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

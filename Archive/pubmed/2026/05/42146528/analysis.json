@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42146528",
+  "title": "A Phosphorylation Switch Modulates Configurational Codes in the Oncofetal IGF2BP RNA Binding Paralogs.",
+  "authors": "Kaushik, Vikas; Sanjayan, Vaishnavi; Mattice, Jenna; Tokmina-Lukaszewska, Monika; Torner, Ricarda; Chadda, Rahul; Kashyap, Rajnandani; Vayyeti, Abhinav; Roy, Pralambika; Mehl, Ryan A; Cooley, Richard B; Sigurdsson, Snorri Th; Dastvan, Reza; Arthanari, Haribabu; Bothner, Brian B; Origanti, Sofia; Antony, Edwin",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-05-18",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究IGF2BP RNA结合蛋白中无序连接区内的磷酸化开关如何重排结构域构象，虽非直接PPI但聚焦IDR介导的构象调控与RNA结合机制，结合位点特异性磷酸化与生物物理方法，对无序蛋白互作机制建模有启发。",
+  "abstract": "The insulin-like growth factor 2 mRNA-binding proteins (IGF2BP1-3) are oncofetal RNA regulators that control translation, stability, and localization of several transcripts, yet display paralog-specific functions despite high structural similarity. Each paralog contains six RNA-binding domains (two RRMs and four KH domains) linked by intrinsically disordered segments. mTORC2 phosphorylates IGF2BP1 and IGF2BP3 at a single conserved serine within the disordered linker between the RRM2 and KH1 domains, a modification required for proper regulation of mRNA translational fate. Pairing site-specific phosphoserine incorporation with structural and biophysical interrogations, we show that this phosphorylation acts as a configurational switch that reorganizes long-range arrangements of RNA-binding domains and linkers without altering the secondary structure, and with only modest effects on RNA-binding affinity. Critically, pSer-driven rearrangements occur both in the RNA-free state and upon RNA engagement, and the resulting architectures differ markedly between IGF2BP1 and IGF2BP3 despite >70% sequence identity. These paralog-specific, phosphorylation-dependent configurational landscapes likely underlie differences in mRNA recognition modes and functional outcomes. Our work identifies a post-translational mechanism that tunes IGF2BP paralog dynamics across free and RNA-bound states to program target mRNA selection, processing, and translational fate.",
+  "abstract_zh": "胰岛素样生长因子2 mRNA结合蛋白（IGF2BP1-3）是一类癌胚RNA调控因子，控制多种转录本的翻译、稳定性和定位，尽管结构高度相似，却表现出旁系同源物特异性功能。每个旁系同源物包含六个RNA结合结构域（两个RRM和四个KH结构域），由 intrinsically disordered 区段连接。mTORC2在RRM2和KH1结构域之间的无序连接区内的一个保守丝氨酸位点磷酸化IGF2BP1和IGF2BP3，这一修饰是mRNA翻译命运正确调控所必需的。通过将位点特异性磷酸丝氨酸掺入与结构和生物物理探究相结合，我们表明这种磷酸化作为一种构象开关，重组RNA结合结构域和连接区的长程排布，而不改变二级结构，且对RNA结合亲和力仅有适度影响。关键的是，pSer驱动的重排既发生在无RNA状态下，也发生在RNA结合时，并且尽管序列同一性超过70%，IGF2BP1和IGF2BP3之间产生的架构显著不同。这些旁系同源物特异性、磷酸化依赖的构象景观可能构成mRNA识别模式和功能结果差异的基础。我们的工作识别了一种翻译后机制，该机制调节IGF2BP旁系同源物在游离和RNA结合状态下的动态，以编程目标mRNA的选择、加工和翻译命运。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42146528/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42146528/",
+  "paper_page_path": "papers/pubmed/42146528/index.html"
+}

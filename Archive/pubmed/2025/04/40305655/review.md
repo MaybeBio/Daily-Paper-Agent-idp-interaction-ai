@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom enhanced-sampling MD simulations to show that mRNA A2RE11 inhibits phase separation of the hnRNPA2 low complexity domain by disrupting aromatic stacking, hydrogen bonding, and cation-pi interchain interactions, and use coarse-grained phase coexistence simulations to support the role of aromatic and cation-pi interactions in phase behavior and RNA binding.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or validation data are provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field choices, convergence criteria, system setup, error estimates, comparison with experimental data, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible multiscale simulation study addressing a mechanistically important question, namely how RNA inhibits phase separation of hnRNPA2 LCD. The proposed mechanism, involving disruption of aromatic and cation-pi interactions, is consistent with prior experimental observations and is scientifically interesting. However, the abstract alone provides no quantitative evidence, no methodological detail, and no validation against experimental data. The central claims are therefore not assessable from the supplied material. The work may be of value to the biomolecular condensate community, but the case is currently not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, RNA-binding proteins, and biomolecular condensates, particularly those interested in the molecular determinants of condensate formation and dissolution. The findings could also interest computational biophysicists developing and applying multiscale simulation approaches to disordered proteins and nucleic acid interactions.
+- **Major strengths** The study addresses a mechanistically important and experimentally motivated question. The use of multiscale simulations, combining all-atom enhanced sampling with coarse-grained phase coexistence simulations, is a reasonable strategy to bridge molecular detail and phase behavior. The proposed mechanism is specific and testable, and the focus on aromatic and cation-pi interactions aligns with established knowledge of LCD-driven phase separation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that A2RE11 "undermines the degree of collapse of the single-chain LCD and disrupts the aromatic stacking, hydrogen bonding, and cation-pi interchain interactions."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are presented to support this claim. The abstract does not report any numerical measures of chain collapse, interaction energies, contact probabilities, or comparative values between RNA-bound and RNA-free states. Without such data, the claim is an assertion rather than a demonstrated result.
+  - **Why it matters** The central mechanistic conclusion rests on this claim. If the supporting data are not robust or are not clearly presented, the conclusion cannot be evaluated or reproduced by readers.
+  - **Resolution test** Provide quantitative results, such as radius of gyration distributions, interaction energy decompositions, or contact frequency maps, with appropriate error estimates, comparing systems with and without A2RE11.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "all-atom-enhanced sampling molecular dynamics (MD) simulations" and "coarse-grained phase coexistence MD simulations" were used.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given on force fields, water models, salt conditions, system size, simulation length, enhanced sampling method, or coarse-grained model parametrization. Without this information, the reliability and reproducibility of the simulations cannot be assessed.
+  - **Why it matters** Simulation results are highly sensitive to methodological choices. The absence of these details prevents assessment of technical soundness and limits the ability of others to reproduce or build on the work.
+  - **Resolution test** Include a full methods section with all relevant parameters, and justify key choices with references or validation tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation against experiment
+  - **Claim pointer** The abstract claims that the simulations "lead to a greater appreciation of the complex interaction network underlying the phase separation and RNA-protein interaction of the hnRNPA2 LCD."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No comparison with experimental data is presented. The abstract mentions prior experiments reporting RNA inhibition of LLPS, but does not show whether the simulation results quantitatively or qualitatively match those observations, such as changes in saturation concentration, condensate stability, or binding affinities.
+  - **Why it matters** Without experimental validation, the biological relevance of the simulation findings remains uncertain. The claim of mechanistic insight is weakened if the model is not shown to reproduce known experimental behavior.
+  - **Resolution test** Compare simulation-derived observables, such as binding affinities, interaction energies, or phase boundaries, with available experimental measurements, and discuss any discrepancies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "preeminence" is vague and not operationally defined. It is unclear whether this refers to energetic dominance, structural importance, or something else.
+  - **Required correction** Replace with a specific quantitative statement, such as the relative contribution of each interaction type to phase behavior or binding affinity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Sequence and construct details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify which residues or motifs of the hnRNPA2 LCD are included in the simulations, nor the exact sequence of A2RE11. This limits the ability to interpret the specificity of the proposed interactions.
+  - **Required correction** State the construct boundaries and the RNA sequence used in the simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Uncertainty reporting
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No error bars, standard deviations, or replicate information are mentioned. It is unclear whether the reported effects are statistically robust.
+  - **Required correction** Report uncertainties and the number of independent simulations or replicas used for each condition.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central mechanistic claim is unsupported by quantitative data, the methodology is not described, and no experimental validation is provided. These are necessary for the case to be established.
+- **Assessment against Nature-style criteria** Originality: The question is timely and the proposed mechanism is plausible, but the abstract does not demonstrate a conceptually novel finding beyond what prior experiments and simulations might suggest. Scientific importance: The topic is of high importance to the condensate field, but the significance of the specific claim cannot be evaluated without data. Interdisciplinary readership: The work could appeal to biophysicists, biochemists, and cell biologists, but the abstract is written in a way that is accessible to specialists only. Technical soundness: Not assessable from the abstract due to missing methodological detail. Readability for nonspecialists: The abstract is concise but assumes familiarity with phase separation and simulation terminology; it is not written for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The study may be sound and valuable, but the abstract alone does not provide sufficient quantitative or methodological support for the central claims. A full manuscript with detailed methods, results, and validation would be required for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that A2RE11 "undermines the degree of collapse" of the single-chain LCD is unsupported by any quantitative data in the abstract.
+- The claim that A2RE11 disrupts aromatic stacking, hydrogen bonding, and cation-pi interchain interactions is unsupported by any quantitative data in the abstract.
+- The claim that coarse-grained simulations "underscore the preeminence" of aromatic and cation-pi interactions is unsupported by any comparative or quantitative evidence in the abstract.
+- The overall claim of mechanistic insight into RNA inhibition of hnRNPA2 LCD phase separation is not assessable from the abstract alone.

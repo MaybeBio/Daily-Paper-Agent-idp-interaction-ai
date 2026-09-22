@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37100914",
+  "title": "Visualizing the disordered nuclear transport machinery in situ.",
+  "authors": "Yu, Miao; Heidari, Maziar; Mikhaleva, Sofya; Tan, Piau Siong; Mingu, Sara; Ruan, Hao; Reinkemeier, Christopher D; Obarska-Kosinska, Agnieszka; Siggel, Marc; Beck, Martin; Hummer, Gerhard; Lemke, Edward A",
+  "journal": "Nature",
+  "published_date": "2023-04-27",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合位点特异性标记、高时间分辨荧光与粗粒化分子模拟，在活细胞/透化细胞中直接可视化核孔复合物内FG-NUP98无序蛋白的构象，揭示其‘良溶剂’环境并阐明其介导核质转运的机制，对象、互作（转运通道内无序蛋白功能）与物理模拟方法齐备，且聚焦无序蛋白原位构象-功能关系，对IDR介导互作机制建模有直接启发。",
+  "abstract": "The approximately 120 MDa mammalian nuclear pore complex (NPC) acts as a gatekeeper for the transport between the nucleus and cytosol(1). The central channel of the NPC is filled with hundreds of intrinsically disordered proteins (IDPs) called FG-nucleoporins (FG-NUPs)(2,3). Although the structure of the NPC scaffold has been resolved in remarkable detail, the actual transport machinery built up by FG-NUPs-about 50 MDa-is depicted as an approximately 60-nm hole in even highly resolved tomograms and/or structures computed with artificial intelligence(4-11). Here we directly probed conformations of the vital FG-NUP98 inside NPCs in live cells and in permeabilized cells with an intact transport machinery by using a synthetic biology-enabled site-specific small-molecule labelling approach paired with highly time-resolved fluorescence microscopy. Single permeabilized cell measurements of the distance distribution of FG-NUP98 segments combined with coarse-grained molecular simulations of the NPC allowed us to map the uncharted molecular environment inside the nanosized transport channel. We determined that the channel provides-in the terminology of the Flory polymer theory(12)-a 'good solvent' environment. This enables the FG domain to adopt expanded conformations and thus control transport between the nucleus and cytoplasm. With more than 30% of the proteome being formed from IDPs, our study opens a window into resolving disorder-function relationships of IDPs in situ, which are important in various processes, such as cellular signalling, phase separation, ageing and viral entry.",
+  "abstract_zh": "约120 MDa的哺乳动物核孔复合体（nuclear pore complex, NPC）充当细胞核与细胞质之间运输的守门人(1)。NPC的中央通道充满了数百种称为FG-核孔蛋白（FG-nucleoporins, FG-NUPs）的内在无序蛋白（intrinsically disordered proteins, IDPs）(2,3)。尽管NPC支架的结构已被极其详细地解析，但由FG-NUPs构建的实际运输机制——约50 MDa——在即使是高分辨率的断层扫描和/或人工智能计算的结构中也被描绘为约60 nm的孔洞(4-11)。在此，我们通过利用合成生物学实现的位点特异性小分子标记方法，结合高时间分辨荧光显微镜，直接探测了活细胞及具有完整运输机制的透化细胞中关键FG-NUP98在NPC内的构象。对透化单细胞中FG-NUP98片段距离分布的测量，结合NPC的粗粒化分子模拟，使我们能够绘制纳米级运输通道内未知的分子环境。我们确定该通道提供了——用Flory聚合物理论(12)的术语来说——一个“良溶剂”环境。这使得FG结构域能够采用扩展构象，从而控制细胞核与细胞质之间的运输。鉴于超过30%的蛋白质组由IDPs构成，我们的研究为解析IDPs在原位环境中的无序-功能关系打开了一扇窗口，这些关系在细胞信号传导、相分离（phase separation）、衰老和病毒入侵等多种过程中至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37100914/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37100914/",
+  "paper_page_path": "papers/pubmed/37100914/index.html"
+}

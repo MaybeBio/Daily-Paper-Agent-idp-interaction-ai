@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report discovery of a methyl vanillate derivative A10 with anti-TSWV activity superior to ribavirin, and propose a mechanism whereby A10 binds to the viral nucleocapsid protein at residues Arg94, Tyr184, and Lys192, inhibiting phase separation and aggregate formation, thereby suppressing viral ribonucleoprotein proliferation and systemic infection.
+- **Visible evidence base** Abstract text only; no experimental details, numerical datasets, statistical analyses, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical methods, compound synthesis details, raw binding and simulation data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding in the underexplored area of phase separation inhibitors for plant virus management. However, the evidence as presented is insufficient to establish the mechanistic claims. The central assertion that A10 inhibits TSWV through direct modulation of N protein phase separation is plausible but not verifiable from the abstract alone. Key quantitative results are reported without statistical context, and the causal link between binding, phase separation inhibition, and antiviral efficacy requires more rigorous demonstration.
+- **Who would be interested in the results, and why** Researchers in plant virology, particularly those studying tospoviruses and other phytoviruses with phase separation-dependent life cycles. The work may also interest chemical biologists developing small-molecule modulators of biomolecular condensates, and agricultural scientists seeking new antiviral lead compounds. The potential extension of phase separation targeting to plant protection could attract a broader readership in applied plant science.
+- **Major strengths** The work addresses a genuinely underexplored area, namely small-molecule inhibition of viral phase separation as a plant protection strategy. The reported antiviral activities, if reproducible, are substantially better than the commercial control ribavirin. The combination of multiple orthogonal methods, including molecular docking, molecular dynamics simulations, biolayer interferometry, and confocal microscopy, suggests a multidisciplinary approach that could provide complementary evidence.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** A10 demonstrates superior curative, protective, and inactivating activities against TSWV compared with ribavirin, with EC50 values of 181.7 mug/mL versus 748.5 mug/mL.
+  - **Evidence pointer** Abstract, results section; location not provided
+  - **Concern** The abstract reports percentage activities and EC50 values without any indication of experimental replicates, variability, statistical significance, or assay conditions. No confidence intervals, standard errors, or p-values are provided. The claim of superiority over ribavirin cannot be assessed without knowing whether the differences are statistically robust.
+  - **Why it matters** The central practical claim of the work is that A10 is a superior antiviral agent. If the reported differences are within experimental noise, the foundation of the study is weakened. Nature-style assessment requires that quantitative claims be supported by appropriate statistical evidence.
+  - **Resolution test** Provide replicate numbers, measures of dispersion, and formal statistical comparisons between A10 and ribavirin for each activity type. State the assay conditions and demonstrate that the EC50 difference is statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** A10 mechanistically inhibits phase separation and aggregate generation of the N protein, thereby significantly suppressing viral RNP proliferation and systemic infection.
+  - **Evidence pointer** Abstract, mechanism section; location not provided
+  - **Concern** The abstract asserts a causal chain from A10 binding to N protein, to inhibition of phase separation, to suppression of viral RNP proliferation and systemic infection. However, no evidence is presented that distinguishes correlation from causation. It is unclear whether reduced aggregate formation is a direct consequence of A10 binding or a downstream effect of reduced viral replication. The abstract does not report whether phase separation inhibition occurs at concentrations that do not already suppress viral replication through other mechanisms.
+  - **Why it matters** The mechanistic claim is the scientific core of the paper. If phase separation inhibition is merely a consequence of reduced N protein abundance due to antiviral effects, the proposed mechanism is not established. The study would be substantially less novel if the primary effect is conventional antiviral activity with phase separation changes as an epiphenomenon.
+  - **Resolution test** Provide experiments that decouple binding and phase separation inhibition from antiviral efficacy, such as using A10 concentrations that inhibit phase separation without affecting viral replication, or using mutant N proteins at the proposed binding residues to show loss of both binding and phase separation inhibition while antiviral activity is retained or lost in a predictable manner.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** Molecular docking, molecular dynamics simulations, and biolayer interferometry identify Arg94, Tyr184, and Lys192 as key residues on the N protein for A10 binding.
+  - **Evidence pointer** Abstract, binding analysis section; location not provided
+  - **Concern** The abstract states that three methods collectively identify three key residues, but no quantitative data are provided. For biolayer interferometry, no binding affinities, kinetics, or controls are reported. For molecular dynamics, no simulation timescales, force fields, or convergence criteria are given. For docking, no scores or validation against known binding sites are described. The identification of three residues as "key" requires mutagenesis validation, which is not mentioned.
+  - **Why it matters** The proposed binding site is the structural basis for the entire mechanism. Without quantitative binding data and mutagenesis confirmation, the residue identification remains speculative. Computational predictions alone are insufficient to establish a binding interface.
+  - **Resolution test** Report binding affinities and kinetics from biolayer interferometry with appropriate controls. Provide simulation details and demonstrate convergence. Perform alanine scanning mutagenesis of Arg94, Tyr184, and Lys192 and show that mutation abolishes or substantially reduces A10 binding and phase separation inhibition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, title and results; location not provided
+  - **Issue** The term "biomacromolecule aggregate formation" in the title is vague and could refer to any protein or nucleic acid aggregation. The abstract later specifies N protein condensates, but the title does not reflect this specificity.
+  - **Required correction** Revise the title to specify N protein phase separation or condensate formation rather than the generic "biomacromolecule aggregate formation."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Compound characterization
+  - **Evidence pointer** Abstract, compound discovery section; location not provided
+  - **Issue** The abstract mentions "a series of structurally designed methyl vanillate derivatives incorporating N-Acetyl-D-glucosamines" but provides no information on the number of compounds screened, the structural diversity, or the criteria for selecting A10 for further study.
+  - **Required correction** Provide the number of compounds screened and a brief description of the screening criteria and hit selection process.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental systems
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Issue** The abstract does not specify the host plant species, the TSWV isolate, or the assay formats used for curative, protective, and inactivating activity measurements. These details are essential for reproducibility.
+  - **Required correction** State the host plant, viral isolate, and assay protocols in the abstract or indicate where these are provided in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of statistical support for the efficacy claims, the lack of causal evidence linking phase separation inhibition to antiviral activity, and the unvalidated binding site identification collectively prevent the mechanistic case from being established.
+- **Assessment against Nature-style criteria** Originality is moderate to high, as small-molecule inhibition of viral phase separation for plant protection is a nascent area. Scientific importance is potentially significant for plant virology and antiviral strategy development, but the current evidence does not yet demonstrate the importance convincingly. Interdisciplinary readership is plausible, spanning virology, chemical biology, and plant science, though the abstract is written in a specialized manner that may limit accessibility. Technical soundness cannot be fully assessed from the abstract, but the reported methods are appropriate in principle; the lack of quantitative detail is a concern. Readability for nonspecialists is limited by dense terminology and undefined abbreviations such as PS, RNP, and EC50 without context.
+- **Recommendation posture** Currently not established from the provided evidence. The work is potentially interesting and the approach is novel, but the abstract alone does not provide sufficient statistical, causal, or structural validation to support the central claims. A revised manuscript with full experimental details, statistical analyses, mutagenesis validation, and causal experiments could change this assessment.
+
+## Risk / unsupported claims
+- The claim that A10 is superior to ribavirin is unsupported without statistical comparison.
+- The claim that A10 inhibits phase separation of the N protein is reported but not quantitatively supported in the abstract.
+- The identification of Arg94, Tyr184, and Lys192 as key binding residues is unsupported without mutagenesis or quantitative binding data.
+- The causal claim that phase separation inhibition leads to suppression of viral RNP proliferation and systemic infection is not established from the abstract.
+- The EC50 values and percentage activities are reported without experimental context and cannot be independently evaluated.

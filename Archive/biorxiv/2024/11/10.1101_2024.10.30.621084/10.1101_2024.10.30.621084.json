@@ -1,0 +1,202 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.30.621084",
+  "title": "A quantitative intracellular peptide binding assay reveals recognition determinants and context dependence of short linear motifs",
+  "doi": "10.1101/2024.10.30.621084",
+  "abstract": "<h4>ABSTRACT</h4> Transient protein-protein interactions play key roles in controlling dynamic cellular responses. Many examples involve globular protein domains that bind to peptide sequences known as Short Linear Motifs (SLiMs), which are enriched in intrinsically disordered regions of proteins. Here we describe a novel functional assay for measuring SLiM binding, called Systematic Intracellular Motif Binding Analysis (SIMBA). In this method, binding of a foreign globular domain to its cognate SLiM peptide allows yeast cells to proliferate by blocking a growth arrest signal. A high-throughput application of the SIMBA method involving competitive growth and deep sequencing provides rapid quantification of the relative binding strength for thousands of SLiM sequence variants, and a comprehensive interrogation of SLiM sequence features that control their recognition and potency. We show that multiple distinct classes of SLiM-binding domains can be analyzed by this method, and that the relative binding strength of peptides in vivo correlates with their biochemical affinities measured in vitro. Deep mutational scanning provides high-resolution definitions of motif recognition determinants and reveals how sequence variations at non-core positions can modulate binding strength. Furthermore, mutational scanning of multiple parent peptides that bind human tankyrase ARC or YAP WW domains identifies distinct binding modes and uncovers context effects in which the preferred residues at one position depend on residues elsewhere. The findings establish SIMBA as a fast and incisive approach for interrogating SLiM recognition via massively parallel quantification of protein-peptide binding strength in vivo.",
+  "authors": [
+    "Subbanna MS",
+    "Winters MJ",
+    "Örd M",
+    "Davey NE",
+    "Pryciak PM"
+  ],
+  "published_date": "2024-11-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.30.621084",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.30.621084.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR934243",
+    "raw_record": {
+      "id": "PPR934243",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR934243"
+        ]
+      },
+      "doi": "10.1101/2024.10.30.621084",
+      "title": "A quantitative intracellular peptide binding assay reveals recognition determinants and context dependence of short linear motifs",
+      "authorString": "Subbanna MS, Winters MJ, Örd M, Davey NE, Pryciak PM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Subbanna MS",
+            "lastName": "Subbanna",
+            "firstName": "Mythili",
+            "initials": "MS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biotechnology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Winters MJ",
+            "lastName": "Winters",
+            "firstName": "Matthew",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biotechnology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Örd M",
+            "lastName": "Örd",
+            "firstName": "Mihkel",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Cancer Research UK Cambridge Institute, Robinson Way, ,"
+                },
+                {
+                  "affiliation": "Division of Cancer Biology, , 237 Fulham Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davey NE",
+            "lastName": "Davey",
+            "firstName": "Norman",
+            "initials": "NE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Biology, , 237 Fulham Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pryciak PM",
+            "lastName": "Pryciak",
+            "firstName": "Peter",
+            "initials": "PM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biotechnology, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Transient protein-protein interactions play key roles in controlling dynamic cellular responses. Many examples involve globular protein domains that bind to peptide sequences known as Short Linear Motifs (SLiMs), which are enriched in intrinsically disordered regions of proteins. Here we describe a novel functional assay for measuring SLiM binding, called Systematic Intracellular Motif Binding Analysis (SIMBA). In this method, binding of a foreign globular domain to its cognate SLiM peptide allows yeast cells to proliferate by blocking a growth arrest signal. A high-throughput application of the SIMBA method involving competitive growth and deep sequencing provides rapid quantification of the relative binding strength for thousands of SLiM sequence variants, and a comprehensive interrogation of SLiM sequence features that control their recognition and potency. We show that multiple distinct classes of SLiM-binding domains can be analyzed by this method, and that the relative binding strength of peptides in vivo correlates with their biochemical affinities measured in vitro. Deep mutational scanning provides high-resolution definitions of motif recognition determinants and reveals how sequence variations at non-core positions can modulate binding strength. Furthermore, mutational scanning of multiple parent peptides that bind human tankyrase ARC or YAP WW domains identifies distinct binding modes and uncovers context effects in which the preferred residues at one position depend on residues elsewhere. The findings establish SIMBA as a fast and incisive approach for interrogating SLiM recognition via massively parallel quantification of protein-peptide binding strength in vivo.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/11/01/2024.10.30.621084.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.30.621084"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR934243"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR934243&type=FILE&fileName=EMS199837-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39864625",
+            "reference": "The Journal of biological chemistry. 2025 Mar;301(3):108225",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199837",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-11-04",
+      "firstPublicationDate": "2024-11-01",
+      "firstIndexDate": "2024-11-04",
+      "fullTextReceivedDate": "2024-11-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

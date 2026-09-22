@@ -1,0 +1,214 @@
+{
+  "identity": {
+    "pmid": "40324844",
+    "doi": "10.1016/bs.apcsb.2024.11.011",
+    "title": "Accurate coarse grained models for protein association and recognition."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions are fundamental to the cell function, but some of them are slow processes happening in time scales in the microsecond to millisecond range, therefore inaccessible for standard atomistic molecular dynamics (MD) simulations. A way to reduce the computational cost demanded by the simulation of long timescale phenomena is to use coarse-grained (CG) models to reduce the number of particles included in the simulation. In this Review we provide an overview of CG models for the study of protein dynamics and interactions. The majority of protein CG models have been designed to describe accurately the structure of folded, stable proteins, but recently new CG models and force fields have been designed to study disordered proteins. The difficulty of finding a force field fully transferable between stable and disordered proteins hinders the computational study of the intracellular environment in its most complex case, where protein-protein interactions occur in multiprotein systems constituted by both stable and disordered proteins. In this Review we overview several existing CG protein models, focusing on its applicability to the study of multiprotein systems including both stable and disordered proteins. We also discuss the utility of implicit solvent models, which accelerate the conformational sampling of protein solutions, to explore a broader configurational space of the system in shorter simulation times, and analyze the inaccuracies inherent to this approximation.",
+    "keywords": [
+      "Protein coarse grained models",
+      "force fields",
+      "implicit solvent",
+      "molecular dynamics simulations",
+      "protein association"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Proteins/chemistry/metabolism",
+      "Humans",
+      "Protein Conformation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Emperador, Agusti",
+        "Guardia, Elvira"
+      ],
+      "short_names": [
+        "Emperador A",
+        "Guardia E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, Universitat Politecnica de Catalunya, Barcelona, Spain. Electronic address: agusti.emperador@upc.edu.",
+        "Department of Physics, Universitat Politecnica de Catalunya, Barcelona, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Emperador, Agustí",
+        "short_name": "Emperador A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Universitat Politècnica de Catalunya, Barcelona, Spain. Electronic address: agusti.emperador@upc.edu."
+        ]
+      },
+      {
+        "full_name": "Guàrdia, Elvira",
+        "short_name": "Guàrdia E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Universitat Politècnica de Catalunya, Barcelona, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advances in protein chemistry and structural biology"
+    ],
+    "journal_abbrev": [
+      "Adv Protein Chem Struct Biol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/06 00:29",
+    "fetched_at": "2026-09-22 02:37:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40324844",
+      "21494747",
+      "41652163",
+      "25443957",
+      "21740053",
+      "26574429",
+      "35793442",
+      "41851975",
+      "23406326",
+      "29120633",
+      "37745447",
+      "23203075",
+      "40339149",
+      "26575522",
+      "27997210",
+      "38892222",
+      "15959866",
+      "40681718",
+      "30916957",
+      "23912807",
+      "27782390",
+      "28992696",
+      "26597989",
+      "20017540",
+      "40962313",
+      "41325725",
+      "26589072",
+      "27333362",
+      "25330962",
+      "40128232",
+      "38161379",
+      "39053012",
+      "37535543",
+      "18469078",
+      "38928405",
+      "15837171",
+      "32199430",
+      "39046235",
+      "20640160",
+      "29186229",
+      "39016145",
+      "38731411",
+      "30404229",
+      "34680048",
+      "19280018",
+      "41298416",
+      "16361345",
+      "27130454",
+      "33940848",
+      "31375023",
+      "33125658",
+      "18282071",
+      "32035448",
+      "26574442",
+      "39908323",
+      "25902423",
+      "24273239",
+      "38670324",
+      "25490039",
+      "28195464",
+      "39818849",
+      "35171594",
+      "35381009",
+      "25978497",
+      "40923543",
+      "40359486",
+      "40544328",
+      "36112935",
+      "41739654",
+      "30810317",
+      "26575407",
+      "34070778",
+      "22298285",
+      "26677962",
+      "19843465",
+      "25400526",
+      "25903863",
+      "28388132",
+      "20550147",
+      "17116404",
+      "20548957",
+      "34723311",
+      "40197576",
+      "32687361",
+      "34845619",
+      "41210784",
+      "36656159",
+      "26655333",
+      "30735393",
+      "34572559",
+      "38758598",
+      "39927543",
+      "22797564",
+      "30866039",
+      "37688551",
+      "32679892",
+      "28201893",
+      "35968960",
+      "26052838",
+      "35568534"
+    ],
+    "review": [
+      "40324844",
+      "41652163",
+      "25443957",
+      "26575522",
+      "27333362",
+      "15837171",
+      "20640160",
+      "30404229",
+      "34680048",
+      "31375023",
+      "38670324"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1876-1623(24)00134-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

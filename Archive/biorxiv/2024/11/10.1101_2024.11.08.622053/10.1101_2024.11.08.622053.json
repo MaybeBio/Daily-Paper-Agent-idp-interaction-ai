@@ -1,0 +1,382 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.08.622053",
+  "title": "A bacterial cell wall repair and modification system to resist host antibacterial factors",
+  "doi": "10.1101/2024.11.08.622053",
+  "abstract": "Pathogenic bacteria have acquired the ability to resist antibacterial defense mechanisms of the host. Streptococci are common in animal microbiota and include opportunistic pathogens like Group A Streptococcus (GAS) and Streptococcus pneumoniae (pneumococcus). While the conserved streptococcal S protein has been identified as a key factor in GAS virulence, its exact function is unclear. Here, we show that the pneumococcal S protein is crucial for resisting against host-derived antimicrobials by coordinating cell wall modification and repair. Specifically, we show that S proteins are septally localized through their transmembrane domain and contain an extracellular peptidoglycan (PG) binding LysM domain which is required for its function. Protein-protein and genetic interaction studies demonstrate that the pneumococcal S protein directly interacts with a PG synthase, class A penicillin binding protein PBP1a, and the PG deacetylase PgdA. Single-molecule experiments reveal that the fraction of circumferentially moving PBP1a molecules is reduced in the absence of S protein. Consistent with an impaired PBP1a function, streptococci lacking S protein exhibit increased susceptibility to cell wall targeting antibiotics and altered cell morphologies. PG analysis showed reduced N-deacetylation of glycans in the S. pneumoniae S protein mutant, indicating reduced PgdA activity. We show that pneumococci lacking the S protein cannot persist transient penicillin treatment, are more susceptible to the human antimicrobial peptide LL-37 and to lysozyme, and show decreased virulence in zebrafish and mice. Our data support a model in which S proteins regulate PBP1a activity and play a key role in coordinating PG repair and modification. This cell wall ‘sentinel’ control system provides defense against host-derived and environmental antimicrobial attack.",
+  "authors": [
+    "Burnier J",
+    "Gallay C",
+    "Bruce K",
+    "Bjånes E",
+    "Martin L",
+    "Jim K",
+    "Tsui HT",
+    "Cremers A",
+    "Mignolet J",
+    "Vollmer D",
+    "Biboy J",
+    "Nizet V",
+    "Vollmer W",
+    "Winkler ME",
+    "Veening J"
+  ],
+  "published_date": "2024-11-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.08.622053",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.08.622053.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR937623",
+    "raw_record": {
+      "id": "PPR937623",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR937623"
+        ]
+      },
+      "doi": "10.1101/2024.11.08.622053",
+      "title": "A bacterial cell wall repair and modification system to resist host antibacterial factors",
+      "authorString": "Burnier J, Gallay C, Bruce K, Bjånes E, Martin L, Jim K, Tsui HT, Cremers A, Mignolet J, Vollmer D, Biboy J, Nizet V, Vollmer W, Winkler ME, Veening J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Burnier J",
+            "lastName": "Burnier",
+            "firstName": "Jessica",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, Faculty of Biology and Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gallay C",
+            "lastName": "Gallay",
+            "firstName": "Clement",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6296-8928"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, Faculty of Biology and Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bruce K",
+            "lastName": "Bruce",
+            "firstName": "Kevin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bjånes E",
+            "lastName": "Bjånes",
+            "firstName": "Elisabet",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pediatrics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martin L",
+            "lastName": "Martin",
+            "firstName": "Louise",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, Faculty of Biology and Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jim K",
+            "lastName": "Jim",
+            "firstName": "Kinki",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7486-0319"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, Faculty of Biology and Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tsui HT",
+            "lastName": "Tsui",
+            "firstName": "Ho-Ching Tiffany",
+            "initials": "HT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cremers A",
+            "lastName": "Cremers",
+            "firstName": "Amelieke",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, Faculty of Biology and Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mignolet J",
+            "lastName": "Mignolet",
+            "firstName": "Johann",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, Faculty of Biology and Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vollmer D",
+            "lastName": "Vollmer",
+            "firstName": "Daniela",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Bacterial Cell Biology, Biosciences Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Biboy J",
+            "lastName": "Biboy",
+            "firstName": "Jacob",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Bacterial Cell Biology, Biosciences Institute, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nizet V",
+            "lastName": "Nizet",
+            "firstName": "Victor",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pediatrics, , ,"
+                },
+                {
+                  "affiliation": "Skaggs School of Pharmacy and Pharmaceutical Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vollmer W",
+            "lastName": "Vollmer",
+            "firstName": "Waldemar",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Bacterial Cell Biology, Biosciences Institute, , ,"
+                },
+                {
+                  "affiliation": "Institute for Molecular Bioscience, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Winkler ME",
+            "lastName": "Winkler",
+            "firstName": "Malcolm",
+            "initials": "ME",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Veening J",
+            "lastName": "Veening",
+            "firstName": "Jan-Willem",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Fundamental Microbiology, Faculty of Biology and Medicine, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7486-0319"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2747-7699"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6296-8928"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Pathogenic bacteria have acquired the ability to resist antibacterial defense mechanisms of the host. Streptococci are common in animal microbiota and include opportunistic pathogens like Group A Streptococcus (GAS) and  Streptococcus pneumoniae (pneumococcus). While the conserved streptococcal S protein has been identified as a key factor in GAS virulence, its exact function is unclear. Here, we show that the pneumococcal S protein is crucial for resisting against host-derived antimicrobials by coordinating cell wall modification and repair. Specifically, we show that S proteins are septally localized through their transmembrane domain and contain an extracellular peptidoglycan (PG) binding LysM domain which is required for its function. Protein-protein and genetic interaction studies demonstrate that the pneumococcal S protein directly interacts with a PG synthase, class A penicillin binding protein PBP1a, and the PG deacetylase PgdA. Single-molecule experiments reveal that the fraction of circumferentially moving PBP1a molecules is reduced in the absence of S protein. Consistent with an impaired PBP1a function, streptococci lacking S protein exhibit increased susceptibility to cell wall targeting antibiotics and altered cell morphologies. PG analysis showed reduced N-deacetylation of glycans in the  S. pneumoniae S protein mutant, indicating reduced PgdA activity. We show that pneumococci lacking the S protein cannot persist transient penicillin treatment, are more susceptible to the human antimicrobial peptide LL-37 and to lysozyme, and show decreased virulence in zebrafish and mice. Our data support a model in which S proteins regulate PBP1a activity and play a key role in coordinating PG repair and modification. This cell wall ‘sentinel’ control system provides defense against host-derived and environmental antimicrobial attack.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "200792",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/W013630/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "192517",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.11.08.622053"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.08.622053"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR937623"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR937623&type=FILE&fileName=EMS200007-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS200007",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pxd",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-11-11",
+      "firstPublicationDate": "2024-11-09",
+      "firstIndexDate": "2024-11-11",
+      "fullTextReceivedDate": "2024-11-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

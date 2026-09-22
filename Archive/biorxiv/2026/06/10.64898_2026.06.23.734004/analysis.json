@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.23.734004",
+  "title": "EnzyKAN: Protein Language Model Embeddings and Kolmogorov–Arnold Network Variants for Enzyme Commission Classification with a Proposed Electron-Transfer Physics Feature Framework",
+  "authors": "R Sanjay; B. Rajendra",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-29",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用蛋白语言模型嵌入和KAN变体做酶分类，对象为折叠酶而非无序蛋白，无PPI或互作机制建模，仅附带电子转移物理特征框架，与本课题关联微弱。",
+  "abstract": "Motivation Computational enzyme classification has previously utilised sequence homology features and protein language model embeddings. The Kolmogorov–Arnold Network (KAN) paradigm, which uses learnable edge functions rather than fixed ones, has shown promising results in biological sequence tasks. Results A fully reproducible investigation of KAN variants for seven-class EC classification on up to 9,516 labelled sequences from the CLEAN benchmark [1] (9,386 for language model experiments). In the sequence only settings, fixed basis KAN variants outperformed an MLP baseline moderately (macro F1 = 0.17–0.29). Utilisation of ESM-2 650M embeddings [2] greatly improved results via 5-fold cross-validation: MLP macro F1 = 0.750 ± 0.009, accuracy = 0.823 ± 0.009; learnable SineKAN macro F1 = 0.716 ± 0.023, accuracy = 0.788 ± 0.019. MLP performed comparably but did not exceed conventional baselines. As an aside, we introduce but do not investigate an approach to EC oxidoreductase sub-classification through the use of a Marcus theory-based electron transfer feature framework. Availability Code and result files are available at https://github.com/sanjuz-cas/ENZYKAN .",
+  "abstract_zh": "动机 计算酶分类此前已利用序列同源性特征和蛋白质语言模型嵌入。Kolmogorov–Arnold网络（KAN）范式采用可学习的边函数而非固定函数，在生物序列任务中展现出有前景的结果。结果 对KAN变体在CLEAN基准[1]（语言模型实验为9,386个）中多达9,516个标记序列上的七类EC分类进行了完全可复现的研究。在仅序列设置下，固定基KAN变体适度优于MLP基线（宏F1 = 0.17–0.29）。利用ESM-2 650M嵌入[2]通过5折交叉验证大幅提升了结果：MLP宏F1 = 0.750 ± 0.009，准确率 = 0.823 ± 0.009；可学习SineKAN宏F1 = 0.716 ± 0.023，准确率 = 0.788 ± 0.019。MLP表现相当，但未超越常规基线。附带地，我们引入但未深入探究一种基于Marcus理论的电子转移特征框架，用于EC氧化还原酶亚类分类。可用性 代码和结果文件可在 https://github.com/sanjuz-cas/ENZYKAN 获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.23.734004",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.23.734004",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.23.734004/index.html"
+}

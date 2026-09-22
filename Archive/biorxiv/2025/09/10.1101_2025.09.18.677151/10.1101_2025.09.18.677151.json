@@ -1,0 +1,230 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.18.677151",
+  "title": "Structure and substrate recognition by the Twin-arginine translocation (Tat) pathway core complex",
+  "doi": "10.1101/2025.09.18.677151",
+  "abstract": "The twin-arginine translocation (Tat) system is a mechanistically unique protein transport pathway moving folded proteins across membranes (1-4). It is found in all domains of life and is essential for plant photosynthesis and bacterial virulence(2, 5-7). A core complex composed of membrane proteins TatA, TatB, and TatC binds substrate proteins and then recruits additional TatA protomers to form the transport site(8-10). Here we present structures of resting and substrate-bound states of the Tat core complex together with biochemical and functional analysis. Substrate proteins associate with the core complex solely through their N-terminal signal peptides with their Tat targeting sequences making specific contacts with TatC and the peptide body clamped by TatB. The core complex contains highly tilted transmembrane helices that drive extreme local membrane thinning. Based on our results we propose a model for the early steps in Tat transport.",
+  "authors": [
+    "Deme JC",
+    "Bryant Oj",
+    "Batista M",
+    "Stansfeld PJ",
+    "Berks BC",
+    "Lea SM"
+  ],
+  "published_date": "2025-09-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.18.677151",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.18.677151.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1087759",
+    "raw_record": {
+      "id": "PPR1087759",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1087759"
+        ]
+      },
+      "doi": "10.1101/2025.09.18.677151",
+      "title": "Structure and substrate recognition by the Twin-arginine translocation (Tat) pathway core complex",
+      "authorString": "Deme JC, Bryant Oj, Batista M, Stansfeld PJ, Berks BC, Lea SM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Deme JC",
+            "lastName": "Deme",
+            "firstName": "Justin",
+            "initials": "JC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Structural Biology, , , , ,"
+                },
+                {
+                  "affiliation": "Sir William Dunn School of Pathology, , ,"
+                },
+                {
+                  "affiliation": "Central Oxford Structural Molecular Imaging Centre, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bryant Oj",
+            "lastName": "Bryant",
+            "firstName": "OJwain",
+            "initials": "Oj",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Structural Biology, , , , ,"
+                },
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                },
+                {
+                  "affiliation": "Structural Biology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Batista M",
+            "lastName": "Batista",
+            "firstName": "Mariana",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences and Department of Chemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stansfeld PJ",
+            "lastName": "Stansfeld",
+            "firstName": "Phillip James",
+            "initials": "PJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences and Department of Chemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Berks BC",
+            "lastName": "Berks",
+            "firstName": "Ben",
+            "initials": "BC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9685-4067"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lea SM",
+            "lastName": "Lea",
+            "firstName": "Susan",
+            "initials": "SM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Structural Biology, , , , ,"
+                },
+                {
+                  "affiliation": "Sir William Dunn School of Pathology, , ,"
+                },
+                {
+                  "affiliation": "Central Oxford Structural Molecular Imaging Centre, , ,"
+                },
+                {
+                  "affiliation": "Structural Biology, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9685-4067"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The twin-arginine translocation (Tat) system is a mechanistically unique protein transport pathway moving folded proteins across membranes (1-4). It is found in all domains of life and is essential for plant photosynthesis and bacterial virulence(2, 5-7). A core complex composed of membrane proteins TatA, TatB, and TatC binds substrate proteins and then recruits additional TatA protomers to form the transport site(8-10). Here we present structures of resting and substrate-bound states of the Tat core complex together with biochemical and functional analysis. Substrate proteins associate with the core complex solely through their N-terminal signal peptides with their Tat targeting sequences making specific contacts with TatC and the peptide body clamped by TatB. The core complex contains highly tilted transmembrane helices that drive extreme local membrane thinning. Based on our results we propose a model for the early steps in Tat transport.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "107929/Z/15/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.18.677151"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1087759"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1087759&type=FILE&fileName=EMS209034-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc0",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS209034",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-09-21",
+      "firstPublicationDate": "2025-09-18",
+      "firstIndexDate": "2025-09-21",
+      "fullTextReceivedDate": "2025-10-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

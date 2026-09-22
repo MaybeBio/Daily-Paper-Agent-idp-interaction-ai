@@ -1,0 +1,436 @@
+{
+  "identity": {
+    "pmid": "36182948",
+    "doi": "10.1038/s41467-022-33545-w",
+    "title": "Hydrogen-bonds mediate liquid-liquid phase separation of mussel derived adhesive peptides."
+  },
+  "content": {
+    "abstract": "Marine mussels achieve strong underwater adhesion by depositing mussel foot proteins (Mfps) that form coacervates during the protein secretion. However, the molecular mechanisms that govern the phase separation behaviors of the Mfps are still not fully understood. Here, we report that GK-16*, a peptide derived from the primary adhesive protein Mfp-5, forms coacervate in seawater conditions. Molecular dynamics simulations combined with point mutation experiments demonstrate that Dopa- and Gly- mediated hydrogen-bonding interactions are essential in the coacervation process. The properties of GK-16* coacervates could be controlled by tuning the strength of the electrostatic and Dopa-mediated hydrogen bond interactions via controlling the pH and salt concentration of the solution. The GK-16* coacervate undergoes a pH induced liquid-to-gel transition, which can be utilized for the underwater delivery and curing of the adhesives. Our study provides useful molecular design principles for the development of mussel-inspired peptidyl coacervate adhesives with tunable properties.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Adhesives/chemistry",
+      "Animals",
+      "*Bivalvia/chemistry",
+      "Dihydroxyphenylalanine",
+      "Hydrogen",
+      "Hydrogen Bonding",
+      "Peptides",
+      "Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Qi",
+        "Zou, Guijin",
+        "Qian, Xuliang",
+        "Chen, Shujun",
+        "Gao, Huajian",
+        "Yu, Jing"
+      ],
+      "short_names": [
+        "Guo Q",
+        "Zou G",
+        "Qian X",
+        "Chen S",
+        "Gao H",
+        "Yu J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0047-7012",
+        "ORCID: 0000-0002-0979-9950",
+        "ORCID: 0000-0002-8656-846X",
+        "ORCID: 0000-0002-4288-951X"
+      ],
+      "affiliations": [
+        "School of Materials Science and Engineering, Nanyang Technological University (NTU), 50 Nanyang Avenue, Singapore, 637553, Singapore.",
+        "Institute of High Performance Computing, A*STAR, Singapore, 138632, Singapore.",
+        "School of Mechanical and Aerospace Engineering, Nanyang Technological University (NTU), 50 Nanyang Avenue, Singapore, 639798, Singapore.",
+        "School of Materials Science and Engineering, Nanyang Technological University (NTU), 50 Nanyang Avenue, Singapore, 637553, Singapore.",
+        "Institute of High Performance Computing, A*STAR, Singapore, 138632, Singapore. huajian.gao@ntu.edu.sg.",
+        "School of Mechanical and Aerospace Engineering, Nanyang Technological University (NTU), 50 Nanyang Avenue, Singapore, 639798, Singapore. huajian.gao@ntu.edu.sg.",
+        "School of Materials Science and Engineering, Nanyang Technological University (NTU), 50 Nanyang Avenue, Singapore, 637553, Singapore. yujing@ntu.edu.sg.",
+        "Institute for Digital Molecular Analytics and Science, Nanyang Technological University (NTU), 50 Nanyang Avenue, Singapore, 637553, Singapore. yujing@ntu.edu.sg."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Qi",
+        "short_name": "Guo Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Materials Science and Engineering, Nanyang Technological University (NTU), 50 Nanyang Avenue, Singapore, 637553, Singapore."
+        ]
+      },
+      {
+        "full_name": "Zou, Guijin",
+        "short_name": "Zou G",
+        "identifiers": [
+          "0000-0003-0047-7012"
+        ],
+        "affiliations": [
+          "Institute of High Performance Computing, A*STAR, Singapore, 138632, Singapore."
+        ]
+      },
+      {
+        "full_name": "Qian, Xuliang",
+        "short_name": "Qian X",
+        "identifiers": [
+          "0000-0002-0979-9950"
+        ],
+        "affiliations": [
+          "School of Mechanical and Aerospace Engineering, Nanyang Technological University (NTU), 50 Nanyang Avenue, Singapore, 639798, Singapore."
+        ]
+      },
+      {
+        "full_name": "Chen, Shujun",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Materials Science and Engineering, Nanyang Technological University (NTU), 50 Nanyang Avenue, Singapore, 637553, Singapore."
+        ]
+      },
+      {
+        "full_name": "Gao, Huajian",
+        "short_name": "Gao H",
+        "identifiers": [
+          "0000-0002-8656-846X"
+        ],
+        "affiliations": [
+          "Institute of High Performance Computing, A*STAR, Singapore, 138632, Singapore. huajian.gao@ntu.edu.sg.",
+          "School of Mechanical and Aerospace Engineering, Nanyang Technological University (NTU), 50 Nanyang Avenue, Singapore, 639798, Singapore. huajian.gao@ntu.edu.sg."
+        ]
+      },
+      {
+        "full_name": "Yu, Jing",
+        "short_name": "Yu J",
+        "identifiers": [
+          "0000-0002-4288-951X"
+        ],
+        "affiliations": [
+          "School of Materials Science and Engineering, Nanyang Technological University (NTU), 50 Nanyang Avenue, Singapore, 637553, Singapore. yujing@ntu.edu.sg.",
+          "Institute for Digital Molecular Analytics and Science, Nanyang Technological University (NTU), 50 Nanyang Avenue, Singapore, 637553, Singapore. yujing@ntu.edu.sg."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2022 Oct 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/02 06:00",
+    "fetched_at": "2026-09-20 15:24:24"
+  },
+  "links": {
+    "cites": [
+      "42610649",
+      "42446225",
+      "42307228",
+      "42240373",
+      "42165544",
+      "41924571",
+      "41912784",
+      "41703712",
+      "41500992",
+      "41433062",
+      "41311961",
+      "41311930",
+      "41203654",
+      "41142412",
+      "40875600",
+      "40860144",
+      "40801528",
+      "40688025",
+      "40653653",
+      "40637551",
+      "40376853",
+      "40113809",
+      "40069227",
+      "39924792",
+      "39613868",
+      "39181884",
+      "38725255",
+      "38495383",
+      "38466779",
+      "38348795",
+      "38250346",
+      "38177438",
+      "37871222",
+      "37494702",
+      "37475548",
+      "36875159"
+    ],
+    "refs": [
+      "34931046",
+      "34618575",
+      "34436789",
+      "34387460",
+      "34228454",
+      "34133176",
+      "33148640",
+      "32661370",
+      "32537498",
+      "32312191",
+      "32132204",
+      "31784535",
+      "30937382",
+      "30682370",
+      "30217894",
+      "29364893",
+      "29034934",
+      "28592662",
+      "28430190",
+      "28262668",
+      "28202646",
+      "27131374",
+      "26620784",
+      "26508080",
+      "26250681",
+      "25589156",
+      "25581601",
+      "25540823",
+      "24596273",
+      "24060881",
+      "22893127",
+      "22873939",
+      "21804534",
+      "21603098",
+      "21544267",
+      "21278337",
+      "18819708",
+      "16981200",
+      "16844688",
+      "16634598",
+      "16227622",
+      "16200636",
+      "11846377",
+      "9895674",
+      "9724608",
+      "8744570"
+    ],
+    "similar": [
+      "36182948",
+      "34436789",
+      "24060881",
+      "37167909",
+      "32538616",
+      "34459591",
+      "31907498",
+      "27036002",
+      "38108296",
+      "30071727",
+      "30480422",
+      "26172268",
+      "25540823",
+      "28192773",
+      "31811956",
+      "38039395",
+      "32753588",
+      "28202646",
+      "34821330",
+      "28614666",
+      "10766960",
+      "34633172",
+      "23452271",
+      "36316165",
+      "34601867",
+      "28430190",
+      "26831090",
+      "25303409",
+      "36625035",
+      "29192930",
+      "23663073",
+      "23668520",
+      "33006447",
+      "30457699",
+      "32054875",
+      "26508080",
+      "24014592",
+      "29637795",
+      "25168789",
+      "33445356",
+      "20144475",
+      "24650082",
+      "31465231",
+      "27840600",
+      "27046671",
+      "35297615",
+      "25770997",
+      "26704547",
+      "37517337",
+      "21804534",
+      "23668263",
+      "25240674",
+      "36134404",
+      "30246912",
+      "23173195",
+      "37417954",
+      "25940100",
+      "25875963",
+      "16920796",
+      "35258979",
+      "30892902",
+      "37939758",
+      "26797924",
+      "26569266",
+      "35525750",
+      "36413745",
+      "28855425",
+      "35623113",
+      "27917020",
+      "28670243",
+      "31765122",
+      "31423790",
+      "31692175",
+      "31874305",
+      "35050591",
+      "35238544",
+      "26478273",
+      "34969252",
+      "22873939",
+      "32297374",
+      "39352099",
+      "23313836",
+      "22138031",
+      "34964608",
+      "18293310",
+      "36614607",
+      "25195781",
+      "38536670",
+      "35080852",
+      "30672629",
+      "25854691",
+      "33600143",
+      "25968933",
+      "37314335",
+      "28177600",
+      "26745013",
+      "28650092",
+      "31877824",
+      "26250681",
+      "34896153",
+      "19185470",
+      "39073194",
+      "14735531",
+      "35344662",
+      "35014487",
+      "29054048",
+      "32431012",
+      "17475323",
+      "30355807",
+      "9440044",
+      "34622998",
+      "25692318",
+      "30924992",
+      "38301458",
+      "35076052",
+      "26998552",
+      "21544267",
+      "38866265",
+      "21081223",
+      "36537718",
+      "37765517",
+      "38636754",
+      "23105946",
+      "37704216",
+      "36219462",
+      "36873002",
+      "37246136",
+      "38039085",
+      "28833661",
+      "21643511",
+      "36402391",
+      "38338427",
+      "37670725",
+      "37820374",
+      "37927210",
+      "38679406",
+      "32033133",
+      "36686257",
+      "32537498",
+      "38207218",
+      "37089119",
+      "39423330",
+      "37077234",
+      "33681552",
+      "27374053",
+      "36688334",
+      "31943629",
+      "30583318",
+      "37450657",
+      "39031475",
+      "37486022",
+      "39103291",
+      "38283122",
+      "38103178",
+      "38923199",
+      "37439740",
+      "38222596"
+    ],
+    "review": [
+      "36182948",
+      "37167909",
+      "31907498",
+      "38039395",
+      "28202646",
+      "36134404",
+      "26569266",
+      "35623113",
+      "27917020",
+      "31423790",
+      "39352099",
+      "18293310",
+      "35344662",
+      "32431012",
+      "34622998",
+      "21081223",
+      "36219462",
+      "36686257",
+      "39423330",
+      "33681552"
+    ],
+    "pmc": [
+      "9526746"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-022-33545-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36182948/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36182948",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

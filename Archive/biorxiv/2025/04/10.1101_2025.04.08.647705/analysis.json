@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.08.647705",
+  "title": "Kinesin-1 conformational dynamics are controlled by a cargo-sensitive TPR switch",
+  "authors": "Shukla S; Cross JA; Kish M; Yadav SK; Weijman JF; O’Regan L; Mantell J; Borucu U; Leng X; Schaffitzel C; Phillips JJ; Woolfson DN; Dodding MP",
+  "journal": "bioRxiv",
+  "published_date": "2025-04-08",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文结合计算建模与实验研究Kinesin-1中SLiM结合TPR结构域引发的别构构象变化，虽对象非IDP/相分离，但SLiM介导的互作-构象偶联机制建模思路对无序蛋白互作机制研究有可迁移启发。",
+  "abstract": "Kinesin-1 is a dynamic heterotetrameric assembly of two heavy and two light chains (KHC and KLC) that mediates microtubule-based intracellular transport of many different cargoes. The complex adopts a compact, autoinhibited state that is activated by cargo-adaptor proteins containing specific short linear peptide motifs (SLiMs). These motifs interact with the tetratricopeptide repeat (TPR) domains of the KLCs. The mechanism coupling SLiM recognition to activation-associated conformational changes in the complex is unknown. Here we combine protein design, computational modelling, biophysical analysis, and electron microscopy to examine the structural and mechanistic consequences of SLiM binding to the KLC-TPR domain within the complete heterotetrameric holoenzyme. We show that coiled coil 1 (CC1) of the KHC docks KLC TPR domains in the autoinhibited complex, forming the ‘shoulder’ feature observed in electron microscopy. Disrupting this interaction or binding an activating SLiM dislocates the TPR shoulder, freeing the motor domains and promoting transition between its closed, inactive, and open states. Opening the kinesin-1 complex facilitates binding to the microtubule-associated kinesin-1 cofactor, MAP7. Therefore, cargo-mediated dislocation of the TPR shoulder serves as a key initial step in kinesin-1 activation, allosterically linking cargo binding to motor dynamics.",
+  "abstract_zh": "Kinesin-1是由两条重链和两条轻链（KHC和KLC）组成的动态异四聚体组装体，介导基于微管的多种货物细胞内运输。该复合物采用紧凑的自抑制状态，由含有特定短线性肽基序（SLiMs）的货物适配蛋白激活。这些基序与KLC的四肽重复（TPR）结构域相互作用。将SLiM识别与复合物中激活相关的构象变化耦合的机制尚不清楚。在此，我们结合蛋白质设计、计算建模、生物物理分析和电子显微镜，检查SLiM结合到完整异四聚体全酶中KLC-TPR结构域的结构和机制后果。我们显示，KHC的卷曲螺旋1（CC1）在自抑制复合物中对接KLC TPR结构域，形成电子显微镜中观察到的“肩部”特征。破坏这种相互作用或结合激活型SLiM会使TPR肩部移位，释放马达结构域，并促进其闭合、非活性状态与开放状态之间的转变。打开kinesin-1复合物促进其与微管相关kinesin-1辅因子MAP7的结合。因此，货物介导的TPR肩部移位是kinesin-1激活的关键初始步骤，通过变构方式将货物结合与马达动力学联系起来。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.08.647705",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.08.647705",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.08.647705/index.html"
+}

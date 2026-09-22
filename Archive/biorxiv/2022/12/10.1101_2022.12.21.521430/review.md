@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered N-terminal region of TRPV4 contains a network of regulatory elements that modulate channel activity in a hierarchical, lipid-dependent manner via transient long-range interactions. A conserved autoinhibitory patch is proposed to compete with PIP2 binding, and molecular dynamics simulations are used to link loss of membrane interaction to reduced force exerted by the IDR on the structured core.
+- **Visible evidence base** Abstract text only; no experimental data, figures, tables, or method descriptions were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, simulation parameters, experimental protocols, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant hypothesis regarding the role of an IDR in TRPV4 regulation. However, the evidence base available for this review is limited to the abstract, which precludes a rigorous evaluation of the technical soundness of the claims. The central claims regarding hierarchical regulation, the autoinhibitory patch, and the force-based mechanism are plausible but cannot be verified from the supplied material. The work addresses a topic of broad interest in ion channel biology and IDR function, but the current evidence is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in the fields of ion channel biophysics, TRP channel biology, intrinsically disordered protein function, and membrane protein regulation would find these results of interest. The work also has potential relevance for those studying mechanosensation, osmosensation, and lipid signaling, as well as for structural biologists employing integrative approaches to study dynamic protein regions.
+- **Major strengths** The abstract identifies a biologically important and understudied problem, namely the functional role of a large IDR in a membrane receptor. The proposed hierarchical regulatory model is conceptually novel and testable. The integration of structural biology, simulation, and functional assays is appropriate for the question. The focus on transient long-range interactions and lipid dependence is timely and mechanistically insightful.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that a network of regulatory elements modulates channel activity in a hierarchical lipid-dependent manner through transient long-range interactions.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of a hierarchical regulatory network is central to the paper, but the abstract provides no quantitative or qualitative evidence to support the hierarchy. No data are shown to establish the relative importance, order of action, or interdependence of the proposed regulatory elements.
+  - **Why it matters** Without evidence for the hierarchy, the model remains speculative. The term "hierarchical" implies a specific architecture of regulation that must be demonstrated experimentally, for example through mutagenesis, functional assays, and binding studies.
+  - **Resolution test** Provide experimental data showing that perturbation of individual regulatory elements produces differential and ordered effects on channel activity, and that these effects are lipid-dependent. Ideally, show epistasis or additivity relationships among the elements.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The abstract claims that a highly conserved autoinhibitory patch acts as a master regulator by competing with PIP2 binding to attenuate channel activity.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The mechanism of competition between the autoinhibitory patch and PIP2 is stated as fact, but no binding data, competition assays, or mutagenesis results are presented in the abstract. The term "master regulator" implies dominance over other regulatory inputs, which is not demonstrated.
+  - **Why it matters** The proposed competition mechanism is the core mechanistic claim. Without direct evidence of physical competition, alternative explanations such as allosteric modulation or independent parallel regulation cannot be excluded.
+  - **Resolution test** Show direct binding of the autoinhibitory patch to the PIP2 site, competition in binding assays, and functional rescue or loss-of-function effects upon mutation of the patch. Demonstrate that the patch is required for the observed attenuation of channel activity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation-to-function link
+  - **Claim pointer** The abstract claims that molecular dynamics simulations show that loss of the interaction between the PIP2-binding site and the membrane reduces the force exerted by the IDR on the structured core of TRPV4.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The connection between simulated force changes and channel activity is not established. The abstract does not explain how a reduction in force would alter gating, nor is there any experimental validation of the simulation predictions.
+  - **Why it matters** Simulations can generate hypotheses, but the claim that this force reduction is causally linked to channel activity requires experimental corroboration, for example through FRET-based conformational sensors, single-channel recordings, or mutagenesis that perturbs the simulated interaction.
+  - **Resolution test** Provide experimental data that link the simulated force changes to measurable changes in channel gating or activity. Show that mutations predicted to alter the force also alter channel function in the predicted direction.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "essential for membrane receptor regulation" is broad and not qualified. It is unclear whether this refers to all IDRs or specifically to the TRPV4 IDR.
+  - **Required correction** Specify the scope, for example "IDRs are increasingly recognized as important for membrane receptor regulation" or provide a citation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Master regulator"
+  - **Evidence pointer** Abstract, claim regarding autoinhibitory patch
+  - **Issue** The term "master regulator" is strong and implies a dominant control point. The abstract does not provide evidence that this patch is more important than other regulatory elements.
+  - **Required correction** Use more measured language, such as "a key regulatory element" or "a primary autoinhibitory determinant," unless dominance is explicitly demonstrated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract, molecular dynamics simulations
+  - **Issue** No information is given about the simulation system, force field, timescale, or number of replicates. This limits the ability to assess the robustness of the simulation results.
+  - **Required correction** Include key simulation parameters in the abstract or refer to a methods section where these are fully described.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish the hierarchical regulatory model, the competition mechanism, or the causal link between simulated force changes and channel activity.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of an IDR acting as a hierarchical, lipid-dependent regulatory hub in a TRP channel is original and conceptually interesting. However, the abstract does not provide enough detail to assess the novelty relative to prior work on TRPV4 regulation or on IDR function in ion channels.
+  - Scientific importance: If the claims are substantiated, the work would be important for understanding TRPV4 regulation and for the broader field of IDR function in membrane proteins. The potential relevance to thermo- and osmosensation adds to its significance.
+  - Interdisciplinary readership: The topic bridges structural biology, biophysics, and cell signaling, and would appeal to a broad readership. The abstract is written in a way that is accessible to nonspecialists, though some terms such as "hierarchical" and "transient long-range interactions" could benefit from brief explanation.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and absence of data prevent evaluation of the rigor of the experiments and simulations.
+  - Readability for nonspecialists: The abstract is generally clear and well structured. The main concepts are introduced appropriately, and the significance is stated. However, the mechanistic claims are presented without sufficient context for a nonspecialist to evaluate their strength.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the evidence base is insufficient to support the central claims. A full review of the manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim of a "hierarchical" regulatory network is unsupported by the abstract.
+- The claim that the autoinhibitory patch acts as a "master regulator" is unsupported.
+- The claim of direct competition between the autoinhibitory patch and PIP2 binding is unsupported.
+- The causal link between simulated force reduction and channel activity is unsupported.
+- The statement that IDR structural dynamics are "coupled" to TRPV4 activity is presented as a conclusion but is not demonstrated in the abstract.
+- The general claim that IDRs are "essential" for membrane receptor regulation is stated without qualification or citation.

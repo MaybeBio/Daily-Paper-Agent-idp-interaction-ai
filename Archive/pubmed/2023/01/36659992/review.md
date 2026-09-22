@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text and supplementary information reference
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the presented review and analysis
+- **Shared manuscript claim summary** The manuscript provides a reflective review of mutational and biophysical studies on Gaussia princeps luciferase (GLuc), emphasizing its unique structural features and bioluminescent properties, and argues for a structural perspective to understand its function and stability
+- **Visible evidence base** Main text sections, figures and tables as described, supplementary information link
+- **Missing materials affecting confidence** Full figure content, detailed methods, and supplementary data are not accessible in the provided material; only the abstract and section headings are visible
+
+## Reviewer
+- **Overall assessment** The manuscript offers a timely and useful synthesis of existing mutational and biophysical data on GLuc, a bioluminescent enzyme of significant biotechnological interest. The authors correctly identify a gap in structural understanding and propose a perspective that could guide future studies. However, the current text, as presented, lacks sufficient depth in structural analysis and quantitative biophysical comparisons, and the argument for a unique structural mechanism is not fully substantiated with direct evidence. The review is informative but would benefit from more rigorous integration of structural models and experimental data.
+- **Who would be interested in the results, and why** Researchers in bioluminescence, protein engineering, and structural biology, particularly those working on reporter genes and biosensors. The review consolidates scattered findings and offers a structural framework that could inform rational design of GLuc variants with improved stability or activity.
+- **Major strengths** 
+  - Addresses a relevant and underexplored topic, namely the structural basis of GLuc's unusual properties
+  - Provides a comprehensive summary of mutational studies, which is valuable for the community
+  - Clearly articulates the need for a structural perspective, setting a constructive agenda
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that a structural perspective reveals GLuc as a "unique bioluminescent enzyme" with distinct mechanistic features
+  - **Evidence pointer** Main text sections on structural analysis, location not provided
+  - **Concern** The structural claims are not supported by direct structural data or detailed comparative analysis. The text appears to rely on inferred models or limited homology, but no specific structural coordinates, experimental structures, or validated models are presented. The uniqueness argument is asserted rather than demonstrated with quantitative or comparative evidence.
+  - **Why it matters** Without a clear structural basis, the central thesis of the review is weakened. Readers cannot assess whether the proposed uniqueness is real or an artifact of limited data. The review's value as a guide for future work depends on a credible structural framework.
+  - **Resolution test** Provide explicit structural evidence, such as solved structures, homology models with validation, or comparative structural alignments, and show how these support the claimed unique features.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript implies that biophysical analyses, such as stability and folding studies, are integrated with mutational data to explain GLuc's function
+  - **Evidence pointer** Sections on biophysical analysis, location not provided
+  - **Concern** The biophysical data are described in a qualitative manner, with no quantitative parameters (e.g., melting temperatures, kinetic constants, free energy changes) or direct comparisons to other luciferases. The integration of these data with mutational effects is not systematically presented, making it difficult to evaluate the strength of the conclusions.
+  - **Why it matters** For a review claiming to reflect on biophysical analysis, the absence of quantitative synthesis limits its utility. The scientific importance of the claims cannot be assessed without clear data presentation.
+  - **Resolution test** Include a table or figure summarizing key biophysical parameters from cited studies, and explicitly link these to mutational effects and structural features.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The manuscript aims to be accessible to a broad biophysical audience
+  - **Evidence pointer** Overall text structure, location not provided
+  - **Concern** The text assumes familiarity with luciferase assays and structural biology jargon without sufficient background. Terms such as "coelenterazine oxidation" and "beta-barrel fold" are used without explanation, which may alienate nonspecialist readers.
+  - **Why it matters** The journal's audience includes biophysicists who may not be experts in bioluminescence. Improved accessibility would enhance the manuscript's impact.
+  - **Resolution test** Add a brief background section or glossary for key terms, and explain the functional significance of structural features in plain language.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract is dense and does not clearly state the main conclusion or the specific structural insights proposed.
+  - **Required correction** Revise the abstract to include a clear statement of the structural perspective and its implications for future research.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** References
+  - **Evidence pointer** Reference list, location not provided
+  - **Issue** Some recent structural studies on related luciferases may be missing, which could strengthen the comparative analysis.
+  - **Required correction** Add recent references on structural studies of other luciferases to support the uniqueness claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figures and tables
+  - **Evidence pointer** Figure and table legends, location not provided
+  - **Issue** The legends are not fully descriptive, and the figures are not referenced in the text in a way that guides the reader.
+  - **Required correction** Ensure each figure and table is explicitly cited in the text and that legends provide sufficient context for interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of direct structural evidence and quantitative biophysical synthesis prevents the central claims from being fully supported.
+- **Assessment against Nature-style criteria** 
+  - Originality: The topic is original in its focus on GLuc's structural uniqueness, but the treatment is not novel enough for a high-impact journal.
+  - Scientific importance: The review addresses a niche but growing area; however, the importance is not convincingly demonstrated without quantitative data.
+  - Interdisciplinary readership: The topic has potential appeal to structural biologists and biochemists, but the current presentation limits broader interest.
+  - Technical soundness: The technical basis is weak due to missing structural and quantitative evidence.
+  - Readability for nonspecialists: The text is not fully accessible, requiring significant background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has merit as a review, but the central structural claims and biophysical integration must be strengthened with concrete data and clearer presentation before it can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that GLuc possesses a "unique" structural mechanism is unsupported without direct structural comparisons.
+- The assertion that biophysical analyses are integrated with mutational data is not verifiable from the provided text.
+- Any specific structural features described (e.g., fold, active site geometry) are not backed by cited structures or models in the visible material.

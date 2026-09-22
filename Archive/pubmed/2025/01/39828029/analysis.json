@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39828029",
+  "title": "Conformationally adaptive therapeutic peptides for diseases caused by intrinsically disordered proteins (IDPs). New paradigm for drug discovery: Target the target, not the arrow.",
+  "authors": "Fantini, Jacques; Azzaz, Fodil; Di Scala, Coralie; Aulas, Anais; Chahinian, Henri; Yahi, Nouara",
+  "journal": "Pharmacology & therapeutics",
+  "published_date": "2025-01-20",
+  "window": {
+    "start": "2025-01-20",
+    "end": "2025-01-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出针对无序蛋白(IDP)的构象自适应肽设计策略，通过模拟IDP与配体互作后的结构域来间接靶向致病互作，虽涉及IDP与PPI机制，但方法上以概念性药物设计为主，缺乏具体AI/物理模拟建模，故评7分。",
+  "abstract": "The traditional model of protein structure determined by the amino acid sequence is today seriously challenged by the fact that approximately half of the human proteome is made up of proteins that do not have a stable 3D structure, either partially or in totality. These proteins, called intrinsically disordered proteins (IDPs), are involved in numerous physiological functions and are associated with severe pathologies, e.g. Alzheimer, Parkinson, Creutzfeldt-Jakob, amyotrophic lateral sclerosis (ALS), and type 2 diabetes. Targeting these proteins is challenging for two reasons: i) we need to preserve their physiological functions, and ii) drug design by molecular docking is not possible due to the lack of reliable starting conditions. Faced with this challenge, the solutions proposed by artificial intelligence (AI) such as AlphaFold are clearly unsuitable. Instead, we suggest an innovative approach consisting of mimicking, in short synthetic peptides, the conformational flexibility of IDPs. These peptides, which we call adaptive peptides, are derived from the domains of IDPs that become structured after interacting with a ligand. Adaptive peptides are designed with the aim of selectively antagonizing the harmful effects of IDPs, without targeting them directly but through selected ligands, without affecting their physiological properties. This \"target the target, not the arrow\" strategy is promised to open a new route to drug discovery for currently undruggable proteins.",
+  "abstract_zh": "由氨基酸序列决定的蛋白质结构的传统模型，如今受到严峻挑战，因为人类蛋白质组中约有一半由部分或完全缺乏稳定三维结构的蛋白质组成。这些被称为固有无序蛋白 (intrinsically disordered proteins, IDPs) 的蛋白质，参与众多生理功能，并与严重病理相关，例如阿尔茨海默病、帕金森病、克雅氏病、肌萎缩侧索硬化症 (amyotrophic lateral sclerosis, ALS) 和2型糖尿病。靶向这些蛋白质面临两大挑战：i) 我们需要保留其生理功能，ii) 由于缺乏可靠的起始条件，基于分子对接 (molecular docking) 的药物设计不可行。面对这一挑战，人工智能 (artificial intelligence, AI) 提出的解决方案，如AlphaFold，显然不适用。相反，我们提出一种创新方法，即在短合成肽中模拟IDPs的构象灵活性。这些我们称之为适应性肽 (adaptive peptides) 的肽段，源自IDPs中在与配体相互作用后形成结构的结构域。适应性肽的设计旨在选择性拮抗IDPs的有害效应，不直接靶向它们，而是通过选定的配体，且不影响其生理特性。这种“靶向靶标，而非箭头”的策略有望为当前不可成药蛋白质开辟药物发现的新途径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39828029/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39828029/",
+  "paper_page_path": "papers/pubmed/39828029/index.html"
+}

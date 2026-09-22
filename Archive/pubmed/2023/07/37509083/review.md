@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodological soundness, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors present the first full-length structural model of human CD44s using three deep-learning-based protein structure prediction tools (D-I-TASSER, AlphaFold2, RoseTTAFold), validate the models through comparison with the crystallographic HABD structure and molecular dynamics simulations, and extend the analysis to two CD44 isoforms (CD44v3-10 and CD44v7-10) to assess the impact of variant exon insertions on structural disorder.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Conclusions, and references to supplementary figures and tables
+- **Missing materials affecting confidence** Supplementary figures and tables (Figures S1–S8, Tables S1–S3) are referenced but not provided; detailed model coordinates and MD trajectory data are not available; sequence alignments and PAE plots are referenced but not shown in the main text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant gap in structural biology by attempting to model the full-length CD44s receptor, for which only the HABD has been experimentally determined. The use of three state-of-the-art deep-learning predictors is appropriate and the comparison with the crystallographic HABD provides a useful benchmark. However, the study is largely descriptive and the novelty is limited given that AlphaFold2 predictions for CD44 isoforms are already available in public databases. The validation is incomplete: key metrics are reported selectively, MD simulations are used only for the AlphaFold2 model, and the biological implications of the disordered regions are speculative. The manuscript would benefit from a more rigorous quantitative comparison of the three methods and a clearer articulation of what new biological insight the models provide beyond existing predictions.
+- **Who would be interested in the results, and why** Researchers studying CD44 biology, particularly those interested in the structural basis of isoform-specific functions in cancer and inflammation. Computational biologists working on benchmarking deep-learning-based structure prediction tools may also find the comparative assessment of D-I-TASSER, AlphaFold2, and RoseTTAFold on a challenging multi-domain membrane protein of interest. The work may be of interest to the glycoscience and extracellular matrix communities given CD44's role as a hyaluronan receptor.
+- **Major strengths** 1) Addresses a relevant gap: no full-length CD44 structure is available experimentally, and the study attempts to fill this with state-of-the-art computational methods. 2) Uses three independent deep-learning approaches, allowing a comparative assessment. 3) Includes MD simulations to test the stability of the best model, which is a reasonable validation step. 4) The extension to two disease-relevant isoforms (CD44v3-10 and CD44v7-10) adds translational relevance. 5) The identification of disordered regions and their potential functional role is a useful contribution to understanding CD44 biology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and scientific importance
+  - **Claim pointer** The authors claim "we present the first structural model of whole-length CD44s using deep learning techniques" and that this addresses a limitation because "only the longest CD44 isoform (P16070-1, length 742 residues), containing all ten variant exons is present in the AlphaFold2 database."
+  - **Evidence pointer** Conclusions section; Introduction section
+  - **Concern** The claim of being "first" is not adequately substantiated. The authors acknowledge that the longest CD44 isoform is present in the AlphaFold2 database, but they do not explain why the CD44s isoform (P16070-12) would not be predictable using the same publicly available AlphaFold2 pipeline. Since AlphaFold2 is freely accessible and can be run on any sequence, the novelty of generating a model for CD44s using the same tool is questionable. The authors should clarify what specific new information or methodological advance this study provides beyond what is already available in the AlphaFold2 database or obtainable by any user.
+  - **Why it matters** The core scientific contribution of the paper hinges on the novelty of the structural model. If the model can be trivially generated using existing public resources, the study's importance is substantially diminished.
+  - **Resolution test** The authors should provide a clear statement of what is genuinely new (e.g., comparative benchmarking, MD-based stability assessment, isoform-specific insights) and temper the "first" claim if it cannot be rigorously defended. They should also demonstrate why the existing AlphaFold2 database entry for the longest isoform is insufficient for the questions they address.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "All three approaches correctly predicted the HABD" and that AlphaFold2 outperformed the others based on Cα-RMSD values of 0.8 Å, 1.3 Å, and 1.3 Å for AlphaFold2, D-I-TASSER, and RoseTTAFold, respectively.
+  - **Evidence pointer** Results section 3.1; Figure 1; Table 2
+  - **Concern** The comparison of the three methods is incomplete and potentially misleading. Only the Cα-RMSD for the HABD is reported, which is a limited metric. No global quality scores (e.g., TM-score for the full-length model, per-residue confidence comparisons) are provided for the full-length models. The D-I-TASSER models have eTM scores of 0.37–0.42, which are below the reliability threshold of 0.5, yet the authors still use the top model for comparison. The Molprobity scores in Table 2 are mentioned but not discussed in the text. A more comprehensive and statistically rigorous comparison is needed.
+  - **Why it matters** The claim that AlphaFold2 outperforms the other methods is central to the paper's conclusion. Without a thorough comparison using multiple metrics and appropriate statistical treatment, this conclusion is not robustly supported.
+  - **Resolution test** Provide a full comparison of the three methods using multiple quality metrics (e.g., TM-score, GDT-TS, per-residue pLDDT vs. equivalent confidence scores) for the full-length models, not just the HABD. Include error bars or replicate analyses for the RMSD calculations. Discuss the implications of the low eTM scores for D-I-TASSER.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "MD simulations validated the models of CD44s generated using AlphaFold2" and that the transmembrane helix remained stable throughout the simulations.
+  - **Evidence pointer** Results section 3.2; Figure 4; Figure 5
+  - **Concern** The MD simulation setup is problematic. The authors state that "as the disordered regions 1–19 and 219–237 penetrated the lipid bilayer, structural models of the extracellular, transmembrane, and cytoplasmic regions were separately modeled using AlphaFold2 and joined according to the membrane topology." This implies that the full-length AlphaFold2 model was not used directly for the MD simulation, but rather a hybrid model was constructed. This is a significant deviation from the stated approach and the validation claim. The RMSD values reported (24.3 ± 2.12 Å for the full-length protein) are very high, indicating substantial conformational drift, which is not adequately discussed. The comparison with the 1UUH simulation is also problematic because the 1UUH simulation was run in water without a membrane, while the CD44s model was in a POPC bilayer, making the comparison of RMSD values not directly meaningful.
+  - **Why it matters** The MD simulation is presented as a key validation of the predicted model. If the simulation was performed on a modified/hybrid model and the stability metrics are not properly contextualized, the validation claim is weakened.
+  - **Resolution test** Clarify the exact construct used for the MD simulation. If a hybrid model was used, explain why and how this affects the interpretation. Provide a more detailed analysis of the high RMSD values, including per-domain RMSDs and a discussion of whether the drift is localized to the disordered regions. Ensure that the comparison with 1UUH is apples-to-apples (e.g., simulate 1UUH in the same membrane environment or compare only the HABD region in the same solvent conditions).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance and biological insight
+  - **Claim pointer** The authors state that "the lack of tertiary structure or the existence of conformational ensembles for this domain correlated well with the low-confidence prediction regions of AlphaFold2" and that the disordered regions "allow CD44 to perform its unconventional activity."
+  - **Evidence pointer** Results section 3.1; Discussion in Results section 3.2; Conclusions
+  - **Concern** The biological interpretation of the disordered regions is speculative and not supported by direct experimental evidence or functional assays. The authors discuss potential roles in CD44-CD49 interaction and isoform-specific functions, but these are presented as hypotheses without testing. The link between predicted disorder and "unconventional activity" is not established.
+  - **Why it matters** The paper's broader significance depends on the functional implications of the structural model. If the biological claims are not supported, the impact is limited to a purely computational exercise.
+  - **Resolution test** Either temper the biological claims to clearly state them as hypotheses, or provide additional evidence (e.g., sequence conservation analysis, known functional data from the literature, or preliminary experimental validation) to support the proposed functional roles of the disordered regions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Methods section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The exact versions and parameters used for AlphaFold2, RoseTTAFold, and D-I-TASSER are not specified. The authors state "default settings" were used, but this is insufficient for reproducibility.
+  - **Required correction** Provide the specific software versions, any non-default parameters, and the date of access for each server. If ColabFold was used for AlphaFold2, specify the version and any relevant settings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Model coordinates
+  - **Evidence pointer** Not specified in the manuscript
+  - **Issue** The final model coordinates for CD44s, CD44v3-10, and CD44v7-10 are not deposited in a public repository or provided as supplementary data.
+  - **Required correction** Deposit the final models in a public repository (e.g., ModelArchive, Zenodo) and provide accession numbers or DOIs in the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality and presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2
+  - **Issue** The PAE plot and pLDDT confidence metrics are described in the text but the figure is not shown in the provided manuscript. The authors state "Figure 2 shows that residues with a blue color in the PAE graph mirrored the peaks in the pLDDT score," but this is not verifiable from the provided text.
+  - **Required correction** Ensure that all referenced figures are included in the final submission and that the PAE and pLDDT data are clearly presented and labeled.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The authors mention a "recently published computational study" on the membrane-proximal stem region of CD44 in rats, but do not discuss how their work relates to or differs from this study in sufficient detail.
+  - **Required correction** Expand the discussion of prior computational studies on CD44 structure to clearly position the novelty of the current work.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** MD simulation analysis
+  - **Evidence pointer** Section 3.2
+  - **Issue** The RMSD and RMSF values are reported as means with standard deviations, but the number of replicates and the statistical treatment are not fully described. The authors state "three different MD replicates were assessed" but do not specify how the replicates were combined or whether the reported values are averages across replicates.
+  - **Required correction** Clarify how the replicate simulations were analyzed and combined. Provide a description of the error analysis and whether the reported uncertainties represent standard deviations across replicates or within a single trajectory.
+
+## Risk / unsupported claims
+- The claim of being the "first structural model of whole-length CD44s" is not substantiated given the public availability of AlphaFold2 and the existing database entry for the longest CD44 isoform.
+- The assertion that MD simulations "validated" the AlphaFold2 model is weakened by the use of a hybrid model (separately modeled domains joined according to membrane topology) and the high full-length RMSD values.
+- The biological interpretation of disordered regions enabling "unconventional activity" is speculative and not supported by direct evidence.
+- The comparative claim that AlphaFold2 outperforms D-I-TASSER and RoseTTAFold is based on limited metrics (Cα-RMSD for HABD only) and does not account for the low eTM scores of D-I-TASSER models.
+- The statement that "all three approaches correctly predicted the HABD" is not fully supported as the quality of the RoseTTAFold and D-I-TASSER HABD predictions is only assessed via RMSD, without per-residue confidence or functional validation.
+- The claim that low-confidence regions correspond to disordered regions is based on a single predictor (PONDR) and is not cross-validated with other disorder prediction tools or experimental data.

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, validation, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors present ART FOUNDATION-LOG, a bioinformatics toolkit that integrates multiple existing databases to predict protein-protein and protein-nucleic acid interaction modes based on domain-domain interactions, with applications demonstrated for Arabidopsis and discussed for peach. The tool combines features related to oligomerization, liquid-liquid phase separation, GO analysis, and domain structural properties, and the authors report prediction accuracies for oligomerization types, LLPS types, and TF binding motif types.
+- **Visible evidence base** Abstract, Introduction, Methods (Sections 2.1-2.9), Results (Sections 3.1-3.3), Discussion, Conclusions. Supplementary tables and figures are referenced but not provided.
+- **Missing materials affecting confidence** Supplementary Data files (Prediction_llps, Prediction_non_llps, Prediction_llps.type, Prediction_tf_llps_factor, Prediction_co_tf_pras_ptm, tf_llps_factor), Tables S1-S8, Figures S1-S4, and the software code itself. These are essential for evaluating the validity of the reported accuracies and the functionality of the tool.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful integrative bioinformatics resource, but the current presentation is insufficient to establish the tool's validity or utility. The reported prediction accuracies are difficult to interpret without access to the underlying data, class distributions, and model details. The demonstration of the tool's application to the AGL15 example is largely descriptive and does not provide a clear validation of the predictive power. The connection to the stated long-term goal of identifying genetic variants in peaches is not substantiated by any results presented here. The manuscript would benefit from a clearer articulation of the tool's novel contribution relative to existing resources, a more rigorous evaluation of prediction performance, and a demonstration of how the integrated features lead to biologically meaningful insights.
+- **Who would be interested in the results, and why** Researchers working on plant transcriptional regulation, protein-protein interaction networks, and the functional annotation of plant genomes might find the integrated database resource potentially useful. Those studying phase separation in plants or developing computational tools for regulatory genomics could also have interest. However, the current lack of validation and the descriptive nature of the application example limit the immediate utility for these groups.
+- **Major strengths** The integration of multiple diverse data sources (oligomerization, LLPS, domain structure, PTM, GO) into a single framework is a reasonable and potentially valuable concept. The tool is made freely available, which is commendable. The focus on domain-level features as a unifying principle for integrating interaction data is a sensible approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  umber **Blocking** Yes
+  - **Axis** Technical soundness / Validation
+  - **Claim pointer** The manuscript reports prediction accuracies for oligomerization types (75% average), LLPS types (76% average), and TF binding motif types (91% accuracy on a held-out test set).
+  - **Evidence pointer** Results Sections 3.1-3.3, Tables S2-S7, Figures S1-S4, Supplementary Data files
+  - **Concern** The reported accuracies are presented without sufficient context to be meaningful. The class distributions are highly imbalanced (e.g., LLPS data with classes at 1.6%, 2.5%, 1.4%, 0.88%, 0.08%; TF motif data with 14 of 20 classes having a single instance). The evaluation methodology is unclear. For the stratified independent test set, the accuracy drops to 64% for LLPS prediction, which is barely above what might be expected from a majority-class baseline given the extreme imbalance. The handling of the single-instance classes in the TF motif prediction is not described in sufficient detail. The specific features used, the model hyperparameters, and the criteria for feature selection are not fully specified. Without the actual data and detailed methodology, these accuracy figures cannot be assessed for their validity or generalizability.
+  - **Why it matters** The core claim of the tool's utility rests on its predictive performance. If the reported accuracies are inflated due to methodological issues (e.g., data leakage, improper validation, or failure to account for class imbalance), the tool's value is substantially diminished. The current presentation does not allow a reader to determine whether the tool provides reliable predictions.
+  - **Resolution test** Provide the full datasets and detailed methodology, including the exact feature sets used for each prediction task, the complete model configuration, and the precise splitting and preprocessing steps. Report performance using metrics appropriate for imbalanced data (e.g., precision, recall, F1-score, ROC-AUC) and compare against a baseline model (e.g., majority class or a simple feature-based model). Clarify how single-instance classes were handled in the TF motif prediction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / Novelty
+  - **Claim pointer** The Introduction states that "a bottleneck has been created by the lack of bioinformatics tools to predict the interaction modes of regulatory elements" and that the tool's integration of features is a key advantage.
+  - **Evidence pointer** Introduction, Sections 1 and 2
+  - **Concern** The manuscript does not clearly articulate what is novel about this tool compared to existing resources. The individual data sources (e.g., 3did, STRING, Pfam, GO) are well-established, and the concept of integrating domain-level features for interaction prediction is not new. The specific algorithmic contribution or the unique value of the integration strategy is not explained. The claim of a "bottleneck" due to a lack of tools is not supported by a survey of existing tools for interaction prediction or domain analysis. The tool appears to be primarily a database integration effort, but the manuscript does not specify what new analytical capabilities this integration enables that were not previously possible.
+  - **Why it matters** For a tool-oriented manuscript, the novelty and the specific gap it fills are central to its justification. Without a clear statement of what is new and why it matters, the contribution is unclear. The manuscript needs to position the tool within the existing landscape of bioinformatics resources and demonstrate a distinct advantage.
+  - **Resolution test** Provide a comparative analysis with existing tools or databases, highlighting specific features or capabilities that are unique to ART FOUNDATION-LOG. Clearly state the algorithmic or conceptual innovation. Demonstrate a use case where this tool provides information that cannot be obtained from existing resources.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Reproducibility
+  - **Claim pointer** The Methods section describes the creation of features from various databases, but the details are insufficient for reproduction.
+  - **Evidence pointer** Methods Sections 2.1-2.8, Table S1
+  - **Concern** The feature engineering process is described at a high level but lacks the specificity required for reproducibility. For example, in the oligomerization module, it is unclear how the 19 feature variables were derived from the 196 ProtCAD variables. The mapping of array values to categorical variables is described as being done "by mapping or applying clustering algorithms," but the specific mapping rules or clustering parameters are not given. The "special flags" are mentioned but their exact definitions and the thresholds used are not specified. The process for handling missing data is not described. The code is available, but the manuscript should provide sufficient detail for a reader to understand and potentially reimplement the methodology.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific software. If the feature construction and data processing steps are not clearly documented, the results cannot be independently verified, and the tool's reliability is questionable.
+  - **Resolution test** Provide a detailed description of each feature, including the exact source data, the transformation steps, and any parameters or thresholds used. Include a data dictionary or schema for the output. Ensure that the manuscript contains enough information for a skilled bioinformatician to reconstruct the pipeline without needing to reverse-engineer the code.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Relevance to stated goal
+  - **Claim pointer** The Introduction states the long-term goal is to "integrate PPI/PNI information into the development of a prediction model for identifying important genetic variants in peaches." The AGL15 example is presented as a demonstration of this integration.
+  - **Evidence pointer** Introduction, Results Section 3.3, Discussion
+  - **Concern** The connection between the tool's output and the stated goal of identifying genetic variants in peaches is not demonstrated. The AGL15 example shows that the tool can retrieve some information about known regulatory relationships, but it does not show how this information would be used to predict the impact of genetic variants. The discussion of peach homologs is speculative and does not provide any validation or concrete hypothesis. The manuscript does not present a clear workflow or framework for how the tool's predictions would be integrated into a variant prioritization pipeline.
+  - **Why it matters** The stated motivation for the tool is to address a challenge in peach breeding. If the manuscript does not demonstrate a plausible path from the tool's output to that goal, the relevance of the work is weakened. The AGL15 example, as presented, is a descriptive case study rather than a validation of the tool's utility for the intended application.
+  - **Resolution test** Provide a concrete example or a detailed workflow showing how the tool's predictions (e.g., oligomerization types, LLPS properties, TF binding motifs) would be used to prioritize or interpret genetic variants in a peach population. Alternatively, clearly state that this manuscript is only a first step and that the application to peach variant analysis is future work, and adjust the claims accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section 1
+  - **Issue** The abstract and introduction are dense with acronyms and technical terms (e.g., "ART FOUNDATION-LOG", "LLPS", "DDI", "DMIs", "Plant-PrAS features") without sufficient explanation for a reader who is not deeply familiar with each database or concept. The abstract does not clearly state what the tool does in simple terms.
+  - **Required correction** Provide a brief, plain-language summary of the tool's purpose and capabilities in the abstract. Define acronyms upon first use and consider adding a short paragraph in the introduction that explains the biological problem and the tool's approach in accessible terms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness / Statistical rigor
+  - **Affected element** Results Sections 3.1-3.3
+  - **Evidence pointer** Tables S2-S7
+  - **Issue** The manuscript reports only accuracy as the performance metric. Given the imbalanced class distributions, accuracy is not an informative metric. No confidence intervals or statistical significance tests are reported for the accuracy values.
+  - **Required correction** Report additional metrics such as precision, recall, F1-score, and area under the ROC curve. Provide confidence intervals for the accuracy estimates. If possible, compare the model's performance to a baseline model to demonstrate added value.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness / Clarity of methods
+  - **Affected element** Methods Section 2.8
+  - **Evidence pointer** Section 2.8
+  - **Issue** The description of the "rough sketch" for studying interactions between protein domains and binding sites is vague. It is unclear what this sketch does, how it was implemented, or what its outputs are. The connection to the rest of the tool is not explained.
+  - **Required correction** Either provide a more detailed description of this component, including its inputs, outputs, and intended use, or remove it from the methods if it is not essential to the tool's core functionality.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of LLPS and its biological implications is brief and does not fully explain the significance of the findings for a broader biological audience. The connection between the computational predictions and the biological hypotheses is not clearly articulated.
+  - **Required correction** Expand the discussion to explain the biological relevance of the predicted LLPS properties and oligomerization types in the context of transcriptional regulation. Provide more context on how these features might influence gene regulation and why this is important for understanding plant biology.
+
+## Risk / unsupported claims
+- The reported prediction accuracies (75%, 76%, 91%) are not verifiable from the provided material and may be misleading given the imbalanced class distributions and unclear evaluation methodology.
+- The claim that the tool addresses a "bottleneck" in predicting interaction modes of regulatory elements is not supported by a comparative analysis of existing tools.
+- The demonstration of the tool's utility for the AGL15 example is descriptive and does not constitute a validation of its predictive power or its relevance to the stated goal of identifying genetic variants in peaches.
+- The claim that the tool "will provide significant contribution to identification of important genetic variants" is speculative and not supported by any results presented in this manuscript.
+- The generalizability of the tool to other eukaryotic organisms is stated but not demonstrated.

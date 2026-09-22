@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34800513",
+  "title": "A green and sensitive guanine-based DNA biosensor for idarubicin anticancer monitoring in biological samples: A simple and fast strategy for control of health quality in chemotherapy procedure confirmed by docking investigation.",
+  "authors": "Karimi-Maleh, Hassan; Khataee, Alireza; Karimi, Fatemeh; Baghayeri, Mehdi; Fu, Li; Rouhi, Jalal; Karaman, Ceren; Karaman, Onur; Boukherroub, Rabah",
+  "journal": "Chemosphere",
+  "published_date": "2021-11-21",
+  "window": {
+    "start": "2021-11-15",
+    "end": "2021-11-21"
+  },
+  "score": 3,
+  "one_liner_zh": "该文开发基于DNA的电化学生物传感器监测抗癌药物伊达比星，并用分子对接验证药物与DNA的嵌入结合，对象为小分子药物与双链DNA而非无序蛋白，互作机制仅简单对接验证，与本课题关联较弱。",
+  "abstract": "Drug efficiency can be considerably boosted while adverse effects can be reduced by precisely monitoring the concentration of anti-cancer drugs. Thus, one of the most important parameters for human health is the monitoring and detection of anticancer drugs during chemotherapy treatment. Herein, a glassy carbon electrode (GCE) was modified by Pt- and Pd-incorporated ZnO nanoparticles-decorated single-wall carbon nanotubes (Pt-Pd-ZnO/SWCNTs) nanocomposites, and ds-DNA (Calf Thymus) that was a biological recognition element, and it was aimed to be utilized as an ultrasensitive and effective electroanalytical biosensor for idarubicin (IDR) monitoring. Various physicochemical characterization techniques including transmission electron microscopy (TEM), field-emission scanning electron microscopy (FE-SEM) with energy-dispersive X-ray spectroscopy (EDS) were used to investigate the morphology and structure of the Pt-Pd-ZnO/SWCNTs nanocomposite, which was produced via straightforward chemical precipitation combined with the one-pot method. The layer-by-layer modification technique was implemented to fabricate the ds-DNA/Pt-Pd-ZnO/SWCNTs/GCE to be further utilized as a voltammetric sensor for sensitive monitoring of idarubicin in biological fluids and pharmaceutical substances. The electroanalytical method implemented to detect idarubicin was based to detect the ds-DNA's guanine base signal on the surface of the modified electrode in the absence and presence of the anticancer drug. The results explicated that the developed biosensor performed well in determining idarubicin in concentrations ranging from 1.0 nM to 65 muM, with a detection limit of 0.8 nM. The idarubicin detection ability of the modified electrode in real samples was evaluated, and the recovery data was acquired in the range of 98.0% and 104.75%. In the final step, the preferential intercalative binding mode of idarubicin drug with ds-DNA was approved by molecular docking study. This study paves the way for engineering highly sensitive DNA biosensors to be employed in the monitoring of anticancer drugs by combining the benefits of nanocomposites and valuable information of a molecular docking study.",
+  "abstract_zh": "通过精确监测抗癌药物的浓度，可以显著提高药物效率并减少不良反应。因此，在化疗治疗期间监测和检测抗癌药物是关乎人类健康的最重要参数之一。本研究采用铂和钯掺杂的氧化锌纳米颗粒修饰单壁碳纳米管（Pt-Pd-ZnO/SWCNTs）纳米复合材料对玻碳电极（GCE）进行改性，并以双链DNA（小牛胸腺DNA）作为生物识别元件，旨在构建一种超灵敏、高效的电分析生物传感器，用于监测伊达比星（IDR）。通过包括透射电子显微镜（TEM）、场发射扫描电子显微镜（FE-SEM）结合能量色散X射线光谱（EDS）在内的多种物理化学表征技术，研究了通过简单化学沉淀法结合一锅法制备的Pt-Pd-ZnO/SWCNTs纳米复合材料的形貌和结构。采用逐层修饰技术制备了ds-DNA/Pt-Pd-ZnO/SWCNTs/GCE，并进一步用作伏安传感器，用于灵敏监测生物体液和药物物质中的伊达比星。用于检测伊达比星的电分析方法基于在抗癌药物存在和不存在的情况下，检测修饰电极表面ds-DNA的鸟嘌呤碱基信号。结果表明，所开发的生物传感器在1.0 nM至65 μM浓度范围内对伊达比星的测定表现良好，检测限为0.8 nM。评估了修饰电极在实际样品中检测伊达比星的能力，回收率数据在98.0%至104.75%之间。最后，通过分子对接研究确认了伊达比星药物与ds-DNA的优先嵌入结合模式。本研究通过结合纳米复合材料的优势和分子对接研究的有价值信息，为工程化高灵敏度DNA生物传感器用于抗癌药物监测铺平了道路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34800513/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34800513/",
+  "paper_page_path": "papers/pubmed/34800513/index.html"
+}

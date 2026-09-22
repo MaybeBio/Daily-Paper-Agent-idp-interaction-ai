@@ -1,0 +1,198 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.02.19.529112",
+  "title": "Microtubule binding of the human HAUS complex is directly controlled by importins and Ran-GTP",
+  "doi": "10.1101/2023.02.19.529112",
+  "abstract": "<h4>ABSTRACT</h4> Mitotic spindle assembly during cell division is a highly regulated process. Ran-GTP produced around chromosomes controls the activity of a multitude of spindle assembly factors by releasing them from inhibitory interaction with importins. A major consequence of Ran-GTP regulation is the stimulation of local microtubule nucleation around chromosomes via augmin/HAUS-mediated branched microtubule nucleation, a process that is critically important for correct spindle assembly. However, augmin is not known to be a direct target of the Ran-GTP pathway, raising the question of how its activity is controlled. Here we present the in vitro reconstitution of Ran-GTP-regulated microtubule binding of the human HAUS complex. We demonstrate that importins directly bind to the HAUS complex, which prevents HAUS from binding to microtubules. Ran-GTP relieves this inhibition. Therefore, the HAUS complex is a direct target of the Ran-GTP pathway, suggesting that branching microtubule nucleation is directly regulated by the Ran-GTP gradient around chromosomes in dividing cells.",
+  "authors": [
+    "Ustinova K",
+    "Ruhnow F",
+    "Gili M",
+    "Surrey T"
+  ],
+  "published_date": "2023-02-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.02.19.529112",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.02.19.529112.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR618701",
+    "raw_record": {
+      "id": "PPR618701",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR618701"
+        ]
+      },
+      "doi": "10.1101/2023.02.19.529112",
+      "title": "Microtubule binding of the human HAUS complex is directly controlled by importins and Ran-GTP",
+      "authorString": "Ustinova K, Ruhnow F, Gili M, Surrey T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ustinova K",
+            "lastName": "Ustinova",
+            "firstName": "Kseniya",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6632-5850"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), Barcelona Institute of Science and Technology (BIST), Carrer del Dr. Aiguader 88, 08003 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ruhnow F",
+            "lastName": "Ruhnow",
+            "firstName": "Felix",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), Barcelona Institute of Science and Technology (BIST), Carrer del Dr. Aiguader 88, 08003 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gili M",
+            "lastName": "Gili",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), Barcelona Institute of Science and Technology (BIST), Carrer del Dr. Aiguader 88, 08003 Barcelona, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Surrey T",
+            "lastName": "Surrey",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomic Regulation (CRG), Barcelona Institute of Science and Technology (BIST), Carrer del Dr. Aiguader 88, 08003 Barcelona, Spain"
+                },
+                {
+                  "affiliation": "ICREA, Passeig de Lluis Companys 23, 08010 Barcelona, Spain"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6632-5850"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Mitotic spindle assembly during cell division is a highly regulated process. Ran-GTP produced around chromosomes controls the activity of a multitude of spindle assembly factors by releasing them from inhibitory interaction with importins. A major consequence of Ran-GTP regulation is the stimulation of local microtubule nucleation around chromosomes via augmin/HAUS-mediated branched microtubule nucleation, a process that is critically important for correct spindle assembly. However, augmin is not known to be a direct target of the Ran-GTP pathway, raising the question of how its activity is controlled. Here we present the  in vitro reconstitution of Ran-GTP-regulated microtubule binding of the human HAUS complex. We demonstrate that importins directly bind to the HAUS complex, which prevents HAUS from binding to microtubules. Ran-GTP relieves this inhibition. Therefore, the HAUS complex is a direct target of the Ran-GTP pathway, suggesting that branching microtubule nucleation is directly regulated by the Ran-GTP gradient around chromosomes in dividing cells.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "951430",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/02/20/2023.02.19.529112.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.02.19.529112"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR618701"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR618701&type=FILE&fileName=EMS170598-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS170598",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "hpa",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-02-21",
+      "firstPublicationDate": "2023-02-20",
+      "firstIndexDate": "2023-02-22",
+      "fullTextReceivedDate": "2023-03-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.02.21.481269",
+  "title": "An in-silico study of the mutation-associated effects on the spike protein of SARS-CoV-2, Omicron variant",
+  "authors": "Shishir TA; Jannat T; Naser IB",
+  "journal": "bioRxiv",
+  "published_date": "2022-02-23",
+  "window": {
+    "start": "2022-02-21",
+    "end": "2022-02-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究用AI预测和MD模拟分析Omicron刺突蛋白RBD突变对hACE2结合的影响，虽非IDP对象，但PPI机制建模方法可迁移参考。",
+  "abstract": "The emergence of Omicron (B.1.1.529), a new Variant of Concern in the COVID-19 outbreak, while accompanied by the ongoing Delta variant infection, has once again fueled fears of a new infection wave and global health concern. In the Omicron variant, the receptor-binding domain (RBD) of its spike glycoprotein is heavily mutated, a feature critical for the transmission rate of the virus by interacting with hACE2. In this study, we used a combination of conventional and advanced neural network-based in silico approaches to predict how these mutations would affect the spike protein. The results demonstrated a decrease in the electrostatic potentials of residues corresponding to receptor recognition sites, an increase in the alkalinity of the protein, a change in hydrophobicity, variations in functional residues, and an increase in the percentage of alpha-helix structure. Our next step was to predict the structural changes of the spike protein using the AI-based tool Alphafold2 and dock it with hACE2. The results revealed that the RBD of the Omicron variant had a higher affinity than the reference. Moreover, all-atom molecular dynamics simulations concluded that the RBD of the Omicron variant exhibits a more dispersed interaction network since mutations resulted in an increased number of hydrophobic interactions and hydrogen bonds with hACE2 compared to the reference RBD. In summary, our current study highlighted the potential structural basis for the enhanced transmissibility and pathogenicity of the Omicron variant, although further research is needed to investigate its epidemiological and biological implications.",
+  "abstract_zh": "Omicron（B.1.1.529）作为一种新型冠状病毒关注变种的出现，伴随着持续存在的Delta变种感染，再次引发了人们对新一轮感染浪潮和全球健康担忧的恐慌。在Omicron变种中，其刺突糖蛋白的受体结合域（RBD）发生了大量突变，这一特征对于病毒通过与hACE2相互作用而实现的传播速率至关重要。在本研究中，我们结合传统方法和基于先进神经网络的计算机模拟方法，预测这些突变如何影响刺突蛋白。结果表明，与受体识别位点对应的残基静电势降低，蛋白质碱性增强，疏水性发生变化，功能残基变异，以及α-螺旋结构百分比增加。下一步，我们使用基于人工智能的工具Alphafold2预测刺突蛋白的结构变化，并将其与hACE2进行对接。结果显示，Omicron变种的RBD比参考株具有更高的亲和力。此外，全原子分子动力学模拟得出结论，Omicron变种的RBD表现出更分散的相互作用网络，因为与参考RBD相比，突变导致与hACE2的疏水相互作用和氢键数量增加。总之，我们当前的研究强调了Omicron变种传播性和致病性增强的潜在结构基础，尽管仍需进一步研究以探讨其流行病学和生物学意义。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.02.21.481269",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.02.21.481269",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.02.21.481269/index.html"
+}

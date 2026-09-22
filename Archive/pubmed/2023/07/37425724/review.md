@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) from bioRxiv preprint
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text; no access to figures, supplementary materials, or raw data
+- **Shared manuscript claim summary** The authors report that liquid-like condensates containing VASP, Arp2/3, and the VCA domain of N-WASP can modulate the competition between actin branching and bundling. At low actin-to-VASP ratios, Arp2/3 activity inhibits VASP-mediated bundling and droplet deformation; at higher ratios, aster-like structures form with bundled spokes emerging from a branched core. Agent-based simulations support a mechanism whereby branching reduces filament length, inhibiting ring formation.
+- **Visible evidence base** Text descriptions of results (Figures 1–6 referenced), methods, and discussion; no actual figures, numerical data tables, or supplementary information provided
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, numerical values (except select t1/2 and partitioning values), simulation parameters, and statistical analyses are not accessible; this limits quantitative verification of claims
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and interesting question: how do liquid-like condensates integrate competing actin network morphologies? The conceptual framework is appealing and the combination of experiments with agent-based simulations is appropriate. However, the provided text alone does not allow verification of key quantitative claims, and several logical gaps remain in the mechanistic argument. The work is potentially significant for the cytoskeleton and phase separation communities, but the case would be strengthened by clearer presentation of quantitative data and more direct tests of the proposed mechanism.
+- **Who would be interested in the results, and why** Researchers studying actin cytoskeleton dynamics, phase separation and biomolecular condensates, cell motility, and biophysics of cytoskeletal networks. The work bridges two active fields and suggests a new role for condensates in organizing actin architecture, which could interest cell biologists and biophysicists alike.
+- **Major strengths** The question is well-motivated and biologically relevant. The use of a minimal reconstituted system is elegant. Combining experiments with Cytosim simulations is a strong approach. The observation of aster-like structures with segregated Arp2/3 and VASP is visually compelling and conceptually novel.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "At low actin to VASP ratios, branching activity, mediated by Arp2/3, robustly inhibited VASP-mediated bundling of filaments, in agreement with agent-based simulations."
+  - **Evidence pointer** Figure 2, Figure 5; location not provided
+  - **Concern** The claim of "robust inhibition" is presented without quantitative data in the text. No numerical values for aspect ratio distributions, statistical significance, or comparison between conditions are given. The agreement with simulations is stated but not demonstrated quantitatively.
+  - **Why it matters** The central conclusion of the paper rests on this inhibition effect. Without quantitative evidence, the reader cannot assess the strength of the effect or whether it is statistically meaningful.
+  - **Resolution test** Provide quantitative aspect ratio data (mean, SD, n, statistical tests) for each Arp2/3 concentration, and a direct quantitative comparison between experimental and simulated aspect ratio distributions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** "Simulations suggest that filament branching inhibits the formation of actin-rich rings by reducing the average length of filaments."
+  - **Evidence pointer** Figure 5; location not provided
+  - **Concern** The proposed mechanism (branching reduces filament length, which inhibits ring formation) is plausible but not directly tested experimentally. The simulations are described as supporting this, but no experimental measurement of filament length distributions is presented.
+  - **Why it matters** The mechanism is the core explanatory framework of the paper. Without experimental validation of the predicted filament length reduction, the mechanism remains speculative.
+  - **Resolution test** Measure filament lengths in droplets with and without Arp2/3 (e.g., by fluorescence microscopy) and show that length distributions shift as predicted by simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** "Arp2/3 spontaneously partitioned to the cores of asters and was depleted from the spokes, demonstrating actin-mediated partitioning of protein components within droplets."
+  - **Evidence pointer** Figure 6e,f; location not provided
+  - **Concern** The claim of "actin-mediated partitioning" is an interpretation, but alternative explanations (e.g., differential binding affinities, size exclusion, or phase separation of Arp2/3 itself) are not discussed or ruled out.
+  - **Why it matters** The partitioning observation is interesting and could have broad implications, but the mechanism of partitioning is not established. Overinterpretation could mislead readers.
+  - **Resolution test** Perform control experiments (e.g., Arp2/3 in droplets without actin, or with pre-formed bundles) to test whether partitioning depends on actin network architecture.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, droplet formation
+  - **Evidence pointer** Methods section, "VASP droplet formation and actin polymerization"
+  - **Issue** The text states that actin was added after droplet formation, but the timing of Arp2/3 and VCA addition relative to droplet formation is not specified.
+  - **Required correction** Clarify the order of addition for all components and whether pre-incubation steps were used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, protein labeling
+  - **Evidence pointer** Methods section, "Protein labeling"
+  - **Issue** Labeling ratios are given for VASP and actin, but not for Arp2/3 and VCA. This could affect interpretation of partitioning data.
+  - **Required correction** Report labeling ratios for all labeled proteins.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, aspect ratio measurements
+  - **Evidence pointer** Figure 2; location not provided
+  - **Issue** No information on number of replicates, number of droplets analyzed, or statistical tests used is provided in the text.
+  - **Required correction** Add statistical details to figure legends or methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion, comparison to prior work
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions prior work on actin asters but does not discuss how the present system differs mechanistically from those studies in detail.
+  - **Required correction** Expand the comparison to clarify what is new about the condensate-mediated mechanism.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The quantitative basis for the central claims is not verifiable from the provided text, and the proposed mechanism lacks direct experimental validation.
+- **Assessment against Nature-style criteria** Originality: High. The idea that condensates mediate competition between branching and bundling is novel and timely. Scientific importance: Potentially high, as it could reshape understanding of actin network organization in cells. Interdisciplinary readership: Likely broad, spanning cell biology, biophysics, and phase separation communities. Technical soundness: Cannot be fully assessed without figures and data; the experimental design is reasonable but quantitative support is missing. Readability for nonspecialists: The text is generally clear, though some jargon (e.g., "persistence length") could be better explained for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual advance is significant, but the current evidence base is insufficient to fully establish the claims.
+
+## Risk / unsupported claims
+- The claim that branching "robustly inhibited" bundling at low actin-to-VASP ratios is not quantitatively supported in the text.
+- The mechanistic claim that reduced filament length is the cause of inhibited ring formation is not experimentally validated.
+- The claim of "actin-mediated partitioning" of Arp2/3 is an interpretation not directly tested.
+- The statement that VCA "reinforces condensation" of VASP is based on droplet size distributions, but no quantitative data are provided.
+- The relevance of the findings to cellular processes (e.g., filopodia emergence) is speculative and not directly tested.

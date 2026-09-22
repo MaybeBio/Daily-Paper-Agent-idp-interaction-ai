@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40203038",
+  "title": "Exploring RNA destabilization mechanisms in biomolecular condensates through atomistic simulations.",
+  "authors": "Boccalini, Matteo; Berezovska, Yelyzaveta; Bussi, Giovanni; Paloni, Matteo; Barducci, Alessandro",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2025-04-09",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用全原子增强采样模拟研究凝聚体环境中RNA发夹的构象重塑与去稳定化机制，虽对象为RNA而非蛋白IDR，但聚焦凝聚体内部拥挤环境对生物大分子结构的影响，其溶剂化与氢键/堆叠机制建模思路对IDR介导PPI及相分离机制研究有可迁移启发。",
+  "abstract": "Biomolecular condensates are currently recognized to play a key role in organizing cellular space and in orchestrating biochemical processes. Despite an increasing interest in characterizing their internal organization at the molecular scale, not much is known about how the densely crowded environment within these condensates affects the structural properties of recruited macromolecules. Here, we adopted explicit-solvent all-atom simulations based on a combination of enhanced sampling approaches to investigate how the conformational ensemble of an RNA hairpin is reshaped in a highly concentrated peptide solution that mimics the interior of a biomolecular condensate. Our simulations indicate that RNA structure is greatly perturbed by this distinctive physico-chemical environment, which weakens RNA secondary structure and promotes extended nonnative conformations. The resulting high-resolution picture reveals that RNA unfolding is driven by the effective solvation of nucleobases through hydrogen bonding and stacking interactions with surrounding peptides. This solvent effect can be modulated by the amino acid composition of the model condensate as proven by the differential RNA behavior observed in the case of arginine-rich and lysine-rich peptides.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）目前被认为在组织细胞空间和协调生化过程中发挥关键作用。尽管人们对在分子尺度上表征其内部组织的兴趣日益增加，但对于这些凝聚体内高度拥挤的环境如何影响被招募大分子的结构性质，所知甚少。在此，我们采用基于增强采样方法组合的显式溶剂全原子模拟（explicit-solvent all-atom simulations），研究RNA发夹的构象系综如何在模拟生物分子凝聚体内部的高度浓缩肽溶液中重塑。我们的模拟表明，RNA结构受到这一独特物理化学环境的显著扰动，该环境削弱了RNA二级结构并促进延伸的非天然构象。所得高分辨率图像揭示，RNA解折叠由核碱基通过与周围肽的氢键和堆叠相互作用的有效溶剂化驱动。这种溶剂效应可通过模型凝聚体的氨基酸组成进行调节，正如在富含精氨酸和富含赖氨酸肽的情况下观察到的差异RNA行为所证明的那样。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40203038/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40203038/",
+  "paper_page_path": "papers/pubmed/40203038/index.html"
+}

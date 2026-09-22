@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.28.538739",
+  "title": "Computational design of intrinsically disordered protein regions by matching bulk molecular properties",
+  "authors": "Bob Strome; Khaled Elemam; Iva Pritisanac; Julie D. Forman-Kay; Alan M. Moses",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-29",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出通过匹配分子性质计算设计无序蛋白区域(IDR)的算法，虽未直接研究PPI机制，但涉及IDR与凝聚体形成，且方法可迁移至IDR介导互作的设计与建模。",
+  "abstract": "Algorithms for computational protein design usually begin with a 3D structure and design an amino acid sequence that will fold into that structure. Since intrinsically disordered protein regions lack stable 3D structures, strategies for their design have been limited. Here we describe and validate a general computational strategy for design of intrinsically disordered regions (IDRs). Our algorithm designs synthetic IDRs by minimizing the distance of an initially random amino acid sequence to a known IDR in a high-dimensional space of molecular properties, such as repeat content, charge and hydrophobicity. We tested a handful of IDRs designed to target proteins to mitochondria and heat-induced condensates, and several showed the expected patterns in cells. One sentence summary We design synthetic mitochondrial targeting signals and condensate forming intrinsically disordered regions",
+  "abstract_zh": "计算蛋白质设计的算法通常以三维结构为起点，并设计一个能折叠成该结构的氨基酸序列。由于固有无序蛋白质区域缺乏稳定的三维结构，针对其设计策略一直受限。在此，我们描述并验证了一种用于设计固有无序区域（IDRs）的通用计算策略。我们的算法通过最小化初始随机氨基酸序列与已知IDR在高维分子特性空间（如重复含量、电荷和疏水性）中的距离，来设计合成IDRs。我们测试了若干旨在将蛋白质靶向线粒体和热诱导凝聚体的IDRs，其中几个在细胞中表现出预期模式。一句话摘要：我们设计了合成线粒体靶向信号和形成凝聚体的固有无序区域。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.28.538739",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.28.538739",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.28.538739/index.html"
+}

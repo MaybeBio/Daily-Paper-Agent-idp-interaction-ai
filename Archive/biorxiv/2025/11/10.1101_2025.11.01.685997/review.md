@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to figures, tables, methods, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that systematic lysine-to-glutamine (K-to-Q) mutagenesis of α-Synuclein (αSyn) provides a quantitative probe of the protein’s aggregation energy landscape. They report that global properties (concentration, charge, ionic strength) model aggregation from homogeneous solution, while sequence-specific effects modulate microscopic pathways and fibril polymorphs. Mutations within fibril cores are claimed to create new energy minima and pathways not accessible to wild-type (WT), whereas mutations outside cores alter barrier magnitudes while preserving a WT-like landscape. The work is framed as a scalable framework for enhancing mutational studies using conventional assays.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or primary data are provided
+- **Missing materials affecting confidence** Full manuscript, methods, figures, tables, supplementary information, and any quantitative model descriptions are absent. The abstract references "controlled conditions" and "conventional assays" without specifying them, and no numerical results or model fits are shown.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and systematic approach to dissecting the energy landscape of αSyn aggregation through targeted mutagenesis. The conceptual distinction between global and sequence-specific determinants is appealing and could be of value to the protein aggregation and neurodegeneration communities. However, the abstract alone provides insufficient evidence to evaluate the validity, robustness, or novelty of the claims. Key quantitative outcomes, model details, and experimental validations are not visible. The central claims about energy landscape modifications and polymorph control are plausible but currently unsubstantiated from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying protein misfolding and amyloid aggregation, particularly those focused on α-synuclein and Parkinson’s disease. The framework may also interest biophysicists and computational biologists working on energy landscape theory and mutational scanning approaches. The potential to link sequence perturbations to polymorph selection could attract those developing therapeutic strategies targeting fibril strain diversity.
+- **Major strengths** The systematic design of one to eight K-to-Q substitutions is a clear and logical approach to probe electrostatic contributions. The separation of global versus sequence-specific effects is a conceptually useful framework. The claim that core versus non-core mutations have qualitatively different impacts is testable and could provide mechanistic insight. The emphasis on a scalable framework using conventional assays is pragmatic and could broaden applicability.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "αSyn aggregation from a homogenous solution can be modelled well using global properties, including protein concentration, charge, and ionic strength."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative model, fit parameters, or statistical measures are presented to support the claim that global properties model aggregation "well." The abstract does not specify which aggregation readouts were modeled (e.g., nucleation lag time, elongation rate, fibril yield) or how model performance was assessed.
+  - **Why it matters** This claim is foundational to the proposed framework. Without evidence of model accuracy and predictive power, the assertion that global properties suffice for homogeneous aggregation is unsupported and could mislead subsequent interpretations.
+  - **Resolution test** Provide model equations, fitted parameters, and goodness-of-fit metrics (e.g., R², residuals) for at least a subset of variants across a range of concentrations and ionic strengths. Show that the model captures observed aggregation kinetics or thermodynamics within defined error bounds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The authors claim that "mutations of residues found in fibril cores ... create pathways and energy minima not accessible to the WT under the same experimental conditions."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no experimental evidence, such as fibril structure determination, kinetic traces, or thermodynamic measurements, to demonstrate that new energy minima or pathways are created. The term "not accessible to the WT" implies a qualitative difference that requires direct comparison of polymorph populations or intermediate states.
+  - **Why it matters** This is a central mechanistic claim that distinguishes core from non-core mutations. Without structural or kinetic evidence, the claim remains speculative and could be an overinterpretation of aggregation rate changes.
+  - **Resolution test** Present data showing distinct fibril polymorphs (e.g., via cryo-EM, solid-state NMR, or FTIR) for core mutants that are absent in WT under identical conditions. Alternatively, provide kinetic evidence of on-pathway intermediates unique to these mutants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and scope
+  - **Claim pointer** The authors state that "mutations outside of the fibril core affect the magnitude of the relevant energy barriers whilst overall maintaining a WT-like free energy landscape."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not define how "WT-like" is assessed or which energy barriers are referenced. No quantitative comparison of barrier heights or landscape topology is provided. The claim appears to rely on qualitative similarity in aggregation outcomes, which is insufficient to establish landscape equivalence.
+  - **Why it matters** This claim underpins the proposed dichotomy between core and non-core mutations. Without a defined metric for landscape similarity, the conclusion is not falsifiable and cannot be independently evaluated.
+  - **Resolution test** Define operational criteria for "WT-like" (e.g., similar fibril morphology, comparable seeding efficiency, or overlapping free energy profiles from kinetic fits). Provide quantitative comparisons for at least two non-core mutants across multiple conditions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "modelled well using global properties" is vague regarding the model type (e.g., empirical, mechanistic) and the specific aggregation step being modeled.
+  - **Required correction** Specify the model class and the aggregation observable (e.g., lag time, elongation rate) in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** "Controlled conditions" is not defined, leaving ambiguity about pH, temperature, agitation, and salt composition, which are known to affect αSyn aggregation.
+  - **Required correction** State the key buffer conditions and temperature in the abstract or refer to a methods section with explicit parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Energy landscape"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "energy landscape" is used qualitatively without reference to a specific computational or experimental definition, which may confuse readers expecting quantitative free energy surfaces.
+  - **Required correction** Clarify whether the landscape is inferred from kinetic/thermodynamic fits or is a conceptual framework, and define the relevant coordinates (e.g., reaction progress, polymorph space).
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence for the global model, structural or kinetic proof of new energy minima, and a defined metric for "WT-like" landscapes. These are essential to support the central claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The systematic K-to-Q scanning approach is not entirely novel, as mutational studies of αSyn exist, but the explicit focus on distinguishing global versus sequence-specific effects and core versus non-core mutations offers a potentially fresh angle. Originality is plausible but not fully demonstrable from the abstract.
+  - **Scientific importance** If substantiated, the framework could inform how sequence perturbations alter aggregation pathways and polymorph selection, which is relevant to understanding strain diversity in synucleinopathies. Importance is moderate to high, contingent on evidence.
+  - **Interdisciplinary readership** The topic bridges biophysics, molecular neuroscience, and structural biology. The abstract is accessible to specialists but may be too technical for a broad audience without additional context on energy landscape concepts.
+  - **Technical soundness** Cannot be assessed from the abstract. No methods, data, or statistical analyses are visible. The claims are plausible but unverified.
+  - **Readability for nonspecialists** The abstract is concise and generally clear, but terms like "energy landscape," "fibril polymorphs," and "K-to-Q mutagenesis" assume domain knowledge. A brief explanation of these concepts would improve accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the absence of quantitative data, model details, and structural evidence prevents validation of the core claims. I would be supportive if the full manuscript provides robust evidence addressing R1-M1, R1-M2, and R1-M3.
+
+## Risk / unsupported claims
+- The claim that global properties model aggregation "well" is unsupported without quantitative model fits.
+- The claim that core mutations create "pathways and energy minima not accessible to the WT" is unsupported without structural or kinetic evidence.
+- The claim that non-core mutations maintain a "WT-like free energy landscape" is unsupported without a defined comparison metric.
+- The generalizability of the framework to other conditions or proteins is asserted but not evidenced.
+- The abstract implies a scalable approach, but scalability is not demonstrated with data on throughput or reproducibility.

@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusions, and computational methods. Figures and supplementary material are referenced but not provided.
+- **Assessment boundary** Scientific validity, methodological soundness, and support for claims based solely on the supplied text. No assessment of figures, tables, or supplementary data beyond what is described in the text.
+- **Shared manuscript claim summary** The authors present an explicit-solvent coarse-grain molecular dynamics model using the Martini 3.0 force field to study complex coacervates formed by poly-lysine and poly-glutamate. They claim to reproduce experimentally observed salt-dependent coacervation, characterize ion partitioning and hydration within the coacervate phase, quantify water and peptide diffusion, and demonstrate partitioning of RNA oligonucleotides into the coacervate, supported by free energy calculations.
+- **Visible evidence base** Text descriptions of simulation setups, analysis methods, and qualitative results. References to figures (Fig. 2, 3, 4, 5, 6), supplementary figures (Fig. S1–S9), tables (Table 1, 2), and a movie (Movie S1, S2) are made, but none of these are directly visible to the reviewer.
+- **Missing materials affecting confidence** All figures, tables, supplementary figures, and movies are referenced but not provided. Numerical values for key results (e.g., cluster sizes, diffusion coefficients, free energy profiles, density values) are only partially given in the text. The force field version used ("open beta") versus the final release is discussed, but the specific parameter differences are not detailed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely topic, namely the simulation of complex coacervates with an explicit-solvent coarse-grain model. The choice of the Martini 3.0 force field is well justified, and the study targets properties that are difficult to access experimentally, such as molecular-level partitioning and dynamics. The qualitative agreement with experimental trends is encouraging. However, the absence of the actual figures, tables, and numerical data prevents a full evaluation of the quantitative claims. Several methodological details, particularly regarding the free energy calculations and the interpretation of the incoherent scattering function, require clarification. The claim of "near-atomic resolution" is somewhat overstated given the coarse-grain nature of the model. Overall, the work is potentially valuable, but the current evidence base is insufficient to fully establish the case.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, liquid-liquid phase separation, coacervation, and coarse-grain molecular dynamics simulations. The work is also relevant to those studying the origin of life, particularly the RNA world hypothesis, and to scientists interested in the biotechnological applications of coacervates for encapsulation and extraction. The demonstration of Martini 3.0's applicability to this class of systems will be of interest to the simulation community.
+- **Major strengths** The study tackles a challenging problem, namely the dynamics and partitioning of small molecules within coacervates, which is difficult to address experimentally. The use of an explicit-solvent model with near-atomic resolution is a step forward compared to implicit-solvent or more coarse-grained approaches. The authors provide a clear description of the simulation setup and analysis methods. The qualitative reproduction of salt-dependent coacervation and the observation of reduced water diffusion within the coacervate are encouraging and align with experimental findings. The free energy calculations for RNA partitioning represent a valuable quantitative contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims to "demonstrate the accuracy of the model by reproducing the salt dependent coacervation" and to "show the potential of the model by simulating the partitioning of ions and small nucleotides."
+  - **Evidence pointer** Figures 2, 3, 6; Tables 1, 2; Supplementary Figures S1–S9; location not provided for specific data points.
+  - **Concern** The central quantitative claims of the manuscript are supported by figures, tables, and supplementary materials that are not provided to the reviewer. Without direct access to the data, it is impossible to verify the magnitude of the reported effects, the statistical significance of the results, or the quality of the fits (e.g., to the ISF data). For example, the claim of a "semi-quantitative" match with the experimental critical salt concentration cannot be assessed without seeing the phase diagram or the cluster size data. Similarly, the free energy profile for RNA partitioning (Fig. 6C) is described but not shown, preventing an evaluation of the convergence and error bars of the calculation.
+  - **Why it matters** The core of the paper's contribution is the quantitative description of coacervate properties. Without the actual data, the claims are unverifiable, and the scientific case is not established. The reader cannot judge whether the model is truly predictive or merely qualitatively suggestive.
+  - **Resolution test** Provide the actual figures, tables, and supplementary data. Include numerical values for key results (e.g., critical salt concentration, diffusion coefficients, free energy minima) with associated uncertainties. Show the quality of the fits to the ISF data and the convergence of the free energy profiles.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The manuscript states that "the exact transition point is rather sensitive to details of the force field" and that a shift was observed when using the final Martini 3.0 version instead of the beta release.
+  - **Evidence pointer** Computational methods, "System setup" section; Figure S3; location not provided.
+  - **Concern** The manuscript relies on simulations performed with the "open beta" version of the Martini 3.0 force field, while noting that the final release shifts the transition point. This raises a significant concern about the validity of the results presented. If the final force field is the recommended one, why are the main results based on the beta version? The magnitude of the shift is not quantified, and it is unclear whether the qualitative conclusions (e.g., ion partitioning, diffusion) would hold with the final parameters. This is a critical methodological issue that undermines the reliability of the reported findings.
+  - **Why it matters** The choice of force field version is fundamental to the validity of any simulation study. If the results are sensitive to the force field version, the conclusions may not be robust. The reader needs to know whether the reported behavior is an artifact of the beta parameters or a genuine property of the system.
+  - **Resolution test** Repeat the key simulations (at least for the salt-dependent phase behavior and RNA partitioning) with the final Martini 3.0 release. Quantify the shift in the transition point and demonstrate that the main conclusions are unchanged. If this is not feasible, provide a detailed discussion of the expected impact of the parameter changes on the reported results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of results
+  - **Claim pointer** The manuscript claims that "the effective ion concentration (amount of ions per water) is actually increased in this region" (i.e., within the coacervate), based on density profiles.
+  - **Evidence pointer** Results and discussion, "Ion partitioning and hydration of the coacervate phase" section; Figure 3; location not provided.
+  - **Concern** The interpretation of the ion density data appears to be non-trivial. The text states that the ion concentration in the bulk phase is higher than in the coacervate, but the effective ion concentration (per water) is increased in the coacervate. This is a subtle and potentially important point, but the reasoning is not fully explained. The distinction between absolute ion density and ion concentration relative to water is not clearly articulated. Furthermore, the implications of this finding for the driving forces of coacervation are not discussed.
+  - **Why it matters** The role of ions in coacervation is a central topic in the field. A clear and correct interpretation of the simulation data is essential for the paper's contribution. If the interpretation is flawed, the conclusions about ion partitioning could be misleading.
+  - **Resolution test** Provide a more detailed explanation of the calculation of the effective ion concentration. Show the individual density profiles for water and ions, and clearly demonstrate the difference between absolute and relative ion concentrations. Discuss the physical implications of this observation for the stability and properties of the coacervate.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript uses the Incoherent Scattering Function (ISF) to extract diffusion coefficients for water and peptides, fitting the data with single or double exponential functions.
+  - **Evidence pointer** Results and discussion, "Water and peptide diffusion" section; Figures 4, 5; Tables 1, 2; location not provided.
+  - **Concern** The use of the ISF to extract diffusion coefficients is a non-standard approach in this context. The manuscript does not provide sufficient detail on how the ISF was computed, how the wave vectors q were chosen, or how the fitting was performed. The statement that "for a q value of ∼0.64 (i.e. a length scale lower than 2.8 particle diameters), we find the diffusion coefficients to plateau" is unclear. The relationship between the ISF decay time and the diffusion coefficient is given, but the validity of this relationship for the heterogeneous environment of a coacervate is not discussed. The comparison with experimental diffusion coefficients is qualitative, and the manuscript does not address potential artifacts due to the coarse-grain model.
+  - **Why it matters** The diffusion coefficients are a key quantitative output of the study. If the methodology is not sound or is poorly explained, the reported values cannot be trusted. The reader needs to understand the limitations and assumptions of the analysis.
+  - **Resolution test** Provide a more detailed description of the ISF calculation and fitting procedure. Justify the choice of q values and the use of single vs. double exponential fits. Discuss the limitations of this approach for heterogeneous systems and compare the results with more standard methods (e.g., mean squared displacement analysis) where possible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "location not provided"
+  - **Issue** The abstract states the model offers "near-atomic resolution." This is potentially misleading, as a coarse-grain model with 2-4 heavy atoms per bead does not provide atomic resolution. The term "near-atomic" is used in the introduction to describe the resolution of the Martini model, but it may overstate the level of detail.
+  - **Required correction** Rephrase to "near-atomic level of detail" or "near-atomic granularity" to avoid implying true atomic resolution.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and discussion, "Partitioning of RNA" section
+  - **Evidence pointer** Figure 6; location not provided.
+  - **Issue** The manuscript states that "the movement of ssRNA into the coacervate phase is most evident for the system with 0.25 M salt," but the snapshots in Figure 6 are only described for the 3-mer ssRNA. It is unclear whether the 5-mer and 10-mer systems show the same behavior, and the text does not provide a quantitative comparison.
+  - **Required correction** Provide a quantitative measure of partitioning (e.g., enrichment factor) for all three ssRNA lengths and both salt concentrations, and describe the differences, if any.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Computational methods, "System setup" section
+  - **Evidence pointer** "location not provided"
+  - **Issue** The manuscript states that "reported salt concentrations are based on the final number of the water molecules and are calculated as C(Na+) = C(Cl−) = (number of ions × 55 mol L−1)/(final number of water beads × 4)." The factor of 4 is mentioned, but it is not explicitly stated that this accounts for the fact that one Martini water bead represents four water molecules. This is clear from context, but it could be stated more explicitly.
+  - **Required correction** Add a brief clarification, e.g., "where the factor of 4 accounts for the mapping of one Martini water bead to four water molecules."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results and discussion, "Water and peptide diffusion" section
+  - **Evidence pointer** Table 2; location not provided.
+  - **Issue** The manuscript states that "in case of the system with 0.9 M, which is homogeneous, the dynamics is slowed down due to the formation of a gel-like network at the high peptide concentrations used in this study." This is an interesting observation, but it is not supported by any data shown in the text. It is unclear how the "gel-like network" was identified.
+  - **Required correction** Provide evidence for the gel-like network (e.g., from cluster analysis, structural analysis, or visual inspection of the simulation) or soften the claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing data), R1-M2 (force field version), R1-M3 (interpretation of ion data), R1-M4 (ISF methodology).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of the Martini 3.0 force field to study coacervate dynamics with explicit solvent is a novel contribution. While other coarse-grain models exist, the specific focus on ion partitioning, water diffusion, and RNA partitioning with this level of chemical detail is original.
+  - **Scientific importance** The topic is of high importance, given the widespread interest in biomolecular condensates and their role in cellular function and disease. The ability to simulate these systems with explicit solvent and near-atomic resolution has the potential to provide unique insights.
+  - **Interdisciplinary readership** The work will appeal to a broad readership, including biophysicists, physical chemists, cell biologists, and origin-of-life researchers. The methods and findings are relevant across these disciplines.
+  - **Technical soundness** The technical soundness cannot be fully assessed due to the missing data. The methodological concerns regarding the force field version and the ISF analysis need to be addressed. The description of the simulation setup is generally clear, but the analysis methods require more detail.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The introduction provides sufficient background. However, some sections, particularly the description of the ISF analysis, may be challenging for nonspecialists. The abstract could be clearer about the limitations of the model.
+- **Recommendation posture** Supportive if technical concerns are resolved. The topic is important, and the approach is promising. However, the current evidence base is insufficient to fully establish the case. The authors must provide the actual data, address the force field version issue, and clarify the methodological details.
+
+## Risk / unsupported claims
+- The claim of "near-atomic resolution" is potentially overstated for a coarse-grain model.
+- The claim of "semi-quantitative agreement" with the experimental phase diagram is not verifiable without the actual data.
+- The claim that "the effective ion concentration is increased in the coacervate" is not fully supported by the text alone.
+- The observation of a "gel-like network" at high peptide concentrations is not supported by any data shown.
+- The free energy of transfer for RNA partitioning (approximately 40 kJ/mol) is stated but not shown, and its convergence and error are not discussed.
+- The statement that "the movement of ssRNA into the coacervate phase is most evident for the system with 0.25 M salt" is not quantitatively supported.

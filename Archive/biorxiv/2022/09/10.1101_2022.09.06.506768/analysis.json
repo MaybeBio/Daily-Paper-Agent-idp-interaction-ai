@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.06.506768",
+  "title": "MultiOMICs landscape of SARS-CoV-2-induced host responses in human lung epithelial cells",
+  "authors": "Pinto SM; Subbannayya Y; Kim H; Hagen L; Górna MW; Nieminen AI; Bjørås M; Espevik T; Kainov D; Kandasamy RK",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-07",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过多组学分析SARS-CoV-2感染宿主肺上皮细胞的信号通路变化，虽涉及宿主-病原互作，但对象非无序蛋白/IDR，无PPI机制建模，也无AI或物理模拟方法，与本课题关联微弱。",
+  "abstract": "Despite the availability of vaccines and approved therapeutics, the COVID-19 pandemic continues to rise owing to the emergence of newer variants. Several multi-omics studies have made available extensive evidence on host-pathogen interactions and potential therapeutic targets. Nonetheless, an increased understanding of host signaling networks regulated by post-translational modifications and their ensuing effect on the biochemical and cellular dynamics is critical to expanding the current knowledge on the host response to SARS-CoV-2 infections. Here, employing unbiased global transcriptomics, proteomics, acetylomics, phosphoproteomics, and exometabolome analysis of a lung-derived human cell line, we show that SARS-CoV-2 Norway/Trondheim-S15 strain induces time-dependent alterations in the induction of type I IFN response, activation of DNA damage response, dysregulated Hippo signaling, among others. We provide evidence for the interplay of phosphorylation and acetylation dynamics on host proteins and its effect on the altered release of metabolites, especially organic acids and ketone bodies. Together, our findings serve as a resource of potential targets that can aid in designing novel host-directed therapeutic strategies.",
+  "abstract_zh": "尽管已有疫苗和获批的治疗药物，但由于新变种的出现，COVID-19疫情仍在持续上升。多项多组学研究已提供了关于宿主-病原体相互作用及潜在治疗靶点的广泛证据。然而，深入理解由翻译后修饰调控的宿主信号网络及其对生化和细胞动力学的后续影响，对于扩展当前关于宿主对SARS-CoV-2感染反应的知识至关重要。在此，我们通过对肺源性人类细胞系进行无偏全局转录组学、蛋白质组学、乙酰组学、磷酸化蛋白质组学和外代谢组学分析，表明SARS-CoV-2 Norway/Trondheim-S15株诱导了时间依赖性变化，包括I型干扰素反应的诱导、DNA损伤反应的激活、Hippo信号通路失调等。我们提供了宿主蛋白上磷酸化和乙酰化动力学相互作用的证据，及其对代谢物（尤其是有机酸和酮体）释放改变的影响。综合来看，我们的发现可作为潜在靶点的资源，有助于设计新型宿主导向治疗策略。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.06.506768",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.06.506768",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.06.506768/index.html"
+}

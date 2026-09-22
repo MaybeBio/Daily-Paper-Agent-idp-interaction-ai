@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42503799",
+  "title": "DisoPatho: A Cross-View Feature-Adaptive Interaction Encoding Framework for Predicting Disease-Associated Variants in Intrinsically Disordered Regions.",
+  "authors": "Wang, Xiaohua; Zhang, Shaojie; Jiang, Hongmei; Liang, Xiao; Xue, Wenjun; Hou, Hu; Liang, Guizhao",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2026-07-27",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出深度学习框架DisoPatho，预测无序区域中疾病相关变异，虽聚焦变异预测而非直接PPI机制建模，但以无序蛋白为对象并融合语言模型与能量表征，对IDR互作相关预测有方法学启发。",
+  "abstract": "Accurate prediction of variants within intrinsically disordered regions (IDRs) is crucial for advancing disease diagnosis and biomedical interpretation. However, the intrinsic lack of stable structural conformations and the high sequence variability of IDRs make it challenging for existing predictors to achieve robust performance in these regions. Here, we introduce DisoPatho, a deep learning framework specifically tailored for predicting disease-associated variants in IDRs. DisoPatho features a novel mutation-centric architecture that utilizes the variant site as an anchor for feature construction and interaction. The core innovation lies in a cross-view adaptive-feature interaction mechanism, which synergistically integrates IDR-specific energy representations with embeddings from protein language models, including xTrimoPGLM and Evolutionary Scale Modeling. This strategy enables the comprehensive capture of evolutionary constraints and physicochemical patterns without requiring explicit structural descriptors, multiple-sequence alignments, or hand-crafted conservation scores. Consequently, DisoPatho exhibits enhanced discriminative power better adapted to the highly flexible nature of IDRs. Comprehensive evaluations across multiple IDR data sets demonstrate that DisoPatho substantially outperforms existing methods. In 5-fold cross-validation, it achieves average AUCs of 0.899 and 0.840, with ACCs of 0.862 and 0.860 on two data sets. Notably, on a highly confounded independent test set where phylogenetic constraints offer limited discriminative signals, DisoPatho yields a 50.2% relative improvement in MCC over AlphaMissense on their respective predictable variants, while achieving broader prediction coverage. In-depth analyses of the prediction results further confirm the effectiveness and stability of the framework in IDR-specific scenarios. The code, data sets, and predictions for DisoPatho are available for academic use at https://github.com/IBHFLab/DisoPatho.",
+  "abstract_zh": "对 intrinsically disordered regions (IDRs) 内变异的准确预测对于推进疾病诊断和生物医学解释至关重要。然而，IDRs 固有的缺乏稳定结构构象和高序列变异性，使得现有预测器在这些区域难以实现稳健性能。在此，我们引入 DisoPatho，一个专门为预测 IDRs 中疾病相关变异而设计的深度学习框架。DisoPatho 具有新颖的以突变为中心的架构，利用变异位点作为特征构建和交互的锚点。核心创新在于一种跨视图自适应特征交互机制，该机制协同整合了 IDR 特异性能量表示与蛋白质语言模型（包括 xTrimoPGLM 和 Evolutionary Scale Modeling）的嵌入。这一策略能够全面捕获进化约束和物理化学模式，而无需显式结构描述符、多序列比对或手工制作的保守性评分。因此，DisoPatho 展现出增强的判别能力，更好地适应 IDRs 的高度灵活性。跨多个 IDR 数据集的综合评估表明，DisoPatho 显著优于现有方法。在 5 折交叉验证中，它在两个数据集上实现了平均 AUC 分别为 0.899 和 0.840，ACC 分别为 0.862 和 0.860。值得注意的是，在一个高度混杂的独立测试集上，其中系统发育约束提供的判别信号有限，DisoPatho 在各自可预测变异上相对于 AlphaMissense 实现了 MCC 的 50.2% 相对改进，同时实现了更广泛的预测覆盖。对预测结果的深入分析进一步证实了该框架在 IDR 特定场景中的有效性和稳定性。DisoPatho 的代码、数据集和预测结果可在 https://github.com/IBHFLab/DisoPatho 上供学术使用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42503799/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42503799/",
+  "paper_page_path": "papers/pubmed/42503799/index.html"
+}

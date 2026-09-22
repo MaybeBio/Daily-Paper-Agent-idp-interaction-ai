@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37695778",
+  "title": "OpenABC enables flexible, simplified, and efficient GPU accelerated simulations of biomolecular condensates.",
+  "authors": "Liu, Shuming; Wang, Cong; Latham, Andrew P; Ding, Xinqiang; Zhang, Bin",
+  "journal": "PLoS computational biology",
+  "published_date": "2023-09-11",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该文介绍OpenABC软件包，利用OpenMM GPU加速进行残基级粗粒化模拟生物分子凝聚体，虽聚焦相分离对象和物理模拟方法，但未直接涉及PPI机制建模，故评7分。",
+  "abstract": "Biomolecular condensates are important structures in various cellular processes but are challenging to study using traditional experimental techniques. In silico simulations with residue-level coarse-grained models strike a balance between computational efficiency and chemical accuracy. They could offer valuable insights by connecting the emergent properties of these complex systems with molecular sequences. However, existing coarse-grained models often lack easy-to-follow tutorials and are implemented in software that is not optimal for condensate simulations. To address these issues, we introduce OpenABC, a software package that greatly simplifies the setup and execution of coarse-grained condensate simulations with multiple force fields using Python scripting. OpenABC seamlessly integrates with the OpenMM molecular dynamics engine, enabling efficient simulations with performance on a single GPU that rivals the speed achieved by hundreds of CPUs. We also provide tools that convert coarse-grained configurations to all-atom structures for atomistic simulations. We anticipate that OpenABC will significantly facilitate the adoption of in silico simulations by a broader community to investigate the structural and dynamical properties of condensates.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）是多种细胞过程中的重要结构，但使用传统实验技术研究它们颇具挑战性。采用残基级粗粒化模型（residue-level coarse-grained models）的计算机模拟（in silico simulations）在计算效率与化学准确性之间取得了平衡。它们能通过将这些复杂系统的涌现特性与分子序列联系起来，提供有价值的见解。然而，现有的粗粒化模型往往缺乏易于遵循的教程，并且其实现软件并非针对凝聚体模拟进行优化。为解决这些问题，我们引入了OpenABC，这是一个软件包，通过Python脚本极大简化了使用多种力场进行粗粒化凝聚体模拟的设置与执行。OpenABC与OpenMM分子动力学（molecular dynamics）引擎无缝集成，能够在单个GPU上实现高效模拟，其性能可与数百个CPU达到的速度相媲美。我们还提供了将粗粒化构型转换为全原子结构以用于原子级模拟的工具。我们预期，OpenABC将显著促进更广泛社区采用计算机模拟来研究凝聚体的结构与动力学特性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37695778/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37695778/",
+  "paper_page_path": "papers/pubmed/37695778/index.html"
+}

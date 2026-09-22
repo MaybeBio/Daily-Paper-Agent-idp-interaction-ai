@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37689829",
+  "title": "Simulations of a protein fold switch reveal crowding-induced population shifts driven by disordered regions.",
+  "authors": "Bazmi, Saman; Seifi, Bahman; Wallin, Stefan",
+  "journal": "Communications chemistry",
+  "published_date": "2023-09-10",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用双盆地结构模型模拟蛋白质折叠开关，揭示拥挤环境通过无序末端区域驱动群体偏移，虽对象为折叠蛋白但无序区域介导的构象互作机制对IDR-PPI建模有启发。",
+  "abstract": "Macromolecular crowding effects on globular proteins, which usually adopt a single stable fold, have been widely studied. However, little is known about crowding effects on fold-switching proteins, which reversibly switch between distinct folds. Here we study the mutationally driven switch between the folds of G(A) and G(B), the two 56-amino acid binding domains of protein G, using a structure-based dual-basin model. We show that, in the absence of crowders, the fold populations P(A) and P(B) can be controlled by the strengths of contacts in the two folds, kappa(A) and kappa(B). A population balance, P(A)  approximately  P(B), is obtained for kappa(B)/kappa(A) = 0.92. The resulting model protein is subject to crowding at different packing fractions, varphi(c). We find that crowding increases the G(B) population and reduces the G(A) population, reaching P(B)/P(A)  approximately  4 at varphi(c) = 0.44. We analyze the varphi(c)-dependence of the crowding-induced G(A)-to-G(B) switch using scaled particle theory, which provides a qualitative, but not quantitative, fit of our data, suggesting effects beyond a spherical description of the folds. We show that the terminal regions of the protein chain, which are intrinsically disordered only in G(A), play a dominant role in the response of the fold switch to crowding effects.",
+  "abstract_zh": "大分子拥挤效应对通常采用单一稳定折叠的球状蛋白质的影响已被广泛研究。然而，关于拥挤效应对折叠转换蛋白质（fold-switching proteins）的影响知之甚少，这类蛋白质可在不同折叠之间可逆切换。在此，我们使用基于结构的双盆地模型（dual-basin model）研究G(A)和G(B)之间由突变驱动的折叠切换，这两个结构域是蛋白G的56个氨基酸结合域。我们表明，在没有拥挤剂的情况下，折叠群体P(A)和P(B)可通过两个折叠中的接触强度kappa(A)和kappa(B)来控制。当kappa(B)/kappa(A) = 0.92时，获得群体平衡，即P(A) 约等于 P(B)。所得模型蛋白质在不同堆积分数varphi(c)下受到拥挤影响。我们发现，拥挤增加了G(B)群体并减少了G(A)群体，在varphi(c) = 0.44时达到P(B)/P(A) 约等于 4。我们使用标度粒子理论（scaled particle theory）分析拥挤诱导的G(A)-至-G(B)切换对varphi(c)的依赖性，该理论提供了我们数据的定性而非定量拟合，表明存在超出折叠球形描述之外的影响。我们表明，蛋白质链的末端区域（仅在G(A)中固有无序）在折叠切换对拥挤效应的响应中起主导作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37689829/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37689829/",
+  "paper_page_path": "papers/pubmed/37689829/index.html"
+}

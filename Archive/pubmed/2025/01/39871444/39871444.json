@@ -1,0 +1,232 @@
+{
+  "identity": {
+    "pmid": "39871444",
+    "doi": "10.1021/acs.jcim.4c02109",
+    "title": "Impact of Phosphorylation and O-GlcNAcylation on the Binding Affinity of R4 Tau Peptide to Microtubule and Its Conformational Preference upon Dissociation."
+  },
+  "content": {
+    "abstract": "Tau is a microtubule (MT)-associated protein that binds to and stabilizes the MTs of neurons. Due to its intrinsically disordered nature, it undergoes several post-translational modifications (PTMs) that are intricately linked to both the physiological and pathophysiological roles of Tau. Prior research has shown phosphorylation and O-GlcNAcylation to have contrasting effects on Tau aggregation; however, the precise molecular mechanisms and potential synergistic effects of these modifications remain elusive. In this article, we study the impact of phosphorylation at S352, and S356, as well as the phosphorylation of O-GlcNAcylation at S356, individually and in combination, on the binding of the R4 (336-367) peptide with MTs by performing classical molecular dynamics (MD) simulations. By analyzing the binding free energies of the Tau-MT complex, we found that both individual and combined phosphorylation at S352 and S356 sites decreased the affinity of the R4 peptide toward MT. Surprisingly, O-GlcNAcylation, a likely neuroprotective modification, at S356 also decreased the binding affinity of Tau to MT similar to the single phosphorylation systems (pS352 or pS356) but was observed to maintain major interactions with MT comparable to unmodified R4. Additionally, we investigated the impact of phosphorylation at both sites and the interplay between phosphorylation at S352 and O-GlcNAcylation at S356, which showed that the latter preserved the interactions and affinity of the Tau with MT better than dual phosphorylation, though still not as effectively as single phosphorylation. These findings suggest that O-GlcNAcylation at residue S356 has a moderate destabilizing effect. We also performed replica-exchange MD simulations of the R4 peptide to understand the changes in conformational preferences upon phosphorylation, O-GlcNAcylation, and a combination of both modifications. Both individual and combined phosphorylation of R4 peptide at S352, and S356, sites induced salt-bridge interactions with positively charged side chains of lysine and arginine amino acids. However, O-GlcNAcylation at S356 induced secondary structural changes on the R4 peptide, leading to the formation of a beta-sheet structure, consistent with previous experimental observations. Interestingly, simultaneous phosphorylation at S352 and the phosphorylation of O-GlcNAcylation at S356 resulted in conformations promoting salt-bridges and beta-sheets. Thus, our study provides atomistic insights into the impact of PTMs on the binding of Tau peptide to MT and its conformational preferences upon dissociation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*tau Proteins/metabolism/chemistry",
+      "Phosphorylation",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "*Microtubules/metabolism/chemistry",
+      "*Acetylglucosamine/metabolism",
+      "Protein Conformation",
+      "Protein Processing, Post-Translational",
+      "Glycosylation",
+      "Acylation",
+      "Humans",
+      "*Peptides/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dasari, Sathish",
+        "Kalyaanamoorthy, Subha"
+      ],
+      "short_names": [
+        "Dasari S",
+        "Kalyaanamoorthy S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5554-9047",
+        "ORCID: 0000-0003-0854-6449"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Faculty of Science, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada.",
+        "Department of Chemistry, Faculty of Science, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada.",
+        "Waterloo Artificial Intelligence Institute, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada.",
+        "Waterloo Institute of Nanotechnology, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dasari, Sathish",
+        "short_name": "Dasari S",
+        "identifiers": [
+          "0000-0002-5554-9047"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Science, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada."
+        ]
+      },
+      {
+        "full_name": "Kalyaanamoorthy, Subha",
+        "short_name": "Kalyaanamoorthy S",
+        "identifiers": [
+          "0000-0003-0854-6449"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Science, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada.",
+          "Waterloo Artificial Intelligence Institute, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada.",
+          "Waterloo Institute of Nanotechnology, University of Waterloo, Waterloo, Ontario N2L 3G1, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Feb 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/28 11:26",
+    "fetched_at": "2026-09-21 15:11:46"
+  },
+  "links": {
+    "cites": [
+      "41000247"
+    ],
+    "refs": [],
+    "similar": [
+      "39871444",
+      "18671940",
+      "32065850",
+      "39909381",
+      "29077417",
+      "23807304",
+      "21327254",
+      "39950843",
+      "24444746",
+      "26816085",
+      "36669127",
+      "33877805",
+      "38512658",
+      "23659998",
+      "15249677",
+      "18312411",
+      "32499112",
+      "38489841",
+      "17507370",
+      "27975243",
+      "34838590",
+      "16984883",
+      "38512671",
+      "36029032",
+      "34220449",
+      "8910513",
+      "37213134",
+      "24251416",
+      "38788673",
+      "27126545",
+      "36903375",
+      "15869817",
+      "31894464",
+      "34032430",
+      "24577753",
+      "24326295",
+      "29808487",
+      "39053763",
+      "21896475",
+      "28278386",
+      "19458039",
+      "22645316",
+      "16272135",
+      "36372288",
+      "39092904",
+      "30865715",
+      "32310828",
+      "27080259",
+      "22757958",
+      "24113653",
+      "22536363",
+      "24559475",
+      "39924618",
+      "19619466",
+      "26789759",
+      "33465208",
+      "24760753",
+      "36594671",
+      "28427866",
+      "17456500",
+      "17725643",
+      "19451179",
+      "37167199",
+      "27078700",
+      "34870441",
+      "23087208",
+      "30386294",
+      "28322917",
+      "32245812",
+      "28624365",
+      "29717537",
+      "32341125",
+      "29337275",
+      "38700120",
+      "40198698",
+      "31927402",
+      "24744147",
+      "35701470",
+      "19874270",
+      "38512690",
+      "40053114",
+      "26165593",
+      "33125954",
+      "36888912",
+      "19647786",
+      "21068200",
+      "30985105",
+      "27497832",
+      "20959078",
+      "29684271",
+      "25336656",
+      "29748322",
+      "25440728",
+      "22304362",
+      "19815707",
+      "30016717",
+      "35476504",
+      "32096026",
+      "35325356",
+      "31661961"
+    ],
+    "review": [
+      "39871444",
+      "31894464",
+      "28278386",
+      "22757958",
+      "27078700",
+      "29717537",
+      "19874270",
+      "19647786",
+      "21068200",
+      "27497832",
+      "25336656",
+      "32096026"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c02109",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

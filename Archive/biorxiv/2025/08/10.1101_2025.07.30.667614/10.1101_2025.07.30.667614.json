@@ -1,0 +1,400 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.30.667614",
+  "title": "Steric control of signaling bias in the immunometabolic receptor GPR84",
+  "doi": "10.1101/2025.07.30.667614",
+  "abstract": "Biased signaling in G protein-coupled receptors offers therapeutic promise, yet rational design of biased ligands remains challenging due to limited mechanistic understanding. Here, we report a molecular framework for controlling signaling bias at the immunometabolic receptor GPR84. We identified three structurally-matched ligands (OX04529, OX04954, and OX04539) with varying steric profiles that exhibit comparable Gi protein activation but dramatically different β-arrestin recruitment capacities. A high-resolution cryo-EM structure of GPR84-Gi in complex with OX04529, complemented by molecular dynamics simulations and targeted mutagenesis, revealed that steric interactions between ligand substituents and Leu3366.52 and Phe1875.47 indirectly disrupt a critical polar network involving Tyr3326.48, Asn1043.36 and Asn3627.45 essential for β-arrestin recruitment. Based on these insights, we developed a steric-dependent model that enabled rational design of G protein-biased agonists with predictable β-arrestin recruitment profiles. This mechanistic framework provides a blueprint for designing biased agonists with customized signaling profiles at GPR84 and potentially other class A GPCRs.",
+  "authors": [
+    "Wang P",
+    "Zhang X",
+    "Guseinov A",
+    "Jenkins L",
+    "von Hallerstein C",
+    "Colburn JD",
+    "Ives R",
+    "Luscombe VB",
+    "Marsango S",
+    "Oktavia L",
+    "Raja A",
+    "Greaves DR",
+    "Biggin PC",
+    "Milligan G",
+    "Zhang C",
+    "Tikhonova I",
+    "Russell AJ"
+  ],
+  "published_date": "2025-08-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.30.667614",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.30.667614.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1059708",
+    "raw_record": {
+      "id": "PPR1059708",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1059708"
+        ]
+      },
+      "doi": "10.1101/2025.07.30.667614",
+      "title": "Steric control of signaling bias in the immunometabolic receptor GPR84",
+      "authorString": "Wang P, Zhang X, Guseinov A, Jenkins L, von Hallerstein C, Colburn JD, Ives R, Luscombe VB, Marsango S, Oktavia L, Raja A, Greaves DR, Biggin PC, Milligan G, Zhang C, Tikhonova I, Russell AJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Wang P",
+            "lastName": "Wang",
+            "firstName": "Pinqi",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Chemistry Research Laboratory, , Mansfield Road, , , ,"
+                },
+                {
+                  "affiliation": "Department of Pharmacology and Chemical Biology, , Mansfield Road, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang X",
+            "lastName": "Zhang",
+            "firstName": "Xuan",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, School of Medicine, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guseinov A",
+            "lastName": "Guseinov",
+            "firstName": "Akim-Abdul",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmacy, , , , ,"
+                },
+                {
+                  "affiliation": "School of Molecular Biosciences, College of Medical, Veterinary and Life Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jenkins L",
+            "lastName": "Jenkins",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Molecular Biosciences, College of Medical, Veterinary and Life Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "von Hallerstein C",
+            "lastName": "von Hallerstein",
+            "firstName": "Carl",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , South Parks Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Colburn JD",
+            "lastName": "Colburn",
+            "firstName": "Jonathan",
+            "initials": "JD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , South Parks Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ives R",
+            "lastName": "Ives",
+            "firstName": "Rowan",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Chemistry Research Laboratory, , Mansfield Road, , , ,"
+                },
+                {
+                  "affiliation": "Department of Pharmacology and Chemical Biology, , Mansfield Road, , , ,"
+                },
+                {
+                  "affiliation": "Sir William Dunn School of Pathology, , South Parks Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Luscombe VB",
+            "lastName": "Luscombe",
+            "firstName": "Vincent",
+            "initials": "VB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sir William Dunn School of Pathology, , South Parks Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marsango S",
+            "lastName": "Marsango",
+            "firstName": "Sara",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Molecular Biosciences, College of Medical, Veterinary and Life Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oktavia L",
+            "lastName": "Oktavia",
+            "firstName": "Listiana",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Chemistry Research Laboratory, , Mansfield Road, , , ,"
+                },
+                {
+                  "affiliation": "Department of Pharmacology and Chemical Biology, , Mansfield Road, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Raja A",
+            "lastName": "Raja",
+            "firstName": "Arun",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Chemistry Research Laboratory, , Mansfield Road, , , ,"
+                },
+                {
+                  "affiliation": "Department of Pharmacology and Chemical Biology, , Mansfield Road, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Greaves DR",
+            "lastName": "Greaves",
+            "firstName": "David",
+            "initials": "DR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Sir William Dunn School of Pathology, , South Parks Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Biggin PC",
+            "lastName": "Biggin",
+            "firstName": "Philip",
+            "initials": "PC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , South Parks Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Milligan G",
+            "lastName": "Milligan",
+            "firstName": "Graeme",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Molecular Biosciences, College of Medical, Veterinary and Life Sciences, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang C",
+            "lastName": "Zhang",
+            "firstName": "Cheng",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, School of Medicine, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tikhonova I",
+            "lastName": "Tikhonova",
+            "firstName": "Irina",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmacy, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Russell AJ",
+            "lastName": "Russell",
+            "firstName": "Angela",
+            "initials": "AJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Chemistry Research Laboratory, , Mansfield Road, , , ,"
+                },
+                {
+                  "affiliation": "Department of Pharmacology and Chemical Biology, , Mansfield Road, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Biased signaling in G protein-coupled receptors offers therapeutic promise, yet rational design of biased ligands remains challenging due to limited mechanistic understanding. Here, we report a molecular framework for controlling signaling bias at the immunometabolic receptor GPR84. We identified three structurally-matched ligands (OX04529, OX04954, and OX04539) with varying steric profiles that exhibit comparable Gi protein activation but dramatically different β-arrestin recruitment capacities. A high-resolution cryo-EM structure of GPR84-Gi in complex with OX04529, complemented by molecular dynamics simulations and targeted mutagenesis, revealed that steric interactions between ligand substituents and Leu3366.52 and Phe1875.47 indirectly disrupt a critical polar network involving Tyr3326.48, Asn1043.36 and Asn3627.45 essential for β-arrestin recruitment. Based on these insights, we developed a steric-dependent model that enabled rational design of G protein-biased agonists with predictable β-arrestin recruitment profiles. This mechanistic framework provides a blueprint for designing biased agonists with customized signaling profiles at GPR84 and potentially other class A GPCRs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "RG/15/10/23915",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T000562/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "British Heart Foundation",
+            "grantId": "RG/15/10/31485",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "218514/Z/19/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/08/02/2025.07.30.667614.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.30.667614"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1059708"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1059708&type=FILE&fileName=EMS207848-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207848",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-08-03",
+      "firstPublicationDate": "2025-08-02",
+      "firstIndexDate": "2025-08-04",
+      "fullTextReceivedDate": "2025-08-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "41365991",
+    "doi": "10.1038/s41598-025-28838-1",
+    "title": "Evolutionary analysis through structural modeling of FAM222 proteins reveals a novel disordered conserved domain in vertebrates that interacts with NLK."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) play essential roles in signaling by mediating protein-protein interactions that are both dynamic and specific. Many IDRs have evolved as kinase-binding modules, particularly in mitogen-activated protein kinase (MAPK) networks, where they facilitate critical regulatory interactions for signaling specificity. However, the evolutionary constraints that shape IDRs and their role in MAPK regulation remain poorly understood. Here, we identify DCD222, a highly conserved IDR within the FAM222 protein family, which interacts with Nemo-like kinase (NLK), an atypical MAPK involved in WNT, NOTCH, VEGF, mTOR, and TGF-beta signaling. Phylogenetic analysis reveals that DCD222 has been conserved from cyclostomes to humans, indicating strong evolutionary constraints on its function. Using AlphaFold3, we show that DCD222 binds to NLK through an extended mechanism, in which a reverse docking (revD) motif engages the NLK docking groove in the C-lobe, and beta-hairpin-like and beta-sheet motifs insert into the N-lobe. We performed three independent atomistic simulations of the protein-protein complex to assess the stability of the interface and found that it remained stable throughout the runs. The interaction does not obstruct the kinase's catalytic site, suggesting that FAM222A and FAM222B are potential modulators of NLK rather than simple substrates. Our findings establish DCD222 as an evolutionarily constrained IDR, providing new insights into how disordered domains contribute to signaling adaptation in vertebrates.",
+    "keywords": [
+      "AlphaFold3",
+      "Intrinsically disordered region",
+      "MAPK signaling",
+      "Nemo-like kinase.",
+      "Protein evolution"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Animals",
+      "*Evolution, Molecular",
+      "Phylogeny",
+      "*Protein Serine-Threonine Kinases/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "Vertebrates/metabolism/genetics",
+      "*Intracellular Signaling Peptides and Proteins/metabolism/chemistry/genetics",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/genetics",
+      "Models, Molecular",
+      "Conserved Sequence",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Calvario, Eduardo",
+        "Segovia, Lorenzo",
+        "Zurita, Mario"
+      ],
+      "short_names": [
+        "Calvario E",
+        "Segovia L",
+        "Zurita M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Departamento de Genetica del Desarrollo y Fisiologia Molecular 1, Instituto de Biotecnologia, Universidad Nacional Autonoma de Mexico, Av Universidad 2001, Col. Chamilpa, Mexico City, 62250, Mexico.",
+        "Departamento de Ingenieria Celular y Biocatalisis 2, Instituto de Biotecnologia, Universidad Nacional Autonoma de Mexico, Av Universidad 2001, Col. Chamilpa, 62250, Mexico City, Mexico. lorenzo.segovia@ibt.unam.mx.",
+        "Departamento de Genetica del Desarrollo y Fisiologia Molecular 1, Instituto de Biotecnologia, Universidad Nacional Autonoma de Mexico, Av Universidad 2001, Col. Chamilpa, Mexico City, 62250, Mexico. mario.zurita@ibt.unam.mx."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Calvario, Eduardo",
+        "short_name": "Calvario E",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Genética del Desarrollo y Fisiología Molecular 1, Instituto de Biotecnología, Universidad Nacional Autónoma de México, Av Universidad 2001, Col. Chamilpa, Mexico City, 62250, Mexico."
+        ]
+      },
+      {
+        "full_name": "Segovia, Lorenzo",
+        "short_name": "Segovia L",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ingeniería Celular y Biocatálisis 2, Instituto de Biotecnología, Universidad Nacional Autónoma de México, Av Universidad 2001, Col. Chamilpa, 62250, Mexico City, México. lorenzo.segovia@ibt.unam.mx."
+        ]
+      },
+      {
+        "full_name": "Zurita, Mario",
+        "short_name": "Zurita M",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Genética del Desarrollo y Fisiología Molecular 1, Instituto de Biotecnología, Universidad Nacional Autónoma de México, Av Universidad 2001, Col. Chamilpa, Mexico City, 62250, Mexico. mario.zurita@ibt.unam.mx."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2025 Dec 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/10 01:47",
+    "fetched_at": "2026-09-17 22:50:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40073244",
+      "39999166",
+      "39740355",
+      "39558183",
+      "39552041",
+      "39013462",
+      "38718835",
+      "38701796",
+      "38662765",
+      "38613393",
+      "38597606",
+      "37962385",
+      "37957331",
+      "37942611",
+      "37878721",
+      "37774136",
+      "37140053",
+      "36754681",
+      "36604173",
+      "35580044",
+      "35177069",
+      "34418423",
+      "33961781",
+      "33533447",
+      "33277362",
+      "33139980",
+      "32393512",
+      "32296183",
+      "32011700",
+      "31964863",
+      "31756456",
+      "30611608",
+      "30527137",
+      "28875543",
+      "28514442",
+      "27903773",
+      "27587990",
+      "27035511",
+      "26779481",
+      "26588989",
+      "26538579",
+      "25799139",
+      "25531225",
+      "24773235",
+      "23602568",
+      "23407358",
+      "23047924",
+      "22496841",
+      "22373574",
+      "20408171",
+      "20118921",
+      "19151095",
+      "16845026",
+      "16424299",
+      "15691650",
+      "15004007",
+      "12022860",
+      "11953434",
+      "7108955",
+      "2231712"
+    ],
+    "similar": [
+      "41365991",
+      "29945970",
+      "33627133",
+      "29066345",
+      "41629626",
+      "10391247",
+      "12556497",
+      "40945733",
+      "25966461",
+      "18765672",
+      "10391246",
+      "41114728",
+      "32814032",
+      "20118921",
+      "21118996",
+      "27993970",
+      "42475469",
+      "23416699",
+      "39453744",
+      "19514049",
+      "32250593",
+      "39999166",
+      "38662765",
+      "25512613",
+      "14604806",
+      "33036302",
+      "21454679",
+      "41688823",
+      "25583260",
+      "24115198",
+      "19690946",
+      "15743816",
+      "9448268",
+      "9135144",
+      "19473979",
+      "38941236",
+      "42413931",
+      "26427665",
+      "25424537",
+      "30397651",
+      "28002650",
+      "23904219",
+      "19840224",
+      "40583197",
+      "26790343",
+      "21372320",
+      "29240760",
+      "40997106",
+      "15870890",
+      "32469312",
+      "34100859",
+      "32553192",
+      "23000342",
+      "31804089",
+      "22536443",
+      "42467187",
+      "20061393",
+      "10655591",
+      "37883155",
+      "30611608",
+      "27718363",
+      "25424044",
+      "12482967",
+      "28167781",
+      "25976104",
+      "25701603",
+      "31357385",
+      "27036119",
+      "42425424",
+      "42150060",
+      "42278235",
+      "29763584",
+      "28089446",
+      "18197970",
+      "15082531",
+      "26149687",
+      "34320339",
+      "34369007",
+      "23729623",
+      "25682127",
+      "37000361",
+      "16113215",
+      "24926618",
+      "24027208",
+      "33866372",
+      "9160885",
+      "19805511",
+      "39267376",
+      "24651460",
+      "15151990",
+      "18212044",
+      "32731489",
+      "24034446",
+      "28701415",
+      "18936157",
+      "33930467",
+      "32708183",
+      "41276815",
+      "22125611",
+      "41378882"
+    ],
+    "review": [
+      "41365991",
+      "26427665",
+      "21372320",
+      "34100859",
+      "23000342",
+      "30611608",
+      "31357385",
+      "23729623",
+      "24027208"
+    ],
+    "pmc": [
+      "12690120"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-025-28838-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41365991/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

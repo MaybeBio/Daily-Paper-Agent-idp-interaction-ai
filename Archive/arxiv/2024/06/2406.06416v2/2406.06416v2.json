@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2406.06416v2",
+  "title": "Discovering classical spin liquids by topological search of high symmetry nets",
+  "doi": "",
+  "abstract": "Spin liquids are a paradigmatic example of a non-trivial state of matter, and the search for new spin liquids is a key direction of physics, chemistry, and materials science. Geometric frustration -- where the geometry of the net that the spins occupy precludes the generation of a simple ordered state -- is a particularly fruitful way to generate these intrinsically disordered states. A particular focus has been on a handful of high symmetry nets. There are, however, many three-dimensional nets, each of which has the potential to form unique states. In this paper, we investigate the high symmetry nets -- those which are both node- and edge-transitive -- for the simplest possible interaction sets: nearest-neighbor couplings of antiferromagnetic Heisenberg and Ising spins. While the well-known crs (pyrochlore) net is the only nearest-neighbor Heisenberg antiferromagnet which does not order, we identify two new frustrated nets (lcx and thp) that possess finite temperature Heisenberg spin-liquid states with strongly suppressed magnetic ordering and non-collinear ground states. With Ising spins, we identify three new classical spin liquids that do not order down to $T/J = 0.01$. We highlight materials that contain these high symmetry nets, and which could, if substituted with appropriate magnetic ions, potentially host these unusual states. Our systematic survey will guide searches for novel magnetic phases.",
+  "authors": [
+    "Joseph A. M. Paddison",
+    "Matthew J. Cliffe"
+  ],
+  "published_date": "2024-06-10T16:08:47Z",
+  "updated_date": "2024-07-25T23:40:02Z",
+  "journal": "",
+  "category": "cond-mat.str-el, cond-mat.mtrl-sci",
+  "landing_url": "https://arxiv.org/abs/2406.06416v2",
+  "pdf_url": "https://arxiv.org/pdf/2406.06416v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.str-el",
+    "cond-mat.mtrl-sci"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2406.06416v2",
+    "raw_categories": [
+      "cond-mat.str-el",
+      "cond-mat.mtrl-sci"
+    ],
+    "journal_ref": ""
+  }
+}

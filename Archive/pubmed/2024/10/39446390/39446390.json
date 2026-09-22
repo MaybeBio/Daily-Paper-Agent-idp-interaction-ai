@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "39446390",
+    "doi": "10.1073/pnas.2406407121",
+    "title": "AlphaFold-Multimer accurately captures interactions and dynamics of intrinsically disordered protein regions."
+  },
+  "content": {
+    "abstract": "Interactions mediated by intrinsically disordered protein regions (IDRs) pose formidable challenges in structural characterization. IDRs are highly versatile, capable of adopting diverse structures and engagement modes. Motivated by recent strides in protein structure prediction, we embarked on exploring the extent to which AlphaFold-Multimer can faithfully reproduce the intricacies of interactions involving IDRs. To this end, we gathered multiple datasets covering the versatile spectrum of IDR binding modes and used them to probe AlphaFold-Multimer's prediction of IDR interactions and their dynamics. Our analyses revealed that AlphaFold-Multimer is not only capable of predicting various types of bound IDR structures with high success rate, but that distinguishing true interactions from decoys, and unreliable predictions from accurate ones is achievable by appropriate use of AlphaFold-Multimer's intrinsic scores. We found that the quality of predictions drops for more heterogeneous, fuzzy interaction types, most likely due to lower interface hydrophobicity and higher coil content. Notably though, certain AlphaFold-Multimer scores, such as the Predicted Aligned Error and residue-ipTM, are highly correlated with structural heterogeneity of the bound IDR, enabling clear distinctions between predictions of fuzzy and more homogeneous binding modes. Finally, our benchmarking revealed that predictions of IDR interactions can also be successful when using full-length proteins, but not as accurate as with cognate IDRs. To facilitate identification of the cognate IDR of a given partner, we established \"minD,\" which pinpoints potential interaction sites in a full-length protein. Our study demonstrates that AlphaFold-Multimer can correctly identify interacting IDRs and predict their mode of engagement with a given partner.",
+    "keywords": [
+      "AlphaFold2",
+      "fuzziness",
+      "interactions",
+      "intrinsically disordered protein"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Protein Folding",
+      "Protein Binding",
+      "Protein Conformation",
+      "Models, Molecular",
+      "Hydrophobic and Hydrophilic Interactions"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Omidi, Alireza",
+        "Moller, Mads Harder",
+        "Malhis, Nawar",
+        "Bui, Jennifer M",
+        "Gsponer, Jorg"
+      ],
+      "short_names": [
+        "Omidi A",
+        "Moller MH",
+        "Malhis N",
+        "Bui JM",
+        "Gsponer J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3598-9480",
+        "ORCID: 0009-0004-0318-7058",
+        "ORCID: 0000-0002-1317-833X",
+        "ORCID: 0009-0004-4861-3778"
+      ],
+      "affiliations": [
+        "Michael Smith Laboratories, University of British Columbia, Vancouver, BC V6T 1Z4, Canada.",
+        "Michael Smith Laboratories, University of British Columbia, Vancouver, BC V6T 1Z4, Canada.",
+        "Michael Smith Laboratories, University of British Columbia, Vancouver, BC V6T 1Z4, Canada.",
+        "Michael Smith Laboratories, University of British Columbia, Vancouver, BC V6T 1Z4, Canada.",
+        "Michael Smith Laboratories, University of British Columbia, Vancouver, BC V6T 1Z4, Canada.",
+        "Department of Biochemistry and Molecular Biology, University of British Columbia, Vancouver, BC V6T 1Z4, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Omidi, Alireza",
+        "short_name": "Omidi A",
+        "identifiers": [
+          "0000-0003-3598-9480"
+        ],
+        "affiliations": [
+          "Michael Smith Laboratories, University of British Columbia, Vancouver, BC V6T 1Z4, Canada."
+        ]
+      },
+      {
+        "full_name": "Møller, Mads Harder",
+        "short_name": "Møller MH",
+        "identifiers": [
+          "0009-0004-0318-7058"
+        ],
+        "affiliations": [
+          "Michael Smith Laboratories, University of British Columbia, Vancouver, BC V6T 1Z4, Canada."
+        ]
+      },
+      {
+        "full_name": "Malhis, Nawar",
+        "short_name": "Malhis N",
+        "identifiers": [
+          "0000-0002-1317-833X"
+        ],
+        "affiliations": [
+          "Michael Smith Laboratories, University of British Columbia, Vancouver, BC V6T 1Z4, Canada."
+        ]
+      },
+      {
+        "full_name": "Bui, Jennifer M",
+        "short_name": "Bui JM",
+        "identifiers": [
+          "0009-0004-4861-3778"
+        ],
+        "affiliations": [
+          "Michael Smith Laboratories, University of British Columbia, Vancouver, BC V6T 1Z4, Canada."
+        ]
+      },
+      {
+        "full_name": "Gsponer, Jörg",
+        "short_name": "Gsponer J",
+        "identifiers": [],
+        "affiliations": [
+          "Michael Smith Laboratories, University of British Columbia, Vancouver, BC V6T 1Z4, Canada.",
+          "Department of Biochemistry and Molecular Biology, University of British Columbia, Vancouver, BC V6T 1Z4, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2024 Oct 29",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/24 12:30",
+    "fetched_at": "2026-09-21 11:41:05"
+  },
+  "links": {
+    "cites": [
+      "42637892",
+      "42604168",
+      "42575968",
+      "42460659",
+      "42361173",
+      "42326687",
+      "42300078",
+      "42206050",
+      "42095372",
+      "41977325",
+      "41928988",
+      "41884958",
+      "41860945",
+      "41828653",
+      "41798897",
+      "41789085",
+      "41751977",
+      "41685159",
+      "41644540",
+      "41570036",
+      "41512952",
+      "41492065",
+      "41463297",
+      "41460861",
+      "41403459",
+      "41315493",
+      "41304853",
+      "41301809",
+      "41139418",
+      "41130962",
+      "41016010",
+      "40894573",
+      "40794770",
+      "40723369",
+      "40695292",
+      "40687999",
+      "40633127",
+      "40337642",
+      "40329301",
+      "40297267",
+      "40195117",
+      "40093005",
+      "40060634",
+      "40058531",
+      "39993834",
+      "39763873",
+      "39586415"
+    ],
+    "refs": [
+      "38238291",
+      "38225382",
+      "37956700",
+      "37878721",
+      "37713472",
+      "37405868",
+      "36525975",
+      "36416859",
+      "36408920",
+      "36344848",
+      "36334049",
+      "36304330",
+      "35900023",
+      "35655760",
+      "35637307",
+      "35537451",
+      "35351165",
+      "35273146",
+      "35238773",
+      "35013344",
+      "34791357",
+      "34718738",
+      "34282049",
+      "34265844",
+      "34214469",
+      "34048569",
+      "34015749",
+      "33951592",
+      "33550810",
+      "33186584",
+      "32939066",
+      "32743159",
+      "32112804",
+      "32015543",
+      "31207240",
+      "29035372",
+      "27560519",
+      "25531225",
+      "24773235",
+      "24606139",
+      "23990768",
+      "23988124",
+      "23986568",
+      "23897031",
+      "21909575",
+      "21514144",
+      "19585546",
+      "19304878",
+      "18054235",
+      "17488107",
+      "16935303",
+      "16156658",
+      "15943979",
+      "15019783",
+      "7108955"
+    ],
+    "similar": [
+      "39446390",
+      "41534519",
+      "39763873",
+      "31441158",
+      "37878721",
+      "34418423",
+      "40944448",
+      "30878482",
+      "41454828",
+      "28780862",
+      "40403066",
+      "32722039",
+      "31207240",
+      "36908253",
+      "39740355",
+      "36210722",
+      "40574713",
+      "41570036",
+      "34610267",
+      "23912807",
+      "27062995",
+      "29791766",
+      "39510344",
+      "41053908",
+      "34825861",
+      "32696395",
+      "26912067",
+      "39093570",
+      "31003202",
+      "30841624",
+      "32824743",
+      "24115198",
+      "33076213",
+      "31724233",
+      "33248138",
+      "30058229",
+      "35098694",
+      "32112804",
+      "40650026",
+      "33567297",
+      "31889261",
+      "42150060",
+      "33087759",
+      "33243935",
+      "39952928",
+      "26149687",
+      "35609776",
+      "36851914",
+      "41512952",
+      "40133775",
+      "33207556",
+      "41702402",
+      "38809680",
+      "40631955",
+      "41378882",
+      "38166858",
+      "42507643",
+      "42259285",
+      "35139468",
+      "36153968",
+      "36648282",
+      "33036302",
+      "29309620",
+      "38942776",
+      "36008992",
+      "38124369",
+      "25391399",
+      "41928988",
+      "40997106",
+      "38238291",
+      "40828855",
+      "37657994",
+      "30518031",
+      "29945970",
+      "26720267",
+      "29716994",
+      "39032884",
+      "40221640",
+      "35900023",
+      "29066345",
+      "33627133",
+      "40467883",
+      "39589885",
+      "34390736",
+      "40133781",
+      "31756456",
+      "41326937",
+      "34358545",
+      "39938238",
+      "41313605",
+      "27179590",
+      "31397874",
+      "37633550",
+      "38225382",
+      "27881680",
+      "39684679",
+      "31804089",
+      "41033554",
+      "41933762",
+      "36272675"
+    ],
+    "review": [
+      "39446390",
+      "31441158",
+      "34418423",
+      "39740355",
+      "34610267",
+      "39093570",
+      "31003202",
+      "33248138",
+      "35098694",
+      "40650026",
+      "33567297",
+      "33243935",
+      "36851914",
+      "33207556",
+      "35139468",
+      "36648282",
+      "38124369",
+      "37657994",
+      "26720267",
+      "34390736",
+      "41326937",
+      "34358545",
+      "39938238"
+    ],
+    "pmc": [
+      "11536093"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2406407121?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39446390/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

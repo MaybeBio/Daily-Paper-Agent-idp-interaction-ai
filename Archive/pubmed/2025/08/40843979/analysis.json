@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40843979",
+  "title": "Residual flexibility in the topologically constrained multivalent complex between the GKAP scaffold and LC8 hub proteins.",
+  "authors": "Nagy-Kanta, Eszter; Kalman, Zsofia E; Tossavainen, Helena; Juhasz, Tunde; Farkas, Fanni; Hegedus, Jozsef; Keresztes, Melinda; Beke-Somfai, Tamas; Gaspari, Zoltan; Permi, Perttu; Peterfia, Balint",
+  "journal": "The FEBS journal",
+  "published_date": "2025-08-22",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合NMR与分子动力学模拟，揭示GKAP无序区域与LC8二聚体形成拓扑约束六聚体复合物时保留的残基灵活性及动态互作，直接聚焦IDR介导的PPI机制建模，高度契合课题。",
+  "abstract": "Guanylate kinase-associated protein (GKAP) is a large postsynaptic scaffold protein bearing two closely spaced noncanonical binding sites for the bivalent dynein light chain LC8 hub protein. This might allow the formation of heterogeneous complexes with different sizes and topologies. Here, we show that a well-defined hexameric complex is formed, composed of two GKAP molecules and two LC8 dimers. Using nuclear magnetic resonance (NMR) spectroscopy, we demonstrate that the LC8-binding segment of GKAP is intrinsically disordered and the flexibility of the linker region is largely retained even in the complex form. Molecular dynamics calculations suggest that, besides the tightly bound residues, the hexamer also exhibits several dynamically interchanging interactions, and that the two LC8 dimers might interact with each other. The flanking regions of the two binding sites on GKAP exhibit different interaction patterns, hinting at additional contacts that might explain the fixed stoichiometry of the assembly. Our results demonstrate that constrained stoichiometry can coexist with substantial flexibility in a multivalent system.",
+  "abstract_zh": "鸟苷酸激酶相关蛋白（GKAP）是一种大型突触后支架蛋白，带有两个紧密排列的非经典结合位点，用于二价动力蛋白轻链LC8枢纽蛋白。这可能允许形成具有不同大小和拓扑结构的异质复合物。在此，我们展示了一个明确界定的六聚体复合物的形成，该复合物由两个GKAP分子和两个LC8二聚体组成。利用核磁共振（NMR）波谱学，我们证明GKAP的LC8结合片段本质上是无序的，并且即使在复合物形式中，连接区的灵活性也大部分得以保留。分子动力学计算表明，除了紧密结合的残基外，六聚体还表现出若干动态互换的相互作用，并且两个LC8二聚体可能彼此相互作用。GKAP上两个结合位点的侧翼区域表现出不同的相互作用模式，暗示存在额外的接触，这可能解释了组装体的固定化学计量比。我们的结果表明，在多价系统中，受限的化学计量比可以与显著的灵活性共存。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40843979/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40843979/",
+  "paper_page_path": "papers/pubmed/40843979/index.html"
+}

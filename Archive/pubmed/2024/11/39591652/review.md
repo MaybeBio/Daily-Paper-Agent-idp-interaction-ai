@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusion, and materials and methods. Supplementary material described but not provided.
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with claims. Not assessed: editorial quality, formatting, or literature completeness beyond what is visible.
+- **Shared manuscript claim summary** The authors report that the dipeptide repeat peptide (GR)20 forms distinct secondary structures depending on the mechanism of condensation: β-sheet-rich structures when condensed via excluded volume effects (PEG) and loop-rich structures when condensed via electrostatic interactions with RNA. They further report that hydrogen-bond dynamics of backbone carbonyls are slowed in both condensate types relative to dilute solution, attributed to confined water within percolated networks. These conclusions are supported by 2D IR spectroscopy, PSA analysis, and MD simulations.
+- **Visible evidence base** Main text figures (Figures 1–5), methods section, and references to supplementary figures (S2, S6, S11, S12) and sections (S3, S4, S5). Supplementary material not provided.
+- **Missing materials affecting confidence** Supplementary Information (detailed fitting procedures, AlphaFold3 structures and predicted spectra, CLS fitting details, MD simulation box images, H-bond autocorrelation results, radial distribution functions). Raw 2D IR spectra, full fitting parameters, and simulation input files not provided.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question: how the molecular environment within biomolecular condensates influences peptide secondary structure and local dynamics. The use of 2D IR spectroscopy to probe secondary structure in condensates is novel and technically impressive. The observation that (GR)20 adopts different secondary structures depending on the condensation mechanism is potentially significant for understanding DPR toxicity. However, several technical concerns must be addressed before the conclusions are fully established. The PSA fitting procedure is described but the robustness of the band assignments is not fully demonstrated. The MD simulations do not include PEG explicitly, and the authors acknowledge this limitation, but the comparison between the "excluded volume" simulation and the PEG experiment is therefore indirect. The CLS measurements are limited by a 2 ps window, which the authors note, but the reported lifetimes in condensates exceed this window, raising questions about the accuracy of the extracted time constants. Overall, the work is promising and of interest to the condensate and biophysics communities, but the evidence as presented does not fully support all claims.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, liquid–liquid phase separation, and DPR-related neurodegeneration (e.g., C9orf72 ALS/FTD). Also of interest to the 2D IR spectroscopy community and those studying protein dynamics in crowded or confined environments. The findings on interaction-dependent secondary structure could inform models of condensate aging and aggregation.
+- **Major strengths** 1. Novel application of 2D IR spectroscopy to directly probe secondary structure within condensates, a technically challenging measurement. 2. Clear comparison of two distinct condensation mechanisms (excluded volume vs. electrostatic) and their differential effects on peptide structure. 3. Integration of experimental spectroscopy with MD simulations to provide a molecular-level interpretation of dynamics. 4. The observation of β-sheet formation in PEG-induced condensates and loop formation in RNA-induced condensates is a potentially important finding with implications for DPR toxicity.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of spectral interpretation
+  - **Claim pointer** The authors claim that (GR)20 forms β-sheet structures in PEG-induced condensates and loop structures in RNA-induced condensates, based on PSA band fitting.
+  - **Evidence pointer** Figure 3, Section S3 (not provided)
+  - **Concern** The band fitting procedure used to assign secondary structure populations is not described in sufficient detail in the main text, and the supplementary fitting details were not available for review. The assignment of the 1633 cm⁻¹ band to β-sheet and the 1682 cm⁻¹ band to loop/β-turn structures is plausible but not uniquely determined. Overlapping contributions from arginine side chains, PEG vibrational modes, and RNA ring modes could complicate the amide I region. The authors note that the PEG CH₂ wagging overtone overlaps with the arginine band, but the potential influence of this and other non-amide modes on the fitted amide I band shape is not fully addressed. Without a rigorous error analysis, including confidence intervals on the fitted populations and a demonstration that the fits are unique, the quantitative claims about β-sheet vs. loop populations are not fully supported.
+  - **Why it matters** The central claim of the paper—that secondary structure depends on the condensation mechanism—rests entirely on the interpretation of the amide I band shape. If the band assignments are incorrect or the fitting is not robust, the main conclusion is undermined.
+  - **Resolution test** Provide the full fitting procedure, including initial guesses, constraints, and the number of Gaussian components tested. Show residual plots and a statistical comparison of alternative models (e.g., with and without a β-sheet component). Demonstrate that the fitted populations are stable across different fitting approaches and that non-amide vibrational modes do not significantly contribute to the fitted bands. Ideally, provide an independent validation of the secondary structure assignments, such as circular dichroism or solid-state NMR on the same samples.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of dynamics measurements
+  - **Claim pointer** The authors report CLS decay constants of 1.40 ps (dilute), 4.87 ps (PEG condensate), and 4.06 ps (RNA condensate), and interpret the slowdown as due to confined water.
+  - **Evidence pointer** Figure 4, Section S5 (not provided)
+  - **Concern** The CLS measurements are limited to a 2 ps waiting-time window, as the authors acknowledge. The reported condensate lifetimes (4.87 and 4.06 ps) are more than twice the measurement window. Extracting a time constant that is longer than the observation window is inherently unreliable, as the decay is not sufficiently sampled to constrain the fit. The authors state that the "2 ps waiting-time measurement window, limited by the vibrational lifetime, does not allow for accurate determination of longer decay times," yet they still report these values as quantitative results. This is a significant inconsistency. The claim of a "marked slowdown" may be qualitatively correct, but the specific values and the comparison between the two condensate types (4.87 vs. 4.06 ps) are not reliable.
+  - **Why it matters** The dynamics results are a key part of the paper's contribution. If the reported lifetimes are not accurate, the comparison between condensate types and the interpretation of confined water are not quantitatively supported.
+  - **Resolution test** Either extend the measurement window (e.g., using a different vibrational probe with a longer lifetime) or present the CLS data as a qualitative observation of slowed dynamics without reporting specific time constants. If specific values are reported, provide a rigorous error analysis that accounts for the limited window, such as a Bayesian fit with credible intervals, and demonstrate that the values are not artifacts of the fitting procedure.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of MD simulations
+  - **Claim pointer** The authors state that MD simulations "effectively capture the general slowdown" in hydrogen-bond dynamics and attribute it to confined water.
+  - **Evidence pointer** Figure 5, Methods section
+  - **Concern** The MD simulations for the "excluded volume" system do not include PEG. Instead, the system consists of ten (GR)20 peptides at high concentration, which is intended to mimic the crowded environment of the PEG-induced condensate. However, PEG is known to interact with proteins in a sequence-dependent manner, and the authors themselves note that PEG may partition into some condensates. The absence of PEG in the simulation means that any specific PEG–peptide interactions that could affect structure or dynamics are not captured. The comparison between the "Excl. Vol" simulation and the PEG experiment is therefore indirect. The authors acknowledge this limitation, but the claim that the simulations "effectively capture" the experimental slowdown is not fully justified, as the simulation may be capturing a generic crowding effect rather than the specific environment of the PEG-induced condensate.
+  - **Why it matters** The MD simulations are used to provide a molecular interpretation of the experimental results. If the simulation system does not accurately represent the experimental conditions, the interpretation may be misleading.
+  - **Resolution test** Either include PEG explicitly in the simulations, or temper the claims about the simulations "capturing" the experimental results. If explicit PEG simulations are not feasible, clearly state that the simulations represent a generic crowding effect and discuss the limitations of this approach in the context of the experimental system.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The schematic in Figure 1 is helpful, but the labels for the three conditions (dilute, PEG, RNA) are not clearly distinguished in the figure legend. The legend should explicitly state which panel corresponds to which condition.
+  - **Required correction** Update the figure legend to clearly label each panel with the corresponding condition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods section, 2D IR spectroscopy
+  - **Evidence pointer** Methods section
+  - **Issue** The methods section describes the 2D IR spectrometer but does not provide details on the polarization scheme used (beyond "perpendicular polarization to suppress scatter") or the pump pulse energy. These details are important for reproducibility.
+  - **Required correction** Add the polarization scheme (e.g., PPP, SSP) and pump pulse energy to the methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 3, PSA fitting
+  - **Evidence pointer** Figure 3, Section S3
+  - **Issue** The error bars on the fitted populations in Figure 3 are not described. It is unclear whether they represent standard deviations from the fitting procedure, reproducibility across samples, or something else.
+  - **Required correction** Clearly state the source of the error bars in the figure legend and in the main text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of biological relevance
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion
+  - **Issue** The conclusion speculates on the biological relevance of the findings for DPR toxicity, but this speculation is not well connected to the experimental results. The link between β-sheet formation in PEG-induced condensates and toxicity is not established.
+  - **Required correction** Either provide a more nuanced discussion of the limitations of the model system for drawing biological conclusions, or remove the speculative statements about toxicity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (spectral interpretation), R1-M2 (dynamics measurements), R1-M3 (MD simulation relevance).
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The application of 2D IR to probe secondary structure within condensates is novel, and the comparison of two condensation mechanisms is a fresh approach.
+  - **Scientific importance** Moderate to high. The findings have implications for understanding DPR toxicity and condensate aging, but the model system is simplified and the direct relevance to disease is not established.
+  - **Interdisciplinary readership** Moderate. The work will appeal to biophysicists, spectroscopists, and condensate biologists, but may be less accessible to a broader readership due to the technical nature of 2D IR.
+  - **Technical soundness** Moderate. The experimental approach is sound, but the spectral interpretation and dynamics measurements have significant limitations that need to be addressed.
+  - **Readability for nonspecialists** Moderate. The paper is generally well-written, but the methods and results sections assume familiarity with 2D IR spectroscopy and MD simulations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the experimental approach is novel, but the current evidence does not fully support the quantitative claims. Addressing the concerns about spectral fitting, dynamics measurements, and simulation relevance would strengthen the paper considerably.
+
+## Risk / unsupported claims
+- The claim that (GR)20 forms β-sheet structures in PEG-induced condensates is not fully supported due to the lack of detailed fitting information and potential spectral overlaps.
+- The reported CLS decay constants for condensate phases (4.87 and 4.06 ps) are not reliable given the 2 ps measurement window.
+- The MD simulations do not include PEG, so the claim that they "effectively capture" the experimental slowdown in the PEG-induced condensate is not fully supported.
+- The speculation that β-sheet formation in (GR)20 condensates could serve as a nucleation event for aggregation and toxicity is not directly supported by the experimental data.

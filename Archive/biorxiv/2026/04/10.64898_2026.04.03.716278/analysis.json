@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.03.716278",
+  "title": "ProMaya: a hierarchical universal Deep Learning framework for accurate and interpretable Protein-Protein interaction identification",
+  "authors": "Umesh Bhati; Sagar Gupta; Veerbhan kesarwani; Ravi Shankar",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-06",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 8,
+  "one_liner_zh": "ProMaya 提出层级多尺度图-Transformer 框架，整合原子几何、电子分布、残基无序性及蛋白语言模型嵌入来预测蛋白-蛋白互作，虽未聚焦相分离，但以无序性为特征并具可解释机制建模，对 IDR 介导 PPI 预测有直接借鉴价值。",
+  "abstract": "Protein-protein interactions (PPIs) are molecular lego which define the physical states of cells. Accurately identifying PPIs remains challenging due to the interplay of several factors ranging from electrostatic to molecular geometry, topology, and physics. Existing computational approaches capture only fragments of this orchestra, limiting their generalizability across protein families and interaction types. Here, we present ProMaya, a hierarchical multi-scale Graph-transformer framework that integrates 3D atomic geometry, electronic distribution, residue-level structure and disorder, surface mass-density signatures, and large protein language-model embeddings of interacting proteins. Highly comprehensively benchmarked across nine species and 47 GB experimentally validated data, ProMaya achieved consistently >95% average accuracy, outperforming state-of-the-art tools by >12%. As driven by its explainability, the first time introduced atomic and protein language information dramatically boosted it to an outstanding level for PPI discovery in any species, potent to even bypass costly experiments. ProMaya system is freely accessible at https://scbb.ihbt.res.in/ProMaya/",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）是定义细胞物理状态的分子乐高。由于从静电到分子几何、拓扑和物理等多因素的相互作用，准确识别PPIs仍具挑战性。现有计算方法仅捕捉了这一交响乐团的片段，限制了其在蛋白质家族和相互作用类型间的泛化能力。在此，我们提出ProMaya，一种层级多尺度图变换器框架，整合了三维原子几何、电子分布、残基级结构和无序性、表面质量密度特征，以及相互作用蛋白质的大型蛋白质语言模型嵌入。在九个物种和47 GB实验验证数据上进行了全面基准测试，ProMaya持续实现>95%的平均准确率，优于最先进工具>12%。由其可解释性驱动，首次引入的原子和蛋白质语言信息显著将其提升至任何物种中PPI发现的卓越水平，甚至可能绕过昂贵的实验。ProMaya系统可免费访问：https://scbb.ihbt.res.in/ProMaya/",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.03.716278",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.03.716278",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.03.716278/index.html"
+}

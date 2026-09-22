@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.29.678898",
+  "title": "De novo design of phosphotyrosine peptide binders",
+  "authors": "Bauer MS; Zhang JZ; Wu K; Lee GR; Coventry B; Silvestri IM; Klupt KA; Shi J; Brent RI; Li X; Moller C; Roullier N; Vafeados DK; Kalvet I; Skotheim RK; Zhu S; Motmaen A; Herrmann LC; Sturmfels P; Tischer D; Altae-Tran H; Juergens D; Krishna R; Ahern W; Yim J; Bera AK; Kang A; Joyce E; Lu A; Stewart L; DiMaio F; Mudumbi KC; Baker D",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-30",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用深度生成框架RFD2-MI从头设计识别磷酸化酪氨酸肽段的结合蛋白，靶向无序区域中的磷酸化位点，虽对象为折叠结合蛋白而非IDP本身，但聚焦磷酸化修饰介导的PPI识别机制建模，方法可迁移至IDR互作设计。",
+  "abstract": "<h4>ABSTRACT</h4> Phosphorylation on tyrosine is a key step in many signaling pathways. Despite recent progress in de novo design of protein binders, there are no current methods for designing binders that recognize phosphorylated proteins and peptides; this is a challenging problem as phosphate groups are highly charged, and phosphorylation often occurs within unstructured regions. Here we introduce RoseTTAFold Diffusion 2 for Molecular Interfaces (RFD2-MI), a deep generative framework for the design of binders for protein, ligand, and covalently modified protein targets. We demonstrate the power and versatility of this method by designing binders for four critical phosphotyrosine sites on three clinically relevant targets: Cluster of Differentiation 3 (CD3ε), Epidermal Growth Factor Receptor (EGFR), Insulin Receptor (INSR) and Signal Transducer and Activator of Transcription 5 (STAT5). Experimental characterization shows that the designs bind their phosphotyrosine containing targets with affinities comparable to native binding sites and have negligible binding to non-phosphorylated targets or phosphopeptides with different sequences. X-ray crystal structures of generated binders to CD3ε and EGFR are very close to the design models, demonstrating the accuracy of the design approach. A designed binder to an EGFR intracellular region phosphorylated upon EGF activation co-localizes with the receptor following EGF stimulation in single-particle tracking (SPT) experiments, demonstrating pY specific recognition in living cells. RFD2-MI provides a generalizable all-atom diffusion framework for probing and modulating phosphorylation-dependent signaling, and more generally, for developing research tools and targeted therapeutics against post-translationally modified proteins.",
+  "abstract_zh": "<h4>摘要</h4> 酪氨酸磷酸化是许多信号通路中的关键步骤。尽管在蛋白质结合物的从头设计方面近期取得了进展，但目前尚无方法用于设计识别磷酸化蛋白质和肽段的结合物；这是一个具有挑战性的问题，因为磷酸基团带有高电荷，且磷酸化通常发生在无序区域。在此，我们介绍了用于分子界面的RoseTTAFold扩散模型2（RFD2-MI），这是一种深度生成框架，用于设计针对蛋白质、配体和共价修饰蛋白质靶标的结合物。我们通过为三个临床相关靶标上的四个关键磷酸酪氨酸位点设计结合物，展示了该方法的强大功能和多样性：分化簇3（CD3ε）、表皮生长因子受体（EGFR）、胰岛素受体（INSR）和信号转导及转录激活因子5（STAT5）。实验表征表明，这些设计结合物与其含磷酸酪氨酸的靶标结合，亲和力与天然结合位点相当，且对非磷酸化靶标或序列不同的磷酸肽段结合可忽略不计。生成的CD3ε和EGFR结合物的X射线晶体结构与设计模型非常接近，证明了设计方法的准确性。在单粒子追踪（SPT）实验中，针对EGF激活后磷酸化的EGFR胞内区域设计的一种结合物，在EGF刺激后与受体共定位，证明了pY特异性识别在活细胞中的实现。RFD2-MI提供了一个可推广的全原子扩散框架，用于探测和调节磷酸化依赖性信号传导，更广泛地说，用于开发针对翻译后修饰蛋白质的研究工具和靶向治疗药物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.29.678898",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.29.678898",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.29.678898/index.html"
+}

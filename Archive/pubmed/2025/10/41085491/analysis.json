@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41085491",
+  "title": "Structural Insights into WY Domain SLiM-Containing Conserved RxLR Effectors: A Case Study of Five Important Phytophthora Species.",
+  "authors": "Salasini, B C; Chepsergon, J; Nxumalo, C I; Moleleki, L N",
+  "journal": "Molecular plant-microbe interactions : MPMI",
+  "published_date": "2025-10-14",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过计算预测与结构分析研究疫霉RxLR效应蛋白中WY结构域与SLiM的整合，虽涉及蛋白互作界面与结构域架构，但对象为病原效应蛋白而非无序蛋白/相分离，方法以结构预测和实验验证为主，缺乏AI/物理模拟的机制建模深度。",
+  "abstract": "Pathogenicity in Phytophthora species is in part underpinned by a sophisticated arsenal of RxLR effectors, which function as molecular determinants of host immune manipulation. Among these, conserved RxLR effectors (CREs) represent an evolutionarily conserved subset that is indispensable for virulence. However, the structural basis of their function remains poorly understood. Here, we conducted in silico analysis of CREs across five agriculturally significant Phytophthora species, revealing a conserved subset that integrates WY domains with embedded short linear motifs (SLiMs), a previously recognized architectural feature with functional implications. Notably, our findings indicate that despite the canonical association of SLiMs with intrinsically disordered regions, their incorporation within the structured WY domain preserves domain integrity while potentially expanding the effector's interactome within host cells. To explore the functional relevance of this domain organization, we characterized Phytophthora nicotianae RxLR6 (PpRxLR6), a representative WY-SLiM CRE identified in this study. Using Agrobacterium-mediated transient expression assays, we demonstrate that PpRxLR6 activates key immune defense networks in Nicotiana and Solanum species, suggesting a role in modulating host immune signaling. Structural predictions further reveal that PpRxLR6 harbors its SLiM within a well-ordered WY-like helical core region, suggesting that SLiM-mediated interactions may occur within structured effector domains rather than being confined to intrinsically disordered regions. These findings enhance our understanding of the effector domain architecture of PpRxLR6, illustrating how structured domains in CREs may serve as scaffolds for SLiM-mediated interactions. This structural arrangement may represent an adaptive strategy in Phytophthora evolution, potentially enhancing effector versatility in host interactions and immune modulation. [Formula: see text] Copyright (c) 2026 The Author(s). This is an open access article distributed under the CC BY-NC-ND 4.0 International license.",
+  "abstract_zh": "疫霉属物种的致病性部分依赖于其复杂的RxLR效应子武器库，这些效应子作为宿主免疫调控的分子决定因子发挥作用。其中，保守RxLR效应子（conserved RxLR effectors, CREs）代表一个进化上保守的子集，对毒力不可或缺。然而，其功能的结构基础仍知之甚少。在此，我们对五种具有农业重要性的疫霉属物种中的CREs进行了计算机模拟分析，揭示了一个保守子集，该子集整合了WY结构域与嵌入的短线性基序（short linear motifs, SLiMs），这是一种先前已识别的具有功能意义的结构特征。值得注意的是，我们的发现表明，尽管SLiMs通常与 intrinsically disordered regions（内在无序区域）相关联，但它们整合入结构化WY结构域内可保持结构域完整性，同时可能扩展效应子在宿主细胞内的相互作用组。为探索该结构组织的功能相关性，我们表征了烟草疫霉RxLR6（PpRxLR6），这是本研究中鉴定出的一个代表性WY-SLiM CRE。利用农杆菌介导的瞬时表达实验，我们证明PpRxLR6激活了烟草属和茄属物种中的关键免疫防御网络，提示其在调控宿主免疫信号中发挥作用。结构预测进一步揭示，PpRxLR6将其SLiM容纳于一个有序的WY样螺旋核心区域内，表明SLiM介导的相互作用可能发生在结构化效应子结构域内，而非局限于内在无序区域。这些发现增进了我们对PpRxLR6效应子结构域架构的理解，阐明了CREs中的结构化结构域如何作为SLiM介导相互作用的支架。这种结构排列可能代表疫霉属进化中的一种适应性策略，潜在地增强效应子在宿主相互作用和免疫调控中的多功能性。[公式：见原文] 版权所有（c）2026作者。这是一篇根据CC BY-NC-ND 4.0国际许可协议分发的开放获取文章。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41085491/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41085491/",
+  "paper_page_path": "papers/pubmed/41085491/index.html"
+}

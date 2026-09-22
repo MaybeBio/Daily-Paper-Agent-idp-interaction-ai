@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.01.668138",
+  "title": "Hierarchically ordered multi-timescale structural dynamics of the intrinsically disordered p53 transactivation domain",
+  "authors": "Szöllősi D; Pratihar S; Mukhopadhyay D; Rout AK; Reddy GJ; Ebersberger N; Becker S; Nagy G; Rauscher S; Lee D; Klement R; Griesinger C; Grubmüller H",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-02",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文结合NMR与MD模拟，揭示p53无序反式激活域多时间尺度层级结构动力学，虽聚焦单蛋白构象动态而非直接PPI，但其IDP动力学机制建模方法对本课题有迁移启发。",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically disordered proteins (IDPs) exhibit pronounced structural dynamics, which is crucial for their functional versatility. Yet their dynamics slower than nanoseconds remain largely elusive. We combined high-power relaxation dispersion nuclear magnetic resonance spectroscopy with molecular dynamics simulations to characterize these kinetics and the underlying structural interconversions of a prototypical IDP, the N-terminal transactivation domain of the tumor suppressor p53 (p53-TAD). We find a complex hierarchy of structural dynamics on timescales covering over seven orders of magnitude, ranging from fast nanoseconds backbone re-orientations, via sub-microsecond helix-formation dynamics involving many structural sub-states and transition times, to transient tertiary structure formation slower than 25 microseconds. These rich structural dynamics of p53-TAD, and likely those of other IDPs, parallel the timescale hierarchy of the conformational dynamics of folded proteins. <h4>One-Sentence summary</h4> A hierarchical energy landscape governs kinetics and structural dynamics of the disordered p53 transactivation domain.",
+  "abstract_zh": "<h4>摘要</h4> 内在无序蛋白质（IDPs）展现出显著的结构动力学特性，这对于其功能多样性至关重要。然而，它们慢于纳秒尺度的动力学过程在很大程度上仍难以捉摸。我们结合高功率弛豫分散核磁共振波谱与分子动力学模拟，以表征一种典型IDP——肿瘤抑制因子p53的N端反式激活域（p53-TAD）的动力学及其潜在的结构互变。我们发现，在跨越七个数量级以上的时间尺度上存在复杂的结构动力学层级，范围从快速的纳秒级主链重取向，经由涉及多种结构亚态和转变时间的亚微秒级螺旋形成动力学，直至慢于25微秒的瞬时三级结构形成。p53-TAD的这些丰富结构动力学，很可能也适用于其他IDPs，与折叠蛋白质构象动力学的时标层级相平行。<h4>一句话总结</h4> 一个层级化的能量景观调控着无序p53反式激活域的动力学和结构动力学。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.01.668138",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.01.668138",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.01.668138/index.html"
+}

@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text (perspective/review article)
+- **Assessment boundary** Scientific content, technical accuracy, completeness of coverage, and clarity of the presented computational methods for IDPs/IDRs
+- **Shared manuscript claim summary** The authors provide a perspective on computational methods for generating and validating structural ensembles of intrinsically disordered proteins and regions, including their complexes and phase-separated states, covering knowledge-based, physics-based, and machine learning approaches.
+- **Visible evidence base** Full text including abstract, introduction, sections on ensemble generation (knowledge-based, physics-based, ML), ensemble validation (experimental observables, statistical methods, ML), software repositories, and conclusion. No figures or tables were provided in the submitted material.
+- **Missing materials affecting confidence** Figures (including Figure 1 referenced in the text), Table 1 (summarizing software), and any supplementary information were not included. This limits verification of specific claims about software capabilities and workflow illustrations.
+
+## Reviewer
+- **Overall assessment** This is a well-structured and timely perspective that surveys the rapidly evolving landscape of computational methods for intrinsically disordered proteins and regions. The authors are clearly expert in the field, and the manuscript covers a broad range of approaches with appropriate emphasis on integration with experimental data. The writing is generally clear and accessible. However, the manuscript would benefit from a more critical and comparative analysis of the methods discussed, and from a clearer articulation of the field's open challenges and how they might be addressed. The absence of figures and tables in the provided material limits a full assessment of the illustrative content.
+- **Who would be interested in the results, and why** Researchers in biophysics, computational chemistry, structural biology, and molecular biology who study IDPs/IDRs, protein complexes, and biomolecular condensates. The perspective is also relevant for method developers in machine learning and molecular simulation, and for experimentalists seeking guidance on computational tools for interpreting their data. The call for community standards and data deposition is of broad interest.
+- **Major strengths** 1) Comprehensive coverage of the three main categories of ensemble generation methods (knowledge-based, physics-based, ML). 2) Clear emphasis on the importance of experimental validation and integration, with a useful summary of key experimental observables (NMR, SAXS, smFRET, etc.). 3) Up-to-date discussion of recent ML advances, including generative models. 4) Practical focus on software availability and community needs, including a call for better data deposition and benchmarking standards.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness and completeness
+  - **Claim pointer** The manuscript claims to provide "a robust overview of current computational tools for IDPs and IDRs, and most recently their complexes and phase separated states."
+  - **Evidence pointer** Sections "Ensemble Generation" and "Ensemble Validation"; location not provided for specific claims
+  - **Concern** While the coverage is broad, the treatment of many methods is descriptive rather than critical. For example, the discussion of knowledge-based methods (TraDES, Flexible-Meccano, FastFloppyTail, IDPConformerGenerator) lists features but does not compare their relative strengths, limitations, or applicability domains. Similarly, the physics-based section describes several force fields and CG models but lacks a systematic comparison of their accuracy, computational cost, and suitability for different IDP systems. The ML section is particularly brief given the rapid growth of this area.
+  - **Why it matters** A perspective article should not only catalogue methods but also guide readers in selecting appropriate tools for their specific questions. Without critical comparison, the manuscript risks being a list rather than a useful guide, and may not adequately inform readers about the current state of the art and its limitations.
+  - **Resolution test** The authors should add a comparative discussion, possibly in table or text form, that evaluates methods along key axes such as accuracy, computational cost, input data requirements, and system size limitations. They should also explicitly state which methods are best suited for which types of IDP/IDR problems (e.g., single-chain vs. complexes vs. condensates).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance and future directions
+  - **Claim pointer** The conclusion states that "modeling of multiple disordered chains within a complex or condensate is the next frontier" and calls for more focus on software for dynamic complexes.
+  - **Evidence pointer** Section "Conclusion and Future Directions"; location not provided
+  - **Concern** The future directions section is relatively brief and does not delve into specific technical challenges that must be overcome. For example, the manuscript does not discuss the challenge of validating ensembles of complexes or condensates, where experimental data are sparser and more averaged. It also does not address the issue of transferability of force fields and ML models to multi-chain systems, or the computational scaling challenges. The call for community standards is good, but the specific technical hurdles are not articulated.
+  - **Why it matters** For a perspective, the future directions section is a key opportunity to shape the field's research agenda. A more detailed and concrete discussion of challenges and potential solutions would be more valuable to readers and would strengthen the manuscript's impact.
+  - **Resolution test** The authors should expand the future directions section to include specific technical challenges (e.g., sampling of multi-chain systems, treatment of long-range electrostatics in condensates, development of transferable ML potentials, integration of diverse experimental data types) and suggest possible avenues for addressing them.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The abstract and introduction state the goal of providing an overview for a broad audience.
+  - **Evidence pointer** Abstract and Introduction; location not provided
+  - **Concern** The manuscript assumes significant prior knowledge of the field. Terms such as "MaxEnt," "MaxPar," "reweighting," and "back-calculation" are used without sufficient introduction for a nonspecialist reader. The distinction between ensemble generation and validation is clear, but the statistical underpinnings of reweighting methods are not explained in an accessible way. The manuscript would benefit from a brief primer on key concepts, or from more careful definition of terms at first use.
+  - **Why it matters** The stated aim is to provide a "robust overview" for the community. If the intended audience includes experimentalists or newcomers to the field, the current level of technical detail may be a barrier. Improving accessibility would broaden the manuscript's impact.
+  - **Resolution test** The authors should add a short "Key Concepts" box or paragraph that defines terms such as "structural ensemble," "back-calculation," "reweighting," and "MaxEnt/MaxPar" in plain language. They should also ensure that each method is introduced with a one-sentence explanation of its core idea before diving into details.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Section "Ensemble Validation", subsection "Experimental Observables"
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of NMR observables is comprehensive but does not mention relaxation dispersion experiments, which can provide information about conformational exchange on the microsecond-millisecond timescale, relevant for some IDP/IDR systems.
+  - **Required correction** Add a brief mention of relaxation dispersion as an additional NMR observable, with a reference to a relevant back-calculation approach if available.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Ensemble Generation", subsection "Machine-learning Methods"
+  - **Evidence pointer** Location not provided
+  - **Issue** The statement that AlphaFold2 predictions for IDRs "seem to be built as ribbons in a way that only satisfies the steric clash restraints" is somewhat vague and could be misinterpreted. It would be clearer to state that AlphaFold2 often produces low-confidence, extended conformations for IDRs that lack defined secondary structure.
+  - **Required correction** Rephrase the sentence to be more precise about the nature of AlphaFold2 predictions for IDRs, and consider adding a reference to a study that systematically evaluates AlphaFold2 performance on IDRs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Software and Data Repositories for IDPs/IDRs"
+  - **Evidence pointer** Location not provided
+  - **Issue** The text mentions Table 1 as a summary of software, but the table was not provided. It is unclear whether the table includes information on software licensing, maintenance status, or user support, which are practical considerations for users.
+  - **Required correction** Ensure Table 1 includes columns for licensing, last update, and user support if not already present, and note this in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "Ensemble Validation", subsection "Statistical subsetting/reweighting methods"
+  - **Evidence pointer** Location not provided
+  - **Issue** The distinction between "subsetting" and "reweighting" is not explicitly defined. The text uses both terms but does not clarify that subsetting selects a subset of conformations, while reweighting assigns weights to all conformations.
+  - **Required correction** Add a sentence defining both terms and explaining the conceptual difference.
+
+## Risk / unsupported claims
+- The claim that "many IDRs from AlphaFold2 seem to be built as ribbons in a way that only satisfies the steric clash restraints" is presented without a specific citation or systematic analysis, making it an unsupported generalization.
+- The statement that "DynamICE has used J-couplings, NOE, and PRE data to bias the generation of ensembles that better agree with experimental data for α-synuclein, α–beta, Hst5, and the unfolded state of SH3" is specific but cannot be fully verified without access to the cited reference (reference 118) or the original DynamICE publication.
+- The assertion that "the latest software platform for modeling and analyzing IDPs/IDRs, IDPConformerGenerator, can also use NMR and SAXS experimental data to bias conformer generation" is plausible but not independently verifiable from the provided text alone.
+- The claim that "AlphaFold multimer seems promising for multi-chain complexes of folded proteins, but its core MSA protocol cannot be readily exploited for disordered proteins" is presented as a general statement without supporting data or references, and may be overly broad given ongoing developments in the field.

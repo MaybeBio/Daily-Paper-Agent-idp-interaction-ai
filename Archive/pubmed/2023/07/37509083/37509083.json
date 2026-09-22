@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "37509083",
+    "doi": "10.3390/biom13071047",
+    "title": "Prediction of CD44 Structure by Deep Learning-Based Protein Modeling."
+  },
+  "content": {
+    "abstract": "CD44 is a cell surface glycoprotein transmembrane receptor that is involved in cell-cell and cell-matrix interactions. It crucially associates with several molecules composing the extracellular matrix, the main one of which is hyaluronic acid. It is ubiquitously expressed in various types of cells and is involved in the regulation of important signaling pathways, thus playing a key role in several physiological and pathological processes. Structural information about CD44 is, therefore, fundamental for understanding the mechanism of action of this receptor and developing effective treatments against its aberrant expression and dysregulation frequently associated with pathological conditions. To date, only the structure of the hyaluronan-binding domain (HABD) of CD44 has been experimentally determined. To elucidate the nature of CD44s, the most frequently expressed isoform, we employed the recently developed deep-learning-based tools D-I-TASSER, AlphaFold2, and RoseTTAFold for an initial structural prediction of the full-length receptor, accompanied by molecular dynamics simulations on the most promising model. All three approaches correctly predicted the HABD, with AlphaFold2 outperforming D-I-TASSER and RoseTTAFold in the structural comparison with the crystallographic HABD structure and confidence in predicting the transmembrane helix. Low confidence regions were also predicted, which largely corresponded to the disordered regions of CD44s. These regions allow the receptor to perform its unconventional activity.",
+    "keywords": [
+      "artificial intelligence",
+      "hyaluronan-binding domain",
+      "immune response",
+      "intrinsically disordered regions",
+      "molecular dynamics simulations"
+    ],
+    "mesh_terms": [
+      "Carrier Proteins/metabolism",
+      "Deep Learning",
+      "Extracellular Matrix/metabolism",
+      "*Hyaluronan Receptors/chemistry/metabolism",
+      "Hyaluronic Acid/chemistry",
+      "Molecular Dynamics Simulation",
+      "Receptors, Cell Surface/metabolism",
+      "Humans",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Camponeschi, Chiara",
+        "Righino, Benedetta",
+        "Pirolli, Davide",
+        "Semeraro, Alessandro",
+        "Ria, Francesco",
+        "De Rosa, Maria Cristina"
+      ],
+      "short_names": [
+        "Camponeschi C",
+        "Righino B",
+        "Pirolli D",
+        "Semeraro A",
+        "Ria F",
+        "De Rosa MC"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2303-2577",
+        "ORCID: 0000-0002-9946-6331",
+        "ORCID: 0000-0001-7455-4290",
+        "ORCID: 0000-0002-9611-2490"
+      ],
+      "affiliations": [
+        "Institute of Chemical Sciences and Technologies ''Giulio Natta'' (SCITEC)-CNR, 00168 Rome, Italy.",
+        "Institute of Chemical Sciences and Technologies ''Giulio Natta'' (SCITEC)-CNR, 00168 Rome, Italy.",
+        "Institute of Chemical Sciences and Technologies ''Giulio Natta'' (SCITEC)-CNR, 00168 Rome, Italy.",
+        "Department of Chemistry and Technology of Drugs, Sapienza University of Rome, 00185 Rome, Italy.",
+        "Department of Translational Medicine and Surgery, Section of General Pathology, Universita Cattolica del Sacro Cuore, 00168 Rome, Italy.",
+        "Fondazione Policlinico Universitario A. Gemelli IRCCS, 00168 Rome, Italy.",
+        "Institute of Chemical Sciences and Technologies ''Giulio Natta'' (SCITEC)-CNR, 00168 Rome, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Camponeschi, Chiara",
+        "short_name": "Camponeschi C",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chemical Sciences and Technologies ''Giulio Natta'' (SCITEC)-CNR, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Righino, Benedetta",
+        "short_name": "Righino B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Chemical Sciences and Technologies ''Giulio Natta'' (SCITEC)-CNR, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Pirolli, Davide",
+        "short_name": "Pirolli D",
+        "identifiers": [
+          "0000-0003-2303-2577"
+        ],
+        "affiliations": [
+          "Institute of Chemical Sciences and Technologies ''Giulio Natta'' (SCITEC)-CNR, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Semeraro, Alessandro",
+        "short_name": "Semeraro A",
+        "identifiers": [
+          "0000-0002-9946-6331"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Technology of Drugs, Sapienza University of Rome, 00185 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "Ria, Francesco",
+        "short_name": "Ria F",
+        "identifiers": [
+          "0000-0001-7455-4290"
+        ],
+        "affiliations": [
+          "Department of Translational Medicine and Surgery, Section of General Pathology, Università Cattolica del Sacro Cuore, 00168 Rome, Italy.",
+          "Fondazione Policlinico Universitario A. Gemelli IRCCS, 00168 Rome, Italy."
+        ]
+      },
+      {
+        "full_name": "De Rosa, Maria Cristina",
+        "short_name": "De Rosa MC",
+        "identifiers": [
+          "0000-0002-9611-2490"
+        ],
+        "affiliations": [
+          "Institute of Chemical Sciences and Technologies ''Giulio Natta'' (SCITEC)-CNR, 00168 Rome, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2023 Jun 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/29 11:45",
+    "fetched_at": "2026-09-20 23:49:56"
+  },
+  "links": {
+    "cites": [
+      "40943148",
+      "38435308"
+    ],
+    "refs": [
+      "36527033",
+      "36408920",
+      "35637307",
+      "35128357",
+      "34944493",
+      "34887447",
+      "34791371",
+      "34437129",
+      "34355210",
+      "34331351",
+      "34282049",
+      "34265844",
+      "34096718",
+      "33794704",
+      "33767177",
+      "33637700",
+      "33623018",
+      "31947887",
+      "30907297",
+      "30692202",
+      "29894820",
+      "29747682",
+      "27342250",
+      "26151392",
+      "25741341",
+      "25169209",
+      "24607406",
+      "24606063",
+      "23986568",
+      "23752202",
+      "23060926",
+      "21796726",
+      "21331226",
+      "20360767",
+      "17911438",
+      "17517781",
+      "17383158",
+      "17382349",
+      "17085435",
+      "17062682",
+      "14992719",
+      "11093259",
+      "10583604",
+      "9792156",
+      "8515464",
+      "7589094",
+      "6667333",
+      "2466576",
+      "2466575",
+      "1840487",
+      "1496383"
+    ],
+    "similar": [
+      "37509083",
+      "25116630",
+      "28715483",
+      "27342250",
+      "32428448",
+      "38996889",
+      "9172805",
+      "12928429",
+      "17293874",
+      "9111868",
+      "7510702",
+      "31654718",
+      "26136744",
+      "20843027",
+      "9634638",
+      "7507029",
+      "17085435",
+      "26038553",
+      "11792695",
+      "26066970",
+      "12883358",
+      "7519619",
+      "7545390",
+      "8832418",
+      "16565089",
+      "11448954",
+      "28837080",
+      "24010665",
+      "9231152",
+      "30089233",
+      "9645355",
+      "32638804",
+      "36768572",
+      "7542594",
+      "29175954",
+      "8922392",
+      "11827788",
+      "10512851",
+      "30909497",
+      "15090545",
+      "10933060",
+      "7543138",
+      "27965172",
+      "15035676",
+      "7543820",
+      "7544357",
+      "9417085",
+      "30396062",
+      "9634539",
+      "9330866",
+      "27193782",
+      "9768406",
+      "22072421",
+      "14706828",
+      "20462498",
+      "14992719",
+      "25195884",
+      "22947857",
+      "8829115",
+      "11950588",
+      "29673760",
+      "7508860",
+      "22159602",
+      "23118219",
+      "8654848",
+      "7519123",
+      "8674281",
+      "25937513",
+      "28891438",
+      "21356346",
+      "17392272",
+      "25901321",
+      "25081533",
+      "10714394",
+      "19164294",
+      "15060082",
+      "7532175",
+      "11731299",
+      "19174187",
+      "12145287",
+      "12011075",
+      "7542666",
+      "12955860",
+      "7533087",
+      "8642309",
+      "8815002",
+      "34364871",
+      "35649255",
+      "18547053",
+      "12183053",
+      "20962267",
+      "39090739",
+      "37484529"
+    ],
+    "review": [
+      "37509083",
+      "9172805",
+      "9111868",
+      "31654718",
+      "26136744",
+      "9634638",
+      "28837080",
+      "9231152",
+      "30089233",
+      "11827788",
+      "9634539",
+      "9330866",
+      "27193782",
+      "11950588",
+      "8654848",
+      "28891438",
+      "21356346",
+      "25081533",
+      "19174187",
+      "12955860",
+      "8815002",
+      "35649255",
+      "18547053",
+      "39090739"
+    ],
+    "pmc": [
+      "10376988"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom13071047",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37509083/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37509083",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-668",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

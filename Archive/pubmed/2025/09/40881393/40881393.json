@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "40881393",
+    "doi": "10.1021/jacsau.5c00713",
+    "title": "Controlling Multicomponent Condensate Morphology via Additive-Modulated Interactions."
+  },
+  "content": {
+    "abstract": "The morphology of biomolecular condensates plays a critical role in regulating intracellular organization and function by enabling both spatial and temporal control over biochemical processes. Recent studies have shown that small-molecule cosolutes can not only modulate phase separation but also influence condensate morphology. However, the mechanistic understanding of how small molecules regulate condensate structure remains limited. In this study, we employ coarse-grained molecular dynamics simulations to investigate how the morphology of two-component condensates can be modulated through the introduction of additional small-molecule cosolutes. By systematically varying the interaction strengths between the small molecules and the macromolecular components, we observe morphological transitions between, e.g., core-shell and dewetted structures. To rationalize these transitions, we calculate second virial coefficients in the presence of the small molecules, providing a molecular-level framework to capture shifts in effective homotypic and heterotypic interactions. We further investigate the role of stoichiometry between the small molecules and macromolecules, demonstrating that stoichiometry and interaction strength jointly determine the condensate morphology by altering the relative interaction strengths among components. Additionally, we show that fully mixed two-component condensates can undergo transitions to microphase-separated morphologies, such as core-shell or dewetted, upon small molecule introduction. Together, these findings reveal that condensate morphology can be rationally tuned through interaction- and stoichiometry-dependent mechanisms, offering molecular-scale insights into how small-molecule cosolutes modulate condensate structure.",
+    "keywords": [
+      "additive",
+      "heterotypic interaction",
+      "homotypic interaction",
+      "morphological transition",
+      "multicomponent condensate",
+      "small molecules"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jiahui",
+        "Nikoubashman, Arash",
+        "Kim, Young C",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Wang J",
+        "Nikoubashman A",
+        "Kim YC",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0563-825X",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States. RINGGOLD: 14736",
+        "Leibniz-Institut fur Polymerforschung Dresden e.V., Hohe Strasse 6, 01069 Dresden, Germany.",
+        "Institut fur Theoretische Physik, Technische Universitat Dresden, 01069 Dresden, Germany.",
+        "Cluster of Excellence Physics of Life, Technische Universitat Dresden, 01062 Dresden, Germany.",
+        "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, District of Columbia 20375, United States. RINGGOLD: 41487",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States. RINGGOLD: 14736",
+        "Department of Chemistry, Texas A&M University, College Station, Texas 77843, United States.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas 77843, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jiahui",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States."
+        ]
+      },
+      {
+        "full_name": "Nikoubashman, Arash",
+        "short_name": "Nikoubashman A",
+        "identifiers": [
+          "0000-0003-0563-825X"
+        ],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung Dresden e.V., Hohe Straße 6, 01069 Dresden, Germany.",
+          "Institut für Theoretische Physik, Technische Universität Dresden, 01069 Dresden, Germany.",
+          "Cluster of Excellence Physics of Life, Technische Universität Dresden, 01062 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, District of Columbia 20375, United States."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+          "Department of Chemistry, Texas A&M University, College Station, Texas 77843, United States.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas 77843, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2025 Aug 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/01 16:44",
+    "fetched_at": "2026-09-21 23:26:34"
+  },
+  "links": {
+    "cites": [
+      "41868013"
+    ],
+    "refs": [
+      "40525694",
+      "40229261",
+      "39439431",
+      "38722189",
+      "38383656",
+      "38316988",
+      "37973891",
+      "37707425",
+      "37656203",
+      "37294104",
+      "37079924",
+      "36755726",
+      "36595668",
+      "36511362",
+      "36071192",
+      "36006377",
+      "35293953",
+      "35198903",
+      "34129784",
+      "33558506",
+      "33275007",
+      "33169001",
+      "33149109",
+      "32873929",
+      "31958956",
+      "31943629",
+      "30926670",
+      "30759987",
+      "30205960",
+      "30015615",
+      "29133588",
+      "28522535",
+      "28314373",
+      "28225081",
+      "27602576",
+      "27212236",
+      "26777405",
+      "23775798",
+      "22579282",
+      "22398450",
+      "17519961"
+    ],
+    "similar": [
+      "40881393",
+      "40661504",
+      "36993212",
+      "40661423",
+      "37205474",
+      "40954121",
+      "37684240",
+      "33672806",
+      "40848932",
+      "34179888",
+      "40196628",
+      "40985078",
+      "36883003",
+      "33558506",
+      "40172489",
+      "38915678",
+      "41169547",
+      "38349628",
+      "41279444",
+      "34772789",
+      "35727989",
+      "39070659",
+      "39541973",
+      "33653957",
+      "39271915",
+      "40661408",
+      "40108179",
+      "37131735",
+      "40747072",
+      "39605385",
+      "40291709",
+      "40321778",
+      "37549295",
+      "40603603",
+      "40972943",
+      "39071308",
+      "39534915",
+      "34236318",
+      "33087563",
+      "37159305",
+      "39184067",
+      "38466837",
+      "36191226",
+      "39636939",
+      "40098319",
+      "38987300",
+      "40766389",
+      "39386700",
+      "37013374",
+      "40629499",
+      "40985614",
+      "33453268",
+      "37294104",
+      "35881789",
+      "40229261",
+      "35364105",
+      "35198903",
+      "35293386",
+      "40626470",
+      "37549257",
+      "40664121",
+      "40744081",
+      "39677715",
+      "37470705",
+      "33864415",
+      "39042834",
+      "36595668",
+      "40545646",
+      "38260307",
+      "37156794",
+      "36227474",
+      "38405951",
+      "31634364",
+      "40616404",
+      "40475453",
+      "30926670",
+      "35597639",
+      "32405004",
+      "40667293",
+      "39568948",
+      "36829460",
+      "38383656",
+      "34090478",
+      "38961263",
+      "39896463",
+      "40635595",
+      "40877270",
+      "41129218",
+      "35108264",
+      "36004748",
+      "39591652",
+      "37546967",
+      "41169543",
+      "36993708",
+      "38260590",
+      "37043540",
+      "40159770",
+      "37824531",
+      "38781207",
+      "40291420"
+    ],
+    "review": [
+      "40881393",
+      "34179888",
+      "40172489",
+      "34772789",
+      "40664121",
+      "40744081"
+    ],
+    "pmc": [
+      "12381699"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40881393/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.5c00713",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

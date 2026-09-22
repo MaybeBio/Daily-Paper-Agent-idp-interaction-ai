@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34647231",
+  "title": "Revisit PEG-Induced Precipitation Assay for Protein Solubility Assessment of Monoclonal Antibody Formulations.",
+  "authors": "Scannell, Martha J; Hyatt, Matthew W; Budyak, Ivan L; Woldeyes, Mahlet A; Wang, Ying",
+  "journal": "Pharmaceutical research",
+  "published_date": "2021-10-15",
+  "window": {
+    "start": "2021-10-11",
+    "end": "2021-10-17"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究单克隆抗体制剂中PEG诱导沉淀法评估蛋白溶解度，对象为折叠蛋白且无PPI或AI/物理模拟方法，与本课题无关。",
+  "abstract": "PURPOSE: Protein solubility is an important attribute of pharmaceutical monoclonal antibody (MAb) formulations, particularly at high MAb concentrations. PEG-induced protein precipitation has been routinely used to assess protein solubility. To provide insights for better understanding and implementation of PEG-induced protein precipitation assay, this work compares different solubility measures and examines their relevance to loss of protein solubility in concentrated formulations. METHODS: Solubility of a MAb in 15 formulations was evaluated using PEG-induced precipitation assay. Three apparent protein solubility measures, the middle-point and onset PEG concentrations (c(mid) and c(onset)) as well as the binding free energy (mu(B)), were obtained from the PEG-induced protein precipitation assay and compared to the DLS protein interaction parameter (k(D)). Visual inspection of loss of protein solubility in concentrated formulations during storage was used to further examine the discrepancy of protein solubility ranking by these measures. RESULTS: PEG-induced precipitation assay predicted overall protein solubility ranking similar to that by DLS k(D). However, for three formulations with ionic excipients NaCl, Arg.Cl, and Arg.Glu.Cl, PEG-induced precipitation assay yielded more accurate predictions compared to DLS k(D) measurements. Furthermore, mu(B) showed superior ability in distinguishing protein solubility for these formulations. CONCLUSIONS: This study demonstrated good correlations between the protein solubility measures obtained from PEG-induced precipitation experiments and DLS k(D) measurement. It also provides one example in which protein solubility ranking by binding free energy is more accurate than the other measures. The results support the theoretical proposition that mu(B) has a potential to serve as standard protein solubility measure.",
+  "abstract_zh": "目的：蛋白质溶解度是制药单克隆抗体（MAb）制剂的重要属性，尤其是在高MAb浓度下。PEG诱导的蛋白质沉淀已常规用于评估蛋白质溶解度。为更好地理解和实施PEG诱导的蛋白质沉淀试验，本研究比较了不同的溶解度测量方法，并考察了它们与浓缩制剂中蛋白质溶解度损失的相关性。方法：使用PEG诱导的沉淀试验评估了15种制剂中MAb的溶解度。从PEG诱导的蛋白质沉淀试验中获得了三种表观蛋白质溶解度测量值，即中点PEG浓度和起始PEG浓度（c(mid)和c(onset)）以及结合自由能（mu(B)），并与DLS蛋白质相互作用参数（k(D)）进行了比较。通过目视检查浓缩制剂在储存期间蛋白质溶解度损失情况，进一步检验了这些测量方法在蛋白质溶解度排序上的差异。结果：PEG诱导的沉淀试验预测的总体蛋白质溶解度排序与DLS k(D)相似。然而，对于含有离子性赋形剂NaCl、Arg.Cl和Arg.Glu.Cl的三种制剂，PEG诱导的沉淀试验相比DLS k(D)测量提供了更准确的预测。此外，mu(B)在区分这些制剂的蛋白质溶解度方面表现出更优的能力。结论：本研究证明了从PEG诱导的沉淀试验中获得的蛋白质溶解度测量值与DLS k(D)测量之间存在良好的相关性。同时，本研究提供了一个例子，其中通过结合自由能进行的蛋白质溶解度排序比其他测量方法更准确。结果支持了mu(B)有潜力作为标准蛋白质溶解度测量方法的理论主张。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34647231/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34647231/",
+  "paper_page_path": "papers/pubmed/34647231/index.html"
+}

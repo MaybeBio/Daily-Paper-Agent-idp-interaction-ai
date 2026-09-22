@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2512.15930v2",
+  "title": "Scalable Agentic Reasoning for Designing Biologics Targeting Intrinsically Disordered Proteins",
+  "authors": "Matthew Sinclair; Moeen Meigooni; Archit Vasan; Ozan Gokdemir; Xinran Lian; Heng Ma; Yadu Babuji; Alexander Brace; Khalid Hossain; Carlo Siebenschuh; Thomas Brettin; Kyle Chard; Christopher Henry; Venkatram Vishwanath; Rick L. Stevens; Ian T. Foster; Arvind Ramanathan",
+  "journal": "",
+  "published_date": "2025-12-17",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出多智能体系统StructBioReasoner，结合AI结构预测、分子模拟与稳定性分析，规模化设计靶向无序蛋白(IDP)的高亲和力生物制剂，并验证了结合自由能与结合模式，直接契合无序蛋白互作机制建模与AI/物理模拟方法。",
+  "abstract": "Intrinsically disordered proteins (IDPs) represent crucial therapeutic targets due to their significant role in disease -- approximately 80\\% of cancer-related proteins contain long disordered regions -- but their lack of stable secondary/tertiary structures makes them \"undruggable\". While recent computational advances, such as diffusion models, can design high-affinity IDP binders, translating these to practical drug discovery requires autonomous systems capable of reasoning across complex conformational ensembles and orchestrating diverse computational tools at scale.To address this challenge, we designed and implemented StructBioReasoner, a scalable multi-agent system for designing biologics that can be used to target IDPs. StructBioReasoner employs a novel tournament-based reasoning framework where specialized agents compete to generate and refine therapeutic hypotheses, naturally distributing computational load for efficient exploration of the vast design space. Agents integrate domain knowledge with access to literature synthesis, AI-structure prediction, molecular simulations, and stability analysis, coordinating their execution on HPC infrastructure via an extensible federated agentic middleware, Academy. We benchmark StructBioReasoner across Der f 21 and NMNAT-2 and demonstrate that over 50\\% of 787 designed and validated candidates for Der f 21 outperformed the human-designed reference binders from literature, in terms of improved binding free energy. For the more challenging NMNAT-2 protein, we identified three binding modes from 97,066 binders, including the well-studied NMNAT2:p53 interface. Thus, StructBioReasoner lays the groundwork for agentic reasoning systems for IDP therapeutic discovery on Exascale platforms.",
+  "abstract_zh": "固有无序蛋白（IDPs）因其在疾病中的重要作用而成为关键治疗靶点——约80%的癌症相关蛋白含有长无序区域——但其缺乏稳定的二级/三级结构使其“不可成药”。尽管近期计算进展，如扩散模型，能够设计高亲和力的IDP结合剂，但将这些成果转化为实际药物发现，需要能够跨复杂构象集合进行推理并大规模协调多种计算工具的自主系统。\n\n为应对这一挑战，我们设计并实现了StructBioReasoner，一个可扩展的多智能体系统，用于设计可靶向IDPs的生物制剂。StructBioReasoner采用一种新颖的基于锦标赛的推理框架，其中专门智能体竞争生成和完善治疗假设，自然分配计算负载以高效探索广阔的设计空间。智能体将领域知识与文献综合、AI结构预测、分子模拟和稳定性分析相结合，通过可扩展的联邦式智能体中间件Academy在HPC基础设施上协调其执行。我们在Der f 21和NMNAT-2上对StructBioReasoner进行基准测试，并证明针对Der f 21设计的787个验证候选物中，超过50%在结合自由能改善方面优于文献中人类设计的参考结合剂。对于更具挑战性的NMNAT-2蛋白，我们从97,066个结合剂中识别出三种结合模式，包括已被充分研究的NMNAT2:p53界面。因此，StructBioReasoner为在Exascale平台上进行IDP治疗发现的智能体推理系统奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2512.15930v2",
+  "source_url": "https://arxiv.org/abs/2512.15930v2",
+  "paper_page_path": "papers/arxiv/2512.15930v2/index.html"
+}

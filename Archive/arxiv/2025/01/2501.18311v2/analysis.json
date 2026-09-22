@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2501.18311v2",
+  "title": "Curvature-sensing and generation by membrane proteins: a review",
+  "authors": "Hiroshi Noguchi",
+  "journal": "Soft Matter 21, 3922-3940 (2025)",
+  "published_date": "2025-01-30",
+  "window": {
+    "start": "2025-01-27",
+    "end": "2025-02-02"
+  },
+  "score": 5,
+  "one_liner_zh": "综述膜蛋白感知与生成膜曲率的平均场理论与模拟，其中讨论了无序蛋白结构域对膜弯曲能的贡献，但对象为膜蛋白而非无序蛋白介导的PPI，互作机制建模启发有限。",
+  "abstract": "Membrane proteins are crucial in regulating biomembrane shapes and controlling the dynamic changes in membrane morphology during essential cellular processes. These proteins can localize to regions with their preferred curvatures (curvature sensing) and induce localized membrane curvature. Thus, this review describes the recent theoretical development in membrane remodeling performed by membrane proteins. The mean-field theories of protein binding and the resulting membrane deformations are reviewed. The effects of hydrophobic insertions on the area-difference elasticity energy and that of intrinsically disordered protein domains on the membrane bending energy are discussed. For the crescent-shaped proteins, such as Bin/Amphiphysin/Rvs superfamily proteins, anisotropic protein bending energy and orientation-dependent excluded volume significantly contribute to curvature sensing and generation. Moreover, simulation studies of membrane deformations caused by protein binding are reviewed, including domain formation, budding, and tubulation.",
+  "abstract_zh": "膜蛋白在调控生物膜形态及细胞关键生理过程中膜形态的动态变化中起着至关重要的作用。这些蛋白能够定位到其偏好曲率的区域（曲率感知）并诱导局部膜曲率。因此，本综述描述了膜蛋白介导的膜重塑领域近期的理论进展。综述了蛋白质结合及其引起的膜变形的平均场理论。讨论了疏水插入对面积差弹性能量的影响，以及固有无序蛋白结构域对膜弯曲能量的作用。对于新月形蛋白，如Bin/Amphiphysin/Rvs超家族蛋白，各向异性蛋白弯曲能量和取向依赖性排除体积显著贡献于曲率感知与生成。此外，还综述了由蛋白质结合引起的膜变形的模拟研究，包括结构域形成、出芽和管状化。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2501.18311v2",
+  "source_url": "https://arxiv.org/abs/2501.18311v2",
+  "paper_page_path": "papers/arxiv/2501.18311v2/index.html"
+}

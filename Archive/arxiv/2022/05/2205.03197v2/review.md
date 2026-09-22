@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, figure captions not provided, references list not provided in full)
+- **Assessment boundary** Scientific claims, methodology, simulation design, and interpretation as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors use meshless membrane simulations to show that intrinsically disordered domains attached to chiral crescent-shaped BAR-domain proteins alter membrane remodeling outcomes. Depending on chain length and protein density, the anchored chains can suppress lateral protein assembly, promote vertical tubule elongation, induce spindle-shaped vesicles, stabilize arc-shaped assemblies, drive arc-to-circle transitions, and, when bending in opposition to the protein rod, produce rugged membranes or shish-kebab-shaped tubules with periodic concave-ring structures.
+- **Visible evidence base** Main text sections I–IV; figures referenced as Figs. 1–9; movies referenced as Movies S1–S7; simulation parameters and analysis methods described in Sec. II
+- **Missing materials affecting confidence** Figure panels and captions not provided; movie content not viewable; full reference list not provided; quantitative data values in figures not accessible; error bar definitions and statistical details only partially described
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational study of how anchored disordered chains modify the membrane remodeling activity of curvature-inducing crescent-shaped protein rods. The model extends the author's prior work on chiral crescent proteins by adding excluded-volume chains, and the parameter sweep across chain length and protein density reveals several nontrivial morphological transitions. The work is likely to be of interest to the membrane biophysics and protein-membrane interaction communities. However, the manuscript as provided has several gaps in presentation and quantitative support that need to be addressed before the conclusions can be fully assessed.
+- **Who would be interested in the results, and why** Researchers studying BAR-domain proteins, membrane curvature sensing and generation, intrinsically disordered protein domains, and computational models of protein-membrane interactions. The results may also inform experimental design of chimeric curvature-inducing proteins and provide predictions for how disordered domain length modulates membrane morphology.
+- **Major strengths** The study addresses a timely and biologically relevant question, namely the role of intrinsically disordered domains in membrane remodeling, which has been highlighted by recent experiments. The simulation model is well established from prior work, and the systematic variation of chain length and protein density provides a clear phase behavior picture. The observation of multiple distinct morphological regimes, including spindle vesicles, arc-to-circle transitions, vertical tubule elongation, and shish-kebab tubules, is novel and provides testable predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that anchored chains induce an effective spontaneous curvature of the membrane and that this effect, combined with chain repulsion, drives the observed morphological transitions.
+  - **Evidence pointer** Sec. III.1, Figs. 1–3; Sec. III.2, Figs. 4–9
+  - **Concern** The manuscript attributes the observed shape changes to "effective spontaneous curvature" induced by the chains and to "repulsion between chains," but no quantitative decomposition of these two contributions is provided. It is unclear whether the morphological outcomes arise primarily from entropic chain pressure, from altered protein assembly geometry, or from a combination that depends on chain length and density. Without a systematic analysis separating these mechanisms, the mechanistic interpretation remains speculative.
+  - **Why it matters** The central claim of the paper is that disordered chains modify membrane shape through specific physical mechanisms. If the mechanisms are not cleanly separated or quantified, the conclusions are not uniquely determined by the data.
+  - **Resolution test** Provide additional simulations or analyses that isolate chain-induced spontaneous curvature from inter-chain repulsion, for example by varying chain stiffness, chain anchoring position, or by using phantom chains without excluded volume. Alternatively, compute local membrane curvature profiles and chain density distributions to directly correlate chain pressure with membrane shape.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that for flat membranes at intermediate chain length, "many tubules" are induced, and that longer chains promote "perpendicular elongation of tubules."
+  - **Evidence pointer** Sec. III.2, Figs. 4–7
+  - **Concern** The distinction between "many tubules" at intermediate chain length and "perpendicular elongation" at longer chain length is not quantitatively defined. The vertical span ⟨z_mb²⟩^{1/2} is reported, but no measure of tubule number, tubule length, or orientation distribution is given. The claim that longer chains promote perpendicular elongation is supported only by a single order parameter that conflates tubule length and orientation.
+  - **Why it matters** The phase behavior described is the main result of the flat-membrane section. Without quantitative order parameters that distinguish tubule number, length, and orientation, the claimed transitions cannot be rigorously evaluated or reproduced.
+  - **Resolution test** Define and report additional order parameters, such as the number of tubules per unit area, tubule length distribution, and the angle between tubule axis and membrane plane. Show these as functions of chain length and protein density.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe a "discrete transition" between arc-shaped and circular protein assemblies, with coexistence of both states at intermediate chain lengths.
+  - **Evidence pointer** Sec. III.1, Fig. 3
+  - **Concern** The claim of a discrete transition with hysteresis or bistability is based on simulations where chain length is changed in one direction only. The text states "the thresholds of these changes are different," implying hysteresis, but no reverse-direction simulations are described. It is unclear whether the coexistence is true bistability or a kinetic trapping artifact.
+  - **Why it matters** A discrete transition with hysteresis is a strong claim that implies free-energy barriers and metastability. If the coexistence is instead a slow relaxation artifact, the interpretation changes substantially.
+  - **Resolution test** Perform simulations where chain length is increased and then decreased in a cyclic manner, and show that the assembly state depends on history. Alternatively, run much longer simulations at the coexistence point to demonstrate that both states are stable on accessible timescales.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the shish-kebab-shaped tubule with periodic concave-ring structures "was found here for the first time."
+  - **Evidence pointer** Sec. III.2, Fig. 9
+  - **Concern** The claim of novelty is plausible but the manuscript does not discuss whether such structures have been observed in any prior simulation or experiment, nor does it provide a physical explanation for the periodicity of the ring structures. The periodicity is a striking feature that deserves a mechanistic explanation.
+  - **Why it matters** The periodic ring structure is a potentially important prediction. Without a mechanistic account of why the rings form periodically, the result remains descriptive rather than explanatory.
+  - **Resolution test** Provide an analysis of the spacing between rings as a function of chain length and protein density, and discuss possible origins of the periodicity, such as a balance between chain repulsion and membrane bending energy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Sec. II, simulation model description
+  - **Evidence pointer** Sec. II, location not provided
+  - **Issue** The description of the protein rod model and the anchoring of chains is brief and refers to prior work. The reader is not told how the chains are attached, whether they can move along the rod, or how the excluded-volume interaction is implemented between chain beads and membrane beads.
+  - **Required correction** Provide a more detailed description of the chain anchoring geometry and the interaction potentials between chain beads and membrane beads, or explicitly state that these details are identical to prior work with appropriate references.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Sec. III.1, vesicle shape analysis
+  - **Evidence pointer** Sec. III.1, location not provided
+  - **Issue** The shape parameters α_sp and α_pl are defined in Sec. II, but the text in Sec. III.1 refers to "twisted-arc shape" and "multiple arc-shaped protrusions" without defining these terms quantitatively. It is unclear how these shapes are distinguished from the disk or spherical shapes using the reported order parameters.
+  - **Required correction** Provide representative values of α_sp and α_pl for each described shape, or include additional shape descriptors that capture the twisted and multi-protrusion morphologies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Sec. II, simulation parameters
+  - **Evidence pointer** Sec. II, location not provided
+  - **Issue** The total number of particles N = 25600 is given, but the box size, boundary conditions, and the number of protein rods at each density are not stated. The conversion from protein density φ to the number of rods is not explicit.
+  - **Required correction** State the simulation box dimensions, boundary conditions, and the number of protein rods used at each density.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Sec. III.2, flat membrane results
+  - **Evidence pointer** Sec. III.2, location not provided
+  - **Issue** The text describes "perpendicular elongation of tubules" and "vertical tubules" but does not explain why the vertical direction is special. For a flat membrane with zero spontaneous curvature, the up-down symmetry should be preserved. The mechanism that breaks this symmetry is not discussed.
+  - **Required correction** Explain why the tubules elongate perpendicular to the membrane plane rather than in-plane, and discuss whether this is an artifact of the initial conditions or a genuine symmetry-breaking mechanism.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Sec. IV, Summary
+  - **Evidence pointer** Sec. IV, location not provided
+  - **Issue** The summary states that the findings "provide new insights into the mechanism of membrane shape regulation" but does not discuss the biological relevance of the specific morphologies, such as whether spindle vesicles or shish-kebab tubules correspond to any observed cellular structures.
+  - **Required correction** Add a brief discussion of the biological implications of the predicted morphologies, or explicitly state that these are predictions that await experimental verification.
+
+## Risk / unsupported claims
+- The claim that anchored chains induce an "effective spontaneous curvature" is asserted but not directly measured or decomposed from other effects.
+- The "discrete transition" with coexistence of arc and circular assemblies is not rigorously established due to lack of reverse-direction simulations.
+- The claim that the shish-kebab tubule with periodic concave-ring structures is found "for the first time" cannot be fully verified without a literature search, and the mechanism for periodicity is not explained.
+- The statement that "brushed chains strongly push tubules away from the membrane" is a mechanistic interpretation not directly supported by force or pressure measurements.
+- The biological relevance of the predicted morphologies is not discussed, leaving the significance of the findings for cellular processes unassessed.
+- The claim that chain effects are "negligible" when only 10% of proteins carry chains is based on visual comparison of curves in figures that are not provided in the manuscript text.

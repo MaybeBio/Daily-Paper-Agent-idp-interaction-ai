@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41020499",
+  "title": "The ParB-CTP cycle activates phase separation in bacterial DNA segregation.",
+  "authors": "Delimi, Linda; Revoil, Perrine; Alaoui, Hicham Sekkouri; Rech, Jerome; Bouet, Jean-Yves; Walter, Jean-Charles",
+  "journal": "Nucleic acids research",
+  "published_date": "2025-09-29",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过数值模拟和实验揭示ParB-CTP循环作为分子开关增强ParB-ParB互作并触发相分离，虽对象为细菌ParB而非典型IDP，但其相分离机制建模思路对无序蛋白介导的PPI与凝聚体研究具有可迁移启发。",
+  "abstract": "Cell function relies on liquid-like membraneless organelles formed through phase transitions, yet the mechanisms ensuring their specificity and rapid assembly remain poorly understood. In bacterial chromosome segregation via the ParABS system, hundreds of ParB proteins are recruited around the centromere-like parS sequence, forming the partition complex. Recent studies have shown that ParB binds CTP and undergoes cycles of loading and unloading near parS; however, this accounts for the recruitment of only a small fraction of ParB molecules, leaving its role unclear. Separately, a lattice gas model with fixed interaction energy has been proposed to describe ParB phase separation, but it fails to explain key experimental observations, including the absence of droplets in ParB variants. We reconcile these two perspectives by proposing that the ParB-CTP cycle acts as a molecular switch that enhances ParB-ParB interactions, triggering phase transition from vapor to liquid-like condensates. Our hypothesis is supported by numerical simulations of droplet formation and experiments showing that ParB variants disrupting the CTP cycle fail to undergo phase separation. These findings establish a mechanistic framework for ParB-CTP-mediated phase transitions and may have broader implications for understanding the spatial control of intracellular condensate formation.",
+  "abstract_zh": "细胞功能依赖于通过相变形成的液态无膜细胞器，然而确保其特异性和快速组装的机制仍知之甚少。在通过ParABS系统进行的细菌染色体分离中，数百个ParB蛋白被招募到着丝粒样parS序列周围，形成分区复合物。近期研究表明，ParB结合CTP并在parS附近经历加载和卸载循环；然而，这仅解释了少量ParB分子的招募，其作用仍不明确。另外，已有研究提出具有固定相互作用能的晶格气体模型来描述ParB相分离，但该模型未能解释关键实验观察，包括ParB变体中液滴的缺失。我们通过提出ParB-CTP循环作为分子开关，增强ParB-ParB相互作用，触发从蒸汽到液态凝聚体的相变，从而调和了这两种观点。我们的假设得到液滴形成的数值模拟以及显示破坏CTP循环的ParB变体无法进行相分离的实验支持。这些发现为ParB-CTP介导的相变建立了机制框架，并可能对理解细胞内凝聚体形成的空间调控具有更广泛的意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41020499/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41020499/",
+  "paper_page_path": "papers/pubmed/41020499/index.html"
+}

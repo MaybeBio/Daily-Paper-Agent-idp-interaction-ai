@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "41972736",
+    "doi": "10.3390/cells15070648",
+    "title": "Estimation of Double-Serine Phosphorylation's Effects on the Intrinsically Disordered Region Structure in Y14 (RBM8A) Protein via Molecular Dynamics Simulation."
+  },
+  "content": {
+    "abstract": "The C-terminus of the Y14 protein, which is also known as RBM8A and is encoded by the gene responsible for human thrombocytopenia absent radius syndrome, contains two serines that undergo phosphorylation inside an intrinsically disordered region (IDR). Although both serines are frequently phosphorylated in cells, their biological role remains unclear; therefore, we estimated the peptide structure using PEPstrMOD, which predicts peptide conformations through molecular dynamics. For this analysis, amino acid residues 151-174 of Y14, identified as an IDR in UniProt, were targeted. Structural prediction via PEPstrMOD revealed that the target peptide adopts an elongated structure in its unphosphorylated state, while simulating its phosphorylated state revealed an increase in hydrogen bonds and a more compact conformation. The compact structure of Y14 induced by phosphorylation may aid in the formation of the exon-exon junction complex at the exon-exon junction, which facilitates mRNA transport and translation. The prevalence of phosphorylated Y14 in cells may indicate that this higher-order structure is also essential for mRNA metabolism.",
+    "keywords": [
+      "RNA binding",
+      "phosphorylation",
+      "simulation",
+      "structure"
+    ],
+    "mesh_terms": [
+      "Phosphorylation",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "*Serine/metabolism",
+      "*RNA-Binding Proteins/chemistry/metabolism",
+      "Amino Acid Sequence",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry",
+      "Hydrogen Bonding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nakamura, Yuka",
+        "Horie, Tetsuhiro",
+        "Sakamoto, Takuya",
+        "Yoshizaki, Hisayoshi",
+        "Okajima, Hideaki",
+        "Ishigaki, Yasuhito"
+      ],
+      "short_names": [
+        "Nakamura Y",
+        "Horie T",
+        "Sakamoto T",
+        "Yoshizaki H",
+        "Okajima H",
+        "Ishigaki Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2095-9425",
+        "ORCID: 0000-0003-2519-4510",
+        "ORCID: 0000-0001-8731-3015",
+        "ORCID: 0000-0002-4043-1070",
+        "ORCID: 0000-0003-1012-8430"
+      ],
+      "affiliations": [
+        "Medical Research Institute, Kanazawa Medical University, 1-1 Daigaku, Uchinada, Kahoku 920-0293, Japan.",
+        "Medical Research Institute, Kanazawa Medical University, 1-1 Daigaku, Uchinada, Kahoku 920-0293, Japan.",
+        "Medical Research Institute, Kanazawa Medical University, 1-1 Daigaku, Uchinada, Kahoku 920-0293, Japan.",
+        "Department of Pediatric Surgery, School of Medicine, Kanazawa Medical University, 1-1 Daigaku, Uchinada, Kahoku 920-0293, Japan.",
+        "Department of Pediatric Surgery, School of Medicine, Kanazawa Medical University, 1-1 Daigaku, Uchinada, Kahoku 920-0293, Japan.",
+        "Medical Research Institute, Kanazawa Medical University, 1-1 Daigaku, Uchinada, Kahoku 920-0293, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nakamura, Yuka",
+        "short_name": "Nakamura Y",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Research Institute, Kanazawa Medical University, 1-1 Daigaku, Uchinada, Kahoku 920-0293, Japan."
+        ]
+      },
+      {
+        "full_name": "Horie, Tetsuhiro",
+        "short_name": "Horie T",
+        "identifiers": [
+          "0000-0002-2095-9425"
+        ],
+        "affiliations": [
+          "Medical Research Institute, Kanazawa Medical University, 1-1 Daigaku, Uchinada, Kahoku 920-0293, Japan."
+        ]
+      },
+      {
+        "full_name": "Sakamoto, Takuya",
+        "short_name": "Sakamoto T",
+        "identifiers": [
+          "0000-0003-2519-4510"
+        ],
+        "affiliations": [
+          "Medical Research Institute, Kanazawa Medical University, 1-1 Daigaku, Uchinada, Kahoku 920-0293, Japan."
+        ]
+      },
+      {
+        "full_name": "Yoshizaki, Hisayoshi",
+        "short_name": "Yoshizaki H",
+        "identifiers": [
+          "0000-0001-8731-3015"
+        ],
+        "affiliations": [
+          "Department of Pediatric Surgery, School of Medicine, Kanazawa Medical University, 1-1 Daigaku, Uchinada, Kahoku 920-0293, Japan."
+        ]
+      },
+      {
+        "full_name": "Okajima, Hideaki",
+        "short_name": "Okajima H",
+        "identifiers": [
+          "0000-0002-4043-1070"
+        ],
+        "affiliations": [
+          "Department of Pediatric Surgery, School of Medicine, Kanazawa Medical University, 1-1 Daigaku, Uchinada, Kahoku 920-0293, Japan."
+        ]
+      },
+      {
+        "full_name": "Ishigaki, Yasuhito",
+        "short_name": "Ishigaki Y",
+        "identifiers": [
+          "0000-0003-1012-8430"
+        ],
+        "affiliations": [
+          "Medical Research Institute, Kanazawa Medical University, 1-1 Daigaku, Uchinada, Kahoku 920-0293, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cells"
+    ],
+    "journal_abbrev": [
+      "Cells"
+    ],
+    "pub_date": "2026 Apr 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/13 12:38",
+    "fetched_at": "2026-09-18 02:33:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41432299",
+      "40338521",
+      "39970826",
+      "39667907",
+      "39486251",
+      "38705823",
+      "38411790",
+      "38052423",
+      "36142288",
+      "35406756",
+      "32227665",
+      "30826064",
+      "30637830",
+      "29330450",
+      "28916722",
+      "26690490",
+      "25349214",
+      "23970407",
+      "20479275",
+      "20360767",
+      "16923391",
+      "16100109",
+      "12730685",
+      "9504803"
+    ],
+    "similar": [
+      "41972736",
+      "29330450",
+      "25349214",
+      "16100109",
+      "31951234",
+      "26735936",
+      "29309620",
+      "34243065",
+      "37905972",
+      "32933064",
+      "34681718",
+      "34576338",
+      "29414700",
+      "26742101",
+      "27807972",
+      "25031324",
+      "34883116",
+      "12781131",
+      "33945530",
+      "39589885",
+      "33893649",
+      "37125110",
+      "25533957",
+      "41524628",
+      "40673718",
+      "31999378",
+      "39936184",
+      "15260483",
+      "14968132",
+      "25017730",
+      "40629690",
+      "39617253",
+      "40693919",
+      "27701768",
+      "21541066",
+      "40273986",
+      "23817415",
+      "40997106",
+      "33909430",
+      "22355610",
+      "12730685",
+      "30826064",
+      "29320165",
+      "26887951",
+      "16953428",
+      "40788873",
+      "41580895",
+      "24183573",
+      "17823247",
+      "25002523",
+      "23115303",
+      "25871264",
+      "31470695",
+      "24106084",
+      "28867216",
+      "42095372",
+      "40769718",
+      "23970407",
+      "33030249",
+      "32975630",
+      "31969433",
+      "30071273",
+      "31136713",
+      "9341215",
+      "25855872",
+      "31487161",
+      "35914331",
+      "16931718",
+      "31547849",
+      "33454008",
+      "26445027",
+      "26030674",
+      "39993015",
+      "35098694",
+      "35658951",
+      "25387963",
+      "28289210",
+      "33269926",
+      "28497792",
+      "26195786",
+      "20122403",
+      "25207671",
+      "33577583",
+      "30813315",
+      "31441158",
+      "32184088",
+      "31724233",
+      "32227665",
+      "23912807",
+      "25529026",
+      "23760157",
+      "33122085",
+      "38705823",
+      "34929201",
+      "32376479",
+      "12718880",
+      "32323533",
+      "40727937",
+      "7630729",
+      "36402223"
+    ],
+    "review": [
+      "41972736",
+      "35098694",
+      "31441158"
+    ],
+    "pmc": [
+      "13073542"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=cells15070648",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41972736/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

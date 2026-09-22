@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.26.625383",
+  "title": "Design principles of transcription factors with intrinsically disordered regions",
+  "authors": "Ji W; Hachmo O; Barkai N; Amir A",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-29",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过建模揭示转录因子IDR在DNA靶标搜索与结合中的设计原理，虽对象为IDR与DNA互作而非PPI，但IDR介导的互作机制建模思路对本课题有可迁移启发。",
+  "abstract": "Transcription Factors (TFs) are proteins crucial for regulating gene expression. Effective regulation requires the TFs to rapidly bind to their correct target, enabling the cell to respond efficiently to stimuli such as nutrient availability or the presence of toxins. However, the search process is hindered by slow diffusive movement and the presence of 'false' targets --DNA segments that are similar to the true target. In eukaryotic cells, most TFs contain an Intrinsically Disordered Region (IDR), which is a long, flexible polymeric tail composed of hundreds of amino acids. Recent experimental findings indicate that the IDR of certain TFs plays a pivotal role in the search process. However, the principles underlying the IDR's role remain unclear. Here, we reveal key design principles of the IDR related to TF binding affinity and search time. Our results demonstrate that the IDR significantly enhances both of these aspects. Furthermore, our model shows good agreement with experimental results, and we propose further experiments to validate the model's predictions.",
+  "abstract_zh": "转录因子（Transcription Factors, TFs）是调控基因表达的关键蛋白质。有效调控要求转录因子能迅速结合至其正确靶点，使细胞能高效响应如营养可用性或毒素存在等刺激。然而，搜索过程受限于缓慢的扩散运动及“假”靶点——即与真实靶点相似的DNA片段——的存在。在真核细胞中，大多数转录因子含有一个内在无序区域（Intrinsically Disordered Region, IDR），这是由数百个氨基酸组成的长而柔性的聚合物尾巴。近期实验发现，某些转录因子的IDR在搜索过程中扮演关键角色。然而，IDR作用背后的原理尚不明确。在此，我们揭示了与转录因子结合亲和力和搜索时间相关的IDR关键设计原理。我们的结果表明，IDR显著增强了这两个方面。此外，我们的模型与实验结果良好吻合，并提出了进一步实验以验证模型的预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.26.625383",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.26.625383",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.26.625383/index.html"
+}

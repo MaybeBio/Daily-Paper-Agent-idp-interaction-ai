@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, STAR methods, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors propose that overexpression of the intrinsically disordered protein MN1 in AML stabilizes the BAF chromatin remodeling complex at enhancer elements, preventing developmental decommissioning of hematopoietic stem/progenitor gene programs and thereby driving leukemogenesis. They further propose that MN1 overexpression arises from enhancer hijacking in t(12;22) translocations, and that the polyQ stretch within MN1 is critical for this oncogenic function.
+- **Visible evidence base** ChIP-seq for histone marks and transcription factors, 4C-seq, RNA-seq, co-immunoprecipitation mass spectrometry, BioID proximity labeling, chromatin fractionation, immunoblotting, immunofluorescence, colony replating assays, and in vivo transplantation experiments.
+- **Missing materials affecting confidence** Raw sequencing data files, complete figure panels (especially supplementary figures S1–S9), detailed gating strategies for flow cytometry, statistical source data, and full proteomics tables (Tables S1, S2, S4) were not available for independent verification. The manuscript text alone does not permit full assessment of data quality metrics (e.g., ChIP-seq peak numbers, reproducibility, sequencing depth).
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and potentially important model linking MN1 overexpression to BAF complex stabilization at enhancers in AML. The identification of the BAF complex as a key MN1 interactor, the demonstration of enhancer hijacking in t(12;22) AML, and the functional requirement of the polyQ stretch for leukemogenesis are significant advances. However, several technical concerns and gaps in evidence limit the strength of the conclusions as currently presented. The causal relationship between BAF stabilization and the differentiation block, the specificity of the polyQ effect, and the mechanistic details of how MN1 stabilizes BAF on chromatin require further clarification. The study is of high interest to the chromatin biology and leukemia communities, but the current evidence does not fully establish the proposed model.
+- **Who would be interested in the results, and why** Researchers studying chromatin remodeling in cancer, particularly those focused on BAF/SWI/SNF complexes in leukemia and other malignancies. Investigators interested in intrinsically disordered proteins and their role in transcriptional regulation and oncogenesis. Clinicians and translational scientists working on AML biology and potential therapeutic targets, given the poor prognosis associated with MN1 overexpression.
+- **Major strengths** 1) Identification of the BAF complex as a major MN1 interactor using complementary proteomic approaches (CoIP-MS and BioID) across multiple cell systems. 2) Demonstration of enhancer hijacking as a mechanism for MN1 overexpression in t(12;22) AML, supported by 4C-seq and ChIP-seq data. 3) Functional validation showing the polyQ stretch is required for MN1's leukemogenic activity in vitro and in vivo. 4) Genome-wide chromatin and transcriptomic analyses linking MN1 to BAF occupancy and enhancer activity at stem/progenitor loci. 5) The proposed model that overexpression of an intrinsically disordered protein alone can drive transformation is conceptually novel and broadly relevant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal mechanism
+  - **Claim pointer** The authors claim that MN1 overexpression stabilizes BAF on enhancer chromatin, preventing decommissioning and causing the differentiation block and leukemia.
+  - **Evidence pointer** Figures 5 and 6; Results section "MN1 is an intrinsically disordered protein, and overexpression redistributes MN1 within the nucleus" and "Overexpression of MN1, but not MN1ΔpQ, stabilizes the binding of the BAF complex to chromatin."
+  - **Concern** The causal link between BAF stabilization and the observed differentiation block/leukemia is not directly demonstrated. The authors show correlations between MN1 expression, BAF occupancy, H3K27ac, and gene expression, but do not provide loss-of-function experiments (e.g., BAF subunit knockdown or chemical inhibition) to show that BAF stabilization is required for the MN1 phenotype. The chromatin fractionation data (Figure 6A-C) show increased BAF in chromatin fractions with MN1, but this could be an indirect consequence of altered chromatin state rather than a direct stabilizing effect. The authors also acknowledge they have not identified the specific BAF subunit interacting with MN1, which weakens the mechanistic claim.
+  - **Why it matters** Without direct evidence that BAF stabilization is causal for the leukemic phenotype, the central model remains correlative. The therapeutic implications (e.g., targeting BAF) depend on establishing this causality.
+  - **Resolution test** The authors should perform experiments where BAF complex function is inhibited (e.g., SMARCA4 degradation, dominant-negative constructs, or small-molecule inhibitors) in MN1-overexpressing cells and assess whether the differentiation block and leukemogenic potential are reversed. Alternatively, rescue experiments with BAF subunits that cannot be stabilized by MN1 would strengthen the model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of polyQ function
+  - **Claim pointer** The authors claim that the polyQ stretch within MN1 is critically important for BAF recruitment and leukemogenic activity.
+  - **Evidence pointer** Figures 4F, 5, 6, 7; Results section "The polyQ-stretch is required for the leukemogenic activity of MN1."
+  - **Concern** The specificity of the polyQ deletion phenotype is not fully established. The authors deleted the entire polyQ stretch (MN1-ΔpQ), which could affect protein folding, stability, or other interactions beyond BAF recruitment. The manuscript does not show that the polyQ stretch is specifically required for BAF interaction versus other functions. Additionally, the authors note that a second Q-rich region (pQ1) has minimal impact on leukemogenesis, but do not test whether pQ1 can compensate for pQ2 loss or whether the length of the polyQ stretch matters. The lack of structural or biophysical data on how the polyQ stretch mediates BAF interaction is a gap.
+  - **Why it matters** The polyQ stretch is presented as a key functional domain, but the evidence does not exclude alternative explanations (e.g., global protein misfolding, altered subcellular localization). This is critical for understanding the mechanism and for potential therapeutic targeting.
+  - **Resolution test** The authors should perform structure-function analyses with more subtle mutations (e.g., alanine substitution of glutamines, partial deletions of the polyQ stretch) and assess BAF interaction and leukemogenic activity. Biophysical studies (e.g., NMR, ITC) to demonstrate direct binding between the polyQ region and BAF subunits would be valuable. Rescue experiments with MN1-ΔpQ fused to a heterologous polyQ or IDR domain could test specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Enhancer hijacking generalizability
+  - **Claim pointer** The authors claim that enhancer hijacking is a common mechanism for MN1 overexpression in t(12;22) AML, and suggest similar mechanisms may drive MN1 expression in other contexts.
+  - **Evidence pointer** Figure 1; Results section "High expression of full length MN1 in t(12;22) AML is the result of enhancer hijacking."
+  - **Concern** The enhancer hijacking model is based on only two cell lines with t(12;22) (UCSD-AML1 and Mutz-3), and the AMU-AML1 line was unavailable for 4C analysis. The authors show that the ETV6 locus contains enhancer elements that contact the MN1 promoter, but do not demonstrate that these enhancers are specifically active in myeloid progenitors or that their activity is required for MN1 overexpression. The claim that "similar mechanisms drive MN1 expression in other contexts" is speculative and not supported by data from other translocation partners or non-translocation cases of MN1 overexpression.
+  - **Why it matters** The clinical relevance of enhancer hijacking as a mechanism for MN1 overexpression has implications for diagnostic and therapeutic strategies. Overgeneralization from limited cell line data could be misleading.
+  - **Resolution test** The authors should analyze additional t(12;22) patient samples or cell lines, and perform CRISPR-based deletion or epigenetic editing of the putative ETV6 enhancer to demonstrate its requirement for MN1 expression. Examination of MN1 overexpression in non-translocation AML cases to determine if enhancer hijacking or alternative mechanisms are at play would strengthen the generalizability claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance of MN1-BAF interaction
+  - **Claim pointer** The authors imply that the MN1-BAF interaction is relevant to normal hematopoiesis, given the phenotype of MN1 knockout in fetal liver.
+  - **Evidence pointer** Figure S2; Results section "MN1 interacts with the myeloid progenitor specific BAF complex."
+  - **Concern** The manuscript shows that MN1 knockout has no effect on fetal liver hematopoiesis, yet the authors propose that MN1 overexpression stabilizes BAF at hematopoietic stem/progenitor enhancers. The relationship between MN1's normal function (if any) and its oncogenic function is unclear. The authors do not address whether MN1 is expressed in normal hematopoietic progenitors or whether the BAF complex interaction occurs at physiological MN1 levels. The statement in the Discussion that "MN1 at physiologic expression levels also binds to the BAF complex" is listed as a limitation, but the authors do not provide data to address this.
+  - **Why it matters** Understanding whether the oncogenic mechanism exploits a normal function or represents a neomorphic activity is important for therapeutic targeting and for understanding potential on-target toxicities.
+  - **Resolution test** The authors should examine MN1 expression and BAF interaction in normal hematopoietic stem/progenitor cells. Conditional knockout or knockdown of MN1 in adult hematopoiesis would clarify its normal role. Comparative analysis of MN1-BAF interaction at physiological versus overexpression levels would be informative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1D-E, S1B-D
+  - **Issue** The 4C-seq data presentation is limited. The authors state that "4C analysis results clearly demonstrated significant physical contact" but do not provide quantitative metrics (e.g., peak calling statistics, reproducibility between replicates) in the main text.
+  - **Required correction** Include a supplementary table with 4C peak statistics and provide representative biological replicates to strengthen the confidence in the chromatin interaction data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 7
+  - **Evidence pointer** Figure 7D-E
+  - **Issue** The survival curves in Figure 7D-E are described but the number of mice per group, statistical test used, and p-values are not stated in the main text.
+  - **Required correction** Provide detailed statistical information in the figure legend or methods, including sample sizes, test used (e.g., log-rank), and exact p-values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Chromatin fractionation assay
+  - **Evidence pointer** Figure 6A-C
+  - **Issue** The chromatin fractionation assay is described briefly. The authors do not specify how chromatin-bound versus soluble fractions were validated (e.g., marker proteins for each fraction).
+  - **Required correction** Include validation of fractionation efficiency (e.g., immunoblot for histone H3 as chromatin marker and tubulin as soluble marker) in the supplementary data.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of therapeutic implications is speculative and not directly supported by the data. The authors suggest BAF inhibition as a potential strategy but do not provide any experimental evidence for this.
+  - **Required correction** Either temper the therapeutic claims or add a brief statement that these are speculative and require further investigation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that MN1 "stabilizes the BAF complex" but the evidence shows stabilization of BAF on chromatin, not necessarily stabilization of the complex itself. This distinction is important.
+  - **Required correction** Rephrase to "stabilizes BAF complex binding to chromatin" or similar to accurately reflect the data.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of direct causal evidence linking BAF stabilization to the differentiation block and leukemia (R1-M1). 2) Insufficient structure-function analysis of the polyQ stretch to establish specificity (R1-M2). 3) Limited generalizability of enhancer hijacking mechanism from two cell lines (R1-M3). 4) Unclear relationship between MN1's normal function and oncogenic mechanism (R1-M4).
+- **Assessment against Nature-style criteria** **Originality:** High. The concept that overexpression of an intrinsically disordered protein alone can drive transformation by stabilizing chromatin complexes is novel and conceptually important. **Scientific importance:** High. MN1 overexpression is associated with poor prognosis in AML, and understanding its mechanism could have therapeutic implications. The link to BAF complex and enhancer dynamics is significant. **Interdisciplinary readership:** Moderate to high. The work bridges chromatin biology, leukemia research, and biophysics of disordered proteins, which could attract readers from multiple fields. **Technical soundness:** Moderate. The proteomic and genomic approaches are generally well-executed, but the causal logic has gaps as detailed above. The lack of direct mechanistic experiments weakens the technical foundation. **Readability for nonspecialists:** Good. The manuscript is clearly written and the model is presented in an accessible manner, though some sections (e.g., 4C analysis) may be challenging for non-specialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially important, but the causal relationship between BAF stabilization and leukemogenesis, the specificity of the polyQ effect, and the generalizability of the enhancer hijacking mechanism need to be strengthened. The authors should address the major concerns with additional experiments before the model can be fully established.

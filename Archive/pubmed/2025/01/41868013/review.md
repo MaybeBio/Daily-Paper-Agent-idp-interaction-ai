@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and presentation of the review article as provided
+- **Shared manuscript claim summary** The manuscript is a review article that surveys computational modeling approaches for biomolecular condensates, focusing on three classes: atomistic simulations, residue-resolution coarse-grained models, and data-driven/machine-learning methods. It aims to serve as an informative and practical guide for researchers seeking to understand and engineer condensates.
+- **Visible evidence base** Full text of the manuscript, including abstract, main sections, and acknowledgments. Figures and tables are referenced but not directly visible.
+- **Missing materials affecting confidence** Figures, tables, and any supplementary information are not available for direct inspection. This limits verification of specific claims tied to visual data.
+
+## Reviewer
+- **Overall assessment** This is a well-structured and timely review that covers a rapidly evolving field. The authors demonstrate strong command of the literature and provide a useful synthesis of three complementary computational approaches. The manuscript is generally clear and well-organized, with a logical progression from atomistic to coarse-grained to data-driven methods. However, several technical claims require clarification or additional support, and some sections would benefit from more critical depth. The review is likely to be of interest to both specialists and newcomers to the field, though some parts may be challenging for non-experts.
+- **Who would be interested in the results, and why** Researchers in biophysics, computational chemistry, and molecular biology, particularly those studying phase separation and biomolecular condensates. The review is also relevant for experimentalists seeking to understand what computational tools are available for interpreting their data, and for computational scientists looking for an overview of current methods and open challenges.
+- **Major strengths** The manuscript provides a comprehensive and up-to-date overview of three major computational approaches, with clear explanations of their respective strengths and limitations. The emphasis on practical considerations, such as force field parameterization and simulation strategies, is valuable. The discussion of open questions and future directions is thoughtful and forward-looking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that residue-resolution coarse-grained models can "reliably capture relative viscosity trends" and that absolute viscosity values are "systematically low" due to smoothed energy landscapes.
+  - **Evidence pointer** Section "Measuring condensate material properties", subsection "Shear viscosity"
+  - **Concern** The claim that relative viscosity trends are reliable while absolute values are systematically low is presented without a detailed discussion of the underlying reasons or the range of systems for which this holds. The authors mention missing hydrodynamics and smoothed energy landscapes, but do not provide a quantitative or systematic analysis of how these factors affect viscosity predictions across different sequences or conditions.
+  - **Why it matters** Viscosity is a key material property of condensates, and the reliability of computational predictions is central to the utility of these models. If the claim is not well-supported, readers may overestimate the predictive power of current methods.
+  - **Resolution test** The authors should provide a more detailed discussion, ideally with examples or a summary of published comparisons, that substantiates the claim that relative trends are reliable. They should also clarify the conditions under which absolute values are expected to be inaccurate and whether any corrections or rescaling approaches exist.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript states that "no study has yet considered polarization at atomistic resolution for entire condensates."
+  - **Evidence pointer** Section "Outlook and open questions", subsection "Polarization effects, ions, and solvent"
+  - **Concern** This is a strong negative claim. While it may be true, the authors do not provide a citation or a systematic search strategy to support it. Given the rapid pace of the field, it is possible that such a study exists or is in press.
+  - **Why it matters** The claim is used to justify the need for future work. If it is incorrect, the manuscript's assessment of the state of the field would be misleading.
+  - **Resolution test** The authors should either provide a citation or soften the claim to "to our knowledge" with a clear statement of the search criteria used. Alternatively, they could rephrase to "we are not aware of any study" and acknowledge the possibility of recent work.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript describes backmapping as a "common strategy" and states that data-driven approaches "improve reconstruction accuracy" by incorporating structural information from databases.
+  - **Evidence pointer** Section "Connecting atomistic and coarse-grained length scales"
+  - **Concern** The discussion of backmapping is relatively brief and does not critically assess the limitations of current methods. For example, the authors mention that energy minimization can distort the conformational ensemble, but they do not discuss how severe this problem is in practice or whether any benchmarks exist. The claim that data-driven methods "improve" accuracy is not quantified.
+  - **Why it matters** Backmapping is a key step in multiscale workflows, and readers need to understand its limitations to use it appropriately. A more critical assessment would strengthen the review.
+  - **Resolution test** The authors should provide a more balanced discussion, including specific examples of where backmapping has been validated or where it has failed. They should also quantify the improvements offered by data-driven methods, if possible.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses technical terms such as "residue-resolution" and "data-driven" without brief definitions. This may deter non-specialist readers.
+  - **Required correction** Consider adding brief parenthetical explanations or a sentence that frames the three approaches in more accessible terms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section "Measuring condensate material properties", subsection "Surface tension"
+  - **Evidence pointer** Section "Measuring condensate material properties", subsection "Surface tension"
+  - **Issue** The text states that surface tension values from simulations are "around the same order of magnitude" as experiments, but the range given (tens to a few hundred μN m−1) is quite broad. It is unclear whether this is a meaningful agreement.
+  - **Required correction** Provide a more specific comparison, perhaps with a table or a more detailed discussion of which systems show good agreement and which do not.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section "Data-driven and machine-learning approaches"
+  - **Evidence pointer** Section "Data-driven and machine-learning approaches"
+  - **Issue** The section introduces several ML concepts (e.g., Bayesian inference, diffusion models) without explaining them for readers who may not be familiar with these methods.
+  - **Required correction** Add brief explanations or a glossary of key ML terms to make the section more accessible.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section "Outlook and open questions"
+  - **Evidence pointer** Section "Outlook and open questions"
+  - **Issue** The open questions are listed but not prioritized or discussed in terms of which are most tractable or impactful. This makes the outlook section feel somewhat generic.
+  - **Required correction** Consider adding a brief discussion of which challenges are most likely to be addressed in the near term and which may require fundamentally new approaches.
+- **Technical failings that need to be addressed before the case is established** None identified from the supplied material. The manuscript is a review, and the technical claims are generally consistent with the current state of the field, though some require additional support as noted above.
+- **Assessment against Nature-style criteria**
+  - **Originality** The review covers a rapidly evolving field and provides a useful synthesis of three approaches. However, it does not present a fundamentally new perspective or framework. Its originality lies in the organization and integration of existing knowledge.
+  - **Scientific importance** The topic is of high importance given the central role of condensates in cellular function and disease. The review addresses a clear need for a practical guide to computational methods.
+  - **Interdisciplinary readership** The manuscript is likely to appeal to a broad audience, including biophysicists, computational chemists, and cell biologists. However, some sections may be too technical for non-specialists.
+  - **Technical soundness** The technical content is generally sound, but some claims require additional support or clarification, as noted in the major concerns.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but some sections are dense and would benefit from additional context or explanations for non-experts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript is a valuable contribution to the field, but the identified issues should be addressed to strengthen its impact and accuracy.
+
+## Risk / unsupported claims
+- The claim that "no study has yet considered polarization at atomistic resolution for entire condensates" is unsupported by a citation or search strategy.
+- The claim that residue-resolution models "reliably capture relative viscosity trends" is presented without sufficient supporting evidence or discussion of limitations.
+- The statement that data-driven backmapping methods "improve reconstruction accuracy" is not quantified or supported with specific examples.

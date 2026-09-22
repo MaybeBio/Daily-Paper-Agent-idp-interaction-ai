@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35713479",
+  "title": "Mechanistic Insight on General Protein-Binding Ability of ATP and the Impacts of Arginine Residues.",
+  "authors": "Hu, Guorong; Ou, Xinwen; Li, Jingyuan",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2022-06-18",
+  "window": {
+    "start": "2022-06-13",
+    "end": "2022-06-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用分子动力学模拟研究ATP与不同净电荷蛋白（含TDP-43 NTD等）的非特异性结合机制，揭示ATP通过直接结合和簇集间接结合适应多种蛋白，并强调精氨酸残基在结合与簇调控中的关键作用，虽对象非IDP但聚焦LLPS相关PPI机制建模，方法为物理模拟，对本课题有直接启发。",
+  "abstract": "Recent experiments suggested that adenosine triphosphate (ATP) can regulate liquid-liquid phase separation (LLPS) of various proteins and inhibit protein aggregations at its physiological concentration, which is highly correlated with the nonspecific interactions of ATP to a wide variety of proteins. However, the mechanism underlying the general binding capability of ATP largely remains unclear. In this work, we used molecular dynamics simulation to study the binding of ATPs to three proteins with distinct net charges: TDP-43 NTD (-7 e), TAF15-RRM (0 e), HWEL (+8 e). Negatively charged ATP exhibits a strong trend to accumulate around all of these proteins. While only a fraction of the accumulated ATPs directly binds to the limited regions of the protein surface, additional ATPs indirectly bind to proteins by aggregating into ATP clusters. Hence, the proportion of the directly bound ATPs in the clusters as well as their binding regions can be adjusted in response to different proteins, which makes ATP well adapted to a variety of proteins. Moreover, our results suggest that ATP tightly binds to Arg with high affinity, and Arg dominates the direct binding of ATP. Meanwhile, Arg also affects the self-association of accumulated ATPs. The size of the ATP cluster is effectively regulated by the distribution of Arg. Considering the ubiquity of Arg in proteins, our findings are helpful to understand the general binding capability of ATP.",
+  "abstract_zh": "近期实验表明，三磷酸腺苷（ATP）在其生理浓度下能够调控多种蛋白质的液-液相分离（LLPS）并抑制蛋白质聚集，这与ATP对多种蛋白质的非特异性相互作用高度相关。然而，ATP普遍结合能力的潜在机制在很大程度上仍不清楚。在本工作中，我们利用分子动力学模拟研究了ATP与三种净电荷不同的蛋白质的结合：TDP-43 NTD（-7 e）、TAF15-RRM（0 e）和HWEL（+8 e）。带负电的ATP表现出在所有这类蛋白质周围积累的强烈趋势。尽管只有一部分积累的ATP直接结合到蛋白质表面的有限区域，但额外的ATP通过聚集成ATP簇间接结合到蛋白质上。因此，簇中直接结合的ATP比例及其结合区域可以根据不同蛋白质进行调整，这使得ATP能够很好地适应多种蛋白质。此外，我们的结果表明，ATP以高亲和力紧密结合精氨酸（Arg），且Arg主导ATP的直接结合。同时，Arg也影响积累ATP的自缔合。ATP簇的大小受Arg分布的有效调控。鉴于Arg在蛋白质中的普遍存在，我们的发现有助于理解ATP的普遍结合能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35713479/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35713479/",
+  "paper_page_path": "papers/pubmed/35713479/index.html"
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table/movie legends
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical rigor as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that the Rous sarcoma virus (RSV) Gag polyprotein forms biomolecular condensates (BMCs) driven by intrinsically disordered regions (IDRs) in the MAp2p10 and NC domains, and that these condensates play a role in the intracellular trafficking and assembly pathway of the virus.
+- **Visible evidence base** Computational IDR prediction (PONDR), confocal and DIC imaging of fixed cells, in vitro droplet formation assays with purified recombinant proteins, live-cell time-lapse imaging of fusion events, FRAP analysis, optoDroplet assays, and 1,6-hexanediol sensitivity experiments
+- **Missing materials affecting confidence** Figures 1-10 and Tables 1-4 are referenced but not provided; Supplementary Tables 1-2 and Supplementary Movies 1-10 are referenced but not provided; statistical details (exact p-values, sample sizes, replicates) are partially reported in text but full datasets are absent; no quantification of FRAP curves is shown; no negative controls for optoDroplet experiments are described in the visible text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and interesting question regarding whether RSV Gag forms biomolecular condensates via IDR-driven phase separation. The authors present a multi-pronged approach combining bioinformatic prediction, cell-based imaging, in vitro biochemistry, and optogenetic assays. However, the absence of the actual figures and tables severely limits the ability to evaluate the strength of the evidence. Several claims, particularly regarding the sufficiency of individual domains and the functional relevance of condensates in the viral assembly pathway, are not fully supported by the data as described in the text. The manuscript would benefit from clearer quantification, additional controls, and a more cautious interpretation of the in vivo relevance of the observed phenomena.
+- **Who would be interested in the results, and why** Virologists studying retrovirus assembly and trafficking, particularly those focused on Gag biology and the role of phase separation in viral replication. Cell biologists interested in biomolecular condensates and liquid-liquid phase separation, especially in the context of viral infection and nucleocytoplasmic transport. Researchers studying intrinsically disordered proteins and their role in macromolecular organization.
+- **Major strengths** The study addresses a novel hypothesis for RSV Gag function, extending the emerging paradigm of phase separation to a retroviral system. The combination of in vitro and in vivo approaches is commendable. The use of optoDroplets to test IDR sufficiency in a cellular context is a powerful approach. The identification of specific IDRs in MAp2p10 and NC provides a clear mechanistic framework for future studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that RSV Gag forms biomolecular condensates driven by IDRs, based on criteria including IDR presence, spherical foci, fusion/fission, FRAP recovery, and hexanediol sensitivity.
+  - **Evidence pointer** Figures 1-10, Tables 1-4, Supplementary Tables 1-2, Supplementary Movies 1-10; location not provided
+  - **Concern** The core claim that Gag forms bona fide liquid-like condensates requires the actual imaging data, quantification, and controls shown in the figures and tables, none of which are available for review. The text alone cannot substantiate the qualitative and quantitative assertions about droplet size, number, fusion dynamics, FRAP recovery kinetics, or hexanediol sensitivity. Without these data, the central hypothesis remains unverified.
+  - **Why it matters** The manuscript's primary conclusion rests on the demonstration that Gag meets established criteria for liquid-liquid phase separation. If the figures do not convincingly show spherical, dynamic, and hexanediol-sensitive droplets with appropriate controls, the claim is not established.
+  - **Resolution test** Provide all figures and tables with full statistical analysis, including representative images, quantification of droplet properties across conditions, FRAP curves with fits, and appropriate controls (e.g., non-IDR protein controls, buffer-only conditions).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors suggest that the biophysical properties of condensates are required for the formation of Gag complexes in the nucleus and their cohesion during trafficking to the plasma membrane.
+  - **Evidence pointer** Discussion section; location not provided
+  - **Concern** The functional significance of Gag condensates in the viral assembly pathway is speculative. The manuscript does not present experiments that directly test whether disrupting condensate formation (e.g., via IDR mutations) impairs Gag trafficking, assembly, or virus production. The link between in vitro and cell-based condensate properties and the actual process of virion assembly is correlative at best.
+  - **Why it matters** Without functional data, the physiological relevance of the observed phase separation remains unclear. The claim that condensates are "required" for assembly is a strong statement that is not supported by the evidence presented.
+  - **Resolution test** Include experiments where IDR function is ablated (e.g., deletion or point mutations) and assess the impact on Gag localization, condensate formation, virus-like particle production, and infectivity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors report significant differences in droplet number and size between WT Gag and various deletion mutants, with specific p-values.
+  - **Evidence pointer** Figures 2-3, Supplementary Tables 1-2; location not provided
+  - **Concern** The statistical analysis is described in the text, but the actual data distributions, effect sizes, and replicate information are not visible. The claim that MA alone does not efficiently undergo LLPS is based on a qualitative observation of "fewer than 100 droplets per field" without clear statistical backing. The paradoxical effect of hexanediol on WT Gag droplets is intriguing but unexplained and requires more detailed investigation.
+  - **Why it matters** The conclusions about which domains are necessary or sufficient for droplet formation depend on robust quantitative comparisons. The current description is insufficient to assess the reliability and magnitude of the reported effects.
+  - **Resolution test** Provide full statistical details, including scatter plots, mean ± SD/SEM, number of independent experiments, and the specific tests used. For the hexanediol effect, provide a mechanistic explanation or additional experiments to clarify the observation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical controls
+  - **Claim pointer** The optoDroplet experiments demonstrate that RSV Gag IDRs (MAp2p10 and NC) are sufficient to drive condensate formation in cells.
+  - **Evidence pointer** Figure 8, Supplementary Movies 5-9; location not provided
+  - **Concern** The optoDroplet assay is a powerful tool, but the text does not describe critical controls, such as the behavior of the CRY2oligo-mCherry alone under the same illumination conditions (mentioned as a negative control but not described in detail), or the expression levels of the fusion proteins. The specificity of the clustering response to the Gag IDRs versus non-specific effects of the CRY2 system needs to be clearly demonstrated.
+  - **Why it matters** Without proper controls, the conclusion that the observed clustering is specifically due to the Gag IDRs is weakened. The assay's validity depends on showing that the effect is not an artifact of the optogenetic system.
+  - **Resolution test** Include data on the negative control (CRY2oligo-mCherry alone) under identical conditions, show comparable expression levels of all constructs, and potentially include a known non-condensing protein as an additional negative control.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "the biophysical properties of condensates are required for the formation of Gag complexes in the nucleus," which is a strong causal claim that is not directly tested in the manuscript.
+  - **Required correction** Soften the language to reflect that the properties are "consistent with a role" or "suggest a requirement," pending functional validation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** In Vitro Droplet Formation section; location not provided
+  - **Issue** The method for droplet formation mentions the use of Ficoll-400 as a crowding agent, but the exact composition of the final buffer (e.g., pH, salt concentration) is not fully specified for all experiments.
+  - **Required correction** Provide a detailed buffer composition table for all conditions tested, including the range of protein and salt concentrations used in the phase diagram.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The discussion speculates on the role of IDRs in binding multiple partners, but this is not directly supported by the data presented.
+  - **Required correction** Clearly distinguish between data-driven conclusions and speculative interpretations, and consider citing additional evidence or proposing specific experiments to test these ideas.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure legends
+  - **Evidence pointer** Supplementary Movie legends; location not provided
+  - **Issue** The movie legends are descriptive but do not include information on the time interval between frames for all movies (e.g., Movie 1 and 2 state 10 seconds, but Movies 3 and 4 state 1 minute; this is fine, but the total duration of each movie is not stated).
+  - **Required correction** Add the total duration of each movie and the imaging conditions (e.g., temperature, CO2) to the legends.
+- **Technical failings that need to be addressed before the case is established** The absence of all primary data figures and tables is a critical failing that prevents any meaningful assessment of the experimental results. The manuscript cannot be evaluated for technical soundness without these materials. Additionally, the lack of functional experiments linking condensate formation to virus assembly is a major gap that needs to be addressed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of phase separation concepts to RSV Gag is a novel angle, though the general phenomenon of viral protein phase separation is increasingly recognized. The specific identification of IDRs in MAp2p10 and NC as drivers is a potentially original contribution.
+  - **Scientific importance** If the findings are robust, they could have significant implications for understanding retroviral assembly and the role of nuclear trafficking in this process. The work could also contribute to the broader field of viral phase separation. However, the importance is contingent on the strength of the evidence and the demonstration of functional relevance.
+  - **Interdisciplinary readership** The topic bridges virology, cell biology, and biophysics, and would likely appeal to a broad audience interested in these areas. The use of multiple techniques enhances its potential appeal.
+  - **Technical soundness** Cannot be assessed due to missing figures and tables. The described methods are generally appropriate, but the lack of visible data and controls is a major concern.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, with clear explanations of concepts. However, some sections, particularly the results, rely heavily on references to figures that are not available, making it difficult for any reader to follow the argument.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting hypothesis, but the absence of the primary data (figures, tables, movies) makes it impossible to evaluate the validity of the claims. Even with the data, the lack of functional experiments linking condensate formation to viral assembly would need to be addressed before the case is fully established. I would be supportive of reconsideration if the full dataset is provided and the functional relevance is strengthened.
+
+## Risk / unsupported claims
+- The claim that RSV Gag forms biomolecular condensates is unsupported without the actual imaging and biochemical data.
+- The claim that the biophysical properties of condensates are "required" for Gag complex formation and trafficking is unsupported and speculative.
+- The claim that MAp2p10 and NC IDRs are sufficient to drive condensate formation is based on optoDroplet experiments, but the results and controls are not visible.
+- The interpretation that the L219A mutation leads to more liquid-like behavior and is linked to defects in trafficking and assembly is correlative and not mechanistically tested.
+- The statement that "Gag is finely tuned to form BMCs with differing characteristics during the assembly pathway" is an overinterpretation without comparative data across compartments.

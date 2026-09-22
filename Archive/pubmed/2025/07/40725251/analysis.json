@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40725251",
+  "title": "Titin's Intrinsically Disordered PEVK Domain Modulates Actin Polymerization.",
+  "authors": "Altorjay, Aron Gellert; Tordai, Hedvig; Zolcsak, Adam; Kosa, Nikoletta; Hegedus, Tamas; Kellermayer, Miklos",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2025-07-29",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究肌联蛋白无序PEVK结构域与肌动蛋白的结合并促进其聚合，涉及IDP与蛋白互作，但方法为实验（克隆、荧光、AFM），无AI或物理模拟建模，机制深度有限。",
+  "abstract": "The multi-domain muscle protein titin provides elasticity and mechanosensing functions to the sarcomere. Titin's PEVK domain is intrinsically disordered due to the presence of a large number of prolines and highly charged residues. Although PEVK does not have canonical actin-binding motifs, it has been shown to bind F-actin. Here, we explored whether the PEVK domain may also affect actin assembly. We cloned the middle, 733-residue-long segment (called PEVKII) of the full-length PEVK domain, expressed in E. coli and purified by using His- and Avi-tags engineered to the N- and C-termini, respectively. Actin assembly was monitored by the pyrene assay in the presence of varying PEVKII concentrations. The structural features of PEVKII-associated F-actin were studied with atomic force microscopy. The added PEVKII enhanced the initial and log-phase rates of actin assembly and the peak F-actin quantity in a concentration-dependent way. However, the critical concentration of actin polymerization was unaltered. Thus, PEVK accelerates actin polymerization by facilitating its nucleation. This effect was highlighted in the AFM images of F-actin-PEVKII adsorbed to the supported lipid bilayer. The sample was dominated by radially symmetric complexes of short actin filaments. PEVK's actin polymerization-modulating effect may, in principle, have a function in regulating sarcomeric actin length and turnover. Altogether, titin's PEVK domain is not only a non-canonical actin-binding protein that regulates sarcomeric shortening, but one that may modulate actin polymerization as well.",
+  "abstract_zh": "多结构域肌肉蛋白肌联蛋白（titin）为肌节提供弹性和机械传感功能。Titin的PEVK结构域因含有大量脯氨酸和高电荷残基而本质无序。尽管PEVK缺乏典型的肌动蛋白结合基序，但已证明它能与F-肌动蛋白结合。在此，我们探讨了PEVK结构域是否也可能影响肌动蛋白组装。我们克隆了全长PEVK结构域中段、长度为733个残基的片段（称为PEVKII），在大肠杆菌中表达，并利用分别工程化至N端和C端的His-和Avi-标签进行纯化。通过芘（pyrene）实验在不同PEVKII浓度下监测肌动蛋白组装。利用原子力显微镜（atomic force microscopy）研究了PEVKII相关F-肌动蛋白的结构特征。添加的PEVKII以浓度依赖方式增强了肌动蛋白组装的初始速率和对数期速率以及F-肌动蛋白的峰值数量。然而，肌动蛋白聚合的临界浓度未改变。因此，PEVK通过促进肌动蛋白成核来加速其聚合。这一效应在吸附于支撑脂质双层的F-肌动蛋白-PEVKII的AFM图像中尤为突出。样品以短肌动蛋白丝的径向对称复合体为主。原则上，PEVK的肌动蛋白聚合调节效应可能在调控肌节肌动蛋白长度和周转中发挥作用。总之，titin的PEVK结构域不仅是一种调节肌节缩短的非典型肌动蛋白结合蛋白，而且可能还调节肌动蛋白聚合。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40725251/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40725251/",
+  "paper_page_path": "papers/pubmed/40725251/index.html"
+}

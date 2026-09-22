@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "33661628",
+    "doi": "10.1021/acs.jpcb.1c00304",
+    "title": "Oligomannose N-Glycans 3D Architecture and Its Response to the FcgammaRIIIa Structural Landscape."
+  },
+  "content": {
+    "abstract": "Oligomannoses are evolutionarily the oldest class of N-glycans, where the arms of the common pentasaccharide unit, i.e., Manalpha(1-6)-[Manalpha(1-3)]-Manbeta(1-4)-GlcNAcbeta(1-4)-GlcNAcbeta1-Asn, are functionalized exclusively with branched arrangements of mannose (Man) monosaccharide units. In mammalian species oligomannose N-glycans can have up to 9 Man; meanwhile structures can grow to over 200 units in yeast mannan. The highly dynamic nature, branching complexity, and 3D structure of oligomannoses have been recently highlighted for their roles in immune escape and infectivity of enveloped viruses, such as HIV-1 and SARS-CoV2. The architectural features that allow these N-glycans to perform their functions are yet unclear, due to their intrinsically disordered nature that hinders their structural characterization. In this work we will discuss the results of over 54 mus of cumulative sampling by molecular dynamics (MD) simulations of differently processed, free (not protein-linked) oligomannose N-glycans common in vertebrates. We then discuss the effects of a protein surface on their structural equilibria based on over 4 mus cumulative MD sampling of the fully glycosylated CD16a Fc gamma receptor (FcgammaRIIIa), where the type of glycosylation is known to modulate its binding affinity for IgG1s, regulating the antibody-dependent cellular cytotoxicity (ADCC). Our results show that the protein's structural constraints shift the oligomannoses conformational ensemble to promote conformers that satisfy the steric requirements and hydrogen bonding networks demanded by the protein's surface landscape. More importantly, we find that the protein does not actively distort the N-glycans into structures not populated in the unlinked forms in solution. Ultimately, the highly populated conformations of the Man5 linked glycans support experimental evidence of high levels of hybrid complex forms at N45 and show a specific presentation of the arms at N162, which may be involved in mediating binding affinity to the IgG1 Fc.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*COVID-19",
+      "Humans",
+      "Polysaccharides",
+      "RNA, Viral",
+      "*Receptors, IgG",
+      "SARS-CoV-2"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fogarty, Carl A",
+        "Fadda, Elisa"
+      ],
+      "short_names": [
+        "Fogarty CA",
+        "Fadda E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2898-7770"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Hamilton Institute, Maynooth University, Maynooth, Kildare, Ireland.",
+        "Department of Chemistry and Hamilton Institute, Maynooth University, Maynooth, Kildare, Ireland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fogarty, Carl A",
+        "short_name": "Fogarty CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Hamilton Institute, Maynooth University, Maynooth, Kildare, Ireland."
+        ]
+      },
+      {
+        "full_name": "Fadda, Elisa",
+        "short_name": "Fadda E",
+        "identifiers": [
+          "0000-0002-2898-7770"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Hamilton Institute, Maynooth University, Maynooth, Kildare, Ireland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2021 Mar 18",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/05 06:00",
+    "fetched_at": "2026-09-20 01:51:39"
+  },
+  "links": {
+    "cites": [
+      "41713789",
+      "40806398",
+      "39402214",
+      "39189002",
+      "38879612",
+      "35126971"
+    ],
+    "refs": [
+      "33167615",
+      "33087899",
+      "32874351",
+      "32555487",
+      "32366695",
+      "31967297",
+      "31888963",
+      "31504525",
+      "31184695",
+      "31121217",
+      "31046847",
+      "30889355",
+      "30849709",
+      "30325416",
+      "30213862",
+      "30134158",
+      "30016589",
+      "28576848",
+      "27558841",
+      "27114034",
+      "26911286",
+      "26676578",
+      "26638212",
+      "26598169",
+      "26574386",
+      "26211613",
+      "25196214",
+      "25101107",
+      "24339177",
+      "24009699",
+      "22798492",
+      "22722607",
+      "21858152",
+      "21768335",
+      "21469953",
+      "21097542",
+      "20643940",
+      "19853458",
+      "18593145",
+      "18504293",
+      "17849372",
+      "15467392",
+      "8744570"
+    ],
+    "similar": [
+      "33661628",
+      "31888963",
+      "30213862",
+      "29330305",
+      "30361439",
+      "32222585",
+      "38948809",
+      "31467031",
+      "15557177",
+      "31967297",
+      "30016589",
+      "28576848",
+      "26200113",
+      "28978918",
+      "26444434",
+      "27304954",
+      "16407218",
+      "26850169",
+      "31554601",
+      "25345863",
+      "31669606",
+      "28613884",
+      "15955802",
+      "32874351",
+      "29062024",
+      "35262462",
+      "30325416",
+      "18606225",
+      "17012310",
+      "31544845",
+      "30990348",
+      "35712026",
+      "26266936",
+      "11536148",
+      "35617913",
+      "30466347",
+      "18952826",
+      "9442070",
+      "17259190",
+      "27160519",
+      "27932382",
+      "33806155",
+      "7929059",
+      "32812835",
+      "32604730",
+      "32887075",
+      "27807235",
+      "29931153",
+      "17045339",
+      "29173063",
+      "16343775",
+      "34108208",
+      "28363124",
+      "31411531",
+      "27712994",
+      "29523693",
+      "16330541",
+      "25898160",
+      "17680659",
+      "26156869",
+      "21489583",
+      "7827412",
+      "26812426",
+      "2223825",
+      "27721040",
+      "31640540",
+      "22982058",
+      "35441967",
+      "35782731",
+      "37994197",
+      "35526499"
+    ],
+    "review": [
+      "33661628",
+      "18606225",
+      "32604730",
+      "28363124",
+      "29523693",
+      "37994197"
+    ],
+    "pmc": [
+      "8279474"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.jpcb.1c00304",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33661628/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33661628",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33661628",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.1c00304",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

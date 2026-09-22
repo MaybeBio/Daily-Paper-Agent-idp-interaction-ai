@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the presented arguments and claims
+- **Shared manuscript claim summary** The manuscript is a review discussing the potential of machine learning methods to advance the study of intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs), focusing on the relationship between sequence, structure, dynamics, and function. It covers computational prediction of conformational ensembles, forward models for experimental data interpretation, energy function development, prediction of interactions via short linear motifs (SLiMs), biomolecular condensates, and the role of IDPs in disease.
+- **Visible evidence base** The full text of the manuscript, including highlights, introduction, sections on conformational ensembles, interactions and complexes, biomolecular condensates, disease relevance, and outlook. No figures or tables were provided.
+- **Missing materials affecting confidence** Figures (Fig. 1 and Fig. 2) are referenced but not included. No supplementary materials, data, or code were provided. The manuscript is a review, so no primary experimental data are expected, but the absence of figures limits assessment of illustrative content.
+
+## Reviewer
+- **Overall assessment** This is a well-written and timely review that addresses an important and rapidly evolving area at the interface of machine learning and biophysics. The authors are clearly expert in the field, and the manuscript provides a thoughtful and broad perspective on the challenges and opportunities for applying machine learning to intrinsically disordered proteins. The review is generally balanced, highlighting both successes and open problems. However, the manuscript is largely descriptive and forward-looking, with relatively little critical evaluation of existing methods or concrete guidance on how the proposed machine learning approaches might be implemented or validated. The claims are mostly reasonable but are often stated as possibilities rather than being supported by specific evidence or examples. The review would be strengthened by a more critical assessment of the limitations of current methods and a clearer articulation of the specific technical challenges that need to be overcome.
+- **Who would be interested in the results, and why** Researchers in the fields of computational biology, biophysics, and protein science, particularly those working on intrinsically disordered proteins, conformational ensembles, and machine learning applications to biological problems. The review is also relevant to experimentalists who use computational tools to interpret their data on IDPs, and to method developers interested in the challenges of applying machine learning to systems with high conformational heterogeneity.
+- **Major strengths** The manuscript is clearly written and well-organized, providing a comprehensive overview of the field. The authors identify several important open problems where machine learning could have a significant impact, including the prediction of conformational ensembles, the development of forward models, and the interpretation of genomic variants. The emphasis on the tight interplay between experiment and computation is appropriate and important. The review is balanced in acknowledging the limitations of current approaches and the difficulties specific to IDPs, such as poor sequence alignments and lack of training data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript suggests that machine learning methods may be used to predict conformational properties of IDPs directly from sequence, and that these methods could be trained or benchmarked directly on experimental data.
+  - **Evidence pointer** Section 3.1, Section 3.3, Section 3.4
+  - **Concern** The manuscript discusses the potential of machine learning to predict IDP conformational ensembles and to be trained on experimental data, but it does not provide a critical assessment of the current state of such methods. For example, the recent successes of AlphaFold for folded proteins are mentioned, but the fundamental differences between predicting a single folded structure and predicting an ensemble of disordered conformations are not deeply explored. The authors note that "the goal should not generally be to predict a single structure from the sequence, but rather an ensemble of dynamic structures," but they do not discuss in detail how existing machine learning architectures, which are largely designed for single-structure prediction, might be adapted for ensemble prediction. Furthermore, the suggestion that machine learning models should be trained directly on experimental data, while interesting, is not developed with specific examples or a discussion of the challenges involved, such as the need for accurate forward models and the risk of overfitting to a limited set of experimental observables.
+  - **Why it matters** The central thesis of the review is that machine learning has significant potential to advance the study of IDPs. To be convincing, the review needs to provide a more critical and detailed analysis of how this potential might be realized, including the specific technical hurdles that must be overcome. Without this, the claims remain speculative and the review reads more as a list of possibilities than a rigorous assessment of the field.
+  - **Resolution test** The authors should provide specific examples of existing or proposed machine learning methods for ensemble prediction, discuss their limitations, and outline concrete strategies for training such models on experimental data. A more detailed discussion of the challenges, such as the need for large training datasets of ensembles and the development of accurate forward models, would strengthen the case.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that machine learning may help identify short linear motifs (SLiMs), assign potential biological functions to them, and enable transfer of information between different systems.
+  - **Evidence pointer** Section 4.1, Section 4.2
+  - **Concern** The discussion of SLiM prediction and functional annotation is relatively brief and does not critically evaluate the performance of existing methods. The authors mention that "only a small number of experimentally verified cases are reported for each individual SLiM" and that "larger scale experiments often address already known SLiMs," but they do not discuss the implications of this data scarcity for training machine learning models. The claim that machine learning may "enable transfer of information between different systems" is interesting but is not elaborated upon. How would such transfer work? What features would be transferred? The review would benefit from a more detailed discussion of the specific challenges and potential solutions for applying machine learning to SLiM prediction and annotation.
+  - **Why it matters** SLiMs are a key functional feature of IDPs, and the ability to predict and annotate them is of significant biological importance. A more critical and detailed discussion of the potential and limitations of machine learning in this area would strengthen the review's contribution.
+  - **Resolution test** The authors should provide a more detailed analysis of the challenges of SLiM prediction, such as the limited number of positive examples and the difficulty of defining negative examples, and discuss specific machine learning strategies that might address these challenges. They should also elaborate on what "transfer of information between different systems" means in practice.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript discusses the potential of machine learning to improve forward models for interpreting experimental data, and suggests that such models may be developed and refined using machine learning.
+  - **Evidence pointer** Section 3.3
+  - **Concern** The discussion of forward models is somewhat superficial. The authors correctly point out that forward models are important for interpreting experimental data and that they can be improved, but they do not provide a clear explanation of what a forward model is, how machine learning might be used to improve them, or what the specific challenges are. For example, the authors mention that "different forward models may give different views of a conformational ensemble," but they do not discuss how machine learning might help to resolve these discrepancies or how to validate the accuracy of a machine-learned forward model. The section would benefit from a more concrete example, such as the use of neural networks to predict chemical shifts, and a discussion of the limitations of such approaches.
+  - **Why it matters** The development of accurate forward models is crucial for the interpretation of experimental data on IDPs. A more detailed and critical discussion of this topic would be valuable to the readership.
+  - **Resolution test** The authors should provide a more detailed explanation of forward models, give a specific example of how machine learning has been or could be used to improve them, and discuss the challenges of validating such models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Section 3.3
+  - **Issue** The term "forward model" is used without a clear definition. While specialists will understand the term, nonspecialist readers may be confused.
+  - **Required correction** Provide a brief definition of "forward model" when it is first used, for example, "a computational model that predicts the experimental observable from a given structural model or ensemble."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4.1
+  - **Evidence pointer** Section 4.1
+  - **Issue** The text states "An noted above" which appears to be a typo for "As noted above".
+  - **Required correction** Correct the typo to "As noted above".
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5
+  - **Evidence pointer** Section 5
+  - **Issue** The section on disease discusses the role of IDPs in disease but does not mention any specific machine learning methods that have been applied to predict disease-associated variants in IDPs, despite the claim that "new methods" are needed.
+  - **Required correction** Consider adding a brief mention of existing methods, such as those based on sequence conservation or protein language models, to provide context for the claim that new methods are needed.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1
+  - **Issue** The statement "it is not clear that improved contact prediction always leads to substantially improved models of three-dimensional structures" is vague. It would be helpful to provide a reference or a brief explanation of why this might be the case.
+  - **Required correction** Add a reference or a brief explanation to support this statement.
+
+## Risk / unsupported claims
+- The claim that machine learning "may help extract conformational preferences from poorly defined multiple sequence alignments of intrinsically disordered proteins" is plausible but is not supported by specific examples or a discussion of how this might be achieved.
+- The claim that machine learning "may help develop and parameterize better coarse-grained models for intrinsically disordered proteins" is stated without reference to any existing work in this direction.
+- The claim that machine learning "may help assign potential biological functions to [SLiMs]" is not supported by a discussion of any existing or proposed methods for this task.
+- The statement that "we need new methods to leverage the increasingly growing sequence databases to predict the effects of sequence variation in IDPs" is a reasonable call to action but is not supported by a review of existing methods and their limitations.
+- The overall assessment that machine learning has "potential" in this field is reasonable, but the review does not provide a critical evaluation of the current state of the art, making it difficult to assess the magnitude of this potential.

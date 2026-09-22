@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary material were provided
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations with a calibrated MARTINI v3.0 force field to study how polyampholyte and polyelectrolyte condensates interact with two anionic membranes. They report that all polyampholyte condensates adsorb on membranes, but blocky (strong) sequences induce significant negative curvature and lipid demixing, while scrambled (weak) sequences wet the membrane without generating substantial curvature or demixing. Interaction energetics are proposed to explain these differences.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information were supplied
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field calibration details, quantitative data for curvature and demixing, energetic analysis results, and any control simulations
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study on sequence-dependent membrane remodeling by polyampholyte condensates. The topic is timely given the growing interest in biomolecular condensates and their interactions with membranes. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the robustness of the reported curvature and demixing measurements, or the validity of the energetic interpretation. The central claim that blocky sequences remodel membranes more prominently than scrambled sequences is plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, membrane biophysics, and intrinsically disordered proteins would be interested. The work addresses a fundamental question about how sequence patterning in IDPs influences membrane morphology, which has implications for understanding signaling organization and membrane remodeling in cellular contexts. Computational biophysicists using coarse-grained models would also find the force field calibration and simulation approach relevant.
+- **Major strengths** The study addresses a biologically important and currently unresolved question about the molecular mechanism of condensate-mediated membrane remodeling. The use of sequence variants (blocky versus scrambled) provides a systematic approach to isolate the role of charge patterning. The focus on two anionic membrane types adds generality to the findings. The reported distinction between curvature generation and wetting behavior is a useful conceptual framework.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that blocky polyampholyte sequences induce a significant negative curvature of approximately 0.1 nm(-1) and local lipid demixing, while scrambled sequences do not.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports a single curvature value without any indication of the measurement method, the statistical uncertainty, the system size, or the simulation time over which this curvature was established. No information is given about how curvature was calculated from the simulation trajectories or whether the value represents a steady-state or transient feature.  
+  - **Why it matters** The central conclusion of sequence-dependent membrane remodeling rests on the reliability of the curvature measurement. Without details on the analysis protocol and error estimates, the reader cannot assess whether the reported difference between blocky and scrambled sequences is statistically meaningful or an artifact of the simulation setup.  
+  - **Resolution test** Provide a description of the curvature calculation method, include error bars or standard deviations across replicate simulations, and show that the curvature value is converged over the simulation timescale.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that the MARTINI v3.0 force field was calibrated before performing the simulations.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract mentions calibration of the MARTINI v3.0 force field but provides no details on what was calibrated, against what reference data, or what parameters were adjusted. Calibration is a critical step for coarse-grained simulations, and the nature of the calibration directly affects the validity of all subsequent results.  
+  - **Why it matters** If the calibration was not performed rigorously or against appropriate experimental or atomistic references, the quantitative predictions of curvature and interaction energetics could be systematically biased. The reader cannot evaluate the transferability or accuracy of the model without this information.  
+  - **Resolution test** Describe the calibration procedure, the target data used, the parameters that were modified, and the validation metrics that demonstrate the calibrated model reproduces the reference properties.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for conclusions  
+  - **Claim pointer** The authors claim that membrane remodeling and wetting are favored by enhanced interactions between polyampholytes with lipids and the counterions.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The energetic analysis is mentioned only in a single sentence without any quantitative results. No energy values, decomposition of interaction types, or comparison between sequence variants are provided. The claim that enhanced interactions drive the observed behavior is therefore unsupported in the abstract.  
+  - **Why it matters** The proposed mechanism is the explanatory framework for the observed sequence dependence. Without quantitative energetic data, the claim remains speculative and cannot be distinguished from alternative explanations such as entropic effects or differences in condensate material properties.  
+  - **Resolution test** Present a decomposition of interaction energies (polyampholyte-lipid, polyampholyte-counterion, lipid-lipid) for each sequence variant and show that the differences correlate with the observed curvature and wetting behavior.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Completeness  
+  - **Claim pointer** The authors state that condensates formed by all polyampholytes get adsorbed on the membrane.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify the degree of adsorption, the kinetics of adsorption, or whether adsorption reached equilibrium. It is also unclear whether the two anionic membrane types showed different adsorption behavior.  
+  - **Why it matters** Adsorption is the prerequisite for all subsequent remodeling effects. If adsorption is incomplete or varies between systems, the interpretation of curvature and wetting differences becomes ambiguous.  
+  - **Resolution test** Provide adsorption time profiles, equilibrium coverage values, and a comparison between the two membrane types for each polyampholyte sequence.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of strong versus weak polyampholytes  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The terms "strong" and "weak" are used to describe blocky and scrambled sequences, respectively, but the physical basis for this classification is not defined.  
+  - **Required correction** Define the criteria for strong and weak in terms of charge blockiness, interaction strength, or another quantitative metric.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Simulation details  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract does not state the number of replicate simulations, the total simulation time, or the system size (number of lipids, water molecules, and ions).  
+  - **Required correction** Include these details in the methods section of the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Choice of membranes  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract states that two anionic membranes were used but does not specify their lipid compositions or charge densities.  
+  - **Required correction** Specify the lipid types and compositions of both membranes to allow assessment of the generality of the findings.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Role of counterions  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The claim that counterions favor remodeling is mentioned but the mechanism is not explained.  
+  - **Required correction** Clarify whether counterions act by screening charges, mediating polyampholyte-lipid contacts, or altering condensate properties.
+
+- **Technical failings that need to be addressed before the case is established** R1-M1 (curvature measurement and statistical robustness), R1-M2 (force field calibration details), R1-M3 (quantitative energetic support for the proposed mechanism)
+
+- **Assessment against Nature-style criteria**  
+  - **Originality** The question of sequence-dependent membrane remodeling by condensates is timely and the approach of comparing blocky versus scrambled sequences is a reasonable design. However, the conceptual advance over existing studies is not fully clear from the abstract alone.  
+  - **Scientific importance** The topic is of broad interest to the condensate and membrane biology communities. If the claims are robust, the work could provide mechanistic insight into how IDP sequence patterning influences membrane morphology.  
+  - **Interdisciplinary readership** The work bridges biophysics, computational chemistry, and cell biology. The abstract is written in a way that is accessible to nonspecialists, though some terms such as "negative curvature" and "demixing" may require prior knowledge.  
+  - **Technical soundness** Cannot be adequately assessed from the abstract. The lack of methodological detail and quantitative uncertainty estimates is a significant limitation.  
+  - **Readability for nonspecialists** The abstract is concise and generally clear, but the single curvature value and the brief mention of energetics leave the reader without a full picture of the findings.
+
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary results, but the technical details required to validate the central claims are not visible. A full assessment would require the complete manuscript, including methods, figures, and supplementary information. If the full manuscript addresses the concerns above, the work could be supportive.
+
+## Risk / unsupported claims
+- The claim that blocky sequences induce a negative curvature of approximately 0.1 nm(-1) is unsupported without details on the measurement method and statistical uncertainty.
+- The claim that enhanced polyampholyte-lipid and polyampholyte-counterion interactions favor remodeling and wetting is unsupported without quantitative energetic data.
+- The claim that the MARTINI v3.0 force field was calibrated is unverifiable without details on the calibration procedure and validation.
+- The general statement that the findings apply to "a majority of naturally occurring IDPs" is an extrapolation that is not justified from the abstract alone.

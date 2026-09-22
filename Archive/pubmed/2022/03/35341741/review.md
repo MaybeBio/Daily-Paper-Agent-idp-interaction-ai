@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text as provided (abstract and results summary)
+- **Assessment boundary** Scientific claims, experimental evidence, and interpretation as presented in the supplied material
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered N-terminal domain (NTD) of p53, not the DNA-binding domain (DBD) as previously reported, is the primary binding site for cyclophilin D (CypD), a regulator of the mitochondrial permeability transition pore (mPTP). They support this with surface plasmon resonance (SPR), solution NMR, fluorescence anisotropy, and molecular dynamics (MD) simulations, identifying NTD residues 20-70 as the minimal binding region and two sub-fragments (D1, residues 22-44; D2, residues 58-70) as weak binders.
+- **Visible evidence base** SPR binding data (approximate micromolar KD for NTD constructs), solution NMR chemical shift perturbation (CSP) for NTD and full-length p53 (FLp53), fluorescence anisotropy for DBD, NMR titration, MD simulation results, and fragment binding assays
+- **Missing materials affecting confidence** Full experimental methods, detailed SPR sensorgrams, NMR spectra and assignment details, MD simulation parameters and convergence criteria, statistical analysis of binding affinities, and raw data for fluorescence anisotropy experiments
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely question regarding the molecular basis of p53-CypD interaction, which is relevant to mPTP regulation and cell death pathways. The central claim that NTD, rather than DBD, is the major CypD binding site is provocative and, if substantiated, would correct a prevailing assumption in the field. However, the evidence as presented is incomplete in several critical aspects, particularly regarding the quantitative rigor of binding measurements, the interpretation of NMR CSP data, and the biological relevance of the identified weak-affinity fragments. The conclusions are plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in mitochondrial biology, cell death signaling, p53 function, and drug discovery targeting mPTP. The findings could inform therapeutic strategies for ischemia/reperfusion injury, neurodegeneration, and cancer, where p53-dependent mPTP opening is implicated. The study also contributes to the broader understanding of intrinsically disordered protein interactions.
+- **Major strengths** The study combines multiple biophysical techniques (SPR, NMR, fluorescence anisotropy, MD) to characterize a protein-protein interaction, which is methodologically robust. The direct comparison of NTD and DBD binding under identical conditions is a strong experimental design. The identification of a minimal binding region and sub-fragments provides a foundation for future mechanistic and therapeutic studies. The use of FLp53 as a reference in NMR CSP strengthens the relevance of the NTD findings.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Both NTD-DBD, NTD and NTD (1-70) bind to CypD at approximately muM K(D)" and "NTD binds CypD with muM affinity"
+  - **Evidence pointer** SPR results, section "Surface plasmon resonance"
+  - **Concern** The SPR binding affinities are reported as approximate micromolar KD values, but no error estimates, replicate numbers, or sensorgram fits are provided. The text states "approximately muM K(D)" without specifying exact values or confidence intervals. This lack of quantitative detail prevents assessment of the reliability and reproducibility of the binding measurements.
+  - **Why it matters** The central claim that NTD is the major CypD binding site hinges on the accuracy and precision of these affinity measurements. Without proper statistical reporting, the reader cannot determine whether the observed binding is specific or within experimental noise, especially given the relatively weak affinity (micromolar range).
+  - **Resolution test** Provide exact KD values with standard deviations from at least three independent experiments, representative sensorgrams with fitted curves, and a statement on the fitting model used. If possible, include a positive control (e.g., a known CypD binder) and a negative control (e.g., a non-binding protein) to validate the assay.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "In solution NMR, NTD binds CypD with muM affinity and mimics the pattern of FLp53 binding in chemical shift perturbation. In contrast, neither solution NMR nor fluorescence anisotropy detected DBD binding to CypD."
+  - **Evidence pointer** NMR CSP and fluorescence anisotropy results, section "Solution NMR and fluorescence anisotropy"
+  - **Concern** The NMR CSP data are described qualitatively ("mimics the pattern") without showing the actual spectra, residue-specific CSP values, or a quantitative comparison between NTD and FLp53. The absence of DBD binding in NMR and fluorescence anisotropy is stated, but the detection limits of these methods are not discussed. For example, if DBD binds with lower affinity or faster off-rate, it might be undetectable by these techniques, which would not rule out a weaker but biologically relevant interaction.
+  - **Why it matters** The conclusion that DBD does not bind CypD is a key negative result that contradicts prior studies. The lack of quantitative NMR data and discussion of method sensitivity weakens the strength of this claim. If DBD binding is simply below the detection threshold, the conclusion that NTD is the "major" site may be overstated.
+  - **Resolution test** Provide residue-specific CSP plots for NTD and FLp53 with CypD titration, including a quantitative metric (e.g., weighted CSP) and a threshold for significance. For DBD, report the detection limit of the NMR and fluorescence anisotropy assays (e.g., minimum KD detectable) and discuss whether a weak DBD interaction could be missed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "NTD 20-70 was further identified as the minimal binding region for CypD interaction, and two NTD fragments, D1 (residues 22-44) and D2 (58-70), can each bind CypD with mM affinity."
+  - **Evidence pointer** NMR titration and fragment binding assays, section "Identification of minimal binding region"
+  - **Concern** The identification of NTD 20-70 as the minimal binding region and the millimolar affinities of D1 and D2 are presented without detailed experimental evidence. The millimolar KD values are extremely weak and may be of limited physiological relevance. The authors do not discuss whether such weak interactions could meaningfully contribute to p53-CypD binding in a cellular context, where local concentrations may be low.
+  - **Why it matters** The claim that D1 and D2 bind CypD with millimolar affinity may be technically correct but biologically insignificant. If the minimal binding region requires the full 20-70 sequence for functional affinity, the fragment data may be misleading. The authors should clarify the physiological relevance of these weak interactions and whether they support or undermine the overall model.
+  - **Resolution test** Provide the raw binding data for D1 and D2 (e.g., NMR titration curves or SPR sensorgrams) and a discussion of the concentration range over which these interactions would be relevant in cells. If possible, test a construct spanning residues 20-70 in a functional assay (e.g., mitochondrial permeabilization) to link binding affinity to biological activity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "NMR titration and MD simulation revealed that NTD binds CypD with broad and dynamic interfaces dominated by electrostatic interactions."
+  - **Evidence pointer** MD simulation results, section "MD simulation"
+  - **Concern** The MD simulation is described as revealing "broad and dynamic interfaces," but no simulation details are provided, such as force field, simulation length, system setup, or convergence criteria. The interpretation of "electrostatic interactions" as dominant is not supported by quantitative analysis (e.g., per-residue energy decomposition or contact maps). Without these details, the MD results cannot be evaluated for reliability.
+  - **Why it matters** The MD simulation is used to support the mechanistic model of a dynamic, electrostatically driven interface. If the simulation is under-sampled or poorly converged, the conclusions may be artifacts. The lack of methodological transparency prevents the reader from assessing the validity of this computational evidence.
+  - **Resolution test** Provide full simulation parameters, including force field, water model, simulation time, and convergence metrics. Include a quantitative analysis of interaction energies or contact frequencies to support the claim of electrostatic dominance. If possible, validate the MD predictions with experimental mutagenesis data.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and introduction
+  - **Evidence pointer** Section "Introduction"
+  - **Issue** The abstract and introduction use technical terms (e.g., "chemical shift perturbation," "fluorescence anisotropy") without brief explanations, which may hinder nonspecialist readers in understanding the methods and their significance.
+  - **Required correction** Add a brief parenthetical explanation of key biophysical techniques when first mentioned, or include a short methods overview in the introduction to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Binding affinity reporting
+  - **Evidence pointer** Section "Surface plasmon resonance"
+  - **Issue** The KD values are reported as "approximately muM" without exact numbers or units consistently applied. This imprecision is unusual for a biophysical study and reduces the scientific rigor.
+  - **Required correction** Report exact KD values with standard errors and units (e.g., KD = 2.3 ± 0.4 µM) for each construct, and specify the number of replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion of prior studies
+  - **Evidence pointer** Section "Introduction"
+  - **Issue** The authors state that prior studies reported DBD as the CypD binding site but do not cite or discuss these studies in detail. This omission makes it difficult to assess the novelty of the current findings and the basis for the discrepancy.
+  - **Required correction** Cite and briefly summarize the prior studies that identified DBD as the binding site, and discuss possible reasons for the discrepancy (e.g., different experimental conditions, protein constructs, or detection methods).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure legends
+  - **Evidence pointer** Figures (not provided in detail)
+  - **Issue** Figure legends are not described in the supplied material, but based on the text, they may lack sufficient detail for readers to interpret the data independently.
+  - **Required correction** Ensure figure legends include a clear description of the experimental conditions, sample concentrations, and statistical significance indicators.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative SPR data), R1-M2 (qualitative NMR and detection limits), R1-M4 (incomplete MD simulation details). These are the primary technical issues that must be resolved to support the central claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The claim that NTD, not DBD, is the major CypD binding site is original and challenges existing literature. However, the novelty is partially diminished by the lack of detailed comparison with prior studies.
+  - **Scientific importance** The p53-CypD interaction is relevant to mPTP regulation and cell death, with implications for multiple diseases. The findings could redirect research on p53-mediated mitochondrial dysfunction, making this a potentially important contribution.
+  - **Interdisciplinary readership** The topic bridges structural biology, biophysics, and cell death signaling, which could attract a broad audience. However, the technical focus on biophysical methods may limit accessibility to nonspecialists.
+  - **Technical soundness** The multi-technique approach is commendable, but the lack of quantitative rigor in SPR and NMR data, and the incomplete MD simulation details, undermine the technical soundness as currently presented.
+  - **Readability for nonspecialists** The manuscript is generally clear but uses technical jargon without sufficient explanation, which may hinder comprehension for readers outside the biophysics field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the experimental design is appropriate, but the evidence as presented is insufficient to fully establish the claims. The authors must provide quantitative binding data, detailed NMR analysis, and complete MD simulation methods to strengthen the case.
+
+## Risk / unsupported claims
+- The claim that NTD is the "major" CypD binding site is not fully supported because the quantitative binding data are incomplete and the detection limits of the negative DBD experiments are not discussed.
+- The identification of NTD 20-70 as the minimal binding region is not supported by detailed experimental evidence in the supplied material.
+- The millimolar affinities of D1 and D2 are reported without raw data or discussion of biological relevance, making their significance unassessable.
+- The MD simulation results are described qualitatively without methodological details, so the claim of an electrostatically dominated interface is not verifiable.
+- The statement that the findings provide "novel insights on the p53-dependent mPTP opening and drug discovery" is speculative and not directly tested in the study.

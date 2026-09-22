@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38987470",
+  "title": "Molecular Docking of Intrinsically Disordered Proteins: Challenges and Strategies.",
+  "authors": "Patel, Keyur N; Chavda, Dhruvil; Manna, Moutusi",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2024-07-11",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该综述系统总结了无序蛋白(IDP/IDR)分子对接的挑战与策略，涵盖基于ensemble和fragment的方法及AI/ML辅助手段，聚焦IDP与结合伴侣的互作机制建模，与课题高度契合。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are a novel class of proteins that have established a significant importance and attention within a very short period of time. These proteins are essentially characterized by their inherent structural disorder, encoded mainly by their amino acid sequences. The profound abundance of IDPs and intrinsically disordered regions (IDRs) in the biological world delineates their deep-rooted functionality. IDPs and IDRs convey such extensive functionality through their unique dynamic nature, which enables them to carry out huge number of multifaceted biomolecular interactions and make them \"interaction hub\" of the cellular systems. Additionally, with such widespread functions, their misfunctioning is also intimately associated with multiple diseases. Thus, understanding the dynamic heterogeneity of various IDPs along with their interactions with respective binding partners is an important field with immense potentials in biomolecular research. In this context, molecular docking-based computational approaches have proven to be remarkable in case of ordered proteins. Molecular docking methods essentially model the biomolecular interactions in both structural and energetic terms and use this information to characterize the putative interactions between the two participant molecules. However, direct applications of the conventional docking methods to study IDPs are largely limited by their structural heterogeneity and demands for unique IDP-centric strategies. Thus, in this chapter, we have presented an overview of current methodologies for successful docking operations involving IDPs and IDRs. These specialized methods majorly include the ensemble-based and fragment-based approaches with their own benefits and limitations. More recently, artificial intelligence and machine learning-assisted approaches are also used to significantly reduce the complexity and computational burden associated with various docking applications. Thus, this chapter aims to provide a comprehensive summary of major challenges and recent advancements of molecular docking approaches in the IDP field for their better utilization and greater applicability.Asp (D).",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 是一类新型蛋白质，在极短时间内确立了其重要性和关注度。这些蛋白质本质上以其固有的结构无序性为特征，主要由其氨基酸序列编码。IDPs 和 intrinsically disordered regions (IDRs) 在生物世界中的丰富存在，彰显了它们深植的功能性。IDPs 和 IDRs 通过其独特的动态特性传递如此广泛的功能，使其能够执行大量多方面的生物分子相互作用，并成为细胞系统的“相互作用枢纽”。此外，随着这些广泛的功能，它们的功能障碍也与多种疾病密切相关。因此，理解各种 IDPs 的动态异质性及其与各自结合伙伴的相互作用，是生物分子研究中具有巨大潜力的重要领域。在此背景下，基于分子对接的计算方法在有序蛋白质中已被证明效果显著。分子对接方法本质上以结构和能量术语模拟生物分子相互作用，并利用这些信息来表征两个参与分子之间的推定相互作用。然而，传统对接方法直接应用于研究 IDPs 在很大程度上受限于其结构异质性，需要独特的 IDP 中心策略。因此，在本章中，我们概述了涉及 IDPs 和 IDRs 的成功对接操作的当前方法论。这些专门方法主要包括基于整体和基于片段的方法，各有其优缺点。最近，人工智能和机器学习辅助方法也被用于显著降低与各种对接应用相关的复杂性和计算负担。因此，本章旨在全面总结 IDP 领域中分子对接方法的主要挑战和最新进展，以促进其更好的利用和更广泛的应用性。Asp (D)。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38987470/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38987470/",
+  "paper_page_path": "papers/pubmed/38987470/index.html"
+}

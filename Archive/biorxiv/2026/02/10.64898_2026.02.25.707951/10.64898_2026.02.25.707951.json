@@ -1,0 +1,247 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.25.707951",
+  "title": "Time-Resolved Single-Molecule FRET Reveals Length-Dependent Nucleosome Decompaction by Poly(ADP-ribose)",
+  "doi": "10.64898/2026.02.25.707951",
+  "abstract": "Highly charged chains of poly(ADP-ribose) (PAR) are synthesized in the cell as part of their central role in DNA damage response. However, the effects of PAR on nucleosome structure and dynamics remain incompletely understood. Here we combine droplet-based microfluidic mixing with single-molecule Förster resonance energy transfer spectroscopy to resolve the kinetics of PAR-induced nucleosome decompaction in non-equilibrium measurements with millisecond time resolution. This approach avoids surface-adhesion and enables the tether-free observation of nucleosome remodeling. We find that PAR triggers nucleosome decompaction via a length-dependent kinetic threshold: Chains with less than ten ADP-ribose units act slowly and weakly, whereas longer PAR polymers induce efficient and rapid nucleosome opening. The extent and reversibility of decompaction further depend on PAR concentration and ionic strength, reflecting a mechanism dominated by electrostatic interactions. Enzymatic PAR digestion demonstrates that PAR can promote both reversible linker DNA opening and irreversible nucleosome disassembly. Coarse-grained molecular simulations suggest that these effects arise from a competition between PAR and DNA for histone tail binding. Altogether, our results establish PAR length as a key factor controlling chromatin accessibility during DNA repair and highlight droplet-based microfluidics as a powerful platform for studying such biomolecular interactions.",
+  "authors": [
+    "Yang T",
+    "Gopi S",
+    "Pinet L",
+    "Simoni S",
+    "Imhof R",
+    "Nettels D",
+    "Altmeyer M",
+    "Best RB",
+    "Schuler B"
+  ],
+  "published_date": "2026-02-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.25.707951",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.25.707951.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1221993",
+    "raw_record": {
+      "id": "PPR1221993",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1221993"
+        ]
+      },
+      "doi": "10.64898/2026.02.25.707951",
+      "title": "Time-Resolved Single-Molecule FRET Reveals Length-Dependent Nucleosome Decompaction by Poly(ADP-ribose)",
+      "authorString": "Yang T, Gopi S, Pinet L, Simoni S, Imhof R, Nettels D, Altmeyer M, Best RB, Schuler B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yang T",
+            "lastName": "Yang",
+            "firstName": "Tianjin",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gopi S",
+            "lastName": "Gopi",
+            "firstName": "Soundhararajan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pinet L",
+            "lastName": "Pinet",
+            "firstName": "Louise",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Simoni S",
+            "lastName": "Simoni",
+            "firstName": "Sebastian",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Imhof R",
+            "lastName": "Imhof",
+            "firstName": "Ralph",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Mechanisms of Disease, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nettels D",
+            "lastName": "Nettels",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Altmeyer M",
+            "lastName": "Altmeyer",
+            "firstName": "Matthias",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Mechanisms of Disease, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Best RB",
+            "lastName": "Best",
+            "firstName": "Robert",
+            "initials": "RB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Chemical Physics, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schuler B",
+            "lastName": "Schuler",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Highly charged chains of poly(ADP-ribose) (PAR) are synthesized in the cell as part of their central role in DNA damage response. However, the effects of PAR on nucleosome structure and dynamics remain incompletely understood. Here we combine droplet-based microfluidic mixing with single-molecule Förster resonance energy transfer spectroscopy to resolve the kinetics of PAR-induced nucleosome decompaction in non-equilibrium measurements with millisecond time resolution. This approach avoids surface-adhesion and enables the tether-free observation of nucleosome remodeling. We find that PAR triggers nucleosome decompaction via a length-dependent kinetic threshold: Chains with less than ten ADP-ribose units act slowly and weakly, whereas longer PAR polymers induce efficient and rapid nucleosome opening. The extent and reversibility of decompaction further depend on PAR concentration and ionic strength, reflecting a mechanism dominated by electrostatic interactions. Enzymatic PAR digestion demonstrates that PAR can promote both reversible linker DNA opening and irreversible nucleosome disassembly. Coarse-grained molecular simulations suggest that these effects arise from a competition between PAR and DNA for histone tail binding. Altogether, our results establish PAR length as a key factor controlling chromatin accessibility during DNA repair and highlight droplet-based microfluidics as a powerful platform for studying such biomolecular interactions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "219629",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "200021",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "239910",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.25.707951"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1221993"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215505",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-27",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "identity": {
+    "pmid": "40185744",
+    "doi": "10.1038/s41467-025-58374-5",
+    "title": "Role of charges in a dynamic disordered complex between an IDP and a folded domain."
+  },
+  "content": {
+    "abstract": "Protein complexes involving intrinsically disordered proteins (IDPs) cover a continuum from IDPs that fully fold upon binding to IDPs that remain fully disordered in the complex. Here we demonstrate a case of charge-driven interactions of a folded domain with an oppositely charged IDP that remains completely disordered in the complex. Using the negatively charged and fully disordered prothymosin alpha and the positively charged and folded globular domain of histone H1.0, we show that they form a low-micromolar-affinity complex without fixed relative orientations or persistent contacts between specific residues. Using 25 charge variants of the globular domain, we find that the binding affinity can be modulated both by net charge and charge clustering on the folded domain, indicating some selectivity in highly charged complexes. Our results highlight that a folded protein can provide a charged surface onto which an oppositely charged IDP can bind while retaining disorder. We expect that more such complexes exist.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/genetics",
+      "*Protein Folding",
+      "*Histones/chemistry/metabolism/genetics",
+      "Protein Binding",
+      "*Thymosin/analogs & derivatives/chemistry/metabolism",
+      "Protein Domains",
+      "*Protein Precursors/chemistry/metabolism",
+      "Humans",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bugge, Katrine",
+        "Sottini, Andrea",
+        "Ivanovic, Milos T",
+        "Buus, Freia S",
+        "Saar, Daniel",
+        "Fernandes, Catarina B",
+        "Kocher, Fabienne",
+        "Martinsen, Jacob H",
+        "Schuler, Benjamin",
+        "Best, Robert B",
+        "Kragelund, Birthe B"
+      ],
+      "short_names": [
+        "Bugge K",
+        "Sottini A",
+        "Ivanovic MT",
+        "Buus FS",
+        "Saar D",
+        "Fernandes CB",
+        "Kocher F",
+        "Martinsen JH",
+        "Schuler B",
+        "Best RB",
+        "Kragelund BB"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6286-6243",
+        "ORCID: 0000-0001-8014-5987",
+        "ORCID: 0000-0003-3164-9411",
+        "ORCID: 0000-0001-5197-4591",
+        "ORCID: 0009-0004-2527-8874",
+        "ORCID: 0000-0002-5970-4251",
+        "ORCID: 0000-0002-7893-3543",
+        "ORCID: 0000-0002-7454-1761"
+      ],
+      "affiliations": [
+        "REPIN and the Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark. katbugge@gmail.com.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "REPIN and the Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "REPIN and the Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "REPIN and the Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "REPIN and the Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland. schuler@bioc.uzh.ch.",
+        "Department of Physics, University of Zurich, Zurich, Switzerland. schuler@bioc.uzh.ch.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA. robert.best2@nih.gov.",
+        "REPIN and the Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark. bbk@bio.ku.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bugge, Katrine",
+        "short_name": "Bugge K",
+        "identifiers": [
+          "0000-0002-6286-6243"
+        ],
+        "affiliations": [
+          "REPIN and the Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark. katbugge@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Sottini, Andrea",
+        "short_name": "Sottini A",
+        "identifiers": [
+          "0000-0001-8014-5987"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Ivanović, Miloš T",
+        "short_name": "Ivanović MT",
+        "identifiers": [
+          "0000-0003-3164-9411"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Buus, Freia S",
+        "short_name": "Buus FS",
+        "identifiers": [],
+        "affiliations": [
+          "REPIN and the Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Saar, Daniel",
+        "short_name": "Saar D",
+        "identifiers": [
+          "0000-0001-5197-4591"
+        ],
+        "affiliations": [
+          "REPIN and the Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Fernandes, Catarina B",
+        "short_name": "Fernandes CB",
+        "identifiers": [],
+        "affiliations": [
+          "REPIN and the Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kocher, Fabienne",
+        "short_name": "Kocher F",
+        "identifiers": [
+          "0009-0004-2527-8874"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Martinsen, Jacob H",
+        "short_name": "Martinsen JH",
+        "identifiers": [],
+        "affiliations": [
+          "REPIN and the Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Schuler, Benjamin",
+        "short_name": "Schuler B",
+        "identifiers": [
+          "0000-0002-5970-4251"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland. schuler@bioc.uzh.ch.",
+          "Department of Physics, University of Zurich, Zurich, Switzerland. schuler@bioc.uzh.ch."
+        ]
+      },
+      {
+        "full_name": "Best, Robert B",
+        "short_name": "Best RB",
+        "identifiers": [
+          "0000-0002-7893-3543"
+        ],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA. robert.best2@nih.gov."
+        ]
+      },
+      {
+        "full_name": "Kragelund, Birthe B",
+        "short_name": "Kragelund BB",
+        "identifiers": [
+          "0000-0002-7454-1761"
+        ],
+        "affiliations": [
+          "REPIN and the Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark. bbk@bio.ku.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Apr 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/05 15:55",
+    "fetched_at": "2026-09-22 02:24:26"
+  },
+  "links": {
+    "cites": [
+      "42467187",
+      "42395354",
+      "42172735",
+      "42127203",
+      "42074305",
+      "41622676",
+      "41540012",
+      "40998749",
+      "40631955"
+    ],
+    "refs": [
+      "39604735",
+      "38365983",
+      "38287572",
+      "37957331",
+      "37796987",
+      "37716093",
+      "37468629",
+      "36750251",
+      "36350035",
+      "35727975",
+      "35454150",
+      "35066947",
+      "34992286",
+      "34687712",
+      "34580064",
+      "34504002",
+      "34181980",
+      "33655882",
+      "33554215",
+      "33443163",
+      "33238161",
+      "33184256",
+      "32822449",
+      "32613009",
+      "32195664",
+      "31914313",
+      "31874413",
+      "31659043",
+      "31134302",
+      "31105795",
+      "30471690",
+      "30413699",
+      "30301810",
+      "29925815",
+      "29910983",
+      "29890118",
+      "29788979",
+      "29657132",
+      "29604882",
+      "29466338",
+      "29374059",
+      "28601983",
+      "28597296",
+      "28536618",
+      "27663422",
+      "27145874",
+      "27083547",
+      "26988870",
+      "26922996",
+      "26723618",
+      "26474902",
+      "25970171",
+      "24740064",
+      "24421312",
+      "23945933",
+      "23901099",
+      "22573613",
+      "22227393",
+      "22195967",
+      "21514144",
+      "21234644",
+      "21078959",
+      "20434447",
+      "20404210",
+      "20399186",
+      "19841628",
+      "19739874",
+      "19373833",
+      "19008353",
+      "18948112",
+      "18794347",
+      "18361621",
+      "17681540",
+      "17301233",
+      "17243791",
+      "17212484",
+      "16957321",
+      "16575463",
+      "16542654",
+      "16478804",
+      "15815974",
+      "14985337",
+      "11897665",
+      "10493861",
+      "9639554",
+      "9396808",
+      "8520220",
+      "7275970",
+      "3467312",
+      "3458926",
+      "1474585",
+      "353875"
+    ],
+    "similar": [
+      "40185744",
+      "29466338",
+      "30430826",
+      "34439840",
+      "27936491",
+      "30187212",
+      "39977663",
+      "39595597",
+      "35727975",
+      "39718971",
+      "30366362",
+      "33617899",
+      "29716994",
+      "31325636",
+      "22125611",
+      "24278008",
+      "33184256",
+      "32323533",
+      "31874413",
+      "27450728",
+      "31441158",
+      "24317797",
+      "26742101",
+      "35762718",
+      "29763584",
+      "33361159",
+      "29694866",
+      "34610267",
+      "26195786",
+      "30865832",
+      "34504009",
+      "26851279",
+      "29276882",
+      "30025858",
+      "30514761",
+      "24329095",
+      "26366527",
+      "33230318",
+      "30413699",
+      "25544254",
+      "29990433",
+      "33454008",
+      "25533957",
+      "28707474",
+      "32429036",
+      "32325001",
+      "38657047",
+      "33187345",
+      "28661120",
+      "35974206",
+      "34992286",
+      "32936312",
+      "39248370",
+      "25207671",
+      "31624293",
+      "34504002",
+      "33945530",
+      "31783325",
+      "29907037",
+      "30913885",
+      "39163306",
+      "33355572",
+      "34390736",
+      "32621228",
+      "29262363",
+      "28394890",
+      "37722056",
+      "39499823",
+      "36305763",
+      "31326517",
+      "32925900",
+      "32020911",
+      "33125082",
+      "35609776",
+      "32639157",
+      "25307499",
+      "29733855",
+      "33284914",
+      "23318954",
+      "23848319",
+      "30813629",
+      "28597296",
+      "37838830",
+      "26226419",
+      "33096105",
+      "29925531",
+      "32253236",
+      "30003969",
+      "38252962",
+      "32393642",
+      "32139510",
+      "39740355",
+      "31425549",
+      "30316104",
+      "27004461",
+      "30066087",
+      "28425697",
+      "28493424",
+      "27844185",
+      "26851286"
+    ],
+    "review": [
+      "40185744",
+      "31874413",
+      "27450728",
+      "31441158",
+      "33361159",
+      "34610267",
+      "26851279",
+      "25544254",
+      "32429036",
+      "31783325",
+      "33355572",
+      "34390736",
+      "31326517",
+      "32020911",
+      "25307499",
+      "30813629",
+      "28597296",
+      "26226419",
+      "32253236",
+      "39740355",
+      "30316104",
+      "27004461",
+      "30066087",
+      "26851286"
+    ],
+    "pmc": [
+      "11971343"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-58374-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40185744/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

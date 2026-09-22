@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37621223",
+  "title": "Critical assessment of protein intrinsic disorder prediction (CAID) - Results of round 2.",
+  "authors": "Conte, Alessio Del; Mehdiabadi, Mahta; Bouhraoua, Adel; Miguel Monzon, Alexander; Tosatto, Silvio C E; Piovesan, Damiano",
+  "journal": "Proteins",
+  "published_date": "2023-08-25",
+  "window": {
+    "start": "2023-08-21",
+    "end": "2023-08-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文是CAID2无序蛋白预测挑战赛的评估报告，系统比较了多种预测方法（含AlphaFold2）在IDR检测上的性能，虽聚焦无序蛋白对象但未涉及PPI互作机制或AI/物理建模方法，仅提供基准评估，对本课题的互作机制建模启发有限。",
+  "abstract": "Protein intrinsic disorder (ID) is a complex and context-dependent phenomenon that covers a continuum between fully disordered states and folded states with long dynamic regions. The lack of a ground truth that fits all ID flavors and the potential for order-to-disorder transitions depending on specific conditions makes ID prediction challenging. The CAID2 challenge aimed to evaluate the performance of different prediction methods across different benchmarks, leveraging the annotation provided by the DisProt database, which stores the coordinates of ID regions when there is experimental evidence in the literature. The CAID2 challenge demonstrated varying performance of different prediction methods across different benchmarks, highlighting the need for continued development of more versatile and efficient prediction software. Depending on the application, researchers may need to balance performance with execution time when selecting a predictor. Methods based on AlphaFold2 seem to be good ID predictors but they are better at detecting absence of order rather than ID regions as defined in DisProt. The CAID2 predictors can be freely used through the CAID Prediction Portal, and CAID has been integrated into OpenEBench, which will become the official platform for running future CAID challenges.",
+  "abstract_zh": "蛋白质内在无序性（ID）是一种复杂且依赖上下文的現象，涵盖从完全无序状态到具有长动态区域的折叠状态之间的连续谱。由于缺乏适用于所有ID类型的统一基准真值，以及特定条件下可能发生的有序到无序转变，使得ID预测具有挑战性。CAID2挑战旨在利用DisProt数据库提供的注释，评估不同预测方法在不同基准上的性能，该数据库存储了文献中存在实验证据的ID区域坐标。CAID2挑战展示了不同预测方法在不同基准上的性能差异，强调了持续开发更通用且高效预测软件的必要性。根据应用场景，研究人员在选择预测器时可能需要在性能与执行时间之间进行权衡。基于AlphaFold2的方法似乎是良好的ID预测器，但它们更擅长检测无序的缺失，而非DisProt中定义的ID区域。CAID2预测器可通过CAID预测门户免费使用，且CAID已整合到OpenEBench中，后者将成为未来CAID挑战的官方运行平台。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37621223/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37621223/",
+  "paper_page_path": "papers/pubmed/37621223/index.html"
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to investigate how multisite phosphorylation affects the conformational properties of five intrinsically disordered peptides derived from tau, statherin, and β-casein. They report that net charge alone cannot predict phosphorylation-induced changes in global dimensions, and instead emphasize the importance of the distribution of phosphorylated and positively charged residues, salt bridge formation, and competition between arginine–phosphoserine and arginine–tyrosine interactions.
+- **Visible evidence base** Main text including abstract, introduction, results and discussion, conclusions, and materials and methods. Tables 1–8 and Figures 1–7 are referenced. Supplementary files are mentioned but not provided.
+- **Missing materials affecting confidence** Supplementary File S1 (figures S1–S4) and Supplementary File S2 (convergence data) are referenced but not available for review. This limits verification of convergence claims and salt-dependent behavior.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational study of phosphorylation effects on five short IDPs, with careful attention to salt bridge formation and sequence-specific effects. The work is technically sound in its use of established force fields and analysis methods, and the conclusions are appropriately cautious given known force field limitations. However, the study is largely confirmatory of existing qualitative understanding, and the quantitative predictive power is limited by acknowledged force field deficiencies. The manuscript would benefit from clearer articulation of what is genuinely new beyond prior work by the same group and others.
+- **Who would be interested in the results, and why** Researchers studying IDP conformational behavior, post-translational modification effects on protein structure, and those using molecular dynamics simulations to interpret experimental data on phosphorylated IDPs. The work may also interest experimentalists seeking molecular-level explanations for phosphorylation-induced conformational changes observed by SAXS, FRET, or CD.
+- **Major strengths** The study addresses an important and timely question regarding phosphorylation effects on IDPs. The use of multiple replicates and microsecond-scale simulations is commendable. The analysis of salt bridges, cation–π interactions, and energy landscapes provides mechanistic insight. The authors are appropriately cautious in comparing simulations to experimental data and acknowledge force field limitations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific significance
+  - **Claim pointer** The authors claim that "net charge is not enough to predict the impact of phosphorylation on the global dimensions" and that salt bridge formation and residue distribution are controlling factors.
+  - **Evidence pointer** Section 2.1, Table 2, Figures 1–2
+  - **Concern** The conclusion that net charge is insufficient is based on only five short peptides, three of which contract and two of which expand. This is a small sample from which to draw a general principle. The authors do not provide a quantitative framework or predictive metric that could be tested on additional sequences.
+  - **Why it matters** The central claim of the paper is that sequence-specific features beyond net charge control phosphorylation effects. Without a larger sequence set or a proposed predictive model, the generality of this conclusion remains uncertain.
+  - **Resolution test** The authors should either expand the peptide set to demonstrate the principle more broadly, or clearly frame the conclusion as specific to these five peptides and propose testable predictions for future work.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the simulations underestimate the structural content" and that results are in "qualitative agreement" with experiments.
+  - **Evidence pointer** Sections 2.2–2.3, Figures 3–5
+  - **Concern** The authors acknowledge that the force field overestimates salt bridges and underestimates secondary structure content, yet the mechanistic conclusions rely heavily on salt bridge analysis. The degree to which these known biases affect the specific conclusions is not systematically addressed.
+  - **Why it matters** If salt bridge formation is overestimated, the proposed mechanism of phosphorylation-induced compaction via salt bridges may be quantitatively exaggerated, even if qualitatively correct.
+  - **Resolution test** The authors should provide a sensitivity analysis, such as comparing salt bridge occupancies with alternative force fields or with experimental constraints, or at minimum discuss the expected magnitude of the bias on their conclusions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim convergence of simulations based on comparisons between replicates and block averaging.
+  - **Evidence pointer** Section 4, Materials and Methods; Supplementary File S2
+  - **Concern** Convergence assessment is delegated entirely to Supplementary File S2, which is not provided. The main text states that convergence was assessed but shows no data. This is insufficient for the reader to evaluate sampling quality.
+  - **Why it matters** For IDP simulations, adequate sampling is a critical concern. Without visible convergence evidence, the reliability of the reported distributions and energy landscapes cannot be independently assessed.
+  - **Resolution test** Provide convergence data in the main text or ensure supplementary material is available for review.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Figure 7
+  - **Issue** The discussion of cation–π interactions in Stath is somewhat dense and would benefit from a clearer explanation of how the competition between arginine–tyrosine and arginine–phosphoserine interactions mechanistically leads to expansion.
+  - **Required correction** Add a brief mechanistic summary sentence or schematic to clarify the proposed competition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Table 5
+  - **Issue** The salt dependence results for bCPP are presented briefly. Given that the authors argue salt effects are expected to be small for other peptides, a more explicit justification for this extrapolation would strengthen the discussion.
+  - **Required correction** Provide a brief rationale for why salt effects are expected to be minimal for the other peptides based on their charge distributions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Tables 3, 4, 6, 7
+  - **Evidence pointer** Tables 3–7
+  - **Issue** Salt bridge probabilities are presented with error estimates, but the statistical significance of differences between phosphorylated and non-phosphorylated states is not discussed.
+  - **Required correction** State whether differences in salt bridge probabilities are statistically significant given the reported errors.
+- **Technical failings that need to be addressed before the case is established** None identified that would invalidate the core conclusions, but the convergence data must be made available for verification.
+- **Assessment against Nature-style criteria** Originality: Moderate. The study applies established methods to a small set of peptides and confirms prior qualitative findings. Scientific importance: Moderate. The work contributes to understanding phosphorylation effects on IDPs but does not provide a transformative new concept. Interdisciplinary readership: Limited. The work is primarily of interest to computational biophysicists and IDP researchers. Technical soundness: Generally sound, with appropriate methods and cautious interpretation, though force field limitations are acknowledged. Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with IDP simulation methodology.
+- **Recommendation posture** Supportive if technical concerns are resolved, particularly regarding availability of convergence data and a more systematic treatment of force field biases.
+
+## Risk / unsupported claims
+- The claim that "net charge is not enough to predict the impact of phosphorylation" is supported for the five peptides studied but is presented as a general principle without sufficient evidence for broader applicability.
+- The assertion that salt bridge formation is the primary driver of compaction in bCPP and SN1 is plausible but relies on a force field known to overestimate salt bridges.
+- The statement that results are in "qualitative agreement" with experiments is reasonable but the degree of agreement is not quantified.
+- The extrapolation that salt effects are small for other peptides beyond bCPP is not directly tested.

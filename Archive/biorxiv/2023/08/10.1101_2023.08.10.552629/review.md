@@ -1,0 +1,34 @@
+## Review setup
+- **Input scope** Full manuscript text, including summary, introduction, results, discussion, methods, and figure legends (figures themselves not provided)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the text; no assessment of figures or supplementary materials beyond what is described
+- **Shared manuscript claim summary** The authors use live imaging of endogenously tagged Mastermind (Mam) in Drosophila salivary glands to show that Notch activation promotes formation of a dynamic transcription hub at the E(spl)-C locus. The hub concentrates the Mediator CDK module, persists after Notch withdrawal (conferring memory), and supports stochastic transcription in only a subset of nuclei. A second signal (ecdysone) increases the probability of transcription.
+- **Visible evidence base** Text descriptions of FRAP, single-particle tracking, smFISH, ATAC-qPCR, and drug/inhibitor experiments; figure references are given but figures are not included in the provided material
+- **Missing materials affecting confidence** Figures and supplementary figures are referenced but not provided; numerical data, statistical details, and full experimental parameters are not available; the manuscript appears to be a revised version but the previous reviewer comments are not included
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in Notch biology: how the nuclear activation complex converts signaling into transcriptional output. The use of endogenously tagged Mam and live imaging is a significant technical advance, and the findings regarding hub dynamics, memory, and stochastic transcription are potentially novel and of broad interest. However, the evidence as described in the text is incomplete in several key areas, and the claims of memory and stochasticity require stronger quantitative support. The manuscript is promising but not yet fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying Notch signaling, transcriptional regulation, enhancer-promoter communication, and the biophysics of transcription factor dynamics. The findings on stochastic transcription and transcriptional memory have implications for developmental biology, cell fate decisions, and gene regulation more broadly. The methodological approach (endogenous tagging, live imaging, single-particle tracking) will also interest those working on in vivo imaging of transcription.
+- **Major strengths** 1) The use of endogenously tagged Mam, avoiding overexpression artifacts. 2) The combination of FRAP, single-particle tracking, and smFISH to relate protein dynamics to transcriptional output. 3) The identification of a separable, Mam-independent chromatin accessibility step that persists after Notch withdrawal. 4) The demonstration that transcription is probabilistic and that a second signal (ecdysone) increases the probability of transcription. 5) The proposed model of a dynamic hub with labile composition is conceptually interesting and testable.
+- **Major Concerns** 
+  - **R1-M1** (Blocking: Yes) The claim of transcriptional memory is based on indirect evidence and lacks a direct demonstration of functional memory at the level of transcriptional output.
+  - **R1-M2** (Blocking: Yes) The stochastic transcription claim is based on a single time point and lacks temporal analysis to distinguish between stochastic switching and asynchronous but deterministic activation.
+  - **R1-M3** (Blocking: No) The role of the CDK module is inferred from inhibitor and RNAi experiments, but the specificity and mechanism of action are not fully established.
+  - **R1-M4** (Blocking: No) The contribution of the NICD IDR to hub formation is based on overexpression of a GFP fusion, which may not reflect the behavior of the endogenous protein.
+- **Minor Comments** 
+  - **R1-m1** The manuscript would benefit from a more explicit statement of the number of biological replicates for each experiment.
+  - **R1-m2** The statistical methods are described, but the specific tests used for each comparison are not always clear.
+  - **R1-m3** The authors should clarify whether the "memory" phenotype is observed in all cell types or is specific to salivary glands.
+  - **R1-m4** The discussion of the relationship between hub formation and condensate/phase separation could be more nuanced, given the lack of evidence for liquid-liquid phase separation.
+- **Technical failings that need to be addressed before the case is established** The lack of temporal resolution in the smFISH data (R1-M2) and the lack of a direct functional test of memory (R1-M1) are the most significant technical gaps. Additionally, the specificity of the CDK module inhibitors should be validated with genetic approaches.
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The use of endogenous tagging and live imaging to study Notch hub dynamics is novel, and the finding of stochastic transcription downstream of receptor activation challenges existing models.
+  - Scientific importance: High. The results have implications for understanding how signaling dynamics are converted to transcriptional outputs, a fundamental question in developmental biology.
+  - Interdisciplinary readership: Moderate to high. The work will appeal to Notch biologists, transcription researchers, and those interested in the biophysics of gene regulation, but may be less accessible to a general audience.
+  - Technical soundness: Moderate. The methods are appropriate and state-of-the-art, but the evidence for key claims (memory, stochasticity) is incomplete as presented.
+  - Readability for nonspecialists: Moderate. The manuscript is clearly written but assumes familiarity with Notch signaling and imaging techniques.
+
+## Risk / unsupported claims
+- The claim that "only a third of Notch ON hubs progress to a state with nascent transcription" is based on a single time point and may not capture the full dynamics of transcriptional activation.
+- The claim that "the composition of the hub is labile and persists after Notch withdrawal conferring a memory" is inferred from the persistence of CSL enrichment and chromatin accessibility, but a direct demonstration of functional memory (e.g., faster or stronger response upon re-stimulation) is not provided.
+- The claim that "the CDK module is specifically involved in retaining Mam in the hub" is based on inhibitor and RNAi experiments, but the possibility of off-target effects or indirect effects is not fully addressed.
+- The claim that "the IDR in NICD may contribute to the localized enrichments at target loci" is based on overexpression of a GFP fusion and may not reflect the behavior of the endogenous protein.

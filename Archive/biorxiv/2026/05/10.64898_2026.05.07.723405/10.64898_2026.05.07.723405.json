@@ -1,0 +1,703 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.05.07.723405",
+  "title": "Local aromatic interactions define temperature sensitivity of phase separation in an intrinsically disordered protein",
+  "doi": "10.64898/2026.05.07.723405",
+  "abstract": "Liquid–liquid phase separation (LLPS) of intrinsically disordered proteins is highly sensitive to environmental conditions, yet the molecular basis of sharp temperature responsiveness remains poorly understood. Here, we investigate a sequence-encoded mechanism underlying the pronounced temperature sensitivity of phase separation using Sup35NM, the intrinsically disordered domain of the yeast prion Sup35. We show that a tyrosine-rich local structural region within this domain encodes strong temperature responsiveness of droplet formation. Mutational analyses reveal that tyrosine residues mediate both intramolecular interactions that stabilize local structure and intermolecular interactions required for LLPS. Substitution of the tyrosine residues with alanine disrupts local structure and weakens intermolecular interactions, thereby diminishing temperature sensitivity. In contrast, substitution with phenylalanine promotes rapid droplet gelation, abolishes internal fluidity, suppresses amyloid formation, and confers resistance to temperature-induced dissolution. Based on these findings, we propose a molecular model in which finely tuned, moderately weak aromatic interactions among tyrosines enable reversible local compaction that is sensitive to temperature, thereby generating a sharp phase transition. These results suggest that amino acid sequences encode not only phase separation propensity but also the sensitivity of condensates to environmental perturbations, providing a framework for understanding how intrinsically disordered proteins act as molecular sensors of cellular conditions.",
+  "authors": [
+    "Yumiko Ohhashi",
+    "Suguru Nishinami",
+    "Yoko Maruyama",
+    "Mao Fukuyama",
+    "Kentaro Shiraki",
+    "Eri Chatani",
+    "Hideki Taguchi"
+  ],
+  "published_date": "2026-05-08",
+  "updated_date": "2026-05-08T10:35:17Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.05.07.723405",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.05.07.723405.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T12:12:18Z",
+        "timestamp": 1785413538546,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            8
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 50,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                8
+              ]
+            ],
+            "date-time": "2026-05-08T00:00:00Z",
+            "timestamp": 1778198400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "MEXT/JSPS KAKENHI",
+          "award": [
+            "20J40038"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "20J40038"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MEXT/JSPS KAKENHI",
+          "award": [
+            "20K06525"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "20K06525"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MEXT/JSPS KAKENHI",
+          "award": [
+            "24K09363"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "24K09363"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MEXT/JSPS KAKENHI",
+          "award": [
+            "20J21732"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "20J21732"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MEXT/JSPS KAKENHI",
+          "award": [
+            "22K18316"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "22K18316"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MEXT/JSPS KAKENHI",
+          "award": [
+            "20H03224"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "20H03224"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MEXT/JSPS KAKENHI",
+          "award": [
+            "25K02243"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "25K02243"
+              ]
+            }
+          ]
+        },
+        {
+          "id": [
+            {
+              "id": "https://ror.org/02s016q17",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Liquid–liquid phase separation (LLPS) of intrinsically disordered proteins is highly sensitive to environmental conditions, yet the molecular basis of sharp temperature responsiveness remains poorly understood. Here, we investigate a sequence-encoded mechanism underlying the pronounced temperature sensitivity of phase separation using Sup35NM, the intrinsically disordered domain of the yeast prion Sup35. We show that a tyrosine-rich local structural region within this domain encodes strong temperature responsiveness of droplet formation. Mutational analyses reveal that tyrosine residues mediate both intramolecular interactions that stabilize local structure and intermolecular interactions required for LLPS. Substitution of the tyrosine residues with alanine disrupts local structure and weakens intermolecular interactions, thereby diminishing temperature sensitivity. In contrast, substitution with phenylalanine promotes rapid droplet gelation, abolishes internal fluidity, suppresses amyloid formation, and confers resistance to temperature-induced dissolution. Based on these findings, we propose a molecular model in which finely tuned, moderately weak aromatic interactions among tyrosines enable reversible local compaction that is sensitive to temperature, thereby generating a sharp phase transition. These results suggest that amino acid sequences encode not only phase separation propensity but also the sensitivity of condensates to environmental perturbations, providing a framework for understanding how intrinsically disordered proteins act as molecular sensors of cellular conditions.</jats:p>",
+      "DOI": "10.64898/2026.05.07.723405",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            8
+          ]
+        ],
+        "date-time": "2026-05-08T10:35:17Z",
+        "timestamp": 1778236517000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Local aromatic interactions define temperature sensitivity of phase separation in an intrinsically disordered protein"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-3250-0248",
+          "authenticated-orcid": false,
+          "given": "Yumiko",
+          "family": "Ohhashi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Institute of Integrated Research, Institute of Science Tokyo, 4259 Nagatsuta, Midori-ku, Yokohama, Kanagawa 226-8501, Japan"
+            },
+            {
+              "name": "Graduate School of Science, Kobe University, 1-1 Rokkodai, Nada, Kobe, Hyogo 657-8501, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0005-7534-4881",
+          "authenticated-orcid": false,
+          "given": "Suguru",
+          "family": "Nishinami",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki, 305-8573, Japan"
+            },
+            {
+              "name": "Institute for Genetic Medicine, Hokkaido University, Sapporo 060-0815, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-4931-9429",
+          "authenticated-orcid": false,
+          "given": "Yoko",
+          "family": "Maruyama",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, 2-1-1, Katahira, Aoba-ku, Sendai, Miyagi 980-8577, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3330-0793",
+          "authenticated-orcid": false,
+          "given": "Mao",
+          "family": "Fukuyama",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Multidisciplinary Research for Advanced Materials, Tohoku University, 2-1-1, Katahira, Aoba-ku, Sendai, Miyagi 980-8577, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-3438-4076",
+          "authenticated-orcid": false,
+          "given": "Kentaro",
+          "family": "Shiraki",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki, 305-8573, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6297-9902",
+          "authenticated-orcid": false,
+          "given": "Eri",
+          "family": "Chatani",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Graduate School of Science, Kobe University, 1-1 Rokkodai, Nada, Kobe, Hyogo 657-8501, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6612-9339",
+          "authenticated-orcid": false,
+          "given": "Hideki",
+          "family": "Taguchi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Integrated Research, Institute of Science Tokyo, 4259 Nagatsuta, Midori-ku, Yokohama, Kanagawa 226-8501, Japan"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-023-28040-1"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ceb.2020.12.012"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.7"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-020-00326-6"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.04.017"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-019-0250-x"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.0c10489"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2018.04.007"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41557-020-0465-9"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2023.102678"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "686",
+          "DOI": "10.1038/s41570-024-00635-w",
+          "article-title": "The role of biomolecular condensates in protein aggregation",
+          "volume": "8",
+          "year": "2024",
+          "journal-title": "Nat. Rev. Chem"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.03.056"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aad9964"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12964-023-01380-1"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-020-0399-3"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2023.10.031"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. M. Franzmann , M. Jahnel , A. Pozniakovsky , J. Mahamid , A. S. Holehouse , E. Nüske , D. Richter , W. Baumeister , S. W. Grill , R. V. Pappu , A. A. Hyman , S. Alberti , Phase separation of a yeast prion protein promotes cellular fitness. Science 359 (2018).",
+          "DOI": "10.1126/science.aao5654"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.8b13636"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.1c01832"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2015.08.018"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2216338120"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Sternke-Hoffmann , X. Sun , A. Menzel , M. D. S. Pinto , U. Venclovaite , M. Wördehoff , W. Hoyer , W. Zheng , J. Luo , Phase separation and aggregation of α-synuclein diverge at different salt conditions. Adv. Sci., e2308279 (2024).",
+          "DOI": "10.1101/2024.03.01.582895"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "3676",
+          "DOI": "10.1021/acs.biochem.1c00434",
+          "article-title": "Modulating α-synuclein liquid–liquid phase separation",
+          "volume": "60",
+          "year": "2021",
+          "journal-title": "Biochemistry-us"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "13049",
+          "DOI": "10.1002/chem.201902210",
+          "article-title": "Temperature, hydrostatic pressure, and osmolyte effects on liquid–liquid phase separation in protein condensates: physical chemistry and biological implications",
+          "volume": "25",
+          "year": "2019",
+          "journal-title": "Chem. A Eur. J"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2018.06.031"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1164",
+          "DOI": "10.1038/nmat4418",
+          "article-title": "Sequence heuristics to encode phase behaviour in intrinsically disordered protein polymers",
+          "volume": "14",
+          "year": "2015",
+          "journal-title": "Nat. Materials"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.27",
+          "first-page": "1144",
+          "article-title": "Protein–protein interactions explain the temperature-dependent viscoelastic changes occurring in colloidal protein gels",
+          "volume": "19",
+          "year": "2022",
+          "journal-title": "Soft Matter"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. V. Grizel , N. A. Gorsheneva , J. B. Stevenson , J. Pflaum , F. Wilfling , A. A. Rubel , Y. O. Chernoff , Osmotic stress induces formation of both liquid condensates and amyloids by a yeast prion domain. J. Biol. Chem., 107766 (2024).",
+          "DOI": "10.1016/j.jbc.2024.107766"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "1370",
+          "DOI": "10.3390/biom13091370",
+          "article-title": "The properties and domain requirements for phase separation of the Sup35 prion protein in vivo",
+          "volume": "13",
+          "year": "2023",
+          "journal-title": "Biomolecules"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1715483115"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1916452117"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature06108"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.brainres.2012.01.016"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "4349",
+          "DOI": "10.3390/ijms22094349",
+          "article-title": "Current understanding of the structure, stability and dynamic properties of amyloid fibrils",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Int. J. Mol. Sci"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "9855",
+          "DOI": "10.1021/acs.analchem.3c00766",
+          "article-title": "Detection of fibril nucleation in micrometer-sized protein condensates and suppression of Sup35NM fibril nucleation by liquid–liquid phase separation",
+          "volume": "95",
+          "year": "2023",
+          "journal-title": "Anal. Chem"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "13",
+          "DOI": "10.1038/s44328-025-00025-2",
+          "article-title": "Low-complexity domains in phase-separated droplets suppress the amyloid formation of yeast prion Sup35",
+          "volume": "2",
+          "year": "2025",
+          "journal-title": "npj Biosensing"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchembio.306"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "13718",
+          "DOI": "10.1038/s41598-022-17829-1",
+          "article-title": "Rational peptide design for regulating liquid–liquid phase separation on the basis of residue–residue contact energy",
+          "volume": "12",
+          "year": "2022",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.10191"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09902-7"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2019.09.007"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-07004-5"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2010.02.006"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaw8653"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-53305-2"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/18.7.1974"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/35035005"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10875"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/mmi.12930"
+        },
+        {
+          "key": "2026051118451549000_2026.05.07.723405v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.0060294"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.05.07.723405",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            12
+          ]
+        ],
+        "date-time": "2026-05-12T01:45:24Z",
+        "timestamp": 1778550324000
+      },
+      "score": 88.39695,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.05.07.723405"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            8
+          ]
+        ]
+      },
+      "references-count": 50,
+      "URL": "https://doi.org/10.64898/2026.05.07.723405",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            8
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

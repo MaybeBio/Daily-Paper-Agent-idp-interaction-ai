@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.05.519119",
+  "title": "Fast and accurate protein function prediction from sequence through pretrained language model and homology-based label diffusion",
+  "authors": "Qianmu Yuan; Junjie Xie; Jiancong Xie; Huiying Zhao; Yuedong Yang",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-08",
+  "window": {
+    "start": "2022-12-05",
+    "end": "2022-12-11"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用预训练语言模型和标签扩散预测蛋白质功能，虽涉及序列嵌入和注意力机制，但对象非无序蛋白/IDR，且不研究PPI结合机制，仅功能预测，与本课题关联弱。",
+  "abstract": "Protein function prediction is an essential task in bioinformatics which benefits disease mechanism elucidation and drug target discovery. Due to the explosive growth of proteins in sequence databases and the diversity of their functions, it remains challenging to fast and accurately predict protein functions from sequences alone. Although many methods have integrated protein structures, biological networks or literature information to improve performance, these extra features are often unavailable for most proteins. Here, we propose SPROF-GO, a Sequence-based alignment-free PROtein Function predictor which leverages a pretrained language model to efficiently extract informative sequence embeddings and employs self-attention pooling to focus on important residues. The prediction is further advanced by exploiting the homology information and accounting for the overlapping communities of proteins with related functions through the label diffusion algorithm. SPROF-GO was shown to surpass state-of-the-art sequence-based and even network-based approaches by more than 14.5%, 27.3% and 10.1% in AUPR on the three sub-ontology test sets, respectively. Our method was also demonstrated to generalize well on non-homologous proteins and unseen species. Finally, visualization based on the attention mechanism indicated that SPROF-GO is able to capture sequence domains useful for function prediction. Key points SPROF-GO is a sequence-based protein function predictor which leverages a pretrained language model to efficiently extract informative sequence embeddings, thus bypassing expensive database searches. SPROF-GO employs self-attention pooling to capture sequence domains useful for function prediction and provide interpretability. SPROF-GO applies hierarchical learning strategy to produce consistent predictions and label diffusion to exploit the homology information. SPROF-GO is accurate and robust, with better performance than state-of-the-art sequence-based and even network-based approaches, and great generalization ability on non-homologous proteins and unseen species",
+  "abstract_zh": "蛋白质功能预测是生物信息学中的一项基本任务，有助于疾病机制阐明和药物靶点发现。由于序列数据库中蛋白质的爆炸性增长及其功能的多样性，仅从序列出发快速准确地预测蛋白质功能仍然具有挑战性。尽管许多方法已整合蛋白质结构、生物网络或文献信息以提升性能，但这些额外特征对大多数蛋白质而言往往不可用。在此，我们提出SPROF-GO，一种基于序列的无比对蛋白质功能预测器，它利用预训练语言模型高效提取信息丰富的序列嵌入，并采用自注意力池化聚焦于重要残基。通过利用同源信息并借助标签扩散算法考虑功能相关蛋白质的重叠群落，预测进一步得到提升。SPROF-GO在三个子本体测试集上的AUPR分别超过最先进的基于序列方法甚至基于网络方法14.5%、27.3%和10.1%。我们的方法还展示出对非同源蛋白质和未见物种的良好泛化能力。最后，基于注意力机制的可视化表明，SPROF-GO能够捕获对功能预测有用的序列结构域。关键点：SPROF-GO是一种基于序列的蛋白质功能预测器，利用预训练语言模型高效提取信息丰富的序列嵌入，从而绕过昂贵的数据库搜索。SPROF-GO采用自注意力池化捕获对功能预测有用的序列结构域并提供可解释性。SPROF-GO应用分层学习策略以产生一致的预测，并利用标签扩散来利用同源信息。SPROF-GO准确且稳健，性能优于最先进的基于序列方法甚至基于网络方法，并对非同源蛋白质和未见物种具有强大的泛化能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.05.519119",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.05.519119",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.05.519119/index.html"
+}

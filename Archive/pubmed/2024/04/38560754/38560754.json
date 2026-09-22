@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "38560754",
+    "doi": "10.1021/acsphyschemau.3c00051",
+    "title": "Elucidating the Membrane Binding Process of a Disordered Protein: Dynamic Interplay of Anionic Lipids and the Polybasic Region."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions of proteins are responsible for many biological processes such as in the case of liver kinase B1 (LKB1)-a serine/threonine kinase relevant for cell proliferation and cell polarity. LKB1 becomes fully activated upon recruitment to the plasma membrane by binding of its disordered C-terminal polybasic motif consisting of eight lysines/arginines to phospholipids. Here, we present extensive molecular dynamics (MD) simulations of the polybasic motif interacting with a model membrane composed of 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC) and 1-palmitoyl-2-oleyl phosphatidic acid (PA) and cell culture experiments. Protein-membrane binding effects are due to the electrostatic interactions between the polybasic amino acids and PAs. For significant binding, the first three lysines turn out to be dispensable, which was also recapitulated in cell culture using transfected GFP-LKB1 variants. LKB1-membrane binding results in nonmonotonous changes in the structure of the protein as well as the membrane, in particular, accumulation of PAs and reduced thickness at the protein-membrane contact area. The protein-lipid binding turns out to be highly dynamic due to an interplay of PA-PA repulsion and protein-PA attraction. The thermodynamics of this interplay is captured by a statistical fluctuation model, which allows the estimation of both energies. Quantification of the significance of each polar amino acid in the polybasic provides detailed insights into the molecular mechanism of protein-membrane binding of LKB1. These results can likely be transferred to other proteins, which interact by intrinsically disordered polybasic regions with anionic membranes.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alavizargar, Azadeh",
+        "Gass, Maximilian",
+        "Krahn, Michael P",
+        "Heuer, Andreas"
+      ],
+      "short_names": [
+        "Alavizargar A",
+        "Gass M",
+        "Krahn MP",
+        "Heuer A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3358-6744"
+      ],
+      "affiliations": [
+        "Institute of Physical Chemistry, University of Munster, Corrensstr. 28/30, 48149 Munster, Germany.",
+        "Medical Cell Biology, Medical Clinic D, University Hospital of Munster, Albert-Schweitzer Campus 1-A14, 48149 Munster, Germany.",
+        "Medical Cell Biology, Medical Clinic D, University Hospital of Munster, Albert-Schweitzer Campus 1-A14, 48149 Munster, Germany.",
+        "Institute of Physical Chemistry, University of Munster, Corrensstr. 28/30, 48149 Munster, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alavizargar, Azadeh",
+        "short_name": "Alavizargar A",
+        "identifiers": [
+          "0000-0002-3358-6744"
+        ],
+        "affiliations": [
+          "Institute of Physical Chemistry, University of Münster, Corrensstr. 28/30, 48149 Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Gass, Maximilian",
+        "short_name": "Gass M",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Cell Biology, Medical Clinic D, University Hospital of Münster, Albert-Schweitzer Campus 1-A14, 48149 Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Krahn, Michael P",
+        "short_name": "Krahn MP",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Cell Biology, Medical Clinic D, University Hospital of Münster, Albert-Schweitzer Campus 1-A14, 48149 Münster, Germany."
+        ]
+      },
+      {
+        "full_name": "Heuer, Andreas",
+        "short_name": "Heuer A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physical Chemistry, University of Münster, Corrensstr. 28/30, 48149 Münster, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS physical chemistry Au"
+    ],
+    "journal_abbrev": [
+      "ACS Phys Chem Au"
+    ],
+    "pub_date": "2024 Mar 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/01 18:42",
+    "fetched_at": "2026-09-22 01:14:46"
+  },
+  "links": {
+    "cites": [
+      "41002914",
+      "40899782",
+      "40173326",
+      "39952269"
+    ],
+    "refs": [
+      "36959324",
+      "36899949",
+      "36863659",
+      "36710643",
+      "36387274",
+      "36087777",
+      "35297484",
+      "35060724",
+      "34081910",
+      "33688074",
+      "33554215",
+      "33517146",
+      "33058724",
+      "32411703",
+      "32128410",
+      "31877324",
+      "31574222",
+      "31096049",
+      "29808548",
+      "29788355",
+      "29735687",
+      "29548755",
+      "29523893",
+      "28649994",
+      "27899672",
+      "27874109",
+      "27819658",
+      "27243806",
+      "27115556",
+      "26575776",
+      "26574339",
+      "26483556",
+      "25846210",
+      "25764013",
+      "24567509",
+      "24295069",
+      "24007457",
+      "21500218",
+      "20496934",
+      "20303268",
+      "19517507",
+      "18823938",
+      "18351591",
+      "16857939",
+      "16581836",
+      "16211538",
+      "11297520",
+      "9895674",
+      "8744570"
+    ],
+    "similar": [
+      "38560754",
+      "38172352",
+      "18222168",
+      "23871914",
+      "30678549",
+      "29447917",
+      "21303909",
+      "34473496",
+      "31968790",
+      "28585804",
+      "24269200",
+      "20664004",
+      "19576903",
+      "18479706",
+      "16669625",
+      "26100638",
+      "27936589",
+      "38712287",
+      "31351058",
+      "38192346",
+      "29239694",
+      "28982975",
+      "36243173",
+      "10692325",
+      "7093254",
+      "27762416",
+      "12719437",
+      "15007075",
+      "21376014",
+      "25218402",
+      "7918373",
+      "34208443",
+      "30019106",
+      "24811664",
+      "29172154",
+      "15709783",
+      "27836964",
+      "27874097",
+      "18647648",
+      "33787269",
+      "29320189",
+      "11053135",
+      "34095684",
+      "15697236",
+      "31756784",
+      "20660155",
+      "22960042",
+      "24621400",
+      "37401178",
+      "30361435",
+      "29550288",
+      "30870466",
+      "12079385",
+      "28649994",
+      "31391252",
+      "32326637",
+      "23792704",
+      "23426360",
+      "23796515",
+      "32786720",
+      "30764929",
+      "30120270",
+      "27160967",
+      "8241389",
+      "23174351",
+      "30813725",
+      "21463579",
+      "31268447",
+      "30281310",
+      "18407826",
+      "36899949",
+      "23912807",
+      "38263741",
+      "26119565",
+      "7696506",
+      "28731702",
+      "28054433",
+      "25140069",
+      "25260145",
+      "37919400",
+      "38482724",
+      "29852123",
+      "36903487",
+      "36574700",
+      "23583776",
+      "30765804",
+      "37609330",
+      "26107046",
+      "27901162",
+      "16945379",
+      "23493873",
+      "27999446",
+      "9054541",
+      "7929037",
+      "37446342",
+      "21441593",
+      "27165814",
+      "19560854",
+      "29299557"
+    ],
+    "review": [
+      "38560754",
+      "38192346",
+      "32326637"
+    ],
+    "pmc": [
+      "10979486"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38560754/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38560754",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/apcach/article-lookup/doi/10.1021/acsphyschemau.3c00051",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

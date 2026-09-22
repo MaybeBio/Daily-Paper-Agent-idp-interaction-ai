@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39219407",
+  "title": "Graphitic nanoflakes modulate the structure and binding of human amylin.",
+  "authors": "Kamboukos, Alexa; Williams-Noonan, Billy J; Charchar, Patrick; Yarovsky, Irene; Todorova, Nevena",
+  "journal": "Nanoscale",
+  "published_date": "2024-09-02",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用偏置交换分子动力学模拟研究人胰岛淀粉样多肽（无序蛋白）在石墨烯纳米片上的吸附与结构变化，虽对象为IDP且用物理模拟，但互作对象是纳米材料而非蛋白-蛋白互作，机制建模思路对IDP-表面互作有启发。",
+  "abstract": "Human amylin is an inherently disordered protein whose ability to form amyloid fibrils is linked to the onset of type II diabetes. Graphitic nanomaterials have potential in managing amyloid diseases as they can disrupt protein aggregation processes in biological settings, but optimising these materials to prevent fibrillation is challenging. Here, we employ bias-exchange molecular dynamics simulations to systematically study the structure and adsorption preferences of amylin on graphitic nanoflakes that vary in their physical dimensions and surface functionalisation. Our findings reveal that nanoflake size and surface oxidation both influence the structure and adsorption preferences of amylin. The purely hydrophobic substrate of pristine graphene (PG) nanoflakes encourages non-specific protein adsorption, leading to unrestricted lateral mobility once amylin adheres to the surface. Particularly on larger PG nanoflakes, this induces structural changes in amylin that may promote fibril formation, such as the loss of native helical content and an increase in beta-sheet character. In contrast, oxidised graphene nanoflakes form hydrogen bonds between surface oxygen sites and amylin, and as such restricting protein mobility. Reduced graphene oxide (rGO) flakes, featuring lower amounts of surface oxidation, are amphiphilic and exhibit substantial regions of bare carbon which promote protein binding and reduced conformational flexibility, leading to conservation of the native structure of amylin. In comparison, graphene oxide (GO) nanoflakes, which are predominantly hydrophilic and have a high degree of surface oxidation, facilitate considerable protein structural variability, resulting in substantial contact area between the protein and GO, and subsequent protein unfolding. Our results indicate that tailoring the size, oxygen concentration and surface patterning of graphitic nanoflakes can lead to specific and robust protein binding, ultimately influencing the likelihood of fibril formation. These atomistic insights provide key design considerations for the development of graphitic nanoflakes that can modulate protein aggregation by sequestering protein monomers in the biological environment and inhibit conformational changes linked to amyloid fibril formation.",
+  "abstract_zh": "人源胰淀素（human amylin）是一种固有无序蛋白，其形成淀粉样纤维的能力与II型糖尿病的发病相关。石墨烯纳米材料在管理淀粉样疾病方面具有潜力，因为它们可以在生物环境中干扰蛋白质聚集过程，但优化这些材料以阻止纤维化具有挑战性。在此，我们采用偏置交换分子动力学（bias-exchange molecular dynamics）模拟，系统研究胰淀素在物理尺寸和表面功能化不同的石墨烯纳米片上的结构及吸附偏好。我们的发现表明，纳米片尺寸和表面氧化均影响胰淀素的结构和吸附偏好。原始石墨烯（pristine graphene, PG）纳米片的纯疏水基底促进非特异性蛋白质吸附，导致胰淀素一旦附着于表面便具有不受限制的横向迁移性。特别是在较大的PG纳米片上，这诱导胰淀素发生可能促进纤维形成的结构变化，例如天然螺旋含量丧失和β-折叠特征增加。相比之下，氧化石墨烯纳米片在表面氧位点与胰淀素之间形成氢键，从而限制蛋白质迁移性。还原氧化石墨烯（reduced graphene oxide, rGO）片，其表面氧化程度较低，具有两亲性，并展现出大量裸碳区域，这些区域促进蛋白质结合并降低构象灵活性，从而保持胰淀素的天然结构。相比之下，氧化石墨烯（graphene oxide, GO）纳米片，主要呈亲水性且表面氧化程度高，促进显著的蛋白质结构变异性，导致蛋白质与GO之间形成大量接触面积，并随后引起蛋白质去折叠。我们的结果表明，调控石墨烯纳米片的尺寸、氧浓度和表面图案化可实现特异且稳健的蛋白质结合，最终影响纤维形成的可能性。这些原子级见解为开发石墨烯纳米片提供了关键设计考虑，这些纳米片可通过在生物环境中隔离蛋白质单体来调节蛋白质聚集，并抑制与淀粉样纤维形成相关的构象变化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39219407/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39219407/",
+  "paper_page_path": "papers/pubmed/39219407/index.html"
+}

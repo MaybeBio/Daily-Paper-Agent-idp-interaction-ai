@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.03.709370",
+  "title": "Intrinsically disordered SERBP1 regulates translation through topology-driven G-quadruplex recognition",
+  "authors": "Baudin A; Dinh HH; Breunig K; Lei X; Xu X; Penalva LO; Libich DS",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-05",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过NMR、MD和对接模拟揭示无序蛋白SERBP1以拓扑驱动方式环绕识别G-四链体并调控翻译，虽对象为RNA而非蛋白互作，但其无序域介导的识别机制建模对IDR-PPI研究有可迁移启发。",
+  "abstract": "Serpine mRNA-binding protein 1 (SERBP1) is an intrinsically disordered RNA-binding protein that regulates translation and ribosome biogenesis through interactions with ribosomes and other molecular complexes. Despite its regulatory importance and implication in cancer development, the molecular basis of SERBP1 RNA recognition remains poorly understood. Here, we characterize the G-quadruplex (G4)-binding properties of SERBP1. Using NMR spectroscopy and biophysical assays, we show that SERBP1 binds parallel G4s, both RNA and DNA, with low micromolar affinity through a conserved mechanism. Molecular dynamics and docking simulations reveal an encircling mechanism in which the RGG box wraps around the G4 while downstream C-terminal serine residues stabilize the complex through hydrogen bonding. Phosphomimetic mutations of key serines disrupt this stabilization and reduce binding affinity, identifying phosphorylation as a regulatory switch for SERBP1 activity. Recognition is driven by G4 topology rather than nucleotide sequence, establishing SERBP1 as a broad-specificity G4-binding protein. We further demonstrate that SERBP1 regulates mTOR expression in glioblastoma cell lines through G4 elements in the mTOR 5’ UTR, and that SERBP1 depletion synergizes with mTOR inhibition to reduce cell growth. These results establish SERBP1 as a G4 adaptor protein and represent, to our knowledge, the first detailed characterization of G4 recognition by a fully disordered domain, providing a molecular framework for targeting SERBP1–G4 interactions in cancer. <h4>Significance Statement</h4> SERBP1 is overexpressed in multiple cancers and regulates key cellular processes, yet how it recognizes its RNA targets has remained unclear. We show that SERBP1 binds G-quadruplex structures through an encircling mechanism in which its RGG box and adjacent C-terminal serine residues lock around the G4 topology, and that phosphorylation of these serines acts as a switch to modulate binding. Recognition is driven by G4 topology rather than nucleotide sequence, positioning SERBP1 as a general G4 adaptor that recruits helicases to resolve these structures and license translation. We demonstrate this principle in glioblastoma, where SERBP1 regulates mTOR expression through direct recognition of G4 elements in the mTOR 5’ UTR, and its depletion synergizes with mTOR inhibition. These findings provide the first molecular characterization of G4 recognition by a fully disordered domain and establish a direct link between SERBP1–G4 interactions and cancer-relevant translational regulation.",
+  "abstract_zh": "Serpine mRNA结合蛋白1（SERBP1）是一种 intrinsically disordered RNA结合蛋白，通过与核糖体及其他分子复合物的相互作用调控翻译和核糖体生物发生。尽管其在调控中的重要性及在癌症发展中的关联已被证实，SERBP1对RNA识别的分子基础仍知之甚少。在此，我们表征了SERBP1的G-四链体（G-quadruplex, G4）结合特性。利用核磁共振波谱（NMR spectroscopy）和生物物理实验，我们表明SERBP1以低微摩尔亲和力通过保守机制结合平行型G4，包括RNA和DNA。分子动力学和对接模拟揭示了一种环绕机制，其中RGG盒包裹G4，而下游C端丝氨酸残基通过氢键稳定复合物。关键丝氨酸的磷酸化模拟突变破坏了这种稳定化并降低结合亲和力，从而将磷酸化鉴定为SERBP1活性的调控开关。识别由G4拓扑结构而非核苷酸序列驱动，确立了SERBP1作为广谱特异性G4结合蛋白的地位。我们进一步证明，SERBP1通过mTOR 5' UTR中的G4元件调控胶质母细胞瘤细胞系中的mTOR表达，且SERBP1缺失与mTOR抑制协同作用以减少细胞生长。这些结果确立了SERBP1作为G4适配蛋白，并据我们所知，代表了对完全无序结构域识别G4的首次详细表征，为靶向癌症中SERBP1–G4相互作用提供了分子框架。\n\n<h4>意义声明</h4> SERBP1在多种癌症中过表达并调控关键细胞过程，但其如何识别RNA靶标仍不清楚。我们表明SERBP1通过一种环绕机制结合G-四链体结构，其中其RGG盒和相邻C端丝氨酸残基锁定在G4拓扑结构周围，且这些丝氨酸的磷酸化作为调节结合的开关。识别由G4拓扑结构而非核苷酸序列驱动，将SERBP1定位为通用G4适配蛋白，招募解旋酶以解析这些结构并许可翻译。我们在胶质母细胞瘤中证明了这一原理，其中SERBP1通过直接识别mTOR 5' UTR中的G4元件调控mTOR表达，且其缺失与mTOR抑制协同作用。这些发现提供了对完全无序结构域识别G4的首次分子表征，并建立了SERBP1–G4相互作用与癌症相关翻译调控之间的直接联系。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.03.709370",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.03.709370",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.03.709370/index.html"
+}

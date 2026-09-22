@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "41512952",
+    "doi": "10.1016/j.jmb.2026.169636",
+    "title": "A Survey of Predicted Protein-Protein Interactions Involving Disordered Regions in Humans."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) in proteins play a pivotal role in protein-protein interactions (PPIs). Using AlphaFold2 and enriched multiple sequence alignments, we predicted and investigated PPIs across the human proteome, focusing on those involving disordered regions. Our predictions show that disordered regions predominantly interact with ordered domains, whereas predicted disordered-disordered interactions are relatively rare. Although disordered regions typically lack annotated domains, certain regions-such as the keratin type II head domain and the Kruppel-associated box (KRAB)-mediate specific interactions. In contrast, their predicted binding partners frequently feature diverse Pfam domains, including protein kinase, WD40 repeat, and nuclear hormone receptor domains. These domains are enriched in nuclear localization and alpha-helical repeat motifs. Disordered regions involved in predicted PPIs exhibit higher sequence conservation than non-interacting disordered regions, suggesting evolutionary constraints at interaction interfaces. Moreover, certain posttranslational modifications (e.g., phosphorylation and acetylation) in disordered regions are enriched within predicted interaction interfaces, likely modulating binding affinities. Notably, we identified a significant enrichment of disease-associated mutations in predicted PPI interfaces involving disordered regions, underscoring their functional and pathological relevance. Together, these findings highlight the intricate interplay between disordered and ordered regions in mediating PPIs and provide insights into their structural and functional contributions to human health and disease.",
+    "keywords": [
+      "AlphaFold2",
+      "human proteome",
+      "intrinsically disordered regions",
+      "protein-protein interactions",
+      "sequence conservation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "Proteome/metabolism",
+      "*Protein Interaction Mapping/methods",
+      "Protein Processing, Post-Translational"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pei, Jimin",
+        "Zhang, Jing",
+        "Cong, Qian"
+      ],
+      "short_names": [
+        "Pei J",
+        "Zhang J",
+        "Cong Q"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, TX, USA; Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA; Harold C. Simmons Comprehensive Cancer Center, University of Texas Southwestern Medical Center, Dallas, TX, USA.6001 Forest Park Rd., Dallas, TX, USA, Texas, USA 75390.",
+        "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, TX, USA; Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA; Harold C. Simmons Comprehensive Cancer Center, University of Texas Southwestern Medical Center, Dallas, TX, USA.6001 Forest Park Rd., Dallas, TX, USA, Texas, USA 75390.",
+        "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, TX, USA; Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA; Harold C. Simmons Comprehensive Cancer Center, University of Texas Southwestern Medical Center, Dallas, TX, USA.6001 Forest Park Rd., Dallas, TX, USA, Texas, USA 75390. Electronic address: qian.cong@utsouthwestern.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pei, Jimin",
+        "short_name": "Pei J",
+        "identifiers": [],
+        "affiliations": [
+          "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, TX, USA; Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA; Harold C. Simmons Comprehensive Cancer Center, University of Texas Southwestern Medical Center, Dallas, TX, USA.6001 Forest Park Rd., Dallas, TX, USA, Texas, USA 75390."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, TX, USA; Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA; Harold C. Simmons Comprehensive Cancer Center, University of Texas Southwestern Medical Center, Dallas, TX, USA.6001 Forest Park Rd., Dallas, TX, USA, Texas, USA 75390."
+        ]
+      },
+      {
+        "full_name": "Cong, Qian",
+        "short_name": "Cong Q",
+        "identifiers": [],
+        "affiliations": [
+          "Eugene McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, TX, USA; Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX, USA; Harold C. Simmons Comprehensive Cancer Center, University of Texas Southwestern Medical Center, Dallas, TX, USA.6001 Forest Park Rd., Dallas, TX, USA, Texas, USA 75390. Electronic address: qian.cong@utsouthwestern.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2026 Mar 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/10 00:34",
+    "fetched_at": "2026-09-17 23:38:06"
+  },
+  "links": {
+    "cites": [
+      "42602537"
+    ],
+    "refs": [
+      "40997207",
+      "39470701",
+      "39446390",
+      "38238291",
+      "38225382",
+      "37957331",
+      "37733863",
+      "36690744",
+      "36587215",
+      "36408920",
+      "36350672",
+      "36210722",
+      "35562983",
+      "35177069",
+      "35139468",
+      "34480923",
+      "34418423",
+      "34290238",
+      "34265844",
+      "33875885",
+      "33806614",
+      "33584830",
+      "33125078",
+      "33070389",
+      "31694155",
+      "31101937",
+      "30099026",
+      "28225081",
+      "27924014",
+      "27911701",
+      "26941008",
+      "26851279",
+      "25533957",
+      "25531225",
+      "24773235",
+      "24714364",
+      "23553817",
+      "23527602",
+      "22847007",
+      "22152675",
+      "22080206",
+      "19602287",
+      "19162471",
+      "18513680",
+      "18485873",
+      "16884331",
+      "16275905",
+      "15347684",
+      "15004329",
+      "11839490",
+      "11524371",
+      "11348595",
+      "10918303",
+      "10839822",
+      "10751636",
+      "7966282"
+    ],
+    "similar": [
+      "41512952",
+      "28934129",
+      "28002650",
+      "34487791",
+      "29257115",
+      "30096183",
+      "42150060",
+      "26790343",
+      "25286318",
+      "42538434",
+      "32722039",
+      "19660471",
+      "31521236",
+      "42475469",
+      "36291695",
+      "32466138",
+      "26513658",
+      "29945970",
+      "29080786",
+      "26851286",
+      "42295476",
+      "28387819",
+      "29066345",
+      "41033554",
+      "27062995",
+      "36908253",
+      "42278235",
+      "34347206",
+      "40530859",
+      "33866372",
+      "38605029",
+      "26402567",
+      "24027208",
+      "36008992",
+      "24115198",
+      "32696395",
+      "28161714",
+      "24532081",
+      "41570036",
+      "32933064",
+      "24754740",
+      "40828855",
+      "42467187",
+      "30002402",
+      "39446390",
+      "38297118",
+      "31969649",
+      "25424537",
+      "40221640",
+      "41252491",
+      "42290021",
+      "22416277",
+      "33806614",
+      "31207240",
+      "28394890",
+      "41114728",
+      "39893491",
+      "27179590",
+      "26712748",
+      "39537071",
+      "40943096",
+      "41365991",
+      "41053545",
+      "31442477",
+      "31521232",
+      "32553192",
+      "33719450",
+      "20480043",
+      "33454008",
+      "39353735",
+      "31425549",
+      "27048167",
+      "38705823",
+      "26851277",
+      "24564941",
+      "39578215",
+      "42306853",
+      "30878482",
+      "35196007",
+      "40631955",
+      "40403066",
+      "23706950",
+      "41659523",
+      "38238291",
+      "41276815",
+      "29413001",
+      "38941236",
+      "26922996",
+      "41232529",
+      "30366362",
+      "40320752",
+      "32696383",
+      "27377881",
+      "17391016",
+      "31264965",
+      "24668165",
+      "29511089",
+      "26742101",
+      "39186607",
+      "35098694"
+    ],
+    "review": [
+      "41512952",
+      "31521236",
+      "26851286",
+      "34347206",
+      "26402567",
+      "24027208",
+      "24532081",
+      "31521232",
+      "20480043",
+      "27048167",
+      "38705823",
+      "26851277",
+      "39578215",
+      "42306853",
+      "23706950",
+      "29413001",
+      "26922996"
+    ],
+    "pmc": [
+      "13278473"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(26)00009-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41512952/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37386790",
+  "title": "Location and Concentration of Aromatic-Rich Segments Dictates the Percolating Inter-Molecular Network and Viscoelastic Properties of Ageing Condensates.",
+  "authors": "Blazquez, Samuel; Sanchez-Burgos, Ignacio; Ramirez, Jorge; Higginbotham, Tim; Conde, Maria M; Collepardo-Guevara, Rosana; Tejedor, Andres R; Espinosa, Jorge R",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2023-06-30",
+  "window": {
+    "start": "2023-06-26",
+    "end": "2023-07-02"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合原子级MD与粗粒化模拟，系统研究芳香族富集LARKS段的位置与数量如何决定凝聚体中β-sheet网络渗流及粘弹性老化，直接聚焦IDR介导的PPI与相分离机制建模，方法先进且机制深度强。",
+  "abstract": "Maturation of functional liquid-like biomolecular condensates into solid-like aggregates has been linked to the onset of several neurodegenerative disorders. Low-complexity aromatic-rich kinked segments (LARKS) contained in numerous RNA-binding proteins can promote aggregation by forming inter-protein beta-sheet fibrils that accumulate over time and ultimately drive the liquid-to-solid transition of the condensates. Here, atomistic molecular dynamics simulations are combined with sequence-dependent coarse-grained models of various resolutions to investigate the role of LARKS abundance and position within the amino acid sequence in the maturation of condensates. Remarkably, proteins with tail-located LARKS display much higher viscosity over time than those in which the LARKS are placed toward the center. Yet, at very long timescales, proteins with a single LARKS-independently of its location-can still relax and form high viscous liquid condensates. However, phase-separated condensates of proteins containing two or more LARKS become kinetically trapped due to the formation of percolated beta-sheet networks that display gel-like behavior. Furthermore, as a work case example, they demonstrate how shifting the location of the LARKS-containing low-complexity domain of FUS protein toward its center effectively precludes the accumulation of beta-sheet fibrils in FUS-RNA condensates, maintaining functional liquid-like behavior without ageing.",
+  "abstract_zh": "功能性液态生物分子凝聚体成熟为固态样聚集体与多种神经退行性疾病的发病相关。许多RNA结合蛋白中含有的低复杂性芳香族富集扭结片段（LARKS）可通过形成蛋白质间β-折叠纤维来促进聚集，这些纤维随时间累积，最终驱动凝聚体的液-固转变。在此，原子级分子动力学模拟与不同分辨率的序列依赖性粗粒化模型相结合，以研究LARKS丰度及其在氨基酸序列中的位置对凝聚体成熟的作用。值得注意的是，LARKS位于尾部的蛋白质随时间表现出比LARKS置于中心附近的蛋白质高得多的粘度。然而，在极长时间尺度上，含单个LARKS的蛋白质（无论其位置如何）仍能松弛并形成高粘性液态凝聚体。但是，含有两个或更多LARKS的蛋白质的相分离凝聚体，由于形成具有凝胶样行为的渗透β-折叠网络而变得动力学受限。此外，作为工作案例，他们展示了将FUS蛋白含LARKS的低复杂性结构域位置移至其中心附近，如何有效阻止FUS-RNA凝聚体中β-折叠纤维的积累，从而在不老化的情况下维持功能性液态行为。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37386790/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37386790/",
+  "paper_page_path": "papers/pubmed/37386790/index.html"
+}

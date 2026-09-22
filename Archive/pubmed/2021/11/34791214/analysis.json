@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34791214",
+  "title": "The length scale of multivalent interactions is evolutionarily conserved in fungal and vertebrate phase-separating proteins.",
+  "authors": "Dasmeh, Pouria; Doronin, Roman; Wagner, Andreas",
+  "journal": "Genetics",
+  "published_date": "2021-11-19",
+  "window": {
+    "start": "2021-11-15",
+    "end": "2021-11-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过机器学习构象分类器，揭示真菌和脊椎动物相分离蛋白（Dcp2和FET家族）中多价互作的长度尺度在进化上保守，并证明无序区段倾向紧凑构象以维持相分离能力，直接关联无序蛋白介导的PPI机制建模。",
+  "abstract": "One key feature of proteins that form liquid droplets by phase separation inside a cell is multivalency-the presence of multiple sites that mediate interactions with other proteins. We know little about the variation of multivalency on evolutionary time scales. Here, we investigated the long-term evolution ( approximately 600 million years) of multivalency in fungal mRNA decapping subunit 2 protein (Dcp2), and in the FET (FUS, EWS and TAF15) protein family. We found that multivalency varies substantially among the orthologs of these proteins. However, evolution has maintained the length scale at which sequence motifs that enable protein-protein interactions occur. That is, the total number of such motifs per hundred amino acids is higher and less variable than expected by neutral evolution. To help explain this evolutionary conservation, we developed a conformation classifier using machine-learning algorithms. This classifier demonstrates that disordered segments in Dcp2 and FET proteins tend to adopt compact conformations, which is necessary for phase separation. Thus, the evolutionary conservation we detected may help proteins preserve the ability to undergo phase separation. Altogether, our study reveals that the length scale of multivalent interactions is an evolutionarily conserved feature of two classes of phase-separating proteins in fungi and vertebrates.",
+  "abstract_zh": "通过相分离在细胞内形成液滴的蛋白质的一个关键特征是多价性——即存在多个介导与其他蛋白质相互作用的位点。我们对多价性在进化时间尺度上的变异知之甚少。在此，我们研究了真菌mRNA脱帽亚基2蛋白（Dcp2）及FET（FUS、EWS和TAF15）蛋白家族中多价性的长期进化（约6亿年）。我们发现，这些蛋白质的直系同源物之间多价性存在显著差异。然而，进化维持了使蛋白质-蛋白质相互作用得以发生的序列基序出现的长度尺度。也就是说，每百个氨基酸中此类基序的总数高于中性进化预期，且变异性更低。为帮助解释这种进化保守性，我们利用机器学习算法开发了一种构象分类器。该分类器表明，Dcp2和FET蛋白中的无序片段倾向于采用紧凑构象，这是相分离所必需的。因此，我们检测到的进化保守性可能有助于蛋白质保持进行相分离的能力。总之，我们的研究揭示，多价相互作用的长度尺度是真菌和脊椎动物中两类相分离蛋白的一个进化保守特征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34791214/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34791214/",
+  "paper_page_path": "papers/pubmed/34791214/index.html"
+}

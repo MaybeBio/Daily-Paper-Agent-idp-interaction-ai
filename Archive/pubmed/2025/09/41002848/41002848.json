@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "41002848",
+    "doi": "10.3390/biomimetics10090614",
+    "title": "IDP-Head: An Interactive Dual-Perception Architecture for Organoid Detection in Mouse Microscopic Images."
+  },
+  "content": {
+    "abstract": "The widespread application of organoids in disease modeling and drug development is significantly constrained by challenges in automated quantitative analysis. In bright-field microscopy images, organoids exhibit complex characteristics, including irregular morphology, blurred boundaries, and substantial scale variations, largely stemming from their dynamic self-organization that mimics in vivo tissue development. Existing convolutional neural network-based methods are limited by fixed receptive fields and insufficient modeling of inter-channel relationships, making them inadequate for detecting such evolving biological structures. To address these challenges, we propose a novel detection head, termed Interactive Dual-Perception Head (IDP-Head), inspired by hierarchical perception mechanisms in the biological visual cortex. Integrated into the RTMDet framework, IDP-Head comprises two bio-inspired components: a Large-Kernel Global Perception Module (LGPM) to capture global morphological dependencies, analogous to the wide receptive fields of cortical neurons, and a Progressive Channel Synergy Module (PCSM) that models inter-channel semantic collaboration, echoing the integrative processing of multi-channel stimuli in neural systems. Additionally, we construct a new organoid detection dataset to mitigate the scarcity of annotated data. Extensive experiments on both our dataset and public benchmarks demonstrate that IDP-Head achieves a 5-percentage-point improvement in mean Average Precision (mAP) over the baseline model, offering a biologically inspired and effective solution for high-fidelity organoid detection.",
+    "keywords": [
+      "IDP-Head",
+      "biological structures",
+      "organoids",
+      "quantitative analysis"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Yuhang",
+        "Fan, Changyuan",
+        "Zhou, Xi",
+        "Wei, Peiyang"
+      ],
+      "short_names": [
+        "Yang Y",
+        "Fan C",
+        "Zhou X",
+        "Wei P"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-9632-8006"
+      ],
+      "affiliations": [
+        "School of Software, Xinjiang University, Urumqi 830091, China.",
+        "College of Electronic Engineering, Chengdu University of Information Technology, Chengdu 610225, China.",
+        "The Xinjiang Technical Institute of Physics and Chemistry, Chinese Academy of Sciences, Urumqi 830011, China.",
+        "School of Software Engineering, Chengdu University of Information Technology, Chengdu 610225, China.",
+        "Key Laboratory of Remote Sensing Application and Innovation, Chongqing 401147, China.",
+        "Dazhou Key Laboratory of Government Data Security, Sichuan University of Arts and Science, Dazhou 635000, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Yuhang",
+        "short_name": "Yang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Software, Xinjiang University, Urumqi 830091, China."
+        ]
+      },
+      {
+        "full_name": "Fan, Changyuan",
+        "short_name": "Fan C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Electronic Engineering, Chengdu University of Information Technology, Chengdu 610225, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xi",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "The Xinjiang Technical Institute of Physics and Chemistry, Chinese Academy of Sciences, Urumqi 830011, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Peiyang",
+        "short_name": "Wei P",
+        "identifiers": [
+          "0009-0008-9632-8006"
+        ],
+        "affiliations": [
+          "School of Software Engineering, Chengdu University of Information Technology, Chengdu 610225, China.",
+          "Key Laboratory of Remote Sensing Application and Innovation, Chongqing 401147, China.",
+          "Dazhou Key Laboratory of Government Data Security, Sichuan University of Arts and Science, Dazhou 635000, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomimetics (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Biomimetics (Basel)"
+    ],
+    "pub_date": "2025 Sep 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/26 12:32",
+    "fetched_at": "2026-09-17 20:24:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40533563",
+      "39658630",
+      "39516564",
+      "39349827",
+      "39155193",
+      "38815392",
+      "38637622",
+      "38557623",
+      "37490376",
+      "37479227",
+      "37325195",
+      "36804687",
+      "27295650"
+    ],
+    "similar": [
+      "41002848",
+      "41228796",
+      "40737996",
+      "40218706",
+      "41121276",
+      "40845560",
+      "39439510",
+      "34102401",
+      "40841772",
+      "37606374",
+      "40968931",
+      "41056347",
+      "39137295",
+      "37122853",
+      "41034439",
+      "36704718",
+      "41267787",
+      "36067234",
+      "40807981",
+      "40943033",
+      "41450855",
+      "40969029",
+      "37890420",
+      "41362310",
+      "39851680",
+      "40780320",
+      "40216924",
+      "39205343",
+      "33284772",
+      "40716230",
+      "41157454",
+      "40752415",
+      "40603469",
+      "40963833",
+      "38997209",
+      "38141452",
+      "41079258",
+      "31536000",
+      "41340194",
+      "40977126",
+      "41380177",
+      "40595250",
+      "40175516",
+      "40867684",
+      "40199968",
+      "39698603",
+      "39432472",
+      "39860675",
+      "40753948",
+      "36359709",
+      "41305232",
+      "41298908",
+      "40765850",
+      "41013068",
+      "41305260",
+      "41348900",
+      "41166883",
+      "32652433",
+      "40807965",
+      "39462675",
+      "38306971",
+      "38202996",
+      "40840472",
+      "41337277",
+      "40050676",
+      "41070616",
+      "39047336",
+      "41305135",
+      "39966488",
+      "37141902",
+      "41430365",
+      "41198889",
+      "37594633",
+      "40871908",
+      "40210738",
+      "39460026",
+      "40619499",
+      "40871828",
+      "40235751",
+      "40540969",
+      "40567688",
+      "41305157",
+      "41388062",
+      "39734523",
+      "41383832",
+      "40872056",
+      "40573646",
+      "34735337",
+      "27835647",
+      "41002810",
+      "40567707",
+      "41415663",
+      "40424759",
+      "40440150",
+      "26042330",
+      "36335811",
+      "40183298",
+      "39065889",
+      "40727355",
+      "40710264"
+    ],
+    "review": [
+      "41002848",
+      "39462675"
+    ],
+    "pmc": [
+      "12467187"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biomimetics10090614",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41002848/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

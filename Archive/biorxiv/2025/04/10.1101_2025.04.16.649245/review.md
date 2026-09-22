@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that the RNA-binding domains (RBDs) of EWS, including RGG repeats and an RRM, differentially modulate EWS LCD condensate formation via transient, non-specific, electrostatically influenced interactions distributed across both regions, with specific residue-type preferences, and that full-length EWS exhibits a similar interaction profile in atomistic simulations, supporting a model of weak distributed interdomain contacts underlying self-association.
+- **Visible evidence base** Biomolecular condensation assays, microscopy, NMR spectroscopy, molecular dynamics simulations, and atomistic simulations, as described in the abstract
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, methods details, simulation parameters, NMR assignment and validation data, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially significant model for EWS self-association, extending prior work on LCD-driven condensation to include a role for RBDs. The combination of experimental and computational approaches is appropriate and ambitious. However, the abstract alone does not provide sufficient quantitative detail to assess the robustness of the key claims, particularly regarding the specificity of interdomain contacts, the differential effects of individual RBDs, and the relevance of the proposed interactions to condensate formation in cellular contexts. The work is likely of interest to the biomolecular condensate and RNA-binding protein communities, but the evidence base as presented is insufficient to fully establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, particularly those focused on low-complexity domains and RNA-binding proteins; investigators of Ewing sarcoma biology and EWS::FLI1 oncogenic mechanisms; and computational biologists interested in multiscale simulations of intrinsically disordered proteins. The proposed model of distributed weak interdomain contacts may inform broader principles of condensate formation.
+- **Major strengths** The study integrates multiple orthogonal techniques, including NMR and simulations, to probe transient interactions that are difficult to capture experimentally. The focus on full-length EWS in atomistic simulations is a notable advance over LCD-only studies. The identification of specific residue-type preferences between LCD and RBD regions provides a chemically concrete hypothesis. The potential relevance to EWS::FLI1 oncogenesis adds translational significance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that RBDs "differentially influence" EWS LCD condensate formation and that electrostatics and polypeptide-chain length "likely contribute" to this interaction.
+  - **Evidence pointer** Abstract, results section (location not provided)
+  - **Concern** The abstract does not report the magnitude, direction, or statistical significance of the differential effects of individual RBDs on condensate formation. It is unclear whether the effects are large, reproducible, or specific to particular RBD constructs. The phrase "likely contribute" indicates that the mechanistic attribution to electrostatics and chain length is not directly tested.
+  - **Why it matters** Without quantitative data, the reader cannot assess whether the proposed differential modulation is a robust biological phenomenon or a minor effect within experimental noise. This claim is central to the paper's novelty.
+  - **Resolution test** Provide quantitative condensation assay data (e.g., turbidity, saturation concentrations, droplet counts) for LCD alone versus LCD with each RBD, with statistical comparisons and appropriate controls (e.g., charge-neutralizing mutations or length-matched controls).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that NMR and MD simulations demonstrate "transient, non-specific interactions" that are "broadly distributed" and involve "diverse residue types," with specific preferences (tyrosine, polar, proline in LCD interacting with arginine, glycine, proline in RBD).
+  - **Evidence pointer** Abstract, NMR and simulation results (location not provided)
+  - **Concern** The abstract provides no quantitative metrics for the "transient" nature of these interactions, such as residence times, contact frequencies, or binding affinities. The claim of "non-specific" interactions is difficult to reconcile with the stated residue-type preferences, which imply some degree of chemical specificity. The distribution of contacts across both regions is described qualitatively without supporting data.
+  - **Why it matters** The central mechanistic model rests on the nature and strength of these interdomain contacts. Without quantitative measures, the distinction between specific and non-specific, and the functional relevance of the observed preferences, cannot be evaluated.
+  - **Resolution test** Report contact maps, residence times, and interaction energies from simulations, and NMR chemical shift perturbations or relaxation data with quantitative thresholds for defining "transient" and "distributed." Clarify how "non-specific" is operationally defined given the observed residue preferences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that atomistic simulations of full-length EWS "confirm" a similar interaction profile with "conserved chemical specificity," supporting the model of weak distributed interdomain contacts.
+  - **Evidence pointer** Abstract, atomistic simulation results (location not provided)
+  - **Concern** The abstract does not specify the simulation length, force field, system size, or whether the simulations reached equilibrium. The claim of "confirmation" is strong, but the abstract provides no comparison between the full-length and truncated systems beyond a qualitative statement. It is unclear whether the full-length simulations recapitulate the same residue preferences or whether new interactions emerge.
+  - **Why it matters** The full-length simulation is presented as a key validation of the model. If the simulation methodology is not robust or the comparison is not quantitative, the confirmatory claim is overstated.
+  - **Resolution test** Provide simulation details, convergence criteria, and a quantitative comparison of contact profiles between full-length EWS and the LCD-RBD constructs, including error estimates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract (location not provided)
+  - **Issue** The opening sentence describes Ewing sarcoma as "the second most common pediatric bone and soft tissue cancer," but this context is not directly connected to the mechanistic findings presented.
+  - **Required correction** Consider briefly linking this epidemiological context to the specific relevance of EWS self-association in oncogenesis, or shorten the background to focus on the knowledge gap addressed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "non-specific interactions"
+  - **Evidence pointer** Abstract (location not provided)
+  - **Issue** The term "non-specific" is used alongside specific residue-type preferences, which may confuse readers. The intended meaning appears to be "not sequence-specific" in a canonical binding sense, but this is not stated.
+  - **Required correction** Define "non-specific" operationally, for example as "lacking a single high-affinity binding site" or "distributed across multiple weak contacts," to avoid ambiguity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, significance statement
+  - **Evidence pointer** Abstract, significance section (location not provided)
+  - **Issue** The significance statement claims the findings "may be useful for understanding the oncogenic mechanisms of EWS::FLI1," but the abstract does not describe any experiments directly linking the interdomain interactions to EWS::FLI1 function.
+  - **Required correction** Either add a brief statement of any direct evidence connecting the observed interactions to EWS::FLI1 activity, or temper the claim to indicate that the relevance is inferential.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative data for the differential RBD effects, the transient interaction metrics, and the full-length simulation validation. These are required to establish the central claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The work appears to extend existing knowledge on LCD-driven condensation to include a role for RBDs in EWS, which is a relatively underexplored area. The specific residue-type preferences and the full-length simulation approach add originality.  
+  - Scientific importance: The findings could inform understanding of EWS and EWS::FLI1 function, with potential implications for Ewing sarcoma biology. The broader relevance to pathogenic condensate formation is plausible but not yet demonstrated.  
+  - Interdisciplinary readership: The combination of biophysics, cell biology, and computational methods may appeal to a broad readership, but the abstract is written in a specialized manner that may limit accessibility.  
+  - Technical soundness: The use of multiple orthogonal methods is commendable, but the abstract does not provide enough detail to assess the rigor of the NMR assignments, simulation convergence, or statistical treatment.  
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with condensate biology and NMR/simulation terminology. It would benefit from clearer definitions of key concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible model, but the lack of quantitative data and methodological detail prevents verification of the central claims. I would be supportive if the full manuscript provides the missing quantitative evidence and addresses the concerns above.

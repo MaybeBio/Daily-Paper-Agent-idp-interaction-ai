@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that yeast stress granules (SGs) mature into a solid-like state during prolonged stationary phase, that this maturation is driven by protein kinase A (PKA)-dependent phosphorylation of SG components, that PKA accumulates in SGs and remains active there while cytoplasmic PKA is inhibited, that PKA phosphorylation of the pyruvate kinase Cdc19 is necessary and sufficient for its timely SG accumulation and amyloid-like assembly, and that inhibiting PKA prevents SG maturation and delays cell cycle restart after re-feeding.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were provided
+- **Missing materials affecting confidence** All experimental data, including phosphorylation site profiling results, imaging data, biochemical assays, genetic manipulations, and quantitative measurements of SG disassembly and cell cycle restart, are absent from the supplied material
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially significant model linking PKA activity to SG maturation during chronic stress in yeast. The proposed mechanism, in which PKA phosphorylates SG components such as Cdc19 to drive amyloid-like assembly and thereby regulate recovery timing, is novel and would be of broad interest to the stress biology and biomolecular condensate communities. However, the abstract alone provides no quantitative data, no methodological detail, and no controls, making it impossible to evaluate the strength of the evidence for any of the central claims. The claim that PKA phosphorylation of Cdc19 is both necessary and sufficient for its SG accumulation is particularly strong and would require substantial genetic and biochemical support that is not visible here. The relationship between SG maturation and the proposed "timer" function for recovery is intriguing but mechanistically underdeveloped in the abstract.
+- **Who would be interested in the results, and why** Researchers studying stress granule biology, biomolecular condensates and phase transitions, protein kinase A signaling, cellular stress responses, and the molecular basis of recovery from chronic stress. The work may also interest those studying amyloid-like structures in non-pathological contexts and the intersection of metabolism and stress signaling, given the involvement of the pyruvate kinase Cdc19.
+- **Major strengths** The conceptual framework is clear and compelling, linking a specific kinase to a specific maturation process with a clear physiological outcome. The proposed mechanism is testable and mechanistically specific, identifying a particular substrate (Cdc19) and a particular structural outcome (amyloid-like assembly). The connection between chronic stress, SG maturation, and recovery timing provides a plausible physiological rationale for why maturation occurs, which has been largely missing in the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "SG maturation is driven by protein kinase A (PKA)-dependent phosphorylation of the SG proteome"
+  - **Evidence pointer** Phosphorylation site profiling during stationary phase; location not provided
+  - **Concern** The abstract states that profiling of phosphorylation sites during stationary phase revealed PKA-dependent phosphorylation of the SG proteome, but no data are shown. It is unclear how many sites were identified, how PKA dependence was established, whether the phosphorylation sites were validated as direct PKA substrates, and whether the profiling was performed on purified SGs or whole-cell lysates. The causal direction, namely that PKA phosphorylation drives maturation rather than being a consequence of SG assembly, is asserted but not demonstrated in the abstract.
+  - **Why it matters** This is the central mechanistic claim of the paper. Without evidence that PKA activity is required for SG maturation and that phosphorylation of SG components is causally upstream of the maturation process, the entire model lacks support.
+  - **Resolution test** Provide quantitative phosphoproteomic data with statistical comparisons between conditions, validation of PKA consensus sites, genetic or pharmacological perturbation of PKA activity with corresponding effects on SG maturation, and evidence that phosphorylation precedes or is contemporaneous with maturation rather than following it.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "PKA-mediated phosphorylation of key SG components, like the pyruvate kinase Cdc19, is necessary and sufficient for its timely accumulation in SGs, where Cdc19 assembles into amyloid-like structures"
+  - **Evidence pointer** Location not provided
+  - **Concern** The claim of necessity and sufficiency for Cdc19 phosphorylation in SG accumulation is exceptionally strong. The abstract provides no information on the experimental approach used to establish necessity (for example, phospho-dead mutants) or sufficiency (for example, phospho-mimetic mutants), nor on how amyloid-like assembly was demonstrated. The term "amyloid-like" carries specific structural connotations that require rigorous biophysical evidence, such as amyloid-specific dye binding, electron microscopy, or X-ray fiber diffraction.
+  - **Why it matters** This claim is the molecular core of the proposed mechanism. If the necessity and sufficiency relationship is not rigorously established, the model collapses to a correlation. The amyloid-like designation also has implications for how the field interprets SG maturation, and overinterpretation here could mislead subsequent work.
+  - **Resolution test** Show data from phospho-dead and phospho-mimetic Cdc19 mutants with quantitative SG localization measurements, and provide structural evidence for amyloid-like assembly using at least two independent biophysical methods.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "inhibiting PKA during long-term stationary phase prevents SG maturation, delaying ordered re-start of cell growth after re-feeding"
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract states that PKA inhibition prevents SG maturation and delays recovery, but the logic of this statement is unclear. If PKA inhibition prevents maturation, and maturation delays disassembly and recovery, then preventing maturation should accelerate recovery, not delay it. The abstract appears to contain an internal inconsistency, or the relationship between maturation and recovery is more complex than stated. The phrase "delaying ordered re-start of cell growth" may imply a qualitative difference in recovery, but this is not explained.
+  - **Why it matters** The physiological relevance of the entire study rests on the relationship between SG maturation and recovery. If the direction of this relationship is not clearly articulated and supported, the central conclusion of the paper is compromised.
+  - **Resolution test** Clarify the temporal sequence of events and provide quantitative recovery data under conditions of PKA inhibition, SG maturation blockade, and appropriate controls. If the relationship is non-linear or involves additional factors, these should be explicitly described.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic completeness
+  - **Claim pointer** "upon stationary phase the catalytic PKA subunits condense in SGs where they maintain kinase activity, while during this time cytoplasmic PKA is inhibited"
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract describes a spatial segregation model in which PKA is active inside SGs but inhibited in the cytoplasm. This is an interesting and unusual claim, as PKA is typically thought of as a highly mobile kinase. No information is provided on how PKA activity was measured inside SGs, how cytoplasmic inhibition was established, or what mechanism maintains this differential activity over prolonged periods.
+  - **Why it matters** This spatial segregation is central to the model, as it explains how PKA can phosphorylate SG components while global PKA activity is suppressed. If this claim is not rigorously supported, the model loses its mechanistic foundation.
+  - **Resolution test** Provide spatially resolved measurements of PKA activity, for example using FRET-based reporters or phosphorylation of SG-localized substrates, and biochemical evidence for the mechanism of cytoplasmic PKA inhibition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "solid-like state"
+  - **Issue** The term "solid-like state" is used without operational definition. In the condensate field, this can refer to gel-like, glassy, or amyloid-like states, which have distinct physical and biological properties.
+  - **Required correction** Define the operational criteria used to classify SG maturation as "solid-like" and distinguish it from other non-liquid states.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Temporal description
+  - **Evidence pointer** Abstract, "long-term stationary phase"
+  - **Issue** The abstract does not specify the time frame of "long-term" stationary phase, which is essential for interpreting the physiological relevance and for reproducibility.
+  - **Required correction** Specify the time points used for stationary phase experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Species specificity
+  - **Evidence pointer** Abstract, "yeast SGs"
+  - **Issue** The abstract does not address whether the proposed mechanism is yeast-specific or generalizable to higher eukaryotes, which is relevant given the connection to neurodegenerative pathologies mentioned in the introduction.
+  - **Required correction** Add a statement addressing the potential conservation of the mechanism across species, or explicitly limit the claims to yeast.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Graphical abstract and highlights
+  - **Evidence pointer** Graphical Abstract and Highlights sections
+  - **Issue** The graphical abstract and highlights are referenced but not provided in the supplied material, making it impossible to assess their accuracy relative to the text.
+  - **Required correction** Ensure the graphical abstract and highlights accurately reflect the data presented in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The necessity and sufficiency claim for Cdc19 phosphorylation, the causal role of PKA in driving maturation, and the direction of the relationship between maturation and recovery are all unsupported by the abstract alone. The apparent inconsistency in R1-M3 must be resolved with clear experimental data.
+- **Assessment against Nature-style criteria** Originality: The proposed mechanism, linking PKA activity to SG maturation via specific substrate phosphorylation and amyloid-like assembly, is original and would represent a significant advance if fully supported. Scientific importance: The work addresses a fundamental question in stress biology, namely why SGs mature and what physiological purpose this serves, and the proposed "timer" function is conceptually important. Interdisciplinary readership: The topic bridges cell biology, biophysics, and signaling, and would attract readers across these fields. Technical soundness: Cannot be assessed from the abstract alone; the claims require substantial experimental support that is not visible. Readability for nonspecialists: The abstract is clearly written and accessible, though some terms such as "solid-like state" and "amyloid-like structures" would benefit from brief operational definitions.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the work could be suitable for a high-impact venue, but the abstract alone does not provide sufficient evidence to evaluate the central claims. A full assessment requires the complete manuscript, including all figures, methods, and supplementary data.
+
+## Risk / unsupported claims
+- The claim that PKA-dependent phosphorylation drives SG maturation is unsupported without phosphoproteomic data and causal perturbation experiments.
+- The claim that PKA phosphorylation of Cdc19 is necessary and sufficient for its SG accumulation is unsupported without mutant analysis.
+- The claim that Cdc19 assembles into amyloid-like structures is unsupported without biophysical evidence.
+- The claim that SG maturation acts as a timer for recovery is unsupported without quantitative recovery data.
+- The claim that PKA is active within SGs while inhibited in the cytoplasm is unsupported without spatially resolved activity measurements.
+- The relationship between PKA inhibition, SG maturation, and delayed recovery is internally inconsistent as stated in the abstract and requires clarification.

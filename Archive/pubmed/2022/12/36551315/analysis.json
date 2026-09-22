@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36551315",
+  "title": "Portability of a Small-Molecule Binding Site between Disordered Proteins.",
+  "authors": "Jaiprashad, Rajesh; De Silva, Sachith Roch; Fred Lucena, Lisette M; Meyer, Ella; Metallo, Steven J",
+  "journal": "Biomolecules",
+  "published_date": "2022-12-24",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究无序蛋白中可移植的小分子结合位点模块，虽涉及IDP和结合机制，但对象为小分子而非PPI，且无AI/物理模拟方法，故为中档。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are important in both normal and disease states. Small molecules can be targeted to disordered regions, but we currently have only a limited understanding of the nature of small-molecule binding sites in IDPs. Here, we show that a minimal small-molecule binding sequence of eight contiguous residues derived from the Myc protein can be ported into a different disordered protein and recapitulate small-molecule binding activity in the new context. We also find that the residue immediately flanking the binding site can have opposing effects on small-molecule binding in the different disordered protein contexts. The results demonstrate that small-molecule binding sites can act modularly and are portable between disordered protein contexts but that residues outside of the minimal binding site can modulate binding affinity.",
+  "abstract_zh": "固有无序蛋白（IDPs）在正常和疾病状态中均发挥重要作用。小分子可靶向无序区域，但目前我们对IDPs中小分子结合位点的性质了解有限。在此，我们展示源自Myc蛋白的八个连续残基的最小小分子结合序列可被移植到不同的无序蛋白中，并在新环境中重现小分子结合活性。我们还发现，紧邻结合位点的残基在不同无序蛋白环境中可对小分子结合产生相反效应。结果表明，小分子结合位点可模块化运作，并在无序蛋白环境间具有可移植性，但最小结合位点之外的残基可调节结合亲和力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36551315/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36551315/",
+  "paper_page_path": "papers/pubmed/36551315/index.html"
+}

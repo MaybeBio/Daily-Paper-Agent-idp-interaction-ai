@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.16.553551",
+  "title": "Control of G protein-coupled receptor function via membrane-interacting intrinsically disordered C-terminal domains",
+  "authors": "Chiara Mancinelli; Dagan C. Marx; Alberto J. Gonzalez-Hernandez; Kevin Huynh; Lucia Mancinelli; Anisul Arefin; George Khelashvilli; Joshua Levitz; David Eliezer",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-17",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过NMR和分子动力学模拟揭示GPCR无序C末端结构域与膜的可逆互作调控转导蛋白偶联，虽对象为膜而非典型PPI，但无序CTD-膜互作机制建模对IDR介导互作调控有直接启发。",
+  "abstract": "G protein-coupled receptors (GPCRs) control intracellular signaling cascades via agonist-dependent coupling to intracellular transducers including heterotrimeric G proteins, GPCR kinases (GRKs), and arrestins. In addition to their critical interactions with the transmembrane core of active GPCRs, all three classes of transducers have also been reported to interact with receptor C-terminal domains (CTDs). An underexplored aspect of GPCR CTDs is their possible role as lipid sensors given their proximity to the membrane. CTD-membrane interactions have the potential to control the accessibility of key regulatory CTD residues to downstream effectors and transducers. Here we report that the CTDs of two closely related family C GPCRs, metabotropic glutamate receptor 2 (mGluR2) and mGluR3, bind to membranes and that this interaction can regulate receptor function. We first characterize CTD structure with NMR spectroscopy, revealing lipid composition-dependent modes of membrane binding. Using molecular dynamics simulations and structure-guided mutagenesis, we then identify key conserved residues and cancer-associated mutations that modulate CTD-membrane binding. Finally, we provide evidence that mGluR3 transducer coupling is controlled by CTD-membrane interactions in live cells, which may be subject to regulation by CTD phosphorylation and changes in membrane composition. This work reveals a novel mechanism of GPCR modulation, suggesting that CTD-membrane binding may be a general regulatory mode throughout the broad GPCR superfamily. Significance Statement G protein-coupled receptors (GPCRs) allow cells to sense and respond to their environment and constitute the largest class of targets for approved therapeutic drugs. Temporally precise GPCR signaling is achieved by coupling the binding of extracellular ligands to the binding of intracellular signal transducers (e.g. heterotrimeric G proteins) and regulators (e.g. β-arrestins). The C-terminal domains (CTDs) of GPCRs are targets of various post-translational modifications and play a critical role in transducer and regulator recruitment. Here we report novel interactions of the CTDs of two GPCRs of the metabotropic glutamate receptor family with cellular membranes. These interactions serve to regulate CTD accessibility and thus, mGluR coupling to transducers and regulators. We propose that dynamic CTD-membrane interaction constitutes a general mechanism for regulating GPCR function.",
+  "abstract_zh": "G蛋白偶联受体（GPCRs）通过激动剂依赖性的偶联作用控制细胞内信号级联反应，该偶联涉及包括异源三聚体G蛋白、GPCR激酶（GRKs）和arrestins在内的细胞内转导因子。除了与活性GPCRs的跨膜核心发生关键相互作用外，这三类转导因子也被报道能与受体C末端结构域（CTDs）相互作用。GPCR CTDs一个尚未充分探索的方面是，鉴于其靠近膜，它们可能作为脂质传感器发挥作用。CTD-膜相互作用有可能控制关键调控性CTD残基对下游效应器和转导因子的可及性。在此，我们报道了两个密切相关的C家族GPCRs——代谢型谷氨酸受体2（mGluR2）和mGluR3——的CTDs与膜结合，且这种相互作用能调节受体功能。我们首先通过NMR光谱学表征CTD结构，揭示了依赖于脂质组成的膜结合模式。随后，利用分子动力学模拟和结构引导的突变分析，我们鉴定了调节CTD-膜结合的关键保守残基和癌症相关突变。最后，我们提供了证据表明，在活细胞中，mGluR3转导因子偶联受CTD-膜相互作用控制，而这种相互作用可能受CTD磷酸化和膜组成变化的调节。这项工作揭示了一种GPCR调节的新机制，提示CTD-膜结合可能是整个GPCR超家族中一种普遍的调节模式。意义声明 G蛋白偶联受体（GPCRs）使细胞能够感知并响应其环境，构成了已批准治疗药物中最大类别的靶点。时间精确的GPCR信号传导通过将细胞外配体的结合与细胞内信号转导因子（如异源三聚体G蛋白）和调节因子（如β-arrestins）的结合偶联来实现。GPCRs的C末端结构域（CTDs）是多种翻译后修饰的靶点，并在转导因子和调节因子的招募中发挥关键作用。在此，我们报道了代谢型谷氨酸受体家族中两个GPCRs的CTDs与细胞膜的新型相互作用。这些相互作用用于调节CTD的可及性，从而调节mGluR与转导因子和调节因子的偶联。我们提出，动态的CTD-膜相互作用构成了调节GPCR功能的一种普遍机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.16.553551",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.16.553551",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.16.553551/index.html"
+}

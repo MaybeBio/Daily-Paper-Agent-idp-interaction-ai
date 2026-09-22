@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "38519458",
+    "doi": "10.1038/s41467-024-46731-9",
+    "title": "Predicting nuclear G-quadruplex RNA-binding proteins with roles in transcription and phase separation."
+  },
+  "content": {
+    "abstract": "RNA-binding proteins are central for many biological processes and their characterization has demonstrated a broad range of functions as well as a wide spectrum of target structures. RNA G-quadruplexes are important regulatory elements occurring in both coding and non-coding transcripts, yet our knowledge of their structure-based interactions is at present limited. Here, using theoretical predictions and experimental approaches, we show that many chromatin-binding proteins bind to RNA G-quadruplexes, and we classify them based on their RNA G-quadruplex-binding potential. Combining experimental identification of nuclear RNA G-quadruplex-binding proteins with computational approaches, we build a prediction tool that assigns probability score for a nuclear protein to bind RNA G-quadruplexes. We show that predicted G-quadruplex RNA-binding proteins exhibit a high degree of protein disorder and hydrophilicity and suggest involvement in both transcription and phase-separation into membrane-less organelles. Finally, we present the G4-Folded/UNfolded Nuclear Interaction Explorer System (G4-FUNNIES) for estimating RNA G4-binding propensities at http://service.tartaglialab.com/new_submission/G4FUNNIES .",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nuclear Proteins/metabolism",
+      "Phase Separation",
+      "Chromatin",
+      "*G-Quadruplexes",
+      "RNA-Binding Proteins/metabolism",
+      "RNA/genetics/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Luige, Johanna",
+        "Armaos, Alexandros",
+        "Tartaglia, Gian Gaetano",
+        "Orom, Ulf Andersson Vang"
+      ],
+      "short_names": [
+        "Luige J",
+        "Armaos A",
+        "Tartaglia GG",
+        "Orom UAV"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1314-8103",
+        "ORCID: 0000-0001-7524-6310",
+        "ORCID: 0000-0002-0643-0592"
+      ],
+      "affiliations": [
+        "RNA Biology and Innovation, Institute of Molecular Biology and Genetics, Aarhus University, Aarhus, Denmark.",
+        "Centre for Human Technologies (CHT), Istituto Italiano di Tecnologia (IIT), Via Enrico Melen, 83, 16152, Genova, Italy.",
+        "Centre for Human Technologies (CHT), Istituto Italiano di Tecnologia (IIT), Via Enrico Melen, 83, 16152, Genova, Italy. gian.tartaglia@iit.it.",
+        "Catalan Institution for Research and Advanced Studies ICREA Passeig Lluis Companys, 23 08010, Barcelona, Spain. gian.tartaglia@iit.it.",
+        "RNA Biology and Innovation, Institute of Molecular Biology and Genetics, Aarhus University, Aarhus, Denmark. ulf.orom@mbg.au.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Luige, Johanna",
+        "short_name": "Luige J",
+        "identifiers": [
+          "0000-0003-1314-8103"
+        ],
+        "affiliations": [
+          "RNA Biology and Innovation, Institute of Molecular Biology and Genetics, Aarhus University, Aarhus, Denmark."
+        ]
+      },
+      {
+        "full_name": "Armaos, Alexandros",
+        "short_name": "Armaos A",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Human Technologies (CHT), Istituto Italiano di Tecnologia (IIT), Via Enrico Melen, 83, 16152, Genova, Italy."
+        ]
+      },
+      {
+        "full_name": "Tartaglia, Gian Gaetano",
+        "short_name": "Tartaglia GG",
+        "identifiers": [
+          "0000-0001-7524-6310"
+        ],
+        "affiliations": [
+          "Centre for Human Technologies (CHT), Istituto Italiano di Tecnologia (IIT), Via Enrico Melen, 83, 16152, Genova, Italy. gian.tartaglia@iit.it.",
+          "Catalan Institution for Research and Advanced Studies ICREA Passeig Lluis Companys, 23 08010, Barcelona, Spain. gian.tartaglia@iit.it."
+        ]
+      },
+      {
+        "full_name": "Ørom, Ulf Andersson Vang",
+        "short_name": "Ørom UAV",
+        "identifiers": [
+          "0000-0002-0643-0592"
+        ],
+        "affiliations": [
+          "RNA Biology and Innovation, Institute of Molecular Biology and Genetics, Aarhus University, Aarhus, Denmark. ulf.orom@mbg.au.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Mar 22",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/23 20:44",
+    "fetched_at": "2026-09-21 06:05:21"
+  },
+  "links": {
+    "cites": [
+      "42201978",
+      "42126415",
+      "42120912",
+      "42039425",
+      "41964251",
+      "41846982",
+      "41801184",
+      "41712756",
+      "41699382",
+      "41543171",
+      "41279497",
+      "41255707",
+      "41022793",
+      "40968270",
+      "40642767",
+      "40426885",
+      "39847338",
+      "39554013",
+      "39520370"
+    ],
+    "refs": [
+      "37875529",
+      "37402367",
+      "37388701",
+      "37045843",
+      "36827365",
+      "36639366",
+      "36621339",
+      "36321741",
+      "36124670",
+      "35687110",
+      "35513709",
+      "35102292",
+      "34792172",
+      "34265844",
+      "34086933",
+      "33780170",
+      "33357399",
+      "33264409",
+      "33199912",
+      "33078839",
+      "32860827",
+      "32728246",
+      "32461552",
+      "32337711",
+      "32313943",
+      "32203489",
+      "32131038",
+      "32105731",
+      "31894141",
+      "31733516",
+      "31722410",
+      "31691822",
+      "31680160",
+      "31548724",
+      "31522988",
+      "31435012",
+      "31177910",
+      "30721922",
+      "30591567",
+      "30528433",
+      "30445601",
+      "30413703",
+      "30385480",
+      "30352994",
+      "29930090",
+      "29913160",
+      "29395067",
+      "29185984",
+      "29129743",
+      "29077807",
+      "28554731",
+      "28472472",
+      "28032625",
+      "27708011",
+      "27668212",
+      "27571552",
+      "27453046",
+      "27320918",
+      "27040163",
+      "26906401",
+      "26520853",
+      "24771345",
+      "24493033",
+      "23975767",
+      "23445442",
+      "23264567",
+      "22930834",
+      "22681889",
+      "22658674",
+      "21623348",
+      "21466159",
+      "21105704",
+      "20975687",
+      "20726580",
+      "19581307",
+      "18514226",
+      "17322877",
+      "16790841",
+      "15914667",
+      "15665856",
+      "15215436",
+      "3166998",
+      "763335"
+    ],
+    "similar": [
+      "38519458",
+      "29129743",
+      "32826060",
+      "31444753",
+      "32178871",
+      "24371143",
+      "37422364",
+      "32976590",
+      "28013268",
+      "31177910",
+      "25879384",
+      "37239436",
+      "22488917",
+      "28859475",
+      "36054116",
+      "24771345",
+      "35625576",
+      "31173968",
+      "24151078",
+      "30736345",
+      "31219592",
+      "25820943",
+      "36572080",
+      "35789129",
+      "16845096",
+      "32967357",
+      "34270902",
+      "31165881",
+      "25268620",
+      "32629040",
+      "19581307",
+      "24345950",
+      "26610452",
+      "34785537",
+      "21846770",
+      "37582058",
+      "26403244",
+      "31975549",
+      "36951307",
+      "25979174",
+      "21106496",
+      "33733306",
+      "34213273",
+      "37774422",
+      "35639772",
+      "25579584",
+      "30517002",
+      "25207541",
+      "38521588",
+      "24939133",
+      "32898859",
+      "26354862",
+      "23423380",
+      "33807659",
+      "30501034",
+      "30278241",
+      "32723475",
+      "11745112",
+      "24729465",
+      "25907625",
+      "29517770",
+      "36440760",
+      "19958507",
+      "37479077",
+      "36124670",
+      "29906500",
+      "35092818",
+      "20670662",
+      "31722410",
+      "26649896",
+      "34624313",
+      "22351747",
+      "35124022",
+      "33599256",
+      "32454109",
+      "37389723",
+      "35446122",
+      "37870474",
+      "33347280",
+      "27098781",
+      "18842585",
+      "29361764",
+      "25679041",
+      "18490377",
+      "35862260",
+      "37909035",
+      "34029082",
+      "23275549",
+      "33106247",
+      "30350579",
+      "32056246",
+      "23335983",
+      "26332732",
+      "25341562",
+      "31988292",
+      "36208174",
+      "36017725",
+      "38263258",
+      "39265533"
+    ],
+    "review": [
+      "38519458",
+      "32826060",
+      "32178871",
+      "37422364",
+      "25879384",
+      "37239436",
+      "22488917",
+      "35625576",
+      "30736345",
+      "35789129",
+      "25268620",
+      "26403244",
+      "25979174",
+      "32898859",
+      "11745112",
+      "24729465",
+      "22351747",
+      "35124022",
+      "33599256",
+      "35862260",
+      "37909035",
+      "32056246",
+      "36208174"
+    ],
+    "pmc": [
+      "10959947"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-46731-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38519458/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38519458",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

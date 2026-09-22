@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or quantitative results
+- **Shared manuscript claim summary** The authors use coarse-grain molecular dynamics simulations with the CALVADOS model to characterize the conformational landscape of the intrinsically disordered protein tau, with and without phosphorylation. They introduce a metric termed "Statistical Tertiary Organization" (STO) to describe average spatial arrangements of domains, use IDP-specific metrics for local curvature and flexibility, relate local flexibility to NMR T2 relaxation times, connect curvature and flexibility patterns in repeat domains to tau binding properties, and revisit the paperclip model of tau spatial organization under phosphorylation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or quantitative data provided
+- **Missing materials affecting confidence** Full manuscript, simulation parameters, validation of the CALVADOS model for tau, NMR comparison details, statistical analyses, and any quantitative results supporting the stated connections
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of coarse-grain simulations to a biologically relevant IDP, with a novel conceptual framework (STO) and connections to experimental NMR data. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the simulations, the robustness of the proposed metrics, or the strength of the claimed links between simulation-derived flexibility and experimental relaxation times. The connection between curvature/flexibility patterns and tau binding properties appears speculative without explicit modeling of binding partners. The reinterpretation of the paperclip model is intriguing but cannot be assessed without quantitative support.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, computational biophysics, and neurodegeneration would be interested. The work addresses fundamental questions about how disorder manifests across a protein sequence and how phosphorylation modulates conformational ensembles, which is relevant to understanding tau function and dysfunction in Alzheimer's disease. The proposed STO concept may interest those developing new descriptors for IDP ensembles.
+- **Major strengths** The work addresses a biologically important and technically challenging problem, namely characterizing conformational ensembles of a large IDP with multiple phosphorylation sites. The introduction of a new organizational descriptor (STO) for IDPs is conceptually valuable. The attempt to connect simulation-derived flexibility metrics to NMR relaxation data provides a potential bridge between computation and experiment. The connection of local conformational features to binding properties without explicit partner modeling is an ambitious and potentially useful approach.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that comparing local flexibilities with T2 relaxation times from NMR experiments shows how this metric is related to protein dynamics.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states a comparison between simulation-derived local flexibility and NMR T2 relaxation times, but provides no quantitative details on the correlation quality, the number of residues compared, the treatment of timescale mismatches between coarse-grain simulations and NMR relaxation, or the statistical significance of the relationship.
+  - **Why it matters** Coarse-grain simulations typically access timescales much shorter than those probed by NMR relaxation experiments, and the mapping between a coarse-grained flexibility metric and an experimental observable requires careful validation. Without this information, the claimed relationship cannot be evaluated.
+  - **Resolution test** Provide quantitative correlation coefficients, a description of how the flexibility metric was mapped to T2 values, and a discussion of timescale limitations. Show that the relationship is statistically robust and not an artifact of the coarse-graining approach.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The authors claim that a curvature and flexibility pattern in the repeat domains can be connected to tau binding properties without explicitly modeling the protein's interaction partner.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract asserts a connection between local conformational features and binding properties, but provides no mechanistic explanation or validation for this connection. Without explicit binding simulations or experimental binding data, it is unclear how curvature and flexibility patterns translate into binding affinity or specificity.
+  - **Why it matters** This claim extends beyond descriptive characterization into functional prediction. If not properly justified, it risks overinterpreting simulation-derived features as biologically meaningful without direct evidence.
+  - **Resolution test** Provide a clear mechanistic rationale for how curvature and flexibility influence binding, ideally supported by comparison with known tau binding data or by additional simulations with binding partners. Alternatively, reframe the claim as a hypothesis rather than an established connection.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors use coarse-grain MD simulations with the CALVADOS model to investigate the conformational landscape of tau without and with phosphorylations.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which phosphorylation sites were included, how many phosphomimetic or phosphorylated variants were simulated, the simulation length, the number of replicas, or the convergence criteria used. These details are essential for assessing whether the conformational ensembles are adequately sampled.
+  - **Why it matters** IDP simulations are notoriously sensitive to force field parameters and sampling adequacy. Without information on simulation setup and convergence, the reliability of the resulting ensembles and all derived metrics is uncertain.
+  - **Resolution test** Provide full simulation details including system construction, phosphorylation site selection, simulation length, replica number, and convergence assessment. Show that the ensembles are converged and that results are robust to simulation length.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of STO
+  - **Evidence pointer** Abstract
+  - **Issue** The term "Statistical Tertiary Organization" is introduced but not clearly defined in the abstract. The phrase "average spatial arrangements of domains" is vague and could benefit from a more precise operational definition.
+  - **Required correction** Provide a concise but precise definition of STO, including how it is computed from simulation trajectories and how it differs from existing descriptors of IDP ensembles.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "tertiary structure" analogy
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that STO "constitute[s] an extension of the tertiary structure of folded proteins." This analogy may be misleading, as IDPs lack a stable tertiary structure by definition. The relationship between STO and tertiary structure should be clarified.
+  - **Required correction** Clarify whether STO is intended as an analogy or as a formal extension, and discuss the limitations of this comparison.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental connection
+  - **Affected element** NMR comparison
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract mentions comparing local flexibilities with T2 relaxation times but does not specify which NMR data were used, whether they were from the literature or new experiments, or the phosphorylation state of the protein in the NMR experiments.
+  - **Required correction** Specify the source of the NMR data, the experimental conditions, and whether the comparison was made for the same phosphorylation states as simulated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scope of conclusions
+  - **Affected element** Paperclip model reinterpretation
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the paperclip model is "rediscussed" and that changes in interaction patterns "allow us to propose experimental setups." This suggests the conclusions are partly speculative, which is appropriate, but the distinction between established findings and hypotheses should be clearer.
+  - **Required correction** Clearly label which conclusions are directly supported by simulation data and which are proposed hypotheses for future testing.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (NMR comparison lacks quantitative support), R1-M2 (binding connection lacks mechanistic validation), R1-M3 (simulation details insufficient for reproducibility assessment)
+- **Assessment against Nature-style criteria** Originality: The STO concept and the attempt to connect local flexibility to NMR relaxation are original contributions, though the abstract does not fully establish their novelty relative to existing IDP descriptors. Scientific importance: The work addresses a biologically significant problem with potential relevance to neurodegeneration, but the importance of the specific findings cannot be fully assessed from the abstract. Interdisciplinary readership: The work bridges computational biophysics and experimental NMR, which could appeal to a broad readership, but the abstract may be too specialized for nonspecialists without additional context. Technical soundness: Cannot be assessed from the abstract alone; the missing simulation and analysis details are critical. Readability for nonspecialists: The abstract is reasonably accessible but introduces several new terms and concepts without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting research direction, but the technical details and quantitative support needed to evaluate the core claims are not visible. A full manuscript review would be required to determine whether the case is made.
+
+## Risk / unsupported claims
+- The claimed relationship between simulation-derived flexibility and NMR T2 relaxation times is unsupported without quantitative correlation data and timescale considerations.
+- The connection between curvature and flexibility patterns in repeat domains and tau binding properties is unsupported without mechanistic evidence or validation against binding data.
+- The reinterpretation of the paperclip model and the proposed experimental setups are presented as conclusions but appear to be hypotheses; their status is unclear from the abstract.
+- The claim that "disorder comes in various flavors" as demonstrated by domain-specific compactness is plausible but not quantitatively supported in the abstract.
+- The overall conformational landscape characterization cannot be evaluated without information on ensemble convergence and sampling adequacy.

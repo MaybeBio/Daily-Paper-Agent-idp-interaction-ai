@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "37689829",
+    "doi": "10.1038/s42004-023-00995-2",
+    "title": "Simulations of a protein fold switch reveal crowding-induced population shifts driven by disordered regions."
+  },
+  "content": {
+    "abstract": "Macromolecular crowding effects on globular proteins, which usually adopt a single stable fold, have been widely studied. However, little is known about crowding effects on fold-switching proteins, which reversibly switch between distinct folds. Here we study the mutationally driven switch between the folds of G(A) and G(B), the two 56-amino acid binding domains of protein G, using a structure-based dual-basin model. We show that, in the absence of crowders, the fold populations P(A) and P(B) can be controlled by the strengths of contacts in the two folds, kappa(A) and kappa(B). A population balance, P(A)  approximately  P(B), is obtained for kappa(B)/kappa(A) = 0.92. The resulting model protein is subject to crowding at different packing fractions, varphi(c). We find that crowding increases the G(B) population and reduces the G(A) population, reaching P(B)/P(A)  approximately  4 at varphi(c) = 0.44. We analyze the varphi(c)-dependence of the crowding-induced G(A)-to-G(B) switch using scaled particle theory, which provides a qualitative, but not quantitative, fit of our data, suggesting effects beyond a spherical description of the folds. We show that the terminal regions of the protein chain, which are intrinsically disordered only in G(A), play a dominant role in the response of the fold switch to crowding effects.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bazmi, Saman",
+        "Seifi, Bahman",
+        "Wallin, Stefan"
+      ],
+      "short_names": [
+        "Bazmi S",
+        "Seifi B",
+        "Wallin S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2496-8019",
+        "ORCID: 0000-0001-6202-5316",
+        "ORCID: 0000-0002-1077-5331"
+      ],
+      "affiliations": [
+        "Department of Physics and Physical Oceanography, Memorial University of Newfoundland, St. John's, NL, A1B 3X7, Canada.",
+        "Department of Physics and Physical Oceanography, Memorial University of Newfoundland, St. John's, NL, A1B 3X7, Canada.",
+        "Department of Physics and Physical Oceanography, Memorial University of Newfoundland, St. John's, NL, A1B 3X7, Canada. swallin@mun.ca."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bazmi, Saman",
+        "short_name": "Bazmi S",
+        "identifiers": [
+          "0000-0003-2496-8019"
+        ],
+        "affiliations": [
+          "Department of Physics and Physical Oceanography, Memorial University of Newfoundland, St. John's, NL, A1B 3X7, Canada."
+        ]
+      },
+      {
+        "full_name": "Seifi, Bahman",
+        "short_name": "Seifi B",
+        "identifiers": [
+          "0000-0001-6202-5316"
+        ],
+        "affiliations": [
+          "Department of Physics and Physical Oceanography, Memorial University of Newfoundland, St. John's, NL, A1B 3X7, Canada."
+        ]
+      },
+      {
+        "full_name": "Wallin, Stefan",
+        "short_name": "Wallin S",
+        "identifiers": [
+          "0000-0002-1077-5331"
+        ],
+        "affiliations": [
+          "Department of Physics and Physical Oceanography, Memorial University of Newfoundland, St. John's, NL, A1B 3X7, Canada. swallin@mun.ca."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications chemistry"
+    ],
+    "journal_abbrev": [
+      "Commun Chem"
+    ],
+    "pub_date": "2023 Sep 9",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/10 00:42",
+    "fetched_at": "2026-09-21 01:08:59"
+  },
+  "links": {
+    "cites": [
+      "41925241",
+      "39660892",
+      "38537533"
+    ],
+    "refs": [
+      "37291449",
+      "36702827",
+      "36382197",
+      "36255050",
+      "34478435",
+      "33521926",
+      "33384377",
+      "33176159",
+      "30301792",
+      "30150375",
+      "29787234",
+      "29784778",
+      "28510157",
+      "28447708",
+      "26963394",
+      "26230837",
+      "26113641",
+      "26033324",
+      "25706822",
+      "25185557",
+      "23912849",
+      "23442920",
+      "23353683",
+      "23095672",
+      "23028272",
+      "22938266",
+      "22817892",
+      "22583310",
+      "22325777",
+      "22214186",
+      "20662522",
+      "20591649",
+      "20368465",
+      "20365782",
+      "20338853",
+      "19923431",
+      "18583598",
+      "18364395",
+      "17719556",
+      "16338404",
+      "15596487",
+      "15237999",
+      "14613939",
+      "11101895",
+      "9080195",
+      "6633513"
+    ],
+    "similar": [
+      "37689829",
+      "23912807",
+      "33048928",
+      "34929201",
+      "21133453",
+      "24312701",
+      "27834427",
+      "24559993",
+      "32487732",
+      "34291085",
+      "33587794",
+      "29539394",
+      "27253392",
+      "37257544",
+      "23941183",
+      "26595211",
+      "26894933",
+      "24915485",
+      "27471851",
+      "27410731",
+      "28425679",
+      "25723249",
+      "20338853",
+      "25111129",
+      "31855846",
+      "33167653",
+      "33155586",
+      "28698807",
+      "22616622",
+      "20617196",
+      "26450331",
+      "34293868",
+      "27860069",
+      "25302571",
+      "25286318",
+      "26156390",
+      "35634782",
+      "11749217",
+      "24187527",
+      "25706822",
+      "26851933",
+      "37418731",
+      "33030907",
+      "30909517",
+      "35143192",
+      "35435684",
+      "37673981",
+      "30590739",
+      "35012986",
+      "23189168",
+      "31185626",
+      "7756551",
+      "34972378",
+      "27936623",
+      "33521926",
+      "35672949",
+      "28295725",
+      "16343531",
+      "33744250",
+      "33215185",
+      "18780817",
+      "19651049",
+      "19580740",
+      "35596432",
+      "25185557",
+      "22947858",
+      "35239418",
+      "22208186",
+      "20672856",
+      "21534566",
+      "19392239",
+      "22174874",
+      "22070323",
+      "22583310",
+      "27844185",
+      "20228897",
+      "37779215",
+      "28938832",
+      "29115315",
+      "21320458",
+      "24639500",
+      "28393629",
+      "30791483",
+      "27281267",
+      "30963769",
+      "22429139",
+      "33384377",
+      "25347801",
+      "31763853",
+      "32323533",
+      "21627822"
+    ],
+    "review": [
+      "37689829",
+      "30909517"
+    ],
+    "pmc": [
+      "10492864"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42004-023-00995-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37689829/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37689829",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

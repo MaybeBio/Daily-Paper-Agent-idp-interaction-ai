@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42589434",
+  "title": "Protein Self-Interaction in Cellular Function and Network Evolution: Molecular Mechanisms, AI-Driven Insights, and Therapeutic Potentials.",
+  "authors": "Gao, Yuanxiao; Zhang, Wenyu; Hu, Guang",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2026-08-13",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述系统梳理了蛋白自互作（同源寡聚）在细胞信号网络与相分离中的分子机制，并整合深度学习/蛋白语言模型等AI方法解析其结构动态，虽聚焦同型互作而非典型IDR-PPI，但机制建模与AI方法对本课题有直接启发。",
+  "abstract": "Protein self-interaction to form homodimers and higher-order homo-oligomers is a ubiquitous phenomenon fundamental to living organisms. Recent structural, system-level, and computational insights reveal that self-interacting proteins dictate the specificity, rewiring, and topological complexity of cellular signaling networks and macromolecular assemblies. Beyond their physiological roles, aberrant or dysregulated homotypic interactions disrupt cellular proteostasis, driving the formation of toxic non-native oligomers, pathological amyloid fibrillization, or aberrant liquid-liquid phase separation transitions linked to neurodegenerative and systemic diseases. This review provides a comprehensive overview of the state-of-the-art experimental methodologies, including proximity labeling, as well as the advanced computational frameworks, such as deep learning architectures and protein language models, used to map the structural dynamics of SIPs. Furthermore, we dissect the evolutionary trajectories of SIPs within protein-protein interaction networks, which are underpinned by dosage-balance constraints, and highlight their diverse functional advantages, ranging from allosteric modulation to biomolecular condensation. Finally, we summarize the molecular mechanisms linking pathological self-associations to human disorders, underscoring the emerging paradigm of targeting homotypic interfaces as a promising frontier for precision therapeutics.",
+  "abstract_zh": "蛋白质自我相互作用形成同源二聚体及更高阶同源寡聚体，是生命有机体中普遍存在且至关重要的现象。近年来的结构学、系统层面及计算生物学研究揭示，自相互作用蛋白决定了细胞信号网络和超大分子组装的特异性、重连性及拓扑复杂性。除其生理功能外，异常或失调的同型相互作用会破坏细胞蛋白质稳态，驱动有毒非天然寡聚体的形成、病理性淀粉样纤维化，或与神经退行性疾病及系统性疾病相关的异常液-液相分离转变。本综述全面概述了最先进的实验方法，包括邻近标记技术，以及先进的计算框架，如深度学习架构和蛋白质语言模型，用于绘制SIPs的结构动态。此外，我们剖析了SIPs在蛋白质-蛋白质相互作用网络中的进化轨迹，这些轨迹受剂量平衡约束的支撑，并强调了其多样化的功能优势，从变构调节到生物分子凝聚。最后，我们总结了将病理性自我关联与人类疾病联系起来的分子机制，强调了靶向同型界面作为精准治疗新兴前沿的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42589434/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42589434/",
+  "paper_page_path": "papers/pubmed/42589434/index.html"
+}

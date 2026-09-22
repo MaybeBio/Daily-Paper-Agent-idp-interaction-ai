@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "36009025",
+    "doi": "10.3390/biom12081131",
+    "title": "An Interpretable Machine-Learning Algorithm to Predict Disordered Protein Phase Separation Based on Biophysical Interactions."
+  },
+  "content": {
+    "abstract": "Protein phase separation is increasingly understood to be an important mechanism of biological organization and biomaterial formation. Intrinsically disordered protein regions (IDRs) are often significant drivers of protein phase separation. A number of protein phase-separation-prediction algorithms are available, with many being specific for particular classes of proteins and others providing results that are not amenable to the interpretation of the contributing biophysical interactions. Here, we describe LLPhyScore, a new predictor of IDR-driven phase separation, based on a broad set of physical interactions or features. LLPhyScore uses sequence-based statistics from the RCSB PDB database of folded structures for these interactions, and is trained on a manually curated set of phase-separation-driving proteins with different negative training sets including the PDB and human proteome. Competitive training for a variety of physical chemical interactions shows the greatest contribution of solvent contacts, disorder, hydrogen bonds, pi-pi contacts, and kinked beta-structures to the score, with electrostatics, cation-pi contacts, and the absence of a helical secondary structure also contributing. LLPhyScore has strong phase-separation-prediction recall statistics and enables a breakdown of the contribution from each physical feature to a sequence's phase-separation propensity, while recognizing the interdependence of many of these features. The tool should be a valuable resource for guiding experiments and providing hypotheses for protein function in normal and pathological states, as well as for understanding how specificity emerges in defining individual biomolecular condensates.",
+    "keywords": [
+      "biomolecular condensates",
+      "intrinsically disordered proteins",
+      "machine learning",
+      "phase separation",
+      "physical interactions",
+      "predictor"
+    ],
+    "mesh_terms": [
+      "Algorithms",
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Machine Learning",
+      "Static Electricity"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cai, Hao",
+        "Vernon, Robert M",
+        "Forman-Kay, Julie D"
+      ],
+      "short_names": [
+        "Cai H",
+        "Vernon RM",
+        "Forman-Kay JD"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6818-6823",
+        "ORCID: 0000-0001-6479-2738",
+        "ORCID: 0000-0001-8265-972X"
+      ],
+      "affiliations": [
+        "Molecular Medicine Program, Hospital for Sick Children, Toronto, ON M5G 0A4, Canada.",
+        "Molecular Medicine Program, Hospital for Sick Children, Toronto, ON M5G 0A4, Canada.",
+        "Molecular Medicine Program, Hospital for Sick Children, Toronto, ON M5G 0A4, Canada.",
+        "Department of Biochemistry, University of Toronto, Toronto, ON M5S 1A8, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cai, Hao",
+        "short_name": "Cai H",
+        "identifiers": [
+          "0000-0001-6818-6823"
+        ],
+        "affiliations": [
+          "Molecular Medicine Program, Hospital for Sick Children, Toronto, ON M5G 0A4, Canada."
+        ]
+      },
+      {
+        "full_name": "Vernon, Robert M",
+        "short_name": "Vernon RM",
+        "identifiers": [
+          "0000-0001-6479-2738"
+        ],
+        "affiliations": [
+          "Molecular Medicine Program, Hospital for Sick Children, Toronto, ON M5G 0A4, Canada."
+        ]
+      },
+      {
+        "full_name": "Forman-Kay, Julie D",
+        "short_name": "Forman-Kay JD",
+        "identifiers": [
+          "0000-0001-8265-972X"
+        ],
+        "affiliations": [
+          "Molecular Medicine Program, Hospital for Sick Children, Toronto, ON M5G 0A4, Canada.",
+          "Department of Biochemistry, University of Toronto, Toronto, ON M5S 1A8, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2022 Aug 17",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/27 06:00",
+    "fetched_at": "2026-09-20 12:48:52"
+  },
+  "links": {
+    "cites": [
+      "42502839",
+      "42231907",
+      "42184109",
+      "42111166",
+      "41814089",
+      "41415420",
+      "41337585",
+      "41266895",
+      "41033554",
+      "40867524",
+      "40624022",
+      "40524024",
+      "40160533",
+      "40028898",
+      "39883284",
+      "39464109",
+      "39433596",
+      "39290787",
+      "39243101",
+      "39133858",
+      "38987300",
+      "38553587",
+      "38380794",
+      "37917924",
+      "37574757",
+      "37552831",
+      "37464880",
+      "37371595",
+      "37171907",
+      "36979462",
+      "36662637",
+      "36551199",
+      "36528065",
+      "36259463"
+    ],
+    "refs": [
+      "35675815",
+      "35168563",
+      "34710373",
+      "34537246",
+      "33535034",
+      "33318217",
+      "32132204",
+      "31906602",
+      "31784535",
+      "31683819",
+      "31612960",
+      "31584089",
+      "31270472",
+      "31252218",
+      "31097543",
+      "30994888",
+      "30986043",
+      "30197298",
+      "30099026",
+      "29961577",
+      "29886015",
+      "29604827",
+      "29602697",
+      "29439243",
+      "29424691",
+      "29303563",
+      "29091028",
+      "29043368",
+      "28942918",
+      "28819146",
+      "28507126",
+      "28340338",
+      "28225081",
+      "28150232",
+      "27911723",
+      "27840600",
+      "27824447",
+      "27552079",
+      "27545621",
+      "27392146",
+      "27320918",
+      "27056844",
+      "26831090",
+      "26727894",
+      "26390327",
+      "26053298",
+      "25866491",
+      "25747659",
+      "25246432",
+      "23921808",
+      "23901099",
+      "23020662",
+      "22579281",
+      "22398450",
+      "21763600",
+      "21081222",
+      "20124702",
+      "19730682",
+      "19460965",
+      "19345193",
+      "17641629",
+      "17576678",
+      "17082456",
+      "16783793",
+      "11738083",
+      "10592235",
+      "9007987",
+      "8749853",
+      "8218270"
+    ],
+    "similar": [
+      "36009025",
+      "29424691",
+      "30471685",
+      "33078839",
+      "40131954",
+      "33139563",
+      "40028898",
+      "33357399",
+      "34710373",
+      "39947751",
+      "34390736",
+      "39248370",
+      "38348795",
+      "36528065",
+      "33248138",
+      "39383002",
+      "33069007",
+      "40867524",
+      "28924037",
+      "39589885",
+      "36657879",
+      "32225071",
+      "38459060",
+      "39042834",
+      "33076213",
+      "36908253",
+      "38941236",
+      "32696384",
+      "37574757",
+      "39333476",
+      "34951585",
+      "37498545",
+      "41337585",
+      "36272675",
+      "32393642",
+      "39232584",
+      "29509422",
+      "36821650",
+      "34074792",
+      "38915483",
+      "32696354",
+      "40748104",
+      "34029402",
+      "36524527",
+      "41457474",
+      "35481633",
+      "32312191",
+      "38855848",
+      "34291921",
+      "38252962",
+      "38308651",
+      "36575582",
+      "41033554",
+      "38297118",
+      "39504303",
+      "32756939",
+      "40574713",
+      "39537752",
+      "37328094",
+      "36496075",
+      "31709918",
+      "35179885",
+      "37191808",
+      "35094056",
+      "38701796",
+      "36291695",
+      "36754681",
+      "34716273",
+      "31797598",
+      "41276815",
+      "32824743",
+      "41433062",
+      "40848932",
+      "41481439",
+      "33930220",
+      "35883530",
+      "41272974",
+      "38588835",
+      "35918061",
+      "30397688",
+      "36040869",
+      "37573815",
+      "37287138",
+      "36416859",
+      "27392146",
+      "39225535",
+      "41169547",
+      "38383656",
+      "32619404",
+      "39093570",
+      "35767567",
+      "40136009",
+      "31237369",
+      "39718444",
+      "34090478",
+      "36412795",
+      "40588121",
+      "39253485",
+      "34179096",
+      "33827920"
+    ],
+    "review": [
+      "36009025",
+      "33078839",
+      "33357399",
+      "39947751",
+      "34390736",
+      "38348795",
+      "33248138",
+      "33069007",
+      "29509422",
+      "36821650",
+      "36524527",
+      "32312191",
+      "38855848",
+      "34291921",
+      "31709918",
+      "35179885",
+      "36754681",
+      "33930220",
+      "38588835",
+      "37573815",
+      "39093570",
+      "31237369"
+    ],
+    "pmc": [
+      "9405563"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom12081131",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36009025/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36009025",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.25.550448",
+  "title": "VCF1 is an unconventional p97/VCP cofactor promoting recognition of ubiquitylated p97-UFD1-NPL4 substrates",
+  "doi": "10.1101/2023.07.25.550448",
+  "abstract": "<h4>Summary</h4> The hexameric AAA+ ATPase p97/VCP functions as an essential mediator of ubiquitin-dependent cellular processes, extracting ubiquitylated proteins from macromolecular complexes or membranes by catalyzing their unfolding. p97 is directed to ubiquitylated client proteins via multiple cofactors, most of which interact with the p97 N-domain. Here, we discovered that FAM104A, a protein of unknown function that we named VCF1 (VCP/p97 Cofactor FAM104 1), acts as a novel p97 cofactor in human cells. Detailed structure-function studies revealed that VCF1 directly binds p97 via a conserved novel α-helical motif that recognizes the p97 N-domain with unusually high affinity, exceeding that of other cofactors. We show that VCF1 engages in joint p97 complex formation with the heterodimeric primary p97 cofactor UFD1-NPL4 and promotes p97-UFD1-NPL4-dependent proteasomal degradation of ubiquitylated substrates in cells. Mechanistically, VCF1 indirectly stimulates UFD1-NPL4 interactions with ubiquitin conjugates via its binding to p97 but has no intrinsic affinity for ubiquitin. Collectively, our findings establish VCF1 as an unconventional p97 cofactor that promotes p97-dependent protein turnover by facilitating p97-UFD1-NPL4 recruitment to ubiquitylated targets.",
+  "authors": [
+    "Mirsanaye AS",
+    "Hoffmann S",
+    "Weisser M",
+    "Mund A",
+    "Mendez BL",
+    "Typas D",
+    "van den Boom J",
+    "Benedict B",
+    "Hendriks IA",
+    "Nielsen ML",
+    "Meyer H",
+    "Duxin JP",
+    "Montoya G",
+    "Mailand N"
+  ],
+  "published_date": "2023-07-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.25.550448",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.25.550448.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR697726",
+    "raw_record": {
+      "id": "PPR697726",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR697726"
+        ]
+      },
+      "doi": "10.1101/2023.07.25.550448",
+      "title": "VCF1 is an unconventional p97/VCP cofactor promoting recognition of ubiquitylated p97-UFD1-NPL4 substrates",
+      "authorString": "Mirsanaye AS, Hoffmann S, Weisser M, Mund A, Mendez BL, Typas D, van den Boom J, Benedict B, Hendriks IA, Nielsen ML, Meyer H, Duxin JP, Montoya G, Mailand N.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mirsanaye AS",
+            "lastName": "Mirsanaye",
+            "firstName": "Ann Schirin",
+            "initials": "AS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Signaling Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, DK-2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoffmann S",
+            "lastName": "Hoffmann",
+            "firstName": "Saskia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Signaling Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, DK-2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weisser M",
+            "lastName": "Weisser",
+            "firstName": "Melanie",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3946-3929"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Signaling Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, DK-2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mund A",
+            "lastName": "Mund",
+            "firstName": "Andreas",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Signaling Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, DK-2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mendez BL",
+            "lastName": "Mendez",
+            "firstName": "Blanca Lopez",
+            "initials": "BL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Signaling Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, DK-2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Typas D",
+            "lastName": "Typas",
+            "firstName": "Dimitris",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Signaling Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, DK-2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van den Boom J",
+            "lastName": "van den Boom",
+            "firstName": "Johannes",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biology I, Faculty of Biology, University of Duisburg-Essen, 45117 Essen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Benedict B",
+            "lastName": "Benedict",
+            "firstName": "Bente",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Signaling Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, DK-2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hendriks IA",
+            "lastName": "Hendriks",
+            "firstName": "Ivo",
+            "initials": "IA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Signaling Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, DK-2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nielsen ML",
+            "lastName": "Nielsen",
+            "firstName": "Michael Lund",
+            "initials": "ML",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Signaling Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, DK-2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meyer H",
+            "lastName": "Meyer",
+            "firstName": "Hemmo",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Biology I, Faculty of Biology, University of Duisburg-Essen, 45117 Essen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Duxin JP",
+            "lastName": "Duxin",
+            "firstName": "Julien",
+            "initials": "JP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Signaling Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, DK-2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Montoya G",
+            "lastName": "Montoya",
+            "firstName": "Guillermo",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Signaling Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, DK-2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mailand N",
+            "lastName": "Mailand",
+            "firstName": "Niels",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Protein Signaling Program, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, DK-2200 Copenhagen, Denmark"
+                },
+                {
+                  "affiliation": "Center for Chromosome Stability, Department of Cellular and Molecular Medicine, University of Copenhagen, Blegdamsvej 3B, DK-2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3946-3929"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Summary</h4>  The hexameric AAA+ ATPase p97/VCP functions as an essential mediator of ubiquitin-dependent cellular processes, extracting ubiquitylated proteins from macromolecular complexes or membranes by catalyzing their unfolding. p97 is directed to ubiquitylated client proteins via multiple cofactors, most of which interact with the p97 N-domain. Here, we discovered that FAM104A, a protein of unknown function that we named VCF1 (VCP/p97 Cofactor FAM104 1), acts as a novel p97 cofactor in human cells. Detailed structure-function studies revealed that VCF1 directly binds p97 via a conserved novel α-helical motif that recognizes the p97 N-domain with unusually high affinity, exceeding that of other cofactors. We show that VCF1 engages in joint p97 complex formation with the heterodimeric primary p97 cofactor UFD1-NPL4 and promotes p97-UFD1-NPL4-dependent proteasomal degradation of ubiquitylated substrates in cells. Mechanistically, VCF1 indirectly stimulates UFD1-NPL4 interactions with ubiquitin conjugates via its binding to p97 but has no intrinsic affinity for ubiquitin. Collectively, our findings establish VCF1 as an unconventional p97 cofactor that promotes p97-dependent protein turnover by facilitating p97-UFD1-NPL4 recruitment to ubiquitylated targets.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "715975",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/07/25/2023.07.25.550448.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.07.25.550448"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR697726"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR697726&type=FILE&fileName=EMS182016-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS182016",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "hpa",
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-07-28",
+      "firstPublicationDate": "2023-07-25",
+      "firstIndexDate": "2023-07-28",
+      "fullTextReceivedDate": "2023-09-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

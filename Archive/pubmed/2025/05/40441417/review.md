@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, computational methods, results and discussion, and concluding remarks. Supplementary material referenced but not provided.
+- **Assessment boundary** Technical soundness of the computational approach, validity of the claims relative to the presented evidence, and clarity of the presentation. No assessment of experimental biology or in vivo relevance beyond what is claimed.
+- **Shared manuscript claim summary** The authors propose a computational protocol using T-REMD simulations benchmarked against a full-length dCRY crystal structure to explore the conformational landscape of ClCRY4, focusing on the intrinsically disordered CCE and its coupling to the PBL. They report that ClCRY4's CCE exhibits unique dynamics, stronger correlation with the PBL than in dCRY, and multiple conformational states, suggesting functional significance for magnetoreception.
+- **Visible evidence base** Main text figures (Figures 1–12), supplementary figures and tables referenced (Figures S1–S7, Tables S1–S6), equations for T-REMD exchange probability, autoencoder loss, t-ICA eigenvalue problem, RMSD, RMSF, and DCCM.
+- **Missing materials affecting confidence** Supplementary material (Figures S1–S7, Tables S1–S6) not provided. Simulation input files, force field parameter details, convergence diagnostics, and raw trajectory data not available. No experimental validation data.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a methodologically ambitious computational study aimed at addressing a significant gap in cryptochrome structural biology: the lack of full-length Type IV CRY structures and the poor understanding of CCE dynamics. The use of dCRY as a benchmark for T-REMD validation is a reasonable and potentially valuable strategy. However, the study's conclusions are substantially weakened by the absence of key validation metrics, the lack of direct comparison with experimental data, and the limited novelty of the core findings beyond the methodological framework. The claim of functional significance for magnetoreception is not supported by the evidence presented, which is purely computational and apo-state. The manuscript would benefit from clearer articulation of what is genuinely new and from stronger quantitative support for the central claims.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying cryptochrome dynamics, intrinsically disordered proteins, and protein conformational sampling. Researchers in magnetoreception and circadian biology may find the methodological framework useful for future studies incorporating FAD and other cofactors. The benchmarking approach could interest method developers in the MD simulation community.
+- **Major strengths**
+  - The use of a full-length crystal structure (dCRY) as a benchmark for validating T-REMD sampling is a thoughtful and potentially transferable strategy.
+  - The combination of T-REMD with multiple dimensionality reduction techniques (autoencoder, t-ICA) is methodologically sound and appropriate for the analysis of complex conformational landscapes.
+  - The hierarchical validation approach, showing that conventional MD distributions are contained within T-REMD distributions, is a useful internal consistency check.
+  - The study addresses a genuinely important problem: the structural dynamics of Type IV CRYs, which are poorly understood.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The clustering analysis of ClCRY4 conformations revealed multiple structural states, underscoring the functional significance of its intrinsically disordered regions (IDRs)."
+  - **Evidence pointer** Results and Discussion, "ClCRY4 conventional MD simulations" section; Figure 5; Table S2
+  - **Concern** The claim of "functional significance" is not supported by the data presented. The clustering analysis identifies conformational states, but no functional assay, binding partner, or mechanistic link is provided to connect these states to magnetoreception or any biological function. The study is entirely apo-state and computational.
+  - **Why it matters** Overstating functional significance from purely computational clustering of an apo-state protein undermines the scientific credibility of the conclusions and could mislead readers about the biological relevance of the findings.
+  - **Resolution test** The authors should either remove or substantially soften the functional significance claim, or provide additional evidence (e.g., comparison with known functional mutants, binding site analysis, or experimental data) linking the identified conformational states to function.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "By using Drosophila cryptochrome (dCRY) as a reference structure, we assessed the reliability of T-REMD sampling in capturing key states of ClCRY4."
+  - **Evidence pointer** Results and Discussion, "dCRY T-REMD simulations" section; Figure 4
+  - **Concern** The validation of T-REMD sampling using dCRY is incomplete. The authors show that conventional MD distributions are contained within T-REMD distributions, but this is a weak validation. No quantitative convergence metrics are provided (e.g., autocorrelation times, effective sample sizes, or comparison of free-energy estimates across independent runs). The selection of 227 snapshots from T-REMD that resemble the crystal structure is suggestive but not a rigorous demonstration of convergence.
+  - **Why it matters** Without proper convergence assessment, the T-REMD simulations may not have adequately sampled the conformational space, which would undermine all subsequent analyses and conclusions.
+  - **Resolution test** Provide quantitative convergence diagnostics (e.g., block averaging, autocorrelation analysis, or multiple independent T-REMD runs) and demonstrate that the free-energy landscape is stable. Alternatively, validate against experimental data (e.g., SAXS, FRET, or NMR chemical shifts) if available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The CCE region of ClCRY4 displays unique conformational dynamics and cooperative interactions with the PBL, highlighting the need for further investigation."
+  - **Evidence pointer** Results and Discussion, "Comparison of dCRY and ClCRY4 conventional simulations" section; Figures 7, 8, 11, 12
+  - **Concern** The claim of "cooperative interactions" between CCE and PBL is based on DCCM analysis, which measures linear correlations in fluctuations. This is a weak proxy for cooperativity. The average correlation coefficients (0.15 for ClCRY4, 0.06 for dCRY) are small in magnitude, and no statistical significance testing is reported. The distance distribution analysis (Figure S7) is qualitative.
+  - **Why it matters** The central mechanistic claim of the paper rests on this correlation analysis. If the correlations are not statistically robust or are an artifact of the analysis method, the main conclusion is unsupported.
+  - **Resolution test** Provide statistical significance testing for the DCCM differences, use alternative methods to assess cooperativity (e.g., mutual information, community network analysis), and demonstrate that the observed correlations are robust across simulation replicates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "This study provides a novel computational approach for studies of CRYs dynamics, through which the modeling of one CRY with full structure could be used to benchmark the computational study of another CRY only with partial structural information available."
+  - **Evidence pointer** Abstract; Concluding Remark
+  - **Concern** The novelty of the approach is overstated. The idea of using a well-characterized homolog to benchmark simulations of a less-characterized protein is not new in computational biology. The specific application to CRYs is useful, but the general principle is well established. The authors do not demonstrate that this approach provides insights that could not be obtained with standard simulation protocols.
+  - **Why it matters** The claim of novelty is central to the paper's contribution. If the approach is not genuinely novel, the paper's significance is substantially reduced.
+  - **Resolution test** Clearly articulate what specific aspect of the protocol is new and demonstrate its advantage over existing methods (e.g., standard MD, enhanced sampling without benchmarking) through direct comparison.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "ClCRY4 molecular dynamics simulations" section
+  - **Evidence pointer** "Conventional MD simulations" subsection
+  - **Issue** The description of the ClCRY4 model construction is brief. The authors state that SWISS-MODEL was used to predict the missing PBL and CCE regions, but details on template selection, model quality assessment (e.g., QMEAN, GMQE scores), and the superposition procedure are not provided.
+  - **Required correction** Provide additional details on the homology modeling procedure, including template identification, model quality metrics, and the criteria used to accept the model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Autoencoder" section
+  - **Evidence pointer** Equation (2)
+  - **Issue** The loss function includes an L2 regularization term, but the rationale for this choice and the sensitivity of the results to the regularization strength (λ = 0.001) are not discussed.
+  - **Required correction** Briefly justify the choice of regularization and comment on the robustness of the latent space to this hyperparameter.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and Discussion, "Comparison of dCRY and ClCRY4 conventional simulations" section
+  - **Evidence pointer** Figure 7
+  - **Issue** The RMSF comparison between dCRY and ClCRY4 is presented qualitatively. The authors note differences in flexibility but do not provide quantitative comparisons or identify which residues are significantly different.
+  - **Required correction** Provide a quantitative comparison of RMSF profiles, including identification of residues with statistically significant differences in flexibility.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Paragraph 2
+  - **Issue** The introduction is dense and assumes significant prior knowledge of cryptochrome biology. The distinction between Type I, II, and IV CRYs is introduced but not clearly explained for a general readership.
+  - **Required correction** Add a brief, clear explanation of the different CRY types and their functional contexts to improve accessibility.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "T-REMD simulations" section
+  - **Evidence pointer** Equation (1)
+  - **Issue** The exchange probability equation is standard, but the authors do not report the exchange acceptance rates or the distribution of replica temperatures. The average exchange rate (20.4% for dCRY, 20.9% for ClCRY4) is mentioned in the Results, but the range across replica pairs is not given.
+  - **Required correction** Report the range of exchange acceptance rates across adjacent replica pairs to confirm adequate overlap in energy distributions.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Overstated functional significance claim without supporting evidence.
+  - R1-M2: Lack of quantitative convergence diagnostics for T-REMD simulations.
+  - R1-M3: Weak statistical basis for the claimed CCE-PBL cooperativity.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The specific application of a benchmarked T-REMD protocol to ClCRY4 is new, but the general approach is not. The study does not introduce a fundamentally new method or concept.
+  - **Scientific importance** Moderate. Understanding CCE dynamics in Type IV CRYs is relevant to magnetoreception, but the apo-state, purely computational nature of the study limits its immediate impact. The findings are largely descriptive and do not resolve a long-standing question.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to computational biophysicists and cryptochrome specialists. The presentation is technical and assumes significant domain expertise, which may limit broader appeal.
+  - **Technical soundness** The methods are generally appropriate, but the lack of convergence diagnostics and statistical rigor in the correlation analysis are significant weaknesses. The study would need substantial additional analysis to be considered technically sound.
+  - **Readability for nonspecialists** Below average. The introduction and methods are dense, and the significance of the findings is not clearly communicated to a general scientific audience. The abstract is somewhat more accessible but still assumes familiarity with the field.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially useful methodological framework, but the central claims are not sufficiently supported by the evidence. Major revisions addressing the convergence of the simulations, the statistical basis for the CCE-PBL correlation claim, and the overstatement of functional significance would be required before the case is established.
+
+## Risk / unsupported claims
+- The claim that identified conformational states have "functional significance" for magnetoreception is unsupported. No functional data or mechanistic link is provided.
+- The claim of "cooperative interactions" between CCE and PBL is weakly supported by DCM analysis with small correlation coefficients and no statistical testing.
+- The claim of a "novel computational approach" is overstated; the general benchmarking strategy is established in the field.
+- The assertion that the protocol "could pave the road for studies to provide insights into CRY structural dynamics and potential functional implications in magnetoreception" is speculative and not directly supported by the results.
+- The relevance of apo-state simulations to the function of a light-dependent protein is not adequately justified. The authors acknowledge this limitation but do not address its implications for the validity of their conclusions.

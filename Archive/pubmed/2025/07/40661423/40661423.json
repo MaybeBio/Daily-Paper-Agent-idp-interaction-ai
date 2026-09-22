@@ -1,0 +1,312 @@
+{
+  "identity": {
+    "pmid": "40661423",
+    "doi": "10.1101/2025.06.09.658691",
+    "title": "Multiphasic Organization and Differential Dynamics of Proteins Within Protein-DNA Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates formed through liquid-liquid phase separation are increasingly recognized as critical regulators of genome organization and gene expression. While the role of proteins in driving phase separation is well-established, how DNA modulates the structure and dynamics of protein-DNA condensates remains less well understood. Here, we employ a minimalist coarse-grained model to investigate the interplay between homotypic protein-protein and heterotypic protein-DNA interactions in governing condensate formation, composition, and internal dynamics. Our simulations reveal that DNA chain length and flexibility critically influence condensate morphology, leading to the emergence of multiphasic and core-shell organizations under strong heterotypic interactions. We find that DNA recruitment into the condensate significantly alters protein mobility, giving rise to differential dynamics of proteins within the condensate. By analyzing the distribution profiles of protein displacements, we identify up to five distinct diffusion modes, including proteins bound to DNA, confined within the dense phase, or freely diffusing. These results provide a mechanistic framework for interpreting spatially heterogeneous protein dynamics observed in chromatin condensates and emphasize the direct role of DNA in tuning condensate properties. Our findings provide new insights into how biophysical parameters may control the functional architecture of protein-DNA condensates in biological systems.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tangade, Ashish Shyam",
+        "Mondal, Anupam",
+        "Wang, Jiahui",
+        "Kim, Young C",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Tangade AS",
+        "Mondal A",
+        "Wang J",
+        "Kim YC",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-3010-5259",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A & M University, College Station, Texas 77843, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A & M University, College Station, Texas 77843, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A & M University, College Station, Texas 77843, USA.",
+        "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, District of Columbia 20375, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A & M University, College Station, Texas 77843, USA.",
+        "Department of Chemistry, Texas A & M University, College Station, Texas 77843, USA.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A & M University, College Station, Texas 77843, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tangade, Ashish Shyam",
+        "short_name": "Tangade AS",
+        "identifiers": [
+          "0009-0007-3010-5259"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A & M University, College Station, Texas 77843, USA."
+        ]
+      },
+      {
+        "full_name": "Mondal, Anupam",
+        "short_name": "Mondal A",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A & M University, College Station, Texas 77843, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiahui",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A & M University, College Station, Texas 77843, USA."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, District of Columbia 20375, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A & M University, College Station, Texas 77843, USA.",
+          "Department of Chemistry, Texas A & M University, College Station, Texas 77843, USA.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A & M University, College Station, Texas 77843, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jun 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/15 06:27",
+    "fetched_at": "2026-09-21 21:02:36"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40350613",
+      "40199325",
+      "40009520",
+      "39469863",
+      "38592759",
+      "38572752",
+      "38553587",
+      "38429263",
+      "38383656",
+      "38365945",
+      "38316988",
+      "38250712",
+      "37988476",
+      "37721444",
+      "37000871",
+      "36537242",
+      "36168289",
+      "35802394",
+      "35643628",
+      "35364104",
+      "35238639",
+      "34916288",
+      "34759379",
+      "34653387",
+      "34598580",
+      "33661100",
+      "33619770",
+      "33582138",
+      "33568486",
+      "33302617",
+      "32873929",
+      "32312191",
+      "32087632",
+      "31971237",
+      "31703803",
+      "31543265",
+      "31540706",
+      "31398323",
+      "31270472",
+      "30342746",
+      "30322797",
+      "29677515",
+      "29364893",
+      "28935776",
+      "28790177",
+      "28636604",
+      "28636597",
+      "28355537",
+      "28225081",
+      "28029797",
+      "27410731",
+      "27212236",
+      "26400158",
+      "26317470",
+      "25747659",
+      "25288112",
+      "24003126",
+      "22763747",
+      "22398450",
+      "22037172",
+      "21680045",
+      "18576630",
+      "16935960"
+    ],
+    "similar": [
+      "40661423",
+      "40954121",
+      "40848932",
+      "36993212",
+      "33672806",
+      "40881393",
+      "40661504",
+      "38383656",
+      "40108179",
+      "40766493",
+      "35293386",
+      "40172489",
+      "33558506",
+      "38915678",
+      "36883003",
+      "37205474",
+      "37470705",
+      "40196628",
+      "36191226",
+      "41169547",
+      "35881789",
+      "40645941",
+      "39070659",
+      "40985078",
+      "30926670",
+      "40626470",
+      "40661408",
+      "39042834",
+      "37684240",
+      "37194953",
+      "35108264",
+      "41279444",
+      "40782375",
+      "39071308",
+      "36227474",
+      "40098319",
+      "31017394",
+      "35727989",
+      "40441156",
+      "38987300",
+      "38363841",
+      "37131735",
+      "40972943",
+      "37252985",
+      "35179885",
+      "30514760",
+      "39541973",
+      "34767801",
+      "37549257",
+      "39605385",
+      "40667293",
+      "40291420",
+      "36004748",
+      "38766065",
+      "40455990",
+      "34916288",
+      "34090478",
+      "23912807",
+      "38643237",
+      "40521608",
+      "36847235",
+      "40629499",
+      "38260590",
+      "39804953",
+      "41481439",
+      "40747072",
+      "40557772",
+      "40475453",
+      "38181073",
+      "41355754",
+      "40229261",
+      "33376791",
+      "39574691",
+      "39591652",
+      "37408305",
+      "37586369",
+      "39826709",
+      "37873180",
+      "41118627",
+      "38649740",
+      "33453268",
+      "34762868",
+      "36829460",
+      "36595668",
+      "40603603",
+      "33453924",
+      "37705794",
+      "39937084",
+      "40664121",
+      "36755024",
+      "35364104",
+      "40195119",
+      "38579181",
+      "39568893",
+      "37549295",
+      "40481268",
+      "39319382",
+      "33864415",
+      "34129784",
+      "38832749"
+    ],
+    "review": [
+      "40661423",
+      "40172489",
+      "35179885",
+      "34767801",
+      "40557772",
+      "40664121"
+    ],
+    "pmc": [
+      "12259059"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40661423/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.06.09.658691",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

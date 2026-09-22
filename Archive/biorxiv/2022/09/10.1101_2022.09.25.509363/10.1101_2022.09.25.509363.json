@@ -1,0 +1,143 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.09.25.509363",
+  "title": "Structural and Dynamical Properties of Elastin-Like Peptides near their Lower Critical Solution Temperature",
+  "doi": "10.1101/2022.09.25.509363",
+  "abstract": "Elastin-like peptides (ELPs) are artificially derived intrinsically disordered proteins (IDPs) mimicking the hydrophobic repeat unit in the protein elastin. ELPs are characterized by a lower critical solution temperature (LCST) in aqueous media. Here, we investigate the sequence GVG(VPGVG) 3 over a wide range of temperatures (below, around, and above the LCST) and peptide concentrations employing all-atom molecular dynamics simulations, where we focus on the role of intra- and inter-peptide interactions. We begin by investigating the structural properties of a single peptide that demonstrates a hydrophobic collapse with temperature, albeit moderate, as the sequence length is short. We observe a change in the interaction between two peptides from repulsive to attractive with temperature by evaluating the potential of mean force, indicating an LCST-like behaviour. Next, we explore dynamical and structural properties of peptides in multi-chain systems. We report the formation of dynamical aggregates with coil-like conformation, in which Val central residues play an important role. Moreover, the lifetime of contacts between chains strongly depends on the temperature and can be described by a power-law decay that is consistent with the LCST-like behaviour. Finally, the peptide translational and internal motion are slowed down by an increase in the peptide concentration and temperature.",
+  "authors": [
+    "Morozova TI",
+    "García NA",
+    "Matsarskaia O",
+    "Roosen-Runge F",
+    "Barrat J"
+  ],
+  "published_date": "2022-09-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.09.25.509363",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.09.25.509363.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR550308",
+    "raw_record": {
+      "id": "PPR550308",
+      "source": "PPR",
+      "doi": "10.1101/2022.09.25.509363",
+      "title": "Structural and Dynamical Properties of Elastin-Like Peptides near their Lower Critical Solution Temperature",
+      "authorString": "Morozova TI, García NA, Matsarskaia O, Roosen-Runge F, Barrat J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Morozova TI",
+            "lastName": "Morozova",
+            "firstName": "Tatiana",
+            "initials": "TI",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3650-4772"
+            }
+          },
+          {
+            "fullName": "García NA",
+            "lastName": "García",
+            "firstName": "Nicolás",
+            "initials": "NA"
+          },
+          {
+            "fullName": "Matsarskaia O",
+            "lastName": "Matsarskaia",
+            "firstName": "Olga",
+            "initials": "O"
+          },
+          {
+            "fullName": "Roosen-Runge F",
+            "lastName": "Roosen-Runge",
+            "firstName": "Felix",
+            "initials": "F"
+          },
+          {
+            "fullName": "Barrat J",
+            "lastName": "Barrat",
+            "firstName": "Jean-Louis",
+            "initials": "J"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3650-4772"
+          }
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Elastin-like peptides (ELPs) are artificially derived intrinsically disordered proteins (IDPs) mimicking the hydrophobic repeat unit in the protein elastin. ELPs are characterized by a lower critical solution temperature (LCST) in aqueous media. Here, we investigate the sequence GVG(VPGVG)  3 over a wide range of temperatures (below, around, and above the LCST) and peptide concentrations employing all-atom molecular dynamics simulations, where we focus on the role of intra- and inter-peptide interactions. We begin by investigating the structural properties of a single peptide that demonstrates a hydrophobic collapse with temperature, albeit moderate, as the sequence length is short. We observe a change in the interaction between two peptides from repulsive to attractive with temperature by evaluating the potential of mean force, indicating an LCST-like behaviour. Next, we explore dynamical and structural properties of peptides in multi-chain systems. We report the formation of dynamical aggregates with coil-like conformation, in which Val central residues play an important role. Moreover, the lifetime of contacts between chains strongly depends on the temperature and can be described by a power-law decay that is consistent with the LCST-like behaviour. Finally, the peptide translational and internal motion are slowed down by an increase in the peptide concentration and temperature.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/01/03/2022.09.25.509363.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.09.25.509363"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36877869",
+            "reference": "Biomacromolecules. 2023 Apr;24(4):1912-1923",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-09-28",
+      "firstPublicationDate": "2022-09-26",
+      "firstIndexDate": "2022-09-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

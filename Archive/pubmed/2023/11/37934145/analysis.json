@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37934145",
+  "title": "Sequence-Tunable Phase Behavior and Intrinsic Fluorescence in Dynamically Interacting Peptides.",
+  "authors": "Sementa, Deborah; Dave, Dhwanit; Fisher, Rachel S; Wang, Tong; Elbaum-Garfinkle, Shana; Ulijn, Rein V",
+  "journal": "Angewandte Chemie (International ed. in English)",
+  "published_date": "2023-11-07",
+  "window": {
+    "start": "2023-11-06",
+    "end": "2023-11-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过计算与实验结合，设计基于重复基序的肽模块，揭示GLG骨架n→π*相互作用调控液滴形成及序列依赖的内在荧光，虽对象为合成肽凝聚体而非天然IDP，但其序列调控相分离的机制建模思路对无序蛋白介导的PPI与凝聚体研究有可迁移启发。",
+  "abstract": "A conceptual framework towards understanding biological condensed phases is emerging, derived from biological, biomimetic, and synthetic sequences. However, de novo peptide condensate design remains a challenge due to an incomplete understanding of the structural and interactive complexity. We designed peptide modules based on a simple repeat motif composed of tripeptide spacers (GSG, SGS, GLG) interspersed with adhesive amino acids (R/H and Y). We show, using sequence editing and a combination of computation and experiment, that n-->pi* interactions in GLG backbones are a dominant factor in providing sufficient backbone structure, which in turn regulates the water interface, collectively promoting liquid droplet formation. Moreover, these R(GLG)Y and H(GLG)Y condensates unexpectedly display sequence-dependent emission that is a consequence of their non-covalent network interactions, and readily observable by confocal microscopy.",
+  "abstract_zh": "一个基于生物学、仿生学和合成序列的概念框架正在形成，用于理解生物凝聚相。然而，由于对结构和相互作用复杂性的理解尚不完整，从头设计肽凝聚体仍是一项挑战。我们基于一个简单重复基序设计了肽模块，该基序由三肽间隔区（GSG、SGS、GLG）与粘附性氨基酸（R/H和Y）交替组成。通过序列编辑以及计算与实验相结合的方法，我们表明GLG骨架中的n→π*相互作用是提供足够骨架结构的主要因素，进而调节水界面，共同促进液滴形成。此外，这些R(GLG)Y和H(GLG)Y凝聚体意外地表现出序列依赖性发射，这是其非共价网络相互作用的结果，并可通过共聚焦显微镜轻松观察。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37934145/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37934145/",
+  "paper_page_path": "papers/pubmed/37934145/index.html"
+}

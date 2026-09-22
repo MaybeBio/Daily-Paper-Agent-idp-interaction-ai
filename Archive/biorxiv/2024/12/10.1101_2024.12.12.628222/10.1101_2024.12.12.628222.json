@@ -1,0 +1,337 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.12.628222",
+  "title": "NRBP1 and TSC22D proteins impact distal convoluted tubule physiology through modulation of the WNK pathway",
+  "doi": "10.1101/2024.12.12.628222",
+  "abstract": "The With No lysine (WNK) kinases regulate processes such as cell volume and epithelial ion transport through the modulation of Cation Chloride Cotransporters such as the NaCl cotransporter, NCC, present in the distal convoluted tubule (DCT) of the kidney. Recently, the interaction of WNKs with Nuclear Receptor Binding Protein 1 (NRBP1) and Transforming Growth Factor β-Stimulated Clone 22 Domain (TSC22D) proteins was reported. Here we explored the effect of NRBP1 and TSC22Ds on WNK signaling in vitro and in the DCT. TSC22D1.1, TSC22D2, and NRBP1 are localized in DCT WNK bodies, which are cytoplasmic biomolecular condensates associated with WNK activation. In HEK293 cells, long TSC22D isoforms and NRBP1 increase WNK4 activity. DCT-specific NRBP1 knockout mice have reduced NCC phosphorylation and activate a compensatory response. Thus, NRBP1 and long TSC22D proteins are positive modulators of WNK signaling and modulate Na + reabsorption in the kidney. NRBP1 and TSC22Ds likely influence WNK signaling in other tissues, impacting various physiological processes. <h4>Teaser</h4> The pseudokinase NRBP1 and its associated TSC22D proteins modulate WNK kinases to regulate sodium reabsorption in the kidney.",
+  "authors": [
+    "Magaña-Ávila G",
+    "Carbajal-Contreras H",
+    "Amnekar R",
+    "Dite T",
+    "Téllez-Sutterlin M",
+    "García-Ávila K",
+    "Marquina-Castillo B",
+    "Lopez-Saavedra A",
+    "Vazquez N",
+    "Rojas-Ortega E",
+    "Delpire E",
+    "Ellison DH",
+    "Alessi DR",
+    "Gamba G",
+    "Castañeda-Bueno M"
+  ],
+  "published_date": "2024-12-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.12.628222",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.12.628222.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR957986",
+    "raw_record": {
+      "id": "PPR957986",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR957986"
+        ]
+      },
+      "doi": "10.1101/2024.12.12.628222",
+      "title": "NRBP1 and TSC22D proteins impact distal convoluted tubule physiology through modulation of the WNK pathway",
+      "authorString": "Magaña-Ávila G, Carbajal-Contreras H, Amnekar R, Dite T, Téllez-Sutterlin M, García-Ávila K, Marquina-Castillo B, Lopez-Saavedra A, Vazquez N, Rojas-Ortega E, Delpire E, Ellison DH, Alessi DR, Gamba G, Castañeda-Bueno M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Magaña-Ávila G",
+            "lastName": "Magaña-Ávila",
+            "firstName": "Germán",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology and Mineral Metabolism, , , ,"
+                },
+                {
+                  "affiliation": "Facultad de Medicina, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carbajal-Contreras H",
+            "lastName": "Carbajal-Contreras",
+            "firstName": "Héctor",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology and Mineral Metabolism, , , ,"
+                },
+                {
+                  "affiliation": "PECEM (MD/PhD), Facultad de Medicina, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Amnekar R",
+            "lastName": "Amnekar",
+            "firstName": "Ramchandra",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dite T",
+            "lastName": "Dite",
+            "firstName": "Toby",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Téllez-Sutterlin M",
+            "lastName": "Téllez-Sutterlin",
+            "firstName": "Michelle",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology and Mineral Metabolism, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "García-Ávila K",
+            "lastName": "García-Ávila",
+            "firstName": "Kevin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology and Mineral Metabolism, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marquina-Castillo B",
+            "lastName": "Marquina-Castillo",
+            "firstName": "Brenda",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lopez-Saavedra A",
+            "lastName": "Lopez-Saavedra",
+            "firstName": "Alejandro",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Unidad de Aplicaciones Avanzadas en Microscopía del Instituto Nacional de Cancerología y la Red de Apoyo a la Investigación, , ,"
+                },
+                {
+                  "affiliation": ", Escuela de Medicina y Ciencias de la Salud,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vazquez N",
+            "lastName": "Vazquez",
+            "firstName": "Norma",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Physiology Unit, Instituto de Investigaciones Biomédicas, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rojas-Ortega E",
+            "lastName": "Rojas-Ortega",
+            "firstName": "Eréndira",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology and Mineral Metabolism, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Delpire E",
+            "lastName": "Delpire",
+            "firstName": "Eric",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Anesthesiology, Vanderbilt University School of Medicine, Nashville, TN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ellison DH",
+            "lastName": "Ellison",
+            "firstName": "David",
+            "initials": "DH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Nephrology and Hypertension, Department of Medicine, , , ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alessi DR",
+            "lastName": "Alessi",
+            "firstName": "Dario",
+            "initials": "DR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", School of Life Sciences, , Dow Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gamba G",
+            "lastName": "Gamba",
+            "firstName": "Gerardo",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology and Mineral Metabolism, , , ,"
+                },
+                {
+                  "affiliation": "PECEM (MD/PhD), Facultad de Medicina, , , ,"
+                },
+                {
+                  "affiliation": "Molecular Physiology Unit, Instituto de Investigaciones Biomédicas, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Castañeda-Bueno M",
+            "lastName": "Castañeda-Bueno",
+            "firstName": "María",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Nephrology and Mineral Metabolism, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The With No lysine (WNK) kinases regulate processes such as cell volume and epithelial ion transport through the modulation of Cation Chloride Cotransporters such as the NaCl cotransporter, NCC, present in the distal convoluted tubule (DCT) of the kidney. Recently, the interaction of WNKs with Nuclear Receptor Binding Protein 1 (NRBP1) and Transforming Growth Factor β-Stimulated Clone 22 Domain (TSC22D) proteins was reported. Here we explored the effect of NRBP1 and TSC22Ds on WNK signaling in vitro and in the DCT. TSC22D1.1, TSC22D2, and NRBP1 are localized in DCT WNK bodies, which are cytoplasmic biomolecular condensates associated with WNK activation. In HEK293 cells, long TSC22D isoforms and NRBP1 increase WNK4 activity. DCT-specific NRBP1 knockout mice have reduced NCC phosphorylation and activate a compensatory response. Thus, NRBP1 and long TSC22D proteins are positive modulators of WNK signaling and modulate Na  + reabsorption in the kidney. NRBP1 and TSC22Ds likely influence WNK signaling in other tissues, impacting various physiological processes.  <h4>Teaser</h4>  The pseudokinase NRBP1 and its associated TSC22D proteins modulate WNK kinases to regulate sodium reabsorption in the kidney.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.12.628222"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR957986"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR957986&type=FILE&fileName=EMS202315-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS202315",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot"
+        ]
+      },
+      "dateOfCreation": "2024-12-23",
+      "firstPublicationDate": "2024-12-17",
+      "firstIndexDate": "2024-12-23",
+      "fullTextReceivedDate": "2025-04-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40720895",
+  "title": "Direct Cellular Screening of Pd-Mediated Arylation of Cyclic Peptide Binders Targeting Ubiquitin Chains: Toward Modulating NEMO Liquid-Liquid Phase Separation.",
+  "authors": "Hasan, Mahdi; Vodnala, Nagaraju; Glagovsky, Yuri; Saed, Yakop; Kriegesmann, Julia; Suga, Hiroaki; Brik, Ashraf",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2025-07-28",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过钯介导芳基化与细胞筛选优化环肽结合剂，靶向泛素链并抑制NEMO相分离，但对象为折叠蛋白泛素链而非IDP，互作机制建模与AI/物理模拟方法均缺失，仅对相分离调控有间接参考。",
+  "abstract": "Ubiquitination is a critical post-translational modification that regulates key cellular processes such as protein degradation and DNA damage repair. Targeting a specific type of ubiquitin chain (e.g., Lys48 or Lys63-linked ubiquitin chain) via cyclic peptides presents a new strategy to modulate biological processes with therapeutic potential for various diseases. However, such a strategy remains challenging due to the obstacles of cell permeability and bioactivity. Here, we present a new method that directly assesses these parameters by integrating palladium-mediated Cys arylation with direct cellular screening. Using CP4, a previously identified cyclic peptide modulator of Lys63-linked ubiquitin chains, we generated a focused library of arylated analogues and optimized the Pd-mediated arylation for direct cellular screening. We discovered a new analog, CP-P12-Ar(H), that demonstrated enhanced binding affinity and robust bioactivity, as evidenced by increased gamma-H2AX phosphorylation and apoptosis induction in cancer cells. Furthermore, CP-P12-Ar(H) effectively inhibited the in vitro formation of NF-kappaB essential modulator (NEMO) biomolecular condensates by disrupting the elongation of Lys63-linked ubiquitin chains, offering a novel way to modulate NF-kappaB signaling. This work establishes a generalizable platform for the rapid optimization of cyclic peptide therapeutics targeting protein-protein interactions.",
+  "abstract_zh": "泛素化是一种关键的翻译后修饰，调控蛋白质降解和DNA损伤修复等重要细胞过程。通过环肽靶向特定类型的泛素链（如Lys48或Lys63连接的泛素链），为调节生物过程提供了一种新策略，并具有治疗多种疾病的潜力。然而，由于细胞通透性和生物活性的障碍，该策略仍面临挑战。在此，我们提出了一种新方法，通过整合钯介导的半胱氨酸芳基化与直接细胞筛选，直接评估这些参数。利用先前鉴定的Lys63连接泛素链环肽调节剂CP4，我们生成了一个芳基化类似物的聚焦文库，并优化了用于直接细胞筛选的Pd介导芳基化反应。我们发现了一个新类似物CP-P12-Ar(H)，其表现出增强的结合亲和力和稳健的生物活性，这通过癌细胞中γ-H2AX磷酸化增加和凋亡诱导得到证实。此外，CP-P12-Ar(H)通过破坏Lys63连接泛素链的延伸，有效抑制了NF-κB必需调节因子（NEMO）生物分子凝聚体的体外形成，为调节NF-κB信号提供了一种新途径。这项工作建立了一个通用平台，用于快速优化靶向蛋白质-蛋白质相互作用的环肽治疗药物。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40720895/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40720895/",
+  "paper_page_path": "papers/pubmed/40720895/index.html"
+}

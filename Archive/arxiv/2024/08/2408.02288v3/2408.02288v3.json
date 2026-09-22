@@ -1,0 +1,38 @@
+{
+  "source": "arxiv",
+  "source_id": "2408.02288v3",
+  "title": "Spin glass model of in-context learning",
+  "doi": "10.1103/5l5m-4nk5",
+  "abstract": "Large language models show a surprising in-context learning ability -- being able to use a prompt to form a prediction for a query, yet without additional training, in stark contrast to old-fashioned supervised learning. Providing a mechanistic interpretation and linking the empirical phenomenon to physics are thus challenging and remain unsolved. We study a simple yet expressive transformer with linear attention and map this structure to a spin glass model with real-valued spins, where the couplings and fields explain the intrinsic disorder in data. The spin glass model explains how the weight parameters interact with each other during pre-training, and further clarifies why an unseen function can be predicted by providing only a prompt yet without further training. Our theory reveals that for single-instance learning, increasing the task diversity leads to the emergence of in-context learning, by allowing the Boltzmann distribution to converge to a unique correct solution of weight parameters. Therefore the pre-trained transformer displays a prediction power in a novel prompt setting. The proposed analytically tractable model thus offers a promising avenue for thinking about how to interpret many intriguing but puzzling properties of large language models.",
+  "authors": [
+    "Yuhao Li",
+    "Ruoran Bai",
+    "Haiping Huang"
+  ],
+  "published_date": "2024-08-05T07:54:01Z",
+  "updated_date": "2025-04-18T08:16:22Z",
+  "journal": "Phys. Rev. E 112, L013301 (2025)",
+  "category": "cond-mat.dis-nn, cond-mat.stat-mech, cs.AI, cs.CL",
+  "landing_url": "https://arxiv.org/abs/2408.02288v3",
+  "pdf_url": "https://arxiv.org/pdf/2408.02288v3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "3",
+  "keywords": [
+    "cond-mat.dis-nn",
+    "cond-mat.stat-mech",
+    "cs.AI",
+    "cs.CL"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2408.02288v3",
+    "raw_categories": [
+      "cond-mat.dis-nn",
+      "cond-mat.stat-mech",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "journal_ref": "Phys. Rev. E 112, L013301 (2025)"
+  }
+}

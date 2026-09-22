@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "36232847",
+    "doi": "10.3390/ijms231911545",
+    "title": "REMD Simulations of Full-Length Alpha-Synuclein Together with Ligands Reveal Binding Region and Effect on Amyloid Conversion."
+  },
+  "content": {
+    "abstract": "Alpha-synuclein is a key protein involved in the development and progression of Parkinson's disease and other synucleinopathies. The intrinsically disordered nature of alpha-synuclein hinders the computational screening of new drug candidates for the treatment of these neurodegenerative diseases. In the present work, replica exchange molecular dynamics simulations of the full-length alpha-synuclein together with low-molecular ligands were utilized to predict the binding site and effect on the amyloid-like conversion of the protein. This approach enabled an accurate prediction of the binding sites for three tested compounds (fasudil, phthalocyanine tetrasulfonate, and spermine), giving good agreement with data from experiments by other groups. Lots of information about the binding and protein conformational ensemble enabled the suggestion of a putative effect of the ligands on the amyloid-like conversion of alpha-synuclein and the mechanism of anti- and pro-amyloid activity of the tested compounds. Therefore, this approach looks promising for testing new drug candidates for binding with alpha-synuclein or other intrinsically disordered proteins and at the same time the estimation of the effect on protein behavior, including amyloid-like aggregation.",
+    "keywords": [
+      "aggregation inhibitor",
+      "alpha-synuclein",
+      "amyloid conversion",
+      "binding site prediction",
+      "intrinsically disordered proteins",
+      "molecular modeling"
+    ],
+    "mesh_terms": [
+      "Amyloid/metabolism",
+      "Amyloidogenic Proteins",
+      "*Amyloidosis",
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Ligands",
+      "Protein Conformation",
+      "Spermine",
+      "alpha-Synuclein/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Semenyuk, Pavel I"
+      ],
+      "short_names": [
+        "Semenyuk PI"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7759-6445"
+      ],
+      "affiliations": [
+        "Belozersky Research Institute of Physico-Chemical Biology, Lomonosov Moscow State University, Leninskie Gory 1/40, 119991 Moscow, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Semenyuk, Pavel I",
+        "short_name": "Semenyuk PI",
+        "identifiers": [
+          "0000-0001-7759-6445"
+        ],
+        "affiliations": [
+          "Belozersky Research Institute of Physico-Chemical Biology, Lomonosov Moscow State University, Leninskie Gory 1/40, 119991 Moscow, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Sep 30",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/15 06:00",
+    "fetched_at": "2026-09-20 15:46:57"
+  },
+  "links": {
+    "cites": [
+      "39915220",
+      "39046235",
+      "37189428",
+      "37106781"
+    ],
+    "refs": [
+      "35130691",
+      "34516126",
+      "34307295",
+      "33543942",
+      "33053854",
+      "31939603",
+      "31586134",
+      "31331359",
+      "31295325",
+      "30968896",
+      "30917654",
+      "30871103",
+      "30743095",
+      "30237470",
+      "29606412",
+      "29515354",
+      "29139324",
+      "28498720",
+      "28282814",
+      "28109332",
+      "27939273",
+      "27819658",
+      "27378848",
+      "27155979",
+      "27101974",
+      "26750431",
+      "25789869",
+      "25461276",
+      "24099687",
+      "23145473",
+      "20028147",
+      "19948969",
+      "18688361",
+      "18655061",
+      "17623039",
+      "16981680",
+      "16756495",
+      "15615727",
+      "15103328",
+      "15035641",
+      "12435752",
+      "11553618"
+    ],
+    "similar": [
+      "36232847",
+      "38335809",
+      "31903719",
+      "37686208",
+      "38996889",
+      "30216674",
+      "32623047",
+      "15035641",
+      "30142698",
+      "32709107",
+      "31945397",
+      "33269918",
+      "35130691",
+      "29704492",
+      "24551051",
+      "31034892",
+      "31699336",
+      "32538869",
+      "35681426",
+      "19576220",
+      "36278939",
+      "31740740",
+      "35144022",
+      "36555748",
+      "32584021",
+      "36008493",
+      "33903234",
+      "26517049",
+      "28759722",
+      "19655784",
+      "22274962",
+      "32078298",
+      "33345970",
+      "29621630",
+      "29715424",
+      "30771181",
+      "26453205",
+      "26119103",
+      "32453478",
+      "33167839",
+      "31181290",
+      "30853581",
+      "28238838",
+      "27916677",
+      "30098337",
+      "35241680",
+      "33727072",
+      "30933517",
+      "21462277",
+      "30743095",
+      "31900363",
+      "35390347",
+      "29603125",
+      "36252622",
+      "35454083",
+      "30184304",
+      "23162382",
+      "35950933",
+      "35276458",
+      "29601727",
+      "25139280",
+      "32170541",
+      "34450484",
+      "23607785",
+      "18691634",
+      "12956606",
+      "21376144",
+      "30875980",
+      "33444530",
+      "31917569",
+      "35034725",
+      "29853639",
+      "35298810",
+      "23583776",
+      "25557164",
+      "23723000",
+      "19007333",
+      "29408361",
+      "31142553",
+      "33178678",
+      "25869255",
+      "25851527",
+      "27808107",
+      "24584936",
+      "35167081",
+      "29474083",
+      "15643843",
+      "34768886",
+      "34684701",
+      "31111370",
+      "26923286",
+      "33788542",
+      "31306510",
+      "37170496",
+      "38435467",
+      "36974517",
+      "36206480",
+      "33053854",
+      "37870427",
+      "29270108",
+      "38842931",
+      "35093643",
+      "35975807",
+      "37192400",
+      "34638925",
+      "35791387",
+      "37458354"
+    ],
+    "review": [
+      "36232847",
+      "30216674",
+      "30142698",
+      "32538869",
+      "35681426",
+      "35144022",
+      "26517049",
+      "33167839",
+      "30853581",
+      "30743095",
+      "35454083",
+      "25139280",
+      "34450484",
+      "12956606",
+      "30875980",
+      "33053854",
+      "35093643"
+    ],
+    "pmc": [
+      "9569888"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms231911545",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/amyloidosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyloidosis"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36232847/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36232847",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

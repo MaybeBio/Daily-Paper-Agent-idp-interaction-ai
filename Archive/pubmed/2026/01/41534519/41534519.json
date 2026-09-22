@@ -1,0 +1,240 @@
+{
+  "identity": {
+    "pmid": "41534519",
+    "doi": "10.1016/j.cels.2025.101486",
+    "title": "Disobind: A sequence-based, partner-dependent contact map and interface residue predictor for intrinsically disordered regions."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins or regions (IDPs or IDRs) adopt diverse binding modes with different partners, ranging from coupled folding and binding to fuzzy binding and fully disordered binding. Characterizing IDR interfaces is challenging both experimentally and computationally. State-of-the-art tools such as AlphaFold multimer and AlphaFold3 can be used to predict IDR binding sites, although they are less accurate at their benchmarked confidence cutoffs. Here, we developed Disobind, a deep-learning method that predicts inter-protein contact maps and interface residues for an IDR and its partner, given their sequences. It uses sequence embeddings from the ProtT5 protein language model. Disobind outperforms state-of-the-art interface predictors for IDRs. It also outperforms AlphaFold multimer and AlphaFold3 at multiple confidence cutoffs. Combining Disobind and AlphaFold-multimer predictions further improves performance. In contrast to current methods, Disobind considers the context of the binding partner and does not depend on structures and multiple sequence alignments. Its predictions can be used to localize IDRs in large assemblies and characterize IDR-mediated interactions.",
+    "keywords": [
+      "DL",
+      "IDP",
+      "IDR",
+      "deep learning",
+      "intrinsically disordered proteins",
+      "intrinsically disordered regions",
+      "pLMs",
+      "protein language model",
+      "protein structure"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Binding Sites",
+      "Protein Binding",
+      "Models, Molecular",
+      "*Computational Biology/methods",
+      "Protein Folding",
+      "Deep Learning",
+      "Amino Acid Sequence",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Majila, Kartik",
+        "Ullanat, Varun",
+        "Viswanath, Shruthi"
+      ],
+      "short_names": [
+        "Majila K",
+        "Ullanat V",
+        "Viswanath S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore 560065, Karnataka, India. Electronic address: kartikm@ncbs.res.in.",
+        "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore 560065, Karnataka, India.",
+        "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore 560065, Karnataka, India. Electronic address: shruthiv@ncbs.res.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Majila, Kartik",
+        "short_name": "Majila K",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore 560065, Karnataka, India. Electronic address: kartikm@ncbs.res.in."
+        ]
+      },
+      {
+        "full_name": "Ullanat, Varun",
+        "short_name": "Ullanat V",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore 560065, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Viswanath, Shruthi",
+        "short_name": "Viswanath S",
+        "identifiers": [],
+        "affiliations": [
+          "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore 560065, Karnataka, India. Electronic address: shruthiv@ncbs.res.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell systems"
+    ],
+    "journal_abbrev": [
+      "Cell Syst"
+    ],
+    "pub_date": "2026 Jan 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/15 16:13",
+    "fetched_at": "2026-09-17 23:51:24"
+  },
+  "links": {
+    "cites": [
+      "42289971",
+      "42094486",
+      "41959048",
+      "41890122"
+    ],
+    "refs": [],
+    "similar": [
+      "41534519",
+      "39763873",
+      "39446390",
+      "31441158",
+      "40944448",
+      "31207240",
+      "34418423",
+      "38079339",
+      "41174305",
+      "33087759",
+      "38866950",
+      "38701796",
+      "28780862",
+      "30058229",
+      "32696395",
+      "37883249",
+      "38166858",
+      "34905768",
+      "18831774",
+      "29716994",
+      "40403066",
+      "41921197",
+      "28365882",
+      "29763584",
+      "35139468",
+      "38987470",
+      "28394890",
+      "34358545",
+      "32112804",
+      "36851914",
+      "33248138",
+      "31797594",
+      "25391399",
+      "40254833",
+      "30135358",
+      "42150060",
+      "29990433",
+      "27787828",
+      "34390736",
+      "40221640",
+      "35609776",
+      "40441416",
+      "32702119",
+      "34461937",
+      "30878482",
+      "36959451",
+      "29042212",
+      "32535960",
+      "40650026",
+      "36458437",
+      "37709009",
+      "33875885",
+      "34610267",
+      "34626492",
+      "37878721",
+      "23142703",
+      "25286318",
+      "36272675",
+      "33207556",
+      "41309611",
+      "39510344",
+      "31756456",
+      "30366362",
+      "32553192",
+      "29066345",
+      "38296708",
+      "32722039",
+      "39740355",
+      "36304335",
+      "25424537",
+      "35436286",
+      "28381244",
+      "26109352",
+      "39246251",
+      "35507260",
+      "40133775",
+      "26297830",
+      "30002402",
+      "41959048",
+      "30841624",
+      "33567297",
+      "41688823",
+      "30866736",
+      "41644540",
+      "34845619",
+      "34830151",
+      "39093570",
+      "41570036",
+      "41053908",
+      "39032884",
+      "26742101",
+      "32253236",
+      "40574713",
+      "35149212",
+      "41454828",
+      "36833360",
+      "29197511",
+      "29228892",
+      "33454008",
+      "38747347"
+    ],
+    "review": [
+      "41534519",
+      "31441158",
+      "34418423",
+      "35139468",
+      "34358545",
+      "36851914",
+      "33248138",
+      "34390736",
+      "36959451",
+      "40650026",
+      "34610267",
+      "33207556",
+      "38296708",
+      "39740355",
+      "33567297",
+      "39093570",
+      "32253236"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2405-4712(25)00319-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

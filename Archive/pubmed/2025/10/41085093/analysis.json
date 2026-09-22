@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41085093",
+  "title": "Electrostatic Collapse of Intrinsically Disordered Acid-Rich Protein Is Sensitive to Counterion Valency.",
+  "authors": "Klepka, Barbara P; Waszkiewicz, Radost; Wojciechowski, Michal; Michas, Agnieszka; Niedzwiecka, Anna",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2025-10-14",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合MD模拟与理论，揭示反离子价态调控酸性无序蛋白AGARP的静电塌缩机制，虽非直接PPI，但为无序蛋白离子环境介导的构象互作建模提供了可迁移的物理模拟框架。",
+  "abstract": "Intrinsically disordered proteins (IDPs) respond sensitively to their ionic environment, yet the mechanisms driving ion-induced conformational changes remain incompletely understood. Here, we investigate how counterion valency modulates the dimensions of an extremely charged model IDP, the aspartic and glutamic acid-rich protein AGARP. Fluorescence correlation spectroscopy and size exclusion chromatography reveal a pronounced, valency-dependent reduction in its hydrodynamic radius, with divalent cations (Ca(2+), Mg(2+)) inducing collapse at much lower activities than monovalent cations (Na(+), K(+)). Molecular dynamics simulations, direct sampling, and polyampholyte theory quantitatively capture the Debye-Huckel screening by monovalent ions but not the enhanced compaction driven by divalent ion binding thereby suggesting that, beyond differences in screening strength, a valency-sensitive mode of interaction is at play. Circular dichroism spectroscopy shows that compaction occurs without secondary structure formation. Our results demonstrate a structure-free electrostatic collapse and suggest that specific chelation of divalent ions by disordered polyanionic protein chains is a key mechanism regulating IDP compaction, with implications for understanding their behavior in biologically relevant ionic environments.",
+  "abstract_zh": "固有无序蛋白（IDPs）对其离子环境敏感响应，然而驱动离子诱导构象变化的机制仍未完全理解。在此，我们研究了抗衡离子价态如何调节一个极端带电的模型IDP——富含天冬氨酸和谷氨酸的蛋白AGARP的尺寸。荧光相关光谱和尺寸排阻色谱揭示其流体动力学半径出现显著的、依赖价态的减小，其中二价阳离子（Ca(2+)、Mg(2+)）在远低于一价阳离子（Na(+)、K(+)）的活性下诱导塌缩。分子动力学模拟、直接采样和多聚电解质理论定量捕捉了单价离子的Debye-Huckel屏蔽效应，但未能捕捉由二价离子结合驱动的增强压实，从而表明，除了屏蔽强度差异外，还存在一种价态敏感的作用模式。圆二色光谱显示，压实发生时不伴随二级结构形成。我们的结果证明了一种无结构的静电塌缩，并提示无序多阴离子蛋白链对二价离子的特异性螯合是调节IDP压实的关键机制，这对理解其在生物相关离子环境中的行为具有启示意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41085093/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41085093/",
+  "paper_page_path": "papers/pubmed/41085093/index.html"
+}

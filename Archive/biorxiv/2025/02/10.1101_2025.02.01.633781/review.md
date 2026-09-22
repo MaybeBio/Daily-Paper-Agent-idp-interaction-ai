@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary data were provided for verification
+- **Shared manuscript claim summary** The authors propose that FUS intron 6 and 7 retained RNAs (FUSint6&7-RNAs) form nuclear condensates scaffolded by intron 7, associate with nuclear speckles, and promote post-transcriptional FUS splicing. They report that these condensates depend on m6A/YTHDC1, that mutant FUS leads to hypermethylation of FUSint6&7-RNAs and enhanced condensation, that FUS protein is repelled by m6A, and that ectopic expression of FUS intron 6&7 sequences dissolves endogenous condensates and downregulates FUS expression. They suggest therapeutic potential for ALS-FUS.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, statistical analyses, experimental replicates, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially important mechanism linking RNA condensation, m6A modification, and autoregulation of FUS splicing, with a proposed therapeutic angle. However, the evidence base is limited to the abstract, and several key claims are stated without supporting quantitative or mechanistic detail. The central model is coherent but several causal links are asserted rather than demonstrated in the provided text. The therapeutic claim is intriguing but currently lacks direct in vivo or functional validation. Overall, the work is potentially significant for the ALS field and RNA biology, but the case is not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in RNA biology, particularly those studying phase separation and condensates; ALS and neurodegeneration researchers, especially those focused on FUS pathology; and investigators interested in m6A modifications and their role in RNA processing. The proposed therapeutic strategy could attract translational neuroscientists.
+- **Major strengths** The abstract identifies a novel regulatory layer for FUS expression involving retained intron RNAs and condensation. The link between m6A methylation and condensate dynamics is timely and mechanistically plausible. The proposed therapeutic intervention, using ectopic intron sequences to dissolve condensates, is creative and potentially actionable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "FUSint6&7-RNAs form nuclear condensates scaffolded by the highly structured intron 7 and associated with nuclear speckles"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that intron 7 scaffolds the condensates is stated without direct evidence. No mutagenesis, deletion, or structure-disruption experiments are described in the abstract to support the scaffolding role.
+  - **Why it matters** The scaffolding claim is foundational to the entire model. Without direct evidence that intron 7 is necessary and sufficient for condensation, the mechanism remains speculative.
+  - **Resolution test** Provide experiments showing that deletion or mutation of intron 7 abolishes condensate formation, and that intron 7 alone can form condensates in a heterologous context.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** "These ribonucleoprotein structures facilitate post-transcriptional FUS splicing and depend on m6A/YTHDC1 for their maintenance"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that condensates facilitate splicing and depend on m6A/YTHDC1, but does not describe how this was tested. It is unclear whether loss of YTHDC1 or m6A depletion was shown to reduce splicing or dissolve condensates, and whether the effect on splicing is direct or indirect.
+  - **Why it matters** The causal direction between condensation and splicing is central to the model. If condensates are merely a consequence of splicing activity, the proposed mechanism would be weakened.
+  - **Resolution test** Show that acute depletion of YTHDC1 or inhibition of m6A writers reduces condensate formation and FUS splicing, and that restoring condensates rescues splicing in a YTHDC1-independent manner.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic link
+  - **Claim pointer** "FUSint6&7-RNAs become hypermethylated in cells expressing mutant FUS, leading to their enhanced condensation and consequently, splicing"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims that hypermethylation leads to enhanced condensation and splicing, but does not specify which m6A sites are involved, how hypermethylation is achieved, or whether the effect is specific to mutant FUS. The link between methylation status and condensation is asserted without mechanistic detail.
+  - **Why it matters** This is a key step connecting ALS-FUS mutations to the proposed pathway. Without site-specific information and a clear mechanism for how methylation promotes condensation, the claim is not fully supported.
+  - **Resolution test** Map m6A sites on FUSint6&7-RNAs, mutate them, and show that loss of these sites prevents hypermethylation-induced condensation and splicing changes in mutant FUS cells.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Therapeutic claim
+  - **Claim pointer** "ectopic expression of FUS intron 6&7 sequences dissolves the endogenous FUSint6&7-RNA condensates, downregulating FUS mRNA and protein"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The therapeutic potential is based on a single observation that ectopic intron sequences dissolve condensates and reduce FUS levels. No data are provided on specificity, off-target effects, delivery, or functional benefit in disease models.
+  - **Why it matters** The title and abstract emphasize therapeutic potential, but the evidence is preliminary and limited to overexpression experiments. Without demonstration of functional rescue or safety, the therapeutic claim is premature.
+  - **Resolution test** Show that ectopic intron expression reduces FUS toxicity in neuronal models of ALS-FUS, and that the effect is specific to FUSint6&7-RNAs without affecting other condensates or RNA processing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "hybridization-proximity labelling proteomics" is not standard and may confuse readers. It is unclear whether this refers to a specific method such as HyPro or a combination of techniques.
+  - **Required correction** Clarify the method name and provide a brief description or reference in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Quantification
+  - **Affected element** "enhanced condensation"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that condensation is enhanced but does not provide any quantitative measure, such as number, size, or dynamics of condensates.
+  - **Required correction** Include quantitative data on condensate properties in the abstract or refer to specific figures with quantitative metrics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** "FUS protein is repelled by m6A"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that FUS protein is repelled by m6A is stated without context. It is unclear whether this is a direct interaction or an indirect effect, and whether it applies to all m6A sites or specific ones.
+  - **Required correction** Provide experimental details on how this was tested, and specify the m6A context and FUS domains involved.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality is high, as the concept of retained intron RNAs forming condensates that regulate splicing via m6A is novel. Scientific importance is potentially high for ALS and RNA biology, but the abstract does not yet demonstrate broad relevance beyond FUS. Interdisciplinary readership is plausible, spanning RNA biology, neurodegeneration, and epigenetics. Technical soundness cannot be fully assessed from the abstract alone, but the described methods are appropriate in principle. Readability for nonspecialists is moderate, with some jargon and insufficient context for key terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a compelling hypothesis, but the key causal claims require direct experimental support that is not visible in the abstract. I would be supportive if the technical concerns are resolved with full data.
+
+## Risk / unsupported claims
+- The scaffolding role of intron 7 is not directly demonstrated.
+- The causal link between condensates and splicing is asserted without loss-of-function or rescue experiments.
+- The mechanism linking mutant FUS to hypermethylation and enhanced condensation is not specified.
+- The therapeutic potential is based on a single overexpression experiment with no functional or safety data.
+- The claim that FUS protein is repelled by m6A is stated without mechanistic or quantitative support.

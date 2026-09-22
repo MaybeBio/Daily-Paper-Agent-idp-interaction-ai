@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full manuscript, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors use implicit solvent replica exchange molecular dynamics simulations to study how phosphorylation at Thr377 and Ser378 affects acetylation at Lys373 and Lys382 in the intrinsically disordered C-terminal of p53. They report that single and double post-translational modifications alter secondary structure and that pairwise modifications produce distinct residual structures compared to single-point modifications, suggesting interdependence between PTM sites and structural outcomes.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, convergence metrics, or structural analyses are visible
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field details, convergence criteria, free energy calculations, structural ensemble analyses, comparison with experimental data, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract addresses a mechanistically interesting question about the interdependence of phosphorylation and acetylation in the p53 C-terminal region. The use of replica exchange molecular dynamics is appropriate for sampling disordered conformations. However, the abstract provides insufficient quantitative evidence to evaluate the strength of the claims. Key results are described qualitatively, and no convergence or validation data are presented. The connection between simulated structural changes and the experimentally observed regulatory relationship is asserted but not demonstrated mechanistically.
+- **Who would be interested in the results, and why** Researchers studying p53 regulation, post-translational modification crosstalk, intrinsically disordered proteins, and computational biophysics of protein modification. The topic has relevance for understanding how PTMs modulate disordered protein function and for designing experiments on PTM interdependence.
+- **Major strengths** The study targets a biologically important and mechanistically underexplored question. The choice of replica exchange molecular dynamics is methodologically appropriate for disordered systems. The design includes both single and double PTM systems, which allows for direct comparison of additive versus synergistic effects.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that simulations "admit the appreciable change in the secondary structural level upon specific PTM" and that "the residual structure of the unbound p53 with single-point PTM varies significantly with pair-wise modifications."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative data are presented to support the claimed structural changes. The abstract does not report any metrics such as secondary structure populations, root mean square fluctuations, contact probabilities, or free energy differences. The phrase "appreciable change" and "varies significantly" are qualitative and cannot be evaluated without numerical evidence.
+  - **Why it matters** The central conclusion of the study depends on demonstrating that specific PTM combinations produce distinct and reproducible structural effects. Without quantitative descriptors and associated uncertainties, the reader cannot assess whether the observed differences are meaningful or within statistical noise.
+  - **Resolution test** Provide numerical values for secondary structure propensities per residue, ensemble averages with standard errors, and statistical tests comparing systems. Show that differences between single and double PTM systems exceed the estimated sampling uncertainty.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that "implicit solvent replica exchange molecular dynamics simulations" were used to obtain "200 ns well-converged conformational ensembles of each system."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of convergence is not supported by any evidence. No convergence metrics such as replica exchange acceptance rates, potential energy distributions, or block averaging analyses are described. The 200 ns simulation length per replica may be insufficient for disordered proteins, which often require microsecond timescales for adequate sampling. The implicit solvent model choice also requires justification.
+  - **Why it matters** Convergence is the foundation of any ensemble-based claim. If the simulations are not converged, all structural conclusions are unreliable. The choice of implicit solvent can introduce artifacts in disordered protein sampling, and the abstract does not address this.
+  - **Resolution test** Provide replica exchange acceptance rates, show that ensemble properties are stable across simulation time blocks, and compare results with at least one explicit solvent simulation or experimental validation. Justify the implicit solvent choice with reference to prior benchmarks.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic link
+  - **Claim pointer** The abstract states that "phosphorylation of Thr377 and Ser378 reduces the acetylation of Lys373 and Lys382" and that simulations were used to "compare how the presence or absence of phosphorylation favors or disfavors the acetylation."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not explain how the simulations connect phosphorylation to acetylation. Acetylation is a covalent modification that is not simulated. The study appears to simulate only phosphorylation states and then infer effects on acetylation from structural changes. The mechanistic bridge between simulated structural ensembles and acetylation propensity is not articulated.
+  - **Why it matters** The experimental observation is that phosphorylation regulates acetylation. To claim that simulations explain this, the authors must show a plausible structural mechanism, such as altered accessibility of lysine residues to acetyltransferases or changes in local electrostatic environment. Without this, the relevance of the simulations to the experimental phenomenon is unclear.
+  - **Resolution test** Define a quantitative proxy for acetylation propensity, such as solvent accessible surface area of Lys373 and Lys382, and show that this proxy changes in the direction consistent with the experimental observation. Alternatively, simulate the acetylated state and compare free energies.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "residual structure" is used without definition. In the context of intrinsically disordered proteins, this term can be ambiguous.
+  - **Required correction** Define "residual structure" explicitly, for example as transient secondary structure elements or persistent contacts, and specify how it was quantified.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** System description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "several single-point and pair-wise mutated systems" but does not specify how many systems were simulated or which mutations were used beyond the phospho-mimetic and neutral alanine cases.
+  - **Required correction** List all simulated systems, including the specific mutations and PTM combinations, in the abstract or refer to a table in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation protocol
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not mention the force field, water model, or temperature range used in the replica exchange simulations.
+  - **Required correction** Include force field and simulation parameters in the abstract or state that they are fully described in the methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative structural data, lack of convergence evidence, and missing mechanistic link between phosphorylation and acetylation collectively prevent the claims from being evaluated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of PTM interdependence in p53 is not entirely new, but the specific focus on Thr377/Ser378 phosphorylation effects on Lys373/Lys382 acetylation via simulation is a reasonable angle. The originality is moderate.
+  - Scientific importance: The topic is relevant to cancer biology and PTM regulation, but the abstract does not establish broad significance beyond a specific molecular system.
+  - Interdisciplinary readership: The work sits at the interface of computational biophysics and molecular biology. The abstract is accessible to specialists but may not attract a broad interdisciplinary audience without clearer biological framing.
+  - Technical soundness: Cannot be assessed from the abstract. The methodological choices are plausible but unverified.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon such as "residual structure" and "pair-wise modifications" without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially interesting study, but the lack of quantitative results, convergence evidence, and mechanistic clarity means the core claims cannot be evaluated. A revised abstract with concrete data and a clearer mechanistic argument would be needed to support the conclusions.
+
+## Risk / unsupported claims
+- The claim that simulations "admit the appreciable change in the secondary structural level" is unsupported because no quantitative structural data are provided.
+- The claim that "the residual structure of the unbound p53 with single-point PTM varies significantly with pair-wise modifications" is unsupported for the same reason.
+- The claim that simulations "compare how the presence or absence of phosphorylation favors or disfavors the acetylation" is not substantiated because the abstract does not describe how acetylation propensity is derived from simulations.
+- The claim of "well-converged conformational ensembles" is unverifiable without convergence metrics.
+- The relationship between simulated structural changes and the experimentally observed reduction of acetylation is asserted but not mechanistically explained.

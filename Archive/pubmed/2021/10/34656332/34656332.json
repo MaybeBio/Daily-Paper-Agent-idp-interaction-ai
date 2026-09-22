@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "34656332",
+    "doi": "10.1016/bs.pmbts.2021.06.006",
+    "title": "Protein intrinsic disorder on a dynamic nucleosomal landscape."
+  },
+  "content": {
+    "abstract": "The complex nucleoprotein landscape of the eukaryotic cell nucleus is rich in dynamic proteins that lack a stable three-dimensional structure. Many of these intrinsically disordered proteins operate directly on the first fundamental level of genome compaction: the nucleosome. Here we give an overview of how disordered interactions with and within nucleosomes shape the dynamics, architecture, and epigenetic regulation of the genetic material, controlling cellular transcription patterns. We highlight experimental and computational challenges in the study of protein disorder and illustrate how integrative approaches are increasingly unveiling the fine details of nuclear interaction networks. We finally dissect sequence properties encoded in disordered regions and assess common features of disordered nucleosome-binding proteins. As drivers of many critical biological processes, disordered proteins are integral to a comprehensive molecular view of the dynamic nuclear milieu.",
+    "keywords": [
+      "Chromatin",
+      "Chromatin remodelers",
+      "Histones",
+      "Integrative experimental and simulation approaches nucleosome",
+      "Intrinsically disordered proteins",
+      "Transcription"
+    ],
+    "mesh_terms": [
+      "Chromatin Assembly and Disassembly",
+      "Epigenesis, Genetic",
+      "Genome",
+      "Histones/metabolism",
+      "*Intrinsically Disordered Proteins/metabolism",
+      "*Nucleosomes"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bjarnason, Sveinn",
+        "Ruidiaz, Sarah F",
+        "McIvor, Jordan",
+        "Mercadante, Davide",
+        "Heidarsson, Petur O"
+      ],
+      "short_names": [
+        "Bjarnason S",
+        "Ruidiaz SF",
+        "McIvor J",
+        "Mercadante D",
+        "Heidarsson PO"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Science Institute, University of Iceland, Reykjavik, Iceland.",
+        "Department of Biochemistry, Science Institute, University of Iceland, Reykjavik, Iceland.",
+        "School of Chemical Science, University of Auckland, Auckland, New Zealand.",
+        "School of Chemical Science, University of Auckland, Auckland, New Zealand. Electronic address: davide.mercadante@auckland.ac.nz.",
+        "Department of Biochemistry, Science Institute, University of Iceland, Reykjavik, Iceland. Electronic address: pheidarsson@hi.is."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bjarnason, Sveinn",
+        "short_name": "Bjarnason S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Science Institute, University of Iceland, Reykjavík, Iceland."
+        ]
+      },
+      {
+        "full_name": "Ruidiaz, Sarah F",
+        "short_name": "Ruidiaz SF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Science Institute, University of Iceland, Reykjavík, Iceland."
+        ]
+      },
+      {
+        "full_name": "McIvor, Jordan",
+        "short_name": "McIvor J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Science, University of Auckland, Auckland, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Mercadante, Davide",
+        "short_name": "Mercadante D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Science, University of Auckland, Auckland, New Zealand. Electronic address: davide.mercadante@auckland.ac.nz."
+        ]
+      },
+      {
+        "full_name": "Heidarsson, Pétur O",
+        "short_name": "Heidarsson PO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Science Institute, University of Iceland, Reykjavík, Iceland. Electronic address: pheidarsson@hi.is."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Progress in molecular biology and translational science"
+    ],
+    "journal_abbrev": [
+      "Prog Mol Biol Transl Sci"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/18 06:00",
+    "fetched_at": "2026-09-20 06:04:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "34656332",
+      "28610839",
+      "30991239",
+      "33309853",
+      "22124157",
+      "30940742",
+      "33181171",
+      "21508315",
+      "20015349",
+      "34992286",
+      "20886052",
+      "26933790",
+      "19027300",
+      "30188887",
+      "23751185",
+      "33221335",
+      "33667509",
+      "34050142",
+      "31652801",
+      "33460684",
+      "23912807",
+      "32864867",
+      "29331030",
+      "21326360",
+      "29971727",
+      "25491770",
+      "33539878",
+      "27979995",
+      "26896338",
+      "23071745",
+      "23240084",
+      "34314440",
+      "34364091",
+      "21704204",
+      "31901887",
+      "31269447",
+      "25088669",
+      "27833942",
+      "27503998",
+      "33650488",
+      "17392789",
+      "32567715",
+      "27098855",
+      "21738444",
+      "19748358",
+      "27458208",
+      "25418099",
+      "27106059",
+      "16860664",
+      "25516120",
+      "24003213",
+      "23958656",
+      "30395604",
+      "18468442",
+      "25957486",
+      "17996059",
+      "23275572",
+      "25980611",
+      "27768892",
+      "34081696",
+      "20211173",
+      "12596908",
+      "26305225",
+      "26411677",
+      "29088426",
+      "23622142",
+      "21764166",
+      "19029894",
+      "16717183",
+      "22965129",
+      "29891930",
+      "28024297",
+      "32731156",
+      "18351804",
+      "33484328",
+      "23658529",
+      "35196453",
+      "36265487",
+      "36130289",
+      "39186607",
+      "36979465",
+      "37094140",
+      "31659043",
+      "35313165",
+      "32902806",
+      "38048321",
+      "28035242",
+      "24242872",
+      "39214280",
+      "38366473"
+    ],
+    "review": [
+      "34656332",
+      "28610839",
+      "30991239",
+      "33309853",
+      "30940742",
+      "19027300",
+      "23751185",
+      "33221335",
+      "33460684",
+      "32864867",
+      "21326360",
+      "33539878",
+      "26896338",
+      "34364091",
+      "21704204",
+      "31901887",
+      "25088669",
+      "27503998",
+      "32567715",
+      "27098855",
+      "16860664",
+      "25516120",
+      "24003213",
+      "18468442",
+      "25957486",
+      "25980611",
+      "20211173",
+      "12596908",
+      "32731156",
+      "33484328",
+      "35196453",
+      "36265487",
+      "36979465",
+      "35313165",
+      "24242872"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1877-1173(21)00092-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

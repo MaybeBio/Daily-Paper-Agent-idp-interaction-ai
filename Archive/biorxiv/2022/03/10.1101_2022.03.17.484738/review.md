@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure legends.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims by the presented evidence. The review is based solely on the provided manuscript text and does not include evaluation of the actual supplementary figures, videos, or tables, which are referenced but not fully accessible.
+- **Shared manuscript claim summary** The authors propose that the plant-specific TPLATE complex (TPC) subunits AtEH1 and AtEH2 drive biomolecular condensation via intrinsically disordered regions, that these condensates nucleate on the plasma membrane through anionic phospholipid interactions, that they recruit and assemble clathrin and accessory proteins throughout endocytosis, and that the material properties of these condensates, governed by the sequence composition of AtEH1 IDR1, modulate endocytic dynamics and plant adaptive growth.
+- **Visible evidence base** The manuscript text provides descriptions of results, including in vivo and in vitro phase separation assays, FRAP experiments, proximity labelling proteomics, CLEM-ET imaging, and phenotypic assays. However, the actual data (figures, videos, tables) are not available for direct inspection in this review.
+- **Missing materials affecting confidence** The actual figures (S1-S7), videos (S1-S5), and tables (S1-S2) are not provided. This significantly limits the ability to verify the quantitative claims, the quality of the imaging data, the statistical analyses, and the proteomics results.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and potentially significant model in which biomolecular condensation of the TPLATE complex, driven by its AtEH subunits, orchestrates clathrin-mediated endocytosis in plants. The work is ambitious, combining cell biology, biophysics, proteomics, and genetics to address a fundamental question in plant membrane trafficking. The central hypothesis is novel and timely, and the authors provide a multi-pronged approach to test it. However, the strength of the conclusions is heavily dependent on the quality and interpretation of the data presented in the supplementary figures and videos, which are not available for this review. Several claims, particularly regarding the in vivo relevance and the precise role of IDR1, require careful scrutiny of the underlying data. The manuscript is well-written and the logic is generally clear, but the lack of access to the primary data prevents a full assessment of the technical soundness of the experiments.
+- **Who would be interested in the results, and why** This work will be of high interest to plant cell biologists, particularly those studying endocytosis, membrane trafficking, and cell polarity. It will also appeal to the broader community of researchers investigating biomolecular condensates and phase separation, as it provides a new example of these phenomena in a multicellular organism and links them to a well-defined physiological process. The evolutionary analysis and the proposed conserved principles of endocytic initiation will be of interest to cell biologists working on other eukaryotic systems, including yeast and mammals.
+- **Major strengths**
+    - The manuscript addresses a long-standing question about the function of the plant-specific TPLATE complex in endocytosis.
+    - The central hypothesis, that AtEH1/AtEH2 drive condensation of the TPC, is novel and provides a mechanistic framework for understanding the complex's function.
+    - The study employs a wide range of state-of-the-art techniques, including in vitro phase separation, FRAP, proximity labelling, and CLEM-ET, to build a comprehensive case.
+    - The use of native-promoter-driven mutants to assess physiological relevance (endocytosis dynamics, gravitropism) is a strength.
+    - The evolutionary perspective, linking the properties of plant AtEH IDRs to those of their yeast and human counterparts, adds conceptual depth.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Evidence strength and reproducibility
+        - **Claim pointer** The claim that AtEH1 and AtEH2 phase separate in vivo and in vitro, and that this is driven by specific domains (IDR3, coiled-coil), is central to the paper.
+        - **Evidence pointer** Figures 1, S1, and related methods.
+        - **Concern** The evidence for phase separation is based on over-expression systems (N. benthamiana, S. pombe, stable A. thaliana). The manuscript states that "at very high expression levels" condensates form, which raises the question of whether this is a physiologically relevant phenomenon or an artifact of over-expression. The in vitro data is presented as supporting evidence, but the quality of the protein preparations, the exact conditions of the phase separation assays, and the quantitative analysis of the saturation concentrations are not fully described in the text provided. The claim that IDR3 and the coiled-coil domain are important for phase separation is based on truncation mutants, but the data is not shown.
+        - **Why it matters** The entire premise of the paper rests on the biological relevance of AtEH1/AtEH2 condensation. If this is only an over-expression artifact, the model collapses. The in vitro data is crucial to support the in vivo observations, but it is not fully assessable.
+        - **Resolution test** The authors must provide the raw data for the in vitro phase separation assays, including clear images of the droplets, the protein concentrations used, and the salt dependence. They must also provide a more compelling argument for the physiological relevance of the condensates, perhaps by showing that endogenous AtEH1 forms similar structures at native expression levels, or by demonstrating that the condensates are not simply protein aggregates. The FRAP data for the in vivo condensates is critical to show they are liquid-like, and this data must be shown and quantified.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Support for the mechanistic model
+        - **Claim pointer** The claim that AtEH1 condensates are nucleated on the plasma membrane through interactions with anionic phospholipids, and that this is required for their function.
+        - **Evidence pointer** Figures 3, S3, and related methods.
+        - **Concern** The manuscript states that mutation of lipid-binding residues in the EH domains "significantly increased the cytosolic protein concentration and lead to the formation of irregular condensates," and that combined mutation "completely abolished condensate formation." This is a key experiment, but the data is not shown. The pollen tube experiments are also described, but the data is not available. The claim that the plasma membrane acts as a nucleation surface is supported by the observation of "individual nucleation events," but the data is not shown.
+        - **Why it matters** This is the core of the proposed mechanism. Without seeing the data, it is impossible to judge whether the effect of the lipid-binding mutations is specific or a general disruption of protein folding/stability. The pollen tube experiments are important to show that this mechanism is relevant in a more physiologically relevant cell type.
+        - **Resolution test** The authors must show the data for the lipid-binding mutants, including images of the condensates, the quantification of the cytosolic concentration, and the effect on endocytosis. They must also show the pollen tube data, including the localisation of AtEH1 and the lipid biosensors. The specificity of the lipid interaction should be tested, for example by showing that the mutant proteins are still properly folded and can interact with other partners.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Causal link between condensate properties and function
+        - **Claim pointer** The claim that altering the material properties of the condensates (via IDR1 mutations) affects endocytosis dynamics and plant growth.
+        - **Evidence pointer** Figures 7, S7, and related methods.
+        - **Concern** The manuscript describes a series of experiments where the IDR1 of AtEH1 is mutated to alter its interaction strength (YF>W, YF>S). The authors show that these mutations affect the material properties of the condensates (FRAP, shape) and that they affect endocytosis dynamics and gravitropism. However, the data is not shown. A critical concern is whether the effects on endocytosis are due to the altered condensate properties or to a more direct effect of the mutations on AtEH1's ability to interact with its partners (e.g., TOL proteins, clathrin). The manuscript does not provide evidence to distinguish between these possibilities.
+        - **Why it matters** This is the most important claim in the paper, as it directly links the biophysical process of condensation to physiological function. If the effects on endocytosis are not specifically due to the condensate properties, the central thesis is weakened.
+        - **Resolution test** The authors must show the data for the IDR1 mutants, including the FRAP curves, the condensate morphology, the endocytosis dynamics, and the gravitropism assays. They must also provide evidence that the mutations do not disrupt the known protein-protein interactions of AtEH1. A more direct test of the model would be to show that the IDR1 mutations affect the recruitment of downstream factors (e.g., clathrin, dynamin) to the condensates.
+    - **R1-M4**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Interpretation of CLEM-ET data
+        - **Claim pointer** The claim that clathrin forms ordered assemblies within the AtEH1 condensates, based on CLEM-ET data.
+        - **Evidence pointer** Figures 5, S5, and related methods.
+        - **Concern** The CLEM-ET data is a key piece of evidence, as it directly visualizes the proposed mechanism. The manuscript states that "clathrin forms lattices within the liquid-like assemblies generated by AtEH1/TPC." However, the data is not shown. The interpretation of such data is challenging, and it is not clear how the authors distinguished between clathrin lattices and other structures. The claim that the condensates are "liquid-like" is based on FRAP, but the CLEM-ET data seems to show a more solid, ordered structure.
+        - **Why it matters** This is a direct visualization of the proposed mechanism. If the interpretation is incorrect, the model is weakened. The apparent contradiction between the "liquid-like" condensates and the "ordered" clathrin lattices needs to be addressed.
+        - **Resolution test** The authors must show the CLEM-ET data, including the correlated fluorescence and electron microscopy images, and the tomographic reconstructions. They must provide a clear description of how they identified clathrin lattices and how they distinguished them from other structures. They should also discuss the relationship between the liquid-like condensate and the ordered clathrin lattice.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity and interpretation
+        - **Affected element** Results section on AtEH1/AtEH2 phase separation.
+        - **Evidence pointer** Figure 1, location not provided.
+        - **Issue** The manuscript states that the puncta observed in over-expression systems are consistent with phase separation, but it does not discuss alternative explanations, such as protein aggregation or the formation of protein storage bodies.
+        - **Required correction** The authors should add a brief discussion of why the observed puncta are not simply aggregates, perhaps by referencing the FRAP data and the fusion events.
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Experimental detail
+        - **Affected element** Methods section on in vitro phase separation.
+        - **Evidence pointer** Methods, location not provided.
+        - **Issue** The methods for the in vitro phase separation assays are not described in sufficient detail. It is not clear how the proteins were purified, what the exact buffer conditions were, and how the saturation concentration was determined.
+        - **Required correction** The authors should provide a more detailed description of the in vitro phase separation assays, including the protein purification protocol, the buffer composition, and the method for determining the saturation concentration.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Statistical analysis
+        - **Affected element** Results section on endocytosis dynamics.
+        - **Evidence pointer** Figure 7, location not provided.
+        - **Issue** The manuscript states that the differences in endocytosis lifetime are statistically significant, but the statistical tests used are not described.
+        - **Required correction** The authors should specify the statistical tests used for each comparison and report the p-values.
+    - **R1-m4**
+        - **Severity** Minor
+        - **Axis** Data presentation
+        - **Affected element** Results section on proximity labelling.
+        - **Evidence pointer** Figure 4, location not provided.
+        - **Issue** The manuscript describes the proximity labelling results but does not provide a clear list of the identified proteins or the enrichment scores.
+        - **Required correction** The authors should provide a table of the identified proteins with their enrichment scores, as is standard for proteomics experiments.
+    - **R1-m5**
+        - **Severity** Minor
+        - **Axis** Clarity of model
+        - **Affected element** Discussion section.
+        - **Evidence pointer** Discussion, location not provided.
+        - **Issue** The model presented in the discussion is somewhat vague. It is not clear how the condensation of TPC leads to the recruitment of clathrin and the formation of a clathrin-coated pit.
+        - **Required correction** The authors should provide a more detailed and specific model, perhaps with a schematic figure, showing the sequence of events from TPC condensation to clathrin assembly.
+
+## Risk / unsupported claims
+- The claim that AtEH1 and AtEH2 phase separate in vivo is based on over-expression systems and is not fully supported without evidence that this occurs at endogenous protein levels.
+- The claim that the material properties of the condensates are determined by the sequence composition of IDR1 is supported by the mutant experiments, but the data is not available for review.
+- The claim that clathrin forms ordered assemblies within the condensates is based on CLEM-ET data that is not available for review.
+- The claim that the altered condensate properties directly cause the observed defects in endocytosis and plant growth is not fully supported, as the authors do not rule out alternative explanations for the mutant phenotypes.
+- The claim that the condensation of TPC is a general principle that is conserved across eukaryotes is speculative and not directly tested in this manuscript.

@@ -1,0 +1,234 @@
+{
+  "identity": {
+    "pmid": "35059035",
+    "doi": "10.1007/s12551-021-00850-5",
+    "title": "Secondary structure dependence on simulation techniques and force field parameters: from disordered to ordered proteins."
+  },
+  "content": {
+    "abstract": "Computer simulations are used for identifying the secondary structure properties of ordered and disordered proteins. However, our recent studies showed that the chosen computer simulation protocol, simulation technique, and force field parameter set for a disordered protein impact its predicted secondary structure properties. Here, we compare the outcome from computer simulations utilizing molecular dynamics simulations without parallel tempering techniques using various force field parameter sets and temperature-replica exchange molecular dynamics simulations both for a model ordered and two model disordered proteins. Specifically, the model ordered protein is the third IgG-binding domain of Protein G (GB3) and the two model disordered proteins are amyloid-beta(1-40) and alpha-synuclein in water. Our findings clearly indicate that temperature-replica exchange molecular dynamics simulations and molecular dynamics simulations without special sampling techniques yield similar results for the ordered GB3 protein whereas such agreement between simulation techniques using various force field parameter sets could not be obtained for disordered proteins. These findings clearly indicate that a consensus has to be reached via further development in computer simulation technique and force field parameter sets for disordered proteins.",
+    "keywords": [
+      "Disordered proteins",
+      "Force field parameters",
+      "Ordered proteins",
+      "Simulation protocols",
+      "Simulation techniques"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Coskuner-Weber, Orkid",
+        "Caglayan, Sule Irem"
+      ],
+      "short_names": [
+        "Coskuner-Weber O",
+        "Caglayan SI"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0772-9350"
+      ],
+      "affiliations": [
+        "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi, No. 106, Beykoz, Istanbul, 34820 Turkey. GRID: grid.466176.4. ISNI: 0000 0004 0454 9586",
+        "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi, No. 106, Beykoz, Istanbul, 34820 Turkey. GRID: grid.466176.4. ISNI: 0000 0004 0454 9586"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Coskuner-Weber, Orkid",
+        "short_name": "Coskuner-Weber O",
+        "identifiers": [
+          "0000-0002-0772-9350"
+        ],
+        "affiliations": [
+          "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi, No. 106, Beykoz, Istanbul, 34820 Turkey."
+        ]
+      },
+      {
+        "full_name": "Caglayan, Sule Irem",
+        "short_name": "Caglayan SI",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi, No. 106, Beykoz, Istanbul, 34820 Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical reviews"
+    ],
+    "journal_abbrev": [
+      "Biophys Rev"
+    ],
+    "pub_date": "2021 Dec",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/22 06:00",
+    "fetched_at": "2026-09-20 07:47:03"
+  },
+  "links": {
+    "cites": [
+      "38982922",
+      "37163419",
+      "34840615"
+    ],
+    "refs": [
+      "33580600",
+      "31903719",
+      "30933519",
+      "29744830",
+      "29735687",
+      "27819658",
+      "27727496",
+      "24041422",
+      "23811057",
+      "21726530",
+      "18412346",
+      "17397862",
+      "17088319",
+      "16444756",
+      "16045764",
+      "15369375",
+      "14971932",
+      "14687578",
+      "14644445",
+      "12927332",
+      "11590151"
+    ],
+    "similar": [
+      "35059035",
+      "33580600",
+      "31903719",
+      "34008220",
+      "30250773",
+      "24589355",
+      "29735687",
+      "29235155",
+      "30876367",
+      "32367806",
+      "31136713",
+      "26575570",
+      "29096508",
+      "32816485",
+      "30134733",
+      "35815598",
+      "21289072",
+      "20085382",
+      "23607785",
+      "18688361",
+      "26178083",
+      "38550690",
+      "25871264",
+      "34546059",
+      "22339051",
+      "27560127",
+      "29185737",
+      "32696368",
+      "15224394",
+      "33382616",
+      "20429571",
+      "23912807",
+      "15653723",
+      "31241933",
+      "30372613",
+      "21038907",
+      "34032235",
+      "30259679",
+      "23298543",
+      "35573746",
+      "19272454",
+      "35968960",
+      "19242966",
+      "31552948",
+      "34656328",
+      "26609791",
+      "22742737",
+      "28092832",
+      "28397268",
+      "25919886",
+      "22066538",
+      "30933517",
+      "33167839",
+      "31914313",
+      "15638599",
+      "25897952",
+      "17075138",
+      "28197405",
+      "26453216",
+      "34170125",
+      "34025949",
+      "32623047",
+      "26562747",
+      "8889148",
+      "26263302",
+      "35694853",
+      "31396903",
+      "19739847",
+      "30917651",
+      "21541965",
+      "26575776",
+      "33444020",
+      "31402649",
+      "29808548",
+      "17489626",
+      "29080468",
+      "29023509",
+      "29603125",
+      "26766517",
+      "25243707",
+      "18570534",
+      "25855872",
+      "31657215",
+      "31477241",
+      "28940211",
+      "30134700",
+      "33826337",
+      "37917357",
+      "38366473"
+    ],
+    "review": [
+      "35059035",
+      "23298543",
+      "33167839",
+      "29080468"
+    ],
+    "pmc": [
+      "8724382"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35059035/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12551-021-00850-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35059035",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

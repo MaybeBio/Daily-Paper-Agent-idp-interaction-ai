@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.08.669391",
+  "title": "Integrative Structural Modeling of Intrinsically Disordered Regions in a Human HDAC2 Chromatin Remodeling Complex",
+  "authors": "Nde J; Kempf CG; Zimmermann RC; Cesare J; Zhang Y; Workman JL; Florens L; Washburn MP",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-09",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 9,
+  "one_liner_zh": "该文整合交联实验与I-TASSER/HADDOCK/AlphaFold建模，构建HDAC2染色质重塑复合物中IDR驱动的PPI结构模型，直接契合无序蛋白互作机制建模主题。",
+  "abstract": "Intrinsically disordered regions (IDRs) and intrinsically disordered proteins (IDPs) play pivotal roles in cellular signaling, molecular recognition, and the regulation of various biological processes. These flexible and conformationally dynamic protein segments are difficult to study using structural analysis methods and computational approaches including AlphaFold. Therefore a critical challenge arises when attempting to understand the structural basis of protein-protein interactions involving IDRs. Here we demonstrate that the poorly characterized C16orf87 protein, which we rename as MHAP1, forms a stable complex with HDAC2 and MIER1. These three proteins all contain IDRs whose structure is unknown. We implemented an integrative approach combining experimental crosslinking data with computational modeling techniques (I-TASSER, HADDOCK, AlphaFold) to probe the IDR-driven assembly of the HDAC1:MIER2:MHAP1 complex and build an integrative structural model of this complex. The C-terminal domain of HDAC2, a poorly characterized IDR, promotes interactions between the ELM2 domain of MIER1 as well as the N- and C-termini of MHAP1. These results contrast with most current literature, including the results from AlphaFold alone that are missing structural information on HDAC C-domain. The approach herein can be generalized to study other complexes, emphasizing the need for integrative approaches in determining the 3D structures of IDR/IDP-driven complexes.",
+  "abstract_zh": "固有无序区域（IDRs）和固有无序蛋白质（IDPs）在细胞信号传导、分子识别及多种生物过程的调控中发挥关键作用。这些柔性且构象动态的蛋白质片段难以通过结构分析方法及包括AlphaFold在内的计算手段进行研究。因此，在尝试理解涉及IDRs的蛋白质-蛋白质相互作用的结构基础时，面临一项关键挑战。在此，我们证明表征不足的C16orf87蛋白（我们将其重命名为MHAP1）与HDAC2和MIER1形成稳定复合物。这三种蛋白质均含有结构未知的IDRs。我们采用了一种整合方法，将实验交联数据与计算建模技术（I-TASSER、HADDOCK、AlphaFold）相结合，以探究IDR驱动的HDAC1:MIER2:MHAP1复合物组装，并构建该复合物的整合结构模型。HDAC2的C端结构域（一个表征不足的IDR）促进MIER1的ELM2结构域以及MHAP1的N端和C端之间的相互作用。这些结果与当前大多数文献形成对比，包括仅使用AlphaFold的结果，后者缺失HDAC C结构域的结构信息。本文所述方法可推广至研究其他复合物，强调在确定IDR/IDP驱动复合物的三维结构时采用整合方法的必要性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.08.669391",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.08.669391",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.08.669391/index.html"
+}

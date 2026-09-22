@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including Significance, Results, Discussion, Conclusions, Materials and Methods, and supplementary figure references
+- **Assessment boundary** Scientific validity, technical soundness, and evidentiary support of claims as presented in the provided manuscript text; no assessment of editorial fit or publication policy
+- **Shared manuscript claim summary** The authors use AlphaFold2 to generate a structural model of the intrinsically disordered region of MBD2 (MBD2-IDR) bound to the histone deacetylase core (HDCC) of the NuRD complex, validate this model through NMR-based structural propensity measurements, NanoBRET protein-protein interaction assays, and mutagenesis, and demonstrate that disrupting key interface residues abrogates NuRD-dependent gene silencing of the γ-globin gene in HUDEP-2 cells
+- **Visible evidence base** NMR sPRE and PRE data (Figs. 1, 2), NanoBRET interaction data (Fig. 3, 5), AlphaFold2 model descriptions (Fig. 4, SI Appendix Figs. S4, S5), gene silencing data in HUDEP-2 cells (Fig. 6), and Materials and Methods descriptions
+- **Missing materials affecting confidence** The actual AlphaFold2 model coordinates are referenced as SI Appendix Dataset but not provided in the manuscript text; NMR spectra and assignments are not shown in full; NanoBRET raw data and statistical details are not fully described; the HUDEP-2 gene expression data are summarized but individual replicates and statistical tests are not detailed; supplementary figures are referenced but not available in the provided material
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling integration of computational prediction and experimental validation to address a challenging problem: the structure of an intrinsically disordered region bound to a large multi-protein complex. The authors combine NMR-based structural propensity measurements, in-cell protein-protein interaction assays, and functional gene silencing experiments to support an AlphaFold2-derived model of the MBD2-IDR/HDCC interaction. The work is technically sound in its individual components, and the convergence of multiple independent methods strengthens the central claim. However, several concerns regarding the interpretation of the NMR data, the specificity of the NanoBRET signal, and the strength of the functional conclusions warrant careful consideration. The manuscript would be strengthened by additional quantitative analysis and clearer presentation of the relationship between the computational model and the experimental data.
+- **Who would be interested in the results, and why** Researchers studying chromatin remodeling complexes, particularly the NuRD complex, will find the structural model of the MBD2-IDR/HDCC interaction valuable. The work also has direct relevance to investigators working on fetal hemoglobin regulation and therapeutic approaches for β-hemoglobinopathies, as the identified interface represents a potential drug target. More broadly, the study serves as a methodological example for applying AlphaFold2 to intrinsically disordered protein regions in complex assemblies, which will interest computational structural biologists and those studying disordered proteins.
+- **Major strengths** The study addresses a biologically and clinically important interaction that has resisted experimental structural characterization. The integration of multiple orthogonal methods, including NMR, in-cell interaction assays, and functional readouts, provides convergent evidence for the model. The AlphaFold2 model is critically evaluated against experimental data rather than accepted at face value. The identification of specific residues that disrupt both binding and function offers a clear path toward therapeutic targeting. The authors are appropriately cautious about the limitations of the computational model and acknowledge the dynamic nature of the interaction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence interpretation
+  - **Claim pointer** The authors state that the sPRE data reveal "segments with differing solvent accessibility" and that the R286E/L287A mutation "markedly increases relaxation rates for this region and moderately so throughout the middle and C-terminal thirds of the MBD2-IDR," supporting the existence of transient structure.
+  - **Evidence pointer** Fig. 1C, Results section "The Structural Propensity of the MBD2-IDR"
+  - **Concern** The sPRE data are presented as raw relaxation rate enhancements without quantitative analysis of statistical significance or effect sizes. The differences between wild-type and mutant are described qualitatively, and it is unclear whether the observed differences exceed experimental noise. The authors do not provide error estimates or replicate measurements, making it difficult to assess the robustness of the claimed differences. Additionally, the interpretation that similar relaxation rates across residues 280-292 indicate "a cooperatively folding unit" is an inference that requires additional support, as uniform relaxation rates could also arise from uniform solvent exposure in a fully extended conformation.
+  - **Why it matters** The sPRE data constitute the primary evidence for transient structure in the unbound MBD2-IDR, which is a key premise for the argument that the IDR samples conformations resembling the bound state. If the differences between wild-type and mutant are not statistically robust, this foundational claim is weakened.
+  - **Resolution test** Provide quantitative analysis of sPRE data with error bars and statistical tests comparing wild-type and mutant across all residues. Show replicate measurements and demonstrate that the observed differences are reproducible and significant. Additionally, provide a quantitative comparison between the sPRE-derived solvent accessibility and the AlphaFold2 model predictions to strengthen the correlation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The authors claim that the AlphaFold2 model is "borne out by experimental evidence" and that the NanoBRET mutagenesis data validate specific residue-residue contacts predicted by the model.
+  - **Evidence pointer** Results sections "AlphaFold2 Generates a High-Confidence Model" and "Mutagenesis Confirms Critical Conserved Interactions", Figs. 4, 5
+  - **Concern** The validation of the AlphaFold2 model relies primarily on mutagenesis experiments that measure changes in NanoBRET signal, which is an indirect readout of binding. Reduced NanoBRET signal upon mutation could result from local structural perturbations, altered protein stability, or changes in the relative orientation of the donor and acceptor tags, rather than specifically disrupting the predicted residue-residue contacts. The authors do not provide control experiments to rule out these alternative explanations. Furthermore, the claim that specific mutations validate the model requires a more direct demonstration that the mutated residues are indeed at the interface and that the observed effects are due to loss of specific contacts rather than global destabilization.
+  - **Why it matters** The central claim of the manuscript is that the AlphaFold2 model accurately represents the MBD2-IDR/HDCC interaction. If the mutagenesis data do not specifically validate the predicted contacts, the model remains a hypothesis rather than a validated structure.
+  - **Resolution test** Provide additional validation experiments, such as isothermal titration calorimetry or surface plasmon resonance, to measure binding affinities of the mutant proteins directly. Include control mutations in residues predicted to be outside the interface. Consider complementary approaches such as cross-linking mass spectrometry or hydrogen-deuterium exchange to provide residue-level validation of the model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors conclude that "disrupting critical interactions between MBD2-IDR and the HDCC abrogates gene silencing by the associated NuRD complex" based on the γ-globin expression data in HUDEP-2 cells.
+  - **Evidence pointer** Results section "Disrupting Critical Interactions between MBD2-IDR and the HDCC Abrogates Gene Silencing", Fig. 6
+  - **Concern** The functional data are presented for only a limited set of mutants, and the quantitative relationship between the degree of binding disruption (measured by NanoBRET) and the degree of functional impairment (measured by γ-globin expression) is not systematically explored. The authors show that the W283R and R246D/W283R mutants fail to silence γ-globin, but it is unclear whether this effect is specifically due to disrupted HDCC binding or could result from other effects of these mutations on MBD2 function, such as altered DNA binding, changed subcellular localization, or dominant-negative effects on other MBD2 interactions. The claim that this validates the interface as a therapeutic target requires a more direct demonstration that the observed functional effects are causally linked to the specific interaction being studied.
+  - **Why it matters** The therapeutic implications of the work depend on the specificity of the observed functional effects. If the mutations affect MBD2 function through mechanisms other than disrupted HDCC binding, the conclusions about the interface as a drug target would be overstated.
+  - **Resolution test** Include additional functional assays to assess MBD2 localization, DNA binding, and interaction with other NuRD components for the mutant proteins. Perform a more systematic dose-response analysis correlating binding disruption with functional impairment. Consider rescue experiments with complementary mutations in MBD2 and MTA2 to demonstrate specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Fig. 1C description
+  - **Evidence pointer** Results section "The Structural Propensity of the MBD2-IDR"
+  - **Issue** The description of the sPRE data in Fig. 1C is difficult to follow. The authors state that "the difference is plotted in Fig. 1C (open black symbols)" but do not clearly explain what difference is being plotted or how to interpret the open symbols.
+  - **Required correction** Clarify the figure legend and text to explicitly state what quantity is plotted for the open black symbols, including the formula used to calculate the difference and the units.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** NanoBRET data
+  - **Evidence pointer** Results section "Intracellular Interaction between MBD2 and the HDCC", Fig. 3
+  - **Issue** The NanoBRET data are described as normalized to wild-type and R286E/L287A values, but the number of independent experiments, error bars, and statistical tests are not described in the text or figure legends.
+  - **Required correction** Provide details on the number of biological and technical replicates, the error representation in figures, and the statistical tests used to assess significance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Model limitations
+  - **Affected element** Discussion of AlphaFold2 limitations
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors acknowledge that AlphaFold2 models may not always be reliable but do not discuss the specific limitations of their model, such as the lack of experimental validation for the MBD2 N-terminal region or the potential for conformational heterogeneity in the bound state.
+  - **Required correction** Add a more detailed discussion of the model's limitations, including which regions are best supported by experimental data and which remain uncertain.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Model coordinates
+  - **Evidence pointer** Data, Materials, and Software Availability section
+  - **Issue** The authors state that the model coordinates are provided in the SI Appendix Dataset, but this dataset is not included in the provided manuscript text.
+  - **Required correction** Ensure the dataset is accessible and provide a direct link or accession code for the model coordinates.
+- **Technical failings that need to be addressed before the case is established** The primary technical concern is the lack of quantitative rigor in the NMR sPRE analysis, which is the foundation for the claim of transient structure in the unbound MBD2-IDR. The manuscript would benefit from statistical analysis of the sPRE differences and a clearer demonstration that the observed effects are reproducible. Additionally, the NanoBRET mutagenesis validation would be strengthened by including control mutations and direct binding measurements to confirm that the observed effects are due to specific disruption of the predicted interface.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of AlphaFold2 to model an intrinsically disordered region in a large chromatin remodeling complex, combined with experimental validation, represents a novel approach to a challenging problem. The identification of specific interface residues with functional consequences is original.
+  - Scientific importance: The MBD2-NuRD interaction is biologically significant for gene silencing and clinically relevant for fetal hemoglobin regulation. The structural insights could inform therapeutic development, giving the work substantial importance.
+  - Interdisciplinary readership: The work bridges structural biology, chromatin biology, and translational medicine, and should appeal to readers across these fields. The methodological approach of combining computational prediction with multiple experimental techniques has broad relevance.
+  - Technical soundness: The individual experimental techniques are well-established and appropriately applied. However, the quantitative analysis of the NMR data and the specificity of the mutagenesis validation need strengthening to fully support the conclusions.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear explanations of the biological context and significance. The technical details are presented in a way that should be understandable to a broad scientific audience, though some sections, particularly the NMR analysis, could benefit from additional clarification.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable structural model with important biological and therapeutic implications. The integration of multiple experimental approaches is commendable, and the conclusions are largely supported by the data. However, the quantitative rigor of the NMR analysis and the specificity of the mutagenesis validation need to be strengthened before the case is fully established. With these improvements, the work would make a significant contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the sPRE data demonstrate "segments with differing solvent accessibility" and that the R286E/L287A mutation disrupts transient structure is not quantitatively supported, as no statistical analysis or error estimates are provided.
+- The claim that the AlphaFold2 model is "borne out by experimental evidence" is partially supported but requires more direct validation of specific residue-residue contacts.
+- The conclusion that the identified interface is a viable therapeutic target is reasonable but somewhat speculative, as the functional data are limited to a small number of mutants in a single cell line.
+- The statement that the MBD2-IDR "may adopt a folded structure upon binding to the HDCC" is presented as a conclusion but is more appropriately framed as a hypothesis supported by indirect evidence.
+- The claim that the GATAB2A coiled-coil domain "helps explain why incorporating the GATAD2A coiled-coil domain gives the largest NanoBRET signal" is an interpretation that is not directly tested.

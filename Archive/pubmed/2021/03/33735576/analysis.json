@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33735576",
+  "title": "Liquid-Liquid Phase Separation As the Second Step of Complex Coacervation.",
+  "authors": "Singh, Aditya N; Yethiraj, Arun",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-03-19",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过伞形采样和元动力学等物理模拟方法，研究酪氨酸/精氨酸富集肽的液-液相分离与复合凝聚机制，揭示pi-阳离子键驱动的PPI在凝聚相中的能量学，直接关联无序蛋白介导的互作机制建模。",
+  "abstract": "Liquid-liquid phase separation (LLPS) between tyrosine- and arginine-rich peptides are of biological importance. To understand the interactions between proteins in the condensed phase in close analogy to complex coacervation, we run multiple umbrella calculations between oligomers containing tyrosine (pY) and arginine (pR). We find pR-pY complexation to be energetically driven. Metadynamics simulations on monomers suggest that this energy of complexation is correlated with the number of pi-cation bonds. Free energy calculations for the binding between pairs of poly glutamate-pR dimers show striking similarities between this process and LLPS. These calculations suggest that proteins containing arginine and tyrosine residues do not undergo complexation followed by coacervation. The mechanism, rather, is akin to phase separation of neutral polyion pairs.",
+  "abstract_zh": "富含酪氨酸和精氨酸的肽之间的液-液相分离（LLPS）具有生物学重要性。为了理解凝聚相中蛋白质之间的相互作用，与复合凝聚（complex coacervation）密切类似，我们对含有酪氨酸（pY）和精氨酸（pR）的低聚物进行了多次伞形采样计算。我们发现pR-pY复合在能量上是驱动的。对单体的元动力学模拟表明，这种复合能与π-阳离子键的数量相关。对聚谷氨酸-pR二聚体对之间结合的自由能计算显示，该过程与LLPS之间存在显著相似性。这些计算表明，含有精氨酸和酪氨酸残基的蛋白质不会经历复合后凝聚的过程。相反，其机制类似于中性聚离子对的相分离。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33735576/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33735576/",
+  "paper_page_path": "papers/pubmed/33735576/index.html"
+}

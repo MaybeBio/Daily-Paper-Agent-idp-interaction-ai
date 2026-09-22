@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce BoltzGen, an all-atom generative model for designing protein and peptide binders across diverse target modalities. The model unifies generative design with structure prediction, achieving state-of-the-art folding performance. A flexible design specification language enables control over covalent bonds, structure constraints, and binding sites. Experimental validation across eight design campaigns and 26 targets demonstrates functional and affinity readouts, including nanobody binders for novel targets with low similarity to known bound structures. Model weights, data, and code are released.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were supplied
+- **Missing materials affecting confidence** Full manuscript, methods section, experimental protocols, quantitative results, benchmark comparisons, statistical analyses, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially impactful contribution to computational protein design. The unification of generative design with structure prediction is conceptually appealing and could represent a meaningful advance. However, the abstract alone provides insufficient detail to evaluate the technical soundness, the robustness of the experimental validation, or the significance of the claimed results relative to existing methods. The breadth of claims, from state-of-the-art folding to universal binder design, requires substantially more evidence than is visible here.
+- **Who would be interested in the results, and why** Computational biologists, protein engineers, and structural biologists would be interested in a model that unifies design and prediction. Researchers developing therapeutic binders, particularly nanobodies and peptide-based agents, would value demonstrated success across diverse targets. The open-source release of weights and code would attract practitioners seeking generative tools for binder design.
+- **Major strengths** The conceptual unification of design and structure prediction in a single model is a notable idea. The demonstrated breadth across binder modalities, from nanobodies to disulfide-bonded peptides, and target types, from disordered proteins to small molecules, suggests generalizability. The inclusion of functional and affinity readouts across 26 targets indicates an effort toward experimental validation beyond computational benchmarks. The release of model weights, data, and code supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "BoltzGen builds strong structural reasoning capabilities about target-binder interactions into its generative design process. This is achieved by unifying design and structure prediction, resulting in a single model that also reaches state-of-the-art folding performance."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of state-of-the-art folding performance is presented without any benchmark details, comparison baselines, or evaluation metrics. The abstract does not specify which folding benchmarks were used, how performance was measured, or against which models the comparison was made.
+  - **Why it matters** State-of-the-art claims require rigorous benchmarking against established methods. Without specifying the evaluation protocol, the claim cannot be verified or contextualized. This is central to the model's credibility, as the folding performance is presented as evidence of the model's structural reasoning capability.
+  - **Resolution test** Provide benchmark names, evaluation metrics, comparison methods, and statistical significance tests in the full manuscript. The claim should be supported by quantitative results in a dedicated results section or table.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** "We experimentally validate these capabilities in eight diverse design campaigns with functional and affinity readouts across 26 targets."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports eight design campaigns and 26 targets but provides no quantitative outcomes. No success rates, affinity values, functional assay results, or comparison to existing design methods are given. The phrase "functional and affinity readouts" does not indicate whether the designs succeeded, partially succeeded, or failed.
+  - **Why it matters** Experimental validation is the core evidence for the model's practical utility. Without quantitative results, the reader cannot assess whether the model outperforms existing approaches, achieves useful binding affinities, or produces functional binders. The claim of "universal binder design" requires demonstrated success, not merely attempted campaigns.
+  - **Resolution test** Provide per-campaign success rates, affinity measurements, functional assay outcomes, and, where applicable, comparisons to established design methods. Include these data in the full manuscript with clear tables and figures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Significance of results
+  - **Claim pointer** "In particular, we identify nanobody binders for novel targets with low similarity to proteins with already known bound structures."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of identifying nanobody binders for novel targets is presented without defining "low similarity," specifying the targets, or providing binding data. The abstract does not indicate how many nanobodies were identified, their affinities, or whether they were functionally validated.
+  - **Why it matters** This is presented as a key achievement, but without quantitative binding data or a clear definition of target novelty, the significance cannot be evaluated. The claim could range from a single weak binder to multiple high-affinity binders, with very different implications for the model's utility.
+  - **Resolution test** Specify the targets, define the similarity threshold used, and provide binding affinities and functional validation for the identified nanobodies in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "all modalities"
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "all modalities" is vague. It is unclear whether this refers to all binder types, all target types, or both. The subsequent text lists examples, but the scope of "all" is not defined.
+  - **Required correction** Specify the range of binder and target modalities covered, or replace "all" with a more precise descriptor such as "multiple" or "diverse."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** "flexible design specification language"
+  - **Evidence pointer** Abstract, fourth sentence
+  - **Issue** The design specification language is mentioned but not described. No syntax, capabilities, or examples are provided, making it difficult to assess its flexibility or usability.
+  - **Required correction** Provide a brief description or example of the specification language in the abstract, or reference a methods section where it is fully defined.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Benchmarking
+  - **Affected element** "state-of-the-art folding performance"
+  - **Evidence pointer** Abstract, third sentence
+  - **Issue** The comparison for folding performance is not specified. It is unclear whether the comparison is against other generative models, dedicated folding models, or both.
+  - **Required correction** Specify the comparison set and the benchmarks used in the full manuscript, and state this clearly in the abstract if space permits.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative benchmarking for folding performance, the lack of experimental outcome data, and the undefined novelty criteria for nanobody targets collectively prevent the core claims from being evaluated.
+- **Assessment against Nature-style criteria** Originality: The unification of design and structure prediction is conceptually original, though the abstract does not clarify how this differs from prior work. Scientific importance: Potentially high, given the breadth of targets and binder modalities, but the significance cannot be assessed without quantitative results. Interdisciplinary readership: The work would appeal to computational and experimental biologists, but the abstract lacks sufficient detail for nonspecialists to understand the technical approach. Technical soundness: Cannot be evaluated from the abstract alone; the absence of methods and benchmarks is a critical gap. Readability for nonspecialists: The abstract is accessible but uses terms such as "all-atom generative model" and "design specification language" without explanation, which may limit comprehension for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an intriguing concept and broad claims, but the absence of quantitative results, benchmark details, and experimental outcomes means the core assertions cannot be verified. A full manuscript with rigorous methods and results would be required to assess whether the claims are supported.
+
+## Risk / unsupported claims
+- "State-of-the-art folding performance" is unsupported without benchmark details or comparison baselines.
+- "Experimental validation across eight design campaigns and 26 targets" is unverifiable without quantitative outcomes.
+- "Nanobody binders for novel targets with low similarity" is unsupported without target definitions, similarity thresholds, or binding data.
+- "Universal binder design" is an overreach given the limited evidence presented in the abstract.
+- The claim of "strong structural reasoning capabilities" is not directly evidenced by any presented metric or comparison.

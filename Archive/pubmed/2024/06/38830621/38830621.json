@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "38830621",
+    "doi": "10.1021/acs.jctc.4c00206",
+    "title": "Effects of Phosphorylation on Protein Backbone Dynamics and Conformational Preferences."
+  },
+  "content": {
+    "abstract": "Phosphorylations are the most common and extensively studied post-translational modification (PTM) of proteins in eukaryotes. They constitute a major regulatory mechanism, modulating protein function, protein-protein interactions, as well as subcellular localization. Phosphorylation sites are preferably located in intrinsically disordered regions and have been shown to trigger structural rearrangements and order-to-disorder transitions. They can therefore have a significant effect on protein backbone dynamics or conformation, but only sparse experimental data are available. To obtain a more general description of how and when phosphorylations have a significant effect on protein behavior, molecular dynamics (MD) currently provides the only suitable framework to study these effects at a large scale in atomistic detail. This study develops a systematic MD simulation framework to explore the influence of phosphorylations on the local backbone dynamics and conformational propensities of proteins. Through a series of glycine-backbone peptides, we studied the effects of amino acid residues including the three most common phosphorylations (Ser, Thr, and Tyr), on local backbone dynamics and conformational propensities. We further extended our study to investigate the interactions of all such residues between position i to positions i + 1, i + 2, i + 3, and i + 4 in such peptides. The final data set comprises structural ensembles for 3393 sequences with more than 1 mus of sampling for each ensemble. To validate the relevance of the results, the structural and conformational properties extracted from the MD simulations are compared to NMR data from the Biological Magnetic Resonance Data Bank. The systematic nature of this study enables the projection of the gained knowledge onto any phosphorylation site in the proteome and provides a general framework for the study of further PTMs. The full data set is publicly available, as a training and reference set.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phosphorylation",
+      "*Molecular Dynamics Simulation",
+      "*Protein Conformation",
+      "*Proteins/chemistry/metabolism",
+      "Peptides/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bickel, David",
+        "Vranken, Wim"
+      ],
+      "short_names": [
+        "Bickel D",
+        "Vranken W"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0332-8338",
+        "ORCID: 0000-0001-7470-4324"
+      ],
+      "affiliations": [
+        "Interuniversity Institute of Bioinformatics in Brussels, 1050 Brussels, Belgium.",
+        "Structural Biology Brussels, Vrije Universiteit Brussels, 1050 Brussels, Belgium.",
+        "Interuniversity Institute of Bioinformatics in Brussels, 1050 Brussels, Belgium.",
+        "Structural Biology Brussels, Vrije Universiteit Brussels, 1050 Brussels, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bickel, David",
+        "short_name": "Bickel D",
+        "identifiers": [
+          "0000-0003-0332-8338"
+        ],
+        "affiliations": [
+          "Interuniversity Institute of Bioinformatics in Brussels, 1050 Brussels, Belgium.",
+          "Structural Biology Brussels, Vrije Universiteit Brussels, 1050 Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Vranken, Wim",
+        "short_name": "Vranken W",
+        "identifiers": [
+          "0000-0001-7470-4324"
+        ],
+        "affiliations": [
+          "Interuniversity Institute of Bioinformatics in Brussels, 1050 Brussels, Belgium.",
+          "Structural Biology Brussels, Vrije Universiteit Brussels, 1050 Brussels, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2024 Jun 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/04 00:45",
+    "fetched_at": "2026-09-21 07:38:01"
+  },
+  "links": {
+    "cites": [
+      "42649382",
+      "42480222",
+      "42193304",
+      "42129541",
+      "41823588",
+      "41820080",
+      "41601454",
+      "41596631",
+      "41596213",
+      "41432299",
+      "41382207",
+      "41136353",
+      "41126530",
+      "40294067",
+      "39683818"
+    ],
+    "refs": [
+      "37595155",
+      "36478084",
+      "36350035",
+      "35793420",
+      "34912847",
+      "34681718",
+      "34576338",
+      "33945530",
+      "32508104",
+      "32050065",
+      "31598803",
+      "31433507",
+      "30468703",
+      "30316104",
+      "28554535",
+      "27984725",
+      "26827288",
+      "26789758",
+      "26759163",
+      "26387105",
+      "25764013",
+      "25533957",
+      "25531225",
+      "24888500",
+      "24183573",
+      "23861868",
+      "23717802",
+      "23650349",
+      "23264757",
+      "22398450",
+      "22360139",
+      "22034591",
+      "21989936",
+      "21500218",
+      "20408171",
+      "19849832",
+      "19778072",
+      "18713857",
+      "17985196",
+      "17600445",
+      "17485469",
+      "17243818",
+      "17212484",
+      "16863191",
+      "16248604",
+      "16240095",
+      "16018962",
+      "14960716",
+      "11827536",
+      "9895674",
+      "9876124",
+      "2231712"
+    ],
+    "similar": [
+      "38830621",
+      "30840442",
+      "30204435",
+      "27975243",
+      "40011319",
+      "39871444",
+      "38512658",
+      "20825228",
+      "15959866",
+      "36084124",
+      "22506277",
+      "33979327",
+      "34680137",
+      "26030674",
+      "10903873",
+      "40198698",
+      "36774359",
+      "38877893",
+      "30620582",
+      "23811057",
+      "31793290",
+      "23912807",
+      "26574429",
+      "23448349",
+      "29077417",
+      "27844185",
+      "31714766",
+      "32929427",
+      "26759163",
+      "33321112",
+      "36934808",
+      "18481860",
+      "21989936",
+      "34056776",
+      "19754142",
+      "37937769",
+      "26961246",
+      "33573010",
+      "38018910",
+      "33444020",
+      "31877033",
+      "19908838",
+      "31241933",
+      "21830782",
+      "21879108",
+      "39984300",
+      "31548393",
+      "25897952",
+      "36402223",
+      "37990496",
+      "37746887",
+      "26723616",
+      "36987865",
+      "36131545",
+      "39979079",
+      "26052838",
+      "33030907",
+      "24423055",
+      "22829760",
+      "33530506",
+      "34576338",
+      "22972619",
+      "25233851",
+      "29925017",
+      "33078950",
+      "37905972",
+      "29127738",
+      "32751224",
+      "30289704",
+      "27940377",
+      "34870441",
+      "33945530",
+      "16984883",
+      "26794929",
+      "34681718",
+      "38116756",
+      "23730714",
+      "30731089",
+      "10373009",
+      "24888500",
+      "18713857",
+      "39486437",
+      "29053272",
+      "38869513",
+      "24452989",
+      "27284086",
+      "39092904",
+      "25781269",
+      "12596268",
+      "20865514",
+      "39190324",
+      "34252246",
+      "33876640",
+      "40042172",
+      "37167199",
+      "23794453",
+      "16145655",
+      "36800279",
+      "39539017",
+      "15764601"
+    ],
+    "review": [
+      "38830621",
+      "30840442",
+      "30620582",
+      "31793290",
+      "21830782",
+      "21879108",
+      "33530506",
+      "27940377"
+    ],
+    "pmc": [
+      "11210476"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38830621/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.4c00206",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

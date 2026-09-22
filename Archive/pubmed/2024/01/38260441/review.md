@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results and discussion, figure legends referenced but figures not provided)
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretive validity based solely on the supplied text. Figures, tables, and supplementary materials referenced but not provided are treated as unavailable for direct verification.
+- **Shared manuscript claim summary** The authors report a structural characterization of human Cdt1 92-546 using orthogonal biophysical techniques (DSF, DSCD, CD, NMR, DLS, SEC-MALS, SEC-SAXS) combined with Monte Carlo simulations via SASSIE. They conclude that Cdt1 is monomeric, contains disordered N-terminal and linker regions, and adopts "folded over" conformations in which the two winged-helix domains are in close proximity. They propose this conformation may reflect an auto-inhibitory state relevant to Cdt1's moonlighting functions.
+- **Visible evidence base** Text descriptions of experimental results, methodological details, and interpretive statements. Figures S1-S5, Tables 1-4, and all primary data plots are referenced but not included.
+- **Missing materials affecting confidence** All figures, tables, supplementary data, raw SAXS curves, Guinier fits, Kratky plots, P(r) distributions, CD spectra, NMR HSQC spectra, DSF/DSCD melting curves, DLS correlation functions, SEC-MALS elution profiles, and simulation output files. Without these, quantitative verification of the central claims is not possible.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a genuinely important and technically challenging problem: the solution structure of a mixed-folded, multi-domain protein with critical roles in DNA replication licensing and kinetochore function. The combination of experimental biophysics with Monte Carlo simulation is appropriate and potentially powerful. However, the current text does not provide sufficient quantitative evidence to support several central claims. The thermal stability data are presented without error analysis or replicate statistics. The SEC-SAXS analysis relies on a single concentration and lacks the standard validation metrics expected in the field. The SASSIE modeling is described qualitatively, with no information on ensemble convergence, parameter sensitivity, or comparison to alternative models. The claim that Cdt1 adopts "folded over" conformations is plausible but not rigorously established from the evidence presented. The manuscript would benefit from a more critical treatment of the limitations of each technique and a clearer articulation of what is definitively demonstrated versus what is inferred.
+- **Who would be interested in the results, and why** Structural biologists studying mixed-folded and intrinsically disordered proteins will find the methodological template relevant. Researchers in DNA replication licensing and kinetochore biology will be interested in the potential functional implications of Cdt1's conformational ensemble. The work may also appeal to computational biologists developing methods for integrating SAXS data with molecular simulation. The broader community studying scaffold proteins and protein-protein interaction hubs may find the "folded over" hypothesis conceptually useful.
+- **Major strengths** The study addresses a protein of clear biological importance that has been refractory to conventional structural characterization. The use of multiple orthogonal techniques is appropriate for a mixed-folded system. The authors are appropriately cautious in some interpretations, such as acknowledging the limitations of comparing to yeast Cdt1. The potential functional implications regarding auto-inhibition and steric blocking are interesting and testable. The methodological template for studying mixed-folded proteins is a useful contribution to the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that DSF and DSCD show both folded WH domains of Cdt1 are "relatively unstable" with melting temperatures of 43 °C and 42 °C respectively.
+  - **Evidence pointer** Results and Discussion, Thermal denaturation experiments; Figure 2B and 2C; Tables 1 and 2 (not provided)
+  - **Concern** The melting temperatures are reported as single values with no error bars, no replicate numbers, and no statistical comparison to the ovalbumin control. The claim of "relative instability" requires a quantitative comparison to a panel of folded proteins or at minimum a statement of the precision of the measurement. The text states the data "support the interpretation that the two domains have similar, low thermal stabilities," but this inference is based on the assumption that each WH domain contains one buried tryptophan and has similar secondary structure. This is an indirect inference, not a direct measurement of domain-specific stability.
+  - **Why it matters** The thermal stability data underpin the claim that Cdt1 is intrinsically unstable, which is used to rationalize rapid degradation in vivo. If the melting temperatures are not reproducible or are within error of the control, this claim is weakened. The connection between in vitro Tm and in vivo stability is speculative and requires more careful framing.
+  - **Resolution test** Provide replicate measurements with standard deviations, a statistical comparison to ovalbumin and at least one additional folded protein control, and a discussion of whether the two observed transitions can be unambiguously assigned to the two WH domains. If domain-specific assignment is not possible, state this limitation explicitly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SEC-SAXS data show Cdt1 is monomeric with no significant inter-molecular interactions, and that the Rg is 41 Å with a Dmax noticeably larger than globular ovalbumin.
+  - **Evidence pointer** Results and Discussion, Hydrodynamic and scattering experiments; Figure 3C-3F; Figure S4; Tables 1 and S4 (not provided)
+  - **Concern** The SEC-SAXS analysis is described at a qualitative level. No information is provided on the concentration range tested, the number of exposures averaged, the quality of the Guinier fit (e.g., Rg error, q-range used), the reduced chi-squared for the P(r) fit, or the Porod volume. The claim of monomericity relies on a constant molecular weight across the peak, but the text does not state the uncertainty in the MALS-derived mass or how it compares to the theoretical monomer. The statement that Rg was "independent of protein concentration across the SEC elution peak" is not a substitute for a proper concentration series. The claim that the data are consistent with "no significant inter-molecular interactions" is an absence of evidence, not evidence of absence.
+  - **Why it matters** The monomeric state and the absence of self-association are central to the interpretation that Cdt1 functions as a monomeric scaffold. If the SEC-SAXS data are not of sufficient quality or are not analyzed with appropriate rigor, this claim is not established. The Rg value of 41 Å is a key input to the SASSIE modeling, so its accuracy directly affects the validity of the conformational ensemble.
+  - **Resolution test** Provide the full SEC-SAXS analysis including Guinier fits with error estimates, P(r) fits with quality metrics, concentration series data, and a comparison of the experimental Rg to values calculated from the SASSIE ensemble. State the uncertainty in the MALS-derived molecular weight and how it was calculated.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SASSIE Monte Carlo simulations, filtered by experimental SAXS data, reveal that the best-fit conformations have the two WH domains close to each other in "folded over" conformations, with N-terminal and linker regions extended into solution.
+  - **Evidence pointer** Results and Discussion, Rigid body modeling; Figure 4A-4D; Figure 5A-5D; Table 2 (not provided)
+  - **Concern** The description of the SASSIE modeling is insufficient to evaluate its validity. No information is provided on the number of Monte Carlo steps, the acceptance criteria, the temperature schedule, the definition of "non-overlapping," the energy minimization protocol, or the convergence of the ensemble. The chi-squared filter is described as χ2 < 3, but the number of structures passing this filter (3,945) is stated without context. The text does not state whether the ensemble was tested for convergence, whether the results are robust to the choice of flexible regions, or whether alternative starting models were considered. The claim that "neither fully extended nor extremely compact Cdt1 conformations are consistent with our SAXS data" is presented without showing the distribution of Rg values for the rejected structures. The center-of-mass analysis in Figure 5 is described qualitatively, with no statistical measure of the width of the distribution or its significance.
+  - **Why it matters** The "folded over" conformation is the central structural claim of the manuscript. If the modeling is not rigorously validated, the claim is not established. The comparison to Ataxin-3 and TraI is interesting but does not substitute for a quantitative demonstration that the ensemble is well-converged and that the filtered conformations are uniquely consistent with the data.
+  - **Resolution test** Provide full details of the simulation protocol, convergence tests, and a sensitivity analysis showing that the "folded over" conclusion is robust to reasonable variations in the simulation parameters. Show the distribution of Rg and χ2 for all accepted structures, and demonstrate that the filtered ensemble is statistically distinct from the unfiltered ensemble. Consider testing an alternative model in which the domains are forced apart to show that it cannot fit the data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors hypothesize that the "folded over" conformation may represent an auto-inhibitory state, and that Cdt1 may need to undergo a large conformational change to extend and bridge multiple components of the kinetochore.
+  - **Evidence pointer** Results and Discussion, Rigid body modeling, final paragraph
+  - **Concern** This hypothesis is presented without any direct experimental test. The comparison to TraI is suggestive but does not establish that Cdt1 functions analogously. The text does not discuss alternative interpretations, such as the possibility that the "folded over" conformation is an artifact of the simulation or that the conformational ensemble is more heterogeneous than the "folded over" label implies.
+  - **Why it matters** The functional implications are the most interesting aspect of the manuscript for a broad readership. If the hypothesis is presented without appropriate caveats, it may be overinterpreted. The authors should clearly distinguish between what is demonstrated (the ensemble is inconsistent with fully extended or extremely compact conformations) and what is speculative (the functional relevance of the "folded over" state).
+  - **Resolution test** Either provide direct experimental evidence for the auto-inhibitory hypothesis (e.g., mutagenesis, FRET, or binding studies) or reframe the discussion to clearly label this as a speculative hypothesis that requires future testing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction assumes familiarity with the Cdt1 literature and does not provide sufficient context for readers outside the DNA replication field. The "moonlighting" function is mentioned but not explained in sufficient detail.
+  - **Required correction** Provide a brief explanation of what "moonlighting" means in this context and why the dual roles of Cdt1 are biologically significant.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, TIRF Microscopy
+  - **Evidence pointer** Materials and Methods, TIRF Microscopy
+  - **Issue** The TIRF microscopy section is described as a method to test microtubule binding, but the text does not describe how binding was quantified or how many independent experiments were performed. The reference to "Afreen et al., 2022 [39]" is incomplete.
+  - **Required correction** Provide a quantitative description of the TIRF binding assay, including the number of replicates, the method of quantification, and a complete reference.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, NMR Spectroscopy
+  - **Evidence pointer** Materials and Methods, NMR Spectroscopy
+  - **Issue** The NMR section states that 15N-HSQC data was collected but provides no information on the number of scans, the temperature, the spectral width, or how the data were processed. The statement that the data "demonstrate a high disorder content" is not supported by any quantitative analysis.
+  - **Required correction** Provide the full NMR acquisition parameters and a description of how disorder was assessed from the HSQC spectrum.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results and Discussion, Rigid body modeling
+  - **Evidence pointer** Results and Discussion, Rigid body modeling, final paragraph
+  - **Issue** The term "folded over" is used repeatedly but is never precisely defined. It is unclear whether this refers to a specific inter-domain angle, a contact interface, or a general tendency for the domains to be closer than expected.
+  - **Required correction** Provide a quantitative definition of "folded over" in terms of the inter-domain distance or angle distribution from the simulation ensemble.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Molecular Simulations
+  - **Evidence pointer** Materials and Methods, Molecular Simulations
+  - **Issue** The methods state that the CHARMM-32 force field was used and that the model was energy minimized and relaxed via 1 ns NVT molecular dynamics. No information is provided on the temperature, the thermostat, the integration time step, or the equilibration protocol.
+  - **Required correction** Provide the full simulation parameters to allow reproducibility.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Results and Discussion, Hydrodynamic and scattering experiments
+  - **Evidence pointer** Results and Discussion, Hydrodynamic and scattering experiments, final paragraph
+  - **Issue** The text states that "both functions imply binding partner association, not high local concentration in isolation, drive Cdt1 complex formation at Ndc85, consistent with its function as a scaffold protein." This is an interpretive leap that is not directly supported by the data presented.
+  - **Required correction** Soften this statement to indicate that the data are consistent with, but do not prove, this interpretation.
+- **Technical failings that need to be addressed before the case is established** The absence of error analysis and replicate statistics for the thermal stability measurements. The lack of a full SEC-SAXS analysis with quality metrics. The insufficient description of the SASSIE simulation protocol and convergence testing. The absence of a quantitative definition of "folded over" conformations. The lack of a direct test of the auto-inhibitory hypothesis.
+- **Assessment against Nature-style criteria** Originality: The application of SAXS/MC to a mixed-folded protein of biological importance is a reasonable approach, but the concept of combining SAXS with simulation is not novel. The specific finding of "folded over" conformations is potentially interesting but not yet established. Scientific importance: The biological questions are important, but the current evidence does not yet provide a definitive answer. Interdisciplinary readership: The work could appeal to structural biologists, biophysicists, and cell biologists, but the presentation is too specialized in places. Technical soundness: The experimental techniques are appropriate, but the analysis and reporting are insufficient to establish the central claims. Readability for nonspecialists: The manuscript is generally readable but would benefit from clearer definitions and more context.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem and the methodological approach is appropriate, but the quantitative evidence presented is insufficient to support the central claims. The authors should provide the missing data, improve the rigor of the analysis, and more carefully distinguish between demonstrated results and speculative interpretations.
+
+## Risk / unsupported claims
+- The claim that Cdt1 is "relatively unstable" based on Tm values of 42-43 °C is not supported without error analysis and comparison to controls.
+- The claim that Cdt1 is monomeric with "no significant inter-molecular interactions" is not established from the data described.
+- The claim that the best-fit conformations are "folded over" is not quantitatively supported without a full description of the simulation and filtering procedure.
+- The hypothesis that the "folded over" conformation represents an auto-inhibitory state is speculative and not tested.
+- The statement that "both functions imply binding partner association, not high local concentration in isolation, drive Cdt1 complex formation" is an interpretation not directly supported by the data.
+- The claim that the N-terminal and linker regions are "intrinsically disordered" based on CD and NMR is plausible but not quantitatively demonstrated in the text.

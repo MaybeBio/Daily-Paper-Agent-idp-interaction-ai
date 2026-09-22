@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42251432",
+  "title": "Single-cell transcriptomics and machine learning unveil liquid-liquid phase separation-related biomarkers in HPV-positive cervical cancer.",
+  "authors": "Chen, Yiru",
+  "journal": "Infectious agents and cancer",
+  "published_date": "2026-06-07",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用单细胞转录组和机器学习识别HPV阳性宫颈癌中LLPS相关生物标志物，但对象为癌症转录组而非无序蛋白/IDR，且无PPI机制建模，仅间接相关。",
+  "abstract": "BACKGROUND: Liquid-liquid phase separation (LLPS) dysregulation is a key driver of oncogenesis, yet its specific role in HPV-positive cervical cancer remains undefined. We hypothesized that HPV-positive tumors exploit distinct LLPS mechanisms to evade nucleolar stress surveillance, offering a novel avenue for biomarker discovery. METHODS: We analyzed 70,519 single-cell transcriptomes across four histological conditions (Normal/Cancer, HPV+/-) to interrogate a curated panel of 120 LLPS-related genes. Our analytical framework integrated multi-tiered differential expression modeling with Random Forest classification to identify transformation-specific signatures. RESULTS: Analysis revealed a significant Cancer-HPV interaction effect characterized by the robust suppression of ribosomal proteins RPL5 and RPL11 (log(2)FC  approximately  - 3.4) specifically in HPV-positive cancer. Machine learning validation confirmed these genes as the top predictors (Variable Importance: RPL5 81.4%, RPL11 76.9%). The integrated model achieved 69.7% classification accuracy, predicting HPV-positive malignancy with a posterior probability of 78.4%. CONCLUSIONS: This study identifies a unique, HPV-specific suppression of the LLPS-regulators RPL5 and RPL11, mechanistically linking viral carcinogenesis to the evasion of ribosomal stress pathways. By integrating single-cell transcriptomics with machine learning, we present a novel, transformation-specific biomarker panel that distinguishes HPV-positive malignancy from both normal infection and non-viral cancer, providing new targets for diagnostic precision and therapeutic intervention.",
+  "abstract_zh": "背景：液-液相分离（liquid-liquid phase separation, LLPS）调控失调是肿瘤发生的关键驱动因素，但其在HPV阳性宫颈癌中的具体作用尚不明确。我们假设HPV阳性肿瘤利用独特的LLPS机制逃逸核仁应激监视，为生物标志物发现提供新途径。方法：我们分析了四种组织学状态（正常/癌症，HPV+/-）下的70,519个单细胞转录组，以探究由120个LLPS相关基因组成的精选基因集。我们的分析框架整合了多层次差异表达建模与随机森林分类，以识别转化特异性特征。结果：分析揭示了一个显著的癌症-HPV交互效应，其特征为核糖体蛋白RPL5和RPL11在HPV阳性癌症中特异性显著抑制（log(2)FC 约 -3.4）。机器学习验证确认这些基因是首要预测因子（变量重要性：RPL5 81.4%，RPL11 76.9%）。整合模型实现了69.7%的分类准确率，以78.4%的后验概率预测HPV阳性恶性肿瘤。结论：本研究识别了HPV特异性抑制LLPS调控因子RPL5和RPL11的独特机制，从机制上将病毒致癌与核糖体应激通路逃逸联系起来。通过整合单细胞转录组学与机器学习，我们提出了一种新颖的、转化特异性的生物标志物组合，可区分HPV阳性恶性肿瘤与正常感染及非病毒性癌症，为诊断精准性和治疗干预提供新靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42251432/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42251432/",
+  "paper_page_path": "papers/pubmed/42251432/index.html"
+}

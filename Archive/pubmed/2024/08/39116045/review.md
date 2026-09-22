@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supporting information references.
+- **Assessment boundary** Scientific soundness, technical rigor, clarity of claims, and alignment of evidence with conclusions. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors report that the Entamoeba histolytica retromer component EhVps26 is a bona fide Vps26 protein with a long, charged intrinsically disordered region (IDR) at its C-terminus. They use bioinformatic analyses, molecular dynamics simulations (MDS), AlphaFold2-based complex prediction, localization studies, and gene knockdown experiments to propose that EhVps26 participates in phagocytosis, likely through IDR-mediated interactions with retromer components and cargo.
+- **Visible evidence base** Sequence alignments and domain predictions (Fig 1, S1 Table), 3D modeling and refinement (Fig 2, S1 Fig), MDS of full-length and truncated EhVps26 (Figs 3-4, Table 1), binding pocket predictions (Fig 5, Table 2), AlphaFold2 complex predictions (Fig 6, Table 3), localization by confocal and electron microscopy (Figs 7-9), phagocytosis tracking (Fig 10), and knockdown phenotype (Fig 11).
+- **Missing materials affecting confidence** Raw MDS trajectory data, validation metrics for AlphaFold2 models (e.g., pLDDT, PAE), uncropped western blots, quantification details for phagocytosis assays, statistical test outputs, and negative controls for antibody specificity.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a descriptive and largely bioinformatic characterization of EhVps26, with supporting localization and knockdown data. The work is competent in its execution but is limited by the absence of direct biochemical or functional evidence linking the proposed IDR-mediated interactions to the phagocytosis phenotype. The claims regarding the role of the IDR in protein stability and interaction are plausible but remain largely correlative. The phagocytosis defect in knockdown cells is the strongest functional evidence, but the mechanism connecting EhVps26 to this phenotype is not established.
+- **Who would be interested in the results, and why** Researchers studying retromer biology in non-model organisms, particularly parasitic protists, would find this work of interest. The comparative genomics and structural predictions may also appeal to those interested in the evolution of the retromer complex. The study provides a foundation for future mechanistic work in E. histolytica, a pathogen of significant public health importance.
+- **Major strengths** The study addresses a relevant and understudied topic, namely retromer function in a parasitic protist. The combination of bioinformatic prediction and experimental validation is appropriate. The localization data, including the use of multiple microscopy techniques, are thorough. The knockdown experiments provide direct evidence for a role of EhVps26 in phagocytosis. The identification of a long, charged IDR in EhVps26 is a novel and potentially important observation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** The manuscript claims that the IDR is "essential for the secondary structures stability" and that its absence disrupts binding pockets for EhVps35 and EhSNX3, implying a direct mechanistic link between the IDR and retromer function.
+  - **Evidence pointer** Section 1.4, 1.5, 1.6; Figs 3-5; Tables 1-2
+  - **Concern** The conclusion that the IDR is functionally critical is based solely on in silico comparisons between the full-length and truncated EhVps26 models. The MDS and pocket predictions are not validated by any experimental data, such as mutagenesis, binding assays, or co-immunoprecipitation. The observed structural differences in the truncated model could be artifacts of the modeling approach rather than true biological consequences of IDR removal.
+  - **Why it matters** The central mechanistic claim of the paper, that the IDR confers stability and enables interactions, is not supported by direct evidence. Without experimental validation, the significance of the IDR remains speculative.
+  - **Resolution test** Provide experimental evidence, such as: (1) circular dichroism or limited proteolysis to compare secondary structure stability of full-length vs. truncated EhVps26; (2) pull-down or co-IP assays to test interaction with EhVps35 and EhSNX3; (3) mutagenesis of key IDR residues followed by functional assays.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The manuscript states that knockdown cells "ingested 50% fewer erythrocytes than the control cells" at 5 and 10 min, and 20% fewer at 15 min.
+  - **Evidence pointer** Section 1.10; Fig 11C
+  - **Concern** The phagocytosis assay data are presented without clear quantification details. The number of biological replicates, the number of cells counted per replicate, the statistical test used, and the variance are not reported in the text or figure legend. The western blot and immunofluorescence data in Fig 11A and 11B show a reduction in protein level, but the relationship between the degree of knockdown (30-40%) and the observed functional effect (50% reduction) is not discussed.
+  - **Why it matters** The phagocytosis phenotype is the primary functional evidence for the role of EhVps26. Without rigorous quantification and statistical analysis, the robustness of this finding cannot be assessed.
+  - **Resolution test** Provide full details of the phagocytosis assay, including replicate numbers, cell counts, statistical methods, and effect sizes. Show that the phenotype is consistent across replicates and is not due to off-target effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The manuscript states that the AlphaFold2-predicted EhVps26-EhVps35-EhSNX3 complex "resembles the structures of mammalian orthologues" and that the interaction is "similar" to the mammalian one.
+  - **Evidence pointer** Section 1.7; Fig 6; Table 3
+  - **Concern** The AlphaFold2 models are presented without any confidence metrics (e.g., pLDDT scores, PAE plots). The comparison to the mammalian complex is qualitative, based on visual inspection of superimposed structures. The RMSD value of 1.9 Å is reported, but it is unclear over how many residues this was calculated and whether the aligned regions are structurally equivalent.
+  - **Why it matters** The validity of the predicted complex and the claim of similarity to mammalian retromer depend on the quality of the models. Without confidence metrics, the reader cannot judge the reliability of the predictions.
+  - **Resolution test** Provide pLDDT and PAE plots for all AlphaFold2 models. Report the RMSD calculation details, including the number of aligned residues and the superposition method. Consider validating key predicted interactions with site-directed mutagenesis or cross-linking experiments.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that EhVps26 "followed the erythrocytes pathway" during phagocytosis, but the data in Fig 10 show localization at various stages without a clear temporal sequence. The phrasing overstates the evidence.
+  - **Required correction** Rephrase to "EhVps26 was observed at sites of erythrocyte contact and on phagosomes at multiple time points during phagocytosis."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods
+  - **Evidence pointer** Section "Molecular dynamics simulations"
+  - **Issue** The MDS methods lack key parameters, including the force field version, water model, temperature coupling algorithm, and the length of the equilibration and production runs. The statement "500 ns lasting MDS" is present, but the number of replicates is not stated.
+  - **Required correction** Provide complete MDS parameters, including software version, force field, water model, ensemble, temperature and pressure coupling methods, simulation length, and number of replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Fig 11
+  - **Evidence pointer** Fig 11
+  - **Issue** The figure legend does not specify the statistical test used, the number of replicates, or the error bar definition.
+  - **Required correction** Add a detailed figure legend stating the statistical test, number of independent experiments, and error bar definition.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Antibody validation
+  - **Affected element** Fig 7
+  - **Evidence pointer** Fig 7B
+  - **Issue** The western blot shows a single band for EhVps26 in amoebic lysates, but the predicted molecular weight is 48 kDa while the observed band is 60 kDa. The authors attribute this to aberrant migration, but no evidence is provided to support this claim (e.g., mass spectrometry or knockout/knockdown validation of the band).
+  - **Required correction** Provide additional validation of the antibody specificity, such as pre-adsorption with the recombinant protein or analysis of the knockdown lysates by western blot.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods
+  - **Evidence pointer** Section "Sequences analysis"
+  - **Issue** The accession numbers for all sequences used in the analyses are listed in S1 Table, but the table is not described in the text. The authors should reference S1 Table explicitly in the relevant methods section.
+  - **Required correction** Add a reference to S1 Table in the "Sequences analysis" section.
+- **Technical failings that need to be addressed before the case is established** The lack of experimental validation for the IDR-mediated interactions (R1-M1) and the incomplete quantitative reporting of the phagocytosis data (R1-M2) are the primary technical issues. The absence of AlphaFold2 confidence metrics (R1-M3) also needs to be addressed.
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of retromer biology to E. histolytica is novel, but the approaches used are standard. Scientific importance: Moderate. The findings are of interest to the parasitology and vesicular trafficking communities but do not fundamentally alter current understanding of retromer function. Interdisciplinary readership: Limited. The work is primarily of interest to cell biologists and parasitologists. Technical soundness: The bioinformatic and imaging approaches are generally sound, but the lack of experimental validation for key claims and incomplete quantitative reporting weaken the overall rigor. Readability for nonspecialists: The manuscript is clearly written and accessible, with appropriate background information.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a reasonable descriptive characterization of EhVps26, but the central mechanistic claims require experimental validation. The phagocytosis phenotype is promising but needs more rigorous quantification. If the authors can provide direct evidence for the role of the IDR in protein interactions and strengthen the functional data, the manuscript would be suitable for publication.
+
+## Risk / unsupported claims
+- The claim that the IDR is "essential for the secondary structures stability" is unsupported by direct experimental evidence.
+- The claim that the predicted binding pockets are "for the putative interaction with EhVps35, EhSNX3 and a PX domain-containing protein" is speculative and not validated experimentally.
+- The statement that EhVps26 "followed the erythrocytes pathway" during phagocytosis overstates the descriptive localization data.
+- The claim that the EhVps26-EhVps35-EhSNX3 complex "resembles the structures of mammalian orthologues" is based on unvalidated AlphaFold2 models without confidence metrics.
+- The functional significance of the 30-40% knockdown on the 50% reduction in phagocytosis is not mechanistically explained.

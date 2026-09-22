@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36088077",
+  "title": "Intrinsically disordered proteins in viral pathogenesis and infections.",
+  "authors": "Selvaraj, Chandrabose; Pravin, Muthuraja Arun; Alhoqail, Wardah A; Nayarisseri, Anuraj; Singh, Sanjeev Kumar",
+  "journal": "Advances in protein chemistry and structural biology",
+  "published_date": "2022-09-11",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 6,
+  "one_liner_zh": "综述病毒编码无序蛋白在感染与致病中的分子机制，强调其通过构象变化与多种蛋白互作，但缺乏AI或物理模拟方法，属对象与互作相关、方法较弱的综述。",
+  "abstract": "Disordered proteins serve a crucial part in many biological processes that go beyond the capabilities of ordered proteins. A large number of virus-encoded proteins have extremely condensed proteomes and genomes, which results in highly disordered proteins. The presence of these IDPs allows them to rapidly adapt to changes in their biological environment and play a significant role in viral replication and down-regulation of host defense mechanisms. Since viruses undergo rapid evolution and have a high rate of mutation and accumulation in their proteome, IDPs' insights into viruses are critical for understanding how viruses hijack cells and cause disease. There are many conformational changes that IDPs can adopt in order to interact with different protein partners and thus stabilize the particular fold and withstand high mutation rates. This chapter explains the molecular mechanism behind viral IDPs, as well as the significance of recent research in the field of IDPs, with the goal of gaining a deeper comprehension of the essential roles and functions played by viral proteins.",
+  "abstract_zh": "无序蛋白在许多超越有序蛋白能力的生物过程中扮演着关键角色。大量病毒编码蛋白具有极其压缩的蛋白质组和基因组，导致产生高度无序的蛋白。这些内在无序蛋白（IDPs）的存在使它们能够迅速适应生物环境的变化，并在病毒复制及下调宿主防御机制中发挥重要作用。由于病毒经历快速进化，其蛋白质组具有高突变率和累积率，因此对病毒中IDPs的洞察对于理解病毒如何劫持细胞并引发疾病至关重要。IDPs能够采用多种构象变化，以与不同的蛋白伙伴相互作用，从而稳定特定折叠并耐受高突变率。本章阐述了病毒IDPs背后的分子机制，以及近期在IDPs领域研究的重要性，旨在更深入地理解病毒蛋白所发挥的关键作用与功能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36088077/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36088077/",
+  "paper_page_path": "papers/pubmed/36088077/index.html"
+}

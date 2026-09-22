@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusion, methods, and supplementary information descriptions.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to presented evidence, and alignment with Nature-style criteria. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations with the AMOEBA polarizable forcefield to compare pairwise interactions among aromatic and cationic sidechains in model compounds versus capped amino acids and tripeptides, under dilute and dense phase conditions. They report that backbone amides enhance pairwise interactions in dilute phases but weaken them in dense phases in a concentration-dependent manner, leading to loss of long-range ordering, fluidization, and formation of percolated network structures.
+- **Visible evidence base** Main text figures (Figs. 1, 3, 4, 5, 6, 7, 8, 9, 10), methods section, and references to supplementary figures and tables (Figs. S1–S15, Tables S1–S2).
+- **Missing materials affecting confidence** Supplementary Data 1 and Supplementary Data 2 are referenced but not provided. Specific simulation parameters for CHARMM36m simulations, full forcefield parameter details, and raw trajectory data are not available. Convergence analysis details are only partially described.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting and potentially important contribution to understanding the molecular driving forces of biomolecular condensate formation. The central claim, that backbone-mediated effects weaken pairwise sidechain interactions in dense phases and thereby enable percolation, is a novel and testable hypothesis. The use of a polarizable forcefield is a strength, and the comparison between model compounds and peptide-based mimics is well designed. However, the evidence presented is largely based on indirect measures (PMFs, excluded volumes, connectivity analyses) and the connection to actual condensate behavior of full-length IDPs remains inferential. Several technical details regarding simulation convergence, forcefield validation, and the interpretation of connectivity analyses require clarification. The manuscript would benefit from a more direct demonstration that the observed percolation is relevant to experimentally observed condensate properties.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, intrinsically disordered proteins, and computational biophysics would be the primary audience. The work is also relevant to those developing coarse-grained models of phase-separating systems, as it provides atomistic insights into the balance of interactions that govern condensate formation and material properties. The findings could inform experimental design, particularly in interpreting mutagenesis studies of condensate-forming proteins.
+- **Major strengths** 1. The study addresses a fundamental and timely question about the nature of interactions within biomolecular condensates. 2. The use of a polarizable forcefield (AMOEBA) is a methodological strength, as it can capture electronic polarization effects that may be important in dense environments. 3. The systematic comparison between model compounds and peptide-based mimics allows for a clean dissection of backbone versus sidechain contributions. 4. The connectivity/percolation analysis provides a quantitative framework for describing network formation. 5. The authors connect their findings to a broader conceptual framework (blob picture, semidilute solutions), which enhances the generalizability of the results.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "backbone-mediated interactions weaken pairwise interactions in dense phases" and that this weakening "enables percolation within dense phases."
+  - **Evidence pointer** Figures 7, 8, 9, 10; Methods section "Calculation of PMFs in the dilute phase using umbrella sampling"
+  - **Concern** The PMFs in dense phases are computed from the distribution of pairwise distances, P(r), using the inverse Boltzmann relation. This approach assumes that the system is at equilibrium and that the pairwise distance distribution is a valid proxy for the potential of mean force. However, in a dense, multi-body system, the pairwise distance distribution is influenced by many-body correlations and excluded volume effects that are not captured by a simple two-body PMF. The authors do not adequately address this limitation. Furthermore, the convergence of the dense phase simulations is only assessed via a percolation analysis on one-fifth of the data (Fig. S15), which is insufficient to guarantee that the P(r) distributions are converged, especially for the long-range tail that contributes to the PMF at large separations.
+  - **Why it matters** The central conclusion of the paper, that backbone-mediated weakening of pairwise interactions enables percolation, rests on the validity of these dense-phase PMFs. If the PMFs are not accurate representations of the true interaction free energies in the dense phase, the entire interpretive framework is compromised.
+  - **Resolution test** The authors should provide a more rigorous convergence analysis, including block averaging of the P(r) distributions and PMFs over multiple independent time blocks. They should also compare their dense-phase PMFs with those obtained from alternative methods, such as umbrella sampling in the dense phase or Kirkwood-Buff theory, to validate the inverse Boltzmann approach. Additionally, they should quantify the contribution of many-body effects to the PMFs, for example by comparing two-body and three-body correlation functions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "our results show how peptide backbones enhance pairwise interactions in dilute phases while weakening these interactions to enable percolation within dense phases" and that this is relevant to "condensates of IDPs."
+  - **Evidence pointer** Abstract; Introduction; Discussion
+  - **Concern** The simulations are performed on capped amino acids and short tripeptides, which are minimal models of the much larger and more complex IDPs that form condensates. The authors argue that the blob picture justifies this simplification, but the leap from tripeptides to full-length IDPs is substantial. The authors do not demonstrate that the observed effects (weakening of pairwise interactions, percolation) are preserved in longer peptides or in the context of a full-length IDP sequence. The relevance of the findings to real condensates is therefore not established.
+  - **Why it matters** The stated significance of the work is its relevance to understanding biomolecular condensates. If the findings are not transferable to full-length IDPs, the impact of the work is substantially diminished.
+  - **Resolution test** The authors should either (a) perform additional simulations on longer peptides (e.g., 10-20 residues) to test whether the observed trends hold, or (b) provide a more detailed and quantitative argument for why the tripeptide results are representative of full-length IDPs, perhaps by comparing their results to existing simulations or experiments on full-length systems. They should also discuss the potential role of chain connectivity and sequence context in modulating the effects they observe.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the higher valence afforded by the presence of peptide backbones, taken together with the concentration-dependent weakening of pairwise sidechain associations, helps drive the formation of system-spanning networks."
+  - **Evidence pointer** Figure 10; Methods section "Evaluations of convergence"
+  - **Concern** The connectivity analysis used to define percolation relies on distance cutoffs derived from the first minimum of the radial distribution function for specific atom pairs. This is a reasonable approach, but the choice of which atom pairs to include in the connectivity analysis is not fully justified. For example, the authors include sidechain-sidechain, sidechain-backbone, and backbone-backbone distances, but it is not clear whether all of these are equally important for defining the network. The sensitivity of the percolation threshold to the choice of cutoffs is not explored.
+  - **Why it matters** The claim of percolation is a key finding of the paper. If the percolation threshold is highly sensitive to the arbitrary choice of connectivity criteria, the robustness of this finding is questionable.
+  - **Resolution test** The authors should perform a sensitivity analysis of the percolation threshold to the choice of distance cutoffs and the set of atom pairs included in the connectivity definition. They should also compare their results with alternative definitions of connectivity, such as those based on hydrogen bonding or contact lifetimes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction assumes significant familiarity with polymer physics concepts (e.g., blob picture, overlap concentration, semidilute solutions) without providing sufficient context for a general reader.
+  - **Required correction** Provide a brief, accessible explanation of these concepts, perhaps with a simple analogy, to make the introduction more accessible to a broader scientific audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Calculation of PMFs in the dilute phase using umbrella sampling"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the umbrella sampling protocol is incomplete. The number of windows, the spacing between windows, and the total simulation time per window are mentioned, but the specific range of the reaction coordinate and the criteria for choosing the harmonic force constant are not fully described.
+  - **Required correction** Provide a more detailed description of the umbrella sampling setup, including the range of distances sampled, the number of windows, and the justification for the chosen force constant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "PMFs in the dilute phase follow well-defined hierarchies"
+  - **Evidence pointer** Figure 3
+  - **Issue** The error bars in Figure 3D are not described in the figure legend. It is unclear whether they represent standard deviations, standard errors, or confidence intervals.
+  - **Required correction** Clarify the nature of the error bars in the figure legend and in the Methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, paragraph 3
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the implications for experimental systems is brief and somewhat speculative. The authors mention that their findings "highlight the need for using coarse-grained models with explicit representations of polypeptide backbones," but do not provide concrete predictions that could be tested experimentally.
+  - **Required correction** Expand the discussion to include specific, testable predictions arising from the simulations, such as expected changes in condensate viscosity or saturation concentration upon mutation of backbone-interacting residues.
+- **Technical failings that need to be addressed before the case is established** 1. Validation of the inverse Boltzmann approach for computing dense-phase PMFs (R1-M1). 2. Demonstration of relevance to full-length IDPs (R1-M2). 3. Sensitivity analysis of the percolation threshold to connectivity criteria (R1-M3).
+- **Assessment against Nature-style criteria**  
+  - **Originality** High. The idea that backbone-mediated effects weaken pairwise interactions in dense phases and enable percolation is a novel perspective that challenges the prevailing focus on sidechain interactions.  
+  - **Scientific importance** Moderate to high. If the findings are generalizable, they could significantly impact the understanding of condensate formation and material properties. However, the current evidence does not fully establish this generalizability.  
+  - **Interdisciplinary readership** Moderate. The work will appeal to biophysicists, computational chemists, and soft matter physicists, but may be less accessible to cell biologists or biochemists without a strong physical chemistry background.  
+  - **Technical soundness** Moderate. The simulation methodology is state-of-the-art, but the analysis of dense-phase PMFs and the connectivity analysis have potential methodological weaknesses that need to be addressed.  
+  - **Readability for nonspecialists** Moderate. The manuscript is clearly written but relies heavily on specialized terminology from polymer physics and statistical mechanics.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the simulations are carefully designed, but the current evidence does not fully establish the case. The authors should address the concerns regarding the validity of dense-phase PMFs, the relevance to full-length IDPs, and the robustness of the percolation analysis.
+
+## Risk / unsupported claims
+- The claim that "backbone-mediated interactions weaken pairwise interactions in dense phases" is supported by the presented PMF data, but the validity of the dense-phase PMFs is not fully established.
+- The claim that the observed percolation is relevant to "condensates of IDPs" is not directly supported by the simulations, which are performed on short peptides.
+- The claim that "the higher valence afforded by the presence of peptide backbones... helps drive the formation of system-spanning networks" is plausible but not directly demonstrated; the mechanism linking valence to percolation is not explicitly tested.
+- The statement that "the effects of polarization make π-π interactions stronger than the Arg–π interactions" is based on a comparison between AMOEBA and CHARMM36m results, but the CHARMM36m simulations are only described briefly and the comparison is not fully quantitative.
+- The claim that "the similarities of results we observe between a polarizable and non-polarizable forcefields explain why coarse-grained models... robustly capture conformational changes" is speculative and not directly supported by the data presented.

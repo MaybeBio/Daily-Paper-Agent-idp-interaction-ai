@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of methods, data, or figures beyond what is stated
+- **Shared manuscript claim summary** The authors propose that N-methylation of the peptide backbone in intrinsically disordered SUMO-interacting motifs (SIMs) restricts accessible conformations, predisposing them for recognition by SUMO proteins. They report faster target binding and higher affinity, attributed to increased energy of the unbound state and reduced entropic contributions to binding and activation energies, based on fluorescence anisotropy, relaxation-based NMR, and computational analysis.
+- **Visible evidence base** Abstract text only; no figures, tables, methods sections, or numerical data provided
+- **Missing materials affecting confidence** Full manuscript, experimental protocols, NMR data, fluorescence anisotropy measurements, computational methods and parameters, statistical analyses, and any structural or conformational data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis with potentially broad relevance to peptidomimetic design and the study of coupled binding and folding in intrinsically disordered proteins. However, the evidence base available for review is limited to the abstract, which precludes verification of the central mechanistic claims. The conclusion that N-methylation increases affinity by raising the unbound state energy and reducing entropic penalties is plausible but requires rigorous experimental and computational support that cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Researchers in chemical biology, peptide and peptidomimetic design, protein-protein interaction modulation, and biophysical studies of intrinsically disordered proteins. The work could inform strategies for developing PPI inhibitors or probes targeting β-strand-mediated interactions, and would be of interest to those studying the thermodynamics of coupled binding and folding.
+- **Major strengths** The hypothesis is clearly articulated and mechanistically motivated. The use of multiple complementary techniques (fluorescence anisotropy, NMR, computation) suggests a multi-pronged approach. The focus on a biologically relevant PPI system (SUMO-SIM) enhances potential impact. The proposed framework linking backbone modification to conformational preorganization and entropic effects is conceptually appealing.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that N-methylation results in faster target binding and higher affinity, and that this occurs due to an increase in the energy of the unbound state and a reduction in the entropic contribution to binding and activation energies.
+  - **Evidence pointer** Abstract only; no specific figures, tables, or numerical data referenced
+  - **Concern** The central mechanistic claim is presented without any quantitative data. No binding constants, kinetic rates, thermodynamic parameters, or error estimates are provided. The abstract states that these conclusions are supported by fluorescence anisotropy, NMR, and computation, but the results are not summarized in sufficient detail to evaluate their robustness or consistency across methods.
+  - **Why it matters** The claim that N-methylation increases affinity specifically by raising unbound state energy and reducing entropic penalties is a strong mechanistic statement. Without quantitative thermodynamic and kinetic data, it is impossible to determine whether the observed effects are statistically significant, whether they are consistent across the methods used, or whether alternative explanations (e.g., enthalpic effects, changes in binding mode) have been excluded.
+  - **Resolution test** Provide binding affinities (e.g., Kd values) with uncertainties for methylated and unmethylated peptides, kinetic association and dissociation rates, and thermodynamic parameters (ΔH, ΔS, ΔG) derived from appropriate experiments. Show that the differences are statistically significant and that the entropic contribution is specifically reduced in the methylated variants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim scope versus evidence
+  - **Claim pointer** The abstract states that N-methylation in "appropriate locations" results in the observed effects, implying a systematic structure-activity relationship.
+  - **Evidence pointer** Abstract only; no positional information or systematic variation described
+  - **Concern** The abstract does not specify how many methylation positions were tested, how "appropriate" was determined, or whether the effects are position-dependent in a predictable manner. Without this information, the generality of the conclusion is unclear.
+  - **Why it matters** The title and abstract suggest a general principle for tuning binding affinity via backbone modification. If only a limited set of positions were effective, or if the effects are idiosyncratic, the broader applicability to peptidomimetic design would be weakened.
+  - **Resolution test** Describe the full panel of methylation positions tested, including those that did not improve affinity, and provide a rationale for why certain positions are effective. Show that the observed effects correlate with predicted conformational restriction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational support
+  - **Claim pointer** The abstract states that computational analysis supports the conclusion that higher affinities arise from increased unbound state energy and reduced entropic contributions.
+  - **Evidence pointer** Abstract only; no computational methods or results described
+  - **Concern** The nature of the computational analysis is unspecified. It is unclear whether this refers to molecular dynamics simulations, free energy calculations, conformational sampling, or other approaches. The level of theory, force field, sampling length, and convergence criteria are not stated.
+  - **Why it matters** Computational results are only meaningful if the methods are appropriate and well-converged. Without details, the computational support cannot be evaluated, and the risk of overinterpretation is high.
+  - **Resolution test** Provide a description of the computational methods, including system setup, simulation parameters, and analysis protocols. Show that the calculations reproduce experimental trends and that the entropic decomposition is robust to methodological choices.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "coupled binding and folding interactions" is used without definition. It is unclear whether this refers to a specific biophysical model or is used loosely.
+  - **Required correction** Define the term or provide a reference to the model being invoked.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental scope
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not state whether the effects of N-methylation were tested on multiple SIM sequences or a single sequence. This affects the generality of the conclusions.
+  - **Required correction** Clarify the number of peptide sequences studied and whether the effects are consistent across them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Quantitative reporting
+  - **Evidence pointer** Abstract
+  - **Issue** No numerical values are given for any measured or computed quantity, making it impossible to gauge the magnitude of the reported effects.
+  - **Required correction** Include representative values (e.g., fold-change in affinity, differences in entropy) in the abstract or refer to specific figures with quantitative summaries.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative data and the lack of detail on positional effects prevent the central claims from being evaluated. R1-M3 is important but not necessarily blocking if the experimental data are strong.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of using backbone N-methylation to preorganize intrinsically disordered sequences for β-strand-mediated binding is not entirely new, but the specific application to SUMO-SIM interactions and the proposed entropic mechanism may offer a fresh perspective. Originality cannot be fully assessed from the abstract alone.
+  - **Scientific importance** If the claims are substantiated, the work could have significant implications for peptidomimetic design and for understanding how conformational restriction affects binding of disordered peptides. The importance is moderate to high, depending on the generality of the findings.
+  - **Interdisciplinary readership** The topic bridges chemical biology, biophysics, and peptide chemistry, and would likely appeal to a broad readership in these areas. The abstract is written in a way that is accessible to nonspecialists.
+  - **Technical soundness** Cannot be assessed from the abstract. The use of multiple methods is encouraging, but the lack of detail prevents evaluation of experimental design, data quality, or analysis rigor.
+  - **Readability for nonspecialists** The abstract is clearly written and the main concepts are explained in an accessible manner. The mechanistic language is appropriate for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is plausible, but the abstract does not provide sufficient quantitative or methodological detail to support the central claims. A revised version with full data, methods, and a more detailed description of the positional effects would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that N-methylation results in faster binding and higher affinity is unsupported without quantitative kinetic and thermodynamic data.
+- The claim that increased affinity arises specifically from increased unbound state energy and reduced entropic contributions is unsupported without thermodynamic decomposition.
+- The claim that N-methylation "effectively restrict[s] accessible conformations" is unsupported without conformational or structural data.
+- The generality of the findings across different methylation positions and sequences is unassessable from the abstract.
+- The computational analysis is mentioned but not described, making its contribution unassessable.

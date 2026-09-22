@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41259415",
+  "title": "Molecular insights on the mechanism of alpha1-antitrypsin condensate formation and maturation.",
+  "authors": "Sanchez-Burgos, Ignacio; Tejedor, Andres R; Collepardo-Guevara, Rosana; de la Serna, Jorge Bernardino; Espinosa, Jorge R",
+  "journal": "PLoS computational biology",
+  "published_date": "2025-11-19",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用平衡与非平衡分子动力学模拟揭示α1-抗胰蛋白酶Z突变体经无序C端驱动相分离形成液滴并成熟为固态聚集体的机制，直接命中无序蛋白介导的凝聚体PPI机制建模，方法为物理模拟，高度契合课题。",
+  "abstract": "The deficiency of [Formula: see text]-antitrypsin protein is a genetic disorder characterized by the accumulation of misfolded protein aggregates within hepatocytes, leading to liver dysfunction. In the lung, it is found in macrophages, bronchial and epithelial alveolar cells type 2, leading to pulmonary emphysema. Despite extensive research, the precise mechanism underlying the formation of [Formula: see text]-antitrypsin inclusion bodies remain elusive. In this study, we combine equilibrium and non-equilibrium molecular dynamics simulations to elucidate the intricate process of [Formula: see text]-antitrypsin condensate formation and maturation. Our mechanistic model explains cluster accumulation-specifically the onset of this pathogenesis-through the emergence of phase-separated liquid-like protein droplets, which subsequently undergo inter-protein beta-sheet transitions between misfolded variants, resulting in solid-like clusters. We find that this mechanism only applies to the misfolded variant, Z-[Formula: see text]-antitrypsin, which phase-separates driven by its disordered C-terminus. In contrast, the native protein, M-[Formula: see text]-antitrypsin, shows much lower propensity to phase-separate and later form kinetically trapped aggregates. Furthermore, we explore how Z-[Formula: see text]-antitrypsin exhibits an increased capacity to form condensates near external walls with different types of interactions. Such conditions can be similar to those found within the endoplasmic reticulum membrane, where phase separation and hardening take place. Overall, our results shed light on the molecular basis of [Formula: see text]-antitrypsin-related disorders and provide valuable microscopic insights for the development of therapeutic strategies targeting protein misfolding and aggregation-related disorders.",
+  "abstract_zh": "[Formula: see text]-抗胰蛋白酶蛋白的缺乏是一种遗传性疾病，其特征是错误折叠的蛋白质聚集体在肝细胞内积累，导致肝功能障碍。在肺部，它存在于巨噬细胞、支气管细胞和2型肺泡上皮细胞中，导致肺气肿。尽管已有广泛研究，[Formula: see text]-抗胰蛋白酶包涵体形成的精确机制仍不明确。在本研究中，我们结合平衡和非平衡分子动力学 (molecular dynamics) 模拟，以阐明[Formula: see text]-抗胰蛋白酶凝聚体形成和成熟的复杂过程。我们的机制模型通过相分离 (phase separation) 的液滴状蛋白液滴的出现，解释了簇积累——特别是这种病理发生的起始——随后这些液滴在错误折叠变体之间经历蛋白质间β-折叠转变，形成固态样簇。我们发现，这一机制仅适用于错误折叠变体Z-[Formula: see text]-抗胰蛋白酶，其由其无序C末端驱动发生相分离。相比之下，天然蛋白M-[Formula: see text]-抗胰蛋白酶显示出低得多的相分离倾向，并随后形成动力学捕获的聚集体。此外，我们探讨了Z-[Formula: see text]-抗胰蛋白酶在具有不同类型相互作用的外壁附近形成凝聚体的能力增强。这种条件可能类似于内质网膜内的环境，其中相分离和硬化发生。总体而言，我们的结果揭示了[Formula: see text]-抗胰蛋白酶相关疾病的分子基础，并为针对蛋白质错误折叠和聚集相关疾病的治疗策略开发提供了宝贵的微观见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41259415/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41259415/",
+  "paper_page_path": "papers/pubmed/41259415/index.html"
+}

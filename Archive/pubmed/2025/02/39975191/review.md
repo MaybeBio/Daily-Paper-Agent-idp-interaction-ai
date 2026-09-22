@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion, acknowledgements)
+- **Assessment boundary** Scientific content, methodological soundness, data interpretation, and claims as presented in the provided manuscript text. No supplementary figures, tables, or movies were available for review.
+- **Shared manuscript claim summary** The authors use contrast-variation solution X-ray scattering (CV-SAXS) combined with ensemble-based structural modeling and coarse-grained molecular dynamics simulations to characterize conformational changes of poly-A, poly-U, and poly-C single-stranded RNA upon interaction with a poly(proline-arginine) (PR30) peptide, both in pre-condensation and phase-separated states. They report nucleotide-specific structural changes, including base flipping and altered helical ordering, and propose that purine-rich RNA condensates are more stable and ordered than pyrimidine-rich ones.
+- **Visible evidence base** Main text figures referenced (Figures 1-4, S1-S20), equations (1)-(13), methods descriptions, and simulation details as described in the text.
+- **Missing materials affecting confidence** Supplementary figures (S1-S20), supplementary tables, supplemental movies, and detailed simulation parameter files were not provided. This limits verification of several quantitative claims and methodological details.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question regarding the structural behavior of RNA within ribonucleoprotein condensates. The application of CV-SAXS to selectively probe RNA conformations in protein-RNA mixtures is innovative and well-motivated. The combination of experimental scattering with ensemble modeling and coarse-grained simulations provides a multi-pronged approach. However, several technical concerns regarding data interpretation, simulation methodology, and the robustness of the structural conclusions need to be addressed. The claim of nucleotide-specific "molecular grammar" is intriguing but requires stronger experimental support, particularly regarding the direct link between observed scattering features and the proposed molecular mechanisms.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, RNA biology, and biophysics would find this work relevant. The methodological advance of using CV-SAXS for RNA-in-condensate structural studies could be of broad interest to the structural biology community. The findings on nucleotide-specific behavior may inform understanding of RNA sequence-dependent phase separation in both normal physiology and disease contexts.
+- **Major strengths** 1) The use of CV-SAXS to isolate RNA scattering within protein-RNA complexes is a sophisticated and appropriate technique for this problem. 2) The combination of experimental and computational approaches provides complementary perspectives. 3) The systematic comparison of three homopolymeric RNA sequences allows for clear nucleotide-specific conclusions. 4) The study addresses a significant gap in understanding RNA structure within condensates.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of data interpretation
+  - **Claim pointer** The authors claim that the broad scattering peak observed at q ~ 0.1 Å⁻¹ in poly-A RNA within phase-separated RNP mixtures suggests "subtle ordering" with a real-space lengthscale of ~62.8 Å.
+  - **Evidence pointer** Results section "RNA ordering uniquely accompanies the poly-A phase transition at physiological NaCl", Figure 4A, equation S10
+  - **Concern** The interpretation of a single broad peak in the scattering profile as evidence of "subtle ordering" is not sufficiently justified. A broad peak in SAXS data from concentrated or phase-separated systems can arise from inter-particle interference, excluded volume effects, or concentration fluctuations, without implying any specific molecular ordering. The authors need to provide additional analysis to rule out these alternative explanations. Furthermore, the conversion of the peak position to a real-space lengthscale assumes a specific structural model (e.g., Bragg-like spacing) that may not be appropriate for a disordered, dynamic condensate. Control experiments or simulations showing that this peak is specific to poly-A and not simply a concentration effect would strengthen the claim.
+  - **Why it matters** This peak is presented as key evidence for nucleotide-specific ordering in condensates, which is a central conclusion of the paper. If the interpretation is incorrect, the claim of distinct structural organization between poly-A and poly-U/poly-C condensates is weakened.
+  - **Resolution test** Provide additional SAXS data on poly-A alone at comparable concentrations (without PR30) to show the peak is PR30-dependent. Perform concentration-dependent studies to show the peak position and intensity scale differently from simple inter-particle interference. Alternatively, use the MD simulations to compute a predicted SAXS profile from the simulated condensates and compare directly with the experimental data to validate the structural origin of the peak.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of simulation methodology
+  - **Claim pointer** The authors use the Mpipi coarse-grained model to simulate condensate formation and dynamics, and claim that simulation results support the experimental observation that poly-A condensates are more stable than poly-U condensates.
+  - **Evidence pointer** Methods section "Molecular dynamics simulations", Results section "RNA nucleotide-specific sticker strength dictates condensate dynamics", Figures 4B-H, S14-S20
+  - **Concern** The Mpipi model was parameterized for specific amino acid and nucleotide interactions, but the manuscript does not provide sufficient detail on how the model parameters were validated for the specific system studied (PR30 with RNA homopolymers). The simulation box size (792.7 Å cube) and the number of chains are not stated clearly, making it difficult to assess finite-size effects. The timescale of 1 μs may be insufficient to equilibrate large condensates, particularly for the more strongly interacting poly-A system. The claim that poly-A condensates are "stable" based on fewer RNA exchange events could be a kinetic artifact of stronger binding rather than a thermodynamic property. The authors should provide convergence checks, system size analysis, and a more careful distinction between kinetic and thermodynamic stability.
+  - **Why it matters** The simulation results are used to support the experimental interpretation of differential condensate stability. If the simulations are not well-converged or are affected by finite-size or parameterization issues, the conclusions drawn from them are not reliable.
+  - **Resolution test** Provide details on system size, number of chains, and equilibration protocols. Show that results are converged with respect to simulation length and system size. Compare simulation predictions (e.g., condensate density, chain exchange rates) with experimental measurements where possible. Discuss the sensitivity of the results to the specific interaction parameters in the Mpipi model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Sufficiency of evidence for molecular mechanism
+  - **Claim pointer** The authors propose that the observed conformational changes, including base flipping and altered helical ordering, result from "π−π interactions of the bases with basic residues" and that this constitutes a "molecular grammar" for RNA-protein phase separation.
+  - **Evidence pointer** Abstract, Discussion section, Figure 3
+  - **Concern** While the experimental data show changes in RNA conformation upon PR30 binding, the specific attribution of these changes to π−π interactions between bases and arginine residues is largely speculative. The CV-SAXS data provide ensemble-averaged structural information but cannot directly identify the molecular contacts responsible. The MD simulations could potentially provide this information, but the manuscript does not present a detailed analysis of the contact types (e.g., π−π vs. cation-π vs. electrostatic) in the simulated condensates. Without such analysis, the proposed mechanism remains a hypothesis rather than a demonstrated conclusion.
+  - **Why it matters** The claim of a specific molecular grammar based on π−π interactions is a significant and generalizable conclusion. If not properly supported, it overstates the current evidence and could mislead future studies.
+  - **Resolution test** Perform a detailed analysis of the MD simulation trajectories to quantify the types of contacts between RNA bases and arginine residues (e.g., π−π stacking, cation-π, hydrogen bonding). Correlate the presence of these contacts with the observed conformational changes. If possible, perform mutations or chemical modifications that disrupt specific interactions and test their effect on condensate properties.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methodology
+  - **Affected element** Methods section "RNA-PR30 phase separation"
+  - **Evidence pointer** Methods section, Figure S1
+  - **Issue** The description of the phase diagram measurement is somewhat unclear. The text states that "a new RNA-PR30 mixture was prepared halfway through this titration so that the concentration was never reduced by more than 20%," but the rationale for this and the exact procedure are not fully explained.
+  - **Required correction** Clarify the titration procedure, including the volume changes and how the concentration was maintained. Provide a more detailed description of how the phase boundary was determined from the turbidity data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section, Figures 2, 3, 4
+  - **Evidence pointer** Results sections, Figures 2-4
+  - **Issue** The manuscript reports uncertainties for some measurements (e.g., Rg values) but does not consistently report the number of independent replicates or the statistical methods used to determine these uncertainties.
+  - **Required correction** Provide a clear statement of the number of replicates for each experiment and the statistical methods used. Consider adding error bars to all figures where quantitative comparisons are made.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of simulation description
+  - **Affected element** Methods section "Molecular dynamics simulations"
+  - **Evidence pointer** Methods section
+  - **Issue** The methods for the MD simulations lack some essential details, such as the specific version of the Mpipi model used, the force field parameters for the PR30 peptide, the integration time step, and the thermostat/barostat settings.
+  - **Required correction** Provide a complete description of the simulation protocol, including all relevant parameters, to ensure reproducibility. Consider providing input files as supplementary material.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of simulation observables
+  - **Affected element** Results section "RNA nucleotide-specific sticker strength dictates condensate dynamics", Figure 4E-H
+  - **Evidence pointer** Results section, Figure 4E-H
+  - **Issue** The manuscript reports the number of RNA "arrivals" and "departures" from condensates as a measure of dynamics, but the definition of an "arrival" or "departure" event is not clearly defined. It is unclear how these events are counted and whether the results are sensitive to the chosen criteria.
+  - **Required correction** Clearly define what constitutes an arrival or departure event in the simulation analysis. Discuss the sensitivity of the results to the chosen criteria and consider reporting additional dynamical measures (e.g., residence times, diffusion coefficients).
+- **Technical failings that need to be addressed before the case is established** 1) The interpretation of the SAXS peak in poly-A condensates as evidence of ordering requires additional controls and analysis (R1-M1). 2) The MD simulation methodology needs more detail and validation to support the dynamical claims (R1-M2). 3) The proposed molecular mechanism (π−π interactions) needs direct support from simulation analysis or additional experiments (R1-M3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of CV-SAXS to study RNA structure within condensates is a novel methodological contribution. The systematic comparison of homopolymeric RNAs provides new data on sequence-dependent behavior.
+  - **Scientific importance** Understanding the molecular grammar of RNA-protein phase separation is of high importance given the role of condensates in health and disease. The findings could have broad implications.
+  - **Interdisciplinary readership** The topic bridges structural biology, biophysics, and cell biology. The methods used (SAXS, MD simulations) are of interest to a broad biophysics community.
+  - **Technical soundness** The experimental approach is sound in principle, but the interpretation of key data (the SAXS peak) and the simulation methodology need strengthening. The lack of direct evidence for the proposed molecular mechanism is a weakness.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The use of figures helps convey the main findings. However, some methodological details are dense and could be streamlined for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea and methodological approach are promising, and the data are potentially interesting. However, the current manuscript does not fully establish the central claims regarding nucleotide-specific ordering and the molecular mechanism. Addressing the major concerns, particularly the interpretation of the SAXS peak and the validation of the simulations, is essential before the conclusions can be considered robust.
+
+## Risk / unsupported claims
+- The claim that the broad SAXS peak in poly-A condensates indicates "subtle ordering" is not fully supported by the presented data and requires additional controls.
+- The attribution of observed conformational changes to specific π−π interactions between bases and arginine residues is speculative without direct evidence from simulation analysis or experiments.
+- The claim that poly-A condensates are more "stable" than poly-U condensates based on simulation exchange rates may conflate kinetic and thermodynamic effects.
+- The statement that the approach provides "a structural probe of the internal architecture of RNP condensates" is somewhat overstated given the limitations of ensemble-averaged SAXS data in complex, polydisperse systems.
+- The generalizability of the findings to longer, more complex RNA sequences and to physiological condensate compositions is not established and should be discussed more cautiously.

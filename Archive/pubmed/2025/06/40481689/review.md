@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, statistical analysis, interpretation, and reporting quality
+- **Shared manuscript claim summary** The authors compare intrinsic disorder, liquid-liquid phase separation (LLPS) propensity, and missense mutation pathogenicity across human retinal proteome subgroups defined by gene expression specificity and tissue distribution using bioinformatics tools (RIDAO, ParSe v2, AlphaMissense). They report significant differences among subgroups and conclude that retina-specific proteins exhibit higher disorder, greater phase separation potential, and distinct pathogenic vulnerability.
+- **Visible evidence base** Full text including Introduction, Methods, Results, Discussion, Limitations, Conclusion; tables and figures referenced but not provided
+- **Missing materials affecting confidence** Figures 1-5, Tables 1 and S1-S4, and Supporting Information were not provided; no raw data or code availability; no details on multiple testing correction or effect sizes
+
+## Reviewer
+- **Overall assessment** This manuscript presents a descriptive bioinformatics survey of intrinsic disorder, LLPS propensity, and missense pathogenicity across HPA-defined retinal proteome subgroups. The topic is of potential interest to the retinal biology and proteomics communities. However, the study is largely descriptive, lacks experimental validation, and has several methodological and statistical weaknesses that undermine the strength of the conclusions. The central claims of non-random distribution and biological significance are not fully supported by the evidence presented. The manuscript would benefit from substantial revision, additional analyses, and more cautious interpretation.
+- **Who would be interested in the results, and why** Researchers studying retinal proteomics, protein intrinsic disorder, phase separation in ocular biology, and computational predictors of mutation pathogenicity. The findings may inform hypotheses about retinal disease mechanisms and therapeutic target selection, though the descriptive nature limits immediate translational impact.
+- **Major strengths** 1) Addresses an under-explored area: the structural and biophysical properties of retinal proteome subgroups defined by expression specificity. 2) Integrates multiple established bioinformatics tools (RIDAO, ParSe v2, AlphaMissense) in a systematic manner. 3) The HPA-based classification framework provides a reproducible and biologically meaningful stratification. 4) The authors acknowledge limitations and position the work as exploratory.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** "Significant differences in per-residue intrinsic protein disorder were found within the specificity and distribution subgroups (p < 0.0001)" and similar claims for global disorder, LLPS, and pathogenicity.
+  - **Evidence pointer** Results sections 3.2, 3.3, 3.4, 3.5; Tables 1, S1-S4; location not provided for specific statistical outputs
+  - **Concern** The manuscript reports p-values from ANOVA and chi-square tests but does not describe any correction for multiple comparisons. Given the large number of tests performed (multiple disorder predictors, multiple pairwise comparisons, multiple subgroups), the risk of Type I error is substantial. Additionally, the use of ANOVA on proportion data (PPDR) and bounded scores (0-1) may violate normality assumptions. The chi-square tests on very large sample sizes (thousands of proteins) will almost always yield significant results, making p-values uninformative without effect sizes or confidence intervals.
+  - **Why it matters** The central conclusion that subgroups differ meaningfully depends on the statistical validity of these tests. Without multiple testing correction and effect size reporting, the reported significance may be artifactual, and the biological interpretation is not justified.
+  - **Resolution test** Provide details on multiple testing correction (e.g., Bonferroni, FDR). Report effect sizes (e.g., eta-squared, Cramer's V) and confidence intervals for all significant comparisons. Consider non-parametric tests or appropriate transformations for bounded data. Justify the use of ANOVA and chi-square given the data structure.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for causal or mechanistic claims
+  - **Claim pointer** "Our study demonstrates a link between intrinsic disorder, LLPS, and pathogenic vulnerability among retinal proteins" and "the triad—disorder, LLPS potential, and mutational burden—points to a complex molecular architecture that may underlie both normal retinal function and susceptibility to disease."
+  - **Evidence pointer** Discussion and Conclusion sections; location not provided
+  - **Concern** The study is purely correlational and computational. The claim of a "link" or "triad" implies a relationship that is not directly tested. No statistical correlation analysis between disorder, LLPS propensity, and pathogenicity scores is presented. The inference that these properties co-vary and jointly contribute to disease susceptibility is speculative and not supported by the data shown.
+  - **Why it matters** The manuscript overstates the strength of the findings. A descriptive observation of subgroup differences does not establish a mechanistic or even a correlational link between the three properties. This overreach could mislead readers and future research directions.
+  - **Resolution test** Perform and report correlation analyses (e.g., Spearman) between disorder metrics, LLPS scores, and pathogenicity scores across proteins. If correlations are weak or absent, temper the language accordingly. Alternatively, reframe the conclusions as descriptive observations without implying a mechanistic triad.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and transparency
+  - **Claim pointer** "All data supporting the findings of this study are included within the article and its Supporting Information."
+  - **Evidence pointer** Data Availability Statement; location not provided
+  - **Concern** The manuscript does not provide access to the underlying datasets, analysis scripts, or versioned tool parameters. The HPA data are publicly available, but the specific gene lists for each subgroup, the exact inputs to RIDAO, ParSe v2, and AlphaMissense, and the processing pipeline are not described in sufficient detail for replication. The Supporting Information is referenced but was not available for review.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without detailed methods and data availability, other researchers cannot verify or build upon these findings.
+  - **Resolution test** Provide a detailed supplementary methods section with exact tool versions, parameters, and input data. Deposit gene lists and analysis scripts in a public repository (e.g., Zenodo, GitHub). Ensure the Supporting Information is complete and accessible.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological interpretation and validation
+  - **Claim pointer** "Proteins specifically elevated in the retina exhibited higher intrinsic disorder and greater phase separation propensity... compared to those more broadly expressed."
+  - **Evidence pointer** Results sections 3.2-3.5; Figures 2-5; location not provided
+  - **Concern** The biological significance of the observed differences is not validated. The authors do not connect their findings to known retinal biology, specific disease-associated proteins, or functional pathways. The discussion cites examples from other fields (e.g., tau, alpha-synuclein) but does not demonstrate that the identified proteins in the retina-specific subgroups are actually implicated in retinal disease. The claim that higher disorder and phase separation propensity in retina-specific proteins "underscores their potential role in dynamic cellular processes" is speculative without functional validation or pathway enrichment analysis.
+  - **Why it matters** The manuscript aims to provide insights into retinal physiology and disease, but without linking the computational findings to known biology or experimentally testable hypotheses, the impact is limited. The reader is left with descriptive statistics without a clear take-home message.
+  - **Resolution test** Add pathway or Gene Ontology enrichment analysis for the subgroups with high disorder/LLPS/pathogenicity. Discuss specific retinal disease-associated proteins within these subgroups. Consider validating predictions on a small set of known proteins using experimental data from the literature.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and consistency
+  - **Affected element** Terminology and abbreviations
+  - **Evidence pointer** Throughout; location not provided
+  - **Issue** The manuscript uses many abbreviations (EIR, EIOTBEIR, LTSBEIR, NDIR, NDIAT, ODIR, DISIR, DIMIR, DIA, IDP, IDPR, LLPS, PS IDR, ADS, PPDR, CH, CDF) which are defined but not always used consistently. For example, "EIOBEIR" appears in the Results section 3.2.2 but is defined as "EIOTBEIR" elsewhere. This creates confusion.
+  - **Required correction** Ensure all abbreviations are defined at first use and used consistently throughout. Correct the typo "EIOBEIR" to "EIOTBEIR".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reporting of results
+  - **Affected element** Figure and table references
+  - **Evidence pointer** Results sections 3.2-3.5; location not provided
+  - **Issue** The text references Figures 1-5 and Tables 1, S1-S4, but these are not provided in the manuscript for review. It is unclear whether the figures are legible, whether the tables contain all necessary data, and whether the figure captions are informative.
+  - **Required correction** Ensure all figures and tables are included and properly formatted. Figure captions should be self-explanatory. Tables should include sample sizes and effect sizes where relevant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Statistical analysis description
+  - **Evidence pointer** Methods sections 2.2-2.5; location not provided
+  - **Issue** The methods describe the tools used but do not provide sufficient detail on the statistical analysis. For example, it is unclear whether the ANOVA assumptions were checked, how the chi-square expected frequencies were calculated, and whether any post-hoc corrections were applied beyond Tukey's HSD.
+  - **Required correction** Expand the statistical analysis subsection to include details on assumption checking, software used (e.g., R version, Python packages), and any corrections applied.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and readability
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract and Introduction; location not provided
+  - **Issue** The abstract is not provided in the manuscript text, and the Introduction is somewhat repetitive, with similar statements about the importance of intrinsic disorder and LLPS appearing multiple times.
+  - **Required correction** Provide a structured abstract. Streamline the Introduction to avoid redundancy and improve readability for a broad audience.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of multiple testing correction and effect size reporting (R1-M1). 2) Overstated causal/mechanistic claims not supported by the data (R1-M2). 3) Insufficient methodological detail for reproducibility (R1-M3). 4) No biological validation or pathway analysis to support the significance of the findings (R1-M4).
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of these bioinformatics tools to HPA-defined retinal subgroups is somewhat novel, but the approach is largely derivative of prior studies in other tissues. Scientific importance: Limited. The findings are descriptive and do not provide new mechanistic insights or testable hypotheses with clear translational relevance. Interdisciplinary readership: Narrow. The manuscript is likely to appeal primarily to computational biologists and retinal researchers, but the lack of biological validation limits broader appeal. Technical soundness: Weak. The statistical analysis is incomplete, and the lack of multiple testing correction undermines the reliability of the conclusions. Readability for nonspecialists: Moderate. The manuscript is generally well-written but uses jargon that may be challenging for non-experts; the Introduction and Discussion could be more accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting question but has significant methodological and interpretive weaknesses. Major revisions are required to address the statistical concerns, temper the claims, and provide biological context. I would be supportive if the technical concerns are resolved and the conclusions are appropriately scaled to the descriptive nature of the study.
+
+## Risk / unsupported claims
+- The claim of a "link" or "triad" between disorder, LLPS, and pathogenicity is unsupported as no correlation analysis is presented.
+- The statement that "proteins with higher disorder and phase separation propensity... highlight their potential role in dynamic cellular processes" is speculative and not validated by functional data.
+- The conclusion that "the elevated pathogenicity and phase separation propensity in specific subgroups point to potential areas for further research, particularly in understanding molecular mechanisms underpinning retinal physiology" overstates the implications of descriptive computational findings.
+- The claim that "our study demonstrates a link between intrinsic disorder, LLPS, and pathogenic vulnerability" is not supported by the evidence, which only shows subgroup differences in each property independently.
+- The biological significance of the findings is not established; no connection to specific retinal disease mechanisms or pathways is made.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39282643",
+  "title": "Different molecular recognition by three domains of the full-length GRB2 to SOS1 proline-rich motifs and EGFR phosphorylated sites.",
+  "authors": "Tateno, Keita; Ando, Takami; Tabata, Maako; Sugasawa, Haruka; Hayashi, Toshifumi; Yu, Sangya; Pm, Sayeesh; Inomata, Kohsuke; Mikawa, Tsutomu; Ito, Yutaka; Ikeya, Teppei",
+  "journal": "Chemical science",
+  "published_date": "2024-09-17",
+  "window": {
+    "start": "2024-09-16",
+    "end": "2024-09-22"
+  },
+  "score": 6,
+  "one_liner_zh": "用NMR研究全长GRB2与SOS1富脯氨酸基序及EGFR磷酸化位点的多结构域识别，揭示域间变构与LLPS关联，但方法为实验而非AI/物理模拟，机制建模深度有限。",
+  "abstract": "The adaptor protein human GRB2 plays crucial roles in mediating signal transduction from cell membrane receptors to RAS and its downstream proteins by recruiting SOS1. Recent studies have revealed that GRB2 also serves as a scaffold for liquid-liquid phase separation (LLPS) with SOS1 and transmembrane receptors, which is thought to regulate the magnitude of cell signalling pathways. In this study, we employed solution NMR spectroscopy to investigate the interactions of the full-length GRB2 with proline-rich motifs (PRMs) derived from ten potential GRB2-binding sites in SOS1, as well as a peptide from a phosphorylation site of EGFR. Our findings indicate that the binding affinity of the two SH3 domains of GRB2 for PRMs differs by a factor of ten to twenty, with the N-terminal SH3 domain (NSH3) exhibiting a markedly higher affinity. The interactions of PRMs with the SH3 domains affected not only the regions surrounding the PRM binding sites on the SH3 domains but also the linker area connecting the three domains and parts of the SH2 domain. Analysis of the interaction between the phosphorylated EGFR binding site and the SH2 domain revealed chemical shift perturbations in regions distal from the known binding site of SH2. Moreover, we observed that the inter-domain interactions of the two SH3 domains with the SH2 domain of GRB2 are asymmetric. These findings suggest that the local binding of PRMs and phosphorylated EGFR to GRB2 impacts the overall structure of the GRB2 molecule, including domain orientation and dimerisation, which may contribute to LLPS formation.",
+  "abstract_zh": "衔接蛋白人GRB2在介导从细胞膜受体到RAS及其下游蛋白的信号转导中发挥关键作用，通过招募SOS1实现这一过程。近期研究揭示，GRB2还作为支架参与与SOS1及跨膜受体的液-液相分离（LLPS），这被认为可调节细胞信号通路的强度。在本研究中，我们采用溶液核磁共振波谱法（NMR spectroscopy）探究全长GRB2与源自SOS1中十个潜在GRB2结合位点的富含脯氨酸基序（PRMs），以及来自EGFR磷酸化位点的一个肽段的相互作用。我们的发现表明，GRB2的两个SH3结构域对PRMs的结合亲和力相差十倍至二十倍，其中N端SH3结构域（NSH3）表现出显著更高的亲和力。PRMs与SH3结构域的相互作用不仅影响SH3结构域上PRM结合位点周围的区域，还影响连接三个结构域的接头区域及SH2结构域的部分区域。对磷酸化EGFR结合位点与SH2结构域相互作用的分析显示，在SH2已知结合位点远端区域出现化学位移扰动。此外，我们观察到GRB2的两个SH3结构域与SH2结构域之间的结构域间相互作用是不对称的。这些发现表明，PRMs和磷酸化EGFR与GRB2的局部结合影响GRB2分子的整体结构，包括结构域取向和二聚化，这可能有助于LLPS的形成。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39282643/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39282643/",
+  "paper_page_path": "papers/pubmed/39282643/index.html"
+}

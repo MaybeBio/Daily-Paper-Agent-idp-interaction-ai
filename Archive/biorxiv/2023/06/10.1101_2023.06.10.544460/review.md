@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, methods, and supplementary figure/table descriptions
+- **Assessment boundary** Structural and functional characterization of the HMPV N-RNA/P interaction, including cryo-EM structures, MD simulations, and functional assays
+- **Shared manuscript claim summary** The authors report cryo-EM structures of HMPV N-RNA in different oligomeric states and a 2.9 Å structure of the N-RNA/P complex, identifying the P CT binding site on the NTD of N. They propose that the interaction is dynamic and functionally important for polymerase activity and inclusion body formation, and suggest the interface is a potential therapeutic target.
+- **Visible evidence base** Cryo-EM reconstructions at 3.1 Å (10-mer), 3.3 Å (11-mer), 4.7 Å (spiral), and 2.9 Å (N-RNA/P dimer after local refinement); 3D variability analysis; MD simulations of a 5-mer; minigenome assays; GST pull-downs; immunofluorescence imaging
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; accession codes for deposited structures listed as placeholders (XXXX); uncropped gels referenced but not shown; Supplementary Movies described but not viewable
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically sound structural study of the HMPV N-RNA/P interaction, addressing a gap in the field. The cryo-EM work appears carefully executed, and the combination of structural, computational, and functional approaches is commendable. However, several concerns limit the strength of the conclusions as currently presented, particularly regarding the functional relevance of the identified interface, the interpretation of the MD simulations, and the generalizability of the findings to the full-length P protein and the L/P complex.
+- **Who would be interested in the results, and why** Researchers studying negative-sense RNA virus replication, particularly paramyxoviruses and pneumoviruses; structural biologists interested in nucleocapsid dynamics and protein-protein interactions involving intrinsically disordered regions; virologists investigating inclusion body formation and liquid-liquid phase separation; drug developers targeting viral polymerase complexes.
+- **Major strengths** The study provides the first structural view of the HMPV N-RNA/P interaction at high resolution, using full-length N in a physiologically relevant assembled state. The observation of N-RNA plasticity across different oligomeric states is novel and well supported. The combination of cryo-EM, MD simulations, and functional assays provides complementary evidence. The identification of a conserved N-N interaction motif (loop 232-239) with functional validation is a useful contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The manuscript claims that the N βHL -P CT interaction is important for polymerase activity and inclusion body formation, based on mutations in N βHL .
+  - **Evidence pointer** Figure 5A, Methods: Minigenome replication assay
+  - **Concern** The minigenome assay measures polymerase activity in the context of viral replication, but the mutations introduced in N βHL (L100, I103, L111) may affect N oligomerization or RNA binding independently of P binding. The authors show that P308A and R27A mutations in the N-N interface reduce polymerase activity, but these residues are not part of the P CT binding site. The specificity of the N βHL mutations for disrupting the N-P interaction versus other N functions is not established. The pull-down assay (Figure 5B) shows that L111E disrupts N-P interaction, but this is a qualitative assay and does not quantify the effect. The authors do not test whether the N βHL mutations affect N oligomerization or RNA binding.
+  - **Why it matters** The central claim of the paper is that the identified interface is functionally relevant. If the mutations disrupt N structure or oligomerization rather than specifically the P interaction, the conclusions about the functional role of the interface are weakened.
+  - **Resolution test** Provide quantitative binding assays (e.g., ITC, SPR) for mutant N proteins with P CT . Test whether N βHL mutants retain the ability to oligomerize and bind RNA (e.g., by size exclusion chromatography, RNA electrophoretic mobility shift assay). Include a rescue experiment where a compensatory mutation in P restores function with a N βHL mutant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural interpretation
+  - **Claim pointer** The manuscript claims that the P CT peptide binds to N in a manner that retains substantial conformational dynamics, based on MD simulations showing dissociation and rebinding.
+  - **Evidence pointer** Figure 4, Methods: Molecular dynamics simulations
+  - **Concern** The MD simulations were performed on a 5-mer of N-RNA/P extracted from the cryo-EM structure, with the P CT peptide present at 5 copies. The simulation time is approximately 180 ns per trajectory, which is relatively short for observing dissociation and rebinding events. The authors report one dissociation event in one trajectory, which is anecdotal. The force field (CHARMM36m) is appropriate for intrinsically disordered proteins, but the peptide is only 9 residues, and the simulation may not capture the full conformational landscape. The authors do not provide quantitative analysis of the binding free energy or the kinetics of dissociation.
+  - **Why it matters** The claim of dynamic binding and rapid unbinding/rebinding is central to the proposed model of L/P processivity. If this is based on a single anecdotal event in a short simulation, the conclusion is not robust.
+  - **Resolution test** Provide multiple independent simulations with longer timescales (e.g., 1 microsecond or more) and multiple replicas. Quantify the binding kinetics and free energy using enhanced sampling methods (e.g., metadynamics, umbrella sampling). Show that the dissociation event is reproducible across replicas.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript implies that the N-RNA/P interaction mechanism is general for pneumoviruses and relevant to the L/P complex, citing the RSV compound EDP-938 and the M109K resistance mutation.
+  - **Evidence pointer** Discussion, Figure 6
+  - **Concern** The comparison with RSV EDP-938 resistance is speculative. The authors map the M109K mutation to a region corresponding to HMPV N βHL , but this is based on sequence alignment, not on structural data for RSV. The claim that EDP-938 may target the N-RNA/P interaction is not directly tested. The authors acknowledge that EDP-938 had no effect in a minigenome assay, which weakens this hypothesis.
+  - **Why it matters** The therapeutic relevance of the identified interface is a key selling point of the paper. If the link to EDP-938 is speculative, the broader significance is reduced.
+  - **Resolution test** Provide direct experimental evidence for the effect of EDP-938 on the HMPV N-RNA/P interaction, or on RSV N-RNA/P interaction using the same assay. Alternatively, test whether the M109K mutation in RSV N affects P binding in a pull-down assay.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "we report a 2.9 Å resolution structure of a triple-complex between multimeric N, bound to both RNA and the C-terminal region of P." This is slightly misleading, as the 2.9 Å structure is of a locally refined dimer, not the full multimeric complex. The overall 10-mer map is at 3.1 Å.
+  - **Required correction** Clarify that the 2.9 Å structure was obtained after local refinement of a dimer, while the full 10-mer map is at 3.1 Å.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5B
+  - **Evidence pointer** Figure 5B, location not provided
+  - **Issue** The pull-down assay shows that L111E disrupts N-P interaction, but the authors do not show a quantification of the pull-down efficiency or a loading control for the input.
+  - **Required correction** Provide quantification of the pull-down bands (e.g., densitometry) and show input controls for all samples.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** MD simulations
+  - **Evidence pointer** Methods: Molecular dynamics simulations
+  - **Issue** The authors state that the simulations were run for approximately 180 ns in 2 independent trajectories, but they do not provide details on the equilibration protocol or the convergence criteria.
+  - **Required correction** Provide details on the equilibration time, temperature and pressure coupling, and show that the simulations reached equilibrium (e.g., RMSD vs. time plots).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion of the "cartwheeling" model for Sendai virus is brief and not well integrated with the current findings. The authors could more explicitly discuss how their data support or refine this model.
+  - **Required correction** Expand the discussion of the cartwheeling model and how the dynamic N-P interaction observed here relates to it.
+- **Technical failings that need to be addressed before the case is established** The functional specificity of the N βHL mutations needs to be established (R1-M1). The MD simulation evidence for dynamic binding needs to be strengthened (R1-M2). The link to EDP-938 and RSV needs to be either tested or clearly labeled as speculative (R1-M3).
+- **Assessment against Nature-style criteria** Originality: The study is original in providing the first high-resolution structure of the HMPV N-RNA/P interaction, which has not been previously resolved. Scientific importance: The findings are important for understanding the molecular basis of polymerase processivity in pneumoviruses and may inform drug development. Interdisciplinary readership: The work will appeal to structural biologists, virologists, and drug developers, but the broader cell biology community may find the inclusion body data of interest. Technical soundness: The cryo-EM work appears technically sound, but the functional assays and MD simulations have limitations as noted above. Readability for nonspecialists: The manuscript is generally well written, but the abstract could be clearer about the resolution of the different structures.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural data are valuable and likely correct, but the functional conclusions and the dynamic binding model need stronger support. The manuscript would be suitable for publication in a high-impact journal after revision.
+
+## Risk / unsupported claims
+- The claim that the N-RNA/P interaction is a viable therapeutic target is not directly tested and is speculative.
+- The comparison with EDP-938 and the RSV M109K mutation is based on sequence alignment and is not experimentally validated.
+- The claim that the P CT binding site is "druggable" is not supported by any computational or experimental druggability assessment.
+- The functional relevance of the N βHL -P interaction for polymerase activity is supported by mutagenesis, but the specificity of the mutations is not fully established.
+- The MD simulation observation of a single dissociation event is anecdotal and not sufficient to support the claim of rapid dynamic unbinding and rebinding.

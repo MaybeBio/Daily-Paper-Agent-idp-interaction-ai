@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42628684",
+  "title": "Expanding the Landscape of Disordered Flexible Linkers: A Structural and Computational Framework for DLD Dataset Assembly.",
+  "authors": "Meng, Di; Glavina, Juliana; Garcia Alvarez, Heli M; Leonetti, Cesar Osvaldo; Pollastri, Gianluca; Chemes, Lucia B",
+  "journal": "Journal of molecular biology",
+  "published_date": "2026-08-21",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究构建了无序柔性连接子(DLD)数据集，并用t-SNE、语言模型嵌入和CNN分类器分析其与无序/折叠区域的区分特征，虽聚焦IDR区域分类而非直接PPI机制，但为无序区域介导互作的序列-结构建模提供了可迁移的数据与方法框架。",
+  "abstract": "Disordered flexible linkers (DFLs) are functional elements found within intrinsically disordered regions that carry out key functions by connecting domains and/or short linear motifs. Understanding the features of DFLs is limited by the lack of comprehensive datasets and accurate predictive models. In this study, we propose a classification for DFLs that includes linkers joining two domains (DLD), a domain and a motif or two short linear motifs. We developed a workflow that allows the systematic identification of DLD-type linkers from protein structures and created a comprehensive dataset known as the DLD dataset. The DLD dataset includes 1640 independent domain linkers (IDLs) which expands currently available linker datasets and annotates related regions such as dependent-domain linkers, intra-domain loops, and termini. Our data collection process integrates missing residue completion and smoothing of short secondary structure stretches enabling to capture a higher number of longer IDLs. We assessed the features of IDLs using t-SNE analysis and protein language model embedding with a CNN-based classifier as well as PCA analysis. IDLs can be distinguished from other disordered and folded protein regions, and their features highly overlap with DisProt Linkers, considered the gold standard for linker annotation. The DLD dataset offers a valuable resource for researchers seeking to investigate the features of disordered flexible linkers and to improve the accuracy and generalizability of DFL predictive models. The DLD dataset is available via an interactive web server at https://dld.chemeslab.org/ where linkers are annotated with sequence and structural features and can be visualized using a structure viewer.",
+  "abstract_zh": "无序柔性连接子（DFLs）是 intrinsically disordered regions 中发现的功能元件，通过连接结构域和/或短线性基序来执行关键功能。对 DFLs 特征的理解受到缺乏全面数据集和准确预测模型的限制。在本研究中，我们提出了一种 DFLs 分类，包括连接两个结构域（DLD）、一个结构域和一个基序或两个短线性基序的连接子。我们开发了一个工作流程，允许从蛋白质结构中系统识别 DLD 型连接子，并创建了一个名为 DLD 数据集的全面数据集。DLD 数据集包含 1640 个独立结构域连接子（IDLs），这扩展了当前可用的连接子数据集，并注释了相关区域，如依赖结构域连接子、结构域内环和末端。我们的数据收集过程整合了缺失残基补全和短二级结构片段的平滑处理，从而能够捕获更多较长的 IDLs。我们使用 t-SNE 分析和基于 CNN 分类器的蛋白质语言模型嵌入以及 PCA 分析评估了 IDLs 的特征。IDLs 可以与其他无序和折叠蛋白质区域区分开来，其特征与 DisProt Linkers 高度重叠，后者被认为是连接子注释的金标准。DLD 数据集为研究人员提供了宝贵的资源，用于研究无序柔性连接子的特征，并提高 DFL 预测模型的准确性和泛化能力。DLD 数据集可通过交互式网络服务器 https://dld.chemeslab.org/ 获取，其中连接子带有序列和结构特征注释，并可使用结构查看器进行可视化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42628684/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42628684/",
+  "paper_page_path": "papers/pubmed/42628684/index.html"
+}

@@ -1,0 +1,262 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.19.695468",
+  "title": "Biomolecular condensation using de novo designed globular proteins",
+  "doi": "10.64898/2025.12.19.695468",
+  "abstract": "<h4>ABSTRACT</h4> De novo protein design is advancing rapidly, but many targets remain inaccessible to current AI-based tools. Here we describe de novo designed globular domains that drive biomolecular condensation. Starting from a water-soluble, monomeric protein, we make variants with the same amino-acid composition but different surface-charge distributions: one with large patches of surface charge, and another with a more-homogeneous charge distribution. The individual domains form stable and discrete structures in solution, with the large-patch variant exhibiting more-attractive interprotein interactions. Next, two copies of each variant are joined with disordered linkers to generate dumbbell-like proteins. When expressed in eukaryotic cells, the large-patch variant forms intracellular puncta, whereas that with small patches does not. The assemblies are dynamic, liquid condensates in vitro and in cells. The structured domains facilitate functionalisation: we introduce fluorophore-binding sites to visualise fluorescent condensates directly in cells without a GFP reporter; and we manipulate the condensates using motor proteins.",
+  "authors": [
+    "Romanyuk AV",
+    "Ragesh Kumar TP",
+    "Cross SJ",
+    "Ożga K",
+    "Petrenas R",
+    "Chubb JJ",
+    "McManus JJ",
+    "Woolfson DN"
+  ],
+  "published_date": "2025-12-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.19.695468",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.19.695468.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1230688",
+    "raw_record": {
+      "id": "PPR1230688",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1230688"
+        ]
+      },
+      "doi": "10.64898/2025.12.19.695468",
+      "title": "Biomolecular condensation using  <i>de novo</i>  designed globular proteins",
+      "authorString": "Romanyuk AV, Ragesh Kumar TP, Cross SJ, Ożga K, Petrenas R, Chubb JJ, McManus JJ, Woolfson DN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Romanyuk AV",
+            "lastName": "Romanyuk",
+            "firstName": "Andrey",
+            "initials": "AV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ragesh Kumar TP",
+            "lastName": "Ragesh Kumar",
+            "initials": "TP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Physics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cross SJ",
+            "lastName": "Cross",
+            "firstName": "Stephen",
+            "initials": "SJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3565-0479"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wolfson Bioimaging Facility, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ożga K",
+            "lastName": "Ożga",
+            "firstName": "Katarzyna",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Petrenas R",
+            "lastName": "Petrenas",
+            "firstName": "Rokas",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2997-7187"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chubb JJ",
+            "lastName": "Chubb",
+            "firstName": "Joel",
+            "initials": "JJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0006-2256-7640"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McManus JJ",
+            "lastName": "McManus",
+            "firstName": "Jennifer",
+            "initials": "JJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3630-5108"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Physics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Woolfson DN",
+            "lastName": "Woolfson",
+            "firstName": "Derek",
+            "initials": "DN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2837-283X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2997-7187"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3565-0479"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3630-5108"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0006-2256-7640"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  De novo protein design is advancing rapidly, but many targets remain inaccessible to current AI-based tools. Here we describe  de novo designed globular domains that drive biomolecular condensation. Starting from a water-soluble, monomeric protein, we make variants with the same amino-acid composition but different surface-charge distributions: one with large patches of surface charge, and another with a more-homogeneous charge distribution. The individual domains form stable and discrete structures in solution, with the large-patch variant exhibiting more-attractive interprotein interactions. Next, two copies of each variant are joined with disordered linkers to generate dumbbell-like proteins. When expressed in eukaryotic cells, the large-patch variant forms intracellular puncta, whereas that with small patches does not. The assemblies are dynamic, liquid condensates  in vitro and in cells. The structured domains facilitate functionalisation: we introduce fluorophore-binding sites to visualise fluorescent condensates directly in cells without a GFP reporter; and we manipulate the condensates using motor proteins.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.19.695468"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1230688"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1230688&type=FILE&fileName=EMS214676-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214676",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-21",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

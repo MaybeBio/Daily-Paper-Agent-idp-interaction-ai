@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary figure descriptions. No supplementary files were provided for review.
+- **Assessment boundary** Scientific soundness, methodological rigor, validity of claims relative to the presented evidence, and alignment with Nature-style publication criteria. Editorial decisions and author rebuttals are outside scope.
+- **Shared manuscript claim summary** The authors used molecular dynamics simulations of a six-chain α-synuclein oligomer (PDB 6A6B) with three ligands (C14, gingerol, C10) to evaluate conformational dynamics, intramolecular forces, and chain-chain interactions. They report that ligands bind favorably, increase inter-chain hydrogen bonding, and reduce conformational flexibility, but do not significantly disrupt chain-chain interactions.
+- **Visible evidence base** Docking scores (iGemdock), RMSD and RMSF analyses, hydrogen bond counts between chains, MM-PBSA free energy calculations, PCA/essential dynamics projections, interaction energy heatmaps, and SwissADME predictions. Figures 1–5 and Table 1 are referenced.
+- **Missing materials affecting confidence** Supplementary figures (S1–S5) were not provided. Simulation input files, force field parameters, ligand topologies, convergence criteria, and raw trajectory data were not available. No experimental validation data were included.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in Parkinson's disease research, namely how small molecules affect the conformational dynamics and inter-chain interactions of α-synuclein oligomers. The computational approach is reasonable in principle, and the authors are appropriately cautious in not overclaiming therapeutic relevance. However, the study has substantial methodological limitations that undermine the strength of the conclusions. The simulation length is short for a system of this complexity, no replicates are reported, and the analysis of ligand effects is largely descriptive. The claim that ligands "stabilize" the oligomer is not well supported by the metrics presented, and the absence of a quantitative comparison between liganded and unliganded conditions for key observables weakens the case. The manuscript would benefit from a more rigorous statistical framework, additional validation of the simulation setup, and a clearer articulation of what is novel relative to prior computational studies of α-synuclein oligomers.
+- **Who would be interested in the results, and why** Researchers in the fields of protein misfolding, neurodegeneration, and computational drug discovery would find this study of interest. The focus on oligomer dynamics and residue-level interaction energies may inform future design of aggregation modulators. The methodological approach, if strengthened, could serve as a template for similar investigations of other amyloidogenic proteins.
+- **Major strengths** The study targets a clinically relevant problem and uses an atomistic approach to probe oligomer dynamics. The authors identify specific residues and segments that contribute strongly to inter-chain interactions, which could guide future experimental mutagenesis or drug design efforts. The inclusion of three chemically distinct ligands and the comparison of their effects is a useful design choice. The authors are appropriately cautious in their conclusions regarding therapeutic implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the ligands "stabilize" the oligomer based on increased hydrogen bond counts and reduced RMSF in liganded simulations.
+  - **Evidence pointer** Figure 3, Table 1, Results section
+  - **Concern** The evidence presented does not adequately support the claim of stabilization. Hydrogen bond counts are reported as ranges without statistical analysis, and no error bars or replicate simulations are shown. The RMSF comparison is only shown for the unliganded and C14 simulations, not for gingerol or C10. The relationship between increased inter-chain hydrogen bonding and "stabilization" is asserted but not quantitatively demonstrated. A more rigorous analysis would include per-residue hydrogen bond occupancy, time-averaged interaction energies with standard deviations, and a statistical comparison across conditions.
+  - **Why it matters** The central conclusion of the manuscript rests on the claim that ligands alter oligomer stability. Without robust statistical evidence, this claim is not established, and the reader cannot assess whether the observed differences are meaningful or within the noise of the simulation.
+  - **Resolution test** Provide replicate simulations (at least three independent runs per condition), report mean and standard deviation for all metrics, and perform appropriate statistical tests (e.g., bootstrap or t-test) to compare liganded versus unliganded conditions. Show RMSF data for all three ligands, not just C14.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that MM-PBSA free energy calculations confirm "strong binding" between ligands and the oligomer.
+  - **Evidence pointer** Figure 2d, Methods section "Free energy evaluation"
+  - **Concern** The MM-PBSA method is known to be highly sensitive to the choice of parameters, including the dielectric constant, radii set, and the number of frames used for averaging. The manuscript does not report these parameters, nor does it provide error estimates for the binding energies. The values are presented as single numbers without any indication of convergence or variability. Additionally, the entropy term is not included in the reported values, which is a significant omission for ranking ligand binding affinities.
+  - **Why it matters** The binding free energy is a key quantitative result that supports the selection of these ligands for further study. If the calculation is not reproducible or the uncertainty is large, the ranking of ligands and the conclusion of "strong binding" are not reliable.
+  - **Resolution test** Report all MM-PBSA parameters, provide per-frame energy decomposition with standard errors, and include a convergence plot showing that the energy has plateaued over the analysis window. If possible, compare with an alternative method such as LIE or FEP.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the identified flexible regions (aa 44–46, aa 56–63, aa 82–84) may be potential targets for therapeutic intervention.
+  - **Evidence pointer** Results section, Discussion section
+  - **Concern** The manuscript does not provide a clear rationale for why these specific regions would be good drug targets. The authors note that segment 3 (aa 59–79) is "the most challenging target because of its nature and drug accessibility," yet they do not elaborate on what makes a region targetable or not. The connection between flexibility and druggability is not established, and no structural or biophysical rationale is given for why modulating these regions would alter aggregation.
+  - **Why it matters** The translational relevance of the study depends on the identification of actionable targets. Without a clear mechanistic link between the observed dynamics and potential therapeutic intervention, the significance of the findings for drug development is unclear.
+  - **Resolution test** Provide a more detailed discussion of the structural context of these regions, including solvent accessibility, secondary structure propensity, and known interaction hotspots from experimental studies. Consider performing pocket detection or druggability predictions for the identified segments.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "candidates with extended aliphatic chains may be able to stabilize the non-bond interactions among chains."
+  - **Evidence pointer** Discussion section
+  - **Concern** This conclusion is not directly supported by the data presented. The three ligands differ in multiple structural features, not just aliphatic chain length, and no systematic structure-activity relationship analysis was performed. The statement appears to be an extrapolation beyond the evidence.
+  - **Why it matters** This claim could mislead future drug design efforts if taken at face value. A more careful analysis would correlate specific ligand features with observed effects on oligomer dynamics.
+  - **Resolution test** Either temper the claim to reflect the limited evidence or perform additional simulations with a series of structurally related compounds to test the hypothesis systematically.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction is dense and assumes significant prior knowledge of α-synuclein biology and computational methods. Terms such as "intrinsically disordered proteins" and "protofibrils" are used without definition.
+  - **Required correction** Add brief definitions or a glossary for key terms. Consider a short paragraph explaining why computational approaches are useful for studying protein aggregation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods section "Molecular dynamics simulation"
+  - **Issue** The simulation protocol is described but several important details are missing, including the number of ions added, the salt concentration, the equilibration criteria, and the specific settings for the Parrinello-Rahman barostat.
+  - **Required correction** Provide a complete description of the simulation setup, including all parameters necessary for reproduction. Consider adding a table summarizing the system composition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section
+  - **Evidence pointer** Figure 2
+  - **Issue** The RMSD plots are described qualitatively ("converged", "stable") but no quantitative criteria for convergence are given. The reader cannot assess whether the simulations reached equilibrium.
+  - **Required correction** Define convergence criteria (e.g., RMSD plateau within a certain tolerance for a specified duration) and report the time at which each simulation was considered equilibrated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results section
+  - **Evidence pointer** Table 1
+  - **Issue** Table 1 is described as a "heatmap" but is presented as a table in the text. The color coding is not visible in the text version, making the data difficult to interpret.
+  - **Required correction** Ensure the heatmap is presented as a figure with a clear color scale, or provide the numerical values in a standard table format.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section
+  - **Evidence pointer** Figure 4
+  - **Issue** The PCA results are described but the percentage of variance explained by PC1 and PC2 is not reported. This information is essential for interpreting the significance of the projected trajectories.
+  - **Required correction** Report the cumulative variance explained by the first few principal components for each simulation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of replicate simulations and statistical analysis means the central claims of ligand-induced stabilization and strong binding are not quantitatively established. The MM-PBSA calculations are under-specified and lack error estimates. These issues must be resolved before the conclusions can be considered reliable.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of MD simulations to study ligand effects on α-synuclein oligomers is not new, and the specific ligands have been studied before. The focus on segment-level interaction energies is a useful contribution but does not represent a conceptual breakthrough.
+  - **Scientific importance** Moderate. The study addresses a relevant problem, but the findings are largely confirmatory of existing knowledge that small molecules can bind to α-synuclein oligomers without necessarily disrupting them. The translational implications are speculative.
+  - **Interdisciplinary readership** Limited. The manuscript is written primarily for computational biophysicists and structural biologists. The relevance to clinicians or medicinal chemists is not clearly articulated.
+  - **Technical soundness** Currently insufficient. The lack of replicates, statistical analysis, and detailed methodological reporting prevents a full assessment of the reliability of the results.
+  - **Readability for nonspecialists** Below the standard expected for a general journal. The manuscript assumes significant background knowledge and does not provide sufficient context for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and has a reasonable conceptual framework, but the technical limitations described above prevent the conclusions from being supported. Major revisions are required to address the blocking concerns, particularly the need for replicate simulations, statistical analysis, and a more rigorous free energy calculation. If these issues are resolved, the manuscript could be suitable for a specialized computational biology journal, though it may not have the broad impact expected for a Nature-family publication.
+
+## Risk / unsupported claims
+- The claim that ligands "stabilize" the oligomer is not statistically supported.
+- The claim of "strong binding" based on MM-PBSA is not supported due to missing parameters and error estimates.
+- The statement that "candidates with extended aliphatic chains may be able to stabilize the non-bond interactions" is an extrapolation beyond the data.
+- The suggestion that specific flexible regions are potential drug targets is not substantiated by druggability analysis or structural context.
+- The relevance of the findings to therapeutic development is speculative and not supported by experimental evidence.

@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "36538482",
+    "doi": "10.1073/pnas.2212207119",
+    "title": "Formation of extramembrane beta-strands controls dimerization of transmembrane helices in amyloid precursor protein C99."
+  },
+  "content": {
+    "abstract": "The 99-residue C-terminal domain of amyloid precursor protein (APP-C99), precursor to amyloid beta (Abeta), is a transmembrane (TM) protein containing intrinsically disordered N- and C-terminal extramembrane domains. Using molecular dynamics (MD) simulations, we show that the structural ensemble of the C99 monomer is best described in terms of thousands of states. The C99 monomer has a propensity to form beta-strand in the C-terminal extramembrane domain, which explains the slow spin relaxation times observed in paramagnetic probe NMR experiments. Surprisingly, homodimerization of C99 not only narrows the conformational ensemble from thousands to a few states through the formation of metastable beta-strands in extramembrane domains but also stabilizes extramembrane alpha-helices. The extramembrane domain structure is observed to dramatically impact the homodimerization motif, resulting in the modification of TM domain conformations. Our study provides an atomic-level structural basis for communication between the extramembrane domains of the C99 protein and TM homodimer formation. This finding could serve as a general model for understanding the influence of disordered extramembrane domains on TM protein structure.",
+    "keywords": [
+      "amyloid",
+      "intrinsically disordered",
+      "lipid bilayer",
+      "molecular dynamics",
+      "protein-protein interaction"
+    ],
+    "mesh_terms": [
+      "*Amyloid beta-Protein Precursor/metabolism",
+      "Dimerization",
+      "*Amyloid beta-Peptides/metabolism",
+      "Protein Conformation, beta-Strand",
+      "Protein Domains",
+      "Amyloid Precursor Protein Secretases/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pantelopulos, George A",
+        "Matsuoka, Daisuke",
+        "Hutchison, James M",
+        "Sanders, Charles R",
+        "Sugita, Yuji",
+        "Straub, John E",
+        "Thirumalai, D"
+      ],
+      "short_names": [
+        "Pantelopulos GA",
+        "Matsuoka D",
+        "Hutchison JM",
+        "Sanders CR",
+        "Sugita Y",
+        "Straub JE",
+        "Thirumalai D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4373-1677",
+        "ORCID: 0000-0003-2046-2862",
+        "ORCID: 0000-0001-9738-9216",
+        "ORCID: 0000-0002-2355-3316",
+        "ORCID: 0000-0003-1801-5924"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Boston University, Boston, MA 02215.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD 20814.",
+        "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Saitama 351-0198, Japan.",
+        "Department of Biochemistry, Vanderbilt University, Nashville, TN 37240.",
+        "Department of Biochemistry, Vanderbilt University, Nashville, TN 37240.",
+        "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240.",
+        "Department of Medicine, Vanderbilt University School of Medicine, Nashville, TN 37240.",
+        "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Saitama 351-0198, Japan.",
+        "Department of Chemistry, Boston University, Boston, MA 02215.",
+        "Department of Chemistry, University of Texas, Austin, TX 78712."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pantelopulos, George A",
+        "short_name": "Pantelopulos GA",
+        "identifiers": [
+          "0000-0002-4373-1677"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Boston University, Boston, MA 02215.",
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD 20814."
+        ]
+      },
+      {
+        "full_name": "Matsuoka, Daisuke",
+        "short_name": "Matsuoka D",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Saitama 351-0198, Japan."
+        ]
+      },
+      {
+        "full_name": "Hutchison, James M",
+        "short_name": "Hutchison JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Vanderbilt University, Nashville, TN 37240."
+        ]
+      },
+      {
+        "full_name": "Sanders, Charles R",
+        "short_name": "Sanders CR",
+        "identifiers": [
+          "0000-0003-2046-2862"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Vanderbilt University, Nashville, TN 37240.",
+          "Center for Structural Biology, Vanderbilt University, Nashville, TN 37240.",
+          "Department of Medicine, Vanderbilt University School of Medicine, Nashville, TN 37240."
+        ]
+      },
+      {
+        "full_name": "Sugita, Yuji",
+        "short_name": "Sugita Y",
+        "identifiers": [
+          "0000-0001-9738-9216"
+        ],
+        "affiliations": [
+          "Theoretical Molecular Science Laboratory, RIKEN Cluster for Pioneering Research, Saitama 351-0198, Japan."
+        ]
+      },
+      {
+        "full_name": "Straub, John E",
+        "short_name": "Straub JE",
+        "identifiers": [
+          "0000-0002-2355-3316"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Boston University, Boston, MA 02215."
+        ]
+      },
+      {
+        "full_name": "Thirumalai, D",
+        "short_name": "Thirumalai D",
+        "identifiers": [
+          "0000-0003-1801-5924"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Texas, Austin, TX 78712."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2022 Dec 27",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/21 06:00",
+    "fetched_at": "2026-09-20 17:54:17"
+  },
+  "links": {
+    "cites": [
+      "42160739",
+      "42098771",
+      "41952338",
+      "40828514",
+      "38382114"
+    ],
+    "refs": [
+      "35520661",
+      "35365805",
+      "33839158",
+      "33543942",
+      "33453683",
+      "33232115",
+      "33135883",
+      "32732434",
+      "32575981",
+      "31804721",
+      "31132354",
+      "31109937",
+      "30913885",
+      "30630874",
+      "30414630",
+      "30412504",
+      "30134668",
+      "30024762",
+      "29702072",
+      "29028318",
+      "28790170",
+      "28753424",
+      "28718930",
+      "27819658",
+      "27625790",
+      "27559086",
+      "27525349",
+      "27025652",
+      "26972288",
+      "26753008",
+      "26403946",
+      "25240340",
+      "25130509",
+      "25108625",
+      "24926593",
+      "24569864",
+      "24564538",
+      "24324731",
+      "23907250",
+      "23291095",
+      "22654059",
+      "22584060",
+      "22532566",
+      "22494386",
+      "19995075",
+      "19828817",
+      "19596858",
+      "19444816",
+      "19275251",
+      "18702528",
+      "18673212",
+      "18611372",
+      "18539594",
+      "18351591",
+      "18234110",
+      "17332749",
+      "17256983",
+      "16752394",
+      "9904563",
+      "9901660",
+      "9201963",
+      "8918935",
+      "8430090"
+    ],
+    "similar": [
+      "36538482",
+      "18702528",
+      "33839158",
+      "28096459",
+      "23865807",
+      "28790170",
+      "28032911",
+      "33135883",
+      "26403946",
+      "30910800",
+      "24364734",
+      "26531305",
+      "29702072",
+      "30638370",
+      "29215043",
+      "34241229",
+      "27559086",
+      "28562045",
+      "34117802",
+      "23265086",
+      "17170108",
+      "28626014",
+      "34481234",
+      "21699541",
+      "15087467",
+      "35247387",
+      "22343802",
+      "36050011",
+      "18201969",
+      "23773065",
+      "10922078",
+      "29717863",
+      "30570254",
+      "24926593",
+      "27687728",
+      "25118934",
+      "33571524",
+      "20679249",
+      "24376644",
+      "19804379",
+      "14965473",
+      "35920259",
+      "19596858",
+      "34810230",
+      "24564538",
+      "32572095",
+      "21440556",
+      "22406447",
+      "28439555",
+      "20400860",
+      "35398353",
+      "26262653",
+      "20849818",
+      "11805291",
+      "19928774",
+      "23152608",
+      "33662398",
+      "14756819",
+      "18182389",
+      "28414207",
+      "26581893",
+      "22317957",
+      "21933711",
+      "36921668",
+      "21995415",
+      "18234110",
+      "23530929",
+      "35298330",
+      "24460940",
+      "20017540",
+      "11278337",
+      "26314636",
+      "28351972",
+      "23152503",
+      "14598315",
+      "29097209",
+      "35928227",
+      "28315680",
+      "36930302",
+      "28591569",
+      "26924229",
+      "19995075",
+      "31180641",
+      "30907322",
+      "36768156",
+      "32408680",
+      "27525349",
+      "26053850",
+      "22212137",
+      "14527950",
+      "38826107",
+      "37864328",
+      "38659865",
+      "36341956"
+    ],
+    "review": [
+      "36538482",
+      "33662398"
+    ],
+    "pmc": [
+      "9907117"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2212207119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36538482/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36538482",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

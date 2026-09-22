@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41419011",
+  "title": "MetIoR: A meta predictor to predict intrinsic disorder in RNA binding proteins.",
+  "authors": "Mitra, Swarnadip; Bahadur, Ranjit Prasad",
+  "journal": "Biochimica et biophysica acta. Proteins and proteomics",
+  "published_date": "2025-12-20",
+  "window": {
+    "start": "2025-12-15",
+    "end": "2025-12-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了针对RNA结合蛋白的无序区域预测工具MetIoR，采用机器学习集成方法，虽涉及IDP对象但未研究PPI或互作机制，方法为传统ML而非AI/物理模拟，故综合评分为5。",
+  "abstract": "Intrinsic disorder in proteins is ubiquitous in nature across various proteomes. The association of intrinsically disordered proteins (IDP) with a large variety of biomolecules is essential in many cellular functions. Moreover, IDPs are involved in many macromolecular assemblies including ribosome and spliceosome. Intrinsic disorder has been reported in several RNA binding proteins (RBPs), which makes the study of disordered regions in RBPs crucial. Experimental difficulties in accurately determining the structure of proteins with disordered regions using biophysical techniques necessitates their computational prediction. A large number of available computational tools have been developed to predict disordered residues in proteins, but the majority of them are generic in nature. In this study, we have addressed the lack of specific intrinsic disorder predictors in RBPs. We have developed MetIoR, a prediction tool specifically trained on RBPs, to predict intrinsically disordered regions in RBP using a meta-approach. We have developed our meta predictor, which requires a protein sequence, using five individual disorder predictors. We have employed a number of machine learning classifiers with stratified ten-fold cross validation and selected the best method in terms of prediction metrics. We have also examined the most optimal combination of individual predictors. MetIoR developed using Random Forest is fast, accurate and outperforms all its individual component predictors achieving an accuracy of 93.87 %, and a high AUC value of 0.91. The developed meta predictor is deployed as the MetIoR webserver, which can be freely accessed at http://www.csb.iitkgp.ac.in/applications/MetIoR/index.php.",
+  "abstract_zh": "蛋白质中的内在无序性在自然界各种蛋白质组中普遍存在。 intrinsically disordered proteins (IDP) 与多种生物分子的关联在许多细胞功能中至关重要。此外，IDP 参与许多大分子组装体，包括核糖体和剪接体。内在无序性已在多种 RNA 结合蛋白 (RBPs) 中被报道，这使得研究 RBPs 中的无序区域变得至关重要。使用生物物理技术准确确定具有无序区域的蛋白质结构存在实验困难，因此需要计算预测。已有大量可用的计算工具被开发用于预测蛋白质中的无序残基，但其中大多数是通用性质的。在本研究中，我们解决了 RBPs 中缺乏特异性内在无序预测器的问题。我们开发了 MetIoR，一种专门针对 RBPs 训练的预测工具，采用元方法预测 RBP 中的内在无序区域。我们使用五种单独的预测器开发了我们的元预测器，该预测器需要蛋白质序列作为输入。我们采用了多种机器学习分类器，并进行分层十折交叉验证，根据预测指标选择了最佳方法。我们还检查了单独预测器的最优组合。使用随机森林开发的 MetIoR 快速、准确，且优于其所有单独组成预测器，达到了 93.87% 的准确率和 0.91 的高 AUC 值。所开发的元预测器已部署为 MetIoR 网络服务器，可免费访问 http://www.csb.iitkgp.ac.in/applications/MetIoR/index.php。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41419011/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41419011/",
+  "paper_page_path": "papers/pubmed/41419011/index.html"
+}

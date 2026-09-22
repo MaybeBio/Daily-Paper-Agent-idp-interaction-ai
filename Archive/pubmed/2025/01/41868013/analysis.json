@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41868013",
+  "title": "Modeling biomolecular condensates across scales: Atomistic, coarse-grained, and data-driven approaches.",
+  "authors": "Maristany, Maria Julia; Emelianova, Alina; Chew, Pin Yu; Aguirre, Anne; Collepardo-Guevara, Rosana; Joseph, Jerelle A",
+  "journal": "Advances in physics: X",
+  "published_date": "2025-01-01",
+  "window": {
+    "start": "2024-12-30",
+    "end": "2025-01-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述系统梳理了从原子级到粗粒化再到数据驱动/机器学习的多尺度计算建模方法，用于解析生物分子凝聚体（相分离）的分子互作与序列-性质关系，虽为综述但对象（IDR/凝聚体）、互作（分子间相互作用）与方法（AI/物理模拟）三者齐备，对本课题的机制建模思路有直接启发。",
+  "abstract": "Biomolecular condensates are integral to processes underlying cellular function and dysfunction, and they also present a versatile platform for engineering living cells. Understanding how molecular interactions give rise to condensate form and function is therefore a major area of research. Computational modeling has emerged as a powerful tool for uncovering the biophysical principles underlying condensates. Because condensate biophysics spans multiple spatiotemporal scales, from interactions of amino acid side chains to the emergent material properties of entire condensates, decoding their behavior requires multiscale strategies. In this review, we discuss three core classes of computational modeling approaches that extend our ability to probe condensates. We first examine atomistic modeling, which enables a detailed examination of interactions that encode condensate behaviors. We then discuss coarse-grained modeling, with a focus on residue-resolution models, which advance our ability to predict condensate properties with both precision and efficiency. Finally, we summarize advances in data-driven and machine learning approaches, which leverage molecular simulations to map sequence-property relationships of condensates at a fraction of the cost. Throughout the review, we highlight the key ingredients of each approach, the types of simulations and modeling strategies employed, and the primary observables that can be measured. In doing so, we aim for this review to serve as both an informative and practical guide for leveraging these approaches to understand and engineer biomolecular condensates.",
+  "abstract_zh": "生物分子凝聚体在细胞功能与功能障碍相关过程中不可或缺，同时也为工程化活细胞提供了多功能平台。因此，理解分子相互作用如何产生凝聚体的形态与功能，是一个重要的研究领域。计算建模已成为揭示凝聚体生物物理原理的强大工具。由于凝聚体生物物理学跨越多个时空尺度，从氨基酸侧链的相互作用到整个凝聚体的涌现材料特性，解码其行为需要多尺度策略。在本综述中，我们讨论三类核心的计算建模方法，这些方法扩展了我们探测凝聚体的能力。我们首先考察原子级建模，它能够详细检查编码凝聚体行为的相互作用。接着，我们讨论粗粒化建模，重点关注残基分辨率模型，这些模型以精度和效率提升我们预测凝聚体特性的能力。最后，我们总结数据驱动和机器学习方法的进展，这些方法利用分子模拟以极低的成本映射凝聚体的序列-性质关系。在整个综述中，我们强调每种方法的关键要素、所采用的模拟和建模策略类型，以及可测量的主要观测量。通过这样做，我们旨在使本综述成为利用这些方法理解和工程化生物分子凝聚体的信息丰富且实用的指南。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41868013/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41868013/",
+  "paper_page_path": "papers/pubmed/41868013/index.html"
+}

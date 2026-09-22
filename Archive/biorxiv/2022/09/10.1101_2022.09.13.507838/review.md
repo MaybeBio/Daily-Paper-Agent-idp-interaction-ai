@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use AlphaFold2 predictions for two myelin-specific intrinsically disordered proteins (MBP and P0ct) and compare predicted models with previously published experimental data on solution structure, membrane binding, and SAXS. They report that predicted helical segments correspond to characterized membrane-binding sites and that the models may represent ligand-bound states rather than the free solution forms. Implications for myelination and disease are discussed.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or data are provided
+- **Missing materials affecting confidence** Full text, all figures and tables, methods details, AlphaFold2 prediction parameters, SAXS fitting procedures, and any statistical or validation analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of AlphaFold2 to intrinsically disordered proteins, a topic of growing relevance. However, the claims as stated are broad and the evidence base is not visible. The central assertion that AlphaFold2 models capture ligand-bound states of IDPs is intriguing but requires substantial validation that cannot be assessed from the abstract alone. The connection to disease and myelination is mentioned but not substantiated.
+- **Who would be interested in the results, and why** Researchers in structural biology, computational biology, and neurobiology, particularly those studying intrinsically disordered proteins, membrane-protein interactions, and myelin biology. The work could also interest developers and users of protein structure prediction tools who are exploring applications beyond folded proteins.
+- **Major strengths** The topic is timely and relevant, given the rapid adoption of AlphaFold2. The choice of two biologically important myelin IDPs with known membrane-binding behavior provides a concrete test case. The abstract clearly states the hypothesis that predicted models may reflect ligand-bound states, which is a testable and potentially valuable idea.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that AlphaFold2 predicted models have helical segments that closely correspond to characterized membrane-binding sites on both MBP and P0ct.
+  - **Evidence pointer** Abstract only; no figures or tables provided
+  - **Concern** The abstract states that predicted helical segments correspond to membrane-binding sites, but no quantitative or visual evidence is presented. It is unclear how "closely correspond" is defined, whether this is based on sequence alignment, structural superposition, or visual inspection, and what the tolerance for deviation is.
+  - **Why it matters** This is the central claim of the work. Without a clear definition of correspondence and supporting data, the claim cannot be evaluated. Overinterpretation of AlphaFold2 outputs for IDPs is a known risk, and the authors must demonstrate that the correspondence is not coincidental.
+  - **Resolution test** Provide a figure or table showing the predicted helical segments aligned with experimentally characterized membrane-binding regions, with sequence coordinates and a quantitative measure of overlap or structural similarity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the models fit SAXS data from the same IDPs, implying that the predicted structures are consistent with solution-state experimental data.
+  - **Evidence pointer** Abstract only; no SAXS data or fitting results provided
+  - **Concern** The abstract mentions analysis of fits to SAXS data but provides no details on the fitting procedure, the quality of the fits, or how the models were selected or compared. SAXS is a low-resolution technique, and a good fit does not necessarily validate a specific atomic model, especially for flexible IDPs.
+  - **Why it matters** The claim that AlphaFold2 models are consistent with SAXS data is used to support the idea that the models represent a relevant conformational state. Without fit statistics, comparison to alternative models, or discussion of ensemble considerations, this claim is not established.
+  - **Resolution test** Show SAXS fits with chi-square or similar metrics, compare the AlphaFold2 model fit to fits from other models or ensembles, and discuss the limitations of SAXS in validating IDP models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Conceptual validity
+  - **Claim pointer** The authors state that AlphaFold2 models of IDPs appear to provide detailed information on the ligand-bound state of these proteins, instead of the form dominating free in solution.
+  - **Evidence pointer** Abstract only; no experimental validation of ligand-bound states is presented
+  - **Concern** This is a strong interpretive claim. AlphaFold2 is trained on folded protein structures and its applicability to IDPs is not well established. The abstract does not provide evidence that the predicted models correspond to experimentally observed ligand-bound conformations, such as membrane-bound helical states, beyond the correspondence of helical segments mentioned earlier.
+  - **Why it matters** If the models are not validated against experimental data on the ligand-bound state, the claim is speculative. The authors need to show that the predicted conformations are not artifacts of the prediction method and that they genuinely reflect a biologically relevant state.
+  - **Resolution test** Provide experimental data on the ligand-bound state, such as circular dichroism or NMR data in the presence of membranes or ligands, and show that the AlphaFold2 models are consistent with these data.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Numerous human proteins are either partially or fully classified as intrinsically disordered proteins" is vague. The term "numerous" is not quantified, and the classification criteria are not specified.
+  - **Required correction** Provide a specific percentage or number of human proteins predicted to be disordered, with a reference to the classification method.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, statement on "detailed information"
+  - **Issue** The claim that AlphaFold2 models provide "detailed information" is not defined. What level of detail is meant, and how does this compare to experimental methods?
+  - **Required correction** Define what is meant by "detailed information" and specify the resolution or accuracy of the predictions relative to experimental data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract discussion
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The discussion of implications for myelination and disease is mentioned but not elaborated. This appears to be an add-on without clear connection to the presented results.
+  - **Required correction** Either remove this statement or provide a brief explanation of how the findings relate to myelination and disease, with references.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central claims of helical correspondence, SAXS fit validity, and ligand-bound state interpretation are not supported by the visible evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of AlphaFold2 to IDPs is not entirely new, but the specific focus on myelin proteins and the interpretation of predicted models as ligand-bound states is a novel angle. However, the abstract does not demonstrate sufficient novelty to distinguish it from prior work on IDP prediction.
+  - Scientific importance: The topic is important for understanding myelin biology and IDP behavior, but the abstract does not establish a significant advance beyond what is already known about MBP and P0ct membrane binding.
+  - Interdisciplinary readership: The work could appeal to structural biologists, computational biologists, and neurobiologists, but the abstract is written in a way that assumes familiarity with both AlphaFold2 and IDP concepts, which may limit accessibility.
+  - Technical soundness: Cannot be assessed from the abstract. The lack of methodological detail and validation data is a major concern.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon such as "intrinsically disordered proteins" and "SAXS" without explanation, which may hinder nonspecialist readers.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the necessary data and validation to support the central claims. The authors should provide the full manuscript with detailed methods, figures, and validation analyses for a proper assessment.
+
+## Risk / unsupported claims
+- The claim that AlphaFold2 models provide "detailed information on the ligand-bound state" is unsupported without experimental validation of the ligand-bound conformations.
+- The claim that predicted helical segments "closely correspond" to membrane-binding sites is unquantified and cannot be evaluated from the abstract.
+- The claim that the models fit SAXS data is unsubstantiated without fit statistics or comparison to alternative models.
+- The implications for myelination and disease are mentioned but not supported by any data or analysis in the abstract.

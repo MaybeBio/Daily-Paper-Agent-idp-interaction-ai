@@ -1,0 +1,437 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.10.06.463336",
+  "title": "Alphavirus infection triggers selective cytoplasmic translocation of nuclear RBPs with moonlighting antiviral roles",
+  "doi": "10.1101/2021.10.06.463336",
+  "abstract": "RNA is a central molecule for RNA viruses, acting as mRNA and genome. However, the interactions that viral (v)RNA establishes with the host cell is only starting to be elucidated. Here, we determine with unprecedented depth the composition of the ribonucleoproteins (RNPs) of the prototypical arthropod-borne Sindbis virus (SINV) using viral RNA interactome capture. We show that SINV RNAs engage with hundreds of cellular proteins and pathways, including a group of nuclear RNA-binding proteins (RBPs) with unknown roles in infection. Combining subcellular fractionation and proteomics with several orthogonal approaches, we demonstrate that these nuclear RBPs are selectively redistributed to the cytoplasm after infection, where they associate with the viral replication organelles. These nuclear RBPs potently supress viral gene expression, with activities spanning viral species and families. Our study provides a comprehensive and systematic analysis of SINV RNP composition, revealing a network of nuclear RBPs with moonlighting antiviral function. <h4>Research highlights</h4> SINV RNAs interact with over four hundred cellular RBPs SINV induces selective cytoplasmic translocation of a subset of nuclear RBPs These nuclear RBPs display potent antiviral effects The SF3B complex binds to SINV RNA and supresses infection in a splicing-independent manner",
+  "authors": [
+    "Kamel W",
+    "Ruscica V",
+    "Embarc-Buh A",
+    "de Laurent ZR",
+    "Garcia-Moreno M",
+    "Demyanenko Y",
+    "Madhusudhan M",
+    "Iselin L",
+    "Järvelin A",
+    "Hannan M",
+    "Kitano E",
+    "Moore S",
+    "Merits A",
+    "Davis I",
+    "Mohammed S",
+    "Castello A"
+  ],
+  "published_date": "2021-10-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.10.06.463336",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.10.06.463336.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR405089",
+    "raw_record": {
+      "id": "PPR405089",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR405089"
+        ]
+      },
+      "doi": "10.1101/2021.10.06.463336",
+      "title": "Alphavirus infection triggers selective cytoplasmic translocation of nuclear RBPs with moonlighting antiviral roles",
+      "authorString": "Kamel W, Ruscica V, Embarc-Buh A, de Laurent ZR, Garcia-Moreno M, Demyanenko Y, Madhusudhan M, Iselin L, Järvelin A, Hannan M, Kitano E, Moore S, Merits A, Davis I, Mohammed S, Castello A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kamel W",
+            "lastName": "Kamel",
+            "firstName": "Wael",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7625-2648"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC-University of Glasgow Centre for Virus Research, G61 1QH, Glasgow, Scotland (UK)"
+                },
+                {
+                  "affiliation": "Department of Biochemistry, University of Oxford, South Parks Road, OX1 3QU, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ruscica V",
+            "lastName": "Ruscica",
+            "firstName": "Vincenzo",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4082-1893"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Oxford, South Parks Road, OX1 3QU, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Embarc-Buh A",
+            "lastName": "Embarc-Buh",
+            "firstName": "Azman",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Oxford, South Parks Road, OX1 3QU, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Laurent ZR",
+            "lastName": "de Laurent",
+            "firstName": "Zaydah",
+            "initials": "ZR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4246-6082"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC-University of Glasgow Centre for Virus Research, G61 1QH, Glasgow, Scotland (UK)"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garcia-Moreno M",
+            "lastName": "Garcia-Moreno",
+            "firstName": "Manuel",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7181-5459"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC-University of Glasgow Centre for Virus Research, G61 1QH, Glasgow, Scotland (UK)"
+                },
+                {
+                  "affiliation": "Department of Biochemistry, University of Oxford, South Parks Road, OX1 3QU, Oxford, UK"
+                },
+                {
+                  "affiliation": "Nuffield Department of Medicine, Peter Medawar Building for Pathogen Research, University of Oxford, Oxford, OX1 3SY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Demyanenko Y",
+            "lastName": "Demyanenko",
+            "firstName": "Yana",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Oxford, South Parks Road, OX1 3QU, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Madhusudhan M",
+            "lastName": "Madhusudhan",
+            "firstName": "Meghana",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Oxford, South Parks Road, OX1 3QU, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Iselin L",
+            "lastName": "Iselin",
+            "firstName": "Louisa",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4834-8888"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC-University of Glasgow Centre for Virus Research, G61 1QH, Glasgow, Scotland (UK)"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Järvelin A",
+            "lastName": "Järvelin",
+            "firstName": "Aino",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Oxford, South Parks Road, OX1 3QU, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hannan M",
+            "lastName": "Hannan",
+            "firstName": "Maximilian",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Technology, University of Tartu, Tartu, 50411, Estonia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kitano E",
+            "lastName": "Kitano",
+            "firstName": "Eduardo",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Oxford, South Parks Road, OX1 3QU, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moore S",
+            "lastName": "Moore",
+            "firstName": "Samantha",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center of Medical Biochemistry, Max Perutz Labs, Medical University of Vienna, Vienna, Austria"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Merits A",
+            "lastName": "Merits",
+            "firstName": "Andres",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8193-0071"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Oxford, South Parks Road, OX1 3QU, Oxford, UK"
+                },
+                {
+                  "affiliation": "Department of Chemistry, University of Oxford, Mansfield Road, Oxford, OX1 3TA, UK"
+                },
+                {
+                  "affiliation": "The Rosalind Franklin Institute, Oxfordshire, OX11 0FA, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davis I",
+            "lastName": "Davis",
+            "firstName": "Ilan",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC-University of Glasgow Centre for Virus Research, G61 1QH, Glasgow, Scotland (UK)"
+                },
+                {
+                  "affiliation": "Department of Biochemistry, University of Oxford, South Parks Road, OX1 3QU, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mohammed S",
+            "lastName": "Mohammed",
+            "firstName": "Shabaz",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2640-9560"
+            }
+          },
+          {
+            "fullName": "Castello A",
+            "lastName": "Castello",
+            "firstName": "Alfredo",
+            "initials": "A"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7181-5459"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8193-0071"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1499-4662"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4246-6082"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4834-8888"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7625-2648"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2640-9560"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4082-1893"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "RNA is a central molecule for RNA viruses, acting as mRNA and genome. However, the interactions that viral (v)RNA establishes with the host cell is only starting to be elucidated. Here, we determine with unprecedented depth the composition of the ribonucleoproteins (RNPs) of the prototypical arthropod-borne Sindbis virus (SINV) using viral RNA interactome capture. We show that SINV RNAs engage with hundreds of cellular proteins and pathways, including a group of nuclear RNA-binding proteins (RBPs) with unknown roles in infection. Combining subcellular fractionation and proteomics with several orthogonal approaches, we demonstrate that these nuclear RBPs are selectively redistributed to the cytoplasm after infection, where they associate with the viral replication organelles. These nuclear RBPs potently supress viral gene expression, with activities spanning viral species and families. Our study provides a comprehensive and systematic analysis of SINV RNP composition, revealing a network of nuclear RBPs with moonlighting antiviral function. <h4>Research highlights</h4>  SINV RNAs interact with over four hundred cellular RBPs SINV induces selective cytoplasmic translocation of a subset of nuclear RBPs These nuclear RBPs display potent antiviral effects The SF3B complex binds to SINV RNA and supresses infection in a splicing-independent manner",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/M011224/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/10/08/2021.10.06.463336.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.10.06.463336"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR405089"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR405089&type=FILE&fileName=EMS136553-pdf.pdf&mimeType=application/pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.10.06.463336"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39642884",
+            "reference": "Molecular cell. 2024 Dec;84(24):4896-4911.e7",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS136553",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo"
+        ]
+      },
+      "dateOfCreation": "2021-10-09",
+      "firstPublicationDate": "2021-10-08",
+      "firstIndexDate": "2021-10-09",
+      "fullTextReceivedDate": "2021-11-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

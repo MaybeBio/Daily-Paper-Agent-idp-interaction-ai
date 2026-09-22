@@ -1,0 +1,413 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.20.695343",
+  "title": "Taxane-Induced Conformational Changes in the Microtubule Lattice Activate GEF-H1-Dependent RhoA Signaling",
+  "doi": "10.64898/2025.12.20.695343",
+  "abstract": "Taxanes are widely used chemotherapeutic agents that perturb cell division. They also exert effects during interphase, but the underlying mechanisms are poorly understood. Here, we show that taxanes activate RhoA signaling and induce actin remodeling by displacing the RhoA activator GEF-H1 from microtubules. This taxane-induced release of GEF-H1 occurs rapidly, is independent of tubulin post-translational modifications, and can be recapitulated using purified proteins. In vitro reconstitution assays combined with analyses of microtubule structure revealed that microtubule binding by GEF-H1 is inhibited by microtubule-stabilizing agents that expand the microtubule lattice, such as taxanes and GMPCPP, but not by others, including GTPγS and discodermolide, which stabilize a compacted microtubule lattice. Our findings demonstrate that alterations in microtubule lattice conformation can activate key signaling pathways, offering new insights into the mode of action of taxanes and the possible origins of their side effects.",
+  "authors": [
+    "Meiring JCM",
+    "Mahapatra V",
+    "Gravett MS",
+    "Morren D",
+    "Saunders HA",
+    "Choi SR",
+    "José AP",
+    "Karhanova A",
+    "Metallidou I",
+    "Moore A",
+    "Spoelstra MF",
+    "Liu R",
+    "Giono M",
+    "Iyer SS",
+    "Díaz JF",
+    "Lansky Z",
+    "Stecker KE",
+    "Steinmetz MO",
+    "Howes SC",
+    "Kapitein LC",
+    "Akhmanova A"
+  ],
+  "published_date": "2025-12-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.20.695343",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.20.695343.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1230518",
+    "raw_record": {
+      "id": "PPR1230518",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1230518"
+        ]
+      },
+      "doi": "10.64898/2025.12.20.695343",
+      "title": "Taxane-Induced Conformational Changes in the Microtubule Lattice Activate GEF-H1-Dependent RhoA Signaling",
+      "authorString": "Meiring JCM, Mahapatra V, Gravett MS, Morren D, Saunders HA, Choi SR, José AP, Karhanova A, Metallidou I, Moore A, Spoelstra MF, Liu R, Giono M, Iyer SS, Díaz JF, Lansky Z, Stecker KE, Steinmetz MO, Howes SC, Kapitein LC, Akhmanova A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Meiring JCM",
+            "lastName": "Meiring",
+            "firstName": "Joyce",
+            "initials": "JCM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, , Padualaan, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mahapatra V",
+            "lastName": "Mahapatra",
+            "firstName": "Varsha",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, , Padualaan, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gravett MS",
+            "lastName": "Gravett",
+            "firstName": "Molly S.C.",
+            "initials": "MS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biochemistry, Department of Chemistry, Bijvoet Centre for Biomolecular Research, , , s"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morren D",
+            "lastName": "Morren",
+            "firstName": "Daan",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, , Padualaan, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saunders HA",
+            "lastName": "Saunders",
+            "firstName": "Harriet A.J.",
+            "initials": "HA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, , Padualaan, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Choi SR",
+            "lastName": "Choi",
+            "firstName": "Sung Ryul",
+            "initials": "SR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "PSI Center for Life Sciences, 5232 Villigen PSI, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "José AP",
+            "lastName": "José",
+            "firstName": "Andressa Pelster",
+            "initials": "AP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biochemistry, Department of Chemistry, Bijvoet Centre for Biomolecular Research, , , s"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Karhanova A",
+            "lastName": "Karhanova",
+            "firstName": "Adela",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biotechnology, , BIOCEV, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Metallidou I",
+            "lastName": "Metallidou",
+            "firstName": "Ioanna",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, , Padualaan, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moore A",
+            "lastName": "Moore",
+            "firstName": "Alex",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, , Padualaan, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spoelstra MF",
+            "lastName": "Spoelstra",
+            "firstName": "Marèl F.M.",
+            "initials": "MF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biomolecular Mass Spectrometry and Proteomics, Bijvoet Center for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, , Padualaan 8 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu R",
+            "lastName": "Liu",
+            "firstName": "Ruijie",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, , Padualaan, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Giono M",
+            "lastName": "Giono",
+            "firstName": "Matteo",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "PSI Center for Life Sciences, 5232 Villigen PSI, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Iyer SS",
+            "lastName": "Iyer",
+            "firstName": "Saishree",
+            "initials": "SS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, , Padualaan, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Díaz JF",
+            "lastName": "Díaz",
+            "firstName": "Fernando",
+            "initials": "JF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "BICS Unit, , , Ramiro de Maeztu 9 , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lansky Z",
+            "lastName": "Lansky",
+            "firstName": "Zdenek",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biotechnology, , BIOCEV, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stecker KE",
+            "lastName": "Stecker",
+            "firstName": "Kelly",
+            "initials": "KE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biomolecular Mass Spectrometry and Proteomics, Bijvoet Center for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, , Padualaan 8 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Steinmetz MO",
+            "lastName": "Steinmetz",
+            "firstName": "Michel",
+            "initials": "MO",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "PSI Center for Life Sciences, 5232 Villigen PSI, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Howes SC",
+            "lastName": "Howes",
+            "firstName": "Stuart",
+            "initials": "SC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biochemistry, Department of Chemistry, Bijvoet Centre for Biomolecular Research, , , s"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kapitein LC",
+            "lastName": "Kapitein",
+            "firstName": "Lukas",
+            "initials": "LC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, , Padualaan, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Akhmanova A",
+            "lastName": "Akhmanova",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, , Padualaan, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Taxanes are widely used chemotherapeutic agents that perturb cell division. They also exert effects during interphase, but the underlying mechanisms are poorly understood. Here, we show that taxanes activate RhoA signaling and induce actin remodeling by displacing the RhoA activator GEF-H1 from microtubules. This taxane-induced release of GEF-H1 occurs rapidly, is independent of tubulin post-translational modifications, and can be recapitulated using purified proteins.  In vitro reconstitution assays combined with analyses of microtubule structure revealed that microtubule binding by GEF-H1 is inhibited by microtubule-stabilizing agents that expand the microtubule lattice, such as taxanes and GMPCPP, but not by others, including GTPγS and discodermolide, which stabilize a compacted microtubule lattice. Our findings demonstrate that alterations in microtubule lattice conformation can activate key signaling pathways, offering new insights into the mode of action of taxanes and the possible origins of their side effects.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101071793",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "166608",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.20.695343"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1230518"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1230518&type=FILE&fileName=EMS214664-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214664",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-23",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

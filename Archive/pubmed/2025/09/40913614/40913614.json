@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "40913614",
+    "doi": "10.1021/acs.biochem.5c00422",
+    "title": "ssDNA and ssRNA Promote Phase Condensation of SAMHD1."
+  },
+  "content": {
+    "abstract": "SAMHD1 (SAM domain and HD domain-containing protein 1) is a deoxynucleoside triphosphate triphosphohydrolase (dNTPase) with functions in viral restriction, R-loop resolution, DNA repair, telomere maintenance, ssRNA homeostasis, and regulation of self-nucleic acids. As a dNTPase, SAMHD1 functions as an allosterically activated tetramer, where binding of GTP to the A1 activator site of each monomer initiates dNTP-dependent tetramerization. cEM structures reveal that the nucleic-acid-related functions of SAMHD1 involve binding of guanine residues to the A1 site, leading to oligomeric forms that appear as beads-on-a-string on single-stranded RNA and DNA. SAMHD1's cellular activities and known protein interactions involve liquid-liquid phase separation (LLPS), although there are no reports that SAMHD1 itself exhibits phase separation properties. The protein phase separation prediction algorithm MolPhase indicated an overall phase separation probability score of 0.65 and suggested that the amino terminal SAM domain and the disordered carboxyl terminus (CT) may promote phase separation. Although no phase separation behavior was observed in physiological buffer, in the presence of 9% PEG 2000 and ssDNA or ssRNA, SAMHD1 condensed into liquid-like droplets. These droplets were disrupted by deletion of the SAM or CT domains, showed fusion behavior, and were rapidly disrupted by the addition of A1 site ligands GTP, dGTP, and small-molecule inhibitors. We also observed that SAMHD1-ssDNA condensates within the nuclei of human cells in microinjection experiments, supporting a biological relevance for such complexes. LLPS by SAMHD1 could serve a regulatory role in cells and provide a new therapeutic target for the treatment of cancer and viral infections.",
+    "keywords": [],
+    "mesh_terms": [
+      "*SAM Domain and HD Domain-Containing Protein 1/chemistry/metabolism/genetics",
+      "Humans",
+      "*DNA, Single-Stranded/metabolism/chemistry",
+      "*RNA/metabolism/chemistry",
+      "Guanosine Triphosphate/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Smith, Brandon E",
+        "Pohnerkar, Ankita",
+        "Orris, Benjamin",
+        "Bhat, Shridhar",
+        "Egleston, Matthew",
+        "Stivers, James T"
+      ],
+      "short_names": [
+        "Smith BE",
+        "Pohnerkar A",
+        "Orris B",
+        "Bhat S",
+        "Egleston M",
+        "Stivers JT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4207-8389",
+        "ORCID: 0000-0003-2572-7807"
+      ],
+      "affiliations": [
+        "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, Maryland 21205, United States.",
+        "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, Maryland 21205, United States.",
+        "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, Maryland 21205, United States.",
+        "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, Maryland 21205, United States.",
+        "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, Maryland 21205, United States.",
+        "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, Maryland 21205, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Smith, Brandon E",
+        "short_name": "Smith BE",
+        "identifiers": [
+          "0000-0002-4207-8389"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, Maryland 21205, United States."
+        ]
+      },
+      {
+        "full_name": "Pohnerkar, Ankita",
+        "short_name": "Pohnerkar A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, Maryland 21205, United States."
+        ]
+      },
+      {
+        "full_name": "Orris, Benjamin",
+        "short_name": "Orris B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, Maryland 21205, United States."
+        ]
+      },
+      {
+        "full_name": "Bhat, Shridhar",
+        "short_name": "Bhat S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, Maryland 21205, United States."
+        ]
+      },
+      {
+        "full_name": "Egleston, Matthew",
+        "short_name": "Egleston M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, Maryland 21205, United States."
+        ]
+      },
+      {
+        "full_name": "Stivers, James T",
+        "short_name": "Stivers JT",
+        "identifiers": [
+          "0000-0003-2572-7807"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Molecular Sciences, Johns Hopkins University School of Medicine, 725 North Wolfe Street, Baltimore, Maryland 21205, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemistry"
+    ],
+    "journal_abbrev": [
+      "Biochemistry"
+    ],
+    "pub_date": "2025 Sep 16",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/06 12:35",
+    "fetched_at": "2026-09-21 23:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39989431",
+      "39947751",
+      "38587189",
+      "38565952",
+      "37930833",
+      "37690693",
+      "37379327",
+      "37233733",
+      "36532101",
+      "36528065",
+      "36150385",
+      "35801923",
+      "34951585",
+      "34179096",
+      "33857133",
+      "33591315",
+      "33154383",
+      "32824618",
+      "32576829",
+      "32511795",
+      "32440657",
+      "32319570",
+      "31570834",
+      "31543265",
+      "30456372",
+      "30379068",
+      "29670289",
+      "29650702",
+      "29614270",
+      "29424691",
+      "28834754",
+      "27775344",
+      "27711056",
+      "27387229",
+      "26655245",
+      "26101257",
+      "25827226",
+      "25755265",
+      "25474551",
+      "25038827",
+      "24753578",
+      "24141705",
+      "23364794",
+      "22461318",
+      "20961955",
+      "17406245",
+      "7877593"
+    ],
+    "similar": [
+      "40913614",
+      "37930833",
+      "35801923",
+      "37398126",
+      "37233733",
+      "29321329",
+      "27775344",
+      "23371319",
+      "26101257",
+      "37246644",
+      "25267621",
+      "31152619",
+      "26438820",
+      "38452417",
+      "23364794",
+      "38830230",
+      "24753578",
+      "34492268",
+      "33172327",
+      "32075911",
+      "27511536",
+      "32244340",
+      "39824836",
+      "25847232",
+      "28321930",
+      "31462561",
+      "27920203",
+      "23880768",
+      "39162568",
+      "37567474",
+      "34480199",
+      "29379009",
+      "31296733",
+      "31019074",
+      "39989431",
+      "23858451",
+      "24828500",
+      "26294762",
+      "25288794",
+      "29793958",
+      "31914403",
+      "36150385",
+      "25760601",
+      "25038827",
+      "28834754",
+      "36934410",
+      "30044979",
+      "24217394",
+      "35643313",
+      "34321470",
+      "30933978",
+      "30181218",
+      "32576829",
+      "31451672",
+      "28931685",
+      "27566548",
+      "24983818",
+      "23158101",
+      "33883225",
+      "26342080",
+      "29614270",
+      "32319570",
+      "40277359",
+      "31017331",
+      "23966382",
+      "24623419",
+      "36377871",
+      "41617034",
+      "24141705",
+      "33177202",
+      "30305425",
+      "38287375",
+      "39194246",
+      "28228523",
+      "25646359",
+      "40902696",
+      "26045556",
+      "23426366",
+      "24219908",
+      "35158911",
+      "28398823",
+      "38237141",
+      "33988981",
+      "31492497",
+      "29764952",
+      "33801276",
+      "30039733",
+      "37390988",
+      "24445253",
+      "27179347",
+      "28956603",
+      "27815502",
+      "26431200",
+      "28067901",
+      "37662193",
+      "37800914",
+      "33135886",
+      "38888311",
+      "34179096",
+      "30879196"
+    ],
+    "review": [
+      "40913614",
+      "32244340",
+      "34480199",
+      "31296733",
+      "32319570",
+      "40277359",
+      "33801276"
+    ],
+    "pmc": [
+      "12560272"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40913614/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-945",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/bichaw/article-lookup/doi/10.1021/acs.biochem.5c00422",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

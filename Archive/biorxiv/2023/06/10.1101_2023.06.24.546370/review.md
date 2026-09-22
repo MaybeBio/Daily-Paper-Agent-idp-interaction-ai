@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, methods, supplementary figure/table references)
+- **Assessment boundary** Scientific claims, experimental design, structural evidence, and interpretation as presented in the provided text; no independent verification of deposited data
+- **Shared manuscript claim summary** The authors report that the intrinsically disordered CsoS2 C-terminus becomes structured upon binding to α-carboxysome shell proteins, acting as a "molecular thread" that stitches capsomeres together. They identify a conserved [IV]TG repeat motif critical for shell assembly and architecture, based on cryo-EM structures of synthetically engineered mini-shells.
+- **Visible evidence base** Cryo-EM structures of T=9, T=4, and T=3 shells at 1.86 Å, 3.54 Å, and 2.79 Å resolution; biochemical assembly assays; DLS; immunoblot; sequence conservation analyses; AlphaFold2 predictions
+- **Missing materials affecting confidence** Supplementary figures and tables (Fig. S1-S11, Tables S1-S3) referenced but not provided; no negative-stain EM images shown in main text; no quantitative assembly efficiency data; no native carboxysome structural validation
+
+## Reviewer
+- **Overall assessment** This manuscript presents a significant advance in understanding α-carboxysome assembly by providing atomic-level detail on how the disordered CsoS2 C-terminus mediates shell assembly. The 1.86 Å cryo-EM structure of the T=9 shell is a technical achievement that enables unambiguous modelling of CsoS2-C. The identification of the [IV]TG repeat motif as a conserved interaction element is novel and potentially generalizable. However, several concerns regarding the generalizability of the "molecular thread" model, the functional significance of the [IV]TG motif, and the relationship between the engineered mini-shells and native carboxysomes need to be addressed.
+- **Who would be interested in the results, and why** Structural biologists studying bacterial microcompartments and protein self-assembly; synthetic biologists engineering carboxysomes for biotechnological applications; researchers interested in the role of intrinsically disordered proteins in organizing macromolecular complexes; plant scientists and biochemists working on carbon fixation enhancement
+- **Major strengths** 1) Atomic-resolution structure of a complex proteinaceous shell with bound disordered protein; 2) Elegant reductionist approach using minimal shell components; 3) Identification of a conserved [IV]TG interaction motif with clear functional relevance; 4) High-quality cryo-EM data enabling unambiguous model building; 5) Clear demonstration that CsoS2-C controls shell size and architecture
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability of the proposed mechanism
+  - **Claim pointer** The authors claim that CsoS2 acts as a "general molecular thread" for α-carboxysome shell assembly, implying a universal mechanism across α-carboxysome species.
+  - **Evidence pointer** Results section "CsoS2 is a molecular thread linking multiple capsomeres"; Figure 3
+  - **Concern** The structural evidence is derived exclusively from engineered mini-shells using components from Halothiobacillus neapolitanus. While the [IV]TG motif is shown to be conserved in sequence alignments, no structural or functional validation is provided from native α-carboxysomes or from other species. The claim of generality is therefore not directly supported by the data presented. The authors acknowledge that native carboxysomes contain 863 hexamers and 192 CsoS2B, which suggests a much lower CsoS2 occupancy than the 60 sites observed in the T=9 mini-shell. This discrepancy raises questions about whether the "molecular thread" mechanism operates identically in native carboxysomes where CsoS2 is substoichiometric.
+  - **Why it matters** The central claim of the manuscript is that this mechanism is general. Without validation in native systems or at least in additional species, the broader significance of the finding is weakened. The substoichiometric CsoS2 in native carboxysomes suggests that the threading mechanism may be more dynamic or context-dependent than the mini-shell structures suggest.
+  - **Resolution test** Provide structural or biochemical evidence from native α-carboxysomes showing CsoS2-C interactions at capsomere interfaces. Alternatively, demonstrate that the [IV]TG motif is functionally required in a heterologous or native system. If native validation is not feasible, temper the generality claim and explicitly discuss the limitations of the mini-shell system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance of the [IV]TG motif
+  - **Claim pointer** The authors state that the [IV]TG motif is "critical to the shell assembly and architecture" based on the observation that mutation of all [IV]TG motifs to AAA results in only T=4 and T=3 shells.
+  - **Evidence pointer** Results section "CsoS2-C dictates α-carboxysome shell assembly and architecture"; Figure 4
+  - **Concern** The mutational analysis replaces all [IV]TG motifs with AAA, which is a drastic change that could disrupt the overall structure and folding of CsoS2-C rather than specifically abrogating the interaction. The authors do not provide evidence that the AAA mutations specifically disrupt the [IV]TG-mediated interactions without causing global misfolding or aggregation of CsoS2-C. Additionally, the assembly efficiency data are presented qualitatively ("similar to the [IV]TG motif mutant") without quantitative analysis or statistical testing.
+  - **Why it matters** The identification of the [IV]TG motif as a critical interaction element is a key finding. If the mutations cause non-specific effects, the conclusion that this specific motif is essential for T=9 shell formation is not justified. The lack of quantitative data makes it difficult to assess the magnitude of the effect.
+  - **Resolution test** Perform more targeted mutations (e.g., single [IV]TG to AAA in each fragment) and assess whether the effect is additive. Provide circular dichroism or other biophysical evidence that the AAA mutations do not globally disrupt CsoS2-C structure. Quantify assembly efficiency with statistical analysis and include appropriate controls.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural basis of CsoS2-mediated capsomere stitching
+  - **Claim pointer** The authors state that CsoS2-C "stitches through multiple shell protein interfaces" and that the three fragments F1-F3 bind at distinct sites.
+  - **Evidence pointer** Results section "CsoS2 is a molecular thread linking multiple capsomeres"; Figure 3b-e
+  - **Concern** While the cryo-EM density clearly shows CsoS2-C fragments at capsomere interfaces, the functional significance of each individual fragment is not systematically tested. The authors show that F1-F3 together promote T=9 formation, F2-F3 produce T=4, and F3 alone produces T=4/T=3, but the specific contribution of each fragment to the "stitching" function is not dissected. It is unclear whether the fragments act cooperatively or independently, and whether the loss of T=9 formation with shorter fragments is due to loss of specific interactions or simply reduced avidity.
+  - **Why it matters** Understanding how individual fragments contribute to shell assembly is important for the proposed mechanism and for engineering applications. If the fragments act additively, the "molecular thread" model may be an oversimplification.
+  - **Resolution test** Test combinations of fragments with specific [IV]TG mutations in each fragment to determine which interactions are essential for T=9 formation. Perform binding assays (e.g., ITC or SPR) to measure the affinity of each fragment for capsomere interfaces.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Presentation of assembly efficiency data
+  - **Affected element** Figure 4 and associated text
+  - **Evidence pointer** Results section "CsoS2-C dictates α-carboxysome shell assembly and architecture"
+  - **Issue** The comparison of assembly efficiency between constructs is described qualitatively. The authors state that mini-shell 1 assembles "more efficiently" than mini-shell 6 but "similar to" the [IV]TG mutant, without providing quantitative data or statistical analysis.
+  - **Required correction** Provide quantitative measurements of assembly efficiency (e.g., percentage of assembled vs. unassembled protein) with error bars and statistical tests. If the data are not quantitative, state this limitation explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Nomenclature consistency
+  - **Affected element** Figure 1 and text
+  - **Evidence pointer** Results section "Assembly and structures of recombinant α-carboxysome shells"
+  - **Issue** The manuscript uses "mini-shell 1" and "mini-shell 2" but also refers to "T = 3", "T = 4", and "T = 9" shells. The relationship between construct names and shell geometries could be clarified for readers.
+  - **Required correction** Add a summary table or schematic clearly indicating which construct produces which shell geometries, and ensure consistent terminology throughout.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of CsoS2 middle region
+  - **Affected element** Final paragraph of Results and Discussion
+  - **Evidence pointer** Results section "CsoS2-C dictates α-carboxysome shell assembly and architecture"
+  - **Issue** The authors speculate that the middle region "may also contribute to its interaction with shell components" but provide no experimental evidence. This speculation is reasonable but should be clearly labeled as such.
+  - **Required correction** Either provide preliminary data on the middle region or explicitly state that this is speculative and requires future investigation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Supplementary data accessibility
+  - **Affected element** All supplementary figures and tables
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript references 11 supplementary figures and 3 supplementary tables, but these are not included in the provided text. Key data (e.g., negative-stain EM images, assembly ratio measurements, sequence alignments) are only available in the supplementary materials.
+  - **Required correction** Ensure that all supplementary materials are available for review and that the main text can be understood without them. Consider moving key data (e.g., assembly efficiency quantification) to the main text.
+- **Technical failings that need to be addressed before the case is established** 1) The functional significance of the [IV]TG motif requires more targeted mutagenesis and biophysical validation that the mutations do not cause global structural disruption. 2) The generalizability of the "molecular thread" mechanism to native α-carboxysomes and other species is not established. 3) Quantitative assembly efficiency data with statistical analysis are needed to support the claims about the role of CsoS2-C fragments in shell assembly.
+- **Assessment against Nature-style criteria** **Originality:** High. The atomic-level characterization of how an intrinsically disordered protein mediates shell assembly is novel and provides a new paradigm for understanding BMC assembly. **Scientific importance:** High. Understanding carboxysome assembly has implications for carbon fixation, synthetic biology, and protein engineering. The identification of the [IV]TG motif as a conserved interaction element is potentially transformative. **Interdisciplinary readership:** Moderate to high. The work bridges structural biology, microbiology, and synthetic biology. The broader implications for carbon fixation and biotechnology will attract interest beyond structural biology. **Technical soundness:** Generally strong, with the 1.86 Å cryo-EM structure being a notable achievement. However, the functional validation of the [IV]TG motif and the generalizability claims require additional support. **Readability for nonspecialists:** Good. The "molecular thread" analogy is accessible, and the figures (as described) appear to convey the key concepts clearly. However, the manuscript assumes familiarity with BMC terminology and cryo-EM methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural work is of high quality and the identification of the [IV]TG motif is significant. However, the generalizability claim and the functional significance of the motif require additional validation. The authors should either provide native validation or temper their claims. The manuscript would be suitable for a high-impact journal after these concerns are addressed.
+
+## Risk / unsupported claims
+- The claim that CsoS2 acts as a "general molecular thread" for α-carboxysome shell assembly is not fully supported, as evidence is derived only from engineered mini-shells from a single species.
+- The statement that the [IV]TG motif is "critical to the shell assembly and architecture" is based on a single drastic mutation (all motifs to AAA) without evidence of specificity.
+- The suggestion that the CsoS2 middle region "may also contribute to its interaction with shell components" is speculative and not supported by experimental data.
+- The claim that the T=9 shell structure "recapitulates the binding modes in native environments" is an extrapolation from the mini-shell system without direct evidence from native carboxysomes.
+- The statement that CsoS2-C is "completely encapsulated inside the shell" is based on the mini-shell structure and may not reflect the topology in native carboxysomes where CsoS2 is substoichiometric.

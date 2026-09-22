@@ -1,0 +1,229 @@
+{
+  "identity": {
+    "pmid": "40031750",
+    "doi": "10.1109/JBHI.2025.3539710",
+    "title": "Trans-MoRFs: A Disordered Protein Predictor Based on the Transformer Architecture."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) of proteins are crucial for a wide range of biological functions, with molecular recognition features (MoRFs) being of particular significance in protein interactions and cellular regulation. However, the identification of MoRFs has been a significant challenge in computational biology owing to their disorder-to-order transition properties. Currently, only a limited number of experimentally validated MoRFs are known, which has prompted the development of computational methods for predicting MoRFs from protein chains. Considering the limitations of existing MoRF predictors regarding prediction accuracy and adaptability to diverse protein sequence lengths, this study introduces Trans-MoRFs, a novel MoRF predictor based on the transformer architecture, for identifying MoRFs within IDRs of proteins. Trans-MoRFs employ the self-attention mechanism of the transformer to efficiently capture the interactions of distant residues in protein sequences. They demonstrate stability and high efficiency in dealing with protein sequences of different lengths and performs well on both short and long sequences. On multiple benchmark datasets, the model attained a mean area under the curve score of 0.94, which is higher than those of all existing models, and significantly outperformed existing combined and single MoRF prediction tools on multiple performance metrics. Trans-MoRFs have excellent accuracy and a wide range of applications for predicting MoRFs and other functionally important fragments in the disordered regions of proteins. They offer significant assistance in comprehending protein functions, precisely pinpointing functional segments within disordered protein regions and facilitating the discovery of novel drug targets.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Computational Biology/methods",
+      "*Sequence Analysis, Protein/methods",
+      "Databases, Protein",
+      "Humans",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meng, Chaolu",
+        "Shi, Yunyun",
+        "Fu, Xueliang",
+        "Zou, Quan",
+        "Han, Wu"
+      ],
+      "short_names": [
+        "Meng C",
+        "Shi Y",
+        "Fu X",
+        "Zou Q",
+        "Han W"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Meng, Chaolu",
+        "short_name": "Meng C",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Shi, Yunyun",
+        "short_name": "Shi Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Fu, Xueliang",
+        "short_name": "Fu X",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zou, Quan",
+        "short_name": "Zou Q",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Han, Wu",
+        "short_name": "Han W",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "IEEE journal of biomedical and health informatics"
+    ],
+    "journal_abbrev": [
+      "IEEE J Biomed Health Inform"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/04 00:22",
+    "fetched_at": "2026-09-21 16:19:19"
+  },
+  "links": {
+    "cites": [
+      "42288727",
+      "40723369"
+    ],
+    "refs": [],
+    "similar": [
+      "40031750",
+      "38812466",
+      "25637562",
+      "30717652",
+      "29360926",
+      "29042212",
+      "24093637",
+      "42288727",
+      "28155710",
+      "22689782",
+      "36458437",
+      "26517836",
+      "30324701",
+      "30866736",
+      "31007871",
+      "16935303",
+      "30298407",
+      "25424537",
+      "41023685",
+      "37709009",
+      "31660849",
+      "21152297",
+      "31504193",
+      "26651072",
+      "35350759",
+      "29080786",
+      "23328413",
+      "32019410",
+      "40577786",
+      "39789785",
+      "17488107",
+      "38079339",
+      "36851914",
+      "40138319",
+      "33267349",
+      "40133791",
+      "31521235",
+      "32535960",
+      "18831774",
+      "32173600",
+      "38866950",
+      "40254833",
+      "27174932",
+      "23233352",
+      "34391457",
+      "32696395",
+      "40867524",
+      "30135358",
+      "38166858",
+      "16618368",
+      "40441416",
+      "31616935",
+      "40133781",
+      "27787828",
+      "42475469",
+      "26090958",
+      "34830151",
+      "35507260",
+      "36272675",
+      "28365882",
+      "31207240",
+      "32696351",
+      "34864847",
+      "42598852",
+      "30657889",
+      "27115638",
+      "36315580",
+      "38701796",
+      "30099775",
+      "37674132",
+      "32743208",
+      "26198229",
+      "28589442",
+      "32112804",
+      "39708500",
+      "24727949",
+      "40944448",
+      "19128505",
+      "24573479",
+      "31521236",
+      "40662788",
+      "17973494",
+      "33291838",
+      "32702119",
+      "33119751",
+      "36833360",
+      "24739163",
+      "32112084",
+      "28369666",
+      "31894361",
+      "25039985",
+      "24678734",
+      "36908253",
+      "23912807",
+      "26387106",
+      "32034199",
+      "33866372",
+      "41534519",
+      "17391016",
+      "31889261"
+    ],
+    "review": [
+      "40031750",
+      "31007871",
+      "35350759",
+      "39789785",
+      "36851914",
+      "31521235",
+      "31616935",
+      "30657889",
+      "28589442",
+      "31521236",
+      "33291838",
+      "36833360",
+      "26387106"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1109/JBHI.2025.3539710",
+        "provider": "IEEE Engineering in Medicine and Biology Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

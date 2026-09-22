@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.07.07.451457",
+  "title": "Identifying Protein Complexes in Protein-protein Interaction Data using Graph Convolution Network",
+  "authors": "Nazar Zaki; Harsh Singh",
+  "journal": "bioRxiv",
+  "published_date": "2021-07-09",
+  "window": {
+    "start": "2021-07-05",
+    "end": "2021-07-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图卷积网络从PPI网络中识别蛋白复合物，虽涉及PPI和AI方法，但对象非无序蛋白/IDR，且聚焦网络聚类而非互作机制建模，启发有限。",
+  "abstract": "Protein complexes are groups of two or more polypeptide chains that join together to build noncovalent networks of protein interactions. A number of means of computing the ways in which protein complexes and their members can be identified from these interaction networks have been created. While most of the existing methods identify protein complexes from the protein-protein interaction networks (PPIs) at a fairly decent level, the applicability of advanced graph network methods has not yet been adequately investigated. In this paper, we proposed various graph convolutional networks (GCNs) methods to improve the detection of the protein functional complexes. We first formulated the protein complex detection problem as a node classification problem. Second, the Neural Overlapping Community Detection (NOCD) model was applied to cluster the nodes (proteins) using a complex affiliation matrix. A representation learning approach, which combines the multi-class GCN feature extractor (to obtain the features of the nodes) and the mean shift clustering algorithm (to perform clustering), is also presented. We have also improved the efficiency of the multi-class GCN network to reduce space and time complexities by converting the dense-dense matrix operations into dense-spares or sparse-sparse matrix operations. This proposed solution significantly improves the scalability of the existing GCN network. Finally, we apply clustering aggregation to find the best protein complexes. A grid search was performed on various detected complexes obtained by applying three well-known protein detection methods namely ClusterONE, CMC, and PEWCC with the help of the Meta-Clustering Algorithm (MCLA) and Hybrid Bipartite Graph Formulation (HBGF) algorithm. The proposed GCN-based methods were tested on various publicly available datasets and provided significantly better performance than the previous state-of-the-art methods. The code and data used in this study are available from https://github.com/Analystharsh/GCN_complex_detection",
+  "abstract_zh": "蛋白质复合物是由两条或多条多肽链组成的群体，它们通过非共价相互作用构建成蛋白质相互作用网络。已有多种计算方法被开发出来，用于从这些相互作用网络中识别蛋白质复合物及其成员。尽管大多数现有方法能在相当不错的水平上从蛋白质-蛋白质相互作用网络（PPIs）中识别蛋白质复合物，但高级图网络方法的适用性尚未得到充分研究。在本文中，我们提出了多种图卷积网络（GCNs）方法，以改进蛋白质功能复合物的检测。我们首先将蛋白质复合物检测问题形式化为节点分类问题。其次，应用神经重叠社区检测（NOCD）模型，利用复杂隶属矩阵对节点（蛋白质）进行聚类。我们还提出了一种表示学习方法，该方法结合了多类GCN特征提取器（用于获取节点特征）和均值漂移聚类算法（用于执行聚类）。此外，我们通过将稠密-稠密矩阵运算转换为稠密-稀疏或稀疏-稀疏矩阵运算，提高了多类GCN网络的效率，以降低空间和时间复杂度。这一提出的解决方案显著提升了现有GCN网络的可扩展性。最后，我们应用聚类聚合来寻找最佳蛋白质复合物。通过使用三种知名蛋白质检测方法（即ClusterONE、CMC和PEWCC），并借助元聚类算法（MCLA）和混合二分图公式化（HBGF）算法，对检测到的各种复合物进行了网格搜索。所提出的基于GCN的方法在多个公开可用的数据集上进行了测试，并提供了显著优于先前最先进方法的性能。本研究中使用的代码和数据可从https://github.com/Analystharsh/GCN_complex_detection获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.07.07.451457",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.07.07.451457",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.07.07.451457/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41350115",
+  "title": "Sticky Salts: Overbinding of Monovalent Cations to Phosphorylations in All-Atom Force Fields.",
+  "authors": "Marien, Jules; Puyo-Fourtine, Julie; Prevost, Chantal; Sacquin-Mora, Sophie; Duboue-Dijon, Elise",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-12-06",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过全原子MD模拟和渗透系数计算，揭示单价阳离子与多磷酸化IDP的过度结合（nP-collabs）为经典力场伪影，并开发ECC参数修正力场，直接关注IDP磷酸化介导的离子-残基互作机制建模，对无序蛋白PPI模拟方法有重要启发。",
+  "abstract": "Phosphorylation is a major post-translational modification that is involved in the regulation of the dynamics and function of intrinsically disordered proteins (IDPs). We recently characterized a phenomenon, which we termed n-phosphate collaborations (nP-collabs), where bulk cations form stable bridges between several phosphoresidues in all-atom molecular dynamic simulations. nP-collabs were found to be sensitive to the combination of force fields and cation types. Here, we attempt to assess the physical relevance of these nP-collabs by evaluating the strength of the cation/phosphate interaction through osmotic coefficient (varphi) calculations on the model 2Na(+)HPO(4)(2-) and 2K(+)HPO(4)(2-) salts, using different classical force fields for phosphorylations. All force fields were found to overestimate the strength of the interaction to various degrees. We thus designed new parameters for CHARMM36m and AmberFF99SB-ILDN using the Electronic Continuum Correction (ECC) approach, which provide remarkable agreement for varphi values for both cation types and over a range of concentrations. We provide a preliminary test of these ECC parameters for phosphorylations by simulating the 7-fold-phosphorylated rhodopsin peptide 7PP and comparing secondary chemical shifts to experimental data. Conformational ensembles resulting from the ECC-derived phosphorylated force fields display both qualitative and quantitative improvements with regard to full-charge force fields. We thus conclude that long-lasting nP-collabs are artifacts for classical force fields born from the lack of explicit polarization, and propose a possible computational strategy for the extensive parametrization of phosphorylations. The presence of long-lived nP-collabs in simulations produced using classical force fields is therefore a serious concern for the accurate modeling of multiphosphorylated peptides and IDPs, which are at the center of research questions regarding neurodegenerative diseases such as Alzheimer's or Parkinson's.",
+  "abstract_zh": "磷酸化是一种主要的翻译后修饰，参与调控固有无序蛋白（IDPs）的动态和功能。我们近期表征了一种现象，称为n-磷酸协作（nP-collabs），即在全原子分子动力学模拟中，大量阳离子在多个磷酸残基之间形成稳定桥接。研究发现，nP-collabs对力场与阳离子类型的组合敏感。在此，我们尝试通过渗透系数（varphi）计算评估这些nP-collabs的物理相关性，使用模型盐2Na(+)HPO(4)(2-)和2K(+)HPO(4)(2-)，并采用不同的经典磷酸化力场。所有力场均在不同程度上高估了相互作用的强度。因此，我们利用电子连续校正（ECC）方法为CHARMM36m和AmberFF99SB-ILDN设计了新参数，这些参数在两种阳离子类型及一系列浓度下均与varphi值表现出显著一致性。我们通过模拟七重磷酸化视紫红质肽7PP，并将二级化学位移与实验数据进行比较，对这些磷酸化ECC参数进行了初步测试。由ECC衍生磷酸化力场产生的构象集合，在全电荷力场方面显示出定性和定量上的改进。因此，我们得出结论，经典力场中持久的nP-collabs是缺乏显式极化所导致的伪影，并提出了一种可能的计算策略，用于磷酸化的广泛参数化。因此，在使用经典力场进行的模拟中，长寿命nP-collabs的存在对多磷酸化肽段和IDPs的精确建模构成严重关切，而这些对象正是阿尔茨海默病或帕金森病等神经退行性疾病研究问题的核心。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41350115/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41350115/",
+  "paper_page_path": "papers/pubmed/41350115/index.html"
+}

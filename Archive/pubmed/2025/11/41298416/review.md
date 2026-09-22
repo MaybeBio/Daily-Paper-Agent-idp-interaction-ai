@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary information descriptions.
+- **Assessment boundary** Scientific validity, methodological rigor, force field parameterization rationale, validation breadth, and claims of transferability and balance.
+- **Shared manuscript claim summary** The authors introduce two refined Amber force fields, ff03w-sc and ff99SBws-STQ′, designed to simultaneously stabilize folded proteins and accurately model intrinsically disordered proteins (IDPs). Validation against SAXS, NMR chemical shifts, scalar couplings, and folding simulations of mini-proteins and protein complexes is presented to support transferability.
+- **Visible evidence base** Main text figures (Figs. 1–8), supplementary figure and table references, methods descriptions, and cited prior work.
+- **Missing materials affecting confidence** Supplementary figures, tables, movies, and detailed parameter files are referenced but not provided in the submitted material. This limits full verification of convergence, error analysis, and parameter implementation details.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important challenge in biomolecular simulation: achieving a balanced force field that performs well for both folded and disordered proteins. The two refinement strategies are logical and well-motivated by prior literature. The validation set is reasonably broad, including folded proteins, IDPs, mini-proteins, and protein complexes. However, several concerns regarding the specificity of the torsional refinement, the generalizability of the scaling approach, and the depth of quantitative comparison to existing force fields need to be addressed before the case for broad transferability is fully established.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular dynamics practitioners, particularly those studying IDPs, protein folding, and protein-protein interactions. The work is also relevant to developers of biomolecular force fields and to experimentalists who use MD simulations to interpret NMR, SAXS, and FRET data.
+- **Major strengths** The manuscript tackles a well-recognized problem with a clear rationale. The two-pronged approach (selective scaling vs. torsional refinement) provides a useful comparison of alternative strategies. The validation set is diverse and includes challenging cases such as protein complexes and polyQ tracts. The use of multiple experimental observables (SAXS, NMR chemical shifts, scalar couplings) strengthens the assessment.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological justification
+  - **Claim pointer** The claim that selective scaling of uncharged side-chain protein-water interactions (ff03w-sc) is a generally applicable strategy to improve folded protein stability while maintaining IDP accuracy.
+  - **Evidence pointer** Results section "Modifications to the protein-water scaling scheme in Amber ff03ws", Fig. 2, Supplementary Figs. 2–3.
+  - **Concern** The choice to scale only uncharged side chains is justified by three arguments, but the manuscript does not provide a systematic analysis of why this specific subset of atoms is optimal. The authors test backbone vs. side-chain scaling and charged vs. uncharged, but the final choice appears to be based on a single protein (ubiquitin). It is unclear whether this scaling scheme is transferable to other protein classes, particularly those with different amino acid compositions or those where charged side chains play a dominant role in stability. The authors also do not discuss the physical basis for why a uniform 10% scaling of uncharged side chains should be preferred over other possible scaling factors or atom-specific adjustments.
+  - **Why it matters** The central claim of the manuscript is that ff03w-sc is a balanced and transferable force field. If the scaling scheme is only optimal for the limited set of test proteins, the claim of general applicability is weakened. A more thorough analysis of the parameter space and its physical justification is needed.
+  - **Resolution test** Provide additional simulations or analysis demonstrating that the 10% scaling of uncharged side chains is robust across a wider range of proteins with varying amino acid compositions. Alternatively, provide a more detailed physical or statistical argument for why this specific scaling is optimal.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation depth
+  - **Claim pointer** The claim that ff99SBws-STQ′ accurately reproduces IDP chain dimensions and secondary structure propensities, and that the torsional refinement for glutamine is broadly beneficial.
+  - **Evidence pointer** Results sections "Chain dimensions of IDPs", "Refinement of glutamine backbone torsion parameters in ff99SBws-STQ", Figs. 3, 5, Supplementary Figs. 9, 11, 14.
+  - **Concern** The validation of ff99SBws-STQ′ is limited to a small number of IDP sequences. The manuscript shows that the glutamine torsional refinement corrects helicity in a polyQ tract and improves agreement for some LCD fragments, but it does not demonstrate that this refinement does not introduce new biases in other sequence contexts. The comparison to ff99SBws-STQ and ff99SBws is useful, but a more extensive benchmark against a larger library of IDPs with diverse amino acid compositions would be more convincing. Furthermore, the scalar coupling analysis for the RS peptide is presented for ff99SBws-STQ′ but not for ff03w-sc, making a direct comparison of the two force fields incomplete.
+  - **Why it matters** The claim of transferability rests on the ability of the force field to perform well across a wide range of sequences. A limited validation set leaves open the possibility that the refinement is overfitted to the specific sequences tested.
+  - **Resolution test** Expand the validation set to include a larger and more diverse panel of IDPs, including those with low complexity, high charge, and varied amino acid compositions. Provide a direct comparison of both force fields on the same set of observables for all test sequences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The claim that both force fields "accurately reproduced" experimental observables, based on qualitative agreement in figures.
+  - **Evidence pointer** Results sections "Chain dimensions of IDPs", "Secondary structure predictions for IDPs", Figs. 3, 6, Supplementary Figs. 9, 11.
+  - **Concern** The manuscript relies heavily on visual comparison of simulated and experimental SAXS profiles and secondary chemical shifts. While RMSE values are provided for some comparisons, a more rigorous statistical analysis is needed. For example, the authors could report reduced chi-squared values for SAXS fits, or use a metric like the Kolmogorov-Smirnov test for comparing distributions. The error bars on simulated quantities are also not always clearly defined or propagated.
+  - **Why it matters** The strength of the conclusions depends on the quantitative agreement between simulation and experiment. A more rigorous statistical framework would increase confidence in the claims and allow for a more objective comparison between force fields.
+  - **Resolution test** Provide quantitative goodness-of-fit metrics for all comparisons to experimental data, including error estimates on simulated observables. Consider using established statistical tests to assess the significance of differences between force fields.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison to existing state-of-the-art
+  - **Claim pointer** The implicit claim that ff03w-sc and ff99SBws-STQ′ offer advantages over other modern force fields, such as ff99SB-disp, charmm36m, and RSFF2+.
+  - **Evidence pointer** Results sections "Stability of folded proteins", "Chain dimensions of IDPs", "Protein-protein complexes", Figs. 2, 3, 8.
+  - **Concern** While the manuscript mentions limitations of other force fields, it does not provide a direct, head-to-head comparison of the new force fields against these alternatives on the same set of test systems and observables. The comparison to ff99SBws-STQ and ff99SBws is useful, but the absence of a direct comparison to other state-of-the-art force fields makes it difficult to assess the relative improvement.
+  - **Why it matters** The manuscript's contribution is framed as an improvement over existing methods. Without a direct comparison, it is unclear whether the new force fields are actually better, or simply different.
+  - **Resolution test** Perform simulations of the same test systems using one or more state-of-the-art force fields (e.g., ff99SB-disp, charmm36m) under identical conditions and compare the results directly to those obtained with ff03w-sc and ff99SBws-STQ′.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction use the term "balanced" without a precise definition. It is clear from context that it refers to a balance between folded and disordered states, but a more explicit definition would be helpful.
+  - **Required correction** Define "balanced" explicitly in the introduction, e.g., "a force field that accurately captures both the stability of folded proteins and the conformational ensembles of IDPs."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Simulations of folded proteins"
+  - **Issue** The methods state that simulations were performed using Amber22, but the exact version and any patches are not specified. The conversion from Gromacs to Amber formats using ParmEd is described, but the specific ParmEd version is not given.
+  - **Required correction** Specify the exact software versions (Amber22, ParmEd, Gromacs, Plumed) and any relevant patches or modifications.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results section "Stability of folded proteins"
+  - **Evidence pointer** Fig. 1
+  - **Issue** The figure caption for Fig. 1 is very brief and does not fully describe the panels or the statistical analysis performed.
+  - **Required correction** Expand the figure caption to describe each panel, the number of replicates, and how the RMSD distributions were calculated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Chain dimensions of IDPs"
+  - **Evidence pointer** Fig. 3
+  - **Issue** The manuscript reports Rg values for the IDPs but does not provide a comparison to the experimental Rg values for all systems. For example, the experimental Rg for CspM34 is given, but for Histatin5, RS peptide, and S(129-146), only SAXS profiles are shown.
+  - **Required correction** Provide a table summarizing the experimental and simulated Rg values for all IDPs, with uncertainties.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the trade-offs between the two force fields is somewhat brief. A more detailed discussion of when one force field might be preferred over the other would be valuable.
+  - **Required correction** Expand the discussion to provide more specific guidance on when to choose ff03w-sc vs. ff99SBws-STQ′ based on the system of interest.
+- **Technical failings that need to be addressed before the case is established** The lack of direct comparison to other state-of-the-art force fields (R1-M4) is a significant gap. The limited validation set for ff99SBws-STQ′ (R1-M2) also needs to be addressed. The statistical rigor of the comparisons (R1-M3) should be improved.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is incremental but valuable. The specific combination of selective side-chain scaling and targeted torsional refinement, and the systematic comparison of these two strategies, is a useful contribution.
+  - **Scientific importance** The challenge of developing force fields that are accurate for both folded and disordered proteins is of high importance to the molecular simulation community. The manuscript addresses this challenge directly.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biophysicists and force field developers. The use of experimental observables (SAXS, NMR) may attract some experimentalists, but the technical nature of the work limits its broader appeal.
+  - **Technical soundness** The simulation protocols are generally sound, but the lack of direct comparison to other force fields and the limited validation set for one of the two new force fields are weaknesses.
+  - **Readability for nonspecialists** The manuscript is well-written and accessible to a reader with a background in molecular simulation. The figures are clear, and the key concepts are explained well.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a potentially useful contribution, but the claims of transferability and balance need to be supported by a more comprehensive and rigorous validation, including direct comparison to existing state-of-the-art force fields.
+
+## Risk / unsupported claims
+- The claim that ff03w-sc is a "balanced" force field is not fully supported without a direct comparison to other state-of-the-art force fields on the same test systems.
+- The claim that ff99SBws-STQ′ is broadly transferable is not fully supported by the limited number of IDP sequences tested.
+- The claim that the 10% scaling of uncharged side chains is near-optimal is not supported by a systematic exploration of the parameter space.
+- The claim that both force fields "accurately reproduced" experimental observables is based on qualitative visual agreement in some cases, without rigorous statistical metrics.

@@ -1,0 +1,429 @@
+{
+  "identity": {
+    "pmid": "35913965",
+    "doi": "10.1371/journal.pone.0267370",
+    "title": "Structural and biophysical properties of FopA, a major outer membrane protein of Francisella tularensis."
+  },
+  "content": {
+    "abstract": "Francisella tularensis is an extremely infectious pathogen and a category A bioterrorism agent. It causes the highly contagious zoonosis, Tularemia. Currently, FDA approved vaccines against tularemia are unavailable. F. tularensis outer membrane protein A (FopA) is a well-studied virulence determinant and protective antigen against tularemia. It is a major outer membrane protein (Omp) of F. tularensis. However, FopA-based therapeutic intervention is hindered due to lack of complete structural information for membrane localized mature FopA. In our study, we established recombinant expression, monodisperse purification, crystallization and X-ray diffraction (~6.5 A) of membrane localized mature FopA. Further, we performed bioinformatics and biophysical experiments to unveil its structural organization in the outer membrane. FopA consists of 393 amino acids and has less than 40% sequence identity to known bacterial Omps. Using comprehensive sequence alignments and structure predictions together with existing partial structural information, we propose a two-domain organization for FopA. Circular dichroism spectroscopy and heat modifiability assay confirmed FopA has a beta-barrel domain consistent with alphafold2's prediction of an eight stranded beta-barrel at the N-terminus. Small angle X-ray scattering (SAXS) and native-polyacrylamide gel electrophoresis revealed FopA purified in detergent micelles is predominantly dimeric. Molecular density derived from SAXS at 31 A shows putative dimeric N-terminal beta-barrels surrounded by detergent corona and connected to C-terminal domains via flexible linker. Disorder analysis predicts N- and C-terminal domains are interspersed by a long intrinsically disordered region and alphafold2 predicts this region to be largely unstructured. Taken together, we propose a dimeric, two-domain organization of FopA in the outer membrane: the N-terminal beta-barrel is membrane embedded, provides dimerization interface and tethers to membrane extrinsic C-terminal domain via long flexible linker. Structure determination of membrane localized mature FopA is essential to understand its role in pathogenesis and develop anti-tularemia therapeutics. Our results pave the way towards it.",
+    "keywords": [],
+    "mesh_terms": [
+      "Detergents",
+      "*Francisella tularensis",
+      "Humans",
+      "Scattering, Small Angle",
+      "*Tularemia/microbiology",
+      "X-Ray Diffraction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nagaratnam, Nirupa",
+        "Martin-Garcia, Jose M",
+        "Yang, Jay-How",
+        "Goode, Matthew R",
+        "Ketawala, Gihan",
+        "Craciunescu, Felicia M",
+        "Zook, James D",
+        "Sonowal, Manashi",
+        "Williams, Dewight",
+        "Grant, Thomas D",
+        "Fromme, Raimund",
+        "Hansen, Debra T",
+        "Fromme, Petra"
+      ],
+      "short_names": [
+        "Nagaratnam N",
+        "Martin-Garcia JM",
+        "Yang JH",
+        "Goode MR",
+        "Ketawala G",
+        "Craciunescu FM",
+        "Zook JD",
+        "Sonowal M",
+        "Williams D",
+        "Grant TD",
+        "Fromme R",
+        "Hansen DT",
+        "Fromme P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5923-6753",
+        "ORCID: 0000-0002-9436-3536",
+        "ORCID: 0000-0003-4395-8297",
+        "ORCID: 0000-0002-8850-518X"
+      ],
+      "affiliations": [
+        "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+        "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+        "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+        "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+        "School of Molecular Sciences, Arizona State University, Tempe, Arizona, United States of America.",
+        "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+        "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+        "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+        "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+        "School of Molecular Sciences, Arizona State University, Tempe, Arizona, United States of America.",
+        "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+        "Eyring Materials Center, Arizona State University, Tempe, Arizona, United States of America.",
+        "Department of Structural Biology, Jacobs School of Medicine and Biomedical Sciences, University at Buffalo, State University of New York, New York, New York, United States of America.",
+        "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+        "School of Molecular Sciences, Arizona State University, Tempe, Arizona, United States of America.",
+        "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+        "Center for Innovations in Medicine, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+        "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+        "School of Molecular Sciences, Arizona State University, Tempe, Arizona, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nagaratnam, Nirupa",
+        "short_name": "Nagaratnam N",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America."
+        ]
+      },
+      {
+        "full_name": "Martin-Garcia, Jose M",
+        "short_name": "Martin-Garcia JM",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America."
+        ]
+      },
+      {
+        "full_name": "Yang, Jay-How",
+        "short_name": "Yang JH",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America."
+        ]
+      },
+      {
+        "full_name": "Goode, Matthew R",
+        "short_name": "Goode MR",
+        "identifiers": [
+          "0000-0001-5923-6753"
+        ],
+        "affiliations": [
+          "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+          "School of Molecular Sciences, Arizona State University, Tempe, Arizona, United States of America."
+        ]
+      },
+      {
+        "full_name": "Ketawala, Gihan",
+        "short_name": "Ketawala G",
+        "identifiers": [
+          "0000-0002-9436-3536"
+        ],
+        "affiliations": [
+          "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America."
+        ]
+      },
+      {
+        "full_name": "Craciunescu, Felicia M",
+        "short_name": "Craciunescu FM",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America."
+        ]
+      },
+      {
+        "full_name": "Zook, James D",
+        "short_name": "Zook JD",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America."
+        ]
+      },
+      {
+        "full_name": "Sonowal, Manashi",
+        "short_name": "Sonowal M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+          "School of Molecular Sciences, Arizona State University, Tempe, Arizona, United States of America."
+        ]
+      },
+      {
+        "full_name": "Williams, Dewight",
+        "short_name": "Williams D",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+          "Eyring Materials Center, Arizona State University, Tempe, Arizona, United States of America."
+        ]
+      },
+      {
+        "full_name": "Grant, Thomas D",
+        "short_name": "Grant TD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Jacobs School of Medicine and Biomedical Sciences, University at Buffalo, State University of New York, New York, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Fromme, Raimund",
+        "short_name": "Fromme R",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+          "School of Molecular Sciences, Arizona State University, Tempe, Arizona, United States of America."
+        ]
+      },
+      {
+        "full_name": "Hansen, Debra T",
+        "short_name": "Hansen DT",
+        "identifiers": [
+          "0000-0003-4395-8297"
+        ],
+        "affiliations": [
+          "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+          "Center for Innovations in Medicine, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America."
+        ]
+      },
+      {
+        "full_name": "Fromme, Petra",
+        "short_name": "Fromme P",
+        "identifiers": [
+          "0000-0002-8850-518X"
+        ],
+        "affiliations": [
+          "Center for Applied Structural Discovery, Biodesign Institute, Arizona State University, Tempe, Arizona, United States of America.",
+          "School of Molecular Sciences, Arizona State University, Tempe, Arizona, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/02 06:00",
+    "fetched_at": "2026-09-20 12:22:47"
+  },
+  "links": {
+    "cites": [
+      "41892051",
+      "41417289",
+      "41047692",
+      "39337627",
+      "39228894",
+      "36918529"
+    ],
+    "refs": [
+      "34265844",
+      "33125078",
+      "31600457",
+      "31139576",
+      "30778233",
+      "30357350",
+      "29868510",
+      "29377013",
+      "29132197",
+      "29021737",
+      "29018123",
+      "28808438",
+      "27866852",
+      "27238938",
+      "27200274",
+      "26908053",
+      "26427675",
+      "25135663",
+      "24753421",
+      "23840797",
+      "23619693",
+      "23545572",
+      "23209745",
+      "23000701",
+      "22986056",
+      "22688817",
+      "22624656",
+      "21803089",
+      "21558174",
+      "21189321",
+      "20124692",
+      "20100603",
+      "19923904",
+      "19797074",
+      "19176692",
+      "18991772",
+      "18628490",
+      "18505805",
+      "17542928",
+      "17435120",
+      "17406547",
+      "17406207",
+      "17114266",
+      "17074846",
+      "12824418",
+      "12364373",
+      "12297391",
+      "11483272",
+      "11386933",
+      "11112271",
+      "8578807",
+      "7631511",
+      "3494744",
+      "3356786",
+      "3237052",
+      "2745701",
+      "2235524"
+    ],
+    "similar": [
+      "35913965",
+      "21803089",
+      "39228894",
+      "8405941",
+      "8578807",
+      "8861037",
+      "27238938",
+      "37305410",
+      "23840797",
+      "16495634",
+      "29018123",
+      "39194223",
+      "26833009",
+      "21473100",
+      "29378894",
+      "25413334",
+      "28864445",
+      "29868510",
+      "18505805",
+      "29963499",
+      "33789598",
+      "33543941",
+      "29311235",
+      "28994410",
+      "20643859",
+      "40387340",
+      "27513341",
+      "33972353",
+      "34543107",
+      "36641863",
+      "30670554",
+      "24593131",
+      "23613871",
+      "28745311",
+      "14662930",
+      "40248715",
+      "25896829",
+      "19176692",
+      "37404047",
+      "25097081",
+      "32752076",
+      "17680765",
+      "24660164",
+      "20016043",
+      "28680859",
+      "39417793",
+      "27830989",
+      "27602570",
+      "3237052",
+      "33875472",
+      "20613713",
+      "23415475",
+      "39825256",
+      "36036641",
+      "29132197",
+      "33601964",
+      "41097415",
+      "24616435",
+      "28328947",
+      "23404403",
+      "33397692",
+      "26244842",
+      "30870480",
+      "26004443",
+      "18789156",
+      "17114266",
+      "20006480",
+      "23959721",
+      "19223477",
+      "22278325",
+      "29868496",
+      "18929413",
+      "7510445",
+      "21930232",
+      "21313823",
+      "30642993",
+      "31972499",
+      "18173084",
+      "8615448",
+      "31626892",
+      "22661710",
+      "25805501",
+      "2745701",
+      "24713322",
+      "17768257",
+      "1620153",
+      "19669828",
+      "21670171",
+      "18304778",
+      "3356786",
+      "36702369",
+      "22508856",
+      "20921148",
+      "28873421",
+      "24747573",
+      "21613430",
+      "26908053",
+      "19233475",
+      "32366588",
+      "16908853"
+    ],
+    "review": [
+      "35913965",
+      "29868510",
+      "24660164",
+      "21313823"
+    ],
+    "pmc": [
+      "9342783"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0267370",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35913965/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35913965",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

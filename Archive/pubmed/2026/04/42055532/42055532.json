@@ -1,0 +1,293 @@
+{
+  "identity": {
+    "pmid": "42055532",
+    "doi": "10.1021/jacs.6c00501",
+    "title": "Condensates as Conformation Editors of Disordered Client Proteins."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates organize cellular biochemistry not only by passive concentration modulation of molecules but also by potentially remodeling client protein conformations. However, the systematic principles governing such conformational editing are unknown. Here, we use coarse-grained simulations to demonstrate that diverse condensate environments remodel disordered client proteins in a scaffold-specific manner. Additionally, we explore the factors of this remodeling, establishing that the linear patterning of scaffold interaction motifs along sequence (sticker clustering) plays an important role, whereas an increased scaffold chain length primarily slows client dynamics while leaving their sequence-specific intrachain contact patterns largely preserved. This conformational remodeling is mediated by varied and nonuniform client-condensate interaction maps that are not solely encoded by primary sequence grammar but are cooperatively shaped by the emergent condensate architecture. Our work reveals that condensates function as sophisticated regulators of recruited disordered client conformation, with broad implications for cellular regulation and therapeutic intervention.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Conformation",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Biomolecular Condensates/chemistry",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Liguo",
+        "Marrink, Siewert J"
+      ],
+      "short_names": [
+        "Wang L",
+        "Marrink SJ"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-2953-3973",
+        "ORCID: 0000-0001-8423-5277"
+      ],
+      "affiliations": [
+        "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, 9747 AG Groningen, The Netherlands.",
+        "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, 9747 AG Groningen, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Liguo",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0009-0001-2953-3973"
+        ],
+        "affiliations": [
+          "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, 9747 AG Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Marrink, Siewert J",
+        "short_name": "Marrink SJ",
+        "identifiers": [
+          "0000-0001-8423-5277"
+        ],
+        "affiliations": [
+          "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, 9747 AG Groningen, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2026 May 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/30 00:30",
+    "fetched_at": "2026-09-18 02:54:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41991555",
+      "41868013",
+      "41343645",
+      "41083871",
+      "40671581",
+      "40664121",
+      "40403066",
+      "40172489",
+      "40131954",
+      "40128232",
+      "40058249",
+      "39999285",
+      "39827079",
+      "39824169",
+      "39591652",
+      "39568948",
+      "39486437",
+      "39327453",
+      "39172789",
+      "38979955",
+      "38961263",
+      "38885177",
+      "38637545",
+      "38383656",
+      "38363841",
+      "38297184",
+      "38297118",
+      "38049566",
+      "37735186",
+      "37468629",
+      "37171907",
+      "37062072",
+      "36881934",
+      "36756326",
+      "36702825",
+      "36603581",
+      "36513655",
+      "36004748",
+      "35974095",
+      "35802394",
+      "35761089",
+      "35378855",
+      "35013176",
+      "34645986",
+      "33782607",
+      "33686294",
+      "33169001",
+      "33078839",
+      "32805219",
+      "32312191",
+      "32029630",
+      "32015543",
+      "32004090",
+      "31270472",
+      "30217894",
+      "29364893",
+      "29120326",
+      "28894006",
+      "28716919",
+      "28225081",
+      "27374333",
+      "27219701",
+      "26574339",
+      "26455390",
+      "24183573",
+      "24060881",
+      "21500218",
+      "2406266"
+    ],
+    "similar": [
+      "42055532",
+      "38383656",
+      "41739144",
+      "40521608",
+      "40009520",
+      "39486437",
+      "41481439",
+      "35179885",
+      "39826710",
+      "42143038",
+      "41667469",
+      "41670285",
+      "38824391",
+      "40913895",
+      "40172489",
+      "40420812",
+      "39271032",
+      "39232584",
+      "35053240",
+      "40588121",
+      "38832749",
+      "36004748",
+      "37470705",
+      "40985078",
+      "34598583",
+      "42260147",
+      "41629604",
+      "34716273",
+      "37468629",
+      "41645509",
+      "38591689",
+      "34090478",
+      "41991555",
+      "40954121",
+      "40136009",
+      "41342450",
+      "42475469",
+      "40848932",
+      "39987501",
+      "41700935",
+      "39636939",
+      "38181073",
+      "39225535",
+      "30471685",
+      "42465321",
+      "38260590",
+      "40229261",
+      "33076213",
+      "42350353",
+      "39610751",
+      "34916288",
+      "39185151",
+      "41166416",
+      "40794831",
+      "34588591",
+      "40748104",
+      "42065721",
+      "30823702",
+      "33248138",
+      "42230638",
+      "40389455",
+      "38429263",
+      "39071308",
+      "30926670",
+      "41524628",
+      "41118627",
+      "36883003",
+      "40455990",
+      "41480717",
+      "40128232",
+      "39866835",
+      "39319382",
+      "39042834",
+      "39412378",
+      "40751677",
+      "36524527",
+      "39510346",
+      "34767801",
+      "40094245",
+      "32828471",
+      "41337585",
+      "36657879",
+      "41662498",
+      "41705673",
+      "38252962",
+      "39947751",
+      "40146081",
+      "30913885",
+      "36463772",
+      "26052838",
+      "39499823",
+      "41575805",
+      "39105804",
+      "32859072",
+      "34845619",
+      "42266718",
+      "23912807",
+      "32393642",
+      "40203038",
+      "35174713"
+    ],
+    "review": [
+      "42055532",
+      "35179885",
+      "40913895",
+      "40172489",
+      "39271032",
+      "42065721",
+      "33248138",
+      "41480717",
+      "36524527",
+      "34767801",
+      "32828471",
+      "39947751",
+      "36463772"
+    ],
+    "pmc": [
+      "13185104"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42055532/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.6c00501",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

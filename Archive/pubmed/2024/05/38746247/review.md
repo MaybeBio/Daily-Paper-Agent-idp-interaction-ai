@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, technical soundness, and clarity of claims as presented in the supplied text; no external validation or replication performed
+- **Shared manuscript claim summary** The authors propose a generalized prewetting transition in which a long polymer's collapse is coupled to liquid-liquid phase separation of bulk components, stabilizing phases that would not exist in isolation. They support this with lattice Monte-Carlo simulations and mean-field theory, and discuss implications for chromatin organization and transcriptional regulation.
+- **Visible evidence base** Simulation model description, mean-field free energy expressions, qualitative phase descriptions, and representative figures referenced (Figures 1-4) but not fully visible in the provided text
+- **Missing materials affecting confidence** Figure contents, simulation parameter values (e.g., specific values of Jbulk, Jint, μb, vp used), quantitative phase boundary data, error bars or statistical analysis, and supplementary information
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially significant idea: coupling polymer collapse to bulk phase separation via a generalized prewetting mechanism. The theoretical framework and simulation approach are appropriate for the question. However, the current presentation lacks quantitative detail in key areas, particularly in the simulation results and phase diagram characterization, which limits the ability to fully assess the robustness and novelty of the claims. The biological implications are speculative but reasonable. The work is likely to interest researchers in biophysics, polymer physics, and chromatin biology, but the technical evidence as presented is incomplete.
+- **Who would be interested in the results, and why** Biophysicists and soft matter theorists studying polymer phase behavior and wetting phenomena; chromatin biologists investigating mechanisms of 3D genome organization and transcriptional regulation; researchers working on phase separation in biological systems, particularly those interested in how polymers and condensates interact.
+- **Major strengths** The conceptual framing of a generalized prewetting transition is novel and clearly articulated. The combination of lattice simulations and mean-field theory provides complementary approaches. The discussion of biological implications, particularly for transcriptional regulation and chromatin organization, is thoughtful and connects the physics to relevant biological questions. The model is simple enough to be tractable but captures essential features of the proposed phenomenon.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "polymer collapse and bulk demixing couple because this minimizes the volume of an otherwise unfavorable bulk phase, while maintaining a high density of bulk-bulk and bulk-polymer interactions" and that these phases are stable "even in regimes where both polymer collapse and coexisting liquid phases are unstable in isolation."
+  - **Evidence pointer** Results section, Monte-Carlo Simulations, Figure 2 (location not provided)
+  - **Concern** The central claim of stability outside isolated phase boundaries is not supported by quantitative data in the provided text. No specific parameter values (e.g., Jbulk, Jint, μb, vp) are given for the simulations that demonstrate this effect. The phase diagrams in Figure 2E,F are described qualitatively but their quantitative content is not accessible. Without numerical evidence showing the phase boundaries in the coupled system versus the isolated components, the core claim cannot be evaluated.
+  - **Why it matters** The novelty of the work rests on demonstrating that the coupled system exhibits phases that are not accessible to either component alone. If this is not rigorously shown with quantitative phase boundary data, the claim reduces to a known result (e.g., polymer collapse in poor solvent conditions) and the generalized prewetting framing loses its force.
+  - **Resolution test** Provide a phase diagram with axes (e.g., μb vs. vp) showing the location of the generalized prewetting transition relative to the isolated polymer collapse line and the bulk coexistence region. Include specific parameter values and error estimates from simulations. Demonstrate explicitly that at certain parameter points, the coupled system shows collapse/demixing while the isolated systems do not.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "these new transitions can be either abrupt or continuous" and that there is a "tri-critical point" where first-order and second-order transition lines meet.
+  - **Evidence pointer** Results section, Monte-Carlo Simulations and Mean-Field Theory, Figure 3 (location not provided)
+  - **Concern** The nature of the transition (first-order vs. continuous) is a key qualitative feature, but the evidence for this is not presented in the text. No order parameter histograms, Binder cumulants, or other standard measures of transition order are described. The mean-field theory predicts a first-order transition in the strongly interacting regime, but the simulation evidence for this is not detailed. The tri-critical point is mentioned as "not thoroughly explored," which is acceptable, but the claim of both abrupt and continuous transitions needs direct support.
+  - **Why it matters** The distinction between first-order and continuous transitions has significant physical implications. If the transition is first-order, it implies bistability and hysteresis, which could be biologically relevant for switch-like behavior. If continuous, the response to changes in transcription factor concentration would be gradual. The manuscript's biological discussion implicitly relies on this distinction (e.g., "highly sensitive to small changes in transcription factor concentrations"), so it must be rigorously established.
+  - **Resolution test** Show quantitative evidence for transition order from simulations, such as bimodal distributions of order parameters near the transition, hysteresis in μb sweeps, or finite-size scaling analysis. For the mean-field theory, show the free energy landscape with two minima and the barrier height as a function of parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "in the nucleus there are many distinct proteins that interact with many different regions of chromatin, potentially giving rise to many different Prewet phases" and that these phases "could regulate transcription by determining which regions are prewet by transcriptionally inaccessible phases."
+  - **Evidence pointer** Discussion section, "Transcriptional activation through a prewetting transition" and "Transcriptional repression with Prewet phases" (location not provided)
+  - **Concern** The biological implications are presented as plausible but are not connected to any specific experimental observations or quantitative estimates. For example, are the interaction strengths (Jint) and concentrations (μb) used in the simulations realistic for transcription factors in the nucleus? What would be the expected size of a prewet domain on a chromosome? How would this mechanism compete with or complement known mechanisms of transcriptional regulation? The discussion would benefit from at least order-of-magnitude estimates connecting model parameters to biological quantities.
+  - **Why it matters** The manuscript's significance for a broad audience depends on the biological relevance of the proposed mechanism. Without quantitative connections to real biological systems, the work risks being seen as a purely theoretical exercise with unclear applicability. The authors themselves note that "the simple systems we consider here" are a starting point, but more concrete biological grounding would strengthen the case.
+  - **Resolution test** Add a section or paragraph that estimates typical values of Jint, μb, and polymer length in biological contexts (e.g., based on known transcription factor concentrations and binding affinities). Discuss whether the predicted phase behavior would occur at physiologically relevant parameters. If possible, suggest specific experimental systems where the predicted prewetting transition could be tested.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract begins with a general statement about chromatin organization and gene expression, but the connection to the specific model presented is not immediately clear. The term "generalized prewetting transition" is used without definition, which may confuse readers unfamiliar with wetting phenomena.
+  - **Required correction** Briefly define what is meant by "generalized prewetting" in the abstract, or rephrase to make the connection between the model and chromatin organization more explicit from the outset.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Mean-field theory, Equation 4
+  - **Evidence pointer** Results section, Mean-Field Theory, Equation 4
+  - **Issue** The free energy expression in Equation 4 includes terms labeled "Non-Interacting Polymer" and "Interactions," but the derivation of the entropic terms is not fully explained. The text states that "a free-energy written in terms of Rg has additional entropic costs due to confinement" but these are neglected. The justification for this neglect is not provided in the main text.
+  - **Required correction** Provide a brief justification for neglecting the confinement entropy, or refer the reader to the supplement for a more detailed derivation. This will help readers assess the validity of the mean-field approximation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section, Multi-component Polymers
+  - **Evidence pointer** Results section, Multi-component Polymers, Figure 4 (location not provided)
+  - **Issue** The description of the multi-component polymer simulations is brief and relies heavily on Figure 4, which is not visible in the provided text. The distinction between "direct" and "indirect" binders is introduced but not clearly defined in the text.
+  - **Required correction** Define "direct" and "indirect" binders explicitly in the text, and provide more detail on the simulation setup for multi-component polymers, including how the segment lengths and interaction strengths were chosen.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion, "Distinguishing prewetting from wetting"
+  - **Evidence pointer** Discussion section, "Distinguishing prewetting from wetting" (location not provided)
+  - **Issue** The distinction between prewetting and wetting is discussed, but the terminology could be confusing. The authors use "Wet phases" to describe states where the polymer partitions into a bulk dense phase, but this is not standard terminology in the wetting literature.
+  - **Required correction** Clarify the terminology, perhaps by using "wetted" or "adsorbed" states, and explicitly state how the wetting transition in this context differs from classical wetting on a planar surface.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking concerns. The central claims of stability outside isolated phase boundaries and the nature of the transition (first-order vs. continuous) require quantitative evidence that is not present in the provided text. Without this, the case for a novel generalized prewetting transition is not established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of coupling polymer collapse to bulk phase separation via a generalized prewetting mechanism is original and extends previous work on surface wetting to polymer systems. The framing is fresh and likely to stimulate further research.
+  - **Scientific importance** The potential implications for chromatin organization and transcriptional regulation are significant, but the current manuscript does not provide enough quantitative connection to biological systems to fully establish importance. The physics is interesting in its own right, but the broader impact depends on the biological relevance, which is asserted rather than demonstrated.
+  - **Interdisciplinary readership** The work bridges polymer physics, soft matter, and biology, and should appeal to researchers in all three areas. However, the presentation is heavily weighted toward the physics, and biologists may find the lack of biological context and quantitative estimates a barrier to engagement.
+  - **Technical soundness** The simulation and mean-field approaches are appropriate, but the lack of quantitative results and parameter details in the provided text prevents a full assessment of technical soundness. The blocking concerns above must be addressed.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the conceptual ideas are clearly explained. However, the heavy reliance on figures that are not visible in the provided text, and the use of specialized terminology without definition, may hinder nonspecialist readers. The abstract could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the theoretical framework is sound, but the current evidence is insufficient to fully establish the claims. The authors should provide quantitative simulation results, phase diagrams, and a more detailed analysis of transition order. They should also strengthen the biological discussion with quantitative estimates connecting model parameters to real systems.
+
+## Risk / unsupported claims
+- The claim that generalized prewetting phases are stable outside the isolated phase boundaries of polymer collapse and bulk demixing is not supported by quantitative data in the provided text.
+- The claim that transitions can be either abrupt or continuous is not supported by direct evidence of transition order from simulations or theory.
+- The existence and location of a tri-critical point is mentioned but not explored, and is therefore not supported.
+- The biological implications, including the role of prewetting in transcriptional regulation and the existence of multiple prewet phases in the nucleus, are speculative and not quantitatively grounded.
+- The statement that "the simple systems we consider here highlight chromatin's role as a lower-dimensional surface" is an interpretation that is not directly tested by the simulations, which use a single polymer in a cubic lattice.

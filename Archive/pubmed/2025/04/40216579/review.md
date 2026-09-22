@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full manuscript, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors present K(D)SAXS, an open-source computational tool that estimates dissociation constants from SAXS titration experiments by combining ensemble analysis with mass-balance equations. The tool supports multiple equilibrium species, integrates theoretical scattering profiles from various structural sources, and includes a dashboard interface for data input, model validation, and population determination. Applications to beta-lactoglobulin oligomerization and the PCNA-p15PAF complex are cited as demonstrations of accurate K(D) estimation.
+- **Visible evidence base** Abstract text only; no quantitative results, validation metrics, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, algorithm description, validation datasets, comparison with existing methods, software documentation, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful tool for the SAXS community, addressing a real need for rigorous binding equilibrium analysis. However, the abstract lacks quantitative evidence, methodological specifics, and validation details necessary to assess the tool's accuracy, robustness, and novelty relative to existing approaches. The claims of "accurate K(D) estimations" and "capacity to resolve complex equilibria" are not substantiated by the provided material.
+- **Who would be interested in the results, and why** Structural biologists, biophysicists, and computational chemists studying macromolecular interactions, particularly those using SAXS to characterize oligomerization, transient complexes, or intrinsically disordered proteins. The tool's open-source and web-server availability may appeal to researchers seeking accessible analysis platforms.
+- **Major strengths** The tool addresses a clear methodological gap in SAXS-based binding analysis by integrating ensemble models with mass-balance equations. The support for multiple structural input sources (crystallography, NMR, AlphaFold, MD) is a practical advantage. The open-source and web-server distribution enhances accessibility and potential community adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Applications of K(D)SAXS to systems such as beta-lactoglobulin oligomerization and the PCNA-p15PAF complex highlight its capacity to resolve complex equilibria and deliver accurate K(D) estimations."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims accurate K(D) estimations and successful resolution of complex equilibria for two test systems, but no quantitative results, error analyses, or comparisons with reference values are presented. Without these data, the accuracy and reliability of the tool cannot be evaluated.
+  - **Why it matters** The core value proposition of the tool is its ability to produce trustworthy K(D) values. Unsupported claims of accuracy undermine confidence in the tool's utility and may mislead potential users.
+  - **Resolution test** Provide in the full manuscript quantitative K(D) estimates for the test systems, including uncertainties, and compare them with independently determined values (e.g., from ITC or other biophysical methods). Include validation metrics such as residuals, goodness-of-fit, and cross-validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "By combining ensemble analysis with mass-balance equations, K(D)SAXS effectively models complex equilibria involving multiple species, ranging from simple oligomerization to transient and multivalent interactions, including intrinsically disordered proteins."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts broad applicability to transient, multivalent, and disordered systems, but no methodological details or case studies beyond two examples are provided. The generalizability of the approach to these challenging systems is not demonstrated.
+  - **Why it matters** The claimed scope is ambitious, and without explicit validation on such systems, the tool's practical limitations (e.g., parameter identifiability, model degeneracy) remain unknown. Overstating applicability could lead to misuse.
+  - **Resolution test** Include in the full manuscript at least one additional validation case involving a transient or multivalent interaction, or an intrinsically disordered protein, with clear description of model construction, parameter estimation, and uncertainty assessment.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** "K(D)SAXS is a computational tool for estimating dissociation constants from small-angle X-ray scattering titration experiments."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not discuss how K(D)SAXS differs from existing SAXS-based analysis tools (e.g., those using singular value decomposition, global fitting, or Bayesian approaches). The novelty of the tool is not established.
+  - **Why it matters** For a methods paper, demonstrating novelty relative to prior work is essential to justify publication and community adoption. Without a comparative discussion, the contribution's significance is unclear.
+  - **Resolution test** In the full manuscript, provide a clear comparison with existing tools, highlighting unique features (e.g., explicit ensemble models, user interface, supported structural inputs) and benchmarking against them on common datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses technical terms (e.g., "mass-balance equations," "ensemble structural models") without brief explanations, which may limit accessibility for readers unfamiliar with SAXS analysis.
+  - **Required correction** Add a short phrase clarifying these concepts, such as "mass-balance equations that account for species concentrations" and "theoretical profiles computed from structural ensembles."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention the computational cost, user expertise required, or typical runtime, which are practical considerations for potential users from non-computational backgrounds.
+  - **Required correction** Include a sentence on computational efficiency and user requirements, such as "The tool runs on standard hardware and requires only SAXS titration data and structural models as input."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the tool "determines the relative populations of biomolecular species in equilibrium across user-defined Kᴅ ranges and concentrations," but the accuracy of population estimates is not discussed.
+  - **Required correction** Clarify whether population estimates are derived from the same fitting procedure as K(D) and whether they are validated in the test cases.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract's central claims of accuracy and broad applicability are unsupported by quantitative evidence. R1-M3 is non-blocking but necessary for establishing novelty.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not established from the abstract; no comparison with existing tools is provided.
+  - Scientific importance: Potentially high for the SAXS community, but the abstract does not demonstrate impact beyond two test systems.
+  - Interdisciplinary readership: Moderate; the tool could appeal to structural biologists and biophysicists, but the abstract's technical density may limit broader reach.
+  - Technical soundness: Not assessable from the abstract; no methodological details or validation metrics are given.
+  - Readability for nonspecialists: Weak; the abstract assumes familiarity with SAXS and modeling terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising tool, but the absence of quantitative validation and methodological detail prevents assessment of its reliability and novelty. A full manuscript with rigorous benchmarking and comparisons is required to support the claims.
+
+## Risk / unsupported claims
+- "Accurate K(D) estimations" for beta-lactoglobulin and PCNA-p15PAF complexes are unsupported by quantitative data.
+- "Effectively models complex equilibria" for transient, multivalent, and disordered systems is unsupported beyond the two cited examples.
+- The tool's "capacity to resolve complex equilibria" is asserted without demonstration of parameter identifiability or model discrimination.
+- The novelty of K(D)SAXS relative to existing SAXS analysis tools is not assessable from the abstract.

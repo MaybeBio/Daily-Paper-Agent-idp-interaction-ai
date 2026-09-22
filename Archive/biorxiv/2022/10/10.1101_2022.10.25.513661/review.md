@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided in the submission
+- **Assessment boundary** Scientific content, methodological soundness, and internal consistency of the reported findings; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors report that pathogenic huntingtin exon-1 with 46 or 66 consecutive glutamines adopts long α-helical conformations stabilized by side-chain-to-backbone hydrogen bonds, that helical propensity propagates from the N17 domain into the poly-Q tract independent of tract length, and that the presence of these persistent helices, rather than poly-Q length per se, governs aggregation kinetics and fibril morphology.
+- **Visible evidence base** NMR chemical shift data (15N-HSQC, 13C-HSQC, 19F-NMR), SAXS data, molecular dynamics simulations, aggregation assays, AFM-TIRF imaging; figures referenced as Fig. 1–7 and supplementary figures S1–S13; tables S2
+- **Missing materials affecting confidence** Raw NMR spectra, SAXS curves, and MD trajectories are not provided; figure panels are referenced but not shown in the text; no statistical analysis details for aggregation fits; no error bars or replicate information for quantitative claims; no validation of the 4F-Gln probe beyond synthesis yield
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious application of site-specific isotopic labeling to a challenging intrinsically disordered protein system. The central claim that long α-helical conformations, rather than poly-Q length, drive aggregation propensity is interesting and potentially important. However, the evidence as presented is incomplete in several critical respects. The NMR data are described qualitatively without showing key spectra or providing quantitative peak assignments. The SAXS analysis relies on ensemble modeling whose uniqueness is not demonstrated. The aggregation experiments lack statistical rigor. The MD simulations, while extensive, are not compared quantitatively to the experimental observables. The manuscript would benefit from a more complete presentation of the primary data and a clearer articulation of how the integrative analysis constrains the structural model.
+- **Who would be interested in the results, and why** Researchers studying Huntington's disease and other polyglutamine expansion disorders, structural biologists working on intrinsically disordered proteins, NMR spectroscopists interested in repetitive sequences, and computational chemists developing force fields for low-complexity sequences. The methodological advance in site-specific labeling of homorepeats could be of broad interest to the protein NMR community.
+- **Major strengths** The site-specific isotopic labeling approach is genuinely innovative and addresses a long-standing technical barrier. The combination of multiple biophysical techniques (NMR, SAXS, MD, AFM) is appropriate for the problem. The inclusion of H66 as a second pathogenic length strengthens the claim of length-independent helical propagation. The 4F-Gln probe is a creative addition that provides orthogonal evidence for side-chain involvement.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The claim that the poly-Q tract adopts long α-helical conformations stabilized by side-chain-to-backbone hydrogen bonds is central to the paper.
+  - **Evidence pointer** Figure 1c, 1d, 4a, 4b; section "Pathogenic and non-pathogenic httex1 forms present similar structural features"
+  - **Concern** The NMR evidence for α-helical conformation is presented as secondary chemical shift analysis, but the actual spectra are not shown. The reader cannot assess the quality of the data, the extent of peak overlap, or the reliability of the assignments. The claim of side-chain-to-backbone hydrogen bonds is inferred from chemical shift patterns and MD, but no direct evidence (e.g., NOE contacts, hydrogen/deuterium exchange) is presented. The two conformations reported for Q21 are described but not quantified in terms of population or exchange rate.
+  - **Why it matters** The central structural conclusion rests on the interpretation of chemical shifts. Without showing the spectra and the assignment strategy, the reader cannot evaluate whether the observed shifts are uniquely attributable to α-helical structure or could arise from other conformations. The hydrogen-bonding mechanism is a key mechanistic claim that requires more direct evidence.
+  - **Resolution test** Provide representative 15N-HSQC spectra for H46 and H66 showing the poly-Q region with assignments. Show the Cα/Cβ secondary chemical shift plots with error bars. Provide evidence for the hydrogen-bonding network, such as temperature coefficients of amide protons or MD-derived hydrogen bond occupancy analysis. Quantify the two Q21 conformations with populations and exchange rates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The claim that aggregation kinetics differ between wild-type H46, LKGG-H46, and LLLF-H46, with t1/2 values of 19 h, 29 h, and 1.4 h respectively.
+  - **Evidence pointer** Figure 6c; section "The structure of the poly-Q governs aggregation kinetics and fibril structure of httex1"
+  - **Concern** The aggregation data are presented as a single representative experiment with no error bars, no replicate numbers, and no statistical comparison between conditions. The t1/2 values are stated without confidence intervals. The SDS-PAGE quantification method is described but the linearity of the assay is not established. The claim that LKGG-H46 aggregates more slowly than wild-type is based on a single time course.
+  - **Why it matters** The relative aggregation rates are used to support the central claim that helical content, not poly-Q length, governs aggregation. If the differences are not statistically robust, the conclusion is not supported.
+  - **Resolution test** Provide aggregation time courses from at least three independent experiments with error bars. Perform statistical comparison (e.g., ANOVA with post-hoc tests) between the three variants. Report t1/2 values with confidence intervals. Validate the SDS-PAGE quantification with a standard curve.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The claim that the integrative NMR/SAXS ensemble model accurately represents the conformational ensemble of H46.
+  - **Evidence pointer** Figure 3a, 3c; section "H46 consists of a mixture of α-helical conformations of different lengths"
+  - **Concern** The ensemble modeling approach is described but the uniqueness of the solution is not demonstrated. The authors state that the ensemble has an Rg of 42.7 Å, close to the experimental 41.5 Å, but this single parameter does not validate the ensemble. The χ2 value of 0.2 for the SAXS fit is reported without context. The choice of Q55 as the boundary between N→C and N←C ensembles is described as "systematically explored" but the results of this exploration are not shown.
+  - **Why it matters** The structural model is a key output of the paper. If the ensemble is not uniquely constrained by the data, the conclusions about helix length and population are not robust.
+  - **Resolution test** Show the χ2 landscape for the Q55 boundary choice. Provide a comparison of the ensemble predictions to additional experimental observables not used in the fitting (e.g., 15N relaxation data, paramagnetic relaxation enhancement). Demonstrate that the ensemble is converged with respect to the number of conformations and the fitting procedure.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation-experiment agreement
+  - **Claim pointer** The claim that MD simulations "provide insights into the helix propagation and stabilization mechanisms" and that the simulations capture the experimentally observed behavior.
+  - **Evidence pointer** Figure 5; section "Molecular dynamics simulations provides insights into the helix propagation and stabilization mechanisms in httex1"
+  - **Concern** The MD results are presented qualitatively. The authors state that the simulations show α-helical propagation from N17 and the formation of bifurcated hydrogen bonds, but no quantitative comparison to the NMR-derived helicity is provided. The force field (ff03ws-STQ) is specialized, but its performance for poly-Q systems is not benchmarked. The observation that the simulations underestimate α-helical population is mentioned but not quantified.
+  - **Why it matters** The MD simulations are used to support the mechanistic interpretation. Without quantitative agreement with experiment, the simulations are suggestive but not confirmatory.
+  - **Resolution test** Provide a quantitative comparison of MD-derived secondary chemical shifts to the experimental values. Show the time evolution of helix formation and the population of bifurcated hydrogen bonds. Benchmark the force field against known poly-Q structural propensities.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1a
+  - **Evidence pointer** Section "Introduction", Figure 1a
+  - **Issue** The schematic in Figure 1a is described but not shown. The domain architecture of httex1 (N17, poly-Q, PRP) and the position of the sfGFP fusion would benefit from a clear visual representation.
+  - **Required correction** Include the figure or provide a detailed textual description of the domain boundaries and fusion construct.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** 4F-Gln synthesis
+  - **Evidence pointer** Section "Synthesis of 2S,4R-fluoroglutamine"
+  - **Concern** The synthesis is referenced to a previous publication but the yield and purity are only stated as 98% ee. The incorporation efficiency of 4F-Gln into the protein is not reported.
+  - **Required correction** Provide the incorporation efficiency and any evidence that the fluorinated glutamine does not perturb the local structure (e.g., comparison of 15N-HSQC spectra with and without fluorination at positions not directly involved in the hydrogen bond network).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** SAXS Rg values
+  - **Evidence pointer** Table S2
+  - **Concern** The Rg values are reported as mean ± standard deviation, but the number of independent measurements is not stated.
+  - **Required correction** State the number of replicates for each SAXS measurement and the method used to estimate the uncertainty.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of linear lattice model
+  - **Evidence pointer** Section "Discussion"
+  - **Concern** The authors state that their data validate the linear lattice model, but the connection between the structural observations and the model is not fully articulated. The linear lattice model predicts a gradual increase in toxicity with tract length, while the authors emphasize a threshold effect.
+  - **Required correction** Clarify how the structural data distinguish between the toxic structure and linear lattice models, and address the apparent tension between the threshold concept and the linear lattice prediction.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data availability
+  - **Evidence pointer** Data Availability Statement
+  - **Concern** The data availability statement indicates that data are available on reasonable request, but no accession numbers or repository links are provided for the NMR chemical shifts, SAXS data, or MD trajectories.
+  - **Required correction** Deposit the primary data in appropriate repositories (e.g., BMRB for chemical shifts, SASBDB for SAXS, Zenodo for MD trajectories) and provide accession numbers.
+
+## Risk / unsupported claims
+- The claim that side-chain-to-backbone hydrogen bonds stabilize α-helical conformations is not directly supported by the presented data; it is inferred from chemical shift patterns and MD simulations.
+- The claim that the mechanism of α-helical propagation is "independent of the poly-Q tract length" is based on comparison of H46 and H66 at only two positions each, which is insufficient to establish length independence.
+- The claim that the presence of long α-helices is "a stronger signature in defining the aggregation kinetics and the structure of the resulting fibrils than the number of glutamines" is not fully supported because the aggregation experiments compare mutants with altered helical content but also altered sequence, confounding the interpretation.
+- The structural model of H46 as an ensemble of elongated, partially helical conformations is presented as definitive, but the uniqueness of the ensemble solution is not demonstrated.
+- The relevance of the findings to the "toxic structure" versus "linear lattice" models is discussed speculatively; the data do not directly test either model.

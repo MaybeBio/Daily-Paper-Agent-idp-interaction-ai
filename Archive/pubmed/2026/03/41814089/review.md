@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The abstract describes the FuzDrop method, its underlying principles, its relationship to FuzPred, and its web server implementation. Assessment is limited to claims made within this abstract.
+- **Shared manuscript claim summary** The authors claim that FuzDrop is a sequence-based method for predicting protein liquid-liquid phase separation propensity and subsequent amyloid aggregation within condensates, extending the FuzPred algorithm, and that predictions are available via a web server with linear time scaling.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, validation data, or performance metrics are provided.
+- **Missing materials affecting confidence** Full methods description, algorithm details, training and validation datasets, benchmark comparisons, web server implementation specifics, and any performance statistics beyond runtime scaling.
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting extension of an existing algorithm to a biologically important problem. However, the provided material is insufficient to evaluate the technical soundness, validation, or novelty of the method. The claims are plausible but not substantiated by any visible evidence.
+- **Who would be interested in the results, and why** Researchers studying protein phase separation, amyloid aggregation, and protein condensation diseases. The method could be useful for experimentalists seeking computational predictions to guide their studies, and for computational biologists developing similar predictive tools.
+- **Major strengths** The conceptual framework linking entropic and enthalpic contributions to both droplet and amyloid states is clear and potentially valuable. The extension of an existing, presumably validated algorithm (FuzPred) to condensates is a logical progression. The stated linear runtime scaling is practical for web server use.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method enables prediction of the propensity for amyloid formation within liquid condensates.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** No validation data, benchmark results, or comparison to existing methods are presented. The abstract does not describe how predictions were tested against experimental observations.
+  - **Why it matters** Without validation, the predictive accuracy and reliability of the method cannot be assessed. A prediction method for a complex biological phenomenon requires demonstration of performance on known cases.
+  - **Resolution test** Provide validation statistics, such as correlation with experimental phase separation data, receiver operating characteristic curves, or comparison to existing predictors on standard benchmark datasets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** FuzDrop extends the FuzPred algorithm to protein condensates.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not specify what algorithmic changes or new features distinguish FuzDrop from FuzPred. The novelty of the extension is unclear.
+  - **Why it matters** If the extension is trivial or if similar capabilities already exist in other tools, the contribution may be incremental. The scientific value depends on a substantive methodological advance.
+  - **Resolution test** Clearly describe the algorithmic modifications, new parameters, or novel features that enable condensate-specific predictions, and compare to existing phase separation predictors.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The time required for FuzDrop predictions on the web server scales linearly with protein length and is typically ~30 s for a protein of 500 residues.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** No details on the computational environment, server architecture, or how this runtime was measured are provided. The claim is presented without supporting data.
+  - **Why it matters** Reproducibility of performance claims is essential for users deciding whether to adopt the tool. Without measurement context, the runtime claim cannot be verified.
+  - **Resolution test** Provide benchmark measurements with specified hardware, software versions, and number of runs, or describe the server infrastructure in the full methods.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of condensation propensity
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "condensation propensity" is used but not explicitly defined. It is unclear whether this refers to a binary classification, a probability score, or a continuous measure.
+  - **Required correction** Define the output of FuzDrop in terms of what is predicted and how the prediction is quantified.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Web server availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The URLs are provided, but there is no mention of whether the server is freely accessible, requires registration, or has any usage limits.
+  - **Required correction** State the access conditions for the web server.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Applicability statement
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states the method "may facilitate experimental studies" but does not specify the types of proteins or sequence features for which the method is applicable or any limitations.
+  - **Required correction** Describe the intended scope of applicability and known limitations of the method.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no validation), R1-M2 (unclear novelty), R1-M3 (unverifiable runtime claim). These are blocking because the core claims of predictive capability, methodological advance, and practical utility cannot be assessed from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The conceptual framework is interesting, but the abstract does not demonstrate a clear advance over existing methods. Not assessable from the abstract alone.
+  - Scientific importance: The topic is of high importance given the growing interest in phase separation and aggregation diseases. The potential utility is clear.
+  - Interdisciplinary readership: The method would appeal to both computational and experimental biologists, but the abstract lacks sufficient detail to engage a broad audience.
+  - Technical soundness: Not assessable. No validation, benchmarks, or algorithmic details are provided.
+  - Readability for nonspecialists: The abstract is generally clear, but terms like "stoichiometric complexes" and "multiplicity of binding modes" may be opaque to some readers. The conceptual explanation is otherwise accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially useful method, but the absence of validation data, algorithmic details, and performance benchmarks means the core claims cannot be evaluated. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that FuzDrop enables prediction of amyloid formation within liquid condensates is unsupported by any validation evidence.
+- The claim that the method is based on the principle that aggregation-promoting regions have a multiplicity of binding modes is presented as a premise but not substantiated with data or references.
+- The runtime claim of ~30 s for a 500-residue protein is unverifiable without measurement context.
+- The statement that FuzDrop "may facilitate experimental studies" is speculative and not supported by any demonstrated application.

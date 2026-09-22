@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35655760",
+  "title": "AlphaFold 2 and NMR Spectroscopy: Partners to Understand Protein Structure, Dynamics and Function.",
+  "authors": "Laurents, Douglas V",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2022-06-04",
+  "window": {
+    "start": "2022-05-30",
+    "end": "2022-06-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文综述了AlphaFold 2与NMR波谱学结合以理解蛋白质结构、动力学与功能，特别关注IDR及生物分子凝聚体，但缺乏具体互作机制建模的深度。",
+  "abstract": "The artificial intelligence program AlphaFold 2 is revolutionizing the field of protein structure determination as it accurately predicts the 3D structure of two thirds of the human proteome. Its predictions can be used directly as structural models or indirectly as aids for experimental structure determination using X-ray crystallography, CryoEM or NMR spectroscopy. Nevertheless, AlphaFold 2 can neither afford insight into how proteins fold, nor can it determine protein stability or dynamics. Rare folds or minor alternative conformations are also not predicted by AlphaFold 2 and the program does not forecast the impact of post translational modifications, mutations or ligand binding. The remaining third of human proteome which is poorly predicted largely corresponds to intrinsically disordered regions of proteins. Key to regulation and signaling networks, these disordered regions often form biomolecular condensates or amyloids. Fortunately, the limitations of AlphaFold 2 are largely complemented by NMR spectroscopy. This experimental approach provides information on protein folding and dynamics as well as biomolecular condensates and amyloids and their modulation by experimental conditions, small molecules, post translational modifications, mutations, flanking sequence, interactions with other proteins, RNA and virus. Together, NMR spectroscopy and AlphaFold 2 can collaborate to advance our comprehension of proteins.",
+  "abstract_zh": "人工智能程序AlphaFold 2正在革新蛋白质结构测定领域，因为它能准确预测人类蛋白质组三分之二的3D结构。其预测可直接用作结构模型，或间接辅助使用X射线晶体学、冷冻电镜或核磁共振波谱法进行的实验结构测定。然而，AlphaFold 2既无法提供蛋白质如何折叠的见解，也不能确定蛋白质的稳定性或动力学。稀有折叠或次要的替代构象也不被AlphaFold 2预测，且该程序不预测翻译后修饰、突变或配体结合的影响。人类蛋白质组中预测不佳的剩余三分之一主要对应于蛋白质的内在无序区域。这些无序区域是调控和信号网络的关键，常形成生物分子凝聚体或淀粉样蛋白。幸运的是，AlphaFold 2的局限性在很大程度上由核磁共振波谱法弥补。这种实验方法提供关于蛋白质折叠和动力学以及生物分子凝聚体和淀粉样蛋白及其受实验条件、小分子、翻译后修饰、突变、侧翼序列、与其他蛋白质、RNA和病毒相互作用调节的信息。总之，核磁共振波谱法和AlphaFold 2可以协同合作，推进我们对蛋白质的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35655760/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35655760/",
+  "paper_page_path": "papers/pubmed/35655760/index.html"
+}

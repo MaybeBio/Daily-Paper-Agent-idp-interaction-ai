@@ -1,0 +1,272 @@
+{
+  "identity": {
+    "pmid": "37353932",
+    "doi": "10.1016/j.bpj.2023.06.013",
+    "title": "Beyond analytic solution: Analysis of FRAP experiments by spatial simulation of the forward problem."
+  },
+  "content": {
+    "abstract": "Fluorescence redistribution after photobleaching is a commonly used method to understand the dynamic behavior of molecules within cells. Analytic solutions have been developed for specific, well-defined models of dynamic behavior in idealized geometries, but these solutions are inaccurate in complex geometries or when complex binding and diffusion behaviors exist. We demonstrate the use of numerical reaction-diffusion simulations using the Virtual Cell software platform to model fluorescence redistribution after photobleaching experiments. Multiple simulations employing parameter scans and varying bleaching locations and sizes can help to bracket diffusion coefficients and kinetic rate constants in complex image-based geometries. This approach is applied to problems in membrane surface diffusion as well as diffusion and binding in cytosolic volumes in complex cell geometries. In addition, we model diffusion and binding within phase-separated biomolecular condensates (liquid droplets). These are modeled as spherical low-affinity binding domains that also define a high viscosity medium for exchange of the free fluorescently labeled ligand with the external cytosol.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Diffusion",
+      "Fluorescence",
+      "Fluorescence Recovery After Photobleaching/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cowan, Ann E",
+        "Loew, Leslie M"
+      ],
+      "short_names": [
+        "Cowan AE",
+        "Loew LM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Richard D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut.",
+        "Richard D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut. Electronic address: les@uchc.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cowan, Ann E",
+        "short_name": "Cowan AE",
+        "identifiers": [],
+        "affiliations": [
+          "Richard D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut."
+        ]
+      },
+      {
+        "full_name": "Loew, Leslie M",
+        "short_name": "Loew LM",
+        "identifiers": [],
+        "affiliations": [
+          "Richard D. Berlin Center for Cell Analysis and Modeling, University of Connecticut School of Medicine, Farmington, Connecticut. Electronic address: les@uchc.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2023 Sep 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/24 11:42",
+    "fetched_at": "2026-09-20 22:55:19"
+  },
+  "links": {
+    "cites": [
+      "41563353",
+      "41532268",
+      "41063458",
+      "37643609",
+      "37218127"
+    ],
+    "refs": [
+      "36841229",
+      "36526633",
+      "34636323",
+      "32004090",
+      "31540706",
+      "30682370",
+      "30219286",
+      "29679054",
+      "29539401",
+      "28935776",
+      "28636597",
+      "28225081",
+      "26108191",
+      "25288112",
+      "22984916",
+      "22482950",
+      "21044570",
+      "20623665",
+      "20404178",
+      "20100891",
+      "20100890",
+      "19720039",
+      "19693014",
+      "19460965",
+      "18711637",
+      "18621824",
+      "18487305",
+      "18487300",
+      "18474622",
+      "18155469",
+      "17722058",
+      "17259280",
+      "17208970",
+      "16940327",
+      "16597700",
+      "15189848",
+      "14870680",
+      "14761649",
+      "12771127",
+      "12543068",
+      "12228718",
+      "11381088",
+      "11023884",
+      "10866945",
+      "9284281",
+      "1540683",
+      "1246629",
+      "1065895",
+      "786399",
+      "177080"
+    ],
+    "similar": [
+      "37353932",
+      "18487305",
+      "8842251",
+      "25561627",
+      "23912807",
+      "35254627",
+      "19720039",
+      "30189682",
+      "34636323",
+      "20959084",
+      "18326658",
+      "23843089",
+      "18390627",
+      "29539401",
+      "23847177",
+      "20526029",
+      "21244847",
+      "30878198",
+      "15296491",
+      "21044570",
+      "15292455",
+      "19238375",
+      "20639359",
+      "36227474",
+      "25273108",
+      "32562093",
+      "16397826",
+      "22808046",
+      "22219695",
+      "35344286",
+      "26556128",
+      "21529089",
+      "26519303",
+      "37484975",
+      "17004134",
+      "21810156",
+      "35201752",
+      "19836405",
+      "35143514",
+      "10545381",
+      "17259280",
+      "15688144",
+      "16965170",
+      "15189848",
+      "17952174",
+      "34129100",
+      "15951382",
+      "39113361",
+      "23311513",
+      "22912750",
+      "21728580",
+      "33247838",
+      "35808232",
+      "36689324",
+      "20307552",
+      "26304396",
+      "22395448",
+      "26488646",
+      "19250459",
+      "17034642",
+      "17208970",
+      "31540706",
+      "28324613",
+      "22984916",
+      "24470034",
+      "31323980",
+      "30324594",
+      "18503660",
+      "22569199",
+      "25683432",
+      "23663852",
+      "28101740",
+      "15695095",
+      "17598901",
+      "32979202",
+      "14507689",
+      "22183594",
+      "23042527",
+      "15816028",
+      "36587107",
+      "24110723",
+      "17286426",
+      "20131402",
+      "26552678",
+      "31452286",
+      "38430382",
+      "16315103",
+      "16679358",
+      "28445762",
+      "21044608",
+      "20199089",
+      "26108191",
+      "18390628",
+      "16284262",
+      "15894637",
+      "23748145",
+      "18299825",
+      "17707082",
+      "19123683",
+      "22585053",
+      "24248560",
+      "17477710"
+    ],
+    "review": [
+      "37353932",
+      "22219695",
+      "35201752",
+      "15695095"
+    ],
+    "pmc": [
+      "10541496"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(23)00401-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37353932/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

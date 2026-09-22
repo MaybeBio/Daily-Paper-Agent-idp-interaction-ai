@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40766493",
+  "title": "How chromatin-binding proteins direct distinct folding pathways of tetra-nucleosomes: Insights from coarse-grained simulations.",
+  "authors": "Kapoor, Utkarsh",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-08-06",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用序列特异性粗粒化模型结合增强采样模拟，研究HP1α和tPHC3等染色质结合蛋白如何通过多价SAM相互作用调控四核小体的折叠路径与拓扑结构，虽对象为染色质而非典型IDP，但聚焦蛋白介导的核小体互作机制与凝聚体背景，方法为物理模拟且具机制深度，对本课题有较强可迁移启发。",
+  "abstract": "The dynamic coupling between chromatin organization and biomolecular condensates is governed by chromatin-binding proteins, yet the structural mechanisms by which these proteins modulate nucleosome interactions across spatial and organizational scales remain poorly understood. In this work, using high-resolution sequence-specific coarse-grained models combined with well-tempered metadynamics and parallel tempering, we investigate how heterochromatin protein 1alpha (HP1alpha) and a truncated construct of Polyhomeotic-like protein (tPHC3) influence the stability and folding pathways of tetra-nucleosomes, a minimal yet functionally informative chromatin model, under dilute and dense-phase conditions. While these proteins are known to drive distinct nuclear condensates their differential impact on chromatin topology and folding dynamics remains unclear. To address this, we ask: Do HP1alpha and tPHC3 stabilize or disrupt the canonical beta-rhombus and alpha-tetrahedron nucleosome conformations? Are alpha-tetrahedron motifs transient intermediates or metastable states, and how do their prevalence and persistence depend on protein identity and phase context? To answer these questions, we analyze folding free energy landscapes, diffusion maps-based dimensionality reduced coordinates, and intermolecular interaction networks. Our simulations reveal that HP1alpha promote flexible, short-range nucleosome bridging and transient alpha-tetrahedron-like intermediates without stabilizing persistent structural basins. In contrast, tPHC3 stabilize alpha-tetrahedron-like motifs that scaffold folding toward the compact beta-rhombus configuration characteristic of crystal-state tetra-nucleosomes. We find that this behavior arises from a context-dependent reorganization of multivalent SAM-linker interactions: in the absence of chromatin, self-association in dense phase conditions is mediated by linker-linker and linker-SAM contacts, while in the presence of nucleosomes, these linker-mediated interactions are suppressed, prompting compensatory SAM-SAM assembly. This reorganization highlights the essential role of SAM-mediated bridging in enabling long-range chromatin compaction. Together, our results demonstrate that under dense phase conditions alpha-tetrahedron-like motifs act as metastable intermediates rather than obligate folding end states, and their emergence depends critically on the identity of the chromatin-binding protein and their ability to mediate bridging. These insights offer a mechanistic framework for understanding how distinct architectural proteins encode topological preferences and remodel chromatin architecture across scales to support condensate formation and nuclear compartmentalization.",
+  "abstract_zh": "染色质组织与生物分子凝聚体之间的动态耦合由染色质结合蛋白调控，然而这些蛋白在空间和组织尺度上调节核小体相互作用的结构机制仍知之甚少。在本工作中，我们利用高分辨率序列特异性粗粒化模型，结合良态元动力学 (well-tempered metamodynamics) 和并行回火 (parallel tempering)，研究了异染色质蛋白1alpha (HP1alpha) 和Polyhomeotic样蛋白的截短构建体 (tPHC3) 如何影响四核小体（tetra-nucleosomes）——一种最小但功能信息丰富的染色质模型——在稀相和稠相条件下的稳定性及折叠路径。尽管已知这些蛋白驱动不同的核凝聚体，但它们对染色质拓扑和折叠动力学的差异影响仍不清楚。为解决此问题，我们提出：HP1alpha和tPHC3是稳定还是破坏经典的β-菱形 (beta-rhombus) 和α-四面体 (alpha-tetrahedron) 核小体构象？α-四面体基序是瞬时中间态还是亚稳态，其出现频率和持久性如何依赖于蛋白身份和相环境？为回答这些问题，我们分析了折叠自由能景观、基于扩散图的降维坐标以及分子间相互作用网络。我们的模拟揭示，HP1alpha促进灵活的短程核小体桥接和瞬时的α-四面体样中间体，但不稳定持久的构象盆地。相比之下，tPHC3稳定α-四面体样基序，这些基序支撑折叠朝向晶体态四核小体特征的紧凑β-菱形构型。我们发现，这种行为源于多价SAM-连接子相互作用的环境依赖性重组：在无染色质情况下，稠相条件下的自关联由连接子-连接子和连接子-SAM接触介导，而在存在核小体时，这些连接子介导的相互作用被抑制，促使补偿性SAM-SAM组装。这种重组突显了SAM介导桥接在实现长程染色质压缩中的关键作用。综合来看，我们的结果表明，在稠相条件下，α-四面体样基序作为亚稳中间体而非必然的折叠终态发挥作用，其出现关键依赖于染色质结合蛋白的身份及其介导桥接的能力。这些见解为理解不同结构蛋白如何编码拓扑偏好并在多尺度上重塑染色质结构以支持凝聚体形成和核区室化提供了机制框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40766493/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40766493/",
+  "paper_page_path": "papers/pubmed/40766493/index.html"
+}

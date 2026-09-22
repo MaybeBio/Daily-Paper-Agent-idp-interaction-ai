@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present Uni-Clip, a contrastive learning framework integrating multimodal protein features (structure and residue) and ligand features (conformation and graph), optimized with a custom CF-InfoNCE loss. They claim superior virtual screening performance on LIT-PCBA and DUD-E benchmarks, practical utility in identifying non-covalent GPX4 inhibitors and a c-Myc target for benzbromarone, and explainable binding site identification consistent with molecular dynamics and experimental results.
+- **Visible evidence base** Abstract text only; no quantitative details beyond enrichment factor improvements and one IC50 value; no methodological descriptions, benchmark protocols, or validation data
+- **Missing materials affecting confidence** Full manuscript, methods section, benchmark implementation details, baseline definitions, statistical analyses, molecular dynamics and experimental validation protocols, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially valuable framework for challenging target screening, with claims of substantial benchmark improvements and two application case studies. However, the evidence provided in the abstract is insufficient to evaluate the technical soundness of the method, the validity of the benchmark comparisons, or the robustness of the experimental validations. The core claims are plausible but currently not established from the supplied material.
+- **Who would be interested in the results, and why** Computational drug discovery researchers, medicinal chemists working on undruggable targets, and method developers in protein-ligand interaction modeling would be interested. The claimed improvements on challenging targets and the practical applications to GPX4 and c-Myc could attract attention from both academic and industrial groups focused on virtual screening and drug repurposing.
+- **Major strengths** The problem addressed is of high importance, given the large fraction of undruggable targets. The multimodal integration of protein and ligand features is a reasonable and timely design choice. The inclusion of two distinct application scenarios, virtual screening and target fishing, suggests potential breadth. The reported benchmark improvements, if reproducible, would be substantial.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Uni-Clip demonstrates superior performance in benchmark evaluations on LIT-PCBA and DUD-E, achieving 147% and 218% improvements in enrichment factors at 1% compared to baselines.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports enrichment factor improvements but provides no details on which baselines were used, how the comparison was conducted, whether the same training and evaluation splits were employed, or whether statistical significance was assessed. Without this information, the magnitude of the claimed improvements cannot be interpreted.
+  - **Why it matters** Enrichment factor comparisons are highly sensitive to baseline choice, dataset preprocessing, and evaluation protocols. Inflated improvements can arise from weak baselines or data leakage. The claim of 147% and 218% improvements is central to the paper's impact and must be verifiable.
+  - **Resolution test** Provide a full description of baselines, dataset splits, hyperparameters, and statistical tests. Show that improvements are consistent across multiple random seeds and are not driven by a single dataset subset.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Uni-Clip identified non-covalent inhibitors of GPX4 with an IC50 of 4.17 μM, and identified c-Myc as a potential target for benzbromarone.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states these findings without any experimental details. For the GPX4 case, no information is provided on the assay type, number of compounds tested, hit rate, selectivity, or how the IC50 was determined. For the c-Myc target fishing result, no validation evidence is described beyond the claim itself.
+  - **Why it matters** These application claims are presented as evidence of practical utility. Without experimental validation details, they cannot be distinguished from computational predictions that may not translate to functional activity. The IC50 value alone is insufficient to establish a credible hit.
+  - **Resolution test** Provide full experimental protocols, including assay conditions, compound sources, replicates, and positive and negative controls. For target fishing, include orthogonal validation such as binding assays or cellular experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** Uni-Clip is a contrastive learning framework incorporating multimodal features, optimized with a specifically designed CF-InfoNCE loss.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the architecture, the feature encoders, the fusion strategy, or the formulation of the CF-InfoNCE loss. No training details, data sources, or implementation specifics are given.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without architectural and training details, other researchers cannot implement or fairly compare against Uni-Clip. The novelty of the loss function cannot be assessed.
+  - **Resolution test** Provide a complete methods section with model architecture, loss formulation, training procedure, and code availability statement.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract states improvements in enrichment factors at 1% but does not specify whether this refers to EF1% or another metric, nor whether the values are absolute or relative.
+  - **Required correction** Define the metric explicitly and state whether the reported percentages are relative improvements over baselines.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Explainability claim
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract claims explainable analyses identified binding sites consistent with molecular dynamics and experimental results, but no examples or evaluation metrics are provided.
+  - **Required correction** Include at least one illustrative example and a quantitative comparison against experimental binding site annotations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Target classification
+  - **Evidence pointer** Abstract only; location not provided
+  - **Issue** The abstract states 85% of targets are undruggable, but this figure is presented without citation or context.
+  - **Required correction** Provide a reference for this statistic and clarify the definition of undruggable used.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The benchmark comparison, experimental validations, and methodological reproducibility are all insufficiently supported by the abstract alone.
+- **Assessment against Nature-style criteria** Originality is potentially high given the multimodal contrastive approach and the focus on undruggable targets, but the novelty of the loss function and architecture cannot be assessed from the abstract. Scientific importance is potentially high if the benchmark and application claims hold, but the evidence is currently insufficient. Interdisciplinary readership could be broad, spanning computational biology, medicinal chemistry, and drug discovery, but the abstract lacks sufficient technical detail for specialists and sufficient context for nonspecialists. Technical soundness is not assessable from the supplied material. Readability for nonspecialists is acceptable, though the abstract uses field-specific terms without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are promising and the problem is important, but the abstract alone does not provide enough methodological or experimental detail to support the conclusions. A full manuscript with detailed methods, benchmark protocols, and experimental validation would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The 147% and 218% enrichment factor improvements are unsupported without baseline definitions and statistical analysis.
+- The GPX4 non-covalent inhibitor claim with IC50 of 4.17 μM is unsupported without assay details and hit validation.
+- The c-Myc target fishing claim for benzbromarone is unsupported without orthogonal experimental evidence.
+- The claim that explainable analyses identified binding sites consistent with molecular dynamics and experimental results is unsupported without examples or quantitative comparison.
+- The 85% undruggable target statistic is presented without citation.
+- The general statement that Uni-Clip is a practical tool for various drug discovery applications is not supported by the limited evidence provided.

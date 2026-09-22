@@ -1,0 +1,404 @@
+{
+  "identity": {
+    "pmid": "40549793",
+    "doi": "10.1371/journal.pgen.1011217",
+    "title": "Distinct domains of ENHANCER OF PINOID hold information for its polarization required for auxin-mediated cotyledon and flower development in Arabidopsis."
+  },
+  "content": {
+    "abstract": "The Arabidopsis ENHANCER OF PINOID (ENP) protein and the AGC-kinase PINOID (PID) synergistically impact on polarization and function of the auxin transporter PIN-FORMED1 (PIN1) required for plant leaf and flower organ development. ENP offers a PID-independent input for PIN-function since enp pid double mutants lead to cotyledon- and flower-less plants in contrast to pid single mutants, which develop cotyledons and abnormal albeit fertile flowers. This indicates that ENP, which depicts a similar polar localization as PIN1, is a potential interactor of PINs including PIN1. Here we show that the modular structure of ENP predicted by AlphaFold separates the capability for its own cellular polarization and its function linked to polar PIN1 activity. The part of ENP from aa1 to aa470 is subdivided into three structured domains. They are supportive and/or essential for cellular polarity. In contrast, the C-terminus, which is an intrinsically disordered region (IDR), is completely dispensable for polarity but essential for ENP-mediated PIN1-function. FLIM-FRET shows ENP to be closely associated with the plasma membrane and its IDR to significantly interact with PINs. Moreover, the modification status of two prominent phosphorylation sites in the IDR determines ENPs stability and its capability in supporting PIN1. Our results show ENP to be an element in the assumed PIN-multiprotein complex and explain its impact on PID-independent PIN1 activity.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Arabidopsis Proteins/genetics/metabolism/chemistry",
+      "*Arabidopsis/genetics/growth & development/metabolism",
+      "*Flowers/growth & development/genetics/metabolism",
+      "*Indoleacetic Acids/metabolism",
+      "*Cotyledon/growth & development/genetics/metabolism",
+      "*Membrane Transport Proteins/genetics/metabolism",
+      "Gene Expression Regulation, Plant",
+      "Cell Polarity/genetics",
+      "Protein Domains",
+      "Mutation",
+      "Protein Serine-Threonine Kinases"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Matthes, Michaela S",
+        "Yun, Nicole",
+        "Luichtl, Miriam",
+        "Buschges, Ulrich",
+        "Fiesselmann, Birgit S",
+        "Strickland, Benjamin",
+        "Lehnardt, Marietta S",
+        "Schneitz, Kay",
+        "Michel, Klaus",
+        "Torres Ruiz, Ramon A"
+      ],
+      "short_names": [
+        "Matthes MS",
+        "Yun N",
+        "Luichtl M",
+        "Buschges U",
+        "Fiesselmann BS",
+        "Strickland B",
+        "Lehnardt MS",
+        "Schneitz K",
+        "Michel K",
+        "Torres Ruiz RA"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5477-5846",
+        "ORCID: 0009-0004-0537-0083",
+        "ORCID: 0009-0008-2001-1555",
+        "ORCID: 0000-0001-6688-0539",
+        "ORCID: 0000-0003-2359-6428",
+        "ORCID: 0000-0003-1012-6435"
+      ],
+      "affiliations": [
+        "Lehrstuhl fur Genetik, Wissenschaftszentrum Weihenstephan, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+        "Centre for Advanced Light Microscopy (CALM), School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+        "Entwicklungsbiologie der Pflanzen, School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+        "Lehrstuhl fur Genetik, Wissenschaftszentrum Weihenstephan, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+        "Entwicklungsbiologie der Pflanzen, School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+        "Lehrstuhl fur Genetik, Wissenschaftszentrum Weihenstephan, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+        "Entwicklungsbiologie der Pflanzen, School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+        "Entwicklungsbiologie der Pflanzen, School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+        "Entwicklungsbiologie der Pflanzen, School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+        "Centre for Advanced Light Microscopy (CALM), School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+        "Lehrstuhl fur Genetik, Wissenschaftszentrum Weihenstephan, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+        "Centre for Advanced Light Microscopy (CALM), School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+        "Entwicklungsbiologie der Pflanzen, School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Matthes, Michaela S",
+        "short_name": "Matthes MS",
+        "identifiers": [
+          "0000-0001-5477-5846"
+        ],
+        "affiliations": [
+          "Lehrstuhl für Genetik, Wissenschaftszentrum Weihenstephan, Technische Universitaet Muenchen (TUM), Freising, Germany."
+        ]
+      },
+      {
+        "full_name": "Yun, Nicole",
+        "short_name": "Yun N",
+        "identifiers": [
+          "0009-0004-0537-0083"
+        ],
+        "affiliations": [
+          "Centre for Advanced Light Microscopy (CALM), School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+          "Entwicklungsbiologie der Pflanzen, School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany."
+        ]
+      },
+      {
+        "full_name": "Luichtl, Miriam",
+        "short_name": "Luichtl M",
+        "identifiers": [],
+        "affiliations": [
+          "Lehrstuhl für Genetik, Wissenschaftszentrum Weihenstephan, Technische Universitaet Muenchen (TUM), Freising, Germany."
+        ]
+      },
+      {
+        "full_name": "Büschges, Ulrich",
+        "short_name": "Büschges U",
+        "identifiers": [
+          "0009-0008-2001-1555"
+        ],
+        "affiliations": [
+          "Entwicklungsbiologie der Pflanzen, School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany."
+        ]
+      },
+      {
+        "full_name": "Fiesselmann, Birgit S",
+        "short_name": "Fiesselmann BS",
+        "identifiers": [],
+        "affiliations": [
+          "Lehrstuhl für Genetik, Wissenschaftszentrum Weihenstephan, Technische Universitaet Muenchen (TUM), Freising, Germany."
+        ]
+      },
+      {
+        "full_name": "Strickland, Benjamin",
+        "short_name": "Strickland B",
+        "identifiers": [],
+        "affiliations": [
+          "Entwicklungsbiologie der Pflanzen, School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany."
+        ]
+      },
+      {
+        "full_name": "Lehnardt, Marietta S",
+        "short_name": "Lehnardt MS",
+        "identifiers": [],
+        "affiliations": [
+          "Entwicklungsbiologie der Pflanzen, School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany."
+        ]
+      },
+      {
+        "full_name": "Schneitz, Kay",
+        "short_name": "Schneitz K",
+        "identifiers": [
+          "0000-0001-6688-0539"
+        ],
+        "affiliations": [
+          "Entwicklungsbiologie der Pflanzen, School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany."
+        ]
+      },
+      {
+        "full_name": "Michel, Klaus",
+        "short_name": "Michel K",
+        "identifiers": [
+          "0000-0003-2359-6428"
+        ],
+        "affiliations": [
+          "Centre for Advanced Light Microscopy (CALM), School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany."
+        ]
+      },
+      {
+        "full_name": "Torres Ruiz, Ramon A",
+        "short_name": "Torres Ruiz RA",
+        "identifiers": [
+          "0000-0003-1012-6435"
+        ],
+        "affiliations": [
+          "Lehrstuhl für Genetik, Wissenschaftszentrum Weihenstephan, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+          "Centre for Advanced Light Microscopy (CALM), School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany.",
+          "Entwicklungsbiologie der Pflanzen, School of Life Sciences, Technische Universitaet Muenchen (TUM), Freising, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS genetics"
+    ],
+    "journal_abbrev": [
+      "PLoS Genet"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/24 11:03",
+    "fetched_at": "2026-09-21 20:10:55"
+  },
+  "links": {
+    "cites": [
+      "41868105"
+    ],
+    "refs": [
+      "38747347",
+      "37983505",
+      "36210722",
+      "35917926",
+      "35917925",
+      "35768502",
+      "34974229",
+      "34791371",
+      "34418423",
+      "34293799",
+      "34265844",
+      "33875885",
+      "33705718",
+      "33186755",
+      "33058303",
+      "32763980",
+      "32728408",
+      "32193204",
+      "32188942",
+      "31776234",
+      "29678589",
+      "29654922",
+      "28448198",
+      "28114413",
+      "27911701",
+      "27836964",
+      "27697905",
+      "26942722",
+      "25561503",
+      "25533957",
+      "24773235",
+      "24244845",
+      "23901099",
+      "23796795",
+      "23394827",
+      "22639670",
+      "22025721",
+      "21693062",
+      "21490067",
+      "20374526",
+      "20018884",
+      "20003134",
+      "19402914",
+      "19075219",
+      "18778427",
+      "18000043",
+      "17913786",
+      "17889649",
+      "16601151",
+      "16207353",
+      "16107478",
+      "15869386",
+      "15695095",
+      "15514156",
+      "15371311",
+      "14960716",
+      "14651850",
+      "12553910",
+      "12324609",
+      "9856939",
+      "4517011"
+    ],
+    "similar": [
+      "40549793",
+      "16107478",
+      "20407025",
+      "41406188",
+      "15371311",
+      "28096328",
+      "17913786",
+      "34137447",
+      "20823065",
+      "37983505",
+      "18000043",
+      "22715043",
+      "33652206",
+      "15514156",
+      "20080776",
+      "20040538",
+      "21852755",
+      "24395791",
+      "21423279",
+      "26150008",
+      "26791759",
+      "19075219",
+      "33705718",
+      "25560878",
+      "11641228",
+      "26888284",
+      "24768050",
+      "23073023",
+      "27697905",
+      "21490067",
+      "29377885",
+      "29197077",
+      "17889649",
+      "41221768",
+      "41043435",
+      "16698946",
+      "23515161",
+      "20098722",
+      "33058303",
+      "23437008",
+      "22843667",
+      "19363095",
+      "23163883",
+      "17237354",
+      "23821653",
+      "35703946",
+      "17652113",
+      "21257604",
+      "34343378",
+      "17889650",
+      "24948515",
+      "26942722",
+      "24465665",
+      "35683031",
+      "39576002",
+      "30621327",
+      "25060324",
+      "26821586",
+      "30865619",
+      "18685044",
+      "32493758",
+      "18640868",
+      "21664582",
+      "40791347",
+      "31557840",
+      "24039602",
+      "31407012",
+      "19508431",
+      "39413780",
+      "21542343",
+      "16271866",
+      "23924631",
+      "16601151",
+      "29064367",
+      "24326589",
+      "19465596",
+      "10693763",
+      "22549467",
+      "28687624",
+      "29980705",
+      "29678589",
+      "14651850",
+      "27818174",
+      "12615936",
+      "17704214",
+      "25281709",
+      "21900740",
+      "19880797",
+      "16740145",
+      "34086995",
+      "30464035",
+      "21642547",
+      "25814435",
+      "16601102",
+      "31817249",
+      "22645499",
+      "23551385",
+      "18774968",
+      "38766507",
+      "19321707"
+    ],
+    "review": [
+      "40549793",
+      "18640868",
+      "29678589"
+    ],
+    "pmc": [
+      "12201645"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pgen.1011217",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40549793/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3863",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://rrc.nbrp.jp/references/list?pubmed=40549793",
+        "provider": "National BioResource Project",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": "NBRP resources"
+      }
+    ],
+    "text_mined": []
+  }
+}

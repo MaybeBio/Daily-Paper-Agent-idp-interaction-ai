@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41162832",
+  "title": "The C-terminal tails of GroEL and its mitochondrial and chloroplastic homologs adopt polyproline II helices.",
+  "authors": "Rodriguez, Cristian Segura; Lopez-Sanchez, Ruben; Laurents, Douglas Vinson",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2025-10-30",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过圆二色、NMR和MD模拟表征GroEL及其同源物C端无序尾巴的polyproline II螺旋构象偏好，虽非直接PPI机制建模，但聚焦IDR构象且用物理模拟，对无序区域介导互作机制有方法启发。",
+  "abstract": "The chaperonin GroEL and its mitochondrial and chloroplastic homologs mHsp60 and Cpn60 are large barrel-like oligomeric proteins. Chaperonins facilitate folding by isolating nascent chains in their hollow interior and undergoing ATP-powered conformational transitions. Due to their vital importance, the structures of GroEL and its homologs were extensively studied by x-ray crystallography and CryoEM, revealing rings containing seven subunits. Each subunit has three folded domains and a 24 residue C-terminal extension. Whereas this C-terminal tail has been reported to bind and stimulate the folding of client proteins, it appears to be blurry or invisible, which suggests disorder. The objective of this study is to characterize conformational preferences in the C-terminal tails of GroEL, mHsp60 and representative Cpn60s using circular dichroism and nuclear magnetic resonance spectroscopies and molecular dynamics simulations. The tails of GroEL and mHsp60 consist of two segments. The first is rich in residues typical of intrinsically disordered proteins (PKNDAADLGA and PKEEKDPGMG in GroEL and mHsp60, respectively) and the second segment consists exclusively (GroEL) or almost entirely (mHsp60) of Gly and Met residues. The spectroscopic results reveal that these C-terminal extensions are not wholly disordered but adopt polyproline II helices whose populations are higher in the second Gly/Met-rich segment. These results are corroborated by MD simulations of GroEL(7)GroES(7) complexes with ADP or ATP, or ATP and a client protein. Whereas the C-terminal segments of chloroplastic chaperonins are Gly-poor, they are rich in proline and also adopt polyproline II helix conformations. These results provide insight into the function of chaperonin C-terminal tails.",
+  "abstract_zh": "分子伴侣GroEL及其线粒体和叶绿体同源物mHsp60和Cpn60是大型桶状寡聚蛋白。分子伴侣通过在其中空内部隔离新生链并进行ATP驱动的构象转变来促进折叠。由于其重要性，GroEL及其同源物的结构已通过X射线晶体学和冷冻电镜广泛研究，揭示了包含七个亚基的环。每个亚基具有三个折叠结构域和一个24残基的C末端延伸。尽管该C末端尾部已被报道能结合并刺激客户蛋白的折叠，但它似乎模糊或不可见，这表明其具有无序性。本研究的目标是利用圆二色光谱、核磁共振波谱和分子动力学模拟来表征GroEL、mHsp60及代表性Cpn60的C末端尾部中的构象偏好。GroEL和mHsp60的尾部由两个片段组成。第一个片段富含固有无序蛋白典型的残基（GroEL中为PKNDAADLGA，mHsp60中为PKEEKDPGMG），第二个片段则完全（GroEL）或几乎完全（mHsp60）由Gly和Met残基组成。光谱结果表明，这些C末端延伸并非完全无序，而是采用聚脯氨酸II螺旋构象，其群体在第二个富含Gly/Met的片段中更高。这些结果得到了对GroEL(7)GroES(7)复合物（结合ADP或ATP，或ATP和客户蛋白）的分子动力学模拟的证实。尽管叶绿体分子伴侣的C末端片段缺乏Gly，但它们富含脯氨酸，也采用聚脯氨酸II螺旋构象。这些结果为分子伴侣C末端尾部的功能提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41162832/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41162832/",
+  "paper_page_path": "papers/pubmed/41162832/index.html"
+}

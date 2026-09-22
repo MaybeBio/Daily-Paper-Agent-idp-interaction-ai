@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36182948",
+  "title": "Hydrogen-bonds mediate liquid-liquid phase separation of mussel derived adhesive peptides.",
+  "authors": "Guo, Qi; Zou, Guijin; Qian, Xuliang; Chen, Shujun; Gao, Huajian; Yu, Jing",
+  "journal": "Nature communications",
+  "published_date": "2022-10-02",
+  "window": {
+    "start": "2022-09-26",
+    "end": "2022-10-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过分子动力学模拟与点突变实验，揭示贻贝粘附肽GK-16*中Dopa和Gly介导的氢键驱动液-液相分离的分子机制，并调控凝聚体性质，虽对象为粘附肽而非典型IDP，但其相分离机制建模思路对本课题有直接启发。",
+  "abstract": "Marine mussels achieve strong underwater adhesion by depositing mussel foot proteins (Mfps) that form coacervates during the protein secretion. However, the molecular mechanisms that govern the phase separation behaviors of the Mfps are still not fully understood. Here, we report that GK-16*, a peptide derived from the primary adhesive protein Mfp-5, forms coacervate in seawater conditions. Molecular dynamics simulations combined with point mutation experiments demonstrate that Dopa- and Gly- mediated hydrogen-bonding interactions are essential in the coacervation process. The properties of GK-16* coacervates could be controlled by tuning the strength of the electrostatic and Dopa-mediated hydrogen bond interactions via controlling the pH and salt concentration of the solution. The GK-16* coacervate undergoes a pH induced liquid-to-gel transition, which can be utilized for the underwater delivery and curing of the adhesives. Our study provides useful molecular design principles for the development of mussel-inspired peptidyl coacervate adhesives with tunable properties.",
+  "abstract_zh": "海洋贻贝通过分泌贻贝足蛋白（Mfps）实现强效水下粘附，这些蛋白在分泌过程中形成凝聚层（coacervates）。然而，调控Mfps相分离行为的分子机制仍未完全阐明。在此，我们报道了一种源自主要粘附蛋白Mfp-5的肽段GK-16*，在海水中条件下形成凝聚层。分子动力学模拟结合点突变实验表明，Dopa和Gly介导的氢键相互作用在凝聚过程中至关重要。通过调节溶液的pH值和盐浓度来控制静电相互作用及Dopa介导的氢键相互作用的强度，可以调控GK-16*凝聚层的性质。GK-16*凝聚层经历pH诱导的液-凝胶转变，这一特性可用于水下粘合剂的递送与固化。我们的研究为开发具有可调性能的贻贝启发肽基凝聚层粘合剂提供了有用的分子设计原则。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36182948/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36182948/",
+  "paper_page_path": "papers/pubmed/36182948/index.html"
+}

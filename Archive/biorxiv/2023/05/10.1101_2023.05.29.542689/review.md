@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material provided
+- **Shared manuscript claim summary** The authors report that rescaling protein–protein interactions in the Martini 3 coarse-grained model improves agreement with experimental data for flexible proteins in solution, and that this rescaling approach is preferable to rescaling protein–water interactions when studying membrane-associated systems, based on differential effects on binding specificity and oligomerization.
+- **Visible evidence base** Abstract text only; no quantitative data, system descriptions, or methodological details
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, simulation parameters, experimental reference datasets, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful refinement to the Martini 3 force field for modeling intrinsically disordered proteins and multidomain proteins. The central claim, that rescaling protein–protein interactions improves agreement with experimental data, is plausible and consistent with prior work by the same group. However, the abstract provides no quantitative evidence, no description of the systems tested, and no methodological detail, making it impossible to evaluate the robustness or generality of the findings. The reported asymmetry between rescaling protein–protein versus protein–water interactions in membrane contexts is interesting but insufficiently supported in the abstract alone.
+- **Who would be interested in the results, and why** Researchers using coarse-grained molecular dynamics simulations to study intrinsically disordered proteins, multidomain proteins, and protein–membrane interactions. The work is directly relevant to the Martini community and to those developing or applying coarse-grained models for biomolecular simulations, as it offers a practical parameter adjustment that may improve conformational sampling accuracy.
+- **Major strengths** The study addresses a recognized limitation of Martini 3, namely overly compact ensembles for flexible proteins. The proposed solution, rescaling protein–protein interactions, is conceptually simple and potentially widely applicable. The observation that protein–protein and protein–water rescaling are not equivalent in membrane contexts is a valuable nuance that could guide future force field refinements.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that decreasing the strength of protein–protein interactions leads to improved agreement with experimental data on a wide set of systems.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No quantitative data, system descriptions, or comparison metrics are provided. The phrase "wide set of systems" is vague, and the abstract does not specify which experimental observables were used for validation, how many systems were tested, or the magnitude of improvement.  
+  - **Why it matters** Without quantitative evidence, the central claim cannot be assessed for statistical significance, effect size, or generalizability. The reader cannot determine whether the improvement is marginal or substantial, or whether it holds across diverse protein types and conditions.  
+  - **Resolution test** Provide a table or figure summarizing the systems studied, the experimental observables used, and the quantitative agreement (e.g., root-mean-square deviations, Z-scores) before and after rescaling, with error estimates.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The abstract states that rescaling protein–protein interactions better preserves binding specificity of proteins with lipid membranes, whereas rescaling protein–water interactions preserves oligomerization of transmembrane helices.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe how the rescaling was implemented, the magnitude of the scaling factors used, or the specific membrane systems and proteins studied. The claim of "binding specificity" and "oligomerization" preservation is not defined operationally, and no metrics are given.  
+  - **Why it matters** Reproducibility and interpretation depend on knowing the exact simulation setup, scaling protocol, and analysis criteria. Without this information, the reported asymmetry cannot be verified or compared with other force field modifications.  
+  - **Resolution test** Include a methods section detailing the scaling approach, the range of scaling factors tested, and the definitions and measurements of binding specificity and oligomerization, with representative simulation snapshots or quantitative profiles.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scope of conclusion  
+  - **Claim pointer** The abstract concludes that decreasing protein–protein interaction strength improves accuracy for IDPs and multidomain proteins both in solution and in the presence of a lipid membrane.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The conclusion extends the finding to "the presence of a lipid membrane" broadly, but the abstract only mentions binding specificity and oligomerization, which are specific phenomena. It is unclear whether the rescaling improves overall conformational ensembles in membrane contexts or only these particular properties.  
+  - **Why it matters** Overgeneralization could mislead users into applying the rescaling indiscriminately in membrane simulations, potentially introducing artifacts in other properties not tested.  
+  - **Resolution test** Clarify the scope of validation in membrane contexts, specifying which properties were improved and which were unchanged or worsened, and discuss any limitations.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The term "rescaling" is used without specifying whether it refers to a uniform scaling of all protein–protein interaction terms or a selective adjustment.  
+  - **Required correction** Define "rescaling" explicitly in the abstract or methods, including whether it applies to all nonbonded protein–protein interactions or a subset.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Comparison with prior work  
+  - **Evidence pointer** Abstract, second sentence  
+  - **Issue** The abstract references prior work on strengthening protein–water interactions but does not state how the current rescaling approach compares quantitatively with that earlier remedy.  
+  - **Required correction** Add a sentence or figure comparing the performance of protein–protein rescaling versus protein–water rescaling on the same test systems.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract structure  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The concluding sentence is broad and could be interpreted as a universal recommendation, but the abstract does not discuss potential trade-offs or cases where rescaling might fail.  
+  - **Required correction** Add a qualifying statement about the conditions under which the rescaling is expected to be beneficial and any known limitations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract alone does not provide sufficient quantitative or methodological evidence to support the central claims. The case is not established from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The idea of rescaling protein–protein interactions in Martini 3 is a logical extension of prior work and is not highly original, but the reported asymmetry in membrane contexts adds a novel dimension.  
+  - **Scientific importance** The work addresses a practical limitation of a widely used model, so it has potential importance for the simulation community, though the impact is incremental rather than transformative.  
+  - **Interdisciplinary readership** The topic is specialized to computational biophysics and may not attract broad interdisciplinary interest beyond the Martini user base.  
+  - **Technical soundness** Cannot be assessed from the abstract; no technical details or validation data are provided.  
+  - **Readability for nonspecialists** The abstract is concise and understandable to a trained scientist, but the lack of context on coarse-grained modeling may limit accessibility to nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially useful finding, but the absence of quantitative results and methodological detail prevents a supportive recommendation. A full manuscript with comprehensive validation would be required to assess the claims properly.
+
+## Risk / unsupported claims
+- The claim of improved agreement with experimental data on a "wide set of systems" is unsupported without quantitative metrics or system descriptions.
+- The claim that rescaling protein–protein interactions "better preserves" binding specificity and oligomerization is unsupported without operational definitions or data.
+- The conclusion that the rescaling improves accuracy "both in solution and in the presence of a lipid membrane" is an overgeneralization based on the abstract's limited scope.
+- The relative performance of protein–protein versus protein–water rescaling is not quantitatively compared, so the claimed "symmetry breakdown" is not established.

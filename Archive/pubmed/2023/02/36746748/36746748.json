@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "36746748",
+    "doi": "10.1021/acs.jcim.2c01196",
+    "title": "Structural Insights into ATP-Sensitive Potassium Channel Mechanics: A Role of Intrinsically Disordered Regions."
+  },
+  "content": {
+    "abstract": "Commonly used techniques, such as CryoEM or X-ray, are not able to capture the structural reorganizations of disordered regions of proteins (IDR); therefore, it is difficult to assess their functions in proteins based exclusively on experiments. To fill this gap, we used computational molecular dynamics (MD) simulation methods to capture IDR dynamics and trace biological function-related interactions in the Kir6.2/SUR1 potassium channel. This ATP-sensitive octameric complex, one of the critical elements in the insulin secretion process in human pancreatic beta-cells, has four to five large, disordered fragments. Using unique MD simulations of the full Kir6.2/SUR1 channel complex, we present an in-depth analysis of the dynamics of the disordered regions and discuss the possible functions they could have in this system. Our MD results confirmed the crucial role of the N-terminus of the Kir6.2 fragment and the L0-loop of the SUR1 protein in the transfer of mechanical signals between domains that trigger insulin release. Moreover, we show that the presence of IDRs affects natural ligand binding. Our research takes us one step further toward understanding the action of this vital complex.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*KATP Channels",
+      "Sulfonylurea Receptors",
+      "*Receptors, Drug/chemistry/metabolism",
+      "Insulin/metabolism",
+      "Adenosine Triphosphate/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Walczewska-Szewc, Katarzyna",
+        "Nowak, Wieslaw"
+      ],
+      "short_names": [
+        "Walczewska-Szewc K",
+        "Nowak W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6422-6138"
+      ],
+      "affiliations": [
+        "Institute of Physics, Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University in Torun, ul. Grudziadzka 5, 87-100 Torun, Poland.",
+        "Institute of Physics, Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University in Torun, ul. Grudziadzka 5, 87-100 Torun, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Walczewska-Szewc, Katarzyna",
+        "short_name": "Walczewska-Szewc K",
+        "identifiers": [
+          "0000-0001-6422-6138"
+        ],
+        "affiliations": [
+          "Institute of Physics, Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University in Toruń, ul. Grudziądzka 5, 87-100 Toruń, Poland."
+        ]
+      },
+      {
+        "full_name": "Nowak, Wiesław",
+        "short_name": "Nowak W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University in Toruń, ul. Grudziądzka 5, 87-100 Toruń, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2023 Mar 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/07 06:00",
+    "fetched_at": "2026-09-20 19:05:35"
+  },
+  "links": {
+    "cites": [
+      "40135739",
+      "39282384",
+      "38675722"
+    ],
+    "refs": [
+      "36441147",
+      "35964676",
+      "35595811",
+      "35562983",
+      "35446534",
+      "35292651",
+      "35179885",
+      "34825567",
+      "34815345",
+      "34711681",
+      "34447786",
+      "34262938",
+      "33781744",
+      "33741410",
+      "33591749",
+      "33174726",
+      "32598150",
+      "32376986",
+      "31972165",
+      "31855179",
+      "31566370",
+      "31343405",
+      "31067468",
+      "30861254",
+      "30789344",
+      "30395892",
+      "30273482",
+      "30204435",
+      "29735687",
+      "29594720",
+      "29286281",
+      "29035201",
+      "28663158",
+      "28601983",
+      "28516010",
+      "28092267",
+      "28086082",
+      "27819658",
+      "27006498",
+      "26631602",
+      "26619985",
+      "26574339",
+      "26320411",
+      "26198630",
+      "25549265",
+      "25380315",
+      "25130509",
+      "24725176",
+      "24698822",
+      "24432838",
+      "24061923",
+      "23832629",
+      "22613562",
+      "22443635",
+      "22411565",
+      "21645855",
+      "20086079",
+      "18990670",
+      "18708460",
+      "18351591",
+      "18215316",
+      "17250999",
+      "16075046",
+      "14715916",
+      "10197533",
+      "10049691",
+      "9144288",
+      "8744570",
+      "6667333"
+    ],
+    "similar": [
+      "36746748",
+      "32598150",
+      "21321069",
+      "22802363",
+      "10194514",
+      "30587573",
+      "18079561",
+      "34099169",
+      "9755153",
+      "9307442",
+      "30179258",
+      "20876358",
+      "14672537",
+      "21185839",
+      "22562119",
+      "10381582",
+      "9990013",
+      "17395632",
+      "10206966",
+      "15485808",
+      "9813050",
+      "16317080",
+      "23223337",
+      "10400694",
+      "15339904",
+      "20427569",
+      "25348414",
+      "10204114",
+      "10469651",
+      "11145575",
+      "12562963",
+      "15893323",
+      "11226335",
+      "11716850",
+      "29685928",
+      "26725741",
+      "19151370",
+      "10347249",
+      "16887879",
+      "28086082",
+      "24429282",
+      "20102598",
+      "17496234",
+      "18990670",
+      "9144288",
+      "23665564",
+      "35398096",
+      "12198249",
+      "18708750",
+      "9648840",
+      "22311976",
+      "22466787",
+      "10993895",
+      "10099692",
+      "17495126",
+      "12023873",
+      "22020219",
+      "9287292",
+      "10581306",
+      "21209369",
+      "10581363",
+      "13679426",
+      "17855752",
+      "16418275",
+      "10652326",
+      "19284878",
+      "18974387",
+      "21649805",
+      "20804990",
+      "17325510",
+      "9792799",
+      "28092267",
+      "20033705",
+      "19237428",
+      "22187380",
+      "11073882",
+      "11440368",
+      "18258681",
+      "17510180",
+      "36253099",
+      "10893240",
+      "14975702",
+      "9558481",
+      "27030354",
+      "20847183",
+      "9457174",
+      "34711681"
+    ],
+    "review": [
+      "36746748",
+      "10194514",
+      "10204114",
+      "29685928",
+      "18990670",
+      "10099692",
+      "10581363",
+      "20033705",
+      "9558481"
+    ],
+    "pmc": [
+      "10052335"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.jcim.2c01196",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36746748/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36746748",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.2c01196",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

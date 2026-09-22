@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42146611",
+  "title": "Deep Computational Anatomy via Latent-Aligned Multiview Normalizing Flows.",
+  "authors": "Tustison, Nicholas J; Avants, Brian B; Cook, Philip A; Gee, James C; Stone, James R",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-05-18",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 0,
+  "one_liner_zh": "该文提出用于多模态医学影像的潜变量对齐归一化流方法，对象为影像表型与MRI，不涉及无序蛋白或蛋白互作，且无AI/物理模拟在PPI机制建模上的可迁移启发。",
+  "abstract": "In modeling complex probability distributions, normalizing flows provide exact-likelihood, bijective mappings between empirical data and tractable latent spaces. Building on this foundation, latent-aligned multiview normalizing (LAMNr) flows leverage these salient properties to learn shared latent subspaces across heterogeneous, multimodal datasets while simultaneously topologically unfolding the sampled data manifold into a continuous vector space. Formal latent-alignment constraints are used to model shared structural features separate from view-specific variations, coordinating latent projections into a shared geometric subspace. By applying this transformation in the context of biological imaging, the framework establishes a potential basis for a deep learning interpretation of foundational computational anatomy concepts, such as the population template, latent distances, and geodesic pairwise image interpolation. Additionally, the proposed framework enables closed-form conditional modeling for exact cross-view imputation and other latent space manipulations. Evaluations and illustrations on both imaging-derived phenotypes (IDPs) and multimodal MRI demonstrate the proposed framework and potential applications. To further motivate our work, we provide a robust and comprehensive, 2D and 3D open-source implementation in PyTorch, natively integrated with the ANTsX ecosystem (i.e., ANTsTorch) for efficient training and subsequent data transformation, manipulation, and analysis.",
+  "abstract_zh": "在建模复杂概率分布时，归一化流提供了经验数据与可处理潜空间之间的精确似然双射映射。在此基础上，潜对齐多视图归一化流（LAMNr）利用这些显著特性，在异构多模态数据集中学习共享潜子空间，同时将采样数据流形拓扑展开为连续向量空间。形式化的潜对齐约束用于建模与视图特定变化分离的共享结构特征，将潜投影协调到共享几何子空间中。通过将这一变换应用于生物成像背景，该框架为计算解剖学基础概念的深度学习解释奠定了潜在基础，例如群体模板、潜距离和测地线成对图像插值。此外，所提出的框架支持闭式条件建模，用于精确的跨视图插补及其他潜空间操作。对成像衍生表型（IDPs）和多模态MRI的评估与展示证明了所提出框架及其潜在应用。为进一步推动我们的工作，我们提供了在PyTorch中实现的稳健且全面的2D和3D开源实现，原生集成于ANTsX生态系统（即ANTsTorch），用于高效训练及后续数据变换、操作和分析。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42146611/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42146611/",
+  "paper_page_path": "papers/pubmed/42146611/index.html"
+}

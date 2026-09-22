@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38222029",
+  "title": "Data-Driven Models for Predicting Intrinsically Disordered Protein Polymer Physics Directly from Composition or Sequence.",
+  "authors": "Chao, Tzu-Hsuan; Rekhi, Shiv; Mittal, Jeetain; Tabor, Daniel P",
+  "journal": "Molecular systems design & engineering",
+  "published_date": "2024-01-15",
+  "window": {
+    "start": "2024-01-15",
+    "end": "2024-01-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用数据驱动模型（经典ML/深度学习）从序列预测IDP的回转半径等聚合物物理性质，虽聚焦IDP单链构象而非PPI互作机制，但其物理启发的特征表示方法对IDP互作建模有可迁移价值。",
+  "abstract": "The molecular-level understanding of intrinsically disordered proteins is challenging due to experimental characterization difficulties. Computational understanding of IDPs also requires fundamental advances, as the leading tools for predicting protein folding (e.g., AlphaFold), typically fail to describe the structural ensembles of IDPs. The focus of this paper is to 1) develop new representations for intrinsically disordered proteins and 2) pair these representations with classical machine learning and deep learning models to predict the radius of gyration and derived scaling exponent of IDPs. Here, we build a new physically-motivated feature called the bag of amino acid interactions representation, which encodes pairwise interactions explicitly into the representation. This feature essentially counts and weights all possible non-bonded interactions in a sequence and thus is, in principle, compatible with arbitrary sequence lengths. To see how well this new feature performs, both categorical and physically-motivated featurization techniques are tested on a computational dataset containing 10,000 sequences simulated at the coarse-grained level. The results indicate that this new feature outperforms the other purely categorical and physically-motivated features and possesses solid extrapolation capabilities. For future use, this feature can potentially provide physical insights into amino acid interactions, including their temperature dependence, and be applied to other protein spaces.",
+  "abstract_zh": "intrinsically disordered proteins（内在无序蛋白）的分子层面理解因实验表征困难而颇具挑战。对IDPs的计算理解同样需要基础性进展，因为预测蛋白质折叠的领先工具（如AlphaFold）通常无法描述IDPs的结构集合。本文的重点在于：1）为内在无序蛋白开发新的表示方法，2）将这些表示与经典机器学习和深度学习模型配对，以预测IDPs的回转半径及导出的标度指数。在此，我们构建了一种新的物理动机特征，称为氨基酸相互作用袋表示，该表示将成对相互作用显式编码进表示中。此特征本质上对序列中所有可能的非键相互作用进行计数和加权，因此原则上兼容任意序列长度。为评估这一新特征的性能，我们在包含10,000条粗粒化模拟序列的计算数据集上测试了分类式和物理动机式特征化技术。结果表明，这一新特征优于其他纯分类式和物理动机式特征，并具备坚实的推断能力。未来应用中，此特征有望为氨基酸相互作用提供物理洞见，包括其温度依赖性，并可应用于其他蛋白质空间。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38222029/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38222029/",
+  "paper_page_path": "papers/pubmed/38222029/index.html"
+}

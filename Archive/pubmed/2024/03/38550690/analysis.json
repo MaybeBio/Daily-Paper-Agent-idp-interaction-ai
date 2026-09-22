@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38550690",
+  "title": "Differentiable simulation to develop molecular dynamics force fields for disordered proteins.",
+  "authors": "Greener, Joe G",
+  "journal": "Chemical science",
+  "published_date": "2024-03-29",
+  "window": {
+    "start": "2024-03-25",
+    "end": "2024-03-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用可微分分子动力学模拟优化隐式溶剂力场以更好描述无序蛋白构象，虽非直接研究PPI，但为无序蛋白的物理模拟方法提供了可迁移的力场训练思路。",
+  "abstract": "Implicit solvent force fields are computationally efficient but can be unsuitable for running molecular dynamics on disordered proteins. Here I improve the a99SB-disp force field and the GBNeck2 implicit solvent model to better describe disordered proteins. Differentiable molecular simulations with 5 ns trajectories are used to jointly optimise 108 parameters to better match explicit solvent trajectories. Simulations with the improved force field better reproduce the radius of gyration and secondary structure content seen in experiments, whilst showing slightly degraded performance on folded proteins and protein complexes. The force field, called GB99dms, reproduces the results of a small molecule binding study and improves agreement with experiment for the aggregation of amyloid peptides. GB99dms, which can be used in OpenMM, is available at https://github.com/greener-group/GB99dms. This work is the first to show that gradients can be obtained directly from nanosecond-length differentiable simulations of biomolecules and highlights the effectiveness of this approach to training whole force fields to match desired properties.",
+  "abstract_zh": "隐式溶剂力场计算效率高，但可能不适合对无序蛋白质进行分子动力学模拟。在此，我改进了a99SB-disp力场和GBNeck2隐式溶剂模型，以更好地描述无序蛋白质。利用5 ns轨迹的可微分子模拟，联合优化了108个参数，以更好地匹配显式溶剂轨迹。改进力场的模拟能更好地再现实验中观察到的回旋半径和二级结构含量，同时在折叠蛋白质和蛋白质复合物上的表现略有下降。该力场名为GB99dms，能重现小分子结合研究的结果，并提高与实验在淀粉样肽聚集方面的一致性。GB99dms可在OpenMM中使用，并可在https://github.com/greener-group/GB99dms获取。这项工作首次展示了从生物分子纳秒级可微模拟中直接获得梯度的可能性，并强调了这种方法在训练整个力场以匹配所需性质方面的有效性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38550690/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38550690/",
+  "paper_page_path": "papers/pubmed/38550690/index.html"
+}

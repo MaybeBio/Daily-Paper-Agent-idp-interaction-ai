@@ -1,0 +1,457 @@
+{
+  "identity": {
+    "pmid": "41807382",
+    "doi": "10.1038/s41467-026-70083-1",
+    "title": "Alzheimer's Abeta catalyzes Tau phase separation and aggregation via early nanocluster solubilization."
+  },
+  "content": {
+    "abstract": "Extracellular amyloid-beta (Abeta) plaques and intracellular neurofibrillary tangles (NFTs) composed of hyperphosphorylated Tau are the two main pathological hallmarks of Alzheimer's disease (AD). Although the co-occurrence and synergistic effects of Abeta and Tau are well established, the mechanisms underlying their interplay in a biomolecular condensate environment remain unclear. Here we show that Abeta40 does not undergo liquid-liquid phase separation (LLPS) but significantly enhances Tau phase separation and is recruited into Tau condensates. This recruitment alters condensate physicochemical properties, accelerates liquid-to-solid maturation, promotes Tau amyloid fibril formation, and increases Tau-mediated cytotoxicity. Notably, prior to condensate formation, Abeta40 transiently solubilizes Tau nanoclusters into smaller species. Simulations further indicate that early interactions are non-specific and mediated by Tau repeat domains, ultimately promoting pathogenic aggregation. These findings support a model wherein Abeta act as a catalyst for Tau condensation and fibrillation towards pathological aggregates by solubilizing Tau nanoclusters during early phase interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*tau Proteins/metabolism/chemistry",
+      "*Amyloid beta-Peptides/metabolism/chemistry",
+      "Phase Separation",
+      "*Alzheimer Disease/metabolism/pathology",
+      "Humans",
+      "*Protein Aggregation, Pathological/metabolism",
+      "Solubility",
+      "Animals",
+      "*Peptide Fragments/metabolism/chemistry",
+      "Protein Aggregates",
+      "Neurofibrillary Tangles/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Xun",
+        "Tang, Yiming",
+        "Wang, Xue",
+        "Pereira Curia, Guadalupe",
+        "Sternke-Hoffmann, Rebecca",
+        "Morman, Cecilia",
+        "Gerez, Juan Atilio",
+        "Riek, Roland",
+        "Wei, Guanghong",
+        "Luo, Jinghui"
+      ],
+      "short_names": [
+        "Sun X",
+        "Tang Y",
+        "Wang X",
+        "Pereira Curia G",
+        "Sternke-Hoffmann R",
+        "Morman C",
+        "Gerez JA",
+        "Riek R",
+        "Wei G",
+        "Luo J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2976-5547",
+        "ORCID: 0000-0002-1662-8244",
+        "ORCID: 0000-0002-3326-2897",
+        "ORCID: 0000-0002-6333-066X",
+        "ORCID: 0000-0001-5814-3328",
+        "ORCID: 0000-0002-7014-8153"
+      ],
+      "affiliations": [
+        "Center for Life Sciences, Paul Scherrer Institute, Villigen PSI, Switzerland.",
+        "Key Laboratory for Computational Physical Sciences of Ministry of Education, Fudan University, Shanghai, PR China.",
+        "State Key Laboratory of Surface Physics, Department of Physics, Fudan University, Shanghai, PR China.",
+        "Center for Life Sciences, Paul Scherrer Institute, Villigen PSI, Switzerland.",
+        "Center for Life Sciences, Paul Scherrer Institute, Villigen PSI, Switzerland.",
+        "Center for Life Sciences, Paul Scherrer Institute, Villigen PSI, Switzerland.",
+        "Center for Life Sciences, Paul Scherrer Institute, Villigen PSI, Switzerland.",
+        "Department of Medicine Huddinge, Karolinska Institutet, Huddinge, Sweden.",
+        "Institute of Molecular Physical Science, Department of Chemistry and Applied Biosciences, ETH Zurich, Zurich, Switzerland.",
+        "Institute of Molecular Physical Science, Department of Chemistry and Applied Biosciences, ETH Zurich, Zurich, Switzerland.",
+        "Key Laboratory for Computational Physical Sciences of Ministry of Education, Fudan University, Shanghai, PR China. ghwei@fudan.edu.cn.",
+        "State Key Laboratory of Surface Physics, Department of Physics, Fudan University, Shanghai, PR China. ghwei@fudan.edu.cn.",
+        "Center for Life Sciences, Paul Scherrer Institute, Villigen PSI, Switzerland. jinghui.luo@psi.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Xun",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Paul Scherrer Institute, Villigen PSI, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Tang, Yiming",
+        "short_name": "Tang Y",
+        "identifiers": [
+          "0000-0002-2976-5547"
+        ],
+        "affiliations": [
+          "Key Laboratory for Computational Physical Sciences of Ministry of Education, Fudan University, Shanghai, PR China.",
+          "State Key Laboratory of Surface Physics, Department of Physics, Fudan University, Shanghai, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xue",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Paul Scherrer Institute, Villigen PSI, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Pereira Curia, Guadalupe",
+        "short_name": "Pereira Curia G",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Paul Scherrer Institute, Villigen PSI, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Sternke-Hoffmann, Rebecca",
+        "short_name": "Sternke-Hoffmann R",
+        "identifiers": [
+          "0000-0002-1662-8244"
+        ],
+        "affiliations": [
+          "Center for Life Sciences, Paul Scherrer Institute, Villigen PSI, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Mörman, Cecilia",
+        "short_name": "Mörman C",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Life Sciences, Paul Scherrer Institute, Villigen PSI, Switzerland.",
+          "Department of Medicine Huddinge, Karolinska Institutet, Huddinge, Sweden."
+        ]
+      },
+      {
+        "full_name": "Gerez, Juan Atilio",
+        "short_name": "Gerez JA",
+        "identifiers": [
+          "0000-0002-3326-2897"
+        ],
+        "affiliations": [
+          "Institute of Molecular Physical Science, Department of Chemistry and Applied Biosciences, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Riek, Roland",
+        "short_name": "Riek R",
+        "identifiers": [
+          "0000-0002-6333-066X"
+        ],
+        "affiliations": [
+          "Institute of Molecular Physical Science, Department of Chemistry and Applied Biosciences, ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghong",
+        "short_name": "Wei G",
+        "identifiers": [
+          "0000-0001-5814-3328"
+        ],
+        "affiliations": [
+          "Key Laboratory for Computational Physical Sciences of Ministry of Education, Fudan University, Shanghai, PR China. ghwei@fudan.edu.cn.",
+          "State Key Laboratory of Surface Physics, Department of Physics, Fudan University, Shanghai, PR China. ghwei@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Luo, Jinghui",
+        "short_name": "Luo J",
+        "identifiers": [
+          "0000-0002-7014-8153"
+        ],
+        "affiliations": [
+          "Center for Life Sciences, Paul Scherrer Institute, Villigen PSI, Switzerland. jinghui.luo@psi.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Mar 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/11 06:57",
+    "fetched_at": "2026-09-18 01:31:32"
+  },
+  "links": {
+    "cites": [
+      "42622762",
+      "42325225"
+    ],
+    "refs": [
+      "41271735",
+      "40916915",
+      "40916348",
+      "40455990",
+      "40412392",
+      "39920231",
+      "39854227",
+      "39841807",
+      "39510192",
+      "39421885",
+      "39294489",
+      "38973194",
+      "38429263",
+      "38112495",
+      "37815389",
+      "37749234",
+      "37718544",
+      "37468629",
+      "37337111",
+      "37146977",
+      "36702317",
+      "36682493",
+      "36175408",
+      "35795820",
+      "35025654",
+      "34301955",
+      "34239348",
+      "34042235",
+      "33715003",
+      "33619090",
+      "33452693",
+      "33264400",
+      "33262278",
+      "32802734",
+      "32778792",
+      "32603876",
+      "32514159",
+      "32499559",
+      "32132204",
+      "31971365",
+      "31780819",
+      "31439664",
+      "31430179",
+      "31368873",
+      "31139718",
+      "31097543",
+      "30873835",
+      "30682370",
+      "30267747",
+      "29889206",
+      "29805999",
+      "29708745",
+      "29472250",
+      "29364893",
+      "29358076",
+      "28076807",
+      "27545621",
+      "27025652",
+      "26972288",
+      "26878581",
+      "26455390",
+      "26387100",
+      "26317470",
+      "24853936",
+      "24120937",
+      "23790380",
+      "23509981",
+      "23129775",
+      "22401494",
+      "22118285",
+      "21371747",
+      "21193853",
+      "20818335",
+      "20687558",
+      "20160450",
+      "19693614",
+      "19158417",
+      "18771816",
+      "18467692",
+      "15615635",
+      "12506200"
+    ],
+    "similar": [
+      "41807382",
+      "39043267",
+      "39854227",
+      "37776735",
+      "40846995",
+      "41766582",
+      "42442913",
+      "29940109",
+      "34239348",
+      "39349560",
+      "30102892",
+      "42225170",
+      "32857841",
+      "32966331",
+      "42593621",
+      "41465553",
+      "41465514",
+      "29708745",
+      "40611371",
+      "25307057",
+      "41824494",
+      "33278431",
+      "29200205",
+      "27975242",
+      "34719499",
+      "23225010",
+      "38888453",
+      "40658845",
+      "40229203",
+      "27770234",
+      "18771816",
+      "39501783",
+      "39494997",
+      "29093372",
+      "40319815",
+      "42665539",
+      "28261941",
+      "31414210",
+      "41880569",
+      "30346708",
+      "41342958",
+      "22660329",
+      "39613463",
+      "38849023",
+      "12888622",
+      "39561091",
+      "41725344",
+      "40419040",
+      "32096039",
+      "39558004",
+      "22954671",
+      "15465275",
+      "24965601",
+      "31234523",
+      "29472250",
+      "32957903",
+      "40133924",
+      "32784025",
+      "34164834",
+      "16768248",
+      "36975100",
+      "21715616",
+      "31627745",
+      "31847886",
+      "40940766",
+      "25336154",
+      "34072743",
+      "41206815",
+      "34098397",
+      "20802182",
+      "41008617",
+      "41997539",
+      "16226718",
+      "39890684",
+      "27518086",
+      "24493463",
+      "37633335",
+      "42542447",
+      "32456156",
+      "31874218",
+      "28707657",
+      "21605038",
+      "25032844",
+      "40639927",
+      "35405154",
+      "16446437",
+      "40580878",
+      "38167731",
+      "28888720",
+      "34655726",
+      "28623460",
+      "7525898",
+      "41581938",
+      "34825397",
+      "38018200",
+      "33895131",
+      "30143530",
+      "42418847",
+      "40719248",
+      "28453491"
+    ],
+    "review": [
+      "41807382",
+      "39043267",
+      "37776735",
+      "41766582",
+      "42442913",
+      "34239348",
+      "42225170",
+      "42593621",
+      "41465514",
+      "40611371",
+      "33278431",
+      "34719499",
+      "23225010",
+      "38888453",
+      "29093372",
+      "28261941",
+      "30346708",
+      "41342958",
+      "39613463",
+      "32096039",
+      "15465275",
+      "31234523",
+      "32957903",
+      "40133924",
+      "32784025",
+      "40940766",
+      "34072743",
+      "41206815",
+      "41008617",
+      "41997539",
+      "39890684",
+      "24493463",
+      "32456156",
+      "28707657",
+      "21605038",
+      "25032844",
+      "40639927",
+      "38167731",
+      "34655726",
+      "28623460",
+      "41581938",
+      "38018200",
+      "30143530",
+      "42418847"
+    ],
+    "pmc": [
+      "13106686"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-026-70083-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41807382/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

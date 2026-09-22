@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific claims, methodological rigor, data interpretation, and alignment with stated conclusions; no assessment of formatting or editorial style
+- **Shared manuscript claim summary** The authors report a large-scale comparative genomic analysis of insertion mutations across 81 ascomycete fungal proteomes, identifying over 30,000 insertions and 4,000 clade-defining insertions (CDIs). They report that insertions are enriched in protein kinases, depleted in structural and transmembrane domains, intrinsically disordered, and enriched in polar amino acids. They further claim that a specific insertion in S. cerevisiae Sth1 acquires a beta-strand conformation upon protein interaction and is functionally important for transcriptional regulation.
+- **Visible evidence base** Main text figures 1-4, tables 1-5, supplementary figures 1-3, supplementary tables 1-4, supplementary Excel files 1-5, methods section
+- **Missing materials affecting confidence** Supplementary Excel files 1-5 were not provided for review; supplementary figures and tables were referenced but not included in the supplied material; raw sequence alignments and bioinformatics scripts were not provided
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially valuable large-scale dataset on insertion mutations in fungal proteomes, with several observations that could be of interest to evolutionary biologists and protein scientists. However, the analysis has significant methodological limitations that undermine the strength of the central claims. The definition of CDIs relies on arbitrary thresholds, the statistical framework for enrichment analyses is not fully described, and the functional significance claims rest on a single literature-derived example rather than direct experimental validation. The manuscript would benefit from a more rigorous treatment of alignment quality, a clearer description of the bioinformatics pipeline, and a more cautious interpretation of the functional implications.
+- **Who would be interested in the results, and why** Evolutionary biologists studying protein evolution and the role of indels in diversification would find the large-scale catalog of insertions useful. Researchers working on fungal pathogenesis, particularly in the CTG clade, may be interested in the clade-specific insertion patterns. Protein biochemists studying intrinsically disordered regions and their functional roles could find the compositional analysis relevant. However, the current presentation limits the utility of the dataset for these communities.
+- **Major strengths** The manuscript addresses an understudied topic, namely the systematic analysis of insertion mutations across fungal clades. The scale of the analysis, covering 81 proteomes and identifying over 30,000 insertions, is substantial. The observation that insertions are enriched in protein kinases and depleted from structural domains is potentially interesting. The use of AlphaFold pLDDT scores to assess disorder is a modern approach. The Sth1 example provides a concrete case study of how an insertion can acquire functional significance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors claim to have identified over 30,000 insertions and 4,000 CDIs across 81 ascomycete proteomes using a blastp-based approach with a single best hit per query protein.
+  - **Evidence pointer** Results and Discussion, "Identification and characterization of indels" section; Tables 1-2; Supplementary Excel files 4-5
+  - **Concern** The bioinformatics pipeline relies on blastp with a single best hit per C. albicans query protein, which may miss paralogs or lineage-specific expansions. The e-value threshold of 9.9e-30 is extremely stringent and will exclude many bona fide orthologs, particularly for shorter or rapidly evolving proteins. The authors acknowledge this limitation but do not assess how it biases the downstream analyses. More critically, the definition of CDIs requires a minimum of 5 strains sharing an insertion, but the rationale for this threshold is not provided, and the sensitivity of the results to this parameter is not tested. The distinction between "algorithm-related inserts" and true biological inserts is based on flanking alignment quality, but the specific criteria are not described in sufficient detail to be reproducible.
+  - **Why it matters** The central claims of the manuscript, including the counts of insertions and CDIs and their distribution across functional categories, depend entirely on the quality and reproducibility of the bioinformatics pipeline. Without a clear demonstration that the results are robust to parameter choices and alignment artifacts, the quantitative findings cannot be trusted.
+  - **Resolution test** The authors should provide a detailed description of the insertion identification algorithm, including pseudocode or a software repository. They should perform sensitivity analyses varying the e-value threshold, the minimum number of strains defining a CDI, and the flanking alignment criteria. They should also validate a random subset of insertions by manual inspection of alignments or by comparison to an independent alignment method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical analysis
+  - **Claim pointer** The authors claim that protein kinases are significantly enriched in insertions and that oxidative phosphorylation proteins are significantly depleted, based on KEGG pathway assignments.
+  - **Evidence pointer** Results and Discussion, "CDI generation and retention" and "Orthology analysis of insert-containing proteins" sections; Tables 3-4; Supplementary Excel file 2
+  - **Concern** The statistical framework for the enrichment and depletion analyses is not described. The authors report chi-square tests for amino acid composition but do not state what test was used for pathway enrichment. It is unclear whether multiple testing correction was applied, which is essential when testing many KEGG pathways and functional categories. The authors also do not report effect sizes or confidence intervals, making it impossible to assess the biological magnitude of the reported enrichments. The statement that "the pattern is always consistent across the strains involved" is presented without supporting statistical evidence.
+  - **Why it matters** The claim that insertions are non-randomly distributed across functional categories is a key finding of the manuscript. Without a proper statistical framework, these claims could be driven by chance or by biases in the underlying data (e.g., differences in protein length or conservation across pathways).
+  - **Resolution test** The authors should specify the statistical test used for enrichment analysis, apply appropriate multiple testing corrections (e.g., Benjamini-Hochberg), and report effect sizes with confidence intervals. They should also provide the full results table for all KEGG pathways tested, not just those that reached significance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional interpretation
+  - **Claim pointer** The authors claim that a specific insertion in S. cerevisiae Sth1 forms a beta-strand upon interaction with Taf14 and that this interaction is functionally important for transcriptional regulation.
+  - **Evidence pointer** Results and Discussion, "Insertion sequences can acquire functional significance" section; Figure 4B; Supplementary Figure 3
+  - **Concern** The functional significance claim for the Sth1 insertion is based entirely on previously published work (Chen et al. 2020) and a structural model. The authors do not present any new experimental data to support the claim that this insertion is functionally important. The statement that the insertion "performs a vital role" is an overinterpretation of the cited literature, which may have demonstrated a role for the Sth1-Taf14 interaction but not specifically for the insertion sequence itself. The authors also do not discuss whether the insertion is conserved across the Saccharomycetaceae clade in terms of its functional role, or whether the beta-strand conformation is observed in the context of the full-length protein.
+  - **Why it matters** The Sth1 example is used to support the broader claim that insertions can impart functionally important properties. If this example is not directly demonstrated to be functionally relevant, the general claim is weakened.
+  - **Resolution test** The authors should either present new experimental data (e.g., mutagenesis of the insertion sequence and functional assays) or temper their language to accurately reflect that the functional significance is inferred from prior work. They should also clarify whether the beta-strand conformation is specific to the insertion or a general property of the region.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data availability and reproducibility
+  - **Claim pointer** The authors state that all data are available in supplementary files, including alignments and analysis results.
+  - **Evidence pointer** Methods section; Supplementary Excel files 1-5; Supplementary Archive_fasta; Supplementary Archive_MSAs
+  - **Concern** The supplementary materials were not provided for review, making it impossible to verify the claims or assess the quality of the underlying data. The authors reference "Supplementary Archive_fasta" and "Supplementary Archive_MSAs" but do not describe their contents or format. The methods section lacks details on software versions for some tools (e.g., the python script for insertion identification) and does not provide parameters for all analyses.
+  - **Why it matters** Reproducibility is a core requirement for computational analyses. Without access to the data and code, other researchers cannot verify the findings or build upon them.
+  - **Resolution test** The authors should make all supplementary materials publicly available, including the raw blastp results, multiple sequence alignments, and the insertion identification script. They should provide a detailed methods description that would allow independent replication of the analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 2D
+  - **Evidence pointer** Figure 2D
+  - **Issue** The figure shows that insert-containing proteins are longer than average, but the statistical significance of this difference is not reported.
+  - **Required correction** Add a statistical test (e.g., t-test or Mann-Whitney U test) and report the p-value in the figure legend or text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Discussion of CDI loss rates
+  - **Evidence pointer** Results and Discussion, "CDI generation and retention" section; Supplementary Table 1
+  - **Issue** The authors report CDI loss rates ranging from 0.7-3.2 CDIs/MY but do not discuss the assumptions underlying these estimates, such as the molecular clock or the timing of clade divergence.
+  - **Required correction** Provide a brief explanation of how loss rates were calculated and acknowledge the uncertainties in these estimates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of analysis
+  - **Affected element** Amino acid composition analysis
+  - **Evidence pointer** Table 5
+  - **Issue** The authors report chi-square results for amino acid composition but do not specify which amino acids were tested or how the expected values were calculated.
+  - **Required correction** Clarify the statistical approach and provide the full table of observed and expected counts for each amino acid.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction; Discussion
+  - **Issue** The manuscript does not discuss previous large-scale analyses of indels in fungal genomes, which would help contextualize the novelty of the findings.
+  - **Required correction** Add a brief review of prior indel analyses in fungi and explain how this study advances the field.
+- **Technical failings that need to be addressed before the case is established** The bioinformatics pipeline is not described in sufficient detail to be reproducible, and the statistical framework for enrichment analyses is incomplete. The sensitivity of the results to key parameters (e-value threshold, CDI definition) is not tested. The functional significance claim for Sth1 is not supported by new experimental data.
+- **Assessment against Nature-style criteria** Originality: The topic of insertion mutations in fungal proteomes is relatively underexplored, and the large-scale dataset is a potential contribution. However, the analytical approach is largely descriptive and does not offer a new conceptual framework. Scientific importance: The findings could be relevant to understanding protein evolution and fungal pathogenesis, but the current analysis does not establish a clear causal link between insertions and functional outcomes. Interdisciplinary readership: The manuscript may appeal to evolutionary biologists, mycologists, and protein biochemists, but the presentation is too specialized for a broad audience. Technical soundness: The methods have significant gaps in reproducibility and statistical rigor, which undermine confidence in the results. Readability for nonspecialists: The manuscript is written in a technical style that assumes familiarity with bioinformatics and fungal genomics; the key findings are not summarized in an accessible way.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially useful dataset, but the methodological limitations and lack of direct functional validation prevent the central claims from being fully supported. The authors should address the major concerns regarding pipeline transparency, statistical rigor, and functional interpretation before the manuscript can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that "insertions are strikingly over-represented in protein kinases" is not supported by a described statistical test or effect size.
+- The claim that "insertions are excluded from structural domains and transmembrane segments" is based on a single analysis (AlphaFold pLMF) without validation against experimental structures.
+- The claim that "insertions are predicted to be highly disordered" is based on AlphaFold pLDDT scores, which are a proxy for disorder and not a direct measurement.
+- The claim that the Sth1 insertion "performs a vital role in RSC-mediated transcriptional regulation" is not supported by new data and overstates the findings of the cited literature.
+- The quantitative counts of insertions and CDIs (over 30,000 and 4,000, respectively) cannot be verified without access to the supplementary data files.

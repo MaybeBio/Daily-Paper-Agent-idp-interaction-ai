@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors use NMR spectroscopy and molecular dynamics simulations to characterize interactions between three SARS-CoV-2 nucleocapsid protein constructs and heparin-based ligands of increasing size and complexity. They report that longer saccharide chains promote stronger binding, that inclusion of intrinsically disordered regions enhances interaction relative to the folded NTD alone, and that the full-length protein shows distinct spectral behavior suggesting additional binding contributions and altered dynamics.
+- **Visible evidence base** Abstract text only; no experimental data, spectra, simulation details, or quantitative binding parameters are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, NMR assignment details, MD simulation parameters, quantitative binding affinities, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a scientifically interesting question about how structural heterogeneity in the SARS-CoV-2 nucleocapsid protein modulates interactions with heparin-based ligands. The combination of NMR and MD simulations is appropriate for studying both ordered and disordered regions. However, the abstract provides only qualitative statements about binding trends without quantitative data, and the key claims about enhanced binding due to disordered regions and distinct full-length behavior are not supported by specific evidence visible in the abstract. The work has potential interest for the structural biology and virology communities, but the case as presented is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists studying intrinsically disordered proteins and their interaction mechanisms; researchers investigating SARS-CoV-2 biology, particularly the role of the nucleocapsid protein in host cell interactions; glycosaminoglycan researchers interested in protein-heparin recognition; NMR spectroscopists applying high-resolution methods to challenging heterogeneous systems.
+- **Major strengths** The study addresses a biologically relevant question about how structural disorder influences molecular recognition. The use of multiple protein constructs (NTD, NTR, full-length) provides a systematic approach to dissect contributions from different regions. The combination of NMR and MD simulations is well suited to capture both dynamic and structural aspects of the interaction. The focus on heparin-based ligands of increasing complexity is a thoughtful experimental design.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims a "clear correlation between ligand size and binding affinity" with "longer saccharide chains promote stronger binding."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states a clear correlation between ligand size and binding affinity but provides no quantitative data, such as dissociation constants, binding curves, or NMR titration results. No numerical values, error estimates, or statistical measures are presented to support the strength or significance of this correlation.
+  - **Why it matters** A "clear correlation" is a strong quantitative claim. Without visible binding parameters or statistical analysis, the reader cannot assess whether the observed trend is robust, whether it reaches statistical significance, or whether the effect size is biologically meaningful. This is central to the paper's main conclusion.
+  - **Resolution test** Provide quantitative binding affinities (e.g., Kd values) for each construct with each heparin ligand, including error estimates and statistical comparisons. Show titration data or binding isotherms in figures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "inclusion of intrinsically disordered regions in the NTR construct significantly enhances the interaction compared to NTD."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim of significant enhancement is presented without any quantitative comparison. No binding constants, relative affinity values, or statistical significance measures are provided. The term "significantly" implies statistical testing, but no such results are visible.
+  - **Why it matters** This claim is a key finding of the study, as it directly addresses the functional relevance of structural disorder. Without quantitative evidence, the reader cannot determine whether the enhancement is modest or substantial, or whether it is reproducible across experimental replicates.
+  - **Resolution test** Present quantitative binding data comparing NTD and NTR constructs, with statistical analysis (e.g., p-values or confidence intervals) and effect sizes. Show representative NMR spectra or titration curves that demonstrate the difference.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the full-length protein "exhibits distinct spectral behavior" with the heparin ligand, "potentially reflecting additional binding contributions and altered dynamics."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim about distinct spectral behavior is vague and the interpretation is explicitly speculative ("potentially reflecting"). No specific spectral changes are described, and no evidence is provided to distinguish between alternative explanations, such as aggregation, non-specific binding, or conformational changes unrelated to specific interaction.
+  - **Why it matters** The full-length protein is the most biologically relevant construct, and the claim of distinct behavior is presented as a notable finding. However, the speculative interpretation and lack of specific evidence weaken the conclusion. The reader cannot assess whether the observed behavior is due to the intended interaction or to experimental artifacts.
+  - **Resolution test** Provide specific NMR spectral data (e.g., chemical shift perturbations, linewidth changes, relaxation measurements) for the full-length protein with and without heparin. Discuss and rule out alternative explanations such as aggregation or non-specific effects.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Construct nomenclature
+  - **Evidence pointer** Abstract text
+  - **Issue** The constructs are defined as (44)NTD(180), (1)NTR(248), and (1)N(419), but the abstract does not explain what "NTR" stands for or why this particular construct boundary (residues 1-248) was chosen.
+  - **Required correction** Define the construct names in full and briefly justify the choice of construct boundaries.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** MD simulation results
+  - **Evidence pointer** Abstract text
+  - **Concern** The abstract mentions that MD simulations "further probe the interaction between NTD and short heparin oligosaccharides" but does not report any specific findings from these simulations.
+  - **Required correction** Include a brief summary of the key MD results, such as binding poses, contact residues, or interaction energies, to show what the simulations added beyond the NMR data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Ligand description
+  - **Evidence pointer** Abstract text
+  - **Concern** The abstract refers to "heparin-based ligands of increasing complexity" without specifying the exact nature of these ligands (e.g., chain lengths, sulfation patterns, or whether they are homogeneous or heterogeneous preparations).
+  - **Required correction** Specify the ligands used, including chain lengths and any relevant structural features, to allow readers to understand the basis of the size-dependent trend.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The core claims of size-dependent binding, enhanced interaction due to disordered regions, and distinct full-length behavior all require quantitative evidence that is not visible in the abstract.
+- **Assessment against Nature-style criteria** Originality: The question of how structural disorder modulates protein-heparin interactions in the SARS-CoV-2 N protein is timely and somewhat novel, though the general concept of multivalent interactions in disordered proteins is established. Scientific importance: The work has potential relevance for understanding SARS-CoV-2 host interactions, but the significance is not fully demonstrated from the abstract alone. Interdisciplinary readership: The topic bridges structural biology, virology, and glycosaminoglycan chemistry, which could attract a broad audience. Technical soundness: The choice of NMR and MD is appropriate, but the abstract does not provide enough detail to assess the rigor of the experiments or analysis. Readability for nonspecialists: The abstract is generally clear but uses domain-specific terminology without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The scientific question is interesting and the experimental approach is sound, but the abstract lacks the quantitative data needed to support the central claims. The manuscript may become publishable if the full paper provides robust binding measurements, statistical analyses, and specific spectral evidence. I would be supportive if these technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of a "clear correlation between ligand size and binding affinity" is unsupported by visible quantitative data.
+- The claim that disordered regions "significantly enhance" the interaction is unsupported without statistical evidence.
+- The interpretation of distinct spectral behavior in the full-length protein as reflecting "additional binding contributions and altered dynamics" is speculative and not supported by specific evidence.
+- The overall conclusion that the findings "underscore the utility of NMR spectroscopy" is a reasonable general statement but is not specifically evidenced in the abstract.
+- Any quantitative binding parameters, statistical measures, or simulation results mentioned in the abstract are not visible and therefore cannot be evaluated.

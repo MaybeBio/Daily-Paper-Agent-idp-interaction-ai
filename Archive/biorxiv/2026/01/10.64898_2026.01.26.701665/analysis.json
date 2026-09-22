@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.26.701665",
+  "title": "Dual-channel graph learning reveals similarity and complementarity in protein-protein interaction networks",
+  "authors": "Tao Tang; Taiguang Shen; Weizhuo Li; Yangyang Chen; Sisi Yuan; Yuansheng Liu; Xinyu Yang; Xiao Luo",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-27",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 6,
+  "one_liner_zh": "提出双通道图神经网络DMG-PPI，在PPI网络中联合建模相似性与互补性两种界面互作机制，虽非针对无序蛋白/IDR，但其互作机制建模思路对无序蛋白介导的PPI研究有可迁移启发。",
+  "abstract": "Protein-protein interactions (PPIs) are governed by two fundamental interfacial mechanisms: similarity-driven, often involving symmetric structural motifs, and complementarity-driven, arising from geometric and physicochemical matching between binding surfaces. Despite their biological significance, computational models have largely overlooked the coexistence and interplay of these twofold interaction modes. Here, we introduce DMG-PPI, a dual-channel graph neural network framework that jointly models similarity and complementarity in PPI networks, extending prior heterophilous GNN concepts to explicitly disentangle these dual interaction modes. The model consists of two parallel message-passing pathways: Alignment Message Passing (AMP), which aggregates signals from similar neighbors to capture symmetric interfaces, and Divergence Message Passing (DMP), which contrasts node features to extract complementary binding patterns. The signals captured by AMP and DMP are integrated via an adaptive fusion strategy within each block, and the outputs of blocks are aggregated using the MixHop framework to encode higher-order interaction patterns. DMG-PPI substantially outperforms state-of-the-art methods on classical benchmark datasets, achieving a 7.19% improvement in Micro-F1 over the second-best method. Additionally, the dual-channel framework provides interpretable insights into key binding residues by identifying interfacial mechanisms. Overall, DMG-PPI serves as a powerful tool that reveals the mechanisms behind accurate PPI predictions and facilitates downstream biological analysis. Author summary Proteins interact through multiple interfacial principles rather than a single uniform mechanism, reflecting diverse modes of molecular recognition between binding partners. Accurately modeling this heterogeneity remains a central challenge in protein–protein interaction (PPI) prediction. Existing computational approaches often overlook such complexity and treat all interactions as arising from a dominant pattern. To address this limitation, we present DMG-PPI, a dual-channel graph neural network framework designed to account for distinct interaction principles within a unified model. By modeling both similarity-based and complementarity-based interaction signals, DMG-PPI enables a more comprehensive representation of interaction patterns in PPI networks. Evaluations on widely used benchmark datasets demonstrate that our approach achieves robust and consistent improvements over existing methods. Beyond prediction accuracy, DMG-PPI provides biologically meaningful interpretability by highlighting key residues and revealing distinct interfacial interaction mechanisms, offering valuable insights for downstream structural and functional studies.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）受两种基本界面机制调控：相似性驱动机制，通常涉及对称结构基序；以及互补性驱动机制，源于结合表面之间的几何和物理化学匹配。尽管这些机制具有重要的生物学意义，但计算模型在很大程度上忽视了这两种相互作用模式的共存与交互。在此，我们提出DMG-PPI，一种双通道图神经网络框架，在PPI网络中联合建模相似性与互补性，将先前的异质性图神经网络（heterophilous GNN）概念扩展，以显式解耦这两种相互作用模式。该模型包含两条并行的消息传递路径：对齐消息传递（AMP），聚合来自相似邻居的信号以捕获对称界面；以及发散消息传递（DMP），对比节点特征以提取互补结合模式。AMP和DMP捕获的信号通过每个块内的自适应融合策略进行整合，各块的输出使用MixHop框架聚合，以编码高阶相互作用模式。DMG-PPI在经典基准数据集上显著优于现有最先进方法，在Micro-F1上比次优方法提升7.19%。此外，双通道框架通过识别界面机制，为关键结合残基提供了可解释的见解。总体而言，DMG-PPI作为一种强大工具，揭示了准确PPI预测背后的机制，并促进下游生物学分析。\n\n作者总结 蛋白质通过多种界面原则而非单一统一机制进行相互作用，反映了结合伙伴之间分子识别的多样模式。准确建模这种异质性仍是蛋白质-蛋白质相互作用（PPI）预测中的核心挑战。现有计算方法往往忽视这种复杂性，将所有相互作用视为由一种主导模式产生。为解决这一局限，我们提出DMG-PPI，一种双通道图神经网络框架，旨在统一模型中考虑不同的相互作用原则。通过同时建模基于相似性和基于互补性的相互作用信号，DMG-PPI实现了对PPI网络中相互作用模式更全面的表征。在广泛使用的基准数据集上的评估表明，我们的方法相较于现有方法取得了稳健且一致的改进。除预测准确性外，DMG-PPI通过突出关键残基并揭示不同的界面相互作用机制，提供了具有生物学意义的可解释性，为下游结构和功能研究提供了宝贵见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.26.701665",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.26.701665",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.26.701665/index.html"
+}

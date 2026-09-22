@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.20.660748",
+  "title": "The evolution of allostery in a protein family",
+  "authors": "Martí-Aranda A; Lehner B",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-21",
+  "window": {
+    "start": "2025-06-16",
+    "end": "2025-06-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究同源蛋白家族中变构相互作用的进化保守性，构建变构图谱，但对象为折叠蛋白且未涉及无序蛋白/IDR、PPI机制或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "Allosteric interactions in proteins are key to biological regulation and the efficacy of many drugs. The extent to which allostery is conserved in evolutionarily-related proteins is unknown, with implications for predicting, engineering and therapeutically targeting allostery. Here we directly address this question by constructing seven comprehensive allosteric maps for five homologous human proteins. The comparative maps reveal a modular allosteric architecture with conserved distant-dependent allosteric decay across the protein core connecting to protein-specific allosteric extensions to surfaces. These allosteric augmentations use both structurally-conserved residues and homolog-specific domain extensions. Our data provide the first comparative multidimensional protein energy landscapes and suggest that allostery evolves via the gain-and-loss of peripheral extensions to a conserved allosteric core.",
+  "abstract_zh": "蛋白质中的变构相互作用是生物调控及许多药物疗效的关键。变构在进化相关蛋白质中的保守程度尚不清楚，这对预测、工程化及治疗性靶向变构具有重要意义。在此，我们通过构建五种同源人类蛋白质的七张全面变构图谱，直接探讨了这一问题。比较图谱揭示了一种模块化变构架构，其中具有保守的、随距离依赖的变构衰减，贯穿连接至蛋白质表面的蛋白质特异性变构延伸的蛋白质核心。这些变构增强利用了结构保守残基及同源特异性结构域延伸。我们的数据提供了首个比较性多维蛋白质能量景观，并表明变构通过外周延伸的获得与丢失在保守变构核心上进化。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.20.660748",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.20.660748",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.20.660748/index.html"
+}

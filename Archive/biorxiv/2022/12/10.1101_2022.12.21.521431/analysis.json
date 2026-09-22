@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.21.521431",
+  "title": "Mechanism of LLPS of SARS-CoV-2 N protein",
+  "authors": "Dang M; Li T; Song J",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-21",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过NMR和DIC系统解析SARS-CoV-2 N蛋白IDR与核酸/ATP多价动态互作调控LLPS的机制，对象、互作与物理实验方法齐备，虽无AI/模拟但机制建模深度高，对IDR介导PPI与相分离机制建模有直接启发。",
+  "abstract": "SARS-CoV-2 nucleocapsid (N) protein with low mutation rate is the only structural protein not only functioning to package viral genomic RNA, but also manipulating the host-cell machineries, thus representing a key target for drug development. Recent discovery of its liquid-liquid phase separation (LLPS) not only sheds light on previously-unknown mechanisms underlying the host-SARS-CoV-2 interaction and viral life cycle, but most importantly opens up a new direction for developing anti-SARS-CoV-2 strategies/drugs. However, so far the high-resolution mechanism of LLPS of N protein still remains unknown because it is not amenable for high-resolution biophysical investigations. Here we systematically dissected N protein into differential combinations of domains followed by DIC and NMR characterization. We successfully identified N (1-249), which not only gives high-quality NMR spectra, but phase separates as the full-length N protein. The results together decode for the first time: 1) nucleic acid modulates LLPS by dynamic but specific interactions multivalently over both folded NTD/CTD and Arg/Lys residues within IDRs. 2) ATP, mysteriously with concentrations >mM in all living cells but absent in viruses, not only specifically binds NTD/CTD, but also Arg residues within IDRs with Kd of 2.8 mM. 3) ATP dissolves LLPS by competitively displacing nucleic acid from binding the protein. Therefore, ATP and nucleic acid interplay in modulating LLPS by specific competitions for binding over the highly overlapped binding sites. Our study deciphers the mechanism of LLPS of N protein, which is targetable by small molecules. ATP is not only emerging as a cellular factor controlling the host-SARS-CoV-2 interaction, but also provides a lead for developing anti-SARS-CoV-2 drugs efficient for different variants of SARS-CoV-2. Fundamentally, our results imply that the mechanisms of LLPS of IDR-containing proteins mediated by ATP and nucleic acids appear to be highly conserved from human to virus.",
+  "abstract_zh": "SARS-CoV-2核衣壳（N）蛋白突变率低，是唯一不仅包装病毒基因组RNA，还操控宿主细胞机制的 structural protein，因此成为药物开发的关键靶点。其液-液相分离（LLPS）的近期发现不仅揭示了宿主-SARS-CoV-2相互作用和病毒生命周期中先前未知的机制，更重要的是为开发抗SARS-CoV-2策略/药物开辟了新方向。然而，迄今为止，N蛋白LLPS的高分辨率机制仍未知，因为它不适合进行高分辨率生物物理研究。在此，我们系统地将N蛋白分解为不同结构域组合，随后进行DIC和NMR表征。我们成功鉴定了N（1-249），它不仅产生高质量NMR谱，而且像全长N蛋白一样发生相分离。结果共同首次解码了：1）核酸通过动态但特异性的相互作用，在折叠的NTD/CTD和IDR内的Arg/Lys残基上多价调节LLPS。2）ATP，神秘地在所有活细胞中浓度>mM但在病毒中缺失，不仅特异性结合NTD/CTD，还结合IDR内的Arg残基，Kd为2.8 mM。3）ATP通过竞争性置换核酸与蛋白结合来溶解LLPS。因此，ATP和核酸在调节LLPS中通过高度重叠结合位点上的特异性竞争相互作用。我们的研究阐明了N蛋白LLPS的机制，该机制可被小分子靶向。ATP不仅作为控制宿主-SARS-CoV-2相互作用的细胞因子出现，还为开发对不同SARS-CoV-2变异株有效的抗SARS-CoV-2药物提供了先导化合物。从根本上说，我们的结果表明，由ATP和核酸介导的含IDR蛋白LLPS机制从人类到病毒似乎高度保守。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.21.521431",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.21.521431",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.21.521431/index.html"
+}

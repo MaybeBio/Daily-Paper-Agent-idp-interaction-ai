@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "39642180",
+    "doi": "10.1021/acs.biochem.4c00512",
+    "title": "Identification of an Intrinsically Disordered Region (IDR) in Arginyltransferase 1 (ATE1)."
+  },
+  "content": {
+    "abstract": "Arginyltransferase 1 (ATE1) catalyzes arginylation, an important posttranslational modification (PTM) in eukaryotes that plays a critical role in cellular homeostasis. The disruption of ATE1 function is implicated in mammalian neurodegenerative disorders and cardiovascular maldevelopment, while posttranslational arginylation has also been linked to the activities of several important human viruses such as SARS-CoV-2 and HIV. Despite the known significance of ATE1 in mammalian cellular function, past biophysical studies of this enzyme have mainly focused on yeast ATE1, leaving the mechanism of arginylation in mammalian cells unclear. In this study, we sought to structurally and biophysically characterize mouse (Mus musculus) ATE1. Using size-exclusion chromatography (SEC), small-angle X-ray scattering (SAXS), and hydrogen-deuterium exchange mass spectrometry (HDX-MS), assisted by AlphaFold modeling, we found that mouse ATE1 is structurally more complex than yeast ATE1. Importantly, our data indicate the existence of an intrinsically disordered region (IDR) in all mouse ATE1 splice variants. However, comparative HDX-MS analyses show that yeast ATE1 does not have such an IDR, consistent with prior X-ray, cryo-EM, and SAXS analyses. Furthermore, bioinformatics approaches reveal that mammalian ATE1 sequences, as well those as in a large majority of other eukaryotes, contain an IDR-like sequence positioned in proximity to the ATE1 GNAT active-site fold. Computational analysis suggests that the IDR facilitates the formation of a complex between ATE1 and tRNA(Arg), adding a new complexity to the ATE1 structure and providing new insights for future studies of ATE1 functions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Mice",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/genetics",
+      "*Aminoacyltransferases/metabolism/chemistry/genetics",
+      "Scattering, Small Angle",
+      "X-Ray Diffraction",
+      "Models, Molecular",
+      "Amino Acid Sequence",
+      "Humans",
+      "Hydrogen Deuterium Exchange-Mass Spectrometry",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cartwright, Misti",
+        "Parakra, Rinky",
+        "Oduwole, Ayomide",
+        "Zhang, Fangliang",
+        "Deredge, Daniel J",
+        "Smith, Aaron T"
+      ],
+      "short_names": [
+        "Cartwright M",
+        "Parakra R",
+        "Oduwole A",
+        "Zhang F",
+        "Deredge DJ",
+        "Smith AT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6897-6523",
+        "ORCID: 0000-0002-9332-8683"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of Maryland, Baltimore County, Baltimore, Maryland 21250, United States.",
+        "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, Maryland 21201, United States.",
+        "Department of Chemistry and Biochemistry, University of Maryland, Baltimore County, Baltimore, Maryland 21250, United States.",
+        "Department of Molecular and Cellular Pharmacology, University of Miami, Miller School of Medicine & Sylvester Comprehensive Cancer Center, Miami, Florida 33136, United States.",
+        "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, Maryland 21201, United States.",
+        "Department of Chemistry and Biochemistry, University of Maryland, Baltimore County, Baltimore, Maryland 21250, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cartwright, Misti",
+        "short_name": "Cartwright M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Maryland, Baltimore County, Baltimore, Maryland 21250, United States."
+        ]
+      },
+      {
+        "full_name": "Parakra, Rinky",
+        "short_name": "Parakra R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, Maryland 21201, United States."
+        ]
+      },
+      {
+        "full_name": "Oduwole, Ayomide",
+        "short_name": "Oduwole A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Maryland, Baltimore County, Baltimore, Maryland 21250, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fangliang",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Pharmacology, University of Miami, Miller School of Medicine & Sylvester Comprehensive Cancer Center, Miami, Florida 33136, United States."
+        ]
+      },
+      {
+        "full_name": "Deredge, Daniel J",
+        "short_name": "Deredge DJ",
+        "identifiers": [
+          "0000-0002-6897-6523"
+        ],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, Maryland 21201, United States."
+        ]
+      },
+      {
+        "full_name": "Smith, Aaron T",
+        "short_name": "Smith AT",
+        "identifiers": [
+          "0000-0002-9332-8683"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Maryland, Baltimore County, Baltimore, Maryland 21250, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemistry"
+    ],
+    "journal_abbrev": [
+      "Biochemistry"
+    ],
+    "pub_date": "2024 Dec 17",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/06 18:24",
+    "fetched_at": "2026-09-21 13:21:36"
+  },
+  "links": {
+    "cites": [
+      "41965464",
+      "40381981"
+    ],
+    "refs": [
+      "39068213",
+      "38718835",
+      "38705823",
+      "38322719",
+      "37127974",
+      "37076488",
+      "36969402",
+      "36774964",
+      "36709327",
+      "36648282",
+      "36087779",
+      "35878037",
+      "35098694",
+      "34723319",
+      "34265844",
+      "33931669",
+      "33833657",
+      "33443146",
+      "33228359",
+      "32881101",
+      "32627813",
+      "32553119",
+      "32366662",
+      "32100577",
+      "30622213",
+      "30278223",
+      "29605933",
+      "28900170",
+      "28894508",
+      "27911701",
+      "27685622",
+      "27630371",
+      "27358108",
+      "27151198",
+      "26686093",
+      "25369936",
+      "25150862",
+      "24529990",
+      "23567256",
+      "23553817",
+      "23499006",
+      "22749400",
+      "22626847",
+      "22034591",
+      "21988835",
+      "21784066",
+      "21633985",
+      "21509745",
+      "21276945",
+      "19592714",
+      "16794040",
+      "16267872",
+      "10550212",
+      "10354416",
+      "7984417",
+      "7495814",
+      "5722252",
+      "2185248",
+      "1438297"
+    ],
+    "similar": [
+      "39642180",
+      "39229138",
+      "36682863",
+      "36087779",
+      "24529990",
+      "27685622",
+      "37505085",
+      "32553119",
+      "16002466",
+      "35878037",
+      "27510035",
+      "33443146",
+      "38297346",
+      "16943202",
+      "27318192",
+      "25369936",
+      "39207120",
+      "35247316",
+      "24293517",
+      "36077558",
+      "39068213",
+      "26285882",
+      "16826240",
+      "37010764",
+      "35008737",
+      "39852692",
+      "30586322",
+      "37010752",
+      "30177837",
+      "33228359",
+      "30385798",
+      "34896361",
+      "37076488",
+      "37010756",
+      "37832787",
+      "28844905",
+      "21276945",
+      "36226970",
+      "9858543",
+      "20300656",
+      "40099869",
+      "26285883",
+      "26320411",
+      "33409279",
+      "26511365",
+      "32696361",
+      "29196701",
+      "26686093",
+      "22280815",
+      "35561126",
+      "19890395",
+      "34669233",
+      "34565409",
+      "18948421",
+      "37010748",
+      "31721348",
+      "21784066",
+      "31606094",
+      "37010749",
+      "36454645",
+      "22626847",
+      "32435206",
+      "37791766",
+      "34158395",
+      "37010758",
+      "30597201",
+      "22577142",
+      "39642200",
+      "39844741",
+      "37010750",
+      "37010744",
+      "38854050",
+      "39605427",
+      "19915679",
+      "27345715",
+      "34243065",
+      "32112332",
+      "25017061",
+      "29208936",
+      "33248138",
+      "32585849",
+      "37010757",
+      "34710113",
+      "34012049",
+      "25381249",
+      "28900170",
+      "29844400",
+      "33030249",
+      "26285881",
+      "26285876",
+      "26285889",
+      "26285884",
+      "36709327",
+      "33627133",
+      "39358423",
+      "29218556",
+      "38296708",
+      "36851505",
+      "30840442",
+      "29295953"
+    ],
+    "review": [
+      "39642180",
+      "27318192",
+      "26320411",
+      "31721348",
+      "21784066",
+      "36454645",
+      "33248138",
+      "26285876",
+      "29218556",
+      "38296708"
+    ],
+    "pmc": [
+      "12045025"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39642180/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/bichaw/article-lookup/doi/10.1021/acs.biochem.4c00512",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

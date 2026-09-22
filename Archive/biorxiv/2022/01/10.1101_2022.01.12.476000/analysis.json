@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.01.12.476000",
+  "title": "Computational Prediction of Heteromeric Protein Complex Disassembly Order with Hybrid Monte Carlo/Molecular Dynamics Simulation",
+  "authors": "Ikuo Kurisaki; Shigenori Tanaka",
+  "journal": "bioRxiv",
+  "published_date": "2022-01-12",
+  "window": {
+    "start": "2022-01-10",
+    "end": "2022-01-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用混合蒙特卡洛/分子动力学模拟预测异源多聚蛋白复合物的解离顺序，虽非无序蛋白对象，但多亚基解离机制建模思路对IDR介导PPI的动态机制研究有可迁移启发。",
+  "abstract": "The physicochemical entity of biological phenomenon in the cell is a network of biochemical reactions and the activity of such a network is regulated by multimeric protein complexes. Mass spectroscopy (MS) experiments and multimeric protein docking simulations based on structural bioinformatics techniques have revealed the molecular-level stoichiometry and static configuration of subcomplexes in their bound forms, then revealing the subcomplex populations and formation orders. Meanwhile, these methodologies are not designed to straightforwardly examine temporal dynamics of multimeric protein assembly and disassembly, essential physicochemical properties to understand functional expression mechanisms of proteins in the biological environment. To address the problem, we had developed an atomistic simulation in the framework of the hybrid Monte Carlo/Molecular Dynamics (hMC/MD) method and succeeded in observing disassembly of homomeric pentamer of the serum amyloid P component protein in experimentally consistent order. In this study, we improved the hMC/MD method to examine disassembly processes of the tryptophan synthase tetramer, a paradigmatic heteromeric protein complex in MS studies. We employed the likelihood-based selection scheme to determine a dissociation-prone subunit pair at each hMC/MD simulation cycle and achieved highly reliable predictions of the disassembly orders with the success rate over 0.9 without a priori knowledge of the MS experiments and structural bioinformatics simulations. We similarly succeeded in reliable predictions for the other three tetrameric protein complexes. These achievements indicate the potential availability of our hMC/MD approach as the general purpose methodology to obtain microscopic and physicochemical insights into multimeric protein complex formation.",
+  "abstract_zh": "细胞中生物现象的物理化学实体是生化反应网络，该网络的活性由多聚体蛋白复合物调控。质谱（mass spectroscopy, MS）实验和基于结构生物信息学技术的多聚体蛋白对接模拟已揭示结合状态下亚复合物的分子级化学计量和静态构型，进而揭示亚复合物的群体分布和形成顺序。同时，这些方法并非设计用于直接检查多聚体蛋白组装和去组装的时序动态，而这是理解蛋白质在生物环境中功能表达机制所必需的物理化学性质。为解决此问题，我们开发了混合蒙特卡洛/分子动力学（hybrid Monte Carlo/Molecular Dynamics, hMC/MD）方法框架下的原子级模拟，并成功观察到血清淀粉样P成分蛋白的同源五聚体以实验一致顺序去组装。在本研究中，我们改进了hMC/MD方法，以检查色氨酸合酶四聚体（MS研究中的典型异源蛋白复合物）的去组装过程。我们采用基于似然的选择方案，在每个hMC/MD模拟周期中确定易解离的亚基对，并在无需MS实验和结构生物信息学模拟先验知识的情况下，实现了去组装顺序的高可靠性预测，成功率超过0.9。我们同样成功地对其他三个四聚体蛋白复合物进行了可靠预测。这些成就表明，我们的hMC/MD方法作为通用方法，具有获取多聚体蛋白复合物形成的微观和物理化学见解的潜在可用性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.01.12.476000",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.01.12.476000",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.01.12.476000/index.html"
+}

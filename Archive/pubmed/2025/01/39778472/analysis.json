@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39778472",
+  "title": "Insulin amyloid morphology is encoded in H-bonds and electrostatics interactions ruling protein phase separation.",
+  "authors": "Lenton, Samuel; Chaaban, Hussein; Khaled, Mohammed; van de Weert, Marco; Strodel, Birgit; Fodera, Vito",
+  "journal": "Journal of colloid and interface science",
+  "published_date": "2025-01-09",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过原子级MD模拟结合实验，揭示离子-蛋白质氢键与静电相互作用如何同时驱动胰岛素相分离和淀粉样形态异质性，虽对象为折叠蛋白胰岛素而非IDP，但其相分离与聚集机制建模思路对无序蛋白介导的PPI研究具有可迁移启发。",
+  "abstract": "Ion-protein interactions regulate biological processes and are the basis of key strategies of modulating protein phase diagrams and stability in drug development. Here, we report the mechanisms by which H-bonds and electrostatic interactions in ion-protein systems determine phase separation and amyloid formation. Using microscopy, small-angle X-ray scattering, circular dichroism and atomistic molecular dynamics (MD) simulations, we found that anions specifically interacting with insulin induced phase separation by neutralising the protein charge and forming H-bond bridges between insulin molecules. The same interaction was responsible for an enhanced insulin conformational stability and resistance to oligomerisation. Under aggregation conditions, the anion-protein interaction translated into the activation of a coalescence process, leading to amyloid-like microparticles. This reaction is alternative to conformationally-driven pathways, giving rise to elongated amyloid-like fibrils and occurs in the absence of preferential ion-protein binding. Our findings depict a unifying scenario in which common interactions dictated both phase separation at low temperatures and the occurrence of pronounced heterogeneity in the amyloid morphology at high temperatures, similar to what has previously been reported for protein crystal growth.",
+  "abstract_zh": "离子-蛋白质相互作用调控生物过程，是药物开发中调节蛋白质相图和稳定性的关键策略基础。在此，我们报告了离子-蛋白质系统中氢键和静电相互作用决定相分离和淀粉样蛋白形成的机制。利用显微镜、小角X射线散射、圆二色性和原子级分子动力学（MD）模拟，我们发现与胰岛素特异性相互作用的阴离子通过中和蛋白质电荷并在胰岛素分子间形成氢键桥来诱导相分离。同一相互作用还增强了胰岛素的构象稳定性并提高了其对寡聚化的抵抗能力。在聚集条件下，阴离子-蛋白质相互作用转化为聚结过程的激活，导致形成淀粉样微颗粒。该反应替代了构象驱动的途径，后者产生细长的淀粉样纤维，并在无优先离子-蛋白质结合的情况下发生。我们的发现描绘了一个统一的场景，其中常见的相互作用在低温下决定相分离，并在高温下导致淀粉样形态的显著异质性，类似于先前报道的蛋白质晶体生长情况。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39778472/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39778472/",
+  "paper_page_path": "papers/pubmed/39778472/index.html"
+}

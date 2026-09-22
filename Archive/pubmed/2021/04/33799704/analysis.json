@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33799704",
+  "title": "Deciphering the Role of Residues Involved in Disorder-To-Order Transition Regions in Archaeal tRNA Methyltransferase 5.",
+  "authors": "Srivastava, Ambuj; Yesudhas, Dhanusha; Ahmad, Shandar; Gromiha, M Michael",
+  "journal": "Genes",
+  "published_date": "2021-04-04",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过MD模拟和MMPBSA研究古菌tRNA甲基转移酶Trm5中无序-有序转变(DOT)区域在蛋白-tRNA复合物形成中的稳定作用及突变影响，对象为IDR介导的核酸互作而非PPI，但机制建模思路（DOT区域对结合稳定性的贡献）对本课题有可迁移启发。",
+  "abstract": "tRNA methyltransferase 5 (Trm5) enzyme is an S-adenosyl methionine (AdoMet)-dependent methyltransferase which methylates the G37 nucleotide at the N(1) atom of the tRNA. The free form of Trm5 enzyme has three intrinsically disordered regions, which are highly flexible and lack stable three-dimensional structures. These regions gain ordered structures upon the complex formation with tRNA, also called disorder-to-order transition (DOT) regions. In this study, we performed molecular dynamics (MD) simulations of archaeal Trm5 in free and complex forms and observed that the DOT residues are highly flexible in free proteins and become stable in complex structures. The energetic contributions show that DOT residues are important for stabilising the complex. The DOT1 and DOT2 are mainly observed to be important for stabilising the complex, while DOT3 is present near the active site to coordinate the interactions between methyl-donating ligands and G37 nucleotides. In addition, mutational studies on the Trm5 complex showed that the wild type is more stable than the G37A tRNA mutant complex. The loss of productive interactions upon G37A mutation drives the AdoMet ligand away from the 37th nucleotide, and Arg145 in DOT3 plays a crucial role in stabilising the ligand, as well as the G37 nucleotide, in the wild-type complex. Further, the overall energetic contribution calculated using MMPBSA corroborates that the wild-type complex has a better affinity between Trm5 and tRNA. Overall, our study reveals that targeting DOT regions for binding could improve the inhibition of Trm5.",
+  "abstract_zh": "tRNA甲基转移酶5（Trm5）是一种S-腺苷甲硫氨酸（AdoMet）依赖性甲基转移酶，可在tRNA的N(1)原子处甲基化G37核苷酸。Trm5酶的自由形式具有三个 intrinsically disordered regions（内在无序区域），这些区域高度灵活且缺乏稳定的三维结构。在与tRNA形成复合物后，这些区域获得有序结构，也称为 disorder-to-order transition（DOT）区域。在本研究中，我们对古菌Trm5的自由形式和复合物形式进行了分子动力学（molecular dynamics, MD）模拟，观察到DOT残基在自由蛋白质中高度灵活，而在复合物结构中变得稳定。能量贡献表明，DOT残基对稳定复合物至关重要。DOT1和DOT2主要被观察到对稳定复合物起重要作用，而DOT3位于活性位点附近，用于协调甲基供体配体与G37核苷酸之间的相互作用。此外，对Trm5复合物的突变研究表明，野生型比G37A tRNA突变体复合物更稳定。G37A突变导致有效相互作用的丧失，使AdoMet配体远离第37位核苷酸，而DOT3中的Arg145在野生型复合物中对稳定配体及G37核苷酸起关键作用。进一步，使用MMPBSA计算的整体能量贡献证实，野生型复合物在Trm5与tRNA之间具有更好的亲和力。总体而言，我们的研究揭示，靶向DOT区域进行结合可能改善对Trm5的抑制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33799704/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33799704/",
+  "paper_page_path": "papers/pubmed/33799704/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40534071",
+  "title": "Sequence-dependent biomolecular phase separation driven by short-range interaction: From material properties to coarsening dynamics.",
+  "authors": "Li, Jun-Qi; Yan, Zeng-Shuai; Ma, Yu-Qiang; Ding, Hong-Ming",
+  "journal": "Physical review. E",
+  "published_date": "2025-06-19",
+  "window": {
+    "start": "2025-06-16",
+    "end": "2025-06-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过理论分析与粗粒化分子动力学模拟，系统研究短程特异性相互作用驱动的序列依赖性相分离凝聚体材料性质与粗化动力学，虽未直接聚焦特定PPI，但为无序蛋白介导的凝聚体互作机制建模提供了可迁移的序列-性质框架。",
+  "abstract": "Liquid-liquid phase separation (LLPS) of biomacromolecules drives the formation of biomolecular condensates, which possess material properties crucial for various biological functions. While recent studies have primarily focused on LLPS driven by long-range, nonspecific interactions, the role of short-range, one-to-one specific interactions in sequence-dependent behavior still remains elusive. In this study, we combined theoretical analysis and coarse-grained molecular dynamics simulations to systematically investigate the sequence-dependent material properties of biomolecular condensates. By introducing the sequence descriptor varphi;*, we identified strong correlations between varphi;* and key material or structural properties, such as the single-chain radius of gyration, critical temperature, density, surface tension, viscosity, and diffusion coefficient. Notably, near critical points, surface tension and viscosity exhibit distinct scaling relationships with temperature, with viscosity showing much greater sensitivity. Additionally, we found that sequences with high varphi;* may impede the efficient growth of droplets. Our findings provide a framework for understanding sequence-dependent material properties and offer valuable insights into designing biomolecular condensates with tailored stability and dynamic functionality.",
+  "abstract_zh": "生物大分子的液-液相分离（LLPS）驱动生物分子凝聚体的形成，这些凝聚体具有对多种生物功能至关重要的材料特性。尽管近期研究主要聚焦于由长程、非特异性相互作用驱动的LLPS，但短程、一对一特异性相互作用在序列依赖性行为中的作用仍不明确。在本研究中，我们结合理论分析和粗粒化分子动力学模拟，系统研究了生物分子凝聚体的序列依赖性材料特性。通过引入序列描述符varphi;*，我们识别出varphi;*与关键材料或结构特性（如单链回转半径、临界温度、密度、表面张力、粘度和扩散系数）之间的强相关性。值得注意的是，在临界点附近，表面张力和粘度随温度表现出不同的标度关系，其中粘度对温度的敏感性显著更高。此外，我们发现高varphi;*的序列可能阻碍液滴的有效增长。我们的研究结果为理解序列依赖性材料特性提供了框架，并为设计具有定制稳定性和动态功能的生物分子凝聚体提供了宝贵见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40534071/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40534071/",
+  "paper_page_path": "papers/pubmed/40534071/index.html"
+}

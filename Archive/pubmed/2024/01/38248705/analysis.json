@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38248705",
+  "title": "Phase-Dependent Adsorption of Myelin Basic Protein to Phosphatidylcholine Lipid Bilayers.",
+  "authors": "Males, Petra; Brkljaca, Zlatko; Crnolatac, Ivo; Petrov, Drazen; Bakaric, Danijela",
+  "journal": "Membranes",
+  "published_date": "2024-01-22",
+  "window": {
+    "start": "2024-01-22",
+    "end": "2024-01-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究结合实验与MD模拟，探讨无序蛋白MBP在PC脂双层上的相依赖吸附机制，虽对象为IDP且涉及膜互作，但互作对象是脂质而非蛋白，且机制建模深度有限。",
+  "abstract": "The dense packing of opposite cytoplasmic surfaces of the lipid-enriched myelin membrane, responsible for the proper saltatory conduction of nerve impulses through axons, is ensured by the adhesive properties of myelin basic protein (MBP). Although preferentially interacting with negatively charged phosphatidylserine (PS) lipids, as an intrinsically disordered protein, it can easily adapt its shape to its immediate environment and thus adsorb to domains made of zwitterionic phosphatidylcholine (PC) lipids. As the molecular-level interaction pattern between MBP and PC lipid membranes suffers from scarce characterization, an experimental and computational study of multilamellar liposomes (MLVs) composed of 1,2-dipalmitoyl-sn-glycero-3-phosphocholine (DPPC) in the presence of bovine MBP is presented here. Calorimetric and temperature-dependent UV-Vis measurements identified DPPC pretransition temperature (T(p)) and calorimetric enthalpy (DeltaH(cal)) as the physicochemical parameters most responsive to the presence of MBP. Besides suggesting an increase in beta-sheet fractions of structured MBP segments as DPPC lipids undergo from the gel (20  degrees C) to the fluid (50  degrees C) phase, FTIR spectra unraveled the significant contribution of lysine (Lys) residues in the adsorption pattern, especially when DPPC is in the fluid (50  degrees C) phase. In addition to highlighting the importance of Lys residues in the MBP adsorption on DPPC lipid bilayer, employing salt bridges (SBs) and hydrogen bonds (HBs), MD data suggest the crucial importance of the orientation of MBP with respect to the surface of the DPPC lipid bilayer.",
+  "abstract_zh": "富含脂质的髓鞘膜相对细胞质表面的致密堆积，确保了神经冲动通过轴突的正确跳跃式传导，这一过程由髓鞘碱性蛋白（MBP）的粘附特性所保障。尽管MBP优先与带负电的磷脂酰丝氨酸（PS）脂质相互作用，但作为一种固有无序蛋白，它能够轻松适应其直接环境，从而吸附到由两性离子磷脂酰胆碱（PC）脂质组成的结构域上。由于MBP与PC脂质膜之间的分子级相互作用模式缺乏充分表征，本文对含有牛MBP的由1,2-二棕榈酰-sn-甘油-3-磷酸胆碱（DPPC）组成的多层脂质体（MLVs）进行了实验和计算研究。量热法和温度依赖性紫外-可见光谱测量确定DPPC预转变温度（T(p)）和量热焓（DeltaH(cal)）为对MBP存在最敏感的物理化学参数。除了提示当DPPC脂质从凝胶相（20摄氏度）过渡到流体相（50摄氏度）时，结构化MBP片段的β-折叠比例增加外，傅里叶变换红外光谱还揭示了赖氨酸（Lys）残基在吸附模式中的显著贡献，尤其是在DPPC处于流体相（50摄氏度）时。除了强调Lys残基在MBP吸附到DPPC脂质双层中的重要性外，通过使用盐桥（SBs）和氢键（HBs），分子动力学（MD）数据还表明MBP相对于DPPC脂质双层表面的取向具有关键重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38248705/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38248705/",
+  "paper_page_path": "papers/pubmed/38248705/index.html"
+}

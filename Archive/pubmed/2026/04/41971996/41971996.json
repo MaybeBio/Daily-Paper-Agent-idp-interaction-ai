@@ -1,0 +1,387 @@
+{
+  "identity": {
+    "pmid": "41971996",
+    "doi": "10.1016/j.isci.2026.115360",
+    "title": "hnRNPUL1 has a dead polynucleotide kinase domain that regulates RNA and protein interactions."
+  },
+  "content": {
+    "abstract": "hnRNPUL1 is a nuclear RNA-binding protein involved in both pre-mRNA splicing and DNA double-strand break repair. Using AlphaFold, we show that hnRNPUL1 has a central folded region consisting of tightly juxtaposed SPRY and dead polynucleotide kinase (dPNK) domains flanked by intrinsically disordered regions (IDRs). The dPNK domain binds both nucleotides and RNA. Remarkably, polynucleotide kinase activity can be reactivated with a single amino acid substitution. Mutations altering nucleotide binding also change the ability of the entire protein to bind RNA and regulate homotypic versus heterotypic protein interactions driven by the IDRs. A mutation that prevents nucleotide binding also destabilizes the protein. In a small number of amyotrophic lateral sclerosis patients, we identify rare coding variants in the HNRNPUL1 gene, which alter the ability of hnRNPUL1 to bind nucleotides, RNAs, and FUS. Together, these data establish that hnRNPUL1 utilizes its dPNK domain to regulate interactions with itself, RNA, and other proteins.",
+    "keywords": [
+      "Molecular interaction",
+      "Protein structure aspects"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Apostol, Carmen V",
+        "Li, Ang",
+        "Daniels, Peter",
+        "Griffith, Llywelyn",
+        "Cooper-Knock, Johnathan",
+        "Aguilar-Martinez, Elisa",
+        "Yonchev, Ivaylo D",
+        "Whelan, Ashleigh G R",
+        "Shaw, Pamela J",
+        "Sudbery, Ian M",
+        "Wilson, Stuart A"
+      ],
+      "short_names": [
+        "Apostol CV",
+        "Li A",
+        "Daniels P",
+        "Griffith L",
+        "Cooper-Knock J",
+        "Aguilar-Martinez E",
+        "Yonchev ID",
+        "Whelan AGR",
+        "Shaw PJ",
+        "Sudbery IM",
+        "Wilson SA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK.",
+        "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK.",
+        "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK.",
+        "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK.",
+        "Sheffield Institute for Translational Neuroscience, The University of Sheffield, Sheffield S10 2HQ, UK.",
+        "NIHR Sheffield Biomedical Research Centre, Sheffield Teaching Hospitals NHS Foundation Trust, Sheffield S10 2JF, UK.",
+        "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK.",
+        "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK.",
+        "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK.",
+        "Sheffield Institute for Translational Neuroscience, The University of Sheffield, Sheffield S10 2HQ, UK.",
+        "NIHR Sheffield Biomedical Research Centre, Sheffield Teaching Hospitals NHS Foundation Trust, Sheffield S10 2JF, UK.",
+        "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK.",
+        "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Apostol, Carmen V",
+        "short_name": "Apostol CV",
+        "identifiers": [],
+        "affiliations": [
+          "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK."
+        ]
+      },
+      {
+        "full_name": "Li, Ang",
+        "short_name": "Li A",
+        "identifiers": [],
+        "affiliations": [
+          "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK."
+        ]
+      },
+      {
+        "full_name": "Daniels, Peter",
+        "short_name": "Daniels P",
+        "identifiers": [],
+        "affiliations": [
+          "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK."
+        ]
+      },
+      {
+        "full_name": "Griffith, Llywelyn",
+        "short_name": "Griffith L",
+        "identifiers": [],
+        "affiliations": [
+          "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK."
+        ]
+      },
+      {
+        "full_name": "Cooper-Knock, Johnathan",
+        "short_name": "Cooper-Knock J",
+        "identifiers": [],
+        "affiliations": [
+          "Sheffield Institute for Translational Neuroscience, The University of Sheffield, Sheffield S10 2HQ, UK.",
+          "NIHR Sheffield Biomedical Research Centre, Sheffield Teaching Hospitals NHS Foundation Trust, Sheffield S10 2JF, UK."
+        ]
+      },
+      {
+        "full_name": "Aguilar-Martinez, Elisa",
+        "short_name": "Aguilar-Martinez E",
+        "identifiers": [],
+        "affiliations": [
+          "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK."
+        ]
+      },
+      {
+        "full_name": "Yonchev, Ivaylo D",
+        "short_name": "Yonchev ID",
+        "identifiers": [],
+        "affiliations": [
+          "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK."
+        ]
+      },
+      {
+        "full_name": "Whelan, Ashleigh G R",
+        "short_name": "Whelan AGR",
+        "identifiers": [],
+        "affiliations": [
+          "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK."
+        ]
+      },
+      {
+        "full_name": "Shaw, Pamela J",
+        "short_name": "Shaw PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Sheffield Institute for Translational Neuroscience, The University of Sheffield, Sheffield S10 2HQ, UK.",
+          "NIHR Sheffield Biomedical Research Centre, Sheffield Teaching Hospitals NHS Foundation Trust, Sheffield S10 2JF, UK."
+        ]
+      },
+      {
+        "full_name": "Sudbery, Ian M",
+        "short_name": "Sudbery IM",
+        "identifiers": [],
+        "affiliations": [
+          "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK."
+        ]
+      },
+      {
+        "full_name": "Wilson, Stuart A",
+        "short_name": "Wilson SA",
+        "identifiers": [],
+        "affiliations": [
+          "Sheffield Institute for Nucleic Acids, School of Biosciences, The University of Sheffield, Firth Court, Western Bank, Sheffield S10 2TN, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2026 Apr 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/13 18:17",
+    "fetched_at": "2026-09-18 02:33:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41674383",
+      "38773325",
+      "38718835",
+      "38092738",
+      "38057664",
+      "37774136",
+      "35831314",
+      "35544603",
+      "35325113",
+      "35271311",
+      "34082786",
+      "34048569",
+      "33874999",
+      "33406426",
+      "32748079",
+      "32728246",
+      "31280677",
+      "31251911",
+      "31213602",
+      "30581145",
+      "30528433",
+      "30398641",
+      "29961577",
+      "29884807",
+      "29677515",
+      "29170628",
+      "28944577",
+      "28622508",
+      "27899611",
+      "27824051",
+      "27768875",
+      "27415968",
+      "27019113",
+      "26779609",
+      "26496610",
+      "26463381",
+      "26250115",
+      "25950237",
+      "24866055",
+      "24813946",
+      "24487276",
+      "23523372",
+      "22930834",
+      "22893130",
+      "22451911",
+      "22365830",
+      "22055185",
+      "21993299",
+      "21063389",
+      "20814424",
+      "20400460",
+      "19671525",
+      "19217410",
+      "17151076",
+      "17000901",
+      "15572779",
+      "15565158",
+      "11994740",
+      "11513728",
+      "10668806",
+      "9733834",
+      "8352591",
+      "6329717",
+      "1628625"
+    ],
+    "similar": [
+      "41971996",
+      "38029395",
+      "18096186",
+      "3110598",
+      "40574713",
+      "35685361",
+      "29974396",
+      "32970693",
+      "28821613",
+      "22427648",
+      "28276686",
+      "26927092",
+      "30446622",
+      "31479821",
+      "35325113",
+      "27381509",
+      "26020839",
+      "40693919",
+      "25239623",
+      "25536042",
+      "12574161",
+      "27033831",
+      "24920338",
+      "23912807",
+      "34487489",
+      "41495908",
+      "42207631",
+      "24106084",
+      "21600902",
+      "24497641",
+      "38866324",
+      "12702813",
+      "21856723",
+      "38182429",
+      "15663930",
+      "42585785",
+      "3065140",
+      "34356684",
+      "24899704",
+      "16227627",
+      "26742101",
+      "7489491",
+      "25498946",
+      "7971266",
+      "26323305",
+      "35098694",
+      "38941236",
+      "29970596",
+      "36745138",
+      "36261283",
+      "25286318",
+      "28924037",
+      "12933796",
+      "40185232",
+      "7723040",
+      "30354839",
+      "34787459",
+      "15751947",
+      "22362778",
+      "26525917",
+      "19821614",
+      "24013423",
+      "18809678",
+      "42000821",
+      "23756188",
+      "39852553",
+      "25625564",
+      "31519161",
+      "40019136",
+      "9461464",
+      "40631955",
+      "33627133",
+      "27731383",
+      "29511089",
+      "8099244",
+      "40857360",
+      "33262375",
+      "21212361",
+      "34688610",
+      "10451362",
+      "37953271",
+      "24027208",
+      "36416224",
+      "38139438",
+      "35083279",
+      "27378374",
+      "25375143",
+      "28566288",
+      "33284517",
+      "9102632",
+      "28969660",
+      "41193489",
+      "40413303",
+      "16376933",
+      "8780779",
+      "40552937",
+      "32722039",
+      "20720006",
+      "23649393",
+      "42095372"
+    ],
+    "review": [
+      "41971996",
+      "38029395",
+      "26927092",
+      "31479821",
+      "27033831",
+      "34356684",
+      "35098694",
+      "36745138",
+      "40185232",
+      "23756188",
+      "31519161",
+      "24027208",
+      "35083279"
+    ],
+    "pmc": [
+      "13066744"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(26)00735-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41971996/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41971996",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

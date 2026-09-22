@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36854981",
+  "title": "Functional characterization and comparative analysis of gene repression-mediating domains interacting with yeast pleiotropic corepressors Sin3, Cyc8 and Tup1.",
+  "authors": "Lettow, Julia; Kliewe, Felix; Aref, Rasha; Schuller, Hans-Joachim",
+  "journal": "Current genetics",
+  "published_date": "2023-03-02",
+  "window": {
+    "start": "2023-02-27",
+    "end": "2023-03-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文系统鉴定酵母阻遏蛋白与共抑制因子Sin3/Cyc8/Tup1的互作域，发现多数阻遏域为无序IDR并需结合共抑制因子才折叠，虽对象为IDR且涉及PPI机制，但方法以实验为主、无AI或物理模拟，故综合评6分。",
+  "abstract": "Transcriptional corepressors Sin3, Cyc8 and Tup1 are important for downregulation of gene expression by recruiting various histone deacetylases once they gain access to defined genomic locations by interaction with pathway-specific repressor proteins. In this work we systematically investigated whether 17 yeast repressor proteins (Cti6, Dal80, Fkh1, Gal80, Mig1, Mot3, Nrg1, Opi1, Rdr1, Rox1, Sko1, Ume6, Ure2, Xbp1, Yhp1, Yox1 and Whi5) representing several unrelated regulatory pathways are able to bind to Sin3, Cyc8 and Tup1. Our results show that paired amphipathic helices 1 and 2 (PAH1 and PAH2) of Sin3 are functionally redundant for some regulatory pathways. WD40 domains of Tup1 proved to be sufficient for interaction with repressor proteins. Using length variants of selected repressors, we mapped corepressor interaction domains (CIDs) in vitro and assayed gene repression in vivo. Systematic comparison of CID minimal sequences allowed us to define several related positional patterns of hydrophobic amino acids some of which could be confirmed as functionally supported by site-directed mutagenesis. Although structural predictions indicated that certain CIDs may be alpha-helical, most repression domains appear to be randomly structured and must be considered as intrinsically disordered regions (IDR) adopting a defined conformation only by interaction with a corepressor.",
+  "abstract_zh": "转录辅阻遏物Sin3、Cyc8和Tup1通过招募多种组蛋白去乙酰化酶，在获得与通路特异性阻遏蛋白相互作用而进入特定基因组位置后，对基因表达的下调至关重要。在本工作中，我们系统研究了代表多个无关调控通路的17种酵母阻遏蛋白（Cti6、Dal80、Fkh1、Gal80、Mig1、Mot3、Nrg1、Opi1、Rdr1、Rox1、Sko1、Ume6、Ure2、Xbp1、Yhp1、Yox1和Whi5）是否能够结合Sin3、Cyc8和Tup1。我们的结果表明，Sin3的成对两亲性螺旋1和2（PAH1和PAH2）在某些调控通路中功能冗余。Tup1的WD40结构域被证明足以与阻遏蛋白相互作用。利用所选阻遏蛋白的长度变体，我们在体外定位了辅阻遏物相互作用结构域（CIDs），并在体内检测了基因阻遏效果。对CID最小序列的系统比较使我们能够定义若干相关的疏水氨基酸位置模式，其中一些通过定点突变被证实具有功能支持。尽管结构预测表明某些CID可能呈α-螺旋结构，但大多数阻遏结构域似乎呈随机构象，必须被视为 intrinsically disordered regions (IDR)，仅通过与辅阻遏物相互作用才采用特定构象。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36854981/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36854981/",
+  "paper_page_path": "papers/pubmed/36854981/index.html"
+}

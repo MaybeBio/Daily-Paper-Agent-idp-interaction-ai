@@ -1,0 +1,395 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.14.699430",
+  "title": "A dynamic displacement mechanism drives protein import into mitochondria",
+  "doi": "10.64898/2026.01.14.699430",
+  "abstract": "Most mitochondrial proteins are produced in the cytosol and imported through the translocase of the outer mitochondrial membrane (TOM) to reach their final destination. Although this protein entry gate has been structurally characterized, it remains unclear how precursor proteins are handed off from the cytosolic receptor domains to the translocation pore. Here we show that the cytosolic domain of Tom22 - traditionally viewed as the central TOM receptor - acts not as a structured scaffold but as a largely disordered, flexible segment that plays an active role in precursor transfer. Atomic-level structural techniques and in vivo experiments identified a conserved short linear motif that forms a transient α-helical element within this disordered domain. By binding to the canonical precursor protein binding sites of the receptors Tom20 and Tom70, this critical α-helical segment acts as a precursor protein displacement element (PPDE). This competitive interaction facilitates the release of preproteins directly above the import pore, and thereby drives translocation across the outer mitochondrial membrane. These findings reveal that flexibility, rather than rigid structure, underlies the central transfer step of mitochondrial outer-membrane protein translocation. Our results point to a versatile mechanism for ligand displacement in chaperone, receptor, and transport systems that must balance selective binding with efficient release.",
+  "authors": [
+    "Sucec I",
+    "Guillerm U",
+    "Schneider J",
+    "Ganesan I",
+    "Webling N",
+    "Kapitonova A",
+    "Steiert C",
+    "Schmelter F",
+    "Feignier A",
+    "Singh R",
+    "Fielden LF",
+    "Dung J",
+    "Rapaport D",
+    "Bersch B",
+    "Busch KB",
+    "Dehez F",
+    "Wiedemann N",
+    "Schanda P"
+  ],
+  "published_date": "2026-01-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.14.699430",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.14.699430.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1228478",
+    "raw_record": {
+      "id": "PPR1228478",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1228478"
+        ]
+      },
+      "doi": "10.64898/2026.01.14.699430",
+      "title": "A dynamic displacement mechanism drives protein import into mitochondria",
+      "authorString": "Sucec I, Guillerm U, Schneider J, Ganesan I, Webling N, Kapitonova A, Steiert C, Schmelter F, Feignier A, Singh R, Fielden LF, Dung J, Rapaport D, Bersch B, Busch KB, Dehez F, Wiedemann N, Schanda P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sucec I",
+            "lastName": "Sucec",
+            "firstName": "Iva",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut de Biologie Structurale, -CEA, , IBS, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guillerm U",
+            "lastName": "Guillerm",
+            "firstName": "Undina",
+            "initials": "U",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Am Campus 1 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schneider J",
+            "lastName": "Schneider",
+            "firstName": "Jakob",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Am Campus 1 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ganesan I",
+            "lastName": "Ganesan",
+            "firstName": "Iniyan",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Molecular Biology, ZBMZ, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Webling N",
+            "lastName": "Webling",
+            "firstName": "Niklas",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Institute of Molecular Cell Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kapitonova A",
+            "lastName": "Kapitonova",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Am Campus 1 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Steiert C",
+            "lastName": "Steiert",
+            "firstName": "Conny",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Molecular Biology, ZBMZ, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schmelter F",
+            "lastName": "Schmelter",
+            "firstName": "Frank",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Institute of Molecular Cell Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Feignier A",
+            "lastName": "Feignier",
+            "firstName": "Antoine",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut de Biologie Structurale, -CEA, , IBS, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Singh R",
+            "lastName": "Singh",
+            "firstName": "Rajkumar",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Am Campus 1 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fielden LF",
+            "lastName": "Fielden",
+            "firstName": "Laura",
+            "initials": "LF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Molecular Biology, ZBMZ, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dung J",
+            "lastName": "Dung",
+            "firstName": "Julia",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Molecular Biology, ZBMZ, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rapaport D",
+            "lastName": "Rapaport",
+            "firstName": "Doron",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Interfaculty Institute of Biochemistry ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bersch B",
+            "lastName": "Bersch",
+            "firstName": "Beate",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut de Biologie Structurale, -CEA, , IBS, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Busch KB",
+            "lastName": "Busch",
+            "firstName": "Karin",
+            "initials": "KB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Institute of Molecular Cell Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dehez F",
+            "lastName": "Dehez",
+            "firstName": "Francois",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", LPCT, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wiedemann N",
+            "lastName": "Wiedemann",
+            "firstName": "Nils",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Molecular Biology, ZBMZ, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schanda P",
+            "lastName": "Schanda",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Am Campus 1 , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Most mitochondrial proteins are produced in the cytosol and imported through the translocase of the outer mitochondrial membrane (TOM) to reach their final destination. Although this protein entry gate has been structurally characterized, it remains unclear how precursor proteins are handed off from the cytosolic receptor domains to the translocation pore. Here we show that the cytosolic domain of Tom22 - traditionally viewed as the central TOM receptor - acts not as a structured scaffold but as a largely disordered, flexible segment that plays an active role in precursor transfer. Atomic-level structural techniques and in vivo experiments identified a conserved short linear motif that forms a transient α-helical element within this disordered domain. By binding to the canonical precursor protein binding sites of the receptors Tom20 and Tom70, this critical α-helical segment acts as a precursor protein displacement element (PPDE). This competitive interaction facilitates the release of preproteins directly above the import pore, and thereby drives translocation across the outer mitochondrial membrane. These findings reveal that flexibility, rather than rigid structure, underlies the central transfer step of mitochondrial outer-membrane protein translocation. Our results point to a versatile mechanism for ligand displacement in chaperone, receptor, and transport systems that must balance selective binding with efficient release.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Agence Nationale de la Recherche",
+            "grantId": "ANR-17-EURE-0003",
+            "orderIn": 0
+          },
+          {
+            "agency": "Agence Nationale de la Recherche",
+            "grantId": "ANR-10-INSB-05-02",
+            "orderIn": 0
+          },
+          {
+            "agency": "Austrian Science Fund FWF",
+            "grantId": "10.55776/I6223",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "406757425",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "403222702",
+            "orderIn": 0
+          },
+          {
+            "agency": "Agence Nationale de la Recherche",
+            "grantId": "ANR-18-CE92-0032",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "CRC944",
+            "orderIn": 0
+          },
+          {
+            "agency": "Austrian Science Fund FWF",
+            "grantId": "10.55776/PAT1647625",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.14.699430"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1228478"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1228478&type=FILE&fileName=EMS214545-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214545",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-01-14",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

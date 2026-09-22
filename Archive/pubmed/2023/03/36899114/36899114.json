@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "36899114",
+    "doi": "10.1007/s00249-023-01639-y",
+    "title": "Generation of unfolded outer membrane protein ensembles defined by hydrodynamic properties."
+  },
+  "content": {
+    "abstract": "Outer membrane proteins (OMPs) must exist as an unfolded ensemble while interacting with a chaperone network in the periplasm of Gram-negative bacteria. Here, we developed a method to model unfolded OMP (uOMP) conformational ensembles using the experimental properties of two well-studied OMPs. The overall sizes and shapes of the unfolded ensembles in the absence of a denaturant were experimentally defined by measuring the sedimentation coefficient as a function of urea concentration. We used these data to model a full range of unfolded conformations by parameterizing a targeted coarse-grained simulation protocol. The ensemble members were further refined by short molecular dynamics simulations to reflect proper torsion angles. The final conformational ensembles have polymer properties different from unfolded soluble and intrinsically disordered proteins and reveal inherent differences in the unfolded states that necessitate further investigation. Building these uOMP ensembles advances the understanding of OMP biogenesis and provides essential information for interpreting structures of uOMP-chaperone complexes.",
+    "keywords": [
+      "Coarse-grained molecular dynamics",
+      "Conformational ensembles",
+      "Outer membrane protein",
+      "Sedimentation velocity"
+    ],
+    "mesh_terms": [
+      "*Hydrodynamics",
+      "*Bacterial Outer Membrane Proteins/chemistry/metabolism",
+      "Molecular Chaperones/metabolism",
+      "Periplasm/metabolism",
+      "Cell Membrane/metabolism",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Devlin, Taylor",
+        "Fleming, Patrick J",
+        "Loza, Nicole",
+        "Fleming, Karen G"
+      ],
+      "short_names": [
+        "Devlin T",
+        "Fleming PJ",
+        "Loza N",
+        "Fleming KG"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5417-8830"
+      ],
+      "affiliations": [
+        "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD, 21218, USA.",
+        "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD, 21218, USA.",
+        "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD, 21218, USA.",
+        "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD, 21218, USA. karen.fleming@jhu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Devlin, Taylor",
+        "short_name": "Devlin T",
+        "identifiers": [],
+        "affiliations": [
+          "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD, 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Fleming, Patrick J",
+        "short_name": "Fleming PJ",
+        "identifiers": [],
+        "affiliations": [
+          "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD, 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Loza, Nicole",
+        "short_name": "Loza N",
+        "identifiers": [],
+        "affiliations": [
+          "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD, 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Fleming, Karen G",
+        "short_name": "Fleming KG",
+        "identifiers": [
+          "0000-0001-5417-8830"
+        ],
+        "affiliations": [
+          "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD, 21218, USA. karen.fleming@jhu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European biophysics journal : EBJ"
+    ],
+    "journal_abbrev": [
+      "Eur Biophys J"
+    ],
+    "pub_date": "2023 Jul",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/11 06:00",
+    "fetched_at": "2026-09-20 20:06:47"
+  },
+  "links": {
+    "cites": [
+      "39961810",
+      "38778541",
+      "38723580",
+      "37526680",
+      "37245172",
+      "37160443",
+      "37055656"
+    ],
+    "refs": [
+      "34716273",
+      "33968988",
+      "33561734",
+      "33093201",
+      "32879005",
+      "32696370",
+      "32339173",
+      "32006288",
+      "31679343",
+      "31548393",
+      "31167941",
+      "30557358",
+      "29490246",
+      "29045407",
+      "29026044",
+      "28943271",
+      "28886680",
+      "28629619",
+      "28063280",
+      "27940377",
+      "27583687",
+      "27566405",
+      "27482090",
+      "27450425",
+      "26791979",
+      "26596457",
+      "26548662",
+      "26412654",
+      "26196893",
+      "25596888",
+      "24715731",
+      "24150971",
+      "23901099",
+      "23832629",
+      "22984159",
+      "22643976",
+      "21782315",
+      "21220121",
+      "20491126",
+      "20378773",
+      "19592714",
+      "18713857",
+      "18196502",
+      "17411046",
+      "17071751",
+      "16857738",
+      "16798813",
+      "16730633",
+      "16222654",
+      "16131545",
+      "15576559",
+      "15556567",
+      "15314216",
+      "15103614",
+      "15043932",
+      "15036203",
+      "10692345",
+      "8744570"
+    ],
+    "similar": [
+      "36899114",
+      "36775935",
+      "33093201",
+      "36576775",
+      "34607455",
+      "27450425",
+      "28919234",
+      "38677921",
+      "27482090",
+      "35676411",
+      "33947759",
+      "38959031",
+      "35217619",
+      "24077225",
+      "28760846",
+      "26791979",
+      "29893830",
+      "39218969",
+      "17928002",
+      "19780589",
+      "28629619",
+      "38603556",
+      "23049938",
+      "15978068",
+      "32879005",
+      "39008906",
+      "31214987",
+      "28974626",
+      "21671888",
+      "24089737",
+      "19181847",
+      "26061769",
+      "31074917",
+      "19382746",
+      "32602996",
+      "10455120",
+      "28648612",
+      "24780125",
+      "9914480",
+      "23912807",
+      "27048800",
+      "27455461",
+      "31738379",
+      "16092525",
+      "23440211",
+      "23240560",
+      "26901871",
+      "33410567",
+      "24715731",
+      "21782315",
+      "32358557",
+      "36701201",
+      "38478283",
+      "36284497",
+      "41432303",
+      "30030429",
+      "36774359",
+      "26427672",
+      "23796519",
+      "41676993",
+      "32786408",
+      "32499369",
+      "18835894",
+      "25849907",
+      "27298319",
+      "26427678",
+      "39475239",
+      "32053772",
+      "36934808",
+      "14513830",
+      "32817097",
+      "20306315",
+      "36674958",
+      "41851975",
+      "39277579",
+      "37100902",
+      "34969846",
+      "21670534",
+      "19182809",
+      "20616105",
+      "15840585",
+      "39499823",
+      "20218188",
+      "17601489",
+      "20920237",
+      "24984517",
+      "22589188",
+      "31520605",
+      "32748422",
+      "38053335",
+      "32696363",
+      "15204623",
+      "21370981",
+      "27760356",
+      "11200226",
+      "32729902",
+      "23013516",
+      "11051763",
+      "23772069",
+      "26370938"
+    ],
+    "review": [
+      "36899114",
+      "27450425",
+      "38677921",
+      "29893830",
+      "38603556",
+      "15978068",
+      "39008906",
+      "31214987",
+      "24780125",
+      "16092525",
+      "23240560",
+      "26427672",
+      "32499369",
+      "25849907",
+      "14513830",
+      "21670534",
+      "19182809",
+      "17601489",
+      "24984517",
+      "31520605",
+      "15204623",
+      "21370981",
+      "11051763"
+    ],
+    "pmc": [
+      "13332686"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36899114/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00249-023-01639-y",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

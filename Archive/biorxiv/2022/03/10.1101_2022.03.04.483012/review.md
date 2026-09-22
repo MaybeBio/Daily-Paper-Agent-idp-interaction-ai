@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) as provided
+- **Assessment boundary** Scientific and technical evaluation of the PLIG representation, benchmarking methodology, and claims made against the CASF-2016 benchmark
+- **Shared manuscript claim summary** The authors propose Protein-Ligand Interaction Graphs (PLIGs), a graph representation that encodes 3D protein-ligand contacts as node features in ligand-shaped molecular graphs. They benchmark six GNN architectures with PLIGs against ligand-based graphs and fingerprint-based MLP models on the CASF-2016 benchmark, reporting best performance with GATNet (ρ=0.84, RMSE=1.22 pK on crystal poses). They also report that PLIGs outperform established scoring functions including PLEC, K DEEP, and SIGN.
+- **Visible evidence base** Abstract, Introduction, Methods sections 2.1-2.6, Results sections 3.1-3.9, Discussion, Funding, Acknowledgements, Bibliography
+- **Missing materials affecting confidence** Supplementary Information (SI) sections referenced but not provided (SI Sections 1-7, including hyperparameter details, ECIF atom type list, cross-validation details, model stability data, docking discussion, and Table 7.1); Figure 3.1 and Figure 3.2 not provided; Table 3.1, Table 3.2, Table 3.3 not provided; code repository not inspected
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually simple and potentially useful idea: encoding 3D protein-ligand interaction information into node features of ligand-based molecular graphs, rather than expanding the graph with protein nodes. The approach is clearly described and the benchmarking across six GNN architectures is commendable in scope. However, the evidence base as provided is insufficient to fully evaluate the central claims. Key results are presented without the corresponding figures and tables, and the SI (which contains critical methodological details) is not available for inspection. The comparison to prior work, particularly ECIF, is informative but the reported performance differences are modest and the statistical significance of these differences is not addressed. The generalizability analysis (Section 3.9) is a valuable addition but the interpretation is complicated by the confounding effect of dataset size reduction. Overall, the idea has merit and the results are plausible, but the current evidence base does not allow a definitive assessment of whether PLIGs represent a significant advance over existing methods.
+- **Who would be interested in the results, and why** Computational chemists and structural biologists working on structure-based drug design and binding affinity prediction. The PLIG representation is simple and could be readily adopted by researchers using GNNs for affinity prediction. The finding that GATNet performs best with PLIGs, and the observation that adding a protein sequence branch hurts performance, are practically useful for model selection. The generalizability analysis also addresses an important community concern about benchmark contamination.
+- **Major strengths** The PLIG representation is conceptually simple and elegant, addressing a real limitation of existing GNN approaches that expand graph size with protein nodes. The benchmarking across six GNN architectures is thorough. The comparison to ECIF, a strong fingerprint-based method, is appropriate and informative. The generalizability analysis is a valuable contribution. The authors are transparent about limitations and provide code.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims PLIG-based GATNet is the best performing model (ρ=0.84, RMSE=1.22 pK) on CASF-2016 and outperforms PLEC, K DEEP, and SIGN.
+  - **Evidence pointer** Results Section 3.4, Figure 3.1, Table 3.1, Table 3.2, Table 3.3
+  - **Concern** The central performance claims are presented without the corresponding figures and tables. Figure 3.1, which is the primary evidence for the performance comparison, is not provided. Tables 3.1-3.3, which list the models and proximity threshold results, are also missing. Without these, the reader cannot verify the reported values, assess the variability across runs, or compare the performance of different models directly.
+  - **Why it matters** The core contribution of the manuscript is the empirical demonstration that PLIGs improve binding affinity prediction. Without the actual data visualizations and tables, this claim is unverifiable from the provided material. The reader cannot assess whether the reported differences are meaningful or within noise.
+  - **Resolution test** Provide Figure 3.1 and Tables 3.1-3.3. The figure should clearly show the performance (ρ and RMSE) of all models on both crystal and docked poses, with error bars or confidence intervals. The tables should list all model configurations and the proximity threshold results.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims PLIG-based GATNet outperforms other GNN architectures and fingerprint-based MLP models, and that PLIGs outperform PLEC, K DEEP, and SIGN.
+  - **Evidence pointer** Results Sections 3.3-3.7, Figure 3.1
+  - **Concern** The manuscript reports performance metrics (ρ, RMSE) averaged over 10 runs with standard deviations, but does not report any statistical significance testing for the differences between models. The reported differences between the best model (GATNet PLIG, ρ=0.84) and other models appear small, and it is unclear whether these differences are statistically significant. Additionally, the comparison to published results from PLEC, K DEEP, and SIGN relies on values reported in other studies, which may have used different training/test splits or data processing protocols.
+  - **Why it matters** Without significance testing, the reader cannot determine whether the reported performance differences are robust or simply due to random variation. The comparison to external methods is only valid if the evaluation protocol is identical, which is not demonstrated.
+  - **Resolution test** Perform and report statistical significance tests (e.g., paired tests across the 10 runs) for the key model comparisons. For external comparisons, either re-implement and evaluate the comparison methods under identical conditions, or clearly state the limitations of cross-study comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological detail
+  - **Claim pointer** The manuscript claims PLIGs are applicable to any GNN architecture and that the proximity threshold was investigated between 4-8 Å.
+  - **Evidence pointer** Methods Sections 2.3, 2.6; Results Section 3.8; SI Sections 1, 2, 5
+  - **Concern** Critical methodological details are relegated to the SI, which is not provided. This includes hyperparameter tuning details (SI Section 1), the full list of 22 protein atom types (SI Section 2), cross-validation details (SI Section 3), model stability data (SI Section 4), and the proximity threshold results (SI Section 5). Without these, the methods are not fully reproducible. In particular, the definition of the 22 protein atom types is central to the PLIG representation and must be fully specified in the main text or the SI must be available for review.
+  - **Why it matters** Reproducibility is a core requirement for methodological contributions. The PLIG representation is the main novelty, and its precise definition (the 22 atom types) is essential for others to implement and build upon the work. Hyperparameter details are also necessary to assess whether the comparisons are fair.
+  - **Resolution test** Provide the SI for review, or move the essential details (atom type definitions, hyperparameter ranges, cross-validation protocol) into the main text.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability analysis interpretation
+  - **Claim pointer** The manuscript claims the generalizability analysis provides a fairer evaluation of model performance by eliminating proteins similar to the test set.
+  - **Evidence pointer** Results Section 3.9, Figure 3.2, SI Table 7.1
+  - **Concern** The generalizability analysis removes training samples based on sequence identity to test set proteins. The authors acknowledge that part of the performance decrease could be due to reduced dataset size, but this confound is not addressed quantitatively. The manuscript states that SI Table 7.1 shows dataset sizes, but this table is not provided. Without controlling for dataset size, the interpretation of the performance drop as evidence of generalization failure is not well supported.
+  - **Why it matters** The generalizability analysis is a valuable contribution, but its conclusions depend on disentangling the effects of dataset size and sequence similarity. If the performance drop is primarily due to reduced training data, the conclusion that the model fails to generalize to novel protein families is weakened.
+  - **Resolution test** Provide SI Table 7.1 and, ideally, perform a control experiment where the same number of training samples are removed randomly, to isolate the effect of sequence similarity from dataset size.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The text states "the negative base-10 logarithm of K, commonly denoted as pK was used" but the equation is not shown in the provided text.
+  - **Required correction** Include the equation for pK.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The docking protocol is described but the specific version of Smina and the scoring function used for pose selection are not stated.
+  - **Required correction** Specify the Smina version and the scoring function used for ranking poses.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results Section 3.4
+  - **Evidence pointer** Section 3.4
+  - **Issue** The comparison to ECIF reports values from the original ECIF paper (Sánchez-Cruz et al.) which used a different training set (PDBbind 2016). The manuscript uses PDBbind 2020 supplemented with 2016 refined data. This difference is acknowledged but not discussed in terms of its potential impact on the comparison.
+  - **Required correction** Add a sentence discussing the potential impact of different training data on the cross-study comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion mentions "other other kinds of contact information" which appears to be a typographical error.
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The code is stated to be available at "GITHUB ADDRESS" in the methods, while the abstract provides the actual URL. This is inconsistent.
+  - **Required correction** Use the actual URL in the methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing figures and tables), R1-M2 (lack of statistical significance testing), R1-M3 (critical methodological details in unavailable SI)
+- **Assessment against Nature-style criteria** Originality: The PLIG representation is a novel and conceptually simple approach to incorporating 3D structural information into GNNs for binding affinity prediction. It addresses a real limitation of existing methods. Scientific importance: Binding affinity prediction is a central problem in drug discovery, and improvements in representation and model performance are of broad interest. The generalizability analysis addresses an important community concern. Interdisciplinary readership: The work bridges structural biology, cheminformatics, and machine learning, and should be accessible to researchers in all three fields. Technical soundness: The benchmarking is broad, but the lack of statistical significance testing and the unavailability of key figures and tables undermine the current evidence base. Readability for nonspecialists: The manuscript is generally well-written and the core idea is explained clearly. However, some sections assume familiarity with GNN architectures and docking protocols.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the benchmarking scope is commendable, but the current evidence base is incomplete. The authors must provide the missing figures and tables, add statistical significance testing, and make the SI available for review.
+
+## Risk / unsupported claims
+- The claim that GATNet PLIG outperforms PLEC, K DEEP, and SIGN is not verifiable from the provided material, as the comparison data are not shown.
+- The claim that PLIGs are "simple, elegant, flexible and easily customizable" is a qualitative assessment that is not directly testable but is reasonable given the description.
+- The claim that the generalizability analysis provides a "fairer evaluation" is weakened by the confounding effect of dataset size, which is not quantitatively addressed.
+- The claim that the inclusion of a protein sequence branch decreases performance for PLIG models is reported but the magnitude and consistency of this effect across architectures are not shown.
+- The performance of the MLPNet ECIF model on docked poses (ρ=0.82) is reported as better than GATNet PLIG (ρ=0.77), but the significance of this difference is not assessed.

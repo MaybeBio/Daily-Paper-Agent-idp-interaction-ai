@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37211763",
+  "title": "Modeling the effects of phosphorylation on phase separation of the FUS low-complexity domain.",
+  "authors": "Li, Mingwei; Chen, Guanglin; Zhang, Zhiyong",
+  "journal": "Biophysical journal",
+  "published_date": "2023-05-22",
+  "window": {
+    "start": "2023-05-22",
+    "end": "2023-05-28"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用MD模拟和自由能计算系统研究FUS低复杂度域磷酸化调控相分离的分子机制，聚焦IDR互作界面与纤维核心稳定性，对象、互作、方法三者齐备且具机制深度。",
+  "abstract": "Aggregation of the RNA-binding protein fused in sarcoma (FUS) is a hallmark of neurodegenerative diseases. Phosphorylation of Ser/Thr in the FUS low-complexity domain (FUS-LC) may regulate phase separation of FUS and prevent pathological aggregation in cells. However, many details of this process remain elusive to date. In this work, we systematically investigated the phosphorylation of FUS-LC and the underlying molecular mechanism by molecular dynamics (MD) simulations and free energy calculations. The results clearly show that phosphorylation can destroy the fibril core structure of FUS-LC by breaking interchain interactions, particularly contacts involving residues like Tyr, Ser, and Gln. Among the six phosphorylation sites, Ser61 and Ser84 may have more important effects on the stability of the fibril core. Our study reveals structural and dynamic details of FUS-LC phase separation modulated by phosphorylation.",
+  "abstract_zh": "RNA结合蛋白肉瘤融合蛋白（FUS）的聚集是神经退行性疾病的标志。FUS低复杂度结构域（FUS-LC）中Ser/Thr的磷酸化可能调节FUS的相分离，并防止细胞中的病理性聚集。然而，该过程的许多细节至今仍不明确。在本工作中，我们通过分子动力学（MD）模拟和自由能计算，系统研究了FUS-LC的磷酸化及其潜在分子机制。结果清楚表明，磷酸化可通过破坏链间相互作用，特别是涉及Tyr、Ser和Gln等残基的接触，来破坏FUS-LC的纤维核心结构。在六个磷酸化位点中，Ser61和Ser84可能对纤维核心的稳定性具有更重要的影响。我们的研究揭示了磷酸化调控FUS-LC相分离的结构和动态细节。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37211763/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37211763/",
+  "paper_page_path": "papers/pubmed/37211763/index.html"
+}

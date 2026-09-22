@@ -1,0 +1,425 @@
+{
+  "identity": {
+    "pmid": "36743470",
+    "doi": "10.1093/pnasnexus/pgac303",
+    "title": "A \"grappling hook\" interaction connects self-assembly and chaperone activity of Nucleophosmin 1."
+  },
+  "content": {
+    "abstract": "How the self-assembly of partially disordered proteins generates functional compartments in the cytoplasm and particularly in the nucleus is poorly understood. Nucleophosmin 1 (NPM1) is an abundant nucleolar protein that forms large oligomers and undergoes liquid-liquid phase separation by binding RNA or ribosomal proteins. It provides the scaffold for ribosome assembly but also prevents protein aggregation as part of the cellular stress response. Here, we use aggregation assays and native mass spectrometry (MS) to examine the relationship between the self-assembly and chaperone activity of NPM1. We find that oligomerization of full-length NPM1 modulates its ability to retard amyloid formation in vitro. Machine learning-based structure prediction and cryo-electron microscopy reveal fuzzy interactions between the acidic disordered region and the C-terminal nucleotide-binding domain, which cross-link NPM1 pentamers into partially disordered oligomers. The addition of basic peptides results in a tighter association within the oligomers, reducing their capacity to prevent amyloid formation. Together, our findings show that NPM1 uses a \"grappling hook\" mechanism to form a network-like structure that traps aggregation-prone proteins. Nucleolar proteins and RNAs simultaneously modulate the association strength and chaperone activity, suggesting a mechanism by which nucleolar composition regulates the chaperone activity of NPM1.",
+    "keywords": [
+      "amyloid formation",
+      "membraneless organelles",
+      "molecular chaperones",
+      "native mass spectrometry"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saluri, Mihkel",
+        "Leppert, Axel",
+        "Gese, Genis Valentin",
+        "Sahin, Cagla",
+        "Lama, Dilraj",
+        "Kaldmae, Margit",
+        "Chen, Gefei",
+        "Elofsson, Arne",
+        "Allison, Timothy M",
+        "Arsenian-Henriksson, Marie",
+        "Johansson, Jan",
+        "Lane, David P",
+        "Hallberg, B Martin",
+        "Landreh, Michael"
+      ],
+      "short_names": [
+        "Saluri M",
+        "Leppert A",
+        "Gese GV",
+        "Sahin C",
+        "Lama D",
+        "Kaldmae M",
+        "Chen G",
+        "Elofsson A",
+        "Allison TM",
+        "Arsenian-Henriksson M",
+        "Johansson J",
+        "Lane DP",
+        "Hallberg BM",
+        "Landreh M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6223-3350",
+        "ORCID: 0000-0002-1890-5524",
+        "ORCID: 0000-0002-5543-5963",
+        "ORCID: 0000-0002-7115-9751",
+        "ORCID: 0000-0001-6376-7792",
+        "ORCID: 0000-0002-8719-4703",
+        "ORCID: 0000-0003-0551-3545",
+        "ORCID: 0000-0002-7958-4074"
+      ],
+      "affiliations": [
+        "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 171 65 Solna, Stockholm, Sweden.",
+        "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 171 65 Solna, Stockholm, Sweden.",
+        "Department of Cell and Molecular Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 171 65 Solna, Stockholm, Sweden.",
+        "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 171 65 Solna, Stockholm, Sweden.",
+        "Structural Biology and NMR laboratory and the Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaloes vej 5, 2200 Copenhagen, Denmark.",
+        "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 171 65 Solna, Stockholm, Sweden.",
+        "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 171 65 Solna, Stockholm, Sweden.",
+        "Department of Biosciences and Nutrition, Karolinska Institutet, 141 57 Huddinge,, Sweden.",
+        "Science for Life Laboratory and Department of Biochemistry and Biophysics, Stockholm University, 114 19 Stockholm, Sweden.",
+        "Biomolecular Interaction Centre, School of Physical and Chemical Sciences, University of Canterbury, Upper Riccarton, Christchurch 8041, New Zealand.",
+        "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 171 65 Solna, Stockholm, Sweden.",
+        "Department of Biosciences and Nutrition, Karolinska Institutet, 141 57 Huddinge,, Sweden.",
+        "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 171 65 Solna, Stockholm, Sweden.",
+        "Department of Cell and Molecular Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 171 65 Solna, Stockholm, Sweden.",
+        "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavagen 9, 171 65 Solna, Stockholm, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saluri, Mihkel",
+        "short_name": "Saluri M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 171 65 Solna, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Leppert, Axel",
+        "short_name": "Leppert A",
+        "identifiers": [
+          "0000-0001-6223-3350"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 171 65 Solna, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Gese, Genis Valentin",
+        "short_name": "Gese GV",
+        "identifiers": [
+          "0000-0002-1890-5524"
+        ],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 171 65 Solna, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Sahin, Cagla",
+        "short_name": "Sahin C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 171 65 Solna, Stockholm, Sweden.",
+          "Structural Biology and NMR laboratory and the Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Ole Maaløes vej 5, 2200 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Lama, Dilraj",
+        "short_name": "Lama D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 171 65 Solna, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Kaldmäe, Margit",
+        "short_name": "Kaldmäe M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 171 65 Solna, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Chen, Gefei",
+        "short_name": "Chen G",
+        "identifiers": [
+          "0000-0002-5543-5963"
+        ],
+        "affiliations": [
+          "Department of Biosciences and Nutrition, Karolinska Institutet, 141 57 Huddinge,, Sweden."
+        ]
+      },
+      {
+        "full_name": "Elofsson, Arne",
+        "short_name": "Elofsson A",
+        "identifiers": [
+          "0000-0002-7115-9751"
+        ],
+        "affiliations": [
+          "Science for Life Laboratory and Department of Biochemistry and Biophysics, Stockholm University, 114 19 Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Allison, Timothy M",
+        "short_name": "Allison TM",
+        "identifiers": [],
+        "affiliations": [
+          "Biomolecular Interaction Centre, School of Physical and Chemical Sciences, University of Canterbury, Upper Riccarton, Christchurch 8041, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Arsenian-Henriksson, Marie",
+        "short_name": "Arsenian-Henriksson M",
+        "identifiers": [
+          "0000-0001-6376-7792"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 171 65 Solna, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Johansson, Jan",
+        "short_name": "Johansson J",
+        "identifiers": [
+          "0000-0002-8719-4703"
+        ],
+        "affiliations": [
+          "Department of Biosciences and Nutrition, Karolinska Institutet, 141 57 Huddinge,, Sweden."
+        ]
+      },
+      {
+        "full_name": "Lane, David P",
+        "short_name": "Lane DP",
+        "identifiers": [
+          "0000-0003-0551-3545"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 171 65 Solna, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Hällberg, B Martin",
+        "short_name": "Hällberg BM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Molecular Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 171 65 Solna, Stockholm, Sweden."
+        ]
+      },
+      {
+        "full_name": "Landreh, Michael",
+        "short_name": "Landreh M",
+        "identifiers": [
+          "0000-0002-7958-4074"
+        ],
+        "affiliations": [
+          "Department of Microbiology, Tumor and Cell Biology, Karolinska Institutet - Biomedicum, Solnavägen 9, 171 65 Solna, Stockholm, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PNAS nexus"
+    ],
+    "journal_abbrev": [
+      "PNAS Nexus"
+    ],
+    "pub_date": "2023 Feb",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/07 06:00",
+    "fetched_at": "2026-09-20 19:05:35"
+  },
+  "links": {
+    "cites": [
+      "42222815",
+      "41927845",
+      "41516383",
+      "41444337",
+      "41413654",
+      "40936608",
+      "40702700",
+      "40390365",
+      "40348279",
+      "40325419",
+      "39886581",
+      "39690184",
+      "38328033",
+      "37907762"
+    ],
+    "refs": [
+      "35013344",
+      "34977906",
+      "34469019",
+      "34408321",
+      "34265844",
+      "33876127",
+      "32873929",
+      "32646968",
+      "31824572",
+      "31751897",
+      "31512750",
+      "31434890",
+      "31296649",
+      "30498217",
+      "29507312",
+      "29483575",
+      "29234026",
+      "28184384",
+      "27797822",
+      "27212236",
+      "27009901",
+      "26836305",
+      "26500702",
+      "26458046",
+      "26356172",
+      "25464032",
+      "24878959",
+      "24711386",
+      "24616519",
+      "24106084",
+      "22707729",
+      "21880480",
+      "19652540",
+      "19110440",
+      "18511415",
+      "17879352",
+      "17519961",
+      "16794633",
+      "16648475",
+      "16097782",
+      "15635413",
+      "10829026",
+      "10211837"
+    ],
+    "similar": [
+      "36743470",
+      "31751897",
+      "35803020",
+      "23285058",
+      "29483575",
+      "33039556",
+      "30498217",
+      "37540843",
+      "27983985",
+      "36041327",
+      "38106181",
+      "26836305",
+      "24616519",
+      "36115577",
+      "23328624",
+      "33073687",
+      "32853771",
+      "27398412",
+      "30981631",
+      "29806702",
+      "37705750",
+      "25490769",
+      "34745055",
+      "34898280",
+      "29283500",
+      "35621728",
+      "34364939",
+      "23271972",
+      "29746960",
+      "24106084",
+      "33432115",
+      "33229560",
+      "33413620",
+      "20145123",
+      "25531824",
+      "22528486",
+      "30710643",
+      "36008542",
+      "27510036",
+      "25349213",
+      "32890557",
+      "35597503",
+      "22362753",
+      "21719597",
+      "28920929",
+      "21425800",
+      "27886181",
+      "21152184",
+      "32092641",
+      "29512650",
+      "24805251",
+      "28045037",
+      "24711386",
+      "29507312",
+      "27673355",
+      "29511089",
+      "25711412",
+      "34615546",
+      "22707729",
+      "23393136",
+      "28959884",
+      "35357307",
+      "31009764",
+      "34102212",
+      "18511415",
+      "15236975",
+      "27865970",
+      "18259216",
+      "39108706",
+      "32893436",
+      "34369377",
+      "32706972",
+      "30158700",
+      "30921500",
+      "26735904",
+      "22717133",
+      "32231288",
+      "25826659",
+      "29298892",
+      "30389521",
+      "23912807",
+      "19593743",
+      "34113334",
+      "35408798",
+      "38405961",
+      "29589547",
+      "26559910",
+      "34388291",
+      "34135123",
+      "21763502",
+      "17940610",
+      "38505697",
+      "36004782"
+    ],
+    "review": [
+      "36743470",
+      "32853771",
+      "35621728",
+      "36008542",
+      "27673355",
+      "31009764"
+    ],
+    "pmc": [
+      "9896144"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36743470/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36743470",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/pnasnexus/article-lookup/doi/10.1093/pnasnexus/pgac303",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

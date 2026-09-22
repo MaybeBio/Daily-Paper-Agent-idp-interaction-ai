@@ -1,0 +1,205 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.16.712198",
+  "title": "Multicomplex Integrative Structural Modeling of a Human Histone Deacetylase Interactome",
+  "doi": "10.64898/2026.03.16.712198",
+  "abstract": "<h4>Summary</h4> Histone Deacetylase (HDAC) 1 and 2 are key enzymatic components in multiple large chromatin remodeling complexes including NuRD, SIN3, and CoREST. In addition, both HDAC 1 and 2 contain a large intrinsically disordered region (IDR) within their C-terminal domain (CTD). How HDAC1/2 assemble into these complexes and the structure of the CTD IDR remains poorly understood. Here, we used HDAC1/2 to isolate their protein interaction networks from cells and used crosslinking mass spectrometry (XL-MS) coupled with the Integrative Modeling Platform to build structural models of the NuRD, SIN3A, and CoREST complexes. Next, we implemented an AlphaFold-enabled XL-MS constrained modeling approach to investigate how HDAC1 could assemble into these complexes. We show that the CTD IDR of HDAC1 folds into alpha helices in these complexes. Finally, we built a complete integrative structural model of a NuRD subcomplex including the abundant HDAC1:MBD3:MTA1:GATAD2B:RBBP4 subunits, which included 6 IDRs. The approaches used herein are broadly applicable for the study of protein complexes and protein interaction networks that can provide important insights into IDRs.",
+  "authors": [
+    "Nde J",
+    "Majila K",
+    "Zimmermann RC",
+    "Kempf C",
+    "Zhang Y",
+    "Cesare J",
+    "Thornton JL",
+    "Workman JL",
+    "Florens L",
+    "Viswanath S",
+    "Washburn MP"
+  ],
+  "published_date": "2026-03-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.16.712198",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.16.712198.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1218312",
+    "raw_record": {
+      "id": "PPR1218312",
+      "source": "PPR",
+      "doi": "10.64898/2026.03.16.712198",
+      "title": "Multicomplex Integrative Structural Modeling of a Human Histone Deacetylase Interactome",
+      "authorString": "Nde J, Majila K, Zimmermann RC, Kempf C, Zhang Y, Cesare J, Thornton JL, Workman JL, Florens L, Viswanath S, Washburn MP.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Nde J",
+            "lastName": "Nde",
+            "firstName": "Jules",
+            "initials": "J"
+          },
+          {
+            "fullName": "Majila K",
+            "lastName": "Majila",
+            "firstName": "Kartik",
+            "initials": "K"
+          },
+          {
+            "fullName": "Zimmermann RC",
+            "lastName": "Zimmermann",
+            "firstName": "Rosalyn",
+            "initials": "RC"
+          },
+          {
+            "fullName": "Kempf C",
+            "lastName": "Kempf",
+            "firstName": "Cassandra",
+            "initials": "C"
+          },
+          {
+            "fullName": "Zhang Y",
+            "lastName": "Zhang",
+            "firstName": "Ying",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Cesare J",
+            "lastName": "Cesare",
+            "firstName": "Joseph",
+            "initials": "J"
+          },
+          {
+            "fullName": "Thornton JL",
+            "lastName": "Thornton",
+            "firstName": "Janet",
+            "initials": "JL"
+          },
+          {
+            "fullName": "Workman JL",
+            "lastName": "Workman",
+            "firstName": "Jerry",
+            "initials": "JL"
+          },
+          {
+            "fullName": "Florens L",
+            "lastName": "Florens",
+            "firstName": "Laurence",
+            "initials": "L"
+          },
+          {
+            "fullName": "Viswanath S",
+            "lastName": "Viswanath",
+            "firstName": "Shruthi",
+            "initials": "S"
+          },
+          {
+            "fullName": "Washburn MP",
+            "lastName": "Washburn",
+            "firstName": "Michael",
+            "initials": "MP"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>Summary</h4>  Histone Deacetylase (HDAC) 1 and 2 are key enzymatic components in multiple large chromatin remodeling complexes including NuRD, SIN3, and CoREST. In addition, both HDAC 1 and 2 contain a large intrinsically disordered region (IDR) within their C-terminal domain (CTD). How HDAC1/2 assemble into these complexes and the structure of the CTD IDR remains poorly understood. Here, we used HDAC1/2 to isolate their protein interaction networks from cells and used crosslinking mass spectrometry (XL-MS) coupled with the Integrative Modeling Platform to build structural models of the NuRD, SIN3A, and CoREST complexes. Next, we implemented an AlphaFold-enabled XL-MS constrained modeling approach to investigate how HDAC1 could assemble into these complexes. We show that the CTD IDR of HDAC1 folds into alpha helices in these complexes. Finally, we built a complete integrative structural model of a NuRD subcomplex including the abundant HDAC1:MBD3:MTA1:GATAD2B:RBBP4 subunits, which included 6 IDRs. The approaches used herein are broadly applicable for the study of protein complexes and protein interaction networks that can provide important insights into IDRs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Institute of General Medical Sciences",
+            "grantId": "F31GM131536",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute of General Medical Sciences",
+            "grantId": "R35GM118068",
+            "orderIn": 0
+          },
+          {
+            "agency": "Department of Biotechnology, Government of India",
+            "grantId": "BT/PR40323/BTIS/137/78/2023",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute of General Medical Sciences",
+            "grantId": "R35GM145240",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute of General Medical Sciences",
+            "grantId": "T32GM138077",
+            "orderIn": 0
+          },
+          {
+            "agency": "Stowers Institute for Medical Research",
+            "orderIn": 0
+          },
+          {
+            "agency": "Department of Atomic Energy, Government of India",
+            "grantId": "DAE TIFR RTI 4006",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.16.712198"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42680104",
+            "reference": "Molecular & cellular proteomics : MCP. \n    2026 Sep;:101651",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-03-17",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

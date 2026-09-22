@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.10.02.462491",
+  "title": "DeepUMQA: Ultrafast Shape Recognition-based Protein Model Quality Assessment using Deep Learning",
+  "authors": "Sai-Sai Guo; Jun Liu; Xiao-Gen Zhou; Gui-Jun Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2021-10-03",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用深度学习做蛋白质模型质量评估，虽涉及结构拓扑特征，但对象非无序蛋白/IDR，也不研究PPI或互作机制，仅对单模型打分，与本课题关联较弱。",
+  "abstract": "Motivation Protein model quality assessment is a key component of protein structure prediction. In recent research, the voxelization feature was used to characterize the local structural information of residues, but it may be insufficient for describing residue-level topological information. Design features that can further reflect residue-level topology when combined with deep learning methods are therefore crucial to improve the performance of model quality assessment. Results We developed a deep-learning method, DeepUMQA, based on Ultrafast Shape Recognition (USR) for the residue-level single-model quality assessment. In the framework of the deep residual neural network, the residue-level USR feature was introduced to describe the topological relationship between the residue and overall structure by calculating the first moment of a set of residue distance sets and then combined with 1D, 2D, and voxelization features to assess the quality of the model. Experimental results on test datasets of CASP13, CASP14, and CAMEO show that USR could complement the voxelization feature to comprehensively characterize residue structure information and significantly improve the model assessment accuracy. DeepUMQA outperformed the state-of-the-art single-model quality assessment methods, including ProQ2, ProQ3, ProQ3D, Ornate, VoroMQA, and DeepAccNet. Availability The source code and executable are freely available at https://github.com/iobio-zjut/DeepUMQA . Contact zgj@zjut.edu.cn",
+  "abstract_zh": "动机 蛋白质模型质量评估是蛋白质结构预测的关键组成部分。近期研究中，体素化特征被用于表征残基的局部结构信息，但可能不足以描述残基级别的拓扑信息。因此，设计能够进一步反映残基级拓扑的特征，并结合深度学习方法，对于提升模型质量评估性能至关重要。结果 我们开发了一种基于超快形状识别（Ultrafast Shape Recognition, USR）的深度学习方法DeepUMQA，用于残基级单模型质量评估。在深度残差神经网络框架下，引入残基级USR特征，通过计算一组残基距离集合的第一矩来描述残基与整体结构之间的拓扑关系，并与1D、2D及体素化特征结合，以评估模型质量。在CASP13、CASP14和CAMEO测试数据集上的实验结果表明，USR能够补充体素化特征，全面表征残基结构信息，并显著提高模型评估准确性。DeepUMQA优于最先进的单模型质量评估方法，包括ProQ2、ProQ3、ProQ3D、Ornate、VoroMQA和DeepAccNet。可用性 源代码和可执行文件可在https://github.com/iobio-zjut/DeepUMQA 免费获取。联系方式 zgj@zjut.edu.cn",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.10.02.462491",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.10.02.462491",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.10.02.462491/index.html"
+}

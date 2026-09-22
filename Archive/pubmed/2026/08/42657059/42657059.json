@@ -1,0 +1,219 @@
+{
+  "identity": {
+    "pmid": "42657059",
+    "doi": "10.1021/jacsau.6c00523",
+    "title": "Simulating Thermoresponsive Behavior of Disordered Proteins with Temperature-Dependent Coarse-Grained Potentials Derived from Hydration Free Energies."
+  },
+  "content": {
+    "abstract": "Thermoresponsive phase transitions of intrinsically disordered proteins (IDPs), including both upper critical solution temperature (UCST) and lower critical solution temperature (LCST) transitions, are widely observed in natural and synthetic sequences. However, most existing coarse-grained (CG) models employ temperature-independent interactions and fail to capture solvation-driven LCST behavior. Here, we bridge the gap between atomistic hydration and macroscopic phase separation. Leveraging 500 mus long extensive all-atom molecular dynamics simulations, we reveal a fundamental linear correlation between the temperature-dependent inter-residue interaction strengths and hydration free energies. Furthermore, we demonstrate that the heterotypic interactions at the molecular level can be well approximated by a simple combination of the homotypic interactions. We incorporate these thermodynamic insights into a physics-based framework, TEA (Temperature-dependent Energetics derived from hydrAtion), which introduces temperature-dependent potentials with minimal phenomenological fitting. The TEA-augmented CG models robustly distinguish UCST- and LCST-type sequences, successfully identify experimentally reported outliers, and accurately reproduce LCST-type single-chain compaction trends and phase diagrams of multiple disordered proteins. Our work provides a transferable and physically interpretable framework that bridges atomistic hydration thermodynamics and phase behavior of IDPs, enabling the simulation of thermoresponsive sequences with minimal phenomenological fitting.",
+    "keywords": [
+      "coarse-grained simulations",
+      "disordered proteins",
+      "hydration free energies",
+      "lower critical solution temperature",
+      "phase separation",
+      "temperature-dependent interactions"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Fangke",
+        "Zeng, Xiangze"
+      ],
+      "short_names": [
+        "Chen F",
+        "Zeng X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9848-3033"
+      ],
+      "affiliations": [
+        "Department of Physics, Hong Kong Baptist University, Kowloon Tong, Hong Kong 999077, China. RINGGOLD: 26679",
+        "Department of Physics, Hong Kong Baptist University, Kowloon Tong, Hong Kong 999077, China. RINGGOLD: 26679",
+        "The Computational Medicine Lab, School of Chinese Medicine, Hong Kong Baptist University, Kowloon Tong, Hong Kong 999077, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Fangke",
+        "short_name": "Chen F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Hong Kong Baptist University, Kowloon Tong, Hong Kong 999077, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Xiangze",
+        "short_name": "Zeng X",
+        "identifiers": [
+          "0000-0002-9848-3033"
+        ],
+        "affiliations": [
+          "Department of Physics, Hong Kong Baptist University, Kowloon Tong, Hong Kong 999077, China.",
+          "The Computational Medicine Lab, School of Chinese Medicine, Hong Kong Baptist University, Kowloon Tong, Hong Kong 999077, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2026 Aug 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/27 12:36",
+    "fetched_at": "2026-09-18 06:01:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42657059",
+      "40278867",
+      "38362050",
+      "40093057",
+      "40944421",
+      "28217775",
+      "33934416",
+      "31139718",
+      "23912807",
+      "31667345",
+      "41446170",
+      "36066390",
+      "29186229",
+      "34716273",
+      "40128232",
+      "31009934",
+      "39605385",
+      "39225535",
+      "35648610",
+      "29364893",
+      "32393642",
+      "42350353",
+      "40970906",
+      "26620333",
+      "16863357",
+      "35708274",
+      "39908323",
+      "40131954",
+      "40009520",
+      "34496595",
+      "30715857",
+      "32692541",
+      "30714730",
+      "41609052",
+      "33139563",
+      "33453922",
+      "37645312",
+      "41552984",
+      "23204949",
+      "26202833",
+      "36083825",
+      "29949750",
+      "25475429",
+      "30217894",
+      "38546977",
+      "33877835",
+      "33448085",
+      "32975948",
+      "42475469",
+      "26723705",
+      "38112495",
+      "26574429",
+      "37714883",
+      "22296566",
+      "28875361",
+      "35793442",
+      "35944496",
+      "39907269",
+      "37815389",
+      "21740053",
+      "39568948",
+      "40681718",
+      "39554101",
+      "39797979",
+      "34101464",
+      "25142785",
+      "38008477",
+      "37449795",
+      "34476018",
+      "30372083",
+      "39319382",
+      "32016274",
+      "30565944",
+      "21823715",
+      "26822827",
+      "42662242",
+      "36343363",
+      "20585614",
+      "21494747",
+      "26613497",
+      "37222424",
+      "38953296",
+      "40631837",
+      "17696526",
+      "36272811",
+      "22852610",
+      "39105804",
+      "37079924",
+      "41137856",
+      "37662293",
+      "33232107",
+      "34928291",
+      "24273239",
+      "38153413",
+      "41012264",
+      "25375525",
+      "32619404",
+      "24506488",
+      "34723311",
+      "40324844"
+    ],
+    "review": [
+      "42657059",
+      "29949750",
+      "34476018"
+    ],
+    "pmc": [
+      "13508075"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42657059/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.6c00523",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

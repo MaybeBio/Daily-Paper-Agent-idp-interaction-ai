@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "42306853",
+    "doi": "10.1242/jcs.264844",
+    "title": "Decoding intrinsically disordered regions in chromatin dysfunction and cancer."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) are pervasive in chromatin regulatory proteins, where their dynamic, multivalent interactions organize nuclear biochemistry, in some cases through biomolecular condensation. Because  approximately 20% of cancer-driver mutations map to disordered regions - for which traditional structure-function paradigms are often insufficient - there is a need for a mechanistically grounded, predictive framework to interpret their effects. In this Perspective, we first synthesize case-specific studies demonstrating how IDRs coordinate cancer-relevant nuclear functions. Second, we examine the underlying molecular 'grammar' and biophysical behavior of representative IDRs, including amino acid patterning, charge distribution and post-translational modifications. Third, we highlight the emergence of high-content experimental platforms that enable the field to move beyond individual anecdotes toward generalizable principles of IDR function. Finally, we discuss how these mechanistic and systematic perspectives can be integrated into predictive frameworks. By bridging individual functional insights with proteome-scale datasets, a unified approach could improve prediction of how disease-associated variants alter cellular states and help establish a foundation for the therapeutic targeting of the disordered proteome.",
+    "keywords": [
+      "Artificial intelligence",
+      "Biomolecular condensation",
+      "Cancer",
+      "Intrinsically disordered regions",
+      "Machine learning",
+      "Nuclear structure and function",
+      "Transcriptional regulation"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Chromatin/metabolism/genetics",
+      "*Neoplasms/metabolism/genetics/pathology",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "Animals",
+      "Protein Processing, Post-Translational"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hong, Audrey W",
+        "Hannon, Colleen E",
+        "Strom, Amy R"
+      ],
+      "short_names": [
+        "Hong AW",
+        "Hannon CE",
+        "Strom AR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1674-3242"
+      ],
+      "affiliations": [
+        "Department of Discovery Oncology, Genentech, South San Francisco, CA 94080, USA.",
+        "Department of Discovery Oncology, Genentech, South San Francisco, CA 94080, USA.",
+        "Department of Discovery Oncology, Genentech, South San Francisco, CA 94080, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hong, Audrey W",
+        "short_name": "Hong AW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Discovery Oncology, Genentech, South San Francisco, CA 94080, USA."
+        ]
+      },
+      {
+        "full_name": "Hannon, Colleen E",
+        "short_name": "Hannon CE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Discovery Oncology, Genentech, South San Francisco, CA 94080, USA."
+        ]
+      },
+      {
+        "full_name": "Strom, Amy R",
+        "short_name": "Strom AR",
+        "identifiers": [
+          "0000-0002-1674-3242"
+        ],
+        "affiliations": [
+          "Department of Discovery Oncology, Genentech, South San Francisco, CA 94080, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cell science"
+    ],
+    "journal_abbrev": [
+      "J Cell Sci"
+    ],
+    "pub_date": "2026 Jun 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/17 06:32",
+    "fetched_at": "2026-09-18 04:11:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42306853",
+      "33248138",
+      "39933697",
+      "41232529",
+      "42150060",
+      "33806614",
+      "39893491",
+      "34390736",
+      "39631290",
+      "41337585",
+      "38297118",
+      "38941236",
+      "33719450",
+      "26922996",
+      "40645561",
+      "41378882",
+      "38296708",
+      "42101638",
+      "40943096",
+      "40828855",
+      "27911701",
+      "31694155",
+      "28934129",
+      "41033554",
+      "28502465",
+      "33866372",
+      "41343298",
+      "36821650",
+      "41667449",
+      "30940742",
+      "34871434",
+      "25752799",
+      "41512952",
+      "39232584",
+      "38705823",
+      "41824454",
+      "39914051",
+      "24532081",
+      "26851279",
+      "40060677",
+      "39826710",
+      "39578215",
+      "27098855",
+      "33243935",
+      "32696354",
+      "24930020",
+      "32731489",
+      "41276815",
+      "40306367",
+      "33357399",
+      "39093570",
+      "40221640",
+      "33036302",
+      "41571439",
+      "29626537",
+      "27062995",
+      "41629626",
+      "23706950",
+      "27377881",
+      "26402567",
+      "29722136",
+      "33096105",
+      "31175370",
+      "34418423",
+      "41647538",
+      "37788668",
+      "31441158",
+      "27804860",
+      "35767567",
+      "33616531",
+      "40913895",
+      "33627133",
+      "34347206",
+      "40631955",
+      "32722039",
+      "42057657",
+      "38275091",
+      "31425549",
+      "34163069",
+      "41904596",
+      "40897567",
+      "30878482",
+      "37657994",
+      "36291695",
+      "39539017",
+      "24027208",
+      "40325419",
+      "38588835",
+      "38252962",
+      "39383002",
+      "33799876",
+      "17391016",
+      "34461937",
+      "26851284",
+      "25286318",
+      "41495908",
+      "30096183",
+      "40650026",
+      "41688823",
+      "40944448"
+    ],
+    "review": [
+      "42306853",
+      "33248138",
+      "34390736",
+      "39631290",
+      "26922996",
+      "40645561",
+      "38296708",
+      "42101638",
+      "27911701",
+      "31694155",
+      "28502465",
+      "41343298",
+      "36821650",
+      "30940742",
+      "25752799",
+      "38705823",
+      "39914051",
+      "24532081",
+      "26851279",
+      "39578215",
+      "27098855",
+      "33243935",
+      "24930020",
+      "33357399",
+      "39093570",
+      "23706950",
+      "26402567",
+      "29722136",
+      "34418423",
+      "41647538",
+      "31441158",
+      "27804860",
+      "40913895",
+      "34347206",
+      "42057657",
+      "41904596",
+      "40897567",
+      "37657994",
+      "24027208",
+      "40325419",
+      "38588835"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cancer"
+      },
+      {
+        "url": "https://journals.biologists.com/jcs/article-lookup/doi/10.1242/jcs.264844",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

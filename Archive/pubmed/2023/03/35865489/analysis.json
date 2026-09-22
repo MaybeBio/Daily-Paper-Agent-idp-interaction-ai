@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35865489",
+  "title": "Identifying and characterising Thrap3, Bclaf1 and Erh interactions using cross-linking mass spectrometry.",
+  "authors": "Shcherbakova, Liudmila; Pardo, Mercedes; Roumeliotis, Theodoros; Choudhary, Jyoti",
+  "journal": "Wellcome open research",
+  "published_date": "2023-03-03",
+  "window": {
+    "start": "2023-02-27",
+    "end": "2023-03-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用内源性交联质谱(XL-MS)表征Thrap3、Bclaf1和Erh三种蛋白的互作界面，其中Thrap3和Bclaf1为无序蛋白，并利用同源建模和对接思路解析复合物拓扑，虽无AI/物理模拟深度，但聚焦IDP介导的PPI机制建模，对本课题有直接启发。",
+  "abstract": "Background: Cross-linking mass spectrometry (XL-MS) is a powerful technology capable of yielding structural insights across the complex cellular protein interaction network. However, up to date most of the studies utilising XL-MS to characterise individual protein complexes' topology have been carried out on over-expressed or recombinant proteins, which might not accurately represent native cellular conditions. Methods: We performed XL-MS using MS-cleavable crosslinker disuccinimidyl sulfoxide (DSSO) after immunoprecipitation of endogenous BRG/Brahma-associated factors (BAF) complex and co-purifying proteins. Data are available via ProteomeXchange with identifier PXD027611. Results: Although we did not detect the expected enrichment of crosslinks within the BAF complex, we identified numerous crosslinks between three co-purifying proteins, namely Thrap3, Bclaf1 and Erh. Thrap3 and Bclaf1 are mostly disordered proteins for which no 3D structure is available. The XL data allowed us to map interaction surfaces on these proteins, which overlap with the non-disordered portions of both proteins. The identified XLs are in agreement with homology-modelled structures suggesting that the interaction surfaces are globular. Conclusions: Our data shows that MS-cleavable crosslinker DSSO can be used to characterise in detail the topology and interaction surfaces of endogenous protein complexes without the need for overexpression. We demonstrate that Bclaf1, Erh and Thrap3 interact closely with each other, suggesting they might form a novel complex, hereby referred to as TEB complex. This data can be exploited for modelling protein-protein docking to characterise the three-dimensional structure of the complex. Endogenous XL-MS might be challenging due to crosslinker accessibility, protein complex abundance or isolation efficiency, and require further optimisation for some complexes like the BAF complex to detect a substantial number of crosslinks.",
+  "abstract_zh": "背景：交联质谱（XL-MS）是一种强大的技术，能够在复杂的细胞蛋白质相互作用网络中提供结构洞察。然而，迄今为止，大多数利用XL-MS表征单个蛋白质复合物拓扑结构的研究都是在过表达或重组蛋白上进行的，这可能无法准确反映天然细胞条件。方法：我们在免疫沉淀内源性BRG/Brahma相关因子（BAF）复合物及共纯化蛋白后，使用可裂解交联剂二琥珀酰亚胺亚砜（DSSO）进行XL-MS。数据可通过ProteomeXchange获取，标识符为PXD027611。结果：尽管我们未检测到BAF复合物内交联的预期富集，但我们鉴定了三个共纯化蛋白（即Thrap3、Bclaf1和Erh）之间的众多交联。Thrap3和Bclaf1主要是无序蛋白，目前尚无三维结构可用。XL数据使我们能够绘制这些蛋白上的相互作用表面，这些表面与两者的非无序部分重叠。鉴定的交联与同源建模结构一致，表明相互作用表面呈球状。结论：我们的数据表明，可裂解交联剂DSSO可用于详细表征内源性蛋白质复合物的拓扑结构和相互作用表面，无需过表达。我们证明Bclaf1、Erh和Thrap3彼此紧密相互作用，提示它们可能形成一种新型复合物，此处称为TEB复合物。该数据可用于蛋白质-蛋白质对接建模，以表征复合物的三维结构。内源性XL-MS可能因交联剂可及性、蛋白质复合物丰度或分离效率而具有挑战性，对于某些复合物（如BAF复合物）可能需要进一步优化，以检测到大量交联。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35865489/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35865489/",
+  "paper_page_path": "papers/pubmed/35865489/index.html"
+}

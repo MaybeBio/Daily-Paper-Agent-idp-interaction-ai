@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full-text methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose an AI-assisted native proteomics method that integrates protein structure prediction (PSP) with top-down proteomics (TDP) and native mass spectrometry (nMS) to simultaneously identify proteins and characterize their conformations at the proteome scale. The method was applied to ribosomal proteins pre- and post-assembly, revealing multiple conformational ensembles for monomers with intrinsically disordered regions. Protein-drug interaction experiments suggest that the preferred binding conformation may differ from the complex conformation.
+- **Visible evidence base** Abstract text only; no experimental details, datasets, validation metrics, or statistical analyses are available
+- **Missing materials affecting confidence** Full methods, experimental protocols, raw and processed data, validation benchmarks, comparison with existing approaches, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing integration of existing technologies (TDP, nMS, and PSP) toward a goal of considerable interest, namely proteome-scale conformational characterization. However, the current evidence base is insufficient to evaluate the technical soundness, novelty, or validity of the proposed method. Key claims regarding conformational ensembles, the role of intrinsically disordered regions, and the implications for drug development are stated without supporting data. The manuscript may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists, proteomics researchers, and drug discovery scientists would be interested in a method that bridges proteomics and structural biology. The potential to capture "dark" conformations relevant to drug binding could appeal to those studying protein dynamics and ligand interactions. However, interest will depend on demonstrated performance and validation.
+- **Major strengths** The conceptual integration of TDP, nMS, and PSP is a reasonable and potentially powerful approach. The application to ribosomal proteins pre- and post-assembly is a relevant biological context. The emphasis on conformationally heterogeneous states, particularly for proteins with intrinsically disordered regions, addresses an important gap in conventional proteomics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method integrates PSP with TDP and nMS to acquire protein conformations under experimental conditions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are provided on how the PSP module is constrained or validated by the nMS-derived solvent-accessible surface area data. The abstract does not describe the computational workflow, the uncertainty in the structural predictions, or how experimental data are weighted relative to the prediction model.
+  - **Why it matters** Without a clear and validated integration strategy, the central claim that conformations are "acquired" under experimental conditions cannot be assessed. The reliability of the output depends entirely on this integration.
+  - **Resolution test** Provide a detailed description of the integration algorithm, validation against known structures, and error analysis demonstrating that the method recovers experimentally determined conformations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** Most ribosomal proteins with intrinsically disordered regions exhibit multiple conformational ensembles in the monomer state.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This is a central biological finding, yet no quantitative data are presented. The abstract does not specify how many proteins were analyzed, how conformational ensembles were defined, what the distribution of ensemble sizes was, or how the presence of intrinsically disordered regions was determined.
+  - **Why it matters** The claim is broad and generalizable, but without supporting distributions, statistics, or representative examples, it cannot be evaluated or reproduced.
+  - **Resolution test** Present the number of proteins analyzed, the criteria for defining a conformational ensemble, and a comparison of disordered versus ordered proteins with appropriate statistical testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validity
+  - **Claim pointer** Protein-drug interaction experiments show that the preferred conformation during binding events may differ from its conformation within the complex.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states this as a finding but provides no experimental context. It is unclear which drug, which protein, what binding assay was used, and how the "preferred conformation" was determined. The phrase "may differ" is also ambiguous, as it is unclear whether this is a demonstrated result or a hypothesis.
+  - **Why it matters** This claim has implications for drug development, but without experimental detail it is not possible to assess its validity or significance.
+  - **Resolution test** Provide the specific protein-drug pair, the experimental conditions, the conformational data before and during binding, and a clear statement of whether the difference is statistically supported.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "dark" conformations is used without definition. It is not clear whether this refers to low-population states, states not observable by conventional methods, or something else.
+  - **Required correction** Define the term explicitly upon first use and relate it to the conformational ensembles described earlier.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state whether the method is applicable to proteins of any size, solubility, or abundance, or whether there are limitations.
+  - **Required correction** Add a sentence on the scope and known limitations of the method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No throughput, accuracy, or reproducibility metrics are reported for the integrated method.
+  - **Required correction** Include key performance indicators such as number of proteins identified, conformational resolution, and reproducibility across replicates.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The integration strategy, the central biological claim, and the drug-binding claim all require substantial additional evidence.
+- **Assessment against Nature-style criteria** Originality: the combination of TDP, nMS, and PSP is not entirely new in concept, but the specific integration for proteome-scale conformational analysis may offer a novel angle. Scientific importance: the goal of linking proteome identity to conformation is important, but the significance of the specific findings cannot be assessed from the abstract. Interdisciplinary readership: the topic bridges proteomics, structural biology, and drug discovery, which could attract a broad audience if the method is validated. Technical soundness: not assessable from the supplied material. Readability for nonspecialists: the abstract is generally clear, though the term "dark" conformations and the integration workflow would benefit from more explicit explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract alone does not provide sufficient technical detail or validation to support the central claims. A full manuscript with detailed methods, validation, and quantitative results would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that the method enables "high-throughput proteome identification and conformational characterization" is unsupported, as no throughput or scalability data are provided.
+- The claim that "most ribosomal proteins with intrinsically disordered regions exhibit multiple conformational ensembles" is unsupported without quantitative data.
+- The claim that the preferred binding conformation "may differ" from the complex conformation is presented as a finding but is not backed by experimental detail.
+- The general statement that the method "bridges the gap between structural biology and conventional proteomics technologies" is an assertion that cannot be evaluated from the abstract.

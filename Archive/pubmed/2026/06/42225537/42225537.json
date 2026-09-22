@@ -1,0 +1,337 @@
+{
+  "identity": {
+    "pmid": "42225537",
+    "doi": "10.1016/j.biotechadv.2026.108931",
+    "title": "Liquid-liquid phase separation in metabolic engineering: Mechanistic insights, emerging applications, and future challenges."
+  },
+  "content": {
+    "abstract": "Mechanistic studies of liquid-liquid phase separation (LLPS) have increasingly revealed that cells achieve multiscale and highly precise regulation of metabolic activities and biochemical reaction networks through the formation of membraneless organelles (MLOs). This paradigm is opening new avenues for metabolic engineering by enabling enhanced biosynthetic efficiency, improved metabolic robustness, and dynamic control that are difficult to achieve with conventional static regulatory strategies. In this review, we systematically summarize the design principles, molecular determinants, and regulatory strategies underlying LLPS-based artificial condensates, with a particular emphasis on their applications in metabolic channeling, gene expression control, and the construction of complex, programmable cellular functional modules. We further explored how artificial intelligence (AI) and deep learning (DL) are transforming this field by enabling the construction of databases for intrinsic disorder regions (IDR) within systems and the rational design of data-driven synthetic IDRs. This establishes quantitative sequence-phase behavior relationships and accelerates the transition from empirical design to predictive, engineering-oriented frameworks. Finally, we critically evaluate key challenges and future opportunities, including condensate aging and compatibility with host cellular environments, which provide critical insights for the development of next-generation, stable, and highly compatible tunable condensates. This review provides an integrated theoretical framework and forward-looking perspective for researchers in synthetic biology and metabolic engineering, aiming to facilitate the development of next-generation, robust, and programmable LLPS-based platforms for advanced microbial cell factories.",
+    "keywords": [
+      "Intrinsically disordered regions",
+      "Liquid-liquid phase separation",
+      "Membraneless organelle",
+      "Metabolic engineering"
+    ],
+    "mesh_terms": [
+      "*Metabolic Engineering/methods",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Weiwei",
+        "Tian, Linyue",
+        "Xie, Jiupan",
+        "Wu, Lianwu",
+        "Hu, Lin",
+        "Ge, Ran",
+        "Wang, Yuanpeng",
+        "Cao, Mingfeng"
+      ],
+      "short_names": [
+        "Liu W",
+        "Tian L",
+        "Xie J",
+        "Wu L",
+        "Hu L",
+        "Ge R",
+        "Wang Y",
+        "Cao M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China.",
+        "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China; Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), Xiamen 361005, China.",
+        "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China.",
+        "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China.",
+        "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China.",
+        "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China.",
+        "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China. Electronic address: wypp@xmu.edu.cn.",
+        "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China; Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), Xiamen 361005, China. Electronic address: mfcao@xmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Weiwei",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Linyue",
+        "short_name": "Tian L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China; Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), Xiamen 361005, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Jiupan",
+        "short_name": "Xie J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Lianwu",
+        "short_name": "Wu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Lin",
+        "short_name": "Hu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China."
+        ]
+      },
+      {
+        "full_name": "Ge, Ran",
+        "short_name": "Ge R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yuanpeng",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China. Electronic address: wypp@xmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Cao, Mingfeng",
+        "short_name": "Cao M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, College of Chemistry and Chemical Engineering, Key Laboratory for Synthetic Biotechnology of Xiamen City, Xiamen University, Xiamen 361005, China; Innovation Laboratory for Sciences and Technologies of Energy Materials of Fujian Province (IKKEM), Xiamen 361005, China. Electronic address: mfcao@xmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biotechnology advances"
+    ],
+    "journal_abbrev": [
+      "Biotechnol Adv"
+    ],
+    "pub_date": "2026 Oct",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/02 00:35",
+    "fetched_at": "2026-09-18 03:49:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42225537",
+      "41480717",
+      "41163338",
+      "41721403",
+      "41587927",
+      "41624985",
+      "42350320",
+      "38588907",
+      "41497175",
+      "41873070",
+      "40985478",
+      "39705832",
+      "42070290",
+      "40893468",
+      "42204980",
+      "41985875",
+      "41003226",
+      "38723938",
+      "41363845",
+      "41307542",
+      "41442811",
+      "41544898",
+      "41009632",
+      "41206632",
+      "42184109",
+      "40616404",
+      "41475588",
+      "33260713",
+      "41689864",
+      "41889100",
+      "38979955",
+      "39271032",
+      "41586404",
+      "42420726",
+      "36350034",
+      "40849651",
+      "38042897",
+      "40818561",
+      "38063081",
+      "41641521",
+      "42197385",
+      "37191277",
+      "41457474",
+      "41365436",
+      "42246275",
+      "32312191",
+      "34179096",
+      "41781700",
+      "41758048",
+      "37735903",
+      "39947751",
+      "34759902",
+      "41930348",
+      "34293345",
+      "42359840",
+      "35252623",
+      "41399350",
+      "42120374",
+      "34522448",
+      "33914074",
+      "41860722",
+      "40499379",
+      "40112030",
+      "39284811",
+      "36230986",
+      "40632496",
+      "36768473",
+      "23912807",
+      "31444270",
+      "39178343",
+      "42106138",
+      "39290787",
+      "42231671",
+      "33661634",
+      "41524628",
+      "37925283",
+      "38322526",
+      "35883463",
+      "31941785",
+      "42243951",
+      "41645307",
+      "40806599",
+      "41942052",
+      "39964249",
+      "41946638",
+      "40843963",
+      "35802394",
+      "42214054",
+      "38855848",
+      "41457544",
+      "33765580",
+      "35918061",
+      "40277535",
+      "40642070",
+      "41245762",
+      "42287190",
+      "37359769",
+      "32927059",
+      "40291420",
+      "32947964"
+    ],
+    "review": [
+      "42225537",
+      "41480717",
+      "41163338",
+      "41721403",
+      "41587927",
+      "41624985",
+      "42350320",
+      "38588907",
+      "41497175",
+      "41873070",
+      "40985478",
+      "39705832",
+      "42070290",
+      "42204980",
+      "41003226",
+      "38723938",
+      "41307542",
+      "41442811",
+      "41544898",
+      "41009632",
+      "41206632",
+      "42184109",
+      "40616404",
+      "41475588",
+      "33260713",
+      "41689864",
+      "41889100",
+      "38979955",
+      "39271032",
+      "41586404",
+      "36350034",
+      "40849651",
+      "40818561",
+      "41641521",
+      "42197385",
+      "41365436",
+      "42246275",
+      "32312191",
+      "41781700",
+      "41758048",
+      "37735903",
+      "39947751",
+      "34759902",
+      "41930348",
+      "34293345",
+      "42359840",
+      "41399350",
+      "42120374",
+      "34522448",
+      "33914074",
+      "41860722",
+      "36230986",
+      "31444270",
+      "39178343",
+      "39290787",
+      "37925283",
+      "35883463",
+      "42243951",
+      "41645307",
+      "40806599",
+      "41942052",
+      "39964249",
+      "41946638",
+      "40843963",
+      "35802394",
+      "38855848",
+      "41457544",
+      "33765580",
+      "40277535",
+      "40642070",
+      "41245762",
+      "37359769",
+      "32927059",
+      "32947964"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0734-9750(26)00137-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

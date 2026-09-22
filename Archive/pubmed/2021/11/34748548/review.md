@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and methods, Results and discussion, Conclusion, Supporting information notice)
+- **Assessment boundary** Scientific content, methodology, internal consistency, and support of claims by the presented evidence. No line numbers were provided; section and figure references are used as available.
+- **Shared manuscript claim summary** The authors use coarse-grain Brownian Dynamics simulations with reactive binding to study how multivalent polymers control liquid-liquid phase separation (LLPS) of a two-component system (polymer and target protein). They claim that non-specific binding interactions lower the phase boundary more effectively than specific, valence-limited binding; that solvent quality and polymer length modulate phase separation; that binding energy can control droplet organization in a three-component system; and that both lower protein solubility and higher protein-polymer affinity slow condensed-phase dynamics.
+- **Visible evidence base** Full text including Methods, Results and discussion, and Conclusion. Figures are referenced (Figs 3-16) but not directly viewable. Supporting information (S1 File, S2 Fig) is mentioned but not provided.
+- **Missing materials affecting confidence** Figure images, simulation parameter tables, S1 File (including Langmuir adsorption conversion details and neighbor persistence calculation details), and S2 Fig (energy profile over time). Without these, quantitative validation of phase boundary determinations, Binder cumulant calculations, and diffusion analyses is not possible.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational study of how multivalent polymer properties influence LLPS in a minimal two-component system. The work addresses a relevant question in the biocondensate field and extends prior simulation efforts by explicitly comparing specific versus non-specific binding, examining droplet organization, and linking binding parameters to condensed-phase dynamics. The methodological framework is reasonable and builds on established approaches. However, the manuscript has several weaknesses that limit the strength of the conclusions as presented. The phase boundary determination relies heavily on visual inspection supplemented by Binder cumulant and Rg analyses, but the quantitative criteria and the discrepancies between these methods are not fully resolved. The comparison between specific and non-specific binding is made across different interaction types and energy scales, which complicates direct interpretation. The dynamics results are presented descriptively without quantitative fitting or comparison to theoretical models. The manuscript would benefit from clearer presentation of the simulation parameters, more rigorous quantitative analysis of the phase boundaries and dynamics, and a more careful discussion of the limitations and generalizability of the model.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and LLPS, particularly those interested in the role of RNA and multivalent proteins in phase separation. Computational biophysicists working on coarse-grain models of intracellular phase behavior would also find the methodological framework relevant. Experimentalists studying condensate formation and dynamics may find the predictions regarding non-specific versus specific binding effects and droplet organization useful for interpreting their own systems.
+- **Major strengths** The manuscript addresses an important and timely question about how multivalent polymers control LLPS. The simulation model captures both specific and non-specific interactions and includes dynamics, which is a broader scope than many prior studies. The systematic variation of parameters (valency, binding affinity, polymer length, solvent quality) provides a useful map of the phase behavior. The connection to disease relevance (ALS, FUS mutations) contextualizes the work for a broad audience.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of phase boundary determination
+  - **Claim pointer** The authors claim to determine phase boundaries and construct phase diagrams for the polymer-target system using visual inspection, Binder cumulant, and Rg collapse.
+  - **Evidence pointer** Results and discussion, "Valency and affinity of specific lock and key bonding" section; Figs 4-11; Methods section
+  - **Concern** The phase boundary determination relies primarily on visual inspection of simulation snapshots, with Binder cumulant and Rg analyses used as secondary confirmation. The authors note that the Binder cumulant did not fully predict conditions where condensed droplets were observed visually, and they instead used Rg reduction as an additional criterion. The criteria for what constitutes a "stable" droplet (70% of runs vs 60% vs 50%) appear arbitrary, and the relationship between these three methods is not systematically reconciled. The phase diagrams presented in Figs 4, 6, 7, 8, and 10 are therefore based on a hybrid criterion that is not clearly defined or validated.
+  - **Why it matters** The phase boundary is the central quantitative output of this manuscript. If the boundary determination method is not robust and reproducible, all subsequent conclusions about how polymer properties shift the phase boundary are compromised. The discrepancy between the Binder cumulant and visual inspection suggests that the system may be small enough that finite-size effects are significant, and the phase boundaries may not be thermodynamically well-defined.
+  - **Resolution test** The authors should provide a clear, quantitative definition of the phase boundary criterion, including how the three methods (visual, Binder cumulant, Rg) are combined or weighted. They should show representative Binder cumulant curves and Rg distributions for systems near the boundary, and demonstrate that the phase boundary is robust to the choice of criterion. If finite-size effects are present, a finite-size scaling analysis should be performed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of specific versus non-specific binding comparison
+  - **Claim pointer** The authors claim that non-specific binding interactions lead to much larger changes in droplet formation at lower protein-polymer interaction energies than specific, valence-limited counterparts.
+  - **Evidence pointer** Results and discussion, "Non-specific binding interactions" section; Figs 8 and 9
+  - **Concern** The comparison between specific and non-specific binding is made using different interaction models: specific binding uses a reactive bond with defined valency and binding energy ΔE0, while non-specific binding uses a Lennard-Jones attraction with energy ϵTP. These are fundamentally different types of interactions with different energy scales and distance dependencies. The claim that non-specific interactions are "more effective" at lowering the phase boundary may be an artifact of the chosen energy ranges rather than a general property of the interaction types. The authors do not provide a common metric (e.g., total binding energy per polymer, or effective interaction strength) to make the comparison meaningful.
+  - **Why it matters** The central conclusion of the manuscript is that non-specific interactions are a more sensitive control parameter for LLPS than specific binding. If this comparison is not made on a fair basis, the conclusion is not supported. This has implications for how experimentalists interpret mutations or modifications that alter non-specific versus specific interactions.
+  - **Resolution test** The authors should define a common metric for comparing specific and non-specific interaction strengths, such as the total binding energy per polymer at saturation, or the effective second virial coefficient. They should show that the qualitative conclusion holds across a range of energy values for both interaction types, and discuss the physical basis for any difference in sensitivity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative analysis of dynamics
+  - **Claim pointer** The authors claim that both lower protein solubilities and higher attraction/affinity of the protein to the polymer result in slower droplet dynamics.
+  - **Evidence pointer** Results and discussion, "Kinetics inside the droplet" section; Figs 12-16
+  - **Concern** The dynamics results are presented qualitatively. The mean squared displacement (MSD) and neighbor persistence data are shown in figures, but no quantitative analysis is provided. There is no calculation of diffusion coefficients, no fitting of MSD curves to extract exponents or characteristic times, and no statistical comparison between conditions. The neighbor persistence data appear to show multi-timescale behavior at high ϵTT, but this is not analyzed or discussed quantitatively.
+  - **Why it matters** The claim that dynamics slow down with increasing attraction is a central result, but without quantitative measures, it is not possible to assess the magnitude of the effect, whether it is statistically significant, or how it compares to theoretical predictions. The field would benefit from quantitative diffusion coefficients or relaxation times that could be compared to experimental measurements.
+  - **Resolution test** The authors should calculate and report diffusion coefficients from the MSD data, with error bars and statistical tests. They should fit the neighbor persistence curves to extract characteristic decay times and compare these across conditions. They should also discuss whether the observed dynamics are consistent with simple diffusion models or whether anomalous diffusion is present.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and parameter relevance
+  - **Claim pointer** The authors suggest their results help understand experimental systems and provide insight into how multivalent polymers control LLPS.
+  - **Evidence pointer** Introduction, Results and discussion, Conclusion
+  - **Concern** The model uses a highly simplified representation: a single polymer type with uniform beads, a target with 1-3 binding sites, and implicit solvent. The parameter ranges (ϵPP, ϵTT, ϵTP, ΔE0) are not clearly mapped to specific experimental systems. The authors mention RNA and RNA-binding proteins as a motivating example, but do not provide estimates of how their simulation parameters correspond to real interaction energies, concentrations, or length scales. The claim that the results are relevant to disease-associated mutations is speculative without this mapping.
+  - **Why it matters** For the results to be useful to experimentalists, there needs to be some guidance on how the simulation parameters relate to real systems. Without this, it is unclear whether the predicted effects (e.g., non-specific interactions being a sensitive control) would be observable in experiments.
+  - **Resolution test** The authors should provide a table or discussion mapping their simulation parameters to estimated experimental values (e.g., binding energies in kBT, concentrations in μM, polymer lengths in nucleotides or amino acids). They should discuss the limitations of their model in capturing specific experimental features and identify which predictions are most robust to model assumptions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Methods section, simulation parameters
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The simulation parameters (box size, number of polymers, number of targets, timestep, total simulation time, equilibration time) are described in text but not summarized in a table. This makes it difficult to quickly assess the parameter space explored.
+  - **Required correction** Add a table summarizing all simulation parameters, including the ranges explored for ϵPP, ϵTT, ϵTP, ΔE0, polymer length, and target valency.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Results and discussion, all sections
+  - **Evidence pointer** Figs 4-16
+  - **Issue** The manuscript does not report error bars or statistical significance for any of the phase boundary or dynamics results. It is unclear how many independent simulations were performed and how variability was assessed.
+  - **Required correction** Report the number of independent simulations, show error bars or confidence intervals in figures, and perform statistical tests where comparisons are made.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Abstract, Introduction, Results
+  - **Evidence pointer** Abstract; Introduction; Results and discussion
+  - **Issue** The terms "target," "binding protein," and "protein" are used somewhat interchangeably. The term "target" is defined in the Introduction but the connection to "binding protein" in the Abstract is not explicit.
+  - **Required correction** Use consistent terminology throughout, or define the relationship between "target" and "binding protein" early in the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality and accessibility
+  - **Affected element** Figs 4-16
+  - **Evidence pointer** Results and discussion
+  - **Issue** The figures are referenced extensively but the manuscript text does not always guide the reader through the key features of each figure. Some figures appear to contain multiple panels (e.g., Fig 5) but the panel descriptions are not always clear.
+  - **Required correction** Ensure each figure has a clear caption describing all panels, and add text in the Results that explicitly directs the reader to the relevant panels for each claim.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Conclusion
+  - **Evidence pointer** Conclusion
+  - **Issue** The Conclusion mentions that "more research needs to be done on specific systems and systems with more than two components" but does not discuss the limitations of the coarse-grain model in more detail, such as the absence of hydrodynamic interactions, the implicit solvent treatment, or the simplified binding geometry.
+  - **Required correction** Add a brief paragraph in the Conclusion or Discussion acknowledging the main limitations of the model and how they might affect the conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (phase boundary determination criterion is not quantitatively defined and the discrepancy between methods is not resolved), R1-M2 (comparison between specific and non-specific binding is not made on a common quantitative basis).
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The work extends prior simulation studies of multivalent polymer phase separation by explicitly comparing specific and non-specific binding and by examining droplet organization and dynamics. However, the overall framework is similar to previous work from the same group and others, and the novelty is incremental rather than transformative.
+  - **Scientific importance** Moderate. The question of how multivalent polymers control LLPS is important for understanding biocondensates, and the results provide useful qualitative insights. However, the simplified model and lack of quantitative mapping to experimental systems limit the immediate impact.
+  - **Interdisciplinary readership** Moderate. The topic is relevant to biophysics, cell biology, and soft matter physics. The writing is generally accessible, but the heavy reliance on simulation jargon and the lack of experimental validation may limit appeal to a broad readership.
+  - **Technical soundness** The simulation methodology is reasonable and builds on established approaches, but the phase boundary determination and the comparison between interaction types have significant weaknesses that need to be addressed. The dynamics analysis is descriptive rather than quantitative.
+  - **Readability for nonspecialists** The Abstract and Introduction are clear and accessible. The Results and Methods sections are more technical and would be challenging for a nonspecialist to follow without prior knowledge of coarse-grain simulations and polymer physics.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and the qualitative findings are potentially useful, but the phase boundary determination and the specific versus non-specific comparison need to be placed on a more rigorous quantitative footing before the central claims are fully supported.
+
+## Risk / unsupported claims
+- The claim that non-specific binding interactions lead to "much larger changes in droplet formation at lower protein-polymer interaction energies" than specific binding is not supported on a common quantitative basis, as the two interaction types are compared using different energy scales and models.
+- The phase diagrams presented in Figs 4, 6, 7, 8, and 10 are based on a hybrid criterion (visual inspection, Binder cumulant, Rg) that is not quantitatively defined, making the phase boundaries difficult to reproduce or validate.
+- The claim that the results "will help to better understand experimental systems" is not supported by a quantitative mapping of simulation parameters to experimental conditions.
+- The dynamics results (slower diffusion, increased neighbor persistence with higher attraction) are presented qualitatively without statistical analysis or quantitative measures, so the magnitude and significance of the effects cannot be assessed.
+- The statement that "small changes in non-specific multivalent polymer-protein interactions can cause aberrant phase separation" is speculative and not directly supported by the simulation data, which does not model disease-associated mutations or specific experimental perturbations.

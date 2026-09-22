@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure/table references.
+- **Assessment boundary** Scientific validity, technical soundness, methodological rigor, and claims as supported by the provided evidence. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors present Martini3-IDP, a modified Martini 3 coarse-grained force field for intrinsically disordered proteins, with optimized bonded parameters fitted to atomistic reference simulations. They claim improved reproduction of experimental radii of gyration across diverse IDPs, preserved interaction balance with other biomolecules (lipids, small molecules), and successful modeling of multidomain proteins and liquid-liquid phase separation.
+- **Visible evidence base** Main text figures (Figs. 1-5), methods section, and references to supplementary tables and figures. Supplementary materials themselves were not provided.
+- **Missing materials affecting confidence** Supplementary Tables 1-10, Supplementary Figures 1-20, force field parameter files, simulation input files, and analysis scripts. These are essential for verifying parameter fitting details, system compositions, convergence analyses, and reproducibility.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely problem in the Martini community: the overly compact conformations of IDPs in Martini 3. The proposed solution, optimizing bonded parameters rather than rescaling non-bonded interactions, is conceptually sound and well-motivated. The validation across multiple system types (IDPs, multidomain proteins, ligand binding, membrane binding, LLPS) is commendable in scope. However, several technical concerns must be resolved before the case is fully established, particularly regarding the parameter fitting methodology, the statistical treatment of comparisons, and the interpretation of LLPS results.
+- **Who would be interested in the results, and why** Researchers in the coarse-grained simulation community, particularly those using Martini for IDP and multidomain protein studies. Also relevant to experimentalists studying IDP conformations, phase separation, and IDP-ligand interactions who seek computational tools for interpreting their data. The work has broad applicability potential given Martini's popularity.
+- **Major strengths** 1) The identification of bonded parameters as the root cause of IDP collapse is a novel and mechanistically insightful diagnosis. 2) The strategy of fitting to atomistic reference distributions preserves the Martini interaction balance, avoiding the pitfalls of global scaling approaches. 3) The validation breadth, spanning from single IDPs to complex multicomponent systems, is impressive. 4) The inclusion of Gly-specific and Pro-specific parameter adjustments demonstrates attention to sequence-specific effects. 5) The work provides practical implementation tools (Martinize2 integration, GitHub repository).
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of parameter fitting
+  - **Claim pointer** The authors claim that bonded parameters were "manually adjusted" to match atomistic reference distributions and improve Rg agreement.
+  - **Evidence pointer** Methods section "Optimization strategy"; Figure 1C; Supplementary Table 10
+  - **Concern** The fitting procedure is described as manual adjustment without a quantitative objective function. This raises concerns about reproducibility, objectivity, and the potential for overfitting to the specific test set. The authors acknowledge this limitation but do not provide sufficient detail on how decisions were made, how many iterations were performed, or how the balance between matching distributions and improving Rg was achieved. The KL divergence values in Supplementary Table 10 are referenced but not shown.
+  - **Why it matters** A force field parameterization must be reproducible and transparent to be adopted by the community. Manual fitting without clear criteria makes it difficult for others to understand the parameter choices, assess transferability, or extend the approach to other systems. Overfitting to the training set could lead to poor performance on unseen sequences.
+  - **Resolution test** Provide a detailed protocol of the fitting procedure, including the specific criteria used to judge "good" agreement, the order in which parameters were adjusted, and the sensitivity of results to parameter variations. Show that the fitted parameters are robust across different subsets of the training data and that the model performs well on held-out IDPs not used in the fitting.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor of Rg comparisons
+  - **Claim pointer** The authors claim "greatly improving the reproduction of the experimentally measured radii of gyration" with MAE reduced from 1.058 nm to 0.387 nm.
+  - **Evidence pointer** Figure 1A-B; Supplementary Tables 1-2; Methods "IDP simulation setup"
+  - **Concern** The comparison between simulated and experimental Rg values relies on error bars that are not consistently defined. For simulations, the standard deviation from blocking analysis is used, but the number of blocks and the block size are not specified for each system. For experimental values, the error is described as "fitting error from the Guinier fit," but it is unclear whether this represents statistical uncertainty, systematic error, or something else. The PCC decreases from 0.948 to 0.803, which is not discussed. A lower correlation with improved MAE could indicate systematic bias in the model.
+  - **Why it matters** The central claim of the paper is improved Rg reproduction. If the statistical treatment is inadequate, the magnitude of the improvement cannot be properly assessed. The decrease in PCC is concerning and may indicate that the model systematically over-expands some IDPs while under-expanding others.
+  - **Resolution test** Provide complete details of the blocking analysis for each system, including block sizes and convergence criteria. Report the PCC with confidence intervals and discuss the decrease. Perform a per-system analysis showing which IDPs are well-reproduced and which are not, and discuss potential reasons for discrepancies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of LLPS claims
+  - **Claim pointer** The authors claim that Martini3-IDP reproduces liquid-liquid phase separation for "a number of both homotypic and heterotypic systems" with "near quantitative accuracy."
+  - **Evidence pointer** Figure 5; Supplementary Table 5; Methods "LLPS simulation setup"
+  - **Concern** The LLPS results are presented qualitatively through density profiles and snapshots. No quantitative comparison to experimental phase diagrams, saturation concentrations, or critical temperatures is provided. The claim of "near quantitative accuracy" is not supported by the evidence shown. The dense phase concentrations are compared to a single experimental value for FUSLCD, but the agreement is not quantified. The heterotypic and multiphase systems lack any experimental benchmark.
+  - **Why it matters** LLPS is a complex phenomenon sensitive to both bonded and non-bonded interactions. Demonstrating that the model can form stable condensates is necessary but not sufficient to claim quantitative accuracy. Overstating the validation could mislead users into applying the model beyond its demonstrated capabilities.
+  - **Resolution test** Provide quantitative comparisons to experimental phase diagrams or saturation concentrations for at least one homotypic and one heterotypic system. If such data are unavailable, temper the claims to reflect qualitative agreement. Discuss the sensitivity of LLPS behavior to the specific simulation conditions (e.g., box size, concentration, salt).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Transferability and generalizability
+  - **Claim pointer** The authors claim the model is "available for general applications" and "keeps the overall interaction balance underlying Martini 3."
+  - **Evidence pointer** Discussion section; Methods "Optimization strategy"
+  - **Concern** The validation set, while diverse, is limited to approximately 22 IDPs and a handful of multidomain proteins. The authors do not test the model on IDPs with extreme sequence compositions (e.g., very high proline content, polyampholytes with specific charge patterning) or on IDPs in crowded environments. The claim of general applicability is therefore not fully established.
+  - **Why it matters** Force field parameters that work well on a training set may fail on sequences with different properties. The authors themselves note that proline-rich sequences could benefit from further optimization, which is a limitation. Users need to know the boundaries of applicability.
+  - **Resolution test** Test the model on a broader set of IDPs with diverse sequence features, including those with high proline content, extreme charge distributions, and different chain lengths. Report performance metrics for these additional systems. If performance degrades, clearly state the limitations in the manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of Figure 1C
+  - **Affected element** Figure 1C
+  - **Evidence pointer** Figure 1C
+  - **Issue** The comparison of bonded distributions between Martini3, Martini3-IDP, and CHARMM36m is difficult to interpret from the figure alone. The KL divergence values are only in Supplementary Table 10, which was not provided.
+  - **Required correction** Add KL divergence values directly to the figure or its legend. Consider showing representative distributions for a few key parameters rather than all of them, to improve readability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods "IDP-small molecule ligand binding setup"
+  - **Issue** The small molecule parameterization is described as "described in more detail in the SI," but the SI was not provided. Without this information, the ligand binding results cannot be fully evaluated.
+  - **Required correction** Provide a summary of the parameterization approach in the main text or ensure the SI is available for review.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Consistency of simulation conditions
+  - **Affected element** Methods "General simulation protocol"
+  - **Evidence pointer** Methods "General simulation protocol"
+  - **Issue** The manuscript states that "all simulations were executed by Gromacs, versions 2021.5, 2021.7, and 2022.6." It is unclear whether different versions were used for different systems and whether this could introduce inconsistencies.
+  - **Required correction** Specify which version was used for which system, or state that the results were verified to be independent of the Gromacs version.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The limitations section is brief and does not discuss the potential impact of the manual fitting procedure on transferability, nor does it address the lack of transient secondary structure sampling in the model.
+  - **Required correction** Expand the limitations discussion to include these points and suggest potential future improvements.
+
+## Risk / unsupported claims
+- The claim of "near quantitative accuracy" for LLPS is not supported by the provided evidence, as no quantitative comparison to experimental phase behavior is shown.
+- The claim that Martini3-IDP "keeps the overall interaction balance underlying Martini 3" is asserted but not directly demonstrated through systematic comparison of interaction energies or distribution functions with the original Martini 3.
+- The claim that the model is "available for general applications" is premature given the limited validation set and the acknowledged gaps in proline-rich sequence optimization.
+- The decrease in Pearson correlation coefficient from 0.948 (Martini 3) to 0.803 (Martini3-IDP) is not discussed and may indicate a trade-off between overall accuracy and correlation that needs explanation.
+- The manual fitting procedure without a quantitative objective function makes the parameter choices difficult to evaluate and reproduce, which is a risk for community adoption.

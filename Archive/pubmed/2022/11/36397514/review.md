@@ -1,0 +1,66 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors propose a mean-field theory and molecular-dynamics simulations based on the sticker-spacer model to study the structure and dynamics of protein condensates in the weak-binding regime. They claim that in this regime, the free sticker fraction W_f controls the bulk diffusivity D and zero-shear viscosity eta, with scalings D proportional to W_f proportional to e^{-0.5 epsilon_b} and eta proportional to e^{0.5 epsilon_b}, in contrast to the strong-binding regime where D is controlled by the effective bond lifetime tau.
+- **Visible evidence base** Abstract text only; no figures, tables, equations, or simulation details are provided
+- **Missing materials affecting confidence** Full manuscript, figures, simulation parameters, derivation of the mean-field theory, scaling analysis details, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting extension of the sticker-spacer model to the weak-binding regime, with a clear conceptual distinction from the strong-binding case. However, the evidence base is limited to the abstract, and the claims of scaling relationships are not verifiable without the underlying derivations and simulation data. The work may be of interest to the soft matter and biophysics community, but the current form does not allow a full assessment of technical soundness.
+- **Who would be interested in the results, and why** Researchers in biophysics, soft condensed matter physics, and physical chemistry studying liquid-liquid phase separation, protein condensates, and the rheology of associative polymer networks. The scaling predictions could be useful for experimentalists probing condensate dynamics via fluorescence recovery after photobleaching or microrheology.
+- **Major strengths** The abstract clearly identifies a gap in the existing understanding of weak-binding condensates and proposes a specific, testable scaling relationship. The distinction between free-sticker-dominated and bond-lifetime-dominated dynamics is conceptually appealing and could provide a unifying framework across binding strengths.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that D proportional to W_f proportional to e^{-0.5 epsilon_b} in the weak-binding regime, as opposed to D proportional to tau^{-1} in the strong-binding regime.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states scaling relationships without presenting the derivation or simulation data. It is unclear how the exponent -0.5 arises from the mean-field theory and whether the molecular-dynamics simulations confirm this scaling over a range of binding energies and sticker fractions. The transition between the weak- and strong-binding regimes is not defined, and the validity of the scaling in the crossover region is not addressed.
+  - **Why it matters** The central claim of the paper rests on these scaling laws. Without a clear derivation and simulation verification, the reader cannot assess whether the proposed free-sticker-dominated mechanism is robust or an artifact of the specific model parameters.
+  - **Resolution test** Provide the full derivation of the scaling exponent, show simulation results for D and W_f as functions of epsilon_b over a wide range, and demonstrate agreement with the predicted scaling. Define the boundary of the weak-binding regime and show how the scaling crosses over to the strong-binding behavior.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the scaling of viscosity eta proportional to e^{0.5 epsilon_b} can be tested experimentally.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify how the zero-shear viscosity is computed in the simulations or how the scaling is derived from the free sticker fraction. The relationship between W_f and eta is not explained, and it is unclear whether the viscosity scaling is a direct consequence of the diffusivity scaling or an independent result.
+  - **Why it matters** The experimental testability of the predictions is a key selling point, but without a clear link between the microscopic quantity W_f and the macroscopic viscosity, the claim is not fully substantiated.
+  - **Resolution test** Show the derivation of the viscosity scaling from the free sticker fraction, present simulation data for eta as a function of epsilon_b, and discuss how experimental measurements of viscosity could be related to W_f.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses notation such as varepsilon_b and W_f without defining them in the text, which may be unclear to readers not familiar with the sticker-spacer model.
+  - **Required correction** Define all symbols at first use, for example, "binding energy epsilon_b" and "free sticker fraction W_f".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "D proportional, variantW_f proportional, variante;-0.5varepsilon_b" but the notation is inconsistent with the earlier use of "proportional, variant" and the exponent is written in a nonstandard way.
+  - **Required correction** Use consistent notation, for example, "D proportional to W_f proportional to exp(-0.5 epsilon_b)".
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "previous studies" for the strong-binding regime but does not cite specific references, making it difficult to place the new results in context.
+  - **Required correction** Add citations to the relevant previous studies in the full manuscript and mention them in the abstract if space permits.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The scaling laws are the core of the paper, and without the full derivation and simulation data, the claims are not established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of distinguishing free-sticker-dominated dynamics from bond-lifetime-dominated dynamics is a novel contribution to the sticker-spacer model literature.
+  - Scientific importance: The results could be important for understanding the rheology of biomolecular condensates, but the significance is not fully demonstrated in the abstract.
+  - Interdisciplinary readership: The topic is relevant to biophysics, soft matter, and physical chemistry, but the abstract is written in a way that may be accessible primarily to specialists.
+  - Technical soundness: Not assessable from the abstract alone; the scaling claims require verification.
+  - Readability for nonspecialists: The abstract is concise but uses jargon and undefined notation, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising framework, but the technical details and data are necessary to support the claims. I would be supportive if the full manuscript provides the derivations and simulation results that substantiate the scaling laws.
+
+## Risk / unsupported claims
+- The scaling D proportional to W_f proportional to e^{-0.5 epsilon_b} is unsupported without the derivation and simulation data.
+- The scaling eta proportional to e^{0.5 epsilon_b} is unsupported without the derivation and simulation data.
+- The claim that the results can be tested experimentally is not substantiated without a clear experimental protocol or comparison to existing data.
+- The distinction between weak- and strong-binding regimes is not defined quantitatively, making the scope of the claims unclear.

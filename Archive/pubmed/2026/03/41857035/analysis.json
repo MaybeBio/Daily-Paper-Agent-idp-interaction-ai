@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41857035",
+  "title": "Membrane interfacial potential governs surface condensation and fibrillation of alpha-Synuclein in neurons.",
+  "authors": "Shaikh, Jafarulla; Nagarajan, Aniruddha; Mitra, Tuhina; Modak, Aninda Sundar; Biswas, Krittika; Meher, Geetanjali; Bhausaheb, Aher Jayesh; Kannan, Nimal Archish; Sahu, Bhavani Shankar; Ghatak, Swagata; Choubey, Sandeep; Saleem, Mohammed",
+  "journal": "Nature communications",
+  "published_date": "2026-03-20",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合实验与晶格气体模型，揭示膜界面电位通过类预润湿转变促进α-Synuclein在亚临界浓度下的相分离凝聚及纤维化，虽对象为淀粉样蛋白而非典型IDP，但聚焦膜界面调控凝聚体形成与互作机制，建模思路对IDR介导的界面PPI与相分离机制研究有直接启发。",
+  "abstract": "Biomolecular condensates formed via liquid-liquid phase separation (LLPS) are essential for cellular organization. alpha-Synuclein, an amyloidogenic protein linked to Parkinson's Disease (PD), undergoes phase separation at high concentrations, but the influence of lipid membranes on this process remains unclear. Here, combining in vitro reconstitution, cell biology, and simulations, we show that membranous interfaces promote alpha-Synuclein condensation at physiologically relevant sub-critical concentrations ( ~ 10 nM) without crowding agents. Notably, condensation occurs only on membranes with a specific stoichiometry of lipids, underscoring the role of interfacial potential. These condensates serve as nucleation sites for fibril formation, leading to membrane deformation and rupture. A lattice gas model reveals this behavior as a prewetting-like transition, where an attractive membrane induces local phase separation below the bulk saturation concentration. Indeed altering interfacial potential by lipid composition and membrane depolarization not only drastically changes alpha-Synuclein puncta size and number but also triggers their release from neurons. These findings reveal the crucial role of lipid membrane interfaces in regulating alpha-Synuclein condensation, aggregation and release, shedding light on a potential mechanism of their cell-to-cell propagation during neurodegeneration.",
+  "abstract_zh": "通过液-液相分离（liquid-liquid phase separation, LLPS）形成的生物分子凝聚体对细胞组织至关重要。α-突触核蛋白（alpha-Synuclein）是一种与帕金森病（Parkinson's Disease, PD）相关的淀粉样蛋白，在高浓度下会发生相分离，但脂质膜对这一过程的影响仍不清楚。在此，我们结合体外重构、细胞生物学和模拟，表明膜界面在生理相关的亚临界浓度（~10 nM）下，无需拥挤剂即可促进α-突触核蛋白的凝聚。值得注意的是，凝聚仅发生在具有特定脂质化学计量比的膜上，强调了界面电位的作用。这些凝聚体作为原纤维形成的成核位点，导致膜变形和破裂。一个晶格气体模型揭示这种行为类似于预润湿转变，其中具有吸引力的膜在低于本体饱和浓度时诱导局部相分离。确实，通过脂质组成和膜去极化改变界面电位，不仅显著改变α-突触核蛋白斑点的尺寸和数量，还触发其从神经元中释放。这些发现揭示了脂质膜界面在调节α-突触核蛋白凝聚、聚集和释放中的关键作用，为神经退行性疾病中其细胞间传播的潜在机制提供了线索。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41857035/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41857035/",
+  "paper_page_path": "papers/pubmed/41857035/index.html"
+}

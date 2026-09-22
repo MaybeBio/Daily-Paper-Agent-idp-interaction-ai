@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations and the two-phase thermodynamic method to show that cation-protein binding affinity increases with temperature, that binding releases water molecules from solvation shells, that zeta-potential increases with temperature and shows charge inversion for multivalent ions, and that protein-protein binding is mediated by cation bridges with dehydration effects producing a net entropy gain that explains LCST phase behavior.
+- **Visible evidence base** Abstract text only; no numerical data, simulation details, or methodological parameters are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, entropy calculation details, zeta-potential calculation methodology, error estimates, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting hypothesis for entropy-driven LCST behavior in protein solutions induced by multivalent ions. However, the evidence base available for review is limited to the abstract, which prevents verification of the quantitative claims, the robustness of the simulation methodology, and the statistical significance of the reported trends. The central claims are coherent but cannot be fully assessed without the full manuscript.
+- **Who would be interested in the results, and why** Researchers in soft matter physics, biophysics, and physical chemistry, particularly those studying protein phase behavior, protein condensation, crystallization, and the role of multivalent ions in biological systems. The work may also interest computational chemists developing entropy calculation methods for biomolecular systems.
+- **Major strengths** The study addresses a timely and important question regarding the molecular origin of LCST behavior in protein solutions. The combination of all-atom simulations with a thermodynamic entropy decomposition approach is methodologically ambitious. The proposed mechanism, involving dehydration-driven entropy gain and cation bridging, offers a concrete and testable framework that distinguishes this system from hydrophobic hydration.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that cation-protein binding affinity increases with temperature and is entropic in origin is presented as a central finding.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports binding affinity trends over a temperature range of 283-323 K but provides no quantitative data, no error bars, and no statistical analysis. It is unclear how binding affinity was computed, whether free energy calculations were performed, and whether the reported temperature dependence is statistically robust given the typical sampling limitations of all-atom simulations for protein-ion systems.  
+  - **Why it matters** The entire thermodynamic argument rests on the reliability of the binding affinity trend and its entropic interpretation. Without evidence of convergence, sampling adequacy, and uncertainty quantification, the claim cannot be evaluated.  
+  - **Resolution test** Provide binding free energy values with standard errors at each temperature, describe the method used (e.g., umbrella sampling, MM-PBSA, or direct counting), and demonstrate convergence of the simulations.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that the two-phase thermodynamic method yields entropy gains upon cation binding and protein-protein association.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The two-phase thermodynamic method requires careful validation for protein systems, particularly regarding the choice of reference states, the treatment of translational and rotational modes, and the decomposition of solvation entropy. The abstract provides no details on how the method was parameterized or validated for BSA in salt solutions.  
+  - **Why it matters** The entropy decomposition is the quantitative core of the proposed mechanism. If the method is not appropriately validated, the reported entropy gains and their magnitudes are not trustworthy.  
+  - **Resolution test** Describe the two-phase thermodynamic implementation, provide validation against experimental or well-established computational benchmarks, and report entropy values with uncertainties.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that zeta-potential increases with temperature and shows charge inversion for multivalent ions.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** Zeta-potential is an experimentally measurable quantity, but its calculation from simulations is nontrivial and depends on the choice of the shear plane, the ion distribution model, and the treatment of finite-size effects. The abstract does not specify how zeta-potential was computed or how the temperature dependence was extracted.  
+  - **Why it matters** Charge inversion and its temperature dependence are used to rationalize the LCST behavior. If the zeta-potential calculation is not robust, the link between ion binding and phase behavior is weakened.  
+  - **Resolution test** Provide the computational protocol for zeta-potential calculation, compare with experimental data if available, and show that the temperature trend is consistent across multiple independent simulations.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The claim that the findings have direct implications for tuning protein condensation and crystallization.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports simulations of single and two BSA proteins only. The extrapolation to macroscopic phase behavior, such as LCST phase separation, condensation, and crystallization, is not supported by the presented evidence. No link is made between the two-protein binding free energy and the thermodynamic conditions for phase separation.  
+  - **Why it matters** The broader significance of the work depends on the relevance of the molecular-scale findings to macroscopic phase behavior. Without a thermodynamic model or experimental comparison, this connection remains speculative.  
+  - **Resolution test** Provide a quantitative link between the simulated binding free energies and the phase diagram, or present experimental data that corroborate the predicted trends.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract uses terms such as "two-phase thermodynamic method" and "zeta-potential" without brief contextual explanation, which may limit accessibility for readers outside computational biophysics.  
+  - **Required correction** Add a brief parenthetical explanation of the two-phase thermodynamic method and the physical meaning of zeta-potential in the context of protein solutions.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness of reporting  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract does not specify the salt concentrations used in the simulations, which are likely critical for the observed effects.  
+  - **Required correction** State the concentration range for each salt and clarify whether the observed trends are concentration-dependent.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Simulation methodology  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract does not mention the force field used for BSA, ions, and water, nor the simulation length and system size.  
+  - **Required correction** Include force field details and simulation timescales in the full manuscript, and summarize them in the methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria**  
+  - Originality: The proposed mechanism, distinguishing dehydration-driven entropy gain from hydrophobic hydration, is conceptually novel and offers a fresh perspective on ion-induced protein phase behavior.  
+  - Scientific importance: The topic is of broad interest, but the current evidence does not yet establish the macroscopic implications claimed.  
+  - Interdisciplinary readership: The work bridges soft matter, biophysics, and physical chemistry, and would appeal to a diverse audience if the claims are fully supported.  
+  - Technical soundness: The methodological details are insufficiently described in the abstract to assess robustness; this is a major limitation.  
+  - Readability for nonspecialists: The abstract is reasonably clear but could benefit from brief explanations of specialized methods.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is promising, but the abstract alone does not provide sufficient methodological detail or quantitative support to validate the central claims. A full review of the manuscript would be required to determine whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim that the LCST behavior is entropy-driven with a net entropy gain upon phase separation is not directly supported by the abstract, as no phase separation simulations or free energy calculations for the phase transition are presented.
+- The claim that the findings have direct implications for tuning protein condensation and crystallization is speculative and not supported by the presented evidence.
+- The quantitative magnitudes of entropy changes, binding affinities, and zeta-potential values are not provided and cannot be assessed.
+- The statistical significance and convergence of the simulation results are not reported and cannot be evaluated.

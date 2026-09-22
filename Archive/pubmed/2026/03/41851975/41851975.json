@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "41851975",
+    "doi": "10.1021/jacs.5c22987",
+    "title": "Integrating NMR Restraints into Coarse-Grained Simulations: Toward Accurate Conformational Ensembles of Complex Protein Systems."
+  },
+  "content": {
+    "abstract": "Structural dynamics play critical roles for the biological activity of protein molecules. Characterizing the inherent conformational landscapes of these macromolecules remains a major experimental and computational challenge, particularly for heterogeneous and transient systems such as intrinsically disordered proteins, membrane-associated assemblies and disordered fuzzy coats of amyloid aggregates. In this context, coarse-grained (CG) molecular dynamics simulations have enabled accessing to extended time scales and large system sizes, however, their reduced resolution and simplified interaction potentials often limit the structural accuracy. Here, we introduce Martini3-NMR, an integrative framework that incorporates nuclear magnetic resonance (NMR) observables directly into CG protein force fields. Using artificial neural networks to model NMR chemical shifts at the CG level, and integrating these data with NOE restraints, we define an approach to significantly enhance the accuracy of CG simulations while maintaining their elevated sampling efficiency, thereby resulting in a substantially improved description of protein conformational ensembles. We demonstrate the broad applicability of Martini3-NMR by generating CG ensembles for a range of systems involved in diverse biological processes such as protein folding, oligomer disassembly within lipid bilayers and conformational transitions of disordered fuzzy regions decorating amyloid fibril surfaces, which were found to display condensate-like properties. By enabling an experimentally driven and computationally efficient exploration of protein conformational landscapes, Martini3-NMR provides a novel general framework for investigating dynamic, heterogeneous and multiscale biomolecular processes. This approach opens to significant new opportunities for extending CG simulations toward a more quantitative understanding of the relationship between molecular structure, dynamics and biological function.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "*Nuclear Magnetic Resonance, Biomolecular",
+      "*Proteins/chemistry",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cullen, Mina",
+        "Biancaniello, Carmen",
+        "Taskova, Katerina",
+        "Miletic, Vedran",
+        "Mercadante, Davide",
+        "De Simone, Alfonso"
+      ],
+      "short_names": [
+        "Cullen M",
+        "Biancaniello C",
+        "Taskova K",
+        "Miletic V",
+        "Mercadante D",
+        "De Simone A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6792-7706",
+        "ORCID: 0000-0001-8789-9546"
+      ],
+      "affiliations": [
+        "School of Chemical Sciences, the University of Auckland, Auckland 1142, New Zealand.",
+        "Department of Pharmacy, University of Naples Federico II, Naples 80131, Italy.",
+        "Department of Computer Science, The University of Auckland, Auckland 1142, New Zealand.",
+        "Max Planck Computing and Data Facility (MPCDF), Garching, Munich 85748, Germany.",
+        "School of Chemical Sciences, the University of Auckland, Auckland 1142, New Zealand.",
+        "Maurice Wilkins Centre for Molecular Biodiscovery, the University of Auckland, Auckland 1142, New Zealand.",
+        "Department of Pharmacy, University of Naples Federico II, Naples 80131, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cullen, Mina",
+        "short_name": "Cullen M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Sciences, the University of Auckland, Auckland 1142, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Biancaniello, Carmen",
+        "short_name": "Biancaniello C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, University of Naples Federico II, Naples 80131, Italy."
+        ]
+      },
+      {
+        "full_name": "Taškova, Katerina",
+        "short_name": "Taškova K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, The University of Auckland, Auckland 1142, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Miletić, Vedran",
+        "short_name": "Miletić V",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Computing and Data Facility (MPCDF), Garching, Munich 85748, Germany."
+        ]
+      },
+      {
+        "full_name": "Mercadante, Davide",
+        "short_name": "Mercadante D",
+        "identifiers": [
+          "0000-0001-6792-7706"
+        ],
+        "affiliations": [
+          "School of Chemical Sciences, the University of Auckland, Auckland 1142, New Zealand.",
+          "Maurice Wilkins Centre for Molecular Biodiscovery, the University of Auckland, Auckland 1142, New Zealand."
+        ]
+      },
+      {
+        "full_name": "De Simone, Alfonso",
+        "short_name": "De Simone A",
+        "identifiers": [
+          "0000-0001-8789-9546"
+        ],
+        "affiliations": [
+          "Department of Pharmacy, University of Naples Federico II, Naples 80131, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2026 Apr 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/19 07:10",
+    "fetched_at": "2026-09-18 01:43:03"
+  },
+  "links": {
+    "cites": [
+      "42387849",
+      "42370432"
+    ],
+    "refs": [
+      "41263305",
+      "40632851",
+      "40614690",
+      "40199041",
+      "39920231",
+      "39813358",
+      "39356546",
+      "39103332",
+      "38986894",
+      "38154096",
+      "37957331",
+      "37878719",
+      "37774136",
+      "37640864",
+      "37477459",
+      "37468629",
+      "37278728",
+      "37050876",
+      "36869774",
+      "36395419",
+      "33978571",
+      "33782607",
+      "33335475",
+      "31552823",
+      "31360412",
+      "30971088",
+      "30923216",
+      "30379172",
+      "30337523",
+      "28942918",
+      "28566494",
+      "27626386",
+      "27042944",
+      "26975211",
+      "26903218",
+      "26621095",
+      "26589065",
+      "26575938",
+      "25575179",
+      "23968132",
+      "23941501",
+      "23873792",
+      "23341755",
+      "23269837",
+      "23142870",
+      "22729708",
+      "22517863",
+      "22320129",
+      "22180735",
+      "21576492",
+      "21500218",
+      "19852475",
+      "19366989",
+      "19292482",
+      "18590698",
+      "18556554",
+      "17996192",
+      "17984079",
+      "17569554",
+      "17237764",
+      "15650731",
+      "12525698",
+      "11859194",
+      "8744570",
+      "6667333",
+      "3041007"
+    ],
+    "similar": [
+      "41851975",
+      "30840442",
+      "42475469",
+      "41706900",
+      "23912807",
+      "42370432",
+      "20017540",
+      "41652163",
+      "41644540",
+      "40339149",
+      "40128232",
+      "41073429",
+      "42014948",
+      "39851064",
+      "23811057",
+      "29186229",
+      "40544328",
+      "40324844",
+      "42299722",
+      "42129207",
+      "36774359",
+      "26723616",
+      "41325725",
+      "26387099",
+      "36395419",
+      "29795785",
+      "39273672",
+      "40962313",
+      "25620895",
+      "26574197",
+      "22972619",
+      "33574233",
+      "36083825",
+      "40264953",
+      "39046235",
+      "30708941",
+      "35213160",
+      "41009484",
+      "34845619",
+      "27130454",
+      "18412346",
+      "30404229",
+      "26575522",
+      "41454855",
+      "41302413",
+      "40042172",
+      "23327201",
+      "42035258",
+      "33623120",
+      "32035448",
+      "34680048",
+      "38427574",
+      "38048753",
+      "42406548",
+      "33301208",
+      "33382616",
+      "41803440",
+      "23794453",
+      "42080348",
+      "31288649",
+      "42327097",
+      "32840111",
+      "40681718",
+      "28992696",
+      "37746887",
+      "33030907",
+      "40928103",
+      "29364151",
+      "41133818",
+      "23572592",
+      "27415450",
+      "30204435",
+      "25443957",
+      "24410358",
+      "38018910",
+      "40147456",
+      "10698632",
+      "32914959",
+      "25625937",
+      "26387102",
+      "41210784",
+      "24009495",
+      "32044345",
+      "41082321",
+      "19843465",
+      "20696393",
+      "42286058",
+      "30865820",
+      "15584737",
+      "19919148",
+      "29605935",
+      "31522945",
+      "40011319",
+      "33655754",
+      "30876367",
+      "21034466",
+      "27727496",
+      "35381009",
+      "28195464",
+      "27844185"
+    ],
+    "review": [
+      "41851975",
+      "30840442",
+      "41652163",
+      "42014948",
+      "40544328",
+      "40324844",
+      "26387099",
+      "39273672",
+      "40264953",
+      "30708941",
+      "30404229",
+      "26575522",
+      "34680048",
+      "38048753",
+      "41803440",
+      "23794453",
+      "29364151",
+      "25443957",
+      "25625937",
+      "26387102",
+      "32044345"
+    ],
+    "pmc": [
+      "13047695"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41851975/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.5c22987",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

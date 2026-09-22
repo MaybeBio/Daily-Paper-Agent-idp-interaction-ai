@@ -1,0 +1,292 @@
+{
+  "identity": {
+    "pmid": "34598583",
+    "doi": "10.1063/5.0062687",
+    "title": "Salt dependent phase behavior of intrinsically disordered proteins from a coarse-grained model with explicit water and ions."
+  },
+  "content": {
+    "abstract": "Multivalent proteins and nucleic acids can self-assemble into biomolecular condensates that contribute to compartmentalize the cell interior. Computer simulations offer a unique view to elucidate the mechanisms and key intermolecular interactions behind the dynamic formation and dissolution of these condensates. In this work, we present a novel approach to include explicit water and salt in sequence-dependent coarse-grained (CG) models for proteins and RNA, enabling the study of biomolecular condensate formation in a salt-dependent manner. Our framework combines a reparameterized version of the HPS protein force field with the monoatomic mW water model and the mW-ion potential for NaCl. We show how our CG model qualitatively captures the experimental radius of the gyration trend of a subset of intrinsically disordered proteins and reproduces the experimental protein concentration and water percentage of the human fused in sarcoma (FUS) low-complexity-domain droplets at physiological salt concentration. Moreover, we perform seeding simulations as a function of salt concentration for two antagonist systems: the engineered peptide PR(25) and poly-uridine/poly-arginine mixtures, finding good agreement with their reported in vitro phase behavior with salt concentration in both cases. Taken together, our work represents a step forward towards extending sequence-dependent CG models to include water and salt, and to consider their key role in biomolecular condensate self-assembly.",
+    "keywords": [],
+    "mesh_terms": [
+      "Biomolecular Condensates/*chemistry/*drug effects",
+      "Humans",
+      "Intrinsically Disordered Proteins/*chemistry/*drug effects",
+      "Ions/chemistry",
+      "Sodium Chloride/*pharmacology",
+      "Water/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Garaizar, Adiran",
+        "Espinosa, Jorge R"
+      ],
+      "short_names": [
+        "Garaizar A",
+        "Espinosa JR"
+      ],
+      "auids": [
+        "ORCID: 0000000293202984",
+        "ORCID: 0000000195302658"
+      ],
+      "affiliations": [
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge CB3 0HE, United Kingdom.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge CB3 0HE, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Garaizar, Adiran",
+        "short_name": "Garaizar A",
+        "identifiers": [
+          "0000000293202984"
+        ],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge CB3 0HE, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [
+          "0000000195302658"
+        ],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge CB3 0HE, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2021 Sep 28",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/03 06:00",
+    "fetched_at": "2026-09-20 05:39:35"
+  },
+  "links": {
+    "cites": [
+      "40028898",
+      "40028356",
+      "39804953",
+      "39531035",
+      "39475644",
+      "39462994",
+      "38885177",
+      "38348795",
+      "38181073",
+      "37267850",
+      "37194953",
+      "37006777",
+      "36883003",
+      "36181270",
+      "36175408",
+      "35727989",
+      "35381009",
+      "35293386",
+      "35108264",
+      "34762868"
+    ],
+    "refs": [],
+    "similar": [
+      "34598583",
+      "37043540",
+      "34716273",
+      "38383656",
+      "37468629",
+      "38832749",
+      "39042834",
+      "35179885",
+      "34916288",
+      "37735186",
+      "30471685",
+      "34090478",
+      "34862761",
+      "39232584",
+      "33934416",
+      "38824391",
+      "19624181",
+      "33302617",
+      "36004748",
+      "37020020",
+      "35727989",
+      "21155552",
+      "36883003",
+      "35108264",
+      "34762868",
+      "36227468",
+      "28924037",
+      "34865286",
+      "29509422",
+      "34648275",
+      "32571937",
+      "37134270",
+      "36066390",
+      "36798393",
+      "34588591",
+      "33307683",
+      "29573987",
+      "33453922",
+      "20548957",
+      "30529747",
+      "32584357",
+      "36758221",
+      "37194953",
+      "34259536",
+      "36496075",
+      "30865820",
+      "35001622",
+      "33864415",
+      "33577679",
+      "28068769",
+      "26910732",
+      "25207671",
+      "32087632",
+      "38181073",
+      "34552246",
+      "19425537",
+      "29972174",
+      "37408305",
+      "32936641",
+      "38936257",
+      "30933517",
+      "37989551",
+      "25375525",
+      "29511089",
+      "32859072",
+      "31714774",
+      "32828471",
+      "38971830",
+      "33411518",
+      "37695778",
+      "34536913",
+      "36829460",
+      "34404453",
+      "37190858",
+      "30865832",
+      "29080468",
+      "37721444",
+      "30514082",
+      "38279531",
+      "33314347",
+      "21524093",
+      "23406326",
+      "37791635",
+      "33890467",
+      "36227469",
+      "30193467",
+      "37980572",
+      "34346674",
+      "37645312",
+      "33812316",
+      "30397688",
+      "32097611",
+      "35054543",
+      "30307229",
+      "23912807",
+      "33971237",
+      "19280018",
+      "29548979",
+      "39356108",
+      "37556237",
+      "31756104",
+      "28867216",
+      "22047269",
+      "34380923",
+      "29677513",
+      "33582133",
+      "28157327",
+      "26914439",
+      "32020911",
+      "28095698",
+      "31259246",
+      "33376791",
+      "26723580",
+      "27583687",
+      "38751116",
+      "38431892",
+      "28905203",
+      "30471691",
+      "39185151",
+      "32168715",
+      "35795820",
+      "32436706",
+      "34241502",
+      "36175408",
+      "31903719",
+      "32096047",
+      "34221333",
+      "26574429",
+      "39160094",
+      "38056002",
+      "36881934",
+      "35176859",
+      "33826337",
+      "34377994",
+      "35378855",
+      "34772790",
+      "34670847",
+      "37006777",
+      "36353733",
+      "38617336",
+      "38260307",
+      "35709358",
+      "36322659",
+      "33395293",
+      "37449795",
+      "35027537",
+      "34085339"
+    ],
+    "review": [
+      "34598583",
+      "35179885",
+      "34865286",
+      "29509422",
+      "38936257",
+      "32828471",
+      "34536913",
+      "29080468",
+      "33812316",
+      "32097611",
+      "32020911",
+      "28905203",
+      "32096047",
+      "36881934",
+      "34772790",
+      "34670847"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0062687",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

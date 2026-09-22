@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.08.06.606761",
+  "title": "Defining short linear motif binding determinants by phage-based multiplexed deep mutational scanning",
+  "authors": "Benz C; Maasen L; Simonetti L; Mihalic F; Lindqvist R; Tsitsa I; Jemth P; Överby AK; Davey NE; Ivarsson Y",
+  "journal": "bioRxiv",
+  "published_date": "2024-08-06",
+  "window": {
+    "start": "2024-08-05",
+    "end": "2024-08-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用噬菌体展示多重深度突变扫描定义短线性基序(SLiM)与肽结合域的互作决定残基，对象涉及无序蛋白相关SLiM，方法为高通量实验而非AI/物理模拟，机制深度有限，但互作决定因素分析对IDR介导PPI建模有参考价值。",
+  "abstract": "Deep mutational scanning (DMS) has emerged as a powerful approach for evaluating the effects of mutations on binding or function. Here, we developed a multiplexed DMS by phage display protocol to define the binding determinants of short linear motifs (SLiMs) binding to peptide binding domains. We first designed a benchmarking DMS library to evaluate the performance of the approach on well-known ligands for eleven different peptide binding domains, including the talin-1 PTB domain. Systematic benchmarking against a gold-standard set of motifs from the eukaryotic linear motif (ELM) database confirmed that the DMS by phage analysis correctly identifies known motif binding determinants. The DMS analysis further defined a non-canonical PTB binding motif, with a putative extended conformation. A second DMS library was designed aiming to provide information on the binding determinants for 19 SLiM-based interactions between human and SARS-CoV-2 proteins. The analysis confirmed the affinity determining residues of viral peptides binding to host proteins, and refined the consensus motifs in human peptides binding to five domains from SARS-CoV-2 proteins, including the non-structural protein (NSP) 9. The DMS analysis further pinpointed mutations that increased the affinity of ligands for NSP3 and NSP9. An affinity improved cell-permeable NSP9-binding peptide was found to exert stronger antiviral effects as compared to the initial wild-type peptide. Our study demonstrates that DMS by phage display can efficiently be multiplexed and applied to refine binding determinants, and shows how DMS by phage display can guide peptide-engineering efforts.",
+  "abstract_zh": "深度突变扫描（DMS）已成为评估突变对结合或功能影响的有力方法。在此，我们开发了一种通过噬菌体展示的多重DMS方案，以确定短线性基序（SLiMs）与肽结合结构域结合的 determinants。我们首先设计了一个基准DMS文库，以评估该方法在十一个不同肽结合结构域（包括talin-1 PTB结构域）的已知配体上的性能。针对真核线性基序（ELM）数据库中的金标准基序集进行的系统基准测试确认，噬菌体DMS分析能正确识别已知的基序结合决定因素。DMS分析进一步定义了一个非经典PTB结合基序，其具有推测的延伸构象。第二个DMS文库旨在提供人类与SARS-CoV-2蛋白之间19种基于SLiM的相互作用的结合决定因素信息。该分析确认了病毒肽与宿主蛋白结合的亲和力决定残基，并细化了人类肽与SARS-CoV-2蛋白五个结构域（包括非结构蛋白（NSP）9）结合的共有基序。DMS分析还进一步指出了增加配体对NSP3和NSP9亲和力的突变。发现一种亲和力增强的细胞渗透性NSP9结合肽，与初始野生型肽相比，表现出更强的抗病毒效果。我们的研究表明，噬菌体展示DMS可高效多重化并应用于细化结合决定因素，并展示了噬菌体展示DMS如何指导肽工程工作。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.08.06.606761",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.08.06.606761",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.08.06.606761/index.html"
+}

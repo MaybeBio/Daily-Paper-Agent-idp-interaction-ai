@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35687481",
+  "title": "Phosphatidylserine and Phosphatidylethanolamine Asymmetry Have a Negligible Effect on the Global Structure, Dynamics, and Interactions of the KRAS Lipid Anchor.",
+  "authors": "Araya, Mussie K; Gorfe, Alemayehu A",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2022-06-11",
+  "window": {
+    "start": "2022-06-06",
+    "end": "2022-06-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过长时间MD模拟，系统考察了膜脂不对称性对KRAS无序脂锚（tK）构象动态及其与PS/PE脂质互作的影响，聚焦无序肽段与膜界面的相互作用机制，方法上采用物理模拟且对象为IDP，与课题高度相关。",
+  "abstract": "The intrinsically disordered C-terminus of the prominent oncogenic protein KRAS-4B (KRAS) selectively interacts and clusters with phosphatidylserine (PS) lipids in the plasma membrane (PM). This 11-residue segment, called tK, contains a polybasic domain (PBD) of six contiguous lysine residues and a farnesylated cysteine. Previous molecular dynamics (MD) simulation studies of tK in phosphatidylcholine (PC)/PS bilayers have suggested that backbone conformational dynamics modulate tK-PS interactions. These simulations have been conducted in symmetric membranes whereas the PM is compositionally asymmetric, with the inner leaflet, where KRAS is localized, being enriched with PS and phosphatidylethanolamine (PE) lipids. To examine if bilayer asymmetry affects tK conformational dynamics and interaction with lipids, we conducted two 10 mus long MD simulations of tK bound to a PC/PS and a PC/PS/PE bilayer in which the PS and PE lipids are distributed in one leaflet. We found that, first, these compositional asymmetries caused differences in acyl chain dynamics between leaflets, but the equilibrium structural and dynamic properties of the two asymmetric bilayers are similar; second, in both systems tK is highly dynamic and samples at least two distinct conformational states; third, PS-tK hydrogen-bonding interactions vary with peptide backbone conformations, and lysine side chains in the PBD predominantly interact with the serine oxygens of PS. These results are in good agreement with previous observations of tK in symmetric membranes. The effects of POPS asymmetry or the presence of POPE on tK are limited to modulating the relative contribution of individual side chains to interactions with lipids and redistributing conformational substates. Additional observations include the larger flexibility of tK in the current simulations, which we attribute to the longer duration of the simulations and the use of the CHARMM36m force field, which more accurately models intrinsically disordered peptides such as tK.",
+  "abstract_zh": "著名的致癌蛋白KRAS-4B（KRAS）的本质上无序的C末端选择性地与质膜（PM）中的磷脂酰丝氨酸（PS）脂质相互作用并聚集。这个由11个残基组成的片段，称为tK，包含一个由六个连续赖氨酸残基组成的多碱基结构域（PBD）和一个法尼基化的半胱氨酸。先前在磷脂酰胆碱（PC）/PS双层中对tK进行的分子动力学（MD）模拟研究表明，骨架构象动力学调节tK-PS相互作用。这些模拟是在对称膜中进行的，而PM在组成上是不对称的，其内叶（KRAS定位处）富含PS和磷脂酰乙醇胺（PE）脂质。为了检查双层不对称性是否影响tK的构象动力学及其与脂质的相互作用，我们进行了两次10微秒长的MD模拟，分别将tK结合到PC/PS和PC/PS/PE双层上，其中PS和PE脂质分布在一个叶中。我们发现，首先，这些组成不对称性导致叶间酰基链动力学的差异，但两个不对称双层的平衡结构和动态性质相似；其次，在两种系统中，tK高度动态，并至少采样两种不同的构象状态；第三，PS-tK氢键相互作用随肽骨架构象变化，PBD中的赖氨酸侧链主要与PS的丝氨酸氧相互作用。这些结果与先前在对称膜中对tK的观察结果高度一致。POPS不对称性或POPE的存在对tK的影响仅限于调节单个侧链与脂质相互作用的相对贡献，并重新分布构象亚态。其他观察结果包括当前模拟中tK的更大灵活性，我们将其归因于模拟时间的延长以及使用CHARMM36m力场，该力场更准确地模拟了像tK这样的本质上无序肽。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35687481/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35687481/",
+  "paper_page_path": "papers/pubmed/35687481/index.html"
+}

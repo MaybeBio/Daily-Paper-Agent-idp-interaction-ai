@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40627400",
+  "title": "Resolving the structure and dynamics of the disordered C terminus of human cardiac troponin T and effects of cardiomyopathic mutations.",
+  "authors": "Crosby, Garrett S; Hei, Bai; Lynn, Melissa L; Chakraborti, Ananya; Schwartz, Steven D; Tardiff, Jil C",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2025-07-08",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用TR-FRET解析心肌肌钙蛋白T无序C端在肌球蛋白结合下的无序-有序转变及突变效应，并提及与MD耦合，但方法以实验为主、AI/物理模拟仅作展望，互作机制建模深度有限。",
+  "abstract": "The C-terminal tail of cardiac troponin T (C-cTnT) inhibits thin filament activation and is a hotspot for cardiomyopathic mutations and variants. The mechanism whereby this region limits activation is not well understood. The last 16 C-terminal residues form a highly flexible and disordered domain and thus have been poorly resolved in studies to date. Using Time-Resolved fluorescence resonance energy transfer (TR-FRET) we resolved the structure of the disordered C-cTnT and studied the structural and dynamic effects of cardiomyopathic mutations on the region. For wildtype (WT) thin filaments, our data revealed a repositioning of cTnT-274 closer to cTnC when bound with calcium and myosin, while cTnT-283 did not move relative to cTnC. Myosin binding decreased the flexibility of cTnT-274 while having no effect on cTnT-283. We found that hypertrophic cardiomyopathy mutation cTnT-K273E decreased flexibility and placed the C-cTnT in an activated position in the blocked and closed states, resulting in increased actomyosin interactions in the absence of calcium; while dilated cardiomyopathy mutation cTnT-D270N increased flexibility and decreased the ability of the C-cTnT to reach its activated position in the open state but had no effect on actomyosin interactions. Our results demonstrate the WT C-cTnT undergoes a disordered to ordered transition upon myosin binding that is directly altered in the presence of cardiomyopathic mutations. These data provide a structural framework for the coupling of TR-FRET with high-resolution molecular dynamics as a tool for interrogating intermolecular interactions of intrinsically disordered proteins and protein complexes.",
+  "abstract_zh": "心肌肌钙蛋白T的C末端尾部（C-cTnT）抑制细丝激活，是心肌病突变和变异的热点区域。该区域限制激活的机制尚不明确。最后16个C末端残基形成一个高度灵活且无序的结构域，因此在迄今的研究中分辨率较差。利用时间分辨荧光共振能量转移（TR-FRET），我们解析了无序C-cTnT的结构，并研究了心肌病突变对该区域的结构和动态效应。对于野生型（WT）细丝，我们的数据揭示了在钙和肌球蛋白结合时，cTnT-274重新定位至更接近cTnC，而cTnT-283相对于cTnC未发生移动。肌球蛋白结合降低了cTnT-274的灵活性，但对cTnT-283无影响。我们发现，肥厚型心肌病突变cTnT-K273E降低了灵活性，并在阻断态和关闭态中将C-cTnT置于激活位置，导致在无钙条件下肌动蛋白-肌球蛋白相互作用增强；而扩张型心肌病突变cTnT-D270N增加了灵活性，并降低了C-cTnT在开放态中达到其激活位置的能力，但对肌动蛋白-肌球蛋白相互作用无影响。我们的结果表明，WT C-cTnT在肌球蛋白结合时经历从无序到有序的转变，该转变在心肌病突变存在时被直接改变。这些数据为TR-FRET与高分辨率分子动力学耦合作为探究固有无序蛋白质及蛋白质复合物分子间相互作用的工具提供了结构框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40627400/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40627400/",
+  "paper_page_path": "papers/pubmed/40627400/index.html"
+}

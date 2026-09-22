@@ -1,0 +1,258 @@
+{
+  "identity": {
+    "pmid": "39172501",
+    "doi": "10.1021/acs.jpcb.4c03734",
+    "title": "Extended Conformational Selection in the Antigen-Antibody Interaction of the PfAMA1 Protein."
+  },
+  "content": {
+    "abstract": "Plasmodium falciparum apical membrane antigen 1 (PfAMA1) is a surface protein found in two stages of the malaria life cycle. This is a protein involved in a reorientation movement of the parasite so that cell invasion occurs in the so-called \"moving junction\", relevant when the membranes of the parasite and the host are in contact. The structure of a conformational epitope of domain III of PfAMA1 in complex with the monoclonal antibody Fab F8.12.19 is experimentally known. Here, we used molecular dynamics with enhanced sampling by Hamiltonian replica exchange molecular dynamics (HREMD) to understand the effect of intermolecular interactions, conformational variability, and intrinsically disordered regions on the mechanism of antigen-antibody interaction. Clustering methods and the analysis of conformational variability were used in order to understand the influence of the presence of the partner protein in the complex. The free-state epitope accesses a broader conformational pool, including disordered conformations not seen in the bound state. The simulations suggest an extended conformational selection mechanism in which the antibody stabilizes a conformational set of the epitope existing in the free state. The stabilization of the active conformation occurs mainly through hydrogen bonds: Tyr(H33)-Asp493, His(L94)-Val510, Ser(L93)-Glu511, Tyr(H56)-Asp485, and Tyr(H35)-Asp493. The antibody has a structure with few flexible regions, and only the complementarity determining region (CDR) H3 shows greater plasticity in the presence of the epitope.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Protozoan Proteins/chemistry/immunology",
+      "*Antigens, Protozoan/chemistry/immunology",
+      "*Molecular Dynamics Simulation",
+      "*Membrane Proteins/chemistry/immunology",
+      "*Plasmodium falciparum/immunology/chemistry",
+      "Protein Conformation",
+      "Antibodies, Monoclonal/chemistry/immunology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "da Silva, Pamella Cristiny Carneiro",
+        "Martinez, Leandro"
+      ],
+      "short_names": [
+        "da Silva PCC",
+        "Martinez L"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-4640-4155",
+        "ORCID: 0000-0002-6857-1884"
+      ],
+      "affiliations": [
+        "Institute of Chemistry and Center for Computing in Engineering & Sciences, Universidade Estadual de Campinas (UNICAMP), 13083-861 Campinas, SP, Brazil.",
+        "Institute of Chemistry and Center for Computing in Engineering & Sciences, Universidade Estadual de Campinas (UNICAMP), 13083-861 Campinas, SP, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "da Silva, Pamella Cristiny Carneiro",
+        "short_name": "da Silva PCC",
+        "identifiers": [
+          "0009-0004-4640-4155"
+        ],
+        "affiliations": [
+          "Institute of Chemistry and Center for Computing in Engineering & Sciences, Universidade Estadual de Campinas (UNICAMP), 13083-861 Campinas, SP, Brazil."
+        ]
+      },
+      {
+        "full_name": "Martinez, Leandro",
+        "short_name": "Martinez L",
+        "identifiers": [
+          "0000-0002-6857-1884"
+        ],
+        "affiliations": [
+          "Institute of Chemistry and Center for Computing in Engineering & Sciences, Universidade Estadual de Campinas (UNICAMP), 13083-861 Campinas, SP, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2024 Sep 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/22 12:43",
+    "fetched_at": "2026-09-21 09:42:46"
+  },
+  "links": {
+    "cites": [
+      "40432083",
+      "40330036"
+    ],
+    "refs": [
+      "32323533",
+      "31148507",
+      "30666252",
+      "30351057",
+      "30250775",
+      "29744830",
+      "29545810",
+      "29346652",
+      "29140691",
+      "28494585",
+      "27819658",
+      "26712277",
+      "26626508",
+      "26616081",
+      "25816325",
+      "25391399",
+      "25360546",
+      "24342874",
+      "24317797",
+      "23732563",
+      "21645856",
+      "20541943",
+      "19229944",
+      "18196462",
+      "17229439",
+      "16211538",
+      "15848154",
+      "12874357",
+      "12270711",
+      "11707616",
+      "8744570",
+      "2687698"
+    ],
+    "similar": [
+      "39172501",
+      "17192270",
+      "22194692",
+      "15784590",
+      "17229439",
+      "25965408",
+      "22737069",
+      "17060469",
+      "27695087",
+      "18378635",
+      "26147502",
+      "28189425",
+      "11707616",
+      "15731407",
+      "25742002",
+      "16622199",
+      "24385910",
+      "12270711",
+      "23457550",
+      "23557839",
+      "19165323",
+      "26731670",
+      "14742560",
+      "15964019",
+      "22966050",
+      "38808064",
+      "21778402",
+      "30324137",
+      "25886591",
+      "22768052",
+      "15271904",
+      "25360546",
+      "27577237",
+      "15618180",
+      "15049818",
+      "16988228",
+      "33741942",
+      "7517517",
+      "28000709",
+      "40268600",
+      "30367656",
+      "7692377",
+      "40020675",
+      "21320299",
+      "23861883",
+      "23429538",
+      "26804042",
+      "15781464",
+      "18590786",
+      "15383306",
+      "23836419",
+      "34433057",
+      "30367064",
+      "25132548",
+      "17923516",
+      "20298576",
+      "18515425",
+      "20197139",
+      "35197516",
+      "25592728",
+      "15972483",
+      "23717209",
+      "21619512",
+      "17997971",
+      "9325291",
+      "10225874",
+      "19777263",
+      "31148507",
+      "18031585",
+      "15039357",
+      "29760216",
+      "26867816",
+      "1574088",
+      "22467743",
+      "23870469",
+      "26825252",
+      "2038355",
+      "1693361",
+      "25822046",
+      "10960173",
+      "17938224",
+      "26700814",
+      "32900802",
+      "15802237",
+      "1905014",
+      "20228060",
+      "11223137",
+      "29195810",
+      "7694223",
+      "34946853",
+      "16242717",
+      "22299616",
+      "28618199",
+      "28202027",
+      "22306282",
+      "33430886",
+      "16154214",
+      "40198064",
+      "15102786",
+      "21082025"
+    ],
+    "review": [
+      "39172501",
+      "21619512"
+    ],
+    "pmc": [
+      "11382265"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39172501/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1099",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.4c03734",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

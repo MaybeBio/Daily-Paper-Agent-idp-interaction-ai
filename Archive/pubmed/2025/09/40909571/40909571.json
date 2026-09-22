@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "pmid": "40909571",
+    "doi": "10.1101/2025.08.26.672419",
+    "title": "Regulation of tension-dependent localization of LATS1 and LATS2 to adherens junctions."
+  },
+  "content": {
+    "abstract": "The LIM domain protein LIMD1 is a critical regulator of the Hippo signaling pathway, acting to sequester the kinases LATS1/2 to adherens junctions (AJs) in response to mechanical strain. Here, we identify the molecular basis for LIMD1 binding and recruitment of LATS1/2 to AJs. We show that while the LIM domains of LIMD1 are sufficient for AJ localization and binding to LATS1/2, recruitment of LATS1 to AJ requires both the intrinsically disordered region (IDR) in the N-terminus as well as the LIM domains. We further dissected the LIM domains and found that LIM1 and LIM2, but not LIM3, are necessary for LATS1 AJ localization. Point mutations that disrupt strain sensitivity in either the first or second LIM domain disrupt both binding and recruitment of LATS1/2 to AJs. Mechanistically, LIMD1 binds LATS1/2 through a conserved linear motif, the LATS-LATCH, which we identified by AlphaFold modeling and confirmed by biochemical and localization assays. The LATS-LATCH is both necessary and sufficient for strain-dependent recruitment of LATS1/2 to AJs. Mutation of predicted contact residues within the LATS-LATCH both disrupts its binding to LIMD1 and localization to AJs. These findings define a bipartite mechanism for LIMD1-dependent recruitment of LATS1/2 involving LIM domain-LATCH interactions and N-terminal IDR functions, providing insight into how mechanical signals are transduced through the Hippo pathway.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "De Silva, Chamika",
+        "Kelch, Brian A",
+        "McCollum, Dannel"
+      ],
+      "short_names": [
+        "De Silva C",
+        "Kelch BA",
+        "McCollum D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0278-2715"
+      ],
+      "affiliations": [
+        "Department of Biochemistry & Molecular Biotechnology, UMass Chan Medical School, Worcester, MA, 01605.",
+        "Department of Biochemistry & Molecular Biotechnology, UMass Chan Medical School, Worcester, MA, 01605.",
+        "Department of Biochemistry & Molecular Biotechnology, UMass Chan Medical School, Worcester, MA, 01605."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "De Silva, Chamika",
+        "short_name": "De Silva C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biotechnology, UMass Chan Medical School, Worcester, MA, 01605."
+        ]
+      },
+      {
+        "full_name": "Kelch, Brian A",
+        "short_name": "Kelch BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biotechnology, UMass Chan Medical School, Worcester, MA, 01605."
+        ]
+      },
+      {
+        "full_name": "McCollum, Dannel",
+        "short_name": "McCollum D",
+        "identifiers": [
+          "0000-0003-0278-2715"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biotechnology, UMass Chan Medical School, Worcester, MA, 01605."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Aug 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/05 06:35",
+    "fetched_at": "2026-09-21 23:26:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38718835",
+      "38426816",
+      "37835395",
+      "37626124",
+      "36807601",
+      "36475898",
+      "36439396",
+      "36318920",
+      "34859820",
+      "34716691",
+      "34265844",
+      "34038160",
+      "33891898",
+      "33606996",
+      "33058779",
+      "32989126",
+      "32203417",
+      "31594864",
+      "29440237",
+      "29222344",
+      "27457617",
+      "26108669",
+      "24995985",
+      "18497260",
+      "16413547",
+      "15644491",
+      "10831611"
+    ],
+    "similar": [
+      "40909571",
+      "41628219",
+      "38426816",
+      "29440237",
+      "36439396",
+      "33558314",
+      "29222344",
+      "25127217",
+      "31697683",
+      "24023255",
+      "35969522",
+      "33847835",
+      "32420069",
+      "29487715",
+      "23791731",
+      "34337379",
+      "37337213",
+      "31776189",
+      "36475898",
+      "33891898",
+      "8922390",
+      "9658172",
+      "36930055",
+      "25624491",
+      "42167578",
+      "10647888",
+      "27006470",
+      "41187851",
+      "40501385",
+      "30266805",
+      "38805800",
+      "20841485",
+      "37381005",
+      "23230145",
+      "39248565",
+      "12606349",
+      "31268774",
+      "29787761",
+      "8663233",
+      "20935475",
+      "27656835",
+      "11950600",
+      "27847303",
+      "33141042",
+      "24107629",
+      "30671453",
+      "20709423",
+      "30565143",
+      "26360373",
+      "28644436",
+      "31391252",
+      "30600590",
+      "41656095",
+      "31693432",
+      "19842174",
+      "19506041",
+      "24165133",
+      "41642640",
+      "41520732",
+      "30659113",
+      "16674920",
+      "27512725",
+      "10525413",
+      "15688006",
+      "33875576",
+      "40667385",
+      "38368446",
+      "35429439",
+      "19117955",
+      "34267330",
+      "28434174",
+      "36317529",
+      "24995985",
+      "40923675",
+      "36609396",
+      "23942117",
+      "34074528",
+      "27531557",
+      "10574708",
+      "35921161",
+      "28754671",
+      "38690712",
+      "28373298",
+      "28561330",
+      "41912774",
+      "35307353",
+      "33204327",
+      "37662374",
+      "35941108",
+      "8841116",
+      "31996378",
+      "30219064",
+      "33571521",
+      "12446711",
+      "28926138",
+      "37834234",
+      "9585524",
+      "33782527",
+      "31848340",
+      "21383157"
+    ],
+    "review": [
+      "40909571",
+      "20935475",
+      "28644436"
+    ],
+    "pmc": [
+      "12408001"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40909571/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.08.26.672419",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

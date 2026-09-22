@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "pmid": "42330462",
+    "doi": "10.1103/g1lp-rtd7",
+    "title": "Entropic Charge Separation as a General Mechanism Arresting Nanoscale Condensate Coarsening."
+  },
+  "content": {
+    "abstract": "Classical liquid-liquid phase separation predicts that droplets grow continuously via Brownian coalescence or Ostwald ripening, yet many nanoscale biomolecular condensates remain stable for hours or days without active regulation. Such condensates often arise through complex coacervation between oppositely charged macromolecules, making this interaction motif broadly relevant in biology and soft matter. Here we combine experiments, theory, and simulations to identify a merging-limited coarsening (MLC) regime in which merging of condensates decreases sharply below a critical droplet size. Chain-length asymmetry between oppositely charged polymers drives entropic interfacial charge separation even at globally neutral stoichiometry, imparting net droplet charges and generating long-range electrostatic repulsion. These size-dependent barriers lead to exponential rather than classical power-law growth and trap droplets in long-lived metastable states. Our framework unifies suppressed MLC and classical Brownian coalescence within a single predictive model and provides a general mechanism for condensate stability in both synthetic systems and living cells.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Feipeng",
+        "Yuan, Jiaxing",
+        "Zhang, Yaojun",
+        "Tanaka, Hajime",
+        "Shum, Ho Cheung"
+      ],
+      "short_names": [
+        "Chen F",
+        "Yuan J",
+        "Zhang Y",
+        "Tanaka H",
+        "Shum HC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "The University of Hong Kong, Department of Mechanical Engineering, Pokfulam Road, Hong Kong (SAR), China. ROR: https://ror.org/02zhqgq86",
+        "Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong (SAR), China.",
+        "Northwestern University, Department of Chemical and Biological Engineering, Evanston, Illinois 60208, USA. ROR: https://ror.org/000e0be47",
+        "The Hong Kong University of Science and Technology (Guangzhou), Advanced Materials Thrust, Function Hub, Nansha District, Guangzhou 511453, China. ROR: https://ror.org/00q4vv597",
+        "Johns Hopkins University, Department of Physics and Astronomy, Baltimore, Maryland 21218, USA. ROR: https://ror.org/00za53h95",
+        "Johns Hopkins University, Department of Biophysics, Baltimore, Maryland 21218, USA. ROR: https://ror.org/00za53h95",
+        "The University of Tokyo, Research Center for Advanced Science and Technology, 4-6-1 Komaba, Meguro-ku, Tokyo 153-8904, Japan. ROR: https://ror.org/057zh3y96",
+        "The University of Tokyo, Department of Fundamental Engineering, Institute of Industrial Science, 4-6-1 Komaba, Meguro-ku, Tokyo 153-8505, Japan. ROR: https://ror.org/057zh3y96",
+        "The University of Hong Kong, Department of Mechanical Engineering, Pokfulam Road, Hong Kong (SAR), China. ROR: https://ror.org/02zhqgq86",
+        "Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong (SAR), China.",
+        "City University of Hong Kong, Department of Biomedical Engineering and Department of Chemistry, Kowloon, Hong Kong (SAR), China. ROR: https://ror.org/03q8dnn23"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Feipeng",
+        "short_name": "Chen F",
+        "identifiers": [],
+        "affiliations": [
+          "The University of Hong Kong, Department of Mechanical Engineering, Pokfulam Road, Hong Kong (SAR), China.",
+          "Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong (SAR), China.",
+          "Northwestern University, Department of Chemical and Biological Engineering, Evanston, Illinois 60208, USA."
+        ]
+      },
+      {
+        "full_name": "Yuan, Jiaxing",
+        "short_name": "Yuan J",
+        "identifiers": [],
+        "affiliations": [
+          "The Hong Kong University of Science and Technology (Guangzhou), Advanced Materials Thrust, Function Hub, Nansha District, Guangzhou 511453, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yaojun",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Johns Hopkins University, Department of Physics and Astronomy, Baltimore, Maryland 21218, USA.",
+          "Johns Hopkins University, Department of Biophysics, Baltimore, Maryland 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Tanaka, Hajime",
+        "short_name": "Tanaka H",
+        "identifiers": [],
+        "affiliations": [
+          "The University of Tokyo, Research Center for Advanced Science and Technology, 4-6-1 Komaba, Meguro-ku, Tokyo 153-8904, Japan.",
+          "The University of Tokyo, Department of Fundamental Engineering, Institute of Industrial Science, 4-6-1 Komaba, Meguro-ku, Tokyo 153-8505, Japan."
+        ]
+      },
+      {
+        "full_name": "Shum, Ho Cheung",
+        "short_name": "Shum HC",
+        "identifiers": [],
+        "affiliations": [
+          "The University of Hong Kong, Department of Mechanical Engineering, Pokfulam Road, Hong Kong (SAR), China.",
+          "Advanced Biomedical Instrumentation Centre, Hong Kong Science Park, Shatin, New Territories, Hong Kong (SAR), China.",
+          "City University of Hong Kong, Department of Biomedical Engineering and Department of Chemistry, Kowloon, Hong Kong (SAR), China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical review letters"
+    ],
+    "journal_abbrev": [
+      "Phys Rev Lett"
+    ],
+    "pub_date": "2026 Jun 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/22 19:02",
+    "fetched_at": "2026-09-18 04:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42330462",
+      "41021779",
+      "39975453",
+      "23912807",
+      "38072599",
+      "39952921",
+      "32422749",
+      "35001622",
+      "38252962",
+      "41296980",
+      "35881789",
+      "33373232",
+      "39044475",
+      "40503028",
+      "34186016",
+      "35867936",
+      "29210575",
+      "41587927",
+      "41891819",
+      "40782375",
+      "37215004",
+      "35643628",
+      "37252985",
+      "37073403",
+      "34315935",
+      "15026289",
+      "40629499",
+      "34552246",
+      "39937084",
+      "34819511",
+      "21820643",
+      "38489385",
+      "42141648",
+      "33087563",
+      "26351690",
+      "12005936",
+      "40867025",
+      "34573116",
+      "41481439",
+      "40534071",
+      "41965924",
+      "38766065",
+      "39856105",
+      "41944692",
+      "42276821",
+      "37065433",
+      "34241518",
+      "33307683",
+      "38847600",
+      "42146575",
+      "38308651",
+      "41566033",
+      "40635595",
+      "39320949",
+      "37781612",
+      "41637578",
+      "36883003",
+      "40455990",
+      "39574691",
+      "27059575",
+      "41662498",
+      "36993212",
+      "35293386",
+      "28964034",
+      "38809420",
+      "39398199",
+      "32822449",
+      "41355754",
+      "40211087",
+      "38998938",
+      "41169547",
+      "37159305",
+      "39526744",
+      "37873097",
+      "42225627",
+      "41498278",
+      "41524103",
+      "39674888",
+      "41670285",
+      "42240196",
+      "41888106",
+      "32584357",
+      "36837726",
+      "37770446",
+      "40666943",
+      "37468629",
+      "41086061",
+      "39171763",
+      "35796975",
+      "15072934",
+      "37470705",
+      "42190656",
+      "41329728",
+      "41279444",
+      "36227474",
+      "30996987",
+      "40159770",
+      "36608178",
+      "36829460",
+      "42030154"
+    ],
+    "review": [
+      "42330462",
+      "41587927",
+      "21820643",
+      "34573116"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://link.aps.org/abstract/PRL/v136/p228202",
+        "provider": "American Physical Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

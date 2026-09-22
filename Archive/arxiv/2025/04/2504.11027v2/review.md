@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, theory, results, conclusions, and appendices. Figures and tables are referenced but not fully visible.
+- **Assessment boundary** Assessment is limited to the scientific content, methodology, and claims as presented in the provided text. Numerical values in figures are not directly verifiable without the actual figure data.
+- **Shared manuscript claim summary** The authors develop a heterogeneous worm-like chain model with Gaussian-distributed local stiffness, derive an analytical expression for an effective persistence length, and demonstrate that heteropolymers can be mapped to effective homopolymers. They test this mapping against coarse-grained simulations of generic heteropolymers and of 64 intrinsically disordered protein sequences using multiple force fields, finding reasonable agreement for size and shape descriptors, with systematic deviations attributed to non-bonded intramolecular interactions.
+- **Visible evidence base** Text descriptions of simulation methods, analytical derivations (partially in SI), and qualitative descriptions of results in Figures 5–11. Quantitative values are not extractable from the text alone.
+- **Missing materials affecting confidence** Actual figure data, the full Supporting Information (derivations, sequence lists, additional results), and the exact numerical values of the comparisons shown in Figures 6, 7, and 11. Without these, the quantitative accuracy of the mapping cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and relevant question in the biophysics of intrinsically disordered proteins: whether sequence-dependent local stiffness variations can be coarse-grained into a single effective persistence length. The theoretical derivation is elegant and the simulation campaign is extensive, covering multiple force fields and 64 IDP sequences. The central claim—that a Gaussian distribution of local bending stiffnesses can be mapped to an effective homopolymer with a single persistence length—is well supported for the tested parameter range. However, the practical utility of this mapping for real IDPs is limited by the systematic deviations observed, which the authors attribute to non-bonded interactions not captured by the theory. The manuscript is clearly written and will be of interest to the polymer physics and IDP communities. The main weaknesses are the lack of quantitative error analysis in the presented text, the limited discussion of when the mapping fails, and the absence of a clear prescription for how to determine the effective persistence length from sequence alone without simulation.
+- **Who would be interested in the results, and why** Researchers in polymer physics, computational biophysics, and the intrinsically disordered protein community. The analytical result for the effective persistence length of a heteropolymer with distributed stiffness is of general theoretical interest. The systematic comparison across multiple IDP force fields provides practical guidance for choosing simulation models and interpreting their output. The finding that IDPs are systematically larger than ideal worm-like chains but more compact than self-avoiding chains highlights the role of non-bonded interactions and will inform future coarse-graining strategies.
+- **Major strengths** 1. The theoretical derivation of the effective persistence length is rigorous and provides a closed-form expression that is easy to implement. 2. The simulation campaign is comprehensive, covering generic heteropolymers and 64 real IDP sequences with four different force fields. 3. The comparison between theory and simulation is systematic, and the authors honestly report deviations rather than overstating agreement. 4. The manuscript is well-structured and clearly written, with a useful table of symbols.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the heterogeneous worm-like chain model can be effectively mapped to a homogeneous chain with a single effective persistence length, as stated in the abstract and Section II.1.
+  - **Evidence pointer** Figures 6 and 7, Section III.1
+  - **Concern** The validation of the theoretical mapping relies on comparing configurational properties (Rg, Ree, AS, AC, A) between heteropolymers and homopolymers with the effective persistence length. However, the text reports only qualitative agreement ("excellent agreement", "slightly overestimates") without providing quantitative error metrics. The maximum deviations for the largest stiffness variances are stated to be approximately 1%, but it is unclear whether this is a relative error in Rg, Ree, or all descriptors. Moreover, the inverse mapping procedure (matching Rg or Ree to extract ℓp,eff) is only described for two observables, and it is not shown whether the effective persistence length extracted from Rg is consistent with that extracted from Ree. If the two yield different values, the mapping is not unique and the claim of a single effective persistence length is weakened.
+  - **Why it matters** The central contribution of the paper is the analytical expression for ℓp,eff. If the mapping is not unique or the errors are not quantified, the practical utility of the result is unclear. A reader cannot determine whether the 1% deviation is acceptable for their application without knowing the error in each observable and the range of validity.
+  - **Resolution test** Provide a table or figure showing the relative errors (e.g., |⟨O⟩het − ⟨O⟩hom|/⟨O⟩het) for each observable (Rg, Ree, AS, AC, A) as a function of σκ/κ0 and ℓp,0. Additionally, show a scatter plot of ℓp,eff extracted from Rg versus ℓp,eff extracted from Ree for all simulated conditions. If the two are consistent within statistical error, the uniqueness of the mapping is established.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim in the abstract and Section III.2 that the simulated IDPs have similar shapes to the corresponding homogeneous and heterogeneous worm-like chains, and that deviations are attributable to non-bonded interactions.
+  - **Evidence pointer** Figures 8–11, Section III.2
+  - **Concern** The comparison between IDP simulations and the worm-like chain model is presented as a validation of the mapping, but the IDP simulations include non-bonded interactions (excluded volume, electrostatics, hydrophobicity) that are absent from the ideal worm-like chain model. The authors acknowledge this and attribute the systematic deviations to these interactions. However, the manuscript does not provide a quantitative decomposition of the deviations: how much is due to the stiffness distribution versus non-bonded interactions? Without this decomposition, the reader cannot assess whether the stiffness mapping is the dominant factor or a minor correction. Furthermore, the choice to compare against both ideal and self-avoiding homopolymers is sensible, but the text does not state which comparison is more appropriate for IDPs, leaving the interpretation ambiguous.
+  - **Why it matters** The practical value of the mapping for IDPs depends on knowing its limitations. If non-bonded interactions dominate the conformational behavior, then the stiffness mapping alone is insufficient for predictive purposes, and the paper's contribution is reduced to a theoretical exercise rather than a practical tool.
+  - **Resolution test** Perform a decomposition analysis where the IDP simulations are compared to (a) ideal heteropolymers with the same stiffness distribution, (b) self-avoiding heteropolymers with the same stiffness distribution, and (c) homopolymers with the effective persistence length. This would isolate the effect of stiffness heterogeneity from non-bonded interactions. Alternatively, run IDP simulations with non-bonded interactions turned off and compare to the ideal worm-like chain prediction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The statement in Section II.2 that the UNRES-P model includes "electric monopoles" and "implicit solvent polarization" and that salt concentration effects are incorporated via Debye-Hückel screening.
+  - **Evidence pointer** Section II.2, paragraph on UNRES-P
+  - **Concern** The description of the UNRES-P model is brief and lacks key parameters. Specifically, the Debye-Hückel screening length or ionic strength used in the simulations is not stated. Since electrostatic interactions are known to strongly affect IDP conformations, the screening conditions are critical for interpreting the results. Additionally, the text states that "the CGDT_TS scores varied little between the variants" but does not provide these scores or explain what they measure. This makes it difficult to assess whether the choice of Debye-Hückel screening is appropriate.
+  - **Why it matters** The UNRES-P results are used to draw conclusions about the role of electrostatics in IDP conformations. Without knowing the ionic conditions, the reader cannot evaluate whether the observed deviations from the worm-like chain model are due to electrostatics or other factors. The lack of parameter details also hinders reproducibility.
+  - **Resolution test** State the ionic strength or Debye length used in the UNRES-P simulations. Provide the CGDT_TS scores in the SI or as a supplementary table. If the scores are not essential, remove the reference to them or explain their relevance.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section II.1, Equation (11)
+  - **Evidence pointer** Section II.1
+  - **Issue** The derivation of Equation (11) is summarized in the main text but the full calculation is relegated to the SI. While this is acceptable, the main text does not provide an intuitive explanation of why the effective persistence length is smaller than the average. A brief physical argument would help nonspecialist readers.
+  - **Required correction** Add one or two sentences after Equation (11) explaining, in physical terms, why flexible segments dominate the effective stiffness (e.g., because they allow more bending conformations and thus contribute more to the conformational entropy).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section III.2, Figure 8
+  - **Evidence pointer** Section III.2, Figure 8
+  - **Issue** The text states that the UNRES model yields ν ≈ 0.38 ± 0.1, indicating collapsed conformations. However, the uncertainty of ±0.1 is large, and it is unclear whether this is a fitting error or a spread across sequences. The text should clarify this.
+  - **Required correction** Specify whether the uncertainty is the standard error of the fit or the standard deviation across the 64 sequences. If the latter, report the range of ν values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section III.2, Figure 11
+  - **Evidence pointer** Section III.2, Figure 11
+  - **Issue** The text states that "the distributions of configurational properties for the HPS-C2 and the HPS-C2 α models are nearly identical" but does not explain why, given that the persistence length distributions differ. A brief comment on the insensitivity of global shape descriptors to local stiffness details would be helpful.
+  - **Required correction** Add a sentence noting that global shape descriptors (Rg, AS, AC, A) are relatively insensitive to local stiffness variations, which is why the two HPS variants yield similar results despite different persistence length distributions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section II.2, HPS-C2 α model
+  - **Evidence pointer** Section II.2
+  - **Issue** The text states that the HPS-C2 α model includes angle and dihedral potentials developed for α-helices, but does not specify the source of these potentials or their parameters. This is important for reproducibility.
+  - **Required correction** Provide a reference for the angle and dihedral potentials or state that they are described in the SI.
+- **Technical failings that need to be addressed before the case is established** 1. Quantitative error metrics for the mapping validation are missing (R1-M1). 2. The decomposition of deviations into stiffness heterogeneity versus non-bonded interactions is not provided (R1-M2). 3. Key simulation parameters (ionic strength for UNRES-P) are not stated (R1-M3).
+- **Assessment against Nature-style criteria** Originality: The analytical result for the effective persistence length of a heteropolymer with distributed stiffness is novel and extends previous work on homogeneous worm-like chains. The application to IDPs with multiple force fields is also original. Scientific importance: The result is relevant for the IDP community, where coarse-grained models are widely used, but the practical impact is limited by the systematic deviations and the lack of a clear prescription for predicting ℓp,eff from sequence alone. Interdisciplinary readership: The paper will appeal to polymer physicists and computational biophysicists, but the presentation is somewhat specialized and may not attract a broader biological audience. Technical soundness: The theory is sound and the simulations are extensive, but the lack of quantitative error analysis and parameter details weakens the technical case. Readability for nonspecialists: The paper is clearly written but assumes familiarity with polymer physics concepts; the addition of intuitive explanations would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The theoretical result is valuable and the simulation campaign is impressive, but the manuscript must provide quantitative error metrics, a decomposition of deviations, and complete simulation parameters to fully establish the case.
+
+## Risk / unsupported claims
+- The claim that the mapping is valid for "naturally occurring IDPs" is not fully supported because the systematic deviations from the worm-like chain model are not quantified or decomposed.
+- The statement that the UNRES-P model "mitigates" the over-compactness of the UNRES model is qualitative and not backed by numerical comparison.
+- The claim that the HPS-C2 and HPS-C2 α models yield "nearly identical" results is not supported by quantitative data in the text.
+- The assertion that the theory "slightly overestimates" ℓp,eff for stiff chains is not quantified, and the magnitude of the overestimation is unclear.

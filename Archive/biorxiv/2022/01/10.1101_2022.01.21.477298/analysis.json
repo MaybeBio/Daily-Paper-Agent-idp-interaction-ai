@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.01.21.477298",
+  "title": "The N764K and N856K mutations in SARS-CoV-2 Omicron BA.1 S protein generate potential cleavage sites for SKI-1/S1P protease",
+  "authors": "Maaroufi H",
+  "journal": "bioRxiv",
+  "published_date": "2022-01-24",
+  "window": {
+    "start": "2022-01-24",
+    "end": "2022-01-30"
+  },
+  "score": 3,
+  "one_liner_zh": "该文分析SARS-CoV-2 Omicron S蛋白N764K/N856K突变产生SKI-1/S1P蛋白酶切割位点，涉及病毒刺突蛋白与宿主蛋白酶互作，但对象非无序蛋白/相分离，且无AI或物理模拟方法，仅序列分析，对IDP-PPI机制建模启发有限。",
+  "abstract": "Spike (S) protein is a key protein in coronaviruses life cycle. SARS-CoV-2 Omicron BA.1 variant of concern (VoC) presents an exceptionally high number of 30 substitutions, 6 deletions and 3 insertions in the S protein. Recent works revealed major changes in the SARS-CoV-2 Omicron biological properties compared to earlier variants of concern (VoCs). Here, these major changes could be explained, at least in part, by the mutations N764K and/or N856K in S2 subunit. These mutations were not previously detected in other VoCs. N764K and N856K generate two potential cleavage sites for SKI-1/S1P serine protease, known to cleave viral envelope glycoproteins. The new sites where SKI-1/S1P could cleave S protein might impede the exposition of the internal fusion peptide for membrane fusion and syncytia formation. Based on the human protein atlas, SKI-1/S1P protease is not found in lung tissues (alveolar cells type I/II and endothelial cells), but present in bronchus and nasopharynx. This may explain why Omicron has change of tissue tropism. Viruses have evolved to use several host proteases for cleavage/activation of envelope glycoproteins. Mutations that allow viruses to change of protease may have a strong impact in host range, cell and tissue tropism, and pathogenesis.",
+  "abstract_zh": "刺突（S）蛋白是冠状病毒生命周期中的关键蛋白。SARS-CoV-2奥密克戎BA.1关切变异株（VoC）在S蛋白中呈现出异常高的30个替换、6个缺失和3个插入突变。近期研究揭示了与早期关切变异株（VoCs）相比，SARS-CoV-2奥密克戎生物学特性的重大变化。在此，这些重大变化至少可部分归因于S2亚基中的N764K和/或N856K突变。这些突变此前未在其他VoCs中检测到。N764K和N856K生成了两个潜在的SKI-1/S1P丝氨酸蛋白酶切割位点，该蛋白酶已知可切割病毒包膜糖蛋白。SKI-1/S1P可能切割S蛋白的新位点，或会阻碍内部融合肽的暴露，从而影响膜融合和合胞体形成。根据人类蛋白质图谱，SKI-1/S1P蛋白酶在肺组织（I型/II型肺泡细胞和内皮细胞）中未发现，但在支气管和鼻咽部存在。这可能解释了奥密克戎组织嗜性改变的原因。病毒已进化出利用多种宿主蛋白酶来切割/激活包膜糖蛋白的机制。使病毒改变蛋白酶使用的突变可能对宿主范围、细胞和组织嗜性以及致病性产生强烈影响。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.01.21.477298",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.01.21.477298",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.01.21.477298/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41337470",
+  "title": "BAGEL: Protein engineering via exploration of an energy landscape.",
+  "authors": "Lala, Jakub; Al-Saffar, Ayham; Angioletti-Uberti, Stefano",
+  "journal": "PLoS computational biology",
+  "published_date": "2025-12-03",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 8,
+  "one_liner_zh": "BAGEL是一个模块化、无梯度的蛋白质工程框架，通过能量景观采样设计蛋白，并明确展示了针对无序表位的肽结合剂设计，涉及PPI与AI模型集成，对无序蛋白互作机制建模有直接启发。",
+  "abstract": "Despite recent breakthroughs in deep learning methods for protein design, existing computational pipelines remain rigid, highly specific, and ill-suited for tasks requiring non-differentiable or multi-objective design goals. In this report, we introduce BAGEL, a modular, open-source framework for programmable protein engineering, enabling flexible exploration of sequence space through model-agnostic and gradient-free exploration of an energy landscape. BAGEL formalizes protein design as the sampling of an energy function, either to optimize (find a global optimum) or to explore a basin of interest (generate diverse candidates). This energy function is composed of user-defined terms capturing geometric constraints, sequence embedding similarities, or structural confidence metrics. BAGEL also natively supports multi-state optimization and advanced Monte Carlo techniques, providing researchers with a flexible alternative to fixed-backbone and inverse-folding paradigms common in current design workflows. Moreover, the package seamlessly integrates a wide range of publicly available deep learning protein models, allowing users to rapidly take full advantage of any future improvements in model accuracy and speed. We illustrate the versatility of BAGEL on four archetypal applications: designing de novo peptide binders, targeting intrinsically disordered epitopes, selectively binding to species-specific variants, and generating enzyme variants with conserved catalytic sites. By offering a modular, easy-to-use platform to define custom protein design objectives and optimization strategies, BAGEL aims to speed up the design of new proteins. Our goal with its release is to democratize protein design, abstracting the process as much as possible from technical implementation details and thereby making it more accessible to the broader scientific community, unlocking untapped potential for innovation in biotechnology and therapeutics.",
+  "abstract_zh": "尽管近年来深度学习方法在蛋白质设计领域取得了突破性进展，现有计算流程仍显僵化、高度特化，且不适用于需要非可微或多目标设计目标的任务。在本报告中，我们介绍BAGEL，一个模块化、开源的蛋白质可编程工程框架，通过模型无关且无梯度的能量景观探索，实现对序列空间的灵活探索。BAGEL将蛋白质设计形式化为对能量函数的采样，既可优化（寻找全局最优解），也可探索感兴趣的能量盆地（生成多样化候选）。该能量函数由用户定义的项组成，涵盖几何约束、序列嵌入相似性或结构置信度指标。BAGEL还原生支持多状态优化和高级蒙特卡洛技术，为研究人员提供了一种灵活替代当前设计流程中常见的固定骨架和逆折叠范式的方法。此外，该包无缝集成了多种公开可用的深度学习蛋白质模型，使用户能够迅速充分利用未来模型精度和速度方面的任何改进。我们通过四个典型应用展示了BAGEL的多功能性：设计从头肽结合物、靶向固有无序表位、选择性结合物种特异性变体，以及生成具有保守催化位点的酶变体。通过提供一个模块化、易用的平台来定义自定义蛋白质设计目标和优化策略，BAGEL旨在加速新蛋白质的设计。我们发布它的目标是使蛋白质设计民主化，尽可能将过程从技术实现细节中抽象出来，从而使其更易于广大科学社区访问，释放生物技术和治疗学领域未被开发的创新潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41337470/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41337470/",
+  "paper_page_path": "papers/pubmed/41337470/index.html"
+}

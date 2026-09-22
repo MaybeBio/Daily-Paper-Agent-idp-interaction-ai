@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "38168176",
+    "doi": "10.1101/2023.12.10.570836",
+    "title": "Molecular Determinants and Signaling Effects of PKA RIalpha Phase Separation."
+  },
+  "content": {
+    "abstract": "Spatiotemporal regulation of intracellular signaling molecules, such as the 3',5'-cyclic adenosine monophosphate (cAMP)-dependent protein kinase (PKA), ensures the specific execution of various cellular functions. Liquid-liquid phase separation (LLPS) of the ubiquitously expressed PKA regulatory subunit RIalpha was recently identified as a major driver of cAMP compartmentation and signaling specificity. However, the molecular determinants of RIalpha LLPS remain unclear. Here, we reveal that two separate dimerization interfaces combined with the cAMP-induced release of the PKA catalytic subunit (PKA-C) from the pseudosubstrate inhibitory sequence are required to drive RIalpha condensate formation in cytosol, which is antagonized by docking to A-kinase anchoring proteins. Strikingly, we find that the RIalpha pseudosubstrate region is critically involved in the formation of a non-canonical R:C complex, which serves to maintain low basal PKA activity in the cytosol by enabling the recruitment of active PKA-C to RIalpha condensates. Our results suggest that RIalpha LLPS not only facilitates cAMP compartmentation but also spatially restrains active PKA-C, thus highlighting the functional versatility of biomolecular condensates in driving signaling specificity.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hardy, Julia C",
+        "Pool, Emily H",
+        "Bruystens, Jessica G H",
+        "Zhou, Xin",
+        "Li, Qingrong",
+        "Zhou, Daojia R",
+        "Palay, Max",
+        "Tan, Gerald",
+        "Chen, Lisa",
+        "Choi, Jaclyn L C",
+        "Lee, Ha Neul",
+        "Strack, Stefan",
+        "Wang, Dong",
+        "Taylor, Susan S",
+        "Mehta, Sohum",
+        "Zhang, Jin"
+      ],
+      "short_names": [
+        "Hardy JC",
+        "Pool EH",
+        "Bruystens JGH",
+        "Zhou X",
+        "Li Q",
+        "Zhou DR",
+        "Palay M",
+        "Tan G",
+        "Chen L",
+        "Choi JLC",
+        "Lee HN",
+        "Strack S",
+        "Wang D",
+        "Taylor SS",
+        "Mehta S",
+        "Zhang J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2693-3437",
+        "ORCID: 0000-0002-5299-8795",
+        "ORCID: 0000-0002-6175-7280",
+        "ORCID: 0000-0001-7145-7823"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Hardy, Julia C",
+        "short_name": "Hardy JC",
+        "identifiers": [
+          "0000-0002-2693-3437"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Pool, Emily H",
+        "short_name": "Pool EH",
+        "identifiers": [
+          "0000-0002-5299-8795"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Bruystens, Jessica G H",
+        "short_name": "Bruystens JGH",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhou, Xin",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Li, Qingrong",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhou, Daojia R",
+        "short_name": "Zhou DR",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Palay, Max",
+        "short_name": "Palay M",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Tan, Gerald",
+        "short_name": "Tan G",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Chen, Lisa",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Choi, Jaclyn L C",
+        "short_name": "Choi JLC",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Lee, Ha Neul",
+        "short_name": "Lee HN",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Strack, Stefan",
+        "short_name": "Strack S",
+        "identifiers": [
+          "0000-0002-6175-7280"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wang, Dong",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Taylor, Susan S",
+        "short_name": "Taylor SS",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Mehta, Sohum",
+        "short_name": "Mehta S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Zhang, Jin",
+        "short_name": "Zhang J",
+        "identifiers": [
+          "0000-0001-7145-7823"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Dec 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/04 01:18",
+    "fetched_at": "2026-09-21 03:58:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38168176",
+      "38537638",
+      "32846158",
+      "40705714",
+      "40512625",
+      "25229150",
+      "31674811",
+      "37808519",
+      "30258407",
+      "20923972",
+      "15157095",
+      "30530493",
+      "28636912",
+      "40717469",
+      "15236976",
+      "27825928",
+      "11198926",
+      "32722762",
+      "29378851",
+      "20026299",
+      "15240549",
+      "24122441",
+      "26618408",
+      "31363049",
+      "14967031",
+      "34946890",
+      "25192685",
+      "39355927",
+      "41388753",
+      "17596845",
+      "25202018",
+      "16394142",
+      "15692043",
+      "9380760",
+      "8627334",
+      "19056362",
+      "38910447",
+      "20394097",
+      "33370777",
+      "21502359",
+      "9857038",
+      "10567247",
+      "16109722",
+      "10999726",
+      "10764601",
+      "25213315",
+      "9760254",
+      "40241376",
+      "12634056",
+      "12004056",
+      "38325743",
+      "16214430",
+      "17610895",
+      "15655353",
+      "9408263",
+      "12631623",
+      "19653278",
+      "11923596",
+      "11296260",
+      "39211170",
+      "42104421",
+      "16816331",
+      "12812976",
+      "9048592",
+      "17889648",
+      "17658893",
+      "28583991",
+      "34118011",
+      "11753685",
+      "20167947",
+      "12943713",
+      "24225179",
+      "25348485",
+      "17884635",
+      "16303839",
+      "41108566",
+      "20589829",
+      "19573263",
+      "15046986",
+      "40263600",
+      "24687590",
+      "9731748",
+      "34619090",
+      "16963469",
+      "16115938",
+      "12741833",
+      "23197043",
+      "16204369",
+      "15846072",
+      "41363845",
+      "20048145",
+      "8559283",
+      "16556600",
+      "26405036",
+      "9038153",
+      "16926362",
+      "29367252",
+      "18056771",
+      "23946424",
+      "30905674"
+    ],
+    "review": [
+      "38168176",
+      "30258407",
+      "40717469",
+      "16394142",
+      "16214430",
+      "42104421",
+      "12943713",
+      "34619090"
+    ],
+    "pmc": [
+      "10760030"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38168176/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.12.10.570836",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors propose that the obligate parasitic oomycete Albugo candida releases antimicrobial proteins into the plant apoplast to selectively suppress Gram-positive phyllosphere bacteria, thereby shaping the leaf microbial community. They report identification of three candidate proteins with selective activity, link this activity to intrinsically disordered regions and net charge, and position these as potential biocontrol tools.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or data visualizations provided
+- **Missing materials affecting confidence** Full methods, proteomics dataset, machine learning pipeline details, bacterial isolation and growth assays, community network analysis outputs, and any supplementary figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a novel and potentially impactful hypothesis linking protist-derived antimicrobial proteins to microbiome modulation in the phyllosphere. However, the evidence as summarized is insufficient to fully evaluate the robustness of the claims. Key methodological details, quantitative results, and validation steps are absent, limiting the ability to assess technical soundness and the strength of the causal inferences.
+- **Who would be interested in the results, and why** Researchers in plant-microbe interactions, microbiome ecology, and molecular plant pathology would find these results relevant. The potential for biocontrol applications also extends to agricultural biotechnology audiences interested in targeted microbiome manipulation.
+- **Major strengths** The study addresses an underexplored mechanism, namely protein-based microbe-microbe interactions in the apoplast, and integrates field-derived community data with proteomics and functional assays. The focus on obligate parasites adds biological novelty, and the proposed link to intrinsically disordered regions offers a mechanistic hypothesis that is testable and generalizable.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that three candidate proteins show selective antimicrobial activity against Gram-positive bacteria isolated from Arabidopsis thaliana.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify the concentrations, purity, or assay conditions under which antimicrobial activity was tested. It is unclear whether the proteins were tested in apoplastic-like conditions, as implied by the title, or under standard laboratory media. Without these details, the physiological relevance of the observed activity cannot be assessed.  
+  - **Why it matters** Selective activity in vitro may not translate to in planta function, especially given the complex ionic and pH environment of the apoplast. The claim of apoplastic conditions is central to the study's significance, but the evidence for this is not visible.  
+  - **Resolution test** Provide a clear description of the assay buffer, protein concentrations, and controls, and demonstrate that activity is retained under conditions mimicking the apoplast (e.g., relevant pH, ion composition).  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical rigor  
+  - **Claim pointer** The authors state that network analysis revealed an abundance of negative correlations between Albugo and other phyllosphere microbes, and that inhibited bacteria are important for community stability.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No statistical metrics, effect sizes, or validation of the network analysis are provided. It is unclear how "abundance" of negative correlations was quantified, whether multiple testing corrections were applied, and how community stability was measured or inferred.  
+  - **Why it matters** The claim that specific bacteria are important for community stability is a strong inference that requires robust ecological analysis. Without these details, the link between in vitro inhibition and ecological impact remains speculative.  
+  - **Resolution test** Report the number of samples, correlation thresholds, and statistical tests used. Provide a clear definition of community stability and show that removal or reduction of the inhibited bacteria alters community structure in a controlled experiment.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The authors ascribe antibacterial activity to intrinsically disordered regions and positively correlate it with net charge.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe how intrinsically disordered regions were identified or mutated, nor how net charge was varied. The correlation is mentioned without any quantitative support, such as correlation coefficients or sample sizes.  
+  - **Why it matters** This mechanistic claim is a key novelty of the study, but without experimental evidence linking sequence features to function, it remains a hypothesis rather than a demonstrated mechanism.  
+  - **Resolution test** Provide data from mutagenesis experiments showing that disruption of disordered regions or changes in net charge alter antimicrobial activity in a predictable manner, with statistical analysis of the correlation.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Title  
+  - **Evidence pointer** Abstract title  
+  - **Issue** The title states "selectively repress phyllosphere-associated bacteria," but the abstract only demonstrates activity against Gram-positive isolates. The scope of selectivity is not fully defined.  
+  - **Required correction** Clarify in the title or abstract whether selectivity is limited to Gram-positive bacteria or extends to other phyllosphere taxa.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Machine learning predictors  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract mentions machine learning predictors for candidate selection but does not specify the training data, features, or validation approach.  
+  - **Required correction** Briefly describe the predictor type, training set, and how false positives were controlled.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "First report" claim  
+  - **Evidence pointer** Abstract final sentence  
+  - **Issue** The claim of being the "first report" of protist proteins with antimicrobial activity under apoplastic conditions is strong and may be difficult to verify.  
+  - **Required correction** Soften the claim or provide a clear literature search statement to support novelty.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of selective antimicrobial activity and ecological impact are not supported by the visible evidence. R1-M3 is important but not blocking if the primary functional claims are validated.
+- **Assessment against Nature-style criteria**  
+  - Originality: High. The concept of protist-secreted antimicrobial proteins shaping the phyllosphere microbiome is novel and not widely explored.  
+  - Scientific importance: Potentially high, as it offers a new mechanism for microbe-microbe interactions and a possible biocontrol strategy.  
+  - Interdisciplinary readership: Broad appeal across plant biology, microbiology, and ecology, but the abstract currently lacks sufficient detail to engage non-specialists in the mechanistic aspects.  
+  - Technical soundness: Not assessable from the abstract alone. The absence of methodological detail and quantitative results prevents evaluation of experimental rigor.  
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terms (e.g., "apoplast," "intrinsically disordered regions") without brief definitions, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The study is promising and novel, but the abstract does not provide enough detail to verify the central claims. I would be supportive if the technical concerns regarding assay conditions, statistical rigor, and mechanistic validation are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that antimicrobial activity occurs "under apoplastic conditions" is unsupported without assay buffer details.
+- The claim that inhibited bacteria are "precisely important for community stability" is unsupported without ecological validation.
+- The mechanistic link to intrinsically disordered regions and net charge is unsupported without mutagenesis or correlation data.
+- The "first report" claim is unverifiable from the abstract alone.

@@ -1,0 +1,359 @@
+{
+  "identity": {
+    "pmid": "40781776",
+    "doi": "10.1016/j.bpj.2025.08.001",
+    "title": "Multi-scale simulations of MUT-16 scaffold protein phase separation and client recognition."
+  },
+  "content": {
+    "abstract": "Phase separation of proteins plays a critical role in cellular organization. How phase-separated protein condensates underpin biological function and how condensates achieve specificity remain elusive. We investigated the phase separation of MUT-16, a scaffold protein in Mutator foci, and its role in recruiting the client protein MUT-8, a key component in RNA silencing in Caenorhabditis elegans. We employed a multi-scale approach that combined coarse-grained (residue-level CALVADOS2 and near-atomistic Martini3) and atomistic simulations. Simulations across different resolutions provide a consistent perspective on how MUT-16 condensates recruit MUT-8, enabling the fine-tuning of chemical details and balancing the computational cost. Both coarse-grained models (CALVADOS2 and Martini3) predicted the relative phase-separation propensities of MUT-16's disordered regions, which we confirmed through in vitro experiments. Simulations also identified key sequence features and residues driving phase separation and revealed differences in residue interaction propensities between CALVADOS2 and Martini3. Furthermore, Martini3 and 350-mus atomistic simulations on Folding@Home of MUT-8's N-terminal prion-like domain with MUT-16 M8BR cluster highlighted the importance of cation-pi interactions between Tyr residues of MUT-8 and Arg residues of MUT-16 M8BR. Lys residues were observed to be more prone to interact in Martini3. Atomistic simulations revealed that the guanidinium group of Arg also engages in sp(2)-pi interactions and hydrogen bonds with the backbone of Tyr, possibly contributing to the greater strength of Arg-Tyr interactions compared to Lys-Tyr, where these additional favorable contacts are absent. In agreement with our simulations, in vitro co-expression pull-down experiments demonstrated a progressive loss of MUT-8 recruitment after the mutation of Arg in MUT-16 M8BR to Lys or Ala, confirming the critical role of Arg in this interaction. These findings advance our understanding of MUT-16 phase separation and subsequent MUT-8 recruitment, key processes in assembling Mutator foci that drive RNA silencing in C. elegans.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Caenorhabditis elegans Proteins/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Caenorhabditis elegans/metabolism",
+      "Animals",
+      "Protein Binding",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gaurav, Kumar",
+        "Busetto, Virginia",
+        "Paez-Moscoso, Diego Javier",
+        "Changiarath, Arya",
+        "Hanson, Sonya M",
+        "Falk, Sebastian",
+        "Ketting, Rene F",
+        "Stelzl, Lukas S"
+      ],
+      "short_names": [
+        "Gaurav K",
+        "Busetto V",
+        "Paez-Moscoso DJ",
+        "Changiarath A",
+        "Hanson SM",
+        "Falk S",
+        "Ketting RF",
+        "Stelzl LS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Mainz, Germany; Institute of Molecular Biology (IMB), Mainz, Germany; KOMET1, Institute of Physics, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Max Perutz Lab, Vienna Biocenter Campus (VBC), Vienna, Austria; University of Vienna, Center for Molecular Biology, Department of Structural and Computational Biology, Vienna, Austria.",
+        "Institute of Molecular Biology (IMB), Mainz, Germany.",
+        "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Mainz, Germany; KOMET1, Institute of Physics, Johannes Gutenberg University Mainz, Mainz, Germany.",
+        "Flatiron Institute, Center for Computational Biology & Center for Computational Mathematics, New York City, USA.",
+        "Max Perutz Lab, Vienna Biocenter Campus (VBC), Vienna, Austria; University of Vienna, Center for Molecular Biology, Department of Structural and Computational Biology, Vienna, Austria.",
+        "Institute of Molecular Biology (IMB), Mainz, Germany.",
+        "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Mainz, Germany; Institute of Molecular Biology (IMB), Mainz, Germany; KOMET1, Institute of Physics, Johannes Gutenberg University Mainz, Mainz, Germany. Electronic address: lstelzl@uni-mainz.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gaurav, Kumar",
+        "short_name": "Gaurav K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Mainz, Germany; Institute of Molecular Biology (IMB), Mainz, Germany; KOMET1, Institute of Physics, Johannes Gutenberg University Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Busetto, Virginia",
+        "short_name": "Busetto V",
+        "identifiers": [],
+        "affiliations": [
+          "Max Perutz Lab, Vienna Biocenter Campus (VBC), Vienna, Austria; University of Vienna, Center for Molecular Biology, Department of Structural and Computational Biology, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Páez-Moscoso, Diego Javier",
+        "short_name": "Páez-Moscoso DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB), Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Changiarath, Arya",
+        "short_name": "Changiarath A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Mainz, Germany; KOMET1, Institute of Physics, Johannes Gutenberg University Mainz, Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Hanson, Sonya M",
+        "short_name": "Hanson SM",
+        "identifiers": [],
+        "affiliations": [
+          "Flatiron Institute, Center for Computational Biology & Center for Computational Mathematics, New York City, USA."
+        ]
+      },
+      {
+        "full_name": "Falk, Sebastian",
+        "short_name": "Falk S",
+        "identifiers": [],
+        "affiliations": [
+          "Max Perutz Lab, Vienna Biocenter Campus (VBC), Vienna, Austria; University of Vienna, Center for Molecular Biology, Department of Structural and Computational Biology, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Ketting, René F",
+        "short_name": "Ketting RF",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Biology (IMB), Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Stelzl, Lukas S",
+        "short_name": "Stelzl LS",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Physiology, Johannes Gutenberg University Mainz, Mainz, Germany; Institute of Molecular Biology (IMB), Mainz, Germany; KOMET1, Institute of Physics, Johannes Gutenberg University Mainz, Mainz, Germany. Electronic address: lstelzl@uni-mainz.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2025 Nov 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/09 13:45",
+    "fetched_at": "2026-09-21 22:09:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41342450",
+      "41263305",
+      "40403066",
+      "40188296",
+      "40131954",
+      "39804953",
+      "39412378",
+      "39188014",
+      "38553587",
+      "38416758",
+      "38297184",
+      "38297118",
+      "37853696",
+      "37749095",
+      "37735186",
+      "37645312",
+      "37468629",
+      "37043540",
+      "35795820",
+      "35377637",
+      "35112738",
+      "34716273",
+      "34265844",
+      "34221333",
+      "33877835",
+      "33782607",
+      "33307683",
+      "33302617",
+      "33139563",
+      "32936641",
+      "32339173",
+      "32312191",
+      "32029630",
+      "31270472",
+      "30045872",
+      "30036386",
+      "29961577",
+      "29677515",
+      "29517898",
+      "29424691",
+      "29364893",
+      "28225081",
+      "26580045",
+      "26574417",
+      "25764013",
+      "25288112",
+      "25093565",
+      "24825614",
+      "24684932",
+      "22713602",
+      "22455930",
+      "22398450",
+      "21500218",
+      "21316584",
+      "20408171",
+      "19875490",
+      "19514729",
+      "18576630",
+      "18073770",
+      "17742054",
+      "17658285",
+      "17603500",
+      "17212484",
+      "17158288",
+      "17124291",
+      "16981200",
+      "16834293",
+      "10535732",
+      "10449714"
+    ],
+    "similar": [
+      "40781776",
+      "30036386",
+      "32393642",
+      "38416758",
+      "41433062",
+      "22713602",
+      "24684932",
+      "39319382",
+      "40128232",
+      "40305655",
+      "15653635",
+      "33982350",
+      "40009520",
+      "39804953",
+      "23912807",
+      "39188014",
+      "41236798",
+      "32338603",
+      "40977118",
+      "21245313",
+      "38112495",
+      "40058249",
+      "40373290",
+      "39161220",
+      "39412378",
+      "34106046",
+      "33302617",
+      "35126984",
+      "39342654",
+      "39937084",
+      "32843637",
+      "40131954",
+      "39605385",
+      "40354522",
+      "40748104",
+      "30096346",
+      "38160320",
+      "11809977",
+      "39908323",
+      "37486948",
+      "35795820",
+      "18245353",
+      "20947510",
+      "32763952",
+      "32936641",
+      "38291973",
+      "38009921",
+      "33139563",
+      "24024591",
+      "41187075",
+      "40172489",
+      "35727989",
+      "36993212",
+      "40662195",
+      "40848932",
+      "40782375",
+      "38348795",
+      "37961424",
+      "30837637",
+      "39421885",
+      "22363657",
+      "39983547",
+      "30924287",
+      "40792356",
+      "39531035",
+      "33231880",
+      "34507991",
+      "39225535",
+      "11427046",
+      "40557590",
+      "33441107",
+      "29186229",
+      "41022629",
+      "34516789",
+      "40281357",
+      "23159558",
+      "40671581",
+      "37756159",
+      "20506496",
+      "39495179",
+      "36066390",
+      "40037706",
+      "30291272",
+      "24218065",
+      "10749214",
+      "34074792",
+      "30926670",
+      "39248370",
+      "39554101",
+      "37470705",
+      "41169547",
+      "33629837",
+      "40769718",
+      "39630867",
+      "37815389",
+      "20166738",
+      "33208945",
+      "38979955",
+      "39432826",
+      "35202628"
+    ],
+    "review": [
+      "40781776",
+      "40058249",
+      "30096346",
+      "40172489",
+      "38348795",
+      "30924287"
+    ],
+    "pmc": [
+      "12709416"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(25)00494-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40781776/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

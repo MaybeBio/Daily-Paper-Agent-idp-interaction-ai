@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.01.26.525635",
+  "title": "Mechanistic basis of staphylococcal interspecies competition for skin colonization",
+  "authors": "Maciag JJ; Chantraine C; Mills KB; Yadav R; Yarawsky AE; Chaton CT; Vinod D; Fitzkee NC; Mathelié-Guinlet M; Dufrêne YF; Fey PD; Horswill AR; Herr AB",
+  "journal": "bioRxiv",
+  "published_date": "2023-01-27",
+  "window": {
+    "start": "2023-01-23",
+    "end": "2023-01-29"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过结构解析和单细胞力谱研究葡萄球菌凝集素结构域与皮肤角质细胞的糖基结合机制，涉及细菌-宿主细胞粘附而非无序蛋白介导的PPI，且无AI/物理模拟方法，与本课题关联度低。",
+  "abstract": "Staphylococci, whether beneficial commensals or pathogens, often colonize human skin, potentially leading to competition for the same niche. In this multidisciplinary study we investigate the structure, binding specificity, and mechanism of adhesion of the Aap lectin domain required for Staphylococcus epidermidis skin colonization and compare its characteristics to the lectin domain from the orthologous Staphylococcus aureus adhesin SasG. The Aap structure reveals a legume lectin-like fold with atypical architecture, showing specificity for N-acetyllactosamine and sialyllactosamine. Bacterial adhesion assays using human corneocytes confirmed the biological relevance of these Aap-glycan interactions. Single-cell force spectroscopy experiments measured individual binding events between Aap and corneocytes, revealing an extraordinarily tight adhesion force of nearly 900 nN and a high density of receptors at the corneocyte surface. The SasG lectin domain shares similar structural features, glycan specificity, and corneocyte adhesion behavior. We observe cross-inhibition of Aap- and SasG-mediated staphylococcal adhesion to corneocytes. Together, these data provide insights into staphylococcal interspecies competition for skin colonization and suggest potential avenues for inhibition of S. aureus colonization.",
+  "abstract_zh": "葡萄球菌，无论是有益共生菌还是病原体，常定植于人类皮肤，可能导致对同一生态位的竞争。在这项多学科研究中，我们探究了表皮葡萄球菌皮肤定植所需的Aap凝集素结构域的结构、结合特异性及黏附机制，并将其特征与直系同源的金黄色葡萄球菌黏附素SasG的凝集素结构域进行比较。Aap结构揭示了一种具有非典型架构的豆科凝集素样折叠，显示出对N-乙酰乳糖胺和唾液酸乳糖胺的特异性。使用人类角质细胞的细菌黏附实验证实了这些Aap-聚糖相互作用的生物学相关性。单细胞力谱实验测量了Aap与角质细胞之间的单个结合事件，揭示了近900 nN的异常紧密黏附力以及角质细胞表面高密度的受体。SasG凝集素结构域共享相似的结构特征、聚糖特异性及角质细胞黏附行为。我们观察到Aap和SasG介导的葡萄球菌对角质细胞黏附的交叉抑制。综合这些数据，为葡萄球菌种间竞争皮肤定植提供了见解，并提示了抑制金黄色葡萄球菌定植的潜在途径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.01.26.525635",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.01.26.525635",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.01.26.525635/index.html"
+}

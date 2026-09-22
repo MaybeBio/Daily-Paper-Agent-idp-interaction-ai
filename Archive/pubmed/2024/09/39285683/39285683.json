@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "39285683",
+    "doi": "10.1080/19491034.2024.2404677",
+    "title": "Nuclear bodies: concentrating at an aqueous site."
+  },
+  "content": {
+    "abstract": "The second FASEB conference on Nuclear Bodies: Hubs of Genome Activity was held June 2-7, 2024, at Niagara Falls, NY. The central theme was how these protein and RNA-protein complexes that are situated in the nucleus outside the genome support and regulate gene expression. Topics included their relevance to disease, especially cancer, their molecular dynamics, and their phase separation transition properties. The meeting included numerous trainees as speakers and session chairs, hosted a memorable Keynote talk on diversity, and a vibrant career development session.",
+    "keywords": [
+      "Nucleoplasm",
+      "RNA",
+      "functional architecture",
+      "gene expression",
+      "nucleolus",
+      "phase separation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Cell Nucleus/metabolism",
+      "Congresses as Topic"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Ling-Ling",
+        "Larschan, Erica",
+        "Matera, A Gregory",
+        "Strom, Amy",
+        "Pederson, Thoru"
+      ],
+      "short_names": [
+        "Chen LL",
+        "Larschan E",
+        "Matera AG",
+        "Strom A",
+        "Pederson T"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9501-0305",
+        "ORCID: 0000-0003-2484-4921",
+        "ORCID: 0000-0002-6406-0630",
+        "ORCID: 0000-0002-1674-3242",
+        "ORCID: 0000-0002-3703-7806"
+      ],
+      "affiliations": [
+        "Shanghai Institute of Biochemistry and Cell Biology, Chinese Academy of Sciences, Shanghai, China.",
+        "Department of Molecular Biology, Cellular Biology and Biochemistry, Brown University, Providence, RI, USA.",
+        "Integrated Program for Biological and Genomic Sciences, University of North Carolina, Chapel Hill, NC, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA.",
+        "Department of Biochemistry and Molecular Biotechnology, University of Massachusetts Chan Medical School, Worcester, MA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Ling-Ling",
+        "short_name": "Chen LL",
+        "identifiers": [
+          "0000-0001-9501-0305"
+        ],
+        "affiliations": [
+          "Shanghai Institute of Biochemistry and Cell Biology, Chinese Academy of Sciences, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Larschan, Erica",
+        "short_name": "Larschan E",
+        "identifiers": [
+          "0000-0003-2484-4921"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cellular Biology and Biochemistry, Brown University, Providence, RI, USA."
+        ]
+      },
+      {
+        "full_name": "Matera, A Gregory",
+        "short_name": "Matera AG",
+        "identifiers": [
+          "0000-0002-6406-0630"
+        ],
+        "affiliations": [
+          "Integrated Program for Biological and Genomic Sciences, University of North Carolina, Chapel Hill, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Strom, Amy",
+        "short_name": "Strom A",
+        "identifiers": [
+          "0000-0002-1674-3242"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Pederson, Thoru",
+        "short_name": "Pederson T",
+        "identifiers": [
+          "0000-0002-3703-7806"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biotechnology, University of Massachusetts Chan Medical School, Worcester, MA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleus (Austin, Tex.)"
+    ],
+    "journal_abbrev": [
+      "Nucleus"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/17 10:47",
+    "fetched_at": "2026-09-21 10:27:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38616309",
+      "36287614"
+    ],
+    "similar": [
+      "39285683",
+      "23912807",
+      "38490161",
+      "26351690",
+      "29061226",
+      "28343140",
+      "40075556",
+      "39864103",
+      "22541757",
+      "27862595",
+      "31176528",
+      "38896550",
+      "30362243",
+      "34902730",
+      "24704702",
+      "32259767",
+      "30238154",
+      "23130830",
+      "24859326",
+      "37267110",
+      "15509651",
+      "30742773",
+      "33113512",
+      "17467254",
+      "29887377",
+      "36128559",
+      "25445280",
+      "17158916",
+      "34190038",
+      "20144273",
+      "36943889",
+      "30315752",
+      "15240004",
+      "9679133",
+      "21680045",
+      "31547940",
+      "37993310",
+      "30852032",
+      "18056419",
+      "36725757",
+      "11732187",
+      "34245118",
+      "30017905",
+      "37180411",
+      "11368755",
+      "38631337",
+      "32667757",
+      "11573202",
+      "19895852",
+      "27604033",
+      "21095207",
+      "30666771",
+      "18046571",
+      "37643479",
+      "40207236",
+      "37105967",
+      "27715428",
+      "22276043",
+      "29473743",
+      "26712748",
+      "21787053",
+      "39162498",
+      "7662361",
+      "36287614",
+      "31769409",
+      "19912651",
+      "29872028",
+      "18315527",
+      "34358306",
+      "9352223",
+      "32556244",
+      "26730816",
+      "31934779",
+      "32048721",
+      "26507246",
+      "33675177",
+      "23539836",
+      "17071021",
+      "39738032",
+      "20840166",
+      "32976797",
+      "31295945",
+      "31605219",
+      "15346807",
+      "12288418",
+      "36696177",
+      "27221954",
+      "30859641",
+      "32586227",
+      "38727722",
+      "28577509",
+      "8913879",
+      "18274551",
+      "18247363",
+      "30889416",
+      "17460187",
+      "37933127",
+      "32699085",
+      "34219179",
+      "9743589"
+    ],
+    "review": [
+      "39285683",
+      "38490161",
+      "28343140",
+      "22541757",
+      "27862595",
+      "31176528",
+      "30362243",
+      "24704702",
+      "32259767",
+      "30238154",
+      "30742773",
+      "17467254",
+      "15240004",
+      "21680045",
+      "37993310",
+      "30852032",
+      "18056419",
+      "36725757",
+      "34245118",
+      "30017905",
+      "37180411",
+      "11368755",
+      "27604033",
+      "18046571",
+      "37643479",
+      "27715428",
+      "29473743",
+      "7662361",
+      "29872028",
+      "34358306",
+      "32556244",
+      "26507246",
+      "20840166",
+      "32976797",
+      "15346807",
+      "32586227",
+      "28577509",
+      "30889416",
+      "17460187"
+    ],
+    "pmc": [
+      "11409496"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/19491034.2024.2404677?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39285683/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

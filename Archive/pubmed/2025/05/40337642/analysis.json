@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40337642",
+  "title": "Successful prediction of LC8 binding to intrinsically disordered proteins sheds light on AlphaFold's black box.",
+  "authors": "Walker, Douglas R; Fujimura, Gretchen; Vanegas, Juan M; Barbar, Elisar J",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2025-05-08",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用AlphaFold预测LC8与无序蛋白的结合位点，并剖析其内置评分与结合亲和力的关联，为无序蛋白PPI机制建模提供了可迁移的AI方法学洞见。",
+  "abstract": "INTRODUCTION: LC8 is a hub protein involved in many processes from tumor suppression and cell cycle regulation to neurotransmission and viral infection. Despite recent progress, prediction of binding sites for LC8 is plagued by motif variability and a multitude of weakly binding motifs, especially when binding depends on multivalency. Our binding site prediction algorithm, LC8Pred has proven useful for uncovering new LC8 binders, but is insufficient for finding all LC8 binding sites. METHODS: To address this, we probed the ability of a general structure predictor, AlphaFold, to predict whether a given sequence binds to LC8. Certain combinations of in-built AlphaFold scores were extracted and distributions of scores of binders were compared to scores of nonbinders. RESULTS: AlphaFold successfully places proteins at the correct interface of LC8. A set of threshold values of built-in AlphaFold scores enables differentiation between known binders and nonbinders with minimal false positive (8%) and acceptable false negative rates (20%). This cutoff, along with a more inclusive cutoff, was used to predict elusive LC8 binding sites in proteins known to bind LC8. DISCUSSION: Correlations between binding affinities and AlphaFold scores provide insight into the black box and indicate that AlphaFold learned an inaccurate energy function that nevertheless is useful for making inferences and conclusions about physical systems. Binding sites predicted by this method can be prioritized for investigation by comparing to result by LC8Pred, local structure, and evolutionary conservation.",
+  "abstract_zh": "引言：LC8是一种枢纽蛋白，参与从肿瘤抑制、细胞周期调控到神经传递和病毒感染等多种过程。尽管近期有所进展，但LC8结合位点的预测仍受制于基序变异性和大量弱结合基序，尤其是在结合依赖于多价性的情况下。我们的结合位点预测算法LC8Pred已被证明对发现新的LC8结合蛋白有用，但不足以找到所有LC8结合位点。方法：为解决此问题，我们探究了通用结构预测器AlphaFold预测给定序列是否与LC8结合的能力。提取了AlphaFold内置评分的特定组合，并将结合蛋白的评分分布与非结合蛋白的评分进行比较。结果：AlphaFold成功将蛋白质定位到LC8的正确界面上。一组AlphaFold内置评分的阈值能够以最小假阳性率（8%）和可接受的假阴性率（20%）区分已知结合蛋白与非结合蛋白。此截断值以及一个更具包容性的截断值被用于预测已知与LC8结合的蛋白质中难以捉摸的LC8结合位点。讨论：结合亲和力与AlphaFold评分之间的相关性为黑箱提供了洞见，表明AlphaFold学习了一种不精确的能量函数，但该函数仍可用于对物理系统进行推断和得出结论。通过此方法预测的结合位点，可通过与LC8Pred结果、局部结构和进化保守性进行比较来确定研究优先级。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40337642/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40337642/",
+  "paper_page_path": "papers/pubmed/40337642/index.html"
+}

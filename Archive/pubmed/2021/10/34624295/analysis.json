@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34624295",
+  "title": "Distinctive Network Topology of Phase-Separated Proteins in Human Interactome.",
+  "authors": "Yu, Chunyu; Lang, Yunzhi; Hou, Chao; Yang, Ence; Ren, Xianwen; Li, Tingting",
+  "journal": "Journal of molecular biology",
+  "published_date": "2021-10-09",
+  "window": {
+    "start": "2021-10-04",
+    "end": "2021-10-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究构建人类PPI网络并分析相分离蛋白的网络拓扑特征，为LLPS预测提供网络方法，虽未深入机制建模，但对象与互作轴契合，方法上以网络分析为主、AI/物理模拟较弱。",
+  "abstract": "Liquid-liquid phase separation (LLPS) is an important mechanism that mediates the formation of biomolecular condensates. Despite the immense interest in LLPS, phase-separated proteins verified by experiments are still limited, and identification of phase-separated proteins at proteome-scale is a challenging task. Multivalent interaction among macromolecules is the driving force of LLPS, which suggests that phase-separated proteins may harbor distinct biological characteristics in protein-protein interactions (PPIs). In this study, we constructed an integrated human PPI network (HPIN) and mapped phase-separated proteins into it. Analysis of the network parameters revealed differences of network topology between phase-separated proteins and others. The results further suggested the efficiency when applying topological similarities in distinguishing components of MLOs. Furthermore, we found that affinity purification mass spectrometry (AP-MS) detects PPIs more effectively than yeast-two hybrid system (Y2H) in phase separation-driven condensates. Our work provides the first global view of the distinct network topology of phase-separated proteins in human interactome, suggesting incorporation of PPI network for LLPS prediction in further studies.",
+  "abstract_zh": "液-液相分离（LLPS）是介导生物分子凝聚体形成的重要机制。尽管对LLPS兴趣浓厚，但经实验验证的相分离蛋白仍然有限，且在蛋白质组规模上识别相分离蛋白是一项挑战性任务。大分子间的多价相互作用是LLPS的驱动力，这表明相分离蛋白可能在蛋白质-蛋白质相互作用（PPIs）中具有独特的生物学特征。在本研究中，我们构建了一个整合的人类蛋白质相互作用网络（HPIN），并将相分离蛋白映射其中。网络参数分析揭示了相分离蛋白与其他蛋白在网络拓扑结构上的差异。结果进一步表明，在区分膜无细胞器（MLOs）组分时，应用拓扑相似性具有效率。此外，我们发现，在相分离驱动的凝聚体中，亲和纯化质谱（AP-MS）比酵母双杂交系统（Y2H）更有效地检测PPIs。我们的工作首次提供了人类相互作用组中相分离蛋白独特网络拓扑结构的全局视图，提示在进一步研究中应将PPI网络纳入LLPS预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34624295/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34624295/",
+  "paper_page_path": "papers/pubmed/34624295/index.html"
+}

@@ -1,0 +1,178 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.02.708992",
+  "title": "Myristoylation licenses disordered viral VP4 protein to anchor to and perforate the membrane through phase separation",
+  "doi": "10.64898/2026.03.02.708992",
+  "abstract": "The VP4 protein of enteroviruses, such as Coxsackievirus B3, is a small, intrinsically disordered protein essential for perforating the host cell membrane during viral entry. A key feature of VP4 is its N-terminal myristoylation, which is required for infectivity in some enteroviruses but dispensable in others, suggesting a complex and context-dependent role that is not fully understood. The precise biophysical mechanisms by which this lipid anchor enables a disordered protein to breach a membrane remain unresolved. Here, using Coxsackievirus B3 VP4 as a model system and integrating multi-scale molecular dynamics simulations with confocal microscopy, we demonstrate that myristoylation is not a simple membrane tether but a multi-functional regulator that orchestrates VP4 activity through distinct, hierarchical roles. First, it provides the necessary hydrophobic anchor to recruit the disordered VP4 to the membrane interface. Second, the myristoyl group acts as a key molecular driver that promotes the liquid-liquid phase separation of VP4, leading to the formation of dynamic condensates on the membrane surface. These condensates actively remodel the membrane, generating substantial curvature that, in turn, lowers the free energy barrier for VP4 penetration. Furthermore, we find evidence that the myristoyl group plays a third role in stabilizing the final transmembrane pore. Our findings establish a novel paradigm where a single lipid modification empowers a disordered viral protein to form a functionally potent condensate that mechanically primes and physically breaches the target membrane, a mechanism that may explain the conditional myristoylation requirement across enteroviruses.",
+  "authors": [
+    "Huang S",
+    "Deng F",
+    "Liu T",
+    "Li W",
+    "Wang P",
+    "Song J",
+    "Huang J",
+    "Zhang S",
+    "Liu J",
+    "Wang Y",
+    "Zhang M",
+    "Sun B"
+  ],
+  "published_date": "2026-03-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.02.708992",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.02.708992.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1221341",
+    "raw_record": {
+      "id": "PPR1221341",
+      "source": "PPR",
+      "doi": "10.64898/2026.03.02.708992",
+      "title": "Myristoylation licenses disordered viral VP4 protein to anchor to and perforate the membrane through phase separation",
+      "authorString": "Huang S, Deng F, Liu T, Li W, Wang P, Song J, Huang J, Zhang S, Liu J, Wang Y, Zhang M, Sun B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Huang S",
+            "lastName": "Huang",
+            "firstName": "Sichao",
+            "initials": "S"
+          },
+          {
+            "fullName": "Deng F",
+            "lastName": "Deng",
+            "firstName": "Fengzhen",
+            "initials": "F"
+          },
+          {
+            "fullName": "Liu T",
+            "lastName": "Liu",
+            "firstName": "Te",
+            "initials": "T"
+          },
+          {
+            "fullName": "Li W",
+            "lastName": "Li",
+            "firstName": "Wenjian",
+            "initials": "W"
+          },
+          {
+            "fullName": "Wang P",
+            "lastName": "Wang",
+            "firstName": "Peiying",
+            "initials": "P"
+          },
+          {
+            "fullName": "Song J",
+            "lastName": "Song",
+            "firstName": "Jiahuan",
+            "initials": "J"
+          },
+          {
+            "fullName": "Huang J",
+            "lastName": "Huang",
+            "firstName": "Jingjing",
+            "initials": "J"
+          },
+          {
+            "fullName": "Zhang S",
+            "lastName": "Zhang",
+            "firstName": "Shiyu",
+            "initials": "S"
+          },
+          {
+            "fullName": "Liu J",
+            "lastName": "Liu",
+            "firstName": "Jiaxin",
+            "initials": "J"
+          },
+          {
+            "fullName": "Wang Y",
+            "lastName": "Wang",
+            "firstName": "Yan",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Zhang M",
+            "lastName": "Zhang",
+            "firstName": "Manjie",
+            "initials": "M"
+          },
+          {
+            "fullName": "Sun B",
+            "lastName": "Sun",
+            "firstName": "Bin",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2583-4493"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2583-4493"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "The VP4 protein of enteroviruses, such as Coxsackievirus B3, is a small, intrinsically disordered protein essential for perforating the host cell membrane during viral entry. A key feature of VP4 is its N-terminal myristoylation, which is required for infectivity in some enteroviruses but dispensable in others, suggesting a complex and context-dependent role that is not fully understood. The precise biophysical mechanisms by which this lipid anchor enables a disordered protein to breach a membrane remain unresolved. Here, using Coxsackievirus B3 VP4 as a model system and integrating multi-scale molecular dynamics simulations with confocal microscopy, we demonstrate that myristoylation is not a simple membrane tether but a multi-functional regulator that orchestrates VP4 activity through distinct, hierarchical roles. First, it provides the necessary hydrophobic anchor to recruit the disordered VP4 to the membrane interface. Second, the myristoyl group acts as a key molecular driver that promotes the liquid-liquid phase separation of VP4, leading to the formation of dynamic condensates on the membrane surface. These condensates actively remodel the membrane, generating substantial curvature that, in turn, lowers the free energy barrier for VP4 penetration. Furthermore, we find evidence that the myristoyl group plays a third role in stabilizing the final transmembrane pore. Our findings establish a novel paradigm where a single lipid modification empowers a disordered viral protein to form a functionally potent condensate that mechanically primes and physically breaches the target membrane, a mechanism that may explain the conditional myristoylation requirement across enteroviruses.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.02.708992"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-03-04",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

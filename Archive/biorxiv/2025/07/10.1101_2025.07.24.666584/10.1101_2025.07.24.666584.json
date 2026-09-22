@@ -1,0 +1,459 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.24.666584",
+  "title": "Zika virus capsid protein C (ZIKV-C) interactors network mapped by proteomic analysis of human neural stem cells expressing FLAG-tagged C protein",
+  "doi": "10.1101/2025.07.24.666584",
+  "abstract": "Zika virus is a teratogenic pathogen belonging to the Flaviviridae family. It possesses the ability to penetrate the placenta and affect the brain development of a fetus, resulting in microcephaly and functional impairments. Mechanisms of this neurotoxicity are still unclear, but capsid proteins of Zika and related viruses are known to exert apoptotic effect in different types of cells, including neurons. To explore the pathways affected by the presence of ZIKV-C, we have performed MS-based interactomic experiment in human neural stem cells and managed to identify 149 putative interactors. Our results indicate that the nucleus (especially the nucleolus) and the mitochondria are the main sites of interaction of protein C with host proteins. A number of the proteins we identified have significant links to diseases of the nervous system, including neurodevelopmental diseases. Furthermore, for the first time, we have identified MAM-domain containing glycosylphosphatidylinositol anchor protein 1, T-complex protein 1 subunit beta, lysine-tRNA ligase, calumenin as particularly abundant ZIKV protein C interactors. Data are available via ProteomeXchange with identifier PXD064412.",
+  "authors": [
+    "Agata Malinowska",
+    "Magdalena Bakun",
+    "Agnieszka Brzozowska",
+    "Ewa Liszewska",
+    "Malgorzata Podsiadla-Bialoskorska",
+    "Bianka Swiderska",
+    "Ewa Sitkiewicz",
+    "Ewa Szolajska",
+    "Michal Hetman",
+    "Michal Dadlez",
+    "Jacek Jaworski"
+  ],
+  "published_date": "2025-07-26",
+  "updated_date": "2025-07-27T06:25:11Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.24.666584",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.24.666584.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T00:23:29Z",
+        "timestamp": 1768523009775,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            26
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 21,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                26
+              ]
+            ],
+            "date-time": "2025-07-26T00:00:00Z",
+            "timestamp": 1753488000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100004281",
+          "name": "Polish National Science Centre",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "2018/29/B/NZ2/01752"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2018/29/B/NZ2/01752"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100004281",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            26
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Zika virus is a teratogenic pathogen belonging to the\n                  <jats:italic>Flaviviridae</jats:italic>\n                  family. It possesses the ability to penetrate the placenta and affect the brain development of a fetus, resulting in microcephaly and functional impairments. Mechanisms of this neurotoxicity are still unclear, but capsid proteins of Zika and related viruses are known to exert apoptotic effect in different types of cells, including neurons. To explore the pathways affected by the presence of ZIKV-C, we have performed MS-based interactomic experiment in human neural stem cells and managed to identify 149 putative interactors. Our results indicate that the nucleus (especially the nucleolus) and the mitochondria are the main sites of interaction of protein C with host proteins. A number of the proteins we identified have significant links to diseases of the nervous system, including neurodevelopmental diseases. Furthermore, for the first time, we have identified MAM-domain containing glycosylphosphatidylinositol anchor protein 1, T-complex protein 1 subunit beta, lysine-tRNA ligase, calumenin as particularly abundant ZIKV protein C interactors. Data are available via ProteomeXchange with identifier PXD064412.\n                </jats:p>",
+      "DOI": "10.1101/2025.07.24.666584",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            27
+          ]
+        ],
+        "date-time": "2025-07-27T06:25:11Z",
+        "timestamp": 1753597511000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Zika virus capsid protein C (ZIKV-C) interactors network mapped by proteomic analysis of human neural stem cells expressing FLAG-tagged C protein"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6599-901X",
+          "authenticated-orcid": false,
+          "given": "Agata",
+          "family": "Malinowska",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8542-2234",
+          "authenticated-orcid": false,
+          "given": "Magdalena",
+          "family": "Bakun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Agnieszka",
+          "family": "Brzozowska",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ewa",
+          "family": "Liszewska",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Malgorzata",
+          "family": "Podsiadla-Bialoskorska",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Bianka",
+          "family": "Swiderska",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ewa",
+          "family": "Sitkiewicz",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ewa",
+          "family": "Szolajska",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Michal",
+          "family": "Hetman",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8811-5176",
+          "authenticated-orcid": false,
+          "given": "Michal",
+          "family": "Dadlez",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8760-7865",
+          "authenticated-orcid": false,
+          "given": "Jacek",
+          "family": "Jaworski",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "102225",
+          "DOI": "10.1016/j.scr.2021.102225",
+          "article-title": "Establishment of two hiPSC lines (IIMCBi001-A and IIMCBi002-A) from dermal fibroblasts of healthy donors and characterization of their cell cycle",
+          "volume": "52",
+          "year": "2021",
+          "journal-title": "Stem Cell Res"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.15252/msb.20145625"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2016.136"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3901"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09234-6"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.stem.2020.07.012"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2018.11.028"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0484-5"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/mcp.TIR118.000800"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fmicb.2022.847588"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2015.12.066"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.12",
+          "first-page": "e01373",
+          "article-title": "Zika Virus Infection Downregulates Connexin 43, Disrupts the Cardiomyocyte Gap Junctions and Induces Heart Diseases in A129 Mice",
+          "volume": "96",
+          "year": "2022",
+          "journal-title": "J. Virol"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1200",
+          "DOI": "10.3390/pathogens11101200",
+          "article-title": "Tight Junctions, the Key Factor in Virus-Related Disease",
+          "volume": "11",
+          "year": "2022",
+          "journal-title": "Pathogens"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "967730",
+          "DOI": "10.3389/fgene.2022.967730",
+          "article-title": "Multi-omics analysis revealed the role of CCT2 in the induction of autophagy in Alzheimer’s disease",
+          "volume": "13",
+          "year": "2023",
+          "journal-title": "Front. Genet"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/v12050519"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature09327"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep43708"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/hmg/ddz281"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.07.01.601630"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1177/0883073814553272"
+        },
+        {
+          "key": "2025072908250566000_2025.07.24.666584v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae1011"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.07.24.666584",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T09:12:38Z",
+        "timestamp": 1768468358000
+      },
+      "score": 50.35074,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.07.24.666584"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            26
+          ]
+        ]
+      },
+      "references-count": 21,
+      "URL": "https://doi.org/10.1101/2025.07.24.666584",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            7,
+            26
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "36820489",
+    "doi": "10.1021/acs.jctc.2c00776",
+    "title": "Heterogeneous and Allosteric Role of Surface Hydration for Protein-Ligand Binding."
+  },
+  "content": {
+    "abstract": "Atomistic-level understanding of surface hydration mediating protein-protein interactions and ligand binding has been a challenge due to the dynamic nature of water molecules near the surface. We develop a computational method to evaluate the solvation free energy based on the density map of the first hydration shell constructed from all-atom molecular dynamics simulation and use it to examine the binding of two intrinsically disordered ligands to their target protein domain. One ligand is from the human protein, and the other is from the 1918 Spanish flu virus. We find that the viral ligand incurs a 6.9 kcal/mol lower desolvation penalty upon binding to the target, which is consistent with its stronger binding affinity. The difference arises from the spatially fragmented and nonuniform water density profiles of the first hydration shell. In particular, residues that are distal from the ligand-binding site contribute to a varying extent to the desolvation penalty, among which the \"entropy hotspot\" residues contribute significantly. Thus, ligand binding alters hydration on remote sites in addition to affecting the binding interface. The nonlocal effect disappears when the conformational motion of the protein is suppressed. The present results elucidate the interplay between protein conformational dynamics and surface hydration. Our approach of measuring the solvation free energy based on the water density of the first hydration shell is tolerant of the conformational fluctuation of protein, and we expect it to be applicable to investigating a broad range of biomolecular interfaces.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Ligands",
+      "Thermodynamics",
+      "*Influenza Pandemic, 1918-1919",
+      "Proteins/chemistry",
+      "Protein Binding",
+      "Binding Sites",
+      "Water/chemistry",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shi, Jie",
+        "Cho, Jae-Hyun",
+        "Hwang, Wonmuk"
+      ],
+      "short_names": [
+        "Shi J",
+        "Cho JH",
+        "Hwang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5053-4332",
+        "ORCID: 0000-0002-6190-6151",
+        "ORCID: 0000-0001-7514-3186"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Texas A&M University, College Station, Texas 777843, United States.",
+        "Department of Biochemistry and Biophysics, Texas A&M University, College Station, Texas 77843, United States.",
+        "Department of Biomedical Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+        "Department of Materials Science and Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+        "Department of Physics and Astronomy, Texas A&M University, College Station, Texas 77843, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shi, Jie",
+        "short_name": "Shi J",
+        "identifiers": [
+          "0000-0001-5053-4332"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Texas A&M University, College Station, Texas 777843, United States."
+        ]
+      },
+      {
+        "full_name": "Cho, Jae-Hyun",
+        "short_name": "Cho JH",
+        "identifiers": [
+          "0000-0002-6190-6151"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Texas A&M University, College Station, Texas 77843, United States."
+        ]
+      },
+      {
+        "full_name": "Hwang, Wonmuk",
+        "short_name": "Hwang W",
+        "identifiers": [
+          "0000-0001-7514-3186"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+          "Department of Materials Science and Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+          "Department of Physics and Astronomy, Texas A&M University, College Station, Texas 77843, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2023 Mar 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/24 06:00",
+    "fetched_at": "2026-09-20 19:29:20"
+  },
+  "links": {
+    "cites": [
+      "41898439",
+      "40650191",
+      "39303207",
+      "39289322",
+      "37867795"
+    ],
+    "refs": [
+      "36198874",
+      "34525817",
+      "33940854",
+      "33300337",
+      "32697579",
+      "32311315",
+      "32112288",
+      "31991083",
+      "31822062",
+      "31725740",
+      "31589427",
+      "31518131",
+      "31456282",
+      "31382251",
+      "31025866",
+      "30822020",
+      "30638541",
+      "29726604",
+      "29694859",
+      "29590589",
+      "29256600",
+      "29055291",
+      "28890361",
+      "28760952",
+      "28368102",
+      "28248491",
+      "27332121",
+      "27317094",
+      "27240107",
+      "27195477",
+      "27186992",
+      "26583988",
+      "26574250",
+      "25848013",
+      "25835573",
+      "25692597",
+      "25258413",
+      "24841242",
+      "24554921",
+      "24479585",
+      "24341684",
+      "24195787",
+      "24007504",
+      "23832629",
+      "23725291",
+      "23675835",
+      "23101613",
+      "22852591",
+      "22388956",
+      "22229789",
+      "21761828",
+      "21692533",
+      "21443207",
+      "21158467",
+      "19929830",
+      "19778066",
+      "19730673",
+      "19444816",
+      "19261718",
+      "18178651",
+      "18095715",
+      "17737951",
+      "17266298",
+      "17030792",
+      "17030302",
+      "16446784",
+      "16159150",
+      "16080143",
+      "15867154",
+      "15700296",
+      "15306377",
+      "15306376",
+      "15268408",
+      "15264254",
+      "15197270",
+      "14988499",
+      "12964188",
+      "12769565",
+      "12047201",
+      "11984847",
+      "11959992",
+      "11697910",
+      "11607838",
+      "11123888",
+      "11106628",
+      "9482874",
+      "8744570",
+      "8563620",
+      "8539602",
+      "5551392",
+      "1948083"
+    ],
+    "similar": [
+      "36820489",
+      "29594782",
+      "21090707",
+      "24752524",
+      "28451976",
+      "40816097",
+      "37433022",
+      "29091442",
+      "22366545",
+      "29308882",
+      "27494046",
+      "21728337",
+      "32311315",
+      "28565907",
+      "38568961",
+      "29780979",
+      "29874605",
+      "29193885",
+      "16851059",
+      "37094087",
+      "28064081",
+      "36562309",
+      "38602129",
+      "17683370",
+      "31025866",
+      "32815201",
+      "27645529",
+      "26642995",
+      "36468418",
+      "30865440",
+      "30289252",
+      "27696239",
+      "16471698",
+      "40734552",
+      "27339138",
+      "22852591",
+      "28413953",
+      "31710813",
+      "29726604",
+      "31568493",
+      "28564537",
+      "31822062",
+      "28116375",
+      "20695475",
+      "24549784",
+      "23775361",
+      "33206520",
+      "31841862",
+      "18052274",
+      "36197451",
+      "39289322",
+      "24479585",
+      "9715913",
+      "23662606",
+      "12210999",
+      "27565797",
+      "33687876",
+      "29570286",
+      "27886114",
+      "30618244",
+      "27699553",
+      "29394062",
+      "24070451",
+      "22891709",
+      "11697910",
+      "29553735",
+      "21466174",
+      "22148468",
+      "38732174",
+      "25692597",
+      "22894131",
+      "19485380",
+      "32419254",
+      "18266362",
+      "17238257",
+      "27185199",
+      "22452998",
+      "36917685",
+      "29880400",
+      "35981056",
+      "17554853",
+      "33067552",
+      "9777496",
+      "8789193",
+      "25856773",
+      "12889983",
+      "33797902",
+      "41026809",
+      "32085688",
+      "28933162",
+      "35534011",
+      "26575935",
+      "22435823",
+      "28636001",
+      "22397751",
+      "17397537",
+      "37838830",
+      "31356073",
+      "26691064",
+      "41319238"
+    ],
+    "review": [
+      "36820489",
+      "28413953",
+      "29880400",
+      "17554853",
+      "35534011"
+    ],
+    "pmc": [
+      "10848206"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36820489/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36820489",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.2c00776",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

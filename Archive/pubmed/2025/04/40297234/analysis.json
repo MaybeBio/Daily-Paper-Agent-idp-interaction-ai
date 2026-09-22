@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40297234",
+  "title": "Comprehensive Insights into the Cholesterol-Mediated Modulation of Membrane Function through Molecular Dynamics Simulations.",
+  "authors": "Khodadadi, Ehsaneh; Khodadadi, Ehsan; Chaturvedi, Parth; Moradi, Mahmoud",
+  "journal": "ArXiv",
+  "published_date": "2025-04-29",
+  "window": {
+    "start": "2025-04-28",
+    "end": "2025-05-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该综述通过分子动力学模拟总结胆固醇对膜结构、相分离及蛋白-膜互作的调控机制，对象为膜脂而非无序蛋白/IDR，且未涉及IDP介导的PPI，但MD模拟膜相分离与蛋白-膜互作的方法对凝聚体/IDR互作建模有一定迁移启发。",
+  "abstract": "Cholesterol plays an essential role in biological membranes and is crucial for maintaining their stability and functionality. It is necessary for a variety of membranes, including planar bilayers, liposomes, curved bilayers, nanodiscs, and proteoliposomes. Cholesterol regulates membrane properties by influencing the density of lipids, phase separation into liquid-ordered (Lo) and liquid-disordered (Ld) areas, and stability of protein-membrane interactions. For planar bilayers, cholesterol thickens the membrane, decreases permeability, and brings lipids into well-ordered domains, adding rigidity and fluidity. It modulates membrane curvature in curved bilayers and vesicles, and stabilises low-curvature regions, which are important for structural integrity. In liposomes, cholesterol facilitates drug encapsulation and release by controlling bilayer flexibility and stability. In nanodiscs, cholesterol enhances structural integrity and protein compatibility, which enables the investigation of protein-lipid interactions under physiological conditions. In proteoliposomes, cholesterol regulates the conformational stability of embedded proteins that have implications for protein-lipid interaction. Developments in molecular dynamics (MD) techniques, from coarse-grained to all-atom simulations, have shown how cholesterol modulates lipid tail ordering, membrane curvature, and flip-flop behaviour in response to concentration. Such simulations provide insights into the mechanisms underlying membrane-associated diseases, aiding in the design of efficient drug delivery systems. In this review, we combine results from MD simulations to provide a synoptic explanation of cholesterols complex function in regulating membrane behaviour. This synthesis combines fundamental biophysical information with practical membrane engineering, underscoring cholesterols important role in membrane structure, dynamics, and performance, and paving the way for rational design of stable and functional lipid-based systems to be used in medicine. In this review, we gather evidence from MD simulations to provide an overview of cholesterols complex function regulating membrane behaviour. This synthesis connects the fundamental biophysical science with practical membrane engineering, which highlights cholesterols important role in membrane structure, dynamics, and function and helps us rationally design stable and functional lipid-based systems for therapeutic purposes.",
+  "abstract_zh": "胆固醇在生物膜中扮演着至关重要的角色，对于维持其稳定性和功能至关重要。它对于多种膜结构都是必需的，包括平面双层膜、脂质体、弯曲双层膜、纳米盘和蛋白脂质体。胆固醇通过影响脂质密度、液-有序（Lo）和液-无序（Ld）区域的相分离，以及蛋白质-膜相互作用的稳定性来调节膜性质。对于平面双层膜，胆固醇使膜增厚，降低通透性，并将脂质引入有序结构域，增加刚性和流动性。在弯曲双层膜和囊泡中，它调节膜曲率，并稳定低曲率区域，这对结构完整性至关重要。在脂质体中，胆固醇通过控制双层膜的柔韧性和稳定性来促进药物封装和释放。在纳米盘中，胆固醇增强结构完整性和蛋白质兼容性，从而能够在生理条件下研究蛋白质-脂质相互作用。在蛋白脂质体中，胆固醇调节嵌入蛋白质的构象稳定性，这对蛋白质-脂质相互作用具有重要意义。分子动力学（molecular dynamics, MD）技术的发展，从粗粒化到全原子模拟，已展示了胆固醇如何响应浓度调节脂质尾部有序性、膜曲率和翻转行为。此类模拟提供了对膜相关疾病机制的理解，有助于设计高效的药物递送系统。在本综述中，我们结合MD模拟结果，对胆固醇在调节膜行为中的复杂功能进行了概要性解释。这一综合将基础生物物理信息与实际膜工程相结合，强调了胆固醇在膜结构、动力学和性能中的重要作用，并为合理设计用于医学的稳定且功能性脂质基系统铺平了道路。在本综述中，我们汇集MD模拟证据，概述胆固醇调节膜行为的复杂功能。这一综合将基础生物物理科学与实际膜工程联系起来，突出了胆固醇在膜结构、动力学和功能中的关键作用，并帮助我们合理设计用于治疗目的的稳定且功能性脂质基系统。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40297234/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40297234/",
+  "paper_page_path": "papers/pubmed/40297234/index.html"
+}

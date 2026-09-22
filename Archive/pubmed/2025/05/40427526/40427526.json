@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "40427526",
+    "doi": "10.3390/biom15050631",
+    "title": "The Wheat Intrinsically Disordered Protein TdRL1 Negatively Regulates the Type One Protein Phosphatase TdPP1."
+  },
+  "content": {
+    "abstract": "Type 1 protein phosphatases (PP1s) are crucial in various plant cellular processes. Their function is controlled by regulators known as PP1-interacting proteins (PIPs), often intrinsically disordered, such as Inhibitor 2 (I2), conserved across kingdoms. The durum wheat TdRL1 acts as a positive regulator of plant stress tolerance, presumably by inhibiting PP1 activity. In this work, co-immunoprecipitation and bimolecular fluorescence complementation (BiFC) assays demonstrate that the durum wheat TdPP1 interacts with both TdRL1 and At-I2 in vivo. YFP fluorescence restored after TdRL1-TdPP1 interaction decorated specifically the microtubular network of the tobacco co-infiltrated cells. In vitro phosphatase assays revealed that TdRL1 inhibited the activity of wild-type TdPP1 and two mutant forms (T243M and H135A) in a concentration-dependent manner, showing a novel and potent inhibition mechanism. Structural modeling of the TdPP1-inhibitor complexes suggested that both At-I2 and TdRL1 bind to TdPP1 by wrapping their flexible C-terminal tails around it, blocking access to the active site. Remarkably, the model showed that TdRL1 differs from At-I2 in its interaction with TdPP1 by trapping the phosphatase with its N-terminal tail. These findings provide important insights into the regulatory mechanisms governing the activity of PP1s in plants and highlight the potential for targeted inhibition to modulate plant stress responses.",
+    "keywords": [
+      "PP1",
+      "PP1-interacting proteins",
+      "TdRL1",
+      "phosphatase activity",
+      "three-dimensional structure prediction"
+    ],
+    "mesh_terms": [
+      "*Triticum/metabolism/genetics",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "*Plant Proteins/metabolism/chemistry/genetics",
+      "*Phosphoprotein Phosphatases/metabolism/chemistry/genetics",
+      "*Protein Phosphatase 1/metabolism",
+      "Protein Binding",
+      "Nicotiana/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Amor, Fatma",
+        "Bradai, Mariem",
+        "Zaidi, Ikram",
+        "Amorim-Silva, Vitor",
+        "Miled, Nabil",
+        "Hanin, Moez",
+        "Ebel, Chantal"
+      ],
+      "short_names": [
+        "Amor F",
+        "Bradai M",
+        "Zaidi I",
+        "Amorim-Silva V",
+        "Miled N",
+        "Hanin M",
+        "Ebel C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0474-220X",
+        "ORCID: 0000-0002-3978-7205",
+        "ORCID: 0000-0001-7445-6324",
+        "ORCID: 0000-0002-1952-7350",
+        "ORCID: 0000-0001-6942-9735"
+      ],
+      "affiliations": [
+        "Functional Genomics and Plant Physiology Laboratory, Institute of Biotechnology, University of Sfax, P.O. Box 1175, Sfax 3038, Tunisia.",
+        "Functional Genomics and Plant Physiology Laboratory, Institute of Biotechnology, University of Sfax, P.O. Box 1175, Sfax 3038, Tunisia.",
+        "Biotechnology and Plant Improvement Laboratory, Centre of Biotechnology of Sfax, P.O. Box 1177, Road Sidi Mansour km 6, Sfax 3018, Tunisia.",
+        "Area de Mejora y Fisiologia de Plantas, Instituto de Hortofruticultura Subtropical y Mediterranea \"La Mayora\", Universidad de Malaga-Consejo Superior de Investigaciones Cientificas (IHSM-UMA-CSIC), Universidad de Malaga, 29010 Malaga, Spain.",
+        "Functional Genomics and Plant Physiology Laboratory, Institute of Biotechnology, University of Sfax, P.O. Box 1175, Sfax 3038, Tunisia.",
+        "Department of Biological Sciences, College of Science, University of Jeddah, Jeddah 23445, Saudi Arabia.",
+        "Functional Genomics and Plant Physiology Laboratory, Institute of Biotechnology, University of Sfax, P.O. Box 1175, Sfax 3038, Tunisia.",
+        "Functional Genomics and Plant Physiology Laboratory, Institute of Biotechnology, University of Sfax, P.O. Box 1175, Sfax 3038, Tunisia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Amor, Fatma",
+        "short_name": "Amor F",
+        "identifiers": [],
+        "affiliations": [
+          "Functional Genomics and Plant Physiology Laboratory, Institute of Biotechnology, University of Sfax, P.O. Box 1175, Sfax 3038, Tunisia."
+        ]
+      },
+      {
+        "full_name": "Bradai, Mariem",
+        "short_name": "Bradai M",
+        "identifiers": [
+          "0000-0002-0474-220X"
+        ],
+        "affiliations": [
+          "Functional Genomics and Plant Physiology Laboratory, Institute of Biotechnology, University of Sfax, P.O. Box 1175, Sfax 3038, Tunisia."
+        ]
+      },
+      {
+        "full_name": "Zaidi, Ikram",
+        "short_name": "Zaidi I",
+        "identifiers": [],
+        "affiliations": [
+          "Biotechnology and Plant Improvement Laboratory, Centre of Biotechnology of Sfax, P.O. Box 1177, Road Sidi Mansour km 6, Sfax 3018, Tunisia."
+        ]
+      },
+      {
+        "full_name": "Amorim-Silva, Vitor",
+        "short_name": "Amorim-Silva V",
+        "identifiers": [
+          "0000-0002-3978-7205"
+        ],
+        "affiliations": [
+          "Área de Mejora y Fisiología de Plantas, Instituto de Hortofruticultura Subtropical y Mediterránea \"La Mayora\", Universidad de Málaga-Consejo Superior de Investigaciones Científicas (IHSM-UMA-CSIC), Universidad de Málaga, 29010 Málaga, Spain."
+        ]
+      },
+      {
+        "full_name": "Miled, Nabil",
+        "short_name": "Miled N",
+        "identifiers": [
+          "0000-0001-7445-6324"
+        ],
+        "affiliations": [
+          "Functional Genomics and Plant Physiology Laboratory, Institute of Biotechnology, University of Sfax, P.O. Box 1175, Sfax 3038, Tunisia.",
+          "Department of Biological Sciences, College of Science, University of Jeddah, Jeddah 23445, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Hanin, Moez",
+        "short_name": "Hanin M",
+        "identifiers": [
+          "0000-0002-1952-7350"
+        ],
+        "affiliations": [
+          "Functional Genomics and Plant Physiology Laboratory, Institute of Biotechnology, University of Sfax, P.O. Box 1175, Sfax 3038, Tunisia."
+        ]
+      },
+      {
+        "full_name": "Ebel, Chantal",
+        "short_name": "Ebel C",
+        "identifiers": [
+          "0000-0001-6942-9735"
+        ],
+        "affiliations": [
+          "Functional Genomics and Plant Physiology Laboratory, Institute of Biotechnology, University of Sfax, P.O. Box 1175, Sfax 3038, Tunisia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2025 Apr 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/28 06:28",
+    "fetched_at": "2026-09-21 19:21:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34638765",
+      "34265844",
+      "33125485",
+      "32951813",
+      "32948668",
+      "31257685",
+      "31189737",
+      "30099611",
+      "29991535",
+      "29338035",
+      "26943172",
+      "26663822",
+      "26071212",
+      "25560878",
+      "25010794",
+      "24532726",
+      "23818580",
+      "23041461",
+      "22585556",
+      "22360570",
+      "22284538",
+      "21505434",
+      "21222654",
+      "20399103",
+      "19825679",
+      "19517507",
+      "19389623",
+      "18798625",
+      "17697981",
+      "17636256",
+      "17482550",
+      "15164081",
+      "14715909",
+      "12657641",
+      "11992820",
+      "10318819",
+      "9155014",
+      "8639569",
+      "8394350",
+      "7651533",
+      "7500362",
+      "942051"
+    ],
+    "similar": [
+      "40427526",
+      "26071212",
+      "30099611",
+      "29338035",
+      "34638765",
+      "37327648",
+      "31512287",
+      "20204675",
+      "22021419",
+      "30511677",
+      "17636256",
+      "39032095",
+      "10748125",
+      "33125485",
+      "14674248",
+      "17272305",
+      "17200562",
+      "11104670",
+      "15184667",
+      "38573854",
+      "17274640",
+      "19592665",
+      "15703180",
+      "1847622",
+      "38771652",
+      "22982244",
+      "12052877",
+      "12358598",
+      "10075680",
+      "16426971",
+      "12138106",
+      "24591642",
+      "22988849",
+      "10657242",
+      "20939825",
+      "34100859",
+      "11564868",
+      "18842582",
+      "12016225",
+      "8835395",
+      "10222161",
+      "33086699",
+      "39562839",
+      "8389292",
+      "9188695",
+      "25771485",
+      "30584966",
+      "12374792",
+      "20399103",
+      "17215279",
+      "22940584",
+      "22251383",
+      "15164081",
+      "31185731",
+      "19033529",
+      "10775415",
+      "12860996",
+      "11076525",
+      "26508775",
+      "15345721",
+      "28867216",
+      "8549741",
+      "26370084",
+      "26542020",
+      "19846560",
+      "25205575",
+      "10428807",
+      "12974676",
+      "40239777",
+      "31548429",
+      "12226088",
+      "32204351",
+      "28653783",
+      "20724523",
+      "27246912",
+      "41237910",
+      "37158049",
+      "30707732",
+      "22321011",
+      "12015153",
+      "27578752",
+      "39488840",
+      "8611507",
+      "10194355",
+      "41342959",
+      "10896038",
+      "1657143",
+      "35013194",
+      "26057628",
+      "37000361",
+      "35696905",
+      "17200563",
+      "32658889",
+      "20826336",
+      "32948668",
+      "17318175",
+      "15016827",
+      "25447637",
+      "10585469",
+      "16280124"
+    ],
+    "review": [
+      "40427526",
+      "33125485",
+      "22988849",
+      "20939825",
+      "34100859",
+      "20399103",
+      "19846560"
+    ],
+    "pmc": [
+      "12109034"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom15050631",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40427526/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

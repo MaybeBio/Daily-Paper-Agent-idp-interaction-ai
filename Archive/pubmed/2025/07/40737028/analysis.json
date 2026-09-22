@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40737028",
+  "title": "Structural insights and biophysical characterization of p90RSK2:ERK2 complex.",
+  "authors": "Kobori, Evan Kazuo; Nguyen, Hoang Phuong My; Wu, Jian; Chen, Katherine; Malinovski, Rodeon; Taylor, Susan",
+  "journal": "The Biochemical journal",
+  "published_date": "2025-07-30",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合HDX-MS、冷冻电镜和AlphaFold建模表征全长RSK2:ERK2激酶复合物，关注IDR与折叠激酶结构域的协调作用及复合物构象，虽对象非典型IDP介导的相分离PPI，但多方法整合解析含IDR的蛋白复合物机制对本课题有可迁移启发。",
+  "abstract": "Kinase domains are often flanked by flexible tails and intrinsically disordered regions (IDRs) that contain conserved motifs. The co-ordinated action and interplay of IDRs and folded kinase domains is necessary for the proper function of kinases and kinase complexes. Characterization of full-length kinases and complexes is often challenging due to the flexible nature of flanking IDRs, yet necessary to fully understand their function and regulation. The p90 ribosomal S6 kinase (RSK) family is a unique kinase family with two distinct, functional kinase domains (NTK and CTK) flanked by flexible tails and a linker. RSK2 forms a stable complex with its activating kinase, ERK2, and here, we use multiple complementary techniques, hydrogen-deuterium exchange mass spectrometry, cryoelectron microscopy (cryo-EM), and AlphaFold (AF) modeling to study the full-length RSK2:ERK2 complex. We find that broadly, ERK2 is more solvent protected than the NTK/CTK. The NTK N-lobe has quite high deuterium uptake, and analysis of published NTK crystal structures suggests that the NTK N-lobe is dynamic and can adopt a wide range of conformations. The cryo-EM reveals that the RSK2:ERK2 complex adopts a compact shape, and this is consistent with the AF model of the complex, which hints at a possible additional interface between the NTK and ERK2. Collectively, our approach demonstrates that employing multiple complementary techniques can provide insight into the structure and biophysical characteristics of this challenging-to-study kinase complex.",
+  "abstract_zh": "激酶结构域通常侧翼连接着柔性尾巴和含有保守基序的内在无序区域（IDRs）。IDRs与折叠的激酶结构域的协同作用和相互作用对于激酶及激酶复合物的正常功能是必需的。由于侧翼IDRs的柔性特性，全长激酶及其复合物的表征往往具有挑战性，但为了全面理解其功能和调控，这一表征又是必要的。p90核糖体S6激酶（RSK）家族是一个独特的激酶家族，具有两个不同且功能性的激酶结构域（NTK和CTK），其侧翼为柔性尾巴和一个连接区。RSK2与其激活激酶ERK2形成稳定复合物，在此，我们使用多种互补技术，包括氢-氘交换质谱、冷冻电子显微镜（cryo-EM）和AlphaFold（AF）建模，来研究全长RSK2:ERK2复合物。我们发现，总体上，ERK2比NTK/CTK受到更多的溶剂保护。NTK的N-叶具有相当高的氘摄取量，对已发表的NTK晶体结构的分析表明，NTK的N-叶是动态的，并能采用广泛的构象。冷冻电镜揭示RSK2:ERK2复合物呈现紧凑形状，这与复合物的AF模型一致，该模型提示NTK和ERK2之间可能存在额外的界面。总的来说，我们的方法表明，采用多种互补技术可以为这一难以研究的激酶复合物的结构和生物物理特性提供深入见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40737028/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40737028/",
+  "paper_page_path": "papers/pubmed/40737028/index.html"
+}

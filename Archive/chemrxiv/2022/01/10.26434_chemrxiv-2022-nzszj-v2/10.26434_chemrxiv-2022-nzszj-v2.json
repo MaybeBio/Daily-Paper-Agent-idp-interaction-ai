@@ -1,0 +1,261 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2022-nzszj-v2",
+  "title": "An Interpretable Machine Learning model for Selectivity of Small Molecules against Homologous Protein Family",
+  "doi": "10.26434/chemrxiv-2022-nzszj-v2",
+  "abstract": "Motivation: The primary goal of drug design is to develop potent small molecules that can inhibit the target protein with high selectivity. In the early stage of drug discovery, various experimental and computational methods are used to measure the target-specificity of small molecules against the target protein of interest. The selectivity of the small molecule remains a challenge, especially when the target protein belongs to a homologous family, which can often lead to off-target side effects. Results: We have developed a multi-task deep learning model for predicting the selectivity of small molecules on the closely related homologs of the target protein. The multi-task model, which can learn from training data of the related tasks has been tested on the Janus kinase (JAK) and dopamine receptor family of proteins. To decipher the model decision on selectivity, the important fragments associated with each homolog protein were identified using SHapley Additive exPlanations (SHAP) method. The performance of the multi-task model was evaluated using various representation of small molecules such as fingerprints (ECFP4) and molecular graph representations. It was observed that the feature-based representation (ECFP4) with the XGBoost performed marginally better when compared to deep neural network models in most of the evaluation metrics. Both the models outperformed the graph-based models. The identification of important fragments associated with each proteins of the homolog family using SHAP method, explains the factors that governed the decision of the multi-task predictive model. The proposed method can be used post hit generation.",
+  "authors": [
+    "Sarveswara Rao Vangala",
+    "Navneet Bung",
+    "Sowmya Ramaswamy Krishnan",
+    "Arijit Roy"
+  ],
+  "published_date": "2022-01-24",
+  "updated_date": "2022-01-25T02:48:26Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2022-nzszj-v2",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-nzszj-v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "2",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T17:21:33Z",
+        "timestamp": 1785432093633,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            24
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                24
+              ]
+            ],
+            "date-time": "2022-01-24T00:00:00Z",
+            "timestamp": 1642982400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Motivation: The primary goal of drug design is to develop potent small molecules that can inhibit the target protein with high selectivity. In the early stage of drug discovery, various experimental and computational methods are used to measure the target-specificity of small molecules against the target protein of interest. The selectivity of the small molecule remains a challenge, especially when the target protein belongs to a homologous family, which can often lead to off-target side effects.\n Results: We have developed a multi-task deep learning model for predicting the selectivity of small molecules on the closely related homologs of the target protein. The multi-task model, which can learn from training data of the related tasks has been tested on the Janus kinase (JAK) and dopamine receptor family of proteins. To decipher the model decision on selectivity, the important fragments associated with each homolog protein were identified using SHapley Additive exPlanations (SHAP) method. The performance of the multi-task model was evaluated using various representation of small molecules such as fingerprints (ECFP4) and molecular graph representations. It was observed that the feature-based representation (ECFP4) with the XGBoost performed marginally better when compared to deep neural network models in most of the evaluation metrics. Both the models outperformed the graph-based models. The identification of important fragments associated with each proteins of the homolog family using SHAP method, explains the factors that governed the decision of the multi-task predictive model. The proposed method can be used post hit generation.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2022-nzszj-v2",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            25
+          ]
+        ],
+        "date-time": "2022-01-25T02:48:26Z",
+        "timestamp": 1643078906000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "An Interpretable Machine Learning model for Selectivity of Small Molecules against Homologous Protein Family"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Sarveswara Rao",
+          "family": "Vangala",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/01b9n8m42",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Tata Consultancy Services (India)",
+              "place": [
+                "India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6376-277X",
+          "authenticated-orcid": false,
+          "given": "Navneet",
+          "family": "Bung",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/01b9n8m42",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Tata Consultancy Services (India)",
+              "place": [
+                "India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sowmya Ramaswamy",
+          "family": "Krishnan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/01b9n8m42",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Tata Consultancy Services (India)",
+              "place": [
+                "India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Arijit",
+          "family": "Roy",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/01b9n8m42",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Tata Consultancy Services (India)",
+              "place": [
+                "India"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-nzszj-v2",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:01:20Z",
+        "timestamp": 1778752880000
+      },
+      "score": 50.827564,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2022-nzszj-v2"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            24
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2022-nzszj-v2",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.4155/fmc-2022-0075",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            24
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

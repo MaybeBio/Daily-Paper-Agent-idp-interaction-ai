@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "41983693",
+    "doi": "10.1128/mbio.00425-26",
+    "title": "Molecular insights into the dual activation of PomZ, a ParA/MinD P-loop ATPase, by the two ATPase-activating proteins PomX and PomY."
+  },
+  "content": {
+    "abstract": "Positioning of the division site is precisely regulated. In Myxococcus xanthus, the PomX/Y/Z assembly associates with and translocates across the nucleoid in a PomZ ATPase-dependent manner to position the cytokinetic FtsZ ring at midcell. Unlike other systems incorporating a ParA/MinD ATPase, the PomX/Y/Z system incorporates two ATPase-activating proteins (AAPs), PomX and PomY, that stimulate PomZ activity. While PomX AAP activity, similarly to that of other characterized AAPs of ParA/MinD ATPases, resides in a short positively charged N-terminal peptide (PomX(NPEP)), the mechanism of PomY-mediated PomZ activation remained unknown. We map PomY AAP activity to its C-terminal residues 496-682 (PomY(496-682)) and show that this activity is important for division site positioning and the initiation of division. Structural modeling suggests a bipartite PomY(496-682) architecture, comprising a globular domain and an intrinsically disordered region containing the short alpha5 helix. However, this modeling suggests an interaction only between alpha5 and the PomZ dimer. The suggested alpha5 binding site partially overlaps with that of the prototype AAP ParB on the ParA dimer, but alpha5 lacks a positively charged residue critical for ParB AAP activity. Structural modeling suggests that PomX(NPEP) binds the PomZ dimer at a site distinct from that of alpha5 and that overlaps with that of the prototype AAP MinE on the MinD dimer. These findings reveal a non-canonical AAP mechanism of PomY, while PomX(NPEP) likely functions analogously to MinE, indicating that PomX and PomY act in concert through distinct but complementary mechanisms to stimulate PomZ ATPase activity, thereby efficiently driving the positioning of the cytokinetic FtsZ ring.IMPORTANCEIn bacteria, the regulatory systems that position the division site often incorporate a ParA/MinD ATPase. These ATPases also function in the positioning of numerous other macromolecular complexes in bacteria. Characteristically, these ATPases depend on stimulation of their ATPase activity by a single cognate ATPase-activating protein (AAP). However, the Myxococcus xanthus cell division regulatory PomX/Y/Z system stands out by incorporating two AAPs, PomX and PomY, that activate the PomZ ATPase. Similar to other AAPs, PomX uses a short, positively charged N-terminal peptide (PomX(NPEP)) to stimulate PomZ activity. We map PomY AAP activity to a C-terminal region spanning residues 496-682 (PomY(496-682)). Structural modeling using AlphaFold 3 suggests that the AAP activity of PomY(496-682) and PomX(NPEP) may involve two distinct, non-overlapping binding sites at the dimer interface of ATP-bound PomZ. Altogether, these results provide insights into the molecular mechanism of activation by two AAPs of a ParA/MinD ATPase.",
+    "keywords": [
+      "FtsZ",
+      "MinD",
+      "MinE",
+      "Myxococcus xanthus",
+      "P-loop ATPase",
+      "ParA",
+      "ParB",
+      "PomX",
+      "PomY",
+      "PomZ",
+      "Z-ring",
+      "cell division"
+    ],
+    "mesh_terms": [
+      "*Myxococcus xanthus/enzymology/genetics/metabolism",
+      "*Bacterial Proteins/metabolism/genetics/chemistry",
+      "*Adenosine Triphosphatases/metabolism/genetics/chemistry",
+      "Cell Division",
+      "Models, Molecular",
+      "Protein Binding",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Klos, Philipp",
+        "Harms, Andrea",
+        "Sogaard-Andersen, Lotte"
+      ],
+      "short_names": [
+        "Klos P",
+        "Harms A",
+        "Sogaard-Andersen L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0674-0013"
+      ],
+      "affiliations": [
+        "Department of Ecophysiology, Max Planck Institute for Terrestrial Microbiology, Marburg, Germany.",
+        "Department of Ecophysiology, Max Planck Institute for Terrestrial Microbiology, Marburg, Germany.",
+        "Department of Ecophysiology, Max Planck Institute for Terrestrial Microbiology, Marburg, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Klos, Philipp",
+        "short_name": "Klos P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ecophysiology, Max Planck Institute for Terrestrial Microbiology, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Harms, Andrea",
+        "short_name": "Harms A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ecophysiology, Max Planck Institute for Terrestrial Microbiology, Marburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Søgaard-Andersen, Lotte",
+        "short_name": "Søgaard-Andersen L",
+        "identifiers": [
+          "0000-0002-0674-0013"
+        ],
+        "affiliations": [
+          "Department of Ecophysiology, Max Planck Institute for Terrestrial Microbiology, Marburg, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "mBio"
+    ],
+    "journal_abbrev": [
+      "mBio"
+    ],
+    "pub_date": "2026 May 13",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/15 13:39",
+    "fetched_at": "2026-09-18 02:33:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40998818",
+      "39739804",
+      "38723344",
+      "38718835",
+      "38597606",
+      "38036854",
+      "37524757",
+      "37380708",
+      "37156916",
+      "36815589",
+      "34265844",
+      "33734087",
+      "33156333",
+      "32232335",
+      "31171437",
+      "31106331",
+      "30544248",
+      "30520729",
+      "29985348",
+      "29040681",
+      "28697666",
+      "28486132",
+      "26559969",
+      "26538279",
+      "24859756",
+      "23145985",
+      "22672910",
+      "22651575",
+      "22483621",
+      "22144687",
+      "21847100",
+      "21816275",
+      "21235642",
+      "21231967",
+      "20802464",
+      "20659294",
+      "20657594",
+      "19775250",
+      "19740757",
+      "19461582",
+      "19129225",
+      "18826408",
+      "18077387",
+      "17993514",
+      "17261809",
+      "16839883",
+      "16592422",
+      "16322573",
+      "15635448",
+      "15215405",
+      "15173120",
+      "14888646",
+      "14511695",
+      "12897015",
+      "12519187",
+      "12424340",
+      "11983867",
+      "11430835",
+      "10592173",
+      "10064607",
+      "10027275",
+      "9155025",
+      "7108955",
+      "2231712",
+      "42906"
+    ],
+    "similar": [
+      "41983693",
+      "33734087",
+      "28486132",
+      "23145985",
+      "40998818",
+      "30102692",
+      "39739804",
+      "37380708",
+      "31349992",
+      "15458408",
+      "29066619",
+      "28743721",
+      "33288679",
+      "41114597",
+      "22651575",
+      "16169010",
+      "23190137",
+      "30455283",
+      "20937912",
+      "29180656",
+      "32232335",
+      "15636744",
+      "28373206",
+      "16376524",
+      "29414773",
+      "26655719",
+      "19415799",
+      "24466283",
+      "42258376",
+      "27021560",
+      "15629934",
+      "27091999",
+      "12675792",
+      "25811865",
+      "31835030",
+      "12003935",
+      "37329190",
+      "41313210",
+      "25500731",
+      "34903053",
+      "38842933",
+      "26851283",
+      "30602584",
+      "24595368",
+      "36490318",
+      "28500529",
+      "33493516",
+      "19135368",
+      "28100778",
+      "1836760",
+      "10869074",
+      "40608290",
+      "23632076",
+      "27871169",
+      "12813052",
+      "11566131",
+      "32738827",
+      "34453062",
+      "10561582",
+      "31932314",
+      "12424340",
+      "31871036",
+      "40838714",
+      "26268537",
+      "18477635",
+      "28674273",
+      "33875546",
+      "15060045",
+      "28826971",
+      "25688103",
+      "16584194",
+      "11886553",
+      "24218584",
+      "24121353",
+      "11350934",
+      "22483621",
+      "18223089",
+      "17085577",
+      "2149583",
+      "28525300",
+      "21965538",
+      "21231967",
+      "38591662",
+      "11430835",
+      "16014621",
+      "21816275",
+      "38508314",
+      "37277398",
+      "33731468",
+      "11296216",
+      "26055701",
+      "27088231",
+      "40067014",
+      "30261644",
+      "12093736",
+      "23860769",
+      "18266866",
+      "36622167",
+      "12519187",
+      "15489428"
+    ],
+    "review": [
+      "41983693",
+      "12675792",
+      "28500529"
+    ],
+    "pmc": [
+      "13170346"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/mbio.00425-26?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41983693/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1065",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

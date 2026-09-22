@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41547008",
+  "title": "Insights into the interaction of DHA/EPA-containing phospholipids with modified whey protein isolate (mWPI) and chitosan quaternary ammonium salt (CQAS) to form microgel.",
+  "authors": "He, Yi; Heng, Jiangying; Zhang, Xian; Zhang, Zhihua; Sun, Hongshuai; Ma, Xuan; Zhang, Yu; Wang, Feng",
+  "journal": "Food chemistry",
+  "published_date": "2026-01-18",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用分子对接辅助解析DHA/EPA磷脂与改性乳清蛋白/壳聚糖季铵盐形成微凝胶的封装机制，对象为食品蛋白-脂质复合物而非无序蛋白PPI，方法仅简单对接，与本课题关联较弱。",
+  "abstract": "This study developed a composite microgel system utilizing modified whey protein isolate (mWPI) and chitosan quaternary ammonium salt (CQAS) for encapsulating docosahexaenoic acid and eicosapentaenoic acid-containing phospholipids (PL-DHA/EPA). Single-component systems exhibited limited encapsulation efficiencies of 15.50% (mWPI-PL) and 30.92% (CQAS-PL), attributed to high-pressure homogenization-induced protein denaturation and insufficient electrostatic interactions, respectively. The composite mWPI-CQAS-PL system achieved 88.75% encapsulation efficiency through synergistic electrostatic charge neutralization and interpenetrating polymer network formation, with positive zeta potential (+41.5 mV) ensuring colloidal stability and complete absence of phase separation over thirty days. Microstructural characterization revealed bi-layered particle architecture (approximately 10 mum) featuring CQAS-rich outer shells and mWPI cores with uniform phospholipid distribution. Fluorescence spectroscopy evidenced protein-phospholipid interactions through excimer formation (480 nm) and microenvironmental polarity changes (430 nm), while molecular docking validated hydrogen bonding interactions. This mechanistic framework establishes design principles for advanced phospholipid delivery systems, significantly advancing marine lipid processing through innovative encapsulation strategies that preserve bioactivity while enhancing delivery performance.",
+  "abstract_zh": "本研究开发了一种复合微凝胶系统，利用改性乳清蛋白分离物（mWPI）和壳聚糖季铵盐（CQAS）封装含二十二碳六烯酸和二十碳五烯酸的磷脂（PL-DHA/EPA）。单组分系统表现出有限的封装效率，分别为15.50%（mWPI-PL）和30.92%（CQAS-PL），这分别归因于高压均质诱导的蛋白质变性和静电相互作用不足。复合mWPI-CQAS-PL系统通过协同静电电荷中和及互穿聚合物网络形成，实现了88.75%的封装效率，正zeta电位（+41.5 mV）确保了胶体稳定性，并在三十天内完全无相分离现象。微结构表征揭示了双层颗粒结构（约10微米），具有富含CQAS的外壳和均匀分布磷脂的mWPI核心。荧光光谱通过准分子形成（480 nm）和微环境极性变化（430 nm）证实了蛋白质-磷脂相互作用，而分子对接验证了氢键相互作用。该机制框架为先进磷脂递送系统建立了设计原则，通过创新的封装策略显著推进海洋脂质加工，在增强递送性能的同时保持生物活性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41547008/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41547008/",
+  "paper_page_path": "papers/pubmed/41547008/index.html"
+}

@@ -1,0 +1,536 @@
+{
+  "identity": {
+    "pmid": "41617687",
+    "doi": "10.1038/s41467-025-68062-z",
+    "title": "Multistep receptor binding of the hepatitis B virus preS1 domain."
+  },
+  "content": {
+    "abstract": "The preS1 domain present on hepatitis B and D virus particles is an intrinsically disordered peptide (IDP) essential for recognizing the host receptor, sodium taurocholate co-transporting polypeptide (NTCP). However, it remains poorly understood how the disordered preS1 peptide achieves high-affinity binding through its conformational change. Here, we reveal a stepwise binding process through which multiple regions within preS1 cooperate to establish the stable binding to NTCP. By combining structure-based molecular simulations with virological assays, we show that Asn9(preS1), Gly12(preS1), and His17(preS1) primarily mediate the NTCP binding by forming a tandem loop core structure that docks into the bile acid tunnel of NTCP, creating an extensive binding interface. Another interaction via Trp41(preS1) stabilizes the flexible preS1 33-48 aa stretch embedded onto the NTCP outerface, particularly involving Asn87(NTCP) and Tyr146(NTCP). Mutation in these key residues abolishes virion infectivity in cell culture and mouse models, demonstrating the biological significance of this binding maturation. These findings propose a multistep mechanism for viral IDP-mediated receptor recognition that ensures high virion infectivity and strict host specificity.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Hepatitis B virus/metabolism/genetics",
+      "Animals",
+      "*Protein Precursors/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "Humans",
+      "*Organic Anion Transporters, Sodium-Dependent/metabolism/chemistry",
+      "Mice",
+      "*Symporters/metabolism/chemistry",
+      "*Hepatitis B Surface Antigens/metabolism/chemistry/genetics",
+      "Protein Domains",
+      "*Receptors, Virus/metabolism",
+      "Models, Molecular",
+      "Mutation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kobayashi, Chisa",
+        "Ekimoto, Toru",
+        "Ooka, Koji",
+        "Mifune, Junki",
+        "Matsuzawa, Kayo",
+        "Que, Lusheng",
+        "Li, Yingfang",
+        "Kusunoki, Atsuto",
+        "Morita, Takeshi",
+        "Shionoya, Kaho",
+        "Nagano, Makoto",
+        "Wakae, Kousho",
+        "Isogawa, Masanori",
+        "Muramatsu, Masamichi",
+        "Ohto, Umeharu",
+        "Nomura, Norimichi",
+        "Park, Sam-Yong",
+        "Sureau, Camille",
+        "Arai, Munehito",
+        "Ikeguchi, Mitsunori",
+        "Watashi, Koichi"
+      ],
+      "short_names": [
+        "Kobayashi C",
+        "Ekimoto T",
+        "Ooka K",
+        "Mifune J",
+        "Matsuzawa K",
+        "Que L",
+        "Li Y",
+        "Kusunoki A",
+        "Morita T",
+        "Shionoya K",
+        "Nagano M",
+        "Wakae K",
+        "Isogawa M",
+        "Muramatsu M",
+        "Ohto U",
+        "Nomura N",
+        "Park SY",
+        "Sureau C",
+        "Arai M",
+        "Ikeguchi M",
+        "Watashi K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0833-8853",
+        "ORCID: 0000-0001-8730-4303",
+        "ORCID: 0000-0002-6330-2239",
+        "ORCID: 0000-0001-6164-8896",
+        "ORCID: 0000-0002-1223-2242"
+      ],
+      "affiliations": [
+        "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Applied Biological Science, Tokyo University of Science, Noda, Japan.",
+        "Computational Life Science Laboratory, Graduate School of Medical Life Science, Yokohama City University, Yokohama, Japan.",
+        "Komaba Organization for Educational Excellence, College of Arts and Sciences, The University of Tokyo, Tokyo, Japan.",
+        "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Applied Biological Science, Tokyo University of Science, Noda, Japan.",
+        "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+        "Department of Infectious Disease Research, Institute of Biomedical Research and Innovation, Foundation for Biomedical Research and Innovation at Kobe, Kobe, Japan.",
+        "Graduate School of Frontier Sciences, The University of Tokyo, Chiba, Japan.",
+        "Department of Cell Biology, Graduate School of Medicine, Kyoto University, Kyoto, Japan.",
+        "Drug Design Laboratory, Graduate School of Medical Life Science, Yokohama City University, Yokohama, Japan.",
+        "INSERM, Universite de Tours, Tours, France.",
+        "Komaba Organization for Educational Excellence, College of Arts and Sciences, The University of Tokyo, Tokyo, Japan.",
+        "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, Tokyo, Japan.",
+        "Department of Physics, Graduate School of Science, The University of Tokyo, Tokyo, Japan.",
+        "Computational Life Science Laboratory, Graduate School of Medical Life Science, Yokohama City University, Yokohama, Japan.",
+        "HPC- and AI-driven Drug Development Platform Division, Center for Computational Science, RIKEN, Yokohama, Japan.",
+        "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan. watashi.k@jihs.go.jp.",
+        "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan. watashi.k@jihs.go.jp.",
+        "Department of Applied Biological Science, Tokyo University of Science, Noda, Japan. watashi.k@jihs.go.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kobayashi, Chisa",
+        "short_name": "Kobayashi C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+          "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+          "Department of Applied Biological Science, Tokyo University of Science, Noda, Japan."
+        ]
+      },
+      {
+        "full_name": "Ekimoto, Toru",
+        "short_name": "Ekimoto T",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Life Science Laboratory, Graduate School of Medical Life Science, Yokohama City University, Yokohama, Japan."
+        ]
+      },
+      {
+        "full_name": "Ooka, Koji",
+        "short_name": "Ooka K",
+        "identifiers": [
+          "0000-0002-0833-8853"
+        ],
+        "affiliations": [
+          "Komaba Organization for Educational Excellence, College of Arts and Sciences, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Mifune, Junki",
+        "short_name": "Mifune J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Matsuzawa, Kayo",
+        "short_name": "Matsuzawa K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Que, Lusheng",
+        "short_name": "Que L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Li, Yingfang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Kusunoki, Atsuto",
+        "short_name": "Kusunoki A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Morita, Takeshi",
+        "short_name": "Morita T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Shionoya, Kaho",
+        "short_name": "Shionoya K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+          "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+          "Department of Applied Biological Science, Tokyo University of Science, Noda, Japan."
+        ]
+      },
+      {
+        "full_name": "Nagano, Makoto",
+        "short_name": "Nagano M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Wakae, Kousho",
+        "short_name": "Wakae K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Isogawa, Masanori",
+        "short_name": "Isogawa M",
+        "identifiers": [
+          "0000-0001-8730-4303"
+        ],
+        "affiliations": [
+          "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Muramatsu, Masamichi",
+        "short_name": "Muramatsu M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan.",
+          "Department of Infectious Disease Research, Institute of Biomedical Research and Innovation, Foundation for Biomedical Research and Innovation at Kobe, Kobe, Japan."
+        ]
+      },
+      {
+        "full_name": "Ohto, Umeharu",
+        "short_name": "Ohto U",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Frontier Sciences, The University of Tokyo, Chiba, Japan."
+        ]
+      },
+      {
+        "full_name": "Nomura, Norimichi",
+        "short_name": "Nomura N",
+        "identifiers": [
+          "0000-0002-6330-2239"
+        ],
+        "affiliations": [
+          "Department of Cell Biology, Graduate School of Medicine, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Park, Sam-Yong",
+        "short_name": "Park SY",
+        "identifiers": [
+          "0000-0001-6164-8896"
+        ],
+        "affiliations": [
+          "Drug Design Laboratory, Graduate School of Medical Life Science, Yokohama City University, Yokohama, Japan."
+        ]
+      },
+      {
+        "full_name": "Sureau, Camille",
+        "short_name": "Sureau C",
+        "identifiers": [],
+        "affiliations": [
+          "INSERM, Université de Tours, Tours, France."
+        ]
+      },
+      {
+        "full_name": "Arai, Munehito",
+        "short_name": "Arai M",
+        "identifiers": [
+          "0000-0002-1223-2242"
+        ],
+        "affiliations": [
+          "Komaba Organization for Educational Excellence, College of Arts and Sciences, The University of Tokyo, Tokyo, Japan.",
+          "Department of Life Sciences, Graduate School of Arts and Sciences, The University of Tokyo, Tokyo, Japan.",
+          "Department of Physics, Graduate School of Science, The University of Tokyo, Tokyo, Japan."
+        ]
+      },
+      {
+        "full_name": "Ikeguchi, Mitsunori",
+        "short_name": "Ikeguchi M",
+        "identifiers": [],
+        "affiliations": [
+          "Computational Life Science Laboratory, Graduate School of Medical Life Science, Yokohama City University, Yokohama, Japan.",
+          "HPC- and AI-driven Drug Development Platform Division, Center for Computational Science, RIKEN, Yokohama, Japan."
+        ]
+      },
+      {
+        "full_name": "Watashi, Koichi",
+        "short_name": "Watashi K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Drug Development, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan. watashi.k@jihs.go.jp.",
+          "Department of Virology II, National Institute of Infectious Diseases, Japan Institute for Health Security, Tokyo, Japan. watashi.k@jihs.go.jp.",
+          "Department of Applied Biological Science, Tokyo University of Science, Noda, Japan. watashi.k@jihs.go.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Jan 30",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/31 00:29",
+    "fetched_at": "2026-09-18 00:22:29"
+  },
+  "links": {
+    "cites": [
+      "42193304"
+    ],
+    "refs": [
+      "39572840",
+      "39455604",
+      "38509088",
+      "38233573",
+      "37857633",
+      "37328459",
+      "35746730",
+      "35726088",
+      "35580630",
+      "35580629",
+      "35545671",
+      "35458494",
+      "33924793",
+      "33614159",
+      "32522996",
+      "30541857",
+      "29950446",
+      "29861273",
+      "29662289",
+      "29247188",
+      "28884485",
+      "28512348",
+      "28195359",
+      "27819658",
+      "27466423",
+      "26729756",
+      "26631602",
+      "26605738",
+      "26378168",
+      "25902143",
+      "24753421",
+      "24361467",
+      "24342612",
+      "23851574",
+      "23678176",
+      "23213046",
+      "23150796",
+      "21988835",
+      "20496934",
+      "20301206",
+      "20007265",
+      "19759159",
+      "18351591",
+      "17849009",
+      "17766372",
+      "16618410",
+      "16014940",
+      "16012950",
+      "15650187",
+      "15567498",
+      "15215472",
+      "14733527",
+      "10446384",
+      "9971786",
+      "8416375",
+      "7666518"
+    ],
+    "similar": [
+      "41617687",
+      "40925208",
+      "40513783",
+      "41544142",
+      "29456407",
+      "39455604",
+      "41290509",
+      "38960374",
+      "42031258",
+      "39078152",
+      "24390325",
+      "24845614",
+      "35580629",
+      "35062309",
+      "34613794",
+      "23150796",
+      "41870046",
+      "25409679",
+      "35545671",
+      "29793953",
+      "24295872",
+      "34985994",
+      "32175289",
+      "27975305",
+      "23678176",
+      "29730285",
+      "25641256",
+      "35580630",
+      "24361467",
+      "16012950",
+      "27384660",
+      "33174454",
+      "38749427",
+      "29912972",
+      "33303817",
+      "32970362",
+      "27783949",
+      "30881922",
+      "35746730",
+      "23851574",
+      "35458456",
+      "11350599",
+      "30541857",
+      "1736525",
+      "38233573",
+      "21145866",
+      "26592202",
+      "15641132",
+      "27890789",
+      "27420796",
+      "33685080",
+      "30301315",
+      "30952782",
+      "38663255",
+      "38509088",
+      "32751581",
+      "28213271",
+      "32571971",
+      "23596296",
+      "39345122",
+      "27466423",
+      "29127322",
+      "25550158",
+      "30032030",
+      "26071008",
+      "41138719",
+      "39426128",
+      "40889532",
+      "37536428",
+      "25646622",
+      "39572840",
+      "31240738",
+      "32446278",
+      "34452354",
+      "41232630",
+      "27278060",
+      "26045274",
+      "9152426",
+      "35019714",
+      "27975303",
+      "28195359",
+      "31179847",
+      "36016422",
+      "24557582",
+      "24568971",
+      "7765264",
+      "7483279",
+      "27384014",
+      "31077792",
+      "26523264",
+      "36427676",
+      "24509445",
+      "18343539",
+      "26436705",
+      "39700828",
+      "36060770",
+      "30232184",
+      "26238794",
+      "25497224",
+      "28958921"
+    ],
+    "review": [
+      "41617687",
+      "42031258",
+      "32751581",
+      "26071008",
+      "39572840",
+      "24557582",
+      "26523264",
+      "26436705"
+    ],
+    "pmc": [
+      "12858840"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/41617687",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1038/s41467-025-68062-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41617687/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

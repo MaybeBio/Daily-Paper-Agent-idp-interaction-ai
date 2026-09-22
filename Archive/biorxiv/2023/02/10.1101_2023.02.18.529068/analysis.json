@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.18.529068",
+  "title": "mRNA interactions with disordered regions control protein activity",
+  "authors": "Yang Luo; Supriya Pratihar; Ellen H. Horste; Sibylle Mitschka; Antonia S. J. S. Mey; Hashim M. Al-Hashimi; Christine Mayr",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-18",
+  "window": {
+    "start": "2023-02-13",
+    "end": "2023-02-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文揭示mRNA通过结合MYC等转录因子的无序区域(IDR)改变其构象ensemble，从而调控蛋白复合物形成与功能，属于IDR介导的PPI机制建模研究，虽无AI/物理模拟方法，但机制深度高且与相分离/凝聚体背景相关。",
+  "abstract": "The cytoplasm is compartmentalized into different translation environments. mRNAs use their 3′UTRs to localize to distinct cytoplasmic compartments, including TIS granules (TGs). Many transcription factors, including MYC, are translated in TGs. It was shown that translation of proteins in TGs enables the formation of protein complexes that cannot be established when these proteins are translated in the cytosol, but the mechanism is poorly understood. Here we show that MYC protein complexes that involve binding to the intrinsically disordered region (IDR) of MYC are only formed when MYC is translated in TGs. TG-dependent protein complexes require TG-enriched mRNAs for assembly. These mRNAs bind to a new and widespread RNA-binding domain in neutral or negatively charged IDRs in several transcription factors, including MYC. RNA-IDR interaction changes the conformational ensemble of the IDR, enabling the formation of MYC protein complexes that act in the nucleus and control functions that cannot be accomplished by cytosolically-translated MYC. We propose that certain mRNAs have IDR chaperone activity as they control IDR conformations. In addition to post-translational modifications, we found a novel mode of protein activity regulation. Since RNA-IDR interactions are prevalent, we suggest that mRNA-dependent control of protein functional states is widespread.",
+  "abstract_zh": "细胞质被划分为不同的翻译环境。mRNA利用其3′UTR定位到不同的细胞质区室，包括TIS颗粒（TGs）。许多转录因子，包括MYC，在TGs中翻译。研究表明，在TGs中翻译蛋白质能够形成当这些蛋白质在胞质溶胶中翻译时无法建立的蛋白质复合物，但其机制尚不清楚。在此，我们展示涉及MYC内在无序区域（IDR）结合的MYC蛋白质复合物仅在MYC于TGs中翻译时形成。TG依赖性蛋白质复合物的组装需要TG富集的mRNA。这些mRNA结合到几种转录因子（包括MYC）中中性或负电荷IDR上的一个新的且广泛存在的RNA结合域。RNA-IDR相互作用改变了IDR的构象集合，使得MYC蛋白质复合物得以形成，这些复合物在细胞核中发挥作用，并控制无法由胞质溶胶翻译的MYC完成的功能。我们提出某些mRNA具有IDR伴侣活性，因为它们控制IDR构象。除了翻译后修饰，我们发现了一种新的蛋白质活性调控模式。由于RNA-IDR相互作用普遍存在，我们建议mRNA依赖的蛋白质功能状态控制是广泛存在的。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.18.529068",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.18.529068",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.18.529068/index.html"
+}

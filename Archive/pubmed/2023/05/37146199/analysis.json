@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37146199",
+  "title": "Basis for Accurate Protein pK(a) Prediction with Machine Learning.",
+  "authors": "Cai, Zhitao; Liu, Tengzi; Lin, Qiaoling; He, Jiahao; Lei, Xiaowei; Luo, Fangfang; Huang, Yandong",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2023-05-05",
+  "window": {
+    "start": "2023-05-01",
+    "end": "2023-05-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习预测蛋白质pKa，虽涉及无序肽适用性，但核心是酸碱解离常数而非PPI互作机制，方法可迁移但对象与互作轴较弱。",
+  "abstract": "pH regulates protein structures and the associated functions in many biological processes via protonation and deprotonation of ionizable side chains where the titration equilibria are determined by pK(a)'s. To accelerate pH-dependent molecular mechanism research in the life sciences or industrial protein and drug designs, fast and accurate pK(a) prediction is crucial. Here we present a theoretical pK(a) data set PHMD549, which was successfully applied to four distinct machine learning methods, including DeepKa, which was proposed in our previous work. To reach a valid comparison, EXP67S was selected as the test set. Encouragingly, DeepKa was improved significantly and outperforms other state-of-the-art methods, except for the constant-pH molecular dynamics, which was utilized to create PHMD549. More importantly, DeepKa reproduced experimental pK(a) orders of acidic dyads in five enzyme catalytic sites. Apart from structural proteins, DeepKa was found applicable to intrinsically disordered peptides. Further, in combination with solvent exposures, it is revealed that DeepKa offers the most accurate prediction under the challenging circumstance that hydrogen bonding or salt bridge interaction is partly compensated by desolvation for a buried side chain. Finally, our benchmark data qualify PHMD549 and EXP67S as the basis for future developments of protein pK(a) prediction tools driven by artificial intelligence. In addition, DeepKa built on PHMD549 has been proven an efficient protein pK(a) predictor and thus can be applied immediately to, for example, pK(a) database construction, protein design, drug discovery, and so on.",
+  "abstract_zh": "pH通过可电离侧链的质子化和去质子化作用调节蛋白质结构及其在众多生物过程中的相关功能，其中滴定平衡由pK(a)决定。为了加速生命科学或工业蛋白质及药物设计中依赖pH的分子机制研究，快速且准确的pK(a)预测至关重要。在此，我们提出了一个理论pK(a)数据集PHMD549，该数据集成功应用于四种不同的机器学习方法，包括我们先前工作中提出的DeepKa。为确保比较的有效性，我们选择EXP67S作为测试集。令人鼓舞的是，DeepKa得到了显著改进，并优于其他最先进的方法，但用于创建PHMD549的恒定pH分子动力学方法除外。更重要的是，DeepKa成功再现了五个酶催化位点中酸性二联体的实验pK(a)顺序。除结构蛋白外，DeepKa还被发现适用于 intrinsically disordered peptides（固有无序肽）。进一步结合溶剂暴露情况，研究表明，在氢键或盐桥相互作用部分被去溶剂化补偿的埋藏侧链这一挑战性情境下，DeepKa提供了最准确的预测。最后，我们的基准数据使PHMD549和EXP67S成为未来基于人工智能的蛋白质pK(a)预测工具发展的基础。此外，基于PHMD549构建的DeepKa已被证明是一种高效的蛋白质pK(a)预测器，因此可立即应用于例如pK(a)数据库构建、蛋白质设计、药物发现等领域。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37146199/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37146199/",
+  "paper_page_path": "papers/pubmed/37146199/index.html"
+}

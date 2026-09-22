@@ -1,0 +1,239 @@
+{
+  "identity": {
+    "pmid": "41159867",
+    "doi": "10.1063/5.0287110",
+    "title": "From heteropolymer stiffness distributions to effective homopolymers. II. Conformational analysis of intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are characterized by a lack of defined secondary and tertiary structures and are thus well-suited for descriptions within polymer theory. However, the intrinsic heterogeneity of proteins, stemming from their diverse amino acid building blocks, introduces local variations in chain stiffness, which can impact conformational behavior at larger scales. To investigate this effect, we developed a heterogeneous worm-like chain model in which the local persistence length follows a Gaussian distribution. We demonstrate that these heterogeneous chains can be effectively mapped to homogeneous chains with a single effective persistence length. To assess whether this mapping can be extended to naturally occurring IDPs, we performed simulations using various coarse-grained IDP models, finding that the simulated IDPs have similar shapes compared to the corresponding homogeneous and heterogeneous worm-like chains. However, the IDPs are systematically larger than ideal worm-like chains, yet slightly more compact when excluded volume interactions are considered. We attribute these differences to intramolecular interactions between non-bonded monomers, which our theoretical models do not account for.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Conformation",
+      "*Polymers/chemistry",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Witzky, Yannick",
+        "Schmid, Friederike",
+        "Nikoubashman, Arash"
+      ],
+      "short_names": [
+        "Witzky Y",
+        "Schmid F",
+        "Nikoubashman A"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-8031-8603",
+        "ORCID: 0000-0002-5536-6718",
+        "ORCID: 0000-0003-0563-825X"
+      ],
+      "affiliations": [
+        "Institute of Physics, Johannes Gutenberg University Mainz, Staudingerweg 7-9, 55128 Mainz, Germany.",
+        "Institute of Physics, Johannes Gutenberg University Mainz, Staudingerweg 7-9, 55128 Mainz, Germany.",
+        "Leibniz-Institut fur Polymerforschung Dresden e.V., Hohe Strasse 6, 01069 Dresden, Germany.",
+        "Institut fur Theoretische Physik, Technische Universitat Dresden, 01069 Dresden, Germany.",
+        "Cluster of Excellence Physics of Life, Technische Universitat Dresden, 01062 Dresden, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Witzky, Yannick",
+        "short_name": "Witzky Y",
+        "identifiers": [
+          "0009-0001-8031-8603"
+        ],
+        "affiliations": [
+          "Institute of Physics, Johannes Gutenberg University Mainz, Staudingerweg 7-9, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmid, Friederike",
+        "short_name": "Schmid F",
+        "identifiers": [
+          "0000-0002-5536-6718"
+        ],
+        "affiliations": [
+          "Institute of Physics, Johannes Gutenberg University Mainz, Staudingerweg 7-9, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Nikoubashman, Arash",
+        "short_name": "Nikoubashman A",
+        "identifiers": [
+          "0000-0003-0563-825X"
+        ],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung Dresden e.V., Hohe Straße 6, 01069 Dresden, Germany.",
+          "Institut für Theoretische Physik, Technische Universität Dresden, 01069 Dresden, Germany.",
+          "Cluster of Excellence Physics of Life, Technische Universität Dresden, 01062 Dresden, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2025 Oct 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/29 12:29",
+    "fetched_at": "2026-09-17 21:34:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41159867",
+      "36674958",
+      "41159868",
+      "30909517",
+      "35944496",
+      "40095314",
+      "30913885",
+      "38165099",
+      "29539394",
+      "29573987",
+      "30066087",
+      "36917561",
+      "27936491",
+      "25287424",
+      "39499823",
+      "32357776",
+      "41137856",
+      "30091924",
+      "34845619",
+      "29808548",
+      "31441158",
+      "27844185",
+      "34680048",
+      "33566618",
+      "30471690",
+      "40128232",
+      "25375525",
+      "39807013",
+      "36272811",
+      "26387104",
+      "28448138",
+      "26387101",
+      "35658083",
+      "25863585",
+      "32579908",
+      "30840442",
+      "38260590",
+      "37459524",
+      "32771522",
+      "30384718",
+      "36346711",
+      "23794453",
+      "34716273",
+      "30527137",
+      "36066390",
+      "39225535",
+      "26387102",
+      "32859072",
+      "29544285",
+      "28259050",
+      "36350035",
+      "25244701",
+      "31756104",
+      "28076807",
+      "38928405",
+      "36641212",
+      "37338049",
+      "37108059",
+      "38950000",
+      "31809054",
+      "39983022",
+      "29186229",
+      "31869980",
+      "37407505",
+      "39163306",
+      "31021441",
+      "30708285",
+      "41082321",
+      "29397728",
+      "41259435",
+      "38743557",
+      "33411518",
+      "32696367",
+      "33337879",
+      "21766125",
+      "29395045",
+      "31756456",
+      "29157493",
+      "38296708",
+      "34504009",
+      "30933517",
+      "32639157",
+      "24086122",
+      "38194282",
+      "34358545",
+      "25611056",
+      "32139510",
+      "39977663",
+      "26325592",
+      "33310020",
+      "36083825",
+      "24008243",
+      "38018910",
+      "36551304",
+      "33355572",
+      "38118365",
+      "41432303",
+      "38546977",
+      "38987470",
+      "33587794"
+    ],
+    "review": [
+      "41159867",
+      "30909517",
+      "30066087",
+      "25287424",
+      "31441158",
+      "34680048",
+      "26387104",
+      "26387101",
+      "25863585",
+      "30840442",
+      "23794453",
+      "30527137",
+      "26387102",
+      "28259050",
+      "31021441",
+      "29157493",
+      "38296708",
+      "34358545",
+      "26325592",
+      "24008243",
+      "36551304",
+      "33355572"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0287110",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

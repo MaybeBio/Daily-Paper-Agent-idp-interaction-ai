@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, or data were available for evaluation
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations to propose that negatively charged disordered tails in the Myc:Max complex accelerate target search by shifting the dominant diffusion mode from sliding to hopping, and that this dynamic autoinhibitory competition with DNA increases specificity by preferentially reducing dwell times on decoy sequences. They further claim that phosphorylation amplifies acceleration but destabilizes binding, that tail charge density is evolutionarily optimized, and that inter-tail electrostatic interactions between Myc and Max attenuate the acceleration.
+- **Visible evidence base** Abstract text only; no simulation details, parameter sets, validation data, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation protocols, force field parameters, system setup, convergence criteria, statistical analyses, figures, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically appealing hypothesis with potentially broad relevance for understanding how negatively charged IDRs modulate transcription factor DNA binding. However, the current evidence base is insufficient to evaluate the technical soundness of the simulations or the robustness of the central claims. The distinction between sliding and hopping modes, the proposed kinetic filter mechanism, and the evolutionary optimization argument all require quantitative support that is not visible in the abstract. The work is potentially interesting but not yet established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, transcription factor DNA recognition kinetics, and the biophysical basis of specificity in protein-DNA interactions. The proposed mechanism of transient intramolecular competition as a kinetic filter could also interest those working on drug design targeting transcription factor complexes and those studying post-translational modification effects on DNA binding.
+- **Major strengths** The abstract addresses a genuine biophysical paradox regarding negatively charged IDRs in DNA-binding proteins. The proposed mechanism is conceptually novel, linking disordered tail charge to kinetic discrimination without invoking base-specific contacts. The inclusion of phosphorylation effects and heterodimer tail interactions suggests a systems-level perspective that could be valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the negatively charged Max tail accelerates target search by shifting the dominant diffusion mode from sliding to hopping with a higher diffusion coefficient
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no information about the coarse-grained model resolution, how DNA is represented, how the protein-DNA interaction potentials are parameterized, or how diffusion modes are operationally defined and distinguished in the simulations. Without this information, the reported mode shift cannot be assessed for physical realism or statistical significance.
+  - **Why it matters** The central mechanistic claim depends entirely on the ability of the simulation model to faithfully capture the balance between sliding and hopping. If the model biases toward hopping due to parameter choices or representation artifacts, the conclusion would be an artifact rather than a property of the biological system.
+  - **Resolution test** Provide model details, validation against known experimental diffusion coefficients or binding kinetics, and convergence analyses demonstrating that the mode shift is robust to parameter variation and system size.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for claims
+  - **Claim pointer** The claim that dynamic screening increases specificity by preferentially reducing dwell times on decoy sequences while preserving high affinity binding to cognate sites
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are presented showing dwell time distributions on cognate versus decoy sequences, nor is it clear how specificity is defined and measured in the simulations. The abstract states that specificity increases but provides no metric, no comparison to a control without tails, and no statistical assessment.
+  - **Why it matters** The kinetic filter mechanism is the most novel and significant claim. Without explicit dwell time data and a clear specificity metric, the claim remains speculative. The distinction between decoy and cognate sites must be operationally defined in the simulation context.
+  - **Resolution test** Present dwell time distributions for cognate and decoy sequences with and without tails, a defined specificity metric, and statistical tests showing the difference is significant and robust.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for claims
+  - **Claim pointer** The claim that phosphorylation amplifies acceleration but imposes a trade-off by destabilizing target binding, and that tail charge density is evolutionarily optimized
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports a phosphorylation effect and an evolutionary optimization argument without presenting any simulation results for phosphorylated states or any comparative analysis across charge densities. The evolutionary claim requires a fitness landscape or at least a systematic scan of charge variants, none of which is visible.
+  - **Why it matters** These claims extend the work beyond a single mechanism into regulatory and evolutionary domains. Without data, they read as speculation rather than findings. The trade-off argument is central to the "optimization" framing and must be demonstrated quantitatively.
+  - **Resolution test** Provide simulation results for phosphorylated tail variants, a systematic charge density scan, and a clear definition of the trade-off metric used to support the optimization claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The overall simulation study and its conclusions
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is provided about simulation length, number of replicates, equilibration protocols, or whether the reported effects are statistically distinguishable from thermal fluctuations. The abstract gives no sense of the precision of the reported diffusion coefficients or dwell times.
+  - **Why it matters** Coarse-grained simulations of protein-DNA interactions are sensitive to sampling. Without evidence of adequate sampling and statistical rigor, the quantitative claims cannot be trusted.
+  - **Resolution test** Report simulation lengths, replicate numbers, block averaging or equivalent error estimates, and convergence checks for all reported quantities.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term "transient competition" is used without a precise definition. It is unclear whether this refers to a specific kinetic process or a general conceptual framing.
+  - **Required correction** Define the term operationally in the context of the simulations, specifying what is measured to identify competition events.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not state whether the simulations include the full heterodimer with both tails or whether the Max tail is studied in isolation. The later claim about Myc-Max tail interactions suggests the full complex is simulated, but this is not explicit.
+  - **Required correction** State clearly which molecular species are simulated in each reported result.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Specificity claim
+  - **Evidence pointer** Abstract
+  - **Issue** The claim that specificity is achieved "by intramolecular interactions instead of base-specific interactions" is presented as a dichotomy. It is unclear whether the simulations show an absence of base-specific contacts or simply a relative contribution.
+  - **Required correction** Clarify whether base-specific interactions are entirely absent or merely reduced, and provide the comparative metric.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of conclusions
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract generalizes from Myc:Max to a broader principle about negatively charged IDRs in transcription factors. This generalization may be premature without testing additional systems.
+  - **Required correction** Either temper the generalizing language or provide evidence that the mechanism operates in other systems.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of any methodological detail, quantitative results, or statistical assessment in the abstract means that none of the central claims can be evaluated for technical soundness. The case is not established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: the proposed mechanism of negatively charged IDRs acting as kinetic filters via transient intramolecular competition is conceptually original and distinct from prior models of IDR function in DNA binding. Scientific importance: if substantiated, the mechanism would have broad implications for understanding transcription factor specificity and the role of disordered regions, and could inform studies of phosphorylation-dependent regulation. Interdisciplinary readership: the topic bridges biophysics, molecular biology, and computational biology, and the conceptual framing could attract readers across these fields. Technical soundness: not assessable from the abstract alone; the absence of methodological detail and quantitative results prevents any judgment of the simulations reliability. Readability for nonspecialists: the abstract is clearly written and the conceptual narrative is accessible, though some terms such as "hopping" and "sliding" would benefit from brief definition for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the work could be suitable for a high-impact venue if the technical concerns are resolved with full methodological transparency and robust quantitative support. A revised assessment would require access to the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the Max tail accelerates target search by shifting diffusion mode from sliding to hopping is unsupported without simulation details and quantitative diffusion data.
+- The claim that dynamic screening increases specificity via a kinetic filter is unsupported without dwell time distributions and a defined specificity metric.
+- The claim that phosphorylation amplifies acceleration while destabilizing binding is unsupported without simulation results for phosphorylated states.
+- The claim that tail charge density is evolutionarily optimized is unsupported without a systematic charge variant analysis or fitness argument.
+- The claim that Myc-Max tail interactions attenuate acceleration is unsupported without comparative simulations of the full heterodimer versus truncated variants.
+- The generalization to negatively charged IDRs in transcription factors broadly is not supported by evidence from a single complex.

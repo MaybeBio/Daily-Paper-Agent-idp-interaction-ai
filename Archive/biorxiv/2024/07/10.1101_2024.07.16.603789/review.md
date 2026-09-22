@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and main text as provided)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and alignment with Nature-style criteria based solely on the supplied material
+- **Shared manuscript claim summary** The authors report a general computational method using RFdiffusion to generate high-affinity protein binders to intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs) by freely sampling both target and binder conformations. They demonstrate binders to Amylin, C-peptide, VP48, G3bp1, IL2RG, and prion with reported Kd values in the 3 to 100 nM range, and show functional activities including inhibition of amyloid fibril formation, dissociation of existing fibers, mass spectrometry enrichment, and cellular colocalization.
+- **Visible evidence base** Abstract and main text narrative; no figures, tables, methods details, or supplementary data are provided in the supplied material
+- **Missing materials affecting confidence** Figures, experimental protocols, statistical analyses, sequence details, binding assay conditions, structural validation data, and any negative controls are not available. The absence of these materials prevents independent verification of the reported results.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially significant advance in the design of binders to intrinsically disordered targets, a challenging and underexplored area. The claimed generality and the range of demonstrated applications are compelling. However, the provided material is insufficient to evaluate the technical rigor, reproducibility, or robustness of the method. The core claims rest on experimental data that are not visible, and several statements lack the necessary supporting detail. The work is promising but not yet established from the supplied evidence.
+- **Who would be interested in the results, and why** Researchers in protein design, computational biology, and biophysics would be interested in the methodological advance for targeting disordered proteins. The therapeutic and diagnostic applications, particularly for amylin in diabetes and IL2RG in immune signaling, would attract translational scientists and pharmaceutical researchers. The work also has relevance for structural biology communities studying intrinsically disordered proteins.
+- **Major strengths** The problem addressed is important and timely, as IDPs are underexplored targets despite their biological significance. The proposed approach, using RFdiffusion with free conformational sampling of both target and binder, is conceptually novel and could offer a general solution. The reported affinity range (3 to 100 nM) is competitive with existing binder design methods. The demonstration of multiple functional applications, including inhibition of amyloid formation and mass spectrometry enrichment, suggests practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that RFdiffusion can generate binders to IDPs and IDRs in a wide range of conformations with Kds in the 3 to 100 nM range.
+  - **Evidence pointer** Abstract and main text; no figures or tables provided
+  - **Concern** The reported binding affinities and conformational diversity are presented without any visible experimental data. No binding curves, replicate measurements, or statistical analyses are shown. The claim of "wide range of conformations" is not substantiated by structural or biophysical evidence.
+  - **Why it matters** Binding affinity is a central quantitative claim, and without raw data or error estimates, the reliability of the reported Kd values cannot be assessed. The conformational sampling claim is critical to the novelty of the method, and its validation requires structural or computational evidence.
+  - **Resolution test** Provide binding assay data with replicates, error bars, and statistical comparisons. Include structural characterization (e.g., cryo-EM, NMR, or X-ray) or computational validation of the bound conformations for at least one target per conformational class.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity and selectivity
+  - **Claim pointer** The authors state that the binders are specific to their targets, implying minimal off-target binding.
+  - **Evidence pointer** Main text; no specificity data provided
+  - **Concern** No evidence is presented to demonstrate that the binders do not cross-react with other proteins or disordered regions. Specificity is a critical requirement for therapeutic and diagnostic applications, and its absence undermines the utility claims.
+  - **Why it matters** Off-target binding could lead to false conclusions in functional assays and limit translational potential. Without specificity controls, the reported functional outcomes (e.g., inhibition of amyloid formation) could be confounded by nonspecific effects.
+  - **Resolution test** Include binding assays against a panel of unrelated disordered and folded proteins, and show selectivity data for each binder. For functional assays, include negative controls with scrambled or unrelated binders.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional validation
+  - **Claim pointer** The Amylin binder inhibits amyloid fibril formation and dissociates existing fibers, and the IL2RG binder colocalizes with the receptor in cells.
+  - **Evidence pointer** Main text; no experimental details or data provided
+  - **Concern** The functional claims are stated without any supporting data. The mechanisms of inhibition and dissociation are not described, and the cellular colocalization is not quantified or compared to controls.
+  - **Why it matters** These functional outcomes are the primary evidence for practical utility. Without rigorous validation, the claims remain speculative and cannot be distinguished from artifacts or nonspecific effects.
+  - **Resolution test** Provide dose-response curves for amyloid inhibition and dissociation, with appropriate controls. For colocalization, include quantitative imaging data with statistical analysis and a negative control binder.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological reproducibility
+  - **Claim pointer** The method is described as general and starting only from the target sequence.
+  - **Evidence pointer** Main text; no methods section provided
+  - **Concern** The computational protocol is not described in sufficient detail to be reproduced. Key parameters for RFdiffusion, such as sampling strategies, training data, and filtering criteria, are absent.
+  - **Why it matters** Reproducibility is a cornerstone of scientific claims. Without a detailed methods description, other groups cannot apply or validate the approach, limiting its impact.
+  - **Resolution test** Provide a complete methods section, including all computational parameters, software versions, and any post-processing steps. Include a step-by-step protocol for generating binders to a new target.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Target selection
+  - **Evidence pointer** Main text
+  - **Issue** The rationale for choosing the specific targets (Amylin, C-peptide, VP48, G3bp1, IL2RG, prion) is not explained. The diversity of these targets is implied but not articulated.
+  - **Required correction** Add a brief description of why these targets were selected and how they represent different conformational preferences or biological contexts.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Freely sampling both target and binding protein conformation"
+  - **Evidence pointer** Abstract
+  - **Issue** The phrase "freely sampling" is vague and could be misinterpreted. It is unclear whether this refers to a specific computational strategy or a general principle.
+  - **Required correction** Clarify the computational approach, such as whether the target is modeled as fully flexible or with restraints, and specify the sampling method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Affinity range
+  - **Evidence pointer** Abstract
+  - **Issue** The reported Kd range of 3 to 100 nM is broad, and it is unclear whether this reflects variability across targets or within replicates for a single target.
+  - **Required correction** Report individual Kd values for each target with confidence intervals, and specify the number of independent measurements.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to existing methods
+  - **Evidence pointer** Main text
+  - **Issue** The manuscript does not compare the performance of this method to existing approaches for targeting IDPs, such as peptide-based binders or other computational tools.
+  - **Required correction** Add a comparative discussion or benchmark data to contextualize the novelty and advantages of the method.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of experimental data, specificity controls, functional validation, and methodological detail prevents the core claims from being verified.
+- **Assessment against Nature-style criteria**  
+  - Originality: The approach is conceptually novel, as it applies generative diffusion to disordered targets with free conformational sampling. This is a distinct advance over prior binder design methods that typically target folded proteins.  
+  - Scientific importance: The problem of targeting IDPs is of high importance due to their prevalence in disease and the lack of general design strategies. The potential applications in therapeutics and diagnostics are significant.  
+  - Interdisciplinary readership: The work bridges computational protein design, biophysics, and translational biology, and would appeal to a broad audience. However, the current presentation lacks the depth needed for nonspecialists to appreciate the technical details.  
+  - Technical soundness: Not assessable from the supplied material. The claims are plausible but unsupported by visible data. The lack of methods and raw results is a critical deficiency.  
+  - Readability for nonspecialists: The abstract is clear and accessible, but the main text assumes familiarity with protein design and biophysical assays. The absence of figures and context reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The work is promising and could be suitable for publication in a high-impact venue if the major concerns are addressed with complete experimental data, specificity controls, functional validation, and a detailed methods section. A revised manuscript with full supporting evidence would warrant a supportive recommendation.
+
+## Risk / unsupported claims
+- The claim that binders can be generated to IDPs/IDRs "in a wide range of conformations" is unsupported without structural or computational validation.
+- The reported Kd values (3 to 100 nM) are unverifiable without binding data and statistical analysis.
+- The functional claims for the Amylin binder (inhibition of fibril formation and dissociation of existing fibers) and the IL2RG binder (cellular colocalization) are unsupported without experimental data.
+- The generality of the method, stated as "starting only from the target sequence," is not established without a detailed protocol and demonstration on a broader target set.
+- The claim of "high affinity and specificity" is not supported, as specificity data are absent.

@@ -1,0 +1,252 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.07.544141",
+  "title": "An evolutionarily conserved strategy for ribosome binding and inhibition by β-coronavirus non-structural protein 1",
+  "doi": "10.1101/2023.06.07.544141",
+  "abstract": "An important pathogenicity factor of SARS-CoV-2 and related coronaviruses is Nsp1, which suppresses host gene expression and stunts antiviral signaling. SARS-CoV-2 Nsp1 binds the ribosome to inhibit translation through mRNA displacement and induces degradation of host mRNAs through an unknown mechanism. Here we show that Nsp1-dependent host shutoff is conserved in diverse coronaviruses, but only Nsp1 from β-CoV inhibits translation through ribosome binding. The C-terminal domain of all β-CoV Nsp1s confers high-affinity ribosome-binding despite low sequence conservation. Modeling of interactions of four Nsp1s to the ribosome identified few absolutely conserved amino acids that, together with an overall conservation in surface charge, form the β-CoV Nsp1 ribosome-binding domain. Contrary to previous models, the Nsp1 ribosome-binding domain is an inefficient translation inhibitor. Instead, the Nsp1-CTD likely functions by recruiting Nsp1’s N-terminal “effector” domain. Finally, we show that a viral cis -acting RNA element has co-evolved to fine-tune SARS-CoV-2 Nsp1 function, but does not provide similar protection against Nsp1 from related viruses. Together, our work provides new insight into the diversity and conservation of ribosome-dependent host-shutoff functions of Nsp1, knowledge that could aide future efforts in pharmacological targeting of Nsp1 from SARS-CoV-2, but also related human-pathogenic β-coronaviruses. Our study also exemplifies how comparing highly divergent Nsp1 variants can help to dissect the different modalities of this multi-functional viral protein.",
+  "authors": [
+    "Maurina SF",
+    "O’Sullivan JP",
+    "Sharma G",
+    "Pineda Rodriguez DC",
+    "MacFadden A",
+    "Cendali F",
+    "Henen MA",
+    "Kieft JS",
+    "Glasgow A",
+    "Steckelberg A"
+  ],
+  "published_date": "2023-06-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.07.544141",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.07.544141.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR673314",
+    "raw_record": {
+      "id": "PPR673314",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR673314"
+        ]
+      },
+      "doi": "10.1101/2023.06.07.544141",
+      "title": "An evolutionarily conserved strategy for ribosome binding and inhibition by β-coronavirus non-structural protein 1",
+      "authorString": "Maurina SF, O’Sullivan JP, Sharma G, Pineda Rodriguez DC, MacFadden A, Cendali F, Henen MA, Kieft JS, Glasgow A, Steckelberg A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Maurina SF",
+            "lastName": "Maurina",
+            "firstName": "Stephanie",
+            "initials": "SF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "O’Sullivan JP",
+            "lastName": "O’Sullivan",
+            "firstName": "John",
+            "initials": "JP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sharma G",
+            "lastName": "Sharma",
+            "firstName": "Geetika",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pineda Rodriguez DC",
+            "lastName": "Pineda Rodriguez",
+            "firstName": "Daniel",
+            "initials": "DC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "MacFadden A",
+            "lastName": "MacFadden",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cendali F",
+            "lastName": "Cendali",
+            "firstName": "Francesca",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Henen MA",
+            "lastName": "Henen",
+            "firstName": "Morkos",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kieft JS",
+            "lastName": "Kieft",
+            "firstName": "Jeffrey",
+            "initials": "JS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO, USA"
+                },
+                {
+                  "affiliation": "RNA BioScience Initiative, University of Colorado School of Medicine, Aurora, CO, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Glasgow A",
+            "lastName": "Glasgow",
+            "firstName": "Anum",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Steckelberg A",
+            "lastName": "Steckelberg",
+            "firstName": "Anna-Lena",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Molecular Biophysics, Columbia University, New York, NY, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "An important pathogenicity factor of SARS-CoV-2 and related coronaviruses is Nsp1, which suppresses host gene expression and stunts antiviral signaling. SARS-CoV-2 Nsp1 binds the ribosome to inhibit translation through mRNA displacement and induces degradation of host mRNAs through an unknown mechanism. Here we show that Nsp1-dependent host shutoff is conserved in diverse coronaviruses, but only Nsp1 from β-CoV inhibits translation through ribosome binding. The C-terminal domain of all β-CoV Nsp1s confers high-affinity ribosome-binding despite low sequence conservation. Modeling of interactions of four Nsp1s to the ribosome identified few absolutely conserved amino acids that, together with an overall conservation in surface charge, form the β-CoV Nsp1 ribosome-binding domain. Contrary to previous models, the Nsp1 ribosome-binding domain is an inefficient translation inhibitor. Instead, the Nsp1-CTD likely functions by recruiting Nsp1’s N-terminal “effector” domain. Finally, we show that a viral  cis -acting RNA element has co-evolved to fine-tune SARS-CoV-2 Nsp1 function, but does not provide similar protection against Nsp1 from related viruses. Together, our work provides new insight into the diversity and conservation of ribosome-dependent host-shutoff functions of Nsp1, knowledge that could aide future efforts in pharmacological targeting of Nsp1 from SARS-CoV-2, but also related human-pathogenic β-coronaviruses. Our study also exemplifies how comparing highly divergent Nsp1 variants can help to dissect the different modalities of this multi-functional viral protein.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.07.544141"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR673314"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR673314&type=FILE&fileName=EMS177198-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS177198",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-06-11",
+      "firstPublicationDate": "2023-06-08",
+      "firstIndexDate": "2023-06-11",
+      "fullTextReceivedDate": "2023-07-01",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, materials and methods, results, discussion, and data availability statements
+- **Assessment boundary** Scientific validity of claims, technical soundness of methods, interpretation of results, and alignment with stated conclusions
+- **Shared manuscript claim summary** The authors report the design of D-box peptides containing unnatural amino acids that bind to the Cdc20 subunit of the APC/C with improved affinity, inhibit APC/CCdc20 ubiquitination activity in vitro, engage Cdc20 in cells, and function as portable degrons to drive degradation of a fused fluorescent protein
+- **Visible evidence base** Thermal shift assays, surface plasmon resonance, cellular thermal shift assays, X-ray crystallography, in vitro ubiquitination assays, live-cell degradation assays
+- **Missing materials affecting confidence** Figure panels referenced but not fully described in text (e.g., Figure 3A sequence logos, Figure 5D overlays), supplementary figure contents not fully detailed, statistical details for some assays not provided in main text, exact peptide sequences for all variants not listed in main text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and well-executed approach to improving D-box peptide affinity for Cdc20 through rational design incorporating unnatural amino acids. The combination of biophysical, structural, and cellular assays provides a comprehensive characterization of the peptide candidates. The finding that inhibitory activity correlates with binding affinity while degradation efficacy does not is an interesting and potentially important observation. However, several technical aspects require clarification and additional controls before the conclusions are fully established, particularly regarding the cellular degradation assays and the mechanistic interpretation of the disconnect between binding and degradation efficacy.
+- **Who would be interested in the results, and why** Researchers in the fields of ubiquitin biology, cell cycle regulation, and targeted protein degradation would find these results of interest. The work also has potential translational relevance for cancer biology, as APC/C inhibitors are being explored as anti-mitotic agents. The demonstration that unnatural amino acid incorporation can improve degron peptide affinity may also interest the broader peptide therapeutics community.
+- **Major strengths** The study combines multiple orthogonal biophysical and biochemical approaches to characterize peptide binding. The crystallographic structures provide direct evidence for the binding mode and validate the design rationale. The use of unnatural amino acids to improve affinity is a creative and potentially generalizable strategy. The cellular thermal shift assay provides evidence for target engagement in a physiologically relevant context. The comparison between inhibitory activity and degradation efficacy raises interesting questions about the relationship between degron binding and productive ubiquitination.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of cellular degradation assays
+  - **Claim pointer** The authors claim that D-box peptides function as portable degrons capable of driving degradation of a fused fluorescent protein, and that degradation efficacy does not correlate with binding affinity
+  - **Evidence pointer** Figure 8, "Protein degradation assays" in Materials and methods
+  - **Concern** The live-cell degradation assays use mNeon fusions containing D-box variants swapped into a non-degron RxxL motif (D0) adjacent to the C-terminal IDR of AURKA. However, the manuscript does not provide sufficient detail on how degradation is quantified, what controls are used (e.g., proteasome inhibition, APC/C inhibition), and whether the observed fluorescence decrease could be due to photobleaching, cell cycle effects, or other non-specific mechanisms. The synchronization of degradation curves to anaphase onset is mentioned but the number of cells analyzed, the variability between cells, and the statistical treatment of these data are not described. Without these details, the claim that these peptides drive degradation through APC/C is not fully established.
+  - **Why it matters** The portable degron claim is a central conclusion of the manuscript and has implications for potential use in targeted protein degradation. If the degradation assays are not rigorously controlled and quantified, this conclusion is not reliable.
+  - **Resolution test** Provide detailed methodology for image analysis, include controls with proteasome inhibitors (e.g., MG132) and APC/C inhibitors, show representative raw images, report cell numbers and statistical analysis, and demonstrate that the degradation is dependent on the D-box motif by including a negative control with a mutated D-box.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of structure-activity relationship
+  - **Claim pointer** The authors state that the SAR held true between all peptides, whereby incorporation of the unnatural amino acid increased binding affinity over 6-fold versus the respective parental peptide
+  - **Evidence pointer** Table 2, Figure 4
+  - **Concern** The manuscript reports that D10, containing an A3P mutation, had an affinity of 70±3 µM, while D7, containing the unnatural amino acid at position 4, had improved affinity. However, the text does not clearly present the full matrix of peptide variants and their corresponding affinities in a way that allows the reader to assess whether the SAR is truly consistent across all comparisons. The claim of a "6-fold" improvement appears to be based on selected comparisons, and it is unclear whether this factor is consistent across all parental peptide pairs. Additionally, the relationship between the unnatural amino acid at position 4 and the residue at position 3 is not systematically explored.
+  - **Why it matters** The SAR is central to the design rationale and the claim of improved affinity through unnatural amino acid incorporation. If the SAR is not systematically presented and analyzed, the strength of this conclusion is weakened.
+  - **Resolution test** Present a complete table of all peptide sequences with their corresponding KD values, clearly indicate which comparisons support the 6-fold improvement claim, and discuss any exceptions or inconsistencies in the SAR.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the degradation findings
+  - **Claim pointer** The authors suggest that the disconnect between binding affinity and degradation efficacy may be due to the complex nature of APC/C regulation and effects of degron binding on subunit recruitment and conformational changes
+  - **Evidence pointer** Discussion section
+  - **Concern** The proposed explanation for the lack of correlation between binding affinity and degradation efficacy is speculative and not directly tested. The authors suggest that APC10 interactions may be critical but do not provide experimental evidence to support this hypothesis. The manuscript would be strengthened by experiments that directly test the role of APC10 in the degradation of the different D-box variants, such as using APC10 mutants or measuring APC10 recruitment.
+  - **Why it matters** The disconnect between binding and degradation is an interesting finding, but without mechanistic insight, its significance is limited. Understanding the basis for this disconnect could inform future degron design.
+  - **Resolution test** Perform experiments to test the role of APC10 in the degradation of the different D-box variants, such as mutating APC10 residues predicted to interact with the D-box C-terminal region or using a truncated APC/C complex lacking APC10.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 3A
+  - **Evidence pointer** Figure 3A
+  - **Issue** The text refers to "Figure 3A" for the sequence logo showing residue frequencies at position 7, but the figure content is not described in sufficient detail in the text. The reader cannot easily assess the sequence conservation information presented.
+  - **Required correction** Provide a more detailed description of Figure 3A in the text, including the number of sequences analyzed and the source of the sequence data.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Thermal shift assays
+  - **Evidence pointer** Materials and methods, "Thermal shift assays"
+  - **Issue** The thermal shift assay section states that measurements were performed in triplicate and errors are standard deviation, but the number of independent experiments is not stated. It is unclear whether the triplicates are technical replicates from a single experiment or biological replicates from multiple experiments.
+  - **Required correction** Clarify whether the triplicate measurements are technical or biological replicates and report the number of independent experiments performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Crystallization and structure determination
+  - **Evidence pointer** Materials and methods, "Protein crystallisation" and "Data collection and structure determination"
+  - **Issue** The manuscript does not provide details on how the peptide-Cdc20 complexes were prepared for crystallization, the stoichiometry of the complex, or the resolution limits of the structures. The refinement statistics are referenced to Supplementary file 1A but not summarized in the main text.
+  - **Required correction** Provide a brief summary of the crystallographic statistics in the main text or ensure that Supplementary file 1A contains all necessary information and is clearly referenced.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of cellular thermal shift assay
+  - **Affected element** Figure 6, Table 3
+  - **Evidence pointer** Figure 6, Table 3
+  - **Issue** The cellular thermal shift assay data show that D7, D20, and D21 stabilize Cdc20, but D19 does not. The authors attribute this to the lower affinity of D19. However, the relationship between the concentration used in the CETSA (100 µM) and the KD values of the peptides is not discussed. It would be helpful to know whether the CETSA conditions are expected to distinguish between peptides with different affinities.
+  - **Required correction** Discuss the relationship between the peptide concentrations used in the CETSA and their KD values, and whether the lack of stabilization by D19 is consistent with its affinity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness of data presentation
+  - **Affected element** Figure 7
+  - **Evidence pointer** Figure 7
+  - **Issue** The ubiquitination assays show that D21 and D20 inhibit Cyclin B1 ubiquitination more potently than Apcin. However, the figure does not show a dose-response curve or quantitative analysis of the inhibition. It is unclear whether the comparison is based on a single concentration or multiple concentrations.
+  - **Required correction** Provide dose-response data or clearly state the concentrations used and the basis for the comparison between peptides and Apcin.
+- **Technical failings that need to be addressed before the case is established** The cellular degradation assays lack sufficient controls and quantitative detail to establish the portable degron claim. The SAR analysis would benefit from a more complete presentation of the peptide series and affinities. The mechanistic explanation for the disconnect between binding and degradation is not experimentally tested.
+- **Assessment against Nature-style criteria** 
+  - Originality: The use of unnatural amino acids to improve D-box peptide affinity is a novel approach that has not been previously reported for APC/C inhibitors. The finding that binding affinity does not correlate with degradation efficacy is also an original observation.
+  - Scientific importance: The work addresses a significant challenge in targeting the APC/C, which is an important anti-cancer target. The results could inform future development of APC/C inhibitors and degrons for targeted protein degradation.
+  - Interdisciplinary readership: The work bridges structural biology, biophysics, cell biology, and drug discovery, and would be of interest to researchers across these fields.
+  - Technical soundness: The biophysical and structural methods are generally well-executed, but the cellular degradation assays lack sufficient controls and quantitative rigor. The SAR analysis is not fully systematic.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with APC/C biology and biophysical methods.
+- **Recommendation posture** Supportive if technical concerns are resolved, particularly regarding the cellular degradation assays and the quantitative analysis of the SAR.
+
+## Risk / unsupported claims
+- The claim that D-box peptides function as portable degrons is not fully supported due to insufficient controls and quantitative detail in the live-cell degradation assays
+- The claim that the SAR held true across all peptides is not fully verifiable from the data presented, as the complete matrix of peptide variants and affinities is not clearly shown
+- The proposed mechanism for the disconnect between binding affinity and degradation efficacy (involving APC10) is speculative and not experimentally tested
+- The statement that D19 did not result in significant thermal stabilization in the CETSA is based on a single concentration and the relationship between this concentration and the peptide's KD is not discussed

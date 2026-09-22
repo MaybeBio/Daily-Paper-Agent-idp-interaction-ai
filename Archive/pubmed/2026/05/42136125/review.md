@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims based solely on the provided text. No external literature or supplementary files were accessed.
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to propose that full-length RBM45 preferentially binds m6A-modified over unmodified RNA motifs (GACA, GACU) through synergistic cooperation between RRM3 and other domains, including linkers, the HOA domain, and the C-terminal domain, and that this synergy explains previously observed preferential binding.
+- **Visible evidence base** Text descriptions of simulation setups, binding free energy calculations (Vinardo, GBMV), RMSD analyses, clustering, hydrogen bond occupancies, and statistical testing (Welch's t-test). Figures and tables are referenced but not visible.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are referenced but not provided. Simulation parameters, force field validation details, convergence criteria, and raw numerical data are not available for independent assessment.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question in epitranscriptomics: how a multi-domain RNA-binding protein achieves preferential recognition of m6A-modified RNA despite individual RRM domains lacking such selectivity. The computational approach is appropriate in principle, and the authors have made a commendable effort to connect their simulations to prior experimental observations. However, the central claim of synergistic m6A preference in the full-length context rests on simulation data whose statistical robustness, convergence, and methodological validation cannot be fully assessed from the provided text. The absence of visible figures and tables, along with incomplete reporting of simulation details, limits the current ability to verify the strength of the evidence. The manuscript is potentially significant but requires substantial revision and additional analysis to establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers in epitranscriptomics, RNA-binding protein biology, and computational biophysics would be interested. The study addresses a mechanistic gap in how RRM-containing proteins achieve m6A selectivity, which is relevant to understanding m6A reader function, disease mechanisms in neurodegeneration, and the design of RNA-targeting tools. The proposed synergy between structured and disordered domains is conceptually novel and could inform broader studies of multi-domain RNA recognition.
+- **Major strengths** The study tackles a biologically important question with clear relevance to disease. The authors have carefully designed their simulation matrix to include individual domains and full-length protein contexts, allowing direct comparison with prior experimental data. The use of multiple replicates and statistical testing for key comparisons is commendable. The proposed mechanism, involving cooperation between RRM3 and flanking domains, is plausible and provides a testable hypothesis for future experimental work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that in the full-length protein context, m6A-modified GACA and GACU motifs bind preferentially over unmodified motifs, with statistically significant differences (p = 0.03 for G-m6A-CA vs GACA).
+  - **Evidence pointer** Results section "GACA, G-m6A-CA, GACU, and G-m6A-CU in Complex with RRM3 in the Context of the Full-Length RBM45 Protein Show Preferential Binding of m6A over Adenine"; Figure 3C (referenced but not visible)
+  - **Concern** The statistical significance claim is based on a Welch's t-test with n = 6 per group, but the text does not report effect sizes, confidence intervals, or whether the test was applied to binding free energies from individual replicates or averaged values. The large standard deviations acknowledged elsewhere in the text (e.g., for individual domain simulations) raise concerns about whether the observed differences are robust. Additionally, the text states that "six runs performed per system allowed us to verify a statistically significant difference" but does not clarify whether these runs are independent or correlated, which is critical for the validity of the t-test.
+  - **Why it matters** The central conclusion of the paper, that full-length RBM45 preferentially binds m6A over adenine, hinges on this statistical comparison. If the difference is not robust, the entire mechanistic proposal is undermined.
+  - **Resolution test** Provide full distributions of binding free energies for each replicate, report effect sizes with confidence intervals, and clarify the independence of replicates. Consider additional analyses such as bootstrapping or Bayesian estimation to confirm the robustness of the difference.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "in the context of the full-length protein, we present for the first time how RRM3, in combination with additional residues in different RRM domains and linker domains, can synergistically cooperate for m6A preferential binding."
+  - **Evidence pointer** Abstract; Results section "Binding of RNA to RRM3 in the Context of the Full-Length RBM45 Protein Was Accompanied by Synergism of Other Domains"
+  - **Concern** The claim of synergy is inferred from comparing simulations of individual RRM3 versus full-length protein. However, the text does not provide a quantitative definition of synergy, nor does it show a direct comparison of binding free energies between the individual RRM3 and full-length contexts for the same RNA sequences. Without such a comparison, it is unclear whether the improved binding in the full-length context is due to synergy or simply to additive contributions from additional contacts.
+  - **Why it matters** The term "synergy" implies a non-additive enhancement, which is a strong mechanistic claim. If the improvement is merely additive, the novelty and significance of the finding are substantially reduced.
+  - **Resolution test** Provide a direct quantitative comparison of binding free energies (and per-nucleotide contributions) between individual RRM3 and full-length protein for the same RNA sequences. Define synergy operationally (e.g., full-length binding energy more favorable than the sum of individual domain contributions) and test this explicitly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the presence of the m6A methyl group provides further stability to the RNA, as well as strengthens the particular interactions between RNA and protein, while contributing to additional stabilization of the C-terminal domain with the linker domain between RRM2 and HOA."
+  - **Evidence pointer** Abstract; Results section "Simulations Suggest Preferential Binding of G-m6A-C(A/U) over GAC(A/U) in the Context of the Full-Length RBM45 Protein"
+  - **Concern** The text describes specific structural and dynamic effects of the m6A methyl group, but no quantitative data (e.g., interaction energies, distances, occupancy values) are provided in the visible text. The referenced figures and tables are not available for verification. It is unclear whether these effects are consistently observed across replicates or are anecdotal observations from single trajectories.
+  - **Why it matters** The proposed mechanism relies on specific molecular interactions that are claimed to be strengthened by m6A. Without quantitative evidence, these claims remain speculative.
+  - **Resolution test** Provide quantitative data for the key interactions described (e.g., hydrogen bond occupancies, interaction energies, distance distributions) for both modified and unmodified complexes, with appropriate statistics across replicates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "our study presents the first mechanistic insights into how an RRM domain binds directly and preferentially recognizes m6A over adenine in synergy with other domains."
+  - **Evidence pointer** Abstract; Conclusions
+  - **Concern** The claim of "first" is strong and depends on the completeness of the literature review. While the authors cite prior work on HNRNP proteins and m6A readers, the text does not comprehensively discuss whether any prior computational or structural study has proposed a similar synergistic mechanism for RRM-containing proteins. The novelty claim may be overstated.
+  - **Why it matters** Overstating novelty can mislead readers about the incremental contribution of the work.
+  - **Resolution test** Provide a more comprehensive literature review in the Introduction or Discussion, explicitly addressing whether any prior study has proposed synergistic m6A recognition by RRM domains in a multi-domain protein context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraphs 1-3
+  - **Issue** The introduction assumes familiarity with m6A reader classifications and RRM domain nomenclature. Nonspecialist readers may struggle to understand the significance of the study without a brief explanation of what m6A is, why it matters, and what "reader" proteins do.
+  - **Required correction** Add a brief, accessible explanation of m6A modification, its biological relevance, and the concept of reader proteins early in the Introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Molecular Dynamics Simulations"
+  - **Evidence pointer** Methods section, paragraph on MD simulations
+  - **Issue** The text states that simulations were performed with the CHARMM36m force field and parameters from CHARMM-GUI, but does not specify the water model, ion concentration details beyond "0.15 M KCl," or the temperature coupling scheme. These details are standard in MD simulation reporting.
+  - **Required correction** Provide complete simulation parameters, including water model, barostat and thermostat settings, and any restraints applied during equilibration.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Energy Calculations and Hydrogen Bond Occupancies"
+  - **Evidence pointer** Methods section, paragraph on energy calculations
+  - **Issue** The text states that Vinardo was used for binding free energy calculations and that it "performed slightly better than MM-GBMV(SA)" based on a prior study. However, no validation of Vinardo for this specific system (RBM45-RNA) is provided.
+  - **Required correction** Provide a brief validation or justification for the choice of Vinardo for this system, or acknowledge its limitations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion/Conclusions
+  - **Evidence pointer** Conclusions, final paragraph
+  - **Issue** The authors suggest that RBM45 could be classified as a Class III m6A reader, but this classification is presented without critical discussion of alternative interpretations or potential caveats.
+  - **Required correction** Add a brief discussion of alternative interpretations and limitations of the classification.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Simulations Suggest Preferential Binding of G-m6A-C(A/U) over GAC(A/U) in the Context of the Full-Length RBM45 Protein"
+  - **Evidence pointer** Results section, paragraph on preferential binding
+  - **Issue** The text frequently refers to "Figure 3C," "Table 1," and "Figure S23" without describing what is shown in these figures. This makes it difficult for readers to follow the argument without constantly cross-referencing.
+  - **Required correction** Briefly describe the content of each figure or table at first mention in the text.
+
+## Risk / unsupported claims
+- The claim of statistically significant preferential binding of m6A over adenine in the full-length context (p = 0.03) is not fully supported by the visible text, as effect sizes, confidence intervals, and replicate independence are not reported.
+- The claim of "synergy" between RRM3 and other domains is not quantitatively defined or directly tested against an additive model.
+- The specific molecular mechanism involving the m6A methyl group (proximity to F395 and M460, strengthened interactions) is described qualitatively without quantitative data in the visible text.
+- The claim of presenting "the first mechanistic insights" into synergistic m6A recognition by an RRM domain is not fully verifiable from the provided text alone.
+- The statement that "both unmodified and m6A-modified oligos, adenine, or uridine nucleotides at position 4 no longer interact unfavorably with RRM3" in the full-length context is presented as a finding, but the comparison to the individual RRM3 domain is not shown quantitatively.
+- The extrapolation from simulation to biological function (e.g., splicing regulation, disease relevance) is speculative and not directly supported by the simulation data.

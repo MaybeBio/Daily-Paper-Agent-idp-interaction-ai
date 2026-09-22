@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42284526",
+  "title": "CDK5-p25 Peptide Inhibitor Samples an Intrinsically Disordered Ensemble in Solution.",
+  "authors": "Ramamurthy, Adarsh; Mondal, Kinjal; Klauda, Jeffery B",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2026-06-12",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用REST2增强采样MD和GMVAE聚类刻画CDK5-p25抑制肽p5在溶液中的无序构象系综，揭示其无序特征与瞬态β-发夹，支持耦合折叠-结合机制，为无序肽介导的PPI机制建模提供可迁移方法。",
+  "abstract": "The 24-residue peptide p5 (KEAFWDRCLSVINLMSSKMLQINA) selectively inhibits the pathological CDK5-p25 complex implicated in Alzheimer's disease and other neurodegenerative disorders, yet the structural basis for this selectivity remains poorly understood. In this study, replica exchange with solute tempering (REST2) molecular dynamics simulations with explicit solvent were performed over 350 ns using the CHARMM36m force field to extensively characterize the conformational landscape of p5 in aqueous solution at physiological temperature. Gaussian Mixture Variational Autoencoder (GMVAE) clustering identifies three dominant conformational states: a compact disordered state, an extended disordered state, and a partially beta-structured state featuring a transient antiparallel beta-hairpin between residues 5-8 (WDRC) and 16-19 (SSKM). The small free energy differences between states (DeltaDeltaG < 0.35 kcal/mol) enable rapid nanosecond-time scale interconversion, and multiple structural metrics are consistent with p5 exhibiting the hallmarks of an intrinsically disordered peptide in solution. Temperature-dependent free energy profiles confirm that the low-energy conformational basin is robust across a wide temperature range, validating the physiological relevance of the sampled ensemble. The absence of stable helical structure in the unbound state, combined with the peptide's backbone flexibility and transient beta-strand propensity, supports a coupled folding-and-binding mechanism upon CDK5 engagement. These findings provide a structural framework for understanding p5's selective inhibition of CDK5-p25 and lay the groundwork for future simulations of p5-CDK5 complexes and the design of optimized therapeutic CDK5 inhibitors.",
+  "abstract_zh": "24残基肽p5（KEAFWDRCLSVINLMSSKMLQINA）选择性抑制与阿尔茨海默病及其他神经退行性疾病相关的病理性CDK5-p25复合物，然而这种选择性的结构基础仍知之甚少。在本研究中，采用显式溶剂下的溶质回火副本交换（REST2）分子动力学（molecular dynamics）模拟，使用CHARMM36m力场进行350纳秒的模拟，以全面表征p5在生理温度水溶液中的构象景观。高斯混合变分自编码器（GMVAE）聚类识别出三种主导构象状态：紧凑无序态、伸展无序态，以及部分β-折叠态，其特征为残基5-8（WDRC）和16-19（SSKM）之间形成瞬态反平行β-发夹结构。各状态间的自由能差异较小（ΔΔG < 0.35 kcal/mol），使得纳秒时间尺度上的快速互变成为可能，多种结构指标与p5在溶液中表现出内在无序肽特征相一致。温度依赖性自由能谱确认低能构象盆地在大范围温度下保持稳健，验证了采样系综的生理相关性。未结合状态下缺乏稳定螺旋结构，结合肽的主链灵活性和瞬态β-链倾向，支持p5在与CDK5结合时采用偶联折叠与结合机制。这些发现为理解p5对CDK5-p25的选择性抑制提供了结构框架，并为未来p5-CDK5复合物模拟及优化治疗性CDK5抑制剂的设计奠定了基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42284526/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42284526/",
+  "paper_page_path": "papers/pubmed/42284526/index.html"
+}

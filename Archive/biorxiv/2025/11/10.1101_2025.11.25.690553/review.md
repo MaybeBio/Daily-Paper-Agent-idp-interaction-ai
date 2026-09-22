@@ -1,0 +1,91 @@
+## Review setup
+
+- **Input scope** Full manuscript text (Abstract, Introduction, Results sections, Discussion, Funding, Author contributions, Competing interests, Data availability, Supplementary Materials list, Acknowledgments, Footnotes)
+- **Assessment boundary** Scientific content and technical soundness of the presented claims based on the provided text. Figures, tables, and supplementary materials are referenced but not directly examined.
+- **Shared manuscript claim summary** The manuscript proposes that CTCF boundary permeability is governed by a dynamic conformational ensemble of DNA-bound zinc fingers, which is tuned by sequence, CpG methylation, nucleosomes, and PDS5A, and that this ensemble probabilistically gates cohesin capture and stabilizes loop anchors.
+- **Visible evidence base** Text descriptions of results from NanoNOMe methylation footprinting, all-atom MD simulations, single-molecule optical tweezers, two-color optical tweezers, AFM imaging, AlphaFold 3 modeling, and reanalysis of public ChIP-seq, ChIP-MS, and Hi-C datasets.
+- **Missing materials affecting confidence** Figures S1-S28, Tables S1-S2, Materials and Methods, and all primary data are not provided. Statistical details, control experiments, and quantitative values are largely absent from the visible text.
+
+## Reviewer
+
+- **Overall assessment** This manuscript addresses a fundamental question in genome organization: how CTCF makes a rapid probabilistic decision to stall or pass cohesin during loop extrusion. The central hypothesis, that conformational ensembles rather than static occupancy control boundary permeability, is conceptually compelling and timely. The authors combine multiple orthogonal approaches, including methylation footprinting, MD simulations, optical tweezers, and AFM, to support their model. However, the provided text lacks the quantitative detail, control descriptions, and statistical rigor necessary to fully evaluate the claims. Several key inferences, particularly the link between specific conformations and cohesin capture, rely on correlative evidence. The manuscript is potentially important but requires substantial additional evidence and clarification before the central claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in chromatin architecture, genome organization, transcription regulation, and cohesin biology would be the primary audience. The work is also relevant to those studying dynamic protein-DNA interactions and single-molecule biophysics. The conceptual framework of ensemble tuning as a regulatory principle could interest a broader readership in gene regulation and epigenetics.
+- **Major strengths** The study addresses a critical mechanistic gap in understanding CTCF function. The combination of in vivo footprinting with in vitro single-molecule approaches and MD simulations is powerful. The identification of PDS5A as a modulator of CTCF conformation and anchor stability provides a plausible molecular link between cohesin regulation and boundary function. The millisecond timescale of conformational dynamics matching cohesin passage time is a compelling observation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the unwrapped conformation (conformation II) is the productive, cohesin-capturing conformation based on enrichment at cohesin-occupied sites and prevalence in the ensemble.
+  - **Evidence pointer** Fig. 1E, Fig. 2F-G, location not provided
+  - **Concern** The link between the unwrapped conformation and cohesin capture is correlative. The enrichment of dissociated peripheral ZFs at cohesin-occupied sites (Fig. 1E) could be a consequence of cohesin binding rather than a cause. The optical tweezers experiments do not directly test cohesin capture; they only measure conformational dynamics of CTCF alone. The claim that conformation II is "cohesin-capturing" is an inference not directly tested.
+  - **Why it matters** The central model of the paper rests on this assignment. Without direct evidence that cohesin preferentially captures CTCF in the unwrapped conformation, the mechanistic link between conformational ensemble and boundary permeability is not established.
+  - **Resolution test** Directly test cohesin capture of CTCF in different conformations, for example by single-molecule experiments with both cohesin and CTCF present, or by mutating residues that stabilize specific conformations and measuring capture efficiency.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that PDS5A "primes" CTCF for cohesin capture by shifting the ensemble toward the unwrapped conformation, and that PDS5A-cohesin stabilizes loop anchors.
+  - **Evidence pointer** Fig. 3G, Fig. 4D-F, location not provided
+  - **Concern** The experiments showing PDS5A effects on the CTCF ensemble (Fig. 3G) and on ZF rupture forces (Fig. 4D-F) are performed in the absence of active loop extrusion. The claim that PDS5A acts "before cohesin engagement" is plausible but not directly demonstrated. The transition from NIPBL-bound to PDS5-bound cohesin at the anchor is speculative and not supported by direct experimental evidence in this manuscript.
+  - **Why it matters** The two-step model (PDS5A priming followed by anchor stabilization) is a key conceptual contribution. If the priming effect is not directly linked to cohesin capture, the model loses its mechanistic foundation.
+  - **Resolution test** Perform experiments with active cohesin extrusion in the presence of CTCF and PDS5A, or use mutations that disrupt PDS5A-CTCF interaction to test the requirement for priming in capture.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that CpG methylation shifts the ensemble toward conformation III, and that this explains reduced boundary strength at methylated sites.
+  - **Evidence pointer** Fig. 2H, Fig. S19, location not provided
+  - **Concern** The effect of methylation on the ensemble is shown for a single CpG within the ZF4 triplet of one motif. The generalizability of this finding to other methylated CTCF sites is unclear. The connection between the observed conformational shift and boundary strength in cells is not directly tested.
+  - **Why it matters** Methylation is a major regulator of CTCF binding, and the claim that it acts through ensemble modulation rather than binding occupancy is a significant departure from current understanding. This requires broader evidence.
+  - **Resolution test** Test multiple methylated CTCF sites with different sequence contexts, and directly measure boundary strength in cells with methylation-sensitive assays.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims that the optical tweezers assay reports on ZF-DNA contacts and their dynamics at physiological timescales.
+  - **Evidence pointer** Fig. 2A-D, Fig. S3-S8, location not provided
+  - **Concern** The assignment of the four observed states to specific ZF configurations relies on mapping fork positions to the motif. The validation of this mapping, including how the HMM states correspond to structural interpretations, is not described in sufficient detail. The force-dependence of the states is stated to be minimal but the range examined is not given.
+  - **Why it matters** The entire conformational ensemble model depends on the correct interpretation of the optical tweezers data. If the state assignments are incorrect, the model collapses.
+  - **Resolution test** Provide detailed validation of the state assignments, including comparison with independent structural methods or mutant CTCF proteins with known ZF binding properties.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the ensemble is "tuned by DNA sequence, CpG methylation, nearby nucleosomes, and the cohesin regulator PDS5A before cohesin engagement." The phrase "before cohesin engagement" is a strong temporal claim that is not directly demonstrated by the data presented.
+  - **Required correction** Soften the temporal claim or provide direct evidence for the ordering of events.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section on PDS5A
+  - **Evidence pointer** Fig. 3, location not provided
+  - **Issue** The distinction between PDS5A binding to CTCF independently of cohesin versus as part of a cohesin complex is not clearly articulated in the text. The two-color optical tweezers experiment appears to test PDS5A alone, but the relevance to cohesin-bound PDS5A is unclear.
+  - **Required correction** Clarify whether the experiments test free PDS5A or PDS5A in complex with cohesin, and discuss the implications for the model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion of the two-step model would benefit from a more explicit statement of testable predictions that distinguish it from alternative models, such as simple occupancy-based regulation.
+  - **Required correction** Add a paragraph with explicit predictions and proposed experiments to test them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and Methods (not provided)
+  - **Issue** The text references "Materials and Methods" for experimental details, but this section is not included in the provided material. Key parameters such as salt conditions, temperature, and protein concentrations for the optical tweezers experiments are not visible.
+  - **Required correction** Ensure the Materials and Methods section is complete and accessible for review.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The correlative link between conformation and cohesin capture, the lack of direct testing of the two-step model, and the limited generalizability of the methylation results are the primary technical issues.
+- **Assessment against Nature-style criteria** Originality: High. The concept of ensemble tuning as a regulatory principle for boundary function is novel and shifts the focus from occupancy to conformational dynamics. Scientific importance: High. Understanding CTCF boundary permeability is fundamental to genome organization and gene regulation. Interdisciplinary readership: Moderate to high. The work bridges single-molecule biophysics, computational modeling, and chromatin biology, which could attract readers from multiple fields. Technical soundness: Currently insufficient. The central claims require direct testing of cohesin capture and broader evidence for methylation effects. Readability for nonspecialists: The abstract and introduction are accessible, but the results sections assume significant background in single-molecule techniques and chromatin biology. The one-sentence summary is clear and effective.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is compelling and the methodological approach is innovative, but the central mechanistic claims are not yet established from the provided evidence. Direct testing of cohesin capture in different conformational states and broader validation of the methylation effects are required.
+
+## Risk / unsupported claims
+
+- The claim that conformation II is the "cohesin-capturing" conformation is unsupported by direct experimental evidence.
+- The claim that PDS5A "primes" CTCF for cohesin capture before cohesin engagement is not directly demonstrated.
+- The claim that CpG methylation shifts the ensemble toward conformation III and that this explains reduced boundary strength is based on a single motif and not generalized.
+- The two-step model (PDS5A priming followed by anchor stabilization) is speculative and not directly tested.
+- The statement that the optical tweezers assay measures "physiological timescales" is not quantitatively supported in the visible text.
+- The claim that the conformational ensemble links base-pair-scale motions to megabase-scale organization is an extrapolation not directly tested in this manuscript.

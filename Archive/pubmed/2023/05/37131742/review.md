@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific and technical claims as presented in the provided text; no external validation or code inspection performed
+- **Shared manuscript claim summary** The authors present OpenABC, a Python-based software package integrated with OpenMM, for GPU-accelerated coarse-grained simulations of biomolecular condensates. The package implements multiple coarse-grained force fields (HPS, MOFF, MRG-CG DNA), simplifies simulation setup, provides tools for converting coarse-grained to atomistic structures, and claims performance rivaling GROMACS on hundreds of CPUs. Validation includes energy comparisons, conformational ensembles, and phase diagram calculations.
+- **Visible evidence base** Abstract, Introduction, Methods, Results, Conclusions, Acknowledgements; references to Supporting Information (Tables S1–S11, Figures S2–S3) and Figures 1–6, but these are not provided in the submitted material
+- **Missing materials affecting confidence** All figures, tables, and Supporting Information sections referenced in the text are absent. This includes benchmark data (Figure 3), phase diagrams (Figure 5), conformational ensembles (Figure 4), atomistic conversion results (Figure 6), and all parameter tables. Code repository is referenced but not reviewed.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful software tool for the condensate simulation community. The integration of multiple coarse-grained force fields into a single, GPU-accelerated framework addresses a real need. However, the core claims of efficiency, correctness, and utility cannot be fully evaluated from the provided text alone, as all quantitative evidence resides in missing figures and tables. The validation strategy is reasonable in principle, but the absence of data prevents a rigorous assessment of whether the implementation is correct and whether the performance claims are substantiated.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular biology who study biomolecular condensates, phase separation, and intrinsically disordered proteins. The tool lowers the barrier to entry for coarse-grained simulations, which is attractive to experimental groups seeking computational validation. The GPU acceleration claim is relevant to those with access to GPU clusters but limited CPU resources.
+- **Major strengths** 
+  1. Addresses a clear gap in software availability for condensate simulations.
+  2. Implements multiple established force fields in one framework, facilitating cross-comparison.
+  3. Integration with OpenMM leverages a widely used, well-maintained MD engine.
+  4. Provides Python scripting and tutorials, which should reduce the learning curve.
+  5. Includes a pathway from coarse-grained to atomistic simulations, which is valuable for downstream analysis.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "OpenMM single GPU performance matches GROMACS with hundreds of CPUs in the first four systems" and "OpenMM is less sensitive to the simulation setup and retains superior performance."
+  - **Evidence pointer** Figure 3; Supporting Information Section: Benchmarking the performance of condensate simulations (not provided)
+  - **Concern** The performance claim is central to the paper's value proposition, but the benchmark data are not available in the submitted material. The claim that a single GPU matches hundreds of CPUs is strong and requires careful benchmarking with defined system sizes, hardware specifications, and simulation parameters. The comparison with GROMACS is also complicated by the use of different integrators and nonbonded interaction treatments, which the authors acknowledge but do not quantify.
+  - **Why it matters** If the performance claim is overstated or only holds under narrow conditions, the practical utility of OpenABC is diminished. The claim also implies a specific advantage over CPU-based approaches that must be reproducible by users.
+  - **Resolution test** Provide the benchmark figure and table with full details: system composition, number of particles, GPU model, CPU count and type, GROMACS version and settings, and wall-clock times. Show scaling behavior for at least one system. Ideally, include a reproducibility statement or script.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "OpenABC produces statistically indistinguishable results on the phase behavior of protein condensates as in previous studies."
+  - **Evidence pointer** Figure 5; Tables S10 and S11; Figures S2 and S3 (not provided)
+  - **Concern** The phase diagram validation is a key demonstration that the force field implementations are correct. However, the actual phase diagrams, fitted critical temperatures, and statistical comparison with previous results are not shown. The text reports critical temperatures for four proteins, but without the underlying data, it is impossible to assess whether the agreement is genuine or coincidental. The fitting procedure (Equation 1) is described, but the quality of the fits and the uncertainty in Tc are not reported.
+  - **Why it matters** Incorrect force field implementation would produce misleading phase behavior, undermining the tool's reliability. The claim of statistical indistinguishability requires a quantitative comparison, not just a qualitative statement.
+  - **Resolution test** Provide the phase diagram figures, the fitted Tc values with error bars, and a statistical test (e.g., overlap of confidence intervals) comparing OpenABC results with those from GROMACS and HOOMD-Blue. Include the density profiles used for the fits.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The potential energies evaluated using MOFF from OpenABC match those reported by GROMACS" and "the two sets of energies match exactly" for HPS.
+  - **Evidence pointer** Tables S7 and S9 (not provided)
+  - **Concern** Energy validation is a standard and necessary check, but the results are only referenced, not shown. The claim of "exact" match for HPS is surprising given that different software packages often have subtle differences in energy evaluation (e.g., cutoff schemes, long-range corrections). The authors mention tabulated functions in GROMACS as a source of minor differences for MOFF, but the magnitude of these differences is not quantified.
+  - **Why it matters** Energy consistency is a prerequisite for trusting any downstream simulation results. Without the data, the reader cannot judge whether the differences are negligible or significant.
+  - **Resolution test** Provide the energy comparison tables with numerical values, the configurations used, and the exact energy function terms compared. State the tolerance for agreement and discuss any systematic deviations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** "We introduce OpenABC, a software package that greatly simplifies the setup and execution of coarse-grained condensate simulations with multiple force fields using Python scripting."
+  - **Evidence pointer** Introduction; Results section "Flexible biomolecular simulations with diverse force fields"
+  - **Concern** The manuscript does not clearly articulate how OpenABC differs from existing tools beyond the specific force field implementations. The authors mention that 3SPN.2C is already implemented in OpenMM, and other coarse-grained simulation tools exist (e.g., LAMMPS, HOOMD-Blue). The novelty appears to be the integration and convenience, but this is not framed as a distinct contribution. The paper would benefit from a more explicit comparison with existing software and a statement of what is genuinely new.
+  - **Why it matters** For a software paper, the novelty and contribution to the community must be clearly defined. If the tool is primarily a wrapper around existing engines, the scientific contribution is incremental.
+  - **Resolution test** Add a section or paragraph that systematically compares OpenABC with existing tools (e.g., HOOMD-Blue, LAMMPS, GROMACS with custom topologies) in terms of setup time, feature set, and performance. Clarify which aspects are new and which are repackaged.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes familiarity with condensate biology and coarse-grained modeling. Terms like "IDPs," "HPS," "MOFF," and "MRG-CG" are used without definition at first mention.
+  - **Required correction** Define all acronyms at first use and provide a brief explanation of what coarse-grained models are and why they are used for condensates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, "Details of molecular dynamics simulations"
+  - **Issue** The Methods section describes simulation parameters but does not provide the exact commands or input files needed to reproduce the simulations. The reference to the GitHub repository is helpful, but the manuscript should state the version of the code used and any specific environment requirements.
+  - **Required correction** Add a "Data and code availability" statement that includes the exact version of OpenABC, OpenMM, and GROMACS used, and a link to a tagged release or a specific commit.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Computing phase diagrams from slab simulations"
+  - **Evidence pointer** Equation 1
+  - **Issue** The fitting equation is presented without justification for the choice of β = 0.325. While this is a standard value for 3D Ising universality, the authors should cite the relevant literature and discuss whether this assumption is valid for their systems.
+  - **Required correction** Add a citation for the universal exponent and a brief discussion of its applicability to polymer phase separation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Results, "Application: Atomistic simulation of protein condensates"
+  - **Evidence pointer** Figure 6 (not provided)
+  - **Issue** The description of the atomistic conversion is brief. The claim that the system "relaxes with a continuously decreasing potential energy" is not a strong validation of structural equilibration. A more meaningful metric would be the root-mean-square deviation of the protein structure or the density profile of the condensate.
+  - **Required correction** Provide additional analysis of the atomistic simulation, such as structural stability metrics or a comparison of the condensate density before and after conversion.
+- **Technical failings that need to be addressed before the case is established** 
+  - R1-M1: Performance benchmark data missing.
+  - R1-M2: Phase diagram validation data missing.
+  - R1-M3: Energy comparison data missing.
+  - R1-M4: Lack of clear novelty statement relative to existing tools.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The integration of multiple force fields into a single package is useful, but the individual components are not new. The paper does not clearly articulate a novel scientific insight or methodological advance beyond convenience.
+  - **Scientific importance** Moderate. The tool addresses a practical need in a growing field, but the scientific findings are validation results, not new discoveries about condensates.
+  - **Interdisciplinary readership** Limited. The paper is primarily of interest to computational biophysicists and physical chemists. The writing assumes significant domain expertise.
+  - **Technical soundness** Cannot be fully assessed. The validation strategy is appropriate, but the absence of all quantitative data prevents verification of the claims.
+  - **Readability for nonspecialists** Below the standard for a general journal. The paper is written for a specialist audience and does not provide sufficient context for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially valuable tool, but the core claims of efficiency, correctness, and utility are not verifiable without the missing figures and tables. The authors should be encouraged to resubmit with the full data and a clearer statement of novelty.
+
+## Risk / unsupported claims
+- "OpenMM single GPU performance matches GROMACS with hundreds of CPUs" — unsupported, benchmark data not provided.
+- "OpenABC produces statistically indistinguishable results on the phase behavior of protein condensates as in previous studies" — unsupported, phase diagram data not provided.
+- "The potential energies evaluated using MOFF from OpenABC match those reported by GROMACS" — unsupported, energy comparison tables not provided.
+- "The two sets of energies match exactly" (for HPS) — unsupported, and the claim of "exact" match is suspicious given known differences between software packages.
+- "The system relaxes with a continuously decreasing potential energy and remains stable afterward" — weak evidence for equilibration; no structural metrics provided.
+- "New force fields can be quickly introduced within the framework" — plausible but not demonstrated with an example.

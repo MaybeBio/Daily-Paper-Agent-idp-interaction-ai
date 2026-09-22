@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "37662293",
+    "doi": "10.1101/2023.08.22.554378",
+    "title": "Accurate Simulation of Coupling between Protein Secondary Structure and Liquid-Liquid Phase Separation."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) frequently mediate liquid-liquid phase separation (LLPS) that underlies the formation of membraneless organelles. Together with theory and experiment, efficient coarse-grained (CG) simulations have been instrumental in understanding sequence-specific phase separation of IDPs. However, the widely-used Calpha-only models are severely limited in capturing the peptide nature of IDPs, including backbone-mediated interactions and effects of secondary structures, in LLPS. Here, we describe a hybrid resolution (HyRes) protein model for accurate description of the backbone and transient secondary structures in LLPS. With an atomistic backbone and coarse-grained side chains, HyRes accurately predicts the residue helical propensity and chain dimension of monomeric IDPs. Using GY-23 as a model system, we show that HyRes is efficient enough for direct simulation of spontaneous phase separation, and at the same time accurate enough to resolve the effects of single mutations. HyRes simulations also successfully predict increased beta-sheet formation in the condensate, consistent with available experimental data. We further utilize HyRes to study the phase separation of TPD-43, where several disease-related mutants in the conserved region (CR) have been shown to affect residual helicities and modulate LLPS propensity. The simulations successfully recapitulate the effect of these mutants on the helicity and LLPS propensity of TDP-43 CR. Analyses reveal that the balance between backbone and sidechain-mediated interactions, but not helicity itself, actually determines LLPS propensity. We believe that the HyRes model represents an important advance in the molecular simulation of LLPS and will help elucidate the coupling between IDP transient secondary structures and phase separation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yumeng",
+        "Li, Shanlong",
+        "Gong, Xiping",
+        "Chen, Jianhan"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Li S",
+        "Gong X",
+        "Chen J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA.",
+        "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA.",
+        "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA.",
+        "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yumeng",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Shanlong",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA."
+        ]
+      },
+      {
+        "full_name": "Gong, Xiping",
+        "short_name": "Gong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianhan",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA 01003, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Aug 23",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/04 06:43",
+    "fetched_at": "2026-09-21 01:08:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37662293",
+      "38112495",
+      "29186229",
+      "36083825",
+      "38546977",
+      "33139563",
+      "38979955",
+      "39342654",
+      "33453922",
+      "34716273",
+      "33934416",
+      "33876938",
+      "29511089",
+      "38950000",
+      "33684117",
+      "38356260",
+      "33555894",
+      "33260713",
+      "35944496",
+      "34984754",
+      "32393642",
+      "36066390",
+      "36350034",
+      "35142991",
+      "33582133",
+      "29364893",
+      "37815389",
+      "33302617",
+      "31911439",
+      "36227468",
+      "37398035",
+      "37189373",
+      "35883530",
+      "36711093",
+      "33890467",
+      "33264400",
+      "38348795",
+      "28988034",
+      "33686854",
+      "38526948",
+      "35575335",
+      "34179096",
+      "37290157",
+      "31139718",
+      "34522448",
+      "33403854",
+      "38322526",
+      "32824618",
+      "36524527",
+      "38862770",
+      "38512104",
+      "37794023",
+      "31341602",
+      "37222424",
+      "35505868",
+      "17949219",
+      "34106723",
+      "31784535",
+      "38252962",
+      "33076213",
+      "32132204",
+      "38042897",
+      "34206440",
+      "36343363",
+      "36444977",
+      "33809541",
+      "39148776",
+      "36018855",
+      "34428231",
+      "31941785",
+      "30217894",
+      "32696384",
+      "38205268",
+      "37287828",
+      "30528464",
+      "36702825",
+      "36920190",
+      "37579155",
+      "32312191",
+      "30865832",
+      "37634152",
+      "30397688",
+      "36227467",
+      "37735903",
+      "31691822",
+      "33078950",
+      "34001913",
+      "37668019",
+      "33517364",
+      "34431665",
+      "31444270",
+      "32615218",
+      "36768473",
+      "37494702",
+      "38547652",
+      "29526694",
+      "36471564",
+      "33982369",
+      "29397728",
+      "39421885",
+      "35795820",
+      "37292850",
+      "33442696",
+      "34214535",
+      "38978442",
+      "34164013",
+      "39387162",
+      "34373367",
+      "32802734"
+    ],
+    "review": [
+      "37662293",
+      "38979955",
+      "33260713",
+      "36350034",
+      "35142991",
+      "31911439",
+      "38348795",
+      "34522448",
+      "32824618",
+      "36524527",
+      "32312191",
+      "37735903",
+      "31444270",
+      "38547652"
+    ],
+    "pmc": [
+      "10473686"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37662293/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37662293",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.08.22.554378",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

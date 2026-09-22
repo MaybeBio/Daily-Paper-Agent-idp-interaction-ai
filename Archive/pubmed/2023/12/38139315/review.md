@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results and discussion, materials and methods, and conclusions.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript content. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors report the identification of short peptides that bind to the 20S proteasome core particle (CP) via in vitro artificial evolution using cDNA display. A lead peptide, 20S-BP1(1-12), inhibits SDS-activated 20S CP activity but activates the latent 20S CP, and a C-terminal HbYX motif variant enhances activation. Photoaffinity labeling implicates the α1 and β4 subunits. Fusion of the peptide to α-synuclein accelerates its degradation by the 20S CP in vitro. Docking and molecular dynamics simulations suggest stable binding near the α-ring gate.
+- **Visible evidence base** Figures 1–8 and Tables 1–2 as referenced in the text; Supplementary Figures S1–S11 and Table S1 are mentioned but not provided in the supplied material.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S11, Table S1) are referenced but not included, limiting verification of key data such as structure-activity relationships, photoaffinity labeling details, and simulation results. Raw sequencing data, full MST binding curves, and statistical details for replicate experiments are not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting approach to identifying 20S CP-binding peptides using cDNA display, with a plausible link to gate opening and enhanced substrate degradation. However, several technical concerns, particularly regarding the interpretation of activation versus inhibition, the specificity of photoaffinity labeling, and the physiological relevance of the intracellular assays, weaken the current evidence. The conclusions are partially supported but require additional experimental validation and clarification.
+- **Who would be interested in the results, and why** Researchers studying proteasome regulation, ubiquitin-independent protein degradation, and peptide-based modulators of proteasome function. The work may also interest those developing tools for targeted protein degradation or investigating the molecular basis of 20S CP substrate recognition.
+- **Major strengths** The use of in vitro artificial evolution to discover 20S CP-binding peptides is a novel approach. The demonstration that a peptide can both inhibit and activate 20S CP depending on assay conditions is intriguing. The combination of biochemical assays, photoaffinity labeling, and computational modeling provides a multi-faceted characterization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The peptide 20S-BP1(1-12) activates the latent 20S CP, with ACmax reaching 1215% at 10 μM.
+  - **Evidence pointer** Section 2.3, Figure 3b, Table 1
+  - **Concern** The activation data show a bell-shaped dose-response curve, but the manuscript does not explain the mechanism underlying the decrease in activation at higher concentrations. Additionally, the assay uses a fluorogenic peptide substrate, which may not reflect the degradation of full-length protein substrates. The physiological relevance of such high activation levels is unclear.
+  - **Why it matters** If the activation is an artifact of the assay conditions or substrate, the claim that these peptides open the gate for substrate entry would be overstated. A bell-shaped curve could indicate aggregation, off-target effects, or substrate inhibition, none of which are addressed.
+  - **Resolution test** Provide a detailed mechanistic explanation for the bell-shaped curve, including controls for peptide aggregation or precipitation. Validate activation using a full-length protein substrate, such as α-synuclein, in a degradation assay without SDS.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Photoaffinity labeling identifies α1 and β4 subunits as the binding sites for 20S-BP1(5-12).
+  - **Evidence pointer** Section 2.5, Figure 5, Table S1
+  - **Concern** The photoaffinity labeling experiments are described, but the specificity of the labeling is not rigorously demonstrated. The manuscript does not show whether the labeling is competed by excess unmodified peptide, nor does it quantify the stoichiometry of labeling. The identification of β4, which is not on the α-ring surface, is explained as being due to substrate entry, but this is speculative.
+  - **Why it matters** Without demonstrating specific binding, the conclusion that the peptide acts at the K-pocket of α1 is not firmly established. The β4 labeling could be a non-specific artifact or due to peptide degradation products.
+  - **Resolution test** Perform competition experiments with unlabeled peptide to show specific binding. Use site-directed mutagenesis of the K-pocket residues to confirm the binding site. Provide quantitative mass spectrometry data to support the identification of α1 and β4.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The identified peptides may function as a key to control the opening of the α-ring gate, with potential therapeutic applications.
+  - **Evidence pointer** Section 2.9, Conclusions
+  - **Concern** The manuscript speculates on therapeutic potential, but no in vivo or cellular data beyond a single cell viability assay are provided. The claim that these peptides could be developed into therapeutics is premature without evidence of stability, specificity, or efficacy in disease models.
+  - **Why it matters** Overstating therapeutic implications without supporting data could mislead readers and detract from the more solid biochemical findings.
+  - **Resolution test** Either remove or temper the therapeutic claims, or provide additional data on peptide stability, cellular uptake, and effects on proteasome activity in relevant disease models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction assumes familiarity with proteasome terminology (e.g., CP, 19S RP, HbYX motif) without defining all terms for a broader audience.
+  - **Required correction** Define abbreviations and key terms at first use, and provide a brief schematic or description of the 20S CP structure and function.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Table 1
+  - **Issue** The IC50 values are reported with standard deviations, but the number of replicates is not stated. It is unclear if the differences between analogs are statistically significant.
+  - **Required correction** State the number of independent experiments and perform statistical analysis (e.g., t-tests) to support claims of differential potency.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.8
+  - **Evidence pointer** Figure 9, Figure S10
+  - **Issue** The docking and MD simulation results are described, but the manuscript does not provide convergence criteria for the MD simulations or error estimates for the RMSD/RMSF values.
+  - **Required correction** Include details on simulation convergence (e.g., RMSD plateau) and provide error bars or standard deviations for the calculated values.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The activation mechanism and binding site specificity must be clarified with additional experiments. The lack of supplementary data also hampers full evaluation.
+- **Assessment against Nature-style criteria** Originality: The use of cDNA display for 20S CP-binding peptides is novel and could be of interest. Scientific importance: The findings are relevant to understanding 20S CP regulation, but the therapeutic implications are overstated. Interdisciplinary readership: The work may appeal to biochemists, cell biologists, and drug developers, but the presentation is somewhat specialized. Technical soundness: The biochemical assays are generally sound, but the activation mechanism and binding site identification require stronger evidence. Readability for nonspecialists: The manuscript is dense and assumes prior knowledge; improvements in clarity are needed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, but the current evidence does not fully establish the mechanism of action or the specificity of the peptide binding. Additional experiments and clarifications are required before the claims can be accepted.
+
+## Risk / unsupported claims
+- The claim that 20S-BP1(1-12) activates the latent 20S CP to 1215% is not fully supported without a mechanistic explanation for the bell-shaped curve and validation with protein substrates.
+- The identification of α1 and β4 as binding subunits is not rigorously established due to lack of competition controls and potential non-specific labeling.
+- The therapeutic potential of the peptides is speculative and not supported by in vivo or disease-relevant data.
+- The docking and MD simulation results are presented without sufficient detail on convergence and statistical robustness, making them difficult to evaluate.

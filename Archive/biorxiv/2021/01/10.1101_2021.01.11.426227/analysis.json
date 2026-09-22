@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.11.426227",
+  "title": "Microsecond simulations and CD spectroscopy reveals the intrinsically disordered nature of SARS-CoV-2 Spike-C-terminal cytoplasmic tail (residues 1242-1273) in isolation",
+  "authors": "Kumar P; Bhardwaj T; Garg N; Giri R",
+  "journal": "bioRxiv",
+  "published_date": "2021-01-11",
+  "window": {
+    "start": "2021-01-11",
+    "end": "2021-01-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过微秒级分子动力学模拟和CD光谱证实SARS-CoV-2刺突蛋白胞质尾区在分离状态下的内在无序性，虽聚焦IDP构象动态但未涉及PPI或互作机制建模，方法上以物理模拟为主。",
+  "abstract": "All available SARS-CoV-2 spike protein crystal and cryo-EM structures have shown missing electron densities for cytosolic C-terminal regions. Generally, the missing electron densities point towards the intrinsically disordered nature of the protein region. This curiosity has led us to investigate the C terminal cytosolic region of the spike glycoprotein of SARS-CoV-2 in isolation. The cytosolic regions is supposed to be from 1235-1273 residues or 1242-1273 residues depending on what prediction tool we use. Therefore, we have demonstrated the structural conformation of cytosolic region and its dynamics through computer simulations up to microsecond timescale using OPLS and CHARMM forcefields. The simulations have revealed the unstructured conformation of cytosolic region. Also, in temperature dependent replica-exchange molecular dynamics simulations it has shown its conformational dynamics. Further, we have validated our computational observations with circular dichroism (CD) spectroscopy-based experiments and found its signature spectra at 198 nm which is also adding the analysis as its intrinsically disordered nature. We believe that our findings will surely help us understand the structure-function relationship of the spike protein’s cytosolic region. <h4>Graphical Abstract</h4>",
+  "abstract_zh": "所有可用的SARS-CoV-2刺突蛋白晶体及冷冻电镜结构均显示，胞质C末端区域存在缺失的电子密度。通常，这些缺失的电子密度指向该蛋白区域的内在无序特性。这一现象促使我们单独研究SARS-CoV-2刺突糖蛋白的C末端胞质区域。根据所使用的预测工具不同，该胞质区域可能对应1235-1273残基或1242-1273残基。因此，我们通过使用OPLS和CHARMM力场进行长达微秒时间尺度的计算机模拟，展示了该胞质区域的结构构象及其动态变化。模拟揭示了该胞质区域的无序构象。此外，在温度依赖性副本交换分子动力学模拟中，其构象动态也得到了体现。进一步，我们通过基于圆二色光谱（CD）的实验验证了计算观察结果，并在198纳米处发现了其特征光谱，这进一步支持了其内在无序性质的结论。我们相信，这些发现将有助于理解刺突蛋白胞质区域的结构-功能关系。<h4>图形摘要</h4>",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.11.426227",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.11.426227",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.11.426227/index.html"
+}

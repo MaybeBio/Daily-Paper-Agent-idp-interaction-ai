@@ -1,0 +1,410 @@
+{
+  "identity": {
+    "pmid": "36303799",
+    "doi": "10.3389/fbinf.2021.805338",
+    "title": "MycoVarP: Mycobacterium Variant and Drug Resistance Prediction Pipeline for Whole-Genome Sequence Data Analysis."
+  },
+  "content": {
+    "abstract": "Whole-genome sequencing (WGS) provides a comprehensive tool to analyze the bacterial genomes for genotype-phenotype correlations, diversity of single-nucleotide variant (SNV), and their evolution and transmission. Several online pipelines and standalone tools are available for WGS analysis of Mycobacterium tuberculosis (Mtb) complex (MTBC). While they facilitate the processing of WGS data with minimal user expertise, they are either too general, providing little insights into bacterium-specific issues such as gene variations, INDEL/synonymous/PE-PPE (IDP family), and drug resistance from sample data, or are limited to specific objectives, such as drug resistance. It is understood that drug resistance and lineage-specific issues require an elaborate prioritization of identified variants to choose the best target for subsequent therapeutic intervention. Mycobacterium variant pipeline (MycoVarP) addresses these specific issues with a flexible battery of user-defined and default filters. It provides an end-to-end solution for WGS analysis of Mtb variants from the raw reads and performs two quality checks, viz, before trimming and after alignments of reads to the reference genome. MycoVarP maps the annotated variants to the drug-susceptible (DS) database and removes the false-positive variants, provides lineage identification, and predicts potential drug resistance. We have re-analyzed the WGS data reported by Advani et al. (2019) using MycoVarP and identified some additional variants not reported so far. We conclude that MycoVarP will help in identifying nonsynonymous, true-positive, drug resistance-associated variants more effectively and comprehensively, including those within the IDP of the PE-PPE/PGRS family, than possible from the currently available pipelines.",
+    "keywords": [
+      "MDR-TB",
+      "Mycobacterium tuberculosis",
+      "PE-PPE/PGRS family",
+      "drug resistance",
+      "drug susceptible",
+      "lineage prediction",
+      "single-nucleotide variants"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Swargam, Sandeep",
+        "Kumari, Indu",
+        "Kumar, Amit",
+        "Pradhan, Dibyabhaba",
+        "Alam, Anwar",
+        "Singh, Harpreet",
+        "Jain, Anuja",
+        "Devi, Kangjam Rekha",
+        "Trivedi, Vishal",
+        "Sarma, Jogesh",
+        "Hanif, Mahmud",
+        "Narain, Kanwar",
+        "Ehtesham, Nasreen Zafar",
+        "Hasnain, Seyed Ehtesham",
+        "Ahmad, Shandar"
+      ],
+      "short_names": [
+        "Swargam S",
+        "Kumari I",
+        "Kumar A",
+        "Pradhan D",
+        "Alam A",
+        "Singh H",
+        "Jain A",
+        "Devi KR",
+        "Trivedi V",
+        "Sarma J",
+        "Hanif M",
+        "Narain K",
+        "Ehtesham NZ",
+        "Hasnain SE",
+        "Ahmad S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemical Engineering and Biotechnology, Indian Institute of Technology, Hauz Khas, New Delhi, India.",
+        "Department of Molecular Medicine, School of Interdisciplinary Sciences, Jamia Hamdard, New Delhi, India.",
+        "Inflammation Biology and Cell Signalling Lab, Safdarjung Hospital Campus, ICMR National Institute of Pathology, New Delhi, India.",
+        "ICMR Computational Genomics Centre, Informatics Systems and Research Management (ISRM) Division, Indian Council of Medical Research (ICMR), New Delhi, India.",
+        "ICMR Computational Genomics Centre, Informatics Systems and Research Management (ISRM) Division, Indian Council of Medical Research (ICMR), New Delhi, India.",
+        "Inflammation Biology and Cell Signalling Lab, Safdarjung Hospital Campus, ICMR National Institute of Pathology, New Delhi, India.",
+        "ICMR Computational Genomics Centre, Informatics Systems and Research Management (ISRM) Division, Indian Council of Medical Research (ICMR), New Delhi, India.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi, India.",
+        "ICMR-Regional Medical Research Centre, Dibrugarh, India.",
+        "Department of Biosciences and Bioengineering, Indian Institute of Technology-Guwahati, Guwahati, India.",
+        "Department of Pulmonary Medicine, Guwahati, India.",
+        "New Delhi Tuberculosis Centre, New Delhi, India.",
+        "ICMR-Regional Medical Research Centre, Dibrugarh, India.",
+        "Inflammation Biology and Cell Signalling Lab, Safdarjung Hospital Campus, ICMR National Institute of Pathology, New Delhi, India.",
+        "Department of Biochemical Engineering and Biotechnology, Indian Institute of Technology, Hauz Khas, New Delhi, India.",
+        "Department of Life Sciences, Sharda University, Greater NOIDA, India.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Swargam, Sandeep",
+        "short_name": "Swargam S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Engineering and Biotechnology, Indian Institute of Technology, Hauz Khas, New Delhi, India.",
+          "Department of Molecular Medicine, School of Interdisciplinary Sciences, Jamia Hamdard, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Kumari, Indu",
+        "short_name": "Kumari I",
+        "identifiers": [],
+        "affiliations": [
+          "Inflammation Biology and Cell Signalling Lab, Safdarjung Hospital Campus, ICMR National Institute of Pathology, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Amit",
+        "short_name": "Kumar A",
+        "identifiers": [],
+        "affiliations": [
+          "ICMR Computational Genomics Centre, Informatics Systems and Research Management (ISRM) Division, Indian Council of Medical Research (ICMR), New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Pradhan, Dibyabhaba",
+        "short_name": "Pradhan D",
+        "identifiers": [],
+        "affiliations": [
+          "ICMR Computational Genomics Centre, Informatics Systems and Research Management (ISRM) Division, Indian Council of Medical Research (ICMR), New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Alam, Anwar",
+        "short_name": "Alam A",
+        "identifiers": [],
+        "affiliations": [
+          "Inflammation Biology and Cell Signalling Lab, Safdarjung Hospital Campus, ICMR National Institute of Pathology, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Harpreet",
+        "short_name": "Singh H",
+        "identifiers": [],
+        "affiliations": [
+          "ICMR Computational Genomics Centre, Informatics Systems and Research Management (ISRM) Division, Indian Council of Medical Research (ICMR), New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Jain, Anuja",
+        "short_name": "Jain A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Devi, Kangjam Rekha",
+        "short_name": "Devi KR",
+        "identifiers": [],
+        "affiliations": [
+          "ICMR-Regional Medical Research Centre, Dibrugarh, India."
+        ]
+      },
+      {
+        "full_name": "Trivedi, Vishal",
+        "short_name": "Trivedi V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences and Bioengineering, Indian Institute of Technology-Guwahati, Guwahati, India."
+        ]
+      },
+      {
+        "full_name": "Sarma, Jogesh",
+        "short_name": "Sarma J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pulmonary Medicine, Guwahati, India."
+        ]
+      },
+      {
+        "full_name": "Hanif, Mahmud",
+        "short_name": "Hanif M",
+        "identifiers": [],
+        "affiliations": [
+          "New Delhi Tuberculosis Centre, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Narain, Kanwar",
+        "short_name": "Narain K",
+        "identifiers": [],
+        "affiliations": [
+          "ICMR-Regional Medical Research Centre, Dibrugarh, India."
+        ]
+      },
+      {
+        "full_name": "Ehtesham, Nasreen Zafar",
+        "short_name": "Ehtesham NZ",
+        "identifiers": [],
+        "affiliations": [
+          "Inflammation Biology and Cell Signalling Lab, Safdarjung Hospital Campus, ICMR National Institute of Pathology, New Delhi, India."
+        ]
+      },
+      {
+        "full_name": "Hasnain, Seyed Ehtesham",
+        "short_name": "Hasnain SE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemical Engineering and Biotechnology, Indian Institute of Technology, Hauz Khas, New Delhi, India.",
+          "Department of Life Sciences, Sharda University, Greater NOIDA, India."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Shandar",
+        "short_name": "Ahmad S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/29 06:00",
+    "fetched_at": "2026-09-20 16:11:39"
+  },
+  "links": {
+    "cites": [
+      "40258039",
+      "38900606"
+    ],
+    "refs": [
+      "34446095",
+      "34034257",
+      "33753222",
+      "33042856",
+      "33042066",
+      "32907992",
+      "32741530",
+      "32518235",
+      "32081980",
+      "32055708",
+      "31980371",
+      "31659018",
+      "31616478",
+      "31513651",
+      "31420303",
+      "31336202",
+      "31234910",
+      "31221810",
+      "31209399",
+      "31047860",
+      "30981926",
+      "30938706",
+      "30914757",
+      "30863380",
+      "30718257",
+      "30479891",
+      "30341162",
+      "30280646",
+      "29941636",
+      "29921671",
+      "29769016",
+      "28666374",
+      "28361668",
+      "28298449",
+      "28118812",
+      "26686880",
+      "26559594",
+      "26542225",
+      "25854485",
+      "25708825",
+      "25297886",
+      "24731071",
+      "24695404",
+      "24376861",
+      "24106104",
+      "22728672",
+      "22496726",
+      "22005451",
+      "21277778",
+      "20601685",
+      "19505943",
+      "17105670",
+      "16585648",
+      "15980478",
+      "12037045"
+    ],
+    "similar": [
+      "36303799",
+      "31793500",
+      "31847944",
+      "33862292",
+      "28043601",
+      "35467406",
+      "26655202",
+      "24425732",
+      "36819039",
+      "30337678",
+      "35211720",
+      "29050774",
+      "30817803",
+      "26565975",
+      "35171016",
+      "37876785",
+      "31234910",
+      "22496726",
+      "34962257",
+      "31706080",
+      "30980928",
+      "35924839",
+      "31980371",
+      "34166469",
+      "26669893",
+      "38019772",
+      "28043590",
+      "30172045",
+      "30479891",
+      "32200129",
+      "31307387",
+      "34970617",
+      "29906261",
+      "27695670",
+      "34699523",
+      "30922221",
+      "24324807",
+      "35624432",
+      "32732329",
+      "30382014",
+      "28692415",
+      "32579102",
+      "34729015",
+      "28043631",
+      "24923884",
+      "32279871",
+      "20077859",
+      "35138128",
+      "26854371",
+      "35311541",
+      "31523514",
+      "35392842",
+      "34922550",
+      "31881359",
+      "33194387",
+      "31991222",
+      "31039166",
+      "35658579",
+      "29108952",
+      "33753222",
+      "24408216",
+      "23424287",
+      "30670422",
+      "29116629",
+      "30115606",
+      "31121336",
+      "31243306",
+      "26980491",
+      "34287002",
+      "33009560",
+      "31996208",
+      "25297886",
+      "29031637",
+      "28043616",
+      "35989319",
+      "29050768",
+      "34938276",
+      "27518818",
+      "29805878",
+      "27789378",
+      "33332257",
+      "22218163",
+      "26496891",
+      "35209842",
+      "29559684",
+      "36945432",
+      "37745420",
+      "38979289"
+    ],
+    "review": [
+      "36303799",
+      "30980928",
+      "29108952",
+      "29116629",
+      "33009560"
+    ],
+    "pmc": [
+      "9580932"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36303799/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36303799",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbinf.2021.805338",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

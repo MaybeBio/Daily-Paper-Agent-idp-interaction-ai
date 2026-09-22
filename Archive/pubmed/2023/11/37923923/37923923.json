@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "37923923",
+    "doi": "10.1038/s41598-023-46181-1",
+    "title": "Conformational dynamics of alpha-synuclein and study of its intramolecular forces in the presence of selected compounds."
+  },
+  "content": {
+    "abstract": "Protein misfolding and aggregation play crucial roles in amyloidogenic diseases through the self-assembly of intrinsically disordered proteins (IDPs) in type II diabetes (T2D), Alzheimer's disease (AD) and Parkinson's disease (PD). PD is the most common neurodegenerative disorder after AD, and is associated with the loss of dopaminergic signaling, which causes motor and nonmotor signs and symptoms. Lewy bodies and Lewy neurites are common pathological hallmarks of PD that are mainly composed of aggregates of disordered alpha-synuclein (alpha-Syn). There have been many efforts to develop chemical compounds to prevent aggregation or facilitate disruption of the aggregates. Furthermore, the roles and interactions of many compounds have yet to be revealed at the atomistic level, especially their impacts on the dynamics and chain-chain interactions of the oligomers, which are of interest in this study. The conformational diversity and detailed interactions among homo-oligomer chains of alpha-Syn are not fully discovered; identifying these might help uncover a practical approach to developing a potent therapy. In this study, we used an in-silico investigation to address the conformational diversity of alpha-Syn oligomer. The roles of several point mutations in protein aggregation in PD are known; we take this further by evaluating the interaction energies and contributions of all residues in stability and residue-chain interactions. In this study, we docked chemical derivatives of three compounds with high drug-likeness properties to evaluate the roles of our ligands in the conformational dynamicity of the oligomers, with emphasis on intramolecular forces. Free energy evaluation of the modeled inter and intramolecular interactions through MD simulation shows effective interaction and binding between alpha-Syn and our compounds. However, we find that they do not significantly disrupt the chain-chain interactions, compared to unliganded simulation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "alpha-Synuclein/metabolism",
+      "*Diabetes Mellitus, Type 2/metabolism",
+      "*Parkinson Disease/metabolism",
+      "Lewy Bodies/metabolism",
+      "*Alzheimer Disease/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Khatooni, Zahed",
+        "Akhtari, Keivan",
+        "Wilson, Heather L"
+      ],
+      "short_names": [
+        "Khatooni Z",
+        "Akhtari K",
+        "Wilson HL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan, Saskatoon, SK, S7N 5E3, Canada. lof045@mail.usask.ca.",
+        "Department of Physics, University of Kurdistan, P.O. Box 416, Sanandaj, Iran.",
+        "Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan, Saskatoon, SK, S7N 5E3, Canada.",
+        "Department of Veterinary Microbiology, Western College of Veterinary Medicine, University of Saskatchewan, Saskatoon, SK, S7N 5B4, Canada.",
+        "School of Public Health, Vaccinology & Immunotherapeutics Program, University of Saskatchewan, Saskatoon, SK, S7N 5B4, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Khatooni, Zahed",
+        "short_name": "Khatooni Z",
+        "identifiers": [],
+        "affiliations": [
+          "Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan, Saskatoon, SK, S7N 5E3, Canada. lof045@mail.usask.ca."
+        ]
+      },
+      {
+        "full_name": "Akhtari, Keivan",
+        "short_name": "Akhtari K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Kurdistan, P.O. Box 416, Sanandaj, Iran."
+        ]
+      },
+      {
+        "full_name": "Wilson, Heather L",
+        "short_name": "Wilson HL",
+        "identifiers": [],
+        "affiliations": [
+          "Vaccine and Infectious Disease Organization (VIDO), University of Saskatchewan, Saskatoon, SK, S7N 5E3, Canada.",
+          "Department of Veterinary Microbiology, Western College of Veterinary Medicine, University of Saskatchewan, Saskatoon, SK, S7N 5B4, Canada.",
+          "School of Public Health, Vaccinology & Immunotherapeutics Program, University of Saskatchewan, Saskatoon, SK, S7N 5B4, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2023 Nov 3",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/04 21:45",
+    "fetched_at": "2026-09-21 02:31:27"
+  },
+  "links": {
+    "cites": [
+      "40020199",
+      "39992906"
+    ],
+    "refs": [
+      "36623616",
+      "36268117",
+      "36240861",
+      "36172194",
+      "35836937",
+      "35616927",
+      "35362115",
+      "35327563",
+      "34750787",
+      "34636232",
+      "34208760",
+      "34147836",
+      "34015255",
+      "32392751",
+      "31575115",
+      "31427526",
+      "31235907",
+      "31055236",
+      "30941047",
+      "30249646",
+      "29900105",
+      "29844450",
+      "29843466",
+      "29780350",
+      "29577851",
+      "28869077",
+      "28636593",
+      "28504367",
+      "28256516",
+      "27819658",
+      "27747873",
+      "27218427",
+      "27075649",
+      "27018801",
+      "26561062",
+      "25904081",
+      "25382374",
+      "24981612",
+      "24850022",
+      "24739876",
+      "24477799",
+      "23509976",
+      "23505333",
+      "23341755",
+      "23282245",
+      "23254192",
+      "22735540",
+      "22632969",
+      "22326493",
+      "21342564",
+      "20385841",
+      "19744483",
+      "19147661",
+      "17623039",
+      "17212484",
+      "15615727",
+      "15100221",
+      "15096521",
+      "12834338",
+      "11517324",
+      "9600990",
+      "9197268",
+      "7857654"
+    ],
+    "similar": [
+      "37923923",
+      "30853581",
+      "38330847",
+      "37238596",
+      "22024360",
+      "36966976",
+      "35447272",
+      "21056999",
+      "37198991",
+      "19399246",
+      "18769546",
+      "30277753",
+      "30609739",
+      "25937088",
+      "29330884",
+      "28467708",
+      "26972727",
+      "23748003",
+      "32971232",
+      "30290273",
+      "32032728",
+      "23390095",
+      "34948195",
+      "34556785",
+      "23714377",
+      "32681494",
+      "33579836",
+      "26479553",
+      "32116096",
+      "35390347",
+      "10465711",
+      "35143968",
+      "39251364",
+      "32041489",
+      "18925724",
+      "28057070",
+      "27982082",
+      "29422109",
+      "35787838",
+      "23899170",
+      "27737778",
+      "22483285",
+      "27364962",
+      "20148295",
+      "16947080",
+      "22326202",
+      "28024449",
+      "30422353",
+      "31900358",
+      "25616660",
+      "30482039",
+      "33186020",
+      "26057626",
+      "31142553",
+      "29851342",
+      "27112900",
+      "30917654",
+      "18238775",
+      "26193328",
+      "36460239",
+      "33373595",
+      "34871547",
+      "28386933",
+      "31186086",
+      "33332736",
+      "23532841",
+      "35733294",
+      "33639338",
+      "32138193",
+      "20005574",
+      "36830639",
+      "32075919",
+      "9743579",
+      "10878583",
+      "37189428",
+      "34292621",
+      "18386627",
+      "22771474",
+      "30046897",
+      "34582997",
+      "31925956",
+      "20500090",
+      "27658511",
+      "32350746",
+      "33772424",
+      "29111367",
+      "30481588",
+      "18382667",
+      "23938255",
+      "22697251",
+      "32732936",
+      "39046235",
+      "39175373"
+    ],
+    "review": [
+      "37923923",
+      "30853581",
+      "22024360",
+      "36966976",
+      "35447272",
+      "37198991",
+      "19399246",
+      "30609739",
+      "26972727",
+      "23748003",
+      "23390095",
+      "32681494",
+      "32116096",
+      "35143968",
+      "18925724",
+      "35787838",
+      "23899170",
+      "27737778",
+      "22483285",
+      "30482039",
+      "26057626",
+      "27112900",
+      "26193328",
+      "36460239",
+      "33373595",
+      "31186086",
+      "33332736",
+      "35733294",
+      "32138193",
+      "10878583",
+      "18386627",
+      "34582997",
+      "20500090",
+      "27658511",
+      "30481588"
+    ],
+    "pmc": [
+      "10624887"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-023-46181-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37923923/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37923923",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

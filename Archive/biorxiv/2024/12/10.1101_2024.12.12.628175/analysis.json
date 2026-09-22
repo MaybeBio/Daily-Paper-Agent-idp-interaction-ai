@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.12.628175",
+  "title": "Protein Language Model Identifies Disordered, Conserved Motifs Implicated in Phase Separation",
+  "authors": "Yumeng Zhang; Jared Zheng; Bin Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-13",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用ESM2蛋白语言模型预测无序区域(IDR)的突变耐受图谱，识别参与相分离的保守无序基序（含stickers和spacers），揭示其作为功能单元受进化选择以支持凝聚体形成，直接契合无序蛋白、相分离与AI方法三轴，且聚焦序列-相分离机制建模。",
+  "abstract": "Intrinsically disordered regions (IDRs) play a critical role in phase separation and are essential for the formation of membraneless organelles (MLOs). Mutations within IDRs can disrupt their multivalent interaction networks, altering phase behavior and contributing to various diseases. Therefore, examining the evolutionary constraints of IDRs provides valuable insights into the relationship between protein sequences and phase separation. In this study, we utilized the ESM2 protein language model to map the residue-level mutational tolerance landscapes landscape of IDRs. Our findings reveal that IDRs, particularly those actively participating in phase separation, contain conserved amino acids. This conservation is evident through mutational constraints predicted by ESM2 and supported by direct analyses of multiple sequence alignments. These conserved, disordered amino acids include residues traditionally identified as “stickers” as well as “spacers” and frequently form continuous sequence motifs. The strong conservation, combined with their potential role in phase separation, suggests that these motifs may act as functional units under evolutionary selection to support stable MLO formation. Our findings underscore the insights into phase separation’s molecular grammar made possible through evolutionary analysis enabled by protein language models.",
+  "abstract_zh": "intrinsically disordered regions (IDRs)在相分离 (phase separation) 中发挥关键作用，对于无膜细胞器 (membraneless organelles, MLOs) 的形成至关重要。IDRs内的突变可能破坏其多价相互作用网络，改变相行为，并导致多种疾病。因此，研究IDRs的进化约束为理解蛋白质序列与相分离之间的关系提供了宝贵见解。在本研究中，我们利用ESM2蛋白质语言模型绘制了IDRs的残基水平突变耐受性图谱。我们的发现表明，IDRs，特别是那些积极参与相分离的IDRs，含有保守氨基酸。这种保守性通过ESM2预测的突变约束得以体现，并得到多序列比对直接分析的支持。这些保守的无序氨基酸包括传统上被识别为“粘附子”(stickers) 和“间隔子”(spacers) 的残基，并常形成连续序列基序。强烈的保守性，结合其在相分离中的潜在作用，提示这些基序可能作为功能单元，在进化选择下支持稳定的MLO形成。我们的发现强调了通过蛋白质语言模型进行的进化分析，为理解相分离的分子语法提供了深刻见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.12.628175",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.12.628175",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.12.628175/index.html"
+}

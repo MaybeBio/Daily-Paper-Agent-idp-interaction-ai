@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2208.02182v2",
+  "title": "Machine learning optimization of Majorana hybrid nanowires",
+  "authors": "Matthias Thamm; Bernd Rosenow",
+  "journal": "Phys. Rev. Lett. 130, 116202 (2023)",
+  "published_date": "2022-08-03",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究机器学习优化Majorana纳米线的门阵列调谐，对象为量子拓扑系统，与无序蛋白互作及AI/物理建模无关。",
+  "abstract": "As the complexity of quantum systems such as quantum bit arrays increases, efforts to automate expensive tuning are increasingly worthwhile. We investigate machine learning based tuning of gate arrays using the CMA-ES algorithm for the case study of Majorana wires with strong disorder. We find that the algorithm is able to efficiently improve the topological signatures, learn intrinsic disorder profiles, and completely eliminate disorder effects. For example, with only 20 gates, it is possible to fully recover Majorana zero modes destroyed by disorder by optimizing gate voltages.",
+  "abstract_zh": "随着量子比特阵列等量子系统复杂性的增加，自动化昂贵调谐的努力愈发值得。我们以强无序马约拉纳线为案例，研究基于机器学习的门阵列调谐，采用CMA-ES算法。我们发现该算法能高效改善拓扑特征，学习内在无序分布，并完全消除无序效应。例如，仅用20个门，通过优化门电压即可完全恢复被无序破坏的马约拉纳零模。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2208.02182v2",
+  "source_url": "https://arxiv.org/abs/2208.02182v2",
+  "paper_page_path": "papers/arxiv/2208.02182v2/index.html"
+}

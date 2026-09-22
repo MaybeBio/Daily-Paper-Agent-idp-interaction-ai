@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report the discovery of novel MYC-interaction motif (MIM) occurrences across angiosperm species, including in non-glucosinolate-producing organisms, and validate several of these through interaction assays and biophysical experiments. They conclude that the MIM's function extends beyond glucosinolate biosynthesis regulation.
+- **Visible evidence base** Abstract, Introduction, Results (Sections 2.1–2.5), Discussion (Sections 3.1–3.4), Materials and Methods (Sections 4.1–4.4), Figures 1–5 referenced, Tables 1, Supplemental Figures S1–S3, Supplemental Tables S1–S2
+- **Missing materials affecting confidence** Full figure content not provided, Table 1 details not provided, Supplemental materials not provided, specific sequence alignment data not provided, raw interaction assay data not provided
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting evolutionary question regarding the distribution and function of a short linear motif (MIM) in plant transcription factors. The authors combine bioinformatic searches, structural predictions, and experimental validation to support their claims. The work is generally well-structured and the conclusions are appropriately cautious in several places. However, the evidence base as presented has notable gaps, particularly regarding the completeness of search results, the interpretation of negative interaction data, and the evolutionary inferences drawn from limited phylogenetic sampling. The manuscript would benefit from clearer presentation of methodological details and more robust support for the central claim that MIM function extends beyond glucosinolate regulation.
+- **Who would be interested in the results, and why** Researchers studying plant transcription factor networks, short linear motif evolution, intrinsically disordered proteins, and jasmonate signaling would find this work relevant. The findings on MIM distribution across angiosperms could inform studies on the evolution of regulatory interactions and defense compound biosynthesis.
+- **Major strengths** The study addresses a timely question about the evolution of regulatory motifs in plants. The combination of multiple search strategies and experimental validation is commendable. The authors appropriately acknowledge limitations of prediction tools and the importance of experimental confirmation. The use of diverse species spanning angiosperm phylogeny strengthens the evolutionary perspective.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "the MIM is found in non-glucosinolate-producing organisms spread throughout the angiosperms, implying that the MIM is involved in other biological processes besides GLS biosynthesis."
+  - **Evidence pointer** Section 2.1, Figure 1, Table 1
+  - **Concern** The claim that MIMs are widespread across angiosperms is based on bioinformatic searches, but the completeness and rigor of these searches are not fully described. The authors mention using PHI-BLAST and jackhmmer with various query strategies, but the specific parameters, significance thresholds, and the full list of hits are not provided. The statement that "numerous significant hits" were found is vague, and the representative examples shown may not adequately support the broad claim of distribution "throughout the angiosperms." Additionally, the authors note that some species with published genomes gave no hits, but the reasons for this are speculative. Without a systematic and transparent search methodology, the claim of widespread distribution is not fully established.
+  - **Why it matters** The central conclusion of the manuscript rests on the distribution of MIMs across angiosperms. If the search methodology is incomplete or biased, the evolutionary inferences drawn from the distribution pattern would be weakened.
+  - **Resolution test** Provide a complete list of all significant hits with their taxonomic distribution, clearly state search parameters and thresholds, and perform a more systematic analysis of MIM presence/absence across a well-sampled angiosperm phylogeny. Alternatively, temper the claim to reflect the specific findings rather than a broad distribution statement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of negative results
+  - **Claim pointer** The authors state that trihelix TFs "did not interact with MYC4 in our assay" and rationalize this through sequence analysis and biophysical experiments.
+  - **Evidence pointer** Section 2.3, Figure 3, Section 2.4, Figure 4
+  - **Concern** The conclusion that trihelix TFs are false positives relies on a single interaction assay system (split-ubiquitin). The authors acknowledge that the trihelix TFs have the core motif residues identical to confirmed MIMs, yet they do not interact. The explanation based on helical propensity differences is plausible but not definitive. The biophysical experiments were performed on short peptides, which may not fully recapitulate the behavior of the full-length proteins in a cellular context. Additionally, the possibility that the trihelix TFs interact with other MYC family members or under different conditions is not explored.
+  - **Why it matters** The distinction between true MIMs and false positives is critical for the interpretation of the search results. If the negative interaction data are not robust, the classification of trihelix TFs as false positives may be premature, affecting the overall conclusions about MIM distribution and function.
+  - **Resolution test** Test trihelix TFs against multiple MYC family members and in different assay conditions. Provide additional evidence, such as mutagenesis of the core motif or binding affinity measurements, to support the claim that these are false positives. Alternatively, present the trihelix TFs as putative MIMs with unconfirmed function rather than definitively false positives.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary inference
+  - **Claim pointer** The authors suggest that the presence of MIMs in non-glucosinolate-producing plants indicates a broader biological function and discuss possible evolutionary scenarios.
+  - **Evidence pointer** Section 3.3, Figure 1
+  - **Concern** The evolutionary discussion is largely speculative. The authors propose that MIMs may have evolved before the split between basal and core eudicots, but the phylogenetic sampling is limited and the analysis does not include a formal ancestral state reconstruction or divergence time estimation. The observation that some species lack MIMs is attributed to various factors, but no systematic analysis is presented to distinguish between loss, absence, or detection failure. The discussion of convergent evolution versus shared ancestry is interesting but not supported by quantitative phylogenetic methods.
+  - **Why it matters** The evolutionary narrative is a key part of the manuscript's significance. Without rigorous phylogenetic analysis, the claims about the timing and mode of MIM evolution remain speculative.
+  - **Resolution test** Perform a formal phylogenetic analysis of MIM presence/absence across a well-sampled angiosperm phylogeny, including ancestral state reconstruction and tests for correlated evolution with glucosinolate production. Alternatively, present the evolutionary discussion as hypotheses requiring further testing rather than conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** "location not provided"
+  - **Issue** The description of the search strategies is somewhat disorganized, with multiple approaches described in a single paragraph. The distinction between the different search methods and their respective outcomes is not always clear.
+  - **Required correction** Reorganize Section 2.1 to clearly separate the different search strategies, their parameters, and the results obtained from each. Consider using a table or figure to summarize the search outcomes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Section 4.1
+  - **Evidence pointer** "location not provided"
+  - **Issue** The bioinformatics methods section is brief and lacks specific details on parameters used for PHI-BLAST and jackhmmer searches, such as E-value thresholds, number of iterations, and how significance was determined.
+  - **Required correction** Provide more detailed methodological information, including specific software versions, parameters, and criteria for defining significant hits.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** "location not provided"
+  - **Issue** The interaction assay results are presented in a figure, but the specific constructs, controls, and quantification methods are not described in the text. It is unclear how the interaction strength was assessed and whether the assays were performed in replicates.
+  - **Required correction** Add a description of the interaction assay setup, including constructs used, positive and negative controls, and how results were scored or quantified.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 3.1
+  - **Evidence pointer** "location not provided"
+  - **Issue** The term "false positives" is used to describe trihelix TFs, but this terminology may be misleading. These are not false positives in the sense of erroneous search hits, but rather hits that do not show interaction in the tested conditions. A more precise term such as "non-interacting hits" or "unconfirmed hits" would be more accurate.
+  - **Required correction** Revise the terminology to more accurately describe the status of trihelix TFs as hits that were not validated experimentally, rather than false positives.
+- **Technical failings that need to be addressed before the case is established** The manuscript's central claim of MIM distribution across angiosperms requires a more transparent and systematic bioinformatic analysis. The negative interaction data for trihelix TFs need to be strengthened with additional experimental evidence. The evolutionary inferences would benefit from formal phylogenetic analysis.
+- **Assessment against Nature-style criteria** Originality: The work addresses a novel question about the evolution of a specific regulatory motif, which is a relatively underexplored area. Scientific importance: The findings have implications for understanding how regulatory interactions evolve and how novel biological processes are regulated, which is of broad interest. Interdisciplinary readership: The work bridges bioinformatics, structural biology, and plant biology, which could appeal to a range of researchers. Technical soundness: The combination of computational and experimental approaches is appropriate, but the methodological details and data presentation need improvement to fully support the claims. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections could be clearer for readers outside the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an interesting question and provides a reasonable foundation, but the evidence as presented is not fully sufficient to establish the broad claims about MIM distribution and function. Addressing the major concerns regarding search methodology, negative data interpretation, and evolutionary analysis would strengthen the manuscript considerably.
+
+## Risk / unsupported claims
+- The claim that MIMs are "spread throughout the angiosperms" is not fully supported by the presented data, as the search methodology and hit list are not fully disclosed.
+- The assertion that trihelix TFs are "false positives" is not definitively established, as only one interaction assay system was used and alternative explanations were not explored.
+- The evolutionary scenario proposed in Section 3.3, including the timing of MIM evolution and the role of convergent evolution, is speculative and not supported by formal phylogenetic analysis.
+- The statement that "the MIM is involved in other biological processes besides GLS biosynthesis" is a reasonable inference but is not directly tested in this work.

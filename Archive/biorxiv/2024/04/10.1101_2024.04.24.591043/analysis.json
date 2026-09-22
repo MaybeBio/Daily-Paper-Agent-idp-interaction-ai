@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.24.591043",
+  "title": "Graph convolutional network learning model based on new integrated data of the protein-protein interaction network and network pharmacology for the prediction of herbal medicines effective for the treatment of metabolic diseases",
+  "authors": "Tae-Hyoung Kim; Ga-Ram Yu; Dong-Woo Lim; Won-Hwan Park",
+  "journal": "bioRxiv",
+  "published_date": "2024-04-30",
+  "window": {
+    "start": "2024-04-29",
+    "end": "2024-05-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用图卷积网络分析PPI网络预测中药方剂对代谢疾病的疗效，虽涉及PPI和AI方法，但对象非无序蛋白/IDR/相分离，且无互作机制建模，仅疾病-药物分类应用，与本课题关联较弱。",
+  "abstract": "Chronic metabolic diseases constitute a group of conditions requiring long-term management and hold significant importance for national public health and medical care. Currently, in Korean medicine, there are no insurance-covered herbal prescriptions designated primarily for the treatment of metabolic diseases. Therefore, the objective of this study was to identify herbal prescriptions from the existing pool of insurance-covered options that could be effective in treating metabolic diseases. This research study employed a graph convolutional network learning model to analyze PPI network constructed from network pharmacology, aiming to identify suitable herbal prescriptions for various metabolic diseases, thus diverging from literature-based approaches based on classical indications. Additionally, the derived herbal medicine candidates were subjected to transfer learning on a model that binarily classified the marketed drugs into those currently used for metabolic diseases and those that are not for data-based verification. GCN, adept at capturing patterns within protein-protein interaction (PPI) networks, was utilized for classifying and learning the data. Moreover, gene scores related to the diseases were extracted from GeneCards and used as weights. The performance of the pre-trained model was validated through 5-fold cross-validation and bootstrapping with 100 iterations. Furthermore, to ascertain the superior performance of our proposed model, the number of layers was varied, and the performance of each was evaluated. Our proposed model structure achieved outstanding performance in classifying drugs, with an average precision of 96.68%, recall of 97.18%, and an F1 score of 96.74%. The trained model predicted that the most effective decoction would be Jowiseunggi-tang for hyperlipidemia, Saengmaegsan for hypertension, and Kalkunhaeki-tang for type 2 diabetes. This study is the first of its kind to integrate GCN with weighted PPI network data to classify herbal prescriptions by their potential for usage on certain diseases.",
+  "abstract_zh": "慢性代谢性疾病构成一组需要长期管理的疾病，对国家公共卫生和医疗保健具有重要意义。目前，在韩医学中，没有专为主要治疗代谢性疾病而设的保险覆盖草药处方。因此，本研究的目标是从现有保险覆盖的处方中识别出可能有效治疗代谢性疾病的草药处方。本研究采用图卷积网络学习模型，分析由网络药理学构建的蛋白质-蛋白质相互作用（PPI）网络，旨在为各种代谢性疾病识别合适的草药处方，从而区别于基于经典适应症的文献方法。此外，将推导出的草药候选物在一种二元分类模型上进行迁移学习，该模型将市售药物分为当前用于代谢性疾病的和不用于代谢性疾病的，以进行基于数据的验证。擅长捕捉蛋白质-蛋白质相互作用（PPI）网络内模式的GCN被用于数据的分类和学习。此外，从GeneCards中提取与疾病相关的基因分数，并将其用作权重。预训练模型的性能通过5折交叉验证和100次迭代的自举法进行验证。进一步地，为确认我们提出模型的优越性能，改变了层数，并评估了每种配置的性能。我们提出的模型结构在药物分类中表现出卓越性能，平均精确度为96.68%，召回率为97.18%，F1分数为96.74%。训练后的模型预测，对高脂血症最有效的汤剂为Jowiseunggi-tang，对高血压为Saengmaegsan，对2型糖尿病为Kalkunhaeki-tang。本研究是首次将GCN与加权PPI网络数据相结合，按草药处方对特定疾病的潜在用途进行分类的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.24.591043",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.24.591043",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.24.591043/index.html"
+}

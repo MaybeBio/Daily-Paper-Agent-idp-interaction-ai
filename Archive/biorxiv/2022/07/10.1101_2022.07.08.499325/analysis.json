@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.08.499325",
+  "title": "Control of PHYTOCHROME KINASE SUBSTRATE subcellular localization and biological activity by protein S-acylation",
+  "authors": "Vazquez AL; Petrolati LA; Dessimoz C; Lampugnani ER; Glover N; Fankhauser C",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-09",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究植物PKS蛋白的S-酰化修饰调控其质膜定位与生物学功能，对象非无序蛋白/相分离，无PPI机制建模，也无AI或物理模拟方法，与本课题关联微弱。",
+  "abstract": "<h4>ABSTRACT</h4> PHYTOCHROME KINASE SUBSTRATE (PKS) proteins are involved in light-regulated growth orientation responses. They act downstream of phytochromes to control hypocotyl gravitropism in the light and act early in phototropin signaling. Despite their importance for plant development, little is known about their molecular mode of action except that they belong to a protein complex comprising the phototropins at the plasma membrane. Identifying evolutionarily conservation is one approach to reveal biologically important protein motifs. Here, we show that PKS sequences are restricted to seed plants and that these proteins share 6 motifs (A to F from the N- to the C-terminus). While motif D is also found in BIG GRAIN proteins the remining domains are PKS specific. We provide evidence that motif C is S-acylated on highly conserved cysteines, which mediates PKS protein association with the plasma membrane. This motif is also required for PKS4-mediated phototropism and control of hypocotyl gravitropism in the light. Finally, our data suggests that the mode of PKS4 plasma membrane association is important for its biological activity. Our work identifies the mode of plasma membrane association of PKS proteins and strongly suggests that this is their site of action to modulate environmentally regulated organ positioning.",
+  "abstract_zh": "<h4>摘要</h4> 光敏色素激酶底物（PKS）蛋白参与光调控的生长定向反应。它们在光敏色素下游发挥作用，在光照条件下控制下胚轴的向地性，并在向光素信号传导早期起作用。尽管这些蛋白对植物发育至关重要，但除了它们属于质膜上包含向光素的蛋白复合体之外，其分子作用机制鲜为人知。识别进化保守性是揭示重要生物蛋白基序的一种方法。在此，我们表明PKS序列仅限于种子植物，并且这些蛋白共享6个基序（从N端到C端为A至F）。虽然基序D也存在于BIG GRAIN蛋白中，但其余结构域是PKS特异性的。我们提供证据表明，基序C在高度保守的半胱氨酸上发生S-酰化，这介导了PKS蛋白与质膜的关联。该基序也是PKS4介导的向光性和光照条件下下胚轴向地性控制所必需的。最后，我们的数据表明，PKS4质膜关联模式对其生物活性至关重要。我们的工作识别了PKS蛋白的质膜关联模式，并强烈表明这是它们调节环境调控器官定位的作用位点。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.08.499325",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.08.499325",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.08.499325/index.html"
+}

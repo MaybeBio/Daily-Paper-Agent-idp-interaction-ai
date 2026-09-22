@@ -1,0 +1,163 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.17.558183",
+  "title": "Reconciling ASPP-p53 Binding Mode Discrepancies through an Ensemble Binding Framework that Bridges Crystallography and NMR Data",
+  "doi": "10.1101/2023.09.17.558183",
+  "abstract": "ASPP2 and iASPP bind to p53 through their conserved ANK-SH3 domains to respectively promote and inhibit p53-dependent cell apoptosis. While crystallography has indicated that these two proteins employ distinct surfaces of their ANK-SH3 domains to bind to p53, solution NMR data has suggested similar surfaces. In this study, we employed multi-scale molecular dynamics (MD) combined with free energy calculations to reconcile the discrepancy in the binding modes. We demonstrated that the binding mode based solely on a single crystal structure does not enable iASPP’s RT loop to engage with p53’s C-terminal linker—a verified interaction. Instead, an ensemble of simulated iASPP-p53 complexes facilitates this interaction. We showed that the ensemble-average inter-protein contacting residues and NMR-detected interfacial residues align well with ASPP proteins, and the ensemble-average binding free energies better match experimental Kd values compared to single crystallgarphy-determined binding mode. For iASPP, the sampled ensemble complexes can be grouped into two classes, resembling the binding modes determined by crystallography and solution NMR. We thus propose that crystal packing shifts the equilibrium of binding modes towards the crystallographydetermined one. Lastly, we show that the ensemble binding complexes are sensitive to p53’s intrinsically disordered regions (IDRs), attesting to experimental observations that these IDRs contribute to biological functions. Our results provide a dynamic and ensemble perspective for scrutinizing these important cancer-related protein-protein interactions (PPIs).",
+  "authors": [
+    "Liu T",
+    "Huang S",
+    "Zhang Q",
+    "Xia Y",
+    "Zhang M",
+    "Sun B"
+  ],
+  "published_date": "2023-09-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.17.558183",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.17.558183.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR727145",
+    "raw_record": {
+      "id": "PPR727145",
+      "source": "PPR",
+      "doi": "10.1101/2023.09.17.558183",
+      "title": "Reconciling ASPP-p53 Binding Mode Discrepancies through an Ensemble Binding Framework that Bridges Crystallography and NMR Data",
+      "authorString": "Liu T, Huang S, Zhang Q, Xia Y, Zhang M, Sun B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Liu T",
+            "lastName": "Liu",
+            "firstName": "Te",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0002-3205-0988"
+            }
+          },
+          {
+            "fullName": "Huang S",
+            "lastName": "Huang",
+            "firstName": "Sichao",
+            "initials": "S"
+          },
+          {
+            "fullName": "Zhang Q",
+            "lastName": "Zhang",
+            "firstName": "Qian",
+            "initials": "Q"
+          },
+          {
+            "fullName": "Xia Y",
+            "lastName": "Xia",
+            "firstName": "Yu",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Zhang M",
+            "lastName": "Zhang",
+            "firstName": "Manjie",
+            "initials": "M"
+          },
+          {
+            "fullName": "Sun B",
+            "lastName": "Sun",
+            "firstName": "Bin",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2583-4493"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2583-4493"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0002-3205-0988"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "ASPP2 and iASPP bind to p53 through their conserved ANK-SH3 domains to respectively promote and inhibit p53-dependent cell apoptosis. While crystallography has indicated that these two proteins employ distinct surfaces of their ANK-SH3 domains to bind to p53, solution NMR data has suggested similar surfaces. In this study, we employed multi-scale molecular dynamics (MD) combined with free energy calculations to reconcile the discrepancy in the binding modes. We demonstrated that the binding mode based solely on a single crystal structure does not enable iASPP’s RT loop to engage with p53’s C-terminal linker—a verified interaction. Instead, an ensemble of simulated iASPP-p53 complexes facilitates this interaction. We showed that the ensemble-average inter-protein contacting residues and NMR-detected interfacial residues align well with ASPP proteins, and the ensemble-average binding free energies better match experimental Kd values compared to single crystallgarphy-determined binding mode. For iASPP, the sampled ensemble complexes can be grouped into two classes, resembling the binding modes determined by crystallography and solution NMR. We thus propose that crystal packing shifts the equilibrium of binding modes towards the crystallographydetermined one. Lastly, we show that the ensemble binding complexes are sensitive to p53’s intrinsically disordered regions (IDRs), attesting to experimental observations that these IDRs contribute to biological functions. Our results provide a dynamic and ensemble perspective for scrutinizing these important cancer-related protein-protein interactions (PPIs).",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/19/2023.09.17.558183.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.17.558183"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38324587",
+            "reference": "PLoS computational biology. 2024 Feb;20(2):e1011519",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-09-21",
+      "firstPublicationDate": "2023-09-19",
+      "firstIndexDate": "2023-09-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

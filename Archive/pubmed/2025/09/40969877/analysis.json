@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40969877",
+  "title": "Intrinsically Disordered Regions of Zinc Finger Protein 687 in Phase Separation: A Potentially Pathogenic Driver of Paget's Disease of Bone.",
+  "authors": "Wang, Jing; Guo, Zheng; Zhang, Muqing; Wang, Hu",
+  "journal": "ACS pharmacology & translational science",
+  "published_date": "2025-09-19",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过结构预测和序列分析识别ZNF687的无序区域并预测其相分离及蛋白互作，关联Paget骨病发病机制，虽以预测为主、缺乏深度机制建模，但对象（IDR/相分离）与互作轴契合，方法上仅用预测工具，综合评7分。",
+  "abstract": "Paget's disease of bone (PDB) is a chronic skeletal disorder characterized by abnormal bone remodeling and structural deformities, yet its underlying molecular mechanisms remain poorly understood. Genetic mutations in regulatory genes have been implicated in the PDB, potentially disrupting osteoclast activity and leading to excessive bone resorption and abnormal bone formation. Current research has largely focused on clinical phenotypes and downstream pathways, relying on molecular biology approaches and omics analyses to elucidate mechanisms. However, the impact of genetic mutations on the biophysical properties and functional dynamics of biomacromolecules remain unclear. Phase separation (PS), a process essential for biomolecular condensate organization and cellular function, has been implicated in various diseases but is unexplored in the PDB. This study investigates the PS properties of ZNF687, a zinc finger protein associated with PDB. Structural predictions and sequence analyses identified intrinsically disordered regions (IDRs) within ZNF687 that may drive PS, while protein interaction predictions suggest its involvement in bone remodeling pathways. These findings provide a novel perspective linking PS to PDB pathogenesis and highlight ZNF687 as a potential target for further investigation.",
+  "abstract_zh": "佩吉特骨病（PDB）是一种慢性骨骼疾病，其特征为骨重塑异常和结构畸形，但其潜在分子机制仍知之甚少。调控基因中的遗传突变已被认为与PDB相关，可能破坏破骨细胞活性，导致过度骨吸收和异常骨形成。当前研究主要集中于临床表型和下游通路，依赖分子生物学方法和组学分析来阐明机制。然而，遗传突变对生物大分子的生物物理特性和功能动态的影响仍不清楚。相分离（phase separation, PS）是生物分子凝聚体组织和细胞功能所必需的过程，已被涉及多种疾病，但在PDB中尚未探索。本研究探讨了与PDB相关的锌指蛋白ZNF687的PS特性。结构预测和序列分析识别出ZNF687内可能驱动PS的内在无序区域（intrinsically disordered regions, IDRs），而蛋白质相互作用预测则提示其参与骨重塑通路。这些发现为将PS与PDB发病机制联系起来提供了新视角，并突出ZNF687作为进一步研究的潜在靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40969877/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40969877/",
+  "paper_page_path": "papers/pubmed/40969877/index.html"
+}

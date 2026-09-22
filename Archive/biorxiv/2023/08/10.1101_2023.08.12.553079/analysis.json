@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.12.553079",
+  "title": "Pandemic preparedness through genomic surveillance: Overview of mutations in SARS-CoV-2 over the course of COVID-19 outbreak",
+  "authors": "Najar FZ; Murphy CL; Linde E; Borin VA; Wang H; Haider S; Agarwal PK",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-14",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 1,
+  "one_liner_zh": "该文通过基因组监测分析SARS-CoV-2突变，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "<h4>ABSTRACT</h4> Genomic surveillance is a vital strategy for preparedness against the spread of infectious diseases and to aid in development of new treatments. In an unprecedented effort, millions of samples from COVID-19 patients have been sequenced worldwide for SARS-CoV-2. Using more than 8 million sequences that are currently available in GenBank’s SARS-CoV-2 database, we report a comprehensive overview of mutations in all 26 proteins and open reading frames (ORFs) from the virus. The results indicate that the spike protein, NSP6, nucleocapsid protein, envelope protein and ORF7b have shown the highest mutational propensities so far (in that order). In particular, the spike protein has shown rapid acceleration in mutations in the post-vaccination period. Monitoring the rate of non-synonymous mutations (K a ) provides a fairly reliable signal for genomic surveillance, successfully predicting surges in 2022. Further, the external proteins (spike, membrane, envelope, and nucleocapsid proteins) show a significant number of mutations compared to the NSPs. Interestingly, these four proteins showed significant changes in K a typically 2 to 4 weeks before the increase in number of human infections (“surges”). Therefore, our analysis provides real time surveillance of mutations of SARS-CoV-2, accessible through the project website http://pandemics.okstate.edu/covid19/ . Based on ongoing mutation trends of the virus, predictions of what proteins are likely to mutate next are also made possible by our approach. The proposed framework is general and is thus applicable to other pathogens. The approach is fully automated and provides the needed genomic surveillance to address a fast-moving pandemic such as COVID-19.",
+  "abstract_zh": "<h4>摘要</h4> 基因组监测是应对传染病传播和促进新疗法开发的重要策略。在一项前所未有的努力中，全球范围内已对来自COVID-19患者的数百万份样本进行了SARS-CoV-2测序。利用GenBank的SARS-CoV-2数据库中目前可用的超过800万条序列，我们报告了病毒所有26种蛋白质和开放阅读框（ORFs）中突变的全面概述。结果表明，刺突蛋白、NSP6、核衣壳蛋白、包膜蛋白和ORF7b迄今显示出最高的突变倾向（按此顺序）。特别是，刺突蛋白在疫苗接种后时期显示出突变的快速加速。监测非同义突变率（K a ）为基因组监测提供了相当可靠的信号，成功预测了2022年的疫情激增。此外，外部蛋白（刺突、膜、包膜和核衣壳蛋白）相比NSPs显示出显著数量的突变。有趣的是，这四种蛋白在人类感染数量增加（“激增”）前通常2至4周显示出K a 的显著变化。因此，我们的分析提供了SARS-CoV-2突变的实时监测，可通过项目网站http://pandemics.okstate.edu/covid19/ 访问。基于病毒持续的突变趋势，我们的方法还使得预测哪些蛋白质可能接下来发生突变成为可能。所提出的框架具有通用性，因此适用于其他病原体。该方法完全自动化，并提供了应对如COVID-19等快速传播大流行所需的基因组监测。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.12.553079",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.12.553079",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.12.553079/index.html"
+}

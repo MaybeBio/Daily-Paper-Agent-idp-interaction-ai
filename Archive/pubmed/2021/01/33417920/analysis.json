@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33417920",
+  "title": "Hsp70 Inhibits Aggregation of IAPP by Binding to the Heterogeneous Prenucleation Oligomers.",
+  "authors": "Chilukoti, Neeraja; Sil, Timir Baran; Sahoo, Bankanidhi; Deepa, S; Cherakara, Sreelakshmi; Maddheshiya, Mithun; Garai, Kanchan",
+  "journal": "Biophysical journal",
+  "published_date": "2021-01-09",
+  "window": {
+    "start": "2021-01-04",
+    "end": "2021-01-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究Hsp70伴侣蛋白与无序蛋白IAPP寡聚前体的结合机制，通过单分子/多方法揭示其抑制聚集的互作机制，虽无AI/物理模拟方法，但对象与互作机制建模高度相关。",
+  "abstract": "Molecular chaperone Hsp70 plays important roles in the pathology of amyloid diseases by inhibiting aberrant aggregation of proteins. However, the biophysical mechanism of the interaction of Hsp70 with the intrinsically disordered proteins (IDPs) is unclear. Here, we report that Hsp70 inhibits aggregation of islet amyloid polypeptide (IAPP) at substoichiometric concentrations under diverse solution conditions, including in the absence of ATP. The inhibitory effect is strongest if Hsp70 is added in the beginning of aggregation but progressively less if added later, indicating a role for Hsp70 in preventing nucleation of IAPP. However, ensemble measurement of the binding affinity suggests poor interactions between Hsp70 and IAPP. Therefore, we hypothesize that the interaction must involve a rare species (e.g., the oligomeric intermediates of IAPP). Size exclusion chromatography and field flow fractionation are then used to fractionate the constituent species. Multiangle light scattering and fluorescence correlation spectroscopy measurements indicate that the dominant fraction in size exclusion chromatography contains a few nanomolar Hsp70-IAPP complexes amid several mumoles of free Hsp70. Using single-particle two-color coincidence detection measurements, we detected a minor fraction that exhibits fluorescence bursts arising from heterogeneous oligomeric complexes of IAPP and Hsp70. Taken together, our results indicate that Hsp70 interacts poorly with the monomers but strongly with oligomers of IAPP. This is likely a generic feature of the interactions of Hsp70 chaperones with the amyloidogenic IDPs. Whereas high-affinity interactions with the oligomers prevent aberrant aggregation, poor interaction with the monomers averts interference with the physiological functions of the IDPs.",
+  "abstract_zh": "分子伴侣Hsp70通过抑制蛋白质的异常聚集，在淀粉样疾病病理中发挥重要作用。然而，Hsp70与固有无序蛋白（IDPs）相互作用的生物物理机制尚不清楚。在此，我们报道Hsp70在多种溶液条件下，包括无ATP存在时，以亚化学计量浓度抑制胰岛淀粉样多肽（IAPP）的聚集。若在聚集初期加入Hsp70，其抑制效果最强，但若延迟加入则效果逐渐减弱，表明Hsp70在阻止IAPP成核中发挥作用。然而，整体结合亲和力测量显示Hsp70与IAPP之间的相互作用较弱。因此，我们假设这种相互作用必然涉及稀有物种（例如，IAPP的寡聚中间体）。随后，使用尺寸排阻色谱和场流分级分离对组成物种进行分离。多角度光散射和荧光相关光谱测量表明，尺寸排阻色谱中的主要组分含有几纳摩尔浓度的Hsp70-IAPP复合物，同时存在数微摩尔浓度的游离Hsp70。利用单粒子双色重合检测测量，我们检测到一种次要组分，其表现出由IAPP和Hsp70异质寡聚复合物产生的荧光爆发。综合来看，我们的结果表明Hsp70与IAPP单体相互作用较弱，但与其寡聚体相互作用强烈。这可能是Hsp70伴侣与淀粉样生成性IDPs相互作用的普遍特征。对寡聚体的高亲和力相互作用可防止异常聚集，而对单体的弱相互作用则避免干扰IDPs的生理功能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33417920/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33417920/",
+  "paper_page_path": "papers/pubmed/33417920/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40317235",
+  "title": "Noncovalent Lasso Entanglements are Common in Experimentally Derived Intrinsically Disordered Protein Ensembles and Strongly Influenced by Protein Length and Charge.",
+  "authors": "Vu, Quyen V; Sitarik, Ian; Li, Mai Suan; O'Brien, Edward P",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-05-03",
+  "window": {
+    "start": "2025-04-28",
+    "end": "2025-05-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过实验衍生的IDP/IDR系综和分子模拟，系统研究无序蛋白中非共价套索缠结构象的普遍性及其与长度、电荷的关系，虽未直接聚焦PPI，但为IDP构象机制建模提供了可迁移的物理模拟思路。",
+  "abstract": "Noncovalent lasso entanglements are conformations in which a protein backbone segment forms a loop closed by noncovalent interactions and that loop is threaded one or more times by either the N- or C-terminal segment of the backbone or both. While these entanglements are common in globular proteins, their presence in intrinsically disordered proteins or regions (IDPs/IDRs) remains largely unexplored. Here, we examine whether IDPs/IDRs in their monomeric form populate these conformations and how sequence length and charge composition influence entanglement prevalence. Using experimentally derived IDP/IDR ensembles from the Protein Ensemble Database, we find that 48% (199 of 416) of its entries contain subpopulations with entangled conformations, with 25% of entries having conformational ensembles in which 50% or more are entangled. This includes IDPs such as nuclear pore complex protein Nup153, nonstructural protein V of Hendra virus, and Eukaryotic initiation factor 4F subunit p150. Using molecular simulations, we find that (i) entanglements are most prevalent in weak polyampholytes and polyelectrolytes, and strong polyampholytes but rare in strong polyelectrolytes; (ii) entanglement populations increase with IDP length; (iii) entanglement probability positively correlates with chain compaction; and (iv) most IDPs/IDRs in the human proteome exhibit entangled conformations. A GO enrichment analysis reveals that the entanglement probability correlates with IDP/IDR function and subcellular localization. Thus, these findings indicate that noncovalent lasso entanglements are a widespread structural feature of IDPs/IDRs and have the potential to be biologically relevant.",
+  "abstract_zh": "非共价套索缠结（noncovalent lasso entanglements）是一种构象，其中蛋白质骨架片段形成一个由非共价相互作用闭合的环，且该环被骨架的N端或C端片段（或两者）穿过一次或多次。尽管这些缠结在球状蛋白质中常见，但它们在 intrinsically disordered proteins or regions (IDPs/IDRs) 中的存在仍 largely unexplored。在此，我们考察了单体形式的 IDPs/IDRs 是否 populate 这些构象，以及序列长度和电荷组成如何影响缠结 prevalence。利用来自 Protein Ensemble Database 的实验衍生的 IDP/IDR ensembles，我们发现其 416 个条目中的 48%（199个）包含具有缠结构象的亚群，其中 25% 的条目具有构象 ensemble，且这些 ensemble 中 50% 或更多为缠结状态。这包括核孔复合体蛋白 Nup153、亨德拉病毒非结构蛋白 V 和真核起始因子 4F 亚基 p150 等 IDPs。通过分子模拟，我们发现：(i) 缠结在弱 polyampholytes 和 polyelectrolytes 以及强 polyampholytes 中最为普遍，但在强 polyelectrolytes 中罕见；(ii) 缠结群体随 IDP 长度增加而增加；(iii) 缠结概率与链 compaction 正相关；(iv) 人类蛋白质组中的大多数 IDPs/IDRs 表现出缠结构象。GO 富集分析揭示，缠结概率与 IDP/IDR 功能和亚细胞定位相关。因此，这些发现表明，非共价套索缠结是 IDPs/IDRs 的一种广泛结构特征，并具有潜在的生物学相关性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40317235/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40317235/",
+  "paper_page_path": "papers/pubmed/40317235/index.html"
+}

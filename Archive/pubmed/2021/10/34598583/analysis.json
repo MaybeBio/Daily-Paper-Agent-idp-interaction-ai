@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34598583",
+  "title": "Salt dependent phase behavior of intrinsically disordered proteins from a coarse-grained model with explicit water and ions.",
+  "authors": "Garaizar, Adiran; Espinosa, Jorge R",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2021-10-03",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发了含显式水和盐的序列依赖粗粒化模型，模拟无序蛋白及RNA的相分离凝聚体形成，并定量复现盐依赖的相行为与FUS液滴性质，直接聚焦IDP互作与凝聚体机制建模。",
+  "abstract": "Multivalent proteins and nucleic acids can self-assemble into biomolecular condensates that contribute to compartmentalize the cell interior. Computer simulations offer a unique view to elucidate the mechanisms and key intermolecular interactions behind the dynamic formation and dissolution of these condensates. In this work, we present a novel approach to include explicit water and salt in sequence-dependent coarse-grained (CG) models for proteins and RNA, enabling the study of biomolecular condensate formation in a salt-dependent manner. Our framework combines a reparameterized version of the HPS protein force field with the monoatomic mW water model and the mW-ion potential for NaCl. We show how our CG model qualitatively captures the experimental radius of the gyration trend of a subset of intrinsically disordered proteins and reproduces the experimental protein concentration and water percentage of the human fused in sarcoma (FUS) low-complexity-domain droplets at physiological salt concentration. Moreover, we perform seeding simulations as a function of salt concentration for two antagonist systems: the engineered peptide PR(25) and poly-uridine/poly-arginine mixtures, finding good agreement with their reported in vitro phase behavior with salt concentration in both cases. Taken together, our work represents a step forward towards extending sequence-dependent CG models to include water and salt, and to consider their key role in biomolecular condensate self-assembly.",
+  "abstract_zh": "多价蛋白质和核酸能够自组装形成生物分子凝聚体，这些凝聚体有助于分隔细胞内部。计算机模拟为阐明这些凝聚体动态形成和溶解背后的机制及关键分子间相互作用提供了独特视角。在本工作中，我们提出了一种新方法，将显式水和盐纳入蛋白质和RNA的序列依赖性粗粒化（CG）模型中，从而能够以盐依赖性方式研究生物分子凝聚体的形成。我们的框架将HPS蛋白质力场的重新参数化版本与单原子mW水模型及用于NaCl的mW-离子势相结合。我们展示了我们的CG模型如何定性地捕捉一组 intrinsically disordered proteins（内在无序蛋白质）的实验回转半径趋势，并在生理盐浓度下重现人类 fused in sarcoma（FUS）低复杂度结构域液滴的实验蛋白质浓度和水百分比。此外，我们对两个拮抗系统进行了作为盐浓度函数的播种模拟：工程化肽PR(25)和聚尿苷酸/聚精氨酸混合物，发现两种情况下的体外相行为与盐浓度的报告结果均吻合良好。综合来看，我们的工作代表了向扩展序列依赖性CG模型以包含水和盐，并考虑它们在生物分子凝聚体自组装中关键作用迈出的一步。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34598583/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34598583/",
+  "paper_page_path": "papers/pubmed/34598583/index.html"
+}

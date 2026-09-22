@@ -1,0 +1,327 @@
+{
+  "identity": {
+    "pmid": "36845554",
+    "doi": "10.3389/fmolb.2023.1130189",
+    "title": "Coupled binding and folding of disordered SPIN N-terminal region in myeloperoxidase inhibition."
+  },
+  "content": {
+    "abstract": "Gram-positive pathogenic bacteria Staphylococcus express and secret staphylococcal peroxidase inhibitor (SPIN) proteins to help evade neutrophil-mediated immunity by inhibiting the activity of the main oxidative-defense player myeloperoxidase (MPO) enzyme. SPIN contains a structured 3-helix bundle C-terminal domain, which can specifically bind to MPO with high affinity, and an intrinsically disordered N-terminal domain (NTD), which folds into a structured beta-hairpin and inserts itself into the active site of MPO for inhibition. Mechanistic insights of the coupled folding and binding process are needed in order to better understand how residual structures and/or conformational flexibility of NTD contribute to the different strengths of inhibition of SPIN homologs. In this work, we applied atomistic molecular dynamics simulations on two SPIN homologs, from S. aureus and S. delphini, respectively, which share high sequence identity and similarity, to explore the possible mechanistic basis for their different inhibition efficacies on human MPO. Direct simulations of the unfolding and unbinding processes at 450 K reveal that these two SPIN/MPO complexes systems follow surprisingly different mechanisms of coupled binding and folding. While coupled binding and folding of SPIN-aureus NTD is highly cooperative, SPIN-delphini NTD appears to mainly utilize a conformational selection-like mechanism. These observations are in contrast to an overwhelming prevalence of induced folding-like mechanisms for intrinsically disordered proteins that fold into helical structures upon binding. Further simulations of unbound SPIN NTDs at room temperature reveal that SPIN-delphini NTD has a much stronger propensity of forming beta-hairpin like structures, consistent with its preference to fold and then bind. These may help explain why the inhibition strength is not well correlated with binding affinity for different SPIN homologs. Altogether, our work establishes the relationship between the residual conformational stability of SPIN-NTD and their inhibitory function, which can help us develop new strategies towards treating Staphylococcal infections.",
+    "keywords": [
+      "atomistic simulaitons",
+      "conformational selection and induced fit",
+      "innate immunity",
+      "instrinsically disordered region",
+      "residual structures",
+      "transition path"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yumeng",
+        "Liu, Xiaorong",
+        "Chen, Jianhan"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Liu X",
+        "Chen J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, University of Massachusetts, Amherst, MA, United States.",
+        "Department of Chemistry, University of Massachusetts, Amherst, MA, United States.",
+        "Department of Chemistry, University of Massachusetts, Amherst, MA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yumeng",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA, United States."
+        ]
+      },
+      {
+        "full_name": "Liu, Xiaorong",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA, United States."
+        ]
+      },
+      {
+        "full_name": "Chen, Jianhan",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Massachusetts, Amherst, MA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/28 06:00",
+    "fetched_at": "2026-09-20 19:50:04"
+  },
+  "links": {
+    "cites": [
+      "39393662",
+      "38880318"
+    ],
+    "refs": [
+      "36083825",
+      "33307683",
+      "32403216",
+      "32253236",
+      "31582563",
+      "31441158",
+      "31241933",
+      "30913885",
+      "30715849",
+      "30528464",
+      "30209295",
+      "30091924",
+      "29735687",
+      "29694866",
+      "29524428",
+      "29306874",
+      "28808028",
+      "28746339",
+      "28425697",
+      "27819658",
+      "27591336",
+      "26851275",
+      "26720267",
+      "26631602",
+      "26190950",
+      "26016486",
+      "25764013",
+      "25511246",
+      "25313042",
+      "24532081",
+      "24278008",
+      "24128758",
+      "23834243",
+      "23316124",
+      "22807669",
+      "22721951",
+      "22691307",
+      "22582031",
+      "22579883",
+      "22443635",
+      "22253588",
+      "22088393",
+      "22080185",
+      "21766125",
+      "21614208",
+      "21297670",
+      "20303846",
+      "20133683",
+      "19747922",
+      "19666553",
+      "19444816",
+      "19344736",
+      "19157855",
+      "18404207",
+      "18242977",
+      "18197169",
+      "17522630",
+      "17302414",
+      "17243791",
+      "16683760",
+      "16363797",
+      "16222654",
+      "16156658",
+      "16094605",
+      "15738986",
+      "15111064",
+      "13753331",
+      "12697905",
+      "11867722",
+      "11484219",
+      "11381529",
+      "10908673",
+      "10716988",
+      "10550212",
+      "10493884",
+      "10386868",
+      "10382673",
+      "9709046",
+      "9367160",
+      "9080190",
+      "8744570",
+      "8328018"
+    ],
+    "similar": [
+      "36845554",
+      "38880318",
+      "29524428",
+      "29306874",
+      "36150500",
+      "22253588",
+      "26195786",
+      "38705227",
+      "30528464",
+      "21766125",
+      "33929321",
+      "28808028",
+      "23995840",
+      "29990433",
+      "9062118",
+      "27423742",
+      "37341654",
+      "32323533",
+      "32914959",
+      "41889773",
+      "23912807",
+      "22881220",
+      "38512660",
+      "35029261",
+      "24043820",
+      "40285686",
+      "29944921",
+      "18536007",
+      "39393662",
+      "31035038",
+      "39400465",
+      "33030907",
+      "21490720",
+      "34845619",
+      "25387963",
+      "38294935",
+      "24704038",
+      "21988473",
+      "30520528",
+      "37609146",
+      "38883712",
+      "26286791",
+      "12697905",
+      "21268115",
+      "35658083",
+      "32561718",
+      "34478435",
+      "27348048",
+      "24970129",
+      "39665260",
+      "32356891",
+      "19459661",
+      "21892446",
+      "29691656",
+      "17034249",
+      "35548668",
+      "37198000",
+      "29632904",
+      "26742101",
+      "24409105",
+      "25574774",
+      "38429584",
+      "30517842",
+      "19395382",
+      "34152264",
+      "29522679",
+      "27555285",
+      "29307002",
+      "30514761",
+      "22669939",
+      "40017731",
+      "18004752",
+      "29716994",
+      "37546728",
+      "41890075",
+      "31855846",
+      "23607785",
+      "32100577",
+      "29890118",
+      "41933762",
+      "29694866",
+      "17279619",
+      "19216110",
+      "28815423",
+      "15041639",
+      "19663492",
+      "32737158",
+      "31441158",
+      "28978440",
+      "25533957",
+      "32253236",
+      "38153183",
+      "25511246",
+      "35341741",
+      "32053358",
+      "39180270",
+      "10512702",
+      "26913490",
+      "40673718",
+      "26258523"
+    ],
+    "review": [
+      "36845554",
+      "39393662",
+      "25574774",
+      "29307002",
+      "32100577",
+      "31441158"
+    ],
+    "pmc": [
+      "9948029"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36845554/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36845554",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MPO-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3375",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2023.1130189",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

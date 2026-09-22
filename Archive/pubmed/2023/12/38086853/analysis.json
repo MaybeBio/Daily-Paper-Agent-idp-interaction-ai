@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38086853",
+  "title": "Single-photon microscopy to study biomolecular condensates.",
+  "authors": "Perego, Eleonora; Zappone, Sabrina; Castagnetti, Francesco; Mariani, Davide; Vitiello, Erika; Rupert, Jakob; Zacco, Elsa; Tartaglia, Gian Gaetano; Bozzoni, Irene; Slenders, Eli; Vicidomini, Giuseppe",
+  "journal": "Nature communications",
+  "published_date": "2023-12-13",
+  "window": {
+    "start": "2023-12-11",
+    "end": "2023-12-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文介绍单光子显微镜技术用于研究生物分子凝聚体（如应激颗粒）的分子动力学与相互作用，对象涉及相分离凝聚体，但方法为实验显微成像而非AI/物理模拟，且未聚焦无序蛋白介导的PPI机制建模，仅部分相关。",
+  "abstract": "Biomolecular condensates serve as membrane-less compartments within cells, concentrating proteins and nucleic acids to facilitate precise spatial and temporal orchestration of various biological processes. The diversity of these processes and the substantial variability in condensate characteristics present a formidable challenge for quantifying their molecular dynamics, surpassing the capabilities of conventional microscopy. Here, we show that our single-photon microscope provides a comprehensive live-cell spectroscopy and imaging framework for investigating biomolecular condensation. Leveraging a single-photon detector array, single-photon microscopy enhances the potential of quantitative confocal microscopy by providing access to fluorescence signals at the single-photon level. Our platform incorporates photon spatiotemporal tagging, which allowed us to perform time-lapse super-resolved imaging for molecular sub-diffraction environment organization with simultaneous monitoring of molecular mobility, interactions, and nano-environment properties through fluorescence lifetime fluctuation spectroscopy. This integrated correlative study reveals the dynamics and interactions of RNA-binding proteins involved in forming stress granules, a specific type of biomolecular condensates, across a wide range of spatial and temporal scales. Our versatile framework opens up avenues for exploring a broad spectrum of biomolecular processes beyond the formation of membrane-less organelles.",
+  "abstract_zh": "生物分子凝聚体在细胞内充当无膜区室，浓缩蛋白质和核酸，以促进各种生物过程在精确的空间和时间上的协调。这些过程的多样性以及凝聚体特性的显著变异性，对量化其分子动力学提出了严峻挑战，超出了传统显微镜的能力范围。在此，我们展示了我们的单光子显微镜提供了一套全面的活细胞光谱和成像框架，用于研究生物分子凝聚。利用单光子探测器阵列，单光子显微镜通过提供单光子水平的荧光信号访问，增强了定量共聚焦显微镜的潜力。我们的平台整合了光子时空标记，使我们能够进行延时超分辨成像，以观察分子亚衍射环境组织，同时通过荧光寿命波动光谱监测分子流动性、相互作用和纳米环境特性。这项综合相关性研究揭示了参与形成应激颗粒（一种特定类型的生物分子凝聚体）的RNA结合蛋白在广泛空间和时间尺度上的动力学和相互作用。我们的多功能框架为探索超越无膜细胞器形成的广泛生物分子过程开辟了途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38086853/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38086853/",
+  "paper_page_path": "papers/pubmed/38086853/index.html"
+}

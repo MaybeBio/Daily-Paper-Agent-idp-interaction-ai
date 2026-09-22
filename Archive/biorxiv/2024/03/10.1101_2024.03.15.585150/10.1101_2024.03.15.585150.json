@@ -1,0 +1,138 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.03.15.585150",
+  "title": "Undruggable oncoproteins cMyc and NMyc bind to mediator of transcription with superior high affinity",
+  "doi": "10.1101/2024.03.15.585150",
+  "abstract": "The overexpression of MYC genes is frequently found in many human cancers including adult and pediatric malignant brain tumors. Targeting MYC genes continues to be challenging due to their undruggable nature. The nine-amino-acid activation domain (9aaTAD) has been identified using our prediction algorithm in all four Yamanaka factors including c-Myc and showed to activate transcription as short peptides. We generated a set of c-Myc constructs (1-108, 69-108 and 98-108) in the N-terminal regions and tested their ability to initiate transcription. We discovered strong interactions in nanomolar scale between the 9aaTAD of c-Myc and N-Myc proteins with the KIX domain of CBP coactivator. The c-Myc 9aaTAD (region 98-108) was not overlapping with the MBII (region 128-143) and therefore represents TRRAP independent activation region. Next, we showed the 9aaTADs in human c-Myc and N-Myc conservation within the MYC family. Interestingly, the loss of the 9aaTAD in L-Myc paralogs was identified in higher metazoans suggesting the deletions had occurred in early tetrapod evolution. In summary, as c-Myc is largely intrinsically disordered protein and therefore difficult to target by small molecule inhibitors, our finding of the c-Myc 9aaTAD in complex with the KIX domain represents a promising druggable target for development of new peptide inhibitors in MYC-driven tumors.",
+  "authors": [
+    "Knight A",
+    "Houser J",
+    "Otasevic T",
+    "Juran V",
+    "Vybihal V",
+    "Smrcka M",
+    "Piskacek M"
+  ],
+  "published_date": "2024-03-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.03.15.585150",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.03.15.585150.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR822726",
+    "raw_record": {
+      "id": "PPR822726",
+      "source": "PPR",
+      "doi": "10.1101/2024.03.15.585150",
+      "title": "Undruggable oncoproteins cMyc and NMyc bind to mediator of transcription with superior high affinity",
+      "authorString": "Knight A, Houser J, Otasevic T, Juran V, Vybihal V, Smrcka M, Piskacek M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Knight A",
+            "lastName": "Knight",
+            "firstName": "Andrea",
+            "initials": "A"
+          },
+          {
+            "fullName": "Houser J",
+            "lastName": "Houser",
+            "firstName": "Josef",
+            "initials": "J"
+          },
+          {
+            "fullName": "Otasevic T",
+            "lastName": "Otasevic",
+            "firstName": "Tomas",
+            "initials": "T"
+          },
+          {
+            "fullName": "Juran V",
+            "lastName": "Juran",
+            "firstName": "Vilem",
+            "initials": "V"
+          },
+          {
+            "fullName": "Vybihal V",
+            "lastName": "Vybihal",
+            "firstName": "Vaclav",
+            "initials": "V"
+          },
+          {
+            "fullName": "Smrcka M",
+            "lastName": "Smrcka",
+            "firstName": "Martin",
+            "initials": "M"
+          },
+          {
+            "fullName": "Piskacek M",
+            "lastName": "Piskacek",
+            "firstName": "Martin",
+            "initials": "M"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The overexpression of MYC genes is frequently found in many human cancers including adult and pediatric malignant brain tumors. Targeting MYC genes continues to be challenging due to their undruggable nature. The nine-amino-acid activation domain (9aaTAD) has been identified using our prediction algorithm in all four Yamanaka factors including c-Myc and showed to activate transcription as short peptides. We generated a set of c-Myc constructs (1-108, 69-108 and 98-108) in the N-terminal regions and tested their ability to initiate transcription. We discovered strong interactions in nanomolar scale between the 9aaTAD of c-Myc and N-Myc proteins with the KIX domain of CBP coactivator. The c-Myc 9aaTAD (region 98-108) was not overlapping with the MBII (region 128-143) and therefore represents TRRAP independent activation region. Next, we showed the 9aaTADs in human c-Myc and N-Myc conservation within the MYC family. Interestingly, the loss of the 9aaTAD in L-Myc paralogs was identified in higher metazoans suggesting the deletions had occurred in early tetrapod evolution. In summary, as c-Myc is largely intrinsically disordered protein and therefore difficult to target by small molecule inhibitors, our finding of the c-Myc 9aaTAD in complex with the KIX domain represents a promising druggable target for development of new peptide inhibitors in MYC-driven tumors.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/15/2024.03.15.585150.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.03.15.585150"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-03-17",
+      "firstPublicationDate": "2024-03-15",
+      "firstIndexDate": "2024-03-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

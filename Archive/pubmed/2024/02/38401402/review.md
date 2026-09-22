@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that two amelogenin-inspired intrinsically disordered peptides, P2 and P6, accelerate and guide mineralisation in a concentrated simulated body fluid solution. Molecular dynamics simulations suggest that both peptides fold in aqueous environments to interact with Ca(2+), PO(4)(3-), and OH(-) ions, leading to apatite nucleation, with P2 forming larger calcium phosphate aggregates than P6. Experimental validation shows accelerated mineralisation relative to control, a pH drop interpreted as calcium and phosphate depletion, and S/TEM and SEM evidence of lamella-like mineral structures. The authors propose that the combined simulation and experimental approach can predict in vivo performance prior to animal trials.
+- **Visible evidence base** Abstract text only; no quantitative data, statistical analyses, simulation parameters, or experimental details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology and force fields, experimental protocols, statistical analyses, raw data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable mechanistic hypothesis linking peptide structure to mineralisation outcomes. However, the current evidence base is insufficient to evaluate the robustness of the claims. Key quantitative results, simulation validation, and experimental reproducibility details are absent. The central conclusion that the peptides "accelerate and guide mineral formation" is supported only qualitatively, and the broader claim that this approach can predict in vivo performance is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in bone tissue engineering, biomineralisation, and biomimetic materials would find the mechanistic insight into peptide-mediated mineral nucleation relevant. Those developing peptide-functionalised bone graft devices may also be interested in the potential for rational design. The methodological coupling of molecular dynamics with experimental mineralisation assays could appeal to computational biologists and materials scientists seeking predictive in vitro models.
+- **Major strengths** The study addresses a clinically relevant problem, namely the slow mineralisation of bone graft materials. The use of amelogenin-inspired peptides provides a biologically grounded design rationale. The combination of molecular dynamics with experimental validation is a commendable integrative approach. The focus on mechanistic understanding, rather than purely empirical observation, is a strength.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Our molecular dynamics analysis demonstrated that in an aqueous environment, P2 and P6 fold to interact with the surrounding Ca(2+), PO(4)(3-) and OH(-) ions, which can lead to apatite nucleation."
+  - **Evidence pointer** Abstract, simulation section; location not provided
+  - **Concern** The abstract provides no details on the molecular dynamics methodology, including force field parameters, water model, ion concentrations, simulation timescales, or convergence criteria. Without these, the reliability of the folding and ion interaction predictions cannot be assessed. The claim that the peptides "fold" to stable structures is particularly sensitive to simulation conditions.
+  - **Why it matters** Molecular dynamics results are only meaningful if the simulation setup is physically realistic and adequately sampled. If the simulations are not converged or use inappropriate parameters, the proposed mechanism could be an artefact rather than a genuine biophysical property.
+  - **Resolution test** Provide full simulation methods, including force field, water model, ion parameters, simulation length, replica or enhanced sampling approaches, and convergence checks. Show that the folded states are reproducible across independent runs and that ion interactions are stable over time.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "These results were validated experimentally in a concentrated simulated body fluid solution, where the peptide solutions accelerated the mineralisation process compared to the control and yielded mineral structures mimicking the amorphous calcium phosphate crystals that can be found in lamella bone."
+  - **Evidence pointer** Abstract, experimental validation section; location not provided
+  - **Concern** The abstract reports qualitative outcomes, such as "accelerated" and "mimicking", without any quantitative data. No mineralisation rates, induction times, particle sizes, or statistical comparisons are given. The claim of structural mimicry is based on S/TEM and SEM, but no images or diffraction data are referenced.
+  - **Why it matters** Without quantitative metrics, the reader cannot judge the magnitude of the effect or whether the differences between peptide and control are meaningful. The structural interpretation of "amorphous calcium phosphate" requires compositional or crystallographic evidence, which is not described.
+  - **Resolution test** Provide quantitative mineralisation kinetics, such as induction time or mass gain, with statistical analysis. Include S/TEM and SEM images with scale bars, and ideally electron diffraction or elemental analysis to confirm the amorphous calcium phosphate identity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "A pH drop for the peptide groups suggests depletion of calcium and phosphate, a prerequisite for intrinsic osteoinduction."
+  - **Evidence pointer** Abstract, pH measurement section; location not provided
+  - **Concern** The pH drop is presented as indirect evidence of ion depletion, but no pH values, time courses, or control conditions are provided. The link between pH drop and calcium and phosphate depletion is not established, as other processes, such as peptide protonation or carbonate buffering, could also alter pH.
+  - **Why it matters** The claim that pH drop indicates ion depletion is central to the proposed mechanism of osteoinduction. If this interpretation is incorrect, the mechanistic narrative weakens substantially.
+  - **Resolution test** Show pH time courses for peptide and control groups, and directly measure calcium and phosphate concentrations in solution over time to correlate with pH changes. Discuss alternative explanations for pH variation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** "The work also demonstrates how experimental mineralisation study coupled with molecular dynamics is a valid method for understanding and predicting in vivo performance prior to animal trials."
+  - **Evidence pointer** Abstract, concluding statement; location not provided
+  - **Concern** This is a broad methodological claim that extends beyond the presented data. The abstract reports in vitro and in silico results only, with no in vivo validation. The predictive validity of the approach for animal trial outcomes is asserted without supporting evidence.
+  - **Why it matters** Overstating the predictive power of an in vitro and computational approach could mislead readers, particularly those in translational research, into overestimating the readiness of this method for preclinical decision-making.
+  - **Resolution test** Either remove or soften this claim, or provide in vivo data that directly tests the predictive value of the combined approach. If in vivo data are available in the full manuscript, they must be explicitly referenced and summarised.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, terminology
+  - **Evidence pointer** Abstract, first sentence; location not provided
+  - **Issue** The term "intrinsically disordered peptides" is used without definition or context, which may confuse readers unfamiliar with this class of biomolecules.
+  - **Required correction** Add a brief parenthetical explanation, such as "peptides that lack a fixed three-dimensional structure in solution".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, structural comparison
+  - **Evidence pointer** Abstract, simulation results; location not provided
+  - **Issue** The statement that P2 "has a less stable backbone" but "folds to a stable structure" is internally ambiguous. It is unclear whether "stable" refers to thermodynamic stability, kinetic persistence, or structural convergence in the simulations.
+  - **Required Correction** Clarify the meaning of "stable" in both contexts, and specify the metric used to assess stability, such as root-mean-square deviation or free energy.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract, comparison to control
+  - **Evidence pointer** Abstract, experimental validation; location not provided
+  - **Issue** The abstract states that peptide solutions accelerated mineralisation "compared to the control", but the nature of the control is not described. It is unclear whether the control was a peptide-free solution or a different peptide sequence.
+  - **Required Correction** Specify the control condition in the abstract, including its composition and rationale.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract, acronyms
+  - **Evidence pointer** Abstract, experimental methods; location not provided
+  - **Issue** The acronyms S/TEM and SEM are used without expansion, which may hinder readers from clinical or computational backgrounds.
+  - **Required Correction** Expand the acronyms at first use, for example "scanning transmission electron microscopy (S/TEM) and scanning electron microscopy (SEM)".
+
+## Risk / unsupported claims
+- The claim that P2 and P6 "fold" to interact with ions is unsupported without simulation details and convergence evidence.
+- The claim that peptide solutions "accelerated" mineralisation is unsupported without quantitative kinetics or statistical analysis.
+- The claim that mineral structures "mimic" amorphous calcium phosphate in lamella bone is unsupported without imaging or compositional data.
+- The claim that pH drop "suggests depletion of calcium and phosphate" is unsupported without direct ion concentration measurements.
+- The claim that the combined method can "predict in vivo performance prior to animal trials" is unsupported and not evaluable from the abstract alone.
+- The relative nucleating ability of P2 versus P6, specifically that P2 yields "larger calcium phosphate aggregates", is not quantitatively supported.

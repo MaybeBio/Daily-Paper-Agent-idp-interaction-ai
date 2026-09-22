@@ -1,0 +1,110 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific and technical evaluation of the ICoN method, its validation, and the biological claims made for Aβ42 conformational sampling
+- **Shared manuscript claim summary** The authors present ICoN, an unsupervised generative deep learning model trained on MD simulation data using a vector-based internal coordinate representation (vBAT), which learns conformational transition physics in a 3D latent space and generates novel, thermodynamically stable protein conformations via nonlinear interpolation. The method is applied to αB-crystallin57–69 and the Aβ42 monomer, with claims of identifying new conformations including a D23-K28 salt bridge and R5-A42 contacts not present in training data.
+- **Visible evidence base** Figures 1–9 (described in text), Tables 1 (described in text), Supplementary Figures S2–S11 (described in text), Methods section
+- **Missing materials affecting confidence** Actual figure images, table data values, supplementary figures, code repository contents, and detailed numerical results were not provided. Statistical significance measures, error bars, and quantitative comparisons are largely absent from the text.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to conformational sampling of highly dynamic proteins using a generative autoencoder with internal coordinates. The core idea of learning transition physics in a latent space and using interpolation to generate novel conformations is potentially valuable. However, the evidence provided is insufficient to establish the central claims. Key validation metrics are reported only as single RMSD values without statistical context, the novelty of the generated conformations is asserted but not rigorously demonstrated, and the biological significance claims for Aβ42 rest on qualitative comparisons to literature rather than quantitative analysis. The method's advantages over existing approaches are not clearly quantified.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists studying intrinsically disordered proteins and conformational ensembles would be the primary audience. Researchers developing generative models for molecular conformations would also find the approach relevant. The potential to rapidly generate diverse conformations from limited MD data could interest those studying protein aggregation diseases such as Alzheimer's disease.
+- **Major strengths** The vBAT representation elegantly addresses the periodicity problem of dihedral angles, a known limitation in internal coordinate-based analyses. The use of a 3D latent space for visualization and interpolation is intuitive and practical. The demonstration that the latent space captures PCA-like essential motions is a useful conceptual bridge. The computational efficiency claim (minutes of training on a single GPU) is attractive if substantiated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Validation of the models by conformation reconstruction" section claims accurate reconstruction with RMSD < 0.9 Å for αB-crystallin57–69 and < 1.3 Å for Aβ42.
+  - **Evidence pointer** Figure 3, Table 1, location not provided
+  - **Concern** The reconstruction accuracy is reported as single RMSD values without distribution, variance, or number of test conformations. It is unclear whether these are mean, median, or maximum values. For a generative model claiming atomistic accuracy, the distribution of reconstruction errors across the validation set is essential. Additionally, the comparison between original and reconstructed conformations for dihedral distributions and correlations (Figures S4–S7) is described qualitatively without quantitative metrics such as Kullback-Leibler divergence or correlation coefficients.
+  - **Why it matters** Without rigorous reconstruction statistics, the reader cannot assess whether the model faithfully represents the conformational space or only a subset. This directly affects the validity of all downstream claims about generated conformations.
+  - **Resolution test** Provide mean, standard deviation, and percentiles of reconstruction RMSD across the full validation set. Include quantitative comparison metrics for dihedral distributions and correlations between original and reconstructed ensembles.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Interpolation-generated synthetic conformations of αB-cristallin57–69" section claims 38,425 novel conformations for αB-crystallin57–69 and 127,673 distinct conformations for Aβ42 (Table 1).
+  - **Evidence pointer** Table 1, location not provided
+  - **Concern** The novelty criteria are not clearly defined. The text states conformations were "compared with its predecessors and eliminated if it was a repeat" and later "compared with the raw MD data" to identify novel conformations. The RMSD thresholds for these comparisons are not stated. For Aβ42, the number of distinct conformations (127,673) is reported without explaining how this was derived from the interpolation process or how uniqueness was determined.
+  - **Why it matters** The central claim of the method is generating novel conformations not in the training data. Without explicit novelty criteria and thresholds, this claim cannot be evaluated or reproduced.
+  - **Resolution test** Clearly state the RMSD thresholds used for deduplication and novelty determination. Provide the number of conformations at each filtering step (generated, energy-filtered, deduplicated, novel relative to training data).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "Analysis and biological implications of novel synthetic Aβ42 conformational ensembles" section claims the model identified conformations with D23-K28 salt bridges and R5-A42 contacts "not seen in the MD training set but reported in existing publications."
+  - **Evidence pointer** Figure 9, location not provided
+  - **Concern** The biological significance of these findings is not quantitatively established. The text states these conformations were "reported in existing publications" but does not specify which publications, what experimental evidence supports these conformations, or how the generated conformations compare structurally to the reported ones. The claim that these conformations "provide insights into Aβ42 oligomerization" is speculative without analysis of oligomerization-relevant properties.
+  - **Why it matters** The biological relevance of the method is a key selling point. Without clear linkage to experimental observations and quantitative comparison, the significance claim is unsupported.
+  - **Resolution test** Specify the publications reporting these conformations, provide structural alignment or RMSD comparison between generated and reported conformations, and discuss how the identified conformations mechanistically relate to oligomerization.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Learned physics in the latent space" section claims the model "learned the physics governing molecular motions" and that interpolation "revealed the learned motions."
+  - **Evidence pointer** Figure 4, location not provided
+  - **Concern** The comparison between latent space interpolation and PCA-derived motions is qualitative. The text states interpolation "revealed the learned motions, which also showed a more rigid helix secondary structure" but provides no quantitative comparison between interpolated conformations and MD-sampled conformations along the same PC modes. The claim that the model "learned" physics is an interpretation that requires more rigorous testing, such as comparing the energy landscape of interpolated conformations to that of MD conformations.
+  - **Why it matters** The claim that the model learns physical principles is foundational to the method's conceptual contribution. Without quantitative evidence, this remains an assertion.
+  - **Resolution test** Provide quantitative comparison between interpolated conformations and MD conformations projected onto the same PC axes, including RMSD distributions and energy profiles along the interpolation path.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The proposed approach is highly transferable and can be used for any available data for training" (Abstract).
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** Transferability is claimed but only demonstrated on two peptide systems (αB-crystallin57–69 with 44 residues and Aβ42 with 42 residues). The method's applicability to larger proteins (>200 residues) is acknowledged as a limitation in the Discussion, but no evidence is provided for intermediate cases. The claim of transferability is therefore overstated relative to the evidence.
+  - **Why it matters** Transferability is a key claimed advantage. Without demonstration on a range of system sizes and complexities, the claim is not established.
+  - **Resolution test** Either temper the claim to reflect the demonstrated scope or provide additional validation on a larger or more structured protein system.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "In this paper first an unsupervised deep learning-based model... is developed" which is grammatically awkward. The phrase "first" appears to be a typo or incomplete construction.
+  - **Required correction** Revise to "In this paper, we first develop an unsupervised deep learning-based model..." or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, energy cutoff
+  - **Evidence pointer** Methods, "Step 2: Eliminating non-physical conformations", location not provided
+  - **Issue** The energy cutoff values of −400 kcal/mol for Aβ42 and −200 kcal/mol for αB-crystallin57–69 are stated without justification. The text says these were "selected from more positive low population regions of total energy distribution" but does not explain how this selection was made or how sensitive the results are to this choice.
+  - **Required correction** Provide the energy distribution plot or describe the selection procedure more precisely. Discuss sensitivity of results to cutoff choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, interpolation
+  - **Evidence pointer** Methods, "Step1: Non-linear Interpolation", location not provided
+  - **Issue** The interpolation method is described as generating "an arc gradually changing polar angle Θ, azimuthal angle Φ, and radius R in a spherical coordinate system" with "random adjustments to the center position." The number of random paths generated per pair and how one path is selected is not specified.
+  - **Required correction** Clarify the interpolation procedure, including how many random paths are generated and whether all are used or a subset is selected.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The Discussion states "the training set is from a physics-based MD sampling" and "It typically takes days, if not weeks, to perform sufficiently long MD simulations to obtain the training set." This is presented as a limitation but the total computational cost of the ICoN approach (MD + training + generation + filtering) is not compared to the cost of simply running longer MD simulations.
+  - **Required correction** Provide a more balanced discussion of computational cost, including the total time for the ICoN pipeline versus extended MD sampling.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, force field comparison
+  - **Evidence pointer** Table 1, location not provided
+  - **Issue** Table 1 lists MD runs using different force fields (ff14SB and ff14IDPSFF) and different starting structures. The text notes that ff14SB yielded "less diverse conformations with favored helicity" but does not systematically compare model performance across force fields.
+  - **Required correction** Provide a comparison of model performance (reconstruction accuracy, novelty, energy distributions) across the different training sets.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (reconstruction validation statistics), R1-M2 (novelty criteria), R1-M3 (biological significance quantification), R1-M4 (physics learning evidence)
+- **Assessment against Nature-style criteria**
+  - **Originality** The combination of internal coordinates with a generative autoencoder for conformational sampling is a novel contribution. The vBAT representation and the use of latent space interpolation for generating new conformations are creative elements. However, the conceptual framework of using generative models for conformational sampling is not entirely new, and the manuscript does not clearly position itself relative to prior work in this area.
+  - **Scientific importance** The problem of sampling conformational ensembles of IDPs is important and timely. If the method works as claimed, it could be a valuable tool. However, the biological significance claims for Aβ42 are not quantitatively established, and the method's advantages over existing approaches are not demonstrated with comparative benchmarks.
+  - **Interdisciplinary readership** The work bridges machine learning, computational chemistry, and structural biology. The potential to inform experimental studies of protein aggregation could attract interest from experimental biologists. However, the manuscript assumes significant familiarity with both MD simulation and deep learning concepts, which may limit accessibility.
+  - **Technical soundness** The core technical approach is plausible, but the validation is insufficient. Reconstruction accuracy is reported without statistical context, novelty criteria are undefined, and the comparison to PCA is qualitative. The energy-based filtering and deduplication steps need more rigorous description and sensitivity analysis.
+  - **Readability for nonspecialists** The manuscript is written for a specialist audience. Key concepts such as vBAT, latent space interpolation, and MM/GBSA calculations are introduced without sufficient background for nonspecialists. The abstract is dense and would benefit from clearer articulation of the method's novelty and significance.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual approach is promising and worth pursuing, but the manuscript requires substantial additional validation and analysis to support its central claims. The authors should provide rigorous reconstruction statistics, clearly defined novelty criteria, quantitative comparison to existing methods, and stronger evidence for the biological significance of the generated conformations.
+
+## Risk / unsupported claims
+- The claim that ICoN "learns the physical principles that govern conformational changes" is not quantitatively supported. The comparison to PCA is qualitative, and no evidence is provided that the model captures energetics or dynamics beyond what PCA would reveal.
+- The claim of identifying "novel conformations" is unsupported because the novelty criteria (RMSD thresholds, comparison methods) are not specified.
+- The claim that synthetic conformations "can be used to rationalize experimental findings" is asserted but not demonstrated with specific quantitative comparisons to experimental data.
+- The claim that the method is "highly transferable" is not supported by evidence beyond two small peptide systems.
+- The biological significance claims regarding Aβ42 oligomerization are speculative and not backed by mechanistic analysis.
+- The computational efficiency claim (training time) is stated but not contextualized against the total pipeline cost or compared to alternative methods.
+- The statement that energy distributions of synthetic conformations are "similar" to MD distributions (Figure 5) is made without statistical testing or quantitative comparison metrics.

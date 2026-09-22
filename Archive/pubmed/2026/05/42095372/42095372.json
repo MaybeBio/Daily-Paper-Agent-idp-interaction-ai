@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "42095372",
+    "doi": "10.1021/acs.jcim.5c03135",
+    "title": "Structuring Disorder via Supervised Molecular Dynamics: Uncovering Arginine-Glycine-Glycine-Mediated Ribonucleic Acid-Intrinsically Disordered Region Recognition Mechanisms."
+  },
+  "content": {
+    "abstract": "In recent years, RNA has emerged as a central player in gene regulation and cellular homeostasis, far beyond its canonical role as a mediator between DNA and proteins. Moreover, RNA-binding proteins orchestrate many of these processes not only through their folded domains but also via intrinsically disordered regions (IDRs). Particular attention has been given to arginine-glycine-rich motifs, which endow these regions with remarkable versatility, flexibility, and interaction adaptability. However, the dynamic nature of such regions represents a major challenge for both structural characterization and computational modeling of their interactions with RNA. In this study, we explore the applicability of supervised molecular dynamics (SuMD) to reconstruct, at atomic resolution, the recognition mechanisms between RNA and disordered protein regions while capturing the multistep nature of the binding process. By focusing on two experimentally resolved systems, SF3A1-UBL/U1-SL4 and FUS RRM/U1-SL3, we show that SuMD can reproduce association pathways involving both disordered and structured regions, capturing transient contacts and interaction hierarchies. We further extend the approach to a prospective system lacking an experimentally resolved complex structure, leading to a model that is consistent with experimental mutagenesis data. This approach provides new perspectives for understanding how IDRs recognize and modulate RNA and generating structural hypotheses for such complexes, paving the way for future applications in the rational design of RNA-protein-targeted therapeutics.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*RNA/chemistry/metabolism",
+      "*Arginine/chemistry/metabolism",
+      "*Glycine/chemistry/metabolism",
+      "*RNA-Binding Proteins/chemistry/metabolism",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Novello, Gianluca",
+        "Dodaro, Andrea",
+        "Strascia, Chiara Cavastracci",
+        "Menin, Silvia",
+        "Sturlese, Mattia",
+        "Salmaso, Veronica",
+        "Moro, Stefano"
+      ],
+      "short_names": [
+        "Novello G",
+        "Dodaro A",
+        "Strascia CC",
+        "Menin S",
+        "Sturlese M",
+        "Salmaso V",
+        "Moro S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3944-0313",
+        "ORCID: 0000-0002-7514-3802"
+      ],
+      "affiliations": [
+        "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy.",
+        "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy.",
+        "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy.",
+        "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy.",
+        "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy.",
+        "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy.",
+        "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Novello, Gianluca",
+        "short_name": "Novello G",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Dodaro, Andrea",
+        "short_name": "Dodaro A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Strascia, Chiara Cavastracci",
+        "short_name": "Strascia CC",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Menin, Silvia",
+        "short_name": "Menin S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Sturlese, Mattia",
+        "short_name": "Sturlese M",
+        "identifiers": [
+          "0000-0003-3944-0313"
+        ],
+        "affiliations": [
+          "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Salmaso, Veronica",
+        "short_name": "Salmaso V",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Moro, Stefano",
+        "short_name": "Moro S",
+        "identifiers": [
+          "0000-0002-7514-3802"
+        ],
+        "affiliations": [
+          "Molecular Modeling Section (MMS), Department of Pharmaceutical and Pharmacological Sciences, University of Padova, via Marzolo 5, 35131 Padova, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 May 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/07 12:35",
+    "fetched_at": "2026-09-18 03:06:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41022793",
+      "40355742",
+      "40209951",
+      "40202108",
+      "40159092",
+      "40128232",
+      "39740355",
+      "39446390",
+      "38987470",
+      "38540759",
+      "38466543",
+      "38238291",
+      "38203194",
+      "37890778",
+      "37301066",
+      "36458023",
+      "36348631",
+      "35871216",
+      "35694898",
+      "35661420",
+      "35426591",
+      "35101980",
+      "35098694",
+      "34575906",
+      "34532343",
+      "33797868",
+      "33353982",
+      "33311468",
+      "33264409",
+      "33237286",
+      "33115279",
+      "33053878",
+      "32882859",
+      "32752662",
+      "32697936",
+      "32494006",
+      "32243832",
+      "32175307",
+      "31430864",
+      "31003202",
+      "30996777",
+      "30581145",
+      "30359484",
+      "30186166",
+      "29733895",
+      "29650703",
+      "29088239",
+      "28746339",
+      "28575444",
+      "28509867",
+      "28319010",
+      "26807648",
+      "26609855",
+      "26574453",
+      "26374839",
+      "26194851",
+      "25868747",
+      "25494299",
+      "25450171",
+      "25403181",
+      "24456045",
+      "23833192",
+      "23746349",
+      "22579281",
+      "22101937",
+      "21921995",
+      "21642970",
+      "21534921",
+      "21500218",
+      "21471012",
+      "20723760",
+      "19548705",
+      "19183046",
+      "17351000",
+      "16200636",
+      "15738986",
+      "15368919",
+      "12580598",
+      "10592235",
+      "8744570",
+      "7154081",
+      "6190573"
+    ],
+    "similar": [
+      "42095372",
+      "42475469",
+      "35098694",
+      "41053545",
+      "39589885",
+      "41714637",
+      "33779503",
+      "23912807",
+      "27048167",
+      "40693919",
+      "34905768",
+      "31479821",
+      "29425497",
+      "40574713",
+      "28315749",
+      "33991007",
+      "31889261",
+      "24763499",
+      "39032884",
+      "32824743",
+      "42000821",
+      "31441158",
+      "39353735",
+      "42136125",
+      "31547849",
+      "35605677",
+      "41053908",
+      "40631955",
+      "39617253",
+      "24027208",
+      "23972852",
+      "31804089",
+      "24957607",
+      "38275091",
+      "42233425",
+      "25286318",
+      "37890778",
+      "24106084",
+      "34179096",
+      "33352065",
+      "31709918",
+      "40650026",
+      "38987470",
+      "27229125",
+      "33262375",
+      "38294935",
+      "36774964",
+      "40403066",
+      "26910732",
+      "29843482",
+      "32034199",
+      "34246632",
+      "26455390",
+      "29990433",
+      "41495908",
+      "25207671",
+      "40981365",
+      "33355572",
+      "9115444",
+      "35139468",
+      "42276495",
+      "32323533",
+      "38985674",
+      "25584704",
+      "28924037",
+      "26297830",
+      "11809873",
+      "30400675",
+      "42538434",
+      "32859072",
+      "34390736",
+      "36131545",
+      "31383795",
+      "26742101",
+      "32785674",
+      "28934129",
+      "33806614",
+      "28493424",
+      "41862773",
+      "38705823",
+      "18831774",
+      "32225071",
+      "33243935",
+      "41001847",
+      "33548309",
+      "33119751",
+      "26073257",
+      "39537752",
+      "40588121",
+      "32925900",
+      "31752575",
+      "26684000",
+      "28381244",
+      "23056474",
+      "23787154",
+      "39093570",
+      "34681718",
+      "35101980",
+      "28398197",
+      "28780862"
+    ],
+    "review": [
+      "42095372",
+      "35098694",
+      "27048167",
+      "31479821",
+      "28315749",
+      "31441158",
+      "24027208",
+      "31709918",
+      "40650026",
+      "27229125",
+      "32034199",
+      "33355572",
+      "35139468",
+      "34390736",
+      "38705823",
+      "33243935",
+      "41001847",
+      "26073257",
+      "31752575"
+    ],
+    "pmc": [
+      "13213911"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42095372/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c03135",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

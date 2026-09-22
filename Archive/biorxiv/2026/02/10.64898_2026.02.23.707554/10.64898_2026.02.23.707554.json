@@ -1,0 +1,122 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.23.707554",
+  "title": "COMPUTATIONAL STUDIES OF CARGO TRANSPORT THROUGH THE NUCLEAR PORE COMPLEX",
+  "doi": "10.64898/2026.02.23.707554",
+  "abstract": "Nuclear Pore Complexes (NPCs) are large protein complexes in eukaryotic cells that span the double-membrane of the nucleus and regulate bi-directional transport between nucleus and cytoplasm. T h e NPC core is lined by intrinsically disordered protein chains called nucleoporins (Nups) which form a selective barrier where large macromolecules (cargoes) need to bind to nuclear transport receptors (NTRs) such as Karyopherins (Kaps) to cross. Previous experimental results have suggested that not only Nups but Kaps, too, are important in the transport process of other NTRs/NTR-cargo complexes. In this work, we assess the role of Kaps in the transport of other NTRs (specifically, NTF2s) through the NPC, a process referred to as the “Kap-centric transport model”. Here, using coarse-grained MD simulation we show that Kaps are able to direct NTF2s into the Nup meshwork, which leads to their increased flow. Our results also suggest that NTRs follow specific lanes inside the pore to maximize efficient transport.",
+  "authors": [
+    "Gautam SK",
+    "Laghaei R",
+    "Nasrabad AE",
+    "Coalson RD"
+  ],
+  "published_date": "2026-02-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.23.707554",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.23.707554.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1222464",
+    "raw_record": {
+      "id": "PPR1222464",
+      "source": "PPR",
+      "doi": "10.64898/2026.02.23.707554",
+      "title": "COMPUTATIONAL STUDIES OF CARGO TRANSPORT THROUGH THE NUCLEAR PORE COMPLEX",
+      "authorString": "Gautam SK, Laghaei R, Nasrabad AE, Coalson RD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gautam SK",
+            "lastName": "Gautam",
+            "firstName": "Sanjeev",
+            "initials": "SK"
+          },
+          {
+            "fullName": "Laghaei R",
+            "lastName": "Laghaei",
+            "firstName": "Rozita",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9434-758X"
+            }
+          },
+          {
+            "fullName": "Nasrabad AE",
+            "lastName": "Nasrabad",
+            "firstName": "Afshin Eskandari",
+            "initials": "AE"
+          },
+          {
+            "fullName": "Coalson RD",
+            "lastName": "Coalson",
+            "firstName": "Rob",
+            "initials": "RD"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9434-758X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Nuclear Pore Complexes (NPCs) are large protein complexes in eukaryotic cells that span the double-membrane of the nucleus and regulate bi-directional transport between nucleus and cytoplasm. T h e NPC core is lined by intrinsically disordered protein chains called nucleoporins (Nups) which form a selective barrier where large macromolecules (cargoes) need to bind to nuclear transport receptors (NTRs) such as Karyopherins (Kaps) to cross. Previous experimental results have suggested that not only Nups but Kaps, too, are important in the transport process of other NTRs/NTR-cargo complexes. In this work, we assess the role of Kaps in the transport of other NTRs (specifically, NTF2s) through the NPC, a process referred to as the “Kap-centric transport model”. Here, using coarse-grained MD simulation we show that Kaps are able to direct NTF2s into the Nup meshwork, which leads to their increased flow. Our results also suggest that NTRs follow specific lanes inside the pore to maximize efficient transport.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.23.707554"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-24",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

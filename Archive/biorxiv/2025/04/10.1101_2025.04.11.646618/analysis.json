@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.11.646618",
+  "title": "Recognition-dependent activation of the RRS1-R/RPS4 immune receptor complex",
+  "authors": "Ahn H; Guo G; Skłenar J; Keh SPY; Huh SU; Hulin MT; Burdett H; Sindalovskaya M; Choi J; Mukhi N; Zhao H; Knorr L; Banfield MJ; Menke FL; Ma W; Jones JD",
+  "journal": "bioRxiv",
+  "published_date": "2025-04-14",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究植物免疫受体RRS1-R/RPS4复合物的效应子识别与激活机制，涉及蛋白互作和构象变化，但对象为折叠蛋白且无AI/物理模拟方法，与无序蛋白PPI建模课题关联较弱。",
+  "abstract": "The Arabidopsis TIR-NLR immune receptors RPS4 and RRS1 function together to enable recognition of multiple effector proteins including AvrRps4 and PopP2. We show here that both in the presence and absence of effector, RPS4 and RRS1 form an oligomer that does not change in size upon effector provision. Oligomer formation involves interactions between the RPS4 and RRS1 TIR domains and requires nucleotide binding capacity in RPS4. RPS4 mutants that lose TIR domain NADase activity abrogate immune activation but retain oligomerization. A cysteine residue in the RPS4 LRR domain contributes to oligomer stabilization. We propose that upon effector recognition, conformational changes in the complex relieve inhibition of RPS4 TIR domains by RRS1 TIR domains, enabling proximity between RPS4 TIR domains to create NADase activity.",
+  "abstract_zh": "拟南芥TIR-NLR免疫受体RPS4和RRS1共同作用，以识别多种效应蛋白，包括AvrRps4和PopP2。我们在此表明，在存在和不存在效应蛋白的情况下，RPS4和RRS1均形成寡聚体，且该寡聚体在提供效应蛋白后大小不变。寡聚体形成涉及RPS4和RRS1的TIR结构域之间的相互作用，并需要RPS4中的核苷酸结合能力。丧失TIR结构域NADase活性的RPS4突变体取消免疫激活，但保留寡聚化。RPS4 LRR结构域中的一个半胱氨酸残基有助于寡聚体的稳定化。我们提出，在效应蛋白识别后，复合物中的构象变化解除RRS1 TIR结构域对RPS4 TIR结构域的抑制，使RPS4 TIR结构域之间的邻近性得以产生NADase活性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.11.646618",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.11.646618",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.11.646618/index.html"
+}

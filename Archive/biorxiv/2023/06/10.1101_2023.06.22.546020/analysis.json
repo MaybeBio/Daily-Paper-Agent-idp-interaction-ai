@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.22.546020",
+  "title": "Thermosensitivity of translation underlies the mammalian nocturnal-diurnal switch",
+  "authors": "Beale AD; Rzechorzek NM; Mihut A; Zeng A; Smyllie NJ; Pilorz V; Richardson R; Bertlesen MF; James NR; Fazal SV; Voysey Z; Pelletier J; Crosby P; Peak-Chew SY; Lancaster MA; Hut RA; O’Neill JS",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-22",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究哺乳动物昼夜节律的温度敏感性及蛋白质合成速率，不涉及无序蛋白、PPI或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Early mammals were nocturnal until the Cretaceous-Paleogene extinction facilitated their rapid expansion into daytime niches. Diurnality subsequently evolved multiple times, independently, but the mechanisms facilitating this switch are unknown. We found that physiological daily temperature shifts oppositely affect circadian clock rhythms in nocturnal versus diurnal mammals. This occurs through a cell-intrinsic signal inverter, mediated by global differences in protein phosphorylation, and effected at the level of bulk protein synthesis rates, with diurnal translation rate being less thermosensitive than nocturnal. Perturbations that reduce translational initiation or mTOR activity are sufficient to trigger the nocturnal-to-diurnal switch at the cellular, tissue, and organismal scale. Our results suggest a convergent selection pressure to attain diurnality by reducing the effect of temperature-dependent changes in protein synthesis on circadian clocks. <h4>One sentence summary</h4> Recalibrating the thermosensitivity of protein synthesis drives daytime-selective activity in mammals.",
+  "abstract_zh": "早期哺乳动物在夜行性状态下生存，直到白垩纪-古近纪灭绝事件促进了它们迅速扩展到日间生态位。随后，昼行性在多个物种中独立演化多次，但促成这一转变的机制尚不清楚。我们发现，生理性每日温度波动对夜行性与昼行性哺乳动物的昼夜节律时钟产生相反的影响。这一现象通过细胞内在的信号逆变器实现，该逆变器由全局蛋白质磷酸化差异介导，并在整体蛋白质合成速率层面生效，其中昼行性翻译速率对温度的敏感性低于夜行性。减少翻译起始或mTOR活性的扰动足以在细胞、组织和整个生物体尺度上触发从夜行性到昼行性的转变。我们的结果表明，存在一种趋同选择压力，通过降低温度依赖性蛋白质合成变化对昼夜节律时钟的影响来实现昼行性。<h4>一句话总结</h4> 重新校准蛋白质合成的热敏感性驱动了哺乳动物日间选择性活动。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.22.546020",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.22.546020",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.22.546020/index.html"
+}

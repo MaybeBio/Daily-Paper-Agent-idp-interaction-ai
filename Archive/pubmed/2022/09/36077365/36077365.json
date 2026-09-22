@@ -1,0 +1,455 @@
+{
+  "identity": {
+    "pmid": "36077365",
+    "doi": "10.3390/ijms23179969",
+    "title": "Unusual Cytochrome c552 from Thioalkalivibrio paradoxus: Solution NMR Structure and Interaction with Thiocyanate Dehydrogenase."
+  },
+  "content": {
+    "abstract": "The search of a putative physiological electron acceptor for thiocyanate dehydrogenase (TcDH) newly discovered in the thiocyanate-oxidizing bacteria Thioalkalivibrio paradoxus revealed an unusually large, single-heme cytochrome c (CytC552), which was co-purified with TcDH from the periplasm. Recombinant CytC552, produced in Escherichia coli as a mature protein without a signal peptide, has spectral properties similar to the endogenous protein and serves as an in vitro electron acceptor in the TcDH-catalyzed reaction. The CytC552 structure determined by NMR spectroscopy reveals significant differences compared to those of the typical class I bacterial cytochromes c: a high solvent accessible surface area for the heme group and so-called \"intrinsically disordered\" nature of the histidine-rich N- and C-terminal regions. Comparison of the signal splitting in the heteronuclear NMR spectra of oxidized, reduced, and TcDH-bound CytC552 reveals the heme axial methionine fluxionality. The TcDH binding site on the CytC552 surface was mapped using NMR chemical shift perturbations. Putative TcDH-CytC552 complexes were reconstructed by the information-driven docking approach and used for the analysis of effective electron transfer pathways. The best pathway includes the electron hopping through His528 and Tyr164 of TcDH, and His83 of CytC552 to the heme group in accordance with pH-dependence of TcDH activity with CytC552.",
+    "keywords": [
+      "cytochrome c",
+      "electron transfer",
+      "heme axial methionine fluxionality",
+      "intrinsically disordered protein",
+      "protein complex modeling",
+      "thiocyanate dehydrogenase"
+    ],
+    "mesh_terms": [
+      "Cytochrome c Group",
+      "Ectothiorhodospiraceae",
+      "Escherichia coli/metabolism",
+      "*Heme/metabolism",
+      "Magnetic Resonance Spectroscopy",
+      "Oxidation-Reduction",
+      "Oxidoreductases/metabolism",
+      "*Thiocyanates"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Britikov, Vladimir V",
+        "Bocharov, Eduard V",
+        "Britikova, Elena V",
+        "Dergousova, Natalia I",
+        "Kulikova, Olga G",
+        "Solovieva, Anastasia Y",
+        "Shipkov, Nikolai S",
+        "Varfolomeeva, Larisa A",
+        "Tikhonova, Tamara V",
+        "Timofeev, Vladimir I",
+        "Shtykova, Eleonora V",
+        "Altukhov, Dmitry A",
+        "Usanov, Sergey A",
+        "Arseniev, Alexander S",
+        "Rakitina, Tatiana V",
+        "Popov, Vladimir O"
+      ],
+      "short_names": [
+        "Britikov VV",
+        "Bocharov EV",
+        "Britikova EV",
+        "Dergousova NI",
+        "Kulikova OG",
+        "Solovieva AY",
+        "Shipkov NS",
+        "Varfolomeeva LA",
+        "Tikhonova TV",
+        "Timofeev VI",
+        "Shtykova EV",
+        "Altukhov DA",
+        "Usanov SA",
+        "Arseniev AS",
+        "Rakitina TV",
+        "Popov VO"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1330-9539",
+        "ORCID: 0000-0002-3635-1609",
+        "ORCID: 0000-0001-8150-0522",
+        "ORCID: 0000-0003-4347-7266",
+        "ORCID: 0000-0002-3096-8659"
+      ],
+      "affiliations": [
+        "Institute of Bioorganic Chemistry, National Academy of Sciences of Belarus, 220141 Minsk, Belarus.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow 117997, Russia.",
+        "Moscow Institute of Physics and Technology, Dolgoprudny 141700, Russia.",
+        "Institute of Bioorganic Chemistry, National Academy of Sciences of Belarus, 220141 Minsk, Belarus.",
+        "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia.",
+        "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia.",
+        "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia.",
+        "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia.",
+        "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia.",
+        "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow 117997, Russia.",
+        "Federal Scientific Research Center \"Crystallography and Photonics\", Russian Academy of Sciences, Moscow 119333, Russia.",
+        "Federal Scientific Research Center \"Crystallography and Photonics\", Russian Academy of Sciences, Moscow 119333, Russia.",
+        "National Research Center \"Kurchatov Institute\", Moscow 123182, Russia.",
+        "Institute of Bioorganic Chemistry, National Academy of Sciences of Belarus, 220141 Minsk, Belarus.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow 117997, Russia.",
+        "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow 117997, Russia.",
+        "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Britikov, Vladimir V",
+        "short_name": "Britikov VV",
+        "identifiers": [
+          "0000-0002-1330-9539"
+        ],
+        "affiliations": [
+          "Institute of Bioorganic Chemistry, National Academy of Sciences of Belarus, 220141 Minsk, Belarus."
+        ]
+      },
+      {
+        "full_name": "Bocharov, Eduard V",
+        "short_name": "Bocharov EV",
+        "identifiers": [
+          "0000-0002-3635-1609"
+        ],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow 117997, Russia.",
+          "Moscow Institute of Physics and Technology, Dolgoprudny 141700, Russia."
+        ]
+      },
+      {
+        "full_name": "Britikova, Elena V",
+        "short_name": "Britikova EV",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioorganic Chemistry, National Academy of Sciences of Belarus, 220141 Minsk, Belarus."
+        ]
+      },
+      {
+        "full_name": "Dergousova, Natalia I",
+        "short_name": "Dergousova NI",
+        "identifiers": [],
+        "affiliations": [
+          "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia."
+        ]
+      },
+      {
+        "full_name": "Kulikova, Olga G",
+        "short_name": "Kulikova OG",
+        "identifiers": [],
+        "affiliations": [
+          "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia."
+        ]
+      },
+      {
+        "full_name": "Solovieva, Anastasia Y",
+        "short_name": "Solovieva AY",
+        "identifiers": [],
+        "affiliations": [
+          "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia."
+        ]
+      },
+      {
+        "full_name": "Shipkov, Nikolai S",
+        "short_name": "Shipkov NS",
+        "identifiers": [],
+        "affiliations": [
+          "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia."
+        ]
+      },
+      {
+        "full_name": "Varfolomeeva, Larisa A",
+        "short_name": "Varfolomeeva LA",
+        "identifiers": [
+          "0000-0001-8150-0522"
+        ],
+        "affiliations": [
+          "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia."
+        ]
+      },
+      {
+        "full_name": "Tikhonova, Tamara V",
+        "short_name": "Tikhonova TV",
+        "identifiers": [],
+        "affiliations": [
+          "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia."
+        ]
+      },
+      {
+        "full_name": "Timofeev, Vladimir I",
+        "short_name": "Timofeev VI",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow 117997, Russia.",
+          "Federal Scientific Research Center \"Crystallography and Photonics\", Russian Academy of Sciences, Moscow 119333, Russia."
+        ]
+      },
+      {
+        "full_name": "Shtykova, Eleonora V",
+        "short_name": "Shtykova EV",
+        "identifiers": [
+          "0000-0003-4347-7266"
+        ],
+        "affiliations": [
+          "Federal Scientific Research Center \"Crystallography and Photonics\", Russian Academy of Sciences, Moscow 119333, Russia."
+        ]
+      },
+      {
+        "full_name": "Altukhov, Dmitry A",
+        "short_name": "Altukhov DA",
+        "identifiers": [],
+        "affiliations": [
+          "National Research Center \"Kurchatov Institute\", Moscow 123182, Russia."
+        ]
+      },
+      {
+        "full_name": "Usanov, Sergey A",
+        "short_name": "Usanov SA",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioorganic Chemistry, National Academy of Sciences of Belarus, 220141 Minsk, Belarus."
+        ]
+      },
+      {
+        "full_name": "Arseniev, Alexander S",
+        "short_name": "Arseniev AS",
+        "identifiers": [],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow 117997, Russia."
+        ]
+      },
+      {
+        "full_name": "Rakitina, Tatiana V",
+        "short_name": "Rakitina TV",
+        "identifiers": [
+          "0000-0002-3096-8659"
+        ],
+        "affiliations": [
+          "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry, Russian Academy of Sciences, Moscow 117997, Russia."
+        ]
+      },
+      {
+        "full_name": "Popov, Vladimir O",
+        "short_name": "Popov VO",
+        "identifiers": [],
+        "affiliations": [
+          "Bach Institute of Biochemistry, Federal Research Center \"Fundamentals of Biotechnology\", Russian Academy of Sciences, Moscow 119071, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Sep 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/10 06:00",
+    "fetched_at": "2026-09-20 14:51:43"
+  },
+  "links": {
+    "cites": [
+      "36555434"
+    ],
+    "refs": [
+      "33833657",
+      "32627749",
+      "32094184",
+      "32006276",
+      "31118923",
+      "30941266",
+      "30702765",
+      "29174494",
+      "29021737",
+      "28293216",
+      "27390766",
+      "26410586",
+      "23972848",
+      "23962882",
+      "23728592",
+      "23619693",
+      "22298319",
+      "22167687",
+      "21190063",
+      "21125384",
+      "20045245",
+      "18657360",
+      "18007608",
+      "17186527",
+      "17013683",
+      "16533029",
+      "16414073",
+      "16402772",
+      "16271000",
+      "15815974",
+      "15608378",
+      "15386621",
+      "15318004",
+      "15264255",
+      "15264254",
+      "15161973",
+      "14505072",
+      "12580598",
+      "12057198",
+      "11502173",
+      "11157213",
+      "10499099",
+      "10455032",
+      "9790980",
+      "9757107",
+      "8744570",
+      "8520220",
+      "6202169",
+      "5102484",
+      "4980133",
+      "4351056"
+    ],
+    "similar": [
+      "36077365",
+      "36995233",
+      "33838635",
+      "31118923",
+      "7577938",
+      "15379555",
+      "29285524",
+      "40812657",
+      "18947229",
+      "2656671",
+      "11152119",
+      "8396033",
+      "15161973",
+      "3040093",
+      "23909651",
+      "16554303",
+      "2159881",
+      "19450539",
+      "7925398",
+      "10684632",
+      "9593308",
+      "19178152",
+      "8652583",
+      "28942900",
+      "8885841",
+      "2176107",
+      "9369207",
+      "14984198",
+      "2535788",
+      "16460012",
+      "15794659",
+      "6309240",
+      "8885842",
+      "1312933",
+      "6297567",
+      "18505274",
+      "28093471",
+      "22809527",
+      "16365847",
+      "2540043",
+      "12482588",
+      "11935350",
+      "7578134",
+      "40669334",
+      "8119983",
+      "6286617",
+      "28293216",
+      "10672015",
+      "3002798",
+      "15475358",
+      "28196881",
+      "1310985",
+      "11931180",
+      "6313059",
+      "15053605",
+      "7983018",
+      "8243657",
+      "29719208",
+      "10387032",
+      "21945855",
+      "17616605",
+      "8621585",
+      "1998676",
+      "28062839",
+      "9561726",
+      "23385167",
+      "6268745",
+      "2155226",
+      "15578827",
+      "27133504",
+      "15628885",
+      "20529691",
+      "12119407",
+      "15865447",
+      "6329753",
+      "13072",
+      "8060974",
+      "16226767",
+      "2177323",
+      "31153111",
+      "11231004",
+      "1932081",
+      "6257303",
+      "22287551",
+      "11259408",
+      "11052663",
+      "8388915",
+      "12901720",
+      "8143881",
+      "11742117",
+      "15274645",
+      "9748314",
+      "35264493",
+      "9405061",
+      "16921577",
+      "12475218",
+      "8820485",
+      "11132640",
+      "7626097",
+      "19592112"
+    ],
+    "review": [
+      "36077365"
+    ],
+    "pmc": [
+      "9456337"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23179969",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36077365/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36077365",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://bacdive.dsmz.de/strain/4292",
+        "provider": "BacDive",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "Thioalkalivibrio paradoxus BD-ID 4292"
+      }
+    ],
+    "text_mined": []
+  }
+}

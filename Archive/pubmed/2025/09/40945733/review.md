@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, experimental procedures, and data availability statements. Figures are referenced but not directly provided; figure content is inferred from captions and text.
+- **Assessment boundary** Scientific claims, methodological soundness, evolutionary inference, computational and experimental evidence, and alignment with Nature-style criteria. No assessment of formatting or journal-specific style beyond general readability.
+- **Shared manuscript claim summary** The authors propose that the MEK–ERK binding interface exhibits asymmetric coevolution, where ERK is highly conserved while MEK's intrinsically disordered D-site diverges across metazoan clades. They combine phylogenetic analysis, AlphaFold2 structure prediction, molecular dynamics simulations, and Drosophila genetics to argue that the D-site is essential for ERK binding, signaling, and viability, and that it may exert allosteric effects on the MEK active site.
+- **Visible evidence base** Sequence analysis of 274 MEK orthologs, AlphaFold2 multimer predictions for human and fly complexes, 1 μs MD simulations (5 replicates WT, 16 replicates MEK5A), and Drosophila rescue experiments using a CRIMIC split-expression system. Figures S1–S4 are referenced but not visible.
+- **Missing materials affecting confidence** Figures 1–4 and Supporting Figures S1–S4 are not directly viewable. Full MD simulation parameters, force field validation, convergence criteria, and raw trajectory analyses are not fully described. Statistical details for Drosophila experiments (e.g., number of biological replicates, statistical tests used) are incomplete. Sequence clustering methodology lacks detail on K-means initialization and validation.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and interesting question about how network asymmetry shapes coevolution of a signaling complex. The combination of phylogenetics, structure prediction, MD simulation, and in vivo genetics is ambitious and potentially powerful. However, several technical and interpretive gaps weaken the central claims. The evolutionary analysis is descriptive and lacks formal coevolutionary testing. The MD simulations are extensive but the analysis of allostery is indirect and based on RMSD changes that may not reflect functional coupling. The Drosophila experiments are compelling but limited to viability and pupal length, which are coarse readouts. The claim of asymmetric coevolution is plausible but not fully established from the provided evidence, particularly because the authors do not demonstrate that the observed D-site divergence is driven by selection rather than drift, nor do they quantify coevolution between MEK and ERK sites.
+- **Who would be interested in the results, and why** Researchers studying MAPK signaling, protein–protein interaction evolution, intrinsically disordered regions, and kinase regulation. The work may also interest those developing integrative approaches combining AlphaFold, MD, and model organism genetics. The Drosophila toolkit for testing MEK function is a useful resource for the signaling community.
+- **Major strengths** The study addresses a fundamental question about how interaction network topology shapes molecular evolution. The combination of computational and experimental approaches is commendable. The Drosophila CRIMIC system provides a clean, physiologically relevant assay for MEK function. The identification of conserved D-site residues and their validation through multiple methods strengthens the functional conclusions. The observation that D-site divergence is clade-specific while ERK remains conserved is an interesting pattern that could stimulate further work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evolutionary inference
+  - **Claim pointer** The authors claim "asymmetric coevolution" of the MEK–ERK interface, with MEK's D-site diverging across clades while ERK remains conserved.
+  - **Evidence pointer** Results, "Sequence analysis of the MEK D-site"; Figure 1B and 1C
+  - **Concern** The analysis demonstrates sequence divergence in the D-site across clades and conservation within clades, but this pattern alone does not establish coevolution. No formal coevolutionary analysis (e.g., correlated mutation analysis, phylogenetic comparative methods, or tests for positive selection) is presented. The authors do not test whether D-site divergence is driven by selection, relaxed constraint, or neutral drift. The term "asymmetric coevolution" implies a reciprocal evolutionary relationship between MEK and ERK, but the data only show that one partner is more variable than the other. The authors also do not address whether the D-site divergence is compensated by changes elsewhere in MEK or in ERK's DRS.
+  - **Why it matters** The central thesis of the paper rests on the concept of asymmetric coevolution. Without formal evolutionary analysis, the claim is not supported. The observed pattern could be explained by simple relaxation of purifying selection on a disordered region, which would not constitute coevolution in a meaningful sense. The authors need to demonstrate that the D-site divergence is adaptive and functionally relevant across clades, and ideally show correlated changes between MEK and ERK.
+  - **Resolution test** Perform formal tests for positive selection (e.g., dN/dS analysis on the D-site and kinase domain), use phylogenetic comparative methods to test for correlated evolution between MEK D-site and ERK DRS residues, or demonstrate that D-site variants from different clades have clade-specific functional consequences. At minimum, the authors should temper the language from "asymmetric coevolution" to "asymmetric sequence divergence" unless formal coevolutionary analysis is provided.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Allostery claim
+  - **Claim pointer** The authors state that MD simulations "support an allosteric role for this motif" and that the D-site "plays a role in stabilizing the active conformation of MEK."
+  - **Evidence pointer** Results, "Functional residue identification by point mutation simulations"; Figure 3B
+  - **Concern** The allostery claim is based on increased RMSD of the active site (residues 216–222) upon D-site detachment in the MEK5A mutant. However, RMSD measures structural deviation from a reference, not functional coupling. Increased flexibility of a few residues does not demonstrate allosteric communication between the D-site and the active site. No correlation analysis between D-site and active site motions, no free energy calculations, and no mutational analysis dissecting the allosteric pathway are provided. The authors also do not show that the increased active site flexibility affects catalytic activity or substrate binding. The claim of allostery is therefore speculative and not supported by the presented data.
+  - **Why it matters** The allosteric claim is a significant part of the paper's novelty and is highlighted in the abstract and discussion. If the D-site merely anchors MEK to ERK without influencing active site dynamics, the functional significance of the observed coupling is unclear. Overstating the allostery claim could mislead readers and overinterpret the MD results.
+  - **Resolution test** Provide direct evidence of allosteric coupling, such as (1) correlation analysis between D-site and active site motions in MD trajectories, (2) free energy perturbation or umbrella sampling to quantify the effect of D-site binding on active site conformation, (3) enzymatic assays comparing WT and MEK5A catalytic activity, or (4) NMR or other experimental approaches to detect conformational changes. If such data are not available, the allostery claim should be substantially softened to "possible" or "potential" allosteric coupling.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors state that "MEK4A failed to rescue mek-null males" and that "D-site mutations eliminate both normal and gain-of-function phenotypes."
+  - **Evidence pointer** Results, "Functional assessment of the MEK D-site in vivo"; Figure 4B and 4C
+  - **Concern** The Drosophila experiments are elegant in design but the readouts are limited. Viability is a binary, all-or-nothing measure that does not distinguish between complete loss of MEK function and partial impairment. The pupal length phenotype for the Q56P gain-of-function allele is quantitative but the mechanism linking ERK overactivation to shortened pupae is not established. The authors do not report whether the MEK4A or ΔD-site transgenes are expressed at levels comparable to WT, nor do they assess ERK phosphorylation directly. Without these controls, it is possible that the failure to rescue is due to protein misfolding, instability, or mislocalization rather than specifically impaired D-site–DRS interaction.
+  - **Why it matters** The in vivo data are the strongest evidence for functional importance of the D-site. If the mutants fail to rescue for reasons unrelated to D-site–DRS binding, the conclusions about the specific role of the D-site are weakened. Direct measurement of ERK phosphorylation or downstream signaling would strengthen the link between D-site disruption and loss of MEK function.
+  - **Resolution test** Include Western blot analysis of ERK phosphorylation in rescued animals, confirm transgene expression levels, and ideally test a D-site mutant that preserves protein stability but disrupts binding (e.g., charge reversal mutations rather than alanine substitutions). If direct signaling readouts are not feasible, the authors should acknowledge this limitation and temper the strength of their conclusions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors describe MD simulations of 1 μs duration with 5 replicates for WT and 16 replicates for MEK5A at 375 K.
+  - **Evidence pointer** Experimental procedures, "MD simulations"
+  - **Concern** The MD simulation methodology is described but several critical details are missing. The temperature of 375 K for the MEK5A mutant is unusual and not justified; if this was done to accelerate dissociation, it should be stated explicitly and the potential artifacts discussed. The force field (CHARMM36) is appropriate, but no validation of the simulation system (e.g., equilibration stability, system size effects) is provided. The analysis of dissociation events uses a 15 Å COM threshold, but the sensitivity of the results to this arbitrary cutoff is not tested. The authors also do not report error bars or statistical significance for the dissociation times across replicates.
+  - **Why it matters** Reproducibility is a core principle of computational biology. Without full methodological details and uncertainty quantification, the MD results cannot be independently verified or compared to other studies. The elevated temperature for the mutant simulations could introduce artifacts that confound the comparison with WT.
+  - **Resolution test** Provide a detailed description of the simulation setup, including the rationale for 375 K, convergence checks, and error analysis. Test the sensitivity of the dissociation analysis to the COM threshold. If elevated temperature was used, perform at least a subset of simulations at 300 K to confirm that the observed differences are not temperature artifacts.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Drosophila pupal length measurements
+  - **Evidence pointer** Figure 4C
+  - **Issue** The pupal length data are presented as box-and-whisker plots but no statistical test is described. The number of biological replicates (n) is shown in the figure but the statistical method (e.g., t-test, ANOVA) and p-values are not reported in the text.
+  - **Required correction** Add a description of the statistical tests used and report p-values or confidence intervals for the comparisons shown in Figure 4C.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Sequence clustering
+  - **Evidence pointer** Experimental procedures, "Multiple sequence alignments"
+  - **Issue** The K-means clustering of D-site sequences is described but the number of clusters (k) was presumably set to 4 based on the four groups identified. The method for choosing k and the validation of cluster stability are not described.
+  - **Required correction** State how k was determined and whether alternative clustering methods or cluster validation metrics were considered.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of linker length
+  - **Evidence pointer** Discussion
+  - **Issue** The speculation about linker length modulating D-site accessibility is interesting but not supported by any data in the manuscript. The authors acknowledge this is speculative, but the discussion could be more clearly framed as a hypothesis for future work.
+  - **Required correction** Consider moving this speculation to a "Future directions" paragraph or clearly labeling it as a hypothesis that is not tested in the current study.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 1–4 and S1–S4
+  - **Evidence pointer** All figures
+  - **Issue** The figures are referenced extensively but not visible in the provided manuscript text. It is not possible to assess the quality of the sequence logos, structural models, or pupal images.
+  - **Required correction** Ensure that all figures are of high quality and that the captions are self-explanatory. Consider adding supplementary figure legends that describe the data in sufficient detail for readers to interpret without the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evolutionary inference), R1-M2 (allostery claim), R1-M3 (experimental validation), R1-M4 (methodological transparency)
+- **Assessment against Nature-style criteria** Originality: The question of asymmetric coevolution in a kinase–substrate pair is interesting and relatively underexplored, particularly for the MEK–ERK interface. The combination of approaches is creative. However, the conceptual framework of "asymmetric coevolution" is not new, and the paper does not introduce a novel evolutionary or biophysical principle. Scientific importance: The MEK–ERK pathway is of broad significance, and understanding the evolutionary constraints on this interaction could have implications for drug design and understanding disease mutations. However, the importance of the specific findings is limited by the lack of formal evolutionary analysis and the indirect evidence for allostery. Interdisciplinary readership: The paper bridges evolutionary biology, structural biology, and cell signaling, which could appeal to a broad audience. However, the technical depth in each area may limit accessibility. Technical soundness: The computational methods are generally appropriate, but the MD analysis lacks rigor in quantifying allostery, and the evolutionary analysis is descriptive. The Drosophila experiments are well designed but limited in scope. Readability for nonspecialists: The manuscript is generally well written and the logic is clear, but the discussion of MD simulations and evolutionary analysis may be challenging for readers outside these fields. Overall, the manuscript has potential but does not currently meet the bar for a Nature-style publication due to the gaps in evolutionary inference and the overinterpretation of the allostery claim.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis and a useful experimental system, but the central claims of asymmetric coevolution and allosteric regulation are not sufficiently supported. Major revisions addressing the evolutionary analysis, the allostery evidence, and the experimental validation are required before the case can be made. I would be supportive if these technical concerns are resolved.
+
+## Risk / unsupported claims
+- The claim of "asymmetric coevolution" is not supported by formal coevolutionary analysis; the data show sequence divergence, not coevolution.
+- The claim that the D-site plays an allosteric role in stabilizing the MEK active conformation is not supported by the MD data, which only show increased RMSD without demonstrating functional coupling.
+- The statement that "no variation in key residues involved in MEK–ERK interaction was found in large-scale human variant datasets" is not verifiable from the provided text, as the specific datasets and analysis methods are not described in detail.
+- The speculation about linker length modulating D-site accessibility is presented without supporting data.
+- The claim that the Drosophila system "faithfully reads out MEK function in vivo" is not fully supported, as only viability and pupal length were measured, not direct ERK activation.

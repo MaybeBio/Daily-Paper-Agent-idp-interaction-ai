@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, experimental section, results and discussion, conclusion) as provided
+- **Assessment boundary** Scientific and technical evaluation of the provided manuscript content only; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors report that native mass spectrometry (nMS) coupled with 193 nm ultraviolet photodissociation (UVPD) reveals three conformational subpopulations of monomeric alpha-synuclein (alpha-Syn) with distinct zinc ion (Zn2+) binding stoichiometries, affinities, and binding modes. They propose that the low-charge-state conformer binds Zn2+ primarily through C-terminal electrostatic interactions, the intermediate-charge-state conformer through coordination interactions in the AA40-80 region, and the high-charge-state conformer through a combination of both mechanisms.
+- **Visible evidence base** Abstract; Section 1 (Experimental); Section 2 (Results and Discussion) with references to Figures 1-4 and Table 1; Section 3 (Conclusion). Figures and tables are referenced but not provided in the submitted material.
+- **Missing materials affecting confidence** All figures (1-4) and Table 1 are referenced but not included; raw mass spectra, deconvolution outputs, statistical test details, and the Zenodo dataset are not accessible within the provided material; no information on replicate numbers for nMS experiments beyond the UVPD filtering threshold; no negative control experiments (e.g., other divalent metals) are described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in the field of Parkinson's disease research, namely how Zn2+ binding to alpha-Syn is modulated by conformational heterogeneity. The combination of nMS and UVPD is well suited to this question and represents a technically sophisticated approach. However, the central claims regarding conformation-selective binding modes rest on interpretive inferences from indirect measurements (UVPD fragment yield changes and holo-fragment distributions) rather than on direct structural evidence. Several key controls and quantitative validations are missing, and the absence of the actual figures and table prevents full verification of the reported results. The manuscript is potentially interesting but the case is not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying alpha-synuclein aggregation and metal ion interactions in neurodegenerative disease; mass spectrometrists developing native MS and UVPD methodologies for intrinsically disordered proteins; structural biologists interested in conformational ensembles of IDPs and their ligand-binding properties.
+- **Major strengths** The combination of nMS with 193 nm UVPD is a sophisticated and relatively uncommon approach that offers residue-level information on protein-metal interactions in the gas phase. The authors address a biologically important question with potential therapeutic relevance. The analytical workflow, including deconvolution, fragment assignment, and statistical filtering, is described in considerable detail. The interpretation attempts to integrate multiple orthogonal readouts (charge-state distributions, fragment yield changes, holo-fragment distributions) to derive mechanistic conclusions.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for mechanistic claims
+  - **Claim pointer** The authors claim that the low-charge-state conformer binds Zn2+ primarily through C-terminal electrostatic interactions, the intermediate-charge-state conformer through coordination interactions in AA40-80, and the high-charge-state conformer through both mechanisms.
+  - **Evidence pointer** Section 2.2, Figures 4a-4f, Table 1
+  - **Concern** The mechanistic assignment of binding modes (electrostatic vs. coordination) is inferred indirectly from UVPD fragment yield changes and holo-fragment distribution patterns. No direct structural or spectroscopic evidence (e.g., ion mobility collision cross sections, hydrogen-deuterium exchange, or molecular dynamics simulations) is presented to support these assignments. The reasoning relies on the assumption that coordination bonds are more resistant to UVPD than electrostatic interactions, which is plausible but not demonstrated for this specific system. Furthermore, the holo-fragment distributions are interpreted as reflecting binding site locations, but UVPD fragmentation efficiency can be influenced by many factors unrelated to metal binding site, including sequence composition, secondary structure, and charge location.
+  - **Why it matters** The central conclusion of the manuscript, namely that different conformational subpopulations of alpha-Syn employ qualitatively different Zn2+ binding modes, depends entirely on this indirect inference. If the interpretation of the UVPD data is incorrect or confounded, the main claim collapses.
+  - **Resolution test** Provide direct evidence for binding mode assignment, such as: (a) collision-induced unfolding or ion mobility data showing distinct conformational responses to Zn2+ binding; (b) molecular dynamics simulations of Zn2+ binding to each conformational state; (c) site-directed mutagenesis of proposed binding residues (e.g., His50 in AA40-80, acidic residues in C-terminal region) with corresponding nMS-UVPD analysis; or (d) complementary spectroscopic data (e.g., NMR or EPR) on Zn2+ binding in solution.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor of binding affinity claims
+  - **Claim pointer** The authors state that the low-charge-state conformer exhibits the highest Zn2+ binding affinity and stoichiometry (more than 2 Zn2+ bound), while the intermediate-charge-state conformer binds only 1 Zn2+ with the weakest affinity.
+  - **Evidence pointer** Section 2.1, Figure 2
+  - **Concern** The manuscript reports relative binding strengths and stoichiometries but does not provide quantitative binding affinities (e.g., dissociation constants) or titration curves. The claim of "strongest binding" for the low-charge-state conformer appears to be based on the number of bound Zn2+ ions observed in the mass spectrum at a single Zn2+ concentration (1:50 molar ratio). Without titration experiments across a range of Zn2+ concentrations, it is not possible to distinguish between differences in binding affinity and differences in the number of available binding sites. Additionally, the authors do not report whether the observed Zn2+ binding is specific or could represent nonspecific adduction during electrospray ionization.
+  - **Why it matters** The relative binding affinities across conformational states are a key part of the manuscript's central claim regarding conformation-selectivity. If the observed differences reflect only stoichiometric capacity rather than affinity, the interpretation of "selectivity" would need to be revised.
+  - **Resolution test** Perform Zn2+ titration experiments (e.g., 1:1 to 1:200 molar ratios) and plot the abundance of each Zn2+-bound species as a function of Zn2+ concentration. Fit the data to determine apparent dissociation constants for each conformational state. Include control experiments with a non-binding metal ion (e.g., Mg2+ or Ca2+) to rule out nonspecific adduction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The authors state that raw data are publicly available on Zenodo and that all data analysis was performed using custom R scripts.
+  - **Evidence pointer** Section 1.5
+  - **Concern** While the authors state that raw data are deposited on Zenodo, the provided manuscript does not include the DOI or accession number for the dataset. The Zenodo link is given as https://doi.org/10.5281/zenodo.15362532, but this DOI is not verifiable from the manuscript text alone. Additionally, the custom R scripts are mentioned but not provided or described in sufficient detail for reproduction. The manuscript does not specify how many biological or technical replicates were performed for the nMS experiments, nor does it report measures of variability (e.g., standard deviations or confidence intervals) for the key quantitative results.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific claims. Without access to the data and analysis scripts, and without information on replicate numbers and variability, the reliability of the reported results cannot be independently assessed.
+  - **Resolution test** Provide the Zenodo DOI in the manuscript, ensure the dataset is publicly accessible, and include the custom R scripts as supplementary material. Report the number of replicates for each experiment and include measures of variability for key quantitative findings (e.g., mean +/- SD for DeltaFYs values and holo-fragment ratios).
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Section 2.1, use of "价态" (charge state) vs. "构象" (conformation)
+  - **Evidence pointer** Section 2.1
+  - **Issue** The manuscript uses the terms "低价态、中间价态和高价态构象" (low-, intermediate-, and high-charge-state conformations) throughout. It is not always clear whether the authors are referring to distinct charge states of the same conformation or to genuinely distinct conformational families that happen to exhibit different charge state distributions. The relationship between charge state and conformation in native MS is complex and should be explicitly discussed.
+  - **Required correction** Clarify the operational definition of "conformational subpopulations" as detected by nMS. State explicitly whether the three populations are defined solely by their charge state distributions or whether additional evidence (e.g., ion mobility) supports distinct gas-phase conformations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.2, DeltaFYs comparisons
+  - **Evidence pointer** Section 2.2, Figures 4a-4c
+  - **Issue** The manuscript reports that DeltaFYs values differ significantly between conformational states and between structural regions, but no statistical test results (e.g., p-values, confidence intervals) are reported for these comparisons. The text mentions that a t-test was used (P <= 0.001) for identifying significant sites, but the results of these tests are not presented.
+  - **Required correction** Report the statistical test results for the regional DeltaFYs comparisons, including p-values or confidence intervals, and specify which multiple testing correction was applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of method description
+  - **Affected element** Section 1.4, UVPD parameters
+  - **Evidence pointer** Section 1.4
+  - **Issue** The manuscript states that UVPD was performed with a 193 nm ArF excimer laser at approximately 1.2 mJ pulse energy, but does not report the number of laser pulses per scan, the repetition rate, or the irradiation time. These parameters are critical for UVPD efficiency and reproducibility.
+  - **Required correction** Provide the complete UVPD parameters, including number of pulses, repetition rate, and any synchronization settings with the mass analyzer.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 1, Introduction (implicit)
+  - **Evidence pointer** Abstract and Section 1
+  - **Issue** The manuscript does not provide an introduction section. The abstract mentions the importance of Zn2+-alpha-Syn interactions for Parkinson's disease, but the manuscript jumps directly to the experimental section. This limits the reader's ability to understand the novelty of the work in the context of prior studies on alpha-Syn metal binding.
+  - **Required correction** Add an introduction section that reviews prior work on alpha-Syn-Zn2+ interactions, including previous mass spectrometry studies, and clearly states the novelty of the present approach.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality and accessibility
+  - **Affected element** Figures 1-4
+  - **Evidence pointer** Section 2
+  - **Issue** The figures are not provided in the manuscript text. Given that the central claims depend heavily on the interpretation of these figures, their absence makes it impossible to evaluate the quality of the data presentation, the clarity of the spectral assignments, or the appropriateness of the fitting procedures.
+  - **Required correction** Include all figures in the manuscript or supplementary material, with clear axis labels, legends, and annotations for key features discussed in the text.
+
+## Risk / unsupported claims
+- The claim that the low-charge-state conformer binds Zn2+ primarily through C-terminal electrostatic interactions is unsupported by direct evidence; it is inferred from indirect UVPD measurements.
+- The claim that the intermediate-charge-state conformer binds Zn2+ through coordination interactions in the AA40-80 region is unsupported by direct structural evidence; the presence of histidine residues in this region is noted but not experimentally validated as the binding site.
+- The claim that the high-charge-state conformer employs both electrostatic and coordination mechanisms is speculative and not directly demonstrated.
+- The relative binding affinities across conformational states are reported qualitatively but not quantitatively; the claim of "strongest binding" for the low-charge-state conformer is not supported by titration data.
+- The statement that the observed Zn2+ binding is specific (rather than nonspecific adduction) is not supported by control experiments.
+- The claim that the method "opens new technical pathways and analytical paradigms" for IDP studies is overstated given that the approach is an incremental combination of existing techniques.
+- The biological relevance of the gas-phase conformational distinctions to solution-phase behavior is assumed but not experimentally demonstrated.

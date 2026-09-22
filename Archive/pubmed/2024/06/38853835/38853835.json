@@ -1,0 +1,398 @@
+{
+  "identity": {
+    "pmid": "38853835",
+    "doi": "10.1101/2024.05.30.596451",
+    "title": "Structural dynamics of the intrinsically disordered linker region of cardiac troponin T."
+  },
+  "content": {
+    "abstract": "The cardiac troponin complex, composed of troponins I, T, and C, plays a central role in regulating the calcium-dependent interactions between myosin and the thin filament. Mutations in troponin can cause cardiomyopathies; however, it is still a major challenge to connect how changes in sequence affect troponin's function. Recent high-resolution structures of the thin filament revealed critical insights into the structure-function relationship of troponin, but there remain large, unresolved segments of troponin, including the troponin-T linker region that is a hotspot for cardiomyopathy mutations. This linker region is predicted to be intrinsically disordered, with behaviors that are not well described by traditional structural approaches; however, this proposal has not been experimentally verified. Here, we used a combination of single-molecule Forster resonance energy transfer (FRET), molecular dynamics simulations, and functional reconstitution assays to investigate the troponin-T linker region. We show that in the context of both isolated troponin and the fully regulated troponin complex, the linker behaves as a dynamic, intrinsically disordered region. This region undergoes polyampholyte expansion in the presence of high salt and distinct conformational changes during the assembly of the troponin complex. We also examine the DeltaE160 hypertrophic cardiomyopathy mutation in the linker and demonstrate that it does not affect the conformational dynamics of the linker, rather it allosterically affects interactions with other troponin complex subunits, leading to increased molecular contractility. Taken together, our data clearly demonstrate the importance of disorder within the troponin-T linker and provide new insights into the molecular mechanisms driving the pathogenesis of cardiomyopathies.",
+    "keywords": [
+      "Major Classification: Biological Sciences",
+      "Minor Classification: Biophysics and Computational Biology",
+      "sarcomere",
+      "single molecule",
+      "thin filament"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cubuk, Jasmine",
+        "Greenberg, Lina",
+        "Greenberg, Akiva E",
+        "Emenecker, Ryan J",
+        "Stuchell-Brereton, Melissa D",
+        "Holehouse, Alex S",
+        "Soranno, Andrea",
+        "Greenberg, Michael J"
+      ],
+      "short_names": [
+        "Cubuk J",
+        "Greenberg L",
+        "Greenberg AE",
+        "Emenecker RJ",
+        "Stuchell-Brereton MD",
+        "Holehouse AS",
+        "Soranno A",
+        "Greenberg MJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8394-7993",
+        "ORCID: 0000-0003-1320-3547"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+        "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cubuk, Jasmine",
+        "short_name": "Cubuk J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Greenberg, Lina",
+        "short_name": "Greenberg L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Greenberg, Akiva E",
+        "short_name": "Greenberg AE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Emenecker, Ryan J",
+        "short_name": "Emenecker RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Stuchell-Brereton, Melissa D",
+        "short_name": "Stuchell-Brereton MD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Soranno, Andrea",
+        "short_name": "Soranno A",
+        "identifiers": [
+          "0000-0001-8394-7993"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA.",
+          "Center for Biomolecular Condensates, Washington University in St Louis, 1 Brookings Drive, 63130, Saint Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Greenberg, Michael J",
+        "short_name": "Greenberg MJ",
+        "identifiers": [
+          "0000-0003-1320-3547"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University in St Louis, 660 Euclid Ave, 63110, Saint Louis, MO, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Oct 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/10 06:42",
+    "fetched_at": "2026-09-21 07:48:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39503885",
+      "39322280",
+      "38387550",
+      "38297184",
+      "37957331",
+      "37844070",
+      "37463458",
+      "37165621",
+      "36749730",
+      "36739943",
+      "36712934",
+      "36599672",
+      "36197995",
+      "36158814",
+      "35869530",
+      "35795820",
+      "35696530",
+      "34480923",
+      "34161147",
+      "33856419",
+      "33753506",
+      "33512404",
+      "33148509",
+      "32098556",
+      "32097582",
+      "31919429",
+      "31427533",
+      "31387947",
+      "31126584",
+      "29867217",
+      "28735292",
+      "28007147",
+      "27566405",
+      "27395017",
+      "27074551",
+      "26812046",
+      "26488642",
+      "26327565",
+      "25741868",
+      "25664692",
+      "25651172",
+      "25517169",
+      "25470062",
+      "24706910",
+      "24480310",
+      "24010673",
+      "23663841",
+      "23434821",
+      "23276541",
+      "22984159",
+      "22743772",
+      "22517884",
+      "22492978",
+      "21035681",
+      "20889975",
+      "20642364",
+      "20541610",
+      "20397670",
+      "19933333",
+      "19914256",
+      "19289206",
+      "18601377",
+      "18511944",
+      "18410159",
+      "17916152",
+      "17301233",
+      "17293397",
+      "17185422",
+      "17078646",
+      "16113120",
+      "15994854",
+      "14722098",
+      "14654368",
+      "12840750",
+      "11158969",
+      "10731693",
+      "10497196",
+      "9826713",
+      "8541871",
+      "8218897",
+      "8107884",
+      "7898523",
+      "3462694"
+    ],
+    "similar": [
+      "38853835",
+      "31387947",
+      "40627400",
+      "27074551",
+      "31448287",
+      "21797264",
+      "35696530",
+      "8675696",
+      "27395017",
+      "37569724",
+      "20889978",
+      "26232335",
+      "39548812",
+      "38266978",
+      "40068771",
+      "16326803",
+      "23066014",
+      "24367593",
+      "26327565",
+      "30462572",
+      "26971468",
+      "15736582",
+      "27853436",
+      "23912807",
+      "11967535",
+      "25246568",
+      "31748410",
+      "26957598",
+      "37261389",
+      "10497196",
+      "28842439",
+      "8785301",
+      "24418317",
+      "33901537",
+      "24708997",
+      "28603979",
+      "32083971",
+      "16876196",
+      "11262409",
+      "14654368",
+      "29626422",
+      "19369252",
+      "7787029",
+      "22675533",
+      "15923195",
+      "21415410",
+      "10850966",
+      "23246786",
+      "39456977",
+      "24558365",
+      "8662810",
+      "31919429",
+      "12097165",
+      "17932326",
+      "40073932",
+      "18155235",
+      "33492345",
+      "16962989",
+      "32618513",
+      "17676764",
+      "10731693",
+      "40412797",
+      "19053249",
+      "12491770",
+      "35812320",
+      "37252999",
+      "22334656",
+      "30732532",
+      "23227172",
+      "24221941",
+      "31864661",
+      "33020181",
+      "12732641",
+      "36555368",
+      "15631686",
+      "36913580",
+      "30523116",
+      "11690651",
+      "27769999",
+      "24480310",
+      "18154728",
+      "38645235",
+      "19914256",
+      "39328062",
+      "11886865",
+      "26500385",
+      "40057222",
+      "11724531",
+      "38387550",
+      "22579624",
+      "16857209",
+      "21322033",
+      "27036851",
+      "26851561",
+      "24260207",
+      "32581830",
+      "26342069",
+      "2136850",
+      "20004663",
+      "8205619"
+    ],
+    "review": [
+      "38853835",
+      "31448287",
+      "27395017",
+      "37569724",
+      "26232335",
+      "15736582",
+      "27853436",
+      "21415410",
+      "12491770",
+      "35812320",
+      "15631686",
+      "18154728",
+      "19914256"
+    ],
+    "pmc": [
+      "11160775"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38853835/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38853835",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38853835",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.05.30.596451",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

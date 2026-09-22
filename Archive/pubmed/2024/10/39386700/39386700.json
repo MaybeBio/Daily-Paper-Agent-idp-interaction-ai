@@ -1,0 +1,200 @@
+{
+  "identity": {
+    "pmid": "39386700",
+    "doi": "10.1101/2024.09.24.614801",
+    "title": "Microscopic Origins of Flow Activation Energy in Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "Material properties of biomolecular condensates dictate their form and function, influencing the diffusion of regulatory molecules and the dynamics of biochemical reactions. The increasing quality and quantity of microrheology experiments on biomolecular condensates necessitate a deeper understanding of the molecular grammar that encodes their material properties. Recent reports have identified a characteristic timescale related to network relaxation dynamics in condensates, which governs their temperature-dependent viscoelastic properties. This timescale is intimately connected to an activated process involving the dissociation of sticker regions, with the energetic barrier referred to as flow activation energy. The microscopic origin of activation energy is a complex function of sequence patterns, component stoichiometry, and external conditions. This study elucidates the microscopic origins of flow activation energy in single and multicomponent condensates composed of model peptide sequences with varying sticker and spacer motifs, with RNA as a secondary component. We dissected the effects of condensate density, RNA stoichiometry, and peptide sequence patterning using extensive sequence-resolved coarse-grained simulations. We found that flow activation energy is closely linked to the lifetime of sticker-sticker pairs under certain conditions, though the presence of multiple competing stickers further complicates this relationship. The insights gained in this study should help establish predictive multiscale models for the material properties and serve as a valuable guide for the programmable design of condensates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Sean",
+        "Potoyan, Davit A"
+      ],
+      "short_names": [
+        "Yang S",
+        "Potoyan DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5860-1699"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Sean",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [
+          "0000-0002-5860-1699"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Sep 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/10 06:23",
+    "fetched_at": "2026-09-22 01:47:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39386700",
+      "39636939",
+      "38363841",
+      "39866835",
+      "34785657",
+      "39674888",
+      "41645509",
+      "40661456",
+      "37873097",
+      "39386612",
+      "40985078",
+      "39568893",
+      "40172489",
+      "36397514",
+      "37194953",
+      "36883003",
+      "40196628",
+      "39185151",
+      "38824391",
+      "39610751",
+      "41867831",
+      "35198903",
+      "41670285",
+      "37252985",
+      "32004090",
+      "41292919",
+      "41739144",
+      "41481439",
+      "39320949",
+      "41868013",
+      "41342450",
+      "42055532",
+      "41863073",
+      "39928699",
+      "35727989",
+      "40791470",
+      "38832749",
+      "31634364",
+      "34772789",
+      "38429263",
+      "40747072",
+      "41279444",
+      "38076908",
+      "40028356",
+      "40954782",
+      "40168179",
+      "40903498",
+      "41648378",
+      "37695778",
+      "39578406",
+      "37131735",
+      "36227474",
+      "39464253",
+      "37066350",
+      "33453924",
+      "41703914",
+      "40534071",
+      "40881393",
+      "36175408",
+      "40102453",
+      "36191226",
+      "40661504",
+      "39196681",
+      "40481268",
+      "42056202",
+      "40475453",
+      "37886520",
+      "40972943",
+      "39937084",
+      "40455990",
+      "38181073",
+      "38649740",
+      "37489654",
+      "39804953",
+      "37873180",
+      "30926670",
+      "36847235",
+      "39541973",
+      "40009520",
+      "37131742",
+      "39225536",
+      "41659460",
+      "39071308",
+      "36819870",
+      "42059155",
+      "40229261",
+      "39071339",
+      "40136009",
+      "39319382",
+      "36689740",
+      "40327693",
+      "37470705",
+      "33672806",
+      "38405951",
+      "36758221",
+      "39896463",
+      "38383656",
+      "40954121",
+      "41667469",
+      "35832192"
+    ],
+    "review": [
+      "39386700",
+      "40172489",
+      "32004090",
+      "34772789",
+      "42059155"
+    ],
+    "pmc": [
+      "11463594"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39386700/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.09.24.614801",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

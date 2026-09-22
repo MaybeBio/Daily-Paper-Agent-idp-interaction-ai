@@ -1,0 +1,149 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.12.632580",
+  "title": "Rationale design of peptide inhibitors for α -Synuclein liquid condensates and fibrillar aggregates using multiscale modelling approach",
+  "doi": "10.1101/2025.01.12.632580",
+  "abstract": "α -Synuclein is an intrinsically disordered protein (IDP) whose aggregation is implicated in Parkinson’s disorder. Herein, we computationally design a α -Synuclein derived potential peptide inhibitor against the protein’s monomeric, fibrillar and liquid condensate forms using multi-scale molecular modelling approaches. Since the conventional structure-based design paradigm often is not applicable to these highly labile IDPs, we first develop a pipeline to generate an exhaustive library of small candidate peptides from an available repository of α -Synuclein 70 µ s all-atom molecular dynamics (AAMD) trajectory data. We then use high throughput screening techniques such as PATCHDOCK and HPEPDOCK as well as AAMD simulations to arrive at a single candidate peptide. AAMD simulations data show that α -Synuclein bound peptide chain leads to an expanded conformational ensemble for the chain and also reduces the β -sheet propensity of the protein’s fibrillar amylogenic aggregates. Coarse-grained simulations using HPS-Cation forcefield with 100 chains of α -Synuclein and varying levels of candidate peptides shows decreased density and increased apparent critical temperature of the condensate system. Our detailed molecular interactions analyses show that peptides bind to the α -Synucleins through the “dynamic shuttling mechanism” where interaction are frequently made and broken around a given set of structurally proximal residues, which likely softens the dynamic interaction network in the condensates. Together, we could illustrate the inhibitory effect of the final designed peptide against distinct forms of α -Synuclein monomer and aggregates. Our work provides a multiscale simulation based prescription towards the futuristic development of therapeutic strategies against the disordered proteins.",
+  "authors": [
+    "Ekambaram S",
+    "Prajapati S",
+    "Srivastava A"
+  ],
+  "published_date": "2025-01-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.12.632580",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.12.632580.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR966469",
+    "raw_record": {
+      "id": "PPR966469",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR966469"
+        ]
+      },
+      "doi": "10.1101/2025.01.12.632580",
+      "title": "Rationale design of peptide inhibitors for  <i>α</i>  -Synuclein liquid condensates and fibrillar aggregates using multiscale modelling approach",
+      "authorString": "Ekambaram S, Prajapati S, Srivastava A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ekambaram S",
+            "lastName": "Ekambaram",
+            "firstName": "Srinivasan",
+            "initials": "S"
+          },
+          {
+            "fullName": "Prajapati S",
+            "lastName": "Prajapati",
+            "firstName": "Santosh",
+            "initials": "S"
+          },
+          {
+            "fullName": "Srivastava A",
+            "lastName": "Srivastava",
+            "firstName": "Anand",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2757-1511"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2757-1511"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "α -Synuclein is an intrinsically disordered protein (IDP) whose aggregation is implicated in Parkinson’s disorder. Herein, we computationally design a  α -Synuclein derived potential peptide inhibitor against the protein’s monomeric, fibrillar and liquid condensate forms using multi-scale molecular modelling approaches. Since the conventional structure-based design paradigm often is not applicable to these highly labile IDPs, we first develop a pipeline to generate an exhaustive library of small candidate peptides from an available repository of  α -Synuclein 70  µ s all-atom molecular dynamics (AAMD) trajectory data. We then use high throughput screening techniques such as PATCHDOCK and HPEPDOCK as well as AAMD simulations to arrive at a single candidate peptide. AAMD simulations data show that  α -Synuclein bound peptide chain leads to an expanded conformational ensemble for the chain and also reduces the  β -sheet propensity of the protein’s fibrillar amylogenic aggregates. Coarse-grained simulations using HPS-Cation forcefield with 100 chains of  α -Synuclein and varying levels of candidate peptides shows decreased density and increased apparent critical temperature of the condensate system. Our detailed molecular interactions analyses show that peptides bind to the  α -Synucleins through the “dynamic shuttling mechanism” where interaction are frequently made and broken around a given set of structurally proximal residues, which likely softens the dynamic interaction network in the condensates. Together, we could illustrate the inhibitory effect of the final designed peptide against distinct forms of  α -Synuclein monomer and aggregates. Our work provides a multiscale simulation based prescription towards the futuristic development of therapeutic strategies against the disordered proteins.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.01.12.632580"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.01.12.632580"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR966469"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR966469&type=FILE&fileName=EMS202651-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS202651",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-01-16",
+      "firstPublicationDate": "2025-01-14",
+      "firstIndexDate": "2025-01-16",
+      "fullTextReceivedDate": "2025-01-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

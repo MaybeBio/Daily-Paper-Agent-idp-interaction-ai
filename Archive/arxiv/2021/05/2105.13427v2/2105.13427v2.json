@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2105.13427v2",
+  "title": "Small-Angle X-Ray Scattering Signatures of Conformational Heterogeneity and Homogeneity of Disordered Protein Ensembles",
+  "doi": "10.1021/acs.jpcb.1c02453",
+  "abstract": "Physically, disordered ensembles of non-homopolymeric polypeptides are expected to be heterogeneous; i.e., they should differ from those homogeneous ensembles of homopolymers that harbor an essentially unique relationship between average values of end-to-end distance $R_{\\rm EE}$ and radius of gyration $R_{\\rm g}$. It was posited recently, however, that small-angle X-ray scattering (SAXS) data on conformational dimensions of disordered proteins can be rationalized almost exclusively by homopolymer ensembles. Assessing this perspective, chain-model simulations are used to evaluate the discriminatory power of SAXS-determined molecular form factors (MFFs) with regard to homogeneous versus heterogeneous ensembles. The general approach adopted here is not bound by any assumption about ensemble encodability, in that the postulated heterogeneous ensembles we evaluated are not restricted to those entailed by simple interaction schemes. Our analysis of MFFs for certain heterogeneous ensembles with more narrowly distributed $R_{\\rm EE}$ and $R_{\\rm g}$ indicates that while they deviates from MFFs of homogeneous ensembles, the differences can be rather small. Remarkably, some heterogeneous ensembles with asphericity and $R_{\\rm EE}$ drastically different from those of homogeneous ensembles can nonetheless exhibit practically identical MFFs, demonstrating that SAXS MFFs do not afford unique characterizations of basic properties of conformational ensembles in general. In other words, the ensemble to MFF mapping is practically many-to-one and likely non-smooth. Heteropolymeric variations of the $R_{\\rm EE}$--$R_{\\rm g}$ relationship were further showcased using an analytical perturbation theory developed here for flexible heteropolymers. Ramifications of our findings for interpretation of experimental data are discussed.",
+  "authors": [
+    "Jianhui Song",
+    "Jichen Li",
+    "Hue Sun Chan"
+  ],
+  "published_date": "2021-05-27T19:59:35Z",
+  "updated_date": "2021-06-09T08:24:45Z",
+  "journal": "J. Phys. Chem. B 125, 6451-6478 (2021)",
+  "category": "q-bio.BM, cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2105.13427v2",
+  "pdf_url": "https://arxiv.org/pdf/2105.13427v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.BM",
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2105.13427v2",
+    "raw_categories": [
+      "q-bio.BM",
+      "cond-mat.soft"
+    ],
+    "journal_ref": "J. Phys. Chem. B 125, 6451-6478 (2021)"
+  }
+}

@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends.
+- **Assessment boundary** Scientific content, technical soundness, logical coherence, and support of claims by presented evidence. No assessment of formatting or editorial fit.
+- **Shared manuscript claim summary** The authors propose that PRC1 Polycomb complexes form multicomponent condensates via hetero-oligomerization, which can read H3K27me3 marks and write H2AK119Ub marks. They argue that while these condensates can promote chromatin compaction, they are not required for maintaining the compacted state, which is instead sustained by the histone marks themselves. This links phase separation (equilibrium) to epigenetic memory (non-equilibrium).
+- **Visible evidence base** Main text figures 1-5, supplementary figures S1-S4, methods section, and figure legends. No raw data files or statistical analysis details beyond what is in the text.
+- **Missing materials affecting confidence** Raw imaging data, full statistical analysis (e.g., exact p-values, effect sizes, confidence intervals), details on antibody validation, and complete simulation parameter sweeps. The manuscript states "three independent biological replicates" for some experiments but does not provide individual data points or full statistical reporting.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in chromatin biology: the relationship between phase-separated condensates, histone modifications, and chromatin compaction. The use of the optogenetic Corelet system to inductibly form PRC1 condensates is innovative and provides a powerful tool to dissect causality. The central claim, that condensates promote but are not required for sustained compaction, is well-supported by the combination of live-cell imaging and molecular dynamics simulations. However, several technical concerns regarding quantification, controls, and the interpretation of the simulation results need to be addressed to fully establish the case.
+- **Who would be interested in the results, and why** Researchers in chromatin biology, epigenetics, phase separation, and gene regulation. The work provides a mechanistic framework for how transient condensates can lead to stable epigenetic states, which is of broad interest to those studying development, differentiation, and disease. The methodological approach (optogenetic condensate induction) will also be of interest to the biophysics and cell biology communities.
+- **Major strengths** 1) The use of an inducible optogenetic system to directly test the causal role of condensates, rather than relying on correlative observations. 2) The combination of experimental and computational approaches to provide a coherent model. 3) The clear demonstration that condensate dissolution does not reverse compaction, which is a conceptually important finding. 4) The systematic mapping of subunit recruitment and the identification of RNF2 as a central node.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Quantification
+  - **Claim pointer** The claim that "PRC1 forms multicomponent condensates through hetero-oligomerization" and that specific subunits are recruited with different strengths (Fig. 2).
+  - **Evidence pointer** Figure 2, Methods "Partition coefficient, PCC, and variance determination"
+  - **Concern** The quantification of recruitment using Pearson correlation coefficient (PCC) is presented as a measure of interaction strength, but PCC is sensitive to background fluorescence, image noise, and the overall expression level of the proteins. The authors do not report how they controlled for these factors. Specifically, the comparison of PCC values across different protein pairs (e.g., BMI1-Corelets recruiting PHC1 vs. CBX2) may be confounded by differences in expression levels or the diffuse nuclear pool. The authors should provide a more robust quantification, such as a normalized recruitment ratio (condensate intensity vs. nuclear intensity) or a partition coefficient, and should report the expression levels of each construct.
+  - **Why it matters** The conclusion that RNF2 is a "central node" and the differential recruitment of subunits is a key part of the model. If the quantification is flawed, the model of multicomponent condensate assembly is weakened.
+  - **Resolution test** Provide a detailed description of image analysis, including background subtraction and thresholding. Report the mean and distribution of expression levels for each construct. Re-analyze the data using a different metric (e.g., condensate-to-nucleus ratio) and show that the conclusions are unchanged.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Controls
+  - **Claim pointer** The claim that "inducing Polycomb phase-separation can cause chromatin compaction" (Fig. 5).
+  - **Evidence pointer** Figure 5, Supplementary Figure S4
+  - **Concern** The compaction assay relies on the variance of H2B signal. The authors show that CBX2-WT condensates lead to increased variance, while CBX2-F12A does not. However, it is not clear whether the increased variance is due to actual chromatin compaction or to the physical displacement of chromatin by the growing condensate itself. The authors should include a control where a non-chromatin-binding, phase-separating protein (e.g., a Corelet with a non-specific oligomerization domain) is used to rule out a generic "crowding" effect. Additionally, the authors should show that the compaction is reversible or that the chromatin is not simply being "pushed aside" by the condensate.
+  - **Why it matters** The central claim of the paper is that condensates promote compaction. If the effect is a non-specific artifact of condensate formation, the conclusion is invalid.
+  - **Resolution test** Perform a control experiment with a Corelet system that forms condensates but does not interact with chromatin. Show that this does not lead to increased H2B variance. Alternatively, use a more direct measure of compaction, such as super-resolution imaging or a chromatin accessibility assay.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Simulation
+  - **Claim pointer** The claim that "Repressive histone marks sustain chromatin compaction" based on the molecular dynamics simulations (Fig. 5f-h).
+  - **Evidence pointer** Figure 5f-h, Methods "Computational details" and "MD simulations"
+  - **Concern** The simulation model assumes that ubiquitinated chromatin beads "stick to each other" with a fixed interaction strength (3 kBT). This is a key assumption that directly leads to the conclusion that marks sustain compaction. The authors do not explore the sensitivity of this result to the interaction strength or to the kinetics of the recolouring process. For example, if the interaction strength is too low, the marks may not sustain compaction; if too high, the marks may be sufficient to drive compaction even without condensates. The authors should perform a parameter sweep to show that their conclusion is robust.
+  - **Why it matters** The simulation is a critical piece of evidence for the model. If the conclusion is an artifact of a specific parameter choice, the model is not supported.
+  - **Resolution test** Perform simulations with varying interaction strengths (e.g., 1, 2, 4, 5 kBT) and varying rates of mark writing. Show that the qualitative conclusion (marks sustain compaction after condensate removal) holds over a reasonable parameter range.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Generalizability
+  - **Claim pointer** The claim that the findings "link the equilibrium thermodynamics of phase-separation with the fundamentally non-equilibrium concept of epigenetic memory."
+  - **Evidence pointer** Discussion
+  - **Concern** The authors use a synthetic, optogenetically-induced system. While this is a strength for causality, it is unclear how these findings translate to endogenous PRC1 condensates, which are smaller, less dynamic, and regulated by a complex network of interactions. The authors should discuss the limitations of their system and whether the conclusions are likely to hold for endogenous condensates. Specifically, the timescales of optogenetic induction (minutes) may be very different from the timescales of endogenous condensate formation and dissolution.
+  - **Why it matters** The broader significance of the work depends on its relevance to endogenous biology. If the synthetic system behaves differently from endogenous condensates, the conclusions may not be generalizable.
+  - **Resolution test** Discuss these limitations explicitly. If possible, perform a validation experiment using a more physiological method to induce condensates (e.g., recruiting PRC1 to a specific locus using a different system).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The figure is dense and the labels are small. The distinction between "OFF" and "ON" states is not always clear, especially for the reader. The scale bars are not always visible.
+  - **Required correction** Increase font size, use arrows to clearly indicate the "ON" state, and ensure scale bars are visible in all panels.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness / Statistics
+  - **Affected element** Figure 4
+  - **Evidence pointer** Figure 4
+  - **Issue** The statistical test used for the colocalization analysis (PCC) is not described. The authors state "Data are presented as mean values +/− SD" but do not specify the test used to compare conditions.
+  - **Required correction** Specify the statistical test used (e.g., t-test, Mann-Whitney) and report the exact p-values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity / Methods
+  - **Affected element** Methods
+  - **Evidence pointer** Methods "MD simulations"
+  - **Issue** The description of the simulation is brief. The authors should provide more details on the equilibration protocol, the number of steps, and how the "local density squared" is calculated.
+  - **Required correction** Expand the methods section to include these details.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance / Context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the "client-scaffold" model is brief. The authors should more clearly explain how their findings differ from this model and what the implications are.
+  - **Required correction** Expand the discussion to more thoroughly address the client-scaffold model and the implications of their findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantification of recruitment), R1-M2 (control for non-specific compaction), R1-M3 (robustness of simulation parameters).
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The use of optogenetics to directly test the role of condensates in chromatin compaction is novel and provides a new approach to dissect causality in this field.
+  - **Scientific importance** High. The question of how phase separation relates to epigenetic memory is fundamental and of broad interest. The proposed model, where condensates act as "reaction crucibles" that write marks which then sustain compaction, is conceptually important.
+  - **Interdisciplinary readership** High. The work bridges biophysics, cell biology, and epigenetics, and will be of interest to researchers in all three fields.
+  - **Technical soundness** Moderate. The experimental approach is sound, but the quantification and controls need improvement. The simulation is a useful complement but requires a parameter sensitivity analysis.
+  - **Readability for nonspecialists** Good. The manuscript is generally well-written and the concepts are explained clearly. The figures are helpful, though some are dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claims are interesting and potentially important, but the current evidence is not fully convincing due to the issues with quantification, controls, and simulation robustness. If these are addressed, the manuscript would be a strong contribution.
+
+## Risk / unsupported claims
+- The claim that "polycomb condensates are dispensable for maintenance of the compacted state" is supported by the data, but only for the specific timescale of the experiment (30 min). The long-term stability of the compacted state is not tested.
+- The claim that the "time integral of Polycomb phase-separation is progressively recorded in repressive histone marks" is a model, not directly tested. The data show that marks accumulate over time, but the "integration" aspect is inferred.
+- The claim that "chromatin compaction is sustained by the marks" is supported by the simulation, but the simulation relies on a specific assumption about mark-mark interactions. This is not directly tested experimentally.
+- The generalizability of the findings to endogenous PRC1 condensates is not established, as the study uses an optogenetic system.

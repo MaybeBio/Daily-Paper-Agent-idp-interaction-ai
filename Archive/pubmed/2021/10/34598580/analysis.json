@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34598580",
+  "title": "Phase separation vs aggregation behavior for model disordered proteins.",
+  "authors": "Rana, Ushnish; Brangwynne, Clifford P; Panagiotopoulos, Athanassios Z",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2021-10-03",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化蒙特卡洛模拟研究无序蛋白序列特征如何决定相分离与有限聚集的竞争，虽未直接聚焦PPI，但为IDR介导的凝聚体形成机制提供了可迁移的序列-相行为建模框架。",
+  "abstract": "Liquid-liquid phase separation (LLPS) is widely utilized by the cell to organize and regulate various biochemical processes. Although the LLPS of proteins is known to occur in a sequence-dependent manner, it is unclear how sequence properties dictate the nature of the phase transition and thereby influence condensed phase morphology. In this work, we have utilized grand canonical Monte Carlo simulations for a simple coarse-grained model of disordered proteins to systematically investigate how sequence distribution, sticker fraction, and chain length impact the formation of finite-size aggregates, which can preempt macroscopic phase separation for some sequences. We demonstrate that a normalized sequence charge decoration (SCD) parameter establishes a \"soft\" predictive criterion for distinguishing when a model protein undergoes macroscopic phase separation vs finite aggregation. Additionally, we find that this order parameter is strongly correlated with the critical density for phase separation, highlighting an unambiguous connection between sequence distribution and condensed phase density. Results obtained from an analysis of the order parameter reveal that at sufficiently long chain lengths, the vast majority of sequences are likely to phase separate. Our results suggest that classical LLPS should be the primary phase transition for disordered proteins when short-ranged attractive interactions dominate and suggest a possible reason behind recent findings of widespread phase separation throughout living cells.",
+  "abstract_zh": "液-液相分离（LLPS）被细胞广泛用于组织和调控多种生化过程。尽管已知蛋白质的LLPS以序列依赖的方式发生，但尚不清楚序列特性如何决定相转变的性质，从而影响凝聚相形态。在本工作中，我们利用巨正则蒙特卡洛模拟，针对无序蛋白质的简单粗粒化模型，系统研究了序列分布、粘附片段比例和链长对有限尺寸聚集体形成的影响，这些聚集体可能在某些序列中先于宏观相分离出现。我们证明，归一化的序列电荷装饰（SCD）参数建立了一个“软”预测标准，用于区分模型蛋白质何时发生宏观相分离与有限聚集。此外，我们发现该序参数与相分离的临界密度强相关，突显了序列分布与凝聚相密度之间的明确联系。对序参数的分析结果表明，在足够长的链长下，绝大多数序列可能发生相分离。我们的结果提示，当短程吸引相互作用占主导时，经典LLPS应是无序蛋白质的主要相转变形式，并为近期在活细胞中广泛观察到相分离现象的可能原因提供了解释。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34598580/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34598580/",
+  "paper_page_path": "papers/pubmed/34598580/index.html"
+}

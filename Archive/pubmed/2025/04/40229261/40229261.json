@@ -1,0 +1,443 @@
+{
+  "identity": {
+    "pmid": "40229261",
+    "doi": "10.1038/s41467-025-58900-5",
+    "title": "Controlled and orthogonal partitioning of large particles into biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Partitioning of client molecules into biomolecular condensates is critical for regulating the composition and function of condensates. Previous studies suggest that client size limits partitioning. Here, we ask whether large clients, such as macromolecular complexes and nanoparticles, can partition into condensates based on particle-condensate interactions. We seek to discover the fundamental biophysical principles that govern particle inclusion in or exclusion from condensates, using polymer nanoparticles surface-functionalized with biotin or oligonucleotides. Based on our experiments, coarse-grained molecular dynamics simulations, and theory, we conclude that arbitrarily large particles can controllably partition into condensates given sufficiently strong condensate-particle interactions. Remarkably, we also observe that beads with distinct surface chemistries partition orthogonally into immiscible condensates. These findings may provide insights into how various cellular processes are achieved based on partitioning of large clients into biomolecular condensates, and they offer design principles for drug delivery systems that selectively target disease-related condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Nanoparticles/chemistry",
+      "*Biomolecular Condensates/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Biotin/chemistry",
+      "Oligonucleotides/chemistry",
+      "Polymers/chemistry",
+      "Macromolecular Substances/chemistry",
+      "Particle Size"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kelley, Fleurie M",
+        "Ani, Anas",
+        "Pinlac, Emily G",
+        "Linders, Bridget",
+        "Favetta, Bruna",
+        "Barai, Mayur",
+        "Ma, Yuchen",
+        "Singh, Arjun",
+        "Dignon, Gregory L",
+        "Gu, Yuwei",
+        "Schuster, Benjamin S"
+      ],
+      "short_names": [
+        "Kelley FM",
+        "Ani A",
+        "Pinlac EG",
+        "Linders B",
+        "Favetta B",
+        "Barai M",
+        "Ma Y",
+        "Singh A",
+        "Dignon GL",
+        "Gu Y",
+        "Schuster BS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3331-8296",
+        "ORCID: 0009-0000-2044-8249",
+        "ORCID: 0009-0002-1022-3999",
+        "ORCID: 0000-0002-9604-7764",
+        "ORCID: 0000-0002-6468-8081"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA.",
+        "Department of Chemistry and Chemical Biology, Rutgers, The State University of New Jersey, Piscataway, NJ, USA.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA.",
+        "Department of Biomedical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA.",
+        "Department of Chemistry and Chemical Biology, Rutgers, The State University of New Jersey, Piscataway, NJ, USA.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA. gregory.dignon@rutgers.edu.",
+        "Department of Chemistry and Chemical Biology, Rutgers, The State University of New Jersey, Piscataway, NJ, USA. yuwei.gu@rutgers.edu.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA. benjamin.schuster@rutgers.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kelley, Fleurie M",
+        "short_name": "Kelley FM",
+        "identifiers": [
+          "0000-0003-3331-8296"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Ani, Anas",
+        "short_name": "Ani A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA.",
+          "Department of Chemistry and Chemical Biology, Rutgers, The State University of New Jersey, Piscataway, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Pinlac, Emily G",
+        "short_name": "Pinlac EG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Linders, Bridget",
+        "short_name": "Linders B",
+        "identifiers": [
+          "0009-0000-2044-8249"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Favetta, Bruna",
+        "short_name": "Favetta B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Barai, Mayur",
+        "short_name": "Barai M",
+        "identifiers": [
+          "0009-0002-1022-3999"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Ma, Yuchen",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Rutgers, The State University of New Jersey, Piscataway, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Singh, Arjun",
+        "short_name": "Singh A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA."
+        ]
+      },
+      {
+        "full_name": "Dignon, Gregory L",
+        "short_name": "Dignon GL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA. gregory.dignon@rutgers.edu."
+        ]
+      },
+      {
+        "full_name": "Gu, Yuwei",
+        "short_name": "Gu Y",
+        "identifiers": [
+          "0000-0002-9604-7764"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Rutgers, The State University of New Jersey, Piscataway, NJ, USA. yuwei.gu@rutgers.edu."
+        ]
+      },
+      {
+        "full_name": "Schuster, Benjamin S",
+        "short_name": "Schuster BS",
+        "identifiers": [
+          "0000-0002-6468-8081"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, The State University of New Jersey, Piscataway, NJ, USA. benjamin.schuster@rutgers.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Apr 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/15 00:25",
+    "fetched_at": "2026-09-21 18:01:25"
+  },
+  "links": {
+    "cites": [
+      "42429747",
+      "42418518",
+      "42143038",
+      "42016362",
+      "41997364",
+      "41929123",
+      "41868013",
+      "41351266",
+      "41169547",
+      "41160802",
+      "41093888",
+      "40972943",
+      "40881393",
+      "40871191",
+      "40830340",
+      "40801528",
+      "40672301",
+      "40667365",
+      "40463115",
+      "39185151"
+    ],
+    "refs": [
+      "40050462",
+      "39271915",
+      "39171488",
+      "38553587",
+      "38267583",
+      "38061626",
+      "37770698",
+      "37468629",
+      "37343188",
+      "35974095",
+      "35902591",
+      "35871289",
+      "35832192",
+      "35803926",
+      "35773489",
+      "35686491",
+      "35582428",
+      "35149762",
+      "35033560",
+      "34916288",
+      "34785657",
+      "34614359",
+      "34516789",
+      "33571428",
+      "33348982",
+      "33303613",
+      "33290746",
+      "33277608",
+      "33247108",
+      "32873929",
+      "32783880",
+      "32405004",
+      "32393642",
+      "32023436",
+      "31391587",
+      "31017394",
+      "30923194",
+      "30890636",
+      "30877141",
+      "30608810",
+      "30099028",
+      "30061688",
+      "29960369",
+      "29958108",
+      "29606312",
+      "29064502",
+      "28578189",
+      "28225081",
+      "27219701",
+      "26705895",
+      "26348965",
+      "26317470",
+      "26015579",
+      "25691803",
+      "22932224",
+      "22058573",
+      "21402789",
+      "21368180",
+      "19460965",
+      "19206405",
+      "15509651",
+      "15361408",
+      "11517324",
+      "11250898"
+    ],
+    "similar": [
+      "40229261",
+      "39071308",
+      "39271915",
+      "38649740",
+      "39636939",
+      "39232584",
+      "40172489",
+      "38781207",
+      "34772786",
+      "38987300",
+      "38832749",
+      "34772790",
+      "34767801",
+      "34772789",
+      "39320949",
+      "39433596",
+      "38383656",
+      "40009520",
+      "40168179",
+      "39356108",
+      "36883003",
+      "40093099",
+      "37252985",
+      "39725032",
+      "33864415",
+      "37159305",
+      "39326881",
+      "38499848",
+      "34090478",
+      "39757214",
+      "38885177",
+      "38698644",
+      "39591652",
+      "37194953",
+      "37695778",
+      "40327693",
+      "39541973",
+      "35727989",
+      "38848869",
+      "38360555",
+      "39260373",
+      "39134696",
+      "35881789",
+      "40098319",
+      "39620362",
+      "34772787",
+      "38824391",
+      "36004748",
+      "38582523",
+      "37408305",
+      "39075031",
+      "39994485",
+      "39303698",
+      "39496836",
+      "39080253",
+      "40249817",
+      "40108179",
+      "39327453",
+      "39804953",
+      "39824169",
+      "37470705",
+      "39827079",
+      "38670952",
+      "40184654",
+      "33453924",
+      "32632317",
+      "39418394",
+      "33704061",
+      "37480229",
+      "39271032",
+      "34862761",
+      "40136009",
+      "37770698",
+      "34916288",
+      "34377994",
+      "35597639",
+      "36071192",
+      "36847235",
+      "40113768",
+      "34129784",
+      "34636323",
+      "39510346",
+      "40074825",
+      "39482532",
+      "39856105",
+      "33934561",
+      "38999934",
+      "39987501",
+      "40203038",
+      "39922741",
+      "34599333",
+      "38773325",
+      "36400992",
+      "39400294",
+      "40069227",
+      "39271933",
+      "38591689",
+      "39113361",
+      "34706978",
+      "37293933"
+    ],
+    "review": [
+      "40229261",
+      "40172489",
+      "34772786",
+      "34772790",
+      "34767801",
+      "34772789",
+      "39433596",
+      "39326881",
+      "39757214",
+      "38885177",
+      "38698644",
+      "38360555",
+      "39134696",
+      "34772787",
+      "39303698",
+      "39327453",
+      "39824169",
+      "39827079",
+      "32632317",
+      "39271032",
+      "36071192",
+      "34129784",
+      "39482532",
+      "33934561",
+      "39922741",
+      "38773325",
+      "36400992",
+      "34706978"
+    ],
+    "pmc": [
+      "11997106"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-58900-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40229261/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40229261",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

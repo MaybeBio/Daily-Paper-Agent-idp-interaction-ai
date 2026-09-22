@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.10.01.452232",
+  "title": "Characterization and Structural Prediction of ORF10, ORF7b, ORF7a, ORF6, Membrane Glycoprotein, and Envelope Protein in SARS-CoV-2 Bangladeshi Variant through Bioinformatics Approach",
+  "authors": "Debnath P; Khan U; Khan MS",
+  "journal": "bioRxiv",
+  "published_date": "2021-10-04",
+  "window": {
+    "start": "2021-10-04",
+    "end": "2021-10-10"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用生物信息学工具表征SARS-CoV-2孟加拉变异株的多个蛋白（含ORF等）的结构、无序性和结合倾向，但对象非IDP/相分离，且无PPI机制建模或AI/物理模拟方法，仅作初步结构预测，与本课题关联较弱。",
+  "abstract": "The acute respiratory disease induced by the severe acute respiratory syndrome-coronavirus-2 (SARS-CoV-2) has become a global epidemic in just less than a year by the first half of 2020. The subsequent efficient human-to-human transmission of this virus eventually affected millions of people worldwide. The most devastating thing is that the infection rate is continuously uprising and resulting in significant mortality especially among the older age population and those with health co-morbidities. This enveloped, positive-sense RNA virus is chiefly responsible for the infection of the upper respiratory system. The virulence of the SARS-CoV-2 is mostly regulated by its proteins like entry to the host cell through fusion mechanism, fusion of infected cells with neighboring uninfected cells to spread the virus, inhibition of host gene expression, cellular differentiation, apoptosis, mitochondrial biogenesis, etc. But very little is known about the protein structures and functionalities. Therefore, the main purpose of this study is to learn more about these proteins through bioinformatics approaches. In this study, ORF10, ORF7b, ORF7a, ORF6, membrane glycoprotein, and envelope protein have been selected from a Bangladeshi Corona-virus strain G039392 and a number of bioinformatics tools (MEGA-X-V10.1.7, PONDR®, ProtScale, ProtParam, SCRIBER, NetSurfP v2.0, IntFOLD, UCSF Chimera, and PyMol) and strategies were implemented for multiple sequence alignment and phylogeny analysis with 9 different variants, predicting hydropathicity, amino acid compositions, protein-binding propensity, protein disorders, 2D and 3D protein modeling. Selected proteins were characterized as highly flexible, structurally and electrostatically extremely stable, ordered, biologically active, hydrophobic, and closely related to the proteins of different variants. This detailed information regarding the characterization and structure of proteins of SARS-CoV-2 Bangladeshi variant was performed for the first time ever to unveil the deep mechanism behind the virulence features and also, this robust appraisal paves the future way for molecular docking, vaccine development targeting these characterized proteins.",
+  "abstract_zh": "由严重急性呼吸综合征冠状病毒2型（SARS-CoV-2）引起的急性呼吸道疾病，在2020年上半年不到一年的时间内已成为全球性流行病。该病毒随后在人与人之间的高效传播最终影响了全球数百万人。最令人担忧的是，感染率持续上升，并导致显著死亡率，尤其是在老年人群和伴有健康合并症的人群中。这种有包膜的正链RNA病毒主要负责上呼吸系统的感染。SARS-CoV-2的毒力主要受其蛋白质调控，如通过融合机制进入宿主细胞、感染细胞与邻近未感染细胞融合以传播病毒、抑制宿主基因表达、细胞分化、凋亡、线粒体生物发生等。然而，关于这些蛋白质的结构和功能知之甚少。因此，本研究的主要目的是通过生物信息学方法进一步了解这些蛋白质。在本研究中，从孟加拉国冠状病毒株G039392中选择了ORF10、ORF7b、ORF7a、ORF6、膜糖蛋白和包膜蛋白，并采用多种生物信息学工具（MEGA-X-V10.1.7、PONDR®、ProtScale、ProtParam、SCRIBER、NetSurfP v2.0、IntFOLD、UCSF Chimera和PyMol）及策略，进行了与9种不同变异株的多序列比对和系统发育分析，预测了亲水性、氨基酸组成、蛋白质结合倾向、蛋白质无序性、二维和三维蛋白质建模。所选蛋白质被表征为高度柔性、结构和静电上极其稳定、有序、具有生物活性、疏水性，并与不同变异株的蛋白质密切相关。关于SARS-CoV-2孟加拉国变异株蛋白质表征和结构的这一详细信息是首次开展，旨在揭示毒力特征背后的深层机制，同时，这一稳健评估为针对这些表征蛋白质的分子对接和疫苗开发铺平了未来道路。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.10.01.452232",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.10.01.452232",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.10.01.452232/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37287826",
+  "title": "Principles of fluorescence correlation spectroscopy applied to studies of biomolecular liquid-liquid phase separation.",
+  "authors": "Wang, Zhulou; Zhang, Huizhi; Jian, Lin; Ding, Bo; Huang, Keying; Zhang, Wolun; Xiao, Qian; Huang, Shaohui",
+  "journal": "Biophysics reports",
+  "published_date": "2022-04-30",
+  "window": {
+    "start": "2022-04-25",
+    "end": "2022-05-01"
+  },
+  "score": 5,
+  "one_liner_zh": "综述荧光相关光谱(FCS/FCCS)技术用于研究生物分子液-液相分离(LLPS)的分子机制，涵盖互作与扩散等定量分析，但方法为实验技术而非AI/物理模拟，且未聚焦特定无序蛋白PPI建模。",
+  "abstract": "Fluorescence correlation spectroscopy (FCS) investigates the temporal relationship of fluctuating fluorescence signals reflecting underlying molecular processes occurring in a solution sample or a single live cell. This review article introduces the principles of two basic and most used FCS techniques: fluorescence auto-correlation spectroscopy (FACS) and fluorescence cross-correlation spectroscopy (FCCS). Combined, FACS and FCCS techniques can quantitatively analyze multiple properties of molecule or nanoparticle samples, including molar concentration, diffusion coefficient and hydrodynamic radius, homo- or hetero-interaction, fluorescence brightness, etc. Not surprisingly, FCS techniques have long been used to investigate molecular mechanisms of biomolecular phase separation, first in the lipid bilayer and more recently in cell cytosol and nucleoplasm. The latter applications are especially exciting since a whole new class of membraneless cellular organelles have been discovered, which are proposed to be results of biomolecule liquid-liquid phase separation (LLPS). LLPS research can benefit significantly from the multifunctionality and single-molecule sensitivity of a variety of FCS techniques, particularly for live-cell studies. This review illustrates how FACS and FCCS techniques can be used to investigate multiple aspects of the molecular mechanisms of LLPS, and summarizes FCS applications to LLPS research in vivo and in vitro.",
+  "abstract_zh": "荧光相关光谱（FCS）研究溶液中或单个活细胞内反映潜在分子过程的波动荧光信号的时间关系。本文综述介绍了两种基础且最常用的FCS技术的原理：荧光自相关光谱（FACS）和荧光交叉相关光谱（FCCS）。结合使用FACS和FCCS技术，可以定量分析分子或纳米颗粒样品的多种性质，包括摩尔浓度、扩散系数和水动力学半径、同源或异源相互作用、荧光亮度等。毫不意外，FCS技术长期以来被用于研究生物分子相分离的分子机制，最初在脂质双层中，最近则应用于细胞质和核质中。后者的应用尤为令人兴奋，因为发现了一类全新的无膜细胞器，这些细胞器被认为是生物分子液-液相分离（LLPS）的结果。LLPS研究可显著受益于多种FCS技术的多功能性和单分子灵敏度，尤其是在活细胞研究中。本综述阐述了FACS和FCCS技术如何用于研究LLPS分子机制的多个方面，并总结了FCS在体内和体外LLPS研究中的应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37287826/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37287826/",
+  "paper_page_path": "papers/pubmed/37287826/index.html"
+}

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusions, and supplementary material descriptions
+- **Assessment boundary** Scientific validity, methodological rigor, interpretation of results, and alignment with claims made in the abstract and conclusions
+- **Shared manuscript claim summary** The authors use atomistic discrete molecular dynamics simulations to show that the hPrP106–145 monomer is largely unstructured with transient β-sheets, that dimerization enhances β-sheet formation particularly around residues 138IIH140, and that the glycine-rich region acts as a flexible "molecular glue" promoting aggregation through hydrophobic and aromatic interactions while balancing stability against entropic cost
+- **Visible evidence base** Main text figures 1–7, supplementary figures S1–S5, methods descriptions, and simulation parameters as described
+- **Missing materials affecting confidence** Simulation trajectory data, force field parameter files, convergence metrics beyond those described, raw contact frequency maps, and the full supplementary PDF were not provided for independent verification
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study of the early aggregation events of hPrP106–145 using discrete molecular dynamics. The work addresses a relevant question in prion biology, and the use of long-timescale DMD simulations with multiple independent runs is commendable. However, several technical and interpretive issues limit the strength of the conclusions. The central claim that the glycine-rich region acts as a "molecular glue" is supported by indirect evidence, and the thermodynamic interpretation of the free energy landscapes requires more careful treatment. The manuscript would benefit from additional validation of the DMD approach against conventional MD or experimental data, and from a more nuanced discussion of the limitations of implicit solvent models in capturing the entropic effects that are central to the authors' argument.
+- **Who would be interested in the results, and why** Researchers studying prion protein misfolding and aggregation, computational biophysicists interested in amyloid formation mechanisms, and investigators working on glycine-rich intrinsically disordered regions and their role in phase separation. The findings may also be of interest to those developing therapeutic strategies targeting early aggregation events in prion diseases.
+- **Major strengths** The study addresses an important and understudied region of the prion protein. The use of multiple independent long-timescale simulations is methodologically sound. The identification of residue-specific β-sheet propensities and the focus on the glycine-rich region provide a useful framework for future studies. The authors are appropriately cautious in some interpretations and acknowledge the limitations of their implicit solvent model.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that DMD with the Medusa force field and EEF1 implicit solvation accurately captures the conformational dynamics of hPrP106–145, and that the observed transient β-sheet formations are consistent with experimental and explicit-solvent simulation data.
+  - **Evidence pointer** Methods section "DMD Simulations"; Results section "The hPrP106–145 monomer primarily adopted helices around the alanine-rich region..."
+  - **Concern** The validation of the DMD approach for this specific system is insufficient. While the authors cite previous work establishing the predictive power of DMD, they do not provide a direct comparison of their hPrP106–145 monomer ensemble with experimental data (e.g., NMR chemical shifts, J-couplings, or SAXS profiles) or with conventional MD simulations using established force fields. The EEF1 implicit solvent model is known to have limitations in capturing the balance between protein-protein and protein-water interactions, which could significantly affect the conformational preferences of a highly flexible, glycine-rich peptide. The authors' claim that their observations are "consistent with previous experimental and computational findings" relies on qualitative comparisons with different systems (hnRNPA2, suckerin) and does not constitute a rigorous validation for hPrP106–145 specifically.
+  - **Why it matters** The central conclusions of the paper depend on the reliability of the simulated ensembles. Without direct validation, the reader cannot assess whether the observed β-sheet propensities and the proposed "molecular glue" mechanism are genuine features of the peptide or artifacts of the force field and solvent model. This is particularly critical given the authors' emphasis on entropic effects, which are notoriously difficult to capture accurately with implicit solvent models.
+  - **Resolution test** The authors should provide a direct comparison of their simulated monomer ensemble with available experimental data for hPrP106–145 or closely related peptides. Alternatively, they could perform a subset of conventional MD simulations with explicit solvent and a modern force field (e.g., CHARMM36m or AMBER99SB-disp) to demonstrate that the key findings are robust to the choice of simulation methodology. If such validation is not feasible, the authors should temper their claims and explicitly state the limitations of their approach for capturing the thermodynamic balance they discuss.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the glycine-rich region acts as a "flexible molecular glue" that promotes hPrP106–145 aggregation into β-sheet structures, and that this mechanism provides a theoretical explanation for why infectious fibrils span residues ~90–230 while non-infectious fibrils initiate near residue 160.
+  - **Evidence pointer** Results section "The glycine-rich region acted as a flexible molecular glue..."; Conclusions section
+  - **Concern** The "molecular glue" hypothesis is presented as a key finding, but the evidence supporting it is largely descriptive. The authors show that the glycine-rich region is flexible and that hydrophobic/aromatic residues form transient contacts, but they do not provide a quantitative analysis of how these contacts contribute to the free energy of dimerization or to the kinetic pathway of aggregation. The connection between the simulated dimer behavior and the proposed explanation for the difference between infectious and non-infectious fibrils is highly speculative. The authors do not demonstrate that the glycine-rich region is uniquely responsible for the observed aggregation propensity, nor do they compare its behavior to that of other regions of the peptide in a way that would establish its special role.
+  - **Why it matters** The "molecular glue" concept is the central conceptual contribution of the paper. If the evidence is not sufficiently strong, the paper's significance is substantially diminished. The speculative link to infectious versus non-infectious fibril formation goes beyond what the simulation data can support and may mislead readers into overinterpreting the results.
+  - **Resolution test** The authors should provide a more quantitative analysis of the energetic and kinetic contributions of the glycine-rich region to dimerization. This could include free energy decomposition analyses, mutation studies (in silico), or comparisons with control peptides where the glycine-rich region is replaced by a less flexible sequence. The speculative discussion about infectious fibrils should be clearly labeled as a hypothesis and supported by additional evidence or reasoning.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that dimerization significantly enhanced β-sheet formation, with the average β-sheet propensity increasing from 14.4% in monomers to 20.1% in dimers, and that residues 138IIH140 exhibited the highest β-sheet propensity and inter-peptide contact frequency.
+  - **Evidence pointer** Results section "Dimerization of hPrP106–145 facilitated a conformational transition towards β-sheet structures..."; Figures 5 and 6
+  - **Concern** The statistical significance of the reported differences between monomer and dimer ensembles is not established. The authors report average values and percentages, but do not provide error bars, confidence intervals, or statistical tests. Given the high conformational variability of intrinsically disordered peptides, it is unclear whether the observed differences are meaningful or within the range of stochastic variation. Additionally, the selection of initial structures for dimer simulations from the top 10 monomeric conformations may introduce bias, as these conformations may not be representative of the full ensemble.
+  - **Why it matters** The quantitative claims about enhanced β-sheet formation upon dimerization are central to the paper's conclusions. Without proper statistical analysis, the reader cannot assess the robustness of these findings. The potential bias in initial structure selection could affect the observed dimerization behavior.
+  - **Resolution test** The authors should provide statistical analysis of their ensemble averages, including standard errors or confidence intervals. They should also discuss the potential bias introduced by the initial structure selection and, if possible, perform additional simulations with different initial conditions to test the robustness of their results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "excessive β-sheet content resulted in significant entropic loss" and that this represents a trade-off between stability and conformational entropy.
+  - **Evidence pointer** Results section "Dimerization of hPrP106–145 lowered conformational free energy..."; Figure 6a
+  - **Concern** The thermodynamic interpretation of the free energy landscape is not well supported. The authors compute a potential of mean force based on the probability distribution of conformations, but they do not provide a rigorous decomposition of the free energy into enthalpic and entropic contributions. The claim that high β-sheet content leads to "significant entropic loss" is inferred from the shape of the free energy surface, but this inference is not directly validated. The authors do not calculate the conformational entropy of the different states or provide a quantitative measure of the entropic cost.
+  - **Why it matters** The trade-off between stability and entropy is presented as a key insight of the study. Without a proper thermodynamic analysis, this claim remains speculative and could be misleading. The interpretation of free energy landscapes from simulations requires careful treatment, especially for flexible peptides where the choice of reaction coordinates can significantly affect the results.
+  - **Resolution test** The authors should provide a more rigorous thermodynamic analysis, such as calculating the entropy of different conformational states using established methods (e.g., quasi-harmonic analysis or mutual information approaches). Alternatively, they could temper their claims and present the entropic interpretation as a hypothesis rather than a definitive finding.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraphs 1–3
+  - **Issue** The introduction is dense and assumes significant background knowledge in prion biology. Terms such as "cross-β fibrillar amyloid deposits," "proteolytic profile," and "infectious prion fibrils" are used without sufficient explanation for readers who may not be specialists in the field.
+  - **Required correction** Provide brief definitions or explanations of key terms, and consider adding a sentence or two of background on why the 106–145 region is particularly important for prion disease.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Analysis Methods"
+  - **Evidence pointer** Methods section "Analysis Methods"
+  - **Issue** The definition of residue contacts is given as "non-adjacent side chain or main chain heavy atoms within 0.65 nm." It is unclear whether this includes contacts between atoms within the same residue or only between different residues, and whether the 0.65 nm cutoff is applied to the distance between any pair of heavy atoms or to the minimum distance between residues.
+  - **Required correction** Clarify the contact definition, including whether contacts are residue-residue or atom-atom based, and specify how "non-adjacent" is defined (e.g., sequence separation).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "The hPrP106–145 monomer primarily adopted helices..."
+  - **Evidence pointer** Results section, paragraph 1; Figure 2
+  - **Issue** The authors state that "the absence of persistent trends in these metrics, alongside sustained fluctuations, confirmed that the simulations avoided kinetic traps and achieved sufficient sampling." This is a weak criterion for convergence. The absence of trends does not guarantee that the simulations have explored the relevant conformational space, especially for a peptide with multiple metastable states.
+  - **Required correction** Provide additional convergence metrics, such as block averaging, autocorrelation times, or comparison of independent runs, to support the claim of sufficient sampling.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions section
+  - **Issue** The conclusion that "targeting the glycine-rich region with specific antibodies to inhibit aggregation may offer a promising strategy" is presented without discussion of the feasibility or potential challenges of such an approach. This statement may be overly optimistic given the early stage of the computational findings.
+  - **Required correction** Soften the therapeutic claim and acknowledge that this is a speculative suggestion based on computational evidence that requires experimental validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation of DMD approach), R1-M2 (quantitative support for the "molecular glue" mechanism), R1-M3 (statistical analysis of ensemble differences)
+- **Assessment against Nature-style criteria** Originality: The study addresses a relevant and understudied question, and the focus on the glycine-rich region as a facilitator of aggregation is a novel angle. However, the conceptual framework is not entirely new, as similar "molecular glue" or "fuzzy" interaction concepts have been proposed for other intrinsically disordered proteins. Scientific importance: The findings have potential relevance for understanding prion aggregation, but the speculative nature of the central hypothesis and the lack of experimental validation limit the immediate impact. Interdisciplinary readership: The work is primarily of interest to computational biophysicists and prion researchers; the broader interdisciplinary appeal is limited by the specialized nature of the topic and the methods. Technical soundness: The simulation methodology is appropriate, but the lack of validation and statistical rigor undermines confidence in the conclusions. Readability for nonspecialists: The manuscript is generally well-written but assumes significant background knowledge; the introduction and some results sections could be made more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and the simulation approach is reasonable, but the central claims require stronger validation and more rigorous analysis. The authors should address the validation of their DMD approach, provide statistical analysis of their ensemble comparisons, and temper the speculative interpretations. If these concerns are adequately addressed, the manuscript could make a useful contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the glycine-rich region acts as a "molecular glue" is not quantitatively supported and remains a descriptive interpretation of the simulation data.
+- The proposed explanation for the difference between infectious and non-infectious fibrils based on the simulation results is speculative and goes beyond what the data can support.
+- The claim that "excessive β-sheet content resulted in significant entropic loss" is not rigorously demonstrated, as no direct entropy calculations are provided.
+- The assertion that the simulations "achieved sufficient sampling" is based on weak convergence criteria and is not fully supported.
+- The therapeutic suggestion of targeting the glycine-rich region with antibodies is speculative and not supported by experimental evidence.

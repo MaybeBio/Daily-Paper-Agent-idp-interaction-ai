@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40728619",
+  "title": "Prediction of Intrinsic Disorder Functions with DEPICTER2.",
+  "authors": "Basu, Sushmita; Kurgan, Lukasz",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2025-07-29",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍DEPICTER2网络服务器，整合多种序列预测工具预测无序蛋白功能（包括结合蛋白/肽/核酸等），虽涉及IDP与互作预测，但为工具应用而非机制建模，方法为序列预测而非AI/物理模拟。",
+  "abstract": "DEPICTER2 is a modern web server that provides convenient access to a broad selection of sequence-based predictions of intrinsic disorder and disorder functions. It incorporates six state-of-the-art methods that include ANCHOR2, DFLpred, DisoLipPred, DisoRDPbind, flDPnn, and MoRF(CHiBi_Light), which predict disordered linkers and disordered regions that bind proteins, peptides, DNA, RNA, and lipids. DEPICTER2 facilitates selection of any combination of the six methods and batch predictions for multiple protein sequences. The prediction process is fully automated, performed on the server side, and does not require installation of any software. We describe and motivate selection of the six predictors, detail the prediction process, and explain how to interact with this web resource. We focus on the aspects related to the prediction of intrinsic disorder functions and provide a case study that illustrates how to interpret results produced by DEPICTER2. The web server is freely available at http://biomine.cs.vcu.edu/servers/DEPICTER2/ .",
+  "abstract_zh": "DEPICTER2是一个现代网络服务器，为用户便捷地提供一系列基于序列的内在无序及无序功能预测。它整合了六种最先进的方法，包括ANCHOR2、DFLpred、DisoLipPred、DisoRDPbind、flDPnn和MoRF(CHiBi_Light)，这些方法可预测无序连接区以及与蛋白质、肽、DNA、RNA和脂质结合的无序区域。DEPICTER2支持任意组合选择这六种方法，并能对多个蛋白质序列进行批量预测。预测过程完全自动化，在服务器端执行，无需安装任何软件。我们描述并论证了这六种预测器的选择理由，详细说明了预测过程，并解释了如何与这一网络资源交互。我们重点讨论了与内在无序功能预测相关的方面，并提供了一个案例研究，以说明如何解读DEPICTER2生成的结果。该网络服务器免费提供，访问地址为http://biomine.cs.vcu.edu/servers/DEPICTER2/。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40728619/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40728619/",
+  "paper_page_path": "papers/pubmed/40728619/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.19.562942",
+  "title": "A Reference Data Set for Circular Dichroism Spectroscopy Comprised of Validated Intrinsically Disordered Protein Models",
+  "authors": "Gabor Nagy; Nykola C. Jones; Soren V Hoffmann; Helmut Grubmueller",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-20",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文构建无序蛋白的圆二色谱参考数据集并评估二级结构预测工具，虽以无序蛋白为对象，但聚焦光谱与二级结构而非PPI互作机制，且方法为传统光谱分析而非AI/物理模拟，与本课题关联较弱。",
+  "abstract": "Circular Dichroism (CD) spectroscopy is an analytical technique that measures the wavelength-dependent differential absorbance of circularly polarized light, and is applicable to most biologically important macromolecules, such as proteins, nucleic acids, and carbohydrates. It serves to characterize the secondary structure composition of proteins, including intrinsically disordered proteins, by analyzing their recorded spectra. Several computational tools have been developed to interpret protein CD spectra. These methods have been calibrated and tested mostly on globular proteins with well-defined structures, mainly due to the lack of reliable reference structures for disordered proteins. It is therefore still largely unclear how accurately these computational methods can determine the secondary structure composition of disordered proteins. Here, we provide such a required reference data set consisting of model structural ensembles and matching CD spectra for eight intrinsically disordered proteins. Using this set of data, we have assessed the accuracy of several published CD prediction and secondary structure estimation tools, including our own CD analysis package SESCA. Our results show that for most of the tested methods, their accuracy for disordered proteins is generally lower than for globular proteins. In contrast, SESCA, which was developed using globular reference proteins, but was designed to be applicable to disordered proteins as well, performs similarly well for both classes of proteins. The new reference data set for disordered proteins should allow for further improvement of all published methods.",
+  "abstract_zh": "圆二色（Circular Dichroism, CD）光谱是一种分析技术，用于测量圆偏振光波长依赖的差分吸收，适用于大多数生物学上重要的大分子，如蛋白质、核酸和碳水化合物。它通过分析记录的谱图，用于表征蛋白质（包括内在无序蛋白质）的二级结构组成。已开发出多种计算工具来解释蛋白质CD光谱。这些方法主要针对具有明确结构的球状蛋白质进行校准和测试，这主要是因为缺乏无序蛋白质的可靠参考结构。因此，这些计算方法在确定无序蛋白质二级结构组成方面的准确性仍很大程度上未知。在此，我们提供了这样一个所需的参考数据集，包含八种内在无序蛋白质的模型结构系综及匹配的CD光谱。利用该数据集，我们评估了几种已发表的CD预测和二级结构估计工具的准确性，包括我们自己的CD分析包SESCA。我们的结果表明，对于大多数测试方法，它们在无序蛋白质上的准确性通常低于球状蛋白质。相比之下，SESCA虽然基于球状参考蛋白质开发，但设计上也适用于无序蛋白质，对两类蛋白质的表现同样良好。新的无序蛋白质参考数据集应能促进所有已发表方法的进一步改进。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.19.562942",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.19.562942",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.19.562942/index.html"
+}

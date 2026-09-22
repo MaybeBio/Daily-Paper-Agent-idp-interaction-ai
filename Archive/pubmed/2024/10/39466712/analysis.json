@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39466712",
+  "title": "Comparison of Methodologies for Absolute Binding Free Energy Calculations of Ligands to Intrinsically Disordered Proteins.",
+  "authors": "Papadourakis, Michail; Cournia, Zoe; Mey, Antonia S J S; Michel, Julien",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2024-10-28",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文比较了绝对结合自由能计算与马尔可夫态模型在无序蛋白c-Myc肽段与小分子配体结合模拟中的适用性，虽对象为IDP且涉及结合机制建模，但互作对象为小分子而非蛋白-蛋白互作，方法上以物理模拟为主。",
+  "abstract": "Modulating the function of Intrinsically Disordered Proteins (IDPs) with small molecules is of considerable importance given the crucial roles of IDPs in the pathophysiology of numerous diseases. Reported binding affinities for ligands to diverse IDPs vary broadly, and little is known about the detailed molecular mechanisms that underpin ligand efficacy. Molecular simulations of IDP ligand binding mechanisms can help us understand the mode of action of small molecule inhibitors of IDP function, but it is still unclear how binding energies can be modeled rigorously for such a flexible class of proteins. Here, we compare alchemical absolute binding free energy calculations (ABFE) and Markov-State Modeling (MSM) protocols to model the binding of the small molecule 10058-F4 to a disordered peptide extracted from a segment of the oncoprotein c-Myc. The ABFE results produce binding energy estimates that are sensitive to the choice of reference structure. In contrast, the MSM results produce more reproducible binding energy estimates consistent with weak mM binding affinities and transient intermolecular contacts reported in the literature.",
+  "abstract_zh": "利用小分子调节 intrinsically disordered proteins (IDPs) 的功能，鉴于IDPs在众多疾病病理生理中的关键作用，具有相当的重要性。已报道的配体与多种IDPs的结合亲和力差异广泛，而关于支撑配体效力的详细分子机制知之甚少。IDP配体结合机制的分子模拟有助于理解小分子抑制剂对IDP功能的作用模式，但对于如此柔性的蛋白质类别，如何严格建模结合能仍不明确。在此，我们比较了 alchemical absolute binding free energy calculations (ABFE) 和 Markov-State Modeling (MSM) 协议，以模拟小分子10058-F4与从癌蛋白c-Myc片段中提取的无序肽段的结合。ABFE结果产生的结合能估计对参考结构的选择敏感。相比之下，MSM结果产生的结合能估计更具可重复性，与文献中报道的弱mM级结合亲和力和瞬时分子间接触一致。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39466712/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39466712/",
+  "paper_page_path": "papers/pubmed/39466712/index.html"
+}

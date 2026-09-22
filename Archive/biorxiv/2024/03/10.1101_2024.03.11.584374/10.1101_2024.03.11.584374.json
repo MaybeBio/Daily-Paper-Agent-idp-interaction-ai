@@ -1,0 +1,169 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.03.11.584374",
+  "title": "Separate domains of the Arabidopsis ENHANCER OF PINOID drive its own polarization and recruit PIN1 to the plasma membrane",
+  "doi": "10.1101/2024.03.11.584374",
+  "abstract": "The Arabidopsis ENHANCER OF PINOID (ENP) protein and the AGC-kinase PINOID (PID) synergistically impact on polarization of the auxin transporter PIN-FORMED1 (PIN1) required for plant leaf and flower organ development. ENP offers a PID-independent input for PIN-polarity since enp pid double mutants lead to cotyledon- and flower-less plants in contrast to pid single mutants, which develop cotyledons and abnormal albeit fertile flowers. This indicated that ENP, which depicts a similar polar localization as PIN1, is a potential interactor of PINs especially PIN1. Here we show that the modular structure of ENP predicted by AlphaFold separates the capability for its own cellular polarization and its function linked to polar PIN1 activity. The anterior part of ENP is subdivided into three structured domains. They are supportive and/or essential for cellular polarity. In contrast, the C-terminus, which is an intrinsically disordered region (IDR), is completely dispensable for polarity but essential for ENP-mediated PIN-function. FLIM-FRET shows ENP to be closely associated with the plasma membrane and its IDR to significantly interact with PINs. Moreover, the modification status of two prominent phosphorylation sites in the IDR determines ENPs stability and its capability in supporting PIN1. Our results show ENP to be an element in the assumed PIN-multiprotein complex and explain its impact on PID-independent PIN1 activity.",
+  "authors": [
+    "Matthes MS",
+    "Yun N",
+    "Luichtl M",
+    "Büschges U",
+    "Fiesselmann BS",
+    "Strickland B",
+    "Lehnardt MS",
+    "Ruiz RAT"
+  ],
+  "published_date": "2024-03-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.03.11.584374",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.03.11.584374.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR819328",
+    "raw_record": {
+      "id": "PPR819328",
+      "source": "PPR",
+      "doi": "10.1101/2024.03.11.584374",
+      "title": "Separate domains of the  <i>Arabidopsis</i>  ENHANCER OF PINOID drive its own polarization and recruit PIN1 to the plasma membrane",
+      "authorString": "Matthes MS, Yun N, Luichtl M, Büschges U, Fiesselmann BS, Strickland B, Lehnardt MS, Ruiz RAT.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Matthes MS",
+            "lastName": "Matthes",
+            "firstName": "Michaela",
+            "initials": "MS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5477-5846"
+            }
+          },
+          {
+            "fullName": "Yun N",
+            "lastName": "Yun",
+            "firstName": "Nicole",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-0537-0083"
+            }
+          },
+          {
+            "fullName": "Luichtl M",
+            "lastName": "Luichtl",
+            "firstName": "Miriam",
+            "initials": "M"
+          },
+          {
+            "fullName": "Büschges U",
+            "lastName": "Büschges",
+            "firstName": "Ulrich",
+            "initials": "U"
+          },
+          {
+            "fullName": "Fiesselmann BS",
+            "lastName": "Fiesselmann",
+            "firstName": "Birgit",
+            "initials": "BS"
+          },
+          {
+            "fullName": "Strickland B",
+            "lastName": "Strickland",
+            "firstName": "Benjamin",
+            "initials": "B"
+          },
+          {
+            "fullName": "Lehnardt MS",
+            "lastName": "Lehnardt",
+            "firstName": "Marietta",
+            "initials": "MS"
+          },
+          {
+            "fullName": "Ruiz RAT",
+            "lastName": "Ruiz",
+            "firstName": "Ramon Torres",
+            "initials": "RAT"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5477-5846"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1012-6435"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-0537-0083"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The  Arabidopsis ENHANCER OF PINOID (ENP) protein and the AGC-kinase PINOID (PID) synergistically impact on polarization of the auxin transporter PIN-FORMED1 (PIN1) required for plant leaf and flower organ development. ENP offers a PID-independent input for PIN-polarity since  enp pid double mutants lead to cotyledon- and flower-less plants in contrast to  pid single mutants, which develop cotyledons and abnormal albeit fertile flowers. This indicated that ENP, which depicts a similar polar localization as PIN1, is a potential interactor of PINs especially PIN1.  Here we show that the modular structure of ENP predicted by AlphaFold separates the capability for its own cellular polarization and its function linked to polar PIN1 activity. The anterior part of ENP is subdivided into three structured domains. They are supportive and/or essential for cellular polarity. In contrast, the C-terminus, which is an intrinsically disordered region (IDR), is completely dispensable for polarity but essential for ENP-mediated PIN-function. FLIM-FRET shows ENP to be closely associated with the plasma membrane and its IDR to significantly interact with PINs. Moreover, the modification status of two prominent phosphorylation sites in the IDR determines ENPs stability and its capability in supporting PIN1. Our results show ENP to be an element in the assumed PIN-multiprotein complex and explain its impact on PID-independent PIN1 activity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/03/21/2024.03.11.584374.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.03.11.584374"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-03-14",
+      "firstPublicationDate": "2024-03-13",
+      "firstIndexDate": "2024-03-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

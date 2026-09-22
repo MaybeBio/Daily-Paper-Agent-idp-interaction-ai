@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37222268",
+  "title": "Proteins released into the plant apoplast by the obligate parasitic protist Albugo selectively repress phyllosphere-associated bacteria.",
+  "authors": "Gomez-Perez, Daniel; Schmid, Monja; Chaudhry, Vasvi; Hu, Yiheng; Velic, Ana; Macek, Boris; Ruhe, Jonas; Kemen, Ariane; Kemen, Eric",
+  "journal": "The New phytologist",
+  "published_date": "2023-05-24",
+  "window": {
+    "start": "2023-05-22",
+    "end": "2023-05-28"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究利用机器学习预测和实验验证，发现卵菌Albugo释放的抗菌蛋白通过其内在无序区域(IDR)选择性抑制植物叶际细菌，涉及IDR功能与蛋白-细菌互作，但对象为蛋白-细菌而非蛋白-蛋白互作(PPI)，且机制建模深度有限。",
+  "abstract": "Biotic and abiotic interactions shape natural microbial communities. The mechanisms behind microbe-microbe interactions, particularly those protein based, are not well understood. We hypothesize that released proteins with antimicrobial activity are a powerful and highly specific toolset to shape and defend plant niches. We have studied Albugo candida, an obligate plant parasite from the protist Oomycota phylum, for its potential to modulate the growth of bacteria through release of antimicrobial proteins into the apoplast. Amplicon sequencing and network analysis of Albugo-infected and uninfected wild Arabidopsis thaliana samples revealed an abundance of negative correlations between Albugo and other phyllosphere microbes. Analysis of the apoplastic proteome of Albugo-colonized leaves combined with machine learning predictors enabled the selection of antimicrobial candidates for heterologous expression and study of their inhibitory function. We found for three candidate proteins selective antimicrobial activity against Gram-positive bacteria isolated from A. thaliana and demonstrate that these inhibited bacteria are precisely important for the stability of the community structure. We could ascribe the antibacterial activity of the candidates to intrinsically disordered regions and positively correlate it with their net charge. This is the first report of protist proteins with antimicrobial activity under apoplastic conditions that therefore are potential biocontrol tools for targeted manipulation of the microbiome.",
+  "abstract_zh": "生物与非生物相互作用塑造了自然微生物群落。微生物间相互作用的机制，尤其是那些基于蛋白质的机制，尚未被充分理解。我们假设，具有抗菌活性的分泌蛋白是塑造和防御植物生态位的一种强大且高度特异的工具集。我们研究了白锈菌（Albugo candida），一种来自原生生物卵菌门（Oomycota）的专性植物寄生生物，探讨其通过向质外体释放抗菌蛋白来调节细菌生长的潜力。对感染和未感染白锈菌的野生拟南芥（Arabidopsis thaliana）样本进行扩增子测序和网络分析，揭示了白锈菌与其他叶际微生物之间存在大量负相关关系。结合机器学习预测因子对白锈菌定殖叶片的质外体蛋白质组进行分析，使得选择抗菌候选蛋白用于异源表达并研究其抑制功能成为可能。我们发现三种候选蛋白对从拟南芥中分离的革兰氏阳性细菌具有选择性抗菌活性，并证明这些被抑制的细菌恰好对群落结构的稳定性至关重要。我们将候选蛋白的抗菌活性归因于其内在无序区域，并发现其与净电荷呈正相关。这是首次报道在质外体条件下具有抗菌活性的原生生物蛋白，因此这些蛋白有望成为靶向操控微生物组的生物防治工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37222268/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37222268/",
+  "paper_page_path": "papers/pubmed/37222268/index.html"
+}

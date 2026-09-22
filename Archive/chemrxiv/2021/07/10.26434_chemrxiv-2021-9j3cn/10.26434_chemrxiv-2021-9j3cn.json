@@ -1,0 +1,331 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2021-9j3cn",
+  "title": "Preparation of Bioderived and Biodegradable Surfactants Based on an Intrinsically Disordered Protein Sequence",
+  "doi": "10.26434/chemrxiv-2021-9j3cn",
+  "abstract": "Surfactants, block-copolymers, and other types of micellar systems are used in a wide variety of biomedical and industrial processes. However, most commonly used surfactants are synthetically derived and pose environmental and toxicological concerns throughout their product life cycle. Because of this, bio-derived and bio-degradable surfactants are promising alternatives. For bio-surfactants to be implemented industrially, they need to be produced on a large scale and also have tailorable properties that match those afforded by the polymerization of synthetic surfactants. In this paper, a scalable and versatile production method for bio-surfactants based on a hydrophilic intrinsically disordered protein (IDP) sequence with a genetically engineered hydrophobic domain is used to study variables that impact their physicochemical and self-assembling properties. These amphiphilic sequences were found to self-assemble into micelles over a broad range of temperatures, pH values, and ionic strengths. To investigate the role of the IDP hydrophilic domain on self-assembly, variants with increased overall charges and systematically decreased IDP domain lengths were produced and examined for their sizes, morphologies, and critical micelle concentrations (CMCs). The results of these studies indicate that decreasing the length of the IDP domain and, consequently, the molecular weight and hydrophilic fraction, leads to smaller micelles. Additionally, significantly increasing the amount of charged residues in the hydrophilic IDP domain results in micelles of similar sizes, but with higher CMC values. This represents an initial step in developing a quantitative model for the future engineering of bio-surfactants based on this IDP sequence.",
+  "authors": [
+    "Sarah Klass",
+    "Jamie Gleason",
+    "Anthony Omole",
+    "Bibiana Onoa",
+    "Carlos Bustamante",
+    "Matthew Francis"
+  ],
+  "published_date": "2021-07-27",
+  "updated_date": "2022-02-01T08:22:07Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2021-9j3cn",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2021-9j3cn",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T10:22:06Z",
+        "timestamp": 1785406926531,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            27
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                7,
+                27
+              ]
+            ],
+            "date-time": "2021-07-27T00:00:00Z",
+            "timestamp": 1627344000000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Surfactants, block-copolymers, and other types of micellar systems are used in a wide variety of biomedical and industrial processes. However, most commonly used surfactants are synthetically derived and pose environmental and toxicological concerns throughout their product life cycle. Because of this, bio-derived and bio-degradable surfactants are promising alternatives. For bio-surfactants to be implemented industrially, they need to be produced on a large scale and also have tailorable properties that match those afforded by the polymerization of synthetic surfactants. In this paper, a scalable and versatile production method for bio-surfactants based on a hydrophilic intrinsically disordered protein (IDP) sequence with a genetically engineered hydrophobic domain is used to study variables that impact their physicochemical and self-assembling properties. These amphiphilic sequences were found to self-assemble into micelles over a broad range of temperatures, pH values, and ionic strengths. To investigate the role of the IDP hydrophilic domain on self-assembly, variants with increased overall charges and systematically decreased IDP domain lengths were produced and examined for their sizes, morphologies, and critical micelle concentrations (CMCs). The results of these studies indicate that decreasing the length of the IDP domain and, consequently, the molecular weight and hydrophilic fraction, leads to smaller micelles. Additionally, significantly increasing the amount of charged residues in the hydrophilic IDP domain results in micelles of similar sizes, but with higher CMC values. This represents an initial step in developing a quantitative model for the future engineering of bio-surfactants based on this IDP sequence.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2021-9j3cn",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            2,
+            1
+          ]
+        ],
+        "date-time": "2022-02-01T08:22:07Z",
+        "timestamp": 1643703727000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Preparation of Bioderived and Biodegradable Surfactants Based on an Intrinsically Disordered Protein Sequence"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Sarah",
+          "family": "Klass",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/01an7q238",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of California, Berkeley",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8569-2330",
+          "authenticated-orcid": false,
+          "given": "Jamie",
+          "family": "Gleason",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/01an7q238",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of California, Berkeley",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anthony",
+          "family": "Omole",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/01an7q238",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of California, Berkeley",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bibiana",
+          "family": "Onoa",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/01an7q238",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of California, Berkeley",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carlos",
+          "family": "Bustamante",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/01an7q238",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of California, Berkeley",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matthew",
+          "family": "Francis",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/01an7q238",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of California, Berkeley",
+              "place": [
+                "United States"
+              ]
+            },
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02jbv0t02",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Lawrence Berkeley National Laboratory",
+              "place": [
+                "United States"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2021-9j3cn",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:32:06Z",
+        "timestamp": 1778754726000
+      },
+      "score": 93.88756,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2021-9j3cn"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            27
+          ]
+        ]
+      },
+      "references-count": 0,
+      "aliases": [
+        "10.33774/chemrxiv-2021-9j3cn"
+      ],
+      "URL": "https://doi.org/10.26434/chemrxiv-2021-9j3cn",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.biomac.2c00051",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            7,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

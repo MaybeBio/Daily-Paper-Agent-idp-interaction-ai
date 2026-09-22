@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "39044475",
+    "doi": "10.1039/d4sm00532e",
+    "title": "Effects of charge asymmetry on the liquid-liquid phase separation of polyampholytes and their condensate properties."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is the mechanism underlying the formation of bio-molecular condensates which are important compartments regulating intra- and extra-cellular functions. Electrostatic interactions are some of the important driving forces of the LLPS behaviors of biomolecules. However, the understanding of the electrostatic interactions is still limited, especially in the mixtures of biomolecules with different charge patterns. Here, we focus on the electrostatic interactions in mixtures of charge-asymmetric and charge-symmetric polyampholytes and their roles in the phase separation behaviors. We build charge-asymmetric and charge-symmetric model proteins consisting of both glutamic acid (E, negatively charged) and lysine (K, positively charged), i.e. polyampholytes of E(35)K(15) (charge asymmetric) and E(25)K(25) (charge symmetric). Pure E(25)K(25) can undergo LLPS. To investigate the effects of charge-asymmetric polyampholytes on the mixtures of E(25)K(25)/E(35)K(15), we perform coarse-grained simulations to determine their phase separation. The charge-asymmetric polyampholyte E(35)K(15) is resistant to the LLPS of the mixtures of E(25)K(25)/E(35)K(15). The condensate density decreases with the molar fraction of E(35)K(15) increasing to 0.4, and no LLPS occurs at the molar fraction of 0.5 and above. This can be attributed to the electrostatic repulsion between the negatively charged E(35)K(15) polymers. We further investigate the effects of charge asymmetry on the conformations and properties of the condensates. The E(35)K(15) polymers in the condensates exhibit a more collapsed state as the molar fraction of E(35)K(15) increases. However, the conformation of E(25)K(25) polymers changes slightly across different condensates. The surface tensions of condensates decline with the increase of the molar fraction of E(35)K(15) polymers, while the diffusivity of polymers in the condensed phases is enhanced. This work elucidates the role of charge-asymmetric polyampholytes in determining the LLPS behaviours of binary mixtures of charge-symmetric and charge-asymmetric proteins as well as the properties of condensed phases.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "An, Yaxin",
+        "Gao, Tong",
+        "Wang, Tianyi",
+        "Zhang, Donghui",
+        "Bharti, Bhuvnesh"
+      ],
+      "short_names": [
+        "An Y",
+        "Gao T",
+        "Wang T",
+        "Zhang D",
+        "Bharti B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2578-369X",
+        "ORCID: 0000-0002-8826-8452",
+        "ORCID: 0000-0003-0779-6438",
+        "ORCID: 0000-0001-9426-9606"
+      ],
+      "affiliations": [
+        "Department of Chemical Engineering, Louisiana State University, USA. yxan@lsu.edu.",
+        "Department of Chemical Engineering, Louisiana State University, USA. yxan@lsu.edu.",
+        "Department of Chemical Engineering, Louisiana State University, USA. yxan@lsu.edu.",
+        "Department of Chemistry, Louisiana State University, USA.",
+        "Department of Chemical Engineering, Louisiana State University, USA. yxan@lsu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "An, Yaxin",
+        "short_name": "An Y",
+        "identifiers": [
+          "0000-0003-2578-369X"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, Louisiana State University, USA. yxan@lsu.edu."
+        ]
+      },
+      {
+        "full_name": "Gao, Tong",
+        "short_name": "Gao T",
+        "identifiers": [
+          "0000-0002-8826-8452"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, Louisiana State University, USA. yxan@lsu.edu."
+        ]
+      },
+      {
+        "full_name": "Wang, Tianyi",
+        "short_name": "Wang T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, Louisiana State University, USA. yxan@lsu.edu."
+        ]
+      },
+      {
+        "full_name": "Zhang, Donghui",
+        "short_name": "Zhang D",
+        "identifiers": [
+          "0000-0003-0779-6438"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Louisiana State University, USA."
+        ]
+      },
+      {
+        "full_name": "Bharti, Bhuvnesh",
+        "short_name": "Bharti B",
+        "identifiers": [
+          "0000-0001-9426-9606"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, Louisiana State University, USA. yxan@lsu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Soft matter"
+    ],
+    "journal_abbrev": [
+      "Soft Matter"
+    ],
+    "pub_date": "2024 Aug 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/24 06:41",
+    "fetched_at": "2026-09-21 08:59:00"
+  },
+  "links": {
+    "cites": [
+      "42207946",
+      "41021779"
+    ],
+    "refs": [],
+    "similar": [
+      "39044475",
+      "38407041",
+      "33890467",
+      "32822449",
+      "32007034",
+      "33139563",
+      "36695540",
+      "38287572",
+      "38252962",
+      "33672806",
+      "17134228",
+      "36524527",
+      "32482873",
+      "33076213",
+      "16241250",
+      "33047765",
+      "38979955",
+      "34235141",
+      "38547652",
+      "34156864",
+      "36993212",
+      "33629837",
+      "38808958",
+      "39257779",
+      "30948640",
+      "39148776",
+      "17411088",
+      "20684618",
+      "30913985",
+      "37230179",
+      "38526948",
+      "35142991",
+      "37668019",
+      "34984429",
+      "19924853",
+      "35943083",
+      "31941785",
+      "38260590",
+      "38568799",
+      "33684117",
+      "28742350",
+      "38855848",
+      "36471564",
+      "37130439",
+      "38811080",
+      "35802394",
+      "38042897",
+      "31444270",
+      "37735903",
+      "36551199",
+      "35293386",
+      "32881044",
+      "32696384",
+      "33982350",
+      "32824618",
+      "38322526",
+      "28337649",
+      "30397688",
+      "39171763",
+      "36181270",
+      "34816836",
+      "33809541",
+      "34428231",
+      "33913240",
+      "35727989",
+      "34551999",
+      "32312191",
+      "31237369",
+      "36227467",
+      "34236318",
+      "38553587",
+      "22369354",
+      "37075845",
+      "35867936",
+      "35543798",
+      "36227468",
+      "33264400",
+      "39302099",
+      "37494702",
+      "36671389",
+      "37815389",
+      "38645044",
+      "39343003",
+      "37205474",
+      "32548680",
+      "36310223",
+      "38643237",
+      "37721444",
+      "33765580",
+      "37705794",
+      "34522448",
+      "38960272",
+      "33453930",
+      "34366486",
+      "37294104",
+      "34029402",
+      "37293933",
+      "31325933",
+      "35628304",
+      "36209170",
+      "38512104",
+      "39283035",
+      "39386696"
+    ],
+    "review": [
+      "39044475",
+      "36524527",
+      "38979955",
+      "34235141",
+      "38547652",
+      "38808958",
+      "37230179",
+      "35142991",
+      "38855848",
+      "38811080",
+      "35802394",
+      "31444270",
+      "37735903",
+      "32881044",
+      "32824618",
+      "34816836",
+      "33913240",
+      "32312191",
+      "31237369",
+      "35543798",
+      "32548680",
+      "33765580",
+      "34522448"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d4sm00532e",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

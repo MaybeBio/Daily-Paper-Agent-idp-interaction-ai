@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract
+- **Shared manuscript claim summary** The authors report that the intrinsically disordered protein NUPR1 binds to the armadillo-repeat domain of Plakophilin 1 (PKP1) with low micromolar affinity, involving tryptophan residues of PKP1, mapping the NUPR1 binding region to the 30s sequence patch, and demonstrating nuclear co-localization in cellulo. They hypothesize a role for NUPR1 in carcinogenesis via modulation of PKP1 function.
+- **Visible evidence base** In vitro biophysical techniques (fluorescence, NMR, molecular docking, molecular modelling) and in cellulo protein ligation assays (PLAs), as described in the abstract
+- **Missing materials affecting confidence** Full methods, quantitative data (e.g., binding curves, NMR spectra, docking scores), statistical analyses, experimental replicates, and details of PLA controls are not provided
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting protein-protein interaction study, but the evidence base is too limited to evaluate the technical soundness or the strength of the conclusions. The claim of binding to the armadillo-repeat domain is not directly supported by the abstract, as the domain specificity is not experimentally demonstrated. The in cellulo localization is described but lacks quantitative or control details. The hypothesis regarding carcinogenesis is speculative and not supported by the presented data.
+- **Who would be interested in the results, and why** Researchers studying desmosome biology, armadillo-repeat proteins, intrinsically disordered proteins, and cancer-related signaling pathways. The potential link between NUPR1 and PKP1 could interest those investigating nuclear functions of desmosomal components and IDP-mediated interactions in tumor progression.
+- **Major strengths** The study combines multiple biophysical techniques (fluorescence, NMR, docking) and a cellular assay (PLA), which is a reasonable approach for characterizing a protein-protein interaction. The identification of a specific NUPR1 binding region and the involvement of PKP1 tryptophan residues provide molecular detail. The in cellulo confirmation adds physiological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The abstract states that NUPR1 binds to the armadillo-repeat domain of PKP1, but the evidence described (fluorescence, NMR, docking, PLA) does not demonstrate domain-specific binding.
+  - **Evidence pointer** Abstract text, "binding between PKP1 and NUPR1" and "armadillo-repeat domain"; location not provided
+  - **Concern** The title and abstract claim binding to the armadillo-repeat domain, yet no experiment is described that isolates or mutates this domain to confirm the interaction site. The techniques listed (whole-protein fluorescence, NMR mapping of NUPR1, docking) may indicate binding but not domain localization on PKP1.
+  - **Why it matters** The domain specificity is a central claim of the title and is essential for interpreting the functional relevance. Without direct evidence, the claim is unsupported and could mislead readers about the molecular mechanism.
+  - **Resolution test** Provide experimental data using PKP1 truncation mutants or domain-specific constructs (e.g., armadillo-repeat domain only) in binding assays, or show that mutations in the armadillo-repeat domain abolish binding.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** The affinity is reported as low micromolar (~10 muM), but no quantitative data or error estimates are provided.
+  - **Evidence pointer** Abstract text, "affinity in the low micromolar range (~10 muM)"; location not provided
+  - **Concern** The abstract reports a single affinity value without showing the binding curves, replicates, or fitting parameters. It is unclear whether this value is from a single experiment or multiple independent measurements, and no statistical uncertainty is given.
+  - **Why it matters** Affinity is a key quantitative claim that underpins the biological relevance. Without proper reporting, the reliability of the measurement cannot be assessed, and the value may not be reproducible.
+  - **Resolution test** Include representative binding isotherms, the number of replicates, and standard deviations or confidence intervals for the dissociation constant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** In cellulo evidence
+  - **Claim pointer** The interaction occurs in cellulo and is localized in the nucleus, as tested by PLAs.
+  - **Evidence pointer** Abstract text, "occurred in cellulo and was localized in the nucleus, as tested by protein ligation assays (PLAs)"; location not provided
+  - **Concern** The PLA result is described qualitatively. No information is provided on controls (e.g., negative controls with single antibody or knockdown), quantification of PLA signals, or the cell types used. The nuclear localization is stated but not shown with imaging data.
+  - **Why it matters** PLA can produce false positives if controls are inadequate. The nuclear localization is a novel aspect that requires robust evidence, as PKP1 is primarily known as a desmosomal protein.
+  - **Resolution test** Provide representative PLA images with appropriate negative controls, quantification of signals across multiple fields, and confirmation of nuclear localization with a nuclear marker.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Binding region description
+  - **Evidence pointer** Abstract text, "polypeptide patch at the 30s region of its sequence"
+  - **Issue** The term "30s region" is vague and may be unclear to readers unfamiliar with NUPR1 sequence numbering.
+  - **Required correction** Specify the exact amino acid residues (e.g., residues 30-39) or provide a sequence alignment figure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Hypothesis framing
+  - **Affected element** Carcinogenesis hypothesis
+  - **Evidence pointer** Abstract text, "NUPR1 plays an active role in carcinogenesis modulating the function of PKP1"
+  - **Issue** The hypothesis is stated without any direct evidence linking the binding to carcinogenesis. It may be perceived as overreach.
+  - **Required correction** Frame the statement as a speculative implication and clearly separate it from the experimental findings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Docking and modelling
+  - **Evidence pointer** Abstract text, "molecular docking" and "molecular modelling"
+  - **Issue** The abstract does not specify the software, scoring functions, or validation of the docking results.
+  - **Required correction** Provide brief methodological details or cite prior work for the docking protocol.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (domain specificity not demonstrated) and R1-M2 (quantitative affinity data missing) are the primary technical failings. R1-M3 (in cellulo evidence) requires additional controls and quantification.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The interaction between an IDP and an armadillo-repeat protein is not entirely novel, but the specific NUPR1-PKP1 pair may be new.  
+  - Scientific importance: Potentially relevant to cancer biology and desmosome function, but the significance is not established from the abstract alone.  
+  - Interdisciplinary readership: The topic bridges structural biology, cell adhesion, and cancer research, which could appeal to a broad audience.  
+  - Technical soundness: Cannot be assessed from the abstract due to missing quantitative data and methodological details.  
+  - Readability for nonspecialists: The abstract is generally clear but uses jargon (e.g., "armadillo-repeat domain", "IDP") without sufficient context for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the central claims require additional experimental support and clearer reporting.
+
+## Risk / unsupported claims
+- The claim that NUPR1 binds specifically to the armadillo-repeat domain of PKP1 is unsupported by the described evidence.
+- The affinity value of ~10 muM is reported without quantitative backing.
+- The in cellulo nuclear localization is stated without imaging or control data.
+- The hypothesis that NUPR1 modulates PKP1 function in carcinogenesis is speculative and not supported by the presented results.

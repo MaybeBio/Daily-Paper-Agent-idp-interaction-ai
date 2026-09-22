@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40778633",
+  "title": "Deep Learning for Hyperpolarized NMR of Intrinsically Disordered Proteins without Resolution Loss: Access to Short-Lived Intermediates.",
+  "authors": "Turhan, Ertan; Potzl, Christopher; Brandis, Dorte; Faglia, Federico; Zachrdla, Milan; Kurzbach, Dennis",
+  "journal": "Chemistry (Weinheim an der Bergstrasse, Germany)",
+  "published_date": "2025-08-08",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习去卷积方法提升无序蛋白超极化NMR分辨率，揭示短寿命离子-肽复合物，虽涉及IDP和AI方法，但核心是谱学技术而非PPI机制建模，互作轴较弱。",
+  "abstract": "The inherently low sensitivity of solution-state Nuclear Magnetic Resonance (NMR) has long limited its ability to characterize transient biomolecular states at atomic resolution. While dissolution dynamic nuclear polarization (dDNP) offers a compensating signal enhancement, its broader use has been hindered by rapid polarization decay, causing severe spectral distortion. Here, we introduce HyperW-Decon, an approach that enables high-sensitivity, high-resolution NMR of biomolecules in solution. HyperW-Decon combines two key aspects: (i) the use of hyperpolarized water (HyperW) to transfer polarization to proteins through rapid proton exchange; and (ii) a theory-driven, machine learning (ML)-based deconvolution method that corrects polarization-induced artifacts without requiring external reference signals. This approach is based on a first-principles understanding of dDNP line shapes and delivers a scalable solution to spectral distortion. Applied to intrinsically disordered proteins (IDPs) involved in biomineralization, HyperW-Decon reveals previously inaccessible, short-lived ion-peptide encounter complexes with residue resolution.",
+  "abstract_zh": "溶液态核磁共振（NMR）固有的低灵敏度长期以来限制了其在原子分辨率下表征瞬态生物分子状态的能力。尽管溶解动态核极化（dDNP）提供了补偿性的信号增强，但其广泛应用受到快速极化衰减的阻碍，导致严重的谱图畸变。在此，我们引入HyperW-Decon，一种能够实现溶液中生物分子高灵敏度、高分辨率NMR的方法。HyperW-Decon结合了两个关键方面：（i）利用超极化水（HyperW）通过快速质子交换将极化转移至蛋白质；以及（ii）一种基于理论驱动、机器学习（ML）的去卷积方法，无需外部参考信号即可校正极化引起的伪影。该方法基于对dDNP线形的第一性原理理解，并提供了一种可扩展的谱图畸变解决方案。应用于参与生物矿化的 intrinsically disordered proteins (IDPs)（内在无序蛋白），HyperW-Decon揭示了先前无法触及的、具有残基分辨率的短寿命离子-肽遭遇复合物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40778633/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40778633/",
+  "paper_page_path": "papers/pubmed/40778633/index.html"
+}

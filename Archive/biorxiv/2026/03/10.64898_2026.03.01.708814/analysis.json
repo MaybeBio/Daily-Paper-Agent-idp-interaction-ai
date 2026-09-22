@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.01.708814",
+  "title": "LLPSight: enhancing prediction of LLPS-driving proteins using machine learning and protein Language Models",
+  "authors": "Valentin Gonay; Rosario Vitale; Georgina Stegmayer; Michael P. Dunne; Andrey V. Kajava",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-03",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用蛋白语言模型嵌入和机器学习开发LLPSight，预测驱动液-液相分离的蛋白，对象为LLPS驱动蛋白（含IDP相关），方法为AI预测，但侧重分类预测而非互作机制建模，故评7分。",
+  "abstract": "In eukaryotic cells, essential functions are often confined within organelles enclosed by lipid membranes. Increasing evidence, however, highlights the role of membrane-less organelles (MLOs), formed through liquid-liquid phase separation (LLPS). MLO assemblies are typically initiated by “driver” proteins, which form a scaffold to recruit additional “client” molecules. By leveraging expanding MLO datasets and modern machine learning approaches, we developed LLPSight, an ML-based predictor of LLPS-driving proteins. The model was trained using rigorously curated datasets: a positive set of proteins experimentally confirmed to drive LLPS in vivo and a negative set of soluble, unstructured proteins not associated with LLPS. For the features, we employed a cutting-edge approach using embeddings from protein Language Models. LLPSight achieves the highest F1 score (0.885) among existing tools, enabling more efficient discovery of new LLPS drivers eagerly awaited by researchers for experimental validation. An additional key feature of LLPSight is its ability to perform proteome-wide analyses; application to the human proteome yielded promising targets. LLPSight can be obtained from authors upon request.",
+  "abstract_zh": "在真核细胞中，基本功能通常被限制在由脂质膜包裹的细胞器内。然而，越来越多的证据强调了通过液-液相分离（liquid-liquid phase separation, LLPS）形成的无膜细胞器（membrane-less organelles, MLOs）的作用。MLO组装通常由“驱动”蛋白启动，这些蛋白形成支架以招募额外的“客户”分子。通过利用不断扩展的MLO数据集和现代机器学习方法，我们开发了LLPSight，一种基于机器学习的LLPS驱动蛋白预测器。该模型使用严格筛选的数据集进行训练：一个阳性集，包含经实验证实能在体内驱动LLPS的蛋白质；一个阴性集，包含与LLPS无关的可溶性、非结构化蛋白质。在特征方面，我们采用了前沿方法，使用蛋白质语言模型的嵌入。LLPSight在现有工具中实现了最高的F1分数（0.885），能够更高效地发现新的LLPS驱动蛋白，这些蛋白正被研究人员急切期待用于实验验证。LLPSight的另一个关键特性是其能够进行全蛋白质组分析；应用于人类蛋白质组时，产生了有前景的靶标。LLPSight可应要求从作者处获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.01.708814",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.01.708814",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.01.708814/index.html"
+}

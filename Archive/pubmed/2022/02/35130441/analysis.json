@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35130441",
+  "title": "Multiscale Computational Study of the Conformation of the Full-Length Intrinsically Disordered Protein MeCP2.",
+  "authors": "Chavez-Garcia, Cecilia; Henin, Jerome; Karttunen, Mikko",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2022-02-08",
+  "window": {
+    "start": "2022-02-07",
+    "end": "2022-02-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用全原子与粗粒化模拟构建全长无序蛋白MeCP2的构象系综，虽聚焦单蛋白构象而非PPI，但为后续互作机制建模提供了可迁移的IDP建模基础。",
+  "abstract": "The malfunction of the methyl-CpG binding protein 2 (MeCP2) is associated with the Rett syndrome, one of the most common causes of cognitive impairment in females. MeCP2 is an intrinsically disordered protein (IDP), making its experimental characterization a challenge. There is currently no structure available for the full-length MeCP2 in any of the databases, and only the structure of its MBD domain has been solved. We used this structure to build a full-length model of MeCP2 by completing the rest of the protein via ab initio modeling. Using a combination of all-atom and coarse-grained simulations, we characterized its structure and dynamics as well as the conformational space sampled by the ID and transcriptional repression domain (TRD) domains in the absence of the rest of the protein. The present work is the first computational study of the full-length protein. Two main conformations were sampled in the coarse-grained simulations: a globular structure similar to the one observed in the all-atom force field and a two-globule conformation. Our all-atom model is in good agreement with the available experimental data, predicting amino acid W104 to be buried, amino acids R111 and R133 to be solvent-accessible, and having a 4.1% alpha-helix content, compared to the 4% found experimentally. Finally, we compared the model predicted by AlphaFold to our Modeller model. The model was not stable in water and underwent further folding. Together, these simulations provide a detailed (if perhaps incomplete) conformational ensemble of the full-length MeCP2, which is compatible with experimental data and can be the basis of further studies, e.g., on mutants of the protein or its interactions with its biological partners.",
+  "abstract_zh": "甲基-CpG结合蛋白2（MeCP2）的功能障碍与Rett综合征相关，该综合征是女性认知障碍的最常见原因之一。MeCP2是一种 intrinsically disordered protein (IDP)，这使得其实验表征颇具挑战。目前，任何数据库中均无全长MeCP2的结构，仅其MBD结构域的结构已被解析。我们利用该结构，通过从头建模（ab initio modeling）完成蛋白质其余部分，构建了MeCP2的全长模型。结合全原子和粗粒化模拟，我们表征了其结构、动力学以及ID和转录抑制结构域（TRD）在缺乏蛋白质其余部分时所采样的构象空间。本研究是首次对全长蛋白质的计算研究。粗粒化模拟中采样到两种主要构象：一种类似于全原子力场中观察到的球状结构，另一种为双球状构象。我们的全原子模型与现有实验数据高度一致，预测氨基酸W104埋藏，氨基酸R111和R133可及溶剂，且α-螺旋含量为4.1%，而实验测得为4%。最后，我们将AlphaFold预测的模型与我们的Modeller模型进行了比较。该模型在水中不稳定，并经历了进一步折叠。综合这些模拟，我们提供了全长MeCP2的详细（尽管可能不完整）构象系综，该系综与实验数据兼容，并可作为进一步研究的基础，例如针对蛋白质突变体或其与生物伙伴相互作用的研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35130441/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35130441/",
+  "paper_page_path": "papers/pubmed/35130441/index.html"
+}

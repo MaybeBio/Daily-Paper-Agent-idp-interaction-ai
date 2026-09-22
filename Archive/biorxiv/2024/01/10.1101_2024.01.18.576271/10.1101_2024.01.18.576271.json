@@ -1,0 +1,262 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.18.576271",
+  "title": "A Multiscale approach reveals the molecular architecture of the autoinhibited kinesin KIF5A",
+  "doi": "10.1101/2024.01.18.576271",
+  "abstract": "Kinesin-1 is a microtubule motor that transports cellular cargo along microtubules. KIF5A is one of three kinesin-1 isoforms in humans, all of which are autoinhibited by an interaction between the motor and an IAK motif in the proximal region of the C-terminal tail. The C-terminal tail of KIF5A is ∼80 residues longer than the other two kinesin-1 isoforms (KIF5B and KIF5C) and it is unclear if it contributes to autoinhibition. Mutations in KIF5A cause neuronal diseases and could affect autoinhibition, as reported for a mutation that skips exon 27, altering its C-terminal sequence. Here, we combined negative-stain electron microscopy, crosslinking mass spectrometry (XL-MS) and AlphaFold2 structure prediction to determine the molecular architecture of the full-length autoinhibited KIF5A homodimer, in the absence of light chains. We show that KIF5A forms a compact, bent conformation, through a bend between coiled coils 2 and 3, around P687. XL-MS of WT KIF5A revealed extensive interactions between residues in the motor, between coiled-coil 1 and the motor, between coiled-coils 1 and 2, with coiled coils 3 and 4, and the proximal region of the C-terminal tail and the motor in the autoinhibited state, but not between the distal C-terminal region and the rest of the molecule. While negative stain electron microscopy of exon-27 KIF5A splice mutant showed the presence of autoinhibited molecules, XL-MS analysis suggested that its autoinhibited state is more labile. Our model offers a conceptual framework for understanding how mutations within the motor and stalk domain may affect motor activity.",
+  "authors": [
+    "Carrington G",
+    "Fatima U",
+    "Caramujo I",
+    "Lewis T",
+    "Casas-Mao D",
+    "Peckham M"
+  ],
+  "published_date": "2024-01-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.18.576271",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.18.576271.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR789618",
+    "raw_record": {
+      "id": "PPR789618",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR789618"
+        ]
+      },
+      "doi": "10.1101/2024.01.18.576271",
+      "title": "A Multiscale approach reveals the molecular architecture of the autoinhibited kinesin KIF5A",
+      "authorString": "Carrington G, Fatima U, Caramujo I, Lewis T, Casas-Mao D, Peckham M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Carrington G",
+            "lastName": "Carrington",
+            "firstName": "Glenn",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4060-4725"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Biology and the School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, LS2 9JT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fatima U",
+            "lastName": "Fatima",
+            "firstName": "Uzrama",
+            "initials": "U",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Biology and the School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, LS2 9JT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Caramujo I",
+            "lastName": "Caramujo",
+            "firstName": "Ines",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Biology and the School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, LS2 9JT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lewis T",
+            "lastName": "Lewis",
+            "firstName": "Tarek",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0006-7980-4563"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Biology and the School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, LS2 9JT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Casas-Mao D",
+            "lastName": "Casas-Mao",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Biology and the School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, LS2 9JT, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Peckham M",
+            "lastName": "Peckham",
+            "firstName": "Michelle",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3754-2028"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Biology and the School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, LS2 9JT, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3754-2028"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4060-4725"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0006-7980-4563"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Kinesin-1 is a microtubule motor that transports cellular cargo along microtubules. KIF5A is one of three kinesin-1 isoforms in humans, all of which are autoinhibited by an interaction between the motor and an IAK motif in the proximal region of the C-terminal tail. The C-terminal tail of KIF5A is ∼80 residues longer than the other two kinesin-1 isoforms (KIF5B and KIF5C) and it is unclear if it contributes to autoinhibition. Mutations in KIF5A cause neuronal diseases and could affect autoinhibition, as reported for a mutation that skips exon 27, altering its C-terminal sequence. Here, we combined negative-stain electron microscopy, crosslinking mass spectrometry (XL-MS) and AlphaFold2 structure prediction to determine the molecular architecture of the full-length autoinhibited KIF5A homodimer, in the absence of light chains. We show that KIF5A forms a compact, bent conformation, through a bend between coiled coils 2 and 3, around P687. XL-MS of WT KIF5A revealed extensive interactions between residues in the motor, between coiled-coil 1 and the motor, between coiled-coils 1 and 2, with coiled coils 3 and 4, and the proximal region of the C-terminal tail and the motor in the autoinhibited state, but not between the distal C-terminal region and the rest of the molecule. While negative stain electron microscopy of exon-27 KIF5A splice mutant showed the presence of autoinhibited molecules, XL-MS analysis suggested that its autoinhibited state is more labile. Our model offers a conceptual framework for understanding how mutations within the motor and stalk domain may affect motor activity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "WT104918MA",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "223810/Z/21/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "223125/Z/21/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/01/23/2024.01.18.576271.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.01.18.576271"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR789618"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR789618&type=FILE&fileName=EMS193523-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38309508",
+            "reference": "The Journal of biological chemistry. 2024 Mar;300(3):105713",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS193523",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refseq",
+          "uniprot",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-01-20",
+      "firstPublicationDate": "2024-01-18",
+      "firstIndexDate": "2024-01-20",
+      "fullTextReceivedDate": "2024-02-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35293386",
+  "title": "Kinetic interplay between droplet maturation and coalescence modulates shape of aged protein condensates.",
+  "authors": "Garaizar, Adiran; Espinosa, Jorge R; Joseph, Jerelle A; Collepardo-Guevara, Rosana",
+  "journal": "Scientific reports",
+  "published_date": "2022-03-17",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化模拟与NUP-98肽段原子模拟，研究凝聚体内蛋白互作增强速率如何调控液滴成熟与形状，直接关联无序蛋白相分离中的PPI机制建模。",
+  "abstract": "Biomolecular condensates formed by the process of liquid-liquid phase separation (LLPS) play diverse roles inside cells, from spatiotemporal compartmentalisation to speeding up chemical reactions. Upon maturation, the liquid-like properties of condensates, which underpin their functions, are gradually lost, eventually giving rise to solid-like states with potential pathological implications. Enhancement of inter-protein interactions is one of the main mechanisms suggested to trigger the formation of solid-like condensates. To gain a molecular-level understanding of how the accumulation of stronger interactions among proteins inside condensates affect the kinetic and thermodynamic properties of biomolecular condensates, and their shapes over time, we develop a tailored coarse-grained model of proteins that transition from establishing weak to stronger inter-protein interactions inside condensates. Our simulations reveal that the fast accumulation of strongly binding proteins during the nucleation and growth stages of condensate formation results in aspherical solid-like condensates. In contrast, when strong inter-protein interactions appear only after the equilibrium condensate has been formed, or when they accumulate slowly over time with respect to the time needed for droplets to fuse and grow, spherical solid-like droplets emerge. By conducting atomistic potential-of-mean-force simulations of NUP-98 peptides-prone to forming inter-protein [Formula: see text]-sheets-we observe that formation of inter-peptide [Formula: see text]-sheets increases the strength of the interactions consistently with the loss of liquid-like condensate properties we observe at the coarse-grained level. Overall, our work aids in elucidating fundamental molecular, kinetic, and thermodynamic mechanisms linking the rate of change in protein interaction strength to condensate shape and maturation during ageing.",
+  "abstract_zh": "由液-液相分离（liquid-liquid phase separation, LLPS）过程形成的生物分子凝聚体在细胞内发挥多种作用，从时空区隔化到加速化学反应。随着成熟，凝聚体的液体样特性（支撑其功能的基础）逐渐丧失，最终形成具有潜在病理意义的固体样状态。增强蛋白质间相互作用是触发固体样凝聚体形成的主要机制之一。为了在分子层面理解凝聚体内蛋白质间更强相互作用的积累如何影响生物分子凝聚体的动力学和热力学性质及其随时间变化的形状，我们开发了一种定制的粗粒化蛋白质模型，该模型模拟蛋白质在凝聚体内从建立弱相互作用过渡到更强相互作用的过程。我们的模拟揭示，在凝聚体形成的成核和生长阶段，强结合蛋白质的快速积累导致非球形固体样凝聚体的产生。相反，当强蛋白质间相互作用仅在平衡凝聚体形成后才出现，或当它们相对于液滴融合和生长所需时间缓慢积累时，则形成球形固体样液滴。通过对易形成蛋白质间[公式：见原文]折叠片的NUP-98肽段进行原子级平均力势模拟，我们观察到肽间[公式：见原文]折叠片的形成增强了相互作用的强度，这与我们在粗粒化水平上观察到的液体样凝聚体特性丧失一致。总体而言，我们的工作有助于阐明将蛋白质相互作用强度变化速率与凝聚体形状及老化过程中的成熟联系起来的分子、动力学和热力学基本机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35293386/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35293386/",
+  "paper_page_path": "papers/pubmed/35293386/index.html"
+}

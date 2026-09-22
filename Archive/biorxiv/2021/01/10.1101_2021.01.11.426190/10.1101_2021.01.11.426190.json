@@ -1,0 +1,123 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.01.11.426190",
+  "title": "Mapping the Promiscuous Binding Interface of HOX-A11 with KIX by Experimentally Guided in-silico docking",
+  "doi": "10.1101/2021.01.11.426190",
+  "abstract": "Transcription factors (TFs) regulate levels of transcription through a complex array of protein-protein interactions, thereby controlling key physiological processes such as development, stress response and cell growth. The transcription factor HOXA11 contains an intrinsically disordered regions (IDR) through which it interacts with CREB binding protein (CBP) and regulates endometrial development and function in eutherian mammals. The interaction between the IDR of HOXA11 and CBP was analyzed using computational docking guided by experimental constraints. HOXA11 IDR interacts with the KIX domain of CBP at two discrete sites – MLL and cMyb, mediated by sticky hydrophobic grooves on the surface of KIX. A five residue motif FDQFF on HOXA11 can interact both at cMyb and MLL site of KIX resulting in a promiscuous binding. <h4>Author Summary</h4> We demonstrate how the intrinsically disordered region (IDR) of transcription factor HOXA11 interacts at two distinct sites of the transcription coactivator CREB binding protein (CBP). By combining computational docking with limited experimental data we construct models of the complex of the KIX domain within CBP and a short helical segment within the IDR of HOXA11. The interaction between HOXA11 and CBP is believed to trigger the downstream expression of genes important in embryonic development.",
+  "authors": [
+    "Ganguly S",
+    "Wagner GP",
+    "Meiler J"
+  ],
+  "published_date": "2021-01-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.01.11.426190",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.01.11.426190.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR264191",
+    "raw_record": {
+      "id": "PPR264191",
+      "source": "PPR",
+      "doi": "10.1101/2021.01.11.426190",
+      "title": "Mapping the Promiscuous Binding Interface of HOX-A11 with KIX by Experimentally Guided  <i>in-silico</i>  docking",
+      "authorString": "Ganguly S, Wagner GP, Meiler J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ganguly S",
+            "lastName": "Ganguly",
+            "firstName": "Soumya",
+            "initials": "S"
+          },
+          {
+            "fullName": "Wagner GP",
+            "lastName": "Wagner",
+            "firstName": "Günter",
+            "initials": "GP"
+          },
+          {
+            "fullName": "Meiler J",
+            "lastName": "Meiler",
+            "firstName": "Jens",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8945-193X"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8945-193X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Transcription factors (TFs) regulate levels of transcription through a complex array of protein-protein interactions, thereby controlling key physiological processes such as development, stress response and cell growth. The transcription factor HOXA11 contains an intrinsically disordered regions (IDR) through which it interacts with CREB binding protein (CBP) and regulates endometrial development and function in eutherian mammals. The interaction between the IDR of HOXA11 and CBP was analyzed using computational docking guided by experimental constraints. HOXA11 IDR interacts with the KIX domain of CBP at two discrete sites – MLL and cMyb, mediated by sticky hydrophobic grooves on the surface of KIX. A five residue motif FDQFF on HOXA11 can interact both at cMyb and MLL site of KIX resulting in a promiscuous binding. <h4>Author Summary</h4>  We demonstrate how the intrinsically disordered region (IDR) of transcription factor HOXA11 interacts at two distinct sites of the transcription coactivator CREB binding protein (CBP). By combining computational docking with limited experimental data we construct models of the complex of the KIX domain within CBP and a short helical segment within the IDR of HOXA11. The interaction between HOXA11 and CBP is believed to trigger the downstream expression of genes important in embryonic development.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/01/11/2021.01.11.426190.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.01.11.426190"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-01-15",
+      "firstPublicationDate": "2021-01-11",
+      "firstIndexDate": "2021-01-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

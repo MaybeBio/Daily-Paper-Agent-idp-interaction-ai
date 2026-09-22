@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40911789",
+  "title": "When B(2) is Not Enough: Evaluating Simple Metrics for Predicting Phase Separation of Intrinsically Disordered Proteins.",
+  "authors": "Oliver, Wesley W; Jacobs, William M; Webb, Michael A",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-09-05",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化MD模拟2034条IDP序列计算多种简单指标（含新提出的expenditure density）并结合机器学习评估其预测相分离倾向的能力，虽未直接建模PPI，但聚焦IDP相分离机制预测，方法上AI+物理模拟结合，对本课题的IDP互作/相分离机制建模有直接启发。",
+  "abstract": "Understanding and predicting the phase behavior of intrinsically disordered proteins (IDPs) is of significant interest due to their role in many biological processes. However, effectively characterizing phase behavior and its complex dependence on protein primary sequence remains challenging. In this study, we evaluate the efficacy of several simple computational metrics to quantify the propensity of single-component IDP solutions to phase separate; specific metrics considered include the single-chain radius of gyration, the second virial coefficient, and a newly proposed quantity termed the expenditure density. Each metric is computed using coarse-grained molecular dynamics simulations for 2,034 IDP sequences. Using machine learning, we analyze this data to understand how sequence features correlate with the predictive performance of each metric and to develop insight into their respective strengths and limitations. The expenditure density is determined to be a broadly useful metric that combines simplicity, low computational cost, and accuracy; it also provides a continuous measure that remains informative across both phase-separating and non-phase-separating sequences. Additionally, this metric shows promise in its ability to improve predictions of other properties for IDP systems. This work extends existing literature by advancing beyond binary classification, which can be useful for rapidly screening phase behavior or predicting other properties of IDP-related systems.",
+  "abstract_zh": "理解和预测固有无序蛋白（IDPs）的相行为因其在众多生物过程中的作用而具有重要意义。然而，有效表征相行为及其对蛋白质一级序列的复杂依赖性仍然具有挑战性。在本研究中，我们评估了几种简单计算指标在量化单组分IDP溶液相分离倾向方面的有效性；所考虑的具体指标包括单链回转半径、第二维里系数，以及一个新提出的量，称为支出密度。每个指标均通过粗粒化分子动力学模拟对2,034个IDP序列进行计算。利用机器学习，我们分析这些数据，以理解序列特征如何与每个指标的预测性能相关联，并深入了解它们各自的优势和局限性。支出密度被确定为一种广泛适用的指标，兼具简单性、低计算成本和准确性；它还提供了一种连续度量，在相分离和非相分离序列中均保持信息量。此外，该指标在改善IDP系统其他性质预测方面显示出潜力。本研究通过超越二元分类扩展了现有文献，这可能有助于快速筛选相行为或预测IDP相关系统的其他性质。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40911789/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40911789/",
+  "paper_page_path": "papers/pubmed/40911789/index.html"
+}

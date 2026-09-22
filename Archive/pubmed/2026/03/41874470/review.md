@@ -1,0 +1,30 @@
+## Review setup
+
+- **Input scope** Abstract and methods summary only; full text, figures, tables, and Supporting Information not provided.
+- **Assessment boundary** Assessment limited to claims explicitly stated in the abstract and the brief methods summary; no evaluation of experimental details, data quality, or statistical rigor beyond what is stated.
+- **Shared manuscript claim summary** The authors report that NMR and MD simulations characterize interactions between a C-terminal α-synuclein construct, the small molecule fasudil, and calcium ions. They claim preferential binding to overlapping tyrosine/acidic-rich regions, distinct driving forces for fasudil versus Ca2+, Ca2+-induced electrostatic screening reducing fasudil interaction frequency, and retention of dynamic fasudil contacts with key tyrosines, supporting simultaneous ligand-specific interactions in Ca2+-rich conditions.
+- **Visible evidence base** Abstract text; methods summary naming NMR experiments at 298 K, isotopically labeled samples, and MD simulations; no figures, tables, or quantitative data.
+- **Missing materials affecting confidence** Full manuscript, all NMR spectra and assignments, MD simulation details (force field, timescale, analysis methods), statistical analyses, and Supporting Information. Without these, quantitative claims and mechanistic conclusions cannot be independently verified.
+
+## Reviewer
+
+- **Overall assessment** The abstract presents a plausible and potentially interesting study of ligand and metal ion interactions with an intrinsically disordered protein, using complementary NMR and MD approaches. The claims are internally consistent and align with known properties of α-synuclein’s C-terminal region. However, the provided material is insufficient to evaluate the technical soundness, data quality, or robustness of the conclusions. The study’s novelty relative to existing literature on α-synuclein interactions with small molecules and metals is not assessable from the abstract alone. The manuscript may merit consideration if the full data support the claims, but the current evidence base is too limited for a definitive recommendation.
+- **Who would be interested in the results, and why** Researchers in neurodegeneration, particularly those studying α-synuclein aggregation and its modulation by small molecules or metal ions; structural biologists using NMR to study intrinsically disordered proteins; computational chemists interested in MD simulations of protein-ligand interactions in ionic environments. The findings could inform drug development strategies for Parkinson’s disease and related synucleinopathies.
+- **Major strengths** The combination of NMR and MD simulations provides complementary perspectives on binding dynamics and driving forces. The focus on side-chain-resolved interactions and the C-terminal region, which is functionally important but often understudied, is a strength. The claim that Ca2+ modulates fasudil binding through electrostatic effects is mechanistically interesting and testable.
+- **Major Concerns** None identified from the supplied material, as the abstract-level claims cannot be critically evaluated without data. However, the absence of quantitative evidence (e.g., binding affinities, interaction frequencies, error estimates) limits confidence in the conclusions.
+- **Minor Comments** None identified from the supplied material, as the abstract and methods summary provide insufficient detail for granular critique.
+- **Technical failings that need to be addressed before the case is established** No specific technical failings can be identified from the abstract alone. However, the following must be verified in the full manuscript: NMR spectral assignments and resolution, reproducibility of MD results across independent simulations, convergence of MD trajectories, and consistency between NMR and MD-derived interaction patterns.
+- **Assessment against Nature-style criteria**  
+  - Originality: Not assessable from the abstract; the combination of fasudil and Ca2+ with α-synuclein may be novel, but prior work on similar systems is not referenced.  
+  - Scientific importance: Potentially high for understanding environmental modulation of α-synuclein interactions, but significance depends on whether the findings generalize beyond this specific construct and conditions.  
+  - Interdisciplinary readership: Likely to appeal to NMR spectroscopists, computational chemists, and neurobiologists, but the abstract’s technical density may limit accessibility to nonspecialists.  
+  - Technical soundness: Not assessable without full methods and data; the brief methods summary is insufficient.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses specialized terms (e.g., "side-chain-resolved spectra," "electrostatic screening") without explanation, which may hinder broader readership.
+- **Recommendation posture** Currently not established from the provided evidence. A supportive recommendation would require access to the full manuscript, including quantitative NMR and MD data, to verify the claims. The abstract alone does not provide sufficient evidence to assess the study’s validity or impact.
+
+## Risk / unsupported claims
+
+- The claim that "Ca2+ modifies the local electrostatic environment, decreasing fasudil interaction frequency through electrostatic screening and steric effects" is unsupported in the abstract, as no quantitative interaction frequencies or error estimates are provided.
+- The claim that "exposed α-synuclein conformations allow simultaneous, ligand-specific interactions" is not substantiated by specific conformational data or binding stoichiometry.
+- The claim that "side-chain-resolved spectra indicate distinct driving forces" is not verifiable without spectral data or assignment details.
+- The generalizability of findings to full-length α-synuclein or physiological conditions is not addressed and cannot be assumed from the C-terminal construct alone.

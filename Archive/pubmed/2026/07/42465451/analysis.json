@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42465451",
+  "title": "Simulations show increased lipid interdigitation in transmembrane coupling of protein condensates.",
+  "authors": "Zinga, Ketsia; Stachowiak, Jeanne; Ren, Pengyu",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-07-17",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究无序蛋白凝聚体跨膜偶联机制，揭示脂质穿插增强介导的层间通讯，对象为IDR凝聚体、聚焦PPI/膜互作机制且采用物理模拟，高度契合本课题。",
+  "abstract": "Liquid-liquid phase separation of proteins has been observed to occur on biological membranes, where it is thought to play a role in diverse cellular behaviors. Recent work has demonstrated colocalization between protein condensates on opposing leaflets of the bilayer, suggesting that protein phase separation may be coupled across the bilayer. However, the mechanism behind this coupling phenomenon remains poorly understood. Here we seek to understand the protein-protein and protein-membrane interactions that give rise to transbilayer coupling of protein condensates. We perform coarse-grained molecular dynamics simulations of a bilayer with a disordered protein condensate tethered to each leaflet surface. In this system, we observe stable, coupled diffusion of the condensates across the membrane. We find that increasing the protein-protein interaction strength leads to decoupling, driven by competing membrane curvatures induced by each condensate. However, by applying membrane tension we suppress curvature and restore coupling even at higher protein interaction strengths. Under coupling conditions, we find that lipid entropy is reduced upon direct contact with proteins, but this effect is not transferred to the opposing leaflet. Interestingly, further analysis reveals increased transverse lipid packing (interdigitation) beneath the condensates relative to protein-free regions. Based on these observations, we propose that enhanced lipid interdigitation mediates interleaflet communication and serves as the primary mechanism driving transbilayer coupling of condensates in this system. This work provides insight into a potential physical mechanism for transmembrane communication in cellular contexts and suggests directions for future investigation.",
+  "abstract_zh": "蛋白质的液-液相分离 (liquid-liquid phase separation) 已被观察到发生在生物膜上，并被认为在多种细胞行为中发挥作用。近期研究表明，双层膜相对小叶上的蛋白质凝聚体存在共定位现象，提示蛋白质相分离可能跨双层膜耦合。然而，这种耦合现象背后的机制仍知之甚少。在此，我们旨在理解导致蛋白质凝聚体跨双层耦合的蛋白质-蛋白质及蛋白质-膜相互作用。我们进行了粗粒化分子动力学 (coarse-grained molecular dynamics) 模拟，模拟对象为双层膜，其每个小叶表面均连接有无序蛋白质凝聚体。在该系统中，我们观察到凝聚体跨膜的稳定耦合扩散。我们发现，增加蛋白质-蛋白质相互作用强度会导致去耦合，这由每个凝聚体诱导的竞争性膜曲率所驱动。然而，通过施加膜张力，我们抑制了曲率，并在较高蛋白质相互作用强度下恢复了耦合。在耦合条件下，我们发现脂质熵在与蛋白质直接接触时降低，但此效应并未传递至相对小叶。有趣的是，进一步分析揭示，凝聚体下方的横向脂质堆积（交错互插，interdigitation）相对于无蛋白质区域有所增加。基于这些观察，我们提出增强的脂质交错互插介导了小叶间通讯，并作为该系统凝聚体跨双层耦合的主要机制。这项工作为细胞环境中跨膜通讯的潜在物理机制提供了见解，并为未来研究指明了方向。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42465451/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42465451/",
+  "paper_page_path": "papers/pubmed/42465451/index.html"
+}

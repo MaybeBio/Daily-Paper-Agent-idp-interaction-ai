@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the main text, figures, and tables referenced
+- **Shared manuscript claim summary** The authors investigate the thermodynamic basis for small molecule-induced disorder-to-order transitions in the intrinsically disordered N-terminal lid region of MDM2. Using isothermal titration calorimetry (ITC) and adaptive alchemical absolute binding free energy calculations with enhanced-sampling molecular dynamics, they report that AM-7209, but not Nutlin-3a, strongly prefers ordered lid conformations, shifting the conformational equilibrium toward the ordered state. A 250-fold loss in affinity upon lid truncation is attributed to this selectivity.
+- **Visible evidence base** Main text, Figures 1–6, Tables S1–S3 (referenced), Supplementary text and figures (referenced), Methods section
+- **Missing materials affecting confidence** Full supplementary information (ESI text, Figs S1–S10, Tables S1–S3) not provided; raw ITC data not shown; force field parameter details for ligands not described; convergence criteria for adaptive sampling not fully detailed in main text
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in chemical biology: how small molecules can selectively engage intrinsically disordered regions via disorder-to-order transitions. The combination of experimental calorimetry with advanced alchemical free energy calculations is ambitious and potentially impactful. The central claim that AM-7209's 250-fold affinity loss upon lid truncation arises from a strong preference for ordered lid conformations is plausible and well-supported by the computational analysis presented. However, several technical aspects require clarification and additional validation before the case is fully established, particularly regarding force field accuracy for IDRs, convergence of the adaptive sampling protocol, and the interpretation of the calculated population shifts.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein-ligand interactions, computational chemistry, and structure-based drug design. The adaptive sampling methodology for alchemical free energy calculations will be of interest to computational chemists seeking efficient approaches for flexible targets. The findings on MDM2 lid ordering may inform medicinal chemistry efforts targeting MDM2 and other proteins with IDRs.
+- **Major strengths** 1) The study addresses a fundamental and under-explored question about the energetics of ligand-induced disorder-to-order transitions. 2) The combination of experimental ITC with state-of-the-art computational methods (aMD, US, vFEP, ABFE) is rigorous and comprehensive. 3) The adaptive sampling protocol represents a practical methodological advance with clear efficiency gains. 4) The differential analysis of two ligands (AM-7209 vs Nutlin-3a) provides a useful comparative framework. 5) The conclusions are directly relevant to drug design strategies targeting IDRs.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the "open and ordered" lid macrostate is energetically disfavoured in apo MDM2 by ca. 1.4 ± 0.2 kcal mol−1, and that AM-7209 binding shifts the population to ca. 90% ordered.
+  - **Evidence pointer** Figure 3, Table S3, Figure 6A
+  - **Concern** The free energy surface and population estimates rely on a single force field (amber99SB-ildn-nmr) and a 2D projection of the conformational space. The authors acknowledge force field sensitivity for IDRs but do not provide cross-validation with alternative force fields or enhanced sampling methods. The 2D collective variables (end-to-end distance and lid position relative to core) may not fully capture the conformational heterogeneity of the disordered lid, potentially biasing the computed populations.
+  - **Why it matters** The central mechanistic conclusion depends critically on the accuracy of the computed free energy surface and the resulting population shifts. If the force field or collective variables are inadequate, the predicted 90% ordered population in the AM-7209 complex could be significantly in error, undermining the proposed rationale for the 250-fold affinity difference.
+  - **Resolution test** Provide additional free energy calculations using a second, complementary force field (e.g., CHARMM36m or a newer AMBER variant optimized for IDRs) and/or validate the 2D projection against a higher-dimensional analysis. Alternatively, experimental validation of the ordered population in the AM-7209 complex (e.g., via NMR chemical shift perturbations or relaxation measurements) would strengthen the claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the adaptive sampling protocol yields results "statistically indistinguishable from the brute-force calculation" with a "six-fold decrease in computing resources."
+  - **Evidence pointer** Figure 4, Figure S7
+  - **Concern** The benchmark of the adaptive protocol is performed on Pip-2 with MDM2-Lid/short, a simpler system than the full MDM2-Lid with AM-7209 or Nutlin-3a. The convergence criteria (τ = 0.100 kcal mol−1) and the number of epochs are not fully described in the main text. It is unclear whether the efficiency gains and accuracy demonstrated for Pip-2 transfer to the more complex lid-containing systems, where conformational sampling is more challenging.
+  - **Why it matters** The methodological contribution is a key selling point of the paper. If the adaptive protocol's performance is not robustly demonstrated for the actual systems of interest, the claimed efficiency advantage may be overstated, and the reliability of the reported binding free energies for AM-7209 and Nutlin-3a is uncertain.
+  - **Resolution test** Provide convergence data (e.g., free energy estimates as a function of epoch number) for the AM-7209/MDM2-Lid and Nutlin-3a/MDM2-Lid calculations. Compare adaptive results with a subset of brute-force simulations for these systems to confirm equivalence. Report the total simulation time and number of epochs used for each system.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the findings "provide a rationale for the different binding mechanisms of AM-7209 and Nutlin-3a" and that the methodology "should facilitate broader targeting of intrinsically disordered regions in medicinal chemistry."
+  - **Evidence pointer** Conclusions section, Figure 6
+  - **Concern** The mechanistic explanation for why AM-7209 prefers ordered lid conformations (bulkier ring substituents hindering interactions with helix α2) is based on qualitative analysis of simulation trajectories. The proposed design principle (maximizing the difference in computed binding free energies between ordered and disordered states) is not tested prospectively, e.g., by designing a ligand variant predicted to have altered lid selectivity and validating experimentally.
+  - **Why it matters** The broader impact claim rests on the generalizability of the proposed strategy. Without a prospective test or at least a more quantitative structure-energetics relationship, the practical utility for drug design remains speculative.
+  - **Resolution test** Perform a prospective computational prediction for a modified AM-7209 analog (e.g., with altered substituent size/polarity) and test experimentally via ITC and structural studies. Alternatively, analyze additional MDM2 ligands with known lid-ordering behavior to establish a correlation between computed preferences and experimental outcomes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The description of the MDM2 lid region and its conformational states could be clearer for readers unfamiliar with the system. The figure labels (e.g., "closed and disordered," "open and ordered") are introduced without explicit definition in the main text.
+  - **Required correction** Add a brief definition of the lid conformational states in the figure legend or main text, and consider a schematic diagram showing the lid in different states relative to the MDM2 core.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, ITC section
+  - **Evidence pointer** Methods section, Table S1
+  - **Issue** The ITC experimental details are minimal. The buffer composition, temperature, and protein/ligand concentrations are not stated in the main text, and the fitting model (e.g., one-site vs two-site) is not described.
+  - **Required correction** Provide full ITC experimental conditions and analysis details in the Methods or Supplementary Information.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Computational methods, force field choice
+  - **Evidence pointer** Results section, "Spontaneous ordering" subsection
+  - **Issue** The choice of amber99SB-ildn-nmr is justified by prior studies on histone H3 and MDM2, but the authors do not discuss potential limitations of this force field for the specific lid sequence or the ligand parameters (GAFF?).
+  - **Required correction** Add a brief discussion of force field limitations and how ligand parameters were generated (e.g., GAFF, RESP charges).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions section
+  - **Issue** The statement that the adaptive sampling protocol "should facilitate further investigations of the performances of the diverse force fields" is somewhat vague and could be more specific about the types of systems where the method would be most beneficial.
+  - **Required correction** Clarify the scope of applicability, e.g., systems with flexible binding sites, and mention potential limitations (e.g., system size, ligand complexity).
+
+## Risk / unsupported claims
+- The claim that the "open and ordered" lid population increases to ca. 90% in the AM-7209 complex is based on a two-state model derived from the free energy surface; this population estimate is not directly validated experimentally.
+- The statement that "changes in enthalpy favour binding of AM-7209 to MDM2-Lid over MDM2-Lid/short" is supported by ITC data, but the interpretation that this reflects specific lid-ligand interactions is inferred from simulations and not directly proven.
+- The proposed design strategy (maximizing binding free energy differences between ordered and disordered states) is presented as a general principle but is only demonstrated for one ligand pair.
+- The claim of "six-fold decrease in computing resources" is based on a single benchmark system (Pip-2) and may not generalize to the more complex systems studied.
+- The assertion that the adaptive sampling protocol produces results "statistically indistinguishable" from brute-force is not supported by statistical tests; the comparison appears qualitative.

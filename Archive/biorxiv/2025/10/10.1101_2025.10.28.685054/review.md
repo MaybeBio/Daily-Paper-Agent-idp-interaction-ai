@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, author contributions, competing interests, acknowledgements) as provided on bioRxiv. Figures, extended data, supplementary tables, and supplementary model files were referenced but not provided.
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the text provided. No assessment of figures, numerical data, or supplementary materials was possible.
+- **Shared manuscript claim summary** The authors report that loss of the small disordered protein Spo12 improves population growth in fission yeast cells engineered to lack the Wee1+Cdc25 feedback loops on Cdk1 (MCN-AF background). They propose that Spo12 is a stoichiometric inhibitor of the PP2A phosphatase, directly regulated by Cdk-dependent phosphorylation, and that this defines a novel conserved family of PP2A inhibitors. A mathematical model is presented to support the proposed regulatory network.
+- **Visible evidence base** Text descriptions of experimental evolution, whole-genome sequencing, single-cell analyses, in vivo Cdk activity measurements, Turbo-ID proteomics, phosphoproteomics, in silico structure prediction, and mathematical modeling. No actual data, figures, or numerical results were available for inspection.
+- **Missing materials affecting confidence** All figures, extended data figures, supplementary tables, and the supplementary model. Without these, quantitative claims, statistical analyses, and the validity of model fits cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a fundamental question in cell cycle control: how a simplified network can sustain proliferation and how evolution can improve it. The identification of Spo12 as a Cdk-regulated PP2A inhibitor is potentially significant and would be of broad interest. However, the current text relies heavily on descriptions of data that are not visible to the reviewer. Several claims are made without sufficient quantitative support in the text, and the relationship between the experimental evolution findings and the mechanistic conclusions requires clearer articulation. The mathematical model is described in general terms, and its ability to recapitulate the key experimental observations cannot be evaluated from the text alone. The manuscript is well written and logically structured, but the evidence base as presented is insufficient to fully establish the central claims.
+- **Who would be interested in the results, and why** Cell cycle biologists, particularly those studying Cdk regulation, PP2A phosphatases, and feedback control. Evolutionary biologists interested in the evolution of regulatory networks. Systems biologists working on mathematical modeling of cell cycle control. The proposed Spo12 family of PP2A inhibitors may also be of interest to researchers studying PP2A in other eukaryotes, including human cells.
+- **Major strengths** The use of an engineered minimal cell cycle network combined with experimental evolution is a creative and powerful approach. The identification of Spo12 as a new PP2A inhibitor with direct Cdk-dependent regulation is novel and mechanistically interesting. The combination of experimental evolution, proteomics, structural prediction, and mathematical modeling is multidisciplinary and ambitious. The discussion of trade-offs in regulatory complexity is thoughtful and adds conceptual depth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Spo12 defines a novel family of negative regulators of the PP2A phosphatase" and "Spo12 is a stoichiometric inhibitor of the conserved Cdk-counteracting phosphatase PP2A"
+  - **Evidence pointer** Figure 4, Extended data Figs 6-10, Supplementary Table 2
+  - **Concern** The central mechanistic claim that Spo12 is a stoichiometric inhibitor of PP2A is based on Turbo-ID proximity labeling, AlphaFold3 structural predictions, and phosphoproteomic data. None of these data are visible in the provided text. The Turbo-ID experiment identifies Pab1 as an interactor, but the text does not provide quantitative enrichment data or controls. The AlphaFold3 prediction is described as high confidence, but no confidence scores or structural figures are shown. The phosphoproteomic data are presented as a list of clusters without any specific phosphorylation sites or fold changes. Without these data, the claim that Spo12 directly inhibits PP2A in a stoichiometric manner is not established.
+  - **Why it matters** This is the core mechanistic finding of the manuscript. If the evidence is not robust, the entire conceptual framework collapses. The distinction between a direct stoichiometric inhibitor and a regulatory protein that affects PP2A activity indirectly is critical for the interpretation of all downstream experiments and the proposed model.
+  - **Resolution test** Provide the Turbo-ID enrichment data with statistical significance, show the AlphaFold3 model with confidence metrics and a clear depiction of the Spo12-PP2A interface, and present the phosphoproteomic data with specific sites, magnitudes, and statistical analyses. Ideally, include a biochemical assay demonstrating direct inhibition of PP2A activity by Spo12 in vitro.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** "Loss of Spo12 function enhances the proliferation of MCN-AF cells" and "the average division time of MCN-AF spo1211 cells was similar to that of MCN-AF and even lower than those of WT and spo1211 cells"
+  - **Evidence pointer** Figure 1e-g, Extended data Fig 2a-b, Figure 2b
+  - **Concern** The text reports growth rate improvements, cell cycle time distributions, and percentages of non-dividing cells, but no numerical values, error bars, statistical tests, or sample sizes are provided. The claim that MCN-AF spo1211 cells have similar or lower average division times than MCN-AF is counterintuitive given the improved population growth, and the explanation (reduced fraction of non-dividing cells) is only qualitatively described. The bimodality in cell cycle time distribution is mentioned but not quantified.
+  - **Why it matters** The phenotypic characterization is the foundation for all subsequent mechanistic work. Without quantitative data and statistical rigor, the reader cannot assess the magnitude of the effects or the reliability of the conclusions. The apparent discrepancy between single-cell division times and population growth rates needs to be resolved with clear numbers.
+  - **Resolution test** Provide growth curves with replicates and statistical comparisons, cell cycle time distributions with n numbers and statistical tests, and a clear quantification of the non-dividing fraction in each strain. Show that the differences are significant and reproducible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** "The model proposed in Fig. 6a therefore also recapitulates the occurrence of cell cycle exit in the different tested strains" and "the remarkable similarities between model simulations and virtually all of the experimental data"
+  - **Evidence pointer** Figure 6, Extended data Figs 11-13, Supplementary Model
+  - **Concern** The mathematical model is described in general terms, but no equations, parameter values, or fitting procedures are shown. The claim that the model recapitulates experimental data is made without presenting any quantitative comparison between simulations and experiments. The bifurcation analysis is mentioned but not shown. The model is said to predict a non-canonical steady state, but the biological basis for this state is not clearly explained.
+  - **Why it matters** The model is used to support the proposed regulatory network and to explain the experimental observations. Without a detailed description of the model and its validation, the reader cannot judge whether the model is overfitted, whether the conclusions are robust to parameter variation, or whether the model truly captures the essential dynamics.
+  - **Resolution test** Provide the full model equations, parameter values, and a sensitivity analysis. Show quantitative comparisons between model simulations and experimental data, including the cell cycle time distributions and Cdk activity profiles. Explain the biological basis for the non-canonical steady state and its dependence on cell size.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary interpretation
+  - **Claim pointer** "the improvement in population growth of cells lacking the Wee1+Cdc25 mitotic feedback loops in our study was not brought about by rewiring of existing functions or the emergence of novel mechanisms. It rather occurred by further reduction of network complexity via the loss of a feedback system on Cdk1 function"
+  - **Evidence pointer** Figure 1c, Extended data Fig 1, Supplementary Table 1
+  - **Concern** The evolutionary interpretation is based on a single evolved population (M3) and a single loss-of-function allele. The text mentions complex genetic trajectories and clonal interference but does not provide details on the frequency of the spo12 mutation, the presence of other mutations, or whether the spo12 loss was the sole driver of the improved phenotype. The claim that loss of complexity is the evolutionary strategy is a strong conclusion from limited data.
+  - **Why it matters** The evolutionary narrative is a key part of the paper's significance. If the spo12 mutation is accompanied by other adaptive mutations, or if the result is specific to this particular genetic background, the broader conclusions about evolution of cell cycle networks would be weakened.
+  - **Resolution test** Provide a detailed analysis of the whole-genome sequencing data, including mutation frequencies, the presence of other mutations, and ideally a reconstruction of the evolutionary trajectory. Test whether the spo12 deletion alone is sufficient to confer the growth advantage in the MCN-AF background.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The term "Cdk function" is used throughout, but the manuscript measures Cdk activity via biosensors that are also affected by phosphatases. The authors acknowledge this in the results section, but the abstract and introduction could be clearer about the distinction between Cdk activity and Cdk function.
+  - **Required correction** Define "Cdk function" early and consistently, or use "Cdk activity" throughout with a note that the biosensor readout integrates kinase and phosphatase activities.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Strain nomenclature
+  - **Evidence pointer** Figure 1, Extended data Fig 1
+  - **Issue** The text refers to "MCN-AF spo1211" and "spo1211" cells, but the full genotype is not clearly defined. It is unclear whether spo1211 refers to a complete deletion of the spo12 open reading frame in all backgrounds.
+  - **Required correction** Clearly state the genotype of all strains used, including the spo1211 allele and how it was constructed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Trade-off discussion
+  - **Evidence pointer** Figure 5d, Discussion
+  - **Issue** The trade-off argument is based on the observation that spo12 deletion provides a growth advantage in MCN-AF but not in WT or MCN. The text suggests this is due to a trade-off, but the nature of the trade-off is not specified. It is unclear whether the trade-off is in growth rate, stress resistance, or some other fitness component.
+  - **Required correction** Clarify what the trade-off is and provide evidence for it, or soften the claim to be more speculative.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental details
+  - **Evidence pointer** Methods (not provided)
+  - **Issue** The text describes experiments but does not provide methodological details. For example, the Turbo-ID protocol, the phosphoproteomics workflow, and the microfluidic device design are not described.
+  - **Required correction** Ensure that the full methods are provided in the final version, with sufficient detail for replication.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central mechanistic claim (Spo12 as a stoichiometric PP2A inhibitor) and the primary phenotypic claim (growth improvement in MCN-AF) cannot be evaluated without the underlying data. R1-M3 is also important, as the model is used to support the proposed network but is not described in sufficient detail.
+- **Assessment against Nature-style criteria** Originality: High. The combination of minimal networks, experimental evolution, and identification of a new PP2A inhibitor family is novel. Scientific importance: High. The findings could reshape understanding of cell cycle feedback control and the evolution of regulatory complexity. Interdisciplinary readership: Moderate to high. The work bridges cell biology, evolution, and systems biology, but the technical nature may limit accessibility. Technical soundness: Cannot be fully assessed from the text alone. The described experiments are appropriate, but the lack of visible data prevents verification. Readability for nonspecialists: The manuscript is well written and logically structured, but the abstract and introduction assume familiarity with cell cycle regulation. The discussion of the Spo12 family and its conservation is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework and experimental approach are compelling, and the identification of Spo12 as a Cdk-regulated PP2A inhibitor is potentially important. However, the current manuscript does not provide sufficient visible evidence to establish the central claims. The authors must provide the underlying data, quantitative analyses, and model details to support their conclusions.
+
+## Risk / unsupported claims
+- The claim that Spo12 is a stoichiometric inhibitor of PP2A is not supported by visible data. The Turbo-ID, structural prediction, and phosphoproteomic results are described but not shown.
+- The claim that loss of Spo12 improves population growth in MCN-AF cells is not quantitatively supported. No growth curves, statistical tests, or effect sizes are provided.
+- The claim that the mathematical model recapitulates experimental observations is not verifiable. No equations, parameters, or model-data comparisons are shown.
+- The claim that Spo12 and FAM122A belong to the same family of PP2A inhibitors is speculative and based on limited structural and functional evidence.
+- The evolutionary interpretation that loss of complexity is the adaptive strategy is based on a single evolved population and requires additional validation.

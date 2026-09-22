@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors report an in silico study of protein complexes containing ordered proteins (14-3-3gamma) and intrinsically disordered proteins or regions (SARS-CoV-2 nucleocapsid protein, p53). They claim that AlphaFold2-modeled complexes, refined using discrete molecular dynamics (piDMD) simulations, acquire assembled structures in disordered regions, and that this structural assembly addresses a key challenge in studying disordered proteins.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or quantitative results provided
+- **Missing materials affecting confidence** Full manuscript, methods details, simulation parameters, structural validation metrics, comparison with experimental data, and any quantitative outcome measures
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of piDMD refinement to AlphaFold2 models of fuzzy protein complexes. However, the claims are stated at a high level without quantitative support, and the central assertion that refinement leads to "assembled structures" in disordered regions is not substantiated by any data visible in the supplied material. The work may be of interest to computational structural biologists, but the evidence base is insufficient to evaluate technical soundness or the strength of the conclusions.
+- **Who would be interested in the results, and why** Computational structural biologists and researchers studying intrinsically disordered proteins, particularly those using AlphaFold2 predictions and molecular dynamics refinement. The potential to improve structural models of fuzzy complexes could be relevant to those investigating protein-protein interactions involving disordered regions, including SARS-CoV-2 biology and p53 regulation.
+- **Major strengths** The study addresses a recognized limitation of AlphaFold2, namely its handling of intrinsically disordered regions. The choice of piDMD as a refinement strategy is methodologically reasonable, as discrete molecular dynamics can sample conformational ensembles relevant to disordered systems. The selection of biologically important complexes (14-3-3gamma with SARS-CoV-2 N and p53) adds potential relevance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "complexes modeled by AlphaFold2 and refined using discrete molecular dynamics simulations acquire assembled structures in disordered regions"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The central claim that refinement produces "assembled structures" in disordered regions is presented without any quantitative data, such as root-mean-square deviation values, contact maps, or ensemble comparisons. No metrics are provided to define what "assembled" means or how it was measured.  
+  - **Why it matters** Without quantitative evidence, the claim is not verifiable. Disordered regions are by definition conformationally heterogeneous, and demonstrating that they "acquire assembled structures" requires rigorous statistical comparison of conformational ensembles before and after refinement, as well as validation against experimental data where available.  
+  - **Resolution test** Provide quantitative measures of structural assembly (e.g., secondary structure content, inter-residue contact probabilities, radius of gyration distributions) for the disordered regions before and after piDMD refinement, with appropriate error estimates and statistical significance tests.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "refined using discrete molecular dynamics simulations"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No details are given on the piDMD simulation protocol, including force field parameters, simulation length, temperature, number of replicas, or convergence criteria. Without this information, the technical validity of the refinement cannot be assessed.  
+  - **Why it matters** The outcome of molecular dynamics simulations is highly sensitive to simulation conditions. If the protocol is not described, readers cannot evaluate whether the observed "assembly" is an artifact of the simulation setup or a genuine structural feature.  
+  - **Resolution test** Describe the full simulation protocol in the methods section, including software version, force field, simulation time, ensemble, and convergence assessment.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** External validation  
+  - **Claim pointer** "the modeled complexes exhibit a degree of structural assembly that addresses a key challenge in studying disordered proteins"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not mention any comparison with experimental data, such as nuclear magnetic resonance or small-angle X-ray scattering, which are standard for validating structural models of disordered proteins. The claim that the challenge is "addressed" is therefore unsupported.  
+  - **Why it matters** For intrinsically disordered proteins, computational predictions alone are insufficient to establish biological relevance. Without experimental validation, the claim that the refinement addresses a key challenge is overstated.  
+  - **Resolution test** Include a comparison of refined models with available experimental data for the studied complexes, or clearly state the absence of such validation and temper the claim accordingly.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "fuzzy protein complexes" is used in the title but not defined in the abstract.  
+  - **Required correction** Define "fuzzy complexes" in the abstract or introduction to clarify the specific structural context.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Claim wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "acquire assembled structures" is vague and could be interpreted in multiple ways, from partial folding to full complex formation.  
+  - **Required correction** Specify the nature and degree of assembly observed, with quantitative descriptors.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Scope statement  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state how many complexes were studied or whether the results are consistent across all systems.  
+  - **Required correction** Include the number of systems studied and note any system-specific differences in outcomes.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, simulation details, and external validation means the central claims cannot be evaluated from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The application of piDMD to refine AlphaFold2 models of fuzzy complexes is a reasonable methodological idea, but the abstract does not demonstrate novelty beyond existing refinement approaches.  
+  - Scientific importance: The topic is relevant, but the abstract does not establish a significant advance over current methods for modeling disordered protein complexes.  
+  - Interdisciplinary readership: The work may appeal to computational biologists and biophysicists, but the abstract lacks the broader context needed to engage a wider audience.  
+  - Technical soundness: Not assessable from the abstract alone; no methods or validation data are provided.  
+  - Readability for nonspecialists: The abstract is generally clear but uses jargon without definition, and the lack of quantitative context limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible idea, but the claims are unsupported by visible data. A revised manuscript with full methods, quantitative results, and validation would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that piDMD refinement leads to "assembled structures" in disordered regions is unsupported by any quantitative data in the supplied abstract.
+- The claim that the refinement "addresses a key challenge in studying disordered proteins" is not substantiated without experimental validation or comparison with existing methods.
+- The generalizability of the findings to other fuzzy protein complexes is not assessable from the abstract.

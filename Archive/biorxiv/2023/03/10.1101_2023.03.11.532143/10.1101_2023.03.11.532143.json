@@ -1,0 +1,318 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.11.532143",
+  "title": "Modulating Nucleic Acid Phase Transitions as a Mechanism of Action for Cell-Penetrating Antimicrobial Peptides",
+  "doi": "10.1101/2023.03.11.532143",
+  "abstract": "Antimicrobial peptides (AMPs) are a vital part of the immune system that helps combat bacterial infections by disrupting the bacterial cell membrane or interacting with intracellular targets. However, the mechanisms by which AMPs act on intracellular targets are not well understood. Using machine learning-based sequence analysis, we have discovered that a significant number of AMPs have a strong tendency to form liquid-like condensates in the presence of nucleic acids, a process known as phase separation. We have demonstrated that this phase separation propensity is linked to the effectiveness of the AMPs in inhibiting transcription and translation in vitro, as well as their ability to compact nucleic acids and form clusters with bacterial nucleic acids in bacterial cells. We propose that the AMP-driven compaction of nucleic acids and modulation of their phase transitions constitute a previously unrecognised mechanism by which AMPs exert their antibacterial effects. These findings open up exciting possibilities for the development of antimicrobials that target nucleic acid phase transitions.",
+  "authors": [
+    "Sneideris T",
+    "Erkamp NA",
+    "Ausserwöger H",
+    "Saar KL",
+    "Welsh TJ",
+    "Qian D",
+    "Johncock MLLY",
+    "Krainer G",
+    "Borodavka A",
+    "Knowles TPJ"
+  ],
+  "published_date": "2023-03-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.11.532143",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.11.532143.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR628993",
+    "raw_record": {
+      "id": "PPR628993",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR628993"
+        ]
+      },
+      "doi": "10.1101/2023.03.11.532143",
+      "title": "Modulating Nucleic Acid Phase Transitions as a Mechanism of Action for Cell-Penetrating Antimicrobial Peptides",
+      "authorString": "Sneideris T, Erkamp NA, Ausserwöger H, Saar KL, Welsh TJ, Qian D, Johncock MLLY, Krainer G, Borodavka A, Knowles TPJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sneideris T",
+            "lastName": "Sneideris",
+            "firstName": "Tomas",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5285-871X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Erkamp NA",
+            "lastName": "Erkamp",
+            "firstName": "Nadia",
+            "initials": "NA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4095-2105"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ausserwöger H",
+            "lastName": "Ausserwöger",
+            "firstName": "Hannes",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saar KL",
+            "lastName": "Saar",
+            "firstName": "Kadi",
+            "initials": "KL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Welsh TJ",
+            "lastName": "Welsh",
+            "firstName": "Timothy",
+            "initials": "TJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Qian D",
+            "lastName": "Qian",
+            "firstName": "Daoyuan",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8539-3346"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Johncock MLLY",
+            "lastName": "Johncock",
+            "firstName": "Margaret",
+            "initials": "MLLY",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Krainer G",
+            "lastName": "Krainer",
+            "firstName": "Georg",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9626-7636"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Borodavka A",
+            "lastName": "Borodavka",
+            "firstName": "Alexander",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Cambridge, Cambridge, United Kingdom These authors contributed equally to this work"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Knowles TPJ",
+            "lastName": "Knowles",
+            "firstName": "Tuomas",
+            "initials": "TPJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7879-0140"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, United Kingdom"
+                },
+                {
+                  "affiliation": "Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Ave, Cambridge, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5285-871X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7879-0140"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8539-3346"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9626-7636"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4095-2105"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Antimicrobial peptides (AMPs) are a vital part of the immune system that helps combat bacterial infections by disrupting the bacterial cell membrane or interacting with intracellular targets. However, the mechanisms by which AMPs act on intracellular targets are not well understood. Using machine learning-based sequence analysis, we have discovered that a significant number of AMPs have a strong tendency to form liquid-like condensates in the presence of nucleic acids, a process known as phase separation. We have demonstrated that this phase separation propensity is linked to the effectiveness of the AMPs in inhibiting transcription and translation in vitro, as well as their ability to compact nucleic acids and form clusters with bacterial nucleic acids in bacterial cells. We propose that the AMP-driven compaction of nucleic acids and modulation of their phase transitions constitute a previously unrecognised mechanism by which AMPs exert their antibacterial effects. These findings open up exciting possibilities for the development of antimicrobials that target nucleic acid phase transitions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "337969",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "213437/Z/18/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/03/12/2023.03.11.532143.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.03.11.532143"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR628993"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR628993&type=FILE&fileName=EMS172237-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS172237",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCreation": "2023-03-14",
+      "firstPublicationDate": "2023-03-12",
+      "firstIndexDate": "2023-03-14",
+      "fullTextReceivedDate": "2023-03-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41385825",
+  "title": "Advances in the determination of disordered protein ensemble.",
+  "authors": "Ghafouri, Hamidreza; Tosatto, Silvio C E; Monzon, Alexander Miguel",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2025-12-13",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 7,
+  "one_liner_zh": "综述无序蛋白构象系综测定的进展，涵盖物理模拟与机器学习整合方法，并提及蛋白-蛋白互作建模挑战，但未深入具体PPI机制建模。",
+  "abstract": "Intrinsically disordered proteins (IDPs) play essential roles in regulation, signaling, and phase separation, yet their structural complexity cannot be captured by a single conformation. Instead, they populate dynamic ensembles that encode a context-dependent function. Recent advances in experimental techniques coupled with physics-based simulations, coarse-grained models, and machine learning, have transformed our ability to generate and interpret IDP ensembles. Integrative frameworks now combine complementary data with computational approaches to refine ensembles at both local and global levels. Nevertheless, challenges remain in benchmarking, error estimation, and modeling assemblies involving protein-protein and protein-nucleic acid interactions. We highlight recent progress and outline the emerging directions that will shape the next generation of ensemble determination methods.",
+  "abstract_zh": "本质上无序的蛋白质（IDPs）在调控、信号传导和相分离（phase separation）中扮演关键角色，然而其结构复杂性无法通过单一构象来捕捉。相反，它们填充了动态集合，这些集合编码了依赖于上下文的功能。实验技术的最新进展，结合基于物理的模拟、粗粒化模型和机器学习，已转变了我们生成和解读IDP集合的能力。整合框架现在将互补数据与计算方法相结合，以在局部和全局层面细化集合。尽管如此，在基准测试、误差估计以及涉及蛋白质-蛋白质和蛋白质-核酸相互作用的组装建模方面仍存在挑战。我们重点介绍了近期进展，并概述了将塑造下一代集合确定方法的新兴方向。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41385825/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41385825/",
+  "paper_page_path": "papers/pubmed/41385825/index.html"
+}

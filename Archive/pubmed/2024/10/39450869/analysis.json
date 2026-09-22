@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39450869",
+  "title": "Dual Role of Anionic Lipids in Amyloid Aggregation.",
+  "authors": "Jain, Meenal; Matysiak, Silvina",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2024-10-25",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 7,
+  "one_liner_zh": "用粗粒化分子动力学模拟研究阴离子脂质对淀粉样肽Aβ(16-22)在膜上聚集的双重调控作用，对象为无序蛋白片段与膜互作，聚焦聚集机制而非直接PPI，方法为物理模拟，对本课题的膜介导无序蛋白互作机制建模有启发。",
+  "abstract": "Neurodegenerative diseases, such as Alzheimer's, Parkinson's, and Huntington's, affect millions worldwide and share a common feature: the aggregation of intrinsically disordered proteins into toxic oligomers that interact with cell membranes. In Alzheimer's disease (AD), amyloid-beta (Abeta) peptides accumulate and bind to plasma membranes, potentially disrupting cellular function. The complex interplay between amyloidogenic peptides and lipid membranes, particularly the role of anionic lipids, is crucial in disease pathogenesis but challenging to characterize experimentally. The literature presents conflicting results on the influence of anionic lipids on peptide aggregation kinetics, highlighting a knowledge gap. To address this, we used coarse-grained molecular dynamics (CG-MD) simulations to study interactions between a model amyloidogenic peptide, amyloid-beta's K(16)LVFFAE(22) fragment (Abeta(16-22)), and mixed lipid bilayers. We used phosphatidylserine (PS) and phosphatidylcholine (PC) as representative anionic and zwitterionic lipids, respectively, examining the mixed bilayer compositions of 0% PS-100% PC, 10% PS-90% PC, and 30% PS-70% PC. Our simulations revealed that membranes enriched in anionic lipids enhance peptide adsorption and interaction kinetics. The aggregation dynamics was modulated by two competing factors: increased local peptide concentration near negatively charged membranes, which promoted aggregation, and peptide-lipid interactions, which slowed it down. Higher percentages of anionic lipids led to smaller and more ordered aggregates and enhanced lipid demixing, leading to the formation of PS clusters. These findings contribute to understanding membrane-mediated peptide aggregation in neurodegenerative disorders, potentially guiding new therapeutic strategies targeting the early stages of protein aggregation in various neurodegenerative diseases.",
+  "abstract_zh": "神经退行性疾病，如阿尔茨海默病、帕金森病和亨廷顿病，影响全球数百万人，并具有一个共同特征： intrinsically disordered proteins（固有无序蛋白）聚集成与细胞膜相互作用的毒性寡聚体。在阿尔茨海默病（AD）中，amyloid-beta（Abeta）肽积累并结合到质膜上，可能破坏细胞功能。淀粉样生成肽与脂质膜之间的复杂相互作用，特别是阴离子脂质的作用，在疾病发病机制中至关重要，但实验表征具有挑战性。文献中关于阴离子脂质对肽聚集动力学影响的报道结果相互矛盾，凸显了知识空白。为解决这一问题，我们使用粗粒化分子动力学（CG-MD）模拟研究了模型淀粉样生成肽，即amyloid-beta的K(16)LVFFAE(22)片段（Abeta(16-22)），与混合脂质双层之间的相互作用。我们分别使用磷脂酰丝氨酸（PS）和磷脂酰胆碱（PC）作为代表性的阴离子和两性离子脂质，考察了0% PS-100% PC、10% PS-90% PC和30% PS-70% PC的混合双层组成。我们的模拟揭示，富含阴离子脂质的膜增强了肽的吸附和相互作用动力学。聚集动力学受两个竞争因素调节：带负电膜附近局部肽浓度增加，促进聚集，以及肽-脂质相互作用，减缓聚集。较高比例的阴离子脂质导致更小且更有序的聚集体，并增强脂质去混合，形成PS簇。这些发现有助于理解神经退行性疾病中膜介导的肽聚集，可能指导针对多种神经退行性疾病中蛋白质聚集早期阶段的新治疗策略。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39450869/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39450869/",
+  "paper_page_path": "papers/pubmed/39450869/index.html"
+}

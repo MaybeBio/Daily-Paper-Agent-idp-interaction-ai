@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors introduce DisorderUnetLM, a protein intrinsic disorder predictor based on an Attention U-Net architecture with ProtTrans protein language model features. They claim top performance in direct comparisons with recent MSA-based and pLM-based predictors, ranking 1st among 43 CAID-2 predictors for the Disorder-NOX subset (ROC-AUC 0.844) and 10th for the Disorder-PDB subset (ROC-AUC 0.924). Code and model are stated to be publicly available and reproducible.
+- **Visible evidence base** Abstract text only; no methodological details, benchmark protocols, statistical analyses, or code repository contents are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed benchmark methodology, hyperparameter settings, training and validation data splits, statistical significance tests, and verification of code availability and reproducibility
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to the protein disorder prediction field, leveraging a well-established architecture with modern protein language model features. However, the evidence provided in the abstract is insufficient to evaluate the validity of the performance claims. Key methodological details and benchmark rigor are not described, and the reported rankings lack statistical context. The claim of "top results" and specific CAID-2 rankings cannot be assessed without access to the full benchmark protocol and results.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein structure and function prediction, particularly those developing or applying disorder predictors. Researchers interested in integrating protein language models into convolutional neural network architectures for biological sequence analysis would also find the approach relevant. The public availability of code and model may appeal to practitioners seeking reproducible tools.
+- **Major strengths** The use of a well-established Attention U-Net architecture combined with ProtTrans features is a sensible and potentially efficient approach, avoiding the computational cost of multiple sequence alignments. The reported participation in the CAID-2 benchmark provides a standardized comparison framework. The stated public availability of code and model is commendable for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "DisorderUnetLM achieves top results in the direct comparison with recent predictors exploiting MSAs and pLMs"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims "top results" in direct comparisons but provides no details on which predictors were compared, how the comparison was conducted, what metrics were used beyond ROC-AUC, or whether differences were statistically significant. The specific CAID-2 rankings are reported but without confidence intervals or significance testing.
+  - **Why it matters** Performance claims in benchmark comparisons are only meaningful with a clear description of the comparison protocol, including dataset splits, evaluation metrics, and statistical analysis. Without this, the claim of "top results" cannot be verified and may be misleading.
+  - **Resolution test** Provide a detailed description of the comparison methodology, including the list of compared predictors, evaluation protocol, and statistical significance tests (e.g., DeLong test for ROC-AUC differences). Report confidence intervals or p-values for the key performance differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "ranks 1st for the Disorder-NOX subset (ROC-AUC of 0.844) and 10th for the Disorder-PDB subset (ROC-AUC of 0.924)"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The CAID-2 benchmark rankings are presented without context on the benchmark's evaluation criteria, the number of predictors in each subset, the variance of scores, or whether the differences between adjacent ranks are meaningful. A rank of 10th with ROC-AUC 0.924 may be statistically indistinguishable from rank 1st if score differences are small.
+  - **Why it matters** Rankings without statistical context can overstate or understate actual performance. Readers need to know the distribution of scores and the significance of rank differences to interpret the results correctly.
+  - **Resolution test** Provide the full distribution of ROC-AUC scores for all predictors in each CAID-2 subset, along with statistical tests comparing DisorderUnetLM to the top-ranked predictors. Discuss whether the rank differences are statistically significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "The code and model are publicly available and fully reproducible at doi.org/10.24433/CO.7350682.v1"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that code and model are publicly available and reproducible, but no details are given on the contents of the repository, dependencies, or instructions for reproducing the reported results. The DOI is provided but its accessibility and completeness cannot be verified from the abstract.
+  - **Why it matters** Reproducibility is a core requirement for computational biology tools. Without verification of the repository contents and clear reproduction instructions, the claim of "fully reproducible" is unsubstantiated.
+  - **Resolution test** Describe the repository contents, including model weights, training scripts, inference code, and a step-by-step guide to reproduce the CAID-2 results. Confirm that the DOI resolves to an accessible and complete repository.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "new generation of predictors based on protein language models (pLMs) is emerging" is vague and does not specify which pLM-based predictors are referenced or how they differ from the proposed approach.
+  - **Required correction** Provide specific examples of existing pLM-based predictors and clarify the novelty of DisorderUnetLM relative to them.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention the size of the training data, the number of parameters in the model, or the computational resources required for training and inference, which are relevant for assessing efficiency claims.
+  - **Required correction** Include brief details on model size, training data, and computational cost to support the "efficient" characterization.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Only ROC-AUC is reported. Other standard metrics for disorder prediction, such as precision, recall, F1-score, or Matthews correlation coefficient, are not mentioned.
+  - **Required correction** Report additional metrics or explain why ROC-AUC alone is sufficient for the comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of methodological detail, statistical context, and verifiable reproducibility prevents the performance claims from being established from the provided evidence.
+- **Assessment against Nature-style criteria** Originality: Moderate. The combination of Attention U-Net with ProtTrans features is not entirely novel, as both components are established, but the specific integration for disorder prediction may offer a new contribution. Scientific importance: Moderate. Improved disorder prediction has practical value, but the abstract does not demonstrate a substantial advance over existing methods. Interdisciplinary readership: Limited. The work is primarily of interest to computational biologists and bioinformaticians, with limited appeal to a broader scientific audience. Technical soundness: Not assessable from the abstract. The lack of methodological and statistical detail prevents evaluation. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terminology without sufficient context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The performance claims and reproducibility statement cannot be verified from the abstract alone. A full manuscript with detailed methodology, statistical analysis, and repository verification would be required to assess the contribution.
+
+## Risk / unsupported claims
+- "DisorderUnetLM achieves top results in the direct comparison with recent predictors exploiting MSAs and pLMs" is unsupported due to lack of comparison details and statistical analysis.
+- "ranks 1st for the Disorder-NOX subset (ROC-AUC of 0.844) and 10th for the Disorder-PDB subset (ROC-AUC of 0.924)" is unverifiable without the full CAID-2 benchmark results and statistical context.
+- "fully reproducible" is unverifiable without access to the repository contents and reproduction instructions.
+- The characterization of the approach as "efficient" is not supported by any computational cost data in the abstract.

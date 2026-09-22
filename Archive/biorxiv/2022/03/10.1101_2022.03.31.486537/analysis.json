@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.03.31.486537",
+  "title": "A highly sensitive protein-RNA cross-linking mass spectrometry workflow with enhanced structural modelling potential",
+  "authors": "Sarnowski CP; Knörlein A; de Vries T; Götze M; Beusch I; Aebersold R; Allain FH; Hall J; Leitner A",
+  "journal": "bioRxiv",
+  "published_date": "2022-03-31",
+  "window": {
+    "start": "2022-03-28",
+    "end": "2022-04-03"
+  },
+  "score": 4,
+  "one_liner_zh": "该文改进蛋白-RNA交联质谱流程并首次提出交联距离作为结构约束，但对象为RNA结合蛋白而非无序蛋白/IDR，且无AI或物理模拟方法，仅涉及结构建模，与本课题关联较弱。",
+  "abstract": "Protein-RNA interactions underpin many critical biological processes, demanding the development of technologies to precisely characterize their nature and functions. Many such technologies depend upon cross-linking under mild irradiation conditions to stabilize contacts between amino acids and nucleobases; for example, the cross-linking of stable isotope labelled RNA coupled to mass spectrometry (CLIR-MS) method. A deeper understanding of the CLIR-MS workflow is required to maximize its impact for structural biology, particularly addressing the low abundance of cross-linking products and the information content of spatial/geometric restraints reflected by a cross-link. Here, we present a vastly improved CLIR-MS pipeline that features enhanced sample preparation, data acquisition and interpretation. These advances significantly increase the number of detected cross-link products per sample. We demonstrate that the procedure is robust against variation of key experimental parameters, including irradiation energy and temperature. Using this improved protocol on four protein-RNA complexes representing canonical and non-canonical RNA-binding domains, we propose for the first time the distances encoded by protein-RNA cross-links, enabling their use as structural restraints. We also compared the cross-linking of canonical RNA with 4-thiouracil-labeled counterparts, showing slight, but noticeable differences. The improved understanding of protein-RNA cross-links refines the structural interpretation of complexes and facilitates the adoption of the method in integrative/hybrid structural biology.",
+  "abstract_zh": "蛋白质-RNA相互作用支撑着许多关键的生物过程，因此需要开发技术来精确表征其性质和功能。许多此类技术依赖于温和照射条件下的交联，以稳定氨基酸与核碱基之间的接触；例如，稳定同位素标记RNA交联结合质谱法（CLIR-MS）。为最大化CLIR-MS工作流程在结构生物学中的影响，需更深入理解该流程，特别是解决交联产物丰度低以及交联所反映的空间/几何约束信息含量的问题。在此，我们提出了一种大幅改进的CLIR-MS流程，其特点在于增强的样品制备、数据采集和解释。这些进展显著增加了每个样品中检测到的交联产物数量。我们证明该流程对关键实验参数（包括照射能量和温度）的变化具有稳健性。将该改进方案应用于代表典型和非典型RNA结合结构域的四种蛋白质-RNA复合物，我们首次提出了蛋白质-RNA交联所编码的距离，使其能够用作结构约束。我们还比较了典型RNA与4-硫尿嘧啶标记对应物的交联，显示出轻微但可察觉的差异。对蛋白质-RNA交联理解的改进，细化了对复合物的结构解释，并促进了该方法在整合/混合结构生物学中的应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.03.31.486537",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.03.31.486537",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.03.31.486537/index.html"
+}

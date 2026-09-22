@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40716064",
+  "title": "Metal-induced nanoscale clusterization initiates protein liquid-liquid phase separation.",
+  "authors": "Xiang, Sijia; Hou, Zhuanghao; Wang, Yu; Yang, Yang; Hu, Hongze; Yin, Chang; Huang, Guangming; Cao, Kaiming; Liu, Yangzhong",
+  "journal": "Cell reports",
+  "published_date": "2025-07-29",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文以SUMO蛋白为模型，研究金属离子诱导的纳米级簇化如何启动液-液相分离，聚焦非特异性金属配位介导的组装机制，虽对象非IDP且无AI/物理模拟方法，但相分离成核机制建模思路对本课题有启发。",
+  "abstract": "Liquid-liquid phase separation (LLPS) of biomolecules is a crucial mechanism in regulating cellular functions through dynamic formation of membrane-less organelles. The assembly of nucleation seeds is a key step that triggers LLPS; however, it is challenging to precisely study its assembly mechanism due to the complexity of the condensation process. Recently, metal ions have been found to play important roles in inducing LLPS. To elucidate the assembling mechanism, a small ubiquitin-like modifier (SUMO) protein was employed as a model protein to study metal-induced condensation. The results indicate that SUMO possesses two weak Cu(II)-binding sites across the protein surface, enabling intermolecular bridging among SUMO molecules. The formation of assembling seeds is confirmed by mass photometry analysis, showing the Cu(II)-induced dynamic clusterization of SUMO at nanoscale. Increasing the Cu(II) binding affinity of SUMO significantly promotes the protein condensation, underscoring the pivotal role of Cu(II) coordination in LLPS. This work provides insights into the protein assembly mechanism through non-specific intermolecular metal coordination.",
+  "abstract_zh": "生物分子的液-液相分离（LLPS）是通过动态形成无膜细胞器来调控细胞功能的关键机制。成核种子的组装是触发LLPS的关键步骤；然而，由于凝聚过程的复杂性，精确研究其组装机制颇具挑战。近期研究发现，金属离子在诱导LLPS中发挥重要作用。为阐明组装机制，本研究采用小泛素样修饰蛋白（SUMO）作为模型蛋白，探讨金属诱导的凝聚过程。结果表明，SUMO蛋白表面存在两个弱Cu(II)结合位点，能够实现SUMO分子间的分子间桥接。通过质量光度分析确认了组装种子的形成，显示Cu(II)诱导SUMO在纳米尺度上的动态簇集。增强SUMO对Cu(II)的结合亲和力显著促进蛋白凝聚，凸显了Cu(II)配位在LLPS中的关键作用。本研究为非特异性分子间金属配位介导的蛋白质组装机制提供了见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40716064/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40716064/",
+  "paper_page_path": "papers/pubmed/40716064/index.html"
+}

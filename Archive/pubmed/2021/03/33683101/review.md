@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, theory, methods, simulations, supplementary material description)
+- **Assessment boundary** Scientific content, methodology, internal consistency, and support of claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors present a theoretical and computational study of scaffold-mediated assembly of protein shells around cargo, motivated by bacterial microcompartments. They identify assembly pathways (one-step vs. two-step) depending on scaffold-cargo interaction strength, show that shell size depends on scaffold length and shell spontaneous curvature, and develop an equilibrium theory capturing key trends. They propose design principles for synthetic systems and discuss implications for understanding microcompartment assembly.
+- **Visible evidence base** Main text figures (Figs. 1–5) and supplementary figures (S1–S7) are referenced; simulation parameters and methods are described; equilibrium theory equations (Eqs. 1–12) are presented
+- **Missing materials affecting confidence** Full figure panels and supplementary information (SI) text are not provided; exact parameter values for some simulations (e.g., concentrations, interaction ranges) are not fully specified in the main text; no raw data or statistical analysis of simulation outcomes is shown
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational and theoretical study of a biologically important and timely problem: how scaffold proteins mediate assembly and size control of bacterial microcompartments. The work is carefully designed, with a minimal model that captures essential physics, and the combination of dynamical simulations with an equilibrium theory is a strength. The main claims—that scaffold length and shell spontaneous curvature control shell size, and that assembly pathway depends on scaffold-cargo interaction strength—are supported by the presented evidence, though some quantitative aspects and the generality of the conclusions require further scrutiny. The manuscript is well-written and accessible to a broad biophysics audience. However, several technical points and missing details limit the strength of the conclusions as currently presented.
+- **Who would be interested in the results, and why** Researchers in biophysics, soft matter physics, and synthetic biology, particularly those studying self-assembly, phase separation, and protein compartmentalization. The results provide design principles for engineering synthetic microcompartments or delivery vehicles, and the theoretical framework could be adapted to other multicomponent assembly systems. The work also contributes to the growing understanding of how liquid-liquid phase separation couples to higher-order assembly.
+- **Major strengths** (1) The study addresses a significant and timely question with broad implications. (2) The minimal model is well-motivated and captures essential features of the biological system. (3) The combination of simulations and theory provides complementary perspectives and strengthens the conclusions. (4) The manuscript is clearly written and the figures are likely informative (though not fully visible here). (5) The authors are appropriately cautious about the limitations of their model and discuss connections to experiments.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the shell size depends sensitively on scaffold length and shell spontaneous curvature" and that two regimes exist depending on whether Rscaf is smaller or larger than R0.
+  - **Evidence pointer** Fig. 3A, B; equilibrium theory Eqs. (1)–(12)
+  - **Concern** The equilibrium theory assumes a spherical shell and neglects the 12 five-fold defects, which the authors state will not qualitatively change results. However, the simulations show elongated or asymmetric shells for some parameter ranges (e.g., Fig. 3 snapshot Vb). The theory's ability to capture these non-spherical shapes is unclear, and the comparison between theory and simulation in Fig. 3A, B may be misleading if the theory only applies to spherical shells. The authors should clarify the range of validity of the theory and whether the qualitative agreement holds for non-spherical cases.
+  - **Why it matters** If the theory cannot capture the observed morphological variations, the claim that it "captures key trends" is weakened, and the predictive power for experimental systems with non-spherical shells is limited.
+  - **Resolution test** Provide a quantitative comparison between theory and simulation for cases with elongated shells, or explicitly state the limitations of the theory for non-spherical geometries. Alternatively, show that the qualitative trends in Fig. 3A, B are robust even when excluding non-spherical shells from the simulation data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the shell size is relatively insensitive to the subunit-subunit εhh and scaffold-subunit εsh affinities" based on a limited parameter scan.
+  - **Evidence pointer** Fig. S6; text in "Effect of binding affinity values"
+  - **Concern** The claim of insensitivity is based on a small range of parameter variations (e.g., εhh leading to ~20% change in size). The authors do not systematically explore the full parameter space, and it is possible that stronger variations in εhh or εsh could lead to qualitatively different behavior, especially near the boundaries of the one-step/two-step transition. The statement "provided they are strong enough to drive assembly and scaffold packaging, and weak enough to avoid kinetic traps" is vague and not quantified.
+  - **Why it matters** The robustness of the size-control mechanism to binding affinities is a key claim for design principles. If the insensitivity is only valid in a narrow parameter window, the generality of the conclusions is limited.
+  - **Resolution test** Perform a more systematic parameter sweep (e.g., varying εhh and εsh over a wider range) and show that the size remains relatively constant, or clearly state the parameter ranges for which the claim holds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their results "have important implications for synthetic biology efforts to target alternative molecules for encapsulation by microcompartments or viral shells."
+  - **Evidence pointer** Discussion and Conclusions
+  - **Concern** While the design principles are plausible, the manuscript does not provide a concrete demonstration of how these principles could be applied to a specific synthetic system. The connection to synthetic biology is stated but not developed. For example, how would one choose scaffold length or binding affinity to achieve a desired shell size in a synthetic construct? The authors could strengthen this claim by providing a more explicit design rule or a hypothetical example.
+  - **Why it matters** The broader impact of the work depends on its translational potential. Without a clearer link to application, the claim of importance for synthetic biology remains speculative.
+  - **Resolution test** Add a paragraph in the Discussion that outlines a step-by-step design strategy based on the model predictions, or provide a specific example of how the model could be used to engineer a synthetic microcompartment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction of the model in "Computational results"
+  - **Evidence pointer** "Computational results" section
+  - **Issue** The description of the model is somewhat dense and assumes familiarity with coarse-grained simulation techniques. Terms like "pseudo-hexamers" and "encapsulation peptides" are introduced without sufficient context for a general reader.
+  - **Required correction** Briefly define these terms when first used and consider adding a schematic figure (if not already present) to illustrate the model components and interactions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Mapping to physical units
+  - **Evidence pointer** "Connecting simulation nondimensional units to physical values"
+  - **Issue** The mapping of simulation units to physical values is approximate and relies on several assumptions (e.g., rubisco diameter, CsoS2 radius of gyration). The authors should state the uncertainty in these estimates and how it might affect the quantitative predictions.
+  - **Required correction** Add a sentence acknowledging the uncertainty in the mapping and its potential impact on the quantitative comparison with experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Equilibrium theory section
+  - **Evidence pointer** Eqs. (1)–(4)
+  - **Issue** The free energy expression is presented without a detailed derivation in the main text, which may be challenging for readers not familiar with polymer physics. The authors refer to the SI for details, but a brief physical explanation of each term would improve accessibility.
+  - **Required correction** Add a short paragraph explaining the physical origin of each term in Eq. (1) (e.g., bending energy, stretching entropy, mixing entropy).
+- **Technical failings that need to be addressed before the case is established** (1) The equilibrium theory's applicability to non-spherical shells needs clarification (R1-M1). (2) The claim of insensitivity to binding affinities needs a more systematic parameter scan (R1-M2). (3) The manuscript would benefit from a more explicit connection to synthetic biology applications (R1-M3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its combination of a minimal computational model with an equilibrium theory to address scaffold-mediated assembly and size control. While individual components (e.g., shell assembly models, polymer physics) are not new, the integration and focus on microcompartment-specific questions provide a novel contribution.
+  - **Scientific importance** The problem is of high importance in understanding bacterial microcompartment biogenesis and for synthetic biology. The identification of design principles for size control is a significant step forward.
+  - **Interdisciplinary readership** The work will appeal to biophysicists, soft matter physicists, and synthetic biologists. The writing is generally accessible, though some sections may be challenging for nonspecialists.
+  - **Technical soundness** The methodology is sound, but the concerns raised above (theory applicability, parameter sensitivity) need to be addressed to fully establish the claims.
+  - **Readability for nonspecialists** The manuscript is well-structured and the main findings are clearly stated. However, the model description and theory sections could be made more accessible with additional context and explanation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable contribution with clear potential for broad impact. The main claims are plausible and supported by the evidence, but the concerns regarding the theory's range of validity and the robustness of the parameter insensitivity need to be addressed. Once these are clarified, the manuscript would be suitable for publication in a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that the equilibrium theory "captures key trends" is not fully supported for non-spherical shell geometries, as the theory assumes spherical shells.
+- The claim that shell size is "relatively insensitive" to binding affinities is based on a limited parameter scan and may not hold outside the tested range.
+- The statement that results "have important implications for synthetic biology" is plausible but not demonstrated with concrete examples.
+- The mapping of simulation units to physical values is approximate, and the uncertainty in this mapping is not quantified.
+- The claim that "the entire scaffold remains inside complete shells" for hexamer-only systems is stated without direct evidence in the provided text (no figure or quantitative measure is shown).

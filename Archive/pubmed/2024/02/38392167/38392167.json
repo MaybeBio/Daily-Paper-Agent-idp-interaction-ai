@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "38392167",
+    "doi": "10.3390/biomimetics9020121",
+    "title": "The Conformational Contribution to Molecular Complexity and Its Implications for Information Processing in Living Beings and Chemical Artificial Intelligence."
+  },
+  "content": {
+    "abstract": "This work highlights the relevant contribution of conformational stereoisomers to the complexity and functions of any molecular compound. Conformers have the same molecular and structural formulas but different orientations of the atoms in the three-dimensional space. Moving from one conformer to another is possible without breaking covalent bonds. The interconversion is usually feasible through the thermal energy available in ordinary conditions. The behavior of most biopolymers, such as enzymes, antibodies, RNA, and DNA, is understandable if we consider that each exists as an ensemble of conformers. Each conformational collection confers multi-functionality and adaptability to the single biopolymers. The conformational distribution of any biopolymer has the features of a fuzzy set. Hence, every compound that exists as an ensemble of conformers allows the molecular implementation of a fuzzy set. Since proteins, DNA, and RNA work as fuzzy sets, it is fair to say that life's logic is fuzzy. The power of processing fuzzy logic makes living beings capable of swift decisions in environments dominated by uncertainty and vagueness. These performances can be implemented in chemical robots, which are confined molecular assemblies mimicking unicellular organisms: they are supposed to help humans \"colonise\" the molecular world to defeat diseases in living beings and fight pollution in the environment.",
+    "keywords": [
+      "DNA",
+      "RNA",
+      "antibodies",
+      "chemical robotics",
+      "chemistry",
+      "conformational stereoisomers",
+      "entropy",
+      "fuzzy logic",
+      "intrinsically disordered proteins",
+      "proteins"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gentili, Pier Luigi"
+      ],
+      "short_names": [
+        "Gentili PL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1092-9190"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Biology, and Biotechnology, Universita degli Studi di Perugia, 06123 Perugia, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gentili, Pier Luigi",
+        "short_name": "Gentili PL",
+        "identifiers": [
+          "0000-0003-1092-9190"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Biology, and Biotechnology, Università degli Studi di Perugia, 06123 Perugia, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomimetics (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Biomimetics (Basel)"
+    ],
+    "pub_date": "2024 Feb 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/23 12:43",
+    "fetched_at": "2026-09-21 05:15:46"
+  },
+  "links": {
+    "cites": [
+      "41309857",
+      "40727659",
+      "39319313",
+      "38922156"
+    ],
+    "refs": [
+      "38505224",
+      "38285636",
+      "38025075",
+      "37968157",
+      "37915426",
+      "37744185",
+      "37513436",
+      "36975352",
+      "36815888",
+      "36360167",
+      "36266823",
+      "36110133",
+      "35867830",
+      "35733531",
+      "35594602",
+      "34856047",
+      "34681964",
+      "34641530",
+      "34241389",
+      "34031398",
+      "33527036",
+      "33274263",
+      "33126482",
+      "32751110",
+      "32316364",
+      "31715221",
+      "31222432",
+      "31034160",
+      "30700728",
+      "30567293",
+      "30566837",
+      "30218496",
+      "30126225",
+      "28945413",
+      "28725530",
+      "28570055",
+      "28510063",
+      "28160385",
+      "27899601",
+      "27575998",
+      "27249942",
+      "26658700",
+      "26060813",
+      "26028501",
+      "25853797",
+      "25637915",
+      "25385129",
+      "24939692",
+      "24905779",
+      "24802889",
+      "24773235",
+      "24502763",
+      "24171674",
+      "22749644",
+      "22649583",
+      "22508108",
+      "21665521",
+      "21387514",
+      "21109896",
+      "20634810",
+      "20298526",
+      "20204517",
+      "19596244",
+      "19596229",
+      "18054235",
+      "17663224",
+      "17509130",
+      "17301775",
+      "16776061",
+      "16618592",
+      "16562980",
+      "16540311",
+      "16383506",
+      "16180900",
+      "15939334",
+      "15524626",
+      "15413335",
+      "15068038",
+      "15019783",
+      "12910457",
+      "12878003",
+      "12732300",
+      "12382319",
+      "11790828",
+      "11312589",
+      "11277709",
+      "11114374",
+      "10550212",
+      "9761770",
+      "7942253"
+    ],
+    "similar": [
+      "38392167",
+      "23912807",
+      "30126225",
+      "37915426",
+      "34904892",
+      "36110133",
+      "37744185",
+      "34641530",
+      "21387514",
+      "28914483",
+      "32863616",
+      "20555178",
+      "30453632",
+      "32599012",
+      "18597531",
+      "31865469",
+      "24548742",
+      "33170209",
+      "25268914",
+      "35186062",
+      "20925316",
+      "35808377",
+      "29852957",
+      "36610587",
+      "24905779",
+      "35161819",
+      "33265876",
+      "34504009",
+      "21286312",
+      "25338895",
+      "38979209",
+      "16240775",
+      "31341878",
+      "35449858",
+      "29859751",
+      "29311689",
+      "39182715",
+      "33030907",
+      "35987600",
+      "11154872",
+      "7869951",
+      "32751110",
+      "24290939",
+      "18092770",
+      "33759518",
+      "11154881",
+      "20499135",
+      "25565140",
+      "14498968",
+      "27618062",
+      "15565774",
+      "35178628",
+      "36697576",
+      "33917918",
+      "16764718",
+      "27844185",
+      "8679911",
+      "36934808",
+      "17465523",
+      "34680137",
+      "26138206",
+      "28169527",
+      "18801650",
+      "9057925",
+      "37705663",
+      "28325604",
+      "33267376",
+      "34345198",
+      "35725761",
+      "31963917",
+      "39214943",
+      "24503486",
+      "24091399",
+      "38325927",
+      "30118719",
+      "37569062",
+      "30944555",
+      "17634817",
+      "21421445",
+      "15484918",
+      "9267591",
+      "33024412",
+      "33733176",
+      "11411629",
+      "36673734",
+      "27634494",
+      "23202583",
+      "23376801",
+      "25162065",
+      "30939984",
+      "21554721",
+      "19788252",
+      "11154879",
+      "37292298",
+      "34203110",
+      "26131693",
+      "24892071",
+      "36930141",
+      "34814306",
+      "36121629"
+    ],
+    "review": [
+      "38392167",
+      "33170209",
+      "29852957",
+      "35449858",
+      "39182715",
+      "32751110"
+    ],
+    "pmc": [
+      "10886813"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biomimetics9020121",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38392167/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38392167",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

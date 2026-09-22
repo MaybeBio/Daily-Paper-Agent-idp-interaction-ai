@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40324844",
+  "title": "Accurate coarse grained models for protein association and recognition.",
+  "authors": "Emperador, Agusti; Guardia, Elvira",
+  "journal": "Advances in protein chemistry and structural biology",
+  "published_date": "2025-05-06",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 8,
+  "one_liner_zh": "综述粗粒化模型用于蛋白互作与识别，涵盖无序蛋白及多蛋白体系，为IDR介导PPI的物理模拟提供方法框架与迁移启发。",
+  "abstract": "Protein-protein interactions are fundamental to the cell function, but some of them are slow processes happening in time scales in the microsecond to millisecond range, therefore inaccessible for standard atomistic molecular dynamics (MD) simulations. A way to reduce the computational cost demanded by the simulation of long timescale phenomena is to use coarse-grained (CG) models to reduce the number of particles included in the simulation. In this Review we provide an overview of CG models for the study of protein dynamics and interactions. The majority of protein CG models have been designed to describe accurately the structure of folded, stable proteins, but recently new CG models and force fields have been designed to study disordered proteins. The difficulty of finding a force field fully transferable between stable and disordered proteins hinders the computational study of the intracellular environment in its most complex case, where protein-protein interactions occur in multiprotein systems constituted by both stable and disordered proteins. In this Review we overview several existing CG protein models, focusing on its applicability to the study of multiprotein systems including both stable and disordered proteins. We also discuss the utility of implicit solvent models, which accelerate the conformational sampling of protein solutions, to explore a broader configurational space of the system in shorter simulation times, and analyze the inaccuracies inherent to this approximation.",
+  "abstract_zh": "蛋白质-蛋白质相互作用对细胞功能至关重要，但其中一些是缓慢过程，时间尺度在微秒至毫秒范围内，因此标准原子级分子动力学（MD）模拟无法触及。为降低长时间尺度现象模拟所需的计算成本，一种方法是使用粗粒化（CG）模型来减少模拟中包含的粒子数量。在本综述中，我们概述了用于研究蛋白质动力学和相互作用的CG模型。大多数蛋白质CG模型旨在准确描述折叠、稳定蛋白质的结构，但近期已设计出新的CG模型和力场用于研究无序蛋白质。找到一种在稳定蛋白质与无序蛋白质之间完全可转移的力场之困难，阻碍了对细胞内环境最复杂情况的计算研究，即蛋白质-蛋白质相互作用发生在由稳定和无序蛋白质组成的多蛋白系统中。在本综述中，我们概述了几种现有的蛋白质CG模型，重点关注其在研究包含稳定和无序蛋白质的多蛋白系统中的适用性。我们还讨论了隐式溶剂模型的实用性，该模型加速蛋白质溶液的构象采样，以在更短的模拟时间内探索系统更广泛的构象空间，并分析了这种近似固有的不准确性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40324844/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40324844/",
+  "paper_page_path": "papers/pubmed/40324844/index.html"
+}

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusion, materials and methods) as provided
+- **Assessment boundary** Scientific content, technical soundness, and internal consistency of the reported findings; no assessment of data availability, code, or supplementary files beyond what is described
+- **Shared manuscript claim summary** The authors report that a glycine-rich protein (GRP) from tick saliva undergoes liquid-liquid phase separation (LLPS) via simple coacervation, that this process is driven by cation-pi and pi-pi interactions at the C-terminus while the N-terminus delays onset via electrostatic repulsion, that condensates age into viscoelastic or solid-like states, and that natural tick saliva contains protein-rich condensates consistent with these observations
+- **Visible evidence base** Sequence analysis (PSIPRED, AlphaFold, IUPred3, CIDER), evaporation assays with fluorescence microscopy, microfluidic flow-focusing experiments, FRAP measurements, and microscopy of natural tick salivary gland extracts
+- **Missing materials affecting confidence** No raw microscopy images beyond representative stills, no quantitative image analysis for condensate size or number, no replicate statistics for FRAP or evaporation timing, no negative control data for the natural saliva experiments, no rheological measurements to support the viscoelastic claim, and no direct evidence linking the observed condensates to cement cone formation in vivo
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible and potentially interesting hypothesis that tick GRP undergoes LLPS as an intermediate step in cement cone formation. The in vitro experiments are generally well conceived, and the synthesis of the full-length protein via SPPS and NCL is a notable technical achievement. However, the evidence as presented is largely qualitative, and several key claims, particularly regarding the molecular driving forces, the ageing transition, and the relevance to natural saliva, are not fully supported by the data shown. The manuscript would benefit from more quantitative analysis and additional controls before the conclusions can be considered established.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and LLPS, particularly in the context of secreted proteins and extracellular matrices, will find the coacervation behaviour of a disordered adhesive protein of interest. The tick biology community, especially those focused on host attachment and cement cone formation, will be interested in the potential mechanism proposed. Additionally, groups working on bioadhesives and biomimetic sealants may find the protein's properties relevant to materials applications.
+- **Major strengths** The study addresses an important and understudied question, namely the molecular mechanism of tick cement formation. The use of synthetic full-length protein is rigorous and avoids issues of recombinant expression. The combination of bioinformatic prediction, in vitro assays, and natural saliva observation provides a multi-pronged approach. The identification of a potential role for LLPS in bioadhesion is timely and conceptually novel.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the C-terminus promotes phase separation via cation-pi and pi-pi interactions while the N-terminus prolongs onset through electrostatic repulsion is presented as a conclusion.
+  - **Evidence pointer** Results and Discussion, Figure 3
+  - **Concern** The evidence for the specific molecular interactions is indirect. The authors compare the behaviour of N- and C-terminal fragments, but they do not perform mutagenesis to test the role of specific aromatic or charged residues. The conclusion that cation-pi and pi-pi interactions are the driving force is inferred from sequence composition and the differential onset times, but alternative explanations, such as differences in hydrophobicity or chain length, are not excluded. The urea and 1,6-hexanediol experiments are suggestive but are not quantitative and do not directly demonstrate the proposed interactions.
+  - **Why it matters** The proposed mechanism is a central claim of the paper. Without direct evidence for the specific interactions, the conclusion remains speculative and does not provide a mechanistic understanding that could be tested or applied.
+  - **Resolution test** The authors should perform site-directed mutagenesis on the full-length protein or the C-terminal fragment, replacing aromatic residues (e.g., phenylalanine, tyrosine) with alanine and testing the effect on phase separation. Similarly, neutralising the negative charges in the N-terminus should accelerate condensation if the electrostatic repulsion model is correct. Quantitative measurements of saturation concentrations or onset times for these mutants would provide direct support.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that GRP condensates undergo a liquid-to-gel transition and exhibit ageing is based on FRAP and microscopy observations.
+  - **Evidence pointer** Results and Discussion, Figure 5
+  - **Concern** The FRAP data show a reduction in mobile fraction with age, but the number of replicates is small (n = 5 and n = 4) and no statistical analysis is provided. The microscopy images show network-like structures, but there is no rheological measurement to confirm that these structures are viscoelastic gels rather than aggregated precipitates. The term "ageing" is used loosely, and the timescale of the transition is not systematically characterised.
+  - **Why it matters** The liquid-to-solid transition is the key biological outcome of interest, linking the in vitro observations to cement formation. If the evidence for this transition is weak, the relevance of the LLPS findings to the actual adhesive mechanism is diminished.
+  - **Resolution test** The authors should provide quantitative FRAP data with error bars and statistical tests for multiple independent experiments. They should also perform bulk rheology on concentrated GRP samples to demonstrate viscoelastic behaviour and measure the evolution of the storage and loss moduli over time. Alternatively, microrheology using particle tracking could be used to confirm the gel transition.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that natural tick saliva contains protein-rich condensates is based on microscopy of salivary gland extracts.
+  - **Evidence pointer** Results and Discussion, Figure 6
+  - **Concern** The authors show droplets in salivary gland extracts and demonstrate that fluorescently labelled GRP partitions into them. However, they do not provide evidence that these droplets are specific to GRP or that they are not artefacts of the extraction procedure. No negative control is shown, such as an extract from a tissue not expected to contain GRP, or a competition experiment with unlabelled GRP. The identity of the droplets as protein-rich is inferred from GRP partitioning, but other proteins could be present.
+  - **Why it matters** This observation is used to support the relevance of the in vitro findings to the natural system. If the droplets are not convincingly shown to be GRP-containing condensates, the link between the laboratory experiments and the biological context is weakened.
+  - **Resolution test** The authors should perform immunostaining or mass spectrometry on the isolated droplets to confirm GRP enrichment. A competition experiment with excess unlabelled GRP should reduce the partitioning of the labelled protein. Additionally, a control extract from a different tissue or organism should be shown to lack such droplets.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The phase diagram in Figure 4a is presented as a function of GRP and salt concentration.
+  - **Evidence pointer** Results and Discussion, Figure 4
+  - **Concern** The phase diagram appears to be based on a limited number of data points, and the criteria for determining the phase boundary are not described. It is unclear whether the boundary is based on visual inspection, turbidity, or microscopy. The reproducibility of the phase boundary is not assessed.
+  - **Why it matters** A phase diagram is a quantitative tool that should be reproducible and well defined. Without clear criteria and replicate measurements, the diagram is of limited use to other researchers.
+  - **Resolution test** The authors should describe the method used to determine the phase boundary and provide replicate measurements for at least a subset of conditions. Ideally, the phase diagram should be constructed using a quantitative assay, such as turbidity or centrifugation, with error bars.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2b and 2c
+  - **Evidence pointer** Results and Discussion, Figure 2
+  - **Issue** The time-lapse images in Figure 2b and 2c are described but the time points are not clearly indicated on the figure. It is difficult to follow the sequence of events.
+  - **Required correction** Add time stamps to the panels or describe the time points in the figure legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods, FRAP
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The FRAP method description is brief. The size of the bleached region, the imaging parameters, and the method for normalising the recovery curve are not fully described.
+  - **Required correction** Provide a more detailed description of the FRAP protocol, including the bleaching time, imaging interval, and the equation used for normalisation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results and Discussion, Figure 5
+  - **Evidence pointer** Results and Discussion, Figure 5
+  - **Issue** The network-like structures in Figure 5 are described as "viscoelastic networks," but the images are static and do not demonstrate any dynamic or mechanical properties.
+  - **Required correction** Use a more neutral term such as "network-like structures" unless rheological data are provided.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction
+  - **Issue** The introduction mentions that other organisms use LLPS for adhesion, but no specific examples or references are given.
+  - **Required correction** Add a brief discussion of known examples of LLPS in bioadhesion to provide context for the novelty of the current work.
+- **Technical failings that need to be addressed before the case is established** The lack of direct evidence for the proposed molecular interactions (R1-M1), the weak quantitative support for the ageing transition (R1-M2), and the insufficient characterisation of the natural saliva droplets (R1-M3) are the primary technical issues. The phase diagram also needs better definition (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The application of LLPS concepts to tick cement formation is novel and of potential interest to a broad readership. Scientific importance: The work could have implications for understanding bioadhesion and for developing new materials, but the importance is not fully established given the current evidence. Interdisciplinary readership: The topic bridges molecular biology, biophysics, and entomology, which is attractive. Technical soundness: The synthesis and basic characterisation are sound, but the mechanistic claims are not fully supported. Readability for nonspecialists: The manuscript is generally well written and accessible, though some sections assume familiarity with LLPS terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the preliminary data are promising, but the current evidence does not fully establish the proposed mechanism or its relevance to the natural system. The authors should address the major concerns with additional experiments and quantitative analysis.
+
+## Risk / unsupported claims
+- The claim that cation-pi and pi-pi interactions are the primary drivers of coacervation is not directly supported by the data.
+- The claim that the N-terminus acts as a regulator via electrostatic repulsion is inferred but not tested.
+- The claim that condensates undergo a liquid-to-gel transition is not supported by rheological evidence.
+- The claim that natural salivary gland droplets are protein-rich and GRP-specific is not fully established due to the lack of controls.
+- The phase diagram is presented without clear criteria or replicate data, making it difficult to evaluate.

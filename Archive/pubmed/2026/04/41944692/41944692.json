@@ -1,0 +1,222 @@
+{
+  "identity": {
+    "pmid": "41944692",
+    "doi": "10.1021/acs.biomac.5c02726",
+    "title": "Interfacial Structure of Positively Charged Polypeptide Condensates."
+  },
+  "content": {
+    "abstract": "The interface of biomolecular condensates plays a crucial role in droplet stability, growth, and biochemical function, yet their properties remain poorly understood. Here, we develop an inhomogeneous mean-field theory to investigate the interfacial structure of condensates formed by polypeptides containing positively charged, polar, and aromatic residues in aqueous solutions. Our study focuses on the synergistic interplay between electrostatic interactions among charged residues and specific nonelectrostatic interactions among aromatics. We systematically explore how charge fraction alpha, aromatic fraction beta, specific interaction strength epsilon(s), and salt concentration rho(s) regulate interfacial organization in aqueous solutions. At finite alpha, the condensate interface typically exhibits an electric double-layer structure with a positively charged periphery surrounded by a diffuse counterion cloud. In the absence of added salt, the polypeptide concentration profile develops a depletion layer on the supernatant side and an overshoot on the coacervate side of the interface. Increasing rho(s) narrows the interfacial width and weakens the local charge separation in condensates stabilized by specific attractions. The electrostatic potential displays an asymmetric diffuse profile across the interface. Overall, our predictions are qualitatively consistent with experimental observations, and the insights provided here may aid the rational design of biomolecular condensates with tailored interfacial properties.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Peptides/chemistry",
+      "Static Electricity",
+      "*Biomolecular Condensates/chemistry",
+      "Water/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Yajing",
+        "Zhang, Pengfei",
+        "Wang, Zhen-Gang"
+      ],
+      "short_names": [
+        "Wang Y",
+        "Zhang P",
+        "Wang ZG"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6766-2549",
+        "ORCID: 0000-0002-4226-1394",
+        "ORCID: 0000-0002-3361-6114"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Advanced Fiber Materials, Center for Advanced Low-Dimension Materials, College of Materials Science and Engineering, Donghua University, Shanghai 201620, China.",
+        "State Key Laboratory of Advanced Fiber Materials, Center for Advanced Low-Dimension Materials, College of Materials Science and Engineering, Donghua University, Shanghai 201620, China.",
+        "Division of Chemistry and Chemical Engineering, California Institute of Technology, Pasadena, California 91125, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Yajing",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0002-6766-2549"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Advanced Fiber Materials, Center for Advanced Low-Dimension Materials, College of Materials Science and Engineering, Donghua University, Shanghai 201620, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Pengfei",
+        "short_name": "Zhang P",
+        "identifiers": [
+          "0000-0002-4226-1394"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Advanced Fiber Materials, Center for Advanced Low-Dimension Materials, College of Materials Science and Engineering, Donghua University, Shanghai 201620, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Zhen-Gang",
+        "short_name": "Wang ZG",
+        "identifiers": [
+          "0000-0002-3361-6114"
+        ],
+        "affiliations": [
+          "Division of Chemistry and Chemical Engineering, California Institute of Technology, Pasadena, California 91125, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2026 May 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/07 12:32",
+    "fetched_at": "2026-09-18 02:21:26"
+  },
+  "links": {
+    "cites": [
+      "42497855"
+    ],
+    "refs": [],
+    "similar": [
+      "41944692",
+      "40966042",
+      "37721444",
+      "42290133",
+      "38670952",
+      "40721018",
+      "40877270",
+      "40136009",
+      "38252962",
+      "19569724",
+      "41705673",
+      "40867025",
+      "41481439",
+      "32852025",
+      "41251020",
+      "42261607",
+      "37043540",
+      "41905208",
+      "15571660",
+      "42244713",
+      "40518709",
+      "41662498",
+      "41027866",
+      "26053228",
+      "38287572",
+      "40074825",
+      "35001622",
+      "24889634",
+      "40028356",
+      "35314274",
+      "40985078",
+      "37862690",
+      "38591689",
+      "33864415",
+      "22578030",
+      "40921711",
+      "39356108",
+      "22979885",
+      "34592554",
+      "39591652",
+      "40184654",
+      "42081454",
+      "41285680",
+      "36040869",
+      "42143038",
+      "30384702",
+      "40455990",
+      "41118627",
+      "39964249",
+      "41667469",
+      "39575590",
+      "23912807",
+      "40666943",
+      "41457474",
+      "35881789",
+      "39044475",
+      "41612036",
+      "27256721",
+      "39042834",
+      "24328126",
+      "39260373",
+      "15072933",
+      "38163950",
+      "40159770",
+      "38751116",
+      "24655312",
+      "39970585",
+      "39824169",
+      "37705794",
+      "38804888",
+      "37468629",
+      "26266737",
+      "21744914",
+      "39620362",
+      "40727669",
+      "41469832",
+      "40196628",
+      "9647351",
+      "40653653",
+      "20687685",
+      "34862761",
+      "37546704",
+      "40954121",
+      "39178343",
+      "40203038",
+      "41540001",
+      "34767801",
+      "36993212",
+      "41342450",
+      "42105641",
+      "39856105",
+      "27530711",
+      "17626298",
+      "38349628",
+      "40899329",
+      "41703914",
+      "40880224",
+      "39636939",
+      "42192191",
+      "36042195"
+    ],
+    "review": [
+      "41944692",
+      "39964249",
+      "39824169",
+      "40727669",
+      "41469832",
+      "39178343",
+      "34767801"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.5c02726",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

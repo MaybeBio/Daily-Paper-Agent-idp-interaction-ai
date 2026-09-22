@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to study the elastin-like peptide GVG(VPGVG)3 across temperatures below, around, and above its lower critical solution temperature (LCST) and at multiple peptide concentrations. They report temperature-dependent hydrophobic collapse of single peptides, a switch from repulsive to attractive interpeptide interactions with temperature via potential of mean force calculations, formation of dynamical aggregates with coil-like conformations in multichain systems, valine central residues playing an important role in aggregation, power-law decay of interchain contact lifetimes consistent with LCST-like behavior, and concentration- and temperature-dependent slowing of peptide translational and internal motion.
+- **Visible evidence base** Abstract text only; no simulation details, force field parameters, system sizes, statistical analyses, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology, force field validation, convergence criteria, error analysis, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of LCST behavior in a short elastin-like peptide. The reported findings are internally coherent and align with known features of ELP phase behavior. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the statistical robustness of the reported transitions, or the quantitative support for the power-law claim. The central conclusions regarding LCST-like behavior rest on indirect observables, and the abstract does not establish a direct link between simulated observables and the experimentally defined LCST. The work may be of interest to the IDP and biomaterials communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, elastin-like polypeptides, and stimuli-responsive biomaterials would be interested. The findings on temperature-dependent aggregation and contact lifetimes could inform the design of ELP-based materials with tunable phase behavior. Computational biophysicists interested in LCST mechanisms in peptide systems may also find the potential of mean force approach relevant.
+- **Major strengths** The study addresses a mechanistically important question, namely the molecular basis of LCST behavior in short ELPs, using all-atom simulations. The use of multiple complementary observables, including single-chain collapse, pairwise interactions, and multichain dynamics, provides a broad view of the system. The reported power-law description of contact lifetimes offers a potentially quantitative framework for comparing simulation with experiment.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the potential of mean force between two peptides changes from repulsive to attractive with temperature, indicating LCST-like behavior.
+  - **Evidence pointer** Abstract, second paragraph; location not provided
+  - **Concern** The abstract does not report the magnitude of the potential of mean force changes, the temperature range over which the transition occurs, or the statistical uncertainty in the calculated free energy profiles. Without these details, it is not possible to assess whether the repulsive-to-attractive transition is statistically significant or whether it occurs at a temperature meaningfully related to the LCST.
+  - **Why it matters** The central claim of LCST-like behavior rests on this pairwise interaction transition. If the effect is small relative to thermal fluctuations or if the transition temperature does not correspond to the experimentally known LCST for this sequence, the interpretation would be weakened.
+  - **Resolution test** Provide the potential of mean force profiles at multiple temperatures with error bars, state the temperature at which the transition occurs, and compare this temperature with the experimentally determined LCST for GVG(VPGVG)3 or a closely related sequence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the lifetime of contacts between chains follows a power-law decay consistent with LCST-like behavior.
+  - **Evidence pointer** Abstract, third paragraph; location not provided
+  - **Concern** The abstract does not specify the functional form of the power law, the fitted exponent, the temperature dependence of the exponent, or the statistical quality of the fit. It is also unclear whether the power-law behavior is observed across all temperatures or only in a specific regime. Without these quantitative details, the claim cannot be evaluated.
+  - **Why it matters** The power-law claim is presented as a key quantitative result linking dynamics to LCST behavior. If the fit is poor or the exponent is temperature-independent, the interpretation would need revision.
+  - **Resolution test** Report the fitted power-law parameters, their uncertainties, the temperature range over which the power law holds, and a comparison with alternative decay functions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract reports all-atom molecular dynamics simulations of GVG(VPGVG)3 over a wide range of temperatures and concentrations.
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Concern** No simulation details are provided, including force field, water model, simulation length, system size, number of replicas, equilibration protocol, or treatment of long-range electrostatics. These details are essential for assessing whether the simulations are adequately converged and whether the results are reproducible.
+  - **Why it matters** All-atom simulations of IDPs are sensitive to force field choice and sampling quality. Without this information, the reliability of all reported structural and dynamical results cannot be assessed.
+  - **Resolution test** Provide full simulation methodology in the manuscript, including force field validation against experimental data where possible, and demonstrate convergence of key observables.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of LCST-like behavior
+  - **Evidence pointer** Abstract, second and third paragraphs; location not provided
+  - **Issue** The abstract uses the term "LCST-like behavior" without defining the operational criterion used to identify it in simulations. It is unclear whether the criterion is the temperature of the repulsive-to-attractive transition, the onset of aggregation, or the power-law regime.
+  - **Required correction** Define explicitly what observable or combination of observables is used to infer LCST-like behavior and how this relates to the experimentally defined LCST.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Role of valine residues
+  - **Evidence pointer** Abstract, third paragraph; location not provided
+  - **Issue** The claim that valine central residues play an important role in aggregation is not supported by any comparative analysis, such as mutation studies or per-residue contact maps.
+  - **Required correction** Provide evidence for the specific role of valine residues, for example through residue-resolved contact analysis or comparison with a control sequence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Relationship between single-chain collapse and multichain aggregation
+  - **Evidence pointer** Abstract, second and third paragraphs; location not provided
+  - **Issue** The abstract reports both single-chain hydrophobic collapse and multichain aggregation but does not discuss how these two phenomena are related mechanistically. It is unclear whether collapse precedes aggregation or whether they are independent processes.
+  - **Required correction** Add a brief statement connecting the single-chain and multichain observations, or explicitly state that the relationship is not addressed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The study addresses a known phenomenon, LCST in ELPs, using a combination of simulation approaches. The specific sequence and the focus on contact lifetime dynamics may offer some novelty, but the abstract does not clearly distinguish the findings from prior computational studies of ELPs. Scientific importance: The work could contribute to understanding the molecular basis of LCST behavior, which is relevant for biomaterials design, but the importance is not fully demonstrated from the abstract alone. Interdisciplinary readership: The topic bridges biophysics, polymer science, and biomaterials, and the abstract is written in a way that is broadly accessible. Technical soundness: Not assessable from the abstract due to missing methodological and quantitative details. Readability for nonspecialists: The abstract is clearly written and avoids excessive jargon, making it accessible to a broad scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a coherent narrative, but the absence of quantitative results, simulation details, and statistical analyses prevents verification of the central claims. The authors should be encouraged to resubmit with full methodological transparency and quantitative support.
+
+## Risk / unsupported claims
+- The claim that the repulsive-to-attractive transition in the potential of mean force indicates LCST-like behavior is unsupported without quantitative free energy data and a comparison with the experimental LCST.
+- The claim that contact lifetimes follow a power-law decay consistent with LCST-like behavior is unsupported without fitted parameters and statistical analysis.
+- The claim that valine central residues play an important role in aggregation is unsupported without residue-resolved analysis or mutation studies.
+- The claim that peptide translational and internal motion are slowed by increased concentration and temperature is plausible but not quantitatively supported in the abstract.
+- The overall assertion that the simulations capture LCST-like behavior is not directly verifiable from the abstract, as no direct comparison with experimental phase behavior is provided.

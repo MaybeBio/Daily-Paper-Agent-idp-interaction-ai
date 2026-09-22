@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "39596456",
+    "doi": "10.3390/ijms252212391",
+    "title": "Structure of Full-Length Src Kinase and Its Key Phosphorylated States: Molecular Dynamics Study."
+  },
+  "content": {
+    "abstract": "Src kinase is one of the key regulators of cellular metabolism and is dysregulated in numerous diseases, including cancer, neurodegenerative diseases, and particularly Alzheimer's disease. Despite its therapeutic importance, its full-length structure has never been obtained before, as it contains an intrinsically disordered regulatory region, SH4UD. The SH4UD region is crucial for Src activation, functional dimerization, and regulation by other kinases. In this study, we used the replica exchange molecular dynamics approach with a hybrid temperature and Hamiltonian tempering to obtain the conformational ensemble of full-length Src kinase in its non-phosphorylated state and in the presence of its two key regulatory phosphorylations: pY419 and pY530. The representative structures and simulation trajectories of non-phosphorylated pY419 and pY530 Src are available in open access. We demonstrate that pY419 phosphorylation, which is associated with Src activation, enhances its motility, whereas inhibited pY530 Src preserves relatively compact conformation. This study also provides insights into how SH4UD contributes to Src substrate binding, dimerization, and autophosphorylation, highlighting the putative role of 14-RRR-16 in this process.",
+    "keywords": [
+      "REHT MD",
+      "SH4UD",
+      "Src kinase",
+      "protein phosphorylation",
+      "protein structure",
+      "proto-oncogene"
+    ],
+    "mesh_terms": [
+      "Phosphorylation",
+      "*src-Family Kinases/metabolism/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "Protein Multimerization",
+      "Protein Binding",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Strelkova, Maria A",
+        "Tolstova, Anna P",
+        "Mitkevich, Vladimir A",
+        "Petrushanko, Irina Yu",
+        "Makarov, Alexander A"
+      ],
+      "short_names": [
+        "Strelkova MA",
+        "Tolstova AP",
+        "Mitkevich VA",
+        "Petrushanko IY",
+        "Makarov AA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4311-5065",
+        "ORCID: 0000-0003-3860-0733",
+        "ORCID: 0000-0002-1517-1983",
+        "ORCID: 0000-0003-0787-415X"
+      ],
+      "affiliations": [
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia.",
+        "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Strelkova, Maria A",
+        "short_name": "Strelkova MA",
+        "identifiers": [
+          "0000-0002-4311-5065"
+        ],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Tolstova, Anna P",
+        "short_name": "Tolstova AP",
+        "identifiers": [
+          "0000-0003-3860-0733"
+        ],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Mitkevich, Vladimir A",
+        "short_name": "Mitkevich VA",
+        "identifiers": [
+          "0000-0002-1517-1983"
+        ],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Petrushanko, Irina Yu",
+        "short_name": "Petrushanko IY",
+        "identifiers": [
+          "0000-0003-0787-415X"
+        ],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Makarov, Alexander A",
+        "short_name": "Makarov AA",
+        "identifiers": [],
+        "affiliations": [
+          "Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, 119991 Moscow, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2024 Nov 19",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/27 06:19",
+    "fetched_at": "2026-09-21 13:02:41"
+  },
+  "links": {
+    "cites": [
+      "42353021",
+      "40565298"
+    ],
+    "refs": [],
+    "similar": [
+      "39596456",
+      "30304684",
+      "36692364",
+      "28426203",
+      "29618744",
+      "8755732",
+      "23923048",
+      "24103328",
+      "29255153",
+      "29234112",
+      "28290541",
+      "31548393",
+      "15363460",
+      "28345935",
+      "31331936",
+      "15504335",
+      "28754059",
+      "35216357",
+      "9434895",
+      "31697410",
+      "24001034",
+      "27001024",
+      "27063862",
+      "11756483",
+      "22499769",
+      "11741929",
+      "36870334",
+      "32978252",
+      "35820485",
+      "22078467",
+      "27715044",
+      "33300337",
+      "26236953",
+      "24106839",
+      "7558583",
+      "34854354",
+      "33727342",
+      "34204297",
+      "25600932",
+      "8794770",
+      "20007455",
+      "9183008",
+      "25897081",
+      "11909938",
+      "17018524",
+      "29258818",
+      "21712388",
+      "30180580",
+      "23028292",
+      "9160881",
+      "25914053",
+      "15939018",
+      "25961473",
+      "26106037",
+      "15845350",
+      "8631775",
+      "16597828",
+      "11976726",
+      "16198159",
+      "11007482",
+      "9692543",
+      "11713277",
+      "17905674",
+      "25662515",
+      "25243930",
+      "29719201",
+      "16168436",
+      "24334106",
+      "29503074",
+      "24584478",
+      "7515063",
+      "30862675",
+      "11149959",
+      "9477973",
+      "19627364",
+      "20810664",
+      "19146952",
+      "16790421",
+      "9020193",
+      "26866924",
+      "9405157",
+      "20603213",
+      "30923129",
+      "18687871",
+      "11389730",
+      "15009668",
+      "8940173",
+      "9208935",
+      "23744817",
+      "8639560",
+      "27116701",
+      "11825908",
+      "11812791",
+      "11032890",
+      "22280319",
+      "8945479",
+      "32911607",
+      "11524430",
+      "18164031",
+      "24828008"
+    ],
+    "review": [
+      "39596456",
+      "15504335",
+      "35216357",
+      "9434895",
+      "34204297",
+      "15845350",
+      "16198159",
+      "17905674"
+    ],
+    "pmc": [
+      "11594451"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms252212391",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39596456/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-905",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

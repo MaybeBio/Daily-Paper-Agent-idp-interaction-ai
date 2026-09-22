@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the manuscript
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to characterize four L-loop missense mutants of hVKORC1 (A41S, H68Y, S52W, W59R) in the oxidized state, comparing their dynamics, free energy landscapes, cryptic pockets, and PDI recognition to the native protein, and propose implications for allosteric drug design.
+- **Visible evidence base** Abstract, Introduction, Results (Sections 2.1–2.8), Discussion, Materials and Methods (Section 4), figure captions referenced in text
+- **Missing materials affecting confidence** Figures and supplementary materials (Figures S1–S5, Table S1) are referenced but not provided; raw MD trajectory data and validation metrics are not available; no experimental validation data are included
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study of four missense mutants of hVKORC1, focusing on the effects of mutations on protein dynamics, free energy landscapes, cryptic pocket formation, and redox partner recognition. The work builds on the authors' prior modeling of the native protein and extends it to clinically relevant mutants. The topic is of interest to the coagulation and structural biology communities, and the concept of targeting allosteric sites or protein-protein interfaces for "allo-network drugs" is timely. However, the manuscript has several significant weaknesses. The central claims regarding mutation-induced allosteric effects and their implications for drug design are largely qualitative and not rigorously supported by quantitative comparisons. The docking results for PDI recognition are preliminary and presented without sufficient validation. The free energy landscape analysis, while visually informative, lacks statistical rigor in comparing different proteins. The manuscript would benefit from clearer articulation of testable hypotheses and more robust analytical approaches.
+- **Who would be interested in the results, and why** Researchers studying vitamin K epoxide reductase structure and function, particularly those interested in warfarin resistance mechanisms; computational biologists working on intrinsically disordered proteins and allosteric regulation; medicinal chemists interested in novel anticoagulant strategies targeting allosteric sites or protein-protein interfaces.
+- **Major strengths** The study addresses a clinically relevant problem (mutation-induced warfarin resistance) using state-of-the-art computational methods. The systematic comparison of four mutants with distinct physicochemical properties is a reasonable approach. The integration of multiple analytical perspectives (dynamics, free energy, pockets, docking) provides a multifaceted view of mutation effects. The authors are transparent about the limitations of studying the oxidized state only.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "L-loop missense point mutations impact not only its folding and dynamics, but also those of the TMD, highlighting a strong mutation-specific interdependence between these domains."
+  - **Evidence pointer** Section 2.2, Figure 2A
+  - **Concern** The claim of mutation-induced effects on TMD dynamics is based on qualitative comparison of RMSF profiles. The authors state that "TM helical linkers in mutants fluctuate more compared with those of hVKORC1WT" but provide no quantitative statistical analysis (e.g., error bars, significance testing across replicas) to support this. The RMSF differences could be within normal sampling variation given the limited simulation time (3 × 0.5 µs per mutant).
+  - **Why it matters** The central thesis of the paper is that mutations in the L-loop exert long-range allosteric effects on the TMD. Without rigorous quantitative evidence, this claim is not established, undermining the foundation for the proposed allosteric network concept.
+  - **Resolution test** Provide quantitative comparison of RMSF values for TMD regions between WT and each mutant, with appropriate statistical testing (e.g., bootstrap or block averaging across replicas). Report effect sizes and confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "two mutants, hVKORC1A41S and hVKORC1W59R, recognise PDI similarly to the native protein, while two others, apparently, are not capable of binding this redox protein."
+  - **Evidence pointer** Section 2.8, Figure 9, Figure S5, Table S1
+  - **Concern** This is a strong functional claim based solely on docking results. The docking protocol uses a single distance restraint between C43 of hVKORC1 and C37 of PDI, which may bias the outcome. No scoring function validation, no comparison with experimental binding data, and no assessment of docking pose reliability are provided. The statement that two mutants "are not capable of binding" is particularly strong and not supported by the evidence presented.
+  - **Why it matters** The INTERACTOME claim is a key component of the proposed framework. If the docking results are unreliable, this aspect of the paper is not credible. Overinterpretation of docking results could mislead readers about the functional consequences of these mutations.
+  - **Resolution test** Provide a more rigorous docking analysis with multiple scoring functions, cross-validation, and clear criteria for what constitutes a "successful" complex. Alternatively, soften the claims to reflect the preliminary nature of the docking results and clearly state that experimental validation is needed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that their findings "open novel perspectives for the development of 'allo-network drugs' essential for the treatment of blood disorders."
+  - **Evidence pointer** Discussion, Section 3
+  - **Concern** The connection between the computational findings and the proposed drug design strategy is speculative. The authors identify cryptic pockets but do not demonstrate their druggability, nor do they show that targeting these pockets would modulate hVKORC1 function. The concept of "allo-network drugs" is introduced but not developed into a concrete, testable framework.
+  - **Why it matters** The title and framing of the paper emphasize the drug design perspective. If this aspect is not substantiated, the paper's significance is reduced to a descriptive computational study of mutant dynamics.
+  - **Resolution test** Provide a more concrete proposal for how the identified pockets or interaction interfaces could be targeted, including specific residues to be addressed, potential ligand properties, and predicted functional outcomes. Alternatively, reframe the paper to focus on the mechanistic insights rather than the drug design implications.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the free energy landscape... shows a rugged landscape spectrum, revealing the high conformational diversity of the L-loop, reflected by the multiple well-defined minima."
+  - **Evidence pointer** Section 2.6, Figure 6
+  - **Concern** The free energy landscape is constructed from concatenated trajectories of different proteins, which may not be statistically justified. The authors do not report convergence of the free energy estimates, nor do they quantify the uncertainty in the landscape. The interpretation of wells as representing distinct conformational states is not supported by a rigorous clustering or statistical analysis.
+  - **Why it matters** The free energy landscape is used to support claims about the conformational diversity and mutation-specific effects. If the landscape is not statistically robust, these claims are weakened.
+  - **Resolution test** Provide convergence analysis (e.g., block averaging, comparison of independent replicas) and uncertainty estimates for the free energy surfaces. Use a more rigorous approach to define and compare conformational states across proteins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract is dense and uses specialized terminology ("thiol-disulfide exchange reactions", "DYNASOME", "POCKETOME") without sufficient context for a general reader.
+  - **Required correction** Provide brief definitions or context for these terms in the abstract, or simplify the language to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Section 4.2.3
+  - **Evidence pointer** Section 4.2.3
+  - **Issue** The description of the MD simulation protocol is incomplete. The temperature and pressure coupling details are mentioned, but the specific algorithms for barostat and thermostat are not fully described. The cutoff for van der Waals interactions is not stated.
+  - **Required correction** Provide complete details of the simulation parameters, including the specific barostat algorithm, van der Waals cutoff, and any constraints applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5, Figure 5E
+  - **Concern** The cross-correlation matrix analysis is described but the interpretation of the patterns is not clearly linked to specific functional consequences. The statement that "the fine-grained muted patterns... are composed of well-defined blocks" is descriptive but not interpretive.
+  - **Required correction** Explain what the observed correlation patterns mean for the functional dynamics of the protein and how they differ between mutants in a way that is mechanistically informative.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.7
+  - **Evidence pointer** Section 2.7, Figure 7
+  - **Concern** The pocket analysis is presented for the native protein in detail, but the comparison with mutants is less thorough. The statement that "the analysis of pockets in hVKORC1 mutants clearly demonstrates the mutation-induced effects" is not supported by a systematic comparison.
+  - **Required correction** Provide a more systematic comparison of pocket properties (volume, location, composition) across all proteins studied, with quantitative metrics.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative support for TMD-L-loop coupling), R1-M2 (docking reliability and interpretation)
+- **Assessment against Nature-style criteria** Originality: The study applies existing computational methods to a specific set of mutants; the conceptual framework of integrating DYNASOME, POCKETOME, and INTERACTOME is somewhat novel but not fundamentally new. Scientific importance: The topic is clinically relevant, but the findings are largely descriptive and do not provide new mechanistic insights that would change current understanding. Interdisciplinary readership: The paper is likely to appeal to computational biologists and coagulation researchers, but the specialized terminology and lack of broader context limit its accessibility. Technical soundness: The methods are appropriate but the analysis lacks statistical rigor in several key areas. Readability for nonspecialists: The paper is challenging to read for those not familiar with the specific terminology and computational approaches.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential but requires substantial revisions to address the major concerns, particularly the quantitative support for the central claims and the reliability of the docking results. The drug design implications need to be either substantiated or de-emphasized.
+
+## Risk / unsupported claims
+- The claim that mutations in the L-loop affect TMD dynamics is not quantitatively supported.
+- The claim that two mutants are "not capable of binding" PDI is not supported by the docking evidence presented.
+- The proposal for "allo-network drugs" is speculative and not grounded in concrete, testable predictions.
+- The free energy landscape analysis lacks convergence and uncertainty assessment, making the interpretation of distinct conformational states unreliable.
+- The functional significance of the identified cryptic pockets is not demonstrated.

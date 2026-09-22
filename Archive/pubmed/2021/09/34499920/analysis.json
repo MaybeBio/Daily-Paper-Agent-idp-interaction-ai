@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34499920",
+  "title": "New Frontiers for Machine Learning in Protein Science.",
+  "authors": "Morgunov, Alexey S; Saar, Kadi L; Vendruscolo, Michele; Knowles, Tuomas P J",
+  "journal": "Journal of molecular biology",
+  "published_date": "2021-09-10",
+  "window": {
+    "start": "2021-09-06",
+    "end": "2021-09-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文综述了机器学习在蛋白质科学中的新前沿，聚焦于无序蛋白参与的动态互作与凝聚体形成，虽为综述且无具体方法实现，但紧扣IDP-PPI机制建模主题，对本课题有启发。",
+  "abstract": "Protein function is fundamentally reliant on inter-molecular interactions that underpin the ability of proteins to form complexes driving biological processes in living cells. Increasingly, such interactions are recognised as being formed between proteins that exist on a broad spectrum of dynamic conformational states and levels of intrinsic disorder. Additionally, the sizes of the structures formed can range from simple binary complexes to large dynamic biomolecular condensates measuring 100 nm or more. Understanding the parameters that govern such interactions, how they form, how they lead to function and what happens when they take place in unintended manners and lead to disease, represent some of the core questions for molecular biosciences. In light of recent advances made in solving the protein folding problem by machine learning methods, we discuss here the challenges and opportunities brought by these new data-driven approaches for the next frontiers of biomolecular science.",
+  "abstract_zh": "蛋白质功能从根本上依赖于分子间相互作用，这些相互作用支撑了蛋白质形成复合物以驱动活细胞中生物过程的能力。日益增多的是，这类相互作用被认为是在存在于广泛动态构象状态和内在无序程度谱系上的蛋白质之间形成的。此外，所形成结构的尺寸范围可以从简单的二元复合物到测量为100纳米或更大的大型动态生物分子凝聚体。理解控制此类相互作用的参数、它们如何形成、如何导致功能，以及当它们以非预期方式发生并导致疾病时会发生什么，代表了分子生物科学的一些核心问题。鉴于机器学习方法在解决蛋白质折叠问题上取得的最新进展，我们在此讨论这些新兴数据驱动方法为生物分子科学的下一个前沿带来的挑战与机遇。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34499920/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34499920/",
+  "paper_page_path": "papers/pubmed/34499920/index.html"
+}

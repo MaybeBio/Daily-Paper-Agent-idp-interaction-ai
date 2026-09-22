@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report weak, concentration-dependent, nonspecific noncovalent interactions between ATP and three proteins (alpha-synuclein, ubiquitin, and the dimeric ubiquitin-binding domain of p62), detected by NMR spectroscopy and MD simulations. They propose that ATP acts as a general nonspecific binder, alters protein hydration, and that at physiological concentrations (approximately 5-10 mM) ATP forms oligomeric states via magnesium-chelating and chelation-independent mechanisms. They further suggest that the high cellular ATP-to-protein ratio implies most proteins experience transient ATP interactions conferring metabolite-mediated surface protection.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, spectra, simulation parameters, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, NMR data and assignments, MD simulation protocols and force fields, biophysical assay details, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant hypothesis regarding weak nonspecific ATP-protein interactions and their possible biological relevance. The combination of NMR and MD simulations is appropriate for the stated aims. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental design, the robustness of the conclusions, or the novelty relative to existing literature. Several claims, particularly regarding the generality of the phenomenon and the biological implications, appear to extend beyond what can be supported from the summarized evidence. The work may be of interest to the biophysical chemistry and protein folding communities, but the case as presented is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biophysical chemistry, protein folding and aggregation, intrinsically disordered proteins, and cellular metabolism would find these results relevant. The proposed role of ATP as a general nonspecific protein binder with surface-protective effects could inform studies on protein homeostasis, amyloid aggregation, and the intracellular environment. The methodological combination of NMR and MD simulations may also appeal to those studying weak biomolecular interactions.
+- **Major strengths** The study addresses a timely and debated question regarding ATP's proposed hydrotrope-like effects on proteins. The use of multiple complementary techniques (NMR, MD simulations, and additional biophysical methods) is a strength. The inclusion of both intrinsically disordered and folded proteins allows for comparative analysis across protein classes. The concentration-dependent and residue-specific observations suggest careful experimental design.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that ATP interacts weakly but measurably with all three proteins and that this indicates ATP is a general nonspecific binder of proteins.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that interactions were observed with three proteins, but no quantitative data are provided to establish the magnitude, specificity, or statistical significance of these interactions. The claim of generality is extrapolated from a very small protein set.  
+  - **Why it matters** The central conclusion of the manuscript rests on the generality of the observed phenomenon. Without quantitative binding parameters, controls for nonspecific effects, or a broader protein panel, the claim of general nonspecific binding is not adequately supported.  
+  - **Resolution test** Provide quantitative interaction parameters (e.g., dissociation constants or binding affinities) for each protein, include negative control proteins, and demonstrate that the observed effects are not artifacts of buffer conditions or protein-specific properties.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The authors claim that ATP-protein interaction results in altered hydration of solvent-exposed residues, as shown by solution NMR.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify which NMR observables were used to infer altered hydration, how hydration changes were distinguished from other possible effects (e.g., direct chemical shift perturbations from binding), or whether the interpretation is supported by MD simulations.  
+  - **Why it matters** The hydration claim is a key mechanistic component of the proposed surface-protection model. If the NMR evidence is ambiguous, the mechanistic interpretation may be overstated.  
+  - **Resolution test** Specify the NMR parameters used (e.g., relaxation rates, NOE, or chemical shift perturbations), show how hydration changes were isolated from binding effects, and provide MD-based validation of hydration dynamics.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim-conclusion alignment  
+  - **Claim pointer** The authors conclude that the high ATP-to-protein ratio in cells suggests most proteins are likely to encounter transient interactions with ATP that confer metabolite-mediated protein surface protection.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** This conclusion extrapolates from in vitro observations with three proteins to a general cellular phenomenon. The abstract provides no evidence that such interactions occur in vivo, that they are functionally protective, or that the proposed mechanism operates under cellular conditions.  
+  - **Why it matters** The biological significance of the work depends on this extrapolation. Without cellular or in vivo validation, the conclusion remains speculative.  
+  - **Resolution test** Provide direct evidence of ATP-protein interactions in cellular contexts or clearly frame the conclusion as a hypothesis requiring further testing.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical detail  
+  - **Claim pointer** The authors state that ATP forms oligomeric states via magnesium-chelating and chelation-independent mechanisms at physiological concentrations.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract mentions "several complementary biophysical methods" but does not identify these methods or provide data supporting the oligomerization claim. The distinction between chelation-dependent and chelation-independent mechanisms is not explained.  
+  - **Why it matters** ATP oligomerization is relevant to interpreting the interaction data, as oligomeric species could confound binding measurements. The claim requires clear experimental support.  
+  - **Resolution test** Describe the methods used, show representative data for oligomer formation, and clarify how oligomeric species were accounted for in the interaction analyses.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "hydrotrope" is used without definition or contextual explanation.  
+  - **Required correction** Define hydrotrope and briefly explain its relevance to the study.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Protein selection rationale  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not explain why these three specific proteins were chosen.  
+  - **Required correction** Briefly state the rationale for protein selection, including any relevance to amyloid aggregation or protein homeostasis.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Quantitative reporting  
+  - **Affected element** Concentration dependence  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that interactions are concentration-dependent but provides no concentration range or quantitative relationship.  
+  - **Required correction** Report the concentration range tested and the observed dependence (e.g., linear, saturable).  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** "Weak" interactions  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "weak" is used qualitatively without a quantitative threshold or comparison to known interaction strengths.  
+  - **Required correction** Provide quantitative measures of interaction strength and contextualize them relative to typical biomolecular interactions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or mechanistic evidence to support the central claims of general nonspecific binding, altered hydration, and biological relevance. R1-M4 is important but not fully blocking if the interaction data are robust.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of ATP as a general weak binder with surface-protective effects is not entirely new, given prior hydrotrope proposals, but the systematic comparative approach across protein classes may offer a fresh perspective. The abstract does not clearly articulate what is novel beyond prior work.  
+  - **Scientific importance** The potential implications for protein homeostasis and cellular biochemistry are significant, but the importance is contingent on the validity of the extrapolation from in vitro to in vivo conditions.  
+  - **Interdisciplinary readership** The topic bridges biophysics, biochemistry, and cell biology, and could appeal to a broad audience if the claims are well supported.  
+  - **Technical soundness** The combination of NMR and MD is appropriate, but the abstract provides insufficient detail to assess the technical rigor. The lack of quantitative data and controls is a concern.  
+  - **Readability for nonspecialists** The abstract is generally accessible, but terms such as "hydrotrope" and the significance of hydration changes may not be immediately clear to a broad audience.  
+  - **Overall** The work has potential but is not yet at a stage where the claims are fully established from the provided evidence.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of quantitative data, controls, and mechanistic detail prevents a supportive recommendation. The authors should provide the full experimental evidence and address the major concerns before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that ATP is a "general nonspecific binder of proteins" is unsupported from the abstract alone, as only three proteins were tested.
+- The claim that ATP-protein interactions alter protein hydration is not substantiated without specific NMR observables and controls.
+- The conclusion that most proteins in cells encounter transient ATP interactions conferring surface protection is speculative and not supported by direct evidence.
+- The claim that ATP forms oligomeric states at physiological concentrations via two distinct mechanisms is not verifiable from the abstract without method details and data.
+- The biological relevance of the observed interactions is asserted but not demonstrated.

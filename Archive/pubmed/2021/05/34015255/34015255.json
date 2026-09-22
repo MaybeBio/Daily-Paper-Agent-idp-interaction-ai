@@ -1,0 +1,462 @@
+{
+  "identity": {
+    "pmid": "34015255",
+    "doi": "10.1016/j.str.2021.05.002",
+    "title": "The structural heterogeneity of alpha-synuclein is governed by several distinct subpopulations with interconversion times slower than milliseconds."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein plays an important role in synaptic functions by interacting with synaptic vesicle membrane, while its oligomers and fibrils are associated with several neurodegenerative diseases. The specific monomer structures that promote its membrane binding and self-association remain elusive due to its transient nature as an intrinsically disordered protein. Here, we use inter-dye distance distributions from bulk time-resolved Forster resonance energy transfer as restraints in discrete molecular dynamics simulations to map the conformational space of the alpha-synuclein monomer. We further confirm the generated conformational ensemble in orthogonal experiments utilizing far-UV circular dichroism and cross-linking mass spectrometry. Single-molecule protein-induced fluorescence enhancement measurements show that within this conformational ensemble, some of the conformations of alpha-synuclein are surprisingly stable, exhibiting conformational transitions slower than milliseconds. Our comprehensive analysis of the conformational ensemble reveals essential structural properties and potential conformations that promote its various functions in membrane interaction or oligomer and fibril formation.",
+    "keywords": [
+      "conformational ensemble",
+      "discrete molecular dynamics simulations",
+      "intrinsically disordered protein",
+      "neurodegenerative diseases",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [
+      "Fluorescence Resonance Energy Transfer",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "alpha-Synuclein/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Jiaxing",
+        "Zaer, Sofia",
+        "Drori, Paz",
+        "Zamel, Joanna",
+        "Joron, Khalil",
+        "Kalisman, Nir",
+        "Lerner, Eitan",
+        "Dokholyan, Nikolay V"
+      ],
+      "short_names": [
+        "Chen J",
+        "Zaer S",
+        "Drori P",
+        "Zamel J",
+        "Joron K",
+        "Kalisman N",
+        "Lerner E",
+        "Dokholyan NV"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacology, Penn State College of Medicine, Hershey, PA 17033, USA.",
+        "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel.",
+        "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel.",
+        "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel.",
+        "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel.",
+        "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel.",
+        "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel; The Center for Nanoscience and Nanotechnology, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel. Electronic address: eitan.lerner@mail.huji.ac.il.",
+        "Department of Pharmacology, Penn State College of Medicine, Hershey, PA 17033, USA; Department of Biochemistry & Molecular Biology, Penn State College of Medicine, Hershey, PA 17033, USA; Departments of Chemistry and Biomedical Engineering, Pennsylvania State University, University Park, PA 16802, USA. Electronic address: dokh@psu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Jiaxing",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Penn State College of Medicine, Hershey, PA 17033, USA."
+        ]
+      },
+      {
+        "full_name": "Zaer, Sofia",
+        "short_name": "Zaer S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel."
+        ]
+      },
+      {
+        "full_name": "Drori, Paz",
+        "short_name": "Drori P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel."
+        ]
+      },
+      {
+        "full_name": "Zamel, Joanna",
+        "short_name": "Zamel J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel."
+        ]
+      },
+      {
+        "full_name": "Joron, Khalil",
+        "short_name": "Joron K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel."
+        ]
+      },
+      {
+        "full_name": "Kalisman, Nir",
+        "short_name": "Kalisman N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel."
+        ]
+      },
+      {
+        "full_name": "Lerner, Eitan",
+        "short_name": "Lerner E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel; The Center for Nanoscience and Nanotechnology, The Hebrew University of Jerusalem, Jerusalem 9190401, Israel. Electronic address: eitan.lerner@mail.huji.ac.il."
+        ]
+      },
+      {
+        "full_name": "Dokholyan, Nikolay V",
+        "short_name": "Dokholyan NV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Penn State College of Medicine, Hershey, PA 17033, USA; Department of Biochemistry & Molecular Biology, Penn State College of Medicine, Hershey, PA 17033, USA; Departments of Chemistry and Biomedical Engineering, Pennsylvania State University, University Park, PA 16802, USA. Electronic address: dokh@psu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Structure (London, England : 1993)"
+    ],
+    "journal_abbrev": [
+      "Structure"
+    ],
+    "pub_date": "2021 Sep 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/21 06:00",
+    "fetched_at": "2026-09-20 03:15:49"
+  },
+  "links": {
+    "cites": [
+      "42292944",
+      "42182488",
+      "42147780",
+      "41700898",
+      "41683750",
+      "40994307",
+      "40853068",
+      "40216989",
+      "40147456",
+      "39553926",
+      "39273333",
+      "38957792",
+      "38930882",
+      "38313522",
+      "37923923",
+      "37904608",
+      "37726007",
+      "37686208",
+      "37253119",
+      "37243896",
+      "36866225",
+      "36809765",
+      "36794792",
+      "36435470",
+      "36278939",
+      "36204594",
+      "35431773",
+      "35179885",
+      "35139916",
+      "35011320",
+      "34888535",
+      "34680054",
+      "34199513",
+      "34125097",
+      "33779550",
+      "33600559"
+    ],
+    "refs": [
+      "32561732",
+      "32499486",
+      "32472143",
+      "32461689",
+      "32440702",
+      "32392751",
+      "32390826",
+      "32347706",
+      "32268219",
+      "32203270",
+      "32112991",
+      "32097611",
+      "32045240",
+      "32019169",
+      "31877033",
+      "31686107",
+      "31613621",
+      "31477241",
+      "31331359",
+      "31269263",
+      "31254394",
+      "31240402",
+      "31186026",
+      "31135803",
+      "30979035",
+      "30946779",
+      "30933517",
+      "30917651",
+      "30917118",
+      "30853581",
+      "30635607",
+      "30395289",
+      "30351057",
+      "30065316",
+      "30047198",
+      "29971274",
+      "29657133",
+      "29604892",
+      "29320696",
+      "28695211",
+      "28448138",
+      "28419142",
+      "28192290",
+      "28063280",
+      "27819658",
+      "27662181",
+      "27641327",
+      "27612332",
+      "27610264",
+      "27532626",
+      "27398307",
+      "27184889",
+      "27064000",
+      "27018801",
+      "26931439",
+      "26808899",
+      "26745406",
+      "26723627",
+      "26719414",
+      "26699718",
+      "26695014",
+      "26578575",
+      "26553504",
+      "26193124",
+      "25855634",
+      "25764013",
+      "25345588",
+      "25246573",
+      "25216651",
+      "25192908",
+      "24871041",
+      "24639379",
+      "24361273",
+      "24336839",
+      "24108623",
+      "24056732",
+      "23964651",
+      "23398399",
+      "23298543",
+      "23199922",
+      "23162382",
+      "22552968",
+      "22316405",
+      "22308438",
+      "22280505",
+      "22029383",
+      "22006323",
+      "21841800",
+      "21570984",
+      "21502529",
+      "21297620",
+      "21297618",
+      "21218223",
+      "21108951",
+      "21071423",
+      "21044603",
+      "20798282",
+      "20544898",
+      "20371330",
+      "20152114",
+      "19576220",
+      "19544584",
+      "19522502",
+      "19293380",
+      "19107759",
+      "18948383",
+      "18774805",
+      "18672869",
+      "18611374",
+      "17681534",
+      "16839198",
+      "16413773",
+      "15671169",
+      "15643843",
+      "15615727",
+      "15063649",
+      "11525731",
+      "11176955",
+      "9465054",
+      "8453370",
+      "7857654",
+      "6667333",
+      "6498263"
+    ],
+    "similar": [
+      "34015255",
+      "30917118",
+      "30771181",
+      "35543707",
+      "22947936",
+      "26553504",
+      "29715424",
+      "32623047",
+      "34125097",
+      "19293380",
+      "31477241",
+      "29474083",
+      "18198943",
+      "34912851",
+      "31635031",
+      "29364151",
+      "33581430",
+      "36809765",
+      "28760825",
+      "29642031",
+      "33903234",
+      "22760335",
+      "34161822",
+      "29874605",
+      "19555081",
+      "26723627",
+      "36379279",
+      "22326493",
+      "29490247",
+      "22573613",
+      "31805238",
+      "36413494",
+      "26582456",
+      "21108951",
+      "25756329",
+      "28075555",
+      "21120859",
+      "31740740",
+      "30224053",
+      "31903719",
+      "35836937",
+      "30184304",
+      "37114769",
+      "29320696",
+      "23214618",
+      "19576220",
+      "22029383",
+      "25352253",
+      "30933517",
+      "33075229",
+      "22632969",
+      "29621630",
+      "37982746",
+      "33784451",
+      "31917569",
+      "19847913",
+      "20580965",
+      "20371330",
+      "24361273",
+      "30002265",
+      "26996749",
+      "17378587",
+      "16162499",
+      "25369246",
+      "32453478",
+      "26193124",
+      "24551051",
+      "30142698",
+      "38683963",
+      "31699336",
+      "36278939",
+      "38700150",
+      "22826265",
+      "34323256",
+      "39046235",
+      "22552968",
+      "28109332",
+      "32120928",
+      "16489768",
+      "23374074",
+      "23607785",
+      "33719460",
+      "31132261",
+      "36115020",
+      "30755483",
+      "30769283",
+      "27096466",
+      "36866721",
+      "38335809",
+      "23349712",
+      "36794997",
+      "39232485",
+      "24489820",
+      "23583776",
+      "25816771",
+      "29372732",
+      "20229987",
+      "38964522",
+      "16171820"
+    ],
+    "review": [
+      "34015255",
+      "29364151",
+      "22760335",
+      "30142698"
+    ],
+    "pmc": [
+      "8419013"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0969-2126(21)00160-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34015255/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34015255",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=pxd024671",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://scite.ai/reports/34015255",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.22.600179",
+  "title": "AllergenAI: a deep learning model predicting allergenicity based on protein sequence",
+  "doi": "10.1101/2024.06.22.600179",
+  "abstract": "Innovations in protein engineering can help redesign allergenic proteins to reduce adverse reactions in sensitive individuals. To accomplish this aim, a better knowledge of the molecular properties of allergenic proteins and the molecular features that make a protein allergenic is needed. We present a novel AI-based tool, AllergenAI, to quantify the allergenic potential of a given protein. Our approach is solely based on protein sequences, differentiating it from previous tools that use some knowledge of the allergens’ physicochemical and other properties in addition to sequence homology. We used the collected data on protein sequences of allergenic proteins as archived in the three well-established databases, SDAP 2.0, COMPARE, and AlgPred 2, to train a convolutional neural network and assessed its prediction performance by cross-validation. We then used Allergen AI to find novel potential proteins of the cupin family in date palm, spinach, maize, and red clover plants with a high allergenicity score that might have an adverse allergenic effect on sensitive individuals. By analyzing the feature importance scores (FIS) of vicilins, we identified a proline-alanine-rich (P-A) motif in the top 50% of FIS regions that overlapped with known IgE epitope regions of vicilin allergens. Furthermore, using∼ 1600 allergen structures in our SDAP database, we showed the potential to incorporate 3D information in a CNN model. Future, incorporating 3D information in training data should enhance the accuracy. AllergenAI is a novel foundation for identifying the critical features that distinguish allergenic proteins.",
+  "authors": [
+    "Chengyuan Yang",
+    "Surendra S Negi",
+    "Catherine H Schein",
+    "Werner Braun",
+    "Pora Kim"
+  ],
+  "published_date": "2024-06-27",
+  "updated_date": "2024-06-27T23:20:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.22.600179",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.22.600179.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            26
+          ]
+        ],
+        "date-time": "2026-06-26T01:26:17Z",
+        "timestamp": 1782437177012,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            27
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 38,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            27
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Innovations in protein engineering can help redesign allergenic proteins to reduce adverse reactions in sensitive individuals. To accomplish this aim, a better knowledge of the molecular properties of allergenic proteins and the molecular features that make a protein allergenic is needed. We present a novel AI-based tool, AllergenAI, to quantify the allergenic potential of a given protein. Our approach is solely based on protein sequences, differentiating it from previous tools that use some knowledge of the allergens’ physicochemical and other properties in addition to sequence homology. We used the collected data on protein sequences of allergenic proteins as archived in the three well-established databases, SDAP 2.0, COMPARE, and AlgPred 2, to train a convolutional neural network and assessed its prediction performance by cross-validation. We then used Allergen AI to find novel potential proteins of the cupin family in date palm, spinach, maize, and red clover plants with a high allergenicity score that might have an adverse allergenic effect on sensitive individuals. By analyzing the feature importance scores (FIS) of vicilins, we identified a proline-alanine-rich (P-A) motif in the top 50% of FIS regions that overlapped with known IgE epitope regions of vicilin allergens. Furthermore, using∼ 1600 allergen structures in our SDAP database, we showed the potential to incorporate 3D information in a CNN model. Future, incorporating 3D information in training data should enhance the accuracy. AllergenAI is a novel foundation for identifying the critical features that distinguish allergenic proteins.</jats:p>",
+      "DOI": "10.1101/2024.06.22.600179",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            27
+          ]
+        ],
+        "date-time": "2024-06-27T23:20:14Z",
+        "timestamp": 1719530414000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "AllergenAI: a deep learning model predicting allergenicity based on protein sequence"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Chengyuan",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Surendra S",
+          "family": "Negi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8290-2109",
+          "authenticated-orcid": false,
+          "given": "Catherine H",
+          "family": "Schein",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Werner",
+          "family": "Braun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pora",
+          "family": "Kim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molimm.2018.03.003"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.2",
+          "first-page": "3",
+          "article-title": "History of Allergy: Clinical Descriptions, Pathophysiology, and Treatment",
+          "volume": "268",
+          "year": "2022",
+          "journal-title": "Handb Exp Pharmacol"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "2263",
+          "DOI": "10.1016/j.jaci.2020.11.046",
+          "article-title": "Prevalence and characteristics of peanut allergy in US adults",
+          "volume": "147",
+          "year": "2021",
+          "journal-title": "J Allergy Clin Immunol"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "2069",
+          "DOI": "10.1016/j.jaci.2021.03.031",
+          "article-title": "Adult peanut allergy: What we know and what we need to learn",
+          "volume": "147",
+          "year": "2021",
+          "journal-title": "J Allergy Clin Immunol"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "237",
+          "DOI": "10.2500/aap.2023.44.230028",
+          "article-title": "Peptide immunotherapy for aeroallergens",
+          "volume": "44",
+          "year": "2023",
+          "journal-title": "Allergy Asthma Proc"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "1879",
+          "DOI": "10.1016/j.jaip.2020.12.029",
+          "article-title": "Continuous and Daily Oral Immunotherapy for Peanut Allergy: Results from a 2-Year Open-Label Follow-On Study",
+          "volume": "9",
+          "year": "2021",
+          "journal-title": "J Allergy Clin Immunol Pract"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "1150",
+          "DOI": "10.1111/cea.12571",
+          "article-title": "What makes an allergen?",
+          "volume": "45",
+          "year": "2015",
+          "journal-title": "Clin Exp Allergy"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molimm.2008.07.034"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jaci.2008.01.025"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.10",
+          "first-page": "113",
+          "article-title": "An Allergen Portrait Gallery: Representative Structures and an Overview of IgE Binding Surfaces",
+          "volume": "4",
+          "year": "2010",
+          "journal-title": "Bioinform Biol Insights"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1522",
+          "DOI": "10.1111/j.1398-9995.2011.02692.x",
+          "article-title": "Computationally predicted IgE epitopes of walnut allergens contribute to cross-reactivity with peanuts",
+          "volume": "66",
+          "year": "2011",
+          "journal-title": "Allergy"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molimm.2020.03.017"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jf051148a"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Negi SS , Schein CH , Braun W . The updated Structural Database of Allergenic Proteins (SDAP 2.0) provides 3D models for allergens and incorporated bioinformatics tools, J Allergy Clin Immunol Glob 2023;2:100162.",
+          "DOI": "10.1016/j.jacig.2023.100162"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "269",
+          "DOI": "10.1007/978-1-0716-3453-0_18",
+          "article-title": "Identifying Similar Allergens and Potentially Cross-Reacting Areas Using Structural Database of Allergenic Proteins (SDAP) Tools and D-Graph",
+          "volume": "2717",
+          "year": "2024",
+          "journal-title": "Methods Mol Biol"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "van Ree R , Sapiter Ballerda D , Berin MC et al. The COMPARE Database: A Public Resource for Allergen Identification, Adapted for Continuous Improvement, Front Allergy 2021;2:700533.",
+          "DOI": "10.3389/falgy.2021.700533"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sharma N , Patiyal S , Dhall A et al. AlgPred 2.0: an improved method for predicting allergenic proteins and mapping of IgE epitopes, Brief Bioinform 2021;22.",
+          "DOI": "10.1093/bib/bbaa294"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.1016/j.molimm.2018.03.011",
+          "article-title": "Tree nut allergens",
+          "volume": "100",
+          "year": "2018",
+          "journal-title": "Mol Immunol"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "148",
+          "DOI": "10.23822/EurAnnACI.1764-1489.54",
+          "article-title": "Storage molecules from tree nuts, seeds and legumes: relationships and amino acid identity among homologue molecules",
+          "volume": "50",
+          "year": "2018",
+          "journal-title": "Eur Ann Allergy Clin Immunol"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp335"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "169",
+          "DOI": "10.1016/j.jaci.2020.02.033",
+          "article-title": "Gal d 7-a major allergen in primary chicken meat allergy",
+          "volume": "146",
+          "year": "2020",
+          "journal-title": "J Allergy Clin Immunol"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "e68014",
+          "DOI": "10.1371/journal.pone.0068014",
+          "article-title": "The proline-rich motif of the proDer p 3 allergen propeptide is crucial for protease-protease interaction",
+          "volume": "8",
+          "year": "2013",
+          "journal-title": "PLoS One"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "1154",
+          "DOI": "10.1016/j.jaci.2020.11.004",
+          "article-title": "The importance of the 2S albumins for allergenicity and cross-reactivity of peanuts, tree nuts, and sesame seeds",
+          "volume": "147",
+          "year": "2021",
+          "journal-title": "J Allergy Clin Immunol"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "37",
+          "DOI": "10.1007/s12016-020-08810-9",
+          "article-title": "Are Physicochemical Properties Shaping the Allergenic Potency of Plant Allergens?",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "Clin Rev Allergy Immunol"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molimm.2018.03.022"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jaci.2007.07.024"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt619"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molimm.2007.09.014"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "e2300134",
+          "DOI": "10.1002/mnfr.202300134",
+          "article-title": "Alanine Scanning of the Unstructured Region of Ara h 2 and of a Related Mimotope Reveals Critical Amino Acids for IgE Binding",
+          "volume": "67",
+          "year": "2023",
+          "journal-title": "Mol Nutr Food Res"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "1580",
+          "DOI": "10.1039/D1CB00169H",
+          "article-title": "An overview of methods for the structural and functional mapping of epitopes recognized by anti-SARS-CoV-2 antibodies",
+          "volume": "2",
+          "year": "2021",
+          "journal-title": "RSC Chem Biol"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.360221211"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Schein CH. Conditionally toxic proteins. Boca Raton, FL: CRC Press,, 2024, 1 online resource.",
+          "DOI": "10.1201/9781003333319"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1028"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4213"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq003"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl158"
+        },
+        {
+          "key": "2024070100150564000_2024.06.22.600179v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.neunet.2014.09.003"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.06.22.600179",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:37:35Z",
+        "timestamp": 1768459055000
+      },
+      "score": 51.05974,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.06.22.600179"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            27
+          ]
+        ]
+      },
+      "references-count": 38,
+      "URL": "https://doi.org/10.1101/2024.06.22.600179",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            27
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

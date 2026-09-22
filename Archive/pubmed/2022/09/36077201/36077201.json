@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "36077201",
+    "doi": "10.3390/ijms23179811",
+    "title": "Thermodynamics of pi-pi Interactions of Benzene and Phenol in Water."
+  },
+  "content": {
+    "abstract": "The pi-pi interaction is a major driving force that stabilizes protein assemblies during protein folding. Recent studies have additionally demonstrated its involvement in the liquid-liquid phase separation (LLPS) of intrinsically disordered proteins (IDPs). As the participating residues in IDPs are exposed to water, pi-pi interactions for LLPS must be modeled in water, as opposed to the interactions that are often established at the hydrophobic domains of folded proteins. Thus, we investigated the association of free energies of benzene and phenol dimers in water by integrating van der Waals (vdW)-corrected density functional theory (DFT) and DFT in classical explicit solvents (DFT-CES). By comparing the vdW-corrected DFT and DFT-CES results with high-level wavefunction calculations and experimental solvation free energies, respectively, we established the quantitative credibility of these approaches, enabling a reliable prediction of the benzene and phenol dimer association free energies in water. We discovered that solvation influences dimer association free energies, but not significantly when no direct hydrogen-bond-type interaction exists between two monomeric units, which can be explained by the enthalpy-entropy compensation. Our comprehensive computational study of the solvation effect on pi-pi interactions in water could help us understand the molecular-level driving mechanism underlying the IDP phase behaviors.",
+    "keywords": [
+      "QM/MM",
+      "enthalpy-entropy compensation",
+      "intrinsically disordered proteins",
+      "pi-pi interaction",
+      "solvation effects"
+    ],
+    "mesh_terms": [
+      "*Benzene/chemistry",
+      "*Intrinsically Disordered Proteins",
+      "Phenol/chemistry",
+      "Thermodynamics",
+      "Water/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Paik, Dooam",
+        "Lee, Hankyul",
+        "Kim, Hyungjun",
+        "Choi, Jeong-Mo"
+      ],
+      "short_names": [
+        "Paik D",
+        "Lee H",
+        "Kim H",
+        "Choi JM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6314-5499",
+        "ORCID: 0000-0002-6397-2638",
+        "ORCID: 0000-0001-8261-9381",
+        "ORCID: 0000-0003-2656-4851"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Korea Advanced Institute of Science and Technology, Daejeon 34141, Korea.",
+        "Department of Chemistry, Korea Advanced Institute of Science and Technology, Daejeon 34141, Korea.",
+        "Department of Chemistry, Korea Advanced Institute of Science and Technology, Daejeon 34141, Korea.",
+        "Department of Chemistry, Pusan National University, Busan 46241, Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Paik, Dooam",
+        "short_name": "Paik D",
+        "identifiers": [
+          "0000-0002-6314-5499"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Korea Advanced Institute of Science and Technology, Daejeon 34141, Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Hankyul",
+        "short_name": "Lee H",
+        "identifiers": [
+          "0000-0002-6397-2638"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Korea Advanced Institute of Science and Technology, Daejeon 34141, Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Hyungjun",
+        "short_name": "Kim H",
+        "identifiers": [
+          "0000-0001-8261-9381"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Korea Advanced Institute of Science and Technology, Daejeon 34141, Korea."
+        ]
+      },
+      {
+        "full_name": "Choi, Jeong-Mo",
+        "short_name": "Choi JM",
+        "identifiers": [
+          "0000-0003-2656-4851"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Pusan National University, Busan 46241, Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Aug 29",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/10 06:00",
+    "fetched_at": "2026-09-20 14:51:43"
+  },
+  "links": {
+    "cites": [
+      "42529597",
+      "41471351",
+      "40427391",
+      "39814227",
+      "38693316",
+      "38139184"
+    ],
+    "refs": [
+      "35013347",
+      "34931046",
+      "34897920",
+      "33544852",
+      "33212590",
+      "32029630",
+      "32004090",
+      "31784535",
+      "31616006",
+      "30721623",
+      "30550939",
+      "30423973",
+      "29961577",
+      "29558139",
+      "28924037",
+      "27585395",
+      "26636198",
+      "26631657",
+      "26589022",
+      "26455390",
+      "26388440",
+      "24820859",
+      "22579281",
+      "21832390",
+      "21370243",
+      "21103600",
+      "21063580",
+      "20504009",
+      "20423165",
+      "19123492",
+      "17789637",
+      "17082456",
+      "17004834",
+      "16970354",
+      "15549884",
+      "15366893",
+      "12720316",
+      "12207544",
+      "11263874",
+      "10062328",
+      "9976227",
+      "9895674",
+      "9624131",
+      "3892686"
+    ],
+    "similar": [
+      "36077201",
+      "30721623",
+      "21063580",
+      "35597646",
+      "25338296",
+      "23214924",
+      "37515326",
+      "24691775",
+      "36450134",
+      "18247955",
+      "37735186",
+      "22288462",
+      "33139563",
+      "22443635",
+      "25271890",
+      "32859072",
+      "18476681",
+      "28933850",
+      "27585395",
+      "18535714",
+      "16646466",
+      "30423973",
+      "16178597",
+      "26579767",
+      "29424691",
+      "24771291",
+      "25004256",
+      "20517573",
+      "26350249",
+      "23032913",
+      "21166382",
+      "21728337",
+      "36186571",
+      "28914483",
+      "16833747",
+      "18729422",
+      "32403089",
+      "16834301",
+      "16970377",
+      "22612331",
+      "35944496",
+      "40569578",
+      "38579126",
+      "21812469",
+      "15228961",
+      "39998168",
+      "28226222",
+      "33306906",
+      "16866469",
+      "30703278",
+      "40857148",
+      "20175508",
+      "33684117",
+      "19241386",
+      "33048555",
+      "11943874",
+      "29663544",
+      "34029402",
+      "18621822",
+      "22581060",
+      "21666925",
+      "19278258",
+      "23247410",
+      "22872015",
+      "34137593",
+      "41266368",
+      "9648207",
+      "40094230",
+      "33876938",
+      "24086122",
+      "12797816",
+      "17266213",
+      "25844814",
+      "19072625",
+      "37840355",
+      "30865832",
+      "31939104",
+      "28613904",
+      "38184084",
+      "19545155",
+      "20928850",
+      "33890467",
+      "26851279",
+      "35635541",
+      "7563056",
+      "21303165",
+      "27682345",
+      "31756104",
+      "39907269",
+      "25399195",
+      "33302617",
+      "31853494",
+      "21978376",
+      "39775115",
+      "39225535",
+      "20831237",
+      "24317797",
+      "24773000",
+      "29604891",
+      "35657708"
+    ],
+    "review": [
+      "36077201",
+      "28226222",
+      "33306906",
+      "25844814"
+    ],
+    "pmc": [
+      "9456204"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23179811",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36077201/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36077201",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

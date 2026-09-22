@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40729735",
+  "title": "A Prion-Like Domain in EBV EBNA1 Promotes Phase Separation and Enables SRRM1 Splicing.",
+  "authors": "Zhang, Xiaoyue; Li, Zhengshuo; Zheng, Run; Zheng, Xiang; Wang, Jia; Liu, Can; Wu, Yangge; Wen, Yuqing; Ou, Chunlin; Fan, Songqing; Xu, Chenxiao; Tian, Junrui; Yan, Qun; Nan, Hao; Xu, Xiaodong; Wang, Hui; Peng, Qiu; Ma, Jian",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2025-07-29",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合算法预测与实验验证，揭示EBV EBNA1的朊病毒样结构域驱动相分离并介导与剪接因子SRSF1的互作，调控SRRM1剪接促进肿瘤进展，聚焦IDR介导的PPI与相分离机制，但方法以实验为主、AI/物理模拟为辅，故评7分。",
+  "abstract": "Epstein-Barr virus (EBV) nuclear antigen 1 (EBNA1) is necessary to maintain stability of EBV episomes, EBV replication, and causes host genomic instability and promotes tumor cells survival. Recent studies have shown that viruses utilize liquid-liquid phase separation (LLPS) within host cells to form sub-cellular compartments known as \"virus factories\". Prion-like domains (PrLDs), which resemble structural domains of low complexity, are shown to drive LLPS in vivo. In the current study, a PrLD is identified in EBNA1 and aggregation of EBNA1 proteins is observed in EBV-positive tumors. EBNA1 condensate interacting molecules are examined and are found that EBNA1 interacts with the splicing factor SRSF1 to regulate alternative splicing of SRRM1 and promote tumor progression. Deleting the EBNA1 PrLD results in defects in protein aggregation, LLPS, alternative splicing regulation, and nasopharyngeal carcinoma cells proliferation. Targeting the PrLD of EBNA1 inhibits the formation of protein aggregation, promotes alternative splicing of SRRM1, and inhibits the progression of nasopharyngeal carcinoma. Here, we report for the first time that EBNA1, a protein from the human oncogenic virus EBV, is a prion-like protein, combining algorithm prediction and experimental validation. That implies a possible molecular pathogenic mechanism of EBNA1 in neurodegenerative diseases.",
+  "abstract_zh": "EB病毒（EBV）核抗原1（EBNA1）对于维持EBV附加体的稳定性、EBV复制是必需的，并导致宿主基因组不稳定及促进肿瘤细胞存活。近期研究表明，病毒利用宿主细胞内的液-液相分离（LLPS）形成称为“病毒工厂”的亚细胞区室。朊病毒样结构域（PrLDs），类似于低复杂性结构域，已被证明在体内驱动LLPS。在本研究中，在EBNA1中鉴定出一个PrLD，并在EBV阳性肿瘤中观察到EBNA1蛋白的聚集。对EBNA1凝聚体相互作用分子进行了检测，发现EBNA1与剪接因子SRSF1相互作用，以调节SRRM1的选择性剪接并促进肿瘤进展。删除EBNA1的PrLD导致蛋白质聚集、LLPS、选择性剪接调控及鼻咽癌细胞增殖方面的缺陷。靶向EBNA1的PrLD抑制蛋白质聚集的形成，促进SRRM1的选择性剪接，并抑制鼻咽癌的进展。在此，我们首次报道来自人类致癌病毒EBV的EBNA1蛋白是一种朊病毒样蛋白，结合了算法预测与实验验证。这暗示了EBNA1在神经退行性疾病中可能的分子致病机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40729735/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40729735/",
+  "paper_page_path": "papers/pubmed/40729735/index.html"
+}

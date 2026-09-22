@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41493236",
+  "title": "Tomato Spotted Wilt Virus Reprogrammes Host Glycolysis to Facilitate Proliferation by a Phase-Separated Co-Aggregate of Nucleocapsid Protein and Phosphoglycerate Kinase.",
+  "authors": "Zu, Guangcheng; Xing, Zhifu; Li, Jiao; Yang, Tangbing; Wu, Huan; Ge, Qiangsheng; Wang, Yanju; Song, Baoan; Song, Runjiang",
+  "journal": "Plant biotechnology journal",
+  "published_date": "2026-01-06",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究揭示番茄斑萎病毒核衣壳蛋白与宿主磷酸甘油酸激酶通过相分离共凝聚重塑糖酵解供能促病毒增殖，并用分子对接等物理方法开发小分子调节剂，虽对象为病毒-宿主互作而非典型IDP-PPI，但相分离介导的互作机制建模与AI/物理方法结合对本课题有较强启发。",
+  "abstract": "Efficient viral proliferation within the host is a critical step in pathogenicity and requires adenosine triphosphate (ATP). The replication, movement and immune evasion of many plant viruses within their hosts are associated with phase separation (PS)-derived aggregates formed by viral components. However, the host factors that drive the formation of these condensates remain largely unknown. This study provides evidence that the nucleocapsid protein (N) of tomato spotted wilt virus (TSWV) recruits the host factor phosphoglycerate kinase (NbPGK) from Nicotiana benthamiana to form phase-separated condensates. This remodels the host glycolytic pathway to generate ATP, supplying energy for viral replication via ribonucleoprotein complexes and acting as a promoter to regulate the PS network, thereby facilitating condensate formation. Notably, we have developed a small-molecule PS modulator, F10. By combining drug affinity-responsive target stability, molecular docking, microscale thermophoresis and bio-layer interferometry techniques allowed F10, we confirmed binding to sites Arg94, Lys192 and Gly228 on TSWV N, residues critical for maintaining NbPGK recruitment. F10 interacts with N, liberating the hijacked host factor NbPGK, and exhibits potent antiviral activity, outperforming the commercial virucide Ningnanmycin. This study elucidates the molecular machinery underlying viral exploitation of host cellular metabolism and identifies a lead compound that is amenable to managing TSWV by targeting this process.",
+  "abstract_zh": "宿主内病毒的高效增殖是致病性的关键步骤，需要三磷酸腺苷（ATP）。许多植物病毒在宿主内的复制、移动和免疫逃逸与病毒组分形成的相分离（phase separation, PS）衍生聚集体相关。然而，驱动这些凝聚体形成的宿主因子在很大程度上仍属未知。本研究提供证据表明，番茄斑萎病毒（TSWV）的核衣壳蛋白（N）招募来自本氏烟（Nicotiana benthamiana）的宿主因子磷酸甘油酸激酶（NbPGK）以形成相分离凝聚体。这重塑了宿主糖酵解途径以生成ATP，通过核糖核蛋白复合体为病毒复制提供能量，并作为启动子调节PS网络，从而促进凝聚体形成。值得注意的是，我们开发了一种小分子PS调节剂F10。通过结合药物亲和响应靶标稳定性、分子对接、微量热泳动和生物层干涉技术，我们确认F10与TSWV N上的Arg94、Lys192和Gly228位点结合，这些残基对维持NbPGK招募至关重要。F10与N相互作用，释放被劫持的宿主因子NbPGK，并表现出强效抗病毒活性，优于商业杀病毒剂宁南霉素。本研究阐明了病毒利用宿主细胞代谢的分子机制，并鉴定了一种可通过靶向该过程来管理TSWV的先导化合物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41493236/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41493236/",
+  "paper_page_path": "papers/pubmed/41493236/index.html"
+}

@@ -1,0 +1,255 @@
+{
+  "identity": {
+    "pmid": "36830723",
+    "doi": "10.3390/biom13020354",
+    "title": "In Vivo Protein-Protein Binding Competition Assay Based on Split-GFP Reassembly: Proof of Concept."
+  },
+  "content": {
+    "abstract": "The split-green fluorescent protein (GFP) reassembly assay is a well-established approach to study protein-protein interactions (PPIs). In this assay, when two interacting proteins X and Y, respectively fused to residues 1-157 and to residues 158-237 of GFP, are co-expressed in E. coli, the two GFP halves are brought to sufficient proximity to reassociate and fold to recreate the functional GFP. At constant protein expression level, the intensity of fluorescence produced by the bacteria is proportional to the binding affinity of X to Y. We hypothesized that adding a third partner (Z) endowed with an affinity for either X or Y would lead to an in vivo competition assay. We report here the different steps of the set-up of this competition assay, and define the experimental conditions required to obtained reliable results. Results show that this competition assay is a potentially interesting tool for screening libraries of binding inhibitors, Z being either a protein or a chemical reagent.",
+    "keywords": [
+      "binding competition assays",
+      "fluorescence",
+      "intrinsically disordered proteins",
+      "protein complementation assays",
+      "protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "Green Fluorescent Proteins/metabolism",
+      "Protein Binding",
+      "*Escherichia coli/metabolism",
+      "Fluorescence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bignon, Christophe",
+        "Longhi, Sonia"
+      ],
+      "short_names": [
+        "Bignon C",
+        "Longhi S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6829-6771"
+      ],
+      "affiliations": [
+        "Laboratory Architecture et Fonction des Macromolecules Biologiques (AFMB), UMR 7257, Centre National de la Recherche Scientifique (CNRS), Aix Marseille University, CEDEX 9, 13288 Marseille, France.",
+        "Laboratory Architecture et Fonction des Macromolecules Biologiques (AFMB), UMR 7257, Centre National de la Recherche Scientifique (CNRS), Aix Marseille University, CEDEX 9, 13288 Marseille, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bignon, Christophe",
+        "short_name": "Bignon C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory Architecture et Fonction des Macromolécules Biologiques (AFMB), UMR 7257, Centre National de la Recherche Scientifique (CNRS), Aix Marseille University, CEDEX 9, 13288 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Longhi, Sonia",
+        "short_name": "Longhi S",
+        "identifiers": [
+          "0000-0002-6829-6771"
+        ],
+        "affiliations": [
+          "Laboratory Architecture et Fonction des Macromolécules Biologiques (AFMB), UMR 7257, Centre National de la Recherche Scientifique (CNRS), Aix Marseille University, CEDEX 9, 13288 Marseille, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2023 Feb 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/26 06:00",
+    "fetched_at": "2026-09-20 19:29:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36613842",
+      "36361946",
+      "34572537",
+      "33368198",
+      "32847148",
+      "32630327",
+      "30591682",
+      "29286306",
+      "29197511",
+      "27208310",
+      "26684000",
+      "25511246",
+      "24693427",
+      "24092409",
+      "23811056",
+      "22613562",
+      "19718689",
+      "16116786",
+      "16046624",
+      "15914229",
+      "15631464",
+      "15388864",
+      "15159535",
+      "12944395",
+      "12621042",
+      "12530529",
+      "12163594"
+    ],
+    "similar": [
+      "36830723",
+      "36361946",
+      "29451720",
+      "18254382",
+      "31267465",
+      "34592997",
+      "20038141",
+      "22692102",
+      "18493658",
+      "23811056",
+      "11791555",
+      "31267460",
+      "38580785",
+      "18481985",
+      "16325147",
+      "20005264",
+      "16369541",
+      "22285978",
+      "19472338",
+      "18602837",
+      "24092409",
+      "26539718",
+      "18167569",
+      "15580262",
+      "17908237",
+      "26482850",
+      "20967587",
+      "16470873",
+      "34689104",
+      "28619616",
+      "16448510",
+      "16990817",
+      "15859336",
+      "31356938",
+      "12561575",
+      "21041669",
+      "10869087",
+      "19390851",
+      "20601504",
+      "24795367",
+      "20429908",
+      "30143736",
+      "15473692",
+      "15081937",
+      "12515863",
+      "18338218",
+      "19063714",
+      "27390756",
+      "10649231",
+      "23423887",
+      "19177357",
+      "26116467",
+      "22531449",
+      "28842906",
+      "18582054",
+      "21860380",
+      "34230602",
+      "19413350",
+      "24746734",
+      "27156693",
+      "12270814",
+      "18622760",
+      "23255255",
+      "26782429",
+      "23303739",
+      "30950341",
+      "21845100",
+      "36586793",
+      "22587529",
+      "9423875",
+      "22070901",
+      "9385636",
+      "28114338",
+      "29070802",
+      "16081045",
+      "10404163",
+      "25590335",
+      "10529401",
+      "9495771",
+      "26397806",
+      "16332845",
+      "16939649",
+      "33325704",
+      "22963334",
+      "16739971",
+      "30241530",
+      "15137081",
+      "30940526",
+      "15940784",
+      "23536995",
+      "23790548",
+      "30618266",
+      "10952008",
+      "11456464",
+      "27268028",
+      "29336241",
+      "18621900",
+      "22991498"
+    ],
+    "review": [
+      "36830723",
+      "22070901"
+    ],
+    "pmc": [
+      "9952896"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom13020354",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36830723/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36830723",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:36830723",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

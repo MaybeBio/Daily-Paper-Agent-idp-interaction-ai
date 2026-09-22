@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37001147",
+  "title": "Biomimetic SARS-CoV-2 Spike Protein Nanoparticles.",
+  "authors": "Phan, Alvin; Avila, Hugo; MacKay, J Andrew",
+  "journal": "Biomacromolecules",
+  "published_date": "2023-04-01",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用ELP相分离构建SARS-CoV-2刺突蛋白RBD仿生纳米颗粒并测其与hACE2结合，虽涉及相分离和结合亲和力，但对象非IDP/IDR，且无AI或物理模拟的机制建模，仅作应用性研究。",
+  "abstract": "COVID-19 is an infectious respiratory disease caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). This virus contains a crucial coat protein that engages with target cells via a receptor binding domain (RBD) on its spike protein. To better study the RBD and its therapeutic opportunities, we genetically engineered a simple fusion with a thermo-responsive elastin-like polypeptide (ELP). These fusions express in Escherichia coli at a high yield in the soluble fraction and were easily purified using ELP-mediated phase separation (79 mg/L culture). Interestingly, they assembled peptide-based nanoparticles (R(h) = 71.4 nm), which was attributed to oligomerization of RBDs (25.3 kDa) counterbalanced by steric stabilization by a soluble ELP (73.4 kDa). To investigate their biophysical properties, we explored the size, shape, and binding affinity for the human angiotensin-converting enzyme 2 (hACE2) and cellular uptake. Biomimetic nanoparticles such as these may enable future strategies to target the same cells, tissues, and cell-surface receptors as those harnessed by SARS-CoV-2.",
+  "abstract_zh": "COVID-19是一种由严重急性呼吸综合征冠状病毒2（SARS-CoV-2）引起的传染性呼吸道疾病。该病毒含有一个关键的外壳蛋白，通过其刺突蛋白上的受体结合域（RBD）与靶细胞结合。为了更好地研究RBD及其治疗潜力，我们通过基因工程构建了一种与热响应性弹性蛋白样多肽（ELP）的简单融合体。这些融合体在大肠杆菌中可溶性部分高产量表达，并利用ELP介导的相分离（phase separation）轻松纯化（79 mg/L培养物）。有趣的是，它们组装成肽基纳米颗粒（R(h) = 71.4 nm），这归因于RBD（25.3 kDa）的寡聚化，并由可溶性ELP（73.4 kDa）的空间稳定作用所平衡。为了研究其生物物理特性，我们探讨了其大小、形状、与人血管紧张素转换酶2（hACE2）的结合亲和力以及细胞摄取。此类仿生纳米颗粒可能为未来策略提供支持，以靶向SARS-CoV-2所利用的相同细胞、组织和细胞表面受体。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37001147/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37001147/",
+  "paper_page_path": "papers/pubmed/37001147/index.html"
+}

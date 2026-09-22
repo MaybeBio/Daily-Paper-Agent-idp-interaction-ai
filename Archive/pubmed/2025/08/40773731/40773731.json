@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "40773731",
+    "doi": "10.1021/acs.jpclett.5c01656",
+    "title": "RNA Structural Complexity Dictates Its Ion Atmosphere."
+  },
+  "content": {
+    "abstract": "Electrostatic interactions mediated by surrounding ions critically influence RNA behavior, yet flexible RNAs remain underexplored. We performed molecular dynamics simulations to examine three RNAs across the structural continuum: unstructured poly uridylic tract (rU(30)), a semiflexible cytosine-adenine-guanine (CAG) repeat, and a tightly folded pseudoknot. Despite similar net charges, rU(30) attracts a diffuse Mg(2+) cloud extending beyond two hydration shells, while the CAG repeat and pseudoknot favor more compact outer-sphere Mg(2+) binding. In contrast, Ca(2+) consistently forms inner-sphere contacts across all three RNAs. Remarkably, the ion atmospheres around unstructured RNAs extend farther into solution than that of the folded RNAs, significantly broadening their electrostatic sphere of influence. Nonetheless, the ion exchange kinetics remain virtually unchanged, demonstrating a surprising decoupling between spatial distribution and dynamical turnover. Our findings reveal RNA structural flexibility as a powerful lever for tuning ionic screening, with important implications for biomolecular recognition, phase separation, and biophysical properties of RNA-rich condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "*RNA/chemistry",
+      "Nucleic Acid Conformation",
+      "Ions/chemistry",
+      "Magnesium/chemistry",
+      "Static Electricity",
+      "Calcium/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maity, Hiranmay",
+        "Zhang, Heyang",
+        "Thirumalai, D",
+        "Nguyen, Hung T"
+      ],
+      "short_names": [
+        "Maity H",
+        "Zhang H",
+        "Thirumalai D",
+        "Nguyen HT"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1801-5924",
+        "ORCID: 0009-0003-4838-7734"
+      ],
+      "affiliations": [
+        "Department of Chemistry, The State University of New York at Buffalo, Buffalo, New York 14260, United States.",
+        "Department of Chemistry, The State University of New York at Buffalo, Buffalo, New York 14260, United States.",
+        "Department of Chemistry, The University of Texas at Austin, Austin, Texas 78712, United States.",
+        "Department of Chemistry, The State University of New York at Buffalo, Buffalo, New York 14260, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maity, Hiranmay",
+        "short_name": "Maity H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The State University of New York at Buffalo, Buffalo, New York 14260, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Heyang",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, The State University of New York at Buffalo, Buffalo, New York 14260, United States."
+        ]
+      },
+      {
+        "full_name": "Thirumalai, D",
+        "short_name": "Thirumalai D",
+        "identifiers": [
+          "0000-0003-1801-5924"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Hung T",
+        "short_name": "Nguyen HT",
+        "identifiers": [
+          "0009-0003-4838-7734"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The State University of New York at Buffalo, Buffalo, New York 14260, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2025 Aug 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/07 18:27",
+    "fetched_at": "2026-09-21 22:09:01"
+  },
+  "links": {
+    "cites": [
+      "41891879"
+    ],
+    "refs": [],
+    "similar": [
+      "40773731",
+      "29718375",
+      "41187075",
+      "22612276",
+      "39508828",
+      "34106719",
+      "31804813",
+      "22010269",
+      "38501190",
+      "31466697",
+      "9782053",
+      "41129218",
+      "25106614",
+      "24606136",
+      "36989143",
+      "39807887",
+      "24983118",
+      "10903858",
+      "34241062",
+      "20701388",
+      "29590585",
+      "22947944",
+      "26197147",
+      "10373367",
+      "39344128",
+      "19482035",
+      "15869389",
+      "12354079",
+      "33284610",
+      "19888753",
+      "32845610",
+      "39225633",
+      "24322001",
+      "39605385",
+      "35001626",
+      "22385853",
+      "22963740",
+      "19081286",
+      "21999672",
+      "18573079",
+      "12627964",
+      "24016251",
+      "33720710",
+      "27841650",
+      "20108957",
+      "11955006",
+      "22035057",
+      "27131566",
+      "20946801",
+      "12837388",
+      "30676755",
+      "17315982",
+      "16970483",
+      "23912807",
+      "27479701",
+      "28730429",
+      "30612712",
+      "34715079",
+      "28115628",
+      "23306735",
+      "40616978",
+      "29907048",
+      "16966612",
+      "26682821",
+      "18722445",
+      "25494774",
+      "19754142",
+      "33586809",
+      "11904368",
+      "20518549",
+      "24762118",
+      "30102033",
+      "27036864",
+      "30468380",
+      "20702420",
+      "30780336",
+      "20734494",
+      "14970378",
+      "21936532",
+      "28148825",
+      "31913262",
+      "27490487",
+      "24443090",
+      "12914458",
+      "16863379",
+      "16853772",
+      "30211556",
+      "17488097",
+      "35862934",
+      "41263658",
+      "22082261",
+      "32769092",
+      "38569994",
+      "22889116",
+      "25494770",
+      "10734195",
+      "10333741",
+      "21723828",
+      "15941246",
+      "28780864"
+    ],
+    "review": [
+      "40773731",
+      "22010269",
+      "38501190",
+      "24606136",
+      "15869389",
+      "19081286",
+      "18573079",
+      "40616978",
+      "14970378"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.5c01656",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

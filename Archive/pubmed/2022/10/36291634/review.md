@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusions
+- **Assessment boundary** Scientific claims, methodological soundness, data interpretation, and alignment with stated conclusions
+- **Shared manuscript claim summary** The authors investigate whether the enrichment of glutamate over aspartate in intrinsically disordered proteins (IDPs) arises from functional or structural differences between these two chemically similar amino acids. Using the disordered protein Dss1 from S. pombe, they compare variants with different Glu/Asp compositions and find that global properties (dimensions, compaction) are largely unaffected, while local properties (transient helicity, binding affinity) differ. They propose that glutamate's preference for helix stabilization and aspartate's role in extended structures and helix capping may explain the observed compositional bias in IDPs.
+- **Visible evidence base** Sequence composition analyses (DisProt vs. folded protein databases), yeast growth complementation assays, NMR chemical shift assignments and secondary chemical shift analysis, ubiquitin binding titrations with KD determination, SAXS measurements, DOSY diffusion measurements, and MD simulations with enhanced sampling
+- **Missing materials affecting confidence** Raw NMR spectra and assignment tables, SAXS data curves and fitting parameters, MD simulation convergence metrics and force field validation details, statistical analysis details for growth assays, peptide synthesis and characterization data, and supplementary figures referenced but not provided
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a long-standing observation in the IDP field, namely the enrichment of glutamate over aspartate, and attempts to provide a mechanistic explanation through a combination of bioinformatics, experimental biophysics, and simulation. The study is well-motivated and the multi-technique approach is commendable. However, the central conclusion that local structural differences explain the compositional bias rests on relatively small effects that are at the limit of detection for the methods used. The manuscript would benefit from clearer quantification of uncertainties, more direct evidence linking the observed local effects to evolutionary selection pressures, and a more critical discussion of alternative explanations. The work is of interest to the IDP community but the strength of the conclusions currently exceeds what the data robustly support.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those interested in sequence-to-conformation relationships, the role of charged residues in IDP behavior, and the evolutionary pressures shaping IDP sequences. The work is also relevant to those studying protein-protein interactions involving IDPs, as the binding affinity differences observed could have functional implications. The methodological combination of NMR, SAXS, and MD simulation will appeal to biophysicists working on disordered systems.
+- **Major strengths** The study combines multiple complementary techniques to address a fundamental question in IDP biology. The use of a well-characterized model IDP (Dss1) with known functional readouts is appropriate. The bioinformatics analysis revisiting the compositional bias with updated databases is valuable. The design of Glu/Asp variants is logical and allows systematic comparison. The observation that global properties are conserved while local properties differ is an important finding. The peptide studies to isolate specific effects are well-designed.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that "glutamate and aspartate confer different functional and structural properties in an IDP acting on a local scale, which may contribute to the observed higher enrichment of glutamate in IDPs."
+  - **Evidence pointer** Section 3.4, Figures 6 and 7
+  - **Concern** The central conclusion that local structural differences explain the compositional bias is based on relatively small differences in transient helicity and binding affinity. The NMR-derived helicity differences between variants are modest (e.g., 27.7% to 29.3% for D54E, a 6% gain), and the authors themselves note that MD simulations do not capture the population differences observed experimentally. The binding affinity differences (3.5-7.5-fold weaker for variants) are reported without confidence intervals or statistical significance testing. The link between these small local effects and the evolutionary enrichment of glutamate in IDPs is speculative and not directly tested.
+  - **Why it matters** The manuscript's primary contribution is the proposed mechanistic explanation for a well-known compositional bias. If the local effects are not robustly quantified or statistically validated, the central claim is weakened. The evolutionary argument requires a stronger connection between the observed biophysical differences and selective pressures.
+  - **Resolution test** Provide confidence intervals for all measured quantities (helicity, KD values, Rg, RH). Perform statistical tests comparing variants to WT. Demonstrate that the observed differences are reproducible across independent measurements. Ideally, show a direct correlation between the magnitude of local structural differences and the degree of evolutionary conservation or enrichment.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "we determined the fold-change in affinity from global fitting to the CSPs of all variants using data from the same residue, either T39 or L40" and report that "All variants bound mono-ubiquitin 3.5-7.5-fold weaker than WT Dss1."
+  - **Evidence pointer** Section 2.5, Section 3.2.2, Figure 4
+  - **Concern** The KD determination methodology is problematic. The authors state that titrations did not reach saturation and that intermediate exchange was observed, yet they proceed with a global fitting approach that fixes the maximum CSP (Δδmax) to WT values. This assumes that the binding interface and chemical environment are identical across variants, which may not be valid given the sequence changes. The reported fold-changes are therefore model-dependent and may not reflect true affinity differences. No error estimates or goodness-of-fit metrics are provided.
+  - **Why it matters** The binding affinity differences are a key piece of evidence for functional differences between Glu and Asp. If the KD values are not reliably determined, this claim is not supported. The methodological limitations should be acknowledged and alternative approaches (e.g., ITC, SPR) considered.
+  - **Resolution test** Provide a more rigorous binding analysis, either by reaching saturation in titrations, using a method that does not require saturation (e.g., ITC), or by clearly stating the limitations of the current approach and providing error estimates. Show that the fitting model is appropriate for the data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors conclude that "the dimension of the disordered Dss1 is largely indifferent to the difference between these anionic amino acids" based on RH and Rg measurements.
+  - **Evidence pointer** Section 3.3, Figure 5
+  - **Concern** The RH values for All-E and Swap variants are reported as 17% and 13% larger than WT, respectively. While the authors interpret this as "slightly larger," a 13-17% change in hydrodynamic radius is not negligible for a disordered protein and could reflect meaningful differences in the ensemble. The Rg values from SAXS and MD are stated to show "no substantial differences," but no quantitative comparison or statistical analysis is provided. The MD simulation of the Swap variant showed a "slightly more expanded chain," which is consistent with the RH trend but not discussed in this context.
+  - **Why it matters** The claim that global properties are unaffected is central to the manuscript's narrative that Glu/Asp differences act locally. If the global differences are actually meaningful, the interpretation changes. The authors should either strengthen the claim with statistical analysis or soften the conclusion.
+  - **Resolution test** Provide statistical analysis of RH and Rg differences (e.g., t-tests with appropriate corrections). Report effect sizes and confidence intervals. Discuss whether the observed differences are within experimental uncertainty or represent real biophysical changes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness
+  - **Claim pointer** The authors state that "we analyze the sequences of the rapidly growing database of experimentally verified IDPs (DisProt) and show that glutamate enrichment is not caused by a taxonomy bias in IDPs."
+  - **Evidence pointer** Section 3.1, Figure 2
+  - **Concern** The taxonomy bias analysis is described only briefly. The authors mention creating species-specific profiles (eukaryotic and human) but do not provide details on how these were constructed, what statistical tests were used, or whether other potential biases (e.g., protein length, functional class, subcellular localization) were considered. The conclusion that the bias is not taxonomic is therefore not fully supported by the presented evidence.
+  - **Why it matters** The bioinformatics analysis is the foundation for the entire study. If the compositional bias is not robustly established, the subsequent biophysical investigation lacks clear motivation. A more thorough analysis would strengthen the manuscript.
+  - **Resolution test** Provide a more detailed description of the bioinformatics methods, including how species-specific profiles were generated, what statistical tests were used, and whether alternative explanations for the bias were considered. Show that the results are robust to different background datasets and analysis parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that "glutamates can support increased helicity, important for folding and binding, while aspartates support extended structures and form helical caps." This is presented as a conclusion, but the evidence for the helical cap function of aspartates is indirect and based on limited observations.
+  - **Required correction** Soften the language to indicate that these are hypotheses or suggestions rather than established conclusions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** MD simulation methodology
+  - **Evidence pointer** Section 2.9
+  - **Issue** The MD simulation methods are described in detail, but no information is provided on force field validation, equilibration criteria, or convergence assessment beyond the block averaging for Rg errors. The choice of collective variables and bias parameters is not justified.
+  - **Required correction** Add a brief justification for the simulation parameters and include convergence metrics (e.g., time evolution of free energy surfaces, sampling efficiency).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 3
+  - **Evidence pointer** Section 3.2.1, Figure 3
+  - **Issue** The growth assay data are presented qualitatively (images of plates). No quantitative growth curves or statistical analysis are provided.
+  - **Required correction** Consider adding quantitative growth measurements or at least a statement about the reproducibility of the qualitative results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4, location not provided
+  - **Issue** The discussion of alternative explanations for the Glu/Asp bias is limited. The authors mention calcium binding and transactivation domains but do not explore other possibilities, such as differences in post-translational modification, interaction with specific binding partners, or effects on aggregation propensity.
+  - **Required correction** Expand the discussion to consider a broader range of potential explanations and acknowledge the limitations of the current study in addressing them.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Section 2, location not provided
+  - **Issue** The manuscript does not state whether the NMR assignments and other data have been deposited in public repositories (e.g., BMRB, SASBDB).
+  - **Required correction** Add a data availability statement indicating where raw data can be accessed.
+
+## Risk / unsupported claims
+- The claim that local structural differences in Dss1 explain the evolutionary enrichment of glutamate in IDPs is speculative and not directly tested. The manuscript does not provide evidence that the observed effects are generalizable beyond Dss1.
+- The statement that "aspartates support extended structures and form helical caps" is based on limited observations and is presented as a general principle without sufficient supporting evidence.
+- The claim that the compositional bias is not caused by taxonomy is based on a brief analysis that is not fully described.
+- The KD values for ubiquitin binding are reported without error estimates or statistical validation, making the quantitative comparison between variants unreliable.
+- The assertion that "the dimension of the disordered Dss1 is largely indifferent to the difference between these anionic amino acids" is weakened by the 13-17% differences in RH, which are not statistically analyzed.
+- The manuscript does not provide evidence that the small differences in transient helicity observed would have meaningful functional consequences in a cellular context, beyond the speculative discussion.

@@ -1,0 +1,409 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.09.622674",
+  "title": "Bivalent interaction through an intrinsically disordered linker promotes transcription activation complex assembly in Notch signaling",
+  "doi": "10.1101/2024.11.09.622674",
+  "abstract": "The Notch signaling pathway regulates cellular differentiation by activating transcription through an unusual heterotrimeric complex comprising the Notch receptor’s intracellular domain (NICD), the DNA-binding protein CSL, and the coactivator MAML. NICD has two binding sites for CSL, a short motif in the RAM region and an ankyrin domain (ANK), connected by an intrinsically disordered linker and which form a bivalent ternary complex with CSL and MAML. Although bivalency is required for maximal transcription activation, the energetic contributions of bivalency and heterotrimer formation within this essential complex are unknown. To elucidate the energetics of bivalency we first determine the free energy of the CSL-ANK-MAML heterotrimer, using isothermal titration calorimetry and developing an obligate heterotrimer model to analyze the data. By comparing this heterotrimerization reaction with binding reactions involving different regions of RAMANK, we determine the energetic contribution of bivalency to heterotrimer assembly. We show that bivalency through the disordered linker increases the effective concentration of ANK, and that the bivalent interaction enhances occupancy of RAM and ANK at their binding sites on CSL by about three orders of magnitude. By redefining the standard state to a lower, more physiological protein concentration, we reveal the importance of the RAMANK intrinsically disordered linker for assembly of the Notch transcription activation complex. This work provides a framework whereby the energetic contributions of intrinsically disordered linkers to higher-order multivalent assembly may be analyzed.",
+  "authors": [
+    "Cyril Cook",
+    "Kristen M. Ramsey",
+    "Doug Barrick"
+  ],
+  "published_date": "2024-11-11",
+  "updated_date": "2024-11-11T11:51:05Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.09.622674",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.09.622674.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T22:28:43Z",
+        "timestamp": 1768516123265,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 39,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                11
+              ]
+            ],
+            "date-time": "2024-11-11T00:00:00Z",
+            "timestamp": 1731283200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            1,
+            30
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>The Notch signaling pathway regulates cellular differentiation by activating transcription through an unusual heterotrimeric complex comprising the Notch receptor’s intracellular domain (NICD), the DNA-binding protein CSL, and the coactivator MAML. NICD has two binding sites for CSL, a short motif in the RAM region and an ankyrin domain (ANK), connected by an intrinsically disordered linker and which form a bivalent ternary complex with CSL and MAML. Although bivalency is required for maximal transcription activation, the energetic contributions of bivalency and heterotrimer formation within this essential complex are unknown. To elucidate the energetics of bivalency we first determine the free energy of the CSL-ANK-MAML heterotrimer, using isothermal titration calorimetry and developing an obligate heterotrimer model to analyze the data. By comparing this heterotrimerization reaction with binding reactions involving different regions of RAMANK, we determine the energetic contribution of bivalency to heterotrimer assembly. We show that bivalency through the disordered linker increases the effective concentration of ANK, and that the bivalent interaction enhances occupancy of RAM and ANK at their binding sites on CSL by about three orders of magnitude. By redefining the standard state to a lower, more physiological protein concentration, we reveal the importance of the RAMANK intrinsically disordered linker for assembly of the Notch transcription activation complex. This work provides a framework whereby the energetic contributions of intrinsically disordered linkers to higher-order multivalent assembly may be analyzed.</jats:p>",
+      "DOI": "10.1101/2024.11.09.622674",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ],
+        "date-time": "2024-11-11T11:51:05Z",
+        "timestamp": 1731325865000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Bivalent interaction through an intrinsically disordered linker promotes transcription activation complex assembly in Notch signaling"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Cyril",
+          "family": "Cook",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kristen M.",
+          "family": "Ramsey",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Doug",
+          "family": "Barrick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.1",
+          "first-page": "245",
+          "article-title": "The Varied Roles of Notch in Cancer",
+          "volume": "12",
+          "year": "2016",
+          "journal-title": "Annual review of pathology"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Douglas Barrick . Biomolecular Thermodynamics: From Theory to Application. CRC Press, Boca Raton, 1 edition edition, September 2017.",
+          "DOI": "10.1201/9781315380193"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/BST0360157"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2007.11.061"
+        },
+        {
+          "issue": "115",
+          "key": "2025020105350461000_2024.11.09.622674v2.5",
+          "first-page": "189",
+          "article-title": "Notch – a goldilocks signaling pathway in disease and cancer therapy",
+          "volume": "21",
+          "year": "2016",
+          "journal-title": "Discovery Medicine"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2016.94"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2011.12.011"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2652"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0015034"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1086/279446"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1096-987X(199802)19:3<319::AID-JCC6>3.3.CO;2-3"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M709501200"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg563"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-022-00811-w"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.340220410"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/377355a0"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0039093"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M109.019968"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ac3007522"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2009.03.045"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0070-2153(10)92002-4"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.emboj.7600349"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2006.09.071"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(00)80416-5"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2005.12.037"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M301567200"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.27",
+          "unstructured": "Matthew Newville , Till Stensitzki , Daniel B. Allen , and Antonino Ingargiola . LMFIT: Non-Linear Least-Square Minimization and Curve-Fitting for Python. Zenodo, September 2014. Publisher: Zenodo ADS Bibcode: 2014zndo. 11813N."
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4947"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.88.7.2854"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.30",
+          "unstructured": "Kathryn Sherry . STRUCTURAL AND THERMODYNAMIC ANALYSIS OF THE CONTRIBUTIONS OF THE INTRINSICALLY DISORDERED RAM REGION OF THE NOTCH RECEPTOR TO NOTCH SIGNALING. PhD thesis, Johns Hopkins University, October 2015."
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1706083114"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2015.09.001"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0960-9822(95)00279-X"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2024.03.021"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2014.09.010"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2006.01.035"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0003-2697(89)90213-3"
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.38",
+          "unstructured": "Jeffries Wyman and Stanley J. Gill . Binding and Linkage: Functional Chemistry of Biological Macromolecules. University Science Books, 1990. Google-Books-ID: daxAKlHw7qQC."
+        },
+        {
+          "key": "2025020105350461000_2024.11.09.622674v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41392-021-00710-4"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.11.09.622674",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:26:10Z",
+        "timestamp": 1768461970000
+      },
+      "score": 87.64979,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.11.09.622674"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ]
+      },
+      "references-count": 39,
+      "URL": "https://doi.org/10.1101/2024.11.09.622674",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1073/pnas.2501607122",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors introduce CLIP, a sequence-based predictor of linear interacting peptides (LIPs), which integrates co-evolutionary information, physicochemical profiles, and disorder predictions via logistic regression. They claim that co-evolutionary information is particularly useful, that combining the three input types yields substantial improvements over individual inputs, and that CLIP achieves an AUC of 0.8 on low-similarity test datasets, outperforming existing tools for MoRFs and disordered protein-binding regions.
+- **Visible evidence base** Abstract text only; no quantitative results beyond the stated AUC, no ablation details, no dataset descriptions, no baseline comparisons, no statistical significance measures
+- **Missing materials affecting confidence** Full manuscript, methods section, dataset construction details, ablation results, baseline tool descriptions, performance comparison tables, webserver and code availability verification, and any supplementary figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful contribution to the field of disordered binding region prediction by addressing a broader class of LIPs. The methodological concept of combining co-evolutionary information with physicochemical and disorder features is reasonable and timely. However, the evidence provided in the abstract is insufficient to evaluate the technical soundness, the robustness of the claimed improvements, or the generalizability of the results. The core claims regarding the utility of co-evolutionary information and the superiority over existing tools are not substantiated with adequate detail.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics focused on intrinsically disordered proteins, protein-protein interactions, and function annotation of disordered regions. Practitioners developing or applying predictors for MoRFs, SLiMs, and related binding motifs would find a dedicated LIP predictor relevant. The availability of a webserver and standalone code increases practical utility for the broader proteomics and structural biology communities.
+- **Major strengths** The abstract addresses a clear gap in the field by targeting LIPs as a broader class of disordered binding regions, rather than focusing solely on MoRFs. The use of co-evolutionary information is a novel angle for this prediction task and is supported by an ablation rationale. The stated AUC of 0.8 on low-similarity datasets suggests reasonable predictive performance, and the provision of both webserver and standalone code enhances accessibility and reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that combining co-evolutionary information, physicochemical profiles, and disorder predictions provides substantial improvements over using these inputs individually.
+  - **Evidence pointer** Ablation analysis mentioned in abstract; specific results not provided
+  - **Concern** The abstract states that ablation analysis suggests co-evolutionary information is particularly useful and that combining inputs provides substantial improvements, but no quantitative ablation results are presented. The magnitude of improvement, the statistical significance, and the relative contribution of each input type are not reported.
+  - **Why it matters** Without quantitative ablation data, the reader cannot assess whether the claimed benefit of co-evolutionary information is robust or whether the improvement is marginal. This is central to the methodological contribution of the paper.
+  - **Resolution test** Provide a table or figure in the full manuscript showing AUC, precision, recall, or other relevant metrics for each individual input type and for the combined model, with confidence intervals or statistical tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CLIP substantially improves over the results produced by the closest current tools that predict MoRFs and disordered protein-binding regions.
+  - **Evidence pointer** Comparative empirical assessments mentioned in abstract; specific baselines and results not provided
+  - **Concern** The abstract does not specify which tools were used as baselines, the dataset on which comparisons were made, or the performance metrics beyond AUC. The term "substantially improves" is vague and unsupported without numerical comparisons or statistical analysis.
+  - **Why it matters** The claim of superiority over existing tools is a key selling point of the paper. Without clear baseline definitions and quantitative comparisons, the claim cannot be verified or contextualized.
+  - **Resolution test** In the full manuscript, list the baseline tools, describe the test datasets, and provide a comparison table with AUC and other metrics, including measures of variance or significance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that the webserver and standalone code are freely available at specified URLs.
+  - **Evidence pointer** URLs provided in abstract; accessibility not verified
+  - **Concern** The abstract provides URLs for the webserver and code, but there is no evidence in the supplied material that these resources are functional, documented, or contain the necessary data and instructions for reproduction.
+  - **Why it matters** Reproducibility is a core expectation for computational tools. If the resources are not accessible or usable, the practical contribution of the paper is diminished.
+  - **Resolution test** Verify that the URLs are active, the code is documented and runnable, and the webserver accepts input and returns predictions. Include this verification in the full manuscript or supplementary materials.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of LIPs
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The abstract defines LIPs as segments that undergo disorder-to-order transition upon binding, covering MoRFs, SLiMs, and disordered protein-binding domains. However, the relationship between LIPs and these existing categories is described only briefly, and it is unclear whether LIPs are a strict superset or a distinct classification.
+  - **Required correction** Clarify the precise relationship between LIPs and MoRFs, SLiMs, and disordered protein-binding domains, possibly with a diagram or explicit set definitions in the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract, "low-similarity test datasets"
+  - **Issue** The abstract mentions "low-similarity test datasets" but does not describe how these were constructed, what sequence identity threshold was used, or how many proteins were included.
+  - **Required correction** Provide details on dataset construction, including sequence identity thresholds, source databases, and sizes, in the methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Metric selection
+  - **Affected element** Performance evaluation
+  - **Evidence pointer** Abstract, "AUC of 0.8"
+  - **Issue** The abstract reports only AUC as the performance metric. AUC alone may not fully capture the practical utility of a predictor, especially for imbalanced datasets common in disordered region prediction.
+  - **Required correction** Report additional metrics such as precision, recall, F1-score, or Matthews correlation coefficient, and discuss the operating point of the classifier.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Model validation
+  - **Evidence pointer** Abstract, "low-similarity test datasets"
+  - **Issue** The abstract does not mention cross-validation or independent testing beyond the low-similarity datasets. It is unclear whether the model was trained and tested on the same type of data or whether it generalizes to other organisms or sequence contexts.
+  - **Required correction** Describe the training and testing protocol, including any cross-validation schemes and whether independent datasets from different sources were used.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative ablation results, unspecified baseline comparisons, and unverified resource availability prevent the core claims from being fully assessed.
+- **Assessment against Nature-style criteria** Originality: The focus on LIPs as a broader class is a novel contribution, though the underlying features are not entirely new. Scientific importance: The topic is relevant to disordered protein function, but the significance of a dedicated LIP predictor over existing MoRF predictors needs stronger justification. Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians; broader appeal to experimentalists would require clearer biological implications. Technical soundness: Cannot be fully evaluated from the abstract; the lack of quantitative details is a major limitation. Readability for nonspecialists: The abstract is generally clear but uses field-specific terms without sufficient explanation for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and potentially valuable approach, but the absence of quantitative ablation data, baseline comparisons, and resource verification means the core claims cannot be validated. A revised manuscript with full methodological details and results would be needed to assess the contribution properly.
+
+## Risk / unsupported claims
+- The claim that co-evolutionary information is "particularly useful" is unsupported without quantitative ablation results.
+- The claim of "substantial improvements" over existing tools is unsupported without specified baselines and numerical comparisons.
+- The availability and functionality of the webserver and code are not verifiable from the supplied material.
+- The generalizability of the model beyond the described low-similarity datasets is not assessable.

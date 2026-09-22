@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.21.529454",
+  "title": "Reconstruction of TrkB complex assemblies and localizing antidepressant targets using Artificial Intelligence",
+  "authors": "Xiang X; Qian C; Yao H; Li P; Cheng B; Wei D; An W; Lu Y; Chu M; Wei L; Liu B; Xu J; Liu X; Xia F",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-22",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用AlphaFold2/AlphaFold Multimer重建含IDR的TrkB受体复合物组装并定位抗抑郁药靶点，虽对象为膜受体而非典型IDP-PPI，但AI建模IDR介导的复合物互作机制对本课题有直接启发。",
+  "abstract": "Since Major Depressive Disorder (MDD) represents a neurological pathology caused by inter-synaptic messaging errors, membrane receptors, the source of signal cascades, constitute appealing drugs targets. G protein-coupled receptors (GPCRs) and ion channel receptors chelated antidepressants (ADs) high-resolution architectures were reported to realize receptors physical mechanism and design prototype compounds with minimal side effects. Tyrosine kinase receptor 2 (TrkB), a receptor that directly modulates synaptic plasticity, has a finite three-dimensional chart due to its high molecular mass and intrinsically disordered regions (IDRs). Leveraging breakthroughs in deep learning, the meticulous architecture of TrkB was projected employing Alphfold 2 (AF2). Furthermore, the Alphafold Multimer algorithm (AF-M) models the coupling of intra- and extra-membrane topologies to chaperones: mBDNF, SHP2, Etc. Conjugating firmly dimeric transmembrane helix with novel compounds like 2R,6R-hydroxynorketamine (2R,6R-HNK) expands scopes of drug screening to encompass all coding sequences throughout genomes. The operational implementation of TrkB kinase-SHP2, PLCγ1, and SHC1 ensembles has paved the path for machine learning in which it can forecast structural transitions in the self-assembly and self-dissociation of molecules during trillions of cellular mechanisms. In silicon, the cornerstone of the alteration will be artificial intelligence (AI), empowering signal networks to operate at the atomic level and picosecond timescales.",
+  "abstract_zh": "重度抑郁症（MDD）代表一种由突触间信号传递错误引起的神经病理状态，膜受体作为信号级联的源头，构成了有吸引力的药物靶点。G蛋白偶联受体（GPCRs）和离子通道受体螯合的抗抑郁药（ADs）高分辨率结构已被报道，以实现受体的物理机制并设计具有最小副作用的前体化合物。酪氨酸激酶受体2（TrkB），一种直接调节突触可塑性的受体，由于其高分子量和内在无序区域（IDRs），其三维图谱有限。利用深度学习的突破，TrkB的精细结构通过Alphfold 2（AF2）进行了预测。此外，Alphafold Multimer算法（AF-M）模拟了膜内和膜外拓扑结构与伴侣蛋白（如mBDNF、SHP2等）的偶联。将稳定的二聚体跨膜螺旋与新型化合物如2R,6R-羟基去甲氯胺酮（2R,6R-HNK）结合，扩展了药物筛选的范围，以涵盖整个基因组中的所有编码序列。TrkB激酶-SHP2、PLCγ1和SHC1复合物的操作实施为机器学习铺平了道路，使其能够预测在数万亿细胞机制中分子自组装和自解离过程中的结构转变。在硅片中，这一变革的基石将是人工智能（AI），使信号网络能够在原子水平和皮秒时间尺度上运行。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.21.529454",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.21.529454",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.21.529454/index.html"
+}

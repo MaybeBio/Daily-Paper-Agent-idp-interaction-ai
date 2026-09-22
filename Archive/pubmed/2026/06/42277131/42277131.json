@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "42277131",
+    "doi": "10.1038/s41598-026-57470-w",
+    "title": "In silico study of 14-3-3sigma and Nipah virus W proteins interaction."
+  },
+  "content": {
+    "abstract": "Nipah virus (NiV) is a highly pathogenic zoonotic RNA virus that causes severe encephalitis, systemic vasculitis, and multiorgan damage in humans, with a case fatality rate of 40-75%. Among the viral factors implicated in NiV pathogenicity is the W protein, an intrinsically disordered product of the P gene. By binding to members of the 14-3-3 protein family, which regulate critical processes such as the cell cycle, apoptosis, and immune responses, W protein is thought to modulate host signaling pathways. Yet the molecular and structural basis of this interaction remains poorly understood. Here, we employed the AlphaFold 3 algorithm to predict 1000 models of the heterotetrameric complex formed by W protein dimers and the 14-3-3sigma dimer. Candidate structures were filtered according to two structural criteria-potential disulfide bond formation between Cys421 residues of the W dimer, and preservation of interactions between phosphorylated Ser449 (Sep449) and residues Arg56, Arg129, and Tyr130 in the 14-3-3sigma binding site. Nine models that satisfied these criteria were further refined and evaluated by molecular dynamics (MD) simulations in the OpenMM environment. Following 100-ns MD simulations, three models were selected for extended microsecond-scale simulations to assess their stability over extended timescales. The simulations indicated that all three complexes remained stable over the simulated timescales and displayed structural features consistent with interactions involving intrinsically disordered proteins. Among them, one model (Model 3) showed the most favorable combination of structural and energetic features. Our findings support the structural feasibility of the proposed interaction and demonstrate that the modeled heterotetrameric complex is capable of adopting stable conformations. These results provide a basis for further in silico studies and exploratory small-molecule screening aimed at modulating this protein-protein interaction in the context of viral host-pathogen interactions.",
+    "keywords": [
+      "14-3-3 proteins",
+      "AlphaFold 3",
+      "Intrinsically disordered proteins",
+      "Molecular dynamics simulations",
+      "Nipah virus",
+      "Protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "*14-3-3 Proteins/metabolism/chemistry",
+      "*Nipah Virus/metabolism",
+      "Protein Binding",
+      "Humans",
+      "Computer Simulation",
+      "Binding Sites",
+      "Molecular Dynamics Simulation",
+      "Protein Multimerization",
+      "*Exonucleases/metabolism/chemistry",
+      "*Viral Proteins/metabolism/chemistry",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Griaznova, Lia",
+        "Arakelov, Vahram",
+        "Arakelov, Grigor",
+        "Nazaryan, Karen"
+      ],
+      "short_names": [
+        "Griaznova L",
+        "Arakelov V",
+        "Arakelov G",
+        "Nazaryan K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Computational Modeling of Biological Processes, Institute of Molecular Biology of the National Academy of Sciences of the Republic of Armenia (NAS RA), 0014, Yerevan, Armenia.",
+        "Russian-Armenian University, 0051, Yerevan, Armenia.",
+        "Laboratory of Computational Modeling of Biological Processes, Institute of Molecular Biology of the National Academy of Sciences of the Republic of Armenia (NAS RA), 0014, Yerevan, Armenia.",
+        "Laboratory of Computational Modeling of Biological Processes, Institute of Molecular Biology of the National Academy of Sciences of the Republic of Armenia (NAS RA), 0014, Yerevan, Armenia. g_arakelov@mb.sci.am.",
+        "Russian-Armenian University, 0051, Yerevan, Armenia. g_arakelov@mb.sci.am.",
+        "Laboratory of Computational Modeling of Biological Processes, Institute of Molecular Biology of the National Academy of Sciences of the Republic of Armenia (NAS RA), 0014, Yerevan, Armenia.",
+        "Russian-Armenian University, 0051, Yerevan, Armenia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Griaznova, Lia",
+        "short_name": "Griaznova L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Modeling of Biological Processes, Institute of Molecular Biology of the National Academy of Sciences of the Republic of Armenia (NAS RA), 0014, Yerevan, Armenia.",
+          "Russian-Armenian University, 0051, Yerevan, Armenia."
+        ]
+      },
+      {
+        "full_name": "Arakelov, Vahram",
+        "short_name": "Arakelov V",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Modeling of Biological Processes, Institute of Molecular Biology of the National Academy of Sciences of the Republic of Armenia (NAS RA), 0014, Yerevan, Armenia."
+        ]
+      },
+      {
+        "full_name": "Arakelov, Grigor",
+        "short_name": "Arakelov G",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Modeling of Biological Processes, Institute of Molecular Biology of the National Academy of Sciences of the Republic of Armenia (NAS RA), 0014, Yerevan, Armenia. g_arakelov@mb.sci.am.",
+          "Russian-Armenian University, 0051, Yerevan, Armenia. g_arakelov@mb.sci.am."
+        ]
+      },
+      {
+        "full_name": "Nazaryan, Karen",
+        "short_name": "Nazaryan K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Computational Modeling of Biological Processes, Institute of Molecular Biology of the National Academy of Sciences of the Republic of Armenia (NAS RA), 0014, Yerevan, Armenia.",
+          "Russian-Armenian University, 0051, Yerevan, Armenia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Jun 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 00:37",
+    "fetched_at": "2026-09-18 04:01:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42277131",
+      "32321809",
+      "42511483",
+      "33450550",
+      "39714114",
+      "23912807",
+      "42475469",
+      "33328346",
+      "41424949",
+      "24552877",
+      "32669342",
+      "32824665",
+      "39230304",
+      "36465097",
+      "40733589",
+      "35317998",
+      "28904190",
+      "39848170",
+      "38214525",
+      "40433372",
+      "42106026",
+      "40355437",
+      "38968780",
+      "40736032",
+      "29691656",
+      "42578546",
+      "18632560",
+      "22803956",
+      "39964914",
+      "38963946",
+      "30799076",
+      "33349244",
+      "29842849",
+      "23094089",
+      "21870863",
+      "42165681",
+      "33408170",
+      "15857993",
+      "42234666",
+      "40341732",
+      "28835499",
+      "40520959",
+      "19113835",
+      "39180270",
+      "39739115",
+      "40050611",
+      "39876783",
+      "42261155",
+      "36473711",
+      "32348724",
+      "28089448",
+      "27654290",
+      "32979285",
+      "42295476",
+      "24074578",
+      "27861609",
+      "41600892",
+      "19515782",
+      "41225715",
+      "19499921",
+      "38426726",
+      "37812043",
+      "41045314",
+      "41493642",
+      "40558039",
+      "40714410",
+      "37222609",
+      "27147733",
+      "40679287",
+      "31461176",
+      "41613644",
+      "35164341",
+      "38962403",
+      "39521154",
+      "25492314",
+      "25210190",
+      "39375338",
+      "32581091",
+      "41406007",
+      "39837328",
+      "38780245",
+      "33177626",
+      "41915655",
+      "20017540",
+      "41520974",
+      "39325755",
+      "26961246",
+      "41023768",
+      "37776002",
+      "42302372",
+      "21962576",
+      "29092793",
+      "42000821",
+      "31830030",
+      "37643003",
+      "42075770",
+      "39227512",
+      "15113915",
+      "42418067",
+      "40051842"
+    ],
+    "review": [
+      "42277131",
+      "32824665",
+      "40679287"
+    ],
+    "pmc": [
+      "13503744"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-57470-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42277131/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

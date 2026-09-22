@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.06.535715",
+  "title": "Coding Sequence Insertions in Fungal Genomes are Intrinsically Disordered and can Impart Functionally-Important Properties on the Host Protein",
+  "authors": "Bernard D. Lemire; Priya Uppuluri",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-07",
+  "window": {
+    "start": "2023-04-03",
+    "end": "2023-04-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文系统分析真菌蛋白编码序列插入片段，发现其本质无序且富集于激酶，并展示一个无序插入通过互作形成β-折叠扩展宿主蛋白功能，虽非AI/物理模拟方法，但为IDR介导的PPI机制提供了进化与序列层面的启发。",
+  "abstract": "Insertion and deletion mutations (indels) are important mechanisms of generating protein diversity. Indels in coding sequences are under considerable selective pressure to maintain reading frames and to preserve protein function, but once generated, indels provide raw material for the acquisition of new protein properties and functions. We reported recently that coding sequence insertions in the Candida albicans NDU1 protein, a mitochondrial protein involved in the assembly of the NADH:ubiquinone oxidoreductase are imperative for respiration, biofilm formation and pathogenesis. NDU1 inserts are specific to CTG-clade fungi, absent in human ortholog and successfully harnessed as drug targets. Here, we present the first comprehensive report investigating indels and clade-defining insertions (CDIs) in fungal proteomes. We investigated 80 ascomycete proteomes encompassing CTG clade species, the Saccharomycetaceae family, the Aspergillaceae family and the Herpotrichiellaceae (black yeasts) family. We identified over 30,000 insertions, 4,000 CDIs and 2,500 clade-defining deletions (CDDs). Insert sizes range from 1 to over 1,000 residues in length, while maximum deletion length is 19 residues. Inserts are strikingly over-represented in protein kinases, and excluded from structural domains and transmembrane segments. Inserts are predicted to be highly disordered. The amino acid compositions of the inserts are highly depleted in hydrophobic residues and enriched in polar residues. An indel in the Saccharomyces cerevisiae Sth1 protein, the catalytic subunit of the RSC (Remodel the Structure of Chromatin) complex is predicted to be disordered until it forms a ß-strand upon interaction. This interaction performs a vital role in RSC-mediated transcriptional regulation, thereby expanding protein function.",
+  "abstract_zh": "插入和缺失突变（indels）是产生蛋白质多样性的重要机制。编码序列中的indels承受着显著的选择压力，以维持阅读框并保留蛋白质功能，但一旦产生，indels便为获取新的蛋白质特性和功能提供了原材料。我们近期报道，白色念珠菌（Candida albicans）NDU1蛋白（一种参与NADH:泛醌氧化还原酶组装的线粒体蛋白）中的编码序列插入对呼吸作用、生物膜形成和致病性至关重要。NDU1插入片段是CTG进化枝真菌特有的，在人类直系同源物中缺失，并已成功用作药物靶点。在此，我们呈现首份全面研究真菌蛋白质组中indels和进化枝定义插入（CDIs）的报告。我们调查了80个子囊菌蛋白质组，涵盖CTG进化枝物种、酵母科（Saccharomycetaceae）、曲霉科（Aspergillaceae）和暗色真菌科（Herpotrichiellaceae，黑酵母）。我们鉴定了超过30,000个插入、4,000个CDIs和2,500个进化枝定义缺失（CDDs）。插入大小范围从1到超过1,000个残基，而最大缺失长度为19个残基。插入在蛋白激酶中显著过度代表，并在结构域和跨膜片段中被排除。预测插入具有高度无序性。插入的氨基酸组成高度缺乏疏水残基，并富含极性残基。酿酒酵母（Saccharomyces cerevisiae）Sth1蛋白（RSC（重塑染色质结构）复合物的催化亚基）中的一个indel被预测为无序，直到相互作用时形成β链。这种相互作用在RSC介导的转录调控中发挥关键作用，从而扩展蛋白质功能。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.06.535715",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.06.535715",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.06.535715/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41921197",
+  "title": "Hybrid deep learning with protein language models and dual-path architecture for predicting IDP functions.",
+  "authors": "Liang, Jiahui; Luo, Yuxian; Su, Baoquan; Peng, Zhenling",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2026-04-01",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出混合深度学习模型IDPFunNet，结合蛋白语言模型ProtT5与双路径架构预测无序蛋白IDR的多种结合功能亚型，虽聚焦功能预测而非互作机制建模，但对象为IDR且涉及蛋白结合预测，方法上AI应用扎实，对本课题有参考价值。",
+  "abstract": "Intrinsically disordered regions (IDRs) drive essential cellular functions but resist conventional structural-function annotation due to their dynamic conformations. Current computational methods struggle with cross-dataset generalization and functional subtype discrimination. We present IDPFunNet, a hybrid deep learning model integrating convolutional neural networks, bidirectional LSTM, residual MLP, and the protein language model ProtT5 to predict six IDR functional classes: five binding subtypes and disordered flexible linkers (DFLs). Its dual-path architecture decouples binding prediction from DFL identification. Leveraging ProtT5 evolutionary embeddings, which outperformed ESM-family models and AlphaFold2 structural features (by >/=1.3% average AUC and >/= 12.7% average APS), IDPFunNet achieves state-of-the-art performance. Across six independent benchmarks, including CAID2/3 blind tests, it consistently surpasses existing general predictors DisoFLAG and DeepDISOBind in protein-binding prediction, with AUCs of 0.866 (TE210) and 0.832 (TE83), representing significant gains of 1.5%-8.1% in AUC and 13.5%-26.7% in APS (p-value < 0.05), while remaining competitive with specialized DFL predictors. Further analyses show multi-task learning enhances protein/lipid/small molecule-binding (3.1%-35.1% AUC gains), BiLSTMs are optimal for DFL identification, and self-attention shows potential for nucleic acid-binding (AUC 0.831). IDPFunNet thus provides an interpretable and generalizable framework for comprehensive IDR functional mapping. The webserver of IDPFunNet is freely available at https://yanglab.qd.sdu.edu.cn/IDPFunNet/ and the standalone package can be downloaded from https://github.com/IDRIDP/IDPFunNet/tree/master.",
+  "abstract_zh": "固有无序区域（IDRs）驱动关键细胞功能，但由于其动态构象，难以进行传统的结构-功能注释。当前计算方法在跨数据集泛化和功能亚型区分方面面临挑战。我们提出IDPFunNet，一种混合深度学习模型，整合卷积神经网络、双向LSTM、残差MLP和蛋白质语言模型ProtT5，以预测六种IDR功能类别：五种结合亚型和无序柔性连接子（DFLs）。其双路径架构将结合预测与DFL识别解耦。利用ProtT5进化嵌入（其性能优于ESM家族模型和AlphaFold2结构特征，平均AUC提升≥1.3%，平均APS提升≥12.7%），IDPFunNet实现了最先进性能。在六个独立基准测试中，包括CAID2/3盲测，它在蛋白质结合预测方面持续超越现有通用预测器DisoFLAG和DeepDISOBind，AUC分别为0.866（TE210）和0.832（TE83），代表AUC显著提升1.5%-8.1%，APS提升13.5%-26.7%（p值<0.05），同时与专用DFL预测器保持竞争力。进一步分析显示，多任务学习增强了蛋白质/脂质/小分子结合（AUC提升3.1%-35.1%），BiLSTM最适合DFL识别，自注意力在核酸结合方面显示出潜力（AUC 0.831）。因此，IDPFunNet为全面IDR功能映射提供了可解释且可泛化的框架。IDPFunNet的Web服务器可在https://yanglab.qd.sdu.edu.cn/IDPFunNet/ 免费获取，独立软件包可从https://github.com/IDRIDP/IDPFunNet/tree/master 下载。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41921197/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41921197/",
+  "paper_page_path": "papers/pubmed/41921197/index.html"
+}

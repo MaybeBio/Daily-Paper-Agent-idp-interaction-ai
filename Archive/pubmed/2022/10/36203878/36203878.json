@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "36203878",
+    "doi": "10.3389/fmolb.2022.1019477",
+    "title": "Interplay of receptor-ligand binding and lipid domain formation during cell adhesion."
+  },
+  "content": {
+    "abstract": "Cell adhesion involved in biological processes such as cell migration, immune responses, and cancer metastasis, is mediated by the specific binding of receptor and ligand proteins. Some of these proteins exhibit affinity for nanoscale lipid clusters in cell membranes. A key question is how these nanoscale lipid clusters influence and react to the receptor-ligand binding during cell adhesion. In this article, we review recent computational studies that shed new light on the interplay of the receptor-ligand binding and the formation of lipid domains in adhering membranes. These studies indicate that the receptor-ligand binding promotes coalescence of lipid clusters into mesoscale domains, which, in turn, enhances both the affinity and cooperativity of the receptor-ligand binding in cell-cell adhesion with mobile ligands. In contrast, in the case of cell-extracellular matrix adhesion with immobile ligands, the receptor-ligand binding and the lipid cluster coalescence can be correlated or anti-correlated, depending strongly on the ligand distribution. These findings deepen our understanding of correlations between cell adhesion and membrane heterogeneities.",
+    "keywords": [
+      "binding affinity",
+      "binding cooperativity",
+      "cell adhesion",
+      "lipid domain formation",
+      "phase separation",
+      "receptor-ligand binding"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Long",
+        "Hu, Jinglei",
+        "Rozycki, Bartosz",
+        "Ji, Jing",
+        "Song, Fan"
+      ],
+      "short_names": [
+        "Li L",
+        "Hu J",
+        "Rozycki B",
+        "Ji J",
+        "Song F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Kuang Yaming Honors School and Institute for Brain Sciences, Nanjing University, Nanjing, China.",
+        "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China.",
+        "Kuang Yaming Honors School and Institute for Brain Sciences, Nanjing University, Nanjing, China.",
+        "Institute of Physics, Polish Academy of Sciences, Warsaw, Poland.",
+        "Key Laboratory of Biomechanics and Mechanobiology (Beihang University), Ministry of Education Beijing Advanced Innovation Center for Biomedical Engineering School of Biological Science and Medical Engineering, Beihang University, Beijing, China.",
+        "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China.",
+        "School of Engineering Science, University of Chinese Academy of Sciences, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Long",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Kuang Yaming Honors School and Institute for Brain Sciences, Nanjing University, Nanjing, China.",
+          "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Jinglei",
+        "short_name": "Hu J",
+        "identifiers": [],
+        "affiliations": [
+          "Kuang Yaming Honors School and Institute for Brain Sciences, Nanjing University, Nanjing, China."
+        ]
+      },
+      {
+        "full_name": "Różycki, Bartosz",
+        "short_name": "Różycki B",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Ji, Jing",
+        "short_name": "Ji J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Biomechanics and Mechanobiology (Beihang University), Ministry of Education Beijing Advanced Innovation Center for Biomedical Engineering School of Biological Science and Medical Engineering, Beihang University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Song, Fan",
+        "short_name": "Song F",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Nonlinear Mechanics and Beijing Key Laboratory of Engineered Construction and Mechanobiology, Institute of Mechanics, Chinese Academy of Sciences, Beijing, China.",
+          "School of Engineering Science, University of Chinese Academy of Sciences, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/08 06:00",
+    "fetched_at": "2026-09-20 15:36:01"
+  },
+  "links": {
+    "cites": [
+      "42267144",
+      "42230554",
+      "41950296",
+      "40077635",
+      "38542282",
+      "37240408",
+      "36876050",
+      "36809878"
+    ],
+    "refs": [
+      "35952805",
+      "35837553",
+      "34008687",
+      "33987204",
+      "33926103",
+      "33859716",
+      "33737392",
+      "33614627",
+      "33479028",
+      "33416062",
+      "33356330",
+      "32789381",
+      "32302547",
+      "32205411",
+      "32082311",
+      "31858798",
+      "30912540",
+      "30911119",
+      "30792275",
+      "30274275",
+      "29777034",
+      "29746928",
+      "29512653",
+      "29490203",
+      "29448355",
+      "29158380",
+      "29089556",
+      "28877491",
+      "28573272",
+      "28356571",
+      "28286286",
+      "28145867",
+      "27731375",
+      "27551071",
+      "27294442",
+      "27102288",
+      "26785849",
+      "26723622",
+      "26723621",
+      "26388331",
+      "26347743",
+      "26083919",
+      "25465296",
+      "25261705",
+      "25030168",
+      "24651316",
+      "24006364",
+      "23899502",
+      "23840928",
+      "23729731",
+      "23628858",
+      "23442961",
+      "22261074",
+      "21628426",
+      "21461187",
+      "21295764",
+      "20639577",
+      "20357766",
+      "20164930",
+      "20044567",
+      "19854186",
+      "19139760",
+      "17948020",
+      "17085486",
+      "17064251",
+      "15960980",
+      "12208858",
+      "11910900",
+      "11413487",
+      "11248809",
+      "10704449",
+      "8636222",
+      "7535385"
+    ],
+    "similar": [
+      "36203878",
+      "33987204",
+      "33416062",
+      "29448355",
+      "31858798",
+      "10769199",
+      "26723622",
+      "34747961",
+      "17918863",
+      "11896190",
+      "29490203",
+      "27003228",
+      "11751301",
+      "26028591",
+      "28573272",
+      "24006364",
+      "9395305",
+      "19051302",
+      "16503644",
+      "9388235",
+      "30951647",
+      "17347787",
+      "34032262",
+      "32850868",
+      "22411821",
+      "18001063",
+      "35733880",
+      "28877491",
+      "34080973",
+      "37200265",
+      "21858057",
+      "30912540",
+      "22995511",
+      "7693704",
+      "26596568",
+      "1717480",
+      "12612067",
+      "17428076",
+      "16313187",
+      "16645037",
+      "27893196",
+      "8798468",
+      "20799239",
+      "17702677",
+      "10531329",
+      "26723621",
+      "25870864",
+      "33828200",
+      "7697352",
+      "8294502",
+      "21453460",
+      "31949047",
+      "7508943",
+      "11106619",
+      "7727406",
+      "23886941",
+      "8376918",
+      "9199789",
+      "11606287",
+      "1883934",
+      "14699604",
+      "15966741",
+      "9153209",
+      "25438167",
+      "31229648",
+      "15317820",
+      "9183647",
+      "30254158",
+      "3039341",
+      "1856216",
+      "22095620",
+      "15170355",
+      "7780126",
+      "23595985",
+      "17151923",
+      "34471046",
+      "20845546",
+      "23785735",
+      "28068766",
+      "11875066",
+      "21195225",
+      "11943189",
+      "27426284",
+      "28448919",
+      "16121356",
+      "9164648",
+      "11278612",
+      "34259699",
+      "21107373",
+      "18613064",
+      "29935145"
+    ],
+    "review": [
+      "36203878",
+      "30951647",
+      "26596568",
+      "31229648",
+      "9183647",
+      "7780126",
+      "34471046",
+      "9164648",
+      "29935145"
+    ],
+    "pmc": [
+      "9531914"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36203878/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36203878",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2022.1019477",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "37992088",
+    "doi": "10.1371/journal.pcbi.1011657",
+    "title": "IDP-LM: Prediction of protein intrinsic disorder and disorder functions based on language models."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) and regions (IDRs) are a class of functionally important proteins and regions that lack stable three-dimensional structures under the native physiologic conditions. They participate in critical biological processes and thus are associated with the pathogenesis of many severe human diseases. Identifying the IDPs/IDRs and their functions will be helpful for a comprehensive understanding of protein structures and functions, and inform studies of rational drug design. Over the past decades, the exponential growth in the number of proteins with sequence information has deepened the gap between uncharacterized and annotated disordered sequences. Protein language models have recently demonstrated their powerful abilities to capture complex structural and functional information from the enormous quantity of unlabelled protein sequences, providing opportunities to apply protein language models to uncover the intrinsic disorders and their biological properties from the amino acid sequences. In this study, we proposed a computational predictor called IDP-LM for predicting intrinsic disorder and disorder functions by leveraging the pre-trained protein language models. IDP-LM takes the embeddings extracted from three pre-trained protein language models as the exclusive inputs, including ProtBERT, ProtT5 and a disorder specific language model (IDP-BERT). The ablation analysis shown that the IDP-BERT provided fine-grained feature representations of disorder, and the combination of three language models is the key to the performance improvement of IDP-LM. The evaluation results on independent test datasets demonstrated that the IDP-LM provided high-quality prediction results for intrinsic disorder and four common disordered functions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Amino Acid Sequence",
+      "Language",
+      "Drug Design",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pang, Yihe",
+        "Liu, Bin"
+      ],
+      "short_names": [
+        "Pang Y",
+        "Liu B"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6314-0762"
+      ],
+      "affiliations": [
+        "School of Computer Science and Technology, Beijing Institute of Technology, Beijing, China.",
+        "School of Computer Science and Technology, Beijing Institute of Technology, Beijing, China.",
+        "Advanced Research Institute of Multidisciplinary Science, Beijing Institute of Technology, Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pang, Yihe",
+        "short_name": "Pang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Technology, Beijing Institute of Technology, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bin",
+        "short_name": "Liu B",
+        "identifiers": [
+          "0000-0001-6314-0762"
+        ],
+        "affiliations": [
+          "School of Computer Science and Technology, Beijing Institute of Technology, Beijing, China.",
+          "Advanced Research Institute of Multidisciplinary Science, Beijing Institute of Technology, Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2023 Nov",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/22 18:44",
+    "fetched_at": "2026-09-21 02:59:59"
+  },
+  "links": {
+    "cites": [
+      "42370288",
+      "42147780",
+      "41689628",
+      "41366732",
+      "41212592",
+      "40601248",
+      "40448683",
+      "40254833",
+      "40227324",
+      "39833102",
+      "39811792",
+      "39027316"
+    ],
+    "refs": [
+      "36315580",
+      "36272675",
+      "34864847",
+      "34850135",
+      "34791371",
+      "34487138",
+      "34290238",
+      "34265844",
+      "34232869",
+      "34139171",
+      "33876751",
+      "33875885",
+      "33381830",
+      "33237329",
+      "33211854",
+      "33162782",
+      "33069007",
+      "32702119",
+      "32173600",
+      "31584089",
+      "31504193",
+      "29136219",
+      "28597295",
+      "28011771",
+      "27911791",
+      "27307636",
+      "25531225",
+      "24939692",
+      "24773235",
+      "24739139",
+      "22559227",
+      "16876893",
+      "12814657",
+      "12432405",
+      "12381310",
+      "12368089",
+      "11072340",
+      "10592235",
+      "9254694",
+      "1507216"
+    ],
+    "similar": [
+      "37992088",
+      "38166858",
+      "37883249",
+      "36315580",
+      "39586094",
+      "38701796",
+      "32702119",
+      "29228892",
+      "40254833",
+      "28365882",
+      "35436286",
+      "31441158",
+      "32112084",
+      "36674958",
+      "41174305",
+      "32696395",
+      "39163306",
+      "36272675",
+      "39093570",
+      "18831774",
+      "25496281",
+      "35882686",
+      "36833360",
+      "20522251",
+      "33719450",
+      "25287424",
+      "35762718",
+      "38987470",
+      "31307006",
+      "19594884",
+      "35139468",
+      "23170892",
+      "38079339",
+      "23142703",
+      "32771522",
+      "33087759",
+      "37990040",
+      "40138319",
+      "38396678",
+      "30278223",
+      "31756456",
+      "37722056",
+      "35454181",
+      "25307499",
+      "37827403",
+      "35609776",
+      "36250006",
+      "38296708",
+      "35443054",
+      "41082321",
+      "34504009",
+      "24606139",
+      "33936509",
+      "40128232",
+      "28076807",
+      "36304335",
+      "36305763",
+      "35883444",
+      "34461937",
+      "34656333",
+      "36929465",
+      "28369666",
+      "37634152",
+      "32159932",
+      "38177684",
+      "38194282",
+      "22399317",
+      "32696351",
+      "27844185",
+      "24329095",
+      "24532081",
+      "33951592",
+      "40034137",
+      "39576583",
+      "35944496",
+      "27787828",
+      "34626492",
+      "32696355",
+      "31797594",
+      "30091924",
+      "34656327",
+      "27115638",
+      "25863585",
+      "21647374",
+      "36551304",
+      "38507044",
+      "39475380",
+      "30445805",
+      "40662788",
+      "36420436",
+      "29626537",
+      "39718444",
+      "34656328",
+      "35119946",
+      "26387098",
+      "30909517",
+      "36908253",
+      "26109352",
+      "35507260",
+      "31521235"
+    ],
+    "review": [
+      "37992088",
+      "31441158",
+      "39093570",
+      "35882686",
+      "36833360",
+      "25287424",
+      "35139468",
+      "23170892",
+      "30278223",
+      "25307499",
+      "36250006",
+      "38296708",
+      "24606139",
+      "22399317",
+      "24532081",
+      "33951592",
+      "25863585",
+      "36551304",
+      "30445805",
+      "35119946",
+      "26387098",
+      "30909517",
+      "31521235"
+    ],
+    "pmc": [
+      "10699601"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1011657",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37992088/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37992088",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37992088",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

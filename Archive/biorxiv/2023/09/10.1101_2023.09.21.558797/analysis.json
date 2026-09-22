@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.21.558797",
+  "title": "Dynamin 1xA interacts with Endophilin A1 via its spliced long C-terminus for ultrafast endocytosis",
+  "authors": "Imoto Y; Xue J; Luo L; Raychaudhuri S; Itoh K; Ma Y; Craft GE; Kwan AH; Mackay JP; Ha T; Watanabe S; Robinson PJ",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-21",
+  "window": {
+    "start": "2023-09-18",
+    "end": "2023-09-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究Dynamin 1xA剪接变体长C端与Endophilin A的互作及其在超快内吞中的定位机制，涉及无序区域介导的PPI和磷酸化调控，但无AI/物理模拟方法，机制建模深度有限。",
+  "abstract": "<h4>Summary</h4> Dynamin 1 (Dyn1) has two major splice variants, xA and xB, with unique C-terminal extensions of 20 and 7 amino acids, respectively. Of these, only Dyn1xA is enriched at endocytic zones and accelerates vesicle fission during ultrafast endocytosis. Here, we report that the long tail variant, Dyn1xA, achieves this localization by preferentially binding to Endophilin A through a newly defined Class II binding site overlapping with its extension, at a site spanning the splice boundary. Endophilin binds this site at higher affinity than the previously reported site, and this affinity is determined by amino acids outside the binding sites acting as long distance elements within the xA tail. Their interaction is regulated by the phosphorylation state of two serine residues specific to the xA variant. Dyn1xA and Endophilin colocalize in patches near the active zone of synapses. Mutations selectively disrupting Endophilin binding to the long extension cause Dyn1xA mislocalization along axons. In these mutants, endocytic pits are stalled on the plasma membrane during ultrafast endocytosis. These data suggest that the specificity for ultrafast endocytosis is defined by the phospho-regulated interaction of Endophilin A through a newly identified site of Dyn1xA’s long tail.",
+  "abstract_zh": "<h4>摘要</h4> Dynamin 1（Dyn1）具有两种主要剪接变体，xA和xB，分别具有独特的C端延伸，长度为20和7个氨基酸。其中，仅Dyn1xA在超快内吞作用期间富集于内吞区并加速囊泡裂变。在此，我们报告长尾变体Dyn1xA通过优先结合Endophilin A实现这种定位，该结合通过一个新定义的II类结合位点，该位点与其延伸重叠，位于跨越剪接边界的位置。Endophilin以比先前报道的位点更高的亲和力结合此位点，且此亲和力由结合位点外部的氨基酸决定，这些氨基酸在xA尾部充当长距离元件。它们的相互作用受xA变体特有的两个丝氨酸残基的磷酸化状态调控。Dyn1xA和Endophilin在突触活性区附近的斑块中共定位。选择性破坏Endophilin与长延伸结合的突变导致Dyn1xA沿轴突错误定位。在这些突变体中，超快内吞作用期间内吞小坑停滞在质膜上。这些数据表明，超快内吞作用的特异性由Endophilin A通过Dyn1xA长尾中新识别位点的磷酸化调控相互作用所定义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.21.558797",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.21.558797",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.21.558797/index.html"
+}

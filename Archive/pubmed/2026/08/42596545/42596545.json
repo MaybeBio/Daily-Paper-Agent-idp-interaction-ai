@@ -1,0 +1,198 @@
+{
+  "identity": {
+    "pmid": "42596545",
+    "doi": "10.1016/j.bpj.2026.08.005",
+    "title": "Fusion dynamics of viscoelastic droplets: Similarities and differences with shape recovery."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates formed by phase separation inside cells often exhibit viscoelastic behavior, yet their shape recovery and fusion dynamics are frequently interpreted using purely viscous models. Here, we develop a unified theoretical and computational framework to quantify how viscoelasticity governs these two fundamental processes. We combine analytical theory for small-deformation shape recovery with axisymmetric finite-element simulations based on the Oldroyd-B constitutive model to systematically investigate both shape recovery and droplet fusion under comparable physical conditions. Our results show that, although both processes are driven by capillary forces, they are distinct in their underlying physics. Shape recovery is governed by global viscocapillary relaxation of a single connected interface and follows single- or multi-exponential decay depending on the relative magnitude of the viscocapillary timescale and the stress relaxation time. In contrast, droplet fusion is intrinsically a multi-stage process involving localized curvature-driven neck formation, rapid bridge expansion, and a transition to global relaxation. We demonstrate that viscoelasticity introduces an additional intrinsic timescale that governs the competition between capillary driving and stress relaxation, characterized by the Deborah number. This leads to enhanced intermediate-stage fusion dynamics and modified relaxation behavior compared to Newtonian droplets. Furthermore, we show that the presence of an exterior fluid with finite viscosity introduces additional hydrodynamic dissipation through two-phase coupling, significantly slowing the fusion process. Finally, we compare the computationally predicted droplet fusion in the Newtonian and viscoelastic cases with a stretched-exponential empirical formula. Deviations observed in viscoelastic regimes highlight the limitations of purely viscous descriptions and the need for models incorporating stress relaxation and memory effects.",
+    "keywords": [],
+    "mesh_terms": [
+      "Viscosity",
+      "*Elasticity",
+      "Finite Element Analysis",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Naderi, Mohammad Moein",
+        "Peng, Zhangli",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "Naderi MM",
+        "Peng Z",
+        "Zhou HX"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, USA.",
+        "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, USA; Center for Bioinformatics and Quantitative Biology (CBQB), University of Illinois Chicago, Chicago, IL 60612, USA. Electronic address: zhpeng@uic.edu.",
+        "Center for Bioinformatics and Quantitative Biology (CBQB), University of Illinois Chicago, Chicago, IL 60612, USA; Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA; Department of Physics, University of Illinois Chicago, Chicago, IL 60607, USA. Electronic address: hzhou43@uic.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Naderi, Mohammad Moein",
+        "short_name": "Naderi MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Peng, Zhangli",
+        "short_name": "Peng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Illinois Chicago, Chicago, IL 60607, USA; Center for Bioinformatics and Quantitative Biology (CBQB), University of Illinois Chicago, Chicago, IL 60612, USA. Electronic address: zhpeng@uic.edu."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Bioinformatics and Quantitative Biology (CBQB), University of Illinois Chicago, Chicago, IL 60612, USA; Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA; Department of Physics, University of Illinois Chicago, Chicago, IL 60607, USA. Electronic address: hzhou43@uic.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Sep 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/14 05:38",
+    "fetched_at": "2026-09-18 05:36:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42596545",
+      "42396211",
+      "42475469",
+      "34654286",
+      "25215849",
+      "34645832",
+      "42030154",
+      "23912807",
+      "41670285",
+      "32621160",
+      "42025986",
+      "36053000",
+      "27414249",
+      "26232814",
+      "25591049",
+      "41340374",
+      "23380996",
+      "21950896",
+      "35344881",
+      "36030049",
+      "30511773",
+      "40935304",
+      "35030836",
+      "36372152",
+      "25597890",
+      "31675049",
+      "37419954",
+      "18345850",
+      "35124354",
+      "38855576",
+      "39225536",
+      "29288084",
+      "23410434",
+      "41933903",
+      "41279444",
+      "41059952",
+      "38976113",
+      "26163369",
+      "29293558",
+      "26130967",
+      "24231962",
+      "15607877",
+      "42106386",
+      "23387789",
+      "40430689",
+      "36763387",
+      "40942230",
+      "23811278",
+      "28658600",
+      "37631494",
+      "41807902",
+      "42678206",
+      "37187153",
+      "33483917",
+      "26050200",
+      "22106263",
+      "37129690",
+      "39365107",
+      "28756040",
+      "16813454",
+      "27627026",
+      "42301115",
+      "27554263",
+      "15909655",
+      "39488187",
+      "34080080",
+      "42322735",
+      "40846493",
+      "41899843",
+      "41799151",
+      "29174620",
+      "26159560",
+      "42206969",
+      "38744120",
+      "40984157",
+      "24994710",
+      "31108606",
+      "17115793",
+      "26810396",
+      "9378761",
+      "20725846",
+      "32083258",
+      "15171134",
+      "25378894",
+      "34048975",
+      "41964913",
+      "30884167",
+      "19366587",
+      "10708783",
+      "41527931",
+      "27140623",
+      "41645509",
+      "37158200",
+      "34846046",
+      "35457884",
+      "41863073",
+      "17380390",
+      "28745766",
+      "38157727",
+      "35632006"
+    ],
+    "review": [
+      "42596545",
+      "41807902",
+      "42322735"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

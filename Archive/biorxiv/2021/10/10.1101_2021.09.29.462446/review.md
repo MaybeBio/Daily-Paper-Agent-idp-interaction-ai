@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, model and methods, results and discussion, conclusion)
+- **Assessment boundary** Scientific validity, methodological soundness, and support of claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors propose an "all-atom GNM" that incorporates heavy atoms near each alpha carbon into the Kirchoff adjacency matrix, enabling prediction of mutation and ligand binding effects on residue fluctuations and correlations, with validation against published experimental data
+- **Visible evidence base** Abstract, Introduction, Model and Methods (sections i-iv), Results and Discussion (sections i-iv), Conclusion, one figure reference (Figure 1), four data figure references (Figures 2-5), no tables, no supplementary materials
+- **Missing materials affecting confidence** Figures 1-5 are referenced but not provided; no quantitative comparison metrics (e.g., correlation coefficients, RMSD values) between model predictions and experimental data; no details on parameter selection (e.g., cutoff distances, force field parameters); no statistical analysis or error estimates; no code or data availability statement
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting extension of the coarse-grained GNM by incorporating heavy atom contacts into the connectivity matrix. The motivation is clear and the connection to phantom network theory is historically well-framed. However, the evidence provided is insufficient to establish the validity of the model. The results section relies entirely on qualitative visual comparisons to figures that are not included in the supplied material, and no quantitative metrics are provided. The methodological description lacks critical details needed for reproducibility. The claim that in silico mutations produce similar results to laboratory mutations is not substantiated with any numerical evidence. The manuscript would benefit from a more rigorous quantitative validation and a clearer articulation of the model's limitations.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists working on coarse-grained models of protein dynamics, particularly those interested in allostery and mutation effects. Researchers developing elastic network models may find the extension to all-atom resolution conceptually appealing. The potential to predict functional changes from simple in silico mutations could interest experimentalists seeking rapid hypotheses about mutation effects, though the current evidence does not yet support such practical application.
+- **Major strengths** The conceptual extension of GNM to include heavy atoms is a logical and potentially valuable improvement. The connection to rubber elasticity theory provides a principled theoretical foundation. The use of normalized correlations to eliminate the adjustable parameter is an elegant methodological choice. The focus on correlation changes rather than absolute fluctuations is well-motivated for studying allostery.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that all-atom GNM applied to in silico mutated proteins and laboratory mutated structures gives similar results
+  - **Evidence pointer** Results and Discussion, sections i-iii, Figures 2-4
+  - **Concern** The central validation claim is based on visual comparison of curves in Figures 2-4, which are not provided in the supplied material. No quantitative similarity metrics (e.g., Pearson correlation, RMSD between predicted and experimental correlation differences) are reported. The text states results are "similar" without defining what constitutes similarity.
+  - **Why it matters** The entire proof-of-concept rests on this comparison. Without quantitative evidence, the reader cannot assess whether the agreement is meaningful or coincidental. The claim that in silico mutations can substitute for laboratory mutations is a strong statement that requires rigorous statistical support.
+  - **Resolution test** Provide the figures and add quantitative comparison metrics (e.g., correlation coefficients, RMSD values) between in silico and experimental mutation results, with appropriate statistical significance testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological reproducibility
+  - **Claim pointer** The model is defined by a modified Kirchoff adjacency matrix with heavy atom contacts, but the exact construction is not fully specified
+  - **Evidence pointer** Model and Methods, section ii
+  - **Concern** The definition of the Γ matrix is incomplete. The text states "n ij is the number of atom pairs closer than a given cutoff distance" but does not specify: (a) which atoms are included (all heavy atoms? only those in side chains?), (b) how the proportionality constant k is determined, (c) whether the cutoff distance of 4 Å used for mutations is also used for the Γ matrix construction, and (d) how hydrogen atoms are treated. The relationship between the all-atom Γ and the coarse-grained Γ is not explicitly derived.
+  - **Why it matters** Without a complete specification, the model cannot be reproduced or independently verified. The choice of cutoff and atom types could significantly affect results, and the reader cannot assess the sensitivity of the model to these choices.
+  - **Resolution test** Provide a complete mathematical definition of the Γ matrix, including all parameters, atom selection criteria, and the rationale for parameter choices. Include a sensitivity analysis for key parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The manuscript claims that the all-atom GNM can predict effects of mutation and ligand binding on residue fluctuations and pair-correlations
+  - **Evidence pointer** Results and Discussion, sections i-iv, Figures 2-5
+  - **Concern** The results section presents only qualitative descriptions of correlation changes (e.g., "gain of correlation," "loss of correlation") without any quantitative validation against experimental observables. No comparison to experimental binding affinities, functional assays, or other measurable quantities is provided. The link between predicted correlation changes and functional outcomes is asserted but not demonstrated.
+  - **Why it matters** The stated purpose of the model is to enable predictions relevant to protein function. Without quantitative validation against functional or biophysical data, the predictive power of the model remains unestablished.
+  - **Resolution test** Provide quantitative comparisons between model predictions and experimental measurements (e.g., binding affinities, enzymatic activities, NMR order parameters) for the PDZ domain system, with appropriate error analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of validation
+  - **Claim pointer** The manuscript implies general applicability of the all-atom GNM to mutation and ligand binding studies
+  - **Evidence pointer** Results and Discussion, sections i-iv
+  - **Concern** Validation is limited to a single protein system (PDZ domain) and two mutations (G330T, H372A). No other protein systems are tested. The generalizability of the approach to other proteins, mutation types, or ligand binding scenarios is not demonstrated.
+  - **Why it matters** A single proof-of-concept on one system is insufficient to establish broad applicability. The model may perform differently on proteins with different sizes, folds, or dynamic properties.
+  - **Resolution test** Apply the model to at least 2-3 additional protein systems with available experimental mutation or ligand binding data, and report quantitative agreement metrics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** Location not provided
+  - **Issue** The historical discussion of rubber elasticity theory, while informative, is lengthy relative to the manuscript's focus. The connection to the current model could be stated more concisely.
+  - **Required correction** Condense the historical background and focus on the direct relevance to the all-atom GNM formulation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model and Methods, section iv
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of in silico mutation using Biovia Discovery Studio Visualizer lacks details on the energy minimization protocol, such as the number of minimization steps, convergence criteria, and whether the rest of the protein was truly fixed.
+  - **Required correction** Provide full details of the mutation and minimization protocol, including software version and parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results and Discussion, section i
+  - **Evidence pointer** Location not provided
+  - **Issue** The statement that "GLU334, ALA370 and SER371 all flank residue 330" is presented as significant, but the functional relevance of these residues is not discussed. The reader cannot assess whether these correlation changes are expected to be functionally important.
+  - **Required correction** Provide context on the functional roles of these residues, or temper the interpretation if such information is unavailable.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results and Discussion, section iv
+  - **Evidence pointer** Location not provided
+  - **Issue** The comparison between ligand binding effects on wild type and G330T mutated proteins is described, but the biological significance of the observed differences is not discussed.
+  - **Required correction** Add interpretation of what the differential correlation patterns might mean for protein function or allosteric communication.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Conclusion
+  - **Evidence pointer** Location not provided
+  - **Issue** The conclusion mentions molecular dynamics simulations as an alternative approach but does not discuss how the all-atom GNM compares to MD in terms of computational cost, accuracy, or applicability.
+  - **Required correction** Add a brief comparison of the all-atom GNM with MD simulations, including computational cost and expected accuracy trade-offs.
+
+## Risk / unsupported claims
+- The claim that in silico mutations produce results similar to laboratory mutations is unsupported by quantitative evidence in the provided material
+- The claim that the all-atom GNM can predict functional effects of mutations and ligand binding is not validated against any experimental functional data
+- The general applicability of the model beyond the PDZ domain system is asserted but not demonstrated
+- The statement that "the experimental examples we present in this paper show that conformational change upon mutation or ligand binding is not significant" is not supported by any data presented in the supplied text
+- The claim that the all-atom GNM introduces "amino acid specific and position specific information" is plausible but not quantitatively demonstrated in the provided material

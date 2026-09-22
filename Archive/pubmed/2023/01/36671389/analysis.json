@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36671389",
+  "title": "Different Forms of Disorder in NMDA-Sensitive Glutamate Receptor Cytoplasmic Domains Are Associated with Differences in Condensate Formation.",
+  "authors": "Basak, Sujit; Saikia, Nabanita; Kwun, David; Choi, Ucheor B; Ding, Feng; Bowen, Mark E",
+  "journal": "Biomolecules",
+  "published_date": "2023-01-22",
+  "window": {
+    "start": "2023-01-16",
+    "end": "2023-01-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合DMD模拟与smFRET实验，比较GluN2A/GluN2B无序CTD的构象差异及其与PSD-95/SynGAP的相分离凝聚体形成能力，直接聚焦IDR介导的PPI与LLPS机制建模。",
+  "abstract": "The N-methyl-D-aspartate (NMDA)-sensitive glutamate receptor (NMDAR) helps assemble downstream signaling pathways through protein interactions within the postsynaptic density (PSD), which are mediated by its intracellular C-terminal domain (CTD). The most abundant NMDAR subunits in the brain are GluN2A and GluN2B, which are associated with a developmental switch in NMDAR composition. Previously, we used single molecule fluorescence resonance energy transfer (smFRET) to show that the GluN2B CTD contained an intrinsically disordered region with slow, hop-like conformational dynamics. The CTD from GluN2B also undergoes liquid-liquid phase separation (LLPS) with synaptic proteins. Here, we extend these observations to the GluN2A CTD. Sequence analysis showed that both subunits contain a form of intrinsic disorder classified as weak polyampholytes. However, only GluN2B contained matched patterning of arginine and aromatic residues, which are linked to LLPS. To examine the conformational distribution, we used discrete molecular dynamics (DMD), which revealed that GluN2A favors extended disordered states containing secondary structures while GluN2B favors disordered globular states. In contrast to GluN2B, smFRET measurements found that GluN2A lacked slow conformational dynamics. Thus, simulation and experiments found differences in the form of disorder. To understand how this affects protein interactions, we compared the ability of these two NMDAR isoforms to undergo LLPS. We found that GluN2B readily formed condensates with PSD-95 and SynGAP, while GluN2A failed to support LLPS and instead showed a propensity for colloidal aggregation. That GluN2A fails to support this same condensate formation suggests a developmental switch in LLPS propensity.",
+  "abstract_zh": "N-甲基-D-天冬氨酸（NMDA）敏感性谷氨酸受体（NMDAR）通过其细胞内C末端结构域（CTD）介导的蛋白质相互作用，在突触后密度（PSD）内组装下游信号通路。大脑中最丰富的NMDAR亚基是GluN2A和GluN2B，它们与NMDAR组成的发育性转换相关。此前，我们使用单分子荧光共振能量转移（smFRET）技术表明，GluN2B CTD包含一个具有缓慢、跳跃式构象动力学的内在无序区域。GluN2B的CTD还与突触蛋白发生液-液相分离（LLPS）。在此，我们将这些观察扩展到GluN2A CTD。序列分析显示，两个亚基均包含一种被归类为弱聚电解质的固有无序形式。然而，仅GluN2B含有精氨酸和芳香族残基的匹配模式，这与LLPS相关。为检查构象分布，我们使用了离散分子动力学（DMD），结果显示GluN2A倾向于包含二级结构的延伸无序状态，而GluN2B则倾向于无序球状状态。与GluN2B相反，smFRET测量发现GluN2A缺乏缓慢的构象动力学。因此，模拟和实验发现无序形式存在差异。为理解这如何影响蛋白质相互作用，我们比较了这两种NMDAR亚型发生LLPS的能力。我们发现GluN2B易于与PSD-95和SynGAP形成凝聚体，而GluN2A未能支持LLPS，反而表现出胶体聚集的倾向。GluN2A未能支持相同的凝聚体形成，提示LLPS倾向性存在发育性转换。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36671389/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36671389/",
+  "paper_page_path": "papers/pubmed/36671389/index.html"
+}

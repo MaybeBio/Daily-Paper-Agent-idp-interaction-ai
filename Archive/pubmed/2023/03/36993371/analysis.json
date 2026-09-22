@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36993371",
+  "title": "FIREBALL: A tool to fit protein phase diagrams based on mean-field theories for polymer solutions.",
+  "authors": "Farag, Mina; Holehouse, Alex S; Zeng, Xiangze; Pappu, Rohit V",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-03-31",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文介绍FIREBALL工具，用平均场聚合物理论拟合IDR相分离双节线，虽无AI/物理模拟方法，但聚焦IDR相分离机制建模，对无序蛋白互作相分离研究有方法学启发。",
+  "abstract": "Biomolecular condensates form via phase transitions of condensate-specific biomacromolecules. Intrinsically disordered regions (IDRs) featuring the appropriate sequence grammar can contribute homotypic and heterotypic interactions to the driving forces for phase separation of multivalent proteins. At this juncture, experiments and computations have matured to the point where the concentrations of coexisting dense and dilute phases can be quantified for individual IDRs in complex milieus both in vitro and in vivo . For a macromolecule such as a disordered protein in a solvent, the locus of points that connects concentrations of the two coexisting phases defines a phase boundary or binodal. Often, only a few points along the binodal, especially in the dense phase, are accessible for measurement. In such cases and for quantitative and comparative analysis of parameters that describe the driving forces for phase separation, it is useful to fit measured or computed binodals to well-known mean-field free energies for polymer solutions. Unfortunately, the non-linearity of the underlying free energy functions makes it challenging to put mean-field theories into practice. Here, we present FIREBALL, a suite of computational tools designed to enable efficient construction, analysis, and fitting to experimental or computed data of binodals. We show that depending on the theory being used, one can also extract information regarding coil-to-globule transitions of individual macromolecules. Here, we emphasize the ease-of-use and utility of FIREBALL using examples based on data for two different IDRs. STATEMENT OF SIGNIFICANCE: Macromolecular phase separation drives the assembly of membraneless bodies known as biomolecular condensates. Measurements and computer simulations can now be brought to bear to quantify how the concentrations of macromolecules in coexisting dilute and dense phases vary with changes to solution conditions. These mappings can be fit to analytical expressions for free energies of solution to extract information regarding parameters that enable comparative assessments of the balance of macromolecule-solvent interactions across different systems. However, the underlying free energies are non-linear and fitting them to actual data is non-trivial. To enable comparative numerical analyses, we introduce FIREBALL, a user-friendly suite of computational tools that allows one to generate, analyze, and fit phase diagrams and coil-to-globule transitions using well-known theories.",
+  "abstract_zh": "生物分子凝聚体通过凝聚体特异性生物大分子的相变形成。具有适当序列语法的内在无序区域（IDRs）可通过同型和异型相互作用，为多价蛋白的相分离提供驱动力。当前，实验与计算已发展到能够在体外和体内的复杂环境中，对单个IDRs的共存稠密相和稀薄相浓度进行量化的程度。对于溶剂中的无序蛋白等大分子，连接两共存相浓度的点轨迹定义了相边界或双节线（binodal）。通常，双节线上仅有少数点，尤其是稠密相中的点，可供测量。在此类情况下，为定量和比较分析描述相分离驱动力的参数，将测量或计算得到的双节线拟合至聚合物溶液的著名均场自由能模型是有用的。然而，底层自由能函数的非线性使得均场理论的实际应用颇具挑战。在此，我们介绍FIREBALL，一套旨在实现高效构建、分析及拟合实验或计算双节线数据的计算工具套件。我们表明，根据所用理论，还可提取单个大分子从线圈到球状转变的信息。此处，我们通过基于两种不同IDRs数据的示例，强调FIREBALL的易用性和实用性。意义声明：大分子相分离驱动无膜体（即生物分子凝聚体）的组装。测量和计算机模拟现可用于量化共存稀薄相和稠密相中大分子浓度随溶液条件变化的情况。这些映射可拟合至溶液自由能的解析表达式，以提取参数信息，从而实现对不同系统中大分子-溶剂相互作用平衡的比较评估。然而，底层自由能是非线性的，将其拟合至实际数据并非易事。为便于比较性数值分析，我们推出FIREBALL，一套用户友好的计算工具套件，利用著名理论生成、分析和拟合相图及线圈-球状转变。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36993371/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36993371/",
+  "paper_page_path": "papers/pubmed/36993371/index.html"
+}

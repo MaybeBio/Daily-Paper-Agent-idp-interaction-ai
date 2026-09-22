@@ -1,0 +1,664 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.12.693818",
+  "title": "DeepDOX1: A Dual-Drive Framework Integrating Deep Learning and First-Principles Physics for Drug-Protein Affinity Prediction",
+  "doi": "10.64898/2025.12.12.693818",
+  "abstract": "In this work, we present DeepDOX1, a dual-drive drug-protein affinity (DPA) prediction tool features the tight integration of a concise AI architecture and a quantum mechanics based representation. The first-principle physics generated features incorporating the interactions between the drug and the protein pocket allows a relatively simple CNN model trained on a relatively small training set to exhibit exceptional generalization capabilities across extensive testing. Notably, DeepDOX1 outperforms popular AI models in the tests simulating real-world drug design scenario and a highly challenging test set featuring covalent ligands, halogenated ligands and metalloproteins. In addition, we designed a series of novel covalent inhibitors targeting the diabetes target hu -FBPase using DeepDOX1. Subsequent experimental validation including enzyme-level bioactivity assays and crystal structure determination confirmed the DeepDOX1’s effectiveness in real-world drug design applications. It is conceivable that the combination of AI and first-principle QM might be one of the next breakthrough points of DPA prediction.",
+  "authors": [
+    "Zheng Liu",
+    "Hao Sun",
+    "Yuliang Wang",
+    "Yanliang Ren",
+    "Li Rao",
+    "Zeyue Huang",
+    "Hongxuan Cao",
+    "Xiuqi Hu",
+    "Xinyue Zhu",
+    "Meng Li",
+    "Jian Wan"
+  ],
+  "published_date": "2025-12-15",
+  "updated_date": "2025-12-15T19:40:21Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.12.693818",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.12.693818.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            18
+          ]
+        ],
+        "date-time": "2025-12-18T05:05:23Z",
+        "timestamp": 1766034323313,
+        "version": "3.48.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            15
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 51,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                15
+              ]
+            ],
+            "date-time": "2025-12-15T00:00:00Z",
+            "timestamp": 1765756800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  In this work, we present DeepDOX1, a dual-drive drug-protein affinity (DPA) prediction tool features the tight integration of a concise AI architecture and a quantum mechanics based representation. The first-principle physics generated features incorporating the interactions between the drug and the protein pocket allows a relatively simple CNN model trained on a relatively small training set to exhibit exceptional generalization capabilities across extensive testing. Notably, DeepDOX1 outperforms popular AI models in the tests simulating real-world drug design scenario and a highly challenging test set featuring covalent ligands, halogenated ligands and metalloproteins. In addition, we designed a series of novel covalent inhibitors targeting the diabetes target\n                  <jats:italic>hu</jats:italic>\n                  -FBPase using DeepDOX1. Subsequent experimental validation including enzyme-level bioactivity assays and crystal structure determination confirmed the DeepDOX1’s effectiveness in real-world drug design applications. It is conceivable that the combination of AI and first-principle QM might be one of the next breakthrough points of DPA prediction.\n                </jats:p>",
+      "DOI": "10.64898/2025.12.12.693818",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            15
+          ]
+        ],
+        "date-time": "2025-12-15T19:40:21Z",
+        "timestamp": 1765827621000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "DeepDOX1: A Dual-Drive Framework Integrating Deep Learning and First-Principles Physics for Drug-Protein Affinity Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Zheng",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hao",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yuliang",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yanliang",
+          "family": "Ren",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Li",
+          "family": "Rao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zeyue",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Hongxuan",
+          "family": "Cao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiuqi",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xinyue",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Meng",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Jian",
+          "family": "Wan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.1",
+          "first-page": "141",
+          "article-title": "Integrating QSAR modelling and deep learning in drug discovery: the emergence of deep QSAR",
+          "volume": "23",
+          "year": "2023",
+          "journal-title": "Nature Reviews Drug Discovery"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd1549"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "449",
+          "DOI": "10.1517/17460441.2015.1032936",
+          "article-title": "The MM/PBSA and MM/GBSA methods to estimate ligand-binding affinities",
+          "volume": "10",
+          "year": "2015",
+          "journal-title": "Expert Opinion on Drug Discovery"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/092986710790514453"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.24667"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.9b00645"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Nascimento, A.C. , Prudencio, R.B. & Costa, I.G . A multiple kernel learning algorithm for drug-target interaction prediction. BMC Bioinformatics 17, 46 (2016).",
+          "DOI": "10.1186/s12859-016-0890-3"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.6b00740"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, K. , Zhou, R. , Li, Y. & Li, M . DeepDTAF: a deep learning method to predict protein-ligand binding affinity. Brief Bioinform 22(2021).",
+          "DOI": "10.1093/bib/bbab072"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liao, Z. et al. DeepDock: Enhancing Ligand-protein Interaction Prediction by a Combination of Ligand and Structure Information. in 2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM) 311–317 (2019).",
+          "DOI": "10.1109/BIBM47256.2019.8983365"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D1SC06946B"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.2c00960"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.13",
+          "unstructured": "Lu, W. et al. TANKBind: Trigonometry-Aware Neural NetworKs for Drug-Protein Binding Structure Prediction. in Advances in Neural Information Processing Systems Vol. 35 (eds Koyejo, S. et al.) 7236–7249-7236–7249 (Curran Associates, Inc.)."
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D3SC02044D"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yan, J. et al. Multi-task bioassay pre-training for protein-ligand binding affinity prediction. Brief Bioinform 25(2023).",
+          "DOI": "10.1093/bib/bbad451"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.3c00253"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.3c00251"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang, W. et al. AdptDilatedGCN: Protein-ligand binding affinity prediction based on multi-scale interaction fusion mechanism and dilated GCN. Int J Biol Macromol 311, 143751 (2025).",
+          "DOI": "10.1016/j.ijbiomac.2025.143751"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "2548",
+          "DOI": "10.1038/s41467-025-57828-0",
+          "article-title": "DTIAM: a unified framework for predicting drug-target interactions, binding affinities and drug mechanisms",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Li, J. & Gong, X . Harnessing pre-trained models for accurate prediction of protein-ligand binding affinity. BMC Bioinformatics 26, 55 (2025).",
+          "DOI": "10.1186/s12859-025-06064-w"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Passaro, S. et al. Boltz-2: Towards Accurate and Efficient Binding Affinity Prediction. bioRxiv (2025).",
+          "DOI": "10.1101/2025.06.14.659707"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.accounts.6b00491"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu626"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv352"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "3389",
+          "DOI": "10.1021/acs.jcim.9b00258",
+          "article-title": "Underestimated Noncovalent Interactions in Protein Data Bank",
+          "volume": "59",
+          "year": "2019",
+          "journal-title": "J Chem Inf Model"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/anie.202316364"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.4c00745"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "4782",
+          "DOI": "10.1021/acs.jmedchem.3c02359",
+          "article-title": "Impact of Halogen Bonds on Protein-Peptide Binding and Protein Structural Stability Revealed by Computational Approaches",
+          "volume": "67",
+          "year": "2024",
+          "journal-title": "J Med Chem"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1124/pharmrev.121.000349"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2007.07.006"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Manathunga, M. , Gotz, A.W. & Merz, K.M., Jr . Computer-aided drug design, quantum-mechanical methods for biological problems. Curr Opin Struct Biol 75, 102417 (2022).",
+          "DOI": "10.1016/j.sbi.2022.102417"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "1677",
+          "DOI": "10.1021/acs.jcim.5c00148",
+          "article-title": "Computational Chemistry in the Global South: A Latin American Perspective",
+          "volume": "65",
+          "year": "2025",
+          "journal-title": "J Chem Inf Model"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "2235",
+          "DOI": "10.1021/acs.jctc.4c01609",
+          "article-title": "Integrating Machine Learning and Quantum Circuits for Proton Affinity Predictions",
+          "volume": "21",
+          "year": "2025",
+          "journal-title": "J Chem Theory Comput"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "4850",
+          "DOI": "10.1021/acs.jcim.3c00776",
+          "article-title": "DOX_BDW: Incorporating Solvation and Desolvation Effects of Cavity Water into Nonfitting Protein-Ligand Binding Affinity Prediction",
+          "volume": "63",
+          "year": "2023",
+          "journal-title": "J Chem Inf Model"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "336",
+          "DOI": "10.1002/jcc.24217",
+          "article-title": "DOX: A new computational protocol for accurate prediction of the protein-ligand binding structures",
+          "volume": "37",
+          "year": "2016",
+          "journal-title": "J Comput Chem"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "5528",
+          "DOI": "10.1021/acs.jmedchem.1c02007",
+          "article-title": "Cov_DOX: A Method for Structure Prediction of Covalent Protein-Ligand Bindings",
+          "volume": "65",
+          "year": "2022",
+          "journal-title": "J Med Chem"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wu, J. & Xu, X . The X1 method for accurate and efficient prediction of heats of formation. J Chem Phys 127, 214105 (2007).",
+          "DOI": "10.1063/1.2800018"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "11501",
+          "DOI": "10.1063/1.1630951",
+          "article-title": "Combined first-principles calculation and neural-network correction approach for heat of formation",
+          "volume": "119",
+          "year": "2003",
+          "journal-title": "The Journal of Chemical Physics"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "2931",
+          "DOI": "10.1021/acs.jctc.2c00055",
+          "article-title": "Accurate Prediction of Nuclear Magnetic Resonance Parameters via the XYG3 Type of Doubly Hybrid Density Functionals",
+          "volume": "18",
+          "year": "2022",
+          "journal-title": "J Chem Theory Comput"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "12501",
+          "DOI": "10.1021/acs.jpclett.4c03214",
+          "article-title": "X2-GNN: A Physical Message Passing Neural Network with Natural Generalization Ability to Large and Complex Molecules",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "J Phys Chem Lett"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.41",
+          "first-page": "895",
+          "article-title": "Comparative Assessment of Scoring Functions: The CASF-2016 Update",
+          "volume": "59",
+          "year": "2018",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c00900"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "4782",
+          "DOI": "10.1021/acs.jmedchem.3c02359",
+          "article-title": "Impact of Halogen Bonds on Protein–Peptide Binding and Protein Structural Stability Revealed by Computational Approaches",
+          "volume": "67",
+          "year": "2024",
+          "journal-title": "Journal of Medicinal Chemistry"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "D593",
+          "DOI": "10.1093/nar/gkac860",
+          "article-title": "MeDBA: the Metalloenzyme Data Bank and Analysis platform",
+          "volume": "51",
+          "year": "2023",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "22",
+          "DOI": "10.1021/acs.jcim.6b00628",
+          "article-title": "The Underestimated Halogen Bonds Forming with Protein Side Chains in Drug Discovery and Design",
+          "volume": "57",
+          "year": "2017",
+          "journal-title": "J Chem Inf Model"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "15106",
+          "DOI": "10.1039/C9CP01379B",
+          "article-title": "Halogen bonding in differently charged complexes: basic profile, essential interaction terms and intrinsic sigma-hole",
+          "volume": "21",
+          "year": "2019",
+          "journal-title": "Phys Chem Chem Phys"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "20421",
+          "DOI": "10.1021/acs.jmedchem.4c01886",
+          "article-title": "Structure-Guided Design of Affinity/Covalent-Bond Dual-Driven Inhibitors Targeting the AMP Site of FBPase",
+          "volume": "67",
+          "year": "2024",
+          "journal-title": "Journal of Medicinal Chemistry"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hekkelman, M.L. , Salmoral, D.Á. , Perrakis, A. & Joosten, R.P . DSSP 4: FAIR annotation of protein secondary structure. Protein Science 34(2025).",
+          "DOI": "10.1002/pro.70208"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.49",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chai, J.D. & Head-Gordon, M . Systematic optimization of long-range corrected hybrid density functionals. J Chem Phys 128, 084106 (2008).",
+          "DOI": "10.1063/1.2834918"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "2142",
+          "DOI": "10.1002/jcc.23051",
+          "article-title": "XO: an extended ONIOM method for accurate and efficient modeling of large systems",
+          "volume": "33",
+          "year": "2012",
+          "journal-title": "J Comput Chem"
+        },
+        {
+          "key": "2025121721002055000_2025.12.12.693818v1.51",
+          "unstructured": "Vaswani, A. et al. Attention is all you need. in Proceedings of the 31st International Conference on Neural Information Processing Systems 6000–6010 (Curran Associates Inc., Long Beach, California, USA, 2017)."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2025.12.12.693818",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            18
+          ]
+        ],
+        "date-time": "2025-12-18T05:00:32Z",
+        "timestamp": 1766034032000
+      },
+      "score": 47.128605,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2025.12.12.693818"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            15
+          ]
+        ]
+      },
+      "references-count": 51,
+      "URL": "https://doi.org/10.64898/2025.12.12.693818",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            15
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

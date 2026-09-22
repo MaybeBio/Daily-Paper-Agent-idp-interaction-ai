@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors apply an active learning (Bayesian optimisation) framework combined with coarse-grained molecular dynamics simulations to efficiently map sequence-property relationships for disordered proteins, predict peptide self-interactions, identify sequences that bind to RNA Polymerase II CTD condensates, and design multiphasic condensates by modulating self-interaction preferences.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or validation data are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, training data details, benchmark comparisons, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a compelling and timely application of active learning to accelerate coarse-grained molecular dynamics exploration of disordered protein sequence space. The conceptual framing is strong and the potential impact on understanding sequence determinants of phase separation is significant. However, the abstract provides no quantitative evidence, no validation metrics, and no comparison to existing methods, making it impossible to assess the technical soundness or the robustness of the claimed outcomes. The work is promising but currently not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, protein phase separation, disordered protein biology, and machine learning applied to molecular simulation would find this work relevant. The active learning approach for sequence design could also interest synthetic biologists and protein engineers seeking to design condensates with tailored properties.
+- **Major strengths** The abstract addresses a well-recognised bottleneck in the field, namely the computational cost of exploring sequence space with molecular dynamics. The use of active learning to iteratively reduce the number of simulations needed is a sensible and potentially powerful strategy. The application to both self-interaction prediction and condensate recognition, as well as the extension to designing multiphasic condensates, demonstrates a broad and ambitious scope.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that iterative training with second virial coefficients leads to "rapid improvement in predicting peptide self-interactions" and that the Bayesian approach "efficiently" searches for new sequences that bind to CTD condensates.
+  - **Evidence pointer** Abstract text; no figures, tables, or quantitative results provided
+  - **Concern** No quantitative results are presented to support the claims of rapid improvement or efficiency. There is no indication of prediction accuracy, number of simulation cycles required, comparison to random or exhaustive sampling, or any error metrics. The term "rapid" and "efficient" are undefined in the abstract.
+  - **Why it matters** Without quantitative benchmarks, the central methodological advantage of the active learning scheme cannot be evaluated. The claims of efficiency and improvement are the core contribution of the work, and their absence of support prevents any assessment of whether the method outperforms existing approaches.
+  - **Resolution test** Provide quantitative results such as learning curves, prediction errors versus number of labelled examples, comparison to a baseline (e.g., random sampling or a non-active learning approach), and statistical significance measures.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and robustness
+  - **Claim pointer** The abstract claims that the framework enables the network to "establish sequence-property relationships" and that searching for sequences preferring self-interaction can "shape the morphology of protein condensates and design multiphasic protein condensates."
+  - **Evidence pointer** Abstract text; no experimental or independent validation described
+  - **Concern** No validation of the predicted sequences or designed condensates is described. There is no mention of experimental confirmation, comparison to known phase-separating sequences, or testing of the designed multiphasic condensates in vitro or in cells. The claim that morphology can be shaped is presented without any demonstration.
+  - **Why it matters** The predictive power of the model and the practical utility of the designed sequences depend on external validation. Without it, the claims remain speculative and the risk of overfitting or simulation artefacts cannot be assessed.
+  - **Resolution test** Include validation data, such as experimental assays of condensate formation and morphology for designed sequences, or at minimum, comparison to known experimental datasets for disordered protein phase separation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and methodological detail
+  - **Claim pointer** The abstract states that the active learning scheme is "introduced by Yang et al." and that coarse-grained molecular dynamics is used, but no details of the model architecture, training procedure, or simulation parameters are given.
+  - **Evidence pointer** Abstract text; methods section not provided
+  - **Concern** The abstract does not specify the coarse-grained model used, the neural network architecture, the acquisition function for active learning, or the criteria for convergence. The reliance on a bioRxiv preprint for the method is noted, but the specific adaptations made here are unclear.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without methodological detail, other groups cannot implement or benchmark the approach, and the novelty relative to the cited work cannot be assessed.
+  - **Resolution test** Provide a detailed methods section describing the simulation model, the active learning loop, hyperparameters, and code availability.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "their self-interactions and their interactions in phase-separated condensates" is grammatically awkward and could be misinterpreted.
+  - **Required correction** Rephrase to clarify that the framework predicts both self-interactions and interactions with condensates, for example, "self-interactions and interactions with phase-separated condensates."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract claims
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "design multiphasic protein condensates" but does not specify what is meant by multiphasic or how this is achieved beyond the sequence search.
+  - **Required correction** Briefly define multiphasic in this context and state the design principle more explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Citation of prior work
+  - **Evidence pointer** Abstract text
+  - **Issue** The active learning scheme is attributed to a bioRxiv preprint, which is appropriate, but the abstract does not clarify what is novel in the present application relative to that work.
+  - **Required correction** Add a sentence distinguishing the present contribution from the cited method.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and external validation means the core claims of efficiency and design capability are unsupported. R1-M3, while not blocking, is essential for reproducibility and should be addressed in the full manuscript.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of active learning with coarse-grained molecular dynamics for sequence design in phase separation is conceptually original, though the underlying components are established. The originality is promising but cannot be fully assessed without methodological detail.
+  - Scientific importance: The problem of linking sequence to phase separation behaviour is of high importance in biophysics and cell biology. If the claims hold, the work could significantly accelerate sequence-function mapping for disordered proteins.
+  - Interdisciplinary readership: The work bridges machine learning, molecular simulation, and biophysics, and would appeal to a broad interdisciplinary audience. The abstract is written in a way that is accessible to nonspecialists, though some terms (e.g., second virial coefficients) may require background.
+  - Technical soundness: Not assessable from the abstract. No quantitative evidence, validation, or methodological detail is provided.
+  - Readability for nonspecialists: The abstract is generally clear and well-structured, but the lack of concrete results makes it difficult for a nonspecialist to gauge the significance.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual approach is promising and the scope is ambitious, but the abstract alone does not provide sufficient support for the central claims. I would be supportive if the full manuscript provides quantitative benchmarks, validation, and methodological detail that address the blocking concerns.
+
+## Risk / unsupported claims
+- The claim of "rapid improvement" in predicting peptide self-interactions is unsupported without learning curves or error metrics.
+- The claim of "efficient" sequence search for CTD condensate binding is unsupported without comparison to baselines or computational cost data.
+- The claim that the framework can "shape the morphology of protein condensates" is unsupported without any demonstration or validation.
+- The claim of designing "multiphasic protein condensates" is unsupported without experimental or simulation-based evidence of multiphasic behaviour.
+- The general claim that the framework "establishes sequence-property relationships" is plausible but not quantitatively demonstrated in the abstract.

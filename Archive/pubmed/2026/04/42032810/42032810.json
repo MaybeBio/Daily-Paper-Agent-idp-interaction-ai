@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "42032810",
+    "doi": "10.1093/gpbjnl/qzag032",
+    "title": "PROBind: A Web Server for Prediction, Analysis, and Visualization of Protein-Protein and Protein-Nucleic Acid Binding Residues."
+  },
+  "content": {
+    "abstract": "Protein-protein and protein-nucleic acid interactions are fundamental to numerous cellular functions, yet only a small fraction have been experimentally characterized. Although modern computational methods have been developed for predicting interacting residues in proteins, they are challenging to use due to individual installation and execution requirements, lack of a standardized input or output format, inability to cover multiple target biomolecules and absence of support for result analysis. Moreover, the performance of many methods varies across different proteins. For instance, algorithms trained on complexes or intrinsically disordered regions may not perform well on other types. To overcome these challenges, we have developed PROBind, a web server for predicting, analyzing and interactively visualizing protein, DNA and RNA binding residues. PROBind integrates 12 predictors trained on structural or disordered proteins. It supports protein sequences and structures as input for predicting binding residues and allows for the integration of prediction results from external predictors. By normalizing and averaging predictions from multiple predictors targeting the same ligand, PROBind generates meta-predictions that balance discrepancies among different methods. Furthermore, it provides interactive graphical tools for result analysis and contextualization. Overall, PROBind accommodates diverse ligand types and supports predictions and analysis based on both structure and sequence data, overcoming the limitations of existing tools. PROBind is freely accessible at https://www.csuligroup.com/PROBind.",
+    "keywords": [
+      "Functional annotation",
+      "Protein-nucleic acid interactions",
+      "Protein-protein interactions",
+      "Visualization",
+      "Web server"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Chaojin",
+        "Zhang, Fuhao",
+        "Jia, Pengzhen",
+        "Zhu, Jiuxiang",
+        "Zeng, Min",
+        "Hu, Gang",
+        "Wang, Kui",
+        "Kurgan, Lukasz",
+        "Li, Min"
+      ],
+      "short_names": [
+        "Wu C",
+        "Zhang F",
+        "Jia P",
+        "Zhu J",
+        "Zeng M",
+        "Hu G",
+        "Wang K",
+        "Kurgan L",
+        "Li M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Hunan Provincial Key Lab on Bioinformatics, School of Computer Science and Engineering, Central South University, Changsha 410083, China.",
+        "College of Information Engineering, Northwest A&F University, Yangling 712100, China.",
+        "Hunan Provincial Key Lab on Bioinformatics, School of Computer Science and Engineering, Central South University, Changsha 410083, China.",
+        "Hunan Provincial Key Lab on Bioinformatics, School of Computer Science and Engineering, Central South University, Changsha 410083, China.",
+        "Hunan Provincial Key Lab on Bioinformatics, School of Computer Science and Engineering, Central South University, Changsha 410083, China.",
+        "School of Statistics and Data Science, LPMC and KLMDASR, Nankai University, Tianjin 300071, China.",
+        "School of Mathematical Sciences and LPMC, Nankai University, Tianjin 300071, China.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA.",
+        "Hunan Provincial Key Lab on Bioinformatics, School of Computer Science and Engineering, Central South University, Changsha 410083, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Chaojin",
+        "short_name": "Wu C",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Provincial Key Lab on Bioinformatics, School of Computer Science and Engineering, Central South University, Changsha 410083, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Fuhao",
+        "short_name": "Zhang F",
+        "identifiers": [],
+        "affiliations": [
+          "College of Information Engineering, Northwest A&F University, Yangling 712100, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Pengzhen",
+        "short_name": "Jia P",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Provincial Key Lab on Bioinformatics, School of Computer Science and Engineering, Central South University, Changsha 410083, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Jiuxiang",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Provincial Key Lab on Bioinformatics, School of Computer Science and Engineering, Central South University, Changsha 410083, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Min",
+        "short_name": "Zeng M",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Provincial Key Lab on Bioinformatics, School of Computer Science and Engineering, Central South University, Changsha 410083, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Gang",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Statistics and Data Science, LPMC and KLMDASR, Nankai University, Tianjin 300071, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Kui",
+        "short_name": "Wang K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematical Sciences and LPMC, Nankai University, Tianjin 300071, China."
+        ]
+      },
+      {
+        "full_name": "Kurgan, Lukasz",
+        "short_name": "Kurgan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Min",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Hunan Provincial Key Lab on Bioinformatics, School of Computer Science and Engineering, Central South University, Changsha 410083, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genomics, proteomics & bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Genomics Proteomics Bioinformatics"
+    ],
+    "pub_date": "2026 Apr 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/25 06:34",
+    "fetched_at": "2026-09-18 02:46:05"
+  },
+  "links": {
+    "cites": [
+      "42518490"
+    ],
+    "refs": [],
+    "similar": [
+      "42032810",
+      "34905768",
+      "40133791",
+      "38048333",
+      "40944448",
+      "36621533",
+      "36629262",
+      "39833102",
+      "26810894",
+      "40121399",
+      "31870849",
+      "40728619",
+      "24838571",
+      "23761453",
+      "29361894",
+      "40143108",
+      "35639508",
+      "42023506",
+      "27016210",
+      "38233808",
+      "38166858",
+      "28109252",
+      "40544633",
+      "34048569",
+      "20507911",
+      "33454744",
+      "23788679",
+      "40838783",
+      "40133785",
+      "36705895",
+      "25977296",
+      "25977293",
+      "32421769",
+      "27433060",
+      "30871477",
+      "33001599",
+      "25820431",
+      "36321557",
+      "36315580",
+      "39985437",
+      "22661576",
+      "39576584",
+      "41951853",
+      "25935161",
+      "24852252",
+      "16512892",
+      "26176857",
+      "36851914",
+      "41055109",
+      "41419011",
+      "31127704",
+      "16618368",
+      "41915679",
+      "40331414",
+      "20478832",
+      "31173857",
+      "28486703",
+      "40728621",
+      "40441416",
+      "21612668",
+      "36458437",
+      "27787828",
+      "36000562",
+      "33406224",
+      "31114880",
+      "24854765",
+      "41165252",
+      "23259794",
+      "30298407",
+      "33972018",
+      "23912807",
+      "40728620",
+      "17483510",
+      "41403052",
+      "23530628",
+      "34136090",
+      "24852248",
+      "41580070",
+      "41335450",
+      "26819632",
+      "27131371",
+      "41766583",
+      "19435882",
+      "22689646",
+      "23815072",
+      "31714956",
+      "31521235",
+      "40654683",
+      "41500381",
+      "29860432",
+      "23256920",
+      "31114906",
+      "16844984",
+      "24423161",
+      "26956673",
+      "40835585",
+      "36693636",
+      "18793422",
+      "18831774",
+      "40423839"
+    ],
+    "review": [
+      "42032810",
+      "39833102",
+      "40544633",
+      "36321557",
+      "41951853",
+      "25935161",
+      "36851914",
+      "31714956",
+      "31521235",
+      "36693636"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://academic.oup.com/gpb/article-lookup/doi/10.1093/gpbjnl/qzag032",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

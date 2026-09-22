@@ -1,0 +1,200 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.13.705746",
+  "title": "Rescue of pATOM36-depleted T. brucei by human MTCH1/2 reveals common features of protein insertases",
+  "doi": "10.64898/2026.02.13.705746",
+  "abstract": "Alpha-helically anchored proteins of the mitochondrial outer membrane depend on dedicated insertases, including the MIM complex in yeast, pATOM36 in trypanosomes, and MTCH1/MTCH2 in humans. These insertases lack sequence homology and arose by convergent evolution. Here we show that MTCH1 and an N-terminally modified MTCH2 can replace the OMM biogenesis function of trypanosomal pATOM36, demonstrating functional compatibility across a large phylogenetic distance. Moreover, like other insertases, pATOM36 has lipid scramblase activity and likely induces local membrane thinning. Structural modeling reveals that even though they have inverted membrane topologies, pATOM36 and MTCH1/MTCH2 adopt a similar architecture. They form a hydrophilic cavity comprising five transmembrane helices that is open to both the cytosol and laterally to the membrane core. The same features also extend to the large phylogenetically unrelated YidC-like insertase family of bacterial origin. Together, these findings suggest that membrane protein insertion is constrained to a small number of viable mechanistic solutions, providing evidence for “deterministic” evolution acting at the molecular level.",
+  "authors": [
+    "Berger S",
+    "von Ballmoos C",
+    "Schneider A"
+  ],
+  "published_date": "2026-02-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705746",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705746.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1223602",
+    "raw_record": {
+      "id": "PPR1223602",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1223602"
+        ]
+      },
+      "doi": "10.64898/2026.02.13.705746",
+      "title": "Rescue of pATOM36-depleted T. brucei by human MTCH1/2 reveals common features of protein insertases",
+      "authorString": "Berger S, von Ballmoos C, Schneider A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Berger S",
+            "lastName": "Berger",
+            "firstName": "Stephan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Biochemistry and Pharmaceutical Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "von Ballmoos C",
+            "lastName": "von Ballmoos",
+            "firstName": "Christoph",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4642-6088"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Biochemistry and Pharmaceutical Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schneider A",
+            "lastName": "Schneider",
+            "firstName": "André",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5421-0909"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Biochemistry and Pharmaceutical Sciences, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5421-0909"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4642-6088"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Alpha-helically anchored proteins of the mitochondrial outer membrane depend on dedicated insertases, including the MIM complex in yeast, pATOM36 in trypanosomes, and MTCH1/MTCH2 in humans. These insertases lack sequence homology and arose by convergent evolution. Here we show that MTCH1 and an N-terminally modified MTCH2 can replace the OMM biogenesis function of trypanosomal pATOM36, demonstrating functional compatibility across a large phylogenetic distance. Moreover, like other insertases, pATOM36 has lipid scramblase activity and likely induces local membrane thinning. Structural modeling reveals that even though they have inverted membrane topologies, pATOM36 and MTCH1/MTCH2 adopt a similar architecture. They form a hydrophilic cavity comprising five transmembrane helices that is open to both the cytosol and laterally to the membrane core. The same features also extend to the large phylogenetically unrelated YidC-like insertase family of bacterial origin. Together, these findings suggest that membrane protein insertion is constrained to a small number of viable mechanistic solutions, providing evidence for “deterministic” evolution acting at the molecular level.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "205200",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "212304",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.13.705746"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1223602"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1223602&type=FILE&fileName=EMS215669-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42740487",
+            "reference": "The FEBS journal. \n    2026 Sep;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS215669",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "omim",
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-16",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

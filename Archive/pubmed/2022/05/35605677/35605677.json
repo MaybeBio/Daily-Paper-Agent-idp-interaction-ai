@@ -1,0 +1,328 @@
+{
+  "identity": {
+    "pmid": "35605677",
+    "doi": "10.1016/j.jmb.2022.167643",
+    "title": "Disordered Regions Flanking the Binding Interface Modulate Affinity between CBP and NCOA."
+  },
+  "content": {
+    "abstract": "Recognition motifs that mediate protein-protein interactions are usually embedded within longer intrinsically disordered regions. While binding interfaces involving the recognition motif in such interactions are well studied, less is known about the role of disordered regions flanking the motifs. The interaction between the transcriptional co-activators NCOA3 (ACTR) and CBP is mediated by coupled binding and folding of the two domains CID and NCBD. Here, we used circular dichroism and kinetics to directly quantify the contribution of the adjacent flanking regions of CID to its interaction with NCBD. Using N- and C-terminal combinatorial variants we found that the flanking regions promote binding in an additive fashion while retaining a large degree of disorder in the complex. Experiments at different ionic strengths demonstrated that the increase in affinity is not mediated by electrostatic interactions from the flanking regions. Instead, site-directed mutagenesis and molecular dynamics simulations suggest that binding is promoted by short-lived non-specific hydrophobic contacts between the flanking regions and NCBD. Our findings are consistent with highly frustrated interactions outside of the canonical binding interface resulting in a slightly energetically favorable fuzzy binding. Modulation of affinity via flanking regions could represent a general mechanism for functional regulation by intrinsically disordered protein regions.",
+    "keywords": [
+      "affinity",
+      "binding motif",
+      "flanking regions",
+      "intrinsically disordered proteins",
+      "protein interactions"
+    ],
+    "mesh_terms": [
+      "Circular Dichroism",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Kinetics",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "*Protein Folding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karlsson, Elin",
+        "Schnatwinkel, Jan",
+        "Paissoni, Cristina",
+        "Andersson, Eva",
+        "Herrmann, Christian",
+        "Camilloni, Carlo",
+        "Jemth, Per"
+      ],
+      "short_names": [
+        "Karlsson E",
+        "Schnatwinkel J",
+        "Paissoni C",
+        "Andersson E",
+        "Herrmann C",
+        "Camilloni C",
+        "Jemth P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC Box 582, SE-75123 Uppsala, Sweden.",
+        "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC Box 582, SE-75123 Uppsala, Sweden; Department of Physical Chemistry I, Faculty of Chemistry and Biochemistry, Ruhr University Bochum, D-44780 Bochum, Germany.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, 20133 Milano, Italy.",
+        "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC Box 582, SE-75123 Uppsala, Sweden.",
+        "Department of Physical Chemistry I, Faculty of Chemistry and Biochemistry, Ruhr University Bochum, D-44780 Bochum, Germany.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, 20133 Milano, Italy. Electronic address: carlo.camilloni@unimi.it.",
+        "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC Box 582, SE-75123 Uppsala, Sweden. Electronic address: per.jemth@imbim.uu.se."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karlsson, Elin",
+        "short_name": "Karlsson E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC Box 582, SE-75123 Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Schnatwinkel, Jan",
+        "short_name": "Schnatwinkel J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC Box 582, SE-75123 Uppsala, Sweden; Department of Physical Chemistry I, Faculty of Chemistry and Biochemistry, Ruhr University Bochum, D-44780 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Paissoni, Cristina",
+        "short_name": "Paissoni C",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Andersson, Eva",
+        "short_name": "Andersson E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC Box 582, SE-75123 Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Herrmann, Christian",
+        "short_name": "Herrmann C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical Chemistry I, Faculty of Chemistry and Biochemistry, Ruhr University Bochum, D-44780 Bochum, Germany."
+        ]
+      },
+      {
+        "full_name": "Camilloni, Carlo",
+        "short_name": "Camilloni C",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, 20133 Milano, Italy. Electronic address: carlo.camilloni@unimi.it."
+        ]
+      },
+      {
+        "full_name": "Jemth, Per",
+        "short_name": "Jemth P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC Box 582, SE-75123 Uppsala, Sweden. Electronic address: per.jemth@imbim.uu.se."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2022 Jul 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/24 06:00",
+    "fetched_at": "2026-09-20 10:40:13"
+  },
+  "links": {
+    "cites": [
+      "42101926",
+      "41493399",
+      "41232529",
+      "40371733",
+      "39677677",
+      "39487265",
+      "39229005",
+      "39009827",
+      "38301272",
+      "38275292",
+      "38073129",
+      "37957331",
+      "37722056",
+      "37647499",
+      "37579155",
+      "37211711",
+      "36917561",
+      "36291675"
+    ],
+    "refs": [],
+    "similar": [
+      "35605677",
+      "37647499",
+      "33454008",
+      "30397651",
+      "27752679",
+      "30528464",
+      "30514761",
+      "28914483",
+      "32329110",
+      "22253588",
+      "28786199",
+      "39074869",
+      "31397874",
+      "26684000",
+      "28604862",
+      "21766125",
+      "23799450",
+      "28002650",
+      "26195786",
+      "28398197",
+      "32323533",
+      "27018856",
+      "32654182",
+      "32325001",
+      "28707474",
+      "30853683",
+      "26720267",
+      "25387963",
+      "25207671",
+      "24211251",
+      "29666277",
+      "35012986",
+      "26153298",
+      "28425697",
+      "26742101",
+      "34206070",
+      "34687712",
+      "25544254",
+      "24278008",
+      "34680162",
+      "30127362",
+      "30173887",
+      "34181980",
+      "33779503",
+      "26910732",
+      "29309620",
+      "34504002",
+      "25244701",
+      "33877595",
+      "24449148",
+      "30715849",
+      "30443712",
+      "24811666",
+      "24317797",
+      "25533957",
+      "23373423",
+      "22829760",
+      "29614221",
+      "33207556",
+      "35658083",
+      "21918774",
+      "24421312",
+      "35354917",
+      "37341654",
+      "34473923",
+      "27542287",
+      "29590589",
+      "31709918",
+      "26851278",
+      "9558319",
+      "30813629",
+      "23990768",
+      "32112804",
+      "29694866",
+      "25039985",
+      "32696371",
+      "30520528",
+      "26912067",
+      "33567297",
+      "26226339",
+      "35098694",
+      "21268115",
+      "29716994",
+      "31207240",
+      "26030674",
+      "29990433",
+      "38294935",
+      "31378314",
+      "27699893",
+      "38600130",
+      "25017730",
+      "28857320",
+      "33087759",
+      "33269926",
+      "36551315",
+      "31683980",
+      "29878773",
+      "25511246",
+      "29039919",
+      "29370437",
+      "26851275",
+      "35310482",
+      "27111521",
+      "36774964",
+      "38586052",
+      "35697294",
+      "33184256",
+      "27048167",
+      "36739945",
+      "22174264",
+      "32613009",
+      "23875714",
+      "38238291",
+      "38712134",
+      "35335203",
+      "38370681",
+      "29761107",
+      "38966365",
+      "35485934",
+      "22666276",
+      "33447499"
+    ],
+    "review": [
+      "35605677",
+      "31397874",
+      "26720267",
+      "25544254",
+      "34680162",
+      "33207556",
+      "21918774",
+      "31709918",
+      "26851278",
+      "30813629",
+      "33567297",
+      "26226339",
+      "35098694",
+      "26851275",
+      "27048167",
+      "32613009",
+      "35335203"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/930423",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(22)00223-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1256",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

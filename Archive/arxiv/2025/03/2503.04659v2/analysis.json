@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2503.04659v2",
+  "title": "Predicting Heteropolymer Phase Separation Using Two-Chain Contact Maps",
+  "authors": "Jessica Jin; Wesley Oliver; Michael A. Webb; William M. Jacobs",
+  "journal": "J. Chem. Phys. 163, 014102 (2025)",
+  "published_date": "2025-03-06",
+  "window": {
+    "start": "2025-03-03",
+    "end": "2025-03-09"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用两链接触图预测异聚物（含IDP）相分离，通过物理模拟提取空间互作信息并训练分类器，远超传统Rg/B22指标，直接聚焦IDP相分离的互作机制建模，方法可迁移且高效。",
+  "abstract": "Phase separation in polymer solutions often correlates with single-chain and two-chain properties, such as the single-chain radius of gyration, Rg, and the pairwise second virial coefficient, B22. However, recent studies have shown that these metrics can fail to distinguish phase-separating from non-phase-separating heteropolymers, including intrinsically disordered proteins (IDPs). Here we introduce an approach to predict heteropolymer phase separation from two-chain simulations by analyzing contact maps, which capture how often specific monomers from the two chains are in physical proximity. Whereas B22 summarizes the overall attraction between two chains, contact maps preserve spatial information about their interactions. To compare these metrics, we train phase-separation classifiers for both a minimal heteropolymer model and a chemically specific, residue-level IDP model. Remarkably, simple statistical properties of two-chain contact maps predict phase separation with high accuracy, vastly outperforming classifiers based on Rg and B22 alone. Our results thus establish a transferable and computationally efficient method to uncover key driving forces of IDP phase behavior based on their physical interactions in dilute solution.",
+  "abstract_zh": "聚合物溶液中的相分离（phase separation）通常与单链和双链性质相关，例如单链回转半径（Rg）和成对第二维里系数（B22）。然而，近期研究表明，这些指标可能无法区分发生相分离与不发生相分离的异聚物，包括 intrinsically disordered proteins (IDPs)。在此，我们引入一种方法，通过分析接触图（contact maps）从双链模拟中预测异聚物相分离，接触图捕捉两条链中特定单体在物理上接近的频率。B22 总结了双链之间的整体吸引力，而接触图则保留了其相互作用的空间信息。为比较这些指标，我们针对最小异聚物模型和化学特异性残基级 IDP 模型训练了相分离分类器。值得注意的是，双链接触图的简单统计特性能够高精度预测相分离，其性能远超仅基于 Rg 和 B22 的分类器。因此，我们的结果建立了一种可迁移且计算高效的方法，基于稀溶液中 IDP 的物理相互作用来揭示其相行为的关键驱动力。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2503.04659v2",
+  "source_url": "https://arxiv.org/abs/2503.04659v2",
+  "paper_page_path": "papers/arxiv/2503.04659v2/index.html"
+}

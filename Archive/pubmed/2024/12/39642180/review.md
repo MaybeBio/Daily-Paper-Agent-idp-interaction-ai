@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, conclusions, and methods
+- **Assessment boundary** Scientific claims, experimental evidence, methodological soundness, and interpretive validity as presented in the manuscript
+- **Shared manuscript claim summary** The authors report the identification and biophysical characterization of an intrinsically disordered region (IDR) in mouse arginyltransferase 1 (ATE1) using AlphaFold modeling, SEC-SAXS, and HDX-MS, and propose that this IDR is conserved across most eukaryotic ATE1s, absent in yeast ATE1, and may facilitate ATE1-tRNA interactions with potential regulatory function
+- **Visible evidence base** AlphaFold structural predictions, SEC-SAXS data including Guinier and Kratky analyses, HDX-MS deuterium uptake measurements, multiple sequence alignments, phylogenetic analysis, and computational docking models of ATE1-tRNA complexes
+- **Missing materials affecting confidence** Raw SAXS scattering curves and fit statistics beyond chi-square values, HDX-MS peptide-level uptake plots referenced as Supporting Information but not provided, experimental validation of the ATE1-tRNA interaction model, quantitative binding affinity measurements, and details on the BilboMD simulation parameters and convergence criteria
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-structured and technically sound study that identifies and characterizes an IDR in mammalian ATE1, a finding that has not been previously reported. The combination of computational prediction with experimental validation through SAXS and HDX-MS is commendable and provides strong evidence for the existence of this disordered region. However, the functional significance of the IDR, particularly its proposed role in tRNA binding, rests primarily on computational modeling without direct experimental validation. The evolutionary analysis, while suggestive, lacks quantitative rigor. The manuscript would be strengthened by direct experimental evidence linking the IDR to tRNA binding and by a more robust phylogenetic analysis.
+- **Who would be interested in the results, and why** Researchers in the fields of post-translational modification enzymology, protein arginylation, structural biology of disordered proteins, and tRNA-dependent enzymes would find this work of interest. The identification of an IDR in a key enzyme involved in the N-degron pathway has implications for understanding the regulation of protein degradation and could inform therapeutic development targeting ATE1. The methodological approach combining AlphaFold with SAXS and HDX-MS will also appeal to structural biologists studying challenging protein targets.
+- **Major strengths** The study addresses a significant gap in understanding mammalian ATE1 structure, which has been largely inferred from yeast homologs. The multi-technique approach provides convergent evidence for the IDR. The use of HDX-MS to directly demonstrate disorder in solution is particularly rigorous. The authors appropriately acknowledge limitations of computational predictions and provide complementary experimental data. The evolutionary analysis across diverse species adds broad relevance to the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional significance
+  - **Claim pointer** The authors claim that the IDR "facilitates the formation of a complex between ATE1 and tRNAArg" and suggest this has regulatory function
+  - **Evidence pointer** Figure 7, Discussion section
+  - **Concern** The proposed functional role of the IDR in tRNA binding is based entirely on AlphaFold modeling of the ATE1-tRNAArg complex. No experimental validation of this interaction is provided. The authors reference a concurrent manuscript on human ATE1 but do not provide direct evidence from their own work. The claim that the IDR "wraps" around the tRNA and enhances binding is speculative without mutagenesis studies, binding assays, or structural data on the complex.
+  - **Why it matters** The functional significance of the IDR is a central claim of the manuscript and is highlighted in the abstract and conclusions. Without experimental support, this claim overreaches the data presented. The regulatory function proposed for the IDR, particularly the speculation about self-arginylation and active site occlusion, is entirely hypothetical.
+  - **Resolution test** Provide experimental evidence such as mutagenesis of IDR residues followed by tRNA binding assays (e.g., EMSA, ITC, or fluorescence anisotropy), or a structure of the ATE1-tRNA complex showing IDR-tRNA contacts. Alternatively, clearly reframe these claims as hypotheses requiring future testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary analysis
+  - **Claim pointer** The authors claim that "mammalian ATE1 sequences, as well those as in a large majority of other eukaryotes, contain an IDR-like sequence" and that yeast ATE1 lacks this feature
+  - **Evidence pointer** Figures S11 and S12, Results section "An IDR is Likely Present in the Majority of ATE1 Enzymes but Not in Yeast ATE1"
+  - **Concern** The evolutionary analysis is qualitative, based on visual inspection of a multiple sequence alignment and a phylogenetic tree. No quantitative measures of IDR propensity (e.g., IUPred, PONDR, or metapredict scores) are provided for the species analyzed. The claim that the IDR is present in "a large majority" of eukaryotes is not supported by statistical analysis or a defined threshold for what constitutes an IDR-like sequence.
+  - **Why it matters** The evolutionary conservation of the IDR is used to support its functional importance. A qualitative assessment is insufficient to establish this claim, particularly given the known variability in IDR sequences and the difficulty of predicting disorder from sequence alone.
+  - **Resolution test** Provide quantitative disorder prediction scores for a representative set of ATE1 orthologs across the eukaryotic tree, with statistical comparison between clades. Define clear criteria for IDR presence and apply them systematically.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** SAXS data interpretation
+  - **Claim pointer** The authors state that the Kratky analysis "suggests the presence of a mostly globular protein" but with "an additional domain with flexibility may be present"
+  - **Evidence pointer** Figure 4c, Results section "SAXS Supports the Predicted MmATE1-1 AlphaFold Model"
+  - **Concern** The interpretation of the Kratky plot is somewhat ambiguous. The authors note that the extended region of the Kratky plot suggests flexibility, but they do not provide quantitative metrics such as the Porod exponent or a comparison with theoretical Kratky profiles for globular versus disordered proteins. The conclusion that the flexibility arises specifically from the IDR, rather than from other regions of the protein, is inferred rather than directly demonstrated.
+  - **Why it matters** The SAXS data are used to support the existence of the IDR in solution. A more rigorous analysis would strengthen this conclusion and rule out alternative explanations for the observed scattering profile.
+  - **Resolution test** Provide quantitative Kratky analysis (e.g., Porod exponent, Kratky plot peak position and height relative to theoretical values) and compare the experimental data with calculated scattering profiles from the AlphaFold model with and without the IDR included. Consider ensemble optimization methods (EOM) to model the IDR flexibility.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** HDX-MS results
+  - **Evidence pointer** Figures 5 and S8-S10
+  - **Issue** The HDX-MS data are presented as deuterium uptake plots in the Supporting Information, but the main text only shows a Woods plot and selected peptide examples. The authors should consider showing a butterfly plot or difference map to more clearly illustrate the differential exchange between the IDR and structured regions.
+  - **Required correction** Add a summary figure showing the HDX-MS data across the full protein sequence, highlighting the IDR region, to make the comparison between mouse and yeast ATE1 more accessible to readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** BilboMD simulations
+  - **Evidence pointer** Methods section "Size-Exclusion Coupled Small-Angle X-ray Scattering (SEC-SAXS)"
+  - **Issue** The description of the BilboMD simulations lacks detail on simulation length, temperature, force field parameters, and convergence criteria. This limits reproducibility.
+  - **Required correction** Provide full simulation parameters including the CHARMM version, simulation time, ensemble (NVT or NPT), and how convergence was assessed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** HDX-MS reproducibility
+  - **Evidence pointer** Methods section "HDX-Mass Spectrometry (HDX-MS) Measurements and Data Analysis"
+  - **Issue** The authors state that measurements were performed in triplicate but do not report standard deviations or confidence intervals for the deuterium uptake values. This makes it difficult to assess the significance of differences between regions.
+  - **Required correction** Include error bars or confidence intervals in the HDX-MS figures and report the variability in the text or figure legends.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of IDR functions in related enzymes is brief. A more thorough comparison with IDRs in other tRNA-dependent enzymes or GNAT superfamily members would strengthen the context.
+  - **Required correction** Expand the discussion to include specific examples of IDRs in related enzymes and how they contribute to function, particularly in tRNA-binding proteins.
+- **Technical failings that need to be addressed before the case is established** The primary technical gap is the lack of experimental validation for the proposed IDR-tRNA interaction. The computational model presented in Figure 7 is suggestive but does not constitute evidence of a functional role. Additionally, the evolutionary analysis requires quantitative support to substantiate the claim of broad IDR conservation.
+- **Assessment against Nature-style criteria** Originality: The identification of an IDR in mammalian ATE1 is novel and not previously reported. Scientific importance: The finding has implications for understanding ATE1 regulation and the N-degron pathway, which is biologically significant. Interdisciplinary readership: The work bridges structural biology, enzymology, and bioinformatics, and would appeal to a broad audience. Technical soundness: The experimental techniques are appropriate and well-executed, but the functional claims exceed the direct evidence. Readability for nonspecialists: The manuscript is clearly written and accessible, with appropriate context provided for the techniques used.
+
+## Risk / unsupported claims
+- The claim that the IDR "facilitates the formation of a complex between ATE1 and tRNAArg" is unsupported by direct experimental evidence and relies solely on computational modeling
+- The claim that the IDR has a "regulatory function" in controlling ATE1 activity is speculative and not tested experimentally
+- The assertion that the IDR is present in "a large majority" of eukaryotic ATE1s is not quantitatively supported
+- The suggestion that the IDR may occlude the active site until self-arginylation occurs is entirely hypothetical with no supporting data
+- The statement that the IDR "dramatically" changes our understanding of ATE1 structure is overstated given that the functional consequences remain unknown

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present Ensemblify, an open-source Python package for generating conformational ensembles of intrinsically disordered proteins and regions. The tool uses a Monte Carlo algorithm with neighbour-aware dihedral sampling from fragment libraries, incorporates AlphaFold confidence metrics as flexible restraints in PyRosetta, supports multi-chain and multi-domain proteins, and enables validation against experimental data via Bayesian/Maximum Entropy reweighting. Testing across 10 proteins is claimed to demonstrate accuracy, flexibility, and recovery of experimentally observed features.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, supplementary data, benchmark methodology, and code documentation are not available for assessment
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful software tool addressing a real need in the intrinsically disordered protein community. The combination of Monte Carlo sampling, AlphaFold confidence integration, and experimental data reweighting is conceptually appealing. However, the abstract provides no quantitative evidence to support the central claims of accuracy, flexibility, or experimental agreement. The scientific case is therefore not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and regions, particularly those working on multi-domain or multi-chain systems where existing ensemble generation tools are limited. Computational biophysicists and structural biologists interested in integrating AlphaFold predictions with experimental solution scattering data would also find the tool relevant. The user-friendly design and open-source availability may attract non-specialist experimentalists seeking accessible ensemble modelling approaches.
+- **Major strengths** The tool addresses a clear gap in accessibility for ensemble generation of disordered regions. The integration of AlphaFold confidence metrics as restraints is a novel and timely idea. Support for multi-chain and multi-domain proteins, including N-terminal, C-terminal, and inter-domain linkers, broadens applicability. The inclusion of experimental validation via BME reweighting and interactive dashboards adds practical value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Testing across 10 diverse proteins demonstrated Ensemblify's accuracy, flexibility, and ability to recover experimentally observed structural features."
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract claims that testing across 10 proteins demonstrated accuracy and recovery of experimental features, but no quantitative results, comparison metrics, or statistical measures are presented. No details on which proteins were tested, what experimental data were used, or how "accuracy" was defined and measured.
+  - **Why it matters** Without quantitative evidence, the central claim of the tool's utility cannot be evaluated. The reader cannot assess whether the performance is competitive with existing methods or whether the claimed experimental agreement is statistically meaningful.
+  - **Resolution test** Provide benchmark results including quantitative agreement metrics (e.g., chi-squared values, RMSD to experimental profiles), comparison against existing ensemble generation tools, and statistical significance measures for the 10 test proteins.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** "Incorporating AlphaFold confidence metrics shows potential to improve the ensemble-data agreement."
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** This claim is presented as a key innovation, but the abstract provides no comparative data showing ensembles generated with versus without AlphaFold confidence restraints. The word "potential" suggests the effect may not be conclusively demonstrated.
+  - **Why it matters** The AlphaFold integration is a distinguishing feature of the tool. If the benefit is not clearly quantified, the added complexity of the PyRosetta dependency may not be justified for users.
+  - **Resolution test** Present a direct comparison of ensemble-data agreement with and without AlphaFold confidence restraints across the test set, including statistical analysis of the difference.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** "Ensemblify uses a Monte Carlo algorithm coupled with neighbour-aware sampling of dihedral angles from curated or user-defined fragment libraries to explore conformational space."
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Concern** The abstract does not describe how the Monte Carlo algorithm is implemented, how convergence is assessed, how the fragment libraries were curated, or how the neighbour-aware sampling works. No information is given on computational cost or scalability.
+  - **Why it matters** For a computational tool, methodological transparency is essential for reproducibility and for users to understand the tool's limitations. Without this information, the reader cannot judge whether the approach is sound or how it compares to existing methods.
+  - **Resolution test** Provide a detailed methods description including algorithm pseudocode, convergence criteria, fragment library construction, and benchmarking of computational cost on systems of varying size.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Results section
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "neighbour-aware sampling" is not defined. It is unclear whether this refers to local sequence context, spatial neighbours, or something else.
+  - **Required correction** Define the term explicitly in the abstract or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, Availability section
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "interactive dashboards" but does not specify what analyses are available or how they are implemented.
+  - **Required correction** Briefly list the key analysis features available in the dashboards.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract, Availability section
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that "curated" fragment libraries are used but does not describe their source, composition, or how they were validated.
+  - **Required correction** Provide details on the fragment library source and curation process in the methods or supplementary information.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative benchmark data and the lack of a direct comparison for the AlphaFold integration mean the core claims of accuracy and improved agreement are not supported by the provided evidence.
+- **Assessment against Nature-style criteria** Originality: The integration of AlphaFold confidence metrics into ensemble generation is a novel contribution, though the underlying Monte Carlo approach is not new. Scientific importance: The tool addresses a practical need in a growing field, but the importance cannot be fully assessed without performance data. Interdisciplinary readership: The tool is relevant to structural biology, computational biology, and biophysics, but the abstract is too sparse to engage a broad audience. Technical soundness: Cannot be evaluated from the abstract alone; the methodological description is insufficient. Readability for nonspecialists: The abstract is generally clear but uses technical terms without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The tool is potentially valuable, and the concept is promising, but the abstract lacks the quantitative results needed to support the central claims. A revised version with full benchmark data and methodological detail could change this assessment.
+
+## Risk / unsupported claims
+- The claim that testing across 10 proteins demonstrated accuracy, flexibility, and recovery of experimental features is unsupported by any quantitative data in the abstract.
+- The claim that incorporating AlphaFold confidence metrics improves ensemble-data agreement is unsupported; the abstract itself hedges with "shows potential."
+- The claim that the tool is "user-friendly" and "accessible to non-experts" is not substantiated with usability studies or comparative ease-of-use data.
+- The generalizability of the tool to "multi-domain or multi-chain proteins" is asserted but not demonstrated with specific examples or performance metrics.

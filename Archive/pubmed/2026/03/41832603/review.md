@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusions, and data availability statements. Figures and tables are referenced but not directly viewable. Supporting material (Figures S1–S16, Table S1) is mentioned but not provided.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by the presented evidence. No assessment of formatting, grammar, or journal fit beyond general Nature-style criteria.
+- **Shared manuscript claim summary** The authors characterize the conformational ensemble of the p53 proline-rich domain (PRD) using extensive atomistic molecular dynamics simulations, supported by CD and SAXS experiments. They report that the PRD is intrinsically disordered yet contains substantial transient polyproline II (PPII) structure, that consecutive prolines (Pro71–Pro72) impose local steric constraints stabilizing extended conformations, that end-to-end restraints mimicking the full-length protein context improve agreement with SAXS data, and that disease-associated variants P72R and P82L locally perturb these structural features.
+- **Visible evidence base** Main text with embedded figure references (Figures 1–8), two tables (Tables 1–2), equations (1)–(3), and data availability links. Supporting figures and table are referenced but not accessible in the provided material.
+- **Missing materials affecting confidence** All figures and tables are referenced but not directly viewable. Supporting material (Figures S1–S16, Table S1) is not provided. Experimental methods for CD and SAXS are described only briefly in the main text. Force field parameters, simulation convergence criteria, and detailed analysis scripts are not fully described.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational and experimental characterization of the p53 proline-rich domain, a region that is biologically important but structurally understudied. The combination of extensive MD simulations with SAXS and CD validation is appropriate and the conclusions are generally well supported by the described evidence. The finding that PPII helices are robust structural features that persist under spatial constraints is interesting and potentially significant for understanding IDR function. However, several technical concerns regarding simulation methodology, the interpretation of the restrained simulations, and the strength of the experimental validation need to be addressed before the case is fully established. The manuscript is clearly written and should be of interest to the biophysics and protein science communities.
+- **Who would be interested in the results, and why** Researchers studying p53 structure and function, particularly those interested in the role of intrinsically disordered regions in tumor suppressor activity. The work is also relevant to the broader community studying proline-rich motifs, PPII helix formation in disordered proteins, and the methodological challenge of simulating IDRs with appropriate boundary conditions. The variant analysis may be of interest to those studying p53 polymorphisms and cancer-associated mutations.
+- **Major strengths** The study addresses a biologically important and undercharacterized region of p53. The combination of extensive MD simulations with experimental SAXS and CD validation is methodologically sound. The analysis of PPII content as a function of chain dimensions provides insight into the coupling between local and global conformational properties. The restrained simulations modeling the IDR context are a thoughtful approach to bridging the gap between isolated peptide and full-length protein behavior. The variant analysis provides a clear link to disease relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of simulation methodology
+  - **Claim pointer** The authors claim that their MD simulations provide a reliable characterization of the PRD conformational ensemble, including quantitative PPII content and its variation with chain dimensions.
+  - **Evidence pointer** Methods section "Atomistic molecular dynamics simulations"; Results section "Persistent polyproline II structure dominates the local conformational landscape"
+  - **Concern** The manuscript does not report whether the simulations reached convergence. For disordered proteins, ensemble convergence is critical, and the absence of block analysis, autocorrelation times, or comparison of independent trajectory statistics raises the possibility that the reported PPII fractions and Rg distributions are not fully converged. Additionally, the choice of AMBER99SB-ILDN with TIP4P-D is reasonable for IDPs, but the manuscript does not discuss whether this force field has been specifically benchmarked for proline-rich sequences or PPII propensity. The 200 ns equilibration removal is described, but no justification is given for this specific cutoff.
+  - **Why it matters** If the simulations are not converged, the quantitative claims about PPII content, its variation with Rg, and the differences between variants may not be reliable. The central conclusion that PPII helices are "robust" features depends on the statistical quality of the ensemble sampling.
+  - **Resolution test** Provide convergence analysis showing that ensemble averages (Rg, Ree, secondary structure fractions) are stable across independent trajectories and over time. Report the number of statistically independent samples per trajectory. Discuss force field validation for proline-rich IDPs or justify the choice with reference to benchmark studies.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for claims from experimental data
+  - **Claim pointer** The authors state that CD and SAXS experiments "corroborate" the largely disordered yet partially structured nature of the PRD, and that restrained simulations show "improved agreement" with SAXS data.
+  - **Evidence pointer** Results sections "Consistency with circular dichroism spectroscopy" and "Comparison with SAXS experiments"; Figures 5 and 6; Tables 1 and 2
+  - **Concern** The CD analysis is described as "qualitative" and the manuscript explicitly states that quantitative comparison is precluded by the lack of a PPII basis set in deconvolution methods. This is an honest limitation, but it weakens the claim of corroboration. For SAXS, the χnorm2 values are reported, but the manuscript does not state how many experimental data points were used, whether the normalization procedure biases the comparison, or whether the differences between χnorm2 values for different models are statistically significant. The claim that restrained simulations show "improved agreement" is based on a single metric with no uncertainty estimate.
+  - **Why it matters** The experimental validation is a key part of the manuscript's claim to provide a reliable characterization of the PRD. If the comparison is only qualitative or based on a single metric without uncertainty, the strength of the validation is unclear.
+  - **Resolution test** Provide a more quantitative CD analysis, even if limited, such as comparison of spectral shape features or use of a reference set that includes PPII spectra. For SAXS, report the number of data points, the fitting range, and an estimate of uncertainty in χnorm2 (e.g., from bootstrap or replicate analysis). State explicitly which features of the SAXS profile are well reproduced and which are not.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of restrained simulations
+  - **Claim pointer** The authors state that restrained simulations with fixed end-to-end distances "approximate the PRD within full-length p53" and that the improved SAXS agreement supports this interpretation.
+  - **Evidence pointer** Results section "Modeling the PRD as an internal disordered region using end-to-end restraints"; Figure 7; Table 2
+  - **Concern** The restrained simulations fix the end-to-end distance to specific values, but the choice of the range (10–50 Å) and the specific values used are not fully justified. The manuscript mentions a cryo-EM structure with Ree = 41.4 Å, but it is unclear how the other restraint values were selected. More importantly, fixing the end-to-end distance is a crude approximation of the actual constraints imposed by flanking domains in full-length p53, which may involve orientational and dynamic coupling rather than a simple distance restraint. The claim that this "approximates" the full-length context is therefore somewhat overstated.
+  - **Why it matters** The interpretation that the PRD behaves as a "semirigid spacer" in full-length p53 depends on the validity of the restrained simulation model. If the restraint approach does not capture the relevant physics, the functional conclusions may be premature.
+  - **Resolution test** Justify the choice of restraint values and range. Discuss the limitations of the fixed-distance approach and consider whether alternative models (e.g., harmonic restraints with finite spring constants, or simulations of a larger construct including flanking domains) would be more appropriate. Soften the claim of approximation if the model is acknowledged to be crude.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Variant analysis and functional implications
+  - **Claim pointer** The authors state that P72R "disrupts consecutive proline rigidity and increases flexibility" and that P82L "abolishes a PXXP motif and its associated PPII helix," and they link these changes to functional consequences.
+  - **Evidence pointer** Results section "Local structural effects of P72R and P82L variants"; Figure 8; Supporting Figures S9, S13–S15
+  - **Concern** The simulation results for the variants are described, but the statistical significance of the differences between variants and WT is not reported. The manuscript states that global dimensions are "similar" with a "slight shift" toward compact conformations, but no quantitative comparison is given. The functional implications section is largely speculative, linking local structural changes to "altered regulatory outcomes" without direct experimental evidence for these variants in the present study.
+  - **Why it matters** The variant analysis is a potentially important contribution, but the claims of functional relevance go beyond what the data can support. Without statistical analysis and direct functional experiments, the link between local structural perturbation and biological outcome remains a hypothesis.
+  - **Resolution test** Report statistical comparisons (e.g., confidence intervals or effect sizes) for the differences between WT and variants. Clearly distinguish between simulation-observed structural changes and hypothesized functional consequences. Consider tempering the language in the functional implications section.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Simulation setup description
+  - **Evidence pointer** Methods section "Atomistic molecular dynamics simulations"
+  - **Issue** The manuscript states that five replicates were made for each simulation, but the total simulation times are reported as aggregate values (e.g., 15.6 μs for unrestrained low salt). It is unclear how many replicates contributed to each condition and whether the aggregate time is the sum of all replicates or the length of each replicate.
+  - **Required correction** Clarify the simulation time per replicate and the total aggregate time. State explicitly how many replicates were used for each condition and whether all replicates were included in the analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of CD data
+  - **Affected element** Figure 5 and associated text
+  - **Evidence pointer** Results section "Consistency with circular dichroism spectroscopy"
+  - **Issue** The manuscript states that the CD spectra are "characteristic of a largely disordered protein" but also that PPII content is supported by the temperature-dependent measurements at 228 nm. The relationship between the qualitative spectral features and the specific claim of PPII presence could be made clearer.
+  - **Required correction** Briefly explain which spectral features are consistent with PPII and how the temperature-dependent change at 228 nm specifically supports PPII presence over other disordered conformations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation of SAXS comparison
+  - **Affected element** Table 1 and associated text
+  - **Evidence pointer** Results section "Comparison with SAXS experiments"
+  - **Issue** The table reports Rg values from Guinier and P(r) analyses for both experiment and simulation, but the text does not discuss the discrepancy between the Guinier and P(r) values within the experimental data (22.5 vs 24.0 Å for HS). This discrepancy may indicate aggregation or interparticle effects.
+  - **Required correction** Briefly discuss the difference between Guinier and P(r) Rg values and whether this affects the interpretation of the comparison with simulations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of variant analysis
+  - **Affected element** Figure 8 and associated text
+  - **Evidence pointer** Results section "Local structural effects of P72R and P82L variants"
+  - **Issue** The manuscript states that experimental SAXS profiles are "largely unchanged across variants" but does not show these data in the main text or provide the χnorm2 values for the variants.
+  - **Required correction** Either show the variant SAXS data or state where they are presented (e.g., in the supporting material) and provide the quantitative comparison.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and conclusions
+  - **Evidence pointer** Abstract; Conclusions
+  - **Issue** The term "semirigid spacer" is used to describe the PRD function. This is a useful metaphor but could be misinterpreted as implying a fixed structure. The manuscript elsewhere correctly emphasizes the dynamic nature of the ensemble.
+  - **Required correction** Consider using a more precise phrase such as "ensemble-biased spacer" or "conformationally biased linker" to avoid implying static structure.
+
+## Risk / unsupported claims
+- The claim that CD experiments "corroborate" the simulation findings is only weakly supported, as the manuscript itself acknowledges that quantitative comparison is not possible with current CD analysis methods.
+- The claim that restrained simulations "approximate the PRD within full-length p53" is an interpretation that goes beyond the evidence presented, as the restraint approach is a crude model of the actual constraints.
+- The functional implications for P72R and P82L variants are speculative and not directly tested in this study.
+- The statement that PPII helices act as "stiff spacers" separating the transactivation domain from downstream regions is an inference from simulations of the isolated PRD and is not directly supported by experimental data on the full-length protein.
+- The quantitative PPII fractions (e.g., 31.1% ± 11.9%) are presented with standard deviations, but the manuscript does not report whether these values are converged or how sensitive they are to the choice of DSSP parameters or force field.
+- The claim of "improved agreement" with SAXS for restrained simulations is based on a single metric (χnorm2) without uncertainty estimates or a statistical test.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41054283",
+  "title": "SNUPN-Related Muscular Dystrophy: Novel Phenotypic, Pathological and Functional Protein Insights.",
+  "authors": "Muelas, Nuria; Iruzubieta, Pablo; Damborenea, Alberto; Perez-Fernandez, Laura; Azorin, Inmaculada; Jimenez Garcia, Juan Carlos; Topf, Ana; Marti, Pilar; Fores-Toribio, Lorena; Manterola, Maria; Blanco-Manez, Rosana; Pikatza-Menoio, Oihane; Alonso-Martin, Sonia; Straub, Volker; Cortajarena, Aitziber L; Lopez de Munain, Adolfo; De Sancho, David; Blazquez, Lorea; Vilchez, Juan J",
+  "journal": "Annals of clinical and translational neurology",
+  "published_date": "2025-10-07",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 2,
+  "one_liner_zh": "该文报道SNUPN相关肌营养不良的临床病理与功能研究，虽提及颗粒沉积提示生物分子凝聚体，但对象非无序蛋白、无PPI机制建模，且方法以实验为主，仅蛋白建模为辅助，与本课题关联微弱。",
+  "abstract": "OBJECTIVE: SNUPN-related muscular dystrophy or LGMDR29 is a new entity that covers from a congenital or childhood onset pure muscular dystrophy to more complex phenotypes combining neurodevelopmental features, cataracts, or spinocerebellar ataxia. So far, 12 different variants have been described. Here we report the first family with SNUPN-related muscular dystrophy presenting an adult-onset myopathy as well as novel ultrastructural findings. METHODS: Clinical evaluation, muscle and brain magnetic resonance imaging (MRI), and muscle histopathological and electron microscopy analysis were conducted. Functional studies including protein modelling and interaction, immunofluorescence and splicing analysis were also performed. RESULTS: Two siblings carrying two novel deleterious variants in the SNUPN gene (p.Arg27Cys and p.Cys174Tyr) showed adult-onset proximo-distal and axial muscle weakness with early respiratory involvement. One patient presented with asymptomatic cerebellar atrophy. Muscle MRI identified involvement in the paravertebral, triceps brachii, sartorius and gracilis muscles. The histopathology revealed dystrophic changes and an abnormal pattern of cytoskeletal and myofibrillar proteins, while electron microscopy disclosed the proliferation of granules and vesicles associated with features of nuclear envelope and sarcolemma remodelling. Functional studies showed that SNUPN variants impair snurportin-1 function through reduced binding affinity to importin-beta and impaired folding, leading to disturbed nuclear import of small nuclear ribonucleoproteins and downstream splicing. INTERPRETATION: Our work expands the phenotype of SNUPN-related muscular dystrophy and provides more insights into their pathological profile. We advise SNUPN testing in patients with late-onset proximo-distal and axial weakness with early respiratory impairment and features reminding inclusion body myositis (IBM). Granular deposits suggestive of biomolecular condensates perturbed cell organelle traffic and membrane homeostasis, opening new avenues to understand the pathomechanisms involved in this novel disease.",
+  "abstract_zh": "目的：SNUPN相关肌营养不良或LGMDR29是一种新实体，涵盖从先天性或儿童期起病的单纯肌营养不良到更复杂的表型，后者合并神经发育特征、白内障或脊髓小脑性共济失调。迄今已描述12种不同变异。本文报道首个呈现成人起病肌病及新型超微结构发现的SNUPN相关肌营养不良家族。方法：进行了临床评估、肌肉和脑磁共振成像（MRI）、肌肉组织病理学和电子显微镜分析。还进行了功能研究，包括蛋白质建模和相互作用、免疫荧光和剪接分析。结果：两名携带SNUPN基因两个新致病性变异（p.Arg27Cys和p.Cys174Tyr）的同胞表现出成人起病的近端-远端和轴向肌无力，伴有早期呼吸系统受累。一名患者表现为无症状性小脑萎缩。肌肉MRI显示椎旁肌、肱三头肌、缝匠肌和股薄肌受累。组织病理学显示营养不良性改变及细胞骨架和肌原纤维蛋白的异常模式，而电子显微镜揭示了颗粒和囊泡的增殖，伴随核膜和肌膜重塑的特征。功能研究表明，SNUPN变异通过降低与importin-beta的结合亲和力和受损折叠损害snurportin-1功能，导致小核核糖核蛋白的核输入紊乱及下游剪接异常。解释：我们的工作扩展了SNUPN相关肌营养不良的表型，并为其病理特征提供了更多见解。我们建议对晚发性近端-远端和轴向无力伴早期呼吸功能损害及提示包涵体肌炎（IBM）特征的患者进行SNUPN检测。提示生物分子凝聚物的颗粒沉积扰乱了细胞器运输和膜稳态，为理解这种新疾病的病理机制开辟了新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41054283/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41054283/",
+  "paper_page_path": "papers/pubmed/41054283/index.html"
+}

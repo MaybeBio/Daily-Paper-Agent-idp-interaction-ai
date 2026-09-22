@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "41560158",
+    "doi": "10.1103/6f72-xk9b",
+    "title": "Chemically active droplets in crowded environments."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are essential for cellular organization and result from phase separation in systems far from thermodynamic equilibrium. Among various models, chemically active droplets play a significant role, and consist of proteins that switch between attractive and repulsive states via nonequilibrium chemical reactions. While field-based simulations have provided insights into their behavior, these coarse-grained approaches fail to capture molecular-scale effects, particularly in crowded cellular environments. Macromolecular crowding, a key feature of intracellular organization, strongly influences molecular transport within condensates, yet its quantitative impact remains underexplored. This study investigates the interplay between chemically active droplets and crowders by using particle-based models, that provide molecular insight, and a field-based model, that complements this picture. Surprisingly, crowding reduces droplet size while expanding the overall dense phase volume, challenging equilibrium-based expectations. This effect arises from the interplay between depletion interactions, diffusion hindrance, and nonequilibrium particle fluxes. Our findings provide a step towards a more comprehensive understanding of chemically active droplets in complex, realistic cellular environments.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fries, Jacques D",
+        "Berthin, Roxanne",
+        "Luo, Chengjie",
+        "Jardat, Marie",
+        "Zwicker, David",
+        "Dahirel, Vincent",
+        "Illien, Pierre"
+      ],
+      "short_names": [
+        "Fries JD",
+        "Berthin R",
+        "Luo C",
+        "Jardat M",
+        "Zwicker D",
+        "Dahirel V",
+        "Illien P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "PHENIX, CNRS, Sorbonne Universite, Physico-Chimie des Electrolytes et Nanosystemes Interfaciaux (, ), 4 Place Jussieu, 75005 Paris, France. ROR: https://ror.org/02en5vm52. ROR: https://ror.org/02feahw73. ROR: https://ror.org/046htjf88",
+        "PHENIX, CNRS, Sorbonne Universite, Physico-Chimie des Electrolytes et Nanosystemes Interfaciaux (, ), 4 Place Jussieu, 75005 Paris, France. ROR: https://ror.org/02en5vm52. ROR: https://ror.org/02feahw73. ROR: https://ror.org/046htjf88",
+        "Max Planck Institute for Dynamics and Self-Organization, Am Fassberg 17, 37077 Gottingen, Germany. ROR: https://ror.org/0087djs12",
+        "PHENIX, CNRS, Sorbonne Universite, Physico-Chimie des Electrolytes et Nanosystemes Interfaciaux (, ), 4 Place Jussieu, 75005 Paris, France. ROR: https://ror.org/02en5vm52. ROR: https://ror.org/02feahw73. ROR: https://ror.org/046htjf88",
+        "Max Planck Institute for Dynamics and Self-Organization, Am Fassberg 17, 37077 Gottingen, Germany. ROR: https://ror.org/0087djs12",
+        "PHENIX, CNRS, Sorbonne Universite, Physico-Chimie des Electrolytes et Nanosystemes Interfaciaux (, ), 4 Place Jussieu, 75005 Paris, France. ROR: https://ror.org/02en5vm52. ROR: https://ror.org/02feahw73. ROR: https://ror.org/046htjf88",
+        "PHENIX, CNRS, Sorbonne Universite, Physico-Chimie des Electrolytes et Nanosystemes Interfaciaux (, ), 4 Place Jussieu, 75005 Paris, France. ROR: https://ror.org/02en5vm52. ROR: https://ror.org/02feahw73. ROR: https://ror.org/046htjf88"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fries, Jacques D",
+        "short_name": "Fries JD",
+        "identifiers": [],
+        "affiliations": [
+          "PHENIX, CNRS, Sorbonne Université, Physico-Chimie des Électrolytes et Nanosystèmes Interfaciaux (, ), 4 Place Jussieu, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Berthin, Roxanne",
+        "short_name": "Berthin R",
+        "identifiers": [],
+        "affiliations": [
+          "PHENIX, CNRS, Sorbonne Université, Physico-Chimie des Électrolytes et Nanosystèmes Interfaciaux (, ), 4 Place Jussieu, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Luo, Chengjie",
+        "short_name": "Luo C",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute for Dynamics and Self-Organization, Am Faßberg 17, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Jardat, Marie",
+        "short_name": "Jardat M",
+        "identifiers": [],
+        "affiliations": [
+          "PHENIX, CNRS, Sorbonne Université, Physico-Chimie des Électrolytes et Nanosystèmes Interfaciaux (, ), 4 Place Jussieu, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Zwicker, David",
+        "short_name": "Zwicker D",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute for Dynamics and Self-Organization, Am Faßberg 17, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Dahirel, Vincent",
+        "short_name": "Dahirel V",
+        "identifiers": [],
+        "affiliations": [
+          "PHENIX, CNRS, Sorbonne Université, Physico-Chimie des Électrolytes et Nanosystèmes Interfaciaux (, ), 4 Place Jussieu, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Illien, Pierre",
+        "short_name": "Illien P",
+        "identifiers": [],
+        "affiliations": [
+          "PHENIX, CNRS, Sorbonne Université, Physico-Chimie des Électrolytes et Nanosystèmes Interfaciaux (, ), 4 Place Jussieu, 75005 Paris, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical review. E"
+    ],
+    "journal_abbrev": [
+      "Phys Rev E"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/21 06:31",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41560158",
+      "23912807",
+      "41329728",
+      "36594499",
+      "41169547",
+      "40103106",
+      "39116001",
+      "24312701",
+      "40699931",
+      "40162127",
+      "37781612",
+      "36829460",
+      "34293868",
+      "37257544",
+      "24511927",
+      "34507991",
+      "34186016",
+      "19640127",
+      "35293386",
+      "40626470",
+      "39660892",
+      "33307683",
+      "30791483",
+      "34206440",
+      "40172489",
+      "40671581",
+      "32824618",
+      "33155586",
+      "24187527",
+      "26450331",
+      "32163932",
+      "33736064",
+      "36185357",
+      "30963769",
+      "40231848",
+      "37410958",
+      "41190845",
+      "30278673",
+      "40614690",
+      "21133453",
+      "32760995",
+      "40970906",
+      "34856104",
+      "31572730",
+      "34266250",
+      "32428410",
+      "32487732",
+      "37843057",
+      "35833511",
+      "38856073",
+      "30066087",
+      "23337873",
+      "22376228",
+      "39648588",
+      "40501881",
+      "36463407",
+      "33045749",
+      "38808573",
+      "39815790",
+      "40978344",
+      "38331392",
+      "20553227",
+      "36857712",
+      "27842220",
+      "38447188",
+      "32405004",
+      "38965780",
+      "38578222",
+      "40329837",
+      "34241502",
+      "40203039",
+      "28510161",
+      "38875706",
+      "36444977",
+      "41263616",
+      "40058249",
+      "23710260",
+      "27723976",
+      "34139641",
+      "40183356",
+      "37390433",
+      "37489654",
+      "36758221",
+      "40028356",
+      "30817154",
+      "39898481",
+      "40022308",
+      "38608453",
+      "37194953",
+      "40954121",
+      "37105967",
+      "22355615",
+      "34241219",
+      "41003993",
+      "41003995",
+      "39761433",
+      "34762868",
+      "40138573",
+      "33075900",
+      "39071308"
+    ],
+    "review": [
+      "41560158",
+      "39660892",
+      "40172489",
+      "32824618",
+      "40614690",
+      "31572730",
+      "30066087",
+      "23337873",
+      "38331392",
+      "27842220",
+      "28510161",
+      "40058249",
+      "40022308",
+      "38608453",
+      "41003993"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

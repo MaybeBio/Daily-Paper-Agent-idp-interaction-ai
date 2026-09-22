@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that molecular crowding by Dextran and Ficoll modulates the conformational states and phase separation of the yeast prion domain Sup35NM. They claim that Dextran, depending on molecular weight, induces both compaction and expansion of Sup35NM and drives phase separation beyond a threshold, while flexible rod-like Dextran promotes phase separation but spherical Ficoll does not. Molecular dynamics simulations are used to propose that crowder shape alters the conformational ensemble via intra- and inter-domain interactions.
+- **Visible evidence base** Abstract text only; no experimental or simulation data, no figures, no tables, no methods description
+- **Missing materials affecting confidence** Full manuscript, experimental methods, FCS data and analysis details, simulation parameters and force fields, phase separation assay conditions, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation that crowder geometry, rather than mere excluded volume, may differentially affect the conformational ensemble and phase separation of an IDP. However, the current evidence base is insufficient to evaluate the robustness of the claims. The central distinction between Dextran and Ficoll effects is stated but not supported by quantitative data in the abstract. The mechanistic interpretation from simulations is plausible but cannot be assessed without methodological detail. The work may be of interest to the IDP and phase separation community, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, intrinsically disordered proteins, and biomolecular condensates would be interested because the work addresses how crowder size and shape modulate IDP conformation and phase behavior. The findings could also be relevant to those investigating intracellular crowding effects on protein function and to computational groups developing models of IDP behavior in crowded environments.
+- **Major strengths** The study addresses a relevant and under-explored question, namely the molecular mechanism by which crowder geometry, not just concentration, influences IDP phase separation. The combination of FCS and molecular dynamics simulations is appropriate for linking conformational changes to phase behavior. The comparison between rod-like Dextran and spherical Ficoll provides a clear design principle that could be broadly applicable.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that Dextran induces both compaction and expansion of Sup35NM depending on molecular weight, and that this drives phase separation beyond a threshold.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that Dextran induces both compaction and expansion, but no quantitative data are provided to support this bidirectional effect. It is unclear how compaction and expansion are defined, measured, and distinguished across Dextran molecular weights. The threshold for phase separation is mentioned but not specified.
+  - **Why it matters** The bidirectional conformational response is a central and non-obvious claim. Without quantitative FCS data showing the magnitude and direction of conformational change for each Dextran size, the claim cannot be evaluated. The threshold concept is also critical to the proposed mechanism and requires definition.
+  - **Resolution test** Provide FCS-derived hydrodynamic radius or related conformational metrics for Sup35NM in the absence and presence of each Dextran size, with statistical comparisons. Define the phase separation threshold in terms of crowder concentration or molecular weight and show the relationship between conformational change and phase separation onset.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that flexible rod-like Dextran promotes phase separation while spherical Ficoll does not, highlighting the impact of crowder geometry.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The differential effect of Dextran versus Ficoll is a key conclusion, but the abstract provides no experimental data, such as phase diagrams, turbidity measurements, or microscopy images, to support this distinction. It is also unclear whether the comparison controls for crowder concentration, molecular weight, and solution viscosity.
+  - **Why it matters** The geometry-dependent claim is the main novelty of the work. If the comparison is confounded by differences in crowder size, concentration, or solution properties, the conclusion would be weakened. The absence of any quantitative phase separation data in the abstract prevents assessment of the effect size and reproducibility.
+  - **Resolution test** Provide phase separation assays comparing Dextran and Ficoll at matched concentrations and comparable molecular weights, with quantitative measures such as turbidity or droplet formation. Include controls for viscosity and excluded volume effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that molecular dynamics simulations revealed that crowder shape influences Sup35NM's conformational ensemble by modulating intra- and inter-domain interactions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No simulation details are provided, including force field, water model, crowder representation, simulation length, or analysis methods. The claim about intra- and inter-domain interactions is mechanistic but cannot be evaluated without knowing how these interactions were quantified.
+  - **Why it matters** The simulation results are used to propose a molecular mechanism. Without methodological detail, the reliability of the simulation findings and their relevance to the experimental system cannot be assessed. The link between simulated conformational changes and experimentally observed phase separation is not established.
+  - **Resolution test** Provide full simulation methods, including system setup, equilibration, production run lengths, and analysis of domain interactions. Show that the simulated conformational changes are consistent with the FCS data and that the proposed interaction changes are statistically robust.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "phase separation beyond a particular threshold" is vague. It is unclear whether the threshold refers to crowder concentration, crowder molecular weight, or a conformational state.
+  - **Required correction** Specify the threshold variable and provide the relevant value or range in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental context
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the concentration range of Sup35NM used in the experiments, which is relevant for phase separation studies.
+  - **Required correction** Include the protein concentration range in the abstract or state that it is provided in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Biological relevance
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The final statement that "cellular crowding may regulate IDP functionality through conformational control" is speculative and not directly supported by the data presented.
+  - **Required correction** Soften the claim or provide a more explicit link between the crowder effects observed and known cellular crowding conditions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative data or methodological detail to support the central claims regarding bidirectional conformational changes, geometry-dependent phase separation, and the simulation-based mechanism.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of crowder geometry effects on IDP phase separation is timely and not widely explored, so the concept has some originality. However, the abstract does not demonstrate how the findings advance beyond existing crowding studies.
+  - Scientific importance: If the claims are fully supported, the work could be important for understanding how intracellular crowding modulates IDP behavior. The importance is currently conditional on the evidence.
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and computational chemistry, so it could appeal to a broad readership. The abstract is written in a way that is accessible to nonspecialists.
+  - Technical soundness: Cannot be assessed from the abstract. The lack of methodological detail for both FCS and simulations is a major limitation.
+  - Readability for nonspecialists: The abstract is generally clear and well-structured, with key terms defined. The main claims are easy to follow, though the threshold concept is vague.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a reasonable experimental design, but the absence of quantitative data and methodological detail prevents evaluation of the core claims. I would be supportive if the full manuscript provides robust evidence for the bidirectional conformational changes, the geometry-dependent phase separation, and the simulation-based mechanism.
+
+## Risk / unsupported claims
+- The claim that Dextran induces both compaction and expansion of Sup35NM is unsupported in the abstract due to lack of quantitative data.
+- The claim that Dextran promotes phase separation while Ficoll does not is unsupported without phase separation assay data.
+- The mechanistic claim that crowder shape modulates intra- and inter-domain interactions is unsupported without simulation details.
+- The statement that cellular crowding may regulate IDP functionality through conformational control is speculative and not directly supported by the presented evidence.

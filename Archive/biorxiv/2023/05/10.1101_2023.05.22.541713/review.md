@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full manuscript data, figures, or methods
+- **Shared manuscript claim summary** The study proposes that Sbp1, an abundant RNA-binding protein with a structured RNA recognition motif and an intrinsically disordered RGG domain, modulates mRNA translation and storage. The authors claim that Sbp1 slows ribosome movement, promotes polysome stalling, induces ring-shaped polysome structures, and that post-translational modifications of the RGG motif direct mRNAs toward translation or storage. They further claim that Sbp1 binding to 5'UTRs represses both cap-dependent and cap-independent translation initiation, and that these mechanisms operate under physiological conditions.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supplementary materials were provided.
+- **Missing materials affecting confidence** Full manuscript, experimental methods, statistical analyses, all figures and tables, and any supplementary data. The absence of these materials precludes verification of the described genomic, molecular, and electron microscopy approaches.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically rich study on an intrinsically disordered RNA-binding protein, Sbp1, and its role in mRNA translation and storage. The findings, if fully supported, could contribute to understanding how disordered proteins regulate post-transcriptional gene expression. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims. Several statements are broad and lack quantitative or methodological detail, and the link between the proposed mechanisms and physiological relevance is asserted rather than demonstrated. The study's significance is plausible but not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in RNA biology, translation regulation, and intrinsically disordered proteins would find these results relevant. Those studying stress granules, mRNA storage, and ribosome dynamics may also be interested. The proposed framework for investigating RGG-domain proteins could appeal to a broader audience in molecular cell biology.
+- **Major strengths** The study addresses a timely and under-explored question about the functional roles of intrinsically disordered regions in RNA-binding proteins. The use of a model protein with both structured and disordered domains is a reasonable approach. The abstract suggests a combination of genomic, molecular, and structural methods, which could provide a multi-faceted view. The claim that post-translational modifications direct mRNA fate is a potentially important mechanistic insight.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that Sbp1 slows ribosome movement on cellular mRNAs and promotes polysome stalling.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The claim is stated without any quantitative data, such as ribosome profiling metrics, elongation rates, or statistical comparisons. No details on how ribosome movement was measured or how stalling was defined are given.  
+  - **Why it matters** This is a central mechanistic claim. Without supporting data, the conclusion that Sbp1 modulates ribosome dynamics cannot be evaluated or reproduced.  
+  - **Resolution test** Provide ribosome profiling or similar data showing significant differences in ribosome density or occupancy between conditions with and without Sbp1, including appropriate statistical tests and controls.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that Sbp1-associated polysomes display a ring-shaped structure in addition to beads-on-string morphology.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The electron microscopy observation is described qualitatively. No information is provided on sample preparation, number of observations, quantification, or whether this structure is specific to Sbp1 or an artifact.  
+  - **Why it matters** A novel structural observation requires rigorous validation to rule out artifacts and to establish biological relevance.  
+  - **Resolution test** Show representative micrographs with scale bars, quantify the frequency of ring-shaped polysomes across multiple independent experiments, and include negative controls.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that post-translational modifications at the RGG motif direct mRNAs to either translation or storage.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The specific modifications, their sites, and the experimental approach used to alter them are not described. The claim implies a causal role, but no mechanistic evidence is presented.  
+  - **Why it matters** This is a key regulatory claim. Without identifying the modifications and showing their effects on mRNA fate, the conclusion is unsupported.  
+  - **Resolution test** Identify the specific PTMs, mutate the relevant residues, and show differential mRNA localization or translation outcomes with appropriate controls.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that Sbp1 binding to 5'UTRs represses both cap-dependent and cap-independent translation initiation.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The claim is broad and lacks detail on which mRNAs are affected, how binding was mapped, and how translation initiation was measured. The distinction between cap-dependent and cap-independent mechanisms is not experimentally supported in the abstract.  
+  - **Why it matters** This is a central functional claim with implications for general protein synthesis. Without specific data, the claim remains speculative.  
+  - **Resolution test** Provide RNA binding maps, reporter assays for both translation modes, and demonstrate that repression depends on Sbp1 binding to the 5'UTR.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Physiological relevance  
+  - **Claim pointer** The abstract claims that these mechanisms operate under physiological conditions.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** No information is given on the experimental conditions, cell types, or whether endogenous or overexpressed Sbp1 was used. The term "physiological" is asserted without evidence.  
+  - **Why it matters** The relevance of the findings depends on whether they occur at endogenous protein levels and in relevant cellular contexts.  
+  - **Resolution test** Show that key findings are reproduced with endogenous Sbp1 levels and in unperturbed cells, and specify the growth conditions.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The phrase "structurally well-defined RNA recognition motif" is vague and could be clarified with the specific domain name or structure reference.  
+  - **Required correction** Specify the domain type and, if available, cite the structural determination.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The term "ring-shaped structure" is descriptive but not defined. It is unclear whether this refers to a novel polysome conformation or a known structure.  
+  - **Required correction** Define the structure more precisely and relate it to existing literature.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Abstract conclusion  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The claim that the study establishes a framework for investigating RGG-proteins is broad and not directly supported by the abstract's data.  
+  - **Required correction** Soften the claim or provide a specific example of how the framework applies to other RGG-proteins.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4, R1-M5. The abstract lacks quantitative data, methodological detail, and controls for all major claims. Without these, the central conclusions are not verifiable.
+
+## Risk / unsupported claims
+- The claim that Sbp1 slows ribosome movement and promotes polysome stalling is unsupported without quantitative data.
+- The observation of ring-shaped polysomes is unsupported without micrographs and quantification.
+- The role of post-translational modifications in directing mRNA fate is unsupported without identification of the modifications and functional assays.
+- The repression of both cap-dependent and cap-independent translation initiation by Sbp1 binding to 5'UTRs is unsupported without binding and reporter data.
+- The assertion that these mechanisms operate under physiological conditions is unsupported without details on endogenous expression and experimental context.
+- The claim of establishing a general framework for RGG-protein function is not supported by the abstract alone.

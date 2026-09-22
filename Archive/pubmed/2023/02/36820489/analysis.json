@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36820489",
+  "title": "Heterogeneous and Allosteric Role of Surface Hydration for Protein-Ligand Binding.",
+  "authors": "Shi, Jie; Cho, Jae-Hyun; Hwang, Wonmuk",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2023-02-24",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用MD模拟构建首层水化壳密度图计算溶剂化自由能，揭示两个无序配体与靶蛋白结合时表面水化的异质性与远端变构效应，直接关联IDP-PPI结合机制建模。",
+  "abstract": "Atomistic-level understanding of surface hydration mediating protein-protein interactions and ligand binding has been a challenge due to the dynamic nature of water molecules near the surface. We develop a computational method to evaluate the solvation free energy based on the density map of the first hydration shell constructed from all-atom molecular dynamics simulation and use it to examine the binding of two intrinsically disordered ligands to their target protein domain. One ligand is from the human protein, and the other is from the 1918 Spanish flu virus. We find that the viral ligand incurs a 6.9 kcal/mol lower desolvation penalty upon binding to the target, which is consistent with its stronger binding affinity. The difference arises from the spatially fragmented and nonuniform water density profiles of the first hydration shell. In particular, residues that are distal from the ligand-binding site contribute to a varying extent to the desolvation penalty, among which the \"entropy hotspot\" residues contribute significantly. Thus, ligand binding alters hydration on remote sites in addition to affecting the binding interface. The nonlocal effect disappears when the conformational motion of the protein is suppressed. The present results elucidate the interplay between protein conformational dynamics and surface hydration. Our approach of measuring the solvation free energy based on the water density of the first hydration shell is tolerant of the conformational fluctuation of protein, and we expect it to be applicable to investigating a broad range of biomolecular interfaces.",
+  "abstract_zh": "对表面水合作用介导蛋白质-蛋白质相互作用及配体结合的原子级理解，一直因表面附近水分子的动态性质而面临挑战。我们开发了一种计算方法，基于全原子分子动力学模拟构建的第一水合壳层密度图来评估溶剂化自由能，并将其用于研究两个 intrinsically disordered 配体与其目标蛋白结构域的结合。其中一个配体来自人类蛋白质，另一个来自1918年西班牙流感病毒。我们发现，病毒配体在结合目标时产生的去溶剂化惩罚低6.9 kcal/mol，这与其更强的结合亲和力一致。这一差异源于第一水合壳层空间上碎片化且不均匀的水密度分布。特别是，远离配体结合位点的残基对去溶剂化惩罚的贡献程度不同，其中“熵热点”残基贡献显著。因此，配体结合不仅影响结合界面，还改变了远程位点的水合状态。当蛋白质的构象运动被抑制时，这种非局部效应消失。当前结果阐明了蛋白质构象动力学与表面水合之间的相互作用。我们基于第一水合壳层水密度测量溶剂化自由能的方法对蛋白质的构象波动具有耐受性，并预期其适用于研究广泛的生物分子界面。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36820489/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36820489/",
+  "paper_page_path": "papers/pubmed/36820489/index.html"
+}

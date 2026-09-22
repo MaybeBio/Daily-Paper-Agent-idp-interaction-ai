@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "41673446",
+    "doi": "10.1038/s44318-026-00696-1",
+    "title": "STI1 domain engages transient helices to mediate Dsk2 phase separation and proteasome condensation."
+  },
+  "content": {
+    "abstract": "Ubiquitin-binding shuttle proteins are important components of stress-induced biomolecular condensates in cells. Yeast Dsk2 scaffolds proteasome-containing condensates via multivalent interactions with proteasomes and polyubiquitinated substrates under stress conditions. Here, we identify the chaperone-binding STI1 domain as the main driver of Dsk2 self-association and phase separation. Using nuclear magnetic resonance (NMR) spectroscopy and computational simulations, we find that the STI1 domain interacts with three transient amphipathic helices within the intrinsically disordered regions of Dsk2. Removal of either the STI1 domain or these helices significantly reduces Dsk2's propensity to form condensates. In vivo, perturbing STI1-helix interactions, specifically removal of the transient helices, reduces the formation of azide stress-induced Dsk2/proteasome condensates, in line with our in vitro results. Modeling of Dsk2 STI1-helix interactions reveals a binding mode reminiscent of chaperone STI1/DP2 domains interacting with client helices. Our findings support a model whereby STI1-helix interactions important for Dsk2 condensate formation can be replaced by STI1-client interactions for downstream chaperone or other protein quality control outcomes.",
+    "keywords": [
+      "Phase Separation",
+      "Proteasome Condensates",
+      "STI1 Domain",
+      "Transient Helices",
+      "Ubiquilins"
+    ],
+    "mesh_terms": [
+      "*Saccharomyces cerevisiae Proteins/metabolism/chemistry/genetics",
+      "*Proteasome Endopeptidase Complex/metabolism/chemistry",
+      "Phase Separation",
+      "*Saccharomyces cerevisiae/metabolism/genetics",
+      "Protein Domains",
+      "*Cell Cycle Proteins/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "Models, Molecular",
+      "Ubiquitins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Acharya, Nirbhik",
+        "Daniel, Emily A",
+        "Dao, Thuy P",
+        "Niblo, Jessica K",
+        "Mulvey, Erin O",
+        "Sukenik, Shahar",
+        "Kraut, Daniel A",
+        "Roelofs, Jeroen",
+        "Castaneda, Carlos A"
+      ],
+      "short_names": [
+        "Acharya N",
+        "Daniel EA",
+        "Dao TP",
+        "Niblo JK",
+        "Mulvey EO",
+        "Sukenik S",
+        "Kraut DA",
+        "Roelofs J",
+        "Castaneda CA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4591-5215",
+        "ORCID: 0000-0002-4085-1796",
+        "ORCID: 0000-0001-9378-6097",
+        "ORCID: 0000-0003-3855-9574",
+        "ORCID: 0000-0002-4428-5832",
+        "ORCID: 0000-0003-0944-2465",
+        "ORCID: 0000-0001-9634-0867"
+      ],
+      "affiliations": [
+        "Department of Biology, Syracuse University, Syracuse, NY, 13244, USA.",
+        "Department of Chemistry, Syracuse University, Syracuse, NY, 13244, USA.",
+        "Department of Biochemistry and Molecular Biology, University of Kansas Medical Center, Kansas City, KS, 66160, USA.",
+        "Department of Biology, Syracuse University, Syracuse, NY, 13244, USA.",
+        "Department of Chemistry, Syracuse University, Syracuse, NY, 13244, USA.",
+        "Department of Chemistry, Syracuse University, Syracuse, NY, 13244, USA.",
+        "Department of Chemistry and Biochemistry, Villanova University, Villanova, PA, 19085, USA.",
+        "Department of Chemistry, Syracuse University, Syracuse, NY, 13244, USA.",
+        "BioInspired Institute, Syracuse University, Syracuse, NY, 13244, USA.",
+        "Department of Chemistry and Biochemistry, Villanova University, Villanova, PA, 19085, USA.",
+        "Department of Biochemistry and Molecular Biology, University of Kansas Medical Center, Kansas City, KS, 66160, USA.",
+        "Department of Biology, Syracuse University, Syracuse, NY, 13244, USA. cacastan@syr.edu.",
+        "Department of Chemistry, Syracuse University, Syracuse, NY, 13244, USA. cacastan@syr.edu.",
+        "BioInspired Institute, Syracuse University, Syracuse, NY, 13244, USA. cacastan@syr.edu.",
+        "Interdisciplinary Neuroscience Program, Syracuse University, Syracuse, NY, 13244, USA. cacastan@syr.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Acharya, Nirbhik",
+        "short_name": "Acharya N",
+        "identifiers": [
+          "0000-0003-4591-5215"
+        ],
+        "affiliations": [
+          "Department of Biology, Syracuse University, Syracuse, NY, 13244, USA.",
+          "Department of Chemistry, Syracuse University, Syracuse, NY, 13244, USA."
+        ]
+      },
+      {
+        "full_name": "Daniel, Emily A",
+        "short_name": "Daniel EA",
+        "identifiers": [
+          "0000-0002-4085-1796"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Kansas Medical Center, Kansas City, KS, 66160, USA."
+        ]
+      },
+      {
+        "full_name": "Dao, Thuy P",
+        "short_name": "Dao TP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Syracuse University, Syracuse, NY, 13244, USA.",
+          "Department of Chemistry, Syracuse University, Syracuse, NY, 13244, USA."
+        ]
+      },
+      {
+        "full_name": "Niblo, Jessica K",
+        "short_name": "Niblo JK",
+        "identifiers": [
+          "0000-0001-9378-6097"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Syracuse University, Syracuse, NY, 13244, USA."
+        ]
+      },
+      {
+        "full_name": "Mulvey, Erin O",
+        "short_name": "Mulvey EO",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Villanova University, Villanova, PA, 19085, USA."
+        ]
+      },
+      {
+        "full_name": "Sukenik, Shahar",
+        "short_name": "Sukenik S",
+        "identifiers": [
+          "0000-0003-3855-9574"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Syracuse University, Syracuse, NY, 13244, USA.",
+          "BioInspired Institute, Syracuse University, Syracuse, NY, 13244, USA."
+        ]
+      },
+      {
+        "full_name": "Kraut, Daniel A",
+        "short_name": "Kraut DA",
+        "identifiers": [
+          "0000-0002-4428-5832"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Villanova University, Villanova, PA, 19085, USA."
+        ]
+      },
+      {
+        "full_name": "Roelofs, Jeroen",
+        "short_name": "Roelofs J",
+        "identifiers": [
+          "0000-0003-0944-2465"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Kansas Medical Center, Kansas City, KS, 66160, USA."
+        ]
+      },
+      {
+        "full_name": "Castañeda, Carlos A",
+        "short_name": "Castañeda CA",
+        "identifiers": [
+          "0000-0001-9634-0867"
+        ],
+        "affiliations": [
+          "Department of Biology, Syracuse University, Syracuse, NY, 13244, USA. cacastan@syr.edu.",
+          "Department of Chemistry, Syracuse University, Syracuse, NY, 13244, USA. cacastan@syr.edu.",
+          "BioInspired Institute, Syracuse University, Syracuse, NY, 13244, USA. cacastan@syr.edu.",
+          "Interdisciplinary Neuroscience Program, Syracuse University, Syracuse, NY, 13244, USA. cacastan@syr.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The EMBO journal"
+    ],
+    "journal_abbrev": [
+      "EMBO J"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/12 00:47",
+    "fetched_at": "2026-09-18 00:46:04"
+  },
+  "links": {
+    "cites": [
+      "42332380",
+      "42227953",
+      "41862640"
+    ],
+    "refs": [
+      "41862640",
+      "40680123",
+      "39755440",
+      "39412378",
+      "39185013",
+      "39121161",
+      "38979954",
+      "38408252",
+      "38041404",
+      "37824531",
+      "37645312",
+      "36881934",
+      "36827983",
+      "36720498",
+      "36410949",
+      "36398662",
+      "35948766",
+      "35762418",
+      "35637307",
+      "35477005",
+      "35247097",
+      "34937942",
+      "34848715",
+      "34716273",
+      "34273246",
+      "34029402",
+      "33620121",
+      "33610544",
+      "33577679",
+      "33431932",
+      "32231214",
+      "32025036",
+      "31659043",
+      "31562305",
+      "31319884",
+      "30634694",
+      "30442662",
+      "30429547",
+      "30371978",
+      "29526694",
+      "29507397",
+      "29361465",
+      "29343546",
+      "29267886",
+      "29187595",
+      "29021737",
+      "28768827",
+      "28525741",
+      "28463112",
+      "28445744",
+      "28399398",
+      "28075048",
+      "27746020",
+      "27345149",
+      "27170182",
+      "27145334",
+      "26876099",
+      "26455390",
+      "26305040",
+      "25909470",
+      "23906423",
+      "23619693",
+      "23396808",
+      "22743772",
+      "22524316",
+      "22227520",
+      "21857683",
+      "21604143",
+      "21558174",
+      "20121194",
+      "20064467",
+      "18504300",
+      "18078545",
+      "17526519",
+      "16556910",
+      "16421449",
+      "16140271",
+      "15815974",
+      "15556404",
+      "15334558",
+      "12975584",
+      "11805328",
+      "10861908",
+      "10715109",
+      "10514571",
+      "9054979",
+      "8520220",
+      "8254673",
+      "6502707"
+    ],
+    "similar": [
+      "41673446",
+      "40161686",
+      "38408252",
+      "16421449",
+      "16140271",
+      "26450923",
+      "21763274",
+      "27396824",
+      "28525741",
+      "18995839",
+      "20427284",
+      "20064467",
+      "34029402",
+      "17082762",
+      "29526694",
+      "41959388",
+      "39121161",
+      "21627799",
+      "19026775",
+      "27170182",
+      "41862640",
+      "37425862",
+      "19909498",
+      "33617881",
+      "33620121",
+      "17360968",
+      "29930177",
+      "21304520",
+      "17027914",
+      "34364874",
+      "22354036",
+      "25311859",
+      "11805121",
+      "15837425",
+      "32881044",
+      "27012670",
+      "28813181",
+      "12200120",
+      "8682868",
+      "10675567",
+      "20061387",
+      "27234297",
+      "25631053",
+      "32057831",
+      "12051757",
+      "12198498",
+      "41708006",
+      "26912900",
+      "22227520",
+      "15837191",
+      "19636891",
+      "20059542",
+      "23653356",
+      "32025036",
+      "40880204",
+      "32072453",
+      "11805328",
+      "21850170",
+      "42227953",
+      "30429547",
+      "11584278",
+      "27903760",
+      "9461595",
+      "17098253",
+      "16563434",
+      "39276934",
+      "37759770",
+      "32193351",
+      "24204967",
+      "24225956",
+      "39739753",
+      "17418826",
+      "25564609",
+      "38041404",
+      "35806385",
+      "15380085",
+      "40614721",
+      "39885130",
+      "30177392",
+      "36121476",
+      "33862083",
+      "9927435",
+      "26449534",
+      "22343721",
+      "40794831",
+      "17978571",
+      "30664872",
+      "29507114",
+      "27053109",
+      "24121501",
+      "42102067",
+      "38559018",
+      "18160718",
+      "20227375",
+      "41933903",
+      "28504708",
+      "15778719",
+      "24828240",
+      "25525272",
+      "23562395"
+    ],
+    "review": [
+      "41673446",
+      "32881044",
+      "17418826"
+    ],
+    "pmc": [
+      "13083955"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s44318-026-00696-1",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41673446/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

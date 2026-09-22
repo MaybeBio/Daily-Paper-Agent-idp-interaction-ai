@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report atomistic enhanced sampling simulations of a 14-mer tetra-loop hairpin RNA and propose that folded versus unfolded conformations differentially affect RNA-RNA association and phase behavior. They claim unfolded conformations form gel-like energetically stable associated phases spontaneously, while folded hairpins form droplet-like associated phases with cations, that dynamic association/dissociation is energetically more favorable for folded hairpins, and that salt concentration critically modulates droplet-like phase formation and stability.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, sampling methodology, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field specifications, enhanced sampling method details, convergence and error analysis, system composition (ion concentrations, box size, number of RNA copies), and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis linking RNA secondary structure to phase separation behavior at submolecular resolution. However, the claims as stated are broad and mechanistic, and the abstract provides no quantitative evidence, methodological detail, or contextual comparison to existing literature. The central distinction between gel-like and droplet-like phases, and the role of cations, is asserted without supporting data. The work may be of interest to the RNA biophysics and biomolecular condensate communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying RNA phase separation, biomolecular condensates, repeat expansion disorders, and RNA-based biomaterials would be interested. The claim that RNA secondary structure, rather than sequence alone, can dictate phase morphology and dynamics is conceptually appealing and could inform both mechanistic models of condensate formation and design principles for RNA-based materials.
+- **Major strengths** The question addressed is timely and important, as the role of RNA structure in phase separation is underexplored relative to sequence effects. The use of atomistic enhanced sampling simulations to probe submolecular resolution is ambitious and potentially valuable. The distinction between folded and unfolded conformational effects on association energetics is a clear and testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that unfolded conformations lead to gel-like energetically stable associated phases spontaneously, while folded hairpins yield droplet-like associated phases with cations, is presented as a central finding.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are provided to support the distinction between gel-like and droplet-like phases. The terms "gel-like" and "droplet-like" are used descriptively without definition, order parameters, or visual evidence. No energetic values, free energy profiles, or phase diagrams are reported.
+  - **Why it matters** The central claim of the work rests on a structural and thermodynamic distinction between two phase types. Without quantitative definitions or supporting data, the reader cannot assess whether the observed states are genuinely distinct or whether the assignment is subjective.
+  - **Resolution test** Provide quantitative order parameters, free energy profiles, or phase diagrams that distinguish gel-like from droplet-like states, with error bars and convergence checks.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The claim that atomistic enhanced sampling simulations reveal dynamic structural effects in RNA association properties.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are given on the enhanced sampling method used, the force field, the system size, the number of RNA molecules simulated, the ion concentrations tested, or the simulation timescales. Without this information, the reliability and generalizability of the results cannot be evaluated.
+  - **Why it matters** Atomistic simulations of RNA phase behavior are computationally demanding and sensitive to force field and sampling choices. The absence of methodological detail prevents assessment of whether the observed phenomena are robust or artifacts of the simulation setup.
+  - **Resolution test** Provide full simulation protocols, force field validation, convergence analysis, and replicate simulations in the manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The claim that ionic concentration plays a critical role in the formation and stability of droplet-like associated phases.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that additional salt assists droplet formation and that ionic concentration is critical, but no specific ion species, concentration ranges, or quantitative effects are reported. The mechanistic role of cations is asserted but not explained.
+  - **Why it matters** Ion-RNA interactions are central to RNA folding and association. Without specific data on how ion concentration modulates phase behavior, the claim remains qualitative and untestable.
+  - **Resolution test** Report ion concentration series, phase boundaries, and free energy changes as a function of salt concentration, with mechanistic interpretation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The terms "gel-like" and "droplet-like" are used without operational definitions.
+  - **Required correction** Define these terms operationally, for example by reference to internal dynamics, density, or percolation criteria.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Literature positioning
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state how these findings compare to or extend existing computational or experimental studies of RNA phase separation.
+  - **Required correction** Add explicit comparison to prior work on RNA structure and phase separation in the abstract or introduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** System scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The study uses a single 14-mer tetra-loop hairpin RNA. The abstract implies broader relevance to RNA phase separation without acknowledging the limited sequence and structural space explored.
+  - **Required correction** Explicitly state the limitations of studying a single RNA sequence and discuss how the findings might generalize or not.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or methodological evidence to support the central claims about phase type, energetics, and ion dependence.
+- **Assessment against Nature-style criteria** Originality: the hypothesis that RNA secondary structure dictates phase morphology is conceptually novel and potentially significant. Scientific importance: if substantiated, the findings could inform understanding of RNA-driven condensates in disease and biology. Interdisciplinary readership: the topic bridges biophysics, RNA biology, and materials science, and could attract broad interest. Technical soundness: cannot be assessed from the abstract; no methodological or quantitative detail is provided. Readability for nonspecialists: the abstract is generally clear but uses specialized terms without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the quantitative and methodological detail required to support the claims. A full manuscript with rigorous simulation data, convergence analysis, and clear phase characterization would be needed to assess the case.
+
+## Risk / unsupported claims
+- The distinction between gel-like and droplet-like phases is unsupported without quantitative definitions or data.
+- The claim that folded hairpins form droplet-like phases "accompanying by cations" is unsupported without ion-specific data.
+- The claim that dynamic association/dissociation is energetically more favorable for folded hairpins is unsupported without free energy values.
+- The claim that ionic concentration critically modulates phase stability is unsupported without concentration series data.
+- The broader relevance to cellular RNA condensates and biomaterial design is speculative and not supported by the abstract.

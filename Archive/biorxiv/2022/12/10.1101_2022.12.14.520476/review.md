@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, results, figures, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present EquiPPIS, an E(3) equivariant graph neural network for protein–protein interaction (PPI) site prediction. They claim that EquiPPIS outperforms state-of-the-art methods using experimental structures and achieves better accuracy with AlphaFold2-predicted models than existing methods achieve with experimental structures. The method is stated to be freely available.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or code verification possible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, benchmark datasets, baseline definitions, statistical significance tests, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the field of PPI site prediction by introducing an E(3) equivariant graph neural network. The core idea of incorporating 3D symmetries into PPI site prediction is scientifically sound and timely, especially given the growing use of predicted structures. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims. Key details on benchmarking, statistical significance, and the nature of the performance improvements are absent. The claim that EquiPPIS outperforms existing methods with predicted structures more accurately than they do with experimental structures is striking but cannot be assessed without quantitative data and experimental design details.
+- **Who would be interested in the results, and why** Computational structural biologists, researchers in protein function prediction, and developers of deep learning methods for biomolecular data. The work is relevant to those interested in leveraging predicted structures from AlphaFold2 for downstream functional annotation, as well as those developing equivariant neural networks for molecular applications.
+- **Major strengths** The use of E(3) equivariant convolutions is a principled and timely methodological choice, addressing a known limitation of invariant graph convolutions. The focus on robustness to predicted structures is practically important, as it aligns with the growing reliance on AlphaFold2 models. The claim of public availability of the code is a positive step for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "EquiPPIS substantially outperforms state-of-the-art approaches based on the same experimental input"
+  - **Evidence pointer** Abstract only; no figures or tables provided
+  - **Concern** The abstract states that EquiPPIS substantially outperforms state-of-the-art methods, but no quantitative metrics, benchmark datasets, or baseline methods are specified. Without these, the magnitude and statistical significance of the improvement cannot be evaluated.
+  - **Why it matters** The central claim of the work rests on this performance comparison. If the improvement is marginal or based on a narrow set of benchmarks, the practical value of the method is diminished.
+  - **Resolution test** Provide a table or figure with performance metrics (e.g., precision, recall, F1, AUC) on multiple standard PPI site prediction benchmarks, with error bars or statistical tests comparing EquiPPIS to at least two established baselines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "exhibits remarkable robustness by attaining better accuracy with predicted structural models from AlphaFold2 than what existing methods can achieve even with experimental structures"
+  - **Evidence pointer** Abstract only; no details on the predicted structure dataset or comparison protocol
+  - **Concern** This is a strong and unusual claim. It implies that EquiPPIS with predicted structures outperforms other methods with experimental structures. The abstract does not specify which predicted structure set was used, how the models were generated, or which experimental structures served as the comparison baseline. The claim could be an artifact of a specific dataset or evaluation protocol.
+  - **Why it matters** If true, this would be a significant advance with broad practical implications. However, the claim is extraordinary and requires careful validation, including sensitivity analysis to prediction quality and comparison across multiple targets.
+  - **Resolution test** Describe the predicted structure generation pipeline, list the number of targets and their source, and show a direct comparison of EquiPPIS on predicted structures versus baseline methods on experimental structures for the same targets, with statistical significance testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical clarity
+  - **Claim pointer** "EquiPPIS employs symmetry-aware graph convolutions that transform equivariantly with translation, rotation, and reflection in 3D space"
+  - **Evidence pointer** Abstract only; no architectural details
+  - **Concern** The abstract does not describe the network architecture, the nature of the equivariant features, or how the graph is constructed from protein structures. Without this information, the technical novelty and implementation details cannot be assessed.
+  - **Why it matters** The methodological contribution is a key part of the paper's value. Readers need to understand the architecture to evaluate its novelty relative to existing equivariant networks and to assess its computational feasibility.
+  - **Resolution test** Provide a methods section with a clear description of the network architecture, feature types, graph construction, and training procedure, including hyperparameters and computational cost.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability statement
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states the code is freely available at a GitHub URL, but the repository contents, license, and documentation are not described.
+  - **Required correction** Specify the license, provide a brief description of the repository structure, and include instructions for installation and usage.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "interfacial residues" is used without definition, which may be unclear to nonspecialist readers.
+  - **Required correction** Define the term or use the more common phrase "protein–protein interaction sites" consistently.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Benchmark scope
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not indicate the diversity of the benchmark datasets, such as whether they include both bound and unbound structures or a range of protein families.
+  - **Required correction** State the composition of the benchmark datasets in the abstract or methods to clarify the generalizability of the results.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core performance claims cannot be verified from the abstract alone. R1-M3 is important for technical assessment but not blocking if the full manuscript provides the details.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The use of E(3) equivariant convolutions for PPI site prediction is a novel application, though equivariant networks themselves are established in the broader machine learning literature. The originality is moderate and depends on the specific architectural choices.  
+  - **Scientific importance** The problem of PPI site prediction is of high importance, and the focus on predicted structures is timely. If the robustness claim holds, the work could have significant practical impact.  
+  - **Interdisciplinary readership** The work bridges machine learning and structural biology, and the abstract is written in a way that is accessible to both communities, though some terminology may need clarification.  
+  - **Technical soundness** Cannot be assessed from the abstract. The architectural details and evaluation methodology are missing.  
+  - **Readability for nonspecialists** The abstract is generally clear, but the term "interfacial residues" and the specific nature of equivariance may be challenging for readers outside the field.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising idea, but the core performance claims require quantitative data and methodological details. I would be supportive if the full manuscript provides rigorous benchmarking, statistical analysis, and clear architectural descriptions.
+
+## Risk / unsupported claims
+- The claim of "substantially outperforms" is unsupported without quantitative metrics.
+- The claim of "remarkable robustness" with predicted structures is unsupported and potentially overstated without details on the prediction pipeline and comparison protocol.
+- The generalizability of the method to diverse protein complexes is not assessable from the abstract.
+- The computational efficiency or scalability of the method is not mentioned and cannot be evaluated.

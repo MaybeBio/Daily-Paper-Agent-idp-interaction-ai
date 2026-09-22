@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34502303",
+  "title": "PGRS Domain of Rv0297 of Mycobacterium tuberculosis Functions in A Calcium Dependent Manner.",
+  "authors": "Sharma, Tarina; Singh, Jasdeep; Grover, Sonam; P, Manjunath; Firdos, Firdos; Alam, Anwar; Ehtesham, Nasreen Z; Hasnain, Seyed E",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-09-11",
+  "window": {
+    "start": "2021-09-06",
+    "end": "2021-09-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过分子动力学模拟和荧光光谱，揭示结核分枝杆菌Rv0297的PGRS无序结构域在钙离子依赖下稳定化并增强与巨噬细胞TLR4受体的结合，属于IDP介导PPI的机制建模，但对象为病原蛋白且方法以MD为主，AI成分缺失。",
+  "abstract": "Mycobacterium tuberculosis (M.tb), the pathogen causing tuberculosis, is a major threat to human health worldwide. Nearly 10% of M.tb genome encodes for a unique family of PE/PPE/PGRS proteins present exclusively in the genus Mycobacterium. The functions of most of these proteins are yet unexplored. The PGRS domains of these proteins have been hypothesized to consist of Ca(2+) binding motifs that help these intrinsically disordered proteins to modulate the host cellular responses. Ca(2+) is an important secondary messenger that is involved in the pathogenesis of tuberculosis in diverse ways. This study presents the calcium-dependent function of the PGRS domain of Rv0297 (PE_PGRS5) in M.tb virulence and pathogenesis. Tandem repeat search revealed the presence of repetitive Ca(2+) binding motifs in the PGRS domain of the Rv0297 protein (Rv0297PGRS). Molecular Dynamics simulations and fluorescence spectroscopy revealed Ca(2+) dependent stabilization of the Rv0297PGRS protein. Calcium stabilized Rv0297PGRS enhances the interaction of Rv0297PGRS with surface localized Toll like receptor 4 (TLR4) of macrophages. The Ca(2+) stabilized binding of Rv0297PGRS with the surface receptor of macrophages enhances its downstream consequences in terms of Nitric Oxide (NO) production and cytokine release. Thus, this study points to hitherto unidentified roles of calcium-modulated PE_PGRS proteins in the virulence of M.tb. Understanding the pathogenic potential of Ca(2+) dependent PE_PGRS proteins can aid in targeting these proteins for therapeutic interventions.",
+  "abstract_zh": "结核分枝杆菌（Mycobacterium tuberculosis, M.tb）是导致结核病的病原体，对全球人类健康构成重大威胁。M.tb基因组中近10%编码一个独特的PE/PPE/PGRS蛋白家族，该家族仅存在于分枝杆菌属中。这些蛋白中的大多数功能尚未被探索。已有假设认为，这些蛋白的PGRS结构域包含钙离子（Ca(2+)）结合基序，帮助这些固有无序蛋白调节宿主细胞反应。Ca(2+)是一种重要的第二信使，以多种方式参与结核病的发病机制。本研究揭示了Rv0297（PE_PGRS5）的PGRS结构域在M.tb毒力和发病机制中的钙依赖性功能。串联重复搜索显示，Rv0297蛋白的PGRS结构域（Rv0297PGRS）中存在重复的Ca(2+)结合基序。分子动力学（molecular dynamics）模拟和荧光光谱学揭示了Rv0297PGRS蛋白的Ca(2+)依赖性稳定化。钙稳定的Rv0297PGRS增强了其与巨噬细胞表面定位的Toll样受体4（TLR4）的相互作用。Ca(2+)稳定的Rv0297PGRS与巨噬细胞表面受体的结合，增强了下游效应，如一氧化氮（NO）产生和细胞因子释放。因此，本研究指出了钙调节的PE_PGRS蛋白在M.tb毒力中迄今未识别的角色。理解Ca(2+)依赖性PE_PGRS蛋白的致病潜力，有助于将这些蛋白作为治疗干预的靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34502303/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34502303/",
+  "paper_page_path": "papers/pubmed/34502303/index.html"
+}

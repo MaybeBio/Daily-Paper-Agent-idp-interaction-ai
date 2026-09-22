@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "37246642",
+    "doi": "10.1093/nar/gkad430",
+    "title": "CAID prediction portal: a comprehensive service for predicting intrinsic disorder and binding regions in proteins."
+  },
+  "content": {
+    "abstract": "Intrinsic disorder (ID) in proteins is well-established in structural biology, with increasing evidence for its involvement in essential biological processes. As measuring dynamic ID behavior experimentally on a large scale remains difficult, scores of published ID predictors have tried to fill this gap. Unfortunately, their heterogeneity makes it difficult to compare performance, confounding biologists wanting to make an informed choice. To address this issue, the Critical Assessment of protein Intrinsic Disorder (CAID) benchmarks predictors for ID and binding regions as a community blind-test in a standardized computing environment. Here we present the CAID Prediction Portal, a web server executing all CAID methods on user-defined sequences. The server generates standardized output and facilitates comparison between methods, producing a consensus prediction highlighting high-confidence ID regions. The website contains extensive documentation explaining the meaning of different CAID statistics and providing a brief description of all methods. Predictor output is visualized in an interactive feature viewer and made available for download in a single table, with the option to recover previous sessions via a private dashboard. The CAID Prediction Portal is a valuable resource for researchers interested in studying ID in proteins. The server is available at the URL: https://caid.idpcentral.org.",
+    "keywords": [],
+    "mesh_terms": [
+      "Consensus",
+      "*Molecular Biology",
+      "*Proteins/chemistry",
+      "Software",
+      "Intrinsically Disordered Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Del Conte, Alessio",
+        "Bouhraoua, Adel",
+        "Mehdiabadi, Mahta",
+        "Clementel, Damiano",
+        "Monzon, Alexander Miguel",
+        "Tosatto, Silvio C E",
+        "Piovesan, Damiano"
+      ],
+      "short_names": [
+        "Del Conte A",
+        "Bouhraoua A",
+        "Mehdiabadi M",
+        "Clementel D",
+        "Monzon AM",
+        "Tosatto SCE",
+        "Piovesan D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4525-7793",
+        "ORCID: 0000-0003-0362-8218",
+        "ORCID: 0000-0001-8210-2390"
+      ],
+      "affiliations": [
+        "Department of Biomedical Sciences, University of Padova, via Ugo Bassi 58b, 35121Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, via Ugo Bassi 58b, 35121Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, via Ugo Bassi 58b, 35121Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, via Ugo Bassi 58b, 35121Padova, Italy.",
+        "Department of Information Engineering, University of Padova, via Giovanni Gradenigo 6/B, 35131Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, via Ugo Bassi 58b, 35121Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, via Ugo Bassi 58b, 35121Padova, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Del Conte, Alessio",
+        "short_name": "Del Conte A",
+        "identifiers": [
+          "0000-0003-4525-7793"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, via Ugo Bassi 58b, 35121Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Bouhraoua, Adel",
+        "short_name": "Bouhraoua A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, via Ugo Bassi 58b, 35121Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Mehdiabadi, Mahta",
+        "short_name": "Mehdiabadi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, via Ugo Bassi 58b, 35121Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Clementel, Damiano",
+        "short_name": "Clementel D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, via Ugo Bassi 58b, 35121Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Monzon, Alexander Miguel",
+        "short_name": "Monzon AM",
+        "identifiers": [
+          "0000-0003-0362-8218"
+        ],
+        "affiliations": [
+          "Department of Information Engineering, University of Padova, via Giovanni Gradenigo 6/B, 35131Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, via Ugo Bassi 58b, 35121Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Piovesan, Damiano",
+        "short_name": "Piovesan D",
+        "identifiers": [
+          "0000-0001-8210-2390"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, via Ugo Bassi 58b, 35121Padova, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Jul 5",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/29 13:04",
+    "fetched_at": "2026-09-20 22:28:49"
+  },
+  "links": {
+    "cites": [
+      "42292510",
+      "42288727",
+      "41689628",
+      "41683515",
+      "41648466",
+      "41513854",
+      "40859602",
+      "40728621",
+      "40728619",
+      "40662788",
+      "40463406",
+      "40347452",
+      "40165821",
+      "40138319",
+      "39842483",
+      "39811792",
+      "39470701",
+      "39237735",
+      "38553608",
+      "38540707",
+      "38166858",
+      "37904608",
+      "37904585",
+      "37892124",
+      "37686347",
+      "37674132"
+    ],
+    "refs": [
+      "36416266",
+      "36350672",
+      "36304335",
+      "36210722",
+      "35795824",
+      "35469832",
+      "35102880",
+      "34905768",
+      "34903827",
+      "34864847",
+      "34850135",
+      "34791371",
+      "34480923",
+      "34290238",
+      "34048569",
+      "33875885",
+      "33381830",
+      "33325498",
+      "33237286",
+      "33156333",
+      "33125078",
+      "32173600",
+      "31521110",
+      "31415569",
+      "30395465",
+      "29860432",
+      "29360926",
+      "29112716",
+      "28011771",
+      "27899574",
+      "27787820",
+      "27636733",
+      "27588752",
+      "27587688",
+      "27174932",
+      "25534081",
+      "25398609",
+      "25391399",
+      "22963167",
+      "22190692",
+      "20025768",
+      "17021161",
+      "16618368",
+      "15947016",
+      "14604535",
+      "11452024"
+    ],
+    "similar": [
+      "37246642",
+      "39571839",
+      "37621223",
+      "40054813",
+      "40859602",
+      "39576585",
+      "33875885",
+      "39576583",
+      "40133791",
+      "38166858",
+      "38079339",
+      "36210722",
+      "39237195",
+      "28453683",
+      "35356546",
+      "34894985",
+      "34480923",
+      "39708500",
+      "34290238",
+      "31870849",
+      "23912807",
+      "31326853",
+      "34048569",
+      "16618368",
+      "26086829",
+      "37883249",
+      "31504193",
+      "18831774",
+      "39576584",
+      "30298407",
+      "38701796",
+      "40728619",
+      "28365882",
+      "41378882",
+      "32696355",
+      "26090958",
+      "32173600",
+      "40728620",
+      "18314578",
+      "23530628",
+      "36334049",
+      "38634802",
+      "24573479",
+      "29042212",
+      "40347452",
+      "38870521",
+      "28968848",
+      "22624656",
+      "17526524",
+      "39470701",
+      "29076577",
+      "30395465",
+      "32112084",
+      "40463406",
+      "25246432",
+      "31073595",
+      "40728621",
+      "28589442",
+      "21459847",
+      "39718444",
+      "32696351",
+      "30739867",
+      "39283314",
+      "40441416",
+      "40133781",
+      "41454828",
+      "35469832",
+      "36851914",
+      "37140058",
+      "21646342",
+      "34864847",
+      "35507260",
+      "23798504",
+      "19128505",
+      "37904585",
+      "33291838",
+      "28505312",
+      "24203321",
+      "37740110",
+      "19717576",
+      "33371315",
+      "27115638",
+      "33237329",
+      "23732563",
+      "23815411",
+      "32901090",
+      "30537929",
+      "35610037",
+      "29895149",
+      "20100603",
+      "38747347",
+      "29905875",
+      "40133775",
+      "30324701",
+      "29595057",
+      "27636733",
+      "24799431",
+      "37992088",
+      "21693062",
+      "27037818"
+    ],
+    "review": [
+      "37246642",
+      "35356546",
+      "28589442",
+      "36851914",
+      "33291838",
+      "37740110"
+    ],
+    "pmc": [
+      "10320102"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37246642/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37246642",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=biotools_caid_prediction_portal",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkad430",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

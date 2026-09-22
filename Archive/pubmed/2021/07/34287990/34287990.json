@@ -1,0 +1,512 @@
+{
+  "identity": {
+    "pmid": "34287990",
+    "doi": "10.15252/embj.2020105043",
+    "title": "Tudor staphylococcal nuclease is a docking platform for stress granule components and is essential for SnRK1 activation in Arabidopsis."
+  },
+  "content": {
+    "abstract": "Tudor staphylococcal nuclease (TSN; also known as Tudor-SN, p100, or SND1) is a multifunctional, evolutionarily conserved regulator of gene expression, exhibiting cytoprotective activity in animals and plants and oncogenic activity in mammals. During stress, TSN stably associates with stress granules (SGs), in a poorly understood process. Here, we show that in the model plant Arabidopsis thaliana, TSN is an intrinsically disordered protein (IDP) acting as a scaffold for a large pool of other IDPs, enriched for conserved stress granule components as well as novel or plant-specific SG-localized proteins. While approximately 30% of TSN interactors are recruited to stress granules de novo upon stress perception, 70% form a protein-protein interaction network present before the onset of stress. Finally, we demonstrate that TSN and stress granule formation promote heat-induced activation of the evolutionarily conserved energy-sensing SNF1-related protein kinase 1 (SnRK1), the plant orthologue of mammalian AMP-activated protein kinase (AMPK). Our results establish TSN as a docking platform for stress granule proteins, with an important role in stress signalling.",
+    "keywords": [
+      "SnRK1/SNF1/AMPK",
+      "heat stress",
+      "intrinsically disordered regions",
+      "stress granules",
+      "tudor staphylococcal nuclease"
+    ],
+    "mesh_terms": [
+      "Arabidopsis",
+      "Arabidopsis Proteins/metabolism",
+      "Binding Sites",
+      "Cytoplasmic Granules/*metabolism",
+      "Heat-Shock Response",
+      "Intrinsically Disordered Proteins/chemistry/*metabolism",
+      "Protein Binding",
+      "*Protein Interaction Maps",
+      "Protein Serine-Threonine Kinases/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gutierrez-Beltran, Emilio",
+        "Elander, Pernilla H",
+        "Dalman, Kerstin",
+        "Dayhoff, Guy W 2nd",
+        "Moschou, Panagiotis N",
+        "Uversky, Vladimir N",
+        "Crespo, Jose L",
+        "Bozhkov, Peter V"
+      ],
+      "short_names": [
+        "Gutierrez-Beltran E",
+        "Elander PH",
+        "Dalman K",
+        "Dayhoff GW 2nd",
+        "Moschou PN",
+        "Uversky VN",
+        "Crespo JL",
+        "Bozhkov PV"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7978-3164",
+        "ORCID: 0000-0002-9919-9149",
+        "ORCID: 0000-0001-7212-0595",
+        "ORCID: 0000-0002-4037-5857",
+        "ORCID: 0000-0003-3514-1025",
+        "ORCID: 0000-0002-8819-3884"
+      ],
+      "affiliations": [
+        "Instituto de Bioquimica Vegetal y Fotosintesis, Consejo Superior de Investigaciones Cientificas (CSIC)-Universidad de Sevilla, Sevilla, Spain.",
+        "Departamento de Bioquimica Vegetal y Biologia Molecular, Facultad de Biologia, Universidad de Sevilla, Sevilla, Spain.",
+        "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, Uppsala, Sweden.",
+        "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, Uppsala, Sweden.",
+        "Department of Chemistry, College of Art and Sciences, University of South Florida, Tampa, FL, USA.",
+        "Institute of Molecular Biology and Biotechnology, Foundation for Research and Technology - Hellas, Heraklion, Greece.",
+        "Department of Plant Biology, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, Uppsala, Sweden.",
+        "Department of Biology, University of Crete, Heraklion, Greece.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, USA.",
+        "Institute for Biological Instrumentation of the Russian Academy of Sciences, Federal Research Center \"Pushchino Scientific Center for Biological Research of the Russian Academy of Sciences\", Pushchino, Russia.",
+        "Instituto de Bioquimica Vegetal y Fotosintesis, Consejo Superior de Investigaciones Cientificas (CSIC)-Universidad de Sevilla, Sevilla, Spain.",
+        "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, Uppsala, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gutierrez-Beltran, Emilio",
+        "short_name": "Gutierrez-Beltran E",
+        "identifiers": [
+          "0000-0001-7978-3164"
+        ],
+        "affiliations": [
+          "Instituto de Bioquímica Vegetal y Fotosíntesis, Consejo Superior de Investigaciones Científicas (CSIC)-Universidad de Sevilla, Sevilla, Spain.",
+          "Departamento de Bioquímica Vegetal y Biología Molecular, Facultad de Biología, Universidad de Sevilla, Sevilla, Spain."
+        ]
+      },
+      {
+        "full_name": "Elander, Pernilla H",
+        "short_name": "Elander PH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Dalman, Kerstin",
+        "short_name": "Dalman K",
+        "identifiers": [
+          "0000-0002-9919-9149"
+        ],
+        "affiliations": [
+          "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, Uppsala, Sweden."
+        ]
+      },
+      {
+        "full_name": "Dayhoff, Guy W",
+        "short_name": "Dayhoff GW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Art and Sciences, University of South Florida, Tampa, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Moschou, Panagiotis N",
+        "short_name": "Moschou PN",
+        "identifiers": [
+          "0000-0001-7212-0595"
+        ],
+        "affiliations": [
+          "Institute of Molecular Biology and Biotechnology, Foundation for Research and Technology - Hellas, Heraklion, Greece.",
+          "Department of Plant Biology, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, Uppsala, Sweden.",
+          "Department of Biology, University of Crete, Heraklion, Greece."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [
+          "0000-0002-4037-5857"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, USA.",
+          "Institute for Biological Instrumentation of the Russian Academy of Sciences, Federal Research Center \"Pushchino Scientific Center for Biological Research of the Russian Academy of Sciences\", Pushchino, Russia."
+        ]
+      },
+      {
+        "full_name": "Crespo, Jose L",
+        "short_name": "Crespo JL",
+        "identifiers": [
+          "0000-0003-3514-1025"
+        ],
+        "affiliations": [
+          "Instituto de Bioquímica Vegetal y Fotosíntesis, Consejo Superior de Investigaciones Científicas (CSIC)-Universidad de Sevilla, Sevilla, Spain."
+        ]
+      },
+      {
+        "full_name": "Bozhkov, Peter V",
+        "short_name": "Bozhkov PV",
+        "identifiers": [
+          "0000-0002-8819-3884"
+        ],
+        "affiliations": [
+          "Department of Molecular Sciences, Uppsala BioCenter, Swedish University of Agricultural Sciences and Linnean Center for Plant Biology, Uppsala, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The EMBO journal"
+    ],
+    "journal_abbrev": [
+      "EMBO J"
+    ],
+    "pub_date": "2021 Sep 1",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/22 06:00",
+    "fetched_at": "2026-09-20 04:25:22"
+  },
+  "links": {
+    "cites": [
+      "42573943",
+      "42074177",
+      "42059155",
+      "41992520",
+      "41775825",
+      "41705210",
+      "41493113",
+      "41457917",
+      "41408657",
+      "41406227",
+      "40999735",
+      "40796552",
+      "40727411",
+      "40576540",
+      "40016204",
+      "39907439",
+      "39738069",
+      "39702967",
+      "39569378",
+      "39456174",
+      "39337424",
+      "39227617",
+      "39117606",
+      "38892425",
+      "38869787",
+      "38769059",
+      "38321923",
+      "38256256",
+      "38078942",
+      "37971931",
+      "37721949",
+      "37569688",
+      "37437121",
+      "37401663",
+      "37352127",
+      "37162152",
+      "37040611",
+      "36741000",
+      "36516452",
+      "36478538",
+      "36477566",
+      "36377640",
+      "36334049",
+      "35909782",
+      "35861169",
+      "35817823",
+      "35804872",
+      "35783947",
+      "35755667",
+      "35685011",
+      "35323525",
+      "35003193",
+      "34599333",
+      "34434210"
+    ],
+    "refs": [
+      "35168563",
+      "33513942",
+      "33483232",
+      "33217318",
+      "33169001",
+      "33077877",
+      "32627867",
+      "32553117",
+      "32521226",
+      "32483330",
+      "32482873",
+      "32302572",
+      "32302571",
+      "32237272",
+      "32105731",
+      "31582840",
+      "31123051",
+      "30833711",
+      "30682370",
+      "30664249",
+      "30471685",
+      "30418610",
+      "30321081",
+      "29618637",
+      "29567855",
+      "29373831",
+      "29298433",
+      "29149407",
+      "29084903",
+      "28846094",
+      "28428278",
+      "28408430",
+      "28293543",
+      "28263968",
+      "28095315",
+      "28027512",
+      "27899614",
+      "27899535",
+      "27856705",
+      "27838743",
+      "27809316",
+      "27787825",
+      "27612014",
+      "27577186",
+      "27545962",
+      "27374333",
+      "27308421",
+      "27289443",
+      "27208310",
+      "26777405",
+      "26712748",
+      "26406374",
+      "26238190",
+      "26237081",
+      "25840010",
+      "25736060",
+      "25559396",
+      "25521792",
+      "25482014",
+      "25416971",
+      "25352553",
+      "25205572",
+      "25034784",
+      "24825614",
+      "24815690",
+      "24469793",
+      "24418890",
+      "24179127",
+      "24029419",
+      "23903322",
+      "23898031",
+      "23643815",
+      "23542588",
+      "23415227",
+      "23203878",
+      "23164372",
+      "22727621",
+      "22240577",
+      "21925384",
+      "21593866",
+      "21172806",
+      "20876829",
+      "20813183",
+      "20735773",
+      "20677174",
+      "20530878",
+      "20484005",
+      "20100603",
+      "20064460",
+      "20004716",
+      "19930690",
+      "19820703",
+      "19377485",
+      "19309457",
+      "19302419",
+      "19245654",
+      "18836437",
+      "18794846",
+      "18643965",
+      "18388944",
+      "17671505",
+      "15751111",
+      "15703063",
+      "15371533",
+      "14593172",
+      "14555774",
+      "12598568",
+      "11309499",
+      "10929106",
+      "10069079"
+    ],
+    "similar": [
+      "34287990",
+      "25736060",
+      "29945970",
+      "26237081",
+      "25736509",
+      "32218501",
+      "27612014",
+      "25559396",
+      "19302419",
+      "28011284",
+      "28940407",
+      "24815690",
+      "22240577",
+      "26642889",
+      "25205572",
+      "39173636",
+      "30664249",
+      "20484005",
+      "24498147",
+      "19339507",
+      "19820703",
+      "30753728",
+      "31120171",
+      "33693699",
+      "27821493",
+      "26484210",
+      "33077877",
+      "18701338",
+      "27812990",
+      "23617622",
+      "29406622",
+      "29618637",
+      "31123051",
+      "32981682",
+      "28818366",
+      "27943466",
+      "25840010",
+      "34208100",
+      "20643132",
+      "24904600",
+      "38869787",
+      "22232383",
+      "36725081",
+      "35708960",
+      "27289443",
+      "27436712",
+      "26662259",
+      "17237223",
+      "33480968",
+      "32451083",
+      "33682330",
+      "31125613",
+      "21883929",
+      "30619748",
+      "34150849",
+      "16771775",
+      "26263501",
+      "15803412",
+      "28783755",
+      "35861169",
+      "23643815",
+      "20200070",
+      "27029354",
+      "28293543",
+      "36478538",
+      "34618060",
+      "29526694",
+      "22875991",
+      "31439667",
+      "22493508",
+      "28027512",
+      "29348240",
+      "31975687",
+      "24990996",
+      "18931139",
+      "30414328",
+      "35231447",
+      "28758359",
+      "25974317",
+      "32121292",
+      "22026387",
+      "29440319",
+      "29192025",
+      "10504565",
+      "30030372",
+      "27545962",
+      "30793201",
+      "28283059",
+      "37936321",
+      "25929516",
+      "38499396",
+      "25403083",
+      "23735508",
+      "28263378",
+      "34201246",
+      "19309312",
+      "29133376",
+      "20106928",
+      "18768910",
+      "30039638",
+      "20198186",
+      "39241750",
+      "37151849"
+    ],
+    "review": [
+      "34287990",
+      "27612014",
+      "26642889",
+      "33693699",
+      "27821493",
+      "18701338",
+      "27812990",
+      "24904600",
+      "35708960",
+      "27289443",
+      "21883929",
+      "30619748",
+      "35861169",
+      "28027512",
+      "30793201"
+    ],
+    "pmc": [
+      "8447601"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://hdl.handle.net/10261/247446",
+        "provider": "Digital CSIC Spanish National Research Council - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from DIGITALCSIC"
+      },
+      {
+        "url": "https://doi.org/10.15252/embj.2020105043",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34287990/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.arabidopsis.org/publication?key=501795343",
+        "provider": "The Arabidopsis Information Resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Linked Gene Data"
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34287990",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

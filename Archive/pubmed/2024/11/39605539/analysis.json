@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39605539",
+  "title": "Covalent adducts formed by the androgen receptor transactivation domain and small molecule drugs remain disordered.",
+  "authors": "Zhu, Jiaqi; Robustelli, Paul J",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-11-28",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全原子MD模拟研究雄激素受体无序反式激活域与小分子共价加合物的构象系综，揭示无序性维持及塌缩螺旋构象稳定机制，虽非PPI但聚焦IDP-配体互作机制建模，方法可迁移至IDR介导的PPI研究。",
+  "abstract": "Intrinsically disordered proteins are implicated in many human diseases. Small molecules that target the disordered androgen receptor transactivation domain have entered human trials for the treatment of castration-resistant prostate cancer. These molecules have been shown to react with cysteine residues of the androgen receptor transactivation domain and form covalent adducts under physiological conditions. It is currently unclear how covalent attachment of these molecules alters the conformational ensemble of the androgen receptor. Here, we utilize all-atom molecular dynamics computer simulations to simulate covalent adducts of the small molecule ligands EPI-002 and EPI-7170 bound to the disordered androgen receptor transactivation domain. Our simulations reveal that the conformational ensembles of androgen receptor transactivation domain covalent adducts are heterogeneous and disordered. We find that covalent attachment of EPI-002 and EPI-7170 increases the population of collapsed helical transactivation domain conformations relative to the populations observed in non-covalent binding simulations and we identify networks of protein-ligand interactions that stabilize collapsed conformations in covalent adduct ensembles. We compare the populations of protein-ligand interactions observed in covalent adduct ensembles to those observed in non-covalent ligand-bound ensembles and find substantial differences. Our results provide atomically detailed descriptions of covalent adducts formed by small molecules and an intrinsically disordered protein and suggest strategies for developing more potent covalent inhibitors of intrinsically disordered proteins.",
+  "abstract_zh": "intrinsically disordered proteins（固有无序蛋白）与多种人类疾病相关。靶向无序雄激素受体转录激活域的小分子已进入治疗去势抵抗性前列腺癌的人体试验阶段。这些分子已被证明能在生理条件下与雄激素受体转录激活域的半胱氨酸残基反应并形成共价加合物。目前尚不清楚这些分子的共价连接如何改变雄激素受体的构象集合。在此，我们利用全原子分子动力学 (molecular dynamics) 计算机模拟，模拟小分子配体EPI-002和EPI-7170与无序雄激素受体转录激活域结合的共价加合物。我们的模拟揭示，雄激素受体转录激活域共价加合物的构象集合是异质且无序的。我们发现，与非共价结合模拟中观察到的群体相比，EPI-002和EPI-7170的共价连接增加了塌缩螺旋转录激活域构象的群体，并识别了在共价加合物集合中稳定塌缩构象的蛋白质-配体相互作用网络。我们将共价加合物集合中观察到的蛋白质-配体相互作用群体与非共价配体结合集合中观察到的进行比较，发现存在显著差异。我们的结果提供了小分子与固有无序蛋白形成共价加合物的原子级详细描述，并为开发更有效的固有无序蛋白共价抑制剂提出了策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39605539/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39605539/",
+  "paper_page_path": "papers/pubmed/39605539/index.html"
+}

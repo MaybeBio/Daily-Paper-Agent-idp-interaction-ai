@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "34451980",
+    "doi": "10.3390/vaccines9080855",
+    "title": "Guiding the Immune Response to a Conserved Epitope in MSP2, an Intrinsically Disordered Malaria Vaccine Candidate."
+  },
+  "content": {
+    "abstract": "The malaria vaccine candidate merozoite surface protein 2 (MSP2) has shown promise in clinical trials and is in part responsible for a reduction in parasite densities. However, strain-specific reductions in parasitaemia suggested that polymorphic regions of MSP2 are immuno-dominant. One strategy to bypass the hurdle of strain-specificity is to bias the immune response towards the conserved regions. Two mouse monoclonal antibodies, 4D11 and 9H4, recognise the conserved C-terminal region of MSP2. Although they bind overlapping epitopes, 4D11 reacts more strongly with native MSP2, suggesting that its epitope is more accessible on the parasite surface. In this study, a structure-based vaccine design approach was applied to the intrinsically disordered antigen, MSP2, using a crystal structure of 4D11 Fv in complex with its minimal binding epitope. Molecular dynamics simulations and surface plasmon resonance informed the design of a series of constrained peptides that mimicked the 4D11-bound epitope structure. These peptides were conjugated to keyhole limpet hemocyanin and used to immunise mice, with high to moderate antibody titres being generated in all groups. The specificities of antibody responses revealed that a single point mutation can focus the antibody response towards a more favourable epitope. This structure-based approach to peptide vaccine design may be useful not only for MSP2-based malaria vaccines, but also for other intrinsically disordered antigens.",
+    "keywords": [
+      "disordered protein",
+      "malaria",
+      "merozoite surface protein 2",
+      "peptide vaccines",
+      "structural vaccinology"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Seow, Jeffrey",
+        "Das, Sreedam C",
+        "Morales, Rodrigo A V",
+        "Ataide, Ricardo",
+        "Krishnarjuna, Bankala",
+        "Silk, Mitchell",
+        "Chalmers, David K",
+        "Richards, Jack",
+        "Anders, Robin F",
+        "MacRaild, Christopher A",
+        "Norton, Raymond S"
+      ],
+      "short_names": [
+        "Seow J",
+        "Das SC",
+        "Morales RAV",
+        "Ataide R",
+        "Krishnarjuna B",
+        "Silk M",
+        "Chalmers DK",
+        "Richards J",
+        "Anders RF",
+        "MacRaild CA",
+        "Norton RS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7587-0065",
+        "ORCID: 0000-0002-4575-0011",
+        "ORCID: 0000-0003-2366-569X",
+        "ORCID: 0000-0002-3694-3989",
+        "ORCID: 0000-0001-8893-0584"
+      ],
+      "affiliations": [
+        "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia.",
+        "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia.",
+        "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia.",
+        "Malaria and Tropical Diseases Group, The Burnet Institute, Melbourne 3004, Australia.",
+        "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia.",
+        "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia.",
+        "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia.",
+        "Malaria and Tropical Diseases Group, The Burnet Institute, Melbourne 3004, Australia.",
+        "Department of Biochemistry and Genetics, La Trobe Institute for Molecular Science, La Trobe University, Melbourne 3086, Australia.",
+        "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia.",
+        "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia.",
+        "ARC Centre for Fragment-Based Design, Monash University, Parkville 3052, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Seow, Jeffrey",
+        "short_name": "Seow J",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia."
+        ]
+      },
+      {
+        "full_name": "Das, Sreedam C",
+        "short_name": "Das SC",
+        "identifiers": [
+          "0000-0002-7587-0065"
+        ],
+        "affiliations": [
+          "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia."
+        ]
+      },
+      {
+        "full_name": "Morales, Rodrigo A V",
+        "short_name": "Morales RAV",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia."
+        ]
+      },
+      {
+        "full_name": "Ataide, Ricardo",
+        "short_name": "Ataide R",
+        "identifiers": [],
+        "affiliations": [
+          "Malaria and Tropical Diseases Group, The Burnet Institute, Melbourne 3004, Australia."
+        ]
+      },
+      {
+        "full_name": "Krishnarjuna, Bankala",
+        "short_name": "Krishnarjuna B",
+        "identifiers": [
+          "0000-0002-4575-0011"
+        ],
+        "affiliations": [
+          "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia."
+        ]
+      },
+      {
+        "full_name": "Silk, Mitchell",
+        "short_name": "Silk M",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia."
+        ]
+      },
+      {
+        "full_name": "Chalmers, David K",
+        "short_name": "Chalmers DK",
+        "identifiers": [
+          "0000-0003-2366-569X"
+        ],
+        "affiliations": [
+          "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia."
+        ]
+      },
+      {
+        "full_name": "Richards, Jack",
+        "short_name": "Richards J",
+        "identifiers": [],
+        "affiliations": [
+          "Malaria and Tropical Diseases Group, The Burnet Institute, Melbourne 3004, Australia."
+        ]
+      },
+      {
+        "full_name": "Anders, Robin F",
+        "short_name": "Anders RF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Genetics, La Trobe Institute for Molecular Science, La Trobe University, Melbourne 3086, Australia."
+        ]
+      },
+      {
+        "full_name": "MacRaild, Christopher A",
+        "short_name": "MacRaild CA",
+        "identifiers": [
+          "0000-0002-3694-3989"
+        ],
+        "affiliations": [
+          "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia."
+        ]
+      },
+      {
+        "full_name": "Norton, Raymond S",
+        "short_name": "Norton RS",
+        "identifiers": [
+          "0000-0001-8893-0584"
+        ],
+        "affiliations": [
+          "Medicinal Chemistry, Monash Institute of Pharmaceutical Sciences, Monash University, Parkville 3052, Australia.",
+          "ARC Centre for Fragment-Based Design, Monash University, Parkville 3052, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Vaccines"
+    ],
+    "journal_abbrev": [
+      "Vaccines (Basel)"
+    ],
+    "pub_date": "2021 Aug 4",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/29 06:00",
+    "fetched_at": "2026-09-20 05:04:57"
+  },
+  "links": {
+    "cites": [
+      "40234440",
+      "38254700"
+    ],
+    "refs": [
+      "34276688",
+      "33964223",
+      "33931251",
+      "33246736",
+      "32990437",
+      "32328540",
+      "32064333",
+      "31371616",
+      "31227760",
+      "31111560",
+      "31103771",
+      "30555463",
+      "29195810",
+      "29138320",
+      "28791117",
+      "28189425",
+      "27022144",
+      "26865062",
+      "26712277",
+      "25913272",
+      "25786180",
+      "25473061",
+      "24980799",
+      "24921246",
+      "24688704",
+      "24561742",
+      "24179220",
+      "24066888",
+      "23806515",
+      "23539181",
+      "23320397",
+      "23154260",
+      "22966050",
+      "22508415",
+      "22061265",
+      "21949716",
+      "21812414",
+      "21753121",
+      "21593422",
+      "21586636",
+      "21533652",
+      "21297864",
+      "21291373",
+      "20937874",
+      "20876137",
+      "20660744",
+      "19450733",
+      "18440022",
+      "18266328",
+      "17212484",
+      "17010454",
+      "11920300",
+      "2000383",
+      "1990294"
+    ],
+    "similar": [
+      "34451980",
+      "28189425",
+      "25965408",
+      "33618946",
+      "26865062",
+      "28618199",
+      "25742002",
+      "30443712",
+      "26874325",
+      "22749949",
+      "25526742",
+      "19428875",
+      "17516503",
+      "17883245",
+      "12165090",
+      "9436461",
+      "33309558",
+      "22304430",
+      "30271940",
+      "31092602",
+      "20545323",
+      "15501757",
+      "32708370",
+      "16111789",
+      "26788998",
+      "10580206",
+      "28835262",
+      "1693361",
+      "9574783",
+      "12516559",
+      "2481640",
+      "31185998",
+      "11776398",
+      "12646645",
+      "26149471",
+      "12729744",
+      "11180119",
+      "10450429",
+      "7591074",
+      "9002371",
+      "28794021",
+      "19850413",
+      "15234557",
+      "32328540",
+      "30126436",
+      "17605823",
+      "2477452",
+      "14507328",
+      "10768960",
+      "32454399",
+      "14568972",
+      "11145692",
+      "1376346",
+      "30509693",
+      "9423864",
+      "31358409",
+      "15905510",
+      "25793371",
+      "10923446",
+      "9071065",
+      "30642904",
+      "25694592",
+      "27604988",
+      "29843783",
+      "7508238",
+      "24726865",
+      "15081621",
+      "16647307",
+      "30374343",
+      "15155686",
+      "26463341",
+      "2485085"
+    ],
+    "review": [
+      "34451980",
+      "2481640"
+    ],
+    "pmc": [
+      "8402609"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=vaccines9080855",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34451980/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34451980",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

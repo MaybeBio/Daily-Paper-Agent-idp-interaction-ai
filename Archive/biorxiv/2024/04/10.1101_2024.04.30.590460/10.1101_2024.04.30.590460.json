@@ -1,0 +1,358 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.04.30.590460",
+  "title": "Development of D-box peptides to inhibit the Anaphase Promoting Complex/Cyclosome",
+  "doi": "10.1101/2024.04.30.590460",
+  "abstract": "E3 ubiquitin ligases engage their substrates via ‘degrons’ - short linear motifs typically located within intrinsically disordered regions of substrates. As these enzymes are large, multi-subunit complexes that generally lack natural small-molecule ligands and are hard to drug via conventional means, alternative strategies are needed to target them in diseases, and peptide-based inhibitors derived from degrons represent a promising approach. Here we explore peptide inhibitors of Cdc20, a substrate-recognition subunit and activator of the E3 ubiquitin ligase the anaphase promoting complex/cyclosome (APC/C) that is essential in mitosis and consequently of interest as an anti-cancer target. APC/C engages substrates via degrons that include the ‘Destruction box’ (D-box) motif. We used a rational design approach to construct binders containing unnatural amino acids aimed at better filling a hydrophobic pocket on the surface of Cdc20. We confirmed binding by thermal-shift assays and surface plasmon resonance and determined the structures of a number of the Cdc20- peptide complexes. Using a cellular thermal shift assay, we confirmed that the D-box peptides also bind to and stabilise Cdc20 in the cell. We found that the D-box peptides inhibit ubiquitination activity of APC/C Cdc20 and are more potent than the small molecule inhibitor Apcin. Lastly, these peptides function as portable degrons capable of driving the degradation of a fused fluorescent protein. Interestingly, we find that although inhibitory activity of the peptides correlates with Cdc20-binding affinity, degradation efficacy does not, which may be due to the complex nature of APC/C regulation and effects of degron binding of subunit recruitment and conformational changes. Our study lays the groundwork for the further development of these peptides as molecular therapeutics for blocking APC/C as well as potentially also for harnessing APC/C for targeted protein degradation.",
+  "authors": [
+    "Eapen R",
+    "Okoye C",
+    "Stubbs C",
+    "Schimpl M",
+    "Tischer T",
+    "Fisher EJ",
+    "Zacharopoulou M",
+    "Ferrer F",
+    "Barford D",
+    "Spring D",
+    "Lindon C",
+    "Phillips C",
+    "Itzhaki LS"
+  ],
+  "published_date": "2024-04-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.04.30.590460",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.04.30.590460.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR846643",
+    "raw_record": {
+      "id": "PPR846643",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR846643"
+        ]
+      },
+      "doi": "10.1101/2024.04.30.590460",
+      "title": "Development of D-box peptides to inhibit the Anaphase Promoting Complex/Cyclosome",
+      "authorString": "Eapen R, Okoye C, Stubbs C, Schimpl M, Tischer T, Fisher EJ, Zacharopoulou M, Ferrer F, Barford D, Spring D, Lindon C, Phillips C, Itzhaki LS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Eapen R",
+            "lastName": "Eapen",
+            "firstName": "Rohan",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7269-3633"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Okoye C",
+            "lastName": "Okoye",
+            "firstName": "Cynthia",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stubbs C",
+            "lastName": "Stubbs",
+            "firstName": "Christopher",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Darwin Building, 310 Milton Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schimpl M",
+            "lastName": "Schimpl",
+            "firstName": "Marianne",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2284-5250"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Darwin Building, 310 Milton Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tischer T",
+            "lastName": "Tischer",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fisher EJ",
+            "lastName": "Fisher",
+            "firstName": "Eileen",
+            "initials": "EJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Darwin Building, 310 Milton Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zacharopoulou M",
+            "lastName": "Zacharopoulou",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3660-2797"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ferrer F",
+            "lastName": "Ferrer",
+            "firstName": "Fernando",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "p53 laboratory, 8A Biomedical Grove, #06-04/05, Neuros/Immunos, 138548, Singapore"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barford D",
+            "lastName": "Barford",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spring D",
+            "lastName": "Spring",
+            "firstName": "David",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7355-2824"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamid Department of Chemistry, , Lensfield Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lindon C",
+            "lastName": "Lindon",
+            "firstName": "Cath",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Phillips C",
+            "lastName": "Phillips",
+            "firstName": "Christopher",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Darwin Building, 310 Milton Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Itzhaki LS",
+            "lastName": "Itzhaki",
+            "firstName": "Laura",
+            "initials": "LS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7269-3633"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7355-2824"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3660-2797"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2284-5250"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "E3 ubiquitin ligases engage their substrates via ‘degrons’ - short linear motifs typically located within intrinsically disordered regions of substrates. As these enzymes are large, multi-subunit complexes that generally lack natural small-molecule ligands and are hard to drug via conventional means, alternative strategies are needed to target them in diseases, and peptide-based inhibitors derived from degrons represent a promising approach. Here we explore peptide inhibitors of Cdc20, a substrate-recognition subunit and activator of the E3 ubiquitin ligase the anaphase promoting complex/cyclosome (APC/C) that is essential in mitosis and consequently of interest as an anti-cancer target. APC/C engages substrates via degrons that include the ‘Destruction box’ (D-box) motif. We used a rational design approach to construct binders containing unnatural amino acids aimed at better filling a hydrophobic pocket on the surface of Cdc20. We confirmed binding by thermal-shift assays and surface plasmon resonance and determined the structures of a number of the Cdc20- peptide complexes. Using a cellular thermal shift assay, we confirmed that the D-box peptides also bind to and stabilise Cdc20 in the cell. We found that the D-box peptides inhibit ubiquitination activity of APC/C  Cdc20 and are more potent than the small molecule inhibitor Apcin. Lastly, these peptides function as portable degrons capable of driving the degradation of a fused fluorescent protein. Interestingly, we find that although inhibitory activity of the peptides correlates with Cdc20-binding affinity, degradation efficacy does not, which may be due to the complex nature of APC/C regulation and effects of degron binding of subunit recruitment and conformational changes. Our study lays the groundwork for the further development of these peptides as molecular therapeutics for blocking APC/C as well as potentially also for harnessing APC/C for targeted protein degradation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/R004137/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.04.30.590460"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.04.30.590460"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR846643"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR846643&type=FILE&fileName=EMS195919-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40888475",
+            "reference": "eLife. \n    2025 Sep;14:RP104238",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS195919",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-05-04",
+      "firstPublicationDate": "2024-04-30",
+      "firstIndexDate": "2024-05-04",
+      "fullTextReceivedDate": "2025-02-21",
+      "hasEvaluations": "Y"
+    }
+  }
+}

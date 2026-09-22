@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36358923",
+  "title": "Proline-Rich Region II (PRR2) Plays an Important Role in Tau-Glycan Interaction: An NMR Study.",
+  "authors": "Murray, Anqesha; Yan, Lufeng; Gibson, James M; Liu, Jian; Eliezer, David; Lippens, Guy; Zhang, Fuming; Linhardt, Robert J; Zhao, Jing; Wang, Chunyu",
+  "journal": "Biomolecules",
+  "published_date": "2022-11-12",
+  "window": {
+    "start": "2022-11-07",
+    "end": "2022-11-13"
+  },
+  "score": 7,
+  "one_liner_zh": "该NMR研究通过化学位移扰动和亲和力拟合，定位了tau蛋白无序区域PRR2与肝素/硫酸乙酰肝素的结合位点并比较了结合强度，虽为实验方法且对象为IDP-糖胺聚糖而非PPI，但为无序蛋白介导的互作界面机制提供了可迁移的残基级解析思路。",
+  "abstract": "(1) Background: Prion-like transcellular spreading of tau pathology in Alzheimer's disease (AD) is mediated by tau binding to the cell-surface glycan heparan sulfate (HS). However, the structural determinants for tau-HS interaction are not well understood. (2) Methods and Results: Binding-site mapping using NMR showed two major binding regions in full-length tau responsible for heparin interaction. Thus, two tau constructs, tau PRR2* and tau R2*, were designed to investigate the molecular details at the tau-heparin binding interface. The 2D (1)H-(15)N HSQC of tau PRR2* and tau R2* lacked dispersion, which is characteristic for intrinsically disordered proteins. NMR titration of Arixtra into (15)N-labeled tau R2* induced large chemical shift perturbations (CSPs) in (275)VQIINK(280) and downstream residues K281-D283, in which L282 and I278 displayed the largest shifts. NMR titration of Arixtra into (15)N-labeled tau PRR2* induced the largest CSPs for residue R209 followed by residues S210 and R211. Residue-based CSP fitting showed that tau PRR2*-Arixtra interaction had a much stronger binding affinity (0.37-0.67 mM) than that of tau R2*-Arixtra (1.90-5.12 mM) interaction. (3) Conclusions: Our results suggested that PRR2 is a crucial domain for tau-heparin and tau-HS interaction.",
+  "abstract_zh": "(1) 背景：阿尔茨海默病（AD）中tau蛋白病理的朊病毒样跨细胞传播由tau与细胞表面聚糖硫酸乙酰肝素（HS）结合介导。然而，tau-HS相互作用的结构决定因素尚不清楚。(2) 方法与结果：利用NMR进行的结合位点定位显示，全长tau中有两个主要结合区域负责肝素相互作用。因此，设计了两个tau构建体，tau PRR2*和tau R2*，以研究tau-肝素结合界面的分子细节。tau PRR2*和tau R2*的二维(1)H-(15)N HSQC谱缺乏分散性，这是固有无序蛋白的特征。将Arixtra滴定到(15)N标记的tau R2*中，诱导了(275)VQIINK(280)及下游残基K281-D283的显著化学位移扰动（CSPs），其中L282和I278显示出最大位移。将Arixtra滴定到(15)N标记的tau PRR2*中，残基R209诱导了最大CSPs，其次是残基S210和R211。基于残基的CSP拟合显示，tau PRR2*-Arixtra相互作用具有比tau R2*-Arixtra（1.90-5.12 mM）强得多的结合亲和力（0.37-0.67 mM）。(3) 结论：我们的结果表明，PRR2是tau-肝素和tau-HS相互作用的关键结构域。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36358923/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36358923/",
+  "paper_page_path": "papers/pubmed/36358923/index.html"
+}

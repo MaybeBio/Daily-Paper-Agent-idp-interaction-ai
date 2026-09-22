@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "37240035",
+    "doi": "10.3390/ijms24108677",
+    "title": "The Moonlighting Function of Soybean Disordered Methyl-CpG-Binding Domain 10c Protein."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are multifunctional due to their ability to adopt different structures depending on the local conditions. The intrinsically disordered regions of methyl-CpG-binding domain (MBD) proteins play important roles in regulating growth and development by interpreting DNA methylation patterns. However, whether MBDs have a stress-protective function is far from clear. In this paper, soybean GmMBD10c protein, which contains an MBD and is conserved in Leguminosae, was predicted to be located in the nucleus. It was found to be partially disordered by bioinformatic prediction, circular dichroism and a nuclear magnetic resonance spectral analysis. The enzyme activity assay and SDS-PAGE results showed that GmMBD10c can protect lactate dehydrogenase and a broad range of other proteins from misfolding and aggregation induced by the freeze-thaw process and heat stress, respectively. Furthermore, overexpression of GmMBD10c enhanced the salt tolerance of Escherichia coli. These data validate that GmMBD10c is a moonlighting protein with multiple functions.",
+    "keywords": [
+      "Glycine max",
+      "cryoprotective function",
+      "intrinsically disordered protein",
+      "methyl-CpG-binding domain protein",
+      "stress tolerance"
+    ],
+    "mesh_terms": [
+      "*Glycine max/genetics/metabolism",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "DNA Methylation",
+      "L-Lactate Dehydrogenase/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yanling",
+        "Qin, Jiawei",
+        "Chen, Menglu",
+        "Sun, Nan",
+        "Tan, Fangmei",
+        "Zhang, Hua",
+        "Zou, Yongdong",
+        "Uversky, Vladimir N",
+        "Liu, Yun"
+      ],
+      "short_names": [
+        "Li Y",
+        "Qin J",
+        "Chen M",
+        "Sun N",
+        "Tan F",
+        "Zhang H",
+        "Zou Y",
+        "Uversky VN",
+        "Liu Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4037-5857"
+      ],
+      "affiliations": [
+        "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China.",
+        "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China.",
+        "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China.",
+        "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China.",
+        "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China.",
+        "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China.",
+        "The Instrumental Analysis Center of Shenzhen University, Shenzhen University, Shenzhen 518060, China.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA.",
+        "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yanling",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Jiawei",
+        "short_name": "Qin J",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Menglu",
+        "short_name": "Chen M",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Nan",
+        "short_name": "Sun N",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Fangmei",
+        "short_name": "Tan F",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Hua",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Zou, Yongdong",
+        "short_name": "Zou Y",
+        "identifiers": [],
+        "affiliations": [
+          "The Instrumental Analysis Center of Shenzhen University, Shenzhen University, Shenzhen 518060, China."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [
+          "0000-0002-4037-5857"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Yun",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Provincial Key Laboratory for Plant Epigenetics, Shenzhen Key Laboratory of Microbial Genetic Engineering, College of Life Sciences and Oceanography, Shenzhen University, Shenzhen 518060, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 May 12",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/27 09:42",
+    "fetched_at": "2026-09-20 22:20:06"
+  },
+  "links": {
+    "cites": [
+      "40066461",
+      "38256256"
+    ],
+    "refs": [
+      "36334049",
+      "35987358",
+      "35793147",
+      "35574140",
+      "35504755",
+      "35278634",
+      "35231447",
+      "35177069",
+      "35128234",
+      "34914967",
+      "34550433",
+      "34521831",
+      "34439881",
+      "34360938",
+      "34339540",
+      "34201246",
+      "34083448",
+      "34040112",
+      "33913240",
+      "33801703",
+      "33548325",
+      "33137381",
+      "32696354",
+      "31931004",
+      "31797313",
+      "31521229",
+      "31428838",
+      "31422443",
+      "30906830",
+      "29860709",
+      "29860432",
+      "29722887",
+      "28525284",
+      "28523538",
+      "27834926",
+      "26851286",
+      "26376097",
+      "23978448",
+      "23362206",
+      "23269364",
+      "22988848",
+      "21909508",
+      "21045058",
+      "20453919",
+      "20100603",
+      "19768526",
+      "19704836",
+      "18359842",
+      "17984052",
+      "16983686",
+      "16618368",
+      "16212413",
+      "16187360",
+      "16054818",
+      "15751111",
+      "15582389",
+      "11910019",
+      "11784292",
+      "11093259",
+      "10869041",
+      "10087914",
+      "2649248"
+    ],
+    "similar": [
+      "37240035",
+      "33137381",
+      "28867216",
+      "28525284",
+      "32756462",
+      "31102309",
+      "32696375",
+      "29330047",
+      "29385704",
+      "35470621",
+      "34439881",
+      "33857518",
+      "26370084",
+      "25988244",
+      "33548325",
+      "30842512",
+      "35883018",
+      "36291719",
+      "32735864",
+      "26184172",
+      "28381244",
+      "33474748",
+      "38358259",
+      "27988422",
+      "24150971",
+      "30527137",
+      "33182787",
+      "26195786",
+      "30979035",
+      "26071212",
+      "24178034",
+      "30471705",
+      "34626492",
+      "21686180",
+      "32703978",
+      "29982297",
+      "23794453",
+      "27502833",
+      "22326799",
+      "30471689",
+      "26918762",
+      "28097742",
+      "30445805",
+      "32933064",
+      "27844185",
+      "30554840",
+      "19949793",
+      "30898848",
+      "33647452",
+      "25502193",
+      "23716602",
+      "26387110",
+      "35278634",
+      "30099775",
+      "30373755",
+      "31297688",
+      "32097582",
+      "25362847",
+      "26742101",
+      "34390736",
+      "32707418",
+      "32859072",
+      "31756456",
+      "26387098",
+      "25631540",
+      "29066345",
+      "34347206",
+      "26376097",
+      "32828470",
+      "36257361",
+      "32503351",
+      "28258312",
+      "33182596",
+      "24532081",
+      "31671552",
+      "29944921",
+      "35507260",
+      "33652546",
+      "26387101",
+      "36310204",
+      "25284050",
+      "18832187",
+      "24515886",
+      "26851286",
+      "30443712",
+      "35034725",
+      "24668165",
+      "35454181",
+      "34358545",
+      "28992347",
+      "32681491",
+      "23723000",
+      "25244701",
+      "26387102",
+      "29382046",
+      "37482543"
+    ],
+    "review": [
+      "37240035",
+      "27988422",
+      "30527137",
+      "30979035",
+      "30471705",
+      "21686180",
+      "29982297",
+      "23794453",
+      "30445805",
+      "25502193",
+      "26387110",
+      "32097582",
+      "34390736",
+      "26387098",
+      "25631540",
+      "34347206",
+      "32828470",
+      "36257361",
+      "24532081",
+      "26387101",
+      "26851286",
+      "34358545",
+      "28992347",
+      "26387102",
+      "29382046"
+    ],
+    "pmc": [
+      "10217906"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms24108677",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37240035/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37240035",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

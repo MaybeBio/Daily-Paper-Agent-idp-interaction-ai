@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2208.02182v2",
+  "title": "Machine learning optimization of Majorana hybrid nanowires",
+  "doi": "10.1103/PhysRevLett.130.116202",
+  "abstract": "As the complexity of quantum systems such as quantum bit arrays increases, efforts to automate expensive tuning are increasingly worthwhile. We investigate machine learning based tuning of gate arrays using the CMA-ES algorithm for the case study of Majorana wires with strong disorder. We find that the algorithm is able to efficiently improve the topological signatures, learn intrinsic disorder profiles, and completely eliminate disorder effects. For example, with only 20 gates, it is possible to fully recover Majorana zero modes destroyed by disorder by optimizing gate voltages.",
+  "authors": [
+    "Matthias Thamm",
+    "Bernd Rosenow"
+  ],
+  "published_date": "2022-08-03T16:13:13Z",
+  "updated_date": "2022-08-09T16:10:08Z",
+  "journal": "Phys. Rev. Lett. 130, 116202 (2023)",
+  "category": "cond-mat.mes-hall, cs.LG, cs.NE",
+  "landing_url": "https://arxiv.org/abs/2208.02182v2",
+  "pdf_url": "https://arxiv.org/pdf/2208.02182v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.mes-hall",
+    "cs.LG",
+    "cs.NE"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2208.02182v2",
+    "raw_categories": [
+      "cond-mat.mes-hall",
+      "cs.LG",
+      "cs.NE"
+    ],
+    "journal_ref": "Phys. Rev. Lett. 130, 116202 (2023)"
+  }
+}

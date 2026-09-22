@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, dataset descriptions) as provided
+- **Assessment boundary** Scientific and technical evaluation of the proposed method, its implementation, benchmarking, and reported results; no assessment of code functionality or reproducibility beyond what is described in the text
+- **Shared manuscript claim summary** The authors introduce GNMCADS, a conformational sampling strategy that selectively anneals the pairwise conditioning signal of protein diffusion models based on dynamical domains identified by the Gaussian Network Model (GNM). The method is implemented in AlphaFold3's diffusion module (AF3 GNMCADS) and is claimed to improve conformational sampling diversity across 92 proteins (54 class A GPCRs, 15 transporters, 23 proteins with major domain movements) compared to existing methods including AlphaFold3 default sampling, Boltz2 MD emulation, BioEmu, AFSample2/3, and ConforMix.
+- **Visible evidence base** Abstract, Introduction, Results sections 2.1-2.3, Discussion, Methods sections 4.1-4.5, Code availability, Dataset descriptions in Appendix A. No figures, tables, or supplementary materials were provided.
+- **Missing materials affecting confidence** All figures (including Fig. 1a-e and Fig. 3), all tables (Tables S1, S3, S4), the free-energy landscape projections, the fill ratio numerical results, the GPCR TM2-TM6 distance distributions, and the comparative benchmarking data. The Methods section 4.1 contains incomplete equations (the cross-correlation expression and the Kirchhoff matrix definition are truncated). The exact noise scaling procedure and the mode selection distribution in section 4.2 are described but the associated equations are incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to enhancing conformational sampling diversity in protein diffusion models by integrating GNM-derived dynamical domain information into the conditioning annealing process. The idea of selectively relaxing inter-domain constraints while preserving intra-domain coupling is physically motivated and potentially valuable. However, the provided text is insufficient to evaluate the technical soundness of the implementation, the validity of the benchmarking methodology, or the significance of the reported results. The absence of all quantitative results, figures, and complete methodological details prevents a rigorous assessment of whether the core claims are supported. The manuscript is at a preliminary stage and requires substantial additional information before a meaningful evaluation can be made.
+- **Who would be interested in the results, and why** Computational structural biologists, protein biophysicists, and researchers developing generative models for protein conformation sampling would be interested. The work addresses a recognized limitation of current structure prediction models, namely their tendency to collapse to a single conformation, and proposes a physically grounded solution. The integration of coarse-grained normal mode analysis with diffusion-based generative models could be of interest to the broader machine learning for structural biology community.
+- **Major strengths** 1) The conceptual framework is clear and physically motivated: using GNM to identify dynamical domains and selectively annealing inter-domain conditioning is a sensible strategy. 2) The method is implemented in AlphaFold3, a widely used and relevant platform, increasing potential impact. 3) The benchmarking includes a diverse set of targets (GPCRs, transporters, domain-movement proteins) and compares against multiple state-of-the-art methods. 4) The authors identify a specific technical issue with naive conditioning noise addition (disruption of structure quality) and propose a targeted solution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that GNMCADS "enhances the diversity of protein diffusion models by selectively annealing the conditioning signal guided by the intrinsic dynamical organization of the sampled protein" and that this improves sampling diversity across the benchmarked datasets.
+  - **Evidence pointer** Methods sections 4.1 and 4.2; Results sections 2.1-2.3; location not provided for figures and quantitative results
+  - **Concern** The methodological description is incomplete. The equations in section 4.1 defining the cross-correlation and the Kirchhoff matrix are truncated, making it impossible to verify the GNM implementation. The mode selection distribution in section 4.2 is described but the equation is incomplete. The noise scaling procedure (mean and standard deviation normalization) is described verbally but the full equation is not provided. Without complete methodological details, the technical soundness of the approach cannot be assessed.
+  - **Why it matters** The core contribution of the manuscript is a specific algorithmic modification to the diffusion process. If the implementation details are not fully specified, the work cannot be reproduced, verified, or built upon by the community. The scientific validity of the claims depends entirely on the correctness of this implementation.
+  - **Resolution test** Provide complete equations for the GNM cross-correlation calculation, the Kirchhoff matrix, the mode selection distribution, and the full annealing equation. Include a step-by-step algorithmic description of GNMCADS.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "AF3 GNMCADS exhibits improved sampling diversity compared to other current conformational sampling methods" across the benchmarked datasets.
+  - **Evidence pointer** Results sections 2.1-2.3; location not provided for figures and quantitative data
+  - **Concern** No quantitative results are presented in the provided text. The Results sections describe qualitative findings (e.g., "AF3 GNMCADS samples a broader range of biologically relevant conformational states") but no numerical data, statistical analyses, or comparative metrics are given. The fill ratio results mentioned in section 2.3 are not reported. The free-energy landscape projections in Fig. 1b-e and the benchmarking results in Fig. 3 are referenced but not provided.
+  - **Why it matters** The central claim of improved sampling diversity cannot be evaluated without the actual data. The manuscript provides no basis for assessing the magnitude of improvement, the consistency across targets, or the statistical significance of the findings. The claim of state-of-the-art performance is unsupported.
+  - **Resolution test** Provide the fill ratio values for all methods across all targets, the TM2-TM6 distance distributions for GPCRs, the free-energy landscape projections, and appropriate statistical analyses (e.g., confidence intervals, significance tests).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Benchmarking validity
+  - **Claim pointer** The claim that AF3 GNMCADS outperforms "Boltz2 in its MD emulation mode, BioEmu, AFSample2, AFSample3, and ConforMix" in conformational sampling diversity.
+  - **Evidence pointer** Section 2.3; Section 4.3; location not provided
+  - **Concern** The benchmarking methodology raises several concerns. First, the inference protocols differ substantially between methods: AF3 uses 200 seeds with 5 samples per seed, while AF3 GNMCADS uses 1 seed with 1000 samples. This asymmetry could confound the comparison, as sampling diversity may be affected by the number of independent sampling trajectories. Second, the authors modified the fill ratio metric by omitting the end-state weighting, which may affect comparability with previously reported results. Third, the dataset modifications (e.g., replacing the AAC3 target, reclassifying melB conformations) are described but their impact on the benchmarking is not discussed.
+  - **Why it matters** Fair and consistent benchmarking is essential for establishing the claimed improvements. The asymmetric inference protocols could introduce biases that favor the proposed method. Modifications to established metrics and datasets, while potentially justified, need to be carefully validated to ensure the results are comparable to prior work.
+  - **Resolution test** Justify the asymmetric inference protocols or use consistent sampling procedures across methods. Provide sensitivity analyses for the fill ratio metric modifications. Discuss the potential impact of dataset modifications on the results.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance validation
+  - **Claim pointer** The claim that AF3 GNMCADS "captures biologically relevant conformations" as assessed by projection onto MD-derived free-energy landscapes.
+  - **Evidence pointer** Section 2.1; location not provided for Fig. 1b-e
+  - **Concern** The validation of biological relevance relies on visual inspection of free-energy landscape projections for four proteins. While the qualitative description suggests improved coverage, no quantitative measure of "biological relevance" is provided. It is unclear how the authors determine that sampled conformations are biologically relevant versus merely diverse. The relationship between the collective variables used and the functional significance of the sampled states is not rigorously established.
+  - **Why it matters** Diversity alone is not sufficient; the sampled conformations must be functionally meaningful. Without quantitative criteria for biological relevance, the significance of the improved diversity is unclear.
+  - **Resolution test** Provide quantitative metrics for biological relevance (e.g., overlap with experimentally known states, free-energy barriers crossed, functional annotations of sampled states). Consider using established measures such as the fraction of native contacts or RMSD to known functional states.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Text description of GPCR classification
+  - **Issue** The classification of GPCR conformations into closed, intermediate, and open states based on TM2-TM6 distance is described, but the thresholds are only given in section 4.4. The results section would benefit from stating these thresholds when the classification is first discussed.
+  - **Required correction** Include the TM2-TM6 distance thresholds (13.6 Å and 16.36 Å) in section 2.2 when describing the conformational classification.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.3
+  - **Evidence pointer** Inference protocols description
+  - **Issue** The description of the inference protocols does not specify the number of diffusion steps, the noise schedule parameters, or the random seed handling for the other methods. This information is important for reproducibility.
+  - **Required correction** Provide complete inference parameters for all benchmarked methods, including diffusion steps, noise schedules, and seed handling.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Fill ratio results description
+  - **Issue** The statement that AF3 GNMCADS "improved the fill ratio by more than 5% for the majority of targets" lacks statistical context. It is unclear how many targets showed improvement, what the distribution of improvements was, and whether the improvements are statistically significant.
+  - **Required correction** Provide the full distribution of fill ratio improvements, including the number of targets with improvements above and below 5%, and appropriate statistical tests.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Code availability section
+  - **Issue** The code availability statement provides a GitHub link but does not specify the version, license, or dependencies. This limits reproducibility.
+  - **Required correction** Provide a versioned release, license information, and a list of dependencies or a containerized environment.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (incomplete methodological details), R1-M2 (absence of quantitative results), R1-M3 (benchmarking validity concerns). These are blocking issues that prevent evaluation of the core claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of using GNM-derived dynamical domains to guide selective conditioning annealing in diffusion models is novel and represents a creative integration of physics-based coarse-grained models with deep generative approaches. This is a genuine conceptual contribution.
+  - Scientific importance: If validated, the approach could address a significant limitation in protein structure prediction, namely the inability to sample diverse conformational states. The potential impact on understanding protein dynamics and function is substantial. However, the importance is currently not established due to missing evidence.
+  - Interdisciplinary readership: The work bridges computational biology, biophysics, and machine learning. The conceptual framework is accessible to a broad audience, but the incomplete methodological details and missing results limit its current appeal.
+  - Technical soundness: Cannot be assessed from the provided material. The incomplete equations and missing implementation details prevent evaluation of the algorithmic correctness.
+  - Readability for nonspecialists: The introduction and discussion are clearly written and accessible. The motivation is well-articulated. However, the methods section is incomplete and would be difficult for nonspecialists to follow even if complete.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual idea is promising and potentially significant, but the manuscript in its current form lacks the essential methodological details and quantitative results needed to evaluate the claims. The authors should be encouraged to resubmit a complete version with full methods, all results, and rigorous benchmarking analyses.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art conformational sampling performance" is unsupported as no quantitative benchmarking results are provided.
+- The claim that AF3 GNMCADS "captures biologically relevant conformations" is based on qualitative descriptions of free-energy landscape projections that are not shown.
+- The specific improvements in fill ratio (e.g., "more than 5% for the majority of targets") are stated without supporting data.
+- The claim that naive conditioning noise addition "can substantially disrupt the quality and accuracy of the generated structures" is mentioned in the introduction but no supporting evidence or comparison is provided.
+- The effectiveness of the mode selection distribution (favoring low-frequency GNM modes) is not demonstrated with any results.
+- The impact of the dataset modifications (AAC3 replacement, melB reclassification) on benchmarking outcomes is not assessed.
+- The generalizability of the approach beyond the tested protein classes is claimed in the discussion but not supported by evidence.

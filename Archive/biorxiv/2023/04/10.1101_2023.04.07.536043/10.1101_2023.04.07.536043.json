@@ -1,0 +1,211 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.07.536043",
+  "title": "The Rous sarcoma virus Gag polyprotein forms biomolecular condensates driven by intrinsically-disordered regions",
+  "doi": "10.1101/2023.04.07.536043",
+  "abstract": "Biomolecular condensates (BMCs) play important roles in cellular structures including transcription factories, splicing speckles, and nucleoli. BMCs bring together proteins and other macromolecules, selectively concentrating them so that specific reactions can occur without interference from the surrounding environment. BMCs are often made up of proteins that contain intrinsically disordered regions (IDRs), form phase-separated spherical puncta, form liquid-like droplets that undergo fusion and fission, contain molecules that are mobile, and are disrupted with phase-dissolving drugs such as 1,6-hexanediol. In addition to cellular proteins, many viruses, including influenza A, SARS-CoV-2, and human immunodeficiency virus type 1 (HIV-1) encode proteins that undergo phase separation and rely on BMC formation for replication. In prior studies of the retrovirus Rous sarcoma virus (RSV), we observed that the Gag protein forms discrete spherical puncta in the nucleus, cytoplasm, and at the plasma membrane that co-localize with viral RNA and host factors, raising the possibility that RSV Gag forms BMCs that participate in the virion intracellular assembly pathway. In our current studies, we found that Gag contains IDRs in the N-terminal (MAp2p10) and C-terminal (NC) regions of the protein and fulfills many criteria of BMCs. Although the role of BMC formation in RSV assembly requires further study, our results suggest the biophysical properties of condensates are required for the formation of Gag complexes in the nucleus and the cohesion of these complexes as they traffic through the nuclear pore, into the cytoplasm, and to the plasma membrane, where the final assembly and release of virus particles occurs.",
+  "authors": [
+    "Maldonado RK",
+    "Rice BL",
+    "Lambert GS",
+    "Sudol M",
+    "Flanagan JM",
+    "Parent LJ"
+  ],
+  "published_date": "2023-04-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.07.536043",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.07.536043.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR642652",
+    "raw_record": {
+      "id": "PPR642652",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR642652"
+        ]
+      },
+      "doi": "10.1101/2023.04.07.536043",
+      "title": "The Rous sarcoma virus Gag polyprotein forms biomolecular condensates driven by intrinsically-disordered regions",
+      "authorString": "Maldonado RK, Rice BL, Lambert GS, Sudol M, Flanagan JM, Parent LJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Maldonado RK",
+            "lastName": "Maldonado",
+            "firstName": "Rebecca Kaddis",
+            "initials": "RK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Medicine"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rice BL",
+            "lastName": "Rice",
+            "firstName": "Breanna",
+            "initials": "BL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Medicine"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lambert GS",
+            "lastName": "Lambert",
+            "firstName": "Gregory",
+            "initials": "GS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Medicine"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sudol M",
+            "lastName": "Sudol",
+            "firstName": "Malgorzata",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departments of Medicine"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Flanagan JM",
+            "lastName": "Flanagan",
+            "firstName": "John",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biochemistry & Molecular Biology"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parent LJ",
+            "lastName": "Parent",
+            "firstName": "Leslie",
+            "initials": "LJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Microbiology & Immunology, Penn State College of Medicine 500 University Drive Hershey, PA 17033"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Biomolecular condensates (BMCs) play important roles in cellular structures including transcription factories, splicing speckles, and nucleoli. BMCs bring together proteins and other macromolecules, selectively concentrating them so that specific reactions can occur without interference from the surrounding environment. BMCs are often made up of proteins that contain intrinsically disordered regions (IDRs), form phase-separated spherical puncta, form liquid-like droplets that undergo fusion and fission, contain molecules that are mobile, and are disrupted with phase-dissolving drugs such as 1,6-hexanediol. In addition to cellular proteins, many viruses, including influenza A, SARS-CoV-2, and human immunodeficiency virus type 1 (HIV-1) encode proteins that undergo phase separation and rely on BMC formation for replication. In prior studies of the retrovirus Rous sarcoma virus (RSV), we observed that the Gag protein forms discrete spherical puncta in the nucleus, cytoplasm, and at the plasma membrane that co-localize with viral RNA and host factors, raising the possibility that RSV Gag forms BMCs that participate in the virion intracellular assembly pathway. In our current studies, we found that Gag contains IDRs in the N-terminal (MAp2p10) and C-terminal (NC) regions of the protein and fulfills many criteria of BMCs. Although the role of BMC formation in RSV assembly requires further study, our results suggest the biophysical properties of condensates are required for the formation of Gag complexes in the nucleus and the cohesion of these complexes as they traffic through the nuclear pore, into the cytoplasm, and to the plasma membrane, where the final assembly and release of virus particles occurs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/04/08/2023.04.07.536043.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.04.07.536043"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR642652"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.04.07.536043"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37328094",
+            "reference": "Journal of molecular biology. 2023 Aug;435(16):168182",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS173830",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-04-10",
+      "firstPublicationDate": "2023-04-08",
+      "firstIndexDate": "2023-04-10",
+      "fullTextReceivedDate": "2023-06-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

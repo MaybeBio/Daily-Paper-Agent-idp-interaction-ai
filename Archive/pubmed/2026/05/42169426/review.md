@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose STGAT, a spatiotemporal graph attention network, for predicting protein dynamical trajectories. They report low RMSD values (below 20 Å, and below 15 Å for shorter IDPs and structured proteins), similar Ramachandran angle distributions to MD, close Rg values, and Calpha chemical shifts near experimental values. They also report successful extension to longer predictions (0–80 ns) and ablation results supporting the utility of four edge and node features.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical details beyond those stated
+- **Missing materials affecting confidence** Full methods, model architecture details, dataset composition, training/validation splits, baseline comparisons, error bars or statistical significance tests, all figures and tables, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of graph attention networks to protein trajectory prediction, a topic of relevance to computational biology. However, the current evidence base is insufficient to evaluate the validity, novelty, or generalizability of the claims. Several key technical details are absent, and the reported performance metrics lack the context needed to assess whether the model outperforms existing approaches or provides meaningful predictive utility.
+- **Who would be interested in the results, and why** Computational biologists, biophysicists, and researchers working on protein dynamics, intrinsically disordered proteins, and machine learning applications to molecular simulation. The potential to accelerate trajectory prediction beyond MD timescales would interest those studying conformational ensembles and dynamic behavior of biomolecules.
+- **Major strengths** The problem addressed is important and timely. The choice of multiple evaluation metrics (RMSD, Ramachandran angles, Rg, Calpha chemical shift) is appropriate for assessing both structural and dynamic fidelity. The inclusion of both IDPs and structured proteins broadens the scope of the claim. The reported extension to longer time scales (0–80 ns) suggests an attempt to address a known limitation of MD.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The model "could accurately and quickly predict and analyze the motion trajectory of proteins" and RMSD values are "relatively low (below 20 A)".  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no comparison to existing trajectory prediction methods, no baseline models, and no context for what constitutes an acceptable RMSD for this task. Without such comparisons, the claim of accuracy is unsubstantiated.  
+  - **Why it matters** Accuracy claims are only meaningful relative to existing approaches or established thresholds. The absence of baselines makes it impossible to determine whether STGAT offers any advantage over current methods.  
+  - **Resolution test** Provide quantitative comparisons against at least one established baseline (e.g., MD itself, other ML-based predictors) with matched datasets and evaluation protocols, including error bars or confidence intervals.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The STGAT model integrates "protein locus timing analysis and graph attention mechanism" and uses "four edge and node features".  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No architectural details, feature definitions, hyperparameters, training procedure, or data preprocessing steps are described. The model cannot be reproduced or evaluated from the information provided.  
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without these details, the scientific contribution cannot be verified or built upon.  
+  - **Resolution test** Provide a full methods section or supplementary document detailing the model architecture, feature engineering, training protocol, and data handling.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical rigor  
+  - **Claim pointer** "The RMSD values of test systems are relatively low (below 20 A), and the RMSD values of shorter IDP and structured proteins can be maintained below 15 A."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No information is given on the number of test systems, the variance across systems, or whether these values are averages, medians, or best-case results. The phrase "can be maintained" suggests selective reporting.  
+  - **Why it matters** Without measures of spread and sample size, the reported values cannot be interpreted as reliable indicators of model performance.  
+  - **Resolution test** Report per-system RMSD values with means, standard deviations, and the number of systems tested. Clarify whether the reported values are representative or best-case.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim substantiation  
+  - **Claim pointer** "The distribution of 𝜑 and 𝜓 angles between the predicted values and the real values from MD trajectories is similar, and the Rg value of the predicted trajectory is also very close to that from MD trajectories."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The terms "similar" and "very close" are qualitative and not supported by any quantitative measure, such as correlation coefficients, Kullback-Leibler divergence, or mean absolute error.  
+  - **Why it matters** Qualitative descriptors are insufficient to establish that the predicted trajectories faithfully reproduce MD-derived distributions and properties.  
+  - **Resolution test** Provide quantitative similarity metrics for angle distributions and Rg values, with appropriate statistical tests where applicable.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability  
+  - **Claim pointer** "Our STGAT model successfully extended predictions over longer trajectory prediction, demonstrating high accuracy within the initial 0-80 ns time frame."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify how "longer" compares to the training trajectory lengths, how many systems were tested, or what "high accuracy" means quantitatively in this context.  
+  - **Why it matters** The claim of extended prediction is central to the paper's stated contribution of overcoming MD time-scale limitations. Without clear definitions and evidence, this claim cannot be evaluated.  
+  - **Resolution test** Specify training trajectory lengths, test trajectory lengths, the number of systems, and quantitative accuracy metrics for the extended predictions.  
+  - **Concern ID** R1-M6  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Novelty  
+  - **Claim pointer** The STGAT model is presented as a novel approach.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not discuss prior work on graph neural networks or attention mechanisms for protein dynamics. Without a clear statement of what is new relative to existing methods, the novelty claim is unverifiable.  
+  - **Why it matters** Novelty is a key criterion for publication. The contribution must be positioned against the existing literature.  
+  - **Resolution test** Add a related work section that explicitly contrasts STGAT with prior graph-based and attention-based trajectory prediction methods.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "protein locus timing analysis" is not defined and is unclear.  
+  - **Required correction** Define this term or replace it with a more standard description of the temporal analysis performed.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Ablation claim  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The ablation experiment is mentioned but no details are given on which features were ablated or the magnitude of performance changes.  
+  - **Required correction** Summarize the ablation results with quantitative outcomes in the abstract or refer to a figure/table.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Units and precision  
+  - **Affected element** RMSD reporting  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** RMSD values are reported in Ångströms, which is appropriate, but the precision and the specific atoms used for RMSD calculation are not stated.  
+  - **Required correction** Specify which atoms were used for RMSD calculation (e.g., Calpha only, backbone, or all heavy atoms).  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "Dynamical trajectory"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "dynamical trajectory" is used in the title and abstract but is not standard; "dynamic trajectory" or "molecular trajectory" is more common.  
+  - **Required correction** Use standard terminology for consistency with the field.
+
+## Risk / unsupported claims
+- The claim that STGAT "could accurately and quickly predict and analyze the motion trajectory of proteins" is unsupported without baseline comparisons and runtime benchmarks.
+- The claim of "high accuracy" for extended predictions (0–80 ns) is unsupported without quantitative metrics and system counts.
+- The claim that the model "can not only accurately identify the spatial characteristics of proteins, but also accurately predict the dynamic behavior of IDPs" is unsupported without statistical measures of agreement.
+- The novelty of the approach is unverifiable from the abstract alone.
+- The ablation claim is unverifiable without details on the features ablated and the resulting performance differences.

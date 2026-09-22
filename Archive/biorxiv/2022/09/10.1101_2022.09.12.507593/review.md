@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that OGT glycosylation of intrinsically disordered protein regions is governed by an amino acid compositional bias, supported by a negative dataset of non-glycosylated sequences, validation through composition modification of FUS, and NMR evidence of TPR-mediated binding enhanced by glycosylation-promoting mutations
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological descriptions
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary data, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis regarding compositional determinants of OGT substrate specificity, with a logical progression from negative dataset generation to validation and mechanistic binding studies. However, the evidence as described is insufficient to evaluate the robustness of the claims. Key quantitative details, experimental controls, and methodological rigor are absent, limiting the ability to assess whether the compositional bias is a genuine biological feature or an artifact of the limited sequence set tested. The NMR binding data are mentioned but not substantiated with affinity values or controls. The work could be of interest to the glycosylation and intrinsically disordered protein communities, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers studying O-GlcNAc transferase substrate specificity, protein glycosylation in cellular signaling, intrinsically disordered protein function, and computational predictors of post-translational modification sites. The proposed compositional bias could inform improved prediction algorithms and guide experimental design for identifying OGT substrates.
+- **Major strengths** The use of a negative dataset to address a known gap in OGT substrate prediction is a thoughtful approach. The validation strategy of modifying FUS composition to enhance glycosylation provides a direct test of the hypothesis. The inclusion of NMR binding data links the compositional bias to a mechanistic model involving TPR recognition.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that the negative dataset suggests an amino acid compositional bias for OGT targets, and that this bias was validated by modifying FUS composition to enhance glycosylation  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The abstract provides no information on the number, diversity, or selection criteria of the intrinsically disordered regions tested as substrates. Without knowing how many sequences were examined, how they were chosen, and whether they represent a broad sequence space, the inferred compositional bias may be based on a small or biased sample. Similarly, the FUS modification experiment is described only qualitatively, with no indication of the extent of glycosylation enhancement or the specific compositional changes made  
+  - **Why it matters** A compositional bias inferred from an uncharacterized sequence set could be spurious or non-generalizable. The validation experiment is central to the claim, but without quantitative data on glycosylation levels before and after modification, the strength of the validation cannot be assessed  
+  - **Resolution test** Provide the number and sequence characteristics of the tested disordered regions, the criteria for defining non-glycosylation, and quantitative glycosylation data for wild-type versus modified FUS, including statistical significance and replicates  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic evidence  
+  - **Claim pointer** The abstract claims that NMR experiments demonstrate TPR binding to FUS and that glycosylation-promoting mutations enhance binding  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The NMR data are mentioned without any quantitative details, such as dissociation constants, binding stoichiometry, or the specific residues involved. It is unclear whether the binding is specific or weak and non-specific, and whether the enhanced binding observed with mutations is within experimental error or represents a meaningful change  
+  - **Why it matters** The mechanistic model that TPR recognizes disordered segments with particular compositions depends on demonstrating a specific and functionally relevant interaction. Without quantitative binding data and appropriate controls, the claim that compositional bias promotes glycosylation through enhanced TPR binding is not established  
+  - **Resolution test** Report binding affinities or qualitative NMR titration data for wild-type and mutant FUS, include control proteins with different compositions, and specify the NMR observables used to monitor binding  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The abstract implies that the compositional bias provides insight into the broad specificity of OGT  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The abstract does not specify which amino acids are enriched or depleted in OGT targets, nor does it discuss how the proposed bias relates to known OGT substrate motifs or existing prediction models. The claim of broad specificity insight is therefore vague and not contextualized within prior knowledge  
+  - **Why it matters** Without defining the compositional features and comparing them to existing literature, the novelty and significance of the finding cannot be evaluated. The claim may overreach if the bias is not clearly characterized or if it overlaps with previously described determinants  
+  - **Resolution test** Clearly state the specific amino acid compositional features, compare them to known OGT substrate preferences, and discuss how the new data refine or extend existing models of OGT specificity
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of negative dataset  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The abstract states that a set of sequences not glycosylated by OGT was established, but the criteria for non-glycosylation are not defined, such as detection limits or assay sensitivity  
+  - **Required correction** Specify the experimental assay used to determine non-glycosylation and the threshold for calling a sequence negative  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** FUS modification experiment  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The abstract does not describe how FUS composition was modified, such as which residues were changed and how many mutations were introduced  
+  - **Required correction** Provide details of the FUS variants used, including the specific amino acid substitutions and their locations  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** NMR methodology  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The NMR experiments are described only as demonstrating binding, with no mention of the isotope labeling scheme, protein concentrations, or buffer conditions  
+  - **Required correction** Include key NMR experimental parameters in the methods or supplementary information
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of compositional bias and TPR-mediated binding enhancement are not quantitatively supported by the abstract. R1-M3 is non-blocking but requires clarification to establish novelty and generalizability
+- **Assessment against Nature-style criteria**  
+  - Originality: The use of a negative dataset to infer compositional bias is a reasonable and potentially novel approach, but the abstract does not demonstrate how this differs from existing efforts in OGT substrate prediction  
+  - Scientific importance: If the compositional bias is robust and generalizable, it could have significant implications for understanding OGT specificity and improving prediction tools, but the current evidence is insufficient to judge importance  
+  - Interdisciplinary readership: The topic bridges enzymology, structural biology, and bioinformatics, and could appeal to a broad audience, but the abstract lacks the detail needed to engage nonspecialists  
+  - Technical soundness: Not assessable from the abstract alone; the absence of quantitative data and methodological details precludes evaluation  
+  - Readability for nonspecialists: The abstract is generally clear but uses field-specific terms without sufficient context, and the logical flow from negative dataset to mechanistic model is understandable at a high level
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the experimental strategy is logical, but the abstract lacks the quantitative and methodological detail required to support the central claims. A revised version with full experimental data, controls, and statistical analyses could change this assessment
+
+## Risk / unsupported claims
+- The claim that a compositional bias exists for OGT targets is unsupported without details on the sequence set and statistical analysis
+- The claim that modifying FUS composition enhances glycosylation is unsupported without quantitative glycosylation data
+- The claim that NMR demonstrates TPR binding to FUS and that mutations enhance binding is unsupported without binding parameters or controls
+- The claim that the results provide insight into the broad specificity of OGT is not evaluable without contextualization against existing knowledge

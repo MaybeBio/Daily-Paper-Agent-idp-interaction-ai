@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and data availability statements. Supplementary figures, tables, and movies are referenced but not provided.
+- **Assessment boundary** The assessment is limited to the claims and evidence presented in the provided manuscript text. Structural coordinates and diffraction data are deposited in the PDB but were not independently verified. Supplementary materials, including detailed crystallographic statistics, additional figures, and movies, were not available for review.
+- **Shared manuscript claim summary** The authors report the discovery of a novel small-molecule binding site on the cancer immunotherapy target TREX1, formed by the intrinsically disordered α7–α8 loop. They present X-ray crystal structures of mouse TREX1 in complex with three newly identified inhibitors, supported by molecular dynamics simulations, biochemical assays, and cell-based experiments. The central claims are: (1) the α7–α8 loop is an intrinsically disordered region that undergoes inhibitor-specific disordered-to-ordered transitions; (2) inhibitors bind via a "multivertex clamping" mechanism involving amphiphilic chemical units ("amphicons"); (3) these inhibitors disrupt DNA binding and nuclease activity of TREX1; and (4) the lead inhibitor NSC37215 enhances type I interferon expression in cellular models, consistent with cGAS-STING pathway activation.
+- **Visible evidence base** The visible evidence base includes: X-ray crystal structures of apo-mTREX1 and mTREX1-inhibitor complexes (PDB IDs 9KJD-9KJS), in vitro nuclease activity assays, electrophoretic mobility shift assays, fluorescence anisotropy measurements, all-atom MD simulations (2 μs trajectories), and cell-based assays measuring IFNB1 mRNA levels in MCF-7, Calu-3, and HCC1395 cell lines.
+- **Missing materials affecting confidence** Supplementary figures (1-16), supplementary tables (1-8), supplementary text, and supplementary movies (1-6) are referenced but not provided. Detailed crystallographic statistics are only summarized in Table 1 and Supplementary Table 4, which were not available. The docking methodology used for initial compound identification is described only briefly. Force field parameterization details for NSC37215 are mentioned but not fully described.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially significant advance in the understanding of targeting intrinsically disordered regions in nucleic acid-binding proteins. The identification of a novel allosteric modulation site on TREX1, a clinically relevant cancer immunotherapy target, is of considerable interest. The combination of X-ray crystallography, MD simulations, and functional assays is appropriate and generally well-executed. However, several technical concerns must be addressed before the central claims are fully established. The structural evidence for the "multivertex clamping" mechanism is based on a limited number of complex structures, and the generalizability of the "amphicon" concept requires stronger validation. The cellular data, while supportive, rely on a single compound for the key functional demonstration. The manuscript would benefit from clearer presentation of the relationship between inhibitor binding at the modulation site and the observed inhibition of DNA binding, given the spatial separation between the two sites.
+- **Who would be interested in the results, and why** Researchers in the fields of structural biology, drug discovery, cancer immunotherapy, and intrinsically disordered proteins would find this work of interest. The study provides a rare example of high-resolution structural characterization of small-molecule binding to an IDR, which is relevant to the broader community investigating the druggability of disordered regions. The identification of a new TREX1 inhibitor class with a distinct binding site from the active site offers potential therapeutic avenues for enhancing anti-tumor immunity, which is of direct relevance to immuno-oncology researchers.
+- **Major strengths** The study addresses a timely and important question regarding the druggability of intrinsically disordered regions. The use of X-ray crystallography to capture inhibitor-induced folding of the α7–α8 loop is technically impressive and provides valuable structural data. The combination of structural, computational, biochemical, and cellular approaches strengthens the overall conclusions. The identification of a novel binding site distinct from the active site is conceptually interesting and may have implications for selectivity. The "amphicon" concept, while requiring further validation, offers a potentially useful framework for understanding IDR-ligand interactions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the α7–α8 loop forms a "modulation site" and that inhibitor binding at this site disrupts DNA binding and nuclease activity.
+  - **Evidence pointer** Results section "Inhibitors bind mTREX1 at a novel modulation site by multivertex clamping"; Results section "Inhibitors targeting the IDR-involved modulation site impede substrate binding"; Figures 2, 3, and 6.
+  - **Concern** The manuscript does not provide a clear mechanistic explanation for how inhibitor binding at the modulation site (formed by α7–α8 loop and α8) leads to inhibition of DNA binding at the active site. The spatial relationship between the modulation site and the DNA-binding groove is not clearly described. While the authors note that Arg174 is involved in both DNA binding and inhibitor interactions, the structural basis for the allosteric communication between the two sites is not established. The MD simulations show inhibitor binding at multiple sites (A, B, C), but the functional relevance of each site is not systematically dissected.
+  - **Why it matters** The central therapeutic claim of the manuscript is that these inhibitors work by binding to the IDR modulation site and thereby inhibiting TREX1 function. Without a clear mechanistic link between modulation site binding and inhibition of DNA binding/nuclease activity, the significance of the structural findings is diminished. The possibility that the observed inhibition is due to non-specific effects or binding at other sites cannot be excluded based on the presented data.
+  - **Resolution test** The authors should provide a more detailed structural analysis showing the relationship between the modulation site and the DNA-binding groove, potentially including superposition of the inhibitor-bound and DNA-bound structures. Mutational analysis of residues at the modulation site (e.g., Trp188, Arg174, Lys175) that specifically disrupt inhibitor binding without affecting DNA binding would help establish the functional importance of this site. Additionally, demonstrating a correlation between inhibitor binding affinity at the modulation site and inhibition potency across a series of compounds would strengthen the causal link.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "a pattern of multivertex clamping is consistently observed" across all inhibitor complexes.
+  - **Evidence pointer** Results section "Inhibitors bind mTREX1 at a novel modulation site by multivertex clamping"; Figures 2 and 3; Supplementary Tables 5-8.
+  - **Concern** The manuscript describes three inhibitors (NSC37203, NSC37204, NSC37215) with different sizes and chemical properties. While the authors state that a consistent "multivertex clamping" pattern is observed, the structural data show that different residues are involved in binding different inhibitors (e.g., Lys175 for NSC37203 vs. Arg174 for NSC37204 and NSC37215). The definition of "multivertex clamping" appears to be applied broadly to describe any interaction involving multiple contact points, which may obscure meaningful differences in binding modes. The structural basis for the claim of consistency is not clearly quantified or systematically compared across the complexes.
+  - **Why it matters** The "multivertex clamping" pattern is presented as a key mechanistic insight of the study. If the binding modes are actually quite diverse across inhibitors, the generalizability of this concept is weakened. A more rigorous definition and quantitative comparison of the binding modes is needed to support the claim of a consistent pattern.
+  - **Resolution test** The authors should provide a systematic comparison of the binding modes across all inhibitor complexes, including quantitative measures such as buried surface area, number of hydrogen bonds, and contact residues. A clear definition of "multivertex clamping" should be provided, and the criteria for classifying a binding mode as such should be stated. If the binding modes are indeed diverse, the claim should be revised to reflect this.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the newly identified inhibitors "disrupt the DNA binding and immunosuppressive activity of TREX1" and that NSC37215 specifically enhances IFNB1 expression through inhibition of TREX1.
+  - **Evidence pointer** Results section "Inhibitors modulating the IDR exhibit efficacy in cellular models"; Figure 7; Supplementary Figures 14-16.
+  - **Concern** The cellular experiments demonstrate that NSC37215 increases IFNB1 mRNA levels in UV-irradiated MCF-7 cells and in HCC1395 cells expressing wild-type TREX1. However, the manuscript does not provide direct evidence that this effect is due to inhibition of TREX1 nuclease activity. The authors note that NSC292217 also raises IFNB1 but "through a nonspecific mechanism," yet the specificity of NSC37215 is not rigorously established. The manuscript does not show that NSC37215 affects cGAS-STING signaling directly, nor does it rule out off-target effects. Additionally, the statement that NSC37215 "specifically reversed" the suppression of IFNB1 by TREX1 is based on a single compound concentration, and dose-response data are not presented.
+  - **Why it matters** The therapeutic relevance of the findings depends on the specificity of the inhibitors for TREX1 in a cellular context. If NSC37215 has off-target effects that contribute to the observed IFNB1 induction, the conclusions regarding TREX1 as the relevant target are weakened. The manuscript's claim that the α7–α8 loop is a "druggable SLiM" for cancer immunotherapy requires demonstration that the observed cellular effects are directly attributable to TREX1 inhibition.
+  - **Resolution test** The authors should provide dose-response data for NSC37215 in the cellular assays, demonstrating a correlation between concentration and IFNB1 induction. Genetic experiments, such as knockdown or knockout of TREX1 in the cell lines used, would help establish on-target specificity. Additionally, measuring cGAS-STING pathway activation directly (e.g., STING phosphorylation, IRF3 activation) would strengthen the mechanistic link.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the α7–α8 loop is "intrinsically disordered" based on prediction tools and apo-structure analysis.
+  - **Evidence pointer** Introduction; Results section "Inhibitors bind mTREX1 at a novel modulation site by multivertex clamping"; PDB ID 3MXJ.
+  - **Concern** The manuscript relies on prediction tools (PrDOS, PONDR) and the observation that the loop is unresolved in apo-structures to support the claim of intrinsic disorder. However, the authors do not provide experimental validation of disorder, such as NMR spectroscopy or circular dichroism. The fact that the loop is resolved in inhibitor-bound structures and in DNA-bound structures suggests that it may be conditionally folded rather than truly disordered. The distinction between "disordered" and "not resolved in crystal structures" is not clearly addressed.
+  - **Why it matters** The classification of the α7–α8 loop as an IDR is central to the manuscript's framing and to the generalizability of the "amphicon" concept. If the loop is not truly disordered but rather adopts a defined structure under physiological conditions, the conclusions about targeting IDRs may need to be revised.
+  - **Resolution test** The authors should provide additional experimental evidence for disorder, such as NMR relaxation measurements or limited proteolysis experiments. Alternatively, they should temper their claims about the loop being "intrinsically disordered" and describe it as "conditionally disordered" or "partially structured."
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "short linear motifs (SLiMs)—an important subclass of intrinsically disordered regions (IDRs)" is somewhat imprecise. SLiMs are functional elements that are often found within IDRs, but they are not strictly a "subclass" of IDRs.
+  - **Required correction** Revise to "short linear motifs (SLiMs), which are functional elements frequently located within intrinsically disordered regions (IDRs)".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Inhibitors bind mTREX1 at a novel modulation site by multivertex clamping"
+  - **Evidence pointer** Figure 2C and Supplementary Figure 6
+  - **Issue** The description of the crystallization conditions and the number of structures determined for each inhibitor is not fully clear. The text states "a total of three mTREX1–NSC37203 complex structures, three mTREX1–NSC37204 complex structures, and five mTREX1–NSC37215 complex structures were determined," but the relationship between these structures and the different crystallization conditions is not explicitly described.
+  - **Required correction** Provide a clear summary table or figure legend that maps each structure to its crystallization condition and soaking time.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, "All-atom MD simulation"
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The description of the MD simulation setup is incomplete. The text mentions the CHARMM36 force field and TIP3P water but does not specify the number of ions, the salt concentration, the equilibration protocol details, or the analysis methods used to identify hydrogen bonds and contacts.
+  - **Required correction** Provide a more detailed description of the MD simulation parameters and analysis methods, or refer to a previously published protocol.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Inhibitors targeting the IDR-involved modulation site impede substrate binding"
+  - **Evidence pointer** Figure 6C and Supplementary Figure 12
+  - **Issue** The EMSA results are described qualitatively ("inhibit mTREX1 in binding DNA"), but no quantitative analysis (e.g., percent bound, IC50 for binding inhibition) is provided for the EMSA data.
+  - **Required correction** Provide quantitative analysis of the EMSA data, or clearly state that the results are qualitative.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The statement "active-site inhibition is concerned with selectivity and side effects" is somewhat vague. It would be helpful to specify what the specific selectivity concerns are for TREX1 active-site inhibitors.
+  - **Required correction** Provide specific examples of off-target effects or selectivity issues associated with TREX1 active-site inhibitors.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Fuzzy interactions of mTREX1 with inhibitors in aqueous solution"
+  - **Evidence pointer** Figure 4 and Supplementary Figure 10
+  - **Issue** The manuscript states that "inhibitors are found to interact with mTREX1 at three sites" (A, B, C) based on MD simulations. However, the criteria for defining a "site" and the occupancy or residence times of the inhibitor at each site are not clearly described.
+  - **Required correction** Provide a clear definition of what constitutes a binding site in the MD analysis, and report the occupancy or residence time of the inhibitor at each site across the trajectories.
+
+## Risk / unsupported claims
+- The claim that the α7–α8 loop is "intrinsically disordered" is based on prediction tools and the absence of electron density in apo-structures, but lacks direct experimental validation (e.g., NMR).
+- The claim that "multivertex clamping" is a consistent pattern across all inhibitor complexes is not rigorously quantified or systematically compared.
+- The claim that NSC37215 specifically inhibits TREX1 in cells and enhances IFNB1 expression through this mechanism is not fully supported, as off-target effects are not ruled out and dose-response data are not provided.
+- The generalizability of the "amphicon" concept to other IDR-ligand systems is speculative and not directly tested.
+- The statement that the identified inhibitors "constitute a first collection of atomic details for small-molecule inhibition involving a DNA-binding SLiM" is difficult to evaluate without a comprehensive literature comparison.
+- The claim that targeting the modulation site "opens new avenues for next-generation TREX1 inhibitors toward enhanced cancer immunotherapy and lowered therapy resistance" is a forward-looking statement that is not directly supported by the data presented.

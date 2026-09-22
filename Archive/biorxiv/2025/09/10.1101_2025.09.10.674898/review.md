@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report that a short disordered peptide (CT45), derived from a tick bioadhesive protein, accumulates at polar-nonpolar interfaces and undergoes liquid-liquid and liquid-to-solid phase transitions. When encapsulated in vesicles with a stable oil-water interface, CT45 forms solid shells that can be reinforced by osmotic up-concentration. When presented with a transient acetone-water interface, it forms porous mesoscopic scaffolds. The proposed mechanism involves amphiphilicity-driven interfacial accumulation enhancing intermolecular π-based interactions. The resulting shells show mechanical strength and scaffolds retain molecules, suggesting applications in biomedical engineering and synthetic biology.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, characterization data (e.g., microscopy, rheology, spectroscopy), quantification of mechanical properties, molecular weight and sequence details of CT45, control experiments, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing phenomenon with potential relevance to synthetic biology and biomaterials. The observation that a single short disordered peptide can form both solid shells and porous scaffolds depending on interfacial conditions is conceptually interesting. However, the evidence base available for this review is limited to the abstract, which precludes verification of the central mechanistic claims and quantitative results. The mechanistic proposal involving π-based interactions is plausible but not substantiated from the provided material. The work may be of interest to the condensate and biomaterials communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in biomolecular condensates, phase separation, peptide self-assembly, and biomaterials would be interested. The work bridges condensate biology with materials science, offering a route to programmable microscale architectures. Those working on synthetic cells, drug delivery, and tissue engineering may also find the shell and scaffold structures relevant.
+- **Major strengths** The conceptual advance of using a single short peptide to generate distinct architectures (shells vs. scaffolds) via interfacial conditions is notable. The connection to a natural bioadhesive system provides biological inspiration. The reported mechanical stability and molecular retention properties suggest practical utility. The work addresses a timely topic in condensate-based materials.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that CT45 undergoes liquid-liquid and liquid-to-solid phase transitions to create mechanically stable structures
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that CT45 undergoes these phase transitions and forms mechanically stable structures, but no quantitative or qualitative data are presented to support the nature of the transitions, the mechanical stability, or the solid character of the shells. Without rheological, microscopic, or spectroscopic evidence, the phase behavior cannot be assessed.
+  - **Why it matters** The core novelty rests on the phase transition behavior and the resulting material properties. If the transitions are not rigorously characterized, the mechanistic and functional claims are unsupported.
+  - **Resolution test** Provide time-resolved microscopy, fluorescence recovery after photobleaching (FRAP), rheological measurements, and electron microscopy to demonstrate the liquid and solid states and quantify mechanical properties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic substantiation
+  - **Claim pointer** The claim that amphiphilicity-driven interfacial accumulation enhances intermolecular π-based interactions to trigger phase transitions
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The proposed mechanism is stated without supporting evidence. No data on π-π interactions, mutagenesis, or comparative studies with control peptides are mentioned. The role of amphiphilicity is inferred but not demonstrated.
+  - **Why it matters** The mechanism is central to understanding why CT45 behaves differently from other disordered peptides. Without experimental validation, the mechanism remains speculative.
+  - **Resolution test** Include circular dichroism, aromatic residue mutagenesis, interfacial tension measurements, and control peptides with altered hydrophobicity or aromatic content to test the proposed interactions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and quantification
+  - **Claim pointer** The claim that shells exhibit appreciable mechanical strength and scaffolds retain molecules
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** Quantitative metrics for mechanical strength and molecular retention are not provided. No numerical values, error bars, or statistical comparisons are given. The term "appreciable" is subjective and not defined.
+  - **Why it matters** For a materials-oriented claim, quantitative characterization is essential to establish utility and compare with existing systems.
+  - **Resolution test** Provide force spectroscopy, indentation, or burst pressure measurements for shells, and release or retention assays with quantified loading and leakage rates for scaffolds.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "liquid-to-solid transition" is used without specifying whether this refers to a gelation, crystallization, or glass transition. The distinction is important for mechanistic interpretation.
+  - **Required correction** Define the type of solid state formed and provide evidence for the specific transition type.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Comparison to existing work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not situate the findings relative to prior work on peptide-based condensates or interfacial assembly. The novelty is asserted but not contextualized.
+  - **Required correction** Add a brief comparison to known peptide or protein-based condensate systems and clarify what is distinct about CT45.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Peptide sequence details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The sequence of CT45 is not provided, and its length is only described as "short." This limits the reader's ability to assess the claims or reproduce the work.
+  - **Required correction** Include the full sequence and length of CT45 in the abstract or main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of experimental data for phase transitions, mechanism, and quantitative material properties means the central claims are not verifiable from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of using a single short disordered peptide to generate distinct interfacial architectures is original and potentially novel. However, the abstract does not demonstrate how this differs from existing peptide-based materials.
+  - Scientific importance: If substantiated, the work could advance condensate-based materials and synthetic biology. The importance is plausible but not yet established.
+  - Interdisciplinary readership: The topic bridges biophysics, materials science, and synthetic biology, which could attract a broad audience. The abstract is written in an accessible style.
+  - Technical soundness: Cannot be assessed from the abstract. The lack of methods and data precludes evaluation of experimental rigor.
+  - Readability for nonspecialists: The abstract is generally clear, though terms like "π-based interactions" and "mesoscopic scaffolds" may require some background. The writing is concise and accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary observations, but the absence of supporting data means the claims cannot be evaluated. If the full manuscript provides rigorous characterization, the work could be supportive.
+
+## Risk / unsupported claims
+- The claim that CT45 undergoes liquid-liquid and liquid-to-solid phase transitions is unsupported without experimental evidence.
+- The claim that amphiphilicity enhances π-based interactions to trigger transitions is speculative and not substantiated.
+- The claim that shells exhibit "appreciable mechanical strength" is unquantified and subjective.
+- The claim that scaffolds "retain molecules" is not supported by any data.
+- The potential applications in biomedical engineering and synthetic biology are stated without demonstration of functional utility.

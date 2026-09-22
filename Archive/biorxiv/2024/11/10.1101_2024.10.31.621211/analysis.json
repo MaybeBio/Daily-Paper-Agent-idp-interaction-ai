@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.31.621211",
+  "title": "Physical-aware model accuracy estimation for protein complex using deep learning method",
+  "authors": "Haodong Wang; Meng Sun; Lei Xie; Dong Liu; Guijun Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-03",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 6,
+  "one_liner_zh": "提出物理感知深度学习模型DeepUMQA-PA，用Voronoi接触面积与方向等特征评估蛋白复合物模型质量，虽非直接针对IDP/PPI机制建模，但其对柔性蛋白的物理特征建模思路对无序蛋白互作质量评估有可迁移启发。",
+  "abstract": "With the breakthrough of AlphaFold2 on monomers, the research focus of structure prediction has shifted to protein complexes, driving the continued development of new methods for multimer structure prediction. Therefore, it is crucial to accurately estimate quality scores for the multimer model independent of the used prediction methods. In this work, we propose a physical-aware deep learning method, DeepUMQA-PA, to evaluate the residue-wise quality of protein complex models. For the input complex model, the residue-based contact area and orientation features were first constructed using Voronoi tessellation, representing the potential physical interactions and hydrophobic properties. Then, the relationship between local residues and the overall complex topology as well as the inter-residue evolutionary information are characterized by geometry-based features, protein language model embedding representation, and knowledge-based statistical potential features. Finally, these features are fed into a fused network architecture employing equivalent graph neural network and ResNet network to estimate residue-wise model accuracy. Experimental results on the CASP15 test set demonstrate that our method outperforms the state-of-the-art method DeepUMQA3 by 3.69% and 3.49% on Pearson and Spearman, respectively. Notably, our method achieved 16.8% and 15.5% improvement in Pearson and Spearman, respectively, for the evaluation of nanobody-antigens. In addition, DeepUMQA-PA achieved better MAE scores than AlphaFold-Multimer and AlphaFold3 self-assessment methods on 43% and 50% of the targets, respectively. All these results suggest that physical-aware information based on the area and orientation of atom-atom and atom-solvent contacts has the potential to capture sequence-structure-quality relationships of proteins, especially in the case of flexible proteins. The DeepUMQA-PA server is freely available at http://zhanglab-bioinf.com/DeepUMQA-PA/ .",
+  "abstract_zh": "随着AlphaFold2在单体上的突破，结构预测的研究焦点已转向蛋白质复合物，推动了多聚体结构预测新方法的持续发展。因此，独立于所用预测方法，准确估计多聚体模型的质量分数至关重要。在本工作中，我们提出了一种物理感知的深度学习方法DeepUMQA-PA，用于评估蛋白质复合物模型的残基级质量。对于输入的复合物模型，首先利用Voronoi剖分构建基于残基的接触面积和取向特征，代表潜在的物理相互作用和疏水性质。然后，通过基于几何的特征、蛋白质语言模型嵌入表示和基于知识的统计势特征，刻画局部残基与整体复合物拓扑结构之间的关系以及残基间的进化信息。最后，将这些特征输入到采用等价图神经网络和ResNet网络的融合架构中，以估计残基级模型准确性。在CASP15测试集上的实验结果表明，我们的方法在Pearson和Spearman相关系数上分别比最先进的方法DeepUMQA3提高了3.69%和3.49%。值得注意的是，在纳米抗体-抗原评估中，我们的方法在Pearson和Spearman上分别实现了16.8%和15.5%的提升。此外，DeepUMQA-PA在43%和50%的目标上分别获得了比AlphaFold-Multimer和AlphaFold3自评估方法更好的MAE分数。所有这些结果表明，基于原子-原子和原子-溶剂接触面积与取向的物理感知信息，有潜力捕捉蛋白质的序列-结构-质量关系，尤其是在柔性蛋白质的情况下。DeepUMQA-PA服务器可免费访问：http://zhanglab-bioinf.com/DeepUMQA-PA/。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.31.621211",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.31.621211",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.31.621211/index.html"
+}

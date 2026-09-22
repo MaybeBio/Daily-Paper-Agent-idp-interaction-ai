@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39677698",
+  "title": "Quantitative Spatial Analysis of Chromatin Biomolecular Condensates using Cryo-Electron Tomography.",
+  "authors": "Zhou, Huabin; Hutchings, Joshua; Shiozaki, Momoko; Zhao, Xiaowei; Doolittle, Lynda K; Yang, Shixin; Yan, Rui; Jean, Nikki; Riggi, Margot; Yu, Zhiheng; Villa, Elizabeth; Rosen, Michael K",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-12-16",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用冷冻电镜断层扫描结合深度学习分割分析染色质凝聚体内部核小体结构，虽对象为染色质而非典型IDP，但聚焦凝聚体内部互作网络且方法可迁移至IDP凝聚体，具启发价值。",
+  "abstract": "Phase separation is an important mechanism to generate certain biomolecular condensates and organize the cell interior. Condensate formation and function remain incompletely understood due to difficulties in visualizing the condensate interior at high resolution. Here we analyzed the structure of biochemically reconstituted chromatin condensates through cryo-electron tomography. We found that traditional blotting methods of sample preparation were inadequate, and high-pressure freezing plus focused ion beam milling was essential to maintain condensate integrity. To identify densely packed molecules within the condensate, we integrated deep learning-based segmentation with novel context-aware template matching. Our approaches were developed on chromatin condensates, and were also effective on condensed regions of in situ native chromatin. Using these methods, we determined the average structure of nucleosomes to 6.1 and 12 A resolution in reconstituted and native systems, respectively, and found that nucleosomes form heterogeneous interaction networks in both cases. Our methods should be applicable to diverse biochemically reconstituted biomolecular condensates and to some condensates in cells.",
+  "abstract_zh": "相分离 (phase separation) 是生成某些生物分子凝聚体并组织细胞内部的重要机制。由于难以高分辨率观察凝聚体内部，凝聚体的形成和功能仍未完全理解。在此，我们通过冷冻电子断层扫描 (cryo-electron tomography) 分析了生化重构染色质凝聚体的结构。我们发现传统的印迹法制备样品不足，而高压冷冻结合聚焦离子束铣削 (focused ion beam milling) 对维持凝聚体完整性至关重要。为识别凝聚体内密集堆积的分子，我们将基于深度学习的分割与新型上下文感知模板匹配相结合。我们的方法在染色质凝聚体上开发，并对原位天然染色质的凝聚区域同样有效。利用这些方法，我们分别确定了重构和天然系统中核小体的平均结构，分辨率达6.1和12 Å，并发现核小体在两种情况下均形成异质相互作用网络。我们的方法应适用于多种生化重构生物分子凝聚体及细胞中的某些凝聚体。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39677698/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39677698/",
+  "paper_page_path": "papers/pubmed/39677698/index.html"
+}

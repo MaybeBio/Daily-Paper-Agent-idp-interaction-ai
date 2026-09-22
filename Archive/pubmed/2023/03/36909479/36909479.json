@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "36909479",
+    "doi": "10.1101/2023.02.27.530329",
+    "title": "FREEDA: an automated computational pipeline guides experimental testing of protein innovation by detecting positive selection."
+  },
+  "content": {
+    "abstract": "Cell biologists typically focus on conserved regions of a protein, overlooking innovations that can shape its function over evolutionary time. Computational analyses can reveal potential innovations by detecting statistical signatures of positive selection that leads to rapid accumulation of beneficial mutations. However, these approaches are not easily accessible to non-specialists, limiting their use in cell biology. Here, we present an automated computational pipeline FREEDA (Finder of Rapidly Evolving Exons in De novo Assemblies) that provides a simple graphical user interface requiring only a gene name, integrates widely used molecular evolution tools to detect positive selection, and maps results onto protein structures predicted by AlphaFold. Applying FREEDA to >100 mouse centromere proteins, we find evidence of positive selection in intrinsically disordered regions of ancient domains, suggesting innovation of essential functions. As a proof-of-principle experiment, we show innovation in centromere binding of CENP-O. Overall, we provide an accessible computational tool to guide cell biology research and apply it to experimentally demonstrate functional innovation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dudka, Damian",
+        "Akins, R Brian",
+        "Lampson, Michael A"
+      ],
+      "short_names": [
+        "Dudka D",
+        "Akins RB",
+        "Lampson MA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biology, School of Arts and Sciences, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Biology, School of Arts and Sciences, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Biology, School of Arts and Sciences, University of Pennsylvania, Philadelphia, PA 19104, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dudka, Damian",
+        "short_name": "Dudka D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, School of Arts and Sciences, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Akins, R Brian",
+        "short_name": "Akins RB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, School of Arts and Sciences, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Lampson, Michael A",
+        "short_name": "Lampson MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, School of Arts and Sciences, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Feb 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/14 06:00",
+    "fetched_at": "2026-09-20 20:21:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "35879334",
+      "35731424",
+      "35525244",
+      "35420891",
+      "35312737",
+      "34813757",
+      "34813351",
+      "34791404",
+      "34551298",
+      "34433012",
+      "34265844",
+      "33248027",
+      "33237286",
+      "33156333",
+      "33095870",
+      "33015976",
+      "32941639",
+      "32516549",
+      "32386879",
+      "32043865",
+      "31402175",
+      "31320618",
+      "31127038",
+      "30762520",
+      "30174292",
+      "30054463",
+      "29858274",
+      "29561261",
+      "29109219",
+      "28977405",
+      "28840237",
+      "28188674",
+      "27239045",
+      "27153688",
+      "27093083",
+      "26921242",
+      "26833806",
+      "26601620",
+      "26528436",
+      "25783448",
+      "25395579",
+      "25388108",
+      "24586209",
+      "24481920",
+      "24451623",
+      "23329690",
+      "23145935",
+      "23084925",
+      "23028590",
+      "22427742",
+      "22417916",
+      "22368248",
+      "22322944",
+      "22305291",
+      "22284954",
+      "21988835",
+      "21949271",
+      "21771306",
+      "20971646",
+      "20689591",
+      "20624723",
+      "20228811",
+      "20003500",
+      "19461879",
+      "19304878",
+      "19030023",
+      "18642387",
+      "18094054",
+      "17675287",
+      "17654362",
+      "17483113",
+      "17389895",
+      "17199038",
+      "16622420",
+      "16622419",
+      "16287847",
+      "15965241",
+      "15917496",
+      "15709033",
+      "15689398",
+      "15649369",
+      "15509596",
+      "15326200",
+      "12871927",
+      "12370302",
+      "11836507",
+      "11805302",
+      "11498581",
+      "11240639",
+      "10747093",
+      "10742046",
+      "7968486",
+      "7968485",
+      "865622"
+    ],
+    "similar": [
+      "36909479",
+      "37358475",
+      "23912807",
+      "15345035",
+      "29858274",
+      "20142441",
+      "15842167",
+      "29653589",
+      "15215441",
+      "26758513",
+      "27556805",
+      "33001599",
+      "22080934",
+      "31820049",
+      "23879987",
+      "17332025",
+      "31366733",
+      "14612452",
+      "20927408",
+      "28069312",
+      "27093083",
+      "14563550",
+      "26364619",
+      "16351749",
+      "32411391",
+      "35727454",
+      "35149212",
+      "21930656",
+      "32945564",
+      "31455220",
+      "32731489",
+      "23865956",
+      "25843710",
+      "22527114",
+      "21622663",
+      "21414966",
+      "29802682",
+      "33866372",
+      "22820845",
+      "25329307",
+      "19503796",
+      "20529921",
+      "27363390",
+      "21791102",
+      "28934129",
+      "33983366",
+      "32377583",
+      "24875882",
+      "1893793",
+      "26589632",
+      "17391016",
+      "11056662",
+      "30700509",
+      "7862152",
+      "32173469",
+      "33243176",
+      "12460987",
+      "29925533",
+      "27381524",
+      "26429915",
+      "32017295",
+      "33527735",
+      "30459232",
+      "36576775",
+      "26581084",
+      "25736992",
+      "31813924",
+      "19852836",
+      "22821011",
+      "15289662",
+      "22069375",
+      "21732203",
+      "23578801",
+      "26790343",
+      "35699225",
+      "34418423"
+    ],
+    "review": [
+      "36909479",
+      "28069312",
+      "35727454",
+      "21930656",
+      "22527114",
+      "26589632",
+      "32173469",
+      "27381524",
+      "15289662"
+    ],
+    "pmc": [
+      "10002610"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36909479/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36909479",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.02.27.530329",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

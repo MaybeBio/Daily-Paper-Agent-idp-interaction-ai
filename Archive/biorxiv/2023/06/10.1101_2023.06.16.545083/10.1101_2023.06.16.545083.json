@@ -1,0 +1,302 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.16.545083",
+  "title": "DNA binding redistributes activation domain ensemble and accessibility in pioneer factor Sox2",
+  "doi": "10.1101/2023.06.16.545083",
+  "abstract": "More than 1600 human transcription factors orchestrate the transcriptional machinery to control gene expression and cell fate. Their function is conveyed through intrinsically disordered regions (IDRs) containing activation or repression domains but lacking quantitative structural ensemble models prevents their mechanistic decoding. Here we integrate single-molecule FRET and NMR spectroscopy with molecular simulations showing that DNA binding can lead to complex changes in the IDR ensemble and accessibility. The C-terminal IDR of pioneer factor Sox2 is highly disordered but its conformational dynamics are guided by weak and dynamic charge interactions with the folded DNA binding domain. Both DNA and nucleosome binding induce major rearrangements in the IDR ensemble without affecting DNA binding affinity. Remarkably, interdomain interactions are redistributed in complex with DNA leading to variable exposure of two activation domains critical for transcription. Charged intramolecular interactions allowing for dynamic redistributions may be common in transcription factors and necessary for sensitive tuning of structural ensembles.",
+  "authors": [
+    "Bjarnason S",
+    "McIvor JA",
+    "Prestel A",
+    "Demény KS",
+    "Bullerjahn JT",
+    "Kragelund BB",
+    "Mercadante D",
+    "Heidarsson PO"
+  ],
+  "published_date": "2023-06-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.16.545083",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.16.545083.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR677565",
+    "raw_record": {
+      "id": "PPR677565",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR677565"
+        ]
+      },
+      "doi": "10.1101/2023.06.16.545083",
+      "title": "DNA binding redistributes activation domain ensemble and accessibility in pioneer factor Sox2",
+      "authorString": "Bjarnason S, McIvor JA, Prestel A, Demény KS, Bullerjahn JT, Kragelund BB, Mercadante D, Heidarsson PO.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bjarnason S",
+            "lastName": "Bjarnason",
+            "firstName": "Sveinn",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8088-6590"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Science Institute, University of Iceland, Sturlugata 7, 102 Reykjavík, Iceland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McIvor JA",
+            "lastName": "McIvor",
+            "firstName": "Jordan A.P.",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6558-994X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemical Science, University of Auckland, Auckland, New Zealand"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Prestel A",
+            "lastName": "Prestel",
+            "firstName": "Andreas",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5459-9608"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "REPIN and Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Demény KS",
+            "lastName": "Demény",
+            "firstName": "Kinga",
+            "initials": "KS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Science Institute, University of Iceland, Sturlugata 7, 102 Reykjavík, Iceland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bullerjahn JT",
+            "lastName": "Bullerjahn",
+            "firstName": "Jakob",
+            "initials": "JT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2459-219X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Straße 3, 60438, Frankfurt am Main, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kragelund BB",
+            "lastName": "Kragelund",
+            "firstName": "Birthe",
+            "initials": "BB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7454-1761"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "REPIN and Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen N, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mercadante D",
+            "lastName": "Mercadante",
+            "firstName": "Davide",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemical Science, University of Auckland, Auckland, New Zealand"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heidarsson PO",
+            "lastName": "Heidarsson",
+            "firstName": "Pétur",
+            "initials": "PO",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2027-5434"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Science Institute, University of Iceland, Sturlugata 7, 102 Reykjavík, Iceland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8088-6590"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2459-219X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5459-9608"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6558-994X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7454-1761"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2027-5434"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "More than 1600 human transcription factors orchestrate the transcriptional machinery to control gene expression and cell fate. Their function is conveyed through intrinsically disordered regions (IDRs) containing activation or repression domains but lacking quantitative structural ensemble models prevents their mechanistic decoding. Here we integrate single-molecule FRET and NMR spectroscopy with molecular simulations showing that DNA binding can lead to complex changes in the IDR ensemble and accessibility. The C-terminal IDR of pioneer factor Sox2 is highly disordered but its conformational dynamics are guided by weak and dynamic charge interactions with the folded DNA binding domain. Both DNA and nucleosome binding induce major rearrangements in the IDR ensemble without affecting DNA binding affinity. Remarkably, interdomain interactions are redistributed in complex with DNA leading to variable exposure of two activation domains critical for transcription. Charged intramolecular interactions allowing for dynamic redistributions may be common in transcription factors and necessary for sensitive tuning of structural ensembles.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101040601",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/16/2023.06.16.545083.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.16.545083"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR677565"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR677565&type=FILE&fileName=EMS177758-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38365983",
+            "reference": "Nature communications. \n    2024 Feb;15(1):1445",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS177758",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-06-19",
+      "firstPublicationDate": "2023-06-16",
+      "firstIndexDate": "2023-06-19",
+      "fullTextReceivedDate": "2023-08-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

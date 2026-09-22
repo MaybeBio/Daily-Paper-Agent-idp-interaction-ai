@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, figure legends) as provided. Supplementary figures and tables are referenced but not fully available.
+- **Assessment boundary** Scientific claims, methodological soundness, evidence consistency, and alignment with Nature-style criteria. Editorial or formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors report a hierarchical multi-timescale structural dynamics of the intrinsically disordered N-terminal transactivation domain of p53 (p53-TAD), combining high-power NMR relaxation dispersion (RD) measurements with millisecond-scale atomistic molecular dynamics (MD) simulations. They identify three tiers of dynamics: fast (ns) reorientational motions (tier 2), sub-microsecond helix formation/folding dynamics (tier 1), and slower-than-25-microsecond transient tertiary structure formation (tier 0). The authors argue that this hierarchy resembles the dynamics of folded proteins and may underpin p53's binding promiscuity.
+- **Visible evidence base** Main text figures 1-5, methods section, and referenced supplementary figures/tables (not fully available). Experimental NMR data (E-CPMG, R1ρ, TRACT, NOESY) and MD simulations (30 trajectories, 20-60 μs each) are described.
+- **Missing materials affecting confidence** Supplementary figures and tables (referenced extensively), full NMR assignment details, force field validation data, convergence analysis details, and the full Markov state model parameters. The absence of these materials limits full verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious and largely well-executed study that addresses an important gap in our understanding of IDP dynamics at timescales beyond nanoseconds. The combination of high-power NMR RD with long MD simulations is innovative and the multi-tier framework is conceptually appealing. However, several concerns regarding the quantitative interpretation of the NMR data, the validation of the MD-derived dynamics, and the strength of the claims about tier 0 dynamics need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein dynamics, NMR spectroscopy, and molecular dynamics simulations. The findings are also relevant to those studying p53 biology and the molecular basis of promiscuous protein-protein interactions. The methodological framework may interest method developers in NMR and simulation communities.
+- **Major strengths** The study addresses a significant gap in IDP dynamics by accessing timescales (100 ns to 10 μs) that are difficult to probe experimentally. The combination of NMR RD with long unbiased MD simulations is powerful and the validation strategy is thoughtful. The identification of a hierarchical dynamics framework for an IDP, analogous to folded proteins, is conceptually novel and potentially impactful. The use of Bayesian inference for uncertainty quantification is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the tier 1 dynamics observed by NMR RD at 263 K correspond to sub-microsecond helix formation dynamics, extrapolated to 66-100 ns at 298 K.
+  - **Evidence base** Figure 1F, Figure 2B, Supplementary Figures 4-5, and the Arrhenius extrapolation described in the text.
+  - **Concern** The Arrhenius extrapolation from 262-265 K to 298 K spans a large temperature range (approximately 35 K) and relies on only four data points within a narrow 3 K window. The uncertainty in the extrapolated timescale (66-100 ns) is acknowledged, but the validity of assuming Arrhenius behaviour over this range for a disordered protein with complex dynamics is not adequately justified. The Eyring estimate provides a cross-check, but both methods assume a single activated process, which may not hold for the multi-state dynamics the authors themselves describe. The comparison between MD-derived RD amplitudes and experimental ones (Figure 2B) shows good agreement for many residues, but the authors should clarify whether the MD simulations reproduce the timescales of the dynamics, not just the amplitudes, and whether the extrapolated timescales are consistent with the MD-observed transition times.
+  - **Why it matters** The central claim of the paper is the identification of a specific structural origin (helix folding) for the tier 1 dynamics. If the extrapolation is unreliable, the assignment of the observed NMR dynamics to helix formation is weakened, and the entire multi-tier framework becomes less secure.
+  - **Resolution test** Provide a more rigorous justification for the Arrhenius extrapolation, including a discussion of potential deviations from Arrhenius behaviour in disordered proteins. Ideally, perform NMR RD measurements at additional temperatures (e.g., 270 K, 280 K) to better constrain the extrapolation. Alternatively, demonstrate that the MD simulations quantitatively reproduce the temperature dependence of the observed dynamics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the tier 0 dynamics (215 μs in P27A) arise from transient tertiary structure formation, and that these structures resemble folding intermediates of folded proteins.
+  - **Evidence base** Figure 4, Figure 1C-E, and the distance fluctuation analysis described in the text.
+  - **Concern** The identification of tier 0 dynamics is based on the observation of a 215 μs timescale in the P27A mutant, which is absent in the WT. The structural interpretation of this timescale is based on MD simulations that identify long-lived tertiary structures. However, the MD simulations are 20-60 μs long, which is shorter than the 215 μs timescale. The authors acknowledge that rare and longer-lived structures may be missed, but this raises a fundamental question: can MD simulations of this length reliably identify structures that are responsible for dynamics on a 215 μs timescale? The extrapolation from MD-observed structures (persisting up to 5 μs) to a 215 μs kinetic process is a significant leap. Furthermore, the claim that these structures resemble folding intermediates is based on visual inspection and qualitative similarity, not on a quantitative comparison.
+  - **Why it matters** The tier 0 dynamics is a key novel finding of the paper. If the structural interpretation is not well-supported, the claim of a hierarchical dynamics landscape for IDPs is weakened. The connection to folding intermediates is also speculative and needs stronger evidence.
+  - **Resolution test** Provide a more quantitative analysis of the relationship between the MD-observed tertiary structures and the 215 μs timescale. For example, use the MD simulations to estimate the expected contribution of these structures to the NMR RD profile and show that they can quantitatively account for the observed 215 μs dispersion. Alternatively, perform additional experiments (e.g., relaxation dispersion at different magnetic fields) to better characterise the 215 μs process and constrain its structural origin.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the hierarchical dynamics of p53-TAD may be key to its ability to bind many different partners by folding into different structures.
+  - **Evidence base** Discussion section, Figure 6.
+  - **Concern** This claim is presented as a speculation in the discussion, which is appropriate, but it is not well-developed. The connection between the observed dynamics and binding promiscuity is plausible but not directly tested. The authors do not discuss alternative explanations for binding promiscuity, such as electrostatic interactions or conformational selection without folding. The claim would be strengthened by a more detailed discussion of how the specific timescales and structural features observed could facilitate binding to diverse partners.
+  - **Why it matters** This claim is part of the broader significance of the work. If it is not well-argued, the impact of the study on the IDP field is diminished.
+  - **Resolution test** Expand the discussion to more thoroughly consider the relationship between the observed dynamics and binding. If possible, cite or discuss experimental or computational evidence that links specific timescales of IDP dynamics to binding kinetics or thermodynamics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction are dense and assume significant familiarity with NMR relaxation dispersion and MD simulation techniques. The concept of "supra-τc dynamics" is introduced without a clear definition for a general reader.
+  - **Required correction** Briefly define "supra-τc dynamics" in the introduction and consider adding a sentence in the abstract that explains the significance of the timescale hierarchy in accessible terms.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, NMR relaxation measurements
+  - **Evidence pointer** Methods section, "NMR relaxation measurements"
+  - **Issue** The methods section describes the NMR experiments in detail but does not provide a clear statement of the number of independent samples or replicates for the NMR measurements. The error bars in Figure 1C-E are described as standard deviation, but the source of this variation (e.g., spectral noise, sample-to-sample variation) is not specified.
+  - **Required correction** Clarify the source of the error bars and state the number of replicates or the method used to estimate uncertainties.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, MD simulations
+  - **Evidence pointer** Methods section, "Molecular dynamics simulations"
+  - **Issue** The methods state that 30 independent trajectories were generated, but the total simulation time is not explicitly stated. The text mentions "milliseconds atomistic MD simulations" in the abstract, but the methods section does not clearly state the total aggregate simulation time or the length of individual trajectories.
+  - **Required correction** State the total aggregate simulation time and the length of individual trajectories explicitly in the methods section.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Figure 1B
+  - **Evidence pointer** Figure 1B
+  - **Issue** The schematic in Figure 1B is informative but may be difficult to interpret for readers not familiar with NMR RD. The relationship between the coloured tiers and the timescale axis is not immediately clear.
+  - **Required correction** Consider adding a brief explanatory note in the figure legend that clarifies the meaning of the tiers and how they relate to the NMR and MD timescales.
+- **Technical failings that need to be addressed before the case is established** The Arrhenius extrapolation (R1-M1) and the structural interpretation of tier 0 dynamics (R1-M2) are the two most critical technical issues. The former affects the assignment of tier 1 dynamics, and the latter affects the novelty and significance of the work. Both need to be addressed with additional analysis or experiments.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is original in its combination of high-power NMR RD with millisecond-scale MD simulations to probe IDP dynamics across a wide timescale range. The identification of a hierarchical dynamics framework for an IDP is novel.
+  - **Scientific importance** The findings are important for the IDP field, as they challenge the notion of a shallow, unstructured energy landscape and suggest that IDPs can exhibit complex, hierarchical dynamics. The potential link to binding promiscuity is significant but not fully established.
+  - **Interdisciplinary readership** The study will appeal to researchers in biophysics, structural biology, NMR spectroscopy, and computational chemistry. The conceptual framework may also interest cell biologists studying p53 function.
+  - **Technical soundness** The experimental and computational methods are generally sound, but the concerns about the Arrhenius extrapolation and the tier 0 structural interpretation need to be resolved. The validation against multiple experimental observables is a strength.
+  - **Readability for nonspecialists** The manuscript is well-written but assumes significant technical expertise. The abstract and introduction could be made more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study is potentially important and well-executed, but the two major concerns regarding the temperature extrapolation and the structural interpretation of tier 0 dynamics need to be convincingly addressed before the claims are fully established.
+
+## Risk / unsupported claims
+- The claim that tier 1 dynamics at 298 K occur on timescales of 66-100 ns is based on an Arrhenius extrapolation from a narrow temperature range and is not directly verified by experiments at 298 K.
+- The claim that the 215 μs dynamics in P27A arises from transient tertiary structure formation is not directly supported by the MD simulations, which are shorter than the 215 μs timescale.
+- The claim that the observed hierarchical dynamics may be key to p53's binding promiscuity is speculative and not directly tested.
+- The claim that the MD simulations are "unbiased" is not fully supported, as the starting structures were generated using a biased collapse procedure (GBSA), and the force field was selected based on best agreement with NMR data, which introduces a degree of indirect fitting.

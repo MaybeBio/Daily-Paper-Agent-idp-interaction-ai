@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37972067",
+  "title": "A peptidomimetic modulator of the Ca(V)2.2 N-type calcium channel for chronic pain.",
+  "authors": "Gomez, Kimberly; Santiago, Ulises; Nelson, Tyler S; Allen, Heather N; Calderon-Rivera, Aida; Hestehave, Sara; Rodriguez Palma, Erick J; Zhou, Yuan; Duran, Paz; Loya-Lopez, Santiago; Zhu, Elaine; Kumar, Upasana; Shields, Rory; Koseli, Eda; McKiver, Bryan; Giuvelis, Denise; Zuo, Wanhong; Inyang, Kufreobong E; Dorame, Angie; Chefdeville, Aude; Ran, Dongzhi; Perez-Miller, Samantha; Lu, Yi; Liu, Xia; Handoko; Arora, Paramjit S; Patek, Marcel; Moutal, Aubin; Khanna, May; Hu, Huijuan; Laumet, Geoffroy; King, Tamara; Wang, Jing; Damaj, M Imad; Korczeniewska, Olga A; Camacho, Carlos J; Khanna, Rajesh",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2023-11-17",
+  "window": {
+    "start": "2023-11-13",
+    "end": "2023-11-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用分子动力学和药效团筛选开发靶向CaV2.2-CRMP2互作（含无序基序）的肽模拟小分子镇痛药，虽涉及IDR介导的PPI和MD方法，但核心是药物发现而非互作机制建模，且对象为膜通道复合物，与无序蛋白相分离/凝聚体方向关联较弱。",
+  "abstract": "Transmembrane Ca(v)2.2 (N-type) voltage-gated calcium channels are genetically and pharmacologically validated, clinically relevant pain targets. Clinical block of Ca(v)2.2 (e.g., with Prialt/Ziconotide) or indirect modulation [e.g., with gabapentinoids such as Gabapentin (GBP)] mitigates chronic pain but is encumbered by side effects and abuse liability. The cytosolic auxiliary subunit collapsin response mediator protein 2 (CRMP2) targets Ca(v)2.2 to the sensory neuron membrane and regulates their function via an intrinsically disordered motif. A CRMP2-derived peptide (CBD3) uncouples the Ca(v)2.2-CRMP2 interaction to inhibit calcium influx, transmitter release, and pain. We developed and applied a molecular dynamics approach to identify the A(1)R(2) dipeptide in CBD3 as the anchoring Ca(v)2.2 motif and designed pharmacophore models to screen 27 million compounds on the open-access server ZincPharmer. Of 200 curated hits, 77 compounds were assessed using depolarization-evoked calcium influx in rat dorsal root ganglion neurons. Nine small molecules were tested electrophysiologically, while one (CBD3063) was also evaluated biochemically and behaviorally. CBD3063 uncoupled Ca(v)2.2 from CRMP2, reduced membrane Ca(v)2.2 expression and Ca(2+) currents, decreased neurotransmission, reduced fiber photometry-based calcium responses in response to mechanical stimulation, and reversed neuropathic and inflammatory pain across sexes in two different species without changes in sensory, sedative, depressive, and cognitive behaviors. CBD3063 is a selective, first-in-class, CRMP2-based peptidomimetic small molecule, which allosterically regulates Ca(v)2.2 to achieve analgesia and pain relief without negative side effect profiles. In summary, CBD3063 could potentially be a more effective alternative to GBP for pain relief.",
+  "abstract_zh": "跨膜Ca(v)2.2（N型）电压门控钙通道在遗传学和药理学上均已被验证为临床相关的疼痛靶点。临床上阻断Ca(v)2.2（例如，使用Prialt/Ziconotide）或间接调节[例如，使用加巴喷丁类药物如加巴喷丁（GBP）]可缓解慢性疼痛，但伴随副作用和滥用风险。胞质辅助亚基塌陷反应介导蛋白2（CRMP2）将Ca(v)2.2靶向感觉神经元膜，并通过一个内在无序基序调节其功能。一种源自CRMP2的肽（CBD3）解偶联Ca(v)2.2-CRMP2相互作用，以抑制钙内流、递质释放和疼痛。我们开发并应用了一种分子动力学方法，将CBD3中的A(1)R(2)二肽鉴定为锚定Ca(v)2.2的基序，并设计了药效团模型，以在开放访问服务器ZincPharmer上筛选2700万种化合物。在200个精选命中中，使用大鼠背根神经节神经元中去极化诱发的钙内流评估了77种化合物。对九种小分子进行了电生理测试，其中一种（CBD3063）还进行了生化和行为学评估。CBD3063解偶联了Ca(v)2.2与CRMP2，减少了膜Ca(v)2.2表达和Ca(2+)电流，降低了神经传递，减少了基于光纤光度法的机械刺激钙响应，并在两种不同物种的雌雄个体中逆转了神经病理性疼痛和炎性疼痛，且不改变感觉、镇静、抑郁和认知行为。CBD3063是一种选择性的、首创的、基于CRMP2的肽模拟小分子，通过变构调节Ca(v)2.2实现镇痛和疼痛缓解，且无负面副作用特征。总之，CBD3063可能成为GBP在疼痛缓解方面更有效的替代选择。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37972067/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37972067/",
+  "paper_page_path": "papers/pubmed/37972067/index.html"
+}

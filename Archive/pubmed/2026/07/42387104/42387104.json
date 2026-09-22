@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "42387104",
+    "doi": "10.1038/s41380-026-03730-0",
+    "title": "Cross-ancestry pleiotropic analysis of imaging-derived phenotypes enhances risk stratification of depression."
+  },
+  "content": {
+    "abstract": "Depression arises from dynamic interactions among genetic predisposition, brain alterations, and environmental stressors. Despite genome-wide association studies (GWAS) identifying risk loci, the mechanisms translating genetic variation into brain changes remain elusive. Imaging-derived phenotypes (IDPs) were the intermediate traits linking genetic architecture to neural circuit dysfunction. Here, we collected large-scale GWAS summary statistics of depression and IDPs across European (EUR; N = 1,293,933 and 33,224, respectively) and East Asian (EAS; N = 82,874 and 7058, respectively). In the multiple-trait analysis between depression and IDPs, we clarified their genetic correlation through MTAG, identified the pleiotropic single nucleotide variants (SNVs) and genes with functional insight, and established the causal relationship through Mendelian randomization via TwoSampleMR in EUR and EAS ancestry, respectively. To discern the heterogeneous genetic drivers, we selected independent SNVs from the multiple-trait analyses to perform unsupervised clustering. Six clusters delineated distinct biological pathways for metabolic regulation, neurotransmitter dynamics, and neuroimmune interactions, with tissue/cell type specificity through MAGMA. Finally, we dissected relationships between depression and polygenic risk score, IDPs, and modifiable lifestyle factors, and introduced a machine learning framework to refine risk stratification (N = 16,166). Our study advanced the understanding of the multiscale etiology of depression while providing dynamic depression risk stratification for precision prevention.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Feng, Yu",
+        "Guo, Xiaonan",
+        "Huang, Peng",
+        "Jia, Ningning",
+        "Hu, Shaohua",
+        "Yang, Sheng"
+      ],
+      "short_names": [
+        "Feng Y",
+        "Guo X",
+        "Huang P",
+        "Jia N",
+        "Hu S",
+        "Yang S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0801-6133",
+        "ORCID: 0000-0003-0570-670X",
+        "ORCID: 0000-0003-3657-8771"
+      ],
+      "affiliations": [
+        "Department of Psychiatry, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Department of Psychiatry, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China.",
+        "Department of Epidemiology, Centre for Global Health, School of Public Health, National Vaccine Innovation Platform, Key Laboratory of Public Health Safety and Emergency Prevention and Control Technology of Higher Education Institutions in Jiangsu Province, Nanjing Medical University, Nanjing, Jiangsu, 211166, China.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China.",
+        "Department of Psychiatry, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China. dorhushaohua@zju.edu.cn.",
+        "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China. dorhushaohua@zju.edu.cn.",
+        "Nanhu Brain-computer Interface Institute, Hangzhou, Zhejiang, China. dorhushaohua@zju.edu.cn.",
+        "The Zhejiang Key Laboratory of Precision Psychiatry, Hangzhou, 310003, China. dorhushaohua@zju.edu.cn.",
+        "The State Key Lab of Brain-Machine Intelligence, Zhejiang University, Hangzhou, China. dorhushaohua@zju.edu.cn.",
+        "MOE Frontier Science Center for Brain Science and Brain-Machine Integration, Zhejiang University School of Medicine, Hangzhou, 310003, China. dorhushaohua@zju.edu.cn.",
+        "Brain Research Institute of Zhejiang University, Hangzhou, 310003, China. dorhushaohua@zju.edu.cn.",
+        "Zhejiang Engineering Center for Mathematical Mental Health, Hangzhou, 310003, China. dorhushaohua@zju.edu.cn.",
+        "Division of Pediatric Pulmonary Medicine, UPMC Children's Hospital of Pittsburgh, University of Pittsburgh, Pittsburgh, PA, 15224, USA. shy229@pitt.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Feng, Yu",
+        "short_name": "Feng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Psychiatry, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Xiaonan",
+        "short_name": "Guo X",
+        "identifiers": [
+          "0000-0002-0801-6133"
+        ],
+        "affiliations": [
+          "Department of Psychiatry, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Peng",
+        "short_name": "Huang P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Epidemiology, Centre for Global Health, School of Public Health, National Vaccine Innovation Platform, Key Laboratory of Public Health Safety and Emergency Prevention and Control Technology of Higher Education Institutions in Jiangsu Province, Nanjing Medical University, Nanjing, Jiangsu, 211166, China."
+        ]
+      },
+      {
+        "full_name": "Jia, Ningning",
+        "short_name": "Jia N",
+        "identifiers": [],
+        "affiliations": [
+          "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Shaohua",
+        "short_name": "Hu S",
+        "identifiers": [
+          "0000-0003-0570-670X"
+        ],
+        "affiliations": [
+          "Department of Psychiatry, the First Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, Zhejiang, China. dorhushaohua@zju.edu.cn.",
+          "Liangzhu Laboratory, Zhejiang University Medical Center, Hangzhou, China. dorhushaohua@zju.edu.cn.",
+          "Nanhu Brain-computer Interface Institute, Hangzhou, Zhejiang, China. dorhushaohua@zju.edu.cn.",
+          "The Zhejiang Key Laboratory of Precision Psychiatry, Hangzhou, 310003, China. dorhushaohua@zju.edu.cn.",
+          "The State Key Lab of Brain-Machine Intelligence, Zhejiang University, Hangzhou, China. dorhushaohua@zju.edu.cn.",
+          "MOE Frontier Science Center for Brain Science and Brain-Machine Integration, Zhejiang University School of Medicine, Hangzhou, 310003, China. dorhushaohua@zju.edu.cn.",
+          "Brain Research Institute of Zhejiang University, Hangzhou, 310003, China. dorhushaohua@zju.edu.cn.",
+          "Zhejiang Engineering Center for Mathematical Mental Health, Hangzhou, 310003, China. dorhushaohua@zju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Sheng",
+        "short_name": "Yang S",
+        "identifiers": [
+          "0000-0003-3657-8771"
+        ],
+        "affiliations": [
+          "Division of Pediatric Pulmonary Medicine, UPMC Children's Hospital of Pittsburgh, University of Pittsburgh, Pittsburgh, PA, 15224, USA. shy229@pitt.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular psychiatry"
+    ],
+    "journal_abbrev": [
+      "Mol Psychiatry"
+    ],
+    "pub_date": "2026 Jul 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/02 00:34",
+    "fetched_at": "2026-09-18 04:37:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41844800",
+      "41768366",
+      "41160873",
+      "40983175",
+      "40653480",
+      "40410536",
+      "40157913",
+      "39972055",
+      "39966400",
+      "39801616",
+      "39731856",
+      "39380491",
+      "39323965",
+      "39281139",
+      "39223129",
+      "39055398",
+      "38913026",
+      "38811844",
+      "38551411",
+      "38374256",
+      "38177345",
+      "38168930",
+      "38030049",
+      "38016951",
+      "37845353",
+      "37649561",
+      "37464041",
+      "37443254",
+      "37365406",
+      "37173523",
+      "37036286",
+      "36717542",
+      "36653562",
+      "36608683",
+      "36529312",
+      "35907915",
+      "35692384",
+      "35643187",
+      "35296807",
+      "35288712",
+      "34560273",
+      "34140656",
+      "34006833",
+      "33875891",
+      "33753719",
+      "33536417",
+      "33522091",
+      "33201880",
+      "33096046",
+      "33004510",
+      "32665545",
+      "32341526",
+      "32330416",
+      "32247527",
+      "32099098",
+      "32001524",
+      "31249060",
+      "30804565",
+      "30718901",
+      "30545854",
+      "30096299",
+      "30038396",
+      "29942086",
+      "29844566",
+      "29785013",
+      "29508560",
+      "29476595",
+      "29292387",
+      "29227469",
+      "29220677",
+      "29184056",
+      "29022597",
+      "28846088",
+      "28418491",
+      "27806704",
+      "27552965",
+      "27479909",
+      "27019110",
+      "26854917",
+      "26432245",
+      "25885710",
+      "25642630",
+      "25500260",
+      "24830394",
+      "24210630",
+      "23850106",
+      "23439482",
+      "23332826",
+      "22426310",
+      "21145043",
+      "17944926",
+      "17701901",
+      "17574079"
+    ],
+    "similar": [
+      "42387104",
+      "41445618",
+      "41366697",
+      "41419940",
+      "36694225",
+      "40971882",
+      "42006785",
+      "40630117",
+      "40605082",
+      "37156939",
+      "40826382",
+      "41978582",
+      "40419156",
+      "42304163",
+      "41256372",
+      "35879402",
+      "37398408",
+      "34380480",
+      "35274129",
+      "34895209",
+      "41830484",
+      "41704843",
+      "40902826",
+      "41689074",
+      "37777856",
+      "38937676",
+      "41588686",
+      "35472084",
+      "40751201",
+      "40081564",
+      "42350845",
+      "38627641",
+      "30704512",
+      "36329495",
+      "41132350",
+      "41232685",
+      "39620209",
+      "41050057",
+      "41733899",
+      "36510323",
+      "40659072",
+      "40917930",
+      "41863595",
+      "42185775",
+      "36042491",
+      "41250111",
+      "40949012",
+      "39620219",
+      "37579999",
+      "36753304",
+      "40447981",
+      "39423935",
+      "42133267",
+      "40405979",
+      "42308238",
+      "38454550",
+      "42152146",
+      "40122258",
+      "41248841",
+      "39696186",
+      "38753886",
+      "39394142",
+      "41699549",
+      "38825161",
+      "38482593",
+      "41845536",
+      "42298576",
+      "38200577",
+      "41616909",
+      "41956029",
+      "40262193",
+      "38904036",
+      "39986329",
+      "31701892",
+      "37693474",
+      "41074179",
+      "40175520",
+      "40313291",
+      "40350475",
+      "32600345",
+      "41406505",
+      "42278322",
+      "40369625",
+      "34273149",
+      "40983146",
+      "40653482",
+      "36154123",
+      "38457145",
+      "40603539",
+      "40677695",
+      "41466414",
+      "36538063",
+      "37286992",
+      "39710002",
+      "41277170",
+      "42209116",
+      "42141940",
+      "41211298",
+      "40901574",
+      "39059088"
+    ],
+    "review": [
+      "42387104",
+      "36694225",
+      "40971882",
+      "35879402",
+      "34380480",
+      "35274129",
+      "41689074",
+      "37777856",
+      "38937676",
+      "35472084",
+      "40081564",
+      "36510323",
+      "40949012",
+      "42152146",
+      "39986329",
+      "31701892",
+      "41406505",
+      "41466414",
+      "40901574"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41380-026-03730-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

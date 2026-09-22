@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that solid-state NMR (ssNMR) measurements on rapidly frozen solutions of the low-complexity domain of FUS protein (FUS-LC) show nearly identical local conformational distributions in homogeneous and phase-separated states, with estimated differences in β strand-like conformational populations no larger than 5–10%.
+- **Visible evidence base** Abstract text only; no experimental details, spectra, or simulation methods are provided
+- **Missing materials affecting confidence** Full methods, NMR spectra, simulation parameters, sample preparation details, freezing protocol validation, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a clear and potentially important negative result regarding conformational differences between homogeneous and phase-separated states of FUS-LC. The experimental approach, using rapid freezing followed by ssNMR with dynamic nuclear polarization, is innovative and well-suited to the question. However, the abstract alone provides insufficient detail to evaluate the robustness of the conclusions, particularly regarding the sensitivity of the NMR measurements and the validity of the freezing protocol. The claim that conformational differences are no larger than 5–10% rests on simulations that are not described in sufficient detail to assess their reliability.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, intrinsically disordered proteins, and the molecular mechanisms of biomolecular condensates. The results are also relevant to the NMR community, particularly those using solid-state NMR and dynamic nuclear polarization to study disordered proteins. The finding that phase separation does not substantially alter local conformations has implications for models of condensate formation and function.
+- **Major strengths** The experimental design is thoughtful, comparing homogeneous and phase-separated states under carefully controlled temperature conditions. The use of rapid freezing to preserve solution-state conformations is a sophisticated approach. The inclusion of multiple labeling schemes (uniform, residue-specific, and ligation-based) strengthens the generality of the findings. The quantitative estimate of conformational differences, even if preliminary, provides a useful benchmark for future studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "local conformational distributions are nearly the same in the homogeneous and phase-separated solutions" and that "changes in conformational distributions are no larger than 5–10%"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not provide details on how the 5–10% upper bound was derived from simulations. The sensitivity of two-dimensional ssNMR crosspeaks to conformational changes depends critically on the specific residues probed, the spectral resolution, and the simulation model used. Without these details, it is impossible to assess whether the stated bound is reliable or overly optimistic.
+  - **Why it matters** The quantitative claim is the central conclusion of the study. If the sensitivity analysis is flawed or based on unrealistic assumptions, the conclusion that phase separation does not alter conformations could be incorrect, potentially misleading the field.
+  - **Resolution test** Provide full simulation methods, including the conformational ensemble model, the NMR chemical shift prediction approach, the range of β strand populations explored, and the criteria for defining "detectable" changes. Show that the simulations reproduce experimental spectra for known conformational states and that the sensitivity is sufficient to detect changes smaller than 5% if they existed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that freezing on submillisecond timescales preserves the solution-state conformational distributions
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that solutions were "frozen on submillisecond timescales after equilibration," but no evidence is provided that this freezing protocol indeed captures the equilibrium conformational distribution without introducing artifacts. Freezing can induce changes in protein conformation, particularly for disordered proteins, and the phase-separated state may be especially susceptible to reorganization during freezing.
+  - **Why it matters** If freezing alters conformations differently in the two states, the observed similarity could be an artifact of the freezing process rather than a property of the solution states. This would invalidate the central conclusion.
+  - **Resolution test** Provide validation of the freezing protocol, such as control experiments showing that spectra are independent of freezing rate or that the frozen samples retain the expected phase-separated morphology. Alternatively, show that the NMR spectra of frozen samples are consistent with known solution-state conformations from other techniques.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The claim that "crosspeak patterns in two-dimensional ssNMR spectra... were found to be nearly identical for the two states"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not report any quantitative measure of spectral similarity. "Nearly identical" is a qualitative description that could encompass a range of differences. Without a defined metric (e.g., crosspeak intensity ratios, chemical shift differences, or correlation coefficients), the reader cannot evaluate the strength of the evidence.
+  - **Why it matters** The conclusion rests on the assertion of spectral similarity. A quantitative comparison would allow readers to assess whether the observed differences are within experimental noise and would strengthen the claim.
+  - **Resolution test** Provide quantitative measures of spectral similarity, such as root-mean-square differences in crosspeak positions and intensities, with appropriate error estimates. Show that these differences are within the expected experimental variability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the protein concentration in the homogeneous and phase-separated states, nor the temperature at which measurements were performed relative to TLLPS.
+  - **Required correction** Provide the relevant concentrations and temperatures to allow readers to contextualize the findings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "simulations of the sensitivity of two-dimensional ssNMR crosspeaks" but does not describe the simulation method or the structural model used.
+  - **Required correction** Briefly describe the simulation approach in the abstract or refer to the methods section for details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "the much greater protein concentrations and more abundant intermolecular interactions within phase-separated, protein-rich 'droplets'" might be expected to alter conformations, but does not discuss why the observed similarity is mechanistically plausible.
+  - **Required correction** Add a brief discussion of possible explanations for the observed similarity, such as the dominance of local sequence effects over intermolecular interactions in determining conformations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (sensitivity analysis not described), R1-M2 (freezing protocol not validated)
+- **Assessment against Nature-style criteria** Originality: The study addresses a timely and important question in the phase separation field, and the experimental approach is novel. Scientific importance: The finding that phase separation does not substantially alter local conformations has implications for understanding condensate biology, though the significance depends on the robustness of the quantitative claim. Interdisciplinary readership: The topic is of interest to biophysicists, cell biologists, and NMR spectroscopists, but the abstract may be too technical for a broad audience. Technical soundness: The approach is sound in principle, but the abstract lacks sufficient detail to fully assess the technical execution. Readability for nonspecialists: The abstract is reasonably clear but assumes familiarity with NMR and phase separation concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central question is important and the approach is innovative, but the abstract alone does not provide enough evidence to fully establish the quantitative claim. The authors should address the concerns regarding the sensitivity analysis and freezing protocol validation in the full manuscript.
+
+## Risk / unsupported claims
+- The quantitative claim that conformational differences are no larger than 5–10% is not supported by the abstract alone, as the simulation details are not provided.
+- The claim that freezing preserves solution-state conformations is not supported by evidence presented in the abstract.
+- The assertion that crosspeak patterns are "nearly identical" is not quantitatively supported.

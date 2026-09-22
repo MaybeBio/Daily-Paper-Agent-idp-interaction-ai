@@ -1,0 +1,241 @@
+{
+  "identity": {
+    "pmid": "42056694",
+    "doi": "10.1007/978-1-0716-4836-0_10",
+    "title": "Proteome-wide Ab Initio Structural Analysis of Viral Evolution."
+  },
+  "content": {
+    "abstract": "The rapid advancement of sequencing technologies has outpaced experimental protein structure determination. AI-driven tools like AlphaFold now enable the prediction of near-experimental-quality atomic structures. However, certain protein regions-such as intrinsically disordered segments or those with transient or context-dependent conformations-may not be fully captured by experimental methods like NMR or cryo-EM. Here, we use AlphaFold to model a reference structure and bridge gaps in experimental models within a comparative framework for assessing structural deviations in sequences yet to be experimentally resolved. To achieve an accurate depiction of changes in protein structure, these regions are analyzed for their flexibility and biochemical properties. This approach provides a systematic strategy for refining structural interpretations of proteins in evolving viral populations, aiding in functional annotation, and improving our understanding of interactions and evolution of viral proteins.",
+    "keywords": [
+      "Bioinformatics",
+      "Epidemiology",
+      "Mutation",
+      "Proteome",
+      "Seasonality"
+    ],
+    "mesh_terms": [
+      "*Proteome/chemistry/genetics",
+      "*Evolution, Molecular",
+      "*Viral Proteins/chemistry/genetics",
+      "*Computational Biology/methods",
+      "Protein Conformation",
+      "Models, Molecular",
+      "*Viruses/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ali, Muhammad Asif",
+        "Caetano-Anolles, Gustavo"
+      ],
+      "short_names": [
+        "Ali MA",
+        "Caetano-Anolles G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL, 61801, USA.",
+        "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL, 61801, USA. gca@illinois.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ali, Muhammad Asif",
+        "short_name": "Ali MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL, 61801, USA."
+        ]
+      },
+      {
+        "full_name": "Caetano-Anollés, Gustavo",
+        "short_name": "Caetano-Anollés G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Crop Sciences, University of Illinois at Urbana-Champaign, Urbana, IL, 61801, USA. gca@illinois.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/30 00:31",
+    "fetched_at": "2026-09-18 02:54:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39339835",
+      "38534404",
+      "37069849",
+      "36038728",
+      "35637307",
+      "34265844",
+      "33149541",
+      "32734663",
+      "32075877",
+      "29860432",
+      "28382917",
+      "19304878",
+      "16940322",
+      "15980437",
+      "15264254",
+      "12824330"
+    ],
+    "similar": [
+      "42056694",
+      "39414627",
+      "40121710",
+      "34418423",
+      "41326937",
+      "39843714",
+      "23912807",
+      "33866372",
+      "40973394",
+      "29080786",
+      "26699268",
+      "38177398",
+      "18831774",
+      "33001599",
+      "26578815",
+      "40288078",
+      "28387819",
+      "40958060",
+      "33719450",
+      "32473054",
+      "30443749",
+      "39313455",
+      "41222234",
+      "23056474",
+      "27662088",
+      "38297118",
+      "42056693",
+      "42310771",
+      "39714180",
+      "22416277",
+      "36358962",
+      "34293799",
+      "20887265",
+      "28934129",
+      "29769048",
+      "27867910",
+      "40233800",
+      "40985030",
+      "38329168",
+      "32712910",
+      "40398752",
+      "41950502",
+      "42378263",
+      "41209584",
+      "31739058",
+      "37850517",
+      "21729349",
+      "25534081",
+      "24564893",
+      "39125995",
+      "11502002",
+      "39591473",
+      "26105824",
+      "40815964",
+      "20450483",
+      "34960638",
+      "29044810",
+      "40221640",
+      "41032608",
+      "24752801",
+      "33102591",
+      "42150060",
+      "39444187",
+      "41218076",
+      "36008992",
+      "41378882",
+      "41534519",
+      "15757512",
+      "40852847",
+      "27062995",
+      "41509633",
+      "32599863",
+      "31820049",
+      "19067583",
+      "25260253",
+      "25057855",
+      "27198619",
+      "17490476",
+      "12547207",
+      "39205298",
+      "39824781",
+      "33780620",
+      "35073311",
+      "39952928",
+      "31264965",
+      "35655760",
+      "40937679",
+      "34265844",
+      "40828855",
+      "32471829",
+      "41935050",
+      "42400844",
+      "41652159",
+      "31207240",
+      "39941016",
+      "40460619",
+      "30299652",
+      "24021383",
+      "23341186",
+      "35769913"
+    ],
+    "review": [
+      "42056694",
+      "40121710",
+      "34418423",
+      "41326937",
+      "40973394",
+      "38177398",
+      "40288078",
+      "39313455",
+      "41222234",
+      "42310771",
+      "20887265",
+      "40233800",
+      "40398752",
+      "41209584",
+      "39125995",
+      "26105824",
+      "20450483",
+      "34960638",
+      "39444187",
+      "39205298",
+      "39824781",
+      "35655760",
+      "42400844"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-4836-0_10",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusions, and figure/table legends.
+- **Assessment boundary** Scientific content, technical soundness, data interpretation, and support for claims as presented in the provided manuscript. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors characterize the structural and biophysical properties of the capsid homology domains of human Arc, refine the peptide ligand binding motif for the N-lobe, report new crystal structures of human Arc N-lobe complexes and the apo C-lobe, and propose functional implications for Arc in postsynaptic density remodeling.
+- **Visible evidence base** ITC binding data (Table 2, Fig. 1), X-ray crystal structures (Table 3, Fig. 2), MD simulations (Fig. 3), structure-based sequence analysis and network analysis (Fig. 4), structural homology searches (Table 4, Fig. 5), and a speculative model of Arc-GKAP-PSD95 ternary complex (Fig. 6B).
+- **Missing materials affecting confidence** Coordinates and structure factors for deposited PDB entries (6TNO, 6TNQ, 6TQ0, 6TN7) were not provided for independent validation. Electron density maps for the key C–H…π interaction analysis were not shown. MD simulation parameters, convergence criteria, and trajectory analysis details were not fully described. No raw ITC thermograms were shown.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a solid biophysical characterization of human Arc capsid homology domains, with new structural data that refine the peptide binding motif and clarify differences between the N- and C-lobes. The crystallographic work is of good quality, and the ITC data are internally consistent. However, several claims extend beyond the direct evidence, particularly regarding the functional significance of the identified interactions and the proposed role of Arc in PSD phase separation. The structural interpretation of the C–H…π interactions would benefit from more rigorous validation. The manuscript is technically sound in its core experimental work but would be strengthened by tempering speculative conclusions and providing additional supporting data for key claims.
+- **Who would be interested in the results, and why** Researchers studying Arc biology, synaptic plasticity, and postsynaptic density organization would be the primary audience. The structural data on human Arc and the refined peptide binding motif will also be of interest to those studying capsid-like protein domains and their evolution from retroviral Gag proteins. The biophysical approach and the identification of conserved C–H…π interactions may appeal to structural biologists and protein engineers working on peptide recognition modules.
+- **Major strengths** The manuscript provides new high-resolution crystal structures of human Arc N-lobe complexes, which represent an advance over previous lower-resolution rat Arc structures. The ITC data systematically probe the peptide binding specificity and include a phosphorylation state comparison. The identification of two Arc binding sites on GKAP is a novel finding with potential functional relevance. The structural homology search revealing similarity to acyl carrier proteins is an interesting observation. The authors are appropriately cautious in distinguishing between experimentally supported findings and hypotheses in several sections.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural interpretation
+  - **Claim pointer** The authors claim that "three conserved C–H…π interactions at the binding cavity" explain the sequence specificity of short linear motif binding by Arc.
+  - **Evidence pointer** Fig. 2D, 2E; Table 3; Results section "Structures of hArc-NL bound to peptide ligands"
+  - **Concern** The C–H…π interactions are identified from crystal structures, but the criteria used to define these interactions are not stated. No distances or angles are provided to support the assignment of these weak interactions. The electron density for the relevant side chains and peptide atoms is not shown, making it difficult to assess whether the geometric parameters are reliable. Additionally, the claim that these interactions "explain" sequence specificity is an overstatement, as the authors do not perform mutational analysis of the Arc side chains involved (Tyr227, Phe220, Phe271) to test their contribution to binding.
+  - **Why it matters** The central structural claim of the paper rests on the identification of these weak interactions. Without clear geometric criteria and supporting density, the reader cannot evaluate whether these are genuine interactions or merely close contacts. The explanatory claim about sequence specificity requires functional validation that is not provided.
+  - **Resolution test** Provide a table of the relevant distances and angles for the proposed C–H…π interactions in all three complexes. Show electron density (2Fo-Fc and Fo-Fc maps) for the key interacting residues and peptide atoms. Ideally, include mutational analysis of Tyr227, Phe220, and Phe271 to demonstrate their contribution to peptide binding affinity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for functional claims
+  - **Claim pointer** The authors hypothesize that "Arc may affect protein-protein interactions and phase separation at the postsynaptic density, affecting protein turnover and re-modelling of the synapse."
+  - **Evidence pointer** Discussion section "Arc and the PSD protein network"; Fig. 6
+  - **Concern** The functional hypothesis regarding PSD phase separation is presented with limited direct evidence. The authors show that Arc can bind two GKAP repeats and construct a speculative ternary complex model, but no experiments test whether Arc affects GKAP-PSD95 interactions, PSD assembly, or phase separation. The connection between the structural data and the proposed functional role is largely speculative.
+  - **Why it matters** While speculative hypotheses can be valuable, the framing in the abstract and conclusions gives this hypothesis prominence that may mislead readers into thinking it is experimentally supported. The distinction between data and hypothesis should be clearer.
+  - **Resolution test** Either temper the language to clearly mark this as speculation, or add experimental data (e.g., pull-down assays testing whether Arc competes with PSD95 for GKAP binding, or in vitro phase separation assays with Arc and GKAP).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data completeness for ITC claims
+  - **Claim pointer** The authors state that "phosphorylation of the stargazin peptide did not affect binding affinity but caused changes in thermodynamic parameters."
+  - **Evidence pointer** Table 2; Fig. 3D; Results section "Phosphorylation of stargazin"
+  - **Concern** The ITC data for pStg(wt) and pStg(phos) show similar Kd values (33.6 vs 23.8 μM), but the enthalpy and entropy values differ substantially. The authors attribute this to enthalpy-entropy compensation. However, the large ΔH change (-13.1 to -66.5 kcal/mol) with only a modest Kd change is unusual and may indicate that the one-site binding model is not adequately describing the interaction. No raw thermograms are shown, and the stoichiometry (N values) is not reported.
+  - **Why it matters** The thermodynamic interpretation is a key part of the phosphorylation analysis. If the binding model is incorrect or the data quality is insufficient, the thermodynamic parameters may not be reliable, undermining the claim about phosphorylation effects.
+  - **Resolution test** Show representative raw ITC thermograms and fitted curves. Report stoichiometry (N) values for all titrations. Consider whether a more complex binding model is needed to describe the pStg(phos) data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of nomenclature
+  - **Affected element** Peptide position numbering
+  - **Evidence pointer** Results section "Peptide ligand binding by the human Arc lobe domains"
+  - **Issue** The authors state "we number the conserved aromatic residue as P(0)" but then refer to positions P(-2), P(-3), and P(+1), P(+3) without a clear diagram or table showing the full numbering scheme for each peptide.
+  - **Required correction** Add a schematic or table showing the position numbering for each peptide relative to the P(0) aromatic residue.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** ITC data
+  - **Evidence pointer** Table 2
+  - **Issue** The ITC data are reported as mean ± SEM, but the number of replicates (n) is not stated for each measurement.
+  - **Required correction** Add the number of independent titrations performed for each peptide-protein combination.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Fig. 1C
+  - **Evidence pointer** Fig. 1C
+  - **Issue** The electron density for the "Pro instead of Arg" in structure 4x3i is shown at a scale that makes it difficult to assess the quality of the density.
+  - **Required correction** Provide a zoomed view with the density contoured at multiple levels and the refined model shown with clear atom colors.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** MD simulations
+  - **Evidence pointer** Methods section "Molecular dynamics simulations"
+  - **Issue** The methods for MD simulations are described briefly, but key parameters such as the number of simulation replicates, the equilibration protocol, and the criteria for determining convergence are not fully specified.
+  - **Required correction** Provide additional details on simulation setup, including the number of independent runs, the length of production runs, and how convergence was assessed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation of structural homology
+  - **Affected element** Acyl carrier protein similarity
+  - **Evidence pointer** Results section "Structure of hArc-CL and folding properties of the lobes"; Table 4
+  - **Issue** The authors note structural similarity to acyl carrier proteins but do not discuss whether this has any functional implications or is merely a consequence of the common four-helix bundle fold.
+  - **Required correction** Add a brief discussion of whether the ACP similarity is likely to be functionally relevant or simply reflects convergent evolution of a stable fold.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (C–H…π interaction validation) is the primary technical concern that must be addressed. The lack of geometric criteria and supporting electron density for these interactions undermines the central structural claim. R1-M3 (ITC data completeness) also needs attention to ensure the thermodynamic interpretation is reliable.
+- **Assessment against Nature-style criteria** Originality: Moderate. The work provides incremental advances over previous rat Arc structures and refines the known peptide binding motif, but the overall fold and binding mode were already established. Scientific importance: Moderate. The findings are relevant to the Arc field and may inform future studies on Arc function, but the broader significance beyond this specific system is limited. Interdisciplinary readership: Limited. The work is primarily of interest to structural biologists and neuroscientists studying synaptic proteins. Technical soundness: Generally good for the crystallographic and ITC work, but the C–H…π interaction analysis lacks rigorous validation. Readability for nonspecialists: The manuscript is clearly written and the figures are generally well-organized, though some sections assume familiarity with structural biology concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core experimental work appears sound and the new structural data on human Arc are valuable. However, the C–H…π interaction analysis needs to be more rigorously supported, and the ITC data for the phosphorylated peptide need additional validation. The speculative functional claims should be clearly separated from experimentally supported findings.
+
+## Risk / unsupported claims
+- The claim that C–H…π interactions "explain" sequence specificity is not supported by functional data.
+- The hypothesis regarding Arc's role in PSD phase separation is speculative and not directly tested.
+- The statement that "Arc could directly affect the interaction between PSD95 and GKAP" is presented as a possibility but is not experimentally tested.
+- The claim that the extra glycine in GKAP-R5 "provides flexibility needed to accommodate this altered motif" is speculative and not directly tested.
+- The suggestion that "a putative, currently unknown factor removing the bound α0 helix from this site could induce binding of external ligands" is entirely speculative.
+- The functional relevance of the Leu/Phe difference at position 333 between human and rat Arc-CL is stated to be unknown, which is appropriately cautious, but the structural interpretation of the α0 helix tilt difference is not experimentally validated.

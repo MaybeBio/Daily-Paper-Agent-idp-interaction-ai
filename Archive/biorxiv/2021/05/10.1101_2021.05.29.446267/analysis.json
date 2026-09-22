@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.05.29.446267",
+  "title": "Amyloidogenic proteins in the SARS-CoV and SARS-CoV-2 proteomes",
+  "authors": "Bhardwaj T; Gadhave K; Kapuganti SK; Kumar P; Brotzakis ZF; Saumya KU; Nayak N; Kumar A; Garg N; Vendruscolo M; Giri R",
+  "journal": "bioRxiv",
+  "published_date": "2021-05-30",
+  "window": {
+    "start": "2021-05-24",
+    "end": "2021-05-30"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究SARS-CoV-2蛋白的聚集倾向及体外毒性，涉及淀粉样聚集机制，但对象非IDP/相分离，且无PPI或AI/物理模拟方法，仅序列预测与实验，对无序蛋白互作机制建模启发有限。",
+  "abstract": "The phenomenon of protein aggregation is associated with a wide range of human diseases. Our knowledge on the aggregation behaviour of viral proteins, however, is still rather limited. Here, we investigated this behaviour in the the SARS-CoV and SARS-CoV-2 proteomes. An initial analysis using a panel of sequence-based predictors suggested the presence of multiple aggregation-prone regions in these proteomes, and revealed an enhanced aggregation propensity in some SARS-CoV-2 proteins. We then studied the in vitro aggregation of predicted aggregation-prone SARS-CoV-2 proteins, including the signal sequence peptide and fusion peptide 1 of the spike protein, a peptide from the NSP6 protein (NSP6-p), the ORF10 protein, and the NSP11 protein. Our results show that these peptides and proteins form aggregates via a nucleation-dependent mechanism. Moreover, we demonstrated that the aggregates of NSP11 are toxic to mammalian cell cultures. These findings provide evidence about the aggregation of proteins in the SARS-CoV-2 proteome. <h4>Significance</h4> The aggregation of proteins is linked with human disease in a variety of ways. In the case of viral infections, one could expect that the aberrant aggregation of viral proteins may damage the host cells, and also that viral particles may trigger the misfolding and aggregation of host proteins, resulting in damage to the host organism. Here we investigate the aggregation propensity of SARS-CoV-2 proteins and show that many of them can form aggregates that are potentially cytotoxic. In perspective, these results suggest that a better understanding of the effects of viruses on the human protein homeostasis system could help future therapeutic efforts.",
+  "abstract_zh": "蛋白质聚集现象与多种人类疾病相关。然而，我们对病毒蛋白质聚集行为的了解仍然相当有限。在此，我们研究了SARS-CoV和SARS-CoV-2蛋白质组中的这一行为。使用一组基于序列的预测器进行的初步分析表明，这些蛋白质组中存在多个易于聚集的区域，并揭示了某些SARS-CoV-2蛋白质具有增强的聚集倾向。随后，我们研究了预测的易于聚集的SARS-CoV-2蛋白质的体外聚集，包括刺突蛋白的信号序列肽和融合肽1、NSP6蛋白的一个肽段（NSP6-p）、ORF10蛋白以及NSP11蛋白。我们的结果表明，这些肽段和蛋白质通过依赖成核的机制形成聚集体。此外，我们证明了NSP11的聚集体对哺乳动物细胞培养具有毒性。这些发现为SARS-CoV-2蛋白质组中蛋白质的聚集提供了证据。\n\n<h4>意义</h4> 蛋白质聚集以多种方式与人类疾病相关联。在病毒感染的情况下，可以预期病毒蛋白质的异常聚集可能损害宿主细胞，同时病毒颗粒也可能触发宿主蛋白质的错误折叠和聚集，导致对宿主生物体的损害。在此，我们研究了SARS-CoV-2蛋白质的聚集倾向，并表明其中许多蛋白质可以形成具有潜在细胞毒性的聚集体。展望未来，这些结果表明，更好地理解病毒对人类蛋白质稳态系统的影响可能有助于未来的治疗努力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.05.29.446267",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.05.29.446267",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.05.29.446267/index.html"
+}

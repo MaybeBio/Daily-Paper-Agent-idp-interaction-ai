@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use atomistic simulations and deep unsupervised learning to map temperature-dependent conformational free energy landscapes of 20-base homopolymeric RNAs (poly(U), poly(G), poly(C), poly(A)). They report multiple metastable states whose populations differ by base chemistry, and they claim that the thermodynamic stability order (poly(G) > poly(A) > poly(C) > poly(U)) mirrors experimentally observed RNA condensate-forming propensity. They conclude that single-chain conformational dynamics contains sufficient information to predict and quantify condensate-forming affinities for homopolymeric RNAs.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, validation metrics, or experimental comparisons are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, convergence criteria, deep learning architecture and training details, free energy estimation methods, error bars, experimental data sources, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially impactful hypothesis linking single-chain RNA conformational dynamics to phase separation propensity. The use of atomistic simulations combined with deep unsupervised learning to map energy landscapes is a modern and promising approach. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the methods, the robustness of the free energy landscapes, or the strength of the claimed correlation with experimental condensate data. The central conclusion that single-chain dynamics is sufficient for predicting condensate affinities is bold and requires substantial validation that is not visible in the abstract.
+- **Who would be interested in the results, and why** Researchers in RNA biophysics, phase separation and biomolecular condensates, computational biophysics, and machine learning applied to molecular systems. The work could inform experimentalists studying RNA condensates and theorists developing predictive models for sequence-dependent phase behavior.
+- **Major strengths** The hypothesis is clearly stated and mechanistically motivated. The choice of homopolymeric RNAs provides a clean systematic series to isolate base chemistry effects. The combination of atomistic simulation with deep unsupervised learning is a contemporary and potentially powerful methodological approach. The link between single-chain stability and condensate propensity is a conceptually appealing bridge between molecular and mesoscale behavior.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that deep unsupervised learning and atomistic simulations map temperature-dependent conformational free energy landscapes for 20-base homopolymeric RNAs.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on the simulation methodology, including force field, sampling approach, simulation length, temperature range, or convergence criteria. Similarly, the deep learning architecture, training data, dimensionality reduction method, and validation against known RNA conformations are not described. Without these details, the reliability of the reported free energy landscapes cannot be assessed.
+  - **Why it matters** Free energy landscapes from atomistic simulations are highly sensitive to force field accuracy and sampling completeness. Deep unsupervised learning can introduce artifacts if not properly validated. If the landscapes are not converged or the method is not robust, all downstream claims about metastable states and stability ordering are compromised.
+  - **Resolution test** Provide full methodological details in the manuscript, including force field parameters, simulation lengths, convergence metrics (e.g., block averaging, replica exchange if used), and validation of the deep learning approach against known structural features or independent sampling methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The authors claim that experimentally observed temperature-driven shifts in metastable state populations align with experiments on RNA phase transitions, and that the stability order poly(G) > poly(A) > poly(C) > poly(U) mirrors condensate propensity.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states an alignment with experiments but provides no specific experimental data, quantitative comparisons, or statistical measures of agreement. The claimed mirroring of condensate propensity is presented as a qualitative correlation without supporting data or error analysis.
+  - **Why it matters** The central conclusion that single-chain dynamics predicts condensate affinity rests entirely on this claimed correlation. Without explicit experimental references, quantitative metrics (e.g., correlation coefficients, free energy differences), and uncertainty quantification, the claim is unsupported and cannot be evaluated.
+  - **Resolution test** Include a detailed comparison with published experimental phase separation data, provide quantitative measures of agreement (e.g., correlation between computed stability differences and experimental transition temperatures or critical concentrations), and report uncertainties in both simulation and experimental values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope of conclusion
+  - **Claim pointer** The authors conclude that for homopolymeric RNA sequences, single-chain conformational dynamics contains sufficient information for predicting and quantifying condensate forming affinities.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The study is limited to four homopolymeric sequences of 20 bases. The conclusion that single-chain dynamics is sufficient for predicting condensate affinity is a strong generalization from a very narrow sequence space. Homopolymers lack sequence patterning, which is known to strongly influence phase separation in proteins and likely in RNAs. The abstract does not acknowledge this limitation or discuss how the conclusion might extend to more complex sequences.
+  - **Why it matters** If the conclusion is overstated, it could mislead readers into applying this approach to diverse RNA sequences where it may fail. The scientific claim must be appropriately scoped to the evidence.
+  - **Resolution test** Revise the conclusion to explicitly state the limitation to homopolymeric sequences and discuss the conditions under which single-chain dynamics might or might not be predictive for patterned or longer RNAs. Alternatively, provide additional simulations for a broader sequence set to support the general claim.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "temeprature -dependent" contains a typo (missing 'r' in temperature and inconsistent spacing).
+  - **Required correction** Correct to "temperature-dependent".
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methodological transparency
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the simulation software, the deep learning framework, or the dimensionality reduction technique used. This limits reproducibility even at the abstract level.
+  - **Required correction** Add brief mentions of the simulation package, force field, and deep learning method in the abstract or ensure these are prominently detailed in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "energy landscapes"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "energy landscapes" is used without specifying whether these are free energy surfaces projected onto specific reaction coordinates or full-dimensional landscapes. This ambiguity affects interpretation.
+  - **Required correction** Clarify the dimensionality reduction approach and the collective variables used to define the landscapes.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation and deep learning methodology not described), R1-M2 (experimental correlation not quantified), R1-M3 (conclusion overgeneralized from limited sequence space)
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of linking single-chain conformational dynamics to condensate propensity is conceptually novel and could be of broad interest. However, the abstract does not demonstrate how this differs from existing computational studies of RNA phase separation.
+  - Scientific importance: If validated, the work could provide a computationally tractable predictor for RNA condensate behavior, which is of high importance in the growing field of biomolecular condensates. The importance is currently conditional on the strength of the evidence.
+  - Interdisciplinary readership: The topic bridges RNA biophysics, computational chemistry, and phase separation biology, which would appeal to a broad audience. The abstract is written accessibly but lacks technical depth for specialists.
+  - Technical soundness: Not assessable from the abstract due to missing methodological details. This is the primary weakness.
+  - Readability for nonspecialists: The abstract is generally clear and well-structured, though terms like "deep unsupervised learning" and "free energy landscapes" could benefit from brief contextual explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is intriguing and the approach is promising, but the abstract alone does not provide sufficient methodological detail or quantitative validation to support the central claims. A full manuscript with rigorous methods and data would be needed to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim that single-chain conformational dynamics contains sufficient information for predicting and quantifying condensate-forming affinities is unsupported from the abstract alone, as it is based on only four homopolymeric sequences and lacks quantitative experimental comparison.
+- The claimed alignment between simulation-derived stability ordering and experimental phase transition data is unquantified and cannot be evaluated without specific references and metrics.
+- The existence and characterization of "a plethora of metastable states" is asserted without any structural or statistical detail.
+- The methodological claim of using "deep unsupervised learning" to map energy landscapes is unverifiable without architecture, training, and validation details.

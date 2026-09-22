@@ -1,0 +1,246 @@
+{
+  "identity": {
+    "pmid": "42550103",
+    "doi": "10.1063/5.0334014",
+    "title": "Potential structure induced effects of the hairpin motif in RNA to form the phase separated droplet like associate in different solution condition."
+  },
+  "content": {
+    "abstract": "Reversible associations of RNAs among themselves, or with RNA binding proteins through the process of phase separation, are found to be important in many different cellular contexts, including cellular responses to stress, gene regulation, development, and disease. Short RNA repeat sequences, which are mostly linked with many repeat expansion neurodegenerative diseases, are found to undergo phase separation and yield protein-free biomolecular condensates in vitro and in cells. However, the physicochemical principles governing phase separation of RNAs considering both sequence and structural aspects, especially for short RNAs, remain elusive. It is intriguing, as well as challenging, to characterize the RNA phase behavior at a submolecular resolution. Based on atomistic enhanced sampling simulations, here we report potential dynamic structural effects in the mutual association properties of a tetra loop containing 14-mer hairpin RNA. We show that the folded and unfolded conformations of the hairpin fragment lead to different energetic barriers for the formation of an associated pair. Unfolded conformation leads to the formation of gel like energetically stable associated phases spontaneously; the folded hairpin motif is found to yield droplet like associated phases accompanying by cations in solution. Overall, our findings illustrate that dynamic association/dissociation is energetically more favorable for folded RNA hairpins, and the presence of additional salt in solution assists the formation of dense droplet like associated phases, while ionic concentration plays a critical role in the formation and stability of the droplet like associated phase. These observations open avenues for exploring structure-based phase separation mechanisms of RNAs in the context of RNA mediated functional biomolecular condensate formation within cells and designing RNA based novel biomaterials.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phase Separation",
+      "*RNA/chemistry",
+      "Nucleic Acid Conformation",
+      "Solutions",
+      "Inverted Repeat Sequences",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mondal, Manas",
+        "Li, Maodong",
+        "Gao, Yi Qin"
+      ],
+      "short_names": [
+        "Mondal M",
+        "Li M",
+        "Gao YQ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3919-539X",
+        "ORCID: 0000-0001-5637-5862",
+        "ORCID: 0000-0002-4309-9376"
+      ],
+      "affiliations": [
+        "School of Science, Westlake University, 600 Dunyu Rd., Xihu District, 310030 Hangzhou, China.",
+        "Shenzhen Bay Laboratory, Institute of Systems and Physical Biology, 518107 Shenzhen, China.",
+        "School of Science, Westlake University, 600 Dunyu Rd., Xihu District, 310030 Hangzhou, China.",
+        "Beijing National Laboratory for Molecular Sciences, College of Chemistry and Molecular Engineering, Biomedical Pioneering Innovation Center, Peking University, 100871 Beijing, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mondal, Manas",
+        "short_name": "Mondal M",
+        "identifiers": [
+          "0000-0002-3919-539X"
+        ],
+        "affiliations": [
+          "School of Science, Westlake University, 600 Dunyu Rd., Xihu District, 310030 Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Li, Maodong",
+        "short_name": "Li M",
+        "identifiers": [
+          "0000-0001-5637-5862"
+        ],
+        "affiliations": [
+          "Shenzhen Bay Laboratory, Institute of Systems and Physical Biology, 518107 Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yi Qin",
+        "short_name": "Gao YQ",
+        "identifiers": [
+          "0000-0002-4309-9376"
+        ],
+        "affiliations": [
+          "School of Science, Westlake University, 600 Dunyu Rd., Xihu District, 310030 Hangzhou, China.",
+          "Beijing National Laboratory for Molecular Sciences, College of Chemistry and Molecular Engineering, Biomedical Pioneering Innovation Center, Peking University, 100871 Beijing, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2026 Aug 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/04 12:46",
+    "fetched_at": "2026-09-18 05:26:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42550103",
+      "42475469",
+      "39807887",
+      "20159159",
+      "39605385",
+      "29297914",
+      "39377398",
+      "39937084",
+      "23912807",
+      "33081049",
+      "41187075",
+      "25453221",
+      "40203038",
+      "41129218",
+      "36883003",
+      "42223083",
+      "40286852",
+      "39896463",
+      "39505326",
+      "33307683",
+      "41933903",
+      "39432826",
+      "25697574",
+      "20006951",
+      "40291420",
+      "32949490",
+      "34762868",
+      "39118324",
+      "37720552",
+      "35727989",
+      "39366355",
+      "39386696",
+      "41794289",
+      "18987004",
+      "40773731",
+      "34706977",
+      "23933331",
+      "39210596",
+      "35501484",
+      "16855293",
+      "38571310",
+      "42102067",
+      "34179096",
+      "37276412",
+      "40603603",
+      "11955005",
+      "40438940",
+      "28315749",
+      "34904892",
+      "38175843",
+      "38260590",
+      "42383738",
+      "22517075",
+      "39456210",
+      "39938739",
+      "40781776",
+      "39002937",
+      "13129354",
+      "17660316",
+      "36980167",
+      "38831645",
+      "41278651",
+      "1696688",
+      "25805858",
+      "41480717",
+      "32800925",
+      "41917466",
+      "39706711",
+      "39460625",
+      "37986217",
+      "39520300",
+      "38029395",
+      "37668016",
+      "39826709",
+      "34772786",
+      "21641320",
+      "40985078",
+      "38245749",
+      "40102453",
+      "39589885",
+      "28488797",
+      "38419328",
+      "36282946",
+      "39556435",
+      "41511470",
+      "38547652",
+      "29742400",
+      "41624473",
+      "22750989",
+      "34957114",
+      "39150724",
+      "33586616",
+      "42339573",
+      "31323433",
+      "41979049",
+      "1692594",
+      "19482035",
+      "41714601",
+      "28965269",
+      "33982350"
+    ],
+    "review": [
+      "42550103",
+      "40286852",
+      "37720552",
+      "39366355",
+      "34706977",
+      "28315749",
+      "38175843",
+      "39456210",
+      "39002937",
+      "36980167",
+      "41480717",
+      "32800925",
+      "39706711",
+      "38029395",
+      "34772786",
+      "38245749",
+      "38419328",
+      "38547652",
+      "41624473",
+      "34957114",
+      "39150724",
+      "31323433"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0334014",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

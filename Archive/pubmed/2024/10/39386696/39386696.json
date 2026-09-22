@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "39386696",
+    "doi": "10.1101/2024.09.24.614800",
+    "title": "Nucleoprotein phase-separation affinities revealed via atomistic simulations of short peptide and RNA fragments."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation of proteins and nucleic acids into condensate phases is a versatile mechanism for ensuring compartmentalization of cellular biochemistry. RNA molecules play critical roles in these condensates, particularly in transcriptional regulation and stress responses, exhibiting a wide range of thermodynamic and dynamic behaviors. However, deciphering the molecular grammar that governs the stability and dynamics of protein-RNA condensates remains challenging due to the multicomponent and heterogeneous nature of these biomolecular mixtures. In this study, we employ atomistic simulations of twenty distinct mixtures containing minimal RNA and peptide fragments to dissect the phase-separating affinities of all twenty amino acids in the presence of RNA. Our findings elucidate chemically specific interactions, hydration profiles, and ionic effects that synergistically promote or suppress protein-RNA phase separation. We map a ternary phase diagram of interactions, identifying four distinct groups of residues that promote, maintain, suppress, or disrupt protein-RNA clusters.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramachandran, Vysakh",
+        "Brown, William",
+        "Potoyan, Davit A"
+      ],
+      "short_names": [
+        "Ramachandran V",
+        "Brown W",
+        "Potoyan DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5860-1699"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Ramachandran, Vysakh",
+        "short_name": "Ramachandran V",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Brown, William",
+        "short_name": "Brown W",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [
+          "0000-0002-5860-1699"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Sep 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/10 10:51",
+    "fetched_at": "2026-09-22 01:47:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39386696",
+      "39432826",
+      "38163950",
+      "36883003",
+      "38949285",
+      "36993212",
+      "36181270",
+      "35727989",
+      "33982350",
+      "38416758",
+      "38466837",
+      "38804888",
+      "32936641",
+      "33672806",
+      "34966005",
+      "37205474",
+      "39342654",
+      "33302617",
+      "32482873",
+      "38526948",
+      "32571937",
+      "31199001",
+      "37772963",
+      "33571491",
+      "36227474",
+      "38349628",
+      "34772789",
+      "33558506",
+      "38571310",
+      "39178343",
+      "35536005",
+      "36243979",
+      "37684240",
+      "35108264",
+      "37668016",
+      "38181073",
+      "33629837",
+      "39227569",
+      "37961424",
+      "37461689",
+      "35364105",
+      "37252985",
+      "36595668",
+      "37546778",
+      "34573116",
+      "35325654",
+      "23912807",
+      "36028355",
+      "35293386",
+      "36227470",
+      "32405004",
+      "37464880",
+      "37720552",
+      "34241502",
+      "37735186",
+      "39377398",
+      "34235141",
+      "34439914",
+      "38252962",
+      "38419328",
+      "36106018",
+      "38643237",
+      "29509422",
+      "32696384",
+      "36711465",
+      "36798397",
+      "34129784",
+      "31437398",
+      "33144560",
+      "39042834",
+      "35832192",
+      "34772786",
+      "38175843",
+      "33307683",
+      "33376791",
+      "29632271",
+      "33864415",
+      "37348448",
+      "35378855",
+      "37549257",
+      "31604601",
+      "37470705",
+      "35709363",
+      "34821361",
+      "35364104",
+      "36640113",
+      "37294104",
+      "38824391",
+      "38446881",
+      "38832749",
+      "31017394",
+      "34762868",
+      "37131735",
+      "33087563",
+      "39044475",
+      "38808958",
+      "37386790",
+      "32632317",
+      "39071308",
+      "35895272"
+    ],
+    "review": [
+      "39386696",
+      "34966005",
+      "37772963",
+      "34772789",
+      "39178343",
+      "36243979",
+      "34573116",
+      "36028355",
+      "37464880",
+      "37720552",
+      "34235141",
+      "34439914",
+      "38419328",
+      "36106018",
+      "29509422",
+      "34129784",
+      "35832192",
+      "34772786",
+      "38175843",
+      "29632271",
+      "37348448",
+      "31604601",
+      "34821361",
+      "38808958"
+    ],
+    "pmc": [
+      "11463516"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39386696/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.09.24.614800",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

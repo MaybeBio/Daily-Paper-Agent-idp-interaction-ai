@@ -1,0 +1,475 @@
+{
+  "identity": {
+    "pmid": "41372631",
+    "doi": "10.1038/s42003-025-09236-9",
+    "title": "Revealing site-specific molecular features mediating contacts of heterochromatin protein 1 alpha (HP1alpha) and the interactions with chromatin and DNA in LLPS environments."
+  },
+  "content": {
+    "abstract": "Serving as critical chromatin-binding effector proteins, the heterochromatin protein 1 (HP1) family possesses distinct biological functions, of which the mechanisms are unclear. Liquid-liquid phase separation (LLPS) of the HP1 family and their interaction with nucleosomes are crucial mechanisms governing chromatin activities. Here, we first investigate phosphorylated HP1alpha (pHP1alpha) LLPS by NMR spectroscopy, confocal microscopy, and molecular dynamics simulations. This reveals that the phosphorylated N-terminal extension (NTE) and hinge region are key determinants of pHP1alpha LLPS. We next explore the interactions between pHP1alpha and telomeric nucleosome arrays and a relatively more open Widom 601 nucleosome array under LLPS conditions. The results suggest that the interaction of pHP1alpha and nucleosomes is driven by the self-association of pHP1alpha mediated by intermolecular interaction between the NTE and hinge regions and the specific binding of the pHP1alpha chromo domain (CD) to the N-terminal histone tail of H3K9me3 in the nucleosomes. In addition, experiments elucidate that DNA can mediate the pHP1alpha LLPS by competing with the NTE to interact with hinge regions. Together, our findings provide atomic-level insights into the determinants of the molecular features driving the self-association of the pHP1alpha and the interactions with DNA and nucleosomes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromosomal Proteins, Non-Histone/metabolism/chemistry/genetics",
+      "Chromobox Protein Homolog 5",
+      "*DNA/metabolism/chemistry",
+      "Nucleosomes/metabolism",
+      "Humans",
+      "*Chromatin/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Phosphorylation",
+      "Liquid-Liquid Extraction",
+      "Histones/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhai, Ziwei",
+        "Soman, Aghil",
+        "Kuang, Jinglei",
+        "Guo, Jiayi",
+        "Chen, Yinglu",
+        "Zhao, Lei",
+        "Prasanna, Chinmayi",
+        "Putri, Dhira Anindya",
+        "Glukhov, Grigory S",
+        "Chng, Choon-Peng",
+        "Huang, Changjin",
+        "Nordenskiold, Lars",
+        "Xue, Kai",
+        "Shi, Xiangyan"
+      ],
+      "short_names": [
+        "Zhai Z",
+        "Soman A",
+        "Kuang J",
+        "Guo J",
+        "Chen Y",
+        "Zhao L",
+        "Prasanna C",
+        "Putri DA",
+        "Glukhov GS",
+        "Chng CP",
+        "Huang C",
+        "Nordenskiold L",
+        "Xue K",
+        "Shi X"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-6454-1539",
+        "ORCID: 0000-0002-2219-9781",
+        "ORCID: 0000-0002-1941-1200",
+        "ORCID: 0000-0002-3681-209X",
+        "ORCID: 0000-0002-3784-5889"
+      ],
+      "affiliations": [
+        "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China.",
+        "Department of Biology, Lomonosov Moscow State University, Moscow, Russia.",
+        "School of Biological Sciences, Nanyang Technological University, Singapore, Singapore.",
+        "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China.",
+        "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China.",
+        "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China.",
+        "Department of Biology, Lomonosov Moscow State University, Moscow, Russia.",
+        "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China.",
+        "School of Biological Sciences, Nanyang Technological University, Singapore, Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, Singapore, Singapore.",
+        "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China.",
+        "Department of Biology, Lomonosov Moscow State University, Moscow, Russia.",
+        "School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore, Singapore.",
+        "School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore, Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, Singapore, Singapore.",
+        "NTU Centre of High Field NMR Spectroscopy and Imaging, School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore, Singapore.",
+        "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China. xyshi@smbu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhai, Ziwei",
+        "short_name": "Zhai Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China.",
+          "Department of Biology, Lomonosov Moscow State University, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Soman, Aghil",
+        "short_name": "Soman A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Kuang, Jinglei",
+        "short_name": "Kuang J",
+        "identifiers": [
+          "0009-0009-6454-1539"
+        ],
+        "affiliations": [
+          "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jiayi",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yinglu",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China.",
+          "Department of Biology, Lomonosov Moscow State University, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lei",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China."
+        ]
+      },
+      {
+        "full_name": "Prasanna, Chinmayi",
+        "short_name": "Prasanna C",
+        "identifiers": [
+          "0000-0002-2219-9781"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Putri, Dhira Anindya",
+        "short_name": "Putri DA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Glukhov, Grigory S",
+        "short_name": "Glukhov GS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China.",
+          "Department of Biology, Lomonosov Moscow State University, Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Chng, Choon-Peng",
+        "short_name": "Chng CP",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Huang, Changjin",
+        "short_name": "Huang C",
+        "identifiers": [
+          "0000-0002-1941-1200"
+        ],
+        "affiliations": [
+          "School of Mechanical and Aerospace Engineering, Nanyang Technological University, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Nordenskiöld, Lars",
+        "short_name": "Nordenskiöld L",
+        "identifiers": [
+          "0000-0002-3681-209X"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Xue, Kai",
+        "short_name": "Xue K",
+        "identifiers": [],
+        "affiliations": [
+          "NTU Centre of High Field NMR Spectroscopy and Imaging, School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore, Singapore."
+        ]
+      },
+      {
+        "full_name": "Shi, Xiangyan",
+        "short_name": "Shi X",
+        "identifiers": [
+          "0000-0002-3784-5889"
+        ],
+        "affiliations": [
+          "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province, China. xyshi@smbu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2025 Dec 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/11 01:22",
+    "fetched_at": "2026-09-17 22:50:42"
+  },
+  "links": {
+    "cites": [
+      "42465301",
+      "42388815",
+      "41904596"
+    ],
+    "refs": [
+      "41309605",
+      "40138713",
+      "40070663",
+      "39387162",
+      "39293192",
+      "39192031",
+      "39099839",
+      "38804888",
+      "38561336",
+      "38547652",
+      "38048471",
+      "37943892",
+      "37870432",
+      "37355718",
+      "37094140",
+      "36537242",
+      "36450893",
+      "36443315",
+      "36231107",
+      "36104563",
+      "35803926",
+      "35610973",
+      "35537448",
+      "35524560",
+      "35156529",
+      "35042897",
+      "34144468",
+      "34001913",
+      "33856458",
+      "33836078",
+      "33661100",
+      "33545530",
+      "33539881",
+      "33326747",
+      "33128005",
+      "32111972",
+      "32101700",
+      "31952807",
+      "31866201",
+      "31810135",
+      "31618757",
+      "31543422",
+      "31543265",
+      "31437398",
+      "30845353",
+      "30392928",
+      "30301810",
+      "29976815",
+      "29905032",
+      "29685391",
+      "29503181",
+      "29336876",
+      "29166597",
+      "28886332",
+      "28636604",
+      "28636597",
+      "27090491",
+      "26934956",
+      "26631602",
+      "26094643",
+      "26084584",
+      "25790265",
+      "25505092",
+      "25296254",
+      "24555990",
+      "23793104",
+      "23589625",
+      "23407358",
+      "22815475",
+      "22493481",
+      "21472955",
+      "21321607",
+      "21245376",
+      "20337713",
+      "19548092",
+      "19043073",
+      "18438399",
+      "18351591",
+      "18329871",
+      "18037899",
+      "17522673",
+      "17363977",
+      "16531993",
+      "16452506",
+      "16061184",
+      "15899859",
+      "15815974",
+      "15071554",
+      "14870657",
+      "12560554",
+      "11305786",
+      "10747027",
+      "8744570"
+    ],
+    "similar": [
+      "41372631",
+      "40711461",
+      "40138713",
+      "36537242",
+      "39383876",
+      "29685391",
+      "39846510",
+      "25332400",
+      "28636604",
+      "23142645",
+      "24415761",
+      "39193905",
+      "30007360",
+      "29336876",
+      "34001913",
+      "22815475",
+      "33660589",
+      "29339721",
+      "12805230",
+      "30590679",
+      "40152110",
+      "10882726",
+      "31952807",
+      "37870432",
+      "38429335",
+      "28180290",
+      "41091213",
+      "33460684",
+      "15592864",
+      "38048471",
+      "25588111",
+      "30845353",
+      "37116579",
+      "11336697",
+      "41385327",
+      "38895997",
+      "26319017",
+      "41272271",
+      "31618757",
+      "26562627",
+      "38592759",
+      "31866201",
+      "25563825",
+      "24825911",
+      "21245376",
+      "41498760",
+      "40792470",
+      "38664966",
+      "33661100",
+      "33539878",
+      "39596203",
+      "28985346",
+      "36231107",
+      "27090491",
+      "28942089",
+      "21211724",
+      "39387162",
+      "30181605",
+      "12930828",
+      "37988476",
+      "26750377",
+      "33888707",
+      "25122771",
+      "33667509",
+      "20011120",
+      "30514760",
+      "39192031",
+      "21666677",
+      "23071745",
+      "40776446",
+      "28973435",
+      "35447032",
+      "18438399",
+      "22768949",
+      "35728598",
+      "16261261",
+      "29467217",
+      "39122718",
+      "40029962",
+      "40450002",
+      "17309838",
+      "33309853",
+      "26084584",
+      "39984731",
+      "32017651",
+      "17142268",
+      "31543422",
+      "38995818",
+      "21130300",
+      "17172865",
+      "28475873",
+      "19783980",
+      "22205726",
+      "25043036",
+      "18599480",
+      "23485968",
+      "28059589",
+      "40047512",
+      "9576905",
+      "35387992"
+    ],
+    "review": [
+      "41372631",
+      "41091213",
+      "33460684",
+      "25588111",
+      "24825911",
+      "33539878",
+      "16261261",
+      "33309853"
+    ],
+    "pmc": [
+      "12696067"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-025-09236-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41372631/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

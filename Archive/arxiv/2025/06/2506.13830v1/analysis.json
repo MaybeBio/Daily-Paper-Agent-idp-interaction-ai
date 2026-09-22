@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2506.13830v1",
+  "title": "Seq2Bind Webserver for Decoding Binding Hotspots directly from Sequences using Fine-Tuned Protein Language Models",
+  "authors": "Xiang Ma; Supantha Dey; Vaishnavey SR; Casey Zelinski; Qi Li; Ratul Chowdhury",
+  "journal": "",
+  "published_date": "2025-06-16",
+  "window": {
+    "start": "2025-06-16",
+    "end": "2025-06-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用微调蛋白语言模型直接从序列预测结合亲和力与关键结合残基，无需结构，可处理无序蛋白，但未深入无序蛋白互作机制建模，方法可迁移启发。",
+  "abstract": "Decoding protein-protein interactions (PPIs) at the residue level is crucial for understanding cellular mechanisms and developing targeted therapeutics. We present Seq2Bind Webserver, a computational framework that leverages fine-tuned protein language models (PLMs) to determine binding affinity between proteins and identify critical binding residues directly from sequences, eliminating the structural requirements that limit most affinity prediction tools. We fine-tuned four architectures including ProtBERT, ProtT5, ESM2, and BiLSTM on the SKEMPI 2.0 dataset containing 5,387 protein pairs with experimental binding affinities. Through systematic alanine mutagenesis on each residue for 14 therapeutically relevant protein complexes, we evaluated each model's ability to identify interface residues. Performance was assessed using N-factor metrics, where N-factor=3 evaluates whether true residues appear within 3n top predictions for n interface residues. ESM2 achieved 49.5% accuracy at N-factor=3, with both ESM2 (37.2%) and ProtBERT (35.1%) outperforming structural docking method HADDOCK3 (32.1%) at N-factor=2. Our sequence-based approach enables rapid screening (minutes versus hours for docking), handles disordered proteins, and provides comparable accuracy, making Seq2Bind a valuable prior to steer blind docking protocols to identify putative binding residues from each protein for therapeutic targets. Seq2Bind Webserver is accessible at https://agrivax.onrender.com under StructF suite.",
+  "abstract_zh": "在残基水平上解码蛋白质-蛋白质相互作用（PPIs）对于理解细胞机制和开发靶向治疗至关重要。我们提出了Seq2Bind Webserver，这是一个计算框架，利用微调的蛋白质语言模型（PLMs）直接从序列中确定蛋白质之间的结合亲和力并识别关键结合残基，消除了限制大多数亲和力预测工具的结构需求。我们在包含5,387个具有实验结合亲和力的蛋白质对的SKEMPI 2.0数据集上微调了四种架构，包括ProtBERT、ProtT5、ESM2和BiLSTM。通过对14个治疗相关蛋白质复合物中每个残基进行系统性丙氨酸突变扫描，我们评估了每个模型识别界面残基的能力。性能使用N因子指标评估，其中N因子=3评估真实残基是否出现在n个界面残基的前3n个预测中。ESM2在N因子=3时达到49.5%的准确率，且ESM2（37.2%）和ProtBERT（35.1%）在N因子=2时均优于结构对接方法HADDOCK3（32.1%）。我们的基于序列的方法能够实现快速筛选（几分钟对比对接的几小时），处理无序蛋白质，并提供相当的准确率，使Seq2Bind成为引导盲对接协议以从每个蛋白质中识别治疗靶点推定结合残基的有价值先验工具。Seq2Bind Webserver可在https://agrivax.onrender.com的StructF套件下访问。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2506.13830v1",
+  "source_url": "https://arxiv.org/abs/2506.13830v1",
+  "paper_page_path": "papers/arxiv/2506.13830v1/index.html"
+}

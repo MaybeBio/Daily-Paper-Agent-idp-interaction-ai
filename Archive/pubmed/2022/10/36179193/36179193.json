@@ -1,0 +1,216 @@
+{
+  "identity": {
+    "pmid": "36179193",
+    "doi": "10.1103/PhysRevLett.129.128102",
+    "title": "Affinity and Valence Impact the Extent and Symmetry of Phase Separation of Multivalent Proteins."
+  },
+  "content": {
+    "abstract": "Biomolecular self-assembly spatially segregates proteins with a limited number of binding sites (valence) into condensates that coexist with a dilute phase. We develop a many-body lattice model for a three-component system of proteins with fixed valence in a solvent. We compare the predictions of the model to experimental phase diagrams that we measure in vivo, which allows us to vary specifically a binding site's affinity and valency. We find that the extent of phase separation varies exponentially with affinity and increases with valency. Valency alone determines the symmetry of the phase diagram.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Proteins/chemistry",
+      "Solvents"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nandi, Saroj Kumar",
+        "Osterle, Daniel",
+        "Heidenreich, Meta",
+        "Levy, Emmanuel D",
+        "Safran, Samuel A"
+      ],
+      "short_names": [
+        "Nandi SK",
+        "Osterle D",
+        "Heidenreich M",
+        "Levy ED",
+        "Safran SA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Tata Institute of Fundamental Research, Hyderabad 500046, India.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nandi, Saroj Kumar",
+        "short_name": "Nandi SK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel.",
+          "Tata Institute of Fundamental Research, Hyderabad 500046, India."
+        ]
+      },
+      {
+        "full_name": "Österle, Daniel",
+        "short_name": "Österle D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Heidenreich, Meta",
+        "short_name": "Heidenreich M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Levy, Emmanuel D",
+        "short_name": "Levy ED",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      },
+      {
+        "full_name": "Safran, Samuel A",
+        "short_name": "Safran SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot 7610001, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical review letters"
+    ],
+    "journal_abbrev": [
+      "Phys Rev Lett"
+    ],
+    "pub_date": "2022 Sep 16",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/01 06:00",
+    "fetched_at": "2026-09-20 15:24:24"
+  },
+  "links": {
+    "cites": [
+      "42230638",
+      "41909827",
+      "41511470",
+      "41240313",
+      "40521644",
+      "40240649",
+      "39803489",
+      "38356260",
+      "37398035",
+      "36725942",
+      "36400992",
+      "35724929",
+      "35673323",
+      "34866377",
+      "34748548",
+      "34135122",
+      "33670826",
+      "33558506"
+    ],
+    "refs": [],
+    "similar": [
+      "36179193",
+      "31634364",
+      "36004748",
+      "36550026",
+      "33571491",
+      "33704061",
+      "32800925",
+      "1376344",
+      "31604601",
+      "31199001",
+      "32931293",
+      "34664044",
+      "33890467",
+      "33395293",
+      "33496264",
+      "33087563",
+      "25748539",
+      "33119461",
+      "17637972",
+      "29509422",
+      "23320756",
+      "17902656",
+      "22975923",
+      "38328089",
+      "22398450",
+      "33640380",
+      "34624295",
+      "35696872",
+      "29091028",
+      "31845799",
+      "31606941",
+      "26764619",
+      "32484171",
+      "34241502",
+      "9836588",
+      "35597639",
+      "32405004",
+      "11018910",
+      "34636323",
+      "8877164",
+      "34821361",
+      "31043738",
+      "35537448",
+      "32571937",
+      "19199617",
+      "25901321",
+      "31622094",
+      "29258725",
+      "30846599",
+      "19852477",
+      "17827120",
+      "33982350",
+      "29474056",
+      "35667130",
+      "31906602",
+      "8290605",
+      "31222556",
+      "30500534",
+      "19045282",
+      "21787007",
+      "28318252",
+      "29511089",
+      "9756644",
+      "29128837"
+    ],
+    "review": [
+      "36179193",
+      "32800925",
+      "31604601",
+      "29509422",
+      "35696872",
+      "31606941",
+      "34821361"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://link.aps.org/abstract/PRL/v129/p128102",
+        "provider": "American Physical Society",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

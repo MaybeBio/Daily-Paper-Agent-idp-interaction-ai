@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36641409",
+  "title": "Phase separation and dynamical arrest of protein solutions dominated by short-range attractions.",
+  "authors": "Hansen, Jan; Moll, Carolyn J; Lopez Flores, Leticia; Castaneda-Priego, Ramon; Medina-Noyola, Magdaleno; Egelhaaf, Stefan U; Platten, Florian",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2023-01-15",
+  "window": {
+    "start": "2023-01-09",
+    "end": "2023-01-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过实验和理论模拟研究蛋白质溶液中的相分离与动力学停滞，对象为折叠蛋白溶菌酶而非IDP，但短程吸引驱动的LLPS机制建模对无序蛋白凝聚体研究有方法学启发。",
+  "abstract": "The interplay of liquid-liquid phase separation (LLPS) and dynamical arrest can lead to the formation of gels and glasses, which is relevant for such diverse fields as condensed matter physics, materials science, food engineering, and the pharmaceutical industry. In this context, protein solutions exhibit remarkable equilibrium and non-equilibrium behaviors. In the regime where attractive and repulsive forces compete, it has been demonstrated, for example, that the location of the dynamical arrest line seems to be independent of ionic strength, so that the arrest lines at different ionic screening lengths overlap, in contrast to the LLPS coexistence curves, which strongly depend on the salt concentration. In this work, we show that the same phenomenology can also be observed when the electrostatic repulsions are largely screened, and the range and strength of the attractions are varied. In particular, using lysozyme in brine as a model system, the metastable gas-liquid binodal and the dynamical arrest line as well as the second virial coefficient have been determined for various solution conditions by cloud-point measurements, optical microscopy, centrifugation experiments, and light scattering. With the aim of understanding this new experimental phenomenology, we apply the non-equilibrium self-consistent generalized Langevin equation theory to a simple model system with only excluded volume plus short-range attractions, to study the dependence of the predicted arrest lines on the range of the attractive interaction. The theoretical predictions find a good qualitative agreement with experiments when the range of the attraction is not too small compared with the size of the protein.",
+  "abstract_zh": "液-液相分离（LLPS）与动力学阻滞的相互作用可导致凝胶和玻璃的形成，这与凝聚态物理、材料科学、食品工程和制药工业等众多领域相关。在此背景下，蛋白质溶液展现出显著的平衡和非平衡行为。在吸引力与排斥力相互竞争的区间，例如，已证明动力学阻滞线的位置似乎不依赖于离子强度，因此不同离子屏蔽长度下的阻滞线相互重叠，这与强烈依赖盐浓度的LLPS共存曲线形成对比。在本工作中，我们表明当静电排斥被大幅屏蔽，且吸引力的范围和强度发生变化时，也能观察到相同的现象。具体而言，使用盐水中的溶菌酶作为模型系统，通过浊点测量、光学显微镜、离心实验和光散射，确定了多种溶液条件下的亚稳气-液双节线、动力学阻滞线以及第二维里系数。为理解这一新的实验现象，我们将非平衡自洽广义朗之万方程理论应用于仅包含排除体积加短程吸引力的简单模型系统，以研究预测的阻滞线对吸引相互作用范围的依赖性。当吸引力的范围相对于蛋白质尺寸不太小时，理论预测与实验在定性上取得了良好的一致性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36641409/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36641409/",
+  "paper_page_path": "papers/pubmed/36641409/index.html"
+}

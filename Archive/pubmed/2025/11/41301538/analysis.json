@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41301538",
+  "title": "Structural and Functional Characterization of LIMCH1 and Its Agmatinase-like Region: A Case of Catalysis in a Highly Disordered Protein.",
+  "authors": "Reyes, Maria-Belen; Fuentes, Allison; Bustamante, Diego; Retamal, Fernando; Lillo, Ignacia; Villegas, Cristian; Carrasco, Juan-Pablo; Pereira-Silva, Martin; Gatica, Marcell; Roman, Juan; Figueroa, Maximiliano; Neira, Yamil; Martinez-Oyanedel, Jose; Castro-Fernandez, Victor; Uribe, Elena",
+  "journal": "Biomolecules",
+  "published_date": "2025-11-27",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文表征了高度无序蛋白LIMCH1/ALP的结构与酶活性，虽涉及无序蛋白但聚焦催化而非PPI，且方法以实验为主、AI仅提及AlphaFold建模失败，对互作机制建模启发有限。",
+  "abstract": "Agmatine is a biogenic amine that functions as a neurotransmitter and exhibits anticonvulsant, antineurotoxic, and antidepressant properties. It can be metabolized into putrescine and urea by canonical agmatinases or by the agmatinase-like protein (ALP), which corresponds to the C-terminal region of the LIMCH1 protein. The amino acid sequence of ALP/LIMCH1 diverges significantly from that of canonical agmatinases and lacks the conserved residues typically required for coordination with Mn(2+), an essential cofactor for ureohydrolase activity. The three-dimensional structure of ALP/LIMCH1 remains unresolved, and predictive artificial intelligence algorithms such as AlphaFold have failed to model it reliably. As a result, the configuration of its active site and the identity of potential metal-coordinating ligands remain elusive. In this study, we purified recombinant full-length rat LIMCH1 (119.5 kDa) and a truncated ALP variant, DeltaLIM-ALP (51 kDa), and analyzed their secondary structures using circular dichroism spectroscopy. Our results indicate that both proteins differ markedly from known ureohydrolases, exhibiting a high proportion of disordered regions (~60%) and beta-structures (~30%). In contrast, Escherichia coli agmatinase displays a well-defined alpha/beta/alpha sandwich fold. Despite these structural differences, ALP/LIMCH1 remain the only known mammalian proteins exhibiting agmatinase activity. To gain insight into the putative active site of ALP, we proposed candidate Mn(2+)-binding residues and generated single-point mutants (N213A, Q215A, D217A, E288A, K290A). Although these mutations did not significantly alter Mn(2+) binding or its overall content in the protein samples, four mutants exhibited a decreased K(m) for agmatine and a reduced V(max) when normalized to protein concentration.",
+  "abstract_zh": "胍丁胺是一种生物胺，作为神经递质发挥作用，并具有抗惊厥、抗神经毒性和抗抑郁特性。它可通过经典胍丁胺酶或胍丁胺酶样蛋白（ALP）代谢为腐胺和尿素，后者对应于LIMCH1蛋白的C端区域。ALP/LIMCH1的氨基酸序列与经典胍丁胺酶显著不同，且缺乏通常与Mn(2+)配位所需的保守残基，而Mn(2+)是脲水解酶活性的必需辅因子。ALP/LIMCH1的三维结构尚未解析，诸如AlphaFold等预测性人工智能算法也未能可靠地建模。因此，其活性位点的构型及潜在金属配位配体的身份仍不明确。在本研究中，我们纯化了重组全长大鼠LIMCH1（119.5 kDa）和截短ALP变体DeltaLIM-ALP（51 kDa），并使用圆二色光谱分析了它们的二级结构。结果表明，这两种蛋白与已知脲水解酶显著不同，表现出高比例的无序区域（约60%）和β-结构（约30%）。相比之下，大肠杆菌胍丁胺酶展现出明确的α/β/α三明治折叠。尽管存在这些结构差异，ALP/LIMCH1仍是唯一已知具有胍丁胺酶活性的哺乳动物蛋白。为深入了解ALP的推定活性位点，我们提出了候选Mn(2+)结合残基，并生成了单点突变体（N213A、Q215A、D217A、E288A、K290A）。尽管这些突变未显著改变Mn(2+)结合或其总含量，但四个突变体在按蛋白浓度归一化后，表现出对胍丁胺的K(m)降低和V(max)减少。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41301538/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41301538/",
+  "paper_page_path": "papers/pubmed/41301538/index.html"
+}

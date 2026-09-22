@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.23.666249",
+  "title": "Sequencing of <i>α</i> -synuclein Intrinsically Disordered Protein in MoS <sub>2</sub> Nanopores",
+  "authors": "Adrien Nicolaï; Patrice Delarue; Andreina Urquiola Hernandez; Patrick Senet",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-26",
+  "window": {
+    "start": "2025-07-21",
+    "end": "2025-07-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用全原子MD模拟α-突触核蛋白（IDP）及其突变体在MoS2纳米孔中的易位与离子电流特征，虽聚焦单分子测序而非PPI互作机制，但IDP对象与物理模拟方法对本课题有可迁移启发。",
+  "abstract": "α -synuclein is an intrinsically disordered protein composed of 140 amino acids that adopts multiple conformations and is prone to aggregate into β -sheet-rich structures, which are hallmarks of Parkinson’s disease. Moreover, missense mutations in α -synuclein are related to familial forms of this neurodegenerative disorder, making their detection at the single-molecule level essential. Recently, protein sequencing using solid-state nanopores has emerged as a powerful, label-free approach for single-molecule sensing with high sensitivity. Atomically thin two-dimensional materials, such as MoS 2 , provide ideal platforms for sequencing applications due to their ultimate thinness and enhanced spatial resolution. However, protein sequencing using 2D materials remains challenging because of rapid translocation speeds, which limit the observation time per molecule. Here, we present extensive all-atom classical molecular dynamics simulations in explicit solvent of the full translocation of the wild-type α -synuclein protein and two pathogenic mutants, i . e . A30P and E46K, through single-layer MoS 2 nanopores, for a total duration of more than 22 µ s. To the best of our knowledge, this work represents the first atomistic simulation of a full-length protein sequencing through a 2D solid-state nanopore. From the ionic current traces recorded during simulations, we characterized distinct blockade levels and bumps, as well as their dwell time along the protein sequence at multiple time and sequence length scales. For instance, we provided the sequence motifs that show some particular patterns in the data. Furthermore, we analyzed the volume properties of amino acids inside the pore and identified characteristic blockade fingerprints differentiating the wild-type from the mutant proteins. These pioneering results pave the way for future experimental studies, offering a roadmap for validating 2D nanopore-based protein sequencing and biomarker detection with single-molecule resolution.",
+  "abstract_zh": "α-synuclein是一种由140个氨基酸组成的固有无序蛋白，采用多种构象，并易于聚集成富含β-折叠的结构，这些是帕金森病的标志性特征。此外，α-synuclein中的错义突变与该神经退行性疾病的家族性形式相关，使得在单分子水平上的检测至关重要。近期，利用固态纳米孔的蛋白质测序已成为一种高灵敏度的无标记单分子传感方法。原子级薄的二维材料，如MoS₂，因其极致的薄度和增强的空间分辨率，为测序应用提供了理想平台。然而，使用二维材料进行蛋白质测序仍具挑战性，因为快速易位速度限制了每个分子的观察时间。在此，我们展示了全原子经典分子动力学模拟，在显式溶剂中模拟野生型α-synuclein蛋白及其两种致病突变体（即A30P和E46K）通过单层MoS₂纳米孔的完整易位过程，总时长超过22微秒。据我们所知，这项工作代表了首次对全长蛋白质通过二维固态纳米孔测序的原子级模拟。从模拟过程中记录的离子电流轨迹中，我们表征了不同的阻断水平和凸起，以及它们在多个时间和序列长度尺度上沿蛋白质序列的停留时间。例如，我们提供了在数据中显示特定模式的序列基序。此外，我们分析了孔内氨基酸的体积特性，并识别出区分野生型与突变蛋白的特征性阻断指纹。这些开创性结果为未来的实验研究铺平了道路，为验证基于二维纳米孔的蛋白质测序和单分子分辨率的生物标志物检测提供了路线图。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666249",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.23.666249",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.23.666249/index.html"
+}

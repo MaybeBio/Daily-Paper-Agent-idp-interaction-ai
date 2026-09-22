@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "41249866",
+    "doi": "10.1093/nar/gkaf1175",
+    "title": "DisProt in 2026: enhancing intrinsically disordered proteins accessibility, deposition, and annotation."
+  },
+  "content": {
+    "abstract": "DisProt (https://disprot.org/) is an open database integrating experimental evidence on intrinsically disordered proteins (IDPs), intrinsically disordered regions (IDRs), and their functions. Over the past two years, the database has grown over 20%, now comprising 3201 IDPs and 13 347 pieces of evidence, including over 1500 new structural state annotations and >1300 new function annotations. DisProt has systematically adopted the Minimum Information About Disorder Experiments (MIADE) guidelines, more than doubling annotations with experimental details and improving the interpretability of disorder-related experiments. The website has evolved into a hybrid knowledgebase and deposition system, introducing a Deposition Page that allows direct submissions by external users. Through BLAST-based homology propagation in MobiDB, DisProt disorder regions and linear interacting peptides have been extended from hundreds to hundreds of thousands of proteins across >11 000 organisms. This new release marks a paradigm shift by integrating computational predictions as valid evidence and introducing major updates and restructuring of the IDP Ontology, enhancing accuracy, interoperability, and semantic clarity. DisProt continues to support community engagement through training resources together with DisTriage, an AI-based literature triage tool, providing curators with regularly updated lists of prioritized publications.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/genetics/metabolism",
+      "*Databases, Protein",
+      "*Molecular Sequence Annotation",
+      "Internet",
+      "Humans",
+      "Software",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nugnes, Maria Victoria",
+        "Bouhraoua, Kamel Eddine Adel",
+        "Zoubiri, Mehdi",
+        "Pancsa, Rita",
+        "Ficho, Erzsebet",
+        "Tompa, Peter",
+        "Piovesan, Damiano",
+        "Tosatto, Silvio C E",
+        "Aspromonte, Maria Cristina"
+      ],
+      "short_names": [
+        "Nugnes MV",
+        "Bouhraoua KEA",
+        "Zoubiri M",
+        "Pancsa R",
+        "Ficho E",
+        "Tompa P",
+        "Piovesan D",
+        "Tosatto SCE",
+        "Aspromonte MC"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8399-7907",
+        "ORCID: 0000-0001-9531-6339",
+        "ORCID: 0009-0009-3602-3558",
+        "ORCID: 0000-0003-0849-9312",
+        "ORCID: 0000-0001-8210-2390",
+        "ORCID: 0000-0003-4525-7793",
+        "ORCID: 0000-0002-4937-6952"
+      ],
+      "affiliations": [
+        "Department of Biomedical Sciences, University of Padova, Padova 35131, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova 35131, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova 35131, Italy.",
+        "Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest 1117, Hungary.",
+        "Cytocast Hungary Kft, Budapest 1052, Hungary.",
+        "Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest 1117, Hungary.",
+        "Department of Biomedical Sciences, University of Padova, Padova 35131, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova 35131, Italy.",
+        "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari 70126, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova 35131, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nugnes, Maria Victoria",
+        "short_name": "Nugnes MV",
+        "identifiers": [
+          "0000-0001-8399-7907"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova 35131, Italy."
+        ]
+      },
+      {
+        "full_name": "Bouhraoua, Kamel Eddine Adel",
+        "short_name": "Bouhraoua KEA",
+        "identifiers": [
+          "0000-0001-9531-6339"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova 35131, Italy."
+        ]
+      },
+      {
+        "full_name": "Zoubiri, Mehdi",
+        "short_name": "Zoubiri M",
+        "identifiers": [
+          "0009-0009-3602-3558"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova 35131, Italy."
+        ]
+      },
+      {
+        "full_name": "Pancsa, Rita",
+        "short_name": "Pancsa R",
+        "identifiers": [
+          "0000-0003-0849-9312"
+        ],
+        "affiliations": [
+          "Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest 1117, Hungary."
+        ]
+      },
+      {
+        "full_name": "Fichó, Erzsébet",
+        "short_name": "Fichó E",
+        "identifiers": [],
+        "affiliations": [
+          "Cytocast Hungary Kft, Budapest 1052, Hungary."
+        ]
+      },
+      {
+        "full_name": "",
+        "short_name": "",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Tompa, Peter",
+        "short_name": "Tompa P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, Budapest 1117, Hungary."
+        ]
+      },
+      {
+        "full_name": "Piovesan, Damiano",
+        "short_name": "Piovesan D",
+        "identifiers": [
+          "0000-0001-8210-2390"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova 35131, Italy."
+        ]
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [
+          "0000-0003-4525-7793"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova 35131, Italy.",
+          "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari 70126, Italy."
+        ]
+      },
+      {
+        "full_name": "Aspromonte, Maria Cristina",
+        "short_name": "Aspromonte MC",
+        "identifiers": [
+          "0000-0002-4937-6952"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova 35131, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Jan 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/18 06:26",
+    "fetched_at": "2026-09-17 22:07:40"
+  },
+  "links": {
+    "cites": [
+      "42540506",
+      "41993527",
+      "41986457",
+      "41751600",
+      "41708867",
+      "41431842"
+    ],
+    "refs": [
+      "40859602",
+      "40490488",
+      "39565202",
+      "39552041",
+      "39470701",
+      "38801244",
+      "38718835",
+      "38507044",
+      "38297118",
+      "38118365",
+      "37962385",
+      "37957331",
+      "37904608",
+      "37904585",
+      "37697042",
+      "37621223",
+      "37400558",
+      "36866529",
+      "36416266",
+      "35974095",
+      "35365602",
+      "34986598",
+      "34755867",
+      "34282049",
+      "33882120",
+      "33875885",
+      "32379317",
+      "32006287",
+      "31713636",
+      "31576635",
+      "29805321",
+      "28935776",
+      "28573592",
+      "26578815",
+      "26387108",
+      "25257027",
+      "24773235",
+      "22496841",
+      "15310560",
+      "11290330",
+      "8852900",
+      "2231712"
+    ],
+    "similar": [
+      "41249866",
+      "34850135",
+      "37904585",
+      "39718444",
+      "38507044",
+      "31713636",
+      "37167423",
+      "33017101",
+      "39470701",
+      "33237329",
+      "36416266",
+      "27899601",
+      "25361972",
+      "40347452",
+      "39576585",
+      "35789137",
+      "29136219",
+      "17145717",
+      "28381244",
+      "33305318",
+      "40054813",
+      "32696355",
+      "30135358",
+      "32696395",
+      "40138319",
+      "30576490",
+      "31425549",
+      "39576584",
+      "38987470",
+      "31441158",
+      "37892124",
+      "34626492",
+      "28934129",
+      "22661649",
+      "37400558",
+      "38079339",
+      "28453683",
+      "27115638",
+      "30592560",
+      "33875885",
+      "24573480",
+      "28387819",
+      "33719450",
+      "40133791",
+      "33291838",
+      "28369666",
+      "24532081",
+      "40859602",
+      "25391399",
+      "31824649",
+      "31756456",
+      "25496281",
+      "34390736",
+      "39576583",
+      "38701796",
+      "38296708",
+      "40254833",
+      "27787828",
+      "26555596",
+      "23466039",
+      "34048569",
+      "35436286",
+      "38275091",
+      "40441416",
+      "41055109",
+      "36833360",
+      "32503351",
+      "40944448",
+      "28365882",
+      "30819075",
+      "34418423",
+      "41174305",
+      "36215254",
+      "33119751",
+      "35898309",
+      "23946100",
+      "28076807",
+      "29228892",
+      "25378336",
+      "24178034",
+      "24174539",
+      "25307499",
+      "31521235",
+      "39253485",
+      "40133781",
+      "31797595",
+      "35102880",
+      "37634152",
+      "36458437",
+      "40100159",
+      "21647374",
+      "33036302",
+      "28394890",
+      "30554840",
+      "38747347",
+      "39196930",
+      "31264965",
+      "30657889",
+      "40828855",
+      "28765603"
+    ],
+    "review": [
+      "41249866",
+      "31441158",
+      "37400558",
+      "33291838",
+      "24532081",
+      "34390736",
+      "38296708",
+      "23466039",
+      "36833360",
+      "34418423",
+      "25307499",
+      "31521235",
+      "35102880"
+    ],
+    "pmc": [
+      "12807702"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41249866/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD48-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf1175",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

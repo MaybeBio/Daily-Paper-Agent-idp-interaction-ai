@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.19.492622",
+  "title": "DEGRONOPEDIA - a web server for proteome-wide inspection of degrons",
+  "authors": "Szulc NA; Stefaniak F; Piechota M; Cappannini A; Bujnicki JM; Pokrzywa W",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-22",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发了DEGRONOPEDIA网络服务器，系统筛查蛋白质组中的降解决定子(degron)及其邻近无序区域(IDR)和泛素化位点，并利用机器学习预测N-/C-端稳定性；虽涉及IDR和互作相关位点，但主要面向degron资源筛查而非PPI机制建模，方法以数据库和简单ML为主，缺乏AI/物理模拟深度。",
+  "abstract": "<h4>ABSTRACT</h4> The ubiquitin-proteasome system is a proteolytic pathway that removes damaged and unwanted proteins. Their selective turnover is initiated by ubiquitin (Ub) attachment, mainly by Ub ligases that recognize substrates through their short linear motifs termed degrons. A degradation-targeting degron comprises a nearby Ub-modified residue and an intrinsically disordered region (IDR) involved in interaction with the proteasome. Degron-signaling has been studied over the last decades, yet there are no resources for systematic screening of degron sites to facilitate studies on their biological significance, such as targeted protein degradation approaches. To bridge this gap, we developed DEGRONOPEDIA, a web server that allows exploration of degron motifs in the proteomes of seven model organisms and maps these data to Lys, Cys, Thr, and Ser residues that can undergo ubiquitination and to IDRs proximal to them, both in sequence and structure. The server also reports the post-translational modifications and pathogenic mutations within the degron and its flanking regions, as these can modulate the degron’s accessibility. Degrons often occur at the amino or carboxyl end of a protein substrate, acting as initiators of the N-/C-degron pathway, respectively. Therefore, since they may appear following the protease cleavage, DEGRONOPEDIA simulate sequence nicking based on experimental data and theoretical predictions and screen for emerging degron motifs. Moreover, we implemented machine learning to predict the stability of the N-/C-termini, facilitating the identification of substrates of the N-/C-degron pathways. We are confident that our tool will stimulate research on degron-signaling providing output information in a ready-to-validate context. DEGRONOPEDIA can be freely accessed at degronopedia.com .",
+  "abstract_zh": "泛素-蛋白酶体系统是一种蛋白水解途径，负责清除受损和不需要的蛋白质。其选择性周转由泛素（Ub）附着启动，主要通过泛素连接酶识别底物上的短线性基序，即降解决定子（degron）。一个靶向降解的降解决定子包含一个邻近的泛素修饰残基和一个参与与蛋白酶体相互作用的内在无序区域（IDR）。降解决定子信号传导在过去几十年中已被研究，但仍缺乏系统筛选降解决定子位点的资源，以促进对其生物学意义的研究，例如靶向蛋白质降解方法。为弥补这一空白，我们开发了DEGRONOPEDIA，一个网络服务器，允许在七种模式生物的蛋白质组中探索降解决定子基序，并将这些数据映射到可发生泛素化的Lys、Cys、Thr和Ser残基，以及它们在序列和结构上邻近的IDR。该服务器还报告降解决定子及其侧翼区域内的翻译后修饰和致病突变，因为这些可能调节降解决定子的可及性。降解决定子通常出现在蛋白质底物的氨基或羧基末端，分别作为N-/C-降解决定子途径的起始因子。因此，由于它们可能在蛋白酶切割后出现，DEGRONOPEDIA基于实验数据和理论预测模拟序列切口，并筛选新出现的降解决定子基序。此外，我们实施了机器学习来预测N-/C-末端的稳定性，有助于识别N-/C-降解决定子途径的底物。我们相信，我们的工具将促进降解决定子信号传导的研究，提供即用验证的输出信息。DEGRONOPEDIA可在degronopedia.com免费访问。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.19.492622",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.19.492622",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.19.492622/index.html"
+}

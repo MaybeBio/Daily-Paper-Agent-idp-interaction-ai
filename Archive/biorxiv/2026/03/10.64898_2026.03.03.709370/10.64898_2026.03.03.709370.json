@@ -1,0 +1,127 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.03.709370",
+  "title": "Intrinsically disordered SERBP1 regulates translation through topology-driven G-quadruplex recognition",
+  "doi": "10.64898/2026.03.03.709370",
+  "abstract": "Serpine mRNA-binding protein 1 (SERBP1) is an intrinsically disordered RNA-binding protein that regulates translation and ribosome biogenesis through interactions with ribosomes and other molecular complexes. Despite its regulatory importance and implication in cancer development, the molecular basis of SERBP1 RNA recognition remains poorly understood. Here, we characterize the G-quadruplex (G4)-binding properties of SERBP1. Using NMR spectroscopy and biophysical assays, we show that SERBP1 binds parallel G4s, both RNA and DNA, with low micromolar affinity through a conserved mechanism. Molecular dynamics and docking simulations reveal an encircling mechanism in which the RGG box wraps around the G4 while downstream C-terminal serine residues stabilize the complex through hydrogen bonding. Phosphomimetic mutations of key serines disrupt this stabilization and reduce binding affinity, identifying phosphorylation as a regulatory switch for SERBP1 activity. Recognition is driven by G4 topology rather than nucleotide sequence, establishing SERBP1 as a broad-specificity G4-binding protein. We further demonstrate that SERBP1 regulates mTOR expression in glioblastoma cell lines through G4 elements in the mTOR 5’ UTR, and that SERBP1 depletion synergizes with mTOR inhibition to reduce cell growth. These results establish SERBP1 as a G4 adaptor protein and represent, to our knowledge, the first detailed characterization of G4 recognition by a fully disordered domain, providing a molecular framework for targeting SERBP1–G4 interactions in cancer. <h4>Significance Statement</h4> SERBP1 is overexpressed in multiple cancers and regulates key cellular processes, yet how it recognizes its RNA targets has remained unclear. We show that SERBP1 binds G-quadruplex structures through an encircling mechanism in which its RGG box and adjacent C-terminal serine residues lock around the G4 topology, and that phosphorylation of these serines acts as a switch to modulate binding. Recognition is driven by G4 topology rather than nucleotide sequence, positioning SERBP1 as a general G4 adaptor that recruits helicases to resolve these structures and license translation. We demonstrate this principle in glioblastoma, where SERBP1 regulates mTOR expression through direct recognition of G4 elements in the mTOR 5’ UTR, and its depletion synergizes with mTOR inhibition. These findings provide the first molecular characterization of G4 recognition by a fully disordered domain and establish a direct link between SERBP1–G4 interactions and cancer-relevant translational regulation.",
+  "authors": [
+    "Baudin A",
+    "Dinh HH",
+    "Breunig K",
+    "Lei X",
+    "Xu X",
+    "Penalva LO",
+    "Libich DS"
+  ],
+  "published_date": "2026-03-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.03.709370",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.03.709370.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1221219",
+    "raw_record": {
+      "id": "PPR1221219",
+      "source": "PPR",
+      "doi": "10.64898/2026.03.03.709370",
+      "title": "Intrinsically disordered SERBP1 regulates translation through topology-driven G-quadruplex recognition",
+      "authorString": "Baudin A, Dinh HH, Breunig K, Lei X, Xu X, Penalva LO, Libich DS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Baudin A",
+            "lastName": "Baudin",
+            "firstName": "Antoine",
+            "initials": "A"
+          },
+          {
+            "fullName": "Dinh HH",
+            "lastName": "Dinh",
+            "firstName": "Hoang",
+            "initials": "HH"
+          },
+          {
+            "fullName": "Breunig K",
+            "lastName": "Breunig",
+            "firstName": "Kira",
+            "initials": "K"
+          },
+          {
+            "fullName": "Lei X",
+            "lastName": "Lei",
+            "firstName": "Xuifen",
+            "initials": "X"
+          },
+          {
+            "fullName": "Xu X",
+            "lastName": "Xu",
+            "firstName": "Xiaoping",
+            "initials": "X"
+          },
+          {
+            "fullName": "Penalva LO",
+            "lastName": "Penalva",
+            "firstName": "Luiz",
+            "initials": "LO"
+          },
+          {
+            "fullName": "Libich DS",
+            "lastName": "Libich",
+            "firstName": "David",
+            "initials": "DS"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Serpine mRNA-binding protein 1 (SERBP1) is an intrinsically disordered RNA-binding protein that regulates translation and ribosome biogenesis through interactions with ribosomes and other molecular complexes. Despite its regulatory importance and implication in cancer development, the molecular basis of SERBP1 RNA recognition remains poorly understood. Here, we characterize the G-quadruplex (G4)-binding properties of SERBP1. Using NMR spectroscopy and biophysical assays, we show that SERBP1 binds parallel G4s, both RNA and DNA, with low micromolar affinity through a conserved mechanism. Molecular dynamics and docking simulations reveal an encircling mechanism in which the RGG box wraps around the G4 while downstream C-terminal serine residues stabilize the complex through hydrogen bonding. Phosphomimetic mutations of key serines disrupt this stabilization and reduce binding affinity, identifying phosphorylation as a regulatory switch for SERBP1 activity. Recognition is driven by G4 topology rather than nucleotide sequence, establishing SERBP1 as a broad-specificity G4-binding protein. We further demonstrate that SERBP1 regulates mTOR expression in glioblastoma cell lines through G4 elements in the mTOR 5’ UTR, and that SERBP1 depletion synergizes with mTOR inhibition to reduce cell growth. These results establish SERBP1 as a G4 adaptor protein and represent, to our knowledge, the first detailed characterization of G4 recognition by a fully disordered domain, providing a molecular framework for targeting SERBP1–G4 interactions in cancer. <h4>Significance Statement</h4>  SERBP1 is overexpressed in multiple cancers and regulates key cellular processes, yet how it recognizes its RNA targets has remained unclear. We show that SERBP1 binds G-quadruplex structures through an encircling mechanism in which its RGG box and adjacent C-terminal serine residues lock around the G4 topology, and that phosphorylation of these serines acts as a switch to modulate binding. Recognition is driven by G4 topology rather than nucleotide sequence, positioning SERBP1 as a general G4 adaptor that recruits helicases to resolve these structures and license translation. We demonstrate this principle in glioblastoma, where SERBP1 regulates mTOR expression through direct recognition of G4 elements in the mTOR 5’ UTR, and its depletion synergizes with mTOR inhibition. These findings provide the first molecular characterization of G4 recognition by a fully disordered domain and establish a direct link between SERBP1–G4 interactions and cancer-relevant translational regulation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.03.709370"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-03-05",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and references.
+- **Assessment boundary** Scientific validity, methodological rigor, clarity of claims, and alignment with stated conclusions. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors propose that combining pi-pi interaction propensity (via PScore) with beta-pairing propensity (via PASTA-derived features) improves prediction of protein liquid-liquid phase separation (LLPS). They further hypothesize that entropic stabilization of the droplet state against the amyloid state, mediated by beta-pairing features, underlies this improvement, with mechanisms depending on the composition of the positive training set.
+- **Visible evidence base** Full text with methods, results, tables (Tables 1–5), figures (Figures 1–5), and supplementary references (Figures S1–S5, Tables S1–S5, Files S1–S2). No raw data or code provided.
+- **Missing materials affecting confidence** Raw datasets (positive and negative sets) not provided; code for scoring functions not provided; supplementary files (Figures S1–S5, Tables S1–S5, Files S1–S2) referenced but not included in the supplied material; details on PASTA parameter settings and PScore implementation incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the field of protein phase separation prediction by testing whether beta-pairing propensity, a feature associated with amyloid aggregation, can complement existing pi-pi interaction-based predictors. The methodological approach is straightforward, and the statistical analyses are appropriate for the comparisons made. However, the central claims are only partially supported by the presented evidence. The improvement over PScore is modest and dependent on the positive set used, and the interpretation linking beta-pairing features to entropic stabilization of the droplet state is speculative, lacking direct experimental or mechanistic validation. The manuscript would benefit from clearer presentation of the scoring function definitions, additional validation on independent datasets, and a more cautious framing of the mechanistic hypothesis.
+- **Who would be interested in the results, and why** Researchers working on sequence-based prediction of protein phase separation, particularly those developing or benchmarking computational tools for LLPS. The study may also interest biophysicists studying the molecular determinants of condensate formation and the relationship between LLPS and amyloid aggregation. The findings on the differential contribution of beta-pairing features depending on the positive set composition could inform future predictor design.
+- **Major strengths** The study addresses a timely and important problem in the field. The use of two distinct positive sets and two negative sets allows for a robustness check of the findings. The statistical framework (cross-validation, ANOVA, KS tests) is appropriate. The authors provide a clear mechanistic hypothesis linking beta-pairing entropy to droplet stability, which is testable and could guide future work. The analysis of sequences misclassified by PScore but correctly classified by the composite score provides useful insight into the types of proteins that benefit from the added features.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that combining pi-pi and beta-pairing propensity yields improved performance over PScore alone.
+  - **Evidence pointer** Tables 1–4, Figures 3–4
+  - **Concern** The improvement in AUC over PScore is reported as statistically significant for some composite scores (e.g., s4) but the magnitude of improvement is modest (e.g., AUC 0.79 vs. 0.75 for hsnLLPS). More critically, the improvement is not consistent across both positive sets: for the PP set, the improvement is driven by different features (beta-pairing length and register shift) than for the LLPS set (energy density and length). This inconsistency raises questions about the generalizability of the proposed scoring function. The authors do not provide an independent test set or external validation to confirm that the improvement is not an artifact of the specific datasets used.
+  - **Why it matters** The central claim of the paper is that the composite score improves prediction. If the improvement is dataset-dependent and not validated externally, the practical utility of the proposed approach is unclear. The field would benefit from a predictor that generalizes across different positive sets and experimental conditions.
+  - **Resolution test** Provide external validation on an independent dataset of phase-separating proteins not used in training. Report performance metrics (AUC, MCC) for the composite score and PScore on this independent set. If the improvement is not reproducible, the claim should be revised to reflect dataset-specific performance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors hypothesize that entropic stabilization of the droplet state against the amyloid state, mediated by beta-pairing features, explains the improved prediction.
+  - **Evidence pointer** Sections 3.5–3.7, Figure 5
+  - **Concern** The mechanistic hypothesis is presented as a plausible interpretation of the statistical results, but no direct evidence is provided to support the claim that beta-pairing entropy stabilizes the droplet state. The correlation between the composite score and the PASTA energy (Figure 5) is described as "mild," and the authors do not test whether the predicted beta-pairing features correlate with experimentally measured droplet stability or amyloid propensity. The hypothesis is speculative and not rigorously tested.
+  - **Why it matters** The paper's broader significance depends on providing a mechanistic understanding of why beta-pairing features improve LLPS prediction. Without experimental validation or at least a more direct computational test, the hypothesis remains an untested conjecture, limiting the impact of the work.
+  - **Resolution test** Test the hypothesis using experimental data on droplet stability and amyloid propensity for a subset of proteins. Alternatively, perform a computational analysis showing that the beta-pairing features correlate with known determinants of droplet stability (e.g., mutations that destabilize droplets). If such evidence is not available, the authors should clearly label the hypothesis as speculative and discuss alternative interpretations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the LLPS set contains the PP sequences as a subset, and that the choice of positive set affects the contribution of different beta-pairing features.
+  - **Evidence pointer** Sections 2.1, 3.3–3.4, Tables 1–4
+  - **Concern** The relationship between the two positive sets is not fully explored. The LLPS set is larger and includes PP, but the authors do not analyze whether the differences in feature contributions are due to the size of the set, the composition (e.g., fraction of droplet-driving proteins), or other factors. The interpretation that the fraction of droplet-driving proteins determines the mechanism of entropic stabilization is not directly tested.
+  - **Why it matters** The authors' conclusion that the mechanism of entropic stabilization depends on the positive set composition is a key finding. Without a systematic analysis of how set composition affects feature contributions, this conclusion is not well supported.
+  - **Resolution test** Perform a controlled analysis where the positive set is varied systematically (e.g., by subsampling the LLPS set to match the PP set size, or by adding non-droplet-driving proteins to PP) and examine how feature contributions change. This would provide direct evidence for the role of set composition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 3.2, Equations (2)–(7)
+  - **Evidence pointer** Section 3.2
+  - **Issue** The scoring functions are defined in a somewhat dense manner, and the rationale for the specific functional forms (e.g., logarithmic dependence on register shift and length) is not fully explained. A reader unfamiliar with the PASTA algorithm may struggle to understand the physical meaning of the terms.
+  - **Required correction** Provide a brief intuitive explanation of each term in the scoring functions, and clarify why logarithmic forms are chosen. Consider adding a schematic figure illustrating the beta-pairing features.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.5, cross-validation procedure
+  - **Evidence pointer** Section 2.5
+  - **Issue** The cross-validation procedure is described, but the authors do not specify whether the same folds are used for all scoring functions, which could affect the comparability of results. Additionally, the number of folds (k=5) and repetitions (M=25) are stated, but the total number of training/test splits is not clear.
+  - **Required correction** Clarify whether the same data partitions are used for all scoring functions, and specify the total number of training/test evaluations performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section 3.5, sequence analysis
+  - **Evidence pointer** Section 3.5, File S2
+  - **Issue** The analysis of sequences in sets S˜4 and S˜P is interesting but limited to a description of sequence features. The authors do not discuss whether these sequences share functional or structural characteristics that could explain their differential classification.
+  - **Required correction** Add a brief discussion of the biological or functional relevance of the sequences in these sets, if any, to strengthen the interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (external validation required), R1-M2 (mechanistic hypothesis not tested), R1-M3 (positive set composition not systematically analyzed).
+- **Assessment against Nature-style criteria** Originality: The combination of pi-pi and beta-pairing features for LLPS prediction is a novel contribution, though the individual features are well established. Scientific importance: The work addresses a relevant problem, but the modest and dataset-dependent improvement limits its significance. Interdisciplinary readership: The topic is of interest to computational biologists, biophysicists, and cell biologists, but the presentation is somewhat technical. Technical soundness: The statistical methods are appropriate, but the lack of external validation and the speculative mechanistic interpretation weaken the technical case. Readability for nonspecialists: The manuscript is generally clear but could benefit from more intuitive explanations of the scoring functions and the PASTA algorithm.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a reasonable and potentially useful contribution, but the central claims require stronger evidence, particularly external validation and a more rigorous test of the mechanistic hypothesis.
+
+## Risk / unsupported claims
+- The claim that the composite score improves prediction over PScore is not fully supported without external validation.
+- The hypothesis that entropic stabilization of the droplet state via beta-pairing features explains the improved prediction is speculative and not directly tested.
+- The conclusion that the mechanism of entropic stabilization depends on the fraction of droplet-driving proteins in the positive set is not supported by a systematic analysis.
+- The statement that "the main chain conformational entropy of the beta-pairing maintained droplet state is increased" for phase-separating proteins is an interpretation without direct evidence.

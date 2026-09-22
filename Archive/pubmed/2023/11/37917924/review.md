@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusions, acknowledgments) as provided by the user. No supplementary material, figures, or tables were included in the submission.
+- **Assessment boundary** The review is limited to the scientific content, methodology, and claims as presented in the provided text. No external validation of the computational methods or data was performed.
+- **Shared manuscript claim summary** The authors use ALMO-EDA at the ωB97X-V/def2-TZVPD level to decompose interaction energies of pi-pi contacts extracted from AMOEBA polarizable force field simulations of three proteins (TSR4, DC-SIGN, serine protease) using the Vernon geometric criteria. They report that neutral pi-pi contacts in proteins are dominated by dispersion and Pauli repulsion (van der Waals model) rather than quadrupole electrostatics (Hunter-Sanders model), that only ~3% of contacts are Hunter-Sanders-type, and that charged pi-containing systems behave as ion-pi or ion-ion interactions whose character is tunable by the dielectric environment.
+- **Visible evidence base** The manuscript text includes descriptions of methods (VGC, ALMO-EDA, ALMO-EDA(solv), computational protocol) and qualitative descriptions of results (ternary diagram classifications, parity plots, energy component trends). No actual numerical data, figures, or tables are visible in the provided material.
+- **Missing materials affecting confidence** All figures (Figures 1-11), all tables, the Supporting Information (including ε = 2 data and nonelectrostatic solvation terms), and any quantitative energy values are absent. This significantly limits the ability to verify the central claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in protein biophysics: the physical origin of pi-pi contacts. The authors apply a state-of-the-art energy decomposition method (ALMO-EDA with solvation) to a curated set of protein-derived fragments, and their conclusion that the Hunter-Sanders paradigm is largely inapplicable to protein pi-pi contacts is potentially significant. However, the provided text is insufficient to fully evaluate the claims. The absence of all figures, tables, and quantitative data prevents verification of the ternary diagram classifications, the reported 3% statistic, and the solvation effects. The methodological choices are reasonable, but the reliance on a single force field (AMOEBA) for generating the fragment database and the use of a simple PCM model are limitations that need to be discussed more thoroughly. The writing is clear and the logical flow is strong, but the evidence base as presented is incomplete.
+- **Who would be interested in the results, and why** Computational biophysicists and physical chemists interested in noncovalent interactions, protein folding, and biomolecular condensates. Force field developers would find the decomposition of interaction energies into physically meaningful components directly relevant to parameterization efforts. The challenge to the Hunter-Sanders model would also be of interest to a broader chemistry and biochemistry audience, as this model is widely taught and used to rationalize pi-stacking.
+- **Major strengths**
+  1. The use of a rigorous energy decomposition analysis (ALMO-EDA) to directly probe the energetic components of pi-pi contacts is a significant methodological strength.
+  2. The study is grounded in a realistic protein context by extracting fragments from molecular dynamics simulations of three different proteins, rather than relying solely on gas-phase model dimers.
+  3. The inclusion of solvation effects via ALMO-EDA(solv) is a valuable extension that addresses the environmental dependence of these interactions.
+  4. The clear distinction between neutral, ion-pi, and ion-ion contacts, and the demonstration that they behave differently, is a conceptually important contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The central claim that "only roughly 3% of all pi-pi contacts are consistent with [the Hunter-Sanders] model" and that the vast majority are van der Waals-type.
+  - **Evidence pointer** Results section, Figures 3, 4, 6, 7 (figures not provided)
+  - **Concern** The 3% statistic is a key quantitative finding, but the provided text does not show how this number is derived from the ternary diagram classifications. The classification criteria for "Hunter-Sanders-type" versus "van der Waals-type" based on the ternary diagrams are not defined quantitatively. Without the figures or a clear description of the classification thresholds, this claim cannot be assessed.
+  - **Why it matters** This statistic is a headline result that directly challenges a long-standing paradigm. If the classification is ambiguous or the threshold is arbitrary, the conclusion is weakened.
+  - **Resolution test** Provide the ternary diagrams (Figures 3, 4, 6, 7) and a clear, quantitative definition of the regions in the diagram that correspond to "Hunter-Sanders-type" and "van der Waals-type" contacts. Show how the 3% figure is calculated from the data points.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "effectively all of the difference in interaction energy due to PCM comes from the screening of electrostatics and polarization components."
+  - **Evidence pointer** Results section, Figure 5 (figure not provided)
+  - **Concern** This is a strong quantitative claim about the decomposition of solvation effects. The text states that this is "quantitatively validated by comparison of the interaction energy difference... with the change due to electrostatic screening in Figure 5," but the figure is not available. The magnitude of the "marginal changes" in Pauli repulsion and dispersion is not stated.
+  - **Why it matters** This claim underpins the conclusion that neutral pi-pi contacts are insensitive to the dielectric environment. If the changes in Pauli repulsion or dispersion are not truly negligible, the conclusion about environmental insensitivity is overstated.
+  - **Resolution test** Provide Figure 5 and the numerical values for the average (or median) changes in each energy component (ΔEelec, ΔEPauli, ΔEdisp, ΔEpol, ΔEct) upon going from gas phase to PCM. Show the correlation between ΔEint(PCM) - ΔEint(gas) and the electrostatic screening contribution.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology
+  - **Claim pointer** The use of AMOEBA polarizable force field simulations to generate the fragment database.
+  - **Evidence pointer** Methods, "Construction of the Protein-Fragment Database"
+  - **Concern** The fragment database is derived from a single force field (AMOEBA). The authors note that AMOEBA provides a better physical model than fixed-charge force fields, but the accuracy of the sampled geometries is still dependent on the force field's ability to reproduce the correct conformational ensemble. The manuscript does not discuss the potential bias this introduces into the selection of pi-pi contacts.
+  - **Why it matters** If the force field over- or under-samples certain pi-pi contact geometries, the distribution of interaction types (van der Waals vs. Hunter-Sanders) could be skewed. The conclusions are about the nature of pi-pi contacts in proteins, so the representativeness of the sampled geometries is critical.
+  - **Resolution test** Discuss the validation of the AMOEBA simulations against experimental data or quantum mechanical calculations for these specific systems. Alternatively, show that the conclusions are robust to the choice of force field by analyzing a subset of contacts generated by a different force field or by experimental structures.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodology
+  - **Claim pointer** The use of a simple PCM model with ε = 78.39 for water and ε = 2 for protein interiors.
+  - **Evidence pointer** Methods, "Computational Protocol"
+  - **Concern** The authors acknowledge that PCM is an approximation and that results should be interpreted qualitatively. However, the conclusion that ion-pi interactions become "typical van-der-Waals-type pi-pi contacts" in polar environments is a strong statement based on a continuum model. PCM does not capture specific hydrogen bonding or other local interactions with water that could be important.
+  - **Why it matters** The tunability of ion-pi interactions is a key finding. If the PCM model is too simplistic, the predicted behavior in polar environments may not be accurate.
+  - **Resolution test** Discuss the limitations of PCM in more detail. If possible, compare a subset of results with explicit solvent calculations or with experimental data on ion-pi interactions in aqueous solution.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** "location not provided"
+  - **Issue** The sentence "Pi–pi interactions at a more fundamental level combine the features of being energetically weak with respect to hydrogen bonding and yet are directional and cooperative" is somewhat vague. The terms "directional" and "cooperative" are not defined in this context.
+  - **Required correction** Clarify what is meant by "directional" and "cooperative" in the context of pi-pi interactions, perhaps with a brief explanation or a reference.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Methods, "Geometrical Definitions of Pi-Pi Contacts"
+  - **Evidence pointer** "location not provided"
+  - **Issue** The description of the VGC procedure is clear, but the sensitivity of the results to the specific cutoffs (1.7 Å projection distance, 1.5 Å pair distance, 0.8 dot product) is only briefly mentioned in the Results section. A more detailed analysis of this sensitivity would strengthen the paper.
+  - **Required correction** Provide a more detailed discussion of how the results change with variations in the VGC parameters, perhaps in the Supporting Information.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Conclusions, paragraph 2
+  - **Evidence pointer** "location not provided"
+  - **Issue** The discussion of the biological implications (phase separation, force field design) is interesting but somewhat brief. The connection between the energetic findings and the proposed implications could be made more explicit.
+  - **Required correction** Expand slightly on how the finding that neutral pi-pi contacts are van der Waals-dominated and environment-insensitive directly informs force field design or the understanding of phase separation.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of access to the figures and quantitative data. The claims about ternary diagram classifications, the 3% statistic, and the quantitative validation of solvation effects cannot be verified from the text alone. The manuscript must be re-reviewed with the full set of figures and tables.
+- **Assessment against Nature-style criteria**
+  - **Originality** High. The application of ALMO-EDA with solvation to a large set of protein-derived pi-pi contacts is novel. The challenge to the Hunter-Sanders model is a fresh perspective.
+  - **Scientific importance** High. Understanding the fundamental forces driving pi-pi contacts has broad implications for protein structure prediction, drug design, and the biophysics of condensates.
+  - **Interdisciplinary readership** Moderate to high. The topic is of interest to chemists, biophysicists, and structural biologists. The methods are computational, which may limit accessibility to experimentalists, but the conclusions are framed in a way that is broadly understandable.
+  - **Technical soundness** The methods are appropriate and state-of-the-art. However, the soundness of the conclusions cannot be fully assessed without the data. The reliance on a single force field and a simple solvation model are limitations that need to be addressed.
+  - **Readability for nonspecialists** The manuscript is well-written and logically structured. The concepts are introduced clearly. However, the ternary diagram analysis may be difficult for nonspecialists to follow without a more detailed explanation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the methods are appropriate, but the evidence base as presented is incomplete. The authors must provide the figures and quantitative data to support their claims. The concerns about force field bias and PCM limitations should be addressed with additional discussion or analysis.

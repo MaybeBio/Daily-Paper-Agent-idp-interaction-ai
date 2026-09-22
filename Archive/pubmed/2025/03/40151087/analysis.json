@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40151087",
+  "title": "Functional Ambidexterity of an Ancient Nucleic Acid-Binding Domain.",
+  "authors": "Weil-Ktorza, Orit; Naveh-Tassa, Segev; Fridmann-Sirkis, Yael; Despotovic, Dragana; Cherukuri, Kesava Phaneendra; Corlett, Tatsuya; Levy, Yaakov; Metanis, Norman; Longo, Liam M",
+  "journal": "Angewandte Chemie (International ed. in English)",
+  "published_date": "2025-03-28",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过分子动力学模拟和突变分析，揭示古老核酸结合域HhH从无序肽段到折叠域的进化轨迹中，其与RNA的相分离及与dsDNA的结合对镜像手性具有功能双栖性，并阐明结合模式重叠与进化历史，为无序蛋白介导的互作机制建模提供了可迁移的物理模拟思路。",
+  "abstract": "The helix-hairpin-helix (HhH) motif is an ancient and ubiquitous nucleic acid-binding element that has emerged as a model system for studying the evolution of dsDNA-binding domains from simple peptides that phase separate with RNA. We analyzed the entire putative evolutionary trajectory of the HhH motif - from a flexible peptide to a folded domain - for functional robustness to total chiral inversion. Against expectations, functional \"ambidexterity\" was observed for both the phase separation of HhH peptides with RNA and binding of the duplicated (HhH)(2)-Fold to dsDNA. Moreover, dissociation kinetics, mutational analysis, and molecular dynamics simulations revealed an overlap between the binding modes adopted by the natural and mirror-image proteins to natural dsDNA. The similarity of several dissociation phases upon chiral inversion may reflect the history of (HhH)(2)-Fold binding, with the ultimate emergence of a high-affinity binding mode, supported by a bridging metal ion, depopulating but not displacing more primitive (potentially ambidextrous) modes. These data underscore the surprising functional robustness of the HhH protein family and suggest that the veil between worlds with alternative chiral preferences may not be as impenetrable as is often assumed.",
+  "abstract_zh": "螺旋-发夹-螺旋（HhH）基序是一种古老且普遍存在的核酸结合元件，已成为研究双链DNA结合域从与RNA相分离的简单肽进化而来的模型系统。我们分析了HhH基序的整个推定进化轨迹——从柔性肽到折叠结构域——以评估其对完全手性反转的功能稳健性。出乎意料的是，HhH肽与RNA的相分离以及重复的（HhH）₂折叠域与双链DNA的结合均表现出功能性“双利手”特性。此外，解离动力学、突变分析和分子动力学模拟揭示了天然蛋白与镜像蛋白在结合天然双链DNA时所采用结合模式的重叠。手性反转时多个解离阶段的相似性可能反映了（HhH）₂折叠域结合的历史，最终出现的高亲和力结合模式由桥接金属离子支持，使更原始（可能具有双利手性）的模式减少但未完全取代。这些数据强调了HhH蛋白家族令人惊讶的功能稳健性，并表明具有不同手性偏好的世界之间的帷幕可能并非通常假设的那样不可穿透。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40151087/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40151087/",
+  "paper_page_path": "papers/pubmed/40151087/index.html"
+}

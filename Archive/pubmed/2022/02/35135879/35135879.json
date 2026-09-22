@@ -1,0 +1,409 @@
+{
+  "identity": {
+    "pmid": "35135879",
+    "doi": "10.1073/pnas.2114215119",
+    "title": "The pathogenic R5L mutation disrupts formation of Tau complexes on the microtubule by altering local N-terminal structure."
+  },
+  "content": {
+    "abstract": "The microtubule-associated protein (MAP) Tau is an intrinsically disordered protein (IDP) primarily expressed in axons, where it functions to regulate microtubule dynamics, modulate motor protein motility, and participate in signaling cascades. Tau misregulation and point mutations are linked to neurodegenerative diseases, including progressive supranuclear palsy (PSP), Pick's disease, and Alzheimer's disease. Many disease-associated mutations in Tau occur in the C-terminal microtubule-binding domain of the protein. Effects of C-terminal mutations in Tau have led to the widely accepted disease-state theory that missense mutations in Tau reduce microtubule-binding affinity or increase Tau propensity to aggregate. Here, we investigate the effect of an N-terminal arginine to leucine mutation at position 5 in Tau (R5L), associated with PSP, on Tau-microtubule interactions using an in vitro reconstituted system. Contrary to the canonical disease-state theory, we determine that the R5L mutation does not reduce Tau affinity for the microtubule using total internal reflection fluorescence microscopy. Rather, the R5L mutation decreases the ability of Tau to form larger-order complexes, or Tau patches, at high concentrations of Tau. Using NMR, we show that the R5L mutation results in a local structural change that reduces interactions of the projection domain in the presence of microtubules. Altogether, these results challenge both the current paradigm of how mutations in Tau lead to disease and the role of the projection domain in modulating Tau behavior on the microtubule surface.",
+    "keywords": [
+      "NMR spectroscopy",
+      "TIRF microscopy",
+      "Tau",
+      "microtubule",
+      "neurodegenerative diseases"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Amino Acid Substitution",
+      "Humans",
+      "Microtubules/chemistry/genetics/*metabolism",
+      "Mutation",
+      "tau Proteins/chemistry/genetics/*metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cario, Alisa",
+        "Savastano, Adriana",
+        "Wood, Neil B",
+        "Liu, Zhu",
+        "Previs, Michael J",
+        "Hendricks, Adam G",
+        "Zweckstetter, Markus",
+        "Berger, Christopher L"
+      ],
+      "short_names": [
+        "Cario A",
+        "Savastano A",
+        "Wood NB",
+        "Liu Z",
+        "Previs MJ",
+        "Hendricks AG",
+        "Zweckstetter M",
+        "Berger CL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3635-1577",
+        "ORCID: 0000-0002-2536-6581",
+        "ORCID: 0000-0001-8481-3479"
+      ],
+      "affiliations": [
+        "Department of Molecular Physiology and Biophysics, University of Vermont, Burlington, VT 05405.",
+        "Research Group Translational Structural Biology, German Center for Neurodegenerative Diseases, Gottingen 37075, Germany.",
+        "Department of Molecular Physiology and Biophysics, University of Vermont, Burlington, VT 05405.",
+        "Department of Bioengineering, McGill University, Montreal, QC H3A 0C3, Canada.",
+        "Department of Molecular Physiology and Biophysics, University of Vermont, Burlington, VT 05405.",
+        "Department of Bioengineering, McGill University, Montreal, QC H3A 0C3, Canada.",
+        "Research Group Translational Structural Biology, German Center for Neurodegenerative Diseases, Gottingen 37075, Germany.",
+        "Department for NMR-Based Structural Biology, Max Planck Institute for Biophysical Chemistry 37077 Gottingen, Germany.",
+        "Department of Molecular Physiology and Biophysics, University of Vermont, Burlington, VT 05405; cberger@uvm.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cario, Alisa",
+        "short_name": "Cario A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology and Biophysics, University of Vermont, Burlington, VT 05405."
+        ]
+      },
+      {
+        "full_name": "Savastano, Adriana",
+        "short_name": "Savastano A",
+        "identifiers": [],
+        "affiliations": [
+          "Research Group Translational Structural Biology, German Center for Neurodegenerative Diseases, Göttingen 37075, Germany."
+        ]
+      },
+      {
+        "full_name": "Wood, Neil B",
+        "short_name": "Wood NB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology and Biophysics, University of Vermont, Burlington, VT 05405."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhu",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, McGill University, Montréal, QC H3A 0C3, Canada."
+        ]
+      },
+      {
+        "full_name": "Previs, Michael J",
+        "short_name": "Previs MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Physiology and Biophysics, University of Vermont, Burlington, VT 05405."
+        ]
+      },
+      {
+        "full_name": "Hendricks, Adam G",
+        "short_name": "Hendricks AG",
+        "identifiers": [
+          "0000-0003-3635-1577"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, McGill University, Montréal, QC H3A 0C3, Canada."
+        ]
+      },
+      {
+        "full_name": "Zweckstetter, Markus",
+        "short_name": "Zweckstetter M",
+        "identifiers": [
+          "0000-0002-2536-6581"
+        ],
+        "affiliations": [
+          "Research Group Translational Structural Biology, German Center for Neurodegenerative Diseases, Göttingen 37075, Germany.",
+          "Department for NMR-Based Structural Biology, Max Planck Institute for Biophysical Chemistry 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Berger, Christopher L",
+        "short_name": "Berger CL",
+        "identifiers": [
+          "0000-0001-8481-3479"
+        ],
+        "affiliations": [
+          "Department of Molecular Physiology and Biophysics, University of Vermont, Burlington, VT 05405; cberger@uvm.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2022 Feb 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/10 06:00",
+    "fetched_at": "2026-09-20 08:12:06"
+  },
+  "links": {
+    "cites": [
+      "42063815",
+      "41631437",
+      "39718548",
+      "39014245",
+      "38420777",
+      "37903223",
+      "37489532",
+      "36959205"
+    ],
+    "refs": [
+      "33952699",
+      "33294790",
+      "31699899",
+      "31481790",
+      "31481789",
+      "30992364",
+      "30770434",
+      "30742061",
+      "30638536",
+      "30562452",
+      "29748322",
+      "29711196",
+      "29662074",
+      "29314492",
+      "29077261",
+      "28978447",
+      "28322917",
+      "28251926",
+      "27911791",
+      "26953146",
+      "26751493",
+      "26165593",
+      "26094605",
+      "26034266",
+      "24739168",
+      "24520046",
+      "24361273",
+      "24008243",
+      "23019339",
+      "22039058",
+      "21794954",
+      "21734277",
+      "19226187",
+      "18971445",
+      "18803694",
+      "18495933",
+      "18263702",
+      "18202255",
+      "18177439",
+      "17307736",
+      "17190808",
+      "16475817",
+      "16092090",
+      "16027053",
+      "15615853",
+      "15044677",
+      "14680943",
+      "12886013",
+      "12325083",
+      "11115852",
+      "10995239",
+      "10984497",
+      "10821687",
+      "10318930",
+      "9836646",
+      "9824291",
+      "9629852",
+      "9190213",
+      "8590813",
+      "8120098",
+      "8068626",
+      "7566345",
+      "6425287",
+      "3139677",
+      "3132715",
+      "3131773",
+      "3084478",
+      "2484340",
+      "1918161",
+      "1465130",
+      "1057175",
+      "599568"
+    ],
+    "similar": [
+      "35135879",
+      "36162501",
+      "24086739",
+      "12325083",
+      "18315566",
+      "26953146",
+      "15671021",
+      "23740819",
+      "28882301",
+      "30562452",
+      "28882299",
+      "17297915",
+      "12677450",
+      "26034266",
+      "31879899",
+      "32341125",
+      "31004638",
+      "31653695",
+      "30992364",
+      "28636913",
+      "31266806",
+      "10899436",
+      "16092090",
+      "10995239",
+      "18940799",
+      "15615642",
+      "12944375",
+      "21062741",
+      "30884818",
+      "8799840",
+      "18803694",
+      "37489532",
+      "15020716",
+      "9836646",
+      "33772783",
+      "30606258",
+      "11601501",
+      "7669769",
+      "26269332",
+      "17307736",
+      "11117542",
+      "23225000",
+      "23019339",
+      "25229151",
+      "31358628",
+      "24251416",
+      "21127069",
+      "8068626",
+      "11160831",
+      "20133804",
+      "15642108",
+      "10984497",
+      "23043292",
+      "16495230",
+      "8429017",
+      "21757739",
+      "17725643",
+      "19895707",
+      "12470988",
+      "10100846",
+      "23027743",
+      "9824291",
+      "11052669",
+      "12082079",
+      "9190213",
+      "10437785",
+      "32096036",
+      "34426645",
+      "25165145",
+      "33453943",
+      "25440728",
+      "7566345",
+      "26094605",
+      "15963990",
+      "8590813",
+      "24733915",
+      "11078890",
+      "24252707",
+      "35857846",
+      "29167405",
+      "22396417",
+      "16533051",
+      "10983715",
+      "17493042",
+      "22072628",
+      "24453187",
+      "10965792",
+      "11089577",
+      "14975751",
+      "31699899",
+      "35996000",
+      "17029411",
+      "12112079",
+      "25162583",
+      "10820221",
+      "12805366",
+      "18495933",
+      "9079670",
+      "17721707",
+      "10737602",
+      "32250308",
+      "36710643",
+      "32251304",
+      "39092904",
+      "26684364",
+      "39366336",
+      "38161790",
+      "32696377",
+      "38854137",
+      "31065505",
+      "38168322",
+      "38313287",
+      "37656892"
+    ],
+    "review": [
+      "35135879",
+      "31004638",
+      "10899436",
+      "15615642",
+      "30884818",
+      "23225000",
+      "15642108",
+      "12470988",
+      "32096036",
+      "33453943",
+      "7566345",
+      "10983715",
+      "17493042"
+    ],
+    "pmc": [
+      "8851524"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2114215119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35135879/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35135879",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-387",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

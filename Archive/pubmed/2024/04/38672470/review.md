@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and figure/table references
+- **Assessment boundary** Scientific validity, methodological soundness, interpretation of results, and alignment with Nature-style criteria
+- **Shared manuscript claim summary** The authors present ITEM-FIVE, a mass spectrometry-based method to determine apparent enthalpies and entropies of gas-phase dissociation reactions of non-covalent protein complexes. Using T4Ff homo-trimers and biotinylated variants as a model system, they report distinct dissociation enthalpies for hetero-trimers versus homo-trimers, attributed to entropic spring effects from biotin moieties mimicking IDRs. Molecular dynamics simulations support symmetric ground states, leading to the conclusion that transition state asymmetries explain the observed energetic differences.
+- **Visible evidence base** Abstract, full methods section, results section with figures and tables referenced, discussion, and supplemental figure/table references
+- **Missing materials affecting confidence** Raw mass spectra, supplemental figures S1-S9 and tables S1-S5, Arrhenius and Gibbs-Helmholtz plots, molecular dynamics trajectory details, and statistical analysis details
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting extension of the ITEM methodology to study IDR effects on protein complex stability. The experimental design is logical, and the model system is appropriate. However, several technical and interpretive concerns limit the current strength of the conclusions. The distinction between homo-trimer and hetero-trimer enthalpies is small (1-2 kJ/mol), and the mechanistic interpretation via entropic springs, while plausible, is not directly tested. The molecular dynamics simulations are described as supporting symmetric ground states, but the connection to transition state energetics is speculative. The manuscript would benefit from clearer presentation of raw data, error analysis, and a more rigorous treatment of alternative explanations.
+- **Who would be interested in the results, and why** Researchers in biophysics, structural biology, and mass spectrometry-based protein analysis would find this work relevant. Those studying IDRs and their effects on protein complex stability, as well as those developing methods for measuring weak non-covalent interactions, would be particularly interested. The methodological advance could have applications in drug discovery and protein engineering.
+- **Major strengths** The study addresses an important question about how IDRs modulate protein complex stability. The use of a well-characterized model system (T4Ff) is appropriate. The combination of experimental mass spectrometry with molecular dynamics simulations is a strength. The ITEM-FIVE method represents a novel extension of previous ITEM approaches.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the apparent enthalpies of dissociation for F-F-F and bF-bF-bF are 3.32 kJ/mol and 3.85 kJ/mol, respectively, while those for F-F-bF and F-bF-bF are 1.86 kJ/mol and 1.08 kJ/mol, and that these differences are meaningful.
+  - **Evidence pointer** Table 3, Section 3.2
+  - **Concern** The reported enthalpy differences between homo-trimers and hetero-trimers are very small (1.5-2.8 kJ/mol). No error bars, standard deviations, or replicate measurements are reported for these values. Given the typical variability in ion intensity measurements in mass spectrometry, it is unclear whether these differences are statistically significant. The manuscript does not provide information on the number of replicate experiments or the uncertainty in the fitted parameters.
+  - **Why it matters** The central conclusion of the paper, that IDR-like biotin moieties alter dissociation energetics, rests entirely on these small differences. Without proper error analysis, the claim is not robustly supported.
+  - **Resolution test** Provide replicate measurements (at least 3 independent experiments) with standard deviations or confidence intervals for all reported enthalpies and entropies. Perform a statistical test (e.g., t-test or ANOVA) to demonstrate that the differences between homo-trimers and hetero-trimers are significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation and mechanistic support
+  - **Claim pointer** The authors attribute the lower enthalpies of hetero-trimer dissociation to entropic spring effects and transition state asymmetry induced by biotin moieties.
+  - **Evidence pointer** Section 3.3, Section 4, Figure 6, Supplemental Figure S9
+  - **Concern** The entropic spring interpretation is presented as the primary explanation, but it is not directly tested. The molecular dynamics simulations show symmetric ground states and flexible biotin moieties, but no simulation of transition states is provided. The claim that biotin moieties induce transition state asymmetry is speculative. Alternative explanations, such as differences in protonation states, gas-phase conformations, or charge distribution between homo- and hetero-trimers, are not discussed.
+  - **Why it matters** The mechanistic model is central to the paper's novelty and significance. Without direct evidence for transition state effects, the interpretation remains one of several possibilities.
+  - **Resolution test** Provide additional experimental or computational evidence directly addressing transition state structure or energetics. Alternatively, discuss and rule out alternative explanations (e.g., charge effects, conformational differences) with supporting data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that molecular dynamics simulations were performed for 500 ns, but in Section 3.3 they mention "each lasting 200 ns."
+  - **Evidence pointer** Section 2.9, Section 3.3
+  - **Concern** There is an inconsistency in the reported simulation time. Section 2.9 states 500 ns, while Section 3.3 states 200 ns. This discrepancy is not explained and raises questions about the reliability of the simulation description.
+  - **Why it matters** Accurate reporting of simulation parameters is essential for reproducibility and for assessing the adequacy of sampling.
+  - **Resolution test** Clarify the correct simulation time and ensure consistency throughout the manuscript. If different simulations were performed, specify which ones were used for which analyses.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ITEM-FIVE enables "semi-quantitative determination of energy differences" and that the method "eliminates" influences of multiple charges and ion acceleration.
+  - **Evidence pointer** Section 2.8, Section 4
+  - **Concern** The extrapolation procedure from high-energy gas-phase conditions to ambient temperature is described only briefly, with reference to previous publications. The validity of this extrapolation for the present system is not demonstrated. The term "semi-quantitative" is used, but the limitations of this approach are not clearly stated.
+  - **Why it matters** The reliability of the reported thermodynamic values depends on the validity of the extrapolation. If the extrapolation is not robust, the quantitative claims are weakened.
+  - **Resolution test** Provide a more detailed description of the extrapolation procedure, including any assumptions and their justification. Discuss the limitations of the semi-quantitative approach and how they affect the interpretation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses specialized terminology without sufficient context for a general reader. The key finding (enthalpy differences) is buried in the middle of the abstract.
+  - **Required correction** Restructure the abstract to clearly state the problem, the method, the key result, and the implication in a more accessible manner.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.7
+  - **Evidence pointer** Section 2.7
+  - **Issue** The description of the ITEM-FIVE experimental procedure is brief. Details such as the range of collision voltages used, the number of replicates, and the criteria for selecting the precursor ion are not fully specified.
+  - **Required correction** Provide more detailed experimental parameters to enable reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion of entropic springs in biology is broad and includes several examples that are not directly relevant to the present system. This distracts from the specific findings.
+  - **Required correction** Focus the discussion on the relevance of entropic springs to the present results and reduce extraneous examples.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Figure 4
+  - **Evidence pointer** Figure 4
+  - **Issue** The figure caption does not clearly explain what is plotted on the axes or how the Boltzmann fits were performed.
+  - **Required correction** Expand the figure caption to include axis labels, units, and a description of the fitting procedure.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of error analysis), R1-M2 (unsupported mechanistic interpretation), R1-M3 (inconsistent simulation times)
+- **Assessment against Nature-style criteria** Originality: The ITEM-FIVE method is a novel extension of previous ITEM approaches, and the application to IDR effects is new. However, the conceptual advance is incremental. Scientific importance: The question of how IDRs modulate protein complex stability is important, but the small effect sizes and speculative interpretation limit the immediate impact. Interdisciplinary readership: The work bridges mass spectrometry, biophysics, and protein chemistry, but the presentation is likely too specialized for a broad audience. Technical soundness: The experimental approach is reasonable, but the lack of error analysis and the inconsistency in simulation times are significant weaknesses. Readability for nonspecialists: The manuscript is written for a specialist audience and would benefit from clearer explanations of the methodology and significance.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims require stronger experimental support (replicates, error analysis) and a more rigorous treatment of the mechanistic interpretation. The inconsistency in simulation times must be resolved. If these concerns are addressed, the work could be suitable for publication in a specialized journal.
+
+## Risk / unsupported claims
+- The claim that biotin moieties induce transition state asymmetry and lower transition state energy levels is not directly supported by the data presented.
+- The assertion that entropic spring effects explain the observed enthalpy differences is speculative and not tested against alternative models.
+- The statement that ITEM-FIVE "eliminates" influences of multiple charges and ion acceleration is not fully justified with data.
+- The reported enthalpy and entropy values lack error estimates, making their significance unassessable.
+- The molecular dynamics simulation time is inconsistently reported (500 ns vs. 200 ns), undermining confidence in the simulation results.

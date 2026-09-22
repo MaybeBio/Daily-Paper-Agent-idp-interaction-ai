@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.03.616458",
+  "title": "PUNCH2: explore the strategy for Intrinsically Disordered Protein predictor",
+  "authors": "Di Meng; Gianluca Pollastri",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-03",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于深度学习的无序蛋白区域预测器PUNCH2，聚焦IDR预测而非PPI互作机制，方法上采用PLM嵌入和卷积网络，对象相关但缺乏互作维度。",
+  "abstract": "Intrinsically disordered proteins (IDPs) lack stable three-dimensional structures, which poses significant challenges for their computational prediction. This study introduces PUNCH2, a novel approach for predicting intrinsically disordered regions (IDRs) in proteins. We address key issues such as the scarcity of comprehensive IDR databases, effective feature extraction, and robust model architecture. By integrating sequences from experimental PDB datasets and fully disordered DisProt sequences for training, PUNCH2 achieves superior prediction accuracy. Various sequence embeddings, including One-Hot, MSA-based, and PLM-based methods, were evaluated, with ProtTrans-based embeddings showing the best performance. The optimal model architecture features multiple convolutional layers, enhancing predictive confidence. PUNCH2 and its lighter variant, PUNCH2-light, demonstrate high efficiency and accuracy in benchmarking against top predictors on the CAID2 dataset, offering promising tools for advancing IDP research and understanding.",
+  "abstract_zh": "固有无序蛋白（IDPs）缺乏稳定的三维结构，这对其计算预测构成了重大挑战。本研究介绍了PUNCH2，一种预测蛋白质中固有无序区域（IDRs）的新方法。我们解决了诸如全面IDR数据库稀缺、有效特征提取以及稳健模型架构等关键问题。通过整合实验性PDB数据集中的序列和完全无序的DisProt序列进行训练，PUNCH2实现了卓越的预测准确性。评估了多种序列嵌入方法，包括One-Hot、基于MSA和基于PLM的方法，其中基于ProtTrans的嵌入表现最佳。最优模型架构包含多个卷积层，增强了预测置信度。PUNCH2及其轻量级变体PUNCH2-light在CAID2数据集上与顶级预测器进行基准测试时，展现出高效率和准确性，为推进IDP研究和理解提供了有前景的工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.03.616458",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.03.616458",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.03.616458/index.html"
+}

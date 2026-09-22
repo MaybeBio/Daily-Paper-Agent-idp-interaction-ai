@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40521689",
+  "title": "Elucidating Protein Dynamics through the Optimal Annealing of Variational Autoencoders.",
+  "authors": "Adhikari, Subinoy; Mondal, Jagannath",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2025-06-16",
+  "window": {
+    "start": "2025-06-16",
+    "end": "2025-06-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出通过FVE分数优化VAE的beta退火参数，以改进折叠蛋白和IDP的构象动力学建模，虽未直接研究PPI，但为无序蛋白构象系综的AI建模提供了可迁移的方法学启发。",
+  "abstract": "Proteins traverse intricate conformational landscapes with transitions and long-lived states that hold the key to their biological function. However, unraveling these dynamics remains a formidable challenge. An emerging approach has been to train the conformational ensemble via deep Variational autoencoders (VAEs) in a bid to machine learn the underlying reduced-dimensional representation. However, training VAEs typically involves a fixed beta value of 1, where beta acts as the crucial weighing factor between the reconstruction and regularization terms. This static setup can often lead to posterior collapse, which significantly hinders the model's ability to capture complex protein dynamics accurately. To mitigate this issue, annealing the beta parameter offers a potential alternative. However, this approach frequently falls short in fully addressing the problem, mainly due to the arbitrary choice of the upper bound of beta and the annealing schedule. In this work, we propose a new approach for selecting the beta parameter by utilizing the Fraction of variation explained (FVE) score to identify its optimal value. We demonstrate that training annealed VAEs at their optimum beta in a single cycle consistently outperformed their nonannealed counterparts, as evident from their higher variational approach for Markov processes-2 and generalized matrix Rayleigh quotient scores and distinct free energy surface minima on both folded and intrinsically disordered proteins. The improved latent space representations significantly improve state space discretization, thereby refining Markov State Models and providing more accurate insights into conformational landscapes, as reflected in distinct contact maps. Together, this development provides a systematic approach to optimizing the balance between reconstruction and regularization aspects of VAEs that would augment the potential of annealed VAEs in resolving complex conformational landscapes.",
+  "abstract_zh": "蛋白质穿越复杂的构象景观，经历转变和长寿命状态，这些状态对其生物学功能至关重要。然而，揭示这些动力学过程仍是一项艰巨的挑战。一种新兴方法是通过深度变分自编码器（VAEs）训练构象系综，旨在机器学习潜在的降维表示。然而，训练VAEs通常涉及固定的beta值为1，其中beta作为重建项和正则化项之间的关键权重因子。这种静态设置常导致后验坍缩，显著阻碍模型准确捕捉复杂蛋白质动力学的能力。为缓解此问题，对beta参数进行退火处理提供了一种潜在替代方案。然而，该方法往往未能完全解决问题，主要由于beta上限和退火时间表的任意选择。在本工作中，我们提出了一种新方法，利用解释变异分数（FVE）来选择beta参数，以确定其最优值。我们证明，在单周期内以最优beta训练退火VAEs，其表现始终优于非退火对应模型，这从其更高的马尔可夫过程变分方法-2和广义矩阵瑞利商分数以及折叠和 intrinsically disordered proteins 上不同的自由能表面最小值中可见。改进的潜在空间表示显著提升了状态空间离散化，从而优化了马尔可夫状态模型，并提供更准确的构象景观洞察，这反映在独特的接触图中。总之，这一发展提供了一种系统化方法，用于优化VAEs中重建和正则化之间的平衡，这将增强退火VAEs在解析复杂构象景观方面的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40521689/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40521689/",
+  "paper_page_path": "papers/pubmed/40521689/index.html"
+}

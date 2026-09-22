@@ -1,0 +1,216 @@
+{
+  "identity": {
+    "pmid": "37276062",
+    "doi": "10.1021/acs.jctc.3c00198",
+    "title": "Theory and Simulation of Multiphase Coexistence in Biomolecular Mixtures."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates constitute a newly recognized form of spatial organization in living cells. Although many condensates are believed to form as a result of phase separation, the physicochemical properties that determine the phase behavior of heterogeneous biomolecular mixtures are only beginning to be explored. Theory and simulation provide invaluable tools for probing the relationship between molecular determinants, such as protein and RNA sequences, and the emergence of phase-separated condensates in such complex environments. This review covers recent advances in the prediction and computational design of biomolecular mixtures that phase-separate into many coexisting phases. First, we review efforts to understand the phase behavior of mixtures with hundreds or thousands of species using theoretical models and statistical approaches. We then describe progress in developing analytical theories and coarse-grained simulation models to predict multiphase condensates with the molecular detail required to make contact with biophysical experiments. We conclude by summarizing the challenges ahead for modeling the inhomogeneous spatial organization of biomolecular mixtures in living cells.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Proteins/chemistry",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jacobs, William M"
+      ],
+      "short_names": [
+        "Jacobs WM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0574-4319"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Princeton University, Princeton, New Jersey 08544, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jacobs, William M",
+        "short_name": "Jacobs WM",
+        "identifiers": [
+          "0000-0003-0574-4319"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Princeton University, Princeton, New Jersey 08544, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2023 Jun 27",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/05 19:10",
+    "fetched_at": "2026-09-20 22:36:22"
+  },
+  "links": {
+    "cites": [
+      "41603734",
+      "41566033",
+      "41212947",
+      "40821536",
+      "40740523",
+      "40699931",
+      "40590540",
+      "40093361",
+      "39826710",
+      "39713334",
+      "39705880",
+      "39432752",
+      "38885177",
+      "38875706",
+      "38826518",
+      "38181073"
+    ],
+    "refs": [],
+    "similar": [
+      "37276062",
+      "35727989",
+      "35597639",
+      "38649740",
+      "37408305",
+      "33864415",
+      "38383656",
+      "39078082",
+      "36819870",
+      "31634364",
+      "33300985",
+      "34241502",
+      "32800925",
+      "34144468",
+      "37171907",
+      "36227468",
+      "37873180",
+      "37695778",
+      "33704061",
+      "37886520",
+      "29509422",
+      "36004748",
+      "23912807",
+      "37218279",
+      "34966005",
+      "31958956",
+      "25615870",
+      "34772789",
+      "29258725",
+      "33496264",
+      "34725154",
+      "35832192",
+      "31017394",
+      "33571491",
+      "35001622",
+      "33231755",
+      "36071192",
+      "37252985",
+      "35674796",
+      "33512148",
+      "36227487",
+      "36580685",
+      "34271007",
+      "39319382",
+      "35378855",
+      "36524527",
+      "34129784",
+      "34772786",
+      "33982350",
+      "28988931",
+      "36291688",
+      "34303933",
+      "36227469",
+      "36993371",
+      "29364893",
+      "36311142",
+      "32934220",
+      "31604601",
+      "34074792",
+      "31845799",
+      "35867744",
+      "24028092",
+      "32696384",
+      "28256228",
+      "37013374",
+      "33765580",
+      "36028355",
+      "31020316",
+      "36994084",
+      "33397597",
+      "31199001",
+      "36227480",
+      "26821792",
+      "33661634",
+      "36150962",
+      "33606945",
+      "36261037",
+      "34592698",
+      "37385079",
+      "38147563",
+      "37880420"
+    ],
+    "review": [
+      "37276062",
+      "33300985",
+      "32800925",
+      "34144468",
+      "37171907",
+      "29509422",
+      "37218279",
+      "34966005",
+      "34772789",
+      "29258725",
+      "35832192",
+      "36071192",
+      "34271007",
+      "36524527",
+      "34129784",
+      "34772786",
+      "28988931",
+      "34303933",
+      "36311142",
+      "31604601",
+      "24028092",
+      "33765580",
+      "36028355",
+      "31020316",
+      "26821792",
+      "36150962"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37276062",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.3c00198",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

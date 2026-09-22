@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "39740355",
+    "doi": "10.1016/j.sbi.2024.102958",
+    "title": "Binding mechanisms of intrinsically disordered proteins: Insights from experimental studies and structural predictions."
+  },
+  "content": {
+    "abstract": "Advances in the characterization of intrinsically disordered proteins (IDPs) have unveiled a remarkably complex and diverse interaction landscape, including coupled folding and binding, highly dynamic complexes, multivalent interactions, and even interactions between entirely disordered proteins. Here we review recent examples of IDP binding mechanisms elucidated by experimental techniques such as nuclear magnetic resonance spectroscopy, single-molecule Forster resonance energy transfer, and stopped-flow fluorescence. These techniques provide insights into the structural details of transition pathways and complex intermediates, and they capture the dynamics of IDPs within complexes. Furthermore, we discuss the growing role of artificial intelligence, exemplified by AlphaFold, in identifying interaction sites within IDPs and predicting their bound-state structures. Our review highlights the powerful complementarity between experimental methods and artificial intelligence-based approaches in advancing our understanding of the intricate interaction landscape of IDPs.",
+    "keywords": [
+      "AlphaFold",
+      "Intrinsically disordered proteins",
+      "NMR",
+      "artificial intelligence",
+      "binding mechanisms",
+      "single-molecule FRET",
+      "stopped-flow fluorescence",
+      "structure prediction"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Binding",
+      "Protein Conformation",
+      "Models, Molecular",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Orand, Thibault",
+        "Jensen, Malene Ringkjobing"
+      ],
+      "short_names": [
+        "Orand T",
+        "Jensen MR"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, France.",
+        "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, France. Electronic address: malene.jensen@ibs.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Orand, Thibault",
+        "short_name": "Orand T",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Jensen, Malene Ringkjøbing",
+        "short_name": "Jensen MR",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Grenoble Alpes, CEA, CNRS, IBS, Grenoble, France. Electronic address: malene.jensen@ibs.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/01 12:42",
+    "fetched_at": "2026-09-21 14:19:10"
+  },
+  "links": {
+    "cites": [
+      "42361232",
+      "42159250",
+      "42095372",
+      "42054155",
+      "41921197",
+      "41911046",
+      "41904596",
+      "41735282",
+      "41652159",
+      "41644540",
+      "41570036",
+      "41535595",
+      "41365991",
+      "41328672",
+      "41309611",
+      "41209584",
+      "41096841",
+      "41016010",
+      "41002412",
+      "40912403",
+      "40894573",
+      "40727659",
+      "40724810",
+      "40420825",
+      "40165812",
+      "39763873"
+    ],
+    "refs": [],
+    "similar": [
+      "39740355",
+      "35053175",
+      "31441158",
+      "30316104",
+      "36750251",
+      "28493424",
+      "30979035",
+      "39163306",
+      "33355572",
+      "32097582",
+      "29276882",
+      "30527137",
+      "30471688",
+      "30413085",
+      "30813629",
+      "32696381",
+      "24329095",
+      "23794453",
+      "30514761",
+      "34610267",
+      "29306779",
+      "26195786",
+      "32159932",
+      "33877595",
+      "32139510",
+      "31783325",
+      "27844185",
+      "34358545",
+      "38987470",
+      "32696383",
+      "34504009",
+      "32135192",
+      "29733855",
+      "29382046",
+      "39446390",
+      "30471704",
+      "32840111",
+      "24604825",
+      "28394890",
+      "32253236",
+      "24008243",
+      "32403216",
+      "29716994",
+      "34845619",
+      "29990433",
+      "34390736",
+      "24317797",
+      "30352491",
+      "36641212",
+      "34817999",
+      "26073257",
+      "26742101",
+      "26387102",
+      "25207671",
+      "27004461",
+      "32020911",
+      "33230318",
+      "30703278",
+      "37108059",
+      "35609776",
+      "26387110",
+      "32696379",
+      "35762718",
+      "32097611",
+      "36674958",
+      "29157493",
+      "30909517",
+      "29982297",
+      "30840442",
+      "30413699",
+      "26226419",
+      "32429036",
+      "36416865",
+      "24178034",
+      "30066087",
+      "34656328",
+      "30471690",
+      "31624293",
+      "31021441",
+      "39807013",
+      "38039868",
+      "30471695",
+      "32323533",
+      "28625737",
+      "38409704",
+      "25544254",
+      "30471705",
+      "30793144",
+      "23545493",
+      "35883018",
+      "28834051",
+      "29341926",
+      "25863585",
+      "29364151",
+      "33951592",
+      "28914483",
+      "25631161",
+      "31425549",
+      "31326517",
+      "26720267"
+    ],
+    "review": [
+      "39740355",
+      "35053175",
+      "31441158",
+      "30316104",
+      "36750251",
+      "30979035",
+      "33355572",
+      "32097582",
+      "30527137",
+      "30413085",
+      "30813629",
+      "23794453",
+      "34610267",
+      "29306779",
+      "31783325",
+      "34358545",
+      "32135192",
+      "29382046",
+      "32253236",
+      "24008243",
+      "32403216",
+      "34390736",
+      "30352491",
+      "26073257",
+      "26387102",
+      "27004461",
+      "32020911",
+      "26387110",
+      "32097611",
+      "29157493",
+      "30909517",
+      "29982297",
+      "30840442",
+      "26226419",
+      "32429036",
+      "30066087",
+      "31021441",
+      "38039868",
+      "28625737",
+      "38409704",
+      "25544254",
+      "30471705",
+      "23545493",
+      "25863585",
+      "29364151",
+      "33951592",
+      "31326517",
+      "26720267"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959-440X(24)00185-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

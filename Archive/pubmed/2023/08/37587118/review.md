@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and figure legends.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript content. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors report the discovery of "Heimdall," a putative alternative protein derived from a non-coding RNA (ncRNA) with homology to the kappa light chain variable region of immunoglobulins, expressed in rat astrocytes. They propose that Heimdall is an intrinsically disordered protein secreted under inflammatory conditions, and that its knockout or neutralization induces astrocyte morphological changes and expression of neuronal progenitor markers, suggesting a role as a gatekeeper of astrocyte-to-neuroprogenitor conversion.
+- **Visible evidence base** Proteomic (LC-MS/MS) identification of Heimdall and other ghost proteins; transcriptomic validation by RT-PCR; Western blot and immunofluorescence for protein localization and expression; CRISPR-Cas9 knockout and antibody neutralization experiments; proteomic analysis of interactome and differential expression; computational structure prediction and docking; electrophysiological measurements of membrane potential.
+- **Missing materials affecting confidence** Raw mass spectrometry data, peptide-spectrum matches, and detailed bioinformatics parameters are not provided. Validation of the ncRNA-derived protein by orthogonal methods (e.g., ribosome profiling, CRISPR-based epitope tagging) is absent. Quantification of Western blots and immunofluorescence is only partially shown. Statistical details for some experiments (e.g., exact n, effect sizes) are incomplete. No data on the specificity of the anti-Heimdall antibody beyond peptide competition is shown. The manuscript does not provide a clear genomic annotation or evolutionary conservation analysis for the ncRNA locus.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting and novel concept: the translation of a non-coding RNA into a functional protein in the central nervous system, with implications for astrocyte plasticity. However, the evidence presented is largely descriptive and correlative, and several key claims are not fully supported by the data shown. The identification of Heimdall as a bona fide protein product of an ncRNA requires stronger validation, and the functional data, while suggestive, do not conclusively demonstrate a specific mechanism or a direct role in astrocyte-to-neuron conversion. The manuscript would benefit from a more focused and rigorous experimental approach.
+- **Who would be interested in the results, and why** Researchers in the fields of neuroproteomics, non-coding RNA biology, astrocyte biology, and neural regeneration. The concept of "ghost proteins" from ncRNAs is of broad interest, and the potential link to astrocyte fate determination could attract those studying cellular reprogramming and spinal cord injury. The findings may also be of interest to the immunoglobulin and protein misfolding communities, given the homology to kappa light chains and the association with Bence Jones proteins.
+- **Major strengths**
+  - The study addresses a novel and timely topic: the functional relevance of alternative proteins derived from non-coding RNAs in the CNS.
+  - The use of a longitudinal SCI model and spatial proteomics is a strength, providing a dynamic view of ghost protein expression.
+  - The combination of multiple techniques (proteomics, transcriptomics, cell biology, electrophysiology) is commendable.
+  - The identification of a specific protein (Heimdall) with homology to immunoglobulin variable regions and its localization in astrocytes is an interesting starting point for further investigation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for protein existence
+  - **Claim pointer** The authors claim that Heimdall is a protein translated from a non-coding RNA (ncRNA) and identify it by mass spectrometry.
+  - **Evidence pointer** Results section "Immunoglobulin-like proteins identification", Figure 2, Supp. Data 1 & 2
+  - **Concern** The identification of Heimdall as a protein product of an ncRNA is not sufficiently validated. The mass spectrometry data are not shown in detail, and the identification relies on a single unique peptide (as stated in the methods). This is insufficient to confidently establish the existence of a novel protein, especially one derived from a non-coding locus. The possibility of false-positive identification from a database of predicted proteins is high. No orthogonal validation (e.g., targeted mass spectrometry, Western blot with a validated antibody against the endogenous protein, or translation assays) is provided to confirm the endogenous expression of the predicted protein.
+  - **Why it matters** The entire premise of the paper rests on the existence of this novel protein. If the identification is not robust, all subsequent functional claims are undermined. The field of "ghost proteomics" is controversial, and the standards for identification must be exceptionally high to avoid artifacts.
+  - **Resolution test** Provide the complete list of identified peptides with annotated spectra, including the specific peptide for Heimdall. Show that the peptide is unique to the predicted protein and not shared with any known protein. Perform an orthogonal validation, such as a targeted mass spectrometry assay (e.g., PRM/SRM) or a Western blot using a well-characterized antibody that detects the endogenous protein in astrocyte lysates. Ideally, demonstrate that the protein is translated from the predicted ncRNA using a translation reporter assay or ribosome profiling.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional evidence
+  - **Claim pointer** The authors claim that Heimdall acts as a "gatekeeper" of astrocyte-to-neuroprogenitor conversion, based on the effects of its knockout or neutralization.
+  - **Evidence pointer** Results sections "Heimdall function investigation", "Astrocytes deprived of Heimdall secrete neuronal progenitor factors", "Overexpression of Heimdall in astrocytes sustains the astrocyte fate", Figures 7, 8, 17, 18
+  - **Concern** The functional evidence is largely indirect and does not demonstrate a specific mechanism. The observed morphological changes (neurite-like extensions) and changes in protein expression are not sufficient to claim a "gatekeeper" role. The authors do not show that the cells actually become functional neurons (e.g., via electrophysiological properties of neurons, expression of mature neuronal markers, or synaptic activity). The proteomic changes are descriptive and could be due to many non-specific effects. The claim that Heimdall "controls" the level of transcription factors is not directly tested.
+  - **Why it matters** The central hypothesis of the paper is that Heimdall regulates astrocyte fate. Without direct evidence of a functional switch to a neuronal phenotype, the claim is overstated. The paper would be significantly strengthened by a more definitive functional assay.
+  - **Resolution test** Perform a more rigorous characterization of the phenotype of Heimdall-KO or anti-Heimdall-treated cells. This could include: (1) immunostaining for mature neuronal markers (e.g., NeuN, MAP2) and astrocytic markers (e.g., GFAP, S100β) to confirm a change in cell identity; (2) whole-cell patch-clamp recordings to assess whether the cells exhibit neuronal-like action potentials; (3) a more targeted analysis of the signaling pathways (e.g., Notch, TGFβ) to demonstrate a direct molecular link. The authors should also test whether the effect is cell-autonomous and whether it can be rescued by re-expressing Heimdall.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of the antibody
+  - **Claim pointer** The authors use a custom anti-Heimdall antibody for Western blot, immunofluorescence, and neutralization experiments.
+  - **Evidence pointer** Methods section "Immunofluorescence", "Western blots", "Immunoprecipitation", Figures 4, 5, 6
+  - **Concern** The specificity of the anti-Heimdall antibody is not sufficiently demonstrated. The authors show that pre-incubation with the immunogenic peptide reduces the signal, but this does not rule out cross-reactivity with other proteins, especially given the homology to immunoglobulin variable regions. The antibody could be recognizing other immunoglobulin-related proteins or an unrelated protein with a similar epitope. The neutralization experiments are particularly concerning, as the antibody could be exerting non-specific effects on cells.
+  - **Why it matters** The antibody is a key reagent used in multiple experiments. If it is not specific, the localization, expression, and functional data are all questionable.
+  - **Resolution test** Provide a more thorough characterization of the antibody. This could include: (1) Western blot analysis of cells with and without Heimdall knockout to show the absence of the specific band; (2) immunoprecipitation followed by mass spectrometry to identify the recognized protein; (3) testing the antibody against a panel of recombinant immunoglobulin variable regions to assess cross-reactivity. For neutralization experiments, a more specific approach, such as siRNA knockdown or a dominant-negative construct, should be used to confirm the phenotype.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** The authors make several quantitative claims, including the length of neurite-like extensions, the number of identified proteins, and the significance of proteomic changes.
+  - **Evidence pointer** Methods section "Experimental design and statistical rational", Results sections, Figures 7, 8, 12, 17, 18
+  - **Concern** The statistical analysis is not fully described. For example, the number of biological replicates for the neurite length measurements is not stated, and the figure shows only a representative image. The proteomic data are presented as heatmaps, but the underlying statistical tests and the criteria for defining "specific" proteins are not always clear. The authors state that a t-test was used for some comparisons, but the multiple testing correction is not mentioned.
+  - **Why it matters** The conclusions are based on these quantitative comparisons. Without proper statistical rigor, the results may not be reproducible or reliable.
+  - **Resolution test** Provide a detailed description of the statistical methods, including the number of replicates, the type of test used, and the multiple testing correction applied. For the neurite length measurements, show the distribution of the data and the exact p-values. For the proteomics, provide the full list of differentially expressed proteins with their p-values and fold changes, and clearly state the criteria for inclusion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract is dense and uses jargon without clear definitions. The introduction could better contextualize the "ghost proteome" concept for a broader audience.
+  - **Required correction** Simplify the abstract to make the main finding and its significance clearer. In the introduction, provide a brief, accessible explanation of what alternative proteins are and why they might be important.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Protein name
+  - **Evidence pointer** Throughout
+  - **Issue** The name "Heimdall" is used without a clear rationale or connection to its proposed function or homology.
+  - **Required correction** Briefly explain the choice of the name, or consider using a more descriptive name based on its genomic locus or homology.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Methods section "MS data analysis"
+  - **Evidence pointer** Methods section "MS data analysis of protein extract from the secretome"
+  - **Issue** The mass spectrometry data are not deposited in a public repository, and the search parameters are not fully detailed.
+  - **Required correction** Deposit the raw data and search results in a public repository (e.g., ProteomeXchange) and provide the full search parameters in the methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 4, 5, 6, 7
+  - **Evidence pointer** Figures 4, 5, 6, 7
+  - **Issue** Some Western blot and immunofluorescence images appear to be of low resolution, and the molecular weight markers are not always visible.
+  - **Required correction** Provide higher-resolution images and include molecular weight markers on all Western blots.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Insufficient evidence for the existence of the novel protein.
+  - R1-M2: Lack of definitive functional evidence for the proposed role in astrocyte-to-neuron conversion.
+  - R1-M3: Inadequate demonstration of antibody specificity.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of a functional protein derived from an ncRNA in the CNS is original and potentially significant. However, the idea of "ghost proteins" is not entirely new, and the novelty here is incremental.
+  - **Scientific importance** If the findings are robust, they could have implications for understanding the complexity of the proteome and for astrocyte biology. However, the current evidence is not strong enough to establish a major new paradigm.
+  - **Interdisciplinary readership** The topic has the potential to appeal to neuroscientists, molecular biologists, and proteomics researchers. However, the current presentation is likely too specialized for a broad audience.
+  - **Technical soundness** The technical approach is generally sound, but the key claims are not supported by the level of evidence provided. The lack of rigorous validation for the central protein identification is a major technical weakness.
+  - **Readability for nonspecialists** The manuscript is not easily accessible to nonspecialists due to the heavy use of specialized terminology and a dense presentation of results.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting hypothesis, but the central claims are not sufficiently supported. Major revisions and additional experiments are required to validate the existence of the protein and its proposed function. I would be supportive if the technical concerns, particularly regarding protein identification and functional evidence, are resolved.

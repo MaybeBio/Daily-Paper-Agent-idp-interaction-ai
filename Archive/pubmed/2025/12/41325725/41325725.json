@@ -1,0 +1,212 @@
+{
+  "identity": {
+    "pmid": "41325725",
+    "doi": "10.1016/j.jmgm.2025.109245",
+    "title": "CG-COA: a coarse-grained cubic orientation approach for systematic protein-protein docking validation."
+  },
+  "content": {
+    "abstract": "Traditional protein-protein docking algorithms face significant limitations when handling flexible protein systems, particularly where conformational flexibility plays crucial roles in binding specificity. This study developed and validated a Coarse-Grained Cubic Orientation Approach (CG-COA) that systematically samples six cubic orientations combined with coarse-grained molecular dynamics simulations and MM/PBSA free energy calculations. As a local docking approach, CG-COA requires prior knowledge of putative bioactive surfaces and focuses computational resources on biologically relevant binding orientations. The methodology was validated using six protein complexes: four core systems (PDB codes: 2HD5, 1MIM, 3QML, 2MWS) representing diverse binding mechanisms, plus two extreme scenarios (2MZD: intrinsically disordered proteins; 2QCS-1RGS: large conformational changes). Benchmark comparisons against established docking methods (ZDOCK and ClusPro) evaluated relative performance across different system types. Results demonstrated robust performance with overall AUROC of 0.94, achieving F-scores up to 1.00 for well-defined systems. Benchmark analysis revealed system-dependent performance: significant advantages for flexible systems (3QML: 3.7-5.1-fold improvement over rigid-body methods) but inferior performance for rigid interfaces (2HD5: outperformed by conventional approaches). Extreme docking scenarios revealed clear method limitations with poor structural accuracy (RMSDs >13 A), defining important applicability boundaries. The approach correctly diagnosed inherently flexible systems (2MWS) by not converging to single conformations. CG-COA addresses specific limitations of conventional protein-protein docking methods for systems with moderate conformational flexibility while clearly defining applicability boundaries. The methodology is unsuitable for extensive structural rearrangements or intrinsically disordered regions. The dual capability to identify native binding modes and diagnose flexibility provides valuable guidance for protein interaction studies.",
+    "keywords": [
+      "Coarse-grained molecular dynamics",
+      "Flexible protein systems",
+      "MM/PBSA",
+      "Method validation",
+      "Protein-protein docking",
+      "Systematic orientation sampling"
+    ],
+    "mesh_terms": [
+      "*Molecular Docking Simulation",
+      "Protein Binding",
+      "*Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Algorithms",
+      "Binding Sites",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Duzgun, Zekeriya",
+        "Eroglu, Zuhal"
+      ],
+      "short_names": [
+        "Duzgun Z",
+        "Eroglu Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Medical Biology, Faculty of Medicine, Giresun University, Giresun, Turkiye; Department of Medical Biology, School of Medicine, Ege University, Izmir, Turkiye. Electronic address: zduzgun@gmail.com.",
+        "Department of Medical Biology, School of Medicine, Ege University, Izmir, Turkiye."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Duzgun, Zekeriya",
+        "short_name": "Duzgun Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biology, Faculty of Medicine, Giresun University, Giresun, Türkiye; Department of Medical Biology, School of Medicine, Ege University, Izmir, Türkiye. Electronic address: zduzgun@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Eroglu, Zuhal",
+        "short_name": "Eroglu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biology, School of Medicine, Ege University, Izmir, Türkiye."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular graphics & modelling"
+    ],
+    "journal_abbrev": [
+      "J Mol Graph Model"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/02 01:00",
+    "fetched_at": "2026-09-17 22:37:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41325725",
+      "27166787",
+      "34298961",
+      "36282990",
+      "26575522",
+      "29718115",
+      "41851975",
+      "34704754",
+      "28236233",
+      "40696994",
+      "21506617",
+      "26146186",
+      "42201327",
+      "33687876",
+      "38987462",
+      "31441121",
+      "38987463",
+      "30404229",
+      "32679892",
+      "23996217",
+      "35213808",
+      "30182836",
+      "27444142",
+      "23516555",
+      "31785163",
+      "19843465",
+      "23912807",
+      "27496767",
+      "20715290",
+      "27655412",
+      "27782390",
+      "39754120",
+      "20017216",
+      "28279862",
+      "31062799",
+      "33360497",
+      "20939792",
+      "27796788",
+      "9514726",
+      "41319238",
+      "21033739",
+      "20939789",
+      "30989574",
+      "12926007",
+      "22213447",
+      "23180599",
+      "27785830",
+      "32709852",
+      "28024402",
+      "27905468",
+      "28128949",
+      "24564893",
+      "26111167",
+      "27701780",
+      "33671368",
+      "27699847",
+      "22497310",
+      "16972285",
+      "10072081",
+      "23220572",
+      "30226647",
+      "23203075",
+      "18591193",
+      "15001363",
+      "40324844",
+      "31013302",
+      "35796228",
+      "32649857",
+      "41518302",
+      "27802576",
+      "24888574",
+      "11841293",
+      "28168752",
+      "40962313",
+      "40532196",
+      "38966989",
+      "21826755",
+      "24273239",
+      "28236236",
+      "34070778",
+      "34475217",
+      "27858202",
+      "31569580",
+      "12761398",
+      "20584304",
+      "42043606",
+      "10091122",
+      "28616990",
+      "31742764",
+      "22500075",
+      "18083189",
+      "27816523",
+      "22966980",
+      "26579775",
+      "17825317",
+      "15211508",
+      "26629955",
+      "30652698",
+      "24479827",
+      "27996253"
+    ],
+    "review": [
+      "41325725",
+      "26575522",
+      "30404229",
+      "30182836",
+      "33360497",
+      "20939792",
+      "27796788",
+      "20939789",
+      "40324844"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093-3263(25)00305-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

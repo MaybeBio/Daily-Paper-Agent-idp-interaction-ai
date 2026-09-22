@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37680156",
+  "title": "The Application of MD Simulation to Lead Identification, Vaccine Design, and Structural Studies in Combat against Leishmaniasis - A Review.",
+  "authors": "Vijayakumar, Saravanan; Kumar, Lukkani Laxman; Borkotoky, Subhomoi; Murali, Ayaluru",
+  "journal": "Mini reviews in medicinal chemistry",
+  "published_date": "2023-09-08",
+  "window": {
+    "start": "2023-09-04",
+    "end": "2023-09-10"
+  },
+  "score": 5,
+  "one_liner_zh": "综述了分子动力学模拟在利什曼病药物发现、疫苗设计和结构研究中的应用，提及无序蛋白但非核心，缺乏PPI机制建模深度。",
+  "abstract": "Drug discovery, vaccine design, and protein interaction studies are rapidly moving toward the routine use of molecular dynamics simulations (MDS) and related methods. As a result of MDS, it is possible to gain insights into the dynamics and function of identified drug targets, antibody-antigen interactions, potential vaccine candidates, intrinsically disordered proteins, and essential proteins. The MDS appears to be used in all possible ways in combating diseases such as cancer, however, it has not been well documented as to how effectively it is applied to infectious diseases such as Leishmaniasis. As a result, this review aims to survey the application of MDS in combating leishmaniasis. We have systematically collected articles that illustrate the implementation of MDS in drug discovery, vaccine development, and structural studies related to Leishmaniasis. Of all the articles reviewed, we identified that only a limited number of studies focused on the development of vaccines against Leishmaniasis through MDS. Also, the PCA and FEL studies were not carried out in most of the studies. These two were globally accepted utilities to understand the conformational changes and hence it is recommended that this analysis should be taken up in similar approaches in the future.",
+  "abstract_zh": "药物发现、疫苗设计以及蛋白质相互作用研究正迅速转向分子动力学模拟（MDS）及相关方法的常规应用。通过MDS，可以深入了解已识别药物靶点、抗体-抗原相互作用、潜在疫苗候选物、固有无序蛋白质及关键蛋白质的动态特性和功能。MDS似乎被全方位用于对抗癌症等疾病，然而，其在利什曼病等传染病中的应用效果尚未得到充分记录。因此，本综述旨在调查MDS在对抗利什曼病中的应用情况。我们系统收集了展示MDS在药物发现、疫苗开发及与利什曼病相关结构研究中应用的文献。在所有审阅的文章中，我们发现仅有少数研究聚焦于通过MDS开发针对利什曼病的疫苗。此外，大多数研究未进行主成分分析（PCA）和自由能景观（FEL）研究。这两项是全球公认的用于理解构象变化的工具，因此建议未来类似研究中应采用这些分析方法。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37680156/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37680156/",
+  "paper_page_path": "papers/pubmed/37680156/index.html"
+}

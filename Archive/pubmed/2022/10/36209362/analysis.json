@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36209362",
+  "title": "Targeting disordered-structured domain interactions in Galectin-3 based on NMR and enhanced MD.",
+  "authors": "Bhattacharya, Supriyo; Zhang, Mingfeng; Hu, Weidong; Qi, Tong; Heisterkamp, Nora",
+  "journal": "Biophysical journal",
+  "published_date": "2022-10-10",
+  "window": {
+    "start": "2022-10-10",
+    "end": "2022-10-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合NMR与增强MD模拟，预测Galectin-3无序NTD与折叠CTD的结合口袋并设计抑制肽，直接针对IDR介导的PPI机制建模，方法可迁移至其他无序蛋白互作靶点。",
+  "abstract": "Intrinsically disordered regions (IDRs) are common and important functional domains in many proteins. However, IDRs are difficult to target for drug development due to the lack of defined structures that would facilitate the identification of possible drug-binding pockets. Galectin-3 is a carbohydrate-binding protein of which overexpression has been implicated in a wide variety of disorders, including cancer and inflammation. Apart from its carbohydrate-recognition/binding domain (CRD), Galectin-3 also contains a functionally important disordered N-terminal domain (NTD) that contacts the C-terminal domain (CTD) and could be a target for drug development. To overcome challenges involved in inhibitor design due to lack of structure and the highly dynamic nature of the NTD, we used a protocol combining nuclear magnetic resonance data from recombinant Galectin-3 with accelerated molecular dynamics (MD) simulations. This approach identified a pocket in the CTD with which the NTD makes frequent contact. In accordance with this model, mutation of residues L131 and L203 in this pocket caused loss of Galectin-3 agglutination ability, signifying the functional relevance of the cavity. In silico screening was used to design candidate inhibitory peptides targeting the newly discovered cavity, and experimental testing of only three of these yielded one peptide that inhibits the agglutination promoted by wild-type Galectin-3. NMR experiments further confirmed that this peptide indeed binds to a cavity in the CTD, not within the actual CRD. Our results show that it is possible to apply a combination of MD simulations and NMR experiments to precisely predict the binding interface of a disordered domain with a structured domain, and furthermore use this predicted interface for designing inhibitors. This procedure can potentially be extended to many other targets in which similar IDR interactions play a vital functional role.",
+  "abstract_zh": "intrinsically disordered regions (IDRs) 在许多蛋白质中是常见且重要的功能域。然而，由于缺乏有助于识别潜在药物结合口袋的明确结构，IDRs 难以成为药物开发的靶点。Galectin-3 是一种碳水化合物结合蛋白，其过表达与多种疾病（包括癌症和炎症）相关。除了其碳水化合物识别/结合域 (CRD) 外，Galectin-3 还包含一个功能重要的无序 N 端结构域 (NTD)，该结构域与 C 端结构域 (CTD) 接触，并可能成为药物开发的靶点。为了克服因 NTD 缺乏结构且高度动态特性所带来的抑制剂设计挑战，我们采用了一种结合重组 Galectin-3 的核磁共振数据与加速分子动力学 (MD) 模拟的方案。该方法在 CTD 中识别出一个 NTD 频繁接触的口袋。与此模型一致，该口袋中残基 L131 和 L203 的突变导致 Galectin-3 凝集能力丧失，表明该空腔的功能相关性。通过计算机筛选设计靶向新发现空腔的候选抑制肽，仅对其中三种进行实验测试，得到一种能抑制野生型 Galectin-3 促进的凝集的肽。核磁共振实验进一步证实，该肽确实结合于 CTD 中的空腔，而非实际 CRD 内。我们的结果表明，结合 MD 模拟和核磁共振实验可以精确预测无序结构域与有序结构域的结合界面，并进一步利用该预测界面设计抑制剂。此方法可能扩展到许多其他类似 IDR 相互作用发挥关键功能作用的靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36209362/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36209362/",
+  "paper_page_path": "papers/pubmed/36209362/index.html"
+}

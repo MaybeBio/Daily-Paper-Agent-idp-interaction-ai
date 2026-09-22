@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2305.03150v1",
+  "title": "Theory and simulation of multiphase coexistence in biomolecular mixtures",
+  "doi": "10.1021/acs.jctc.3c00198",
+  "abstract": "Biomolecular condensates constitute a newly recognized form of spatial organization in living cells. Although many condensates are believed to form as a result of phase separation, the physicochemical properties that determine the phase behavior of heterogeneous biomolecular mixtures are only beginning to be explored. Theory and simulation provide invaluable tools for probing the relationship between molecular determinants, such as protein and RNA sequences, and the emergence of phase-separated condensates in such complex environments. This review covers recent advances in the prediction and computational design of biomolecular mixtures that phase-separate into many coexisting phases. First, we review efforts to understand the phase behavior of mixtures with hundreds or thousands of species using theoretical models and statistical approaches. We then describe progress in developing analytical theories and coarse-grained simulation models to predict multiphase condensates with the molecular detail required to make contact with biophysical experiments. We conclude by summarizing the challenges ahead for modeling the inhomogeneous spatial organization of biomolecular mixtures in living cells.",
+  "authors": [
+    "William M. Jacobs"
+  ],
+  "published_date": "2023-05-04T21:01:30Z",
+  "updated_date": "2023-05-04T21:01:30Z",
+  "journal": "Journal of Chemical Theory and Computation 19(12), 3429-3445 (2023)",
+  "category": "physics.bio-ph, cond-mat.soft, q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2305.03150v1",
+  "pdf_url": "https://arxiv.org/pdf/2305.03150v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "physics.bio-ph",
+    "cond-mat.soft",
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2305.03150v1",
+    "raw_categories": [
+      "physics.bio-ph",
+      "cond-mat.soft",
+      "q-bio.BM"
+    ],
+    "journal_ref": "Journal of Chemical Theory and Computation 19(12), 3429-3445 (2023)"
+  }
+}

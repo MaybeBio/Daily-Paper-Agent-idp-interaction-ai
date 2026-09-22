@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "39771287",
+    "doi": "10.3390/plants13243589",
+    "title": "Genome-Wide Identification and Expression Analysis of Members in the YT521-B Homology Domain-Containing RNA Binding Protein Family in Ginkgo biloba."
+  },
+  "content": {
+    "abstract": "N(6)-methyladenosine (m(6)A) is a widespread post-transcriptional modification of RNA in eukaryotes. The conserved YTH-domain-containing RNA binding protein has been widely reported to serve as a typical m(6)A reader in various species. However, no studies have reported the m(6)A readers in Ginkgo biloba (G. biloba). In this study, a systematic analysis of the m(6)A reader (YTH) gene family was performed on G. biloba, identifying 10 YTH genes in its genome. Phylogenetic analysis of protein-coding sequences revealed that YTH genes from G. biloba could be classified into two subgroups: GbDC1 and GbDC2 in GbDC and GbDF1-8 in GbDF, each with similar motifs and gene structures. In G. biloba, the predicated aromatic cage pocket of the YTH domains in the YTH gene family is uniformly composed of tryptophan residues (WWW). Subcellular localization experiments verified that GbDC1 is indeed localized in the nucleus, while GbDF1 is localized in both the nucleus and the cytoplasm. The expression patterns of the identified m(6)A reader genes showed a wide distribution but were tissue-specific. Most genes were highly expressed in leaves, followed by the stem, while the lowest expression tendency was found in the roots. Cis-regulatory element analysis predicted the possible functions of YTH genes in G. biloba, which were mainly responsive to plant hormones such as ABA and MeJA, as well as stress responses. Furthermore, the expression levels of YTH genes indeed changed significantly after ABA, MeJA, and NaCl treatments, suggesting that they can be affected by these abiotic factors. In addition, the PLAAC prediction results indicate that prion domains exist in GbDF1, GbDF2, GbDF3, GbDF4, GbDF6, GbDF7, GbDF8, and GbDC1, and phase separation is possible. This study provides a foundation for further investigation of the effects of m(6)A methylation on gene expression regulation in G. biloba and other forest trees.",
+    "keywords": [
+      "G. biloba",
+      "N6-methyladenosine (m6A)",
+      "YTH",
+      "readers"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Han",
+        "Zhang, Jingjing",
+        "Yao, Sheng",
+        "Cheng, Xiang",
+        "Ji, Kongshu",
+        "Yu, Qiong"
+      ],
+      "short_names": [
+        "Wang H",
+        "Zhang J",
+        "Yao S",
+        "Cheng X",
+        "Ji K",
+        "Yu Q"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-7120-1725",
+        "ORCID: 0000-0001-9250-8036"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+        "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+        "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+        "Beijing National Laboratory for Molecular Sciences, Beijing 100190, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Han",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jingjing",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Sheng",
+        "short_name": "Yao S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Xiang",
+        "short_name": "Cheng X",
+        "identifiers": [
+          "0009-0006-7120-1725"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Kongshu",
+        "short_name": "Ji K",
+        "identifiers": [
+          "0000-0001-9250-8036"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China."
+        ]
+      },
+      {
+        "full_name": "Yu, Qiong",
+        "short_name": "Yu Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Tree Genetics and Breeding, Nanjing Forestry University, Nanjing 210037, China.",
+          "Key Open Laboratory of Forest Genetics and Gene Engineering of National Forestry & Grassland, Nanjing Forestry University, Nanjing 210037, China.",
+          "Co-Innovation Center for Sustainable Forestry in Southern China, Nanjing Forestry University, Nanjing 210037, China.",
+          "Beijing National Laboratory for Molecular Sciences, Beijing 100190, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plants (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Plants (Basel)"
+    ],
+    "pub_date": "2024 Dec 23",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/08 06:20",
+    "fetched_at": "2026-09-21 14:31:12"
+  },
+  "links": {
+    "cites": [
+      "42345753",
+      "41454231",
+      "41304622",
+      "41083857",
+      "40429788"
+    ],
+    "refs": [
+      "39409670",
+      "38950372",
+      "38835286",
+      "38166738",
+      "37958919",
+      "37122016",
+      "36367225",
+      "36079588",
+      "34821414",
+      "34679252",
+      "34081180",
+      "33849055",
+      "33828273",
+      "33515768",
+      "32713350",
+      "32611605",
+      "32585190",
+      "32451507",
+      "31336387",
+      "31292544",
+      "29905871",
+      "29892943",
+      "29643069",
+      "29618631",
+      "29103884",
+      "28554690",
+      "27004904",
+      "25483034",
+      "24825614",
+      "23825555",
+      "22639649",
+      "20167602",
+      "19458158",
+      "18505803",
+      "17517783",
+      "12368078",
+      "12011185",
+      "11846609"
+    ],
+    "similar": [
+      "39771287",
+      "38892149",
+      "32713350",
+      "37894868",
+      "38166738",
+      "38612806",
+      "34081180",
+      "39987708",
+      "29892943",
+      "26318451",
+      "36904058",
+      "37298300",
+      "35351856",
+      "25389274",
+      "25201973",
+      "29791134",
+      "32867812",
+      "24462754",
+      "29715522",
+      "34591015",
+      "28878490",
+      "39553336",
+      "33692959",
+      "39267376",
+      "36467585",
+      "32792673",
+      "33795663",
+      "33928028",
+      "39211476",
+      "35068346",
+      "37861067",
+      "29970596",
+      "32368386",
+      "39488190",
+      "38790013",
+      "37050075",
+      "33570442",
+      "39135292",
+      "36999016",
+      "37501707",
+      "36982974",
+      "35812908",
+      "36833270",
+      "36079588",
+      "37479087",
+      "30637606",
+      "39067545",
+      "28104805",
+      "16225698",
+      "29892898",
+      "38071803",
+      "30650668",
+      "32663306",
+      "29643069",
+      "36377299",
+      "29618631",
+      "38354754",
+      "35628284",
+      "34862430",
+      "25242552",
+      "37816028",
+      "37692496",
+      "38720462",
+      "32398960",
+      "32850851",
+      "39167634",
+      "37569658",
+      "20167602",
+      "25978425",
+      "38316392",
+      "37325513",
+      "39404907",
+      "31472957",
+      "39409670",
+      "38373903",
+      "37833468",
+      "37069041",
+      "31107151",
+      "36364373",
+      "34084217",
+      "39240243",
+      "32596399",
+      "32842951",
+      "31595821",
+      "35741780",
+      "31822563",
+      "34024256",
+      "36326110",
+      "32930954",
+      "34339799",
+      "28616659",
+      "36324258",
+      "38891968",
+      "36120320",
+      "32276589",
+      "36518280",
+      "38578511",
+      "35743196",
+      "34709120",
+      "38023912"
+    ],
+    "review": [
+      "39771287",
+      "35351856",
+      "29715522",
+      "33692959",
+      "36467585",
+      "33795663",
+      "33928028",
+      "32368386",
+      "39488190",
+      "38790013",
+      "39135292",
+      "36999016",
+      "37501707",
+      "30637606",
+      "30650668",
+      "37692496",
+      "32398960",
+      "38316392",
+      "37325513",
+      "37069041",
+      "31107151",
+      "36326110",
+      "34339799"
+    ],
+    "pmc": [
+      "11679001"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=plants13243589",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39771287/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

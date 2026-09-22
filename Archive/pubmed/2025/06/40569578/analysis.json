@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40569578",
+  "title": "Hydrophobicity in Intrinsically Disordered Protein Force Fields: Implications for Conformational Ensembles and Protein-Protein Interactions.",
+  "authors": "Lobo, Samuel; Najafi, Saeed; Shell, M Scott; Shea, Joan-Emma",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-06-26",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究比较不同力场中氨基酸疏水性与水结构对无序蛋白tau片段构象及二聚化（PPI）的影响，通过MD模拟揭示水-蛋白相互作用机制，虽非AI方法但物理模拟深入且直接关联IDP互作机制建模。",
+  "abstract": "Intrinsically disordered proteins (IDPs) lack a stable 3D structure under physiological conditions, making them challenging to study and simulate. In this study, we compare the hydrophobicity and water-protein interactions of amino acids in three popular all-atom molecular dynamics (MD) force fields: amber03ws (a03ws), CHARMM36m (C36m), and a99SB-disp. Using the indirect umbrella sampling (INDUS) technique, we quantify the dewetting free energies of each amino acid in the force fields. Additionally, we analyze water structuring around the amino acids using the water triplet angle distribution and measure water diffusion in the hydration shells. Our results reveal that CHARMM36m has the lowest dewetting free energies, indicating higher amino acid hydrophobicity, while a99SB-disp exhibits the highest, suggesting lower hydrophobicity. Water diffusion is significantly slower in the hydration shells of a99SB-disp due to its unique water structuring (e.g., higher frequency of tetrahedral coordination), while there is much less of a water diffusion slowdown in a03ws and CHARMM36m. We show that these differences impact the behavior of an aggregation-prone tau fragment, jR2R3 P301L, in MD simulations. We find that CHARMM36m's propensity for dimer formation is attributed to its lower dewetting free energies, whereas a99SB-disp's higher-than-expected dimerization propensity is due to favorable, entropically driven changes in water structure upon peptide association. These findings underscore the importance of accurately modeling water-protein interactions for IDPs and protein-protein interactions as well as the sensitivity of these to the underlying force field. Our study suggests that dewetting free energies and water structuring metrics, such as the water triplet angle distribution, can be valuable for future force field development and for predicting phenomena related to water-protein interactions.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在生理条件下缺乏稳定的三维结构，这使得它们难以研究和模拟。在本研究中，我们比较了三种流行的全原子分子动力学 (molecular dynamics, MD) 力场中氨基酸的疏水性和水-蛋白质相互作用：amber03ws (a03ws)、CHARMM36m (C36m) 和 a99SB-disp。利用间接伞形采样 (indirect umbrella sampling, INDUS) 技术，我们量化了各力场中氨基酸的去湿自由能。此外，我们通过水三元组角度分布分析了氨基酸周围的水结构，并测量了水合壳层中的水扩散。我们的结果显示，CHARMM36m 具有最低的去湿自由能，表明氨基酸疏水性较高，而 a99SB-disp 表现出最高的去湿自由能，表明疏水性较低。在 a99SB-disp 的水合壳层中，水扩散显著减慢，这归因于其独特的水结构（例如，四面体配位频率更高），而在 a03ws 和 CHARMM36m 中，水扩散减慢程度要小得多。我们表明，这些差异影响了 MD 模拟中易聚集的 tau 片段 jR2R3 P301L 的行为。我们发现，CHARMM36m 的二聚体形成倾向归因于其较低的去湿自由能，而 a99SB-disp 高于预期的二聚化倾向则归因于肽结合时水结构有利的、熵驱动的变化。这些发现强调了准确建模 IDPs 和蛋白质-蛋白质相互作用中水-蛋白质相互作用的重要性，以及这些相互作用对底层力场的敏感性。我们的研究表明，去湿自由能和水结构指标（如水分三元组角度分布）对于未来力场开发以及预测与水-蛋白质相互作用相关的现象可能具有重要价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40569578/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40569578/",
+  "paper_page_path": "papers/pubmed/40569578/index.html"
+}

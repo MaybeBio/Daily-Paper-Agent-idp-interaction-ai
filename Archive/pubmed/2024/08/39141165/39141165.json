@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "39141165",
+    "doi": "10.1007/s11033-024-09845-3",
+    "title": "Development and tissue specific expression of RAPGEF1 (C3G) transcripts having exons encoding disordered segments with predicted regulatory function."
+  },
+  "content": {
+    "abstract": "BACKGROUND: The ubiquitously expressed Guanine nucleotide exchange factor, RAPGEF1 (C3G), is essential for early development of mouse embryos. It functions to regulate gene expression and cytoskeletal reorganization, thereby controlling cell proliferation and differentiation. While multiple transcripts have been predicted, their expression in mouse tissues has not been investigated in detail. METHODS & RESULTS: Full length RAPGEF1 isoforms primarily arise due to splicing at two hotspots, one involving exon-3, and the other involving exons 12-14 incorporating amino acids immediately following the Crk binding region of the protein. These isoforms vary in expression across embryonic and adult organs. We detected the presence of unannotated, and unpredicted transcripts with incorporation of cassette exons in various combinations, specifically in the heart, brain, testis and skeletal muscle. Isoform switching was detected as myocytes in culture and mouse embryonic stem cells were differentiated to form myotubes, and embryoid bodies respectively. The cassette exons encode a serine-rich polypeptide chain, which is intrinsically disordered, and undergoes phosphorylation. In silico structural analysis using AlphaFold indicated that the presence of cassette exons alters intra-molecular interactions, important for regulating catalytic activity. LZerD based docking studies predicted that the isoforms with one or more cassette exons differ in interaction with their target GTPase, RAP1A. CONCLUSIONS: Our results demonstrate the expression of novel RAPGEF1 isoforms, and predict cassette exon inclusion as an additional means of regulating RAPGEF1 activity in various tissues and during differentiation.",
+    "keywords": [
+      "AlphaFold",
+      "Alternate splicing",
+      "C3G",
+      "Docking",
+      "Intrinsically disordered region",
+      "LZerD",
+      "RAPGEF1",
+      "Serine-rich"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Exons/genetics",
+      "Mice",
+      "*Guanine Nucleotide Exchange Factors/genetics/metabolism",
+      "*Protein Isoforms/genetics/metabolism",
+      "Organ Specificity/genetics",
+      "Cell Differentiation/genetics",
+      "Alternative Splicing/genetics",
+      "Gene Expression Regulation, Developmental/genetics",
+      "Male",
+      "Mouse Embryonic Stem Cells/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Verma, Archana",
+        "Goel, Abhishek",
+        "Koner, Niladri",
+        "Gunasekaran, Gowthaman",
+        "Radha, Vegesna"
+      ],
+      "short_names": [
+        "Verma A",
+        "Goel A",
+        "Koner N",
+        "Gunasekaran G",
+        "Radha V"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9273-8958",
+        "ORCID: 0000-0002-3788-9259",
+        "ORCID: 0000-0001-8755-5524",
+        "ORCID: 0000-0003-0215-4380",
+        "ORCID: 0000-0002-1381-2206"
+      ],
+      "affiliations": [
+        "CSIR-Centre for Cellular & Molecular Biology, Uppal Road, Habsiguda, Hyderabad, 500 007, India.",
+        "Department of Pediatric Hematology and Oncology, University Childrens Hospital, Muenster, 48149, Germany.",
+        "CSIR-Centre for Cellular & Molecular Biology, Uppal Road, Habsiguda, Hyderabad, 500 007, India.",
+        "CSIR-Centre for Cellular & Molecular Biology, Uppal Road, Habsiguda, Hyderabad, 500 007, India.",
+        "CSIR-Centre for Cellular & Molecular Biology, Uppal Road, Habsiguda, Hyderabad, 500 007, India.",
+        "Department of Molecular Biology Laboratory of Chromatin Biology, Ariel University, Ariel, 40700, Israel.",
+        "CSIR-Centre for Cellular & Molecular Biology, Uppal Road, Habsiguda, Hyderabad, 500 007, India. vradha@ccmb.res.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Verma, Archana",
+        "short_name": "Verma A",
+        "identifiers": [
+          "0000-0001-9273-8958"
+        ],
+        "affiliations": [
+          "CSIR-Centre for Cellular & Molecular Biology, Uppal Road, Habsiguda, Hyderabad, 500 007, India.",
+          "Department of Pediatric Hematology and Oncology, University Childrens Hospital, Muenster, 48149, Germany."
+        ]
+      },
+      {
+        "full_name": "Goel, Abhishek",
+        "short_name": "Goel A",
+        "identifiers": [
+          "0000-0002-3788-9259"
+        ],
+        "affiliations": [
+          "CSIR-Centre for Cellular & Molecular Biology, Uppal Road, Habsiguda, Hyderabad, 500 007, India."
+        ]
+      },
+      {
+        "full_name": "Koner, Niladri",
+        "short_name": "Koner N",
+        "identifiers": [
+          "0000-0001-8755-5524"
+        ],
+        "affiliations": [
+          "CSIR-Centre for Cellular & Molecular Biology, Uppal Road, Habsiguda, Hyderabad, 500 007, India."
+        ]
+      },
+      {
+        "full_name": "Gunasekaran, Gowthaman",
+        "short_name": "Gunasekaran G",
+        "identifiers": [
+          "0000-0003-0215-4380"
+        ],
+        "affiliations": [
+          "CSIR-Centre for Cellular & Molecular Biology, Uppal Road, Habsiguda, Hyderabad, 500 007, India.",
+          "Department of Molecular Biology Laboratory of Chromatin Biology, Ariel University, Ariel, 40700, Israel."
+        ]
+      },
+      {
+        "full_name": "Radha, Vegesna",
+        "short_name": "Radha V",
+        "identifiers": [
+          "0000-0002-1381-2206"
+        ],
+        "affiliations": [
+          "CSIR-Centre for Cellular & Molecular Biology, Uppal Road, Habsiguda, Hyderabad, 500 007, India. vradha@ccmb.res.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biology reports"
+    ],
+    "journal_abbrev": [
+      "Mol Biol Rep"
+    ],
+    "pub_date": "2024 Aug 14",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/14 12:42",
+    "fetched_at": "2026-09-21 09:32:18"
+  },
+  "links": {
+    "cites": [
+      "42035082"
+    ],
+    "refs": [
+      "38238291",
+      "38220424",
+      "37933859",
+      "37878721",
+      "36737758",
+      "36424481",
+      "36393850",
+      "35562983",
+      "35317227",
+      "35273146",
+      "34932950",
+      "34466411",
+      "34265844",
+      "33963854",
+      "33834495",
+      "33654096",
+      "33624208",
+      "33450305",
+      "33139841",
+      "33069007",
+      "32873726",
+      "31514408",
+      "29496966",
+      "28148649",
+      "26871637",
+      "23723416",
+      "23486661",
+      "23416045",
+      "23303910",
+      "22749400",
+      "22233443",
+      "21876762",
+      "21399874",
+      "21366540",
+      "20581864",
+      "19412530",
+      "19297053",
+      "17540168",
+      "15596414",
+      "15320955",
+      "14985288",
+      "14960716",
+      "11485308",
+      "11432821",
+      "11146560",
+      "10492401",
+      "10196191",
+      "9748234",
+      "9690470",
+      "9482107",
+      "9268367",
+      "9266971"
+    ],
+    "similar": [
+      "39141165",
+      "20009516",
+      "23723416",
+      "26133694",
+      "33139841",
+      "19303045",
+      "21514340",
+      "30143974",
+      "21329509",
+      "26061177",
+      "10821853",
+      "10570976",
+      "33624208",
+      "20097709",
+      "24735995",
+      "20193039",
+      "22194695",
+      "28148649",
+      "22701532",
+      "39240385",
+      "14686789",
+      "18707224",
+      "17941993",
+      "24718612",
+      "21706350",
+      "19833204",
+      "36737758",
+      "21789225",
+      "15824060",
+      "14742910",
+      "10876161",
+      "12500903",
+      "39499773",
+      "22733990",
+      "29496966",
+      "15236666",
+      "15203208",
+      "22606020",
+      "26707719",
+      "10986292",
+      "22174917",
+      "12522012",
+      "11891045",
+      "2745456",
+      "10471737",
+      "19819238",
+      "16424921",
+      "32732884",
+      "17156941",
+      "33104696",
+      "20385216",
+      "15225881",
+      "24844180",
+      "18782775",
+      "10492401",
+      "12847088",
+      "21876762",
+      "39656879",
+      "30389785",
+      "21407826",
+      "20041118",
+      "18765927",
+      "34788620",
+      "10401006",
+      "21310052",
+      "25404735",
+      "18792955",
+      "38941066",
+      "21714144",
+      "7897669",
+      "33941934",
+      "39210279",
+      "26990106",
+      "16860535",
+      "23486661",
+      "25889998",
+      "15777725",
+      "21161408",
+      "26024478",
+      "37558429",
+      "16885162",
+      "25726726",
+      "38402585",
+      "18929646",
+      "18160784",
+      "18925637",
+      "14557078",
+      "16515687",
+      "9642100",
+      "9517477",
+      "15677478",
+      "16289062",
+      "12580759",
+      "16625316",
+      "17457519",
+      "24516603",
+      "19854837",
+      "27041567",
+      "20573213",
+      "7706408"
+    ],
+    "review": [
+      "39141165",
+      "37558429"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.informatics.jax.org/reference/39141165",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1007/s11033-024-09845-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

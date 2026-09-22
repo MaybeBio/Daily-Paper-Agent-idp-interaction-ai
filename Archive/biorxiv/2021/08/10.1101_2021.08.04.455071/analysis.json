@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.08.04.455071",
+  "title": "RPnet: A Reverse Projection Based Neural Network for Coarse-graining Metastable Conformational States for Protein Dynamics",
+  "authors": "Hanlin Gu; Wei Wang; Siqin Cao; Ilona Christy Unarta; Yuan Yao; Fu Kit Sheong; Xuhui Huang",
+  "journal": "bioRxiv",
+  "published_date": "2021-08-06",
+  "window": {
+    "start": "2021-08-02",
+    "end": "2021-08-08"
+  },
+  "score": 5,
+  "one_liner_zh": "提出基于反向投影的神经网络RPnet，用于粗粒化马尔可夫态模型中的亚稳态构象状态，以分析蛋白质动力学；虽涉及蛋白质构象动态和AI方法，但对象非无序蛋白/IDR，且不直接研究PPI或互作机制，仅方法可迁移启发。",
+  "abstract": "Markov State Model (MSM) is a powerful tool for modeling the long timescale dynamics based on numerous short molecular dynamics (MD) simulation trajectories, which makes it a useful tool for elucidating the conformational changes of biological macromolecules. By partitioning the phase space into discretized states and estimate the probabilities of inter-state transitions based on short MD trajectories, one can construct a kinetic network model that could be used to extrapolate long time kinetics if the Markovian condition is met. However, meeting the Markovian condition often requires hundreds or even thousands of states (microstates), which greatly hinders the comprehension of conformational dynamics of complex biomolecules. Kinetic lumping algorithms can coarse grain numerous microstates into a handful of metastable states (macrostates), which would greatly facilitate the elucidation of biological mechanisms. In this work, we have developed a reverse projection based neural network (RPnet) method to lump microstates into macrostates, by making use of a physics-based loss function based on the projection operator framework of conformational dynamics. By recognizing that microstate and macrostate transition modes can be related through a projection process, we have developed a reverse projection scheme to directly compare the microstate and macrostate dynamics. Based on this reverse projection scheme, we designed a loss function that allows effectively assess the quality of a given kinetic lumping. We then make use of a neural network to efficiently minimize this loss function to obtain an optimized set of macrostates. We have demonstrated the power of our RPnet in analyzing the dynamics of a numerical 2D potential, alanine dipeptide, and the clamp opening of an RNA polymerase. In all these systems, we have illustrated that our method could yield comparable or better results than competing methods in terms of state partitioning and reproduction of slow dynamics. We expect that our RPnet holds promise in analyzing conformational dynamics of biological macromolecules.",
+  "abstract_zh": "马尔可夫状态模型（Markov State Model, MSM）是一种基于大量短时分子动力学（molecular dynamics, MD）模拟轨迹来建模长时间尺度动力学的强大工具，这使其成为阐明生物大分子构象变化的有用工具。通过将相空间划分为离散状态，并基于短MD轨迹估计状态间转移概率，可以构建一个动力学网络模型，若满足马尔可夫条件，该模型可用于外推长时间动力学。然而，满足马尔可夫条件通常需要数百甚至数千个状态（微状态），这极大地阻碍了对复杂生物分子构象动力学的理解。动力学集总算法可以将众多微状态粗粒化为少数亚稳态（宏状态），这将大大促进生物机制的阐明。在本工作中，我们开发了一种基于反向投影的神经网络（reverse projection based neural network, RPnet）方法，通过利用基于构象动力学投影算子框架的物理驱动损失函数，将微状态集总为宏状态。通过认识到微状态和宏状态转移模式可以通过投影过程相关联，我们设计了一种反向投影方案，以直接比较微状态和宏状态动力学。基于此反向投影方案，我们设计了一个损失函数，能够有效评估给定动力学集总的质量。随后，我们利用神经网络高效地最小化该损失函数，以获得优化的宏状态集。我们展示了RPnet在分析数值二维势能、丙氨酸二肽以及RNA聚合酶钳口打开动力学中的强大能力。在所有系统中，我们证明了我们的方法在状态划分和慢动力学再现方面，能够产生与竞争方法相当或更优的结果。我们预期RPnet在分析生物大分子构象动力学方面具有广阔前景。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.08.04.455071",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.08.04.455071",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.08.04.455071/index.html"
+}

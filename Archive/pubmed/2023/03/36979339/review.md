@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, data interpretation, and conclusions as presented in the manuscript
+- **Shared manuscript claim summary** The authors investigate how linker length and motif specificity in the multivalent intrinsically disordered protein ASCIZ (QT2–4 subdomain) control binding affinity and compositional heterogeneity of complexes with the hub protein LC8. Using ITC, SV-AUC, native MS, SEC-MALS, and EM, they report that short linkers promote stable but off-register complexes at high LC8 concentrations, long linkers induce heterogeneous complexation at low LC8 concentrations, and mid-length linkers yield homogeneous complexes. They conclude that linker length is more important than motif specificity in determining heterogeneity.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Discussion, Conclusions, figure legends (referenced but figures not fully visible in text), table references (Table S1, Table S2)
+- **Missing materials affecting confidence** Full figures and figure panels (only referenced, not shown), supplementary data (Tables S1, S2, Figure S1, S2), raw ITC isotherms, raw AUC sedimentation profiles, raw mass spectra, EM images with statistical analysis, and detailed model fitting parameters
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in the field of multivalent protein interactions, specifically how linker length and motif strength modulate complex heterogeneity in IDP/hub protein assemblies. The experimental approach is multi-technique and generally well conceived. However, several major concerns undermine the strength of the conclusions as presented. The ITC data for single-site variants have low c-values, raising questions about reliability of derived thermodynamic parameters. The interpretation of AUC data is complicated by convolution of species and lack of stoichiometric information. The native MS data, while informative, are presented without quantitative rigor. The comparison between QT2–4 and QT4–6 is suggestive but not fully controlled. The claim that linker length is "more important" than motif specificity is not directly tested with appropriate statistical or comparative analysis. The manuscript would benefit from clearer presentation of raw data, more robust model testing, and a more nuanced discussion of alternative interpretations.
+- **Who would be interested in the results, and why** Researchers studying multivalent protein interactions, intrinsically disordered proteins, hub proteins, and allosteric regulation. The work is also relevant to those interested in biophysical methods for characterizing heterogeneous protein complexes, and to structural biologists studying LC8 and its partners. The findings may inform understanding of concentration sensing and cellular regulation mechanisms.
+- **Major strengths** 1) The study addresses a significant gap in understanding how multivalency and linker length affect complex formation in IDP/hub protein systems. 2) The use of multiple complementary biophysical techniques (ITC, AUC, native MS, SEC-MALS, EM) provides a broad view of complex behavior. 3) The systematic mutagenesis approach to deactivate individual binding sites is well designed. 4) The comparison between two different ASCIZ subdomains (QT2–4 and QT4–6) adds biological relevance. 5) The discussion of potential functional implications for LC8 concentration sensing is thoughtful and stimulating.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of ITC data
+  - **Claim pointer** The manuscript reports Kd values of 9.3 µM, 36 µM, and 15 µM for QT2, QT3, and QT4 single-site variants, respectively, and uses these to infer motif-specific binding affinities and cooperativity effects.
+  - **Evidence pointer** Section 3.1, Table S1 (referenced), Figure 3 (referenced)
+  - **Concern** The authors state that c-values for single-site variants are 5.4, 1.4, and 3.2 for QT2, QT3, and QT4, respectively. A c-value of 1.4 is well below the generally accepted minimum of 5–10 for reliable Kd determination by ITC. Even c-values of 3.2 and 5.4 are marginal. The authors acknowledge this but proceed to use these values for quantitative comparisons and conclusions about motif strength and cooperativity. The Kd for QT3 (36 µM) is particularly unreliable given its c-value of 1.4.
+  - **Why it matters** The entire argument about motif specificity and its interplay with linker length rests on the reliability of these thermodynamic parameters. If the Kd values are not accurately determined, the conclusions about which motifs are "strong" or "weak" and how they contribute to cooperativity are not quantitatively supported.
+  - **Resolution test** The authors should either (a) repeat ITC experiments at higher protein concentrations or with optimized conditions to achieve c-values above 10, (b) use a displacement titration approach to improve c-values, or (c) clearly state that the Kd values are approximate and only use them for qualitative comparisons, avoiding quantitative claims about fold-changes in affinity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and model fitting
+  - **Claim pointer** The manuscript claims that "inter-motif spacing and specific motif sequences combine to control binding affinity and compositional heterogeneity of multivalent duplexes" and that "linker length is more important than motif specificity for determining heterogeneity of LC8 binding."
+  - **Evidence pointer** Sections 3.2, 4.3, Figures 3–5 (referenced), Table S1
+  - **Concern** The ITC data for double-site variants are fit with three different models (SSS, SBS, TSS), and the authors acknowledge that none of these models adequately represents the system. The derived parameters from these fits are used to make claims about cooperativity and the relative importance of linker length versus motif specificity. However, the authors do not provide a rigorous statistical comparison of model fits, nor do they demonstrate that the differences between variants are statistically significant. The claim that linker length is "more important" than motif specificity is not supported by a direct quantitative comparison (e.g., a statistical test comparing the effect sizes of linker length versus motif identity on binding parameters).
+  - **Why it matters** The central conclusion of the paper is that linker length dominates over motif specificity in controlling heterogeneity. Without a rigorous quantitative framework to compare these factors, this conclusion is not established. The reader cannot assess whether the observed differences between variants are within experimental error or represent meaningful biological effects.
+  - **Resolution test** The authors should (a) perform a global fitting analysis of ITC data with a physically realistic model that accounts for the multivalent, duplex-forming nature of the system, (b) provide error estimates and confidence intervals for all derived parameters, and (c) perform a statistical comparison (e.g., ANOVA or equivalent) to test whether linker length and motif identity have significantly different effects on binding parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for proposed mechanism
+  - **Claim pointer** The manuscript proposes a mechanism of complex assembly involving sequential binding of LC8 dimers to single chains, followed by dimerization and possible misalignment to form off-register complexes (Figure 5C).
+  - **Evidence pointer** Section 3.4, Figure 5 (referenced)
+  - **Concern** The proposed mechanism is inferred primarily from the presence of specific complex stoichiometries in native MS (1:2, 1:4, 2:4, 2:6) and from EM images. However, native MS provides only steady-state populations and cannot distinguish between different assembly pathways. The EM images are described qualitatively, and no quantitative analysis (e.g., particle counting, classification, or statistical comparison of complex types between variants) is presented. The claim that QT2,3 forms off-register complexes "more readily" is based on relative abundances in MS, but the statistical significance of these differences is not reported.
+  - **Why it matters** The proposed mechanism is a key conceptual contribution of the paper. If the evidence for it is not robust, the mechanistic conclusions are speculative. The field needs clear, quantitative evidence to distinguish between alternative assembly pathways.
+  - **Resolution test** The authors should (a) provide quantitative analysis of EM images with particle classification and statistical comparison between variants, (b) perform kinetic or time-resolved experiments (e.g., stopped-flow or rapid dilution MS) to test the proposed assembly pathway, or (c) use computational modeling to test whether the proposed mechanism is consistent with the observed equilibrium populations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Control experiments and alternative explanations
+  - **Claim pointer** The manuscript claims that differences between QT2–4 and QT4–6 in complex heterogeneity are due to linker length differences, not motif specificity.
+  - **Evidence pointer** Section 3.5, Figure 6 (referenced)
+  - **Concern** The comparison between QT2–4 and QT4–6 is confounded by multiple variables: the number of binding sites (3 vs 3), the specific motif sequences (which differ between the two constructs), the linker lengths (which vary within each construct), and the flanking sequences. The authors argue that motif specificity is similar based on peptide ITC data (Figure 6E), but this does not fully control for context effects. The claim that linker length is the primary driver of the observed differences is therefore not fully established.
+  - **Why it matters** The conclusion that linker length is more important than motif specificity is a central message of the paper. If the comparison between QT2–4 and QT4–6 is confounded, this conclusion is weakened. The field needs well-controlled experiments that isolate the effect of linker length from motif identity.
+  - **Resolution test** The authors should (a) design additional constructs where linker lengths are systematically varied while keeping motif sequences constant, or vice versa, to directly test the relative contributions, or (b) use a statistical approach (e.g., multiple regression) to separate the effects of linker length and motif identity across a panel of constructs.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of conclusions
+  - **Claim pointer** The manuscript concludes that "linker length drives heterogeneity of multivalent complexes" and suggests this is a general principle for LC8/IDP interactions.
+  - **Evidence pointer** Sections 4.3, 5
+  - **Concern** The study is limited to one protein system (Drosophila ASCIZ QT2–4 and QT4–6) and one binding partner (LC8). The authors extrapolate to general principles about linker length effects on multivalent IDP complexes. While this is a reasonable hypothesis, the evidence from a single system is insufficient to establish a general principle. The authors do not discuss potential confounding factors such as the specific biophysical properties of LC8 (e.g., its dimeric structure, binding groove flexibility) that may not apply to other hub proteins.
+  - **Why it matters** The broader significance of the work depends on its generalizability. If the conclusions are system-specific, the impact is more limited. The authors should be more cautious in their claims and clearly delineate what is established for this system versus what is hypothesized to be general.
+  - **Resolution test** The authors should (a) temper their conclusions to be specific to the LC8/ASCIZ system, or (b) provide additional evidence from other LC8 partners or other hub proteins to support generalizability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Section 2.2 (ITC methods)
+  - **Evidence pointer** Section 2.2
+  - **Issue** The ITC methods section does not specify the exact concentrations of titrant and titrand used, the number of replicates, or the criteria for model selection. The authors mention that data were fit to "a simple, single set of sites binding model" but do not justify this choice given the known multivalency of the system.
+  - **Required correction** Provide detailed experimental conditions (concentrations, cell volume, injection volumes, stirring speed, etc.), state the number of independent replicates, and justify the choice of fitting model with reference to the system's known stoichiometry.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Sections 3.1–3.5
+  - **Evidence pointer** Sections 3.1–3.5, Tables S1, S2
+  - **Issue** The manuscript reports Kd values, sedimentation coefficients, and relative abundances without error bars or confidence intervals in several places. For example, the Kd values in Table S1 are presented without standard deviations or standard errors. The relative abundances in native MS (Figure 5B) are shown without error bars.
+  - **Required correction** Report all quantitative data with appropriate measures of uncertainty (e.g., standard deviation, standard error, or 95% confidence intervals) and state the number of replicates for each measurement.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality and accessibility
+  - **Affected element** Figures 3–6
+  - **Evidence pointer** Figures 3–6 (referenced)
+  - **Issue** The figures are referenced but not fully described in the text. For example, Figure 3G–I shows simulated vs. experimental isotherms, but the simulation parameters and the criteria for "mismatch" are not clearly explained in the text. Figure 5D shows EM images, but the scale bars and the number of particles analyzed are not stated.
+  - **Required correction** Ensure all figures are self-contained with clear labels, scale bars where applicable, and detailed legends that explain all panels, simulation parameters, and statistical information.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Sections 1, 3, 4
+  - **Issue** The terms "in-register" and "off-register" are used to describe complex structures, but they are not formally defined in the text. The reader must infer their meaning from context.
+  - **Required correction** Provide a clear definition of "in-register" and "off-register" complexes, ideally with a schematic figure, when these terms are first introduced.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Section 4
+  - **Evidence pointer** Section 4
+  - **Issue** The discussion does not explicitly address the limitations of the study, such as the low c-values in ITC, the inability of AUC to provide stoichiometric information, and the potential for MS to disrupt weak interactions during ionization.
+  - **Required correction** Add a paragraph in the Discussion acknowledging these limitations and explaining how they might affect the interpretation of results.
+
+## Risk / unsupported claims
+- The claim that "linker length is more important than motif specificity for determining heterogeneity of LC8 binding" is not directly supported by a quantitative statistical comparison; it is inferred from qualitative comparisons between a limited number of constructs.
+- The proposed mechanism of complex assembly (sequential binding, dimerization, misalignment) is speculative and not directly tested by kinetic or time-resolved experiments.
+- The Kd values for single-site variants, particularly QT3 (c-value 1.4), are unreliable and should not be used for quantitative comparisons.
+- The claim that "two-mers, rather than the expected three-mers, dominate negative-stain EM images" is based on qualitative EM analysis without quantitative particle counting or statistical validation.
+- The extrapolation of findings to general principles for LC8/IDP interactions and other hub proteins is not supported by evidence from multiple systems.
+- The statement that "the observed trends persist for trivalent ASCIZ subdomains" is based on a comparison of only two constructs (QT2–4 and QT4–6) that differ in multiple variables, making it difficult to attribute differences specifically to linker length.
+- The functional implications discussed in Section 4.3 and the Conclusions are speculative and not directly tested in this study.

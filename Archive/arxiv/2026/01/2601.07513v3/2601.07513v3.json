@@ -1,0 +1,32 @@
+{
+  "source": "arxiv",
+  "source_id": "2601.07513v3",
+  "title": "Modulators Selectively Reshape alpha-Synuclein Phase Transitions",
+  "doi": "",
+  "abstract": "Protein phase transitions govern numerous diseases, including neurodegenerative disorders such as Parkinson's and Alzheimer's. In Parkinson's disease, distinct species of the protein alpha-synuclein undergo phase transitions from highly disordered to ordered beta-rich states. The emerging species and transitions between them can be reshaped by chaperones, small molecules, peptides or antibodies. Here, we use coarse-grained simulations to understand the effect of modulators on the thermodynamics and kinetics of alpha-synuclein transformations and phase transitions. Each protein is represented as a single morphing particle that transforms from a soft sphere (disordered state) to a hard spherocylinder (beta-rich state), while modulators are modeled as soft isotropic particles mimicking small peptides. The results show that purely repulsive modulators do not alter the final outcome, i.e. fibrils form following the same mechanisms independently of the modulator concentration. Attractive interactions towards the disordered protein slow down fibril formation in a dose-dependent manner by stabilizing intermediate species, and strong attraction yields persistent disordered heteroclusters. In contrast, specific attraction to the beta-rich state results in shorter fibrils through direct modulator surface \"capping\" that introduce kinetic barriers to monomer templating at the fibril ends and inhibit lateral attachment. Together, these results link modulator properties and environmental conditions to the effects on nucleation, fibril elongation and off-pathway trapping, providing a quantitative roadmap for selecting modulator properties and strategies that redirect phase transitions toward desirable endpoints. Additionally, they provide guiding principles for the development of intervention strategies and the engineering of novel materials with tunable and responsive properties.",
+  "authors": [
+    "Holly Masson",
+    "Massimiliano Paesani",
+    "Ioana M. Ilie"
+  ],
+  "published_date": "2026-01-12T13:12:20Z",
+  "updated_date": "2026-09-09T07:16:42Z",
+  "journal": "",
+  "category": "cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2601.07513v3",
+  "pdf_url": "https://arxiv.org/pdf/2601.07513v3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "3",
+  "keywords": [
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2601.07513v3",
+    "raw_categories": [
+      "cond-mat.soft"
+    ],
+    "journal_ref": ""
+  }
+}

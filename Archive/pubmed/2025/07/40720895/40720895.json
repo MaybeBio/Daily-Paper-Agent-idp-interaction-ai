@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "40720895",
+    "doi": "10.1021/jacs.5c09059",
+    "title": "Direct Cellular Screening of Pd-Mediated Arylation of Cyclic Peptide Binders Targeting Ubiquitin Chains: Toward Modulating NEMO Liquid-Liquid Phase Separation."
+  },
+  "content": {
+    "abstract": "Ubiquitination is a critical post-translational modification that regulates key cellular processes such as protein degradation and DNA damage repair. Targeting a specific type of ubiquitin chain (e.g., Lys48 or Lys63-linked ubiquitin chain) via cyclic peptides presents a new strategy to modulate biological processes with therapeutic potential for various diseases. However, such a strategy remains challenging due to the obstacles of cell permeability and bioactivity. Here, we present a new method that directly assesses these parameters by integrating palladium-mediated Cys arylation with direct cellular screening. Using CP4, a previously identified cyclic peptide modulator of Lys63-linked ubiquitin chains, we generated a focused library of arylated analogues and optimized the Pd-mediated arylation for direct cellular screening. We discovered a new analog, CP-P12-Ar(H), that demonstrated enhanced binding affinity and robust bioactivity, as evidenced by increased gamma-H2AX phosphorylation and apoptosis induction in cancer cells. Furthermore, CP-P12-Ar(H) effectively inhibited the in vitro formation of NF-kappaB essential modulator (NEMO) biomolecular condensates by disrupting the elongation of Lys63-linked ubiquitin chains, offering a novel way to modulate NF-kappaB signaling. This work establishes a generalizable platform for the rapid optimization of cyclic peptide therapeutics targeting protein-protein interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Peptides, Cyclic/chemistry/pharmacology/metabolism",
+      "*Ubiquitin/metabolism/chemistry",
+      "*Palladium/chemistry",
+      "*I-kappa B Kinase/metabolism/antagonists & inhibitors/chemistry",
+      "Ubiquitination/drug effects",
+      "Cell Line, Tumor",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hasan, Mahdi",
+        "Vodnala, Nagaraju",
+        "Glagovsky, Yuri",
+        "Saed, Yakop",
+        "Kriegesmann, Julia",
+        "Suga, Hiroaki",
+        "Brik, Ashraf"
+      ],
+      "short_names": [
+        "Hasan M",
+        "Vodnala N",
+        "Glagovsky Y",
+        "Saed Y",
+        "Kriegesmann J",
+        "Suga H",
+        "Brik A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4537-4079",
+        "ORCID: 0000-0002-5298-9186",
+        "ORCID: 0000-0001-8745-2250"
+      ],
+      "affiliations": [
+        "Schulich Faculty of Chemistry, Technion-Israel Institute of Technology, Haifa 3200008, Israel.",
+        "Schulich Faculty of Chemistry, Technion-Israel Institute of Technology, Haifa 3200008, Israel.",
+        "Schulich Faculty of Chemistry, Technion-Israel Institute of Technology, Haifa 3200008, Israel.",
+        "Schulich Faculty of Chemistry, Technion-Israel Institute of Technology, Haifa 3200008, Israel.",
+        "Schulich Faculty of Chemistry, Technion-Israel Institute of Technology, Haifa 3200008, Israel.",
+        "Department of Chemistry, Graduate School of Science, The University of Tokyo, Bunkyo-ku,7-3-1 Hongo, Bunkyo, Tokyo 113-0033, Japan.",
+        "Schulich Faculty of Chemistry, Technion-Israel Institute of Technology, Haifa 3200008, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hasan, Mahdi",
+        "short_name": "Hasan M",
+        "identifiers": [],
+        "affiliations": [
+          "Schulich Faculty of Chemistry, Technion-Israel Institute of Technology, Haifa 3200008, Israel."
+        ]
+      },
+      {
+        "full_name": "Vodnala, Nagaraju",
+        "short_name": "Vodnala N",
+        "identifiers": [],
+        "affiliations": [
+          "Schulich Faculty of Chemistry, Technion-Israel Institute of Technology, Haifa 3200008, Israel."
+        ]
+      },
+      {
+        "full_name": "Glagovsky, Yuri",
+        "short_name": "Glagovsky Y",
+        "identifiers": [
+          "0000-0002-4537-4079"
+        ],
+        "affiliations": [
+          "Schulich Faculty of Chemistry, Technion-Israel Institute of Technology, Haifa 3200008, Israel."
+        ]
+      },
+      {
+        "full_name": "Saed, Yakop",
+        "short_name": "Saed Y",
+        "identifiers": [],
+        "affiliations": [
+          "Schulich Faculty of Chemistry, Technion-Israel Institute of Technology, Haifa 3200008, Israel."
+        ]
+      },
+      {
+        "full_name": "Kriegesmann, Julia",
+        "short_name": "Kriegesmann J",
+        "identifiers": [],
+        "affiliations": [
+          "Schulich Faculty of Chemistry, Technion-Israel Institute of Technology, Haifa 3200008, Israel."
+        ]
+      },
+      {
+        "full_name": "Suga, Hiroaki",
+        "short_name": "Suga H",
+        "identifiers": [
+          "0000-0002-5298-9186"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, The University of Tokyo, Bunkyo-ku,7-3-1 Hongo, Bunkyo, Tokyo 113-0033, Japan."
+        ]
+      },
+      {
+        "full_name": "Brik, Ashraf",
+        "short_name": "Brik A",
+        "identifiers": [
+          "0000-0001-8745-2250"
+        ],
+        "affiliations": [
+          "Schulich Faculty of Chemistry, Technion-Israel Institute of Technology, Haifa 3200008, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2025 Aug 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/28 19:04",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [
+      "42205286"
+    ],
+    "refs": [],
+    "similar": [
+      "40720895",
+      "25296760",
+      "35477005",
+      "37312234",
+      "21622571",
+      "22605335",
+      "36720498",
+      "21803029",
+      "27881655",
+      "36257952",
+      "39996775",
+      "25304104",
+      "28515292",
+      "30176143",
+      "21811235",
+      "24030825",
+      "27746020",
+      "19303852",
+      "33539010",
+      "34461896",
+      "19422324",
+      "38669628",
+      "17766391",
+      "24100029",
+      "24446482",
+      "26240016",
+      "33139544",
+      "34227356",
+      "42165681",
+      "32024692",
+      "33326152",
+      "17368669",
+      "21222276",
+      "37938554",
+      "39744815",
+      "25486864",
+      "30373771",
+      "16969079",
+      "20010814",
+      "28490597",
+      "17997719",
+      "26776306",
+      "20502939",
+      "39115450",
+      "20065354",
+      "26740240",
+      "26085218",
+      "14645257",
+      "21143809",
+      "24469399",
+      "17942533",
+      "20167598",
+      "25736758",
+      "17334503",
+      "16360037",
+      "20932476",
+      "25341660",
+      "28249776",
+      "29650758",
+      "37890781",
+      "30943066",
+      "25423073",
+      "22590573",
+      "40152367",
+      "25152375",
+      "31247202",
+      "29045385",
+      "19153599",
+      "21455181",
+      "29111346",
+      "16684768",
+      "30404796",
+      "12867425",
+      "25486460",
+      "24270572",
+      "25494483",
+      "14748687",
+      "35339487",
+      "14695475",
+      "28103322",
+      "29452637",
+      "22981905",
+      "36916940",
+      "20529958",
+      "19763089",
+      "16547522",
+      "30071751",
+      "39121161",
+      "18164316",
+      "30245232",
+      "18180283",
+      "19854204",
+      "21622647",
+      "20577214",
+      "33692228",
+      "17702576",
+      "23441730",
+      "42246097",
+      "23131831",
+      "14651848"
+    ],
+    "review": [
+      "40720895",
+      "39996775",
+      "34227356",
+      "20502939",
+      "26085218",
+      "17334503",
+      "25341660",
+      "40152367"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-AKR1B1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.5c09059",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

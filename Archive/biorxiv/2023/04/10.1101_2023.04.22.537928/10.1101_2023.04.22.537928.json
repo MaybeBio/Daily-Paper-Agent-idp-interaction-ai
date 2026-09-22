@@ -1,0 +1,204 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.22.537928",
+  "title": "Chaotic aging: Intrinsically disordered proteins in aging-related processes",
+  "doi": "10.1101/2023.04.22.537928",
+  "abstract": "1. The development of aging is associated with the disruption of key cellular processes manifested as well-established hallmarks of aging. Intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs) have no stable tertiary structure that provide them a power to be configurable hubs in signaling cascades and regulate many processes, potentially including those related to aging. There is a need to clarify the roles of IDPs/IDRs in aging. The dataset of 1624 aging-related proteins was collected from established aging databases and experimental studies. There is a noticeable presence of IDPs/IDRs, accounting for about 36% of the aging-related dataset, which is comparable to the disorder content of the whole human proteome (about 40%). A Gene Ontology analysis of the our Aging proteome reveals an abundance of IDPs/IDRs in one-third of aging-associated processes, especially in genome regulation. Signaling pathways associated with aging also contain IDPs/IDRs on different hierarchical levels. Protein-protein interaction network analysis showed that IDPs present in different clusters associated with different aging hallmarks. Protein cluster with IDPs enrichment and high liquid-liquid phase separation (LLPS) probability has “nuclear” localization and DNA-associated functions, related to aging hallmarks: genomic instability, telomere attrition, epigenetic alterations, stem cells exhaustion. Some IDPs related to aging with high LLPS propensity were identified as “dangerous” based on the prediction of their propensity to aggregation. Overall, our analyses indicate that IDPs/IDRs play significant roles in aging-associated processes, particularly in the regulation of DNA functioning. IDP aggregation, which can lead to loss-of-function and toxicity, could be critically harmful to the cell. A structure-based analysis of aging and the identification of proteins that are particularly susceptible to disturbances can enhance our understanding of the molecular mechanisms of aging and open up new avenues for slowing it down.",
+  "authors": [
+    "Manyilov VD",
+    "Ilyinsky NS",
+    "Nesterov SV",
+    "Saqr BM",
+    "Dayhoff GW",
+    "Zinovev EV",
+    "Matrenok SS",
+    "Fonin AV",
+    "Kuznetsova IM",
+    "Turoverov KK",
+    "Ivanovich V",
+    "Uversky VN"
+  ],
+  "published_date": "2023-04-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.22.537928",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.22.537928.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR650101",
+    "raw_record": {
+      "id": "PPR650101",
+      "source": "PPR",
+      "doi": "10.1101/2023.04.22.537928",
+      "title": "Chaotic aging: Intrinsically disordered proteins in aging-related processes",
+      "authorString": "Manyilov VD, Ilyinsky NS, Nesterov SV, Saqr BM, Dayhoff GW, Zinovev EV, Matrenok SS, Fonin AV, Kuznetsova IM, Turoverov KK, Ivanovich V, Uversky VN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Manyilov VD",
+            "lastName": "Manyilov",
+            "firstName": "Vladimir",
+            "initials": "VD"
+          },
+          {
+            "fullName": "Ilyinsky NS",
+            "lastName": "Ilyinsky",
+            "firstName": "Nikolay",
+            "initials": "NS"
+          },
+          {
+            "fullName": "Nesterov SV",
+            "lastName": "Nesterov",
+            "firstName": "Semen",
+            "initials": "SV"
+          },
+          {
+            "fullName": "Saqr BM",
+            "lastName": "Saqr",
+            "firstName": "Baraa M.G.A.",
+            "initials": "BM"
+          },
+          {
+            "fullName": "Dayhoff GW",
+            "lastName": "Dayhoff",
+            "firstName": "Guy",
+            "initials": "GW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4271-7125"
+            }
+          },
+          {
+            "fullName": "Zinovev EV",
+            "lastName": "Zinovev",
+            "firstName": "Egor",
+            "initials": "EV"
+          },
+          {
+            "fullName": "Matrenok SS",
+            "lastName": "Matrenok",
+            "firstName": "Simon",
+            "initials": "SS"
+          },
+          {
+            "fullName": "Fonin AV",
+            "lastName": "Fonin",
+            "firstName": "Alexander",
+            "initials": "AV"
+          },
+          {
+            "fullName": "Kuznetsova IM",
+            "lastName": "Kuznetsova",
+            "firstName": "Irina",
+            "initials": "IM"
+          },
+          {
+            "fullName": "Turoverov KK",
+            "lastName": "Turoverov",
+            "firstName": "Konstantin",
+            "initials": "KK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6977-1896"
+            }
+          },
+          {
+            "fullName": "Ivanovich V",
+            "lastName": "Ivanovich",
+            "firstName": "Valentin",
+            "initials": "V"
+          },
+          {
+            "fullName": "Uversky VN",
+            "lastName": "Uversky",
+            "firstName": "Vladimir",
+            "initials": "VN"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6977-1896"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4271-7125"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0001-1754-8529"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "1. The development of aging is associated with the disruption of key cellular processes manifested as well-established hallmarks of aging. Intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs) have no stable tertiary structure that provide them a power to be configurable hubs in signaling cascades and regulate many processes, potentially including those related to aging. There is a need to clarify the roles of IDPs/IDRs in aging. The dataset of 1624 aging-related proteins was collected from established aging databases and experimental studies. There is a noticeable presence of IDPs/IDRs, accounting for about 36% of the aging-related dataset, which is comparable to the disorder content of the whole human proteome (about 40%). A Gene Ontology analysis of the our Aging proteome reveals an abundance of IDPs/IDRs in one-third of aging-associated processes, especially in genome regulation. Signaling pathways associated with aging also contain IDPs/IDRs on different hierarchical levels. Protein-protein interaction network analysis showed that IDPs present in different clusters associated with different aging hallmarks. Protein cluster with IDPs enrichment and high liquid-liquid phase separation (LLPS) probability has “nuclear” localization and DNA-associated functions, related to aging hallmarks: genomic instability, telomere attrition, epigenetic alterations, stem cells exhaustion. Some IDPs related to aging with high LLPS propensity were identified as “dangerous” based on the prediction of their propensity to aggregation. Overall, our analyses indicate that IDPs/IDRs play significant roles in aging-associated processes, particularly in the regulation of DNA functioning. IDP aggregation, which can lead to loss-of-function and toxicity, could be critically harmful to the cell. A structure-based analysis of aging and the identification of proteins that are particularly susceptible to disturbances can enhance our understanding of the molecular mechanisms of aging and open up new avenues for slowing it down.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/04/27/2023.04.22.537928.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.04.22.537928"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37634152",
+            "reference": "Cellular and molecular life sciences : CMLS. 2023 Aug;80(9):269",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-04-27",
+      "firstPublicationDate": "2023-04-25",
+      "firstIndexDate": "2023-04-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

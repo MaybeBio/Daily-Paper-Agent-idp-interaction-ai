@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, conclusions, and materials and methods
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors report development of a library of synaptic vesicle mimics comprising malleable phospholipid vesicles and rigid lipid-coated gold nanoparticles with matched size and lipid composition, and use these to study alpha-synuclein/membrane interactions. They report higher binding affinities for rigid mimics compared to malleable mimics, distinct proteolytic fragmentation patterns between mimic types, and a nontraditional peak-and-dip binding curve shape for rigid mimics that they attribute to changes in protein orientation at different protein-to-particle ratios.
+- **Visible evidence base** Main text figures referenced (Figures 1–8), tables (Table 1), supplementary figures referenced (Figures S1–S16), schemes (S1, S2), and methods descriptions
+- **Missing materials affecting confidence** Supplementary figures and tables not provided; raw mass spectrometry data not provided; full DLS titration curves not shown; statistical analysis details not provided; exact lipid composition quantification data not shown
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in the alpha-synuclein field: how membrane physical properties influence protein binding and conformation. The authors have made a commendable effort to create a matched library of mimics that vary in rigidity while controlling for size and lipid composition, which addresses a significant gap in the literature. The use of limited proteolysis mass spectrometry to probe protein orientation on different mimic surfaces is a strength. However, several technical concerns limit the strength of the conclusions. The lipid composition quantification was unsuccessful for key components, the binding affinity measurements rely on fitting nonstandard binding curves with a model that does not describe the observed behavior, and the interpretation of the proteolysis data is somewhat speculative without more detailed analysis. The manuscript would be strengthened by addressing these issues and providing more rigorous quantitative support for the claims.
+- **Who would be interested in the results, and why** Researchers studying alpha-synuclein aggregation and membrane interactions, biophysicists interested in protein-membrane interactions, and nanomaterial scientists developing model membrane systems. The work is also relevant to those studying the role of membrane rigidity in neurodegenerative disease mechanisms.
+- **Major strengths** 1) The design of a matched mimic library that systematically varies rigidity while controlling for size and lipid composition is a significant methodological advance. 2) The combination of DLS and CD-based binding measurements with limited proteolysis mass spectrometry provides complementary views of the interaction. 3) The observation of rigidity-dependent binding affinities and the nontraditional binding curve shape raise interesting questions about the mechanism of alpha-synuclein-membrane interactions.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of binding affinity measurements
+  - **Claim pointer** The authors claim to estimate apparent association constants (Ka) for alpha-synuclein binding to lipid-coated gold nanoparticles by fitting DLS titration data with a Langmuir adsorption isotherm, reporting values of (1.1–1.8) × 10^9 M^-1 for most rigid mimics and 5.9 × 10^8 M^-1 for small rigid mimics without cholesterol.
+  - **Evidence pointer** Results and Discussion section "Alpha-Synuclein/Rigid Mimic Binding Affinity by Dynamic Light Scattering Titrations"; Table 1; Figure 4
+  - **Concern** The binding curves exhibit a peak-and-dip shape that the authors acknowledge is not typical of Langmuir binding behavior. The authors state that fitting is "primarily influenced by the slope of the initial increase" and that replacing the dip regime with an artificial plateau yields similar Ka values (Figure S11). However, this approach is problematic. The initial increase may reflect a combination of binding and other effects (e.g., protein-induced aggregation or changes in particle conformation), and the dip regime suggests a more complex interaction that is not captured by the Langmuir model. Fitting a model that does not describe the full data range to estimate a thermodynamic parameter is questionable. The authors should either provide a more appropriate model that accounts for the observed behavior or present the Ka values with clear caveats about their interpretation. Additionally, the comparison of Ka values between rigid and malleable mimics uses different techniques (DLS vs CD), which measure different physical properties and may not be directly comparable.
+  - **Why it matters** The binding affinity values are central to the claim that rigid mimics bind alpha-synuclein with higher affinity than malleable mimics. If the Ka values are not reliable, this key conclusion is weakened.
+  - **Resolution test** The authors should provide a more rigorous analysis of the binding data, possibly using a model that accounts for the peak-and-dip behavior, or provide independent validation of the Ka values using a different technique. They should also address whether the DLS and CD measurements are directly comparable for quantitative affinity comparisons.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of lipid composition quantification
+  - **Claim pointer** The authors state that "the data obtained seem to suggest that for the lipids and experimental conditions used in this study the assumption that the ratio of lipids going into mimic synthesis is maintained in the final mimic product generally holds true."
+  - **Evidence pointer** Results and Discussion section "Synthesis and Characterization of Biologically Representative Mimic Library"; Figure 3; Figure S7
+  - **Concern** The quantification of sphingomyelin, a key lipid component, was unsuccessful using the mass balance approach, with aberrantly high apparent concentrations ranging from 2 to 20 times the expected amount. The authors were unable to quantify sphingomyelin in any sample, including the original lipid mixture. This means that the actual lipid composition of the mimics is not verified. The claim that the composition is maintained is based on quantification of only DOPC, DOPE, and DOPS, and the authors acknowledge that extraction efficiency from gold nanoparticles was variable. Without verification of sphingomyelin content, the assertion that all mimics have comparable lipid composition is not well supported.
+  - **Why it matters** The central design premise of the study is that the mimics differ only in rigidity, not in lipid composition. If the composition is not verified, differences in binding behavior could be attributed to unintended compositional differences rather than rigidity.
+  - **Resolution test** The authors should develop a reliable method to quantify sphingomyelin in the mimics, or at minimum provide evidence that the sphingomyelin content is consistent across mimic types. Alternatively, they should acknowledge this limitation more prominently and discuss how it might affect their conclusions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of proteolysis data
+  - **Claim pointer** The authors claim that "the N-terminal and C-terminal regions of alpha-synuclein were found to become less solvent-accessible upon binding to all synaptic vesicle mimics" and that "minor variations in digestion pattern were observed in the central region of the protein dependent upon mimic size, rigidity, and lipid composition."
+  - **Evidence pointer** Results and Discussion section "Limited Proteolysis Mass Spectrometry Analysis"; Figures 6–8
+  - **Concern** The proteolysis data are presented as qualitative observations of differences in fragmentation patterns. The authors do not provide quantitative analysis of the differences (e.g., statistical comparisons of peptide intensities across conditions). The claim that the C-terminal region is protected upon binding is interesting but is based on lower LFQ intensities, which could be influenced by other factors such as differences in digestion efficiency or peptide ionization. The authors also do not discuss how the observed protection relates to the known structure of alpha-synuclein on membranes, which would strengthen the interpretation.
+  - **Why it matters** The proteolysis data are used to support claims about protein orientation and conformation on different mimic surfaces, which is a key contribution of the study. Without quantitative analysis, these claims are not fully supported.
+  - **Resolution test** The authors should provide statistical analysis of the LFQ intensities across conditions and replicates, and discuss how the observed protection patterns relate to known structural models of membrane-bound alpha-synuclein.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of peak-and-dip binding curves
+  - **Claim pointer** The authors state that "the binding curves for the rigid synaptic vesicle mimics demonstrated a nontraditional peak and dip shape believed to arise from differences in alpha-synuclein orientation on the particle surface at different protein-to-particle incubation ratios."
+  - **Evidence pointer** Results and Discussion section "Alpha-Synuclein/Rigid Mimic Binding Affinity by Dynamic Light Scattering Titrations"; Figure 4; Figure 8
+  - **Concern** The explanation for the peak-and-dip behavior is presented as a hypothesis but is not directly tested. The proteolysis experiment at peak and dip conditions (Figure 8) shows differences in fragmentation, but the connection between these differences and the observed DLS behavior is not established. Other explanations for the dip, such as protein-induced aggregation or changes in particle-particle interactions at high protein concentrations, are not fully ruled out. The authors should either provide more direct evidence for the orientation-change hypothesis or discuss alternative explanations more thoroughly.
+  - **Why it matters** The peak-and-dip behavior is an unusual observation that could be of interest to the field, but the interpretation is not well supported. If the explanation is incorrect, it could mislead future studies.
+  - **Resolution test** The authors should design experiments that more directly test the orientation-change hypothesis, such as measuring binding at intermediate protein-to-particle ratios and correlating with structural data, or using techniques that can directly report on protein orientation.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** DLS titration methods
+  - **Evidence pointer** Materials and Methods section "Dynamic Light Scattering Titrations"
+  - **Issue** The methods for DLS titrations are not described in the provided text. It is unclear how the protein-to-particle ratios were calculated, what concentrations were used, and how the hydrodynamic diameter was measured and averaged.
+  - **Required correction** Provide a detailed description of the DLS titration protocol, including sample preparation, concentration ranges, and data analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Binding affinity comparisons
+  - **Evidence pointer** Table 1
+  - **Issue** No statistical analysis is reported for the Ka values. It is unclear whether the differences between conditions are statistically significant.
+  - **Required correction** Provide error estimates and statistical comparisons for the Ka values across conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 4
+  - **Evidence pointer** Figure 4
+  - **Issue** The DLS titration curves are not shown in the provided text. It would be helpful to see representative titration curves to assess the quality of the data and the nature of the peak-and-dip behavior.
+  - **Required correction** Include representative DLS titration curves in the main text or supplementary information.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Comparison with previous studies
+  - **Evidence pointer** Results and Discussion section "Alpha-Synuclein/Malleable Mimic Binding Affinity by Circular Dichroism Titrations"
+  - **Issue** The discussion of conflicting results in the literature regarding cholesterol effects on alpha-synuclein binding is brief. A more thorough discussion of why the authors' results differ from some previous studies would be helpful.
+  - **Required correction** Expand the discussion of the cholesterol effects and potential reasons for discrepancies with previous reports.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Rigid" vs "malleable" terminology
+  - **Evidence pointer** Throughout
+  - **Issue** The terms "rigid" and "malleable" are used to describe the mimics, but the mechanical properties of the gold nanoparticle cores are not directly measured. The rigidity difference is inferred from the presence of the gold core.
+  - **Required correction** Clarify that rigidity is inferred from the design and not directly measured, or provide mechanical characterization of the mimics.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding affinity fitting), R1-M2 (lipid composition verification)
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of creating a matched library of mimics that vary in rigidity while controlling for other properties is a valuable and relatively novel approach. The application of limited proteolysis mass spectrometry to probe protein orientation on different mimic surfaces is also innovative.
+  - **Scientific importance** The question of how membrane physical properties influence alpha-synuclein behavior is of significant importance for understanding Parkinson's disease mechanisms. The results could inform future studies on the role of membrane rigidity in neurodegeneration.
+  - **Interdisciplinary readership** The work bridges nanoscience, biophysics, and neurobiology, and would be of interest to researchers in all three fields. The methods and concepts are accessible to a broad audience.
+  - **Technical soundness** The technical soundness is currently limited by the concerns raised above, particularly regarding the binding affinity measurements and lipid composition verification. The proteolysis data would benefit from more quantitative analysis.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The concepts are explained clearly, and the figures are well-designed. However, some sections, particularly the proteolysis analysis, may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses an important question and has a strong experimental design, but the key claims regarding binding affinities and lipid composition need to be more rigorously supported.
+
+## Risk / unsupported claims
+- The claim that lipid composition is maintained in the final mimics is not fully supported due to the inability to quantify sphingomyelin.
+- The apparent Ka values for rigid mimics are based on fitting a model that does not describe the full binding curve and should be interpreted with caution.
+- The claim that the peak-and-dip binding curve shape arises from changes in protein orientation is presented as a hypothesis without direct testing.
+- The claim that the C-terminal region of alpha-synuclein is protected upon binding to all mimics is based on qualitative observations and would benefit from quantitative analysis.
+- The comparison of binding affinities between rigid and malleable mimics uses different techniques (DLS vs CD) and may not be directly comparable.

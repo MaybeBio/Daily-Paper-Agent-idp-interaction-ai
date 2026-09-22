@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35863661",
+  "title": "Structural characterisation of amyloidogenic intrinsically disordered zinc finger protein isoforms DPF3b and DPF3a.",
+  "authors": "Mignon, Julien; Mottet, Denis; Leyder, Tanguy; Uversky, Vladimir N; Perpete, Eric A; Michaux, Catherine",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2022-07-22",
+  "window": {
+    "start": "2022-07-18",
+    "end": "2022-07-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究表征了无序锌指蛋白异构体DPF3a/b的结构与淀粉样聚集行为，虽涉及IDP构象和聚集机制，但未聚焦PPI互作机制，且方法以实验表征为主，AI/物理模拟方法较弱。",
+  "abstract": "Double PHD fingers 3 (DPF3) is a zinc finger protein, found in the BAF chromatin remodelling complex, and is involved in the regulation of gene expression. Two DPF3 isoforms have been identified, respectively named DPF3b and DPF3a. Very limited structural information is available for these isoforms, and their specific functionality still remains poorly studied. In a previous work, we have demonstrated the first evidence of DPF3a being a disordered protein sensitive to amyloid fibrillation. Intrinsically disordered proteins (IDPs) lack a defined tertiary structure, existing as a dynamic conformational ensemble, allowing them to act as hubs in protein-protein interaction networks. In the present study, we have more thoroughly characterised DPF3a in vitro behaviour, as well as unravelled and compared the structural properties of the DPF3b isoform, using an array of predictors and biophysical techniques. Predictions, spectroscopy, and dynamic light scattering have revealed a high content in disorder: prevalence of random coil, aromatic residues partially to fully exposed to the solvent, and large hydrodynamic diameters. DPF3a appears to be more disordered than DPF3b, and exhibits more expanded conformations. Furthermore, we have shown that they both time-dependently aggregate into amyloid fibrils, as revealed by typical circular dichroism, deep-blue autofluorescence, and amyloid-dye binding assay fingerprints. Although spectroscopic and microscopic analyses have unveiled that they share a similar aggregation pathway, DPF3a fibrillates at a faster rate, likely through reordering of its C-terminal domain.",
+  "abstract_zh": "Double PHD fingers 3 (DPF3) 是一种锌指蛋白，存在于 BAF 染色质重塑复合物中，并参与基因表达的调控。已鉴定出两种 DPF3 异构体，分别命名为 DPF3b 和 DPF3a。关于这些异构体的结构信息非常有限，其特定功能仍研究不足。在先前的工作中，我们首次证明了 DPF3a 是一种对淀粉样纤维化敏感的紊乱蛋白。固有无序蛋白 (intrinsically disordered proteins, IDPs) 缺乏明确的三级结构，以动态构象集合形式存在，使其能够充当蛋白质-蛋白质相互作用网络中的枢纽。在本研究中，我们利用一系列预测工具和生物物理技术，更全面地表征了 DPF3a 的体外行为，并揭示和比较了 DPF3b 异构体的结构特性。预测、光谱学和动态光散射揭示了高度的无序性：随机卷曲占主导，芳香族残基部分或完全暴露于溶剂中，以及较大的流体动力学直径。DPF3a 似乎比 DPF3b 更无序，并表现出更扩展的构象。此外，我们表明它们均随时间依赖性地聚集成淀粉样原纤维，这通过典型的圆二色光谱、深蓝色自发荧光和淀粉样染料结合测定指纹特征得以揭示。尽管光谱和显微镜分析表明它们共享相似的聚集途径，但 DPF3a 以更快的速率原纤维化，可能通过其 C 端结构域的重排实现。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35863661/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35863661/",
+  "paper_page_path": "papers/pubmed/35863661/index.html"
+}

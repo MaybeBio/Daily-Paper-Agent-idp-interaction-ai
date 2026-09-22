@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, methods, results, discussion, and conclusions
+- **Assessment boundary** Scientific validity of claims, methodological soundness, and interpretation of results as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that the commonly used poly-dl-alanine (PDLA) reference for intrinsic hydrogen/deuterium exchange rate calculations is unsuitable because it retains partial helical structure, and that the fully unstructured trialanine peptide (3-Ala) provides a more accurate reference. They further demonstrate that ionic strength affects exchange rates, complicating absolute calibration.
+- **Visible evidence base** Experimental HDX-MS data on three unstructured peptides (angiotensin, bradykinin, ANP), circular dichroism spectroscopy, molecular dynamics simulations of PDLA peptides, and reanalysis of previously published data
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; raw HDX-MS data not available; details of the ms2min instrument setup and validation not fully described; the Weis et al. dataset used for reanalysis is not described in detail
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely issue in HDX-MS: the validity of intrinsic exchange rate calibrations. The authors present a compelling argument that PDLA is not a suitable unstructured reference due to its helical propensity, supported by both experimental data and MD simulations. The identification of 3-Ala as a more appropriate reference is a valuable contribution. However, the manuscript has several weaknesses that need to be addressed, particularly regarding the quantitative treatment of salt effects, the limited scope of the experimental validation, and the lack of a clear framework for how the proposed recalibration would be implemented in practice. The claim that 3-Ala can serve as a "universal calibrant" is not fully supported by the data presented.
+- **Who would be interested in the results, and why** Researchers in the HDX-MS community, particularly those studying intrinsically disordered proteins or performing quantitative HDX analysis; developers of HDX-MS data analysis software; structural biologists using integrative modeling approaches that incorporate HDX data; biopharmaceutical scientists using HDX-MS for characterization of therapeutic proteins.
+- **Major strengths** The manuscript addresses a fundamental assumption in HDX-MS that has been largely unquestioned. The combination of experimental HDX-MS with MD simulations provides complementary evidence for the structural propensity of PDLA. The use of millisecond HDX-MS is appropriate for studying fast-exchanging unstructured peptides. The authors are transparent about the limitations of their current understanding of salt effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that 3-Ala is a suitable unstructured reference and that PDLA is not, based on comparisons of experimental uptake with theoretical predictions.
+  - **Evidence pointer** Figures 1 and 3, Results section "Intrinsic Exchange Rate Predictions Are More Accurate When 3-Ala Is Used as a Reference"
+  - **Concern** The experimental validation is limited to only three peptides, all of which are relatively short and lack proline residues (except bradykinin, which has two prolines). The authors do not test whether the 3-Ala reference performs equally well for a broader range of sequences, including longer peptides, peptides with different amino acid compositions, or peptides with post-translational modifications. The claim that 3-Ala is a "universal calibrant" is not supported by this limited dataset.
+  - **Why it matters** The central claim of the manuscript is that 3-Ala should replace PDLA as the standard reference for intrinsic exchange rate calculations. If this recommendation is to be adopted by the field, it must be validated across a much wider range of peptide sequences and conditions. The current evidence is suggestive but not conclusive.
+  - **Resolution test** The authors should either expand their experimental validation to include a more diverse set of unstructured peptides (varying in length, composition, and charge) or temper their claims about universality. Alternatively, they could provide a clear rationale for why the three peptides tested are representative of the broader sequence space.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors state that "the introduction of salt in the buffers slows down the exchange (subtly, yet significantly) of the peptides" and that this salt effect explains discrepancies between predictions and experimental data.
+  - **Evidence pointer** Figure 4, Results section "Intrinsic Exchange Rate Depends on the Ionic Strength of the Buffer"
+  - **Concern** The salt effect is demonstrated qualitatively but not quantified. The authors show that adding 150 mM NaCl slows exchange, but they do not provide a quantitative relationship between ionic strength and exchange rate. They also do not test different salt concentrations or salt types, despite acknowledging that the effect depends on both. The statement that this effect "explains" the discrepancies in Figure 3 is an interpretation, not a demonstrated mechanism.
+  - **Why it matters** If salt effects are to be incorporated into future calibration frameworks, a quantitative understanding is essential. The current treatment is too vague to be actionable. Moreover, the claim that salt effects explain the discrepancies in Figure 3 is not directly tested; the authors do not show that adding salt to their own experimental conditions reproduces the observed discrepancies.
+  - **Resolution test** The authors should measure exchange rates at multiple salt concentrations (e.g., 0, 50, 100, 150, 300 mM NaCl) and, ideally, with different salts (e.g., KCl, MgCl2) to establish a quantitative relationship. They should also test whether the salt effect observed in their own experiments quantitatively accounts for the discrepancies in the reanalyzed data from Weis et al.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The authors state that "we avoid this problem by using disordered peptides without further digestion where the local environment of a residue remains the same after quenching."
+  - **Evidence pointer** Discussion section, paragraph on back-exchange
+  - **Concern** The authors claim that back-exchange is not a concern for their experiments because they use intact peptides without digestion. However, back-exchange can still occur during the chromatographic separation and ionization steps, even for intact peptides. The authors do not provide any data on the extent of back-exchange in their system or how they accounted for it in their calculations.
+  - **Why it matters** If back-exchange is not properly accounted for, the experimental uptake curves could be systematically biased, which would affect the comparison with theoretical predictions. The authors' dismissal of this issue is not fully convincing.
+  - **Resolution test** The authors should either provide quantitative back-exchange measurements (e.g., using fully deuterated peptide standards) or acknowledge this as a limitation and discuss its potential impact on their conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, HDX experiments
+  - **Evidence pointer** Methods section "Hydrogen/Deuterium Exchange Experiments"
+  - **Issue** The description of the ms2min instrument and the labeling protocol is brief. It is not clear how the mixing times were calibrated or validated, and the flow rates and dead volumes are not specified.
+  - **Required correction** Provide more detail on the instrument setup, including flow rates, mixing volumes, and how the labeling times were verified.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Data analysis
+  - **Evidence pointer** Methods section "Data Processing and Analysis"
+  - **Issue** The use of pooled standard deviation is mentioned, but the number of replicates and how they were combined is not clearly described. The error bars in Figure 1 are not defined.
+  - **Required correction** Clarify the number of replicates, how the pooled standard deviation was calculated, and what the error bars represent in each figure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of salt effects
+  - **Evidence pointer** Results section "Intrinsic Exchange Rate Depends on the Ionic Strength of the Buffer"
+  - **Issue** The authors suggest that salt effects are due to changes in water structure and proton mobility, but they do not discuss alternative explanations, such as direct ion binding to the peptides or changes in peptide conformation.
+  - **Required correction** Acknowledge alternative mechanisms and discuss why the proposed mechanism is most likely.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** MD simulations
+  - **Evidence pointer** Methods section "Molecular Dynamics Simulations"
+  - **Issue** The MD simulation protocol is described, but the analysis of secondary structure propensity is not detailed. It is unclear how the DSSP assignments were averaged and whether the simulations reached equilibrium.
+  - **Required correction** Provide more detail on the simulation analysis, including convergence checks and how the helical propensity was calculated.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (limited experimental validation), R1-M2 (lack of quantitative salt effect characterization)
+- **Assessment against Nature-style criteria** Originality: The manuscript challenges a long-standing assumption in HDX-MS and proposes a concrete alternative. This is a novel contribution. Scientific importance: The findings have implications for quantitative HDX-MS analysis, which is increasingly used in structural biology and biopharmaceutical characterization. However, the importance is somewhat incremental rather than transformative. Interdisciplinary readership: The work will primarily interest the HDX-MS community and structural biologists. The broader biophysics community may find the salt effect observations relevant, but the appeal is relatively narrow. Technical soundness: The experimental design is generally sound, but the limited peptide set and lack of quantitative salt effect characterization weaken the conclusions. Readability for nonspecialists: The manuscript is clearly written and accessible to readers with a basic understanding of HDX-MS, though some familiarity with the technique is assumed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation that PDLA is not a suitable unstructured reference is well-supported and important. However, the claim of 3-Ala as a universal calibrant requires broader validation, and the salt effect needs quantitative characterization before the proposed framework can be considered established.
+
+## Risk / unsupported claims
+- The claim that 3-Ala can serve as a "universal calibrant" across all time scales and salt conditions is not supported by the limited experimental data (only three peptides, one salt concentration tested).
+- The statement that salt effects "explain" the discrepancies in the reanalyzed data from Weis et al. is an interpretation, not a demonstrated mechanism.
+- The assertion that back-exchange is not a concern for intact peptides without digestion is not fully supported by quantitative data.
+- The MD simulation results are used to support the helical propensity of PDLA, but the simulations were performed at 0.5 M KCl, while the experimental conditions for the peptide mixture were salt-free; the relevance of the simulation conditions to the experimental conditions is not fully discussed.

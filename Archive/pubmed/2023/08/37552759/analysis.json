@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37552759",
+  "title": "Analysis of the complex between MBD2 and the histone deacetylase core of NuRD reveals key interactions critical for gene silencing.",
+  "authors": "Leighton, Gage O; Shang, Shengzhe; Hageman, Sean; Ginder, Gordon D; Williams, David C Jr",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2023-08-08",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合AlphaFold2建模与实验验证，解析了MBD2无序区域与NuRD组蛋白去乙酰化酶核心的互作机制，并揭示关键结合口袋对基因沉默的调控，是IDR介导PPI机制建模的典范。",
+  "abstract": "The nucleosome remodeling and deacetylase (NuRD) complex modifies nucleosome positioning and chromatin compaction to regulate gene expression. The methyl-CpG-binding domain proteins 2 and 3 (MBD2 and MBD3) play a critical role in complex formation; however, the molecular details of how they interact with other NuRD components have yet to be fully elucidated. We previously showed that an intrinsically disordered region (IDR) of MBD2 is necessary and sufficient to bind to the histone deacetylase core of NuRD. Building on that work, we have measured the inherent structural propensity of the MBD2-IDR using solvent and site-specific paramagnetic relaxation enhancement measurements. We then used the AlphaFold2 machine learning software to generate a model of the complex between MBD2 and the histone deacetylase core of NuRD. This model is remarkably consistent with our previous studies, including the current paramagnetic relaxation enhancement data. The latter suggests that the free MBD2-IDR samples conformations similar to the bound structure. We tested this model of the complex extensively by mutating key contact residues and measuring binding using an intracellular bioluminescent resonance energy transfer assay. Furthermore, we identified protein contacts that, when mutated, disrupted gene silencing by NuRD in a cell model of fetal hemoglobin regulation. Hence, this work provides insights into the formation of NuRD and highlights critical binding pockets that may be targeted to block gene silencing for therapy. Importantly, we show that AlphaFold2 can generate a credible model of a large complex that involves an IDR that folds upon binding.",
+  "abstract_zh": "核小体重塑和去乙酰化酶（NuRD）复合物通过修饰核小体定位和染色质压缩来调控基因表达。甲基-CpG结合域蛋白2和3（MBD2和MBD3）在复合物形成中发挥关键作用；然而，它们与其他NuRD组分相互作用的分子细节尚未完全阐明。我们先前表明，MBD2的一个内在无序区域（IDR）对于结合NuRD的组蛋白去乙酰化酶核心是必要且充分的。在此基础上，我们利用溶剂和位点特异性顺磁弛豫增强测量，测定了MBD2-IDR的固有结构倾向性。随后，我们使用AlphaFold2机器学习软件生成了MBD2与NuRD组蛋白去乙酰化酶核心之间复合物的模型。该模型与我们先前的研究（包括当前的顺磁弛豫增强数据）高度一致。后者表明，游离的MBD2-IDR采样的构象类似于结合态结构。我们通过突变关键接触残基并使用细胞内生物发光共振能量转移测定法测量结合，对该复合物模型进行了广泛测试。此外，我们鉴定了蛋白质接触点，这些接触点突变后在胎儿血红蛋白调控的细胞模型中破坏了NuRD介导的基因沉默。因此，这项工作为NuRD的形成提供了见解，并突出了可能被靶向以阻断基因沉默用于治疗的临界结合口袋。重要的是，我们展示了AlphaFold2能够生成涉及折叠后结合的IDR的大型复合物的可信模型。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37552759/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37552759/",
+  "paper_page_path": "papers/pubmed/37552759/index.html"
+}

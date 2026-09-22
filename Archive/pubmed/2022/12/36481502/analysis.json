@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36481502",
+  "title": "Cell-inspired selective potassium removal towards hyperkalemia therapy by microphase-isolated core-shell microspheres.",
+  "authors": "Wang, Zhoujun; Yuan, Rui; Li, Peiyang; Huang, Yanping; Zhao, Weifeng; Zhao, Changsheng",
+  "journal": "Acta biomaterialia",
+  "published_date": "2022-12-09",
+  "window": {
+    "start": "2022-12-05",
+    "end": "2022-12-11"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究用于高钾血症治疗的钾离子选择性吸附微球，对象为材料与离子，不涉及无序蛋白或蛋白互作，且无AI/物理模拟方法，与本课题无关。",
+  "abstract": "Hyperkalemia is a common metabolic problem in patients with chronic kidney disease. Although oral medications and hemodialysis are clinically applied for lowering serum potassium, the intrinsic limitations encourage alternative therapy in the trend of adsorbent-based miniaturized blood purification devices. Cells serve as the biological K(+) storage units that accumulate K(+) through multiple mechanisms. Inspired by cells, our strategy aims at favorable permeation and enrichment of K(+) in the microsphere. We incorporate cation-affinitive groups into core-shell structures with submicron-sized phase separation. These nano-spaced side-groups cooperate to form interlinked clusters, where crown ethers with Angstrom-scale ring for size-matched complexation, while ionic sulfonic acid groups for hydrophilicity and charge-buffering. The unique structure with such non-covalent interactions facilitates K(+) for permeation across the shell and binding to the core while also ensuring mechanical strength and anti-swelling durability in biofluids. The microspheres exhibit high selectivity ratios of K(+) (S(K/Na), S(K/Ca), S(K/Mg) up to 9.8, 21.6, and 17.7). As column adsorbents for hemoperfusion simulation, they effectively lower elevated K(+) levels to the normal range (clearance rates up to 44.4%/45.3% for hyperkalemic human serum/blood). Blood compatibility tests show low protein adsorption, preferable hemocyte compatibility, and anticoagulation property in vitro. This promising strategy has clinical potential for hyperkalemia in high-risk patients. STATEMENT OF SIGNIFICANCE: Hyperkalemia (serum potassium >5 mmol/L) is a common complication in chronic renal failure patients. The limitations of existing treatments prompt a shift to wearable artificial kidney technology for clinical convenience and efficacy. Existing treatments have limitations, and we turn to adsorbent-based miniaturized blood purification devices in the prospect of wearable artificial kidney technology. There exists a lack of ion-specific adsorbents applied in extracorporeal circuits to redress electrolyte imbalances like hyperkalemia. Inspired by cells, we aim at the favorable permeation and enrichment of K(+) by microspheres. The microspheres have a microphase-isolated core-shell structure, whose nano-spaced groups form cation-affinitive clusters. Selective K(+) removal and blood compatibility are achieved. We expect this strategy to enlighten alternative hyperkalemia therapy for these high-risk patients.",
+  "abstract_zh": "高钾血症是慢性肾脏病患者的常见代谢问题。尽管口服药物和血液透析在临床上用于降低血清钾水平，但其固有局限性促使在基于吸附剂的小型化血液净化装置趋势中探索替代疗法。细胞作为生物体内的K(+)储存单元，通过多种机制积累钾离子。受细胞启发，我们的策略旨在实现微球中K(+)的良好渗透与富集。我们将阳离子亲和基团引入具有亚微米级相分离的核壳结构中。这些纳米间距的侧基协同形成相互连接的簇，其中冠醚具有埃级环以实现尺寸匹配的络合，而离子磺酸基团则提供亲水性和电荷缓冲作用。这种具有非共价相互作用的独特结构促进了K(+)穿过壳层并结合至核心，同时确保了生物流体中的机械强度和抗溶胀耐久性。微球表现出高K(+)选择性比率（S(K/Na)、S(K/Ca)、S(K/Mg)分别高达9.8、21.6和17.7）。作为血液灌流模拟中的柱吸附剂，它们能有效将升高的K(+)水平降至正常范围（对高钾血症人血清/血液的清除率高达44.4%/45.3%）。血液相容性测试显示低蛋白质吸附、良好的血细胞相容性及体外抗凝特性。这一有前景的策略对高风险患者的高钾血症具有临床潜力。意义声明：高钾血症（血清钾>5 mmol/L）是慢性肾功能衰竭患者的常见并发症。现有治疗方法的局限性促使向可穿戴人工肾脏技术转变，以提高临床便利性和疗效。现有治疗存在局限，我们转向基于吸附剂的小型化血液净化装置，展望可穿戴人工肾脏技术。目前缺乏用于体外循环中以纠正电解质失衡（如高钾血症）的离子特异性吸附剂。受细胞启发，我们旨在通过微球实现K(+)的良好渗透与富集。微球具有微相分离的核壳结构，其纳米间距基团形成阳离子亲和簇。实现了选择性K(+)去除和血液相容性。我们期望这一策略能为这些高风险患者提供替代性高钾血症治疗的启示。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36481502/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36481502/",
+  "paper_page_path": "papers/pubmed/36481502/index.html"
+}

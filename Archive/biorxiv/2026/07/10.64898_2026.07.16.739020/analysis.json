@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.07.16.739020",
+  "title": "A machine learning model predicts protein stability of annotated and alternate protein isoforms",
+  "authors": "Océane Marescal; Iain M. Cheeseman",
+  "journal": "bioRxiv",
+  "published_date": "2026-07-17",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用机器学习从N端序列预测蛋白质稳定性，虽涉及序列-功能关系建模，但对象非无序蛋白/IDR，且不涉及PPI或互作机制，对无序蛋白互作建模启发有限。",
+  "abstract": "The regulation of protein stability is essential for cellular homeostasis and is determined by a combination of intrinsic sequence motifs and extrinsic recognition enzymes. Despite growing knowledge of the protein degradation machinery, the ability to predict a protein’s stability from its amino acid sequence remains challenging. Here we develop a machine learning model to predict protein stability from N-terminal amino acid sequences. Using our model and experimental validation, we identify known and novel sequence motifs governing protein stability. We additionally use this model to predict the stability of alternative translational isoforms with distinct N-termini produced from the same mRNA. Despite differing by a limited number of amino acids, we identify N-terminal isoforms with drastically different stabilities relative to their annotated counterparts, highlighting the potential of N-terminal extensions and truncations to regulate protein function. Together, this model provides a valuable tool for evaluating additional protein datasets and protein design strategies.",
+  "abstract_zh": "蛋白质稳定性的调控对细胞稳态至关重要，其由内在序列基序和外在识别酶共同决定。尽管对蛋白质降解机制的认识日益深入，但从氨基酸序列预测蛋白质稳定性的能力仍具挑战性。在此，我们开发了一种机器学习模型，用于从N端氨基酸序列预测蛋白质稳定性。利用该模型及实验验证，我们识别了已知和新颖的调控蛋白质稳定性的序列基序。此外，我们应用此模型预测由同一mRNA产生的具有不同N端的替代性翻译异构体的稳定性。尽管这些异构体仅相差有限数量的氨基酸，我们识别出与其注释对应物相比稳定性显著不同的N端异构体，凸显了N端延伸和截短在调控蛋白质功能方面的潜力。综上，该模型为评估更多蛋白质数据集和蛋白质设计策略提供了宝贵工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.07.16.739020",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.07.16.739020",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.07.16.739020/index.html"
+}

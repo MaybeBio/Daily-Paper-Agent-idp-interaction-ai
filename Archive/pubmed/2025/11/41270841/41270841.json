@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "41270841",
+    "doi": "10.1016/j.bbagen.2025.130889",
+    "title": "Receptor binding domain of SARS CoV2 spike protein exhibits in vitro liquid-liquid phase separation due to structural disorderedness that may challenge the vaccine-generated antibody binding."
+  },
+  "content": {
+    "abstract": "In this study we expressed, purified and demonstrated the protein liquid-liquid phase separation (LLPS) formation by the receptor binding domain (RBD) of coronavirus spike protein in vitro. Our molecular dynamics simulations revealed multiple structurally disordered regions lacking secondary structural elements within RBD that exhibited high structural flexibility with deviations as high as 6 A over 500 ns in support of our in vitro findings. Additionally these disordered regions overlap with epitopes potentially altering their architecture. Based on these results we conclude that the structural disorderedness of RBD causes LLPS formation in vitro and may potentially challenge the COVID-19 vaccine efficacy.",
+    "keywords": [
+      "COVID-19",
+      "Liquid-liquid phase separation",
+      "Receptor binding domain",
+      "SARS CoV-2 spike protein",
+      "Vaccine efficacy"
+    ],
+    "mesh_terms": [
+      "*Spike Glycoprotein, Coronavirus/chemistry/immunology/metabolism",
+      "*SARS-CoV-2/immunology/chemistry",
+      "Molecular Dynamics Simulation",
+      "*COVID-19 Vaccines/immunology",
+      "Humans",
+      "Protein Domains",
+      "*Antibodies, Viral/immunology",
+      "Protein Binding",
+      "COVID-19/immunology/prevention & control/virology",
+      "Epitopes/immunology/chemistry",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sodasani, Manikanta",
+        "Grandhi, Abhinav V K S",
+        "Mukala, Niharikha",
+        "Chintalapati, Jahnavi",
+        "Vissapragada, Madhuri",
+        "Aggunna, Madhumita",
+        "Yedidi, Ravikiran S"
+      ],
+      "short_names": [
+        "Sodasani M",
+        "Grandhi AVKS",
+        "Mukala N",
+        "Chintalapati J",
+        "Vissapragada M",
+        "Aggunna M",
+        "Yedidi RS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India.",
+        "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India; Department of Pharmacy Practice, V.J.'s College of Pharmacy, Rajahmundry 533296, India.",
+        "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India; Departments of Biotechnology, Andhra University, Visakhapatnam 530003, India.",
+        "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India; Biochemistry, Andhra University, Visakhapatnam 530003, India.",
+        "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India; Human Genetics, Andhra University, Visakhapatnam 530003, India.",
+        "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India; School of Medical Sciences, Ӧrebro University, 70382 Orebro, Sweden.",
+        "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India; Departments of Biotechnology, Andhra University, Visakhapatnam 530003, India. Electronic address: tcabse.india@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sodasani, Manikanta",
+        "short_name": "Sodasani M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India."
+        ]
+      },
+      {
+        "full_name": "Grandhi, Abhinav V K S",
+        "short_name": "Grandhi AVKS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India; Department of Pharmacy Practice, V.J.'s College of Pharmacy, Rajahmundry 533296, India."
+        ]
+      },
+      {
+        "full_name": "Mukala, Niharikha",
+        "short_name": "Mukala N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India; Departments of Biotechnology, Andhra University, Visakhapatnam 530003, India."
+        ]
+      },
+      {
+        "full_name": "Chintalapati, Jahnavi",
+        "short_name": "Chintalapati J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India; Biochemistry, Andhra University, Visakhapatnam 530003, India."
+        ]
+      },
+      {
+        "full_name": "Vissapragada, Madhuri",
+        "short_name": "Vissapragada M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India; Human Genetics, Andhra University, Visakhapatnam 530003, India."
+        ]
+      },
+      {
+        "full_name": "Aggunna, Madhumita",
+        "short_name": "Aggunna M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India; School of Medical Sciences, Ӧrebro University, 70382 Örebro, Sweden."
+        ]
+      },
+      {
+        "full_name": "Yedidi, Ravikiran S",
+        "short_name": "Yedidi RS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Intramural Research Core, The Center for Advanced-Applied Biological Sciences & Entrepreneurship (TCABS-E), Visakhapatnam 530003, India; Departments of Biotechnology, Andhra University, Visakhapatnam 530003, India. Electronic address: tcabse.india@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochimica et biophysica acta. General subjects"
+    ],
+    "journal_abbrev": [
+      "Biochim Biophys Acta Gen Subj"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/22 00:28",
+    "fetched_at": "2026-09-17 22:07:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41270841",
+      "40001604",
+      "32768882",
+      "41008647",
+      "35080430",
+      "40511920",
+      "33112236",
+      "34643438",
+      "34756082",
+      "39189731",
+      "35072628",
+      "34452531",
+      "34925381",
+      "33671255",
+      "39056544",
+      "37874075",
+      "34915268",
+      "32991844",
+      "33160446",
+      "33684923",
+      "33810465",
+      "34313527",
+      "35046385",
+      "33154165",
+      "33836142",
+      "39987705",
+      "39173622",
+      "35007561",
+      "34267764",
+      "34994386",
+      "33995366",
+      "33777030",
+      "33524990",
+      "32961274",
+      "39727342",
+      "39218023",
+      "41298374",
+      "33963055",
+      "39162285",
+      "35030983",
+      "33873199",
+      "34105996",
+      "33483491",
+      "34261126",
+      "34237773",
+      "32573788",
+      "40043139",
+      "38893549",
+      "40498855",
+      "34835096",
+      "35972290",
+      "39392057",
+      "39500432",
+      "34696367",
+      "39146295",
+      "40485545",
+      "40573332",
+      "41301407",
+      "40627497",
+      "32726802",
+      "34116356",
+      "34452461",
+      "40872744",
+      "33567448",
+      "33247109",
+      "33594794",
+      "35176090",
+      "38823574",
+      "40001552",
+      "34452287",
+      "34266981",
+      "32691875",
+      "33741598",
+      "33841395",
+      "33947773",
+      "40806175",
+      "34379509",
+      "34651342",
+      "33731916",
+      "41360318",
+      "34781736",
+      "40842437",
+      "34592170",
+      "40447075",
+      "38921817",
+      "34829998",
+      "35090597",
+      "38624232",
+      "40326950",
+      "35027583",
+      "38574739",
+      "40561863",
+      "39339934",
+      "35016194",
+      "34534459",
+      "38206036",
+      "39923096",
+      "38442025",
+      "38733291",
+      "40270771"
+    ],
+    "review": [
+      "41270841",
+      "32768882",
+      "33995366",
+      "32961274",
+      "41301407",
+      "34116356",
+      "33594794",
+      "35176090"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0304-4165(25)00134-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19vaccines.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 Vaccines"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

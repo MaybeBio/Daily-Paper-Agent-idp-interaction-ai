@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "41846982",
+    "doi": "10.64898/2026.03.03.709370",
+    "title": "Intrinsically disordered SERBP1 regulates translation through topology-driven G-quadruplex recognition."
+  },
+  "content": {
+    "abstract": "Serpine mRNA-binding protein 1 (SERBP1) is an intrinsically disordered RNA-binding protein that regulates translation and ribosome biogenesis through interactions with ribosomes and other molecular complexes. Despite its regulatory importance and implication in cancer development, the molecular basis of SERBP1 RNA recognition remains poorly understood. Here, we characterize the G-quadruplex (G4)-binding properties of SERBP1. Using NMR spectroscopy and biophysical assays, we show that SERBP1 binds parallel G4s, both RNA and DNA, with low micromolar affinity through a conserved mechanism. Molecular dynamics and docking simulations reveal an encircling mechanism in which the RGG box wraps around the G4 while downstream C-terminal serine residues stabilize the complex through hydrogen bonding. Phosphomimetic mutations of key serines disrupt this stabilization and reduce binding affinity, identifying phosphorylation as a regulatory switch for SERBP1 activity. Recognition is driven by G4 topology rather than nucleotide sequence, establishing SERBP1 as a broad-specificity G4-binding protein. We further demonstrate that SERBP1 regulates mTOR expression in glioblastoma cell lines through G4 elements in the mTOR 5' UTR, and that SERBP1 depletion synergizes with mTOR inhibition to reduce cell growth. These results establish SERBP1 as a G4 adaptor protein and represent, to our knowledge, the first detailed characterization of G4 recognition by a fully disordered domain, providing a molecular framework for targeting SERBP1-G4 interactions in cancer.",
+    "keywords": [
+      "G-quadruplex",
+      "RNA-protein interactions",
+      "SERBP1",
+      "glioblastoma",
+      "intrinsically disordered protein",
+      "mTOR",
+      "phosphorylation",
+      "translational regulation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Baudin, Antoine",
+        "Dinh, Hoang H",
+        "Breunig, Kira",
+        "Lei, Xuifen",
+        "Xu, Xiaoping",
+        "Penalva, Luiz O",
+        "Libich, David S"
+      ],
+      "short_names": [
+        "Baudin A",
+        "Dinh HH",
+        "Breunig K",
+        "Lei X",
+        "Xu X",
+        "Penalva LO",
+        "Libich DS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1390-1196",
+        "ORCID: 0009-0009-6065-7219",
+        "ORCID: 0009-0005-9004-2662",
+        "ORCID: 0000-0003-4491-6769",
+        "ORCID: 0000-0001-6492-2803"
+      ],
+      "affiliations": [
+        "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States.",
+        "Department of Biochemistry and Structural Biology, University of Texas Health San Antonio, San Antonio, TX, United States.",
+        "Laboratoire de Chimie et Biochimie Pharmacologiques et Toxicologiques, Universite Paris Cite, Paris, France.",
+        "Laboratoire de Chimie de coordination, CNRS, Toulouse, France.",
+        "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States.",
+        "Department of Biochemistry and Structural Biology, University of Texas Health San Antonio, San Antonio, TX, United States.",
+        "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States.",
+        "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States.",
+        "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States.",
+        "Department of Biochemistry and Structural Biology, University of Texas Health San Antonio, San Antonio, TX, United States.",
+        "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States.",
+        "Deparment of Cell Systems and Anatomy, University of Texas Health San Antonio, San Antonio, TX, United States.",
+        "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States.",
+        "Department of Biochemistry and Structural Biology, University of Texas Health San Antonio, San Antonio, TX, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Baudin, Antoine",
+        "short_name": "Baudin A",
+        "identifiers": [
+          "0000-0002-1390-1196"
+        ],
+        "affiliations": [
+          "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States.",
+          "Department of Biochemistry and Structural Biology, University of Texas Health San Antonio, San Antonio, TX, United States.",
+          "Laboratoire de Chimie et Biochimie Pharmacologiques et Toxicologiques, Université Paris Cité, Paris, France.",
+          "Laboratoire de Chimie de coordination, CNRS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Dinh, Hoang H",
+        "short_name": "Dinh HH",
+        "identifiers": [
+          "0009-0009-6065-7219"
+        ],
+        "affiliations": [
+          "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States.",
+          "Department of Biochemistry and Structural Biology, University of Texas Health San Antonio, San Antonio, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Breunig, Kira",
+        "short_name": "Breunig K",
+        "identifiers": [
+          "0009-0005-9004-2662"
+        ],
+        "affiliations": [
+          "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Lei, Xuifen",
+        "short_name": "Lei X",
+        "identifiers": [],
+        "affiliations": [
+          "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaoping",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States.",
+          "Department of Biochemistry and Structural Biology, University of Texas Health San Antonio, San Antonio, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Penalva, Luiz O",
+        "short_name": "Penalva LO",
+        "identifiers": [
+          "0000-0003-4491-6769"
+        ],
+        "affiliations": [
+          "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States.",
+          "Deparment of Cell Systems and Anatomy, University of Texas Health San Antonio, San Antonio, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Libich, David S",
+        "short_name": "Libich DS",
+        "identifiers": [
+          "0000-0001-6492-2803"
+        ],
+        "affiliations": [
+          "Greehey Children's Cancer Research Institute, University of Texas Health San Antonio, San Antonio, TX, United States.",
+          "Department of Biochemistry and Structural Biology, University of Texas Health San Antonio, San Antonio, TX, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Mar 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/18 07:25",
+    "fetched_at": "2026-09-18 01:43:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40764612",
+      "40316420",
+      "40181150",
+      "40153110",
+      "38886530",
+      "38848656",
+      "38718835",
+      "38519458",
+      "38291093",
+      "37957331",
+      "37002329",
+      "36917561",
+      "36350035",
+      "36124670",
+      "35791380",
+      "35352895",
+      "35013231",
+      "34977886",
+      "34908152",
+      "34836941",
+      "34631798",
+      "34509630",
+      "34436734",
+      "34270902",
+      "33632214",
+      "33032406",
+      "32762776",
+      "31504805",
+      "31363226",
+      "30892612",
+      "30834310",
+      "30662577",
+      "30591072",
+      "30362859",
+      "30039520",
+      "29735687",
+      "28821580",
+      "28718405",
+      "28575444",
+      "28445744",
+      "28225080",
+      "28211448",
+      "27663422",
+      "27571552",
+      "27251275",
+      "26972534",
+      "26489465",
+      "26374839",
+      "26150098",
+      "26068472",
+      "25826664",
+      "25763809",
+      "25514926",
+      "24205981",
+      "24120142",
+      "24055347",
+      "23911959",
+      "23737970",
+      "23636399",
+      "23407358",
+      "23236990",
+      "23186163",
+      "22442049",
+      "21642970",
+      "21500218",
+      "21049125",
+      "20124481",
+      "20068163",
+      "19515602",
+      "18079716",
+      "17698176",
+      "17322877",
+      "16679534",
+      "12783107",
+      "11719189",
+      "11001948",
+      "9873066",
+      "8520220",
+      "1490109"
+    ],
+    "similar": [
+      "41846982",
+      "34631798",
+      "34436734",
+      "39937575",
+      "38585848",
+      "40153110",
+      "30517002",
+      "34302476",
+      "31010072",
+      "25679041",
+      "27913192",
+      "41288383",
+      "40542407",
+      "38203794",
+      "30039520",
+      "41308807",
+      "26462961",
+      "26068472",
+      "32762776",
+      "39617253",
+      "41534480",
+      "42208840",
+      "37293096",
+      "41386043",
+      "42201978",
+      "37857165",
+      "41888191",
+      "30315240",
+      "40877262",
+      "33089692",
+      "33617136",
+      "24249225",
+      "34094311",
+      "30639410",
+      "38709899",
+      "31641093",
+      "37422364",
+      "34025941",
+      "23912807",
+      "26374839",
+      "39763191",
+      "38996909",
+      "36636928",
+      "40966493",
+      "34213273",
+      "39133064",
+      "39256186",
+      "42251661",
+      "28069813",
+      "35631373",
+      "35326503",
+      "20571083",
+      "34736054",
+      "42406628",
+      "33347280",
+      "26742101",
+      "33269497",
+      "32267689",
+      "29269411",
+      "39078265",
+      "18842585",
+      "30529547",
+      "41133888",
+      "27082063",
+      "33779503",
+      "20472641",
+      "21244633",
+      "39342702",
+      "34443620",
+      "26649896",
+      "29458089",
+      "36488193",
+      "41495908",
+      "36282946",
+      "36263745",
+      "33978746",
+      "29348174",
+      "41033976",
+      "38509417",
+      "41759551",
+      "27940037",
+      "32596589",
+      "36348631",
+      "24996049",
+      "40245140",
+      "22442049",
+      "26267306",
+      "35550917",
+      "28025082",
+      "24952945",
+      "29229300",
+      "38738955",
+      "41708255",
+      "42075831",
+      "22747774",
+      "41889773",
+      "32933064",
+      "29234104",
+      "38953247",
+      "41303530"
+    ],
+    "review": [
+      "41846982",
+      "37422364"
+    ],
+    "pmc": [
+      "12991144"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41846982/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/41846982",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.03.03.709370",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

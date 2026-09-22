@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supporting data were provided for evaluation
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to investigate how three molecular crowders of differing size and hydrophobicity (ethylene glycol, diethylene glycol, and a modified diethylene glycol termed UCON) affect the structural stability of Abeta(16-22) dimers and tetramers at two packing fractions. They report that ethylene glycol destabilizes both oligomers at both concentrations via distinct mechanisms (enhanced hydration at low concentration, enhanced peptide-crowder interactions at high concentration), while UCON stabilizes both oligomers via distinct mechanisms (reduced hydration and enhanced inter-strand interactions at low concentration, entropic volume exclusion with confined and slow-diffusing water at high concentration). The authors conclude that crowder size effects on peptide hydration regulate oligomer structure, with implications for understanding crowding in IDP free energy landscapes.
+- **Visible evidence base** Abstract text only; no simulation details, force fields, system compositions, convergence criteria, error estimates, or quantitative results are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, simulation parameters, force field choices, system size and box dimensions, equilibration and production run lengths, replica or repeat information, statistical analyses, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically framed simulation study on a topic of current interest, namely how crowder properties beyond volume exclusion modulate IDP oligomer stability. The central narrative, that crowder size and hydrophobicity shift the balance between hydration and direct peptide-crowder interactions in a concentration-dependent manner, is plausible and potentially valuable. However, the abstract alone provides no quantitative evidence, no methodological detail, and no statistical context. The mechanistic claims are stated as definitive conclusions, yet the supporting data are entirely absent from the supplied material. The work may be of interest to the soft matter and biophysics communities, but the case as presented cannot be assessed for technical soundness or robustness.
+- **Who would be interested in the results, and why** Researchers studying protein aggregation and amyloid formation, particularly those focused on the early oligomerization steps of intrinsically disordered proteins. Also of interest to computational biophysicists and soft matter scientists working on crowding effects, hydration dynamics, and the interplay of excluded volume and weak chemical interactions in biomolecular systems. The findings could inform experimental design in cellular or in vitro crowding studies.
+- **Major strengths** The abstract addresses a genuine gap in the crowding literature, namely the separate and combined roles of crowder size and hydrophobicity on IDP oligomer stability. The design of three crowders with systematic variation in size and hydrophobicity is conceptually clean. The proposed dual mechanisms for each crowder at low versus high packing fractions are mechanistically distinct and testable. The focus on hydration and confined water dynamics is a useful complement to the usual emphasis on excluded volume.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that EG destabilizes both peptide oligomers at low and high packing fractions, and that UCON stabilizes both oligomers at both concentrations, with specific mechanistic explanations for each condition.
+  - **Evidence pointer** Abstract only; no figures, tables, or methods sections provided
+  - **Concern** No quantitative data are presented to support any of the stability claims. There are no free energy values, no structural order parameters, no hydrogen bond counts, no interaction energy decompositions, and no measures of statistical uncertainty. The mechanistic statements, such as enhanced hydration at low concentration or entropic volume exclusion at high concentration, are presented as established facts without any numerical basis.
+  - **Why it matters** The central conclusions of the study rest entirely on these stability and mechanism claims. Without quantitative evidence, the reader cannot judge whether the reported effects are large, small, or within statistical noise. The mechanistic distinctions between low and high concentration regimes are the core intellectual contribution, and they cannot be evaluated without data.
+  - **Resolution test** Provide the full manuscript with figures and tables showing quantitative measures of oligomer stability (for example, root mean square deviation, radius of gyration, inter-strand contact maps, potential of mean force) with error bars or replicate information, and interaction energy decompositions that support each mechanistic claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The study employs molecular dynamics simulations to examine the role of three crowders on peptide oligomer structural stability.
+  - **Evidence pointer** Abstract only; no methods section provided
+  - **Concern** No simulation details are given. The force field, water model, crowder parametrization, box size, periodic boundary conditions, temperature and pressure coupling, equilibration protocol, production run length, number of replicates, and analysis methods are all absent. Without these, the simulations cannot be reproduced or evaluated for convergence and sampling adequacy.
+  - **Why it matters** Molecular dynamics results on peptide oligomerization are highly sensitive to force field choice, system size, and sampling length. The absence of these details means that even with the full manuscript, the reader would need to verify that the simulations are adequately converged and that the crowder models are physically reasonable. As supplied, the work is not reproducible.
+  - **Resolution test** Provide a complete methods section in the full manuscript, including force field parameters for all species, system construction details, simulation length and replicates, and convergence checks such as block averaging or independent runs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for conclusions
+  - **Claim pointer** The abstract concludes that water molecules are confined in small volume and are disordered with anomalously slow diffusion, and that this is linked to UCON stabilization at high packing fractions.
+  - **Evidence pointer** Abstract only; no diffusion data or water structure analysis provided
+  - **Concern** The claim about confined water with anomalously slow diffusion is a strong physical statement. No diffusion coefficients, residence times, or water structure factors are presented. The link between this water behavior and the proposed entropic stabilization mechanism is asserted but not demonstrated.
+  - **Why it matters** The water dynamics claim is presented as a key mechanistic finding. If the diffusion anomaly is not quantitatively characterized and statistically distinguished from bulk or other crowder conditions, the conclusion is unsupported. The connection between water confinement and entropic stabilization is also nontrivial and requires free energy decomposition.
+  - **Resolution test** Provide quantitative water diffusion data (for example, mean squared displacement or residence time correlation functions) with statistical comparisons across conditions, and a free energy decomposition that directly links the water behavior to the stabilization free energy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "soft, non-specific interactions" is used without definition. It is unclear whether this refers to hydrophobic interactions, van der Waals forces, hydrogen bonding, or a combination.
+  - **Required correction** Define what is meant by soft and non-specific interactions in the context of the crowders studied, or use more standard terminology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Crowder set
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The abstract states that diethylene glycol (DEG) is studied, but no results for DEG are reported in the abstract. The reader is left wondering whether DEG behaved like EG, like UCON, or in an intermediate manner.
+  - **Required correction** Either report DEG results in the abstract or state explicitly that DEG results are presented in the full manuscript and summarize the key finding for DEG.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Concentration terminology
+  - **Evidence pointer** Abstract, "low and high packing fractions"
+  - **Issue** The terms low and high packing fractions are used without numerical values. The reader cannot assess whether these are physiologically relevant concentrations or extreme limits.
+  - **Required correction** Provide the numerical values of the packing fractions in the abstract or state that they are given in the full manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of conclusions
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract claims implications for understanding crowding in shaping free energy landscapes of IDPs. This is a broad generalization from a study of one peptide fragment (Abeta(16-22)) and three synthetic crowders.
+  - **Required correction** Soften the claim to indicate that the findings may have implications for similar IDP systems, or provide a rationale for why the results are expected to generalize.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence for stability or mechanism claims), R1-M2 (no simulation details for reproducibility), R1-M3 (no data supporting the water diffusion and confinement claim)
+- **Assessment against Nature-style criteria** Originality: the focus on crowder size and hydrophobicity in combination with hydration effects on IDP oligomers is a useful contribution, though not unprecedented. Scientific importance: the topic is relevant to understanding intracellular crowding effects on aggregation, but the significance cannot be judged without quantitative results. Interdisciplinary readership: the work could appeal to biophysicists, soft matter scientists, and protein chemists, but the abstract is written in a way that assumes familiarity with simulation jargon. Technical soundness: cannot be assessed from the abstract alone; the absence of any methodological or statistical detail is a serious limitation. Readability for nonspecialists: the abstract is reasonably clear in its narrative but uses terms such as packing fraction and inter-strand interactions without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting mechanistic framework, but the absence of quantitative data, methodological detail, and statistical context means that the central claims cannot be evaluated. A full manuscript with figures, tables, and methods would be required to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim that EG destabilizes both oligomers at both concentrations is unsupported by any quantitative data in the supplied material.
+- The claim that UCON stabilizes both oligomers at both concentrations is unsupported by any quantitative data in the supplied material.
+- The mechanistic distinction between low and high concentration effects for both EG and UCON is asserted without supporting evidence.
+- The claim that water molecules are confined and show anomalously slow diffusion is unsupported by any data in the supplied material.
+- The claim that the findings have implications for understanding crowding in shaping free energy landscapes of IDPs is a generalization that cannot be evaluated from the abstract alone.
+- The behavior of DEG, which is listed as a studied crowder, is not reported in the abstract and therefore cannot be assessed.

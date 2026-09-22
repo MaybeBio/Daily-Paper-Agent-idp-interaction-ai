@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, main sections, conclusion, author contributions, conflict of interest, generative AI statement, publisher's note). No figures, tables, or supplementary materials were provided.
+- **Assessment boundary** Scientific content, logical coherence, evidence quality, and alignment with stated aims. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors argue that the spliceosome, long considered "undruggable," can be therapeutically targeted by integrating structural dynamics (molecular dynamics simulations, enhanced sampling) with generative AI. They propose that cancer-associated mutations in SF3B1, U2AF1, and SRSF2 create distinctive structural and splicing signatures that can serve as biomarkers, and that dynamic conformational sampling can reveal cryptic allosteric pockets and intrinsically disordered regions targetable by novel therapeutics. They further propose that splicing-derived neoantigens, identified through computational pipelines and structural immunoinformatics, can be exploited for precision immunotherapy.
+- **Visible evidence base** The manuscript is a narrative review. Evidence is drawn from cited primary literature, but no figures, tables, or reference list were provided in the submitted material. Specific claims about structural mechanisms, clinical trial outcomes, and computational tool performance are presented without the underlying data or citations being verifiable from the supplied text.
+- **Missing materials affecting confidence** Figures (referenced as Figure 1A, 2A, 2B, 2C) are not available. The reference list is absent. No supplementary data, tables, or methodological details for computational pipelines are provided. The absence of these materials prevents verification of specific structural claims, clinical assertions, and tool performance metrics.
+
+## Reviewer
+- **Overall assessment** This is a broad, forward-looking review that synthesizes two rapidly evolving fields: spliceosome structural biology and generative AI for drug design. The central thesis, that dynamic conformational ensembles rather than static structures should guide therapeutic targeting of the spliceosome, is timely and conceptually appealing. The authors demonstrate familiarity with both the mechanistic literature on spliceosomal mutations and the current landscape of AI-based structural prediction tools. However, the manuscript suffers from several significant weaknesses. First, the argument is largely programmatic; specific examples of successful AI-driven spliceosome targeting are scarce, and the authors often rely on analogies from other protein targets. Second, the clinical sections, particularly those on neoantigens and synthetic lethality, make strong claims that are not adequately supported by the evidence presented in the text. Third, the absence of figures and references in the submitted material makes it impossible to assess the accuracy of specific structural descriptions or the strength of cited evidence. The review is likely to be of interest to researchers at the interface of computational biology and cancer therapeutics, but in its current form, the case for a concrete "roadmap" is not fully established.
+- **Who would be interested in the results, and why** Computational biologists working on protein-RNA complexes and conformational sampling will find the synthesis of MD and AI methods relevant. Cancer researchers focused on splicing factor mutations, particularly in myeloid malignancies and uveal melanoma, will be interested in the discussion of biomarkers and therapeutic vulnerabilities. Drug discovery scientists exploring allosteric modulation and cryptic pocket targeting may find the conceptual framework useful. Immunologists and bioinformaticians working on neoantigen prediction will be interested in the proposed integration of structural dynamics with immunoinformatics. The review is likely to be most valuable as a conceptual roadmap for early-career researchers entering this interdisciplinary space.
+- **Major strengths** The manuscript addresses a genuinely important and underexplored problem: how to translate dynamic structural information into therapeutic strategies for a complex RNP machine. The authors correctly identify the limitations of static cryo-EM snapshots and make a compelling case for the importance of conformational ensembles. The discussion of generative AI tools, including recent models like Boltz-2 and BoltzGen, is current and demonstrates awareness of the fast-moving state of the field. The section on splicing-derived neoantigens is a valuable synthesis, highlighting the distinction between sequence-based prediction and structural validation. The authors also appropriately acknowledge the risk of AI hallucination and the need for rigorous benchmarking, which is a critical and often overlooked point.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality and support for central thesis
+  - **Claim pointer** The manuscript claims that "generative AI and biomolecular language models are reshaping the design of binders for transient pockets and intrinsically disordered regions" and that this approach can "unlock" the spliceosome for therapeutic intervention.
+  - **Evidence pointer** Sections "From static structure to generative design" and "Translating structural dynamics into clinical strategy"; location not provided for specific examples.
+  - **Concern** The central thesis rests on the assertion that AI-driven design can target spliceosomal components, yet the manuscript provides no concrete example of a successfully designed binder against a spliceosomal target. The tools discussed (e.g., ProteinMPNN, RFdiffusion, BoltzGen) are described in general terms, and their application to spliceosomal proteins or RNAs is hypothetical. The authors mention "aryl sulfonamides" as molecular glues, but this is a small-molecule example, not an AI-designed binder. The claim that these methods are "reshaping" the field is therefore an overstatement based on the evidence provided.
+  - **Why it matters** The review's stated purpose is to argue that a specific methodological convergence can unlock a previously undruggable target. Without at least one proof-of-concept example, or a detailed discussion of why such examples are imminent, the argument remains speculative. Readers cannot assess whether the proposed approach is realistic or merely aspirational.
+  - **Resolution test** The authors should either provide a specific case study (published or preliminary) of an AI-designed binder or modulator targeting a spliceosomal component, or substantially temper the language to reflect that this is a future possibility rather than an ongoing reality. Alternatively, they could discuss in detail the specific technical barriers that must be overcome for such design to succeed.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Clinical claims and translational readiness
+  - **Claim pointer** The manuscript states that "splicing-derived neoantigens demonstrate substantially higher immunogenicity than SNV-derived peptides" and that "high-burden tumors often exhibit enhanced immunogenicity with shared, targetable neoantigens, correlating with improved survival and superior response rates to immune checkpoint blockade (ICB) therapies."
+  - **Evidence pointer** Section "Splicing-derived neoantigens as immunotherapy targets"; location not provided for specific studies.
+  - **Concern** These are strong quantitative and clinical claims. The assertion that splicing neoantigens are "substantially" more immunogenic than SNV-derived peptides is presented without a direct comparison of effect sizes or a discussion of the studies that support this. Similarly, the correlation between neoantigen burden and ICB response is stated as if it were an established fact, but the literature on neoantigen burden as a predictive biomarker is mixed and context-dependent. The authors do not discuss confounding factors, such as tumor mutational burden, HLA type, or the specific assay used to define neoantigen burden.
+  - **Why it matters** If the review is to serve as a "roadmap for precision immunotherapy," the clinical claims must be accurate and appropriately nuanced. Overstating the predictive power of splicing neoantigens could mislead researchers and clinicians. The distinction between correlation and causation, and between retrospective and prospective validation, is critical here.
+  - **Resolution test** The authors should provide specific citations with effect sizes or odds ratios for the immunogenicity comparison and the ICB response correlation. They should also discuss limitations, such as the retrospective nature of many neoantigen studies and the lack of prospective validation for splicing-derived neoantigens as predictive biomarkers.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical accuracy of structural descriptions
+  - **Claim pointer** The manuscript describes the SF3B1 K700E mutation as "disrupting local electrostatics near the branch point helix" and states that this "uncouples SF3B1 from the cofactor SUGP1, which is normally required to recruit the proofreading helicase DHX15."
+  - **Evidence pointer** Section "SF3B1: the gatekeeper of branch point fidelity"; Figure 2A referenced but not available.
+  - **Concern** The mechanistic description of K700E is presented with a level of certainty that may not be warranted. While the SUGP1-DHX15 axis has been proposed in the literature, the precise molecular mechanism by which K700E alters SF3B1 function is still under active investigation. The claim that the mutation "uncouples" SF3B1 from SUGP1 is a specific mechanistic statement that requires direct experimental evidence, which is not presented. The description of "disrupting local electrostatics" is plausible but is an inference, not a demonstrated fact.
+  - **Why it matters** The review's credibility depends on accurate representation of the primary literature. If the mechanistic descriptions are oversimplified or incorrect, the subsequent arguments about therapeutic targeting may be built on a faulty foundation. Readers who are not specialists in spliceosome biology may take these descriptions as established fact.
+  - **Resolution test** The authors should either provide direct citations for the SUGP1-DHX15 uncoupling mechanism or soften the language to indicate that this is a proposed model. They should also clarify whether the electrostatic disruption is supported by structural or computational evidence, and if so, provide the relevant citation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and methodological detail for computational pipelines
+  - **Claim pointer** The manuscript describes a proposed "integrative pipeline" for neoantigen discovery that combines "splice junction calling with deep learning-based immunogenicity prediction (DeepImmuno), tumor specificity ranking (BayesTS), and splicing regulator identification (RNA-SPRINT)."
+  - **Evidence pointer** Section "Computational discovery pipelines"; location not provided for tool versions or parameters.
+  - **Concern** The description of the computational pipeline is at a level of detail that is insufficient for a reader to understand how the tools are integrated, what the input and output formats are, or how the results are validated. The tools are named, but no information is provided on their accuracy, limitations, or the specific versions used. The claim that this constitutes a "pipeline" implies a level of integration that is not demonstrated.
+  - **Why it matters** For a review that emphasizes the importance of rigorous validation and warns against AI hallucination, the lack of methodological detail for the proposed pipeline is a significant omission. Readers cannot assess whether the pipeline is feasible, reproducible, or likely to produce reliable results.
+  - **Resolution test** The authors should provide a more detailed description of the pipeline architecture, including data flow, tool versions, and validation steps. Alternatively, they could refer to a published protocol or provide a schematic figure (which is currently missing).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "undruggable"
+  - **Evidence pointer** Title and Introduction
+  - **Issue** The term "undruggable" is used without definition or qualification. The spliceosome has been targeted by natural products (e.g., pladienolide) for over a decade, so the claim that it is "undruggable" is somewhat misleading. The authors later acknowledge this by discussing pladienolide B and its analogs.
+  - **Required correction** Define what is meant by "undruggable" in this context, e.g., "undruggable by conventional active-site inhibitors" or "undruggable with sufficient selectivity." This would clarify the argument and avoid an apparent contradiction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Logical flow
+  - **Affected element** Transition from structural dynamics to clinical strategy
+  - **Evidence pointer** Section "Translating structural dynamics into clinical strategy"
+  - **Issue** The transition from the computational and structural sections to the clinical sections is abrupt. The authors do not explicitly explain how the dynamic conformational insights translate into the specific therapeutic strategies discussed (e.g., molecular glues, synthetic lethality). The connection is implied but not articulated.
+  - **Required correction** Add a bridging paragraph that explicitly states how the identification of cryptic pockets and conformational states informs the choice of therapeutic modality and target.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of discussion
+  - **Affected element** Alternative approaches
+  - **Evidence pointer** Section "Direct modulation of the spliceosome core"
+  - **Issue** The discussion of small-molecule spliceosome modulators focuses on SF3B1 binders. The authors do not discuss other approaches, such as targeting the catalytic core or the U2 snRNP assembly pathway, which are also under investigation.
+  - **Required correction** Briefly acknowledge alternative targeting strategies to provide a more balanced view of the field.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Precision of language
+  - **Affected element** "Thermodynamic ensembles"
+  - **Evidence pointer** Section "From single structures to dynamic ensembles"
+  - **Issue** The term "thermodynamic ensembles" is used loosely. The authors discuss methods that generate diverse conformational states, but these are not necessarily Boltzmann-weighted thermodynamic ensembles. The distinction matters for the interpretation of the results.
+  - **Required correction** Use more precise language, such as "conformational ensembles" or "kinetically accessible states," unless the methods specifically produce thermodynamically weighted distributions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Citation completeness
+  - **Affected element** Statements about tool performance
+  - **Evidence pointer** Section "Foundation models for structural prediction"
+  - **Issue** The claim that Boltz-2 achieves accuracy "competitive with or superior to AF3 in recent benchmarks" is made without a citation. Given the rapid evolution of these tools, a specific reference is essential.
+  - **Required correction** Provide a citation for the benchmark comparison or qualify the statement as the authors' assessment.
+- **Technical failings that need to be addressed before the case is established** The central case, that generative AI and structural dynamics can unlock the spliceosome, is not established from the provided evidence. The manuscript lacks a concrete example of AI-driven design applied to a spliceosomal target. The clinical claims regarding neoantigen immunogenicity and ICB response are made without sufficient supporting data. The mechanistic descriptions of mutation effects are presented with more certainty than the literature warrants. The absence of figures and references in the submitted material prevents verification of these points.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The conceptual framing, combining spliceosome dynamics with generative AI for therapeutic targeting, is moderately original. The individual components (MD simulations, AI-based structure prediction, neoantigen discovery) are well-established, but their integration in the context of the spliceosome is a relatively new angle. However, the review does not present a novel hypothesis or a new synthesis that would be considered highly original.
+  - **Scientific importance** The spliceosome is a validated therapeutic target in cancer, and the problem of targeting dynamic protein-RNA complexes is of broad significance. The review addresses an important problem, but the importance is largely derivative of the underlying field rather than a new contribution from this manuscript.
+  - **Interdisciplinary readership** The review bridges structural biology, computational chemistry, AI, and clinical oncology. This is a strength, as it could appeal to readers across these disciplines. However, the depth in any single area is limited, which may reduce its value for specialists.
+  - **Technical soundness** The technical descriptions are generally accurate but lack the detail needed to assess the validity of specific claims. The absence of figures and references is a major limitation. The discussion of AI tools is current but not critical; the authors do not deeply engage with the limitations of these methods beyond a general warning about hallucination.
+  - **Readability for nonspecialists** The manuscript is written in a style that is accessible to a broad scientific audience. Technical terms are generally explained, and the logical flow is clear. However, the density of tool names and method acronyms may be challenging for readers outside the computational biology field.
+- **Recommendation posture** Currently not established from the provided evidence. The review has merit as a conceptual roadmap, but the central claims are not supported by concrete examples or sufficient data. The manuscript would require substantial revision, including the addition of specific case studies, more nuanced clinical claims, and the inclusion of figures and references, before the case for an AI-driven approach to spliceosome targeting can be considered established.
+
+## Risk / unsupported claims
+- The claim that generative AI is "reshaping" the design of binders for spliceosomal targets is unsupported; no specific example is provided.
+- The assertion that splicing-derived neoantigens are "substantially" more immunogenic than SNV-derived peptides is made without comparative data or citations.
+- The statement that high neoantigen burden correlates with "superior response rates" to ICB is presented as established fact without discussion of conflicting literature.
+- The mechanistic description of SF3B1 K700E "uncoupling" from SUGF1 and DHX15 is presented as fact; the supporting evidence is not provided.
+- The claim that Boltz-2 outperforms AF3 in benchmarks is made without citation.
+- The proposed "integrated neoantigen burden" score is described as a "critical prognostic biomarker" but has no demonstrated clinical validation.
+- The statement that MD simulations "reveal" cryptic pockets in spliceosomal components is presented as a general capability, but no specific spliceosomal example is cited.

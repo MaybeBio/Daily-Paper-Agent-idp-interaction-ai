@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, model, results, discussion, and supplementary material references.
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the presented theory and its comparison with experimental data. No assessment of editorial fit or publication policy.
+- **Shared manuscript claim summary** The authors present a self-consistent theory of charge regulation in intrinsically disordered proteins (IDPs) that includes monopole, charge–dipole, and dipole–dipole interactions arising from counterion condensation. They claim quantitative agreement with experimental data on Prothymosin-alpha and predict sequence-dependent ionization, conformation, and possible coexistence of two phases.
+- **Visible evidence base** Figures 2–7, Supplementary Figures S4–S14, Supplementary Tables S1–S4, and equations in the main text and supplementary material.
+- **Missing materials affecting confidence** Full derivations of equations S1–S11 are referenced but not provided in the submitted text. Parameter values used for fitting are described as in the Supplementary material but not listed in the visible text. The GitHub code link is mentioned but not evaluated.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely problem in IDP biophysics, namely the role of charge regulation beyond simple monopole electrostatics. The theoretical framework is ambitious and the inclusion of dipolar interactions is a novel contribution. However, the presentation suffers from a lack of detail in key derivations and parameter choices, and the quantitative comparison with experimental data, while promising, is limited to a single protein. The prediction of coexisting phases is intriguing but requires more robust evidence and discussion of experimental feasibility. The manuscript is of potential interest to the IDP and biophysics communities, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying IDP conformation, charge regulation, polyampholyte physics, and the role of electrostatics in protein function. The sequence-dependent predictions and the proposed new patterning metrics (SCDD, SDD) would be of interest to those working on IDP sequence–ensemble relationships and to experimentalists using single-molecule techniques or seeking to interpret phosphorylation effects.
+- **Major strengths** 1. The theory goes beyond existing monopole-based models by explicitly including charge–dipole and dipole–dipole interactions, which is a conceptual advance. 2. The self-consistent treatment of ionization and conformation is physically motivated and addresses a known gap in the field. 3. The model is tested against experimental data for Prothymosin-alpha, providing a concrete validation. 4. The predictions regarding sequence-dependent charge regulation and possible phase coexistence are novel and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The theory quantitatively agrees with both charge reduction and salt-dependent conformation data of Prothymosin-alpha.
+  - **Evidence pointer** Figure 2, Supplementary material (fitting procedure and parameter values)
+  - **Concern** The quantitative agreement is claimed for a single protein, and the fitting procedure and parameter values are not fully described in the visible text. The authors state that parameters are "estimated from previous work or fitted from data" but do not provide the actual values or uncertainties. Without this information, the reader cannot assess the robustness of the fit or the uniqueness of the parameter set.
+  - **Why it matters** The central claim of quantitative agreement rests on the fitting procedure. If the parameters are not well-constrained or are chosen to force agreement, the validation is weakened. The lack of transparency in parameter selection undermines confidence in the model's predictive power.
+  - **Resolution test** Provide the full set of fitted parameters, their uncertainties, and a sensitivity analysis showing how the agreement with data changes with parameter variation. Ideally, the model should be tested against additional experimental datasets for other IDPs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The emergence of coexisting phases in the ionization–conformation landscape is a key prediction.
+  - **Evidence pointer** Figures 5 and 6, Supplementary Figures S7–S11
+  - **Concern** The prediction of coexisting phases is based on the free energy landscape showing two minima. However, the authors note that the free energy barriers are low and may be blurred by experimental noise. The conditions under which these phases would be experimentally observable are not clearly delineated. Moreover, the choice of parameters (δ=1.8, p~=0.6) for this analysis is stated to be "motivated" but not rigorously justified, and the sensitivity of the coexistence prediction to these parameters is not explored.
+  - **Why it matters** The prediction of phase coexistence is a strong claim that, if correct, has significant implications for IDP behavior. However, if the prediction is highly sensitive to parameter choices that are not well-constrained, its relevance to real systems is questionable. The authors need to demonstrate that the coexistence is robust within a physically reasonable parameter range.
+  - **Resolution test** Perform a systematic parameter sweep to map the region of parameter space where coexistence occurs. Discuss the experimental conditions (e.g., salt concentration, temperature) under which the two phases could be distinguished, and compare the predicted free energy barriers with those accessible in single-molecule experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The model provides insights into how phosphorylation can act as a regulatory switch by altering charge regulation and conformation.
+  - **Evidence pointer** Section "Choice of phosphosites affects degree of ionization and chain dimension in IDPs", Figure 4
+  - **Concern** The analysis of phosphorylation variants is limited to a single protein (P0A8H9) and uses phosphomimetic mutations (Ser/Thr to Glu) rather than actual phosphorylation. The authors do not discuss whether the charge and dipole properties of a phosphoserine or phosphothreonine are adequately represented by a glutamate residue. This is a significant simplification that may affect the biological relevance of the predictions.
+  - **Why it matters** The claim that phosphorylation can act as a regulatory switch is biologically important, but the use of phosphomimetics may not capture the full electrostatic and structural effects of a phosphate group. If the model's predictions are not transferable to real phosphorylation, the biological implications are weakened.
+  - **Resolution test** Discuss the limitations of using phosphomimetics and, if possible, extend the model to explicitly account for the charge and dipole of a phosphate group. Alternatively, compare predictions with experimental data on phosphorylated IDPs if available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model section, equations for F4
+  - **Evidence pointer** Main text, equation for F4
+  - **Issue** The equation for F4 is presented without a clear derivation or definition of all symbols. The text refers to the Supplementary material for details, but the visible text is insufficient for a reader to reproduce the calculation.
+  - **Required correction** Provide a brief derivation or at least a clear definition of all variables in the equation for F4, and ensure the Supplementary material contains the full derivation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section, Figure 3
+  - **Evidence pointer** Figure 3 and accompanying text
+  - **Issue** The discussion of Figure 3 is dense and the connection between the observed trends in ionization and the underlying physical mechanisms is not always clear. The text jumps between different sequences and parameters without a clear narrative.
+  - **Required correction** Restructure the discussion of Figure 3 to first state the key observations, then explain the physical reasons, and finally connect to the broader implications. Consider using subheadings or bullet points to improve readability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Discussion of symmetry breaking (α+ ≠ α−)
+  - **Evidence pointer** Section "The degree of ionization and chain dimension are self-consistently regulated by sequence patterning"
+  - **Issue** The explanation of why α+ ≠ α− for some sequences is relegated to the Supplementary material. The main text states the result but does not provide a physical intuition, making it difficult for the reader to understand the significance.
+  - **Required correction** Add a brief physical explanation in the main text, even if the full derivation is in the Supplementary material. This would help the reader appreciate the importance of the finding.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (parameter transparency and validation breadth) and R1-M2 (robustness of coexistence prediction) are the primary technical issues. The lack of full derivations and parameter values in the visible text is a significant barrier to assessment.
+- **Assessment against Nature-style criteria** Originality: The inclusion of dipolar interactions in a self-consistent theory of IDP charge regulation is a novel contribution, distinguishing this work from prior monopole-based models. Scientific importance: The topic is of high importance to the IDP field, and the predictions regarding sequence-dependent charge regulation and phase coexistence have potential implications for understanding IDP function. Interdisciplinary readership: The work is likely to appeal to biophysicists, physical chemists, and molecular biologists, but the technical density may limit accessibility to a broader readership. Technical soundness: The theoretical framework is plausible, but the lack of detail in derivations and parameter choices prevents a full assessment. The validation against a single protein is insufficient to establish generalizability. Readability for nonspecialists: The manuscript is written for a specialist audience and would benefit from a more accessible introduction and clearer explanations of key concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the initial comparison with experimental data is encouraging. However, the manuscript in its current form does not fully establish the case due to the lack of transparency in the fitting procedure and the limited validation. Addressing these issues would significantly strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim of "quantitative agreement" with Prothymosin-alpha data is not fully supported without a detailed description of the fitting procedure and parameter uncertainties.
+- The prediction of coexisting phases is not robustly established, as the sensitivity to parameter choices is not explored.
+- The use of phosphomimetic mutations (Ser/Thr to Glu) to represent phosphorylation is an assumption that is not discussed or justified.
+- The statement that "charge groups are less ionized in sequences where opposite charges are well mixed compared to sequences where they are strongly segregated" is presented as a general prediction but is only demonstrated for a limited set of sequences and conditions.

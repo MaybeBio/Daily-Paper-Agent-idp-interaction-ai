@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report adaptation of limited proteolysis–mass spectrometry (LiP–MS) to identify structure-specific protein–protein interactions (PPIs) in cellular extracts, with validation on known PPIs and application to alpha-synuclein (aSyn) monomer and fibril interactors
+- **Visible evidence base** Abstract text only; no experimental details, datasets, or statistical analyses
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, and any raw or processed data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing approach with potential broad utility, but the evidence base available for review is limited to a summary of claims. The feasibility demonstrations and the aSyn application are described without quantitative detail, making it impossible to assess technical rigor, reproducibility, or the strength of the interaction identifications. The central claim of "systematic" and "proteome-wide" capability is not substantiated from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in interactomics, structural biology, and neurodegenerative disease biology would be interested. The method could appeal to those seeking to map conformation-dependent interaction networks, particularly for aggregation-prone proteins like alpha-synuclein. The potential extension to posttranslational modification states and metabolite-bound forms broadens relevance to cell signaling and drug discovery communities.
+- **Major strengths** The conceptual advance of using LiP–MS to probe structure-specific rather than merely binary PPIs is timely and addresses a recognized gap in interactomics. The demonstration on antibody–target and membrane protein interactions suggests versatility. The application to aSyn monomer versus fibril states targets a clinically important question in Parkinson's disease.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim the method "systematically identify[ies] putative structure-specific PPIs" and "pinpoints PPI interfaces"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no quantitative metrics for sensitivity, specificity, or false discovery rates for the identified PPIs. No validation statistics are given for the "well-characterized PPIs" used as proof of concept. The claim of interface pinpointing is stated without any supporting resolution data or comparison to structural benchmarks.  
+  - **Why it matters** Without quantitative performance metrics, the reader cannot judge whether the method reliably distinguishes true interactors from background or whether interface assignments are accurate. This is essential for a method paper claiming systematic identification.  
+  - **Resolution test** Provide precision-recall or ROC-type analyses against known interactor sets, false discovery rate estimates, and structural validation of at least a subset of predicted interfaces (e.g., by mutagenesis or co-crystal structures).  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and data availability  
+  - **Claim pointer** The authors state they "identified several previously known interactors" and "provide a resource of novel putative structure-specific interactors"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No information is given on the number of replicates, statistical thresholds, or how the "resource" is made accessible. The abstract does not state whether the data are deposited in a public repository or how the list of interactors can be accessed and queried.  
+  - **Why it matters** For a resource claim, accessibility and statistical transparency are critical for community use and independent verification. Without these, the resource cannot be evaluated or reused.  
+  - **Resolution test** State replicate numbers, statistical cutoffs, and provide a public data repository link with the full interactor lists and associated confidence scores.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The authors claim the approach is "applicable to identify structure-specific interactomes of any protein, including posttranslationally modified and unmodified, or metabolite-bound and unbound structural states"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract only demonstrates feasibility on antibody–target, membrane protein, and aSyn cases. No evidence is presented for modified versus unmodified or metabolite-bound versus unbound states, which are distinct challenges involving different sample preparation and detection sensitivities.  
+  - **Why it matters** The generalizability claim extends well beyond the demonstrated scope. If the method fails for certain modification types or low-abundance states, the claim would be misleading.  
+  - **Resolution test** Include at least one additional proof-of-concept for a posttranslational modification or metabolite-bound state, or temper the claim to reflect demonstrated scope.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "structure-specific PPIs" is used without explicit definition of what distinguishes these from conventional PPIs.  
+  - **Required correction** Define the term early in the abstract, clarifying that it refers to interactions dependent on a particular conformational state of one partner.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Comparison to existing methods  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states current methods are "limited" but does not specify which methods or what specific limitations are overcome.  
+  - **Required correction** Briefly name one or two existing interactomics methods and state the specific limitation addressed (e.g., inability to resolve conformational states).  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Quantitative reporting  
+  - **Affected element** Effect size  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No indication is given of the scale of the aSyn interactome identified (e.g., number of candidates per state).  
+  - **Required correction** Include approximate numbers of identified interactors for monomer and fibril states to convey the resource size.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative validation and data accessibility prevents assessment of the core methodological claims. R1-M3 is non-blocking but should be addressed for claim accuracy.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of using LiP–MS for structure-specific interactome mapping appears novel and potentially original, but the abstract does not provide enough methodological detail to confirm distinctness from prior LiP–MS applications.  
+  - Scientific importance: The potential to link protein conformational states to interaction networks is important for understanding disease mechanisms, particularly neurodegeneration.  
+  - Interdisciplinary readership: The approach bridges structural biology, proteomics, and neurobiology, which could attract a broad audience if the technical claims are substantiated.  
+  - Technical soundness: Not assessable from the abstract alone; the lack of quantitative metrics is a major gap.  
+  - Readability for nonspecialists: The abstract is generally clear, but terms like "LiP–MS" and "structure-specific" could benefit from brief contextual explanation for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, and the authors should be encouraged to resubmit with full methodological detail, quantitative validation, and data accessibility. A supportive stance is possible if the blocking concerns are resolved.
+
+## Risk / unsupported claims
+- The claim of "systematic" and "proteome-wide" identification is unsupported without coverage statistics or performance benchmarks.
+- The claim that the method "pinpoints PPI interfaces" is unsupported without structural validation data.
+- The claim of applicability to "any protein" and to modified or metabolite-bound states is unsupported beyond the demonstrated cases.
+- The existence and quality of the "resource of novel putative structure-specific interactors" is unverifiable without repository access and confidence metrics.

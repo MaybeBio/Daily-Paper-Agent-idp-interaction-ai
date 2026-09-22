@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that intrinsically disordered regions (IDRs) and short aggregation-prone regions (APRs) in the N- and C-termini of CHD1-9 chromatin remodelers define unique protein-protein interaction (PPI) networks. They report a comprehensive interaction map, identify novel transcription regulator interactions, and demonstrate that a conserved APR in CHD4 is critical for binding to NuRD and ChAHP complexes, with a regulatory role in gene transcription during erythroid differentiation.
+- **Visible evidence base** Abstract text only; no experimental details, proteomics datasets, AlphaFold Multimer outputs, or functional assays are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, proteomics methodology and statistics, AlphaFold Multimer parameters and confidence metrics, validation experiments, and any controls or replicates
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting hypothesis that IDRs and APRs in CHD family remodelers drive specific interaction networks and functional outcomes. However, the evidence base is limited to a summary, and several claims are either under-supported or not assessable without the full data. The central finding regarding the CHD4 APR and its role in NuRD and ChAHP interactions is plausible but requires rigorous validation that is not visible here. The work could appeal to chromatin biology and transcription regulation audiences, but the current abstract does not establish the case with sufficient clarity or depth.
+- **Who would be interested in the results, and why** Researchers studying chromatin remodeling, transcription regulation, intrinsically disordered proteins, and erythroid differentiation would find these results relevant. The proposed link between disordered regions and specific PPI networks could inform broader understanding of how chromatin remodelers achieve functional specificity.
+- **Major strengths** The abstract addresses a gap in understanding the roles of poorly characterized terminal regions in CHD proteins. The integration of proteomics and AlphaFold Multimer is a modern and potentially powerful approach. The focus on a conserved APR with functional consequences in a physiological context (erythroid formation) adds biological relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "a highly conserved APR within the C-terminus of CHD4 is critical for its interaction with the nucleosome remodeling and deacetylase (NuRD), as well as the CHD, ADNP, and HP1 (ChAHP) complexes."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that the APR is "critical" for interactions with both NuRD and ChAHP complexes, but no experimental evidence is shown to support this claim. It is unclear whether this conclusion is based on mutagenesis, deletion constructs, or other perturbation experiments. The term "critical" implies a strong functional requirement, which cannot be evaluated from the abstract alone.
+  - **Why it matters** This is the central mechanistic claim of the study. Without visible validation, the claim that a specific APR is essential for complex formation is not established. Overstatement of functional importance could mislead readers and undermine the study's credibility.
+  - **Resolution test** Provide experimental data showing that mutation or deletion of the APR disrupts interactions with both NuRD and ChAHP, with appropriate controls (e.g., wild-type rescue, specificity checks against other CHD family members).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "integrating proteomics and AlphaFold Multimer analysis, we defined the protein-protein interaction (PPI) networks within the N- and C-termini of all CHDs" and "generated a comprehensive map of CHD1-9-specific binding proteins, revealing dozens of novel interactions with transcription regulators."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract asserts a "comprehensive map" and "dozens of novel interactions," but no details on the proteomics approach, statistical thresholds, or validation of these interactions are provided. The term "comprehensive" is a strong claim that requires evidence of saturation or coverage. AlphaFold Multimer predictions are computational and may not reflect in vivo interactions without experimental confirmation.
+  - **Why it matters** The breadth of the interaction map is a key deliverable of the study. If the map is incomplete or contains false positives, the conclusions about CHD-specific networks would be compromised. The lack of visible validation makes the claim unassessable.
+  - **Resolution test** Present the proteomics methodology, including controls, replicates, and significance criteria, and show experimental validation for a representative subset of novel interactions (e.g., co-immunoprecipitation or proximity ligation assays).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors claim that "a regulatory role for the CHD4 APR in gene transcription during erythrocyte formation" is revealed.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states a regulatory role in transcription during erythroid formation, but no details on the experimental system, readouts, or specificity of the effect are provided. It is unclear whether the APR affects transcription directly or indirectly through altered complex formation.
+  - **Why it matters** This claim extends the molecular findings to a physiological context, which is important for biological significance. However, without visible data, the strength and specificity of the effect cannot be evaluated.
+  - **Resolution test** Provide functional assays (e.g., RNA-seq or qPCR) showing that APR perturbation alters transcription of specific target genes in an erythroid differentiation model, with appropriate controls.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "CHD, ADNP, and HP1 (ChAHP) complexes" is ambiguous. It is unclear whether "CHD" refers to a complex named CHD or to CHD proteins in general. The abbreviation "ChAHP" is defined, but the list is confusing.
+  - **Required correction** Clarify the nomenclature, e.g., "the CHD4-containing complex with ADNP and HP1 (ChAHP)" or provide a clear definition of each complex.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that IDRs and APRs "define" unique PPI networks, but the causal relationship is not explicitly demonstrated. The data may show correlation or association rather than definition.
+  - **Required correction** Use more cautious language, such as "contribute to" or "are associated with," unless direct causal evidence is provided in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract methods
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "integrating proteomics and AlphaFold Multimer analysis" but does not specify the types of proteomics (e.g., affinity purification-mass spectrometry) or the AlphaFold Multimer version and confidence thresholds.
+  - **Required correction** Include brief methodological details in the abstract or refer to the methods section for specifics.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of APR-dependent interactions and the comprehensive interaction map are not supported by visible evidence. R1-M3 is non-blocking but requires functional data to confirm the physiological relevance.
+- **Assessment against Nature-style criteria** 
+  - Originality: The focus on IDRs and APRs in CHD family remodelers is a relatively underexplored area, and the proposed link to PPI networks is potentially novel. However, the abstract does not clearly distinguish this work from prior studies on CHD terminal regions.
+  - Scientific importance: If validated, the findings could advance understanding of chromatin remodeler specificity and transcriptional regulation. The erythroid context adds potential disease relevance, but this is not developed in the abstract.
+  - Interdisciplinary readership: The topic is relevant to chromatin biology, proteomics, and transcription fields, but the abstract may not appeal to a broader audience without clearer framing of broader implications.
+  - Technical soundness: Not assessable from the abstract alone. The reliance on AlphaFold Multimer predictions without visible experimental validation is a concern.
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with CHD biology and complex abbreviations. It is not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the key claims require full experimental details and validation. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that a "comprehensive map" of CHD1-9-specific interactions was generated is unsupported without evidence of coverage or saturation.
+- The claim that "dozens of novel interactions" were revealed is unassessable without proteomics details and validation.
+- The claim that the CHD4 APR is "critical" for interactions with NuRD and ChAHP is unsupported without perturbation experiments.
+- The claim of a "regulatory role" in erythroid transcription is unassessable without functional data.
+- The general assertion that IDRs and APRs "define" unique PPI networks is not supported by causal evidence in the abstract.

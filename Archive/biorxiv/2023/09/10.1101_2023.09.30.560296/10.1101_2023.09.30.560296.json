@@ -1,0 +1,182 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.30.560296",
+  "title": "Decoding Phospho-Regulation and Flanking Regions in Autophagy-Associated Short Linear Motifs: A Case Study of Optineurin-LC3B Interaction",
+  "doi": "10.1101/2023.09.30.560296",
+  "abstract": "Short Linear Motifs (SLiMs) play a pivotal role in mediating interactions between intrinsically disordered proteins and their binding partners. SLiMs exhibit sequence degeneracy and undergo regulation through post-translational modifications, including phosphorylation. The flanking regions surrounding the core motifs also exert a crucial role in shaping the modes of interaction. In this study, we aimed to integrate biomolecular simulations, in silico high-throughput mutational scans, and biophysical experiments to elucidate the structural details of phospho-regulation in a class of SLiMs crucial for autophagy, known as LC3 interacting regions (LIRs). As a case study, we investigated the interaction between optineurin and LC3B. Optineurin LIR perfectly exemplify a class of LIR where there is a complex interplay of different phosphorylations and a N-terminal helical flanking region to be disentangled. Our work unveils the unexplored role of the N-terminal flanking region upstream of the LIR core motif in contributing to the interaction interface. The results offer an atom-level perspective on the structural mechanisms and conformational alterations induced by phosphorylation in optineurin and LC3B recognition, along with of effects of mutations on the background of the phosphorylated form of the protein. Additionally, we assessed the impact of disease-related mutations on optineurin, accounting for different functional features. Notably, we established an approach based on Microfluidic Diffusional Sizing as a novel method to investigate the binding affinity of SLiMs to target proteins, enabling precise measurements of the dissociation constant for a selection of variants identified in the in silico mutational screening. Overall, our work provides a versatile toolkit to characterize other LIR-containing proteins and their modulation by phosphorylation or other phospho-regulated SLiMs, thereby advancing the understanding of important cellular processes.",
+  "authors": [
+    "Antonescu ON",
+    "Utichi M",
+    "Sora V",
+    "Tiberti M",
+    "Maiani E",
+    "Lambrughi M",
+    "Papaleo E"
+  ],
+  "published_date": "2023-09-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.30.560296",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.30.560296.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR734651",
+    "raw_record": {
+      "id": "PPR734651",
+      "source": "PPR",
+      "doi": "10.1101/2023.09.30.560296",
+      "title": "Decoding Phospho-Regulation and Flanking Regions in Autophagy-Associated Short Linear Motifs: A Case Study of Optineurin-LC3B Interaction",
+      "authorString": "Antonescu ON, Utichi M, Sora V, Tiberti M, Maiani E, Lambrughi M, Papaleo E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Antonescu ON",
+            "lastName": "Antonescu",
+            "firstName": "Oana",
+            "initials": "ON",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1161-0835"
+            }
+          },
+          {
+            "fullName": "Utichi M",
+            "lastName": "Utichi",
+            "firstName": "Mattia",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4918-458X"
+            }
+          },
+          {
+            "fullName": "Sora V",
+            "lastName": "Sora",
+            "firstName": "Valentina",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6969-8174"
+            }
+          },
+          {
+            "fullName": "Tiberti M",
+            "lastName": "Tiberti",
+            "firstName": "Matteo",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2529-3594"
+            }
+          },
+          {
+            "fullName": "Maiani E",
+            "lastName": "Maiani",
+            "firstName": "Emiliano",
+            "initials": "E"
+          },
+          {
+            "fullName": "Lambrughi M",
+            "lastName": "Lambrughi",
+            "firstName": "Matteo",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0894-8627"
+            }
+          },
+          {
+            "fullName": "Papaleo E",
+            "lastName": "Papaleo",
+            "firstName": "Elena",
+            "initials": "E"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0894-8627"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4918-458X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6969-8174"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1161-0835"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2529-3594"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Short Linear Motifs (SLiMs) play a pivotal role in mediating interactions between intrinsically disordered proteins and their binding partners. SLiMs exhibit sequence degeneracy and undergo regulation through post-translational modifications, including phosphorylation. The flanking regions surrounding the core motifs also exert a crucial role in shaping the modes of interaction. In this study, we aimed to integrate biomolecular simulations, in silico high-throughput mutational scans, and biophysical experiments to elucidate the structural details of phospho-regulation in a class of SLiMs crucial for autophagy, known as LC3 interacting regions (LIRs). As a case study, we investigated the interaction between optineurin and LC3B. Optineurin LIR perfectly exemplify a class of LIR where there is a complex interplay of different phosphorylations and a N-terminal helical flanking region to be disentangled. Our work unveils the unexplored role of the N-terminal flanking region upstream of the LIR core motif in contributing to the interaction interface. The results offer an atom-level perspective on the structural mechanisms and conformational alterations induced by phosphorylation in optineurin and LC3B recognition, along with of effects of mutations on the background of the phosphorylated form of the protein. Additionally, we assessed the impact of disease-related mutations on optineurin, accounting for different functional features. Notably, we established an approach based on Microfluidic Diffusional Sizing as a novel method to investigate the binding affinity of SLiMs to target proteins, enabling precise measurements of the dissociation constant for a selection of variants identified in the in silico mutational screening. Overall, our work provides a versatile toolkit to characterize other LIR-containing proteins and their modulation by phosphorylation or other phospho-regulated SLiMs, thereby advancing the understanding of important cellular processes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/30/2023.09.30.560296.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.30.560296"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-10-03",
+      "firstPublicationDate": "2023-09-30",
+      "firstIndexDate": "2023-10-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

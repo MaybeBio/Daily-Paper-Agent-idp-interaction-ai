@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, figure legends referenced but not provided, supplementary material referenced but not provided)
+- **Assessment boundary** Scientific content, methodological soundness, claims vs. evidence, and suitability for a Nature-style journal based solely on the supplied manuscript text
+- **Shared manuscript claim summary** The authors present RIBEX, a multimodal framework combining protein language model embeddings with PPI network-derived positional encodings to predict RNA-binding proteins, with improved performance over existing methods and interpretability via alanine scanning and PE ablation
+- **Visible evidence base** Main text only. Figures 1-4 are referenced but not provided. Supplementary Tables 1-4 and Supplementary Figures 4, 6, 8-13, 17, 18 are referenced but not provided. No quantitative results (exact metrics, confidence intervals, p-values) are visible in the supplied text
+- **Missing materials affecting confidence** All figures, all supplementary materials, exact numerical results, hyperparameter settings, dataset statistics, and code. The manuscript text alone does not permit independent verification of any reported performance claim
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology, namely the prediction of RNA-binding proteins with a focus on non-canonical and IDR-rich proteins. The proposed architecture is reasonable and the motivation is clear. However, the supplied text contains no visible quantitative results, no figures, and no supplementary data. The claims of improved performance over state-of-the-art methods cannot be evaluated from the provided material. The interpretability analyses are described in principle but no actual outputs are shown. The manuscript may have merit, but the evidence base provided is insufficient to assess whether the core claims are established.
+- **Who would be interested in the results, and why** Computational biologists working on RNA-protein interactions, researchers developing protein function prediction methods using language models and network context, and experimental biologists seeking candidate RBPs for validation. The interpretability component may interest those studying IDR-mediated RNA binding.
+- **Major strengths** The problem is well motivated and timely. The integration of pLM embeddings with PPI topology via FiLM conditioning is a sensible and potentially novel architectural choice. The use of LoRA for parameter-efficient adaptation is appropriate. The authors explicitly address the challenging subset of proteins lacking canonical RBDs, which is a genuine gap in the field. The interpretability framework combining sequence-level and network-level perturbation analyses is thoughtful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims that RIBEX outperforms state-of-the-art methods such as RBP-TSTL and HydRA, with specific relative improvements cited (e.g., 7.5% and 10.8% AUPRC improvements on Bressin and RIC benchmarks)
+  - **Evidence pointer** Section 3.2, Figure 2 (not provided), Supplementary Figures 6 and 8 (not provided)
+  - **Concern** No quantitative results are visible in the supplied text. The performance claims are stated without any accompanying data, error bars, confidence intervals, or statistical test outputs. The referenced figures and supplementary materials are not available for inspection.
+  - **Why it matters** The central claim of the paper is that RIBEX improves upon existing methods. Without access to the actual performance numbers, baseline comparisons, and statistical significance tests, this claim cannot be verified. The reader cannot assess whether the improvements are meaningful or within noise.
+  - **Resolution test** Provide the actual performance tables and figures with exact metrics, standard deviations, and p-values for all comparisons. The claims should be verifiable from the visible evidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological reproducibility
+  - **Claim pointer** The methods section describes the model architecture and training procedure, including hyperparameter optimization via random search
+  - **Evidence pointer** Section 2.2-2.4, Supplementary Tables 3 and 4 (not provided)
+  - **Concern** The exact hyperparameter settings, PE dimensionality (dPE), learning rates, batch sizes, number of training steps, and the full hyperparameter search space are not specified in the main text. The chosen values are only referenced as being in supplementary tables that are not provided.
+  - **Why it matters** Reproducibility is a core requirement for computational biology papers. Without the exact hyperparameters and training configuration, other researchers cannot replicate the experiments or apply the method to their own data.
+  - **Resolution test** Include the full hyperparameter configuration in the main text or ensure the supplementary tables are available and referenced with specific values visible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretability validation
+  - **Claim pointer** The authors claim that alanine scanning recovers known RNA-binding domains in PUM2, TARDBP/TDP-43, and LIN28A, and that PE ablation identifies functional interactome communities
+  - **Evidence pointer** Section 3.3, Figure 3 (not provided), Supplementary Figures 11-13, 17, 18 (not provided)
+  - **Concern** The interpretability results are described qualitatively but no actual alanine scanning profiles, PE ablation heatmaps, or enrichment analysis outputs are shown in the supplied text. The claim that "more negative scores tended to occur closer to protein-RNA interfaces" is stated without the supporting statistical analysis or visualization.
+  - **Why it matters** The interpretability component is a claimed contribution of the work. Without seeing the actual profiles, the reader cannot judge whether the method genuinely recovers known biology or whether the enrichment is statistically significant.
+  - **Resolution test** Provide the actual alanine scanning profiles for the case studies, the PE ablation maps, and the GO enrichment results with significance values.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline and comparison fairness
+  - **Claim pointer** The manuscript states that RIBEX outperforms RBP-TSTL and HydRA, and that SONAR 3.0 performs below both HydRA and RIBEX variants
+  - **Evidence pointer** Section 3.2, Figure 2G-H (not provided), Supplementary Figure 8 (not provided)
+  - **Concern** The comparison protocol is only partially described. It is unclear whether the same training/validation/test splits are used for all methods, whether hyperparameters for baselines were tuned to the same extent, and whether the HydRA comparison uses the published test set predictions directly or re-runs the method.
+  - **Why it matters** Fair comparison is essential for establishing that the proposed method genuinely advances the state of the art. If baselines are not optimally configured or if evaluation protocols differ, the reported improvements may be artifactual.
+  - **Resolution test** Clearly describe the evaluation protocol for each baseline, including whether hyperparameters were tuned, and ensure all methods are evaluated on identical splits with identical metrics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, Personalized PageRank description
+  - **Evidence pointer** Section 2.3
+  - **Issue** The description of the PPR computation states that the transition matrix is column-stochastic, but the restart vector is defined as eg with a single nonzero entry. The damping factor alpha is not specified.
+  - **Required correction** Specify the value of alpha used and clarify whether the restart vector is normalized or if the PPR is computed in the standard personalized PageRank formulation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 3.3.1, "functional interactome communities"
+  - **Evidence pointer** Section 3.3.1
+  - **Issue** The term "functional interactome communities" is introduced without a formal definition. It is unclear whether these correspond to known protein complexes, GO terms, or purely data-driven clusters.
+  - **Required correction** Define what constitutes a "functional interactome community" and how the DBSCAN clusters relate to known biological annotations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Section 1, Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction states that "no framework rigorously integrates both sequence information and protein interaction context for RBP prediction," but HydRA is later described as integrating sequence and interaction context. This appears contradictory.
+  - **Required correction** Clarify the distinction between the claimed novelty and the existing HydRA approach, or soften the claim to specify the type of integration (e.g., early fusion vs. late ensembling).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2
+  - **Issue** The manuscript reports relative improvements in AUPRC and MCC but does not state whether these are averaged over multiple runs, what the variance is, or whether the differences are statistically significant beyond the paired t-test mention.
+  - **Required correction** Report mean and standard deviation across seeds, and include effect sizes or confidence intervals for the key comparisons.
+- **Technical failings that need to be addressed before the case is established** The absence of all quantitative results, figures, and supplementary data in the supplied material is the primary technical failing. The claims of improved performance, interpretability, and biological relevance cannot be assessed. Additionally, the hyperparameter settings and full training configuration are not visible, preventing reproducibility assessment.
+- **Assessment against Nature-style criteria** Originality: The combination of pLM embeddings with PPI-derived positional encodings via FiLM conditioning appears to be a novel architectural contribution, though the individual components are established. Scientific importance: The problem of predicting non-canonical RBPs is important and timely, and the focus on IDR-rich proteins addresses a genuine gap. Interdisciplinary readership: The work bridges machine learning, network biology, and RNA biology, which could appeal to a broad audience if the results are compelling. Technical soundness: The methodology is described in sufficient principle, but the lack of visible results prevents assessment of whether the implementation is sound and the conclusions are justified. Readability for nonspecialists: The text is generally clear, though some sections assume familiarity with pLM and graph embedding concepts. Overall, the manuscript has potential but the supplied evidence is insufficient to establish the case.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript may have merit, but the supplied text without figures, tables, or supplementary data does not permit evaluation of the core claims. A resubmission with the full evidence base would be required for a meaningful assessment.
+
+## Risk / unsupported claims
+- The claim that RIBEX outperforms RBP-TSTL and HydRA is unsupported in the supplied text, as no quantitative results are visible.
+- The claim that PE provides complementary information beyond sequence features is stated but not demonstrated with visible data.
+- The claim that alanine scanning recovers known RNA-binding domains in PUM2, TARDBP, and LIN28A is unsupported without the actual profiles.
+- The claim that PE ablation identifies functional interactome communities is unsupported without the enrichment analysis results.
+- The claim that task-specific LoRA adaptation contributes more than scaling the frozen backbone is stated but not verifiable from the supplied text.
+- The claim that the split protocol prevents homology leakage is described but the actual cluster composition and sizes are not visible.

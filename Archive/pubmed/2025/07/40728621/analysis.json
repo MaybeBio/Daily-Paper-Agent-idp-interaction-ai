@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40728621",
+  "title": "Prediction of Intrinsically Disordered Lipid Binding Residues with DisoLipPred.",
+  "authors": "Zhao, Bi; Kurgan, Lukasz",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2025-07-29",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 6,
+  "one_liner_zh": "DisoLipPred用深度神经网络预测无序蛋白中的脂质结合残基，虽涉及IDP和AI方法，但聚焦于残基级功能位点预测而非PPI互作机制建模，故为中档。",
+  "abstract": "DisoLipPred is a state-of-the-art predictor of intrinsically disordered lipid-binding residues in protein sequences. This method relies on a modern deep neural network model, produces accurate results, and is available as a convenient web server. We provide a practical and detailed introduction to the DisoLipPred's web server. We describe the underlying predictive process, which is fully automated and performed on the server side, and offer instructions for interactions with DisoLipPred's web interface. We also discuss how to obtain, read, and interpret results produced by this server using a case study that analyzes results generated for the vacuolar-sorting protein SNF8. The web server is freely available at http://biomine.cs.vcu.edu/servers/DisoLipPred/ .",
+  "abstract_zh": "DisoLipPred是一种用于预测蛋白质序列中固有无序脂质结合残基的最先进预测器。该方法依赖于现代深度神经网络模型，产生准确结果，并作为便捷的网络服务器提供。我们提供了对DisoLipPred网络服务器的实用且详细的介绍。我们描述了其底层预测过程，该过程完全自动化并在服务器端执行，并提供了与DisoLipPred网络界面交互的说明。我们还通过一个案例分析，讨论了如何获取、阅读和解释该服务器产生的结果，该案例分析了针对液泡分选蛋白SNF8生成的结果。该网络服务器免费可用，网址为http://biomine.cs.vcu.edu/servers/DisoLipPred/。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40728621/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40728621/",
+  "paper_page_path": "papers/pubmed/40728621/index.html"
+}

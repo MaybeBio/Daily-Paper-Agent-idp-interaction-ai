@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.03.17.484738",
+  "title": "Biomolecular condensation orchestrates clathrin-mediated endocytosis in plants",
+  "authors": "Dragwidge JM; Wang Y; Brocard L; Meyer AD; Hudeček R; Eeckhout D; Grones P; Buridan M; Chambaud C; Pejchar P; Potocký M; Winkler J; Vandorpe M; Serre N; Fendrych M; Bernard A; Jaeger GD; Pleskot R; Fang X; Damme DV",
+  "journal": "bioRxiv",
+  "published_date": "2022-03-17",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究植物中无序TPC亚基AtEH1/AtEH2通过液-液相分离驱动内吞凝聚体形成，并调控网格蛋白组装与内吞动力学，直接涉及IDR介导的PPI及凝聚体机制，但方法以实验为主，AI/物理模拟贡献有限。",
+  "abstract": "<h4>Summary</h4> Clathrin-mediated endocytosis (CME) is an essential cellular internalisation pathway involving the dynamic assembly of clathrin and accessory proteins to form membrane-bound vesicles. In plants, the evolutionarily ancient TSET/TPLATE complex (TPC) plays an essential, but not well-defined role in CME. Here, we show that two highly disordered TPC subunits, AtEH1 and AtEH2 function as scaffolds to drive biomolecular condensation of the complex. These condensates specifically nucleate on the plasma membrane through interactions with anionic phospholipids, and facilitate the dynamic recruitment and assembly of clathrin, early-, and late-stage endocytic accessory proteins. Importantly, clathrin forms ordered assemblies within the condensate environment. Biomolecular condensation therefore acts to promote dynamic protein assemblies throughout clathrin-mediated endocytosis. Furthermore, the disordered region sequence properties of AtEH1 regulate the material properties of the endocytic condensates in vivo and alteration of these material properties influences endocytosis dynamics, and consequently plant adaptive growth. <h4>Highlights</h4> AtEH subunits are endocytic scaffolds which drive condensation of the TPC AtEH1 condensates nucleate on the plasma membrane via lipid interactions Condensation of AtEH1/TPC facilitates clathrin re-arrangement and assembly AtEH1 IDR1 composition controls condensate properties to regulate endocytosis",
+  "abstract_zh": "<h4>摘要</h4> 网格蛋白介导的内吞作用（clathrin-mediated endocytosis, CME）是细胞必需的内化途径，涉及网格蛋白和辅助蛋白的动态组装以形成膜结合囊泡。在植物中，进化上古老的TSET/TPLATE复合体（TPC）在CME中发挥必需但尚未明确的作用。在此，我们展示了两个高度无序的TPC亚基AtEH1和AtEH2作为支架，驱动复合体的生物分子凝聚（biomolecular condensation）。这些凝聚体通过与阴离子磷脂的相互作用，特异性地在质膜上成核，并促进网格蛋白以及早期和晚期内吞辅助蛋白的动态招募和组装。重要的是，网格蛋白在凝聚体环境中形成有序组装。因此，生物分子凝聚在整个网格蛋白介导的内吞作用中促进动态蛋白组装。此外，AtEH1的无序区域序列特性调控体内内吞凝聚体的材料性质，而这些材料性质的改变影响内吞动力学，进而影响植物的适应性生长。<h4>亮点</h4> AtEH亚基是驱动TPC凝聚的内吞支架 AtEH1凝聚体通过脂质相互作用在质膜上成核 AtEH1/TPC的凝聚促进网格蛋白重排和组装 AtEH1 IDR1组成控制凝聚体性质以调节内吞作用",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.03.17.484738",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.03.17.484738",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.03.17.484738/index.html"
+}

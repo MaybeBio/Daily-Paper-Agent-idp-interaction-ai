@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusions
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that age-related increases in PDE11A4 protein expression trigger liquid-liquid phase separation (LLPS) of the enzyme, characterized by membraneless spherical droplet formation, fusion over time, concentration dependence, and reversibility. They further claim that PDE11A4 small molecule inhibitors (tadalafil, BC11-38) reverse this LLPS in vitro and in vivo, independent of cyclic nucleotide elevation.
+- **Visible evidence base** Computational predictions (D2P2, PScore, PLAAC, CIDER, catGRANULE, PhaSePred, Phase Separation Predictor); cell-based assays in HT22, COS1, and HEK293T cells; Western blot quantification; live and fixed microscopy; in vivo oral dosing study in old mice; statistical analyses as reported
+- **Missing materials affecting confidence** Figures and tables referenced but not provided; supplementary materials including source data and videos not accessible; no raw numerical data for key quantifications; no details on antibody validation for PDE11A4-pS117/pS124; no information on blinding for in vivo image quantification beyond stated
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a novel and potentially important question regarding the biophysical mechanism underlying age-related PDE11A4 clustering. The computational predictions are extensive and the in vitro experiments are logically designed to test LLPS criteria. However, the evidence as presented has significant gaps. The central claim that PDE11A4 undergoes LLPS in a physiologically relevant manner is supported by indirect and correlative data. The in vivo experiment, while promising, is underpowered and lacks mechanistic depth. The claim that inhibitor effects are independent of cyclic nucleotides is based on negative results with analogs and antagonists, which require careful interpretation. Overall, the work is of interest to the phosphodiesterase and LLPS communities, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying phosphodiesterase biology, cyclic nucleotide signaling, age-related cognitive decline, and liquid-liquid phase separation in neurodegeneration. The potential therapeutic implication that PDE11A inhibitors can reverse a pathological protein aggregation phenotype would interest drug discovery groups focused on cognitive aging.
+- **Major strengths** 1) The study addresses a novel and understudied area, as no other PDE has been reported to undergo LLPS. 2) The computational analysis is comprehensive, using multiple independent prediction tools. 3) The experimental design systematically tests the four defining criteria of LLPS. 4) The inclusion of both in vitro and in vivo data strengthens the translational relevance. 5) The washout experiments provide insight into the reversibility of inhibitor effects.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "PDE11A4 exhibits the four defining criteria of LLPS" (Abstract, Section 3.2)
+  - **Evidence pointer** Section 3.2, Figure 2
+  - **Concern** The claim that PDE11A4 meets all four LLPS criteria is based on experiments that are largely qualitative or semi-quantitative. The membraneless nature of the droplets is inferred from lack of BODIPY colocalization, but this is a negative result and does not definitively establish the absence of a membrane. The fusion rate is reported as an average with high variability, and the concentration dependence is inferred from a single titration experiment. The reversibility with 1,6-hexanediol is demonstrated in HEK293T cells, not the primary HT22 cell line, and the authors acknowledge HT22 cells did not tolerate the compound. The in vivo relevance of these in vitro observations is not directly tested.
+  - **Why it matters** The central thesis of the manuscript rests on the claim that PDE11A4 clustering is bona fide LLPS. If the evidence for any of the four criteria is weak, the conclusion is undermined. The use of a different cell line for the reversibility experiment introduces a potential confound, as cellular context can influence LLPS behavior.
+  - **Resolution test** Provide quantitative fluorescence recovery after photobleaching (FRAP) data to demonstrate liquid-like behavior. Show that droplet formation is reversible by dilution or other physical means in HT22 cells. Provide a more rigorous demonstration of membraneless nature, such as electron microscopy or exclusion of membrane markers. Include a dose-response curve for droplet formation with multiple concentrations and statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo evidence
+  - **Claim pointer** "orally dosed tadalafil reduced PDE11A4 ghost axons in old mouse ventral hippocampus by 50%" (Abstract, Section 3.8)
+  - **Evidence pointer** Section 3.8, Figure 4
+  - **Concern** The in vivo study uses only 2 mice per sex per group (n=2/sex/group, total n=4 per group). This is a very small sample size, and the power analysis cited was based on previous data but the actual study is underpowered to detect meaningful differences. The statistical analysis reports a significant effect, but with such small n, the result is fragile and highly susceptible to outliers. Furthermore, the study only tests one time point (30 days) and one behavioral or functional outcome is not measured. The claim that this represents a reversal of an age-related phenotype is based solely on a morphological readout.
+  - **Why it matters** The in vivo data are the most translationally relevant aspect of the study. If the sample size is inadequate, the conclusion that tadalafil reverses age-related PDE11A4 clustering in the brain is not robustly supported. This weakens the overall impact of the manuscript.
+  - **Resolution test** Increase the sample size to at least 5-6 mice per sex per group. Include a behavioral assessment of cognitive function to link the morphological reversal to functional improvement. Provide data on drug levels in the brain to confirm target engagement. Consider including a younger control group to demonstrate that the effect is specific to the aged phenotype.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** "PDE11A inhibitors reverse PDE11A4 LLPS independently of increasing cAMP/cGMP levels via catalytic inhibition" (Abstract, Section 3.6)
+  - **Evidence pointer** Section 3.6, Figure 3P-S
+  - **Concern** The conclusion that inhibitor effects are independent of cyclic nucleotides is based on two lines of evidence: (1) cyclic nucleotide analogs do not reduce LLPS, and (2) cyclic nucleotide antagonists do not block inhibitor effects. However, the concentrations of analogs and antagonists used are not justified, and it is unclear if they effectively penetrate cells and reach relevant intracellular concentrations. The negative results could be due to insufficient efficacy of the analogs/antagonists rather than a true independence from cyclic nucleotide signaling. Additionally, the authors do not measure intracellular cAMP/cGMP levels to confirm that the inhibitors are actually elevating them under the experimental conditions.
+  - **Why it matters** The proposed mechanism of action for the inhibitors is a key novel finding. If the evidence is not robust, the mechanistic claim is weakened, and the therapeutic implications become less clear.
+  - **Resolution test** Measure intracellular cAMP and cGMP levels in HT22 cells treated with the inhibitors to confirm target engagement. Perform a dose-response experiment with the cyclic nucleotide analogs to demonstrate their efficacy. Use a broader panel of antagonists, including those with different mechanisms of action. Consider using genetic tools (e.g., knockdown of PDE11A) to confirm specificity.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Specificity of inhibitor effects
+  - **Claim pointer** "neither the PDE4 inhibitor rolipram nor the PDE10 inhibitor papaverine elicited such an effect" (Section 3.5)
+  - **Evidence pointer** Section 3.5, Figure 3L-M
+  - **Concern** The specificity of the PDE11A inhibitor effects is demonstrated by showing that inhibitors of PDE4 and PDE10 do not reverse LLPS. However, the concentrations of rolipram and papaverine used are not stated, and it is unclear if they are equipotent to the PDE11A inhibitors at their respective targets. Without demonstrating that these compounds are active at the concentrations used, the negative result could be due to insufficient dosing rather than true target specificity.
+  - **Why it matters** The specificity of the effect is important to rule out off-target effects of the PDE11A inhibitors. If the control inhibitors are not adequately dosed, the conclusion of specificity is not firmly established.
+  - **Resolution test** Provide the concentrations of rolipram and papaverine used and justify them based on their known potencies. Include a positive control demonstrating that these inhibitors are active in the cell system (e.g., measure PDE4 or PDE10 activity). Consider testing a broader panel of PDE inhibitors to further establish specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.7, Western blotting
+  - **Evidence pointer** Section 2.7
+  - **Issue** The lysis buffer composition is described as "0 mM Tris-HCl, pH 7.5" which appears to be a typographical error. It should likely be a specific concentration (e.g., 20 mM or 50 mM).
+  - **Required correction** Correct the Tris-HCl concentration in the lysis buffer description.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.2, fusion rate comparison
+  - **Evidence pointer** Section 3.2, Figure 2C
+  - **Issue** The statistical test for comparing fusion rates between HT22 and COS1 cells is reported as "T(4,7)-34.0, p = 0.0727". The notation is unusual and the degrees of freedom do not match a standard t-test. It is unclear what test was used.
+  - **Required correction** Clarify the statistical test used and report the test statistic and degrees of freedom in a standard format.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 3.4, Table 1
+  - **Evidence pointer** Section 3.4, Table 1
+  - **Issue** The table is referenced but not provided in the manuscript text. The reader cannot assess the data presented.
+  - **Required correction** Ensure the table is included in the main text or supplementary materials.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 4.2, Discussion
+  - **Evidence pointer** Section 4.2
+  - **Issue** The discussion states that "No other PDEs have been reported to undergo LLPS to date." This is a strong claim that may be difficult to verify comprehensively. It would be more cautious to state that "to our knowledge, no other PDEs have been reported to undergo LLPS."
+  - **Required correction** Soften the claim to "to our knowledge" or provide a comprehensive literature search to support the statement.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** Section 2.9, In vivo study
+  - **Evidence pointer** Section 2.9
+  - **Issue** The dose of tadalafil used in vivo is stated as 30 mg/kg in the methods, but the results section mentions 11 mg/kg and 110 mg/kg doses. This is inconsistent.
+  - **Required correction** Clarify the dosing regimen. If 30 mg/kg was used in a pilot study, state this. If the main study used 11 and 110 mg/kg, correct the methods section.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Section 3.8, Figure 4
+  - **Evidence pointer** Section 3.8, Figure 4
+  - **Issue** The figure is described as showing ghost axons, but the representative images are not provided. The reader cannot assess the quality of the imaging or the nature of the "ghost axon" phenotype.
+  - **Required correction** Include representative images in the figure or supplementary materials.
+
+## Risk / unsupported claims
+- The claim that PDE11A4 undergoes LLPS in vivo is not directly demonstrated. The in vivo data show a reduction in ghost axons, but the nature of these structures as LLPS condensates is inferred from in vitro data.
+- The claim that PDE11A inhibitors reverse LLPS independently of cyclic nucleotide elevation is not fully supported due to potential limitations of the analog/antagonist experiments.
+- The claim that the N-terminal IDR is required for LLPS is supported by a single deletion experiment; additional mutations or domain-swap experiments would strengthen this conclusion.
+- The computational predictions of LLPS propensity are based on algorithms that are not experimentally validated for PDE11A4 specifically.
+- The statement that "PDE11A4 exhibits the four defining criteria of LLPS" is an overstatement given the qualitative nature of some of the evidence.
+- The in vivo sample size (n=4 per group) is insufficient to draw robust conclusions about the efficacy of tadalafil in reversing age-related PDE11A4 clustering.
+- The claim that the effect of tadalafil is specific to PDE11A4 inhibition (as opposed to PDE5 inhibition) is not fully established, as the authors acknowledge the inability to use Pde11a KO mice as a negative control.

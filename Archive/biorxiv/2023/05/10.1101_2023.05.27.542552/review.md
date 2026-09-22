@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors propose RSPPI, an end-to-end deep learning framework combining Residual Neural Network (ResNet) and Spatial Pyramid Pooling (SPP), to predict protein-protein interactions (PPIs) using protein sequence physicochemical properties and spatial structural information. They claim excellent cross-species performance and superiority over several state-of-the-art sequence-based or gene ontology-based methods across most evaluation metrics.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or quantitative results provided
+- **Missing materials affecting confidence** Full manuscript, model architecture details, training and validation datasets, evaluation metrics and numerical results, baseline method descriptions, code availability, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful approach to PPI prediction by integrating structural and sequence information with a deep learning architecture designed to handle variable-length inputs. However, the current evidence base is insufficient to evaluate the technical soundness, reproducibility, or validity of the claimed performance. Key details on data, model design, training procedures, and quantitative comparisons are absent, preventing a rigorous assessment of the central claims.
+- **Who would be interested in the results, and why** Computational biologists, bioinformaticians, and researchers in protein function prediction and drug discovery would be interested, as improved PPI prediction tools have broad applications in understanding cellular processes, identifying disease mechanisms, and screening therapeutic targets. The proposed method could also appeal to machine learning practitioners working on structured biological data.
+- **Major strengths** The idea of combining ResNet with SPP to address variable-length protein inputs is conceptually reasonable and addresses a known limitation in sequence-based PPI predictors. The use of both physicochemical and structural information is a sensible direction that may improve generalization across species. The claim of cross-species performance is relevant and potentially impactful if substantiated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The RSPPI model combines ResNet and SPP to predict PPIs based on protein sequence physicochemical properties and spatial structural information.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the 3D structural information is obtained, represented, or integrated with sequence features. It is unclear whether structures are experimentally determined, predicted, or derived from homology models, and how missing structures are handled. The architecture details of ResNet and SPP are not specified, including input dimensions, layer counts, or how SPP is applied to structural feature maps.
+  - **Why it matters** Without clarity on structural data sources and model architecture, the method cannot be reproduced or evaluated for technical validity. The novelty and feasibility of the approach depend critically on these details.
+  - **Resolution test** Provide a full methods section describing structural data acquisition, feature encoding, model architecture, and training procedure, with sufficient detail for independent replication.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The RSPPI model possessed excellent cross-species performance and outperformed several state-of-the-art methods based either on protein sequence or gene ontology in most evaluation metrics.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative results are reported. There are no performance metrics, dataset descriptions, baseline names, or statistical significance tests. The claim of superiority is unsupported by any numerical evidence.
+  - **Why it matters** The central claim of the study is comparative performance. Without data, the claim cannot be verified, and the practical value of RSPPI relative to existing methods remains unknown.
+  - **Resolution test** Include tables or figures with evaluation metrics (e.g., accuracy, precision, recall, F1, AUC) on defined training and test sets, with clear descriptions of datasets and baseline methods, and appropriate statistical comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The RSPPI model provides a novel strategic direction to develop an AI PPI prediction algorithm.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No information is provided on data availability, code availability, or hyperparameter settings. The abstract does not mention any public datasets used for training or evaluation, nor whether the model is made available to the community.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. Without access to data and code, other researchers cannot validate or build upon the proposed method.
+  - **Resolution test** State data sources, provide code and model weights in a public repository, and document all experimental settings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "spatial structural information" is vague and could refer to 3D coordinates, residue contact maps, or other structural descriptors.
+  - **Required correction** Specify the exact type of structural information used and how it is derived.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Baseline comparisons
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "several state-of-the-art methods" but does not name them, making it impossible to assess the fairness or relevance of comparisons.
+  - **Required correction** List the baseline methods and justify their selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Cross-species claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim of "excellent cross-species performance" is not defined in terms of which species were tested or how cross-species evaluation was conducted.
+  - **Required correction** Describe the species included in training and testing, and clarify whether evaluation was performed on held-out species.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The combination of ResNet and SPP for PPI prediction is a reasonable incremental contribution, but the abstract does not demonstrate conceptual novelty beyond existing deep learning approaches. Scientific importance: PPI prediction is a significant problem, and improved methods would be valuable, but the importance of RSPPI specifically is not established without performance evidence. Interdisciplinary readership: The topic bridges machine learning and molecular biology, which could attract a broad audience, but the abstract is too technical and lacks context for nonspecialists. Technical soundness: Not assessable from the abstract due to missing architectural and data details. Readability for nonspecialists: The abstract is concise but assumes familiarity with deep learning and structural biology; key concepts are not explained for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is plausible, but the abstract lacks the quantitative and methodological detail required to support the central claims. A full manuscript with comprehensive methods and results would be needed for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim of "excellent cross-species performance" is unsupported due to absence of any quantitative data.
+- The claim of outperforming "several state-of-the-art methods" is unsupported because no baselines or metrics are provided.
+- The claim of "novel strategic direction" is not substantiated, as the abstract does not demonstrate how the approach differs fundamentally from existing structure-based or deep learning methods.
+- The feasibility of combining ResNet and SPP for PPI prediction is not assessable without architectural and training details.

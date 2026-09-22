@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.14.426688",
+  "title": "An enhancer sequence in the intrinsically disordered region of the essential cell division protein FtsZ promotes conformation-guided substrate processing by ClpXP in <i>Escherichia coli</i>",
+  "authors": "Marissa G. Viola; Theodora Myrto Perdikari; Catherine Trebino; Negar Rahmani; Kaylee L. Mathews; Carolina Meija Pena; Xien Yu Chua; Botai Xuan; Christopher J. LaBreck; Nicolas L. Fawzi; Jodi L. Camberg",
+  "journal": "bioRxiv",
+  "published_date": "2021-01-14",
+  "window": {
+    "start": "2021-01-11",
+    "end": "2021-01-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过NMR和体外降解实验研究FtsZ无序区域如何通过构象引导的相互作用促进ClpXP蛋白酶对其底物的加工，涉及IDR介导的蛋白互作机制，但方法以实验为主，缺乏AI或物理模拟建模。",
+  "abstract": "The essential bacterial division protein in Escherichia coli , FtsZ, assembles into the FtsZ-ring at midcell and recruits other proteins to the division site to promote septation. A region of the FtsZ amino acid sequence that links the conserved polymerization domain to a C-terminal protein interaction site was predicted to be intrinsically disordered and has been implicated in modulating spacing and architectural arrangements of FtsZ filaments. While the majority of cell division proteins that directly bind to FtsZ engage either the polymerization domain or the C-terminal interaction site, ClpX, the recognition and unfolding component of the bacterial ClpXP proteasome, has a secondary interaction with the predicted intrinsically disordered region (IDR) of FtsZ when FtsZ is polymerized. Here, we use NMR spectroscopy and reconstituted degradation reactions in vitro to demonstrate that this linker region is indeed disordered in solution and, further, that amino acids in the IDR of FtsZ enhance the degradation by conformationally-guided interactions.",
+  "abstract_zh": "大肠杆菌（Escherichia coli）中的必需细菌分裂蛋白FtsZ在细胞中部组装成FtsZ环，并招募其他蛋白至分裂位点以促进隔膜形成。FtsZ氨基酸序列中连接保守聚合结构域与C端蛋白相互作用位点的一个区域，被预测为内在无序，并已涉及调节FtsZ丝状体的间距和结构排列。虽然大多数直接结合FtsZ的细胞分裂蛋白与聚合结构域或C端相互作用位点结合，但ClpX——细菌ClpXP蛋白酶体的识别和去折叠组分——在FtsZ聚合时，与FtsZ的预测内在无序区域（IDR）发生次级相互作用。在此，我们利用核磁共振波谱（NMR spectroscopy）和体外重构降解反应，证明该连接区域在溶液中确实无序，并且进一步表明，FtsZ的IDR中的氨基酸通过构象引导的相互作用增强降解过程。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.14.426688",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.14.426688",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.14.426688/index.html"
+}

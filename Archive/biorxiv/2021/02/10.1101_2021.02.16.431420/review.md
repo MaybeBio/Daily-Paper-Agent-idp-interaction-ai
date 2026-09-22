@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a Siamese convolutional neural network (CNN) architecture combined with evolutionary sequence profile features and a multi-layer perceptron (MLP) to predict human-virus protein-protein interactions (PPIs). They report that this architecture outperforms feature-encoding-based machine learning methods and state-of-the-art predictors. They introduce two transfer learning strategies, 'frozen' and 'fine-tuning', which retrain CNN layers to transfer knowledge from a source human-virus domain to a target domain, improving prediction performance on small target datasets. They apply the 'frozen' transfer learning approach to predict human-SARS-CoV-2 PPIs and claim that the predictions are topologically and functionally similar to experimentally known interactions. Source code and datasets are provided via a GitHub repository.
+- **Visible evidence base** Abstract text only; no quantitative results, performance metrics, dataset descriptions, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, supplementary information, dataset specifications, baseline method details, statistical significance tests, and the GitHub repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible methodological contribution in applying transfer learning to human-virus PPI prediction, a topic of current relevance. However, the evidence provided in the abstract is insufficient to evaluate the validity of the core claims. No quantitative performance data, dataset characteristics, or comparative benchmarks are reported. The transfer learning claims, while conceptually interesting, lack the necessary detail to assess their novelty or effectiveness. The SARS-CoV-2 application is mentioned but not substantiated with any metrics or comparisons. The manuscript may have merit, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-protein interaction prediction, particularly those focused on host-pathogen interactions. Researchers developing deep learning methods for biological sequence analysis would also be interested in the transfer learning strategies. Given the SARS-CoV-2 application, the work may attract attention from the broader virology and infectious disease research community seeking computational tools for identifying potential viral-host interaction targets.
+- **Major strengths** The combination of evolutionary sequence profiles with a Siamese CNN architecture is a reasonable and potentially effective approach for PPI prediction. The explicit focus on transfer learning to address the small dataset problem in target human-virus domains is a relevant and practical contribution. The application to SARS-CoV-2 PPIs addresses a timely and important biological question. The provision of source code and datasets supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The architecture outperforms various feature encodings-based machine learning and state-of-the-art prediction methods.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims superior performance over state-of-the-art methods but provides no quantitative results, no comparison metrics, no baseline names, and no statistical significance assessments. Without these data, the performance claim cannot be evaluated or verified.
+  - **Why it matters** The central claim of the work is that the proposed method improves upon existing approaches. If this claim is not supported by rigorous comparative analysis, the contribution of the paper is substantially weakened.
+  - **Resolution test** Provide performance metrics such as AUC, precision, recall, F1-score, or Matthews correlation coefficient for the proposed method and all baselines on the same benchmark datasets, with confidence intervals or statistical tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The two transfer learning methods, 'frozen' and 'fine-tuning', reliably predict interactions in a target human-virus domain based on training in a source human-virus domain.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that transfer learning improves prediction performance but does not specify the source and target domains used, the size of the datasets, the magnitude of improvement, or the conditions under which the methods succeed or fail. The term 'reliably' is unsupported without error analysis or robustness testing.
+  - **Why it matters** Transfer learning is the main claimed contribution. Without detailed experimental validation showing when and why it works, the novelty and practical utility of the approach remain unsubstantiated.
+  - **Resolution test** Describe the source and target datasets, report performance before and after transfer learning, and include ablation studies or sensitivity analyses that demonstrate the conditions under which transfer learning provides benefits.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The 'frozen' transfer learning predictions for human-SARS-CoV-2 PPIs are topologically and functionally similar to experimentally known interactions.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims that predicted SARS-CoV-2 PPIs resemble known interactions topologically and functionally, but no details are given on the comparison method, the reference interaction set, the metrics used to assess similarity, or the significance of the observed similarity. The claim is therefore not assessable.
+  - **Why it matters** The SARS-CoV-2 application is likely a key motivation for the work and a point of broad interest. If the similarity claim is not rigorously demonstrated, the practical relevance of the method for this important case is unclear.
+  - **Resolution test** Provide a clear description of the known interaction dataset used for comparison, the topological and functional similarity metrics, and statistical tests showing that the predicted interactions are significantly more similar to known ones than random or baseline predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The terms 'frozen' and 'fine-tuning' are introduced without explanation. A reader unfamiliar with transfer learning terminology may not understand what these strategies entail.
+  - **Required correction** Briefly define 'frozen' and 'fine-tuning' in the abstract, for example by stating that 'frozen' refers to keeping the CNN layers fixed and retraining only the MLP, while 'fine-tuning' refers to adjusting the CNN layers during retraining.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Resource availability statement
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The GitHub link is provided, but the abstract does not state the license, the programming language, or the dependencies required to run the code.
+  - **Required correction** Add a sentence specifying the implementation language, key dependencies, and the license under which the code is released.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Method description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions 'evolutionary sequence profile features' but does not specify which type of profile is used, such as PSSM, HMM, or other representations.
+  - **Required correction** Specify the type of evolutionary profile features used in the method description.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative performance data, transfer learning validation details, and SARS-CoV-2 prediction assessment means that the core claims of the paper are currently unsupported by the provided evidence.
+- **Assessment against Nature-style criteria** Originality: The combination of Siamese CNN with transfer learning for human-virus PPI prediction appears to be a novel contribution, but the abstract does not provide enough context to distinguish it from prior transfer learning applications in bioinformatics. Scientific importance: The topic is important, particularly the SARS-CoV-2 application, but the significance of the contribution cannot be assessed without performance data. Interdisciplinary readership: The work is likely to appeal to computational biologists and virologists, but the abstract is too technical for a broad readership and lacks context for nonspecialists. Technical soundness: Not assessable from the abstract alone; the lack of quantitative results and methodological detail prevents evaluation. Readability for nonspecialists: The abstract is concise but uses jargon without explanation, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable approach, but the absence of quantitative results and methodological details means that the claims cannot be verified. A full manuscript with comprehensive experimental validation would be required to assess the work properly.
+
+## Risk / unsupported claims
+- The claim that the architecture outperforms state-of-the-art methods is unsupported due to the absence of any comparative performance data.
+- The claim that transfer learning 'reliably' improves prediction is unsupported without details on datasets, conditions, and error analysis.
+- The claim that SARS-CoV-2 predictions are topologically and functionally similar to known interactions is unsupported without comparison metrics and statistical tests.
+- The general statement that transfer learning 'can effectively apply prior knowledge transfer' is a restatement of the method's intent rather than a demonstrated result.

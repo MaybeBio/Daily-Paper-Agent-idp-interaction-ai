@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report that NPH3, a plasma membrane-associated protein involved in phototropism, undergoes blue light-dependent release into the cytosol and forms reversible membrane-less condensates. Using experimental evidence combined with AI-based structure prediction, they identify a C-terminal bipartite motif mediating NPH3 self-interaction and trimer formation. This motif is claimed to be essential for both plasma membrane association and cytosolic condensate assembly, with distinct motif parts serving distinct roles. Cytosolic condensate formation also requires an N-terminal motif and proceeds independently of other proteins. The authors propose that NPH3 forms a polymerization-driven single-component condensate via self-crosslinking of homo-oligomers. Variants deficient in condensate formation retain key features but are nonfunctional, leading the authors to suggest that phase separation, possibly involving transient cytosolic sequestration, plays an important role in phototropic responses.
+- **Visible evidence base** Abstract text only; no experimental details, structural models, quantitative data, or statistical analyses provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, structural prediction details, experimental validation protocols, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic model for NPH3 function in phototropism, linking protein self-association, condensate formation, and physiological output. However, the evidence base available for this review is limited to the abstract, which precludes independent verification of the central claims. The conceptual framework is coherent and the proposed model is testable, but several key assertions, particularly regarding the causal relationship between condensate formation and phototropic function, and the claim of protein-independent condensate assembly, require careful experimental scrutiny that cannot be assessed from the abstract alone.
+- **Who would be interested in the results, and why** Plant photobiology researchers, particularly those studying phototropism and blue light signaling; cell biologists interested in biomolecular condensates and phase separation; structural biologists working on plant-specific protein families; and researchers studying the NPH3/ROOT PHOTOTROPISM 2-Like (NRL) protein family. The work may also interest those exploring the intersection of AI-based structure prediction with functional validation in plant systems.
+- **Major strengths** The study addresses a significant open question in plant phototropism, namely the mechanistic basis of NPH3 function beyond its known phosphorylation-dependent plasma membrane association. The proposed bipartite motif with separable functions for membrane association and condensate formation is a conceptually elegant model. The combination of AI-based structure prediction with experimental validation represents a modern integrative approach. The claim that condensate formation is protein-independent and driven by self-crosslinking of homo-oligomers is a specific and mechanistically informative hypothesis.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Causal inference  
+  - **Claim pointer** "NPH3 variants deficient in condensate formation retain key features of NPH3 but are nonfunctional" and "phase separation, likely involving transient cytosolic sequestration of NPH3, plays an important role in mediating phototropic responses"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract asserts that condensate-deficient variants are nonfunctional, which is used to support a causal role for phase separation in phototropism. However, the abstract does not specify whether the mutations used to disrupt condensate formation also affect other NPH3 functions, such as plasma membrane association, phosphorylation status, or interaction with phototropin kinases. The phrase "retain key features" is vague and does not establish that the only functional deficit is condensate formation.  
+  - **Why it matters** The central conclusion that phase separation is functionally important rests on the assumption that the observed loss of function is specifically attributable to defective condensate formation rather than to pleiotropic effects of the mutations. Without this specificity, the causal link between condensation and phototropic function is not established.  
+  - **Resolution test** Provide a detailed characterization of the condensate-deficient variants, including quantitative assessment of plasma membrane association, phosphorylation kinetics, interaction with known partners (e.g., phototropins), and any other biochemical activities. Demonstrate that the variants are specifically defective in condensation while all other measured properties are statistically indistinguishable from wild-type. Ideally, include a rescue experiment where condensation is restored independently of the mutated motif.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic sufficiency  
+  - **Claim pointer** "Formation of cytosolic condensates also requires the cooperative action of an N-terminal NPH3 motif yet appears to proceed independently of other proteins"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The claim that condensate formation proceeds independently of other proteins is a strong negative assertion. The abstract does not describe the experimental approach used to test this, such as whether purified recombinant NPH3 was used in vitro, whether depletion experiments were performed in vivo, or whether the condensates were characterized for the presence of other proteins. The phrase "appears to" introduces uncertainty that is not resolved in the abstract.  
+  - **Why it matters** The proposed model of a single-component condensate driven by self-crosslinking of homo-oligomers is mechanistically distinct from multicomponent condensates that require scaffold proteins or RNA. This distinction has implications for the biophysical properties and regulation of the condensate. If the claim is not rigorously supported, the model may be premature.  
+  - **Resolution test** Describe the experimental system used to test protein independence. For in vitro studies, provide evidence of purity and show that condensate formation occurs under defined buffer conditions without additional proteins. For in vivo studies, show that condensate formation is unaffected by depletion of candidate interacting proteins or by mutations that disrupt known protein-protein interaction interfaces.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Structural evidence  
+  - **Claim pointer** "A C-terminal bipartite motif that mediates NPH3 self-interaction to differing extents and enables NPH3 trimer formation"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that AI-based structure prediction was used, but it does not specify the prediction method (e.g., AlphaFold2, AlphaFold3, RoseTTAFold), the confidence metrics (e.g., pLDDT, PAE), or how the predicted trimer was validated experimentally. The claim of trimer formation is central to the proposed model, yet the abstract provides no indication of the strength of the structural evidence.  
+  - **Why it matters** AI-based structure predictions are powerful but can produce confident but incorrect models, particularly for multimeric assemblies. The trimer model underpins the proposed self-crosslinking mechanism. If the trimer prediction is not experimentally validated (e.g., by crosslinking, size exclusion chromatography, or native mass spectrometry), the mechanistic model is built on uncertain foundations.  
+  - **Resolution test** Provide the prediction method and confidence metrics, and describe experimental validation of the trimer, such as analytical ultracentrifugation, native PAGE, or crosslinking mass spectrometry. Show that the predicted trimer interface is consistent with the functional effects of mutations in the bipartite motif.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Functional relevance  
+  - **Claim pointer** "NPH3 is released into the cytosol, where it undergoes a dynamic transition into membrane-less biomolecular condensates; these processes are both reversible"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract describes the reversibility of both membrane release and condensate formation but does not specify the timescales, the conditions under which reversibility was demonstrated, or whether reversibility is relevant to the physiological phototropic response. The relationship between the dynamic cycling of NPH3 and the output of phototropism is not quantitatively described.  
+  - **Why it matters** Reversibility is a key feature of the proposed model, as it implies a dynamic equilibrium that can be modulated by light. However, without quantitative characterization, it is unclear whether the observed reversibility is a general property of the system or an artifact of the experimental conditions. The physiological relevance of the cycling dynamics is not established.  
+  - **Resolution test** Provide quantitative data on the kinetics of membrane release and condensate formation and dissolution, including dose-response relationships with blue light intensity and duration. Show that the dynamics are consistent with the kinetics of phototropic curvature and that perturbations that alter these dynamics also affect the physiological response.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract uses "membrane-less biomolecular condensates" and later "single-component condensate" without defining the relationship between these terms. It is unclear whether all NPH3 condensates are single-component or whether the single-component nature is a specific subset.  
+  - **Required correction** Define the terms clearly and specify whether the single-component claim applies to all observed condensates or only to those formed under specific conditions.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Scope of conclusions  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract concludes with a statement about the NPH3/ROOT PHOTOTROPISM 2-Like protein family, suggesting broader relevance. However, no evidence is presented that the identified motif or mechanism is conserved across this family.  
+  - **Required correction** Either provide evidence of sequence or structural conservation of the bipartite motif across the NRL family, or temper the statement to indicate that the findings may inform future studies without claiming direct applicability.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Experimental context  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not specify the plant species or experimental system used (e.g., Arabidopsis thaliana hypocotyls, etiolated seedlings). This information is important for interpreting the physiological relevance of the findings.  
+  - **Required correction** Include the experimental system and relevant growth conditions in the abstract or ensure they are clearly stated in the main text.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Quantitative support  
+  - **Affected element** "Differing extents"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that the bipartite motif mediates self-interaction "to differing extents" but provides no quantitative comparison. It is unclear whether this refers to different affinities of the two motif parts or to context-dependent differences.  
+  - **Required correction** Provide quantitative binding data or affinity measurements for the two motif parts, or clarify the intended meaning of "differing extents."  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal specificity of condensate-deficient variants), R1-M2 (evidence for protein-independent condensate formation), R1-M3 (validation of predicted trimer structure). These concerns must be resolved with experimental data before the central model can be considered established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The proposed mechanism linking a bipartite self-interaction motif to both membrane association and condensate formation in a plant signaling protein is conceptually novel. The idea of a single-component, polymerization-driven condensate in plant phototropism has not been previously reported to my knowledge. However, the abstract does not provide sufficient context to fully assess novelty relative to the existing condensate literature in plants.  
+  - **Scientific importance** Phototropism is a fundamental plant response, and understanding the molecular mechanism of NPH3 function is of significant interest. If the proposed model is correct, it would represent a new paradigm for how plant signaling proteins integrate membrane signaling with cytosolic phase separation. The importance is high, but it is contingent on the robustness of the evidence.  
+  - **Interdisciplinary readership** The work bridges plant photobiology, cell biology of phase separation, and structural biology. This interdisciplinary appeal is a strength, but the abstract assumes familiarity with both phototropism and condensate biology, which may limit accessibility to nonspecialists in either field.  
+  - **Technical soundness** The technical soundness cannot be adequately assessed from the abstract alone. The combination of AI-based prediction and experimental validation is appropriate in principle, but the lack of methodological detail and quantitative data prevents evaluation of the rigor of the experiments.  
+  - **Readability for nonspecialists** The abstract is generally well-written and logically structured, but it uses field-specific terminology (e.g., "membrane-less biomolecular condensates," "homo-oligomers") without sufficient explanation. A brief contextual statement about why condensate formation might matter for phototropism would improve accessibility.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual model is interesting and potentially significant, but the evidence presented in the abstract is insufficient to establish the central claims. The authors must provide rigorous experimental validation of the causal link between condensate formation and function, demonstrate protein independence of condensate assembly, and experimentally validate the predicted trimer structure. If these concerns are addressed with solid data, the work would be of considerable interest to the plant biology and condensate research communities.
+
+## Risk / unsupported claims
+- The claim that condensate-deficient variants are nonfunctional specifically due to loss of condensation is unsupported without evidence ruling out pleiotropic effects of the mutations.
+- The claim that condensate formation proceeds independently of other proteins is unsupported without details of the experimental approach used to test this.
+- The claim of trimer formation is unsupported without experimental validation of the AI-predicted structure.
+- The suggestion that phase separation plays an important role in phototropism is a reasonable hypothesis but is not established as a causal mechanism from the abstract alone.
+- The statement that the findings may assist future studies of the NRL protein family is speculative and not supported by evidence of conservation.

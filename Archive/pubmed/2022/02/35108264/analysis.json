@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35108264",
+  "title": "RNA length has a non-trivial effect in the stability of biomolecular condensates formed by RNA-binding proteins.",
+  "authors": "Sanchez-Burgos, Ignacio; Espinosa, Jorge R; Joseph, Jerelle A; Collepardo-Guevara, Rosana",
+  "journal": "PLoS computational biology",
+  "published_date": "2022-02-03",
+  "window": {
+    "start": "2022-01-31",
+    "end": "2022-02-06"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用多尺度粗粒化模拟研究RNA长度对RBP（FUS与PR25）凝聚体稳定性的非平凡影响，揭示同型与异型互作在相分离中的相对贡献，直接聚焦无序蛋白介导的PPI与相分离机制建模，方法为物理模拟，高度契合课题。",
+  "abstract": "Biomolecular condensates formed via liquid-liquid phase separation (LLPS) play a crucial role in the spatiotemporal organization of the cell material. Nucleic acids can act as critical modulators in the stability of these protein condensates. To unveil the role of RNA length in regulating the stability of RNA binding protein (RBP) condensates, we present a multiscale computational strategy that exploits the advantages of a sequence-dependent coarse-grained representation of proteins and a minimal coarse-grained model wherein proteins are described as patchy colloids. We find that for a constant nucleotide/protein ratio, the protein fused in sarcoma (FUS), which can phase separate on its own-i.e., via homotypic interactions-only exhibits a mild dependency on the RNA strand length. In contrast, the 25-repeat proline-arginine peptide (PR25), which does not undergo LLPS on its own at physiological conditions but instead exhibits complex coacervation with RNA-i.e., via heterotypic interactions-shows a strong dependence on the length of the RNA strands. Our minimal patchy particle simulations suggest that the strikingly different effect of RNA length on homotypic LLPS versus RBP-RNA complex coacervation is general. Phase separation is RNA-length dependent whenever the relative contribution of heterotypic interactions sustaining LLPS is comparable or higher than those stemming from protein homotypic interactions. Taken together, our results contribute to illuminate the intricate physicochemical mechanisms that influence the stability of RBP condensates through RNA inclusion.",
+  "abstract_zh": "通过液-液相分离（liquid-liquid phase separation, LLPS）形成的生物分子凝聚体在细胞物质的空间组织调控中发挥关键作用。核酸可作为这些蛋白质凝聚体稳定性的重要调节因子。为揭示RNA长度在调控RNA结合蛋白（RNA binding protein, RBP）凝聚体稳定性中的作用，我们提出了一种多尺度计算策略，该策略利用了蛋白质的序列依赖性粗粒化表示和最小粗粒化模型（其中蛋白质被描述为斑块状胶体）的优势。我们发现，在恒定的核苷酸/蛋白质比例下，能够独立发生相分离（即通过同型相互作用）的融合肉瘤蛋白（fused in sarcoma, FUS）仅对RNA链长度表现出轻微依赖性。相比之下，在生理条件下自身不发生LLPS、而是与RNA发生复杂共凝聚（即通过异型相互作用）的25重复脯氨酸-精氨酸肽（PR25），则对RNA链长度表现出强烈依赖性。我们的最小斑块粒子模拟表明，RNA长度对同型LLPS与RBP-RNA复合共凝聚的显著不同影响具有普遍性。当维持LLPS的异型相互作用的相对贡献与蛋白质同型相互作用相当或更高时，相分离便依赖于RNA长度。综合来看，我们的结果有助于阐明通过RNA掺入影响RBP凝聚体稳定性的复杂物理化学机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35108264/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35108264/",
+  "paper_page_path": "papers/pubmed/35108264/index.html"
+}

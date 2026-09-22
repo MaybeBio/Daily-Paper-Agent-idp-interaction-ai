@@ -1,0 +1,280 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.04.29.651207",
+  "title": "High resolution mapping of the actin fusion focus reveals myosin V-dependent transport of formin for actin aster compaction",
+  "doi": "10.1101/2025.04.29.651207",
+  "abstract": "Many cellular processes such as polarized growth and secretion require the formation of specific actin networks. In fungi, the morphogenetic process of cell-cell fusion requires cell wall digestion mediated by the local secretion of lytic enzymes at the site of cell-cell contact. In Schizosaccharomyces pombe , lytic enzyme-containing secretory vesicles are transported by the myosin V Myo52 on the actin fusion focus, an aster-like actin network assembled by the condensate-forming formin Fus1. The fusion focus also concentrates proteins regulating cell polarity, cell-cell communication, actin cytoskeleton, exocytosis and membrane merging, but their precise position from the time of focus formation to cell fusion is unknown. Here, using centroid tracking and averaging, we present a first spatiotemporal map of the fusion site with a precision of 8 nm. We show that the bulk of secretory vesicles remains at constant distance from the plasma membrane as the actin structure condenses. Notably, though necessary to transport vesicles, Myo52 detaches from the vesicle pool and colocalizes with Fus1 in a more membrane-proximal position. We show that Myo52 physically interacts with Fus1 and transports it along actin filaments, and that Myo52 and Fus1 actin assembly activity contribute to focus compaction. Thus, myosin V-driven transport of the formin Fus1 along actin filaments nucleated by other Fus1 molecules underlies a positive feedback mechanism for actin aster formation.",
+  "authors": [
+    "Thomas V",
+    "Mase H",
+    "Michon L",
+    "Picco A",
+    "Kaksonen M",
+    "Martin SG"
+  ],
+  "published_date": "2025-05-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651207",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651207.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1013103",
+    "raw_record": {
+      "id": "PPR1013103",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1013103"
+        ]
+      },
+      "doi": "10.1101/2025.04.29.651207",
+      "title": "High resolution mapping of the actin fusion focus reveals myosin V-dependent transport of formin for actin aster compaction",
+      "authorString": "Thomas V, Mase H, Michon L, Picco A, Kaksonen M, Martin SG.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Thomas V",
+            "lastName": "Thomas",
+            "firstName": "Valentine",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-6381-1892"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Molecular and Cellular Biology"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mase H",
+            "lastName": "Mase",
+            "firstName": "Hikari",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Molecular and Cellular Biology"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Michon L",
+            "lastName": "Michon",
+            "firstName": "Laetitia",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Molecular and Cellular Biology"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Picco A",
+            "lastName": "Picco",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2548-9183"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biochemistry"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kaksonen M",
+            "lastName": "Kaksonen",
+            "firstName": "Marko",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3645-7689"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biochemistry"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Martin SG",
+            "lastName": "Martin",
+            "firstName": "Sophie",
+            "initials": "SG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5317-2557"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Molecular and Cellular Biology"
+                },
+                {
+                  "affiliation": ", Department of Fundamental Microbiology"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5317-2557"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2548-9183"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3645-7689"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0005-6381-1892"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Many cellular processes such as polarized growth and secretion require the formation of specific actin networks. In fungi, the morphogenetic process of cell-cell fusion requires cell wall digestion mediated by the local secretion of lytic enzymes at the site of cell-cell contact. In  Schizosaccharomyces pombe , lytic enzyme-containing secretory vesicles are transported by the myosin V Myo52 on the actin fusion focus, an aster-like actin network assembled by the condensate-forming formin Fus1. The fusion focus also concentrates proteins regulating cell polarity, cell-cell communication, actin cytoskeleton, exocytosis and membrane merging, but their precise position from the time of focus formation to cell fusion is unknown. Here, using centroid tracking and averaging, we present a first spatiotemporal map of the fusion site with a precision of 8 nm. We show that the bulk of secretory vesicles remains at constant distance from the plasma membrane as the actin structure condenses. Notably, though necessary to transport vesicles, Myo52 detaches from the vesicle pool and colocalizes with Fus1 in a more membrane-proximal position. We show that Myo52 physically interacts with Fus1 and transports it along actin filaments, and that Myo52 and Fus1 actin assembly activity contribute to focus compaction. Thus, myosin V-driven transport of the formin Fus1 along actin filaments nucleated by other Fus1 molecules underlies a positive feedback mechanism for actin aster formation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "acronym": "SNSF_",
+            "grantId": "176396",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "acronym": "SNSF_",
+            "grantId": "212288",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "acronym": "ERC_",
+            "grantId": "SexYeast",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "acronym": "SNSF_",
+            "grantId": "191990",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/01/2025.04.29.651207.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.04.29.651207"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1013103"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1013103&type=FILE&fileName=EMS205235-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41335110",
+            "reference": "The Journal of cell biology. 2026 Feb;225(2):e202510018",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS205235",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-05-04",
+      "firstPublicationDate": "2025-05-01",
+      "firstIndexDate": "2025-05-04",
+      "fullTextReceivedDate": "2025-05-09",
+      "hasEvaluations": "Y"
+    }
+  }
+}

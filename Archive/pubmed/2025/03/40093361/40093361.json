@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "40093361",
+    "doi": "",
+    "title": "Predicting Heteropolymer Phase Separation Using Two-Chain Contact Maps."
+  },
+  "content": {
+    "abstract": "Phase separation in polymer solutions often correlates with single-chain and two-chain properties, such as the single-chain radius of gyration, Rg , and the pairwise second virial coefficient, B22 . However, recent studies have shown that these metrics can fail to distinguish phase-separating from non-phase-separating heteropolymers, including intrinsically disordered proteins (IDPs). Here we introduce an approach to predict heteropolymer phase separation from two-chain simulations by analyzing contact maps, which capture how often specific monomers from the two chains are in physical proximity. Whereas B22 summarizes the overall attraction between two chains, contact maps preserve spatial information about their interactions. To compare these metrics, we train phase-separation classifiers for both a minimal heteropolymer model and a chemically specific, residue-level IDP model. Remarkably, simple statistical properties of two-chain contact maps predict phase separation with high accuracy, vastly outperforming classifiers based on Rg and B22 alone. Our results thus establish a transferable and computationally efficient method to uncover key driving forces of IDP phase behavior based on their physical interactions in dilute solution.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jin, Jessica",
+        "Oliver, Wesley",
+        "Webb, Michael A",
+        "Jacobs, William M"
+      ],
+      "short_names": [
+        "Jin J",
+        "Oliver W",
+        "Webb MA",
+        "Jacobs WM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemistry, Princeton University, Princeton, NJ 08544, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jin, Jessica",
+        "short_name": "Jin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Princeton University, Princeton, NJ 08544, USA.",
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Oliver, Wesley",
+        "short_name": "Oliver W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Webb, Michael A",
+        "short_name": "Webb MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Jacobs, William M",
+        "short_name": "Jacobs WM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ArXiv"
+    ],
+    "journal_abbrev": [
+      "ArXiv"
+    ],
+    "pub_date": "2025 May 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/17 15:20",
+    "fetched_at": "2026-09-21 16:45:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40131954",
+      "39078082",
+      "38884406",
+      "38429263",
+      "38380794",
+      "38181073",
+      "37276062",
+      "37079924",
+      "36881934",
+      "36804705",
+      "36701125",
+      "36519427",
+      "34598580",
+      "33934416",
+      "33875649",
+      "33582133",
+      "33078839",
+      "33069007",
+      "32822449",
+      "32312191",
+      "32227994",
+      "32168715",
+      "32087632",
+      "32029630",
+      "31869935",
+      "31139718",
+      "30397688",
+      "29961577",
+      "27824447",
+      "26328871",
+      "25863585",
+      "25747659",
+      "24120937",
+      "23901099",
+      "20404210",
+      "1420991"
+    ],
+    "similar": [
+      "40093361",
+      "40590540",
+      "40911789",
+      "37079924",
+      "40095314",
+      "39980654",
+      "29397728",
+      "35119946",
+      "36343363",
+      "32357776",
+      "33403854",
+      "31139718",
+      "40748104",
+      "39225535",
+      "38112495",
+      "28483149",
+      "39163306",
+      "35944496",
+      "32639157",
+      "32393642",
+      "34716273",
+      "36641212",
+      "38260590",
+      "36674958",
+      "39947751",
+      "35126984",
+      "33555894",
+      "41159867",
+      "39586094",
+      "37662293",
+      "40128232",
+      "41174305",
+      "30471685",
+      "24312701",
+      "33934416",
+      "39531035",
+      "37461587",
+      "32619404",
+      "39568948",
+      "39105804",
+      "40360271",
+      "36778236",
+      "41086136",
+      "26818963",
+      "33139563",
+      "34931046",
+      "38546977",
+      "41169547",
+      "40970906",
+      "39475380",
+      "31714774",
+      "39885825",
+      "33684117",
+      "18447503",
+      "31021441",
+      "32426975",
+      "31667345",
+      "37093140",
+      "36272811",
+      "39354680",
+      "30913885",
+      "16689601",
+      "30066087",
+      "31756104",
+      "33302617",
+      "40072940",
+      "33865811",
+      "33778298",
+      "20803003",
+      "30217894",
+      "34710373",
+      "36346711",
+      "40998749",
+      "31260322",
+      "35648517",
+      "37717144",
+      "26754414",
+      "30091924",
+      "31898464",
+      "36993371",
+      "30204435",
+      "38222029",
+      "41481439",
+      "38965780",
+      "30865832",
+      "39763873",
+      "40278867",
+      "37290157",
+      "28425679",
+      "37961110",
+      "27936491",
+      "38243474",
+      "41137856",
+      "29364893",
+      "39677697",
+      "18763978",
+      "36084124",
+      "40009520",
+      "30002402",
+      "40792356"
+    ],
+    "review": [
+      "40093361",
+      "35119946",
+      "39947751",
+      "31021441"
+    ],
+    "pmc": [
+      "11908358"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40093361/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

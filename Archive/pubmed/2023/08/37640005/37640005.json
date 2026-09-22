@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "pmid": "37640005",
+    "doi": "10.1080/07391102.2023.2252097",
+    "title": "Identification of molecular signatures and molecular dynamics simulation of highly deleterious missense variants of key autophagy regulator beclin 1: a computational based approach."
+  },
+  "content": {
+    "abstract": "Beclin 1 is a key autophagy regulator that also plays significant roles in other intracellular processes such as vacuolar protein sorting. Beclin 1 protein functions as a scaffold in the formation of a multiprotein assemblage during autophagy. Beclin 1 is involved in various diseases such as cancers, neurodegenerative and autophagy-related disorders. In this study, we have used various in silico tools to scan beclin 1 at the molecular level to find its molecular signatures. We have predicted and analysed deleterious non-synonymous single nucleotide polymorphisms (nsSNPs) of beclin 1 causing alterations in its structure and also affecting its interactions with other proteins. In total, twelve coding region deleterious variants were predicted using sequence-based tools and nine were predicted using various structure-based tools. The molecular dynamics (MD) simulations revealed an altered stability of the native structure due to the introduction of mutations. Destabilization of beclin 1 ECD domain was observed due to nsSNPs W300R and E302K. Beclin 1 deleterious nsSNPs were predicted to show significant effects on beclin 1 interactions with ATG14L1, UVRAG and VPS34 proteins and were also predicted to alter the protein-protein interface of beclin 1 complexes. Additionally, beclin 1 was predicted to have thirty-one potential phosphorylation and three ubiquitination sites. In conclusion, the molecular details of beclin 1 could help in the better understanding of its functioning. The study of nsSNPs and their effect on beclin 1 and its interactions might aid in understanding the basis of anomalies caused due to beclin 1 dysfunction.Communicated by Ramaswamy H. Sarma.",
+    "keywords": [
+      "Beclin 1",
+      "autophagy",
+      "in-silico analysis",
+      "intrinsically disordered region",
+      "molecular dynamics simulations",
+      "protein-protein interaction",
+      "single nucleotide polymorphism"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Autophagy",
+      "*Beclin-1/genetics/metabolism/chemistry",
+      "Computational Biology/methods",
+      "Molecular Dynamics Simulation",
+      "*Mutation, Missense",
+      "*Polymorphism, Single Nucleotide",
+      "Protein Binding",
+      "Protein Conformation",
+      "Protein Interaction Domains and Motifs"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kaur, Sargeet",
+        "Vashistt, Jitendraa",
+        "Changotra, Harish"
+      ],
+      "short_names": [
+        "Kaur S",
+        "Vashistt J",
+        "Changotra H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology and Bioinformatics, Jaypee University of Information Technology, Waknaghat, Solan, India.",
+        "Department of Biotechnology and Bioinformatics, Jaypee University of Information Technology, Waknaghat, Solan, India.",
+        "Department of Molecular Biology and Biochemistry, Guru Nanak Dev University, Amritsar, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kaur, Sargeet",
+        "short_name": "Kaur S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Bioinformatics, Jaypee University of Information Technology, Waknaghat, Solan, India."
+        ]
+      },
+      {
+        "full_name": "Vashistt, Jitendraa",
+        "short_name": "Vashistt J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Bioinformatics, Jaypee University of Information Technology, Waknaghat, Solan, India."
+        ]
+      },
+      {
+        "full_name": "Changotra, Harish",
+        "short_name": "Changotra H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biochemistry, Guru Nanak Dev University, Amritsar, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/29 00:42",
+    "fetched_at": "2026-09-21 00:55:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37640005",
+      "38656135",
+      "41461233",
+      "41277739",
+      "37173831",
+      "23561625",
+      "30884445",
+      "37288801",
+      "34827731",
+      "39856236",
+      "37434323",
+      "38858637",
+      "41616039",
+      "26800850",
+      "37278385",
+      "41028104",
+      "30676783",
+      "34234628",
+      "23056176",
+      "24578721",
+      "35446184",
+      "28085066",
+      "36056132",
+      "33066695",
+      "38977046",
+      "37753777",
+      "41084424",
+      "36995110",
+      "35092861",
+      "24817641",
+      "42369210",
+      "40493574",
+      "23912807",
+      "29866835",
+      "30204049",
+      "37817532",
+      "41898807",
+      "41539145",
+      "40375073",
+      "39673052",
+      "34793541",
+      "39240887",
+      "34355676",
+      "41671225",
+      "33491267",
+      "36598356",
+      "23716176",
+      "40892789",
+      "30626284",
+      "36734218",
+      "39854591",
+      "42196261",
+      "42322085",
+      "34360815",
+      "41756011",
+      "32787631",
+      "40389825",
+      "37286379",
+      "41628231",
+      "24777812",
+      "36812296",
+      "28798234",
+      "31976320",
+      "37989431",
+      "24336963",
+      "28770488",
+      "39976804",
+      "28876241",
+      "34710812",
+      "30802828",
+      "23827971",
+      "37216366",
+      "38193892",
+      "31272062",
+      "28388287",
+      "39979869",
+      "39167281",
+      "31216622",
+      "25086043",
+      "38773180",
+      "41039863",
+      "36591702",
+      "32867672",
+      "36943736",
+      "41355503",
+      "36764830",
+      "36482226",
+      "40370698",
+      "40981192",
+      "37319252",
+      "41231851",
+      "35260606",
+      "31712642",
+      "40892044",
+      "41120341",
+      "39541331",
+      "27414988",
+      "39041636",
+      "37322437",
+      "32320221"
+    ],
+    "review": [
+      "37640005",
+      "23827971"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2023.2252097?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2023.2252097",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

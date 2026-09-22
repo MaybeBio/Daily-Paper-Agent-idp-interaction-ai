@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "39087984",
+    "doi": "10.7554/eLife.95180",
+    "title": "Modulation of alpha-synuclein aggregation amid diverse environmental perturbation."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered protein alpha-synuclein (alphaS) is implicated in Parkinson's disease due to its aberrant aggregation propensity. In a bid to identify the traits of its aggregation, here we computationally simulate the multi-chain association process of alphaS in aqueous as well as under diverse environmental perturbations. In particular, the aggregation of alphaS in aqueous and varied environmental condition led to marked concentration differences within protein aggregates, resembling liquid-liquid phase separation (LLPS). Both saline and crowded settings enhanced the LLPS propensity. However, the surface tension of alphaS droplet responds differently to crowders (entropy-driven) and salt (enthalpy-driven). Conformational analysis reveals that the IDP chains would adopt extended conformations within aggregates and would maintain mutually perpendicular orientations to minimize inter-chain electrostatic repulsions. The droplet stability is found to stem from a diminished intra-chain interactions in the C-terminal regions of alphaS, fostering inter-chain residue-residue interactions. Intriguingly, a graph theory analysis identifies small-world-like networks within droplets across environmental conditions, suggesting the prevalence of a consensus interaction patterns among the chains. Together these findings suggest a delicate balance between molecular grammar and environment-dependent nuanced aggregation behavior of alphaS.",
+    "keywords": [
+      "LLPS",
+      "coarse-grained MD simulation",
+      "crowding",
+      "human",
+      "molecular biophysics",
+      "salt",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "*Protein Aggregates",
+      "Protein Conformation",
+      "Humans",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Parkinson Disease/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wasim, Abdul",
+        "Menon, Sneha",
+        "Mondal, Jagannath"
+      ],
+      "short_names": [
+        "Wasim A",
+        "Menon S",
+        "Mondal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1090-5199"
+      ],
+      "affiliations": [
+        "Tata Institute of Fundamental Research, Hyderabad, India.",
+        "Tata Institute of Fundamental Research, Hyderabad, India.",
+        "Tata Institute of Fundamental Research, Hyderabad, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wasim, Abdul",
+        "short_name": "Wasim A",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Menon, Sneha",
+        "short_name": "Menon S",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Jagannath",
+        "short_name": "Mondal J",
+        "identifiers": [
+          "0000-0003-1090-5199"
+        ],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Hyderabad, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2024 Aug 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/01 12:43",
+    "fetched_at": "2026-09-21 09:09:32"
+  },
+  "links": {
+    "cites": [
+      "41169547",
+      "40943551",
+      "40916915",
+      "40171024",
+      "39660892"
+    ],
+    "refs": [
+      "37735186",
+      "37645312",
+      "37114769",
+      "37043540",
+      "37018196",
+      "36682493",
+      "36513655",
+      "36481455",
+      "36115020",
+      "36083825",
+      "35865903",
+      "35795820",
+      "35787838",
+      "35501484",
+      "35377637",
+      "34431665",
+      "34242594",
+      "33968988",
+      "33934416",
+      "33827920",
+      "33782607",
+      "33555894",
+      "33356290",
+      "33307683",
+      "32514159",
+      "32029630",
+      "32004090",
+      "31914313",
+      "31756104",
+      "31634364",
+      "29735687",
+      "29364893",
+      "28935776",
+      "28225081",
+      "28126719",
+      "28109332",
+      "27819658",
+      "27320918",
+      "26851279",
+      "25855634",
+      "25400522",
+      "25352545",
+      "25288112",
+      "24825614",
+      "24010708",
+      "23395796",
+      "22399315",
+      "21500218",
+      "21071423",
+      "20858207",
+      "18665616",
+      "18597478",
+      "18573080",
+      "18446219",
+      "17848524",
+      "16740119",
+      "16303137",
+      "16211538",
+      "11943202",
+      "11152691",
+      "9623998",
+      "7108955",
+      "6667333"
+    ],
+    "similar": [
+      "39087984",
+      "38973194",
+      "34439733",
+      "29364151",
+      "37114769",
+      "23583776",
+      "36115020",
+      "38358134",
+      "33903234",
+      "32709107",
+      "30853581",
+      "23607785",
+      "31903719",
+      "33771571",
+      "33260436",
+      "36373662",
+      "29364143",
+      "27809690",
+      "37407505",
+      "30318002",
+      "29474083",
+      "30771172",
+      "21044603",
+      "24984882",
+      "26950519",
+      "26923286",
+      "23374074",
+      "28330770",
+      "30315896",
+      "23912807",
+      "35787838",
+      "38808534",
+      "26477939",
+      "29451381",
+      "20947801",
+      "35041853",
+      "31181290",
+      "30771181",
+      "19554627",
+      "25139280",
+      "34695381",
+      "30384594",
+      "30184304",
+      "33345970",
+      "31699336",
+      "38063360",
+      "38464093",
+      "28820063",
+      "22024360",
+      "19538146",
+      "29233215",
+      "30933517",
+      "30030380",
+      "30380895",
+      "33982369",
+      "32514159",
+      "28820253",
+      "29246724",
+      "38635928",
+      "25389903",
+      "34431665",
+      "25075858",
+      "32164323",
+      "33428933",
+      "37345454",
+      "28710275",
+      "31096049",
+      "29704492",
+      "23648364",
+      "31147655",
+      "23214618",
+      "27531743",
+      "26396193",
+      "36413494",
+      "16981679",
+      "38272228",
+      "19345692",
+      "28980756",
+      "34506119",
+      "35485974",
+      "37729016",
+      "25892596",
+      "38567991",
+      "28667699",
+      "37060757",
+      "24551051",
+      "32499486",
+      "31521231",
+      "30003969",
+      "30769283",
+      "37892158",
+      "25960149",
+      "37238596",
+      "32623047",
+      "36270580",
+      "32453478",
+      "29372732",
+      "26332674",
+      "35688132",
+      "33386904"
+    ],
+    "review": [
+      "39087984",
+      "29364151",
+      "30853581",
+      "33260436",
+      "36373662",
+      "30315896",
+      "35787838",
+      "38808534",
+      "25139280",
+      "38063360",
+      "22024360",
+      "19538146",
+      "32164323",
+      "37345454",
+      "31096049",
+      "23648364",
+      "16981679",
+      "37060757",
+      "31521231",
+      "37892158"
+    ],
+    "pmc": [
+      "11293868"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39087984/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.95180",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

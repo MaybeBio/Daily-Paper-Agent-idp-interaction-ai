@@ -1,0 +1,133 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.25.624572",
+  "title": "Synergistic Multi-Pronged Interactions Mediate the Effective Inhibition of Alpha-Synuclein Aggregation by the Chaperone HtrA1",
+  "doi": "10.1101/2024.11.25.624572",
+  "abstract": "The misfolding, aggregation, and the seeded spread of alpha synuclein (α-Syn) aggregates are linked to the pathogenesis of various neurodegenerative diseases, including Parkinson’s disease (PD). Understanding the mechanisms by which chaperone proteins prevent the production and seeding of α-Syn aggregates is crucial for developing effective therapeutic leads for tackling neurodegenerative diseases. We show that a catalytically inactive variant of the chaperone HtrA1 (HtrA1*) effectively inhibits both α-Syn monomer aggregation and templated fibril seeding, and demonstrate that this inhibition is mediated by synergistic interactions between its PDZ and Protease domains and α-Syn. Using biomolecular NMR, AFM and Rosetta-based computational analyses, we propose that the PDZ domain interacts with the C-terminal end of the monomer and the intrinsically disordered C-terminal domain of the α-Syn fibril. Furthermore, in agreement with sequence specificity calculations, the Protease domain cleaves in the aggregation-prone NAC domain at site T92/A93 in the monomer. Thus, through multi-pronged interactions and multi-site recognition of α-Syn, HtrA1* can effectively intervene at different stages along the α-Syn aggregation pathway, making it a robust inhibitor of α-Syn aggregation and templated seeding. Our studies illustrate, at high resolution, the crucial role of HtrA1 interactions with both the intrinsically disordered α-Syn monomers and with the dynamic flanking regions around the fibril core for inhibition of aggregation. This inhibition mechanism of the HtrA1 chaperone may provide a natural mechanistic blueprint for highly effective therapeutic agents against protein aggregation. <h4>Significance Statement</h4> PD and other synucleinopathies are marked by misfolding and aggregation of α-Syn, forming higher-order species that propagate aggregation in a prion-like manner. Understanding how chaperone proteins inhibit α-Syn aggregation and spread is essential for therapeutic development against neurodegeneration. Through an integrative approach of solution-based NMR, AFM, aggregation kinetics, and computational analysis, we reveal how a catalytically inactive variant of the chaperone HtrA1 effectively disrupts aggregation pathways. We find that the inactive Protease and PDZ domains of HtrA1 synergistically bind to key intrinsically disordered sites on both α-Syn monomers and fibrils, thereby effectively inhibiting both aggregation and templated seeding. Our work provides a natural and unique blueprint for designing inhibitors to prevent the formation and seeding of aggregates in neurodegenerative diseases.",
+  "authors": [
+    "Chinchilla P",
+    "Wang B",
+    "Lubin JH",
+    "Yang X",
+    "Roth J",
+    "Khare SD",
+    "Baum J"
+  ],
+  "published_date": "2024-11-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.25.624572",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.25.624572.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR947114",
+    "raw_record": {
+      "id": "PPR947114",
+      "source": "PPR",
+      "doi": "10.1101/2024.11.25.624572",
+      "title": "Synergistic Multi-Pronged Interactions Mediate the Effective Inhibition of Alpha-Synuclein Aggregation by the Chaperone HtrA1",
+      "authorString": "Chinchilla P, Wang B, Lubin JH, Yang X, Roth J, Khare SD, Baum J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chinchilla P",
+            "lastName": "Chinchilla",
+            "firstName": "Priscilla",
+            "initials": "P"
+          },
+          {
+            "fullName": "Wang B",
+            "lastName": "Wang",
+            "firstName": "Baifan",
+            "initials": "B"
+          },
+          {
+            "fullName": "Lubin JH",
+            "lastName": "Lubin",
+            "firstName": "Joseph",
+            "initials": "JH"
+          },
+          {
+            "fullName": "Yang X",
+            "lastName": "Yang",
+            "firstName": "Xue",
+            "initials": "X"
+          },
+          {
+            "fullName": "Roth J",
+            "lastName": "Roth",
+            "firstName": "Jonathan",
+            "initials": "J"
+          },
+          {
+            "fullName": "Khare SD",
+            "lastName": "Khare",
+            "firstName": "Sagar",
+            "initials": "SD"
+          },
+          {
+            "fullName": "Baum J",
+            "lastName": "Baum",
+            "firstName": "Jean",
+            "initials": "J"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The misfolding, aggregation, and the seeded spread of alpha synuclein (α-Syn) aggregates are linked to the pathogenesis of various neurodegenerative diseases, including Parkinson’s disease (PD). Understanding the mechanisms by which chaperone proteins prevent the production and seeding of α-Syn aggregates is crucial for developing effective therapeutic leads for tackling neurodegenerative diseases. We show that a catalytically inactive variant of the chaperone HtrA1 (HtrA1*) effectively inhibits both α-Syn monomer aggregation and templated fibril seeding, and demonstrate that this inhibition is mediated by synergistic interactions between its PDZ and Protease domains and α-Syn. Using biomolecular NMR, AFM and Rosetta-based computational analyses, we propose that the PDZ domain interacts with the C-terminal end of the monomer and the intrinsically disordered C-terminal domain of the α-Syn fibril. Furthermore, in agreement with sequence specificity calculations, the Protease domain cleaves in the aggregation-prone NAC domain at site T92/A93 in the monomer. Thus, through multi-pronged interactions and multi-site recognition of α-Syn, HtrA1* can effectively intervene at different stages along the α-Syn aggregation pathway, making it a robust inhibitor of α-Syn aggregation and templated seeding. Our studies illustrate, at high resolution, the crucial role of HtrA1 interactions with both the intrinsically disordered α-Syn monomers and with the dynamic flanking regions around the fibril core for inhibition of aggregation. This inhibition mechanism of the HtrA1 chaperone may provide a natural mechanistic blueprint for highly effective therapeutic agents against protein aggregation. <h4>Significance Statement</h4>  PD and other synucleinopathies are marked by misfolding and aggregation of α-Syn, forming higher-order species that propagate aggregation in a prion-like manner. Understanding how chaperone proteins inhibit α-Syn aggregation and spread is essential for therapeutic development against neurodegeneration. Through an integrative approach of solution-based NMR, AFM, aggregation kinetics, and computational analysis, we reveal how a catalytically inactive variant of the chaperone HtrA1 effectively disrupts aggregation pathways. We find that the inactive Protease and PDZ domains of HtrA1 synergistically bind to key intrinsically disordered sites on both α-Syn monomers and fibrils, thereby effectively inhibiting both aggregation and templated seeding. Our work provides a natural and unique blueprint for designing inhibitors to prevent the formation and seeding of aggregates in neurodegenerative diseases.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/11/28/2024.11.25.624572.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.11.25.624572"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-11-30",
+      "firstPublicationDate": "2024-11-28",
+      "firstIndexDate": "2024-11-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "41332594",
+    "doi": "10.1101/2025.11.20.689623",
+    "title": "How small molecules stabilize oligomers of a phase-separating disordered protein."
+  },
+  "content": {
+    "abstract": "Small molecule inhibitors of the intrinsically disordered androgen receptor activation domain have been tested in clinical trials for the treatment of castration-resistant prostate cancer. These compounds have been shown to stabilize oligomeric forms of the androgen receptor activation domain in solution and alter the properties of androgen receptor condensates. The molecular mechanisms by which small molecules modulate these processes have been poorly understood in atomic detail. Here, we use long-timescale all-atom molecular dynamics (MD) simulations and nuclear magnetic resonance (NMR) spectroscopy to determine how small molecules stabilize highly dynamic, heterogeneous intermolecular interfaces that mediate oligomerization of the androgen receptor activation domain. The mechanisms determined here explain the relative potencies of androgen receptor activation domain inhibitors and suggest general strategies for designing small molecules that target oligomeric and, potentially, condensed forms of intrinsically disordered proteins.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Jiaqi",
+        "Sisk, Thomas R",
+        "Mateos, Borja",
+        "Bielskute-Garcia, Stase",
+        "Salvatella, Xavier",
+        "Robustelli, Paul"
+      ],
+      "short_names": [
+        "Zhu J",
+        "Sisk TR",
+        "Mateos B",
+        "Bielskute-Garcia S",
+        "Salvatella X",
+        "Robustelli P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8969-6398",
+        "ORCID: 0009-0004-3823-4766",
+        "ORCID: 0000-0002-0310-4943",
+        "ORCID: 0000-0001-8510-6098",
+        "ORCID: 0000-0002-8371-4185",
+        "ORCID: 0000-0002-9282-8993"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Dartmouth College, Hanover, NH, 03755, USA.",
+        "Department of Chemistry, Dartmouth College, Hanover, NH, 03755, USA.",
+        "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain.",
+        "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain.",
+        "ICREA, Barcelona, Spain.",
+        "Department of Chemistry, Dartmouth College, Hanover, NH, 03755, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Jiaqi",
+        "short_name": "Zhu J",
+        "identifiers": [
+          "0000-0001-8969-6398"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Dartmouth College, Hanover, NH, 03755, USA."
+        ]
+      },
+      {
+        "full_name": "Sisk, Thomas R",
+        "short_name": "Sisk TR",
+        "identifiers": [
+          "0009-0004-3823-4766"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Dartmouth College, Hanover, NH, 03755, USA."
+        ]
+      },
+      {
+        "full_name": "Mateos, Borja",
+        "short_name": "Mateos B",
+        "identifiers": [
+          "0000-0002-0310-4943"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Bielskutė-Garcia, Stasė",
+        "short_name": "Bielskutė-Garcia S",
+        "identifiers": [
+          "0000-0001-8510-6098"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Salvatella, Xavier",
+        "short_name": "Salvatella X",
+        "identifiers": [
+          "0000-0002-8371-4185"
+        ],
+        "affiliations": [
+          "Institute for Research in Biomedicine (IRB Barcelona), The Barcelona Institute of Science and Technology, Baldiri Reixac 10, 08028 Barcelona, Spain.",
+          "ICREA, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Robustelli, Paul",
+        "short_name": "Robustelli P",
+        "identifiers": [
+          "0000-0002-9282-8993"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Dartmouth College, Hanover, NH, 03755, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Nov 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/03 07:41",
+    "fetched_at": "2026-09-17 22:37:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40532196",
+      "40446154",
+      "39633052",
+      "38251829",
+      "37957331",
+      "37949765",
+      "37338049",
+      "36535377",
+      "36229685",
+      "35974095",
+      "35649268",
+      "35130691",
+      "33978290",
+      "33812316",
+      "33148639",
+      "32100577",
+      "28885015",
+      "28225081",
+      "27356095",
+      "26507530",
+      "23722902",
+      "20541699",
+      "12506205"
+    ],
+    "similar": [
+      "41332594",
+      "40446154",
+      "39605539",
+      "36302916",
+      "40146081",
+      "38049566",
+      "39359255",
+      "36577061",
+      "32100577",
+      "30840442",
+      "33978290",
+      "39053630",
+      "37146977",
+      "29225078",
+      "31751897",
+      "34090478",
+      "27576691",
+      "37806532",
+      "34074792",
+      "32936641",
+      "39896485",
+      "32786705",
+      "41073429",
+      "36416859",
+      "32097611",
+      "33302617",
+      "36641212",
+      "39665260",
+      "40753934",
+      "32585849",
+      "37998041",
+      "30165195",
+      "33030907",
+      "23722902",
+      "33984364",
+      "37607621",
+      "29364151",
+      "36674785",
+      "34197833",
+      "41504268",
+      "34310904",
+      "30565725",
+      "39651234",
+      "35634773",
+      "38116409",
+      "37468629",
+      "31911439",
+      "37961424",
+      "36209362",
+      "27356095",
+      "36496075",
+      "27628492",
+      "29157493",
+      "23945587",
+      "37549772",
+      "39486437",
+      "26387110",
+      "33747706",
+      "15369448",
+      "32859072",
+      "37961422",
+      "29511089",
+      "41040258",
+      "33667547",
+      "29704492",
+      "38251829",
+      "34029402",
+      "23507703",
+      "36107327",
+      "35053175",
+      "34750927",
+      "31783713",
+      "39868336",
+      "40051657",
+      "39990458",
+      "23912807",
+      "31052346",
+      "35333596",
+      "41349749",
+      "40532196",
+      "25086042",
+      "21833557",
+      "28547731",
+      "27583469",
+      "39384813",
+      "32074499",
+      "38383656",
+      "36272811",
+      "36348631",
+      "23859952",
+      "41298416",
+      "28566530",
+      "34869607",
+      "28355271",
+      "28894006",
+      "33812316",
+      "25132238",
+      "41415473",
+      "34904889",
+      "37971402"
+    ],
+    "review": [
+      "41332594",
+      "39359255",
+      "32100577",
+      "30840442",
+      "39053630",
+      "32097611",
+      "29364151",
+      "30565725",
+      "31911439",
+      "29157493",
+      "26387110",
+      "15369448",
+      "35053175",
+      "40051657",
+      "21833557",
+      "23859952",
+      "28566530",
+      "34869607"
+    ],
+    "pmc": [
+      "12667919"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41332594/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.11.20.689623",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

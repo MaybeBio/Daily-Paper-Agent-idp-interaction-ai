@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "42103118",
+    "doi": "10.1016/j.ijbiomac.2026.152366",
+    "title": "Polyamine and tau: a chemical framework for understanding the hyperphosphorylated tau condensation."
+  },
+  "content": {
+    "abstract": "The pathological aggregation of tau proteins is a defining feature of Alzheimer's disease (AD), yet the molecular mechanisms underlying this process remain unresolved. Hyperphosphorylated tau, which detaches from microtubules and disrupts neuronal integrity, carries a high net negative charge. Despite this, most current models of tau aggregation overlook the electrostatic repulsion that should prevent condensation. Here, we investigate the potential role of polyamines, ubiquitous and multivalent cations, as mediators that help compensate for this charge imbalance, using fluorescence microscopy and molecular dynamics simulations. We show that polyamines promote liquid-liquid phase separation (LLPS) of hyperphosphorylated tau through charge-charge interactions, enabling the formation of dense protein condensates. Importantly, we further demonstrated that polyamine-dependent tau condensates also formed in cellular environments, supporting the potential physiological relevance of this mechanism. Over time, these condensates undergo a transition into filament-like structures, suggesting a possible pathway linking polyamine-mediated LLPS to tau aggregation processes. The results reveal polyamines as important modulators of tau condensation and aggregation in both in vitro and cellular contexts.",
+    "keywords": [
+      "Liquid-liquid phase separation (LLPS)",
+      "Polyamines",
+      "Tau protein"
+    ],
+    "mesh_terms": [
+      "*tau Proteins/chemistry/metabolism",
+      "*Polyamines/chemistry/metabolism",
+      "Phosphorylation",
+      "Phase Separation",
+      "Humans",
+      "Molecular Dynamics Simulation",
+      "Protein Aggregates"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Jinmin",
+        "Lee, Kyubin",
+        "Kim, Minsoo",
+        "Kim, Min Wook",
+        "Lim, Manho",
+        "Yoo, Jejoong",
+        "Lee, Sang Hak"
+      ],
+      "short_names": [
+        "Lee J",
+        "Lee K",
+        "Kim M",
+        "Kim MW",
+        "Lim M",
+        "Yoo J",
+        "Lee SH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Pusan National University, Busan, 46241, Republic of Korea.",
+        "Department of Chemistry, Pusan National University, Busan, 46241, Republic of Korea.",
+        "Department of Physics, SungKyunKwan University, Suwon, 16419, Republic of Korea.",
+        "School of Computer science and Engineering, Pusan National University, Busan, 46241, Republic of Korea.",
+        "Department of Chemistry, Pusan National University, Busan, 46241, Republic of Korea.",
+        "School of Computational Sciences, Korea Institute for Advanced Study, Seoul, 02455, Republic of Korea. Electronic address: jejoong@kias.re.kr.",
+        "Department of Chemistry, Pusan National University, Busan, 46241, Republic of Korea. Electronic address: shlee@pusan.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Jinmin",
+        "short_name": "Lee J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Pusan National University, Busan, 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Kyubin",
+        "short_name": "Lee K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Pusan National University, Busan, 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Minsoo",
+        "short_name": "Kim M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, SungKyunKwan University, Suwon, 16419, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Min Wook",
+        "short_name": "Kim MW",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer science and Engineering, Pusan National University, Busan, 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lim, Manho",
+        "short_name": "Lim M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Pusan National University, Busan, 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yoo, Jejoong",
+        "short_name": "Yoo J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational Sciences, Korea Institute for Advanced Study, Seoul, 02455, Republic of Korea. Electronic address: jejoong@kias.re.kr."
+        ]
+      },
+      {
+        "full_name": "Lee, Sang Hak",
+        "short_name": "Lee SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Pusan National University, Busan, 46241, Republic of Korea. Electronic address: shlee@pusan.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/09 00:33",
+    "fetched_at": "2026-09-18 03:06:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42103118",
+      "41807382",
+      "33017094",
+      "40133210",
+      "42442913",
+      "33955104",
+      "31097543",
+      "37075845",
+      "36310206",
+      "39421885",
+      "34560101",
+      "32572101",
+      "34575888",
+      "41785961",
+      "36471564",
+      "40149942",
+      "33279579",
+      "32997736",
+      "40149872",
+      "29472250",
+      "38960272",
+      "40580878",
+      "40439464",
+      "31253191",
+      "40107109",
+      "39043267",
+      "34374536",
+      "41206815",
+      "33930220",
+      "35381286",
+      "35016968",
+      "36621842",
+      "40074668",
+      "38732197",
+      "35405154",
+      "36894559",
+      "36702317",
+      "33686711",
+      "36481455",
+      "39612640",
+      "29734651",
+      "37230179",
+      "41547174",
+      "39510192",
+      "41001641",
+      "41771869",
+      "32096048",
+      "36310207",
+      "40865571",
+      "41337804",
+      "38512667",
+      "33262278",
+      "31971365",
+      "28819146",
+      "36939323",
+      "35980344",
+      "41824494",
+      "36251053",
+      "39959999",
+      "42353182",
+      "42102067",
+      "35181198",
+      "40724961",
+      "32096047",
+      "35298090",
+      "38647314",
+      "40940766",
+      "38429335",
+      "31260737",
+      "37031392",
+      "39950286",
+      "41932135",
+      "37574035",
+      "29248553",
+      "25590418",
+      "36688583",
+      "30734228",
+      "38167731",
+      "40567043",
+      "40745206",
+      "41579116",
+      "32229582",
+      "26854860",
+      "30950394",
+      "41363845",
+      "27548710",
+      "42223531",
+      "40053114",
+      "40583215",
+      "40319815",
+      "33686854",
+      "39558004",
+      "41342958",
+      "40060635",
+      "33619090",
+      "39693350",
+      "42225170",
+      "42283756",
+      "38489841",
+      "41535729"
+    ],
+    "review": [
+      "42103118",
+      "42442913",
+      "39043267",
+      "41206815",
+      "33930220",
+      "38732197",
+      "36702317",
+      "39612640",
+      "37230179",
+      "41547174",
+      "32096048",
+      "40865571",
+      "35980344",
+      "42353182",
+      "35181198",
+      "40724961",
+      "32096047",
+      "40940766",
+      "31260737",
+      "37031392",
+      "39950286",
+      "38167731",
+      "42223531",
+      "41342958"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(26)02293-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

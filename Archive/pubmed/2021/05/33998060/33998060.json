@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "33998060",
+    "doi": "10.1002/prot.26146",
+    "title": "Conformation of myelin basic protein bound to phosphatidylinositol membrane characterized by vacuum-ultraviolet circular-dichroism spectroscopy and molecular-dynamics simulations."
+  },
+  "content": {
+    "abstract": "The 18.5-kDa isoform of myelin basic protein (MBP) interacts with the membrane surface of the myelin sheath to construct its compact multilamellar structure. This study characterized the conformation of MBP in the membrane by measuring the vacuum-ultraviolet circular-dichroism (VUVCD) spectra of MBP in the bilayer liposome comprising the following essential lipid constituents of the myelin sheath: phosphatidylinositol (PI), phosphatidylinositol-4-phosphate (PIP), and phosphatidylinositol-4,5-bisphosphate (PIP2). The spectra of MBP exhibited the characteristic peaks of the helix structure in the presence of PI liposome, and the intensity increased markedly in the presence of PIP and PIP2 liposomes to show an isodichroic point. This suggests that the amount of the membrane-bound conformation of MBP enhanced due to the increased number of negative net charges on the liposome surfaces. Secondary-structure analysis revealed that MBP in the membrane comprised approximately 40% helix contents and eight helix segments. Molecular-dynamics (MD) simulations of the eight segments were conducted for 250 ns in the presence of PI membrane, which predicted two amphiphilic and three nonamphiphilic helices as the membrane-interaction sites. Further analysis of the distances of the amino-acid residues in each segment from the phosphate group suggested that the nonamphiphilic helices interact with the membrane surface electrostatically, while the amphiphilic ones invade the inside of the membrane to produce electrostatic and hydrophobic interactions. These results show that MBP can interact with the PI membrane via amphiphilic and nonamphiphilic helices under the control of a delicate balance between electrostatic and hydrophobic interactions.",
+    "keywords": [
+      "intrinsically disordered protein",
+      "liposome",
+      "membrane-protein interaction",
+      "myelin basic protein",
+      "phosphatidylinositol",
+      "secondary structure",
+      "synchrotron-radiation circular dichroism"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Cattle",
+      "*Liposomes/chemistry/metabolism",
+      "*Myelin Basic Protein/chemistry/metabolism",
+      "*Phosphatidylinositols/chemistry/metabolism",
+      "Protein Structure, Secondary"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kumashiro, Munehiro",
+        "Izumi, Yudai",
+        "Matsuo, Koichi"
+      ],
+      "short_names": [
+        "Kumashiro M",
+        "Izumi Y",
+        "Matsuo K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8274-928X",
+        "ORCID: 0000-0003-4524-9590",
+        "ORCID: 0000-0001-8166-544X"
+      ],
+      "affiliations": [
+        "Department of Physical Science, Graduate School of Science, Hiroshima University, Hiroshima, Japan.",
+        "Hiroshima Synchrotron Radiation Center, Hiroshima University, Hiroshima, Japan.",
+        "Hiroshima Synchrotron Radiation Center, Hiroshima University, Hiroshima, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kumashiro, Munehiro",
+        "short_name": "Kumashiro M",
+        "identifiers": [
+          "0000-0002-8274-928X"
+        ],
+        "affiliations": [
+          "Department of Physical Science, Graduate School of Science, Hiroshima University, Hiroshima, Japan."
+        ]
+      },
+      {
+        "full_name": "Izumi, Yudai",
+        "short_name": "Izumi Y",
+        "identifiers": [
+          "0000-0003-4524-9590"
+        ],
+        "affiliations": [
+          "Hiroshima Synchrotron Radiation Center, Hiroshima University, Hiroshima, Japan."
+        ]
+      },
+      {
+        "full_name": "Matsuo, Koichi",
+        "short_name": "Matsuo K",
+        "identifiers": [
+          "0000-0001-8166-544X"
+        ],
+        "affiliations": [
+          "Hiroshima Synchrotron Radiation Center, Hiroshima University, Hiroshima, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2021 Oct",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/18 06:00",
+    "fetched_at": "2026-09-20 03:15:49"
+  },
+  "links": {
+    "cites": [
+      "42156681",
+      "40887534",
+      "40305210",
+      "39330418",
+      "35207051"
+    ],
+    "refs": [],
+    "similar": [
+      "33998060",
+      "32125028",
+      "37418251",
+      "26756612",
+      "19702310",
+      "22538354",
+      "23861868",
+      "25816771",
+      "12573634",
+      "21889463",
+      "10394626",
+      "21130728",
+      "7577962",
+      "18067320",
+      "11858705",
+      "19369548",
+      "26903219",
+      "26518750",
+      "28380689",
+      "21647440",
+      "20713009",
+      "19134474",
+      "10869185",
+      "10631296",
+      "37244538",
+      "12694855",
+      "19519451",
+      "22947219",
+      "19642704",
+      "10679790",
+      "22728818",
+      "7543406",
+      "12372316",
+      "24236572",
+      "21314187",
+      "25706854",
+      "10082801",
+      "21044600",
+      "22249765",
+      "2416347",
+      "19178193",
+      "35084527",
+      "15522783",
+      "2417622",
+      "31805269",
+      "12898292",
+      "6204974",
+      "25343306",
+      "1280107",
+      "29434596",
+      "19434752",
+      "38248705",
+      "17513373",
+      "15113839",
+      "7527658",
+      "20831157",
+      "12824496",
+      "1705549",
+      "19855925",
+      "2420275",
+      "19218452",
+      "6204015",
+      "9665761",
+      "10692326",
+      "2482075",
+      "17142269",
+      "24956930",
+      "9916039",
+      "18449534",
+      "38907695",
+      "14695288",
+      "17920035",
+      "7681099",
+      "12605403",
+      "16046451",
+      "15291817",
+      "32106542",
+      "24516125",
+      "22076921",
+      "37153862",
+      "20169373",
+      "30923662",
+      "6165392",
+      "8569545",
+      "15079863",
+      "16557527",
+      "26331250",
+      "8728114",
+      "16537438",
+      "18395813",
+      "14630913",
+      "2439084",
+      "1371603",
+      "25003183",
+      "1383423",
+      "9130259",
+      "1710494",
+      "10440902",
+      "30755303",
+      "33028889",
+      "6198580",
+      "10820008",
+      "10887963",
+      "90525",
+      "18767817",
+      "36980286",
+      "15353595",
+      "35805997",
+      "35696938"
+    ],
+    "review": [
+      "33998060",
+      "26518750",
+      "19519451",
+      "19642704",
+      "30923662"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/prot.26146",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33998060",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

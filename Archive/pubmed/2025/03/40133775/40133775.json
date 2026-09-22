@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "40133775",
+    "doi": "10.1016/j.jmb.2025.169003",
+    "title": "AFflecto: A web server to generate conformational ensembles of flexible proteins from AlphaFold models."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins and regions (IDPs/IDRs) leverage their structural flexibility to fulfill essential cellular functions, with dysfunctions often linked to severe diseases. However, the relationships between their sequences, structural dynamics and functional roles remain poorly understood. Understanding these complex relationships is crucial for therapeutic development, highlighting the need for methods to generate plausible IDP/IDR conformational ensembles. While AlphaFold (AF) excels at modeling structured domains, it fails to accurately represent disordered regions, leaving a significant portion of proteomes inaccurately modeled. We present AFflecto, a user-friendly web server for generating large conformational ensembles of proteins that include both structured domains and IDRs from AF structural models. AFflecto identifies IDRs as tails, linkers or loops by analyzing their structural context. Additionally, it incorporates a method to identify conditionally folded IDRs that AF may incorrectly predict as natively folded elements. The conformational space is globally explored using efficient stochastic sampling algorithms. AFflecto's web interface allows users to customize the modeling, by modifying boundaries between ordered and disordered regions, and selecting among several sampling strategies. The web server is freely available at https://moma.laas.fr/applications/AFflecto/.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Software",
+      "Protein Conformation",
+      "Internet",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Models, Molecular",
+      "Protein Folding",
+      "Algorithms",
+      "*Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pajkos, Matyas",
+        "Clerc, Ilinka",
+        "Zanon, Christophe",
+        "Bernado, Pau",
+        "Cortes, Juan"
+      ],
+      "short_names": [
+        "Pajkos M",
+        "Clerc I",
+        "Zanon C",
+        "Bernado P",
+        "Cortes J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "LAAS-CNRS, Universite de Toulouse, CNRS, Toulouse, France.",
+        "LAAS-CNRS, Universite de Toulouse, CNRS, Toulouse, France.",
+        "LAAS-CNRS, Universite de Toulouse, CNRS, Toulouse, France.",
+        "Centre de Biologie Structurale, Universite de Montpellier, INSERM, CNRS, Montpellier, France.",
+        "LAAS-CNRS, Universite de Toulouse, CNRS, Toulouse, France. Electronic address: juan.cortes@laas.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pajkos, Mátyás",
+        "short_name": "Pajkos M",
+        "identifiers": [],
+        "affiliations": [
+          "LAAS-CNRS, Université de Toulouse, CNRS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Clerc, Ilinka",
+        "short_name": "Clerc I",
+        "identifiers": [],
+        "affiliations": [
+          "LAAS-CNRS, Université de Toulouse, CNRS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Zanon, Christophe",
+        "short_name": "Zanon C",
+        "identifiers": [],
+        "affiliations": [
+          "LAAS-CNRS, Université de Toulouse, CNRS, Toulouse, France."
+        ]
+      },
+      {
+        "full_name": "Bernadó, Pau",
+        "short_name": "Bernadó P",
+        "identifiers": [],
+        "affiliations": [
+          "Centre de Biologie Structurale, Université de Montpellier, INSERM, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Cortés, Juan",
+        "short_name": "Cortés J",
+        "identifiers": [],
+        "affiliations": [
+          "LAAS-CNRS, Université de Toulouse, CNRS, Toulouse, France. Electronic address: juan.cortes@laas.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2025 Aug 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/26 13:06",
+    "fetched_at": "2026-09-21 17:08:33"
+  },
+  "links": {
+    "cites": [
+      "42574507",
+      "42427316",
+      "42210062",
+      "42074305",
+      "41928976",
+      "41848393",
+      "41715157",
+      "41644540",
+      "41432303",
+      "41298246"
+    ],
+    "refs": [],
+    "similar": [
+      "40133775",
+      "29763584",
+      "40133791",
+      "38297118",
+      "31441158",
+      "39952928",
+      "34418423",
+      "39093570",
+      "31756456",
+      "39576583",
+      "37878721",
+      "38892222",
+      "36272675",
+      "34680137",
+      "23754493",
+      "32112084",
+      "39446390",
+      "38987470",
+      "28076807",
+      "38275091",
+      "36934808",
+      "36987865",
+      "40042172",
+      "32696395",
+      "36674958",
+      "27115638",
+      "29860432",
+      "36030416",
+      "38297184",
+      "33719450",
+      "39576584",
+      "39499823",
+      "29490246",
+      "40034137",
+      "27387657",
+      "32579908",
+      "34358545",
+      "30840442",
+      "24532081",
+      "33567297",
+      "34432000",
+      "30909517",
+      "29076577",
+      "33406091",
+      "40074747",
+      "35129612",
+      "28365882",
+      "36315580",
+      "36827446",
+      "35882686",
+      "38781245",
+      "23142703",
+      "24174539",
+      "37155239",
+      "38220424",
+      "32696367",
+      "34390736",
+      "28780862",
+      "40172236",
+      "34179096",
+      "31889261",
+      "39718444",
+      "24008243",
+      "32696369",
+      "34048569",
+      "35436286",
+      "32020911",
+      "35139468",
+      "38018910",
+      "32503351",
+      "34626492",
+      "38747347",
+      "32840111",
+      "27787828",
+      "39914051",
+      "34557680",
+      "19594884",
+      "33076213",
+      "25502193",
+      "32824743",
+      "26195786",
+      "40317235",
+      "27153636",
+      "34827596",
+      "39432675",
+      "38060268",
+      "35149212",
+      "32525675",
+      "27111521",
+      "37108059",
+      "36959451",
+      "32859072",
+      "30058229",
+      "32696354",
+      "30878482",
+      "26387104",
+      "35976160",
+      "26387102",
+      "31809054",
+      "23794453"
+    ],
+    "review": [
+      "40133775",
+      "31441158",
+      "34418423",
+      "39093570",
+      "34358545",
+      "30840442",
+      "24532081",
+      "33567297",
+      "30909517",
+      "35129612",
+      "35882686",
+      "38220424",
+      "34390736",
+      "24008243",
+      "32020911",
+      "35139468",
+      "39914051",
+      "25502193",
+      "36959451",
+      "26387104",
+      "35976160",
+      "26387102"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(25)00069-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:40133775",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

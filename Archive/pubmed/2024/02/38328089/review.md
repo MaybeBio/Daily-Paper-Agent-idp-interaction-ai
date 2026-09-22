@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and figure legends as provided.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and alignment of claims with presented evidence. No assessment of formatting, grammar, or editorial fit.
+- **Shared manuscript claim summary** The authors propose that the solubility product (SP), defined as the product of dilute-phase monomer concentrations, can predict the onset of phase separation in a two-component heterotypic system (polySH3 and polyPRM). They report that experimental SP trends qualitatively match simulations when small oligomers are included, and that an experimentally observed asymmetry in the phase diagram is explained by weak homotypic self-association of polyPRM, which was discovered via dynamic light scattering (DLS) and incorporated into the model.
+- **Visible evidence base** Figures 1–5 and Supplementary Figures S1–S4 as referenced in the text; methods descriptions for protein purification, fluorescence microscopy, DLS, and SpringSaLaD simulations.
+- **Missing materials affecting confidence** Raw data files, numerical values for all plotted points, error bars and statistical tests, DLS autocorrelation functions and size distribution plots, simulation parameter files, and full figure panels with axis labels and units. The manuscript text alone does not allow quantitative verification of the reported trends.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in the field of biomolecular condensates, namely whether a simple thermodynamic parameter (SP) can predict phase separation in a heterotypic multivalent system. The combination of quantitative experiments and coarse-grained simulations is appropriate and the discovery of polyPRM self-association via DLS is a valuable contribution. However, the central claim that SP is predictive of phase separation is only qualitatively supported, and the manuscript does not provide sufficient quantitative detail to fully evaluate the strength of this claim. The asymmetry in the experimental phase diagram is convincingly linked to polyPRM self-association, but the model parameters for this interaction are estimates, which limits the mechanistic interpretation. The manuscript would be strengthened by a more rigorous quantitative comparison between experiments and simulations, including error analysis and sensitivity testing.
+- **Who would be interested in the results, and why** Researchers studying phase separation in biology, particularly those interested in quantitative models of multivalent interactions, condensate formation, and the thermodynamics of dilute-phase composition. The work is also relevant to computational biologists developing coarse-grained models of protein interactions and to experimentalists using fluorescence microscopy to quantify condensate composition.
+- **Major strengths** The study combines quantitative fluorescence microscopy with coarse-grained Langevin dynamics simulations, a powerful approach for testing thermodynamic concepts in phase separation. The use of a well-defined model system (polySH3 and polyPRM) with known binding affinity is a clear strength. The discovery of weak homotypic polyPRM interactions via DLS and the subsequent incorporation into the model is a notable and insightful finding. The authors are transparent about the limitations of their model parameters and the inability to experimentally resolve monomer concentrations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors claim that the maximum SP coincides with the onset of phase separation in both experiments and simulations (Results, Figures 2A and 2C).
+  - **Evidence pointer** Figures 2A, 2C, and 2E; location not provided for numerical values.
+  - **Concern** The claim of coincidence between maximum SP and phase separation onset is based on visual inspection of trends without quantitative criteria. The manuscript does not define how "coincidence" is determined, nor does it provide error bars or statistical tests to support the claim. In simulations, the phase transition is inferred from the minimum in normalized ACO, but the relationship between this minimum and the maximum SP is not rigorously established.
+  - **Why it matters** The central thesis of the manuscript is that SP is a predictive parameter for phase separation. Without a quantitative definition of "coincidence" and associated uncertainties, the claim remains anecdotal and cannot be evaluated by the reader.
+  - **Resolution test** Provide numerical values for SP and phase separation thresholds (e.g., from ACO analysis) with error estimates, and perform a statistical test (e.g., bootstrap or Monte Carlo) to demonstrate that the maximum SP and phase transition point are not significantly different.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The authors state that including weak polyPRM self-association in the model recapitulates the experimentally observed asymmetry in the phase diagram (Results, Figure 4D vs. Figure 3A).
+  - **Evidence pointer** Figure 4D and Figure 3A; location not provided for simulation parameters.
+  - **Concern** The self-association interaction is introduced with a binding affinity of 1750 µM, which the authors acknowledge is an estimate not based on experimental data. The manuscript does not test the sensitivity of the simulation results to this parameter, nor does it compare the simulated phase diagram quantitatively to the experimental one. The claim of "significantly improved agreement" is not supported by any quantitative metric.
+  - **Why it matters** The mechanistic conclusion that polyPRM self-association explains the asymmetry depends entirely on this model parameter. Without sensitivity analysis or experimental validation of the interaction strength, the conclusion is not robust.
+  - **Resolution test** Perform simulations with a range of self-association affinities (e.g., 500–5000 µM) and show that the asymmetry persists. Quantitatively compare simulated and experimental phase boundaries (e.g., using a distance metric) and report the goodness of fit.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental methodology
+  - **Claim pointer** The authors report that dilute-phase concentrations of polySH3 and polyPRM were measured using fluorescence microscopy and standard curves (Results, Figure 1B).
+  - **Evidence pointer** Methods section "Quantitative analysis of microscopy images"; location not provided for standard curve details.
+  - **Concern** The manuscript does not describe how the standard curves were generated, including the range of concentrations, the number of replicates, or the linearity of the fluorescence-concentration relationship. The doping percentage of labeled protein varied from 0.25% to 5%, and it is unclear how this variation affects the accuracy of the concentration measurements. Additionally, the method for separating dilute and dense phases (centrifugation) may introduce artifacts if small oligomers are present.
+  - **Why it matters** The accuracy of the dilute-phase concentration measurements is critical for calculating SP. If the measurements are biased, the reported SP trends and their comparison to simulations are compromised.
+  - **Resolution test** Provide details of standard curve generation, including concentration ranges, replicates, and linearity. Validate the centrifugation method by comparing fluorescence measurements before and after centrifugation, and assess the impact of labeling percentage on measured concentrations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of SP
+  - **Evidence pointer** Abstract and Introduction; location not provided.
+  - **Issue** The term "solubility product" is used throughout, but the exact mathematical definition (product of dilute-phase monomer concentrations) is only stated in the abstract. The distinction between SP, SPoligomer, and SPmonomer is introduced in the Results but could be clarified earlier.
+  - **Required correction** Define SP explicitly in the Introduction and clearly distinguish between SP, SPoligomer, and SPmonomer when first introduced.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1; location not provided.
+  - **Issue** The figure legend does not specify the number of replicates or the error bar definition. It is unclear whether error bars represent standard deviation or standard error.
+  - **Required correction** Add replicate numbers and error bar definitions to the figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Parameter justification
+  - **Affected element** Simulation parameters
+  - **Evidence pointer** Methods section "Computational simulations"; location not provided.
+  - **Issue** The simulation parameters (e.g., Kd = 350 µM, diffusion constant = 2 µm²/s) are stated but not justified. It is unclear if these are derived from experimental measurements or chosen arbitrarily.
+  - **Required correction** Provide references or experimental measurements for the simulation parameters, or state that they are estimates and discuss the potential impact on results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Comparison of experimental and simulated SP
+  - **Evidence pointer** Figures 2A and 2C; location not provided.
+  - **Issue** The qualitative comparison between experimental and simulated SP trends is not supported by any statistical analysis. The authors state the trends are "qualitatively similar" but do not quantify the agreement.
+  - **Required correction** Perform a quantitative comparison (e.g., correlation coefficient or normalized root mean square error) and report the result.
+
+## Risk / unsupported claims
+- The claim that maximum SP coincides with phase separation onset is not quantitatively supported.
+- The claim that polyPRM self-association recapitulates experimental asymmetry is based on an estimated parameter without sensitivity analysis.
+- The claim that SPoligomer from simulations shows a similar trend to experimental results is not supported by quantitative comparison.
+- The statement that "the power of our computational model becomes readily apparent" is subjective and not backed by specific metrics.
+- The claim that the model can be extended to more complex systems (scaffolds and clients) is speculative and not tested in this study.

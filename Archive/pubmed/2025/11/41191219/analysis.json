@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41191219",
+  "title": "(1)H, (13)C, and (15)N resonance assignment of the C terminal region of the disordered postsynaptic scaffold protein GKAP.",
+  "authors": "Nagy-Kanta, Eszter; Santa, Anna; Kalman, Zsofia E; Li, Jessica Amy; Permi, Perttu; Gaspari, Zoltan; Peterfia, Balint",
+  "journal": "Biomolecular NMR assignments",
+  "published_date": "2025-11-05",
+  "window": {
+    "start": "2025-11-03",
+    "end": "2025-11-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该文对无序支架蛋白GKAP的C端区域进行NMR共振归属，并表征其与Shank1 PDZ的微摩尔级结合及局部螺旋倾向，涉及IDR-PPI但无AI/物理模拟方法，机制深度有限。",
+  "abstract": "Guanylate kinase-associated protein, GKAP, is a largely disordered scaffold protein with multiple interaction partners, playing a role in the organization of the postsynaptic protein network. Its C-terminus contains a binding motif for the PDZ domain of Shank proteins, another class of postsynaptic scaffolds. Based on predictions, this motif is preceded by a ~ 40-residue disordered segment with no known additional binding sites or established functional role. Here we report the expression, purification, and (1)H, (13)C and (15)N resonance assignment of the GKAP Ct43 construct containing the C-terminal 43 residues. This region is functionally intact, having a binding affinity to Shank1 PDZ in the micromolar range. Chemical shifts indicate that this region is indeed disordered but displays helical propensity in two regions. The short, slightly helical segment immediately before a PDZ-binding motif is somewhat comparable to the structural organization observed at the C-terminus of the E6 and RSK1 proteins, but its significance in GKAP is yet to be explored.",
+  "abstract_zh": "鸟苷酸激酶相关蛋白（Guanylate kinase-associated protein, GKAP）是一种高度无序的支架蛋白，具有多个相互作用伙伴，在突触后蛋白网络的组织中发挥作用。其C末端包含一个结合基序，用于与Shank蛋白（另一类突触后支架蛋白）的PDZ结构域结合。根据预测，该基序之前有一个约40个残基的无序片段，该片段没有已知的额外结合位点或已确立的功能角色。在此，我们报告了包含C末端43个残基的GKAP Ct43构建体的表达、纯化以及(1)H、(13)C和(15)N共振分配。该区域在功能上是完整的，对Shank1 PDZ具有微摩尔级别的结合亲和力。化学位移表明，该区域确实是无序的，但在两个区域显示出螺旋倾向。紧邻PDZ结合基序之前的短而略微螺旋的片段，与E6和RSK1蛋白C末端观察到的结构组织有些相似，但其在GKAP中的意义尚待探索。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41191219/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41191219/",
+  "paper_page_path": "papers/pubmed/41191219/index.html"
+}

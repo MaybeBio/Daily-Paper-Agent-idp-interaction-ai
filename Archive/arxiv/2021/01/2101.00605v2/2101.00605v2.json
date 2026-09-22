@@ -1,0 +1,37 @@
+{
+  "source": "arxiv",
+  "source_id": "2101.00605v2",
+  "title": "Unambiguous tracking of protein phosphorylation by fast, high-resolution FOSY NMR",
+  "doi": "",
+  "abstract": "Phosphorylation is a prototypical example of post-translational modifications (PTMs) that dynamically modulate protein func-tion, where dysregulation is often implicated in disease. NMR provides information on the exact location and time course of PTMs with atomic resolution and under nearly physiological conditions, including inside living cells, but requires unambiguous prior assignment of affected NMR signals to individual atoms. Yet, existing methods for this task base on a global, hence, costly and tedious NMR signal assignment that may often fail, especially for large intrinsically disordered proteins (IDPs). Here we introduce a sensitive and robust method to rapidly obtain only the relevant local NMR signal assignment, based on a suite of FOcused SpectroscopY (FOSY) experiments that employ the long overlooked concept of selective polarisation transfer (SPT). We then demonstrate the efficiency of FOSY in identifying two phosphorylation sites of proline-dependent glycogen synthase kinase 3 beta (GSK3\\b{eta}) in human Tau40, an IDP of 441 residues. Besides confirming the known target residue Ser404, the un-precedented spectral dispersion in FOSY disclosed for the first time that GSK3\\b{eta} can also phosphorylate Ser409 without priming by other protein kinases. The new approach will benefit NMR studies of other PTMs and protein hotspots in general, including sites involved in molecular interactions and conformational changes",
+  "authors": [
+    "Dmitry M. Lesovoy",
+    "Panagiota S. Georgoulia",
+    "Tammo Diercks",
+    "Irena Matečko-Burmann",
+    "Björn M. Burmann",
+    "Eduard V. Bocharov",
+    "Wolfgang Bermel",
+    "Vladislav Y. Orekhov"
+  ],
+  "published_date": "2021-01-03T11:08:38Z",
+  "updated_date": "2021-02-03T15:16:53Z",
+  "journal": "",
+  "category": "physics.chem-ph",
+  "landing_url": "https://arxiv.org/abs/2101.00605v2",
+  "pdf_url": "https://arxiv.org/pdf/2101.00605v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "physics.chem-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2101.00605v2",
+    "raw_categories": [
+      "physics.chem-ph"
+    ],
+    "journal_ref": ""
+  }
+}

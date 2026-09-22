@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42656830",
+  "title": "Pathological Mutation E46K Acts as an Electrostatic Switch to Increase Distant Interdomain Interactions and Promote alpha‑Synuclein Phase Separation.",
+  "authors": "Yang, Zhongyuan; Tang, Yiming; Wen, Jitao; Guo, Cong; Zhou, Yun; Wang, Zihan; Pan, Tong; Tan, Yuan; Perrett, Sarah; Wu, Si; Wei, Guanghong",
+  "journal": "JACS Au",
+  "published_date": "2026-08-27",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究通过多尺度分子动力学模拟结合实验，揭示帕金森病相关E46K突变作为静电开关重塑α-突触核蛋白N端与C端结构域间互作，增强其相分离倾向，为无序蛋白突变调控PPI及凝聚体形成的机制建模提供了范例。",
+  "abstract": "The Parkinson's disease-related protein alpha-synuclein can form solid amyloid fibrils through liquid-liquid phase separation (LLPS) and liquid-to-solid phase transition. The most deleterious familial mutation E46K has recently been shown to enhance alpha-synuclein LLPS and subsequent solidification; yet, the precise mechanisms remain largely unknown. Here, using molecular dynamics simulations at different spatiotemporal scales combined with biochemical experiments, we show that the E46K mutation acts as an electrostatic switch to remodel interactions between the oppositely charged N-terminal domain (NTD) and C-terminal domain (CTD) of alpha-synuclein. This remodeling shifts the interaction site of NTD with CTD from its N-terminus to the mutation region. Such reorganization increases the hydrophobic solvent exposure of key LLPS-promoting motifs, potentially facilitating intermolecular interactions that initiate phase separation. Phase coexistence simulations further support this hypothesis, showing that the E46K mutant exhibits enhanced LLPS and solidification propensities. This enhancement is primarily driven by intermolecular electrostatic interactions between the mutation region and the CTD, followed by the hydrophobic NAC-NAC interactions mediated by the LLPS-promoting motifs. Collectively, these results reveal that NTD-CTD electrostatic crosstalk acts as the key modulator of alpha-synuclein phase separation, while NAC-NAC interactions play an auxiliary role, both of which synergistically govern alpha-synuclein phase separation. This study offers a complete and detailed mechanistic framework for understanding alpha-synuclein phase separation and its enhancement induced by the E46K mutation.",
+  "abstract_zh": "帕金森病相关蛋白α-突触核蛋白（alpha-synuclein）可通过液-液相分离（liquid-liquid phase separation, LLPS）和液-固相转变形成固态淀粉样纤维。最近研究表明，最具致病性的家族性突变E46K可增强α-突触核蛋白的LLPS及随后的固化过程；然而，其精确机制在很大程度上仍属未知。在此，我们利用不同时空尺度的分子动力学（molecular dynamics）模拟并结合生化实验，揭示E46K突变作为一种静电开关，重塑α-突触核蛋白带相反电荷的N端结构域（N-terminal domain, NTD）与C端结构域（C-terminal domain, CTD）之间的相互作用。这种重塑将NTD与CTD的相互作用位点从其N端移至突变区域。此类重组增加了关键LLPS促进基序的疏水溶剂暴露，可能促进启动相分离的分子间相互作用。相共存模拟进一步支持这一假设，表明E46K突变体表现出增强的LLPS和固化倾向。这种增强主要由突变区域与CTD之间的分子间静电相互作用驱动，随后由LLPS促进基序介导的疏水性NAC-NAC相互作用所辅助。综合来看，这些结果揭示NTD-CTD静电串扰作为α-突触核蛋白相分离的关键调节因子，而NAC-NAC相互作用则发挥辅助作用，两者协同调控α-突触核蛋白的相分离。本研究为理解α-突触核蛋白相分离及其由E46K突变诱导的增强提供了完整且详细的机制框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42656830/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42656830/",
+  "paper_page_path": "papers/pubmed/42656830/index.html"
+}

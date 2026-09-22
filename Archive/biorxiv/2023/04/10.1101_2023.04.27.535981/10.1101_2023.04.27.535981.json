@@ -1,0 +1,307 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.27.535981",
+  "title": "Development of constrained peptide inhibitors targeting an oncogenic E3 ubiquitin ligase",
+  "doi": "10.1101/2023.04.27.535981",
+  "abstract": "SCF Skp2/Cks1 is an E3 ubiquitin ligase, whose substrate specificity is determined by the oncogenic F-box protein Skp2 and the adaptor protein Cks1. A principal target of SCF Skp2/Cks1 is the cyclin-dependent kinase inhibitor p27. Elevated levels of Skp2 and reduced levels of p27 are common in a variety of cancers, and there is consequently a need to develop effective inhibitors of the Skp2-p27 interaction. However, conventional small-molecule approaches are challenging due to the extended bi-molecular interface that spans both Skp2 and Cks1, the lack of suitable binding pockets on this surface, and the intrinsically disordered nature of p27. Here, we develop macrocyclic peptides capable of binding to SCF Skp2/Cks1 with nanomolar affinities, an enhancement of almost two orders of magnitude over the natural p27 peptide. We show that these macrocyclic peptides inhibit p27 ubiquitination in vitro, restore p27 levels in a breast cancer cell line, and reduce cell proliferation.",
+  "authors": [
+    "Zenkevičiūtė G",
+    "Xu W",
+    "Iegre J",
+    "Seki H",
+    "Tan YS",
+    "Rowling PJ",
+    "Ferrer F",
+    "Verma C",
+    "Spring DR",
+    "Laman H",
+    "Itzhaki LS"
+  ],
+  "published_date": "2023-04-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.27.535981",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.27.535981.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR651490",
+    "raw_record": {
+      "id": "PPR651490",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR651490"
+        ]
+      },
+      "doi": "10.1101/2023.04.27.535981",
+      "title": "Development of constrained peptide inhibitors targeting an oncogenic E3 ubiquitin ligase",
+      "authorString": "Zenkevičiūtė G, Xu W, Iegre J, Seki H, Tan YS, Rowling PJ, Ferrer F, Verma C, Spring DR, Laman H, Itzhaki LS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zenkevičiūtė G",
+            "lastName": "Zenkevičiūtė",
+            "firstName": "Grasilda",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge CB2 1PD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xu W",
+            "lastName": "Xu",
+            "firstName": "Wenshu",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge CB2 1PD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Iegre J",
+            "lastName": "Iegre",
+            "firstName": "Jessica",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seki H",
+            "lastName": "Seki",
+            "firstName": "Hikaru",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9663-7791"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tan YS",
+            "lastName": "Tan",
+            "firstName": "Yaw Sing",
+            "initials": "YS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Institute, A*STAR, 30 Biopolis Street, 138671 Singapore"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rowling PJ",
+            "lastName": "Rowling",
+            "firstName": "Pamela J.E.",
+            "initials": "PJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge CB2 1PD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ferrer F",
+            "lastName": "Ferrer",
+            "firstName": "Fernando",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "p53 Laboratory, A*STAR, 8A Biomedical Grove, 138648 Singapore"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Verma C",
+            "lastName": "Verma",
+            "firstName": "Chandra",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0733-9798"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics Institute, A*STAR, 30 Biopolis Street, 138671 Singapore"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spring DR",
+            "lastName": "Spring",
+            "firstName": "David",
+            "initials": "DR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7355-2824"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Laman H",
+            "lastName": "Laman",
+            "firstName": "Heike",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6089-171X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, University of Cambridge, Tennis Court Road, Cambridge, CB2 1QP, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Itzhaki LS",
+            "lastName": "Itzhaki",
+            "firstName": "Laura",
+            "initials": "LS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, University of Cambridge, Tennis Court Road, Cambridge CB2 1PD, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7355-2824"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9663-7791"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6089-171X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0733-9798"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "SCF  Skp2/Cks1 is an E3 ubiquitin ligase, whose substrate specificity is determined by the oncogenic F-box protein Skp2 and the adaptor protein Cks1. A principal target of SCF  Skp2/Cks1 is the cyclin-dependent kinase inhibitor p27. Elevated levels of Skp2 and reduced levels of p27 are common in a variety of cancers, and there is consequently a need to develop effective inhibitors of the Skp2-p27 interaction. However, conventional small-molecule approaches are challenging due to the extended bi-molecular interface that spans both Skp2 and Cks1, the lack of suitable binding pockets on this surface, and the intrinsically disordered nature of p27. Here, we develop macrocyclic peptides capable of binding to SCF  Skp2/Cks1 with nanomolar affinities, an enhancement of almost two orders of magnitude over the natural p27 peptide. We show that these macrocyclic peptides inhibit p27 ubiquitination in vitro, restore p27 levels in a breast cancer cell line, and reduce cell proliferation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/04/27/2023.04.27.535981.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.04.27.535981"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR651490"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR651490&type=FILE&fileName=EMS174903-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS174903",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-04-29",
+      "firstPublicationDate": "2023-04-27",
+      "firstIndexDate": "2023-04-29",
+      "fullTextReceivedDate": "2023-05-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

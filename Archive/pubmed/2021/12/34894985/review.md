@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a survey of over 100 predictors of intrinsic disorder in proteins, summarizing their predictive models, availability, and performance, and analyzing historical trends. They claim consistent improvement in predictive quality over time, a shift from machine learning to meta-predictors in the early 2010s, and a recent transition to deep learning, which they expect to continue. They also note the availability of diverse resources (web servers, standalone programs, combined predictors, databases) and identify a shortage of accurate methods for predicting disordered binding regions.
+- **Visible evidence base** Abstract text only; no methodological details, dataset descriptions, performance metrics, or resource lists are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, detailed methodology for predictor selection and categorization, performance comparison data, historical trend analyses, and any quantitative support for claims about predictive quality and resource availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable survey of the intrinsic disorder prediction field, with a scope that appears broader than prior reviews. The historical framing and the identification of a gap in disordered binding region prediction are useful contributions. However, the abstract alone provides no quantitative or methodological evidence to support the central claims. The assertion of consistent improvement in predictive quality, the specific timeline of methodological shifts, and the claim about a shortage of accurate methods for disordered binding regions are all presented without supporting data. The contribution's novelty relative to existing reviews is not assessable from the supplied material. The abstract is clearly written and accessible to nonspecialists, but the scientific case is not established from the evidence provided.
+- **Who would be interested in the results, and why** Computational biologists, bioinformaticians, and experimentalists working on protein disorder, particularly those seeking guidance on predictor selection or developing new prediction methods. The survey could also interest researchers studying disordered binding regions and those tracking methodological trends in machine learning and deep learning applications in biology.
+- **Major strengths** The scope of covering over 100 predictors appears comprehensive and potentially more extensive than prior surveys. The historical categorization into machine learning, meta-predictors, and deep learning provides a clear conceptual framework. The explicit identification of a gap in disordered binding region prediction is a practically relevant observation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim a consistent trend of improvements in predictive quality as newer and more advanced predictors are developed.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states a consistent trend of improvement but provides no performance data, benchmark results, or statistical analysis to substantiate this claim. No specific predictors, datasets, or evaluation metrics are mentioned.
+  - **Why it matters** This is a central conclusion of the survey. Without quantitative evidence, the claim is an assertion rather than a finding, and readers cannot assess the magnitude or reliability of the purported improvements.
+  - **Resolution test** Provide performance comparison data across predictor generations, including benchmark datasets, evaluation metrics, and statistical significance tests, or clearly reference where such data are presented in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim a shift from machine learning to meta-predictors in the early 2010s, followed by a recent transition to deep learning.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The historical timeline of methodological shifts is presented as fact, but no data on predictor release dates, method categories, or publication trends are provided. The criteria for classifying predictors into these categories are not described.
+  - **Why it matters** The historical analysis is a key contribution of the survey. Without a transparent methodology for categorizing predictors and establishing the timeline, the claim cannot be verified or reproduced.
+  - **Resolution test** Provide a detailed methodology for predictor classification, including release dates, category definitions, and a table or figure showing the distribution of predictors over time.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim a shortage of accurate methods that predict disordered binding regions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of a shortage is not supported by any comparative assessment of available methods for disordered binding region prediction. No specific predictors, performance benchmarks, or gap analysis are presented.
+  - **Why it matters** This claim is presented as an expert opinion and may guide future research priorities. Without evidence, it is unclear whether the shortage is relative to other disorder prediction tasks, whether it reflects a lack of methods or a lack of accuracy, and what specific gaps exist.
+  - **Resolution test** Provide a systematic comparison of available disordered binding region predictors, including performance metrics and a clear definition of the accuracy threshold used to identify the shortage.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of predictor categories
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The terms machine learning, meta-predictors, and deep learning are used without definitions, which may be ambiguous for nonspecialist readers.
+  - **Required correction** Briefly define each category in the abstract or refer to a methods section where definitions are provided.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Resource description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists types of resources (web servers, standalone programs, combined predictors, databases) but does not indicate how many of each are covered or how they were identified.
+  - **Required correction** Add a brief statement on the number of resources in each category or refer to a table in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Claim about future of deep learning
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that deep learning use will continue in the foreseeable future is speculative and not tied to specific evidence.
+  - **Required correction** Soften the claim or provide a brief rationale based on the survey findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish the central claims of consistent improvement, historical shifts, and a shortage of disordered binding region predictors. These require quantitative and methodological support from the full manuscript.
+- **Assessment against Nature-style criteria** 
+  - Originality: The scope of over 100 predictors appears potentially broader than prior surveys, but the abstract does not demonstrate what is new relative to existing reviews. Not assessable from the supplied material.
+  - Scientific importance: The topic is relevant to a broad community, and the identification of a gap in disordered binding region prediction is potentially important. However, the importance is not established without evidence.
+  - Interdisciplinary readership: The abstract is written in accessible language and could appeal to computational and experimental researchers. The historical framing may broaden appeal.
+  - Technical soundness: Not assessable from the abstract. No methodology, data, or validation is presented.
+  - Readability for nonspecialists: The abstract is clear and well structured, with minimal jargon, though the predictor categories could be better defined.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable survey, but the central claims require quantitative and methodological support from the full manuscript. A revised assessment would be possible upon review of the complete text, figures, and tables.
+
+## Risk / unsupported claims
+- The claim of consistent improvement in predictive quality over time is unsupported in the abstract.
+- The claim of a shift from machine learning to meta-predictors in the early 2010s and a recent transition to deep learning is unsupported.
+- The claim of a shortage of accurate methods for disordered binding region prediction is unsupported.
+- The expectation that deep learning use will continue is speculative and not tied to evidence.
+- The comprehensiveness of the collection of over 100 predictors is not verifiable from the abstract.

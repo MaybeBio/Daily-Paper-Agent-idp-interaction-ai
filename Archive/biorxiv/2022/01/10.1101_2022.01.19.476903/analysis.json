@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.01.19.476903",
+  "title": "Phase separation driven by interchangeable properties in the intrinsically disordered regions of protein paralogs",
+  "authors": "Shih-Hui Chiu; Wen-Lin Ho; Yung-Chen Sun; Jean-Cheng Kuo; Jie-rong Huang",
+  "journal": "bioRxiv",
+  "published_date": "2022-01-21",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究以Musashi旁系同源蛋白家族为例，结合多种结构技术与系统发育分析，揭示无序区域(IDRs)通过可互换的理化性质（如α螺旋倾向与朊病毒样倾向）趋同进化以驱动液-液相分离，直接聚焦IDR介导的蛋白组装机制，虽方法以实验为主但机制建模深度强，对本课题的IDR-PPI相分离机制研究有重要启发。",
+  "abstract": "Paralogs, arising from gene duplications, increase the functional diversity of proteins. Protein functions in paralog families have been extensively studied, but little is known about the roles of intrinsically disordered regions (IDRs), even though more than half of eukaryotic proteins have them. Using the RNA-binding protein Musashi family as an example, we applied multiple structural techniques and phylogenetic analysis to show how members in a paralog family have evolved their IDRs to different physicochemical properties but converge to the same function. In this example, the lower prion-like tendency of Musashi-1’s IDRs, rather than Musashi-2s’, is compensated by its higher α-helical propensity to assist their assembly. Without a folded structure to restraint, IDRs’ sequences mutate faster along with evolution. No matter how fast they change, our work suggests that IDRs evolve different traits to a converged function, such as liquid-liquid phase separation.",
+  "abstract_zh": "旁系同源基因（paralogs）由基因复制产生，增加了蛋白质的功能多样性。旁系同源家族中蛋白质的功能已被广泛研究，但关于固有无序区域（intrinsically disordered regions, IDRs）的作用知之甚少，尽管超过一半的真核生物蛋白质含有这些区域。以RNA结合蛋白Musashi家族为例，我们应用多种结构技术和系统发育分析，展示了旁系同源家族中的成员如何将其IDRs演化为不同的理化性质，但最终汇聚到相同的功能。在此例中，Musashi-1的IDRs较低的抗病毒样倾向（prion-like tendency），而非Musashi-2的，通过其较高的α-螺旋倾向性得到补偿，以协助它们的组装。由于没有折叠结构的约束，IDRs的序列随进化而更快地突变。无论它们变化多快，我们的工作表明，IDRs演化出不同的特征以达成汇聚的功能，例如液-液相分离（liquid-liquid phase separation）。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.01.19.476903",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.01.19.476903",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.01.19.476903/index.html"
+}

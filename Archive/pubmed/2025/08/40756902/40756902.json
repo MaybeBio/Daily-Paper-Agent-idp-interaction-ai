@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "40756902",
+    "doi": "10.3389/fbinf.2025.1627836",
+    "title": "IDRdecoder: a machine learning approach for rational drug discovery toward intrinsically disordered regions."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Intrinsically disordered regions (IDRs) of proteins have traditionally been overlooked as drug targets. However, with growing recognition of their crucial role in biological activity and their involvement in various diseases, IDRs have emerged as promising targets for drug discovery. Despite this potential, rational methodologies for IDR-targeted drug discovery remain underdeveloped, primarily due to a lack of reference experimental data. METHODS: This study explores a machine learning approach to predict IDR functions, drug interaction sites, and interacting molecular substructures within IDR sequences. To address the data gap, stepwise transfer learning was employed. IDRdecoder sequentially generate predictions for IDR classification, interaction sites, and interacting ligand substructures. In the first step, the neural net was trained as autoencoder by using 26,480,862 predicted IDR sequences. Then it was trained against 57,692 ligand-binding PDB sequences with higher IDR tendency via transfer learning for predict ligand interacting sites and ligand types. RESULTS: IDRdecoder was evaluated against 9 IDR sequences, which were experimentally detailed as drug targets. In the encoding space, specific GO terms related to the hypothesized functions of the evaluation IDR sequences were highly enriched. The model's prediction performance for drug interacting sites and ligand types demonstrated the area under the curve (AUC) of 0.616 and 0.702, respectively. The performance was compared with existing methods including ProteinBERT, and IDRdecoder demonstrated moderately improved performance. DISCUSSION: IDRdecoder is the first application for predicting drug interaction sites and ligands in IDR sequences. Analysis of the prediction results revealed characteristics beneficial for IDR-drug design; for instance, Tyr and Ala are preferred target sites, while flexible substructures, such as alkyl groups, are favored in ligand molecules.",
+    "keywords": [
+      "drug design",
+      "intrinsically disordered proteins",
+      "neural net",
+      "sequence-based prediction method",
+      "structural bioinformatics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shionyu-Mitusyama, Clara",
+        "Ohmori, Satoshi",
+        "Hirata, Subaru",
+        "Ishida, Hirokazu",
+        "Shirai, Tsuyoshi"
+      ],
+      "short_names": [
+        "Shionyu-Mitusyama C",
+        "Ohmori S",
+        "Hirata S",
+        "Ishida H",
+        "Shirai T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama, Shiga, Japan.",
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama, Shiga, Japan.",
+        "Faculty of Data Science, Shiga University 1-1-1 Banba, Hikone, Shiga, Japan.",
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama, Shiga, Japan.",
+        "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama, Shiga, Japan.",
+        "Faculty of Data Science, Shiga University 1-1-1 Banba, Hikone, Shiga, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shionyu-Mitusyama, Clara",
+        "short_name": "Shionyu-Mitusyama C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama, Shiga, Japan."
+        ]
+      },
+      {
+        "full_name": "Ohmori, Satoshi",
+        "short_name": "Ohmori S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama, Shiga, Japan."
+        ]
+      },
+      {
+        "full_name": "Hirata, Subaru",
+        "short_name": "Hirata S",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Data Science, Shiga University 1-1-1 Banba, Hikone, Shiga, Japan."
+        ]
+      },
+      {
+        "full_name": "Ishida, Hirokazu",
+        "short_name": "Ishida H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama, Shiga, Japan."
+        ]
+      },
+      {
+        "full_name": "Shirai, Tsuyoshi",
+        "short_name": "Shirai T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioscience, Nagahama Institute of Bio-Science and Technology, Nagahama, Shiga, Japan.",
+          "Faculty of Data Science, Shiga University 1-1-1 Banba, Hikone, Shiga, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Front Bioinform"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/04 12:27",
+    "fetched_at": "2026-09-21 22:09:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38665673",
+      "38048321",
+      "37738977",
+      "36969402",
+      "36927025",
+      "36866529",
+      "36851914",
+      "36834792",
+      "36250006",
+      "36216888",
+      "35281253",
+      "35020807",
+      "34905768",
+      "34869602",
+      "34850941",
+      "34164069",
+      "33858480",
+      "33812316",
+      "33104782",
+      "32230759",
+      "32100577",
+      "32015543",
+      "31667555",
+      "31649506",
+      "31619983",
+      "31308435",
+      "30949020",
+      "30357364",
+      "30278223",
+      "29860432",
+      "29584811",
+      "29186753",
+      "28992347",
+      "28819267",
+      "28054562",
+      "27820806",
+      "27208228",
+      "27101974",
+      "26931396",
+      "26553804",
+      "26507530",
+      "25944224",
+      "25637562",
+      "25489067",
+      "24845231",
+      "24606139",
+      "24551051",
+      "23761911",
+      "23055912",
+      "23041414",
+      "21969380",
+      "21629293",
+      "21514142",
+      "20739456",
+      "20559435",
+      "19022175",
+      "18991772",
+      "18573080",
+      "17243757",
+      "16873662",
+      "10609612",
+      "2231712",
+      "329285"
+    ],
+    "similar": [
+      "40756902",
+      "36272675",
+      "36908253",
+      "39763873",
+      "39446390",
+      "34179096",
+      "31724233",
+      "40944448",
+      "36959451",
+      "40244295",
+      "32535960",
+      "40286477",
+      "36851914",
+      "31441158",
+      "30841624",
+      "36315580",
+      "36005688",
+      "30878482",
+      "40997106",
+      "27587688",
+      "41378882",
+      "39253485",
+      "39933697",
+      "33936509",
+      "37498545",
+      "39631290",
+      "32756939",
+      "34710113",
+      "38459060",
+      "18831774",
+      "36210722",
+      "38895487",
+      "31521235",
+      "39093570",
+      "33627133",
+      "36833360",
+      "36291695",
+      "28924037",
+      "37883249",
+      "35767567",
+      "32722039",
+      "39383002",
+      "40221640",
+      "37761851",
+      "37633550",
+      "33036302",
+      "27140628",
+      "34825861",
+      "33248138",
+      "29550429",
+      "29759983",
+      "33267376",
+      "38497081",
+      "29066345",
+      "40060677",
+      "38701796",
+      "28381244",
+      "39653037",
+      "36929465",
+      "39539017",
+      "40650026",
+      "37986812",
+      "40574713",
+      "34830151",
+      "41232529",
+      "32553192",
+      "40403066",
+      "37905972",
+      "31003202",
+      "40143108",
+      "35094056",
+      "24115198",
+      "38915510",
+      "40034137",
+      "35914331",
+      "41347878",
+      "38579676",
+      "39811792",
+      "32702119",
+      "31889261",
+      "32824743",
+      "39405731",
+      "36304335",
+      "40396357",
+      "36987865",
+      "38254672",
+      "36746748",
+      "37878721",
+      "37875529",
+      "41333850",
+      "38942776",
+      "40462925",
+      "38662765",
+      "35007471",
+      "40054813",
+      "35883018",
+      "37961106",
+      "41025958",
+      "39453744",
+      "38166858"
+    ],
+    "review": [
+      "40756902",
+      "36959451",
+      "36851914",
+      "31441158",
+      "39631290",
+      "31521235",
+      "39093570",
+      "36833360",
+      "33248138",
+      "40650026",
+      "31003202",
+      "39811792"
+    ],
+    "pmc": [
+      "12313641"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40756902/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fbinf.2025.1627836",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

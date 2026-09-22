@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39475790",
+  "title": "Elucidating ATP's role as solubilizer of biomolecular aggregate.",
+  "authors": "Sarkar, Susmita; Gupta, Saurabh; Mahato, Chiranjit; Das, Dibyendu; Mondal, Jagannath",
+  "journal": "eLife",
+  "published_date": "2024-10-30",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合实验与分子模拟，研究ATP作为增溶剂对无序蛋白Abeta40聚集/凝聚体的溶解机制，聚焦IDP聚集与互作调控，方法含MD模拟，对无序蛋白互作机制建模有直接启发。",
+  "abstract": "Proteins occurring in significantly high concentrations in cellular environments (over 100 mg/ml) and functioning in crowded cytoplasm, often face the prodigious challenges of aggregation which are the pathological hallmark of aging and are critically responsible for a wide spectrum of rising human diseases. Here, we combine a joint-venture of complementary wet-lab experiment and molecular simulation to discern the potential ability of adenosine triphosphate (ATP) as solubilizer of protein aggregates. We show that ATP prevents both condensation of aggregation-prone intrinsically disordered protein Abeta40 and promotes dissolution of preformed aggregates. Computer simulation links ATP's solubilizing role to its ability to modulate protein's structural plasticity by unwinding protein conformation. We show that ATP is positioned as a superior biological solubilizer of protein aggregates over traditional chemical hydrotropes, potentially holding promises in therapeutic interventions in protein-aggregation-related diseases. Going beyond its conventional activity as energy currency, the amphiphilic nature of ATP enables its protein-specific interaction that would enhance ATP's efficiency in cellular processes.",
+  "abstract_zh": "在细胞环境中以显著高浓度（超过100 mg/ml）存在的蛋白质，并在拥挤的细胞质中发挥功能，常常面临聚集的巨大挑战，这种聚集是衰老的病理标志，并对日益增多的多种人类疾病负有关键责任。在此，我们结合互补的湿实验和分子模拟的联合策略，以辨别三磷酸腺苷（ATP）作为蛋白质聚集体增溶剂潜在能力。我们表明，ATP既防止了易聚集的内在无序蛋白质Abeta40的凝聚，又促进了预形成聚集体的溶解。计算机模拟将ATP的增溶作用与其通过解旋蛋白质构象来调节蛋白质结构可塑性的能力联系起来。我们表明，ATP被定位为优于传统化学水溶剂的蛋白质聚集体生物增溶剂，可能在蛋白质聚集相关疾病的治疗干预中具有前景。超越其作为能量货币的传统活性，ATP的两亲性使其能够实现蛋白质特异性相互作用，这将增强ATP在细胞过程中的效率。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39475790/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39475790/",
+  "paper_page_path": "papers/pubmed/39475790/index.html"
+}

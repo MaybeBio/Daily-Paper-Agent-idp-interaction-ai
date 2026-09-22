@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary information references.
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with claims. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations with explicit hydrodynamics and electrostatics to study how charge sequence (quantified by κ) affects dynamics in condensates of highly charged IDPs. They report that (1) hydrodynamics dominates dynamics up to chain-length scales for low-to-intermediate κ sequences, (2) sub-chain segmental relaxation is coupled to local charge patterns, and (3) viscosity is length-scale dependent, with high-κ condensates showing large differences between microscopic and macroscopic viscosity.
+- **Visible evidence base** Main text figures (Figs. 1–4), equations (1)–(9), methods section, and references to supplementary figures (S1, S3, S5) and supplementary methods. Supplementary material itself was not provided for review.
+- **Missing materials affecting confidence** Supplementary Information (SI) is referenced for simulation parameters, analysis details, and additional data (Figs. S1, S3, S5) but was not supplied. This limits verification of parameter choices, convergence, and robustness of the reported scaling exponents and viscosity calculations.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question: how charge sequence modulates dynamics in IDP condensates, with explicit attention to hydrodynamics and electrostatics. The use of GCMe-DPD simulations is appropriate and potentially powerful. The central findings, particularly the persistence of hydrodynamic effects and the length-scale-dependent viscosity, are interesting and could have broad implications. However, the manuscript as presented has several technical gaps that prevent full confidence in the conclusions. The absence of the SI is a major limitation for this review. Key concerns include the lack of validation of the simulation model against experimental or atomistic data, insufficient detail on how hydrodynamic interactions are quantified and separated from other effects, and the need for clearer statistical and convergence analyses. The claim that electrostatic correlations persist beyond the Debye length due to chain connectivity is intriguing but requires more direct evidence. The viscosity results, while suggestive, need more rigorous analysis to support the interpretation of length-scale dependence and its connection to experimental observations. Overall, the work is potentially significant, but the current evidence base is insufficient to fully establish the claims.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, intrinsically disordered proteins, polymer physics, and soft matter. The findings on hydrodynamics and length-scale-dependent viscosity are relevant to understanding the physical properties of condensates and reconciling fast molecular dynamics with high bulk viscosity. The methodological approach (GCMe-DPD) will be of interest to simulators studying charged polymer systems.
+- **Major strengths** The manuscript tackles a complex and under-explored problem. The simulation methodology is sophisticated, combining explicit hydrodynamics, electrostatics, and polymer connectivity. The systematic variation of charge sequences (κ) is a clear and effective design. The identification of distinct dynamical regimes (hydrodynamic-dominated vs. electrostatics-dominated) and the quantification of length-scale-dependent viscosity are novel and potentially impactful contributions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Model validation
+  - **Claim pointer** The manuscript claims that the GCMe-DPD model captures the essential physics of IDP condensate dynamics, including hydrodynamics and electrostatics.
+  - **Evidence pointer** Methods section, "Coarse-grained model and GCMe-DPD simulation methodology"; Results section, Fig. 2.
+  - **Concern** The model is not validated against experimental data or higher-resolution simulations. The choice of interaction parameters, particularly for the Gaussian core potential and smeared charges, is not justified in the main text. The manuscript states that parameters are in the SI, which was not provided. Without validation, it is unclear whether the observed dynamical regimes (e.g., Zimm-like scaling) are artifacts of the specific coarse-grained model or robust physical predictions. The claim that hydrodynamics dominates up to chain-length scales is central, but the manuscript does not demonstrate that the DPD thermostat correctly reproduces hydrodynamic behavior in a dense, multi-component system.
+  - **Why it matters** If the model is not validated, the quantitative and even qualitative conclusions about the role of hydrodynamics and electrostatics may not be transferable to real IDP condensates. This is a foundational issue that affects all subsequent claims.
+  - **Resolution test** Provide a validation section comparing simulation results (e.g., diffusion coefficients, scaling exponents, structure factors) to experimental data (e.g., FRAP, NMR, rheology) or to all-atom simulations for a test case. Justify the choice of interaction parameters and demonstrate that the results are robust to reasonable parameter variations. Provide the SI for review.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Data analysis
+  - **Claim pointer** The manuscript claims that viscosity is length-scale dependent, with high-κ condensates showing a 26-fold difference between microscopic and macroscopic viscosity.
+  - **Evidence pointer** Results section, "Length-scale-dependent Viscosity in IDP Condensates", Fig. 4.
+  - **Concern** The calculation of q-dependent viscosity from the transverse current autocorrelation function (TCAF) is a standard method, but the manuscript does not provide sufficient detail on how the macroscopic viscosity is obtained from the q-dependent data. The statement that the bulk viscosity is "over 26 times larger" than the local viscosity at the monomer level is a key quantitative claim, but the statistical uncertainty and the method of extrapolating to q→0 are not described. The manuscript also does not discuss potential artifacts from finite system size or the choice of q-range. The scaling relationship η~ρ^1.71 is presented, but the fit quality and the range of densities over which this holds are not shown.
+  - **Why it matters** The length-scale-dependent viscosity is a central result with implications for interpreting experimental measurements. If the analysis is not rigorous, the quantitative claims (e.g., 26-fold difference) are not reliable.
+  - **Resolution test** Provide a detailed description of the viscosity calculation, including how the macroscopic limit is obtained, error bars, and convergence tests. Show the raw TCAF data and fits for all sequences. Provide the SI for review.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Interpretation
+  - **Claim pointer** The manuscript claims that electrostatic correlations persist beyond the Debye length due to chain connectivity, leading to sequence-dependent sub-chain dynamics.
+  - **Evidence pointer** Results section, "Charge pattern-dependent segmental dynamics", Fig. 3.
+  - **Concern** The interpretation that chain connectivity reduces screening is plausible but is not directly tested. The manuscript shows that segmental relaxation depends on local charge balance, but it does not rule out other explanations, such as differences in local density or packing. The connection to the "correlation blob" picture is qualitative. The manuscript also does not discuss the role of counterion condensation, which could be significant at these charge densities.
+  - **Why it matters** The claim about the persistence of electrostatic correlations is a key mechanistic insight. If it is not rigorously supported, the interpretation of the sequence-dependent dynamics is weakened.
+  - **Resolution test** Perform additional analyses to directly probe electrostatic correlations, such as calculating the static structure factor for charged monomers or computing the effective interaction between charged segments. Compare results with a system where chain connectivity is removed (e.g., disconnected monomers) to isolate the effect of connectivity. Discuss the role of counterion condensation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / Statistical analysis
+  - **Claim pointer** The manuscript claims that the differences in segmental relaxation times between different locations in the chain are significant (e.g., "more than 2 folds" for sv30).
+  - **Evidence pointer** Results section, "Charge pattern-dependent segmental dynamics", Fig. 3.
+  - **Concern** The manuscript does not report error bars or statistical significance for the relaxation times shown in Fig. 3. It is unclear how many independent simulations were performed and how the relaxation times were averaged. The claim of a "2-fold" difference could be within statistical noise if the error bars are large.
+  - **Why it matters** The sequence-dependent segmental dynamics is a key finding. Without error analysis, the reader cannot assess the robustness of the claim.
+  - **Resolution test** Provide error bars on all relaxation times and a statistical test (e.g., t-test or bootstrap) to support the claim of significant differences. Describe the number of independent simulations and the averaging procedure.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Results
+  - **Evidence pointer** Introduction, paragraph 2; Results, "The importance of hydrodynamics on IDP condensate dynamics".
+  - **Issue** The manuscript uses terms like "Zimm-like dynamics" and "Rouse-like dynamics" without defining them for a general audience. The concept of "correlation blob" is also introduced without explanation.
+  - **Required correction** Briefly define these terms when first used, or provide a short background paragraph in the introduction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Results
+  - **Evidence pointer** Methods, "Simulation details"; Results, Fig. 2C.
+  - **Issue** The manuscript states that the bulk viscosity is obtained from the stress autocorrelation function, but the details of this calculation are not given. It is unclear if the viscosity is calculated from the Green-Kubo relation and how the integral is converged.
+  - **Required correction** Provide a brief description of the viscosity calculation in the Methods section, including the Green-Kubo relation and the convergence criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 1.
+  - **Issue** The discussion of the applicability of the results to other IDP systems is brief. The manuscript could benefit from a more explicit statement of the limitations of the model (e.g., the use of a generic IDP sequence, the absence of specific interactions like aromatic stacking).
+  - **Required correction** Add a sentence or two in the Discussion acknowledging the limitations of the coarse-grained model and the specific sequences studied.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation) and R1-M2 (viscosity analysis) are blocking. R1-M3 and R1-M4 are significant but not necessarily blocking if addressed with additional analysis.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its systematic study of charge sequence effects on dynamics with explicit hydrodynamics. The concept of length-scale-dependent viscosity in IDP condensates is a novel contribution.
+  - **Scientific importance** The findings are important for understanding the physical properties of biomolecular condensates and for reconciling fast molecular dynamics with high bulk viscosity. The results could have implications for the design of biomaterials.
+  - **Interdisciplinary readership** The topic is of interest to biophysicists, soft matter physicists, and polymer scientists. The manuscript is written in a way that is largely accessible, but the technical details of the simulation method may be challenging for non-specialists.
+  - **Technical soundness** The technical soundness is currently not fully established due to the lack of model validation and insufficient detail on the viscosity analysis. The statistical analysis is also incomplete.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but some terms and concepts are not defined for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core ideas are interesting and potentially significant, but the current evidence base is insufficient to fully establish the claims. The authors must provide the SI, validate the model, and strengthen the data analysis.
+
+## Risk / unsupported claims
+- The claim that hydrodynamics dominates dynamics up to and beyond chain-length scales for low-to-intermediate κ sequences is not fully supported without model validation and a demonstration that the observed scaling is not an artifact of the simulation method.
+- The claim that electrostatic correlations persist beyond the Debye length due to chain connectivity is an interpretation that is not directly tested.
+- The quantitative claim of a 26-fold difference between microscopic and macroscopic viscosity for sv30 condensates is not supported by error analysis or a clear description of the extrapolation method.
+- The scaling relationship η~ρ^1.71 is presented without showing the fit quality or the range of validity.
+- The general applicability of the findings to other IDP systems is stated but not demonstrated.

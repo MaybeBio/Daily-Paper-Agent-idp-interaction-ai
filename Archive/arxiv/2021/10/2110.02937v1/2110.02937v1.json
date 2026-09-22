@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2110.02937v1",
+  "title": "Assembly of Model Postsynaptic Densities Involves Interactions Auxiliary to Stoichiometric Binding",
+  "doi": "10.1016/j.bpj.2021.10.008",
+  "abstract": "The assembly of functional biomolecular condensates often involves liquid-liquid phase separation (LLPS) of proteins with multiple modular domains, which can be folded or conformationally disordered to various degrees. To understand the LLPS-driving domain-domain interactions, a fundamental question is how readily the interactions in the condensed phase can be inferred from inter-domain interactions in dilute solutions. In particular, are the interactions leading to LLPS exclusively those underlying the formation of discrete inter-domain complexes in homogeneous solutions? We address this question by developing a mean-field LLPS theory of two stoichiometrically constrained solute species. The theory is applied to the neuronal proteins SynGAP and PSD-95, whose complex coacervate serves as a rudimentary model for neuronal postsynaptic densities (PSDs). The predicted phase behaviors are compared with experiments. Previously, a three-SynGAP, two-PSD-95 ratio was determined for SynGAP/PSD-95 complexes in dilute solutions. However, when this 3:2 stoichiometry is uniformly imposed in our theory encompassing both dilute and condensed phases, the tie-line pattern of the predicted SynGAP/PSD-95 phase diagram differs drastically from that obtained experimentally. In contrast, theories embodying alternate scenarios postulating auxiliary SynGAP-PSD-95 as well as SynGAP-SynGAP and PSD-95-PSD-95 interactions in addition to those responsible for stoichiometric SynGAP/PSD-95 complexes produce tie-line patterns consistent with experiment. Hence, our combined theoretical-experimental analysis indicates that weaker interactions or higher-order complexes beyond the 3:2 stoichiometry, but not yet documented, are involved in the formation of SynGAP/PSD-95 condensates, imploring future efforts to ascertain the nature of these auxiliary interactions in PSD-like LLPS.",
+  "authors": [
+    "Yi-Hsuan Lin",
+    "Haowei Wu",
+    "Bowen Jia",
+    "Mingjie Zhang",
+    "Hue Sun Chan"
+  ],
+  "published_date": "2021-10-06T17:31:27Z",
+  "updated_date": "2021-10-06T17:31:27Z",
+  "journal": "Biophys. J. 121 (1) 2022 157-171",
+  "category": "q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2110.02937v1",
+  "pdf_url": "https://arxiv.org/pdf/2110.02937v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2110.02937v1",
+    "raw_categories": [
+      "q-bio.BM"
+    ],
+    "journal_ref": "Biophys. J. 121 (1) 2022 157-171"
+  }
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, conclusion, funding, competing interests, author contributions, acknowledgements)
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims as presented in the provided text. No assessment of supplementary figures or tables beyond what is referenced in the text.
+- **Shared manuscript claim summary** The authors present a general computational method for de novo design of modular repeat proteins that bind peptide sequences with repeating units. The method involves superhelical matching between protein and peptide backbones, bidentate hydrogen bond formation, and Rosetta-based sequence design. They report high-affinity, specific binders for six tripeptide repeat sequences, demonstrate modularity by varying repeat number, show structural accuracy via X-ray crystallography, and extend the approach to non-repeating sequences by redesigning individual repeat units. They also demonstrate utility in living cells and against an endogenous disordered region of human ZFC3H1.
+- **Visible evidence base** Abstract, Introduction, Results (embedded in text), Conclusion, Funding, Competing Interests, Author Contributions, Acknowledgements. References to supplementary figures (S1-S19) and tables (supplementary table 5) are made but their content is not provided.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1-S19, supplementary table 5), detailed Methods section, full experimental protocols, raw data for binding assays, crystallographic statistics, and complete proteomics dataset. These are essential for full verification of the claims.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a significant advance in the de novo design of peptide-binding proteins, addressing a challenging problem in protein engineering. The computational approach is innovative, combining superhelical matching with geometric hashing for bidentate hydrogen bond identification. The experimental validation is extensive, including binding assays, specificity profiling, structural characterization, and in-cell demonstrations. However, the provided text lacks critical methodological details and raw data, making full assessment of technical rigor difficult. The claims are largely plausible but require access to supplementary materials for complete verification.
+- **Who would be interested in the results, and why** Researchers in protein design, synthetic biology, proteomics, and cell biology. The method offers a general route to creating peptide binders, which could be used for affinity reagents, biosensors, and studying protein-protein interactions. The demonstration against an endogenous disordered region of ZFC3H1 is particularly relevant to those studying the PAXT complex and RNA biology.
+- **Major strengths** 1) The computational method is conceptually novel, addressing a fundamental challenge in peptide recognition. 2) The experimental validation is comprehensive, covering binding affinity, specificity, structural accuracy, and in-cell function. 3) The modularity of the design allows for tunable affinity and specificity. 4) The extension to non-repeating sequences and endogenous targets significantly broadens the applicability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the designed proteins bind peptides with nanomolar to picomolar affinities, and that crystal structures reveal repeating interactions as designed.
+  - **Evidence pointer** Figure 2E, Figure 4, Supplementary Figures S11-S14
+  - **Concern** The text reports Kd values ranging from <500 pM to ~40 nM, but the methods for these measurements (e.g., BLI) are not described in detail. For the tightest binders, the Kd is stated to be too tight to measure accurately, yet the claim of picomolar affinity is made. The crystallographic validation is presented for four complexes, but the resolution and refinement statistics are not provided. The claim of "near atomic accuracy" is based on Cα RMSD values, but the significance of these values depends on the resolution and quality of the electron density maps.
+  - **Why it matters** Accurate affinity measurements and high-quality structural validation are critical for establishing the efficacy and design accuracy of the method. Without these details, the claims of high affinity and structural fidelity cannot be fully assessed.
+  - **Resolution test** Provide full experimental details for BLI and other binding assays, including sensor preparation, analyte concentrations, and data fitting. Provide crystallographic data collection and refinement statistics for all reported structures, including resolution, R-factors, and B-factors. Show electron density maps for key interface residues.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the method is generalizable to a wide range of repeating peptide structures and that specificity can be achieved for non-repeating sequences.
+  - **Evidence pointer** Figure 5, Figure 6, Supplementary Figures S2-S4, S19
+  - **Concern** The text describes successful design for six tripeptide repeat sequences, but the selection criteria for these targets are not fully explained. The claim of generalizability is based on a limited set of examples, and the text does not report on the success rate of the design process (e.g., how many designs were attempted vs. how many succeeded). The extension to non-repeating sequences is demonstrated with only two hybrid designs, and the specificity data for these is limited.
+  - **Why it matters** The central claim of the paper is that this is a general method for peptide binding. A low success rate or limited target diversity would weaken this claim. The demonstration of non-repeating sequence binding is a key extension, but the evidence is preliminary.
+  - **Resolution test** Provide a comprehensive analysis of design success rates, including the number of designs tested and the criteria for success. Expand the demonstration of non-repeating sequence binding to more examples and provide detailed specificity data. Discuss the limitations of the method in terms of target sequence space.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the designed binders can recognize endogenous proteins in a physiological context, specifically the PAXT complex.
+  - **Evidence pointer** Figure 6E, 6F, Supplementary Figure S16
+  - **Concern** The pull-down of endogenous ZFC3H1 from human cell extracts is a key demonstration of utility. However, the text does not provide details on the cell lines used, the lysis conditions, or the washing stringency. The mass spectrometry data is mentioned but not shown in detail. The claim that MTR4 is enriched in the pull-down is suggestive of PAXT complex recognition, but the stoichiometry and specificity of the interaction are not fully characterized.
+  - **Why it matters** The demonstration of binding to an endogenous target in a complex biological context is a major selling point of the paper. If the pull-down is not rigorously controlled, the claim could be overstated.
+  - **Resolution test** Provide full details of the pull-down protocol, including cell lines, lysis buffers, and washing steps. Show the mass spectrometry data, including the list of identified proteins and their enrichment factors. Include negative controls, such as a non-binding protein or a knockout cell line.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses technical jargon (e.g., "superhelical matching," "bidentate hydrogen bonds") without sufficient context for a general scientific audience.
+  - **Required correction** Briefly explain the concept of superhelical matching and why bidentate hydrogen bonds are important for peptide binding in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 2D
+  - **Evidence pointer** Figure 2D
+  - **Issue** The text states that half of the designs don't fully recover at 20°C after heating to 95°C, which is speculated to be due to protein aggregation. This is a potential concern for the stability of the designed proteins.
+  - **Required correction** Provide data on the reversibility of thermal denaturation and discuss the implications for the practical use of these proteins.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Figure 5A
+  - **Evidence pointer** Figure 5A
+  - **Issue** The specificity data is presented as a heatmap, but the text does not explain the color scale or the threshold for "strong" binding.
+  - **Required correction** Define the color scale and the criteria for calling a binding interaction specific.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of detailed methods and raw data for binding and structural studies prevents full verification of the central claims. The limited demonstration of generalizability and non-repeating sequence binding also needs to be addressed.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The superhelical matching approach is a novel concept for peptide binder design.
+  - **Scientific importance** High. A general method for peptide binding has broad implications in biology and medicine.
+  - **Interdisciplinary readership** Moderate. The work will appeal to protein engineers, structural biologists, and cell biologists, but may be less accessible to a broader audience.
+  - **Technical soundness** Currently not fully assessable due to missing methodological details and raw data. The claims are plausible but require verification.
+  - **Readability for nonspecialists** The abstract and introduction are somewhat technical, but the overall narrative is clear. The results section is dense and would benefit from more context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The work is potentially significant, but the current manuscript does not provide sufficient evidence to fully establish the claims. Access to supplementary materials and additional experimental details is essential.
+
+## Risk / unsupported claims
+- The claim of "picomolar affinities" is not fully supported without detailed binding assay data.
+- The claim of "near atomic accuracy" in crystal structures is not supported without crystallographic statistics.
+- The claim of generalizability to a "wide range" of repeating peptide structures is not supported by the limited number of examples.
+- The claim of specific binding to the endogenous PAXT complex is not fully supported without detailed mass spectrometry data and controls.
+- The claim that the method can be extended to "entirely non-repeating sequences" is speculative and not directly demonstrated.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36899114",
+  "title": "Generation of unfolded outer membrane protein ensembles defined by hydrodynamic properties.",
+  "authors": "Devlin, Taylor; Fleming, Patrick J; Loza, Nicole; Fleming, Karen G",
+  "journal": "European biophysics journal : EBJ",
+  "published_date": "2023-03-11",
+  "window": {
+    "start": "2023-03-06",
+    "end": "2023-03-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用粗粒化模拟与分子动力学生成外膜蛋白无序构象集合，虽对象非IDP但涉及无序态建模，可为IDR介导PPI的构象系综方法提供迁移启发。",
+  "abstract": "Outer membrane proteins (OMPs) must exist as an unfolded ensemble while interacting with a chaperone network in the periplasm of Gram-negative bacteria. Here, we developed a method to model unfolded OMP (uOMP) conformational ensembles using the experimental properties of two well-studied OMPs. The overall sizes and shapes of the unfolded ensembles in the absence of a denaturant were experimentally defined by measuring the sedimentation coefficient as a function of urea concentration. We used these data to model a full range of unfolded conformations by parameterizing a targeted coarse-grained simulation protocol. The ensemble members were further refined by short molecular dynamics simulations to reflect proper torsion angles. The final conformational ensembles have polymer properties different from unfolded soluble and intrinsically disordered proteins and reveal inherent differences in the unfolded states that necessitate further investigation. Building these uOMP ensembles advances the understanding of OMP biogenesis and provides essential information for interpreting structures of uOMP-chaperone complexes.",
+  "abstract_zh": "外膜蛋白（OMPs）在革兰氏阴性菌的周质中与伴侣网络相互作用时，必须以未折叠的集合体形式存在。在此，我们开发了一种方法，利用两种研究充分的OMP的实验特性来模拟未折叠OMP（uOMP）构象集合。在无变性剂条件下，通过测量沉降系数作为尿素浓度的函数，实验确定了未折叠集合体的整体大小和形状。我们利用这些数据，通过参数化靶向粗粒化模拟协议，模拟了全范围的未折叠构象。集合成员进一步通过短时分子动力学模拟进行细化，以反映正确的扭转角。最终的构象集合具有与未折叠可溶性蛋白和 intrinsically disordered proteins 不同的聚合物特性，并揭示了未折叠状态中固有的差异，这些差异需要进一步研究。构建这些uOMP集合体增进了对OMP生物发生的理解，并为解读uOMP-伴侣复合物结构提供了必要信息。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36899114/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36899114/",
+  "paper_page_path": "papers/pubmed/36899114/index.html"
+}

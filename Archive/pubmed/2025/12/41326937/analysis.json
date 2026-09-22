@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41326937",
+  "title": "Advantages and Limitations of AlphaFold in Structural Biology: Insights from Recent Studies.",
+  "authors": "Li, Mandarina Qing Cheng; Wang, Sihan; Lin, Shi-Ruei; Ting, Li Eric Ngok; Wan, Zhi-Hong; Xie, Guodong; Zhang, Jane",
+  "journal": "The protein journal",
+  "published_date": "2025-12-02",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 6,
+  "one_liner_zh": "综述AlphaFold在结构生物学中的应用与局限，提及IDR和MD模拟，但非聚焦无序蛋白PPI机制建模，仅作背景性启发。",
+  "abstract": "Over the past three years, AlphaFold-a deep learning-based protein structure prediction system-has transformed structural biology by providing near-experimental accuracy models directly from amino acid sequences. This narrative review synthesizes applications reported in the 2022-2025 literature across human, microbial, and viral systems, drawing on peer-reviewed studies as our data source. Representative examples include modeling of SARS-CoV-2 spike and nucleocapsid proteins in virology, assisting cryo-EM interpretation of bacterial ribosomal and membrane-protein complexes in microbiology, and refining conformational hypotheses for human GPCRs in biomedicine. Across these cases, AlphaFold predictions have complemented experimental workflows by accelerating hypothesis generation, improving model fitting within ambiguous density regions (poorly resolved areas of cryo-EM maps), and guiding mutagenesis strategies to probe dynamic conformational states. We also summarize recent method extensions: AlphaFold-Multimer improves multi-chain complex assembly prediction, while molecular dynamics (MD) simulations augment AlphaFold's static models by sampling conformational flexibility and testing stability. Despite these advances, important limitations remain-particularly for intrinsically disordered regions, protein-ligand and protein-cofactor interactions, and very large or transient assemblies-and current community benchmarks indicate that approximately one-third of residues may lack atomistic precision, underscoring uncertainty in flexible or modified segments. Framed within a clear chronological window and evidence base, our analysis highlights both the practical impact and the remaining challenges of integrating AlphaFold with experiment, outlining priorities where further methodological innovation and orthogonal validation are needed.",
+  "abstract_zh": "过去三年中，AlphaFold——一种基于深度学习的蛋白质结构预测系统——通过直接从氨基酸序列提供接近实验精度的模型，彻底改变了结构生物学领域。本叙述性综述综合了2022-2025年文献中报道的、涵盖人类、微生物和病毒系统的应用，以同行评审研究作为数据来源。代表性案例包括病毒学中SARS-CoV-2刺突蛋白和核衣壳蛋白的建模、微生物学中辅助冷冻电镜解析细菌核糖体和膜蛋白复合物，以及生物医学中优化人类GPCR构象假说。在这些案例中，AlphaFold预测通过加速假设生成、改善模糊密度区域（冷冻电镜图中分辨率较差的区域）内的模型拟合，以及指导探测动态构象状态的突变策略，补充了实验工作流程。我们还总结了近期方法扩展：AlphaFold-Multimer改善了多链复合物组装预测，而分子动力学 (molecular dynamics) 模拟通过采样构象灵活性和测试稳定性，增强了AlphaFold的静态模型。尽管取得了这些进展，仍存在重要局限性——特别是对于固有无序区域、蛋白质-配体和蛋白质-辅因子相互作用，以及非常大或瞬时的组装体——当前社区基准表明，约三分之一的残基可能缺乏原子级精度，凸显了柔性或修饰片段中的不确定性。在明确的时间窗口和证据基础框架内，我们的分析强调了AlphaFold与实验整合的实际影响和剩余挑战，并指出了需要进一步方法创新和正交验证的优先事项。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41326937/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41326937/",
+  "paper_page_path": "papers/pubmed/41326937/index.html"
+}

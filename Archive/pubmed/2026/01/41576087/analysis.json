@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41576087",
+  "title": "Droplet growth, Ostwald's rule, and emergence of order in Fused in Sarcoma.",
+  "authors": "Maksudov, Farkhad; Mugnai, Mauro L; Dominguez, Laura; Makarov, Dmitrii E; Thirumalai, D",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2026-01-23",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合粗粒化模拟与AlphaFold预测，系统揭示了FUS-LC无序区域相分离液滴成熟为有序纤维的机制，涵盖成核、粗化及Ostwald规则，并强调方法可迁移至TDP-43等IDP，高度契合无序蛋白互作与机制建模主题。",
+  "abstract": "The low-complexity domain of Fused in Sarcoma (FUS-LC) undergoes phase separation, forming a dense, liquid-like phase that gradually matures into an ordered, gel-like state over long-time scales. During the maturation process, specific regions of the FUS-LC sequence-core-1, core-2, and core-3-become structured, giving rise to nonpolymorphic fibrils. Coarse-grained simulations predict that kinetically the least stable fibril-like core-3 forms first while the most stable core-1 appears last, in accord with Ostwald's rule of stages. The fibril structure of the C-terminal core-3, predicted using AlphaFold, shows that a [Formula: see text]-strand appears in this region early during droplet formation and triggers FUS-LC assembly. Multichain simulations, which ensure the equality of the chemical potentials between the phases, show that the dense phase forms through nucleation and coarsening, resembling Ostwald ripening. The approaches developed here are broadly applicable and could help uncover assembly mechanisms in other intrinsically disordered proteins like TDP-43, which shares key features with FUS-LC.",
+  "abstract_zh": "Fused in Sarcoma（FUS-LC）的低复杂度结构域经历相分离（phase separation），形成致密、液态样相，并在长时间尺度上逐渐成熟为有序的凝胶样状态。在成熟过程中，FUS-LC序列的特定区域——core-1、core-2和core-3——变得结构化，产生非多态性纤维。粗粒化模拟预测，动力学上最不稳定的纤维样core-3首先形成，而最稳定的core-1最后出现，这与Ostwald阶段规则一致。使用AlphaFold预测的C端core-3纤维结构显示，在液滴形成早期，该区域出现一个[Formula: see text]-链，并触发FUS-LC组装。多链模拟确保各相之间化学势相等，表明致密相通过成核和粗化形成，类似于Ostwald熟化。这里开发的方法具有广泛适用性，可能有助于揭示其他内在无序蛋白（如TDP-43）的组装机制，这些蛋白与FUS-LC共享关键特征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41576087/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41576087/",
+  "paper_page_path": "papers/pubmed/41576087/index.html"
+}

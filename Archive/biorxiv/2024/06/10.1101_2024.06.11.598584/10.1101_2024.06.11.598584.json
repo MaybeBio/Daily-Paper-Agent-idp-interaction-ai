@@ -1,0 +1,328 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.11.598584",
+  "title": "FoldToken2: Learning compact, invariant and generative protein structure language",
+  "doi": "10.1101/2024.06.11.598584",
+  "abstract": "The equivariant nature of 3D coordinates has posed long term challenges in protein structure representation learning, alignment, and generation. Can we create a compact and invariant language that equivalently represents protein structures? Towards this goal, we propose FoldToken2 to transfer equivariant structures into discrete tokens, while maintaining the recoverability of the original structures. From FoldToken1 to FoldToken2, we improve three key components: (1) invariant structure encoder, (2) vector-quantized compressor, and (3) equivariant structure decoder. We evaluate FoldToken2 on the protein structure reconstruction task and show that it outperforms previous FoldToken1 by 20% in TMScore and 81% in RMSD. FoldToken2 is likely the first method that works well for both single-chain and multi-chain protein structure quantization. We believe that FoldToken2 will inspire further improvement in protein structure representation, alignment, and generation tasks. Online example is available at Colab .",
+  "authors": [
+    "Zhangyang Gao",
+    "Cheng Tan",
+    "Stan Z. Li"
+  ],
+  "published_date": "2024-06-12",
+  "updated_date": "2024-06-13T00:10:14Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.11.598584",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.11.598584.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T21:43:34Z",
+        "timestamp": 1768513414723,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            12
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 25,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            13
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The equivariant nature of 3D coordinates has posed long term challenges in protein structure representation learning, alignment, and generation. Can we create a compact and invariant language that equivalently represents protein structures? Towards this goal, we propose FoldToken2 to transfer equivariant structures into discrete tokens, while maintaining the recoverability of the original structures. From FoldToken1 to FoldToken2, we improve three key components: (1) invariant structure encoder, (2) vector-quantized compressor, and (3) equivariant structure decoder. We evaluate FoldToken2 on the protein structure reconstruction task and show that it outperforms previous FoldToken1 by 20% in TMScore and 81% in RMSD. FoldToken2 is likely the first method that works well for both single-chain and multi-chain protein structure quantization. We believe that FoldToken2 will inspire further improvement in protein structure representation, alignment, and generation tasks. Online example is available at\n                  <jats:underline>Colab</jats:underline>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2024.06.11.598584",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            13
+          ]
+        ],
+        "date-time": "2024-06-13T00:10:14Z",
+        "timestamp": 1718237414000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "FoldToken2: Learning compact, invariant and generative protein structure language"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1026-6083",
+          "authenticated-orcid": false,
+          "given": "Zhangyang",
+          "family": "Gao",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Cheng",
+          "family": "Tan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Stan Z.",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.1",
+          "unstructured": "Josh Abramson , Jonas Adler , Jack Dunger , Richard Evans , Tim Green , Alexander Pritzel , Olaf Ronneberger , Lindsay Willmore , Andrew J Ballard , Joshua Bambrick , et al. Accurate structure prediction of biomolecular interactions with alphafold 3. Nature, pages 1–3, 2024."
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.2",
+          "unstructured": "Gustaf Ahdritz , Nazim Bouatta , Christina Floristean , Sachin Kadyan , Qinghui Xia , William Gerecke , Timothy J O’Donnell, Daniel Berenberg , Ian Fisk , Niccolò Zanichelli et al. Open-fold: Retraining alphafold2 yields new insights into its learning mechanisms and capacity for generalization. Nature Methods, pages 1–11, 2024."
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.4",
+          "first-page": "1877",
+          "article-title": "Language models are few-shot learners",
+          "volume": "33",
+          "year": "2020",
+          "journal-title": "Advances in neural information processing systems"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.add2187"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.6",
+          "article-title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+          "year": "2018",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.7",
+          "article-title": "An image is worth 16x16 words: Transformers for image recognition at scale",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.8",
+          "unstructured": "Hehe Fan , Zhangyang Wang , Yi Yang , and Mohan Kankanhalli . Continuous-discrete convolution for geometry-sequence modeling in proteins. In The Eleventh International Conference on Learning Representations, 2022."
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.9",
+          "article-title": "A graph is worth k words: Euclideanizing graph using pure transformer",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.10",
+          "unstructured": "Zhangyang Gao , Cheng Tan , Xingran Chen , Yijie Zhang , Jun Xia , Siyuan Li , and Stan Z Li . Kw-design: Pushing the limit of protein deign via knowledge refinement. In The Twelfth International Conference on Learning Representations, 2023."
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.11",
+          "unstructured": "Zhangyang Gao , Cheng Tan , and Stan Z Li . Pifold: Toward effective and efficient protein inverse folding. In The Eleventh International Conference on Learning Representations, 2022."
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.12",
+          "article-title": "Vqpl: Vector quantized protein language",
+          "year": "2023",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.13",
+          "article-title": "Foldtoken: Learning protein language via vector quantization and beyond",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.14",
+          "unstructured": "Zhangyang Gao , Cheng Tan , Yijie Zhang , Xingran Chen , Lirong Wu , and Stan Z Li . Proteinin-vbench: Benchmarking protein inverse folding on diverse tasks, models, and metrics. Advances in Neural Information Processing Systems, 36, 2024."
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.15",
+          "article-title": "Uniif: Unified molecule inverse folding",
+          "year": "2024",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "7989",
+          "key": "2024061709250417000_2024.06.11.598584v3.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1070",
+          "DOI": "10.1038/s41586-023-06728-8",
+          "article-title": "Illuminating protein space with a programmable generative model",
+          "volume": "623",
+          "year": "2023",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.17",
+          "unstructured": "Bowen Jing , Stephan Eismann , Patricia Suriana , Raphael John Lamarre Townshend , and Ron Dror . Learning from protein structure with geometric vector perceptrons. In International Conference on Learning Representations, 2020."
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.20",
+          "article-title": "Flow straight and fast: Learning to generate and transfer data with rectified flow",
+          "year": "2022",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Robin Rombach , Andreas Blattmann , Dominik Lorenz , Patrick Esser , and Björn Ommer . High-resolution image synthesis with latent diffusion models. In Proceedings of the IEEE/CVF conference on computer vision and pattern recognition, pages 10684–10695, 2022.",
+          "DOI": "10.1109/CVPR52688.2022.01042"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.22",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cheng Tan , Zhangyang Gao , Lirong Wu , Jun Xia , Jiangbin Zheng , Xihong Yang , Yue Liu , Bozhen Hu , and Stan Z Li . Cross-gate mlp with protein complex invariant embedding is a one-shot antibody designer. In Proceedings of the AAAI Conference on Artificial Intelligence, volume 38, pages 15222–15230, 2024.",
+          "DOI": "10.1609/aaai.v38i14.29445"
+        },
+        {
+          "issue": "2",
+          "key": "2024061709250417000_2024.06.11.598584v3.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "243",
+          "DOI": "10.1038/s41587-023-01773-0",
+          "article-title": "Fast and accurate protein structure search with foldseek",
+          "volume": "42",
+          "year": "2024",
+          "journal-title": "Nature biotechnology"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.24",
+          "article-title": "Helixfold: An efficient implementation of alphafold2 using paddlepaddle",
+          "year": "2022",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024061709250417000_2024.06.11.598584v3.25",
+          "article-title": "Protein representation learning by geometric structure pretraining",
+          "year": "2022",
+          "journal-title": "arXiv preprint"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.06.11.598584",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:32:45Z",
+        "timestamp": 1768458765000
+      },
+      "score": 59.578415,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.06.11.598584"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            12
+          ]
+        ]
+      },
+      "references-count": 25,
+      "URL": "https://doi.org/10.1101/2024.06.11.598584",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            6,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors propose that NPM1 self-assembly into large oligomers is mediated by weak, fuzzy interactions between the C-terminal domain and the acidic disordered region of neighboring pentamers, and that this "grappling hook" mechanism modulates NPM1's chaperone activity toward amyloid formation in vitro.
+- **Visible evidence base** Aggregation assays with Thioflavin T fluorescence, native mass spectrometry, cryo-EM density maps, AlphaFold structure predictions, and fluorescence spectroscopy. Supplementary figures referenced but not fully provided.
+- **Missing materials affecting confidence** Supplementary figures S1-S8, Table S1, full materials and methods, and experimental details for aggregation assays and native MS conditions are not provided. This limits independent verification of several key claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting hypothesis linking NPM1 self-assembly to chaperone activity through a proposed "grappling hook" mechanism. The combination of biophysical methods is appropriate and the data are generally consistent with the proposed model. However, several claims are not fully supported by the evidence presented, particularly regarding the mechanistic link between oligomerization state and chaperone function, and the physiological relevance of the findings. The study is technically sound in its core experiments but would benefit from additional controls and quantitative analyses to strengthen the conclusions.
+- **Who would be interested in the results, and why** Researchers studying nucleolar biology, protein self-assembly, liquid-liquid phase separation, molecular chaperones, and amyloid aggregation. The work may also interest those investigating the role of disordered proteins in cellular stress responses and the biophysical basis of membraneless organelle function.
+- **Major strengths** The study combines multiple orthogonal biophysical techniques (native MS, cryo-EM, AlphaFold, fluorescence) to address a biologically relevant question. The identification of a specific inter-domain interaction mediating NPM1 oligomerization is novel and provides a concrete molecular model. The use of a clinically relevant mutant (NPM1AML) adds translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for mechanistic claim
+  - **Claim pointer** The authors claim that "oligomerization of full-length NPM1 modulates its ability to retard amyloid formation in vitro" and that the "grappling hook" mechanism directly links self-assembly to chaperone activity.
+  - **Evidence pointer** Results section "Full-length NPM1 and its CTD display differential chaperone activity toward amyloid formation", Figures 1c-1f, S1a-S1b
+  - **Concern** The causal relationship between NPM1 oligomerization state and chaperone activity is not directly demonstrated. The authors show that full-length NPM1 delays Aβ42 fibrillation and that the isolated CTD has activity, but they do not show that disrupting the "grappling hook" interaction (e.g., via the NPM1ΔIDR mutant) alters chaperone activity. The NPM1ΔIDR construct is used for MS but not tested in aggregation assays.
+  - **Why it matters** Without a direct test of the proposed mechanism, the central claim that self-assembly modulates chaperone activity remains correlative. The model would be substantially strengthened by showing that a construct with altered oligomerization (e.g., NPM1ΔIDR) has different chaperone activity compared to full-length NPM1.
+  - **Resolution test** Perform aggregation assays with NPM1ΔIDR and compare its effect on Aβ42 fibrillation to full-length NPM1. If NPM1ΔIDR shows reduced or altered chaperone activity, this would directly support the proposed mechanism.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative analysis
+  - **Claim pointer** The authors state that NPM1 "delayed the half-time of fibrillation in a concentration-dependent manner" and that the CTD "resulted in a strong suppression of Thioflavin T fluorescence."
+  - **Evidence pointer** Results section "Full-length NPM1 and its CTD display differential chaperone activity toward amyloid formation", Figures 1c, 1f
+  - **Concern** The aggregation data are presented qualitatively. No kinetic parameters (e.g., lag time, apparent rate constants) or statistical analyses are provided. The claim of concentration dependence is not supported by quantitative data or statistical tests.
+  - **Why it matters** Quantitative analysis is essential to establish the dose-response relationship and to compare the effects of different NPM1 constructs. Without statistics, it is unclear whether the observed differences are significant or reproducible.
+  - **Resolution test** Provide kinetic fits of ThT fluorescence curves, calculate half-times with error bars from at least three independent replicates, and perform appropriate statistical tests (e.g., ANOVA) to compare conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors propose that cryo-EM density and AlphaFold predictions reveal "fuzzy interactions between the acidic disordered region and the C-terminal nucleotide-binding domain, which cross-link NPM1 pentamers into partially disordered oligomers."
+  - **Evidence pointer** Results section "NPM1 pentamers connect via their CTDs", Figures 3b-3e, S3-S5, Table S1
+  - **Concern** The cryo-EM map is only resolved for the N-terminal domain at 2.6 Å. The proposed CTD-IDR interaction is inferred from unassigned density and AlphaFold predictions, but no direct structural evidence for the "grappling hook" interaction is presented. The AlphaFold predictions are not experimentally validated.
+  - **Why it matters** The central structural model relies on indirect evidence. Without direct observation of the CTD-IDR interaction (e.g., via cross-linking mass spectrometry or mutagenesis), the proposed mechanism remains speculative.
+  - **Resolution test** Provide additional experimental evidence for the CTD-IDR interaction, such as cross-linking MS, mutagenesis of key residues predicted by AlphaFold, or a higher-resolution cryo-EM reconstruction that resolves the CTD.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance
+  - **Claim pointer** The authors suggest that "nucleolar proteins and RNAs simultaneously modulate the association strength and chaperone activity, suggesting a mechanism by which nucleolar composition regulates the chaperone activity of NPM1."
+  - **Evidence pointer** Discussion section, Figure 4d
+  - **Concern** The physiological relevance of the findings is speculative. The experiments use Aβ42, which the authors acknowledge is not a confirmed physiological target of NPM1. The link between in vitro oligomerization and in vivo nucleolar function is not established.
+  - **Why it matters** The broader significance of the work depends on the relevance of the proposed mechanism to cellular function. Without evidence that the "grappling hook" interaction occurs in cells or affects NPM1's known functions, the impact of the study is limited.
+  - **Resolution test** Provide evidence that the CTD-IDR interaction is relevant in a cellular context, e.g., by showing that mutations disrupting this interaction affect NPM1 localization, phase separation, or chaperone function in cells.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that NPM1 "uses a 'grappling hook' mechanism to form a network-like structure that traps aggregation-prone proteins." This is a strong claim that is not fully supported by the data, as the trapping mechanism is not directly demonstrated.
+  - **Required correction** Soften the language to reflect that this is a proposed model, e.g., "suggesting a 'grappling hook' mechanism."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Full-length NPM1 and its CTD display differential chaperone activity toward amyloid formation"
+  - **Evidence pointer** Figure 1e, location not provided
+  - **Issue** The text states that "full-length NPM1 affects Aβ42 aggregation in a dose-dependent manner," but the dose range tested is not specified in the main text.
+  - **Required correction** Specify the concentration range of NPM1 used in the aggregation assays.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Results section "NPM1 pentamers connect via their CTDs"
+  - **Evidence pointer** Figure 3a, location not provided
+  - **Issue** The fluorescence quenching experiments use tryptophan fluorescence, but the excitation and emission wavelengths are not provided in the main text.
+  - **Required correction** Include the experimental parameters for fluorescence spectroscopy.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "NPM1 pentamers connect via their CTDs"
+  - **Evidence pointer** Figure 3f, location not provided
+  - **Issue** The NPM1ΔIDR construct is described as preventing higher oligomerization, but the authors do not discuss whether this construct retains the ability to bind nucleotides or other ligands.
+  - **Required correction** Briefly discuss the functional properties of NPM1ΔIDR beyond oligomerization.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The discussion mentions "polyanions, polycations, and molecular crowders" as modulators of NPM1 assembly, but these are not experimentally tested in the current study.
+  - **Required correction** Clarify that these are suggestions for future work, not findings of the current study.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative aggregation data (R1-M2) and the absence of a direct test of the proposed mechanism using the NPM1ΔIDR construct in functional assays (R1-M1) are the most significant technical gaps. The structural model would also benefit from experimental validation of the CTD-IDR interaction (R1-M3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The proposed "grappling hook" mechanism is a novel conceptual framework for linking NPM1 self-assembly to chaperone function. The combination of methods is creative, though the individual techniques are well-established.
+  - **Scientific importance** The work addresses a fundamental question about how disordered proteins assemble into functional structures and how this relates to chaperone activity. The potential link to nucleolar stress responses and disease is of broad interest.
+  - **Interdisciplinary readership** The study bridges structural biology, biophysics, and cell biology, and would appeal to researchers in these fields. The use of multiple techniques makes it accessible to a broad audience.
+  - **Technical soundness** The core experiments are technically sound, but the lack of quantitative analysis and direct mechanistic tests weakens the overall case. The cryo-EM and MS data are of good quality, but the interpretation of the "grappling hook" interaction is not fully supported.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, though some sections (e.g., the AlphaFold predictions) may be challenging for non-experts. The abstract and introduction effectively frame the problem.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the data are suggestive, but the current evidence does not fully establish the proposed mechanism. Addressing the major concerns, particularly the direct test of the "grappling hook" model and quantitative analysis of the aggregation data, would substantially strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that the "grappling hook" interaction directly links self-assembly to chaperone activity is not directly tested and remains a hypothesis.
+- The physiological relevance of the findings to nucleolar function is speculative and not supported by cellular experiments.
+- The statement that NPM1 "traps" aggregation-prone proteins is not directly demonstrated.
+- The claim that nucleolar composition regulates NPM1 chaperone activity is inferred but not experimentally tested.
+- The AlphaFold predictions of the CTD-IDR interaction are not experimentally validated.

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The authors present a "Virtual-QCM" (VQCM) framework that couples a spectral hydrodynamic solver with coarse-grained viscoelastic protein models to enable quantitative interpretation of quartz crystal microbalance (QCM) data. They report quantitative agreement with experiments on the bacterial proteins FtsZ and ZipA, from which they extract binding affinities, intrinsically disordered region (IDR) extension, stiffness, and friction, and they report intrinsic relaxation times of 3–30 ns consistent with FRET analyses.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or numerical data are available for inspection
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, experimental protocols, simulation parameters, error analysis, and any statistical or uncertainty quantification
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable computational framework aimed at resolving a long-standing bottleneck in QCM-based biomolecular analysis. The combination of a spectral hydrodynamic solver with coarse-grained viscoelastic models is conceptually appealing, and the reported speed-up of approximately 10^4 is striking. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the method, the validity of the coarse-graining procedure, or the robustness of the reported quantitative matches. The central claims of predictive accuracy and biological insight rest on comparisons that are described only qualitatively. The work is likely to interest the biophysics and soft-matter communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biophysics, surface science, and soft-matter physics who use QCM or related acoustic sensors for biomolecular characterization. The framework could also appeal to computational groups working on multiscale hydrodynamics and to experimentalists studying intrinsically disordered proteins and membrane-tethered systems, as the method promises access to microscopic parameters from standard laboratory measurements.
+- **Major strengths** The abstract identifies a genuine and well-recognized limitation in QCM interpretation, namely the convolution of viscoelastic and hydrodynamic effects. The proposed solution, using a spectral solver with open boundaries and a speed-up of approximately 10^4, addresses a real computational bottleneck. The integration of coarse-grained viscoelastic networks with a hydrodynamic solver is a sensible multiscale strategy. The reported consistency of extracted relaxation times with FRET data provides a plausible cross-validation anchor.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The VQCM framework "allows us to predict the physicochemical properties of FtsZ and ZipA" with "quantitative match with experiments at all coverages."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states a quantitative match with experiments but provides no numerical data, no definition of "quantitative," no error bars, and no description of the fitting procedure or the number of free parameters. Without this information, the claim of predictive accuracy cannot be assessed.  
+  - **Why it matters** A quantitative match can be trivial if the model has sufficient adjustable parameters. The credibility of the extracted biophysical quantities (binding affinity, stiffness, friction) depends entirely on the identifiability of these parameters from the QCM response.  
+  - **Resolution test** Provide a figure showing experimental versus simulated QCM responses (e.g., frequency and dissipation shifts) across the full coverage range, with error bars and a clear statement of the fitting procedure, including the number of free parameters and any regularization or cross-validation used.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "Biomolecules are modeled as viscoelastic networks connected to the atomistic level via coarse-graining theory."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The coarse-graining procedure is not described. It is unclear how atomistic information is mapped to the viscoelastic network parameters (e.g., spring constants, friction coefficients, network topology), and whether this mapping is system-specific or transferable.  
+  - **Why it matters** The physical meaning of the extracted parameters (l, k, xi) depends on the fidelity of the coarse-grained model. If the mapping is ad hoc or under-constrained, the reported values may be artifacts of the model rather than genuine molecular properties.  
+  - **Resolution test** Describe the coarse-graining method in detail, including the atomistic simulations or theory used to parameterize the network, and show that the model reproduces known properties of the proteins in isolation before coupling to hydrodynamics.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** "The fluid solver ... is spectral in time and space and implements open boundaries focusing on the relevant fluid layer around proteins with approximately 10^4 speed-up."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The speed-up claim is presented without context. It is unclear what baseline this speed-up is measured against, what system sizes are involved, and whether the speed-up holds for the full coupled protein-fluid problem or only for the fluid solver in isolation.  
+  - **Why it matters** The practical utility of the VQCM framework depends on its computational cost relative to existing methods. An unqualified speed-up claim is not interpretable and could mislead potential users.  
+  - **Resolution test** Provide a benchmark table comparing the VQCM solver against a standard method (e.g., finite-volume or lattice-Boltzmann) for a representative protein-QCM system, including wall-clock time, memory usage, and accuracy metrics.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence strength  
+  - **Claim pointer** "Measured intrinsic relaxation times xi/k approximately [3-30] ns are consistent with FRET analyses."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The comparison to FRET data is stated without citation, without specifying which FRET measurements are used, and without quantifying the degree of consistency. The range 3–30 ns spans an order of magnitude, which weakens the claim of validation.  
+  - **Why it matters** Cross-validation against an independent experimental technique is a key strength of the work, but only if the comparison is rigorous and the uncertainty in both measurements is properly propagated.  
+  - **Resolution test** Provide a direct comparison plot of relaxation times from VQCM and from FRET for the same proteins and conditions, with error bars and a statistical test of agreement.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** "We find the polypeptide chains to be extremely sensitive to the buffer ionic strength, with protein friction affected by Mg+2."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The ionic-strength dependence is reported as a qualitative finding, but no data are shown, and the mechanism by which Mg+2 affects friction is not discussed.  
+  - **Why it matters** This is a potentially interesting biophysical result, but without quantitative data and a proposed mechanism, it remains an observation rather than a finding.  
+  - **Resolution test** Provide a figure showing extracted friction (or relaxation time) as a function of ionic strength and Mg+2 concentration, with a discussion of the possible electrostatic or conformational origins of the effect.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "encrypted by a complicated interaction" is vague and could be replaced with a more precise description of the convolution of viscoelastic and hydrodynamic effects.  
+  - **Required correction** Rephrase to state explicitly that QCM signals reflect a convolution of the protein's viscoelastic response with hydrodynamic coupling to the oscillating surface.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state the range of protein surface coverages studied, nor the range of QCM frequencies used.  
+  - **Required correction** Add a sentence specifying the coverage range and the QCM frequency or frequency range employed.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not mention whether the VQCM framework is publicly available or whether the code can be obtained from the authors.  
+  - **Required correction** Add a data and code availability statement in the manuscript, and mention it in the abstract if space permits.
+
+## Risk / unsupported claims
+- The claim of "quantitative match with experiments at all coverages" is unsupported in the abstract because no numerical comparisons, error metrics, or fitting details are provided.
+- The claim that extracted relaxation times are "consistent with FRET analyses" is unsupported because no FRET data, citations, or statistical comparison are given.
+- The claim of "approximately 10^4 speed-up" is unverifiable without a defined baseline and benchmark details.
+- The claim that the framework "can be upgraded to a high-precision quantitative tool" is an extrapolation that cannot be evaluated from the abstract alone.
+- The ionic-strength and Mg+2 sensitivity findings are reported without quantitative data or mechanistic discussion, making them unassessable.

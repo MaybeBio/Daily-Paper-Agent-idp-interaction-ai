@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors describe two web servers, SolupHred and DispHred, for predicting pH-dependent aggregation and conditional disorder in intrinsically disordered proteins (IDPs), and state that these methods successfully recapitulate available bibliographic data.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or validation data provided
+- **Missing materials affecting confidence** Full manuscript, method descriptions, validation datasets, web server URLs, performance metrics, and comparison with existing tools
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually useful contribution to the field of IDP bioinformatics by addressing pH as a largely neglected environmental factor. However, the evidence base is limited to a brief summary of prior work, with no quantitative validation, methodological detail, or comparison to existing predictors. The claims of "remarkable success" and "first dedicated software" cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying IDP conformational behavior, protein aggregation in disease contexts, and developers of biophysical prediction tools would find these servers relevant. The pH-dependent aspect is particularly valuable for those investigating cellular microenvironments or industrial protein formulations.
+- **Major strengths** The conceptual focus on pH as a modulator of IDP behavior addresses a genuine gap in current prediction platforms. The provision of user-friendly web servers is a practical contribution that lowers the barrier for experimentalists.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that their approaches "showed remarkable success in recapitulating the available bibliographical data."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative results, benchmark datasets, or statistical measures are presented to support the claim of "remarkable success." The abstract does not specify which bibliographic data were used, how success was measured, or how the methods compare with existing predictors.
+  - **Why it matters** Without validation metrics, readers cannot judge whether the tools are reliable for practical use. The claim of "remarkable success" is a strong assertion that requires transparent evidence.
+  - **Resolution test** Provide performance metrics (e.g., accuracy, AUC, correlation coefficients) on defined benchmark datasets, and describe the criteria for "success" in the full manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty substantiation
+  - **Claim pointer** The authors state that SolupHred is "the first dedicated software to predict pH-dependent aggregation" and DispHred is "the first pH-dependent predictor of protein disorder."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of being "first" requires a systematic literature search to demonstrate that no prior tools exist. The abstract provides no comparison with or citation of existing pH-sensitive predictors or general aggregation/disorder tools that might already incorporate pH effects.
+  - **Why it matters** Novelty claims are central to the contribution's significance. If prior tools exist, the "first" designation is inaccurate and misleads readers.
+  - **Resolution test** Include a literature review in the full manuscript that documents the absence of prior pH-dependent predictors, and discuss any related tools explicitly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract describes the methods as "user-friendly web servers" and states that the chapter will "dissect the features of these two software applications."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is given on the underlying algorithms, input requirements, output formats, or accessibility (e.g., URLs, licensing). The abstract does not clarify whether the methods are based on the authors' prior work, and if so, which specific models are used.
+  - **Why it matters** Reproducibility and usability are essential for a methods-oriented chapter. Without algorithmic details or access information, readers cannot apply the tools or verify the claims.
+  - **Resolution test** In the full manuscript, provide a clear description of the algorithms, input/output specifications, and web server URLs, along with usage examples.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Proteins microenvironments modulate their structures" is grammatically awkward and could be misread as "protein microenvironments" rather than "protein microenvironments."
+  - **Required correction** Revise to "Protein microenvironments modulate their structures" or "The microenvironment of proteins modulates their structures."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope definition
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract states the chapter will "dissect the features" of the two tools, but it is unclear whether this includes tutorials, case studies, or performance benchmarks. The scope is vague.
+  - **Required correction** Specify the chapter's content, such as step-by-step usage protocols, example predictions, and validation summaries.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Citation practice
+  - **Affected element** Abstract references
+  - **Evidence pointer** Abstract, "In a recent work"
+  - **Issue** The abstract refers to "a recent work" without providing a citation or identifying the specific publication. This makes it difficult for readers to locate the foundational methods.
+  - **Required correction** Add a citation to the prior work or describe it more explicitly in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of success and novelty are not supported by the supplied evidence. R1-M3 is non-blocking but essential for practical utility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The pH-focused approach is conceptually original, but the "first" claims require verification.
+  - Scientific importance: The topic is relevant to IDP biology and aggregation research, but the significance is not quantified in the abstract.
+  - Interdisciplinary readership: The work bridges computational biology and experimental biophysics, which could attract a broad audience, but the abstract does not articulate this appeal.
+  - Technical soundness: Cannot be assessed from the abstract; no methodological or validation details are provided.
+  - Readability for nonspecialists: The abstract is generally accessible, but the grammatical issue and vague scope reduce clarity.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual premise is promising, but the abstract alone does not substantiate the claims of success and novelty. A full manuscript with validation data and methodological transparency is required for a supportive assessment.
+
+## Risk / unsupported claims
+- "Remarkable success in recapitulating the available bibliographical data" is unsupported without quantitative evidence.
+- "First dedicated software" and "first pH-dependent predictor" are unverifiable from the abstract and require a literature survey.
+- The implied utility of the web servers for "training and assisting scientists" is plausible but not demonstrated with examples or user feedback.

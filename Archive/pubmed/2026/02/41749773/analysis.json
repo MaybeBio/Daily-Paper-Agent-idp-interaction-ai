@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41749773",
+  "title": "Parametric Finite Element Evaluation of Load Redistribution Under Progressive Lumbar Disc Degeneration.",
+  "authors": "Ardatov, Oleg; Fernandes, Sofia Rita; Kilikevicius, Arturas; Alekna, Vidmantas",
+  "journal": "Bioengineering (Basel, Switzerland)",
+  "published_date": "2026-02-27",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 1,
+  "one_liner_zh": "该研究用有限元方法模拟腰椎间盘退变中的载荷再分布，对象为椎间盘组织而非无序蛋白/IDR，且无PPI或AI/物理模拟的互作机制建模，与本课题无关。",
+  "abstract": "This study presents a finite element (FE) investigation of intervertebral disc (IVD) degeneration in the human lumbar spine (L1-L3 segment). The model, based on CT-derived geometry and isotropic hyperelastic representation of disc tissues, incorporates controlled simplifications, detailed in the limitations section. Degenerative changes were parametrically simulated across healthy, mild, moderate, and severe stages by reducing disc height (up to 60%), nucleus pulposus volume (up to 70%), and adjusting tissue stiffness to reflect dehydration and fibrosis. Displacement-controlled compressive loading was applied to assess von Mises stress distributions, reaction forces, and load transfer mechanisms. Results indicate significant load redistribution: annulus fibrosus stresses increased by up to 175% in severe degeneration, while nucleus pulposus stresses decreased by ~70%, indicating a diminished compressive load-bearing contribution of the nucleus. Model predictions were validated against cadaveric and in vivo data, confirming trends in intradiscal pressure (IDP) reductions (40-70%) and stress elevations. The parametric framework elucidates interactions between geometric and material changes, providing clinicians with insights into degeneration progression and guiding biomedical engineers in implant design and interventions.",
+  "abstract_zh": "本研究针对人体腰椎（L1-L3节段）的椎间盘（IVD）退变进行了有限元（FE）研究。该模型基于CT-derived几何结构及椎间盘组织的各向同性超弹性表征，并纳入了受控简化，详见局限性部分。退变变化通过参数化模拟，涵盖健康、轻度、中度和重度阶段，通过降低椎间盘高度（最高达60%）、髓核体积（最高达70%）以及调整组织刚度以反映脱水和纤维化。采用位移控制的压缩载荷来评估von Mises应力分布、反作用力和载荷传递机制。结果表明显著的载荷再分配：在重度退变中，纤维环应力增加最高达175%，而髓核应力减少约70%，表明髓核的压缩承载贡献减弱。模型预测与尸体及体内数据进行了验证，确认了椎间盘内压（IDP）降低（40-70%）和应力升高的趋势。该参数化框架阐明了几何与材料变化之间的相互作用，为临床医生提供了退变进展的见解，并指导生物医学工程师进行植入物设计和干预。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41749773/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41749773/",
+  "paper_page_path": "papers/pubmed/41749773/index.html"
+}

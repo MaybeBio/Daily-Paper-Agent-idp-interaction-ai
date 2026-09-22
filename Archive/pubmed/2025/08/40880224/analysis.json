@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40880224",
+  "title": "Beyond Electrostatic Interactions: H-Bond Dynamics in Arginine- versus Lysine-Rich Biocondensates.",
+  "authors": "Lorenz-Ochoa, Keegan A; Lee, Euihyun; Baiz, Carlos R",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2025-08-29",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合2D IR与MD模拟，比较Arg/Lys富集凝聚体中的氢键与静电相互作用及水化动力学差异，虽聚焦凝聚体内部环境而非特定PPI界面，但为无序蛋白介导的相分离机制建模提供了可迁移的物理模拟思路。",
+  "abstract": "Eukaryotic cells can achieve spatiotemporal control over biological processes through biomolecular condensate assemblies. Biocondensates form a complex network driven by electrostatic interactions, with residues such as Arginine (Arg) and Lysine (Lys) contributing to these interactions. Both Arg and Lys have the same formal charge, but the different structures produce different complexation behavior. How these two distinct residues can produce different physical condensate properties is poorly understood. Using two-dimensional infrared spectroscopy (2D IR) in concert with molecular dynamics (MD) simulations on model condensates of either poly-Arg or poly-Lys, we demonstrate that Arg-based condensates show significantly slower hydration dynamics. We rationalize the differences observed in dynamics by characterizing structures and local interactions. Simulations show that poly-Arg forms a more compact and dense structure compared to poly-Lys-based condensates. These results highlight the role of strong electrostatic and H-bonding interactions in determining the local condensate environment.",
+  "abstract_zh": "真核细胞能够通过生物分子凝聚体（biomolecular condensate） assemblies 实现对生物过程的时空控制。生物凝聚体由静电相互作用驱动形成复杂网络，其中精氨酸（Arginine, Arg）和赖氨酸（Lysine, Lys）等残基参与这些相互作用。Arg 和 Lys 具有相同的正式电荷，但不同的结构导致不同的络合行为。这两种不同残基如何产生不同的物理凝聚体性质，目前尚不清楚。利用二维红外光谱（two-dimensional infrared spectroscopy, 2D IR）结合分子动力学（molecular dynamics, MD）模拟，对 poly-Arg 或 poly-Lys 的模型凝聚体进行研究，我们证明基于 Arg 的凝聚体表现出显著较慢的水合动力学。我们通过表征结构和局部相互作用，合理化了观察到的动力学差异。模拟显示，与基于 poly-Lys 的凝聚体相比，poly-Arg 形成更紧凑和致密的结构。这些结果强调了强静电和氢键相互作用在决定局部凝聚体环境中的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40880224/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40880224/",
+  "paper_page_path": "papers/pubmed/40880224/index.html"
+}

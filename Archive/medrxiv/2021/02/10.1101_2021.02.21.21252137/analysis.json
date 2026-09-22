@@ -1,0 +1,24 @@
+{
+  "source": "medrxiv",
+  "id": "10.1101/2021.02.21.21252137",
+  "title": "Dominant Clade-featured SARS-CoV-2 Co-occurring Mutations Reveals Plausible Epistasis: An in silico based Hypothetical Model",
+  "authors": "Alam ASMRU; Islam OK; Hasan MS; Islam MR; Mahmud S; Al□Emran HM; Jahid IK; Crandall KA; Hossain MA",
+  "journal": "medRxiv",
+  "published_date": "2021-02-23",
+  "window": {
+    "start": "2021-02-22",
+    "end": "2021-02-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用分子对接和动力学模拟分析SARS-CoV-2突变株的共现突变对病毒适应性的上位效应，虽涉及蛋白互作和物理模拟，但对象为病毒蛋白而非无序蛋白/IDR，且未涉及相分离或无序介导的PPI机制，可迁移性有限。",
+  "abstract": "<h4>ABSTRACT</h4> SARS-CoV-2 is evolved into eight fundamental clades where four (G, GH, GR, and GV) are globally prevalent in 2020. How the featured co-occurring mutations of these clades are linked with viral fitness is the main question here and we thus proposed a hypothetical model using in silico approach to explain the plausible epistatic effects of those mutations on viral replication and transmission. Molecular docking and dynamics analyses showed the higher infectiousness of a spike mutant through more favorable binding of G 614 with the elastase-2. RdRp mutation p.P323L significantly increased genome-wide mutations (p<0.0001) since more flexible RdRp (mutated)-NSP8 interaction may accelerate replication. Superior RNA stability and structural variation at NSP3:C241T might impact protein and/or RNA interactions. Another silent 5’UTR:C241T mutation might affect translational efficiency and viral packaging. These four G-clade-featured co-occurring mutations might increase viral replication. Sentinel GH-clade ORF3a:p.Q57H constricted ion-channel through inter-transmembrane-domain interaction of cysteine(C81)-histidine(H57) and GR-clade N:p.RG203-204KR would stabilize RNA interaction by a more flexible and hypo-phosphorylated SR-rich region. GV-clade viruses seemingly gained the evolutionary advantage of the confounding factors; nevertheless, N:p.A220V might modulate RNA binding with no phenotypic effect. Our hypothetical model needs further retrospective and prospective studies to understand detailed molecular events featuring the fitness of SARS-CoV-2.",
+  "abstract_zh": "<h4>摘要</h4> SARS-CoV-2已演化为八个基本进化支，其中四个（G、GH、GR和GV）在2020年全球范围内普遍流行。这些进化支特有的共现突变如何与病毒适应性相关联，是本研究的主要问题，因此我们提出一个假设模型，采用计算机模拟方法（in silico）来解释这些突变对病毒复制和传播可能产生的上位效应。分子对接和动力学分析显示，通过G 614与弹性蛋白酶-2（elastase-2）更有利的结合，一种刺突蛋白突变体具有更高的传染性。RdRp突变p.P323L显著增加了全基因组突变率（p<0.0001），因为更灵活的RdRp（突变体）-NSP8相互作用可能加速复制。NSP3:C241T处优越的RNA稳定性和结构变异可能影响蛋白质和/或RNA相互作用。另一个沉默突变5'UTR:C241T可能影响翻译效率和病毒包装。这四个G进化支特有的共现突变可能增强病毒复制。哨兵GH进化支ORF3a:p.Q57H通过跨跨膜结构域间的半胱氨酸（C81）-组氨酸（H57）相互作用收缩离子通道，而GR进化支N:p.RG203-204KR通过更灵活且低磷酸化的SR富集区域稳定RNA相互作用。GV进化支病毒似乎在混杂因素中获得了进化优势；然而，N:p.A220V可能调节RNA结合但无表型效应。我们的假设模型需要进一步的回顾性和前瞻性研究，以理解SARS-CoV-2适应性的详细分子事件。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.medrxiv.org/content/10.1101/2021.02.21.21252137",
+  "source_url": "https://www.medrxiv.org/content/10.1101/2021.02.21.21252137",
+  "paper_page_path": "papers/medrxiv/10.1101_2021.02.21.21252137/index.html"
+}

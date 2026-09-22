@@ -1,0 +1,282 @@
+{
+  "identity": {
+    "pmid": "33792323",
+    "doi": "10.1021/acs.jpcb.1c00313",
+    "title": "Potential of ATP toward Prevention of hIAPP Oligomerization and Destabilization of hIAPP Protofibrils: An In Silico Perspective."
+  },
+  "content": {
+    "abstract": "The aggregation of an intrinsically disordered protein, human islet amyloid polypeptide (hIAPP), leads to one of the most prevalent endocrine disorders, type II diabetes mellitus (T2DM). Hence inhibition of hIAPP aggregation provides a possible therapeutic approach for the treatment of T2DM. In this regard, a new aspect of adenosine triphosphate (ATP), which is widely known as the energy source for biological reactions, has recently been discovered, where it can inhibit the formation of protein aggregates and simultaneously dissolve preformed aggregates at a millimolar concentration scale. In this work, we investigate the effect of ATP on the aggregation of an amyloidogenic segment of hIAPP, hIAPP(22-28), and also of the full length sequence. Using all-atom classical molecular dynamics simulations, we observe that the tendency of hIAPP to oligomerize into beta-sheet conformers is inhibited by ATP, due to which the peptides remain distant, loosely packed random monomers. Moreover, it can also disassemble preformed hIAPP protofibrils. ATP preferentially interacts with the hydrophobic residues of hIAPP(22-28) fragment and the terminal and turn residues of the full length peptide. The hydrogen bonding, hydrophobic, pi-pi, and N-H-pi stacking interactions are the driving forces for the ATP induced inhibition of hIAPP aggregation. Interestingly, the hydrophobic adenosine of ATP is found to be more in contact with the peptide residues than the hydrophilic triphosphate moiety. The insight into the inhibitory mechanism of ATP on hIAPP aggregation can prove to be beneficial for the design of novel amyloid inhibitors in the future.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adenosine Triphosphate",
+      "Amyloid",
+      "*Diabetes Mellitus, Type 2",
+      "Humans",
+      "*Islet Amyloid Polypeptide",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Roy, Rituparna",
+        "Paul, Sandip"
+      ],
+      "short_names": [
+        "Roy R",
+        "Paul S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9693-2915"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Indian Institute of Technology, Guwahati, Assam, India 781039.",
+        "Department of Chemistry, Indian Institute of Technology, Guwahati, Assam, India 781039."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Roy, Rituparna",
+        "short_name": "Roy R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Technology, Guwahati, Assam, India 781039."
+        ]
+      },
+      {
+        "full_name": "Paul, Sandip",
+        "short_name": "Paul S",
+        "identifiers": [
+          "0000-0002-9693-2915"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Technology, Guwahati, Assam, India 781039."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2021 Apr 15",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/02 06:00",
+    "fetched_at": "2026-09-20 02:22:30"
+  },
+  "links": {
+    "cites": [
+      "35629965"
+    ],
+    "refs": [],
+    "similar": [
+      "33792323",
+      "35060728",
+      "33207866",
+      "31436406",
+      "36142176",
+      "23331123",
+      "29986579",
+      "26460729",
+      "28297133",
+      "28585804",
+      "24892388",
+      "36098068",
+      "30814273",
+      "28870071",
+      "38338914",
+      "30714593",
+      "30803034",
+      "31195047",
+      "29530482",
+      "35311274",
+      "35667301",
+      "29432676",
+      "21158384",
+      "24041993",
+      "31062393",
+      "32117877",
+      "38921060",
+      "27759128",
+      "33965498",
+      "30908844",
+      "36108345",
+      "32800950",
+      "30502402",
+      "32330570",
+      "37262327",
+      "27075579",
+      "33780229",
+      "26894887",
+      "34973981",
+      "28917147",
+      "33616398",
+      "35797238",
+      "31442763",
+      "31894470",
+      "26636105",
+      "37431688",
+      "37616499",
+      "34604227",
+      "26808649",
+      "27935715",
+      "31282646",
+      "27854243",
+      "38497314",
+      "27620620",
+      "26255739",
+      "21266296",
+      "28071890",
+      "26173078",
+      "32790383",
+      "25706385",
+      "24754490",
+      "31759017",
+      "25524740",
+      "29535385",
+      "36459988",
+      "25913357",
+      "31490518",
+      "25785896",
+      "22059381",
+      "31995712",
+      "31577904",
+      "35759245",
+      "35549098",
+      "36898349",
+      "24702784",
+      "37241931",
+      "32305815",
+      "26483547",
+      "29989407",
+      "31838129",
+      "38345763",
+      "34850985",
+      "36596222",
+      "33331666",
+      "19486677",
+      "21428404",
+      "25646717",
+      "10669788",
+      "33253743",
+      "37485551",
+      "26653463",
+      "23229921",
+      "32183067",
+      "24245879",
+      "31146152",
+      "30148596",
+      "29857172",
+      "26383119",
+      "27704849",
+      "32795580",
+      "21384830",
+      "27493030",
+      "30701360",
+      "25224501",
+      "29282295",
+      "26407043",
+      "28230965",
+      "30012886",
+      "14565847",
+      "33127549",
+      "32569693",
+      "30605312",
+      "20570648",
+      "12367525",
+      "28787568",
+      "29428499",
+      "23519103",
+      "37691445",
+      "36173231",
+      "35019603",
+      "36081187",
+      "35455074",
+      "34741991",
+      "35518630",
+      "35227705",
+      "33405360",
+      "37999364",
+      "39292611",
+      "36098073",
+      "36133854",
+      "36105173",
+      "35811869",
+      "32053776",
+      "35497581",
+      "34458787",
+      "34882862",
+      "32915536",
+      "39355983",
+      "33829608",
+      "37521785",
+      "34622264",
+      "34240882",
+      "32344165",
+      "37656203"
+    ],
+    "review": [
+      "33792323",
+      "29530482",
+      "27075579",
+      "26636105",
+      "25224501",
+      "35455074",
+      "36105173",
+      "33829608"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/diabetestype2.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Type 2"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33792323",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.1c00313",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

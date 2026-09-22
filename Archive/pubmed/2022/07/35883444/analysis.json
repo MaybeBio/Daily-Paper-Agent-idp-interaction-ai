@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35883444",
+  "title": "Compositional Bias of Intrinsically Disordered Proteins and Regions and Their Predictions.",
+  "authors": "Zhao, Bi; Kurgan, Lukasz",
+  "journal": "Biomolecules",
+  "published_date": "2022-07-28",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 5,
+  "one_liner_zh": "该文分析无序蛋白/IDR的组成偏好及其与预测准确性的关系，对象为IDP/IDR，但无PPI互作机制和AI/物理建模方法，仅涉及预测评估，故为中档。",
+  "abstract": "Intrinsically disordered regions (IDRs) carry out many cellular functions and vary in length and placement in protein sequences. This diversity leads to variations in the underlying compositional biases, which were demonstrated for the short vs. long IDRs. We analyze compositional biases across four classes of disorder: fully disordered proteins; short IDRs; long IDRs; and binding IDRs. We identify three distinct biases: for the fully disordered proteins, the short IDRs and the long and binding IDRs combined. We also investigate compositional bias for putative disorder produced by leading disorder predictors and find that it is similar to the bias of the native disorder. Interestingly, the accuracy of disorder predictions across different methods is correlated with the correctness of the compositional bias of their predictions highlighting the importance of the compositional bias. The predictive quality is relatively low for the disorder classes with compositional bias that is the most different from the \"generic\" disorder bias, while being much higher for the classes with the most similar bias. We discover that different predictors perform best across different classes of disorder. This suggests that no single predictor is universally best and motivates the development of new architectures that combine models that target specific disorder classes.",
+  "abstract_zh": "固有无序区域（IDRs）执行多种细胞功能，并在蛋白质序列中长度和位置各异。这种多样性导致其潜在组成偏倚的差异，这一点已在短IDRs与长IDRs之间得到证实。我们分析了四类无序状态的组成偏倚：完全无序蛋白质；短IDRs；长IDRs；以及结合型IDRs。我们识别出三种不同的偏倚：针对完全无序蛋白质、短IDRs，以及长IDRs和结合型IDRs合并后的偏倚。我们还研究了由领先无序预测器产生的推定无序的组成偏倚，发现其与天然无序的偏倚相似。有趣的是，不同方法对无序预测的准确性与预测结果组成偏倚的正确性相关，凸显了组成偏倚的重要性。对于组成偏倚与“通用”无序偏倚差异最大的无序类别，预测质量相对较低，而对于偏倚最相似的类别，预测质量则高得多。我们发现不同预测器在不同无序类别中表现最佳。这表明没有单一预测器普遍最优，并促使开发结合针对特定无序类别模型的新架构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35883444/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35883444/",
+  "paper_page_path": "papers/pubmed/35883444/index.html"
+}

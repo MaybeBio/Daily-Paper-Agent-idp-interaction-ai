@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41666260",
+  "title": "Mechanism of Ag(+)-Induced Folding of a Bacterial Peptide from Replica-Exchange Molecular Simulations.",
+  "authors": "Blanc, Florian E C; Hologne, Maggy; Girod, Marion; Demontrond, Melodie; Chermette, Henry; Walker, Olivier",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2026-02-10",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用副本交换分子模拟与深度学习研究无序蛋白SilE片段B1在Ag+诱导下的折叠机制，虽非典型PPI但聚焦IDP构象变化与金属结合机制，方法上AI+物理模拟结合，对无序蛋白互作机制建模有直接启发。",
+  "abstract": "Interactions between proteins and metal cations are central to biochemical processes and shape protein structures. SilE, an intrinsically disordered protein involved in bacterial silver resistance, folds into alpha-helices upon binding Ag(+) ions. Focusing on the B1 peptide fragment from SilE, we investigate the mechanism of Ag(+)-induced folding with atomistic simulations and experiments. Guided by Mass Spectrometry and NMR, we prepare a structural model of Ag(+)-bound B1, which we parametrize using DFT. Then, with replica-exchange simulations and deep learning, we map B1's folding landscape and how it is shaped by Ag(+). Specifically, Ag(+) binding promotes folding by lowering the entropy of the disordered state and stabilizing the folded state. We also describe how Ag(+) alters the folding pathways. Overall, we improve our understanding of metal-induced protein folding and lay the groundwork for further computational investigations of the bacterial silver-resistance machinery.",
+  "abstract_zh": "蛋白质与金属阳离子之间的相互作用是生化过程的核心，并塑造蛋白质结构。SilE是一种参与细菌银抗性的固有无序蛋白，在结合Ag(+)离子时会折叠成α-螺旋。聚焦于SilE的B1肽片段，我们通过原子模拟和实验研究Ag(+)诱导折叠的机制。在质谱和核磁共振的指导下，我们制备了Ag(+)结合B1的结构模型，并使用密度泛函理论（DFT）进行参数化。随后，利用副本交换模拟和深度学习，我们绘制了B1的折叠景观及其受Ag(+)影响的形态。具体而言，Ag(+)结合通过降低无序态的熵并稳定折叠态来促进折叠。我们还描述了Ag(+)如何改变折叠路径。总体而言，我们增进了对金属诱导蛋白质折叠的理解，并为细菌银抗性机制的进一步计算研究奠定了基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41666260/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41666260/",
+  "paper_page_path": "papers/pubmed/41666260/index.html"
+}

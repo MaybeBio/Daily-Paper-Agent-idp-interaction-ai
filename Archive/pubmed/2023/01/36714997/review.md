@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a deep mutational scanning (DMS) study of the intrinsically disordered protein CcdA displayed on yeast surface, inferring sequence-function relationships, predicting interface residues and local structural signatures of the bound conformation, and proposing that a single ligand concentration can yield quantitative relative binding constants for many variants. They further claim insights into the role of helicity and disorder in IDP binding and present a rudimentary predictive model for mutational effects on binding affinity of IDPs that form alpha-helical structures upon binding.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or model validation data provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary data, model parameters and validation, raw mutational scan data, and any comparison with titration-based approaches
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable application of deep mutational scanning to an intrinsically disordered protein, with an interesting methodological claim regarding single-concentration binding measurements. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the approach, the robustness of the energetic inferences, or the validity of the predictive model. The central claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in protein biophysics, particularly those studying intrinsically disordered proteins, protein-protein interactions, and mutational scanning methodologies. The work may also interest computational biologists developing predictive models for binding affinity and experimentalists seeking high-throughput approaches to quantify variant effects on binding.
+- **Major strengths** The application of DMS to an IDP addresses an understudied area, as mutational effects in disordered proteins are less characterized than in globular proteins. The proposal to use a single ligand concentration for quantitative binding estimates is an innovative simplification that could substantially increase throughput. The study also tackles a debated question regarding the role of helicity in IDP binding, which is of broad interest.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "use of a single rationally chosen ligand concentration can provide quantitative estimates of relative binding constants for large numbers of protein variants."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the single concentration is rationally chosen, what range of binding affinities can be reliably estimated, or how errors are propagated. The claim that energetic effects are spread over a smaller range for IDPs is presented as a justification, but no quantitative support is given.
+  - **Why it matters** If the single-concentration approach is not rigorously validated against a range of known affinities or against titration-based measurements, the quantitative estimates could be systematically biased, undermining all downstream inferences.
+  - **Resolution test** Provide validation data comparing single-concentration estimates to full titration measurements across a diverse set of variants, including error analysis and a clear criterion for choosing the ligand concentration.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the approach "enables facile prediction of interface residues and local structural signatures of the bound conformation."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given on how interface residues and structural signatures are predicted from the mutational data. The abstract does not specify the computational or statistical methods, nor the accuracy of these predictions relative to known structures or experimental validation.
+  - **Why it matters** Without a clear description of the prediction method and its performance, the claim of facile prediction cannot be assessed. Overstated predictive power could mislead readers about the reliability of the approach.
+  - **Resolution test** Describe the prediction algorithm, report performance metrics (e.g., precision, recall) against known interface residues or structural data, and provide validation on independent IDP systems.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "a rudimentary model was developed in an attempt to predict mutational effects on binding affinity of IDPs that form alpha-helical structures upon binding."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The model is described only as "rudimentary," with no information on its inputs, parameters, training data, or predictive accuracy. The abstract does not state whether the model was tested on held-out data or compared to existing predictors.
+  - **Why it matters** A predictive model without validation is not a substantive contribution. The claim of prediction is unsubstantiated and could be misinterpreted as a validated tool.
+  - **Resolution test** Provide model details, training and test set descriptions, performance metrics (e.g., correlation with experimental affinities), and comparison to existing methods.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract statement on "extended interface of IDP"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that "the extended interface of IDP ensures that energetic effects of point mutations are spread over a much smaller range than for globular proteins" is vague. It is unclear whether this refers to the distribution of mutational effects or the magnitude of individual effects.
+  - **Required correction** Clarify the intended meaning and provide a quantitative comparison, such as the observed range of binding free energy changes for CcdA variants versus typical globular proteins.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract statement on "insights into the much-debated role of helicity and disorder"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims insights into the role of helicity and disorder but does not state what those insights are.
+  - **Required correction** Summarize the key finding regarding helicity and disorder in the abstract, even briefly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract statement on "yeast surface displayed mutant library"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No information is given on library size, mutation coverage, or quality control of the display system.
+  - **Required correction** Include key experimental parameters in the abstract or refer to methods sections where these are detailed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish the validity of the single-concentration method, the accuracy of structural predictions, or the utility of the predictive model.
+- **Assessment against Nature-style criteria** 
+  - Originality: The application of DMS to an IDP and the single-concentration approach are novel, but the abstract does not demonstrate how this advances beyond existing methods.
+  - Scientific importance: The questions addressed, such as the role of helicity in IDP binding, are important, but the abstract does not provide enough data to assess the significance of the findings.
+  - Interdisciplinary readership: The work bridges experimental biophysics and computational prediction, which could appeal to a broad audience, but the abstract is too technical and lacks context for nonspecialists.
+  - Technical soundness: Not assessable from the abstract; the methods and validation are not described.
+  - Readability for nonspecialists: The abstract assumes familiarity with DMS, yeast display, and IDP biophysics, and does not explain key concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting ideas, but the lack of methodological detail and validation prevents assessment of the core claims. A full manuscript with detailed methods, validation, and results would be required to evaluate the work properly.
+
+## Risk / unsupported claims
+- The claim that a single ligand concentration provides quantitative relative binding constants is unsupported without validation data.
+- The claim of facile prediction of interface residues and structural signatures is unsupported without method description and accuracy metrics.
+- The claim of a predictive model for mutational effects is unsupported without model details and validation.
+- The claim of insights into the role of helicity and disorder is unsubstantiated as the specific insights are not stated.
+- The general statement that mutational effects in IDPs are spread over a smaller range than in globular proteins is presented without quantitative evidence.

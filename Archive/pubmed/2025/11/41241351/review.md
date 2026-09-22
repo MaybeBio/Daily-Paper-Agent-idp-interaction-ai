@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present PhaseNet, a dual-task computational framework for identifying phase-separating proteins (LLPS) and classifying them into self-assembling (PS-Self) and partner-dependent (PS-Part) categories. The framework integrates protein language model embeddings (ESM), sequence encodings (ZSCALE, BLOSUM), and a CNN-BiGRU with multi-head attention for the first task, and Lasso-based feature selection with a stacking ensemble of five classifiers for the second task. The authors claim superior performance over existing predictors across multiple independent test sets.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset definitions, hyperparameter settings, baseline comparisons, statistical significance tests, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract describes a plausible and potentially useful computational framework for LLPS protein prediction, with a sensible dual-task design and modern feature integration. However, the abstract provides no quantitative evidence, no dataset specifications, and no comparison details, making it impossible to evaluate the validity of the performance claims. The methodological novelty is unclear relative to existing predictors, and the interpretability claim is not substantiated. The work may be of interest to the computational biology community, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in computational biology and bioinformatics working on protein function prediction, particularly those studying biomolecular condensates and phase separation. Developers of prediction tools for LLPS proteins would also be interested, as PhaseNet could serve as a benchmark or alternative method. Additionally, experimental biologists studying phase separation may find the tool useful for candidate prioritization, though they would require a user-friendly implementation and clear performance metrics.
+- **Major strengths** The dual-task design addresses a real gap in the field, as most existing predictors focus only on binary LLPS classification. The integration of protein language model features with traditional sequence encodings is a current and reasonable approach. The use of attention-guided feature fusion and HSIC-based regularization suggests a thoughtful architectural design. The modular and interpretable framing is a positive feature for practical adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Comprehensive benchmarking across multiple independent test sets demonstrates that PhaseNet surpasses existing LLPS predictors in both general identification and fine-grained classification."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims superior performance over existing predictors but provides no quantitative results, no list of compared methods, no dataset names or sizes, and no statistical significance measures. Without these details, the claim is unverifiable.
+  - **Why it matters** Performance claims are the core contribution of any prediction tool. If the benchmarking is not described with sufficient detail, readers cannot assess whether the improvement is real, meaningful, or generalizable. This is a fundamental requirement for a computational biology paper.
+  - **Resolution test** Provide in the full manuscript a detailed benchmarking section with performance metrics (e.g., AUC, accuracy, F1, MCC) on at least two independent test sets, a clear description of baseline methods, and statistical tests (e.g., DeLong test for AUC differences) to support the claim of superiority.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "PhaseNet integrates features from pretrained protein language models (ESM), sequence encodings (ZSCALE and BLOSUM), and a modular architecture combining CNN-BiGRU and multi-head attention mechanisms."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which ESM model variant is used, how the features are extracted and normalized, what the CNN-BiGRU architecture dimensions are, or how the attention mechanism is applied. The HSIC-based regularization is mentioned but not explained in terms of its objective or implementation.
+  - **Why it matters** Reproducibility is a cornerstone of computational research. Without architectural and hyperparameter details, other groups cannot replicate or build upon the method. The novelty of the approach also cannot be assessed without understanding how it differs from prior work.
+  - **Resolution test** In the full manuscript, provide a complete method description including model architecture diagrams, hyperparameter values, training procedures, and a clear explanation of the HSIC regularization term. Include code availability or a public repository link.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support for interpretability
+  - **Claim pointer** "This modular and interpretable framework offers a robust tool for the systematic discovery and annotation of phase-separating proteins."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims the framework is interpretable, but no interpretability analysis is described. The use of attention mechanisms and Lasso feature selection does not automatically confer interpretability, and no evidence is provided that the model yields biologically meaningful insights.
+  - **Why it matters** Interpretability is a stated selling point of the tool. If the claim is not supported by analysis (e.g., attention weight visualization, feature importance ranking, case studies), it may mislead users into over-trusting the model's outputs. This is particularly important for a tool intended for biological discovery.
+  - **Resolution test** In the full manuscript, include an interpretability section with concrete examples, such as attention maps on known LLPS proteins, feature importance analysis, and a discussion of whether the identified features align with known biological mechanisms.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of task definitions
+  - **Affected element** Classification categories
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract defines PS-Self and PS-Part categories but does not explain the biological or experimental basis for this distinction. Readers unfamiliar with the field may not understand what these categories mean.
+  - **Required correction** Add a brief definition of PS-Self and PS-Part in the abstract or introduction, citing the source of this classification scheme.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Dataset description
+  - **Affected element** Training and test data
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "multiple independent test sets" but does not describe their origin, size, or how they were constructed. This limits the reader's ability to gauge the generalizability of the results.
+  - **Required correction** In the full manuscript, provide a detailed description of all datasets, including source databases, sequence redundancy reduction procedures, and the rationale for test set selection.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison fairness
+  - **Affected element** Baseline methods
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that PhaseNet surpasses existing predictors but does not specify which predictors were compared or whether the comparison was conducted under consistent conditions (e.g., same training data, same evaluation protocol).
+  - **Required correction** In the full manuscript, list all baseline methods with their versions and publication references, and describe the evaluation protocol to ensure fair comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative benchmarking evidence), R1-M2 (insufficient methodological detail for reproducibility), R1-M3 (unsupported interpretability claim). These are blocking because the core claims of the paper cannot be evaluated from the provided material.
+- **Assessment against Nature-style criteria** Originality: The dual-task design is a reasonable contribution, but the abstract does not clearly differentiate PhaseNet from existing LLPS predictors in terms of novel methodology. Scientific importance: The topic is relevant, but the importance is not demonstrated without performance evidence. Interdisciplinary readership: The work is primarily of interest to computational biologists; the abstract does not make a case for broader appeal. Technical soundness: Cannot be assessed from the abstract alone; the architecture is plausible but unverified. Readability for nonspecialists: The abstract is technically dense and assumes familiarity with machine learning and protein language models, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible framework, but the absence of quantitative results, methodological details, and interpretability analysis prevents a supportive recommendation. The authors should be encouraged to resubmit with a complete manuscript that addresses the blocking concerns.
+
+## Risk / unsupported claims
+- The claim of superior performance over existing predictors is unsupported due to the absence of any quantitative benchmarking data in the abstract.
+- The claim of interpretability is unsupported, as no interpretability analysis is described.
+- The generalizability of the framework across "multiple independent test sets" is unverifiable without dataset descriptions.
+- The novelty of the methodological approach relative to existing LLPS predictors cannot be assessed from the abstract alone.

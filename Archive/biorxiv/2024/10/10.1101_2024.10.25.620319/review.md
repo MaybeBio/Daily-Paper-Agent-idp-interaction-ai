@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv 2024.10.25.620319)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text. Figures, tables, and supplementary materials referenced but not fully accessible for independent verification.
+- **Shared manuscript claim summary** The authors present a high-throughput functional genomics approach to identify yeast gene knockouts that alter the phase separation behavior of a bioorthogonal synthetic two-component system. They report 68 high-confidence knockouts that shift in vivo phase boundaries, with enrichment in TORC1 signaling and metabolism-related genes. They further show that TORC1 inhibition and nitrogen starvation suppress phase separation, and propose that intracellular phase separation is a globally tunable property influenced by metabolism, crowding, and other physicochemical factors.
+- **Visible evidence base** Main text, methods, figure legends (partially), supplementary figure descriptions, and references cited within the text. Full figures, supplementary tables, and raw data not independently accessible.
+- **Missing materials affecting confidence** Full figure panels, supplementary tables (especially Supplementary Tables 1-3), raw imaging data, detailed analysis code, and complete methods for some assays (e.g., FRAP quantification, GEM tracking parameters) are not available in the provided text. This limits independent verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question: which genetic perturbations globally alter intracellular phase separation? The combination of a synthetic phase-separating system with a genome-wide knockout collection is conceptually strong and technically ambitious. The finding that 68 knockouts reproducibly shift phase boundaries, with enrichment in metabolic and TORC1-related genes, is potentially significant. However, several technical and interpretive concerns must be resolved before the central claims are fully established. The evidence for a "global" mechanism, the specificity of the synthetic system as a reporter, and the causal links between metabolism, crowding, and phase separation require stronger support.
+- **Who would be interested in the results, and why** Researchers in the fields of phase separation, cell biology, systems biology, and functional genomics. The work provides a resource for understanding how cellular physiology modulates biomolecular condensation, which is relevant to disease mechanisms involving aberrant phase behavior. The methodological framework may also interest those developing high-content imaging screens.
+- **Major strengths** 1) The use of a bioorthogonal synthetic system to probe general phase separation propensity is a clever and potentially powerful approach. 2) The scale of the screen (over 25 million cells, 2,888 knockouts) is impressive. 3) The identification of a novel functional ORF (AIS1) with a demonstrated rescue effect adds biological depth. 4) The integration of metabolomics, proteomics, and biophysical measurements (GEM diffusion) to explore mechanisms is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of the reporter system
+  - **Claim pointer** The authors claim that changes in the phase diagram of the synthetic system reflect "global changes in protein phase separation propensity" due to the system's bioorthogonal design.
+  - **Evidence pointer** Figure 1, Figure 2, Discussion
+  - **Concern** The bioorthogonality of the system is asserted but not rigorously demonstrated. The synthetic components (tetramer and dimer) are expressed from plasmids and interact via engineered binding domains. It is plausible that their phase behavior is influenced by specific, non-generalizable interactions with endogenous factors (e.g., chaperones, post-translational modifications, or specific binding partners) that are altered in certain knockouts. The claim that changes in the phase diagram are due to "fundamental physicochemical changes" rather than specific effects on the synthetic components requires direct evidence. For example, the authors should show that the phase behavior of multiple, structurally distinct synthetic and endogenous systems (beyond the two tested) responds similarly across a panel of knockouts.
+  - **Why it matters** If the reporter is not truly general, the central conclusion that the identified knockouts globally modulate phase separation is weakened. The interpretation of the screen as a "landscape" of phase separation regulators depends on this assumption.
+  - **Resolution test** Demonstrate that the phase diagrams of at least two additional, structurally unrelated phase-separating systems (e.g., a different coiled-coil system, a repeat-protein system, or a well-characterized endogenous condensate like P-bodies under controlled expression) are altered in the same direction and magnitude across a representative subset of the 68 high-confidence knockouts. Alternatively, show that the phase behavior of the synthetic system is insensitive to overexpression of known specific interactors of its components.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between metabolism and phase separation
+  - **Claim pointer** The authors conclude that "metabolism... can collectively be associated with changes in phase separation" and specifically implicate TORC1 signaling, amino acid, and nucleotide metabolism.
+  - **Evidence pointer** Figures 3-5, Discussion
+  - **Concern** The data presented are largely correlative. Knockouts in metabolic genes show altered phase boundaries, and metabolomic profiling of six knockouts shows changes in metabolite levels. However, a causal link is not established. For example, it is not shown that supplementing or depleting specific metabolites (e.g., tryptophan, nucleotides) in wild-type cells recapitulates the phase diagram changes observed in the knockouts. The TORC1 inhibition experiments (rapamycin, nitrogen starvation) are more direct, but the mechanism by which TORC1 activity alters phase separation (e.g., via ribosome crowding, as suggested) is not tested. The GEM diffusion data for only six knockouts is insufficient to generalize a crowding-based mechanism.
+  - **Why it matters** The manuscript's main conceptual contribution is the idea that phase separation is a "globally tunable property" linked to metabolic state. Without causal evidence, this remains a plausible but unproven hypothesis. The field is currently sensitive to over-interpretation of correlative data in phase separation research.
+  - **Resolution test** Perform metabolomic profiling on a larger set of knockouts and identify metabolites that consistently correlate with phase boundary shifts. Then, in wild-type cells, manipulate the levels of these candidate metabolites (e.g., via exogenous addition, genetic overexpression of biosynthetic enzymes, or targeted depletion) and measure the effect on the phase diagram of the synthetic system. For the TORC1-crowding hypothesis, directly manipulate ribosome content (e.g., via inducible repression of rRNA transcription) and measure both GEM diffusivity and phase boundaries.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and multiple testing
+  - **Claim pointer** The authors identify 68 high-confidence outliers from a screen of 2,888 knockouts.
+  - **Evidence pointer** Figure 3, Methods
+  - **Concern** The methods for outlier selection are described, but the statistical framework is not fully detailed. The initial selection used z-score thresholds (2.0 for RFP, 2.3 for GFP), and validation required significance in at least two of three replicates. However, the manuscript does not report the false discovery rate (FDR) or provide a clear estimate of the expected number of false positives given the number of knockouts screened and the correlation structure of the data. The enrichment of overlapping ORFs (5 observed vs. <1 expected) is a strong internal control, but the overall false positive rate for the 68 knockouts is not quantified.
+  - **Why it matters** A genome-wide screen of this scale is prone to false positives. Without a clear FDR estimate, the reliability of the 68-gene list as a resource is uncertain.
+  - **Resolution test** Provide an FDR estimate for the 68 high-confidence knockouts, using either a permutation-based approach or a well-justified analytical method that accounts for multiple testing. Report the number of expected false positives at the chosen thresholds.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the "landscape" concept
+  - **Claim pointer** The title and framing suggest a "phase separation landscape" of genetic perturbations, implying a broad and systematic map.
+  - **Evidence pointer** Title, Abstract, Discussion
+  - **Concern** The screen measures the phase behavior of a single synthetic system under one growth condition (log phase, specific media). The "landscape" is therefore conditional on these parameters. The authors show that nitrogen starvation and rapamycin shift the phase diagram, but they do not systematically explore how the landscape changes under different environmental conditions (e.g., heat shock, oxidative stress, different carbon sources). The claim of a "landscape" may overstate the generality of the findings.
+  - **Why it matters** The concept of a landscape implies a relatively stable and comprehensive map. If the set of knockouts that alter phase separation is highly condition-dependent, the resource's utility is more limited.
+  - **Resolution test** Perform a smaller-scale screen (e.g., the 68 knockouts plus controls) under at least one or two additional conditions (e.g., heat shock, nitrogen starvation) and assess whether the set of knockouts that alter phase boundaries is largely overlapping or distinct. This would define the condition-dependence of the landscape.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1A-B
+  - **Issue** The schematic of the synthetic system is described in the text but the figure itself is not available for review. The description of the components (tetramer, dimer, binding domains) and the readout (phase diagram) should be clear enough for a nonspecialist to understand the design.
+  - **Required correction** Ensure the figure clearly labels the components, the interaction, and the readout. Consider adding a schematic of the phase diagram and what a shift means.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Supplementary Tables
+  - **Evidence pointer** Supplementary Tables 1-3
+  - **Issue** The manuscript references Supplementary Tables 1-3, which contain the full list of knockouts, phenotypes, and other data. These are not provided in the text.
+  - **Required correction** Ensure these tables are made publicly available with the preprint, ideally in a machine-readable format.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** FRAP analysis
+  - **Evidence pointer** Figure 2G-H, Methods
+  - **Issue** The FRAP experiments are used to argue that the apparent affinity between components is unchanged in stationary phase. The details of the FRAP analysis (e.g., normalization, fitting model, number of cells) are not fully described.
+  - **Required correction** Provide more detail on the FRAP data analysis, including the fitting model and how the mobile fraction and recovery half-time were extracted.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of AIS1
+  - **Affected element** Figure 3, Supplementary Figure 4
+  - **Evidence pointer** Results section
+  - **Issue** The identification of AIS1 (YLR402W) as a novel functional protein is interesting, but the evidence is limited to a rescue experiment and structural prediction. The claim that it "can self-assemble into amyloid-like structures" is based on prediction only.
+  - **Required correction** Soften the language around the amyloid-like structure claim, or provide experimental evidence (e.g., in vitro aggregation assay, co-localization with amyloid dyes).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The term "landscape" is evocative but may be misleading, as discussed in R1-M4.
+  - **Required correction** Consider a more precise title, such as "Genetic determinants of phase separation propensity in yeast" or similar, unless the condition-dependence is addressed.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of direct evidence for the generality of the synthetic system as a reporter of global phase separation propensity (R1-M1). 2) Absence of causal experiments linking specific metabolic changes to phase boundary shifts (R1-M2). 3) Insufficient statistical detail on FDR control for the screen (R1-M3).
+- **Assessment against Nature-style criteria** **Originality:** High. The combination of a synthetic phase-separating system with a genome-wide knockout screen is novel and addresses a fundamental question. **Scientific importance:** Potentially high. If the claims are substantiated, the work provides a resource and conceptual framework for understanding how cellular physiology controls phase separation. **Interdisciplinary readership:** Broad. The topic is relevant to cell biology, biophysics, systems biology, and potentially clinical research on condensate-related diseases. **Technical soundness:** The core screen is technically impressive, but the validation of the central claims (generality, causality) is currently insufficient. The statistical framework for the screen needs strengthening. **Readability for nonspecialists:** The abstract and introduction are accessible. The results section is dense but generally clear. The discussion is speculative in places but appropriately framed. Overall, the manuscript has the potential to meet Nature-level standards, but the current evidence does not fully support the broadest claims.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea and screen are valuable, but the manuscript requires substantial additional work to establish the generality of the reporter system, provide causal links to metabolism, and strengthen the statistical analysis. The current version is not fully established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that the synthetic system reports on "global changes in protein phase separation propensity" is not directly supported by the data presented.
+- The causal link between specific metabolic pathways (e.g., tryptophan metabolism) and phase separation is not established; the data are correlative.
+- The statement that AIS1 "can self-assemble into amyloid-like structures" is based on structural prediction, not experimental evidence.
+- The generalizability of the "phase separation landscape" to other conditions (e.g., stress, different media) is not demonstrated.
+- The claim that the 68 knockouts are "high-confidence" requires a clearer statistical justification, including an FDR estimate.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39475712",
+  "title": "Regulating transport efficiency through the nuclear pore complex: The role of binding affinity with FG-Nups.",
+  "authors": "Matsuda, Atsushi; Mofrad, Mohammad R K",
+  "journal": "Molecular biology of the cell",
+  "published_date": "2024-10-30",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用布朗动力学模拟研究无序FG-Nups与转运受体的瞬时结合时长如何调控核孔复合物运输效率，定量桥接局部PPI与整体运输动力学，属于IDR介导互作机制建模，虽非AI方法但物理模拟与机制深度契合课题。",
+  "abstract": "Macromolecules are transported through the nuclear pore complex (NPC) via a series of transient binding and unbinding events with FG-Nups, which are intrinsically disordered proteins anchored to the pore's inner wall. Prior studies suggest that the weak and transient nature of this binding is crucial for maintaining the transported molecules' diffusivity. In this study, we explored the relationship between binding kinetics and transport efficiency using Brownian dynamics simulations. Our results indicate that the duration of binding is a critical factor in regulating transport efficiency. Specifically, excessively short binding durations insufficiently facilitate transport, while overly long durations impede molecular movement. We calculated the optimal binding duration for efficient molecular transport and found that it aligns with other theoretical predictions. Additionally, the calculated value is comparable to experimental measurements of the association timescale between nuclear transport receptors and FG-Nups at a single binding site. Our study provides a quantitative framework that bridges local molecular interactions with overall transport dynamics through the NPC, offering valuable insights into the mechanisms governing selective molecular transport.",
+  "abstract_zh": "大分子通过核孔复合体（NPC）的运输，依赖于与FG-Nups（FG-核孔蛋白）之间一系列瞬时的结合与解离事件，这些FG-Nups是锚定在孔内壁上的固有无序蛋白质。先前的研究表明，这种结合的弱性和瞬时性对于维持运输分子的扩散性至关重要。在本研究中，我们利用布朗动力学模拟探讨了结合动力学与运输效率之间的关系。我们的结果表明，结合的持续时间是调控运输效率的关键因素。具体而言，过短的结合时间不足以促进运输，而过长的结合时间则会阻碍分子运动。我们计算了高效分子运输的最佳结合持续时间，并发现其与其他理论预测一致。此外，计算值与核运输受体与FG-Nups在单一结合位点的结合时间尺度的实验测量结果相当。我们的研究提供了一个定量框架，将局部分子相互作用与通过NPC的整体运输动力学联系起来，为理解选择性分子运输的调控机制提供了宝贵见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39475712/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39475712/",
+  "paper_page_path": "papers/pubmed/39475712/index.html"
+}

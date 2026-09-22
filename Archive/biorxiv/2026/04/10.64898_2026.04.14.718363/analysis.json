@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.14.718363",
+  "title": "Generative design of intrinsically disordered proteins based on conditioned protein language models: Data is the limit",
+  "authors": "Laure Carrière; Alexandre Huyghe; Mátyás Pajkos; Pau Bernadó; Juan Cortés",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-16",
+  "window": {
+    "start": "2026-04-13",
+    "end": "2026-04-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用条件蛋白语言模型生成具有目标构象系综特征的无序蛋白序列，聚焦IDR设计而非PPI互作机制，方法新颖但互作轴缺失，故评6分。",
+  "abstract": "Intrinsically disordered proteins and regions (IDRs) are central to a multitude of biological processes. Despite extensive studies of their structural and physicochemical properties, the rational design of IDRs with defined conformational behavior remains challenging due to their ensemble nature. Here we present a generative framework for designing disordered protein sequences conditioned on target conformational ensemble descriptors using protein language models (pLMs). We formulate IDR design as the task of generating amino acid sequences predicted to realize specified biophysical properties and implement a Transformer encoder–decoder architecture that maps numerical descriptors to protein sequences. By training models on datasets spanning two orders of magnitude in size, we show that accurate control of conformational and physicochemical properties is achieved only at large data scale. These results demonstrate the feasibility of conditioning generative models on ensemble-level descriptors for IDR design. More broadly, these results support a data-centric paradigm for protein engineering, in which data availability emerges as a key limiting factor for the accurate design of IDRs.",
+  "abstract_zh": "固有无序蛋白和区域（IDRs）在众多生物过程中扮演核心角色。尽管对其结构和物理化学性质进行了广泛研究，但由于其集合性质，设计具有明确构象行为的IDRs仍具挑战性。在此，我们提出一个生成框架，利用蛋白质语言模型（pLMs）根据目标构象集合描述符设计无序蛋白序列。我们将IDR设计定义为生成预测能实现特定生物物理性质的氨基酸序列的任务，并实现了一种Transformer编码器-解码器架构，将数值描述符映射到蛋白质序列。通过在规模跨越两个数量级的数据集上训练模型，我们表明，仅在大数据规模下才能实现对构象和物理化学性质的精确控制。这些结果证明了将生成模型条件化于集合级描述符进行IDR设计的可行性。更广泛地，这些结果支持一种以数据为中心的蛋白质工程范式，其中数据可用性成为精确设计IDRs的关键限制因素。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718363",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.14.718363",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.14.718363/index.html"
+}

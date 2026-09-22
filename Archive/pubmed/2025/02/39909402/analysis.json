@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39909402",
+  "title": "Proline cis/trans Conformational Selection Controls 14-3-3 Binding.",
+  "authors": "Theisen, Frederik F; Prestel, Andreas; Jacobsen, Nina L; Nyhegn-Eriksen, Oline K; Olsen, Johan G; Kragelund, Birthe B",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2025-02-06",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过NMR、热力学和MD模拟揭示PRLR无序区域中脯氨酸顺反异构选择性调控14-3-3结合亲和力与机制，直接聚焦IDR介导的PPI并深入机制建模，虽无AI但物理模拟扎实，高度契合课题。",
+  "abstract": "Intrinsically disordered protein regions (IDRs) are structurally dynamic yet functional, often interacting with other proteins through short linear motifs (SLiMs). Proline residues in IDRs introduce conformational heterogeneity on a uniquely slow time scale arising from cis/trans isomerization of the Xaa-Pro peptide bond. Here, we explore the role of proline isomerization in the interaction between the prolactin receptor (PRLR) and 14-3-3. Using NMR spectroscopy, thermodynamic profiling, and molecular dynamics (MD) simulations, we uncover a unique proline isomer-dependent binding, with a cis conformation affinity 3 orders of magnitude higher than the trans. MD simulations identify structural constraints in the narrow 14-3-3 binding groove that provide an explanation for the observed isomer selectivity. The cis preference of WT PRLR introduces a slow kinetic component relevant to signal propagation and a steric component that impacts chain direction. Proline isomerization constitutes a previously unrecognized selective component relevant to the ubiquitous 14-3-3 interactome. Given the prevalence of prolines in IDRs and SLiMs, our study highlights the importance of considering the distinct properties of proline isomers in experimental design and data interpretation to fully comprehend IDR functionality.",
+  "abstract_zh": "固有无序蛋白区域（IDRs）在结构上动态变化却具有功能，通常通过短线性基序（SLiMs）与其他蛋白质相互作用。IDRs中的脯氨酸残基通过Xaa-Pro肽键的顺式/反式异构化，在独特的时间尺度上引入构象异质性。在此，我们探讨脯氨酸异构化在催乳素受体（PRLR）与14-3-3相互作用中的作用。利用核磁共振波谱、热力学分析和分子动力学（MD）模拟，我们发现了一种独特的脯氨酸异构体依赖性结合，其中顺式构象的亲和力比反式构象高出3个数量级。MD模拟识别出狭窄的14-3-3结合槽中的结构约束，这为观察到的异构体选择性提供了解释。野生型PRLR的顺式偏好引入了与信号传导相关的慢动力学组分，以及影响链方向的位阻组分。脯氨酸异构化构成了一个先前未被识别的选择性组分，与普遍存在的14-3-3相互作用组相关。鉴于脯氨酸在IDRs和SLiMs中的普遍性，我们的研究强调了在实验设计和数据解释中考虑脯氨酸异构体独特性质的重要性，以全面理解IDR功能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39909402/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39909402/",
+  "paper_page_path": "papers/pubmed/39909402/index.html"
+}

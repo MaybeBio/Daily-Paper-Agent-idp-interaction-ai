@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract, methods summary, and supplementary material description
+- **Assessment boundary** Claims presented in the abstract and methods summary only; full manuscript, figures, and supporting information not accessible
+- **Shared manuscript claim summary** The authors report that arginine-rich condensates exhibit slower hydration dynamics than lysine-rich condensates, as measured by 2D IR spectroscopy and MD simulations. They attribute this difference to stronger electrostatic and H-bonding interactions in arginine-based condensates, which also form more compact and dense structures.
+- **Visible evidence base** Abstract, brief methods summary, supplementary material description
+- **Missing materials affecting confidence** Full text, all figures, raw 2D IR spectra, MD simulation details, FFCF data, microscopy images, and the complete supporting information document
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in the field of biomolecular condensates, namely how chemically similar residues with identical formal charge can produce distinct physical properties. The combination of 2D IR spectroscopy with MD simulations is well suited to probe hydration dynamics and local interactions. However, the provided material is insufficient to evaluate the technical rigor of the measurements and simulations, and several key claims cannot be assessed without access to the full data. The central conclusion that H-bond dynamics, rather than electrostatics alone, govern the observed differences is plausible but not fully established from the supplied evidence.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and intracellular organization would find these results relevant. The work also speaks to the physical chemistry community interested in hydration dynamics, ultrafast spectroscopy, and molecular simulations of disordered proteins. The comparison between arginine and lysine is of broad interest given the prevalence of these residues in intrinsically disordered regions and their distinct roles in condensate formation.
+- **Major strengths** The study addresses a fundamental question about the molecular origins of condensate properties. The combination of experimental 2D IR spectroscopy with MD simulations provides complementary perspectives on dynamics and structure. The focus on hydration dynamics, rather than static electrostatic interactions, offers a potentially novel mechanistic insight. The use of model condensates with controlled charge ratios is a reasonable reductionist approach.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that 2D IR spectroscopy demonstrates significantly slower hydration dynamics in arginine-based condensates compared to lysine-based condensates.
+  - **Evidence pointer** Abstract; methods summary; raw 2D IR spectra mentioned in supplementary material but not provided
+  - **Concern** The abstract states that 2D IR measurements were performed, but no spectral data, fitting parameters, or quantitative metrics of hydration dynamics are presented in the visible material. The methods summary indicates that FFCFs were computed from MD trajectories, but the experimental 2D IR data analysis is not described. Without access to the raw spectra, the spectral observables, and the extracted dynamical timescales, the experimental claim cannot be evaluated.
+  - **Why it matters** The central experimental finding underpins the entire manuscript. If the 2D IR data do not robustly support slower hydration dynamics in arginine condensates, the mechanistic interpretation is compromised. The reader cannot assess whether the observed spectral differences are statistically significant, whether appropriate control experiments were performed, or whether the spectral assignments are correct.
+  - **Resolution test** Provide the raw 2D IR spectra, the spectral analysis procedure, the extracted frequency-frequency correlation functions, and the associated uncertainties. Show that the dynamical timescales differ significantly between arginine and lysine condensates with appropriate error analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MD simulations show poly-Arg forms a more compact and dense structure compared to poly-Lys-based condensates, and that H-bond dynamics computed from simulations support the experimental observations.
+  - **Evidence pointer** Methods summary; Section S4 mentioned but not provided
+  - **Concern** The methods summary states that four simulations were performed for 1 μs each, but no details are given about the force field, water model, system size, concentration, equilibration protocol, or analysis methods beyond the use of MD Analysis and the Skinner map. The claim of compactness and density is not supported by any quantitative metrics in the visible material. The H-bond autocorrelation analysis and FFCF computation are described only briefly, and no validation of the simulation against experimental data is shown.
+  - **Why it matters** The simulation results are used to rationalize the experimental observations and to provide a molecular mechanism. Without details on the simulation setup and validation, the reliability of the computed structural and dynamical properties cannot be assessed. The 1 μs simulation time may or may not be sufficient for convergence of condensate properties, and this cannot be evaluated from the provided information.
+  - **Resolution test** Provide full simulation parameters, convergence analysis, structural metrics (e.g., radius of gyration, density profiles, coordination numbers), and a comparison of simulated and experimental FFCFs. Demonstrate that the simulations reproduce the experimentally observed difference in hydration dynamics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the results "highlight the role of strong electrostatic and H-bonding interactions in determining the local condensate environment" and that this goes "beyond electrostatic interactions."
+  - **Evidence pointer** Abstract; title
+  - **Concern** The title and abstract frame the work as going "beyond electrostatic interactions," yet the abstract also states that electrostatic interactions are important. The distinction between electrostatic and H-bonding contributions is not clearly delineated in the visible material. Arginine and lysine differ not only in H-bonding capacity but also in cation-π interactions, hydrophobicity, and geometric factors. The claim that H-bond dynamics specifically, rather than other physicochemical differences, drive the observed behavior is not fully supported by the evidence presented.
+  - **Why it matters** The novelty and significance of the work depend on isolating the specific molecular interactions responsible for the observed differences. If the effects are due to a combination of factors that cannot be separated, the mechanistic claim is overstated.
+  - **Resolution test** Provide additional simulations or experiments that isolate the contribution of H-bonding from other interaction types, or clearly discuss the limitations of the attribution.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses terms such as "2D IR," "FFCF," and "H-bond autocorrelation" without defining them for readers outside the ultrafast spectroscopy community.
+  - **Required correction** Briefly define these terms or provide context for nonspecialist readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods summary
+  - **Evidence pointer** Methods summary
+  - **Issue** The methods summary states that condensates were formed at a "~4:1 charge ratio" but does not specify the concentrations, buffer conditions, or how the charge ratio was determined.
+  - **Required correction** Provide the exact concentrations and buffer composition, and clarify how the charge ratio was calculated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods summary
+  - **Evidence pointer** Methods summary
+  - **Issue** The methods summary mentions "differential-contrast microscopy" for confirming phase separation, but the type of microscopy (e.g., DIC, phase contrast) and representative images are not shown in the visible material.
+  - **Required correction** Specify the microscopy technique and include representative images in the main text or supplementary material.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods summary
+  - **Evidence pointer** Methods summary
+  - **Issue** The methods summary references the Skinner vibrational map and the program AIM but does not provide version numbers or specific parameters used for the FFCF calculations.
+  - **Required correction** Provide complete software versions, parameters, and any relevant citations for reproducibility.
+
+## Risk / unsupported claims
+- The claim that arginine-based condensates show significantly slower hydration dynamics is unsupported in the visible material because no experimental spectral data or quantitative analysis are provided.
+- The claim that poly-Arg forms a more compact and dense structure compared to poly-Lys is unsupported because no structural metrics from simulations are shown.
+- The attribution of observed differences to H-bond dynamics rather than other physicochemical factors is not fully established from the supplied evidence.
+- The generalizability of the findings beyond the specific model condensates studied cannot be assessed from the visible material.
+- The claim that the work goes "beyond electrostatic interactions" is not clearly substantiated given that electrostatic interactions are still invoked as important contributors.

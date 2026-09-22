@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, conclusions, and supplementary figure references
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented evidence
+- **Shared manuscript claim summary** The authors investigate the initial molecular events following islet amyloid polypeptide (IAPP) binding to lipid membranes, using ATR-FTIR spectroscopy, transmission electron microscopy, and all-atom molecular dynamics simulations. They assess how the charge state of residue 18 affects IAPP-membrane interactions, secondary structure transitions, and aggregation outcomes. They report that membrane binding induces an amphipathic helical intermediate, that wild-type IAPP and H18K-IAPP form antiparallel β-sheet fibrils, that H18R- and H18A-IAPP form both fibrils and amorphous aggregates, and that H18E-IAPP remains stably helical without fibril formation. They propose that antiparallel β-sheet structures correlate with toxicity and that residue 18 is a potential therapeutic target.
+- **Visible evidence base** ATR-FTIR spectra (Figures 1, 2), secondary structure quantifications (Table 1), TEM images (Figure 3), MD simulation distance profiles (Figure 4), representative simulation snapshots (Figures 5, 7), secondary structure propensities from simulations (Figure 6), membrane property analyses (Table 2, Supplementary Figures S1-S5)
+- **Missing materials affecting confidence** Supplementary figures S1-S5 are referenced but not provided in the manuscript text. Raw FTIR spectra, full TEM image sets, simulation convergence metrics, force field validation details, and error estimates for secondary structure quantifications are not included. No statistical analysis details are provided for experimental replicates.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in the field of amyloid biology, namely the early structural events following IAPP-membrane interaction and the role of residue 18 in modulating these events. The combination of experimental and computational approaches is commendable and potentially powerful. However, several technical concerns limit the strength of the conclusions as currently presented. The correlation between specific β-sheet conformations and toxicity is inferred rather than directly demonstrated, and the quantitative agreement between simulations and experiments is not rigorously established. The manuscript would benefit from clearer presentation of methodological details and more cautious interpretation of the data.
+- **Who would be interested in the results, and why** Researchers studying amyloid aggregation mechanisms, particularly those focused on IAPP and type 2 diabetes. The work is also relevant to investigators interested in protein-membrane interactions, the role of lipid bilayers in amyloid formation, and the development of therapeutic strategies targeting amyloidogenic proteins. The methodological combination of FTIR, TEM, and MD simulations may interest biophysicists and computational biologists working on membrane-associated protein folding and aggregation.
+- **Major strengths** The study addresses a timely and important question with a multi-technique approach. The use of multiple IAPP variants at residue 18 provides a systematic exploration of charge effects. The combination of experimental and computational methods allows for cross-validation of findings. The time-resolved FTIR experiments provide kinetic information that is often lacking in similar studies. The authors are appropriately cautious in acknowledging the limitations of comparing simulation and experimental timescales.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that FTIR spectroscopy reveals distinct secondary structure populations and transitions for different IAPP variants at the membrane interface, with specific quantitative assignments of α-helix, β-sheet, random coil, and turn content.
+  - **Evidence pointer** Section 3.1, Section 3.2, Figure 1, Figure 2, Table 1
+  - **Concern** The secondary structure quantification from FTIR spectra relies on curve fitting of the amide I band, but the manuscript does not provide details on the fitting procedure, including the number of component bands used, initial parameter guesses, constraints applied, or the uncertainty in the derived percentages. The assignment of specific wavenumbers to secondary structure elements is not justified with reference to established literature values for membrane-bound peptides. Additionally, the manuscript does not report replicate measurements or error bars for the secondary structure percentages in Table 1, making it impossible to assess whether the differences between variants are statistically significant.
+  - **Why it matters** The quantitative secondary structure assignments are central to the manuscript's conclusions about variant-specific behaviors. Without information on fitting reliability and measurement variability, the reported differences between IAPP variants cannot be distinguished from fitting artifacts or experimental noise.
+  - **Resolution test** Provide details of the fitting procedure, including the number of bands, initial parameters, and constraints. Report replicate measurements with standard deviations or confidence intervals for all secondary structure percentages. Include representative fits with residuals to demonstrate fit quality. Justify band assignments with appropriate references or control experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MD simulations reveal that H18R- and H18K-IAPP insert more deeply into the membrane than other variants, and that this correlates with their aggregation behavior.
+  - **Evidence pointer** Section 3.4, Figure 4, Figure 5, Figure 7
+  - **Concern** The manuscript does not provide sufficient details on the simulation setup to assess the reliability of the results. The initial peptide structures are described as derived from a preceding 1 µs simulation, but the equilibration protocol, the criteria for determining when the peptide-membrane system reached equilibrium, and the convergence of the simulations are not described. The manuscript states that three replicate simulations were performed for each system, but does not report the variability between replicates. The distance profiles in Figure 4 appear to be averages, but the manuscript does not specify how the averaging was performed or whether the profiles are representative of individual trajectories.
+  - **Why it matters** The simulation results are used to provide mechanistic explanations for the experimental observations. If the simulations are not converged or the results are not reproducible across replicates, the mechanistic interpretations may not be reliable.
+  - **Resolution test** Provide details on the equilibration protocol, including the duration of equilibration and the criteria used to assess equilibrium. Report the variability between replicate simulations, either as standard deviations on the distance profiles or as representative individual trajectories. Include convergence metrics such as RMSD of the peptide and membrane properties over time. Describe how the initial peptide structures were selected and whether different starting configurations were tested.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for claims
+  - **Claim pointer** The authors claim that the antiparallel β-sheet conformation is a signature of IAPP toxicity, based on the observation that toxic variants (hIAPP, H18K-IAPP) form antiparallel β-sheet fibrils while the non-toxic variant (H18E-IAPP) does not form fibrils.
+  - **Evidence pointer** Section 3.2, Section 3.3, Section 4, Figure 2, Figure 3
+  - **Concern** The correlation between antiparallel β-sheet structure and toxicity is inferred from the aggregation behavior of the variants, but no direct toxicity measurements are presented in this manuscript. The authors reference previous work (Khemtemourian et al., 2017) for toxicity data, but the current study does not establish a causal link between the specific β-sheet conformation and membrane disruption or cell death. The claim that antiparallel β-sheet is a "signature of amyloid toxicity" is an overstatement based on the evidence presented here, particularly given that the authors also note that H18R- and H18A-IAPP form both fibrils and amorphous aggregates, and the structural characterization of these aggregates is incomplete.
+  - **Why it matters** The toxicity correlation is a central conclusion of the manuscript and has implications for therapeutic targeting. If the correlation is not directly supported by the data presented, the conclusion should be tempered or supported with additional experiments.
+  - **Resolution test** Either include direct toxicity measurements for the variants studied here, or temper the conclusion to state that antiparallel β-sheet formation correlates with previously reported toxicity for these variants, without claiming a general signature of toxicity. Provide structural characterization of the amorphous aggregates to determine whether they contain β-sheet structure.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the DOPC/DOPS (7:3) membrane composition mimics the lipid environment of pancreatic β-cells, and that the observed behaviors are relevant to the in vivo situation.
+  - **Evidence pointer** Section 2.2, Section 3.1
+  - **Concern** The choice of DOPC/DOPS (7:3) is justified by reference to the negatively charged lipid content of β-cell membranes, but the manuscript does not discuss the potential influence of other lipid components, such as cholesterol, sphingolipids, or the asymmetric distribution of lipids between leaflets, on IAPP-membrane interactions. The relevance of a supported lipid bilayer to the physiological membrane environment is also not discussed.
+  - **Why it matters** The physiological relevance of the model membrane system affects the generalizability of the conclusions. If the membrane composition or architecture significantly influences IAPP behavior, the conclusions may not translate to the in vivo situation.
+  - **Resolution test** Discuss the limitations of the model membrane system and justify the choice of DOPC/DOPS (7:3) with appropriate references. If possible, include experiments with additional membrane compositions to test the robustness of the findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5
+  - **Evidence pointer** Section 2.5
+  - **Issue** The manuscript states that the initial peptide structure was the most populated conformation from a preceding 1 µs simulation of wild-type IAPP in aqueous solution. It is unclear whether this structure was used for all variants or whether variant-specific starting structures were generated.
+  - **Required correction** Clarify whether the same starting structure was used for all variants and describe how mutations were introduced.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Figure 6
+  - **Issue** The secondary structure propensities from simulations are presented as percentages, but the manuscript does not specify how these were calculated or over which time period they were averaged.
+  - **Required correction** Describe the method for calculating secondary structure propensities and specify the time period over which they were averaged.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.3
+  - **Evidence pointer** Figure 3
+  - **Issue** The TEM images are described as showing fibrils and amorphous aggregates, but the manuscript does not provide quantitative analysis of the aggregate morphologies or their relative abundances.
+  - **Required correction** Provide quantitative analysis of TEM images, such as fibril widths, lengths, and the proportion of fibrillar versus amorphous aggregates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.5
+  - **Evidence pointer** Table 2
+  - **Issue** The manuscript reports that hIAPP causes a slight increase in disorder in the lipid chains based on the dichroic ratio, but the statistical significance of this change is not reported.
+  - **Required correction** Report the number of replicate measurements and the statistical significance of the observed changes in the dichroic ratio.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The manuscript does not describe the temperature at which the FTIR experiments were performed, which may affect the kinetics of aggregation and the secondary structure populations.
+  - **Required correction** Specify the temperature of the FTIR experiments and discuss any potential temperature effects on the results.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.4
+  - **Evidence pointer** Supplementary Figure S1
+  - **Issue** The manuscript refers to Supplementary Figure S1 for interaction energy calculations but does not summarize the key findings in the main text.
+  - **Required correction** Summarize the key findings from the interaction energy analysis in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (FTIR fitting details and statistics), R1-M2 (simulation convergence and replicate variability), R1-M3 (toxicity correlation not directly demonstrated)
+- **Assessment against Nature-style criteria** Originality: The study is original in its systematic comparison of residue 18 variants using a combined experimental-computational approach. However, the concept that membrane binding induces α-helical intermediates in IAPP is not entirely novel, and the specific findings about residue 18 effects build on prior work by the same group. Scientific importance: The question of how IAPP interacts with membranes and how this relates to toxicity is of high importance for understanding type 2 diabetes pathology. The potential identification of residue 18 as a therapeutic target is significant if the toxicity correlation is firmly established. Interdisciplinary readership: The work bridges biophysics, computational biology, and amyloid research, and would appeal to a broad readership interested in protein misfolding diseases. Technical soundness: The combination of techniques is appropriate, but the lack of statistical rigor in the FTIR analysis and insufficient detail on simulation convergence weaken the technical foundation. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with spectroscopy and simulation methods. The abstract and introduction are clear, but the results section could benefit from more explicit connections between experimental and computational findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question with a promising multi-technique approach, and the findings have potential significance for understanding IAPP toxicity. However, the lack of statistical rigor in the FTIR analysis, insufficient detail on simulation convergence, and the indirect nature of the toxicity correlation must be addressed before the conclusions can be considered fully established.
+
+## Risk / unsupported claims
+- The claim that antiparallel β-sheet conformation is a "signature of amyloid toxicity" is not directly supported by the data presented in this manuscript, as no toxicity measurements are included.
+- The claim that H18R- and H18A-IAPP form both fibrils and amorphous aggregates with distinct β-sheet populations is based on limited TEM images and FTIR data without quantitative analysis.
+- The statement that "the bilayers modulate the amyloid fibrillation of IAPP in a way that antiparallel β-sheet are favored" is an inference from comparing the current results with solution-grown fibril structures from the literature, but the comparison is not systematically established.
+- The conclusion that residue 18 is "a good target for destabilizing amyloid fibrils of IAPP and inhibit its toxic actions" is speculative, as no therapeutic intervention or functional validation is presented.
+- The quantitative agreement between simulation and experiment is acknowledged by the authors to be limited, but the manuscript does not provide a systematic comparison of the secondary structure percentages from both methods.
+- The relevance of the DOPC/DOPS (7:3) membrane model to the physiological β-cell membrane is asserted but not critically evaluated.

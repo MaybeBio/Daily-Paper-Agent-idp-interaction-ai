@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "36637342",
+    "doi": "10.1021/acs.jpcb.2c07672",
+    "title": "Network Hamiltonian Models for Unstructured Protein Aggregates, with Application to gammaD-Crystallin."
+  },
+  "content": {
+    "abstract": "Network Hamiltonian models (NHMs) are a framework for topological coarse-graining of protein-protein interactions, in which each node corresponds to a protein, and edges are drawn between nodes representing proteins that are noncovalently bound. Here, this framework is applied to aggregates of gammaD-crystallin, a structural protein of the eye lens implicated in cataract disease. The NHMs in this study are generated from atomistic simulations of equilibrium distributions of wild-type and the cataract-causing variant W42R in solution, performed by Wong, E. K.; Prytkova, V.; Freites, J. A.; Butts, C. T.; Tobias, D. J. Molecular Mechanism of Aggregation of the Cataract-Related gammaD-Crystallin W42R Variant from Multiscale Atomistic Simulations. Biochemistry2019, 58 (35), 3691-3699. Network models are shown to successfully reproduce the aggregate size and structure observed in the atomistic simulation, and provide information about the transient protein-protein interactions therein. The system size is scaled from the original 375 monomers to a system of 10000 monomers, revealing a lowering of the upper tail of the aggregate size distribution of the W42R variant. Extrapolation to higher and lower concentrations is also performed. These results provide an example of the utility of NHMs for coarse-grained simulation of protein systems, as well as their ability to scale to large system sizes and high concentrations, reducing computational costs while retaining topological information about the system.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Intrinsically Disordered Proteins/metabolism",
+      "Protein Aggregates",
+      "*gamma-Crystallins/chemistry",
+      "*Cataract/metabolism",
+      "*Lens, Crystalline/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Diessner, Elizabeth M",
+        "Freites, J Alfredo",
+        "Tobias, Douglas J",
+        "Butts, Carter T"
+      ],
+      "short_names": [
+        "Diessner EM",
+        "Freites JA",
+        "Tobias DJ",
+        "Butts CT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8884-4157",
+        "ORCID: 0000-0001-5842-7443",
+        "ORCID: 0000-0002-6971-9828"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of California, Irvine, California92697, United States.",
+        "Department of Chemistry, University of California, Irvine, California92697, United States.",
+        "Department of Chemistry, University of California, Irvine, California92697, United States.",
+        "Departments of Sociology, Statistics, Computer Science, and EECS, University of California, Irvine, California92697, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Diessner, Elizabeth M",
+        "short_name": "Diessner EM",
+        "identifiers": [
+          "0000-0002-8884-4157"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Irvine, California92697, United States."
+        ]
+      },
+      {
+        "full_name": "Freites, J Alfredo",
+        "short_name": "Freites JA",
+        "identifiers": [
+          "0000-0001-5842-7443"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Irvine, California92697, United States."
+        ]
+      },
+      {
+        "full_name": "Tobias, Douglas J",
+        "short_name": "Tobias DJ",
+        "identifiers": [
+          "0000-0002-6971-9828"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Irvine, California92697, United States."
+        ]
+      },
+      {
+        "full_name": "Butts, Carter T",
+        "short_name": "Butts CT",
+        "identifiers": [],
+        "affiliations": [
+          "Departments of Sociology, Statistics, Computer Science, and EECS, University of California, Irvine, California92697, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2023 Jan 26",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/14 06:00",
+    "fetched_at": "2026-09-20 18:32:20"
+  },
+  "links": {
+    "cites": [
+      "39903700",
+      "39259851",
+      "38786000",
+      "38681800",
+      "38359362"
+    ],
+    "refs": [
+      "36018834",
+      "34944432",
+      "33747245",
+      "32973286",
+      "32931703",
+      "32853525",
+      "32637039",
+      "31557434",
+      "31422822",
+      "31393108",
+      "31266635",
+      "31245383",
+      "31095387",
+      "30633517",
+      "29048902",
+      "28498720",
+      "28474685",
+      "28040565",
+      "27471585",
+      "27417136",
+      "27063730",
+      "26542112",
+      "25787081",
+      "25648485",
+      "24835736",
+      "24307887",
+      "24028092",
+      "23828720",
+      "23341755",
+      "23124202",
+      "22844170",
+      "22809421",
+      "21031598",
+      "19756229",
+      "18810322",
+      "18618019",
+      "18311321",
+      "17764305",
+      "17764289",
+      "17444518",
+      "16940322",
+      "16150969",
+      "15544817",
+      "15302206",
+      "14581196",
+      "12729747",
+      "11528419",
+      "6835373",
+      "4692231"
+    ],
+    "similar": [
+      "36637342",
+      "31393108",
+      "23124202",
+      "17652744",
+      "33347930",
+      "32302630",
+      "37739288",
+      "22655036",
+      "22289178",
+      "27417136",
+      "25393041",
+      "31812542",
+      "34098480",
+      "25389780",
+      "22394327",
+      "32899552",
+      "18421082",
+      "26385181",
+      "30167892",
+      "34998884",
+      "27025196",
+      "27770023",
+      "22915036",
+      "17905830",
+      "19216553",
+      "36808690",
+      "30552875",
+      "39046313",
+      "33264606",
+      "26548860",
+      "30251679",
+      "34267497",
+      "25450505",
+      "26703476",
+      "20621668",
+      "16303126",
+      "34857812",
+      "25787081",
+      "29532225",
+      "36964267",
+      "31939160",
+      "24183572",
+      "29222017",
+      "19668596",
+      "35163513",
+      "28355541",
+      "32234236",
+      "18079686",
+      "31199646",
+      "36918380",
+      "12592018",
+      "26991007",
+      "21600897",
+      "26165230",
+      "15899135",
+      "32827531",
+      "17659303",
+      "23670788",
+      "28474685",
+      "19558189",
+      "31003047",
+      "21197114",
+      "20490507",
+      "31371024",
+      "24415662",
+      "37093714",
+      "21655238",
+      "23957864",
+      "30769148",
+      "31266635",
+      "37148932",
+      "26459004",
+      "33432246",
+      "19937657",
+      "35619565",
+      "23936409",
+      "19224648",
+      "14685148",
+      "31747273",
+      "29949747",
+      "21146282",
+      "32650012",
+      "15940793",
+      "9878530",
+      "24287181",
+      "33278449",
+      "21850160",
+      "25841365",
+      "29442498",
+      "21417258",
+      "24282025",
+      "16303961",
+      "19758984",
+      "21552534",
+      "21677790",
+      "21827768",
+      "38051761",
+      "36627843",
+      "37644195"
+    ],
+    "review": [
+      "36637342",
+      "31939160"
+    ],
+    "pmc": [
+      "10437096"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/cataract.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cataract"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36637342/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36637342",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt6756v9nf",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.2c07672",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

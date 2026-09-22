@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to figures, methods, or simulation details
+- **Shared manuscript claim summary** The authors use large-scale simulations of an archetypal prion-like low complexity domain (PLCD) to map thermodynamic critical points via finite-size scaling and Binder cumulants, and propose that the binodal can be divided into three regimes distinguished by cluster-size distributions in dilute phases, with Regime III near the critical point characterized by two interconnected system-spanning percolated networks.
+- **Visible evidence base** Abstract text only; no figures, tables, or method sections provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, finite-size scaling details, Binder cumulant computations, definition of percolation criteria, and all quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting framework for classifying near- versus off-critical phase behavior in condensate-forming systems, with a clear conceptual distinction across three regimes. However, the evidence base is limited to the abstract, and several central claims, particularly regarding the universality of Gaussian chain statistics and the measurable signatures of regime-specific cluster-size distributions, cannot be evaluated without access to the underlying simulation data and analysis. The work may be of interest to the biomolecular condensate community, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying phase separation of intrinsically disordered proteins, particularly those focused on the physical chemistry of condensates, critical phenomena in biological systems, and the role of percolation in biomolecular phase transitions. The proposed regime classification could inform experimental design for probing criticality in condensates.
+- **Major strengths** The abstract addresses a timely question regarding criticality in biomolecular condensates. The use of finite-size scaling and Binder cumulants is appropriate for locating critical points in simulations. The three-regime classification provides a clear conceptual framework that could be operationally useful. The claim that dilute-phase cluster-size distributions serve as measurable signatures is potentially valuable for experimental validation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Mapping of critical points required the use of finite-size scaling and computation of Binder cumulants."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that finite-size scaling and Binder cumulants were used, but provides no details on system sizes, number of independent simulations, equilibration criteria, or how the critical point was extracted from these analyses. Without this information, the reliability of the critical point location cannot be assessed.
+  - **Why it matters** The entire regime classification depends on accurate placement of the critical point. If the finite-size scaling analysis is underpowered or improperly converged, the boundaries between Regimes I, II, and III could be misassigned, undermining the central conclusion.
+  - **Resolution test** Provide in the full manuscript a detailed description of system sizes, scaling analysis, error estimates for critical temperature, and validation against known results for polymer models.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "In Regime III, the dilute phase also forms a percolated, system-spanning network. Thus, Regime III comprises two interconnected, system-spanning networks."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that the dilute phase forms a percolated network near the critical point is striking and counterintuitive, as dilute phases are typically low-density. The abstract does not specify the percolation criterion used, the density range of the dilute phase in Regime III, or how system-spanning is defined relative to simulation box size. Finite-size effects could easily produce apparent system-spanning networks in small boxes.
+  - **Why it matters** This is a central and novel claim that distinguishes the work from prior descriptions of condensate phase behavior. If the percolation criterion is not carefully defined and validated against finite-size effects, the claim may be an artifact rather than a physical property.
+  - **Resolution test** Provide percolation probability as a function of system size, a clear definition of system-spanning, and demonstrate that the dilute-phase network persists in the thermodynamic limit.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and significance
+  - **Claim pointer** "Strikingly, across the entire temperature range, conformational distributions of individual chains within dense and dilute phases closely follow Gaussian chain statistics."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that chain conformations follow Gaussian statistics across all temperatures and in both phases is presented as surprising, but the abstract provides no quantitative measure of deviation from Gaussian behavior, no comparison to alternative models, and no discussion of why this is unexpected given the sequence-encoded interactions mentioned later.
+  - **Why it matters** If true, this would be a significant simplification for theoretical modeling, but the claim is too broad and unsupported. Without error bars or goodness-of-fit metrics, it is impossible to judge whether "closely follow" is meaningful or a weak qualitative statement.
+  - **Resolution test** Provide quantitative measures such as radius of gyration distributions, scaling exponents, and statistical tests comparing simulated distributions to Gaussian predictions across temperatures and phases.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Terms such as "overlap line," "confined percolated networks," and "unconfined" are used without definition. A nonspecialist reader may struggle to interpret the regime distinctions.
+  - **Required correction** Define these terms briefly in the abstract or provide a schematic figure that visually explains the regimes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation model
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "an archetypal PLCD" but does not specify the sequence, force field, or whether the model is coarse-grained or atomistic. This limits reproducibility assessment.
+  - **Required correction** Specify the sequence identifier and simulation model in the abstract or methods summary.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Generalizability claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim that "changes to sequence-encoded interactions change critical temperatures and the locations of different regimes" is stated without indicating the range of sequences tested or whether the three-regime structure is preserved across those changes.
+  - **Required correction** Clarify whether the regime classification is robust across sequence variants or specific to the archetypal PLCD studied.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: The three-regime classification and the claim of two interconnected percolated networks near the critical point are potentially novel, but the abstract does not clearly differentiate this from prior work on percolation in polymer systems.
+  - Scientific importance: If validated, the framework could provide experimental signatures for criticality in condensates, which is of high importance to the field.
+  - Interdisciplinary readership: The topic bridges polymer physics and cell biology, but the abstract is written in a way that may be opaque to biologists without physical chemistry background.
+  - Technical soundness: Not assessable from the abstract alone; the missing details on finite-size scaling, percolation criteria, and conformational statistics are critical.
+  - Readability for nonspecialists: The abstract is concise but uses specialized terms without definition, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is interesting, but the abstract alone does not provide sufficient technical detail to validate the central claims. I would be supportive if the full manuscript addresses the concerns regarding finite-size scaling, percolation definitions, and quantitative support for Gaussian statistics.
+
+## Risk / unsupported claims
+- The claim that Regime III comprises two interconnected, system-spanning networks is unsupported without percolation criteria and finite-size analysis.
+- The claim that chain conformations follow Gaussian statistics across the entire temperature range is unsupported without quantitative measures.
+- The claim that dilute-phase cluster-size distributions are measurable signatures of near- versus off-critical behavior is not validated against experimental observables or noise levels.
+- The generalizability of the three-regime classification across different sequences is not assessable from the abstract.

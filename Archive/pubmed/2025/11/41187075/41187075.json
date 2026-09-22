@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "41187075",
+    "doi": "10.1073/pnas.2511348122",
+    "title": "Molecular drivers of RNA phase separation."
+  },
+  "content": {
+    "abstract": "RNA molecules play central roles in the assembly and regulation of biomolecular condensates, often in concert with proteins containing low complexity RNA-binding domains. Recently, it has been shown that RNA can phase-separate in the absence of any proteins. Unlike protein-based condensates, RNAs condensates are strongly influenced by magnesium ions which play crucial roles in their dynamics and thermodynamics, giving rise to base-specific lower critical solution temperatures (LCSTs). The molecular basis and functional significance of sequence and ion-dependent LCST behavior RNA condensates have yet to be elucidated. Here, we use atomistic simulations to systematically dissect the driving forces underlying the sequence-, ion-, and temperature-dependent phase behaviors of RNA condensates. By choosing RNA tetranucleotides alongside their ssDNA counterpart and chemically modified analogs, we map equilibrium thermodynamic profiles and structural ensembles across various external conditions. Our results show that magnesium ions promote LCST behavior by inducing local disorder-order transitions within RNA structures. Additionally, the base chemistry and the 2'hydroxyl group of the ribose sugar further modulate this LCST response. In agreement with experiments, we find that the thermal stability of RNA condensates follows the order G(n) > A(n) > C(n) > U(n), governed by the balance of base stacking and hydrogen bonding interactions. Moreover, our simulations reveal that posttranslational nucleotide modifications can fine-tune the threshold of RNA self-assembly and the resulting condensate structures.",
+    "keywords": [
+      "RNA",
+      "biomolecular condensates",
+      "phase-separation"
+    ],
+    "mesh_terms": [
+      "*RNA/chemistry",
+      "Thermodynamics",
+      "Magnesium/chemistry",
+      "Nucleic Acid Conformation",
+      "Molecular Dynamics Simulation",
+      "*Biomolecular Condensates/chemistry",
+      "Temperature",
+      "Phase Transition",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ramachandran, Vysakh",
+        "Potoyan, Davit A"
+      ],
+      "short_names": [
+        "Ramachandran V",
+        "Potoyan DA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5860-1699"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Iowa State University, Ames, IA 50011.",
+        "Department of Chemistry, Iowa State University, Ames, IA 50011.",
+        "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA 50011.",
+        "Bioinformatics and Computational Biology Program, Iowa State University, Ames, IA 50011."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ramachandran, Vysakh",
+        "short_name": "Ramachandran V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011."
+        ]
+      },
+      {
+        "full_name": "Potoyan, Davit A",
+        "short_name": "Potoyan DA",
+        "identifiers": [
+          "0000-0002-5860-1699"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Iowa State University, Ames, IA 50011.",
+          "Roy J. Carver Department of Biochemistry, Biophysics and Molecular Biology, Iowa State University, Ames, IA 50011.",
+          "Bioinformatics and Computational Biology Program, Iowa State University, Ames, IA 50011."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Nov 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/04 18:26",
+    "fetched_at": "2026-09-17 21:46:52"
+  },
+  "links": {
+    "cites": [
+      "42358691",
+      "42280206",
+      "42197912",
+      "41626495"
+    ],
+    "refs": [
+      "41129218",
+      "39642205",
+      "39531035",
+      "39508447",
+      "39432826",
+      "39373474",
+      "39354131",
+      "39050887",
+      "38949285",
+      "38831645",
+      "38571310",
+      "38489385",
+      "38472406",
+      "38363841",
+      "38351661",
+      "38287096",
+      "37932412",
+      "37816028",
+      "37690652",
+      "37431920",
+      "37276412",
+      "37220590",
+      "37113055",
+      "36806460",
+      "36623192",
+      "36378781",
+      "36260822",
+      "36193826",
+      "36012216",
+      "35832192",
+      "35648610",
+      "35501484",
+      "35378855",
+      "35317575",
+      "35283696",
+      "34984429",
+      "34928291",
+      "34916619",
+      "34563256",
+      "34204536",
+      "33611339",
+      "32492408",
+      "32342689",
+      "31754043",
+      "31434954",
+      "31292544",
+      "31117592",
+      "30045872",
+      "29650702",
+      "28586329",
+      "28562589",
+      "28400719",
+      "27414502",
+      "27212236",
+      "25400877",
+      "21921995",
+      "19474339",
+      "18835912",
+      "18593145",
+      "17351000",
+      "14685175",
+      "12930962"
+    ],
+    "similar": [
+      "41187075",
+      "39896463",
+      "39605385",
+      "41129218",
+      "38571310",
+      "36883003",
+      "38949285",
+      "39432826",
+      "42475469",
+      "35727989",
+      "40664121",
+      "36993212",
+      "41662498",
+      "41933903",
+      "40203038",
+      "34706977",
+      "23912807",
+      "40748104",
+      "41979049",
+      "39386696",
+      "39928699",
+      "40009520",
+      "40102453",
+      "40058249",
+      "39042834",
+      "37932412",
+      "41575805",
+      "39366355",
+      "32405004",
+      "39227569",
+      "42126444",
+      "30926670",
+      "40970906",
+      "37194953",
+      "41017414",
+      "40804711",
+      "34862761",
+      "40603603",
+      "39804953",
+      "41343645",
+      "39636939",
+      "40690668",
+      "40108179",
+      "39377398",
+      "39591652",
+      "40773731",
+      "40531332",
+      "41481439",
+      "39937084",
+      "40954121",
+      "40098319",
+      "41794289",
+      "34507991",
+      "42550103",
+      "25268896",
+      "40539511",
+      "41909144",
+      "41511470",
+      "37252985",
+      "29517898",
+      "33864415",
+      "40782375",
+      "39486437",
+      "37684240",
+      "38991204",
+      "34762868",
+      "38383656",
+      "42531022",
+      "40653653",
+      "42367848",
+      "38429263",
+      "39225535",
+      "41670285",
+      "35108264",
+      "33982350",
+      "35597639",
+      "34551999",
+      "40521608",
+      "41118627",
+      "39807887",
+      "34772789",
+      "41535729",
+      "30471685",
+      "41698919",
+      "40830100",
+      "38446881",
+      "40172489",
+      "34772786",
+      "41480717",
+      "37720552",
+      "37772963",
+      "42449994",
+      "41342450",
+      "33571491",
+      "40616404",
+      "42261607",
+      "39356108",
+      "34984429",
+      "40985078",
+      "40305655"
+    ],
+    "review": [
+      "41187075",
+      "40664121",
+      "34706977",
+      "41979049",
+      "40058249",
+      "41575805",
+      "39366355",
+      "40804711",
+      "34772789",
+      "40172489",
+      "34772786",
+      "41480717",
+      "37720552",
+      "37772963"
+    ],
+    "pmc": [
+      "12625925"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2511348122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41187075/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://yoda.yale.edu/clinical-trial/nct00367237-a-randomized-multicenter-international-open-label-study-of-infliximab-plus-methotrexate-versus-methotrexate-mtx-alone-for-the-treatment-of-mtx-naive-subjects-with-active-psoriatic/",
+        "provider": "The YODA Project",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "A Randomized, Multicenter, International, Open-label Study of Infliximab Plus Methotrexate Versus Methotrexate (MTX) Alone for the Treatment of MTX naïve Subjects With Active Psoriatic Arthritis"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Technical soundness of the proposed REHT method, validity of benchmark comparisons, and support for claims of improved sampling efficiency and experimental agreement
+- **Shared manuscript claim summary** The authors propose a hybrid replica exchange method (REHT) that simultaneously tempers solute and solvent, claiming improved sampling efficiency and accuracy across diverse protein systems including folded proteins, IDPs, and metamorphic proteins, with ensemble averages matching experiments without reweighting
+- **Visible evidence base** Main text figures (Figs. 1-6), supplementary figure references, methods section, and derivation of the exchange criterion
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; simulation parameter details; convergence metrics; force field validation data; computational cost comparisons
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially valuable methodological advance in replica exchange sampling by addressing the cold solvent problem through simultaneous tempering of solute and solvent. The core idea is conceptually sound and the derivation of the detailed balance condition appears correct. However, the evidence presented in the main text is insufficient to fully support the strong claims of improved efficiency and accuracy. Key quantitative comparisons, convergence assessments, and methodological details are relegated to supplementary materials that were not available for review. The application to RFA-H metamorphic switching is intriguing but requires more rigorous validation of the proposed transition pathway.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular simulation practitioners developing enhanced sampling methods; researchers studying intrinsically disordered proteins and metamorphic proteins who need improved conformational sampling tools; method developers interested in replica exchange variants
+- **Major strengths** The conceptual approach of differentially tempering solute and solvent is well motivated and addresses a known limitation of REST2. The derivation of the exchange criterion is presented clearly. The choice of test systems spans a useful range of complexity from simple model systems to challenging IDPs and metamorphic proteins. The comparison with experimental data (NMR, SAXS, CD) provides practical validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that REHT provides "efficient and accurate conformational sampling across a wide variety of proteins" and that ensemble averages "match well with the NMR, SAXS and other biophysical experiments without the need to reweigh"
+  - **Evidence pointer** Figures 2, 3, 5; Supplementary Figures 1-25 (not provided)
+  - **Concern** The central claim of improved sampling efficiency is supported primarily by qualitative observations (e.g., faster folding transitions, better experimental agreement) without quantitative convergence metrics. The manuscript lacks systematic assessment of sampling convergence for either REHT or REST2 simulations. For the RFA-H system, the claim of spontaneous metamorphic switching is based on a single trajectory, and the free energy barrier estimate of 5 kcal/mol is presented without statistical uncertainty. The comparison of computational cost between REHT and REST2 is mentioned but not quantified in the main text.
+  - **Why it matters** Without rigorous convergence assessment, the improved efficiency claim cannot be distinguished from faster apparent convergence due to different starting conditions or insufficient sampling in the REST2 control. The scientific value of the method depends on demonstrating that it reliably produces converged ensembles more efficiently than existing approaches.
+  - **Resolution test** Provide quantitative convergence metrics (e.g., block error analysis, multiple independent runs, comparison of free energy estimates from different trajectory segments) for both methods across all systems. Report the number of independent simulations performed and demonstrate reproducibility of the key results, particularly the RFA-H transition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that REHT "allows accurate sampling across different landscapes" and the specific assertion that the method overcomes entropic barriers through modulated water tempering
+  - **Evidence pointer** Figure 6; Supplementary Figures 24-26 (not provided)
+  - **Concern** The mechanistic explanation linking water reorientation dynamics to enhanced conformational sampling is based on correlation rather than causation. The analysis of hydration dynamics is performed on trajectories from different methods with different replica numbers and temperature distributions, making direct comparison of water dynamics potentially confounded. The claim that faster water reorientation "facilitates" conformational transitions requires more direct evidence, such as analysis of transition events correlated with water dynamics or comparison of free energy barriers along specific reaction coordinates.
+  - **Why it matters** The mechanistic interpretation is a key selling point of the method and distinguishes it from other replica exchange variants. If the improved sampling is actually due to other factors (e.g., different effective temperature distributions), the method's conceptual foundation would need revision.
+  - **Resolution test** Perform controlled comparisons where water tempering is systematically varied while keeping other parameters fixed. Analyze transition state ensembles and correlate water dynamics with successful barrier crossing events. Provide free energy profiles along relevant coordinates for both methods to demonstrate reduced barriers in REHT.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The claim that the method is "efficient" and the comparison of computational requirements between REHT and REST2
+  - **Evidence pointer** Methods section; Supplementary Table 1 (not provided)
+  - **Concern** The manuscript states that REHT requires a "moderately higher number of replicas" than REST2 but does not provide the actual replica counts, temperature distributions, or total simulation times for either method. The claim that the improved sampling "compensates for the additional computational cost" is not supported by quantitative wall-clock time or CPU-hour comparisons. Without this information, readers cannot assess whether the method is practically advantageous for their systems.
+  - **Why it matters** The practical utility of any enhanced sampling method depends on its computational cost relative to alternatives. If REHT requires substantially more replicas or longer simulations to achieve convergence, its advantages may be diminished.
+  - **Resolution test** Provide a table comparing replica counts, temperature ranges, total simulation times, and computational costs (CPU-hours) for REHT and REST2 across all test systems. Include analysis of sampling efficiency per unit of computational cost.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation
+  - **Claim pointer** The claim that the REHT-generated ensemble of His-5 matches experimental SAXS and NMR data
+  - **Evidence pointer** Figure 3b, 3c; Methods section
+  - **Concern** The comparison with experimental data is presented as qualitative agreement. For the SAXS comparison, the Kratky plot shows visual similarity but no quantitative goodness-of-fit metric (e.g., chi-squared) is provided. For NMR chemical shifts, the correlation coefficient or RMSD between predicted and experimental values is not reported. The manuscript states that "the chemical shifts predicted from REHT matches better with the experiments than the REST2 method" but does not provide the actual comparison values.
+  - **Why it matters** Quantitative validation metrics are essential for readers to assess the accuracy of the generated ensembles. Qualitative visual agreement can be subjective and may not distinguish between methods with different systematic errors.
+  - **Resolution test** Report quantitative agreement metrics for all experimental comparisons, including chi-squared values for SAXS fits, correlation coefficients and RMSDs for chemical shift predictions, and appropriate uncertainty estimates.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, replica exchange parameters
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the temperature distribution and replica scheduling is vague. The manuscript states that the bath temperature is "raised mildly up to 340 K" but does not specify the number of replicas, the temperature spacing, or the exchange attempt frequency.
+  - **Required correction** Provide complete replica exchange parameters including the number of replicas, temperature list, exchange attempt interval, and total simulation time for each system.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Free energy calculations
+  - **Evidence pointer** Figure 5d; Methods section
+  - **Issue** The free energy barrier of 5 kcal/mol for the RFA-H transition is presented without error bars or assessment of statistical uncertainty. The free energy surface is computed from a single trajectory, and no block averaging or bootstrap analysis is described.
+  - **Required correction** Provide uncertainty estimates for free energy surfaces and barriers, either through block averaging, multiple independent runs, or bootstrap resampling.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Force field validation
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript uses different force fields for different systems (Amberff14SB for fast folders, Charmm36m for others) but does not discuss whether the results are force field dependent or whether the choice affects the comparison between REHT and REST2.
+  - **Required correction** Add a brief discussion of force field choice and its potential impact on the results, or provide justification for the different force fields used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 4
+  - **Evidence pointer** Figure 4
+  - **Issue** The multidimensional scaling (MDS) plots in Figure 4 are difficult to interpret without more context. The axes are not labeled with physical units, and the coloring scheme is not immediately intuitive.
+  - **Required correction** Add axis labels and a clear legend explaining the coloring scheme. Consider showing the MDS plots with different colorings side by side for easier comparison.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code availability
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript mentions a GitHub repository for the derivation and parameter files, but the main text does not clearly state whether the simulation input files and analysis scripts are publicly available.
+  - **Required correction** Add a clear data and code availability statement specifying what is deposited and where.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (convergence assessment), R1-M2 (mechanistic evidence), R1-M3 (computational cost comparison), R1-M4 (quantitative validation metrics)
+- **Assessment against Nature-style criteria** Originality: The approach of simultaneously tempering solute and solvent in a hybrid manner is a novel contribution that extends existing replica exchange methodologies. The specific combination of Hamiltonian scaling with temperature-based solvent tempering appears to be new. Scientific importance: Enhanced sampling of IDPs and metamorphic proteins is an important problem in biophysical chemistry, and improved methods would be valuable to the community. However, the importance of this specific advance depends on demonstrating clear advantages over existing methods, which is not fully established. Interdisciplinary readership: The work is primarily of interest to computational biophysicists and method developers. The potential broader impact on structural biology and drug discovery is mentioned but not developed. Technical soundness: The theoretical derivation appears sound, but the validation is incomplete. The lack of convergence metrics and quantitative comparisons limits confidence in the technical claims. Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear motivation and context. However, some methodological details are dense and would benefit from additional explanation for readers outside the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results are encouraging, but the current evidence base is insufficient to fully establish the claimed advantages. The manuscript would benefit from additional convergence analysis, quantitative validation metrics, and more detailed methodological reporting.

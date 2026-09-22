@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40103106",
+  "title": "Microscopic and stochastic simulations of chemically active droplets.",
+  "authors": "Berthin, Roxanne; Fries, Jacques D; Jardat, Marie; Dahirel, Vincent; Illien, Pierre",
+  "journal": "Physical review. E",
+  "published_date": "2025-03-19",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用布朗动力学模拟化学活性液滴（生物分子凝聚体）的微观随机行为，揭示非平衡驱动对凝聚体涨落与动态的影响，虽未直接聚焦特定无序蛋白PPI，但为IDR介导相分离的机制建模提供了可迁移的微观模拟思路。",
+  "abstract": "Biomolecular condensates play a central role in the spatial organization of living matter. Their formation is now well understood as a form of liquid-liquid phase separation that occurs very far from equilibrium. For instance, they can be modeled as active droplets, where the combination of molecular interactions and chemical reactions result in microphase separation. However, so far, models of chemically active droplets are spatially continuous and deterministic. Therefore, the relationship between the microscopic parameters of the models and some crucial properties of active droplets (such as their polydispersity, their shape anisotropy, or their typical lifetime) is yet to be established. In this work, we address this question computationally, using Brownian dynamics simulations of chemically active droplets: the building blocks are represented explicitly as particles that interact with attractive or repulsive interactions, depending on whether they are in a droplet-forming state or not. Thanks to this microscopic and stochastic view of the problem, we reveal how driving the system away from equilibrium in a controlled way determines the fluctuations and dynamics of active emulsions.",
+  "abstract_zh": "生物分子凝聚体在生命物质的空间组织中扮演核心角色。其形成现已被充分理解为一种远离平衡态发生的液-液相分离形式。例如，它们可被建模为活性液滴，其中分子相互作用与化学反应的结合导致微相分离。然而，迄今为止，化学活性液滴的模型在空间上是连续且确定性的。因此，模型微观参数与活性液滴某些关键特性（如多分散性、形状各向异性或典型寿命）之间的关系尚未确立。在本工作中，我们通过布朗动力学模拟化学活性液滴，以计算方式探讨此问题：构建单元被显式表示为粒子，根据其是否处于液滴形成状态，它们之间相互作用为吸引性或排斥性。借助这一微观且随机的视角，我们揭示了以受控方式将系统驱离平衡如何决定活性乳液的波动与动力学。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40103106/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40103106/",
+  "paper_page_path": "papers/pubmed/40103106/index.html"
+}

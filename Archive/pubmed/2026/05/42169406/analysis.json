@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42169406",
+  "title": "Charge characteristics of fluorescent proteins modulate FUS LCD condensation.",
+  "authors": "Lee, Hyeryeong; Prapassornwattana, Pavinee; Kim, Yejin; Yoo, Jejoong; Lee, Sang Hak",
+  "journal": "Biophysical journal",
+  "published_date": "2026-05-22",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究以FUS无序蛋白LCD为模型，结合荧光成像与分子动力学模拟，系统揭示荧光蛋白净电荷对体内蛋白凝聚（相分离）的调控机制，直接聚焦IDR介导的凝聚体互作机制建模，方法上融合实验与物理模拟，高度契合本课题。",
+  "abstract": "Fluorescent proteins (FPs) have revolutionized cell imaging by visualizing protein localizations in the cellular native environment and in real time. Recently, FPs have been widely used for investigating protein liquid-liquid phase separation. Nevertheless, given that small charged biomolecules are a main driver in protein condensation, the charge state of FPs would affect protein condensation in cells. Many current studies have overlooked that the electrostatic properties of FPs can perturb delicate intermolecular interactions. In this study, we systematically evaluated the influence of FP net charge on in vivo protein condensation using the low-complexity domain (LCD) of the intrinsically disordered protein Fused in Sarcoma (FUS) as a model system. FUS LCD was fused to FPs exhibiting a wide range of net charges at physiological pH and expressed in Escherichia coli. Fluorescence imaging and molecular dynamics simulation revealed distinct condensation patterns that correlated with FP charge. The results demonstrated that FP net charge can affect protein condensation. We suggest that careful selection of FPs based on their electrostatic properties is necessary to achieve both the accuracy and reproducibility of biological experiments, ultimately leading to more reliable insights into the molecular mechanisms underlying protein condensation.",
+  "abstract_zh": "荧光蛋白（FPs）通过实时可视化细胞天然环境中蛋白质的定位，彻底改变了细胞成像技术。近年来，FPs被广泛用于研究蛋白质的液-液相分离。然而，鉴于小电荷生物分子是蛋白质凝聚的主要驱动力，FPs的电荷状态会影响细胞内的蛋白质凝聚。许多现有研究忽视了FPs的静电特性可能干扰微妙的分子间相互作用。在本研究中，我们以内在无序蛋白肉瘤融合蛋白（FUS）的低复杂度结构域（LCD）作为模型系统，系统评估了FP净电荷对体内蛋白质凝聚的影响。将FUS LCD与在生理pH下具有广泛净电荷范围的FPs融合，并在大肠杆菌中表达。荧光成像和分子动力学模拟揭示了与FP电荷相关的不同凝聚模式。结果表明，FP净电荷可影响蛋白质凝聚。我们建议，基于FPs的静电特性进行谨慎选择，对于实现生物实验的准确性和可重复性至关重要，最终有助于更可靠地理解蛋白质凝聚的分子机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42169406/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42169406/",
+  "paper_page_path": "papers/pubmed/42169406/index.html"
+}

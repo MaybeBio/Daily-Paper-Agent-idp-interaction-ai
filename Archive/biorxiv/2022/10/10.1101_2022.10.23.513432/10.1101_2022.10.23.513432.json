@@ -1,0 +1,252 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.23.513432",
+  "title": "The regulatory landscape of the yeast phosphoproteome",
+  "doi": "10.1101/2022.10.23.513432",
+  "abstract": "<h4>Summary</h4> The cellular ability to react to environmental fluctuations depends on signaling networks that are controlled by the dynamic activities of kinases and phosphatases. To gain insight into these stress-responsive phosphorylation networks, we generated a quantitative mass spectrometry-based atlas of early phosphoproteomic responses in Saccharomyces cerevisiae exposed to 101 environmental and chemical perturbations. We report phosphosites on 59% of the yeast proteome, with 18% of the proteome harboring a phosphosite that is regulated within 5 minutes of stress exposure. We identify shared and perturbation-specific stress response programs, uncover dephosphorylation as an integral early event, and dissect the interconnected regulatory landscape of kinase-substrate networks, as we exemplify with TOR signaling. We further reveal functional organization principles of the stress-responsive phosphoproteome based on phosphorylation site motifs, kinase activities, subcellular localizations, shared functions, and pathway intersections. This information-rich map of 25,000 regulated phosphosites advances our understanding of signaling networks. <h4>Highlights</h4> Ultra-deep reference yeast phosphoproteome covers 36,000 phosphorylation sites and reveals general principles of eukaryotic protein phosphorylation. High-dimensional quantitative atlas of early phosphoproteomic responses of yeast across 101 environmental and chemical perturbations identifies 25,000 regulated perturbation-phosphosite pairs. Identification of shared and perturbation-specific stress response phosphorylation programs reveals the importance of dephosphorylation as an early stress response. Dissection of the TOR signaling network uncovers subnetworks with differential stress responsiveness and points of pathway cross-talk Identification of functional organization of the phosphoproteome by dimensionality reduction and co-regulation analysis.",
+  "authors": [
+    "Leutert M",
+    "Barente AS",
+    "Fukuda NK",
+    "Rodriguez-Mias RA",
+    "Villén J"
+  ],
+  "published_date": "2022-10-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.23.513432",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.23.513432.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR562258",
+    "raw_record": {
+      "id": "PPR562258",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR562258"
+        ]
+      },
+      "doi": "10.1101/2022.10.23.513432",
+      "title": "The regulatory landscape of the yeast phosphoproteome",
+      "authorString": "Leutert M, Barente AS, Fukuda NK, Rodriguez-Mias RA, Villén J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Leutert M",
+            "lastName": "Leutert",
+            "firstName": "Mario",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7921-4017"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genome Sciences, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barente AS",
+            "lastName": "Barente",
+            "firstName": "Anthony",
+            "initials": "AS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8641-3775"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genome Sciences, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fukuda NK",
+            "lastName": "Fukuda",
+            "firstName": "Noelle",
+            "initials": "NK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7609-0992"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genome Sciences, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rodriguez-Mias RA",
+            "lastName": "Rodriguez-Mias",
+            "firstName": "Ricard",
+            "initials": "RA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7960-6387"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genome Sciences, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Villén J",
+            "lastName": "Villén",
+            "firstName": "Judit",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1005-1739"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Genome Sciences, University of Washington, Seattle, WA, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7921-4017"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7960-6387"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1005-1739"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7609-0992"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8641-3775"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>Summary</h4>  The cellular ability to react to environmental fluctuations depends on signaling networks that are controlled by the dynamic activities of kinases and phosphatases. To gain insight into these stress-responsive phosphorylation networks, we generated a quantitative mass spectrometry-based atlas of early phosphoproteomic responses in  Saccharomyces cerevisiae exposed to 101 environmental and chemical perturbations. We report phosphosites on 59% of the yeast proteome, with 18% of the proteome harboring a phosphosite that is regulated within 5 minutes of stress exposure. We identify shared and perturbation-specific stress response programs, uncover dephosphorylation as an integral early event, and dissect the interconnected regulatory landscape of kinase-substrate networks, as we exemplify with TOR signaling. We further reveal functional organization principles of the stress-responsive phosphoproteome based on phosphorylation site motifs, kinase activities, subcellular localizations, shared functions, and pathway intersections. This information-rich map of 25,000 regulated phosphosites advances our understanding of signaling networks.  <h4>Highlights</h4>  Ultra-deep reference yeast phosphoproteome covers 36,000 phosphorylation sites and reveals general principles of eukaryotic protein phosphorylation. High-dimensional quantitative atlas of early phosphoproteomic responses of yeast across 101 environmental and chemical perturbations identifies 25,000 regulated perturbation-phosphosite pairs. Identification of shared and perturbation-specific stress response phosphorylation programs reveals the importance of dephosphorylation as an early stress response. Dissection of the TOR signaling network uncovers subnetworks with differential stress responsiveness and points of pathway cross-talk Identification of functional organization of the phosphoproteome by dimensionality reduction and co-regulation analysis.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "181503",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/10/24/2022.10.23.513432.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.10.23.513432"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR562258"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR562258&type=FILE&fileName=EMS156197-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37845410",
+            "reference": "Nature structural & molecular biology. 2023 Nov;30(11):1761-1773",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS156197",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-10-27",
+      "firstPublicationDate": "2022-10-24",
+      "firstIndexDate": "2022-10-27",
+      "fullTextReceivedDate": "2022-11-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

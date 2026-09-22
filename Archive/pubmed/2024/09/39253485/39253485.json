@@ -1,0 +1,261 @@
+{
+  "identity": {
+    "pmid": "39253485",
+    "doi": "10.1101/2024.08.22.609111",
+    "title": "StrIDR: a database of intrinsically disordered regions of proteins with experimentally resolved structures."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Intrinsically disordered regions (IDRs) of proteins exist as an ensemble of conformations, and not as a single structure. Existing databases contain extensive, experimentally derived annotations of intrinsic disorder for millions of proteins at the sequence level. However, only a tiny fraction of these IDRs are associated with an experimentally determined protein structure. Moreover, even if a structure exists, parts of the disordered regions may still be unresolved. RESULTS: Here we organize Structures of Intrinsically Disordered Regions (StrIDR), a database of IDRs confirmed via experimental or homology-based evidence, resolved in experimentally determined structures. The database can provide useful insights into the dynamics, folding, and interactions of IDRs. It can also facilitate computational studies on IDRs, such as those using molecular dynamics simulations and/or machine learning. AVAILABILITY: StrIDR is available at https://isblab.ncbs.res.in/stridr. The web UI allows for downloading PDB structures and SIFTS mappings of individual entries. Additionally, the entire database can be downloaded in a JSON format. The source code for creating and updating the database is available at https://github.com/isblab/stridr.",
+    "keywords": [
+      "disorder annotation",
+      "intrinsically disordered proteins (IDP)",
+      "intrinsically disordered regions (IDR)",
+      "protein structure"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Majila, Kartik",
+        "Viswanath, Shruthi"
+      ],
+      "short_names": [
+        "Majila K",
+        "Viswanath S"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-3190-7977",
+        "ORCID: 0000-0002-9061-8407"
+      ],
+      "affiliations": [
+        "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India 560065.",
+        "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India 560065."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Majila, Kartik",
+        "short_name": "Majila K",
+        "identifiers": [
+          "0009-0006-3190-7977"
+        ],
+        "affiliations": [
+          "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India 560065."
+        ]
+      },
+      {
+        "full_name": "Viswanath, Shruthi",
+        "short_name": "Viswanath S",
+        "identifiers": [
+          "0000-0002-9061-8407"
+        ],
+        "affiliations": [
+          "National Center for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India 560065."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Aug 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/10 06:43",
+    "fetched_at": "2026-09-21 10:12:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38866950",
+      "38039154",
+      "37904585",
+      "37878721",
+      "35102880",
+      "34718738",
+      "34676613",
+      "34390736",
+      "33237329",
+      "32112804",
+      "30445541",
+      "30066087",
+      "29385418",
+      "29136219",
+      "29036655",
+      "28381244",
+      "27899601",
+      "27794553",
+      "24606139",
+      "24178034",
+      "23665034",
+      "23203869",
+      "22661649",
+      "22067451",
+      "17145717",
+      "15310560",
+      "12910457",
+      "12824381",
+      "12022860",
+      "10592235",
+      "9525918",
+      "7663947"
+    ],
+    "similar": [
+      "39253485",
+      "28381244",
+      "39093570",
+      "38275091",
+      "31441158",
+      "37878721",
+      "23142703",
+      "37883249",
+      "33719450",
+      "37657994",
+      "21647374",
+      "36008992",
+      "36272675",
+      "36304335",
+      "34418423",
+      "32702119",
+      "35882686",
+      "37498545",
+      "36851914",
+      "36908253",
+      "33248138",
+      "31724233",
+      "35436286",
+      "35275927",
+      "31797595",
+      "38297118",
+      "24115198",
+      "32756939",
+      "17206849",
+      "36959451",
+      "35094056",
+      "35898309",
+      "26149687",
+      "31307006",
+      "30841624",
+      "35139468",
+      "36833360",
+      "33267376",
+      "38507044",
+      "29763584",
+      "38701796",
+      "34179096",
+      "32824743",
+      "33036302",
+      "32743159",
+      "32696395",
+      "33078839",
+      "36005688",
+      "31756456",
+      "34825861",
+      "39383002",
+      "28355271",
+      "32696355",
+      "38547606",
+      "39032884",
+      "34390736",
+      "31521235",
+      "33076213",
+      "39072126",
+      "31175370",
+      "38915510",
+      "39071267",
+      "38712287",
+      "38220424",
+      "31475155",
+      "36210722",
+      "38060268",
+      "31797596",
+      "25391399",
+      "33779503",
+      "38662765",
+      "29066345",
+      "34461937",
+      "32112084",
+      "20522251",
+      "32599863",
+      "31999450",
+      "38942776",
+      "38987470",
+      "36291695",
+      "38297184",
+      "27899601",
+      "33866372",
+      "37494873",
+      "35883444",
+      "33119751",
+      "37634152",
+      "19594884",
+      "35102880",
+      "30878482",
+      "33243935",
+      "35454181",
+      "35098694",
+      "26699268",
+      "38459060",
+      "39205298",
+      "38579676",
+      "27179590",
+      "37736816",
+      "33325498"
+    ],
+    "review": [
+      "39253485",
+      "39093570",
+      "31441158",
+      "37657994",
+      "34418423",
+      "35882686",
+      "36851914",
+      "33248138",
+      "36959451",
+      "35139468",
+      "36833360",
+      "33078839",
+      "34390736",
+      "31521235",
+      "38220424",
+      "35102880",
+      "33243935",
+      "35098694"
+    ],
+    "pmc": [
+      "11382991"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39253485/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.08.22.609111",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38672470",
+  "title": "Intact Transition Epitope Mapping-Force Interferences by Variable Extensions (ITEM-FIVE).",
+  "authors": "Koy, Cornelia; Rower, Claudia; Thiesen, Hans-Jurgen; Neamtu, Andrei; Glocker, Michael O",
+  "journal": "Biomolecules",
+  "published_date": "2024-04-27",
+  "window": {
+    "start": "2024-04-22",
+    "end": "2024-04-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用质谱和分子动力学模拟研究IDR（生物素模拟）修饰对T4折叠蛋白三聚体解离焓的影响，涉及无序区域调控复合物稳定性的机制，但对象为折叠蛋白而非真实IDP互作，方法以MD为主，机制深度有限。",
+  "abstract": "Investigations on binding strength differences of non-covalent protein complex components were performed by mass spectrometry. T4 fibritin foldon (T4Ff) is a well-studied miniprotein, which together with its biotinylated version served as model system to represent a compactly folded protein to which an Intrinsically Disordered Region (IDR) was attached. The apparent enthalpies of the gas phase dissociation reactions of the homo-trimeric foldon F-F-F and of the homo-trimeric triply biotinylated foldon bF-bF-bF have been determined to be rather similar (3.32 kJ/mol and 3.85 kJ/mol) but quite distinct from those of the singly and doubly biotinylated hetero-trimers F-F-bF and F-bF-bF (1.86 kJ/mol and 1.08 kJ/mol). Molecular dynamics simulations suggest that the ground states of the (biotinylated) T4Ff trimers are highly symmetric and well comparable to each other, indicating that the energy levels of all four (biotinylated) T4Ff trimer ground states are nearly indistinguishable. The experimentally determined differences and/or similarities in enthalpies of the complex dissociation reactions are explained by entropic spring effects, which are noticeable in the T4Ff hetero-trimers but not in the T4Ff homo-trimers. A lowering of the transition state energy levels of the T4Ff hetero-trimers seems likely because the biotin moieties, mimicking intrinsically disordered regions (IDRs), induced asymmetries in the transition states of the biotinylated T4Ff hetero-trimers. This transition state energy level lowering effect is absent in the T4Ff homo-trimer, as well as in the triply biotinylated T4Ff homo-trimer. In the latter, the IDR-associated entropic spring effects on complex stability cancel each other out. ITEM-FIVE enabled semi-quantitative determination of energy differences of complex dissociation reactions, whose differences were modulated by IDRs attached to compactly folded proteins.",
+  "abstract_zh": "通过质谱法研究了非共价蛋白质复合物组分间结合强度的差异。T4 fibritin foldon (T4Ff) 是一种研究充分的小蛋白，其与生物素化版本一起作为模型系统，代表一种紧密折叠的蛋白质，并附有一个内在无序区域 (IDR)。同源三聚体foldon F-F-F 和同源三聚体三生物素化foldon bF-bF-bF 的气相解离反应的表观焓被测定为相当接近（3.32 kJ/mol 和 3.85 kJ/mol），但与单生物素化和双生物素化异源三聚体 F-F-bF 和 F-bF-bF 的焓值（1.86 kJ/mol 和 1.08 kJ/mol）显著不同。分子动力学模拟表明，（生物素化的）T4Ff 三聚体的基态高度对称且彼此可比，表明所有四种（生物素化的）T4Ff 三聚体基态的能量水平几乎无法区分。实验测得的复合物解离反应焓的差异和/或相似性通过熵弹簧效应解释，这种效应在 T4Ff 异源三聚体中显著，但在 T4Ff 同源三聚体中不明显。T4Ff 异源三聚体的过渡态能量水平降低似乎可能，因为模拟内在无序区域 (IDRs) 的生物素部分在生物素化 T4Ff 异源三聚体的过渡态中引入了不对称性。这种过渡态能量水平降低效应在 T4Ff 同源三聚体以及三生物素化 T4Ff 同源三聚体中不存在。在后一种情况下，与 IDR 相关的熵弹簧效应对复合物稳定性的影响相互抵消。ITEM-FIVE 实现了复合物解离反应能量差异的半定量测定，这些差异由附着在紧密折叠蛋白质上的 IDRs 调节。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38672470/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38672470/",
+  "paper_page_path": "papers/pubmed/38672470/index.html"
+}

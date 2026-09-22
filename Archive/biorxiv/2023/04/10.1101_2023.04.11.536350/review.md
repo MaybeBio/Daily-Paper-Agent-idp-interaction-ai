@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a combined experimental and computational study of European robin cryptochrome 4a (Cry4a) dimerisation, identifying disulphide-linked dimers with C317 and C412 as likely cysteines, and generating candidate dimer structures via molecular dynamics simulations, with implications for avian magnetoreception.
+- **Visible evidence base** Abstract text only; no experimental data, methods, or simulation details are accessible
+- **Missing materials affecting confidence** Full manuscript, all figures, tables, methods sections, supplementary information, and any statistical or simulation output
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting study on Cry4a dimerisation, a topic relevant to the proposed radical-pair mechanism of avian magnetoreception. However, the evidence base is limited to the abstract, which lacks quantitative results, methodological detail, and validation of the computational models. The core claims, particularly the identification of specific cysteines and the relevance to magnetoreception, cannot be adequately assessed from the supplied material. The study appears technically sound in concept but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in biophysics, structural biology, and animal behaviour, specifically those studying cryptochrome function, protein dimerisation, and the biophysical basis of magnetoreception in migratory birds. The findings could inform experimental designs for in vivo studies and computational models of radical-pair signalling.
+- **Major strengths** The combination of multiple experimental techniques (native mass spectrometry, disulphide bond analysis, chemical cross-linking, photometric measurements) with computational modelling is a robust approach. The focus on a specific avian species and protein variant (robin Cry4a) provides biological relevance. The discussion of magnetoreception implications connects structural findings to a broader functional context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that disulphide-linked dimers are "routinely formed" and that C317 and C412 are "the most likely cysteines" involved.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data, such as yields, stoichiometry, or statistical confidence for the cysteine assignment. The phrase "routinely formed" is vague and unsupported without experimental replicates or controls. The identification of C317 and C412 is presented as a conclusion, but no evidence is shown to rule out other cysteines or to demonstrate functional relevance.
+  - **Why it matters** Without quantitative support, the central claim of specific disulphide-mediated dimerisation is not established. This is critical because the proposed cysteines are the basis for subsequent computational modelling and any magnetoreception implications.
+  - **Resolution test** Provide quantitative mass spectrometry data (e.g., relative abundance of dimer vs. monomer, peptide coverage maps) and statistical analysis supporting the cysteine assignment, including negative controls and mutation studies if available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational validation
+  - **Claim pointer** The abstract states that computational modelling and molecular dynamics simulations were used to "generate and assess a number of possible dimer structures."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are given on the simulation parameters, force fields, timescales, or criteria for assessing dimer stability. The abstract does not indicate whether the computational models were validated against experimental data (e.g., cross-linking constraints) or whether the predicted structures are consistent with known cryptochrome dimer interfaces.
+  - **Why it matters** Computational predictions without experimental validation or clear assessment criteria are insufficient to support structural claims. The relevance of the proposed dimer structures to the in vitro findings is unclear.
+  - **Resolution test** Describe simulation methods, provide convergence metrics, and show how computational models are compared with experimental cross-linking or mass spectrometry data to validate the proposed dimer interfaces.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The abstract claims the findings are relevant to the "proposed role of Cry4a in avian magnetoreception."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify how dimerisation, covalent or non-covalent, would affect the radical-pair mechanism or magnetic sensing. No mechanistic link is provided, and the discussion is only mentioned, not summarised.
+  - **Why it matters** The magnetoreception relevance is a key motivation for the study, but without a mechanistic hypothesis or supporting data, this claim remains speculative and does not strengthen the case for the study's significance.
+  - **Resolution test** Provide a clear mechanistic rationale, supported by experimental or computational evidence, for how dimerisation could modulate Cry4a function in magnetic sensing, or explicitly frame the magnetoreception discussion as speculative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "covalent and non-covalent interactions" is broad and could be misinterpreted; the abstract focuses on disulphide bonds but does not clarify the role of non-covalent interactions in dimer formation.
+  - **Required correction** Specify which non-covalent interactions were studied (e.g., hydrophobic, electrostatic) and how they were assessed, or remove the term if not directly addressed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract lists techniques but provides no sample preparation details, such as protein expression system, purification, or buffer conditions, which are critical for reproducing the dimerisation observations.
+  - **Required correction** Include key experimental conditions in the full manuscript and, if space permits, a brief mention in the abstract of the protein source and redox conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Cysteine numbering
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The cysteines are referred to as C317 and C412 without specifying the numbering scheme (e.g., full-length protein vs. isoform), which could cause confusion.
+  - **Required correction** Clarify the numbering reference, including the protein isoform and any truncations, in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of specific cysteine involvement and computational structure assessment are not supported by the abstract-level evidence. R1-M3 is non-blocking but requires clarification to avoid overstatement.
+- **Assessment against Nature-style criteria** Originality: The study addresses a specific gap in cryptochrome dimerisation, which is a niche but relevant topic; the combined experimental-computational approach is not entirely novel but is appropriate. Scientific importance: The potential link to magnetoreception is significant, but the abstract does not establish a functional connection, limiting the immediate impact. Interdisciplinary readership: The topic bridges structural biology, biophysics, and behavioural ecology, but the abstract is too technical for nonspecialists without context on cryptochrome function. Technical soundness: The experimental techniques are appropriate, but the lack of quantitative data and validation prevents assessment of robustness. Readability for nonspecialists: The abstract is concise but assumes familiarity with cryptochrome biology and mass spectrometry; a brief background on magnetoreception would improve accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient quantitative or methodological detail to support the core claims. I would be supportive if the full manuscript addresses the blocking concerns with robust data and validation.
+
+## Risk / unsupported claims
+- The claim that disulphide-linked dimers are "routinely formed" is unsupported without quantitative data.
+- The specific identification of C317 and C412 as the most likely cysteines is not verifiable from the abstract.
+- The relevance of dimerisation to avian magnetoreception is stated but not mechanistically supported.
+- The computational dimer structures are described but not validated or compared with experimental data in the abstract.

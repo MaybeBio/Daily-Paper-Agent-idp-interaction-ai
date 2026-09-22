@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, materials and methods, and data availability statements. Figures, tables, and supplementary materials were not provided.
+- **Assessment boundary** The scientific claims, methodological soundness, and evidentiary support as presented in the text. No assessment of formatting, grammar, or editorial style beyond what affects scientific clarity.
+- **Shared manuscript claim summary** The authors propose that Bik1, a CLIP-170 family member, forms liquid condensates whose internal structure is a fluid fractal network, and that this structure arises from multivalent interactions between folded and disordered domains, providing evidence for percolation-based models of biomolecular condensates.
+- **Visible evidence base** Text descriptions of AlphaFold predictions, SEC-SAXS data, CD spectroscopy, fluorescence microscopy, and qualitative and quantitative crosslinking mass spectrometry. Data availability statements reference external repositories.
+- **Missing materials affecting confidence** All figures, tables, supplementary figures, and movies are referenced but not provided. This includes Figure 1-5, Figure S1-S10, Tables S1-S5, and Movie 1. Without these, the quantitative results, structural models, and microscopy data cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in the field of biomolecular condensates: the internal structural organization of a multidomain +TIP protein in its condensed phase. The combination of solution structural biology, crosslinking mass spectrometry, and SAXS-based modeling of the condensed state is ambitious and potentially impactful. However, the current text, without access to the figures and tables, leaves several key claims insufficiently supported. The central assertion of a fractal network with dimension d ≈ 2 rests on a single SAXS power-law observation, and the interpretation of crosslinking data as evidence for specific conformational rearrangements requires more rigorous quantitative support. The manuscript is well-written and the experimental design is thoughtful, but the evidence as presented is not yet sufficient to fully establish the percolation-based model proposed.
+- **Who would be interested in the results, and why** Researchers studying phase separation and biomolecular condensates, particularly those focused on the structural biology of multidomain proteins. The work is also relevant to the microtubule cytoskeleton community, as it provides new insights into the biophysical properties of +TIP networks. The methodological framework combining SAXS, XL-MS, and computational modeling may be of interest to biophysicists and structural biologists working on other condensate-forming systems.
+- **Major strengths** The study tackles a difficult structural problem: characterizing the internal organization of a protein condensate. The use of multiple orthogonal techniques (SAXS, XL-MS, CD, microscopy) is commendable. The focus on a biologically relevant protein (Bik1) with clear links to cellular function adds significance. The quantitative crosslinking approach, if validated, could be a powerful tool for studying conformational changes during phase separation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "In contrast to classical liquids, the supramolecular structure of the Bik1 condensate is heterogeneous, with a fractal structure of protein-rich and protein-free domains."
+  - **Evidence pointer** Figure 5A, Figure 5C, Figure S9
+  - **Concern** The claim of a fractal network with dimension d ≈ 2 is based on a power-law decay of the SAXS intensity (I(q) ∝ q⁻²) over a limited q-range. The text states this extends "from the lowest q reached in the SAXS data (from > 3000 Å) down to about 300 Å," which is approximately one decade in length scale. This is a narrow range to robustly establish a fractal dimension. Furthermore, the interpretation of a q⁻² power law is not unique; it could also arise from other structural models, such as Gaussian polymer-like chains or randomly oriented flat sheets. The modeling with Gaussian blobs and spherocylinders is described, but without the figures showing the quality of the fits and the comparison between models, it is impossible to assess whether the fractal model is uniquely favored over alternative arrangements.
+  - **Why it matters** The fractal network is the central structural finding of the paper and the basis for the percolation interpretation. If this claim is not robustly supported, the entire conceptual framework of the paper is weakened.
+  - **Resolution test** Provide the SAXS data with the power-law fit over the full q-range, including error bars. Show a comparison of the fits using the fractal model versus alternative models (e.g., a collection of independent rods, a branched network without fractal scaling). Demonstrate that the fractal dimension is stable across multiple independent measurements and sample preparations. If possible, provide a quantitative measure of the goodness-of-fit for the fractal model versus alternatives.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Liquid condensation is accompanied by a 2-3-fold rise in interactions between the protein's folded and disordered domains."
+  - **Evidence pointer** Figure 3, Figure 4, Tables S2-S4
+  - **Concern** The quantitative crosslinking claim of a 2-3-fold rise in specific interactions is based on the intensity of crosslinked peptides measured by PRM. The text describes normalization to "householder" peptides and statistical testing, but the details of the quantification, the number of replicates, the variability between replicates, and the criteria for selecting "conformospecific" crosslinks are not fully described in the provided text. The volcano plot (Figure 4D) is mentioned, but the actual data points, the significance thresholds, and the effect sizes for the specific crosslinks discussed are not visible. Without this information, it is difficult to assess the robustness of the quantitative claim.
+  - **Why it matters** This quantitative change in interactions is used to support the model of conformational rearrangement during condensation. If the quantification is not reliable, the mechanistic interpretation is compromised.
+  - **Resolution test** Provide the full quantitative data for all crosslinks analyzed, including the raw intensities, normalized values, fold-changes, and p-values for each condition. Show the reproducibility across replicates. Clearly define the criteria for "conformospecific" and justify the selection of the 12 crosslinks for PRM analysis. Provide the data for the "householder" peptides and demonstrate their stability across conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** "This observation provides structural evidence in support of recent models of biomolecular condensates based on percolation."
+  - **Evidence pointer** Discussion section
+  - **Concern** The link between the observed fractal structure and the specific theoretical model of percolation is made in the discussion, but the text does not provide a detailed argument for why this specific model is favored over other possible explanations for fractal-like structures in soft materials. The connection between the fractal dimension d ≈ 2 and the percolation model is not quantitatively established. The text mentions that percolation models have been proposed for condensates, but does not show how the measured fractal dimension and the estimated volume fraction of Bik1 in condensates (from reference 20) map onto the predictions of these models.
+  - **Why it matters** The percolation interpretation is a key conceptual contribution of the paper. Without a more rigorous connection to the theoretical framework, the claim remains speculative.
+  - **Resolution test** Provide a more detailed quantitative comparison between the measured fractal dimension and the predictions of percolation theory. Discuss alternative models (e.g., transient network formation, gelation) and explain why the data favor percolation. If possible, estimate the critical exponents or other parameters that would distinguish between models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, "Domain organization and phase-separation of Bik1"
+  - **Evidence pointer** Figure 1C, Figure 1D
+  - **Issue** The text states "the phase separation of Bik1 FL depends on both protein and salt concentrations (Figure 1C, D)" but the figure is not provided. The text also contains a broken reference "Figure 1 Error! Reference source not found. D" which suggests a formatting error.
+  - **Required correction** Fix the broken reference. Ensure the phase diagram or the data showing the dependence on protein and salt concentrations is clearly presented in the figure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, "Standard chemical crosslinking analysis"
+  - **Evidence pointer** Figure 3A, Figure 3B
+  - **Issue** The text describes "four types of crosslinked peptides" and defines them, but the distinction between "crosslinks" and "selflinks" is not immediately clear. A selflink is defined as "when two amino acids at the same position form a covalent bond, indicating the presence of oligomers." This is a somewhat unusual definition, as a selflink could also occur within a single dimer. The text should clarify this.
+  - **Required correction** Clarify the definition of "selflink" and how it is distinguished from an inter-molecular crosslink between two different monomers in a dimer.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods, "Small-angle X-ray scattering (SAXS) measurements of phase-separated Bik1 samples"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the SAXS data fitting is detailed but the criteria for accepting or rejecting a fit are not fully specified. The text mentions "only those improving χ² of the fit are accepted" but does not state the convergence criteria or how the final fit was determined to be optimal.
+  - **Required correction** Provide more detail on the fitting procedure, including the number of iterations, the convergence criteria, and how the final model was selected.
+
+## Risk / unsupported claims
+- The claim of a fractal network with dimension d ≈ 2 is based on a limited q-range and is not uniquely interpretable without the full data and fit comparisons.
+- The quantitative claim of a 2-3-fold rise in interactions is not fully supported by the provided text, as the details of the PRM quantification and statistical analysis are incomplete.
+- The interpretation of the fractal structure as evidence for percolation is speculative and not quantitatively linked to the theoretical model.
+- The statement that "the distribution of Bik1 dimers is uniform throughout the droplet" is based on fluorescence microscopy, but the resolution limit of this technique may not be sufficient to rule out heterogeneity at the nanoscale, which is the scale probed by SAXS.
+- The claim that "the overall shape of the Bik1 dimer is dominated by the elongated conformation of the coiled-coil domain" is based on SAXS envelope comparison, but the resolution of the envelope (61 ± 4 Å) is low and may not be sufficient to distinguish between different conformations of the terminal domains.

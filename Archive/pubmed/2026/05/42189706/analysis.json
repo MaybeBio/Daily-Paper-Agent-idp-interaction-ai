@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42189706",
+  "title": "Enzymatic Encoding of Topology in an Intrinsically Disordered Single-Chain Protein.",
+  "authors": "Johani, Joshua; Eichelberger, Kristin; Guskova, Olga; Dunjwa, Simbulele Charlotte; Bolinsson, Hans; Borjesdotter, Anna-Maria; Nilsson, Lars; Jaros, Doris; Rohm, Harald; Lederer, Albena",
+  "journal": "Angewandte Chemie (International ed. in English)",
+  "published_date": "2026-05-26",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过酶促交联在无序蛋白单链中编码拓扑结构，并用MD模拟等解析其紧凑腔体构象，虽非PPI互作，但无序蛋白构象拓扑的建模思路对IDR介导互作机制研究有可迁移启发。",
+  "abstract": "Controlling the three-dimensional topology of single-chain nanoparticles (SCNPs) remains a central challenge in polymer and protein chemistry, particularly for intrinsically disordered systems lacking defined secondary structure. Here, we demonstrate that selective enzymatic intramolecular cross-linking can encode topologically biased interactions in an intrinsically disordered protein (IDP), yielding compact SCNPs with reproducible cavity architecture. Using beta-casein-rich sodium caseinate (betaNaCn) as a model surrogate for bovine beta-casein (beta-Cn), microbial transglutaminase (mTGase) introduces sparse, sequence-resolved glutamine-lysine isopeptide bonds that drive reproducible chain collapse without inducing secondary structure. Analyses by size exclusion chromatography with quintuple detection (SEC-D5), cross-linking mass spectrometry (XL-MS), molecular dynamics (MD) simulations, and SEC coupled to synchrotron small-angle x-ray scattering (SEC-SAXS) converge to reveal a topology combining a stable, compact, hydrophobic core with flexible, disordered loops. These cavities are probed using Nile red (NR) fluorescence and SEC-SAXS, which together provide topology information via guest-induced density redistribution after NR capture. This work establishes that sparse enzymatic constraint installation, combined with residue-resolved cross-link mapping and orthogonal structural analysis, can encode and validate topology in a disordered single chain, thereby placing IDP-like covalent folding in direct conceptual continuity with SCNP design.",
+  "abstract_zh": "控制单链纳米颗粒（SCNPs）的三维拓扑结构仍是聚合物和蛋白质化学中的核心挑战，尤其是在缺乏明确二级结构的固有无序系统中。在此，我们证明选择性酶促分子内交联可以在固有无序蛋白（IDP）中编码拓扑偏向性相互作用，从而生成具有可重复空腔结构的紧凑型SCNPs。以富含β-酪蛋白的酪蛋白酸钠（betaNaCn）作为牛β-酪蛋白（beta-Cn）的模型替代物，微生物转谷氨酰胺酶（mTGase）引入稀疏的、序列分辨的谷氨酰胺-赖氨酸异肽键，驱动可重复的链塌缩而不诱导二级结构。通过尺寸排阻色谱五重检测（SEC-D5）、交联质谱（XL-MS）、分子动力学（MD）模拟以及SEC耦合同步辐射小角X射线散射（SEC-SAXS）的分析，共同揭示了一种结合稳定紧凑疏水核心与柔性无序环的拓扑结构。这些空腔通过尼罗红（NR）荧光和SEC-SAXS进行探测，两者结合在NR捕获后通过客体诱导的密度再分布提供拓扑信息。本研究确立了稀疏酶促约束安装，结合残基分辨交联图谱和正交结构分析，可以在无序单链中编码并验证拓扑结构，从而使类IDP共价折叠与SCNP设计在概念上直接连续。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42189706/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42189706/",
+  "paper_page_path": "papers/pubmed/42189706/index.html"
+}

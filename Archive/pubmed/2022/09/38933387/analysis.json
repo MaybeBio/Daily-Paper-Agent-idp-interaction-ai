@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38933387",
+  "title": "Optogenetic control of GGGGCC repeat-containing RNA phase transition.",
+  "authors": "Li, Xiong; Lu, Shengyi; Lu, Boxun; Sun, Xiaoli",
+  "journal": "Fundamental research",
+  "published_date": "2022-09-09",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文构建光遗传系统诱导C9ORF72中GGGGCC重复RNA的相分离，结合计算模拟验证相分离倾向，虽对象为RNA而非蛋白互作，但相分离机制建模思路对IDR介导的凝聚体PPI研究有可迁移启发。",
+  "abstract": "The GGGGCC (G(4)C(2)) hexanucleotide repeat expansion in the C9ORF72 gene is a major cause of both hereditary amyotrophic lateral sclerosis and familial frontotemporal dementia. Recent studies have shown that G(4)C(2) hexanucleotide repeat-containing RNA transcripts ((G(4)C(2))(n) RNA) could go through liquid-liquid phase separation to form RNA foci, which may elicit neurodegeneration. However, the direct causality between these abnormal RNA foci and neuronal toxicity remains to be demonstrated. Here we introduce an optogenetic control system that can induce the assembly and phase separation of (G(4)C(2))(n) RNA foci with blue light illumination in human cells, by fusing a specific (G(4)C(2))(n) RNA binding protein as the linker domain to Cry2, a protein that oligomerizes in response to blue light. Our results demonstrate that a higher number of G(4)C(2) repeats have the potential to be induced into more RNA foci in the cells. Both spontaneous and induced RNA foci display liquid-like properties according to FRAP measurements. Computational simulation shows strong consistency with the experimental results and supports the effect of our system to promote the propensity of (G(4)C(2))(n) RNA towards phase separation. This system can thus be used to investigate whether (G(4)C(2))(n) RNA foci would disrupt normal cellular processes and lead to pathological phenotypes relevant to repeat expansion disorders.",
+  "abstract_zh": "C9ORF72基因中的GGGGCC（G(4)C(2)）六核苷酸重复扩增是遗传性肌萎缩侧索硬化症和家族性额颞叶痴呆的主要原因。近期研究表明，含有G(4)C(2)六核苷酸重复的RNA转录本（(G(4)C(2))(n) RNA）可通过液-液相分离形成RNA foci，这可能引发神经退行性变。然而，这些异常RNA foci与神经元毒性之间的直接因果关系仍有待证实。在此，我们引入一种光遗传学控制系统，通过将特定的(G(4)C(2))(n) RNA结合蛋白作为连接域融合到Cry2（一种响应蓝光而寡聚化的蛋白质）上，可在蓝光照射下诱导人类细胞中(G(4)C(2))(n) RNA foci的组装和相分离。我们的结果表明，较高数量的G(4)C(2)重复序列在细胞中具有被诱导形成更多RNA foci的潜力。根据FRAP测量，自发和诱导的RNA foci均表现出液体样特性。计算模拟与实验结果高度一致，并支持我们的系统促进(G(4)C(2))(n) RNA向相分离倾向的作用。因此，该系统可用于研究(G(4)C(2))(n) RNA foci是否会破坏正常细胞过程并导致与重复扩增疾病相关的病理表型。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38933387/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38933387/",
+  "paper_page_path": "papers/pubmed/38933387/index.html"
+}

@@ -1,0 +1,307 @@
+{
+  "identity": {
+    "pmid": "36829461",
+    "doi": "10.3390/biology12020182",
+    "title": "How AlphaFold2 Predicts Conditionally Folding Regions Annotated in an Intrinsically Disordered Protein Database, IDEAL."
+  },
+  "content": {
+    "abstract": "AlphaFold2 (AF2) is a protein structure prediction program which provides accurate models. In addition to predicting structural domains, AF2 assigns intrinsically disordered regions (IDRs) by identifying regions with low prediction reliability (pLDDT). Some regions in IDRs undergo disorder-to-order transition upon binding the interaction partner. Here we assessed model structures of AF2 based on the annotations in IDEAL, in which segments with disorder-to-order transition have been collected as Protean Segments (ProSs). We non-redundantly selected ProSs from IDEAL and classified them based on the root mean square deviation to the corresponding region of AF2 models. Statistical analysis identified 11 structural and sequential features, possibly contributing toward the prediction of ProS structures. These features were categorized into two groups: one that contained pLDDT and the other that contained normalized radius of gyration. The typical ProS structures in the former group comprise a long alpha helix or a whole or part of the structural domain and those in the latter group comprise a short alpha helix with terminal loops.",
+    "keywords": [
+      "assessment of prediction",
+      "database",
+      "intrinsically disordered regions",
+      "protein structure prediction"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Anbo, Hiroto",
+        "Sakuma, Koya",
+        "Fukuchi, Satoshi",
+        "Ota, Motonori"
+      ],
+      "short_names": [
+        "Anbo H",
+        "Sakuma K",
+        "Fukuchi S",
+        "Ota M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0408-0901",
+        "ORCID: 0000-0003-2083-0979",
+        "ORCID: 0000-0001-9090-668X"
+      ],
+      "affiliations": [
+        "Faculty of Engineering, Maebashi Institute of Technology, Maebashi 371-0816, Japan.",
+        "Graduate School of Informatics, Nagoya University, Nagoya 464-8601, Japan.",
+        "Faculty of Engineering, Maebashi Institute of Technology, Maebashi 371-0816, Japan.",
+        "Graduate School of Informatics, Nagoya University, Nagoya 464-8601, Japan.",
+        "Institute for Glyco-core Research, Nagoya University, Nagoya 464-8601, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Anbo, Hiroto",
+        "short_name": "Anbo H",
+        "identifiers": [
+          "0000-0003-0408-0901"
+        ],
+        "affiliations": [
+          "Faculty of Engineering, Maebashi Institute of Technology, Maebashi 371-0816, Japan."
+        ]
+      },
+      {
+        "full_name": "Sakuma, Koya",
+        "short_name": "Sakuma K",
+        "identifiers": [
+          "0000-0003-2083-0979"
+        ],
+        "affiliations": [
+          "Graduate School of Informatics, Nagoya University, Nagoya 464-8601, Japan."
+        ]
+      },
+      {
+        "full_name": "Fukuchi, Satoshi",
+        "short_name": "Fukuchi S",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Engineering, Maebashi Institute of Technology, Maebashi 371-0816, Japan."
+        ]
+      },
+      {
+        "full_name": "Ota, Motonori",
+        "short_name": "Ota M",
+        "identifiers": [
+          "0000-0001-9090-668X"
+        ],
+        "affiliations": [
+          "Graduate School of Informatics, Nagoya University, Nagoya 464-8601, Japan.",
+          "Institute for Glyco-core Research, Nagoya University, Nagoya 464-8601, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biology"
+    ],
+    "journal_abbrev": [
+      "Biology (Basel)"
+    ],
+    "pub_date": "2023 Jan 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/26 06:00",
+    "fetched_at": "2026-09-20 19:29:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37878721",
+      "36344848",
+      "34757056",
+      "34533838",
+      "34265844",
+      "33237286",
+      "32015543",
+      "29385418",
+      "28573592",
+      "24178034",
+      "22689782",
+      "22067451",
+      "21047797",
+      "20117254",
+      "19412530",
+      "18831792",
+      "18821796",
+      "17289999",
+      "16935303",
+      "16697407",
+      "16645638",
+      "16288918",
+      "15943980",
+      "15738986",
+      "15476259",
+      "15019783",
+      "12381310",
+      "12022860",
+      "11516394",
+      "10570134",
+      "8861913",
+      "7780738",
+      "6667333"
+    ],
+    "similar": [
+      "36829461",
+      "37878721",
+      "37892124",
+      "28250616",
+      "29066345",
+      "36291675",
+      "35562983",
+      "27450808",
+      "38213902",
+      "37722056",
+      "38124369",
+      "38739602",
+      "35739160",
+      "38761500",
+      "27179590",
+      "28381244",
+      "28365882",
+      "35139468",
+      "22067451",
+      "33304713",
+      "39253485",
+      "36304335",
+      "36959451",
+      "36210722",
+      "30841624",
+      "31756456",
+      "31441158",
+      "36906658",
+      "36306150",
+      "36833360",
+      "39253449",
+      "38226524",
+      "34418423",
+      "36008992",
+      "36908253",
+      "31207240",
+      "29076577",
+      "25631540",
+      "21647374",
+      "36769074",
+      "36851914",
+      "18831774",
+      "27881680",
+      "38238291",
+      "38297184",
+      "37904585",
+      "34179096",
+      "33866372",
+      "32824743",
+      "26684000",
+      "36458437",
+      "37257257",
+      "35634782",
+      "36525975",
+      "35275927",
+      "37760106",
+      "39115813",
+      "38995544",
+      "36529689",
+      "36712039",
+      "38496487",
+      "26366527",
+      "35883444",
+      "36575582",
+      "36291695",
+      "37709009",
+      "28355271",
+      "23142703",
+      "37704686",
+      "36929465",
+      "33810353",
+      "36318239",
+      "35310482",
+      "30135358",
+      "33194509",
+      "32253236",
+      "35098694",
+      "31797595",
+      "24178034",
+      "38166858",
+      "20522251",
+      "31709918",
+      "35507260",
+      "24027208",
+      "23723000",
+      "23912807",
+      "25391399",
+      "35898309",
+      "24086265",
+      "31007871",
+      "38917639",
+      "39032884",
+      "37516933",
+      "31793295",
+      "38753765",
+      "39093570",
+      "29595057",
+      "38791287",
+      "33406091",
+      "31357385",
+      "30299594",
+      "37985809",
+      "39402428",
+      "38168383"
+    ],
+    "review": [
+      "36829461",
+      "38124369",
+      "38761500",
+      "35139468",
+      "36959451",
+      "31441158",
+      "36833360",
+      "34418423",
+      "25631540",
+      "36851914",
+      "33194509",
+      "32253236",
+      "35098694",
+      "31709918",
+      "24027208",
+      "31007871",
+      "39093570",
+      "31357385",
+      "30299594",
+      "39402428"
+    ],
+    "pmc": [
+      "9952413"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biology12020182",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36829461/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36829461",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2705",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

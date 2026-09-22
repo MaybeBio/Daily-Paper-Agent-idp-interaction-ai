@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42041496",
+  "title": "Intrinsic Disorder as a Biomimetic Design Paradigm.",
+  "authors": "Puccinelli, Thiago; Bordin, Jose Rafael",
+  "journal": "Biomimetics (Basel, Switzerland)",
+  "published_date": "2026-04-27",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该观点文章将内在无序作为仿生设计范式，从软物质角度阐述IDR的统计系综与弱多价互作机制，并提及粗粒化建模和机器学习方法，虽非具体PPI研究，但对无序蛋白互作机制建模有启发。",
+  "abstract": "Molecular engineering has traditionally followed a structure-function paradigm based on well-defined, folded architectures. However, intrinsically disordered proteins and regions (IDPs/IDRs) reveal that nature also exploits disorder as a functional design strategy. Here, we argue that intrinsic disorder can be understood as a biomimetic design principle for molecular and materials engineering. From a soft matter perspective, IDRs function through statistical ensembles, weak multivalent interactions, and collective behavior rather than fixed structure, with sequence features encoding a molecular grammar that governs phase behavior, viscoelasticity, and responsiveness. These principles closely parallel those found in associative polymers and colloidal systems. Recent advances in coarse-grained modeling, machine learning, and inverse design further enable disorder to be treated as a controllable engineering variable. By reframing intrinsic disorder as a programmable and bioinspired design strategy, this Perspective highlights its potential for the development of adaptive and responsive biomimetic materials.",
+  "abstract_zh": "分子工程传统上遵循基于明确折叠架构的结构-功能范式。然而，固有无序蛋白及区域（IDPs/IDRs）揭示，自然界也将无序性作为一种功能性设计策略加以利用。在此，我们认为，固有无序性可被理解为分子与材料工程中的一种仿生设计原则。从软物质视角来看，IDRs通过统计系综、弱多价相互作用和集体行为发挥作用，而非依赖固定结构，其序列特征编码了一种分子语法，调控相行为、粘弹性和响应性。这些原则与缔合聚合物和胶体系统中的原则高度相似。粗粒化建模、机器学习和逆向设计的最新进展，进一步使无序性能够被视为一种可控的工程变量。通过将固有无序性重新定义为一种可编程且受生物启发的设计策略，本展望强调了其在开发自适应和响应性仿生材料方面的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42041496/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42041496/",
+  "paper_page_path": "papers/pubmed/42041496/index.html"
+}

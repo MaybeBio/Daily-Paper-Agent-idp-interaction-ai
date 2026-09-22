@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33538595",
+  "title": "Membrane Remodeling and Stimulation of Aggregation Following alpha-Synuclein Adsorption to Phosphotidylserine Vesicles.",
+  "authors": "Hoover, Brandon M; Shen, Zhizhang; Gahan, Curran G; Lynn, David M; Van Lehn, Reid C; Murphy, Regina M",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-02-05",
+  "window": {
+    "start": "2021-02-01",
+    "end": "2021-02-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合粗粒化分子动力学模拟与实验，揭示α-突触核蛋白(IDP)吸附到不同脂质囊泡后诱导膜重塑并促进其聚集的机制，虽非直接PPI建模，但为IDP-膜互作及聚集机制提供了可迁移的物理模拟思路。",
+  "abstract": "alpha-Synuclein is an intrinsically disordered protein abundant in presynaptic terminals in neurons and in synaptic vesicles. alpha-Synuclein's interaction with lipid bilayers is important not only for its normal physiological function but also in its pathological aggregation and deposition as Lewy bodies in Parkinson's disease. alpha-Synuclein binds preferentially to lipids with acidic head groups and to high-curvature vesicles and can modulate membrane curvature. The relationship between the protein's role as a membrane curvature sensor and generator and the role of membranes in facilitating its aggregation remains unknown. We investigated the interaction of alpha-synuclein with vesicles of 1,2-dioleoyl-sn-glycero-3-phospho-l-serine (DOPS) or 1,2-dilauroyl-sn-glycero-3-phospho-l-serine (DLPS). Using nanoparticle tracking along with electron microscopy, we demonstrate that alpha-synuclein induces extensive vesicle disruption and membrane remodeling into discoids, tubules, and ribbons with DLPS vesicles but not DOPS. Coarse-grained molecular dynamics simulations revealed that adsorption of alpha-synuclein to DLPS but not DOPS vesicles induced vesicle elongation and redistribution of protein to regions of higher curvature, a process that could drive protein aggregation. In agreement with this hypothesis, DLPS but not DOPS strongly stimulated alpha-synuclein aggregation. Our results provide new insights into the critical contribution of bilayer stability in the membrane response to alpha-synuclein adsorption and in stimulation of aggregation.",
+  "abstract_zh": "α-Synuclein是一种 intrinsically disordered protein，在神经元的突触前末梢和突触囊泡中含量丰富。α-Synuclein与脂质双层的相互作用不仅对其正常生理功能至关重要，而且与其在帕金森病中作为Lewy小体的病理性聚集和沉积有关。α-Synuclein优先结合具有酸性头部基团的脂质和高曲率囊泡，并能调节膜曲率。该蛋白作为膜曲率传感器和生成器的角色与膜在促进其聚集中的作用之间的关系仍不清楚。我们研究了α-synuclein与1,2-dioleoyl-sn-glycero-3-phospho-l-serine (DOPS) 或 1,2-dilauroyl-sn-glycero-3-phospho-l-serine (DLPS) 囊泡的相互作用。利用纳米颗粒追踪结合电子显微镜，我们证明α-synuclein诱导DLPS囊泡发生广泛的囊泡破裂和膜重塑，形成盘状体、管状体和带状结构，而DOPS则无此现象。粗粒化分子动力学 (coarse-grained molecular dynamics) 模拟揭示，α-synuclein吸附到DLPS而非DOPS囊泡上，诱导囊泡伸长和蛋白向更高曲率区域的重新分布，这一过程可能驱动蛋白聚集。与该假设一致，DLPS而非DOPS强烈刺激α-synuclein聚集。我们的结果为双层稳定性在膜对α-synuclein吸附响应及聚集刺激中的关键贡献提供了新见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33538595/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33538595/",
+  "paper_page_path": "papers/pubmed/33538595/index.html"
+}

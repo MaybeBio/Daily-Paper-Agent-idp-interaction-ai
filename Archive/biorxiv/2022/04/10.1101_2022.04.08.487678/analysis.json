@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.08.487678",
+  "title": "Mutational scan inferred binding energetics and structure in intrinsically disordered protein CcdA",
+  "authors": "Soumyanetra Chandra; Kavyashree Manjunath; Aparna Asok; Raghavan Varadarajan",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-08",
+  "window": {
+    "start": "2022-04-04",
+    "end": "2022-04-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过深度突变扫描定量解析无序蛋白CcdA的结合能量学与结合态结构，并建立预测突变对结合亲和力影响的模型，直接聚焦IDP介导的PPI机制建模，方法上虽非AI/物理模拟但具可迁移性。",
+  "abstract": "Unlike globular proteins, mutational effects on the function of Intrinsically Disordered Proteins (IDPs) are not well-studied. Deep Mutational Scanning of a yeast surface displayed mutant library yields insights into sequence-function relationships in the CcdA IDP. The approach enables facile prediction of interface residues and local structural signatures of the bound conformation. In contrast to previous titration-based approaches which use a number of ligand concentrations, we show that use of a single rationally chosen ligand concentration can provide quantitative estimates of relative binding constants for large numbers of protein variants. This is because the extended interface of IDP ensures that energetic effects of point mutations are spread over a much smaller range than for globular proteins. Our data also provides insights into the much-debated role of helicity and disorder in partner binding of IDPs. Based on this exhaustive mutational sensitivity dataset, a model was developed to predict mutational effects on binding affinity of IDPs that form alpha-helical structures upon binding.",
+  "abstract_zh": "与球状蛋白不同，内在无序蛋白（IDPs）功能上的突变效应尚未得到充分研究。对酵母表面展示的突变体文库进行深度突变扫描，揭示了CcdA IDP中序列-功能关系的见解。该方法便于预测结合构象中的界面残基和局部结构特征。与先前使用多种配体浓度的基于滴定的方法相比，我们表明，使用单一合理选择的配体浓度即可为大量蛋白质变体提供相对结合常数的定量估计。这是因为IDP的扩展界面确保了点突变的能量效应分布范围远小于球状蛋白。我们的数据还为IDP在伴侣结合中螺旋性和无序性的广泛争议作用提供了见解。基于这一详尽的突变敏感性数据集，开发了一个模型，用于预测在结合时形成α-螺旋结构的IDP的突变对结合亲和力的影响。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.08.487678",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.08.487678",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.08.487678/index.html"
+}

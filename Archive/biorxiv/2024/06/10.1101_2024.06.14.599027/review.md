@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract and biological significance section
+- **Assessment boundary** Claims and evidence presented in the supplied abstract and significance text only
+- **Shared manuscript claim summary** The authors use residue-resolution molecular dynamics simulations to study condensates formed by four master transcription factors (Oct4, Sox2, Klf4, Nanog) in embryonic stem cells. They report that Sox2, Klf4, and Nanog form mixed condensates with micelle-like structures, Klf4 acts as a scaffold, and Oct4 is largely dissolved and weakly recruited as a client via interaction with Sox2.
+- **Visible evidence base** Abstract text and biological significance section only
+- **Missing materials affecting confidence** Full manuscript, simulation methods, force field parameters, system setup, simulation length, convergence criteria, quantitative results, figures, and tables
+
+## Reviewer
+- **Overall assessment** The study addresses an important and timely question about the molecular organization of multicomponent biomolecular condensates involving transcription factors. The use of residue-resolution molecular dynamics simulations is appropriate for probing heterogeneous assemblies. However, the abstract provides only qualitative claims without quantitative support, and the absence of methodological details prevents assessment of simulation validity. The biological significance section is largely redundant with the abstract and does not add mechanistic depth. The core claims about scaffold-client relationships and micelle-like structures are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of phase separation, transcription regulation, and stem cell biology would be interested. The study offers a molecular-level view of how multiple transcription factors organize in condensates, which is relevant to understanding transcriptional control mechanisms and the biophysical principles of multicomponent condensates.
+- **Major strengths** The study tackles a biologically important and technically challenging problem, namely the behavior of four transcription factors in mixed condensates. The use of residue-resolution simulations is a suitable approach for capturing heterogeneous interactions. The identification of Klf4 as a potential scaffold and Oct4 as a client provides a testable conceptual framework.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that simulations showed "highly heterogeneous and dynamic behaviors" and that "condensates mainly contained Sox2, Klf4, and Nanog, while Oct4 was dissolved into the dilute phase"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No quantitative data are provided to support the compositional partitioning of proteins between condensate and dilute phases. The abstract does not report concentrations, partition coefficients, or any statistical measures of enrichment or depletion.
+  - **Why it matters** The central claim of selective incorporation and exclusion depends on quantitative comparison. Without such data, the claim is not verifiable and could reflect simulation artifacts such as insufficient sampling or finite-size effects.
+  - **Resolution test** Provide quantitative measures of protein partitioning, such as density profiles, enrichment ratios, or free energy differences, with error estimates and convergence checks.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "Klf4 serves as a scaffold of the condensate where Sox2 and Nanog are bound to stabilize the condensate"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The scaffold-client designation is asserted without supporting evidence. No data on interaction networks, contact frequencies, or binding free energies are presented to substantiate the claim that Klf4 is central and that Sox2 and Nanog stabilize the condensate.
+  - **Why it matters** The scaffold-client model is a key conceptual contribution. Without evidence of interaction topology or energetic contributions, the claim is speculative and could be an oversimplification of a more distributed interaction network.
+  - **Resolution test** Provide contact maps, interaction energy decomposition, or perturbation analyses (e.g., removal of each protein) to demonstrate the scaffold role of Klf4 and the stabilizing roles of Sox2 and Nanog.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "The three proteins formed micelle-like structures as was recently found in the Nanog condensate"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The micelle-like structural assignment is presented without any structural characterization. No details on cluster morphology, size distributions, or orientational ordering are given.
+  - **Why it matters** The structural interpretation is central to the proposed organization model. Without quantitative structural analysis, the claim cannot be distinguished from other possible arrangements such as random aggregates or layered structures.
+  - **Resolution test** Provide structural metrics such as radial distribution functions, cluster shape analysis, or visual representations with quantitative descriptors to support the micelle-like assignment.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The overall simulation study and its conclusions
+  - **Evidence pointer** Abstract and biological significance, location not provided
+  - **Concern** No methodological information is provided in the supplied material. Force field, water model, salt concentration, system size, simulation time, temperature, and analysis protocols are all absent.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational studies. Without these details, the results cannot be evaluated or replicated, and the conclusions cannot be trusted.
+  - **Resolution test** Provide full methods in the manuscript, including all simulation parameters, equilibration procedures, and analysis details.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "loosely interacting clusters" is vague and could be interpreted in multiple ways.
+  - **Required correction** Define the term operationally, for example by specifying interaction energy thresholds or cluster lifetime criteria.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Biological interpretation
+  - **Affected element** Biological significance section
+  - **Evidence pointer** Biological significance, location not provided
+  - **Issue** The statement that "Formation of heterogeneous condensates may provide fertile local environments in cells" is speculative and not connected to any specific functional outcome.
+  - **Required correction** Either remove the speculation or provide a concrete hypothesis linking condensate organization to transcriptional output, with a suggested test.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the simulation system size or the number of protein copies per condensate, which are important for interpreting the relevance to cellular condensates.
+  - **Required correction** Add system size and protein copy numbers to the abstract or methods summary.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a relatively underexplored area of multicomponent condensates with multiple transcription factors, which is a novel contribution.
+  - Scientific importance: The topic is important for understanding transcriptional regulation and phase separation biology, but the significance is not fully established without quantitative evidence.
+  - Interdisciplinary readership: The work bridges biophysics, computational biology, and stem cell biology, which could attract a broad audience.
+  - Technical soundness: Not assessable from the supplied material due to missing methods and quantitative data.
+  - Readability for nonspecialists: The abstract is generally accessible, but the biological significance section is somewhat repetitive and could be more focused.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is interesting, but the absence of quantitative results and methodological details prevents validation. Supportive if technical concerns are resolved with full data and methods.
+
+## Risk / unsupported claims
+- The claim that Oct4 is "dissolved into the dilute phase" is unsupported without quantitative partitioning data.
+- The scaffold-client model for Klf4, Sox2, and Nanog is unsupported without interaction network or energetic analysis.
+- The micelle-like structural assignment is unsupported without structural characterization.
+- The statement that condensates "weakly recruited Oct4" is unsupported without quantitative recruitment measures.
+- The biological significance claim about "fertile local environments" is speculative and not tied to any functional evidence.

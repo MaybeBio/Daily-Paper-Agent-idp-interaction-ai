@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusion, and methods sections. Figures and tables are referenced but not fully visible; supplementary data not provided.
+- **Assessment boundary** Assessment is limited to the scientific content, methodology, and claims as presented in the provided text. Experimental details referenced from prior publications are not independently verifiable from this material.
+- **Shared manuscript claim summary** The authors present a structure-based computational workflow to design cyclic peptide inhibitors targeting the intrinsically disordered N-terminal tails of histone H4 and H2A. They report the development of HIPe, a histone H4 inhibitor that prevents histone H4-induced cell death, and CHIP, a histone H2A inhibitor that reduces monocyte adhesion. The authors claim these results demonstrate that IDPs/IDPRs are druggable targets and that their structure-based approach is a fast, simple, and widely applicable method for inhibitor development.
+- **Visible evidence base** Computational predictions (binding free energies from MM/GBSA, molecular docking, MD simulations), in vitro cell viability assays (histone H4-induced cell death), in vitro monocyte adhesion assays, and reference to prior in vivo studies in atherosclerotic mouse models.
+- **Missing materials affecting confidence** The full experimental datasets, figures, and supplementary information are not provided. Details of the in vivo experiments are only referenced from prior publications. The specific computational parameters, force field choices, and validation metrics for the docking and MD simulations are only partially described. The statistical analysis details for the cell-based assays are incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a computationally driven approach to design peptide inhibitors against disordered histone tails, with promising in vitro validation. The concept of using protein-protein complex structures as templates for inhibitor design against IDPs is interesting and timely. However, the manuscript as presented has significant limitations in the depth of computational validation, the clarity of the design rationale, and the strength of the experimental evidence. The claims of general applicability and druggability of IDPs are not fully supported by the data shown. The work is a useful methodological contribution but requires substantial revision to establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers in the fields of drug discovery, specifically those targeting protein-protein interactions and intrinsically disordered proteins. Computational chemists and structural biologists interested in peptide design and MD simulation-based affinity prediction would also find the workflow relevant. Additionally, investigators studying inflammatory diseases, NETosis, and histone-mediated pathology may be interested in the potential therapeutic leads.
+- **Major strengths** The manuscript addresses a challenging and important problem: targeting IDPs, which are generally considered difficult drug targets. The use of existing complex structures as a starting point for inhibitor design is a pragmatic and potentially powerful strategy. The authors demonstrate a clear workflow from computational design to in vitro validation. The identification of specific, functional peptide inhibitors (HIPe and CHIP) with activity in relevant assays is a tangible outcome. The discussion of the limitations of the approach and the importance of sequence specificity is thoughtful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of computational predictions
+  - **Claim pointer** The manuscript claims that the designed peptides bind to the N-terminal tails of histone H4 and H2A with high affinity and specificity, based on MM/GBSA binding free energy calculations.
+  - **Evidence pointer** Results section, Tables 1, 2, and 3; Methods section, "Binding free energy (BFE) calculation and peptide design"
+  - **Concern** The manuscript relies heavily on MM/GBSA binding free energy calculations to prioritize and select peptide candidates. However, the validation of this computational method is insufficient. The authors do not provide a correlation between predicted BFE and experimentally measured binding affinities (e.g., from ITC, SPR, or NMR). The text states that peptides with "relatively low BFE" were selected, but the absolute values and the error margins are not discussed in the context of the method's known limitations. The use of short MD simulations (500 ps) for BFE calculation on highly flexible IDP-peptide complexes is a major concern, as this timescale is likely insufficient for adequate conformational sampling. The manuscript does not address whether the predicted BFE values are robust or reproducible across different starting conformations or simulation parameters.
+  - **Why it matters** The entire design strategy is predicated on the reliability of these computational predictions. If the BFE calculations are not accurate or are not properly validated, the selection of the lead peptides (HIPe, CHIP) is not justified, and the central claim of a successful structure-based design workflow is undermined. The lack of experimental binding data makes it impossible to assess the predictive power of the computational method.
+  - **Resolution test** The authors must provide experimental binding affinity data (e.g., ITC, SPR, or NMR) for the designed peptides against their targets. They should also demonstrate a correlation between predicted and experimental binding affinities for a set of peptides, including negative controls. Additionally, they should justify the use of short MD simulations and provide evidence of convergence or use enhanced sampling techniques.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Strength of experimental validation
+  - **Claim pointer** The manuscript claims that HIPe prevents histone H4-induced cell death and that CHIP reduces monocyte adhesion, implying therapeutic potential.
+  - **Evidence pointer** Results section, "Biological activity of designed peptides to prevent histone H4-mediated cell lysis" and "Prevention of monocyte adhesion by peptidic histone H2A inhibitors"; Figures 4 and 7
+  - **Concern** The experimental validation is presented at a very high level, with key details missing. For the cell death assay, only a single concentration of histone H4 (50 µg/mL) is mentioned, and the peptide concentrations tested are not fully specified in the text. The specificity of the effect is not demonstrated; for instance, it is unclear if the peptides are non-toxic on their own or if they can block cell death induced by other histones (e.g., H3). For the adhesion assay, the effect is shown, but the mechanism is not explored. The most significant issue is that the in vivo data, which is a major part of the claim of therapeutic benefit, is only referenced from prior publications and not presented or summarized here. This makes it impossible to evaluate the strength of the in vivo evidence.
+  - **Why it matters** The manuscript's impact hinges on the biological relevance and therapeutic potential of the designed peptides. Without a clear and complete presentation of the experimental data, including dose-response relationships, specificity controls, and a summary of the in vivo results, the claims of therapeutic benefit are not supported by the evidence presented in this manuscript.
+  - **Resolution test** The authors should provide a more detailed account of the in vitro experiments, including full dose-response curves, appropriate controls (e.g., scrambled peptide, other histone subtypes), and statistical details. They should also include a summary of the key in vivo findings, even if the full details are in a prior publication, to support the claims of therapeutic benefit.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance and novelty
+  - **Claim pointer** The manuscript claims to present a novel and widely applicable structure-based method for targeting IDPs/IDPRs.
+  - **Evidence pointer** Introduction and Discussion sections
+  - **Concern** While the application to histone tails is interesting, the fundamental approach of using a bound conformation of a protein (or peptide) as a template for inhibitor design is well-established in the field of protein-protein interaction inhibition. The novelty here is the application to a disordered protein, but the manuscript does not clearly articulate what specific methodological advancements are being made to address the unique challenges of IDPs (e.g., conformational heterogeneity, lack of a single binding site). The claim that the method is "widely applicable" is an overstatement, as the success likely depends on the specific nature of the interaction and the ability to identify a stable template complex. The authors should more clearly define the scope of the method's applicability and its limitations.
+  - **Why it matters** For a Nature-style audience, the novelty and broad significance of the work are critical. If the methodological advance is incremental, the manuscript's impact is reduced. The authors need to more clearly articulate what is new and generalizable about their approach compared to existing structure-based design methods.
+  - **Resolution test** The authors should revise the introduction and discussion to more clearly state the specific challenges of targeting IDPs and how their method addresses them. They should also temper their claims of general applicability and provide a more nuanced discussion of the conditions under which this approach is likely to be successful.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Methods section, "Molecular dynamics (MD) simulations"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the MD simulations is incomplete. The specific software versions, the force field parameters for the peptides, the water model, the salt concentration, and the temperature/pressure coupling algorithms are not fully described. The criteria for selecting the "representative structure" of histone H4 from the MD simulation for docking are not stated.
+  - **Required correction** Provide a complete description of all simulation parameters, including software versions, force field details, and the protocol for selecting structures for subsequent docking studies.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Tables 1, 2, and 3
+  - **Evidence pointer** Results section
+  - **Issue** The tables list binding free energies with standard deviations, but it is unclear how many independent simulations or binding poses were used to calculate these averages. The units are given as kcal/mol, but the method of calculation (e.g., single trajectory vs. separate trajectories) is not specified.
+  - **Required correction** Clarify the number of replicates and the specific protocol used for the MM/GBSA calculations in the methods section and in the table legends.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript uses terms like "MM/GBSA" and "BFE" without defining them at first use for a general scientific audience. The concept of "disorder-to-order transition" is mentioned but not explained in sufficient detail for a non-expert.
+  - **Required correction** Define all specialized terms at first use and provide a brief explanation of key concepts like MM/GBSA and disorder-to-order transitions to make the manuscript more accessible.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Specificity of claims
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The statement that the method "can be widely applied to develop novel inhibitors for other IDPs/IDPRs" is too broad. The authors should provide a more specific discussion of the types of IDPs or IDPRs for which this approach is most suitable, considering factors like the availability of a template complex and the nature of the interaction.
+  - **Required correction** Qualify the claim of general applicability and provide a more detailed discussion of the potential scope and limitations of the method.
+- **Technical failings that need to be addressed before the case is established** The lack of experimental binding affinity data to validate the computational predictions (R1-M1) is a critical failing. The incomplete presentation of the in vitro and in vivo experimental data (R1-M2) also prevents a full assessment of the biological claims. These issues must be resolved before the central claims of the manuscript can be considered established.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of structure-based design to a disordered histone tail is a relevant and somewhat novel application, but the underlying methodology is not fundamentally new. The originality is moderate.
+  - **Scientific importance** The work addresses an important and difficult problem (targeting IDPs) and has potential implications for inflammatory diseases. However, the importance is not fully realized in this manuscript due to the lack of robust validation.
+  - **Interdisciplinary readership** The topic is of interest to computational biologists, medicinal chemists, and immunologists. The manuscript is written in a way that is accessible to these groups, but the lack of detail in some areas may limit its appeal.
+  - **Technical soundness** The technical soundness is questionable due to the lack of validation of the computational methods and the incomplete experimental data. The use of short MD simulations for BFE calculations on flexible systems is a significant concern.
+  - **Readability for nonspecialists** The manuscript is generally readable, but the methods and results sections are dense and would benefit from clearer explanations of the computational techniques and the significance of the experimental findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially interesting approach and some promising preliminary data, but the lack of experimental binding validation and the incomplete presentation of the biological data prevent a positive recommendation. Major revisions are required to address the technical and experimental concerns.
+
+## Risk / unsupported claims
+- The claim that the designed peptides bind specifically to their targets is unsupported by direct experimental binding data.
+- The claim that the computational workflow is "widely applicable" to other IDPs/IDPRs is an overstatement not supported by the evidence.
+- The claim of therapeutic benefit in an atherosclerotic mouse model is not supported by data presented in this manuscript, as it is only referenced from a prior publication.
+- The assertion that the structure-based method is "fast, simple and straightforward" is not quantified or compared to other methods.
+- The claim that the designed peptides neutralize the N-terminal tail of histone H4 by a specific mechanism is not fully supported by the experimental evidence presented.

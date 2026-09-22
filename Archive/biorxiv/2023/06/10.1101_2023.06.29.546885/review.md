@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure legends as provided.
+- **Assessment boundary** Evaluation is limited to the scientific content, experimental design, data interpretation, and claims as presented in the supplied text. No external data, unpublished results, or additional experimental details beyond those described are considered.
+- **Shared manuscript claim summary** The manuscript claims that the interaction between host G3BP1/2 and the SARS-CoV-2 nucleocapsid (N) protein, mediated by insertion of N-F17 into a hydrophobic pocket of the G3BP1 NTF2L domain, is essential for suppressing stress granule formation and promoting viral replication and pathogenesis. The authors propose that this interaction sequesters G3BP1 from its native stress granule network, thereby preventing the diversion of viral genomic RNA into stress granules, which would otherwise inhibit viral replication.
+- **Visible evidence base** The provided text includes descriptions of: mass spectrometry interactomics, pulldown assays, crystallography, surface plasmon resonance, cell-based stress granule assays, trans-complementation virus-like particle experiments, in vitro infection studies, and in vivo hamster infection models. Specific figures and supplementary figures are referenced but not shown.
+- **Missing materials affecting confidence** Figures, supplementary figures, and tables are referenced but not provided. Key experimental details such as exact numerical data, statistical outputs, representative images, and structural coordinates are absent. The manuscript appears to be a preprint and may not have undergone full peer review.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive and well-structured investigation into the functional significance of the G3BP1-N protein interaction during SARS-CoV-2 infection. The authors employ a multi-faceted approach combining structural biology, biochemistry, virology, and in vivo models to establish a mechanistic link between this interaction and viral pathogenesis. The central claim, that N-F17-mediated binding to G3BP1 suppresses stress granule formation to enhance viral replication, is supported by a logical progression of experiments. However, the absence of actual data figures and some methodological details limits the ability to fully assess the robustness of the conclusions. The in vivo data, while compelling, are presented with limited statistical and pathological detail. Overall, the work is of high interest to the virology and host-pathogen interaction fields, but several technical and presentational issues need to be addressed to solidify the case.
+- **Who would be interested in the results, and why** This work will be of significant interest to virologists studying SARS-CoV-2 pathogenesis and host-virus interactions, particularly those focused on the role of stress granules in antiviral immunity. It will also appeal to structural biologists interested in protein-protein interactions and to researchers studying the broader family of coronaviruses and other RNA viruses that target G3BP proteins. The findings have potential implications for understanding viral immune evasion and for the development of antiviral therapeutics that target this specific interaction.
+- **Major strengths** The study is logically designed, moving from defining the interaction at a molecular level to demonstrating its functional relevance in cells and in an animal model. The use of structure-guided mutagenesis to create a separation-of-function allele (N-F17A) is a powerful approach. The combination of in vitro biochemical assays, cell-based imaging, and in vivo pathogenesis studies provides strong evidence for the biological significance of the interaction. The identification of a specific residue (F17) that is critical for the interaction and conserved across variants offers a potential target for intervention.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** The claim that "Introduction of SARS-CoV-2 bearing an F17A mutation resulted in a significant decrease in viral replication and pathogenesis in vivo" is central to the paper's conclusion.
+    - **Evidence pointer** Results section, "N-F17A reduces SARS-CoV-2 replication and pathogenesis in vivo" (Figure 5).
+    - **Concern** The in vivo data are described in the text, but the actual data (weight loss curves, viral titers, histopathology images) are not provided in the supplied material. The text mentions "reduced weight loss" and "significantly lower viral titer in the lungs at 2 dpi," but without seeing the data, it is impossible to assess the magnitude of the effect, the statistical significance, or the biological relevance. The histopathology description is qualitative ("reduced overall pathology"), and the scoring method is not detailed.
+    - **Why it matters** The in vivo experiment is the key translational finding that elevates the study from a purely in vitro characterization to a demonstration of physiological relevance. If the in vivo phenotype is weak or not robustly supported by the data, the central claim that the G3BP1-N interaction is a major determinant of viral pathogenesis is weakened.
+    - **Resolution test** Provide the actual data for the hamster experiments, including individual weight loss curves, viral titers with statistical analysis, and representative histopathology images with a clear, pre-defined scoring system. The authors should also state the number of animals per group and the statistical tests used.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical rigor
+    - **Claim pointer** The claim that "mutation of F17 within the N protein led to selective loss of interaction with G3BP1 and consequent failure of the N protein to disrupt stress granule assembly."
+    - **Evidence pointer** Results section, "N-F17A specifically abolishes interaction with G3BP1/2" and "N protein rewires the G3BP1 network..." (Figures 1, 6).
+    - **Concern** The text states that N-F17A specifically abolishes interaction with G3BP1/2, but the evidence for this specificity is not fully detailed. The interactomics comparison between N-WT and N-F17A is mentioned, but the full list of proteins that change is not provided. It is possible that the F17A mutation could affect other interactions, either directly or indirectly, that contribute to the observed phenotype. The text also mentions that G3BP1 F124W "retained largely the same interactome as G3BP1 WT," but the data for this are not shown.
+    - **Why it matters** The paper's central premise is that the phenotype of N-F17A is due specifically to the loss of G3BP1 binding. If the mutation has off-target effects on other host proteins, the interpretation of the results is confounded.
+    - **Resolution test** Provide the full interactomics data for N-WT vs. N-F17A and G3BP1-WT vs. G3BP1 mutants, either as a supplementary table or a figure. A clear demonstration that the only significant changes are in G3BP1/2 is required to support the claim of specificity.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Mechanistic depth
+    - **Claim pointer** The claim that "sequestration of long viral RNAs by stress granules contributes to antiviral defense, and that the G3BP1-N interaction promotes viral infection by suppressing G3BP1-dependent stress granule formation."
+    - **Evidence pointer** Results section, "N protein rewires the G3BP1 network..." (Figure 6).
+    - **Concern** The model proposes that N protein competes with host G3BP1 interactors to disrupt stress granule formation, and that this prevents viral RNA from being sequestered. While the data show that N-F17A fails to disrupt stress granules and that viral RNA is enriched in these granules, the direct mechanistic link is not fully established. It is not clear whether the antiviral effect is solely due to physical sequestration of viral RNA, or if other stress granule functions (e.g., innate immune signaling) are also involved. The text mentions this as a hypothesis but does not provide direct evidence to distinguish between these possibilities.
+    - **Why it matters** The proposed mechanism is a key conceptual advance of the paper. A more direct test of the model would strengthen the conclusions and provide a clearer framework for future studies.
+    - **Resolution test** Perform experiments to directly test whether the antiviral effect of stress granules is due to RNA sequestration. For example, could the authors rescue viral replication in N-F17A-infected cells by knocking down a key stress granule component? Or could they show that the viral RNA sequestered in stress granules is translationally inactive?
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract
+    - **Evidence pointer** Abstract
+    - **Issue** The abstract states that the F17A mutation leads to "consequent failure of the N protein to disrupt stress granule assembly." This is a bit ambiguous. It could be interpreted as the N protein failing to disrupt stress granules, or the stress granules failing to assemble. The text later clarifies that N-F17A fails to suppress stress granule formation, but the abstract could be clearer.
+    - **Required correction** Rephrase to something like "consequent failure of the N protein to suppress stress granule assembly."
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical detail
+    - **Affected element** Methods, "Crystallography studies"
+    - **Evidence pointer** Methods section
+    - **Issue** The methods for crystallography are brief. The resolution of the structures is not stated, nor are the R-factors or other validation metrics. This is important for assessing the quality of the structural models.
+    - **Required correction** Add a supplementary table with crystallographic data collection and refinement statistics.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Statistical reporting
+    - **Affected element** Methods, "Statistics and graphs"
+    - **Evidence pointer** Methods section
+    - **Issue** The methods state that "Data distribution was assumed to be normal, but this was not formally tested." For small sample sizes (e.g., n=5 hamsters per group), this assumption may not be valid, and non-parametric tests might be more appropriate.
+    - **Required correction** State whether the data were tested for normality and, if not, justify the use of parametric tests or use non-parametric alternatives.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Interpretation
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion section
+    - **Issue** The discussion of the N-P13L mutation in Omicron is interesting but speculative. The text states that this mutation "modestly reduced the binding affinity" and "may contribute to the decreased virulence." This is presented as a possibility, but the connection to virulence is not directly tested.
+    - **Required correction** Clearly label this as a hypothesis and suggest future experiments to test it directly.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of actual data figures and tables in the provided material. The manuscript's conclusions rest on experimental results that are described but not shown. This is a major limitation for a thorough review. The specificity of the F17A mutation needs to be more rigorously demonstrated with full interactomics data. The in vivo experiment needs more detailed reporting of the data and statistical analysis. The mechanistic link between stress granule formation and viral RNA sequestration needs to be tested more directly.
+- **Assessment against Nature-style criteria** 
+    - **Originality** The work is original in its detailed structural and functional dissection of the G3BP1-N interaction and its application to a clinically relevant in vivo model. The concept of viral "rewiring" of the G3BP1 network is not entirely new, but the specific focus on SARS-CoV-2 and the identification of a potential therapeutic target (N-F17) provides a fresh angle.
+    - **Scientific importance** The findings are of high importance to the field of SARS-CoV-2 biology. Understanding how the virus suppresses innate immune responses, such as stress granule formation, is crucial for developing effective countermeasures. The study provides a clear molecular mechanism that could be targeted by antiviral drugs.
+    - **Interdisciplinary readership** The work will appeal to a broad audience, including virologists, cell biologists, structural biologists, and immunologists. The clear narrative and use of multiple techniques make it accessible to non-specialists, although some prior knowledge of stress granule biology is assumed.
+    - **Technical soundness** The experimental approaches are generally sound and state-of-the-art. The combination of structural, biochemical, and virological methods is appropriate. However, the lack of actual data and some methodological details (e.g., crystallographic statistics, full interactomics data) prevents a full assessment of technical rigor.
+    - **Readability for nonspecialists** The manuscript is generally well-written and logically structured. The abstract and introduction are clear. The results section is dense but understandable. The discussion effectively places the findings in a broader context. The use of jargon is appropriate for a specialist journal but may be challenging for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is compelling and the experimental design is logical. However, the lack of actual data in the provided material is a significant barrier. The authors must provide the full dataset, including all figures and tables, and address the concerns regarding the specificity of the N-F17A mutation and the robustness of the in vivo data. If these issues are resolved, this work would be a strong candidate for publication in a high-impact journal.

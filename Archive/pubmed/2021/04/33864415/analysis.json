@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33864415",
+  "title": "Macromolecular regulators have matching effects on the phase equilibrium and interfacial tension of biomolecular condensates.",
+  "authors": "Mazarakos, Konstantinos; Zhou, Huan-Xiang",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2021-04-18",
+  "window": {
+    "start": "2021-04-12",
+    "end": "2021-04-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用分子动力学模拟研究二元Lennard-Jones粒子/链模型凝聚体的界面张力与相平衡，揭示调控因子对临界温度和界面张力的匹配效应，虽对象为粗粒化模型而非真实IDP，但为无序蛋白凝聚体互作与相分离机制建模提供了可迁移的物理框架。",
+  "abstract": "The interfacial tension of phase-separated biomolecular condensates affects their fusion and multiphase organization, and yet how this important property depends on the composition and interactions of the constituent macromolecules is poorly understood. Here we use molecular dynamics simulations to determine the interfacial tension and phase equilibrium of model condensate-forming systems. The model systems consist of binary mixtures of Lennard-Jones particles or chains of such particles. We refer to the two components as drivers and regulators; the former has stronger self-interactions and hence a higher critical temperature (T(c) ) for phase separation. In previous work, we have shown that, depending on the relative strengths of driver-regulator and driver-driver interactions, regulators can either promote or suppress phase separation (i.e., increase or decrease T(c) ). Here we find that the effects of regulators on T(c) quantitatively match the effects on interfacial tension (gamma). This important finding means that, when a condensate-forming system experiences a change in macromolecular composition or a change in intermolecular interactions (e.g., by mutation or posttranslational modification, or by variation in solvent conditions such as temperature, pH, or salt), the resulting change in T(c) can be used to predict the change in gamma and vice versa. We also report initial results showing that disparity in intermolecular interactions drives multiphase coexistence. These findings provide much needed guidance for understanding how biomolecular condensates mediate cellular functions.",
+  "abstract_zh": "相分离生物分子凝聚体的界面张力影响其融合和多相组织，然而这一重要性质如何依赖于组成大分子的组成和相互作用，目前尚不清楚。在此，我们使用分子动力学模拟来确定模型凝聚体形成系统的界面张力和相平衡。模型系统由Lennard-Jones粒子或其链的二元混合物组成。我们将两种组分称为驱动子（drivers）和调节子（regulators）；前者具有更强的自相互作用，因此具有更高的相分离临界温度（T(c)）。在先前的工作中，我们已表明，根据驱动子-调节子与驱动子-驱动子相互作用的相对强度，调节子可以促进或抑制相分离（即增加或降低T(c)）。在此，我们发现调节子对T(c)的影响与对界面张力（gamma）的影响在数量上匹配。这一重要发现意味着，当凝聚体形成系统经历大分子组成变化或分子间相互作用变化（例如，通过突变或翻译后修饰，或通过溶剂条件如温度、pH或盐的变化）时，由此产生的T(c)变化可用于预测gamma的变化，反之亦然。我们还报告了初步结果，表明分子间相互作用的差异驱动多相共存。这些发现为理解生物分子凝聚体如何介导细胞功能提供了急需的指导。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33864415/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33864415/",
+  "paper_page_path": "papers/pubmed/33864415/index.html"
+}

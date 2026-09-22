@@ -1,0 +1,104 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures or supplementary information
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretive validity based on the provided text; figure contents cannot be independently verified
+- **Shared manuscript claim summary** The authors perform proteome-scale coarse-grained molecular dynamics simulations of 14,283 human proteins containing IDRs, comparing conformational properties of 8,988 long IDRs (≥100 residues) in full-length versus isolated contexts. They report that over 30% of long IDRs undergo significant conformational shifts when embedded in full-length proteins, identify six categories of affected IDRs based on compaction-extension and rigidity-flexibility dimensions, and link these categories to sequence features, subcellular localization, and nucleic acid binding functions.
+- **Visible evidence base** Abstract, Introduction, Results (four subsections), Discussion, Methods (four subsections), Acknowledgments, Footnotes
+- **Missing materials affecting confidence** All figures (Fig. 1–5, SI Figs. S1–S6), supplementary information, simulation parameter files, analysis code, and statistical details of the 95% confidence interval threshold determination
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question: whether long intrinsically disordered regions, typically studied in isolation, adopt different conformational ensembles when embedded within full-length multidomain proteins. The authors present a large-scale simulation effort that is ambitious in scope and potentially valuable to the protein biophysics and evolutionary biology communities. However, the current text provides insufficient methodological detail and statistical justification to fully evaluate the robustness of the central claims. The classification scheme, the significance thresholds, and the functional enrichment analyses are described at a level that prevents independent verification. The manuscript would benefit from clearer presentation of the control analyses, explicit treatment of potential confounders, and more rigorous statistical reporting.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein conformational ensembles, coarse-grained simulation methodology, and the evolutionary constraints shaping protein architecture. The proposed classification of IDRs based on their conformational response to full-length context could provide a new framework for interpreting IDR function in multidomain proteins, which is relevant to understanding phase separation, nucleic acid binding, and regulatory complexity in eukaryotic proteomes.
+- **Major strengths** The study addresses a genuine gap in the field, as most IDR simulations are performed on isolated fragments. The scale of the simulation effort (14,283 full-length proteins) is substantial. The combination of conformational dimensions (compaction-extension and rigidity-flexibility) with sequence features and functional annotations provides a multidimensional view of IDR behavior. The finding that charge clustering effects may reverse between isolated and full-length contexts is potentially important and counterintuitive.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We find that 2,733 IDRs (over 30%) undergo significant conformational shifts when embedded within their native protein architecture"
+  - **Evidence pointer** Results section "Classification of IDRs significantly influenced by full-length context into six categories across two dimensions"; Fig. 2A
+  - **Concern** The threshold for defining "significant" conformational shifts is described as the "95% confidence interval of inter-simulation differences observed in fully disordered proteins." The text does not specify how this null distribution was constructed, how many fully disordered proteins were used, whether these proteins were matched in length and composition to the test set, or how the confidence intervals were computed. Without this information, the 30% figure cannot be evaluated.
+  - **Why it matters** The central quantitative claim of the manuscript depends entirely on the validity of this significance threshold. If the null distribution is inappropriate or underpowered, the proportion of affected IDRs could be substantially over- or underestimated.
+  - **Resolution test** Provide a detailed description of the null distribution construction, including the number and properties of fully disordered proteins used, the matching criteria, and the exact procedure for computing confidence intervals. Show that the results are robust to alternative threshold choices.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "IDRs positioned centrally within proteins are evolutionarily biased toward compact and rigid conformations, whereas those with strong charge clustering preferentially adopt extended and flexible states in full-length contexts"
+  - **Evidence pointer** Results section "Relationship between sequence features and conformational influence from structured domains"; Fig. 3B, Fig. 4A
+  - **Concern** The text reports correlations between sequence position, charge clustering, and conformational response categories but does not provide effect sizes, correlation coefficients, or statistical significance values. The claim of "evolutionary bias" implies a comparative or phylogenetic analysis that is not described. It is unclear whether the observed associations are statistically robust after controlling for IDR length, protein size, or other potential confounders.
+  - **Why it matters** These associations form the mechanistic core of the paper. Without quantitative statistical support, the claims remain descriptive rather than demonstrated.
+  - **Resolution test** Report correlation coefficients with confidence intervals for the relationships between sequence features and conformational response. Clarify what "evolutionary bias" means in this context and provide the appropriate comparative analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Functional enrichment analyses further demonstrate that compact-rigid IDRs are overrepresented in DNA-binding proteins, while extended-flexible IDRs are enriched in RNA-binding functions"
+  - **Evidence pointer** Results section "Cellular localization and function of IDRs significantly influenced by full-length context"; Fig. 4B
+  - **Concern** The enrichment analysis is described only in qualitative terms. No enrichment scores, p-values, multiple testing corrections, or background sets are reported. The GO analysis methods section describes data sources but not the statistical framework used to determine enrichment.
+  - **Why it matters** The functional specialization claim is a key biological conclusion. Without proper statistical reporting, the enrichment could be driven by confounding factors such as IDR length or protein size differences between categories.
+  - **Resolution test** Provide enrichment statistics with appropriate multiple testing corrections, describe the background set used, and demonstrate that the enrichment is not confounded by other sequence or structural properties.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We perform proteome-scale molecular dynamics simulations of 14,283 human proteins containing IDRs, integrating the Calvados coarse-grained force field with an elastic network representation of structured domains"
+  - **Evidence pointer** Methods section "Molecular dynamics simulations"
+  - **Concern** The simulation protocol is described with minimal detail. The text states that each chain was simulated for 220 ns with 200 conformations retained, but does not specify the equilibration procedure, the number of independent replicates, the criteria for ensuring convergence, or the computational resources required. For a study claiming proteome-scale coverage, the practical feasibility and quality control of such simulations are critical.
+  - **Why it matters** The reliability of the conformational statistics depends on adequate sampling. If 220 ns is insufficient for convergence, particularly for long IDRs, the reported conformational differences may reflect sampling artifacts rather than genuine physical effects.
+  - **Resolution test** Provide convergence analysis (e.g., block averaging, autocorrelation times), describe the equilibration protocol, and justify the simulation length based on the relaxation timescales of the systems studied.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "These findings support a model in which long IDRs do not evolve as independent polymeric segments, but instead co-evolve with structured domains as integrated architectural modules"
+  - **Evidence pointer** Discussion section
+  - **Concern** The evolutionary interpretation is presented as a conclusion, but the study is purely biophysical and does not include any phylogenetic, comparative genomic, or population genetic analyses. The term "co-evolve" implies a temporal or comparative dimension that is not addressed by the data.
+  - **Why it matters** The evolutionary framing elevates the significance of the work, but the evidence presented cannot distinguish between co-evolution and other explanations, such as neutral physical constraints or functional adaptation.
+  - **Resolution test** Either temper the evolutionary language to match the biophysical evidence, or add comparative analyses across species to directly test co-evolutionary hypotheses.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses technical terms such as "Calvados coarse-grained force field" and "elastic network representation" without brief contextual explanation, which may limit accessibility for readers outside the simulation community.
+  - **Required correction** Add a brief parenthetical explanation of these methods or rephrase to emphasize the conceptual approach rather than the technical implementation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, IDR definition
+  - **Evidence pointer** Methods section "Structured domain treatment and IDR selection"
+  - **Issue** The IDR definition uses pLDDT < 70 for at least 30 consecutive residues, while structured domains use pLDDT ≥ 70. The text does not address how residues with pLDDT values near the threshold are handled, nor whether the results are sensitive to the specific threshold choice.
+  - **Required correction** State the sensitivity of the results to the pLDDT threshold and describe how boundary cases are treated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Elastic network parameters
+  - **Evidence pointer** Methods section "Elastic network setup"
+  - **Issue** The elastic network parameters (distance cutoff 0.9 nm, spring constant 700 kJ/(mol·nm²)) are stated without justification or reference to prior validation.
+  - **Required correction** Provide a rationale for the chosen parameters or cite prior work validating these choices for similar systems.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Fig. 1C
+  - **Evidence pointer** Results section "Full-length protein simulations and IDR structure characterization"
+  - **Issue** The text states that long IDRs adopt more compact conformations in full-length proteins compared to isolation, but this trend "was different from all 29,150 IDR segments." The direction of the difference for the full set is not stated.
+  - **Required correction** Clarify whether the full set shows the opposite trend or no trend, and discuss the implications for the generalizability of the findings.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, classification scheme
+  - **Evidence pointer** Results section "Classification of IDRs significantly influenced by full-length context into six categories across two dimensions"
+  - **Issue** The six categories are mentioned but not explicitly enumerated or defined in the text. The reader must infer them from the two-dimensional analysis description.
+  - **Required correction** Provide a clear enumeration of the six categories with their defining criteria.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (significance threshold), R1-M2 (statistical support for sequence-feature associations), R1-M3 (enrichment statistics), R1-M4 (sampling convergence)
+- **Assessment against Nature-style criteria** Originality: The question of how full-length protein architecture constrains IDR conformation is genuinely novel and addresses a gap in the field. Scientific importance: If the findings are robust, they could reshape how the community thinks about IDR evolution and function. Interdisciplinary readership: The work bridges biophysics, computational biology, and evolutionary biology, with potential interest for cell biologists studying phase separation and nucleic acid binding. Technical soundness: The current manuscript does not provide sufficient methodological detail or statistical rigor to fully assess technical soundness; the simulation protocol and significance testing require substantial clarification. Readability for nonspecialists: The text is generally clear but relies on specialized terminology without adequate explanation in places.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core question is important and the scale of the study is impressive, but the current evidence base is insufficient to establish the central claims. The authors must provide detailed statistical reporting, convergence analyses, and a clearer description of the classification scheme before the conclusions can be accepted.
+
+## Risk / unsupported claims
+- The claim that "over 30%" of long IDRs undergo significant conformational shifts is unsupported without details of the significance threshold construction.
+- The claim of "evolutionary bias" toward compact-rigid conformations for centrally positioned IDRs is unsupported, as no evolutionary or comparative analysis is described.
+- The functional enrichment claims (DNA-binding for compact-rigid, RNA-binding for extended-flexible) are unsupported without statistical reporting.
+- The statement that charge clustering effects "may reverse" between isolated and full-length contexts is presented without quantitative evidence.
+- The claim that the study provides "the first large-scale molecular dynamics effort" for this question is difficult to verify and should be qualified.
+- The biological interpretation that nuclear proteins "utilize structured domains to further compress IDR conformations" is speculative and not directly tested.

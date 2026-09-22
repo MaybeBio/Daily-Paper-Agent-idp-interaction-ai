@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "35167083",
+    "doi": "10.1007/978-1-0716-1546-1_17",
+    "title": "Predictive Modeling of Neurotoxic alpha-Synuclein Polymorphs."
+  },
+  "content": {
+    "abstract": "Assembly of monomeric alpha-synuclein (alphaS) into aggregation-resistant helically folded tetramers and related multimers is a key target for Parkinson's disease (PD). Protein dynamics hampers experimental characterization of the polymorphism of these structures and so computational modeling and simulation is providing a complementary approach to obtain high-resolution structural information on the assembly of alphaS and interactions with biological surfaces. These computational techniques are particularly valuable for intrinsically disordered proteins (IDPs) and short-lived peptide and protein assemblies with as yet undetermined 3D structures. Experimental observables such as NMR J-coupling constants and chemical shifts can be predicted directly from simulation data, and compared with available experimental data to generate the most physically realistic atomic-resolution structure. For appropriately validated and benchmarked computational models, macroscopic aggregation properties can be related to the calculated thermodynamic properties at an atomic level. In this chapter, we describe a useful protocol for designing helical alphaS multimers, especially tetramers, and scanning the peptide-membrane interface for cell-bound alphaS tetramers. These computationally modeled structures are validated by comparison with the range of available known experimental parameters at time of writing in early 2020, and used to generate predictive design rules to motivate and guide experiments.",
+    "keywords": [
+      "Directed self-assembly",
+      "Intrinsically disordered proteins (IDP)",
+      "Molecular simulation",
+      "Neurodegeneration",
+      "Peptide -cell interactions"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Intrinsically Disordered Proteins",
+      "Magnetic Resonance Spectroscopy",
+      "*Parkinson Disease",
+      "Thermodynamics",
+      "alpha-Synuclein/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xu, Liang",
+        "Bhattacharya, Shayon",
+        "Thompson, Damien"
+      ],
+      "short_names": [
+        "Xu L",
+        "Bhattacharya S",
+        "Thompson D"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, Bernal Institute, University of Limerick, Limerick, Ireland.",
+        "Department of Physics, Bernal Institute, University of Limerick, Limerick, Ireland.",
+        "Department of Physics, Bernal Institute, University of Limerick, Limerick, Ireland. Damien.Thompson@ul.ie."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xu, Liang",
+        "short_name": "Xu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Bernal Institute, University of Limerick, Limerick, Ireland."
+        ]
+      },
+      {
+        "full_name": "Bhattacharya, Shayon",
+        "short_name": "Bhattacharya S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Bernal Institute, University of Limerick, Limerick, Ireland."
+        ]
+      },
+      {
+        "full_name": "Thompson, Damien",
+        "short_name": "Thompson D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Bernal Institute, University of Limerick, Limerick, Ireland. Damien.Thompson@ul.ie."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/16 06:00",
+    "fetched_at": "2026-09-20 08:21:54"
+  },
+  "links": {
+    "cites": [
+      "39377660"
+    ],
+    "refs": [
+      "30287222",
+      "29712958",
+      "29311330",
+      "29242346",
+      "28498720",
+      "28303016",
+      "27819658",
+      "27298346",
+      "27127996",
+      "26446103",
+      "26153422",
+      "26076669",
+      "25342807",
+      "25342806",
+      "25130509",
+      "24128758",
+      "23832629",
+      "23669636",
+      "23466394",
+      "22029383",
+      "21448735",
+      "21325059",
+      "20524659",
+      "20500090",
+      "19580743",
+      "19293380",
+      "19066219",
+      "18678900",
+      "17212484",
+      "15615727",
+      "15613396",
+      "14648625",
+      "12827676",
+      "11433374",
+      "11123888",
+      "10667911",
+      "8744570",
+      "6667333",
+      "5884392",
+      "4295774",
+      "3203798",
+      "3166366"
+    ],
+    "similar": [
+      "35167083",
+      "23607785",
+      "33903234",
+      "23374074",
+      "23583776",
+      "31135803",
+      "31521231",
+      "32709107",
+      "34439733",
+      "39377660",
+      "32623047",
+      "37723164",
+      "37027427",
+      "20041693",
+      "30933517",
+      "23398399",
+      "32164323",
+      "28710275",
+      "29364143",
+      "29451381",
+      "32371882",
+      "30840442",
+      "38047768",
+      "30184304",
+      "31096049",
+      "24551051",
+      "35912724",
+      "30315896",
+      "29372732",
+      "32497661",
+      "26153422",
+      "35130691",
+      "31903719",
+      "15096050",
+      "24361273",
+      "26950519",
+      "28992347",
+      "30875980",
+      "25505181",
+      "26477939",
+      "29320696",
+      "30318002",
+      "32816485",
+      "35167084",
+      "17681539",
+      "25331250",
+      "33482328",
+      "20947801",
+      "31809054",
+      "28298083",
+      "28667699",
+      "33444020",
+      "30853581",
+      "33513387",
+      "27809690",
+      "29492731",
+      "30771172",
+      "28820253",
+      "33428933",
+      "33355572",
+      "26076669",
+      "25909158",
+      "29621630",
+      "29474083",
+      "31548371",
+      "11286556",
+      "32996158",
+      "19554627",
+      "31900363",
+      "19745811",
+      "28024449",
+      "21044603",
+      "27844185",
+      "21348834",
+      "24763499",
+      "15671169",
+      "22573613",
+      "35782868",
+      "26703192",
+      "30917651",
+      "24984882",
+      "30003969",
+      "26923286",
+      "37114769",
+      "29036344",
+      "32097611",
+      "28926706",
+      "19345692",
+      "19481095",
+      "25079425",
+      "27273030",
+      "22552968",
+      "28911198",
+      "28820063",
+      "21684335",
+      "35384652",
+      "38938811",
+      "36671771"
+    ],
+    "review": [
+      "35167083",
+      "31521231",
+      "32164323",
+      "30840442",
+      "31096049",
+      "30315896",
+      "28992347",
+      "30875980",
+      "30853581",
+      "33355572",
+      "21348834",
+      "26703192",
+      "32097611"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-1546-1_17",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

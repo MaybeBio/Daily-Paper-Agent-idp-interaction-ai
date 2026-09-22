@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "41768832",
+    "doi": "10.1021/acs.macromol.5c01483",
+    "title": "Manifold of Polyampholyte Necklaces: From Charge Migration to Hierarchical Structure."
+  },
+  "content": {
+    "abstract": "Single-chain conformations of charge-imbalanced polyampholytes are controlled by an interplay of nonelectrostatic interactions between monomers, defined by the solvent quality, and Coulomb forces between charged monomers, which are sensitive to their primary sequence. Electrostatic interactions manifest themselves as effective short-range attractions between opposite charges and, simultaneously, as long-range repulsions owing to a net global charge of the chain. As a result, polyampholytes can adopt globular, stretched, or intermediate necklace conformations. To provide a complete description of their conformational behavior, we consider chains with Markov charge statistics and construct a scaling diagram of states in the coordinates of charge blockiness and solvent quality. Ten scaling regimes of various necklaces are identified, which can be classified into three types: (i) \"charge-in-beads\" necklaces form at moderate charge blockiness, with the bead size defined by the Rayleigh instability criterion; (ii) \"charge-in-strings\" necklaces are stable at higher blockiness of like charges, which enables the net charge imbalance to migrate from the beads to the strings; (iii) \"hierarchical\" necklaces, which are necklace-in-necklace conformations identified herein for the first time, comprise beads of two different sizes that coexist when the charge blockiness is high and the solvent quality is poor. For all three types of necklaces, scaling predictions are quantitatively confirmed by molecular dynamics simulations. Our findings on the conformational statistics of charge-imbalanced polyampholytes may contribute to improved prediction and classification of the structure of intrinsically disordered proteins/regions (IDPs/IDRs).",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Yiheng",
+        "Rumyantsev, Artem M",
+        "de Pablo, Juan J"
+      ],
+      "short_names": [
+        "Wu Y",
+        "Rumyantsev AM",
+        "de Pablo JJ"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-0524-7251",
+        "ORCID: 0000-0002-0339-2375",
+        "ORCID: 0000-0002-3526-516X"
+      ],
+      "affiliations": [
+        "Pritzker School of Molecular Engineering, University of Chicago, Chicago, Illinois 60637, United States. RINGGOLD: 2462",
+        "Department of Chemical and Biomolecular Engineering, North Carolina State University, Raleigh, North Carolina 27695-7905, United States. RINGGOLD: 6798",
+        "Departments of Chemical and Biological Engineering, Computer Science, and Physics, Tandon School of Engineering and Courant Institute of Mathematical Sciences, New York University, New York, New York 11201, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Yiheng",
+        "short_name": "Wu Y",
+        "identifiers": [
+          "0009-0001-0524-7251"
+        ],
+        "affiliations": [
+          "Pritzker School of Molecular Engineering, University of Chicago, Chicago, Illinois 60637, United States."
+        ]
+      },
+      {
+        "full_name": "Rumyantsev, Artem M",
+        "short_name": "Rumyantsev AM",
+        "identifiers": [
+          "0000-0002-0339-2375"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, North Carolina State University, Raleigh, North Carolina 27695-7905, United States."
+        ]
+      },
+      {
+        "full_name": "de Pablo, Juan J",
+        "short_name": "de Pablo JJ",
+        "identifiers": [
+          "0000-0002-3526-516X"
+        ],
+        "affiliations": [
+          "Departments of Chemical and Biological Engineering, Computer Science, and Physics, Tandon School of Engineering and Courant Institute of Mathematical Sciences, New York University, New York, New York 11201, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Macromolecules"
+    ],
+    "journal_abbrev": [
+      "Macromolecules"
+    ],
+    "pub_date": "2025 Sep 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/02 13:16",
+    "fetched_at": "2026-09-18 01:22:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40135821",
+      "39898571",
+      "38607226",
+      "38547271",
+      "38297118",
+      "38250712",
+      "37904585",
+      "35575372",
+      "35512095",
+      "35287460",
+      "34476121",
+      "30992378",
+      "30948640",
+      "30913885",
+      "30873835",
+      "29926202",
+      "29604827",
+      "29026044",
+      "28483149",
+      "27824447",
+      "26328871",
+      "25863585",
+      "25747659",
+      "24606139",
+      "23901099",
+      "22984159",
+      "20639465",
+      "20404210",
+      "16326907",
+      "12418898",
+      "11916400",
+      "11060624",
+      "9962773",
+      "7809157"
+    ],
+    "similar": [
+      "41768832",
+      "34476121",
+      "17134228",
+      "35512095",
+      "39898571",
+      "17411088",
+      "23901099",
+      "40135821",
+      "39458755",
+      "28742350",
+      "25296835",
+      "16241250",
+      "30384718",
+      "42475469",
+      "20604505",
+      "36251838",
+      "35215709",
+      "32867340",
+      "31626641",
+      "32822449",
+      "41768432",
+      "40317235",
+      "41566033",
+      "36321557",
+      "39258569",
+      "42171195",
+      "30193467",
+      "15518535",
+      "30913885",
+      "39082438",
+      "39105804",
+      "36695540",
+      "38232020",
+      "9680452",
+      "28247878",
+      "42093278",
+      "12418898",
+      "35575372",
+      "32901638",
+      "41298246",
+      "38165099",
+      "17241074",
+      "29926202",
+      "14505321",
+      "38250712",
+      "29604827",
+      "40095314",
+      "35597632",
+      "11060624",
+      "11088898",
+      "16241472",
+      "30948640",
+      "25370369",
+      "32696367",
+      "15015094",
+      "20404210",
+      "34557680",
+      "32859072",
+      "31310250",
+      "30853717",
+      "39554085",
+      "20359231",
+      "41725507",
+      "12596268",
+      "20639465",
+      "32357776",
+      "25470659",
+      "11878967",
+      "34879674",
+      "33890467",
+      "37315055",
+      "21929013",
+      "21812403",
+      "41860076",
+      "15267302",
+      "39044475",
+      "27936491",
+      "39248414",
+      "21647374",
+      "26011023",
+      "31709918",
+      "26727467",
+      "39253398",
+      "31362509",
+      "41848110",
+      "32696365",
+      "39539017",
+      "41965924",
+      "36674958",
+      "38260590",
+      "35659505",
+      "29763584",
+      "20481729",
+      "28805390",
+      "32345021",
+      "37254920",
+      "17381231",
+      "30823702",
+      "36468418",
+      "20925359"
+    ],
+    "review": [
+      "41768832",
+      "32867340",
+      "36321557",
+      "38232020",
+      "41725507"
+    ],
+    "pmc": [
+      "12461940"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41768832/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

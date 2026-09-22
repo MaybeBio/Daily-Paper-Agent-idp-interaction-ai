@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "41535595",
+    "doi": "10.1038/s42004-025-01869-5",
+    "title": "Molecular driving force of a small molecule-induced protein disorder-order transition."
+  },
+  "content": {
+    "abstract": "The selectivity and affinity of numerous protein-protein interactions depends upon the folding of intrinsically disordered regions (IDRs) that accompanies complexation. Here we investigate how folding-on-binding of a protein IDR by small molecules is facilitated by synergestic exploitation of interactions with a folded protein region. To this end, the molecular driving forces that underpin ordering of the N-terminal intrinsically disordered 'lid' region of the oncoprotein MDM2 by the small molecule AM-7209 were elucidated by a combination of molecular dynamics simulations, calorimetry and NMR measurements. Strikingly, mutations of lid residues distant from the ligand-binding site modulate potency by up to three orders of magnitude. A key requirement for conversion of this IDR into an ordered motif is collective stabilisation of a network of non-polar contacts between a chlorophenyl moiety of AM-7209 and the lid residue I19 to overcome conformational entropy loss associated with folding of the IDR. Our findings underscore the crucial role that protein IDRs can play in drug-resistance mechanisms and expand strategies available to medicinal chemists for ligand optimisation endeavours.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mendoza-Martinez, Cesar",
+        "Gupta, Arun A",
+        "Llabres, Salome",
+        "Barlow, Paul N",
+        "Michel, Julien"
+      ],
+      "short_names": [
+        "Mendoza-Martinez C",
+        "Gupta AA",
+        "Llabres S",
+        "Barlow PN",
+        "Michel J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3439-9809",
+        "ORCID: 0000-0002-2039-7821",
+        "ORCID: 0000-0003-0360-1760"
+      ],
+      "affiliations": [
+        "EaStCHEM School of Chemistry, University of Edinburgh, Edinburgh, UK.",
+        "Drug Discovery Unit, University of Dundee, Dundee, UK.",
+        "EaStCHEM School of Chemistry, University of Edinburgh, Edinburgh, UK.",
+        "Nuffield Department of Medicine, Center for Immuno-Oncology, University of Oxford, Oxford, UK.",
+        "EaStCHEM School of Chemistry, University of Edinburgh, Edinburgh, UK.",
+        "Faculty of Pharmacy and Food Science, Universitat de Barcelona, Barcelona, Spain.",
+        "EaStCHEM School of Chemistry, University of Edinburgh, Edinburgh, UK.",
+        "EaStCHEM School of Chemistry, University of Edinburgh, Edinburgh, UK. julien.michel@ed.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mendoza-Martinez, Cesar",
+        "short_name": "Mendoza-Martinez C",
+        "identifiers": [
+          "0000-0003-3439-9809"
+        ],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh, Edinburgh, UK.",
+          "Drug Discovery Unit, University of Dundee, Dundee, UK."
+        ]
+      },
+      {
+        "full_name": "Gupta, Arun A",
+        "short_name": "Gupta AA",
+        "identifiers": [],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh, Edinburgh, UK.",
+          "Nuffield Department of Medicine, Center for Immuno-Oncology, University of Oxford, Oxford, UK."
+        ]
+      },
+      {
+        "full_name": "Llabrés, Salomé",
+        "short_name": "Llabrés S",
+        "identifiers": [
+          "0000-0002-2039-7821"
+        ],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh, Edinburgh, UK.",
+          "Faculty of Pharmacy and Food Science, Universitat de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Barlow, Paul N",
+        "short_name": "Barlow PN",
+        "identifiers": [],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh, Edinburgh, UK."
+        ]
+      },
+      {
+        "full_name": "Michel, Julien",
+        "short_name": "Michel J",
+        "identifiers": [
+          "0000-0003-0360-1760"
+        ],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh, Edinburgh, UK. julien.michel@ed.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications chemistry"
+    ],
+    "journal_abbrev": [
+      "Commun Chem"
+    ],
+    "pub_date": "2026 Jan 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/15 16:13",
+    "fetched_at": "2026-09-17 23:51:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39740355",
+      "38316988",
+      "38297184",
+      "38297118",
+      "38294935",
+      "38251829",
+      "37479220",
+      "37231298",
+      "35831864",
+      "35655546",
+      "35446534",
+      "35130691",
+      "34817999",
+      "34439869",
+      "34084326",
+      "33715003",
+      "31329574",
+      "30841624",
+      "30192142",
+      "29908451",
+      "29897235",
+      "29596915",
+      "29507390",
+      "29466338",
+      "28631009",
+      "27958728",
+      "27248478",
+      "27050388",
+      "26583988",
+      "26544598",
+      "26046940",
+      "25505092",
+      "25384157",
+      "24930020",
+      "24207125",
+      "23457427",
+      "23407358",
+      "22991965",
+      "22988855",
+      "22984356",
+      "22815918",
+      "22468560",
+      "22381384",
+      "19357935",
+      "18435534",
+      "16200636",
+      "15953616",
+      "15268227",
+      "10625516"
+    ],
+    "similar": [
+      "41535595",
+      "35655546",
+      "26046940",
+      "41347878",
+      "37155239",
+      "36711874",
+      "37595014",
+      "31441158",
+      "28780862",
+      "34557680",
+      "33267376",
+      "30878482",
+      "34825861",
+      "37998041",
+      "28111343",
+      "29763584",
+      "33810353",
+      "39589885",
+      "27050388",
+      "37878721",
+      "30802457",
+      "38942776",
+      "39446390",
+      "38712287",
+      "36153968",
+      "38915483",
+      "40574713",
+      "39539017",
+      "40467883",
+      "36987865",
+      "27111521",
+      "26195786",
+      "29550429",
+      "39453744",
+      "31756456",
+      "38915510",
+      "40042172",
+      "30855964",
+      "35658951",
+      "32824743",
+      "37657994",
+      "34179096",
+      "41534519",
+      "36908253",
+      "35139468",
+      "40944448",
+      "33076213",
+      "28355271",
+      "34473923",
+      "39653037",
+      "27881680",
+      "23142703",
+      "34710113",
+      "33243935",
+      "39253485",
+      "28924037",
+      "39763873",
+      "41571439",
+      "22468560",
+      "39600309",
+      "31136713",
+      "41580895",
+      "35242289",
+      "27140628",
+      "33909430",
+      "21191186",
+      "41378882",
+      "24115198",
+      "29791766",
+      "40244295",
+      "27807972",
+      "39631290",
+      "22815859",
+      "31514372",
+      "31175370",
+      "32323533",
+      "33779503",
+      "40403066",
+      "24930020",
+      "33627133",
+      "36005688",
+      "31303975",
+      "32225071",
+      "35914331",
+      "31003202",
+      "37031148",
+      "39248370",
+      "32914959",
+      "33194509",
+      "31804089",
+      "32311315",
+      "33567297",
+      "41394673",
+      "36210722",
+      "33406091",
+      "31724233",
+      "38230670",
+      "37905972",
+      "36938874",
+      "38365983"
+    ],
+    "review": [
+      "41535595",
+      "31441158",
+      "37657994",
+      "35139468",
+      "33243935",
+      "39600309",
+      "39631290",
+      "24930020",
+      "31303975",
+      "31003202",
+      "33194509"
+    ],
+    "pmc": [
+      "12867982"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42004-025-01869-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41535595/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-MDM2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

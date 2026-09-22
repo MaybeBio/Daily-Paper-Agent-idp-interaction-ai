@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "41934091",
+    "doi": "10.1111/febs.70533",
+    "title": "Coiled-coil centrosomal proteins facilitate tubulin concentration via polyKR motifs."
+  },
+  "content": {
+    "abstract": "Centrosomes organize microtubules (MT) in animal cells by recruiting a group of MT polymerization factors to the pericentriolar matrix (PCM). Tubulin enrichment within the PCM contributes to microtubule-organizing activity. However, the molecular determinants underlying this tubulin concentration remain elusive. Here, we describe a mechanism of tubulin concentration by polyKR motifs encoded in the centrosomal coiled-coil proteins. We show that polyKR sequences promote tubulin enrichment within engineered protein condensates that mimic the protein-dense environment of the centrosome. Bioinformatic analysis reveals that polyKR motif-containing coiled-coil proteins are highly enriched in centrosomes across species, from worms and flies to mice and humans. The tubulin binding affinity of polyKR motifs with six to 10 basic residues is approximately in the micromolar to submicromolar range. Cytoplasmic puncta containing the predicted centrosomal polyKR motifs concentrate microtubules. In purified systems, we show that TACC3 and Cep63 condensates containing polyKR motifs concentrate tubulin dimers over 10-fold. Moreover, the spatial density of polyKR motifs correlates with MT concentration, suggesting that cells can modulate tubulin concentration at the PCM by tuning the centrosomal composition. Our findings highlight a general function encoded in centrosomal scaffolding proteins for tubulin concentration, and this mechanism is functionally redundant to ensure robust tubulin enrichment in the PCM.",
+    "keywords": [
+      "centrosome",
+      "coiled coil",
+      "microtubule",
+      "phase separation",
+      "poly-Lys/Arg",
+      "tubulin"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Shiou-Lan",
+        "Chen, Yu-Hsun",
+        "Loi, Ren Jun",
+        "Chen, Yueh-Ting",
+        "Chen, Ting",
+        "Lapouge, Karine",
+        "Greenan, Garrett",
+        "Krausslich, Hans-Georg",
+        "Cheng, Hui-Chun"
+      ],
+      "short_names": [
+        "Lin SL",
+        "Chen YH",
+        "Loi RJ",
+        "Chen YT",
+        "Chen T",
+        "Lapouge K",
+        "Greenan G",
+        "Krausslich HG",
+        "Cheng HC"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3591-8906"
+      ],
+      "affiliations": [
+        "Institute of Bioinformatics and Structural Biology, National Tsing Hua University, Hsinchu, Taiwan.",
+        "Department of Infectious Diseases, Virology, Heidelberg University, Germany.",
+        "Max Planck School Matter to Life, Heidelberg, Germany.",
+        "Institute of Bioinformatics and Structural Biology, National Tsing Hua University, Hsinchu, Taiwan.",
+        "Institute of Bioinformatics and Structural Biology, National Tsing Hua University, Hsinchu, Taiwan.",
+        "Institute of Bioinformatics and Structural Biology, National Tsing Hua University, Hsinchu, Taiwan.",
+        "Protein Expression and Purification Core Facility, European Molecular Biology Laboratory, Heidelberg, Germany.",
+        "Department of Cellular and Molecular Pharmacology and Howard Hughes Medical Institute, University of California, San Francisco, CA, USA.",
+        "Department of Infectious Diseases, Virology, Heidelberg University, Germany.",
+        "Institute of Bioinformatics and Structural Biology, National Tsing Hua University, Hsinchu, Taiwan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Shiou-Lan",
+        "short_name": "Lin SL",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Structural Biology, National Tsing Hua University, Hsinchu, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Yu-Hsun",
+        "short_name": "Chen YH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Virology, Heidelberg University, Germany.",
+          "Max Planck School Matter to Life, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Loi, Ren Jun",
+        "short_name": "Loi RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Structural Biology, National Tsing Hua University, Hsinchu, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Yueh-Ting",
+        "short_name": "Chen YT",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Structural Biology, National Tsing Hua University, Hsinchu, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Chen, Ting",
+        "short_name": "Chen T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics and Structural Biology, National Tsing Hua University, Hsinchu, Taiwan."
+        ]
+      },
+      {
+        "full_name": "Lapouge, Karine",
+        "short_name": "Lapouge K",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Expression and Purification Core Facility, European Molecular Biology Laboratory, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Greenan, Garrett",
+        "short_name": "Greenan G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Pharmacology and Howard Hughes Medical Institute, University of California, San Francisco, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Kräusslich, Hans-Georg",
+        "short_name": "Kräusslich HG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Infectious Diseases, Virology, Heidelberg University, Germany."
+        ]
+      },
+      {
+        "full_name": "Cheng, Hui-Chun",
+        "short_name": "Cheng HC",
+        "identifiers": [
+          "0000-0003-3591-8906"
+        ],
+        "affiliations": [
+          "Institute of Bioinformatics and Structural Biology, National Tsing Hua University, Hsinchu, Taiwan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The FEBS journal"
+    ],
+    "journal_abbrev": [
+      "FEBS J"
+    ],
+    "pub_date": "2026 Apr 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/04 06:33",
+    "fetched_at": "2026-09-18 02:10:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41934091",
+      "38857398",
+      "17671162",
+      "31823729",
+      "28575670",
+      "19536135",
+      "36790370",
+      "25246530",
+      "16291865",
+      "36082994",
+      "33399854",
+      "22729084",
+      "17959831",
+      "34308971",
+      "12221128",
+      "8524401",
+      "18086554",
+      "12011109",
+      "21795687",
+      "11121038",
+      "12006621",
+      "26485573",
+      "15659651",
+      "40355371",
+      "20466722",
+      "15987826",
+      "18798731",
+      "10823944",
+      "12176362",
+      "8383693",
+      "9067623",
+      "32591487",
+      "17980596",
+      "23442802",
+      "24971877",
+      "11124805",
+      "8907702",
+      "26001056",
+      "31636117",
+      "28827311",
+      "11748251",
+      "33176265",
+      "22253783",
+      "15146056",
+      "19192251",
+      "24273164",
+      "10842375",
+      "40229407",
+      "34242576",
+      "33798428",
+      "9054561",
+      "11003675",
+      "29779879",
+      "27298324",
+      "34283237",
+      "10620804",
+      "6725398",
+      "35678569",
+      "36739326",
+      "29708497",
+      "19543530",
+      "30590037",
+      "11732597",
+      "18087219",
+      "11781336",
+      "8124707",
+      "34191581",
+      "15047868",
+      "37293020",
+      "25103243",
+      "8718679",
+      "37379844",
+      "33376154",
+      "28669756",
+      "23902687",
+      "27137183",
+      "8749391",
+      "10576861",
+      "28074286",
+      "12134070",
+      "38456967",
+      "22286137",
+      "38609662",
+      "22818914",
+      "39721584",
+      "9224791",
+      "14588246",
+      "25590348",
+      "35787744",
+      "25977552",
+      "15340007",
+      "18252801",
+      "30154378",
+      "31079229",
+      "15186742",
+      "10494861",
+      "8207082",
+      "15564380",
+      "8886893",
+      "26569555"
+    ],
+    "review": [
+      "41934091",
+      "33176265",
+      "19192251",
+      "11732597",
+      "10576861",
+      "28074286"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1111/febs.70533",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

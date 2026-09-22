@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41814089",
+  "title": "FuzDrop: sequence-based prediction of the propensity of proteins for liquid-liquid phase separation and aggregation.",
+  "authors": "Vendruscolo, Michele; Fuxreiter, Monika",
+  "journal": "Nature protocols",
+  "published_date": "2026-03-12",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 7,
+  "one_liner_zh": "FuzDrop基于序列预测蛋白质液-液相分离和淀粉样聚集倾向，虽未直接建模PPI，但聚焦IDP/相分离对象并采用序列算法，对无序蛋白凝聚体机制研究有参考价值。",
+  "abstract": "Proteins exhibit complex phase behavior as they convert between the native state, the liquid condensate (or droplet) state and the solid condensate (or amyloid) state. To facilitate the study of these processes, we describe the FuzDrop method of predicting the condensation propensity of proteins to undergo liquid-liquid phase separation and to subsequently form amyloid aggregates. The method is based on the principle that liquid condensations reflect a balance between enthalpic and entropic contributions; FuzPred is an algorithm that provides sequence-based estimates for these contributions in stoichiometric complexes ( https://fuzpred.bio.unipd.it/predictor ). FuzDrop extends this algorithm to protein condensates, and enables prediction of the propensity for amyloid formation within liquid condensates, known as the condensation pathway to protein aggregation ( https://fuzdrop.bio.unipd.it/predictor ). This prediction is based on the principle that the sequence regions that promote aggregation within liquid condensates have a multiplicity of binding modes, because they have a strong propensity for both entropic-driven interactions to stabilize the droplet state and enthalpic-driven interactions to stabilize the amyloid state. The time required for FuzDrop predictions on the web server scales linearly with protein length and is typically ~30 s for a protein of 500 residues. By enabling predictions of protein phase behavior, FuzDrop may facilitate experimental studies directed at the development of therapies for protein condensation diseases.",
+  "abstract_zh": "蛋白质在天然态、液态凝聚体（或液滴）态和固态凝聚体（或淀粉样蛋白）态之间转换时，表现出复杂的相行为。为促进对这些过程的研究，我们描述了FuzDrop方法，用于预测蛋白质发生液-液相分离并随后形成淀粉样蛋白聚集体的凝聚倾向。该方法基于液态凝聚反映焓与熵贡献之间平衡的原理；FuzPred是一种算法，提供化学计量复合物中这些贡献的基于序列的估计（https://fuzpred.bio.unipd.it/predictor）。FuzDrop将该算法扩展到蛋白质凝聚体，并能够预测液态凝聚体内淀粉样蛋白形成的倾向，即蛋白质聚集的凝聚途径（https://fuzdrop.bio.unipd.it/predictor）。该预测基于以下原理：促进液态凝聚体内聚集的序列区域具有多种结合模式，因为它们对熵驱动相互作用以稳定液滴态和焓驱动相互作用以稳定淀粉样蛋白态均有强烈倾向。FuzDrop在Web服务器上的预测时间与蛋白质长度呈线性关系，对于500个残基的蛋白质通常约为30秒。通过实现蛋白质相行为的预测，FuzDrop可能促进针对蛋白质凝聚疾病疗法开发的实验研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41814089/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41814089/",
+  "paper_page_path": "papers/pubmed/41814089/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39087984",
+  "title": "Modulation of alpha-synuclein aggregation amid diverse environmental perturbation.",
+  "authors": "Wasim, Abdul; Menon, Sneha; Mondal, Jagannath",
+  "journal": "eLife",
+  "published_date": "2024-08-01",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过多链计算模拟研究无序蛋白α-突触核蛋白在不同环境扰动下的聚集与液-液相分离，结合构象分析和图论揭示互作网络机制，完全契合无序蛋白PPI机制建模主题。",
+  "abstract": "Intrinsically disordered protein alpha-synuclein (alphaS) is implicated in Parkinson's disease due to its aberrant aggregation propensity. In a bid to identify the traits of its aggregation, here we computationally simulate the multi-chain association process of alphaS in aqueous as well as under diverse environmental perturbations. In particular, the aggregation of alphaS in aqueous and varied environmental condition led to marked concentration differences within protein aggregates, resembling liquid-liquid phase separation (LLPS). Both saline and crowded settings enhanced the LLPS propensity. However, the surface tension of alphaS droplet responds differently to crowders (entropy-driven) and salt (enthalpy-driven). Conformational analysis reveals that the IDP chains would adopt extended conformations within aggregates and would maintain mutually perpendicular orientations to minimize inter-chain electrostatic repulsions. The droplet stability is found to stem from a diminished intra-chain interactions in the C-terminal regions of alphaS, fostering inter-chain residue-residue interactions. Intriguingly, a graph theory analysis identifies small-world-like networks within droplets across environmental conditions, suggesting the prevalence of a consensus interaction patterns among the chains. Together these findings suggest a delicate balance between molecular grammar and environment-dependent nuanced aggregation behavior of alphaS.",
+  "abstract_zh": "intrinsically disordered protein alpha-synuclein（αS）因其异常聚集倾向而与帕金森病相关。为识别其聚集特征，我们在此通过计算模拟了αS在水溶液及多种环境扰动下的多链结合过程。特别地，αS在水溶液及不同环境条件下的聚集导致蛋白质聚集体内浓度显著差异，类似于液-液相分离（LLPS）。盐和拥挤环境均增强了LLPS倾向。然而，αS液滴的表面张力对拥挤剂（熵驱动）和盐（焓驱动）的响应不同。构象分析揭示，IDP链在聚集体内会采取伸展构象，并保持相互垂直方向以最小化链间静电排斥。液滴稳定性源于αS C末端区域链内相互作用的减弱，促进了链间残基-残基相互作用。有趣的是，图论分析识别出液滴内跨环境条件的小世界样网络，表明链间存在共识性相互作用模式。这些发现共同表明，分子语法与环境依赖的αS细微聚集行为之间存在微妙平衡。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39087984/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39087984/",
+  "paper_page_path": "papers/pubmed/39087984/index.html"
+}

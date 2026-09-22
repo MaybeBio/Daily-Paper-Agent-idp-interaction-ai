@@ -1,0 +1,32 @@
+{
+  "source": "arxiv",
+  "source_id": "2502.17294v2",
+  "title": "Integrating protein sequence embeddings with structure via graph-based deep learning for single-residue property prediction",
+  "doi": "",
+  "abstract": "Understanding the intertwined contributions of amino acid sequence and spatial structure is essential to explain protein behaviour. Here, we introduce INFUSSE (Integrated Network Framework Unifying Structure and Sequence Embeddings), a deep learning framework for the prediction of single-residue properties that combines fine-tuning of sequence embeddings derived from a Large Language Model with the inclusion of graph-based representations of protein structures via a diffusive Graph Convolutional Network. To illustrate the benefits of jointly leveraging sequence and structure, we apply INFUSSE to the prediction of B-factors in antibodies, a residue property that reflects the local flexibility shaped by biochemical and structural constraints in these highly variable and dynamic proteins. Using a dataset of 1510 antibody and antibody-antigen complexes from the database SAbDab, we show that INFUSSE improves performance over current machine learning (ML) methods based on sequence or structure alone, and allows for the systematic disentanglement of sequence and structure contributions to the performance. Our results show that adding structural information via geometric graphs enhances predictions especially for intrinsically disordered regions, protein-protein interaction sites, and highly variable amino acid positions -- all key structural features for antibody function which are not well captured by purely sequence-based ML descriptions.",
+  "authors": [
+    "Kevin Michalewicz",
+    "Mauricio Barahona",
+    "Barbara Bravi"
+  ],
+  "published_date": "2025-02-24T16:22:16Z",
+  "updated_date": "2025-11-06T03:40:30Z",
+  "journal": "",
+  "category": "q-bio.QM",
+  "landing_url": "https://arxiv.org/abs/2502.17294v2",
+  "pdf_url": "https://arxiv.org/pdf/2502.17294v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.QM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2502.17294v2",
+    "raw_categories": [
+      "q-bio.QM"
+    ],
+    "journal_ref": ""
+  }
+}

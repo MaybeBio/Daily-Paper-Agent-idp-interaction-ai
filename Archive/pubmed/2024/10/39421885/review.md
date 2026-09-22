@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the pathogenic DeltaK280 mutation enhances liquid-liquid phase separation (LLPS) of the K18 tau fragment and full-length tau by promoting hydrophobic interactions, beta-sheet formation, and specific inter-motif contacts, as supported by multiscale molecular simulations and microscopy experiments.
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, or experimental data are available for verification
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, experimental protocols, statistical analyses, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically plausible and potentially significant finding that DeltaK280 enhances tau LLPS through hydrophobic interactions involving the microtubule-binding domain. The integration of multiscale simulations with microscopy experiments is commendable. However, the abstract lacks quantitative detail, and the absence of the full manuscript prevents verification of the central claims. The case for a direct causal link between specific molecular interactions and enhanced LLPS is asserted rather than demonstrated from the provided material.
+- **Who would be interested in the results, and why** Researchers in neurodegeneration, particularly those studying tau aggregation and phase separation in Alzheimer's disease; biophysicists and computational biologists interested in protein LLPS mechanisms; and drug discovery groups targeting tau pathogenesis. The findings could inform therapeutic strategies aimed at modulating tau phase behavior.
+- **Major strengths** The study addresses a clinically relevant mutation with previously unexplored effects on LLPS. The use of multiscale simulations (all-atom and coarse-grained) combined with experimental validation is methodologically robust. The identification of specific motifs (PHF6, PHF6*) and interaction types provides mechanistic granularity.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "DeltaK280 significantly enhances the collapse degree and beta-sheet content of the K18 monomer, indicating that DeltaK280 mutation may promote K18 LLPS, validated by coarse-grained phase-coexistence simulations and microscopy experiments."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract asserts a direct link between monomer-level conformational changes (collapse degree, beta-sheet content) and enhanced LLPS, but no quantitative data (e.g., saturation concentrations, droplet sizes, or phase diagrams) are provided. The validation by microscopy is mentioned without any experimental details or representative results.  
+  - **Why it matters** The central claim that DeltaK280 promotes LLPS hinges on this correlation. Without quantitative experimental evidence, the inference from monomer simulations to macroscopic phase behavior remains speculative.  
+  - **Resolution test** Provide quantitative LLPS assays (e.g., turbidity, droplet formation thresholds) and simulation-derived phase diagrams that directly compare wild-type and DeltaK280 K18 under identical conditions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic causality  
+  - **Claim pointer** "DeltaK280 mutation promotes beta-sheet formation of six motifs (especially PHF6), increases the hydrophobic solvent exposure of PHF6* and PHF6, and enhances hydrophobic, hydrogen bonding, and cation-pi interactions involving most of the motifs, thus facilitating the phase separation of K18."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract lists multiple interaction changes but does not establish which, if any, are necessary or sufficient for enhanced LLPS. The phrase "thus facilitating" implies causality without supporting evidence such as mutation-based controls or perturbation analyses.  
+  - **Why it matters** Without causal evidence, the proposed mechanism could be correlative. Identifying the dominant driver is essential for therapeutic targeting.  
+  - **Resolution test** Include control simulations or experiments with mutations that selectively disrupt hydrophobic, hydrogen bonding, or cation-pi interactions and show their differential effects on LLPS.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability  
+  - **Claim pointer** "Coarse-grained simulations on full-length tau reveal that DeltaK280 promotes tau LLPS by enhancing the hydrophobic interactions involving the microtubule-binding domain."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The extension from K18 to full-length tau is based solely on coarse-grained simulations, with no experimental validation for full-length tau. The abstract does not specify the model fidelity or whether post-translational modifications or other domains influence the outcome.  
+  - **Why it matters** The clinical relevance of DeltaK280 is in full-length tau context. Simulation-only evidence for full-length tau is insufficient to support a generalizable conclusion.  
+  - **Resolution test** Provide experimental LLPS data for full-length tau with and without DeltaK280, or clearly state the simulation limitations and validate with orthogonal approaches.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** "collapse degree"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "collapse degree" is not defined in the abstract, and its biophysical meaning may be ambiguous to nonspecialist readers.  
+  - **Required correction** Define the metric (e.g., radius of gyration or contact density) and provide typical values for context.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** "multiscale molecular simulations"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not specify force fields, simulation lengths, or system sizes, which are critical for assessing simulation reliability.  
+  - **Required correction** Include key simulation parameters in the abstract or refer to a methods section with full details.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Quantitative reporting  
+  - **Affected element** "microscopy experiments"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No quantitative outcomes from microscopy (e.g., droplet counts, size distributions, or fluorescence intensities) are reported.  
+  - **Required correction** Provide representative quantitative metrics or state that qualitative observations are shown in the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or causal evidence to establish that DeltaK280 enhances LLPS via the proposed hydrophobic interaction mechanism.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract addresses a novel question (DeltaK280 effects on tau LLPS) and proposes a specific mechanistic framework. This is a meaningful advance over prior work on DeltaK280 aggregation.  
+  - **Scientific importance** The findings could have broad implications for understanding tau pathogenesis and identifying therapeutic targets. The importance is high if the mechanism is robustly validated.  
+  - **Interdisciplinary readership** The topic bridges molecular neuroscience, biophysics, and computational biology, which aligns with a broad readership. However, the abstract's technical density may limit accessibility.  
+  - **Technical soundness** The multiscale approach is appropriate, but the abstract lacks the detail needed to assess simulation and experimental rigor.  
+  - **Readability for nonspecialists** The abstract is concise but uses specialized terms (e.g., "cation-pi interactions," "coarse-grained phase-coexistence") without sufficient explanation, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis with preliminary support, but the absence of quantitative data and causal validation precludes a definitive assessment. I would be supportive if the full manuscript addresses the major concerns with rigorous experimental and simulation evidence.
+
+## Risk / unsupported claims
+- The claim that DeltaK280 "promotes" LLPS is unsupported without quantitative phase behavior data.
+- The causal link between specific interaction changes (hydrophobic, hydrogen bonding, cation-pi) and enhanced LLPS is asserted, not demonstrated.
+- The extension to full-length tau is unsupported by experimental validation.
+- The statement "providing potential targets for therapeutic intervention" is speculative and not substantiated by the abstract.

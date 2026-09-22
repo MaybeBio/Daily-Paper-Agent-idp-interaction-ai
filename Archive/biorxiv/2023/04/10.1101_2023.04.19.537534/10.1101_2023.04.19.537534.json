@@ -1,0 +1,135 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.04.19.537534",
+  "title": "Impact of water models on structure and dynamics of enzyme tunnels",
+  "doi": "10.1101/2023.04.19.537534",
+  "abstract": "<h4>ABSTRACT</h4> Protein hydration plays a vital role in many biological functions and molecular simulations are frequently used to study the effect of protein hydration at the atomic level. However, the accuracy of these simulations has often been highly sensitive to the water model used, a phenomenon best known in the case of intrinsically disordered proteins. In the present study, we investigated the extent to which the choice of water model alters the behavior of complex networks of transport tunnels. Tunnels are essential because they allow substrates and products to access and exit the active sites of enzymes that are otherwise deeply embedded within the protein structure. The ability of these tunnels to regulate access directly affects enzyme efficiency and selectivity, making their study crucial for understanding enzyme function and inhibition at a mechanistic level. By performing all-atom molecular dynamics simulations of the wild-type haloalkane dehalogenase LinBWT and its two variants, LinB32 and LinB86, with synthetically engineered tunnel networks in TIP3P and OPC water models, we investigated the effects of these models on the overall tunnel topology. We also analyzed the properties of the main tunnels, such as their conformation, bottleneck dimensions, sampling efficiency, and duration of the tunnel opening. Our data demonstrate that all three proteins exhibited similar conformational behavior in both water models and differed in the geometrical characteristics of their auxiliary tunnels, in line with experimental observations. Interestingly, the results indicate that the stability of the open tunnels is sensitive to the water model and the system under question. Our findings suggest that the 3-point TIP3P model can provide comparable inference on the overall topology of the networks of primary tunnels and their geometry, and thus may be a desirable choice when computational resources are limited or when compatibility issues impede usage of OPC with certain protein force fields. However, when a more thorough investigation is performed, such as the calculation of ligand unbinding rates via such tunnel networks, where precision and intricate details are paramount, the more costly 4-point OPC model would be more suited. <h4>Graphical Abstract</h4>",
+  "authors": [
+    "Sethi A",
+    "Agrawal N",
+    "Brezovsky J"
+  ],
+  "published_date": "2023-04-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.04.19.537534",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.04.19.537534.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR648777",
+    "raw_record": {
+      "id": "PPR648777",
+      "source": "PPR",
+      "doi": "10.1101/2023.04.19.537534",
+      "title": "Impact of water models on structure and dynamics of enzyme tunnels",
+      "authorString": "Sethi A, Agrawal N, Brezovsky J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sethi A",
+            "lastName": "Sethi",
+            "firstName": "Aaftaab",
+            "initials": "A"
+          },
+          {
+            "fullName": "Agrawal N",
+            "lastName": "Agrawal",
+            "firstName": "Nikhil",
+            "initials": "N"
+          },
+          {
+            "fullName": "Brezovsky J",
+            "lastName": "Brezovsky",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9677-5078"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9677-5078"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Protein hydration plays a vital role in many biological functions and molecular simulations are frequently used to study the effect of protein hydration at the atomic level. However, the accuracy of these simulations has often been highly sensitive to the water model used, a phenomenon best known in the case of intrinsically disordered proteins. In the present study, we investigated the extent to which the choice of water model alters the behavior of complex networks of transport tunnels. Tunnels are essential because they allow substrates and products to access and exit the active sites of enzymes that are otherwise deeply embedded within the protein structure. The ability of these tunnels to regulate access directly affects enzyme efficiency and selectivity, making their study crucial for understanding enzyme function and inhibition at a mechanistic level. By performing all-atom molecular dynamics simulations of the wild-type haloalkane dehalogenase LinBWT and its two variants, LinB32 and LinB86, with synthetically engineered tunnel networks in TIP3P and OPC water models, we investigated the effects of these models on the overall tunnel topology. We also analyzed the properties of the main tunnels, such as their conformation, bottleneck dimensions, sampling efficiency, and duration of the tunnel opening. Our data demonstrate that all three proteins exhibited similar conformational behavior in both water models and differed in the geometrical characteristics of their auxiliary tunnels, in line with experimental observations. Interestingly, the results indicate that the stability of the open tunnels is sensitive to the water model and the system under question. Our findings suggest that the 3-point TIP3P model can provide comparable inference on the overall topology of the networks of primary tunnels and their geometry, and thus may be a desirable choice when computational resources are limited or when compatibility issues impede usage of OPC with certain protein force fields. However, when a more thorough investigation is performed, such as the calculation of ligand unbinding rates via such tunnel networks, where precision and intricate details are paramount, the more costly 4-point OPC model would be more suited. <h4>Graphical Abstract</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/04/21/2023.04.19.537534.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.04.19.537534"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39582894",
+            "reference": "Computational and structural biotechnology journal. 2024 Dec;23:3946-3954",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-04-23",
+      "firstPublicationDate": "2023-04-21",
+      "firstIndexDate": "2023-04-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

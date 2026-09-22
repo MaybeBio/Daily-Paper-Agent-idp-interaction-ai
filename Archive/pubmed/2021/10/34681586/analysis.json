@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34681586",
+  "title": "Insight into the Binding and Hydrolytic Preferences of hNudt16 Based on Nucleotide Diphosphate Substrates.",
+  "authors": "Chrabaszczewska, Magdalena; Winiewska-Szajewska, Maria; Ostrowska, Natalia; Bojarska, Elzbieta; Stepinski, Janusz; Mancewicz, Lukasz; Lukaszewicz, Maciej; Trylska, Joanna; Taube, Michal; Kozak, Maciej; Darzynkiewicz, Edward; Grzela, Renata",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-10-24",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究hNudt16酶对核苷二磷酸底物的结合与水解偏好，虽涉及分子对接和结合机制，但对象为折叠酶与小分子底物，非无序蛋白/IDR介导的PPI，互作机制建模启发有限。",
+  "abstract": "Nudt16 is a member of the NUDIX family of hydrolases that show specificity towards substrates consisting of a nucleoside diphosphate linked to another moiety X. Several substrates for hNudt16 and various possible biological functions have been reported. However, some of these reports contradict each other and studies comparing the substrate specificity of the hNudt16 protein are limited. Therefore, we quantitatively compared the affinity of hNudt16 towards a set of previously published substrates, as well as identified novel potential substrates. Here, we show that hNudt16 has the highest affinity towards IDP and GppG, with K(d) below 100 nM. Other tested ligands exhibited a weaker affinity of several orders of magnitude. Among the investigated compounds, only IDP, GppG, m(7)GppG, AppA, dpCoA, and NADH were hydrolyzed by hNudt16 with a strong substrate preference for inosine or guanosine containing compounds. A new identified substrate for hNudt16, GppG, which binds the enzyme with an affinity comparable to that of IDP, suggests another potential regulatory role of this protein. Molecular docking of hNudt16-ligand binding inside the hNudt16 pocket revealed two binding modes for representative substrates. Nucleobase stabilization by Pi stacking interactions with His24 has been associated with strong binding of hNudt16 substrates.",
+  "abstract_zh": "Nudt16是NUDIX水解酶家族的一员，该家族对由核苷二磷酸连接至另一部分X组成的底物具有特异性。已有报道称hNudt16具有多种底物及多种可能的生物学功能。然而，其中一些报道相互矛盾，且比较hNudt16蛋白底物特异性的研究有限。因此，我们定量比较了hNudt16对一组先前已发表底物的亲和力，并鉴定了新的潜在底物。在此，我们显示hNudt16对IDP和GppG具有最高亲和力，其K(d)低于100 nM。其他测试配体表现出弱几个数量级的亲和力。在所研究的化合物中，仅IDP、GppG、m(7)GppG、AppA、dpCoA和NADH被hNudt16水解，且对含肌苷或鸟苷的化合物具有强底物偏好。新鉴定的hNudt16底物GppG，其与酶的亲和力与IDP相当，提示该蛋白可能具有另一种潜在调控作用。hNudt16-配体在hNudt16口袋内结合的分子对接揭示了代表性底物的两种结合模式。通过His24的Pi堆积相互作用稳定核碱基与hNudt16底物的强结合相关。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34681586/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34681586/",
+  "paper_page_path": "papers/pubmed/34681586/index.html"
+}

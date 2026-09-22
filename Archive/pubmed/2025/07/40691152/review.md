@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary information descriptions
+- **Assessment boundary** Scientific content, methodological rigor, evidence quality, and claims as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors present SHVIP (Structural Host Virus Interactome Profiling), a method combining in-cell cross-linking mass spectrometry with bio-orthogonal labeling of newly synthesized viral proteins, to capture virus-host protein-protein interactions in intact HSV-1-infected human fibroblasts. They report 739 PPIs supported by 6,194 cross-links, resolve interactions to domain level, integrate with AlphaFold modeling, and validate selected interactions via mutagenesis and co-immunoprecipitation.
+- **Visible evidence base** Main text figures 1-7 (described), supplementary figures 1-6 (described), supplementary data 1-7 (referenced), methods section
+- **Missing materials affecting confidence** Raw mass spectrometry data, detailed statistical analysis parameters, complete lists of cross-linked peptides and PPI scores, validation data for all 16 predicted SLiMs, full AP-MS datasets for all 8 baits, and supplementary figures/data files were not available for direct inspection
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically ambitious and potentially valuable methodological advance for studying virus-host protein-protein interactions in intact cells. The combination of in-cell cross-linking with metabolic labeling of viral proteins addresses a genuine gap in the field. The authors provide substantial evidence for the method's utility, including validation of known interactions and discovery of novel ones. However, several technical concerns regarding data quality metrics, statistical rigor, and the generalizability of the approach need to be addressed before the full claims can be accepted. The manuscript is well-written and the figures appear informative, but the depth of validation for the SLiM predictions is uneven across the 16 candidates.
+- **Who would be interested in the results, and why** Virologists studying virus-host interactions, particularly herpesvirus biology; structural biologists interested in protein-protein interaction interfaces; method developers in cross-linking mass spectrometry; computational biologists working on protein structure prediction and integration of experimental constraints; researchers studying intrinsically disordered regions and short linear motifs in viral pathogenesis.
+- **Major strengths** 1) The methodological innovation of combining HPG-based metabolic labeling with in-cell cross-linking is clever and addresses a real limitation of conventional XL-MS for viral systems. 2) The demonstration that SHIPS captures interactions across multiple cellular compartments, including the endomembrane system, provides confidence in the approach's breadth. 3) The integration of cross-linking data with AlphaFold modeling is timely and well-executed, showing how experimental constraints can improve confidence in predicted complexes. 4) The validation strategy, including reverse genetics and orthogonal interaction assays, strengthens the biological relevance of the findings. 5) The identification of SLiMs within IDRs, particularly the competitive MAPK8/14-3-3 binding site in UL12, provides mechanistic insight into viral regulation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that SHIPS captures PPIs at a 1% FDR with 739 interactions and 6,194 cross-links, and that these data are of sufficient quality to guide structural modeling.
+  - **Evidence pointer** Results section "Spatial resolution of the virus-host interactome map", Figure 2, Methods "Cross-link data analysis"
+  - **Concern** The manuscript reports a combined analysis of two experiments with different acquisition schemes (MS2-MS3 and MS2-only). The FDR estimation strategy is described as "1% residue pair-level FDR" and "1% separate PPI-level FDR estimated by target and decoy counts," but the details of how the PPI-level FDR was computed from residue-level data are not fully specified. More critically, the authors do not report the number of decoy hits at each level, the distribution of cross-link scores, or the spectral count thresholds used. Without these quality metrics, it is difficult to assess whether the reported 739 PPIs are truly at the claimed FDR. Additionally, the decision to combine data from two different acquisition schemes without a clear description of how potential systematic differences were handled is concerning.
+  - **Why it matters** The central claim of the paper is that SHIPS provides a reliable structural interactome. If the FDR control is not rigorously established, all downstream analyses, including the AlphaFold integration and SLiM predictions, are built on potentially unreliable interaction calls. The field of XL-MS has established standards for reporting FDR and quality metrics, and this manuscript falls short of those standards.
+  - **Resolution test** Provide a detailed breakdown of target and decoy hits at the residue-pair and PPI levels for each experiment separately and combined. Report score distributions, spectral counts per cross-link, and the number of unique cross-linked peptides supporting each PPI. Show that the FDR is stable across different score thresholds and that the two acquisition schemes yield comparable results. Ideally, provide a comparison of the SHIPS dataset with a published HSV-1 interactome to demonstrate recall of known interactions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The authors state that "Validation by molecular genetics confirms that these new SHIPS identifications are genuine virus-host PPIs occurring in the complex environment of intact infected cells."
+  - **Evidence pointer** Results section "Identifying sequence determinants for virus-host PPIs in IDRs", Figure 7, Supplementary Figure 5
+  - **Concern** The validation of the UL12-MAPK8 and UL12-14-3-3 interactions is presented as evidence that SHIPS identifies genuine PPIs. However, the mutational analysis appears to be limited to two SLiM candidates within UL12. The manuscript claims 16 putative SLiMs were identified, but only a subset appears to be validated. The AP-MS data for the UL12 mutants show changes in interaction partners, but the statistical significance of these changes is not fully described. For the S41A/P43A mutant, the SILAC experiment is described as having only two replicates, which is underpowered for reliable statistical inference. The authors should clarify how many of the 16 SLiM candidates were validated and provide a more comprehensive validation strategy.
+  - **Why it matters** The claim that SHIPS identifies genuine PPIs is central to the paper's significance. If only a small fraction of the predicted interactions are validated, the false discovery rate may be higher than estimated. The underpowered SILAC experiment undermines confidence in the 14-3-3 binding site validation. The broader claim of validation by molecular genetics needs to be supported by evidence across multiple candidates, not just the most favorable examples.
+  - **Resolution test** Provide validation data for a larger fraction of the 16 predicted SLiMs, or clearly state which ones were validated and which remain predictions. For the SILAC experiment, either increase the number of replicates or provide a statistical framework that accounts for the limited replication. Show that the observed changes in interaction partners are specific to the mutations and not due to global changes in protein abundance or stability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "SHIPS captures parts of the virus-host PPI space that are elusive to traditional interaction proteomics approaches" and that the method preserves the intact cellular environment.
+  - **Evidence pointer** Results section "Capturing the viral interactome in intact HSV-1 infected cells", Figure 1, Discussion
+  - **Concern** The claim that SHIPS captures PPIs elusive to traditional approaches is supported by the comparison with AP-MS for 8 selected baits. However, the manuscript does not provide a systematic comparison of the SHIPS dataset with existing HSV-1 interactome datasets generated by AP-MS or other methods. The statement that SHIPS preserves the intact cellular environment is somewhat overstated, as the method still requires cell lysis after cross-linking, and the cross-linking itself can perturb protein conformations. The authors should temper this claim or provide more direct evidence that the interactions captured are indeed dependent on the intact cellular context.
+  - **Why it matters** The novelty of the approach depends on its ability to capture interactions that are lost upon cell lysis. Without a direct comparison to existing datasets or a demonstration that specific interactions are only observed in the intact context, this claim remains speculative. The discussion of complementarity with AP-MS is interesting but does not fully establish the unique value of SHIPS.
+  - **Resolution test** Provide a systematic comparison of the SHIPS interactome with published HSV-1 AP-MS datasets, showing which interactions are uniquely captured by SHIPS and whether these are enriched for context-dependent or membrane-associated interactions. Alternatively, perform a controlled experiment where cells are lysed before cross-linking and show that specific interactions are lost.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "Reproducibility between the two experiments was similar to previous XL-MS studies from complex samples."
+  - **Evidence pointer** Results section "Capturing the viral interactome in intact HSV-1 infected cells", Supplementary Figure 1d
+  - **Concern** The reproducibility assessment is described only in a single sentence with a supplementary figure. The manuscript does not provide quantitative metrics for reproducibility, such as the correlation coefficient between replicates, the overlap of identified cross-links, or the coefficient of variation for cross-link intensities. The statement that reproducibility is "similar to previous XL-MS studies" is vague and not substantiated with specific numbers.
+  - **Why it matters** Reproducibility is a fundamental requirement for any quantitative proteomics method. Without clear metrics, readers cannot assess the reliability of the dataset or compare it to other XL-MS studies. The lack of detailed reproducibility data is particularly concerning given that the two experiments used different acquisition schemes.
+  - **Resolution test** Provide quantitative reproducibility metrics, including Pearson or Spearman correlation coefficients for cross-link intensities between replicates, the Jaccard index for cross-link identification overlap, and the coefficient of variation for cross-link abundance. Show these metrics for both experiments separately and for the combined dataset.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1b
+  - **Evidence pointer** Results section "Capturing the viral interactome in intact HSV-1 infected cells"
+  - **Issue** The figure legend states that panel b shows "Abundance (measured by iBAQ) of host and viral proteins in non-cross-linked HPG-enriched and input samples." It is unclear whether the iBAQ values are from a single experiment or combined across replicates, and whether the reduction in host protein abundance is statistically significant.
+  - **Required correction** Clarify the number of replicates used for the iBAQ quantification and provide statistical tests for the difference in host protein abundance between enriched and input samples. Consider showing individual data points or error bars.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods section "AlphaFold predictions"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the AlphaFold modeling is brief. The authors state that they used AF-Multimer v2.38 and AlphaFold3, but do not provide details on the input sequences, the number of models generated, the selection criteria beyond confidence scores, or how cross-link satisfaction was assessed.
+  - **Required correction** Provide more detail on the AlphaFold modeling pipeline, including sequence inputs, model selection criteria, and the specific algorithm used to assess cross-link satisfaction. Consider including a supplementary figure showing examples of predicted models with cross-links mapped.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 4b-f
+  - **Evidence pointer** Results section "Identifying PPIs that depend on the intact cellular environment"
+  - **Issue** The statistical analysis of the AP-MS validation experiments is not fully described. The manuscript mentions t-tests and Fisher's exact tests, but does not specify whether multiple testing correction was applied, how missing values were handled, or the criteria for defining a "validated" interaction.
+  - **Required correction** Provide a detailed description of the statistical analysis for the AP-MS experiments, including multiple testing correction, missing value imputation, and the thresholds used to define significant interactions. Consider including a supplementary table with all statistical values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors state that the method is applicable to any virus inducing host shutoff, but the manuscript only demonstrates the approach with HSV-1. The discussion of generalizability is speculative and does not address potential limitations for viruses with different replication kinetics or host shutoff mechanisms.
+  - **Required correction** Acknowledge the limitations of the current demonstration and discuss potential challenges for applying SHIPS to other virus families. If possible, include preliminary data from another virus system or a more detailed discussion of the requirements for successful application.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Not explicitly provided in the manuscript text
+  - **Issue** The manuscript does not include a clear data availability statement describing where the mass spectrometry data, cross-link identifications, and AlphaFold models will be deposited.
+  - **Required correction** Add a data availability statement specifying the repositories (e.g., ProteomeXchange, PRIDE, PDB) and accession numbers for all datasets generated in this study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (FDR estimation and data quality metrics), R1-M2 (incomplete validation of SLiM predictions), R1-M3 (overstated claims of capturing elusive PPIs without systematic comparison)
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of metabolic labeling with in-cell cross-linking for virus-host interactome profiling is novel and represents a creative methodological advance. The integration with AlphaFold modeling is timely and adds value beyond standard XL-MS studies.
+  - Scientific importance: The approach addresses a significant gap in virus-host interactomics, and the resulting dataset for HSV-1 has potential value for the herpesvirus community. The identification of SLiMs in IDRs provides mechanistic hypotheses that could be tested in future studies.
+  - Interdisciplinary readership: The work bridges virology, structural biology, and proteomics, and should appeal to researchers in all three fields. The methodological aspects will be of interest to the XL-MS community, while the biological findings are relevant to virologists.
+  - Technical soundness: The core methodology is sound in principle, but the manuscript lacks sufficient detail on FDR estimation, quality metrics, and statistical analysis to fully assess the reliability of the reported interactions. The validation experiments are promising but incomplete.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear figures and logical flow. However, some sections, particularly the methods, assume familiarity with XL-MS and structural prediction tools. The abstract effectively communicates the key findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable methodological advance with potentially broad applicability. However, the current evidence base is insufficient to fully support the claims of a reliable structural interactome and validated SLiM predictions. The authors should address the concerns regarding FDR estimation, provide more comprehensive validation data, and temper claims about capturing elusive PPIs without systematic comparison to existing datasets.
+
+## Risk / unsupported claims
+- The claim that SHIPS captures PPIs "elusive to traditional interaction proteomics approaches" is not directly supported by a systematic comparison with existing datasets.
+- The statement that SHIPS preserves the "intact cellular environment" is overstated, as the method still requires cell lysis after cross-linking.
+- The claim that "Validation by molecular genetics confirms that these new SHIPS identifications are genuine virus-host PPIs" is based on a limited subset of the predicted interactions and may not be generalizable to the full dataset.
+- The assertion that the method is applicable to any virus inducing host shutoff is speculative and not demonstrated experimentally.
+- The reported 739 PPIs at 1% FDR cannot be fully assessed without detailed quality metrics and decoy counts.

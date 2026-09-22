@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "37535684",
+    "doi": "10.1371/journal.pone.0289224",
+    "title": "Exploring the evolution and function of Canoe's intrinsically disordered region in linking cell-cell junctions to the cytoskeleton during embryonic morphogenesis."
+  },
+  "content": {
+    "abstract": "One central question for cell and developmental biologists is defining how epithelial cells can change shape and move during embryonic development without tearing tissues apart. This requires robust yet dynamic connections of cells to one another, via the cell-cell adherens junction, and of junctions to the actin and myosin cytoskeleton, which generates force. The last decade revealed that these connections involve a multivalent network of proteins, rather than a simple linear pathway. We focus on Drosophila Canoe, homolog of mammalian Afadin, as a model for defining the underlying mechanisms. Canoe and Afadin are complex, multidomain proteins that share multiple domains with defined and undefined binding partners. Both also share a long carboxy-terminal intrinsically disordered region (IDR), whose function is less well defined. IDRs are found in many proteins assembled into large multiprotein complexes. We have combined bioinformatic analysis and the use of a series of canoe mutants with early stop codons to explore the evolution and function of the IDR. Our bioinformatic analysis reveals that the IDRs of Canoe and Afadin differ dramatically in sequence and sequence properties. When we looked over shorter evolutionary time scales, we identified multiple conserved motifs. Some of these are predicted by AlphaFold to be alpha-helical, and two correspond to known protein interaction sites for alpha-catenin and F-actin. We next identified the lesions in a series of eighteen canoe mutants, which have early stop codons across the entire protein coding sequence. Analysis of their phenotypes are consistent with the idea that the IDR, including the conserved motifs in the IDR, are critical for protein function. These data provide the foundation for further analysis of IDR function.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Actins/metabolism",
+      "Adherens Junctions/metabolism",
+      "Codon, Terminator",
+      "Cytoskeleton/metabolism",
+      "Drosophila melanogaster/metabolism",
+      "*Drosophila Proteins/genetics/metabolism",
+      "Embryonic Development",
+      "Intercellular Junctions/metabolism",
+      "*Intrinsically Disordered Proteins/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gurley, Noah J",
+        "Szymanski, Rachel A",
+        "Dowen, Robert H",
+        "Butcher, T Amber",
+        "Ishiyama, Noboru",
+        "Peifer, Mark"
+      ],
+      "short_names": [
+        "Gurley NJ",
+        "Szymanski RA",
+        "Dowen RH",
+        "Butcher TA",
+        "Ishiyama N",
+        "Peifer M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3421-5192",
+        "ORCID: 0000-0002-9342-1888",
+        "ORCID: 0000-0003-1412-3987"
+      ],
+      "affiliations": [
+        "Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America.",
+        "Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America.",
+        "Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America.",
+        "Curriculum in Genetics and Molecular Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America.",
+        "Integrative Program for Biological and Genome Sciences, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America.",
+        "Department of Cell Biology and Physiology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America.",
+        "Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America.",
+        "Launchpad Therapeutics, Inc., Cambridge, MA, United States of America.",
+        "Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America.",
+        "Curriculum in Genetics and Molecular Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gurley, Noah J",
+        "short_name": "Gurley NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America."
+        ]
+      },
+      {
+        "full_name": "Szymanski, Rachel A",
+        "short_name": "Szymanski RA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America."
+        ]
+      },
+      {
+        "full_name": "Dowen, Robert H",
+        "short_name": "Dowen RH",
+        "identifiers": [
+          "0000-0003-3421-5192"
+        ],
+        "affiliations": [
+          "Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America.",
+          "Curriculum in Genetics and Molecular Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America.",
+          "Integrative Program for Biological and Genome Sciences, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America.",
+          "Department of Cell Biology and Physiology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America."
+        ]
+      },
+      {
+        "full_name": "Butcher, T Amber",
+        "short_name": "Butcher TA",
+        "identifiers": [
+          "0000-0002-9342-1888"
+        ],
+        "affiliations": [
+          "Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America."
+        ]
+      },
+      {
+        "full_name": "Ishiyama, Noboru",
+        "short_name": "Ishiyama N",
+        "identifiers": [],
+        "affiliations": [
+          "Launchpad Therapeutics, Inc., Cambridge, MA, United States of America."
+        ]
+      },
+      {
+        "full_name": "Peifer, Mark",
+        "short_name": "Peifer M",
+        "identifiers": [
+          "0000-0003-1412-3987"
+        ],
+        "affiliations": [
+          "Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America.",
+          "Curriculum in Genetics and Molecular Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/03 19:14",
+    "fetched_at": "2026-09-21 00:04:26"
+  },
+  "links": {
+    "cites": [
+      "41099653",
+      "40894575",
+      "40462925",
+      "40026293",
+      "39951520",
+      "39882731",
+      "39574742",
+      "39450902",
+      "39415991",
+      "38323935",
+      "37905001"
+    ],
+    "refs": [
+      "36520419",
+      "35637307",
+      "35412617",
+      "35177069",
+      "34791371",
+      "34788634",
+      "34762121",
+      "34265844",
+      "33627133",
+      "33616531",
+      "33590861",
+      "33243859",
+      "32917667",
+      "32227204",
+      "31805038",
+      "31359616",
+      "31353315",
+      "31264965",
+      "31188739",
+      "30782412",
+      "30471685",
+      "29969655",
+      "29891560",
+      "29431241",
+      "29361567",
+      "29361565",
+      "28890940",
+      "28778874",
+      "28305338",
+      "28225081",
+      "27385341",
+      "26751642",
+      "25378627",
+      "23203878",
+      "22977176",
+      "22728672",
+      "21988835",
+      "21613546",
+      "21478889",
+      "21402926",
+      "20008323",
+      "19596848",
+      "16935303",
+      "16049193",
+      "15084738",
+      "14504224",
+      "12446711",
+      "10922060",
+      "9858699",
+      "9334353",
+      "9310325",
+      "8978054",
+      "8598295",
+      "8582279",
+      "2570722",
+      "2261639"
+    ],
+    "similar": [
+      "37535684",
+      "36945496",
+      "38323935",
+      "37905001",
+      "31188739",
+      "19596848",
+      "34762121",
+      "21613546",
+      "33627133",
+      "29361565",
+      "21508316",
+      "36287827",
+      "23363604",
+      "36520419",
+      "37163320",
+      "33243859",
+      "26688336",
+      "15809032",
+      "31353315",
+      "37244252",
+      "17097274",
+      "29358210",
+      "16862128",
+      "38662765",
+      "10639730",
+      "30399336",
+      "8698810",
+      "11084333",
+      "21807490",
+      "22266901",
+      "30763317",
+      "28865031",
+      "18362180",
+      "35696393",
+      "20933214",
+      "31628110",
+      "12446711",
+      "33377869",
+      "27114502",
+      "9334353",
+      "30202062",
+      "27831494",
+      "16361708",
+      "23481206",
+      "31227595",
+      "30837288",
+      "34812842",
+      "22545588",
+      "37269287",
+      "31399470",
+      "29722136",
+      "23750010",
+      "17846121",
+      "28219947",
+      "27385341",
+      "28363828",
+      "12551951",
+      "23417122",
+      "9441670",
+      "24768049",
+      "18508861",
+      "30482667",
+      "27989746",
+      "14597571",
+      "30659113",
+      "28373611",
+      "36543168",
+      "18423434",
+      "20194639",
+      "33843588",
+      "19029882",
+      "28096263",
+      "11907041",
+      "12819787",
+      "29196707",
+      "24027208",
+      "25968313",
+      "11850624",
+      "33186390",
+      "23195221",
+      "22024168",
+      "15047870",
+      "23075227",
+      "32553192",
+      "16862127",
+      "16882694",
+      "14647292",
+      "22022483",
+      "11408571",
+      "15140894",
+      "15108322",
+      "36871754",
+      "33218630",
+      "22251558",
+      "29550429",
+      "31693432",
+      "19064672",
+      "21732359",
+      "29066345",
+      "36909597",
+      "38883712",
+      "38048321",
+      "37609146",
+      "35754369",
+      "37761851"
+    ],
+    "review": [
+      "37535684",
+      "21807490",
+      "35696393",
+      "23481206",
+      "29722136",
+      "28363828",
+      "27989746",
+      "28373611",
+      "28096263",
+      "24027208",
+      "33218630",
+      "22251558"
+    ],
+    "pmc": [
+      "10399776"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=37535684",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0289224",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37535684/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37535684",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

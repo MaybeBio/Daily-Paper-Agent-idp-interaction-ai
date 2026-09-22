@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "39466712",
+    "doi": "10.1021/acs.jctc.4c00942",
+    "title": "Comparison of Methodologies for Absolute Binding Free Energy Calculations of Ligands to Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Modulating the function of Intrinsically Disordered Proteins (IDPs) with small molecules is of considerable importance given the crucial roles of IDPs in the pathophysiology of numerous diseases. Reported binding affinities for ligands to diverse IDPs vary broadly, and little is known about the detailed molecular mechanisms that underpin ligand efficacy. Molecular simulations of IDP ligand binding mechanisms can help us understand the mode of action of small molecule inhibitors of IDP function, but it is still unclear how binding energies can be modeled rigorously for such a flexible class of proteins. Here, we compare alchemical absolute binding free energy calculations (ABFE) and Markov-State Modeling (MSM) protocols to model the binding of the small molecule 10058-F4 to a disordered peptide extracted from a segment of the oncoprotein c-Myc. The ABFE results produce binding energy estimates that are sensitive to the choice of reference structure. In contrast, the MSM results produce more reproducible binding energy estimates consistent with weak mM binding affinities and transient intermolecular contacts reported in the literature.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Ligands",
+      "*Thermodynamics",
+      "*Protein Binding",
+      "Molecular Dynamics Simulation",
+      "Markov Chains"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Papadourakis, Michail",
+        "Cournia, Zoe",
+        "Mey, Antonia S J S",
+        "Michel, Julien"
+      ],
+      "short_names": [
+        "Papadourakis M",
+        "Cournia Z",
+        "Mey ASJS",
+        "Michel J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9969-5871",
+        "ORCID: 0000-0001-9287-364X",
+        "ORCID: 0000-0001-7512-5252",
+        "ORCID: 0000-0003-0360-1760"
+      ],
+      "affiliations": [
+        "EaStCHEM School of Chemistry, University of Edinburgh, David Brewster Road, Edinburgh EH9 3FJ, U.K.",
+        "Biomedical Research Foundation, Academy of Athens, 4 Soranou Ephessiou, 11527 Athens, Greece.",
+        "Biomedical Research Foundation, Academy of Athens, 4 Soranou Ephessiou, 11527 Athens, Greece.",
+        "EaStCHEM School of Chemistry, University of Edinburgh, David Brewster Road, Edinburgh EH9 3FJ, U.K.",
+        "EaStCHEM School of Chemistry, University of Edinburgh, David Brewster Road, Edinburgh EH9 3FJ, U.K."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Papadourakis, Michail",
+        "short_name": "Papadourakis M",
+        "identifiers": [
+          "0000-0002-9969-5871"
+        ],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh, David Brewster Road, Edinburgh EH9 3FJ, U.K.",
+          "Biomedical Research Foundation, Academy of Athens, 4 Soranou Ephessiou, 11527 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Cournia, Zoe",
+        "short_name": "Cournia Z",
+        "identifiers": [
+          "0000-0001-9287-364X"
+        ],
+        "affiliations": [
+          "Biomedical Research Foundation, Academy of Athens, 4 Soranou Ephessiou, 11527 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Mey, Antonia S J S",
+        "short_name": "Mey ASJS",
+        "identifiers": [
+          "0000-0001-7512-5252"
+        ],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh, David Brewster Road, Edinburgh EH9 3FJ, U.K."
+        ]
+      },
+      {
+        "full_name": "Michel, Julien",
+        "short_name": "Michel J",
+        "identifiers": [
+          "0000-0003-0360-1760"
+        ],
+        "affiliations": [
+          "EaStCHEM School of Chemistry, University of Edinburgh, David Brewster Road, Edinburgh EH9 3FJ, U.K."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2024 Nov 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/28 18:23",
+    "fetched_at": "2026-09-21 12:02:18"
+  },
+  "links": {
+    "cites": [
+      "41441193",
+      "40687697",
+      "40532196",
+      "40446154",
+      "39896485",
+      "39605539"
+    ],
+    "refs": [
+      "38814008",
+      "38394344",
+      "38049566",
+      "37146977",
+      "36648282",
+      "36265487",
+      "35655546",
+      "35177069",
+      "35170314",
+      "35131537",
+      "35130691",
+      "34458687",
+      "34084326",
+      "33260713",
+      "33148639",
+      "31425549",
+      "30786217",
+      "30159717",
+      "29243483",
+      "29134431",
+      "28743590",
+      "28469390",
+      "28448138",
+      "27911701",
+      "27819658",
+      "27792332",
+      "27248478",
+      "27156768",
+      "26574453",
+      "26574340",
+      "26544598",
+      "25725706",
+      "25531225",
+      "24859015",
+      "24098099",
+      "23620485",
+      "22815918",
+      "22702725",
+      "21729349",
+      "21646537",
+      "21548671",
+      "21514145",
+      "21440685",
+      "20801893",
+      "20598937",
+      "20117254",
+      "19575467",
+      "19432426",
+      "19090668",
+      "19045004",
+      "19022175",
+      "18831774",
+      "17212484",
+      "16458552",
+      "15116359",
+      "15056059",
+      "12395429",
+      "12381310",
+      "12360279",
+      "4202581"
+    ],
+    "similar": [
+      "39466712",
+      "24098099",
+      "29990433",
+      "31441158",
+      "33054197",
+      "33355572",
+      "34504009",
+      "30979035",
+      "31702919",
+      "32323533",
+      "38916177",
+      "24317797",
+      "30528464",
+      "32696381",
+      "29080468",
+      "25611056",
+      "33037549",
+      "39163306",
+      "35130691",
+      "30413085",
+      "28914483",
+      "31535860",
+      "35762718",
+      "24604825",
+      "29382046",
+      "34799573",
+      "35029261",
+      "30865832",
+      "29716994",
+      "24329095",
+      "26851279",
+      "32859072",
+      "32403216",
+      "30471704",
+      "24589355",
+      "31021441",
+      "30471705",
+      "32621228",
+      "24446368",
+      "28448138",
+      "24278008",
+      "34845619",
+      "24898547",
+      "26742101",
+      "28926706",
+      "28554553",
+      "27018856",
+      "29594774",
+      "28394890",
+      "38118365",
+      "35609776",
+      "26195786",
+      "32925900",
+      "26226419",
+      "35883018",
+      "37626077",
+      "32786705",
+      "30278223",
+      "29808548",
+      "37338049",
+      "25919886",
+      "34656328",
+      "37285579",
+      "31809054",
+      "30091924",
+      "38987470",
+      "28786670",
+      "25544254",
+      "28493424",
+      "39225535",
+      "32936312",
+      "30703278",
+      "33945530",
+      "25207671",
+      "39088306",
+      "31052346",
+      "39056166",
+      "32696371",
+      "31425549",
+      "30316104",
+      "38275091",
+      "30813629",
+      "29928798",
+      "26931396",
+      "34504002",
+      "25496281",
+      "33917117",
+      "38739602",
+      "27588692",
+      "37838830",
+      "29243483",
+      "34439840",
+      "38039868",
+      "29276882",
+      "35762723",
+      "34610267",
+      "31894691",
+      "32020911",
+      "36084347",
+      "31624293"
+    ],
+    "review": [
+      "39466712",
+      "31441158",
+      "33355572",
+      "30979035",
+      "29080468",
+      "30413085",
+      "29382046",
+      "26851279",
+      "32403216",
+      "31021441",
+      "30471705",
+      "28554553",
+      "38118365",
+      "26226419",
+      "30278223",
+      "25544254",
+      "30316104",
+      "30813629",
+      "33917117",
+      "38039868",
+      "34610267"
+    ],
+    "pmc": [
+      "11562378"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39466712/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.4c00942",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

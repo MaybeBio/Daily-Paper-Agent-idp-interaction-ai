@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34471142",
+  "title": "DEEP picker is a deep neural network for accurate deconvolution of complex two-dimensional NMR spectra.",
+  "authors": "Li, Da-Wei; Hansen, Alexandar L; Yuan, Chunhua; Bruschweiler-Li, Lei; Bruschweiler, Rafael",
+  "journal": "Nature communications",
+  "published_date": "2021-09-03",
+  "window": {
+    "start": "2021-08-30",
+    "end": "2021-09-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用深度神经网络对二维NMR谱进行峰拾取与解卷积，虽以无序蛋白为测试对象，但聚焦谱图分析而非PPI互作机制建模，方法可迁移性有限。",
+  "abstract": "The analysis of nuclear magnetic resonance (NMR) spectra for the comprehensive and unambiguous identification and characterization of peaks is a difficult, but critically important step in all NMR analyses of complex biological molecular systems. Here, we introduce DEEP Picker, a deep neural network (DNN)-based approach for peak picking and spectral deconvolution which semi-automates the analysis of two-dimensional NMR spectra. DEEP Picker includes 8 hidden convolutional layers and was trained on a large number of synthetic spectra of known composition with variable degrees of crowdedness. We show that our method is able to correctly identify overlapping peaks, including ones that are challenging for expert spectroscopists and existing computational methods alike. We demonstrate the utility of DEEP Picker on NMR spectra of folded and intrinsically disordered proteins as well as a complex metabolomics mixture, and show how it provides access to valuable NMR information. DEEP Picker should facilitate the semi-automation and standardization of protocols for better consistency and sharing of results within the scientific community.",
+  "abstract_zh": "核磁共振（NMR）谱图的分析，对于全面且无歧义地识别和表征峰，是所有复杂生物分子系统NMR分析中一个困难但至关重要的步骤。在此，我们介绍DEEP Picker，一种基于深度神经网络（DNN）的方法，用于峰拾取和谱图去卷积，该方法半自动化地分析二维NMR谱图。DEEP Picker包含8个隐藏卷积层，并在大量已知组成且拥挤程度各异的合成谱图上进行了训练。我们证明，我们的方法能够正确识别重叠峰，包括那些对专家光谱学家和现有计算方法都具有挑战性的峰。我们展示了DEEP Picker在折叠和 intrinsically disordered 蛋白质的NMR谱图以及复杂代谢组学混合物上的实用性，并说明它如何提供有价值的NMR信息。DEEP Picker应能促进协议的半自动化和标准化，以提高科学界内结果的一致性和共享性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34471142/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34471142/",
+  "paper_page_path": "papers/pubmed/34471142/index.html"
+}

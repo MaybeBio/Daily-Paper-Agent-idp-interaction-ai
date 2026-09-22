@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.03.518956",
+  "title": "Bioinformatics techniques for efficient structure prediction of SARS-CoV-2 protein ORF7a via structure prediction approaches",
+  "authors": "Kazmi A; Kazim M; Aslam F; Kazmi SM; Wahab A; Wahab A; Mikhlef RM; Khizar C; Kazmi A; Wazir NU; Mainali RP",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-05",
+  "window": {
+    "start": "2022-12-05",
+    "end": "2022-12-11"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用Phyre2、IntFOLD和Robetta预测SARS-CoV-2 ORF7a蛋白结构，虽涉及无序区域预测，但无PPI互作机制研究，且方法为常规模板预测工具应用，缺乏AI/物理模拟深度，与本课题关联较弱。",
+  "abstract": "<h4>ABSTRACT</h4> Protein is the building block for all organisms. Protein structure prediction is always a complicated task in the field of proteomics. DNA and protein databases can find the primary sequence of the peptide chain and even similar sequences in different proteins. Mainly, there are two methodologies based on the presence or absence of a template for Protein structure prediction. Template-based structure prediction (threading and homology modeling) and Template-free structure prediction (ab initio). Numerous web-based servers that either use templates or do not can help us forecast the structure of proteins. In this current study, ORF7a, a transmembrane protein of the SARS-coronavirus, is predicted using Phyre2, IntFOLD, and Robetta. The protein sequence is straightforwardly entered into the sequence bar on all three web servers. Their findings provided information on the domain, the region with the disorder, the global and local quality score, the predicted structure, and the estimated error plot. Our study presents the structural details of the SARS-CoV protein ORF7a. This immunomodulatory component binds to immune cells and induces severe inflammatory reactions.",
+  "abstract_zh": "<h4>摘要</h4> 蛋白质是所有生物体的构建模块。蛋白质结构预测一直是蛋白质组学领域中的一项复杂任务。DNA和蛋白质数据库可以找到肽链的一级序列，甚至不同蛋白质中的相似序列。主要存在两种基于有无模板的蛋白质结构预测方法：基于模板的结构预测（threading和同源建模）和无模板的结构预测（ab initio）。众多基于模板或不基于模板的网络服务器可以帮助我们预测蛋白质结构。在本研究中，使用Phyre2、IntFOLD和Robetta预测了SARS冠状病毒的跨膜蛋白ORF7a。蛋白质序列直接输入到所有三个网络服务器的序列栏中。它们的结果提供了关于结构域、无序区域、全局和局部质量评分、预测结构以及估计误差图的信息。我们的研究展示了SARS-CoV蛋白ORF7a的结构细节。这种免疫调节成分与免疫细胞结合，并诱导严重的炎症反应。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.03.518956",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.03.518956",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.03.518956/index.html"
+}

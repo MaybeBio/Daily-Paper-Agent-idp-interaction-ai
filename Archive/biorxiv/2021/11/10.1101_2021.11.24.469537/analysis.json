@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.11.24.469537",
+  "title": "Neurotoxic Amyloidogenic Peptides Identified in the Proteome of SARS-COV2: Potential Implications for Neurological Symptoms in COVID-19",
+  "authors": "Islam S; Charnley M; Bindra G; Ratcliffe J; Zhou J; Mezzenga R; Hulett M; Han K; Berryman JT; Reynolds NP",
+  "journal": "bioRxiv",
+  "published_date": "2021-11-24",
+  "window": {
+    "start": "2021-11-22",
+    "end": "2021-11-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过生物信息学扫描SARS-CoV-2蛋白组中的淀粉样肽并验证其神经毒性，虽涉及蛋白自组装和聚集机制，但对象非无序蛋白/IDR，且无PPI或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "<h4>ABSTRACT</h4> COVID-19 is primarily known as a respiratory disease caused by the virus SARS-CoV-2. However, neurological symptoms such as memory loss, sensory confusion, cognitive and psychiatric issues, severe headaches, and even stroke are reported in as many as 30% of cases and can persist even after the infection is over (so-called ‘long COVID’). These neurological symptoms are thought to be caused by brain inflammation, triggered by the virus infecting the central nervous system of COVID-19 patients, however we still don’t fully understand the mechanisms for these symptoms. The neurological effects of COVID-19 share many similarities to neurodegenerative diseases such as Alzheimer’s and Parkinson’s in which the presence of cytotoxic protein-based amyloid aggregates is a common etiological feature. Following the hypothesis that some neurological symptoms of COVID-19 may also follow an amyloid etiology we performed a bioinformatic scan of the SARS-CoV-2 proteome, detecting peptide fragments that were predicted to be highly amyloidogenic. We selected two of these peptides and discovered that they do rapidly self-assemble into amyloid. Furthermore, these amyloid assemblies were shown to be highly toxic to a neuronal cell line. We introduce and support the idea that cytotoxic amyloid aggregates of SARS-CoV-2 proteins are causing some of the neurological symptoms commonly found in COVID-19 and contributing to long COVID, especially those symptoms which are novel to long COVID in contrast to other post-viral syndromes.",
+  "abstract_zh": "<h4>摘要</h4> COVID-19 primarily known as a respiratory disease caused by the virus SARS-CoV-2. 然而，多达30%的病例报告出现神经系统症状，如记忆丧失、感觉混乱、认知和精神问题、严重头痛，甚至中风，这些症状可能在感染结束后持续存在（即所谓的“长期COVID”）。这些神经系统症状被认为是由脑部炎症引起的，而脑部炎症是由病毒感染COVID-19患者的中枢神经系统所触发，但我们仍未完全理解这些症状的机制。COVID-19的神经系统效应与阿尔茨海默病和帕金森病等神经退行性疾病有许多相似之处，在这些疾病中，基于细胞毒性蛋白质的淀粉样蛋白聚集体（amyloid aggregates）的存在是一个常见的病因学特征。基于COVID-19的某些神经系统症状可能也遵循淀粉样蛋白病因学的假设，我们对SARS-CoV-2蛋白质组进行了生物信息学扫描，检测到预测具有高度淀粉样蛋白形成能力的肽段。我们选择了其中两个肽段，并发现它们确实能快速自组装成淀粉样蛋白。此外，这些淀粉样蛋白组装体被证明对神经元细胞系具有高度毒性。我们提出并支持这样的观点：SARS-CoV-2蛋白的细胞毒性淀粉样蛋白聚集体导致了COVID-19中常见的一些神经系统症状，并促进了长期COVID的发生，尤其是那些与其他病毒后综合征相比，长期COVID特有的症状。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.11.24.469537",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.11.24.469537",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.11.24.469537/index.html"
+}

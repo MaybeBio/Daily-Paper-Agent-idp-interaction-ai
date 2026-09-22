@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "37205474",
+    "doi": "10.21203/rs.3.rs-2870258/v1",
+    "title": "Phase Separation in Mixtures of Prion-Like Low Complexity Domains is Driven by the Interplay of Homotypic and Heterotypic Interactions."
+  },
+  "content": {
+    "abstract": "Prion-like low-complexity domains (PLCDs) are involved in the formation and regulation of distinct biomolecular condensates that form via coupled associative and segregative phase transitions. We previously deciphered how evolutionarily conserved sequence features drive phase separation of PLCDs through homotypic interactions. However, condensates typically encompass a diverse mixture of proteins with PLCDs. Here, we combine simulations and experiments to study mixtures of PLCDs from two RNA binding proteins namely, hnRNPA1 and FUS. We find that 1:1 mixtures of the A1-LCD and FUS-LCD undergo phase separation more readily than either of the PLCDs on their own. The enhanced driving forces for phase separation of mixtures of A1-LCD and FUS-LCD arise partly from complementary electrostatic interactions between the two proteins. This complex coacervation-like mechanism adds to complementary interactions among aromatic residues. Further, tie line analysis shows that stoichiometric ratios of different components and their sequence-encoded interactions jointly contribute to the driving forces for condensate formation. These results highlight how expression levels might be tuned to regulate the driving forces for condensate formation in vivo . Simulations also show that the organization of PLCDs within condensates deviates from expectations based on random mixture models. Instead, spatial organization within condensates will reflect the relative strengths of homotypic versus heterotypic interactions. We also uncover rules for how interaction strengths and sequence lengths modulate conformational preferences of molecules at interfaces of condensates formed by mixtures of proteins. Overall, our findings emphasize the network-like organization of molecules within multicomponent condensates, and the distinctive, composition-specific conformational features of condensate interfaces.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pappu, Rohit",
+        "Farag, Mina",
+        "Borcherds, Wade",
+        "Bremer, Anne",
+        "Mittag, Tanja"
+      ],
+      "short_names": [
+        "Pappu R",
+        "Farag M",
+        "Borcherds W",
+        "Bremer A",
+        "Mittag T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2568-1378",
+        "ORCID: 0000-0002-6457-6848",
+        "ORCID: 0000-0003-3459-4014",
+        "ORCID: 0000-0002-1827-3811"
+      ],
+      "affiliations": [
+        "Washington University in St. Louis.",
+        "University of Washington at St. Louis.",
+        "St. Jude Children's Research Hospital.",
+        "St. Jude Children's Research Hospital.",
+        "St. Jude Children's Research Hospital."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pappu, Rohit",
+        "short_name": "Pappu R",
+        "identifiers": [
+          "0000-0003-2568-1378"
+        ],
+        "affiliations": [
+          "Washington University in St. Louis."
+        ]
+      },
+      {
+        "full_name": "Farag, Mina",
+        "short_name": "Farag M",
+        "identifiers": [
+          "0000-0002-6457-6848"
+        ],
+        "affiliations": [
+          "University of Washington at St. Louis."
+        ]
+      },
+      {
+        "full_name": "Borcherds, Wade",
+        "short_name": "Borcherds W",
+        "identifiers": [
+          "0000-0003-3459-4014"
+        ],
+        "affiliations": [
+          "St. Jude Children's Research Hospital."
+        ]
+      },
+      {
+        "full_name": "Bremer, Anne",
+        "short_name": "Bremer A",
+        "identifiers": [],
+        "affiliations": [
+          "St. Jude Children's Research Hospital."
+        ]
+      },
+      {
+        "full_name": "Mittag, Tanja",
+        "short_name": "Mittag T",
+        "identifiers": [
+          "0000-0002-1827-3811"
+        ],
+        "affiliations": [
+          "St. Jude Children's Research Hospital."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Research square"
+    ],
+    "journal_abbrev": [
+      "Res Sq"
+    ],
+    "pub_date": "2023 May 4",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/19 19:15",
+    "fetched_at": "2026-09-20 22:07:46"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38383656",
+      "38362050",
+      "38316988",
+      "37996438",
+      "37749234",
+      "36881934",
+      "36819870",
+      "36804705",
+      "36747054",
+      "36513655",
+      "36424481",
+      "36318922",
+      "36291688",
+      "36173346",
+      "36071192",
+      "35853451",
+      "35795820",
+      "35787038",
+      "35687109",
+      "35675815",
+      "35582428",
+      "35540725",
+      "35333653",
+      "35293953",
+      "34931046",
+      "34916619",
+      "34916288",
+      "34887356",
+      "34784177",
+      "34772789",
+      "34648275",
+      "34516789",
+      "34334816",
+      "34179888",
+      "34106046",
+      "33688043",
+      "33653957",
+      "33640380",
+      "33558506",
+      "33548202",
+      "33547245",
+      "33513942",
+      "33510441",
+      "33502444",
+      "33290695",
+      "33212590",
+      "33169001",
+      "33004511",
+      "32965492",
+      "32632317",
+      "32553117",
+      "32521226",
+      "32482873",
+      "32405004",
+      "32393642",
+      "32302572",
+      "32302571",
+      "32302570",
+      "32134099",
+      "32127480",
+      "32029630",
+      "32004090",
+      "31792379",
+      "31691822",
+      "31634364",
+      "31506351",
+      "31402283",
+      "31391587",
+      "31296649",
+      "31218815",
+      "30978654",
+      "30846599",
+      "30449617",
+      "30099028",
+      "29976799",
+      "29972809",
+      "29961577",
+      "29930094",
+      "29930091",
+      "29898402",
+      "29650703",
+      "29364893",
+      "29313527",
+      "29301985",
+      "29091028",
+      "29064502",
+      "28935776",
+      "28225081",
+      "27392146",
+      "27374333",
+      "27212236",
+      "26406374",
+      "26317470",
+      "26015579",
+      "25713414",
+      "24825614",
+      "23953108",
+      "23455423",
+      "22398450",
+      "21847013",
+      "19460965"
+    ],
+    "similar": [
+      "37205474",
+      "36993212",
+      "37684240",
+      "38464104",
+      "36513655",
+      "37066350",
+      "30926670",
+      "36747818",
+      "34931046",
+      "37090622",
+      "36595668",
+      "35108264",
+      "33558506",
+      "33672806",
+      "38326345",
+      "35727989",
+      "36883003",
+      "38999934",
+      "32405004",
+      "34179888",
+      "39042834",
+      "34784177",
+      "33653957",
+      "33307683",
+      "29961577",
+      "34018649",
+      "37735186",
+      "38466837",
+      "37586369",
+      "38349628",
+      "38915678",
+      "39070659",
+      "34762868",
+      "38070499",
+      "38163950",
+      "38987300",
+      "32004090",
+      "38363841",
+      "38381607",
+      "38915484",
+      "36191226",
+      "32426986",
+      "33577679",
+      "36755024",
+      "34241502",
+      "34862761",
+      "31199001",
+      "34772789",
+      "37952770",
+      "39326491",
+      "36412795",
+      "35241680",
+      "37549257",
+      "31634364",
+      "33955104",
+      "38260590",
+      "34648275",
+      "35787038",
+      "37790538",
+      "37609232",
+      "33597515",
+      "38492239",
+      "37287829",
+      "39044475",
+      "34966005",
+      "38383656",
+      "37194953",
+      "38949285",
+      "37231298",
+      "33513942",
+      "39046778",
+      "37386790",
+      "34487489",
+      "37856873",
+      "36993371",
+      "33982350",
+      "34767801",
+      "33387533",
+      "36181270",
+      "33081049",
+      "37546704",
+      "37408305",
+      "38824391",
+      "33376791",
+      "34984429",
+      "37549295",
+      "35333653",
+      "37155880",
+      "36972455",
+      "36175408",
+      "39386612",
+      "33864415",
+      "36993708",
+      "38252962",
+      "33571491",
+      "34236318",
+      "34706978",
+      "34965250",
+      "39386696",
+      "37161095",
+      "38076908",
+      "36798397",
+      "37486948",
+      "37577555",
+      "39370876",
+      "36881934",
+      "37577006",
+      "39339640",
+      "39413416"
+    ],
+    "review": [
+      "37205474",
+      "34179888",
+      "32004090",
+      "34772789",
+      "34966005",
+      "33513942",
+      "34767801",
+      "33387533",
+      "34706978",
+      "36881934"
+    ],
+    "pmc": [
+      "10187436"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37205474/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37205474",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3623",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21203/rs.3.rs-2870258/v1",
+        "provider": "Research Square",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

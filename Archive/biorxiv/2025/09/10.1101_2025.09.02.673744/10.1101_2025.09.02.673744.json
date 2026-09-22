@@ -1,0 +1,417 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.02.673744",
+  "title": "Cross-linking mass spectrometry for structure analysis of the intrinsically disordered Tau and phosphorylated Tau protein",
+  "doi": "10.1101/2025.09.02.673744",
+  "abstract": "We present a novel method for analyzing the folding of intrinsically disordered proteins (IDPs), such as Tau and phosphorylated Tau (pTau), in solution. Using cross-linking mass spectrometry combined with a new downstream analysis framework, we construct weighted interaction networks from cross-link–derived residue pairs without relying on predefined secondary structure assumptions. Structural differences between protein conformations are quantified by comparing the organization of loop structures within their cross-link networks. Validation with bovine serum albumin (BSA) in native and denatured states shows that at least 500 cross-links—requiring 5–10 replicate measurements—are needed for reliable detection of structural divergence. Leave-one-out analysis confirms that structural transitions are global, highlighting the importance of comprehensive cross-link datasets. The coverage of unique cross-links was evaluated using accumulation curves from randomized permutations. Saturation levels were found to be 9.7%, 5.0%, and 6.2% of the total 528 and 10,731 possible cross-links after 30, 84, and 62 technical replicates, respectively, for myoglobin, native BSA, and denatured BSA. For Tau and pTau, coverage reached 10.8% and 5.5% of the upper limit (8,256). Finally, applying our structural analysis to Tau and pTau during arachidonic acid–induced aggregation revealed distinct patterns of structural evolution between the two proteins.",
+  "authors": [
+    "Cristian Arsene",
+    "Alexander Gates",
+    "Anne-Katrin Römmert",
+    "André Märtens",
+    "Valentina Faustinelli",
+    "Luise Luckau",
+    "Gavin O’Connor"
+  ],
+  "published_date": "2025-09-05",
+  "updated_date": "2025-09-05T23:15:16Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673744",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673744.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:57:51Z",
+        "timestamp": 1782280671661,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            5
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 20,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                5
+              ]
+            ],
+            "date-time": "2025-09-05T00:00:00Z",
+            "timestamp": 1757030400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "name": "European Partnership on Metrology, cofinanced from the European Union's Horizon Europe Research and Innovation Programme, and by the Participating States"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            5
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>We present a novel method for analyzing the folding of intrinsically disordered proteins (IDPs), such as Tau and phosphorylated Tau (pTau), in solution. Using cross-linking mass spectrometry combined with a new downstream analysis framework, we construct weighted interaction networks from cross-link–derived residue pairs without relying on predefined secondary structure assumptions. Structural differences between protein conformations are quantified by comparing the organization of loop structures within their cross-link networks. Validation with bovine serum albumin (BSA) in native and denatured states shows that at least 500 cross-links—requiring 5–10 replicate measurements—are needed for reliable detection of structural divergence. Leave-one-out analysis confirms that structural transitions are global, highlighting the importance of comprehensive cross-link datasets. The coverage of unique cross-links was evaluated using accumulation curves from randomized permutations. Saturation levels were found to be 9.7%, 5.0%, and 6.2% of the total 528 and 10,731 possible cross-links after 30, 84, and 62 technical replicates, respectively, for myoglobin, native BSA, and denatured BSA. For Tau and pTau, coverage reached 10.8% and 5.5% of the upper limit (8,256). Finally, applying our structural analysis to Tau and pTau during arachidonic acid–induced aggregation revealed distinct patterns of structural evolution between the two proteins.</jats:p>",
+      "DOI": "10.1101/2025.09.02.673744",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            5
+          ]
+        ],
+        "date-time": "2025-09-05T23:15:16Z",
+        "timestamp": 1757114116000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Cross-linking mass spectrometry for structure analysis of the intrinsically disordered Tau and phosphorylated Tau protein"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9963-5027",
+          "authenticated-orcid": false,
+          "given": "Cristian",
+          "family": "Arsene",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0099-7480",
+          "authenticated-orcid": false,
+          "given": "Alexander",
+          "family": "Gates",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Anne-Katrin",
+          "family": "Römmert",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8243-3285",
+          "authenticated-orcid": false,
+          "given": "André",
+          "family": "Märtens",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Valentina",
+          "family": "Faustinelli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0643-8153",
+          "authenticated-orcid": false,
+          "given": "Luise",
+          "family": "Luckau",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7812-6717",
+          "authenticated-orcid": false,
+          "given": "Gavin",
+          "family": "O’Connor",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ACS.CHEMREV.1C00786"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.brainresbull.2016.08.018"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "1046",
+          "DOI": "10.3389/fphys.2018.01046",
+          "article-title": "CANA: A python package for quantifying control and canalization in Boolean Networks",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Frontiers in physiology"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "8574",
+          "DOI": "10.1038/s41598-019-44892-y",
+          "article-title": "Element-centric clustering comparison unifies overlaps and hierarchy",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "387",
+          "DOI": "10.1007/s00216-023-05024-8",
+          "article-title": "G. Label-free quantification of host cell protein impurity in recombinant hemoglobin materials",
+          "volume": "416",
+          "year": "2024",
+          "journal-title": "Analytical and Bioanalytical Chemistry"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "141",
+          "DOI": "10.1021/acschemneuro.4c00526",
+          "article-title": "Neurofilament Light Chain under the Lens of Structural Mass Spectrometry",
+          "volume": "16",
+          "year": "2025",
+          "journal-title": "ACS Chemical Neuroscience"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.7",
+          "unstructured": "Roboscreen Human TAU AGGREGATE ELISA: Enzyme immunoassay for quantitative determination of human TAU aggregates. https://www.roboscreen.com/products/neurodegeneration/human-tau-aggregate-elisa/, 2021."
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "83",
+          "DOI": "10.1007/s13361-014-1001-1",
+          "article-title": "Automated assignment of MS/MS cleavable cross-links in protein 3D-structure analysis",
+          "volume": "26",
+          "year": "2015",
+          "journal-title": "Journal of the American Society or Mass Spectrometry"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hagberg, A. ; Schult, D. A. ; Swart, P. J. Exploring network structure, dynamics, and function using NetworkX. Proceedings of the 7th Python in Science Conference (SciPy2008). 2008; pp 11–15.",
+          "DOI": "10.25080/TCWV9851"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.analchem.1c01317"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Belsom, A. ; Schneider, M. ; Fischer, L. ; Mabrouk, M. ; Stahl, K. ; Brock, O. ; Rappsilber, J. Blind testing cross-linking/mass spectrometry under the auspices of the 11th critical assessment of methods of protein structure prediction (CASP11). Wellcome Open Research 2016, 1.",
+          "DOI": "10.12688/wellcomeopenres.10046.1"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444912027047"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "7866",
+          "DOI": "10.1038/s41467-024-51771-2",
+          "article-title": "Modelling protein complexes with crosslinking mass spectrometry and deep learning",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1061"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.16",
+          "unstructured": "Database, A. P. S. Microtubule-associated protein tau (AF-P10636-F1). https://www.alphafold.ebi.ac.uk/entry/P10636, 2025; Accessed July 2025."
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2019.09.003"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "1264",
+          "DOI": "10.21105/joss.01264",
+          "article-title": "CluSim: a python package for calculating clustering similarity",
+          "volume": "4",
+          "year": "2019",
+          "journal-title": "Journal of Open Source So tware"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1243",
+          "DOI": "10.1021/acs.biochem.2c00111",
+          "article-title": "In vitro Tau Aggregation Inducer Molecules Influence the Effects of MAPT Mutations on Aggregation Dynamics",
+          "volume": "61",
+          "year": "2022",
+          "journal-title": "Biochemistry"
+        },
+        {
+          "key": "2025090916101837000_2025.09.02.673744v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rankin, C. A. ; Sun, Q. ; Gamblin, T. C. Tau phosphorylation by GSK-3ß promotes tangle-like filament morphology. Molecular Neurodegeneration 2007, 2.",
+          "DOI": "10.1186/1750-1326-2-12"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.09.02.673744",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:05:05Z",
+        "timestamp": 1782277505000
+      },
+      "score": 85.46413,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.09.02.673744"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            5
+          ]
+        ]
+      },
+      "references-count": 20,
+      "URL": "https://doi.org/10.1101/2025.09.02.673744",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1371/journal.pcbi.1013868",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            5
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

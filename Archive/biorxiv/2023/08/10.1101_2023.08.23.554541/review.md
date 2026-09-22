@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not provided)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the supplied text
+- **Shared manuscript claim summary** The authors present PSPire, a machine learning predictor that integrates residue-level and structure-level features to predict phase-separating proteins, with a particular focus on improving prediction for proteins lacking intrinsically disordered regions. They report superior performance over existing predictors for noID-PSPs and provide experimental validation for 6 of 8 candidate proteins.
+- **Visible evidence base** Abstract, Introduction, Results (narrative only), Discussion, Methods, Data/Code availability statements
+- **Missing materials affecting confidence** Figure panels (Figs 1-5, Supplementary Figs 1-5), Supplementary Tables 1-5, detailed feature lists, hyperparameter settings, cross-validation details, statistical test outputs, experimental imaging data
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a genuine gap in the phase separation prediction field, namely the underprediction of PSPs without IDRs. The core hypothesis, that structure-based features can improve noID-PSP prediction, is well motivated and the results, as described, support this claim. However, the current manuscript lacks sufficient methodological detail and quantitative evidence to fully assess the robustness of the approach. The experimental validation is encouraging but limited in scope. The work is potentially significant for the field, but several technical aspects require clarification and additional analysis before the claims can be considered fully established.
+- **Who would be interested in the results, and why** Researchers in the phase separation and membraneless organelle fields, computational biologists developing protein function predictors, and experimental biologists studying condensate biology. The tool could be of practical use for screening proteomes for candidate PSPs, particularly those that would be missed by IDR-centric predictors.
+- **Major strengths** 1) Addresses a clear and important limitation of existing PSP predictors. 2) Novel integration of structure-level features from AlphaFold into a PSP prediction framework. 3) Provides both computational and experimental validation. 4) The tool is made freely available as a Python package. 5) The analysis of why existing predictors fail for noID-PSPs is informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "PSPire shows a notable improvement in identifying PSPs without IDRs" and "PSPire remarkably outperforms current predictors in distinguishing noID-PSPs from non-PSPs"
+  - **Evidence pointer** Results section, Fig. 4a, b; location not provided
+  - **Concern** The performance comparison between PSPire and existing predictors is described only in narrative form. The actual AUROC and AUPRC values for all predictors across all test sets are not presented in the text. The claim of "remarkable outperformance" requires a full comparison table with confidence intervals and statistical significance tests. Furthermore, it is unclear whether the comparison was conducted under identical training and testing conditions, particularly regarding the negative sets used.
+  - **Why it matters** Without a complete and statistically rigorous comparison, the central claim of superior performance cannot be verified. The reader cannot assess whether the improvement is meaningful or within the range of random variation.
+  - **Resolution test** Provide a full comparison table (e.g., in a supplementary file) with AUROC and AUPRC values for all predictors on all test sets, including confidence intervals and p-values from appropriate statistical tests (e.g., DeLong test for AUROC). Clarify the exact training and testing protocols used for each predictor.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we designed a XGBoost predictor of PSPs, named PSPire, based on a combination of residue-level and structure-level features"
+  - **Evidence pointer** Methods, "Model training and performance evaluation"; location not provided
+  - **Concern** The feature set used for training is not fully specified. The text mentions features from PSAP and PhaSePred calculated on IDRs and SSUP, plus phosphorylation frequency, but the complete list of features, their definitions, and the rationale for their selection are not provided. The hyperparameter settings for XGBoost are stated as "default parameters," which is insufficient for reproducibility. The feature importance analysis (Supplementary Fig. 3) is mentioned but not described in the text.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational tools. Without a complete feature list and model configuration, other researchers cannot replicate or build upon this work. The claim that structure-based features are crucial cannot be fully evaluated without a feature ablation study.
+  - **Resolution test** Provide a complete list of all features used, with definitions and the specific PSAP/PhaSePred features included. Report all XGBoost hyperparameters. Include a feature ablation analysis showing the contribution of structure-based features versus sequence-based features alone.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "6 out of the 8 chosen candidate PSPs confirmed to form condensates within cells"
+  - **Evidence pointer** Results, "Validation of candidate PSPs predicted by PSPire", Fig. 5; location not provided
+  - **Concern** The experimental validation is limited to 8 candidates, of which 6 showed condensate formation. The selection criteria for these 8 candidates are not described in detail. It is unclear whether they were chosen to represent a range of prediction scores, whether they were selected based on biological interest, or whether they were randomly sampled. The two negative results (ANXA3 and CKMT2) are not discussed in terms of what this means for the predictor's false positive rate.
+  - **Why it matters** The validation set is small and potentially biased. A more systematic selection of candidates across the prediction score range would provide a more robust estimate of the predictor's precision. The lack of discussion of the two negative results weakens the interpretation of the validation.
+  - **Resolution test** Describe the candidate selection criteria in detail. Discuss the two negative results and what they imply for the predictor's limitations. If possible, validate additional candidates, particularly those with intermediate prediction scores.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "we identified stickers for each protein in our testing dataset" and "the proportion of proteins with ≥ 3 stickers was higher in both ID-PSPs and noID-PSPs compared to non-PSPs"
+  - **Evidence pointer** Results, "Structured superficial features enable identification of both ID-PSPs and noID-PSPs", Fig. 2c-e, Supplementary Fig. 2; location not provided
+  - **Concern** The method for identifying charged stickers is described in the Methods, but the validation of this approach is not presented. The choice of the 14 Å distance threshold is based on a maximum in the whole human proteome, but it is unclear whether this is a robust criterion or whether it introduces bias. The relationship between the sticker features and the actual phase separation behavior is inferred but not directly demonstrated.
+  - **Why it matters** The sticker-based features are a novel contribution of this work. If the sticker identification method is not well validated, the biological interpretation of these features as mediators of multivalent interactions remains speculative.
+  - **Resolution test** Provide a sensitivity analysis for the distance threshold. Validate the sticker identification on a set of proteins with known phase separation behavior and known interaction interfaces. Discuss the limitations of the approach.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "PSPire shows a notable improvement in identifying PSPs without IDRs" but does not provide any quantitative measure of this improvement. The abstract would be strengthened by including the key AUROC or AUPRC values.
+  - **Required correction** Include specific performance numbers in the abstract, e.g., "PSPire achieves an AUROC of X for noID-PSPs compared to Y for the best existing predictor."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Datasets"
+  - **Evidence pointer** Methods, "Datasets"; location not provided
+  - **Issue** The description of the dataset construction is incomplete. The text states that 189 additional PSPs were retrieved from four databases, but the criteria for inclusion, the overlap between databases, and the handling of redundant entries are not described. The filtering steps are mentioned but the number of proteins removed at each step is not reported.
+  - **Required correction** Provide a detailed flowchart of dataset construction, including the number of proteins at each step and the criteria for inclusion/exclusion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, "Structured superficial features enable identification of both ID-PSPs and noID-PSPs"
+  - **Evidence pointer** Results section; location not provided
+  - **Issue** The term "SSUP" is used extensively but the definition is only given in the Methods. A brief reminder of the definition in the Results would improve readability.
+  - **Required correction** Add a parenthetical definition of SSUP at first use in the Results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Cell cultures and immunofluorescence"
+  - **Evidence pointer** Methods; location not provided
+  - **Issue** The text states "Hela" but the correct spelling is "HeLa". Minor typographical errors such as this should be corrected.
+  - **Required correction** Correct the spelling to "HeLa".
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The discussion of the JAK1 example is interesting but would benefit from a more detailed explanation of why the IDR-related features impair the prediction and how the parameter to ignore these features works.
+  - **Required correction** Expand the JAK1 discussion to clarify the mechanism by which the parameter adjustment improves the prediction.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (incomplete performance comparison), R1-M2 (insufficient methodological detail for reproducibility)
+- **Assessment against Nature-style criteria** Originality: The work is original in its focus on structure-based features for noID-PSP prediction, which is a relatively underexplored area. Scientific importance: The problem addressed is important, and the tool could be valuable to the community. However, the significance is somewhat incremental, as it builds on existing predictors rather than introducing a fundamentally new concept. Interdisciplinary readership: The work is likely to appeal to both computational and experimental biologists, but the presentation is currently too technical for a broad audience. Technical soundness: The approach is reasonable, but the lack of methodological detail and incomplete performance comparison prevent full assessment. Readability for nonspecialists: The manuscript is generally well written but would benefit from clearer explanations of the technical concepts and a more accessible summary of the key findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary results are encouraging, but the manuscript requires substantial revision to provide a complete and rigorous evaluation of the method.
+
+## Risk / unsupported claims
+- The claim of "remarkable outperformance" over existing predictors is not fully supported by the data presented in the text.
+- The biological interpretation of sticker features as mediators of multivalent interactions is plausible but not directly demonstrated.
+- The generalizability of the model to non-human proteomes is not assessed.
+- The claim that PSPire "could benefit our understanding of these proteins and their role in condensate formation" is speculative and not directly supported by the data.
+- The statement that "6 out of 8 chosen candidate PSPs confirmed to form condensates within cells" is presented as a validation, but the small sample size and potential selection bias limit the strength of this claim.

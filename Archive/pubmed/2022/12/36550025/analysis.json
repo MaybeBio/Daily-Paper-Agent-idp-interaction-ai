@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36550025",
+  "title": "Multilayered allosteric modulation of coupled folding and binding by phosphorylation, peptidyl-prolyl cis/trans isomerization, and diversity of interaction partners.",
+  "authors": "Buholzer, Karin J; McIvor, Jordan; Zosel, Franziska; Teppich, Christian; Nettels, Daniel; Mercadante, Davide; Schuler, Benjamin",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2022-12-23",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过单分子FRET研究NCBD无序结构域磷酸化与脯氨酰异构化对其多伴侣结合亲和力的多层次变构调控，对象为IDP且涉及PPI，但方法为实验测量而非AI/物理模拟，机制深度有限。",
+  "abstract": "Intrinsically disordered proteins (IDPs) play key roles in cellular regulation, including signal transduction, transcription, and cell-cycle control. Accordingly, IDPs can commonly interact with numerous different target proteins, and their interaction networks are expected to be highly regulated. However, many of the underlying regulatory mechanisms have remained unclear. Here, we examine the representative case of the nuclear coactivator binding domain (NCBD) of the large multidomain protein CBP, a hub in transcriptional regulation, and the interaction with several of its binding partners. Single-molecule Forster resonance energy transfer measurements show that phosphorylation of NCBD reduces its binding affinity, with effects that vary depending on the binding partner and the site and number of modifications. The complexity of the interaction is further increased by the dependence of the affinities on peptidyl-prolyl cis/trans isomerization in NCBD. Overall, our results reveal the potential for allosteric regulation on at least three levels: the different affinities of NCBD for its different binding partners, the differential modulation of these affinities by phosphorylation, and the effect of peptidyl-prolyl cis/trans isomerization on binding.",
+  "abstract_zh": "固有无序蛋白（IDPs）在细胞调控中发挥关键作用，包括信号转导、转录和细胞周期控制。因此，IDPs通常能与多种不同的靶蛋白相互作用，其相互作用网络预计受到高度调控。然而，许多潜在的调控机制仍不清楚。在此，我们研究了大型多结构域蛋白CBP中核共激活因子结合结构域（NCBD）的代表性案例，该结构域是转录调控中的一个枢纽，并探讨了其与多个结合伙伴的相互作用。单分子福斯特共振能量转移测量表明，NCBD的磷酸化降低了其结合亲和力，其效应因结合伙伴以及修饰位点和数量而异。相互作用的复杂性进一步增加，因为亲和力依赖于NCBD中的肽基脯氨酰顺/反异构化。总体而言，我们的结果揭示了至少三个层面上变构调控的潜力：NCBD对其不同结合伙伴的不同亲和力、磷酸化对这些亲和力的差异调节，以及肽基脯氨酰顺/反异构化对结合的影响。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36550025/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36550025/",
+  "paper_page_path": "papers/pubmed/36550025/index.html"
+}

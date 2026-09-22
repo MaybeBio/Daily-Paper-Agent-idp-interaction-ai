@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors report a comparative structural analysis of Nipah virus V proteins from pig and bat isolates, using protein crystallization and computational modeling, and conclude that both proteins engage the MDA5 helicase domain with comparable predicted binding affinities, that minor CTD variations modulate interaction profiles rather than binding strength, and that immune evasion capacity is preserved.
+- **Visible evidence base** Abstract text only; no experimental details, structural coordinates, docking scores, or validation metrics are provided
+- **Missing materials affecting confidence** Full methods, crystallization screening details, homology modeling parameters, docking protocols, sequence alignments, structural figures, binding affinity calculations, and any experimental validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful comparative analysis of NiV V protein variants from two relevant host species. However, the conclusions rest heavily on computational predictions that are not described in sufficient detail to assess their reliability, and the crystallization component appears to have failed at the initial screening stage. The central claim that both proteins preserve MDA5 antagonism is not directly supported by any functional data in the abstract. The work is at a preliminary stage and the evidence base is too thin to establish the stated conclusions.
+- **Who would be interested in the results, and why** Researchers studying paramyxovirus innate immune evasion, particularly the Nipah virus V protein and its interaction with MDA5. The comparative angle across pig and bat isolates may interest those working on zoonotic transmission and host adaptation of henipaviruses. Structural biologists studying viral antagonists of innate immune sensors may also find the modeling approach relevant, though the lack of experimental structural data limits immediate utility.
+- **Major strengths** The comparative design across pig and bat isolates addresses a relevant question in host adaptation. The focus on the CTD zinc finger domains and their potential role in modulating MDA5 interaction is a reasonable hypothesis. The authors are appropriately cautious in noting that diffraction-quality crystals were not obtained and that predictions require experimental validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that both proteins engage the MDA5 superfamily 2 helicase domain and are predicted to disrupt beta-sheet architecture critical for ATPase function.
+  - **Evidence pointer** Abstract only; no figures, tables, or methods sections provided
+  - **Concern** The claim that both V proteins disrupt beta-sheet architecture critical for ATPase function is presented as a finding, but it is based entirely on homology modeling and molecular docking. No docking scores, model quality metrics, or validation of the predicted interface are provided. The abstract does not describe how the disruption of beta-sheet architecture was assessed or quantified.
+  - **Why it matters** This is a mechanistic claim with functional implications. Without evidence that the predicted interaction is physically plausible and that the proposed disruption has functional consequences, the claim cannot be evaluated. The abstract does not provide any experimental data showing that ATPase function is actually affected.
+  - **Resolution test** Provide model quality metrics (e.g., Ramachandran statistics, QMEAN or similar scores), docking scores with appropriate benchmarks, and ideally mutagenesis or biochemical assays demonstrating that the predicted interface affects MDA5 ATPase activity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that iP-V retains eight conserved amino acids required for coordination of two zinc ions, whereas iB-V carries substitutions predicted to partially affect one ZnFD without abolishing MDA5 antagonism.
+  - **Evidence pointer** Abstract only; sequence alignment and structural modeling details not provided
+  - **Concern** The claim that iB-V substitutions do not abolish MDA5 antagonism is not supported by any functional data in the abstract. The phrase "predicted to partially affect" indicates this is a modeling inference, yet the conclusion that antagonism is preserved is stated as a finding. No experimental evidence of MDA5 antagonism is presented for either protein.
+  - **Why it matters** The preservation of immune evasion capacity is a central conclusion of the study. If this is based solely on structural prediction without functional validation, the claim is premature. The abstract does not describe any assay for MDA5 antagonism, such as IFN induction or reporter assays.
+  - **Resolution test** Provide functional data, such as IFN-beta reporter assays or MDA5 interaction assays (e.g., co-immunoprecipitation or pull-down), demonstrating that both V proteins retain antagonistic activity. Alternatively, temper the conclusion to reflect that antagonism is predicted but not experimentally confirmed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that both proteins show comparable predicted binding affinities to MDA5.
+  - **Evidence pointer** Abstract only; no binding affinity values or calculation methods provided
+  - **Concern** The claim of comparable binding affinities is presented without any numerical values, error estimates, or description of the method used to calculate them. It is unclear whether these are from docking scores, molecular dynamics simulations, or other approaches. The abstract does not state how "comparable" was determined.
+  - **Why it matters** Binding affinity is a quantitative claim. Without values and a description of the computational method, the claim is not reproducible or verifiable. The conclusion that minor variations modulate interaction profiles rather than binding strength depends on this comparison.
+  - **Resolution test** Provide the calculated binding affinity values (e.g., predicted delta G or Kd) with appropriate error estimates, and describe the method used. If possible, validate with experimental binding assays such as surface plasmon resonance or isothermal titration calorimetry.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Crystallization outcome
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract states that crystallization screening produced initial hits for iP-V but diffraction-quality crystals were not obtained. It is unclear whether crystallization was attempted for iB-V at all.
+  - **Required correction** Clarify whether iB-V was subjected to crystallization screening and, if so, what the outcome was. If not, state this explicitly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "MDA(SF2)" abbreviation
+  - **Evidence pointer** Abstract only
+  - **Issue** The abbreviation "MDA(SF2)" is introduced without definition. It appears to refer to the MDA5 superfamily 2 helicase domain, but this is not stated.
+  - **Required correction** Define the abbreviation at first use, for example "MDA5 superfamily 2 helicase domain (MDA(SF2))".
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** "subtle differences in interaction networks"
+  - **Evidence pointer** Abstract only
+  - **Issue** The phrase "subtle differences in interaction networks" is vague and does not convey what specifically differs between the two proteins.
+  - **Required correction** Specify the nature of the differences, such as specific residues involved in hydrogen bonding, hydrophobic contacts, or electrostatic interactions, with reference to the relevant structural models.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central mechanistic and functional claims are based on computational predictions without experimental validation, and the abstract does not provide sufficient methodological detail to assess the reliability of those predictions. The crystallization component did not yield structural data and therefore does not contribute to the evidence base.
+- **Assessment against Nature-style criteria** Originality: moderate. The comparative analysis across host species is a useful angle, but the approach is largely computational and the findings are preliminary. Scientific importance: limited at this stage. The conclusions are plausible but not established, and the lack of functional data reduces the impact. Interdisciplinary readership: the topic may interest virologists and structural biologists, but the thin evidence base limits broader appeal. Technical soundness: not assessable from the abstract alone; the computational methods are not described in sufficient detail. Readability for nonspecialists: the abstract is generally clear, though some terms and abbreviations require definition.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a preliminary computational study with a failed crystallization component and no functional validation. The claims regarding MDA5 antagonism and binding affinity are not supported by the evidence presented. The work may become publishable if functional data are added and the computational predictions are validated experimentally, but in its current form the case is not made.
+
+## Risk / unsupported claims
+- The claim that both V proteins disrupt beta-sheet architecture critical for ATPase function is unsupported by experimental evidence and is based on unvalidated computational predictions.
+- The claim that iB-V substitutions do not abolish MDA5 antagonism is unsupported; no functional data are presented.
+- The claim of comparable binding affinities is unverifiable without numerical values and method details.
+- The conclusion that immune evasion capacity is preserved is not supported by any direct experimental evidence.
+- The relevance of the failed crystallization experiments to the study's conclusions is unclear and not justified in the abstract.

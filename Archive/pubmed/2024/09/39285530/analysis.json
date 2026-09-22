@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39285530",
+  "title": "Conformational fluidity of intrinsically disordered proteins in crowded environment: a molecular dynamics simulation study.",
+  "authors": "Shult, Carolyn; Gunderson, Keegan; Coffey, Stephen J; McNally, Brenya; Brandt, Michael; Smith, Lucille; Steczynski, Joshua; Olerich, Ethan R; Schroeder, Sydney E; Severson, Nathaniel J; Hati, Sanchita; Bhattacharyay, Sudeep",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2024-09-17",
+  "window": {
+    "start": "2024-09-16",
+    "end": "2024-09-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究用分子动力学模拟探究拥挤环境对无序蛋白构象柔性的影响，对象为IDP且用物理模拟方法，但未聚焦具体PPI或结合机制，故为中上分。",
+  "abstract": "The class of intrinsically disordered proteins lacks stable three-dimensional structures. Their flexibility allows them to engage in a wide variety of interactions with other biomolecules thus making them biologically relevant and efficient. The intrinsic disorders of these proteins, which undergo binding-induced folding, allow alterations in their topologies while conserving their binding sites. Due to the lack of well-defined three-dimensional structures in the absence of their physiological partners, the folding and the conformational dynamics of these proteins remained poorly understood. Particularly, it is unclear how these proteins exist in the crowded intracellular milieu. In the present study, molecular dynamic simulations of two intrinsically unstructured proteins and two controls (folded proteins) were conducted in the presence and absence of molecular crowders to obtain an in-depth insight into their conformational flexibility. The present study revealed that polymer crowders stabilize the disordered proteins through enthalpic as well as entropic effects that are significantly more than their monomeric counterpart. Taken together, the study delves deep into crowding effects on intrinsically disordered proteins and provides insights into how molecular crowders induce a significantly diverse ensemble of dynamic scaffolds needed to carry out diverse functions.",
+  "abstract_zh": "一类天然无结构蛋白缺乏稳定的三维结构。其灵活性使其能够与多种生物分子发生广泛相互作用，从而在生物学上具有相关性和高效性。这些蛋白的内在无序性，在经历结合诱导折叠时，允许其拓扑结构发生变化，同时保留结合位点。由于在缺乏生理伴侣时没有明确的三维结构，这些蛋白的折叠和构象动力学仍知之甚少。特别是，尚不清楚这些蛋白如何在拥挤的细胞内环境中存在。在本研究中，对两种天然无结构蛋白和两种对照（折叠蛋白）进行了分子动力学 (molecular dynamics) 模拟，分别在存在和不存在分子拥挤剂的情况下进行，以深入了解其构象灵活性。本研究揭示，聚合物拥挤剂通过焓效应和熵效应稳定无序蛋白，其效果显著超过单体对应物。总体而言，该研究深入探讨了拥挤效应对天然无结构蛋白的影响，并提供了关于分子拥挤剂如何诱导显著多样的动态支架集合以执行多种功能的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39285530/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39285530/",
+  "paper_page_path": "papers/pubmed/39285530/index.html"
+}

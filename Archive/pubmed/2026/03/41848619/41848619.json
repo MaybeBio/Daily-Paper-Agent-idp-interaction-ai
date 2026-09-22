@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "41848619",
+    "doi": "10.1002/chem.70889",
+    "title": "A Chirality-Guided Molecular Recognition Strategy for Targeting Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Some peptide sequences are known to interact with their enantiomers to form stereocomplexes. However, the sequence-dependent conditions required for stereocomplexation have not been thoroughly elucidated. Here, we present a systematic investigation of peptide stereocomplexation using short tripeptides and their enantiomers. Stereocomplexation was evaluated by aggregate formation in mixed aqueous solutions, and single-crystal X-ray diffraction revealed racemic crystals. Stereocomplexation was driven by hydrophobic interactions between phenylalanine residues and electrostatic interactions involving lysine and the C-terminus. Thermodynamic and structural features of the complexation were further elucidated by calorimetry, simulations, and fluorescence assays. On the basis of these insights, a D-peptide (Ac-fffakr5-NH(2)) was rationally designed to target the -FFAE- motif of amyloid beta42 (Abeta42), a pathological intrinsically disordered protein. This D-peptide inhibited the fibrillization and cytotoxicity of Abeta42 in neuronal-like cells, outperforming a clinical candidate, peptide drug RD2. These findings establish peptide stereocomplexation as a viable strategy for constructing sequence-targeting ligands even against intrinsically disordered proteins.",
+    "keywords": [
+      "Alzheimer's disease",
+      "amyloid protein",
+      "peptide",
+      "self-assembly",
+      "stereocomplex"
+    ],
+    "mesh_terms": [
+      "*Amyloid beta-Peptides/chemistry/metabolism",
+      "Stereoisomerism",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Humans",
+      "Thermodynamics",
+      "*Peptide Fragments/chemistry/metabolism",
+      "Crystallography, X-Ray",
+      "*Peptides/chemistry",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Morita, Kenta",
+        "Seguchi, Shiho",
+        "Hayashi, Ayaka",
+        "Miwa, Haruhiko",
+        "Uchida, Satoru",
+        "Sugimoto, Kunihisa",
+        "Chatani, Eri",
+        "Tamura, Atsuo",
+        "Maruyama, Tatsuo"
+      ],
+      "short_names": [
+        "Morita K",
+        "Seguchi S",
+        "Hayashi A",
+        "Miwa H",
+        "Uchida S",
+        "Sugimoto K",
+        "Chatani E",
+        "Tamura A",
+        "Maruyama T"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2156-4812",
+        "ORCID: 0000-0001-6297-9902",
+        "ORCID: 0000-0003-2428-1911"
+      ],
+      "affiliations": [
+        "Department of Chemical Science and Engineering, Graduate School of Engineering, Kobe University, Kobe, Japan.",
+        "Research Center for Membrane and Film Technology, Kobe University, Kobe, Japan.",
+        "Department of Chemical Science and Engineering, Graduate School of Engineering, Kobe University, Kobe, Japan.",
+        "Department of Chemical Science and Engineering, Graduate School of Engineering, Kobe University, Kobe, Japan.",
+        "Department of Chemical Science and Engineering, Graduate School of Engineering, Kobe University, Kobe, Japan.",
+        "Department of Chemical Science and Engineering, Graduate School of Engineering, Kobe University, Kobe, Japan.",
+        "Graduate School of Science and Engineering, Kindai University, Osaka, Japan.",
+        "Department of Chemistry, Graduate School of Science, Kobe University, Kobe, Japan.",
+        "Department of Chemistry, Graduate School of Science, Kobe University, Kobe, Japan.",
+        "Department of Chemical Science and Engineering, Graduate School of Engineering, Kobe University, Kobe, Japan.",
+        "Research Center for Membrane and Film Technology, Kobe University, Kobe, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Morita, Kenta",
+        "short_name": "Morita K",
+        "identifiers": [
+          "0000-0002-2156-4812"
+        ],
+        "affiliations": [
+          "Department of Chemical Science and Engineering, Graduate School of Engineering, Kobe University, Kobe, Japan.",
+          "Research Center for Membrane and Film Technology, Kobe University, Kobe, Japan."
+        ]
+      },
+      {
+        "full_name": "Seguchi, Shiho",
+        "short_name": "Seguchi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Science and Engineering, Graduate School of Engineering, Kobe University, Kobe, Japan."
+        ]
+      },
+      {
+        "full_name": "Hayashi, Ayaka",
+        "short_name": "Hayashi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Science and Engineering, Graduate School of Engineering, Kobe University, Kobe, Japan."
+        ]
+      },
+      {
+        "full_name": "Miwa, Haruhiko",
+        "short_name": "Miwa H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Science and Engineering, Graduate School of Engineering, Kobe University, Kobe, Japan."
+        ]
+      },
+      {
+        "full_name": "Uchida, Satoru",
+        "short_name": "Uchida S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Science and Engineering, Graduate School of Engineering, Kobe University, Kobe, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugimoto, Kunihisa",
+        "short_name": "Sugimoto K",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Science and Engineering, Kindai University, Osaka, Japan."
+        ]
+      },
+      {
+        "full_name": "Chatani, Eri",
+        "short_name": "Chatani E",
+        "identifiers": [
+          "0000-0001-6297-9902"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Kobe University, Kobe, Japan."
+        ]
+      },
+      {
+        "full_name": "Tamura, Atsuo",
+        "short_name": "Tamura A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Kobe University, Kobe, Japan."
+        ]
+      },
+      {
+        "full_name": "Maruyama, Tatsuo",
+        "short_name": "Maruyama T",
+        "identifiers": [
+          "0000-0003-2428-1911"
+        ],
+        "affiliations": [
+          "Department of Chemical Science and Engineering, Graduate School of Engineering, Kobe University, Kobe, Japan.",
+          "Research Center for Membrane and Film Technology, Kobe University, Kobe, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemistry (Weinheim an der Bergstrasse, Germany)"
+    ],
+    "journal_abbrev": [
+      "Chemistry"
+    ],
+    "pub_date": "2026 Jun 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/18 12:53",
+    "fetched_at": "2026-09-18 01:43:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41848619",
+      "28684415",
+      "32419254",
+      "33806726",
+      "28474890",
+      "17038501",
+      "24368046",
+      "27091578",
+      "28877484",
+      "19751686",
+      "40684725",
+      "34152264",
+      "30821624",
+      "30694660",
+      "40345176",
+      "35580288",
+      "27727496",
+      "35649268",
+      "29364151",
+      "25330935",
+      "39561991",
+      "36179370",
+      "33289734",
+      "31470695",
+      "32176648",
+      "32427336",
+      "33122085",
+      "32696387",
+      "23811057",
+      "11076514",
+      "25137638",
+      "25207671",
+      "23883055",
+      "31566950",
+      "12840031",
+      "28162045",
+      "30650306",
+      "11960015",
+      "29548979",
+      "23421682",
+      "23679641",
+      "1613791",
+      "28272542",
+      "29508987",
+      "22052825",
+      "31710458",
+      "30811210",
+      "41202479",
+      "18937396",
+      "27602722",
+      "28002650",
+      "40776447",
+      "26216991",
+      "29490247",
+      "31894361",
+      "29953467",
+      "38928405",
+      "27021211",
+      "22087474",
+      "15459202",
+      "40685792",
+      "39479923",
+      "30722990",
+      "32703978",
+      "25082146",
+      "21288003",
+      "36583718",
+      "39466031",
+      "20718413",
+      "28292185",
+      "22674434",
+      "21575663",
+      "29734867",
+      "26439281",
+      "22778850",
+      "24041422",
+      "22307963",
+      "21309578",
+      "24410358",
+      "41173868",
+      "26910732",
+      "40593714",
+      "41859952",
+      "30868446",
+      "34161780",
+      "24566672",
+      "25785896",
+      "23926957",
+      "26275931",
+      "29539391",
+      "34796404",
+      "32936312",
+      "11496149",
+      "1453457",
+      "30259679",
+      "35982253",
+      "29571707",
+      "37972334",
+      "21568346",
+      "27856006"
+    ],
+    "review": [
+      "41848619",
+      "24368046",
+      "29364151",
+      "32176648",
+      "29508987"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/chem.70889",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

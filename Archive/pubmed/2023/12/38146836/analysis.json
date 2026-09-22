@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38146836",
+  "title": "Quantitative Ensemble Interpretation of Membrane Paramagnetic Relaxation Enhancement (mPRE) for Studying Membrane-Associated Intrinsically Disordered Proteins.",
+  "authors": "Jin, Hong; Liu, Dan; Ni, Yu; Wang, Hui; Long, Dong",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2023-12-26",
+  "window": {
+    "start": "2023-12-25",
+    "end": "2023-12-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过mPRE实验结合全原子模拟构建膜相关无序蛋白CD3ε胞内域的构象系综，揭示IDP-膜模糊互作及磷酸化调控机制，虽非直接PPI建模，但系综方法对IDP互作机制研究有可迁移启发。",
+  "abstract": "An understanding of the functional role played by a membrane-associated intrinsically disordered protein (IDP) requires characterization of its heterogeneous conformations as well as its poses relative to the membranes, which is of great interest but technically challenging. Here, we explore the membrane paramagnetic relaxation enhancement (mPRE) for constructing ensembles of IDPs that dynamically associate with membrane mimetics incorporating spin-labeled lipids. To accurately interpret the mPRE Gamma(2) rates, both the dynamics of IDPs and spin probe molecules are taken into account, with the latter described by a weighted three-dimensional (3D) grid model built based on all-atom simulations. The IDP internal conformations, orientations, and immersion depths in lipid bilayers are comprehensively optimized in the Gamma(2)-based ensemble modeling. Our approach is tested and validated on the example of POPG bicelle-bound disordered cytoplasmic domain of CD3epsilon (CD3epsilon(CD)), a component of the T-cell receptor (TCR) complex. The mPRE-derived CD3epsilon(CD) ensemble provides new insights into the IDP-membrane fuzzy association, in particular for the tyrosine-based signaling motif that plays a critical role in TCR signaling. The comparative analysis of the ensembles for wild-type CD3epsilon(CD) and mutants that mimic the mono- and dual-phosphorylation effects suggests a delicate membrane regulatory mechanism for activation and inhibition of the TCR activity.",
+  "abstract_zh": "理解膜相关固有无序蛋白（IDP）的功能作用需要表征其异质构象以及相对于膜的姿态，这具有重要研究价值但技术上颇具挑战。在此，我们探索膜顺磁弛豫增强（mPRE）方法，用于构建与含有自旋标记脂质的膜模拟物动态结合的IDP系综。为准确解释mPRE Gamma(2)速率，我们同时考虑了IDP和自旋探针分子的动力学，其中后者通过基于全原子模拟构建的加权三维（3D）网格模型来描述。在基于Gamma(2)的系综建模中，IDP的内部构象、取向以及脂双层中的浸入深度均得到全面优化。我们的方法以POPG双分子层结合的CD3epsilon无序胞质结构域（CD3epsilon(CD)）为例进行测试和验证，该结构域是T细胞受体（TCR）复合物的组成部分。mPRE衍生的CD3epsilon(CD)系综为IDP-膜模糊关联提供了新见解，特别是对于在TCR信号传导中起关键作用的酪氨酸基信号基序。对野生型CD3epsilon(CD)及模拟单磷酸化和双磷酸化效应的突变体系综的比较分析，揭示了TCR活性激活与抑制的精细膜调控机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38146836/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38146836/",
+  "paper_page_path": "papers/pubmed/38146836/index.html"
+}

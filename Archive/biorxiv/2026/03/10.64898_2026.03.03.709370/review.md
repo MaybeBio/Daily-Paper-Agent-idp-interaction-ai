@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that SERBP1, an intrinsically disordered protein, binds G-quadruplex structures in a topology-dependent manner via an encircling mechanism involving its RGG box and C-terminal serine residues, that phosphorylation of these serines modulates binding, and that this interaction regulates mTOR expression in glioblastoma cells, with therapeutic implications when combined with mTOR inhibition.
+- **Visible evidence base** NMR spectroscopy, biophysical binding assays, molecular dynamics and docking simulations, phosphomimetic mutagenesis, glioblastoma cell line experiments (expression and growth assays)
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical details, simulation parameters, NMR assignment and validation data, cell line identifiers and experimental replicates, any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and novel hypothesis regarding G4 recognition by a fully disordered protein domain, with a plausible link to cancer-relevant translational control. However, the evidence as summarized is insufficient to establish the central claims. Key mechanistic details, quantitative data, and experimental controls are not described, and the leap from in vitro binding to cellular function and therapeutic synergy is not supported by the information provided. The work may be of interest to the RNA biology and G4 communities, but the current abstract does not provide enough substance to assess technical rigor or reproducibility.
+- **Who would be interested in the results, and why** Researchers studying G-quadruplex biology, RNA-binding proteins, intrinsically disordered proteins, translational regulation, and cancer therapeutics targeting mTOR or RNA structures. The proposed topology-driven recognition mechanism and phosphorylation switch would appeal to those interested in post-translational control of RNA-protein interactions.
+- **Major strengths** The study addresses a poorly understood aspect of SERBP1 function and proposes a specific, testable mechanism. The combination of biophysical, computational, and cellular approaches is appropriate for the question. The focus on topology rather than sequence is a conceptually interesting angle, and the potential link to mTOR regulation in glioblastoma provides translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "SERBP1 binds parallel G4s, both RNA and DNA, with low micromolar affinity through a conserved mechanism"
+  - **Evidence pointer** NMR spectroscopy and biophysical assays; location not provided
+  - **Concern** The abstract states low micromolar affinity but provides no numerical values, no comparison to non-G4 RNA or DNA controls, and no information on how binding was quantified. The claim of a "conserved mechanism" is not supported by any comparative data across species or paralogs.
+  - **Why it matters** Without quantitative binding data and appropriate specificity controls, the reader cannot assess whether the interaction is specific to G4 structures or whether the affinity is biologically meaningful. The "conserved mechanism" claim requires phylogenetic or mutational evidence that is not described.
+  - **Resolution test** Provide dissociation constants with error estimates, show binding curves, include negative controls (e.g., unstructured RNA, non-G4 structured RNA), and demonstrate conservation through sequence alignment or cross-species binding experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** "Molecular dynamics and docking simulations reveal an encircling mechanism in which the RGG box wraps around the G4 while downstream C-terminal serine residues stabilize the complex through hydrogen bonding"
+  - **Evidence pointer** Molecular dynamics and docking simulations; location not provided
+  - **Concern** The abstract reports simulation results as if they reveal a mechanism, but no details are given on simulation length, force field, starting structures, convergence, or whether the proposed interactions were validated experimentally beyond phosphomimetic mutations. The encircling model is presented as established rather than as a hypothesis.
+  - **Why it matters** Computational predictions require experimental validation, especially for disordered proteins where conformational ensembles are complex. Without evidence that the simulated complex is stable and representative, the mechanistic claim is premature.
+  - **Resolution test** Show simulation convergence metrics, provide experimental validation (e.g., mutagenesis of RGG residues, NMR chemical shift perturbations mapping the binding interface), and demonstrate that the proposed hydrogen bonds are supported by structural or mutational data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** "SERBP1 regulates mTOR expression in glioblastoma cell lines through G4 elements in the mTOR 5’ UTR, and that SERBP1 depletion synergizes with mTOR inhibition to reduce cell growth"
+  - **Evidence pointer** Glioblastoma cell line experiments; location not provided
+  - **Concern** The abstract claims direct regulation of mTOR expression via G4 elements and synergy with mTOR inhibition, but no experimental details are provided. It is unclear whether the effect on mTOR expression is direct (e.g., via reporter assays with mutated G4 elements) or indirect, and the synergy claim lacks quantitative metrics (e.g., combination index, dose-response curves).
+  - **Why it matters** The translational relevance of the study rests on this cellular claim. Without evidence that the G4 elements are necessary and sufficient for SERBP1-dependent regulation, and without rigorous synergy analysis, the conclusion is not established.
+  - **Resolution test** Include reporter assays with wild-type and mutant G4 elements, show SERBP1 knockdown and rescue experiments, provide dose-response data for mTOR inhibition with and without SERBP1 depletion, and report statistical significance and effect sizes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "G-quadruplex (G4)-binding properties"
+  - **Issue** The term "G4-binding properties" is vague; it is unclear whether the authors mean binding affinity, specificity, or structural determinants.
+  - **Required correction** Specify which properties were measured and how they were quantified.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Phosphorylation claim
+  - **Evidence pointer** Abstract, "Phosphomimetic mutations of key serines"
+  - **Issue** The abstract does not state which serines were mutated, how many were tested, or whether phosphomimetic mutations were validated as mimics of actual phosphorylation.
+  - **Required correction** List the specific serine residues and provide evidence that phosphomimetics recapitulate phosphorylation effects (e.g., comparison with phospho-specific antibodies or in vitro phosphorylation assays).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** "broad-specificity G4-binding protein"
+  - **Evidence pointer** Abstract, "Recognition is driven by G4 topology rather than nucleotide sequence"
+  - **Issue** The claim of broad specificity is based on binding to parallel G4s, but it is unclear whether other G4 topologies (e.g., antiparallel, hybrid) were tested.
+  - **Required correction** Clarify the range of G4 topologies tested and whether binding is truly topology-selective or limited to parallel conformations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or experimental detail to support the central claims of binding affinity, mechanism, and cellular function. Without these, the case for a topology-driven recognition mechanism and its therapeutic relevance is not established.
+
+## Risk / unsupported claims
+- The claim of "first detailed characterization of G4 recognition by a fully disordered domain" is unverifiable from the abstract alone and may be overstated without a comprehensive literature comparison.
+- The claim that SERBP1 "recruits helicases to resolve these structures and license translation" is speculative and not supported by any data described in the abstract.
+- The therapeutic implication of synergy between SERBP1 depletion and mTOR inhibition is not quantitatively supported.
+- The "conserved mechanism" claim is unsupported without comparative data.
+- The functional significance of phosphorylation as a "regulatory switch" is inferred from phosphomimetic mutations but not validated in a cellular context.

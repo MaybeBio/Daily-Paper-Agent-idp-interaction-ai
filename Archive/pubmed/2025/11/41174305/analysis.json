@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41174305",
+  "title": "Predictive Model for Single-Site Mutations That Change Intrinsically Disordered Protein Binding Energetics.",
+  "authors": "Chandra, Soumyanetra; Varadarajan, Raghavan",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2025-11-01",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文介绍基于线性回归的IPApred模型，预测无序蛋白单点突变对结合亲和力的影响，聚焦IDP互作能量学建模，方法为机器学习但非深度学习，机制深度中等。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are characterized by structural mobility and lack of stable tertiary structure. These are important for IDP functions and interactions with other protein partners. IDP binding modes are distinctly divergent from globular protein-protein interactions. Comprehensive studies on effects of mutations in this structurally distinct protein class of IDPs are limited, impeding the development of accurate prediction methods for mutational effects in IDPs. Understanding how mutations affect IDP binding affinity is also crucial to peptide drug design, therapeutics engineering, and research on IDP diseases. Previous deep mutational scanning study of intrinsically disordered domain of control of cell death protein A (CcdA) shed light on residue-specific contribution to cognate partner binding energetics and outlined methodology for building IDP-compatible prediction models of binding affinity. The current chapter summarizes our previously described methodology [1] (see Notes 1, 4-7) for development of a linear regression-based predictive model, Intrinsically disordered Protein Affinity prediction (IPApred). Our method incorporates structural information at the residue level as well as experimentally derived mutational penalties while leveraging the distinct physicochemical properties of different amino acids to predict how single-site substitutions affect partner binding in IDPs. We describe methods for data generation and collection, and the steps of selecting features, training a simple mathematical model, outlining a protocol for using IPApred, and finally discussing validation and evaluation of the model. The chapter also highlights current limitations of the model and challenges faced in modeling IDP energetics and discusses possible strategies of addressing them. Despite drawbacks, IPApred provides a useful framework for predicting mutational effects in disordered proteins and for improved understanding of related biological processes and disease mechanisms.",
+  "abstract_zh": "固有无序蛋白（IDPs）以结构流动性和缺乏稳定三级结构为特征。这些特性对IDP功能及其与其他蛋白伙伴的相互作用至关重要。IDP的结合模式与球状蛋白-蛋白相互作用显著不同。针对这一结构独特蛋白类别中突变效应的综合研究有限，阻碍了IDP突变效应准确预测方法的发展。理解突变如何影响IDP结合亲和力对于肽类药物设计、治疗工程及IDP疾病研究同样至关重要。先前对细胞死亡蛋白A（CcdA）固有无序结构域的深度突变扫描研究揭示了残基特异性对同源伙伴结合能量学的贡献，并概述了构建IDP兼容的结合亲和力预测模型的方法。本章总结了先前描述的方法[1]（见注释1、4-7），用于开发基于线性回归的预测模型——固有无序蛋白亲和力预测（IPApred）。我们的方法整合了残基水平的结构信息以及实验衍生的突变惩罚，同时利用不同氨基酸的独特物理化学性质来预测单点替换如何影响IDP中的伙伴结合。我们描述了数据生成与收集的方法，以及选择特征、训练简单数学模型、概述使用IPApred的协议，最后讨论模型的验证与评估。本章还强调了模型当前的局限性及建模IDP能量学面临的挑战，并探讨了可能的解决策略。尽管存在不足，IPApred为预测无序蛋白中的突变效应及增进对相关生物过程和疾病机制的理解提供了有用框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41174305/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41174305/",
+  "paper_page_path": "papers/pubmed/41174305/index.html"
+}

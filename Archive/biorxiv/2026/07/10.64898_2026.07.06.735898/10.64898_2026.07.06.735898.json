@@ -1,0 +1,111 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.06.735898",
+  "title": "Simulations show increased lipid interdigitation in transmembrane coupling of protein condensates",
+  "doi": "10.64898/2026.07.06.735898",
+  "abstract": "Liquid-liquid phase separation of proteins has been observed to occur on biological membranes, where it is thought to play a role in diverse cellular behaviors. Recent work has demonstrated colocalization between protein condensates on opposing leaflets of the bilayer, suggesting that protein phase separation may be coupled across the bilayer. However, the mechanism behind this coupling phenomenon remains poorly understood. Here we seek to understand the protein-protein and protein-membrane interactions that give rise to transbilayer coupling of protein condensates. We perform coarse‑grained molecular dynamics simulations of a bilayer with a disordered protein condensate tethered to each leaflet surface. In this system, we observe stable, coupled diffusion of the condensates across the membrane. We find that increasing the protein-protein interaction strength leads to decoupling, driven by competing membrane curvatures induced by each condensate. However, by applying membrane tension we suppress curvature and restore coupling even at higher protein interaction strengths. Under coupling conditions, we find that lipid entropy is reduced upon direct contact with proteins, but this effect is not transferred to the opposing leaflet. Interestingly, further analysis reveals increased transverse lipid packing (interdigitation) beneath the condensates relative to protein‑free regions. Based on these observations, we propose that enhanced lipid interdigitation mediates interleaflet communication and serves as the primary mechanism driving transbilayer coupling of condensates in this system. This work provides insight into a potential physical mechanism for transmembrane communication in cellular contexts and suggests directions for future investigation.",
+  "authors": [
+    "Zinga K",
+    "Stachowiak J",
+    "Ren P"
+  ],
+  "published_date": "2026-07-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.06.735898",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.06.735898.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1277170",
+    "raw_record": {
+      "id": "PPR1277170",
+      "source": "PPR",
+      "doi": "10.64898/2026.07.06.735898",
+      "title": "Simulations show increased lipid interdigitation in transmembrane coupling of protein condensates",
+      "authorString": "Zinga K, Stachowiak J, Ren P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zinga K",
+            "lastName": "Zinga",
+            "firstName": "Ketsia",
+            "initials": "K"
+          },
+          {
+            "fullName": "Stachowiak J",
+            "lastName": "Stachowiak",
+            "firstName": "Jeanne",
+            "initials": "J"
+          },
+          {
+            "fullName": "Ren P",
+            "lastName": "Ren",
+            "firstName": "Pengyu",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5613-1910"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5613-1910"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Liquid-liquid phase separation of proteins has been observed to occur on biological membranes, where it is thought to play a role in diverse cellular behaviors. Recent work has demonstrated colocalization between protein condensates on opposing leaflets of the bilayer, suggesting that protein phase separation may be coupled across the bilayer. However, the mechanism behind this coupling phenomenon remains poorly understood. Here we seek to understand the protein-protein and protein-membrane interactions that give rise to transbilayer coupling of protein condensates. We perform coarse‑grained molecular dynamics simulations of a bilayer with a disordered protein condensate tethered to each leaflet surface. In this system, we observe stable, coupled diffusion of the condensates across the membrane. We find that increasing the protein-protein interaction strength leads to decoupling, driven by competing membrane curvatures induced by each condensate. However, by applying membrane tension we suppress curvature and restore coupling even at higher protein interaction strengths. Under coupling conditions, we find that lipid entropy is reduced upon direct contact with proteins, but this effect is not transferred to the opposing leaflet. Interestingly, further analysis reveals increased transverse lipid packing (interdigitation) beneath the condensates relative to protein‑free regions. Based on these observations, we propose that enhanced lipid interdigitation mediates interleaflet communication and serves as the primary mechanism driving transbilayer coupling of condensates in this system. This work provides insight into a potential physical mechanism for transmembrane communication in cellular contexts and suggests directions for future investigation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.07.06.735898"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-07-11",
+      "firstPublicationDate": "2026-07-10",
+      "firstIndexDate": "2026-07-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

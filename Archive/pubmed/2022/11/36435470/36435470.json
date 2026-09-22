@@ -1,0 +1,454 @@
+{
+  "identity": {
+    "pmid": "36435470",
+    "doi": "10.1016/j.ijbiomac.2022.11.227",
+    "title": "Structural evolution of Delta lineage of SARS-CoV-2."
+  },
+  "content": {
+    "abstract": "One of the main obstacles in prevention and treatment of COVID-19 is the rapid evolution of the SARS-CoV-2 Spike protein. Given that Spike is the main target of common treatments of COVID-19, mutations occurring at this virulent factor can affect the effectiveness of treatments. The B.1.617.2 lineage of SARS-CoV-2, being characterized by many Spike mutations inside and outside of its receptor-binding domain (RBD), shows high infectivity and relative resistance to existing cures. Here, utilizing a wide range of computational biology approaches, such as immunoinformatics, molecular dynamics (MD), analysis of intrinsically disordered regions (IDRs), protein-protein interaction analyses, residue scanning, and free energy calculations, we examine the structural and biological attributes of the B.1.617.2 Spike protein. Furthermore, the antibody design protocol of Rosetta was implemented for evaluation the stability and affinity improvement of the Bamlanivimab (LY-CoV55) antibody, which is not capable of interactions with the B.1.617.2 Spike. We observed that the detected mutations in the Spike of the B1.617.2 variant of concern can cause extensive structural changes compatible with the described variation in immunogenicity, secondary and tertiary structure, oligomerization potency, Furin cleavability, and drug targetability. Compared to the Spike of Wuhan lineage, the B.1.617.2 Spike is more stable and binds to the Angiotensin-converting enzyme 2 (ACE2) with higher affinity.",
+    "keywords": [
+      "B.1.617.2",
+      "COVID-19",
+      "Computational biology",
+      "Mutation",
+      "SARS-CoV-2",
+      "Spike"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*SARS-CoV-2/genetics",
+      "*COVID-19",
+      "Spike Glycoprotein, Coronavirus/genetics",
+      "Mutation",
+      "Protein Binding",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gomari, Mohammad Mahmoudi",
+        "Tarighi, Parastoo",
+        "Choupani, Edris",
+        "Abkhiz, Shadi",
+        "Mohamadzadeh, Masoud",
+        "Rostami, Neda",
+        "Sadroddiny, Esmaeil",
+        "Baammi, Soukayna",
+        "Uversky, Vladimir N",
+        "Dokholyan, Nikolay V"
+      ],
+      "short_names": [
+        "Gomari MM",
+        "Tarighi P",
+        "Choupani E",
+        "Abkhiz S",
+        "Mohamadzadeh M",
+        "Rostami N",
+        "Sadroddiny E",
+        "Baammi S",
+        "Uversky VN",
+        "Dokholyan NV"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Student Research Committee, Iran University of Medical Sciences, Tehran 1449614535, Iran; Department of Medical Biotechnology, Faculty of Allied Medicine, Iran University of Medical Sciences, Tehran 1449614535, Iran.",
+        "Department of Medical Biotechnology, Faculty of Allied Medicine, Iran University of Medical Sciences, Tehran 1449614535, Iran.",
+        "Department of Medical Biotechnology, Faculty of Allied Medicine, Iran University of Medical Sciences, Tehran 1449614535, Iran.",
+        "Department of Medical Biotechnology, Faculty of Allied Medicine, Iran University of Medical Sciences, Tehran 1449614535, Iran.",
+        "Department of Chemistry, Faculty of Sciences, University of Hormozgan, Bandar Abbas 7916193145, Iran.",
+        "Department of Chemical Engineering, Faculty of Engineering, Arak University, Arak 3848177584, Iran.",
+        "Medical Biotechnology Department, School of Advanced Technologies in Medicine, Tehran University of Medical Sciences, Tehran 1417613151, Iran.",
+        "African Genome Centre (AGC), Mohammed VI Polytechnic University, Benguerir 43150, Morocco.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33620, USA; Research Center for Molecular Mechanisms of Aging and Age-Related Diseases, Moscow Institute of Physics and Technology, 141700 Dolgoprudny, Russia. Electronic address: vuversky@usf.edu.",
+        "Department of Pharmacology, Department of Biochemistry & Molecular Biology, Pennsylvania State University College of Medicine, Hershey, PA 16802, USA. Electronic address: nxd338@psu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gomari, Mohammad Mahmoudi",
+        "short_name": "Gomari MM",
+        "identifiers": [],
+        "affiliations": [
+          "Student Research Committee, Iran University of Medical Sciences, Tehran 1449614535, Iran; Department of Medical Biotechnology, Faculty of Allied Medicine, Iran University of Medical Sciences, Tehran 1449614535, Iran."
+        ]
+      },
+      {
+        "full_name": "Tarighi, Parastoo",
+        "short_name": "Tarighi P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biotechnology, Faculty of Allied Medicine, Iran University of Medical Sciences, Tehran 1449614535, Iran."
+        ]
+      },
+      {
+        "full_name": "Choupani, Edris",
+        "short_name": "Choupani E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biotechnology, Faculty of Allied Medicine, Iran University of Medical Sciences, Tehran 1449614535, Iran."
+        ]
+      },
+      {
+        "full_name": "Abkhiz, Shadi",
+        "short_name": "Abkhiz S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biotechnology, Faculty of Allied Medicine, Iran University of Medical Sciences, Tehran 1449614535, Iran."
+        ]
+      },
+      {
+        "full_name": "Mohamadzadeh, Masoud",
+        "short_name": "Mohamadzadeh M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Faculty of Sciences, University of Hormozgan, Bandar Abbas 7916193145, Iran."
+        ]
+      },
+      {
+        "full_name": "Rostami, Neda",
+        "short_name": "Rostami N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, Faculty of Engineering, Arak University, Arak 3848177584, Iran."
+        ]
+      },
+      {
+        "full_name": "Sadroddiny, Esmaeil",
+        "short_name": "Sadroddiny E",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Biotechnology Department, School of Advanced Technologies in Medicine, Tehran University of Medical Sciences, Tehran 1417613151, Iran."
+        ]
+      },
+      {
+        "full_name": "Baammi, Soukayna",
+        "short_name": "Baammi S",
+        "identifiers": [],
+        "affiliations": [
+          "African Genome Centre (AGC), Mohammed VI Polytechnic University, Benguerir 43150, Morocco."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33620, USA; Research Center for Molecular Mechanisms of Aging and Age-Related Diseases, Moscow Institute of Physics and Technology, 141700 Dolgoprudny, Russia. Electronic address: vuversky@usf.edu."
+        ]
+      },
+      {
+        "full_name": "Dokholyan, Nikolay V",
+        "short_name": "Dokholyan NV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Department of Biochemistry & Molecular Biology, Pennsylvania State University College of Medicine, Hershey, PA 16802, USA. Electronic address: nxd338@psu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2023 Jan 31",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/27 06:00",
+    "fetched_at": "2026-09-20 16:56:57"
+  },
+  "links": {
+    "cites": [
+      "42181730",
+      "41181326",
+      "40568634",
+      "40317435",
+      "40249348",
+      "39013949",
+      "38707429",
+      "38074087",
+      "37873858",
+      "37560529",
+      "37514522"
+    ],
+    "refs": [
+      "35550680",
+      "35194576",
+      "35165664",
+      "35118917",
+      "35108439",
+      "35013687",
+      "34936120",
+      "34901826",
+      "34825717",
+      "34823256",
+      "34812575",
+      "34812429",
+      "34783057",
+      "34588290",
+      "34578363",
+      "34578275",
+      "34352039",
+      "34331873",
+      "34311586",
+      "34289274",
+      "34264910",
+      "34242578",
+      "34237773",
+      "34230972",
+      "34171266",
+      "34130949",
+      "34117216",
+      "34090624",
+      "34083044",
+      "34015255",
+      "34008285",
+      "33949647",
+      "33930298",
+      "33917138",
+      "33887205",
+      "33807556",
+      "33767447",
+      "33753932",
+      "33730597",
+      "33682290",
+      "33482181",
+      "33475020",
+      "33419936",
+      "33363700",
+      "33275081",
+      "33252008",
+      "33199021",
+      "33157154",
+      "33127889",
+      "33106671",
+      "33075532",
+      "33045718",
+      "33010156",
+      "32987852",
+      "32901123",
+      "32901090",
+      "32831518",
+      "32822564",
+      "32817270",
+      "32623480",
+      "32544429",
+      "32539378",
+      "32494282",
+      "32483333",
+      "32435171",
+      "32392111",
+      "32358858",
+      "32321524",
+      "32313660",
+      "32283143",
+      "32277040",
+      "32183901",
+      "32162252",
+      "32155444",
+      "32134278",
+      "32045313",
+      "32007145",
+      "31891416",
+      "31742764",
+      "31452101",
+      "31115865",
+      "30946779",
+      "30368845",
+      "30360733",
+      "30305704",
+      "30236283",
+      "30182836",
+      "28959320",
+      "28430426",
+      "27957758",
+      "27712628",
+      "27322406",
+      "27041353",
+      "26953178",
+      "24850022",
+      "24779955",
+      "24678666",
+      "24348241",
+      "24277997",
+      "24265211",
+      "24089747",
+      "23832629",
+      "23565140",
+      "23300419",
+      "23093919",
+      "23082979",
+      "22745119",
+      "21117705",
+      "20803498",
+      "20221928",
+      "20197040",
+      "19499576",
+      "19055730",
+      "18298083",
+      "17411103",
+      "17183511",
+      "16211538",
+      "15649559",
+      "15288760",
+      "8679928"
+    ],
+    "similar": [
+      "36435470",
+      "34105996",
+      "34435953",
+      "36336003",
+      "35595778",
+      "34783057",
+      "34914115",
+      "35620980",
+      "34835101",
+      "33331243",
+      "35728285",
+      "35632769",
+      "34896769",
+      "37566991",
+      "34013346",
+      "34400835",
+      "36168828",
+      "38641844",
+      "33272568",
+      "34991443",
+      "35343765",
+      "34217923",
+      "35738053",
+      "33602511",
+      "35062205",
+      "36609701",
+      "35767919",
+      "36401897",
+      "32806067",
+      "34388530",
+      "34858396",
+      "35138508",
+      "35766497",
+      "35364605",
+      "38183172",
+      "33618621",
+      "36077490",
+      "34346317",
+      "33917138",
+      "34495817",
+      "34434902",
+      "35563345",
+      "36232627",
+      "34346753",
+      "37896834",
+      "37573409",
+      "36562937",
+      "34550770",
+      "35013687",
+      "32762417",
+      "33999091",
+      "36597957",
+      "34149735",
+      "38675695",
+      "38673865",
+      "35215888",
+      "38885553",
+      "34137759",
+      "35698014",
+      "38442025",
+      "38305152",
+      "34516024",
+      "35457196",
+      "35236358",
+      "35163572",
+      "36499120",
+      "34914928",
+      "33738989",
+      "37515187",
+      "34643438",
+      "34502041",
+      "34570497",
+      "36569921",
+      "35140714",
+      "33671255",
+      "33992693",
+      "32623480",
+      "36250723",
+      "35266815",
+      "37682927",
+      "34748603",
+      "33789940",
+      "33767306",
+      "33170884",
+      "35453047",
+      "36551170",
+      "37338047",
+      "35533762",
+      "33542420",
+      "34904526",
+      "36039645",
+      "38932204",
+      "35237535",
+      "35674432",
+      "33893649",
+      "33374416",
+      "34979405",
+      "38517012"
+    ],
+    "review": [
+      "36435470",
+      "36562937",
+      "38442025"
+    ],
+    "pmc": [
+      "9683856"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(22)02786-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36435470/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36435470",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

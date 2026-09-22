@@ -1,0 +1,316 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.11.612445",
+  "title": "A proteome-wide dependency map of protein interaction motifs",
+  "doi": "10.1101/2024.09.11.612445",
+  "abstract": "Short linear motifs (SLiMs) are the most ubiquitous protein interaction modules within unstructured regions of the human proteome, yet their contribution to cellular homeostasis remains poorly understood. To systematically assess SLiM function, we applied base editing to mutate all reported and a set of computationally predicted SLiMs defined by SLiM-like evolutionary patterns. By screening 7,293 SLiM-containing regions with 80,473 mutations in HAP1 cells, we define a SLiM dependency map identifying 450 known and 264 predicted SLiMs required for normal cell proliferation. Mutational consequences were highly reproducible in RPE1 cells, with differences attributed to cell line-specific gene essentiality. We show that most essential predicted SLiMs belong to novel classes and identify binding partners for several of these, providing mechanistic insight into a disease-associated ANKRD17 mutation. Our study provides a proteome-wide resource on SLiM essentiality and uncovers numerous uncharacterized yet essential SLiMs.",
+  "authors": [
+    "Ambjørn SM",
+    "Meeusen B",
+    "Kliche J",
+    "Wang J",
+    "Garvanska DH",
+    "Kruse T",
+    "Mendez BL",
+    "Mann M",
+    "Mailand N",
+    "Hertz EP",
+    "Davey NE",
+    "Nilsson J"
+  ],
+  "published_date": "2024-09-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.11.612445",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.11.612445.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR908984",
+    "raw_record": {
+      "id": "PPR908984",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR908984"
+        ]
+      },
+      "doi": "10.1101/2024.09.11.612445",
+      "title": "A proteome-wide dependency map of protein interaction motifs",
+      "authorString": "Ambjørn SM, Meeusen B, Kliche J, Wang J, Garvanska DH, Kruse T, Mendez BL, Mann M, Mailand N, Hertz EP, Davey NE, Nilsson J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ambjørn SM",
+            "lastName": "Ambjørn",
+            "firstName": "Sara",
+            "initials": "SM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Epigenetic Cell Memory, Danish Cancer Institute, Copenhagen, Denmark"
+                },
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, ICMM, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meeusen B",
+            "lastName": "Meeusen",
+            "firstName": "Bob",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Epigenetic Cell Memory, Danish Cancer Institute, Copenhagen, Denmark"
+                },
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, ICMM, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kliche J",
+            "lastName": "Kliche",
+            "firstName": "Johanna",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Epigenetic Cell Memory, Danish Cancer Institute, Copenhagen, Denmark"
+                },
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, ICMM, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang J",
+            "lastName": "Wang",
+            "firstName": "Juanjuan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, ICMM, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garvanska DH",
+            "lastName": "Garvanska",
+            "firstName": "Dimitriya",
+            "initials": "DH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Epigenetic Cell Memory, Danish Cancer Institute, Copenhagen, Denmark"
+                },
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, ICMM, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kruse T",
+            "lastName": "Kruse",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Epigenetic Cell Memory, Danish Cancer Institute, Copenhagen, Denmark"
+                },
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, ICMM, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mendez BL",
+            "lastName": "Mendez",
+            "firstName": "Blanca Lopez",
+            "initials": "BL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, ICMM, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mann M",
+            "lastName": "Mann",
+            "firstName": "Matthias",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, ICMM, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mailand N",
+            "lastName": "Mailand",
+            "firstName": "Niels",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Epigenetic Cell Memory, Danish Cancer Institute, Copenhagen, Denmark"
+                },
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, ICMM, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hertz EP",
+            "lastName": "Hertz",
+            "firstName": "Emil P.T.",
+            "initials": "EP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, ICMM, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davey NE",
+            "lastName": "Davey",
+            "firstName": "Norman",
+            "initials": "NE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Biology, , 237 Fulham Road , , ,"
+                },
+                {
+                  "affiliation": "Department of Cell and Molecular Biology, , 262 Danny Thomas Place , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nilsson J",
+            "lastName": "Nilsson",
+            "firstName": "Jakob",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Epigenetic Cell Memory, Danish Cancer Institute, Copenhagen, Denmark"
+                },
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, ICMM, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Short linear motifs (SLiMs) are the most ubiquitous protein interaction modules within unstructured regions of the human proteome, yet their contribution to cellular homeostasis remains poorly understood. To systematically assess SLiM function, we applied base editing to mutate all reported and a set of computationally predicted SLiMs defined by SLiM-like evolutionary patterns. By screening 7,293 SLiM-containing regions with 80,473 mutations in HAP1 cells, we define a SLiM dependency map identifying 450 known and 264 predicted SLiMs required for normal cell proliferation. Mutational consequences were highly reproducible in RPE1 cells, with differences attributed to cell line-specific gene essentiality. We show that most essential predicted SLiMs belong to novel classes and identify binding partners for several of these, providing mechanistic insight into a disease-associated ANKRD17 mutation. Our study provides a proteome-wide resource on SLiM essentiality and uncovers numerous uncharacterized yet essential SLiMs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.09.11.612445"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR908984"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR908984&type=FILE&fileName=EMS198841-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41792279",
+            "reference": "Nature structural & molecular biology. 2026 Mar;33(3):537-546",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS198841",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "hpa",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-09-13",
+      "firstPublicationDate": "2024-09-11",
+      "firstIndexDate": "2024-09-13",
+      "fullTextReceivedDate": "2025-11-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

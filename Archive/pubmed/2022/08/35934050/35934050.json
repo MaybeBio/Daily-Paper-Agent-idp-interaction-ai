@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "35934050",
+    "doi": "10.1016/j.jbc.2022.102349",
+    "title": "An intrinsically disordered transcription activation domain increases the DNA binding affinity and reduces the specificity of NFkappaB p50/RelA."
+  },
+  "content": {
+    "abstract": "Many transcription factors contain intrinsically disordered transcription activation domains (TADs), which mediate interactions with coactivators to activate transcription. Historically, DNA-binding domains and TADs have been considered as modular units, but recent studies have shown that TADs can influence DNA binding. Whether these results can be generalized to more TADs is not clear. Here, we biophysically characterized the NFkappaB p50/RelA heterodimer including the RelA TAD and investigated the TAD's influence on NFkappaB-DNA interactions. In solution, we show the RelA TAD is disordered but compact, with helical tendency in two regions that interact with coactivators. We determined that the presence of the TAD increased the stoichiometry of NFkappaB-DNA complexes containing promoter DNA sequences with tandem kappaB recognition motifs by promoting the binding of NFkappaB dimers in excess of the number of kappaB sites. In addition, we measured the binding affinity of p50/RelA for DNA containing tandem kappaB sites and single kappaB sites. While the presence of the TAD enhanced the binding affinity of p50/RelA for all kappaB sequences tested, it also increased the affinity for nonspecific DNA sequences by over 10-fold, leading to an overall decrease in specificity for kappaB DNA sequences. In contrast, previous studies have generally reported that TADs decrease DNA-binding affinity and increase sequence specificity. Our results reveal a novel function of the RelA TAD in promoting binding to nonconsensus DNA, which sheds light on previous observations of extensive nonconsensus DNA binding by NFkappaB in vivo in response to strong inflammatory signals.",
+    "keywords": [
+      "DNA-protein interaction",
+      "NF-kB transcription factor",
+      "cooperativity",
+      "hydrogen-deuterium exchange",
+      "intrinsically disordered protein",
+      "small-angle X-ray scattering",
+      "structural model",
+      "transcription"
+    ],
+    "mesh_terms": [
+      "Base Sequence",
+      "DNA/chemistry",
+      "*NF-kappa B p50 Subunit/chemistry/genetics",
+      "Protein Binding",
+      "Protein Domains",
+      "Protein Multimerization",
+      "*Transcription Factor RelA/chemistry/genetics",
+      "*Transcriptional Activation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Baughman, Hannah E R",
+        "Narang, Dominic",
+        "Chen, Wei",
+        "Villagran Suarez, Amalia C",
+        "Lee, Joan",
+        "Bachochin, Maxwell J",
+        "Gunther, Tristan R",
+        "Wolynes, Peter G",
+        "Komives, Elizabeth A"
+      ],
+      "short_names": [
+        "Baughman HER",
+        "Narang D",
+        "Chen W",
+        "Villagran Suarez AC",
+        "Lee J",
+        "Bachochin MJ",
+        "Gunther TR",
+        "Wolynes PG",
+        "Komives EA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA.",
+        "Department of Chemistry and Center for Theoretical Biological Physics, Rice University, Houston, Texas, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA. Electronic address: ekomives@ucsd.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Baughman, Hannah E R",
+        "short_name": "Baughman HER",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Narang, Dominic",
+        "short_name": "Narang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Wei",
+        "short_name": "Chen W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Villagrán Suárez, Amalia C",
+        "short_name": "Villagrán Suárez AC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Joan",
+        "short_name": "Lee J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Bachochin, Maxwell J",
+        "short_name": "Bachochin MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Gunther, Tristan R",
+        "short_name": "Gunther TR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA."
+        ]
+      },
+      {
+        "full_name": "Wolynes, Peter G",
+        "short_name": "Wolynes PG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Center for Theoretical Biological Physics, Rice University, Houston, Texas, USA."
+        ]
+      },
+      {
+        "full_name": "Komives, Elizabeth A",
+        "short_name": "Komives EA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, California, USA. Electronic address: ekomives@ucsd.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/08 06:00",
+    "fetched_at": "2026-09-20 12:34:12"
+  },
+  "links": {
+    "cites": [
+      "42557242",
+      "42247584",
+      "41511382",
+      "41372172",
+      "41039595",
+      "40909693",
+      "39984675",
+      "39605503",
+      "39423710",
+      "39297502",
+      "39107881",
+      "38883712",
+      "38712134",
+      "38527429",
+      "38275292",
+      "38230670",
+      "38095058",
+      "37953273",
+      "36940840",
+      "35939561"
+    ],
+    "refs": [],
+    "similar": [
+      "35934050",
+      "28935669",
+      "19683540",
+      "29625198",
+      "38960718",
+      "21220295",
+      "34089216",
+      "29708732",
+      "33555182",
+      "20969857",
+      "39412374",
+      "22334708",
+      "30862497",
+      "22419549",
+      "28334776",
+      "26988706",
+      "21813505",
+      "31587407",
+      "17895971",
+      "18756949",
+      "31033276",
+      "19094066",
+      "23751347",
+      "24019758",
+      "17869269",
+      "26037922",
+      "16756995",
+      "25311130",
+      "35171557",
+      "26647230",
+      "30653501",
+      "24067962",
+      "9450761",
+      "19965984",
+      "22573609",
+      "17513724",
+      "14668329",
+      "10987817",
+      "9384558",
+      "38095058",
+      "11775058",
+      "15248768",
+      "20966071",
+      "26910425",
+      "10490645",
+      "9315679",
+      "30135182",
+      "11739381",
+      "7623820",
+      "8798413",
+      "18436238",
+      "25615602",
+      "26405173",
+      "9188479",
+      "34236632",
+      "29873020",
+      "15743683",
+      "27051065",
+      "10671503",
+      "21821668",
+      "12752437",
+      "23144749",
+      "31446566",
+      "18362169",
+      "8071349",
+      "21094161",
+      "8441377",
+      "28167786",
+      "9023117",
+      "15545056",
+      "23180782",
+      "9624136",
+      "15543947",
+      "28099440",
+      "26990751",
+      "11035101",
+      "11971907",
+      "8709216",
+      "16099468",
+      "19696077",
+      "8108414",
+      "20001340",
+      "19664134",
+      "15969767",
+      "23636254",
+      "25179582",
+      "12700228",
+      "8710364",
+      "17094254",
+      "9488441",
+      "20610653",
+      "9831247",
+      "28283022",
+      "38805268",
+      "8413215",
+      "21996578",
+      "10825175",
+      "17641041",
+      "16081828",
+      "12667216",
+      "18391200",
+      "34614173",
+      "39411158",
+      "38056064",
+      "37485372",
+      "39214280"
+    ],
+    "review": [
+      "35934050",
+      "22573609",
+      "38095058",
+      "38056064"
+    ],
+    "pmc": [
+      "9440430"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(22)00792-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35934050/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35934050",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-CD40-4",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt8kc0h4j1",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

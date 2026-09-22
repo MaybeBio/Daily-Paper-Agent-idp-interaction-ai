@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35157344",
+  "title": "Can the jigsaw puzzle model of protein folding re-assemble a hydrophobic core?",
+  "authors": "Biswas, Gargi; Ghosh, Semanti; Basu, Sankar; Bhattacharyya, Dhananjay; Datta, Alok Kumar; Banerjee, Rahul",
+  "journal": "Proteins",
+  "published_date": "2022-02-15",
+  "window": {
+    "start": "2022-02-14",
+    "end": "2022-02-20"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用表面互补函数预测疏水核心并辅以MD模拟，研究核心突变对折叠的影响，但对象为折叠蛋白而非无序蛋白/IDR，且无PPI或相分离背景，方法可迁移性有限。",
+  "abstract": "According to the \"jigsaw puzzle\" model of protein folding, the isomorphism between sequence and structure is substantially determined by the specific geometry of side-chain interactions, within the protein interior. In this work, we have attempted to predict the hydrophobic core of cyclophilin (LdCyp) from Leishmania donovani, utilizing a surface complementarity function, which selects for high goodness of fit between hydrophobic side-chain surfaces, rather in the manner of assembling a three-dimensional jigsaw puzzle. The computational core prediction method implemented here has been tried on two distinct scenarios, on the LdCyp polypeptide chain with native non-core residues and all core residues initially set to alanine, on a poly-glycine polypeptide chain. Molecular dynamics simulations appeared to indicate partial destabilization of the two designed sequences. However, experimental characterization of the designed sequences by circular dichroism (CD) spectroscopy and denaturant (GdmCl) induced unfolding, demonstrated disordered proteins. Stepwise reconstruction of the designed cores by cumulative sequential mutations identified the specific mutation (M122L) as primarily responsible for fold collapse and all design objectives were achieved upon rectifying this mutation. In summary, the study demonstrates regions of the core to contain highly specific (jigsaw puzzle-like) interactions sensitive to any perturbations and a predictive algorithm to identify such regions. A mutation within the core has been identified which exercises an inordinate influence on the global fold, reminiscent of metamorphic proteins. In addition, the computational procedure could predict substantial regions of the core (given main-chain coordinates) without any reference to non-core residues.",
+  "abstract_zh": "根据蛋白质折叠的“拼图”模型，序列与结构之间的同构性主要由蛋白质内部侧链相互作用的特定几何形状决定。在本研究中，我们尝试利用表面互补函数预测来自杜氏利什曼原虫的亲环蛋白（LdCyp）的疏水核心，该函数选择疏水侧链表面之间的高拟合优度，类似于组装三维拼图的方式。此处实施的计算核心预测方法已在两种不同情境下进行测试：一种是将LdCyp多肽链中的天然非核心残基和所有核心残基初始设置为丙氨酸，另一种是聚甘氨酸多肽链。分子动力学模拟似乎表明两种设计序列部分失稳。然而，通过圆二色（CD）光谱和变性剂（GdmCl）诱导去折叠对设计序列进行的实验表征，显示出无序蛋白质。通过累积顺序突变逐步重建设计核心，确定了特定突变（M122L）是导致折叠崩溃的主要原因，并且在纠正此突变后，所有设计目标均得以实现。总之，该研究展示了核心区域包含高度特异性（类似拼图）的相互作用，这些相互作用对任何扰动敏感，并提出了一种预测算法来识别此类区域。已识别出核心内的一个突变，它对整体折叠产生过度影响， reminiscent of metamorphic proteins。此外，该计算程序能够预测核心的大部分区域（给定主链坐标），而无需参考非核心残基。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35157344/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35157344/",
+  "paper_page_path": "papers/pubmed/35157344/index.html"
+}

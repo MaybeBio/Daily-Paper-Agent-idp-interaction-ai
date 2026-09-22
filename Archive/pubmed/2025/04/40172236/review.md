@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present PEARL, a force field parameter generation tool combining a neural network model (DihedralProbNet) for predicting protein dihedral probability distributions and a DeepReweighting algorithm for optimizing force field parameters. They claim PEARL reproduces conformational ensembles of 8 IDPs more accurately than ff19SB and stabilizes conformations of 5 folded protein systems.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, training and validation datasets, hyperparameters, comparison metrics, simulation protocols, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful approach for improving IDP simulations through personalized force field parameter optimization. The conceptual combination of neural network-based dihedral prediction with reweighting is interesting. However, the abstract provides insufficient technical detail and quantitative evidence to evaluate the validity, robustness, or generalizability of the method. The claims of improved accuracy over ff19SB and stabilization of folded proteins are stated without supporting data. The work may be of interest to computational biophysicists, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular modelers studying IDPs, researchers developing force fields or enhanced sampling methods, and experimentalists using MD simulations to interpret IDP conformational behavior. The approach could also interest method developers in machine learning applied to molecular simulation.
+- **Major strengths** The conceptual framework is clear and addresses a recognized limitation in IDP simulations. The two-component design (predictive model plus reweighting) is logically coherent. The evaluation across both IDPs and folded proteins suggests awareness of the need to test transferability.
+- **Major Concerns** 
+  - R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The results demonstrate that the PEARL force field more accurately reproduces the conformational ensembles of IDPs than ff19SB and stabilizes the conformations of folded proteins."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The central performance claim is presented without any quantitative metrics, statistical significance testing, or comparison details. No data are shown for the 8 IDP or 5 folded protein systems.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess the magnitude of improvement, whether differences are statistically meaningful, or whether the claim generalizes beyond the specific test systems.
+  - **Resolution test** Provide quantitative comparison metrics (e.g., radius of gyration, secondary structure populations, RMSD to experimental data) with error bars and statistical tests for each system.
+  - R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** "DihedralProbNet to predict protein dihedral probability distributions and the DeepReweighting algorithm to optimize force field parameters."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe the architecture, training data, input features, or loss function of DihedralProbNet, nor the mathematical formulation of DeepReweighting. The scope of "personalized" adaptation is unclear.
+  - **Why it matters** Reproducibility and assessment of methodological novelty require sufficient detail. Without this, the reader cannot determine whether the method is technically sound or how it differs from existing reweighting approaches.
+  - **Resolution test** Provide full methodological description including network architecture, training set composition, reweighting equations, and convergence criteria.
+  - R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "PEARL has the potential to advance our understanding of the role of IDPs in biological processes and their involvement in disease mechanisms."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not address whether PEARL parameters transfer to systems beyond the 8 test IDPs, whether the method requires per-system retraining, or how computational cost scales.
+  - **Why it matters** The stated potential for broad biological impact depends on practical usability and transferability, which are not demonstrated.
+  - **Resolution test** Include discussion or preliminary data on transferability, computational cost, and whether parameters are system-specific or generalizable.
+- **Minor Comments** 
+  - R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "personalized energy adaptation" is not defined and may confuse readers unfamiliar with the context.
+  - **Required correction** Define the term explicitly in the abstract or replace with more standard terminology.
+  - R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Evaluation scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state which experimental data were used for validation of IDP ensembles or folded protein stability.
+  - **Required correction** Specify the experimental references used for comparison.
+  - R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Software availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention of code or parameter availability.
+  - **Required correction** State whether the tool and generated parameters are publicly available.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and methodological detail prevents assessment of the core claims.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of neural network dihedral prediction with reweighting is moderately original, but the abstract does not clarify novelty relative to existing reweighting and machine learning force field methods.
+  - Scientific importance: IDP force field accuracy is a significant problem, but the abstract does not demonstrate that PEARL solves it to a degree that would change practice.
+  - Interdisciplinary readership: The abstract is accessible to computational chemists and biophysicists but may be too technical for a broader audience without more context on IDP simulation challenges.
+  - Technical soundness: Cannot be assessed from the abstract due to missing methodological and validation details.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is promising in concept, but the abstract alone does not provide sufficient quantitative or methodological support. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that PEARL "more accurately reproduces the conformational ensembles of IDPs than ff19SB" is unsupported without quantitative data.
+- The claim that PEARL "stabilizes the conformations of folded proteins" is unsupported without stability metrics or comparison to experimental structures.
+- The statement that PEARL "has the potential to advance our understanding of the role of IDPs in biological processes" is speculative and not evidenced.
+- The methodological claims regarding DihedralProbNet and DeepReweighting are not evaluable from the abstract.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.05.498824",
+  "title": "Polymorphisms Predicting Phylogeny in Hepatitis B Virus (HBV)",
+  "authors": "Lourenço J; McNaughton AL; Pley C; Obolski U; Gupta S; Matthews PC",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-05",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 1,
+  "one_liner_zh": "该研究用随机森林算法预测乙肝病毒基因型，对象为病毒蛋白而非无序蛋白，无PPI或互作机制建模，与本课题无关。",
+  "abstract": "<h4>ABSTRACT</h4> Hepatitis B viruses (HBV) are compact viruses with circular genomes of ∼3.2kb in length. Four genes (HBx, Core, Surface and Polymerase) generating seven products are encoded on overlapping reading frames. Ten HBV genotypes have been characterised (A-J), which may account for differences in transmission, outcomes of infection, and treatment response. However, HBV genotyping is rarely undertaken, and sequencing remains inaccessible in many settings. We used a machine learning approach based on random forest algorithms (RFA) to assess which amino acid (aa) sites in the genome are most informative for determining genotype. We downloaded 5496 genome-length HBV sequences from a public database, excluding recombinant sequences, regions with conserved indels, and genotypes I/J. Each gene was separately translated into aa, and the proteins concatenated into a single sequence (length 1614aa). Using RFA, we searched for aa sites predictive of genotype, and assessed co-variation among the sites with a Mutual Information (MI)-based method. We were able to discriminate confidently between genotypes A-H using 10 aa sites. 5/10 sites were identified in Polymerase (Pol), of which 4/5 were in the spacer domain, and a single site in reverse transcriptase. A further 4/10 sites were located in Surface protein, and a single site in HBx. There were no informative sites in Core. Properties of the aa were generally not conserved between genotypes at informative sites. Co-variation analysis identified 55 pairs of highly-linked sites. Three RFA-identified sites were represented across all pairs (two sites in spacer, and one in HBx). Residues that co-vary with these sites are concentrated in the small HBV surface gene. We also observe a cluster of sites adjacent to the Surface promoter region that co-vary with a spacer residue. Overall, we have shown that RFA analysis is a powerful tool for identifying aa sites that predict HBV lineage, with an unexpectedly high number of such sites in the spacer domain, which has conventionally been viewed as unimportant for structure or function. Our results improve ease of genotype prediction from limited regions of HBV sequence, and may have implications for understanding HBV evolution and the role of the spacer domain.",
+  "abstract_zh": "<h4>摘要</h4> 乙型肝炎病毒（HBV）是一种紧凑型病毒，其环状基因组长度约为3.2kb。四个基因（HBx、Core、Surface和Polymerase）在重叠阅读框上编码产生七种产物。已鉴定出十种HBV基因型（A-J），这可能解释了传播方式、感染结局和治疗反应方面的差异。然而，HBV基因分型很少进行，且在许多环境中测序仍不可及。我们采用基于随机森林算法（RFA）的机器学习方法，评估基因组中哪些氨基酸（aa）位点对确定基因型最具信息量。我们从公共数据库下载了5496条全基因组长度HBV序列，排除了重组序列、具有保守插入缺失的区域以及基因型I/J。每个基因分别翻译为氨基酸，并将蛋白质串联成单一序列（长度1614aa）。利用RFA，我们搜索了可预测基因型的氨基酸位点，并通过基于互信息（MI）的方法评估位点间的共变关系。我们能够使用10个氨基酸位点自信地区分A-H基因型。10个位点中有5个位于聚合酶（Pol）中，其中5个中的4个位于间隔区，1个位于逆转录酶中。另有4/10个位点位于表面蛋白中，1个位点位于HBx中。Core中没有信息性位点。在信息性位点上，氨基酸的特性通常在基因型间不保守。共变分析识别出55对高度关联的位点。三个RFA识别的位点出现在所有配对中（两个位于间隔区，一个位于HBx）。与这些位点共变的残基集中在HBV小表面基因中。我们还观察到与表面启动子区域相邻的一组位点与一个间隔区残基共变。总体而言，我们表明RFA分析是识别预测HBV谱系氨基酸位点的强大工具，且间隔区中此类位点数量出乎意料地高，而该区域传统上被认为对结构或功能不重要。我们的结果提高了从有限HBV序列区域进行基因型预测的简便性，并可能对理解HBV进化及间隔区的作用具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.05.498824",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.05.498824",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.05.498824/index.html"
+}

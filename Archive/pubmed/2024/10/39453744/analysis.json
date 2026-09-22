@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39453744",
+  "title": "Intrinsically disordered region amplifies membrane remodeling to augment selective ER-phagy.",
+  "authors": "Poveda-Cuevas, Sergio Alejandro; Lohachova, Kateryna; Markusic, Borna; Dikic, Ivan; Hummer, Gerhard; Bhaskara, Ramachandra M",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2024-10-25",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过分子动力学模拟研究FAM134B无序区域(IDR)的构象景观及其与膜互作、诱导膜曲率并增强ER自噬受体介导的膜重塑和蛋白聚集，直接聚焦IDR介导的互作机制建模，与本课题高度契合。",
+  "abstract": "Intrinsically disordered regions (IDRs) play a pivotal role in organellar remodeling. They transduce signals across membranes, scaffold signaling complexes, and mediate vesicular traffic. Their functions are regulated by constraining conformational ensembles through specific intra- and intermolecular interactions, physical tethering, and posttranslational modifications. The endoplasmic reticulum (ER)-phagy receptor FAM134B/RETREG1, known for its reticulon homology domain (RHD), includes a substantial C-terminal IDR housing the LC3 interacting motif. Beyond engaging the autophagic machinery, the function of the FAM134B-IDR is unclear. Here, we investigate the characteristics of the FAM134B-IDR by extensive modeling and molecular dynamics simulations. We present detailed structural models for the IDR, mapping its conformational landscape in solution and membrane-anchored configurations. Our analysis reveals that depending on the membrane anchor, the IDRs collapse onto the membrane and induce positive membrane curvature to varying degrees. The charge patterns underlying this Janus-like behavior are conserved across other ER-phagy receptors. We found that IDRs alone are sufficient to sense curvature. When combined with RHDs, they intensify membrane remodeling and drive efficient protein clustering, leading to faster budding, thereby amplifying RHD remodeling functions. Our simulations provide a perspective on IDRs of FAM134B, their Janus-like membrane interactions, and the resulting modulatory functions during large-scale ER remodeling.",
+  "abstract_zh": "固有无序区域（IDRs）在细胞器重塑中发挥关键作用。它们跨膜转导信号、支架信号复合物，并介导囊泡运输。其功能通过特定分子内和分子间相互作用、物理拴系及翻译后修饰来约束构象集合而得以调控。内质网（ER）吞噬受体FAM134B/RETREG1，以其网状蛋白同源结构域（RHD）著称，包含一个庞大的C端IDR，其中容纳LC3相互作用基序。除了参与自噬机制外，FAM134B-IDR的功能尚不明确。在此，我们通过广泛建模和分子动力学模拟研究FAM134B-IDR的特性。我们为IDR呈现详细的结构模型，绘制其在溶液和膜锚定构型中的构象景观。我们的分析揭示，取决于膜锚，IDRs塌缩至膜上并不同程度地诱导正膜曲率。这种类两面神行为背后的电荷模式在其他ER吞噬受体中保守。我们发现，仅IDRs就足以感知曲率。当与RHDs结合时，它们增强膜重塑并驱动高效蛋白质聚集，导致更快的出芽，从而放大RHD重塑功能。我们的模拟为FAM134B的IDRs、其类两面神膜相互作用及在大规模ER重塑过程中的调节功能提供了视角。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39453744/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39453744/",
+  "paper_page_path": "papers/pubmed/39453744/index.html"
+}

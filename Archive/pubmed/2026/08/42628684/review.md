@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a classification for disordered flexible linkers (DFLs), develop a workflow to systematically identify domain-linker-domain (DLD) type linkers from protein structures, and assemble the DLD dataset containing 1640 independent domain linkers (IDLs). They report that the dataset expands existing linker resources, integrates missing residue completion and smoothing of short secondary structure stretches, and that IDLs can be distinguished from other disordered and folded regions via t-SNE, protein language model embeddings with a CNN classifier, and PCA. They state that IDL features highly overlap with DisProt Linkers. The dataset is made available via an interactive web server.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or statistical results provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, dataset statistics, classifier performance metrics, t-SNE/PCA plots, comparison details with DisProt, and web server functionality
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable resource for the intrinsically disordered protein community, addressing a recognized gap in linker datasets. The proposed classification and workflow are conceptually sound, and the reported dataset size (1640 IDLs) suggests a meaningful expansion over existing resources. However, the abstract alone provides insufficient evidence to evaluate the technical rigor of the workflow, the validity of the computational analyses, or the claimed overlap with DisProt Linkers. Several key claims are stated without quantitative support, and the absence of methodological detail precludes a definitive assessment of the dataset's quality and utility.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein domain architecture, linker function, and predictive model development for disordered regions. The dataset and web server would be of direct use to computational biologists developing predictors for disordered linkers and to experimentalists seeking annotated linker examples for functional studies.
+- **Major strengths** The work addresses a clear gap in the field by providing a systematic, structure-derived dataset for DLD-type linkers. The inclusion of related regions (dependent-domain linkers, intra-domain loops, termini) adds contextual value. The integration of missing residue completion and secondary structure smoothing is a thoughtful methodological contribution that may improve linker capture. The provision of an interactive web server with sequence, structural features, and visualization enhances accessibility and practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Our data collection process integrates missing residue completion and smoothing of short secondary structure stretches enabling to capture a higher number of longer IDLs."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims that the integration of missing residue completion and smoothing of short secondary structure stretches enables capture of a higher number of longer IDLs, but no quantitative comparison is provided against a baseline without these steps. It is unclear how much longer the IDLs are, how many additional IDLs are captured, or whether these steps introduce bias toward certain structural contexts.
+  - **Why it matters** The core value of the dataset depends on the reliability and completeness of the linker identification method. Without a controlled comparison, readers cannot assess whether the reported improvements are substantial or whether the smoothing step might erroneously merge distinct structural elements.
+  - **Resolution test** Provide a comparative analysis showing the number and length distribution of IDLs with and without the missing residue completion and smoothing steps, including statistical significance tests and a discussion of potential biases.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "IDLs can be distinguished from other disordered and folded protein regions, and their features highly overlap with DisProt Linkers, considered the gold standard for linker annotation."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that IDLs can be distinguished from other regions and that their features highly overlap with DisProt Linkers, but no quantitative metrics are reported. It is unclear what features were used, what classifier performance was achieved (e.g., accuracy, F1, AUC), how the overlap with DisProt was measured, and whether the comparison was statistically robust.
+  - **Why it matters** The claim of distinguishability and overlap with a gold standard is central to establishing the biological relevance and predictive utility of the dataset. Without quantitative evidence, these claims remain unsubstantiated and cannot be evaluated by readers.
+  - **Resolution test** Report classifier performance metrics with confidence intervals, describe the feature sets and embedding methods in detail, and provide a statistical comparison of IDL features against DisProt Linkers and other disordered/folded regions, including effect sizes and significance tests.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** "The DLD dataset is available via an interactive web server at https://dld.chemeslab.org/ where linkers are annotated with sequence and structural features and can be visualized using a structure viewer."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that the dataset is available via a web server, but no information is provided about the accessibility, download options, data format, or whether the server is currently functional. The URL is given, but the abstract does not confirm that the server is live or that all claimed features (annotation, visualization) are operational.
+  - **Why it matters** A key contribution of this work is the public availability of the dataset. If the web server is not accessible or does not provide the described functionality, the resource's utility is compromised, and the claim of availability cannot be verified.
+  - **Resolution test** Confirm that the web server is live and functional, provide a description of data download options, file formats, and a demonstration of the visualization and annotation features, possibly in supplementary materials.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Classification scheme
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract introduces a classification for DFLs that includes linkers joining two domains (DLD), a domain and a motif, or two short linear motifs, but the term "DLD" is used both for the general classification and specifically for the domain-domain case. This dual usage may confuse readers.
+  - **Required correction** Clarify the terminology, for example by using "DLD-type" for the general class and specifying "domain-domain linkers" for the specific case, or by defining distinct terms for each category.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions that the dataset includes 1640 independent domain linkers (IDLs) and annotates related regions, but does not specify the total number of proteins, the source database(s) used, or the redundancy reduction criteria.
+  - **Required correction** Provide basic dataset statistics in the abstract or indicate that these details are available in the full manuscript, including the number of source proteins and redundancy filtering methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Computational methods
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions t-SNE analysis, protein language model embedding with a CNN classifier, and PCA analysis, but does not specify which protein language model was used, the training/validation split, or the hyperparameters.
+  - **Required correction** Specify the protein language model (e.g., ESM, ProtBERT) and provide methodological details in the full manuscript, including model architecture, training procedure, and evaluation protocol.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The lack of quantitative evidence for the methodological improvements, the absence of classifier performance metrics and statistical comparisons, and the unverified availability of the web server collectively prevent the case from being established based on the abstract alone.
+- **Assessment against Nature-style criteria** Originality: The work is original in its systematic approach to DLD linker identification and dataset assembly, though the concept of linker classification is not entirely new. Scientific importance: The dataset has clear potential to advance linker research and predictor development, which is a recognized need in the field. Interdisciplinary readership: The work is relevant to structural biology, computational biology, and bioinformatics, but the abstract does not clearly articulate broader implications beyond these fields. Technical soundness: Cannot be fully assessed from the abstract; the described methods are plausible but lack quantitative validation. Readability for nonspecialists: The abstract is generally clear but uses specialized terminology (e.g., t-SNE, CNN, protein language model embeddings) that may be challenging for readers outside computational biology.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially valuable resource, but the absence of quantitative results and methodological detail means the core claims cannot be verified. A revised version with full methods, statistical comparisons, and confirmed web server accessibility would be needed to support a positive recommendation.
+
+## Risk / unsupported claims
+- The claim that the data collection process "enables to capture a higher number of longer IDLs" is unsupported without a comparative baseline.
+- The claim that IDLs "can be distinguished from other disordered and folded protein regions" is unsupported without classifier performance metrics.
+- The claim that IDL features "highly overlap with DisProt Linkers" is unsupported without a defined and statistically tested comparison.
+- The claim that the dataset "expands currently available linker datasets" is plausible but not quantified in the abstract.
+- The availability and functionality of the web server cannot be verified from the abstract alone.

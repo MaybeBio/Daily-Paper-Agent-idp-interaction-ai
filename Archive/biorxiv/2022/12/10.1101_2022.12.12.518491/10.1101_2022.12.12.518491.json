@@ -1,0 +1,180 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.12.12.518491",
+  "title": "Proteome-wide structure-based accessibility analysis of ligandable and detectable cysteines in chemoproteomic datasets",
+  "doi": "10.1101/2022.12.12.518491",
+  "abstract": "Covalent drug discovery, in particular targeting reactive cysteines, has undergone a resurgence over the past two decades, demonstrated by recent clinical successes of covalent inhibitors for high-priority cancer targets. Reactive cysteine profiling, first pioneered by the Cravatt lab, has emerged in parallel as a powerful approach for proteome-wide on- and off-target profiling. Thus far however, structural analysis of liganded cysteines has been restricted to experimentally determined protein structures. We combined AlphaFold-predicted amino acid side chain accessibilities for >95% of the human proteome with a meta-analysis of thirteen public cysteine profiling datasets, totalling 40,070 unique cysteine residues, revealing accessibility biases in sampled cysteines primarily dictated by warhead chemistry. Analysis of >3.5 million cysteine-fragment interactions further suggests that exposed cysteine residues are preferentially targeted by elaborated fragments and drug-like compounds. We finally propose a framework for benchmarking coverage of ligandable cysteines in future cysteine profiling approaches, considering both selectivity for high-priority residues and quantitative depth. All analysis and produced resources (freely available at www.github.com/TateLab ) are readily extendable to reactive amino acids beyond cysteine, and related questions in chemical biology.",
+  "authors": [
+    "White MEH",
+    "Gil J",
+    "Tate EW"
+  ],
+  "published_date": "2022-12-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.12.12.518491",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.12.12.518491.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR584132",
+    "raw_record": {
+      "id": "PPR584132",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR584132"
+        ]
+      },
+      "doi": "10.1101/2022.12.12.518491",
+      "title": "Proteome-wide structure-based accessibility analysis of ligandable and detectable cysteines in chemoproteomic datasets",
+      "authorString": "White MEH, Gil J, Tate EW.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "White MEH",
+            "lastName": "White",
+            "firstName": "Matthew",
+            "initials": "MEH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Molecular Sciences Research Hub, Imperial College London, London W12 0BZ, United Kingdom"
+                },
+                {
+                  "affiliation": "MRC London Institute of Medical Sciences (LMS), London W12 0NN, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gil J",
+            "lastName": "Gil",
+            "firstName": "Jesús",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC London Institute of Medical Sciences (LMS), London W12 0NN, United Kingdom"
+                },
+                {
+                  "affiliation": "Institute of Clinical Sciences (ICS), Faculty of Medicine, Imperial College London, London W12 0NN, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tate EW",
+            "lastName": "Tate",
+            "firstName": "Edward",
+            "initials": "EW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2213-5814"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Molecular Sciences Research Hub, Imperial College London, London W12 0BZ, United Kingdom"
+                },
+                {
+                  "affiliation": "The Francis Crick Institute, London, NW1 1AT, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2213-5814"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Covalent drug discovery, in particular targeting reactive cysteines, has undergone a resurgence over the past two decades, demonstrated by recent clinical successes of covalent inhibitors for high-priority cancer targets. Reactive cysteine profiling, first pioneered by the Cravatt lab, has emerged in parallel as a powerful approach for proteome-wide on- and off-target profiling. Thus far however, structural analysis of liganded cysteines has been restricted to experimentally determined protein structures. We combined AlphaFold-predicted amino acid side chain accessibilities for >95% of the human proteome with a meta-analysis of thirteen public cysteine profiling datasets, totalling 40,070 unique cysteine residues, revealing accessibility biases in sampled cysteines primarily dictated by warhead chemistry. Analysis of >3.5 million cysteine-fragment interactions further suggests that exposed cysteine residues are preferentially targeted by elaborated fragments and drug-like compounds. We finally propose a framework for benchmarking coverage of ligandable cysteines in future cysteine profiling approaches, considering both selectivity for high-priority residues and quantitative depth. All analysis and produced resources (freely available at  www.github.com/TateLab ) are readily extendable to reactive amino acids beyond cysteine, and related questions in chemical biology.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/12/14/2022.12.12.518491.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.12.12.518491"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR584132"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR584132&type=FILE&fileName=EMS158901-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS158901",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-12-15",
+      "firstPublicationDate": "2022-12-14",
+      "firstIndexDate": "2022-12-15",
+      "fullTextReceivedDate": "2022-12-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

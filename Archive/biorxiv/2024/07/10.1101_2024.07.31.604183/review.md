@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary data were provided
+- **Shared manuscript claim summary** The authors propose that the N-terminal domain (NTD) of TDP-43 interacts with the tandem RNA recognition motifs (RRMs), that this interaction is detectable by NMR spectroscopy and computational modeling, and that it modulates RNA binding affinity or behavior.
+- **Visible evidence base** Abstract text only; no figures, tables, spectra, docking scores, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, all figures, experimental methods, NMR acquisition and analysis parameters, docking and prediction protocols, MST data, and any statistical or reproducibility assessments
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis regarding interdomain communication in TDP-43, with relevance to ALS pathophysiology. However, the evidence described is largely qualitative and the abstract does not provide sufficient quantitative detail to assess the robustness of the claims. The computational and experimental results are described in a manner that suggests correlation rather than demonstrated mechanism. The work may be of interest to the structural biology and neurodegeneration communities, but the current abstract does not establish the case for a functional NTD-RRM interaction that modulates RNA binding.
+- **Who would be interested in the results, and why** Structural biologists studying multidomain proteins and interdomain allostery; researchers in ALS and related neurodegenerative diseases who are interested in TDP-43 function and dysfunction; NMR spectroscopists applying relaxation dispersion methods to protein dynamics; computational biologists using docking and sequence-to-structure prediction for protein interaction modeling.
+- **Major strengths** The hypothesis is clearly stated and mechanistically motivated by prior work. The combination of experimental NMR approaches (HSQC, CPMG relaxation dispersion) with computational modeling (docking, de novo prediction) is appropriate for probing weak or transient interdomain interactions. The use of two constructs (RRM alone versus NTD-RRM) provides a direct comparative design. The inclusion of both NMR and MST for RNA binding assessment adds methodological breadth.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that CPMG relaxation dispersion NMR spectroscopy demonstrated evidence of an interaction between NTD 1-102 and RRMs 102-260.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that CPMG experiments demonstrated evidence of an interaction, but no quantitative data are presented. Relaxation dispersion can report on conformational exchange, but attributing observed dispersion to a specific intermolecular interaction between NTD and RRM requires careful controls, including concentration dependence, comparison of isolated domains, and exclusion of other exchange processes such as dimerization or local unfolding. The abstract does not describe any such controls or provide dispersion magnitudes, exchange rates, or populations.
+  - **Why it matters** Without quantitative and controlled CPMG data, the claim of a direct NTD-RRM interaction is not established. The observed effects could arise from intramolecular dynamics unrelated to interdomain contact, or from sample conditions.
+  - **Resolution test** Provide CPMG dispersion profiles for both constructs, show concentration independence, include control experiments with isolated NTD and RRM domains, and report fitted exchange parameters with uncertainties.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that significant changes in RNA binding between TDP-43 102-260 and TDP-43 1-260 were observed by HSQC and MST, suggesting the NTD plays a role in TDP-43 RNA interactions.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract reports significant changes in RNA binding but provides no binding affinities, dissociation constants, or quantitative comparisons. MST data are mentioned but no values, errors, or replicates are given. The HSQC titration results are described only as clustered shifts, which is qualitative. Without quantitative binding parameters, the claim that the NTD modulates RNA binding is not supported.
+  - **Why it matters** The central functional conclusion of the abstract rests on the demonstration that the NTD alters RNA binding. Qualitative shift descriptions and unreported MST values are insufficient to establish this point, especially given that the observed HSQC shifts could reflect conformational changes rather than affinity changes.
+  - **Resolution test** Report Kd values with errors for both constructs from MST, show HSQC titration curves with fitted binding isotherms, and provide statistical comparison between constructs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The authors modeled NTD-RRM interactions using protein-protein docking and de novo sequence-to-structure predictions that propose NTD stacking onto the RRM domains.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The computational models are presented as supporting the interaction hypothesis, but no validation is described. Docking and de novo predictions can produce plausible models that do not correspond to the actual solution state. The abstract does not indicate whether the models were tested against the NMR data, whether the predicted interfaces match the observed chemical shift perturbations, or whether the models are consistent with the CPMG results.
+  - **Why it matters** Computational predictions are only meaningful when validated against experimental data. Without such cross-validation, the models remain speculative and cannot be used as evidence for the proposed interaction.
+  - **Resolution test** Show that the predicted NTD-RRM interface residues correspond to the residues with the largest chemical shift perturbations and that the models are consistent with the CPMG-derived exchange parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Construct definitions
+  - **Evidence pointer** Abstract text
+  - **Issue** The construct boundaries are given as TDP-43 102-260 and TDP-43 1-260, but the domain definitions in the introduction list RRM1 as 102-177 and RRM2 as 191-260. The linker region between RRM1 and RRM2 (178-190) is not discussed, and it is unclear whether the RRM construct includes this linker.
+  - **Required correction** Clarify the exact residue ranges included in each construct and whether the linker between RRM1 and RRM2 is present in both constructs.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Prior work citation
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract references a previously identified chemical probe that led to allosteric alterations between RRM and NTD, but does not provide a citation or describe the nature of the probe.
+  - **Required correction** Provide the citation for the prior work and briefly describe the probe and the observed allosteric effects.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** HSQC shift interpretation
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that clustered shifts were observed in the RNA binding sites of both RRM domains when comparing the two constructs. It is not clear whether these shifts are large enough to be considered significant or whether they could arise from minor structural differences between constructs rather than a specific NTD-RRM interaction.
+  - **Required correction** Report the magnitude of the chemical shift perturbations and provide a threshold for significance, along with a discussion of possible alternative explanations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The hypothesis of NTD-RRM interdomain interaction in TDP-43 is not entirely novel, as the authors themselves cite prior work suggesting allosteric coupling, but the specific combination of CPMG and computational modeling may offer new insight. Scientific importance: The topic is relevant to ALS research and TDP-43 biology, but the abstract does not yet demonstrate a functional consequence that would elevate its importance. Interdisciplinary readership: The work bridges structural biology, biophysics, and neurodegeneration, which could appeal to a broad audience if the evidence is robust. Technical soundness: The methods are appropriate in principle, but the abstract provides insufficient quantitative detail to assess technical rigor. Readability for nonspecialists: The abstract is reasonably clear but relies on domain-specific terminology without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the experimental design is reasonable, but the abstract lacks the quantitative data and controls needed to support the central claims. The manuscript could become suitable for consideration if the full paper provides rigorous CPMG analysis, quantitative binding data, and model validation against experimental results.
+
+## Risk / unsupported claims
+- The claim of demonstrated NTD-RRM interaction by CPMG is unsupported without quantitative dispersion data and controls.
+- The claim of significant changes in RNA binding is unsupported without reported binding affinities or statistical comparisons.
+- The computational models proposing NTD stacking onto RRM domains are presented as evidence but are not validated against experimental data.
+- The statement that the NTD plays a role in TDP-43 RNA interactions is a functional conclusion that cannot be assessed from the abstract alone.

@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "41755733",
+    "doi": "10.1080/07391102.2026.2630328",
+    "title": "How do AI ensemble pipelines treat disorder? A head-to-head comparison on alpha-synuclein."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) play central roles in signalling, regulation, and disease, yet they remain a severe challenge for current artificial intelligence models of protein structure. Most methods were trained on ordered, single structure data and optimize objectives that implicitly favour compact, well-folded conformations. IDPs, by contrast, populate broad conformational ensembles and display heterogeneous, condition-dependent structures. We argue that IDPs provide a natural benchmark and development ground for the next generation of AI systems, including future artificial general intelligence (AGI) in biology. We summarize the basic biophysics of IDPs and survey existing AI approaches to protein structure and ensemble prediction. Because alpha-synuclein misfolding and aggregation are central to Parkinson's disease, we focus on alpha-synuclein, an IDP, as our primary system. We evaluate four ensemble generation pipelines, AlphaFlow, AlphaFlow-MD, AFflecto, and Ensemblify, using contact-probability maps, radii of gyration, and secondary-structure statistics. The analysis reveals systematic tendencies of structure prediction-inspired models to over stabilize compact, helical states, while ensemble aware approaches recover expanded, coil-rich conformations characteristic of disorder. We discuss how such case studies can be turned into quantitative benchmarks for AI models, and outline design principles for future systems that reason natively in terms of ensembles, dynamics, and experimental observables. Finally, we highlight open questions and opportunities at the interface of IDP biology, molecular simulation, and intelligent modelling.",
+    "keywords": [
+      "BioMatics",
+      "Intrinsically disordered proteins",
+      "artificial intelligence",
+      "ensemble generation",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*alpha-Synuclein/chemistry",
+      "*Artificial Intelligence",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Models, Molecular",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Protein Folding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Coskuner-Weber, Orkid",
+        "Akkum, Fatma Irem",
+        "Caglayan, Sule Irem",
+        "Akbayrak, Ibrahim Yagiz",
+        "Uversky, Vladimir N",
+        "Eyuboglu, Sinan"
+      ],
+      "short_names": [
+        "Coskuner-Weber O",
+        "Akkum FI",
+        "Caglayan SI",
+        "Akbayrak IY",
+        "Uversky VN",
+        "Eyuboglu S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4037-5857"
+      ],
+      "affiliations": [
+        "Molecular Biotechnology, Turkish-German University, Beykoz, Istanbul, Turkiye.",
+        "Molecular Biotechnology, Turkish-German University, Beykoz, Istanbul, Turkiye.",
+        "Department of Biology, University of Erlangen-Nuremberg, Erlangen, Germany.",
+        "Department of Computer Science, University of Erlangen-Nuremberg, Erlangen, Germany.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, USA.",
+        "Department of Computer Engineering, Gebze Technical University, Cumhuriyet, Kocaeli, Turkiye."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Coskuner-Weber, Orkid",
+        "short_name": "Coskuner-Weber O",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biotechnology, Turkish-German University, Beykoz, Istanbul, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Akkum, Fatma Irem",
+        "short_name": "Akkum FI",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biotechnology, Turkish-German University, Beykoz, Istanbul, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Caglayan, Sule Irem",
+        "short_name": "Caglayan SI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of Erlangen-Nuremberg, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Akbayrak, Ibrahim Yagiz",
+        "short_name": "Akbayrak IY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, University of Erlangen-Nuremberg, Erlangen, Germany."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [
+          "0000-0002-4037-5857"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, USA."
+        ]
+      },
+      {
+        "full_name": "Eyuboglu, Sinan",
+        "short_name": "Eyuboglu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Engineering, Gebze Technical University, Cumhuriyet, Kocaeli, Türkiye."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2026 Aug",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/27 06:31",
+    "fetched_at": "2026-09-18 01:08:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41755733",
+      "29364151",
+      "30933517",
+      "41022992",
+      "32623047",
+      "20580965",
+      "33581430",
+      "38996889",
+      "30840442",
+      "31809054",
+      "40532196",
+      "41082321",
+      "35543707",
+      "35129612",
+      "25331250",
+      "30865832",
+      "39499823",
+      "31903719",
+      "42710762",
+      "40095314",
+      "29621630",
+      "23723000",
+      "37108059",
+      "23912807",
+      "32323533",
+      "41053403",
+      "22947936",
+      "30184304",
+      "42014948",
+      "27159632",
+      "42140310",
+      "36084124",
+      "37338049",
+      "23754493",
+      "40960922",
+      "35950933",
+      "34656328",
+      "34845619",
+      "30771181",
+      "41385825",
+      "31548393",
+      "40147456",
+      "24361273",
+      "35725761",
+      "42670842",
+      "39046235",
+      "42475469",
+      "30216674",
+      "23821606",
+      "40074747",
+      "32816485",
+      "27844185",
+      "41644540",
+      "30002265",
+      "34032235",
+      "32357776",
+      "19538146",
+      "36533639",
+      "32859072",
+      "40264953",
+      "38018910",
+      "25139280",
+      "38987470",
+      "18282005",
+      "31552948",
+      "30875980",
+      "40172236",
+      "34680048",
+      "35976160",
+      "24551051",
+      "26453218",
+      "40853068",
+      "39693390",
+      "31297688",
+      "26967199",
+      "36934808",
+      "30917651",
+      "29733855",
+      "25816771",
+      "25919886",
+      "38124369",
+      "34504009",
+      "31441158",
+      "30917118",
+      "39093570",
+      "41432303",
+      "36674958",
+      "25345588",
+      "26387099",
+      "34358545",
+      "24410358",
+      "33355572",
+      "31613621",
+      "28612216",
+      "30979035",
+      "21426127",
+      "32304757",
+      "22506277",
+      "40133775",
+      "29642031"
+    ],
+    "review": [
+      "41755733",
+      "29364151",
+      "41022992",
+      "30840442",
+      "35129612",
+      "42014948",
+      "41385825",
+      "30216674",
+      "19538146",
+      "40264953",
+      "25139280",
+      "30875980",
+      "34680048",
+      "35976160",
+      "38124369",
+      "31441158",
+      "39093570",
+      "26387099",
+      "34358545",
+      "33355572",
+      "28612216",
+      "30979035",
+      "21426127"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2026.2630328?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

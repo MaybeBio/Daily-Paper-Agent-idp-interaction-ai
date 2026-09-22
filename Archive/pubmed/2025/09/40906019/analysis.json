@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40906019",
+  "title": "O-GlcNAcylation of CEP44 Promotes Its Droplet Formation and Regulates Its Localization.",
+  "authors": "Hu, Mingzheng; Zhao, Zihe; Wang, Jinqiong; Shan, Ying; Liu, Ruming; Bu, Weiwen; Li, Dengwen; Li, Te",
+  "journal": "Cytoskeleton (Hoboken, N.J.)",
+  "published_date": "2025-09-04",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究CEP44蛋白的IDR驱动液-液相分离及O-GlcNAc修饰对液滴融合和定位的调控，涉及无序蛋白与相分离机制，但未深入PPI结合机制，且方法以实验为主、预测为辅，缺乏AI或物理模拟建模。",
+  "abstract": "The centrosomal protein of 44 kDa (CEP44) is essential for centriole duplication, centrosome cohesion, and spindle integrity. It localizes to the proximal end of centrioles and associates with spindle microtubules. Liquid-liquid phase separation (LLPS) is a process by which biomolecules undergo demixing into distinct liquid-like phases, facilitating the formation of cellular condensates such as the centrosome. However, whether CEP44 possesses LLPS properties remains unclear. In this study, we identified intrinsically disordered regions (IDRs) within CEP44, and droplet formation assays confirmed its capacity to form liquid droplets in vivo and in vitro. Immunoblotting detected O-GlcNAcylation of CEP44, indicating its interaction with O-GlcNAc transferase (OGT). Subsequent immunostaining demonstrated that O-GlcNAcylation promotes CEP44 droplet fusion. Post-translational modification prediction analysis suggested a potential interplay between O-GlcNAcylation and phosphorylation that may modulate the structural dynamics of CEP44. Overall, our findings reveal the LLPS capability of CEP44 and underscore the critical role of O-GlcNAcylation in regulating CEP44 droplet fusion and potentially influencing its subcellular localization.",
+  "abstract_zh": "44 kDa的 centrosomal 蛋白（CEP44）对于中心粒复制、中心体黏附以及纺锤体完整性至关重要。它定位于中心粒的近端，并与纺锤体微管相关联。液-液相分离（liquid-liquid phase separation, LLPS）是生物分子去混合形成不同液态相的过程，促进如中心体等细胞凝聚体的形成。然而，CEP44是否具备LLPS特性仍不清楚。在本研究中，我们鉴定了CEP44内的内在无序区域（intrinsically disordered regions, IDRs），并通过液滴形成实验确认了其在体内和体外形成液滴的能力。免疫印迹检测到CEP44的O-GlcNAc糖基化，表明其与O-GlcNAc转移酶（O-GlcNAc transferase, OGT）相互作用。随后的免疫染色显示，O-GlcNAc糖基化促进CEP44液滴融合。翻译后修饰预测分析提示，O-GlcNAc糖基化与磷酸化之间可能存在相互作用，这可能调节CEP44的结构动态。总体而言，我们的发现揭示了CEP44的LLPS能力，并强调了O-GlcNAc糖基化在调控CEP44液滴融合及其可能影响其亚细胞定位中的关键作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40906019/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40906019/",
+  "paper_page_path": "papers/pubmed/40906019/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34591015",
+  "title": "Principles of mRNA targeting via the Arabidopsis m(6)A-binding protein ECT2.",
+  "authors": "Arribas-Hernandez, Laura; Rennie, Sarah; Koster, Tino; Porcelli, Carlotta; Lewinski, Martin; Staiger, Dorothee; Andersson, Robin; Brodersen, Peter",
+  "journal": "eLife",
+  "published_date": "2021-10-01",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究拟南芥m6A结合蛋白ECT2通过其无序区域(IDR)与mRNA靶标的结合特异性，涉及IDR介导的RNA-蛋白互作机制，但对象为RNA而非蛋白-蛋白互作(PPI)，且方法以实验(iCLIP/HyperTRIBE)为主，缺乏AI或物理模拟建模，故综合评分为5。",
+  "abstract": "Specific recognition of N6-methyladenosine (m(6)A) in mRNA by RNA-binding proteins containing a YT521-B homology (YTH) domain is important in eukaryotic gene regulation. The Arabidopsis YTH domain protein ECT2 is thought to bind to mRNA at URU(m(6)A)Y sites, yet RR(m(6)A)CH is the canonical m(6)A consensus site in all eukaryotes and ECT2 functions require m(6)A-binding activity. Here, we apply iCLIP (individual nucleotide resolution crosslinking and immunoprecipitation) and HyperTRIBE (targets of RNA-binding proteins identified by editing) to define high-quality target sets of ECT2 and analyze the patterns of enriched sequence motifs around ECT2 crosslink sites. Our analyses show that ECT2 does in fact bind to RR(m(6)A)CH. Pyrimidine-rich motifs are enriched around, but not at m(6)A sites, reflecting a preference for N6-adenosine methylation of RRACH/GGAU islands in pyrimidine-rich regions. Such motifs, particularly oligo-U and UNUNU upstream of m(6)A sites, are also implicated in ECT2 binding via its intrinsically disordered region (IDR). Finally, URUAY-type motifs are enriched at ECT2 crosslink sites, but their distinct properties suggest function as sites of competition between binding of ECT2 and as yet unidentified RNA-binding proteins. Our study provides coherence between genetic and molecular studies of m(6)A-YTH function in plants and reveals new insight into the mode of RNA recognition by YTH domain-containing proteins.",
+  "abstract_zh": "含有YT521-B同源（YTH）结构域的RNA结合蛋白对mRNA中N6-甲基腺苷（m(6)A）的特异性识别在真核基因调控中至关重要。拟南芥YTH结构域蛋白ECT2被认为在URU(m(6)A)Y位点结合mRNA，然而RR(m(6)A)CH是所有真核生物中典型的m(6)A共识序列，且ECT2功能需要m(6)A结合活性。在此，我们应用iCLIP（单核苷酸分辨率交联和免疫沉淀）和HyperTRIBE（通过编辑鉴定RNA结合蛋白靶标）来定义ECT2的高质量靶标集，并分析ECT2交联位点周围富集序列基序的模式。我们的分析表明，ECT2确实结合RR(m(6)A)CH。富含嘧啶的基序在m(6)A位点周围富集，但不在位点处富集，反映了在富含嘧啶区域中RRACH/GGAU岛对N6-腺苷甲基化的偏好。此类基序，特别是m(6)A位点上游的寡聚U和UNUNU，也涉及其内在无序区（IDR）介导的ECT2结合。最后，URUAY型基序在ECT2交联位点富集，但其独特性质表明它们可能作为ECT2与尚未识别的RNA结合蛋白之间竞争结合的位点。我们的研究为植物中m(6)A-YTH功能的遗传学和分子学研究提供了连贯性，并揭示了含YTH结构域蛋白识别RNA模式的新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34591015/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34591015/",
+  "paper_page_path": "papers/pubmed/34591015/index.html"
+}

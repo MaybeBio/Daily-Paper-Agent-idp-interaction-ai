@@ -1,0 +1,5 @@
+# Coronaviruses spike glycoprotein endodomains: The sequence and structure‐based comprehensive study
+
+
+## Abstract
+  Any protein's flexibility or region makes it available to interact with many biomolecules in the cell. Specifically, such interactions in viruses help them to perform more functions despite having a smaller genome. Therefore, these flexible regions can be exciting and essential targets to be explored for their role in pathogenicity and therapeutic developments as they achieve essential interactions. In the continuation with our previous study on disordered analysis of SARS‐CoV‐2 spike protein's cytoplasmic tail (CTR), or endodomain, here we have explored the endodomain's disordered potential of six other coronaviruses using multiple bioinformatics approaches and molecular dynamics simulations. Based on the comprehensive analysis of its sequence and structural composition, we report the varying disorder propensity in endodomains of spike proteins of coronaviruses. The observations of this study may help to understand the importance of spike glycoprotein endodomain and creating therapeutic interventions against them.

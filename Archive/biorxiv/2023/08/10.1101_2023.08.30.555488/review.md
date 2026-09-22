@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv 2023.08.30.555488)
+- **Assessment boundary** Scientific content, methodology, claims, and evidence as presented in the provided text. No external data or supplementary files were accessed beyond what is described in the manuscript.
+- **Shared manuscript claim summary** The authors propose a molecular mechanism for the differential sensitivity of enteroviruses (CVA9, CVB5, E11) to serine proteases (Subtilisin A, BPT), involving initial recruitment of proteases to specific intrinsically disordered protein (IDP) segments on the viral capsid, followed by structural adaptation and cleavage at specific residues, with CVA9 uniquely susceptible due to a protective "sensor" response.
+- **Visible evidence base** Experimental infectivity assays (Fig. 1), flow cytometry (Extended Data Fig. 2), AlphaFold2-Multimer structural predictions (Figs. 2-4), SDS-PAGE (Fig. 5a-b), mass spectrometry cleavage site identification (Fig. 5e), molecular docking (Fig. 5f, Extended Data Figs. 9-10), in silico mutagenesis (Fig. 5h).
+- **Missing materials affecting confidence** Figures and Extended Data figures are referenced but not provided in the text. Supplementary videos (SI Video 1, 2) are not accessible. Statistical details for some comparisons are incomplete. Raw mass spectrometry data and docking scores are not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and under-explored question: the structural basis for differential susceptibility of enteroviruses to environmental serine proteases. The combination of experimental virology with state-of-the-art structural prediction (AlphaFold2-Multimer) is timely and potentially impactful. However, the central mechanistic claims rest heavily on computational predictions that are not experimentally validated, and the link between predicted "sensor" dynamics and actual viral inactivation remains correlative. The manuscript would benefit from clearer presentation of the computational methods and a more cautious interpretation of predictive results as evidence for biological mechanism.
+- **Who would be interested in the results, and why** Researchers in environmental virology, water safety, and virus inactivation will find the differential susceptibility data relevant. Structural biologists and computational biologists interested in protein-protein interactions and IDP function may find the AF2-M application of interest. The broader field of antiviral disinfection and protease-based control strategies would also be a target audience.
+- **Major strengths** 1) Addresses a relevant and timely question in environmental virology. 2) Integrates experimental infectivity data with modern structural prediction tools. 3) Uses multiple enterovirus types and two proteases to establish specificity. 4) The concept of a "sensor" residue and protective IDP dynamics is novel and thought-provoking. 5) The methodological framework combining AF2-M, docking, and mutagenesis is potentially transferable to other virus-protease systems.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** "a functional binding protease/capsid depends on both the strength and the evolution over time of protease-VP1 complexes, and lastly on the local adaptation of proteases on surrounding viral regions" and the three-step mechanism (precognition, recognition, adaptation)
+  - **Evidence pointer** Figs. 2-4, Extended Data Figs. 5-8, Methods "Multimeric protein folding"
+  - **Concern** The central mechanistic model is derived entirely from AlphaFold2-Multimer predictions. While AF2-M is a powerful tool, it is not designed to predict dynamic binding kinetics, temporal evolution of interactions, or the effect of "recycles" as a proxy for time. The interpretation of recycling steps as "timelapse" is not established in the literature and requires validation. No experimental evidence (e.g., mutagenesis of predicted key residues followed by infectivity assays, biophysical binding measurements) is provided to confirm that the predicted interfaces and dynamics are biologically relevant.
+  - **Why it matters** The manuscript's primary claim is a mechanistic model of protease-capsid interaction. If the computational predictions do not reflect real binding behavior, the entire model collapses. The distinction between "binding" and "inactivation" is also conflated; the authors show that BPT binds to DE loops but does not inactivate, yet the model does not fully explain what makes Subtilisin A's interaction different beyond the presence of a cleavage site.
+  - **Resolution test** Provide experimental validation of at least one predicted key interaction, e.g., by site-directed mutagenesis of Q135 or T283 in CVA9 followed by infectivity assays with Subtilisin A, or by biophysical binding studies (e.g., SPR, MST) with wild-type and mutant capsids or IDP peptides.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "we identified three residues on CVA9 capsid that trigger cleavage by Subtilisin A, one of which acts as a sensor residue contributing to enzyme recognition on the DE loop"
+  - **Evidence pointer** Fig. 5e-f, Extended Data Figs. 9-10, Methods "Docking refinement"
+  - **Concern** The identification of cleavage sites relies on mass spectrometry of denatured VP1 digested with Subtilisin A, followed by docking of the identified sites. However, the manuscript does not clarify whether the identified cleavage sites (T132, L133, A134, Q135, T282, T283) were confirmed to be cleaved in the context of the intact capsid, or only in denatured form. The authors acknowledge that some sites (L133, A134) are "not structurally accessible on the native form," which raises questions about the relevance of the mass spectrometry data. Furthermore, the docking analysis uses AF2-M predicted structures as input, which may not accurately represent the native capsid conformation, especially for flexible IDP regions.
+  - **Why it matters** The claim that specific residues "trigger cleavage" and that one acts as a "sensor" is a strong mechanistic statement. If the cleavage sites are only accessible in denatured protein, they cannot be the initial targets for capsid degradation. The distinction between in vitro cleavage of denatured protein and in situ cleavage on the intact capsid is critical for the model.
+  - **Resolution test** Perform cleavage assays on intact CVA9 virions (not denatured) and identify cleavage products by mass spectrometry. Alternatively, use cryo-EM or cross-linking mass spectrometry to confirm that the predicted sites are accessible on the native capsid.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "Predictive mutants" and in silico substitutions (Fig. 5g-h, Extended Data Fig. 10d-f)
+  - **Evidence pointer** Methods "Predictive viral mutants"
+  - **Concern** The in silico mutagenesis experiments are described only briefly. It is unclear how the "phenotypic effect" of each mutation was scored or quantified. The authors state that mutations "led to the identification of two different responses" and that one mutation "led to the complete loss of prediction of the DE loop as an interface," but no quantitative metrics (e.g., interface scores, binding energies, confidence values) are provided. The criteria for "loss of prediction" or "partial loss" are not defined.
+  - **Why it matters** Without clear quantitative criteria, the results of the mutagenesis analysis are not reproducible or verifiable. The claim that Q135 is "crucial" for recognition is based on a binary outcome (interface predicted or not) that may be sensitive to AF2-M's stochasticity or threshold settings.
+  - **Resolution test** Provide quantitative metrics for each mutant (e.g., interface TM-score, predicted binding affinity, number of interatomic contacts) and define a priori thresholds for "loss" or "reduction" of interaction. Include confidence intervals or replicate predictions to account for AF2-M variability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Results section "Virus type-specific sensitivity to serine proteases"
+  - **Evidence pointer** Fig. 1a-b
+  - **Issue** The abstract states that BPT "only reduced CVA9 infectivity in a host-dependent manner," but the Results section does not clearly explain what "host-dependent" means in this context. The distinction between host-dependent and host-independent inactivation is central to the paper's logic but is not defined explicitly.
+  - **Required correction** Define "host-dependent" and "host-independent" inactivation in the Results or Methods, and clarify how the experimental design distinguishes between these two modes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods "Mass spectrometry analyses"
+  - **Evidence pointer** Methods section
+  - **Issue** The mass spectrometry method description is incomplete. The type of mass spectrometer is mentioned, but key parameters such as LC gradient details, ionization mode, data analysis software settings, and the criteria for peptide identification (beyond FDR) are not provided. The digestion protocol for Subtilisin A (enzyme-to-substrate ratio, time, temperature) is also not specified.
+  - **Required correction** Provide a complete description of the mass spectrometry acquisition and data analysis parameters, as well as the Subtilisin A digestion conditions, to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Fig. 1e-g, Extended Data Fig. 2
+  - **Evidence pointer** Figure legends (not fully visible in text)
+  - **Issue** The statistical tests used are mentioned in the Methods, but the results are not consistently reported with effect sizes, confidence intervals, or exact p-values. For example, the p-value for the comparison of CVA9 titers on BGMG vs. RD cells is given, but the corresponding t-statistic and degrees of freedom are not.
+  - **Required correction** Report full statistical details for all comparisons, including test statistics, degrees of freedom, and exact p-values, in the figure legends or Results text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability section
+  - **Issue** The data availability statement only mentions SI videos on Zenodo. It does not state where the mass spectrometry raw data, AF2-M prediction files, or docking output files can be accessed. Given the central role of computational predictions, these data should be made available.
+  - **Required correction** Deposit all raw and processed data (mass spectrometry, structural models, docking results) in a public repository and provide accession numbers.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of experimental validation of computational predictions), R1-M2 (unclear relevance of cleavage sites identified on denatured protein to native capsid), R1-M3 (non-quantitative mutagenesis analysis).
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate to high. The application of AF2-M to study protease-capsid interactions in enteroviruses is novel, and the concept of a "sensor" residue is creative. However, the underlying idea that IDPs are protease targets is not new.
+  - **Scientific importance** Moderate. The question of why some enteroviruses are more resistant to proteases is relevant for water safety and disinfection, but the direct applied impact is not demonstrated. The mechanistic insights are primarily computational and would need experimental confirmation to be broadly impactful.
+  - **Interdisciplinary readership** Moderate. The work bridges virology, structural biology, and computational biology, which could attract readers from these fields. However, the heavy reliance on computational predictions without experimental validation may limit appeal to experimentally oriented readers.
+  - **Technical soundness** The experimental virology appears sound, but the computational methods are used in a way that extends beyond their validated capabilities (e.g., using recycles as a "timelapse"). The mass spectrometry identification of cleavage sites is not clearly linked to native capsid context.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but the Results section is dense and assumes familiarity with structural prediction tools and IDP concepts. The abstract is accessible, but the mechanistic model would be difficult for a nonspecialist to follow without figures.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an interesting question with a creative approach, but the central mechanistic claims require experimental validation and clearer quantitative reporting before the case is established.
+
+## Risk / unsupported claims
+- The three-step mechanism (precognition, recognition, adaptation) is presented as a "predictive molecular mechanism" but is not experimentally validated; it should be framed as a hypothesis.
+- The claim that Q135 acts as a "sensor residue" is based solely on in silico mutagenesis without quantitative criteria or experimental confirmation.
+- The statement that "the absence of a stable interface between Subtilisin A and the DE loops of CVB5 and E11 explains the proteolytic resistance of both viruses" is an inference from computational predictions, not demonstrated experimentally.
+- The claim that BPT binding to DE loops represents a "non-functional" interaction or "trapping" is speculative and not supported by direct binding or kinetic measurements.
+- The use of AF2-M "recycles" as a proxy for time ("timelapse simulator") is not validated and should be explicitly acknowledged as an analogy, not a proven method.

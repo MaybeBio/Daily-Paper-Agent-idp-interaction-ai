@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.30.715404",
+  "title": "Atomistic simulations reveal sub- µ s contact dynamics in MUT-16 condensates",
+  "authors": "Gaurav K; Baltz L; Páez-Moscoso DJ; Ketting RF; Stelzl LS",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-01",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用10微秒原子级MD模拟解析MUT-16无序区凝聚体中亚微秒接触动力学，量化氢键、阳离子-π、盐桥等互作类型及水/离子调控，并关联UCST相行为，是IDR凝聚体PPI机制建模的典范。",
+  "abstract": "Phase separation of proteins gives rise to biomolecular condensates, which function as membraneless organelles that spatially and temporally organize cellular functions. Such condensates are often formed by intrinsically disordered regions of proteins (IDRs), whose multivalent and transient interactions govern condensate structure and dynamics. However, elucidating the molecular determinants of these interactions at atomistic resolution remains challenging. Here, we present a total of 10 µ s of atomistic molecular dynamics simulations of a phase-separated condensate formed by the foci-forming region (FFR) of MUT-16. MUT-16 serves as a scaffold of the Mutator foci germ granules in Caenorhabditis elegans and is essential for transposon silencing. MUT-16 FFR is enriched in polar uncharged (Gln, Asn), charged, aromatic, and Pro residues, raising the question of how these amino acids interact within condensates. We find that most contacts are short lived, typically breaking within a few nanoseconds (ns), with a median life time of 9.8 ns. A smaller fraction persist for much longer timescales ( > 100 ns). We characterized the relative contributions of different amino acids and specific interaction types, including hydrogen bonding, cation– π interactions, π – π stacking, and salt bridges and theirs dynamics. We further examined the roles of water and ions in modulating condensate interactions, including ion-mediated bridging between similarly charged residues. Our results reveal that salt bridges, cation- π interactions, Na + ions, and water in the condensate are key determinants of contact dynamics in MUT-16 FFR condensates. In parallel, we show that these condensates exhibit upper-critical solution temperature (UCST) phase behavior in vitro , providing a coherent framework to explain both the loss of Mutator foci at elevated temperatures in vivo and the scaffolding role of MUT-16 at lower temperatures.",
+  "abstract_zh": "蛋白质的相分离（phase separation）产生生物分子凝聚体（biomolecular condensates），这些凝聚体作为无膜细胞器（membraneless organelles），在空间和时间上组织细胞功能。此类凝聚体通常由蛋白质的内在无序区域（intrinsically disordered regions, IDRs）形成，其多价且瞬时的相互作用控制着凝聚体的结构和动态。然而，在原子分辨率下阐明这些相互作用的分子决定因素仍然具有挑战性。在此，我们展示了由MUT-16的焦点形成区域（foci-forming region, FFR）形成的相分离凝聚体的总计10微秒（µs）的原子级分子动力学（molecular dynamics）模拟。MUT-16在秀丽隐杆线虫（Caenorhabditis elegans）中作为Mutator焦点生殖颗粒的支架，并对转座子沉默至关重要。MUT-16 FFR富含极性不带电（谷氨酰胺Gln、天冬酰胺Asn）、带电、芳香族和脯氨酸（Pro）残基，这引发了关于这些氨基酸在凝聚体内如何相互作用的问题。我们发现大多数接触是短寿命的，通常在几纳秒（ns）内断裂，中位寿命为9.8 ns。较小比例的接触持续更长时间尺度（>100 ns）。我们表征了不同氨基酸和特定相互作用类型（包括氢键、阳离子–π相互作用、π–π堆积和盐桥）及其动态的相对贡献。我们进一步研究了水和离子在调节凝聚体相互作用中的作用，包括离子介导的相似电荷残基之间的桥接。我们的结果表明，凝聚体中的盐桥、阳离子–π相互作用、Na+离子和水是MUT-16 FFR凝聚体中接触动态的关键决定因素。同时，我们展示了这些凝聚体在体外表现出上临界溶液温度（upper-critical solution temperature, UCST）相行为，这为解释体内高温下Mutator焦点的丧失以及低温下MUT-16的支架作用提供了一个连贯的框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.30.715404",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.30.715404",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.30.715404/index.html"
+}

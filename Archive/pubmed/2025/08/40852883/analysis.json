@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40852883",
+  "title": "Second-order allosteric control as a mechanism for compensatory mutations in B-cell translocation gene 2.",
+  "authors": "Ose, Nicholas J; Campitelli, Paul; Modi, Tushar; Ozkan, S Banu",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2025-08-28",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合分子动力学模拟与时间依赖线性响应理论，研究BTG2无序C端尾部对结合位点的长程别构调控及补偿突变机制，直接聚焦IDR介导的PPI机制建模，方法新颖且可迁移。",
+  "abstract": "The mechanism underlying the pathogenic impact of mutations within intrinsically disordered regions of proteins remains enigmatic, and the mechanisms behind compensatory responses to these perturbations lie within an even deeper veil of obscurity. This study focuses on the compensatory mechanisms of single nucleotide variants within the disordered C-terminal tail of the BTG2 protein, a crucial regulator in cell cycle control. Here, we develop a novel approach by combining molecular dynamics simulations with time-dependent linear response theory to accurately compute the long-distance coupling dynamics between the tail and the structured domain. Using this approach, we reveal how specific mutations can counteract the functional disruptions caused by a known disease-associated mutation, V141M. Our findings demonstrate that the disordered tail regulates critical binding sites allosterically, and a weakening of this modulation may contribute to disease manifestation. However, compensatory mutations restore lost interactions between the disordered region and binding sites, exerting long-distance dynamic control over both critical binding sites and the mutation site 141M. This secondhand allosteric control could be a general mechanism for compensatory mutations to rescue function. These insights not only illuminate the pathogenic mechanisms at play but also offer a framework for identifying potential therapeutic targets in diseases associated with disordered protein regions.",
+  "abstract_zh": "蛋白质内在无序区域内突变致病的机制仍是一个谜，而针对这些扰动产生的补偿性反应机制则笼罩在更深的迷雾之中。本研究聚焦于BTG2蛋白（细胞周期控制中的关键调控因子）无序C末端尾部单核苷酸变体的补偿机制。我们开发了一种新方法，将分子动力学 (molecular dynamics) 模拟与时间依赖线性响应理论相结合，以精确计算尾部与结构域之间的长距离耦合动力学。利用该方法，我们揭示了特定突变如何抵消已知疾病相关突变V141M引起的功能破坏。我们的发现表明，无序尾部通过变构方式调控关键结合位点，而这种调控的减弱可能促进疾病表现。然而，补偿性突变恢复了无序区域与结合位点之间丢失的相互作用，对关键结合位点和突变位点141M施加长距离动态控制。这种间接变构控制可能是补偿性突变恢复功能的普遍机制。这些见解不仅阐明了致病机制，还为识别与无序蛋白区域相关疾病中的潜在治疗靶点提供了框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40852883/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40852883/",
+  "paper_page_path": "papers/pubmed/40852883/index.html"
+}

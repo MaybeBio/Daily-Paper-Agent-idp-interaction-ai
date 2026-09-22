@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.02.11.480029",
+  "title": "Omicron (BA.1) and Sub-Variants (BA.1, BA.2 and BA.3) of SARS-CoV-2 Spike Infectivity and Pathogenicity: A Comparative Sequence and Structural-based Computational Assessment",
+  "authors": "Kumar S; Karuppanan K; Subramaniam G",
+  "journal": "bioRxiv",
+  "published_date": "2022-02-11",
+  "window": {
+    "start": "2022-02-07",
+    "end": "2022-02-13"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用计算工具评估SARS-CoV-2 Omicron刺突蛋白变异株与hACE2的结合亲和力及致病性，虽涉及蛋白-蛋白互作和结构计算，但对象为病毒刺突蛋白而非无序蛋白/IDR，且无相分离或AI/物理模拟方法贡献，仅对互作机制有间接启发。",
+  "abstract": "<h4>ABSTRACT</h4> The Omicron variant of the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has now spread throughout the world. We used computational tools to assess the spike infectivity, transmission, and pathogenicity of Omicron (BA.1) and sub-variants (BA.1.1, BA.2, and BA.3) in this study. BA.1 has 39 mutations, BA.1.1 has 40 mutations, BA.2 has 31 mutations, and BA.3 has 34 mutations, with 21 shared mutations between all. We observed 11 common mutations in Omicron’s receptor-binding domain and sub-variants. In pathogenicity analysis, the Y505H, N786K, T95I, N211I, N856K, and V213R mutations in omicron and sub-variants are predicted to be deleterious. Due to the major effect of the mutations characterising, in the receptor-binding domain (RBD), we found that Omicron and sub-variants had a higher positive electrostatic surface potential. This could increase interaction between RBD and electronegative human angiotensin-converting enzyme 2 (hACE2). Omicron and sub-variants had a higher affinity for hACE2 and the potential for increased transmission when compared to the wild type. Among Omicron sub-lineages, BA.2 and BA.3 have a higher transmission potential than BA.1 and BA.1.1. We predicted that mutated residues in BA.1.1 (K478), BA.2 (R400, R490, R495), and BA.3 (R397 and H499) formation of new salt bridges and hydrogen bonds. Omicron and sub-variant mutations at Receptor-binding Motif (RBM) residues such as Q493R, N501Y, Q498, T478K, and Y505H all contribute significantly to binding affinity with human ACE2. Interactions with Omicron variant mutations at residues 493, 496, 498, and 501 seem to restore ACE2 binding effectiveness lost due to other mutations like K417N and Y505H.",
+  "abstract_zh": "<h4>摘要</h4> 严重急性呼吸综合征冠状病毒2型（SARS-CoV-2）的Omicron变异株现已传播至全球。本研究利用计算工具评估了Omicron（BA.1）及其亚变异株（BA.1.1、BA.2和BA.3）的刺突蛋白感染性、传播性和致病性。BA.1有39个突变，BA.1.1有40个突变，BA.2有31个突变，BA.3有34个突变，其中共有21个共享突变。我们在Omicron的受体结合域及其亚变异株中观察到11个常见突变。在致病性分析中，Omicron及其亚变异株中的Y505H、N786K、T95I、N211I、N856K和V213R突变被预测为有害突变。由于受体结合域（RBD）中特征性突变的主要影响，我们发现Omicron及其亚变异株具有更高的正静电表面电位。这可能增强RBD与带负电的人血管紧张素转换酶2（hACE2）之间的相互作用。与野生型相比，Omicron及其亚变异株对hACE2具有更高的亲和力，并具有更高的传播潜力。在Omicron亚谱系中，BA.2和BA.3的传播潜力高于BA.1和BA.1.1。我们预测BA.1.1（K478）、BA.2（R400、R490、R495）和BA.3（R397和H499）中的突变残基形成了新的盐桥和氢键。Omicron及其亚变异株在受体结合基序（RBM）残基上的突变，如Q493R、N501Y、Q498、T478K和Y505H，均显著促进与人ACE2的结合亲和力。与Omicron变异株在残基493、496、498和501处的突变相互作用似乎恢复了因其他突变（如K417N和Y505H）而丧失的ACE2结合效力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.02.11.480029",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.02.11.480029",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.02.11.480029/index.html"
+}

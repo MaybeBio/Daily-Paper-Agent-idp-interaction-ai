@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.18.629275",
+  "title": "Probabilistic Annotations of Protein Sequences for Intrinsically Disordered Features",
+  "authors": "Nawar Malhis",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-21",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出IPA平台，用概率化注释预测IDR结合位点（含蛋白结合位点），虽涉及IDR和PPI预测，但方法为传统机器学习而非AI/物理模拟，且未深入互作机制建模，故评6分。",
+  "abstract": "This paper introduces a novel platform for IDR Probabilistic Annotation (IPA). The IPA platform now encompasses tools for predicting ‘Linker’ regions and ‘nucleic’, ‘protein’, and ‘all’ (protein or nucleic) IDR binding sites within protein amino acid sequences. Despite its simplicity and computational efficiency, results demonstrate that IPA performs competitively with leading tools in predicting ‘protein’ and ‘all’ IDR binding sites while considerably outperforming all tools in identifying Linker regions and nucleic binding sites. An important contribution of this work is the introduction of a new output paradigm for computational feature predictions. Traditional tools typically express predictions as scores, with higher values indicating greater probabilities. However, these scores lack true probabilistic meaning and interpretability, even derived from logistic regression models. This limitation arises primarily because training data priors differ from broader populations’ unknown priors. This paper proposes applying a reverse Bayes Rule to logistic regression outputs, effectively normalizing for the priors in the training data. This adjustment produces scores representing actual probabilities, assuming 50% priors in the general population. Such scores are interpretable in isolation and enable comparability and integration across different tools, marking a significant step toward standardization in feature prediction methodologies. Availability orca.msl.ubc.ca/nmshare/ipa.tar.gz",
+  "abstract_zh": "本文介绍了一个用于IDR概率注释（IPA）的新型平台。IPA平台现包含预测蛋白质氨基酸序列中‘连接子’区域以及‘核酸’、‘蛋白质’和‘全部’（蛋白质或核酸）IDR结合位点的工具。尽管其简单且计算高效，结果表明IPA在预测‘蛋白质’和‘全部’IDR结合位点方面与领先工具表现相当，而在识别连接子区域和核酸结合位点方面则显著优于所有工具。本工作的一项重要贡献是引入了计算特征预测的新输出范式。传统工具通常将预测表示为分数，数值越高表示概率越大。然而，这些分数缺乏真正的概率意义和可解释性，即使源自逻辑回归模型也是如此。这一局限性主要源于训练数据先验与更广泛人群的未知先验不同。本文提出将反向贝叶斯规则应用于逻辑回归输出，有效归一化训练数据中的先验。此调整产生的分数代表实际概率，假设总体人群中的先验为50%。此类分数可独立解释，并支持跨不同工具的比较和整合，标志着特征预测方法标准化的重要一步。可用性 orca.msl.ubc.ca/nmshare/ipa.tar.gz",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.18.629275",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.18.629275",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.18.629275/index.html"
+}

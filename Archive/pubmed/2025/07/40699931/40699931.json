@@ -1,0 +1,259 @@
+{
+  "identity": {
+    "pmid": "40699931",
+    "doi": "10.1073/pnas.2501145122",
+    "title": "Interfacial effects determine nonequilibrium phase behaviors in chemically driven fluids."
+  },
+  "content": {
+    "abstract": "Coupling between chemical fuel consumption and phase separation can lead to condensation at a nonequilibrium steady state, resulting in phase behaviors that are not described by equilibrium thermodynamics. Theoretical models of such \"chemically driven fluids\" typically invoke near-equilibrium approximations at small length scales. However, because dissipation occurs due to both molecular-scale chemical reactions and mesoscale diffusive transport, it has remained unclear which properties of phase-separated reaction-diffusion systems can be assumed to be at an effective equilibrium. Here, we use microscopic simulations to show that mesoscopic fluxes are dependent on nonequilibrium fluctuations at phase-separated interfaces. We further develop a first-principles theory to predict nonequilibrium coexistence curves, localization of mesoscopic fluxes near phase-separated interfaces, and droplet size-scaling relations in good agreement with simulations. Our findings highlight the central role of interfacial properties in governing nonequilibrium condensation and have broad implications for droplet nucleation, coarsening, and size control in chemically driven fluids.",
+    "keywords": [
+      "biomolecular condensates",
+      "interfacial properties",
+      "nonequilibrium statistical mechanics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cho, Yongick",
+        "Jacobs, William M"
+      ],
+      "short_names": [
+        "Cho Y",
+        "Jacobs WM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4044-8198",
+        "ORCID: 0000-0003-0574-4319"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Princeton University, Princeton, NJ 08544.",
+        "Department of Chemistry, Princeton University, Princeton, NJ 08544."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cho, Yongick",
+        "short_name": "Cho Y",
+        "identifiers": [
+          "0000-0002-4044-8198"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Princeton University, Princeton, NJ 08544."
+        ]
+      },
+      {
+        "full_name": "Jacobs, William M",
+        "short_name": "Jacobs WM",
+        "identifiers": [
+          "0000-0003-0574-4319"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Princeton University, Princeton, NJ 08544."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Jul 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/23 18:28",
+    "fetched_at": "2026-09-21 21:23:30"
+  },
+  "links": {
+    "cites": [
+      "41868013"
+    ],
+    "refs": [
+      "40299772",
+      "39783969",
+      "39494792",
+      "39159108",
+      "38875706",
+      "38656803",
+      "38503281",
+      "37848445",
+      "37843057",
+      "37683610",
+      "37390433",
+      "37276062",
+      "37027881",
+      "37027840",
+      "36881934",
+      "36460640",
+      "36400992",
+      "36067054",
+      "35303788",
+      "35171683",
+      "34552246",
+      "34420338",
+      "34186016",
+      "33661634",
+      "33503539",
+      "33169001",
+      "32744309",
+      "32679076",
+      "32383912",
+      "32302572",
+      "32302571",
+      "32302570",
+      "31753533",
+      "31455762",
+      "31086330",
+      "30731446",
+      "29542937",
+      "29313527",
+      "28863522",
+      "27740811",
+      "26274171",
+      "17037977",
+      "16471845",
+      "10057825"
+    ],
+    "similar": [
+      "40699931",
+      "37843057",
+      "35675427",
+      "39116001",
+      "41329728",
+      "24483444",
+      "26986039",
+      "41385693",
+      "37027881",
+      "37094152",
+      "41560158",
+      "30007391",
+      "41086061",
+      "23030893",
+      "39690576",
+      "23520980",
+      "30076227",
+      "30849912",
+      "25375444",
+      "40247503",
+      "24032778",
+      "38847600",
+      "40757844",
+      "40021181",
+      "27627281",
+      "19045419",
+      "41430960",
+      "11736236",
+      "25974440",
+      "20649359",
+      "15829355",
+      "39494792",
+      "25353460",
+      "36279403",
+      "23912807",
+      "34186016",
+      "27300960",
+      "33864415",
+      "34507991",
+      "36758221",
+      "38321012",
+      "16591943",
+      "16884217",
+      "31574700",
+      "41401517",
+      "40103106",
+      "29549155",
+      "38181373",
+      "18500889",
+      "15469914",
+      "33364075",
+      "37505951",
+      "35727989",
+      "33573063",
+      "39556435",
+      "37265211",
+      "29346968",
+      "36397574",
+      "11970635",
+      "23032101",
+      "27126047",
+      "37198795",
+      "29347268",
+      "25299248",
+      "40203039",
+      "31573240",
+      "40954812",
+      "37761631",
+      "35885093",
+      "40661408",
+      "27647899",
+      "25669371",
+      "10615038",
+      "17026375",
+      "11102003",
+      "20365374",
+      "27300835",
+      "39227569",
+      "38243485",
+      "27997373",
+      "23552493",
+      "38701831",
+      "26651704",
+      "36580588",
+      "37781612",
+      "36227466",
+      "34552246",
+      "11863507",
+      "23848645",
+      "30576171",
+      "32670386",
+      "22508926",
+      "36227470",
+      "36813709",
+      "36110012",
+      "24714671",
+      "38829089",
+      "35459863",
+      "38539712",
+      "36050019"
+    ],
+    "review": [
+      "40699931",
+      "26986039",
+      "15829355",
+      "37761631",
+      "38701831"
+    ],
+    "pmc": [
+      "12318204"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2501145122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40699931/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

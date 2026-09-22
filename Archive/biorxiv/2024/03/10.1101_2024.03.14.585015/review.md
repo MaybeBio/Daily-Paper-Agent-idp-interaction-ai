@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific and technical evaluation of the presented framework, experiments, and claims; no line-by-line editorial review
+- **Shared manuscript claim summary** The authors propose MCGLPPI, a geometric representation learning framework that integrates MARTINI coarse-grained (CG) modeling with graph neural networks (GNNs) to predict overall properties of protein-protein interaction (PPI) complexes. They claim competitive or superior predictive performance compared to atom- and residue-scale counterparts, with approximately threefold reductions in GPU memory and runtime. They further claim that CG-scale pre-training on domain-domain interaction (DDI) structures improves downstream PPI binding affinity prediction.
+- **Visible evidence base** Abstract, Introduction, Results sections (narrative only), Discussion, Methods (partial), Figure captions referenced but figures not provided, Tables 1-3 referenced but not provided, Supplementary Information referenced but not provided
+- **Missing materials affecting confidence** Figures 1-3, Tables 1-3, all Supplementary Information, detailed experimental hyperparameters, dataset curation details, baseline implementation details, statistical significance tests, code verification
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in structure-based PPI property prediction, proposing a CG-scale representation that aims to balance chemical plausibility with computational efficiency. The core idea of leveraging MARTINI force field parameters as graph edges and node features is conceptually interesting and potentially useful. However, the current manuscript provides insufficient experimental detail and quantitative evidence to substantiate the central claims. Key results are presented only as narrative summaries without the actual data tables and figures, making it impossible to assess statistical significance, effect sizes, or comparative rigor. The methodological description, while detailed in parts, omits critical implementation specifics and ablation conditions. The work is potentially publishable in a specialized venue, but the evidence base as presented is inadequate for a high-impact general journal.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-protein interaction prediction, structure-based deep learning, and coarse-grained modeling. Researchers developing GNN-based methods for biomolecular property prediction would find the CG-scale representation and pre-training strategy of interest. The efficiency gains, if verified, could appeal to those performing large-scale interactome analysis.
+- **Major strengths** 1) The conceptual integration of MARTINI CG modeling with GNNs is novel and addresses a real limitation of atom-scale methods (computational cost) and residue-scale methods (loss of chemical detail). 2) The multi-relational graph design, incorporating bond types, secondary structure information, and intra/inter-residue distinctions, is thoughtful and chemically grounded. 3) The DDI-based pre-training strategy is well-motivated and addresses data scarcity in labeled PPI structures. 4) The authors evaluate on three distinct tasks (two regression, one classification), providing some evidence of generalizability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** "MCGLPPI achieves competitive performance compared with the counterparts at the atom- and residue-scale, but with only a third of the computational resource consumption" (Abstract); "MCGLPPI outperformed its atom- and residue-scale counterparts" (Results, Table 1)
+  - **Evidence pointer** Tables 1-3, location not provided
+  - **Concern** The central quantitative claims are presented without the actual data. Tables 1-3 are referenced but not included in the provided material. Without the numerical results, including performance metrics (R_P, RMSE, MAE, AUROC, AUPR), standard deviations, and the specific batch sizes and GPU memory measurements, the claims of competitive or superior performance and threefold efficiency gains cannot be evaluated. Furthermore, the comparison methodology is unclear: were the same hyperparameters used across all scales? Were multiple random seeds used? Are the reported metrics averaged over cross-validation folds with variance estimates?
+  - **Why it matters** The core contribution of this work is the claim that CG-scale representation achieves a better performance-efficiency trade-off. Without the actual data and statistical rigor, this claim is unverifiable and the scientific contribution cannot be assessed.
+  - **Resolution test** Provide Tables 1-3 with full numerical results, including means and standard deviations across cross-validation folds, for all methods and all metrics. Clearly state the experimental setup, including hyperparameters, number of runs, and statistical significance tests (e.g., paired t-test or Wilcoxon) comparing MCGLPPI to baselines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological reproducibility
+  - **Claim pointer** "We then apply the cropping method to each complex sample in our curated downstream datasets" (Results); "The specific cropping details are described in the Methods section" (Results)
+  - **Evidence pointer** Methods, "The construction of CG-scale protein complex graph and its cropping function", location not provided
+  - **Concern** The cropping procedure is described at a high level but lacks critical parameters and validation. The 8.5 Å and 10 Å thresholds are stated, but the rationale for these specific values is not given, and no sensitivity analysis is provided. More importantly, the impact of cropping on the distribution of the data, potential introduction of bias, and whether the same cropping was applied to atom- and residue-scale baselines is unclear. The statement "we performed the aforementioned complex graph cropping function for each sample in every dataset (across different scales)" suggests cropping was applied to baselines, but the details of how this was done for atom- and residue-scale graphs are not specified.
+  - **Why it matters** Cropping is a critical preprocessing step that directly affects the graph structure and, consequently, the learned representations. If the cropping procedure is not fully specified and validated, the method cannot be reproduced, and the reported efficiency gains may be an artifact of the cropping rather than the CG representation itself.
+  - **Resolution test** Provide a detailed algorithmic description of the cropping procedure, including pseudocode, the exact distance calculations, and how the procedure adapts to different graph scales. Include a sensitivity analysis of the two thresholds (8.5 Å and 10 Å) and demonstrate that the reported results are robust to reasonable variations. Clarify whether the same cropping was applied to all baseline methods and provide the resulting graph size statistics for each scale.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Baseline rigor
+  - **Claim pointer** "we compared the model performance across different scales, we compared the atom- and residue-scale versions of our employed protein graph encoder, GearNet-Edge" (Results); "we considered an atom-scale state-of-the-art geometric encoder, GVP-GNN" (Results)
+  - **Evidence pointer** Results, "MCGLPPI saves computational cost while keeping competitive performance", location not provided
+  - **Concern** The baseline comparison is limited to GearNet-Edge at atom- and residue-scale and GVP-GNN at atom-scale. No other state-of-the-art PPI property prediction methods are compared, such as those specifically designed for binding affinity prediction (e.g., DeepAffinity, PPI-Affinity, or structure-based methods like GNN-DOVE). The choice of GearNet-Edge as the primary baseline is reasonable since it is the backbone of MCGLPPI, but the claim of "competitive performance" relative to the field requires comparison against a broader set of established methods. Additionally, the GVP-GNN comparison appears to be only at atom-scale, and it is unclear if it was evaluated on all three datasets.
+  - **Why it matters** The scientific contribution of a new method is established by demonstrating its advantage over existing approaches. A limited baseline set, especially one that excludes methods specifically designed for the evaluated tasks, weakens the claim of competitiveness and generalizability.
+  - **Resolution test** Expand the baseline set to include at least two additional state-of-the-art methods per task, preferably those that are widely used in the field. Ensure all baselines are evaluated on all three datasets under identical conditions. Report the results in the main tables and discuss any discrepancies in performance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Pre-training benefit clarity
+  - **Claim pointer** "the CG-scale pre-training on protein domain-domain interaction structures enhances its predictive capabilities for PPI tasks" (Abstract); "pre-training improved the R_P from 0.597 to 0.610 and from 0.825 to 0.836" (Results)
+  - **Evidence pointer** Figure 3a, location not provided
+  - **Concern** The reported improvements from pre-training are modest (0.013 and 0.011 in R_P). While the direction is positive, the magnitude is small, and no statistical significance testing is reported. It is unclear whether these improvements are consistent across all cross-validation folds or driven by a few outliers. Additionally, the pre-training is only evaluated on the two regression tasks; the effect on the classification task is not reported. The comparison between pre-training on the full 41,663 DDI set versus the 33,144 subset is mentioned but not fully explained.
+  - **Why it matters** The pre-training claim is a key differentiator of the proposed framework. If the benefit is marginal or not statistically robust, the practical value of the pre-training step is questionable, especially given the additional computational cost of pre-training.
+  - **Resolution test** Report the full distribution of cross-validation results (e.g., box plots or per-fold values) for pre-trained versus from-scratch models. Perform statistical significance tests (e.g., paired t-test) and report p-values. Evaluate the effect of pre-training on the classification task as well. Clarify the difference between the 41,663 and 33,144 sample sets and why the smaller set was used for cross-scale comparison.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Ablation completeness
+  - **Claim pointer** "our extensive ablation studies highlighted the significance of both edge and node features derived from the MARTINI force field" (Discussion)
+  - **Evidence pointer** Figure 3b, location not provided
+  - **Concern** The ablation studies are described narratively but the full results are not provided. The text mentions removing MARTINI bond-based edges, replacing composition-aware edges with radius-based edges, and invalidating node features, but the incremental contributions of each component are not quantified in a clear, comparable manner. The order of ablations and whether they are cumulative or independent is unclear.
+  - **Why it matters** Ablation studies are essential for understanding which components of the proposed method contribute to its performance. Without a clear, quantitative ablation table, the design choices cannot be justified, and the method's novelty is harder to assess.
+  - **Resolution test** Provide a comprehensive ablation table showing the performance (all metrics) for the full model and each ablated variant, with the specific component removed or modified clearly indicated. Include the computational cost for each variant to demonstrate the efficiency contribution of each component.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, "overall properties"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "overall properties" is used repeatedly but is never precisely defined. It appears to encompass binding affinity and interface type, but the scope is ambiguous.
+  - **Required correction** Define "overall properties" explicitly in the Introduction or Results, listing the specific tasks and properties addressed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "MARTINI-based geometric parameter generation"
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The description of the pdbfixer and martinize.py usage is brief. It is unclear what specific options or parameters were used for martinize.py (e.g., the chosen force field version, the treatment of termini, the handling of non-standard residues).
+  - **Required correction** Provide the exact command lines or a detailed parameter list for both pdbfixer and martinize.py, including version numbers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "MCGLPPI saves computational cost while keeping competitive performance"
+  - **Evidence pointer** Tables 1-3, location not provided
+  - **Issue** The reported metrics (R_P, RMSE, MAE, AUROC, AUPR) are point estimates without confidence intervals or standard deviations.
+  - **Required correction** Report the mean and standard deviation (or 95% confidence interval) for all metrics across cross-validation folds.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, "The investigation of CG-scale pre-training techniques on different tasks"
+  - **Evidence pointer** Figure 3a, location not provided
+  - **Issue** The text states that pre-training improved performance on PDBbind and ATLAS but decreased performance on MANY/DC. The explanation provided is plausible but speculative.
+  - **Required correction** Provide a more rigorous analysis of why pre-training hurts classification performance, possibly by analyzing the feature distributions or the nature of the classification task.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Influence of graph cropping on overall model efficiency"
+  - **Evidence pointer** Figure 3c, location not provided
+  - **Issue** The cropping analysis is only performed on the ATLAS dataset. It is unclear whether the benefits generalize to the other datasets.
+  - **Required correction** Perform the cropping analysis on at least one additional dataset to demonstrate generalizability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing data tables), R1-M2 (cropping reproducibility), R1-M3 (baseline breadth), R1-M4 (pre-training statistical significance)
+- **Assessment against Nature-style criteria** 
+  - Originality: The integration of MARTINI CG modeling with GNNs for PPI property prediction is a novel combination. The use of force field parameters as graph edges and node features is creative and not, to my knowledge, previously explored in this exact form. However, the individual components (CG modeling, GNNs, pre-training) are established, and the novelty lies primarily in their integration.
+  - Scientific importance: If the efficiency and performance claims are verified, the method could enable large-scale PPI analysis, which is of broad interest. The potential to reduce computational cost by threefold without sacrificing accuracy is practically significant. However, the modest pre-training gains and limited baseline comparisons temper the current importance.
+  - Interdisciplinary readership: The work bridges structural biology, computational chemistry, and machine learning. The topic is of interest to researchers in all three fields, but the manuscript's technical density and lack of accessible explanations for non-specialists may limit broader readership.
+  - Technical soundness: The methodological approach is sound in principle, but the current evidence base is insufficient to verify technical soundness. Missing data, unclear baseline comparisons, and lack of statistical rigor prevent a full assessment.
+  - Readability for nonspecialists: The manuscript is written in a technical style that assumes familiarity with GNNs, CG modeling, and PPI prediction. The abstract is accessible, but the results and methods sections would be challenging for a general scientific audience. The lack of figures and tables in the provided material further hampers readability.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is promising and the methodological framework is well-conceived, but the manuscript as provided lacks the essential quantitative data, experimental details, and baseline comparisons needed to substantiate the central claims. The authors should be encouraged to resubmit a revised version with complete results, rigorous statistical analysis, and expanded baselines.
+
+## Risk / unsupported claims
+- The claim of "competitive performance" and "threefold reduction in computational resources" is unsupported without Tables 1-3.
+- The claim that pre-training "enhances its predictive capabilities" is weakly supported by the reported R_P improvements, which lack statistical significance testing.
+- The claim that the CG-scale representation is "chemically plausible" is asserted but not validated against known physical or chemical properties.
+- The claim that cropping improves both efficiency and predictive performance is based on a single dataset (ATLAS) and lacks sensitivity analysis.
+- The generalizability of the method to other PPI property prediction tasks beyond the three tested is not established.
+- The statement that "MCGLPPI offers an effective and efficient solution for PPI overall property predictions" is a broad claim that requires more extensive validation across diverse datasets and tasks.

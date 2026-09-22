@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "40925983",
+    "doi": "10.1038/s41589-025-02017-9",
+    "title": "Navigating condensate micropolarity to enhance small-molecule drug targeting."
+  },
+  "content": {
+    "abstract": "Many pharmaceutical targets partition into biomolecular condensates, whose microenvironments can significantly influence drug distribution. Nevertheless, it is unclear how drug design principles should adjust for these targets to optimize target engagement. To address this question, we systematically investigated how condensate microenvironments influence drug-targeting efficiency. We found that condensates highlight a notable heterogeneity, with nonpolar-residue-enriched condensates being more hydrophobic and housing more hydrophobic drugs. Furthermore, L1000 dataset analysis revealed a strong positive correlation between inhibitor hydrophobicity and targeting efficiency for phase-separated proteins, represented by estrogen receptor 1 (ESR1) enriched with nonpolar residues. We developed random forest models to predict inhibitor targeting efficiency from molecular properties, with hydrophobicity identified as a key determinant. In cellulo experiments with ESR1 condensates confirmed that both binding affinity and hydrophobicity of inhibitors contribute significantly to potency. These results suggest a new drug design principle for phase-separated proteins by considering condensate micropolarity, potentially leading to drugs with optimal target engagement.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Hydrophobic and Hydrophilic Interactions",
+      "*Small Molecule Libraries/chemistry/pharmacology",
+      "*Estrogen Receptor alpha/antagonists & inhibitors/metabolism/chemistry",
+      "Drug Design",
+      "Protein Binding",
+      "*Drug Delivery Systems",
+      "*Biomolecular Condensates/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ouyang, Jian",
+        "Chen, Junlin",
+        "Wu, Zhili",
+        "You, Kaiqiang",
+        "Chen, Taoyu",
+        "Gao, Yi Qin",
+        "Li, Pilong",
+        "Zhang, Xin",
+        "Li, Tingting"
+      ],
+      "short_names": [
+        "Ouyang J",
+        "Chen J",
+        "Wu Z",
+        "You K",
+        "Chen T",
+        "Gao YQ",
+        "Li P",
+        "Zhang X",
+        "Li T"
+      ],
+      "auids": [
+        "ORCID: 0009-0007-5766-0711",
+        "ORCID: 0000-0002-5038-1185",
+        "ORCID: 0000-0002-8966-1264",
+        "ORCID: 0000-0002-4309-9376",
+        "ORCID: 0000-0002-1783-3100",
+        "ORCID: 0000-0001-6686-1645",
+        "ORCID: 0000-0003-4266-0317"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China.",
+        "Key Laboratory for Neuroscience, Ministry of Education/National Health Commission of China, Peking University, Beijing, China.",
+        "Zhejiang Key Laboratory of Precise Synthesis of Functional Molecules, Department of Chemistry and Research Center for Industries of the Future and Westlake University, Hangzhou, China.",
+        "School of Life Sciences, Westlake University, Hangzhou, China.",
+        "Zhejiang Key Laboratory of Precise Synthesis of Functional Molecules, Department of Chemistry and Research Center for Industries of the Future and Westlake University, Hangzhou, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China.",
+        "Key Laboratory for Neuroscience, Ministry of Education/National Health Commission of China, Peking University, Beijing, China.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China.",
+        "Key Laboratory for Neuroscience, Ministry of Education/National Health Commission of China, Peking University, Beijing, China.",
+        "College of Chemistry and Molecular Engineering, Peking University, Beijing, China.",
+        "Changping Laboratory, Beijing, China.",
+        "Biomedical Pioneering Innovation Center, Peking University, Beijing, China.",
+        "State Key Laboratory of Membrane Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "Tsinghua University-Peking University Joint Center for Life Sciences, Beijing, China.",
+        "Zhejiang Key Laboratory of Precise Synthesis of Functional Molecules, Department of Chemistry and Research Center for Industries of the Future and Westlake University, Hangzhou, China. zhangxin@westlake.edu.cn.",
+        "School of Life Sciences, Westlake University, Hangzhou, China. zhangxin@westlake.edu.cn.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China. zhangxin@westlake.edu.cn.",
+        "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China. litt@hsc.pku.edu.cn.",
+        "Key Laboratory for Neuroscience, Ministry of Education/National Health Commission of China, Peking University, Beijing, China. litt@hsc.pku.edu.cn.",
+        "State Key Laboratory of Natural and Biomimetic Drugs, Peking University, Beijing, China. litt@hsc.pku.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ouyang, Jian",
+        "short_name": "Ouyang J",
+        "identifiers": [
+          "0009-0007-5766-0711"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China.",
+          "Key Laboratory for Neuroscience, Ministry of Education/National Health Commission of China, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Junlin",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Precise Synthesis of Functional Molecules, Department of Chemistry and Research Center for Industries of the Future and Westlake University, Hangzhou, China.",
+          "School of Life Sciences, Westlake University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhili",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Precise Synthesis of Functional Molecules, Department of Chemistry and Research Center for Industries of the Future and Westlake University, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "You, Kaiqiang",
+        "short_name": "You K",
+        "identifiers": [
+          "0000-0002-5038-1185"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China.",
+          "Key Laboratory for Neuroscience, Ministry of Education/National Health Commission of China, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Taoyu",
+        "short_name": "Chen T",
+        "identifiers": [
+          "0000-0002-8966-1264"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China.",
+          "Key Laboratory for Neuroscience, Ministry of Education/National Health Commission of China, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Yi Qin",
+        "short_name": "Gao YQ",
+        "identifiers": [
+          "0000-0002-4309-9376"
+        ],
+        "affiliations": [
+          "College of Chemistry and Molecular Engineering, Peking University, Beijing, China.",
+          "Changping Laboratory, Beijing, China.",
+          "Biomedical Pioneering Innovation Center, Peking University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Pilong",
+        "short_name": "Li P",
+        "identifiers": [
+          "0000-0002-1783-3100"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Membrane Biology, Beijing Frontier Research Center for Biological Structure, School of Life Sciences, Tsinghua University, Beijing, China.",
+          "Tsinghua University-Peking University Joint Center for Life Sciences, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xin",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0000-0001-6686-1645"
+        ],
+        "affiliations": [
+          "Zhejiang Key Laboratory of Precise Synthesis of Functional Molecules, Department of Chemistry and Research Center for Industries of the Future and Westlake University, Hangzhou, China. zhangxin@westlake.edu.cn.",
+          "School of Life Sciences, Westlake University, Hangzhou, China. zhangxin@westlake.edu.cn.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China. zhangxin@westlake.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Tingting",
+        "short_name": "Li T",
+        "identifiers": [
+          "0000-0003-4266-0317"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Basic Medical Sciences, Peking University Health Science Center, Beijing, China. litt@hsc.pku.edu.cn.",
+          "Key Laboratory for Neuroscience, Ministry of Education/National Health Commission of China, Peking University, Beijing, China. litt@hsc.pku.edu.cn.",
+          "State Key Laboratory of Natural and Biomimetic Drugs, Peking University, Beijing, China. litt@hsc.pku.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature chemical biology"
+    ],
+    "journal_abbrev": [
+      "Nat Chem Biol"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/10 00:28",
+    "fetched_at": "2026-09-17 20:00:51"
+  },
+  "links": {
+    "cites": [
+      "42624991",
+      "41997364",
+      "41924571",
+      "41662498",
+      "40747072",
+      "40093099"
+    ],
+    "refs": [
+      "40690668",
+      "39271915",
+      "38722189",
+      "38572755",
+      "38503281",
+      "37973891",
+      "37973889",
+      "37770698",
+      "37065433",
+      "36603581",
+      "36124686",
+      "35974095",
+      "35761089",
+      "35687670",
+      "35248748",
+      "35179885",
+      "34986597",
+      "34863777",
+      "34850135",
+      "34785657",
+      "34718717",
+      "34480923",
+      "34079125",
+      "33961781",
+      "33515602",
+      "33417833",
+      "33237329",
+      "32822580",
+      "32554597",
+      "32296183",
+      "32152607",
+      "31900408",
+      "30976107",
+      "30926670",
+      "30833784",
+      "30682370",
+      "30609255",
+      "30481020",
+      "30398643",
+      "29195078",
+      "29126136",
+      "28935776",
+      "28221782",
+      "28041848",
+      "26496610",
+      "26481362",
+      "26344197",
+      "23203878",
+      "22426491",
+      "20426451",
+      "19499576",
+      "19486540"
+    ],
+    "similar": [
+      "40925983",
+      "39271915",
+      "40985078",
+      "41667469",
+      "39534915",
+      "40136009",
+      "38987300",
+      "40962203",
+      "40468084",
+      "37973889",
+      "38722189",
+      "41703914",
+      "37973891",
+      "40518709",
+      "40747072",
+      "40616404",
+      "39433596",
+      "41670285",
+      "40751677",
+      "40229261",
+      "38885177",
+      "40455990",
+      "39827079",
+      "41698919",
+      "40653653",
+      "40093099",
+      "38781207",
+      "34129784",
+      "40024444",
+      "31593458",
+      "40954121",
+      "41722894",
+      "21381753",
+      "40094245",
+      "40196628",
+      "39303698",
+      "41027866",
+      "36150962",
+      "37034777",
+      "40867025",
+      "34090478",
+      "34772789",
+      "41060763",
+      "41755857",
+      "41705673",
+      "39232584",
+      "41261101",
+      "38582523",
+      "39856105",
+      "40877270",
+      "40195042",
+      "39356108",
+      "34767801",
+      "40744081",
+      "39071308",
+      "39620362",
+      "40635595",
+      "36883003",
+      "41191214",
+      "35761089",
+      "39400294",
+      "38848869",
+      "38499848",
+      "39404746",
+      "39184067",
+      "40972943",
+      "39271032",
+      "38824391",
+      "39134696",
+      "41238911",
+      "28506582",
+      "41481439",
+      "40801528",
+      "38884477",
+      "40730570",
+      "41612036",
+      "35881789",
+      "37013374",
+      "40521608",
+      "41279444",
+      "34706978",
+      "40098319",
+      "41629872",
+      "41540001",
+      "40327693",
+      "41251020",
+      "36227474",
+      "38429263",
+      "40509934",
+      "40172489",
+      "39366355",
+      "34865286",
+      "21704549",
+      "39042834",
+      "41118627",
+      "37770698",
+      "40545646",
+      "39510346",
+      "40113768",
+      "40721018"
+    ],
+    "review": [
+      "40925983",
+      "40962203",
+      "40616404",
+      "39433596",
+      "38885177",
+      "39827079",
+      "34129784",
+      "41722894",
+      "39303698",
+      "36150962",
+      "34772789",
+      "40195042",
+      "34767801",
+      "40744081",
+      "41191214",
+      "35761089",
+      "39271032",
+      "39134696",
+      "40801528",
+      "34706978",
+      "41629872",
+      "40172489",
+      "39366355",
+      "34865286"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41589-025-02017-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-145",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

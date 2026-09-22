@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.06.22.449457",
+  "title": "ROPIUS0: A deep learning-based protocol for protein structure prediction and model selection and its performance in CASP14",
+  "authors": "Mindaugas Margelevičius",
+  "journal": "bioRxiv",
+  "published_date": "2021-06-22",
+  "window": {
+    "start": "2021-06-21",
+    "end": "2021-06-27"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于深度学习的蛋白质结构预测与模型选择协议ROPIUS0，聚焦折叠蛋白结构预测，不涉及无序蛋白或PPI互作机制，方法虽可迁移但对象与互作轴均弱。",
+  "abstract": "Protein structure prediction has recently been revolutionized when AlphaFold2 [1] predicted protein structures with near-experimental accuracy in the latest CASP14 season of critical assessment of methods of protein structure prediction (CASP). Among numerous implications, this breakthrough has led to a rapidly growing number of high-quality structural models [2]. We present a protocol ROPIUS0 for protein structure prediction and model selection and discuss its benefits in the new era of structure prediction. At the core of the ROPIUS0 protocol is the deep learning module developed for the selection of protein structural models. It is shown that the direct use of predicted inter-residue distances may be sufficient to discriminate between correct and incorrect protein folds, considering only a small fraction of predicted distances. We extensively tested the protocol: In the latest CASP14 prediction season, a ROPIUS0 variant based on model selection ranked 13th in the category of tertiary structure prediction. Its performance is on par with top-performing automated prediction servers when tested on the CASP13 dataset, and it performs similarly on a CAMEO dataset. The results suggest ways to improve searching for structurally similar and homologous proteins without considerably increasing speed. Our new open-source threading tool based on comparing a subset of inter-residue distances demonstrates the effectiveness and application of the deep learning module of the ROPIUS0 protocol.",
+  "abstract_zh": "蛋白质结构预测近期因AlphaFold2 [1] 在最新一轮蛋白质结构预测关键评估方法（CASP14）中以接近实验精度预测蛋白质结构而实现革命性突破。在众多影响中，这一突破导致高质量结构模型数量迅速增长 [2]。我们提出了一种名为ROPIUS0的蛋白质结构预测与模型选择协议，并讨论了其在新结构预测时代中的优势。ROPIUS0协议的核心是为蛋白质结构模型选择而开发的深度学习模块。研究表明，仅考虑预测距离的一小部分，直接使用预测的残基间距离可能足以区分正确与不正确的蛋白质折叠。我们对该协议进行了广泛测试：在最新的CASP14预测赛季中，基于模型选择的ROPIUS0变体在三级结构预测类别中排名第13位。在CASP13数据集上测试时，其性能与顶级自动化预测服务器相当，在CAMEO数据集上也表现相似。结果提示了在不显著增加速度的情况下改进搜索结构相似和同源蛋白质的方法。我们基于比较残基间距离子集的新开源穿线工具，展示了ROPIUS0协议深度学习模块的有效性和应用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.06.22.449457",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.06.22.449457",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.06.22.449457/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.29.542689",
+  "title": "Rescaling protein-protein interactions improves Martini 3 for flexible proteins in solution",
+  "authors": "Thomasen FE; Skaalum T; Kumar A; Srinivasan S; Vanni S; Lindorff-Larsen K",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-31",
+  "window": {
+    "start": "2023-05-29",
+    "end": "2023-06-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过重标定Martini 3粗粒化模型中的蛋白-蛋白相互作用强度，改善了对无序蛋白和多结构域蛋白构象集合的模拟准确性，直接涉及IDP对象与PPI机制建模，方法为物理模拟（CG-MD），对无序蛋白互作机制建模有直接启发。",
+  "abstract": "Multidomain proteins with flexible linkers and disordered regions play important roles in many cellular processes, but characterizing their conformational ensembles is diffcult. We have previously shown that the coarse-grained model, Martini 3, produces too compact ensembles in solution, that may in part be remedied by strengthening protein–water interactions. Here, we show that decreasing the strength of protein–protein interactions leads to improved agreement with experimental data on a wide set of systems. We show that the ‘symmetry’ between rescaling protein–water and protein–protein interactions breaks down when studying interactions with or within membranes; rescaling protein-protein interactions better preserves the binding specificity of proteins with lipid membranes, whereas rescaling protein-water interactions preserves oligomerization of transmembrane helices. We conclude that decreasing the strength of protein–protein interactions improves the accuracy of Martini 3 for IDPs and multidomain proteins, both in solution and in the presence of a lipid membrane.",
+  "abstract_zh": "具有柔性连接区和无序区的多结构域蛋白在许多细胞过程中发挥重要作用，但表征其构象集合体较为困难。我们先前已表明，粗粒化模型Martini 3在溶液中产生的构象集合过于紧凑，部分问题可通过增强蛋白质-水相互作用来缓解。在此，我们展示降低蛋白质-蛋白质相互作用的强度可改善与广泛系统实验数据的一致性。我们进一步表明，在研究膜内或与膜相互作用时，重新标定蛋白质-水与蛋白质-蛋白质相互作用的“对称性”被打破；重新标定蛋白质-蛋白质相互作用能更好地保留蛋白质与脂质膜的结合特异性，而重新标定蛋白质-水相互作用则能保留跨膜螺旋的寡聚化。我们得出结论，降低蛋白质-蛋白质相互作用的强度可提高Martini 3在溶液及存在脂质膜情况下对IDPs和多结构域蛋白的准确性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.29.542689",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.29.542689",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.29.542689/index.html"
+}

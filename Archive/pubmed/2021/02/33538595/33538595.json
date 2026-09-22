@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "33538595",
+    "doi": "10.1021/acs.jpcb.0c09192",
+    "title": "Membrane Remodeling and Stimulation of Aggregation Following alpha-Synuclein Adsorption to Phosphotidylserine Vesicles."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein is an intrinsically disordered protein abundant in presynaptic terminals in neurons and in synaptic vesicles. alpha-Synuclein's interaction with lipid bilayers is important not only for its normal physiological function but also in its pathological aggregation and deposition as Lewy bodies in Parkinson's disease. alpha-Synuclein binds preferentially to lipids with acidic head groups and to high-curvature vesicles and can modulate membrane curvature. The relationship between the protein's role as a membrane curvature sensor and generator and the role of membranes in facilitating its aggregation remains unknown. We investigated the interaction of alpha-synuclein with vesicles of 1,2-dioleoyl-sn-glycero-3-phospho-l-serine (DOPS) or 1,2-dilauroyl-sn-glycero-3-phospho-l-serine (DLPS). Using nanoparticle tracking along with electron microscopy, we demonstrate that alpha-synuclein induces extensive vesicle disruption and membrane remodeling into discoids, tubules, and ribbons with DLPS vesicles but not DOPS. Coarse-grained molecular dynamics simulations revealed that adsorption of alpha-synuclein to DLPS but not DOPS vesicles induced vesicle elongation and redistribution of protein to regions of higher curvature, a process that could drive protein aggregation. In agreement with this hypothesis, DLPS but not DOPS strongly stimulated alpha-synuclein aggregation. Our results provide new insights into the critical contribution of bilayer stability in the membrane response to alpha-synuclein adsorption and in stimulation of aggregation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Adsorption",
+      "Humans",
+      "Lipid Bilayers",
+      "Membranes",
+      "*Parkinson Disease",
+      "*alpha-Synuclein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hoover, Brandon M",
+        "Shen, Zhizhang",
+        "Gahan, Curran G",
+        "Lynn, David M",
+        "Van Lehn, Reid C",
+        "Murphy, Regina M"
+      ],
+      "short_names": [
+        "Hoover BM",
+        "Shen Z",
+        "Gahan CG",
+        "Lynn DM",
+        "Van Lehn RC",
+        "Murphy RM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4885-6599",
+        "ORCID: 0000-0002-6196-5450"
+      ],
+      "affiliations": [
+        "Biophysics Program, University of Wisconsin, Madison, Wisconsin 53706, United States.",
+        "Department of Chemical and Biological Engineering, University of Wisconsin, Madison, Wisconsin 53706, United States.",
+        "Department of Chemical and Biological Engineering, University of Wisconsin, Madison, Wisconsin 53706, United States.",
+        "Department of Chemical and Biological Engineering, University of Wisconsin, Madison, Wisconsin 53706, United States.",
+        "Biophysics Program, University of Wisconsin, Madison, Wisconsin 53706, United States.",
+        "Department of Chemical and Biological Engineering, University of Wisconsin, Madison, Wisconsin 53706, United States.",
+        "Department of Chemical and Biological Engineering, University of Wisconsin, Madison, Wisconsin 53706, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hoover, Brandon M",
+        "short_name": "Hoover BM",
+        "identifiers": [],
+        "affiliations": [
+          "Biophysics Program, University of Wisconsin, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Shen, Zhizhang",
+        "short_name": "Shen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, University of Wisconsin, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Gahan, Curran G",
+        "short_name": "Gahan CG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, University of Wisconsin, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Lynn, David M",
+        "short_name": "Lynn DM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, University of Wisconsin, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Van Lehn, Reid C",
+        "short_name": "Van Lehn RC",
+        "identifiers": [
+          "0000-0003-4885-6599"
+        ],
+        "affiliations": [
+          "Biophysics Program, University of Wisconsin, Madison, Wisconsin 53706, United States.",
+          "Department of Chemical and Biological Engineering, University of Wisconsin, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Murphy, Regina M",
+        "short_name": "Murphy RM",
+        "identifiers": [
+          "0000-0002-6196-5450"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, University of Wisconsin, Madison, Wisconsin 53706, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2021 Feb 18",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/02/05 06:00",
+    "fetched_at": "2026-09-20 01:14:56"
+  },
+  "links": {
+    "cites": [
+      "41890075",
+      "37892158",
+      "37723164",
+      "37188797",
+      "35952001",
+      "35918535",
+      "35897670"
+    ],
+    "refs": [],
+    "similar": [
+      "33538595",
+      "38100855",
+      "27298346",
+      "32513706",
+      "28239748",
+      "30251982",
+      "26119565",
+      "23823878",
+      "34748321",
+      "25665896",
+      "21179192",
+      "28671142",
+      "29233215",
+      "29853639",
+      "12621030",
+      "31790267",
+      "23933657",
+      "17652776",
+      "24501346",
+      "35616927",
+      "12885775",
+      "25643172",
+      "22211521",
+      "29960040",
+      "33566579",
+      "33482036",
+      "30142705",
+      "28370874",
+      "25524885",
+      "25824255",
+      "32392751",
+      "32672441",
+      "26193328",
+      "15028717",
+      "36551244",
+      "26865505",
+      "34473498",
+      "22767608",
+      "22155643",
+      "12428807",
+      "23707907",
+      "19049426",
+      "16455667",
+      "22024360",
+      "30609739",
+      "10915790",
+      "27766878",
+      "31937832",
+      "25484190",
+      "21978222",
+      "26972046",
+      "20187615",
+      "32604928",
+      "24338013",
+      "16669622",
+      "21746853",
+      "34076426",
+      "16981679",
+      "30315896",
+      "10491577",
+      "25523270",
+      "33538574",
+      "18930058",
+      "19328772",
+      "38358134",
+      "24767583",
+      "37515406",
+      "25425650",
+      "9545270",
+      "16926154",
+      "12388586",
+      "32356963",
+      "36533132",
+      "37782491",
+      "11812148",
+      "30046897",
+      "26719332",
+      "25931201",
+      "20423294",
+      "11425308",
+      "25055002",
+      "23831067",
+      "21798243",
+      "24383916",
+      "15518504",
+      "24316000",
+      "14596606",
+      "28096355",
+      "35006874",
+      "38665673",
+      "33356274",
+      "24099487",
+      "35782868",
+      "35747692",
+      "33482328",
+      "34774499",
+      "35952001",
+      "33727072",
+      "21826257",
+      "24960410",
+      "38756798",
+      "21330368",
+      "28259601",
+      "34567651",
+      "37989349",
+      "38325816",
+      "25100925",
+      "24634806",
+      "35026915",
+      "37578897",
+      "28919642",
+      "34724382",
+      "32953942",
+      "36514832",
+      "32580142",
+      "37529290",
+      "38167676",
+      "37192400",
+      "34261315",
+      "35664678",
+      "35386392",
+      "37224515",
+      "36245921",
+      "35860657",
+      "33406179",
+      "22573663"
+    ],
+    "review": [
+      "33538595",
+      "28671142",
+      "17652776",
+      "32392751",
+      "26193328",
+      "12428807",
+      "22024360",
+      "30609739",
+      "26972046",
+      "16981679",
+      "30315896",
+      "10491577",
+      "20423294",
+      "38665673",
+      "28259601",
+      "24634806"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://scite.ai/reports/33538595",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.0c09192",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

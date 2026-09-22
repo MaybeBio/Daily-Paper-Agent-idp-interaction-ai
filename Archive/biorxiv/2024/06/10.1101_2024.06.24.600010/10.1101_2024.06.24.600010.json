@@ -1,0 +1,320 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.24.600010",
+  "title": "G-quadruplex structures regulate long-range transcriptional reprogramming to promote drug resistance in ovarian cancer",
+  "doi": "10.1101/2024.06.24.600010",
+  "abstract": "Epigenetic evolution is a common mechanism used by cancer cells to evade the therapeutic effects of drug treatment. In ovarian cancers, epigenetically-driven resistance may be responsible for a large number of late-stage patient deaths. Here, we describe the first investigation into the role of G-quadruplex (G4) DNA secondary structures in mediating epigenetic regulation in drug-resistant ovarian cancer cells. Through genome-wide mapping of G4s in paired drug-sensitive and drug-resistant cell lines, we find that increased G4 formation is associated with significant increase in gene expression, with high enrichment in signalling pathways previously established to promote drug-resistant states. However, in contrast to previous studies, the expression-enhancing effects of G4s were not found at gene promoters, but intergenic and intronic regions, indicating that G4s promote long-range transcriptional regulation in drug-resistant cells. Furthermore, we discovered that clusters of G4s (super-G4s) are associated with particularly high levels of transcriptional enhancement that surpass the effects of super-enhancers, which act as well established regulatory sites in many cancers. Finally, we demonstrate that targeting G4s with small molecules results in significant down-regulation of pathways associated with drug-resistance, which results in resensitisation of resistant cells to chemotherapy agents. These findings indicate that G4 structures are critical for the epigenetic regulatory networks of drug-resistant cells and may represent a promising target to treat drug-tolerant ovarian cancer.",
+  "authors": [
+    "Robinson J",
+    "Flint G",
+    "Garner I",
+    "Galli S",
+    "Maher TE",
+    "Kuimova MK",
+    "Vilar R",
+    "McNeish IA",
+    "Brown R",
+    "Keun H",
+    "Di Antonio M"
+  ],
+  "published_date": "2024-06-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.24.600010",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.24.600010.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR874937",
+    "raw_record": {
+      "id": "PPR874937",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR874937"
+        ]
+      },
+      "doi": "10.1101/2024.06.24.600010",
+      "title": "G-quadruplex structures regulate long-range transcriptional reprogramming to promote drug resistance in ovarian cancer",
+      "authorString": "Robinson J, Flint G, Garner I, Galli S, Maher TE, Kuimova MK, Vilar R, McNeish IA, Brown R, Keun H, Di Antonio M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Robinson J",
+            "lastName": "Robinson",
+            "firstName": "Jenna",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Chemistry, Molecular Sciences Research Hub, 82 Wood Lane , ,"
+                },
+                {
+                  "affiliation": ", Institute of Chemical Biology, Molecular Sciences Research Hub, 82 Wood Lane , ,"
+                },
+                {
+                  "affiliation": "Department of Pediatric Oncology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Flint G",
+            "lastName": "Flint",
+            "firstName": "Gem",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Chemistry, Molecular Sciences Research Hub, 82 Wood Lane , ,"
+                },
+                {
+                  "affiliation": ", Institute of Chemical Biology, Molecular Sciences Research Hub, 82 Wood Lane , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garner I",
+            "lastName": "Garner",
+            "firstName": "Ian",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer, Department of Surgery and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Galli S",
+            "lastName": "Galli",
+            "firstName": "Silvia",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Chemistry, Molecular Sciences Research Hub, 82 Wood Lane , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maher TE",
+            "lastName": "Maher",
+            "firstName": "Thomas",
+            "initials": "TE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Chemistry, Molecular Sciences Research Hub, 82 Wood Lane , ,"
+                },
+                {
+                  "affiliation": ", Institute of Chemical Biology, Molecular Sciences Research Hub, 82 Wood Lane , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kuimova MK",
+            "lastName": "Kuimova",
+            "firstName": "Marina",
+            "initials": "MK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Chemistry, Molecular Sciences Research Hub, 82 Wood Lane , ,"
+                },
+                {
+                  "affiliation": ", Institute of Chemical Biology, Molecular Sciences Research Hub, 82 Wood Lane , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vilar R",
+            "lastName": "Vilar",
+            "firstName": "Ramon",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Chemistry, Molecular Sciences Research Hub, 82 Wood Lane , ,"
+                },
+                {
+                  "affiliation": ", Institute of Chemical Biology, Molecular Sciences Research Hub, 82 Wood Lane , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McNeish IA",
+            "lastName": "McNeish",
+            "firstName": "Iain",
+            "initials": "IA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9387-7586"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer, Department of Surgery and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brown R",
+            "lastName": "Brown",
+            "firstName": "Robert",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer, Department of Surgery and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Keun H",
+            "lastName": "Keun",
+            "firstName": "Hector",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer, Department of Surgery and Cancer, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Di Antonio M",
+            "lastName": "Di Antonio",
+            "firstName": "Marco",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Chemistry, Molecular Sciences Research Hub, 82 Wood Lane , ,"
+                },
+                {
+                  "affiliation": ", Institute of Chemical Biology, Molecular Sciences Research Hub, 82 Wood Lane , ,"
+                },
+                {
+                  "affiliation": ", 1 Midland Road , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9387-7586"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Epigenetic evolution is a common mechanism used by cancer cells to evade the therapeutic effects of drug treatment. In ovarian cancers, epigenetically-driven resistance may be responsible for a large number of late-stage patient deaths. Here, we describe the first investigation into the role of G-quadruplex (G4) DNA secondary structures in mediating epigenetic regulation in drug-resistant ovarian cancer cells. Through genome-wide mapping of G4s in paired drug-sensitive and drug-resistant cell lines, we find that increased G4 formation is associated with significant increase in gene expression, with high enrichment in signalling pathways previously established to promote drug-resistant states. However, in contrast to previous studies, the expression-enhancing effects of G4s were not found at gene promoters, but intergenic and intronic regions, indicating that G4s promote long-range transcriptional regulation in drug-resistant cells. Furthermore, we discovered that clusters of G4s (super-G4s) are associated with particularly high levels of transcriptional enhancement that surpass the effects of super-enhancers, which act as well established regulatory sites in many cancers. Finally, we demonstrate that targeting G4s with small molecules results in significant down-regulation of pathways associated with drug-resistance, which results in resensitisation of resistant cells to chemotherapy agents. These findings indicate that G4 structures are critical for the epigenetic regulatory networks of drug-resistant cells and may represent a promising target to treat drug-tolerant ovarian cancer.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/R011605/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Institute for Health Research (NIHR)",
+            "grantId": "NF-SI-0514-10101",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.06.24.600010"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.24.600010"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR874937"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR874937&type=FILE&fileName=EMS197219-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS197219",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-07-01",
+      "firstPublicationDate": "2024-06-28",
+      "firstIndexDate": "2024-07-01",
+      "fullTextReceivedDate": "2024-07-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

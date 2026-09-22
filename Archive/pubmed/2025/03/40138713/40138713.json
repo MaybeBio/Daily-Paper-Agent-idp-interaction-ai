@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "40138713",
+    "doi": "10.1093/nar/gkaf154",
+    "title": "A dynamic structural unit of phase-separated heterochromatin protein 1alpha as revealed by integrative structural analyses."
+  },
+  "content": {
+    "abstract": "The heterochromatin protein HP1alpha consists of an N-terminal disordered tail (N-tail), chromodomain (CD), hinge region (HR), and C-terminal chromo shadow domain (CSD). While CD binds to the lysine9-trimethylated histone H3 (H3K9me3) tail in nucleosomes, CSD forms a dimer bridging two nucleosomes with H3K9me3. Phosphorylation of serine residues in the N-tail enhances both H3K9me3 binding and liquid-liquid phase separation (LLPS) by HP1alpha. We have used integrative structural methods, including nuclear magnetic resonance, small-angle X-ray scattering (SAXS), and multi-angle-light scattering combined with size-exclusion chromatography, and coarse-grained molecular dynamics simulation with SAXS, to probe the HP1alpha dimer and its CSD deletion monomer. We show that dynamic intra- and intermolecular interactions between the N-tails and basic segments in CD and HR depend on N-tail phosphorylation. While the phosphorylated HP1alpha dimer undergoes LLPS via the formation of aggregated multimers, the N-tail phosphorylated mutant without CSD still undergoes LLPS, but its structural unit is a dynamic intermolecular dimer formed via the phosphorylated N-tail and a basic segment at the CD end. Furthermore, we reveal that mutation of this basic segment in HP1alpha affects the size of heterochromatin foci in cultured mammalian cells, suggesting that this interaction plays an important role in heterochromatin formation in vivo.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromosomal Proteins, Non-Histone/chemistry/genetics/metabolism",
+      "Chromobox Protein Homolog 5",
+      "Scattering, Small Angle",
+      "Phosphorylation",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "Histones/metabolism/chemistry",
+      "X-Ray Diffraction",
+      "Protein Multimerization",
+      "Protein Binding",
+      "Heterochromatin/chemistry",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Furukawa, Ayako",
+        "Yonezawa, Kento",
+        "Negami, Tatsuki",
+        "Yoshimura, Yuriko",
+        "Hayashi, Aki",
+        "Nakayama, Jun-Ichi",
+        "Adachi, Naruhiko",
+        "Senda, Toshiya",
+        "Shimizu, Kentaro",
+        "Terada, Tohru",
+        "Shimizu, Nobutaka",
+        "Nishimura, Yoshifumi"
+      ],
+      "short_names": [
+        "Furukawa A",
+        "Yonezawa K",
+        "Negami T",
+        "Yoshimura Y",
+        "Hayashi A",
+        "Nakayama JI",
+        "Adachi N",
+        "Senda T",
+        "Shimizu K",
+        "Terada T",
+        "Shimizu N",
+        "Nishimura Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5148-3458"
+      ],
+      "affiliations": [
+        "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.",
+        "Graduate School of Agriculture, Kyoto University, Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto 606-8502, Japan.",
+        "Structural Biology Research Center, Institute of Materials Structure Science, High Energy Accelerator Research Organization (KEK), 1-1 Oho, Tsukuba, Ibaraki 305-0801, Japan.",
+        "Center for Digital Green-innovation (CDG), Nara Institute of Science and Technology (NAIST), 8916-5 Takayama, Ikoma, Nara 630-0192, Japan.",
+        "Department of Biotechnology, Graduate School of Agricultural and Life Sciences, the University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-8657, Japan.",
+        "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki 444-8585, Japan.",
+        "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki 444-8585, Japan.",
+        "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki 444-8585, Japan.",
+        "Basic Biology Program, The Graduate Institute for Advanced Studies, SOKENDAI, Okazaki 444-8585, Japan.",
+        "Structural Biology Research Center, Institute of Materials Structure Science, High Energy Accelerator Research Organization (KEK), 1-1 Oho, Tsukuba, Ibaraki 305-0801, Japan.",
+        "Structural Biology Research Center, Institute of Materials Structure Science, High Energy Accelerator Research Organization (KEK), 1-1 Oho, Tsukuba, Ibaraki 305-0801, Japan.",
+        "Department of Biotechnology, Graduate School of Agricultural and Life Sciences, the University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-8657, Japan.",
+        "Department of Mathematical and Physical Sciences, Faculty of Science, Japan Women's University, 2-8-1 Mejirodai, Bunkyo-ku, Tokyo 112-0015, Japan.",
+        "Department of Biotechnology, Graduate School of Agricultural and Life Sciences, the University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-8657, Japan.",
+        "Photon Factory, Institute of Materials Structure Science, High Energy Accelerator Research Organization (KEK), 1-1 Oho, Tsukuba, Ibaraki 305-0801, Japan.",
+        "RIKEN SPring-8 Center, 1-1-1 Kouto, Sayo-cho, Sayo-gun, Hyogo 679-5148, Japan.",
+        "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Furukawa, Ayako",
+        "short_name": "Furukawa A",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan.",
+          "Graduate School of Agriculture, Kyoto University, Kitashirakawa Oiwake-cho, Sakyo-ku, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Yonezawa, Kento",
+        "short_name": "Yonezawa K",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Research Center, Institute of Materials Structure Science, High Energy Accelerator Research Organization (KEK), 1-1 Oho, Tsukuba, Ibaraki 305-0801, Japan.",
+          "Center for Digital Green-innovation (CDG), Nara Institute of Science and Technology (NAIST), 8916-5 Takayama, Ikoma, Nara 630-0192, Japan."
+        ]
+      },
+      {
+        "full_name": "Negami, Tatsuki",
+        "short_name": "Negami T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Graduate School of Agricultural and Life Sciences, the University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-8657, Japan."
+        ]
+      },
+      {
+        "full_name": "Yoshimura, Yuriko",
+        "short_name": "Yoshimura Y",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki 444-8585, Japan."
+        ]
+      },
+      {
+        "full_name": "Hayashi, Aki",
+        "short_name": "Hayashi A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki 444-8585, Japan."
+        ]
+      },
+      {
+        "full_name": "Nakayama, Jun-Ichi",
+        "short_name": "Nakayama JI",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Chromatin Regulation, National Institute for Basic Biology, Okazaki 444-8585, Japan.",
+          "Basic Biology Program, The Graduate Institute for Advanced Studies, SOKENDAI, Okazaki 444-8585, Japan."
+        ]
+      },
+      {
+        "full_name": "Adachi, Naruhiko",
+        "short_name": "Adachi N",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Research Center, Institute of Materials Structure Science, High Energy Accelerator Research Organization (KEK), 1-1 Oho, Tsukuba, Ibaraki 305-0801, Japan."
+        ]
+      },
+      {
+        "full_name": "Senda, Toshiya",
+        "short_name": "Senda T",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology Research Center, Institute of Materials Structure Science, High Energy Accelerator Research Organization (KEK), 1-1 Oho, Tsukuba, Ibaraki 305-0801, Japan."
+        ]
+      },
+      {
+        "full_name": "Shimizu, Kentaro",
+        "short_name": "Shimizu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Graduate School of Agricultural and Life Sciences, the University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-8657, Japan.",
+          "Department of Mathematical and Physical Sciences, Faculty of Science, Japan Women's University, 2-8-1 Mejirodai, Bunkyo-ku, Tokyo 112-0015, Japan."
+        ]
+      },
+      {
+        "full_name": "Terada, Tohru",
+        "short_name": "Terada T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Graduate School of Agricultural and Life Sciences, the University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-8657, Japan."
+        ]
+      },
+      {
+        "full_name": "Shimizu, Nobutaka",
+        "short_name": "Shimizu N",
+        "identifiers": [],
+        "affiliations": [
+          "Photon Factory, Institute of Materials Structure Science, High Energy Accelerator Research Organization (KEK), 1-1 Oho, Tsukuba, Ibaraki 305-0801, Japan.",
+          "RIKEN SPring-8 Center, 1-1-1 Kouto, Sayo-cho, Sayo-gun, Hyogo 679-5148, Japan."
+        ]
+      },
+      {
+        "full_name": "Nishimura, Yoshifumi",
+        "short_name": "Nishimura Y",
+        "identifiers": [
+          "0000-0002-5148-3458"
+        ],
+        "affiliations": [
+          "Graduate School of Medical Life Science, Yokohama City University, 1-7-29 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa 230-0045, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Mar 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/27 16:08",
+    "fetched_at": "2026-09-21 17:08:33"
+  },
+  "links": {
+    "cites": [
+      "42404645",
+      "42212099",
+      "41372631",
+      "41091213"
+    ],
+    "refs": [
+      "38592759",
+      "37870432",
+      "37549295",
+      "37229310",
+      "37072228",
+      "36710442",
+      "36537242",
+      "35813402",
+      "34717733",
+      "34380923",
+      "34303931",
+      "34265844",
+      "33833657",
+      "33661100",
+      "33319830",
+      "32101700",
+      "32006288",
+      "31618757",
+      "31576635",
+      "31543265",
+      "30590679",
+      "30500535",
+      "29685391",
+      "29602697",
+      "29424691",
+      "29336876",
+      "28712725",
+      "28636604",
+      "28636597",
+      "27151198",
+      "26934956",
+      "26621095",
+      "26619985",
+      "26589065",
+      "26580045",
+      "25866658",
+      "25332400",
+      "24825911",
+      "24415761",
+      "23657843",
+      "23142645",
+      "21346195",
+      "21245376",
+      "21211724",
+      "21047797",
+      "19229944",
+      "18809570",
+      "17636449",
+      "17569554",
+      "17212484",
+      "15071554",
+      "14765118",
+      "12907790",
+      "12840071",
+      "11909520",
+      "11893491",
+      "11882902",
+      "11859155",
+      "11566886",
+      "11336697",
+      "11283354",
+      "11242054",
+      "11242053",
+      "10931937",
+      "8520220",
+      "8254673"
+    ],
+    "similar": [
+      "40138713",
+      "26934956",
+      "39193905",
+      "23142645",
+      "28636604",
+      "34139556",
+      "29685391",
+      "39383876",
+      "40152110",
+      "36537242",
+      "37870432",
+      "38664966",
+      "33660589",
+      "23585859",
+      "25588111",
+      "25332400",
+      "16687578",
+      "30845353",
+      "21245376",
+      "31476125",
+      "38895997",
+      "38048471",
+      "30590679",
+      "30181605",
+      "37116579",
+      "11336697",
+      "30007360",
+      "37400983",
+      "26562627",
+      "26319017",
+      "25151962",
+      "28636597",
+      "35728598",
+      "31152607",
+      "22815475",
+      "31952807",
+      "29336876",
+      "16762841",
+      "19270070",
+      "22493481",
+      "37380014",
+      "19783980",
+      "33661100",
+      "39192031",
+      "24825911",
+      "29467217",
+      "12805230",
+      "37302360",
+      "27090491",
+      "22622086",
+      "31701657",
+      "17242207",
+      "24584199",
+      "22768949",
+      "36533441",
+      "17314413",
+      "21666677",
+      "29487201",
+      "31130069",
+      "25047840",
+      "37988476",
+      "30940194",
+      "29491004",
+      "22205726",
+      "20962594",
+      "29339721",
+      "28059589",
+      "19808672",
+      "39122718",
+      "23392382",
+      "38592759",
+      "31866201",
+      "31799602",
+      "22427655",
+      "30514760",
+      "19498464",
+      "23645696",
+      "12231507",
+      "33536327",
+      "12037314",
+      "31618757",
+      "38370661",
+      "22514736",
+      "14765118",
+      "21576353",
+      "26157143",
+      "10938122",
+      "28942089",
+      "35447032",
+      "16283356",
+      "24619172",
+      "26084584",
+      "37839545",
+      "29263320",
+      "24415761",
+      "19788305",
+      "21211724",
+      "30016453",
+      "21472955",
+      "38403935"
+    ],
+    "review": [
+      "40138713",
+      "25588111"
+    ],
+    "pmc": [
+      "11930357"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40138713/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://rrc.nbrp.jp/references/list?pubmed=40138713",
+        "provider": "National BioResource Project",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": "NBRP resources"
+      },
+      {
+        "url": "http://hdl.handle.net/2433/293073",
+        "provider": "Kyoto University Research Information Repository - Articles",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf154",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

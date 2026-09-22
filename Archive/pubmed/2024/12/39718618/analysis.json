@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39718618",
+  "title": "pH induced structural and conformational changes in nucleocapsid protein leads to intermediate like conformation: a biophysical and computational approach.",
+  "authors": "Samad, Abdus; Hamza, Abu; Imam, Md Ali; Ahmad Chaudhary, Anis; Alawam, Abdullah S; Abdullah Almuqri, Eman; Islam, Asimul; Parveen, Shama",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2024-12-24",
+  "window": {
+    "start": "2024-12-23",
+    "end": "2024-12-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过光谱与分子动力学模拟表征SARS-CoV-2核衣壳蛋白在不同pH下的构象变化，揭示低pH下形成中间态，虽涉及无序蛋白与相分离/PPI背景，但未直接建模互作机制，方法以MD为主，对象与互作关联较弱。",
+  "abstract": "Nucleocapsid protein (N) of SARS-CoV-2 is a multivalent protein, which is responsible for viral replication, assembly, packaging and modulates host immune response. In this study, we report conformational measurements of N protein at different pH by observing transition in secondary and tertiary structural contents by biophysical and computational approaches. Spectroscopic measurements revealed that N protein loses its secondary and tertiary structure at extreme acidic pH while maintaining its native conformation at mild acidic and alkaline pH. Molecular dynamics simulation studies validated spectroscopic findings. Secondary structure estimation confirmed circular dichroism (CD) findings that participation of total number of average residues in formation of native structure is higher at physiological pH, and coil percentage is higher at acidic pH. In molten globule (MG) state, secondary structure is conserved but here, CD data reveal more random structure at low pH. In pre-MG, ANS (8-anilino-1-napthalene sulfonate) binds weakly to protein as compared to MG but here, ANS binds strongly to protein. All the above-mentioned findings suggested formation of intermediary like state at low pH, which can be attributed to an off-pathway species. Unravelling structural characteristics of N protein will help understand phase-separation, protein-protein interaction and host-immune response modulation behaviour, which will eventually help in designing novel therapeutic target against COVID-19.",
+  "abstract_zh": "SARS-CoV-2的核衣壳蛋白（N）是一种多价蛋白，负责病毒复制、组装、包装，并调节宿主免疫反应。在本研究中，我们通过生物物理和计算方法观察二级和三级结构含量的转变，报告了N蛋白在不同pH值下的构象测量。光谱测量显示，N蛋白在极端酸性pH下失去其二级和三级结构，而在温和酸性和碱性pH下保持其天然构象。分子动力学（molecular dynamics）模拟研究验证了光谱发现。二级结构估算确认了圆二色性（circular dichroism, CD）结果，即在生理pH下，参与天然结构形成的平均残基总数较高，而在酸性pH下，无规卷曲百分比更高。在熔球态（molten globule, MG）中，二级结构得以保留，但此处CD数据显示在低pH下存在更多无规结构。在前MG态中，ANS（8-苯胺基-1-萘磺酸盐）与蛋白的结合弱于MG态，但此处ANS与蛋白结合强烈。上述所有发现表明，在低pH下形成了中间态样状态，这可归因于一种非路径物种。揭示N蛋白的结构特征将有助于理解相分离（phase separation）、蛋白-蛋白相互作用及宿主免疫反应调节行为，最终有助于设计针对COVID-19的新型治疗靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39718618/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39718618/",
+  "paper_page_path": "papers/pubmed/39718618/index.html"
+}

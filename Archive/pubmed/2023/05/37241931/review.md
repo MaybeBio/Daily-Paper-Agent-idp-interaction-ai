@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors use multiscale (coarse-grained and all-atom) molecular dynamics simulations to investigate how hIAPP oligomers of different sizes (monomer, dimer, tetramer) interact with phase-separated raft membranes containing or lacking anionic lipid nanodomains (PS-clusters, GM1-clusters). They report that hIAPP binds preferentially to GM1-clusters, identify L16 and I26 as key lipid-anchoring residues on non-GM1 domains, observe lipid acyl chain order disruption in annular shells, and find beta-sheet formation in larger oligomers. They propose these interactions as key molecular events in amyloid disease pathogenesis.
+- **Visible evidence base** Abstract, Introduction, Results (Sections 2.1–2.6), Discussion, Conclusions, Materials and Methods (Section 4)
+- **Missing materials affecting confidence** Figures and tables referenced (Figures 1–10, SA1–SG3, Tables 1) are not provided. Supplementary figures are cited but unavailable. Simulation parameter details (e.g., exact Martini version, equilibration times, convergence criteria) are only partially described. No trajectory data or statistical error analysis details are shown.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computationally intensive multiscale simulation study addressing a biologically relevant question: how hIAPP oligomers interact with heterogeneous, phase-separated lipid membranes containing anionic lipid nanodomains. The multiscale approach (CG to AA) is appropriate and the simulation lengths are substantial. However, the manuscript has several significant issues that prevent full evaluation: key figures are not available for assessment, some claims appear to exceed what the presented evidence can support, and the presentation of results is sometimes unclear or internally inconsistent. The biological significance is potentially high, but the current evidence base is insufficient to fully establish the central claims.
+- **Who would be interested in the results, and why** Researchers in the fields of amyloid diseases (type 2 diabetes, neurodegeneration), membrane biophysics, and computational biochemistry would be interested. The study addresses the molecular mechanisms of hIAPP-membrane interactions, which is relevant to understanding cytotoxicity in type 2 diabetes. The identification of specific residues (L16, I26) and lipid preferences (GM1 > PS) could inform drug design efforts targeting early oligomer-membrane interactions. The methodological approach (multiscale CG-AA) may also interest computational biophysicists.
+- **Major strengths** 1) The multiscale approach combining CG (microsecond timescales) with AA (atomistic detail) is well-suited to the problem. 2) The membrane models include biologically relevant heterogeneity (Lo, Ld, Lod domains; PS and GM1 clusters) that goes beyond simpler homogeneous bilayers. 3) The study systematically examines oligomer size effects (monomer, dimer, tetramer). 4) The identification of residue-specific binding patterns and lipid preferences provides testable predictions. 5) The simulation lengths (up to 15-20 μs CG) are substantial and allow for meaningful sampling of binding events.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "L16 and I26 are the lipid anchoring residues of hIAPP binding to the Lod and PS-cluster domains" and that these are "major" binding sites.
+  - **Evidence pointer** Section 2.3, Figure 4, Figure 5
+  - **Concern** The claim that L16 and I26 are the major lipid anchoring residues is based on mindist analysis, but the figures supporting this are not provided. More critically, the manuscript does not report quantitative measures of residue-specific contact frequencies or binding free energies. The mindist plots alone (described as showing "dips") are insufficient to establish that these specific residues are the primary anchoring sites, especially for oligomers where multiple residues may contribute collectively. The claim is presented as a definitive finding, but the evidence as described is qualitative.
+  - **Why it matters** This is a central claim of the paper with potential implications for drug design. If the evidence is only qualitative and based on a single analysis method, the claim is overstated. The authors need to provide quantitative residue-specific contact analysis (e.g., contact probabilities, residence times) to support this conclusion.
+  - **Resolution test** Provide quantitative residue-specific contact frequency or occupancy data for each lipid type across all replicates and oligomer sizes. Show that L16 and I26 have significantly higher contact frequencies than other hydrophobic residues. If possible, compute per-residue binding free energies or potentials of mean force.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal consistency
+  - **Claim pointer** The authors state in the Discussion that "the ranking order of hIAPP-raft binding time was CO-raft > PS-raft > GM-raft" and that binding energy ranking is "GM1 > POPS > DLPC > DPPC > CHOL."
+  - **Evidence pointer** Section 3, Table 1, Figure 6
+  - **Concern** There is an apparent inconsistency in the reported binding times. In Section 2.2, the authors report average binding times of ~5 μs (CO-raft), ~2 μs (PS-raft), and ~0.7 μs (GM-raft). However, in the Discussion, they state the ranking as CO-raft > PS-raft > GM-raft, which is consistent. But the claim that GM1 binding is "much more strongly" preferred is based on binding time, which is a kinetic measure, not a thermodynamic one. Faster binding does not necessarily mean stronger binding. The authors conflate kinetic preference with thermodynamic affinity. Additionally, the binding energy data (Figure 6) is not available for assessment, and the reported values in the text are not quantified.
+  - **Why it matters** The central conclusion that hIAPP preferentially binds GM1-clusters is based on this evidence. If the authors are conflating kinetics with thermodynamics, the conclusion may be overstated. The manuscript needs to clearly distinguish between kinetic preference (faster binding) and thermodynamic affinity (stronger binding) and present both measures.
+  - **Resolution test** Clearly separate kinetic (binding time) and thermodynamic (binding energy) measures. Report quantitative binding energy values with error bars for each lipid type. Discuss whether faster binding to GM1 also corresponds to stronger binding, or whether the conclusion is only about kinetic preference.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "significant lipid acyl chain order disruption in the annular lipid shells surrounding the membrane-bound hIAPP aggregates" was observed, and that this represents membrane disruption.
+  - **Evidence pointer** Section 2.5, Figures 7-8, Figures SE1-SE3
+  - **Concern** The membrane disruption analysis is presented as a key finding, but the figures are not available. More importantly, the manuscript does not report the magnitude of the observed changes relative to statistical uncertainty. The text describes trends (e.g., "a general trend of decrease") but does not provide quantitative values with error estimates. For example, the APL change from 0.70 to 0.62 nm² for GM1 is described as a "dip," but it is unclear if this is statistically significant given the reported "large fluctuations" in the annular shell composition. The claim of "significant" disruption is not supported by statistical analysis as presented.
+  - **Why it matters** The membrane disruption claim is central to the proposed mechanism of hIAPP cytotoxicity. Without quantitative analysis showing statistically significant changes relative to controls and across replicates, the claim is not established.
+  - **Resolution test** Provide quantitative values for bilayer thickness, APL, and order parameter changes with standard errors or confidence intervals. Perform statistical tests (e.g., t-tests or ANOVA) comparing protein-bound vs. control conditions. Show that the observed changes are reproducible across all three replicates.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The authors state that "the CG simulation time based on the Martini force field is about four times faster than the real time based on the Martini diffusion rate of water" and therefore claim to have simulated "more than 1.5 milliseconds of biological processes."
+  - **Evidence pointer** Section 4.2
+  - **Concern** The claim of simulating 1.5 ms of biological time is based on a standard time-scaling factor for Martini CG simulations, but this factor is approximate and system-dependent. The authors present this as a definitive statement. More critically, the total CG simulation time of 400 μs across 27 systems does not mean each system was simulated for 400 μs; the per-system simulation time is not clearly stated. The claim of "more than 1.5 milliseconds" appears to be an extrapolation that may overstate the effective sampling.
+  - **Why it matters** The biological relevance of the simulation timescales is important for interpreting the results. Overstating the effective simulation time could mislead readers about the significance of the findings.
+  - **Resolution test** Clearly state the per-system simulation time for each of the 27 systems. Provide the total accumulated simulation time. Discuss the limitations of the time-scaling factor and present the effective timescale as an estimate with appropriate caveats.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The binding times are reported as averages across replicates, but the spread (standard deviation or range) is not reported. Given the "highly dynamic" nature of the system, this variability is important for assessing the reliability of the ranking.
+  - **Required correction** Report the standard deviation or range of binding times across replicates for each system.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Section 4.1
+  - **Evidence pointer** Section 4.1
+  - **Issue** The text states "the PS-raft or the GM-raft, some lipids on one lipid leaflet are replaced with POPS or GM1, respectively." However, the molecule counts listed appear to be swapped: the PS-raft section lists "36 GM1" and the GM-raft section lists "162 POPS." This appears to be a typographical error.
+  - **Required correction** Correct the molecule counts so that the PS-raft contains POPS and the GM-raft contains GM1, with the correct numbers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.6, Figure 10
+  - **Evidence pointer** Figure 10D,E
+  - **Issue** The text states that "the alpha structure was consistently found in hIAPP oligomers of all sizes and on all raft surfaces," but then notes that alpha structure was not observed in one replicate of the monomer on the PS-raft. This is contradictory.
+  - **Required correction** Clarify whether the statement refers to the average across replicates or to individual replicates. If the former, note the exception explicitly.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.2
+  - **Evidence pointer** Section 4.2
+  - **Issue** The AA simulation time is stated as 300 ns, but the equilibration protocol for the AA simulations is not described. It is unclear whether 300 ns is sufficient for equilibration of the protein-membrane system after the CG-to-AA transformation.
+  - **Required correction** Describe the AA equilibration protocol and justify the 300 ns simulation time as sufficient for the analyses performed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2
+  - **Issue** The text states "the replicate that bound to the bottom leaflet of the PS-raft was from an hIAPP monomer" and that a new simulation was performed. It is unclear whether the data from the original bottom-binding replicate was discarded or included in the analysis.
+  - **Required correction** Clarify whether the bottom-binding replicate was excluded from all subsequent analyses and whether the new simulation was used as a replacement.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3, Discussion
+  - **Evidence pointer** Section 3
+  - **Issue** The Discussion states that "hIAPP oligomers have a strong propensity to bind to the GM1 ganglioside of neurons other than to beta-cell membranes in the pancreas." This extrapolates from a model membrane study to a biological claim about cell-type specificity. The authors should be more cautious in this extrapolation.
+  - **Required correction** Soften this claim and acknowledge that the model membranes used here do not fully recapitulate the complexity of neuronal or beta-cell membranes.
+
+## Risk / unsupported claims
+- The claim that L16 and I26 are "the" lipid anchoring residues is not quantitatively supported by the evidence described (only qualitative mindist analysis is mentioned).
+- The claim of "significant" membrane disruption is not supported by statistical analysis as described.
+- The extrapolation from model membrane simulations to cell-type-specific biological claims (neurons vs. beta cells) is not supported by the data.
+- The claim of simulating "more than 1.5 milliseconds of biological processes" is an extrapolation based on an approximate time-scaling factor and may be overstated.
+- The statement that "both stable alpha and beta structures in the membrane-bound dimer and tetramer on all raft membranes suggests that both secondary structures may contribute to the formation of alpha-barrel pore and beta-barrel pore" is speculative and not directly supported by the simulation data presented.
+- The biological significance claim that these interactions "represent key molecular events of membrane damage associated with the pathogenesis of amyloid diseases" is an extrapolation from in silico observations to disease mechanisms without direct experimental validation.

@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, experimental procedures, and data availability statement. Figures and supplementary information are referenced but not fully provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the manuscript text. Figure images, supplementary figures, and raw data were not available for direct inspection.
+- **Shared manuscript claim summary** The authors characterize two cancer-associated mutations (R221C and R354H) in the dimerization domains of the tumor suppressor SPOP. They report that these mutations reduce SPOP oligomer size, weaken binding to the multivalent substrate DAXX, yet paradoxically enhance poly-ubiquitination activity. They attribute this enhanced activity to increased phase separation propensity of mutant SPOP with substrates, and propose a general strategy for designing separation-of-function mutations in phase-separating systems.
+- **Visible evidence base** Text descriptions of CG-MALS experiments with fitted isodesmic dissociation constants (Table 1), fluorescence anisotropy binding data (Table 1, Figure 4D-E), in-cell ubiquitination assays (Figure 4A-C), in vitro phase separation assays with titration series (Figure 5A-D), cellular localization studies (Figure 5E), CD spectroscopy (Figure S1A), and control experiments with SPOPE47K (Figure S4A).
+- **Missing materials affecting confidence** Actual figure images, supplementary figures S1-S4, raw light scattering data, raw binding isotherms, uncropped immunoblots, and detailed statistical analysis of replicates. The manuscript states "Data will be shared upon request" without a repository or accession number.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in the field of biomolecular condensates: how oligomerization state modulates the competition between cluster formation and phase separation, and how this impacts enzymatic function. The authors identify two clinically relevant SPOP mutations and provide a coherent biophysical framework linking reduced oligomer size to enhanced phase separation and increased ubiquitination activity. The work is conceptually interesting and the proposed mechanism is plausible, but several technical concerns regarding the quantitative rigor of the phase separation assays, the interpretation of the ubiquitination data, and the generalizability of the proposed design principle require clarification before the conclusions can be fully accepted.
+- **Who would be interested in the results, and why** Researchers studying phase separation and biomolecular condensates, particularly those interested in how oligomerization and multivalency govern condensate formation and function. The work is also relevant to the ubiquitin-proteasome system community, cancer biologists studying SPOP mutations, and investigators interested in the functional distinction between soluble complexes and condensates. The proposed strategy for generating separation-of-function mutations could be of broad interest to the condensate field.
+- **Major strengths** The study addresses a conceptually important question with potential therapeutic relevance. The combination of biophysical characterization (CG-MALS), binding assays, enzymatic assays, and phase separation experiments provides a multi-pronged approach. The identification of clinically relevant mutations adds translational significance. The proposed mechanistic explanation, linking reduced oligomer size to enhanced phase separation via reduced packing density, is intellectually appealing and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of phase separation quantification
+  - **Claim pointer** The authors claim that SPOPR221C and SPOPR354H "enhance phase separation with substrates" based on a lowered saturation concentration for condensate formation.
+  - **Evidence pointer** Figure 5B, 5D; text in "SPOP interface mutants enhance phase separation with substrates"
+  - **Concern** The phase separation assays are described only qualitatively. The text states that "the boundary between clusters and condensates is shifted" but no quantitative measure of the saturation concentration is provided. The authors do not report how the boundary was determined, what criteria distinguished clusters from condensates, or whether these assignments were blinded. Without quantitative phase diagrams with error bars and statistical comparison across conditions, the claim of enhanced phase separation is not rigorously established.
+  - **Why it matters** The central mechanistic conclusion of the paper, that enhanced phase separation explains increased ubiquitination activity, rests entirely on this qualitative observation. If the phase boundary shift is not robustly quantified, the proposed mechanism is not supported.
+  - **Resolution test** Provide quantitative phase diagrams with multiple replicate measurements, define objective criteria for cluster versus condensate classification, and report statistical significance of the boundary shift. Alternatively, provide an orthogonal quantitative measure of phase separation propensity, such as turbidity assays or fluorescence recovery after photobleaching.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between phase separation and ubiquitination activity
+  - **Claim pointer** The authors state that "enhanced activity may be explained by enhanced phase separation of DAXX with the SPOP mutants" and conclude that "phase separation is an important factor in SPOP function."
+  - **Evidence pointer** Figure 4A-C, Figure 5A-E; Discussion section
+  - **Concern** The manuscript establishes a correlation between enhanced phase separation and enhanced ubiquitination activity, but does not demonstrate causation. No experiment directly manipulates phase separation (e.g., using 1,6-hexanediol, altering crowding conditions, or using mutants that separate phase separation from enzymatic activity) to show that the increased ubiquitination is dependent on condensate formation. The possibility remains that the enhanced activity is due to other consequences of reduced oligomer size, such as altered substrate processivity or changes in SPOP conformational dynamics.
+  - **Why it matters** The paper's central claim is that phase separation is functionally important for SPOP activity. Without a causal experiment, the conclusion is correlative and the proposed model is not uniquely supported.
+  - **Resolution test** Perform experiments that disrupt or enhance phase separation independently of oligomerization state and measure ubiquitination activity. Alternatively, use mutants that separate phase separation propensity from oligomer size to test whether the correlation holds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the proposed design principle
+  - **Claim pointer** The authors propose that "tuning of linear SPOP self-association could be used by the cell to modulate activity" and suggest "a route for designing separation-of-function mutations in other phase-separating systems."
+  - **Evidence pointer** Discussion section
+  - **Concern** The proposed design principle is based on a single system with two mutations. The authors do not provide evidence that the relationship between oligomer size, phase separation, and activity is generalizable. The claim that this represents a general strategy for other phase-separating systems is speculative and not supported by data from other systems.
+  - **Why it matters** The broader significance of the work, and its potential impact beyond the SPOP field, depends on the generalizability of the proposed principle. Overstating the generality without supporting evidence weakens the manuscript's contribution.
+  - **Resolution test** Either temper the claims of generalizability or provide additional examples from other systems demonstrating the same principle.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** "Data availability" section
+  - **Issue** The data availability statement says "Data will be shared upon request" without a repository or accession number. This is not consistent with current best practices for data sharing and may limit reproducibility.
+  - **Required correction** Deposit raw data (light scattering, binding isotherms, microscopy images) in a public repository and provide accession numbers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Table 1, Figure 4, Figure 5
+  - **Evidence pointer** Table 1; figure legends for Figures 4 and 5
+  - **Issue** The number of replicates is stated for binding assays ("mean from at least three replicates ± S.D.") but not for ubiquitination assays or phase separation experiments. Statistical tests are not described for any comparison.
+  - **Required correction** Report the number of independent replicates for all quantitative experiments and describe the statistical tests used for comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarification of model assumptions
+  - **Affected element** Discussion section, paragraph 1
+  - **Evidence pointer** Discussion section
+  - **Issue** The proposed mechanism for why reduced oligomer size enhances phase separation (more space per bound DAXX molecule, lower DAXX concentration in the dense phase being energetically favorable) is presented as a post-hoc explanation without direct experimental support.
+  - **Required correction** Acknowledge this as a hypothesis and suggest specific experiments that could test it, or provide additional data supporting the proposed energetic argument.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of mutant characterization
+  - **Affected element** Figure 4A-C, Table 1
+  - **Evidence pointer** Figure 4, Table 1
+  - **Issue** The manuscript does not report whether the R221C and R354H mutations affect SPOP expression levels, stability, or subcellular localization in the cell-based assays. The authors note that SPOPW131G levels are typically higher, but do not comment on the interface mutants.
+  - **Required correction** Include data on expression levels and localization for all mutants used in cell-based assays.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative phase separation data) and R1-M2 (causal link between phase separation and activity) are the primary technical issues. Without addressing these, the central claims of the manuscript are not fully supported.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of tuning oligomer size to modulate the competition between cluster formation and phase separation is novel and interesting. The identification of separation-of-function mutations in a disease-relevant protein adds value.
+  - **Scientific importance** The question of how condensates versus soluble complexes contribute to function is of broad importance. The work has potential implications for understanding SPOP mutations in cancer and for the condensate field more generally.
+  - **Interdisciplinary readership** The work bridges biophysics, cell biology, and cancer biology, and would appeal to readers across these disciplines.
+  - **Technical soundness** The biophysical characterization (CG-MALS, binding assays) appears sound, but the phase separation quantification is insufficiently rigorous, and the causal link between phase separation and activity is not established.
+  - **Readability for nonspecialists** The manuscript is generally well written and accessible, though some sections assume familiarity with condensate terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is valuable and the data are largely consistent with the proposed model, but the quantitative rigor of the phase separation assays and the lack of a causal experiment linking phase separation to activity must be addressed.
+
+## Risk / unsupported claims
+- The claim that phase separation is causally responsible for enhanced ubiquitination activity is not supported by the data; only a correlation is shown.
+- The claim that the proposed design principle is generalizable to other phase-separating systems is speculative and unsupported.
+- The statement that "the shorter SPOP oligomers formed by the interface mutants could provide more space per bound DAXX molecule" is a hypothesis without direct structural or biophysical evidence.
+- The assertion that the mutations are "potentially pathogenic" based on their presence in cancer patients is reasonable but not directly tested in this study.
+- The claim that "phase separation is an important factor in SPOP function" is supported only indirectly and requires the causal experiments described above.

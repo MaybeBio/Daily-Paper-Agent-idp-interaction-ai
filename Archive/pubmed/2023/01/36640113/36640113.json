@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "36640113",
+    "doi": "10.1021/acs.biomac.2c01148",
+    "title": "Phase-Separation Propensity of Non-ionic Amino Acids in Peptide-Based Complex Coacervation Systems."
+  },
+  "content": {
+    "abstract": "Uncovering the sequence-encoded molecular grammar that governs the liquid-liquid phase separation (LLPS) of proteins is a crucial issue to understand dynamic compartmentalization in living cells and the emergence of protocells. Here, we present a model LLPS system that is induced by electrostatic interactions between anionic nucleic acids and cationic oligolysine peptides modified with 12 different non-ionic amino acids, with the aim of creating an index of \"phase-separation propensity\" that represents the contribution of non-ionic amino acids to LLPS. Based on turbidimetric titrations and microscopic observations, the lower critical peptide concentrations where LLPS occurs (C(crit)) were determined for each peptide. A correlation analysis between these values and known amino acid indices unexpectedly showed that eight non-ionic amino acids inhibit the generation of LLPS, whereby the extent of inhibition increases with increasing hydrophobicity of the amino acids. However, three aromatic amino acids deviate from this trend and rather markedly promote LLPS despite their high hydrophobicity. A comparison with double-stranded DNA and polyacrylic acid revealed that this is primarily due to interactions with DNA nucleobases. Our approach to quantify the contribution of non-ionic amino acids can be expected to help to provide a more accurate description and prediction of the LLPS propensity of peptides/proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Amino Acids",
+      "*DNA",
+      "Peptides"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akahoshi, Yuto",
+        "Sugai, Hiroka",
+        "Mimura, Masahiro",
+        "Shinkai, Yoichi",
+        "Kurita, Ryoji",
+        "Shiraki, Kentaro",
+        "Tomita, Shunsuke"
+      ],
+      "short_names": [
+        "Akahoshi Y",
+        "Sugai H",
+        "Mimura M",
+        "Shinkai Y",
+        "Kurita R",
+        "Shiraki K",
+        "Tomita S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5957-0011",
+        "ORCID: 0000-0001-5666-9561",
+        "ORCID: 0000-0003-3438-4076",
+        "ORCID: 0000-0002-0586-6976"
+      ],
+      "affiliations": [
+        "Faculty of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki305-8573, Japan.",
+        "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki305-8566, Japan.",
+        "Faculty of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki305-8573, Japan.",
+        "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki305-8566, Japan.",
+        "Faculty of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki305-8573, Japan.",
+        "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki305-8566, Japan.",
+        "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki305-8566, Japan.",
+        "Faculty of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki305-8573, Japan.",
+        "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki305-8566, Japan.",
+        "Faculty of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki305-8573, Japan.",
+        "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki305-8566, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akahoshi, Yuto",
+        "short_name": "Akahoshi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki305-8573, Japan.",
+          "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki305-8566, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugai, Hiroka",
+        "short_name": "Sugai H",
+        "identifiers": [
+          "0000-0002-5957-0011"
+        ],
+        "affiliations": [
+          "Faculty of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki305-8573, Japan.",
+          "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki305-8566, Japan."
+        ]
+      },
+      {
+        "full_name": "Mimura, Masahiro",
+        "short_name": "Mimura M",
+        "identifiers": [],
+        "affiliations": [
+          "Faculty of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki305-8573, Japan.",
+          "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki305-8566, Japan."
+        ]
+      },
+      {
+        "full_name": "Shinkai, Yoichi",
+        "short_name": "Shinkai Y",
+        "identifiers": [],
+        "affiliations": [
+          "Biomedical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki305-8566, Japan."
+        ]
+      },
+      {
+        "full_name": "Kurita, Ryoji",
+        "short_name": "Kurita R",
+        "identifiers": [
+          "0000-0001-5666-9561"
+        ],
+        "affiliations": [
+          "Faculty of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki305-8573, Japan.",
+          "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki305-8566, Japan."
+        ]
+      },
+      {
+        "full_name": "Shiraki, Kentaro",
+        "short_name": "Shiraki K",
+        "identifiers": [
+          "0000-0003-3438-4076"
+        ],
+        "affiliations": [
+          "Faculty of Pure and Applied Sciences, University of Tsukuba, 1-1-1 Tennodai, Tsukuba, Ibaraki305-8573, Japan."
+        ]
+      },
+      {
+        "full_name": "Tomita, Shunsuke",
+        "short_name": "Tomita S",
+        "identifiers": [
+          "0000-0002-0586-6976"
+        ],
+        "affiliations": [
+          "Health and Medical Research Institute, National Institute of Advanced Industrial Science and Technology (AIST), 1-1-1 Higashi, Tsukuba, Ibaraki305-8566, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2023 Feb 13",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/15 06:00",
+    "fetched_at": "2026-09-20 18:32:20"
+  },
+  "links": {
+    "cites": [
+      "42307228",
+      "41988074",
+      "41883062",
+      "41469832",
+      "41034201",
+      "40984006",
+      "40490569",
+      "37325682",
+      "37234848"
+    ],
+    "refs": [],
+    "similar": [
+      "36640113",
+      "38804888",
+      "36443315",
+      "37764485",
+      "38512104",
+      "34422830",
+      "38862770",
+      "39256186",
+      "33876938",
+      "36762833",
+      "37480340",
+      "36703474",
+      "29696483",
+      "34222258",
+      "32961238",
+      "34179096",
+      "36702825",
+      "29511089",
+      "38205268",
+      "26849155",
+      "36444977",
+      "34156864",
+      "36450893",
+      "31971365",
+      "34152774",
+      "33827920",
+      "33809541",
+      "36328544",
+      "32852935",
+      "36378745",
+      "34984429",
+      "36551199",
+      "30342746",
+      "21798546",
+      "30205960",
+      "34645986",
+      "22024343",
+      "34496937",
+      "35543798",
+      "30913985",
+      "21568346",
+      "29555476",
+      "35962177",
+      "36537242",
+      "30996987",
+      "32824618",
+      "33356290",
+      "35142991",
+      "36310209",
+      "35883530",
+      "34911929",
+      "34522448",
+      "37093110",
+      "35198873",
+      "7921171",
+      "914939",
+      "35180629",
+      "33686854",
+      "38177438",
+      "11427046",
+      "34499080",
+      "34436789",
+      "36148614",
+      "31941785",
+      "39386696",
+      "31853649",
+      "33982369",
+      "31430708",
+      "31097543",
+      "34106723",
+      "33735576",
+      "23912807",
+      "32615218",
+      "36768473",
+      "30970637",
+      "34816836",
+      "28460527",
+      "35867936",
+      "12395947",
+      "36310223",
+      "31691822",
+      "33517364",
+      "16671727",
+      "37287138"
+    ],
+    "review": [
+      "36640113",
+      "35543798",
+      "32824618",
+      "35142991",
+      "34522448"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.2c01148",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

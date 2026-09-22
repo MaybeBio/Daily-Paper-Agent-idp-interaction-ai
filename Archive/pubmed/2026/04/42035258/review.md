@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text, abstract, and figure captions as provided
+- **Assessment boundary** Methodological soundness, validation against stated claims, reproducibility of the described protocol, and interpretation of results within the provided text
+- **Shared manuscript claim summary** The authors present an optimized contact map for GōMartini 3 simulations that incorporates high-frequency contacts derived from all-atom molecular dynamics trajectories. They claim this approach reduces the number of Gō contacts by approximately 20–30%, improves conformational sampling in protein assemblies, and preserves structural stability relative to the standard GōMartini 3 approach. The method is validated on three single-chain globular proteins and the SARS-CoV-2 spike protein.
+- **Visible evidence base** Abstract, introduction, materials and methods, results and discussion, conclusion, figure captions for Figures 1–4, Table 1, and references to supplemental figures and tables
+- **Missing materials affecting confidence** Supplemental figures S1–S8 and Table S1 are referenced but not provided. The GitHub repository and Zenodo deposition are cited but not accessible within the review scope. Full simulation parameter files, convergence analysis details, and the complete ContactFreq algorithm code are not available for inspection.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant limitation in coarse-grained simulation of large protein assemblies, namely the over-constraining effect of static contact maps derived from a single experimental structure. The concept of using high-frequency contacts from all-atom simulations to refine the Gō contact set is sensible and potentially useful. However, the evidence presented in the provided text is insufficient to fully establish the claimed advantages. The validation on single-chain globular proteins shows only marginal differences from the standard approach, and the spike protein analysis, while more promising, relies on comparisons to a relatively short atomistic simulation and lacks quantitative metrics for conformational state identification. The manuscript would benefit from clearer presentation of the convergence analysis, more direct comparison of the optimized models against experimental observations, and additional discussion of the limitations and applicability domain of the method.
+- **Who would be interested in the results, and why** Researchers in the coarse-grained simulation community, particularly those using Martini 3 and GōMartini 3 for studying large protein complexes, conformational transitions, and dynamic assemblies. The work may also interest experimental structural biologists who use computational methods to interpret cryo-EM structures and explore conformational ensembles. The open-source tool could be adopted by practitioners seeking to improve sampling efficiency in their own simulations.
+- **Major strengths** The manuscript identifies a genuine limitation in the standard GōMartini 3 approach and proposes a practical, data-driven solution. The method leverages existing all-atom simulation data, aligning with FAIR principles and promoting data reuse. The application to the SARS-CoV-2 spike protein is a relevant and challenging test case. The authors provide an open-source implementation, which enhances reproducibility and community uptake.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the optimized contact map "improves sampling efficiency and expands the accessible conformational landscape" and that the method "enables conformational changes in protein assemblies."
+  - **Evidence pointer** Results and discussion, section "Application in a large-scale protein system", Figures 3 and 4, Table 1
+  - **Concern** The central claim of improved conformational sampling is supported primarily by qualitative observations of the free-energy landscape and metastable state identification. The manuscript does not provide quantitative metrics for sampling efficiency, such as convergence times, effective sample sizes, or comparison of free-energy barriers between the standard and optimized models. The identification of metastable states via ML-DBSCAN is described, but the statistical significance of the differences between models is not assessed. Furthermore, the comparison to the atomistic reference is based on a single 320 ns simulation per replica, which may not be sufficient to capture the full conformational ensemble of the spike protein, particularly for slow domain motions.
+  - **Why it matters** Without quantitative evidence, the claimed improvement in sampling efficiency cannot be rigorously evaluated. The reader cannot determine whether the observed differences arise from the method itself or from stochastic variability between simulations. This weakens the central contribution of the work.
+  - **Resolution test** Provide quantitative measures of sampling efficiency, such as the number of transitions between metastable states per unit simulation time, the free-energy differences between states, or the time to first passage between states. Include error bars or confidence intervals on these metrics across replicas. If possible, compare the optimized models against a longer atomistic simulation or against experimental data on spike protein conformational dynamics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "including intra- and interchain high-frequency contacts in protein assemblies captures structural flexibility and domain dynamics" and that the optimized-3 model "outperformed the other models by exhibiting multiple high-probability states."
+  - **Evidence pointer** Results and discussion, section "Application in a large-scale protein system", Figure 4, Table 1
+  - **Concern** The comparison between the optimized models and the standard GōMartini 3 model is incomplete. The manuscript reports the number of metastable states and their probabilities for the optimized models but does not provide the corresponding analysis for the standard model in the same format. The statement that the standard model "sampled a narrower conformational space" is based on a single free-energy landscape plot, but the number of states and their probabilities for the standard model are not reported in Table 1. This makes it difficult to assess the magnitude of the improvement.
+  - **Why it matters** A direct, quantitative comparison between the proposed method and the existing standard is essential to establish the added value of the approach. Without this, the reader cannot determine whether the optimized models genuinely outperform the standard or merely sample different regions of conformational space.
+  - **Resolution test** Include the metastable state analysis for the standard GōMartini 3 model in Table 1 and Figure 4, with the same metrics (number of states, probabilities, contact counts) used for the optimized models. Provide a statistical comparison of the state distributions between models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe a protocol for identifying high-frequency contacts and generating optimized GōMartini 3 topologies, and state that "all the scripts used in this protocol are available at https://github.com/GoMartini3-tools/ContactFreq/tree/main."
+  - **Evidence pointer** Materials and methods, section "CM determination protocol"
+  - **Concern** The description of the ContactFreq algorithm is incomplete. The manuscript mentions two Python scripts, traj_to_pdf.py and contact_freq.py, and describes their key parameters, but does not provide sufficient detail on the algorithm logic, such as how contacts are defined across frames, how the frequency threshold is applied, how the reference frame is selected, and how additional high-frequency contacts not present in the reference structure are incorporated. The convergence analysis for the frequency threshold is referenced to the supplemental information but not described in the main text.
+  - **Why it matters** Reproducibility is a core requirement for methodological contributions. Without a complete description of the algorithm, other researchers cannot implement or adapt the method independently, even with access to the code.
+  - **Resolution test** Provide a detailed algorithmic description in the main text or supplemental information, including pseudocode or a flowchart. Describe the convergence analysis in sufficient detail to understand how the threshold of 0.7 was selected. Ensure the GitHub repository contains documentation and example inputs/outputs.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and methods, section "CM determination protocol"
+  - **Evidence pointer** "For the case of the S protein, we evaluated three different CM configurations1: a first optimized CM including all HFC (5,408), both inter- and intrachain contacts of the reference structure, and additional ones that are not found in that structure but are mapped along the AA trajectory2; a second optimized CM including only interchain HFC, while the intrachain part was treated as nonhigh frequency (6,973). Similarly, the reference frame containing HFC was selected.3 A third optimized CM included only HFC of the inter- and intrachain space (4,966), using the reference frame containing HFC as well."
+  - **Issue** The numbering of the three configurations is confusing due to the use of superscript numbers within the sentence, which could be mistaken for references. The description of the differences between the configurations is not immediately clear.
+  - **Required correction** Rewrite this section with clear labels (e.g., "Configuration 1", "Configuration 2", "Configuration 3") and present the differences in a structured format, such as a table or bulleted list.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results and discussion, section "Application in a large-scale protein system"
+  - **Evidence pointer** "Notably, optimized-2 presented two states, and optimized-3 presented four states, all of them with p > 0.5."
+  - **Issue** The statement that all states have p > 0.5 is ambiguous. It is unclear whether this refers to the probability of each individual state or the cumulative probability of all states. If each state has p > 0.5, the probabilities would sum to greater than 1, which is not possible for mutually exclusive states.
+  - **Required correction** Clarify the meaning of the probability values. If the states are not mutually exclusive, explain how they are defined. If they are mutually exclusive, report the individual probabilities and ensure they sum to 1.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and discussion, section "Application in a large-scale protein system"
+  - **Evidence pointer** "Notably, S4E corresponds to a more extended RBD-up conformation, consistent with experimentally observed structures (PDB ID: 7SBL and 7UPY)"
+  - **Issue** The comparison to experimentally observed structures is mentioned but not shown. It is unclear how the simulated conformation was aligned or compared to the experimental structures, and what metric was used to establish consistency.
+  - **Required correction** Provide a quantitative comparison, such as root-mean-square deviation values between the simulated and experimental structures, or a figure showing the overlay.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Materials and methods, section "AA-MD simulations"
+  - **Evidence pointer** "Production simulations were conducted for 1 μs with five independent replicas in the NPT ensemble, using an integration time step of 2 fs with the leap-frog integrator."
+  - **Issue** The manuscript does not specify the temperature and pressure coupling parameters for the production runs, nor the barostat and thermostat algorithms used. This information is essential for reproducing the simulations.
+  - **Required correction** Add the missing simulation parameters, including the thermostat and barostat algorithms, coupling constants, and reference temperature and pressure.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking concerns. The lack of quantitative sampling metrics and the incomplete comparison to the standard model prevent the central claims from being fully evaluated. R1-M3, while not blocking, is important for reproducibility and should be addressed.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of using high-frequency contacts from all-atom simulations to refine Gō contact maps is a reasonable extension of existing work, particularly the perturbation-based optimization approach (PoGō) cited by the authors. The originality lies primarily in the specific application to large assemblies and the systematic evaluation of different contact selection criteria. However, the conceptual novelty is incremental rather than transformative.
+  - **Scientific importance** The work addresses a practical limitation in coarse-grained simulation of large protein assemblies, which is relevant to a broad community studying conformational dynamics. The potential to improve sampling efficiency without compromising stability is valuable. However, the importance is somewhat tempered by the marginal improvements observed for single-chain proteins and the lack of quantitative evidence for the spike protein case.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biophysicists and molecular modelers. The application to the SARS-CoV-2 spike protein may attract attention from virologists and structural biologists, but the methodological focus limits broader interdisciplinary appeal.
+  - **Technical soundness** The simulation protocols are generally sound, and the use of multiple replicas is appropriate. However, the lack of quantitative sampling metrics and the incomplete comparison to the standard model are significant weaknesses. The convergence analysis for the frequency threshold is not described in sufficient detail.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with coarse-grained simulation methods. The abstract is accessible, but the methods and results sections may be challenging for nonspecialists. The figures are informative but would benefit from clearer annotations and more detailed captions.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the application to the spike protein is relevant, but the current evidence does not fully establish the claimed advantages. The authors should provide quantitative sampling metrics, a direct comparison to the standard model, and a more complete description of the algorithm and convergence analysis.
+
+## Risk / unsupported claims
+- The claim that the optimized contact map "improves sampling efficiency" is not quantitatively supported by the provided evidence.
+- The claim that the optimized-3 model "outperformed the other models" is not supported by statistical analysis.
+- The claim that the method "enables conformational changes in protein assemblies" is only demonstrated for a single system (SARS-CoV-2 spike protein) and may not generalize.
+- The statement that the standard GōMartini 3 model "sampled a narrower conformational space" is not directly supported by the data presented in the main text.
+- The assertion that the method "preserves structural stability" is based on RMSD and RMSF comparisons, but the statistical significance of these comparisons is not assessed.
+- The claim that the method is "generalizable" is not supported by the limited validation on three single-chain proteins and one assembly.

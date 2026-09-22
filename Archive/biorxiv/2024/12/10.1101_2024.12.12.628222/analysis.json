@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.12.628222",
+  "title": "NRBP1 and TSC22D proteins impact distal convoluted tubule physiology through modulation of the WNK pathway",
+  "authors": "Magaña-Ávila G; Carbajal-Contreras H; Amnekar R; Dite T; Téllez-Sutterlin M; García-Ávila K; Marquina-Castillo B; Lopez-Saavedra A; Vazquez N; Rojas-Ortega E; Delpire E; Ellison DH; Alessi DR; Gamba G; Castañeda-Bueno M",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-17",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究NRBP1与TSC22D蛋白通过调节WNK激酶信号影响肾脏远端小管生理，涉及WNK凝聚体（生物分子凝聚体）中的蛋白互作，但方法以实验为主，缺乏AI或物理模拟建模，机制深度有限。",
+  "abstract": "The With No lysine (WNK) kinases regulate processes such as cell volume and epithelial ion transport through the modulation of Cation Chloride Cotransporters such as the NaCl cotransporter, NCC, present in the distal convoluted tubule (DCT) of the kidney. Recently, the interaction of WNKs with Nuclear Receptor Binding Protein 1 (NRBP1) and Transforming Growth Factor β-Stimulated Clone 22 Domain (TSC22D) proteins was reported. Here we explored the effect of NRBP1 and TSC22Ds on WNK signaling in vitro and in the DCT. TSC22D1.1, TSC22D2, and NRBP1 are localized in DCT WNK bodies, which are cytoplasmic biomolecular condensates associated with WNK activation. In HEK293 cells, long TSC22D isoforms and NRBP1 increase WNK4 activity. DCT-specific NRBP1 knockout mice have reduced NCC phosphorylation and activate a compensatory response. Thus, NRBP1 and long TSC22D proteins are positive modulators of WNK signaling and modulate Na + reabsorption in the kidney. NRBP1 and TSC22Ds likely influence WNK signaling in other tissues, impacting various physiological processes. <h4>Teaser</h4> The pseudokinase NRBP1 and its associated TSC22D proteins modulate WNK kinases to regulate sodium reabsorption in the kidney.",
+  "abstract_zh": "无赖氨酸 (WNK) 激酶通过调节阳离子氯化物共转运体（如存在于肾脏远曲小管（DCT）中的NaCl共转运体NCC）来调控细胞体积和上皮离子转运等过程。近期，有研究报道了WNK与核受体结合蛋白1（NRBP1）及转化生长因子β刺激克隆22结构域（TSC22D）蛋白之间的相互作用。在此，我们探讨了NRBP1和TSC22Ds在体外及DCT中对WNK信号传导的影响。TSC22D1.1、TSC22D2和NRBP1定位于DCT WNK小体中，这些是细胞质中的生物分子凝聚体，与WNK激活相关。在HEK293细胞中，长型TSC22D亚型和NRBP1增强WNK4活性。DCT特异性NRBP1敲除小鼠表现出NCC磷酸化减少，并激活代偿性反应。因此，NRBP1和长型TSC22D蛋白是WNK信号的正向调节因子，并调节肾脏中Na+的重吸收。NRBP1和TSC22Ds可能在其他组织中影响WNK信号传导，从而影响多种生理过程。<h4>摘要</h4> 伪激酶NRBP1及其相关TSC22D蛋白调节WNK激酶，以调控肾脏中的钠重吸收。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.12.628222",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.12.628222",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.12.628222/index.html"
+}

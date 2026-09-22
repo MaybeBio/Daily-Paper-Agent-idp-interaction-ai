@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, figure legends not provided)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and alignment with stated conclusions
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations to show that yeast FG-Nups containing GLFG motifs phase separate into liquid-like condensates, while FxFG-Nups do not. They identify FG motifs as "stickers" forming highly dynamic hydrophobic cross-links with lifetimes below 1 ns, and propose a two-class categorization of FG-Nups with distinct roles in NPC permeability barrier organization.
+- **Visible evidence base** Main text results sections, methods descriptions, references to SI figures and tables (not provided)
+- **Missing materials affecting confidence** SI Appendix (all figures and tables referenced), figure files, full methods details for 1BPA model calibration, experimental comparison data
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic computational study of phase separation behavior across all yeast FG-Nups, with a clear two-class categorization that is both novel and biologically plausible. The central claims regarding FG motif-driven phase separation and the dynamic nature of FG-FG interactions are supported by the simulation data presented, though the absence of the SI Appendix limits full verification of several quantitative claims. The work is technically sound within the stated scope of coarse-grained modeling, and the authors appropriately acknowledge the limitations of relating their findings to the intact NPC. The writing is clear and accessible, with a logical progression from homotypic to multicomponent systems.
+- **Who would be interested in the results, and why** Researchers studying nuclear pore complex structure and function, particularly those investigating the physical basis of the permeability barrier. The work also has relevance for the broader field of biomolecular condensates and phase separation of intrinsically disordered proteins, as it provides a systematic comparison of sequence determinants across a protein family. Computational biophysicists interested in coarse-grained modeling of disordered proteins will find the methodological approach of interest.
+- **Major strengths** 1) Systematic coverage of all yeast FG-Nups with consistent methodology, enabling direct comparison. 2) Clear two-class categorization (GLFG vs FxFG) with mechanistic explanation based on motif density and spacer cohesiveness. 3) Quantitative analysis of FG-FG interaction lifetimes, providing a concrete timescale for the "highly dynamic" claim. 4) Appropriate caution in interpreting results for the intact NPC, acknowledging the difference between free and tethered FG-Nups. 5) Use of Gaussian cluster theory to obtain full phase diagrams, strengthening the conclusion that non-phase-separating FG-Nups are not limited by finite simulation size.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence quality
+  - **Claim pointer** "The FG motifs are essential in doing so, forming highly dynamic hydrophobic FG–FG cross-links with interaction life times below 1 ns"
+  - **Evidence pointer** SI Appendix, Fig. S14; main text Results section "Phase Separation of FG-Nups Is Driven by FG Motifs"
+  - **Concern** The claim of sub-nanosecond interaction lifetimes is presented as a key quantitative finding, but the correction for coarse-grained dynamics speed-up is only briefly mentioned in the Methods ("More details on the model and the coarse-grained dynamics speed-up factor are provided in SI Appendix"). The reliability of this correction factor is critical for the validity of the absolute timescale claim.
+  - **Why it matters** The sub-nanosecond lifetime is a central quantitative result that distinguishes this work from prior studies. If the speed-up correction is uncertain, the absolute timescale claim is correspondingly uncertain, even if the relative ordering of interaction stabilities remains valid.
+  - **Resolution test** Provide the speed-up factor derivation and validation in the SI, including comparison to atomistic simulations or experimental measurements where available. State the uncertainty range on the corrected lifetime.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The phase diagrams of the GLFG-Nups are very similar and display critical temperatures for phase separation in the range of 340 to 380 K"
+  - **Evidence pointer** SI Appendix, Fig. S7; SI Appendix, section 2
+  - **Concern** The Gaussian cluster theory (GCT) approach is used to compute full phase diagrams from single-chain simulations. The validity of GCT for this class of multivalent disordered proteins, where cooperative interactions may be important, is not discussed. The agreement with direct simulation results is stated but not shown in the main text.
+  - **Why it matters** The phase diagram calculation is used to argue that non-phase-separating FG-Nups will not phase separate at any concentration at 300 K. If GCT systematically underestimates critical temperatures for these systems, this conclusion could be incorrect.
+  - **Resolution test** Show a direct comparison between GCT-predicted phase boundaries and brute-force simulation results for at least one phase-separating and one non-phase-separating FG-Nup. Discuss the known limitations of GCT for disordered proteins with sticker-spacer architectures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Our findings suggest that the FG-Nups of the NPC can be categorized into two classes: GLFG-Nups that phase separate and FxFG-Nups that do not, suggesting distinct roles in establishing the NPC's permeability barrier"
+  - **Evidence pointer** Main text Results sections "Phase Separation of FG-Nups Is Driven by FG Motifs" and "Phase Separation of Bimodal FG-Nups"
+  - **Concern** The two-class categorization is based on simulations of isolated FG domains. The authors acknowledge that tethering in the NPC may alter behavior, but the functional implications for the permeability barrier are speculative. The claim that this suggests "distinct roles" is not directly tested.
+  - **Why it matters** The categorization is the main conceptual contribution of the work. If the behavior of tethered FG-Nups differs substantially from free domains, the proposed distinct roles may not hold in the actual NPC.
+  - **Resolution test** Discuss how tethering density and geometry in the NPC might modulate the phase separation propensity. If possible, perform a test simulation with tethered FG-Nups or cite experimental evidence that supports the categorization in the intact NPC.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1 description
+  - **Evidence pointer** Main text "Selection of FG Domains" section
+  - **Issue** The description of how disordered domains were identified and how the final FG domain constructs were defined is somewhat brief. The relationship between the "disordered domain" and the "FG domain" used in simulations is not immediately clear.
+  - **Required correction** Clarify the relationship between the full disordered domain and the FG domain used in simulations. State explicitly whether the FG domain includes all residues from the disordered domain or a subset.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation initial conditions
+  - **Evidence pointer** Methods "FG-Nup Phase Separation Simulations"
+  - **Issue** The initial high-density configuration is generated by packing monomers in a zigzag pattern. This highly artificial starting structure could potentially bias the system toward kinetically trapped states, particularly for longer chains.
+  - **Required correction** Discuss whether alternative initial configurations were tested, or cite evidence that the equilibration protocol is sufficient to overcome any memory of the initial packing.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Discussion of experimental comparison
+  - **Evidence pointer** SI Appendix, Table S4
+  - **Issue** The comparison to experimental results is stated to be in "good qualitative agreement," but the nature of the discrepancies (e.g., Nsp1 hydrogel formation) is only briefly discussed.
+  - **Required correction** Expand the discussion of the Nsp1 discrepancy, particularly the role of cross-β interactions that are not captured by the model, to give readers a clearer sense of the model's limitations.
+- **Technical failings that need to be addressed before the case is established** 1) The coarse-grained speed-up correction for interaction lifetimes requires detailed justification and uncertainty quantification. 2) The GCT phase diagram approach needs validation against direct simulation for at least representative systems. 3) The relationship between the FG domain constructs used in simulations and the full disordered domains in the NPC should be clarified.
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The systematic comparison of all yeast FG-Nups and the two-class categorization is a novel contribution that goes beyond prior single-system studies.
+  - Scientific importance: Moderate to high. The work addresses a long-standing question about the physical state of the NPC permeability barrier, though the authors appropriately avoid overclaiming direct relevance to the intact NPC.
+  - Interdisciplinary readership: Moderate. The work will appeal primarily to biophysicists and cell biologists studying NPCs and phase separation. The methods are specialized but the conclusions are framed accessibly.
+  - Technical soundness: Generally sound within the stated scope of coarse-grained modeling, but with the caveats noted above regarding the speed-up correction and GCT validation.
+  - Readability for nonspecialists: Good. The writing is clear, the logic is easy to follow, and the figures (as described) appear well-designed to convey the main findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central claims are plausible and well-supported by the presented simulation data, but the quantitative timescale claim and the phase diagram calculations require additional validation before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that FG-FG interaction lifetimes are "below 1 ns" in real physical units depends on the coarse-grained speed-up correction, which is not fully described in the main text or verifiable from the provided materials.
+- The claim that non-phase-separating FG-Nups will not phase separate at any concentration at 300 K relies on GCT calculations that are not validated against direct simulation in the provided text.
+- The functional implication that the two classes of FG-Nups have "distinct roles in establishing the NPC's permeability barrier" is speculative and not directly tested.
+- The statement that "more than half of the FG-Nups form liquid-like condensates" is a summary claim that depends on the specific definition of phase separation used and the simulation conditions; the robustness of this classification to parameter variations is not discussed.

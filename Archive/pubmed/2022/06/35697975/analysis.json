@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35697975",
+  "title": "In silico studies of the human IAPP in the presence of osmolytes.",
+  "authors": "Khan, Ashma; Jahan, Ishrat; Nayeem, Shahid M",
+  "journal": "Journal of molecular modeling",
+  "published_date": "2022-06-14",
+  "window": {
+    "start": "2022-06-13",
+    "end": "2022-06-19"
+  },
+  "score": 6,
+  "one_liner_zh": "用全原子MD模拟研究渗透剂TMAO/尿素对hIAPP单体构象及聚集倾向的影响，对象为无序相关淀粉样蛋白，方法为物理模拟，但未直接涉及蛋白-蛋白互作机制建模。",
+  "abstract": "The human islet amyloid polypeptide or amylin is secreted along with insulin by pancreatic islets. Under the drastic environmental conditions, amylin can aggregate to form amyloid fibrils. This amyloid plaque of hIAPP in the pancreatic cells is the cause of type II diabetes. Early stages of amylin aggregates are more cytotoxic than the matured fibrils. Here, we have used the all-atom molecular dynamic simulation to see the effect of water, TMAO, urea and urea/TMAO having ratio 2:1 of different concentrations on the amylin protein. Our study suggest that the amylin protein forms beta-sheets in its monomeric form and may cause the aggregation of protein through the residue 13-17 and the C-terminal region. alpha-Helical content of protein increases with an increase in TMAO concentration by decreasing the SASA value of protein, increase in intramolecular hydrogen bonds and on making the short-range hydrophobic interactions. Electrostatic potential surfaces show that hydrophobic groups are buried and normalised configurational entropy of backbone, and side-chain atoms is lesser in the presence of TMAO, whereas opposite behaviour is obtained in the case of urea. Counteraction effect of TMAO using Kast model towards urea is also observed in ternary solution of urea/TMAO.",
+  "abstract_zh": "人胰岛淀粉样多肽（islet amyloid polypeptide, hIAPP）或胰淀素（amylin）由胰岛与胰岛素共同分泌。在极端环境条件下，胰淀素可聚集形成淀粉样纤维。胰腺细胞中hIAPP的淀粉样斑块是II型糖尿病的病因。胰淀素聚集的早期阶段比成熟纤维更具细胞毒性。在此，我们采用全原子分子动力学（molecular dynamics）模拟，研究水、TMAO、尿素以及不同浓度的尿素/TMAO（比例为2:1）对胰淀素蛋白的影响。我们的研究表明，胰淀素蛋白在其单体形式下形成β-折叠，并可能通过残基13-17及C末端区域导致蛋白质聚集。随着TMAO浓度的增加，蛋白质的α-螺旋含量增加，这是通过降低蛋白质的SASA值、增加分子内氢键以及形成短程疏水相互作用实现的。静电势表面显示，在TMAO存在下，疏水基团被埋藏，主链和侧链原子的归一化构象熵较低，而在尿素存在下则观察到相反行为。在尿素/TMAO三元溶液中，还观察到TMAO（使用Kast模型）对尿素的抵消效应。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35697975/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35697975/",
+  "paper_page_path": "papers/pubmed/35697975/index.html"
+}

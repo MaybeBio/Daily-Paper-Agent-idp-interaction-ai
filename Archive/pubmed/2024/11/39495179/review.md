@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors apply a previously reported multi-scale computational framework (MD followed by lattice MC) to three FUS mutants (G156E, R244C, DeltaNLS) and report mutation-specific differences in sticker contact probability, net interaction energy, aggregation propensity, assembly fluidity, and phase separation propensity, concluding that the model can predict the effect of single amino acid substitutions on FUS phase separation behavior and can be generalized to other IDPs.
+- **Visible evidence base** Abstract text only; no numerical data, simulation parameters, convergence metrics, or validation against experimental results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocol details, force field parameters, system size and timescales, statistical error estimates, comparison with experimental phase behavior data, and any prior validation of the model for mutant systems
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful application of a previously established computational framework to mutant FUS proteins, with a clear qualitative ranking of phase separation propensities. However, the evidence base available for review is limited to the abstract, which lacks quantitative details, statistical measures, and experimental benchmarking. The central claim that the model can predict mutation effects down to single amino acid substitutions is plausible but not established from the supplied material. The work may be of interest to the computational biophysics and neurodegeneration communities, but the current evidence is insufficient to assess technical soundness or generalizability.
+- **Who would be interested in the results, and why** Researchers in computational biology and biophysics studying liquid-liquid phase separation of intrinsically disordered proteins, as well as experimental groups working on FUS-related neurodegeneration who may use such predictions to prioritize mutants for experimental validation. The multi-scale approach could also interest method developers seeking efficient in silico screens for mutation effects on phase behavior.
+- **Major strengths** The study addresses a relevant and timely problem, namely how single point mutations alter phase separation behavior of a disease-linked IDP. The use of a multi-scale framework combining MD and lattice MC is conceptually appropriate for capturing both molecular-level interactions and mesoscale assembly dynamics. The abstract provides a clear qualitative ranking of mutants across two complementary metrics (phase separation propensity and fluidity), which suggests the model can produce internally consistent predictions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that MD simulation results conveyed that G156E has improved sticker contact probability compared to WT-FUS, while R244C has slightly lower contact probability, complemented by MMPBSA net interaction changes.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative values, statistical uncertainties, or convergence criteria are reported for the contact probability or MMPBSA calculations. It is unclear whether the reported differences between mutants and WT are statistically significant or within simulation noise.
+  - **Why it matters** Without error estimates or replicate analysis, the claimed differences could be artifacts of insufficient sampling or force field inaccuracies. This directly affects the validity of the subsequent MC predictions and the overall conclusion that the model can predict mutation effects.
+  - **Resolution test** Provide mean and standard deviation or confidence intervals for contact probabilities and MMPBSA energies across independent simulations, along with convergence metrics (e.g., block averaging or time evolution of these quantities).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The abstract states that MC simulation results revealed G156E has higher aggregation propensity, DeltaNLS has more liquid-like assemblies, and R244C tends to aggregate over time, with a final ranking of phase separation propensity as DeltaNLS < FUS-WT < R244C < G156E.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative measures of aggregation propensity, no definition of the order parameter used, no timescales of the MC simulations, and no statistical analysis of the rankings. The RDF peak height and DAP parameter are mentioned but not defined or quantified.
+  - **Why it matters** The central conclusions rest on these rankings. Without defined metrics, numerical values, and error bars, the reader cannot assess whether the differences between mutants are robust or within stochastic variation of the lattice model.
+  - **Resolution test** Report the specific order parameters, their numerical values with uncertainties, the number of independent MC runs, and the simulation length in MC steps. Show that the rankings are stable across replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** External validity
+  - **Claim pointer** The abstract concludes that the computational model is able to predict the effect of mutation down to single amino acid substitution on the phase separation behavior of FUS.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No comparison with experimental data on these specific mutants is provided. The abstract mentions that the mutants are "widely experimented with" but does not state whether the simulation predictions match experimental observations of phase behavior, aggregation kinetics, or cellular phenotypes.
+  - **Why it matters** A predictive claim requires benchmarking against independent experimental measurements. Without such validation, the model could be producing internally consistent but incorrect predictions, especially given known limitations of coarse-grained and lattice models for IDP phase behavior.
+  - **Resolution test** Include a direct comparison of simulation-derived rankings or quantitative predictions with published experimental data on G156E, R244C, and DeltaNLS phase separation or aggregation behavior, and discuss any discrepancies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "sticker contact probability" is used without definition. In the context of IDP phase separation, stickers are typically specific interaction-prone residues, but the abstract does not clarify how stickers are defined for FUS or how the probability is computed.
+  - **Required correction** Define stickers and the contact probability metric explicitly, or refer to the prior framework paper for the precise definition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation protocol
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not specify the force field, water model, temperature, salt concentration, or system size for the MD simulations, nor the lattice size and interaction rules for the MC simulations.
+  - **Required correction** Provide these details in the full manuscript and summarize key parameters in the abstract or a methods summary.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** DAP parameter
+  - **Evidence pointer** Abstract text
+  - **Issue** The dynamic assembly propensity (DAP) parameter is introduced as a measure of fluidity, but its physical meaning and relationship to experimentally measurable quantities (e.g., diffusion coefficients or FRAP recovery) are not explained.
+  - **Required correction** Clarify how DAP is computed and how it relates to experimental measures of condensate dynamics.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical rigor in MD-derived quantities), R1-M2 (undefined and unquantified MC metrics), R1-M3 (absence of experimental benchmarking)
+- **Assessment against Nature-style criteria** Originality: moderate, as the framework was previously reported and this is an application to mutants. Scientific importance: potentially high for the FUS field, but the abstract does not demonstrate biological or clinical relevance beyond qualitative rankings. Interdisciplinary readership: the abstract is accessible to computational biologists but may be too technical for experimental readers without more context on the methods. Technical soundness: not assessable from the abstract due to missing quantitative and statistical details. Readability for nonspecialists: the abstract is reasonably clear but relies on undefined jargon (e.g., sticker contact probability, DAP).
+- **Recommendation posture** Currently not established from the provided evidence. The authors should provide the full manuscript with quantitative results, statistical analyses, and experimental validation before the predictive claim can be supported.
+
+## Risk / unsupported claims
+- The claim that the model can predict mutation effects down to single amino acid substitution is unsupported without experimental benchmarking.
+- The qualitative rankings of phase separation propensity and fluidity are not supported by quantitative data or error estimates.
+- The statement that G156E has "more stable protein aggregates" is not defined or quantified.
+- The generalizability claim to other IDPs is speculative and not demonstrated in this abstract.

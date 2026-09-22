@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35384652",
+  "title": "Dynamic Heterogeneity at the Interface of an Intrinsically Disordered Peptide.",
+  "authors": "Mondal, Souvik; Ghanta, Krishna Prasad; Bandyopadhyay, Sanjoy",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2022-04-07",
+  "window": {
+    "start": "2022-04-04",
+    "end": "2022-04-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过MD模拟研究α-突触核蛋白IDP界面水的动态异质性及其与肽段构象/聚集的关联，虽聚焦水动力学而非直接PPI机制，但为IDP介导互作的环境因素建模提供了可迁移的物理模拟思路。",
+  "abstract": "It is believed that water around an intrinsically disordered protein or peptide (IDP) in an aqueous environment plays an important role in guiding its conformational properties and aggregation behavior. However, despite its importance, only a handful of studies exploring the correlation between the conformational motions of an IDP and the microscopic properties of water at its surface are reported. Attempts have been made in this work to study the dynamic properties of water present in the vicinity of alpha-synuclein, an IDP associated with Parkinson's disease (PD). Room temperature molecular dynamics (MD) simulations of eight alpha-synuclein(1-95) peptides with a wide range of initial conformations have been carried out in aqueous media. The calculations revealed that due to solid-like caging motions, the translational and rotational mobility of water molecules near the surfaces of the peptide repeat unit segments R1 to R7 are significantly restricted. A small degree of dynamic heterogeneity in the hydration environment around the repeat units has been observed with water near the hydrophobic R6 unit exhibiting relatively more restricted diffusivity. The time scales involving the overall structural relaxations of peptide-water and water-water hydrogen bonds near the peptide have been found to be correlated with the time scale of diffusion of the interfacial water molecules. We believe that the relatively more hindered dynamic environment near R6 can help create water-mediated contacts centered around R6 between peptide monomers at a higher concentration, thereby enhancing the early stages of peptide aggregation.",
+  "abstract_zh": "人们普遍认为，在水环境中，本质上无序的蛋白质或肽（IDP）周围的水在引导其构象特性和聚集行为方面发挥着重要作用。然而，尽管其重要性，目前仅有少数研究探讨了IDP的构象运动与其表面水的微观性质之间的关联。本研究尝试探讨与帕金森病（PD）相关的IDP——α-突触核蛋白附近水的动态特性。在室温下，对八个具有广泛初始构象的α-突触核蛋白(1-95)肽段在水介质中进行了分子动力学（MD）模拟。计算结果显示，由于类似固体的笼状运动，肽段重复单元片段R1至R7表面附近的水分子的平移和旋转迁移率受到显著限制。在重复单元周围的水合环境中观察到一定程度的动态异质性，其中疏水性R6单元附近的水表现出相对更受限的扩散性。研究发现，肽-水和肽附近水-水氢键的整体结构弛豫时间尺度与界面水分子的扩散时间尺度相关。我们认为，R6附近相对更受阻的动态环境有助于在高浓度下，以R6为中心形成水介导的肽单体间接触，从而增强肽聚集的早期阶段。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35384652/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35384652/",
+  "paper_page_path": "papers/pubmed/35384652/index.html"
+}

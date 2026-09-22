@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "34884707",
+    "doi": "10.3390/ijms222312902",
+    "title": "A Lumenal Loop Associated with Catalytic Asymmetry in Plant Vacuolar H(+)-Translocating Pyrophosphatase."
+  },
+  "content": {
+    "abstract": "Membrane-integral inorganic pyrophosphatases (mPPases) couple pyrophosphate hydrolysis with H(+) and Na(+) pumping in plants and microbes. mPPases are homodimeric transporters with two catalytic sites facing the cytoplasm and demonstrating highly different substrate-binding affinities and activities. The structural aspects of the functional asymmetry are still poorly understood because the structure of the physiologically relevant dimer form with only one active site occupied by the substrate is unknown. We addressed this issue by molecular dynamics (MD) simulations of the H(+)-transporting mPPase of Vigna radiata, starting from its crystal structure containing a close substrate analog (imidodiphosphate, IDP) in both active sites. The MD simulations revealed pre-existing subunit asymmetry, which increased upon IDP binding to one subunit and persisted in the fully occupied dimer. The most significant asymmetrical change caused by IDP binding is a 'rigid body'-like displacement of the lumenal loop connecting alpha-helices 2 and 3 in the partner subunit and opening its exit channel for water. This highly conserved 14-19-residue loop is found only in plant vacuolar mPPases and may have a regulatory function, such as pH sensing in the vacuole. Our data define the structural link between the loop and active sites and are consistent with the published structural and functional data.",
+    "keywords": [
+      "H+ pump",
+      "Vigna radiata",
+      "energy coupling",
+      "kinetic co-operativity",
+      "membrane pyrophosphatase",
+      "molecular dynamics",
+      "plant vacuole"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Catalysis",
+      "Inorganic Pyrophosphatase/*chemistry/genetics/metabolism",
+      "Ion Transport",
+      "Molecular Dynamics Simulation",
+      "Plant Proteins/genetics/*metabolism",
+      "Protein Conformation",
+      "Sequence Homology, Amino Acid",
+      "Vacuoles/*enzymology",
+      "Vigna/*enzymology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Anashkin, Viktor A",
+        "Baykov, Alexander A"
+      ],
+      "short_names": [
+        "Anashkin VA",
+        "Baykov AA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9890-6796",
+        "ORCID: 0000-0002-2495-8200"
+      ],
+      "affiliations": [
+        "Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University, 119899 Moscow, Russia.",
+        "Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University, 119899 Moscow, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Anashkin, Viktor A",
+        "short_name": "Anashkin VA",
+        "identifiers": [
+          "0000-0002-9890-6796"
+        ],
+        "affiliations": [
+          "Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University, 119899 Moscow, Russia."
+        ]
+      },
+      {
+        "full_name": "Baykov, Alexander A",
+        "short_name": "Baykov AA",
+        "identifiers": [
+          "0000-0002-2495-8200"
+        ],
+        "affiliations": [
+          "Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University, 119899 Moscow, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Nov 29",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/11 06:00",
+    "fetched_at": "2026-09-20 06:57:16"
+  },
+  "links": {
+    "cites": [
+      "40437060",
+      "37955797",
+      "36040263",
+      "36012762"
+    ],
+    "refs": [
+      "34575984",
+      "34445785",
+      "33881486",
+      "33780094",
+      "33398986",
+      "32716185",
+      "32292570",
+      "32117404",
+      "31824962",
+      "31131322",
+      "31081197",
+      "30878480",
+      "30510138",
+      "30502330",
+      "29691313",
+      "29534212",
+      "29519958",
+      "29453559",
+      "29362089",
+      "29295940",
+      "28345008",
+      "27922000",
+      "27322406",
+      "25662511",
+      "25070903",
+      "24768824",
+      "23699258",
+      "22837527",
+      "22629324",
+      "22522665",
+      "22456709",
+      "19609355",
+      "17846036",
+      "17655044",
+      "17543272",
+      "17454298",
+      "17412324",
+      "16653186",
+      "16018964",
+      "15264254",
+      "12401795",
+      "11335173",
+      "10806252",
+      "8744570",
+      "8223618",
+      "4288237",
+      "2231712"
+    ],
+    "similar": [
+      "34884707",
+      "34575984",
+      "25070903",
+      "29519958",
+      "22456709",
+      "36012762",
+      "25451931",
+      "23297210",
+      "28345008",
+      "29534212",
+      "10477275",
+      "27611445",
+      "10748246",
+      "36040263",
+      "7597650",
+      "16018964",
+      "16185650",
+      "11113147",
+      "9399596",
+      "24121627",
+      "8016125",
+      "30878480",
+      "14871497",
+      "17543272",
+      "15178470",
+      "9489011",
+      "23720778",
+      "15907686",
+      "24080396",
+      "10386575",
+      "37955797",
+      "21292767",
+      "8083239",
+      "24158447",
+      "2161215",
+      "8223618",
+      "1328246",
+      "8199778",
+      "36191052",
+      "9531476",
+      "39419910",
+      "21762382",
+      "17498645",
+      "21086174",
+      "25877769",
+      "8639720",
+      "24365406",
+      "1662506",
+      "27989652",
+      "19628678",
+      "16239722",
+      "31500178",
+      "10544238",
+      "19614743",
+      "25118804",
+      "2555340",
+      "17964530",
+      "31824962",
+      "20937245",
+      "29938800",
+      "10359662",
+      "9871364",
+      "31131322",
+      "33036755",
+      "27922000",
+      "10523139",
+      "22415161",
+      "1848180",
+      "32152422",
+      "8392953",
+      "18094929",
+      "21122813",
+      "24477828",
+      "15779823",
+      "7972521",
+      "16653052",
+      "1315516",
+      "27487839",
+      "17663157",
+      "24121937",
+      "21612578",
+      "1329278",
+      "28126844",
+      "8120031",
+      "17412324",
+      "27208172",
+      "16212541",
+      "1311852",
+      "29453559",
+      "8382487",
+      "30149856",
+      "26296329",
+      "24877670",
+      "25662511",
+      "22860406",
+      "10556526",
+      "23718549",
+      "11971917",
+      "30453498",
+      "21821883",
+      "38182815"
+    ],
+    "review": [
+      "34884707",
+      "36012762",
+      "29534212",
+      "10748246",
+      "7597650",
+      "10386575",
+      "39419910",
+      "27989652",
+      "31824962",
+      "10523139",
+      "17663157",
+      "1329278"
+    ],
+    "pmc": [
+      "8657866"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms222312902",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34884707/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34884707",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

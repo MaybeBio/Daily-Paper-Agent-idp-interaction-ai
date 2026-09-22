@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40281357",
+  "title": "Molecular insights into the effect of 1,6-hexanediol on FUS phase separation.",
+  "authors": "Zheng, Tongyin; Wake, Noah; Weng, Shuo-Lin; Perdikari, Theodora Myrto; Murthy, Anastasia C; Mittal, Jeetain; Fawzi, Nicolas L",
+  "journal": "The EMBO journal",
+  "published_date": "2025-04-26",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合NMR、全原子模拟与生化实验，揭示1,6-己二醇通过两亲性相互作用破坏FUS无序蛋白相分离的分子机制，直接涉及IDR介导的互作机制建模，方法含物理模拟，高度相关。",
+  "abstract": "The alkanediol 1,6-hexanediol has been widely used to dissolve liquid-liquid phase-separated condensates in cells and in vitro, but the details of how it perturbs the molecular interactions underlying liquid-liquid assembly remain unclear. In this study we use a combination of microscopy, nuclear magnetic resonance (NMR) spectroscopy, molecular simulation, and biochemical assays to probe how alkanediols suppress phase separation and why certain isomers are more effective. We show that alkanediols of different lengths and configurations are all capable of disrupting phase separation of the RNA-binding protein Fused in Sarcoma (FUS), although potency varies depending on both geometry and hydrophobicity, which we measure directly. Alkanediols induce a shared pattern of changes to the chemical environment of the protein, to different extents depending on the specific compound. Furthermore, we use lysozyme as a model globular protein to demonstrate that alkanediols decrease the proteins' thermal stability, which is consistent with the view that they disrupt phase separation driven by hydrophobic groups. Conversely, 1,6-hexanediol does not disrupt charge-mediated phase separation, such as FUS RGG-RNA and poly-lysine/poly-aspartic acid condensates. All-atom simulations show that hydroxyl groups in alkanediols mediate interactions with the protein backbone and polar amino acid side chains, while the aliphatic chain allows contact with hydrophobic and aromatic residues, providing a molecular picture of how amphiphilic interactions disrupt FUS phase separation.",
+  "abstract_zh": "烷二醇1,6-己二醇已被广泛用于溶解细胞及体外液-液相分离凝聚体，但其如何扰动支撑液-液组装的分子相互作用的细节仍不清楚。在本研究中，我们结合显微镜、核磁共振（NMR）波谱、分子模拟和生化分析，探讨烷二醇如何抑制相分离，以及为何某些异构体更有效。我们表明，不同长度和构型的烷二醇均能破坏RNA结合蛋白Fused in Sarcoma（FUS）的相分离，尽管效力取决于我们直接测量的几何形状和疏水性。烷二醇诱导蛋白质化学环境发生共享的变化模式，其程度因具体化合物而异。此外，我们使用溶菌酶作为模型球状蛋白，证明烷二醇降低蛋白质的热稳定性，这与它们破坏由疏水基团驱动的相分离的观点一致。相反，1,6-己二醇不破坏电荷介导的相分离，如FUS RGG-RNA和聚赖氨酸/聚天冬氨酸凝聚体。全原子模拟显示，烷二醇中的羟基介导与蛋白质骨架和极性氨基酸侧链的相互作用，而脂肪链允许与疏水和芳香族残基接触，从而提供了两亲性相互作用如何破坏FUS相分离的分子图景。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40281357/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40281357/",
+  "paper_page_path": "papers/pubmed/40281357/index.html"
+}

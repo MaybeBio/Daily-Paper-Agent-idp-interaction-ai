@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and presentation quality
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations of two-component multivalent associative polymers to show that unequal stoichiometry leads to enrichment of the majority species at the condensate interface and a sharp reduction in surface tension. They propose that this reduction scales linearly with the excess concentration of free binding sites at the interface, with each excess free site contributing a fixed additional energy and entropy, and that the entropic gain dominates, lowering surface tension.
+- **Visible evidence base** Figures 1-4, equations 1-6, methods description, and discussion
+- **Missing materials affecting confidence** No supplementary information, no simulation trajectory data, no convergence tests, no parameter sensitivity analysis, no comparison to experimental data
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study of surface properties in two-component biomolecular condensates with unequal stoichiometry. The central finding, that majority species enrich at the interface and reduce surface tension, is clearly demonstrated and mechanistically explained. The work addresses an important and timely question in the condensate field. However, several technical aspects require clarification and additional analysis before the conclusions are fully established, particularly regarding the thermodynamic interpretation, the generality of the linear scaling relationship, and the robustness of the simulation protocol.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, particularly those interested in surface properties, interfacial physics, and the role of stoichiometry in condensate behavior. The work is also relevant to the broader soft matter and polymer physics community studying phase separation in associative polymer systems. The proposed mechanism of entropy-driven surface enrichment could inform experimental studies of condensate morphology, fusion, and multiphasic organization.
+- **Major strengths** The study addresses a relatively underexplored aspect of condensate physics, namely surface properties as a function of stoichiometry. The simulation model is clearly described and builds on established approaches. The kinetic argument for the "swimming upstream" mechanism is intuitive and provides a clear physical picture. The decomposition of surface free energy into energetic and entropic contributions is a useful analytical approach. The connection between surface enrichment and surface tension reduction is compelling and potentially generalizable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Thermodynamic consistency
+  - **Claim pointer** The authors state that in the thermodynamic limit, the dense phase sticker ratio must exceed the global ratio if the dilute phase ratio remains at approximately 1.0, and attribute the observed discrepancy to finite-size effects.
+  - **Evidence pointer** Results section, Figure 2, Discussion
+  - **Concern** The authors acknowledge that their simulation results show the dense phase ratio is lower than the global ratio, which contradicts their thermodynamic argument. They attribute this to finite-size effects, but no quantitative analysis is provided to support this claim. The simulation box is 300 nm in the x-direction, and the interface regions occupy a substantial fraction of the box. It is unclear whether the system has truly reached equilibrium, whether the interface regions are properly defined, and whether the finite-size correction would indeed reverse the observed trend. Without a systematic finite-size scaling analysis, the thermodynamic interpretation remains speculative.
+  - **Why it matters** The thermodynamic consistency of the results is central to the interpretation. If the dense phase ratio does not exceed the global ratio in the thermodynamic limit, the proposed mechanism and the relationship between surface enrichment and surface tension reduction may need revision. The current explanation is plausible but not demonstrated.
+  - **Resolution test** Perform simulations with larger box sizes (e.g., 600 nm and 1200 nm in x) at a fixed stoichiometry imbalance and show that the dense phase ratio systematically increases toward and exceeds the global ratio. Alternatively, provide a quantitative estimate of the finite-size correction based on the interface width and the volume fraction of the interface region.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generality of the linear scaling relationship
+  - **Claim pointer** The authors claim that the reduction in surface tension scales linearly with the excess concentration of free binding sites at the interface, and that each excess free site contributes an approximately fixed additional energy and entropy.
+  - **Evidence pointer** Results section, Figure 4F
+  - **Concern** The linear scaling relationship is presented as a central result, but it is only demonstrated for a limited range of stoichiometries (1.0 to 1.32) and for a single set of interaction parameters. The authors do not test whether this relationship holds for different interaction strengths, different sticker valences, or different polymer lengths. The claim that each excess free site contributes a fixed amount of energy and entropy is an interpretation of the linear fit, but the physical basis for this constancy is not explained. It is possible that the linear relationship is specific to the parameter regime studied.
+  - **Why it matters** The generality of the proposed mechanism is a key selling point of the paper. If the linear scaling is not robust across parameter space, the conclusions would be significantly weakened. The authors should either demonstrate robustness or clearly state the limitations of the observed relationship.
+  - **Resolution test** Perform additional simulations with varying interaction strengths (e.g., U0 = 8, 10, 14 kBT) and/or different sticker valences (e.g., 4 or 12 stickers per polymer) and show that the linear scaling between surface tension reduction and excess free site concentration is preserved. If the relationship is not universal, the authors should revise their claims accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors use the Kirkwood-Buff formula to calculate surface tension and report values with standard deviations across 10 replicates.
+  - **Evidence pointer** Methods, Figure 3
+  - **Concern** The Kirkwood-Buff formula is applied to a system with a slab geometry, but the authors do not provide details on how the pressure tensor components are converged, how long the averaging period is, or whether the results are sensitive to the choice of the interface location. The error bars in Figure 3 appear small, but the statistical analysis is limited to standard deviations across replicates. No block averaging or autocorrelation analysis is reported to ensure that the pressure measurements are statistically independent.
+  - **Why it matters** Surface tension calculations from molecular dynamics simulations are notoriously sensitive to the simulation protocol and the choice of the Kirkwood-Buff expression. Without proper convergence analysis, the reported surface tension values and their trends may not be reliable.
+  - **Resolution test** Provide a convergence analysis of the pressure tensor components as a function of simulation time, report the block-averaged standard errors, and demonstrate that the surface tension values are insensitive to the choice of the interface boundaries (e.g., by varying the definition of the interface region).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Parameter sensitivity
+  - **Claim pointer** The authors state that the model parameters are fixed at the given values across all simulations and that the results are robust.
+  - **Evidence pointer** Methods, Results
+  - **Concern** The authors do not perform any parameter sensitivity analysis. The choice of U0 = 12 kBT, the sticker size of 3 nm, and the bond parameters are not justified or varied. It is unclear whether the observed surface enrichment and surface tension reduction are specific to this parameter set or represent a general phenomenon. The authors mention that the sticker volume fraction in the dense phase is low, but they do not discuss how this affects the generality of their conclusions.
+  - **Why it matters** For a computational study to have broad impact, the conclusions should be robust to reasonable variations in model parameters. Without sensitivity analysis, the reader cannot assess the generality of the findings.
+  - **Resolution test** Perform simulations with at least two additional parameter sets (e.g., different U0 values or different sticker sizes) and show that the qualitative conclusions, namely surface enrichment of the majority species and surface tension reduction, are preserved.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2
+  - **Issue** The inset in Figure 2 is described as showing an "in depth view" but the text is not clear about the x-axis range and the relationship between the inset and the main panel. The color coding for different stoichiometries is not explicitly described in the figure legend.
+  - **Required correction** Clarify the figure legend to describe the color coding and the relationship between the inset and the main panel. Specify the x-axis range of the inset.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figures 1D, 1E, 3, 4E, 4F
+  - **Evidence pointer** Figures 1D, 1E, 3, 4E, 4F
+  - **Issue** The error bars are described as standard deviations across 10 replicates, but the number of replicates is not stated in the figure legends. The authors state in the methods that 10 replicates are used, but this information should be included in the figure legends for clarity.
+  - **Required correction** Add the number of replicates to each figure legend where error bars are shown.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract, Results
+  - **Issue** The term "super-stoichiometric surface enrichment" in the title and abstract is not defined in the text. The authors use "enrichment of the majority species" in the results, but the relationship between these terms is not explicit.
+  - **Required correction** Define "super-stoichiometric surface enrichment" in the introduction or results, and use consistent terminology throughout.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The authors discuss limitations related to model assumptions, but they do not discuss the potential impact of the implicit solvent model on surface properties. The absence of explicit solvent could affect the entropic contributions to surface tension.
+  - **Required correction** Add a brief discussion of the potential limitations of the implicit solvent model on the reported surface properties.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (thermodynamic consistency) and R1-M2 (generality of linear scaling) are the primary technical issues that need to be addressed. R1-M3 (methodological validation) is also important for establishing the reliability of the surface tension calculations.
+
+## Risk / unsupported claims
+- The claim that the dense phase sticker ratio will exceed the global ratio in the thermodynamic limit is not supported by the presented data and is acknowledged by the authors as a finite-size effect without quantitative evidence.
+- The claim that each excess free site contributes a fixed amount of energy and entropy is an interpretation of a linear fit over a limited range of stoichiometries and has not been tested for generality.
+- The statement that the entropic component "dominates" the free energy reduction is based on the decomposition shown in Figure 4E, but the statistical significance of the difference between the energetic and entropic contributions is not assessed.
+- The claim that the "swimming upstream" kinetic argument applies independent of the relative valence of the polymers is speculative and not tested in this work.
+- The discussion of potential biological implications, including surfactant-like roles and Pickering emulsions, is speculative and not directly supported by the simulations.

@@ -1,0 +1,209 @@
+{
+  "identity": {
+    "pmid": "41486976",
+    "doi": "10.1021/acs.jpcb.5c08442",
+    "title": "Equipartition and the Temperature of Maximum Density of TIP4P/2005 Water."
+  },
+  "content": {
+    "abstract": "We simulate TIP4P/2005 water in the temperature range of 257 to 318 K with time-steps delta = 0.25, 0.50, 1.00, 2.00, and 4.00 fs. The density-temperature behavior obtained using 0.25 or 0.50 fs is in excellent agreement with each other but differs from those obtained using time steps that have been shown earlier to lead to a breakdown of equipartition. For deltat = 0.25 or 0.50 fs, the temperature of maximum density (TMD) is 277.15 K and the density value is in close agreement with experiments. For deltat = 1.00 fs, the TMD is 277.15 K, but the density value is shifted higher. For the other time steps considered here, the TMD is shifted to progressively lower values for longer time steps, a trend that holds for different thermostat/barostat combinations. Enhancing the water-water dispersion interaction, as has been recommended for simulating disordered proteins in TIP4P/2005, degrades the description of the liquid-vapor phase envelope. We present a simple physically transparent explanation that highlights the separation of the time scales between translational and rotational motion. We also develop a metric, chi, that we term the equipartition anomaly, to detect equipartition violations in simulations that include molecules that are treated as rigid objects. Calculating chi is shown to be straightforward and sensitive to equipartition violations. A key takeaway from this study is that using sufficiently short time steps (</=0.5 fs) to preserve equipartition is essential for obtaining meaningful liquid water properties and for producing reliable simulation data, as correct ensemble sampling is fundamental to ensure reproducibility across codes and simulation algorithms.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Asthagiri, Dilipkumar N",
+        "Pinheiro Dos Santos, Thiago",
+        "Beck, Thomas L"
+      ],
+      "short_names": [
+        "Asthagiri DN",
+        "Pinheiro Dos Santos T",
+        "Beck TL"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5869-0807",
+        "ORCID: 0000-0002-6949-9087",
+        "ORCID: 0000-0001-8973-7145"
+      ],
+      "affiliations": [
+        "National Center for Computational Sciences, Oak Ridge National Laboratory, One Bethel Valley Road, Oak Ridge, Tennessee 37830, United States.",
+        "Chemical Sciences Division, Oak Ridge National Laboratory, One Bethel Valley Road, Oak Ridge, Tennessee 37830, United States.",
+        "National Center for Computational Sciences, Oak Ridge National Laboratory, One Bethel Valley Road, Oak Ridge, Tennessee 37830, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Asthagiri, Dilipkumar N",
+        "short_name": "Asthagiri DN",
+        "identifiers": [
+          "0000-0001-5869-0807"
+        ],
+        "affiliations": [
+          "National Center for Computational Sciences, Oak Ridge National Laboratory, One Bethel Valley Road, Oak Ridge, Tennessee 37830, United States."
+        ]
+      },
+      {
+        "full_name": "Pinheiro Dos Santos, Thiago",
+        "short_name": "Pinheiro Dos Santos T",
+        "identifiers": [
+          "0000-0002-6949-9087"
+        ],
+        "affiliations": [
+          "Chemical Sciences Division, Oak Ridge National Laboratory, One Bethel Valley Road, Oak Ridge, Tennessee 37830, United States."
+        ]
+      },
+      {
+        "full_name": "Beck, Thomas L",
+        "short_name": "Beck TL",
+        "identifiers": [
+          "0000-0001-8973-7145"
+        ],
+        "affiliations": [
+          "National Center for Computational Sciences, Oak Ridge National Laboratory, One Bethel Valley Road, Oak Ridge, Tennessee 37830, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 Jan 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/05 06:47",
+    "fetched_at": "2026-09-17 23:38:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41486976",
+      "38156881",
+      "40160355",
+      "16321097",
+      "19725623",
+      "32301326",
+      "16863358",
+      "24422512",
+      "19086867",
+      "17672501",
+      "23133341",
+      "21553909",
+      "18376913",
+      "26588552",
+      "31722528",
+      "41090595",
+      "35459318",
+      "28964041",
+      "29124195",
+      "21787017",
+      "30468577",
+      "26298139",
+      "22299891",
+      "27497563",
+      "37850697",
+      "30901992",
+      "21456696",
+      "39572062",
+      "36754827",
+      "17949184",
+      "15267560",
+      "20095700",
+      "22225167",
+      "16095377",
+      "17677219",
+      "30075070",
+      "24695799",
+      "22651887",
+      "28799362",
+      "33951125",
+      "36792509",
+      "23341754",
+      "16833423",
+      "26598167",
+      "27083735",
+      "40614129",
+      "22865935",
+      "17461659",
+      "39679514",
+      "28109212",
+      "20078174",
+      "16238404",
+      "26615934",
+      "26049508",
+      "35950933",
+      "35459314",
+      "26592867",
+      "33729222",
+      "16555899",
+      "40727490",
+      "38456528",
+      "36387274",
+      "16392929",
+      "17967008",
+      "38309959",
+      "29125195",
+      "16497057",
+      "28810780",
+      "19227361",
+      "29776312",
+      "36383428",
+      "35397618",
+      "38095201",
+      "27078309",
+      "33353318",
+      "19947683",
+      "28799375",
+      "24852526",
+      "33382616",
+      "38253517",
+      "21341860",
+      "20707575",
+      "33443254",
+      "27586931",
+      "23126726",
+      "22320214",
+      "16674257",
+      "29921912",
+      "17100466",
+      "25584483",
+      "35291771",
+      "20866403",
+      "26133441",
+      "18205352",
+      "20121175",
+      "37042489",
+      "20370130",
+      "39046346",
+      "15836011",
+      "23004766"
+    ],
+    "review": [
+      "41486976"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c08442",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.01.668138",
+  "title": "Hierarchically ordered multi-timescale structural dynamics of the intrinsically disordered p53 transactivation domain",
+  "doi": "10.1101/2025.08.01.668138",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically disordered proteins (IDPs) exhibit pronounced structural dynamics, which is crucial for their functional versatility. Yet their dynamics slower than nanoseconds remain largely elusive. We combined high-power relaxation dispersion nuclear magnetic resonance spectroscopy with molecular dynamics simulations to characterize these kinetics and the underlying structural interconversions of a prototypical IDP, the N-terminal transactivation domain of the tumor suppressor p53 (p53-TAD). We find a complex hierarchy of structural dynamics on timescales covering over seven orders of magnitude, ranging from fast nanoseconds backbone re-orientations, via sub-microsecond helix-formation dynamics involving many structural sub-states and transition times, to transient tertiary structure formation slower than 25 microseconds. These rich structural dynamics of p53-TAD, and likely those of other IDPs, parallel the timescale hierarchy of the conformational dynamics of folded proteins. <h4>One-Sentence summary</h4> A hierarchical energy landscape governs kinetics and structural dynamics of the disordered p53 transactivation domain.",
+  "authors": [
+    "Szöllősi D",
+    "Pratihar S",
+    "Mukhopadhyay D",
+    "Rout AK",
+    "Reddy GJ",
+    "Ebersberger N",
+    "Becker S",
+    "Nagy G",
+    "Rauscher S",
+    "Lee D",
+    "Klement R",
+    "Griesinger C",
+    "Grubmüller H"
+  ],
+  "published_date": "2025-08-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.01.668138",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.01.668138.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1061938",
+    "raw_record": {
+      "id": "PPR1061938",
+      "source": "PPR",
+      "doi": "10.1101/2025.08.01.668138",
+      "title": "Hierarchically ordered multi-timescale structural dynamics of the intrinsically disordered p53 transactivation domain",
+      "authorString": "Szöllősi D, Pratihar S, Mukhopadhyay D, Rout AK, Reddy GJ, Ebersberger N, Becker S, Nagy G, Rauscher S, Lee D, Klement R, Griesinger C, Grubmüller H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Szöllősi D",
+            "lastName": "Szöllősi",
+            "firstName": "Dániel",
+            "initials": "D"
+          },
+          {
+            "fullName": "Pratihar S",
+            "lastName": "Pratihar",
+            "firstName": "Supriya",
+            "initials": "S"
+          },
+          {
+            "fullName": "Mukhopadhyay D",
+            "lastName": "Mukhopadhyay",
+            "firstName": "Dwaipayan",
+            "initials": "D"
+          },
+          {
+            "fullName": "Rout AK",
+            "lastName": "Rout",
+            "firstName": "Ashok Kumar",
+            "initials": "AK"
+          },
+          {
+            "fullName": "Reddy GJ",
+            "lastName": "Reddy",
+            "firstName": "Jithender",
+            "initials": "GJ"
+          },
+          {
+            "fullName": "Ebersberger N",
+            "lastName": "Ebersberger",
+            "firstName": "Niklas",
+            "initials": "N"
+          },
+          {
+            "fullName": "Becker S",
+            "lastName": "Becker",
+            "firstName": "Stefan",
+            "initials": "S"
+          },
+          {
+            "fullName": "Nagy G",
+            "lastName": "Nagy",
+            "firstName": "Gábor",
+            "initials": "G"
+          },
+          {
+            "fullName": "Rauscher S",
+            "lastName": "Rauscher",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9860-3237"
+            }
+          },
+          {
+            "fullName": "Lee D",
+            "lastName": "Lee",
+            "firstName": "Donghan",
+            "initials": "D"
+          },
+          {
+            "fullName": "Klement R",
+            "lastName": "Klement",
+            "firstName": "Reinhard",
+            "initials": "R"
+          },
+          {
+            "fullName": "Griesinger C",
+            "lastName": "Griesinger",
+            "firstName": "Christian",
+            "initials": "C"
+          },
+          {
+            "fullName": "Grubmüller H",
+            "lastName": "Grubmüller",
+            "firstName": "Helmut",
+            "initials": "H"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9860-3237"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  Intrinsically disordered proteins (IDPs) exhibit pronounced structural dynamics, which is crucial for their functional versatility. Yet their dynamics slower than nanoseconds remain largely elusive. We combined high-power relaxation dispersion nuclear magnetic resonance spectroscopy with molecular dynamics simulations to characterize these kinetics and the underlying structural interconversions of a prototypical IDP, the N-terminal transactivation domain of the tumor suppressor p53 (p53-TAD). We find a complex hierarchy of structural dynamics on timescales covering over seven orders of magnitude, ranging from fast nanoseconds backbone re-orientations, via sub-microsecond helix-formation dynamics involving many structural sub-states and transition times, to transient tertiary structure formation slower than 25 microseconds. These rich structural dynamics of p53-TAD, and likely those of other IDPs, parallel the timescale hierarchy of the conformational dynamics of folded proteins. <h4>One-Sentence summary</h4>  A hierarchical energy landscape governs kinetics and structural dynamics of the disordered p53 transactivation domain.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/08/02/2025.08.01.668138.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.01.668138"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-08-04",
+      "firstPublicationDate": "2025-08-02",
+      "firstIndexDate": "2025-08-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

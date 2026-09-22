@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, figure legends) without figures or supplementary material
+- **Assessment boundary** Scientific claims, methodological soundness, and internal consistency based on the provided text only; figures, tables, and supplementary documents referenced but not available for inspection
+- **Shared manuscript claim summary** The authors construct a full-length model of TDP-43 (414 amino acids) by merging available domain structures and modeling disordered regions, then apply three simulation resolutions (all-atom CHARMM36m, Martini 3 coarse-grained with explicit water, and an implicit-solvent one-bead-per-residue HPS-Urry model) to characterize TDP-43 self-interactions, dimerization, and condensation behavior. They report that TDP-43 collapses into a compact form with dynamic intramolecular contacts dominated by the disordered C-terminal domain, that interprotein interactions are strong but fluid-like, and that a diverse set of domain-level interactions collectively stabilize condensates. They propose a mechanistic model in which NTD head-to-tail oligomerization and CTD interactions (CR-CR and IDR-IDR) drive phase separation, modulated by RNA binding and salt concentration.
+- **Visible evidence base** Text descriptions of simulation protocols, parameters, and qualitative results; figure legends for Figures 1-3 and Figure 4 (schematic); references to Figures S1-S11 and Video S1 without content
+- **Missing materials affecting confidence** All figures, supplementary figures, tables, and videos; quantitative data (e.g., Rg values, contact numbers, density profiles) are described but not shown; no force field validation data; no convergence or error analysis details; no comparison to experimental data beyond literature references
+
+## Reviewer
+- **Overall assessment** This manuscript presents a multiscale simulation study of full-length TDP-43, a protein of high biomedical relevance due to its involvement in ALS and other neurodegenerative diseases. The construction of a full-length model and the systematic comparison across three simulation resolutions is a valuable contribution. The central claims regarding TDP-43's compact conformation, dynamic self-interactions, and the role of the disordered CTD in driving condensation are plausible and consistent with existing literature. However, the manuscript as presented has significant limitations: the key quantitative results are not visible in the provided text, the validation of the coarse-grained models against experimental data is incomplete, and several claims go beyond what the described simulations can support. The work is potentially important but requires substantial revision and additional analysis to establish its conclusions rigorously.
+- **Who would be interested in the results, and why** Researchers studying TDP-43 biology, particularly those interested in its phase separation and aggregation mechanisms in neurodegenerative disease. The multiscale modeling approach will also be of interest to computational biophysicists working on intrinsically disordered proteins and coarse-grained simulation methods. The proposed mechanistic model of TDP-43 condensation, if validated, could inform therapeutic strategies targeting TDP-43 aggregation.
+- **Major strengths** 1) The construction of a full-length TDP-43 model addresses a significant gap, as experimental structures are limited to individual domains. 2) The multiscale approach, combining AA, Martini 3, and implicit-solvent CG models, is methodologically ambitious and appropriate for the problem. 3) The systematic comparison of model variants (different CTD helix lengths, RNA-bound, salt conditions) provides a useful exploration of parameter space. 4) The identification of the disordered CTD as a hub for both intra- and intermolecular interactions is consistent with and extends existing knowledge. 5) The proposed mechanistic model integrating NTD oligomerization, CTD interactions, and RNA modulation is a useful conceptual framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "TDP-43 has numerous interaction preferences or patterns, exhibiting an overall strong, but dynamic, association and driving the formation of biomolecular condensates" and that specific domain-level interactions (NTD-NTD, CR-CR, IDR-IDR, CTD-other) collectively stabilize the condensed phase.
+  - **Evidence pointer** Figures 1-3 and Figures S1-S11; quantitative values described in text (e.g., Rg values, contact numbers, density profiles) but not visible in the provided material
+  - **Concern** The central quantitative results supporting the main claims are not accessible in the provided text. Rg values are stated (2.46 ± 0.04 nm for AA, 2.41 ± 0.05 nm for CG cfull), but the contact maps, density profiles, and per-residue contact probabilities that form the basis for the interaction network claims are only described qualitatively. Without seeing the actual data, the strength and specificity of the claimed interaction patterns cannot be assessed. The statement that "the unscaled simulations are less reliable and the scaled Martini 3 simulations better capture TDP-43 dynamics" is a critical methodological conclusion that requires quantitative justification not visible here.
+  - **Why it matters** The manuscript's primary contribution is the identification of specific molecular interactions driving TDP-43 condensation. If the underlying data are not presented clearly and quantitatively, the claims cannot be evaluated or reproduced by the community.
+  - **Resolution test** Provide the actual contact maps, density profiles, and quantitative comparisons between model variants. Show statistical significance of differences between conditions. Present convergence analysis to demonstrate that the simulations have reached equilibrium.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The authors state that "the AA model was used to guide and verify explicit water CG model construction" and that "at their intersections each model exhibits comparable overall properties and utility."
+  - **Evidence pointer** Methods section, Figures 1C-F and S3-S5
+  - **Concern** The validation of the CG models against the AA simulations and against experimental data is described only superficially. The authors note that the 6WtoA variant in the HPS-Urry model gives Rg = 3.507 ± 0.024 nm versus 3.176 ± 0.035 nm for WT, and that this is "less extended than the Rg values obtained from SAXS experiments" (∼4.1 nm). The discrepancy is attributed to potential unfolding of folded domains in experiments, but this is speculative. More importantly, the comparison between AA and CG models is limited to Rg and qualitative contact map similarity. No quantitative metric of agreement is provided. The claim that the models are "comparable" is not substantiated.
+  - **Why it matters** The multiscale approach relies on the assumption that each level of resolution faithfully represents the physics captured at higher resolution. Without rigorous validation, the conclusions drawn from the CG simulations, which provide the main results on condensation, are uncertain.
+  - **Resolution test** Provide quantitative comparison metrics between AA and CG simulations (e.g., contact map correlation coefficients, per-residue contact probability differences). Discuss the SAXS discrepancy more thoroughly, including whether the force field parameters or the rigid domain constraints could contribute. Consider additional validation against experimental data on TDP-43 phase separation (e.g., saturation concentrations, cluster sizes).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Sampling and convergence
+  - **Claim pointer** The authors claim that "no individual TDP-43 proteins disassociate after they have properly integrated at the simulation timescales assessed" and that the assemblies are "fluid like" based on 10 μs simulations of 24 proteins.
+  - **Evidence pointer** Figure 3A-B, Video S1, Figure S8
+  - **Concern** The 10 μs timescale for Martini 3 simulations, while long for CG, may be insufficient to establish equilibrium properties of the assemblies. The claim that proteins do not dissociate after integration could reflect kinetic trapping rather than thermodynamic stability. The observation that five of eight simulations form a single assembly while three form two clusters spanning periodic boundaries suggests possible finite-size effects. The diffusion measurements within assemblies (Figure S8C) are described but not shown.
+  - **Why it matters** The conclusions about the fluid nature of TDP-43 condensates and the stability of the assemblies depend on the simulations being representative of equilibrium behavior. If the systems are kinetically trapped, the inferred interaction network may not reflect the true thermodynamic preferences.
+  - **Resolution test** Provide evidence of convergence (e.g., time evolution of cluster sizes, contact maps, density profiles). Discuss finite-size effects and consider replicate simulations with different initial conditions. If possible, extend simulation times or use enhanced sampling methods to verify the stability of the observed assemblies.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The authors propose a mechanistic model (Figure 4) in which "the balance between NTD-NTD (via head-to-tail) and CTD-CTD (facilitated by CR-CR and impacted by IDRs) interactions critically determines the formation of soluble, liquid-like condensates" and that "UG-rich RNAs play an important role in maintaining the solubility of TDP-43."
+  - **Evidence pointer** Figure 4, discussion section
+  - **Concern** The proposed mechanistic model extends beyond the direct simulation results. The role of RNA in maintaining solubility is inferred from the observation that RNA binding reduces interdomain contacts, but no direct simulation of RNA-mediated solubility is presented. The claim that NTD head-to-tail oligomerization is important for condensation is based on limited NTD-NTD contacts in the two-protein simulations and somewhat more pronounced contacts in the 24-protein assemblies, but the text acknowledges that "no full NTD dimerization is observed" in the two-protein simulations. The model is plausible but presented with more confidence than the data warrant.
+  - **Why it matters** The mechanistic model is likely to be the most cited aspect of this work. If it is presented as established rather than hypothetical, it could mislead subsequent research.
+  - **Resolution test** Clearly distinguish between simulation-observed interactions and proposed mechanisms. Consider additional simulations specifically designed to test the role of RNA in modulating condensation. If possible, compare with experimental data on TDP-43 phase separation in the presence and absence of RNA.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, AA simulation details
+  - **Evidence pointer** "AA simulation details" section
+  - **Issue** The description of the AA simulations is brief. It is stated that "each protein, and protein part, were set up using CHARMM-GUI solution builder" and that "all the simulations were initialized and run eight times for 2 μs each at 310.15 K," but details on the equilibration protocol, thermostat/barostat settings, and analysis methods are not provided.
+  - **Required correction** Provide a more complete description of the simulation protocol, including equilibration steps, ensemble, and any restraints applied. Specify how the secondary structure assignment was performed and how the "majority structure" was determined.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, RNA model
+  - **Evidence pointer** "Explicit water CG TDP-43 models" section
+  - **Issue** The RNA model is described as a "preliminary nucleotide Martini 3 model" with parameters based on phosphate and ribose from Martini 2. The details of this model and its validation are not provided.
+  - **Required correction** Provide a reference or a more detailed description of the RNA model, including how it was parameterized and validated. If the model is preliminary, state this limitation explicitly in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results, "TDP-43 self-interactions" section
+  - **Evidence pointer** Figure 1C-D
+  - **Issue** The Rg values are reported as mean ± SE, but the number of replicates and the time window over which the averages were computed are not stated. The statement that "the AA and CG models exhibit comparable Rg" is based on values of 2.46 ± 0.04 and 2.41 ± 0.05 nm, but the statistical significance of this comparison is not assessed.
+  - **Required correction** State the number of replicates and the analysis time window. Consider reporting the distribution of Rg values rather than just the mean and SE.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript cites relevant literature on TDP-43 structure and phase separation, but the discussion of how the simulation results compare with experimental findings is limited. For example, the SAXS-derived Rg of ∼4.1 nm for the 6WtoA mutant is mentioned, but the implications of the discrepancy with the simulation results are not fully explored.
+  - **Required correction** Expand the discussion to more thoroughly contextualize the simulation results within the existing experimental literature, including potential reasons for discrepancies and how the simulations might inform future experiments.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions section
+  - **Issue** The conclusions section is brief and does not clearly summarize the main findings or their implications. The final paragraph introduces the mechanistic model (Figure 4) but does not clearly state what is directly supported by the simulations versus what is proposed as a hypothesis.
+  - **Required correction** Revise the conclusions to clearly separate simulation-observed findings from proposed mechanisms, and summarize the key contributions of the work.
+
+## Risk / unsupported claims
+- The claim that "the unscaled simulations are less reliable and the scaled Martini 3 simulations better capture TDP-43 dynamics" is presented as a conclusion but is not quantitatively supported in the provided text.
+- The mechanistic model in Figure 4, particularly the role of RNA in maintaining solubility, extends beyond the direct simulation results and should be presented as a hypothesis.
+- The statement that "no individual TDP-43 proteins disassociate after they have properly integrated" is based on 10 μs simulations and may reflect kinetic trapping rather than equilibrium behavior.
+- The comparison between AA and CG models is limited to Rg and qualitative contact map similarity; the claim that the models are "comparable" is not quantitatively substantiated.
+- The discrepancy between simulated Rg values and SAXS-derived Rg for the 6WtoA variant is attributed to potential domain unfolding in experiments, but this explanation is speculative and not tested.
+- The claim that TDP-43 "collapses readily to a quite compact form" is based on simulation observations but the relationship to experimentally observed conformations is not established.

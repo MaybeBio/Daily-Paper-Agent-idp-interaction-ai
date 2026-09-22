@@ -1,0 +1,225 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.15.557852",
+  "title": "Improved Protein Model in SPICA Force Field",
+  "doi": "10.1101/2023.09.15.557852",
+  "abstract": "<h4>ABSTRACT</h4> The previous version of the SPICA coarse-grained (CG) force field (FF) protein model focused primarily on membrane proteins and successfully reproduced the dimerization free energies of several transmembrane helices and stable structures of various membrane protein assemblies. However, that model had limited accuracy when applied to other proteins, such as intrinsically disordered proteins (IDPs) and peripheral proteins, because the dimensions of the IDPs in an aqueous solution were too compact, and protein binding on the lipid membrane surface was over-stabilized. To improve the accuracy of the SPICA FF model for the simulation of such systems, in this study we introduce protein secondary structure-dependent nonbonded interaction parameters to the backbone segments and re-optimize almost all nonbonded parameters for amino acids. The improved FF proposed here successfully reproduces the radius of gyration of various IDPs, the binding sensitivity of several peripheral membrane proteins, and the dimerization free energies of several transmembrane helices. The new model also shows improved agreement with experiments on the free energy of peptide association in water. In addition, an extensive library of nonbonded interactions between proteins and lipids, including various glycerophospholipids, sphingolipids, and cholesterol, allows the study of specific interactions between lipids and peripheral and transmembrane proteins. Hence, the new SPICA FF (version 2) proposed herein is applicable with high accuracy for simulating a wide range of protein systems. <h4>Graphical abstract</h4>",
+  "authors": [
+    "Yamada T",
+    "Miyazaki Y",
+    "Harada S",
+    "Kumar A",
+    "Vanni S",
+    "Shinoda W"
+  ],
+  "published_date": "2023-09-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.15.557852",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.15.557852.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR726120",
+    "raw_record": {
+      "id": "PPR726120",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR726120"
+        ]
+      },
+      "doi": "10.1101/2023.09.15.557852",
+      "title": "Improved Protein Model in SPICA Force Field",
+      "authorString": "Yamada T, Miyazaki Y, Harada S, Kumar A, Vanni S, Shinoda W.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yamada T",
+            "lastName": "Yamada",
+            "firstName": "Teppei",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Graduate School of Natural Science and Technology, Okayama University, 3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Miyazaki Y",
+            "lastName": "Miyazaki",
+            "firstName": "Yusuke",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Institute for Interdisciplinary Science, Okayama University, 3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Harada S",
+            "lastName": "Harada",
+            "firstName": "Shogo",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Materials Chemistry, Nagoya University, Furo-cho, Chikusa-ku, Nagoya 464-8603, Japan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kumar A",
+            "lastName": "Kumar",
+            "firstName": "Ashutosh",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and National Center of Competence in Research Bio-inspired Materials, University of Fribourg, Chemin du Musée 10, 1700 Fribourg, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vanni S",
+            "lastName": "Vanni",
+            "firstName": "Stefano",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2146-1140"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology and National Center of Competence in Research Bio-inspired Materials, University of Fribourg, Chemin du Musée 10, 1700 Fribourg, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shinoda W",
+            "lastName": "Shinoda",
+            "firstName": "Wataru",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Institute for Interdisciplinary Science, Okayama University, 3-1-1 Tsushima-naka, Kita-ku, Okayama 700-8530, Japan"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2146-1140"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  The previous version of the SPICA coarse-grained (CG) force field (FF) protein model focused primarily on membrane proteins and successfully reproduced the dimerization free energies of several transmembrane helices and stable structures of various membrane protein assemblies. However, that model had limited accuracy when applied to other proteins, such as intrinsically disordered proteins (IDPs) and peripheral proteins, because the dimensions of the IDPs in an aqueous solution were too compact, and protein binding on the lipid membrane surface was over-stabilized. To improve the accuracy of the SPICA FF model for the simulation of such systems, in this study we introduce protein secondary structure-dependent nonbonded interaction parameters to the backbone segments and re-optimize almost all nonbonded parameters for amino acids. The improved FF proposed here successfully reproduces the radius of gyration of various IDPs, the binding sensitivity of several peripheral membrane proteins, and the dimerization free energies of several transmembrane helices. The new model also shows improved agreement with experiments on the free energy of peptide association in water. In addition, an extensive library of nonbonded interactions between proteins and lipids, including various glycerophospholipids, sphingolipids, and cholesterol, allows the study of specific interactions between lipids and peripheral and transmembrane proteins. Hence, the new SPICA FF (version 2) proposed herein is applicable with high accuracy for simulating a wide range of protein systems. <h4>Graphical abstract</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/18/2023.09.15.557852.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.15.557852"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR726120"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR726120&type=FILE&fileName=EMS188173-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37989551",
+            "reference": "Journal of chemical theory and computation. 2023 Dec;19(23):8967-8977",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS188173",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-09-19",
+      "firstPublicationDate": "2023-09-17",
+      "firstIndexDate": "2023-09-19",
+      "fullTextReceivedDate": "2023-12-01",
+      "hasEvaluations": "N"
+    }
+  }
+}

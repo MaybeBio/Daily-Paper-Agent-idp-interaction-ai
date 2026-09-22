@@ -1,0 +1,208 @@
+{
+  "identity": {
+    "pmid": "40286477",
+    "doi": "10.1016/j.compbiolchem.2025.108480",
+    "title": "Amino acid sequence-based IDR classification using ensemble machine learning and quantum neural networks."
+  },
+  "content": {
+    "abstract": "Biologically traditional methods, such as the Uversky plot, which rely on hydrophobicity and net charge, have inherent limitations in accurately distinguishing intrinsically disordered regions (IDRs) from ordered protein regions. To overcome these constraints, we propose a novel ensemble framework integrating Machine Learning (ML), Deep Neural Networks (DNN), and Quantum Neural Networks (QNN) to enhance IDR classification accuracy. Notably, this study is the first to employ QNNs for IDR classification, leveraging quantum entanglement to model intricate feature interactions. Amino acid sequences were analyzed to extract biophysical features, including charge distribution, hydrophobicity, and structural properties, which served as inputs for the predictive models. ML was utilized for independent feature learning, DNN for hierarchical interaction modeling, and QNN for capturing high-order dependencies. Our meta-model demonstrated an accuracy of 0.85, surpassing individual classifiers and highlighting the importance of buried amino acids and feature interactions between scaled hydrophobicity and large, buried, and charged residues. This study advances computational protein science by demonstrating the applicability of QNNs in bioinformatics and establishing a robust framework for IDR classification.",
+    "keywords": [
+      "Deep neural network",
+      "Intrinsically disordered region",
+      "Machine learning",
+      "Quantum neural network"
+    ],
+    "mesh_terms": [
+      "*Neural Networks, Computer",
+      "*Machine Learning",
+      "*Quantum Theory",
+      "Amino Acid Sequence",
+      "*Intrinsically Disordered Proteins/chemistry/classification",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Computational Biology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kang, Seok-Jin",
+        "Shin, Hongchul"
+      ],
+      "short_names": [
+        "Kang SJ",
+        "Shin H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, College of Life Sciences and Biotechnology, Korea University, Seoul 02841, Republic of Korea.",
+        "Department of Biotechnology, College of Life Sciences and Biotechnology, Korea University, Seoul 02841, Republic of Korea; Department of Mechanical Engineering, Korea University, Seoul 02841, Republic of Korea. Electronic address: saekomi5@korea.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kang, Seok-Jin",
+        "short_name": "Kang SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, College of Life Sciences and Biotechnology, Korea University, Seoul 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Shin, Hongchul",
+        "short_name": "Shin H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, College of Life Sciences and Biotechnology, Korea University, Seoul 02841, Republic of Korea; Department of Mechanical Engineering, Korea University, Seoul 02841, Republic of Korea. Electronic address: saekomi5@korea.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/27 03:14",
+    "fetched_at": "2026-09-21 18:15:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40286477",
+      "32535960",
+      "30866736",
+      "39433833",
+      "34830151",
+      "32019410",
+      "36959451",
+      "40024047",
+      "35767567",
+      "40081192",
+      "34836494",
+      "40997106",
+      "35469832",
+      "39576667",
+      "41086648",
+      "38275091",
+      "38781245",
+      "35325031",
+      "41534519",
+      "37674132",
+      "40441416",
+      "37498545",
+      "35922751",
+      "41337585",
+      "41257586",
+      "26555596",
+      "34905768",
+      "33810176",
+      "40577786",
+      "38048895",
+      "27282356",
+      "21110985",
+      "41354216",
+      "31233120",
+      "40270304",
+      "41921197",
+      "30071670",
+      "36272675",
+      "40238838",
+      "31881961",
+      "30939415",
+      "40131954",
+      "37883249",
+      "34418423",
+      "36851914",
+      "34487138",
+      "40784939",
+      "40481179",
+      "41794871",
+      "40598008",
+      "38808365",
+      "38987470",
+      "32808039",
+      "40756902",
+      "41023039",
+      "40169470",
+      "33616531",
+      "42160323",
+      "39236563",
+      "39446390",
+      "35016607",
+      "41139924",
+      "35066812",
+      "32936825",
+      "28365882",
+      "41419964",
+      "35724478",
+      "40396357",
+      "38941236",
+      "41450215",
+      "39509303",
+      "32173600",
+      "30135358",
+      "40158838",
+      "39093570",
+      "38097937",
+      "35503835",
+      "40594102",
+      "38096313",
+      "33740884",
+      "18831799",
+      "41708867",
+      "41844874",
+      "32896633",
+      "36471248",
+      "40952529",
+      "30657889",
+      "16796745",
+      "35356546",
+      "34390736",
+      "27587688",
+      "30026067",
+      "35094056",
+      "31245384",
+      "40944448",
+      "41564724",
+      "41688823",
+      "35761175",
+      "32352283",
+      "40133791"
+    ],
+    "review": [
+      "40286477",
+      "36959451",
+      "40081192",
+      "34418423",
+      "36851914",
+      "39093570",
+      "30657889",
+      "35356546"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(25)00140-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) from bioRxiv preprint
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and presentation quality as presented in the preprint
+- **Shared manuscript claim summary** The authors use multiscale molecular dynamics simulations to propose three mechanisms by which the highly charged intrinsically disordered protein Hero11 regulates TDP-43 condensation: (i) repulsive Hero11-Hero11 interactions reduce contacts and increase diffusion in the dense phase, (ii) attractive Hero11-TDP-43 interactions increase TDP-43 population and size in the dilute phase, and (iii) Hero11 accumulates on the surface of small TDP-43 condensates and prevents fusion. The authors also examine secondary structure effects and find that α-helical Hero11 enters condensates more readily than disordered Hero11.
+- **Visible evidence base** Main text figures 1-6, supplementary figures S1-S18 (referenced), supplementary tables S1 (referenced), methods section
+- **Missing materials affecting confidence** Supplementary figures and tables not provided in the submitted material; simulation parameter details for AICG2+ and HPS-Urry only partially described; convergence criteria for atomistic simulations not stated; force field validation data not shown
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question about how highly charged intrinsically disordered proteins regulate biomolecular condensation. The multiscale simulation approach combining atomistic and coarse-grained methods is appropriate and the authors propose mechanistically plausible models. However, the evidence presented has several gaps: the atomistic simulations are acknowledged as non-convergent, the coarse-grained model treats secondary structure as a binary switch rather than a dynamic property, and key quantitative comparisons (e.g., critical temperatures, partition coefficients) are presented without statistical uncertainty estimates. The three proposed mechanisms are reasonable but the manuscript would benefit from clearer articulation of which predictions are robust across model choices and which are model-dependent.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensation, phase separation, intrinsically disordered proteins, and protein aggregation, particularly those interested in chaperone-like functions of charged IDPs. The work may also interest computational biophysicists developing coarse-grained models for IDP phase behavior and experimentalists seeking mechanistic hypotheses for Hero protein function.
+- **Major strengths** The study addresses a biologically important and understudied problem. The multiscale approach is well motivated. The systematic mutation analysis (KRless, chargeless, scrambles) provides a clear route to dissect electrostatic contributions. The proposal of three distinct mechanisms with testable predictions is valuable. The connection to the scaffold-client paradigm and the extension to include repulsive interactions is conceptually useful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that atomistic simulations of Hero11 show a short α-helical region (residue 44-50) is preserved regardless of starting structure, supporting the use of α-helical models in CG simulations.
+  - **Evidence pointer** Results section "Single chain simulations of TDP-43 and Hero11", Supplementary Figure S2
+  - **Concern** The authors state that 1 μs simulations are insufficient to achieve equilibrium and that structures from the two starting conditions are "pretty different." Yet they use the presence of a short helix at residues 44-50 in both simulations as evidence for its stability. This is a weak inference: a transient helix appearing in two non-converged trajectories does not establish thermodynamic stability. The subsequent CG simulations then treat this helix as a fixed structural element, which may bias all downstream results.
+  - **Why it matters** The secondary structure of Hero11 is a central variable in this study. If the α-helical assignment is not robust, then the comparison between Hero11-WT-α and Hero11-WT-noα may not reflect a realistic structural ensemble, and the conclusion that α-helices facilitate condensate entry could be an artifact of the model construction.
+  - **Resolution test** Provide longer atomistic simulations (or enhanced sampling) with demonstrated convergence (e.g., block averaging of structural observables). Alternatively, perform CG simulations with a dynamic secondary structure model that allows helix formation and unfolding, and show that the qualitative conclusions are unchanged.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Hero11-WT decreases the critical temperature of TDP-43 and that this effect is due to repulsive Hero11-Hero11 interactions.
+  - **Evidence pointer** Results section "Regulation of TDP-43 condensate by Hero11", Figure 4E
+  - **Concern** The phase diagrams are constructed from simulations at only four temperatures (260K, 270K, 280K, 290K) for the heterotypic systems. The critical temperature is obtained by fitting a scaling law to these points. With only four points and no error bars or replicate simulations, the reported shift in T_C (from approximately 300K to 290K) may not be statistically meaningful. Additionally, the authors do not report the uncertainty in the fitted T_C values.
+  - **Why it matters** The central claim that Hero11 destabilizes TDP-43 condensates rests on this phase diagram comparison. If the T_C shift is within the fitting uncertainty, the proposed mechanism loses its quantitative support.
+  - **Resolution test** Perform replicate simulations at each temperature (at least 3 independent runs) and report mean and standard deviation for T_C. Alternatively, use a more robust method to estimate T_C, such as finite-size scaling or direct coexistence simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that Hero11 on the surface of small TDP-43 condensates prevents fusion via repulsive interactions, as a third mechanism.
+  - **Evidence pointer** Results section "Mechanism underlying the Hero11's anti-aggregation function", Figure 6
+  - **Concern** The surface accumulation of Hero11-WT-α is shown for one representative simulation snapshot and one density profile. The claim that this prevents fusion is inferred from the density distribution but no direct simulation of two condensates approaching each other is performed. The authors do not quantify the repulsive barrier or show that it is sufficient to prevent coalescence under realistic conditions.
+  - **Why it matters** This is presented as one of the three main mechanisms, but the evidence is largely qualitative. Without a direct test of the fusion process, this mechanism remains speculative.
+  - **Resolution test** Perform simulations of two pre-formed condensates with and without Hero11 present, and measure the fusion timescale or the potential of mean force between condensates. Alternatively, compute the surface tension and the repulsive interaction between two Hero11-coated surfaces.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the HPS-Urry parameter set with the Debye-Hückel electrostatic term captures the phase behavior of TDP-43 and Hero11.
+  - **Evidence pointer** Methods section "Coarse-grained modeling of TDP-43 and Hero11"
+  - **Concern** The manuscript does not provide a validation of the CG model against experimental data for TDP-43 or Hero11. The HPS model is known to be sensitive to the choice of hydropathy scale and electrostatic treatment. The authors do not show that their model reproduces known experimental phase boundaries or single-chain dimensions for either protein. The use of a single parameter set without sensitivity analysis weakens confidence in the quantitative predictions.
+  - **Why it matters** The phase diagrams and T_C values are the quantitative backbone of the study. If the model is not validated, the specific numbers (e.g., T_C shifts, partition coefficients) cannot be interpreted as predictions about the real system.
+  - **Resolution test** Compare simulation predictions with available experimental data (e.g., turbidity measurements, FRAP diffusion coefficients, single-molecule FRET dimensions). Perform a sensitivity analysis varying the hydropathy scale and electrostatic parameters to show that conclusions are robust.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "Hero-11 on the surface of small TDP-43 condensates avoids their fusions with the repulsive interactions" which is grammatically awkward and unclear. The mechanism is not clearly stated.
+  - **Required correction** Revise to something like "Hero11 accumulates on the surface of small TDP-43 condensates and prevents their fusion through repulsive Hero11-Hero11 interactions."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, equation 5
+  - **Evidence pointer** Methods section "Coarse-grained modeling"
+  - **Issue** The Debye-Hückel equation is written with a typo: "Debye-Hu□ckel" contains a placeholder character. The relative permittivity is given as a product of temperature and salt-dependent functions, but the functional forms are not explicitly provided.
+  - **Required correction** Fix the typo and provide the explicit functional forms for e(T) and a(C), or cite the original source.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, data analysis
+  - **Evidence pointer** Methods section "Data Analysis"
+  - **Issue** The threshold density for defining the dense phase is given as 3.4 mM, but the conversion from particle density to molar concentration is not shown. The buffer distance b_buff = 2 is defined but its physical meaning is unclear.
+  - **Required correction** Clarify the conversion and the rationale for the buffer distance.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Figure 5
+  - **Evidence pointer** Results section "Mechanism underlying the Hero11's anti-aggregation function"
+  - **Issue** The binary phase diagram in Figure 5A is described but the tie-line construction and the meaning of the intersection point are not fully explained in the text.
+  - **Required correction** Add a brief explanation of how to read the binary phase diagram and what the tie-line intersection represents.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion mentions "the driving force for th other Hero protein's anti-aggregation function" with a typo ("th" instead of "the").
+  - **Required correction** Fix the typo.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (atomistic simulation convergence and secondary structure assignment), R1-M2 (statistical uncertainty in phase diagrams and T_C), R1-M4 (CG model validation)
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of multiscale simulations to Hero proteins is new, but the general concept that repulsive interactions modulate condensate properties has been discussed in the literature. The three-mechanism framework is a useful synthesis.
+  - Scientific importance: Potentially high. Understanding how Hero proteins protect against aggregation has biomedical relevance. However, the importance is diminished by the lack of experimental validation and the acknowledged model limitations.
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and computational biology. The writing is generally accessible but some simulation details may be opaque to experimentalists.
+  - Technical soundness: Currently insufficient. The non-converged atomistic simulations, lack of error bars on key quantities, and absence of model validation are significant weaknesses.
+  - Readability for nonspecialists: The introduction and discussion are well written and accessible. The results section is dense and would benefit from clearer signposting of the main findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting framework and plausible mechanisms, but the technical concerns regarding simulation convergence, statistical uncertainty, and model validation must be addressed before the conclusions can be considered robust. The authors should either provide additional simulations to address these issues or temper their claims to match the current evidence level.
+
+## Risk / unsupported claims
+- The claim that Hero11 has a stable α-helical region at residues 44-50 is not supported by converged atomistic simulations.
+- The quantitative shift in T_C of TDP-43 induced by Hero11 is not supported with statistical uncertainty estimates.
+- The claim that Hero11 prevents condensate fusion is inferred from density distributions without direct simulation of the fusion process.
+- The generalization from Hero11 to all Hero proteins is speculative, as only Hero11 was studied.
+- The claim that the proposed mechanisms apply to RNA and other highly charged biomolecules is an extrapolation without direct evidence.
+- The statement that "Hero11 cannot be a completely random structure in solution" is based on non-converged simulations and is therefore not firmly established.

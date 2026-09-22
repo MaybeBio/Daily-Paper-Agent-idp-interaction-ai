@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, experimental procedures, and data availability statements.
+- **Assessment boundary** The scientific claims, experimental design, data interpretation, and internal consistency of the presented evidence. No external validation or replication was performed.
+- **Shared manuscript claim summary** The authors propose that intrinsically disordered electronegative clusters (ENCs) are abundant in RNA-binding proteins (RBPs), stabilize neighboring RNA-binding domains through intramolecular electrostatic interactions, and suppress nonspecific RNA binding while minimally affecting specific binding. They further suggest that ENCs reshape the RNA-binding specificity landscape, as demonstrated by grafting an ENC onto SRSF3.
+- **Visible evidence base** Bioinformatic analysis of 2,783 RBPs; urea denaturation and FirbY-W stability assays on Nop15 constructs; differential scanning calorimetry on TDP-43 RRM2 and SRSF3 constructs; fluorescence polarization binding assays; NMR-based paramagnetic relaxation enhancement and chemical shift perturbation; XPLOR-NIH ensemble calculations; molecular dynamics simulations; RNA Bind-n-Seq with deep sequencing.
+- **Missing materials affecting confidence** The supporting information (Figs. S1–S6, Tables S1–S5, Videos S1–S3) was not provided. Raw sequencing data and NMR assignment validation were not accessible. Details of the RNA Bind-n-Seq analysis pipeline were only partially described.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a potentially important and underappreciated feature of disordered regions in RNA-binding proteins. The central hypothesis, that electronegative clusters act as autoinhibitory elements that tune RNA-binding specificity, is conceptually interesting and supported by a multi-pronged approach. However, the strength of the conclusions is limited by the reliance on a single model protein for the functional assays, the absence of supporting information in this review, and some concerns about the interpretation of the binding and stability data. The bioinformatic observations are intriguing but would benefit from a more rigorous statistical framework. Overall, the work is promising but the case is not fully established from the provided materials.
+- **Who would be interested in the results, and why** Researchers studying RNA-binding proteins, intrinsically disordered regions, protein-RNA recognition, and the role of post-translational modifications such as phosphorylation in regulating RNA processing. The findings may also be of interest to those working on protein engineering and design of RNA-binding modules, as the ENC grafting approach offers a potential strategy to modulate binding specificity.
+- **Major strengths**
+  - The identification and systematic characterization of ENCs as a distinct and abundant repetitive sequence family in RBPs is a novel contribution.
+  - The use of multiple orthogonal biophysical techniques (stability, NMR, MD, binding) to probe the intramolecular interactions is commendable.
+  - The grafting experiment onto SRSF3 is a clever approach to test the generality of the proposed mechanism and provides evidence for specificity modulation.
+  - The evolutionary analysis, including the underrepresentation of ENCs in halophiles, adds a compelling dimension to the functional argument.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for the central mechanism
+  - **Claim pointer** The manuscript claims that ENCs "inhibit nonspecific RNA binding" and that this is a general function of ENCs in RBPs.
+  - **Evidence pointer** Figure 3, Table 2; Discussion section
+  - **Concern** The functional evidence for the inhibitory role of ENCs is derived almost exclusively from Nop15. While the SRS3 grafting experiment shows an effect on specificity, it does not directly demonstrate that the native ENC of SRS3 (or any other RBP) performs the same function. The claim of generality is therefore not supported by the presented data. The authors should either provide data on additional native RBP-ENC pairs or temper the generality claim.
+  - **Why it matters** The central thesis of the paper is that ENCs are a general regulatory feature. Without evidence from multiple systems, the observed effects could be idiosyncratic to Nop15 or the specific artificial ENC graft.
+  - **Resolution test** Provide functional data (e.g., binding assays with and without the ENC) for at least one or two additional RBPs with native ENCs. Alternatively, clearly frame the conclusions as a proposed model based on a single in-depth case study.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability and verification
+  - **Claim pointer** The manuscript relies heavily on the RNA Bind-n-Seq results to support the claim that ENCs change the landscape of RNA-binding specificity.
+  - **Evidence pointer** Figure 5, Tables S4 and S5; Experimental procedures
+  - **Concern** The RNA Bind-n-Seq analysis is complex and the provided description is insufficient to fully evaluate the methodology. The supporting information, which likely contains critical details on data processing, motif calling, and statistical analysis, was not available for review. Without this, the robustness of the reported relative KD values and the derived conclusions cannot be assessed.
+  - **Why it matters** The specificity reshaping claim is a key novel finding. If the analysis pipeline is flawed or the statistical power is insufficient, the conclusion could be an artifact.
+  - **Resolution test** Provide the full supporting information, including detailed analysis scripts, quality control metrics, and replicate information. A step-by-step description of how the decisive matrix was used to assign binding events is essential.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of biophysical data
+  - **Claim pointer** The manuscript states that the ENC "increases protein stability" and that this is due to intramolecular electrostatic interactions.
+  - **Evidence pointer** Figure 2, Table 1; Results section
+  - **Concern** The FirbY-W assay is used to measure stability, but the method is not widely established. The authors should provide a more detailed validation of this approach, including how the fluorescence ratio correlates with the free energy of unfolding. Furthermore, the interpretation that the ΔΔG values directly reflect the energy of the intramolecular interaction assumes that the unfolded state is unaffected by the ENC, an assumption that is stated but not rigorously tested.
+  - **Why it matters** The quantitative link between the measured stability changes and the proposed intramolecular interaction energy is central to the thermodynamic model presented in Figure 2A. If the assay or the interpretation is flawed, the quantitative conclusions are weakened.
+  - **Resolution test** Validate the FirbY-B assay against a standard method (e.g., circular dichroism or differential scanning calorimetry) for at least one construct. Provide a more detailed discussion of the assumptions and potential artifacts in the stability measurements.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Bioinformatic analysis
+  - **Evidence pointer** Figure 1, Figure 6
+  - **Issue** The error bars in Figure 1A are described as "top halves of the error bars" but the statistical basis for these errors is not clear. The Monte Carlo simulation p-values are mentioned, but the details of the simulation and how they were used to assess significance are not fully described.
+  - **Required correction** Clarify the statistical methods used. State the number of simulations, the null model, and how the p-values were calculated and corrected for multiple testing.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of model
+  - **Affected element** Figure 2A
+  - **Evidence pointer** Figure 2A
+  - **Issue** The schematic in Figure 2A is helpful but could be clearer. It is not immediately obvious how the "unfolded state" is defined and why the interaction is assumed to be zero in this state.
+  - **Required correction** Add a more detailed legend to Figure 2A explaining the states and the assumptions of the model.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table 2
+  - **Evidence pointer** Table 2
+  - **Issue** The table lists "ND" for some binding affinities, but it is not clear what the detection limit of the assay is. This makes it difficult to interpret the magnitude of the inhibition.
+  - **Required correction** State the detection limit of the FP assay and provide a quantitative lower bound for the "ND" values.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Definition of ENC
+  - **Evidence pointer** Results section
+  - **Issue** The definition of ENC includes "acidic residues with embedded phosphorylation sites." This is a broad definition that could include many sequences. It would be helpful to know if the analysis was repeated with a stricter definition (e.g., only poly-D/E) and if the conclusions hold.
+  - **Required correction** Provide a sensitivity analysis using different ENC definitions.
+
+## Risk / unsupported claims
+- The claim that ENCs are "the most abundant repetitive sequences" in RBP disordered regions is dependent on the definition of ENC and the threshold length. The sensitivity of this claim to the chosen parameters is not fully explored.
+- The claim that the ENC "minimally interferes with specific RNA binding" is based on a single construct (Nop15) and a single specific RNA. The effect on other specific targets is unknown.
+- The evolutionary argument, based on the underrepresentation of ENCs in halophiles, is correlative. The authors do not provide a mechanistic explanation for why high salt would select against ENCs beyond the proposed electrostatic mechanism.
+- The statement that "the ENC can reshape the landscape of RNA-binding specificity" is based on the SRS3 grafting experiment. The physiological relevance of this grafted construct is not established, as the ENC is not native to SRS3.

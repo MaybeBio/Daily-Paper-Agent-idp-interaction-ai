@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41560158",
+  "title": "Chemically active droplets in crowded environments.",
+  "authors": "Fries, Jacques D; Berthin, Roxanne; Luo, Chengjie; Jardat, Marie; Zwicker, David; Dahirel, Vincent; Illien, Pierre",
+  "journal": "Physical review. E",
+  "published_date": "2026-01-21",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用粒子与场模型研究拥挤环境中化学活性液滴（相分离凝聚体）的尺寸与密度相体积变化，对象为凝聚体但非具体IDR-PPI互作机制，方法为物理模拟但未聚焦结合界面，故为中档。",
+  "abstract": "Biomolecular condensates are essential for cellular organization and result from phase separation in systems far from thermodynamic equilibrium. Among various models, chemically active droplets play a significant role, and consist of proteins that switch between attractive and repulsive states via nonequilibrium chemical reactions. While field-based simulations have provided insights into their behavior, these coarse-grained approaches fail to capture molecular-scale effects, particularly in crowded cellular environments. Macromolecular crowding, a key feature of intracellular organization, strongly influences molecular transport within condensates, yet its quantitative impact remains underexplored. This study investigates the interplay between chemically active droplets and crowders by using particle-based models, that provide molecular insight, and a field-based model, that complements this picture. Surprisingly, crowding reduces droplet size while expanding the overall dense phase volume, challenging equilibrium-based expectations. This effect arises from the interplay between depletion interactions, diffusion hindrance, and nonequilibrium particle fluxes. Our findings provide a step towards a more comprehensive understanding of chemically active droplets in complex, realistic cellular environments.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）对细胞组织至关重要，源于远离热力学平衡系统中发生的相分离（phase separation）。在各种模型中，化学活性液滴（chemically active droplets）扮演重要角色，由通过非平衡化学反应在吸引与排斥状态之间切换的蛋白质组成。尽管基于场的模拟已为其行为提供了见解，但这些粗粒化方法未能捕捉分子尺度效应，尤其是在拥挤的细胞环境中。大分子拥挤（macromolecular crowding）是细胞内组织的一个关键特征，强烈影响凝聚体内的分子运输，但其定量影响仍未得到充分探索。本研究通过使用提供分子洞察的基于粒子的模型和补充该图景的基于场的模型，探讨了化学活性液滴与拥挤剂之间的相互作用。令人惊讶的是，拥挤减小了液滴尺寸，同时扩大了整体致密相体积，挑战了基于平衡态的预期。这一效应源于耗尽相互作用、扩散阻碍和非平衡粒子通量之间的相互作用。我们的发现为在复杂、现实的细胞环境中更全面理解化学活性液滴迈出了一步。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41560158/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41560158/",
+  "paper_page_path": "papers/pubmed/41560158/index.html"
+}

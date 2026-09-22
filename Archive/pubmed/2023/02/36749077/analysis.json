@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36749077",
+  "title": "Flexibility of the Rotavirus NSP2 C-Terminal Region Supports Factory Formation via Liquid-Liquid Phase Separation.",
+  "authors": "Nichols, Sarah L; Nilsson, Emil M; Brown-Harding, Heather; LaConte, Leslie E W; Acker, Julia; Borodavka, Alexander; McDonald Esstman, Sarah",
+  "journal": "Journal of virology",
+  "published_date": "2023-02-08",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合MD模拟与实验，揭示轮状病毒NSP2无序C端柔性通过LLPS驱动病毒工厂（凝聚体）形成及PPI互作机制，对象、互作、方法三者齐备且聚焦机制建模。",
+  "abstract": "Many viruses sequester the materials needed for their replication into discrete subcellular factories. For rotaviruses (RVs), these factories are called viroplasms, and they are formed in the host cell cytosol via the process of liquid-liquid phase separation (LLPS). The nonstructural protein 2 (NSP2) and its binding partner, nonstructural protein 5 (NSP5), are critical for viroplasm biogenesis. Yet it is not fully understood how NSP2 and NSP5 cooperate to form factories. The C-terminal region (CTR) of NSP2 (residues 291 to 317) is flexible, allowing it to participate in domain-swapping interactions that promote interoctamer interactions and, presumably, viroplasm formation. Molecular dynamics simulations showed that a lysine-to-glutamic acid change at position 294 (K294E) reduces NSP2 CTR flexibility in silico. To test the impact of reduced NSP2 CTR flexibility during infection, we engineered a mutant RV bearing this change (rRV-NSP2(K294E)). Single-cycle growth assays revealed a >1.2-log reduction in endpoint titers for rRV-NSP2(K294E) versus the wild-type control (rRV-WT). Using immunofluorescence assays, we found that rRV-NSP2(K294E) formed smaller, more numerous viroplasms than rRV-WT. Live-cell imaging experiments confirmed these results and revealed that rRV-NSP2(K294E) factories had delayed fusion kinetics. Moreover, NSP2(K294E) and several other CTR mutants formed fewer viroplasm-like structures in NSP5 coexpressing cells than did control NSP2(WT). Finally, NSP2(K294E) exhibited defects in its capacity to induce LLPS droplet formation in vitro when incubated alongside NSP5. These results underscore the importance of NSP2 CTR flexibility in supporting the biogenesis of RV factories. IMPORTANCE Viruses often condense the materials needed for their replication into discrete intracellular factories. For rotaviruses, agents of severe gastroenteritis in children, factory formation is mediated in part by an octameric protein called NSP2. A flexible C-terminal region of NSP2 has been proposed to link several NSP2 octamers together, a feature that might be important for factory formation. Here, we created a change in NSP2 that reduced C-terminal flexibility and analyzed the impact on rotavirus factories. We found that the change caused the formation of smaller and more numerous factories that could not readily fuse together like those of the wild-type virus. The altered NSP2 protein also had a reduced capacity to form factory-like condensates in a test tube. Together, these results add to our growing understanding of how NSP2 supports rotavirus factory formation-a key step of viral replication.",
+  "abstract_zh": "许多病毒将复制所需的原料隔离到离散的亚细胞工厂中。对于轮状病毒（rotaviruses, RVs），这些工厂被称为病毒质（viroplasms），它们通过液-液相分离（liquid-liquid phase separation, LLPS）过程在宿主细胞胞质中形成。非结构蛋白2（NSP2）及其结合伴侣非结构蛋白5（NSP5）对病毒质生物发生至关重要。然而，NSP2和NSP5如何协同形成工厂尚未完全阐明。NSP2的C末端区域（CTR）（残基291至317）具有柔性，使其能够参与促进八聚体间相互作用并可能促进病毒质形成的结构域交换相互作用。分子动力学（molecular dynamics）模拟显示，第294位赖氨酸突变为谷氨酸（K294E）在计算机模拟中降低了NSP2 CTR的柔性。为测试感染期间NSP2 CTR柔性降低的影响，我们构建了携带此改变的突变轮状病毒（rRV-NSP2(K294E)）。单周期生长实验显示，与野生型对照（rRV-WT）相比，rRV-NSP2(K294E)的终点滴度降低了>1.2个对数。通过免疫荧光实验，我们发现rRV-NSP2(K294E)形成的病毒质比rRV-WT更小且数量更多。活细胞成像实验证实了这些结果，并揭示rRV-NSP2(K294E)的工厂具有延迟的融合动力学。此外，在共表达NSP5的细胞中，NSP2(K294E)及其他几个CTR突变体形成的病毒质样结构少于对照NSP2(WT)。最后，NSP2(K294E)在与NSP5共孵育时，在体外诱导LLPS液滴形成的能力上表现出缺陷。这些结果强调了NSP2 CTR柔性在支持轮状病毒工厂生物发生中的重要性。重要性 病毒常将复制所需原料浓缩到离散的细胞内工厂中。对于轮状病毒——儿童严重胃肠炎的病原体——工厂形成部分由名为NSP2的八聚体蛋白介导。NSP2的柔性C末端区域被认为可连接多个NSP2八聚体，这一特征可能对工厂形成至关重要。在此，我们创建了NSP2中一个降低C末端柔性的改变，并分析了其对轮状病毒工厂的影响。我们发现该改变导致形成更小且数量更多的工厂，这些工厂无法像野生型病毒那样轻易融合。改变的NSP2蛋白在试管中形成工厂样凝聚体的能力也降低。综合来看，这些结果增进了我们对NSP2如何支持轮状病毒工厂形成——病毒复制的关键步骤——的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36749077/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36749077/",
+  "paper_page_path": "papers/pubmed/36749077/index.html"
+}

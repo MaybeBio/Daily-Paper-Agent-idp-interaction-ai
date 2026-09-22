@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, results, discussion, funding, author contributions, competing interests, data availability, supplementary materials list, and references list. Figures and supplementary figures/tables are referenced but not provided.
+- **Assessment boundary** The scientific claims, methodology, data interpretation, and internal consistency of the presented results. The assessment is limited to the text provided; no external data, figures, or supplementary materials were available for direct inspection.
+- **Shared manuscript claim summary** The authors claim that the intrinsically disordered N-terminal domain of the bacterial transcriptional regulator CytR (CytR N) transiently populates a globally folded, three-helix bundle excited state, which is structurally similar to the DNA-bound form. They further claim, based on CEST and Double Resonance DANTE-CEST NMR experiments, that DNA recognition by CytR N proceeds via a conformational selection ("folding-before-binding") mechanism, where only the excited state binds DNA, and not the disordered ground state.
+- **Visible evidence base** The manuscript text includes descriptions of NMR experiments (CEST, DRD-CEST), chemical shift and RDC measurements, CS-Rosetta structure calculations, and mutant studies. Quantitative data (e.g., populations, rate constants, RMSD values, Q factors) are cited in the text. However, the actual spectra, fits, structure ensembles, and supplementary figures/tables are not available for direct verification.
+- **Missing materials affecting confidence** All figures (Fig. 1-5, S1-S17), tables (S1-S6), and the Supporting Text (including Materials and Methods) are not provided. This significantly limits the ability to independently assess the quality of the NMR data, the validity of the structural calculations, and the robustness of the kinetic/thermodynamic parameters extracted from the CEST and DRD-CEST experiments.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially significant finding: the observation of a globally folded, sparsely populated excited state in an intrinsically disordered protein, and the demonstration that this state is the functional species in DNA binding. The work is technically ambitious, employing advanced NMR methodologies (multinuclear CEST, DRD-CEST) to characterize invisible states and their role in molecular recognition. The claims are bold and, if fully substantiated, would challenge current views of IDP energy landscapes and function. However, the current manuscript, as presented in text-only form, does not provide sufficient verifiable evidence to fully support all conclusions. The central claims rest on the quality of the NMR data and the structural calculations, which cannot be assessed without the figures and supplementary materials. The distinction between the proposed "folding-before-binding" mechanism and other possible models (e.g., induced fit) is a key point that requires the most rigorous experimental support, and the text alone does not provide enough detail to confirm the exclusivity of the conformational selection pathway.
+- **Who would be interested in the results, and why** This work will be of high interest to researchers in the fields of intrinsically disordered proteins, protein biophysics, NMR spectroscopy, and molecular recognition. Specifically, it is relevant to those studying the functional roles of conformational heterogeneity, the mechanisms of IDP-protein interactions, and the evolutionary design of regulatory proteins. The demonstration of a functional excited state in an IDP could have broad implications for understanding how disorder is utilized in biology and for drug discovery efforts targeting IDPs.
+- **Major Strengths**
+    - The study addresses a fundamental and long-standing question in the IDP field: the relationship between structural heterogeneity and function.
+    - The use of advanced CEST NMR techniques to characterize a sparsely populated, globally folded state in an IDP is methodologically impressive and represents a significant technical achievement.
+    - The combination of chemical shifts, RDCs, and CS-Rosetta to determine the structure of an "invisible" excited state is a powerful approach.
+    - The study provides a clear and testable model (folding-before-binding) for how an IDP can function, which is a valuable conceptual contribution.
+    - The use of mutants to validate the role of the hydrophobic core in stabilizing the excited state is a logical and supportive experimental strategy.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** The authors claim that the excited state is "globally folded" and structurally resembles the DNA-bound form, based on CEST-derived chemical shifts and RDCs.
+    - **Evidence pointer** Results section "The excited state of CytR N is globally folded"; Figures 2, 3, S4-S10; Tables S2-S5.
+    - **Concern** The central structural claim is that the excited state is a well-defined, globally folded three-helix bundle. This is a strong claim that requires high-quality structural data. The text mentions CS-Rosetta calculations with 119 chemical shifts and 65 RDCs, and reports good agreement with predicted values (Q factors of 0.124 and 0.091). However, without seeing the actual structural ensemble, the convergence plots (Fig. S8), and the correlation plots (Fig. S9, S10), it is impossible to verify the quality of the structure. The claim of a "globally folded" state with a specific topology is a cornerstone of the paper, and the evidence for it must be presented in a way that allows for independent assessment. The text alone is insufficient to establish this.
+    - **Why it matters** If the structure is not well-defined or is incorrect, the entire premise of the paper, which is that a specific folded conformation is the functional species, collapses. The structural interpretation is the foundation for the subsequent functional claims.
+    - **Resolution test** The authors must provide the full structural ensemble, validation statistics (e.g., RMSD, Ramachandran plots, clash scores), and clear depictions of the structure in the figures. The correlation between experimental and predicted chemical shifts and RDCs must be shown with appropriate statistical measures. The convergence of the CS-Rosetta calculations must be demonstrated.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Evidence sufficiency
+    - **Claim pointer** The authors claim that DNA binding occurs exclusively via the excited state through a "folding-before-binding" conformational selection mechanism, and that the disordered state cannot bind DNA.
+    - **Evidence pointer** Results section "CytR N binds DNA through the excited three-helix bundle state"; Figures 4, S15, S16; Tables S6.
+    - **Concern** The distinction between conformational selection (CS) and induced fit (IF) is the most critical and novel claim of the paper. The authors use DRD-CEST to argue for a sequential model (D↔E↔B) over a bifurcated model (E↔D↔B). The text states that the fit to the sequential model is better, and that the flux through the CS pathway is at least 200-fold larger. However, the details of the DRD-CEST experiment, the fitting procedure, and the statistical comparison between models are not provided. The conclusion that the disordered state "cannot directly bind DNA" is very strong and requires the most rigorous kinetic analysis. The text mentions a triangular model fit where k_ex,DB is near zero, but the uncertainty in this parameter is not given. Without seeing the data and the fits, it is impossible to determine if the evidence truly excludes the IF pathway or if it is merely less favored.
+    - **Why it matters** The proposed mechanism is a major conceptual advance. If the evidence is not conclusive, the paper's main message is weakened. Overstating the exclusivity of the CS mechanism could mislead the field. The possibility of a minor but non-zero IF pathway, or a conformational selection step followed by local induced fit adjustments, is a nuance that must be addressed with quantitative rigor.
+    - **Resolution test** The authors must provide a detailed description of the DRD-CEST experiment and the data analysis. They must show the quality of the fits for both the sequential and bifurcated models, including residuals and parameter uncertainties. The statistical significance of the difference in fit quality must be reported. The uncertainty in the flux calculations must be provided. The authors should also discuss the possibility of a mixed mechanism.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical validation
+    - **Claim pointer** The authors use the A29V/A48M double mutant to show that the excited state can become the dominant state, and that this mutant's ground state chemical shifts match the excited state of the wild-type protein.
+    - **Evidence pointer** Results section "The excited state is a three-helix bundle containing a helix-turn-helix motif"; Figures 3F, S11-S13.
+    - **Concern** The mutant studies are used to support the structural model and the energetic landscape. The text states that the A29V/A48M mutant "undergoes population switching" with p_E = 78 ± 6%. This is a powerful result, but the text does not provide details on how the population was quantified. Was it from CEST profiles? From HSQC peak intensities? The agreement with FoldX predictions is mentioned, but the details of the FoldX calculations are not given. The text also mentions that the A29V mutation slightly stabilizes the excited state, but the quantitative effect is not reported.
+    - **Why it matters** The mutant data provide a crucial link between sequence, structure, and stability. If the population of the excited state in the mutant is not accurately measured, the interpretation of the energetic effects of the mutations is compromised. The agreement with FoldX is a nice validation, but it is not a substitute for experimental measurement.
+    - **Resolution test** The authors must clearly state how the populations of the excited and ground states were determined for the mutants. They should provide the relevant spectra or fits. The uncertainties in the population estimates must be reported. The FoldX calculations should be described in sufficient detail to be reproducible.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract and Introduction
+    - **Evidence pointer** Abstract; Introduction, first paragraph
+    - **Issue** The abstract and introduction state that the excited state is "thermally accessible" and that the mechanism is a "dynamical variant of the lock-and-key mechanism." While evocative, the term "dynamical variant of the lock-and-key" is not standard and could be confusing. The concept of "folding-before-binding" is clearer and should be the primary descriptor.
+    - **Required correction** Consider rephrasing the abstract to use "folding-before-binding" as the primary term and explain the "dynamical variant" concept more explicitly, or remove it for clarity.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Completeness
+    - **Affected element** Results section "CytR N is an intrinsically disordered DNA binding domain"
+    - **Evidence pointer** Figure 1A, 1B, 1C, 1D
+    - **Issue** The text mentions that CytR N is "depleted in hydrophobic residues" and "rich in Ala and Lys" but does not provide a quantitative comparison with its folded homologs. The claim that the HSQC spectrum shows a "narrow chemical shift range" is qualitative.
+    - **Required correction** Provide a quantitative analysis of the amino acid composition and a measure of chemical shift dispersion (e.g., the standard deviation of 1H chemical shifts) to support the classification of CytR N as intrinsically disordered.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Results section "The excited state of CytR N is globally folded"
+    - **Evidence pointer** Figure 3G, 3H
+    - **Issue** The comparison between the excited state and the DNA-bound state is described as having a Cα RMSD of 2.4 Å. This is a relatively high value for a "close resemblance." The text should clarify whether this RMSD is over the entire domain or only the structured core, and discuss the significance of this value.
+    - **Required correction** Specify the region over which the RMSD was calculated and provide a more nuanced discussion of the structural similarity, acknowledging the differences.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Completeness
+    - **Affected element** Discussion
+    - **Evidence pointer** Discussion, paragraph 3
+    - **Issue** The discussion speculates on the evolutionary availability of the folding-before-binding mechanism. This is an interesting point, but it is not directly supported by the data presented.
+    - **Required correction** Clearly label this as speculation and avoid overstating the evolutionary implications without further evidence.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: The structural evidence for the "globally folded" excited state is not verifiable from the text alone. Full structural data and validation are required.
+    - R1-M2: The evidence for the exclusive "folding-before-binding" mechanism is not fully presented. Detailed kinetic analysis and model comparison are required.
+    - R1-M3: The quantitative details of the mutant population analysis are missing.
+- **Assessment against Nature-style criteria**
+    - **Originality** The work is highly original. The observation of a globally folded excited state in an IDP and its functional role in DNA binding via a conformational selection mechanism is a novel and significant finding that challenges existing paradigms.
+    - **Scientific importance** The findings are of high importance to the fields of protein biophysics, IDP biology, and molecular recognition. They provide a new mechanism for how IDPs can function and have implications for understanding the evolution of regulatory proteins.
+    - **Interdisciplinary readership** The work is likely to appeal to a broad readership, including biophysicists, structural biologists, biochemists, and cell biologists. The concepts are relevant to understanding fundamental principles of protein function.
+    - **Technical soundness** The technical approach is state-of-the-art and appropriate for the questions asked. However, the soundness of the conclusions cannot be fully assessed without the primary data. The rigor of the kinetic analysis and structural determination is critical and must be demonstrated.
+    - **Readability for nonspecialists** The manuscript is generally well-written and the main concepts are accessible. However, the methods and results sections are dense and may be challenging for non-NMR specialists. The abstract and introduction do a good job of framing the significance for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially groundbreaking, but the current evidence base, as presented in the text-only format, is insufficient to fully establish the claims. The authors must provide the missing data and analysis to allow for a complete and rigorous evaluation. The manuscript is not currently established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim that the excited state is "globally folded" is unsupported without the structural ensemble and validation data.
+- The claim that DNA binding occurs "exclusively" via the excited state is unsupported without the full kinetic analysis and model comparison.
+- The claim that the excited state is "a mere 1.3 kcal/mol higher in free energy" is presented as a fact, but the uncertainty in this value is not reported.
+- The claim that the "disordered state cannot directly bind DNA" is a strong statement that is not fully supported by the text.
+- The speculation on the evolutionary availability of the mechanism is not supported by direct evidence.

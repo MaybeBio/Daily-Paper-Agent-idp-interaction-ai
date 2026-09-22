@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-xr8r3",
+  "title": "CurvePotGCN- A graph neural network to predict protein-protein interactions using surface curvature and electrostatic potential as node-features",
+  "authors": "Vishnu Kadam; Prathith Bhargav; Arnab Mukherjee",
+  "journal": "ChemRxiv",
+  "published_date": "2025-10-21",
+  "window": {
+    "start": "2025-10-20",
+    "end": "2025-10-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于表面曲率和静电势的图神经网络CurvePotGCN预测蛋白-蛋白互作，虽非无序蛋白对象，但其以物理化学特征建模互作界面的思路对IDR介导的PPI机制建模有可迁移启发。",
+  "abstract": "Conventional methods for predicting protein-protein interactions (PPIs) often depend on intricate amino acid-level data obtained from both sequences and structures. Although effective, such methods typically require high-definition information and considerable computational power. Here, we present CurvePotGCN, an innovative graph convolutional neural network that predicts PPIs through a simplified physicochemical model of protein surfaces. Our approach represents proteins as graphs wherein nodes symbolize surface clusters defined by geometric curvature and electrostatic potential, focusing exclusively on these fundamental physicochemical features rather than evolutionary conservation or complex machine learning representations. This model is built on the principle that complementary shape and electrostatic potential at the protein-protein interface are primary determinants of whether two proteins interact. CurvePotGCN achieved a predictive performance of 98% area under the receiver operating characteristic curve for human PPI and 89% for yeast PPI. Upon benchmarking, CurvePotGCN showed superior performance against contemporary methods, highlighting the effectiveness of using reduced, physicochemically based models for PPI prediction. Our study demonstrates that using biophysical properties as features can provide competitive performance to more complex representation schemes, enhancing computational efficiency while maintaining predictive accuracy.",
+  "abstract_zh": "预测蛋白质-蛋白质相互作用（PPIs）的传统方法通常依赖于从序列和结构中获取的复杂氨基酸级数据。尽管这些方法有效，但通常需要高分辨率信息和大量计算资源。在此，我们提出CurvePotGCN，一种创新的图卷积神经网络，通过蛋白质表面的简化物理化学模型来预测PPIs。我们的方法将蛋白质表示为图，其中节点代表由几何曲率和静电势定义的表面积簇，仅关注这些基本物理化学特征，而非进化保守性或复杂的机器学习表示。该模型基于以下原理：蛋白质-蛋白质界面上的互补形状和静电势是决定两种蛋白质是否相互作用的主要因素。CurvePotGCN在人类PPI预测中实现了98%的受试者工作特征曲线下面积，在酵母PPI中达到89%。经过基准测试，CurvePotGCN相较于当代方法表现出更优性能，凸显了使用简化、基于物理化学的模型进行PPI预测的有效性。我们的研究表明，利用生物物理特性作为特征，可以在保持预测准确性的同时，提供与更复杂表示方案相媲美的性能，并提高计算效率。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-xr8r3",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-xr8r3",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-xr8r3/index.html"
+}

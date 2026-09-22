@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "39879324",
+    "doi": "10.1021/acs.analchem.4c03631",
+    "title": "Recalibrating Protection Factors Using Millisecond Hydrogen/Deuterium Exchange Mass Spectrometry."
+  },
+  "content": {
+    "abstract": "Hydrogen/deuterium exchange mass spectrometry (HDX-MS) is a powerful technique to interrogate protein structure and dynamics. With the ability to study almost any protein without a size limit, including intrinsically disordered ones, HDX-MS has shown fast growing importance as a complement to structural elucidation techniques. Current experiments compare two or more related conditions (sequences, interaction partners, excipients, conformational states, etc.) to determine statistically significant differences at a number of fixed time points and highlight areas of changed structural dynamics in the protein. The work presented here builds on the fundamental research performed in the early days of the technique and re-examines exchange rate calculations with the aim of establishing HDX-MS as an absolute and quantitative, rather than relative and qualitative, measurement. We performed millisecond HDX-MS experiments on a mixture of three unstructured peptides (angiotensin, bradykinin, and atrial natriuretic peptide amide rat) and compared experimental deuterium uptake curves with theoretical ones predicted using established exchange rate calculations. With poly-dl-alanine (PDLA) commonly used as a reference,(,) we find that experimental rates are sometimes faster than theoretically possible, while they agree much better, and are never faster, with the fully unstructured trialanine peptide (3-Ala). Molecular dynamics (MD) simulations confirm the high helical propensity of the longer and partially structured PDLA peptides, which need as few as 15 residues to form a stable helix and are therefore not suitable as an unstructured reference. Reanalysis of previously published data by Weis et al. at 100 mM NaCl however still shows a discrepancy with predictions based on 3-Ala in the absence of salt, highlighting the need for a better understanding of salt effects on exchange rates. Such currently unquantifiable salt effects prevent us from proposing a comprehensive, universal calibration framework at the moment. Nevertheless, an accurate recalibration of intrinsic exchange rate calculations is crucial to enable kinetic modeling of the exchange process and to ultimately allow HDX-MS to move toward a direct link with atomistic structural models.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Hydrogen Deuterium Exchange-Mass Spectrometry/methods",
+      "Animals",
+      "Bradykinin/chemistry/analysis",
+      "Rats",
+      "Peptides/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Stofella, Michele",
+        "Seetaloo, Neeleema",
+        "St John, Alexander N",
+        "Paci, Emanuele",
+        "Phillips, Jonathan J",
+        "Sobott, Frank"
+      ],
+      "short_names": [
+        "Stofella M",
+        "Seetaloo N",
+        "St John AN",
+        "Paci E",
+        "Phillips JJ",
+        "Sobott F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4533-1319",
+        "ORCID: 0000-0002-8312-2542",
+        "ORCID: 0000-0002-4891-2768",
+        "ORCID: 0000-0002-5361-9582",
+        "ORCID: 0000-0001-9029-1865"
+      ],
+      "affiliations": [
+        "School of Molecular and Cellular Biology and Astbury Centre, University of Leeds, Leeds LS2 9JT, U.K.",
+        "School of Molecular and Cellular Biology and Astbury Centre, University of Leeds, Leeds LS2 9JT, U.K.",
+        "Living Systems Institute, University of Exeter, Exeter EX4 4QD, U.K.",
+        "Department of Biosciences, University of Exeter, Exeter EX4 4QD, U.K.",
+        "School of Molecular and Cellular Biology and Astbury Centre, University of Leeds, Leeds LS2 9JT, U.K.",
+        "Dipartimento di Fisica e Astronomia, Universita di Bologna, Bologna 40127, Italy.",
+        "Living Systems Institute, University of Exeter, Exeter EX4 4QD, U.K.",
+        "Department of Biosciences, University of Exeter, Exeter EX4 4QD, U.K.",
+        "School of Molecular and Cellular Biology and Astbury Centre, University of Leeds, Leeds LS2 9JT, U.K."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Stofella, Michele",
+        "short_name": "Stofella M",
+        "identifiers": [
+          "0000-0002-4533-1319"
+        ],
+        "affiliations": [
+          "School of Molecular and Cellular Biology and Astbury Centre, University of Leeds, Leeds LS2 9JT, U.K."
+        ]
+      },
+      {
+        "full_name": "Seetaloo, Neeleema",
+        "short_name": "Seetaloo N",
+        "identifiers": [
+          "0000-0002-8312-2542"
+        ],
+        "affiliations": [
+          "School of Molecular and Cellular Biology and Astbury Centre, University of Leeds, Leeds LS2 9JT, U.K.",
+          "Living Systems Institute, University of Exeter, Exeter EX4 4QD, U.K.",
+          "Department of Biosciences, University of Exeter, Exeter EX4 4QD, U.K."
+        ]
+      },
+      {
+        "full_name": "St John, Alexander N",
+        "short_name": "St John AN",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular and Cellular Biology and Astbury Centre, University of Leeds, Leeds LS2 9JT, U.K."
+        ]
+      },
+      {
+        "full_name": "Paci, Emanuele",
+        "short_name": "Paci E",
+        "identifiers": [
+          "0000-0002-4891-2768"
+        ],
+        "affiliations": [
+          "Dipartimento di Fisica e Astronomia, Università di Bologna, Bologna 40127, Italy."
+        ]
+      },
+      {
+        "full_name": "Phillips, Jonathan J",
+        "short_name": "Phillips JJ",
+        "identifiers": [
+          "0000-0002-5361-9582"
+        ],
+        "affiliations": [
+          "Living Systems Institute, University of Exeter, Exeter EX4 4QD, U.K.",
+          "Department of Biosciences, University of Exeter, Exeter EX4 4QD, U.K."
+        ]
+      },
+      {
+        "full_name": "Sobott, Frank",
+        "short_name": "Sobott F",
+        "identifiers": [
+          "0000-0001-9029-1865"
+        ],
+        "affiliations": [
+          "School of Molecular and Cellular Biology and Astbury Centre, University of Leeds, Leeds LS2 9JT, U.K."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Analytical chemistry"
+    ],
+    "journal_abbrev": [
+      "Anal Chem"
+    ],
+    "pub_date": "2025 Feb 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/29 18:21",
+    "fetched_at": "2026-09-21 15:11:46"
+  },
+  "links": {
+    "cites": [
+      "41707062",
+      "41596327",
+      "40912403"
+    ],
+    "refs": [
+      "37550799",
+      "36976935",
+      "36896500",
+      "36306475",
+      "36251047",
+      "35815971",
+      "35385652",
+      "35321824",
+      "35077179",
+      "34859466",
+      "34749499",
+      "34644496",
+      "34334791",
+      "34259536",
+      "34159782",
+      "33923197",
+      "33780620",
+      "33592142",
+      "33404742",
+      "33112626",
+      "33112590",
+      "32558545",
+      "32170968",
+      "31999456",
+      "31714766",
+      "31425549",
+      "31249422",
+      "30885379",
+      "30525463",
+      "30022340",
+      "28770632",
+      "28753295",
+      "28675294",
+      "27145881",
+      "26592383",
+      "25290210",
+      "24901537",
+      "24019478",
+      "23586525",
+      "23373819",
+      "22571272",
+      "19549187",
+      "17049891",
+      "16755589",
+      "16223878",
+      "14657385",
+      "13445185",
+      "13276391",
+      "10097097",
+      "9223179",
+      "8234247",
+      "8234246",
+      "8061613",
+      "6667333",
+      "6174148",
+      "5641934",
+      "5061873",
+      "1174667"
+    ],
+    "similar": [
+      "39879324",
+      "23912807",
+      "25171396",
+      "36896500",
+      "31244225",
+      "32420996",
+      "42475469",
+      "39867440",
+      "22571272",
+      "35815971",
+      "30712581",
+      "32672982",
+      "31721348",
+      "37430450",
+      "39254669",
+      "28675294",
+      "41915381",
+      "36413494",
+      "41979917",
+      "35720345",
+      "38561318",
+      "28108962",
+      "38801229",
+      "32105651",
+      "21342575",
+      "31594786",
+      "40163306",
+      "30353968",
+      "34493042",
+      "32955262",
+      "32036298",
+      "30321473",
+      "40318270",
+      "42366520",
+      "30280315",
+      "36454645",
+      "39383946",
+      "41001985",
+      "33886284",
+      "25950969",
+      "33384131",
+      "35263087",
+      "23649779",
+      "26791987",
+      "25693946",
+      "38516985",
+      "36960982",
+      "37093484",
+      "33125650",
+      "39481095",
+      "28770632",
+      "29753788",
+      "40488672",
+      "25726910",
+      "39305539",
+      "41526491",
+      "31408320",
+      "38639434",
+      "29080206",
+      "18803853",
+      "39402881",
+      "36094889",
+      "36636941",
+      "30324261",
+      "28374315",
+      "41617135",
+      "34523340",
+      "40411377",
+      "42523485",
+      "31724102",
+      "30222348",
+      "34453711",
+      "33877613",
+      "35163047",
+      "27578543",
+      "40105417",
+      "37582225",
+      "35385652",
+      "35965017",
+      "32597490",
+      "35705679",
+      "25510931",
+      "25267084",
+      "41140027",
+      "41979354",
+      "29704663",
+      "34644496",
+      "36695755",
+      "32722756",
+      "31449409",
+      "41707062",
+      "19670873",
+      "41067539",
+      "25375223",
+      "21173980",
+      "32569457",
+      "39765317",
+      "36880265",
+      "36876893",
+      "40837237"
+    ],
+    "review": [
+      "39879324",
+      "25171396",
+      "31721348",
+      "41979917",
+      "35720345",
+      "34493042",
+      "40318270",
+      "36454645",
+      "39383946",
+      "39481095",
+      "28770632",
+      "39402881",
+      "36636941",
+      "32597490",
+      "29704663"
+    ],
+    "pmc": [
+      "11822740"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39879324/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/ancham/article-lookup/doi/10.1021/acs.analchem.4c03631",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/223637/",
+        "provider": "White Rose Research Online",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

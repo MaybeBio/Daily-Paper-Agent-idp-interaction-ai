@@ -1,0 +1,126 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific validity, methodological soundness, evidence quality, and clarity of claims as presented in the provided text
+- **Shared manuscript claim summary** The authors present SOP-MULTI, a coarse-grained force field for multi-domain proteins and intrinsically disordered proteins, which combines SOP-SC and SOP-IDP models. They claim it generates conformational ensembles consistent with experimental scattering data for multiple proteins, preserves folded domain integrity, and is available as a LAMMPS-compatible package.
+- **Visible evidence base** Abstract, introduction, methods section (model description, simulation protocol, analysis methods), results section (qualitative descriptions of comparisons with experimental data for TDP-43, HIV-1 GAG, TIA-1, polyubiquitin, G3BP1, hnRNP A1, hGHR-ECD, FUS), conclusions, author contributions, data availability statement
+- **Missing materials affecting confidence** Figures and tables referenced but not provided; supporting information files (SI-1, SI-2) not available; quantitative comparison metrics (e.g., χ² values, Rg error bars) not reported in text; simulation parameters (temperature, salt concentrations, box size, equilibration time) not fully specified; all-atom reference simulation details not provided
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant need in the field: extending coarse-grained models to multi-domain proteins with both folded and disordered regions. The conceptual approach of combining SOP-SC and SOP-IDP with hybrid interaction terms is reasonable and potentially useful. However, the evidence presented in the text is largely qualitative, with key quantitative validations (scattering profile fits, error metrics, comparison statistics) not reported in the visible text. The claims of "consistency with experimental scattering data" cannot be rigorously assessed without the referenced figures and quantitative agreement measures. The manuscript would benefit from clearer reporting of validation metrics and a more critical discussion of limitations, particularly regarding the known challenges of coarse-grained models in capturing high-q scattering features.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and structural biology, particularly those working on intrinsically disordered proteins, multi-domain proteins, and integrative modeling approaches. The LAMMPS-compatible implementation may be of practical interest to the simulation community. The work is also relevant to those studying phase separation and protein aggregation, given the biological systems examined.
+- **Major strengths**
+  - Addresses a genuine gap: few coarse-grained models are designed for multi-domain proteins with both folded and disordered regions
+  - Combines two established models (SOP-SC and SOP-IDP) in a principled manner
+  - Provides a practical software implementation (LAMMPS package) with setup tools, enhancing potential community adoption
+  - Tests on a diverse set of biologically important proteins (hnRNPA1, TDP-43, G3BP1, FUS, etc.)
+  - Includes comparison with all-atom simulations for folded domain dynamics
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "SOP-MULTI trajectories faithfully recapitulate the scattering data over the range of the reciprocal space" (Abstract) and similar claims of consistency with experimental scattering data throughout Results
+  - **Evidence pointer** Figures 3-11 (referenced but not provided); Section 3.2
+  - **Concern** The central claim of the paper is that SOP-MULTI generates ensembles consistent with experimental scattering data. However, the text provides no quantitative agreement metrics (e.g., χ² values, R-factor, reduced χ²) between calculated and experimental scattering profiles. The description "consistent match" and "capture" is qualitative. Without quantitative measures of fit quality, the strength of agreement cannot be assessed, and the claim of "faithfully recapitulate" is not supported by the visible evidence.
+  - **Why it matters** The primary validation of the model rests on this comparison. If the agreement is not quantitatively demonstrated, the core claim of the work is not established. The field standard for scattering data comparison includes statistical measures of fit quality.
+  - **Resolution test** Provide quantitative fit metrics (e.g., χ², R-factor) for each protein compared with experimental data, with appropriate error estimates. If such metrics are already in the figures, they must be explicitly reported and discussed in the text.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** "For the SOP-MULTI, we train the cross-interaction terms between the beads belonging to the folded and disordered regions" (Abstract)
+  - **Evidence pointer** Section 2.1 (model description); Section 2.3 (simulation methodology)
+  - **Concern** The training procedure for the cross-interaction terms is not described in the visible text. No details are given on the training data, the objective function, the optimization algorithm, or the validation strategy. Without this information, the parameterization cannot be reproduced or critically evaluated.
+  - **Why it matters** The cross-interaction terms are the novel component of SOP-MULTI. A force field's utility depends on its parameterization being transparent and reproducible. The lack of training details undermines the scientific contribution.
+  - **Resolution test** Provide a complete description of the training procedure, including data sources, objective function, optimization method, and any regularization or cross-validation. If this is in SI-1, it must be clearly referenced and summarized in the main text.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence quality
+  - **Claim pointer** "root mean square fluctuations of residues in folded domains match those obtained from all-atom molecular dynamics simulations trajectories of the same folded systems" (Abstract)
+  - **Evidence pointer** Figures 3D and 4D (referenced but not provided); Section 3.2
+  - **Concern** The comparison of RMSF between CG and all-atom simulations is described qualitatively ("trend is well captured"). No quantitative correlation coefficients, RMSD between RMSF profiles, or statistical tests are reported. The statement "match" implies a level of agreement that is not demonstrated in the text.
+  - **Why it matters** This comparison is used to support the claim that SOP-MULTI preserves folded domain dynamics. Without quantitative metrics, the degree of agreement is unclear, and the claim is not verifiable.
+  - **Resolution test** Report quantitative measures of RMSF agreement (e.g., Pearson correlation, mean absolute error) for each domain compared, with appropriate context on expected variability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence quality
+  - **Claim pointer** "We also show that individual folded domains preserve native contacts with respect to solved folded structures" (Abstract)
+  - **Evidence pointer** Contact maps in Figures 3-11 (referenced but not provided); Section 3.2
+  - **Concern** The claim of native contact preservation is based on visual inspection of contact maps. No quantitative measure (e.g., fraction of native contacts Q, contact map overlap) is reported. Visual inspection alone is insufficient to support a quantitative claim of structural preservation.
+  - **Why it matters** The integrity of folded domains is a key requirement for the model's validity. A quantitative measure of native contact preservation is needed to substantiate this claim.
+  - **Resolution test** Report a quantitative measure of native contact preservation (e.g., Q-value, native contact fraction) for each folded domain in each protein, with appropriate thresholds for "preserved."
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "When back-mapped to all-atom resolution, SOP-MULTI trajectories faithfully recapitulate the scattering data over the range of the reciprocal space" (Abstract)
+  - **Evidence pointer** Section 2.4 (analysis methods); Figures 3-11 (referenced but not provided)
+  - **Concern** The text states that back-mapping to all-atom resolution improves agreement with experimental scattering data at high q, but the back-mapping procedure is not described. The choice of back-mapping algorithm, its validation, and the potential artifacts introduced are not discussed. Additionally, the claim that CG-level scattering calculation fails at high q is attributed to form factor limitations, but this is not tested systematically.
+  - **Why it matters** The back-mapping step is critical for the claimed high-q agreement. Without a description of the method and its validation, the reliability of this result is unclear.
+  - **Resolution test** Describe the back-mapping procedure, validate it against known structures, and systematically compare CG-level vs. back-mapped all-atom scattering calculations across multiple proteins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1 (model description)
+  - **Evidence pointer** Equations 1-5 (referenced but not shown in text)
+  - **Issue** The equations for the potential energy terms are referenced but not displayed in the provided text. The description of the model is incomplete without them.
+  - **Required correction** Ensure all equations are displayed and properly defined in the final manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.3 (simulation methodology)
+  - **Evidence pointer** Section 2.3
+  - **Issue** Simulation parameters are incompletely specified. Temperature, salt concentration, box size, and equilibration time are not stated for each system.
+  - **Required correction** Provide a table or detailed text listing all simulation parameters for each system studied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.2 (Results, G3BP1)
+  - **Evidence pointer** Section 3.2, G3BP1 paragraph
+  - **Issue** The description of the salt-dependent switch-like behavior is qualitative. No quantitative measure of the transition (e.g., Rg as a function of salt concentration with error bars) is reported in the text.
+  - **Required correction** Report quantitative values for Rg or other observables at each salt concentration, with appropriate statistical uncertainties.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.2 (Results, hnRNP A1)
+  - **Evidence pointer** Section 3.2, hnRNP A1 paragraph
+  - **Issue** The ~12% relative error in Rg for hnRNP A1 is mentioned, but the source of this error and its implications are not discussed in sufficient depth. The attribution to the LCR is plausible but not tested.
+  - **Required correction** Provide a more detailed analysis of the Rg discrepancy, including possible tests to isolate the contribution of the LCR.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4 (analysis methods)
+  - **Evidence pointer** Section 2.4, scaling exponent paragraph
+  - **Issue** The sentence "The scaling exponent code was developed by applying the needed modifications to the source code of SOURSOP ?" contains a question mark, suggesting an incomplete reference or citation.
+  - **Required correction** Complete the citation or reference for SOURSOP and clarify the nature of the modifications.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.2 (Results, FUS)
+  - **Evidence pointer** Section 3.2, FUS paragraph
+  - **Issue** The prediction for FUS Rg (5-6 nm) is presented without comparison to any experimental or computational reference. The statement that predictions "can be tested" is appropriate, but the absence of any benchmark limits the interpretability.
+  - **Required correction** Provide context for the predicted Rg, such as expected values from sequence-based predictors or related proteins.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Quantitative scattering agreement metrics are absent
+  - R1-M2: Training procedure for cross-interaction terms is not described
+  - R1-M3: RMSF comparison lacks quantitative measures
+  - R1-M4: Native contact preservation lacks quantitative measures
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. Combining existing SOP models for multi-domain proteins is a logical extension rather than a conceptually new approach. The specific combination and software implementation have some novelty, but the underlying physics is not new.
+  - **Scientific importance** Moderate to high. Multi-domain proteins and IDPs are biologically important and challenging for current modeling approaches. A reliable coarse-grained model for these systems would be valuable. However, the importance is tempered by the lack of demonstrated quantitative accuracy in the visible text.
+  - **Interdisciplinary readership** Moderate. The work is primarily of interest to computational biophysicists and structural biologists. The biological systems studied (hnRNPA1, TDP-43, FUS, etc.) are relevant to neuroscience and cell biology, which broadens potential interest, but the technical nature of the work limits accessibility.
+  - **Technical soundness** Not fully assessable from the provided text. The methodological description is incomplete (training procedure, back-mapping, quantitative validation), and the evidence presented is largely qualitative. The approach is plausible, but the technical execution cannot be fully evaluated.
+  - **Readability for nonspecialists** Adequate. The introduction provides context for why multi-domain proteins and IDPs are important. The methods and results sections are technical but generally clear. Some terms (e.g., "dimensionless Kratky plot") are used without explanation, which may hinder nonspecialist readers.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially useful tool, but the central claims of consistency with experimental data and preservation of folded domain properties are not quantitatively supported in the visible text. The authors must provide quantitative validation metrics, a complete description of the training procedure, and a more rigorous comparison with experimental data before the case for SOP-MULTI's utility is established.
+
+## Risk / unsupported claims
+- "SOP-MULTI trajectories faithfully recapitulate the scattering data over the range of the reciprocal space" - not supported without quantitative fit metrics
+- "root mean square fluctuations of residues in folded domains match those obtained from all-atom molecular dynamics simulations" - not supported without quantitative comparison measures
+- "the model captures experimentally realistic ensembles for 22 IDPs" - not supported without quantitative comparison to experimental data
+- "keeping the folded regions intact" - not supported without quantitative native contact measures
+- "SOP-MULTI captures the mean Rg of the ensemble comparable to the optimized Martini simulations" (polyubiquitin) - not supported without quantitative values and error estimates
+- "found a similar switch-like transition of G3BP1's ensemble from collapsed to expanded state" - not supported without quantitative measures of the transition
+- "SOP-MULTI captures the entire scattering vector space accurately" (hnRNP A1) - contradicted by the stated ~12% Rg error and not supported without quantitative fit metrics

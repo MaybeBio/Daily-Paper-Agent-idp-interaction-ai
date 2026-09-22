@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a large-scale evolutionary and integrative analysis of phase-separating proteins across 1106 species, identifying a eukaryote-prokaryote contrast in predicted phase separation propensity linked to genome size, characterizing homorepeat-containing proteins as an evolutionary balance between functional condensation and aggregation avoidance, integrating phase separation predictions with abundance and interactome data from four model eukaryotes to identify signaling hubs, dissecting relationships among phase separation propensity, hub prediction, homorepeats, localization, and structural conservation in Arabidopsis, and presenting PhaseHub as a user-friendly interface for exploring condensate components and hub dynamics
+- **Visible evidence base** Abstract text only; no methodological details, quantitative results, validation statistics, or software implementation information are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary data, software documentation, and validation benchmarks
+
+## Reviewer
+- **Overall assessment** The abstract presents an ambitious and potentially valuable integrative framework for studying biomolecular condensates across evolutionary scales. The scope is broad, spanning 1106 species and multiple data types, and the development of a user-facing tool (PhaseHub) addresses a genuine community need. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the computational predictions, the statistical rigor of the evolutionary comparisons, or the functional validity of the proposed signaling hubs. Several claims are stated as established findings without visible quantitative support. The work is likely of interest to the condensate biology and evolutionary genomics communities, but the case for its central conclusions is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and membraneless organelles would be interested in the evolutionary perspective and the integrative framework. Plant biologists, particularly those working on Arabidopsis signaling and stress responses, would value the species-specific analyses and the PhaseHub tool. Computational biologists and bioinformaticians developing prediction tools for protein disorder and phase separation would be interested in the cross-kingdom comparisons and the integration of multiple data modalities. Evolutionary biologists studying genome complexity and protein sequence features would also find the eukaryote-prokaryote contrast and homorepeat analyses relevant.
+- **Major strengths** The abstract describes a genuinely integrative approach that combines multiple data types (sequence features, abundance, interactomes, localization, conservation) across an unusually large taxonomic scope. The evolutionary framing, particularly the eukaryote-prokaryote comparison and the treatment of homorepeats as a balance between function and toxicity, is conceptually interesting. The development of PhaseHub as a community resource is a practical contribution that could enable hypothesis generation beyond the specific analyses presented. The use of Arabidopsis as a model for detailed dissection provides a concrete biological context for the broader evolutionary claims.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims a "stark contrast in computationally predicted PS propensity between eukaryotes and prokaryotes, with genome size as a key determinant"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The claim of a stark contrast and the identification of genome size as a key determinant are presented without any statistical measures, effect sizes, or details on how the analysis controlled for phylogenetic non-independence, taxonomic sampling bias, or differences in proteome annotation quality between eukaryotes and prokaryotes. The computational prediction method for phase separation propensity is not named or validated.
+  - **Why it matters** Evolutionary comparisons across such distant groups are highly susceptible to confounding factors. Without evidence of appropriate statistical controls and validation of the prediction tool, the central evolutionary conclusion cannot be assessed. If the contrast is an artifact of prediction method bias or sampling, the entire evolutionary framework would be compromised.
+  - **Resolution test** Provide the prediction method and its validation metrics, report effect sizes and confidence intervals for the eukaryote-prokaryote comparison, and demonstrate that the result holds after controlling for phylogenetic relatedness and annotation completeness. A sensitivity analysis using alternative prediction tools would strengthen the claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "integrating PS-positive proteins with experimentally derived abundance and interactome data from four model eukaryotic species" led to identification of "potential signaling hubs and components across kingdoms"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No details are provided on the integration methodology, the criteria for hub identification, the validation of predicted hubs against known biology, or the statistical significance of the hub predictions. The four model species are not named. The term "across kingdoms" is ambiguous given that only eukaryotic species are mentioned.
+  - **Why it matters** Hub identification from integrative data is a complex task with high false-positive risk. Without clear criteria and validation, the biological relevance of the identified hubs cannot be evaluated. The claim of cross-kingdom relevance is not supported by the described evidence base.
+  - **Resolution test** Specify the four species, describe the integration algorithm and hub-scoring criteria, provide validation against experimentally confirmed condensate components or known signaling pathways, and report precision or enrichment statistics. Clarify the taxonomic scope of the "across kingdoms" claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract claims development of "PhaseHub, a user-friendly interface for exploring scaffold-client dynamics, PS components, sequence signatures within each PS protein, and hubs"
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is provided on the software architecture, data sources, query capabilities, visualization features, or availability (e.g., web server URL, open-source repository, license). The term "user-friendly" is subjective and unverifiable without demonstration.
+  - **Why it matters** A software tool is only valuable if it is accessible, functional, and documented. Without evidence of implementation and availability, the contribution of PhaseHub cannot be assessed. Reviewers and readers cannot evaluate or use the tool based on the abstract alone.
+  - **Resolution test** Provide a working URL or repository, describe the technology stack and data schema, include screenshots or a demonstration in the full manuscript, and state the data version and update policy. A usability assessment or example use case would support the "user-friendly" claim.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual clarity
+  - **Claim pointer** The abstract claims that "we dissected the relationships among PS propensity, condensation hub prediction, HRPs, subcellular localization, and structural conservation" in Arabidopsis
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The nature of the "dissection" is unspecified. It is unclear whether this is a correlational analysis, a predictive model, a network analysis, or a case-study approach. The direction and strength of the relationships are not stated.
+  - **Why it matters** The Arabidopsis analysis appears to be the biological anchor of the study. Without clarity on the analytical approach and the specific relationships found, the value of this section for hypothesis generation cannot be evaluated.
+  - **Resolution test** Describe the analytical methods (e.g., correlation, regression, network inference), report key quantitative findings with significance values, and provide a conceptual model or figure summarizing the relationships.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "pan-life phase insights" in the title is not defined or used in the abstract, and its meaning is unclear.
+  - **Required correction** Define the term in the abstract or revise the title to use terminology consistent with the abstract content.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Species list
+  - **Evidence pointer** Abstract, "four model eukaryotic species"
+  - **Issue** The four model species are not named, which limits the reader's ability to assess the relevance of the hub predictions.
+  - **Required correction** Name the four species in the abstract or indicate that they are listed in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Claim of "across kingdoms"
+  - **Evidence pointer** Abstract, "potential signaling hubs and components across kingdoms"
+  - **Issue** The abstract only mentions eukaryotic species in the integration analysis, making the phrase "across kingdoms" potentially misleading.
+  - **Required correction** Clarify the taxonomic scope, either by specifying the kingdoms included or by revising the phrasing to "across species" or "across eukaryotic lineages."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Abstract, "1106 species"
+  - **Issue** No mention is made of data availability for the species list, prediction results, or intermediate analyses.
+  - **Required correction** State in the abstract or main text where the data and code are deposited (e.g., Zenodo, GitHub, or a database).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of evolutionary comparison), R1-M2 (hub identification methodology and validation), R1-M3 (software availability and documentation). These are blocking because the central claims of the study depend on them and cannot be evaluated from the abstract.
+- **Assessment against Nature-style criteria** 
+  - Originality: The integrative approach combining evolutionary analysis, sequence features, and experimental data across 1106 species is conceptually original, though individual components (phase separation prediction, homorepeat analysis) are established. The specific combination and the PhaseHub tool add novelty.
+  - Scientific importance: The question of how multicomponent condensates achieve functional specificity is of high importance to cell biology. An evolutionary framework could provide valuable context. However, the importance of the specific findings cannot be assessed without quantitative evidence.
+  - Interdisciplinary readership: The work spans cell biology, evolutionary genomics, bioinformatics, and plant biology, which could attract a broad readership. The PhaseHub tool may appeal to experimentalists seeking to explore condensate components.
+  - Technical soundness: Not assessable from the abstract. The prediction methods, statistical controls, and validation strategies are not described. This is the primary weakness.
+  - Readability for nonspecialists: The abstract is generally clear and well-structured, but terms such as "pan-life phase insights" and "scaffold-client dynamics" may require prior knowledge. The abstract could benefit from a brief explanation of key concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes an ambitious and potentially valuable study, but the absence of methodological detail, statistical support, and software documentation prevents evaluation of the central claims. I would be supportive if the full manuscript addresses the blocking concerns regarding statistical rigor, validation, and tool availability.
+
+## Risk / unsupported claims
+- The claim of a "stark contrast" in phase separation propensity between eukaryotes and prokaryotes is unsupported without effect sizes and statistical tests.
+- The identification of "genome size as a key determinant" is unsupported without a demonstrated causal or explanatory model.
+- The claim of identifying "potential signaling hubs and components across kingdoms" is unsupported without naming the species, describing the integration method, or providing validation.
+- The claim that PhaseHub is "user-friendly" is unsupported without a demonstration or usability assessment.
+- The statement that the work "provides an evolutionary framework for understanding multicomponent PS hubs" is a broad conclusion that cannot be evaluated from the abstract alone.

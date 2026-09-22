@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41337585",
+  "title": "Proteome-wide computational analyses reveal links between protein condensate formation and RNA biology.",
+  "authors": "Maiti, Snigdha; Tripathi, Swarnendu; Baggett, David W; Phillips, Aaron H; Park, Cheon-Gil; Wang, Jina; Wahiduzzaman; Freyaldenhoven, William T; Kinger, Swati; Pioso, Brittany J; Bollinger, John C; Somjee, Ramiz; Lang, Benjamin; Babu, M Madan; Kriwacki, Richard W",
+  "journal": "Science advances",
+  "published_date": "2025-12-03",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用机器学习模型预测人类蛋白质组中IDR的凝聚体形成能力，并关联RNA生物学功能，虽聚焦IDR凝聚而非直接PPI机制，但方法可迁移至IDR介导互作建模。",
+  "abstract": "Biomolecular condensates mediate dynamic compartmentalization of cellular processes. The multivalent interactions that underlie biomolecular condensation are often promoted by intrinsically disordered regions (IDRs) within proteins. Although the role of IDRs in biomolecular condensates is well appreciated, predicting whether an IDR forms condensates in cells remains challenging. Here, we developed a machine learning model to accurately predict the condensation behavior of IDRs, analyzing 215 IDRs from fusion oncoproteins in human embryonic kidney (HEK) 293T cells. We identified distinct sequence-derived physicochemical features associated with condensation. Leveraging these data, our model predicts that ~12% of the ~13,000 IDRs in the human proteome are likely to form cellular condensates, establishing a robust framework for proteome-wide analysis of IDR-mediated biomolecular condensation. Notably, proteins with condensate-forming IDRs are significantly enriched in RNA processing and splicing functions and are predominantly localized to membraneless organelles, highlighting a central role of IDR-mediated biomolecular condensation in cellular organization and RNA biology.",
+  "abstract_zh": "生物分子凝聚体介导了细胞过程的动态区室化。驱动生物分子凝聚的多价相互作用通常由蛋白质内的固有无序区域（IDRs）促进。尽管IDRs在生物分子凝聚体中的作用已被充分认识，但预测一个IDR是否在细胞中形成凝聚体仍具挑战性。在此，我们开发了一种机器学习模型，以准确预测IDRs的凝聚行为，分析了人胚胎肾（HEK）293T细胞中来自融合癌蛋白的215个IDRs。我们识别出与凝聚相关的不同序列衍生物理化学特征。利用这些数据，我们的模型预测人类蛋白质组中约13,000个IDRs中约有12%可能形成细胞凝聚体，为IDR介导的生物分子凝聚的全蛋白质组分析建立了稳健框架。值得注意的是，具有凝聚形成性IDRs的蛋白质在RNA加工和剪接功能中显著富集，并主要定位于无膜细胞器，突显了IDR介导的生物分子凝聚在细胞组织和RNA生物学中的核心作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41337585/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41337585/",
+  "paper_page_path": "papers/pubmed/41337585/index.html"
+}

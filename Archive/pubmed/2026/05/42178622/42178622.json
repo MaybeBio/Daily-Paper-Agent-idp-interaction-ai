@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "42178622",
+    "doi": "10.1002/pro.70646",
+    "title": "Use of biomolecular emulator for characterizing flexible proteins by small-angle x-ray scattering."
+  },
+  "content": {
+    "abstract": "Flexible proteins populate heterogeneous conformational ensembles that are essential for their function. Small-angle x-ray scattering (SAXS) is widely used to study protein structure in solution and to characterize conformational heterogeneity. Yet, extracting ensemble information from SAXS remains challenging because many distinct conformational distributions can give rise to the same experimental scattering profile. The ensemble optimization method (EOM) addresses this by selecting SAXS-consistent ensembles from large conformational pools, but commonly used pool-generation strategies rely on user-defined flexible regions and may include energetically unfavorable conformations. Here, we implement BioEmu, a generative deep-learning biomolecular emulator, as a sequence-based, physically informed prior for generating conformational pools in SAXS ensemble analysis. Using the flexible protein CLIC5 as a proof-of-concept, BioEmu sampled compact and rare elongated, interface-exposed conformations ab initio. The unweighted BioEmu pool average did not reproduce the experimental scattering, indicating that EOM-guided selection remained necessary. Convergence analysis across five distinct flexible protein systems showed that EOM fit quality plateaus at ~1000 BioEmu conformers pool, underscoring the feasible computational cost of this approach. Finally, we demonstrate the generalizability of BioEmu implementation for SAXS analysis on a diverse cohort of 20 SASBDB entries, ranging from intrinsically disordered to multi-domain proteins. Together, our results support BioEmu as a scalable, sequence-based prior for EOM-based SAXS modeling, while underscoring that selected ensembles should be interpreted as SAXS-consistent models rather than unique representations of equilibrium populations.",
+    "keywords": [
+      "BioEmu",
+      "ab initio",
+      "ensemble optimization method",
+      "small-angle x-ray scattering",
+      "structural flexibility"
+    ],
+    "mesh_terms": [
+      "*Scattering, Small Angle",
+      "*X-Ray Diffraction",
+      "*Proteins/chemistry",
+      "Protein Folding",
+      "Software",
+      "*Deep Learning",
+      "Protein Conformation",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Haitin, Yoni",
+        "Manori, Bar",
+        "Giladi, Moshe"
+      ],
+      "short_names": [
+        "Haitin Y",
+        "Manori B",
+        "Giladi M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1648-6792",
+        "ORCID: 0000-0002-8589-6920"
+      ],
+      "affiliations": [
+        "Department of Neuroscience and Brain Disorders, Gray Faculty of Medical & Health Sciences, Tel Aviv University, Tel-Aviv, Israel.",
+        "Sagol School of Neuroscience, Tel Aviv University, Tel Aviv, Israel.",
+        "Department of Neuroscience and Brain Disorders, Gray Faculty of Medical & Health Sciences, Tel Aviv University, Tel-Aviv, Israel.",
+        "Department of Neuroscience and Brain Disorders, Gray Faculty of Medical & Health Sciences, Tel Aviv University, Tel-Aviv, Israel.",
+        "Internal Medicine D, Tel Aviv Sourasky University Medical Center, Tel Aviv, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Haitin, Yoni",
+        "short_name": "Haitin Y",
+        "identifiers": [
+          "0000-0002-1648-6792"
+        ],
+        "affiliations": [
+          "Department of Neuroscience and Brain Disorders, Gray Faculty of Medical & Health Sciences, Tel Aviv University, Tel-Aviv, Israel.",
+          "Sagol School of Neuroscience, Tel Aviv University, Tel Aviv, Israel."
+        ]
+      },
+      {
+        "full_name": "Manori, Bar",
+        "short_name": "Manori B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience and Brain Disorders, Gray Faculty of Medical & Health Sciences, Tel Aviv University, Tel-Aviv, Israel."
+        ]
+      },
+      {
+        "full_name": "Giladi, Moshe",
+        "short_name": "Giladi M",
+        "identifiers": [
+          "0000-0002-8589-6920"
+        ],
+        "affiliations": [
+          "Department of Neuroscience and Brain Disorders, Gray Faculty of Medical & Health Sciences, Tel Aviv University, Tel-Aviv, Israel.",
+          "Internal Medicine D, Tel Aviv Sourasky University Medical Center, Tel Aviv, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/25 06:31",
+    "fetched_at": "2026-09-18 03:38:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40638710",
+      "40312512",
+      "38453905",
+      "38215528",
+      "34265844",
+      "33968988",
+      "33833657",
+      "33725442",
+      "32725932",
+      "30901335",
+      "29610305",
+      "29490245",
+      "28808438",
+      "28746339",
+      "28668130",
+      "28558231",
+      "28224788",
+      "25352555",
+      "24203338",
+      "23994332",
+      "23798674",
+      "22988847",
+      "21742258",
+      "21509745",
+      "21173980",
+      "21109422",
+      "20819242",
+      "17411046",
+      "14686102"
+    ],
+    "similar": [
+      "42178622",
+      "21947276",
+      "33725442",
+      "30840442",
+      "26548662",
+      "25866658",
+      "26320411",
+      "17411046",
+      "34627764",
+      "35705644",
+      "26387105",
+      "34115515",
+      "30617833",
+      "32840111",
+      "24888261",
+      "30557358",
+      "22095648",
+      "32696361",
+      "32035901",
+      "29605933",
+      "32119546",
+      "28224788",
+      "17182256",
+      "40475948",
+      "36641210",
+      "36641214",
+      "42129207",
+      "22208197",
+      "36029961",
+      "31860156",
+      "36641212",
+      "41102979",
+      "32339173",
+      "22044150",
+      "39503309",
+      "30291845",
+      "22639100",
+      "37555230",
+      "22821520",
+      "29548755",
+      "30620594",
+      "26387108",
+      "19844700",
+      "19592714",
+      "15608373",
+      "18694757",
+      "37093488",
+      "31589784",
+      "38178847",
+      "29218556",
+      "20507903",
+      "40216579",
+      "25456817",
+      "29314274",
+      "41446988",
+      "30878202",
+      "26575782",
+      "21442608",
+      "29218557",
+      "28402873",
+      "24768114",
+      "21220121",
+      "36634513",
+      "34210208",
+      "28471369",
+      "34310942",
+      "26611321",
+      "20801888",
+      "41898756",
+      "28668130",
+      "29107147",
+      "34252246",
+      "36856266",
+      "38522710",
+      "42037134",
+      "26945933",
+      "30125451",
+      "23473666",
+      "37646172",
+      "24696341",
+      "20920583",
+      "39674478",
+      "31402649",
+      "20097063",
+      "36410960",
+      "34680137",
+      "36710010",
+      "27151198",
+      "28034955",
+      "36641211",
+      "29626538",
+      "26042819",
+      "28299734",
+      "34817999",
+      "36462455",
+      "35290631",
+      "42427316",
+      "31548393",
+      "41073429",
+      "20558299"
+    ],
+    "review": [
+      "42178622",
+      "21947276",
+      "30840442",
+      "26320411",
+      "26387105",
+      "30617833",
+      "32035901",
+      "22044150",
+      "22639100",
+      "26387108",
+      "29218556",
+      "21442608",
+      "29107147",
+      "26945933",
+      "20097063",
+      "36641211",
+      "36462455"
+    ],
+    "pmc": [
+      "13240575"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42178622/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/pro.70646",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

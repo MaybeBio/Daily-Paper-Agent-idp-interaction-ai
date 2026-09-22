@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a three-phase mechanism (induction, growth, saturation) for Ca(II)-induced aggregation of beta-casein, an intrinsically disordered protein, with kinetics strongly dependent on Ca(II) concentration. They further claim that the resulting amorphous aggregates exhibit porosity and tunable assembly suitable for encapsulation of bioactive molecules, with implications for nanonutrition and nanotheranostics.
+- **Visible evidence base** Abstract text only; methods cited include dynamic light scattering, cryo-transmission electron microscopy, and molecular dynamics simulations, but no quantitative data, figures, or statistical details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation parameters, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic framework for Ca(II)-induced aggregation of beta-casein, with a clear three-phase model and a practical application angle. However, the evidence base visible in the abstract is insufficient to evaluate the rigor of the claims. Key quantitative details, such as the specific Ca(II) concentrations tested, the reproducibility of kinetic measurements, the structural characterization of aggregates, and the encapsulation efficiency data, are absent. The mechanistic interpretation, particularly the molecular-level description of the induction phase and the role of conformational relaxation, requires validation from the full manuscript. The application claim, while interesting, is presented without supporting data in the abstract.
+- **Who would be interested in the results, and why** Researchers in protein aggregation and intrinsically disordered proteins, particularly those studying casein systems and calcium-mediated assembly. The work may also appeal to investigators in food science and nanocarrier design, given the proposed encapsulation application. The mechanistic focus on IDP behavior under divalent cation stress could interest biophysicists studying phase transitions in disordered proteins.
+- **Major strengths** The three-phase kinetic model provides a clear conceptual framework that is testable and potentially generalizable. The combination of experimental techniques (DLS, cryo-TEM) with molecular dynamics simulations suggests a multi-scale approach. The application-oriented angle, linking aggregation to bioactive molecule encapsulation, broadens the potential impact beyond fundamental biophysics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "At a molar ratio exceeding 5:1, the hydrodynamic diameter of beta-CN increased from 20 nm (oligomer) to >100 nm (aggregate product) in a minute."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a single kinetic observation without specifying the exact Ca(II) concentration, the range of molar ratios tested, or the number of replicates. The claim that aggregation occurs "in a minute" lacks temporal resolution details and error estimates.
+  - **Why it matters** Without quantitative context, the reader cannot assess whether this observation is robust, reproducible, or representative of the system's behavior across the claimed concentration dependence. The threshold of 5:1 is presented as a critical value, but its derivation and statistical significance are unclear.
+  - **Resolution test** Provide a dose-response curve with error bars, specify the number of independent experiments, and include representative DLS correlation functions or size distributions for at least two molar ratios above and below the 5:1 threshold.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The induction phase is driven by neutralizing the phosphorylated groups via Ca(II) binding, while subsequent growth and saturation phases are governed by agglomeration of intermediate aggregates with nuclei-exposed oligomers, eventually forming aggregate products after conformational relaxation."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The molecular mechanism is stated with high specificity, but the abstract provides no direct evidence for Ca(II) binding to phosphorylated groups, no structural data on intermediate aggregates, and no experimental or simulation data supporting the "nuclei-exposed oligomers" or "conformational relaxation" concepts.
+  - **Why it matters** This is the central mechanistic claim of the paper. If the supporting evidence is not robust, the proposed model may be speculative. The distinction between "nuclei-exposed" and other oligomeric states, and the nature of "conformational relaxation," require clear operational definitions and experimental or computational validation.
+  - **Resolution test** Show binding data (e.g., isothermal titration calorimetry or NMR) for Ca(II) to phosphorylated residues, provide cryo-TEM images or MD snapshots of intermediate states, and present quantitative measures of conformational change (e.g., radius of gyration or secondary structure content) during the growth and saturation phases.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "We demonstrate that the porosity and tunable assembly of beta-CN aggregates enable efficient encapsulation of bioactive molecules, offering promising applications in nanonutrition and nanotheranostics."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The encapsulation claim is presented as a demonstrated result, but the abstract contains no data on encapsulation efficiency, loading capacity, release profiles, or the identity of the bioactive molecules tested. The terms "porosity" and "tunable assembly" are not quantified.
+  - **Why it matters** This application-oriented claim significantly extends the paper's scope. If the evidence is preliminary or limited to a single model compound, the claim of "efficient encapsulation" and the proposed applications are overstated. The scientific importance of the work depends on whether the encapsulation is genuinely effective and tunable.
+  - **Resolution test** Provide quantitative encapsulation data (e.g., loading capacity, encapsulation efficiency, release kinetics) for at least two bioactive molecules, and show how aggregate porosity or assembly conditions can be varied to modulate these parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "nuclei-exposed oligomers" is used without definition or context, which may confuse readers unfamiliar with the specific aggregation model.
+  - **Required correction** Define this term upon first use, or rephrase to describe the structural feature more plainly (e.g., "oligomers with exposed hydrophobic or charged regions").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify the buffer conditions, pH, temperature, or ionic strength under which aggregation was studied. These parameters are known to strongly influence IDP behavior and Ca(II) binding.
+  - **Required correction** State the experimental conditions in the abstract or refer to the methods section with specific values.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Application framing
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The terms "nanonutrition" and "nanotheranostics" are used without elaboration, which may be unfamiliar to some readers in the biophysics or materials science communities.
+  - **Required correction** Briefly explain what these terms mean in the context of the work, or provide a concrete example of the intended application.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative data for the kinetic threshold, direct evidence for the proposed molecular mechanism, and any data supporting the encapsulation claim. Without these, the core mechanistic and application claims cannot be evaluated.
+- **Assessment against Nature-style criteria** Originality: The three-phase model for Ca(II)-induced IDP aggregation is a reasonable contribution, but the abstract does not clearly distinguish it from prior work on casein aggregation or divalent cation effects on IDPs. Scientific importance: The potential link between IDP aggregation and bioactive molecule encapsulation is interesting, but the significance is not established without quantitative evidence. Interdisciplinary readership: The work could appeal to biophysicists, food scientists, and nanomedicine researchers, but the abstract does not provide enough context for each community. Technical soundness: Not assessable from the abstract alone; the described methods are appropriate, but the absence of data prevents evaluation. Readability for nonspecialists: The abstract is generally clear but contains undefined jargon and lacks context for the application claims.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible framework, but the absence of quantitative data and direct mechanistic evidence means the claims cannot be verified. A revised abstract with specific numbers, error estimates, and a summary of the encapsulation results would be necessary to assess the work's suitability.
+
+## Risk / unsupported claims
+- The claim that aggregation occurs "in a minute" at molar ratios exceeding 5:1 is unsupported without concentration details and replicate data.
+- The molecular mechanism involving "neutralizing the phosphorylated groups," "nuclei-exposed oligomers," and "conformational relaxation" is not supported by any visible evidence.
+- The claim of "efficient encapsulation" and the proposed applications in nanonutrition and nanotheranostics are unsupported without encapsulation data.
+- The statement that beta-CN aggregates are "amorphous" is not verifiable from the abstract alone, as no structural characterization data are provided.

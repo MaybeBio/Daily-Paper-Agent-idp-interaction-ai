@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36005688",
+  "title": "ReSMAP: Web Server for Predicting Residue-Specific Membrane-Association Propensities of Intrinsically Disordered Proteins.",
+  "authors": "Qin, Sanbo; Hicks, Alan; Dey, Souvik; Prasad, Ramesh; Zhou, Huan-Xiang",
+  "journal": "Membranes",
+  "published_date": "2022-08-26",
+  "window": {
+    "start": "2022-08-22",
+    "end": "2022-08-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文基于MD模拟训练序列预测模型，开发了预测IDR残基膜结合倾向的ReSMAP服务器，虽聚焦IDR与膜而非PPI，但序列-倾向预测思路对IDR互作机制建模有可迁移启发。",
+  "abstract": "The functional processes of many proteins involve the association of their intrinsically disordered regions (IDRs) with acidic membranes. We have identified the membrane-association characteristics of IDRs using extensive molecular dynamics (MD) simulations and validated them with NMR spectroscopy. These studies have led to not only deep insight into functional mechanisms of IDRs but also to intimate knowledge regarding the sequence determinants of membrane-association propensities. Here we turned this knowledge into a web server called ReSMAP, for predicting the residue-specific membrane-association propensities from IDR sequences. The membrane-association propensities are calculated from a sequence-based partition function, trained on the MD simulation results of seven IDRs. Robustness of the prediction is demonstrated by leaving one IDR out of the training set. We anticipate there will be many applications for the ReSMAP web server, including rapid screening of IDR sequences for membrane association.",
+  "abstract_zh": "许多蛋白质的功能过程涉及其固有无序区域（IDRs）与酸性膜的结合。我们通过广泛的分子动力学（MD）模拟识别了IDRs的膜结合特性，并通过核磁共振波谱进行了验证。这些研究不仅深入揭示了IDRs的功能机制，还提供了关于膜结合倾向性序列决定因素的详细知识。在此，我们将这些知识转化为一个名为ReSMAP的网页服务器，用于从IDR序列预测残基特异性的膜结合倾向性。膜结合倾向性基于序列的分配函数计算，该函数在七个IDRs的MD模拟结果上进行了训练。预测的稳健性通过从训练集中排除一个IDR来验证。我们预期ReSMAP网页服务器将有许多应用，包括快速筛选IDR序列以评估其膜结合能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36005688/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36005688/",
+  "paper_page_path": "papers/pubmed/36005688/index.html"
+}

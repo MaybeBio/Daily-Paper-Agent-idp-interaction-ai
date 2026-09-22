@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "40386802",
+    "doi": "10.1038/s41567-025-02827-7",
+    "title": "Single-fluorogen imaging reveals distinct environmental and structural features of biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are viscoelastic materials. Simulations predict that condensates formed by intrinsically disordered proteins are network fluids defined by spatially inhomogeneous organization of the underlying molecules. Here, we test these predictions and find that molecules within condensates are organized into slow-moving nanoscale clusters and fast-moving dispersed molecules. These results, obtained using single-fluorogen tracking and super-resolution imaging of different disordered protein-based condensates, affirm the predicted spatially inhomogeneous organization of molecules within condensates. We map the internal environments and interfaces of condensates using fluorogens that localize differently to the interiors versus interface between dilute phase and condensate. We show that nanoscale clusters within condensates are more hydrophobic than regions outside the clusters, and regions within condensates that lie outside clusters are more hydrophobic than coexisting dilute phases. Our findings provide a structural and dynamical basis for the viscoelasticity of condensates.",
+    "keywords": [
+      "Imaging and sensing",
+      "Nanoscale biophysics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Tingting",
+        "King, Matthew R",
+        "Qiu, Yuanxin",
+        "Farag, Mina",
+        "Pappu, Rohit V",
+        "Lew, Matthew D"
+      ],
+      "short_names": [
+        "Wu T",
+        "King MR",
+        "Qiu Y",
+        "Farag M",
+        "Pappu RV",
+        "Lew MD"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5736-4962",
+        "ORCID: 0000-0002-8533-3589",
+        "ORCID: 0009-0008-4548-3057",
+        "ORCID: 0000-0002-6457-6848",
+        "ORCID: 0000-0003-2568-1378",
+        "ORCID: 0000-0002-5614-3292"
+      ],
+      "affiliations": [
+        "Department of Electrical and Systems Engineering, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA. ROR: https://ror.org/01yc7t268. GRID: grid.4367.6. ISNI: 0000 0004 1936 9350",
+        "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA. ROR: https://ror.org/01yc7t268. GRID: grid.4367.6. ISNI: 0000 0004 1936 9350",
+        "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA. ROR: https://ror.org/01yc7t268. GRID: grid.4367.6. ISNI: 0000 0004 1936 9350",
+        "Department of Biomedical Engineering, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA. ROR: https://ror.org/01yc7t268. GRID: grid.4367.6. ISNI: 0000 0004 1936 9350",
+        "Department of Electrical and Systems Engineering, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA. ROR: https://ror.org/01yc7t268. GRID: grid.4367.6. ISNI: 0000 0004 1936 9350",
+        "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA. ROR: https://ror.org/01yc7t268. GRID: grid.4367.6. ISNI: 0000 0004 1936 9350",
+        "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA. ROR: https://ror.org/01yc7t268. GRID: grid.4367.6. ISNI: 0000 0004 1936 9350",
+        "Department of Biomedical Engineering, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA. ROR: https://ror.org/01yc7t268. GRID: grid.4367.6. ISNI: 0000 0004 1936 9350",
+        "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA. ROR: https://ror.org/01yc7t268. GRID: grid.4367.6. ISNI: 0000 0004 1936 9350",
+        "Department of Biomedical Engineering, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA. ROR: https://ror.org/01yc7t268. GRID: grid.4367.6. ISNI: 0000 0004 1936 9350",
+        "Department of Electrical and Systems Engineering, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA. ROR: https://ror.org/01yc7t268. GRID: grid.4367.6. ISNI: 0000 0004 1936 9350",
+        "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA. ROR: https://ror.org/01yc7t268. GRID: grid.4367.6. ISNI: 0000 0004 1936 9350"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Tingting",
+        "short_name": "Wu T",
+        "identifiers": [
+          "0000-0001-5736-4962"
+        ],
+        "affiliations": [
+          "Department of Electrical and Systems Engineering, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA.",
+          "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA."
+        ]
+      },
+      {
+        "full_name": "King, Matthew R",
+        "short_name": "King MR",
+        "identifiers": [
+          "0000-0002-8533-3589"
+        ],
+        "affiliations": [
+          "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA.",
+          "Department of Biomedical Engineering, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA."
+        ]
+      },
+      {
+        "full_name": "Qiu, Yuanxin",
+        "short_name": "Qiu Y",
+        "identifiers": [
+          "0009-0008-4548-3057"
+        ],
+        "affiliations": [
+          "Department of Electrical and Systems Engineering, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA.",
+          "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA."
+        ]
+      },
+      {
+        "full_name": "Farag, Mina",
+        "short_name": "Farag M",
+        "identifiers": [
+          "0000-0002-6457-6848"
+        ],
+        "affiliations": [
+          "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA.",
+          "Department of Biomedical Engineering, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA."
+        ]
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [
+          "0000-0003-2568-1378"
+        ],
+        "affiliations": [
+          "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA.",
+          "Department of Biomedical Engineering, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA."
+        ]
+      },
+      {
+        "full_name": "Lew, Matthew D",
+        "short_name": "Lew MD",
+        "identifiers": [
+          "0000-0002-5614-3292"
+        ],
+        "affiliations": [
+          "Department of Electrical and Systems Engineering, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA.",
+          "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature physics"
+    ],
+    "journal_abbrev": [
+      "Nat Phys"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/19 12:29",
+    "fetched_at": "2026-09-21 19:07:16"
+  },
+  "links": {
+    "cites": [
+      "42610615",
+      "42407334",
+      "42370187",
+      "42182309",
+      "42172735",
+      "42161313",
+      "42064602",
+      "41997364",
+      "41986687",
+      "41957206",
+      "41917059",
+      "41863073",
+      "41721403",
+      "41670285",
+      "41662498",
+      "41653921",
+      "41421357",
+      "41343645",
+      "41287583",
+      "41253788",
+      "41238911",
+      "40985078",
+      "40972943",
+      "40964071",
+      "40894760",
+      "40830340",
+      "40667293",
+      "40475453",
+      "40441157",
+      "40327693",
+      "40321778",
+      "40291709",
+      "40196628",
+      "39827079",
+      "39677698",
+      "39026887",
+      "38464104"
+    ],
+    "refs": [
+      "40216775",
+      "39464253",
+      "39356108",
+      "39271915",
+      "39225536",
+      "38649740",
+      "38503281",
+      "38363841",
+      "37770698",
+      "37684240",
+      "37261897",
+      "36968242",
+      "36652471",
+      "36513655",
+      "36443315",
+      "36191226",
+      "36153973",
+      "36004748",
+      "35761089",
+      "35663461",
+      "35601691",
+      "34931046",
+      "34887356",
+      "34785657",
+      "34645832",
+      "34179888",
+      "34122915",
+      "33877835",
+      "33653957",
+      "33558506",
+      "33514117",
+      "33453924",
+      "33303613",
+      "33205106",
+      "32832582",
+      "32648275",
+      "32225609",
+      "32029630",
+      "31634364",
+      "31392763",
+      "30221931",
+      "30177692",
+      "29953718",
+      "29424691",
+      "29133588",
+      "28894006",
+      "28225081",
+      "28067047",
+      "27406265",
+      "27219701",
+      "27212236",
+      "26777405",
+      "25747659",
+      "23244787",
+      "23037989",
+      "22086768",
+      "22031697",
+      "21405121",
+      "21106648",
+      "17142314",
+      "16980368",
+      "16902090",
+      "16896339",
+      "15509651",
+      "12190415",
+      "8443220",
+      "3651436",
+      "2394705"
+    ],
+    "similar": [
+      "40386802",
+      "36747818",
+      "39356108",
+      "39005320",
+      "37873180",
+      "38649740",
+      "37886520",
+      "39610751",
+      "39185151",
+      "37194953",
+      "39568893",
+      "34785657",
+      "40196628",
+      "40216775",
+      "40136009",
+      "36993212",
+      "38260590",
+      "37782826",
+      "38987300",
+      "37261897",
+      "38429263",
+      "30926670",
+      "37470705",
+      "38363841",
+      "37549257",
+      "39232584",
+      "40188296",
+      "34516789",
+      "37503034",
+      "35179885",
+      "39071308",
+      "34090478",
+      "38383656",
+      "34865286",
+      "36412795",
+      "36711465",
+      "36798397",
+      "39464253",
+      "38251748",
+      "39171763",
+      "35881789",
+      "36004748",
+      "37252985",
+      "37770698",
+      "36513655",
+      "40291420",
+      "36847235",
+      "33417833",
+      "36755024",
+      "38915484",
+      "39987501",
+      "37546704",
+      "37066350",
+      "39042834",
+      "37468629",
+      "39271032",
+      "37156794",
+      "40321778",
+      "40291709",
+      "36227469",
+      "39568948",
+      "39486437",
+      "36191226",
+      "37438363",
+      "36883003",
+      "35333653",
+      "37856873",
+      "32936641",
+      "40074825",
+      "38621751",
+      "39225536",
+      "37684240",
+      "39826710",
+      "34784177",
+      "34236318",
+      "40009520",
+      "37996438",
+      "36350032",
+      "39827079",
+      "37791635",
+      "40094245",
+      "37034777",
+      "33376791",
+      "34916288",
+      "36524527",
+      "38637545",
+      "40172489",
+      "37205474",
+      "34890409",
+      "38832749",
+      "39496836",
+      "38591689",
+      "35727989",
+      "39630960",
+      "37343188",
+      "39320949",
+      "40375868",
+      "36227487",
+      "40325419",
+      "36369755"
+    ],
+    "review": [
+      "40386802",
+      "35179885",
+      "34865286",
+      "33417833",
+      "39271032",
+      "38621751",
+      "36350032",
+      "39827079",
+      "36524527",
+      "40172489"
+    ],
+    "pmc": [
+      "12084160"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41567-025-02827-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40386802/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

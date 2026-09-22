@@ -1,0 +1,412 @@
+{
+  "identity": {
+    "pmid": "41755632",
+    "doi": "10.1093/nar/gkag165",
+    "title": "Multisite phosphorylation of the AML-linked C-terminal of nucleophosmin (NPM1) orchestrates protein stability, DNA binding and charge block-driven phase separation."
+  },
+  "content": {
+    "abstract": "Nucleophosmin (NPM1) is a nucleolar protein commonly mutated in ~30% of newly diagnosed acute myeloid leukemia (AML) cases. These mutations occur in the terminal exon of the NPM1 gene, affecting the C-terminal DNA-binding domain of the protein and causing its delocalization to the cytoplasm-a hallmark of NPM1-mutated AML. NPM1 shuttling to the nucleoplasm is tightly regulated by posttranslational modifications, such as phosphorylation of Ser254, Ser260, and Tyr271 of the DNA-binding domain. However, the structural mechanisms underlying this process remain unclear. In this work, we show that Ser-to-Asp (S254D-S260D) and Tyr-to-pCMF (para-carboxymethyl phenylalanine) (Y271pCMF) phosphomimetic mutations induce significant structural and dynamical rearrangements, as well as drastic modifications in electrostatic surface potential. These changes compromise recognition of a G-quadruplex sequence from the c-MYC promoter by reducing DNA-binding affinity, reshape histone capturing dynamics, and fade charge segregation in the histone-binding domain. Combination of such substitutions in a triple phosphomimetic variant (S254D-S260D-Y271pCMF) further destabilizes the domain's structure and triggers protein aggregation. Altogether, these findings suggest that phosphorylation of Ser254, Ser260, and Tyr271 of the C-end DNA-binding domain weakens both DNA affinity and charge block-driven liquid-liquid phase separation, offering a molecular explanation for the delocalization of NPM1 outside of the nucleolus.",
+    "keywords": [],
+    "mesh_terms": [
+      "Nucleophosmin",
+      "Phosphorylation",
+      "*Nuclear Proteins/chemistry/genetics/metabolism",
+      "Humans",
+      "*Leukemia, Myeloid, Acute/genetics/metabolism",
+      "Protein Binding",
+      "Mutation",
+      "Phase Separation",
+      "Protein Stability",
+      "*DNA/metabolism/chemistry",
+      "G-Quadruplexes",
+      "Protein Domains",
+      "Promoter Regions, Genetic",
+      "Proto-Oncogene Proteins c-myc/genetics",
+      "Static Electricity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rivero-Garcia, Pablo",
+        "Giner-Arroyo, Rafael L",
+        "Tamargo-Azpilicueta, Joaquin",
+        "Telfer, Abbey",
+        "Frezza, Elisa",
+        "Velazquez-Campoy, Adrian",
+        "Diaz-Moreno, Sofia",
+        "la Rosa, Miguel A De",
+        "Diaz-Moreno, Irene"
+      ],
+      "short_names": [
+        "Rivero-Garcia P",
+        "Giner-Arroyo RL",
+        "Tamargo-Azpilicueta J",
+        "Telfer A",
+        "Frezza E",
+        "Velazquez-Campoy A",
+        "Diaz-Moreno S",
+        "la Rosa MA",
+        "Diaz-Moreno I"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-2454-4056",
+        "ORCID: 0000-0003-2651-7916",
+        "ORCID: 0000-0001-8504-4472",
+        "ORCID: 0000-0002-7525-8052",
+        "ORCID: 0000-0003-0122-7859",
+        "ORCID: 0000-0001-5702-4538",
+        "ORCID: 0000-0001-7616-6515",
+        "ORCID: 0000-0003-1187-5737",
+        "ORCID: 0000-0002-5318-7644"
+      ],
+      "affiliations": [
+        "Institute for Chemical Research-cicCartuja, University of Seville-CSIC, 41092 Seville, Spain.",
+        "Institute for Chemical Research-cicCartuja, University of Seville-CSIC, 41092 Seville, Spain.",
+        "Institute for Chemical Research-cicCartuja, University of Seville-CSIC, 41092 Seville, Spain.",
+        "Diamond Light Source-Harwell Science & Innovation Campus, OX11 0DE Didcot, United Kingdom.",
+        "Universite Paris Cite, CiTCoM, CNRS, F-75006 Paris, France.",
+        "Institute for Biocomputation and Physics of Complex Systems (BIFI), and Department of Biochemistry and Molecular and Cell Biology, University of Zaragoza, 50018 Zaragoza, Spain.",
+        "Instituto de Investigacion Sanitaria Aragon (IIS Aragon), 50009 Zaragoza, Spain.",
+        "Centro de Investigacion Biomedica en Red en el Area Tematica de Enfermedades Hepaticas y Digestivas (CIBERehd), 28029 Madrid, Spain.",
+        "Diamond Light Source-Harwell Science & Innovation Campus, OX11 0DE Didcot, United Kingdom.",
+        "Institute for Chemical Research-cicCartuja, University of Seville-CSIC, 41092 Seville, Spain.",
+        "Institute for Chemical Research-cicCartuja, University of Seville-CSIC, 41092 Seville, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rivero-García, Pablo",
+        "short_name": "Rivero-García P",
+        "identifiers": [
+          "0009-0002-2454-4056"
+        ],
+        "affiliations": [
+          "Institute for Chemical Research-cicCartuja, University of Seville-CSIC, 41092 Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Giner-Arroyo, Rafael L",
+        "short_name": "Giner-Arroyo RL",
+        "identifiers": [
+          "0000-0003-2651-7916"
+        ],
+        "affiliations": [
+          "Institute for Chemical Research-cicCartuja, University of Seville-CSIC, 41092 Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Tamargo-Azpilicueta, Joaquín",
+        "short_name": "Tamargo-Azpilicueta J",
+        "identifiers": [
+          "0000-0001-8504-4472"
+        ],
+        "affiliations": [
+          "Institute for Chemical Research-cicCartuja, University of Seville-CSIC, 41092 Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Telfer, Abbey",
+        "short_name": "Telfer A",
+        "identifiers": [
+          "0000-0002-7525-8052"
+        ],
+        "affiliations": [
+          "Diamond Light Source-Harwell Science & Innovation Campus, OX11 0DE Didcot, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Frezza, Elisa",
+        "short_name": "Frezza E",
+        "identifiers": [
+          "0000-0003-0122-7859"
+        ],
+        "affiliations": [
+          "Université Paris Cité, CiTCoM, CNRS, F-75006 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Velázquez-Campoy, Adrián",
+        "short_name": "Velázquez-Campoy A",
+        "identifiers": [
+          "0000-0001-5702-4538"
+        ],
+        "affiliations": [
+          "Institute for Biocomputation and Physics of Complex Systems (BIFI), and Department of Biochemistry and Molecular and Cell Biology, University of Zaragoza, 50018 Zaragoza, Spain.",
+          "Instituto de Investigación Sanitaria Aragón (IIS Aragón), 50009 Zaragoza, Spain.",
+          "Centro de Investigación Biomédica en Red en el Área Temática de Enfermedades Hepáticas y Digestivas (CIBERehd), 28029 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Díaz-Moreno, Sofía",
+        "short_name": "Díaz-Moreno S",
+        "identifiers": [
+          "0000-0001-7616-6515"
+        ],
+        "affiliations": [
+          "Diamond Light Source-Harwell Science & Innovation Campus, OX11 0DE Didcot, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "la Rosa, Miguel A De",
+        "short_name": "la Rosa MA",
+        "identifiers": [
+          "0000-0003-1187-5737"
+        ],
+        "affiliations": [
+          "Institute for Chemical Research-cicCartuja, University of Seville-CSIC, 41092 Seville, Spain."
+        ]
+      },
+      {
+        "full_name": "Díaz-Moreno, Irene",
+        "short_name": "Díaz-Moreno I",
+        "identifiers": [
+          "0000-0002-5318-7644"
+        ],
+        "affiliations": [
+          "Institute for Chemical Research-cicCartuja, University of Seville-CSIC, 41092 Seville, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 Feb 24",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/27 06:31",
+    "fetched_at": "2026-09-18 01:08:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40390365",
+      "40338746",
+      "39206127",
+      "39108706",
+      "38571760",
+      "37558241",
+      "37548614",
+      "37540843",
+      "36831522",
+      "36220893",
+      "36081577",
+      "35864335",
+      "35797463",
+      "35732831",
+      "34943155",
+      "33959979",
+      "33777934",
+      "33495326",
+      "32728408",
+      "32609823",
+      "31714766",
+      "29483575",
+      "29263320",
+      "29066752",
+      "28836357",
+      "28746339",
+      "27787702",
+      "27553022",
+      "27367478",
+      "27276561",
+      "26836305",
+      "26642979",
+      "26583988",
+      "26488642",
+      "26329855",
+      "26196731",
+      "25772360",
+      "24952945",
+      "24616519",
+      "23742937",
+      "23634996",
+      "23436734",
+      "23328624",
+      "22930834",
+      "22707729",
+      "22417203",
+      "21714551",
+      "21030560",
+      "20858903",
+      "18511415",
+      "17616680",
+      "16455950",
+      "16408022",
+      "16240095",
+      "15659725",
+      "15264254",
+      "12450141",
+      "12395429",
+      "10829026",
+      "10372352",
+      "8744570",
+      "7527039"
+    ],
+    "similar": [
+      "41755632",
+      "20858903",
+      "23328624",
+      "22707729",
+      "39690184",
+      "23436734",
+      "24952945",
+      "24576674",
+      "28055106",
+      "18511415",
+      "30710643",
+      "19516275",
+      "23742937",
+      "35803020",
+      "40676766",
+      "32853771",
+      "20306250",
+      "30921500",
+      "26183674",
+      "36008542",
+      "34343258",
+      "35621728",
+      "40260502",
+      "25531824",
+      "34573408",
+      "37317978",
+      "27535106",
+      "37843328",
+      "39443736",
+      "42277036",
+      "30632059",
+      "21724308",
+      "29157973",
+      "29274134",
+      "23831574",
+      "20023256",
+      "19569254",
+      "25891481",
+      "29283500",
+      "32545659",
+      "39336484",
+      "30906218",
+      "35597503",
+      "20634376",
+      "32609823",
+      "40782343",
+      "23384905",
+      "41566085",
+      "19289604",
+      "39174699",
+      "17076533",
+      "23232117",
+      "39093977",
+      "25421715",
+      "40400267",
+      "33782403",
+      "23484732",
+      "31650162",
+      "29483575",
+      "32092641",
+      "39162498",
+      "19637342",
+      "31009764",
+      "36826998",
+      "34364939",
+      "38702038",
+      "15870172",
+      "35485701",
+      "34044346",
+      "40972674",
+      "39901865",
+      "22099964",
+      "31751897",
+      "34615546",
+      "33077765",
+      "36455589",
+      "25255220",
+      "29111347",
+      "26884713",
+      "21030560",
+      "36041327",
+      "36499032",
+      "20567020",
+      "20212148",
+      "40276909",
+      "38029384",
+      "16109776",
+      "30015632",
+      "25977257",
+      "40295061",
+      "35621629",
+      "26836305",
+      "36834572",
+      "28152414",
+      "37365294",
+      "26894557",
+      "33099879",
+      "24035716",
+      "35408798",
+      "29695509"
+    ],
+    "review": [
+      "41755632",
+      "39690184",
+      "23436734",
+      "19516275",
+      "32853771",
+      "36008542",
+      "35621728",
+      "37317978",
+      "30632059",
+      "21724308",
+      "29157973",
+      "19569254",
+      "25891481",
+      "32545659",
+      "32609823",
+      "39174699",
+      "17076533",
+      "23484732",
+      "31009764",
+      "39901865",
+      "21030560"
+    ],
+    "pmc": [
+      "12956350"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41755632/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag165",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

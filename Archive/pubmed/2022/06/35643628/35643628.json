@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "35643628",
+    "doi": "10.1016/j.bpj.2022.05.039",
+    "title": "Simulating the chromatin-mediated phase separation of model proteins with multiple domains."
+  },
+  "content": {
+    "abstract": "We perform simulations of a system containing simple model proteins and a polymer representing chromatin. We study the interplay between protein-protein and protein-chromatin interactions, and the resulting condensates that arise due to liquid-liquid phase separation, or a via a \"bridging-induced attraction\" mechanism. For proteins that interact multivalently, we obtain a phase diagram which includes liquid-like droplets, droplets with absorbed polymer, and coated polymer regimes. Of particular interest is a regime where protein droplets only form due to interaction with the polymer; here, unlike a standard phase separating system, droplet density rather than size varies with the overall protein concentration. We also observe that protein dynamics within droplets slow down as chromatin is absorbed. If the protein-protein interactions have a strictly limited valence, fractal or gel-like condensates are instead observed. A specific example that inspired our model is heterochromatin protein 1, or HP1. Recent in vivo experiments have shown that HP1 exhibits similar droplet size buffering behavior as our simulations. Overall, our results provide biologically relevant insights into the general nature of protein-chromatin condensates in living cells.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Chromatin",
+      "*Chromobox Protein Homolog 5",
+      "Polymers"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ancona, Marco",
+        "Brackley, Chris A"
+      ],
+      "short_names": [
+        "Ancona M",
+        "Brackley CA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "SUPA, School of Physics and Astronomy, University of Edinburgh, Peter Guthrie Tait Road, Edinburgh, United Kingdom.",
+        "SUPA, School of Physics and Astronomy, University of Edinburgh, Peter Guthrie Tait Road, Edinburgh, United Kingdom. Electronic address: c.brackley@ed.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ancona, Marco",
+        "short_name": "Ancona M",
+        "identifiers": [],
+        "affiliations": [
+          "SUPA, School of Physics and Astronomy, University of Edinburgh, Peter Guthrie Tait Road, Edinburgh, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Brackley, Chris A",
+        "short_name": "Brackley CA",
+        "identifiers": [],
+        "affiliations": [
+          "SUPA, School of Physics and Astronomy, University of Edinburgh, Peter Guthrie Tait Road, Edinburgh, United Kingdom. Electronic address: c.brackley@ed.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2022 Jul 5",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/02 06:00",
+    "fetched_at": "2026-09-20 10:49:56"
+  },
+  "links": {
+    "cites": [
+      "41411368",
+      "41134621",
+      "41004045",
+      "40954121",
+      "40661423",
+      "40598901",
+      "40474478",
+      "39337699",
+      "39044429",
+      "38745698",
+      "38598632",
+      "38579381",
+      "37549295",
+      "36791720",
+      "36526633",
+      "36261037",
+      "35108264",
+      "34639077"
+    ],
+    "refs": [
+      "35911447",
+      "34341548",
+      "33969989",
+      "33661100",
+      "33571491",
+      "33568486",
+      "33292531",
+      "33078839",
+      "32698189",
+      "32493764",
+      "32484438",
+      "32482873",
+      "32414928",
+      "32405004",
+      "32175915",
+      "32101700",
+      "31952807",
+      "31506351",
+      "30845353",
+      "30801102",
+      "30500535",
+      "29930091",
+      "29930090",
+      "29712961",
+      "29685391",
+      "29509422",
+      "29411842",
+      "29336876",
+      "29235574",
+      "29048902",
+      "28985346",
+      "28636604",
+      "28636597",
+      "28355537",
+      "27544125",
+      "27060145",
+      "26750377",
+      "26274171",
+      "25134515",
+      "24927534",
+      "24618358",
+      "24003126",
+      "23944504",
+      "23623300",
+      "22988072",
+      "21794944",
+      "21680045",
+      "21331432",
+      "19948116",
+      "19586107",
+      "18412456",
+      "18205439",
+      "17855382",
+      "17825083",
+      "17522630",
+      "17224041",
+      "16547610",
+      "15939760",
+      "10753776"
+    ],
+    "similar": [
+      "35643628",
+      "37549295",
+      "35447032",
+      "30514760",
+      "31618757",
+      "32101700",
+      "30471698",
+      "32175915",
+      "23912807",
+      "36771812",
+      "35096966",
+      "34653387",
+      "36537242",
+      "34748548",
+      "35166421",
+      "37972831",
+      "34819511",
+      "31543265",
+      "11408576",
+      "36444977",
+      "34687722",
+      "33231755",
+      "34303931",
+      "33704061",
+      "36321557",
+      "35156529",
+      "28180290",
+      "31869935",
+      "35954237",
+      "24681131",
+      "33660589",
+      "31543422",
+      "22205726",
+      "33326747",
+      "31971237",
+      "9378752",
+      "33435761",
+      "33536240",
+      "37190858",
+      "32937111",
+      "32111972",
+      "22715096",
+      "32584357",
+      "39413416",
+      "38745698",
+      "38746247",
+      "37159305",
+      "37856873",
+      "31253870",
+      "33144560",
+      "27466409",
+      "35387992",
+      "19486527",
+      "37577555",
+      "22149807",
+      "25818296",
+      "29628210",
+      "34303933",
+      "31941785",
+      "12826664",
+      "32571937",
+      "32484438",
+      "39331998",
+      "20689044",
+      "35881789",
+      "30965979",
+      "24415761",
+      "34664748",
+      "35501484",
+      "25532064",
+      "34550150",
+      "36348120",
+      "31623887",
+      "37675940",
+      "33826337",
+      "39021027",
+      "33053359",
+      "36397514",
+      "36595668",
+      "36533441",
+      "36412795",
+      "34241228",
+      "10330177",
+      "38359990"
+    ],
+    "review": [
+      "35643628",
+      "35096966",
+      "34303931",
+      "36321557",
+      "29628210"
+    ],
+    "pmc": [
+      "9300671"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(22)00432-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35643628/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35643628",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

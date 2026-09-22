@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41086136",
+  "title": "Prediction of Physical Characteristics of Disordered Proteins Using Molecular Simulation and Physics-Informed Multiple Machine Learning Strategies.",
+  "authors": "Linares Gonzalez, Diego; Ibrahim, Shahana; Seth, Swarnadeep; Atia, George; Bhattacharya, Aniket",
+  "journal": "Biomacromolecules",
+  "published_date": "2025-10-14",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用混合机器学习框架结合粗粒化物理特征预测无序蛋白的构象性质（如回旋半径），虽聚焦单链构象而非直接PPI，但对象为IDP且方法融合AI与物理模拟，对无序蛋白构象机制建模有可迁移启发。",
+  "abstract": "We introduce a novel hybrid machine learning (ML) framework to predict the radius of gyration and other conformational properties of intrinsically disordered proteins (IDPs). Our model integrates sequence information with physical features derived from a coarse-grained model validated by experimental data. Specifically, we combine hidden states from sequence-based models with 23 physical features projected into a shared latent space, and apply an attention mechanism that assigns weights to each residue to highlight the most informative regions of the sequence. This attention-guided fusion significantly improves predictive accuracy across multiple metrics, including mean absolute percentage error and mean squared error, while also enhancing confidence in the predictions. We trained and evaluated our models on Brownian dynamics (BD) simulation results for approximately 7000 IDPs from the MobiDB database (each with >99% disorder score). We find that sequence-based models consistently outperform feature-only models, with the GRU achieving the best performance among sequence-only approaches. Moreover, combining sequence and feature information further improves accuracy across all architectures, with the hybrid biGRU model delivering the best overall predictive performance. SHAP analysis reveals the relative importance of physical features, offering model explainability, and guiding feature selection. Notably, using a small number of top features often reduces model complexity and improves generalization. Furthermore, an integrated gradient analysis reveals that in addition to the length of the IDPs, the three parameters (sequence charge and hydropathy decoration parameters (SCD and SHD), and charge asymmetry parameter f*) play a key role in the predictions of ML. Our framework provides a fast, interpretable, and scalable tool for predicting IDP behavior, enabling efficient initial screening prior to costly molecular simulations.",
+  "abstract_zh": "我们引入了一种新颖的混合机器学习（ML）框架，用于预测 intrinsically disordered proteins (IDPs) 的回转半径及其他构象性质。我们的模型将序列信息与由实验数据验证的粗粒化模型导出的物理特征相结合。具体而言，我们将基于序列模型的隐藏状态与23个物理特征投影到共享潜在空间中，并应用注意力机制为每个残基分配权重，以突出序列中最具信息量的区域。这种注意力引导的融合显著提高了多个指标上的预测准确性，包括平均绝对百分比误差和均方误差，同时增强了对预测的置信度。我们在来自MobiDB数据库的约7000个IDPs（每个具有>99%的无序评分）的布朗动力学（BD）模拟结果上训练并评估了我们的模型。我们发现，基于序列的模型始终优于仅使用特征的模型，其中GRU在仅序列方法中表现最佳。此外，将序列和特征信息结合进一步提高了所有架构的准确性，其中混合biGRU模型提供了最佳的整体预测性能。SHAP分析揭示了物理特征的相对重要性，提供了模型可解释性，并指导特征选择。值得注意的是，使用少量顶级特征通常能降低模型复杂度并改善泛化能力。此外，集成梯度分析表明，除了IDPs的长度外，三个参数（序列电荷和亲水性装饰参数（SCD和SHD），以及电荷不对称参数f*）在ML预测中起关键作用。我们的框架为预测IDP行为提供了一个快速、可解释且可扩展的工具，能够在昂贵的分子模拟之前实现高效的初步筛选。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41086136/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41086136/",
+  "paper_page_path": "papers/pubmed/41086136/index.html"
+}

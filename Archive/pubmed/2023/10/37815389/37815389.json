@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "37815389",
+    "doi": "10.1039/d3sm00633f",
+    "title": "Multi-scale molecular simulation of random peptide phase separation and its extended-to-compact structure transition driven by hydrophobic interactions."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) often undergo liquid-liquid phase separation (LLPS) and form membraneless organelles or protein condensates. One of the core problems is how do electrostatic repulsion and hydrophobic interactions in peptides regulate the phase separation process? To answer this question, this study uses random peptides composed of positively charged arginine (Arg, R) and hydrophobic isoleucine (Ile, I) as the model systems, and conduct large-scale simulations using all atom and coarse-grained model multi-scale simulation methods. In this article, we investigate the phase separation of different sequences using a coarse-grained model. It is found that the stronger the electrostatic repulsion in the system, the more extended the single-chain structure, and the more likely the system forms a low-density homogeneous phase. In contrast, the stronger the hydrophobic effect of the system, the more compact the single-chain structure, the easier phase separation, and the higher the critical temperature of phase separation. Overall, by taking the random polypeptides composed of two types of amino acid residues as model systems, this study discusses the relationship between the protein sequence and phase behaviour, and provides theoretical insights into the interactions within or between proteins. It is expected to provide essential physical information for the sequence design of functional IDPs, as well as data to support the diagnosis and treatment of the LLPS-associated diseases.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Peptides",
+      "Computer Simulation",
+      "Temperature",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Phase Transition"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kang, Wen Bin",
+        "Bao, Lei",
+        "Zhang, Kai",
+        "Guo, Jia",
+        "Zhu, Ben Chao",
+        "Tang, Qian-Yuan",
+        "Ren, Wei Tong",
+        "Zhu, Gen"
+      ],
+      "short_names": [
+        "Kang WB",
+        "Bao L",
+        "Zhang K",
+        "Guo J",
+        "Zhu BC",
+        "Tang QY",
+        "Ren WT",
+        "Zhu G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5465-6203",
+        "ORCID: 0000-0002-6028-2017",
+        "ORCID: 0000-0002-2821-0494"
+      ],
+      "affiliations": [
+        "School of Public Health, Hubei University of Medicine, Shiyan 442000, China. wbkang@hbmu.edu.cn.",
+        "School of Public Health, Hubei University of Medicine, Shiyan 442000, China. wbkang@hbmu.edu.cn.",
+        "School of Physics, Nanjing University, Nanjing 210093, China.",
+        "School of Public Health, Hubei University of Medicine, Shiyan 442000, China. wbkang@hbmu.edu.cn.",
+        "School of Public Health, Hubei University of Medicine, Shiyan 442000, China. wbkang@hbmu.edu.cn.",
+        "Department of Physics, Hong Kong Baptist University, Kowloon, Hong Kong SAR, China.",
+        "Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, China.",
+        "School of Public Health, Hubei University of Medicine, Shiyan 442000, China. wbkang@hbmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kang, Wen Bin",
+        "short_name": "Kang WB",
+        "identifiers": [
+          "0000-0002-5465-6203"
+        ],
+        "affiliations": [
+          "School of Public Health, Hubei University of Medicine, Shiyan 442000, China. wbkang@hbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Bao, Lei",
+        "short_name": "Bao L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Hubei University of Medicine, Shiyan 442000, China. wbkang@hbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Kai",
+        "short_name": "Zhang K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, Nanjing University, Nanjing 210093, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Jia",
+        "short_name": "Guo J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Hubei University of Medicine, Shiyan 442000, China. wbkang@hbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhu, Ben Chao",
+        "short_name": "Zhu BC",
+        "identifiers": [
+          "0000-0002-6028-2017"
+        ],
+        "affiliations": [
+          "School of Public Health, Hubei University of Medicine, Shiyan 442000, China. wbkang@hbmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tang, Qian-Yuan",
+        "short_name": "Tang QY",
+        "identifiers": [
+          "0000-0002-2821-0494"
+        ],
+        "affiliations": [
+          "Department of Physics, Hong Kong Baptist University, Kowloon, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Wei Tong",
+        "short_name": "Ren WT",
+        "identifiers": [],
+        "affiliations": [
+          "Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Gen",
+        "short_name": "Zhu G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Public Health, Hubei University of Medicine, Shiyan 442000, China. wbkang@hbmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Soft matter"
+    ],
+    "journal_abbrev": [
+      "Soft Matter"
+    ],
+    "pub_date": "2023 Oct 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/10 12:41",
+    "fetched_at": "2026-09-21 02:00:41"
+  },
+  "links": {
+    "cites": [
+      "41807382",
+      "41235398",
+      "41001641"
+    ],
+    "refs": [],
+    "similar": [
+      "37815389",
+      "33139563",
+      "32393642",
+      "34716273",
+      "33076213",
+      "33934416",
+      "38252962",
+      "33876938",
+      "32087632",
+      "37794023",
+      "29364893",
+      "38862770",
+      "33453922",
+      "32312191",
+      "33684117",
+      "33302617",
+      "30397688",
+      "36227468",
+      "31784535",
+      "33971237",
+      "29734867",
+      "38979955",
+      "29509422",
+      "36272811",
+      "38855848",
+      "39225535",
+      "36702825",
+      "29511089",
+      "34428231",
+      "27392146",
+      "30217894",
+      "29716768",
+      "33555894",
+      "31667345",
+      "37662293",
+      "32168715",
+      "28924037",
+      "36343363",
+      "30529747",
+      "29397728",
+      "36040869",
+      "34598580",
+      "32692541",
+      "25375525",
+      "37480340",
+      "33582133",
+      "38112495",
+      "38042897",
+      "31270472",
+      "36443315",
+      "36350034",
+      "32615218",
+      "35944496",
+      "29424691",
+      "35802394",
+      "37222424",
+      "33890467",
+      "33629837",
+      "38546977",
+      "36524527",
+      "25207671",
+      "31709918",
+      "30926670",
+      "32936641",
+      "37189373",
+      "38462838",
+      "34291921",
+      "33264400",
+      "35142991",
+      "34951585",
+      "29573987",
+      "35883530",
+      "38356260",
+      "29068531",
+      "31237369",
+      "31694155",
+      "36181270",
+      "31941785",
+      "29548979",
+      "31444270",
+      "29526694",
+      "32227994",
+      "38308651",
+      "32696384",
+      "38690757",
+      "32824618",
+      "32579908",
+      "31139718",
+      "34106723",
+      "33069007",
+      "31756104",
+      "31054969",
+      "37079924",
+      "34830152",
+      "30873835",
+      "37764485",
+      "38407041",
+      "36066390",
+      "32696386",
+      "34984754",
+      "36768473",
+      "29091028",
+      "31260322",
+      "34619090",
+      "38553587",
+      "39044475",
+      "37907762",
+      "39148776",
+      "39058398",
+      "34202468",
+      "38653686",
+      "31041391",
+      "34866377",
+      "38163950",
+      "35795820",
+      "30617047",
+      "39319382",
+      "33826337",
+      "38432110",
+      "38108299"
+    ],
+    "review": [
+      "37815389",
+      "32312191",
+      "38979955",
+      "29509422",
+      "38855848",
+      "29716768",
+      "36350034",
+      "35802394",
+      "36524527",
+      "31709918",
+      "34291921",
+      "35142991",
+      "29068531",
+      "31237369",
+      "31694155",
+      "31444270",
+      "32824618",
+      "33069007",
+      "31054969",
+      "34830152",
+      "34619090",
+      "37907762",
+      "38653686",
+      "30617047"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d3sm00633f",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

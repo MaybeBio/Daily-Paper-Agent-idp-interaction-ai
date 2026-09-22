@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table legends.
+- **Assessment boundary** Scientific validity, technical soundness, logical coherence, and support of claims by presented evidence. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors identify an uncharacterized Arabidopsis protein, FUST1, which undergoes heat-dependent biomolecular condensation. They propose that its prion-like domain (PrLD) acts as a thermosensor via a lock-to-open conformational switch, that FUST1 condensation precedes and is required for stress granule (SG) assembly, and that this process contributes to basal and acquired thermotolerance.
+- **Visible evidence base** In vivo imaging in Arabidopsis and tobacco; in vitro phase separation assays; turbidity and dynamic light scattering; all-atom MD simulations with REMD; FLIM-FRET; proximity labeling (TurboID) and IP-MS; co-immunoprecipitation; FISH; thermotolerance assays with mutant and complementation lines; phylogenetic conservation analysis.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S11, Tables S1–S4) are referenced but not provided. Videos S1 and S2 are referenced but not provided. Full proteomics datasets and statistical details for omics analyses are not available. Details of MD simulation convergence and validation are incomplete.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially significant advance in understanding plant heat sensing through biomolecular condensation. The identification of FUST1 as a heat-responsive condensate-forming protein, the characterization of its PrLD as a thermoswitch, and the genetic evidence for its role in thermotolerance are compelling. The combination of simulation, biophysics, cell biology, and genetics is ambitious and largely coherent. However, several technical concerns, particularly regarding the MD simulation methodology, the specificity of the "thermosensor" claim, and the quantitative strength of the phenotypic data, need to be addressed before the central conclusions are fully established.
+- **Who would be interested in the results, and why** Plant stress biologists studying heat responses and thermotolerance; cell biologists studying biomolecular condensates and phase separation; biophysicists interested in temperature-sensitive intrinsically disordered proteins; researchers working on stress granules in any eukaryotic system, given the potential conserved principles of SG nucleation.
+- **Major strengths** 1. The discovery of a new heat-sensing protein in plants is novel and timely. 2. The multi-scale approach, from atomistic simulation to whole-organism phenotyping, is comprehensive. 3. The identification of a specific "lock-to-open" conformational mechanism within a PrLD provides a concrete, testable model for thermosensing. 4. The genetic evidence using two mutant alleles and complementation lines strengthens the functional claims. 5. The demonstration that FUST1 condensation precedes SG markers and is required for their assembly establishes a clear hierarchy.
+- **Major Concerns**
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Technical soundness of MD simulations
+- **Claim pointer** "PrLD encodes a thermo-switch, experiencing lock-to-open conformational changes that control the intermolecular contacts."
+- **Evidence pointer** Results section "PrLD encodes a thermo-switch"; Figure 3; Materials and methods "All-atom MD simulation"
+- **Concern** The MD simulation methodology is described with insufficient detail to assess its validity. The authors state that "replica-exchange MD (REMD) was applied with a total simulation time of 62 µs" but do not specify the number of replicas, the temperature range and distribution, the exchange acceptance criteria beyond a mean of 20%, or the equilibration protocol. More critically, the simulation of a single PrLD monomer is used to infer intermolecular interactions, yet the key claim is about "intermolecular contacts" between two PrLD molecules. The description of the two-molecule simulation is vague ("2 µs conventional MD simulation was carried out to investigate the intermolecular interactions between two PrLD"). The force field (CHARMM36m) is appropriate for IDPs, but the convergence of the REMD simulations, particularly for a system of this size, is not demonstrated. The analysis of "beta-strand probability" using DSSP on an IDP ensemble is also potentially problematic, as DSSP assignments can be noisy for transient structures.
+- **Why it matters** The central mechanistic claim of the paper rests on the MD simulations. If the simulations are not converged, properly sampled, or correctly analyzed, the "lock-to-open" model is not supported. The distinction between monomeric conformational changes and intermolecular interactions is critical; the current description conflates the two.
+- **Resolution test** Provide a detailed description of the simulation setup, including the number of replicas, temperature distribution, total simulation time per replica, and convergence metrics (e.g., time evolution of Rg, potential energy distributions, replica exchange statistics). Clarify whether the two-molecule simulations were performed with REMD or conventional MD, and provide evidence of convergence for these runs. Show representative snapshots or contact maps that illustrate the "lock" and "open" states. Provide a quantitative comparison of simulated and experimental observables (e.g., predicted vs. measured Rg or secondary structure content from CD).
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Support for "thermosensor" claim
+- **Claim pointer** "FUST1 senses heat via its condensation" and "FUST1 is a molecular thermosensor that drives heat-induced SG assembly."
+- **Evidence pointer** Abstract; Results sections "FUST1 is an uncharacterized protein that undergoes heat-dependent condensation" and "FUST1 condensation is intrinsically sensitive to temperature increase"; Figures 1 and 2
+- **Concern** The claim that FUST1 is a "thermosensor" implies that it directly and specifically responds to temperature. The data show that FUST1 condensation is enhanced at higher temperatures, which is consistent with LCST behavior. However, the manuscript does not rule out that FUST1 condensation is a downstream consequence of other heat-induced changes (e.g., increased RNA availability, post-translational modifications, or changes in cellular pH/ionic strength). The in vitro experiments are performed with purified components, which supports intrinsic temperature sensitivity, but the in vivo relevance of this specific mechanism is not directly tested. The "lock-to-open" model is inferred from simulations and FRET, but the FRET experiments are performed in vitro with purified protein, not in cells. The claim that FUST1 is a primary sensor, rather than a downstream responder, requires stronger evidence.
+- **Why it matters** The term "thermosensor" is a strong claim that implies a direct, causal role for FUST1 in temperature perception. If FUST1 condensation is merely a consequence of other heat-induced signals, the conceptual advance is diminished.
+- **Resolution test** Provide evidence that FUST1 condensation occurs in vivo at temperatures and timescales that precede other known heat responses. Test whether FUST1 condensation is affected by inhibitors of translation or RNA metabolism. Perform in vivo FRET or a similar assay to demonstrate the lock-to-open transition in living cells. Alternatively, temper the language from "thermosensor" to "temperature-responsive condensate" if direct sensing cannot be demonstrated.
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** No
+- **Axis** Quantitative strength of phenotypic data
+- **Claim pointer** "Loss of FUST1 significantly delays SG assembly and impairs both basal and acquired heat tolerance."
+- **Evidence pointer** Results section "FUST1 confers both basal and acquired heat tolerance"; Figure 6
+- **Concern** The phenotypic data in Figure 6 are presented as representative images and bar graphs with statistical tests, but the effect sizes appear modest. For example, the difference in survival or fresh weight between wild-type and fust1 mutants, while statistically significant, may be small. The manuscript does not report the magnitude of the delay in SG assembly in quantitative terms (e.g., time to 50% of cells with SGs). The complementation data are mentioned but not shown in the main figures. The physiological relevance of the observed differences is not discussed in the context of natural temperature fluctuations.
+- **Why it matters** The functional significance of FUST1 is a key part of the paper. If the phenotypic effects are weak, the claim that FUST1 is "indispensable" for SG assembly and thermotolerance is overstated.
+- **Resolution test** Provide quantitative data on SG assembly kinetics (e.g., percentage of cells with SGs over time) in wild-type vs. mutant. Report effect sizes and confidence intervals for all phenotypic measurements. Show complementation data in the main figures. Discuss the biological significance of the observed effect sizes in the context of natural heat stress events.
+- **Minor Comments**
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Clarity of nomenclature
+- **Affected element** Protein name "FUST1"
+- **Evidence pointer** Throughout
+- **Issue** The name FUST1 is introduced as "standing for a sacred FuSang Tree in ancient Chinese legend." While culturally interesting, this nomenclature is not informative for the broader scientific community and may hinder recognition of the protein's function.
+- **Required correction** Consider providing a more descriptive name or at least mentioning the gene identifier (AT3G07660) more prominently in the abstract and introduction.
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Statistical reporting
+- **Affected element** Figure legends and results text
+- **Evidence pointer** Figures 1, 2, 5, 6
+- **Issue** The statistical tests used are mentioned (e.g., two-sided Student's t-test), but the number of biological replicates, the definition of n, and whether data meet the assumptions of the tests are not consistently reported.
+- **Required correction** Add a detailed statistical analysis section in the Materials and methods, and ensure each figure legend states the number of replicates, the definition of n, and the specific test used.
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Discussion of alternative models
+- **Affected element** Discussion section
+- **Evidence pointer** Discussion
+- **Issue** The discussion proposes a model where FUST1 acts as a scaffold for SG assembly. However, alternative models, such as FUST1 acting as a client that is recruited to SGs by other nucleators, are not discussed.
+- **Required correction** Add a paragraph discussing alternative models and how the data distinguish between them.
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Conservation analysis
+- **Affected element** Results section "Temperature-dependent condensation of FUST1 is conserved in plants"; Figure S11
+- **Evidence pointer** Supplementary Figure S11
+- **Issue** The conservation analysis is only briefly described. It is unclear how many species were analyzed, what the sequence identity thresholds were, and whether the functional conservation was tested beyond simple expression in tobacco.
+- **Required correction** Provide more detail on the bioinformatic analysis and, if possible, test the heat-responsive condensation of at least one non-Arabidopsis homolog in vitro.
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Methodological detail for in vivo imaging
+- **Affected element** Materials and methods "Fluorescent imaging of cells and tissues"
+- **Evidence pointer** Materials and methods
+- **Issue** The imaging conditions for quantifying condensates (e.g., laser power, gain, z-slice thickness, image analysis pipeline) are not described. This makes it difficult to reproduce the quantitative imaging data.
+- **Required correction** Provide a detailed description of the imaging and quantification protocols, including any image analysis software and thresholds used.
+- **Concern ID** R1-m6
+- **Severity** Minor
+- **Axis** Data availability
+- **Affected element** Materials and methods
+- **Evidence pointer** Materials and methods
+- **Issue** The mass spectrometry proteomics data are not deposited in a public repository, and the code for the MD simulation analyses is not provided.
+- **Required correction** Deposit the proteomics data in a public repository (e.g., ProteomeXchange) and provide the analysis scripts or a link to a repository.
+
+## Risk / unsupported claims
+- The claim that FUST1 is a "thermosensor" is not fully supported; the data demonstrate temperature-responsive condensation but do not exclude downstream mechanisms.
+- The "lock-to-open" conformational switch is inferred from MD simulations and in vitro FRET; in vivo evidence for this specific conformational change is lacking.
+- The claim that FUST1 is "indispensable" for SG assembly is based on data showing a delay, not a complete block, in mutant backgrounds.
+- The statement that FUST1 homologs are found in "all land plants" is not verifiable from the provided text, as the analysis is only described in a supplementary figure that was not provided.
+- The functional conservation of FUST1 homologs from maize, soybean, and Chinese cabbage is only tested by expression in tobacco, which does not fully demonstrate conserved function in the native context.

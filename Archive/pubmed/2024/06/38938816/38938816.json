@@ -1,0 +1,475 @@
+{
+  "identity": {
+    "pmid": "38938816",
+    "doi": "10.1021/jacsau.4c00182",
+    "title": "CoVAMPnet: Comparative Markov State Analysis for Studying Effects of Drug Candidates on Disordered Biomolecules."
+  },
+  "content": {
+    "abstract": "Computational study of the effect of drug candidates on intrinsically disordered biomolecules is challenging due to their vast and complex conformational space. Here, we developed a comparative Markov state analysis (CoVAMPnet) framework to quantify changes in the conformational distribution and dynamics of a disordered biomolecule in the presence and absence of small organic drug candidate molecules. First, molecular dynamics trajectories are generated using enhanced sampling, in the presence and absence of small molecule drug candidates, and ensembles of soft Markov state models (MSMs) are learned for each system using unsupervised machine learning. Second, these ensembles of learned MSMs are aligned across different systems based on a solution to an optimal transport problem. Third, the directional importance of inter-residue distances for the assignment to different conformational states is assessed by a discriminative analysis of aggregated neural network gradients. This final step provides interpretability and biophysical context to the learned MSMs. We applied this novel computational framework to assess the effects of ongoing phase 3 therapeutics tramiprosate (TMP) and its metabolite 3-sulfopropanoic acid (SPA) on the disordered Abeta42 peptide involved in Alzheimer's disease. Based on adaptive sampling molecular dynamics and CoVAMPnet analysis, we observed that both TMP and SPA preserved more structured conformations of Abeta42 by interacting nonspecifically with charged residues. SPA impacted Abeta42 more than TMP, protecting alpha-helices and suppressing the formation of aggregation-prone beta-strands. Experimental biophysical analyses showed only mild effects of TMP/SPA on Abeta42 and activity enhancement by the endogenous metabolization of TMP into SPA. Our data suggest that TMP/SPA may also target biomolecules other than Abeta peptides. The CoVAMPnet method is broadly applicable to study the effects of drug candidates on the conformational behavior of intrinsically disordered biomolecules.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Marques, Sergio M",
+        "Kouba, Petr",
+        "Legrand, Anthony",
+        "Sedlar, Jiri",
+        "Disson, Lucas",
+        "Planas-Iglesias, Joan",
+        "Sanusi, Zainab",
+        "Kunka, Antonin",
+        "Damborsky, Jiri",
+        "Pajdla, Tomas",
+        "Prokop, Zbynek",
+        "Mazurenko, Stanislav",
+        "Sivic, Josef",
+        "Bednar, David"
+      ],
+      "short_names": [
+        "Marques SM",
+        "Kouba P",
+        "Legrand A",
+        "Sedlar J",
+        "Disson L",
+        "Planas-Iglesias J",
+        "Sanusi Z",
+        "Kunka A",
+        "Damborsky J",
+        "Pajdla T",
+        "Prokop Z",
+        "Mazurenko S",
+        "Sivic J",
+        "Bednar D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9979-4159",
+        "ORCID: 0000-0002-4704-3388",
+        "ORCID: 0000-0002-6279-2483",
+        "ORCID: 0000-0002-7848-8216",
+        "ORCID: 0000-0001-9358-4081",
+        "ORCID: 0000-0002-6803-0340"
+      ],
+      "affiliations": [
+        "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+        "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic.",
+        "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+        "Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University in Prague, Jugoslavskych partyzanu 1580/3, Dejvice, Praha 6 160 00, Czech Republic.",
+        "Faculty of Electrical Engineering, Czech Technical University in Prague, Technicka 2, Dejvice, Praha 6 166 27, Czech Republic.",
+        "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+        "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic.",
+        "Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University in Prague, Jugoslavskych partyzanu 1580/3, Dejvice, Praha 6 160 00, Czech Republic.",
+        "Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University in Prague, Jugoslavskych partyzanu 1580/3, Dejvice, Praha 6 160 00, Czech Republic.",
+        "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+        "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic.",
+        "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+        "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic.",
+        "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+        "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic.",
+        "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+        "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic.",
+        "Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University in Prague, Jugoslavskych partyzanu 1580/3, Dejvice, Praha 6 160 00, Czech Republic.",
+        "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+        "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic.",
+        "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+        "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic.",
+        "Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University in Prague, Jugoslavskych partyzanu 1580/3, Dejvice, Praha 6 160 00, Czech Republic.",
+        "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+        "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Marques, Sérgio M",
+        "short_name": "Marques SM",
+        "identifiers": [],
+        "affiliations": [
+          "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+          "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Kouba, Petr",
+        "short_name": "Kouba P",
+        "identifiers": [
+          "0000-0002-9979-4159"
+        ],
+        "affiliations": [
+          "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+          "Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University in Prague, Jugoslavskych partyzanu 1580/3, Dejvice, Praha 6 160 00, Czech Republic.",
+          "Faculty of Electrical Engineering, Czech Technical University in Prague, Technicka 2, Dejvice, Praha 6 166 27, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Legrand, Anthony",
+        "short_name": "Legrand A",
+        "identifiers": [],
+        "affiliations": [
+          "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+          "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Sedlar, Jiri",
+        "short_name": "Sedlar J",
+        "identifiers": [
+          "0000-0002-4704-3388"
+        ],
+        "affiliations": [
+          "Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University in Prague, Jugoslavskych partyzanu 1580/3, Dejvice, Praha 6 160 00, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Disson, Lucas",
+        "short_name": "Disson L",
+        "identifiers": [],
+        "affiliations": [
+          "Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University in Prague, Jugoslavskych partyzanu 1580/3, Dejvice, Praha 6 160 00, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Planas-Iglesias, Joan",
+        "short_name": "Planas-Iglesias J",
+        "identifiers": [
+          "0000-0002-6279-2483"
+        ],
+        "affiliations": [
+          "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+          "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Sanusi, Zainab",
+        "short_name": "Sanusi Z",
+        "identifiers": [],
+        "affiliations": [
+          "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+          "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Kunka, Antonin",
+        "short_name": "Kunka A",
+        "identifiers": [],
+        "affiliations": [
+          "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+          "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Damborsky, Jiri",
+        "short_name": "Damborsky J",
+        "identifiers": [
+          "0000-0002-7848-8216"
+        ],
+        "affiliations": [
+          "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+          "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Pajdla, Tomas",
+        "short_name": "Pajdla T",
+        "identifiers": [],
+        "affiliations": [
+          "Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University in Prague, Jugoslavskych partyzanu 1580/3, Dejvice, Praha 6 160 00, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Prokop, Zbynek",
+        "short_name": "Prokop Z",
+        "identifiers": [
+          "0000-0001-9358-4081"
+        ],
+        "affiliations": [
+          "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+          "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Mazurenko, Stanislav",
+        "short_name": "Mazurenko S",
+        "identifiers": [],
+        "affiliations": [
+          "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+          "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Sivic, Josef",
+        "short_name": "Sivic J",
+        "identifiers": [],
+        "affiliations": [
+          "Czech Institute of Informatics, Robotics and Cybernetics, Czech Technical University in Prague, Jugoslavskych partyzanu 1580/3, Dejvice, Praha 6 160 00, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Bednar, David",
+        "short_name": "Bednar D",
+        "identifiers": [
+          "0000-0002-6803-0340"
+        ],
+        "affiliations": [
+          "Loschmidt Laboratories, Department of Experimental Biology and RECETOX, Faculty of Science, Masaryk University, Kamenice 5, Brno 625 00, Czech Republic.",
+          "International Clinical Research Center, St. Anne's University Hospital Brno, Pekarska 53, Brno 656 91, Czech Republic."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2024 Jun 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/28 06:42",
+    "fetched_at": "2026-09-21 08:10:44"
+  },
+  "links": {
+    "cites": [
+      "42261871",
+      "41487138",
+      "39907966",
+      "39274833"
+    ],
+    "refs": [
+      "38217162",
+      "38195725",
+      "38081185",
+      "37655771",
+      "37280636",
+      "37104720",
+      "37027313",
+      "36969402",
+      "36920924",
+      "36402768",
+      "36073605",
+      "35652476",
+      "35649268",
+      "35568532",
+      "35298921",
+      "35177833",
+      "34879670",
+      "34534891",
+      "34044125",
+      "34040740",
+      "33904312",
+      "33826295",
+      "33148639",
+      "33050849",
+      "33004626",
+      "32787971",
+      "32733362",
+      "32656188",
+      "31624293",
+      "31476124",
+      "31367008",
+      "31234720",
+      "31176319",
+      "31046642",
+      "30979035",
+      "30760863",
+      "30645108",
+      "30633867",
+      "30471686",
+      "30410049",
+      "30240203",
+      "30076539",
+      "29960344",
+      "29295994",
+      "29199323",
+      "29063518",
+      "29019683",
+      "28983093",
+      "28834717",
+      "28435985",
+      "28162045",
+      "27819658",
+      "26949976",
+      "26933687",
+      "26605738",
+      "26583988",
+      "26574453",
+      "26498066",
+      "26195256",
+      "26040676",
+      "25979265",
+      "25835573",
+      "25833563",
+      "25719972",
+      "25654756",
+      "24320261",
+      "24038575",
+      "23703910",
+      "23193259",
+      "22961121",
+      "22889332",
+      "22553493",
+      "22286176",
+      "21939202",
+      "20872872",
+      "19175671",
+      "19125574",
+      "18498103",
+      "17955183",
+      "16675063",
+      "16444756",
+      "8177887",
+      "6667333"
+    ],
+    "similar": [
+      "38938816",
+      "30076539",
+      "28435985",
+      "33687193",
+      "25625937",
+      "34152264",
+      "34604842",
+      "23912807",
+      "36179370",
+      "38217162",
+      "38292476",
+      "23811057",
+      "38979147",
+      "30204435",
+      "38978607",
+      "37241789",
+      "33708792",
+      "37390790",
+      "28003858",
+      "32732434",
+      "17397862",
+      "34912851",
+      "21056574",
+      "31046642",
+      "31195746",
+      "37040092",
+      "32145946",
+      "29200307",
+      "29571707",
+      "38781245",
+      "30811210",
+      "31771980",
+      "38370653",
+      "31793290",
+      "32786705",
+      "33289734",
+      "37246935",
+      "26583253",
+      "29490247",
+      "23561531",
+      "34534891",
+      "37108059",
+      "34969380",
+      "30840442",
+      "38018910",
+      "30708285",
+      "35944098",
+      "35129612",
+      "33904312",
+      "36602150",
+      "36934808",
+      "37280636",
+      "31362509",
+      "33453267",
+      "36506131",
+      "31521231",
+      "32419254",
+      "30250773",
+      "22674434",
+      "29364151",
+      "35923464",
+      "38053335",
+      "23662730",
+      "28162045",
+      "34680137",
+      "32371882",
+      "29235155",
+      "33725442",
+      "37338049",
+      "31917926",
+      "20946608",
+      "30979035",
+      "31162715",
+      "34639140",
+      "26052838",
+      "32840111",
+      "30821624",
+      "37905972",
+      "23883055",
+      "30381893",
+      "29963623",
+      "33148639",
+      "25700145",
+      "26807783",
+      "32559370",
+      "28474890",
+      "33581430",
+      "29544285",
+      "24735871",
+      "30876367",
+      "33030907",
+      "37251196",
+      "37027313",
+      "26562747",
+      "37144719",
+      "27588692",
+      "25897952"
+    ],
+    "review": [
+      "38938816",
+      "25625937",
+      "34604842",
+      "37241789",
+      "28003858",
+      "31793290",
+      "30840442",
+      "35129612",
+      "36506131",
+      "31521231",
+      "29364151",
+      "30979035",
+      "34639140"
+    ],
+    "pmc": [
+      "11200249"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38938816/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38938816",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.4c00182",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.01.715983",
+  "title": "AI-guided design and <i>ex vivo</i> validation of nanobodies targeting aggregation motifs of intrinsically disordered protein tau",
+  "authors": "Binita Rajbanshi; Anuj Guruacharya",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-05",
+  "window": {
+    "start": "2026-03-30",
+    "end": "2026-04-05"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合生物物理建模与AI引导设计靶向tau蛋白VQIVYK聚集基序的纳米抗体，并通过实验验证，直接涉及IDP互作机制建模与AI方法，高度契合本课题。",
+  "abstract": "Intrinsically disordered proteins (IDPs) represent major yet challenging therapeutic targets in neurodegenerative disease due to their conformational heterogeneity and aggregation-prone behavior. Tau protein is a prototypical IDP that forms pathological aggregates in Alzheimer’s disease and related tauopathies. Despite extensive clinical efforts, tau-directed monoclonal antibodies have demonstrated limited efficacy. Concurrently, single-domain antibodies (nanobodies) have been gaining importance because of their small size and membrane penetrating capabilities. New design paradigms are therefore required for nanobodies to enable precise targeting of disease-relevant conformations. Here, we describe a biophysical modelling and AI-guided nanobody discovery targeting the VQIVYK motif of tau, which constitutes the structural core of neurofibrillary tangles in Alzheimer’s Disease. Biophysical modelling-based target analysis identified low-energy conformational states of VQIVYK. These conformational insights were used to guide AI-driven nanobody design of CDR3 loops. Starting from a nanobody scaffold, we generated 145 candidate nanobodies through systematic backbone sampling and neural network-guided sequence design, followed by multi-dimensional computational prioritization. Two candidates demonstrated robust binding to synthetic full tau protein in ELISA binding assays, achieving binding indices of 148.9% and 140%, relative to reference controls. Notably, one candidate also exhibited strong reactivity in post-mortem Alzheimer’s disease human brain tissue, with a binding index of 236.1%, exceeding that of the positive control (222.9%). Structural analysis indicates that our nanobodies’ engineered CDR3 engages VQIVYK through optimized aromatic and hydrophobic interactions. Together, these findings establish a proof-of-concept for biophysics-guided, AI-guided nanobody engineering against IDPs and identifies them as a promising lead for tau-targeted single domain antibody development.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 代表神经退行性疾病中主要但具有挑战性的治疗靶点，这归因于其构象异质性和易于聚集的行为。Tau蛋白是一种典型的IDP，在阿尔茨海默病及相关tau蛋白病中形成病理性聚集体。尽管临床研究投入巨大，靶向tau的单克隆抗体显示出有限的疗效。与此同时，单域抗体（纳米抗体）因其小尺寸和膜穿透能力而日益受到重视。因此，需要新的设计范式来实现纳米抗体对疾病相关构象的精确靶向。在此，我们描述了一种生物物理建模和AI引导的纳米抗体发现方法，靶向tau的VQIVYK基序，该基序构成阿尔茨海默病神经原纤维缠结的结构核心。基于生物物理建模的靶标分析识别出VQIVYK的低能构象状态。这些构象见解被用于指导AI驱动的CDR3环纳米抗体设计。从纳米抗体支架出发，我们通过系统性骨架采样和神经网络引导的序列设计生成了145个候选纳米抗体，随后进行多维计算优先级排序。两个候选在ELISA结合实验中显示出对合成全长tau蛋白的稳健结合，相对于参考对照，结合指数分别达到148.9%和140%。值得注意的是，其中一个候选在阿尔茨海默病死后人脑组织中还表现出强反应性，结合指数为236.1%，超过阳性对照（222.9%）。结构分析表明，我们纳米抗体的工程化CDR3通过优化的芳香族和疏水相互作用与VQIVYK结合。综合来看，这些发现为生物物理引导、AI引导的针对IDPs的纳米抗体工程建立了概念验证，并将其确定为tau靶向单域抗体开发的有前景的先导候选。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.01.715983",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.01.715983",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.01.715983/index.html"
+}

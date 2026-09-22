@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40574787",
+  "title": "Adsorption of silica oligomers on biomolecules: Structural and dynamical insights for atom probe tomography via classic molecular dynamics simulations.",
+  "authors": "Novi Inverardi, Giovanni; Petrolli, Lorenzo; Carnovale, Francesco; Bartocci, Alessio; Taioli, Simone; Lattanzi, Gianluca",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2025-06-27",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用经典分子动力学模拟研究二氧化硅低聚物在生物分子（含无序蛋白域）表面的吸附动力学，虽对象涉及IDR且用MD方法，但互作轴聚焦于材料-生物分子界面而非蛋白-蛋白互作，机制建模思路对IDP-表面互作有迁移启发。",
+  "abstract": "Atom Probe Tomography (APT) is a spatially-resolved, mass-spectrometric technique, mostly employed in the characterization of metals and alloys. Recently, a novel APT-based protocol has been proposed to resolve the three-dimensional structures of biomolecules, involving the encapsulation of the substrate within an amorphous silica matrix followed by its ablation employing short laser pulses. A critical aspect of this technique lies in the interaction between the silica matrix and the biomolecular substrate, which must keep the native framework of the biomolecule while minimizing the mechanical stresses. Building on earlier works, here we characterize the adsorption of silica monomers and short oligomers onto biomolecular surfaces via classical Molecular Dynamics (MD) simulations. We observe significant differences in the behavior of the diverse silica species, with the dimers and trimers showing a higher affinity for the substrates. Additionally, unfolded protein domains exhibit an enhanced adsorption efficacy, likely on account of their inherent flexibility and availability of hydrogen-bonding moieties: This apparent affinity dampens their local fluctuations upon interaction with silica, significantly affecting their ensemble dynamics. These findings suggest APT as a suitable technique for the structural characterization of intrinsically disordered regions and the metastable conformational landscapes thereof.",
+  "abstract_zh": "原子探针断层扫描（Atom Probe Tomography, APT）是一种空间分辨的质谱技术，主要用于金属和合金的表征。近期，一种基于APT的新方案被提出，用于解析生物分子的三维结构，该方案涉及将底物封装在无定形二氧化硅基质中，随后通过短激光脉冲进行烧蚀。该技术的一个关键方面在于二氧化硅基质与生物分子底物之间的相互作用，这必须在保持生物分子天然框架的同时，最小化机械应力。基于先前的工作，本研究通过经典分子动力学（Molecular Dynamics, MD）模拟，表征了二氧化硅单体和短低聚物在生物分子表面的吸附行为。我们观察到不同二氧化硅物种在行为上的显著差异，其中二聚体和三聚体对底物表现出更高的亲和力。此外，未折叠的蛋白质结构域展现出增强的吸附效率，这可能是由于其固有的柔性和氢键基团的可用性：这种明显的亲和力抑制了它们与二氧化硅相互作用时的局部波动，显著影响其整体动力学。这些发现表明，APT是结构表征内在无序区域及其亚稳态构象景观的合适技术。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40574787/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40574787/",
+  "paper_page_path": "papers/pubmed/40574787/index.html"
+}

@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "41388753",
+    "doi": "10.1111/febs.70358",
+    "title": "Functional divergence of protein kinase A regulatory subunit Ibeta variants: the importance of N3A motifs in PKA regulation."
+  },
+  "content": {
+    "abstract": "Protein kinase A (PKA) regulatory subunit Ibeta (RIbeta) plays a crucial role in modulating PKA activity through its interaction with the catalytic (C) subunit. Recent studies have identified two variants of RIbeta that have not been distinguished until now. The variants differ in a single residue at Position 268 (alanine vs arginine), located within one of two structural motifs known as N3A motifs. Our study reveals distinct biochemical functions of the variants, highlighting the role of the second N3A motif at the N terminus of the cyclic nucleotide binding domain B (CNB-B). We demonstrate an enhanced binding affinity of the A268 variant for cAMP and an altered interaction with the C-subunit. Substitution in the N3A(B) motif also affects the cooperativity between the cAMP binding sites as well as kinase activity in the absence of cAMP. In HEK293 cells, we demonstrated a reduced cAMP-induced dissociation of RIbeta R268 PKA holoenzymes in a time-dependent manner. Gaussian molecular dynamics simulations revealed that the CNB-A domain is more flexible in A268 while the opposite is true for the CNB-B domain, which is more dynamic in the R268 protein. This study underscores the importance of distinguishing between the two RIbeta variants, as they exhibit distinct biochemical properties that alter PKA regulation. Comparison of cellular localization showed that both variants form small droplets in the cytoplasm that colocalize with the C-subunit in the presence of cAMP. These findings suggest that both RIbeta variants undergo liquid-liquid phase separation, similar to RIalpha.",
+    "keywords": [
+      "Surface plasmon resonance spectroscopy",
+      "bioluminescence resonance energy transfer (BRET)",
+      "cAMP signaling",
+      "molecular dynamics",
+      "protein kinase",
+      "protein kinase A (PKA)",
+      "regulatory subunit Ibeta (RIbeta)"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "HEK293 Cells",
+      "Cyclic AMP/metabolism",
+      "*Cyclic AMP-Dependent Protein Kinase RIIbeta Subunit/genetics/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "Amino Acid Motifs",
+      "*Cyclic AMP-Dependent Protein Kinases/metabolism/genetics/chemistry",
+      "Binding Sites",
+      "Protein Binding",
+      "Catalytic Domain"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wallbott, Maximilian",
+        "Weng, Jui-Hung",
+        "Pane, Valeria",
+        "Ma, Yuliang",
+        "Wu, Jian",
+        "Taylor, Susan S",
+        "Herberg, Friedrich W"
+      ],
+      "short_names": [
+        "Wallbott M",
+        "Weng JH",
+        "Pane V",
+        "Ma Y",
+        "Wu J",
+        "Taylor SS",
+        "Herberg FW"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7946-2579",
+        "ORCID: 0000-0002-0432-3515",
+        "ORCID: 0009-0005-2283-0819",
+        "ORCID: 0000-0002-8031-9462",
+        "ORCID: 0000-0002-7702-6108",
+        "ORCID: 0000-0001-7117-7653"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Institute for Biology, University of Kassel, Germany.",
+        "Department of Pharmacology, University of California, CA, USA.",
+        "Department of Biochemistry, Institute for Biology, University of Kassel, Germany.",
+        "Department of Biochemistry and Molecular Biophysics, University of California, CA, USA.",
+        "Department of Pharmacology, University of California, CA, USA.",
+        "Department of Pharmacology, University of California, CA, USA.",
+        "Department of Biochemistry and Molecular Biophysics, University of California, CA, USA.",
+        "Department of Biochemistry, Institute for Biology, University of Kassel, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wallbott, Maximilian",
+        "short_name": "Wallbott M",
+        "identifiers": [
+          "0000-0002-7946-2579"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Institute for Biology, University of Kassel, Germany."
+        ]
+      },
+      {
+        "full_name": "Weng, Jui-Hung",
+        "short_name": "Weng JH",
+        "identifiers": [
+          "0000-0002-0432-3515"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of California, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Pane, Valeria",
+        "short_name": "Pane V",
+        "identifiers": [
+          "0009-0005-2283-0819"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Institute for Biology, University of Kassel, Germany."
+        ]
+      },
+      {
+        "full_name": "Ma, Yuliang",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, University of California, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Wu, Jian",
+        "short_name": "Wu J",
+        "identifiers": [
+          "0000-0002-8031-9462"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of California, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Taylor, Susan S",
+        "short_name": "Taylor SS",
+        "identifiers": [
+          "0000-0002-7702-6108"
+        ],
+        "affiliations": [
+          "Department of Pharmacology, University of California, CA, USA.",
+          "Department of Biochemistry and Molecular Biophysics, University of California, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Herberg, Friedrich W",
+        "short_name": "Herberg FW",
+        "identifiers": [
+          "0000-0001-7117-7653"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Institute for Biology, University of Kassel, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The FEBS journal"
+    ],
+    "journal_abbrev": [
+      "FEBS J"
+    ],
+    "pub_date": "2026 Apr",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/13 06:29",
+    "fetched_at": "2026-09-17 22:50:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40705714",
+      "40512625",
+      "40244081",
+      "38537638",
+      "38097109",
+      "34867193",
+      "33833410",
+      "33058759",
+      "32846158",
+      "32596469",
+      "31363049",
+      "29669941",
+      "29615473",
+      "28893983",
+      "28661131",
+      "28642438",
+      "28079521",
+      "27825928",
+      "27791125",
+      "26300708",
+      "26200257",
+      "24722252",
+      "24316401",
+      "22797896",
+      "20819953",
+      "18404204",
+      "16240095",
+      "15267980",
+      "15134437",
+      "12373096",
+      "10505637",
+      "10026146",
+      "9570795",
+      "7925653",
+      "7568030",
+      "6295440",
+      "6190178",
+      "3426618",
+      "3375237",
+      "3037538",
+      "2851102",
+      "2553718",
+      "2540040",
+      "2427518",
+      "2174040",
+      "1708242"
+    ],
+    "similar": [
+      "41388753",
+      "41108566",
+      "33370777",
+      "31363049",
+      "25112875",
+      "20819953",
+      "40244081",
+      "12634056",
+      "25477193",
+      "26618408",
+      "17596845",
+      "40512625",
+      "14967031",
+      "14625280",
+      "8627334",
+      "29378851",
+      "17889648",
+      "28583991",
+      "12896975",
+      "15157095",
+      "27825928",
+      "17658893",
+      "9048592",
+      "20923972",
+      "31484930",
+      "15236976",
+      "25097019",
+      "38910447",
+      "9434747",
+      "10764601",
+      "9618473",
+      "27791125",
+      "11342137",
+      "23362281",
+      "15878851",
+      "15046986",
+      "10567247",
+      "30038016",
+      "26278174",
+      "8119290",
+      "16524697",
+      "28893983",
+      "16109722",
+      "20512974",
+      "16728394",
+      "9756917",
+      "11068866",
+      "15134437",
+      "12930997",
+      "16407073",
+      "32722762",
+      "20048145",
+      "22323819",
+      "41380531",
+      "16214430",
+      "8559283",
+      "12741833",
+      "40241376",
+      "8910352",
+      "25229150",
+      "30530493",
+      "29367252",
+      "22797896",
+      "23978166",
+      "23615913",
+      "38913408",
+      "18625701",
+      "17932298",
+      "24122441",
+      "17996741",
+      "9030527",
+      "8608131",
+      "40609788",
+      "10999726",
+      "9731748",
+      "26405036",
+      "15240549",
+      "12373096",
+      "7925427",
+      "29111666",
+      "28661131",
+      "11749725",
+      "12119270",
+      "38537638",
+      "31671183",
+      "10026146",
+      "31615893",
+      "27885524",
+      "16322564",
+      "17942118",
+      "7925653",
+      "9408263",
+      "11853881",
+      "11320118",
+      "23806656",
+      "20197278",
+      "10871301",
+      "10993882",
+      "11923596",
+      "9776758"
+    ],
+    "review": [
+      "41388753",
+      "16214430",
+      "17996741",
+      "12119270",
+      "31671183",
+      "27885524"
+    ],
+    "pmc": [
+      "13080237"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41388753.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41388753/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1111/febs.70358",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a sequence-independent bioinformatic pipeline to identify disordered linker proteins in green algae, identify a linker from *Chlorella*, show it binds a conserved site on the Rubisco large subunit, demonstrate that this linker phase separates *Chlamydomonas* Rubisco and supports formation of a functional pyrenoid in *Chlamydomonas* despite ~800 million years of divergence, and show cross-species reactivity with plant Rubiscos in vitro and in planta, with implications for pyrenoid engineering to increase crop yields.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, statistical details, or supplementary data
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods descriptions, statistical analyses, raw data, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding and engineering pyrenoid formation, with broad implications for carbon fixation and crop improvement. The central claims are ambitious and, if fully supported, would be of high interest. However, the abstract alone provides insufficient evidence to evaluate the technical soundness, statistical rigor, or reproducibility of the results. The claim of cross-species reactivity spanning ~800 million years of evolution is striking but requires robust experimental validation that cannot be assessed from the supplied material. The manuscript may merit consideration after full review of the complete evidence base.
+- **Who would be interested in the results, and why** Plant biologists and crop scientists interested in improving photosynthetic efficiency and yield; algal biologists studying carbon concentrating mechanisms and pyrenoid biology; biochemists and structural biologists working on Rubisco and phase separation; synthetic biologists exploring condensate engineering; researchers in climate and sustainability science concerned with global carbon fixation.
+- **Major strengths** The work addresses a fundamental and globally important biological process, namely CO2 fixation and pyrenoid function. The development of a sequence-independent pipeline is a methodological innovation that could overcome the low sequence conservation of linker proteins. The demonstration of cross-species reactivity, including in planta, suggests practical potential for engineering crops. The evolutionary跨度 of the cross-species complementation is conceptually striking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the *Chlorella* linker binds a conserved site on the Rubisco large subunit and that this interaction drives phase separation of *Chlamydomonas* Rubisco.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that the linker binds a conserved site and phase separates Rubisco, but no experimental details are given. It is unclear whether binding affinity, stoichiometry, specificity, or the role of the conserved site were directly tested, for example through mutagenesis, competition assays, or structural studies. The claim of a conserved binding site is central to the promiscuous mechanism proposed, yet the evidence base is not visible.
+  - **Why it matters** If the binding site is not truly conserved or if the interaction is not specific, the proposed mechanism of promiscuous phase separation would be undermined. The cross-species reactivity claim depends on this specificity. Without evidence, the mechanistic basis of the observed phenomena remains unverified.
+  - **Resolution test** Provide binding assays (for example, isothermal titration calorimetry, surface plasmon resonance, or pull-downs) with quantitative affinity data, mutagenesis of the proposed conserved site, and demonstration that disruption of this site abolishes phase separation. Structural or mutational evidence should confirm the conservation claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and statistical rigor
+  - **Claim pointer** The authors claim that the *Chlorella* linker can support the formation of a functional pyrenoid in *Chlamydomonas* and that it drives condensation of some native plant Rubiscos in vitro and in planta.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports functional complementation and cross-species condensation but provides no quantitative data, such as effect sizes, variability, number of replicates, or statistical tests. The term "functional" is not defined, and it is unclear what assays were used to assess pyrenoid function (for example, growth rates, carbon fixation rates, or localization). The phrase "some native plant Rubiscos" suggests partial success, but the extent and consistency of this effect are not described.
+  - **Why it matters** Without statistical rigor and clear functional definitions, the claims of cross-species reactivity and in planta activity cannot be evaluated. Overinterpretation of preliminary or variable results could mislead the field. The potential for crop engineering depends on robust and reproducible effects.
+  - **Resolution test** Provide detailed methods with replicate numbers, statistical analyses, and clear functional readouts. Define what constitutes a functional pyrenoid and show quantitative comparisons to controls. For in planta experiments, include independent transformation events and phenotypic data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that their sequence-independent bioinformatic pipeline identified linker proteins in green algae, including the *Chlorella* linker.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The pipeline is described as sequence-independent, but no details are provided on its design, validation, or performance. It is unclear how the pipeline avoids sequence conservation biases, what features it uses (for example, disorder predictions, charge patterning, or structural motifs), and how false positives or negatives were assessed. The identification of only one linker from *Chlorella* is mentioned, but the pipeline's broader applicability is not demonstrated.
+  - **Why it matters** The methodological novelty is a key strength, but it cannot be assessed without details. If the pipeline is not robust or generalizable, the claim of identifying linkers across green algae is unsupported. The field would benefit from a reproducible and validated tool.
+  - **Resolution test** Provide a full description of the pipeline, including input features, training or validation datasets, benchmarking against known linkers, and a demonstration of its application to multiple algal species. Include code availability and performance metrics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "a promiscuous mechanism" is used in the title but not defined in the abstract. The term could be interpreted in multiple ways, such as broad substrate specificity or lack of sequence conservation.
+  - **Required correction** Define "promiscuous" in the context of the mechanism, for example, by stating that the linker recognizes a conserved structural feature despite sequence divergence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that pyrenoids complete up to one-third of global CO2 fixation, but this statistic is presented without citation or context. It is unclear whether this refers to marine or terrestrial contributions.
+  - **Required correction** Provide a citation and clarify the scope of the statistic to avoid overgeneralization.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Claim of crop yield modeling
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that pyrenoid engineering is "modelled to increase crop yields," but no modeling details or references are given. The magnitude and conditions of the modeled increase are unspecified.
+  - **Required correction** Cite the modeling study and briefly state the predicted yield increase and assumptions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative data, statistical analyses, and methodological details, making the central claims unverifiable from the supplied material.
+- **Assessment against Nature-style criteria** Originality: The concept of a sequence-independent mechanism for pyrenoid formation and cross-species complementation is highly original and could shift paradigms in the field. Scientific importance: The work addresses a fundamental process in global carbon fixation and has direct implications for crop improvement, making it of high importance. Interdisciplinary readership: The findings would appeal to plant biologists, biochemists, structural biologists, and synthetic biologists, but the abstract does not currently make the work accessible to nonspecialists due to undefined terms and missing context. Technical soundness: Cannot be assessed from the abstract alone; the lack of methods and data is a major limitation. Readability for nonspecialists: The abstract is concise but assumes familiarity with pyrenoid biology and phase separation; key terms and the significance of the evolutionary跨度 are not explained.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are intriguing and potentially significant, but the abstract alone does not provide sufficient technical detail or quantitative support. A full manuscript with complete methods, data, and statistical analyses would be required to assess whether the case is established. I am supportive of the scientific direction but cannot endorse the conclusions based on the supplied material.
+
+## Risk / unsupported claims
+- The claim that the *Chlorella* linker binds a conserved site on the Rubisco large subunit is unsupported without binding data or structural evidence.
+- The claim that the *Chlorella* linker supports a functional pyrenoid in *Chlamydomonas* is unsupported without functional assays and quantitative comparisons.
+- The claim of cross-species reactivity with plant Rubiscos in vitro and in planta is unsupported without experimental details and statistical rigor.
+- The claim that the bioinformatic pipeline is sequence-independent and broadly applicable is unsupported without methodological description and validation.
+- The statistic that pyrenoids complete up to one-third of global CO2 fixation is unverifiable without citation.
+- The modeled increase in crop yields is unverifiable without citation and modeling details.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41965924",
+  "title": "Origin of the ionic-strength dependent reentrant behavior in the liquid-liquid phase separation of uncharged intrinsically disordered proteins.",
+  "authors": "Mondal, Sayantan; Shakhnovich, Eugene",
+  "journal": "Communications chemistry",
+  "published_date": "2026-04-12",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过解析理论与粗粒化模拟揭示不带电IDP（如FUS）在盐浓度变化下LLPS重入行为的物理机制，聚焦IDP相分离中的互作机制建模，对象、互作与方法三者齐备且具机制深度。",
+  "abstract": "The effect of salt on coacervation of synthetic or biological polyelectrolytes and polyampholytes is well-studied. However, recent experiments showed that largely uncharged IDPs (like FUS) also undergo LLPS at physiological salt concentrations such as [C(ion)]~0.15 M, dissolve at higher salt concentration, and again phase separate at even higher salt concentrations such as [C(ion)]~3 M. Here we use analytical theory and explicit solvent coarse-grained simulations to reveal the mechanism of these transitions, which is significantly different than that of highly charged IDPs with net charge neutrality. At low [C(ion)], the ionic solution acts as a highly correlated medium conferring long-range effective attractive interactions between spatially distant monomers. In this regime, the ion concentration inside the condensate is higher than in the bulk solution. As [C(ion)] increases, the correlation length in the ionic plasma decreases, and the condensate dissolves. Second LLPS at high [C(ion)] is due to the entropy-driven crowding, and the ion concentration inside the condensate is lower than in the bulk. Our study unravels a general physical mechanism of salt-dependent reentrant behavior in LLPS in uncharged IDPs.",
+  "abstract_zh": "盐对合成或生物聚电解质及聚两性电解质凝聚作用的影响已被广泛研究。然而，近期实验表明， largely 不带电的内在无序蛋白（IDPs）（如FUS）在生理盐浓度（如[C(ion)]~0.15 M）下也会发生液-液相分离（LLPS），在更高盐浓度下溶解，并在更高盐浓度（如[C(ion)]~3 M）下再次发生相分离。在此，我们利用解析理论和显式溶剂粗粒化模拟来揭示这些转变的机制，该机制与净电荷中性高电荷IDPs的机制显著不同。在低[C(ion)]下，离子溶液表现为高度关联介质，赋予空间上相距较远的单体之间长程有效吸引相互作用。在此区域，凝聚体内部的离子浓度高于本体溶液。随着[C(ion)]增加，离子等离子体中的关联长度减小，凝聚体溶解。高[C(ion)]下的第二次LLPS归因于熵驱动的拥挤效应，且凝聚体内部的离子浓度低于本体。我们的研究揭示了不带电IDPs中盐依赖性重入行为的通用物理机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41965924/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41965924/",
+  "paper_page_path": "papers/pubmed/41965924/index.html"
+}

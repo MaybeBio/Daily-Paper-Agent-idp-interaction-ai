@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "40128403",
+    "doi": "10.1007/s00792-025-01384-4",
+    "title": "Adapting to salinity: structural dynamics of the DNA polymerase III beta subunit in Salinibacter ruber."
+  },
+  "content": {
+    "abstract": "Halophilic bacteria thrive in high-salt environments through structural modifications in their proteins. One such adaptation is seen in the DNA polymerase III beta subunit, which acts as a \"sliding clamp\" for the DNA polymerase III, the replication machinery's key enzyme. Like other halophilic proteins, DNA Pol III beta of Salinibacter ruber displays an increased concentration of acidic amino acids, intrinsically disordered regions, and a negatively charged surface. A detailed study using interaction and molecular dynamics simulations analyses unveils the structural intricacies of S. ruber's beta subunit dimer at the molecular level. The elliptical shape of the dimer facilitates its efficient loading onto DNA in salty environments. Modifications in the dimer enable the DNA loading-unloading mechanism by stabilizing the dimeric conformation at high salt concentrations. Additionally, the study sheds light on the molecular-level conformational changes in the interfaces of the Pol III beta subunit.",
+    "keywords": [
+      "Salinibacter ruber",
+      "DNA Polymerase III beta",
+      "Halophiles",
+      "Replication",
+      "Salt-dependent adaptations"
+    ],
+    "mesh_terms": [
+      "*DNA Polymerase III/chemistry/metabolism/genetics",
+      "*Bacterial Proteins/chemistry/metabolism/genetics",
+      "*Bacteroidetes/enzymology",
+      "Molecular Dynamics Simulation",
+      "*Salinity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sengupta, Aveepsa",
+        "Das, Dhrubajyoti",
+        "Debnath, Anisha",
+        "Akhter, Yusuf",
+        "Kumar, Ashutosh"
+      ],
+      "short_names": [
+        "Sengupta A",
+        "Das D",
+        "Debnath A",
+        "Akhter Y",
+        "Kumar A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9564-9790"
+      ],
+      "affiliations": [
+        "Microbial Adaptation Laboratory, Department of Microbiology, Tripura University (A Central University), Agartala, Tripura, 799022, India.",
+        "Microbial Adaptation Laboratory, Department of Microbiology, Tripura University (A Central University), Agartala, Tripura, 799022, India.",
+        "Microbial Adaptation Laboratory, Department of Microbiology, Tripura University (A Central University), Agartala, Tripura, 799022, India.",
+        "Department of Biotechnology, Babasaheb Bhimrao Ambedkar University, Vidya Vihar, Raebareli Road, Lucknow, Uttar Pradesh, 226025, India. yusuf@daad-alumni.de.",
+        "Microbial Adaptation Laboratory, Department of Microbiology, Tripura University (A Central University), Agartala, Tripura, 799022, India. ashutoshkumar@tripurauniv.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sengupta, Aveepsa",
+        "short_name": "Sengupta A",
+        "identifiers": [],
+        "affiliations": [
+          "Microbial Adaptation Laboratory, Department of Microbiology, Tripura University (A Central University), Agartala, Tripura, 799022, India."
+        ]
+      },
+      {
+        "full_name": "Das, Dhrubajyoti",
+        "short_name": "Das D",
+        "identifiers": [],
+        "affiliations": [
+          "Microbial Adaptation Laboratory, Department of Microbiology, Tripura University (A Central University), Agartala, Tripura, 799022, India."
+        ]
+      },
+      {
+        "full_name": "Debnath, Anisha",
+        "short_name": "Debnath A",
+        "identifiers": [],
+        "affiliations": [
+          "Microbial Adaptation Laboratory, Department of Microbiology, Tripura University (A Central University), Agartala, Tripura, 799022, India."
+        ]
+      },
+      {
+        "full_name": "Akhter, Yusuf",
+        "short_name": "Akhter Y",
+        "identifiers": [
+          "0000-0001-9564-9790"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Babasaheb Bhimrao Ambedkar University, Vidya Vihar, Raebareli Road, Lucknow, Uttar Pradesh, 226025, India. yusuf@daad-alumni.de."
+        ]
+      },
+      {
+        "full_name": "Kumar, Ashutosh",
+        "short_name": "Kumar A",
+        "identifiers": [],
+        "affiliations": [
+          "Microbial Adaptation Laboratory, Department of Microbiology, Tripura University (A Central University), Agartala, Tripura, 799022, India. ashutoshkumar@tripurauniv.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Extremophiles : life under extreme conditions"
+    ],
+    "journal_abbrev": [
+      "Extremophiles"
+    ],
+    "pub_date": "2025 Mar 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/25 06:25",
+    "fetched_at": "2026-09-21 17:08:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37481762",
+      "36350672",
+      "34791371",
+      "32269383",
+      "32237272",
+      "29860432",
+      "28836357",
+      "27503228",
+      "27241927",
+      "24600446",
+      "24090409",
+      "23373661",
+      "19361435",
+      "18393866",
+      "18191219",
+      "17681537",
+      "15264254",
+      "12519754",
+      "12486458",
+      "12072957",
+      "11931160",
+      "9394422",
+      "8744570",
+      "1349852"
+    ],
+    "similar": [
+      "40128403",
+      "37481762",
+      "25886944",
+      "19279187",
+      "28834716",
+      "11525728",
+      "11279099",
+      "20888835",
+      "18691598",
+      "15466025",
+      "34543108",
+      "21675919",
+      "21856978",
+      "23549287",
+      "28973453",
+      "16959568",
+      "10924523",
+      "38814467",
+      "31349986",
+      "21219854",
+      "14633999",
+      "12888511",
+      "39639052",
+      "21855395",
+      "8702820",
+      "15177045",
+      "20188667",
+      "22545130",
+      "21499845",
+      "7768939",
+      "8940047",
+      "11572866",
+      "34614154",
+      "20675375",
+      "34908470",
+      "7768938",
+      "14610068",
+      "7768937",
+      "11859073",
+      "23373661",
+      "25987558",
+      "12466528",
+      "9733751",
+      "19696739",
+      "39798872",
+      "35285726",
+      "34543109",
+      "18308729",
+      "13129625",
+      "11029431",
+      "29429564",
+      "15752198",
+      "30345999",
+      "2040637",
+      "21657794",
+      "27056333",
+      "11823461",
+      "26384423",
+      "40107857",
+      "21955458",
+      "9826661",
+      "7768940",
+      "9733750",
+      "14592985",
+      "16959569",
+      "12072957",
+      "26982350",
+      "27148748",
+      "10753961",
+      "8702558",
+      "11573000",
+      "12832762",
+      "9822671",
+      "3283128",
+      "12028381",
+      "26657641",
+      "17531796",
+      "11809766",
+      "22546509",
+      "33608117",
+      "27651172",
+      "24896652",
+      "30929144",
+      "16403212",
+      "22544274",
+      "20223211",
+      "14507374",
+      "11439188",
+      "19759003",
+      "20813592",
+      "15194233",
+      "28168278",
+      "17210572",
+      "39214305",
+      "8861968",
+      "3543011",
+      "18412960",
+      "39832801",
+      "28071730",
+      "10748208"
+    ],
+    "review": [
+      "40128403",
+      "21675919",
+      "38814467",
+      "21855395",
+      "23373661"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00792-025-01384-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

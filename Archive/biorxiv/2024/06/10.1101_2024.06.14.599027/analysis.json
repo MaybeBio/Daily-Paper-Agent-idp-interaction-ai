@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.14.599027",
+  "title": "Heterogenous organization in condensates of multiple transcription factors in embryonic stem cells",
+  "authors": "Mizutani A; Tan C; Sugita Y; Takada S",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-17",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究用残基分辨率分子动力学模拟解析胚胎干细胞中四个转录因子（含IDR）混合凝聚体的异质组织与PPI机制，揭示Klf4为支架、Oct4为客户的互作网络，直接契合无序蛋白介导的相分离PPI机制建模。",
+  "abstract": "Biomolecular condensates formed via liquid-liquid phase separation are ubiquitous in cells, especially in the nucleus. While condensates containing one or two kinds of biomolecules have been relatively well characterized, those with more heterogenous biomolecular components and interactions between biomolecules inside are largely unknown. This study used residue-resolution molecular dynamics simulations to investigate heterogeneous protein assemblies that include four master transcription factors in mammalian embryonic stem cells: Oct4, Sox2, Klf4, and Nanog. Simulations of the mixture systems showed highly heterogeneous and dynamic behaviors; the condensates mainly contained Sox2, Klf4, and Nanog, while Oct4 was dissolved into the dilute phase. Condensates consisted of loosely interacting clusters in which Klf4 was the most abundant in the cores. We suggest that Klf4 serves as a scaffold of the condensate where Sox2 and Nanog are bound to stabilize the condensate, whereas Oct4 is moderately recruited to the condensate, serving as a client mainly via its interaction with Sox2. <h4>Biological significance</h4> In eukaryotes, transcription is known to be regulated by many regulatory factors such as transcription factors, co-activators, and RNA polymerases, but precise molecular mechanisms of regulation remain obscured. A recently proposed model suggests that transcription-related proteins condense via liquid-liquid phase separation (LLPS) using their intrinsically disordered regions, which serves to control transcription. Master transcription factors in mammalian embryonic stem cells have been a model system. It was revealed that several master transcription factors exhibit LLPS by themselves, but dynamics and molecular structure of these proteins in their mixture have not been well addressed. In this study, we study molecular structures of condensates in a mixture of four master transcription factors, Oct4, Sox2, Klf4, and Nanog, via molecular dynamics simulation. We found that the three transcription factors Sox2, Klf4, and Nanog form mixed condensates, while Oct4 was largely dissolved. Klf4 mainly served as a scaffold of the condensate. The three proteins formed micelle-like structures as was recently found in the Nanog condensate. The condensates weakly recruited Oct4. Formation of heterogeneous condensates may provide fertile local environments in cells.",
+  "abstract_zh": "通过液-液相分离形成的生物分子凝聚体在细胞中普遍存在，尤其在细胞核内。尽管含有一种或两种生物分子的凝聚体已被相对充分地表征，但那些具有更异质性生物分子组分及内部生物分子间相互作用的凝聚体在很大程度上仍属未知。本研究采用残基分辨率分子动力学模拟，探究了哺乳动物胚胎干细胞中四种主转录因子——Oct4、Sox2、Klf4和Nanog——所构成的异质性蛋白质组装体。混合体系的模拟显示出高度异质性和动态行为；凝聚体主要包含Sox2、Klf4和Nanog，而Oct4则溶解于稀相中。凝聚体由松散相互作用的簇组成，其中Klf4在核心中最为丰富。我们提出，Klf4作为凝聚体的支架，Sox2和Nanog结合其上以稳定凝聚体，而Oct4则被适度招募至凝聚体，主要通过其与Sox2的相互作用作为客户蛋白发挥作用。<h4>生物学意义</h4>在真核生物中，转录被认为受多种调控因子（如转录因子、共激活因子和RNA聚合酶）的调控，但调控的精确分子机制仍不明确。最近提出的模型表明，转录相关蛋白通过其内在无序区域发生液-液相分离（LLPS），从而凝聚，这有助于控制转录。哺乳动物胚胎干细胞中的主转录因子已成为一个模型系统。已有研究揭示，几种主转录因子自身表现出LLPS，但这些蛋白质在混合物中的动力学和分子结构尚未得到充分探讨。在本研究中，我们通过分子动力学模拟，研究了四种主转录因子Oct4、Sox2、Klf4和Nanog混合物中凝聚体的分子结构。我们发现，三种转录因子Sox2、Klf4和Nanog形成混合凝聚体，而Oct4则大部分溶解。Klf4主要作为凝聚体的支架。这三种蛋白质形成了类似胶束的结构，正如最近在Nanog凝聚体中发现的那样。凝聚体弱招募Oct4。异质性凝聚体的形成可能为细胞提供丰富的局部环境。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.14.599027",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.14.599027",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.14.599027/index.html"
+}

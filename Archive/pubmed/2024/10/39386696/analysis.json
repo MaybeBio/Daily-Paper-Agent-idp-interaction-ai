@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39386696",
+  "title": "Nucleoprotein phase-separation affinities revealed via atomistic simulations of short peptide and RNA fragments.",
+  "authors": "Ramachandran, Vysakh; Brown, William; Potoyan, Davit A",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-10-10",
+  "window": {
+    "start": "2024-10-07",
+    "end": "2024-10-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用原子模拟系统解析短肽与RNA片段在相分离中的氨基酸级相互作用偏好，虽对象为肽-RNA而非IDP-PPI，但其相分离分子语法与相互作用机制建模思路对本课题高度可迁移。",
+  "abstract": "Liquid-liquid phase separation of proteins and nucleic acids into condensate phases is a versatile mechanism for ensuring compartmentalization of cellular biochemistry. RNA molecules play critical roles in these condensates, particularly in transcriptional regulation and stress responses, exhibiting a wide range of thermodynamic and dynamic behaviors. However, deciphering the molecular grammar that governs the stability and dynamics of protein-RNA condensates remains challenging due to the multicomponent and heterogeneous nature of these biomolecular mixtures. In this study, we employ atomistic simulations of twenty distinct mixtures containing minimal RNA and peptide fragments to dissect the phase-separating affinities of all twenty amino acids in the presence of RNA. Our findings elucidate chemically specific interactions, hydration profiles, and ionic effects that synergistically promote or suppress protein-RNA phase separation. We map a ternary phase diagram of interactions, identifying four distinct groups of residues that promote, maintain, suppress, or disrupt protein-RNA clusters.",
+  "abstract_zh": "蛋白质和核酸液-液相分离形成凝聚体相，是确保细胞生化区室化的多功能机制。RNA分子在这些凝聚体中发挥关键作用，尤其在转录调控和应激反应中，展现出广泛的热力学和动力学行为。然而，由于这些生物分子混合物的多组分和异质性，解析控制蛋白质-RNA凝聚体稳定性和动力学的分子语法仍具挑战性。在本研究中，我们采用原子级模拟，对二十种包含最小RNA和肽段片段的混合物进行解析，以剖析在RNA存在下所有二十种氨基酸的相分离亲和力。我们的发现阐明了化学特异性相互作用、水化谱和离子效应，这些因素协同促进或抑制蛋白质-RNA相分离。我们绘制了相互作用的三元相图，识别出四组不同的残基，分别促进、维持、抑制或破坏蛋白质-RNA簇。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39386696/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39386696/",
+  "paper_page_path": "papers/pubmed/39386696/index.html"
+}

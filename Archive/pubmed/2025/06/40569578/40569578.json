@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "40569578",
+    "doi": "10.1021/acs.jpcb.5c02360",
+    "title": "Hydrophobicity in Intrinsically Disordered Protein Force Fields: Implications for Conformational Ensembles and Protein-Protein Interactions."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) lack a stable 3D structure under physiological conditions, making them challenging to study and simulate. In this study, we compare the hydrophobicity and water-protein interactions of amino acids in three popular all-atom molecular dynamics (MD) force fields: amber03ws (a03ws), CHARMM36m (C36m), and a99SB-disp. Using the indirect umbrella sampling (INDUS) technique, we quantify the dewetting free energies of each amino acid in the force fields. Additionally, we analyze water structuring around the amino acids using the water triplet angle distribution and measure water diffusion in the hydration shells. Our results reveal that CHARMM36m has the lowest dewetting free energies, indicating higher amino acid hydrophobicity, while a99SB-disp exhibits the highest, suggesting lower hydrophobicity. Water diffusion is significantly slower in the hydration shells of a99SB-disp due to its unique water structuring (e.g., higher frequency of tetrahedral coordination), while there is much less of a water diffusion slowdown in a03ws and CHARMM36m. We show that these differences impact the behavior of an aggregation-prone tau fragment, jR2R3 P301L, in MD simulations. We find that CHARMM36m's propensity for dimer formation is attributed to its lower dewetting free energies, whereas a99SB-disp's higher-than-expected dimerization propensity is due to favorable, entropically driven changes in water structure upon peptide association. These findings underscore the importance of accurately modeling water-protein interactions for IDPs and protein-protein interactions as well as the sensitivity of these to the underlying force field. Our study suggests that dewetting free energies and water structuring metrics, such as the water triplet angle distribution, can be valuable for future force field development and for predicting phenomena related to water-protein interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Hydrophobic and Hydrophilic Interactions",
+      "Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Water/chemistry",
+      "Thermodynamics",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lobo, Samuel",
+        "Najafi, Saeed",
+        "Shell, M Scott",
+        "Shea, Joan-Emma"
+      ],
+      "short_names": [
+        "Lobo S",
+        "Najafi S",
+        "Shell MS",
+        "Shea JE"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3800-0885",
+        "ORCID: 0000-0002-0439-1534",
+        "ORCID: 0000-0002-9801-9273"
+      ],
+      "affiliations": [
+        "Department of Chemical Engineering, University of California, Santa Barbara, California 93106, United States.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Barbara, California 93106, United States.",
+        "Department of Chemical Engineering, University of California, Santa Barbara, California 93106, United States.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Barbara, California 93106, United States.",
+        "Department of Physics, University of California, Santa Barbara, California 93106, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lobo, Samuel",
+        "short_name": "Lobo S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, University of California, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Najafi, Saeed",
+        "short_name": "Najafi S",
+        "identifiers": [
+          "0000-0003-3800-0885"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Shell, M Scott",
+        "short_name": "Shell MS",
+        "identifiers": [
+          "0000-0002-0439-1534"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, University of California, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Shea, Joan-Emma",
+        "short_name": "Shea JE",
+        "identifiers": [
+          "0000-0002-9801-9273"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Barbara, California 93106, United States.",
+          "Department of Physics, University of California, Santa Barbara, California 93106, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Jul 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/26 12:30",
+    "fetched_at": "2026-09-21 20:10:55"
+  },
+  "links": {
+    "cites": [
+      "42479886",
+      "42316385",
+      "41807619",
+      "41697092",
+      "41404844",
+      "41342450",
+      "40667302"
+    ],
+    "refs": [
+      "40038074",
+      "39907269",
+      "39579121",
+      "39536029",
+      "38568974",
+      "38118078",
+      "37545648",
+      "37171393",
+      "37018141",
+      "36947617",
+      "36859484",
+      "36756335",
+      "36430530",
+      "35720732",
+      "35561002",
+      "35373198",
+      "35274944",
+      "34850135",
+      "34686053",
+      "34588692",
+      "34491058",
+      "34152264",
+      "34116358",
+      "33580600",
+      "33545530",
+      "33543942",
+      "33174726",
+      "32216358",
+      "32145943",
+      "31492058",
+      "31441158",
+      "31167414",
+      "30633867",
+      "30336669",
+      "30250773",
+      "29735687",
+      "27838525",
+      "27819658",
+      "26965454",
+      "26722879",
+      "25775228",
+      "25764013",
+      "25400522",
+      "24811640",
+      "23515417",
+      "22754404",
+      "22443635",
+      "22384157",
+      "22184480",
+      "21487594",
+      "20448202",
+      "20408171",
+      "20221247",
+      "20106655",
+      "20058869",
+      "19186127",
+      "19045004",
+      "17675353",
+      "16392929",
+      "16213524",
+      "12381310",
+      "12368089",
+      "10218629"
+    ],
+    "similar": [
+      "40569578",
+      "39536029",
+      "39907269",
+      "35950933",
+      "33382616",
+      "34185520",
+      "37646172",
+      "34576338",
+      "32859072",
+      "27819658",
+      "36080494",
+      "35408509",
+      "31241933",
+      "29735687",
+      "25871264",
+      "33444020",
+      "39340152",
+      "29080468",
+      "32816485",
+      "40907012",
+      "40172236",
+      "25207671",
+      "36387274",
+      "30259679",
+      "33355572",
+      "30840442",
+      "29808548",
+      "37452752",
+      "33945530",
+      "33174726",
+      "28226222",
+      "33078950",
+      "30865832",
+      "34491058",
+      "33623120",
+      "33580600",
+      "36468418",
+      "41298416",
+      "29235155",
+      "28095698",
+      "26030189",
+      "39046235",
+      "35174713",
+      "26575776",
+      "41073429",
+      "30514082",
+      "33459730",
+      "38949117",
+      "35074392",
+      "31552948",
+      "28805390",
+      "26574339",
+      "34509724",
+      "30990694",
+      "31402649",
+      "34524800",
+      "35377637",
+      "30703278",
+      "24589355",
+      "39807013",
+      "30091924",
+      "28448138",
+      "29553735",
+      "26418258",
+      "37990496",
+      "40128232",
+      "31613621",
+      "40068541",
+      "37556237",
+      "38877893",
+      "34680048",
+      "33810353",
+      "31756104",
+      "29537020",
+      "27484738",
+      "27844185",
+      "30979035",
+      "33591749",
+      "34032235",
+      "36178373",
+      "25375525",
+      "39561991",
+      "29026044",
+      "31809054",
+      "31470695",
+      "36827446",
+      "41316704",
+      "32227937",
+      "36533639",
+      "29734867",
+      "41350115",
+      "38928405",
+      "30204435",
+      "37838830",
+      "30876367",
+      "26735936",
+      "33341693",
+      "30865820",
+      "32419254",
+      "33411518"
+    ],
+    "review": [
+      "40569578",
+      "29080468",
+      "33355572",
+      "30840442",
+      "28226222",
+      "40068541",
+      "34680048",
+      "30979035"
+    ],
+    "pmc": [
+      "12257530"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40569578/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c02360",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

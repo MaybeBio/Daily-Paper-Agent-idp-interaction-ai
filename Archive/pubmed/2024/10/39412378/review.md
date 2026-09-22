@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, and author contributions) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the model development, validation strategy, and reported results. No assessment of editorial fit or publication venue suitability.
+- **Shared manuscript claim summary** The authors present a coarse-grained (CG) model, CALVADOS 3, for simulating multi-domain proteins (MDPs) and intrinsically disordered proteins (IDPs). They demonstrate that placing interaction sites at the center of mass (COM) of residues in folded domains, rather than at Cα positions, reduces spurious inter-domain attractions and improves agreement with experimental radii of gyration (Rg) and saturation concentrations (csat) for phase separation. They further use the model to estimate changes in folding stability of folded domains within condensates.
+- **Visible evidence base** Main text figures (Figures 1–7), supplementary tables (Tables S1–S10), and supplementary figures (Figures S1–S13) are referenced. GitHub repository for scripts and data is provided.
+- **Missing materials affecting confidence** Supplementary figures and tables are referenced but not provided in the submitted material. Experimental Rg and csat values for validation sets are not shown in the main text. Details of the Bayesian optimization procedure are summarized but full convergence diagnostics are not shown. The thermodynamic cycle analysis relies on predicted absolute stabilities from an external model (Cagiada et al., 2024) without cross-validation.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important problem in the simulation of multi-domain proteins with coarse-grained models. The central observation, that the choice of interaction site placement (Cα vs. COM) in folded domains strongly influences inter-domain interactions and resulting ensemble compactness, is mechanistically plausible and well supported by the presented comparisons. The development of CALVADOS 3 with a COM representation for folded domains is a logical and practical refinement. The validation on independent IDP and MDP datasets is encouraging, and the application to phase separation and folding stability in condensates demonstrates useful scope. However, several technical aspects require clarification and additional analysis to fully establish the robustness and generalizability of the model. The reliance on manually defined domain boundaries and the limited discussion of parameter transferability are notable limitations. Overall, the work is of high interest to the biomolecular simulation and biophysics communities, and the core claims are largely supported, but the case would be strengthened by addressing the concerns below.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, specifically those developing and applying coarse-grained models for intrinsically disordered proteins and multi-domain proteins. Also relevant to experimentalists studying protein phase separation, conformational ensembles, and folding stability in cellular environments, as the model offers a fast and accessible tool for interpreting such data.
+- **Major strengths** 1. The identification of a specific and mechanistically clear deficiency in Cα-based CG models for MDPs (excessive inter-domain attractions due to misplaced interaction sites) is a valuable contribution. 2. The systematic comparison of Cα, COM, and SCCOM representations provides a clear rationale for the chosen approach. 3. The model is validated on a substantial number of independent proteins, including both IDPs and MDPs, using multiple experimental observables (Rg, csat). 4. The application to phase separation and folding stability in condensates demonstrates the model's utility for addressing biologically relevant questions. 5. The work is presented with a high degree of methodological transparency, including a public code repository.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the COM representation "substantially improved" agreement with experimental Rg for MDPs, and that CALVADOS 3 provides "good agreement" with experimental data on single-chain properties of MDPs and IDPs.
+  - **Evidence pointer** Figures 1b, 1d, 3b, 3c, 4a–c; Tables S1–S5
+  - **Concern** The quantitative improvement is presented primarily through correlation coefficients (e.g., Pearson r increasing from 0.5 to 0.95) and rMSD values. However, the absolute errors and their distribution across the test set are not fully reported. For example, the rMSD for MDPs is stated to improve from −18% to 0%, but the spread of individual errors is not shown. It is unclear whether the improvement is uniform or driven by a few outliers. Additionally, the validation set includes only 9 MDPs, which is a small number to draw strong conclusions about generalizability. The authors should provide per-protein error metrics (e.g., scatter plots with error bars, or a table of individual Rg values) to allow readers to assess the consistency of the improvement.
+  - **Why it matters** The central claim of the paper is that the COM representation is a broadly applicable fix for CG simulations of MDPs. Without a detailed error analysis, it is difficult to assess whether the improvement is systematic or limited to specific protein architectures. This directly affects the confidence in the model's transferability to other MDPs not in the test set.
+  - **Resolution test** Provide a supplementary table or figure listing each MDP in the validation set with its experimental Rg, calculated Rg from CALVADOS2Cα, CALVADOS2COM, and CALVADOS3COM, and the individual errors. Additionally, report the mean absolute error and root-mean-square error for the entire validation set, not just the rMSD. If possible, stratify the analysis by protein class (e.g., all-alpha, all-beta, mixed) to demonstrate the consistency of the improvement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the accuracy of a one-bead-per-residue coarse-grained model depends on how the interaction sites in the folded domains are represented" and that the COM representation reduces "excessive domain-domain interactions."
+  - **Evidence pointer** Figures 1a, 2a–c
+  - **Concern** The mechanistic explanation for the improvement is that Cα placement exposes buried hydrophobic residues to the surface, leading to spurious attractions. However, the energy decomposition analysis (Figure 2) is only shown for one protein (GS0). It is not demonstrated that the same mechanism holds for other MDPs in the test set. Furthermore, the authors do not quantify the magnitude of the spurious inter-domain interactions relative to other energy terms (e.g., intra-domain, domain-disorder). A more systematic analysis across multiple MDPs would strengthen the mechanistic claim.
+  - **Why it matters** The proposed mechanism is the foundation for the model design. If the mechanism is not consistently observed across diverse MDPs, the COM representation may not be the optimal fix, and alternative approaches (e.g., rescaling interactions) might be equally or more effective in specific cases. The authors do compare to a rescaling approach (CALVADOS2Cα 70%), but only briefly, and the comparison is not shown in detail.
+  - **Resolution test** Perform the energy decomposition analysis (as in Figure 2) for at least 3–5 additional MDPs from the validation set, covering different structural classes (e.g., all-alpha, all-beta, mixed alpha/beta). Show that the reduction in inter-domain interaction energy with COM representation is a consistent trend. Additionally, provide a more detailed comparison of CALVADOS2Cα 70% vs. CALVADOS2COM, including per-protein errors, to justify the choice of COM over simple rescaling.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that the model can be used to "examine how the stability of folded domains may differ between the dilute and dense phases" and present results for RRM1 and RRM2 from hnRNPA1*.
+  - **Evidence pointer** Figure 7a–d
+  - **Concern** The thermodynamic cycle analysis relies on two key assumptions: (1) the unfolded state of the RRM domains is well-represented by the CG model without any folded restraints, and (2) the predicted absolute stabilities from the machine learning model (Cagiada et al., 2024) are accurate for these domains. The authors do not validate these assumptions. For example, the unfolded state ensemble of an RRM domain may be poorly sampled in the timescale of the simulations, and the CG model's ability to represent the unfolded state is not benchmarked. The predicted stability change of 0.7 kcal/mol for RRM2 is presented as a quantitative result, but its uncertainty is not discussed.
+  - **Why it matters** This application is presented as a key demonstration of the model's utility. If the assumptions are not validated, the quantitative result (0.7 kcal/mol destabilization) could be misleading. This is particularly important because the authors suggest the model could be used to predict protein destabilization in condensates, which has significant biological implications.
+  - **Resolution test** Provide additional validation for the unfolded state representation. For example, compare the CG unfolded state ensembles of RRM1 and RRM2 to all-atom simulations or experimental data (if available). Discuss the uncertainty in the predicted absolute stabilities and propagate this uncertainty to the estimated stability change in the condensate. Alternatively, present the result as a qualitative demonstration rather than a quantitative prediction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the optimization of CALVADOS 3 "converged within three cycles" and that the resulting parameters are "similar to those in CALVADOS 2."
+  - **Evidence pointer** Figure 3, Figure 7 (convergence plot), Figure S3
+  - **Concern** The convergence criterion is defined as ∣Δℒ∣<1, but the scale of the cost function ℒ is not clearly defined. It is unclear whether this threshold represents a tight or loose convergence. Additionally, the authors state that the optimized λ values are "similar" to CALVADOS 2, but the actual differences and their impact on simulated properties are not quantified. If the parameters are nearly identical, the improvement in MDP behavior may be entirely due to the COM representation, which would be a cleaner message. If the parameters differ substantially, the relative contributions of parameter re-optimization vs. representation change are confounded.
+  - **Why it matters** The manuscript aims to present CALVADOS 3 as a distinct model. Understanding the relative contributions of the COM representation and the re-optimized parameters is important for users who may want to adapt the model. It also affects the interpretation of the validation results.
+  - **Resolution test** Provide a quantitative comparison of the λ values between CALVADOS 2 and CALVADOS 3 (e.g., a scatter plot or a table of differences). Perform an ablation study where CALVADOS 2 parameters are used with the COM representation (i.e., CALVADOS2COM) and compare its performance to CALVADOS3COM. This would isolate the effect of parameter re-optimization.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, paragraph 4
+  - **Evidence pointer** Location not provided
+  - **Issue** The introduction assumes familiarity with the CALVADOS model and its previous versions. A brief summary of the model's functional form and key parameters would help readers who are not specialists in coarse-grained modeling.
+  - **Required correction** Add a short paragraph in the Introduction or Methods summarizing the CALVADOS model architecture, including the types of interactions (bonded, non-bonded, electrostatic) and the meaning of the "stickiness" parameter λ.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 4.2 (Simulations)
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the initial conformation generation for MDPs is brief. The authors state that structures were "modeled by superposing experimental domain structures (if available) on AlphaFold predictions," but the details of this superposition and the criteria for choosing between experimental and predicted structures are not provided.
+  - **Required correction** Provide more detail on the structure preparation pipeline, including the software used for superposition and any quality filters applied to the AlphaFold models.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, paragraph 2
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of limitations is brief. The authors acknowledge the need for automated domain boundary detection but do not discuss the sensitivity of the results to the choice of boundaries. A brief analysis of how boundary choices affect the calculated Rg would be informative.
+  - **Required correction** Add a sentence or two in the Discussion acknowledging the sensitivity of the model to domain boundary definitions and referencing any preliminary tests (or suggesting this as future work).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Section 4.3 (Parameter optimization)
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the Bayesian optimization procedure is dense and may be difficult to follow. The relationship between the cost function, the prior, and the acceptance criterion could be clarified.
+  - **Required correction** Consider adding a schematic flowchart or a step-by-step bullet list summarizing the optimization algorithm.
+- **Technical failings that need to be addressed before the case is established** 1. The lack of per-protein error analysis for the validation set (R1-M1) is a significant gap. 2. The mechanistic explanation for the improvement is based on a single example (R1-M2). 3. The thermodynamic cycle analysis for folding stability in condensates lacks validation of key assumptions (R1-M3). 4. The relative contributions of the COM representation vs. parameter re-optimization are not disentangled (R1-M4).
+- **Assessment against Nature-style criteria**  
+  *Originality*: The work is original in its specific focus on interaction site placement in CG models for MDPs. While the general concept of CG model optimization is not new, the systematic demonstration of the Cα vs. COM issue and its impact on inter-domain interactions is a novel contribution.  
+  *Scientific importance*: The problem addressed is important, as MDPs are abundant and challenging to simulate. The model offers a practical solution that could be widely adopted. The application to phase separation and folding stability in condensates is timely and of broad interest.  
+  *Interdisciplinary readership*: The work is primarily of interest to computational biophysicists and structural biologists. The potential applications to cell biology (phase separation) may attract a broader audience, but the technical nature of the manuscript may limit accessibility.  
+  *Technical soundness*: The core methodology is sound, but the concerns raised above (per-protein errors, mechanistic validation, thermodynamic cycle assumptions) need to be addressed to fully establish technical robustness.  
+  *Readability for nonspecialists*: The manuscript is generally well-written and logically structured. However, the Methods section is dense, and the Introduction assumes some familiarity with CG models. Minor improvements could enhance accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central idea is promising and the results are encouraging, but the manuscript would benefit from a more detailed error analysis, a broader validation of the proposed mechanism, and a more cautious interpretation of the folding stability predictions. Once these issues are addressed, the work would be a valuable contribution to the field.

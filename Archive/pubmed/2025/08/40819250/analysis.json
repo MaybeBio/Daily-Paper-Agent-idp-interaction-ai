@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40819250",
+  "title": "Hydrophobic residues in the alpha-synuclein NAC domain drive seed-competent fibril formation and are targeted by peptide inhibitors.",
+  "authors": "Das, Viswanath; Modarres Mousavi, Sayed Mostafa; Annadurai, Narendran; Sukur, Suncica; Mehrnejad, Faramarz; Moradi, Sajad; Malina, Lukas; Kolarikova, Marketa; Ranc, Vaclav; Frydrych, Ivo; Kouril, Roman; Hosseinkhani, Saman; Hajduch, Marian; Nikkhah, Maryam",
+  "journal": "The FEBS journal",
+  "published_date": "2025-08-17",
+  "window": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究以无序蛋白α-突触核蛋白NAC结构域为对象，结合分子动力学模拟揭示疏水残基驱动纤维成核及肽抑制剂阻断机制，虽聚焦纤维化而非典型PPI，但机制建模思路对IDR介导互作研究有启发。",
+  "abstract": "Alpha-synuclein (alphaSyn) is a 14-kDa intrinsically disordered protein that aggregates into insoluble fibrils in synucleinopathies, including Lewy bodies, multiple system atrophy, and Parkinson's disease, contributing to neurotoxicity and disease progression. The ability of these fibrils to seed further aggregation of native protein is central to alphaSyn pathology. Here, we examined the broader non-amyloid component (NAC) domain, focusing on how residues flanking the hydrophobic 68-71 (GAVV) motif of alphaSyn (residues 8-11 in NAC35) modulate nucleation, stability, and pathological seeding. Using full-length NAC peptide and truncated variants, we show that the 68-71 (GAVV) stretch is critical for nucleation and aggregation into prion-like fibrils. Peptide inhibitors targeting this hydrophobic region block the formation of seed-competent fibrils. Molecular dynamics simulations showed that these inhibitors alter peptide-peptide interactions and contact key hydrophobic residues within the NAC domain. Further analysis indicates that residues beyond the 68-71 (GAVV) motif, such as 79-95, are critical for stabilizing fibrils and promoting seeding competency. Peptide B interactions with key hydrophobic motifs within the NAC domain were visualized in silico, offering mechanistic insights into how it disrupts aggregation.",
+  "abstract_zh": "α-突触核蛋白（alpha-synuclein, alphaSyn）是一种14-kDa的固有无序蛋白，在突触核蛋白病（包括路易小体、多系统萎缩和帕金森病）中聚集成不溶性纤维，导致神经毒性和疾病进展。这些纤维能够作为种子，进一步促进天然蛋白的聚集，这是alphaSyn病理学的核心机制。在此，我们研究了更广泛的非淀粉样成分（non-amyloid component, NAC）结构域，重点关注alphaSyn疏水性68-71（GAVV）基序（NAC35中的第8-11位残基）两侧的残基如何调节成核、稳定性和病理性播种。利用全长NAC肽及截短变体，我们证明68-71（GAVV）片段对成核和聚集成类朊病毒纤维至关重要。靶向该疏水区域的肽抑制剂可阻断具有种子能力的纤维形成。分子动力学（molecular dynamics）模拟显示，这些抑制剂改变肽-肽相互作用，并接触NAC结构域内的关键疏水残基。进一步分析表明，68-71（GAVV）基序之外的残基（如79-95）对稳定纤维和促进播种能力至关重要。通过计算机模拟，我们可视化了肽B与NAC结构域内关键疏水基序的相互作用，从而提供了其如何破坏聚集的机制性见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40819250/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40819250/",
+  "paper_page_path": "papers/pubmed/40819250/index.html"
+}

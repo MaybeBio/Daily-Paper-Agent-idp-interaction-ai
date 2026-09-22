@@ -1,0 +1,82 @@
+## Review setup
+
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusions. Figures and supplementary materials referenced but not provided.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. No assessment of formatting or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors use coarse-grained Brownian dynamics simulations with a single-particle morphing model of α-synuclein to show that modulator particles with distinct interaction profiles (repulsive, nonspecific attractive toward disordered state, or selective for β-rich state) reshape phase transitions: repulsive modulators have marginal effects, nonspecific attraction stabilizes disordered heteroassemblies and extends lag phases, and β-selective modulators cap fibril surfaces to shorten fibrils and promote bundling.
+- **Visible evidence base** Text descriptions of simulation results, including cluster counts, λ-distributions, and visual inspection of trajectories. Figures 2, 3, 4 and supplementary figures S1, S2 are referenced but not visible in the provided material.
+- **Missing materials affecting confidence** All figures, supplementary figures, and movies (S1, M2) are referenced but not provided. Quantitative data supporting the described trends (e.g., cluster size distributions, λ-distribution statistics, fibril length measurements) are not directly accessible. Simulation parameter values for modulator interactions (𝒞_MS, 𝒞_MR ranges) are described qualitatively but not tabulated.
+
+## Reviewer
+
+- **Overall assessment** The manuscript presents a conceptually interesting extension of an established coarse-grained model to study modulator effects on α-synuclein phase transitions. The three-mode classification of modulator behavior (repulsive, nonspecific attractive, β-selective) provides a useful organizing framework. However, the evidence base as presented is largely qualitative, relying on visual inspection and descriptive statistics without quantitative rigor. The central claims about mechanism (capping, heteroassembly stabilization) are plausible but not quantitatively established from the provided text. The work is likely of interest to the computational biophysics and protein aggregation communities, but the current presentation does not meet the standard of evidence required for a high-impact general journal.
+- **Who would be interested in the results, and why** Computational biophysicists studying protein aggregation and phase separation; researchers developing therapeutic strategies for Parkinson's disease and other neurodegenerative disorders; the coarse-grained modeling community interested in morphing particle approaches; experimentalists studying α-synuclein aggregation modulators who could use the mechanistic predictions to guide experimental design.
+- **Major strengths** The morphing particle model is an elegant and computationally efficient approach that captures the essential polymorphism of α-synuclein. The systematic variation of modulator affinity and concentration provides a comprehensive parameter sweep. The distinction between nonspecific and β-selective modulation mechanisms offers testable predictions. The connection to experimental observations (e.g., β-wrapin AS69, NAC-core peptides) grounds the simulations in real therapeutic contexts.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that β-selective modulators inhibit fibril elongation through surface "capping" that introduces kinetic barriers to monomer templating.
+  - **Evidence pointer** Section V.3, Figure 4, Movie M2
+  - **Concern** The capping mechanism is inferred from indirect observations: reduced fibril length, increased cluster number, and visual inspection of modulator-coated fibril surfaces. No direct measurement of monomer attachment kinetics at fibril ends, no quantification of the kinetic barrier, and no free energy analysis supporting the capping hypothesis is presented in the text.
+  - **Why it matters** The capping mechanism is a central novel claim of the paper. Without quantitative evidence distinguishing capping from alternative mechanisms (e.g., altered bulk solution properties, sequestration of monomers by modulators, or changes in fibril stability), the mechanistic conclusion is not established.
+  - **Resolution test** Provide quantitative measurements of fibril elongation rates as a function of modulator concentration, direct observation of modulator occupancy at fibril ends, and free energy calculations demonstrating the barrier to monomer addition. Alternatively, perform control simulations where modulators are excluded from fibril ends to test whether the observed effects persist.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The claim that nonspecific attraction toward the disordered state drives a concentration-dependent shift in the distribution of assembled species and modulates the kinetics of fibril nucleation.
+  - **Evidence pointer** Section V.2, Figure 3
+  - **Concern** The results are described qualitatively: "marginal impact," "gradually shifts," "predominantly oligomeric species." No quantitative metrics are provided for cluster size distributions, λ-distribution statistics, or nucleation rates. The violin plots in Figure 3(b) are referenced but not visible, and no statistical analysis is described.
+  - **Why it matters** The dose-dependent effects are a key finding, but without quantitative characterization, the reader cannot assess the magnitude of the effects, the significance of the shifts, or the robustness of the conclusions across parameter ranges.
+  - **Resolution test** Provide quantitative measures such as mean cluster size, distribution widths, nucleation rate constants, and statistical comparisons across modulator concentrations. Include error bars or replicate analysis to establish significance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The claim that the model captures experimentally relevant behavior, supported by comparisons to experimental observations of β-wrapin AS69 and NAC-core peptides.
+  - **Evidence pointer** Section VI, Discussion
+  - **Concern** The comparisons to experimental systems are qualitative and post hoc. No quantitative validation is provided, such as matching experimental lag times, fibril length distributions, or binding affinities. The model parameters (𝒞_MS, 𝒞_MR) are not mapped to physical interaction strengths, making it unclear whether the simulated regimes correspond to experimentally relevant conditions.
+  - **Why it matters** For the results to be useful for guiding experimental design, the model must be calibrated to physical scales. Without this, the predictions remain qualitative and the connection to therapeutic applications is speculative.
+  - **Resolution test** Map model interaction parameters to physical free energies or binding affinities. Perform simulations at parameters corresponding to known experimental conditions and compare quantitative outcomes (e.g., lag time, fibril length) to experimental measurements.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section II.1, modulator particle description
+  - **Evidence pointer** "The current study introduces a third monomorphic 'modulator' particle to the model"
+  - **Issue** The text states the modulator has "a fixed diameter and fixed length" but does not specify these values or how they relate to the α-synuclein particle dimensions. The physical interpretation of the modulator as a "small peptide" is stated but not justified.
+  - **Required correction** Provide the numerical values for modulator diameter and length, and justify the choice in relation to typical peptide dimensions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section IV, Simulation details
+  - **Evidence pointer** "the mobility of the particles were calculated on the fly"
+  - **Issue** The method for calculating mobility on the fly is not described. It is unclear whether this refers to a specific algorithm or approximation, and how it affects the dynamics.
+  - **Required correction** Provide a brief description of the mobility calculation method or a reference to the original implementation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section IV, Simulation parameters
+  - **Evidence pointer** "the parameters were selected to match the original model"
+  - **Issue** The specific values for all interaction parameters (𝒞_SS, 𝒞_SR, 𝒞_RR^w, 𝒞_RR^s, 𝒞_MS, 𝒞_MR, a_attr, b_attr, p, A_μ) are not listed in a table or in the text. This makes reproduction of the simulations difficult.
+  - **Required correction** Include a table of all simulation parameters with their numerical values and units.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section V, Results
+  - **Evidence pointer** "visual inspection shows that the modulators can promote oligomer formation"
+  - **Issue** Several conclusions rely on visual inspection without quantitative backing. This is acceptable for hypothesis generation but should be clearly labeled as qualitative observation.
+  - **Required correction** Clearly distinguish qualitative observations from quantitative results, and consider adding quantitative metrics for key claims.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (capping mechanism not quantitatively established), R1-M2 (lack of quantitative metrics for key claims), R1-M3 (model not calibrated to physical scales). These are the primary technical issues that prevent the central conclusions from being fully supported.
+- **Assessment against Nature-style criteria** Originality: The morphing particle approach and the systematic classification of modulator interaction modes are original contributions, though they build directly on prior work by the same group. Scientific importance: The question of how modulators reshape α-synuclein phase transitions is of significant biomedical relevance, and the framework could inform therapeutic design. However, the importance is somewhat limited by the qualitative nature of the current evidence. Interdisciplinary readership: The work bridges computational biophysics, protein chemistry, and neurodegeneration research, which could appeal to a broad audience. Technical soundness: The model is well-motivated and the simulation approach is appropriate, but the lack of quantitative analysis and validation undermines technical rigor. Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear explanations of the model and its implications, though some technical details in the methods are dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is valuable and the model is well-suited to address the questions posed. However, the current evidence base is insufficiently quantitative to establish the central mechanistic claims. The authors should provide quantitative metrics, statistical analysis, and model calibration to physical scales before the conclusions can be fully supported.
+
+## Risk / unsupported claims
+
+- The capping mechanism for β-selective modulators is inferred from indirect evidence and is not quantitatively established.
+- The claim that nonspecific attraction "drives a concentration-dependent shift" in species distribution lacks quantitative support.
+- The comparison to experimental systems (β-wrapin AS69, NAC-core peptides) is qualitative and not validated against quantitative experimental data.
+- The claim that repulsive modulators have "marginal impact" is based on qualitative comparison of cluster counts without statistical analysis.
+- The statement that modulators can "bridge between fibrils to form bundles" is based on visual inspection and is not quantitatively characterized.
+- The extension of the framework to other polypeptides and materials applications is speculative and not supported by simulations in this work.

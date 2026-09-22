@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present flDPnn3, a predictor of intrinsic disorder in protein sequences, claiming improved accuracy over its predecessors, competitive performance against over 70 predictors in the CAID3 benchmark, 3 to 8 times faster runtime than similarly accurate tools, 100% coverage, and availability of a web server with batch and visualization features
+- **Visible evidence base** Abstract text only; no quantitative results, statistical analyses, dataset descriptions, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, CAID3 evaluation details, runtime benchmarking protocols, and web server documentation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful tool with claims of competitive accuracy and improved speed in the CAID3 benchmark. However, the absence of quantitative data, methodological detail, and statistical support means that the core claims cannot be evaluated from the supplied material. The work is likely of interest to the protein bioinformatics community, but the case for its novelty and superiority over existing methods is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein structure and function prediction, particularly those developing or using disorder predictors; researchers conducting large-scale proteome analyses who require fast and accurate tools; and developers of machine learning methods for biological sequence analysis
+- **Major strengths** The abstract indicates participation in an independent community benchmark (CAID3), which provides a credible evaluation context. The claim of maintaining a small computational footprint while incorporating a protein language model is potentially valuable for practical applications. The reported 100% coverage addresses a practical limitation of some existing tools. The availability of a web server with batch support and visualization increases the potential utility of the tool.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that flDPnn3 "matches the predictive quality of the best disorder predictors" and is "significantly more accurate" than its predecessors
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative performance metrics are provided. The abstract does not report any numerical values for accuracy, such as AUC, Matthews correlation coefficient, or F1 score, nor does it provide confidence intervals or statistical significance tests for the claimed improvements over other methods or over previous flDPnn versions
+  - **Why it matters** Without quantitative results, the reader cannot assess the magnitude of the claimed improvements or determine whether differences are practically meaningful. The claim of "matching" the best predictors is ambiguous without defined performance measures and thresholds
+  - **Resolution test** Provide specific performance metrics with confidence intervals for flDPnn3 and comparator methods on the CAID3 dataset, including statistical tests for differences, and report effect sizes for improvements over flDPnn and flDPnn2
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that flDPnn3 uses "a more sophisticated sequence-derived profile as input, covering a modern protein language model and additional predicted disorder functions"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify which protein language model is used, how it is integrated, what additional disorder functions are included, or how the input profile is constructed. No details on the training data, architecture, or hyperparameters are given
+  - **Why it matters** Reproducibility is a core requirement for computational tools. Without methodological detail, other researchers cannot implement or validate the method, and the novelty of the approach relative to existing predictors cannot be assessed
+  - **Resolution test** Provide a complete description of the model architecture, input features, training data, and implementation details in the full manuscript, with sufficient specificity to allow independent reimplementation
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Benchmark validity
+  - **Claim pointer** The abstract claims that flDPnn3 was "independently evaluated" on the Disorder-NOX dataset by CAID3 assessors and that a "side-by-side comparison" reveals competitive performance
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe the CAID3 evaluation protocol, the composition of the Disorder-NOX dataset, the number of test proteins, the sequence-similarity thresholds used for the low-similarity subsets, or the criteria for defining "best" predictors. The runtime comparison methodology is also unspecified
+  - **Why it matters** Benchmark results are only interpretable in the context of the evaluation protocol. Without details on dataset composition, evaluation metrics, and comparator selection, the claims of competitive accuracy and speed cannot be verified
+  - **Resolution test** Describe the CAID3 dataset and evaluation protocol in detail, including the number of proteins, sequence-similarity filtering, evaluation metrics, and the list of comparator methods. Specify the hardware and software environment for runtime measurements and report the statistical significance of runtime differences
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Claim of "100% coverage"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that flDPnn3 "achieves 100% coverage by predicting all proteins," but it is unclear what this means in practice. Does this refer to the absence of runtime failures, the ability to process all sequences regardless of length or composition, or something else
+  - **Required correction** Define "coverage" explicitly and describe the conditions under which other tools fail to produce predictions, with examples if possible
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Web server description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions batch predictions, interactive visualization, and a tutorial page but does not indicate whether the server is freely accessible, whether there are usage limits, or what input formats are accepted
+  - **Required correction** Provide a brief description of access conditions, input requirements, and any usage restrictions in the full manuscript
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison with previous versions
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that flDPnn3 is "significantly more accurate" than flDPnn and flDPnn2, which were top-ranked in CAID1 and CAID2, but does not indicate whether the comparison is based on the same datasets or on different CAID rounds
+  - **Required correction** Clarify whether the comparison with previous versions was performed on the CAID3 dataset or on the respective CAID1 and CAID2 datasets, and specify the metrics used
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative performance data, methodological detail, and benchmark protocol description means that the central claims of accuracy, speed, and improvement over prior versions cannot be verified from the supplied material
+- **Assessment against Nature-style criteria** Originality cannot be assessed from the abstract alone, as the novelty of the input profile and architecture relative to existing methods is not described. Scientific importance is potentially moderate, given the practical utility of fast and accurate disorder prediction for proteome-scale analyses, but the magnitude of the contribution is unclear without quantitative comparisons. Interdisciplinary readership is limited to computational biology and bioinformatics specialists, with limited appeal to a broader biological audience. Technical soundness cannot be evaluated without methodological detail and statistical support. Readability for nonspecialists is adequate, as the abstract is concise and avoids excessive jargon, but the lack of quantitative context reduces its accessibility
+- **Recommendation posture** Currently not established from the provided evidence. The abstract suggests a potentially useful tool, but the absence of quantitative results, methodological transparency, and benchmark details prevents verification of the core claims. A full manuscript with complete data and methods would be required to assess whether the case can be made
+
+## Risk / unsupported claims
+- The claim that flDPnn3 "matches the predictive quality of the best disorder predictors" is unsupported without quantitative metrics and statistical comparisons
+- The claim that flDPnn3 is "significantly more accurate" than flDPnn and flDPnn2 is unsupported without reported performance values and significance tests
+- The claim of being "3 and 8 times faster" than similarly accurate predictors is unsupported without runtime data and hardware specifications
+- The claim of "100% coverage" is ambiguous and unsupported without a definition of coverage and evidence of its achievement
+- The claim of using "a more sophisticated sequence-derived profile" is unverifiable without methodological detail
+- The overall performance in CAID3 cannot be assessed without the evaluation protocol and dataset description

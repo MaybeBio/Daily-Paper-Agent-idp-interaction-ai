@@ -1,0 +1,159 @@
+{
+  "identity": {
+    "pmid": "33691011",
+    "doi": "",
+    "title": "SARS-CoV-2 Drug Discovery based on Intrinsically Disordered Regions."
+  },
+  "content": {
+    "abstract": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), a close relative of SARS-CoV-1, causes coronavirus disease 2019 (COVID-19), which, at the time of writing, has spread to over 19.9 million people worldwide. In this work, we aim to discover drugs capable of inhibiting SARS-CoV-2 through interaction modeling and statistical methods. Currently, many drug discovery approaches follow the typical protein structure-function paradigm, designing drugs to bind to fixed three-dimensional structures. However, in recent years such approaches have failed to address drug resistance and limit the set of possible drug targets and candidates. For these reasons we instead focus on targeting protein regions that lack a stable structure, known as intrinsically disordered regions (IDRs). Such regions are essential to numerous biological pathways that contribute to the virulence of various viruses. In this work, we discover eleven new SARS-CoV-2 drug candidates targeting IDRs and provide further evidence for the involvement of IDRs in viral processes such as enzymatic peptide cleavage while demonstrating the efficacy of our unique docking approach.",
+    "keywords": [],
+    "mesh_terms": [
+      "*COVID-19",
+      "Computational Biology",
+      "Drug Discovery",
+      "Humans",
+      "*SARS-CoV-2"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mudide, Anish",
+        "Alterovitz, Gil"
+      ],
+      "short_names": [
+        "Mudide A",
+        "Alterovitz G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Phillips Exeter Academy, 20 Main Street, Exeter, NH 03833, USA, amudide@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mudide, Anish",
+        "short_name": "Mudide A",
+        "identifiers": [],
+        "affiliations": [
+          "Phillips Exeter Academy, 20 Main Street, Exeter, NH 03833, USA, amudide@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Alterovitz, Gil",
+        "short_name": "Alterovitz G",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing"
+    ],
+    "journal_abbrev": [
+      "Pac Symp Biocomput"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/11 06:00",
+    "fetched_at": "2026-09-20 01:58:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "33691011",
+      "35196007",
+      "32843534",
+      "32723801",
+      "32693122",
+      "32635935",
+      "32452762",
+      "35211823",
+      "32758273",
+      "33070542",
+      "32646487",
+      "33550350",
+      "33073355",
+      "32376402",
+      "32859008",
+      "32434888",
+      "33500022",
+      "35883485",
+      "36959453",
+      "34882862",
+      "34656330",
+      "34119626",
+      "35789137",
+      "33936565",
+      "37609777",
+      "34041264",
+      "33722730",
+      "39071356",
+      "35029139",
+      "33966995",
+      "33888967",
+      "35317050"
+    ],
+    "review": [
+      "33691011",
+      "32723801",
+      "32758273",
+      "33070542",
+      "33073355",
+      "32376402",
+      "33936565"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "http://psb.stanford.edu/psb-online/proceedings/psb21/abstracts/2021_p131.html",
+        "provider": "Pacific Sympsium On Biocomputing",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1142/9789811232701_0013",
+        "provider": "World Scientific Publishing Company",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:33691011",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

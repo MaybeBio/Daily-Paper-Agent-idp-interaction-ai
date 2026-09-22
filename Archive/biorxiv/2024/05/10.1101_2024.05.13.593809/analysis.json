@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.05.13.593809",
+  "title": "Compositional restrictions in the flanking regions give potential specificity and strength boost to binding in short linear motifs",
+  "authors": "Acs V; Hatos A; Tantos A; Kalmar L",
+  "journal": "bioRxiv",
+  "published_date": "2024-05-14",
+  "window": {
+    "start": "2024-05-13",
+    "end": "2024-05-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过生物信息学分析SLiM侧翼区域的氨基酸组成限制，揭示其对无序蛋白介导的短线性基序结合特异性和强度的潜在贡献，虽无AI/物理模拟方法，但聚焦IDR中的PPI机制，对基序预测方法有启发。",
+  "abstract": "Short linear motif (SLiM)-mediated protein–protein interactions play important roles in several biological processes where transient binding is needed. They usually reside in intrinsically disordered regions (IDRs), which makes them accessible for interaction. Although information about the possible necessity of the flanking regions surrounding the motifs is increasingly available, it is still unclear if there are any generic amino acid attributes that need to be functionally preserved in these segments. Here, we describe the currently known ligand-binding SLiMs and their flanking regions with biologically relevant residue features and analyse them based on their simplified characteristics. Our bioinformatics analysis reveals several important properties in the widely diverse motif environment that presumably need to be preserved for proper motif function, but remained hidden so far. Our results will facilitate the understanding of the evolution of SLiMs, while also hold potential for expanding and increasing the precision of current motif prediction methods. <h4>Author summary</h4> Protein–protein interactions between short linear motifs and their binding domains play key roles in several molecular processes. Mutations in these binding sites have been linked to severe diseases, therefore, the interest in the motif research field has been dramatically increasing. Based on the accumulated knowledge, it became evident that not only the short motif sequences themselves, but their surrounding flanking regions also play crucial roles in motif structure and function. Since most of the motifs tend to be located within highly variable disordered protein regions, searching for functionally important physico-chemical properties in their proximity could facilitate novel discoveries in this field. Here we show that the investigation of the motif flanking regions based on different amino acid attributes can provide further information on motif function. Based on our bioinformatics approach we have found so far hidden features that are generally present within certain motif categories, thus could be used as additional information in motif searching methods as well.",
+  "abstract_zh": "短线性基序（SLiM）介导的蛋白质-蛋白质相互作用在多个需要瞬时结合的生物学过程中发挥重要作用。它们通常位于固有无序区域（IDRs）中，这使得它们易于发生相互作用。尽管关于基序周围侧翼区域可能必要性的信息日益增多，但仍不清楚这些片段中是否存在任何需要功能上保留的通用氨基酸属性。在此，我们利用生物学相关的残基特征描述了目前已知的配体结合型SLiMs及其侧翼区域，并基于其简化特征对其进行分析。我们的生物信息学分析揭示了广泛多样的基序环境中若干重要特性，这些特性推测需被保留以确保基序正常功能，但此前一直未被发现。我们的结果将有助于理解SLiMs的进化，同时也有望扩展并提高现有基序预测方法的精度。\n\n<h4>作者总结</h4> 短线性基序与其结合域之间的蛋白质-蛋白质相互作用在多个分子过程中发挥关键作用。这些结合位点的突变与严重疾病相关，因此，基序研究领域的兴趣急剧增加。基于积累的知识，显而易见的是，不仅短基序序列本身，其周围的侧翼区域也在基序结构和功能中发挥关键作用。由于大多数基序倾向于位于高度可变的无序蛋白质区域内，因此在其邻近区域寻找功能上重要的物理化学特性可能促进该领域的新发现。在此，我们表明，基于不同氨基酸属性对基序侧翼区域的调查可以提供关于基序功能的进一步信息。基于我们的生物信息学方法，我们发现了迄今隐藏的特征，这些特征普遍存在于某些基序类别中，因此也可作为基序搜索方法中的附加信息。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.05.13.593809",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.05.13.593809",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.05.13.593809/index.html"
+}

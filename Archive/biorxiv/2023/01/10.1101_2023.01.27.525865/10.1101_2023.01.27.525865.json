@@ -1,0 +1,136 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.01.27.525865",
+  "title": "Anillin Related Mid1 as an Adaptive and Multimodal Contractile Ring Anchoring Protein: A Simulation Study",
+  "doi": "10.1101/2023.01.27.525865",
+  "abstract": "The organization of the cytokinetic ring at the cell equator of dividing animal and fungi cells depends crucially on the anillin scaffold proteins. In fission yeast, anillin related Mid1 binds to the plasma membrane and helps anchor and organize a medial broad band of cytokinetic nodes, which are the precursors of the contractile ring. Similar to other anillins, Mid1 contains a C terminal globular domain with two potential regions for membrane binding, the Pleckstrin Homology (PH) and C2 domains, and an N terminal intrinsically disordered region that is strongly regulated by phosphorylation. Previous studies have shown that both PH and C2 domains can associate with the membrane, preferring phosphatidylinositol-(4,5)-bisphosphate (PIP 2 ) lipids. However, it is unclear if they can simultaneously bind to the membrane in a way that allows dimerization or oligomerization of Mid1, and if one domain plays a dominant role. To elucidate Mid1’s membrane binding mechanism, we used the available structural information of the C terminal region of Mid1 in all-atom molecular dynamics (MD) near a membrane with a lipid composition based on experimental measurements (including PIP 2 lipids). The disordered L3 loop of C2, as well as the PH domain, separately bind the membrane through charged lipid contacts. In simulations with the full C terminal region started away from the membrane, Mid1 binds through the L3 loop and is stabilized in a vertical orientation with the PH domain away from the membrane. However, a configuration with both C2 and PH initially bound to the membrane remains associated with the membrane. These multiple modes of binding may reflect Mid1’s multiple interactions with membranes and other node proteins, and ability to sustain mechanical forces.",
+  "authors": [
+    "Hall AR",
+    "Choi YK",
+    "Im W",
+    "Vavylonis D"
+  ],
+  "published_date": "2023-01-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.01.27.525865",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.01.27.525865.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR609181",
+    "raw_record": {
+      "id": "PPR609181",
+      "source": "PPR",
+      "doi": "10.1101/2023.01.27.525865",
+      "title": "Anillin Related Mid1 as an Adaptive and Multimodal Contractile Ring Anchoring Protein: A Simulation Study",
+      "authorString": "Hall AR, Choi YK, Im W, Vavylonis D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hall AR",
+            "lastName": "Hall",
+            "firstName": "Aaron",
+            "initials": "AR"
+          },
+          {
+            "fullName": "Choi YK",
+            "lastName": "Choi",
+            "firstName": "Yeol Kyo",
+            "initials": "YK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4218-7139"
+            }
+          },
+          {
+            "fullName": "Im W",
+            "lastName": "Im",
+            "firstName": "Wonpil",
+            "initials": "W"
+          },
+          {
+            "fullName": "Vavylonis D",
+            "lastName": "Vavylonis",
+            "firstName": "Dimitrios",
+            "initials": "D"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4218-7139"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The organization of the cytokinetic ring at the cell equator of dividing animal and fungi cells depends crucially on the anillin scaffold proteins. In fission yeast, anillin related Mid1 binds to the plasma membrane and helps anchor and organize a medial broad band of cytokinetic nodes, which are the precursors of the contractile ring. Similar to other anillins, Mid1 contains a C terminal globular domain with two potential regions for membrane binding, the Pleckstrin Homology (PH) and C2 domains, and an N terminal intrinsically disordered region that is strongly regulated by phosphorylation. Previous studies have shown that both PH and C2 domains can associate with the membrane, preferring phosphatidylinositol-(4,5)-bisphosphate (PIP  2 ) lipids. However, it is unclear if they can simultaneously bind to the membrane in a way that allows dimerization or oligomerization of Mid1, and if one domain plays a dominant role. To elucidate Mid1’s membrane binding mechanism, we used the available structural information of the C terminal region of Mid1 in all-atom molecular dynamics (MD) near a membrane with a lipid composition based on experimental measurements (including PIP  2 lipids). The disordered L3 loop of C2, as well as the PH domain, separately bind the membrane through charged lipid contacts. In simulations with the full C terminal region started away from the membrane, Mid1 binds through the L3 loop and is stabilized in a vertical orientation with the PH domain away from the membrane. However, a configuration with both C2 and PH initially bound to the membrane remains associated with the membrane. These multiple modes of binding may reflect Mid1’s multiple interactions with membranes and other node proteins, and ability to sustain mechanical forces.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/01/28/2023.01.27.525865.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.01.27.525865"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38103546",
+            "reference": "Structure (London, England : 1993). 2024 Feb;32(2):242-252.e2",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-01-29",
+      "firstPublicationDate": "2023-01-27",
+      "firstIndexDate": "2023-01-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

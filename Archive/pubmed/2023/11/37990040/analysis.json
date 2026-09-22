@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37990040",
+  "title": "Prediction of folding patterns for intrinsic disordered protein.",
+  "authors": "Yang, Jiaan; Cheng, Wen-Xiang; Wu, Gang; Sheng, Sitong; Zhang, Peng",
+  "journal": "Scientific reports",
+  "published_date": "2023-11-22",
+  "window": {
+    "start": "2023-11-20",
+    "end": "2023-11-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出用蛋白折叠变异矩阵(PFVM)预测无序蛋白的折叠模式，对象为IDP但未涉及PPI或AI/物理模拟方法，机制建模思路对IDP构象研究有参考价值。",
+  "abstract": "The conformation flexibility of natural protein causes both complexity and difficulty to understand the relationship between structure and function. The prediction of intrinsically disordered protein primarily is focusing on to disclose the regions with structural flexibility involving relevant biological functions and various diseases. The order of amino acids in protein sequence determines possible conformations, folding flexibility and biological function. Although many methods provided the information of intrinsically disordered protein (IDP), but the results are mainly limited to determine the locations of regions without knowledge of possible folding conformations. Here, the developed protein folding fingerprint adopted the protein folding variation matrix (PFVM) to reveal all possible folding patterns for the intrinsically disordered protein along its sequence. The PFVM integrally exhibited the intrinsically disordered protein with disordering regions, degree of disorder as well as folding pattern. The advantage of PFVM will not only provide rich information for IDP, but also may promote the study of protein folding problem.",
+  "abstract_zh": "天然蛋白质的构象灵活性既增加了理解其结构与功能关系的复杂性，也带来了难度。对 intrinsically disordered protein（固有无序蛋白）的预测主要旨在揭示涉及相关生物功能及多种疾病的结构灵活区域。蛋白质序列中氨基酸的顺序决定了可能的构象、折叠灵活性及生物功能。尽管许多方法提供了 intrinsically disordered protein（IDP）的信息，但结果主要局限于确定区域位置，而缺乏对可能折叠构象的了解。在此，我们开发的蛋白质折叠指纹采用蛋白质折叠变异矩阵（PFVM）来揭示固有无序蛋白沿其序列的所有可能折叠模式。PFVM 整体展示了固有无序蛋白的无序区域、无序程度及折叠模式。PFVM 的优势不仅在于为 IDP 提供丰富信息，还可能促进蛋白质折叠问题的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37990040/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37990040/",
+  "paper_page_path": "papers/pubmed/37990040/index.html"
+}

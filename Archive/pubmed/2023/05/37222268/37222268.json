@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "37222268",
+    "doi": "10.1111/nph.18995",
+    "title": "Proteins released into the plant apoplast by the obligate parasitic protist Albugo selectively repress phyllosphere-associated bacteria."
+  },
+  "content": {
+    "abstract": "Biotic and abiotic interactions shape natural microbial communities. The mechanisms behind microbe-microbe interactions, particularly those protein based, are not well understood. We hypothesize that released proteins with antimicrobial activity are a powerful and highly specific toolset to shape and defend plant niches. We have studied Albugo candida, an obligate plant parasite from the protist Oomycota phylum, for its potential to modulate the growth of bacteria through release of antimicrobial proteins into the apoplast. Amplicon sequencing and network analysis of Albugo-infected and uninfected wild Arabidopsis thaliana samples revealed an abundance of negative correlations between Albugo and other phyllosphere microbes. Analysis of the apoplastic proteome of Albugo-colonized leaves combined with machine learning predictors enabled the selection of antimicrobial candidates for heterologous expression and study of their inhibitory function. We found for three candidate proteins selective antimicrobial activity against Gram-positive bacteria isolated from A. thaliana and demonstrate that these inhibited bacteria are precisely important for the stability of the community structure. We could ascribe the antibacterial activity of the candidates to intrinsically disordered regions and positively correlate it with their net charge. This is the first report of protist proteins with antimicrobial activity under apoplastic conditions that therefore are potential biocontrol tools for targeted manipulation of the microbiome.",
+    "keywords": [
+      "antimicrobial proteins",
+      "apoplastic proteins",
+      "intrinsically disordered proteins",
+      "microbe-microbe interactions",
+      "microbial community structure",
+      "microbiome",
+      "phyllosphere microbes",
+      "plant pathogen"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Parasites",
+      "*Arabidopsis/microbiology",
+      "Plants",
+      "*Anti-Infective Agents/pharmacology",
+      "Bacteria",
+      "*Oomycetes",
+      "Plant Leaves/microbiology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gomez-Perez, Daniel",
+        "Schmid, Monja",
+        "Chaudhry, Vasvi",
+        "Hu, Yiheng",
+        "Velic, Ana",
+        "Macek, Boris",
+        "Ruhe, Jonas",
+        "Kemen, Ariane",
+        "Kemen, Eric"
+      ],
+      "short_names": [
+        "Gomez-Perez D",
+        "Schmid M",
+        "Chaudhry V",
+        "Hu Y",
+        "Velic A",
+        "Macek B",
+        "Ruhe J",
+        "Kemen A",
+        "Kemen E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9938-9444",
+        "ORCID: 0000-0002-4741-6711",
+        "ORCID: 0000-0001-9078-9292",
+        "ORCID: 0000-0002-6513-9834",
+        "ORCID: 0000-0002-1206-2458",
+        "ORCID: 0000-0003-3533-1355",
+        "ORCID: 0000-0002-7924-116X"
+      ],
+      "affiliations": [
+        "Microbial Interactions in Plant Ecosystems, Center for Plant Molecular Biology, University of Tubingen, 72076, Tubingen, Germany.",
+        "Microbial Interactions in Plant Ecosystems, Center for Plant Molecular Biology, University of Tubingen, 72076, Tubingen, Germany.",
+        "Microbial Interactions in Plant Ecosystems, Center for Plant Molecular Biology, University of Tubingen, 72076, Tubingen, Germany.",
+        "Microbial Interactions in Plant Ecosystems, Center for Plant Molecular Biology, University of Tubingen, 72076, Tubingen, Germany.",
+        "Department of Biology, Quantitative Proteomics Group, Interfaculty Institute of Cell Biology, University of Tubingen, 72076, Tubingen, Germany.",
+        "Department of Biology, Quantitative Proteomics Group, Interfaculty Institute of Cell Biology, University of Tubingen, 72076, Tubingen, Germany.",
+        "Max Planck Institute for Plant Breeding Research, 50829, Cologne, Germany.",
+        "Microbial Interactions in Plant Ecosystems, Center for Plant Molecular Biology, University of Tubingen, 72076, Tubingen, Germany.",
+        "Microbial Interactions in Plant Ecosystems, Center for Plant Molecular Biology, University of Tubingen, 72076, Tubingen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gómez-Pérez, Daniel",
+        "short_name": "Gómez-Pérez D",
+        "identifiers": [
+          "0000-0002-9938-9444"
+        ],
+        "affiliations": [
+          "Microbial Interactions in Plant Ecosystems, Center for Plant Molecular Biology, University of Tübingen, 72076, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Schmid, Monja",
+        "short_name": "Schmid M",
+        "identifiers": [
+          "0000-0002-4741-6711"
+        ],
+        "affiliations": [
+          "Microbial Interactions in Plant Ecosystems, Center for Plant Molecular Biology, University of Tübingen, 72076, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Chaudhry, Vasvi",
+        "short_name": "Chaudhry V",
+        "identifiers": [
+          "0000-0001-9078-9292"
+        ],
+        "affiliations": [
+          "Microbial Interactions in Plant Ecosystems, Center for Plant Molecular Biology, University of Tübingen, 72076, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Hu, Yiheng",
+        "short_name": "Hu Y",
+        "identifiers": [
+          "0000-0002-6513-9834"
+        ],
+        "affiliations": [
+          "Microbial Interactions in Plant Ecosystems, Center for Plant Molecular Biology, University of Tübingen, 72076, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Velic, Ana",
+        "short_name": "Velic A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Quantitative Proteomics Group, Interfaculty Institute of Cell Biology, University of Tübingen, 72076, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Maček, Boris",
+        "short_name": "Maček B",
+        "identifiers": [
+          "0000-0002-1206-2458"
+        ],
+        "affiliations": [
+          "Department of Biology, Quantitative Proteomics Group, Interfaculty Institute of Cell Biology, University of Tübingen, 72076, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Ruhe, Jonas",
+        "short_name": "Ruhe J",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute for Plant Breeding Research, 50829, Cologne, Germany."
+        ]
+      },
+      {
+        "full_name": "Kemen, Ariane",
+        "short_name": "Kemen A",
+        "identifiers": [
+          "0000-0003-3533-1355"
+        ],
+        "affiliations": [
+          "Microbial Interactions in Plant Ecosystems, Center for Plant Molecular Biology, University of Tübingen, 72076, Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Kemen, Eric",
+        "short_name": "Kemen E",
+        "identifiers": [
+          "0000-0002-7924-116X"
+        ],
+        "affiliations": [
+          "Microbial Interactions in Plant Ecosystems, Center for Plant Molecular Biology, University of Tübingen, 72076, Tübingen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The New phytologist"
+    ],
+    "journal_abbrev": [
+      "New Phytol"
+    ],
+    "pub_date": "2023 Sep",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/24 13:08",
+    "fetched_at": "2026-09-20 22:20:06"
+  },
+  "links": {
+    "cites": [
+      "42615551",
+      "42521687",
+      "42294914",
+      "42138649",
+      "42054466",
+      "41912547",
+      "41840442",
+      "41472882",
+      "41379800",
+      "41201826",
+      "41163408",
+      "40776430",
+      "39148076",
+      "38648108",
+      "38317643",
+      "37471099"
+    ],
+    "refs": [],
+    "similar": [
+      "37222268",
+      "26788878",
+      "33427195",
+      "27379119",
+      "28320402",
+      "20198144",
+      "33468687",
+      "34620708",
+      "21091813",
+      "33367249",
+      "26725246",
+      "36724560",
+      "18624640",
+      "8664502",
+      "30288750",
+      "27306148",
+      "18624639",
+      "28163703",
+      "21724165",
+      "20164863",
+      "33369158",
+      "36587661",
+      "33161549",
+      "32315123",
+      "30057302",
+      "35041070",
+      "21995639",
+      "18039546",
+      "21750662",
+      "34161142",
+      "33393154",
+      "32803493",
+      "25225376",
+      "23457551",
+      "35642946",
+      "20643217",
+      "36118213",
+      "33608298",
+      "21806690",
+      "24607358",
+      "34493731",
+      "34853170",
+      "27882964",
+      "22080429",
+      "34210440",
+      "33713869",
+      "32247857",
+      "30692254",
+      "24687328",
+      "32462579",
+      "33161541",
+      "35234496",
+      "28967236",
+      "32889475",
+      "28411219",
+      "24223831",
+      "33905604",
+      "30128178",
+      "30038309",
+      "30924016",
+      "34406855",
+      "36538480",
+      "24743269",
+      "33493257",
+      "31003989",
+      "30466152",
+      "37230354",
+      "33161550",
+      "34181787",
+      "31707206",
+      "22678032",
+      "22581008",
+      "23820081",
+      "34710835",
+      "34546764",
+      "35210578",
+      "27853840",
+      "33036802",
+      "26082784",
+      "24530627",
+      "31030156",
+      "32438916",
+      "32760378"
+    ],
+    "review": [
+      "37222268",
+      "33367249",
+      "33369158",
+      "32247857",
+      "30466152",
+      "37230354",
+      "31707206",
+      "33036802",
+      "26082784"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/nph.18995",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

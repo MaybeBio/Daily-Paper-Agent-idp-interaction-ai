@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided.
+- **Assessment boundary** Scientific soundness, methodological validity, clarity of claims, and support of conclusions by the presented evidence. No assessment of code functionality or reproducibility beyond what is described.
+- **Shared manuscript claim summary** The authors present MULTICOM_qa, a hybrid method combining a pairwise structural similarity score (PSS) and a deep learning-based interface contact probability score (ICPS) to estimate the accuracy of quaternary structural models of protein complexes. The method reportedly ranked first among 24 predictors in the CASP15 EMA category. The authors analyze factors influencing performance and propose a "difficulty index" to quantify model pool difficulty.
+- **Visible evidence base** Abstract, Introduction, Methods (Sections 2.1-2.3), Results (Sections 3.1-3.6), Discussion, Conclusion, Author Contributions, Acknowledgements, References. Figures and tables are referenced but not fully visible in the provided text.
+- **Missing materials affecting confidence** Full figures and tables (Figures 1-9, Tables 1-3, Supplementary Figures S1-S7, Table S1) are not provided. Detailed statistical analysis methodology, exact definitions of some metrics (e.g., "good model" threshold), and the CASP15 official scoring details are referenced but not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in structural biology: estimating the accuracy of predicted protein complex models. The combination of a multi-model consensus approach with a single-model deep learning-based interface score is a reasonable and potentially valuable strategy. The reported CASP15 performance is impressive. However, the manuscript has several weaknesses that need to be addressed. The description of the methods is incomplete in places, the statistical rigor of the post-hoc analyses is not fully demonstrated, and the claim that the hybrid approach is "promising" is not fully supported by the presented data, which show only marginal improvement over PSS alone. The "difficulty index" is an interesting concept but its validation is preliminary. The manuscript would benefit from clearer presentation of the relationship between the components and a more critical discussion of the limitations.
+- **Who would be interested in the results, and why** Researchers in the fields of protein structure prediction, structural bioinformatics, and computational biology. Specifically, those developing or using methods for model quality assessment, protein-protein interaction prediction, and integrative structural modeling. The CASP community and developers of similar tools would find the benchmark results and analysis of interest.
+- **Major strengths** 1. The manuscript addresses a significant problem (EMA) that is crucial for the practical use of predicted complex structures. 2. The method is evaluated in a rigorous, blind setting (CASP15), which is a strong validation of its practical utility. 3. The analysis of factors influencing performance (target difficulty, model sampling, skewness) is insightful and goes beyond a simple performance report. 4. The introduction of a "difficulty index" is a novel contribution that could be useful for the community. 5. The writing is generally clear and well-structured.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Statistical rigor
+    - **Claim pointer** The manuscript claims that combining PSS and ICPS in MULTICOM_qa improves performance, specifically stating that the combination "reduces the average ranking loss" compared to PSS alone.
+    - **Evidence pointer** Section 3.5, Table 3, Section 2.2
+    - **Concern** The evidence for the superiority of the combination over PSS alone is weak. In Section 2.2, the authors state that on CASP14, the combination had a lower ranking loss (0.105) than PSS alone (0.118). However, in Section 3.5 (Table 3), on CASP15, the average PTRL for MULTICOM_qa is 0.142, while the text does not explicitly state the PTRL for PSS alone on the same 36 targets. It is only mentioned that MULTICOM_qa has the "lowest average PTRL" among the three methods (MULTICOM_qa, PSS, ICPS). Without the explicit PTRL value for PSS alone on the CASP15 dataset, the claim that the combination "reduces" the ranking loss is not directly supported. Furthermore, the improvement in Section 2.2 is based on a single, small dataset (CASP14, 21 targets) and the weights were not optimized. The authors need to provide a direct comparison of PSS vs. MULTICOM_qa on the CASP15 dataset to substantiate their claim.
+    - **Why it matters** The central thesis of the manuscript is that the hybrid combination is beneficial. If the improvement over PSS alone is marginal or not statistically significant, the core contribution of the work is weakened. The reader needs to see the direct comparison to judge the value of the hybrid approach.
+    - **Resolution test** Provide the average PTRL and PTCC for PSS alone on the 36 CASP15 targets in Table 3. Perform and report a statistical test (e.g., paired Wilcoxon signed-rank test) comparing the per-target PTRL and PTCC of MULTICOM_qa vs. PSS alone. If the difference is not significant, the claim should be tempered.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness / Methodological clarity
+    - **Claim pointer** The manuscript introduces a "difficulty index" and claims it is a "very effective measure of the difficulty of estimating the models for a target."
+    - **Evidence pointer** Section 3.4, Table 1, Supplementary Figure S6
+    - **Concern** The definition of the difficulty index is incomplete. The text states "The difficulty index for the models of a target is defined as . PSS i is the average pairwise similarity score of model i, n is the number of models. ." The actual formula is missing from the provided text. Without the formula, the metric cannot be evaluated or reproduced. Furthermore, the validation of this index is purely correlational (correlation with PTCC/PTRL). While a strong correlation is shown, the manuscript does not demonstrate that this index is more useful than existing measures or that it can be used prospectively to select hard targets. The claim of being "very effective" is strong and requires more robust validation.
+    - **Why it matters** A new metric should be clearly defined and rigorously validated to be useful to the community. An incomplete definition prevents others from using it. The current validation is insufficient to support the strength of the claim.
+    - **Resolution test** Provide the complete, unambiguous formula for the difficulty index. Discuss its properties and potential limitations. Compare its predictive power for EMA performance against simpler metrics (e.g., mean PSS, proportion of good models) using appropriate statistical methods (e.g., cross-validation).
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness / Reproducibility
+    - **Claim pointer** The method relies on CDpred for inter-chain contact prediction, and the ICPS is calculated from these predictions.
+    - **Evidence pointer** Section 2.1, Figure 1
+    - **Concern** The description of the ICPS calculation is incomplete. The text states that "The inter-chain residue-residue contact probability map for every two chains forming an identified interaction interface are then predicted by an inter-chain residue-residue contact predictor - CDpred." However, it is not clear how the predicted probability map is used to calculate the ICPS for a given model. Specifically, how are the predicted probabilities for the contacts present in the model extracted and averaged? Are all predicted contacts in the interface considered, or only those above a certain probability threshold? The details of this calculation are crucial for reproducibility.
+    - **Why it matters** Without a precise description of the ICPS calculation, other researchers cannot implement or fully understand the method. This limits the impact and reproducibility of the work.
+    - **Resolution test** Provide a step-by-step description of the ICPS calculation, including any thresholds or normalization steps. A pseudo-code or a more detailed mathematical formulation would be helpful.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract
+    - **Evidence pointer** Abstract
+    - **Issue** The abstract states the method "ranked first out of 24 predictors" but does not specify the exact metric used for this ranking (e.g., the official CASP15 SCORE). While Section 3.1 mentions the official ranking, the abstract should be self-contained.
+    - **Required correction** Briefly mention the metric (e.g., "ranked first based on the official CASP15 SCORE metric") in the abstract.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Section 3.2
+    - **Evidence pointer** Section 3.2, Figure 3
+    - **Issue** The text states "26 targets have a relatively high PTCC >= 0.7" and "Two targets (H1141 and H1111) have a moderate correlation between 0.35 and 0.65". The categories are not mutually exclusive and the ranges are not contiguous (e.g., what about targets with PTCC between 0.65 and 0.7?). A clearer categorization or a continuous description would be more precise.
+    - **Required correction** Use non-overlapping and contiguous ranges for the categories (e.g., PTCC >= 0.7, 0.4 <= PTCC < 0.7, 0.2 <= PTCC < 0.4, PTCC < 0.2).
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Section 3.2
+    - **Evidence pointer** Section 3.2, Figure 5
+    - **Issue** The text mentions "the skewness of the distribution of the quality (true TM-scores) of the models of each target" but does not specify the direction of the skewness that makes estimation harder. It later says "A large positive skewness indicates that there are more highly concentrated below-average models...". It would be clearer to state that a high positive skewness (i.e., a long tail of good models) is associated with harder estimation, as implied by the negative correlation.
+    - **Required correction** Explicitly state the relationship: "A high positive skewness, indicating a concentration of low-quality models and a long tail of high-quality models, is associated with lower PTCC and higher PTRL."
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Section 3.5
+    - **Evidence pointer** Section 3.5, Table 3
+    - **Issue** The text states "MULTICOM_qa has the lowest average PTRL, while PSS has the highest average PTCC". This is a key result, but the actual values are not in the text. The reader is forced to look at Table 3, which is not fully visible.
+    - **Required correction** Include the numerical values for the average PTRL and PTCC for all three methods (MULTICOM_qa, PSS, ICPS) in the text.
+    - **Concern ID** R1-m5
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Section 3.3
+    - **Evidence pointer** Section 3.3, Figure 8
+    - **Issue** The description of the model similarity graph is brief. It would be helpful to explain how the graph is constructed (e.g., what is the exact threshold for connecting two models) and what the nodes and edges represent in more detail.
+    - **Required correction** Provide a more detailed description of the graph construction in the text or figure legend.
+    - **Concern ID** R1-m6
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Section 2.1
+    - **Evidence pointer** Section 2.1
+    - **Issue** The text mentions "mnomer_pss" which appears to be a typo for "monomer_pss".
+    - **Required correction** Correct the typo.
+
+## Risk / unsupported claims
+- The claim that MULTICOM_qa "ranked first out of 24 predictors" is supported by reference to the official CASP15 ranking, but the specific details of the official SCORE metric are not fully described in the manuscript.
+- The claim that the combination of PSS and ICPS "reduces the average ranking loss" compared to PSS alone is not directly supported by the data presented in the text for the CASP15 dataset. The comparison is only shown for CASP14 in Section 2.2.
+- The claim that the "difficulty index" is a "very effective measure" is based on correlational evidence only and the formula is not provided, making it impossible to fully evaluate.
+- The statement in the Discussion that "the search for the best approach of combining them is challenging and still ongoing" is a forward-looking statement, not a claim of current results.
+- The statement in the Discussion that "we have noticed that the model ranking of AlphaFold2 predicted quality score and the pairwise model similarity score are complementary on our in-house models" is based on data not shown, making it unverifiable.

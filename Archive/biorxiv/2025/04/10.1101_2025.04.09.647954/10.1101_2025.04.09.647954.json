@@ -1,0 +1,195 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.04.09.647954",
+  "title": "The leader proteins of Theiler’s virus and Boone cardiovirus use a combination of Short Linear Motifs (SLiMs) to target RSK kinases to the nuclear pore complex",
+  "doi": "10.1101/2025.04.09.647954",
+  "abstract": "Unrelated pathogens, including viruses and bacteria, use a common DDVF-like short linear motif (SLiM) to interact with cellular kinases of the RSK (p90 S6 ribosomal kinase) family. Such a “DDVF” SLiM occurs in the leader (L) protein encoded by picornaviruses of the genus Cardiovirus , including Theiler’s murine encephalomyelitis virus (TMEV), Boone cardiovirus (BCV), and Encephalomyocarditis virus (EMCV). The L-RSK complex is targeted to the nuclear pore, where RSK triggers FG-nucleoporins hyperphosphorylation, thereby causing nucleocytoplasmic trafficking disruption. In this work, we identified a second SLiM in the L proteins of TMEV and BCV, which enables the L-RSK complex to interact with RAE1 at the level of the nuclear pore complex. AlphaFold predictions suggest that the RAE1-interacting SLiM of L proteins is analogous to that found in unrelated viral proteins such as ORF6 of SARS-CoV-1/2, ORF10 of Kaposi sarcoma-associated herpes virus (KSHV), and the matrix (M) protein of vesicular stomatitis virus (VSV). Co-immunoprecipitations confirmed the interaction between BCV L and RAE1 and competition experiments revealed that L can compete with ORF6 for RAE1 binding, suggesting that BCV and TMEV L proteins interact with RAE1 via the same docking site as M, ORF6, or ORF10. This RAE1 binding SLiM tentatively named “M-acidic”, is predicted to occur in other viral proteins such as Rift valley fever virus NSs as well as in cell proteins such as NXF1. BCV and TMEV L proteins use a combination of two independent SLiMs to hijack cellular kinases and retarget those kinases toward the nuclear pore complex. <h4>Importance</h4> Protein-protein interactions are critical to regulate cell physiology. Short linear motifs (SLiMs) are unstructured protein sequences, which usually bind to structured domains of partner proteins. They typically mediate low affinity, transient interactions, which are particularly suitable for fine tuning cell physiology or helping cells to react promptly to stress situations. Owing to their fast replication and to the high error rate of their polymerases, viruses, particularly RNA viruses are prone to acquire SLiMs that mimic cellular SLiMs and thereby interfere with host cell signaling. In this work, we show that the leader (“L”) protein expressed by some cardioviruses ( Picornaviridae family) uses two SLiMs in combination, which are individually shared by other pathogens: the first one, described previously, enables the L protein to hijack cellular kinases named RSKs, and the second one described in this work enables the L-RSK complex to target proteins RAE1 and NUP98 in the nuclear pore complex.",
+  "authors": [
+    "Lizcano-Perret B",
+    "Wavreil F",
+    "Veinstein M",
+    "Duflos C",
+    "Milcamps R",
+    "Sorgeloos F",
+    "Michiels T"
+  ],
+  "published_date": "2025-04-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.04.09.647954",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.04.09.647954.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1002575",
+    "raw_record": {
+      "id": "PPR1002575",
+      "source": "PPR",
+      "doi": "10.1101/2025.04.09.647954",
+      "title": "The leader proteins of Theiler’s virus and Boone cardiovirus use a combination of Short Linear Motifs (SLiMs) to target RSK kinases to the nuclear pore complex",
+      "authorString": "Lizcano-Perret B, Wavreil F, Veinstein M, Duflos C, Milcamps R, Sorgeloos F, Michiels T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lizcano-Perret B",
+            "lastName": "Lizcano-Perret",
+            "firstName": "Belén",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1962-1689"
+            }
+          },
+          {
+            "fullName": "Wavreil F",
+            "lastName": "Wavreil",
+            "firstName": "Fanny",
+            "initials": "F"
+          },
+          {
+            "fullName": "Veinstein M",
+            "lastName": "Veinstein",
+            "firstName": "Martin",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0571-5916"
+            }
+          },
+          {
+            "fullName": "Duflos C",
+            "lastName": "Duflos",
+            "firstName": "Camille",
+            "initials": "C"
+          },
+          {
+            "fullName": "Milcamps R",
+            "lastName": "Milcamps",
+            "firstName": "Romane",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0001-6934-1298"
+            }
+          },
+          {
+            "fullName": "Sorgeloos F",
+            "lastName": "Sorgeloos",
+            "firstName": "Frédéric",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6492-8524"
+            }
+          },
+          {
+            "fullName": "Michiels T",
+            "lastName": "Michiels",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9615-8053"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9615-8053"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0571-5916"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1962-1689"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6492-8524"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0001-6934-1298"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Unrelated pathogens, including viruses and bacteria, use a common DDVF-like short linear motif (SLiM) to interact with cellular kinases of the RSK (p90 S6 ribosomal kinase) family. Such a “DDVF” SLiM occurs in the leader (L) protein encoded by picornaviruses of the genus  Cardiovirus , including Theiler’s murine encephalomyelitis virus (TMEV), Boone cardiovirus (BCV), and Encephalomyocarditis virus (EMCV). The L-RSK complex is targeted to the nuclear pore, where RSK triggers FG-nucleoporins hyperphosphorylation, thereby causing nucleocytoplasmic trafficking disruption. In this work, we identified a second SLiM in the L proteins of TMEV and BCV, which enables the L-RSK complex to interact with RAE1 at the level of the nuclear pore complex. AlphaFold predictions suggest that the RAE1-interacting SLiM of L proteins is analogous to that found in unrelated viral proteins such as ORF6 of SARS-CoV-1/2, ORF10 of Kaposi sarcoma-associated herpes virus (KSHV), and the matrix (M) protein of vesicular stomatitis virus (VSV). Co-immunoprecipitations confirmed the interaction between BCV L and RAE1 and competition experiments revealed that L can compete with ORF6 for RAE1 binding, suggesting that BCV and TMEV L proteins interact with RAE1 via the same docking site as M, ORF6, or ORF10. This RAE1 binding SLiM tentatively named “M-acidic”, is predicted to occur in other viral proteins such as Rift valley fever virus NSs as well as in cell proteins such as NXF1. BCV and TMEV L proteins use a combination of two independent SLiMs to hijack cellular kinases and retarget those kinases toward the nuclear pore complex.  <h4>Importance</h4>  Protein-protein interactions are critical to regulate cell physiology. Short linear motifs (SLiMs) are unstructured protein sequences, which usually bind to structured domains of partner proteins. They typically mediate low affinity, transient interactions, which are particularly suitable for fine tuning cell physiology or helping cells to react promptly to stress situations. Owing to their fast replication and to the high error rate of their polymerases, viruses, particularly RNA viruses are prone to acquire SLiMs that mimic cellular SLiMs and thereby interfere with host cell signaling. In this work, we show that the leader (“L”) protein expressed by some cardioviruses (  Picornaviridae family) uses two SLiMs in combination, which are individually shared by other pathogens: the first one, described previously, enables the L protein to hijack cellular kinases named RSKs, and the second one described in this work enables the L-RSK complex to target proteins RAE1 and NUP98 in the nuclear pore complex.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/04/10/2025.04.09.647954.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.04.09.647954"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40928249",
+            "reference": "Journal of virology. 2025 Oct;99(10):e0127525",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-04-12",
+      "firstPublicationDate": "2025-04-10",
+      "firstIndexDate": "2025-04-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

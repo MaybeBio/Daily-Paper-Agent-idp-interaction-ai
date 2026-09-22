@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The abstract presents a review-style synthesis arguing that DXO1 and XRN3 coordinately regulate RNA stability and transcription in Arabidopsis thaliana, that XRN3-associated expression changes are largely attributable to siRNA-mediated gene silencing rather than direct termination effects, and that unexplored links to liquid-liquid phase separation (LLPS), the DXO1 N-terminal extension, and RNA Pol II CTD code modulation warrant further investigation.
+- **Visible evidence base** Abstract text only; no citations, experimental data, figures, or tables are visible
+- **Missing materials affecting confidence** Full manuscript text, reference list, figures, tables, supplementary data, and any primary experimental or bioinformatic analyses supporting the stated claims
+
+## Reviewer
+- **Overall assessment** The abstract outlines a plausible and potentially interesting synthesis of DXO1 and XRN3 functions in Arabidopsis RNA metabolism, with an emphasis on future directions involving LLPS and CTD code regulation. However, as presented, the abstract is largely descriptive and forward-looking, with no visible primary evidence or citation support. The scientific case for the central claims, particularly the siRNA-mediated silencing interpretation and the proposed DXO1-XRN3 axis, cannot be evaluated from the supplied material. The writing is generally clear but lacks specificity regarding mechanisms, experimental support, and the distinction between established findings and speculative proposals.
+- **Who would be interested in the results, and why** Plant molecular biologists studying RNA metabolism, transcription termination, and gene silencing in Arabidopsis would find the synthesis relevant. Researchers interested in liquid-liquid phase separation in plant systems and those working on RNA quality control pathways may also be attracted to the proposed framework. The agricultural productivity angle could appeal to translational plant scientists, though this connection is not developed in the abstract.
+- **Major strengths** The abstract identifies a timely and underexplored intersection between RNA decay enzymes and LLPS. The distinction between direct transcription termination effects and siRNA-mediated silencing as downstream consequences of XRN3 activity is a useful conceptual clarification. The call to examine XRN4 redundancy and the DXO1 N-terminal extension highlights specific knowledge gaps that could guide future experiments.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract states that XRN3-mediated changes in gene expression often result from siRNA production leading to gene silencing rather than direct effects on transcription termination.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** This is presented as a definitive conclusion, but no supporting data, citations, or methodological details are visible in the abstract. The claim is central to the manuscript's conceptual contribution, yet the evidence base is entirely absent from the supplied material.
+  - **Why it matters** If this claim is not rigorously supported by primary data or a comprehensive citation base, the manuscript risks overstating a mechanistic interpretation that may be context-dependent or contested in the literature.
+  - **Resolution test** Provide the relevant experimental or bioinformatic evidence, including the RNA sequencing datasets, siRNA analyses, and controls, or cite the specific studies that establish this conclusion. The claim should be qualified if it is based on limited contexts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Conceptual coherence
+  - **Claim pointer** The abstract proposes a DXO1-XRN3 axis with interactive mechanisms and potential involvement in LLPS during transcription.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The nature of the proposed axis is not defined. It is unclear whether DXO1 and XRN3 physically interact, act in the same pathway, or merely share functional overlap in RNA metabolism. The connection to LLPS is speculative and lacks mechanistic grounding in the abstract.
+  - **Why it matters** The central thesis of the review appears to hinge on this axis, but without a clear mechanistic model or evidence for interaction, the proposal remains unfalsifiable and difficult for readers to assess.
+  - **Resolution test** Clarify the proposed relationship with a schematic or explicit mechanistic model, and cite or present evidence for any physical or functional interaction. If the axis is purely conceptual, state this explicitly and frame it as a hypothesis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and novelty
+  - **Claim pointer** The abstract calls for more studies on the DXO1 N-terminal extension, predictive tools for LLPS-forming proteins, and RNA Pol II CTD code modulation.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** These future directions are listed without justification. The abstract does not explain why the NTE is plant-specific, how PSPredictor would be applied to DXO1 and XRN3, or what specific gaps exist in CTD code research relative to these proteins.
+  - **Why it matters** A review should motivate its proposed directions with specific unresolved questions. Without this, the recommendations read as generic and reduce the manuscript's impact.
+  - **Resolution test** For each proposed direction, state the specific unresolved question, why it matters for the DXO1-XRN3 axis, and what experimental or computational approach would address it.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "RNA equilibrium" is vague and not defined in the abstract.
+  - **Required correction** Define what is meant by RNA equilibrium, for example steady-state levels, decay rates, or a balance between synthesis and degradation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Claim about DXO1 functions
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract lists three DXO1 functions without indicating which are established in Arabidopsis versus inferred from other organisms.
+  - **Required correction** Specify the organismal context for each function and note any extrapolations from non-plant systems.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract shifts from a review of existing knowledge to a set of future directions without a clear transition or summary of the current state of the field.
+  - **Required correction** Add a sentence that synthesizes the current understanding before introducing the proposed research agenda.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central mechanistic claims are unsupported by visible evidence, and the proposed DXO1-XRN3 axis is not defined with sufficient precision to be evaluated.
+- **Assessment against Nature-style criteria**  
+  - Originality: The intersection of RNA decay enzymes with LLPS is a fresh angle, but the abstract does not demonstrate how this goes beyond existing reviews on RNA metabolism or LLPS in plants.  
+  - Scientific importance: The topic is relevant to fundamental plant biology and stress adaptation, but the importance is asserted rather than demonstrated with specific examples or implications.  
+  - Interdisciplinary readership: The abstract may appeal to plant biologists and RNA researchers, but the lack of mechanistic detail limits broader appeal to biophysicists or cell biologists interested in LLPS.  
+  - Technical soundness: Not assessable from the abstract alone; no methods, data, or citations are visible.  
+  - Readability for nonspecialists: The abstract is generally readable but uses jargon such as "non-canonical NAD(+) caps" and "RNA Pol II CTD code" without explanation, which would hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible framework, but the absence of supporting data, citations, and mechanistic clarity prevents evaluation of the central claims. A revised submission with explicit evidence, a defined model for the DXO1-XRN3 axis, and justified future directions could change this assessment.
+
+## Risk / unsupported claims
+- The claim that XRN3-mediated expression changes result from siRNA production rather than direct termination effects is unsupported in the abstract.
+- The existence and functional relevance of a DXO1-XRN3 axis is asserted without evidence or mechanistic definition.
+- The proposed involvement of DXO1 and XRN3 in LLPS during transcription is speculative and not grounded in any visible data.
+- The plant-specific nature of the DXO1 N-terminal extension is stated without comparative evidence.
+- The utility of PSPredictor for advancing understanding of DXO1 and XRN3 is suggested without validation or application examples.

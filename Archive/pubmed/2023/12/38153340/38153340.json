@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "38153340",
+    "doi": "10.1021/acs.jctc.3c01182",
+    "title": "Multi-eGO: Model Improvements toward the Study of Complex Self-Assembly Processes."
+  },
+  "content": {
+    "abstract": "Structure-based models have been instrumental in simulating protein folding and suggesting hypotheses about the mechanisms involved. Nowadays, at least for fast-folding proteins, folding can be simulated in explicit solvent using classical molecular dynamics. However, other self-assembly processes, such as protein aggregation, are still far from being accessible. Recently, we proposed that a hybrid multistate structure-based model, multi-eGO, could help to bridge the gap toward the simulation of out-of-equilibrium, concentration-dependent self-assembly processes. Here, we further improve the model and show how multi-eGO can effectively and accurately learn the conformational ensemble of the amyloid beta42 intrinsically disordered peptide, reproduce the well-established folding mechanism of the B1 immunoglobulin-binding domain of streptococcal protein G, and reproduce the aggregation as a function of the concentration of the transthyretin 105-115 amyloidogenic peptide. We envision that by learning from the dynamics of a few minima, multi-eGO can become a platform for simulating processes inaccessible to other simulation techniques.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Conformation",
+      "*Protein Folding",
+      "*Molecular Dynamics Simulation",
+      "Peptides",
+      "Ego"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bacic Toplek, Fran",
+        "Scalone, Emanuele",
+        "Stegani, Bruno",
+        "Paissoni, Cristina",
+        "Capelli, Riccardo",
+        "Camilloni, Carlo"
+      ],
+      "short_names": [
+        "Bacic Toplek F",
+        "Scalone E",
+        "Stegani B",
+        "Paissoni C",
+        "Capelli R",
+        "Camilloni C"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8331-0885",
+        "ORCID: 0000-0003-4271-4856",
+        "ORCID: 0000-0001-9522-3132",
+        "ORCID: 0000-0002-9923-8590"
+      ],
+      "affiliations": [
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy.",
+        "Department of Chemistry, Dartmouth College, Hanover, New Hampshire 03755, United States.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy.",
+        "Dipartimento di Bioscienze, Universita degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bačić Toplek, Fran",
+        "short_name": "Bačić Toplek F",
+        "identifiers": [
+          "0000-0002-8331-0885"
+        ],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Scalone, Emanuele",
+        "short_name": "Scalone E",
+        "identifiers": [
+          "0000-0003-4271-4856"
+        ],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy.",
+          "Department of Chemistry, Dartmouth College, Hanover, New Hampshire 03755, United States."
+        ]
+      },
+      {
+        "full_name": "Stegani, Bruno",
+        "short_name": "Stegani B",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Paissoni, Cristina",
+        "short_name": "Paissoni C",
+        "identifiers": [],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Capelli, Riccardo",
+        "short_name": "Capelli R",
+        "identifiers": [
+          "0000-0001-9522-3132"
+        ],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Camilloni, Carlo",
+        "short_name": "Camilloni C",
+        "identifiers": [
+          "0000-0002-9923-8590"
+        ],
+        "affiliations": [
+          "Dipartimento di Bioscienze, Università degli Studi di Milano, Via Celoria 26, 20133 Milano, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2024 Jan 9",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/28 12:42",
+    "fetched_at": "2026-09-21 03:47:12"
+  },
+  "links": {
+    "cites": [
+      "42196428",
+      "41091939",
+      "40879372",
+      "40475647",
+      "39908323",
+      "39555662",
+      "39554101"
+    ],
+    "refs": [
+      "39212001",
+      "38217162",
+      "37788237",
+      "37714883",
+      "37468629",
+      "35737839",
+      "35130691",
+      "34716273",
+      "34282049",
+      "34265844",
+      "33876938",
+      "33782607",
+      "33307683",
+      "33140034",
+      "32962386",
+      "31984178",
+      "31363226",
+      "30285630",
+      "29735687",
+      "29364893",
+      "26619985",
+      "26610119",
+      "26598361",
+      "24811666",
+      "24773235",
+      "23513222",
+      "22813427",
+      "22583310",
+      "21650202",
+      "21539772",
+      "21280806",
+      "21268115",
+      "21103041",
+      "20059117",
+      "17212484",
+      "16877541",
+      "16815916",
+      "16338404",
+      "16105172",
+      "14607121",
+      "14573863",
+      "12271136",
+      "12237457",
+      "10932252",
+      "6375662",
+      "2025248",
+      "1871600"
+    ],
+    "similar": [
+      "38153340",
+      "35737839",
+      "23912807",
+      "32371882",
+      "21761818",
+      "34845619",
+      "28970487",
+      "30973229",
+      "38892222",
+      "32123956",
+      "20938982",
+      "25207671",
+      "32006812",
+      "34358545",
+      "9930980",
+      "15933762",
+      "29425042",
+      "20731401",
+      "31552948",
+      "27975243",
+      "25785896",
+      "32227937",
+      "26331258",
+      "28914525",
+      "30514080",
+      "31342431",
+      "18393887",
+      "24050152",
+      "19863125",
+      "21056574",
+      "37341654",
+      "32623047",
+      "24043820",
+      "12829502",
+      "30802465",
+      "38294935",
+      "20166738",
+      "26742101",
+      "35167081",
+      "32323533",
+      "29865833",
+      "27854243",
+      "8639594",
+      "29241326",
+      "16851315",
+      "31356683",
+      "33576533",
+      "33108190",
+      "31442763",
+      "19887634",
+      "38862055",
+      "24446368",
+      "18646868",
+      "26030674",
+      "30215519",
+      "17173285",
+      "24336839",
+      "36012765",
+      "39412378",
+      "19472192",
+      "25068712",
+      "27423742",
+      "34298994",
+      "26845039",
+      "11170204",
+      "26910732",
+      "35167084",
+      "28650060",
+      "29185737",
+      "35561002",
+      "16617376",
+      "29990433",
+      "32579908",
+      "19217911",
+      "20039666",
+      "30865832",
+      "21618995",
+      "23723000",
+      "32816485",
+      "32794754",
+      "27111190",
+      "33382616",
+      "23891935",
+      "30711540",
+      "23811057",
+      "29364151",
+      "33438724",
+      "31771874",
+      "25137638",
+      "34326249",
+      "21280806",
+      "18593146",
+      "26872480",
+      "31362509",
+      "25387963",
+      "28478513",
+      "29946610",
+      "25643174",
+      "19843466",
+      "21591767"
+    ],
+    "review": [
+      "38153340",
+      "30973229",
+      "32006812",
+      "34358545",
+      "15933762",
+      "18393887",
+      "18646868",
+      "24336839",
+      "19472192",
+      "26845039",
+      "30711540",
+      "29364151"
+    ],
+    "pmc": [
+      "10782439"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/1023496",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38153340/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38153340",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TTR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.3c01182",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

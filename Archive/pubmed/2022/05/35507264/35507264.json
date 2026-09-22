@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "35507264",
+    "doi": "10.1007/978-1-0716-2095-3_8",
+    "title": "Prediction of the Effect of pH on the Aggregation and Conditional Folding of Intrinsically Disordered Proteins with SolupHred and DispHred."
+  },
+  "content": {
+    "abstract": "Proteins microenvironments modulate their structures. Binding partners, organic molecules, or dissolved ions can alter the protein's compaction, inducing aggregation or order-disorder conformational transitions. Surprisingly, bioinformatic platforms often disregard the protein context in their modeling. In a recent work, we proposed that modeling how pH affects protein net charge and hydrophobicity might allow us to forecast pH-dependent aggregation and conditional disorder in intrinsically disordered proteins (IDPs). As these approaches showed remarkable success in recapitulating the available bibliographical data, we made these prediction methods available for the scientific community as two user-friendly web servers. SolupHred is the first dedicated software to predict pH-dependent aggregation, and DispHred is the first pH-dependent predictor of protein disorder. Here we dissect the features of these two software applications to train and assist scientists in studying pH-dependent conformational changes in IDPs.",
+    "keywords": [
+      "Aggregation prediction",
+      "Amyloid",
+      "Bioinformatics",
+      "Conditional folding",
+      "Disorder prediction",
+      "IDPs",
+      "Machine learning",
+      "Protein aggregation",
+      "Protein compaction",
+      "pH"
+    ],
+    "mesh_terms": [
+      "Computers",
+      "Hydrogen-Ion Concentration",
+      "Hydrophobic and Hydrophilic Interactions",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Conformation",
+      "Protein Folding",
+      "Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Iglesias, Valentin",
+        "Pintado-Grima, Carlos",
+        "Santos, Jaime",
+        "Fornt, Marc",
+        "Ventura, Salvador"
+      ],
+      "short_names": [
+        "Iglesias V",
+        "Pintado-Grima C",
+        "Santos J",
+        "Fornt M",
+        "Ventura S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Bellaterra, Spain.",
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Bellaterra, Spain.",
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Bellaterra, Spain.",
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Bellaterra, Spain.",
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Bellaterra, Spain. Salvador.ventura@uab.es.",
+        "Institut de Biotecnologia i de Biomedicina, Campus Universitari de Bellaterra, Cerdanyola, Barcelona, Spain. Salvador.ventura@uab.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Iglesias, Valentín",
+        "short_name": "Iglesias V",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Bellaterra, Spain."
+        ]
+      },
+      {
+        "full_name": "Pintado-Grima, Carlos",
+        "short_name": "Pintado-Grima C",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Bellaterra, Spain."
+        ]
+      },
+      {
+        "full_name": "Santos, Jaime",
+        "short_name": "Santos J",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Bellaterra, Spain."
+        ]
+      },
+      {
+        "full_name": "Fornt, Marc",
+        "short_name": "Fornt M",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Bellaterra, Spain."
+        ]
+      },
+      {
+        "full_name": "Ventura, Salvador",
+        "short_name": "Ventura S",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Bellaterra, Spain. Salvador.ventura@uab.es.",
+          "Institut de Biotecnologia i de Biomedicina, Campus Universitari de Bellaterra, Cerdanyola, Barcelona, Spain. Salvador.ventura@uab.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/05 06:00",
+    "fetched_at": "2026-09-20 10:09:48"
+  },
+  "links": {
+    "cites": [
+      "37676599"
+    ],
+    "refs": [
+      "32637039",
+      "31713202",
+      "30741551",
+      "28890401",
+      "25559583",
+      "24908382",
+      "24773235",
+      "24151449",
+      "23609508",
+      "19768526",
+      "19071235",
+      "17324296",
+      "16998873",
+      "16277975",
+      "15955783",
+      "11577980",
+      "11152691",
+      "11025552",
+      "10555983",
+      "7108955",
+      "3978191"
+    ],
+    "similar": [
+      "35507264",
+      "32823616",
+      "33098409",
+      "34827596",
+      "31936201",
+      "28890401",
+      "36206480",
+      "34358545",
+      "25345588",
+      "30529354",
+      "29621630",
+      "23723000",
+      "33567297",
+      "26287166",
+      "28365882",
+      "32253236",
+      "31756456",
+      "29026044",
+      "24317797",
+      "32020911",
+      "30025858",
+      "32696395",
+      "20483348",
+      "23821606",
+      "26912067",
+      "33108190",
+      "35167081",
+      "25287424",
+      "36210722",
+      "32103094",
+      "24150971",
+      "34390736",
+      "32592801",
+      "23545493",
+      "32696367",
+      "32707418",
+      "27004461",
+      "26851284",
+      "38892222",
+      "26851279",
+      "39248414",
+      "34902817",
+      "31756104",
+      "27819658",
+      "27548131",
+      "25244701",
+      "26195786",
+      "29982297",
+      "33207556",
+      "34545666",
+      "32352283",
+      "26851286",
+      "30527137",
+      "33566618",
+      "29734867",
+      "29990433",
+      "29413001",
+      "23794453",
+      "29362761",
+      "23813758",
+      "27787828",
+      "32867340",
+      "25375525",
+      "34101805",
+      "28970487",
+      "34375385",
+      "27936491",
+      "32112804",
+      "27111521",
+      "33341693",
+      "23531173",
+      "28097742",
+      "31624293",
+      "33875885",
+      "32623047",
+      "33355572",
+      "33068637",
+      "32184088",
+      "33087759",
+      "26742101",
+      "27150313",
+      "25511246",
+      "30600181",
+      "35034725",
+      "30324701",
+      "25502193",
+      "30365227",
+      "32621228",
+      "30373142",
+      "30968464",
+      "29716994",
+      "29595057",
+      "29753880",
+      "32429036",
+      "32771522",
+      "34224747",
+      "34310121",
+      "30914747",
+      "37581491",
+      "36987846",
+      "38738618",
+      "28516025",
+      "36814642",
+      "39108291",
+      "39201640"
+    ],
+    "review": [
+      "35507264",
+      "34358545",
+      "33567297",
+      "26287166",
+      "32253236",
+      "32020911",
+      "25287424",
+      "34390736",
+      "23545493",
+      "27004461",
+      "26851279",
+      "34902817",
+      "27548131",
+      "29982297",
+      "33207556",
+      "34545666",
+      "26851286",
+      "30527137",
+      "29413001",
+      "23794453",
+      "32867340",
+      "34101805",
+      "33355572",
+      "25502193",
+      "30365227",
+      "29753880",
+      "32429036",
+      "34224747"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-2095-3_8",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

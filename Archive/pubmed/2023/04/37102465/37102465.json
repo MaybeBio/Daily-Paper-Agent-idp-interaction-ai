@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "37102465",
+    "doi": "10.1142/S0219720023500075",
+    "title": "Integrated in silico-in vitro rational design of oncogenic EGFR-derived specific monoclonal antibody-binding peptide mimotopes."
+  },
+  "content": {
+    "abstract": "Human epidermal growth factor receptor (EGFR) is strongly associated with malignant proliferation and has been established as an attractive therapeutic target of diverse cancers and used as a significant biomarker for tumor diagnosis. Over the past decades, a variety of monoclonal antibodies (mAbs) have been successfully developed to specifically recognize the third subdomain (TSD) of EGFR extracellular domain. Here, the complex crystal structures of EGFR TSD subdomain with its cognate mAbs were examined and compared systematically, revealing a consistent binding mode shared by these mAbs. The recognition site is located on the [Formula: see text]-sheet surface of TSD ladder architecture, from which several hotspot residues that significantly confer both stability and specificity to the recognition were identified, responsible for about half of the total binding potency of mAbs to TSD subdomain. A number of linear peptide mimotopes were rationally designed to mimic these TSD hotspot residues in different orientations and/or in different head-to-tail manners by using an orthogonal threading-through-strand (OTTS) strategy, which, however, are intrinsically disordered in Free State and thus cannot be maintained in a native hotspot-like conformation. A chemical stapling strategy was employed to constrain the free peptides into a double-stranded conformation by introducing a disulfide bond across two strand arms of the peptide mimotopes. Both empirical scoring and [Formula: see text]fluorescence assay reached an agreement that the stapling can effectively improve the interaction potency of OTTS-designed peptide mimotopes to different mAbs, with binding affinity increase by [Formula: see text]-fold. Conformational analysis revealed that the stapled cyclic peptide mimotopes can spontaneously fold into a double-stranded conformation that well threads through all the hotspot residues on TSD [Formula: see text]-sheet surface and exhibits a consistent binding mode with the TSD hotspot site to mAbs.",
+    "keywords": [
+      "Monoclonal antibody",
+      "epidermal growth factor receptor",
+      "molecular modeling",
+      "oncogenic protein",
+      "peptide mimotope",
+      "tumor biomarker"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Antibodies, Monoclonal/metabolism",
+      "*Peptides/chemistry",
+      "Protein Binding",
+      "ErbB Receptors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Ke",
+        "Ge, Lili",
+        "Liu, Guorui"
+      ],
+      "short_names": [
+        "Chen K",
+        "Ge L",
+        "Liu G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Clinical Laboratory, The Affiliated Huai'an Hospital of Xuzhou Medical University, Huaian 223002, P. R. China.",
+        "Department of Clinical Laboratory, The Affiliated Huai'an Hospital of Xuzhou Medical University, Huaian 223002, P. R. China.",
+        "Department of Clinical Laboratory, Jinling Hospital, Nanjing University School of Medicine, Nanjing 210002, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Ke",
+        "short_name": "Chen K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, The Affiliated Huai'an Hospital of Xuzhou Medical University, Huaian 223002, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Ge, Lili",
+        "short_name": "Ge L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, The Affiliated Huai'an Hospital of Xuzhou Medical University, Huaian 223002, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Guorui",
+        "short_name": "Liu G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Clinical Laboratory, Jinling Hospital, Nanjing University School of Medicine, Nanjing 210002, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of bioinformatics and computational biology"
+    ],
+    "journal_abbrev": [
+      "J Bioinform Comput Biol"
+    ],
+    "pub_date": "2023 Apr",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/27 12:41",
+    "fetched_at": "2026-09-20 21:27:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37102465",
+      "36471585",
+      "27659529",
+      "36119132",
+      "36547692",
+      "32912021",
+      "37415317",
+      "34598087",
+      "10760806",
+      "34077816",
+      "32528470",
+      "21602175",
+      "30700733",
+      "33619824",
+      "29864683",
+      "36098714",
+      "35451939",
+      "20514015",
+      "30465941",
+      "35869579",
+      "16288119",
+      "31586754",
+      "33283479",
+      "28004347",
+      "8094290",
+      "15075331",
+      "10639153",
+      "28911855",
+      "19048033",
+      "32721503",
+      "32286937",
+      "35561040",
+      "30352228",
+      "22564724",
+      "20641885",
+      "14748062",
+      "16581206",
+      "19747140",
+      "25885222",
+      "20641427",
+      "20641866",
+      "15589320",
+      "34500324",
+      "18424917",
+      "20641213",
+      "29090976",
+      "17932913",
+      "30731167",
+      "9531289",
+      "19087303",
+      "17607321",
+      "9430697",
+      "17060469",
+      "23226096",
+      "28122173",
+      "22737224",
+      "9839555",
+      "26819303",
+      "32024694",
+      "15327953",
+      "7925442",
+      "15231819",
+      "28754059",
+      "16251186",
+      "21067548",
+      "10878355",
+      "24530813",
+      "9356343",
+      "32980676",
+      "10222350",
+      "19951177",
+      "7606735",
+      "29102725",
+      "15717942",
+      "31894111",
+      "9422094",
+      "15665647",
+      "8558079",
+      "11750040",
+      "34311259",
+      "22436374",
+      "9430247",
+      "20930053",
+      "10846104",
+      "7514268",
+      "24101516",
+      "10488067",
+      "9664130",
+      "17545543",
+      "23251664",
+      "11292349",
+      "9712050",
+      "15789570",
+      "26967626",
+      "24484217",
+      "26772184",
+      "38575678"
+    ],
+    "review": [
+      "37102465",
+      "19747140",
+      "15717942"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.worldscientific.com/doi/10.1142/S0219720023500075?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-EGFR-11",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

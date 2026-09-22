@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39495179",
+  "title": "Multi-scale in silico analysis of the phase separation behavior of FUS mutants.",
+  "authors": "Fernando, Kalindu S; Chau, Ying",
+  "journal": "Journal of materials chemistry. B",
+  "published_date": "2024-11-04",
+  "window": {
+    "start": "2024-11-04",
+    "end": "2024-11-10"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用多尺度MD+蒙特卡洛模拟系统分析FUS突变体（G156E/R244C/ΔNLS）的相分离行为，直接以IDP为对象、聚焦突变对凝聚体组装与动态的机制建模，方法为物理模拟，高度契合本课题。",
+  "abstract": "Fused in sarcoma (FUS) is an intrinsically disordered RNA-binding protein that helps to regulate transcription and RNA transport while reversibly assembling into membraneless organelles (MLOs). Some mutations of FUS can promote irreversible aggregation, contributing to neurodegenerative diseases. We previously reported a multi-scale computational framework combining a series of molecular dynamics simulations (MD) followed by lattice Monte Carlo (MC) simulations to describe the tendency and dynamics of the assembly and disassembly of intrinsically disordered proteins (IDPs) using wild-type (WT)-FUS as an illustrative example. In this study, we utilized our computational model to simulate three FUS mutants widely experimented with glycine point mutation G156E, arginine point mutation R244C, and deletion of the C-terminal nuclear localization signal (DeltaNLS). MD simulation results conveyed that G156E has improved sticker contact probability compared to WT-FUS, while R244C has slightly lower contact probability, which is also complemented by change of net interactions according to the molecular mechanics Poisson Boltzmann surface area (MMPBSA) method. The MC simulation results revealed that G156E has a higher aggregation propensity than the WT-FUS, while DeltaNLS has more liquid-like assemblies. R244C demonstrated higher dynamics at the beginning, while over the evolution of MC simulations, it tends to aggregate compared to WT-FUS. In addition, the G156E mutant has more stable protein aggregates, lacking the rapid dynamics shown in all other scenarios. From the peak height of radial distribution functions (RDFs) of the assemblies, the phase separation propensity in ascending order is DeltaNLS < FUS-WT < R244C < G156E. Moreover, interpreting the dynamic assembly propensity (DAP) parameter over time, the fluidity of the assemblies in ascending order is G156E < FUS-WT < R244C < DeltaNLS. The results obtained from this study support that the computational model is able to predict the effect of mutation down to single amino acid substitution on the phase separation behavior of FUS. This efficient in silico method can be generalized to investigate the phase separation propensity of other IDPs and their mutants.",
+  "abstract_zh": "肉瘤融合蛋白（FUS）是一种本质上无序的RNA结合蛋白，有助于调控转录和RNA运输，同时可逆地组装成无膜细胞器（MLOs）。FUS的某些突变可促进不可逆聚集，进而导致神经退行性疾病。我们此前报道了一个多尺度计算框架，结合一系列分子动力学（MD）模拟及随后的格子蒙特卡洛（MC）模拟，以野生型（WT）-FUS为例，描述本质上无序蛋白（IDPs）组装与解组装的倾向和动力学。在本研究中，我们利用该计算模型模拟了三种广泛实验研究的FUS突变体：甘氨酸点突变G156E、精氨酸点突变R244C以及C端核定位信号缺失（DeltaNLS）。MD模拟结果表明，与WT-FUS相比，G156E具有更高的粘附接触概率，而R244C的接触概率略低，这一结果也通过分子力学泊松-玻尔兹曼表面积（MMPBSA）方法对净相互作用的改变得到了补充验证。MC模拟结果显示，G156E的聚集倾向高于WT-FUS，而DeltaNLS则表现出更多类似液体的组装体。R244C在初始阶段表现出更高的动力学特性，但随着MC模拟的演化，与WT-FUS相比，其倾向于聚集。此外，G156E突变体具有更稳定的蛋白聚集体，缺乏其他所有场景中显示的快速动力学。根据组装体的径向分布函数（RDFs）峰高，相分离倾向按升序排列为DeltaNLS < FUS-WT < R244C < G156E。同时，通过随时间解释动态组装倾向（DAP）参数，组装体的流动性按升序排列为G156E < FUS-WT < R244C < DeltaNLS。本研究结果支持该计算模型能够预测单氨基酸替换突变对FUS相分离行为的影响。这种高效的计算方法可推广用于研究其他IDPs及其突变体的相分离倾向。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39495179/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39495179/",
+  "paper_page_path": "papers/pubmed/39495179/index.html"
+}

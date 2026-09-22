@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors present a bioinformatics census of exposed aggregation-prone regions (EARs) across 76 reference proteomes from the three kingdoms of life, using a consensus pipeline of aggregation predictors combined with predictions of natively unfolded regions. They report statistically significant correlations between EAR presence and organism identity, protein length, cellular localization, short linear motif co-occurrence, and protein expression level, and they provide a list of proteins with conserved aggregation-prone sequences for experimental follow-up.
+- **Visible evidence base** Abstract text only; no methodological details, statistical results, or data listings are provided
+- **Missing materials affecting confidence** Full methods, predictor details, proteome selection criteria, statistical analysis procedures, correlation coefficients and significance values, list of conserved proteins, and any validation or benchmarking data
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful large-scale bioinformatics analysis addressing an important question in protein evolution and aggregation. The concept of focusing on exposed aggregation-prone regions, rather than all predicted aggregation-prone regions, is biologically sensible and represents a reasonable refinement of existing approaches. However, the abstract provides insufficient methodological and quantitative detail to evaluate the robustness of the pipeline, the validity of the statistical claims, or the biological significance of the findings. The claims are plausible but currently not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying protein aggregation, protein misfolding diseases, and protein evolution would find the census of EARs and their correlates of interest. Computational biologists developing or benchmarking aggregation predictors may also value the consensus approach. Additionally, experimentalists seeking candidate proteins with conserved aggregation-prone sequences for functional or pathological studies could use the provided list.
+- **Major strengths** The focus on exposed aggregation-prone regions, rather than all predicted aggregation-prone regions, is a conceptually strong and biologically motivated refinement. The use of a consensus of multiple predictors is a reasonable strategy to mitigate individual predictor biases. The cross-kingdom comparative scope across 76 proteomes provides a broad evolutionary perspective. The identification of conserved aggregation-prone sequences offers a tangible resource for experimental validation.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that the pipeline "provides a consensual result based on several predictors of aggregation" and that the analysis revealed "statistically significant correlations"  
+  - **Evidence pointer** Methods section not provided; location not provided  
+  - **Concern** The abstract does not specify which aggregation predictors were used, how the consensus was computed, how natively unfolded regions were predicted, or how the threshold for defining an EAR was set. Without this information, the reliability and reproducibility of the pipeline cannot be assessed.  
+  - **Why it matters** The validity of all downstream claims depends entirely on the accuracy and appropriateness of the prediction pipeline. If the predictors or consensus method are flawed, the reported correlations and conserved sequence list would be compromised.  
+  - **Resolution test** Provide a detailed methods section describing the predictors, consensus rule, disorder prediction tool, and threshold selection, along with any benchmarking against experimental aggregation data.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical rigor  
+  - **Claim pointer** The abstract claims "a number of new statistically significant correlations" without specifying the variables, effect sizes, or significance thresholds  
+  - **Evidence pointer** Results section not provided; location not provided  
+  - **Concern** No statistical details are given, including which correlations were tested, what statistical tests were used, how multiple testing was controlled, or what the magnitude and direction of the correlations were.  
+  - **Why it matters** Without these details, the reader cannot judge whether the correlations are biologically meaningful or merely statistically significant artifacts of large sample sizes.  
+  - **Resolution test** Report the specific correlations, test statistics, effect sizes, confidence intervals, and multiple testing correction procedures in the results section.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and data availability  
+  - **Claim pointer** The abstract claims a "list of proteins with the conserved aggregation-prone sequences for further experimental tests"  
+  - **Evidence pointer** Supplementary material not provided; location not provided  
+  - **Concern** The list of conserved proteins is mentioned but not shown or described in terms of size, selection criteria, or conservation definition.  
+  - **Why it matters** This list is a key deliverable for experimental follow-up, and without access to it or a description of how it was derived, the utility of the work cannot be evaluated.  
+  - **Resolution test** Provide the list as supplementary material with clear criteria for conservation and a description of how the list was filtered.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of EAR  
+  - **Evidence pointer** Abstract, first paragraph  
+  - **Issue** The term "exposed aggregation-prone regions" is defined conceptually but not operationally.  
+  - **Required correction** Provide a precise operational definition, including the specific predictors and thresholds used to classify a region as exposed and aggregation-prone.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope justification  
+  - **Affected element** Proteome selection  
+  - **Evidence pointer** Abstract, second paragraph  
+  - **Issue** The abstract states that 76 reference proteomes were analyzed but does not explain how these were selected or whether they are representative of the three kingdoms.  
+  - **Required correction** Briefly describe the selection criteria and the taxonomic distribution of the proteomes.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Evolutionary implications  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The claim that the work leads to "a deeper understanding of the relationship between protein evolution and aggregation" is vague and not supported by specific findings in the abstract.  
+  - **Required correction** Specify which findings support this conclusion and how they advance current understanding.
+
+## Risk / unsupported claims
+- The claim of "new statistically significant correlations" is unsupported because no statistical details are provided.
+- The claim of a "consensual result based on several predictors" is unverifiable without specifying the predictors and consensus method.
+- The claim of a "list of proteins with the conserved aggregation-prone sequences" is unverifiable because the list is not provided.
+- The claim of "deeper understanding of the relationship between protein evolution and aggregation" is not substantiated by specific results in the abstract.
+- The overall generalizability of the findings across the three kingdoms is not assessable without details on proteome selection and representation.

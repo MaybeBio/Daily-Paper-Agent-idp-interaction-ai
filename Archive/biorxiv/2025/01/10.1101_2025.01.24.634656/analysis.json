@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.01.24.634656",
+  "title": "Patching up the nucleus: a novel role for PMLII in nuclear envelope rupture repair",
+  "authors": "Janssen AF; Knowles O; Britton S; Deane JE; Spruijt E; Larrieu D",
+  "journal": "bioRxiv",
+  "published_date": "2025-01-24",
+  "window": {
+    "start": "2025-01-20",
+    "end": "2025-01-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究PMLII在核膜破裂修复位点形成凝聚体并稳定修复位点，涉及相分离但非PPI机制建模，且无AI/物理模拟方法，仅部分相关。",
+  "abstract": "The nuclear envelope (NE) is important for cellular health as it protects and organizes the genome. NE dynamics is important for various cellular processes including cell growth, migration and removal of defective NE components. In extreme cases, the NE can rupture leading to exchange of material between the nuclear interior and the cytoplasm. Rapid repair of the NE is initiated to minimize the effect on the genome. While our understanding of the machinery involved in this repair process is increasing, a lot is still unknown about this process including events leading up to NE rupture. Interestingly, biomolecular condensates have recently been found to play important roles in membrane repair and remodelling in cells. Here, we found that promyelocytic leukemia protein isoform II (PMLII), a protein involved in nuclear PML body formation, forms condensates at the NE. These condensates specifically form at sites where the lamina is disrupted. We show that NE rupture often occurs at these sites and that PMLII stays present until rupture repair is initiated suggesting a role in stabilization of the site for effective repair.",
+  "abstract_zh": "核膜（NE）对细胞健康至关重要，因为它保护并组织基因组。核膜动态变化对多种细胞过程至关重要，包括细胞生长、迁移以及缺陷核膜组分的清除。在极端情况下，核膜可能破裂，导致核内部与细胞质之间的物质交换。快速修复核膜被启动，以最小化对基因组的影响。尽管我们对这一修复过程中涉及的机制了解日益增多，但关于该过程仍有许多未知之处，包括导致核膜破裂的事件。有趣的是，生物分子凝聚体（biomolecular condensates）最近被发现在细胞膜修复和重塑中发挥重要作用。在此，我们发现早幼粒细胞白血病蛋白异构体II（PMLII），一种参与核内PML小体形成的蛋白质，在核膜处形成凝聚体。这些凝聚体特异性地在核纤层被破坏的位点形成。我们表明，核膜破裂常发生于这些位点，且PMLII在破裂修复启动前持续存在，提示其在稳定该位点以促进有效修复中发挥作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.01.24.634656",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.24.634656",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.01.24.634656/index.html"
+}

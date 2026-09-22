@@ -1,0 +1,239 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.26.513919",
+  "title": "Tropomyosin 1-I/C co-ordinates kinesin-1 and dynein motors during oskar mRNA transport",
+  "doi": "10.1101/2022.10.26.513919",
+  "abstract": "Dynein and kinesin motors mediate long-range intracellular transport, translocating towards microtubule minus and plus ends, respectively. Cargoes often undergo bidirectional transport by binding to both motors simultaneously. However, it is not known how motor activities are coordinated in such circumstances. In Drosophila , sequential activities of the dynein-dynactin-BicD-Egalitarian (DDBE) complex and of kinesin-1 deliver oskar mRNA from nurse cells to the oocyte, and within the oocyte to the posterior pole. Here, through in vitro reconstitution, we show that Tm1-I/C, a Tropomyosin-1 isoform, links kinesin-1 in an inactive state to DDBE-associated oskar mRNA. NMR spectroscopy, small-angle X-ray scattering and structural modeling indicate that Tm1-I/C suppresses kinesin-1 activity by stabilizing its autoinhibited conformation, thus preventing a tug-of-war between the opposite polarity motors until kinesin-1 is activated in the oocyte. Our work reveals a novel strategy ensuring sequential activity of microtubule motors.",
+  "authors": [
+    "Heber S",
+    "McClintock MA",
+    "Simon B",
+    "Hennig J",
+    "Bullock SL",
+    "Ephrussi A"
+  ],
+  "published_date": "2022-10-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.26.513919",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.26.513919.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR563273",
+    "raw_record": {
+      "id": "PPR563273",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR563273"
+        ]
+      },
+      "doi": "10.1101/2022.10.26.513919",
+      "title": "Tropomyosin 1-I/C co-ordinates kinesin-1 and dynein motors during  <i>oskar</i>  mRNA transport",
+      "authorString": "Heber S, McClintock MA, Simon B, Hennig J, Bullock SL, Ephrussi A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Heber S",
+            "lastName": "Heber",
+            "firstName": "Simone",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7702-9798"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Developmental Biology Unit, European Molecular Biology Laboratory, 69117 Heidelberg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McClintock MA",
+            "lastName": "McClintock",
+            "firstName": "Mark",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cell Biology, MRC Laboratory of Molecular Biology, Cambridge CB2 0QH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Simon B",
+            "lastName": "Simon",
+            "firstName": "Bernd",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0164-5516"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural and Computational Biology Unit, European Molecular Biology Laboratory, 69117 Heidelberg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hennig J",
+            "lastName": "Hennig",
+            "firstName": "Janosch",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5214-7002"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural and Computational Biology Unit, European Molecular Biology Laboratory, 69117 Heidelberg, Germany"
+                },
+                {
+                  "affiliation": "Biochemistry IV, Biophysical Chemistry, University of Bayreuth, 95447 Bayreuth, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bullock SL",
+            "lastName": "Bullock",
+            "firstName": "Simon",
+            "initials": "SL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cell Biology, MRC Laboratory of Molecular Biology, Cambridge CB2 0QH, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ephrussi A",
+            "lastName": "Ephrussi",
+            "firstName": "Anne",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5061-4620"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Developmental Biology Unit, European Molecular Biology Laboratory, 69117 Heidelberg, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5214-7002"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5061-4620"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7702-9798"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0164-5516"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Dynein and kinesin motors mediate long-range intracellular transport, translocating towards microtubule minus and plus ends, respectively. Cargoes often undergo bidirectional transport by binding to both motors simultaneously. However, it is not known how motor activities are coordinated in such circumstances. In  Drosophila , sequential activities of the dynein-dynactin-BicD-Egalitarian (DDBE) complex and of kinesin-1 deliver  oskar mRNA from nurse cells to the oocyte, and within the oocyte to the posterior pole. Here, through  in vitro reconstitution, we show that Tm1-I/C, a Tropomyosin-1 isoform, links kinesin-1 in an inactive state to DDBE-associated  oskar mRNA. NMR spectroscopy, small-angle X-ray scattering and structural modeling indicate that Tm1-I/C suppresses kinesin-1 activity by stabilizing its autoinhibited conformation, thus preventing a tug-of-war between the opposite polarity motors until kinesin-1 is activated in the oocyte. Our work reveals a novel strategy ensuring sequential activity of microtubule motors.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/03/16/2022.10.26.513919.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.10.26.513919"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR563273"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR563273&type=FILE&fileName=EMS156301-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS156301",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-10-28",
+      "firstPublicationDate": "2022-10-26",
+      "firstIndexDate": "2022-10-28",
+      "fullTextReceivedDate": "2023-04-01",
+      "hasEvaluations": "N"
+    }
+  }
+}

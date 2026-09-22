@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a thermodynamic and spectroscopic model for protein corona disorder on polystyrene nanoparticles of varying size. They report that binding affinity decreases with increasing nanoparticle size, that corona stoichiometry and hydrodynamic size changes indicate a highly solvated, disordered protein layer anchored at few enthalpically driven sites, that protein destabilization and hydrophobic exposure are reduced at lower curvature (larger particles and flat surfaces), and that this model explains prior observations of enhanced amyloid fibrillation on larger nanoparticles and may inform how cell receptors recognize protein disorder on therapeutic nanoparticles.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, figures, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, raw thermodynamic and spectroscopic data, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially impactful model for protein corona disorder, with claims that are internally coherent and plausible. However, the evidence base provided is insufficient to evaluate the technical soundness of the thermodynamic approach, the quality of the spectroscopic data, or the robustness of the scaling arguments. The central claims are not verifiable from the abstract alone, and several assertions require quantitative support that is not visible. The work may be of interest to the nanobiointerface and protein biophysics communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in nanomedicine, protein biophysics, and biointerface science would be interested. The model addresses how nanoparticle size and curvature modulate protein corona structure and stability, which is directly relevant to the design of therapeutic nanoparticles and to understanding protein misfolding at surfaces. The proposed link between corona disorder and amyloid fibrillation could also attract investigators studying protein aggregation and surface-induced nucleation.
+- **Major strengths** The abstract frames a clear and mechanistically motivated question about the degree and nature of protein disorder in coronas. The combination of thermodynamic measurements with spectroscopic probes and the extension to flat surfaces for curvature comparison is a thoughtful design. The proposed scaling relationship between stoichiometry and nanoparticle size, tied to polymer physics, offers a testable and generalizable framework. The connection to amyloid fibrillation provides broader biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Using a comprehensive thermodynamic approach, along with supporting spectroscopic experiments, we develop a model for protein corona disorder in polystyrene nanoparticles of varying size."
+  - **Evidence pointer** Abstract only; methods and data not provided
+  - **Concern** The abstract claims a "comprehensive thermodynamic approach" but provides no details on the experimental design, such as the type of calorimetry or binding assay used, the protein concentrations, the nanoparticle size range, or the buffer conditions. Without this information, the reliability and interpretability of the reported binding affinities and stoichiometries cannot be assessed.
+  - **Why it matters** Thermodynamic parameters such as binding affinity and stoichiometry are highly sensitive to experimental conditions and analysis methods. If the approach is not rigorously described and validated, the central quantitative claims are not trustworthy, and the model built on them would be unsupported.
+  - **Resolution test** Provide a detailed methods section with experimental protocols, controls, and data analysis procedures. Show representative raw data and fits for binding isotherms and stoichiometry determination. Demonstrate reproducibility across replicates and, if possible, cross-validate with an independent method.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The scaling of the stoichiometry vs. nanoparticle size is consistent disordered polymer dimensions."
+  - **Evidence pointer** Abstract only; no figure or quantitative comparison provided
+  - **Concern** The claim that stoichiometry scaling matches disordered polymer dimensions is presented without any numerical values, scaling exponents, or statistical comparison to theoretical predictions. It is unclear how the scaling was derived, what range of nanoparticle sizes was tested, and whether the data actually distinguish between alternative models.
+  - **Why it matters** This scaling argument is a key pillar of the proposed model. If the data do not robustly support the polymer-like scaling, the conclusion that the corona is disordered and highly solvated is weakened. The claim as stated is not falsifiable from the abstract.
+  - **Resolution test** Present a plot of stoichiometry versus nanoparticle radius on a log-log scale, with the fitted exponent and confidence intervals. Compare the observed exponent to theoretical values for disordered polymers and to alternative models such as a dense monolayer. Provide statistical tests for model selection.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Proteins are destabilized less severely in the presence of larger nanoparticles, and this is supported by measurements of hydrophobic exposure, which becomes less pronounced at lower curvatures."
+  - **Evidence pointer** Abstract only; no thermodynamic stability data or spectroscopic measurements shown
+  - **Concern** The abstract reports differences in protein destabilization and hydrophobic exposure as a function of nanoparticle curvature, but no quantitative data are provided. It is not possible to assess the magnitude of the effects, the statistical significance, or whether the spectroscopic probes used are appropriate and well-controlled.
+  - **Why it matters** The claim that curvature modulates protein stability and solvent exposure is central to the model. Without visible data, the reader cannot judge whether the effects are real, reproducible, and biologically meaningful or within experimental noise.
+  - **Resolution test** Include figures showing thermal or chemical denaturation curves for proteins in the presence of nanoparticles of different sizes, with calculated thermodynamic parameters and error bars. Show hydrophobic probe fluorescence data with appropriate controls, including free protein and protein on flat surfaces, and report statistical comparisons.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Our observations hold for flat polystyrene surfaces, which, when controlled for total surface area, have the lowest hydrophobic exposure of all systems."
+  - **Evidence pointer** Abstract only; no data for flat surface experiments provided
+  - **Concern** The extension to flat surfaces is a potentially powerful control, but the abstract provides no experimental details or data. It is unclear how the flat surface experiments were performed, how total surface area was controlled, and whether the comparison to nanoparticles is quantitatively valid.
+  - **Why it matters** The flat surface result is used to support the curvature-dependent trend. If the flat surface experiments are not rigorously designed and analyzed, the conclusion that lower curvature leads to less hydrophobic exposure is not established.
+  - **Resolution test** Describe the flat surface preparation and characterization, the method for controlling total surface area, and the assay used to measure hydrophobic exposure. Provide data showing the comparison across all systems with appropriate statistical analysis.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive validity
+  - **Claim pointer** "Our model provides an explanation for previous observations of increased amyloid fibrillation rates in the presence of larger nanoparticles, and it may rationalize how cell receptors can recognize protein disorder in therapeutic nanoparticles."
+  - **Evidence pointer** Abstract only; no direct experimental link to fibrillation or receptor recognition provided
+  - **Concern** The abstract extends the model to explain amyloid fibrillation and receptor recognition, but no data are presented to directly test these connections. These statements are speculative and go beyond the reported measurements.
+  - **Why it matters** While such implications are valuable for framing the work, they should be clearly labeled as hypotheses. If presented as conclusions, they could overstate the significance of the findings and mislead readers about the direct evidence.
+  - **Resolution test** Clearly distinguish between direct experimental findings and proposed implications. If fibrillation or receptor studies were performed, include them in the manuscript. Otherwise, frame these statements as speculative implications in the discussion.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Understanding the conformation of proteins in the nanoparticle corona has important implications" is vague. It is not specified what kind of implications or for whom.
+  - **Required correction** Specify the implications, such as for drug delivery efficacy, immune recognition, or protein aggregation, to sharpen the motivation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Claim about "two different proteins"
+  - **Evidence pointer** Abstract, "For two different proteins"
+  - **Issue** The abstract does not name the proteins or state why they were chosen. This limits the reader's ability to judge the generality of the findings.
+  - **Required correction** Name the proteins and briefly justify their selection, such as their relevance to therapeutic nanoparticles or their known biophysical properties.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Nanoparticle size range
+  - **Evidence pointer** Abstract, "polystyrene nanoparticles of varying size"
+  - **Issue** The size range is not specified. The scaling argument and curvature effects depend critically on the range of sizes studied.
+  - **Required correction** State the range of nanoparticle diameters or radii used in the study.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Solvated disorder"
+  - **Evidence pointer** Title and abstract
+  - **Issue** The term "solvated disorder" is not defined. It is unclear whether it refers to a specific biophysical state or is a descriptive phrase.
+  - **Required correction** Define the term in the abstract or introduction, and clarify how it is operationalized in the measurements.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative claims
+  - **Evidence pointer** Abstract, throughout
+  - **Issue** No error bars, confidence intervals, or p-values are mentioned in the abstract. The reader cannot assess the reliability of the reported differences.
+  - **Required correction** Include key statistical parameters in the abstract or ensure they are prominently displayed in the main figures and text.
+
+## Risk / unsupported claims
+- The claim that binding affinity decreases with increasing nanoparticle size is unsupported without quantitative data and statistical analysis.
+- The claim that corona stoichiometry scaling is consistent with disordered polymer dimensions is unsupported without a quantitative comparison to theoretical predictions.
+- The claim that protein destabilization is less severe with larger nanoparticles is unsupported without thermodynamic stability data.
+- The claim that hydrophobic exposure is less pronounced at lower curvature is unsupported without spectroscopic data and controls.
+- The claim that flat surfaces show the lowest hydrophobic exposure when controlled for total surface area is unsupported without experimental details and data.
+- The proposed explanation for increased amyloid fibrillation rates and the rationalization of receptor recognition of protein disorder are speculative and not directly tested in the visible material.

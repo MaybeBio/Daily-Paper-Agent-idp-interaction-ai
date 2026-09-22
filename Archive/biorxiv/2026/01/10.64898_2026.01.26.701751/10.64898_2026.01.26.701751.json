@@ -1,0 +1,274 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.26.701751",
+  "title": "The sequence context of RG/RGG motifs determines condensate formation, transportin-1 binding and chaperoning",
+  "doi": "10.64898/2026.01.26.701751",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically disordered arginine-glycine-rich (RG/RGG) regions are highly abundant in the eukaryotic proteome. Proteins containing these motifs participate in fundamental cellular processes, including nuclear import, transcriptional regulation, biomolecular condensate formation, and apoptosis. Mutations or dysfunction of RG/RGG proteins have been implicated in neurodegenerative diseases and cancer. Although some RG/RGG proteins have been shown to drive condensate formation, localize to membrane-less organelles, interact with nuclear import receptors, or undergo arginine methylation, these properties are not shared uniformly across the proteome. The considerable diversity in RG/RGG motif length and amino acid composition raises the question of which sequence features determine their functional behaviour. To address this, we conducted a systematic bioinformatics and experimental analysis, combining synthetic and natural peptides with studies on the RNA-binding protein FUS as a model system. Our results reveal that the sequence composition of RG/RGG motifs is a key determinant of their capacity for RNA-mediated condensate formation, stress granule recruitment, and transportin-1–mediated chaperoning and nuclear import. These findings provide new insight into the sequence grammar of disordered RG/RGG regions and how it encodes the multifunctionality of these proteins in cellular regulation.",
+  "authors": [
+    "Usluer S",
+    "Khanna Y",
+    "Hutten S",
+    "Kolarić Đ",
+    "Bourgeois B",
+    "Pritišanac I",
+    "Dormann D",
+    "Madl T"
+  ],
+  "published_date": "2026-01-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.26.701751",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.26.701751.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1227743",
+    "raw_record": {
+      "id": "PPR1227743",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1227743"
+        ]
+      },
+      "doi": "10.64898/2026.01.26.701751",
+      "title": "The sequence context of RG/RGG motifs determines condensate formation, transportin-1 binding and chaperoning",
+      "authorString": "Usluer S, Khanna Y, Hutten S, Kolarić Đ, Bourgeois B, Pritišanac I, Dormann D, Madl T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Usluer S",
+            "lastName": "Usluer",
+            "firstName": "Sinem",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Unit Integrative Structural Biology, Division Medicinal Chemistry, Otto Loewi Research Center, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Khanna Y",
+            "lastName": "Khanna",
+            "firstName": "Yukti",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1018-1576"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Unit Integrative Structural Biology, Division Medicinal Chemistry, Otto Loewi Research Center, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hutten S",
+            "lastName": "Hutten",
+            "firstName": "Saskia",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0004-0285-1295"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Institute of Molecular Physiology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kolarić Đ",
+            "lastName": "Kolarić",
+            "firstName": "Đesika",
+            "initials": "Đ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Unit Integrative Structural Biology, Division Medicinal Chemistry, Otto Loewi Research Center, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bourgeois B",
+            "lastName": "Bourgeois",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8950-2167"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Unit Integrative Structural Biology, Division Medicinal Chemistry, Otto Loewi Research Center, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pritišanac I",
+            "lastName": "Pritišanac",
+            "firstName": "Iva",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Unit Integrative Structural Biology, Division Medicinal Chemistry, Otto Loewi Research Center, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dormann D",
+            "lastName": "Dormann",
+            "firstName": "Dorothee",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9260-2775"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Institute of Molecular Physiology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Madl T",
+            "lastName": "Madl",
+            "firstName": "Tobias",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9725-5231"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1018-1576"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8950-2167"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9152-6555"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9260-2775"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9725-5231"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3569-6653"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0004-0285-1295"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>ABSTRACT</h4>  Intrinsically disordered arginine-glycine-rich (RG/RGG) regions are highly abundant in the eukaryotic proteome. Proteins containing these motifs participate in fundamental cellular processes, including nuclear import, transcriptional regulation, biomolecular condensate formation, and apoptosis. Mutations or dysfunction of RG/RGG proteins have been implicated in neurodegenerative diseases and cancer. Although some RG/RGG proteins have been shown to drive condensate formation, localize to membrane-less organelles, interact with nuclear import receptors, or undergo arginine methylation, these properties are not shared uniformly across the proteome. The considerable diversity in RG/RGG motif length and amino acid composition raises the question of which sequence features determine their functional behaviour. To address this, we conducted a systematic bioinformatics and experimental analysis, combining synthetic and natural peptides with studies on the RNA-binding protein FUS as a model system. Our results reveal that the sequence composition of RG/RGG motifs is a key determinant of their capacity for RNA-mediated condensate formation, stress granule recruitment, and transportin-1–mediated chaperoning and nuclear import. These findings provide new insight into the sequence grammar of disordered RG/RGG regions and how it encodes the multifunctionality of these proteins in cellular regulation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.26.701751"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1227743"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1227743&type=FILE&fileName=EMS214482-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214482",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-01-26",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

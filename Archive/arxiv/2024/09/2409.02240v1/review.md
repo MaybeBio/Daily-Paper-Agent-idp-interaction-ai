@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and completeness of the presented review, as assessed from the supplied manuscript text only
+- **Shared manuscript claim summary** The manuscript is a Perspective article that provides an overview of computational methods for generating and validating structural ensembles of intrinsically disordered proteins and regions (IDPs/IDRs), including their complexes and phase-separated states. It categorizes methods into knowledge-based, physics-based, and machine-learning approaches, and discusses experimental validation techniques and statistical reweighting methods.
+- **Visible evidence base** Full text of the manuscript, including sections on Introduction, Ensemble Generation, Ensemble Validation, Software and Data Repositories, Conclusion, and references. No figures or tables were provided in the supplied material.
+- **Missing materials affecting confidence** Figures (including Figure 1 referenced in the text) and Table 1 (summarizing software and data repositories) were not provided. This limits the ability to assess the completeness and accuracy of the presented software summary and the illustrative figure.
+
+## Reviewer
+- **Overall assessment** This Perspective provides a broad and generally well-structured overview of computational methods for IDP/IDR ensemble generation and validation. The authors are clearly knowledgeable in the field, and the manuscript covers a wide range of methods, from traditional knowledge-based approaches to emerging machine-learning techniques. However, the manuscript suffers from several issues that limit its impact and utility. The treatment of some methods is superficial, with key technical details and limitations not adequately discussed. The absence of the referenced figure and table in the supplied material prevents a full evaluation of the manuscript's completeness. The discussion of future directions, while sensible, lacks specificity and actionable recommendations. The manuscript would benefit from a more critical and comparative analysis of the methods presented, as well as a clearer articulation of the challenges and open problems in the field.
+- **Who would be interested in the results, and why** Researchers in the biophysics, structural biology, and computational chemistry communities, particularly those working on intrinsically disordered proteins, biomolecular condensates, and integrative structural biology. The manuscript provides a useful entry point for newcomers to the field and a reference for practitioners seeking an overview of available tools. The discussion of machine-learning methods and their application to IDPs is timely and will be of interest to computational scientists exploring new approaches.
+- **Major strengths** The manuscript covers a comprehensive range of computational methods, from established knowledge-based and physics-based approaches to newer machine-learning techniques. The organization into ensemble generation and validation is logical and helpful. The authors highlight important challenges, such as the need for better experimental data deposition and standardized evaluation of ML methods. The inclusion of a call-to-action for the community is commendable.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness and completeness
+    - **Claim pointer** The manuscript claims to provide a "robust overview of current computational tools for IDPs and IDRs, and most recently their complexes and phase separated states."
+    - **Evidence pointer** Section 4, Table 1 (not provided)
+    - **Concern** The manuscript references Table 1 as a summary of current software and data repositories, but the table was not included in the supplied material. Without this table, the completeness and accuracy of the software overview cannot be assessed. The text in Section 4 is brief and does not provide sufficient detail on the features, limitations, or comparative performance of the listed tools.
+    - **Why it matters** A key value of a Perspective article is to provide a reliable and comprehensive resource for the community. The absence of the table undermines this goal and prevents readers from using the manuscript as a practical guide. The brief text in Section 4 does not compensate for the missing table.
+    - **Resolution test** The authors must provide the missing Table 1 and ensure that the text in Section 4 adequately describes the criteria for inclusion, the features of each tool, and any known limitations.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Depth of analysis and critical evaluation
+    - **Claim pointer** The manuscript states that "an integrated experimental and computational approach aimed at IDPs/IDRs has emerged" and reviews various methods.
+    - **Evidence pointer** Sections 2 and 3
+    - **Concern** The manuscript provides descriptions of many methods but lacks a critical and comparative analysis. For example, in Section 2.2, the discussion of force fields mentions that "most models managed to capture, to varying extents, the ensemble averages of the radius of gyration and the PPII secondary structure, but the models differed substantially in the under- or over-sampling of different secondary structures." This is a key point, but the authors do not elaborate on the implications of these differences or provide guidance on which force fields are most suitable for which applications. Similarly, the discussion of machine-learning methods in Section 2.3 is largely descriptive, with little critical assessment of their strengths, weaknesses, or generalizability.
+    - **Why it matters** A Perspective should not merely list methods but should provide a critical evaluation that helps readers understand the relative merits and limitations of different approaches. The current treatment is too superficial to be of significant value to experts, and it may be misleading to newcomers who cannot discern which methods are most reliable.
+    - **Resolution test** The authors should add a comparative discussion that critically evaluates the methods, highlighting their respective strengths, weaknesses, and applicability to different types of IDP/IDR systems and experimental data. This could include a table comparing features, or a more detailed narrative in the text.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Specificity of future directions
+    - **Claim pointer** The Conclusion states that "the development of a comprehensive software platform capable of aiding IDP/IDR studies holds immense promise" and calls for "a standardized method for evaluating ML/AI based tools."
+    - **Evidence pointer** Section 5
+    - **Concern** The future directions section is vague and lacks specific, actionable recommendations. For example, the call for "a standardized method for evaluating ML/AI based tools" is important, but the authors do not suggest what such a standard might look like, what benchmarks should be used, or how the community might go about developing it. Similarly, the call for "clear deposition of experimental data" is sensible but does not address the practical challenges of data sharing, such as data formats, metadata standards, or incentives for deposition.
+    - **Why it matters** A Perspective should provide a roadmap for the field. The current conclusion is too general to be useful. Specific, actionable recommendations would make the manuscript more impactful and help guide future research efforts.
+    - **Resolution test** The authors should expand the future directions section with more specific and concrete recommendations, such as proposing specific benchmark datasets, suggesting community initiatives, or outlining technical challenges that need to be overcome.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity and readability
+    - **Affected element** Section 2.2, discussion of force fields
+    - **Evidence pointer** Section 2.2
+    - **Issue** The sentence "Jephtah et al. utilized different versions of the CHARMM Liu et al. 2019 and AMBER Lindorff-Larsen et al. 2010 FFs with different water models Piana et al. 2015 ; Robustelli et al. 2018 to study five peptides that exhibit a polyproline II helix (PPII) structure Jephthah et al. 2021" is awkwardly constructed, with citations interrupting the flow. The reference to "Jephtah et al." is likely a typo for "Jephthah et al."
+    - **Required correction** Rephrase the sentence for clarity and correct the typo in the author name.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Completeness of references
+    - **Affected element** Section 2.3, machine-learning methods
+    - **Evidence pointer** Section 2.3
+    - **Issue** The discussion of machine-learning methods mentions several specific tools (e.g., Phanto-IDP, idpGAN, ALBATROSS) but does not provide a critical comparison or discuss their availability, ease of use, or limitations. This is a missed opportunity to provide practical guidance.
+    - **Required correction** Add a brief comparative discussion of the mentioned ML tools, including their availability, input requirements, and known limitations.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Clarity of terminology
+    - **Affected element** Section 3.1, experimental observables
+    - **Evidence pointer** Section 3.1
+    - **Issue** The term "jc module" in the context of SPyCi-PDB is not clearly explained. It is unclear what "jc" stands for or what the module does.
+    - **Required correction** Clarify the term "jc module" by providing a brief explanation of its function.
+- **Technical failings that need to be addressed before the case is established** The missing Table 1 is a significant omission that prevents a full assessment of the manuscript's completeness. The lack of critical analysis in the method descriptions is a substantive weakness that limits the manuscript's value as a Perspective. The vague future directions section does not provide a clear roadmap for the field.
+- **Assessment against Nature-style criteria** 
+    - **Originality** The manuscript does not present new research findings but rather a review of existing methods. While the organization and perspective are somewhat novel, the content is largely a summary of known work. The originality is limited.
+    - **Scientific importance** The topic is of high importance to the biophysics and structural biology communities, given the growing recognition of the role of IDPs/IDRs in biology and disease. The manuscript addresses a timely and relevant subject.
+    - **Interdisciplinary readership** The manuscript is likely to appeal to a broad readership, including biophysicists, computational chemists, structural biologists, and possibly cell biologists interested in phase separation. The interdisciplinary appeal is moderate to high.
+    - **Technical soundness** The technical content is generally accurate, but the lack of critical analysis and the missing table reduce the overall technical soundness of the manuscript as a comprehensive resource.
+    - **Readability for nonspecialists** The manuscript is written in a technical style that assumes familiarity with the field. Some sections, particularly the discussion of specific methods, may be challenging for nonspecialists. The readability could be improved with more introductory context and clearer explanations of key concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important topic and provides a useful overview, but it requires significant revisions to address the missing table, add critical analysis, and provide more specific future directions.

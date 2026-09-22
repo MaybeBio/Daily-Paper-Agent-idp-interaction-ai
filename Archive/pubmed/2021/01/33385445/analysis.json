@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33385445",
+  "title": "Intrinsically disordered protein NUPR1 binds to the armadillo-repeat domain of Plakophilin 1.",
+  "authors": "Santofimia-Castano, Patricia; Rizzuti, Bruno; Pey, Angel L; Farez-Vidal, Maria Esther; Iovanna, Juan L; Neira, Jose L",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2021-01-02",
+  "window": {
+    "start": "2020-12-28",
+    "end": "2021-01-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合实验与分子对接/NMR建模，表征了无序蛋白NUPR1与折叠蛋白PKP1臂重复域的微摩尔级结合及界面，虽未涉及相分离，但为IDP介导的PPI机制建模提供了可迁移的实例。",
+  "abstract": "Plakophilin 1 (PKP1), a member of the armadillo repeat family of proteins, is a scaffold component of desmosomes, which are key structural components for cell-cell adhesion. However, PKP1 can be also found in the nucleus of several cells. NUPR1 is an intrinsically disordered protein (IDP) that localizes throughout the whole cell, and intervenes in the development and progression of several cancers. In this work, we studied the binding between PKP1 and NUPR1 by using several in vitro biophysical techniques and in cellulo approaches. The interaction occurred with an affinity in the low micromolar range (~10 muM), and involved the participation of at least one of the tryptophan residues of PKP1 (as shown by fluorescence and molecular docking). The binding region of NUPR1, mapped by NMR and molecular modelling, was a polypeptide patch at the 30s region of its sequence. The association between PKP1 and NUPR1 also occurred in cellulo and was localized in the nucleus, as tested by protein ligation assays (PLAs). We hypothesize that NUPR1 plays an active role in carcinogenesis modulating the function of PKP1.",
+  "abstract_zh": "Plakophilin 1 (PKP1) 是 armadillo 重复序列蛋白家族的一员，作为桥粒的支架组分，而桥粒是细胞间粘附的关键结构成分。然而，PKP1 也可在多种细胞的细胞核中被发现。NUPR1 是一种内在无序蛋白 (intrinsically disordered protein, IDP)，分布于整个细胞，并参与多种癌症的发生与发展。在本工作中，我们通过多种体外生物物理技术和细胞内 (in cellulo) 方法研究了 PKP1 与 NUPR1 之间的结合。该相互作用以低微摩尔范围（约 10 μM）的亲和力发生，并涉及 PKP1 至少一个色氨酸残基的参与（如荧光和分子对接所示）。NUPR1 的结合区域，通过核磁共振 (NMR) 和分子建模定位，是其序列中 30s 区域的一个多肽片段。PKP1 与 NUPR1 之间的结合也在细胞内发生，并定位于细胞核，如通过蛋白质连接实验 (protein ligation assays, PLAs) 所验证。我们假设 NUPR1 通过调节 PKP1 的功能在癌变过程中发挥积极作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33385445/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33385445/",
+  "paper_page_path": "papers/pubmed/33385445/index.html"
+}

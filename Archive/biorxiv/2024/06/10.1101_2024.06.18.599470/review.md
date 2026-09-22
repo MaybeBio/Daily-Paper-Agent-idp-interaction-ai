@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or full-text data were assessed
+- **Shared manuscript claim summary** The authors propose that ER-phagy receptor membrane-tethering modules (RHDs for FAM134B, transmembrane domains for TEX264 and SEC62) determine sub-compartmental receptor distribution but are dispensable for ER fragmentation. Instead, they claim that intrinsically disordered regions (IDRs) exposed on the cytoplasmic face of the ER membrane drive ER fragmentation, and that this mechanism may be conserved across organelle autophagy pathways.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or figure references provided
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that challenges the prevailing model in which FAM134 reticulon homology domains (RHDs) mediate ER fragmentation during ER-phagy. The claim that IDRs, rather than membrane-remodeling domains, drive fragmentation is potentially significant. However, the abstract provides no experimental evidence, no quantitative data, and no methodological detail. The central conclusion is therefore not assessable from the supplied material. The speculative extension to other organelles is intriguing but unsupported.
+- **Who would be interested in the results, and why** Cell biologists studying autophagy, organelle homeostasis, membrane dynamics, and protein quality control. The work could also interest researchers focused on intrinsically disordered proteins and their roles in cellular processes beyond liquid-liquid phase separation.
+- **Major strengths** The question addressed is timely and important, as the field has largely focused on RHD-mediated membrane remodeling. The proposal that IDRs may serve a conserved fragmentation function across different organelle autophagy pathways is conceptually novel and could reframe how receptor function is understood.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that IDR modules promote ER fragmentation and that membrane-tethering modules are dispensable for this process
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that IDRs drive ER fragmentation but provides no experimental data, no quantification, no genetic or biochemical evidence, and no imaging data to support this claim. No controls, no statistical analyses, and no mechanistic dissection are described.
+  - **Why it matters** The central conclusion of the manuscript rests entirely on this claim. Without visible evidence, the claim cannot be evaluated for validity, reproducibility, or robustness.
+  - **Resolution test** Provide the relevant figures and statistical analyses demonstrating that IDR deletion or mutation abolishes ER fragmentation while membrane-tethering domain deletion does not. Include appropriate controls and quantification.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The claim that conserved mechanisms of organelle fragmentation driven by cytoplasmic exposed IDRs could operate in eukaryotic cells
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This statement extends the findings beyond the ER to other organelles and to eukaryotes broadly. No comparative data from other organelles or organisms are presented in the abstract.
+  - **Why it matters** Overgeneralization from a single organelle system to all eukaryotic organelle autophagy is not justified without direct evidence. This claim could mislead readers if not properly qualified.
+  - **Resolution test** Provide comparative data from at least one additional organelle system or clearly frame this as a hypothesis rather than a conclusion.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic clarity
+  - **Claim pointer** The claim that cytoplasmic IDRs with net negative charge are conserved in autophagy receptors at the limiting membrane of other organelles
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract asserts conservation of negatively charged IDRs across receptors but provides no sequence analysis, alignment, or functional validation.
+  - **Why it matters** The mechanistic proposal depends on this conservation claim. Without evidence, the proposal remains speculative.
+  - **Resolution test** Provide sequence conservation analyses and functional data from at least one non-ER organelle receptor.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "membrane-tethering modules" is used to describe both RHDs and transmembrane domains, but these have distinct structural and functional properties. The grouping may obscure important differences.
+  - **Required correction** Define the term explicitly and justify grouping these distinct domain types under one category.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract moves from a broad question to a specific finding to a broad speculation in a compressed manner, which may reduce clarity for nonspecialist readers.
+  - **Required correction** Consider restructuring to clearly separate the hypothesis, the experimental finding, and the speculative extension.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Typographical error
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The word "fragmentaVon" appears in the final sentence, which appears to be a typographical error for "fragmentation."
+  - **Required correction** Correct the typographical error.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central claim and the generalizability claim cannot be evaluated from the abstract alone. No experimental evidence is visible.
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposal that IDRs, not membrane-remodeling domains, drive ER fragmentation is conceptually original and challenges the current RHD-centric model.
+  - Scientific importance: If substantiated, the finding would have broad implications for organelle autophagy and IDR function. The importance is high.
+  - Interdisciplinary readership: The topic would appeal to autophagy researchers, membrane biologists, and biophysicists. The abstract is accessible but the speculative extension may require more context.
+  - Technical soundness: Not assessable from the abstract. No methods, data, or statistics are provided.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms without definition. The compressed structure may hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and potentially significant, but the abstract alone does not provide sufficient evidence to support the central claims. A full manuscript with detailed methods and data would be required for proper evaluation.
+
+## Risk / unsupported claims
+- The claim that IDR modules drive ER fragmentation is unsupported in the abstract.
+- The claim that membrane-tethering modules are dispensable for ER fragmentation is unsupported.
+- The claim that negatively charged cytoplasmic IDRs are conserved across organelle autophagy receptors is unsupported.
+- The claim that conserved IDR-driven fragmentation mechanisms operate in eukaryotic cells is speculative and unsupported.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34008604",
+  "title": "Mechanism of zinc ejection by disulfiram in nonstructural protein 5A.",
+  "authors": "Rehman, Ashfaq Ur; Zhen, Guodong; Zhong, Bozitao; Ni, Duan; Li, Jiayi; Nasir, Abdul; Gabr, Moustafa T; Rafiq, Humaira; Wadood, Abdul; Lu, Shaoyong; Zhang, Jian; Chen, Hai-Feng",
+  "journal": "Physical chemistry chemical physics : PCCP",
+  "published_date": "2021-05-20",
+  "window": {
+    "start": "2021-05-17",
+    "end": "2021-05-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用MD+DFT研究双硫仑从HCV NS5A锌指位点驱逐锌离子的机制，对象含IDR但非PPI，方法为物理模拟，机制建模可迁移但互作轴弱。",
+  "abstract": "Hepatitis C virus (HCV) is a notorious member of the Flaviviridae family of enveloped, positive-strand RNA viruses. Non-structural protein 5A (NS5A) plays a key role in HCV replication and assembly. NS5A is a multi-domain protein which includes an N-terminal amphipathic membrane anchoring alpha helix, a highly structured domain-1, and two intrinsically disordered domains 2-3. The highly structured domain-1 contains a zinc finger (Zf)-site, and binding of zinc stabilizes the overall structure, while ejection of this zinc from the Zf-site destabilizes the overall structure. Therefore, NS5A is an attractive target for anti-HCV therapy by disulfiram, through ejection of zinc from the Zf-site. However, the zinc ejection mechanism is poorly understood. To disclose this mechanism based on three different states, A-state (NS5A protein), B-state (NS5A + Zn), and C-state (NS5A + Zn + disulfiram), we have performed molecular dynamics (MD) simulation in tandem with DFT calculations in the current study. The MD results indicate that disulfiram triggers Zn ejection from the Zf-site predominantly through altering the overall conformation ensemble. On the other hand, the DFT assessment demonstrates that the Zn adopts a tetrahedral configuration at the Zf-site with four Cys residues, which indicates a stable protein structure morphology. Disulfiram binding induces major conformational changes at the Zf-site, introduces new interactions of Cys39 with disulfiram, and further weakens the interaction of this residue with Zn, causing ejection of zinc from the Zf-site. The proposed mechanism elucidates the therapeutic potential of disulfiram and offers theoretical guidance for the advancement of drug candidates.",
+  "abstract_zh": "丙型肝炎病毒（HCV）是黄病毒科（Flaviviridae）中一种臭名昭著的成员，属于有包膜的正链RNA病毒。非结构蛋白5A（NS5A）在HCV复制和组装中发挥关键作用。NS5A是一种多结构域蛋白，包含一个N端两亲性膜锚定α螺旋、一个高度结构化的结构域1，以及两个内在无序的结构域2-3。高度结构化的结构域1含有一个锌指（Zf）位点，锌的结合稳定了整体结构，而锌从Zf位点的释放则使整体结构不稳定。因此，NS5A通过双硫仑（disulfiram）从Zf位点释放锌，成为抗HCV治疗的一个有吸引力的靶点。然而，锌释放机制尚不清楚。为揭示这一机制，基于三种不同状态——A态（NS5A蛋白）、B态（NS5A + Zn）和C态（NS5A + Zn + 双硫仑），我们在本研究中进行了分子动力学（MD）模拟，并结合DFT计算。MD结果表明，双硫仑主要通过改变整体构象集合来触发锌从Zf位点的释放。另一方面，DFT评估显示，锌在Zf位点采用四面体构型，与四个Cys残基配位，这表明蛋白质结构形态稳定。双硫仑结合诱导Zf位点的重大构象变化，引入Cys39与双硫仑的新相互作用，并进一步削弱该残基与锌的相互作用，导致锌从Zf位点释放。所提出的机制阐明了双硫仑的治疗潜力，并为药物候选物的推进提供了理论指导。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34008604/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34008604/",
+  "paper_page_path": "papers/pubmed/34008604/index.html"
+}

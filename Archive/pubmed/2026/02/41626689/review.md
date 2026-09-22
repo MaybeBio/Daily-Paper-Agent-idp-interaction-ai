@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, materials and methods, results, discussion, and supplementary figure legends as provided.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors use single-molecule fluorescence microscopy to show that the nucleolar protein Nop1/fibrillarin destabilizes RNA tertiary structure through transient, nonspecific interactions mediated by its GAR domain, and that this effect occurs independently of liquid-liquid phase separation. They further show that specific ribosomal protein binding outcompetes Nop1 and that Nop1 shields rRNA from DEAD-box helicase unwinding.
+- **Visible evidence base** Abstract, full introduction, materials and methods summary, results narrative, discussion, and supplementary figure legends. Specific numerical data are reported for docking kinetics and binding stoichiometry. Figures are referenced but not directly viewable.
+- **Missing materials affecting confidence** Full figure panels, supplementary figures S1-S6, supplementary tables S1-S4, detailed SI methods, and raw data traces are not available for direct inspection. This limits verification of data quality, statistical analyses, and the robustness of single-molecule assignments.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental question in RNA biology: whether the phase-separated environment of the nucleolus directly influences RNA folding and assembly, or whether the molecular interactions of individual proteins are the dominant determinants. The authors use a well-designed single-molecule approach to compare RNA folding inside and outside synthetic Nop1-RNA droplets, and they report the surprising and important finding that phase separation itself does not alter the effect of Nop1 on RNA tertiary structure. The work is technically rigorous, with appropriate controls including concentration-dependent studies, domain truncations, and competition experiments with ribosomal proteins and a DEAD-box helicase. The conclusions are largely supported by the described data, though some concerns about quantitative interpretation and generalizability remain.
+- **Who would be interested in the results, and why** Researchers studying RNA folding, ribosome biogenesis, phase separation, and RNA-protein interactions. The work is also relevant to those interested in the biophysical principles governing macromolecular condensation and its functional consequences. The demonstration that nonspecific, transient interactions with a disordered domain can modulate RNA structure without requiring phase separation will be of broad interest to the RNA and cell biology communities.
+- **Major strengths** The experimental design is elegant, using a side-by-side comparison of dilute and condensed phases within the same experiment. The use of a well-characterized ribozyme and a defined rRNA domain provides quantitative readouts of folding. The authors carefully dissect the contributions of specific versus nonspecific interactions, and they provide evidence that the GAR domain is responsible for the observed effects. The competition experiments with uS4 and CsdA are conceptually important and extend the findings to a more biologically relevant context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative interpretation
+  - **Claim pointer** The authors claim that Nop1 destabilizes RNA tertiary structure equally in dilute and condensed phases, and that this effect depends only on transient molecular interactions between Nop1 and the ribozyme.
+  - **Evidence pointer** Results section "Monitoring RNA folding dynamics inside coacervates by smFRET", Figures 1E-G, Supplementary Figure S1F
+  - **Concern** The conclusion that phase separation has no effect relies on the assumption that the local concentration of Nop1 experienced by RNA molecules inside droplets is equivalent to the bulk concentration in the dilute phase. However, the authors report that Nop1 concentration inside droplets is higher than outside (as expected for a condensed phase). If the effect of Nop1 on RNA folding is saturating at the concentrations tested, then a difference in local concentration might not manifest as a difference in folding outcome. The authors should address whether the concentration-response curve (Figure 2D) is in a regime where a two-fold or greater difference in local Nop1 concentration would be expected to produce a measurable difference in docking. If the response is saturated, the claim that phase separation is irrelevant is not fully supported.
+  - **Why it matters** The central conclusion of the paper is that phase separation does not modulate the effect of Nop1 on RNA folding. If the experiment is insensitive to concentration differences due to saturation, the conclusion would be overstated.
+  - **Resolution test** Provide a quantitative comparison of the Nop1 concentration inside and outside droplets, and show that the measured concentrations fall on the dynamic range of the concentration-response curve. Alternatively, perform experiments at lower Nop1 concentrations where the response is not saturated and show that the effect remains identical inside and outside droplets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that their results "illustrate how RNA-binding proteins residing in the nucleolus tune RNA folding stability while permitting assembly of native ribosomal complexes" and discuss implications for ribosome assembly in cells.
+  - **Evidence pointer** Discussion section, paragraphs 1-3
+  - **Concern** The study uses a Tetrahymena ribozyme and an E. coli 16S rRNA domain as model systems, with a Chaetomium thermophilum Nop1 protein. While these are reasonable models, the extent to which the findings can be extrapolated to the complex, multicomponent environment of the eukaryotic nucleolus is unclear. The authors acknowledge this in their limitations section, but the discussion goes beyond the data in suggesting broad implications for ribosome assembly. Specifically, the claim that Nop1 "may ameliorate ribosome assembly by transiently engaging the pre-rRNA during transcription" is speculative and not directly tested.
+  - **Why it matters** The broader significance of the work depends on whether the observed phenomena are relevant to native ribosome assembly. Overinterpretation could mislead the field.
+  - **Resolution test** Soften the discussion claims or add experiments with a more complex in vitro system containing additional assembly factors. At minimum, clearly distinguish between what is directly demonstrated and what is speculative.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors propose that Nop1 binding to the undocked state triggers disruption of the entire ribozyme tertiary structure by a second Nop1 molecule, based on a quantitative two-binding-site model.
+  - **Evidence pointer** Results section "Microscopic interactions between the Nop1 and the ribozyme perturb P1 docking", Supplementary Figure S3D-G
+  - **Concern** The two-binding-site model is described as recapitulating the observed sequential unfolding, but the details of the model, its assumptions, and its goodness-of-fit are not provided in the main text. It is unclear whether alternative models (e.g., a single binding site with cooperative effects, or a model involving Mg2+ displacement) were tested and excluded. The model is central to the mechanistic interpretation, and the lack of detail makes it difficult to assess its validity.
+  - **Why it matters** The proposed mechanism of sequential, two-site binding has implications for how Nop1 interacts with RNA in general. If the model is not robustly supported, the mechanistic claim is weakened.
+  - **Resolution test** Provide the full model equations, fitting procedures, and statistical comparison with alternative models in the supplementary information. Show that the model uniquely fits the data and that its parameters are well-constrained.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The phrase "permitting assembly of native ribosomal complexes" is somewhat vague. It is not clear whether the authors mean that Nop1 does not prevent assembly, or that it actively promotes it.
+  - **Required correction** Clarify the intended meaning, e.g., "while still allowing assembly" or "without preventing assembly."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results section "Nop1 binding"
+  - **Evidence pointer** Results section "Nop1 binding", Supplementary Table S3
+  - **Issue** The number of replicates and molecules per experiment is stated to be in Supplementary Table S3, but the statistical test used for the one-way ANOVA is not described. It is also unclear whether the ANOVA was performed on the occupancy values or on transformed data.
+  - **Required correction** Specify the ANOVA type (one-way, repeated measures, etc.) and any post-hoc tests. State whether data met assumptions of normality and homoscedasticity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and methods, "Single-molecule fluorescence microscopy"
+  - **Evidence pointer** Materials and methods section, "Single-molecule fluorescence microscopy"
+  - **Issue** The method for determining the threshold for high and low FRET states is described as based on the 95th percentile of acceptor intensity, but the rationale for this choice and its validation are not provided.
+  - **Required correction** Provide a brief justification for the thresholding method and cite any precedent. Show that the results are robust to reasonable variations in the threshold.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "Nop1 disrupts P1 helix docking but not base pairing"
+  - **Evidence pointer** Results section "Nop1 disrupts P1 helix docking but not base pairing", Figure 3
+  - **Issue** The statement that Nop1 "does not detectably unfold stable RNA secondary structure" is based on a single RNA hairpin. It would be helpful to test at least one additional hairpin with different sequence or stability.
+  - **Required correction** Acknowledge this limitation in the text or add a second hairpin control.
+- **Technical failings that need to be addressed before the case is established** The saturation issue described in R1-M1 must be resolved. Without demonstrating that the experiment is sensitive to concentration differences between phases, the central claim of phase-independence is not fully established. The two-binding-site model (R1-M3) also needs to be presented with sufficient detail for evaluation.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is original in its direct comparison of RNA folding in dilute and condensed phases at the single-molecule level. While previous studies have examined RNA structure in condensates, the explicit conclusion that phase separation itself is not the determinant of the observed effect is a novel contribution.
+  - Scientific importance: The findings are important for understanding the functional role of phase separation in ribosome biogenesis. The work challenges the assumption that the condensed environment directly modulates RNA folding, and instead emphasizes the importance of specific molecular interactions.
+  - Interdisciplinary readership: The work will appeal to researchers in RNA biology, biophysics, and cell biology. The single-molecule methodology and the conceptual framework are accessible to a broad audience.
+  - Technical soundness: The experimental design is generally sound, with appropriate controls and careful consideration of artifacts. However, the concerns about concentration saturation and the two-binding-site model need to be addressed to fully support the conclusions.
+  - Readability for nonspecialists: The manuscript is clearly written and the logic is easy to follow. The use of model systems is well explained. Some of the single-molecule terminology may be challenging for nonspecialists, but the key concepts are conveyed effectively.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central finding is potentially important, but the saturation issue (R1-M1) must be addressed to firmly establish the claim of phase-independence. The mechanistic model (R1-M3) also requires more detail. If these concerns are adequately resolved, the manuscript would make a valuable contribution.
+
+## Risk / unsupported claims
+- The claim that Nop1 perturbs RNA folding "independently of liquid-liquid phase separation" is not fully supported if the experiment is insensitive to concentration differences due to saturation (R1-M1).
+- The claim that Nop1 "may ameliorate ribosome assembly by transiently engaging the pre-rRNA during transcription" is speculative and not directly tested.
+- The claim that the two-binding-site model recapitulates the observed sequential unfolding is not verifiable without full model details.
+- The statement that Nop1 "does not detectably unfold stable RNA secondary structure" is based on a single hairpin and may not be generalizable.

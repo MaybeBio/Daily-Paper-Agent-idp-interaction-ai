@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.06.636797",
+  "title": "The molecular properties of the bHLH TCF4 protein as an intrinsically disordered hub transcription factor",
+  "authors": "Sozańska Nikola; Barbara P. Klepka; Niedźwiecka Anna; Żukowa Lilia; Dadlez Michał; Greb-Markiewicz Beata; Ożyhar Andrzej; Tarczewska Aneta",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-07",
+  "window": {
+    "start": "2025-02-03",
+    "end": "2025-02-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究表征全长TCF4作为大型无序蛋白的结构特性，并分析其bHLH结构域与DNA结合对无序性和稳定性的影响，虽涉及IDP与结合机制，但对象为蛋白-DNA互作而非PPI，且方法以实验为主，缺乏AI/物理模拟建模。",
+  "abstract": "1. Abstract Background Transcription factor 4 (TCF4) is a member of the basic helix-loop-helix (bHLH) family of transcription factors and guides proper embryogenesis, particularly neurogenesis, myogenesis, heart development and hematopoiesis. bHLH proteins exhibit variations in length, expression patterns and the presence of defined motifs. The interaction of TCF4 with DNA is dependent on the presence of a conserved bHLH domain, particularly the presence of a basic (b) motif. Most mutations in the Tcf4 gene are either associated with the development of serious nervous system disorders, such as Pitt-Hopkins syndrome or schizophrenia, or are lethal. Although TCF4 is essential for the proper development and function of the human body, apart from the isolated bHLH domain, there is a lack of fundamental knowledge about the structure of TCF4. Methods Recombinant full-length TCF4 was expressed in E. coli cells and purified using chromatographic techniques. To determine the conformation of the polypeptide chain of TCF4, we performed in vitro analysis using hydrogen/deuterium exchange mass spectrometry (HDX-MS). We then determined the dissociation constant (K D ) of the TCF4:DNA complex using independent methods, including fluorescence polarization (FP), electrophoretic mobility shift assay (EMSA), and fluorescence correlation spectroscopy (FCS). Finally, we compared the properties of TCF4 in its apo and holo form in relation to the changes of the conformation of the polypeptide chain (HDX-MS), hydrodynamic properties (e.g., sedimentation-velocity analytical ultracentrifugation; SV-AUC), and stability (thermal shift, circular dichroism; CD). Results In this study, we demonstrate the molecular characteristics of full-length TCF4, the dimer of which is one of the largest intrinsically disordered proteins (IDPs) described to date. According to our findings, the structure of TCF4 is extensively disordered. Only the bHLH domain, which comprises 10% of the polypeptide chain, exhibits a stable fold. Strikingly, Ephrussi-box (E-box) binding via the bHLH domain has no significant effect on the disordered nature of TCF4, but it does influence the stability of TCF4. Conclusions We suggest that bHLH plays the role of an anchor localizing TCF4 to specific gene sequences. The dual nature of the TCF4 structure, as well as the fact that the intrinsically disordered regions (IDRs) represents most of the protein sequence, suggests that TCF4 may act as a hub transcription factor regulating the expression of specific genes through the interaction of IDRs with gene-specific partners.",
+  "abstract_zh": "1. 摘要 背景 转录因子4（TCF4）是碱性螺旋-环-螺旋（bHLH）转录因子家族的成员，指导正确的胚胎发生，特别是神经发生、肌发生、心脏发育和造血。bHLH蛋白在长度、表达模式和特定基序的存在方面表现出差异。TCF4与DNA的相互作用依赖于保守的bHLH结构域的存在，特别是碱性（b）基序的存在。Tcf4基因中的大多数突变要么与严重神经系统疾病（如Pitt-Hopkins综合征或精神分裂症）的发展相关，要么是致死的。尽管TCF4对人体正确发育和功能至关重要，但除了孤立的bHLH结构域外，关于TCF4结构的基础知识仍然缺乏。方法 重组全长TCF4在大肠杆菌细胞中表达，并使用色谱技术纯化。为确定TCF4多肽链的构象，我们使用氢/氘交换质谱（HDX-MS）进行了体外分析。随后，我们使用独立方法测定了TCF4:DNA复合物的解离常数（K D ），包括荧光偏振（FP）、电泳迁移率变动分析（EMSA）和荧光相关光谱（FCS）。最后，我们比较了TCF4在apo和holo形式下的性质，涉及多肽链构象变化（HDX-MS）、流体动力学性质（例如，沉降速度分析超速离心；SV-AUC）和稳定性（热位移、圆二色光谱；CD）。结果 在本研究中，我们展示了全长TCF4的分子特征，其二聚体是迄今描述的最大的固有无序蛋白（IDPs）之一。根据我们的发现，TCF4的结构广泛无序。只有占多肽链10%的bHLH结构域表现出稳定折叠。值得注意的是，通过bHLH结构域的Ephrussi-box（E-box）结合对TCF4的无序性质没有显著影响，但确实影响TCF4的稳定性。结论 我们建议bHLH作为锚定物，将TCF4定位到特定基因序列。TCF4结构的双重性质，以及固有无序区域（IDRs）代表大部分蛋白质序列的事实，表明TCF4可能作为枢纽转录因子，通过IDRs与基因特异性伙伴的相互作用调节特定基因的表达。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.06.636797",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.06.636797",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.06.636797/index.html"
+}

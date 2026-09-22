@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "36945496",
+    "doi": "10.1101/2023.03.06.531372",
+    "title": "Exploring the evolution and function of Canoeaeuros intrinsically disordered region in linking cell-cell junctions to the cytoskeleton during embryonic morphogenesis."
+  },
+  "content": {
+    "abstract": "One central question for cell and developmental biologists is defining how epithelial cells can change shape and move during embryonic development without tearing tissues apart. This requires robust yet dynamic connections of cells to one another, via the cell-cell adherens junction, and of junctions to the actin and myosin cytoskeleton, which generates force. The last decade revealed that these connections involve a multivalent network of proteins, rather than a simple linear pathway. We focus on Drosophila Canoe, homolog of mammalian Afadin, as a model for defining the underlying mechanisms. Canoe and Afadin are complex, multidomain proteins that share multiple domains with defined and undefined binding partners. Both also share a long carboxy-terminal intrinsically disordered region (IDR), whose function is less well defined. IDRs are found in many proteins assembled into large multiprotein complexes. We have combined bioinformatic analysis and the use of a series of canoe mutants with early stop codons to explore the evolution and function of the IDR. Our bioinformatic analysis reveals that the IDRs of Canoe and Afadin differ dramatically in sequence and sequence properties. When we looked over shorter evolutionary time scales, we identified multiple conserved motifs. Some of these are predicted by AlphaFold to be alpha-helical, and two correspond to known protein interaction sites for alpha-catenin and F-actin. We next identified the lesions in a series of eighteen canoe mutants, which have early stop codons across the entire protein coding sequence. Analysis of their phenotypes are consistent with the idea that the IDR, including its C-terminal conserved motifs, are important for protein function. These data provide the foundation for further analysis of IDR function.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gurley, Noah J",
+        "Szymanski, Rachel A",
+        "Dowen, Robert H",
+        "Butcher, T Amber",
+        "Ishiyama, Noboru",
+        "Peifer, Mark"
+      ],
+      "short_names": [
+        "Gurley NJ",
+        "Szymanski RA",
+        "Dowen RH",
+        "Butcher TA",
+        "Ishiyama N",
+        "Peifer M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA.",
+        "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA.",
+        "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA.",
+        "Curriculum in Genetics and Molecular Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "Integrative Program for Biological and Genome Sciences, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "Department of Cell Biology and Physiology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+        "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA.",
+        "Launchpad Therapeutics, Inc., One Main Street, Cambridge MA 02142.",
+        "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA.",
+        "Curriculum in Genetics and Molecular Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gurley, Noah J",
+        "short_name": "Gurley NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA."
+        ]
+      },
+      {
+        "full_name": "Szymanski, Rachel A",
+        "short_name": "Szymanski RA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA."
+        ]
+      },
+      {
+        "full_name": "Dowen, Robert H",
+        "short_name": "Dowen RH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA.",
+          "Curriculum in Genetics and Molecular Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+          "Integrative Program for Biological and Genome Sciences, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+          "Department of Cell Biology and Physiology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA."
+        ]
+      },
+      {
+        "full_name": "Butcher, T Amber",
+        "short_name": "Butcher TA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA."
+        ]
+      },
+      {
+        "full_name": "Ishiyama, Noboru",
+        "short_name": "Ishiyama N",
+        "identifiers": [],
+        "affiliations": [
+          "Launchpad Therapeutics, Inc., One Main Street, Cambridge MA 02142."
+        ]
+      },
+      {
+        "full_name": "Peifer, Mark",
+        "short_name": "Peifer M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, University of North Carolina at Chapel Hill, CB#3280, Chapel Hill, NC 27599-3280, USA.",
+          "Curriculum in Genetics and Molecular Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Mar 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/23 06:00",
+    "fetched_at": "2026-09-20 20:35:46"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36520419",
+      "35637307",
+      "35412617",
+      "35177069",
+      "34791371",
+      "34788634",
+      "34762121",
+      "34265844",
+      "33627133",
+      "33616531",
+      "33590861",
+      "33243859",
+      "32917667",
+      "32227204",
+      "31805038",
+      "31359616",
+      "31353315",
+      "31264965",
+      "31188739",
+      "30782412",
+      "30471685",
+      "29969655",
+      "29891560",
+      "29431241",
+      "29361567",
+      "29361565",
+      "28890940",
+      "28778874",
+      "28305338",
+      "28225081",
+      "27385341",
+      "26751642",
+      "25378627",
+      "23203878",
+      "22977176",
+      "22728672",
+      "21988835",
+      "21613546",
+      "21478889",
+      "21402926",
+      "20008323",
+      "19596848",
+      "16935303",
+      "16049193",
+      "15084738",
+      "14504224",
+      "12446711",
+      "10922060",
+      "9858699",
+      "9334353",
+      "9310325",
+      "8978054",
+      "8598295",
+      "8582279",
+      "2570722",
+      "2261639"
+    ],
+    "similar": [
+      "36945496",
+      "37535684",
+      "38323935",
+      "37905001",
+      "33627133",
+      "31188739",
+      "34762121",
+      "36287827",
+      "19596848",
+      "23363604",
+      "21508316",
+      "23481206",
+      "33243859",
+      "12446711",
+      "10639730",
+      "11408571",
+      "31353315",
+      "35696393",
+      "24027208",
+      "36909597",
+      "27114502",
+      "11907041",
+      "37244252",
+      "29358210",
+      "15140894",
+      "23075227",
+      "17846121",
+      "10085297",
+      "16361708",
+      "34179096",
+      "30802457",
+      "9334353",
+      "31678340",
+      "27140628",
+      "15809032",
+      "8698810",
+      "28865031",
+      "29550429",
+      "29722136",
+      "32553192",
+      "32824743",
+      "31724233",
+      "28924037",
+      "29066345",
+      "23760157",
+      "18173749",
+      "36291695",
+      "33218630",
+      "29431241",
+      "25045601",
+      "33036302",
+      "23750010",
+      "22981773",
+      "31628110",
+      "26149687",
+      "10477764",
+      "23195221",
+      "30878482",
+      "32227204",
+      "21732359",
+      "27718363",
+      "14760006",
+      "12717711",
+      "33248138",
+      "10583506",
+      "23990464",
+      "26688336",
+      "25764135",
+      "30763317",
+      "34210966",
+      "9356175",
+      "25968313",
+      "32969337",
+      "34557680",
+      "22024168",
+      "35364288",
+      "34812842",
+      "30518031",
+      "34656334",
+      "28842483",
+      "28373611",
+      "36851914",
+      "34825861",
+      "23912807",
+      "36648282"
+    ],
+    "review": [
+      "36945496",
+      "23481206",
+      "35696393",
+      "24027208",
+      "31678340",
+      "29722136",
+      "33218630",
+      "33248138",
+      "34656334",
+      "28373611",
+      "36851914"
+    ],
+    "pmc": [
+      "10028902"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36945496/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36945496",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.03.06.531372",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

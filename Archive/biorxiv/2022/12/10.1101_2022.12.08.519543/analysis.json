@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.08.519543",
+  "title": "SAINT-Angle: self-attention augmented inception-inside-inception network and transfer learning improve protein backbone torsion angle prediction",
+  "authors": "A.K.M. Mehedi Hasan; Ajmain Yasar Ahmed; Sazan Mahbub; M. Saifur Rahman; Md. Shamsuzzoha Bayzid",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-12",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用自注意力网络和迁移学习预测蛋白质主链扭转角，虽涉及结构预测和AI方法，但对象非无序蛋白/IDR，且不直接研究PPI或互作机制，仅间接相关。",
+  "abstract": "Motivation Protein structure provides insight into how proteins interact with one another as well as their functions in living organisms. Protein backbone torsion angles ( ϕ and ψ ) prediction is a key sub-problem in predicting protein structures. However, reliable determination of backbone torsion angles using conventional experimental methods is slow and expensive. Therefore, considerable effort is being put into developing computational methods for predicting backbone angles. Results We present SAINT-Angle, a highly accurate method for predicting protein backbone torsion angles using a self-attention based deep learning network called SAINT, which was previously developed for the protein secondary structure prediction. We extended and improved the existing SAINT architecture as well as used transfer learning to predict backbone angles. We compared the performance of SAINT-Angle with the state-of-the-art methods through an extensive evaluation study on a collection of benchmark datasets, namely, TEST2016, TEST2018, CAMEO, and CASP. The experimental results suggest that our proposed self-attention based network, together with transfer learning, has achieved notable improvements over the best alternate methods. Availability and implementation SAINT-Angle is freely available as an open-source project at https://github.com/bayzidlab/SAINT-Angle . Contact shams_bayzid@cse.buet.ac.bd Supplementary information Supplementary material SM.pdf.",
+  "abstract_zh": "动机 蛋白质结构为了解蛋白质如何相互作用及其在生物体中的功能提供了洞见。蛋白质骨架扭转角（ϕ 和 ψ）的预测是蛋白质结构预测中的一个关键子问题。然而，使用传统实验方法可靠地确定骨架扭转角既缓慢又昂贵。因此，大量努力正投入到开发用于预测骨架角的计算方法中。结果 我们提出了SAINT-Angle，一种利用基于自注意力机制的深度学习网络SAINT来高精度预测蛋白质骨架扭转角的方法，该网络先前是为蛋白质二级结构预测而开发的。我们扩展并改进了现有的SAINT架构，并利用迁移学习来预测骨架角。我们通过对一组基准数据集（即TEST2016、TEST2018、CAMEO和CASP）进行广泛评估研究，将SAINT-Angle的性能与最先进的方法进行了比较。实验结果表明，我们提出的基于自注意力的网络结合迁移学习，相较于最佳替代方法取得了显著改进。可用性与实现 SAINT-Angle作为开源项目免费提供，网址为 https://github.com/bayzidlab/SAINT-Angle 。联系方式 shams_bayzid@cse.buet.ac.bd 补充信息 补充材料SM.pdf。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.08.519543",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.08.519543",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.08.519543/index.html"
+}

@@ -1,0 +1,567 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.03.14.585015",
+  "title": "Integration of molecular coarse-grained model into geometric representation learning framework for protein-protein complex property prediction",
+  "doi": "10.1101/2024.03.14.585015",
+  "abstract": "Structure-based machine learning algorithms have been utilized to predict the properties of protein-protein interaction (PPI) complexes, such as binding affinity, which is critical for understanding biological mechanisms and disease treatments. While most existing algorithms represent PPI complex graph structures at the atom-scale or residue-scale, these representations can be computationally expensive or may not sufficiently integrate finer chemical-plausible interaction details for improving predictions. Here, we introduce MCGLPPI, a novel geometric representation learning framework that combines graph neural networks (GNNs) with the MARTINI molecular coarse-grained (CG) model to predict overall PPI properties accurately and efficiently. This framework maps proteins onto a concise CG-scale complex graph, where nodes represent CG beads and edges encode chemically plausible interactions. The GNN-based encoder is tailored to extract high-quality representations from this graph, efficiently capturing the overall properties of the protein complex structure. Extensive experiments on three different downstream PPI property prediction tasks demonstrate that MCGLPPI achieves competitive performance compared with the counterparts at the atom- and residue-scale, but with only a third of the computational resource consumption. Furthermore, the CG-scale pre-training on protein domain-domain interaction structures enhances its predictive capabilities for PPI tasks. MCGLPPI offers an effective and efficient solution for PPI overall property predictions, serving as a promising tool for the large-scale analysis of biomolecular interactions.",
+  "authors": [
+    "Yang Yue",
+    "Shu Li",
+    "Yihua Cheng",
+    "Zexuan Zhu",
+    "Lie Wang",
+    "Tingjun Hou",
+    "Shan He"
+  ],
+  "published_date": "2024-03-16",
+  "updated_date": "2024-03-16T20:20:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.03.14.585015",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.03.14.585015.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:34:57Z",
+        "timestamp": 1768509297917,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            16
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 46,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Structure-based machine learning algorithms have been utilized to predict the properties of protein-protein interaction (PPI) complexes, such as binding affinity, which is critical for understanding biological mechanisms and disease treatments. While most existing algorithms represent PPI complex graph structures at the atom-scale or residue-scale, these representations can be computationally expensive or may not sufficiently integrate finer chemical-plausible interaction details for improving predictions. Here, we introduce MCGLPPI, a novel geometric representation learning framework that combines graph neural networks (GNNs) with the MARTINI molecular coarse-grained (CG) model to predict overall PPI properties accurately and efficiently. This framework maps proteins onto a concise CG-scale complex graph, where nodes represent CG beads and edges encode chemically plausible interactions. The GNN-based encoder is tailored to extract high-quality representations from this graph, efficiently capturing the overall properties of the protein complex structure. Extensive experiments on three different downstream PPI property prediction tasks demonstrate that MCGLPPI achieves competitive performance compared with the counterparts at the atom- and residue-scale, but with only a third of the computational resource consumption. Furthermore, the CG-scale pre-training on protein domain-domain interaction structures enhances its predictive capabilities for PPI tasks. MCGLPPI offers an effective and efficient solution for PPI overall property predictions, serving as a promising tool for the large-scale analysis of biomolecular interactions.</jats:p>",
+      "DOI": "10.1101/2024.03.14.585015",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            16
+          ]
+        ],
+        "date-time": "2024-03-16T20:20:14Z",
+        "timestamp": 1710620414000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Integration of molecular coarse-grained model into geometric representation learning framework for protein-protein complex property prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yang",
+          "family": "Yue",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shu",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yihua",
+          "family": "Cheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zexuan",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lie",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tingjun",
+          "family": "Hou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Shan",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang Z , Brand R , Adolf-Bryfogle J , et al. EGGNet, a generalizable geometric deep learning framework for protein complex pose scoring[J]. bioRxiv, 2023: 2023.03. 22.533800.",
+          "DOI": "10.1101/2023.03.22.533800"
+        },
+        {
+          "issue": "5",
+          "key": "2024031912101732000_2024.03.14.585015v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbad310",
+          "DOI": "10.1093/bib/bbad310",
+          "article-title": "MpbPPI: a multi-task pre-training-based equivariant approach for the prediction of the effect of amino acid mutations on protein–protein interactions[J]",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbt039"
+        },
+        {
+          "issue": "1",
+          "key": "2024031912101732000_2024.03.14.585015v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbac564",
+          "DOI": "10.1093/bib/bbac564",
+          "article-title": "Improving therapeutic synergy score predictions with adverse effects using multi-task heterogeneous network learning[J]",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0606198104"
+        },
+        {
+          "issue": "2",
+          "key": "2024031912101732000_2024.03.14.585015v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "116",
+          "DOI": "10.1038/s42256-020-0149-6",
+          "article-title": "A topology-based network tree for the prediction of protein– protein binding affinity changes following mutation[J]",
+          "volume": "2",
+          "year": "2020",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bfgp/elm035"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin J S , Lai E M . Protein–protein interactions: co-immunoprecipitation[J]. Bacterial Protein Secretion Systems: Methods and Protocols, 2017: 211–219.",
+          "DOI": "10.1007/978-1-4939-7033-9_17"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Louche A , Salcedo S P , Bigot S. Protein–protein interactions: pull-down assays[J]. bacterial Protein secretion systems: methods and protocols, 2017: 247–255.",
+          "DOI": "10.1007/978-1-4939-7033-9_20"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.10",
+          "unstructured": "Hussain S A. An introduction to fluorescence resonance energy transfer (FRET)[J]. arXiv preprint arXiv:0908.1815, 2009."
+        },
+        {
+          "issue": "4",
+          "key": "2024031912101732000_2024.03.14.585015v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "395",
+          "DOI": "10.1038/s42256-023-00634-4",
+          "article-title": "Characterizing the interaction conformation between T-cell receptors and epitopes with deep learning[J]",
+          "volume": "5",
+          "year": "2023",
+          "journal-title": "Nature Machine Intelligence"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm323"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm048957q"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Alberts B . Molecular biology of the cell[M]. Garland science, 2017.",
+          "DOI": "10.1201/9781315735368"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S0033583503003901"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.16",
+          "unstructured": "Zhou B , Lv O , Yi K , et al. Lightweight Equivariant Graph Representation Learning for Protein Engineering[J]. 2022."
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.17",
+          "unstructured": "Kipf T N , Welling M . Semi-supervised classification with graph convolutional networks[J]. arXiv preprint arXiv:1609.02907, 2016."
+        },
+        {
+          "issue": "1",
+          "key": "2024031912101732000_2024.03.14.585015v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "btac759",
+          "DOI": "10.1093/bioinformatics/btac759",
+          "article-title": "DeepRank-GNN: a graph neural network framework to learn patterns in protein–protein interfaces[J]",
+          "volume": "39",
+          "year": "2023",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.19",
+          "unstructured": "T Townshend R J L , Vögele M , Suriana P , et al. Atom3d: Tasks on molecules in three dimensions[J]. arXiv preprint arXiv:2012.04035, 2020."
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.20",
+          "unstructured": "Jing B , Eismann S , Soni P N , et al. Equivariant graph neural networks for 3d macromolecular structure[J]. arXiv preprint arXiv:2106.03843, 2021."
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.21",
+          "unstructured": "Zhang Z , Xu M , Jamasb A , et al. Protein representation learning by geometric structure pretraining[J]. arXiv preprint arXiv:2203.06125, 2022."
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.22",
+          "unstructured": "Zhang Z , Xu M , Lozano A , et al. Pre-Training Protein Encoder via Siamese Sequence-Structure Diffusion Trajectory Prediction[C]//Annual Conference on Neural Information Processing Systems. 2023."
+        },
+        {
+          "issue": "1",
+          "key": "2024031912101732000_2024.03.14.585015v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "687",
+          "DOI": "10.1021/ct300646g",
+          "article-title": "Improved parameters for the martini coarse-grained protein force field[J]",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "issue": "5",
+          "key": "2024031912101732000_2024.03.14.585015v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "819",
+          "DOI": "10.1021/ct700324x",
+          "article-title": "The MARTINI coarse-grained force field: extension to proteins[J]",
+          "volume": "4",
+          "year": "2008",
+          "journal-title": "Journal of chemical theory and computation"
+        },
+        {
+          "issue": "4",
+          "key": "2024031912101732000_2024.03.14.585015v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "382",
+          "DOI": "10.1038/s41592-021-01098-3",
+          "article-title": "Martini 3: a general purpose force field for coarse-grained molecular dynamics[J]",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nature methods"
+        },
+        {
+          "issue": "18",
+          "key": "2024031912101732000_2024.03.14.585015v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "6151",
+          "DOI": "10.1021/acs.jctc.3c00702",
+          "article-title": "Two for one: Diffusion models and force fields for coarse-grained molecular dynamics[J]",
+          "volume": "19",
+          "year": "2023",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.27",
+          "first-page": "N49.010",
+          "volume": "2022",
+          "year": "2022",
+          "journal-title": "Generative Coarse-Graining[C]//APS March Meeting Abstracts"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt887"
+        },
+        {
+          "issue": "8",
+          "key": "2024031912101732000_2024.03.14.585015v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1008844",
+          "DOI": "10.1371/journal.pcbi.1008844",
+          "article-title": "PPIDomainMiner: Inferring domain-domain interactions from multiple sources of protein-protein interactions[J]",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "PLOS Computational Biology"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq1229"
+        },
+        {
+          "issue": "27",
+          "key": "2024031912101732000_2024.03.14.585015v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "7812",
+          "DOI": "10.1021/jp071097f",
+          "article-title": "The MARTINI force field: coarse grained model for biomolecular simulations[J]",
+          "volume": "111",
+          "year": "2007",
+          "journal-title": "The journal of physical chemistry B"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Burley S K , Berman H M , Kleywegt G J , et al. Protein Data Bank (PDB): the single global macromolecular structure archive[J]. Protein crystallography: methods and protocols, 2017: 627–641.",
+          "DOI": "10.1007/978-1-4939-7000-1_26"
+        },
+        {
+          "issue": "5",
+          "key": "2024031912101732000_2024.03.14.585015v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "908",
+          "DOI": "10.1002/prot.25260",
+          "article-title": "ATLAS: a database linking binding affinities with structures for wild-type and mutant TCR-pMHC complexes[J]",
+          "volume": "85",
+          "year": "2017",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0952-7915(01)00298-9"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm030580l"
+        },
+        {
+          "issue": "1",
+          "key": "2024031912101732000_2024.03.14.585015v1.36",
+          "first-page": "1",
+          "article-title": "A PDB-wide, evolution-based assessment of protein-protein interfaces[J]",
+          "volume": "14",
+          "year": "2014",
+          "journal-title": "BMC structural biology"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-13-1"
+        },
+        {
+          "issue": "10",
+          "key": "2024031912101732000_2024.03.14.585015v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "2561",
+          "DOI": "10.1021/acs.jcim.2c00255",
+          "article-title": "Ensemble simulations and experimental free energy distributions: Evaluation and characterization of isoxazole amides as SMYD3 inhibitors[J]",
+          "volume": "62",
+          "year": "2022",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.biochem.77.062906.171838"
+        },
+        {
+          "issue": "suppl_1",
+          "key": "2024031912101732000_2024.03.14.585015v1.40",
+          "first-page": "D761",
+          "article-title": "The protein common interface database (ProtCID)—a comprehensive database of interactions of homologous proteins in multiple crystal forms[J]",
+          "volume": "39",
+          "year": "2010",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "161",
+          "DOI": "10.1007/BF02854581",
+          "article-title": "Some properties of line digraphs[J]",
+          "volume": "9",
+          "year": "1960",
+          "journal-title": "Rendiconti del circolo matematico di palermo"
+        },
+        {
+          "issue": "8",
+          "key": "2024031912101732000_2024.03.14.585015v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1009284",
+          "DOI": "10.1371/journal.pcbi.1009284",
+          "article-title": "Deep geometric representations for modeling effects of mutations on protein-protein binding affinity[J]",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "PLoS computational biology"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/ARXIV.2006.11239"
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.44",
+          "unstructured": "Paszke A , Gross S , Massa F , et al. Pytorch: An imperative style, high-performance deep learning library[J]. Advances in neural information processing systems, 2019, 32."
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.45",
+          "unstructured": "Zhu Z , Shi C , Zhang Z , et al. Torchdrug: A powerful and flexible machine learning platform for drug discovery[J]. arXiv preprint arXiv:2202.08320, 2022."
+        },
+        {
+          "key": "2024031912101732000_2024.03.14.585015v1.46",
+          "unstructured": "Kingma D P , Ba J . Adam: A method for stochastic optimization[J]. arXiv preprint arXiv:1412.6980, 2014."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.03.14.585015",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:07:07Z",
+        "timestamp": 1768457227000
+      },
+      "score": 64.53029,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.03.14.585015"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            16
+          ]
+        ]
+      },
+      "references-count": 46,
+      "URL": "https://doi.org/10.1101/2024.03.14.585015",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41467-024-53583-w",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            3,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

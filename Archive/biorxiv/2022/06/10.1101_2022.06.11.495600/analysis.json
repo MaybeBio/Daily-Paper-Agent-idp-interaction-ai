@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.06.11.495600",
+  "title": "Biofunctional nanodot arrays in living cells uncover synergistic co-condensation of Wnt signalodroplets",
+  "authors": "Philippi M; Richter CP; Kappen M; Watrinet I; Miao Y; Runge M; Jorde L; Korneev S; Holtmannspötter M; Kurre R; Holthuis JCM; Garcia KC; Plückthun A; Steinhart M; Piehler J; You C",
+  "journal": "bioRxiv",
+  "published_date": "2022-06-13",
+  "window": {
+    "start": "2022-06-13",
+    "end": "2022-06-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用生物功能纳米点阵列在活细胞膜上操控受体聚集，观察Wnt信号体共凝聚的LLPS现象，涉及相分离PPI但无AI/物理模拟方法，机制建模深度有限。",
+  "abstract": "Qualitative and quantitative analysis of transient signaling platforms in the plasma membrane has remained a key experimental challenge. Here, we have developed biofunctional nanodot arrays (bNDAs) to spatially control dimerization and clustering of cell surface receptors at nanoscale. High-contrast bNDAs with spot diameters of ∼300 nm were obtained by capillary nanostamping of BSA bioconjugates, which were subsequently biofunctionalized by reaction with tandem anti- GFP clamp fusions. We achieved spatially controlled assembly of active Wnt signalosomes at the nanoscale in the plasma membrane of live cells by capturing the co-receptor Lrp6 into bNDAs via an extracellular GFP tag. Strikingly, we observed co-recruitment of co-receptor Frizzled-8 as well as the cytosolic scaffold proteins Axin-1 and Disheveled-2 into Lrp6 nanodots in the absence of ligand. Density variation and the high dynamics of effector proteins uncover highly cooperative liquid-liquid phase separation (LLPS)-driven assembly of Wnt “signalodroplets” at the plasma membrane, pinpointing the synergistic effects of LLPS for Wnt signaling amplification. These insights highlight the potential of bNDAs for systematically interrogating nanoscale signaling platforms and condensation at the plasma membrane of live cells.",
+  "abstract_zh": "对质膜中瞬时信号平台进行定性和定量分析一直是一项关键的实验挑战。在此，我们开发了生物功能纳米点阵列（bNDAs），以在纳米尺度上空间控制细胞表面受体的二聚化和聚集。通过BSA生物偶联物的毛细管纳米压印技术，获得了点径约300 nm的高对比度bNDAs，随后通过与串联抗GFP钳夹融合蛋白的反应进行生物功能化。我们通过在活细胞质膜中，利用细胞外GFP标签将共受体Lrp6捕获到bNDAs中，实现了活性Wnt信号体在纳米尺度上的空间控制组装。引人注目的是，在无配体条件下，我们观察到共受体Frizzled-8以及胞质支架蛋白Axin-1和Disheveled-2被共同招募到Lrp6纳米点中。效应蛋白的密度变化和高动态性揭示了由液-液相分离（LLPS）驱动的Wnt“信号液滴”在质膜上的高度协同组装，指出了LLPS对Wnt信号放大的协同效应。这些见解凸显了bNDAs在系统探究活细胞质膜上纳米尺度信号平台和凝聚方面的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.06.11.495600",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.06.11.495600",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.06.11.495600/index.html"
+}

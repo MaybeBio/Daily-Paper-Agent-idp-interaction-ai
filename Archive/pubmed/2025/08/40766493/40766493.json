@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "40766493",
+    "doi": "10.1101/2025.07.27.667063",
+    "title": "How chromatin-binding proteins direct distinct folding pathways of tetra-nucleosomes: Insights from coarse-grained simulations."
+  },
+  "content": {
+    "abstract": "The dynamic coupling between chromatin organization and biomolecular condensates is governed by chromatin-binding proteins, yet the structural mechanisms by which these proteins modulate nucleosome interactions across spatial and organizational scales remain poorly understood. In this work, using high-resolution sequence-specific coarse-grained models combined with well-tempered metadynamics and parallel tempering, we investigate how heterochromatin protein 1alpha (HP1alpha) and a truncated construct of Polyhomeotic-like protein (tPHC3) influence the stability and folding pathways of tetra-nucleosomes, a minimal yet functionally informative chromatin model, under dilute and dense-phase conditions. While these proteins are known to drive distinct nuclear condensates their differential impact on chromatin topology and folding dynamics remains unclear. To address this, we ask: Do HP1alpha and tPHC3 stabilize or disrupt the canonical beta-rhombus and alpha-tetrahedron nucleosome conformations? Are alpha-tetrahedron motifs transient intermediates or metastable states, and how do their prevalence and persistence depend on protein identity and phase context? To answer these questions, we analyze folding free energy landscapes, diffusion maps-based dimensionality reduced coordinates, and intermolecular interaction networks. Our simulations reveal that HP1alpha promote flexible, short-range nucleosome bridging and transient alpha-tetrahedron-like intermediates without stabilizing persistent structural basins. In contrast, tPHC3 stabilize alpha-tetrahedron-like motifs that scaffold folding toward the compact beta-rhombus configuration characteristic of crystal-state tetra-nucleosomes. We find that this behavior arises from a context-dependent reorganization of multivalent SAM-linker interactions: in the absence of chromatin, self-association in dense phase conditions is mediated by linker-linker and linker-SAM contacts, while in the presence of nucleosomes, these linker-mediated interactions are suppressed, prompting compensatory SAM-SAM assembly. This reorganization highlights the essential role of SAM-mediated bridging in enabling long-range chromatin compaction. Together, our results demonstrate that under dense phase conditions alpha-tetrahedron-like motifs act as metastable intermediates rather than obligate folding end states, and their emergence depends critically on the identity of the chromatin-binding protein and their ability to mediate bridging. These insights offer a mechanistic framework for understanding how distinct architectural proteins encode topological preferences and remodel chromatin architecture across scales to support condensate formation and nuclear compartmentalization.",
+    "keywords": [
+      "chromatin-binding proteins",
+      "coarse-grained molecular dynamics",
+      "protein-nucleic acid interactions",
+      "tetra-nucleosome folding pathway",
+      "thermodynamics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kapoor, Utkarsh"
+      ],
+      "short_names": [
+        "Kapoor U"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4977-3405"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biomedical Engineering, University of Wyoming, Laramie, WY 82071, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kapoor, Utkarsh",
+        "short_name": "Kapoor U",
+        "identifiers": [
+          "0000-0002-4977-3405"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomedical Engineering, University of Wyoming, Laramie, WY 82071, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/06 06:28",
+    "fetched_at": "2026-09-21 22:09:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40628730",
+      "40441156",
+      "38718835",
+      "37988476",
+      "36849253",
+      "36537242",
+      "35119946",
+      "34235262",
+      "34001913",
+      "33934416",
+      "33597548",
+      "33154383",
+      "32684431",
+      "31543265",
+      "31363226",
+      "31091895",
+      "30908980",
+      "29644850",
+      "29628210",
+      "29336876",
+      "28935776",
+      "28893533",
+      "28751582",
+      "28636604",
+      "28225081",
+      "27739532",
+      "27322406",
+      "26787893",
+      "26574285",
+      "26328871",
+      "25838811",
+      "25288112",
+      "25046020",
+      "25044168",
+      "24847063",
+      "24763583",
+      "24618358",
+      "24091011",
+      "24006969",
+      "23865517",
+      "23657480",
+      "22724443",
+      "21177647",
+      "21047797",
+      "20866953",
+      "20643962",
+      "20570730",
+      "20452954",
+      "18429317",
+      "18232845",
+      "17320514",
+      "17224041",
+      "17031956",
+      "16001076",
+      "15264254",
+      "12271136",
+      "12079350",
+      "11992127",
+      "11854495",
+      "11242054",
+      "11242053",
+      "8744570"
+    ],
+    "similar": [
+      "40766493",
+      "41316707",
+      "39605526",
+      "33667509",
+      "34235262",
+      "30661750",
+      "25418099",
+      "38257239",
+      "33383034",
+      "34001913",
+      "30630950",
+      "23912807",
+      "28732449",
+      "9826673",
+      "33589918",
+      "29339721",
+      "34314440",
+      "15546624",
+      "38289342",
+      "28973435",
+      "28934465",
+      "23071745",
+      "32165536",
+      "40661423",
+      "36849253",
+      "22990522",
+      "25122771",
+      "33309853",
+      "40776446",
+      "31151739",
+      "35158124",
+      "40441156",
+      "41272271",
+      "35834552",
+      "39887339",
+      "41372631",
+      "41169547",
+      "37988476",
+      "31668748",
+      "41343645",
+      "31952807",
+      "31015386",
+      "37433821",
+      "40954121",
+      "29628212",
+      "33597548",
+      "25564155",
+      "19651606",
+      "31618757",
+      "21464206",
+      "20145817",
+      "40291647",
+      "40029962",
+      "27903656",
+      "12930828",
+      "23418426",
+      "38048471",
+      "36062461",
+      "37961422",
+      "40153141",
+      "33460684",
+      "40464692",
+      "40848932",
+      "40098319",
+      "35618225",
+      "33440158",
+      "37894874",
+      "33912585",
+      "24906881",
+      "24847063",
+      "17142268",
+      "30007360",
+      "30514760",
+      "22473209",
+      "36495920",
+      "20858435",
+      "40974823",
+      "19298048",
+      "29506273",
+      "37396862",
+      "20236753",
+      "37683647",
+      "37527265",
+      "31176328",
+      "33154383",
+      "26699921",
+      "28299939",
+      "38346246",
+      "39193905",
+      "27270081",
+      "36412795",
+      "36325618",
+      "29465771",
+      "18212006",
+      "40172489",
+      "10467141",
+      "20226790",
+      "12927539",
+      "40060531",
+      "1883827"
+    ],
+    "review": [
+      "40766493",
+      "33309853",
+      "39887339",
+      "31015386",
+      "29628212",
+      "27903656",
+      "33460684",
+      "40974823",
+      "38346246"
+    ],
+    "pmc": [
+      "12324292"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40766493/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.07.27.667063",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

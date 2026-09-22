@@ -1,0 +1,273 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.11.503562",
+  "title": "Phosphorylation of the Smooth Muscle Master Splicing Regulator RBPMS Regulates its Splicing Activity",
+  "doi": "10.1101/2022.08.11.503562",
+  "abstract": "<h4>ABSTRACT</h4> We previously identified RBPMS as a master regulator of alternative splicing in differentiated smooth muscle cells (SMCs). RBPMS is transcriptionally downregulated during SMC dedifferentiation, but we hypothesized that RBPMS protein activity might be acutely downregulated by post-translational modifications. Publicly available phosphoproteomic datasets reveal that Thr113 and Thr118 immediately adjacent to the RRM domain are commonly both phosphorylated. An RBPMS T113/118 phosphomimetic T/E mutant showed decreased splicing regulatory activity both in transfected cells and in a cell-free in vitro assay, while a non-phosphorylatable T/A mutant retained full activity. Loss of splicing activity was associated with a modest reduction in RNA affinity but significantly reduced RNA binding in nuclear extract. A lower degree of oligomerization of the T/E mutant might cause lower avidity of multivalent RNA binding. However, NMR analysis also revealed that the T113/118E peptide acts as an RNA mimic which can loop back and antagonize RNA-binding by the RRM domain. Finally, we identified ERK2 as the most likely kinase responsible for phosphorylation at Thr113 and Thr118. Collectively, our data identify a potential mechanism for rapid modulation of the SMC splicing program in response to external signals during the vascular injury response and atherogenesis.",
+  "authors": [
+    "Barnhart MD",
+    "Yang Y",
+    "Nakagaki-Silva EE",
+    "Hammond TH",
+    "Pizzinga M",
+    "Gooding C",
+    "Stott K",
+    "Smith CW"
+  ],
+  "published_date": "2022-08-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.11.503562",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.11.503562.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR531724",
+    "raw_record": {
+      "id": "PPR531724",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR531724"
+        ]
+      },
+      "doi": "10.1101/2022.08.11.503562",
+      "title": "Phosphorylation of the Smooth Muscle Master Splicing Regulator RBPMS Regulates its Splicing Activity",
+      "authorString": "Barnhart MD, Yang Y, Nakagaki-Silva EE, Hammond TH, Pizzinga M, Gooding C, Stott K, Smith CW.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Barnhart MD",
+            "lastName": "Barnhart",
+            "firstName": "Michael",
+            "initials": "MD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Cambridge, Cambridge, CB2 1QW, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang Y",
+            "lastName": "Yang",
+            "firstName": "Yi",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Cambridge, Cambridge, CB2 1QW, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nakagaki-Silva EE",
+            "lastName": "Nakagaki-Silva",
+            "firstName": "Erick",
+            "initials": "EE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6878-4409"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Cambridge, Cambridge, CB2 1QW, United Kingdom"
+                },
+                {
+                  "affiliation": "Cold Spring Harbor Laboratory, Cold Spring Harbor, New York 11724, USA (current affiliation)"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hammond TH",
+            "lastName": "Hammond",
+            "firstName": "Thomas",
+            "initials": "TH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Cambridge, Cambridge, CB2 1QW, United Kingdom"
+                },
+                {
+                  "affiliation": "Francis Crick Institute, London, NW1 1AT, United Kingdom (current affiliation)"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pizzinga M",
+            "lastName": "Pizzinga",
+            "firstName": "Mariavittoria",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC Toxicology Unit, University of Cambridge, Cambridge, CB2 1QR, United Kingdom"
+                },
+                {
+                  "affiliation": "Structural Biology Research Centre, Fondazione Human Technopole, Milan, 20157, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gooding C",
+            "lastName": "Gooding",
+            "firstName": "Clare",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Cambridge, Cambridge, CB2 1QW, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stott K",
+            "lastName": "Stott",
+            "firstName": "Katherine",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Cambridge, Cambridge, CB2 1QW, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Smith CW",
+            "lastName": "Smith",
+            "firstName": "Christopher W.J.",
+            "initials": "CW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2753-3398"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, University of Cambridge, Cambridge, CB2 1QW, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2753-3398"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6878-4409"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  We previously identified RBPMS as a master regulator of alternative splicing in differentiated smooth muscle cells (SMCs).  RBPMS is transcriptionally downregulated during SMC dedifferentiation, but we hypothesized that RBPMS protein activity might be acutely downregulated by post-translational modifications. Publicly available phosphoproteomic datasets reveal that Thr113 and Thr118 immediately adjacent to the RRM domain are commonly both phosphorylated. An RBPMS T113/118 phosphomimetic T/E mutant showed decreased splicing regulatory activity both in transfected cells and in a cell-free  in vitro assay, while a non-phosphorylatable T/A mutant retained full activity. Loss of splicing activity was associated with a modest reduction in RNA affinity but significantly reduced RNA binding in nuclear extract. A lower degree of oligomerization of the T/E mutant might cause lower avidity of multivalent RNA binding. However, NMR analysis also revealed that the T113/118E peptide acts as an RNA mimic which can loop back and antagonize RNA-binding by the RRM domain. Finally, we identified ERK2 as the most likely kinase responsible for phosphorylation at Thr113 and Thr118. Collectively, our data identify a potential mechanism for rapid modulation of the SMC splicing program in response to external signals during the vascular injury response and atherogenesis.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "209368/Z/17/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/08/12/2022.08.11.503562.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.08.11.503562"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR531724"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR531724&type=FILE&fileName=EMS152764-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36408906",
+            "reference": "Nucleic acids research. 2022 Nov;50(20):11895-11915",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS152764",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-08-14",
+      "firstPublicationDate": "2022-08-12",
+      "firstIndexDate": "2022-08-14",
+      "fullTextReceivedDate": "2022-11-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Full manuscript text, figures (referenced), supplementary figure legends, and methods
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical soundness as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors propose that acetylation of PABPC1 at lysine 606 (K606) selectively enhances its affinity for the translation termination factor eRF3a, thereby promoting competitive recruitment of eRF3a over other PAM2-motif-containing proteins, and that this modification-dependent interaction is functionally relevant in cells.
+- **Visible evidence base** Abstract, Introduction, Results (Sections 1-4), Discussion, Materials and Methods, Supplementary Figure Legends 1-3, Supplementary Table Legends 1-2
+- **Missing materials affecting confidence** Full figures and figure panels (only legends provided), Supplementary Tables 1-2 (data not shown), raw SPR sensorgrams, crystallographic data (electron density maps, refinement statistics not fully detailed), statistical analysis details for proteomics data, and full methods for antibody validation
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and technically rigorous analysis of PAM2-motif binding affinities for the PABPC1 C-terminal domain, identifying eRF3a and PAIP2 as the highest-affinity interactors. The key novel claim is that site-specific acetylation of K606 selectively enhances eRF3a binding, supported by in vitro binding data, a crystal structure, and cellular co-immunoprecipitation experiments. The work is potentially significant for understanding how post-translational modifications regulate PABPC1's multifunctional roles in mRNA metabolism. However, several technical concerns and gaps in the presented evidence need to be addressed before the central claims are fully established.
+- **Who would be interested in the results, and why** Researchers in RNA biology, post-transcriptional gene regulation, translation control, and protein post-translational modification. The findings are relevant to those studying PABPC1 function, PAM2-motif protein interactions, and the role of acetylation in modulating protein-protein interaction networks. The structural data will be of interest to structural biologists studying PABC domain interactions.
+- **Major strengths**
+  1. Systematic and unified experimental framework for comparing binding affinities across 13 PAM2 proteins, addressing a gap in the field where prior studies used disparate methods.
+  2. Use of genetic code expansion for site-specific acetylation and a chemoselective approach for dimethylation, enabling precise structure-function analysis.
+  3. The crystal structure of acetylated PABC bound to eRF3a provides mechanistic insight into how acetylation remodels the binding interface.
+  4. Cellular validation using degron-mediated depletion of endogenous PABPC1 and co-immunoprecipitation strengthens the physiological relevance of the findings.
+  5. The identification of eRF3a and PAIP2 as dominant high-affinity binders provides a clear hierarchy for competitive binding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Acetylation of PABPC1 at K606 specifically enhances its affinity for eRF3a in vitro" and "K606 acetylation promotes PABPC1-eRF3a interaction in cells"
+  - **Evidence pointer** Results Section 2 (Figure 2), Results Section 4 (Figure 5)
+  - **Concern** The SPR experiments use a truncated PABC domain (residues 544-636) rather than full-length PABPC1. The authors do not discuss whether the intrinsically disordered region or other domains of PABPC1 could influence PAM2 binding affinity or the effect of K606 acetylation. Additionally, the cellular co-immunoprecipitation experiments rely on overexpression of V5-tagged PABPC1 mutants, and the authors do not demonstrate that the K606Q mutant accurately mimics the acetylation state in terms of stoichiometry or subcellular localization. The endogenous co-immunoprecipitation experiment (Figure 5H-I) shows enrichment of acK606-PABPC1 with eRF3a, but the authors do not provide evidence that this interaction is direct or that it is not mediated by RNA.
+  - **Why it matters** The central claim of selective acetylation-dependent enhancement of eRF3a binding underpins the entire manuscript. If the effect is an artifact of the truncated construct or the overexpression system, the physiological relevance would be significantly weakened. The lack of a direct binding assay with full-length proteins and the absence of RNA controls in the cellular experiments leave alternative explanations unaddressed.
+  - **Resolution test** Perform SPR or isothermal titration calorimetry with full-length PABPC1 (unmodified and K606-acetylated) and full-length eRF3a. In cellular co-immunoprecipitation experiments, include RNase treatment to rule out RNA-mediated bridging. Additionally, use CRISPR-based knock-in of K606 mutations to study the interaction at endogenous expression levels.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We present the crystal structure of the specifically K606 acetylated C-terminal domain of PABPC1 in complex with the PAM2 motif of eRF3a, providing structural and functional insights into how acetylation facilitates competitive eRF3a recruitment"
+  - **Evidence pointer** Results Section 3 (Figure 3), Supplementary Table 2
+  - **Concern** The structural analysis is limited to a comparison of the acetylated and unmodified PABC-eRF3a complexes. The authors state that acetylation induces "local rearrangement" and "additional contacts," but the key residues involved in the enhanced affinity are not experimentally validated. Specifically, the role of R67 eRF3a is inferred from the structure and tested via mutation, but the authors do not provide a quantitative comparison of the binding affinities of the R67A mutant across all three PABPC1 modification states. Furthermore, the crystallographic data (Supplementary Table 2) are not shown in the manuscript, so the quality of the electron density and the confidence in the placement of the acetyl group cannot be assessed.
+  - **Why it matters** The structural model is central to the mechanistic claim. Without clear evidence that the observed structural changes are directly responsible for the affinity enhancement, and without validation of the key residues, the structural interpretation remains speculative. The lack of accessible crystallographic statistics prevents independent assessment of the model quality.
+  - **Resolution test** Provide the full crystallographic table with R-free/R-work values, B-factors, and electron density maps for the acetyl group. Perform binding assays with the R67A mutant across all three PABPC1 states and include a quantitative analysis. Consider mutating other residues identified in the structural comparison to test their contribution.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Our results show that acetylation of lysine 606 in the PABC domain can specifically modulate PABPC1 partner selectivity, providing crucial insight into how PABPC1 multifunctionality can be regulated to coordinate mRNA usage and fate in the cytoplasm."
+  - **Evidence pointer** Results Section 4 (Figure 5), Discussion
+  - **Concern** The functional consequences of K606 acetylation on mRNA fate are not directly tested. The authors show that acetylation enhances eRF3a binding, but they do not demonstrate downstream effects on translation termination, mRNA stability, or nonsense-mediated decay. The discussion speculates on potential biological roles, but no experiments are presented to support these claims. The stoichiometry of K606 acetylation in cells is described as "substoichiometric," but the authors do not quantify the fraction of PABPC1 that is acetylated or whether this fraction changes under different conditions.
+  - **Why it matters** The title and abstract imply a functional role in translation termination, but the manuscript does not provide direct evidence for this. Without functional assays, the significance of the observed affinity changes remains correlative. The claim of "crucial insight" is overstated given the lack of functional validation.
+  - **Resolution test** Perform functional assays such as in vitro translation termination assays with acetylated PABPC1, or measure mRNA stability and translation efficiency in cells expressing K606Q versus K606R mutants. Quantify the stoichiometry of K606 acetylation under different cellular conditions using mass spectrometry.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Methods, SPR analysis
+  - **Evidence pointer** Materials and Methods, Surface Plasmon resonance section
+  - **Issue** The SPR methods do not specify the peptide concentrations used for each PAM2 protein, the number of replicates, or the statistical analysis for the reported K D values. The authors state "typical range cover at least from 20% to 80% saturation" but do not provide the actual concentration ranges.
+  - **Required correction** Provide a supplementary table with the concentration ranges, number of replicates, and standard errors for all K D values reported in Figure 1C and Figure 2.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Antibody validation
+  - **Evidence pointer** Materials and Methods, Antibody generation; Supplementary Figure 2I
+  - **Issue** The acK606 and me2K606 antibodies are validated only against recombinant proteins. The authors do not demonstrate that these antibodies specifically detect the modified PABPC1 in cells, e.g., by competition with the unmodified peptide or by knockout/knockdown controls.
+  - **Required correction** Include a competition assay with the modified and unmodified peptides in immunoblotting, and show that the signal is lost upon PABPC1 depletion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Statistical analysis
+  - **Evidence pointer** Materials and Methods, Statistical analysis; Figure 1D
+  - **Issue** The statistical comparison for the proteomics data (Figure 1D) is not described. The authors state "p <0.005 for all pairwise comparisons" but do not specify the test used or whether multiple testing correction was applied.
+  - **Required correction** Specify the statistical test and correction method in the Methods and figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Figure 5C
+  - **Evidence pointer** Results Section 4, Figure 5C
+  - **Issue** The K606R mutant shows "significant variability of interaction" but the authors do not provide a quantitative measure of this variability or a possible explanation beyond speculation in the Discussion.
+  - **Required correction** Provide the individual data points and error bars for the K606R co-immunoprecipitation experiments, and discuss potential reasons for the variability (e.g., protein stability, aggregation).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (full-length binding validation and RNA controls in cellular assays), R1-M2 (crystallographic data accessibility and validation of structural model)
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of acetylation as a switch for PABPC1 partner selection is novel and extends previous work on PABPC1 PTMs. The systematic affinity comparison across 13 PAM2 proteins is a valuable contribution. However, the idea of PTM-mediated regulation of PABPC1 interactions is not entirely new, and the manuscript builds on prior studies from the same group.
+  - **Scientific importance** The findings have the potential to be important for understanding how PABPC1 coordinates mRNA translation and stability. However, the lack of functional validation limits the current significance. The identification of eRF3a as a high-affinity interactor and the acetylation-dependent enhancement are interesting but require downstream functional evidence to establish biological relevance.
+  - **Interdisciplinary readership** The work will appeal to RNA biologists, biochemists, and structural biologists. The use of genetic code expansion and chemoselective modification may also interest chemical biologists. The broader cell biology community may find the PTM-switch concept appealing, but the lack of functional data may limit broader appeal.
+  - **Technical soundness** The in vitro binding assays and protein modification methods are technically sound. The crystal structure is a strong addition, but the lack of accessible crystallographic data and the limited validation of the structural model are concerns. The cellular experiments are suggestive but not definitive due to the overexpression system and lack of RNA controls.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The figures are described clearly in the legends, but the absence of the actual figures makes it difficult to fully assess. The Discussion provides useful context for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding of acetylation-dependent enhancement of eRF3a binding is potentially significant, but the manuscript requires additional experiments to validate the physiological relevance and to strengthen the structural interpretation. The authors should address the concerns regarding full-length protein binding, RNA controls in cellular assays, and accessibility of crystallographic data before the claims are fully established.

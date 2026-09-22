@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34153285",
+  "title": "The N-terminal Tails of Histones H2A and H2B Adopt Two Distinct Conformations in the Nucleosome with Contact and Reduced Contact to DNA.",
+  "authors": "Ohtomo, Hideaki; Kurita, Jun-Ichi; Sakuraba, Shun; Li, Zhenhai; Arimura, Yasuhiro; Wakamori, Masatoshi; Tsunaka, Yasuo; Umehara, Takashi; Kurumizaka, Hitoshi; Kono, Hidetoshi; Nishimura, Yoshifumi",
+  "journal": "Journal of molecular biology",
+  "published_date": "2021-06-22",
+  "window": {
+    "start": "2021-06-21",
+    "end": "2021-06-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合NMR与MD模拟，揭示核小体中组蛋白H2A/H2B无序N端尾巴与DNA互作的两种构象及接触差异，虽对象为组蛋白尾巴而非典型IDP-PPI，但无序区域-DNA互作机制建模思路对本课题有迁移启发。",
+  "abstract": "The nucleosome comprises two histone dimers of H2A-H2B and one histone tetramer of (H3-H4)(2), wrapped around by ~145 bp of DNA. Detailed core structures of nucleosomes have been established by X-ray and cryo-EM, however, histone tails have not been visualized. Here, we have examined the dynamic structures of the H2A and H2B tails in 145-bp and 193-bp nucleosomes using NMR, and have compared them with those of the H2A and H2B tail peptides unbound and bound to DNA. Whereas the H2A C-tail adopts a single but different conformation in both nucleosomes, the N-tails of H2A and H2B adopt two distinct conformations in each nucleosome. To clarify these conformations, we conducted molecular dynamics (MD) simulations, which suggest that the H2A N-tail can locate stably in either the major or minor grooves of nucleosomal DNA. While the H2B N-tail, which sticks out between two DNA gyres in the nucleosome, was considered to adopt two different orientations, one toward the entry/exit side and one on the opposite side. Then, the H2A N-tail minor groove conformation was obtained in the H2B opposite side and the H2B N-tail interacts with DNA similarly in both sides, though more varied conformations are obtained in the entry/exit side. Collectively, the NMR findings and MD simulations suggest that the minor groove conformer of the H2A N-tail is likely to contact DNA more strongly than the major groove conformer, and the H2A N-tail reduces contact with DNA in the major groove when the H2B N-tail is located in the entry/exit side.",
+  "abstract_zh": "核小体由两个H2A-H2B组蛋白二聚体和一个(H3-H4)2组蛋白四聚体组成，并缠绕约145 bp的DNA。核小体的详细核心结构已通过X射线和冷冻电镜确定，然而，组蛋白尾部尚未被可视化。在此，我们利用核磁共振（NMR）研究了145-bp和193-bp核小体中H2A和H2B尾部的动态结构，并将其与未结合及结合DNA的H2A和H2B尾部肽段进行了比较。H2A C-尾部在两种核小体中均采用单一但不同的构象，而H2A和H2B的N-尾部在每种核小体中则采用两种不同的构象。为阐明这些构象，我们进行了分子动力学（molecular dynamics, MD）模拟，结果表明H2A N-尾部可稳定定位于核小体DNA的大沟或小沟中。而H2B N-尾部在核小体中突出于两个DNA螺旋之间，被认为采用两种不同的取向，一种朝向入口/出口侧，另一种朝向相反侧。随后，在H2B相反侧获得了H2A N-尾部的小沟构象，且H2B N-尾部在两侧与DNA的相互作用相似，尽管在入口/出口侧获得了更多样化的构象。综合来看，NMR发现和MD模拟表明，H2A N-尾部的小沟构象可能比大沟构象与DNA接触更强，并且当H2B N-尾部位于入口/出口侧时，H2A N-尾部在大沟中与DNA的接触减少。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34153285/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34153285/",
+  "paper_page_path": "papers/pubmed/34153285/index.html"
+}

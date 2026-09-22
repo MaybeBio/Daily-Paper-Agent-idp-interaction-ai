@@ -1,0 +1,310 @@
+{
+  "identity": {
+    "pmid": "34110175",
+    "doi": "10.1021/acs.jpcb.1c02093",
+    "title": "Thermodynamic Compensation in Peptides Following Liquid-Liquid Phase Separation."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation of proteins often incorporates intrinsically disordered proteins or those with disordered regions. Examining these processes via the entropy change is desirable for establishing a quantitative foundation with which to probe and understand these phase transitions. Of interest is the effect of residue sequence on the entropy of the peptide backbone. In this work we model these systems via all atom simulations of liquid-liquid phase separation of peptides. Systems of supersaturated pentapeptides separate into a peptide-dense liquid droplet phase as well as a dilute (saturated) aqueous phase. An analysis of the change in backbone conformational entropy associated with the phase transition was performed. We examined systems of four different pentapeptides (GGGGG, GGQGG, GGNGG, and GGVGG) in order to explore the effect of sequence variation on the conformational entropy, as well as the effect of side chain variation on the physical characteristics of the droplet phases. We find that the loss of conformational entropy that accompanies aqueous --> droplet transitions is more than compensated by a decrease in interaction enthalpy as contributions to the free energy change for the process.",
+    "keywords": [],
+    "mesh_terms": [
+      "Entropy",
+      "*Intrinsically Disordered Proteins",
+      "*Peptides",
+      "Phase Transition",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Workman, Riley J",
+        "Pettitt, B Montgomery"
+      ],
+      "short_names": [
+        "Workman RJ",
+        "Pettitt BM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4902-3046"
+      ],
+      "affiliations": [
+        "Sealy Center for Structural Biology and Molecular Biophysics, University of Texas Medical Branch, Galveston, Texas 77555, United States.",
+        "Sealy Center for Structural Biology and Molecular Biophysics, University of Texas Medical Branch, Galveston, Texas 77555, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Workman, Riley J",
+        "short_name": "Workman RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Sealy Center for Structural Biology and Molecular Biophysics, University of Texas Medical Branch, Galveston, Texas 77555, United States."
+        ]
+      },
+      {
+        "full_name": "Pettitt, B Montgomery",
+        "short_name": "Pettitt BM",
+        "identifiers": [
+          "0000-0003-4902-3046"
+        ],
+        "affiliations": [
+          "Sealy Center for Structural Biology and Molecular Biophysics, University of Texas Medical Branch, Galveston, Texas 77555, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2021 Jun 24",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/11 06:00",
+    "fetched_at": "2026-09-20 03:43:09"
+  },
+  "links": {
+    "cites": [
+      "41342450",
+      "40690668",
+      "39677697",
+      "38751116",
+      "37788371",
+      "37065458",
+      "36450134",
+      "36028485"
+    ],
+    "refs": [
+      "36703474",
+      "33267376",
+      "33078839",
+      "32936641",
+      "32744309",
+      "32726576",
+      "32586227",
+      "32499559",
+      "32414928",
+      "32349480",
+      "32227994",
+      "32132204",
+      "32087632",
+      "31911439",
+      "31634364",
+      "31430179",
+      "31270472",
+      "31237369",
+      "31114481",
+      "30672955",
+      "30589142",
+      "30397688",
+      "30217894",
+      "30061688",
+      "29925017",
+      "29897235",
+      "29384681",
+      "29364893",
+      "29120326",
+      "29068531",
+      "28584100",
+      "27838525",
+      "27051975",
+      "26583988",
+      "26574453",
+      "26174309",
+      "25952623",
+      "25736060",
+      "25288112",
+      "25019618",
+      "24773235",
+      "24311273",
+      "23953108",
+      "22969157",
+      "21497607",
+      "21250690",
+      "21230139",
+      "20513410",
+      "20404210",
+      "19879902",
+      "19790265",
+      "19229944",
+      "18498104",
+      "18481860",
+      "17640119",
+      "16222654",
+      "16214887",
+      "16200636",
+      "14756570",
+      "11564742",
+      "8744570"
+    ],
+    "similar": [
+      "34110175",
+      "36450134",
+      "29925017",
+      "28111343",
+      "37735186",
+      "29384681",
+      "38751116",
+      "24423055",
+      "32619404",
+      "27111521",
+      "30873835",
+      "18315086",
+      "28914483",
+      "21481889",
+      "33684117",
+      "35962177",
+      "32349480",
+      "29614221",
+      "35902591",
+      "34473923",
+      "37146977",
+      "33069007",
+      "27558719",
+      "20698672",
+      "37047451",
+      "32936641",
+      "29734867",
+      "25877585",
+      "30292393",
+      "26138206",
+      "37856873",
+      "31694155",
+      "36077201",
+      "22424764",
+      "34598580",
+      "33503380",
+      "31756104",
+      "27588692",
+      "14499908",
+      "27291647",
+      "35975930",
+      "36071118",
+      "33942611",
+      "36180409",
+      "33810353",
+      "32087632",
+      "36468418",
+      "32168715",
+      "25227444",
+      "34106723",
+      "33318217",
+      "29068531",
+      "30471691",
+      "37577555",
+      "28226222",
+      "34600899",
+      "23531173",
+      "16851716",
+      "22342886",
+      "34358306",
+      "34911929",
+      "33265278",
+      "35298813",
+      "10852311",
+      "35968960",
+      "33078839",
+      "29779476",
+      "31260322",
+      "9641985",
+      "10452900",
+      "11344335",
+      "34702040",
+      "28201915",
+      "3536977",
+      "9144777",
+      "23051861",
+      "14499917",
+      "19549999",
+      "16366639",
+      "18163629",
+      "708766",
+      "9235002",
+      "37161095",
+      "31617663",
+      "26574352",
+      "25804723",
+      "34862032",
+      "15326600",
+      "22946847",
+      "18234212",
+      "17155776",
+      "10565277",
+      "32822449",
+      "37327428",
+      "38353994",
+      "37771761",
+      "37534680",
+      "37603753",
+      "38745698",
+      "38746247",
+      "38172364",
+      "38970462",
+      "31929608",
+      "37420403",
+      "37509932",
+      "37382372",
+      "37609232"
+    ],
+    "review": [
+      "34110175",
+      "32349480",
+      "33069007",
+      "31694155",
+      "33503380",
+      "27291647",
+      "29068531",
+      "28226222",
+      "16851716",
+      "34358306",
+      "33078839",
+      "29779476",
+      "14499917"
+    ],
+    "pmc": [
+      "10210544"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34110175/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34110175",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.1c02093",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

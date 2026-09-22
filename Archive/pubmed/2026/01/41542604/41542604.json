@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "41542604",
+    "doi": "10.1101/2025.07.16.665182",
+    "title": "Cooperative multivalency converts disorder into rods, resolving a paradox in cellular architecture."
+  },
+  "content": {
+    "abstract": "The cortically anchored adaptor KANK1 organizes microtubules at focal adhesions through a long, intrinsically disordered linker (L2), yet how this linker spans the ~35-50 nm membrane-microtubule gap is unclear. Here, we combine in-cell, biochemical, and biophysical assays, predictions of motif interaction and multivalent assembly using AlphaFold, and structural analysis by electron microscopy to show that the hub protein LC8, which binds more than 100 clients, converts the intrinsically disordered 600 amino acid L2 into an elongated, multivalent, rod-like assembly. In contrast, isolated motif peptides fail to bind LC8 at physiologically relevant concentrations, indicating that strong complex formation arises from cooperativity among multiple weak sites. These results establish LC8 as a molecular switch that rigidifies and extends KANK1 L2 via distributed weak motifs and short linkers. This interaction produces compositionally homogeneous yet conformationally adaptable rods, long enough to bridge the membrane-microtubule gap, resolving the paradox. This work expands the LC8 binding repertoire, reveals design principles for multivalent assembly, and suggests a generalizable strategy for tuning length, rigidity, and flexibility in large protein architectures.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Walker, Douglas R",
+        "Estelle, Aidan",
+        "Ammon, York-Christoph",
+        "Song, Yujuan",
+        "Lv, Qianru H",
+        "Reardon, Patrick N",
+        "Ichikawa, Muneyoshi",
+        "Akhmanova, Anna",
+        "Barbar, Elisar J"
+      ],
+      "short_names": [
+        "Walker DR",
+        "Estelle A",
+        "Ammon YC",
+        "Song Y",
+        "Lv QH",
+        "Reardon PN",
+        "Ichikawa M",
+        "Akhmanova A",
+        "Barbar EJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9323-3158",
+        "ORCID: 0000-0003-0305-0524",
+        "ORCID: 0009-0005-8292-5764",
+        "ORCID: 0000-0002-5921-7699",
+        "ORCID: 0000-0002-9048-8614"
+      ],
+      "affiliations": [
+        "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR, United States.",
+        "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR, United States.",
+        "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, Utrecht University, Padualaan 8, Utrecht 3584 CH, the Netherlands.",
+        "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR, United States.",
+        "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Biochemistry and Biophysics, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR, United States.",
+        "NMR Facility, Oregon State University, Corvallis, OR 97331, USA.",
+        "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Biochemistry and Biophysics, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, Utrecht University, Padualaan 8, Utrecht 3584 CH, the Netherlands.",
+        "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Walker, Douglas R",
+        "short_name": "Walker DR",
+        "identifiers": [
+          "0000-0002-9323-3158"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR, United States."
+        ]
+      },
+      {
+        "full_name": "Estelle, Aidan",
+        "short_name": "Estelle A",
+        "identifiers": [
+          "0000-0003-0305-0524"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR, United States."
+        ]
+      },
+      {
+        "full_name": "Ammon, York-Christoph",
+        "short_name": "Ammon YC",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, Utrecht University, Padualaan 8, Utrecht 3584 CH, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Song, Yujuan",
+        "short_name": "Song Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR, United States."
+        ]
+      },
+      {
+        "full_name": "Lv, Qianru H",
+        "short_name": "Lv QH",
+        "identifiers": [
+          "0009-0005-8292-5764"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Biochemistry and Biophysics, School of Life Sciences, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Reardon, Patrick N",
+        "short_name": "Reardon PN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR, United States.",
+          "NMR Facility, Oregon State University, Corvallis, OR 97331, USA."
+        ]
+      },
+      {
+        "full_name": "Ichikawa, Muneyoshi",
+        "short_name": "Ichikawa M",
+        "identifiers": [
+          "0000-0002-5921-7699"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Genetics and Development of Complex Phenotypes, Department of Biochemistry and Biophysics, School of Life Sciences, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Akhmanova, Anna",
+        "short_name": "Akhmanova A",
+        "identifiers": [
+          "0000-0002-9048-8614"
+        ],
+        "affiliations": [
+          "Cell Biology, Neurobiology and Biophysics, Department of Biology, Faculty of Science, Utrecht University, Padualaan 8, Utrecht 3584 CH, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Barbar, Elisar J",
+        "short_name": "Barbar EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Biophysics, Oregon State University, Corvallis, OR, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jan 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/16 15:21",
+    "fetched_at": "2026-09-17 23:51:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41033554",
+      "40337642",
+      "39914051",
+      "39315703",
+      "39009792",
+      "38985766",
+      "38547289",
+      "38297184",
+      "37083599",
+      "36979339",
+      "36416224",
+      "36107127",
+      "35778381",
+      "35725906",
+      "35637307",
+      "35245498",
+      "34783343",
+      "34265844",
+      "33574069",
+      "33538693",
+      "32311332",
+      "32139510",
+      "31634467",
+      "31266884",
+      "30982887",
+      "30615611",
+      "29890118",
+      "29714690",
+      "29590630",
+      "29211984",
+      "29183992",
+      "29158259",
+      "28491287",
+      "28262589",
+      "27548916",
+      "27410476",
+      "27292017",
+      "27145874",
+      "26652654",
+      "26226419",
+      "26204806",
+      "25883141",
+      "25646085",
+      "24920673",
+      "24336747",
+      "24120883",
+      "23223634",
+      "22753897",
+      "22751201",
+      "21971545",
+      "20615384",
+      "20346955",
+      "19598236",
+      "19554261",
+      "19380881",
+      "18391959",
+      "18092820",
+      "17996375",
+      "17671451",
+      "17570393",
+      "17453049",
+      "15581372",
+      "15311270",
+      "13321982",
+      "12895474",
+      "12604785",
+      "12133830",
+      "10692345"
+    ],
+    "similar": [
+      "41542604",
+      "36979339",
+      "26652654",
+      "32139510",
+      "29714690",
+      "40337642",
+      "23223634",
+      "41194529",
+      "40843979",
+      "28792212",
+      "17570393",
+      "26226419",
+      "17274669",
+      "36416224",
+      "40107617",
+      "31266884",
+      "40298087",
+      "23038268",
+      "27410476",
+      "24920673",
+      "41015114",
+      "34656330",
+      "25263009",
+      "35245498",
+      "23482567",
+      "37083599",
+      "29240760",
+      "30455356",
+      "35012986",
+      "21621319",
+      "26553976",
+      "31634467",
+      "40711919",
+      "31505170",
+      "37339751",
+      "26253171",
+      "40666912",
+      "36114230",
+      "38045338",
+      "36335430",
+      "41580069",
+      "34827601",
+      "35697294",
+      "40074079",
+      "32123388",
+      "33630249",
+      "31518611",
+      "15611139",
+      "31389241",
+      "19641106",
+      "29158259",
+      "14760703",
+      "38587193",
+      "20131760",
+      "23914803",
+      "16183843",
+      "41198464",
+      "41278852",
+      "18650427",
+      "24757501",
+      "37453878",
+      "33361159",
+      "37460977",
+      "23912807",
+      "41553766",
+      "38105997",
+      "21454704",
+      "31659043",
+      "21533121",
+      "18092820",
+      "24668165",
+      "35679425",
+      "19759397",
+      "21777386",
+      "29474056",
+      "22753897",
+      "11513870",
+      "20148896",
+      "19863079",
+      "30232260",
+      "26439532",
+      "38409704",
+      "17916086",
+      "31599700",
+      "8120098",
+      "26475525",
+      "18948118",
+      "25409870",
+      "11102472",
+      "33450249",
+      "28924037",
+      "35679397",
+      "23783631",
+      "41468288",
+      "29183992",
+      "31032817",
+      "39808585",
+      "34362249",
+      "17428790",
+      "35679405"
+    ],
+    "review": [
+      "41542604",
+      "41194529",
+      "26226419",
+      "40107617",
+      "25263009",
+      "24757501",
+      "37453878",
+      "33361159",
+      "21777386",
+      "26439532"
+    ],
+    "pmc": [
+      "12803091"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41542604/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.07.16.665182",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

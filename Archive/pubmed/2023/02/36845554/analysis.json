@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36845554",
+  "title": "Coupled binding and folding of disordered SPIN N-terminal region in myeloperoxidase inhibition.",
+  "authors": "Zhang, Yumeng; Liu, Xiaorong; Chen, Jianhan",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2023-02-28",
+  "window": {
+    "start": "2023-02-27",
+    "end": "2023-03-05"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用原子级分子动力学模拟研究两个SPIN同源物无序N端结构域与MPO的偶联折叠-结合机制，揭示协同折叠与构象选择两种不同路径，直接命中无序蛋白PPI机制建模核心。",
+  "abstract": "Gram-positive pathogenic bacteria Staphylococcus express and secret staphylococcal peroxidase inhibitor (SPIN) proteins to help evade neutrophil-mediated immunity by inhibiting the activity of the main oxidative-defense player myeloperoxidase (MPO) enzyme. SPIN contains a structured 3-helix bundle C-terminal domain, which can specifically bind to MPO with high affinity, and an intrinsically disordered N-terminal domain (NTD), which folds into a structured beta-hairpin and inserts itself into the active site of MPO for inhibition. Mechanistic insights of the coupled folding and binding process are needed in order to better understand how residual structures and/or conformational flexibility of NTD contribute to the different strengths of inhibition of SPIN homologs. In this work, we applied atomistic molecular dynamics simulations on two SPIN homologs, from S. aureus and S. delphini, respectively, which share high sequence identity and similarity, to explore the possible mechanistic basis for their different inhibition efficacies on human MPO. Direct simulations of the unfolding and unbinding processes at 450 K reveal that these two SPIN/MPO complexes systems follow surprisingly different mechanisms of coupled binding and folding. While coupled binding and folding of SPIN-aureus NTD is highly cooperative, SPIN-delphini NTD appears to mainly utilize a conformational selection-like mechanism. These observations are in contrast to an overwhelming prevalence of induced folding-like mechanisms for intrinsically disordered proteins that fold into helical structures upon binding. Further simulations of unbound SPIN NTDs at room temperature reveal that SPIN-delphini NTD has a much stronger propensity of forming beta-hairpin like structures, consistent with its preference to fold and then bind. These may help explain why the inhibition strength is not well correlated with binding affinity for different SPIN homologs. Altogether, our work establishes the relationship between the residual conformational stability of SPIN-NTD and their inhibitory function, which can help us develop new strategies towards treating Staphylococcal infections.",
+  "abstract_zh": "革兰氏阳性病原菌葡萄球菌表达并分泌葡萄球菌过氧化物酶抑制剂（SPIN）蛋白，通过抑制主要氧化防御参与者髓过氧化物酶（MPO）酶的活性，帮助逃避中性粒细胞介导的免疫。SPIN包含一个结构化的三螺旋束C端结构域，能够以高亲和力特异性结合MPO，以及一个本质上无序的N端结构域（NTD），该结构域折叠成结构化的β-发夹结构并插入MPO的活性位点以实现抑制。为了更好理解NTD的残余结构和/或构象灵活性如何影响SPIN同源物抑制强度的差异，需要对其偶联折叠与结合过程的机制性见解。在本工作中，我们对来自金黄色葡萄球菌和海豚葡萄球菌的两个SPIN同源物（它们具有高度序列同一性和相似性）进行了原子级分子动力学模拟，以探索它们对人MPO不同抑制效力的可能机制基础。在450 K下对解折叠和解结合过程的直接模拟揭示，这两个SPIN/MPO复合物系统遵循令人惊讶的不同偶联结合与折叠机制。虽然SPIN-金黄色葡萄球菌NTD的偶联结合与折叠高度协同，但SPIN-海豚葡萄球菌NTD似乎主要利用类似构象选择的机制。这些观察结果与本质上无序蛋白在结合时折叠成螺旋结构时普遍存在的诱导折叠样机制形成对比。在室温下对未结合SPIN NTD的进一步模拟显示，SPIN-海豚葡萄球菌NTD具有更强的形成β-发夹样结构的倾向，与其优先折叠后结合的偏好一致。这些可能有助于解释为何不同SPIN同源物的抑制强度与结合亲和力相关性不佳。总体而言，我们的工作建立了SPIN-NTD残余构象稳定性与其抑制功能之间的关系，这有助于我们开发治疗葡萄球菌感染的新策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36845554/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36845554/",
+  "paper_page_path": "papers/pubmed/36845554/index.html"
+}

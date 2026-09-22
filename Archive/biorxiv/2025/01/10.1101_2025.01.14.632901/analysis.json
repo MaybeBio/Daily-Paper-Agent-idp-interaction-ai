@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.01.14.632901",
+  "title": "Investigation of the HLA locus in autopsy-confirmed progressive supranuclear palsy",
+  "authors": "Wang J; Forrest SL; Dasari S; Tanaka H; Rogaeva E; Tartaglia MC; Fox S; Lang AE; Kalyaanamoorthy S; Kovacs GG",
+  "journal": "bioRxiv",
+  "published_date": "2025-01-19",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究调查进行性核上性麻痹中HLA位点与tau肽段结合预测，虽涉及肽-蛋白互作建模，但对象为tau折叠蛋白而非无序蛋白/IDR，且无相分离或PPI机制建模，与本课题关联微弱。",
+  "abstract": "<h4>ABSTRACT</h4> <h4>Objectives</h4> Progressive supranuclear palsy (PSP) is a neurodegenerative disease showing pathological tau accumulation in subcortical neurons and glial cells. The human leukocyte antigen ( HLA ) locus on chromosome 6 is a polymorphic region with complex linkage patterns that has been implicated in several autoimmune and neurological disorders. The HLA locus has not been systematically examined in PSP. It is unclear whether tau and HLA can interact to induce an autoimmune disease mechanism. <h4>Methods</h4> We evaluated an autopsy confirmed PSP cohort (n=44) and compared allele/haplotype frequencies to those of the reference group of a local deceased Canadian donor pool. We performed HLA/Tau peptide binding prediction and modelling of HLA Class II and Tau Peptide interactions. <h4>Findings</h4> Odds ratio was 2.94 (95% CI 1.01 to 8.55; p=0.047) for DQB1 *06:01 allele, and 2.59 (95% CI 1.39 to 4.83; p=0.0025) for the narcolepsy associated haplotype ( DRB1 *15:01 DQB1 *06:02). One patient with 4 repeat tau PSP type pathology was a carrier of the IgLON5-associated haplotype ( DRB1 *10:01 DQB1 *05:01). HLA/Tau peptide binding prediction and modelling of HLA Class II/Tau Peptide interactions revealed strong binding tau peptides but not the PSP protofilament fold for alleles DQA1* 01:02DQB1* 06:02 and DQA1* 01:03DQB1* 06:01. <h4>Conclusion</h4> Our study suggests that epitopes within the tau peptide may bind to HLA alleles that are found in a subset of PSP patients supporting the notion of an autoimmune pathophysiological component. These findings have implications for subtyping and stratifying patients for therapies, including those targeting immune modulation.",
+  "abstract_zh": "<h4>摘要</h4> <h4>目的</h4> 进行性核上性麻痹（PSP）是一种神经退行性疾病，表现为皮层下神经元和胶质细胞中病理性tau蛋白积累。染色体6上的人类白细胞抗原（HLA）位点是一个具有复杂连锁模式的多态性区域，已涉及多种自身免疫性和神经系统疾病。HLA位点在PSP中尚未被系统研究。目前尚不清楚tau蛋白和HLA是否能相互作用以诱导自身免疫性疾病机制。<h4>方法</h4> 我们评估了一个经尸检确诊的PSP队列（n=44），并将等位基因/单倍型频率与当地加拿大已故供体库的参考组进行比较。我们进行了HLA/Tau肽段结合预测以及HLA II类分子与Tau肽段相互作用的建模。<h4>结果</h4> DQB1 *06:01等位基因的比值比为2.94（95% CI 1.01至8.55；p=0.047），发作性睡病相关单倍型（DRB1 *15:01 DQB1 *06:02）的比值比为2.59（95% CI 1.39至4.83；p=0.0025）。一名具有4重复tau蛋白PSP型病理的患者是IgLON5相关单倍型（DRB1 *10:01 DQB1 *05:01）的携带者。HLA/Tau肽段结合预测和HLA II类/Tau肽段相互作用建模显示，对于等位基因DQA1* 01:02DQB1* 06:02和DQA1* 01:03DQB1* 06:01，tau肽段具有强结合力，但未涉及PSP原丝折叠。<h4>结论</h4> 我们的研究表明，tau肽段内的表位可能结合于部分PSP患者中发现的HLA等位基因，支持自身免疫病理生理成分的观点。这些发现对患者进行亚型分类和分层治疗（包括针对免疫调节的疗法）具有重要意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.01.14.632901",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.14.632901",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.01.14.632901/index.html"
+}

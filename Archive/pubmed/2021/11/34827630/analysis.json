@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34827630",
+  "title": "Bioinformatic Analysis of Lytic Polysaccharide Monooxygenases Reveals the Pan-Families Occurrence of Intrinsically Disordered C-Terminal Extensions.",
+  "authors": "Tamburrini, Ketty C; Terrapon, Nicolas; Lombard, Vincent; Bissaro, Bastien; Longhi, Sonia; Berrin, Jean-Guy",
+  "journal": "Biomolecules",
+  "published_date": "2021-11-28",
+  "window": {
+    "start": "2021-11-22",
+    "end": "2021-11-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过生物信息学分析发现裂解性多糖单加氧酶(LPMO)家族中广泛存在预测为无序的C端延伸(dCTRs)，并描述其序列特征，但未涉及蛋白-蛋白互作或AI/物理模拟方法，仅对无序区域的存在与性质进行描述性分析，与本课题的互作机制建模关联较弱。",
+  "abstract": "Lytic polysaccharide monooxygenases (LPMOs) are monocopper enzymes secreted by many organisms and viruses. LPMOs catalyze the oxidative cleavage of different types of polysaccharides and are today divided into eight families (AA9-11, AA13-17) within the Auxiliary Activity enzyme class of the CAZy database. LPMOs minimal architecture encompasses a catalytic domain, to which can be appended a carbohydrate-binding module. Intriguingly, we observed that some LPMO sequences also display a C-terminal extension of varying length not associated with any known function or fold. Here, we analyzed 27,060 sequences from different LPMO families and show that 60% have a C-terminal extension predicted to be intrinsically disordered. Our analysis shows that these disordered C-terminal regions (dCTRs) are widespread in all LPMO families (except AA13) and differ in terms of sequence length and amino-acid composition. Noteworthily, these dCTRs have so far only been observed in LPMOs. LPMO-dCTRs share a common polyampholytic nature and an enrichment in serine and threonine residues, suggesting that they undergo post-translational modifications. Interestingly, dCTRs from AA11 and AA15 are enriched in redox-sensitive, conditionally disordered regions. The widespread occurrence of dCTRs in LPMOs from evolutionarily very divergent organisms, hints at a possible functional role and opens new prospects in the field of LPMOs.",
+  "abstract_zh": "裂解性多糖单加氧酶（Lytic polysaccharide monooxygenases, LPMOs）是由许多生物和病毒分泌的单铜酶。LPMOs催化不同类型多糖的氧化裂解，目前在CAZy数据库的辅助活性酶类别中分为八个家族（AA9-11, AA13-17）。LPMOs的最小结构包含一个催化结构域，可附加一个碳水化合物结合模块。有趣的是，我们观察到一些LPMO序列还显示出长度不一的C端延伸，这些延伸与任何已知功能或折叠无关。在此，我们分析了来自不同LPMO家族的27,060条序列，并显示其中60%具有预测为内在无序的C端延伸。我们的分析表明，这些无序C端区域（disordered C-terminal regions, dCTRs）在所有LPMO家族（除AA13外）中广泛存在，并在序列长度和氨基酸组成上有所不同。值得注意的是，这些dCTRs迄今仅在LPMOs中观察到。LPMO-dCTRs共享多聚两性电解质特性，并富含丝氨酸和苏氨酸残基，提示它们可能经历翻译后修饰。有趣的是，来自AA11和AA15的dCTRs富含氧化还原敏感的条件性无序区域。dCTRs在进化上高度分化的生物的LPMOs中广泛存在，暗示其可能具有功能作用，并为LPMOs领域开辟了新的前景。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34827630/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34827630/",
+  "paper_page_path": "papers/pubmed/34827630/index.html"
+}

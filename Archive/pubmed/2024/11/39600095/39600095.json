@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "39600095",
+    "doi": "10.1016/j.bpj.2024.11.3313",
+    "title": "Charge of karyopherins and nuclear FG-Nups are key ingredients of nucleocytoplasmic transport."
+  },
+  "content": {
+    "abstract": "The nuclear pore complex (NPC) is responsible for the selective transport of biomolecules in and out of the nucleus. This selective feature is achieved through intrinsically disordered proteins, FG-Nups, that are anchored to the inner wall of the NPC. Cargo smaller than approximately 5 nm can rapidly diffuse through the NPC whereas larger cargo is increasingly slowed down. Larger cargos bound to chaperone proteins (from the karyopherin or Kap family) can still be transported due to nonspecific interactions with the FG-Nups. Although various mechanisms for the transport of Kaps have been proposed, a consensus has still to be reached. Here, we conducted a coarse-grained molecular dynamics study to shed light on Kap translocation through NPCs. We investigated the effect of Kap surface charge and hydrophobicity on the transport rate. We found that the negative charge of the Kaps is essential for transport whereas Kap hydrophobicity of the transport particle aids in the translocation. Interestingly, our results indicate that the positive net charge of the nuclear Nups (especially Nup1) is instrumental for the transport of Kaps, revealing a (previously proposed) gradient of increasing binding affinity of the Kaps with FG-Nups from the cytoplasm to the nucleus.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Active Transport, Cell Nucleus",
+      "Hydrophobic and Hydrophilic Interactions",
+      "*Karyopherins/metabolism/chemistry",
+      "*Nuclear Pore Complex Proteins/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "Nuclear Pore/metabolism",
+      "*Cell Nucleus/metabolism",
+      "Static Electricity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mishra, Ankur",
+        "Van der Giessen, Erik",
+        "Onck, Patrick R"
+      ],
+      "short_names": [
+        "Mishra A",
+        "Van der Giessen E",
+        "Onck PR"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands. Electronic address: p.r.onck@rug.nl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mishra, Ankur",
+        "short_name": "Mishra A",
+        "identifiers": [],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Van der Giessen, Erik",
+        "short_name": "Van der Giessen E",
+        "identifiers": [],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Onck, Patrick R",
+        "short_name": "Onck PR",
+        "identifiers": [],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, the Netherlands. Electronic address: p.r.onck@rug.nl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2025 Jan 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/27 06:18",
+    "fetched_at": "2026-09-21 13:02:41"
+  },
+  "links": {
+    "cites": [
+      "41387701",
+      "40006906"
+    ],
+    "refs": [
+      "36757893",
+      "36050301",
+      "35674314",
+      "35098921",
+      "34716402",
+      "33617830",
+      "33355130",
+      "32138505",
+      "32015543",
+      "30704069",
+      "29958108",
+      "29442997",
+      "28864541",
+      "28624666",
+      "27697925",
+      "27470900",
+      "27273515",
+      "27016207",
+      "26894898",
+      "26705895",
+      "26658558",
+      "26589045",
+      "26370937",
+      "26338152",
+      "25942622",
+      "25938906",
+      "25778920",
+      "25748139",
+      "25631821",
+      "25229147",
+      "24929341",
+      "24862873",
+      "24558427",
+      "23997866",
+      "23669120",
+      "23404701",
+      "23007389",
+      "22901806",
+      "22529346",
+      "22067447",
+      "20811366",
+      "20421988",
+      "20368288",
+      "19801417",
+      "19680225",
+      "18845677",
+      "18046406",
+      "18046405",
+      "17693259",
+      "17682050",
+      "15813752",
+      "15618217",
+      "15306682",
+      "14624840",
+      "12917401",
+      "11854401",
+      "11598013",
+      "11250898",
+      "10684247",
+      "9659919",
+      "8227139",
+      "2324201"
+    ],
+    "similar": [
+      "39600095",
+      "34473567",
+      "12543930",
+      "26338152",
+      "38018404",
+      "26658558",
+      "30704069",
+      "21673865",
+      "41847902",
+      "22357553",
+      "41387701",
+      "17630825",
+      "33790297",
+      "24739174",
+      "25229147",
+      "23404701",
+      "27673359",
+      "28506890",
+      "34639238",
+      "35098921",
+      "15557115",
+      "39205388",
+      "39475712",
+      "21647294",
+      "28864541",
+      "21402022",
+      "12917401",
+      "37498221",
+      "29374059",
+      "35089308",
+      "21690354",
+      "24213245",
+      "33336681",
+      "28887410",
+      "28669824",
+      "19278659",
+      "34339633",
+      "17875746",
+      "25692596",
+      "28068389",
+      "30902367",
+      "19801417",
+      "35679397",
+      "26791761",
+      "26541386",
+      "33548309",
+      "24558427",
+      "34237287",
+      "32794558",
+      "26456112",
+      "21447814",
+      "40193850",
+      "36302971",
+      "37100914",
+      "39282864",
+      "38876192",
+      "26894898",
+      "19098896",
+      "21414590",
+      "24857723",
+      "21659568",
+      "41331088",
+      "21995724",
+      "35412248",
+      "12604785",
+      "30110828",
+      "39927798",
+      "15039779",
+      "38267582",
+      "25562883",
+      "41955616",
+      "42412942",
+      "15813752",
+      "23295456",
+      "33912945",
+      "24929341",
+      "35058649",
+      "23264634",
+      "11867631",
+      "26311873",
+      "17916694",
+      "26538027",
+      "22577827",
+      "26878241",
+      "29442997",
+      "32168597",
+      "32692309",
+      "31932502",
+      "22901806",
+      "29972802",
+      "24144701",
+      "25410863",
+      "29590630",
+      "28579449",
+      "40079246",
+      "22419078",
+      "16739728",
+      "24626154",
+      "19274657",
+      "22946045"
+    ],
+    "review": [
+      "39600095",
+      "26338152",
+      "27673359",
+      "28506890",
+      "33336681",
+      "28669824",
+      "19801417",
+      "26791761",
+      "32794558",
+      "39282864",
+      "38876192",
+      "21414590",
+      "24857723",
+      "39927798",
+      "41955616",
+      "15813752",
+      "33912945",
+      "35058649",
+      "22577827",
+      "28579449"
+    ],
+    "pmc": [
+      "11788480"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(24)04036-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39600095/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

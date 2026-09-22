@@ -1,0 +1,356 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.11.01.621466",
+  "title": "AlloPool: An Adaptive Graph Neural Network for Dynamic Allosteric Network Prediction in Protein Systems",
+  "doi": "10.1101/2024.11.01.621466",
+  "abstract": "Allosteric communication is essential to protein function, facilitating the dynamic regulation of biological responses through the propagation of structural and dynamic changes between regulatory and effector sites in response to stimuli. Traditional approaches to studying protein allostery often rely on static protein structures or abstract representations involving fully connected interaction graphs, which do not capture the temporal and state-dependent nature of these dynamic systems. Here, we introduce AlloPool, a graph neural network (GNN)-based model that iteratively prunes residue interactions to identify minimal, time-dependent interaction networks that govern long-range structural and dynamic responses to chemical or mechanical stimuli. Using temporal attention and graph aggregation, AlloPool accounts for evolving protein conformations in both molecular dynamics (MD) and steered MD (SMD) simulations to predict MD and SMD trajectories. We validate AlloPool on the Pin-1 protein and the ADGRG1 and B1AR receptors, showcasing its ability to accurately recapitulate protein motions, infer allosteric communication pathways, and identify critical allosteric sites. Additionally, AlloPool identifies force-dependent changes in GAIN domain structure and reconstructs directed information flow under mechanical load. Comparative analyses indicate that AlloPool outperforms existing models in MD and SMD trajectory reconstruction, presenting a new framework for analyzing force- and ligand-induced allosteric motions. This work advances the modeling of allosteric systems and offers broad potential for applications in drug discovery, synthetic biology, and protein engineering.",
+  "authors": [
+    "M. Marfoglia",
+    "L. Guirardel",
+    "P. Barth"
+  ],
+  "published_date": "2024-11-03",
+  "updated_date": "2024-11-04T01:30:18Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.11.01.621466",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.11.01.621466.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            29
+          ]
+        ],
+        "date-time": "2026-05-29T21:33:12Z",
+        "timestamp": 1780090392670,
+        "version": "3.54.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            3
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 22,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                3
+              ]
+            ],
+            "date-time": "2024-11-03T00:00:00Z",
+            "timestamp": 1730592000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Allosteric communication is essential to protein function, facilitating the dynamic regulation of biological responses through the propagation of structural and dynamic changes between regulatory and effector sites in response to stimuli. Traditional approaches to studying protein allostery often rely on static protein structures or abstract representations involving fully connected interaction graphs, which do not capture the temporal and state-dependent nature of these dynamic systems. Here, we introduce AlloPool, a graph neural network (GNN)-based model that iteratively prunes residue interactions to identify minimal, time-dependent interaction networks that govern long-range structural and dynamic responses to chemical or mechanical stimuli. Using temporal attention and graph aggregation, AlloPool accounts for evolving protein conformations in both molecular dynamics (MD) and steered MD (SMD) simulations to predict MD and SMD trajectories. We validate AlloPool on the Pin-1 protein and the ADGRG1 and B1AR receptors, showcasing its ability to accurately recapitulate protein motions, infer allosteric communication pathways, and identify critical allosteric sites. Additionally, AlloPool identifies force-dependent changes in GAIN domain structure and reconstructs directed information flow under mechanical load. Comparative analyses indicate that AlloPool outperforms existing models in MD and SMD trajectory reconstruction, presenting a new framework for analyzing force- and ligand-induced allosteric motions. This work advances the modeling of allosteric systems and offers broad potential for applications in drug discovery, synthetic biology, and protein engineering.</jats:p>",
+      "DOI": "10.1101/2024.11.01.621466",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            4
+          ]
+        ],
+        "date-time": "2024-11-04T01:30:18Z",
+        "timestamp": 1730683818000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "AlloPool: An Adaptive Graph Neural Network for Dynamic Allosteric Network Prediction in Protein Systems"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "M.",
+          "family": "Marfoglia",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "L.",
+          "family": "Guirardel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "P.",
+          "family": "Barth",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nchembio.2431"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0259-z"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "6187",
+          "DOI": "10.3390/ijms24076187",
+          "article-title": "Allosteric Regulation of G-Protein-Coupled Receptors: From Diversity of Molecular Mechanisms to Multiple Allosteric Sites and Their Ligands",
+          "volume": "24",
+          "year": "2023",
+          "journal-title": "Int. J. Mol. Sci"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12595"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "681364",
+          "DOI": "10.3389/fmolb.2021.681364",
+          "article-title": "Editorial: Understanding Protein Dynamics, Binding and Allostery for Drug Design",
+          "volume": "8",
+          "year": "2021",
+          "journal-title": "Front. Mol. Biosci"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2023.102768"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.6b00177"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.04.043"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1070328",
+          "DOI": "10.3389/fmolb.2022.1070328",
+          "article-title": "Recent applications of computational methods to allosteric drug discovery",
+          "volume": "9",
+          "year": "2023",
+          "journal-title": "Front. Mol. Biosci"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1811066116"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "102820",
+          "DOI": "10.1016/j.sbi.2024.102820",
+          "article-title": "Probing allosteric communication with combined molecular dynamics simulations and network analysis",
+          "volume": "86",
+          "year": "2024",
+          "journal-title": "Curr. Opin. Struct. Biol"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "3590",
+          "DOI": "10.1093/bioinformatics/btac380",
+          "article-title": "Prediction of allosteric communication pathways in proteins",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "899",
+          "DOI": "10.1016/j.bbapap.2018.04.008",
+          "article-title": "Dynamics-based community analysis and perturbation response scanning of allosteric interaction networks in the TRAP1 chaperone structures dissect molecular linkage between conformational asymmetry and sequential ATP hydrolysis",
+          "volume": "1866",
+          "year": "2018",
+          "journal-title": "Biochim. Biophys. Acta BBA - Proteins Proteomics"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-17618-2"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/CVPRW50498.2020.00517"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gammelli, D. et al. Graph Neural Network Reinforcement Learning for Autonomous Mobility-on-Demand Systems. ArXiv210411434 Cs Eess (2021).",
+          "DOI": "10.1109/CDC45484.2021.9683135"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "22106",
+          "DOI": "10.1109/ACCESS.2021.3055280",
+          "article-title": "Graph Deep Learning: State of the Art and Challenges",
+          "volume": "9",
+          "year": "2021",
+          "journal-title": "IEEE Access"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "10927",
+          "DOI": "10.1016/j.matpr.2021.01.950",
+          "article-title": "Graph neural network: Current state of Art, challenges and applications",
+          "volume": "46",
+          "year": "2021",
+          "journal-title": "Mater. Today Proc"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1661",
+          "DOI": "10.1038/s41467-022-29331-3",
+          "article-title": "Neural relational inference to learn long-range allosteric interactions in proteins from molecular dynamics simulations",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1708810114"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.04.05.535724"
+        },
+        {
+          "key": "2024110704050971000_2024.11.01.621466v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2024.02.25.581807"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.11.01.621466",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:23:33Z",
+        "timestamp": 1768461813000
+      },
+      "score": 69.12725,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.11.01.621466"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            3
+          ]
+        ]
+      },
+      "references-count": 22,
+      "URL": "https://doi.org/10.1101/2024.11.01.621466",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

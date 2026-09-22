@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39716381",
+  "title": "Transglutaminase 2 is an RNA-binding protein: experimental verification and characterisation of a novel transglutaminase feature.",
+  "authors": "Csaholczi, Bianka; Csuth, Anna Renata; Korponay-Szabo, Ilma Rita; Fesus, Laszlo; Kiraly, Robert",
+  "journal": "The FEBS journal",
+  "published_date": "2024-12-24",
+  "window": {
+    "start": "2024-12-23",
+    "end": "2024-12-29"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究验证TG2作为RNA结合蛋白并定位其RNA结合位点，但对象为折叠蛋白且互作对象是RNA而非蛋白，无AI/物理模拟方法，与本课题的IDP-PPI机制建模关联甚微。",
+  "abstract": "Transglutaminase 2 (TG2) is a uniquely versatile protein with diverse catalytic activities, such as transglutaminase, protein disulfide isomerase, GTPase and protein kinase, and participates in several biological processes. According to information available in the RBP2GO database, TG2 can act as an RNA-binding protein (RBP). RBPs participate in posttranscriptional gene expression regulation, therefore influencing the function of RNA, whereas RNA molecules can also modulate the biological activity of RBPs. The present study aimed to confirm this novel characteristic of TG2 in human umbilical cord vein endothelial cells (HUVEC), which physiologically express TG2. First, UV cross-linked RNA-protein complexes were isolated from immortalised HUVECs using orthogonal organic phase separation. Compared with the RBP2GO database, mass spectrometry identified 392 potential RBPs, including TG2 and 20 previously undescribed, endothelium-related RBPs. Recombinant human TG2 was also pulled down by magnetic bead-immobilised total RNA from HUVEC. Complex formation between TG2 and a 43-mer RNA molecule with a secondary structure as well as a homo-oligomeric single-stranded poly(dG), but not poly(dA), could be observed in magnetic RNA-protein pull-down experiments. Experiments with TG2 inhibitors NC9 and GTPgammaS, which stabilise its open and closed conformation, respectively, revealed that the open conformation of the enzyme favoured RNA-binding. Biolayer interferometry revealed a high binding affinity between TG2 and RNA with a K(D) value of 88 nm. Based on modelling and site-directed mutagenesis studies, we propose that superficial residues on the catalytic core domain (173-177 amino acids), present in a hidden position in the closed TG2 conformation, are involved in RNA binding. The present study demonstrates the previously uncharacterised RNA-binding ability of TG2, opening new avenues for understanding its multifunctionality.",
+  "abstract_zh": "转谷氨酰胺酶2（TG2）是一种功能独特的蛋白质，具有多种催化活性，如转谷氨酰胺酶、蛋白质二硫键异构酶、GTP酶和蛋白激酶，并参与多种生物过程。根据RBP2GO数据库中的信息，TG2可作为RNA结合蛋白（RBP）发挥作用。RBP参与转录后基因表达调控，从而影响RNA的功能，而RNA分子也能调节RBP的生物活性。本研究旨在确认TG2在生理性表达TG2的人脐静脉内皮细胞（HUVEC）中的这一新特性。首先，通过正交有机相分离从永生化HUVEC中分离出UV交联的RNA-蛋白质复合物。与RBP2GO数据库相比，质谱鉴定出392个潜在的RBP，包括TG2和20个此前未描述的内皮相关RBP。重组人TG2也被磁珠固定的HUVEC总RNA拉下。在磁性RNA-蛋白质下拉实验中，可观察到TG2与具有二级结构的43-mer RNA分子以及同源寡聚单链poly(dG)（而非poly(dA)）之间的复合物形成。使用TG2抑制剂NC9和GTPgammaS（分别稳定其开放和闭合构象）的实验表明，酶的开放构象有利于RNA结合。生物层干涉测量法显示TG2与RNA之间具有高结合亲和力，K(D)值为88 nm。基于建模和定点突变研究，我们提出催化核心结构域（173-177氨基酸）上的表面残基（在闭合TG2构象中处于隐藏位置）参与RNA结合。本研究证明了TG2此前未被表征的RNA结合能力，为理解其多功能性开辟了新途径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39716381/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39716381/",
+  "paper_page_path": "papers/pubmed/39716381/index.html"
+}

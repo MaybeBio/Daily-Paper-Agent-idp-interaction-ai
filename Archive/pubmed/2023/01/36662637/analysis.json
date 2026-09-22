@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36662637",
+  "title": "A New Phase of Networking: The Molecular Composition and Regulatory Dynamics of Mammalian Stress Granules.",
+  "authors": "Millar, Sean R; Huang, Jie Qi; Schreiber, Karl J; Tsai, Yi-Cheng; Won, Jiyun; Zhang, Jianping; Moses, Alan M; Youn, Ji-Young",
+  "journal": "Chemical reviews",
+  "published_date": "2023-01-21",
+  "window": {
+    "start": "2023-01-16",
+    "end": "2023-01-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文综述哺乳动物应激颗粒的分子组成与调控动态，结合相分离预测工具分析SG蛋白的IDR序列特征，虽非AI/物理模拟建模，但聚焦IDR介导的凝聚体互作机制，对本课题有参考价值。",
+  "abstract": "Stress granules (SGs) are cytosolic biomolecular condensates that form in response to cellular stress. Weak, multivalent interactions between their protein and RNA constituents drive their rapid, dynamic assembly through phase separation coupled to percolation. Though a consensus model of SG function has yet to be determined, their perceived implication in cytoprotective processes (e.g., antiviral responses and inhibition of apoptosis) and possible role in the pathogenesis of various neurodegenerative diseases (e.g., amyotrophic lateral sclerosis and frontotemporal dementia) have drawn great interest. Consequently, new studies using numerous cell biological, genetic, and proteomic methods have been performed to unravel the mechanisms underlying SG formation, organization, and function and, with them, a more clearly defined SG proteome. Here, we provide a consensus SG proteome through literature curation and an update of the user-friendly database RNAgranuleDB to version 2.0 (http://rnagranuledb.lunenfeld.ca/). With this updated SG proteome, we use next-generation phase separation prediction tools to assess the predisposition of SG proteins for phase separation and aggregation. Next, we analyze the primary sequence features of intrinsically disordered regions (IDRs) within SG-resident proteins. Finally, we review the protein- and RNA-level determinants, including post-translational modifications (PTMs), that regulate SG composition and assembly/disassembly dynamics.",
+  "abstract_zh": "应激颗粒（SGs）是细胞质中的生物分子凝聚体，在细胞应激时形成。其蛋白质和RNA组分之间的弱、多价相互作用通过相分离（phase separation）耦合渗透（percolation）驱动其快速、动态的组装。尽管SG功能的共识模型尚未确定，但它们在细胞保护过程中（如抗病毒反应和凋亡抑制）的潜在作用以及在多种神经退行性疾病（如肌萎缩侧索硬化症和额颞叶痴呆）发病机制中的可能角色已引起广泛关注。因此，利用多种细胞生物学、遗传学和蛋白质组学方法的新研究已被开展，以揭示SG形成、组织和功能背后的机制，并随之获得更明确界定的SG蛋白质组。在此，我们通过文献整理提供共识SG蛋白质组，并将用户友好型数据库RNAgranuleDB更新至2.0版（http://rnagranuledb.lunenfeld.ca/）。利用这一更新的SG蛋白质组，我们采用下一代相分离预测工具评估SG蛋白对相分离和聚集的倾向性。接下来，我们分析SG驻留蛋白内 intrinsically disordered regions (IDRs) 的初级序列特征。最后，我们回顾蛋白质和RNA水平的决定因素，包括翻译后修饰（PTMs），这些因素调控SG组成及组装/解组装动力学。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36662637/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36662637/",
+  "paper_page_path": "papers/pubmed/36662637/index.html"
+}

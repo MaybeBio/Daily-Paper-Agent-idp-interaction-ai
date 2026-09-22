@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "41126530",
+    "doi": "10.1016/j.bpj.2025.10.026",
+    "title": "Drude polarizable force field for phosphorylated polypeptides and proteins."
+  },
+  "content": {
+    "abstract": "Phosphorylation is a ubiquitous posttranslational modification used across all domains of life to regulate protein stability, folding, subcellular localization, function, and activity. The most common targets of protein phosphorylation are the amino acids serine, threonine, and tyrosine. The considerable change in electrostatic character of these residues upon phosphorylation, from polar neutral to strongly negatively charged at physiological pH, implies a major change in biophysical properties of these residues. Modeling phosphorylated residues in molecular dynamics simulations is a challenge given their highly charged nature, and the development of polarizable force field parameters is an important task for the extension of protein force fields. Here, we present the parametrization and validation of force field parameters for phosphorylated serine, threonine, and tyrosine in all protonation states (neutral, monoanionic, and dianionic). We targeted a range of quantum mechanical properties for electrostatic and dihedral parameter fitting and subsequently validated the force field model in the context of two full-length proteins (ERK2 and WNK1) and short polypeptides. We found that the phosphorylated amino acids maintained the expected strong interactions with lysine and arginine residues, rigidifying loops in pERK2 and pWNK1. In the short polypeptides, phosphorylation of serine and threonine reduced disorder and promoted the formation of alpha-helical turns, in agreement with previous findings. The present force field is compatible with the Drude protein force field and expands the coverage of chemical space to include these important chemical entities for future investigations of protein structure and function, particularly for conformational changes that arise in intrinsically disordered proteins upon phosphorylation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phosphorylation",
+      "Static Electricity",
+      "*Molecular Dynamics Simulation",
+      "*Peptides/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gil Pineda, Laura I",
+        "Miller, Candace J",
+        "MacKerell, Alexander D Jr",
+        "Lemkul, Justin A"
+      ],
+      "short_names": [
+        "Gil Pineda LI",
+        "Miller CJ",
+        "MacKerell AD Jr",
+        "Lemkul JA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061.",
+        "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061.",
+        "Department of Pharmaceutical Sciences, University of Maryland Baltimore, Baltimore, Maryland 21201.",
+        "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061; Center for Drug Discovery, Virginia Tech, Blacksburg, Virginia 24061. Electronic address: jalemkul@vt.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gil Pineda, Laura I",
+        "short_name": "Gil Pineda LI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061."
+        ]
+      },
+      {
+        "full_name": "Miller, Candace J",
+        "short_name": "Miller CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061."
+        ]
+      },
+      {
+        "full_name": "MacKerell, Alexander D",
+        "short_name": "MacKerell AD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Maryland Baltimore, Baltimore, Maryland 21201."
+        ]
+      },
+      {
+        "full_name": "Lemkul, Justin A",
+        "short_name": "Lemkul JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Virginia Tech, Blacksburg, Virginia 24061; Center for Drug Discovery, Virginia Tech, Blacksburg, Virginia 24061. Electronic address: jalemkul@vt.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Aug 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/23 06:27",
+    "fetched_at": "2026-09-17 21:23:13"
+  },
+  "links": {
+    "cites": [
+      "42340349",
+      "42038481"
+    ],
+    "refs": [
+      "39625472",
+      "39536452",
+      "39303207",
+      "38830621",
+      "37595155",
+      "36350035",
+      "34585830",
+      "34500011",
+      "33945530",
+      "33674381",
+      "32447472",
+      "32314908",
+      "32282198",
+      "32050065",
+      "31819260",
+      "31036831",
+      "30468703",
+      "29910983",
+      "28746339",
+      "28554535",
+      "28489372",
+      "27819658",
+      "27476079",
+      "27399642",
+      "26815602",
+      "26727467",
+      "26633062",
+      "26627029",
+      "26488642",
+      "26236013",
+      "25533957",
+      "25178116",
+      "25159151",
+      "24702709",
+      "24459460",
+      "23841725",
+      "21693062",
+      "21500218",
+      "20639465",
+      "20423165",
+      "20408171",
+      "17813860",
+      "17608477",
+      "17081983",
+      "15242606",
+      "14960716",
+      "9876124",
+      "9298898",
+      "8107865"
+    ],
+    "similar": [
+      "41126530",
+      "41186251",
+      "23912807",
+      "32282198",
+      "34681718",
+      "29624370",
+      "34576338",
+      "31411469",
+      "30515902",
+      "24459460",
+      "25149274",
+      "34668708",
+      "36800279",
+      "32464053",
+      "37071552",
+      "24815738",
+      "40704671",
+      "39949041",
+      "42267453",
+      "25400518",
+      "30418023",
+      "30514082",
+      "33187403",
+      "24883956",
+      "27052117",
+      "32050065",
+      "28731702",
+      "16526746",
+      "38877893",
+      "26574429",
+      "32447472",
+      "30468703",
+      "14531054",
+      "36107618",
+      "31518010",
+      "28448138",
+      "32809819",
+      "36996447",
+      "28399366",
+      "24874104",
+      "36005290",
+      "36178373",
+      "40060049",
+      "39250601",
+      "31613621",
+      "41979361",
+      "42172087",
+      "40629690",
+      "25207671",
+      "15224394",
+      "31886576",
+      "29737546",
+      "23861868",
+      "28569909",
+      "34609863",
+      "20411916",
+      "40631955",
+      "34651150",
+      "26100791",
+      "26263302",
+      "25330958",
+      "29096508",
+      "26515650",
+      "28398748",
+      "31713840",
+      "42475469",
+      "31194908",
+      "23472106",
+      "26910732",
+      "33086838",
+      "34009984",
+      "39383338",
+      "42374736",
+      "36232586",
+      "20575015",
+      "20085382",
+      "29096511",
+      "33945530",
+      "41283749",
+      "21166469",
+      "33909430",
+      "39074869",
+      "24564643",
+      "32470749",
+      "10529232",
+      "26815602",
+      "38588064",
+      "3125547",
+      "30134731",
+      "18657435",
+      "24589355",
+      "22978582",
+      "36696564",
+      "32145943",
+      "25290376",
+      "33459730",
+      "39625472",
+      "25702031",
+      "38742922",
+      "30193467"
+    ],
+    "review": [
+      "41126530",
+      "25149274"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(25)00697-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-870",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

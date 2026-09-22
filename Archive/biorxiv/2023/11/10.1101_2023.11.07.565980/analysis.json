@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.07.565980",
+  "title": "A family of bacterial actin homologues forms a 3-stranded tubular structure",
+  "authors": "Bergeron JR; Lale-Farjat SLM; Lewicka HM; Parry C; Kollman JM",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-09",
+  "window": {
+    "start": "2023-11-06",
+    "end": "2023-11-12"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究细菌肌动蛋白同源物形成三链管状结构的冷冻电镜结构，对象为折叠蛋白细胞骨架，不涉及无序蛋白/IDR/相分离，也无PPI机制建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "The cytoskeleton plays a critical role in the organization and movement of cells. In Eukaryotes, actin filaments polymerize into a highly conserved double-stranded linear filamentous structure in the presence of ATP, and disassemble upon ATP hydrolysis. Bacteria also possess actin-like proteins, that drive fundamental cellular function, including cell division, shape maintenance, and DNA segregation. Like eukaryotic actin, bacterial actins assemble upon ATP binding. Longitudinal interactions between bacterial actin protomers along each strand are conserved with eukaryotic actin, but variation in interactions between strands gives rise to striking diversity of filament architectures. Here, we report a family of bacterial actins of unknown function, conserved amongst the Verrucomicrobiota phylum, which assembles into a unique tubular structure in the presence of ATP. A cryo-EM structure of the filaments reveals that it consists of three strands, unlike other described bacterial actin structures. This architecture provides new insights into the organization of actin-like filaments, and has implications for understanding the diversity and evolution of the bacterial cytoskeleton.",
+  "abstract_zh": "细胞骨架在细胞的组织和运动中扮演着关键角色。在真核生物中，肌动蛋白丝在ATP存在下聚合形成高度保守的双链线性丝状结构，并在ATP水解时解聚。细菌也拥有肌动蛋白样蛋白，这些蛋白驱动基本细胞功能，包括细胞分裂、形态维持和DNA分离。与真核肌动蛋白类似，细菌肌动蛋白在ATP结合时组装。细菌肌动蛋白原体沿每条链的纵向相互作用与真核肌动蛋白保守，但链间相互作用的变异导致了丝状结构多样性的显著差异。在此，我们报告了一个功能未知的细菌肌动蛋白家族，该家族在疣微菌门 (Verrucomicrobiota) 中保守，并在ATP存在下组装成独特的管状结构。丝的冷冻电镜 (cryo-EM) 结构显示，它由三条链组成，不同于其他已描述的细菌肌动蛋白结构。这一架构为肌动蛋白样丝的组织提供了新见解，并对理解细菌细胞骨架的多样性和进化具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.07.565980",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.07.565980",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.07.565980/index.html"
+}

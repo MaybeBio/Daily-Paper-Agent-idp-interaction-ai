@@ -1,0 +1,117 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.13.488036",
+  "title": "Single-chain and condensed-state behavior of hnRNPA1 from molecular simulations",
+  "doi": "10.1101/2022.04.13.488036",
+  "abstract": "Intrinsically disordered proteins (IDPs) are essential components for the formation of membraneless organelles, which play key functional and regulatory roles within biological systems. These complex assemblies form and dissolve spontaneously over time via liquid-liquid phase separation of IDPs. Mutations in their amino acid sequence can alter their phase behavior, which has been linked to the emergence of severe diseases such as cancer and neurodegenerative diseases including amyotrophic lateral sclerosis. In this work, we study the conformation and phase behavior of a low-complexity domain of heterogeneous nuclear ribonucleoprotein A1 (hnRNPA1), using coarse-grained implicit solvent molecular dynamics simulations. We systematically analyze how these properties are affected by the number of aromatic residues within the examined sequences. We find a significant compaction of the chains and an increase in the critical temperature with increasing number of aromatic residues within the IDPs. Comparing single-chain and condensed state simulations, we find much more collapsed polymer conformations in the dilute systems, even at temperatures well above the estimated θ -temperature of the solution. These observations strongly support the hypothesis that aromatic residues play a dominant role for condensation, which is further corroborated by a detailed analysis of the intermolecular contacts, and conversely that important properties of condensates are captured in coarse-grained simulations. Interestingly, we observe density inhomogeneities within the condensates near criticality, which are driven by electrostatic interactions. Finally, we find that the relatively small fraction of hydrophobic residues in the IDPs results in interfacial tensions which are significantly lower compared to typical combinations of immiscible simple liquids.",
+  "authors": [
+    "Bauer DJ",
+    "Stelzl LS",
+    "Nikoubashman A"
+  ],
+  "published_date": "2022-04-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.13.488036",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.13.488036.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR481563",
+    "raw_record": {
+      "id": "PPR481563",
+      "source": "PPR",
+      "doi": "10.1101/2022.04.13.488036",
+      "title": "Single-chain and condensed-state behavior of hnRNPA1 from molecular simulations",
+      "authorString": "Bauer DJ, Stelzl LS, Nikoubashman A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bauer DJ",
+            "lastName": "Bauer",
+            "firstName": "Janka",
+            "initials": "DJ"
+          },
+          {
+            "fullName": "Stelzl LS",
+            "lastName": "Stelzl",
+            "firstName": "Lukas",
+            "initials": "LS"
+          },
+          {
+            "fullName": "Nikoubashman A",
+            "lastName": "Nikoubashman",
+            "firstName": "Arash",
+            "initials": "A"
+          }
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Intrinsically disordered proteins (IDPs) are essential components for the formation of membraneless organelles, which play key functional and regulatory roles within biological systems. These complex assemblies form and dissolve spontaneously over time  via liquid-liquid phase separation of IDPs. Mutations in their amino acid sequence can alter their phase behavior, which has been linked to the emergence of severe diseases such as cancer and neurodegenerative diseases including amyotrophic lateral sclerosis. In this work, we study the conformation and phase behavior of a low-complexity domain of heterogeneous nuclear ribonucleoprotein A1 (hnRNPA1), using coarse-grained implicit solvent molecular dynamics simulations. We systematically analyze how these properties are affected by the number of aromatic residues within the examined sequences. We find a significant compaction of the chains and an increase in the critical temperature with increasing number of aromatic residues within the IDPs. Comparing single-chain and condensed state simulations, we find much more collapsed polymer conformations in the dilute systems, even at temperatures well above the estimated  θ -temperature of the solution. These observations strongly support the hypothesis that aromatic residues play a dominant role for condensation, which is further corroborated by a detailed analysis of the intermolecular contacts, and conversely that important properties of condensates are captured in coarse-grained simulations. Interestingly, we observe density inhomogeneities within the condensates near criticality, which are driven by electrostatic interactions. Finally, we find that the relatively small fraction of hydrophobic residues in the IDPs results in interfacial tensions which are significantly lower compared to typical combinations of immiscible simple liquids.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/06/24/2022.04.13.488036.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.04.13.488036"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36272811",
+            "reference": "The Journal of chemical physics. 2022 Oct;157(15):154903",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-04-15",
+      "firstPublicationDate": "2022-04-13",
+      "firstIndexDate": "2022-04-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

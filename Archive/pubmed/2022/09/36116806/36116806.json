@@ -1,0 +1,242 @@
+{
+  "identity": {
+    "pmid": "36116806",
+    "doi": "10.1016/j.jmb.2022.167758",
+    "title": "ScanNet: A Web Server for Structure-based Prediction of Protein Binding Sites with Geometric Deep Learning."
+  },
+  "content": {
+    "abstract": "Predicting the various binding sites of a protein from its structure sheds light on its function and paves the way towards design of interaction inhibitors. Here, we report ScanNet, a freely available web server for prediction of protein-protein, protein - disordered protein and protein - antibody binding sites from structure. ScanNet (Spatio-Chemical Arrangement of Neighbors Network) is an end-to-end, interpretable geometric deep learning model that learns spatio-chemical patterns directly from 3D structures. ScanNet consistently outperforms Machine Learning models based on handcrafted features and comparative modeling approaches. The web server is linked to both the PDB and AlphaFoldDB, and supports user-provided structure files. Predictions can be readily visualized on the website via the Molstar web app and locally via ChimeraX. ScanNet is available at http://bioinfo3d.cs.tau.ac.il/ScanNet/.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "*Deep Learning",
+      "*Internet Use",
+      "*Protein Binding",
+      "*Proteins/chemistry",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tubiana, Jerome",
+        "Schneidman-Duhovny, Dina",
+        "Wolfson, Haim J"
+      ],
+      "short_names": [
+        "Tubiana J",
+        "Schneidman-Duhovny D",
+        "Wolfson HJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Blavatnik School of Computer Science, Tel Aviv University, Israel. Electronic address: jertubiana@gmail.com.",
+        "School of Computer Science and Engineering, The Hebrew University of Jerusalem, Israel. Electronic address: https://twitter.com/DinaSchneidman.",
+        "Blavatnik School of Computer Science, Tel Aviv University, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tubiana, Jérôme",
+        "short_name": "Tubiana J",
+        "identifiers": [],
+        "affiliations": [
+          "Blavatnik School of Computer Science, Tel Aviv University, Israel. Electronic address: jertubiana@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Schneidman-Duhovny, Dina",
+        "short_name": "Schneidman-Duhovny D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science and Engineering, The Hebrew University of Jerusalem, Israel. Electronic address: https://twitter.com/DinaSchneidman."
+        ]
+      },
+      {
+        "full_name": "Wolfson, Haim J",
+        "short_name": "Wolfson HJ",
+        "identifiers": [],
+        "affiliations": [
+          "Blavatnik School of Computer Science, Tel Aviv University, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2022 Oct 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/19 06:00",
+    "fetched_at": "2026-09-20 15:14:51"
+  },
+  "links": {
+    "cites": [
+      "42352270",
+      "40565040",
+      "39956358",
+      "38929403",
+      "38390326",
+      "38113077",
+      "36730443"
+    ],
+    "refs": [],
+    "similar": [
+      "36116806",
+      "35637310",
+      "38979954",
+      "35662471",
+      "22600737",
+      "35662466",
+      "23761453",
+      "35609999",
+      "38530291",
+      "15215437",
+      "19001476",
+      "21459847",
+      "29281985",
+      "36574037",
+      "37356909",
+      "16141250",
+      "23703207",
+      "18448468",
+      "35650259",
+      "35810958",
+      "24861616",
+      "21715383",
+      "18467424",
+      "31045208",
+      "35662465",
+      "19717576",
+      "15980448",
+      "29745830",
+      "23609546",
+      "32621217",
+      "31114880",
+      "27112573",
+      "26509288",
+      "38747351",
+      "22661576",
+      "38738636",
+      "21609948",
+      "21622655",
+      "39237204",
+      "16672257",
+      "18424796",
+      "15980484",
+      "17895276",
+      "34497831",
+      "15980588",
+      "20504855",
+      "27016210",
+      "22564897",
+      "21575183",
+      "24356774",
+      "32840562",
+      "33464891",
+      "33538038",
+      "17847101",
+      "35648435",
+      "19398430",
+      "29790960",
+      "22628523",
+      "27198220",
+      "19751513",
+      "29361894",
+      "32324217",
+      "22689646",
+      "15353450",
+      "27914057",
+      "30866736",
+      "21576233",
+      "20538727",
+      "33111403",
+      "20507911",
+      "35399947",
+      "32621230",
+      "27497443",
+      "23680785",
+      "18539611",
+      "20513649",
+      "38630609",
+      "34037802",
+      "37070217",
+      "28011769",
+      "15980490",
+      "31131411",
+      "24311580",
+      "22234525",
+      "29750256",
+      "37567456",
+      "22661648",
+      "33999209",
+      "21622962",
+      "18282303",
+      "34073705",
+      "35511057",
+      "37102691",
+      "12824329",
+      "24852248",
+      "21693559",
+      "12855466",
+      "35695435",
+      "29492997",
+      "30084960",
+      "34050498",
+      "16844983",
+      "12824332",
+      "15991337",
+      "29186336",
+      "17237068",
+      "25730499",
+      "20003426",
+      "34002774",
+      "20460459",
+      "18424800",
+      "35108364",
+      "35609995",
+      "38365157",
+      "37235532",
+      "38602504",
+      "35524575",
+      "37283042",
+      "35552439",
+      "37991247",
+      "38102755",
+      "38241104",
+      "37438349",
+      "38293168",
+      "39055138"
+    ],
+    "review": [
+      "36116806",
+      "34050498"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(22)00360-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

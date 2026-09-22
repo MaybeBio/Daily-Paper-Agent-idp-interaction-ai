@@ -1,0 +1,342 @@
+{
+  "identity": {
+    "pmid": "39568948",
+    "doi": "10.1039/d4sc05004e",
+    "title": "Sequence-dependent conformational transitions of disordered proteins during condensation."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) can form biomolecular condensates through phase separation. It is recognized that the conformation of IDPs in the dense and dilute phases, as well as at the interfaces of condensates, can critically impact their functionality. However, a residue-level understanding of the conformational transitions of IDPs during condensation remains elusive. In this study, we employ a coarse-grained polyampholyte model, comprising an equal number of oppositely charged residues-glutamic acid and lysine-whereby conformations and phase behavior can be tuned by altering the protein sequence. By manipulating sequence patterns from perfectly alternating to block-like, we obtain chains with ideal-like conformations to semi-compact structures in the dilute phase. In the dense phase, however, the chain conformation approaches that of an ideal chain, regardless of the sequence. Simulations across different concentrations reveal that chains transition from small oligomeric clusters in the dilute phase to the dense phase, with a gradual swelling of individual chains. These findings are further validated with naturally occurring protein sequences involved in biological condensate formation. Additionally, we show that chain conformations at the interface display a strong sequence dependence, remaining more collapsed than those in the bulk-like dense phase. This study provides detailed insights into how the conformations of a specific subclass of IDPs (lacking secondary structures) change within condensates and in solution, as governed by their sequences.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jiahui",
+        "Sundaravadivelu Devarajan, Dinesh",
+        "Muthukumar, Keerthivasan",
+        "Kim, Young C",
+        "Nikoubashman, Arash",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Wang J",
+        "Sundaravadivelu Devarajan D",
+        "Muthukumar K",
+        "Kim YC",
+        "Nikoubashman A",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7825-0999",
+        "ORCID: 0000-0003-0563-825X",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University College Station TX 77843 USA jeetain@tamu.edu.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University College Station TX 77843 USA jeetain@tamu.edu.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University College Station TX 77843 USA jeetain@tamu.edu.",
+        "Center for Materials Physics and Technology, Naval Research Laboratory Washington USA youngchan.kim@nrl.navy.mil.",
+        "Leibniz-Institut fur Polymerforschung Dresden e.V. Hohe Strasse 6 01069 Dresden Germany anikouba@ipfdd.de.",
+        "Institut fur Theoretische Physik, Technische Universitat Dresden 01069 Dresden Germany.",
+        "Cluster of Excellence Physics of Life, Technische Universitat Dresden 01062 Dresden Germany.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University College Station TX 77843 USA jeetain@tamu.edu.",
+        "Department of Chemistry, Texas A&M University College Station TX 77843 USA.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University College Station TX 77843 USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jiahui",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University College Station TX 77843 USA jeetain@tamu.edu."
+        ]
+      },
+      {
+        "full_name": "Sundaravadivelu Devarajan, Dinesh",
+        "short_name": "Sundaravadivelu Devarajan D",
+        "identifiers": [
+          "0000-0001-7825-0999"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University College Station TX 77843 USA jeetain@tamu.edu."
+        ]
+      },
+      {
+        "full_name": "Muthukumar, Keerthivasan",
+        "short_name": "Muthukumar K",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University College Station TX 77843 USA jeetain@tamu.edu."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Materials Physics and Technology, Naval Research Laboratory Washington USA youngchan.kim@nrl.navy.mil."
+        ]
+      },
+      {
+        "full_name": "Nikoubashman, Arash",
+        "short_name": "Nikoubashman A",
+        "identifiers": [
+          "0000-0003-0563-825X"
+        ],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung Dresden e.V. Hohe Straße 6 01069 Dresden Germany anikouba@ipfdd.de.",
+          "Institut für Theoretische Physik, Technische Universität Dresden 01069 Dresden Germany.",
+          "Cluster of Excellence Physics of Life, Technische Universität Dresden 01062 Dresden Germany."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University College Station TX 77843 USA jeetain@tamu.edu.",
+          "Department of Chemistry, Texas A&M University College Station TX 77843 USA.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University College Station TX 77843 USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2024 Dec 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/21 06:20",
+    "fetched_at": "2026-09-21 12:46:35"
+  },
+  "links": {
+    "cites": [
+      "42055532",
+      "41997364",
+      "41991555",
+      "41670285",
+      "41653921",
+      "41645509",
+      "41481439",
+      "41253788",
+      "41068849",
+      "40985078",
+      "40842365",
+      "40830340",
+      "40791470",
+      "40727229",
+      "40661456",
+      "40196628",
+      "39920231",
+      "39610751",
+      "39554085",
+      "39185151"
+    ],
+    "refs": [
+      "38429263",
+      "38250712",
+      "37957331",
+      "37957147",
+      "37856873",
+      "37668019",
+      "37254920",
+      "37079924",
+      "36603581",
+      "36459561",
+      "36272811",
+      "36206480",
+      "36115020",
+      "36071192",
+      "35582428",
+      "34598580",
+      "34476121",
+      "34374536",
+      "34259536",
+      "33767388",
+      "33169001",
+      "32822449",
+      "32312191",
+      "32227994",
+      "31260322",
+      "30913885",
+      "30682370",
+      "30672955",
+      "30384718",
+      "30217894",
+      "30193467",
+      "29604827",
+      "29358076",
+      "29345991",
+      "28483149",
+      "28225081",
+      "27545621",
+      "27410731",
+      "26328871",
+      "26317470",
+      "26015579",
+      "25723249",
+      "25288112",
+      "23901099",
+      "22984159",
+      "20639465",
+      "20483348",
+      "20404210",
+      "18576630",
+      "18506808",
+      "18481860",
+      "17794340",
+      "16494432"
+    ],
+    "similar": [
+      "39568948",
+      "38260590",
+      "38250712",
+      "39225535",
+      "35512095",
+      "37215004",
+      "23901099",
+      "35944496",
+      "36272811",
+      "30913885",
+      "37577555",
+      "37856873",
+      "38407041",
+      "32822449",
+      "37079924",
+      "37645312",
+      "36524527",
+      "39042834",
+      "38348795",
+      "33076213",
+      "36993212",
+      "38252962",
+      "32393642",
+      "32696367",
+      "34716273",
+      "20404210",
+      "38429263",
+      "37468629",
+      "36066390",
+      "32639157",
+      "38112495",
+      "35126984",
+      "30397688",
+      "39987501",
+      "29509422",
+      "36353733",
+      "39605385",
+      "36004748",
+      "39005320",
+      "39486437",
+      "33139563",
+      "39977663",
+      "37222424",
+      "32579908",
+      "39356108",
+      "35179885",
+      "34737230",
+      "39610751",
+      "37815389",
+      "39185151",
+      "37782899",
+      "32456986",
+      "35333653",
+      "36674958",
+      "39412378",
+      "39937084",
+      "34476121",
+      "36322659",
+      "40009520",
+      "39044475",
+      "36641212",
+      "39554085",
+      "39026887",
+      "40291420",
+      "35053240",
+      "39677697",
+      "39105804",
+      "34203110",
+      "39980393",
+      "39257779",
+      "34285781",
+      "39947751",
+      "33307683",
+      "36346711",
+      "33453925",
+      "38526948",
+      "33302617",
+      "36350032",
+      "32168715",
+      "30873835",
+      "37094002",
+      "31021441",
+      "29604827",
+      "40095314",
+      "31139718",
+      "40128232",
+      "38824391",
+      "39319382",
+      "37662293",
+      "36883003",
+      "30948640",
+      "29186229",
+      "29091028",
+      "29763584",
+      "35054543",
+      "26052838",
+      "30471685",
+      "32087632",
+      "27111521",
+      "31898464"
+    ],
+    "review": [
+      "39568948",
+      "36524527",
+      "38348795",
+      "29509422",
+      "35179885",
+      "32456986",
+      "34285781",
+      "39947751",
+      "36350032"
+    ],
+    "pmc": [
+      "11575531"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39568948/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d4sc05004e",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

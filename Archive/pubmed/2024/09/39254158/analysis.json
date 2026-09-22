@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39254158",
+  "title": "Polymers for Disrupting Protein-Protein Interactions: Where Are We and Where Should We Be?",
+  "authors": "Le, Stephanie P; Krishna, Jithu; Gupta, Prachi; Dutta, Ranit; Li, Shanlong; Chen, Jianhan; Thayumanavan, S",
+  "journal": "Biomacromolecules",
+  "published_date": "2024-09-10",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 6,
+  "one_liner_zh": "综述合成聚合物通过调控理化性质破坏蛋白-蛋白互作，并展望结合序列控制与机器学习以靶向无序蛋白，虽对象非IDP但互作机制建模思路可迁移。",
+  "abstract": "Protein-protein interactions (PPIs) are central to the cellular signaling and regulatory networks that underlie many physiological and pathophysiological processes. It is challenging to target PPIs using traditional small molecule or peptide-based approaches due to the frequent lack of well-defined binding pockets at the large and flat PPI interfaces. Synthetic polymers offer an opportunity to circumvent these challenges by providing unparalleled flexibility in tuning their physiochemical properties to achieve the desired binding properties. In this review, we summarize the current state of the field pertaining to polymer-protein interactions in solution, highlighting various polyelectrolyte systems, their tunable parameters, and their characterization. We provide an outlook on how these architectures can be improved by incorporating sequence control, foldability, and machine learning to mimic proteins at every structural level. Advances in these directions will enable the design of more specific protein-binding polymers and provide an effective strategy for targeting dynamic proteins, such as intrinsically disordered proteins.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）是细胞信号传导和调控网络的核心，这些网络构成了许多生理和病理生理过程的基础。由于PPI界面通常较大且平坦，缺乏明确的结合口袋，传统的小分子或肽类方法难以靶向这些相互作用。合成聚合物通过提供无与伦比的物理化学性质调节灵活性，为实现所需的结合特性提供了规避这些挑战的机会。在本综述中，我们总结了溶液中聚合物-蛋白质相互作用领域的当前研究现状，重点介绍了多种聚电解质系统、其可调参数及其表征方法。我们展望了如何通过引入序列控制、可折叠性和机器学习，在结构各层次上模拟蛋白质，从而改进这些架构。这些方向的进展将有助于设计更具特异性的蛋白质结合聚合物，并为靶向动态蛋白质（如 intrinsically disordered proteins）提供有效策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39254158/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39254158/",
+  "paper_page_path": "papers/pubmed/39254158/index.html"
+}

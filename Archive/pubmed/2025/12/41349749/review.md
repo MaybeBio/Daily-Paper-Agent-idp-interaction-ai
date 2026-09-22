@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors report that salvianolic acid A (SAA) binds the intrinsically disordered protein NUPR1 with low-micromolar affinity, as measured by fluorescence, isothermal titration calorimetry (ITC), and nuclear magnetic resonance (NMR); that binding involves multiple polypeptide patches including the two hot-spots around Ala33 and Thr68 without altering the disordered nature of the protein; that molecular docking provides an atomic-level binding model; that SAA inhibits proliferation of MIA PaCa-2 cells with an IC50 of approximately 20 µM; and that SAA inhibits NUPR1-triggered stress granule (SG) formation.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data beyond the stated IC50, spectra, docking parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full methods, all figures and tables, NMR assignment details, ITC and fluorescence raw data, docking validation, cell viability assay details, SG quantification methodology, and any statistical treatment
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that a natural compound can target an intrinsically disordered protein implicated in cancer and modulate a downstream pathological process. The combination of biophysical, computational, and cellular approaches is appropriate in principle. However, the abstract alone does not provide sufficient detail to assess the rigor of the binding measurements, the specificity of the interaction, the validity of the docking model, or the causal link between NUPR1 binding and the observed cellular effects. The claim that SAA inhibits SG formation "triggered by NUPR1" is particularly under-specified. The work may be of interest to the IDP and drug-discovery communities, but the evidence base visible here is insufficient to establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers working on intrinsically disordered proteins as drug targets, medicinal chemists interested in natural-product-based inhibitors, and cancer biologists studying stress granule biology or pancreatic cancer. The potential to extend inhibitor discovery to bioactive natural compounds for IDPs would appeal to a broad interdisciplinary audience if the claims are rigorously supported.
+- **Major strengths** The study combines multiple orthogonal biophysical techniques (fluorescence, ITC, NMR) to characterize binding, which is a strength if the data are consistent and properly controlled. The use of a natural product adds translational interest. The inclusion of cellular assays linking binding to a functional outcome (proliferation and SG formation) is a step toward biological relevance. The focus on an IDP, a challenging target class, is timely.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of binding affinity claims
+  - **Claim pointer** "The affinity was in the low micromolar range, as shown by fluorescence and ITC."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that fluorescence and ITC both yielded low-micromolar affinities, but no numerical values, error estimates, or replicate numbers are given. ITC is notoriously sensitive to protein concentration, buffer conditions, and aggregation, especially for IDPs. Fluorescence-based binding assays for IDPs often require extrinsic probes or intrinsic tryptophan signals, and the abstract does not specify which approach was used or how the signal was calibrated.
+  - **Why it matters** The central premise of the paper is that SAA binds NUPR1 with a specific affinity. Without quantitative data and evidence of reproducibility, the affinity claim cannot be evaluated. If the affinity is not robust, all downstream conclusions about functional inhibition are weakened.
+  - **Resolution test** Provide the measured Kd values with standard deviations from at least three independent experiments for both fluorescence and ITC, including the fitting model used and a representative binding isotherm. State the protein and ligand concentrations, buffer composition, and temperature. Show that the two methods agree within error.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Specificity of binding and mapping to hot-spots
+  - **Claim pointer** "The NMR spectra of NUPR1, in the absence and in the presence of SAA, indicated that binding involved several polypeptide patches of NUPR1, as well as its hot-spots."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims that binding involves "several polypeptide patches" and the hot-spots around Ala33 and Thr68, but no chemical shift perturbation data, residue-specific assignments, or binding stoichiometry are provided. For an IDP, NMR chemical shift changes can arise from nonspecific or weak interactions, and the distinction between specific hot-spot engagement and general hydrophobic collapse is not established.
+  - **Why it matters** The authors previously identified Ala33 and Thr68 as functional hot-spots. If SAA does not specifically engage these residues, the mechanistic link to inhibition of NUPR1 function is not supported. Nonspecific binding to an IDP would not justify the claim that SAA is a targeted inhibitor.
+  - **Resolution test** Show a chemical shift perturbation plot with residue-specific assignments, highlight the residues around Ala33 and Thr68, and provide a titration series demonstrating saturation. State the protein-to-ligand ratio used and whether the perturbations are consistent with a single binding site or multiple weak sites. If multiple patches are involved, discuss whether this reflects a specific binding mode or nonspecific association.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between NUPR1 binding and cellular effects
+  - **Claim pointer** "SAA was also capable of inhibiting the formation of stress granules (SGs) triggered by NUPR1."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that SAA inhibits SG formation "triggered by NUPR1," but it is not clear whether NUPR1 was overexpressed, knocked down, or endogenously activated in the MIA PaCa-2 cells. The abstract also does not specify whether the SG inhibition is a direct consequence of SAA binding to NUPR1 or an off-target effect. The IC50 for proliferation (~20 µM) is reported, but the concentration dependence of SG inhibition is not given.
+  - **Why it matters** The claim that SAA can "hamper the pathological state triggered by this IDP" is a key translational conclusion. If the SG inhibition is not shown to be NUPR1-dependent, the paper overreaches. Off-target effects of natural compounds are common, and the abstract does not provide evidence of specificity in cells.
+  - **Resolution test** Provide experimental details on how SG formation was induced and quantified, including the NUPR1 manipulation (e.g., overexpression or knockdown). Show a dose-response curve for SG inhibition and demonstrate that SAA does not inhibit SG formation in cells lacking NUPR1 or with a NUPR1 mutant that does not bind SAA. Include appropriate controls for cellular toxicity at the concentrations used.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validity of the docking model
+  - **Claim pointer** "Molecular docking simulations provided a model of the binding at the atomic level."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that docking provided an atomic-level model, but no details on the docking software, scoring function, conformational sampling, or validation are given. For an IDP, which lacks a stable folded structure, docking is particularly challenging and the resulting model may be highly dependent on the chosen conformer ensemble.
+  - **Why it matters** A docking model is only useful if it is consistent with experimental data and if its limitations are acknowledged. Without validation against the NMR data or mutagenesis, the model is speculative and could mislead readers about the binding mode.
+  - **Resolution test** Describe the docking protocol, including the IDP conformer generation method, the scoring function, and the criteria for selecting the final model. Show that the predicted binding interface is consistent with the NMR chemical shift perturbations. If possible, validate the model with mutagenesis of predicted contact residues.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** IC50 value
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The IC50 is reported as "~20 muM" without a confidence interval or the number of replicates. The symbol "mu" appears to be a formatting artifact for the Greek letter µ.
+  - **Required correction** Report the IC50 with a standard error or 95% confidence interval, state the number of independent experiments, and correct the formatting to "µM."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "Hot-spots"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "hot-spots" is used without defining whether it refers to residues critical for NUPR1's interaction with its biological partners or residues critical for SAA binding. These may not be the same.
+  - **Required correction** Define "hot-spots" in the context of this study and clarify whether the Ala33 and Thr68 residues are established interaction hot-spots from prior work or newly identified in this study.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the authors have previously developed small molecules targeting NUPR1, but does not state how SAA compares to those compounds in terms of affinity, efficacy, or mechanism.
+  - **Required correction** Add a sentence in the abstract or introduction comparing SAA's affinity and cellular activity to the previously reported compounds, to position the novelty of this natural product.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (binding affinity quantification), R1-M2 (specificity and hot-spot mapping), R1-M3 (causal link to SG inhibition). R1-M4 (docking validation) is important but not strictly blocking if the experimental binding data are solid.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The concept of targeting an IDP with a natural product is not entirely new, but the specific application to NUPR1 with SAA may offer a novel angle. The abstract does not clearly differentiate this work from the authors' prior synthetic compounds.  
+  - Scientific importance: Potentially significant for the IDP-targeting field and pancreatic cancer research, but the importance hinges on the specificity and mechanistic depth of the findings, which are not visible in the abstract.  
+  - Interdisciplinary readership: The work bridges chemistry, biophysics, and cell biology, which could appeal to a broad audience. However, the abstract is written in a specialist style and does not explain the significance of NUPR1 or SG formation for a general reader.  
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of quantitative data and experimental details is a major limitation.  
+  - Readability for nonspecialists: The abstract assumes familiarity with IDPs, hot-spots, ITC, and SG biology. It is not accessible to a broad scientific audience in its current form.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible experimental strategy, but the absence of quantitative data, specificity controls, and mechanistic validation prevents a supportive recommendation. If the full manuscript addresses the concerns above, the work could become a solid contribution to the IDP-drug-discovery literature, though its breadth and significance for a high-impact general journal would need to be demonstrated.
+
+## Risk / unsupported claims
+- The claim that SAA binds NUPR1 with low-micromolar affinity is unsupported without numerical Kd values and error estimates.
+- The claim that binding involves the hot-spots around Ala33 and Thr68 is unsupported without residue-specific NMR data.
+- The claim that SAA inhibits SG formation "triggered by NUPR1" is unsupported without experimental details on the SG assay and NUPR1 dependence.
+- The claim that the docking model is "at the atomic level" is unsupported without details on the docking protocol and validation.
+- The statement that SAA has "anti-cancer and anti-inflammatory properties" is presented as background but no citations or data are provided in the abstract.
+- The claim that the work "indicates that the search for potential inhibitors of disordered proteins could be further extended to bioactive natural compounds" is a reasonable speculation but is not directly tested by the data described.

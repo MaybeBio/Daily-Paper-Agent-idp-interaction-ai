@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35795820",
+  "title": "Physics-driven coarse-grained model for biomolecular phase separation with near-quantitative accuracy.",
+  "authors": "Joseph, Jerelle A; Reinhardt, Aleks; Aguirre, Anne; Chew, Pin Yu; Russell, Kieran O; Espinosa, Jorge R; Garaizar, Adiran; Collepardo-Guevara, Rosana",
+  "journal": "Nature computational science",
+  "published_date": "2022-07-08",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出物理驱动的多尺度粗粒化模型Mpipi，定量预测无序蛋白相分离临界温度及蛋白-RNA互作，虽非AI方法但物理模拟机制建模与IDR-PPI/相分离高度契合。",
+  "abstract": "Various physics- and data-driven sequence-dependent protein coarse-grained models have been developed to study biomolecular phase separation and elucidate the dominant physicochemical driving forces. Here, we present Mpipi, a multiscale coarse-grained model that describes almost quantitatively the change in protein critical temperatures as a function of amino-acid sequence. The model is parameterised from both atomistic simulations and bioinformatics data and accounts for the dominant role of pi-pi and hybrid cation-pi/pi-pi interactions and the much stronger attractive contacts established by arginines than lysines. We provide a comprehensive set of benchmarks for Mpipi and seven other residue-level coarse-grained models against experimental radii of gyration and quantitative in-vitro phase diagrams; Mpipi predictions agree well with experiment on both fronts. Moreover, it can account for protein-RNA interactions, correctly predicts the multiphase behaviour of a charge-matched poly-arginine/poly-lysine/RNA system, and recapitulates experimental LLPS trends for sequence mutations on FUS, DDX4 and LAF-1 proteins.",
+  "abstract_zh": "多种基于物理和数据驱动的序列依赖性蛋白质粗粒化模型已被开发用于研究生物分子相分离 (phase separation) 并阐明主导的物理化学驱动力。在此，我们提出Mpipi，一种多尺度粗粒化模型，几乎定量地描述了蛋白质临界温度随氨基酸序列的变化。该模型基于原子模拟和生物信息学数据参数化，并考虑了pi-pi及混合阳离子-pi/pi-pi相互作用的主导作用，以及精氨酸比赖氨酸建立的更强吸引接触。我们为Mpipi及其他七种残基级粗粒化模型提供了全面的基准测试，与实验回转半径和定量体外相图进行比较；Mpipi预测在这两方面均与实验良好吻合。此外，该模型能解释蛋白质-RNA相互作用，正确预测电荷匹配的聚精氨酸/聚赖氨酸/RNA系统的多相行为，并重现FUS、DDX4和LAF-1蛋白序列突变上的实验LLPS趋势。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35795820/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35795820/",
+  "paper_page_path": "papers/pubmed/35795820/index.html"
+}

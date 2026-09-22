@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42604037",
+  "title": "Going high-throughput: Dynamic conformations and interactions in vivo.",
+  "authors": "Gong, Zhou; Zhao, Qun; Sun, Min; Zhang, Beirong; Zhang, Xu; Zhang, Lihua; Zhang, Yukui; Liu, Maili",
+  "journal": "Magnetic resonance letters",
+  "published_date": "2026-08-16",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 6,
+  "one_liner_zh": "综述NMR与XL-MS整合策略在活细胞内表征蛋白动态构象和互作网络，涵盖IDP及AI引导的整合建模，但以实验方法为主、机制建模深度有限。",
+  "abstract": "Proteins are intrinsically dynamic molecules that continuously explore conformational ensembles to execute biological functions. Conventional structural biology methods rely on in vitro reconstitution of purified components and therefore capture predominantly static snapshots, often overlooking the regulatory roles of the cellular microenvironment, such as molecular crowding, weak interaction networks, and post-translational modifications. This limitation has driven an urgent need to transition from in vitro reconstruction to in vivo characterization within living cells. Nuclear magnetic resonance (NMR) spectroscopy provides atomic-resolution insights into structure and motions spanning multiple timescales, yet its application is constrained by molecular weight limits, isotopic labeling requirements, and inherently low throughput. Cross-linking mass spectrometry (XL-MS) complements NMR by delivering sparse but long-range spatial restraints without an upper molecular weight limit. The integration of NMR and XL-MS establishes a powerful synergistic framework that bridges atomic-resolution local structures and large-scale interaction topologies, thereby enabling comprehensive characterization of protein dynamic conformations and interaction networks in native environments. Here, we review how this integrative strategy advances the understanding of intrinsically disordered proteins, multi-domain proteins, and dynamic protein-protein interaction networks in native cellular environments. We further discuss emerging technological frontiers, including hyperpolarized NMR, photo-cross-linking, organelle-resolved analysis, and artificial intelligence-guided integrative modeling, which together promise to transform our ability to resolve the true functional states of proteins inside cells.",
+  "abstract_zh": "蛋白质是本质动态的分子，持续探索构象集合以执行生物学功能。传统结构生物学方法依赖于纯化组分的体外重构，因此主要捕获静态快照，往往忽视了细胞微环境的调控作用，如分子拥挤、弱相互作用网络和翻译后修饰。这一局限性推动了从体外重构向活细胞内体内表征转变的迫切需求。核磁共振 (nuclear magnetic resonance, NMR) 波谱学提供跨越多个时间尺度的原子级分辨结构和运动洞察，但其应用受限于分子量上限、同位素标记要求以及固有低通量。交联质谱 (cross-linking mass spectrometry, XL-MS) 通过提供稀疏但长程的空间约束，且无分子量上限，补充了NMR的不足。NMR与XL-MS的整合建立了一个强大的协同框架，桥接原子级分辨局部结构与大规模相互作用拓扑，从而能够在天然环境中全面表征蛋白质动态构象和相互作用网络。在此，我们综述了这一整合策略如何推进对天然细胞环境中固有无序蛋白、多结构域蛋白和动态蛋白-蛋白相互作用网络的理解。我们进一步讨论了新兴技术前沿，包括超极化NMR、光交联、细胞器分辨分析以及人工智能引导的整合建模，这些技术共同有望转变我们解析细胞内蛋白质真实功能状态的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42604037/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42604037/",
+  "paper_page_path": "papers/pubmed/42604037/index.html"
+}

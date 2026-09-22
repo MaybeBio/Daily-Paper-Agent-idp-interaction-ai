@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42172058",
+  "title": "Chain Length as a Molecular Determinant of Hydrogen-Bond Dynamics in Biocondensates.",
+  "authors": "Sheehan, Dana E; Starkey, Chloe B; Baiz, Carlos R",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2026-05-22",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过FTIR/2D IR光谱与模拟研究多聚精氨酸链长对凝聚体中氢键动力学的影响，揭示链长通过多价性和网络连接调控局部化学环境，虽未直接聚焦特定PPI界面，但为无序蛋白凝聚体中的互作机制建模提供了动力学与模拟思路。",
+  "abstract": "Biomolecular condensates create distinct chemical environments that modulate molecular interactions and solvent organization, yet how the peptide length shapes the local hydrogen-bonding landscape remains unclear. Here, poly-l-arginine (poly-R) with adenosine monophosphate (AMP) is used to isolate chain-length effects on local hydrogen-bond environments. Four poly-R lengths (10-, 30-, 50-, and 100-mer) were characterized using FTIR and ultrafast two-dimensional IR (2D IR) spectroscopy. Line shapes indicate invariant backbone conformations, whereas picosecond dynamics exhibit strong length dependence. In dilute solution, correlation lifetimes increase with peptide length, consistent with hindered solvent rearrangement around compact polyelectrolyte chains. In the condensed phase, dynamics become nonlinear, with longer chains exhibiting pronounced slowing consistent with enhanced multivalency, increased network connectivity, and partial dynamic arrest. Simulations provide an atomistic picture of this slowdown. Together, these results show that the chain length lowers the entropic cost of association and promotes network formation, determining local chemical environments in biocondensates.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）创造了独特的化学环境，调节分子相互作用和溶剂组织，然而肽链长度如何塑造局部氢键景观仍不清楚。在此，使用聚-L-精氨酸（poly-R）与腺苷一磷酸（AMP）来分离链长对局部氢键环境的影响。通过傅里叶变换红外光谱（FTIR）和超快二维红外（2D IR）光谱表征了四种poly-R长度（10、30、50和100聚体）。线形表明骨架构象不变，而皮秒动力学表现出强烈的长度依赖性。在稀溶液中，相关寿命随肽链长度增加而延长，这与致密聚电解质链周围溶剂重排受阻一致。在凝聚相中，动力学变为非线性，较长链表现出显著减慢，与增强的多价性、增加的网络连通性和部分动态停滞一致。模拟提供了这种减慢的原子级图像。综合这些结果，链长降低了缔合的熵成本并促进网络形成，决定了生物凝聚体中的局部化学环境。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42172058/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42172058/",
+  "paper_page_path": "papers/pubmed/42172058/index.html"
+}

@@ -1,0 +1,150 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.10.704833",
+  "title": "DNA binding drives phase separation of the Gcn4 bZIP domain and reveals its conformational ensemble in the diluted and condensate phases",
+  "doi": "10.64898/2026.02.10.704833",
+  "abstract": "Liquid-liquid phase separation is widely invoked in transcriptional regulation, yet prevailing models attribute condensate formation primarily to intrinsically disordered activation domains rather than structured DNA-binding motifs. Here, we overturn this view by demonstrating that the isolated basic leucine zipper (bZIP) domain of the yeast transcription factor Gcn4 undergoes robust DNA-induced phase separation in the complete absence of its activation domain. Using small-angle X-ray scattering in combination with all-atom molecular dynamics simulations and ensemble optimization, we directly resolve the conformational landscape of the Gcn4 bZIP–DNA complex across coexisting dilute and condensed phases. Beyond the canonical uninterrupted helical conformation captured in crystal structures, we identify a previously unrecognized minor population featuring a pronounced helical kink at the basic region–leucine zipper junction. These findings establish DNA binding as a sufficient physical driver of bZIP phase separation and demonstrate that small-angle scattering can quantitatively interrogate protein conformational ensembles within biomolecular condensates, opening new avenues for the structural chemistry of phase-separated systems.",
+  "authors": [
+    "Calio’ A",
+    "Turbant F",
+    "Tully MD",
+    "Sharma S",
+    "Schifino G",
+    "Parracino A",
+    "Peters J",
+    "Pastore A"
+  ],
+  "published_date": "2026-02-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.10.704833",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.10.704833.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1224336",
+    "raw_record": {
+      "id": "PPR1224336",
+      "source": "PPR",
+      "doi": "10.64898/2026.02.10.704833",
+      "title": "DNA binding drives phase separation of the Gcn4 bZIP domain and reveals its conformational ensemble in the diluted and condensate phases",
+      "authorString": "Calio’ A, Turbant F, Tully MD, Sharma S, Schifino G, Parracino A, Peters J, Pastore A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Calio’ A",
+            "lastName": "Calio’",
+            "firstName": "Antonino",
+            "initials": "A"
+          },
+          {
+            "fullName": "Turbant F",
+            "lastName": "Turbant",
+            "firstName": "Florian",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7376-6937"
+            }
+          },
+          {
+            "fullName": "Tully MD",
+            "lastName": "Tully",
+            "firstName": "Mark",
+            "initials": "MD"
+          },
+          {
+            "fullName": "Sharma S",
+            "lastName": "Sharma",
+            "firstName": "Satyan",
+            "initials": "S"
+          },
+          {
+            "fullName": "Schifino G",
+            "lastName": "Schifino",
+            "firstName": "Gioacchino",
+            "initials": "G"
+          },
+          {
+            "fullName": "Parracino A",
+            "lastName": "Parracino",
+            "firstName": "Antonietta",
+            "initials": "A"
+          },
+          {
+            "fullName": "Peters J",
+            "lastName": "Peters",
+            "firstName": "Judith",
+            "initials": "J"
+          },
+          {
+            "fullName": "Pastore A",
+            "lastName": "Pastore",
+            "firstName": "Annalisa",
+            "initials": "A"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7376-6937"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Liquid-liquid phase separation is widely invoked in transcriptional regulation, yet prevailing models attribute condensate formation primarily to intrinsically disordered activation domains rather than structured DNA-binding motifs. Here, we overturn this view by demonstrating that the isolated basic leucine zipper (bZIP) domain of the yeast transcription factor Gcn4 undergoes robust DNA-induced phase separation in the complete absence of its activation domain. Using small-angle X-ray scattering in combination with all-atom molecular dynamics simulations and ensemble optimization, we directly resolve the conformational landscape of the Gcn4 bZIP–DNA complex across coexisting dilute and condensed phases. Beyond the canonical uninterrupted helical conformation captured in crystal structures, we identify a previously unrecognized minor population featuring a pronounced helical kink at the basic region–leucine zipper junction. These findings establish DNA binding as a sufficient physical driver of bZIP phase separation and demonstrate that small-angle scattering can quantitatively interrogate protein conformational ensembles within biomolecular condensates, opening new avenues for the structural chemistry of phase-separated systems.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.10.704833"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-11",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

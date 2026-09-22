@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "39353735",
+    "doi": "10.1261/rna.080026.124",
+    "title": "Beyond RNA-binding domains: determinants of protein-RNA binding."
+  },
+  "content": {
+    "abstract": "RNA-binding proteins (RBPs) are composed of RNA-binding domains (RBDs) often linked via intrinsically disordered regions (IDRs). Structural and biochemical analyses have shown that disordered linkers contribute to RNA binding by orienting the adjacent RBDs and also characterized certain disordered repeats that directly contact the RNA. However, the relative contribution of IDRs and predicted RBDs to the in vivo binding pattern is poorly explored. Here, we upscaled the RNA-tagging method to map the transcriptome-wide binding of 16 RBPs in budding yeast. We then performed extensive sequence mutations to distinguish binding determinants within predicted RBDs and the surrounding IDRs in eight of these. The majority of the predicted RBDs tested were not individually essential for mRNA binding. However, multiple IDRs that lacked predicted RNA-binding potential appeared essential for binding affinity or specificity. Our results provide new insights into the function of poorly studied RBPs and emphasize the complex and distributed encoding of RBP-RNA interaction in vivo.",
+    "keywords": [
+      "RNA binding domains (RBDs)",
+      "RNA binding proteins (RBPs)",
+      "S. cerevisiae",
+      "intrinsically disordered regions (IDRs)",
+      "mRNA binding proteins (mRBPs)"
+    ],
+    "mesh_terms": [
+      "*RNA-Binding Proteins/metabolism/genetics/chemistry",
+      "*Protein Binding",
+      "Binding Sites",
+      "Saccharomyces cerevisiae/genetics/metabolism",
+      "Saccharomyces cerevisiae Proteins/metabolism/genetics/chemistry",
+      "Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "Mutation",
+      "RNA, Messenger/metabolism/genetics/chemistry",
+      "Protein Domains",
+      "RNA/metabolism/chemistry/genetics",
+      "RNA, Fungal/metabolism/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zigdon, Inbal",
+        "Carmi, Miri",
+        "Brodsky, Sagie",
+        "Rosenwaser, Zohar",
+        "Barkai, Naama",
+        "Jonas, Felix"
+      ],
+      "short_names": [
+        "Zigdon I",
+        "Carmi M",
+        "Brodsky S",
+        "Rosenwaser Z",
+        "Barkai N",
+        "Jonas F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 76100, Israel.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 76100, Israel.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 76100, Israel.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 76100, Israel.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 76100, Israel naama.barkai@weizmann.ac.il fjonas@constructor.university.",
+        "School of Science, Constructor University, 28759 Bremen, Germany naama.barkai@weizmann.ac.il fjonas@constructor.university."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zigdon, Inbal",
+        "short_name": "Zigdon I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 76100, Israel."
+        ]
+      },
+      {
+        "full_name": "Carmi, Miri",
+        "short_name": "Carmi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 76100, Israel."
+        ]
+      },
+      {
+        "full_name": "Brodsky, Sagie",
+        "short_name": "Brodsky S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 76100, Israel."
+        ]
+      },
+      {
+        "full_name": "Rosenwaser, Zohar",
+        "short_name": "Rosenwaser Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 76100, Israel."
+        ]
+      },
+      {
+        "full_name": "Barkai, Naama",
+        "short_name": "Barkai N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot 76100, Israel naama.barkai@weizmann.ac.il fjonas@constructor.university."
+        ]
+      },
+      {
+        "full_name": "Jonas, Felix",
+        "short_name": "Jonas F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Constructor University, 28759 Bremen, Germany naama.barkai@weizmann.ac.il fjonas@constructor.university."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "RNA (New York, N.Y.)"
+    ],
+    "journal_abbrev": [
+      "RNA"
+    ],
+    "pub_date": "2024 Nov 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/03 03:38",
+    "fetched_at": "2026-09-21 10:49:12"
+  },
+  "links": {
+    "cites": [
+      "42304486",
+      "41890233",
+      "41112581",
+      "40537558",
+      "40044764"
+    ],
+    "refs": [
+      "37116493",
+      "35404235",
+      "34887567",
+      "34350963",
+      "33352065",
+      "33235359",
+      "33125078",
+      "32703884",
+      "32553192",
+      "32243832",
+      "31756183",
+      "30581145",
+      "30251908",
+      "29988096",
+      "29905871",
+      "29860432",
+      "29490074",
+      "29385744",
+      "29339797",
+      "28768715",
+      "28405019",
+      "27453046",
+      "27315040",
+      "27203110",
+      "27048167",
+      "26632259",
+      "26524240",
+      "26493364",
+      "25982388",
+      "25436423",
+      "25365966",
+      "25215497",
+      "25179628",
+      "24569876",
+      "24029419",
+      "23415593",
+      "22681889",
+      "22658674",
+      "22516180",
+      "22110037",
+      "21642970",
+      "19714772",
+      "19239895",
+      "18959479",
+      "18597886",
+      "17473849",
+      "17434486",
+      "17403906",
+      "16794580",
+      "16314457",
+      "16179478",
+      "16169922",
+      "15853797",
+      "15134647",
+      "15024427",
+      "11160927",
+      "10564276",
+      "10550207",
+      "10217141",
+      "7535921"
+    ],
+    "similar": [
+      "39353735",
+      "38917322",
+      "39558160",
+      "32553192",
+      "34487791",
+      "39537752",
+      "28325876",
+      "39617253",
+      "28768715",
+      "21212361",
+      "28180315",
+      "16429151",
+      "27161996",
+      "38908024",
+      "26632259",
+      "31807700",
+      "20844764",
+      "30878482",
+      "29425497",
+      "21459850",
+      "27720645",
+      "28973465",
+      "18959479",
+      "25417751",
+      "27453046",
+      "38705823",
+      "39482307",
+      "21124907",
+      "32225071",
+      "15337848",
+      "25512524",
+      "39925135",
+      "24369346",
+      "32824743",
+      "19840948",
+      "27993706",
+      "26524240",
+      "34162742",
+      "33352065",
+      "38109289",
+      "34871434",
+      "34303077",
+      "39589885",
+      "26587879",
+      "29490241",
+      "23236192",
+      "26149687",
+      "20823268",
+      "35098694",
+      "40100159",
+      "34766032",
+      "11032818",
+      "23636942",
+      "23409723",
+      "31889261",
+      "30318446",
+      "20108977",
+      "36464283",
+      "21233221",
+      "1725260",
+      "29158339",
+      "29772604",
+      "31213602",
+      "16429156",
+      "15899876",
+      "18682389",
+      "12212846",
+      "28053271",
+      "24143261",
+      "32107786",
+      "27280440",
+      "26944332",
+      "22847816",
+      "39032884",
+      "28190770",
+      "31547849",
+      "24056370",
+      "39267376",
+      "23721653",
+      "20959291",
+      "37070168",
+      "24285537",
+      "29339797",
+      "20832728",
+      "39232584",
+      "31503412",
+      "30541127",
+      "20004207",
+      "27229125",
+      "34188131",
+      "12212850",
+      "24990943",
+      "25618852",
+      "31441158",
+      "38538796",
+      "14610285",
+      "24532081",
+      "33201473",
+      "31680457",
+      "15452114"
+    ],
+    "review": [
+      "39353735",
+      "38705823",
+      "34303077",
+      "35098694",
+      "36464283",
+      "26944332",
+      "29339797",
+      "27229125",
+      "31441158",
+      "24532081"
+    ],
+    "pmc": [
+      "11571813"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://www.rnajournal.org/cgi/pmidlookup?view=long&pmid=39353735",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39353735/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

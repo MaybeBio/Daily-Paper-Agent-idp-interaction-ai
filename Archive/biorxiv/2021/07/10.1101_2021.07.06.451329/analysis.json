@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.07.06.451329",
+  "title": "Investigating the conformational dynamics of SARS-CoV-2 NSP6 protein with emphasis on non-transmembrane 91-112 & 231-290 regions",
+  "authors": "Kumar A; Kumar P; Saumya KU; Giri R",
+  "journal": "bioRxiv",
+  "published_date": "2021-07-07",
+  "window": {
+    "start": "2021-07-05",
+    "end": "2021-07-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过MD模拟研究SARS-CoV-2 NSP6蛋白膜外无序区域(91-112)的构象动态及其在环境变化下的螺旋获得，虽未直接研究PPI，但为后续IDR介导的宿主蛋白互作机制建模提供了构象基础。",
+  "abstract": "The NSP6 protein of SARS-CoV-2 is a transmembrane protein, with some regions lying outside the membrane. Besides, a brief role of NSP6 in autophagosome formation, this is not studied significantly. Also, there is no structural information available till date. Based on the prediction by TMHMM server for transmembrane prediction, it is found that the N-terminal residues (1-11), middle region residues (91-112) and C-terminal residues (231-290) lies outside the membrane. Molecular Dynamics (MD) simulations showed that NSP6 consisting of helical structures, whereas membrane outside lying region (91-112) showed partial helicity, which further used as model and obtain disordered type conformation after 1.5 microsecond. Whereas, the residues 231-290 has both helical and beta sheet conformations in its structure model. A 200ns simulations resulted in the loss of beta sheet structures, while helical regions remained intact. Further, we have characterized the residue 91-112 by using reductionist approaches. The NSP6 (91-112) was found disordered like in isolation, which gain helical conformation in different biological mimic environmental conditions. These studies can be helpful to study NSP6 (91-112) interactions with host proteins, where different protein conformation might play significant role. The present study adds up more information about NSP6 protein aspect, which could be exploited for its host protein interaction and pathogenesis. <h4>Graphical Abstract</h4> The schematic representation of NSP6 membrane topology and conformational dynamics of residue 91-112. The N-terminal and C-terminal are shown in cytoplasmic side based on the experimental evidence on coronaviruses reported by Oostra et al., 2008. The membrane anchoring domain are shown based on the TMHMM server prediction.",
+  "abstract_zh": "SARS-CoV-2的NSP6蛋白是一种跨膜蛋白，部分区域位于膜外。除了在自噬体形成中的简要作用外，该蛋白尚未被深入研究。此外，至今没有关于其结构的可用信息。基于TMHMM服务器对跨膜区域的预测，发现N端残基（1-11）、中间区域残基（91-112）和C端残基（231-290）位于膜外。分子动力学 (molecular dynamics) 模拟显示，NSP6包含螺旋结构，而膜外区域（91-112）表现出部分螺旋性，该区域进一步用作模型，并在1.5微秒后获得无序型构象。而残基231-290在其结构模型中同时具有螺旋和β折叠构象。200纳秒的模拟导致β折叠结构丢失，而螺旋区域保持完整。此外，我们通过还原论方法表征了残基91-112。NSP6（91-112）在分离状态下呈无序样，在不同生物模拟环境条件下获得螺旋构象。这些研究有助于研究NSP6（91-112）与宿主蛋白的相互作用，其中不同的蛋白构象可能发挥重要作用。本研究增加了关于NSP6蛋白方面的更多信息，这些信息可用于其宿主蛋白相互作用和致病机制的研究。<h4>图形摘要</h4> NSP6膜拓扑结构和残基91-112构象动态的示意图。基于Oostra等人2008年报道的冠状病毒实验证据，N端和C端显示在细胞质侧。膜锚定区域基于TMHMM服务器预测显示。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.07.06.451329",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.07.06.451329",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.07.06.451329/index.html"
+}

@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "36943889",
+    "doi": "10.1073/pnas.2221432120",
+    "title": "Mechanomemory in protein diffusivity of chromatin and nucleoplasm after force cessation."
+  },
+  "content": {
+    "abstract": "It is known that external mechanical forces can regulate structures and functions of living cells and tissues in physiology and diseases. However, after cessation of the force, how structures are altered in response to the dynamics of the chromatin and molecules in the nucleoplasm remains elusive. Here, using single-molecule imaging approaches, we show that exogenous local forces via integrins applied for 2 to 10 min decondensed the chromatin and increased chromatin and nucleoplasm protein mobility inside the nucleus, leading to elevated diffusivity of single protein molecules in the nucleoplasm, tens of minutes after the cessation of force. Diffusion experiments with fluorescence correlation spectroscopy in live single cells show that the mechanomemory in chromatin and nucleoplasm protein diffusivity was regulated by nuclear pore complexes. Protein molecular dynamics simulation recapitulated the experimental findings in live cells and showed that nucleoplasm protein diffusivity was regulated by the number of nuclear pore complexes. The mechanomemory in elevated protein diffusivity of the nucleoplasm after force cessation represents a physical process that reverses protein-protein condensation in phase separation via unjamming of the chromatin. Our findings of mechanomemory in chromatin and nucleoplasm protein diffusivity suggest that the effect of force on the nucleus remains tens of minutes after force cessation and thus is more far-reaching than previously anticipated.",
+    "keywords": [
+      "diffusion",
+      "force",
+      "nucleus"
+    ],
+    "mesh_terms": [
+      "*Chromatin/metabolism",
+      "*Cell Nucleus/metabolism",
+      "Nuclear Pore/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rashid, Fazlur",
+        "Liu, Wenjie",
+        "Wang, Qianchun",
+        "Ji, Baohua",
+        "Irudayaraj, Joseph",
+        "Wang, Ning"
+      ],
+      "short_names": [
+        "Rashid F",
+        "Liu W",
+        "Wang Q",
+        "Ji B",
+        "Irudayaraj J",
+        "Wang N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9250-0509",
+        "ORCID: 0000-0002-0011-5209",
+        "ORCID: 0000-0001-7531-7385"
+      ],
+      "affiliations": [
+        "Department of Mechanical Science and Engineering, The Grainger College of Engineering, University of Illinois at Urbana-Champaign, Urbana, IL 61801.",
+        "Department of Bioengineering, The Grainger College of Engineering, University of Illinois at Urbana-Champaign, Urbana, IL 61801.",
+        "Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325001, China.",
+        "Department of Engineering Mechanics, Institute of Biomechanics and Applications, Zhejiang University, Hangzhou 310027, China.",
+        "Department of Bioengineering, The Grainger College of Engineering, University of Illinois at Urbana-Champaign, Urbana, IL 61801.",
+        "Department of Mechanical Science and Engineering, The Grainger College of Engineering, University of Illinois at Urbana-Champaign, Urbana, IL 61801."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rashid, Fazlur",
+        "short_name": "Rashid F",
+        "identifiers": [
+          "0000-0002-9250-0509"
+        ],
+        "affiliations": [
+          "Department of Mechanical Science and Engineering, The Grainger College of Engineering, University of Illinois at Urbana-Champaign, Urbana, IL 61801."
+        ]
+      },
+      {
+        "full_name": "Liu, Wenjie",
+        "short_name": "Liu W",
+        "identifiers": [
+          "0000-0002-0011-5209"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, The Grainger College of Engineering, University of Illinois at Urbana-Champaign, Urbana, IL 61801."
+        ]
+      },
+      {
+        "full_name": "Wang, Qianchun",
+        "short_name": "Wang Q",
+        "identifiers": [],
+        "affiliations": [
+          "Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou 325001, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Baohua",
+        "short_name": "Ji B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Engineering Mechanics, Institute of Biomechanics and Applications, Zhejiang University, Hangzhou 310027, China."
+        ]
+      },
+      {
+        "full_name": "Irudayaraj, Joseph",
+        "short_name": "Irudayaraj J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, The Grainger College of Engineering, University of Illinois at Urbana-Champaign, Urbana, IL 61801."
+        ]
+      },
+      {
+        "full_name": "Wang, Ning",
+        "short_name": "Wang N",
+        "identifiers": [
+          "0000-0001-7531-7385"
+        ],
+        "affiliations": [
+          "Department of Mechanical Science and Engineering, The Grainger College of Engineering, University of Illinois at Urbana-Champaign, Urbana, IL 61801."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 Mar 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/22 06:00",
+    "fetched_at": "2026-09-20 20:35:46"
+  },
+  "links": {
+    "cites": [
+      "41987793",
+      "41972431",
+      "41926644",
+      "41889677",
+      "41858409",
+      "41826762",
+      "41450974",
+      "41057974",
+      "40838526",
+      "40727669",
+      "40726337",
+      "40561024",
+      "40256417",
+      "40165288",
+      "40149890",
+      "40059756",
+      "40000755",
+      "39121805",
+      "39002538",
+      "38559448",
+      "38290913",
+      "37681098",
+      "37126697"
+    ],
+    "refs": [
+      "36222828",
+      "36202822",
+      "36031407",
+      "35901134",
+      "35803582",
+      "35679401",
+      "34762489",
+      "34700042",
+      "33326747",
+      "33053374",
+      "32994402",
+      "32315686",
+      "32270037",
+      "30700309",
+      "30500535",
+      "30151030",
+      "29700375",
+      "28973866",
+      "28686583",
+      "27798620",
+      "27548707",
+      "26237129",
+      "25944393",
+      "24633344",
+      "23974971",
+      "23792809",
+      "23029248",
+      "22643893",
+      "21816279",
+      "19891423",
+      "19349581",
+      "17893336",
+      "17538621",
+      "16923388",
+      "16408017",
+      "12665582",
+      "11242053",
+      "3805121"
+    ],
+    "similar": [
+      "36943889",
+      "39002538",
+      "27085162",
+      "36239271",
+      "30889416",
+      "30333236",
+      "34002694",
+      "29689232",
+      "21242077",
+      "24480294",
+      "28900009",
+      "9636660",
+      "19895852",
+      "35412237",
+      "21150273",
+      "23962805",
+      "35327596",
+      "21970986",
+      "18556763",
+      "21327092",
+      "18562297",
+      "24038953",
+      "27185238",
+      "20721671",
+      "20144760",
+      "18461486",
+      "31278154",
+      "19650114",
+      "19234542",
+      "31769409",
+      "15612004",
+      "25908635",
+      "26170147",
+      "19278659",
+      "11882311",
+      "24657998",
+      "39160992",
+      "32320676",
+      "35490296",
+      "21501361",
+      "34537592",
+      "16804054",
+      "36786384",
+      "21098284",
+      "21030234",
+      "16877530",
+      "25563347",
+      "29227210",
+      "15830242",
+      "33498839",
+      "35412238",
+      "35013558",
+      "23687383",
+      "28579449",
+      "23580182",
+      "18675855",
+      "28226231",
+      "26046137",
+      "18596237",
+      "26694838",
+      "21292462",
+      "31250628",
+      "16212499",
+      "23062334",
+      "15546916",
+      "23912807",
+      "25460776",
+      "21776079",
+      "15913655",
+      "27830755",
+      "25747401",
+      "9297969",
+      "27856507",
+      "23412657",
+      "12894213",
+      "28476938",
+      "12114017",
+      "19922866",
+      "23104094",
+      "26171741",
+      "16513387",
+      "26359759",
+      "29496964",
+      "21825076",
+      "30798206",
+      "31913454",
+      "26341556",
+      "24806919",
+      "30256731",
+      "34661040",
+      "34700042"
+    ],
+    "review": [
+      "36943889",
+      "27085162",
+      "30889416",
+      "29689232",
+      "21242077",
+      "24480294",
+      "23962805",
+      "35327596",
+      "21970986",
+      "27185238",
+      "20721671",
+      "18461486",
+      "31278154",
+      "19650114",
+      "19234542",
+      "26170147",
+      "11882311",
+      "24657998",
+      "16804054",
+      "21030234",
+      "15830242",
+      "28579449",
+      "23580182",
+      "18675855",
+      "28226231",
+      "26046137",
+      "21292462",
+      "16212499",
+      "25460776",
+      "21776079",
+      "25747401",
+      "9297969",
+      "27856507",
+      "19922866",
+      "23104094",
+      "30798206",
+      "31913454"
+    ],
+    "pmc": [
+      "10068814"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2221432120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36943889/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36943889",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/36943889",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

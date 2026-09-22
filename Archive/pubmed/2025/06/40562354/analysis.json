@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40562354",
+  "title": "NMR in the Age of Modern Biomedical Research and Drug Discovery.",
+  "authors": "Lu, Xiuxiu; Myint, Wazo; Muli, Christine S; Larion, Mioara; Matsuo, Hiroshi; Walters, Kylie J",
+  "journal": "Journal of molecular biology",
+  "published_date": "2025-06-26",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 6,
+  "one_liner_zh": "综述NMR在生物医学与药物发现中的应用，强调其对无序动态系统和配体结合的独特表征能力，并提及与AI结构预测的协同，但缺乏具体PPI机制建模方法。",
+  "abstract": "The success of artificial intelligence for structure prediction has led to forecasts of a reduced need for experimental structural biology. Here, we focus on nuclear magnetic resonance (NMR) spectroscopy and its various applications to biomedical research, including and extending beyond structural biology. As a structural tool, NMR is highly complementary to X-ray crystallography and cryo-electron microscopy (cryo-EM) and uniquely suited for studies of intrinsically disordered and dynamic systems in real time. It produces spectral fingerprints of biomolecules at the atomic scale to provide information on the structure, interactions, and motions that occur in solution. We focus on the power of NMR to characterize moderately sized dynamic systems, identify and validate the binding of small molecule ligands to biomolecular targets, and its capacity to further develop and be empowered by artificial intelligence-based structural prediction software. Experimental structural biology begins with sample preparation, and we present recent advancements for overcoming hurdles associated with reconstitution of biological systems for NMR studies and ongoing challenges, including in the application of NMR for cell-based research. NMR is aptly suited to bench-to-bedside efforts for its ability to do metabolomic profiling and follow drug response. We present the capacity of NMR to delve into complexities that are the foundation of biological function and focus on its ongoing challenges and opportunities to apply NMR for the advancement of biomedical research.",
+  "abstract_zh": "人工智能在结构预测方面的成功，引发了对其减少实验结构生物学需求的预测。在此，我们聚焦于核磁共振（NMR）波谱学及其在生物医学研究中的多种应用，包括并超越结构生物学范畴。作为一种结构工具，NMR与X射线晶体学和冷冻电子显微镜（cryo-EM）高度互补，并特别适用于实时研究内在无序和动态系统。它产生原子尺度上生物分子的光谱指纹，以提供溶液中发生的结构、相互作用和运动信息。我们着重于NMR在表征中等尺寸动态系统、识别和验证小分子配体与生物分子靶标结合方面的能力，及其进一步发展和借助基于人工智能的结构预测软件的潜力。实验结构生物学始于样品制备，我们介绍了近期在克服NMR研究生物系统重构相关障碍方面的进展，以及持续存在的挑战，包括NMR在细胞基础研究中的应用。NMR因其代谢组学分析和药物反应追踪能力，非常适合从实验室到临床的转化工作。我们展示了NMR深入探究生物功能基础复杂性的能力，并聚焦于其持续挑战和将NMR应用于推进生物医学研究的机遇。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40562354/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40562354/",
+  "paper_page_path": "papers/pubmed/40562354/index.html"
+}

@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "37001147",
+    "doi": "10.1021/acs.biomac.2c01465",
+    "title": "Biomimetic SARS-CoV-2 Spike Protein Nanoparticles."
+  },
+  "content": {
+    "abstract": "COVID-19 is an infectious respiratory disease caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). This virus contains a crucial coat protein that engages with target cells via a receptor binding domain (RBD) on its spike protein. To better study the RBD and its therapeutic opportunities, we genetically engineered a simple fusion with a thermo-responsive elastin-like polypeptide (ELP). These fusions express in Escherichia coli at a high yield in the soluble fraction and were easily purified using ELP-mediated phase separation (79 mg/L culture). Interestingly, they assembled peptide-based nanoparticles (R(h) = 71.4 nm), which was attributed to oligomerization of RBDs (25.3 kDa) counterbalanced by steric stabilization by a soluble ELP (73.4 kDa). To investigate their biophysical properties, we explored the size, shape, and binding affinity for the human angiotensin-converting enzyme 2 (hACE2) and cellular uptake. Biomimetic nanoparticles such as these may enable future strategies to target the same cells, tissues, and cell-surface receptors as those harnessed by SARS-CoV-2.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*COVID-19",
+      "Spike Glycoprotein, Coronavirus/genetics/metabolism",
+      "SARS-CoV-2",
+      "Receptors, Virus/chemistry/metabolism",
+      "Biomimetics",
+      "Protein Binding",
+      "*Nanoparticles"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Phan, Alvin",
+        "Avila, Hugo",
+        "MacKay, J Andrew"
+      ],
+      "short_names": [
+        "Phan A",
+        "Avila H",
+        "MacKay JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3742-589X",
+        "ORCID: 0000-0002-3626-1654"
+      ],
+      "affiliations": [
+        "Department of Pharmacology and Pharmaceutical Sciences, USC Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, California 90089, United States.",
+        "Department of Pharmacology and Pharmaceutical Sciences, USC Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, California 90089, United States.",
+        "Department of Pharmacology and Pharmaceutical Sciences, USC Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, California 90089, United States.",
+        "Department of Ophthalmology, Keck School of Medicine of USC, University of Southern California, 1450 San Pablo Street, Los Angeles, California 90033, United States.",
+        "Alfred E. Mann Department of Biomedical Engineering, USC Viterbi School of Engineering, University of Southern California, 1042 Downey Way, Los Angeles, California 90089, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Phan, Alvin",
+        "short_name": "Phan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology and Pharmaceutical Sciences, USC Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, California 90089, United States."
+        ]
+      },
+      {
+        "full_name": "Avila, Hugo",
+        "short_name": "Avila H",
+        "identifiers": [
+          "0000-0003-3742-589X"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Pharmaceutical Sciences, USC Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, California 90089, United States."
+        ]
+      },
+      {
+        "full_name": "MacKay, J Andrew",
+        "short_name": "MacKay JA",
+        "identifiers": [
+          "0000-0002-3626-1654"
+        ],
+        "affiliations": [
+          "Department of Pharmacology and Pharmaceutical Sciences, USC Alfred E. Mann School of Pharmacy and Pharmaceutical Sciences, University of Southern California, 1985 Zonal Avenue, Los Angeles, California 90089, United States.",
+          "Department of Ophthalmology, Keck School of Medicine of USC, University of Southern California, 1450 San Pablo Street, Los Angeles, California 90033, United States.",
+          "Alfred E. Mann Department of Biomedical Engineering, USC Viterbi School of Engineering, University of Southern California, 1042 Downey Way, Los Angeles, California 90089, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2023 May 8",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/01 06:00",
+    "fetched_at": "2026-09-20 20:44:12"
+  },
+  "links": {
+    "cites": [
+      "42010558",
+      "41144949",
+      "39622184",
+      "39495202",
+      "38281625"
+    ],
+    "refs": [
+      "35338114",
+      "34480861",
+      "34354120",
+      "33888738",
+      "33861931",
+      "33782830",
+      "33624533",
+      "33332779",
+      "33310780",
+      "33295606",
+      "33237727",
+      "33164751",
+      "33157038",
+      "33024017",
+      "33008593",
+      "32916604",
+      "32535112",
+      "32517704",
+      "32446287",
+      "32445440",
+      "32428520",
+      "32376634",
+      "32319752",
+      "32275855",
+      "32225176",
+      "32221306",
+      "32155444",
+      "32142651",
+      "31986257",
+      "30231877",
+      "28343398",
+      "27249425",
+      "26578439",
+      "26376024",
+      "26079837",
+      "25890161",
+      "24961229",
+      "24511327",
+      "24484356",
+      "23101937",
+      "22743772",
+      "21699930",
+      "21109889",
+      "20184309",
+      "18227861",
+      "16282461",
+      "15358126",
+      "12384309",
+      "10545920",
+      "8563639"
+    ],
+    "similar": [
+      "37001147",
+      "34105996",
+      "32225175",
+      "32806067",
+      "32376634",
+      "38305152",
+      "39082798",
+      "39195208",
+      "32383269",
+      "32100877",
+      "34340537",
+      "33033344",
+      "32225176",
+      "33653891",
+      "35596971",
+      "35328828",
+      "32531235",
+      "33232865",
+      "32661423",
+      "33464829",
+      "33103998",
+      "37578234",
+      "33785634",
+      "33836016",
+      "36000847",
+      "34435953",
+      "35874670",
+      "33130382",
+      "33208074",
+      "35616802",
+      "34915268",
+      "33864655",
+      "34013346",
+      "37897042",
+      "35164065",
+      "32239522",
+      "25231316",
+      "34562851",
+      "35074895",
+      "34400835",
+      "35762884",
+      "35093192",
+      "32802318",
+      "32699095",
+      "37424217",
+      "32788194",
+      "32415260",
+      "34064066",
+      "38953634",
+      "33112236",
+      "36584595",
+      "39083418",
+      "32921279",
+      "33186231",
+      "32416259",
+      "35620980",
+      "33084150",
+      "32203189",
+      "34613786",
+      "35164561",
+      "33331243",
+      "37166054",
+      "32790406",
+      "34029937",
+      "32710986",
+      "32825063",
+      "32822426",
+      "34420993",
+      "33767306",
+      "33239166",
+      "33984310",
+      "32602627",
+      "33671255",
+      "33232769",
+      "38700999",
+      "35898497",
+      "36562937",
+      "34445310",
+      "35003058",
+      "35809511",
+      "34187722",
+      "35910791",
+      "35595778",
+      "36362302",
+      "35138508",
+      "34643438",
+      "32963228",
+      "37769892",
+      "34924680",
+      "34240429",
+      "34132301",
+      "36534650",
+      "39480852",
+      "34906876",
+      "35736838",
+      "34419496",
+      "39291996",
+      "34783057",
+      "31996437",
+      "33146070"
+    ],
+    "review": [
+      "37001147",
+      "33208074",
+      "33186231",
+      "32822426",
+      "34420993",
+      "32602627",
+      "36562937",
+      "35003058",
+      "34187722"
+    ],
+    "pmc": [
+      "10084924"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37001147/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37001147",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37001147",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.2c01465",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

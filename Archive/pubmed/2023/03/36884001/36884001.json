@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "36884001",
+    "doi": "10.1021/acs.jpcb.3c00200",
+    "title": "IDP Force Fields Applied to Model PPII-Rich 33-mer Gliadin Peptides."
+  },
+  "content": {
+    "abstract": "The 33-mer gliadin peptide and its deamidated metabolite, 33-mer DGP, are the immunodominant peptides responsible for the adaptive immune response in celiac disease (CD). CD is a complex autoimmune chronic disorder triggered by gluten ingestion that affects the small intestine and affects  approximately 1% of the global population. The 33-mers are polyproline II-rich (PPII) and intrinsically disordered peptides (IDPs), whose structures remain elusive. We sampled the conformational ensembles of both 33-mer peptides via molecular dynamics simulations employing two force fields (FFs) (Amber ff03ws and Amber ff99SB-disp) specifically validated for other IDPs. Our results show that both FFs allow the extensive exploration of the conformational landscape, which was not possible with the standard FF GROMOS53A6 reported before. Clustering analysis of the trajectories showed that the five largest clusters (78-88% of the total structures) present elongated, semielongated, and curved conformations in both FFs. Large average radius of gyration and solvent-exposed surfaces characterized these structures. While the structures sampled are similar, the Amber ff99SB-disp trajectories explored folded conformations with a higher probability. In addition, PPII secondary structure was preserved throughout the trajectories (58-73%) together with a non-negligible content of beta structures (11-23%), in agreement with previous experimental results. This work represents the initial step in studying further the interaction of these peptides with other biologically relevant molecules, which could lead to finally disclose the molecular events that lead to CD.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Gliadin/chemistry",
+      "*Amber",
+      "Peptides/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Structure, Secondary"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Amundarain, Maria J",
+        "Vietri, Agustin",
+        "Dodero, Veronica I",
+        "Costabel, Marcelo D"
+      ],
+      "short_names": [
+        "Amundarain MJ",
+        "Vietri A",
+        "Dodero VI",
+        "Costabel MD"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0980-5775",
+        "ORCID: 0000-0002-2723-4603",
+        "ORCID: 0000-0001-7937-1880",
+        "ORCID: 0000-0002-8969-7208"
+      ],
+      "affiliations": [
+        "Departamento de Fisica, Instituto de Fisica del Sur (IFISUR), Universidad Nacional del Sur (UNS), CONICET, Avenida Leandro N. Alem 1253, B8000CPB Bahia Blanca, Argentina.",
+        "Department of Chemistry, Organic Chemistry III, Bielefeld University, Universitatsstrasse 25, 33615 Bielefeld, Germany.",
+        "Departamento de Fisica, Instituto de Fisica del Sur (IFISUR), Universidad Nacional del Sur (UNS), CONICET, Avenida Leandro N. Alem 1253, B8000CPB Bahia Blanca, Argentina.",
+        "Department of Chemistry, Organic Chemistry III, Bielefeld University, Universitatsstrasse 25, 33615 Bielefeld, Germany.",
+        "Departamento de Fisica, Instituto de Fisica del Sur (IFISUR), Universidad Nacional del Sur (UNS), CONICET, Avenida Leandro N. Alem 1253, B8000CPB Bahia Blanca, Argentina."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Amundarain, María J",
+        "short_name": "Amundarain MJ",
+        "identifiers": [
+          "0000-0002-0980-5775"
+        ],
+        "affiliations": [
+          "Departamento de Física, Instituto de Física del Sur (IFISUR), Universidad Nacional del Sur (UNS), CONICET, Avenida Leandro N. Alem 1253, B8000CPB Bahía Blanca, Argentina.",
+          "Department of Chemistry, Organic Chemistry III, Bielefeld University, Universitätsstraße 25, 33615 Bielefeld, Germany."
+        ]
+      },
+      {
+        "full_name": "Vietri, Agustín",
+        "short_name": "Vietri A",
+        "identifiers": [
+          "0000-0002-2723-4603"
+        ],
+        "affiliations": [
+          "Departamento de Física, Instituto de Física del Sur (IFISUR), Universidad Nacional del Sur (UNS), CONICET, Avenida Leandro N. Alem 1253, B8000CPB Bahía Blanca, Argentina."
+        ]
+      },
+      {
+        "full_name": "Dodero, Verónica I",
+        "short_name": "Dodero VI",
+        "identifiers": [
+          "0000-0001-7937-1880"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Organic Chemistry III, Bielefeld University, Universitätsstraße 25, 33615 Bielefeld, Germany."
+        ]
+      },
+      {
+        "full_name": "Costabel, Marcelo D",
+        "short_name": "Costabel MD",
+        "identifiers": [
+          "0000-0002-8969-7208"
+        ],
+        "affiliations": [
+          "Departamento de Física, Instituto de Física del Sur (IFISUR), Universidad Nacional del Sur (UNS), CONICET, Avenida Leandro N. Alem 1253, B8000CPB Bahía Blanca, Argentina."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2023 Mar 23",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/09 06:00",
+    "fetched_at": "2026-09-20 20:06:47"
+  },
+  "links": {
+    "cites": [
+      "41376388",
+      "40934393",
+      "40780286",
+      "39713688"
+    ],
+    "refs": [],
+    "similar": [
+      "36884001",
+      "34524800",
+      "33382616",
+      "29235155",
+      "31509121",
+      "36125334",
+      "36161684",
+      "32816485",
+      "33444020",
+      "30865832",
+      "22904695",
+      "38497459",
+      "26020564",
+      "38928405",
+      "30250773",
+      "26784558",
+      "24278359",
+      "16212427",
+      "26727467",
+      "16085707",
+      "27299801",
+      "34152264",
+      "26606367",
+      "35950933",
+      "20418937",
+      "30433786",
+      "25207671",
+      "33459730",
+      "30840442",
+      "26574453",
+      "37648703",
+      "23703327",
+      "28327674",
+      "31751129",
+      "32050065",
+      "20408171",
+      "18166587",
+      "18471007",
+      "27796452",
+      "26376290",
+      "10684852",
+      "35048087",
+      "25864460",
+      "31241933",
+      "15265905",
+      "31588935",
+      "26575776",
+      "19299713",
+      "21038907",
+      "31552948",
+      "20886968",
+      "35838167",
+      "33530506",
+      "25147233",
+      "31970917",
+      "26910732",
+      "21138254",
+      "11673371",
+      "37278479",
+      "11746709",
+      "29357666",
+      "12054857",
+      "25262612",
+      "27243806",
+      "20831224",
+      "26629886",
+      "30204435",
+      "23870922",
+      "30896943",
+      "26132982",
+      "35269639",
+      "27300587",
+      "23448349",
+      "24589355",
+      "29480910",
+      "24392888",
+      "9613595",
+      "20085382",
+      "28614661",
+      "23823806",
+      "35047092",
+      "25358113",
+      "24001370",
+      "29525696",
+      "33810353",
+      "25177775",
+      "26418575",
+      "21694536",
+      "27731628",
+      "33798336",
+      "28185014",
+      "18803427",
+      "36387274",
+      "31657215",
+      "28569909",
+      "17544966",
+      "23631686",
+      "16171817",
+      "28702325",
+      "20556825"
+    ],
+    "review": [
+      "36884001",
+      "30840442",
+      "33530506",
+      "35047092",
+      "28185014"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.3c00200",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "identity": {
+    "pmid": "40735842",
+    "doi": "10.1039/d5sm00206k",
+    "title": "Impact of crowder size, hydrophobicity, and hydration on the structure of amyloid-beta oligomers."
+  },
+  "content": {
+    "abstract": "It is being increasingly recognized that a comprehensive understanding of protein folding and aggregation requires accounting for the crowded in vivo milieu. Such a complex milieu offers a variety of soft, non-specific interactions along with the crowder volume exclusion effects that can modulate the hydration and protein aggregation processes. A clear understanding of the interplay of these effects is still lacking. Oligomerization of intrinsically disordered proteins (IDPs) forms the early stage nucleation step for fibrillation and this study investigates the structural stability of the dimer and tetramer of Abeta(16-22) IDP in the presence of molecular crowders. Molecular dynamics simulations are employed to examine the role of ethylene glycol (EG), diethylene glycol (DEG) and modified DEG (UCON) with increased hydrophobicity at crowded concentrations on the structural stability of peptide oligomers. The results show that EG destabilizes both the peptide oligomers at low and high packing fractions by enhancing the hydration of peptides at low concentration and by increasing peptide-crowder interactions at high concentration. UCON stabilizes the oligomers at low concentration by reducing peptide hydration, enhancing the peptide inter-strand interactions leading to energetic effects. Conversely, it stabilizes the oligomer structure at high packing fractions via entropic volume exclusion effects, enhancing the peptide hydration due to confinement of water around the peptide. Water molecules are confined in small volume and are observed to be disordered with anomalously slow diffusion. The results provide insights into the interplay of molecular crowders size effects on peptide hydration, regulating the oligomer structure. The findings have implications in understanding the role of crowding in shaping the free energy landscapes of IDPs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Hydrophobic and Hydrophilic Interactions",
+      "Molecular Dynamics Simulation",
+      "*Amyloid beta-Peptides/chemistry",
+      "*Water/chemistry",
+      "Protein Multimerization",
+      "Ethylene Glycol/chemistry",
+      "*Peptide Fragments/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shivnandi",
+        "Nayar, Divya"
+      ],
+      "short_names": [
+        "Shivnandi",
+        "Nayar D"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-1818-5009",
+        "ORCID: 0000-0001-8569-7633"
+      ],
+      "affiliations": [
+        "Department of Materials Science and Engineering, Indian Institute of Technology Delhi, New Delhi-110016, India. divyanayar@mse.iitd.ac.in.",
+        "Department of Materials Science and Engineering, Indian Institute of Technology Delhi, New Delhi-110016, India. divyanayar@mse.iitd.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shivnandi",
+        "short_name": "Shivnandi",
+        "identifiers": [
+          "0009-0006-1818-5009"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, Indian Institute of Technology Delhi, New Delhi-110016, India. divyanayar@mse.iitd.ac.in."
+        ]
+      },
+      {
+        "full_name": "Nayar, Divya",
+        "short_name": "Nayar D",
+        "identifiers": [
+          "0000-0001-8569-7633"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, Indian Institute of Technology Delhi, New Delhi-110016, India. divyanayar@mse.iitd.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Soft matter"
+    ],
+    "journal_abbrev": [
+      "Soft Matter"
+    ],
+    "pub_date": "2025 Sep 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/30 06:30",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [
+      "42619019"
+    ],
+    "refs": [],
+    "similar": [
+      "40735842",
+      "26153709",
+      "25347801",
+      "23912807",
+      "37580997",
+      "21761818",
+      "34509724",
+      "19108587",
+      "23484883",
+      "27844078",
+      "27135646",
+      "27602722",
+      "23936224",
+      "25919930",
+      "25503571",
+      "39907269",
+      "20428075",
+      "25198420",
+      "34266250",
+      "27091578",
+      "23708585",
+      "33480728",
+      "21687730",
+      "22077332",
+      "27281682",
+      "32557766",
+      "19385701",
+      "27698130",
+      "28641562",
+      "32760995",
+      "39561991",
+      "40833681",
+      "23811057",
+      "24494584",
+      "40590581",
+      "37555670",
+      "22339868",
+      "23641734",
+      "20338850",
+      "37066978",
+      "27155979",
+      "25608630",
+      "29947363",
+      "31899612",
+      "24617650",
+      "27856006",
+      "30003969",
+      "32703978",
+      "36052514",
+      "36179370",
+      "20888834",
+      "31365254",
+      "33687193",
+      "26017140",
+      "30066087",
+      "32541820",
+      "38949117",
+      "39062488",
+      "30865832",
+      "25955249",
+      "29235155",
+      "29364151",
+      "25117080",
+      "25494801",
+      "40776447",
+      "21205198",
+      "28294556",
+      "31660732",
+      "30080867",
+      "37348142",
+      "22674434",
+      "20513411",
+      "37410958",
+      "31474736",
+      "30605312",
+      "36542916",
+      "27346247",
+      "32130011",
+      "20602359",
+      "25330398",
+      "32419254",
+      "31834477",
+      "30638607",
+      "21056574",
+      "38516974",
+      "23015407",
+      "21244841",
+      "18479708",
+      "15465917",
+      "18215070",
+      "22509291",
+      "25973904",
+      "21797254",
+      "27901087",
+      "20858441",
+      "24368046",
+      "29235346",
+      "28671211",
+      "21799748",
+      "29299557"
+    ],
+    "review": [
+      "40735842",
+      "30066087",
+      "29364151"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d5sm00206k",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

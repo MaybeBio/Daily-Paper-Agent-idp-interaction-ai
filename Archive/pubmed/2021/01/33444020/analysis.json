@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33444020",
+  "title": "Systematic Differences between Current Molecular Dynamics Force Fields To Represent Local Properties of Intrinsically Disordered Proteins.",
+  "authors": "Yu, Lei; Li, Da-Wei; Bruschweiler, Rafael",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-01-15",
+  "window": {
+    "start": "2021-01-11",
+    "end": "2021-01-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用MD模拟比较多种力场对IDP局部构象的再现能力，虽聚焦单链IDP而非PPI，但力场验证与构象采样方法对无序蛋白互作机制建模有基础性参考价值。",
+  "abstract": "The prevalence of intrinsically disordered proteins (IDPs) and protein regions in structural biology has prompted the recent development of molecular dynamics (MD) force fields for the more realistic representations of such systems. Using experimental nuclear magnetic resonance backbone scalar (3)J-coupling constants of the intrinsically disordered proteins alpha-synuclein and amyloid-beta in their native aqueous environment as a metric, we compare the performance of four recent MD force fields, namely, AMBER ff14SB, CHARMM C36m, AMBER ff99SB-disp, and AMBER ff99SBnmr2, by partitioning the polypeptides into an overlapping series of heptapeptides for which a cumulative total of 276 mus MD simulations were performed. The results show substantial differences between the different force fields at the individual residue level. Except for ff99SBnmr2, the force fields systematically underestimate the scalar (3)J(H(N),Halpha)-couplings due to an underrepresentation of beta-conformations and an overrepresentation of either alpha- or PP(II) conformations. The study demonstrates that the incorporation of coil library information in modern MD force fields, as shown here for ff99SBnmr2, provides substantially improved performance and more realistic sampling of the local backbone dihedral angles of IDPs as reflected by the good accuracy of the computed scalar (3)J(H(N),Halpha)-couplings with less than 0.5 Hz error. Such force fields will enable a better understanding of how structural dynamics and thermodynamics influence the IDP function. Although the methodology based on heptapeptides used here does not allow the assessment of potential intramolecular long-range interactions, its computational affordability permits well-converged simulations that can be easily parallelized. This should make the quantitative validation of intrinsic disorder observed in MD simulations of polypeptides with experimental scalar J-couplings widely applicable.",
+  "abstract_zh": "intrinsically disordered proteins（IDPs）及其蛋白区域在结构生物学中的普遍存在，推动了近期分子动力学（MD）力场的发展，以更真实地表示此类系统。利用实验核磁共振骨架标量(3)J-耦合常数，以天然水环境中的 intrinsically disordered proteins alpha-synuclein 和 amyloid-beta 为度量标准，我们比较了四种近期MD力场的性能，即 AMBER ff14SB、CHARMM C36m、AMBER ff99SB-disp 和 AMBER ff99SBnmr2，通过将多肽分割成一系列重叠的七肽片段，并对其进行了总计276微秒的MD模拟。结果显示，不同力场在单个残基水平上存在显著差异。除 ff99SBnmr2 外，各力场系统性地低估了标量(3)J(H_N,H_alpha)-耦合常数，原因是β构象代表性不足，而α或PP(II)构象代表性过高。研究表明，现代MD力场中整合线圈库信息（如 ff99SBnmr2 所示）能显著提升性能，并更真实地采样IDPs的局部骨架二面角，这反映在计算得到的标量(3)J(H_N,H_alpha)-耦合常数误差小于0.5 Hz的良好精度上。此类力场将有助于更深入理解结构动力学和热力学如何影响IDP功能。尽管基于七肽的方法无法评估潜在的分子内长程相互作用，但其计算成本较低，允许进行良好收敛的模拟，且易于并行化。这应使通过实验标量J-耦合常数对多肽MD模拟中观察到的内在无序进行定量验证得到广泛应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33444020/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33444020/",
+  "paper_page_path": "papers/pubmed/33444020/index.html"
+}

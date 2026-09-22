@@ -1,0 +1,291 @@
+{
+  "identity": {
+    "pmid": "36814383",
+    "doi": "10.1016/j.bpj.2023.02.020",
+    "title": "Intrinsically disordered region of talin's FERM domain functions as an initial PIP(2) recognition site."
+  },
+  "content": {
+    "abstract": "Focal adhesions (FAs) mediate the interaction of the cytoskeleton with the extracellular matrix in a highly dynamic fashion. Talin is a central regulator, adaptor protein, and mechano-sensor of FA complexes. For recruitment and firm attachment at FAs, talin's N-terminal FERM domain binds to phosphatidylinositol 4,5-bisphosphate (PIP(2))-enriched membranes. A newly published autoinhibitory structure of talin-1, where the known PIP(2) interaction sites are covered up, lead us to hypothesize that a hitherto less examined loop insertion of the FERM domain acts as an additional and initial site of contact. We evaluated direct interactions of talin-1 with a PIP(2) membrane by means of atomistic molecular dynamics simulations. We show that this unstructured, 33-residue-long loop strongly interacts with PIP(2) and can facilitate further membrane contacts, including the canonical PIP(2) interactions, by serving as a flexible membrane anchor. Under force as present at FAs, the extensible FERM loop ensures talin maintains membrane contacts when pulled away from the membrane by up to 7 nm. We identify key basic residues of the anchor mediating the highly dynamic talin-membrane interaction. Our results put forward an intrinsically disordered loop as a key and highly adaptable PIP(2) recognition site of talin and potentially other PIP(2)-binding mechano-proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Talin/metabolism",
+      "*FERM Domains",
+      "Focal Adhesions/metabolism",
+      "Cytoskeleton/metabolism",
+      "Molecular Dynamics Simulation",
+      "Carrier Proteins/metabolism",
+      "Protein Binding",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Buhr, Jannik",
+        "Franz, Florian",
+        "Grater, Frauke"
+      ],
+      "short_names": [
+        "Buhr J",
+        "Franz F",
+        "Grater F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Heidelberg Institute for Theoretical Studies, Heidelberg, Germany; Interdisciplinary Center for Scientific Computing, Heidelberg University, Heidelberg, Germany.",
+        "Heidelberg Institute for Theoretical Studies, Heidelberg, Germany; Interdisciplinary Center for Scientific Computing, Heidelberg University, Heidelberg, Germany.",
+        "Heidelberg Institute for Theoretical Studies, Heidelberg, Germany; Interdisciplinary Center for Scientific Computing, Heidelberg University, Heidelberg, Germany. Electronic address: frauke.graeter@h-its.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Buhr, Jannik",
+        "short_name": "Buhr J",
+        "identifiers": [],
+        "affiliations": [
+          "Heidelberg Institute for Theoretical Studies, Heidelberg, Germany; Interdisciplinary Center for Scientific Computing, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Franz, Florian",
+        "short_name": "Franz F",
+        "identifiers": [],
+        "affiliations": [
+          "Heidelberg Institute for Theoretical Studies, Heidelberg, Germany; Interdisciplinary Center for Scientific Computing, Heidelberg University, Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Gräter, Frauke",
+        "short_name": "Gräter F",
+        "identifiers": [],
+        "affiliations": [
+          "Heidelberg Institute for Theoretical Studies, Heidelberg, Germany; Interdisciplinary Center for Scientific Computing, Heidelberg University, Heidelberg, Germany. Electronic address: frauke.graeter@h-its.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2023 Apr 4",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/24 06:00",
+    "fetched_at": "2026-09-20 19:29:20"
+  },
+  "links": {
+    "cites": [
+      "39103332",
+      "38362411"
+    ],
+    "refs": [
+      "33956157",
+      "32271757",
+      "31539492",
+      "30877242",
+      "30254158",
+      "29694864",
+      "29626191",
+      "29590584",
+      "29273202",
+      "29230016",
+      "28701514",
+      "27801516",
+      "27459095",
+      "27384267",
+      "26631602",
+      "26544178",
+      "26365802",
+      "25706233",
+      "24998185",
+      "23860236",
+      "23681438",
+      "22710802",
+      "22351767",
+      "22210111",
+      "21402777",
+      "20947018",
+      "20150896",
+      "19948488",
+      "19747922",
+      "19444816",
+      "18351591",
+      "16607289",
+      "15264254",
+      "14699482",
+      "14526080",
+      "11988466",
+      "10940251",
+      "10908673",
+      "10497155",
+      "9895674",
+      "9757824",
+      "9159132",
+      "8744570",
+      "7543096",
+      "2938015"
+    ],
+    "similar": [
+      "36814383",
+      "36814382",
+      "16648844",
+      "29694864",
+      "22235127",
+      "31539492",
+      "22710802",
+      "26544178",
+      "26149501",
+      "16616931",
+      "27548281",
+      "27548916",
+      "21244829",
+      "28089450",
+      "23572508",
+      "27803165",
+      "22496808",
+      "19804783",
+      "30254158",
+      "37078342",
+      "34525374",
+      "18638481",
+      "28124908",
+      "22210111",
+      "26186725",
+      "14691141",
+      "24452377",
+      "9786953",
+      "27410476",
+      "19278997",
+      "14702644",
+      "18056416",
+      "34411575",
+      "37874676",
+      "12422219",
+      "16934293",
+      "15465061",
+      "22777425",
+      "20605055",
+      "24714394",
+      "20947018",
+      "23389036",
+      "12782621",
+      "23726984",
+      "26523364",
+      "33262280",
+      "20599891",
+      "22334306",
+      "26634421",
+      "19297334",
+      "26156744",
+      "15103147",
+      "11555663",
+      "37218130",
+      "32605925",
+      "39903122",
+      "38513099",
+      "37866628",
+      "25754646",
+      "33288722",
+      "15037311",
+      "23375895",
+      "22826231",
+      "23023225",
+      "30003879",
+      "20150896",
+      "40310722",
+      "25488920",
+      "29170462",
+      "35245171",
+      "12422220",
+      "18282082",
+      "10413605",
+      "33046605",
+      "26283369",
+      "38587458",
+      "34473496",
+      "22030399",
+      "19176533",
+      "18363566",
+      "37339751",
+      "31339036",
+      "15728584",
+      "29341226",
+      "22433855",
+      "33783351",
+      "27380548",
+      "15623515",
+      "24047981",
+      "10497223",
+      "38123541",
+      "11382782",
+      "21926969",
+      "33277360",
+      "29434596",
+      "36074065",
+      "15988023",
+      "30028837",
+      "11279249",
+      "32992803"
+    ],
+    "review": [
+      "36814383",
+      "15037311",
+      "18363566"
+    ],
+    "pmc": [
+      "10111347"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(23)00126-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36814383/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36814383",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FAS-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-369",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

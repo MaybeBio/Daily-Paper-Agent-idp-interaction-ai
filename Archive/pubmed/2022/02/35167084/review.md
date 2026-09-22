@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or results sections were available for evaluation
+- **Shared manuscript claim summary** The authors argue that computational multiscale models, combined with network theory and free energy mapping, can capture helical conformational heterogeneity in amyloidogenic peptides (Abeta42 and alphaS) and predict aggregation propensity and resistance, with the specific prediction that terminal residues are key targets for modulating initial pathogenic aggregability.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, methods details, simulation parameters, validation data, and any quantitative results; without these, the predictive claims cannot be independently assessed
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting computational framework for studying helical intermediates in amyloid aggregation, a topic of relevance to AD and PD. However, the claims are broad and largely qualitative, and the evidence base is limited to the abstract alone. The central predictive claim regarding terminal residues is stated without supporting data or methodological detail, and the novelty relative to existing computational studies is not clearly established. The work may be of interest to specialists in computational biophysics and amyloid biology, but the current evidence does not substantiate the strength of the conclusions.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular modelers studying protein aggregation, as well as researchers in neurodegeneration interested in early conformational events in Abeta and alphaS. The proposed framework for mapping helical subspace and identifying aggregation drivers could inform future simulation-based screening or design studies.
+- **Major strengths** The topic addresses a genuine gap in understanding how helical conformers influence amyloid aggregation. The use of multiscale computational approaches and network theory is appropriate for capturing conformational heterogeneity. The abstract clearly identifies a testable prediction regarding terminal residues, which could guide experimental validation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "computational models can capture features that are otherwise imperceptible to experiments" and that "targeting terminal residues may allow modulation and control of initial pathogenic aggregability."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data, simulation details, or validation metrics to support the claim that the models capture experimentally imperceptible features. The prediction about terminal residues is presented as a conclusion, but no results are shown to demonstrate how this was derived or tested.
+  - **Why it matters** Without evidence, the central claims are assertions rather than findings. The scientific value of the work depends on demonstrating that the computational models are predictive and that the terminal residue hypothesis is supported by simulation or experimental comparison.
+  - **Resolution test** Provide specific results, such as free energy differences, network metrics, or comparative aggregation propensity scores, and show how these support the terminal residue prediction. Include validation against known experimental data where available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and positioning
+  - **Claim pointer** The abstract implies a novel computational framework for helical subspace analysis, but does not specify how it differs from existing methods.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not state what is new about the computational models or methods relative to prior work. Terms like "multiscale mapping" and "network theory" are generic, and the reader cannot assess whether the approach is a refinement, a combination, or a genuinely new methodology.
+  - **Why it matters** For a methods-oriented chapter, establishing novelty is essential. Without a clear differentiation, the contribution may be seen as incremental or redundant.
+  - **Resolution test** Explicitly describe the novel elements of the computational approach, such as new order parameters, improved sampling techniques, or unique integration of network metrics, and cite prior work to show the distinction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and transparency
+  - **Claim pointer** The abstract describes "extensive multiscale mapping of intrapeptide interactions" but provides no details on models, force fields, or simulation protocols.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract lacks any methodological specifics, making it impossible to reproduce or evaluate the simulations. This is particularly problematic for a chapter that presumably aims to provide "design rules and strategies."
+  - **Why it matters** Reproducibility is a core expectation in computational biology. Without model details, the work cannot be built upon or independently verified.
+  - **Resolution test** Include a methods summary in the abstract or ensure the full chapter provides complete simulation parameters, system setup, and analysis pipelines.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** "Helical subspace"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "helical subspace" is used repeatedly but not defined. It is unclear whether it refers to a conformational ensemble, a geometric phase space, or a specific computational construct.
+  - **Required correction** Define the term explicitly at first use, including its physical and computational meaning.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope of claims
+  - **Affected element** Generalization to "amyloidogenic peptides"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract generalizes findings from Abeta42 and alphaS to "amyloidogenic peptides" broadly, but only two systems are studied. This overgeneralization is not justified.
+  - **Required correction** Limit claims to the studied peptides or provide a rationale for why the findings are expected to generalize.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract structure
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract is dense and mixes background, methods, and conclusions without clear transitions, which may hinder nonspecialist readers.
+  - **Required correction** Restructure the abstract to separate background, approach, key findings, and implications in a more linear fashion.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical failings. The absence of any quantitative evidence for the central claims and the lack of clear novelty positioning prevent the case from being established from the provided material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The conceptual angle of focusing on helical intermediates is not new, but the specific combination of network theory and free energy mapping may have some originality. However, this is not demonstrated in the abstract.
+  - Scientific importance: The topic is important for understanding early events in amyloid aggregation, but the abstract does not show how the findings advance current knowledge beyond existing computational studies.
+  - Interdisciplinary readership: The abstract is likely accessible to computational biologists and biophysicists, but may be too technical for a broader biological audience without clearer framing.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail is a major limitation.
+  - Readability for nonspecialists: The abstract is dense and uses jargon without definition, which reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible framework and a testable hypothesis, but the absence of supporting data and methodological transparency means the claims cannot be evaluated. I would be supportive if the full manuscript provides quantitative results, validation, and a clear statement of novelty.
+
+## Risk / unsupported claims
+- The claim that computational models "can capture features that are otherwise imperceptible to experiments" is unsupported without validation data.
+- The prediction that "targeting terminal residues may allow modulation and control of initial pathogenic aggregability" is presented as a finding but is not backed by any shown results.
+- The generalization of findings from Abeta42 and alphaS to "amyloidogenic peptides" broadly is not justified.
+- The novelty of the computational approach relative to existing methods is not established.

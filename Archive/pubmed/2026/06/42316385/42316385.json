@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "42316385",
+    "doi": "10.1021/acs.jpcb.6c02030",
+    "title": "Disentangling Intrachain Folding from Interchain Assembly through Multidimensional Visualization."
+  },
+  "content": {
+    "abstract": "Characterizing the conformational landscapes of intrinsically disordered proteins is essential for elucidating their roles in health and disease, but remains challenging due to their structural heterogeneity. In this study, we introduce an enhanced algorithmic framework for the Energy Landscape Visualization Method (ELViM) that enables the simultaneous mapping of monomeric and oligomeric conformational spaces within a unified metric space. Unlike traditional reaction-coordinate-based approaches, this extended ELViM implementation employs a distance-based similarity metric and force projection embedding to generate low-dimensional representations that preserve high-dimensional structural relationships without predefined bias. We expanded the standard workflow by integrating a density-guided Local Conformational Signature analysis coupled with a new consensus interchain contact mapping protocol. This development allows for the systematic disentanglement of intrachain folding dynamics from the interchain assembly interactions that drive protein aggregation. Using replica exchange molecular dynamics data for a 19-residue fragment of the tau protein, we demonstrate the method's utility by comparing the conformational landscapes of the wild type and the aggregation-associated P301L mutant. ELViM effectively captures continuous conformational transitions and highlights key structural motifs, including the aggregation-prone PHF6 segment (VQIVYK). The analysis reveals how the P301L mutation acts as a structural stabilizer, shifting conformational preferences toward compact, preorganized ensembles with more persistent interchain contacts around PHF6. By providing a quantitative yet intuitive framework for exploring heterogeneous ensembles, this enhanced ELViM workflow offers broad applicability to studying folding landscapes, protein-protein interactions, and complex aggregation pathways.",
+    "keywords": [],
+    "mesh_terms": [
+      "Protein Folding",
+      "Molecular Dynamics Simulation",
+      "Algorithms",
+      "Protein Conformation",
+      "*Intrinsically Disordered Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sanches, Murilo N",
+        "Ganguly, Pritam",
+        "Shea, Joan-Emma",
+        "Leite, Vitor B P"
+      ],
+      "short_names": [
+        "Sanches MN",
+        "Ganguly P",
+        "Shea JE",
+        "Leite VBP"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9650-7989",
+        "ORCID: 0000-0002-6299-3111",
+        "ORCID: 0000-0002-9801-9273",
+        "ORCID: 0000-0003-0008-9079"
+      ],
+      "affiliations": [
+        "Department of Physics, Institute of Biosciences, Humanities and Exact Sciences, Sao Paulo State University (UNESP), Sao Jose do Rio Preto, Sao Paulo 15054-000, Brazil.",
+        "School of Chemistry and Materials Science, Rochester Institute of Technology, Rochester, New York 14623, United States.",
+        "Department of Chemistry and Biochemistry, University of California, Santa Barbara, California 93106, United States.",
+        "Department of Physics, University of California, Santa Barbara, California 93106, United States.",
+        "Institute of Chemistry, Sao Paulo State University (Unesp), Araraquara, SP 14800-060, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sanches, Murilo N",
+        "short_name": "Sanches MN",
+        "identifiers": [
+          "0000-0001-9650-7989"
+        ],
+        "affiliations": [
+          "Department of Physics, Institute of Biosciences, Humanities and Exact Sciences, São Paulo State University (UNESP), São José do Rio Preto, São Paulo 15054-000, Brazil."
+        ]
+      },
+      {
+        "full_name": "Ganguly, Pritam",
+        "short_name": "Ganguly P",
+        "identifiers": [
+          "0000-0002-6299-3111"
+        ],
+        "affiliations": [
+          "School of Chemistry and Materials Science, Rochester Institute of Technology, Rochester, New York 14623, United States."
+        ]
+      },
+      {
+        "full_name": "Shea, Joan-Emma",
+        "short_name": "Shea JE",
+        "identifiers": [
+          "0000-0002-9801-9273"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, Santa Barbara, California 93106, United States.",
+          "Department of Physics, University of California, Santa Barbara, California 93106, United States."
+        ]
+      },
+      {
+        "full_name": "Leite, Vitor B P",
+        "short_name": "Leite VBP",
+        "identifiers": [
+          "0000-0003-0008-9079"
+        ],
+        "affiliations": [
+          "Institute of Chemistry, São Paulo State University (Unesp), Araraquara, SP 14800-060, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 Jul 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/19 06:32",
+    "fetched_at": "2026-09-18 04:11:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40892043",
+      "40569578",
+      "40294272",
+      "38713459",
+      "38568974",
+      "38506664",
+      "37152607",
+      "36712347",
+      "35476504",
+      "35392986",
+      "34588692",
+      "33871257",
+      "33543942",
+      "32816481",
+      "32623047",
+      "32096046",
+      "32050258",
+      "32015543",
+      "31618581",
+      "29273078",
+      "27819658",
+      "27154059",
+      "26620784",
+      "25999294",
+      "25789869",
+      "25775228",
+      "24889800",
+      "23951348",
+      "22762014",
+      "18688361",
+      "11114172",
+      "9895674"
+    ],
+    "similar": [
+      "42316385",
+      "38506664",
+      "42475469",
+      "40042172",
+      "33871257",
+      "40768165",
+      "38018910",
+      "41129692",
+      "23912807",
+      "41851975",
+      "37122117",
+      "42129207",
+      "34358545",
+      "31618581",
+      "41137856",
+      "41803440",
+      "22506277",
+      "30840442",
+      "41519344",
+      "32486218",
+      "37606640",
+      "35658083",
+      "25897952",
+      "40521689",
+      "28970487",
+      "34845619",
+      "31241933",
+      "38892222",
+      "37241789",
+      "36934808",
+      "33550810",
+      "41644540",
+      "41088757",
+      "31661961",
+      "29501958",
+      "40308178",
+      "30979035",
+      "41981770",
+      "41889760",
+      "32623047",
+      "24089719",
+      "39952928",
+      "42578546",
+      "34680137",
+      "41259435",
+      "30362738",
+      "40907012",
+      "33382616",
+      "23607785",
+      "35167081",
+      "28914483",
+      "41493397",
+      "32693598",
+      "34968059",
+      "30708285",
+      "36310204",
+      "26052838",
+      "39285530",
+      "42340349",
+      "24995857",
+      "37646172",
+      "36346711",
+      "40198698",
+      "23811057",
+      "41250810",
+      "25691742",
+      "30204435",
+      "33355572",
+      "36791464",
+      "32579908",
+      "39862593",
+      "34494046",
+      "42299954",
+      "25625937",
+      "24565158",
+      "30091924",
+      "40133775",
+      "41706900",
+      "34966788",
+      "30909517",
+      "35129612",
+      "31756104",
+      "30771181",
+      "40960922",
+      "38065428",
+      "26922996",
+      "23917881",
+      "27844185",
+      "26807783",
+      "29185737",
+      "33567297",
+      "40958150",
+      "30195312",
+      "36987865",
+      "27819658",
+      "38713459",
+      "33230318",
+      "37338049",
+      "34680048",
+      "42361232"
+    ],
+    "review": [
+      "42316385",
+      "34358545",
+      "41803440",
+      "30840442",
+      "37241789",
+      "33550810",
+      "30979035",
+      "33355572",
+      "25625937",
+      "30909517",
+      "35129612",
+      "26922996",
+      "26807783",
+      "33567297"
+    ],
+    "pmc": [
+      "13339632"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42316385/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.6c02030",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

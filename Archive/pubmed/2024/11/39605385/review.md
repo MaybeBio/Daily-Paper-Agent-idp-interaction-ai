@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv, 2024)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no external validation performed
+- **Shared manuscript claim summary** The authors present iConRNA, a coarse-grained RNA model with explicit Mg2+ ions, and claim it captures sequence-, concentration-, temperature-, and ion-dependent phase separation of RNA homopolymers and triplet repeats, revealing that RNA folding coordinates Mg2+-phosphate interactions, base stacking, and base pairing to drive condensation.
+- **Visible evidence base** Main text, figures referenced (Figures 1–7, S1–S16), tables referenced (S1–S13), equations (1)–(15), methods section
+- **Missing materials affecting confidence** Figures and tables not provided in the submitted material; supplementary information not available; no simulation parameter files or trajectory data; no experimental datasets for direct comparison beyond literature citations
+
+## Reviewer
+- **Overall assessment** The manuscript describes a substantial methodological advance in coarse-grained RNA modeling, with a carefully constructed model that explicitly treats Mg2+ ions and demonstrates broad applicability to RNA phase separation. The authors present a systematic parameterization strategy and validate the model against multiple experimental observables. However, the absence of the actual figures and tables in the provided material limits the ability to fully assess the quantitative claims. The model's limitations, particularly regarding non-canonical base pairing and the empirical nature of the Mg2+ interaction scaling, are acknowledged but may affect the generality of the conclusions. The central claim that RNA folding coordinates multiple interaction types to drive phase separation is plausible and well-supported by the described analyses, though the evidence for this claim cannot be fully verified without the figures.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular phase separation, RNA biology, computational biophysics, and coarse-grained modeling. The model provides a tool for studying RNA-mediated condensation in contexts such as neurological disorders involving triplet repeat expansions, and the parameterization framework for Mg2+ interactions could be adapted by others developing nucleic acid models.
+- **Major strengths** 1) The model resolution (6–7 beads per nucleotide) represents a useful middle ground between single-bead models and atomistic simulations, enabling both structural fidelity and access to phase separation length and time scales. 2) The explicit treatment of Mg2+ with a systematic parameterization protocol based on measurable quantities (ΔnMg) is a notable advance over mean-field electrostatics. 3) The model is validated against multiple independent experimental datasets, including conformational properties, melting temperatures, and phase diagrams. 4) The analysis of driving forces within condensates provides mechanistic insight into how RNA folding modulates phase behavior.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that iConRNA "recapitulates a wide range of sequence, length, Mg2+ and temperature dependence of the phase separation of RNA homopolymers and triplet repeats" (Introduction, Results)
+  - **Evidence pointer** Figures 6, 7, S14–S16; Tables S4, S12, S13; location not provided
+  - **Concern** The quantitative agreement between simulation and experiment for phase diagrams is stated as "excellent" for (CAG)31, but the actual data are not visible in the provided material. The text mentions a slight overestimation of critical temperature at low Mg2+ and underestimation at high Mg2+, but the magnitude of these deviations is not quantified. Without the figures, it is impossible to assess whether the agreement is within statistical uncertainty or if systematic biases exist. Additionally, the claim that (CAG)10 does not phase separate under any conditions tested is based on simulations that may not have reached equilibrium, given the known slow dynamics of phase separation processes.
+  - **Why it matters** The central validation of the model rests on quantitative reproduction of experimental phase diagrams. If the deviations are large or systematic, the model's predictive power for other RNA sequences is questionable. The equilibrium status of the negative results for (CAG)10 is critical for the interpretation of length dependence.
+  - **Resolution test** Provide the actual phase diagrams with error bars from replicate simulations, overlay experimental data points, and report quantitative metrics of agreement (e.g., RMSD in critical temperatures). For negative results, show that simulations have reached equilibrium (e.g., stable cluster size distributions over extended timescales, multiple independent starting configurations converging).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the temperature dependence of Mg2+ binding is captured by a linear relationship (Eqn. 14, 15) and applied to all subsequent simulations
+  - **Evidence pointer** Figure 5C–D; location not provided
+  - **Concern** The linear relationship between ΔnMg and temperature is derived from simulations of a single sequence, (CAG)10, under a single salt condition (25 mM NaCl, 50 mM MgCl2). The authors state this relationship "should roughly hold for all RNAs," but this generalization is not tested. The Mg2+ binding affinity of RNA is known to depend strongly on sequence, structure, and the presence of competing ions. Applying a single linear correction to all sequences and conditions may introduce systematic errors, particularly for sequences with different base compositions or structural propensities.
+  - **Why it matters** The temperature dependence of λP-Mg is a key input for all phase separation simulations. If the linear relationship is not transferable, the predicted phase diagrams for sequences other than (CAG)10 could be systematically biased, undermining the generality of the conclusions.
+  - **Resolution test** Validate the linear relationship for at least one additional sequence (e.g., rA30 or CUG repeats) and at least one additional salt condition. Alternatively, provide a physical argument or theoretical justification for why the relationship should be sequence-independent.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that "RNA folding has a central role in controlling the competition between intramolecular and intermolecular base pairing" and that this is "a key process underlying the complex temperature and Mg2+-dependence of the phase diagram and likely gelation and reversibility" (Discussion)
+  - **Evidence pointer** Figure 7C–D; location not provided
+  - **Concern** The analysis of driving forces is largely based on contact statistics within condensates at different temperatures. While the observation that intermolecular base pairing increases above the melting temperature is interesting, the causal link between RNA folding and phase behavior is inferred rather than directly demonstrated. The authors do not perform perturbations (e.g., mutations that disrupt folding, or simulations with base pairing disabled) to test whether the proposed mechanism is necessary or sufficient. The claim that gelation is driven by this mechanism is speculative, as the simulations are acknowledged to be too short to observe gelation directly.
+  - **Why it matters** The mechanistic insight is presented as a key outcome of the work. If the causal role of RNA folding is not rigorously established, the conclusions overreach the evidence.
+  - **Resolution test** Perform additional simulations with modified base pairing strengths or with sequences designed to have different folding propensities, and show that phase behavior changes in the predicted direction. Alternatively, soften the causal language and present the mechanism as a hypothesis supported by correlative evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Results
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript uses several acronyms and terms without definition on first use (e.g., "LCST," "HyRes," "Martini-RNA," "COCOMO," "Mpipi"). Some background on coarse-grained modeling approaches would help readers outside the immediate simulation community.
+  - **Required correction** Define all acronyms at first use and add a brief paragraph in the Introduction explaining the landscape of RNA coarse-grained models and where iConRNA fits.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, CG simulation protocols
+  - **Evidence pointer** Location not provided
+  - **Issue** The time step for CG simulations is not stated. Given that the model uses 6–7 beads per nucleotide and explicit Mg2+, the stable time step is a relevant technical detail that affects the reliability of the reported timescales.
+  - **Required correction** Report the integration time step and any constraints applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Model parameterization and validation
+  - **Evidence pointer** Figure 3C; location not provided
+  - **Issue** The statement that iConRNA "can basically predict the hairpin structures with A-form-like helices" for a set of small RNAs is vague. The RMSD values are only given for CAG and CUG, and the criteria for "basically predict" are not defined.
+  - **Required correction** Provide quantitative metrics for all tested structures (e.g., RMSD, fraction of native contacts) and define a threshold for successful prediction.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of implications for cellular RNA foci is brief and does not address how the model could be extended to heterotypic RNA-protein systems, despite the stated potential for such applications.
+  - **Required correction** Expand the discussion of future directions, including specific challenges for modeling RNA-protein phase separation and how iConRNA could be integrated with protein coarse-grained models.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative validation of phase diagrams not verifiable without figures), R1-M2 (generalization of temperature-dependent Mg2+ scaling not tested)
+- **Assessment against Nature-style criteria** Originality: The model is a novel contribution, combining intermediate resolution with explicit Mg2+ treatment in a way not previously demonstrated for RNA phase separation. Scientific importance: The work addresses a significant gap in understanding RNA-driven condensation, with implications for disease mechanisms. Interdisciplinary readership: The topic bridges biophysics, computational chemistry, and RNA biology, and the writing is largely accessible, though some jargon may limit broader readership. Technical soundness: The parameterization strategy is logical and the validation approach is appropriate, but the unverifiable figures and untested generalization of the Mg2+ scaling are concerns. Readability for nonspecialists: The manuscript is generally well-organized, but the Introduction assumes familiarity with coarse-grained modeling and phase separation concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The model is a valuable contribution, and the described validation is promising. However, the quantitative evidence for the central claims must be verifiable, and the generalization of the Mg2+ temperature scaling must be tested or justified before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that the linear temperature dependence of ΔnMg "should roughly hold for all RNAs" is unsupported, as it is derived from a single sequence and salt condition.
+- The claim that condensates undergo "arresting and aging to gel" is not directly supported by simulation data, as the authors acknowledge the simulations are too short to observe gelation.
+- The statement that iConRNA "may provide a powerful tool for studying RNA-mediated phase separation in relevant biological contexts" is forward-looking but not demonstrated in this work.
+- The quantitative agreement between simulated and experimental phase diagrams cannot be assessed without the figures.
+- The claim that "RNA folding has a central role" in driving phase separation is supported by correlative evidence but not by causal perturbation experiments.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37823961",
+  "title": "Docosahexaenoic acid promotes vesicle clustering mediated by alpha-Synuclein via electrostatic interaction.",
+  "authors": "Tyoe, Owen; Aryal, Chinta; Diao, Jiajie",
+  "journal": "The European physical journal. E, Soft matter",
+  "published_date": "2023-10-12",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过分子动力学模拟研究DHA如何通过静电相互作用增强alpha-Synuclein（IDP）介导的突触囊泡聚集，聚焦无序蛋白-膜/囊泡互作机制，方法为物理模拟，与本课题高度相关。",
+  "abstract": "alpha-Synuclein (alpha-Syn) is an intrinsically disordered protein whose aggregation is associated with Parkinson's disease, dementia, and other neurodegenerative diseases known as synucleinopathies. However, the functional role of alpha-Syn is still unclear, although it has been shown to be involved in the regulation of neurotransmitter release via the interaction with synaptic vesicles (SVs), vesicle clustering, and SNARE complex assembly. Fatty acids have significant occupancy in synaptic vesicles; and recent studies suggest the interaction of fatty acids with alpha-Syn affect the formation of (pathological) aggregates, but it is less clear how fatty acids affects the functional role of alpha-Syn including alpha-Syn-membrane interactions, in particular with (SV-like) vesicles. Here, we report the concentration dependent effect of docosahexaenoic acid (DHA) in synaptic-like vesicle clustering via alpha-Syn interaction. Through molecular dynamics simulation, we revealed that DHA promoted vesicle clustering is due to the electrostatic interaction between DHA in the membrane and the N-terminal region of alpha-Syn. Moreover, this increased electrostatic interaction arises from a change in the macroscopic properties of the protein-membrane interface induced by (preferential solvation of) DHA. Our results provide insight as to how DHA regulates vesicle clustering mediated by alpha-Syn and may further be useful to understand its physiological as well as pathological role. Description: In physiological environments, alpha-Synuclein (alpha-Syn) localizes at nerve termini and synaptic vesicles and interacts with anionic phospholipid membranes to promote vesicle clustering. Docosahexaenoic acid (DHA) increases binding affinity between alpha-Syn and lipid membranes by increasing electrostatic interaction energy through modulating the local and global membrane environment and conformational properties of alpha-Syn.",
+  "abstract_zh": "α-突触核蛋白（alpha-Syn）是一种 intrinsically disordered protein，其聚集与帕金森病、痴呆及其他被称为 synucleinopathies 的神经退行性疾病相关。然而，alpha-Syn 的功能作用仍不清楚，尽管已有研究表明其通过与突触囊泡（SVs）的相互作用、囊泡聚集及 SNARE 复合体组装参与神经递质释放的调控。脂肪酸在突触囊泡中占据显著比例；近期研究提示，脂肪酸与 alpha-Syn 的相互作用影响（病理性）聚集体的形成，但脂肪酸如何影响 alpha-Syn 的功能作用，包括 alpha-Syn-膜相互作用，尤其是与（SV样）囊泡的相互作用，尚不明确。在此，我们报道了二十二碳六烯酸（DHA）通过 alpha-Syn 相互作用对突触样囊泡聚集的浓度依赖性效应。通过分子动力学模拟，我们揭示 DHA 促进囊泡聚集是由于膜中 DHA 与 alpha-Syn 的 N-末端区域之间的静电相互作用。此外，这种增强的静电相互作用源于 DHA（的优先溶剂化）诱导的蛋白质-膜界面宏观性质的变化。我们的结果提供了关于 DHA 如何调控 alpha-Syn 介导的囊泡聚集的见解，并可能进一步有助于理解其生理及病理作用。描述：在生理环境中，alpha-突触核蛋白（alpha-Syn）定位于神经末梢和突触囊泡，并与阴离子磷脂膜相互作用以促进囊泡聚集。二十二碳六烯酸（DHA）通过调节局部和整体膜环境及 alpha-Syn 的构象特性，增加静电相互作用能，从而提高 alpha-Syn 与脂质膜之间的结合亲和力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37823961/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37823961/",
+  "paper_page_path": "papers/pubmed/37823961/index.html"
+}

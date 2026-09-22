@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "39755246",
+    "doi": "10.1016/j.jmb.2024.168933",
+    "title": "The RNA-Binding Properties of Annexins."
+  },
+  "content": {
+    "abstract": "Annexins are a family of calcium-dependent phospholipid-binding proteins involved in crucial cellular processes such as cell division, calcium signaling, vesicle trafficking, membrane repair, and apoptosis. In addition to these properties, Annexins have also been shown to bind RNA, although this function is not universally recognized. In the attempt to clarify this important issue, we employed an integrated combination of experimental and computational approaches. Using the catRAPID algorithm, we accurately predicted known RNA-binding partners of Annexins, supported by experimental validation. We then constructed a virtual library of potential mRNA partners for Annexin A2, identifying regions within its structure directly involved in RNA binding. Beyond RNA interaction, some Annexins, notably AnxA7 and AnxA11, exhibit strong phase separation tendencies driven by their N-termini. These biophysical properties likely play roles in RNA trafficking and localization particularly in neurons, where they may influence processes such as synaptic plasticity, learning, and memory. Our predictions contribute to a deeper understanding of the Annexin function, emphasizing their potential impact on RNA regulation and cellular compartmentalization through phase separation and propose a powerful computational tool for the prediction of RNA-binding properties.",
+    "keywords": [
+      "RNA binding proteins",
+      "annexins",
+      "calcium binding proteins",
+      "membranes",
+      "protein aggregation"
+    ],
+    "mesh_terms": [
+      "*Annexins/metabolism/chemistry",
+      "Humans",
+      "Protein Binding",
+      "*RNA-Binding Proteins/metabolism/chemistry",
+      "*RNA/metabolism",
+      "*RNA, Messenger/metabolism",
+      "Animals"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tartaglia, Gian Gaetano",
+        "Hollas, Hanne",
+        "Havik, Bjarte",
+        "Vedeler, Anni",
+        "Pastore, Annalisa"
+      ],
+      "short_names": [
+        "Tartaglia GG",
+        "Hollas H",
+        "Havik B",
+        "Vedeler A",
+        "Pastore A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Center for Human Technologies, Istituto Italiano di Tecnologia, Via Enrico Melen, 83, 16152 Genova, Italy. Electronic address: gian.tartaglia@iit.it.",
+        "Department of Biomedicine, University of Bergen, Jonas Lies vei 91, 5009 Bergen, Norway.",
+        "Western Norway University of Applied Sciences, Inndalsveien 28, 5063 Bergen, Norway.",
+        "Neurotargeting Group, Department of Biomedicine, University of Bergen, Jonas Lies vei 91, Bergen, Norway. Electronic address: anni.vedeler@uib.no.",
+        "Elettra Sincrotrone Trieste, Strada Statale 14 - km 163, 5 in AREA Science Park 34149 Basovizza, ITALY; The Wohl Institute, King's College London, 5 Cutcombe Rd, SW59RT London, UK. Electronic address: annalisa.1.pastore@kcl.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tartaglia, Gian Gaetano",
+        "short_name": "Tartaglia GG",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Human Technologies, Istituto Italiano di Tecnologia, Via Enrico Melen, 83, 16152 Genova, Italy. Electronic address: gian.tartaglia@iit.it."
+        ]
+      },
+      {
+        "full_name": "Hollås, Hanne",
+        "short_name": "Hollås H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, University of Bergen, Jonas Lies vei 91, 5009 Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Håvik, Bjarte",
+        "short_name": "Håvik B",
+        "identifiers": [],
+        "affiliations": [
+          "Western Norway University of Applied Sciences, Inndalsveien 28, 5063 Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Vedeler, Anni",
+        "short_name": "Vedeler A",
+        "identifiers": [],
+        "affiliations": [
+          "Neurotargeting Group, Department of Biomedicine, University of Bergen, Jonas Lies vei 91, Bergen, Norway. Electronic address: anni.vedeler@uib.no."
+        ]
+      },
+      {
+        "full_name": "Pastore, Annalisa",
+        "short_name": "Pastore A",
+        "identifiers": [],
+        "affiliations": [
+          "Elettra Sincrotrone Trieste, Strada Statale 14 - km 163, 5 in AREA Science Park 34149 Basovizza, ITALY; The Wohl Institute, King's College London, 5 Cutcombe Rd, SW59RT London, UK. Electronic address: annalisa.1.pastore@kcl.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2025 Feb 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/05 06:13",
+    "fetched_at": "2026-09-21 14:19:10"
+  },
+  "links": {
+    "cites": [
+      "42414528",
+      "41280092",
+      "40506619",
+      "40350993"
+    ],
+    "refs": [],
+    "similar": [
+      "39755246",
+      "40350993",
+      "15723527",
+      "15169834",
+      "37397259",
+      "11322769",
+      "15813707",
+      "40650293",
+      "18795951",
+      "8395183",
+      "41087162",
+      "16331990",
+      "42364743",
+      "23912807",
+      "10191502",
+      "24508622",
+      "10958928",
+      "11099380",
+      "19046974",
+      "27318360",
+      "32344647",
+      "9515022",
+      "42475469",
+      "7947730",
+      "10701682",
+      "41911992",
+      "32824294",
+      "11917092",
+      "27071553",
+      "23715859",
+      "29985397",
+      "16857011",
+      "12689336",
+      "16914198",
+      "9920421",
+      "9918500",
+      "8260506",
+      "9918499",
+      "25033542",
+      "17824845",
+      "32306365",
+      "10080701",
+      "8012762",
+      "41495810",
+      "31539493",
+      "8742715",
+      "14644162",
+      "17355882",
+      "15721859",
+      "2141610",
+      "16086593",
+      "9165068",
+      "11530022",
+      "16229469",
+      "33496727",
+      "29757220",
+      "17267400",
+      "29408340",
+      "28422051",
+      "18795952",
+      "1532182",
+      "26724928",
+      "15260827",
+      "18378486",
+      "20093729",
+      "2138016",
+      "14506282",
+      "19388055",
+      "31978946",
+      "18441010",
+      "1826088",
+      "11108961",
+      "28349426",
+      "22694075",
+      "8373720",
+      "23131771",
+      "9461492",
+      "33557917",
+      "36108355",
+      "22994944",
+      "33087501",
+      "30610115",
+      "11310969",
+      "19421430",
+      "11401549",
+      "15336964",
+      "21131363",
+      "11108963",
+      "29567212",
+      "31474227",
+      "12805373",
+      "8002935",
+      "7477411",
+      "12507908",
+      "40506619",
+      "18000301",
+      "19386597",
+      "29594868",
+      "37218507",
+      "9191044"
+    ],
+    "review": [
+      "39755246",
+      "40350993",
+      "15169834",
+      "40650293",
+      "18795951",
+      "41087162",
+      "10191502",
+      "24508622",
+      "10958928",
+      "27318360",
+      "32824294",
+      "11917092",
+      "27071553",
+      "9918500",
+      "9918499",
+      "25033542",
+      "41495810",
+      "15721859",
+      "9165068",
+      "29757220",
+      "29408340",
+      "28422051",
+      "18795952",
+      "15260827",
+      "31978946",
+      "22694075",
+      "8373720",
+      "36108355",
+      "22994944",
+      "19421430",
+      "15336964",
+      "12507908",
+      "40506619",
+      "29594868",
+      "37218507"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(24)00563-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1385",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

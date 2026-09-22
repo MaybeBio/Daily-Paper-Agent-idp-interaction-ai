@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33629837",
+  "title": "Biophysics of Phase Separation of Disordered Proteins Is Governed by Balance between Short- And Long-Range Interactions.",
+  "authors": "Hazra, Milan Kumar; Levy, Yaakov",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-02-26",
+  "window": {
+    "start": "2021-02-22",
+    "end": "2021-02-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟系统研究无序蛋白序列中短程与长程相互作用平衡如何调控相分离凝聚体的稳定性与液态动力学，直接聚焦IDP相分离的互作机制建模，方法为物理模拟，与本课题高度契合。",
+  "abstract": "Intrinsically disordered proteins play a crucial role in cellular phase separation, yet the diverse molecular forces driving phase separation are not fully understood. It is of utmost importance to understand how peptide sequence, and particularly the balance between the peptides' short- and long-range interactions with other peptides, may affect the stability, structure, and dynamics of liquid-liquid phase separation in protein condensates. Here, using coarse-grained molecular dynamics simulations, we studied the liquid properties of the condensate in a series of polymers in which the ratio of short-range dispersion interactions to long-range electrostatic interactions varied. As the fraction of mutations that participate in short-range interactions increases at the expense of long-range electrostatic interactions, a significant decrease in the critical temperature of phase separation is observed. Nevertheless, sequences with a high fraction of short-range interactions exhibit stabilization, which suggests compensation for the loss of long-range electrostatic interactions. Decreased condensate stability is coupled with decreased translational diffusion of the polymers in the condensate, which may result in the loss of liquid characteristics in the presence of a high fraction of uncharged residues. The effect of exchanging long-range electrostatic interactions for short-range interactions can be explained by the kinetics of breaking intermolecular contacts with neighboring polymers and the kinetics of intramolecular fluctuations. While both time scales are coupled and increase as electrostatic interactions are lost, for sequences that are dominated by short-range interactions, the kinetics of intermolecular contact breakage significantly slows down. Our study supports the contention that different types of interactions can maintain protein condensates, however, long-range electrostatic interactions enhance its liquid-like behavior.",
+  "abstract_zh": "intrinsically disordered proteins（固有无序蛋白）在细胞相分离中扮演关键角色，然而驱动相分离的多种分子力尚未完全理解。理解肽序列，特别是肽与其他肽之间短程和长程相互作用的平衡，如何影响蛋白质凝聚体中液-液相分离的稳定性、结构和动力学，至关重要。在此，我们使用粗粒化分子动力学模拟，研究了一系列聚合物中凝聚体的液体性质，其中短程分散相互作用与长程静电相互作用的比率有所变化。随着参与短程相互作用的突变比例增加，以牺牲长程静电相互作用为代价，观察到相分离临界温度显著下降。尽管如此，具有高比例短程相互作用的序列表现出稳定性增强，这表明对长程静电相互作用损失的补偿。凝聚体稳定性降低与聚合物在凝聚体中平移扩散减少相耦合，这可能在高比例不带电残基存在时导致液体特性丧失。将长程静电相互作用交换为短程相互作用的效果，可以通过与相邻聚合物断裂分子间接触的动力学以及分子内波动的动力学来解释。虽然这两个时间尺度相互耦合，并随着静电相互作用的丧失而增加，但对于以短程相互作用为主的序列，分子间接触断裂的动力学显著减慢。我们的研究支持不同种类的相互作用可以维持蛋白质凝聚体的观点，然而，长程静电相互作用增强了其液体样行为。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33629837/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33629837/",
+  "paper_page_path": "papers/pubmed/33629837/index.html"
+}

@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and supplementary material references
+- **Assessment boundary** Scientific content, methodological rigor, claims versus evidence, and alignment with Nature-style criteria. Editorial decisions and journal fit are outside the scope.
+- **Shared manuscript claim summary** The authors propose a "molecular grammar" linking sequence-encoded protein-RNA interactions and protein stoichiometry to the emergent morphology of multiphase condensates. Using residue-level coarse-grained simulations of a two-domain (H and L) protein with RNA, they report spontaneous formation of hollow, vesicle-like condensates from well-mixed initial conditions, and rationalize the observed morphological progression (micelles, cylinders, vesicles, inverse phases) via an amphiphile packing-parameter framework.
+- **Visible evidence base** Abstract, full introduction, full methods (model description, simulation protocol), full results (three systems A, B, C; stoichiometry sweeps; density and chain length studies), full discussion. Figures are referenced but not provided. Supplementary tables (S1-S4) and figures (S1-S6) are referenced but not provided.
+- **Missing materials affecting confidence** All figures and supplementary materials are absent. This includes the central morphological data (Figure 1), the stoichiometry sweeps (Figures 2-4), the density and chain length results (Figure 5), and the convergence checks (Figure S1). Without these, the core claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually appealing and potentially significant framework for understanding multiphase protein-RNA condensate morphology. The amphiphile packing-parameter analogy is elegant and could unify diverse experimental observations. However, the evidence base available for review is severely incomplete. All figures and supplementary materials are missing, which prevents verification of the central claims regarding vesicle formation, morphological progression, and the proposed grammar. The methods are described in sufficient detail to assess feasibility, but the results cannot be evaluated. The manuscript is well-written and the conceptual framing is strong, but the scientific case is currently not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in biomolecular condensates, phase separation, membraneless organelles, and RNA biology would be the primary audience. The work also has relevance for the soft matter and self-assembly communities, particularly those interested in amphiphilic systems and vesicle formation. The proposed design rules could inform experimental efforts in in vitro reconstitution and synthetic biology, making the work of interest to a broad interdisciplinary readership.
+- **Major strengths**
+  - The conceptual framework linking protein-RNA condensate morphology to amphiphile packing parameters is novel and potentially unifying.
+  - The systematic exploration of three interaction regimes (A, B, C) provides a clear and logical structure.
+  - The claim that vesicles form spontaneously from well-mixed, charge-balanced conditions distinguishes this mechanism from previously proposed routes and is scientifically important if substantiated.
+  - The use of a validated coarse-grained model (CALVADOS-2) lends credibility to the methodology.
+  - The discussion of limitations (e.g., size selection not quantified) is honest and appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The central claim that "vesicular condensates form spontaneously from well-mixed initial conditions" and that the full morphological progression (micelles, cylinders, vesicles, inverse phases) is observed.
+  - **Evidence pointer** Figures 1-5, Figures S1-S6, Tables S2-S4. Location not provided.
+  - **Concern** The core results are entirely contained in figures and supplementary materials that were not provided for review. Without the actual simulation snapshots, radial distribution functions, and morphological classifications, the central claims cannot be verified. The text describes the observations but provides no quantitative data (e.g., RDF peak positions, vesicle radii, contact numbers) that could be independently assessed.
+  - **Why it matters** The entire scientific case rests on the morphological assignments and the claimed progression. If the figures reveal ambiguous morphologies, small vesicle populations, or alternative interpretations, the conclusions would be substantially weakened. The review cannot proceed without this evidence.
+  - **Resolution test** Provide all figures and supplementary materials. The reviewer must be able to see representative simulation snapshots, RDFs for each system and stoichiometry, the convergence criteria (Figure S1), and the quantitative contact analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The claim that the protein-RNA complex "behaves as a single-chain amphiphile whose effective packing parameter is set by Domain H/L stoichiometry."
+  - **Evidence pointer** Results sections "Protein Sequence Grammar Dictates Multiphase Condensate Architecture" and "Stoichiometry of Protein Governs Multiphase Condensate Formation". Location not provided.
+  - **Concern** The amphiphile analogy is the central organizing principle of the paper, but the evidence linking the observed morphologies to a specific packing parameter is not presented in the text. The authors state that the morphological progression "traces out the classical hierarchy" but do not provide a quantitative mapping between H/L stoichiometry and packing parameter values. The W̅ metric is introduced as a scalar descriptor, but its relationship to the packing parameter is not established.
+  - **Why it matters** The packing-parameter framework makes specific predictions about which morphologies should occur at which stoichiometries. Without a quantitative comparison between the simulation results and the theoretical predictions, the analogy remains qualitative and the claim of a "molecular grammar" is not fully substantiated.
+  - **Resolution test** Provide a quantitative analysis linking H/L stoichiometry to the effective packing parameter, and show that the observed morphological transitions occur at the predicted stoichiometric boundaries. Alternatively, provide a clear argument for why a quantitative mapping is not necessary.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological robustness
+  - **Claim pointer** The claim that "the present simulations identify the topology of the assembled state but do not quantify its size selection" and that the observed morphologies are stable and converged.
+  - **Evidence pointer** Methods section "Molecular Simulations", Results section "Influence of Density and Chain Length on Multiphase Vesicle Formation", Figure S1. Location not provided.
+  - **Concern** The simulation protocol involves a box expansion step "to suppress periodic-image interactions that would otherwise favor lamellar phases over closed vesicles." This is a significant intervention that could bias the system toward vesicle formation. The authors do not provide a control simulation without this expansion to demonstrate that vesicles form spontaneously under standard periodic boundary conditions. Additionally, the convergence criteria are only described qualitatively ("monitoring the time evolution of the RDFs"), and the actual convergence data are in Figure S1, which is not provided.
+  - **Why it matters** If the box expansion artificially stabilizes vesicles, the claim of spontaneous vesicle formation from well-mixed conditions would be compromised. The convergence assessment is critical for establishing that the reported morphologies are equilibrium structures rather than kinetic traps.
+  - **Resolution test** Provide control simulations without the box expansion step. Provide the convergence data (Figure S1) showing that RDFs are stable over extended time. If the box expansion is necessary, provide a justification for why it does not bias the final morphology.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The claim that the identified "molecular grammar" provides "simple design rules that link molecular grammar, stoichiometry, density, and chain length to condensate architecture."
+  - **Evidence pointer** Results sections, Discussion. Location not provided.
+  - **Concern** The study uses a single protein design (two-domain H-L) with a limited set of amino acid substitutions to realize the three interaction regimes. The generality of the proposed grammar is asserted but not tested. For example, would the same grammar hold for proteins with different domain architectures, different RNA sequences, or different interaction chemistries? The authors acknowledge that multi-block architectures are beyond the current scope, but this limits the strength of the "grammar" claim.
+  - **Why it matters** A "grammar" implies a set of rules that can predict outcomes across a range of inputs. If the rules only apply to the specific sequences tested, the claim is overstated.
+  - **Resolution test** Provide additional simulations with varied domain architectures (e.g., reversed H-L order, different block lengths, multiple alternating blocks) to demonstrate the predictive power of the proposed grammar.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Residue-Resolution Coarse-Grained Model"
+  - **Evidence pointer** Equations 1-5. Location not provided.
+  - **Issue** The description of the W̅ metric (equation 6) is clear, but the choice of integration window [r_min, r_max] is described only as "bracketing the principal correlation shells." The sensitivity of the results to this choice is not discussed.
+  - **Required correction** Provide a brief sensitivity analysis or a justification for the chosen window.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Protein Sequence Grammar Dictates Multiphase Condensate Architecture"
+  - **Evidence pointer** Table S2. Location not provided.
+  - **Issue** The authors state that amino acid compositions are selected to realize targeted interaction profiles, but the specific sequences are only in Table S2, which is not provided. Without the sequences, the reader cannot assess whether the design choices are reasonable.
+  - **Required correction** Include the sequences in the main text or ensure Table S2 is available.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 1. Location not provided.
+  - **Issue** The statement that "the minima in W̅ that coincide with vesicle-forming compositions are then naturally read as a measure of how cleanly the bilayer-like midplane is resolved" is speculative. The connection between W̅ and bilayer resolution is not established.
+  - **Required correction** Either provide evidence for this interpretation or soften the claim.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 3. Location not provided.
+  - **Issue** The introduction cites several experimental studies of multiphase condensates but does not clearly state how the present simulation study goes beyond or complements these experimental observations beyond the general claim of providing a "molecular grammar."
+  - **Required correction** Add a sentence explicitly stating what new predictive capability the simulation framework provides relative to existing experimental knowledge.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1 (missing figures and data) is the primary blocking issue.
+  - R1-M2 (lack of quantitative packing-parameter mapping) is a significant gap.
+  - R1-M3 (box expansion protocol) requires clarification and control simulations.
+- **Assessment against Nature-style criteria**
+  - **Originality** The amphiphile packing-parameter framework applied to protein-RNA condensates is a novel conceptual contribution. The claim of spontaneous vesicle formation from charge-balanced, well-mixed conditions, if substantiated, would be an original mechanistic finding.
+  - **Scientific importance** The question of how sequence encodes condensate morphology is of high importance to the condensate field. A predictive grammar would have broad implications for understanding biological function and for engineering synthetic condensates.
+  - **Interdisciplinary readership** The work bridges biophysics, soft matter physics, and molecular biology. The conceptual framing is accessible, but the technical detail (coarse-grained simulations, PMF analysis) may limit accessibility for non-specialists. The abstract is well-written and should attract broad interest.
+  - **Technical soundness** The methods are described in sufficient detail to be reproducible, and the use of a validated model is a strength. However, the box expansion protocol and the lack of control simulations raise concerns. The absence of all figures and quantitative data prevents a full assessment of technical soundness.
+  - **Readability for nonspecialists** The manuscript is clearly written and the conceptual narrative is easy to follow. The amphiphile analogy is a helpful pedagogical device. However, the results section relies heavily on figure references that are not available, making it difficult to follow the argument in the current form.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the manuscript is well-written, but the absence of all figures and supplementary data makes it impossible to verify the central claims. The manuscript should be reconsidered after the full evidence base is provided. If the figures substantiate the described morphologies and the quantitative analyses support the packing-parameter interpretation, the work could be of significant interest. However, the box expansion protocol and the lack of control simulations must be addressed.
+
+## Risk / unsupported claims
+- The claim that "vesicular condensates form spontaneously from well-mixed initial conditions" is unsupported without the simulation data and the control for the box expansion protocol.
+- The claim that the morphological progression "traces out the classical hierarchy of amphiphile self-assembly morphologies" is unsupported without a quantitative mapping between H/L stoichiometry and packing parameters.
+- The claim that the proposed "molecular grammar" provides "simple design rules" is overstated given that only a limited set of sequences was tested.
+- The claim that the observed morphologies are robust to changes in density and chain length is unsupported without the data in Figure 5 and Figure S5.
+- The interpretation of W̅ minima as a measure of "bilayer-like midplane resolution" is speculative and unsupported.

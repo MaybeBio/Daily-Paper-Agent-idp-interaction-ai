@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results and discussion, conclusion) as provided by the user. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and alignment of claims with evidence as presented in the supplied text. No assessment of formatting, citation completeness beyond what is visible, or editorial fit.
+- **Shared manuscript claim summary** The authors use polarizable molecular dynamics (AMOEBA force field) to simulate monomeric, partially folded α-synuclein at NaCl concentrations from 0 to 900 mM. They report that while bulk water slows with increasing salt, hydration-shell water accelerates around the N- and C-terminal domains but slows around the NAC domain. They interpret this as partial salt-induced dehydration of the terminal domains, which may promote aggregation.
+- **Visible evidence base** Methods descriptions (simulation setup, analysis protocols), results narrative with references to figures and tables (Figure 1, Figure 2, Figure 3, Figure 4, Tables 1-2, Figures S1-S20), and conclusion. No actual figure data, tables, or supplementary material were provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary figures/tables. Numerical values for diffusion coefficients, relaxation times, radii of gyration, and statistical test outputs are not visible. Simulation input details (force field parameters, water model, ion parameters) are only partially described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the field of intrinsically disordered protein aggregation, namely the role of water dynamics in salt-modulated α-synuclein fibrillation. The use of a polarizable force field is a methodological strength that distinguishes this work from prior nonpolarizable simulations. The central claim, that hydration-shell water accelerates around terminal domains while slowing around the NAC domain, is potentially interesting but cannot be fully evaluated without the actual data. The statistical analysis is described but the results are not shown. The interpretation linking domain-specific water dynamics to truncation experiments is speculative and requires more direct evidence. The manuscript is clearly written and the methods are described in sufficient detail to be reproducible, but the evidence base is incomplete in the provided material.
+- **Who would be interested in the results, and why** Researchers studying α-synuclein aggregation, intrinsically disordered proteins, protein-water interactions, and the molecular mechanisms of salt effects on protein behavior. The use of a polarizable force field may also interest computational biophysicists working on force field development and validation. The potential link to Parkinson's disease mechanisms could attract a broader neuroscience audience, though the connection is indirect.
+- **Major strengths** 1) Use of a polarizable force field (AMOEBA) for a disordered protein, which addresses known limitations of nonpolarizable models for IDPs and water. 2) Systematic variation of salt concentration across a wide range (0-900 mM) at two temperatures. 3) Domain-resolved analysis of hydration-shell water dynamics, which goes beyond whole-protein averages. 4) Connection of computational findings to experimental truncation studies provides a testable framework. 5) Clear writing and transparent description of simulation and analysis protocols.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that hydration-shell water in the N- and C-terminal domains accelerates with increasing NaCl concentration, while NAC-domain water slows down.
+  - **Evidence pointer** Figure 3, Figure S20, "location not provided" for actual numerical values
+  - **Concern** The central quantitative claim of the paper cannot be verified from the provided material. The text states that diffusion coefficients increase for terminal domains and decrease for the NAC domain, but no numerical values, effect sizes, or confidence intervals are given in the text. The figures that would show these data are not available. The statistical significance is claimed (p < 0.05) but the ANOVA results are not presented. Without the actual data, the magnitude of the effect, its consistency across concentrations, and its robustness cannot be assessed.
+  - **Why it matters** The entire conclusion of the paper rests on this domain-specific differential response of hydration-shell water to salt. If the effect is small, noisy, or driven by a subset of residues, the interpretation would change substantially. The claim of acceleration is counter to prior work and therefore requires strong quantitative support.
+  - **Resolution test** Provide the numerical values of Di for each domain and each salt concentration, with standard deviations and statistical test results. Show the per-residue Di slopes with confidence intervals. Demonstrate that the acceleration in terminal domains is robust across replicate trajectories and not an artifact of the analysis window or cutoff definition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors state that the AMOEBA polarizable force field "accurately account[s] for water-protein interactions" and use this as justification for their approach.
+  - **Evidence pointer** Methods section, "MD Simulations"; Introduction, "location not provided"
+  - **Concern** No validation of the AMOEBA force field for this specific system is provided. The authors cite prior work showing AMOEBA accuracy for water and proteins, but do not demonstrate that the force field reproduces known properties of α-synuclein (e.g., radius of gyration from SAXS, secondary structure propensities, or hydration thermodynamics) under their simulation conditions. The choice of the partially folded intermediate state (PDB 1XQ8) is not justified, and no comparison to the disordered monomer state is made.
+  - **Why it matters** The interpretation of the results depends on the reliability of the force field. If AMOEBA produces artifacts for this IDP, the reported acceleration of hydration-shell water could be a simulation artifact rather than a physical effect. The lack of validation undermines confidence in the central claim.
+  - **Resolution test** Provide a validation section showing that AMOEBA reproduces experimentally known properties of α-synuclein (e.g., Rg from SAXS, secondary structure content from CD or NMR) under the same simulation conditions. Justify the choice of the 1XQ8 starting structure and demonstrate that the results are not sensitive to the initial conformation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The authors state that "α-Syn aggregation is related to partial salt-induced dehydration of the N- and C-terminal domains" and connect their water dynamics results to truncation experiment outcomes.
+  - **Evidence pointer** Conclusion; Results and Discussion, "Water Diffusion" section
+  - **Concern** The link between accelerated hydration-shell water dynamics and aggregation propensity is speculative. The authors propose that faster water exchange leads to dehydration and promotes intermolecular contacts, but they do not measure aggregation directly, nor do they show that the proposed mechanism operates in a multi-chain context. The truncation experiment correlations are post hoc and do not establish causality. The two-regime model (i and ii) is presented without a quantitative framework or testable predictions beyond what is already known.
+  - **Why it matters** The broader significance of the work, and its relevance to Parkinson's disease, depends on the mechanistic link between water dynamics and aggregation. If the interpretation is not supported, the paper becomes a descriptive simulation study with limited impact.
+  - **Resolution test** Either provide direct evidence for the dehydration mechanism (e.g., by computing water residence times, hydrogen-bond lifetimes, or free energy barriers for intermolecular contact) or temper the claims to be explicitly speculative. Alternatively, perform simulations with multiple α-synuclein chains to test whether the proposed mechanism promotes aggregation.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Diffusion Coefficient Analysis"
+  - **Evidence pointer** "location not provided"
+  - **Issue** The description of the VACF calculation is somewhat terse. It is not clear how the integration limit of 1 ps was chosen, whether convergence was checked, or how the "hydration shell" definition (3.1 Å cutoff) affects the results. The choice of a fixed cutoff rather than a distance-dependent criterion could bias the results for different domains with different local densities.
+  - **Required correction** Provide a brief justification for the 1 ps integration time and the 3.1 Å cutoff. State whether results are sensitive to these choices. Consider showing a convergence test for the VACF integral.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results and Discussion, "Water Diffusion" section
+  - **Evidence pointer** "location not provided"
+  - **Issue** The statistical analysis is described as a one-way ANOVA, but the grouping factor is not clearly stated. Is the comparison across salt concentrations within a domain, or across domains within a concentration? The degrees of freedom are given, but the test results are not reported in the text.
+  - **Required correction** Clarify the statistical design and report the F-statistics and p-values for the key comparisons. If multiple comparisons are made, state whether a correction was applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and Discussion, "Water and Protein Orientation Autocorrelation" section
+  - **Evidence pointer** "location not provided"
+  - **Issue** The protein rotational relaxation results are presented in Table 2, but the values are not discussed in the text beyond a brief mention. The connection between protein rotation and fibrillation is made via a citation to prior work on amyloid-β, but the relevance to α-synuclein is not established.
+  - **Required correction** Either expand the discussion of the protein rotational results and their implications, or remove them if they are not central to the argument.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "MD Simulations"
+  - **Evidence pointer** "location not provided"
+  - **Issue** The number of replicate simulations per condition is not stated. The text mentions 50 trajectories for the analysis, but it is unclear whether these are independent simulations or subsamples from a single trajectory. The equilibration protocol and the criteria for determining equilibration are not fully described.
+  - **Required correction** State the number of independent simulations per salt concentration and temperature. Describe the equilibration criteria and how the 50 analysis windows were generated.
+
+## Risk / unsupported claims
+- The claim that hydration-shell water accelerates in terminal domains and slows in the NAC domain is unsupported in the provided material because the actual data (figures, tables) are not available.
+- The claim that "α-Syn aggregation is related to partial salt-induced dehydration of the N- and C-terminal domains" is an interpretation that goes beyond the presented evidence, as no aggregation measurements or dehydration metrics are shown.
+- The connection between the two-regime model (i and ii) and truncation experiment results is correlational and not mechanistically established.
+- The statement that AMOEBA "accurately account[s] for water-protein interactions" is asserted without validation specific to this system.
+- The claim that faster protein rotational relaxation facilitates adoption of a fibril-prone state is based on prior work on a different protein (amyloid-β) and is not directly tested here.
+- The assertion that "the NAC domain engages more strongly with the surrounding water" is not directly measured; only diffusion coefficients are reported, and the mechanistic interpretation is speculative.
+- The relevance of the findings to Parkinson's disease is implied but not developed; no direct connection to disease mechanisms is made.

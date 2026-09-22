@@ -1,0 +1,67 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors use coarse-grained molecular simulations of homopolymer droplets as models for prion-like low-complexity domains and report that polymer chains are more compact at the droplet interface than in the interior, with chain ends enriched at the interface, more expanded than middle segments, and oriented perpendicular to the surface while most segments lie tangential. They state these trends also hold for two natural proteins, FUC LC and LAF-1 RGG.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, force field parameters, system sizes, analysis definitions, figures, and supplementary information are not available for assessment
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting application of polymer physics to biomolecular condensate interfaces, with potentially useful insights for the field. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The qualitative nature of the reported findings, combined with the absence of methodological detail and quantitative support, means the case is not established from the supplied material. The work may be of interest to researchers studying condensate biophysics, but a rigorous assessment requires access to the full manuscript.
+- **Who would be interested in the results, and why** Researchers in biomolecular condensate biology, intrinsically disordered proteins, and polymer physics would be interested. The findings address the underexplored conformational behavior of proteins at condensate interfaces, which is relevant to understanding interfacial function such as surface-mediated reactions or material transport. The use of simple polymer models to derive mechanistic insight may appeal to those seeking minimal physical explanations for complex biological phenomena.
+- **Major strengths** The abstract addresses a timely and understudied question regarding chain conformations at droplet interfaces. The use of homopolymer models as surrogates for low-complexity domains is a pragmatic simplification that could yield generalizable physical principles. The inclusion of two natural protein systems to test the generality of the polymer-based predictions is a valuable validation step.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that polymer chains become compact at the droplet interface compared to the droplet interior, and that chain ends are enriched at the interface and more expanded than middle segments.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no quantitative metrics, such as radius of gyration values, end-to-end distances, or enrichment ratios, to support the qualitative statements about compaction and segmental enrichment. No simulation details are given, including the polymer model, interaction parameters, chain length, or system size, which are essential for evaluating the robustness of the results.  
+  - **Why it matters** Without quantitative data and methodological context, the claims cannot be independently verified or compared with existing literature. The qualitative phrasing leaves ambiguity about the magnitude of the reported effects, which is critical for assessing biological relevance.  
+  - **Resolution test** Provide numerical values for conformational measures at the interface versus the interior, with associated uncertainties, and describe the simulation model and parameters in sufficient detail to allow replication.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Generalizability  
+  - **Claim pointer** The authors state that the trends observed for homopolymers also hold for the natural proteins FUC LC and LAF-1 RGG, which exhibit more compact conformations at the interface.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not describe how the natural proteins were modeled, what sequence features were included, or how the comparison to homopolymers was performed. It is unclear whether the same simulation framework was used, whether the proteins were simulated under equivalent conditions, and whether the observed compaction is statistically significant.  
+  - **Why it matters** The claim of generality is central to the paper's significance, as it suggests that simple polymer models capture essential physics of real proteins. Without details on the protein simulations and the comparison methodology, this claim is unsupported.  
+  - **Resolution test** Specify the simulation protocols for FUC LC and LAF-1 RGG, including force field, temperature, and concentration, and present quantitative comparisons of conformational properties between the proteins and the homopolymers.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interpretive clarity  
+  - **Claim pointer** The authors interpret the enrichment of chain ends at the interface as a mechanism to maximize conformational entropy, and state that chain ends align perpendicular to the interface while most segments lie tangential.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not explain how the orientation of chain segments was defined or measured, nor does it provide a physical argument for why the proposed entropic mechanism is the dominant driver. Alternative explanations, such as enthalpic interactions with the interface, are not discussed.  
+  - **Why it matters** The interpretation is presented as a conclusion, but without a clear definition of the orientation metric and a discussion of alternative mechanisms, the claim is not fully justified. This weakens the mechanistic insight the paper aims to provide.  
+  - **Resolution test** Define the orientation order parameter used, provide data on segmental orientation distributions, and discuss or rule out alternative physical mechanisms for the observed behavior.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "the chains become compact at the droplet interface compared to the droplet interior" is vague without a definition of "compact" or a reference to the specific measure used.  
+  - **Required correction** Specify the conformational metric, such as radius of gyration or end-to-end distance, and state the direction and approximate magnitude of the change.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Simulation details  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No information is given about the simulation method, such as coarse-grained model type, solvent treatment, or equilibration protocol.  
+  - **Required correction** Include a brief description of the simulation approach in the abstract or refer to a methods section where full details are available.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "model systems"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "model systems" is used to describe homopolymer droplets as surrogates for disordered proteins, but the abstract does not clarify the scope of this analogy or its limitations.  
+  - **Required correction** Briefly state the expected validity and limitations of the homopolymer model for capturing protein-specific behaviors.
+
+## Risk / unsupported claims
+- The claim that chain ends are enriched at the interface to maximize conformational entropy is unsupported in the abstract, as no entropic calculation or alternative mechanism analysis is provided.
+- The claim that the trends hold for FUC LC and LAF-1 RGG is unsupported without details on the protein simulations and quantitative comparisons.
+- The claim that most chain segments lie tangential to the droplet surface is unverifiable without a defined orientation metric and associated data.
+- The overall qualitative description of conformational changes at the interface cannot be assessed for statistical significance or magnitude from the abstract alone.

@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report that an eight-residue minimal binding sequence (YILSVQAE) from the disordered Myc protein, when ported into the disordered Max protein, recapitulates binding to the small molecule 34RH. They further report that flanking residues modulate binding affinity, with context-dependent opposing effects.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Discussion, and figure legends as provided in the manuscript text
+- **Missing materials affecting confidence** Raw fluorescence titration data, full CD spectra, statistical analyses, replicate information, and supplementary figures (Figures S1–S6) referenced but not included
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and interesting question regarding the portability of small-molecule binding sites in intrinsically disordered proteins. The experimental approach is logical and the central claim, that an eight-residue sequence can transfer binding function between disordered contexts, is potentially significant. However, the evidence presented is incomplete in several critical respects. The binding data rely on a single fluorescence-based assay with limited controls, the affinity differences between constructs are modest and their statistical significance is not established, and the mechanistic interpretation of flanking residue effects is underdeveloped. The case for portability is plausible but not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, small-molecule drug discovery targeting IDPs, and the molecular basis of protein–ligand interactions in dynamic systems. The concept of modular, portable binding sites could inform future efforts to engineer or target disordered regions.
+- **Major strengths** The study addresses a conceptually important question about the modularity of binding sites in IDPs. The choice of Max as a recipient context is appropriate given its biological relationship to Myc and its known disordered regions. The use of multiple constructs (Myc353–437, Myc402–412 peptide, MaxRH, MaxRH-Y115F/Y123F, P21/P22 Max) provides a reasonable framework for comparison. The inclusion of pH-dependent experiments to control for Max dimerization is a thoughtful design element.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that 34RH binds to Myc353–437 with a KD of 3.9 ± 1.3 µM and to the Myc402–412 peptide with a KD of 11.5 ± 1.2 µM, and that these values support portability.
+  - **Evidence pointer** Section 3.1, Section 3.2, Figures 1C and 2A
+  - **Concern** The binding affinities are derived from a single assay (tyrosine fluorescence quenching) with no orthogonal validation. The reported errors are standard deviations from fits, but no information is provided on the number of independent replicates, the quality of the fits, or whether the differences between constructs are statistically significant. The KD values for Myc353–437 (3.9 µM) and Myc402–412 (11.5 µM) differ by approximately three-fold, which is described as "within three-fold" and interpreted as similar, but no statistical test is applied. Similarly, the difference between MaxRH (23.4 µM) and MaxRH-Y115F/Y123F (14.9 µM) is not assessed for significance.
+  - **Why it matters** The central conclusion of portability rests on the comparability of binding affinities across contexts. Without statistical analysis and replicate data, the reader cannot determine whether the observed differences are meaningful or within experimental noise. This undermines the strength of the portability claim.
+  - **Resolution test** Provide replicate measurements (n ≥ 3 independent experiments) for each construct, report the number of replicates, and perform appropriate statistical comparisons (e.g., one-way ANOVA with post-hoc tests) between KD values. If the differences between Myc353–437 and Myc402–412 are not statistically significant, the claim of comparable affinity is strengthened.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Control adequacy
+  - **Claim pointer** The claim that native Max (P21 and P22 isoforms) does not bind 34RH, based on the absence of titratable fluorescence quenching.
+  - **Evidence pointer** Section 3.3, Figures 4G–I and 5C–F
+  - **Concern** The absence of binding for P21 and P22 Max is inferred from a lack of titratable quenching. However, the fluorescence assay relies on tyrosine residues, and the authors note that in the P22 Max homodimer, Tyr70 may be occluded. At pH 6, where P22 Max is monomeric, the assay still shows no quenching, but the authors do not demonstrate that the tyrosine residues in P22 Max are accessible to 34RH under these conditions. A negative result in a fluorescence quenching assay could reflect lack of binding or lack of a detectable signal change upon binding. No positive control is shown to confirm that the assay would detect binding if it occurred in the Max context.
+  - **Why it matters** The conclusion that portability was achieved depends on demonstrating that the recipient protein (Max) does not natively bind 34RH. If the assay cannot detect binding in the Max context for technical reasons, the interpretation of the MaxRH results is compromised.
+  - **Resolution test** Provide a control experiment demonstrating that the fluorescence assay can detect binding in a Max-derived construct, for example by showing that a known binder or a construct with a confirmed binding site produces a signal. Alternatively, use an orthogonal assay (e.g., ITC, NMR, or MST) to confirm the absence of binding for native Max.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The claim that flanking residues modulate binding with opposing effects in different contexts, based on the mutations N78E in MaxRH and E410N in Myc353–437.
+  - **Evidence pointer** Section 3.4, Figures 6A–C
+  - **Concern** The observation that a single flanking residue mutation eliminates binding in both contexts is striking, but the mechanistic basis is not explored. The authors suggest that flanking residues can influence binding, but they do not provide any structural, biophysical, or computational analysis to explain why the same residue change has opposite effects in Myc and MaxRH. The possibility that the mutations disrupt the local conformational ensemble or introduce steric or electrostatic clashes is not addressed.
+  - **Why it matters** The claim that flanking residues modulate binding is central to the manuscript's broader message about the complexity of IDP binding sites. Without mechanistic insight, the observation remains descriptive and its generalizability is unclear.
+  - **Resolution test** Perform additional experiments or analyses to probe the mechanism, such as molecular dynamics simulations, NMR chemical shift perturbations, or binding assays with a series of flanking residue substitutions to map the structure–activity relationship.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conformational characterization
+  - **Claim pointer** The claim that 34RH does not substantially alter the conformation of Myc353–437 or MaxRH, based on CD spectra.
+  - **Evidence pointer** Section 3.1, Figure 1D; Section 3.3, Figures 4C and 4F
+  - **Concern** The CD spectra are presented as evidence that the proteins remain disordered upon 34RH binding. However, the spectra are not quantified (e.g., no secondary structure deconvolution is shown), and the sensitivity of CD to subtle conformational changes in disordered proteins is limited. The statement that "34RH did not substantially alter the average conformation" is based on visual inspection of the spectra, which is not a rigorous analysis.
+  - **Why it matters** The manuscript emphasizes that binding occurs without a disorder-to-order transition, which is a key mechanistic point. If the CD analysis is insufficiently sensitive, this conclusion may be overstated.
+  - **Resolution test** Provide quantitative secondary structure analysis of the CD spectra (e.g., using software such as BeStSel or CDSSTR) and report the calculated helical content with and without 34RH. Alternatively, use a more sensitive technique such as NMR or SAXS to assess conformational changes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, Equation (5)
+  - **Evidence pointer** Materials and Methods, Section 2.3
+  - **Issue** The Langmuir binding isotherm equation appears to contain a typographical error. The term "(L]T+P]T+ KD" is written with mismatched brackets, which is confusing.
+  - **Required correction** Correct the equation to read "([L]T + [P]T + KD)" and ensure all brackets are properly matched.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Materials and Methods, Section 2.1
+  - **Issue** The protein purification protocol describes the use of a "trace-metals mix" but does not specify the exact composition or source. This makes it difficult to reproduce the growth conditions.
+  - **Required correction** Provide the full composition of the trace-metals mix or cite a reference where it is described.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Section 3.3, Figure 3
+  - **Evidence pointer** Results, Section 3.3
+  - **Issue** The sequence alignment in Figure 3 is described in the text but the figure itself is not shown in the provided manuscript. The alignment is important for understanding the mutation strategy.
+  - **Required correction** Ensure the figure is included in the final manuscript and that the alignment is clearly labeled with residue numbers and the positions of the mutations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 4, Discussion
+  - **Evidence pointer** Discussion, Section 4
+  - **Issue** The authors state that the affinity of 34RH for MaxRH is "about 6-fold weaker than in the Myc context" but do not specify which Myc context (Myc353–437 or Myc402–412) is used for comparison. The KD values are 3.9 µM (Myc353–437), 11.5 µM (Myc402–412), and 23.4 µM (MaxRH), so the fold-difference depends on the reference.
+  - **Required correction** Clarify the reference construct when stating fold-differences in affinity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Materials and Methods, Section 2.2
+  - **Issue** The pKa determination of 34RH is described, but the relevance of this measurement to the binding studies is not explained in the Results or Discussion.
+  - **Required correction** Add a sentence in the Results or Discussion explaining why the pKa of 34RH is relevant to its binding behavior or the interpretation of the experiments.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical analysis and replicates for binding affinities) and R1-M2 (inadequate controls for the negative binding result with native Max) are the primary technical issues that must be resolved. Without these, the central claims of portability and context-dependent modulation are not fully supported.
+- **Assessment against Nature-style criteria** Originality: The concept of testing portability of small-molecule binding sites between IDPs is relatively novel and extends prior work on Myc-targeting compounds. Scientific importance: The findings could have implications for understanding IDP druggability and for designing ligands targeting disordered regions, which is a growing area of interest. Interdisciplinary readership: The work bridges chemical biology, biophysics, and structural biology, and would appeal to researchers in these fields. Technical soundness: The experimental design is reasonable but the analysis is incomplete, particularly regarding statistical rigor and assay validation. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., the binding isotherm equation) could be clearer.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the preliminary data are suggestive, but the manuscript requires additional experimental detail, statistical analysis, and control experiments to fully establish the claims of portability and context-dependent modulation.
+
+## Risk / unsupported claims
+- The claim that the eight-residue sequence YILSVQAE is "minimal" is not fully supported, as no truncation or alanine-scanning experiments are shown to demonstrate that shorter sequences fail to bind.
+- The claim that binding occurs "without a disorder-to-order transition" is based on CD data that are not quantitatively analyzed and may lack sensitivity.
+- The statement that "the protein context can tune the binding" is speculative, as only two contexts (Myc and Max) and one peptide were tested, and the observed affinity differences are not statistically validated.
+- The claim that flanking residues "increase the specificity of the binding site" is an extrapolation from a limited set of mutations and is not directly tested.

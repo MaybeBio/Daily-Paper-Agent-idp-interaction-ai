@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a computational study of the tardigrade protein Dsup and its interaction with the human nucleosome. They claim that Dsup is a completely disordered protein, that molecular modeling and all-atom molecular dynamics simulations reveal dynamic details of the full-length 445-residue Dsup in complex with the nucleosome, that the HMGN-like binding motif anchors Dsup at the nucleosome binding site, and that electrostatic potentials and electric fields suggest a protective electrostatic envelope around nucleosomal DNA.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data were supplied
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field details, validation of the Dsup 3D model, trajectory analyses, electrostatic calculation protocols, and any comparison with experimental data beyond the cited cryoEM study
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational follow-up to a recent cryoEM study, but the claims as stated cannot be evaluated without the underlying methods and results. The central assertion that Dsup is "completely disordered" is presented as a proof, yet no evidence is visible. The electrostatic shielding hypothesis is plausible but is supported only by a qualitative statement about one complex. The abstract is written in a style appropriate for a specialist audience, but the lack of quantitative detail limits its current impact.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, chromatin structure, DNA damage response, and extremophile biology would be interested. The potential biomedical applications of Dsup, particularly in radioprotection, may also attract a broader audience in biotechnology and translational medicine.
+- **Major strengths** The study addresses a timely question by complementing a recent experimental structure with dynamic simulations. The inclusion of complete histone tails, which are often missing in experimental structures, is a notable methodological advantage. The focus on full-length Dsup rather than only the short binding motif is a strength.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that they "prove that it is a completely disordered protein."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of complete disorder is presented as a proven fact, but no evidence is shown in the abstract. No prediction tools, experimental validation, or quantitative disorder scores are mentioned. The term "completely disordered" is strong and requires robust support, especially given that the same protein is later modeled as a 3D structure for simulations.
+  - **Why it matters** If Dsup is truly completely disordered, the choice of a single 3D model for simulations is questionable and may bias the results. The internal consistency of the study depends on how disorder is reconciled with the use of a defined structural model.
+  - **Resolution test** Provide disorder prediction scores from established tools, a description of how the 3D model was generated and validated, and a discussion of how conformational ensembles were sampled to support the "completely disordered" claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that their simulations "reveal dynamic details about the complete 445-residue Dsup in its interaction with the nucleosome" and that they provide "a complete picture of distinct possible conformations of Dsup around the nucleosome."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No simulation length, number of replicas, convergence criteria, or sampling statistics are reported. For a highly disordered protein, sampling adequacy is critical. Without evidence of convergence or ensemble convergence, the claim of a "complete picture" is unsupported.
+  - **Why it matters** Disordered proteins sample vast conformational spaces. A single or few trajectories are unlikely to capture the full ensemble. Overinterpretation of limited sampling is a common pitfall in computational studies of IDPs.
+  - **Resolution test** Report simulation timescales, number of independent simulations, convergence metrics, and a comparison of sampled conformations against experimental data where available.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "electrostatic potentials and electric fields reveal in one complex that while the HMGN-like binding motif anchors Dsup at the nucleosome binding site, the conformational freedom of the disordered protein dynamically confers a possible electrostatic protective envelope."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The electrostatic shielding effect is described for "one complex" only. It is unclear whether this is a representative case or an outlier. The word "possible" appropriately hedges the claim, but the significance of a single observation is limited.
+  - **Why it matters** The protective envelope hypothesis is the main conceptual advance of the study. If it is observed in only one of several complexes, its generality is questionable and the biological relevance is weakened.
+  - **Resolution test** Show whether the electrostatic envelope is consistently observed across multiple complexes and simulation replicates, and provide quantitative measures of the electrostatic potential at the DNA surface.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract assumes familiarity with HMGN proteins and cryoEM terminology without brief context.
+  - **Required correction** Add one sentence explaining the relevance of the HMGN-like motif and the resolution limitations of cryoEM for disordered regions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Comparison with prior work
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The relationship to the authors' previous study on Dsup-free DNA interaction is mentioned but not clarified. It is unclear whether the current findings are consistent with or extend the earlier model.
+  - **Required correction** Briefly state how the nucleosome-bound behavior compares with the free-DNA interaction, particularly regarding the electrostatic shielding mechanism.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model validation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that a "proper 3D model of Dsup" was used, but no validation is described.
+  - **Required correction** Mention the method used to generate the model and any validation against experimental data or known structural features.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The disorder claim and the sampling adequacy must be substantiated with quantitative evidence. Without these, the central conclusions cannot be assessed.
+- **Assessment against Nature-style criteria** Originality: The topic is timely and the combination of full-length Dsup with complete histone tails is novel, but the conceptual advance over the prior cryoEM study is incremental. Scientific importance: The electrostatic shielding hypothesis is interesting but not yet established from the abstract. Interdisciplinary readership: The work bridges structural biology, biophysics, and extremophile biology, which could appeal to a broad audience if properly contextualized. Technical soundness: Not assessable from the abstract; the lack of methodological detail is a major limitation. Readability for nonspecialists: The abstract is accessible to a specialist but would benefit from brief contextual explanations.
+- **Recommendation posture** Currently not established from the provided evidence. The authors should be encouraged to resubmit with full methodological details and quantitative support for the disorder and sampling claims.
+
+## Risk / unsupported claims
+- The claim that Dsup is "completely disordered" is unsupported in the abstract.
+- The claim of a "complete picture of distinct possible conformations" is unsupported without sampling and convergence evidence.
+- The electrostatic protective envelope is described for one complex only and is presented as a general effect, which is not justified.
+- The statement that the study "improves upon low-resolution cryoEM maps" is not substantiated with any comparative analysis in the abstract.

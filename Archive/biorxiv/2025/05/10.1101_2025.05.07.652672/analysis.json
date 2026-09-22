@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.07.652672",
+  "title": "Substitutions in RNA-binding protein Hrp1 map a potential interaction surface with the yeast RNA polymerase II elongation complex",
+  "authors": "Moyao Wang; Payal Arora; Craig D. Kaplan; David A. Brow",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-07",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过遗传学手段研究RNA结合蛋白Hrp1与RNA聚合酶II延伸复合物的潜在互作界面，涉及蛋白-蛋白互作机制，但对象非无序蛋白/相分离，且方法为遗传筛选而非AI或物理模拟，对无序蛋白PPI建模启发有限。",
+  "abstract": "Anti-termination factors for eukaryotic RNA polymerase II (RNAP II) that are released upon binding sequences in the terminator of nascent transcripts were proposed almost 40 years ago but few candidates have been found. Here we report genetic evidence that the yeast nuclear RNA-binding protein Hrp1, also known as Nab4 and CF1B, acts as an RNAP II anti-termination factor. A Lys to Glu substitution at residue 9 (K9E) of the Rpb3 subunit of RNAP II causes readthrough of Nrd1-Nab3-Sen1-dependent (NNS) terminators and cold-sensitive growth, as does Asp but not Ala, Met, Arg, or Gln substitution. These allele-specific phenotypes and the location of Rpb3-K9 suggests substitution with Glu or Asp stabilizes binding of an anti-termination factor via a salt bridge. A genome-wide selection for suppressors of the cold-sensitivity of Rpb3-K9E yielded an Arg to Gly substitution at residue 317 of Hrp1 in RNA recognition motif 2 (RRM2), consistent with the hypothesis. A targeted selection for suppressors of Rpb3-K9E in HRP1 yielded substitutions in RRMs 1 and 2, an essential Met- and Gln-rich region C-terminal to the RRMs, and other mutations. We propose that Hrp1 binds to the RNAP II elongation complex via these regions to promote elongation and, in the presence of Rpb3-K9E, is less rapidly released upon binding terminator sequences in the nascent transcript, resulting in terminator readthrough. The Rpb3-K9E-suppressor substitutions in Hrp1 likely weaken binding to the RNAP II elongation complex, compensating for Rpb3-K9E.",
+  "abstract_zh": "针对真核RNA聚合酶II（RNAP II）的抗终止因子，在新生转录本终止子序列结合后被释放的假设，早在约40年前就已提出，但迄今发现的候选因子寥寥无几。在此，我们报告了遗传学证据，表明酵母核RNA结合蛋白Hrp1（也称为Nab4和CF1B）作为RNAP II抗终止因子发挥作用。RNAP II的Rpb3亚基第9位赖氨酸替换为谷氨酸（K9E）导致Nrd1-Nab3-Sen1依赖性（NNS）终止子的通读，并引起冷敏感性生长，而替换为天冬氨酸则无此效应，但丙氨酸、甲硫氨酸、精氨酸或谷氨酰胺替换则无此效应。这些等位基因特异性表型及Rpb3-K9的位置提示，谷氨酸或天冬氨酸的替换通过盐桥稳定了抗终止因子的结合。一项全基因组范围的筛选，旨在寻找Rpb3-K9E冷敏感性的抑制因子，结果在Hrp1的RNA识别基序2（RRM2）中第317位精氨酸替换为甘氨酸，这与假设一致。针对HRP1中Rpb3-K9E抑制因子的定向筛选，在RRM1和RRM2中发现了替换，以及RRM C端一个必需的Met和Gln富集区域中的其他突变。我们提出，Hrp1通过这些区域结合RNAP II延伸复合物以促进延伸，并且在存在Rpb3-K9E的情况下，结合新生转录本终止子序列后释放较慢，导致终止子通读。Hrp1中的Rpb3-K9E抑制性替换可能削弱与RNAP II延伸复合物的结合，从而补偿Rpb3-K9E的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.07.652672",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.07.652672",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.07.652672/index.html"
+}

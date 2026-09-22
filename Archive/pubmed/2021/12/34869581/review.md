@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusion. Figures and tables are referenced but not directly provided.
+- **Assessment boundary** Assessment is limited to the scientific claims, methodology, and conclusions as presented in the text. Evaluation of figures, tables, and supplementary materials is based solely on the descriptions provided in the manuscript.
+- **Shared manuscript claim summary** The authors report that Gaussian accelerated molecular dynamics (GaMD) simulations, combined with a lowered peptide bond dihedral angle potential energy barrier (15 kcal/mol), enable sampling of proline cis-trans isomerization in the proline-rich disordered peptide ArkA on a microsecond timescale. The resulting ensemble contains a significant fraction of cis proline conformations, is more compact, has reduced polyproline II (PPII) helix content, and matches in vitro circular dichroism (CD) data more closely than an all-trans ensemble.
+- **Visible evidence base** Text descriptions of methods, results, and discussion. References to Figures 1–7, Tables 1–6, and Supplementary Figures S1–S7 and Tables S1–S3. No raw data, figure images, or numerical values are directly visible in the provided material.
+- **Missing materials affecting confidence** Figure and table contents are not directly visible, limiting verification of quantitative claims. Supplementary materials are referenced but not provided. The CD experimental data are described but not shown. Convergence criteria and error estimates for the GaMD simulations are not fully detailed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and understudied problem: the role of proline cis-trans isomerization in the conformational ensembles of proline-rich intrinsically disordered proteins. The methodological approach, combining GaMD with a modified force field barrier, is reasonable and represents a useful contribution. However, the evidence presented is insufficient to fully establish the central claims. Key quantitative results are not directly visible, the validation against CD data is indirect and relies on approximations, and the biological implications are speculative. The work is of interest to the computational biophysics and IDP communities, but the case would be strengthened by clearer presentation of data, additional validation, and a more cautious interpretation of the biological relevance.
+- **Who would be interested in the results, and why** Computational biophysicists studying IDPs and enhanced sampling methods would be the primary audience. Researchers interested in proline-rich motifs in signaling and protein-protein interactions may also find the results relevant. The methodological finding that GaMD with a lowered barrier can sample proline isomerization could be of practical use to the molecular simulation community.
+- **Major strengths** The study addresses a technically challenging problem and proposes a practical solution. The use of GaMD, which does not require a predefined reaction coordinate, is appropriate. The comparison between GaMD and REMD ensembles, and the use of CD as an experimental benchmark, are sensible validation strategies. The manuscript is clearly written and the methods are described in sufficient detail for reproduction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that GaMD with a lowered barrier allows "sufficient sampling of the proline cis and trans states on a microsecond timescale" and that the resulting ensemble is more consistent with in vitro CD data than an all-trans ensemble.
+  - **Evidence pointer** Results and Discussion, Figures 1–7, Tables 5–6, Supplementary Figures S2–S5
+  - **Concern** The central quantitative results, including the cis fractions for each proline, the PMF profiles, the convergence metrics, and the CD spectra comparisons, are not directly visible in the provided text. The claim of "sufficient sampling" is supported only by an average anharmonicity value below a cutoff, which is a necessary but not sufficient condition for convergence. The comparison to CD data relies on calculated spectra from a basis set that does not explicitly include cis proline conformations, and the authors acknowledge that the basis set may not be fully appropriate. The PPII content estimation from CD uses an empirical equation that the authors themselves note may not be precise.
+  - **Why it matters** Without direct visibility of the quantitative data, the reader cannot independently assess whether the sampling was indeed sufficient, whether the ensemble differences are statistically significant, or whether the agreement with CD is meaningful. The methodological claim of the paper rests on these results.
+  - **Resolution test** Provide the actual figures and tables with numerical values, including error bars or confidence intervals. Show convergence of cis fractions over time. Demonstrate that the CD comparison is robust to the choice of basis set or provide a more direct experimental validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological validity
+  - **Claim pointer** The authors state that lowering the V2 constant from 20 to 15 kcal/mol "does not affect other dihedral angles or any other conformational sampling coordinate."
+  - **Evidence pointer** Materials and Methods, Gaussian Accelerated MD Simulations
+  - **Concern** The claim that modifying the V2 term only affects the ω dihedral is not fully justified. While the V2 term is specific to the peptide bond, changing this parameter could indirectly influence other degrees of freedom through coupling in the force field. The authors do not provide control simulations or analyses to demonstrate that other dihedral angles or overall conformational properties are unaffected.
+  - **Why it matters** If the modification has unintended effects on the force field, the resulting ensemble may be biased in ways not accounted for, undermining the validity of the conclusions.
+  - **Resolution test** Perform control simulations with the unmodified force field and compare distributions of other dihedral angles, radius of gyration, or other conformational properties. Alternatively, provide a more detailed analysis showing that the modification is isolated to the ω dihedral.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The authors suggest that the presence of cis proline conformations in the unbound ensemble "likely affects the peptide's ability to bind its partner SH3 domain" and that this "should be studied further."
+  - **Evidence pointer** Results and Discussion, Conclusion
+  - **Concern** The biological implications are speculative and not supported by direct experimental evidence. The authors do not measure binding affinities, kinetics, or any functional readout. The statement that cis conformations would be "unlikely to bind" is plausible but untested.
+  - **Why it matters** The title and framing of the paper suggest a biological relevance that is not established. Overstating implications could mislead readers.
+  - **Resolution test** Either temper the language to clearly indicate speculation, or provide additional data, such as binding simulations with cis-containing peptides or experimental mutagenesis studies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Trajectory Analysis
+  - **Evidence pointer** Materials and Methods, Trajectory Analysis
+  - **Issue** The description of the reweighting procedure is brief. The authors state that both cumulant expansion and Maclaurin series expansion were used, but the rationale for choosing one over the other for different analyses is not fully explained.
+  - **Required correction** Provide a brief justification for why Maclaurin series expansion was used for subsequent analyses and clarify any limitations of this choice.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Proline Isomerization of Tetramer KPTP
+  - **Evidence pointer** Results and Discussion, Figure 1
+  - **Issue** The text states that isomerization occurred "around once every 8 ns" in the default barrier simulations, but the statistical basis for this estimate is not given.
+  - **Required correction** Report the number of transitions observed and the total simulation time to provide context for this rate.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, Proline Isomerization of the Proline-Rich Intrinsically Disordered Protein ArkA
+  - **Evidence pointer** Results and Discussion, Figure 3
+  - **Issue** The authors note that the extended and NMR starting structure simulations were not fully converged, yet they combined the data into one ensemble. The potential impact of this incomplete convergence on the reported cis fractions is not discussed.
+  - **Required correction** Acknowledge the limitation more explicitly and discuss how it might affect the quantitative results.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of direct visibility of the quantitative data supporting the central claims. The convergence of the GaMD simulations is not rigorously demonstrated. The CD comparison is indirect and may be sensitive to the choice of basis set. The potential indirect effects of the modified force field are not addressed.
+- **Assessment against Nature-style criteria** Originality: The application of GaMD to proline isomerization in a biologically relevant IDP is novel and addresses a gap in the field. Scientific importance: The work has potential importance for understanding IDP conformational ensembles and proline-rich signaling, but the biological significance is not yet established. Interdisciplinary readership: The topic is of interest to computational and experimental biophysicists, but the presentation is likely too specialized for a broad interdisciplinary audience. Technical soundness: The methodology is generally sound, but the evidence for the central claims is incomplete as presented. Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with enhanced sampling methods and IDP terminology.
+- **Recommendation posture** Supportive if technical concerns are resolved. The methodological approach is promising and the topic is relevant, but the current evidence does not fully establish the central claims. The authors should provide the missing quantitative data, strengthen the convergence analysis, and temper the biological implications.
+
+## Risk / unsupported claims
+- The claim that the lowered barrier does not affect other conformational sampling coordinates is unsupported by direct evidence.
+- The claim that the GaMD ensemble is more consistent with in vitro CD data than the REMD ensemble is not fully verifiable without direct visibility of the spectra and the associated analysis.
+- The statement that cis proline conformations "likely affect" binding to the SH3 domain is speculative and not supported by experimental or direct computational evidence.
+- The assertion that this is the first MD simulation study of proline isomerization in a biologically relevant proline-rich sequence is a strong claim that would require a thorough literature search to verify.

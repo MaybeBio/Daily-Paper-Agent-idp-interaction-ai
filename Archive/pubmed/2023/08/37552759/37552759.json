@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "37552759",
+    "doi": "10.1073/pnas.2307287120",
+    "title": "Analysis of the complex between MBD2 and the histone deacetylase core of NuRD reveals key interactions critical for gene silencing."
+  },
+  "content": {
+    "abstract": "The nucleosome remodeling and deacetylase (NuRD) complex modifies nucleosome positioning and chromatin compaction to regulate gene expression. The methyl-CpG-binding domain proteins 2 and 3 (MBD2 and MBD3) play a critical role in complex formation; however, the molecular details of how they interact with other NuRD components have yet to be fully elucidated. We previously showed that an intrinsically disordered region (IDR) of MBD2 is necessary and sufficient to bind to the histone deacetylase core of NuRD. Building on that work, we have measured the inherent structural propensity of the MBD2-IDR using solvent and site-specific paramagnetic relaxation enhancement measurements. We then used the AlphaFold2 machine learning software to generate a model of the complex between MBD2 and the histone deacetylase core of NuRD. This model is remarkably consistent with our previous studies, including the current paramagnetic relaxation enhancement data. The latter suggests that the free MBD2-IDR samples conformations similar to the bound structure. We tested this model of the complex extensively by mutating key contact residues and measuring binding using an intracellular bioluminescent resonance energy transfer assay. Furthermore, we identified protein contacts that, when mutated, disrupted gene silencing by NuRD in a cell model of fetal hemoglobin regulation. Hence, this work provides insights into the formation of NuRD and highlights critical binding pockets that may be targeted to block gene silencing for therapy. Importantly, we show that AlphaFold2 can generate a credible model of a large complex that involves an IDR that folds upon binding.",
+    "keywords": [
+      "AlphaFold2",
+      "DNA methylation",
+      "MBD2-NuRD",
+      "chromatin remodeling",
+      "intrinsically disordered protein"
+    ],
+    "mesh_terms": [
+      "*Histone Deacetylases/metabolism",
+      "*Nucleosomes",
+      "Mi-2 Nucleosome Remodeling and Deacetylase Complex/genetics/metabolism",
+      "Gene Silencing",
+      "Chromatin",
+      "Histone Deacetylase 1/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Leighton, Gage O",
+        "Shang, Shengzhe",
+        "Hageman, Sean",
+        "Ginder, Gordon D",
+        "Williams, David C Jr"
+      ],
+      "short_names": [
+        "Leighton GO",
+        "Shang S",
+        "Hageman S",
+        "Ginder GD",
+        "Williams DC Jr"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4636-0370",
+        "ORCID: 0000-0002-0919-1208",
+        "ORCID: 0000-0001-9875-3198",
+        "ORCID: 0000-0002-6536-4038"
+      ],
+      "affiliations": [
+        "Department of Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, NC 27599.",
+        "Massey Cancer Center, Virginia Commonwealth University, Richmond, VA 23298.",
+        "Department of Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, NC 27599.",
+        "Massey Cancer Center, Virginia Commonwealth University, Richmond, VA 23298.",
+        "Department of Human and Molecular Genetics, Virginia Commonwealth University, Richmond, VA 23298.",
+        "Department of Microbiology and Immunology, Virginia Commonwealth University, Richmond, VA 23298.",
+        "Department of Internal Medicine, Virginia Commonwealth University, Richmond, VA 23298.",
+        "Department of Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, NC 27599."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Leighton, Gage O",
+        "short_name": "Leighton GO",
+        "identifiers": [
+          "0000-0003-4636-0370"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, NC 27599."
+        ]
+      },
+      {
+        "full_name": "Shang, Shengzhe",
+        "short_name": "Shang S",
+        "identifiers": [
+          "0000-0002-0919-1208"
+        ],
+        "affiliations": [
+          "Massey Cancer Center, Virginia Commonwealth University, Richmond, VA 23298."
+        ]
+      },
+      {
+        "full_name": "Hageman, Sean",
+        "short_name": "Hageman S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, NC 27599."
+        ]
+      },
+      {
+        "full_name": "Ginder, Gordon D",
+        "short_name": "Ginder GD",
+        "identifiers": [
+          "0000-0001-9875-3198"
+        ],
+        "affiliations": [
+          "Massey Cancer Center, Virginia Commonwealth University, Richmond, VA 23298.",
+          "Department of Human and Molecular Genetics, Virginia Commonwealth University, Richmond, VA 23298.",
+          "Department of Microbiology and Immunology, Virginia Commonwealth University, Richmond, VA 23298.",
+          "Department of Internal Medicine, Virginia Commonwealth University, Richmond, VA 23298."
+        ]
+      },
+      {
+        "full_name": "Williams, David C",
+        "short_name": "Williams DC",
+        "identifiers": [
+          "0000-0002-6536-4038"
+        ],
+        "affiliations": [
+          "Department of Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill School of Medicine, Chapel Hill, NC 27599."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2023 Aug 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/08 18:42",
+    "fetched_at": "2026-09-21 00:11:56"
+  },
+  "links": {
+    "cites": [
+      "42429995",
+      "41890122",
+      "41559100",
+      "41416523",
+      "40715076",
+      "40467564",
+      "40421803",
+      "40307576",
+      "39592582",
+      "39220684",
+      "38728575",
+      "37924864"
+    ],
+    "refs": [
+      "36040254",
+      "36037972",
+      "35900023",
+      "35798615",
+      "35213160",
+      "34265844",
+      "33264611",
+      "33264408",
+      "32881101",
+      "32543371",
+      "31004025",
+      "30125451",
+      "29128342",
+      "27849519",
+      "27109927",
+      "27098840",
+      "26265695",
+      "26006698",
+      "25753662",
+      "25352341",
+      "25123934",
+      "24991957",
+      "24920672",
+      "24307175",
+      "24008243",
+      "23791785",
+      "23708667",
+      "23239876",
+      "23066101",
+      "21734722",
+      "21693597",
+      "21531701",
+      "21490301",
+      "21278251",
+      "20499903",
+      "19304878",
+      "17694084",
+      "17464338",
+      "15730849",
+      "15125681",
+      "15020045",
+      "12183469",
+      "11274056",
+      "8520220"
+    ],
+    "similar": [
+      "37552759",
+      "25753662",
+      "10444591",
+      "15701600",
+      "31004025",
+      "16428440",
+      "21490301",
+      "36037972",
+      "15516265",
+      "28637186",
+      "31626804",
+      "15456747",
+      "36040254",
+      "27235397",
+      "25796366",
+      "23071088",
+      "28179136",
+      "11297506",
+      "27117189",
+      "33264408",
+      "23239876",
+      "12596911",
+      "37385984",
+      "27098840",
+      "27066839",
+      "16415179",
+      "36722816",
+      "20585571",
+      "23708667",
+      "24920672",
+      "25123934",
+      "37190088",
+      "18644863",
+      "27303433",
+      "23658227",
+      "19686092",
+      "24385926",
+      "23014989",
+      "25190814",
+      "23352453",
+      "33997955",
+      "29547954",
+      "30228260",
+      "25601084",
+      "23361464",
+      "23444401",
+      "17708683",
+      "33283408",
+      "30668141",
+      "30327463",
+      "30980593",
+      "37488358",
+      "29063705",
+      "11410659",
+      "36861403",
+      "20505336",
+      "21278251",
+      "11230151",
+      "12124384",
+      "32501215",
+      "20523938",
+      "33301849",
+      "9885572",
+      "37208322",
+      "25825869",
+      "23340908",
+      "37938928",
+      "25934499",
+      "34231305",
+      "21734722",
+      "25123281",
+      "26714524",
+      "37737560",
+      "28528697",
+      "19734887",
+      "22723830",
+      "22570494",
+      "28977666",
+      "21047798",
+      "33264611",
+      "29042441",
+      "30254051",
+      "37770717",
+      "38676947",
+      "27105116",
+      "28842166",
+      "26296975",
+      "16738318",
+      "35798615",
+      "11865062",
+      "11003653",
+      "37181331",
+      "20185820",
+      "30045876",
+      "37307480",
+      "19923891",
+      "24835571",
+      "29020631",
+      "26810492",
+      "15695365",
+      "17287250",
+      "11850414",
+      "35323946",
+      "38149716",
+      "11274056",
+      "35450884",
+      "31253978",
+      "28094816",
+      "38719994",
+      "38649186",
+      "24991957",
+      "24880148",
+      "38994733",
+      "38538000",
+      "38746378",
+      "36769095",
+      "36868189",
+      "39099845",
+      "39214280"
+    ],
+    "review": [
+      "37552759",
+      "31626804",
+      "25796366",
+      "12596911",
+      "25123934",
+      "37190088",
+      "27303433",
+      "20505336",
+      "23340908",
+      "21734722",
+      "25123281",
+      "35798615",
+      "19923891",
+      "24880148",
+      "39099845"
+    ],
+    "pmc": [
+      "10433457"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2307287120?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37552759/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37552759",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/37552759",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3551",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://rrc.nbrp.jp/references/list?pubmed=37552759",
+        "provider": "National BioResource Project",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": "NBRP resources"
+      }
+    ],
+    "text_mined": []
+  }
+}

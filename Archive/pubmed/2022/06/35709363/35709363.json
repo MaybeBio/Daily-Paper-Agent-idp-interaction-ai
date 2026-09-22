@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "35709363",
+    "doi": "10.1021/acs.jcim.2c00414",
+    "title": "Insights into the Atomistic Mechanisms of Phosphorylation in Disrupting Liquid-Liquid Phase Separation and Aggregation of the FUS Low-Complexity Domain."
+  },
+  "content": {
+    "abstract": "Fused in sarcoma (FUS), a nuclear RNA binding protein, can not only undergo liquid-liquid phase separation (LLPS) to form dynamic biomolecular condensates but also aggregate into solid amyloid fibrils which are associated with the pathology of amyotrophic lateral sclerosis and frontotemporal lobar degeneration diseases. Phosphorylation in the FUS low-complexity domain (FUS-LC) inhibits FUS LLPS and aggregation. However, it remains largely elusive what are the underlying atomistic mechanisms of this inhibitory effect and whether phosphorylation can disrupt preformed FUS fibrils, reversing the FUS gel/solid phase toward the liquid phase. Herein, we systematically investigate the impacts of phosphorylation on the conformational ensemble of the FUS(37-97) monomer and dimer and the structure of the FUS(37-97) fibril by performing extensive all-atom molecular dynamics simulations. Our simulations reveal three key findings: (1) phosphorylation shifts the conformations of FUS(37-97) from the beta-rich, fibril-competent state toward a helix-rich, fibril-incompetent state; (2) phosphorylation significantly weakens protein-protein interactions and enhances protein-water interactions, which disfavor FUS-LC LLPS as well as aggregation and facilitate the dissolution of the preformed FUS-LC fibril; and (3) the FUS(37-97) peptide displays a high beta-strand probability in the region spanning residues 52-67, and phosphorylation at S54 and S61 residues located in this region is crucial for the disruption of LLPS and aggregation of FUS-LC. This study may pave the way for ameliorating phase-separation-related pathologies via site-specific phosphorylation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Amyloid/chemistry",
+      "Magnetic Resonance Spectroscopy",
+      "Phosphorylation",
+      "Protein Domains",
+      "*RNA-Binding Protein FUS/chemistry/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lao, Zenghui",
+        "Dong, Xuewei",
+        "Liu, Xianshi",
+        "Li, Fangying",
+        "Chen, Yujie",
+        "Tang, Yiming",
+        "Wei, Guanghong"
+      ],
+      "short_names": [
+        "Lao Z",
+        "Dong X",
+        "Liu X",
+        "Li F",
+        "Chen Y",
+        "Tang Y",
+        "Wei G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2976-5547",
+        "ORCID: 0000-0001-5814-3328"
+      ],
+      "affiliations": [
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lao, Zenghui",
+        "short_name": "Lao Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Dong, Xuewei",
+        "short_name": "Dong X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xianshi",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Li, Fangying",
+        "short_name": "Li F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yujie",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yiming",
+        "short_name": "Tang Y",
+        "identifiers": [
+          "0000-0002-2976-5547"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghong",
+        "short_name": "Wei G",
+        "identifiers": [
+          "0000-0001-5814-3328"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200433, People's Republic of China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2022 Jul 11",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/17 06:00",
+    "fetched_at": "2026-09-20 11:11:12"
+  },
+  "links": {
+    "cites": [
+      "42465288",
+      "41646863",
+      "41360972",
+      "40631075",
+      "39660892",
+      "39361452",
+      "39150098",
+      "39148776",
+      "38347544",
+      "38112495",
+      "37648703",
+      "37189373",
+      "37009800"
+    ],
+    "refs": [],
+    "similar": [
+      "35709363",
+      "33184287",
+      "28942918",
+      "31805282",
+      "31895552",
+      "37399327",
+      "29677513",
+      "33547841",
+      "36841957",
+      "37211763",
+      "32231288",
+      "38347806",
+      "34516126",
+      "31270472",
+      "33607084",
+      "35943083",
+      "28790177",
+      "31188823",
+      "30205960",
+      "31022909",
+      "34233002",
+      "37130459",
+      "34156864",
+      "29610493",
+      "38632300",
+      "39372747",
+      "34654750",
+      "35036880",
+      "38593618",
+      "35297101",
+      "28432364",
+      "34624313",
+      "36453011",
+      "37155880",
+      "21856723",
+      "28924037",
+      "33515602",
+      "37158592",
+      "29677515",
+      "37231298",
+      "37204199",
+      "37906538",
+      "38105257",
+      "34862761",
+      "35320731",
+      "38971830",
+      "29897835",
+      "29677514",
+      "34787417",
+      "34648275",
+      "36945688",
+      "36914570",
+      "35500664",
+      "34759379",
+      "26317470",
+      "26455390",
+      "24280224",
+      "34487489",
+      "37179431",
+      "39342654",
+      "33022038",
+      "32877292",
+      "35134572",
+      "29511089",
+      "39302099",
+      "26403203",
+      "38157426",
+      "34681673",
+      "36310222",
+      "30021151",
+      "25192599",
+      "32169484",
+      "36268634",
+      "30581145",
+      "31630970",
+      "24013423",
+      "39211498",
+      "22563080",
+      "30355151",
+      "33110735",
+      "29723523",
+      "30948513",
+      "27381509",
+      "38458997",
+      "32976566",
+      "28306503",
+      "21327870",
+      "23041957",
+      "33704371",
+      "33356290",
+      "33758287",
+      "28389532",
+      "31928729",
+      "39129227",
+      "33269497",
+      "26938019",
+      "30455313",
+      "33705755",
+      "33307683",
+      "39148776",
+      "22778397",
+      "21135580",
+      "30442662",
+      "27033831",
+      "34310938",
+      "26526393",
+      "37890778",
+      "24899704",
+      "20606625",
+      "37579155",
+      "33229560",
+      "27015757",
+      "32687767",
+      "36499553",
+      "32003979",
+      "21777389",
+      "34431665",
+      "34953857",
+      "27731383",
+      "38279531",
+      "31240261",
+      "37267850",
+      "35620440",
+      "37386790",
+      "38070499",
+      "38546977",
+      "39421885",
+      "37735186",
+      "38996511",
+      "36471564",
+      "36638831",
+      "33686294",
+      "36361989",
+      "37189373",
+      "38467846",
+      "39069878",
+      "37749234",
+      "38394622",
+      "37347214",
+      "37310801",
+      "35727989",
+      "38380794",
+      "35930639",
+      "37145883",
+      "32577653",
+      "38405719",
+      "39112465",
+      "37503034",
+      "36551199",
+      "37957147",
+      "37319348",
+      "37898314",
+      "36222390",
+      "36843414",
+      "37648703",
+      "33753744",
+      "37503577",
+      "36798393",
+      "34787433",
+      "38580324",
+      "36199253",
+      "39403745",
+      "33912586",
+      "37156204",
+      "36103543",
+      "39386696",
+      "39387162"
+    ],
+    "review": [
+      "35709363",
+      "37399327",
+      "31022909",
+      "32169484",
+      "36268634",
+      "30355151",
+      "33110735",
+      "29723523",
+      "30948513",
+      "32976566",
+      "23041957",
+      "28389532",
+      "31928729",
+      "26938019",
+      "21135580",
+      "27033831",
+      "27015757",
+      "21777389",
+      "37267850"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.2c00414",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

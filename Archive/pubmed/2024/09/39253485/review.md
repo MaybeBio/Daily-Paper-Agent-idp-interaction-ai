@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, database construction methodology, claims, and availability as presented in the provided text
+- **Shared manuscript claim summary** The authors present StrIDR, a database of intrinsically disordered regions (IDRs) that are confirmed via experimental or homology-based evidence and resolved in experimentally determined protein structures. They report identifying 84,596 PDB entries containing an IDR sequence, of which 72,001 contain IDRs resolved in the structure. The database integrates annotations from multiple existing IDR databases and provides a web interface for browsing, searching, and downloading entries.
+- **Visible evidence base** Main text sections: Motivation, Results, Introduction, Database Construction, Database Implementation and Maintenance, Database User Interface and Example, Supplementary Material, Data availability. One figure (Fig. 1) referenced but not provided. Supplementary Table S1 and Figure S1 referenced but not provided.
+- **Missing materials affecting confidence** Figures and supplementary materials are not included in the provided text. No quantitative validation of the database content (e.g., comparison with existing resources, precision/recall analysis) is presented. No statistics on database coverage, redundancy, or quality control are provided beyond raw counts.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful resource for the IDR community, addressing a genuine gap: the intersection of experimentally confirmed IDRs and experimentally resolved structures. The database construction pipeline is described in reasonable detail, and the web resource appears functional. However, the manuscript as presented lacks quantitative validation, comparative analysis with existing resources, and a clear demonstration of the database's added value over simply querying PDB and DisProt/MobiDB independently. The core claims about database size and utility are plausible but not fully substantiated with the evidence provided.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and regions, particularly those interested in structural biology of IDRs, conformational ensembles, disorder-to-order transitions, and molecular recognition. Computational biologists developing methods for IDR structure prediction, molecular dynamics simulations, and machine learning approaches would also find the resource valuable. The database could serve as a training and benchmarking dataset for such methods.
+- **Major strengths** The database addresses a clear and important gap in the IDR field, as the intersection of experimentally confirmed disorder and experimentally resolved structure is indeed under-served. The integration of multiple existing databases (DisProt, IDEAL, MobiDB, DIBS, MFIB, FuzDB, PDBtot, PDBcdr) is a sensible approach. The web interface and downloadable data formats (JSON, CIF, TSV) are appropriate and user-friendly. The manuscript is clearly written and accessible to a broad audience.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The database contains 84,596 PDB entries with an IDR sequence, of which 72,001 contain IDRs resolved in the structure.
+  - **Evidence pointer** Results section, Database Construction section, Fig. 1 (not provided)
+  - **Concern** The manuscript reports these counts but provides no validation of the underlying methodology. Specifically, the authors state that IDR residues were identified by cross-referencing UniProt mappings with annotations from DisProt, IDEAL, and MobiDB, and that missing residues were removed. However, no details are given on how "missing residues" were determined (e.g., from PDB REMARK 465 records, SIFTS gap annotations, or other sources). The accuracy of the "resolved IDR" classification depends critically on this step, and errors here would propagate to all downstream claims.
+  - **Why it matters** The central claim of the database is that it identifies IDRs that are actually resolved in structures. If the method for determining resolved versus unresolved residues is not robust, the database could contain many false positives (IDRs incorrectly classified as resolved) or false negatives. This would undermine the primary utility of the resource.
+  - **Resolution test** Provide a detailed description of the algorithm used to determine which residues are resolved in the structure. Include a validation set (e.g., manually curated examples) showing that the method correctly identifies resolved and unresolved IDR residues. Report precision and recall on this validation set. Additionally, compare a sample of StrIDR entries against manual inspection of the corresponding PDB files.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** "StrIDR is expected to be useful for researchers who seek to gain insights into the dynamics, folding, and interactions of IDRs."
+  - **Evidence pointer** Introduction, Results section
+  - **Concern** The manuscript claims broad utility but provides no concrete examples or case studies demonstrating how the database can be used to gain such insights. No analysis of the content is presented beyond raw counts. For example, the authors do not report the distribution of IDR lengths, the frequency of DOR versus DDR transitions, the types of experimental methods used to determine the structures, or any biological insights derived from the data.
+  - **Why it matters** A database paper should demonstrate that the resource enables new analyses or insights that were not previously possible. Without such demonstration, the scientific importance of the resource remains asserted rather than shown.
+  - **Resolution test** Add a section with 2-3 concrete use cases. For example: (1) analysis of the length distribution of resolved IDRs and comparison with unresolved IDRs; (2) identification of IDRs that are resolved in some structures but not others for the same protein, and analysis of the structural context; (3) demonstration that the database can be used to identify IDRs with high conformational variability across multiple structures. These analyses would substantiate the claimed utility.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The database can provide useful insights into the dynamics, folding, and interactions of IDRs."
+  - **Evidence pointer** Database Construction section, Database User Interface and Example section
+  - **Concern** The manuscript does not describe any quality control measures for the data. For example, are there checks for redundancy (e.g., multiple PDB entries for the same protein with identical IDR annotations)? How are conflicting annotations from different source databases (e.g., DisProt versus MobiDB) reconciled? What is the update frequency of the database, and how are new PDB entries incorporated?
+  - **Why it matters** Data quality and maintenance are critical for the long-term utility of any database. Users need to know the provenance and reliability of the annotations, and how to cite or version the resource.
+  - **Resolution test** Add a section on quality control and maintenance. Describe how conflicts between source databases are resolved, whether redundancy is addressed, and the planned update schedule. Provide statistics on the overlap and agreement between the different source databases.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction
+  - **Issue** The distinction between "IDR sequence" and "IDR resolved in the structure" is introduced somewhat abruptly. The concept of missing residues in crystal structures may not be familiar to all readers.
+  - **Required correction** Add one or two sentences explaining that in X-ray crystallography and cryo-EM, flexible regions often lack electron density and are therefore not modeled in the final structure, and that this is the key distinction the database addresses.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Database Construction, "Gathering data from disordered protein databases"
+  - **Evidence pointer** Database Construction section
+  - **Issue** The list of MobiDB annotation types included is long and somewhat opaque (e.g., "derived-mobile-th_90", "derived-mobile context dependent-th_90"). The meaning of these terms is not explained.
+  - **Required correction** Briefly explain what these annotation types represent, or refer the reader to the MobiDB documentation for definitions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Database User Interface and Example, example entry
+  - **Evidence pointer** Database User Interface and Example section
+  - **Issue** The example of PDB ID 1a27 is described in detail, but it is not clear why this particular example was chosen or what it illustrates beyond the basic functionality.
+  - **Required correction** Use the example to illustrate a specific feature of the database, such as how a user can identify which IDR residues are resolved versus unresolved, or how to compare annotations from different source databases.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (resolved residue determination methodology not validated), R1-M2 (no demonstrated utility or case studies), R1-M3 (no quality control or maintenance plan described)
+- **Assessment against Nature-style criteria** Originality: The concept of a database specifically for IDRs resolved in experimentally determined structures is novel and addresses a real gap. However, the approach of combining existing databases is not methodologically novel. Scientific importance: Potentially high, as the resource could enable new structural and functional analyses of IDRs, but this importance is not demonstrated in the current manuscript. Interdisciplinary readership: The database would be of interest to structural biologists, computational biologists, and biochemists, but the manuscript does not currently make a compelling case for why these communities should use it. Technical soundness: The pipeline is described at a high level, but key technical details (resolved residue determination, quality control) are missing or unvalidated. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some technical terms could be better explained.
+- **Recommendation posture** Supportive if technical concerns are resolved. The database addresses a genuine need, and the authors have done the work of assembling and integrating data from multiple sources. However, the manuscript needs substantial additional validation and demonstration of utility before the case for the database's value is established.
+
+## Risk / unsupported claims
+- The claim that 72,001 PDB entries contain IDRs resolved in the structure is unsupported without a validated method for determining resolved residues.
+- The claim that the database "can provide useful insights into the dynamics, folding, and interactions of IDRs" is asserted but not demonstrated with any analysis or case study.
+- The claim that the database is "comprehensive" is not supported by any comparison with the total number of PDB entries containing IDRs or with existing resources.
+- The statement that "only a tiny fraction of these IDRs are associated with an experimentally determined protein structure" is presented without quantitative support.
+- The example entry (PDB 1a27) is described, but no verification of the described annotations is possible without access to the database or the figure.

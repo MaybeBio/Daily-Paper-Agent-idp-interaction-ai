@@ -1,0 +1,177 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.15.557899",
+  "title": "The SARS-CoV-2 nucleoprotein associates with anionic lipid membranes",
+  "doi": "10.1101/2023.09.15.557899",
+  "abstract": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a lipid-enveloped virus that acquires its lipid bilayer from the host cell it infects. SARS-CoV-2 can spread from cell to cell or from patient to patient by undergoing assembly and budding to form new virions. The assembly and budding of SARS-CoV-2 is mediated by several structural proteins known as envelope (E), membrane (M), nucleoprotein (N) and spike (S), which can form virus-like particles (VLPs) when co-expressed in mammalian cells. Assembly and budding of SARS-CoV-2 from the host ER-Golgi intermediate compartment is a critical step in the virus acquiring its lipid bilayer. To date, little information is available on how SARS-CoV-2 assembles and forms new viral particles from host membranes. In this study, we find the N protein can strongly associate with anionic lipids including phosphoinositides and phosphatidylserine. Moreover, lipid binding is shown to occur in the N protein C-terminal domain, which is supported by extensive in silico analysis. Anionic lipid binding occurs for both the free and N oligomeric forms suggesting N can associate with membranes in the nucleocapsid form. Herein we present a lipid-dependent model based on in vitro , cellular and in silico data for the recruitment of N to M assembly sites in the lifecycle of SARS-CoV-2.",
+  "authors": [
+    "Dutta M",
+    "Su Y",
+    "Voth GA",
+    "Stahelin RV"
+  ],
+  "published_date": "2023-09-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.15.557899",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.15.557899.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR725371",
+    "raw_record": {
+      "id": "PPR725371",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR725371"
+        ]
+      },
+      "doi": "10.1101/2023.09.15.557899",
+      "title": "The SARS-CoV-2 nucleoprotein associates with anionic lipid membranes",
+      "authorString": "Dutta M, Su Y, Voth GA, Stahelin RV.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dutta M",
+            "lastName": "Dutta",
+            "firstName": "Mandira",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Chicago Center for Theoretical Chemistry, Institute for Biophysical Dynamics, and James Frank Institute, The University of Chicago, Chicago, IL, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Su Y",
+            "lastName": "Su",
+            "firstName": "Yuan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicinal Chemistry and Molecular Pharmacology and the Purdue Institute of Inflammation, Immunology and Infectious Disease, Purdue University, West Lafayette, IN, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Voth GA",
+            "lastName": "Voth",
+            "firstName": "Gregory",
+            "initials": "GA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, Chicago Center for Theoretical Chemistry, Institute for Biophysical Dynamics, and James Frank Institute, The University of Chicago, Chicago, IL, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stahelin RV",
+            "lastName": "Stahelin",
+            "firstName": "Robert",
+            "initials": "RV",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicinal Chemistry and Molecular Pharmacology and the Purdue Institute of Inflammation, Immunology and Infectious Disease, Purdue University, West Lafayette, IN, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a lipid-enveloped virus that acquires its lipid bilayer from the host cell it infects. SARS-CoV-2 can spread from cell to cell or from patient to patient by undergoing assembly and budding to form new virions. The assembly and budding of SARS-CoV-2 is mediated by several structural proteins known as envelope (E), membrane (M), nucleoprotein (N) and spike (S), which can form virus-like particles (VLPs) when co-expressed in mammalian cells. Assembly and budding of SARS-CoV-2 from the host ER-Golgi intermediate compartment is a critical step in the virus acquiring its lipid bilayer. To date, little information is available on how SARS-CoV-2 assembles and forms new viral particles from host membranes. In this study, we find the N protein can strongly associate with anionic lipids including phosphoinositides and phosphatidylserine. Moreover, lipid binding is shown to occur in the N protein C-terminal domain, which is supported by extensive  in silico analysis. Anionic lipid binding occurs for both the free and N oligomeric forms suggesting N can associate with membranes in the nucleocapsid form. Herein we present a lipid-dependent model based on  in vitro , cellular and  in silico data for the recruitment of N to M assembly sites in the lifecycle of SARS-CoV-2.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.15.557899"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR725371"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR725371&type=FILE&fileName=EMS188080-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38866325",
+            "reference": "The Journal of biological chemistry. 2024 Aug;300(8):107456",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS188080",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-09-17",
+      "firstPublicationDate": "2023-09-15",
+      "firstIndexDate": "2023-09-17",
+      "fullTextReceivedDate": "2023-10-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

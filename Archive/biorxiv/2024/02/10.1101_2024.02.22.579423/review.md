@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusion, methods, supplementary figure legends)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided text
+- **Shared manuscript claim summary** The authors propose that hyperphosphorylation of the SR domain of SARS-CoV-2 nucleoprotein by the kinase cascade SRPK1/GSK-3/CK1 induces a conformational switch that inhibits RNA binding via competitive occupation of the RNA-binding surface of the N2 domain, and that this mechanism is specific to the physiologically relevant phosphorylation pattern.
+- **Visible evidence base** NMR chemical shift perturbations, 15N relaxation dispersion, paramagnetic relaxation enhancement, time-resolved phosphorylation assays, RNA binding assays, negative-stain electron microscopy
+- **Missing materials affecting confidence** Figures 1-7 and supplementary figures 1-7 are referenced but not provided; no raw NMR spectra, no quantitative binding affinities, no statistical error analysis, no negative controls for kinase specificity, no cellular or in vivo validation
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question regarding the mechanistic role of phosphorylation in regulating SARS-CoV-2 nucleoprotein function. The use of time-resolved NMR to dissect the sequence of phosphorylation events and their functional consequences is methodologically sophisticated and represents a valuable contribution to the field. However, the current version of the manuscript has several significant gaps that prevent full evaluation of the central claims. The most critical issues are the lack of quantitative binding data, the absence of direct evidence for the proposed autoinhibitory mechanism, and the incomplete presentation of the data supporting the conformational switch model. The manuscript would benefit from additional experiments to establish the physiological relevance of the findings and to rule out alternative explanations for the observed inhibition of RNA binding.
+- **Who would be interested in the results, and why** Structural biologists studying intrinsically disordered proteins and post-translational modification; virologists investigating SARS-CoV-2 replication and nucleocapsid assembly; researchers interested in kinase signaling and its role in viral life cycles; NMR spectroscopists developing time-resolved approaches for studying protein dynamics
+- **Major strengths** The study employs a sophisticated time-resolved NMR approach to monitor phosphorylation at residue-specific resolution, which is technically demanding and well-executed. The identification of a specific phosphorylation threshold required for RNA binding inhibition is a novel and important finding. The comparison between the physiologically relevant kinase cascade and PKA phosphorylation provides a compelling control that highlights the specificity of the observed effect. The use of multiple complementary techniques (CSPs, relaxation, PREs, EM) strengthens the conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Hyperphosphorylation induces a change in conformation of N2, probably due to binding of N2 to the pSR region, that mirrors the impact of RNA binding"
+  - **Evidence pointer** Figure 4, Results section "Hyperphosphorylated SR inhibits N:RNA interaction via the RNA-binding surface of N2"
+  - **Concern** The central claim that pSR binds directly to the RNA-binding surface of N2 is inferred primarily from the similarity of chemical shift perturbation patterns between RNA binding and phosphorylation. However, no direct binding assay (e.g., ITC, MST, or NMR titration of pSR peptide with N2) is presented to demonstrate a physical interaction between pSR and N2. The CSP similarity could also arise from allosteric effects or from phosphorylation-induced conformational changes in N2 that do not involve direct pSR binding. The authors state that "the bound state chemical shifts (RNA-bound and pN3-bound) are different," which suggests that the interactions are not identical, but this distinction is not explored mechanistically.
+  - **Why it matters** The proposed autoinhibitory mechanism is the central conceptual advance of the paper. Without direct evidence for pSR-N2 binding, the mechanistic model remains speculative. The distinction between direct competition and allosteric inhibition has important implications for understanding how phosphorylation regulates N function and for designing therapeutic interventions.
+  - **Resolution test** Provide direct binding data (e.g., ITC, MST, or NMR titration) demonstrating that a phosphorylated SR peptide binds to N2 with measurable affinity, and that this binding is competitive with RNA. Alternatively, show that a pSR peptide can displace RNA from N2 in a dose-dependent manner.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** "Both pN234(II) and pN234(III) fail to bind RNA, demonstrating that phosphorylation by SRPK1/GSK-3 is necessary and sufficient"
+  - **Evidence pointer** Figure 5A, Results section "Hyperphosphorylated SR inhibits N:RNA interaction via the RNA-binding surface of N2"
+  - **Concern** The claim that RNA binding is "completely abrogated" is based on qualitative assessment of NMR spectra (CSPs). No quantitative binding affinity measurements are provided for the phosphorylated versus unphosphorylated forms. The authors do not report dissociation constants (Kd) or binding curves for any of the N-RNA interactions. Without quantitative data, it is impossible to assess the magnitude of the effect or to determine whether "abrogation" represents a complete loss of binding or a significant reduction in affinity. Furthermore, the RNA concentrations used in the binding assays are not specified, making it difficult to evaluate whether the experiments were performed under saturating conditions.
+  - **Why it matters** The quantitative extent of RNA binding inhibition is critical for understanding the biological significance of the phosphorylation switch. A modest reduction in affinity may have different functional consequences than complete abrogation. The lack of quantitative data also prevents comparison with previous studies that have measured N-RNA binding affinities.
+  - **Resolution test** Measure binding affinities (Kd) for N234 and pN234(II)/pN234(III) with both RNA substrates using a quantitative method (e.g., ITC, MST, or fluorescence anisotropy). Report the fold-change in affinity upon phosphorylation and provide error estimates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance
+  - **Claim pointer** "Progressive phosphorylation of newly unpackaged N by host-kinases likely maintains the protein in a form that is incapable of binding RNA, via an autoinhibitory strategy that protects from non-specific binding to cytosolic host RNA, as well as premature binding to viral genomic RNA"
+  - **Evidence pointer** Discussion section
+  - **Concern** The physiological relevance of the proposed mechanism is discussed extensively but not tested experimentally. The authors speculate about the role of phosphorylation in the viral life cycle without providing any cellular or in vivo data. The claim that phosphorylation prevents premature RNA binding during the viral replication cycle is plausible but remains entirely hypothetical. The authors do not address whether the phosphorylation levels achieved in vitro are comparable to those observed in infected cells, nor do they test whether the specific phosphorylation sites identified are indeed modified in a cellular context.
+  - **Why it matters** The broader significance of the findings depends on their relevance to the actual viral life cycle. Without cellular validation, the physiological importance of the proposed switch remains uncertain. The manuscript would be substantially strengthened by experiments demonstrating that the identified phosphorylation sites are modified in infected cells and that this modification correlates with changes in RNA binding.
+  - **Resolution test** Perform mass spectrometry on N isolated from infected cells to confirm the phosphorylation sites identified in vitro. Alternatively, generate phosphomimetic or phosphodead mutants of N and test their RNA binding and replication phenotypes in cell-based assays.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Alternative explanations
+  - **Claim pointer** "The necessary phosphorylation pattern for inhibition of RNA binding is thereby revealed as a regularly spaced charge distribution with respect to the primary sequence: S180, S184, S188, S190, S194, T198, S202, S206, underlining the probable role of electrostatics in this inhibition"
+  - **Evidence pointer** Figure 6, Results section "Hyperphosphorylated SR sites specifically abrogate RNA binding"
+  - **Concern** The authors attribute the inhibition of RNA binding to electrostatic repulsion between the negatively charged pSR and the negatively charged RNA backbone. While this is a reasonable hypothesis, the authors do not test it directly. The time-resolved NMR data show correlations between phosphorylation of specific sites and RNA unbinding, but correlation does not establish causation. The authors do not rule out the possibility that phosphorylation induces conformational changes in N2 that reduce RNA binding affinity through allosteric mechanisms rather than direct electrostatic competition. Additionally, the claim that the phosphorylation pattern is "regularly spaced" is based on only 8 sites and the functional significance of this spacing is not demonstrated.
+  - **Why it matters** Understanding the mechanism of inhibition is important for predicting how mutations or alternative phosphorylation patterns might affect N function. If the mechanism is purely electrostatic, then any phosphorylation pattern that achieves a similar charge distribution should be effective. If the mechanism involves specific conformational changes, then the identity and position of phosphorylated residues may be more critical.
+  - **Resolution test** Test the electrostatic hypothesis by (1) mutating the RNA-binding surface of N2 to reduce its positive charge and testing whether this reduces the inhibitory effect of phosphorylation, or (2) using a phosphomimetic with a different charge distribution to test whether the specific spacing is required for inhibition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Hyperphosphorylation modifies the dynamic behaviour of the disordered SR region"
+  - **Evidence pointer** Figure 3
+  - **Issue** The description of the relaxation data is somewhat unclear. The authors state that "the overall correlation time of the SR region increases over the three steps" but do not provide quantitative values or error estimates. It is also unclear whether the observed increases are statistically significant given the experimental uncertainty.
+  - **Required correction** Provide quantitative relaxation rates with error bars and statistical significance tests. Clarify whether the observed changes are within the expected experimental variability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Materials and Methods, "Phosphorylation of N123 and N234"
+  - **Evidence pointer** Methods section
+  - **Issue** The methods state that kinases were added "sequentially or simultaneously" but do not specify which approach was used for the time-resolved experiments. The order and timing of kinase addition could affect the phosphorylation pattern and the interpretation of the results.
+  - **Required correction** Specify the exact experimental protocol used for the time-resolved NMR experiments, including the order of kinase addition and the time points at which spectra were recorded.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "Interaction of N with RNA from the viral 5' UTR"
+  - **Evidence pointer** Figure 4, supporting figure 2
+  - **Issue** The authors state that "titration with the two different RNAs resulted in shifts of the same amino acids in N2" but do not provide a quantitative comparison of the CSP magnitudes between the two RNA substrates. The statement that the longer RNA "was found to be in slower exchange" is qualitative and not supported by quantitative analysis.
+  - **Required correction** Provide a quantitative comparison of CSP magnitudes for the two RNA substrates and report the exchange regimes with appropriate justification.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The authors suggest that "formation of organelles may provide some kind of protection from host kinases" but do not provide any experimental evidence or cite specific literature supporting this claim. This speculation is presented without sufficient qualification.
+  - **Required correction** Either provide supporting evidence or clearly label this as speculation and discuss alternative possibilities.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Hyperphosphorylated SR sites specifically abrogate RNA binding"
+  - **Evidence pointer** Figure 6
+  - **Issue** The time-resolved experiment comparing phosphorylation rates to RNA unbinding rates is described, but the analysis appears to be qualitative. The authors state that some sites show "similar rates" and others are "significantly slower" but do not provide quantitative rate constants or statistical comparisons.
+  - **Required correction** Provide quantitative rate constants for phosphorylation and RNA unbinding with error estimates and statistical tests to support the claims of similarity or difference.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (direct binding evidence), R1-M2 (quantitative binding data), R1-M3 (physiological relevance)
+- **Assessment against Nature-style criteria** Originality: The study is original in its application of time-resolved NMR to dissect the sequence of phosphorylation events in a viral nucleoprotein and to identify a specific phosphorylation threshold for functional switching. The concept of an autoinhibitory phosphorylation switch in a viral nucleoprotein is novel. Scientific importance: The findings have potential importance for understanding SARS-CoV-2 replication and for identifying new therapeutic targets. However, the lack of cellular validation limits the current significance. Interdisciplinary readership: The work will appeal to structural biologists, virologists, and NMR spectroscopists, but the presentation is heavily technical and may not be accessible to a broader readership. Technical soundness: The NMR methodology appears sound, but the lack of quantitative binding data and direct interaction evidence weakens the central claims. Readability for nonspecialists: The manuscript is written in a technical style that assumes significant background knowledge in NMR spectroscopy and protein biophysics. The abstract is accessible, but the results section would benefit from additional context and explanation of the significance of the findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question with sophisticated methodology, and the core observation that specific phosphorylation patterns inhibit RNA binding is likely to be correct. However, the central mechanistic claim of direct pSR-N2 competition requires additional experimental support, and the physiological relevance needs to be established. The manuscript would be suitable for publication in a high-impact journal after these concerns are addressed.
+
+## Risk / unsupported claims
+- The claim that pSR binds directly to the RNA-binding surface of N2 is unsupported by direct binding data
+- The claim that RNA binding is "completely abrogated" is unsupported by quantitative binding measurements
+- The claim that the identified phosphorylation pattern is "specific" for inhibition is based on a single comparison with PKA phosphorylation and requires additional controls
+- The physiological relevance of the proposed switch is speculative and not tested experimentally
+- The claim that phosphorylation-induced changes in long-range contacts are "related to packaging or unpackaging" is speculative
+- The statement that "formation of organelles may provide some kind of protection from host kinases" is unsupported by evidence or citation

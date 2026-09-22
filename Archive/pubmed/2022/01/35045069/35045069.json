@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "35045069",
+    "doi": "10.1371/journal.pcbi.1009804",
+    "title": "Extended ensemble simulations of a SARS-CoV-2 nsp1-5'-UTR complex."
+  },
+  "content": {
+    "abstract": "Nonstructural protein 1 (nsp1) of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a 180-residue protein that blocks translation of host mRNAs in SARS-CoV-2-infected cells. Although it is known that SARS-CoV-2's own RNA evades nsp1's host translation shutoff, the molecular mechanism underlying the evasion was poorly understood. We performed an extended ensemble molecular dynamics simulation to investigate the mechanism of the viral RNA evasion. Simulation results suggested that the stem loop structure of the SARS-CoV-2 RNA 5'-untranslated region (SL1) binds to both nsp1's N-terminal globular region and intrinsically disordered region. The consistency of the results was assessed by modeling nsp1-40S ribosome structure based on reported nsp1 experiments, including the X-ray crystallographic structure analysis, the cryo-EM electron density map, and cross-linking experiments. The SL1 binding region predicted from the simulation was open to the solvent, yet the ribosome could interact with SL1. Cluster analysis of the binding mode and detailed analysis of the binding poses suggest residues Arg124, Lys47, Arg43, and Asn126 may be involved in the SL1 recognition mechanism, consistent with the existing mutational analysis.",
+    "keywords": [],
+    "mesh_terms": [
+      "COVID-19/*virology",
+      "Computational Biology",
+      "Host-Pathogen Interactions/*genetics",
+      "Humans",
+      "Models, Genetic",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Protein Biosynthesis",
+      "*SARS-CoV-2/genetics/pathogenicity",
+      "Untranslated Regions/*genetics",
+      "*Viral Nonstructural Proteins/chemistry/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sakuraba, Shun",
+        "Xie, Qilin",
+        "Kasahara, Kota",
+        "Iwakiri, Junichi",
+        "Kono, Hidetoshi"
+      ],
+      "short_names": [
+        "Sakuraba S",
+        "Xie Q",
+        "Kasahara K",
+        "Iwakiri J",
+        "Kono H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5768-2389",
+        "ORCID: 0000-0003-0207-6271",
+        "ORCID: 0000-0002-4611-2142",
+        "ORCID: 0000-0001-5729-8707"
+      ],
+      "affiliations": [
+        "Institute for Quantum Life Science, National Institutes for Quantum Science and Technology, Kizugawa, Japan.",
+        "Graduate School of Life Sciences, Ritsumeikan University, Kusatsu, Japan.",
+        "College of Life Sciences, Ritsumeikan University, Kusatsu, Japan.",
+        "Graduate School of Frontier Sciences, The University of Tokyo, Kashiwa, Japan.",
+        "Institute for Quantum Life Science, National Institutes for Quantum Science and Technology, Kizugawa, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sakuraba, Shun",
+        "short_name": "Sakuraba S",
+        "identifiers": [
+          "0000-0001-5768-2389"
+        ],
+        "affiliations": [
+          "Institute for Quantum Life Science, National Institutes for Quantum Science and Technology, Kizugawa, Japan."
+        ]
+      },
+      {
+        "full_name": "Xie, Qilin",
+        "short_name": "Xie Q",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate School of Life Sciences, Ritsumeikan University, Kusatsu, Japan."
+        ]
+      },
+      {
+        "full_name": "Kasahara, Kota",
+        "short_name": "Kasahara K",
+        "identifiers": [
+          "0000-0003-0207-6271"
+        ],
+        "affiliations": [
+          "College of Life Sciences, Ritsumeikan University, Kusatsu, Japan."
+        ]
+      },
+      {
+        "full_name": "Iwakiri, Junichi",
+        "short_name": "Iwakiri J",
+        "identifiers": [
+          "0000-0002-4611-2142"
+        ],
+        "affiliations": [
+          "Graduate School of Frontier Sciences, The University of Tokyo, Kashiwa, Japan."
+        ]
+      },
+      {
+        "full_name": "Kono, Hidetoshi",
+        "short_name": "Kono H",
+        "identifiers": [
+          "0000-0001-5729-8707"
+        ],
+        "affiliations": [
+          "Institute for Quantum Life Science, National Institutes for Quantum Science and Technology, Kizugawa, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/20 06:00",
+    "fetched_at": "2026-09-20 07:47:03"
+  },
+  "links": {
+    "cites": [
+      "42049233",
+      "41081353",
+      "40568634",
+      "40517145",
+      "38793572",
+      "38718213",
+      "36445575",
+      "36077037",
+      "35897696"
+    ],
+    "refs": [
+      "34874953",
+      "34624207",
+      "34373319",
+      "34189489",
+      "34039006",
+      "33979833",
+      "33591749",
+      "33574233",
+      "33319167",
+      "33268501",
+      "33188728",
+      "33135884",
+      "33080218",
+      "32965173",
+      "32908316",
+      "32680882",
+      "32330414",
+      "32015508",
+      "31303975",
+      "30896943",
+      "30256111",
+      "30134668",
+      "29735687",
+      "29378935",
+      "29309620",
+      "29297679",
+      "28448138",
+      "27741327",
+      "26967163",
+      "26574453",
+      "26574339",
+      "26488642",
+      "26124199",
+      "25432065",
+      "24453949",
+      "23035226",
+      "22855488",
+      "22824207",
+      "22539264",
+      "22174690",
+      "21921995",
+      "21714551",
+      "21370970",
+      "19838190",
+      "19435882",
+      "19045004",
+      "18593145",
+      "18305050",
+      "17715225",
+      "17351000",
+      "17212484",
+      "17202208",
+      "16981200",
+      "16912115",
+      "15264254",
+      "14696385",
+      "8744570",
+      "6667333"
+    ],
+    "similar": [
+      "35045069",
+      "35149555",
+      "34851631",
+      "33234675",
+      "33135884",
+      "37660941",
+      "32908316",
+      "33188728",
+      "37503833",
+      "33479166",
+      "33151142",
+      "22855488",
+      "35236777",
+      "37821106",
+      "35232816",
+      "32680882",
+      "39007765",
+      "34112887",
+      "35671758",
+      "32995777",
+      "38722808",
+      "34132580",
+      "34624207",
+      "38593595",
+      "38427561",
+      "35434785",
+      "39231808",
+      "38277395",
+      "33268501",
+      "34774526",
+      "37733586",
+      "37802027",
+      "36793215",
+      "37415298",
+      "33080218",
+      "38718213",
+      "34127534",
+      "26311885",
+      "36847528",
+      "33173873",
+      "36412088",
+      "38793572",
+      "32867854",
+      "34110264",
+      "36843199",
+      "35429230",
+      "36610391",
+      "33933885",
+      "35658408",
+      "37333070",
+      "35849342",
+      "34232536",
+      "39154269",
+      "33979833",
+      "34684233",
+      "37205707",
+      "38900816",
+      "28843094",
+      "34315815",
+      "34874953",
+      "34749522",
+      "35323109",
+      "23658627",
+      "30943371",
+      "32786685",
+      "19838190",
+      "33547084",
+      "37292671",
+      "32567979",
+      "33140777",
+      "34719824",
+      "35060977",
+      "33770349",
+      "38241259",
+      "36170200",
+      "36366534",
+      "35531330",
+      "38538957",
+      "32738306",
+      "33540583",
+      "30111568",
+      "34039006",
+      "34144270",
+      "38842942",
+      "38843251",
+      "34896769",
+      "23269811",
+      "39132967",
+      "37398176",
+      "32692465",
+      "34452352",
+      "34954105",
+      "32657643",
+      "32965173",
+      "34043733",
+      "33862077",
+      "36736295",
+      "35425590",
+      "34189489",
+      "35715434",
+      "34633480",
+      "38385526",
+      "38613382",
+      "37791874",
+      "32995776",
+      "34373319",
+      "34219981",
+      "34648928",
+      "37446375",
+      "36134379",
+      "33313418"
+    ],
+    "review": [
+      "35045069",
+      "34112887",
+      "39231808",
+      "35429230",
+      "33540583",
+      "32692465",
+      "38385526"
+    ],
+    "pmc": [
+      "8803185"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/covid19coronavirusdisease2019.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "COVID-19 (Coronavirus Disease 2019)"
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009804",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35045069/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35045069",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

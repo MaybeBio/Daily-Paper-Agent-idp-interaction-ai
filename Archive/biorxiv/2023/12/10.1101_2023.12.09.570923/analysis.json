@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.12.09.570923",
+  "title": "DeepEnzyme: a robust deep learning model for improved enzyme turnover number prediction by utilizing features of protein 3D structures",
+  "authors": "Tong Wang; Guangming Xiang; Siwei He; Liyun Su; Xuefeng Yan; Hongzhong Lu",
+  "journal": "bioRxiv",
+  "published_date": "2023-12-10",
+  "window": {
+    "start": "2023-12-04",
+    "end": "2023-12-10"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用Transformer+GCN预测酶催化周转数kcat，对象为折叠酶而非无序蛋白，且预测催化效率而非PPI互作机制，与本课题关联较弱。",
+  "abstract": "Turnover numbers (kcat), which indicate an enzyme’s catalytic efficiency, have a wide range of applications in fields including protein engineering and synthetic biology. Experimentally measuring the enzymes’ kcat is always time-consuming. Recently, the prediction of kcat using deep learning models has mitigated this problem. However, the accuracy and robustness in kcat prediction still needs to be improved significantly, particularly when dealing with enzymes with low sequence similarity compared to those within the training dataset. Herein, we present DeepEnzyme, a cutting-edge deep learning model that combines the most recent Transformer and Graph Convolutional Network (GCN) architectures. To improve the prediction accuracy, DeepEnzyme was trained by leveraging the integrated features from both sequences and 3D structures. Consequently, our model exhibits remarkable robustness when processing enzymes with low sequence similarity compared to those in the training dataset by utilizing additional features from high-quality protein 3D structures. DeepEnzyme also makes it possible to evaluate how point mutations affect the catalytic activity of the enzyme, which helps identify residue sites that are crucial for the catalytic function. In summary, DeepEnzyme represents a pioneering effort in predicting enzymes’ kcat values with superior accuracy and robustness compared to previous algorithms. This advancement will significantly contribute to our comprehension of enzyme function and its evolutionary patterns across species.",
+  "abstract_zh": "转换数（kcat）指示酶的催化效率，在蛋白质工程和合成生物学等领域有广泛应用。实验测量酶的kcat总是耗时费力。近期，利用深度学习模型预测kcat缓解了这一问题。然而，kcat预测的准确性和鲁棒性仍需显著提升，尤其是在处理与训练数据集中序列相似度较低的酶时。在此，我们提出DeepEnzyme，一种结合了最新Transformer和图卷积网络（GCN）架构的前沿深度学习模型。为提高预测准确性，DeepEnzyme通过利用序列和三维结构的整合特征进行训练。因此，通过利用高质量蛋白质三维结构的额外特征，我们的模型在处理与训练数据集中序列相似度较低的酶时展现出显著的鲁棒性。DeepEnzyme还使得评估点突变对酶催化活性的影响成为可能，这有助于识别对催化功能至关重要的残基位点。总之，DeepEnzyme在预测酶kcat值方面代表了开创性的努力，其准确性和鲁棒性优于先前算法。这一进展将显著促进我们对酶功能及其跨物种进化模式的理解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.12.09.570923",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.12.09.570923",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.12.09.570923/index.html"
+}

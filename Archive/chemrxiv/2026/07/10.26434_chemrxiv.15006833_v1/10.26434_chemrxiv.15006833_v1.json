@@ -1,0 +1,230 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv.15006833/v1",
+  "title": "Force-Field Dependence in Molecular Dynamics Simulations of the Intrinsically Disordered N-Terminal Region of the Human Prion Protein",
+  "doi": "10.26434/chemrxiv.15006833/v1",
+  "abstract": "The human cellular prion protein (PrP C ) exhibits a characteristic structural organization, comprising a stable C-terminal domain (CTD) and an intrinsically disordered, highly flexible N-terminal domain (NTD). This structural heterogeneity poses a significant challenge for atomistic molecular modeling, given that the predicted conformational ensemble can be strongly influenced by the choice of force field. Here, we compare all-atom molecular dynamics (MD) simulations of full-length human PrP C (23–230) performed with the AMBER99SB-ILDN and CHARMM36m force fields against available experimental data, and examine whether agreement with commonly used validation observables is accompanied by convergence of the interdomain interaction ensemble. Both force fields reproduce the experimental backbone chemical shifts of human PrP C (BMRB entry 4402) within the reported accuracy of the chemical-shift predictor and describe the N-terminal domain as predominantly random-coil-like, although CHARMM36m shows closer agreement with experiment. Nevertheless, both force fields generate conformational ensembles that are substantially more compact than the experimental SAXS radius of gyration, consistent with the well-documented tendency of the TIP3P water model to over-compact intrinsically disordered proteins. Despite the overall agreement with experimental information, independent replicas generated with the same force field do not converge to similar ensemble-averaged interdomain contact patterns. These findings highlight the importance of explicitly assessing the convergence of interdomain interaction ensembles in simulations of multidomain proteins containing intrinsically disordered regions, rather than inferring their reliability solely from agreement with global or local validation observables.",
+  "authors": [
+    "Brenton S. Laviolette",
+    "Estefania Alvarado-Torres",
+    "Gururaj Kudur Jayaprakash",
+    "Jorge Nochebuena"
+  ],
+  "published_date": "2026-07-30",
+  "updated_date": "2026-07-31T05:53:07Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv.15006833/v1",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15006833/v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "1",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            31
+          ]
+        ],
+        "date-time": "2026-07-31T06:03:46Z",
+        "timestamp": 1785477826542,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>\n                  The human cellular prion protein (PrP\n                  <jats:sup>C</jats:sup>\n                  ) exhibits a characteristic structural organization, comprising a stable C-terminal domain (CTD) and an intrinsically disordered, highly flexible N-terminal domain (NTD). This structural heterogeneity poses a significant challenge for atomistic molecular modeling, given that the predicted conformational ensemble can be strongly influenced by the choice of force field. Here, we compare all-atom molecular dynamics (MD) simulations of full-length human PrP\n                  <jats:sup>C</jats:sup>\n                  (23–230) performed with the AMBER99SB-ILDN and CHARMM36m force fields against available experimental data, and examine whether agreement with commonly used validation observables is accompanied by convergence of the interdomain interaction ensemble. Both force fields reproduce the experimental backbone chemical shifts of human PrP\n                  <jats:sup>C</jats:sup>\n                  (BMRB entry 4402) within the reported accuracy of the chemical-shift predictor and describe the N-terminal domain as predominantly random-coil-like, although CHARMM36m shows closer agreement with experiment. Nevertheless, both force fields generate conformational ensembles that are substantially more compact than the experimental SAXS radius of gyration, consistent with the well-documented tendency of the TIP3P water model to over-compact intrinsically disordered proteins. Despite the overall agreement with experimental information, independent replicas generated with the same force field do not converge to similar ensemble-averaged interdomain contact patterns. These findings highlight the importance of explicitly assessing the convergence of interdomain interaction ensembles in simulations of multidomain proteins containing intrinsically disordered regions, rather than inferring their reliability solely from agreement with global or local validation observables.\n                </jats:p>",
+      "DOI": "10.26434/chemrxiv.15006833/v1",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            31
+          ]
+        ],
+        "date-time": "2026-07-31T05:53:07Z",
+        "timestamp": 1785477187000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Force-Field Dependence in Molecular Dynamics Simulations of the Intrinsically Disordered N-Terminal Region of the Human Prion Protein"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Brenton S.",
+          "family": "Laviolette",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "College of Science and Mathematics",
+              "place": [
+                "Augusta"
+              ]
+            },
+            {
+              "name": "Augusta University",
+              "place": [
+                "Augusta"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Estefania",
+          "family": "Alvarado-Torres",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Science and Mathematics",
+              "place": [
+                "Augusta"
+              ]
+            },
+            {
+              "name": "Augusta University",
+              "place": [
+                "Augusta"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gururaj Kudur",
+          "family": "Jayaprakash",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Science and Mathematics",
+              "place": [
+                "Augusta"
+              ]
+            },
+            {
+              "name": "Augusta University",
+              "place": [
+                "Augusta"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-1063-0697",
+          "authenticated-orcid": false,
+          "given": "Jorge",
+          "family": "Nochebuena",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Science and Mathematics",
+              "place": [
+                "Augusta"
+              ]
+            },
+            {
+              "name": "Augusta University",
+              "place": [
+                "Augusta"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15006833/v1",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            31
+          ]
+        ],
+        "date-time": "2026-07-31T05:53:07Z",
+        "timestamp": 1785477187000
+      },
+      "score": 103.45935,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv.15006833/v1"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv.15006833/v1",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

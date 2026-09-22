@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, acknowledgements) as provided by the author. Figures, tables, and supplementary material referenced but not fully visible.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and alignment with stated claims. Not a line-by-line editorial review.
+- **Shared manuscript claim summary** The authors compare three all-atom MD force fields (a03ws, C36m, a99SB-disp) for IDPs using INDUS-derived dewetting free energies, water triplet angle distributions, and hydration water diffusion. They report that C36m has the lowest dewetting free energies (most hydrophobic), a99SB-disp the highest (least hydrophobic), and that a99SB-disp shows slower hydration water diffusion and greater tetrahedral structuring. They link these differences to distinct dimerization behaviors of a tau fragment (jR2R3 P301L), with C36m promoting fibril-like dimers and a99SB-disp showing entropically driven association. They propose dewetting free energies and water structuring metrics as tools for force field development.
+- **Visible evidence base** Methods descriptions for INDUS, REMD, umbrella sampling, and analysis; results narrative with quantitative values (e.g., hydration numbers, dewetting free energies, diffusion ratios, tetrahedrality percentages, residence times); references to figures (main and supplementary) and tables.
+- **Missing materials affecting confidence** Actual figures and tables (main and supplementary) are not provided; numerical data for dewetting free energies, diffusion coefficients, and free energy surfaces are only partially reported in text; simulation convergence details, error bars, and statistical analyses are not fully described; details of REMD setup (e.g., number of replicas, exchange rates, equilibration) are deferred to Supporting Information.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question: how force field choice affects hydrophobicity and water structure in IDP simulations, and how these propagate to protein–protein interactions. The use of INDUS to quantify dewetting free energies across three popular IDP force fields is a novel and valuable contribution. The link between water structuring metrics and dimerization propensity is conceptually interesting and potentially impactful. However, the manuscript as presented has several technical gaps that limit confidence in the conclusions. The lack of visible figures and tables makes it impossible to fully assess the data quality, error analysis, and statistical significance. The causal chain from amino acid-level dewetting free energies to peptide-level dimerization behavior is plausible but not fully established, particularly for a99SB-disp where the proposed entropic mechanism relies on small differences in tetrahedrality. The discussion of force field development implications is speculative but reasonable. Overall, the work is promising and likely of interest to the simulation community, but the current evidence base is insufficient to fully support all claims.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists working on IDP simulations, force field developers, and researchers studying amyloid aggregation. The manuscript provides a comparative benchmark of three widely used force fields and introduces metrics (dewetting free energy, water triplet angle distribution) that could be adopted for force field evaluation. The findings on force field-dependent dimerization propensities are directly relevant to anyone simulating IDP self-assembly.
+- **Major strengths** 1) Novel application of INDUS to compare dewetting free energies across IDP force fields, providing a physically grounded hydrophobicity metric. 2) Integration of multiple complementary analyses (dewetting, water structure, diffusion, dimerization, free energy surfaces) to build a coherent picture. 3) Use of a disease-relevant tau fragment with experimental structural data (cryo-EM) for comparison. 4) Clear articulation of the trade-offs in force field design (e.g., C36m's hydrophobicity vs. a99SB-disp's water structuring).
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that C36m has the lowest dewetting free energies (most hydrophobic) and a99SB-disp the highest (least hydrophobic), based on INDUS calculations.
+  - **Evidence pointer** Results section "Force Field Differences in Single Amino Acids"; Figure C (not visible)
+  - **Concern** The numerical values of dewetting free energies are not reported in the text. Without these values, error bars, or statistical comparisons, it is impossible to assess whether the differences between force fields are significant or within noise. The claim of a clear ranking (a99SB-disp < a03ws < C36m) requires quantitative support.
+  - **Why it matters** The entire manuscript hinges on this ranking. If the differences are small or not statistically robust, the subsequent interpretations about dimerization propensity and entropic driving forces are undermined.
+  - **Resolution test** Provide a table or figure with mean dewetting free energies, standard deviations or confidence intervals, and statistical tests (e.g., bootstrap or t-test) for each amino acid in each force field. Show that the ranking is consistent across amino acids and not driven by a few outliers.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that a99SB-disp has significantly slower hydration water diffusion (21–32% slower than bulk) compared to a03ws and C36m (2–7% slowdown), and that this is due to enhanced tetrahedral structuring.
+  - **Evidence pointer** Results section "Force Field Differences in Single Amino Acids"; Figure D (not visible)
+  - **Concern** The diffusion coefficients are reported as ranges, but the methodology for calculating them (e.g., from MSD over what time window, how many molecules, what statistical uncertainty) is not described in sufficient detail. The claim that tetrahedrality causes the diffusion slowdown is correlational; no direct test (e.g., varying water model parameters) is provided.
+  - **Why it matters** The proposed mechanism linking water structure to dynamics is central to the interpretation of a99SB-disp's behavior. Without robust diffusion data and a causal test, this link remains speculative.
+  - **Resolution test** Provide a detailed description of the MSD calculation, including time ranges, fitting procedures, and error estimates. Show a direct correlation between tetrahedrality and diffusion across force fields, or perform a perturbation analysis (e.g., modifying water model parameters) to demonstrate causality.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that a99SB-disp's higher-than-expected dimerization propensity is due to entropically driven changes in water structure upon peptide association, specifically the release of ordered tetrahedral waters.
+  - **Evidence pointer** Results section "Force Field Differences in Peptides"; Figures E(i), E(ii), B (not visible)
+  - **Concern** The evidence for the entropic mechanism is indirect. The authors measure changes in tetrahedrality upon docking (0.7 vs 1.2 percentage points) and infer an entropic driving force. However, they do not directly measure entropy changes (e.g., via thermodynamic integration or entropy decomposition). The free energy of docking (ΔG_dock) is mentioned but not reported in the text, and the temperature dependence is only briefly described.
+  - **Why it matters** The claim of an entropic driving force is a key mechanistic insight. Without direct entropy measurements or a clear thermodynamic analysis, the interpretation is not fully supported.
+  - **Resolution test** Report ΔG_dock values at both temperatures with error bars. Perform an entropy-enthalpy decomposition (e.g., via van't Hoff analysis or direct entropy calculation) to demonstrate that the entropic contribution is significant and favorable in a99SB-disp.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors claim that REMD simulations of the tau fragment dimer in C36m produce a significant population of fibril-like conformations (22% with >12 aligned PHIC contacts).
+  - **Evidence pointer** Results section "Force Field Differences in Peptides"; Figures C, B (not visible)
+  - **Concern** The REMD simulation details (e.g., number of replicas, temperature range, exchange acceptance rates, total sampling time per replica) are not provided in the main text and are deferred to Supporting Information. The clustering method and criteria for defining "fibril-like" are not fully described.
+  - **Why it matters** The claim that C36m produces fibril-like dimers is a central finding with implications for choosing force fields for aggregation studies. Without adequate simulation details, the reproducibility and robustness of this result cannot be assessed.
+  - **Resolution test** Provide full REMD setup details in the main text or ensure the Supporting Information is comprehensive. Describe the clustering algorithm, the definition of aligned PHIC contacts, and the statistical significance of the 22% population.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract states "IDPs lack a stable 3D structure under physiological conditions," which is a simplification. Some IDPs can adopt transient or condition-dependent structures.
+  - **Required correction** Rephrase to "IDPs do not adopt a single stable 3D structure under physiological conditions" or similar.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Diffusion Measurements"
+  - **Issue** The diffusion coefficient calculation is described briefly. It is unclear how the hydration shell is defined for the MSD calculation (e.g., which water molecules are considered "hydration water" and over what time period).
+  - **Required correction** Provide a more detailed description of the hydration shell definition and the MSD calculation, including the time window and fitting procedure.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section, paragraph on force field development
+  - **Issue** The suggestion that adjusting water–water interaction parameters could tune IDP force fields is interesting but not directly tested in this work. It is presented as a logical extension rather than a finding.
+  - **Required correction** Clearly label this as a hypothesis or future direction, not a conclusion of the current study.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results
+  - **Evidence pointer** Results section "Force Field Differences in Peptides"
+  - **Issue** The text mentions "Figure A(iv)" for the cryo-EM structure but does not clearly explain how the REMD cluster compares to the cryo-EM structure beyond visual inspection. A quantitative measure (e.g., RMSD) would strengthen the claim.
+  - **Required correction** Add a quantitative comparison (e.g., RMSD or contact map similarity) between the REMD cluster and the cryo-EM structure.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative data for dewetting free energies), R1-M2 (insufficient diffusion methodology), R1-M3 (indirect evidence for entropic driving force), R1-M4 (incomplete REMD details).
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The application of INDUS to compare dewetting free energies across IDP force fields is novel, and the integration of water structure metrics with dimerization behavior is a fresh perspective.
+  - **Scientific importance** Moderate to high. The findings have implications for force field selection and development, which is a central concern in the IDP simulation community. The potential link to amyloid aggregation mechanisms adds broader relevance.
+  - **Interdisciplinary readership** Moderate. The work is primarily of interest to computational chemists, biophysicists, and force field developers. The connection to neurodegeneration may attract a broader audience, but the technical nature limits accessibility.
+  - **Technical soundness** Currently insufficient. The lack of quantitative data, error analysis, and detailed methodology for key measurements prevents full assessment. The causal claims (e.g., entropic driving force) are not directly supported.
+  - **Readability for nonspecialists** Adequate. The manuscript is generally well-written and the logic is clear, but the heavy reliance on specialized terminology (e.g., dewetting free energy, tetrahedrality) may challenge nonspecialists. The abstract and introduction are accessible, but the results section assumes familiarity with MD simulation techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is valuable and the conceptual framework is sound, but the current evidence base is insufficient to fully establish the claims. The authors should provide quantitative data, error analysis, and more detailed methodology to strengthen the case.
+
+## Risk / unsupported claims
+- The ranking of force fields by hydrophobicity (a99SB-disp < a03ws < C36m) is stated without reporting numerical dewetting free energies or statistical significance.
+- The claim that a99SB-disp's higher dimerization propensity is due to entropic driving forces from water structure changes is inferred from indirect measurements (tetrahedrality changes) rather than direct entropy calculations.
+- The statement that C36m's dimer cluster resembles the cryo-EM structure is based on visual inspection; no quantitative comparison is provided.
+- The suggestion that water–water interaction parameters could be tuned to improve IDP force fields is a hypothesis, not a tested conclusion.
+- The claim that "water is ∼7.9% more tetrahedral than bulk water in a99SB-disp" is presented without error bars or statistical context.
+- The assertion that "all three force fields have notable increases in ∼50° water angles" is not quantified or compared across force fields.

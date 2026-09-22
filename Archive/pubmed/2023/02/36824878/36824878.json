@@ -1,0 +1,224 @@
+{
+  "identity": {
+    "pmid": "36824878",
+    "doi": "10.1101/2023.02.16.528879",
+    "title": "SOURSOP: A Python package for the analysis of simulations of intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "Conformational heterogeneity is a defining hallmark of intrinsically disordered proteins and protein regions (IDRs). The functions of IDRs and the emergent cellular phenotypes they control are associated with sequence-specific conformational ensembles. Simulations of conformational ensembles that are based on atomistic and coarse-grained models are routinely used to uncover the sequence-specific interactions that may contribute to IDR functions. These simulations are performed either independently or in conjunction with data from experiments. Functionally relevant features of IDRs can span a range of length scales. Extracting these features requires analysis routines that quantify a range of properties. Here, we describe a new analysis suite SOURSOP, an object-oriented and open-source toolkit designed for the analysis of simulated conformational ensembles of IDRs. SOURSOP implements several analysis routines motivated by principles in polymer physics, offering a unique collection of simple-to-use functions to characterize IDR ensembles. As an extendable framework, SOURSOP supports the development and implementation of new analysis routines that can be easily packaged and shared.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lalmansingh, Jared M",
+        "Keeley, Alex T",
+        "Ruff, Kiersten M",
+        "Pappu, Rohit V",
+        "Holehouse, Alex S"
+      ],
+      "short_names": [
+        "Lalmansingh JM",
+        "Keeley AT",
+        "Ruff KM",
+        "Pappu RV",
+        "Holehouse AS"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1505-4805",
+        "ORCID: 0000-0003-3240-1856",
+        "ORCID: 0000-0003-2568-1378",
+        "ORCID: 0000-0002-4155-5729"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Lalmansingh, Jared M",
+        "short_name": "Lalmansingh JM",
+        "identifiers": [
+          "0000-0003-1505-4805"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Keeley, Alex T",
+        "short_name": "Keeley AT",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ruff, Kiersten M",
+        "short_name": "Ruff KM",
+        "identifiers": [
+          "0000-0003-3240-1856"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [
+          "0000-0003-2568-1378"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [
+          "0000-0002-4155-5729"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Feb 17",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/25 06:00",
+    "fetched_at": "2026-09-20 19:29:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "36824878",
+      "37463458",
+      "29763584",
+      "33267376",
+      "38915510",
+      "36987865",
+      "27807972",
+      "23912807",
+      "34825861",
+      "30878482",
+      "36711874",
+      "37155239",
+      "34557680",
+      "32345021",
+      "33248138",
+      "32824743",
+      "38712287",
+      "31999450",
+      "33191750",
+      "36908253",
+      "36291695",
+      "31678340",
+      "31724233",
+      "38895487",
+      "27140628",
+      "31303975",
+      "29573987",
+      "36934808",
+      "30840442",
+      "24027208",
+      "34680137",
+      "33567297",
+      "29066345",
+      "31797596",
+      "30802457",
+      "36648282",
+      "35139468",
+      "24312701",
+      "25897952",
+      "35094056",
+      "36005688",
+      "34179096",
+      "31756456",
+      "38222029",
+      "31241933",
+      "27718363",
+      "31521235",
+      "31889261",
+      "34656327",
+      "30518031",
+      "30841624",
+      "22468560",
+      "32696354",
+      "35883444",
+      "35436286",
+      "34252246",
+      "37986812",
+      "32502383",
+      "34418423",
+      "23153654",
+      "33719450",
+      "23142703",
+      "33036302",
+      "36851914",
+      "33406091",
+      "31003202",
+      "32553192",
+      "25863585",
+      "28516013",
+      "33742655",
+      "26922996",
+      "36789411",
+      "29626537",
+      "34115515",
+      "34656333",
+      "33078839",
+      "25358803",
+      "37961106",
+      "29550429",
+      "32225071",
+      "25099811"
+    ],
+    "review": [
+      "36824878",
+      "33248138",
+      "31678340",
+      "31303975",
+      "30840442",
+      "24027208",
+      "33567297",
+      "36648282",
+      "35139468",
+      "31521235",
+      "34418423",
+      "36851914",
+      "31003202",
+      "25863585",
+      "26922996"
+    ],
+    "pmc": [
+      "9949127"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36824878/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.02.16.528879",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

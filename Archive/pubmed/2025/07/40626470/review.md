@@ -1,0 +1,66 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors propose modified patchy particle models incorporating flexible patches and weak isotropic core attractions to accelerate dynamics in simulations of biomolecular condensates, while preserving key equilibrium properties such as phase behavior and local condensate structure, thereby enabling simulation of larger and more complex systems.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or comparative data are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, parameter values, quantitative comparisons of dynamics and equilibrium properties, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually useful and practically motivated modification to an established coarse-grained simulation framework. The proposed changes, flexible patches and weak isotropic attractions, are plausible and potentially impactful for the condensate simulation community. However, the abstract provides no quantitative evidence to support the central claims of accelerated dynamics and preserved equilibrium properties. The case is not established from the supplied material alone.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and soft matter who use coarse-grained or patchy particle models to study biomolecular condensates, phase separation, and related dynamical phenomena. The work would also interest experimentalists seeking simulation tools that better reproduce fluid-like condensate behavior.
+- **Major strengths** The problem addressed is well recognized, namely the slow dynamics and glass-like behavior of standard patchy particle models. The proposed modifications are simple and physically motivated. The claim of preserving equilibrium properties while accelerating dynamics, if substantiated, would be of practical value.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The modifications "significantly accelerate the system dynamics while preserving key equilibrium characteristics of the classical patchy particle model, including the phase behavior and the local structure of the condensate."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative data are presented to support the claims of accelerated dynamics or preserved equilibrium properties. No metrics, comparison values, or statistical measures are given.
+  - **Why it matters** The central contribution of the work rests on these two claims. Without quantitative evidence, the reader cannot assess the magnitude of the acceleration, the fidelity of the equilibrium preservation, or the parameter ranges over which these claims hold.
+  - **Resolution test** Provide quantitative comparisons, such as diffusion coefficients or relaxation times for the modified versus classical models, and phase diagrams or radial distribution functions showing equivalence of equilibrium properties, with appropriate statistical uncertainty.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The modifications "enable the simulation of larger, more complex systems previously inaccessible due to prohibitive relaxation times."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the system sizes, complexity levels, or interaction parameter ranges for which the acceleration is demonstrated. It is unclear whether the benefits hold across different protein representations, valencies, or interaction strengths.
+  - **Why it matters** The claim of enabling previously inaccessible simulations is strong and implies broad applicability. Without evidence of the parameter space explored, the scope of the claim is unverifiable.
+  - **Resolution test** State the range of system sizes and model parameters tested, and show that the acceleration is consistent across these conditions, or explicitly delimit the conditions under which the modifications are effective.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "low-affinity binding sites" is used without definition or context regarding typical affinities in the models studied.
+  - **Required correction** Briefly specify the range of interaction strengths or binding affinities considered, or clarify that this is a general feature of the systems being modeled.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract, description of model variants
+  - **Issue** The modifications are described only qualitatively as "flexible patches" and "weak isotropic attractions." The degree of flexibility and the strength of the attractions are not quantified.
+  - **Required correction** Provide quantitative definitions, such as angular flexibility ranges and interaction energy values, in the abstract or refer to specific parameter values in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Comparison baseline
+  - **Evidence pointer** Abstract, claim of preservation of equilibrium characteristics
+  - **Issue** The comparison is made only to the "classical patchy particle model," but it is unclear whether this refers to a specific published model or a variant used by the authors.
+  - **Required correction** Cite the specific classical model used as the baseline and clarify any differences in implementation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative evidence for the two central claims, accelerated dynamics and preserved equilibrium properties, and the lack of demonstrated generalizability mean the case is not currently established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The modification of patchy particle models with flexible patches and weak isotropic attractions is incremental but potentially useful. The originality is moderate and not fully assessable without the full manuscript.
+  - Scientific importance: The problem of slow dynamics in patchy particle models is relevant to the condensate community. The importance is moderate and depends on the magnitude of the acceleration and the breadth of applicability.
+  - Interdisciplinary readership: The work is likely to interest computational biophysicists and soft matter physicists. Broader interdisciplinary appeal is limited by the specialized nature of the methods.
+  - Technical soundness: Not assessable from the abstract. No methodological details or validation data are provided.
+  - Readability for nonspecialists: The abstract is clear and accessible, with appropriate context for the problem and the proposed approach.
+- **Recommendation posture** Currently not established from the provided evidence. The work is potentially valuable, and the authors should be encouraged to resubmit with quantitative evidence addressing the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that the modifications "significantly accelerate the system dynamics" is unsupported by any quantitative data.
+- The claim that "key equilibrium characteristics" are preserved is unsupported by any comparative data.
+- The claim that the modifications "enable the simulation of larger, more complex systems previously inaccessible" is unsupported and not delimited by parameter ranges.
+- The general applicability of the modifications across different protein representations or interaction conditions is not assessable from the abstract.

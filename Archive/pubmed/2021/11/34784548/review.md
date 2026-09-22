@@ -1,0 +1,65 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or simulation details
+- **Shared manuscript claim summary** The authors report all-atom molecular dynamics simulations testing the lipid-chaperone hypothesis for amyloid-beta (Abeta) peptide membrane interaction. They observe that 1:1 Abeta-lipid complexes (POPC or DPPC) form readily but do not insert into membranes, leaving the peptide largely disordered and adsorbed to the surface. In contrast, Abeta complexed with a POPC cluster of three lipids undergoes a disorder-to-order transition into helical or beta-sheet structures, which the authors propose as a prerequisite for membrane insertion or amyloid aggregation.
+- **Visible evidence base** Abstract text only. No figures, tables, methods details, simulation parameters, or statistical analyses are provided.
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system setup, convergence criteria, replicate details, structural analysis methods, and quantitative results. These are essential to evaluate the robustness of the reported observations.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study addressing a relevant hypothesis in Alzheimer's disease research. The central observation, that lipid cluster size modulates Abeta conformational behavior, is plausible and could be of interest to the biophysics community. However, the abstract alone provides insufficient detail to assess the technical quality of the simulations, the statistical significance of the findings, or the generalizability of the conclusions. The claim that a disorder-to-order transition is "needed" for membrane insertion or amyloid aggregation is presented as a definitive statement without direct evidence linking the observed conformational change to these downstream processes.
+- **Who would be interested in the results, and why** Researchers studying amyloid aggregation, membrane biophysics, lipid-protein interactions, and computational biochemistry. The lipid-chaperone hypothesis is a topic of active investigation, and atomic-level insights into how lipid clusters influence Abeta conformation could inform mechanistic models of Alzheimer's disease pathology. The work may also interest method developers in molecular dynamics simulation.
+- **Major strengths** The study addresses a mechanistically important question with direct relevance to Alzheimer's disease. The use of all-atom simulations is appropriate for capturing detailed conformational transitions. The comparison between 1:1 complexes and lipid clusters provides a clear conceptual framework. The abstract is clearly written and the central finding is presented in an accessible manner.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that Abeta complexed with a POPC cluster of three lipids folds into either helical or beta-sheet structures, and that this disorder-to-order transition is needed for membrane insertion or amyloid aggregation.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract provides no information on simulation length, number of replicates, force field parameters, or convergence criteria. Without these details, it is impossible to determine whether the observed conformational transitions are statistically robust or artifacts of insufficient sampling. The claim that the transition is "needed" for downstream processes is an inference not directly tested in the simulations.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation setup and sampling quality. If the simulations are underconverged or based on a single trajectory, the conclusions may not be reliable. The causal link between the observed conformational change and membrane insertion or aggregation is not established by the presented evidence.
+  - **Resolution test** Provide simulation details including system size, simulation time, number of independent replicates, force field validation, and convergence metrics. Demonstrate that the helical and beta-sheet conformations are reproducibly observed across replicates and stable over extended timescales. Directly test whether the structured conformations promote membrane insertion or aggregation in the simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that the disorder-to-order transition is needed for membrane insertion or amyloid aggregation to proceed.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not provide evidence that the structured conformations observed in the simulations actually lead to membrane insertion or amyloid aggregation. The simulations appear to stop at the conformational transition stage, without demonstrating downstream functional consequences. The claim of necessity is therefore unsupported.
+  - **Why it matters** The significance of the work hinges on the functional relevance of the observed conformational change. If the structured conformations do not promote membrane insertion or aggregation, the findings are descriptive rather than mechanistically informative.
+  - **Resolution test** Perform additional simulations or experiments that directly test whether the helical or beta-sheet conformations facilitate membrane insertion or seed aggregation. Alternatively, temper the claim to state that the transition is a potential prerequisite, pending further evidence.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses terms such as "lipid-chaperone hypothesis" and "disorder-to-order transition" without brief definitions, which may limit accessibility for readers outside the immediate field.
+  - **Required correction** Add a brief explanatory phrase for these terms, for example, "the lipid-chaperone hypothesis, which proposes that lipid molecules facilitate Abeta membrane insertion" and "a transition from unstructured to structured conformations."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation scope
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions only POPC and DPPC lipids. It is unclear whether these are representative of physiologically relevant membranes, which typically contain cholesterol and other lipid species.
+  - **Required correction** Justify the choice of lipids or acknowledge the limitation that the findings may not generalize to more complex membrane compositions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not discuss the relative populations of helical versus beta-sheet conformations or their distinct functional implications.
+  - **Required correction** Provide quantitative information on the distribution of conformations and discuss whether helical and beta-sheet structures are expected to have different roles in membrane interaction or aggregation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2. The lack of simulation details and the unsupported causal claim prevent the case from being established from the provided evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a timely hypothesis with a computational approach, but the concept of lipid-induced conformational changes in Abeta is not entirely novel. The specific focus on lipid cluster size is a useful contribution.
+  - Scientific importance: The potential relevance to Alzheimer's disease mechanisms is high, but the current evidence does not establish the functional significance of the observed transition.
+  - Interdisciplinary readership: The topic bridges computational biophysics and neurobiology, which could attract a broad audience if the findings are robustly supported.
+  - Technical soundness: Cannot be assessed from the abstract alone. The absence of methodological details is a critical gap.
+  - Readability for nonspecialists: The abstract is generally clear but could benefit from brief definitions of key terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary observations, but the lack of methodological detail and the unsupported causal claim prevent a supportive recommendation. The authors should provide the full manuscript with comprehensive simulation details and either directly test the functional consequences of the conformational transition or temper the claims accordingly.
+
+## Risk / unsupported claims
+- The claim that the disorder-to-order transition is "needed" for membrane insertion or amyloid aggregation is unsupported, as no direct evidence links the observed conformational change to these processes.
+- The generalizability of the findings to physiologically relevant membranes is unassessable, given the limited lipid types studied.
+- The statistical robustness of the observed conformational transitions cannot be evaluated without information on replicates and convergence.

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors use extensive all-atom MD simulations to show that multisite phosphorylation of four IDPs leads to collapse or expansion depending on net charge, that current force fields overestimate these effects, that higher salt concentrations improve agreement with experiments, and that solvation effects can mask conformational changes in SAXS-derived radii of gyration.
+- **Visible evidence base** Main text, figures referenced (Figs 2-7, S1-S11), tables (Table 1, S1-S2), methods section
+- **Missing materials affecting confidence** Figures and tables themselves are not provided; only references to them in text. Experimental SAXS and NMR data are described but not shown. Statistical details of fits and p-values are referenced but not fully reported.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question in the IDP field: how multisite phosphorylation modulates conformational ensembles. The systematic comparison across four IDPs with different net charges is a valuable contribution. The finding that current force fields overestimate phosphorylation-induced changes and that higher salt concentrations improve agreement with experiments is significant and practically useful. The observation that solvation effects can mask conformational changes in SAXS data is an important caveat for experimental interpretation. However, several technical aspects require clarification, and the generalizability of the conclusions beyond the specific systems studied needs to be more carefully justified.
+- **Who would be interested in the results, and why** Researchers studying IDP conformational behavior, post-translational modification effects on protein structure and function, and those developing or using molecular dynamics force fields for disordered proteins. The work also has relevance for experimentalists using SAXS to characterize IDP conformations, as it highlights potential pitfalls in interpreting scattering data.
+- **Major strengths** 1) Systematic comparison of four IDPs with different net charges provides a clear test of the electrostatic hypothesis. 2) Extensive simulation effort (0.218 ms total) with multiple force fields and salt concentrations. 3) Direct comparison to experimental SAXS and NMR data for validation. 4) Novel observation regarding solvation effects on SAXS-derived RG. 5) Practical recommendation for simulation conditions (higher salt) that improve agreement with experiments.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that MD simulations at 350 mM NaCl yield conformational ensembles in close agreement with experimental SAXS and NMR data.
+  - **Evidence pointer** Figs 2, 4, S5; S1 Table
+  - **Concern** The quantitative agreement between MD and experiment is stated but the actual comparison metrics are not fully described. For SAXS, chi-square values are mentioned but not reported. For NMR chemical shifts, RMSD values are given (0.4-0.9 ppm for carbons, 1.6-2.3 ppm for nitrogen), but it is unclear whether these are within acceptable ranges for IDPs. The criteria for "close agreement" or "best mimic" are not defined.
+  - **Why it matters** The central methodological conclusion is that 350 mM NaCl is the appropriate condition for simulating these IDPs. Without clear quantitative criteria for what constitutes agreement, this recommendation cannot be properly evaluated or applied by others.
+  - **Resolution test** Provide explicit chi-square values for SAXS fits at each salt concentration, with a defined threshold for acceptable agreement. Report chemical shift RMSDs for all nuclei and compare to known accuracy benchmarks for IDP chemical shift prediction. Show overlay plots of experimental and simulated SAXS curves.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the correlation of normalized RG with net charge per residue (NCPR) is significant, with slopes from linear fits significantly different from zero (p-values < 0.05).
+  - **Evidence pointer** Fig 5, S9 Fig
+  - **Concern** The statistical analysis is only briefly described. With only four IDPs, the power to detect significant correlations is limited. The p-values are mentioned but the actual values, the type of test used, and whether multiple testing corrections were applied are not reported. The S9 figure is referenced but not visible.
+  - **Why it matters** The V-shape relationship between RG and NCPR is a central claim of the paper. If the statistical support is weak, the generality of this relationship is questionable.
+  - **Resolution test** Report the actual p-values, correlation coefficients, and confidence intervals for the fits. Describe the statistical test used. Consider whether the relationship holds when each IDP is considered as an independent data point versus when multiple phosphorylation states are treated as repeated measures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose a "protect-attack" mechanism as a general function of phosphorylation/dephosphorylation of IDPs.
+  - **Evidence pointer** Summary and conclusion section
+  - **Concern** The "protect-attack" mechanism is introduced in the conclusion but is not clearly defined or supported by specific data presented in the results. It is unclear how this mechanism relates to the observed conformational changes and the exposure of active sites.
+  - **Why it matters** This is presented as a general functional principle, but without a clear definition and supporting evidence, it appears speculative and may overreach the data.
+  - **Resolution test** Define the "protect-attack" mechanism explicitly. Show how the simulation data support each aspect of the proposed mechanism. Discuss how this mechanism could be tested experimentally.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the force fields "overestimate the charge effect" and that this is a general problem for IDP simulations.
+  - **Evidence pointer** Figs 2, S6-S8
+  - **Concern** The claim of generality is based on only two IDPs (Ash1 and CTD2') tested with multiple force fields. The other two IDPs (E-Cadherin, p130Cas) were only simulated with one force field at 350 mM. The conclusion that this is a "general problem" may be premature.
+  - **Why it matters** If the overestimation is force-field-specific rather than general, the recommendation to use higher salt concentrations may not apply universally.
+  - **Resolution test** Test at least one additional IDP with multiple force fields at low and high salt. Alternatively, temper the claim of generality and discuss the limitations of the current dataset.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction assumes familiarity with IDP terminology and the significance of phosphorylation for IDP function. A brief explanation of why phosphorylation is particularly important for IDPs (as opposed to folded proteins) would help nonspecialist readers.
+  - **Required correction** Add one or two sentences explaining the biological context of IDP phosphorylation and why conformational changes in IDPs are functionally relevant.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and methods section
+  - **Issue** The method for selecting initial structures for the additional simulations (7 structures extracted every 50 ns from 120 ns) is described but the rationale is not given. It is unclear why 120 ns was chosen as the extraction window.
+  - **Required correction** Briefly explain the rationale for this sampling strategy, or cite a reference for this approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results
+  - **Evidence pointer** Section "MD simulations suggest shrinkage of Ash1 and expansion of CTD2' upon phosphorylation"
+  - **Issue** The error bars on the reported RG values are mentioned as large but the actual values are not given. The statement "10 ± 4 Å" and "14 ± 6 Å" are given but the source of these uncertainties (standard deviation, standard error, block averaging) is not specified.
+  - **Required correction** Specify the type of uncertainty reported and how it was calculated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Section "Unshielding of protein interaction sites by phosphorylation"
+  - **Issue** The claim that "phosphorylation not only regulates binding by direct recognition of the phosphate-group(s) by the binding partner, but also by a reduction of the intramolecular shielding" is interesting but the functional significance is not discussed in the context of known biology of E-Cadherin and p130Cas.
+  - **Required correction** Add a brief discussion of how the increased exposure of binding sites might affect known biological processes involving these proteins.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative agreement criteria), R1-M2 (statistical rigor of correlation analysis)
+- **Assessment against Nature-style criteria** Originality: The systematic comparison across multiple IDPs and the focus on solvation effects in SAXS interpretation are novel contributions. Scientific importance: The work addresses a fundamental question about how phosphorylation modulates IDP conformations and has practical implications for simulation methodology. Interdisciplinary readership: The work bridges computational biophysics, structural biology, and cell biology, and should appeal to researchers in all three areas. Technical soundness: The simulation methodology is generally sound, but the quantitative validation against experiment needs to be more rigorously presented. Readability for nonspecialists: The manuscript is generally well-written but assumes familiarity with IDP-specific concepts and techniques.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially important, but the quantitative basis for the central claims needs to be strengthened.
+
+## Risk / unsupported claims
+- The claim that 350 mM NaCl "best mimics" experimental conditions is not fully supported without explicit quantitative comparison metrics.
+- The "protect-attack" mechanism is introduced without clear definition or direct supporting evidence.
+- The claim that force field overestimation of charge effects is a "general problem" is based on limited data (two IDPs with multiple force fields).
+- The statement that "the exposure of active sites can change significantly upon phosphorylation" is based on SASA analysis but the statistical significance of these changes is not reported.
+- The prediction that "more pronounced charge-induced changes" would be observed at lower ionic strength is speculative and not directly tested.

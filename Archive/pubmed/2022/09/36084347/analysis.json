@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36084347",
+  "title": "Sequence-Dependent Backbone Dynamics of Intrinsically Disordered Proteins.",
+  "authors": "Dey, Souvik; MacAinsh, Matthew; Zhou, Huan-Xiang",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2022-09-10",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过长时程MD模拟研究八个无序蛋白的序列依赖性骨架动力学，揭示局部/长程互作对动力学的调控及其对结合伙伴响应的意义，虽未直接建模PPI，但为IDP互作机制提供了动力学基础。",
+  "abstract": "For intrinsically disordered proteins (IDPs), a pressing question is how sequence codes for function. Dynamics serves as a crucial link, reminiscent of the role of structure in sequence-function relations of structured proteins. To define general rules governing sequence-dependent backbone dynamics, we carried out long molecular dynamics simulations of eight IDPs. Blocks of residues exhibiting large amplitudes in slow dynamics are rigidified by local inter-residue interactions or secondary structures. A long region or an entire IDP can be slowed down by long-range contacts or secondary-structure packing. On the other hand, glycines promote fast dynamics and either demarcate rigid blocks or facilitate multiple modes of local and long-range inter-residue interactions. The sequence-dependent backbone dynamics endows IDPs with versatile response to binding partners, with some blocks recalcitrant while others readily adapting to intermolecular interactions.",
+  "abstract_zh": "对于本质无序蛋白质（IDPs），一个紧迫的问题是序列如何编码功能。动力学作为关键纽带，类似于结构在结构化蛋白质序列-功能关系中的作用。为定义控制序列依赖性骨架动力学的普遍规则，我们对八个IDPs进行了长时程分子动力学模拟。在慢动力学中表现出大幅度的残基块，通过局部残基间相互作用或二级结构而变得刚性化。长区域或整个IDP可因长程接触或二级结构堆积而减慢。另一方面，甘氨酸促进快速动力学，并或界定刚性块，或促进局部和长程残基间相互作用的多种模式。序列依赖性骨架动力学赋予IDPs对结合伙伴的多功能响应，其中一些块顽固，而另一些则易于适应分子间相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36084347/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36084347/",
+  "paper_page_path": "papers/pubmed/36084347/index.html"
+}

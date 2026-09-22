@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "41584445",
+    "doi": "10.1039/d5sc06411b",
+    "title": "Local entropy in proteins."
+  },
+  "content": {
+    "abstract": "Proteins populate dynamic ensembles, yet how temperature and mutations reshape these ensembles remains poorly understood. We introduce a local entropy metric that assigns each residue a Shannon entropy based on a graph-derived map of accessible substates, providing a continuous measure of structural complexity across folded, unfolded, and intrinsically disordered states. In molecular dynamics simulations of the fast-folding gpW protein, the average local entropy exhibits a sharp transition near the melting point. Residue-specific entropy curves cluster into distinct unfolding categories and reveal that the apparent unfolding transition depends on the spatial scale used to describe amino-acid environments. We further show that local entropy captures features that differ markedly from other residue-level measures of structural fluctuations, such as the accessible volume (and the associated packing entropy), which is correlated with B-factors and primarily reflects the hydrophobic effect. In simulations of alpha-synuclein, an intrinsically disordered protein, local entropy varies strongly along the sequence at physiological temperature and resembles that of gpW near its melting point. Parkinson's-disease mutations in alpha-synuclein locally reduce entropy while also perturbing distant regions including P1, P2 and NAC segments implicated in fibril formations. These results highlight how temperature and subtle perturbations-such as single-residue changes-remodel conformational ensembles. Local entropy correlates with NMR observables and provides a generalizable framework for quantifying disorder, with broad potential applications beyond protein science.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Senet, Patrick",
+        "Guzzo, Adrien",
+        "Delarue, Patrice",
+        "Laforge, Christophe",
+        "Maisuradze, Gia G",
+        "Heydel, Jean-Marie",
+        "Neiers, Fabrice",
+        "Nicolai, Adrien"
+      ],
+      "short_names": [
+        "Senet P",
+        "Guzzo A",
+        "Delarue P",
+        "Laforge C",
+        "Maisuradze GG",
+        "Heydel JM",
+        "Neiers F",
+        "Nicolai A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2339-0019",
+        "ORCID: 0000-0002-1901-8433"
+      ],
+      "affiliations": [
+        "Laboratoire Interdisciplinaire Carnot de Bourgogne ICB, UMR 6303, Universite Bourgogne Europe, CNRS F-21000 Dijon France psenet@ube.fr +33 (0)3 80396132 +33 (0)3 80396130.",
+        "INSERM U1903 CAPS, Universite Bourgogne Europe Dijon France.",
+        "Laboratoire Interdisciplinaire Carnot de Bourgogne ICB, UMR 6303, Universite Bourgogne Europe, CNRS F-21000 Dijon France psenet@ube.fr +33 (0)3 80396132 +33 (0)3 80396130.",
+        "Laboratoire Interdisciplinaire Carnot de Bourgogne ICB, UMR 6303, Universite Bourgogne Europe, CNRS F-21000 Dijon France psenet@ube.fr +33 (0)3 80396132 +33 (0)3 80396130.",
+        "Baker Laboratory of Chemistry and Chemical Biology, Cornell University Ithaca New York 14853 USA.",
+        "Laboratoire Interdisciplinaire Carnot de Bourgogne ICB, UMR 6303, Universite Bourgogne Europe, CNRS F-21000 Dijon France psenet@ube.fr +33 (0)3 80396132 +33 (0)3 80396130.",
+        "Laboratoire Interdisciplinaire Carnot de Bourgogne ICB, UMR 6303, Universite Bourgogne Europe, CNRS F-21000 Dijon France psenet@ube.fr +33 (0)3 80396132 +33 (0)3 80396130.",
+        "Laboratoire Interdisciplinaire Carnot de Bourgogne ICB, UMR 6303, Universite Bourgogne Europe, CNRS F-21000 Dijon France psenet@ube.fr +33 (0)3 80396132 +33 (0)3 80396130."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Senet, Patrick",
+        "short_name": "Senet P",
+        "identifiers": [
+          "0000-0002-2339-0019"
+        ],
+        "affiliations": [
+          "Laboratoire Interdisciplinaire Carnot de Bourgogne ICB, UMR 6303, Université Bourgogne Europe, CNRS F-21000 Dijon France psenet@ube.fr +33 (0)3 80396132 +33 (0)3 80396130."
+        ]
+      },
+      {
+        "full_name": "Guzzo, Adrien",
+        "short_name": "Guzzo A",
+        "identifiers": [],
+        "affiliations": [
+          "INSERM U1903 CAPS, Université Bourgogne Europe Dijon France."
+        ]
+      },
+      {
+        "full_name": "Delarue, Patrice",
+        "short_name": "Delarue P",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Interdisciplinaire Carnot de Bourgogne ICB, UMR 6303, Université Bourgogne Europe, CNRS F-21000 Dijon France psenet@ube.fr +33 (0)3 80396132 +33 (0)3 80396130."
+        ]
+      },
+      {
+        "full_name": "Laforge, Christophe",
+        "short_name": "Laforge C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Interdisciplinaire Carnot de Bourgogne ICB, UMR 6303, Université Bourgogne Europe, CNRS F-21000 Dijon France psenet@ube.fr +33 (0)3 80396132 +33 (0)3 80396130."
+        ]
+      },
+      {
+        "full_name": "Maisuradze, Gia G",
+        "short_name": "Maisuradze GG",
+        "identifiers": [
+          "0000-0002-1901-8433"
+        ],
+        "affiliations": [
+          "Baker Laboratory of Chemistry and Chemical Biology, Cornell University Ithaca New York 14853 USA."
+        ]
+      },
+      {
+        "full_name": "Heydel, Jean-Marie",
+        "short_name": "Heydel JM",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Interdisciplinaire Carnot de Bourgogne ICB, UMR 6303, Université Bourgogne Europe, CNRS F-21000 Dijon France psenet@ube.fr +33 (0)3 80396132 +33 (0)3 80396130."
+        ]
+      },
+      {
+        "full_name": "Neiers, Fabrice",
+        "short_name": "Neiers F",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Interdisciplinaire Carnot de Bourgogne ICB, UMR 6303, Université Bourgogne Europe, CNRS F-21000 Dijon France psenet@ube.fr +33 (0)3 80396132 +33 (0)3 80396130."
+        ]
+      },
+      {
+        "full_name": "Nicolaï, Adrien",
+        "short_name": "Nicolaï A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Interdisciplinaire Carnot de Bourgogne ICB, UMR 6303, Université Bourgogne Europe, CNRS F-21000 Dijon France psenet@ube.fr +33 (0)3 80396132 +33 (0)3 80396130."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2026 Mar 18",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/26 13:02",
+    "fetched_at": "2026-09-18 00:22:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40532481",
+      "39735932",
+      "37776602",
+      "37764437",
+      "37716093",
+      "36859094",
+      "35836937",
+      "35755337",
+      "34912851",
+      "34282049",
+      "34265844",
+      "32392067",
+      "32356963",
+      "32164323",
+      "32157247",
+      "32015543",
+      "31425549",
+      "30184304",
+      "29446945",
+      "28375008",
+      "28265078",
+      "27101436",
+      "26904549",
+      "25924808",
+      "25313044",
+      "24930020",
+      "24773235",
+      "24753228",
+      "23901099",
+      "23246280",
+      "23161676",
+      "22984159",
+      "22715321",
+      "22404685",
+      "22087227",
+      "21650183",
+      "21045133",
+      "20920153",
+      "20404210",
+      "18573083",
+      "18479088",
+      "18336321",
+      "18326625",
+      "18270694",
+      "18196502",
+      "17637663",
+      "17395451",
+      "16551093",
+      "15822101",
+      "15313625",
+      "15303830",
+      "14695252",
+      "14579338",
+      "13990617",
+      "12230035",
+      "12188762",
+      "11891336",
+      "11391777",
+      "11159421",
+      "11025552",
+      "10550212",
+      "9917381",
+      "9649402",
+      "9094326",
+      "8976574",
+      "8913313",
+      "8381875",
+      "8180173",
+      "7932758",
+      "7723011",
+      "5884016",
+      "4358939",
+      "4124164",
+      "3427197",
+      "2319595",
+      "763335",
+      "237413"
+    ],
+    "similar": [
+      "41584445",
+      "27111521",
+      "36379279",
+      "15326600",
+      "41706900",
+      "29897777",
+      "40853068",
+      "30420606",
+      "12770898",
+      "24089737",
+      "29364151",
+      "33267376",
+      "23912807",
+      "37155239",
+      "20405863",
+      "24423055",
+      "20887263",
+      "21570984",
+      "18423664",
+      "19576220",
+      "31459119",
+      "34473923",
+      "29544285",
+      "23607785",
+      "36934808",
+      "21108951",
+      "29446945",
+      "19364097",
+      "39693390",
+      "32357776",
+      "30184304",
+      "33810353",
+      "21187223",
+      "32879005",
+      "31978465",
+      "36930141",
+      "23583776",
+      "25227444",
+      "22253588",
+      "34912851",
+      "10698632",
+      "31756104",
+      "32392067",
+      "25313044",
+      "9251820",
+      "30731089",
+      "28886229",
+      "29642031",
+      "37764437",
+      "35357183",
+      "32698546",
+      "40042172",
+      "10452900",
+      "25331250",
+      "41073429",
+      "30840442",
+      "22339051",
+      "25625937",
+      "30204435",
+      "36711874",
+      "41318999",
+      "33581430",
+      "41294976",
+      "26348368",
+      "30802457",
+      "24976112",
+      "34298994",
+      "39285530",
+      "26138206",
+      "41137856",
+      "20408169",
+      "17201450",
+      "40282633",
+      "24695799",
+      "9368658",
+      "30909517",
+      "31375817",
+      "28107009",
+      "11297422",
+      "28808004",
+      "29874605",
+      "26131693",
+      "37716093",
+      "41851975",
+      "35462186",
+      "40275100",
+      "31535866",
+      "29925017",
+      "22928488",
+      "41763001",
+      "30769283",
+      "36987865",
+      "18553935",
+      "32696370",
+      "38984065",
+      "35923464",
+      "35836937",
+      "20698672",
+      "20063887",
+      "41659508"
+    ],
+    "review": [
+      "41584445",
+      "29364151",
+      "21187223",
+      "30840442",
+      "25625937",
+      "30909517",
+      "37716093"
+    ],
+    "pmc": [
+      "12826060"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41584445/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d5sc06411b",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

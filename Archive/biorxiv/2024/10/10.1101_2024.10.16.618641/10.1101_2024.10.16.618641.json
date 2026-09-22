@@ -1,0 +1,298 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.16.618641",
+  "title": "Genomic and structural insights into Jyvaskylavirus, the first giant virus isolated from Finland",
+  "doi": "10.1101/2024.10.16.618641",
+  "abstract": "<h4>ABSTRACT</h4> Giant viruses of protists are a diverse and likely ubiquitous group of organisms. Here, we describe Jyvaskylavirus, the first giant virus isolated from Finland. This clade B marseillevirus was found in Acanthamoeba castellanii from a composting soil sample in Jyväskylä, Central Finland. Its genome shares similarities with other marseilleviruses. Helium ion microscopy and electron microscopy of infected cells unraveled stages of the Jyvaskylavirus lifecycle. We reconstructed the Jyvaskylavirus particle to 6.3 Å resolution using cryo-EM. The ∼2,500 Å diameter virion displays structural similarities to other Marseilleviridae giant viruses. The capsid comprises of 9,240 copies of the major capsid protein ORF184, which possesses a double jellyroll fold arranged in trimers forming pseudo-hexameric capsomers. Below the capsid shell, the internal membrane vesicle encloses the genome. Through cross-structural and -sequence comparisons with other Marseilleviridae using AI-based software in model building and prediction, we elucidated ORF142 as the penton protein, which plugs the twelve vertices of the capsid. Five additional ORFs were identified, with models predicted and fitted into densities that either cap the capsomers externally or stabilize them internally. The isolation of Jyvaskylavirus suggests that these viruses may be widespread in the boreal environment and provide structural insights extendable to other marseilleviruses.",
+  "authors": [
+    "de Freitas Almeida GM",
+    "Arriaga I",
+    "de Azevedo BL",
+    "Leppänen M",
+    "Abrahao JS",
+    "Andreani J",
+    "Zabeo D",
+    "Ravantti J",
+    "Abrescia NG",
+    "Sundberg L"
+  ],
+  "published_date": "2024-10-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.16.618641",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.16.618641.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR926390",
+    "raw_record": {
+      "id": "PPR926390",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR926390"
+        ]
+      },
+      "doi": "10.1101/2024.10.16.618641",
+      "title": "Genomic and structural insights into Jyvaskylavirus, the first giant virus isolated from Finland",
+      "authorString": "de Freitas Almeida GM, Arriaga I, de Azevedo BL, Leppänen M, Abrahao JS, Andreani J, Zabeo D, Ravantti J, Abrescia NG, Sundberg L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "de Freitas Almeida GM",
+            "lastName": "de Freitas Almeida",
+            "firstName": "Gabriel Magno",
+            "initials": "GM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Norwegian College of Fishery Science, Faculty of Biosciences, Fisheries and Economics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arriaga I",
+            "lastName": "Arriaga",
+            "firstName": "Iker",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structure and Cell Biology of Viruses Lab, , Basque Research and Technology Alliance (BRTA), ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Azevedo BL",
+            "lastName": "de Azevedo",
+            "firstName": "Bruna Luiza",
+            "initials": "BL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Biological Sciences, Department of Microbiology, Belo Horizonte, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leppänen M",
+            "lastName": "Leppänen",
+            "firstName": "Miika",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biological and Environmental Science and Nanoscience Center, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abrahao JS",
+            "lastName": "Abrahao",
+            "firstName": "Jonatas Santos",
+            "initials": "JS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9420-1791"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Institute of Biological Sciences, Department of Microbiology, Belo Horizonte, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Andreani J",
+            "lastName": "Andreani",
+            "firstName": "Julien",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", MEPHI, ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zabeo D",
+            "lastName": "Zabeo",
+            "firstName": "Davide",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5912-4601"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Harwell Science and Innovation Campus, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ravantti J",
+            "lastName": "Ravantti",
+            "firstName": "Janne",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Molecular and Integrative Biosciences Research Programme, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abrescia NG",
+            "lastName": "Abrescia",
+            "firstName": "Nicola GA",
+            "initials": "NG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structure and Cell Biology of Viruses Lab, , Basque Research and Technology Alliance (BRTA), ,"
+                },
+                {
+                  "affiliation": ", Basque Foundation for Science, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sundberg L",
+            "lastName": "Sundberg",
+            "firstName": "Lotta-Riina",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3510-4398"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biological and Environmental Science and Nanoscience Center, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9420-1791"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5912-4601"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2317-5092"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3510-4398"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Giant viruses of protists are a diverse and likely ubiquitous group of organisms. Here, we describe Jyvaskylavirus, the first giant virus isolated from Finland. This clade B marseillevirus was found in  Acanthamoeba castellanii from a composting soil sample in Jyväskylä, Central Finland. Its genome shares similarities with other marseilleviruses. Helium ion microscopy and electron microscopy of infected cells unraveled stages of the Jyvaskylavirus lifecycle. We reconstructed the Jyvaskylavirus particle to 6.3 Å resolution using cryo-EM. The ∼2,500 Å diameter virion displays structural similarities to other  Marseilleviridae giant viruses. The capsid comprises of 9,240 copies of the major capsid protein ORF184, which possesses a double jellyroll fold arranged in trimers forming pseudo-hexameric capsomers. Below the capsid shell, the internal membrane vesicle encloses the genome. Through cross-structural and -sequence comparisons with other  Marseilleviridae using AI-based software in model building and prediction, we elucidated ORF142 as the penton protein, which plugs the twelve vertices of the capsid. Five additional ORFs were identified, with models predicted and fitted into densities that either cap the capsomers externally or stabilize them internally. The isolation of Jyvaskylavirus suggests that these viruses may be widespread in the boreal environment and provide structural insights extendable to other marseilleviruses.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.10.16.618641"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.16.618641"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR926390"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR926390&type=FILE&fileName=EMS199521-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199521",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "biostudies",
+          "gen",
+          "refseq"
+        ]
+      },
+      "dateOfCreation": "2024-10-19",
+      "firstPublicationDate": "2024-10-17",
+      "firstIndexDate": "2024-10-19",
+      "fullTextReceivedDate": "2025-03-22",
+      "hasEvaluations": "Y"
+    }
+  }
+}

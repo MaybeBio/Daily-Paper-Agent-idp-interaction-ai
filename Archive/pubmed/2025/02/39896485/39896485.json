@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "39896485",
+    "doi": "10.1101/2025.01.23.634614",
+    "title": "Ensemble docking for intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are implicated in many human diseases and are increasingly being pursued as drug targets. Conventional structure-based drug design methods that rely on well-defined binding sites are however, largely unsuitable for IDPs. Here, we present computationally efficient ensemble docking approaches to predict the relative affinities of small molecules to IDPs and characterize their dynamic, heterogenous binding mechanisms at atomic resolution. We demonstrate that these ensemble docking protocols accurately predict the relative binding affinities of small molecule alpha-synuclein ligands measured by NMR spectroscopy and generate conformational ensembles of ligand binding modes in remarkable agreement with experimentally validated long-timescale molecular dynamics simulations. Our results display the potential of ensemble docking approaches for predicting small molecule binding to IDPs and suggest that these methods may be valuable tools for IDP drug discovery campaigns.",
+    "keywords": [
+      "Drug Discovery",
+      "Ensemble docking",
+      "Intrinsically Disordered Proteins",
+      "Molecular Docking",
+      "Molecular Dynamics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dhar, Anjali",
+        "Sisk, Thomas R",
+        "Robustelli, Paul"
+      ],
+      "short_names": [
+        "Dhar A",
+        "Sisk TR",
+        "Robustelli P"
+      ],
+      "auids": [
+        "ORCID: 0009-0001-2154-3173",
+        "ORCID: 0009-0004-3823-4766",
+        "ORCID: 0000-0002-9282-8993"
+      ],
+      "affiliations": [
+        "Dartmouth College, Department of Chemistry, Hanover, NH, 03755.",
+        "Dartmouth College, Department of Chemistry, Hanover, NH, 03755.",
+        "Dartmouth College, Department of Chemistry, Hanover, NH, 03755."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dhar, Anjali",
+        "short_name": "Dhar A",
+        "identifiers": [
+          "0009-0001-2154-3173"
+        ],
+        "affiliations": [
+          "Dartmouth College, Department of Chemistry, Hanover, NH, 03755."
+        ]
+      },
+      {
+        "full_name": "Sisk, Thomas R",
+        "short_name": "Sisk TR",
+        "identifiers": [
+          "0009-0004-3823-4766"
+        ],
+        "affiliations": [
+          "Dartmouth College, Department of Chemistry, Hanover, NH, 03755."
+        ]
+      },
+      {
+        "full_name": "Robustelli, Paul",
+        "short_name": "Robustelli P",
+        "identifiers": [
+          "0000-0002-9282-8993"
+        ],
+        "affiliations": [
+          "Dartmouth College, Department of Chemistry, Hanover, NH, 03755."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jan 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/03 12:23",
+    "fetched_at": "2026-09-21 15:27:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41073429",
+      "40446154",
+      "39466712",
+      "38424045",
+      "38050862",
+      "38049566",
+      "37957331",
+      "37949765",
+      "37338049",
+      "37294104",
+      "36859484",
+      "36577061",
+      "36302916",
+      "36229685",
+      "35974095",
+      "35649268",
+      "35500536",
+      "35440993",
+      "35210421",
+      "35130691",
+      "34652141",
+      "34561691",
+      "34197833",
+      "34164069",
+      "34108002",
+      "33812316",
+      "33579943",
+      "33148639",
+      "32966806",
+      "32100577",
+      "31914313",
+      "31846303",
+      "31174387",
+      "29735687",
+      "29606412",
+      "29118091",
+      "28743590",
+      "27543390",
+      "27356095",
+      "27101974",
+      "26931396",
+      "26629955",
+      "26507530",
+      "25789869",
+      "25531225",
+      "25400522",
+      "24950326",
+      "24739139",
+      "21534921",
+      "21514144",
+      "20541699",
+      "19499576",
+      "19432426",
+      "19399780",
+      "16420040",
+      "15116359",
+      "14522049"
+    ],
+    "similar": [
+      "39896485",
+      "40532196",
+      "30979035",
+      "38987470",
+      "37338049",
+      "32403216",
+      "34799573",
+      "30840442",
+      "26387110",
+      "35130691",
+      "40095314",
+      "26387101",
+      "31809054",
+      "27844185",
+      "34656328",
+      "36055623",
+      "29364151",
+      "36217309",
+      "39651234",
+      "24361273",
+      "33581430",
+      "35609776",
+      "26387102",
+      "23189168",
+      "23794453",
+      "27300592",
+      "36084124",
+      "34504009",
+      "33724276",
+      "26574339",
+      "32859072",
+      "34845619",
+      "41073429",
+      "31441158",
+      "31797597",
+      "38732174",
+      "35543707",
+      "24098099",
+      "22988855",
+      "39466712",
+      "31375817",
+      "20580965",
+      "27159632",
+      "41432303",
+      "24312701",
+      "32840111",
+      "36934808",
+      "37108059",
+      "33623120",
+      "34252246",
+      "30933517",
+      "26195786",
+      "41082321",
+      "30278223",
+      "29320696",
+      "31667555",
+      "29733855",
+      "25611056",
+      "36387274",
+      "31548393",
+      "35944496",
+      "33968988",
+      "40231860",
+      "33054197",
+      "35762723",
+      "36969402",
+      "39163306",
+      "30413085",
+      "30913885",
+      "26549326",
+      "22505141",
+      "37626077",
+      "37646172",
+      "21943426",
+      "30184304",
+      "30909517",
+      "34164069",
+      "30471704",
+      "35129612",
+      "30316104",
+      "33310020",
+      "29990433",
+      "29621630",
+      "36674958",
+      "38707546",
+      "35298814",
+      "29157493",
+      "31998071",
+      "24187427",
+      "34680048",
+      "39740355",
+      "26923286",
+      "32639157",
+      "41174305",
+      "35725761",
+      "39693390",
+      "27668217",
+      "40907012",
+      "35053175",
+      "21686180"
+    ],
+    "review": [
+      "39896485",
+      "30979035",
+      "32403216",
+      "30840442",
+      "26387110",
+      "26387101",
+      "29364151",
+      "36217309",
+      "26387102",
+      "23794453",
+      "31441158",
+      "22988855",
+      "30278223",
+      "31667555",
+      "36969402",
+      "30413085",
+      "26549326",
+      "22505141",
+      "30909517",
+      "35129612",
+      "30316104",
+      "38707546",
+      "29157493",
+      "31998071",
+      "34680048",
+      "39740355",
+      "27668217",
+      "35053175"
+    ],
+    "pmc": [
+      "11785235"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39896485/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.01.23.634614",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

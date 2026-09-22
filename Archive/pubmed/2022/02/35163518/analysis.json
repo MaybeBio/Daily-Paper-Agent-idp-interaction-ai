@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35163518",
+  "title": "The Inherent Coupling of Intrinsically Disordered Regions in the Multidomain Receptor Tyrosine Kinase KIT.",
+  "authors": "Ledoux, Julie; Trouve, Alain; Tchertanov, Luba",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2022-02-16",
+  "window": {
+    "start": "2022-02-14",
+    "end": "2022-02-20"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过分子动力学模拟构建全长KIT胞质域模型，研究多结构域中无序区域的内在耦合与变构调控机制，虽对象为受体酪氨酸激酶而非典型IDP，但聚焦IDR介导的域间互作与构象组装，其建模思路对无序蛋白互作机制研究有直接启发。",
+  "abstract": "RTK KIT regulates a variety of crucial cellular processes via its cytoplasmic domain (CD), which is composed of the tyrosine kinase domain, crowned by the highly flexible domains-the juxtamembrane region, kinase insertion domain, and C-tail, which are key recruitment regions for downstream signalling proteins. To prepare a structural basis for the characterization of the interactions of KIT with its signalling proteins (KIT INTERACTOME), we generated the 3D model of the full-length CD attached to the transmembrane helix. This generic model of KIT in inactive state was studied by molecular dynamics simulation under conditions mimicking the natural environment of KIT. With the accurate atomistic description of the multidomain KIT dynamics, we explained its intrinsic (intra-domain) and extrinsic (inter-domain) disorder and represented the conformational assemble of KIT through free energy landscapes. Strongly coupled movements within each domain and between distant domains of KIT prove the functional interdependence of these regions, described as allosteric regulation, a phenomenon widely observed in many proteins. We suggested that KIT, in its inactive state, encodes all properties of the active protein and its post-transduction events.",
+  "abstract_zh": "RTK KIT通过其细胞质结构域（CD）调控多种关键细胞过程，该结构域由酪氨酸激酶结构域组成，其上方覆盖着高度柔性的区域——近膜区、激酶插入结构域和C-尾，这些是下游信号蛋白的关键招募区域。为表征KIT与其信号蛋白（KIT相互作用组）相互作用的构象基础，我们生成了附着于跨膜螺旋的全长CD的3D模型。在模拟KIT天然环境条件下，通过分子动力学 (molecular dynamics) 模拟研究了这种非活性状态的通用KIT模型。凭借对多结构域KIT动力学的精确原子级描述，我们解释了其内在（结构域内）和外在（结构域间）的无序性，并通过自由能景观呈现了KIT的构象组装。每个结构域内部及KIT远距离结构域之间的强耦合运动证明了这些区域的功能相互依赖性，这被描述为变构调控，一种在许多蛋白质中广泛观察到的现象。我们提出，非活性状态的KIT编码了活性蛋白及其转导后事件的所有特性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35163518/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35163518/",
+  "paper_page_path": "papers/pubmed/35163518/index.html"
+}

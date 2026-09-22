@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (review article)
+- **Assessment boundary** Scientific content, technical accuracy, completeness of coverage, and clarity of the presented force field strategies for intrinsically disordered proteins (IDPs)
+- **Shared manuscript claim summary** The manuscript reviews recent force field development strategies for molecular dynamics simulations of IDPs, categorizing them into dihedral parameter adjustments, CMAP corrections, protein–water interaction refinements, and other approaches. It claims that current force fields perform well on specific observables for specific IDPs but fail to consistently reproduce all experimental data across tested systems, and suggests future directions including polarizable force fields and handling of post-translational modifications.
+- **Visible evidence base** Full text including abstract, introduction, sections on dihedral parameters, CMAP, protein–water interactions, other strategies, enhanced sampling, force field benchmarks, conclusion, and acknowledgments. Two tables are referenced (Table 1 and Table 2) but not provided in the supplied material. Figures are referenced (Figure 1) but not provided.
+- **Missing materials affecting confidence** Tables 1 and 2, Figure 1, and any supplementary information are not included. This limits verification of specific force field comparisons and benchmark results.
+
+## Reviewer
+- **Overall assessment** This is a well-structured and informative review that systematically categorizes recent force field development strategies for IDP simulations. The authors provide a clear overview of the main approaches, including dihedral parameter refinement, CMAP corrections, and protein–water interaction tuning, and they appropriately highlight the ongoing challenge of balancing local and global structural accuracy. The manuscript is likely to be useful to researchers in the molecular simulation community, particularly those working on IDPs. However, the review would benefit from a more critical and quantitative comparison of the discussed force fields, and the absence of the tables and figure in the supplied material limits a full assessment of the evidence presented. The discussion of future directions, while reasonable, is somewhat brief and could be expanded with more concrete recommendations.
+- **Who would be interested in the results, and why** Computational biophysicists and chemists, molecular dynamics simulation practitioners, and researchers studying intrinsically disordered proteins and their role in disease. The review provides a practical summary of available force field options and their known limitations, which is valuable for selecting appropriate simulation protocols and for guiding future force field development efforts.
+- **Major strengths** 
+  - Clear and logical organization of force field strategies into distinct categories.
+  - Comprehensive coverage of major recent developments in the field.
+  - Useful discussion of the interplay between force field parameters and water models.
+  - Inclusion of enhanced sampling methods as a complementary topic.
+  - Honest acknowledgment of current limitations and unresolved issues.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of evidence
+  - **Claim pointer** The manuscript states that "different force fields were found to perform well on specific observables of specific IDPs but also are limited in reproducing all available experimental observables consistently for all tested IDPs" and references Table 1 for specific comparisons.
+  - **Evidence pointer** Table 1 (not provided in the supplied material)
+  - **Concern** The manuscript relies heavily on Table 1 to support its comparative claims about force field performance across multiple IDP systems. However, the table is not included in the supplied material, making it impossible to verify the accuracy and completeness of the comparisons described in the text. The narrative in the benchmark section is somewhat fragmented, and the reader cannot assess whether the selection of systems and force fields is representative or biased.
+  - **Why it matters** A review's value depends on the reliability and transparency of its comparative evidence. Without access to the table, the claims about which force fields perform well for which systems cannot be independently evaluated, weakening the manuscript's utility as a reference.
+  - **Resolution test** Provide Table 1 in full, with clear labeling of force fields, systems, observables, and performance metrics. Ensure the text accurately reflects the table's content and that the selection of studies is justified.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical depth and critical analysis
+  - **Claim pointer** The manuscript describes various force field strategies but does not critically evaluate the underlying assumptions, limitations, or potential trade-offs of each approach in sufficient depth.
+  - **Evidence pointer** Sections "Adjusting Dihedral Parameters," "Adding CMAP Parameters," and "Refining Protein–Water Interactions" (location not provided)
+  - **Concern** The review describes what has been done but offers limited critical analysis of why certain strategies succeed or fail. For example, the discussion of dihedral parameter adjustments does not address the risk of overfitting to training data or the transferability of parameters across different protein sequences and environments. Similarly, the CMAP section does not discuss the potential artifacts introduced by grid-based corrections or the sensitivity of results to bin size and interpolation methods. The protein–water interaction section mentions the trade-off between compactness and expansion but does not provide a systematic framework for understanding when and why specific water models are appropriate.
+  - **Why it matters** A review should not only catalog approaches but also provide insight into their relative merits and limitations. A more critical analysis would help readers make informed decisions about which force field to use for their specific system and would highlight key open questions for future research.
+  - **Resolution test** Add a critical discussion of the strengths and weaknesses of each strategy, including potential pitfalls, transferability issues, and known failure modes. Consider including a comparative table that summarizes the advantages and disadvantages of each approach.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Future directions and practical guidance
+  - **Claim pointer** The conclusion states that "polarizable force fields may hold the key for more consistent simulations of both folded and disordered proteins" and that "balancing local structural features and global structural features is a more challenging problem to be solved."
+  - **Evidence pointer** Conclusion section (location not provided)
+  - **Concern** The future directions section is brief and lacks concrete, actionable recommendations. While the authors mention polarizable force fields and the challenge of balancing local and global accuracy, they do not elaborate on specific strategies to address these issues, such as the development of better training data sets, the use of machine learning approaches, or the integration of experimental data into simulation pipelines. The mention of post-translational modifications is also underdeveloped, despite being an important and growing area of IDP research.
+  - **Why it matters** A review's impact is enhanced by providing a clear roadmap for future work. The current conclusion is somewhat generic and does not offer sufficient guidance to researchers who wish to contribute to force field development for IDPs.
+  - **Resolution test** Expand the conclusion with a more detailed discussion of specific research priorities, potential methodological innovations, and the types of experimental data that would be most valuable for future force field parameterization and validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and readability
+  - **Affected element** Introduction section
+  - **Evidence pointer** Introduction (location not provided)
+  - **Issue** The introduction is somewhat dense and could benefit from a clearer statement of the scope and organization of the review. The transition from the general importance of IDPs to the specific focus on force field strategies is abrupt.
+  - **Required correction** Add a brief paragraph at the end of the introduction that outlines the structure of the review and the criteria used to select the discussed force fields.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Equation 5
+  - **Evidence pointer** Section "Adding CMAP Parameters" (location not provided)
+  - **Issue** The bicubic interpolation formula in eq 5 appears to have a typographical issue. The exponent for the second summation term is written as "i-1" but should likely be "j-1" to be consistent with the standard bicubic interpolation formulation.
+  - **Required correction** Verify and correct the exponent in eq 5. The second summation should use "j-1" as the exponent for the ψ term.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Discussion of polarizable force fields
+  - **Evidence pointer** Section "Other Strategies" (location not provided)
+  - **Issue** The discussion of polarizable force fields mentions several models (fluctuating charge, Drude oscillator, Amoeba) but does not cite specific recent applications to IDPs. This is a missed opportunity to demonstrate the current state of the art.
+  - **Required correction** Add recent references (e.g., from the last 3-5 years) that apply polarizable force fields to IDP simulations, and briefly discuss their findings and limitations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Benchmark section
+  - **Evidence pointer** Section "Force Field Benchmark" (location not provided)
+  - **Issue** The benchmark section mentions several IDP systems (Aβ, α-synuclein, histatin 5, p53, polyQ, hIAPP) but the level of detail varies considerably. Some systems are discussed in depth, while others are only mentioned in passing.
+  - **Required correction** Either provide a more uniform level of detail for each system or clearly indicate that the depth of discussion reflects the availability of published studies.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract (location not provided)
+  - **Issue** The abstract is concise but does not explicitly state the main conclusion or take-home message of the review. It describes what is covered but not what the authors want readers to take away.
+  - **Required correction** Add one or two sentences in the abstract that summarize the key findings and the main recommendation for future force field development.
+
+## Risk / unsupported claims
+- The claim that "different force fields were found to perform well on specific observables of specific IDPs but also are limited in reproducing all available experimental observables consistently for all tested IDPs" is not fully verifiable without Table 1.
+- The statement that "CHARMM36IDPSFF force field also performs well in both multiple-trajectory simulations and replica-exchange simulations" is supported by reference to Figure 1, which is not provided.
+- The claim that "ff14IDPSFF performs very well in long-time simulations (i.e., microsecond time scales) and reproduces NMR observables" is stated without specific quantitative data or comparison to other force fields.
+- The assertion that "the next step for improving the performance and accuracy of the IDP-specific force field might be on these polar interactions" is presented as a reasonable hypothesis but is not supported by direct evidence from the reviewed studies.
+- The statement that "the current IDP force fields are limited to simulations with standard amino acids" is presented as a limitation, but the manuscript does not discuss any recent efforts to address this gap, making the claim somewhat dated.

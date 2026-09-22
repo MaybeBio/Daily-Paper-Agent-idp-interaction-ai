@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40773731",
+  "title": "RNA Structural Complexity Dictates Its Ion Atmosphere.",
+  "authors": "Maity, Hiranmay; Zhang, Heyang; Thirumalai, D; Nguyen, Hung T",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2025-08-07",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用MD模拟研究不同结构柔性RNA的离子氛围差异，虽对象为RNA而非蛋白IDR，但探讨结构无序性对静电相互作用和相分离的影响，对无序体系互作机制建模有方法学启发。",
+  "abstract": "Electrostatic interactions mediated by surrounding ions critically influence RNA behavior, yet flexible RNAs remain underexplored. We performed molecular dynamics simulations to examine three RNAs across the structural continuum: unstructured poly uridylic tract (rU(30)), a semiflexible cytosine-adenine-guanine (CAG) repeat, and a tightly folded pseudoknot. Despite similar net charges, rU(30) attracts a diffuse Mg(2+) cloud extending beyond two hydration shells, while the CAG repeat and pseudoknot favor more compact outer-sphere Mg(2+) binding. In contrast, Ca(2+) consistently forms inner-sphere contacts across all three RNAs. Remarkably, the ion atmospheres around unstructured RNAs extend farther into solution than that of the folded RNAs, significantly broadening their electrostatic sphere of influence. Nonetheless, the ion exchange kinetics remain virtually unchanged, demonstrating a surprising decoupling between spatial distribution and dynamical turnover. Our findings reveal RNA structural flexibility as a powerful lever for tuning ionic screening, with important implications for biomolecular recognition, phase separation, and biophysical properties of RNA-rich condensates.",
+  "abstract_zh": "由周围离子介导的静电相互作用对RNA行为具有关键影响，然而柔性RNA仍未被充分探索。我们进行了分子动力学 (molecular dynamics) 模拟，以研究跨越结构连续体的三种RNA：无结构的聚尿苷酸片段 (rU(30))、半柔性的胞嘧啶-腺嘌呤-鸟嘌呤 (CAG) 重复序列，以及紧密折叠的假结。尽管净电荷相似，rU(30) 吸引了一个扩散的 Mg(2+) 云，延伸超过两个水化壳层，而CAG重复序列和假结则偏好更紧凑的外层 Mg(2+) 结合。相比之下，Ca(2+) 在三种RNA中均一致形成内层接触。值得注意的是，无结构RNA周围的离子氛围比折叠RNA的延伸得更远，显著拓宽了其静电影响范围。然而，离子交换动力学几乎保持不变，显示出空间分布与动态周转之间的惊人解耦。我们的发现揭示了RNA结构柔性作为调节离子屏蔽的有力杠杆，对生物分子识别、相分离 (phase separation) 以及富含RNA凝聚体的生物物理特性具有重要意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40773731/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40773731/",
+  "paper_page_path": "papers/pubmed/40773731/index.html"
+}

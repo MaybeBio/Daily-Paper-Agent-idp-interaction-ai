@@ -1,0 +1,122 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusion, practical implications, limitations, outlook, and ancillary sections) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the described methods, results, and claims as presented in the supplied text. No external data, code, or supplementary materials were accessed.
+- **Shared manuscript claim summary** The authors propose a patch-centric framework for predicting conformational B-cell epitopes directly from antigen structures. Each surface patch is a triad of neighboring residues. Two classifiers are evaluated: a protein language model (PLM) approach using averaged ESM-2 embeddings with a multilayer perceptron, and a convolutional neural network (CNN) baseline using hand-crafted structural features. Models are trained with five-fold cross-validation on 1,151 AbDb antibody–antigen complexes. The PLM model reportedly outperforms the CNN at patch level (F1 ≈ 0.986, ROC–AUC ≈ 0.998) and residue level (ROC–AUC 0.689 ± 0.072 vs. 0.548 ± 0.018). Against existing tools on AbDb, the PLM achieves the best summary metrics (ROC–AUC 0.67, PR–AUC 0.56) with full coverage. On five external complexes, the model achieves ROC–AUC 0.663.
+- **Visible evidence base** Abstract; Introduction; Methods sections 2.1–2.7; Results sections 3.1–3.4; Conclusion; Practical implications; Limitations and opportunities; Outlook. Tables 1–4 and Figures 1–2 are referenced but not provided. No code, data, or supplementary information was supplied.
+- **Missing materials affecting confidence** Tables 1–4 and Figures 1–2 are referenced but not included. The external complex dataset details (selection criteria, antigen types, antibody classes) are not described. The in-house mesh-based curvature analysis is not fully specified. The CNN baseline feature matrix construction is described but not validated. The ensemble aggregation method and threshold calibration procedure are not fully detailed. The comparison protocol for existing tools (e.g., BEpro, DiscoTope2, EpiPred) is not described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually simple and potentially useful framework for conformational B-cell epitope prediction. The core idea of using tri-residue surface patches with PLM embeddings is reasonable and the reported performance gains over a CNN baseline are notable. However, the manuscript as provided has several significant gaps that prevent full evaluation. The absence of the actual tables and figures is a major limitation. The external validation is very small (five complexes) and the selection criteria are not described. The comparison with existing tools lacks methodological detail. The patch definition (triads of residues with sidechain centers of mass within 8.5 Å) is not justified. The class imbalance issue is acknowledged but not addressed in the training procedure. The manuscript would benefit from clearer reporting of the experimental setup, more rigorous external validation, and a more detailed analysis of failure cases.
+- **Who would be interested in the results, and why** Researchers in computational immunology, antibody engineering, and vaccine design would be the primary audience. The method offers a practical tool for prioritizing antigen regions for experimental validation. The use of PLM embeddings for epitope prediction is timely and could be of interest to the broader protein language model community. The framework's simplicity and interpretability (patch-level scores aggregated to residue maps) may appeal to experimentalists seeking user-friendly prediction tools.
+- **Major strengths** The patch-centric formulation is conceptually clean and directly addresses the conformational nature of B-cell epitopes. The use of ESM-2 embeddings is well-motivated and leverages recent advances in protein representation learning. The five-fold cross-validation on a large dataset (1,151 complexes) is a solid evaluation strategy. The comparison with a CNN baseline using hand-crafted features is appropriate and demonstrates the value of the PLM approach. The authors acknowledge key limitations (class imbalance, local formulation, lack of antibody conditioning) and propose reasonable future directions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript reports quantitative performance metrics (e.g., F1 ≈ 0.986, ROC–AUC ≈ 0.998 at patch level; ROC–AUC 0.689 ± 0.072 at residue level) and comparisons with existing tools (Table 3).
+  - **Evidence pointer** Tables 1–4 and Figures 1–2 are referenced but not provided in the supplied material.
+  - **Concern** The core quantitative results of the manuscript are presented in tables and figures that were not included in the provided text. Without these, the reported performance metrics cannot be verified, and the comparison with existing tools cannot be assessed. The external validation results (Table 4) and the qualitative case studies (Fig. 2) are also missing.
+  - **Why it matters** The central claims of the manuscript rest on these quantitative results. Without the actual data, the performance gains, the statistical significance, and the practical utility of the method cannot be evaluated. This is a fundamental gap that prevents any meaningful assessment of the manuscript's contribution.
+  - **Resolution test** Provide the missing tables and figures, including full performance metrics with standard deviations, the comparison table with existing tools, and the external validation results. The figures should include representative prediction examples.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** External validation rigor
+  - **Claim pointer** The manuscript claims that on five external complexes unseen during development, the model generalizes well (ROC–AUC 0.663) and accurately localizes binding regions qualitatively.
+  - **Evidence pointer** Section 3.4; Table 4; Fig. 2.
+  - **Concern** The external validation is limited to only five complexes. The selection criteria for these complexes are not described. It is unclear whether they were chosen to be representative, challenging, or convenient. The qualitative assessment of localization is subjective and not quantified. The reported ROC–AUC of 0.663 is lower than the cross-validation performance, which is expected, but the small sample size makes this estimate unreliable.
+  - **Why it matters** External validation is critical for assessing generalization. Five complexes are insufficient to draw robust conclusions about the method's performance on novel antigens. The lack of selection criteria raises concerns about potential bias. The qualitative claims about localization need quantitative support.
+  - **Resolution test** Expand the external validation set to a larger, clearly described cohort. Provide quantitative measures of localization accuracy (e.g., distance between predicted and observed epitope centers, overlap coefficients). Describe the selection criteria for external complexes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological justification
+  - **Claim pointer** The manuscript defines a local structural patch as any group of three surface residues whose sidechain centers of mass are all within 8.5 Å of one another.
+  - **Evidence pointer** Section 2.2.
+  - **Concern** The choice of three residues and the 8.5 Å distance threshold is not justified. No ablation study or sensitivity analysis is presented to show that this specific patch definition is optimal or even appropriate. The relationship between this patch size and the physical dimensions of antibody–antigen interfaces is not discussed.
+  - **Why it matters** The patch definition is the fundamental unit of the entire framework. If the patch size or composition is suboptimal, the method's performance could be compromised. Without justification or ablation, the reader cannot assess whether this design choice is sound.
+  - **Resolution test** Provide a rationale for the patch size and distance threshold, ideally supported by an ablation study varying these parameters. Discuss the relationship between the patch definition and the physical properties of epitope–paratope interfaces.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison fairness
+  - **Claim pointer** The manuscript claims that the PLM model achieves the best summary metrics (ROC–AUC 0.67, PR–AUC 0.56) compared to widely used sequence- and structure-based tools on AbDb.
+  - **Evidence pointer** Section 3.3; Table 3.
+  - **Concern** The comparison with existing tools is described only in a single paragraph. The evaluation protocol is not detailed. It is unclear whether the same train/test splits were used, whether the tools were run with their default parameters or optimized for this dataset, and whether the comparison was performed at the residue level or patch level. The "F predicted" metric suggests that different tools may have been compared at different operating points.
+  - **Why it matters** Fair comparison with existing methods is essential to establish the claimed superiority. Without a detailed protocol, the comparison could be biased, and the reported improvements may not be meaningful.
+  - **Resolution test** Provide a detailed description of the comparison protocol, including train/test splits, parameter settings, and evaluation metrics. Consider using a standardized benchmark with predefined splits and evaluation criteria.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Class imbalance handling
+  - **Claim pointer** The manuscript reports high ROC–AUC values (0.9985 at patch level) and notes that precision is low at default thresholds (0.149 on external data), consistent with class imbalance.
+  - **Evidence pointer** Sections 3.1, 3.4; Tables 1, 4.
+  - **Concern** The class imbalance problem is acknowledged but the training procedure does not appear to address it. No mention is made of class weighting, oversampling, undersampling, or focal loss. The high ROC–AUC with low precision suggests that the model may be biased toward the majority class (non-epitope patches).
+  - **Why it matters** In practical applications, precision is often as important as recall. A model that flags many false positives is less useful for guiding experimental work. The manuscript should address how the class imbalance was handled during training and how users should interpret the output scores.
+  - **Resolution test** Describe the class distribution in the training data and any measures taken to address imbalance. Consider reporting precision-recall curves and discussing how users should set thresholds for different applications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, shape index definition
+  - **Evidence pointer** Section 2.3
+  - **Issue** The equations for principal curvatures and shape index are mentioned but not shown. The text reads "The principal curvatures κ 1,2 are subsequently obtained by and the shape index S is then defined as with highly concave regions yielding values near −1 and highly convex regions near +1." The equations appear to be missing.
+  - **Required correction** Provide the complete equations for principal curvature and shape index calculation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, feature matrix description
+  - **Evidence pointer** Section 2.3
+  - **Issue** The description of the 15×20 feature matrix is confusing. The text states "We then combine SS and SaSaRate encodings into a 15-dimensional vector, while amino acid type information selects the appropriate column in a 15×20 matrix, further scaled by the residue's interaction strength indicator (SI)." The role of the shape index in the matrix is not clear.
+  - **Required correction** Clarify how the shape index is incorporated into the feature matrix and provide a clear description of the matrix construction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.1, dataset description
+  - **Evidence pointer** Section 2.1
+  - **Issue** The dataset description mentions "clustered by aligning the Fv region sequences of the antibodies" but does not specify the clustering threshold or method. The redundancy reduction criteria are not fully described.
+  - **Required correction** Provide details on the clustering method and threshold used for redundancy reduction.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.6, cross-validation description
+  - **Evidence pointer** Section 2.6
+  - **Issue** The text states "80% of the data (920 structures) were used for training and validation" but the split between training and validation is described in the next sentence. The wording is slightly confusing.
+  - **Required correction** Rephrase to clearly state that 80% of the data was used for development (training + validation) and 20% for testing, with the development set further split 80:20 into training and validation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.4, external complexes
+  - **Evidence pointer** Section 3.4
+  - **Issue** The external complexes are listed by PDB ID but no details are given about the antigens (e.g., protein type, source organism) or the antibodies. The diversity of the test set is unclear.
+  - **Required correction** Provide a table or description of the external complexes, including antigen and antibody details.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5, model architecture
+  - **Evidence pointer** Section 2.5
+  - **Issue** The fully connected network architecture is described but the number of layers and hidden units is not fully specified. The text mentions "a dense layer of 128 neurons" and "a second dense layer of 64 neurons" but the output layer is not described.
+  - **Required correction** Provide a complete description of the network architecture, including the output layer and activation function.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.4, CNN architecture
+  - **Evidence pointer** Section 2.4
+  - **Issue** The CNN architecture is described but the input dimensions and the number of parameters are not specified. The text mentions "two sequential convolutional blocks" but the filter sizes and strides are not fully detailed.
+  - **Required correction** Provide a complete description of the CNN architecture, including input dimensions, filter sizes, and strides.
+- **Technical failings that need to be addressed before the case is established** The missing tables and figures (R1-M1) are the most critical technical failing. Without the actual data, the core claims cannot be verified. The limited external validation (R1-M2) and the lack of methodological detail in the comparison with existing tools (R1-M4) also need to be addressed. The class imbalance handling (R1-M5) and the justification of the patch definition (R1-M3) are important but less critical.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The patch-centric formulation with tri-residue patches is a reasonable and somewhat novel approach, though the use of PLM embeddings for epitope prediction is not entirely new. The originality is moderate.
+  - **Scientific importance** Accurate conformational B-cell epitope prediction is an important problem in immunology and vaccine design. The potential practical impact is significant, but the current evidence is insufficient to establish the method's superiority.
+  - **Interdisciplinary readership** The topic bridges computational biology, immunology, and structural biology. The manuscript is written in a way that is accessible to a broad audience, though some methodological details are lacking.
+  - **Technical soundness** The technical approach is reasonable, but the missing data and lack of methodological detail prevent a full assessment. The external validation is too small to be convincing.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The abstract and introduction are clear. However, some methodological sections (e.g., feature matrix construction) could be clearer.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has a reasonable premise and the reported results are promising, but the missing tables and figures, the limited external validation, and the lack of methodological detail prevent a full assessment. The authors should be encouraged to resubmit with the complete data and a more rigorous evaluation.
+
+## Risk / unsupported claims
+- The claim that the PLM model "markedly outperforms" the CNN at the patch level (F1 ≈ 0.986, ROC–AUC ≈ 0.998) cannot be verified without Table 1.
+- The claim that the PLM model achieves the best summary metrics against existing tools (ROC–AUC 0.67, PR–AUC 0.56) cannot be verified without Table 3 and a detailed comparison protocol.
+- The claim that the model "generalizes well" on five external complexes (ROC–AUC 0.663) is based on a very small sample and cannot be considered robust.
+- The claim that the model "accurately localizes binding regions qualitatively" is subjective and not supported by quantitative measures.
+- The claim that the method "offers a practical aid for antigen prioritization, antibody engineering, and vaccine design" is speculative and not directly supported by the presented results.

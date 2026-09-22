@@ -1,0 +1,130 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.16.516834",
+  "title": "Repulsive interaction and secondary structure of highly charged proteins in regulating biomolecular condensation",
+  "doi": "10.1101/2022.11.16.516834",
+  "abstract": "Biomolecular condensation is involved in various cellular processes both functional and dysfunctional. Regulation of the condensation is thus crucial to avoid pathological protein aggregation and to maintain stable cellular environments. Recently, a class of highly charged intrinsically disordered proteins (IDPs), which are called the heat-resistant obscure (Hero) proteins, are shown to protect other client proteins from pathological aggregation. Besides the potential importance of this function, molecular mechanisms for how Hero proteins can protect other proteins from aggregation are not still known. Here we perform multiscale molecular dynamics (MD) simulations of Hero11, one of the Hero proteins, and the C-terminal region of TDP-43, as a target protein of Hero11, at various conditions to examine how they interact with each other. Based on the simulation results, three possible mechanisms have been proposed: (i) TDP-43 and Hero11 in dense phase reduces contacts with each other and shows faster diffusion due to the repulsive Hero11-Hero11 interactions, (ii) the amount of TDP-43 in dilute phase increases and their sizes become greater upon the attractive Hero11-TDP-43 interactions, and (iii) Hero-11 on the surface of small TDP-43 condensates avoids their fusions with the repulsive interactions. We also examine possible Hero-11 structures in atomistic and coarse-grained MD simulations and found disordered Hero-11 tend to assemble on the surface of the condensates, avoiding the droplet fusion effectively. The proposed mechanisms give us new insight into the regulation of biomolecular condensation in the cells and other conditions.",
+  "authors": [
+    "Tan C",
+    "Niitsu A",
+    "Sugita Y"
+  ],
+  "published_date": "2022-11-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.16.516834",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.16.516834.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR573157",
+    "raw_record": {
+      "id": "PPR573157",
+      "source": "PPR",
+      "doi": "10.1101/2022.11.16.516834",
+      "title": "Repulsive interaction and secondary structure of highly charged proteins in regulating biomolecular condensation",
+      "authorString": "Tan C, Niitsu A, Sugita Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tan C",
+            "lastName": "Tan",
+            "firstName": "Cheng",
+            "initials": "C"
+          },
+          {
+            "fullName": "Niitsu A",
+            "lastName": "Niitsu",
+            "firstName": "Ai",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7823-9041"
+            }
+          },
+          {
+            "fullName": "Sugita Y",
+            "lastName": "Sugita",
+            "firstName": "Yuji",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9738-9216"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9738-9216"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7823-9041"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Biomolecular condensation is involved in various cellular processes both functional and dysfunctional. Regulation of the condensation is thus crucial to avoid pathological protein aggregation and to maintain stable cellular environments. Recently, a class of highly charged intrinsically disordered proteins (IDPs), which are called the heat-resistant obscure (Hero) proteins, are shown to protect other client proteins from pathological aggregation. Besides the potential importance of this function, molecular mechanisms for how Hero proteins can protect other proteins from aggregation are not still known. Here we perform multiscale molecular dynamics (MD) simulations of Hero11, one of the Hero proteins, and the C-terminal region of TDP-43, as a target protein of Hero11, at various conditions to examine how they interact with each other. Based on the simulation results, three possible mechanisms have been proposed: (i) TDP-43 and Hero11 in dense phase reduces contacts with each other and shows faster diffusion due to the repulsive Hero11-Hero11 interactions, (ii) the amount of TDP-43 in dilute phase increases and their sizes become greater upon the attractive Hero11-TDP-43 interactions, and (iii) Hero-11 on the surface of small TDP-43 condensates avoids their fusions with the repulsive interactions. We also examine possible Hero-11 structures in atomistic and coarse-grained MD simulations and found disordered Hero-11 tend to assemble on the surface of the condensates, avoiding the droplet fusion effectively. The proposed mechanisms give us new insight into the regulation of biomolecular condensation in the cells and other conditions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/17/2022.11.16.516834.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.16.516834"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-11-19",
+      "firstPublicationDate": "2022-11-17",
+      "firstIndexDate": "2022-11-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

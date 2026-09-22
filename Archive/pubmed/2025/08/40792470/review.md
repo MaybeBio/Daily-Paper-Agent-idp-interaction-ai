@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to propose a mechanistic model of HP1alpha chromo shadow domain (CSD) oligomerization, in which monomeric state tail dynamics favor dimerization at the alpha-helix face, KAP1 binding via the PxVxL motif and flanking residues modulates interface selection, and subsequent beta-sheet face dimerization is driven by specific hydrophobic and polar contacts.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, validation metrics, or structural analyses are provided
+- **Missing materials affecting confidence** Full methods, simulation protocols, force field parameters, convergence criteria, free energy calculations, mutational validation, experimental corroboration, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically detailed model of HP1alpha CSD oligomerization regulated by KAP1 binding. The proposed sequence of events, from monomeric tail dynamics to interface selection and KAP1-mediated remodeling, is internally coherent and conceptually interesting. However, the abstract provides no quantitative evidence, no methodological detail, and no validation of the simulation findings. The central claims, while mechanistically appealing, cannot be assessed for technical soundness or robustness from the supplied material. The work has potential interest for the chromatin biology and computational biophysics communities, but the evidence base is insufficient to establish the case as presented.
+- **Who would be interested in the results, and why** Researchers studying heterochromatin organization, HP1 family proteins, phase separation in chromatin regulation, and protein-protein interaction interfaces. Computational biophysicists interested in oligomerization mechanisms and allosteric regulation of protein dynamics would also find the proposed model relevant. The mechanistic link between a partner protein and interface selection in oligomerization could inform drug discovery efforts targeting HP1 interactions.
+- **Major strengths** The abstract presents a clear, stepwise mechanistic model that connects monomeric conformational dynamics to dimerization interface selection and subsequent higher-order assembly. The proposed role of flanking residues in modulating partner binding and interface accessibility is a nuanced and potentially valuable contribution. The comparative analysis of KAP1-bound and unbound states is a logical approach to dissect the regulatory mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that molecular dynamics simulations reveal specific interactions, including hydrophobic interactions mediated by L139 and L150 and polar interactions mediated by R115, as critical for beta-sheet face dimerization.
+  - **Evidence pointer** Abstract only; no methods, figures, or tables provided
+  - **Concern** The abstract provides no information on simulation methodology, including force field, water model, simulation length, temperature, salt concentration, or replica sampling. Without this information, the reliability of the simulated conformational ensembles cannot be evaluated. Furthermore, the claim that specific residues are "critical" implies a mutational or energetic analysis, but no such evidence is presented in the abstract.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation parameters and sampling quality. Claims of critical residue contributions require either free energy calculations, alchemical mutations, or experimental validation. Without these, the mechanistic conclusions may be artifacts of insufficient sampling or force field inaccuracies.
+  - **Resolution test** Provide full simulation details, convergence metrics, and either in silico mutation analysis or experimental validation of the L139, L150, and R115 contributions to dimerization.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that KAP1 binding suppresses C-tail-beta-sheet interactions and promotes N-tail flexibility, thereby making the beta-sheet face available for dimerization.
+  - **Evidence pointer** Abstract only; no quantitative comparison of bound versus unbound states provided
+  - **Concern** The abstract describes a series of conformational transitions without presenting any quantitative measures, such as contact probabilities, distance distributions, or free energy differences between states. The claim that KAP1 binding "drives structural rearrangements" implies a causal relationship that requires demonstration of statistically significant differences between the bound and unbound ensembles.
+  - **Why it matters** The central mechanistic model rests on the ability to distinguish between conformational states and to attribute changes to KAP1 binding. Without quantitative evidence, the described transitions could be within thermal fluctuation or sampling noise.
+  - **Resolution test** Provide quantitative comparisons of key interaction distances, contact maps, and free energy profiles for KAP1-bound versus unbound CSD systems, with appropriate error estimates and statistical testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The abstract states that the findings "elucidate the molecular mechanism of HP1 oligomerization" and highlight how KAP1 binding modulates HP1's function in heterochromatin formation.
+  - **Evidence pointer** Abstract only; no experimental context or validation
+  - **Concern** The abstract extrapolates from simulation findings to biological function without any experimental corroboration. The claim of "elucidating" a molecular mechanism in a cellular context is strong, given that the study appears to be purely computational. No mention is made of how the simulation results relate to known experimental data on HP1 oligomerization or KAP1 interactions.
+  - **Why it matters** Computational predictions require contextualization with existing experimental evidence to establish biological relevance. Overstatement of mechanistic insight from simulations alone can mislead readers about the strength of the conclusions.
+  - **Resolution test** Discuss how the simulation findings align with or refine existing experimental observations on HP1 oligomerization and KAP1 binding, and temper claims of mechanistic elucidation to reflect the computational nature of the study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "oligomerization" is used broadly, but the abstract focuses on dimerization at two interfaces. The relationship between dimerization and higher-order oligomerization is not clearly defined.
+  - **Required correction** Clarify whether the study addresses only dimerization or also higher-order assembly, and define the relationship between the two interfaces and oligomerization states.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation validation
+  - **Evidence pointer** Abstract only
+  - **Issue** No mention is made of how the simulation results were validated, such as comparison with experimental structures, known mutation effects, or cross-validation with different force fields.
+  - **Required correction** Include a statement on validation approaches in the abstract or indicate where this information can be found in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Residue numbering
+  - **Evidence pointer** Abstract, beta-sheet dimerization description
+  - **Issue** The residues L139, L150, and R115 are mentioned without specifying the species or isoform context. HP1alpha sequences vary across species, and residue numbering may differ.
+  - **Required correction** Specify the species and isoform for which the residue numbering applies, and note any sequence context that may affect interpretation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of simulation methodology and quantitative evidence prevents assessment of whether the proposed mechanism is technically sound and statistically supported. R1-M3, while not blocking, requires tempering of claims to match the computational scope.
+- **Assessment against Nature-style criteria** Originality: The proposed mechanism, particularly the role of flanking residues in modulating interface selection, appears conceptually novel. Scientific importance: The topic is significant for chromatin biology, but the importance of the specific findings cannot be fully assessed without quantitative evidence. Interdisciplinary readership: The work bridges computational biophysics and chromatin biology, which could attract a broad audience if the evidence is robust. Technical soundness: Not assessable from the abstract; the absence of methodological detail is a critical gap. Readability for nonspecialists: The abstract is generally clear, though some terms such as "intramonomeric" and "intermonomeric" may require definition for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The mechanistic model is interesting and potentially valuable, but the abstract alone does not provide sufficient technical detail or quantitative support to assess the validity of the claims. A full review of the manuscript with methods and figures would be required to determine whether the case can be established.
+
+## Risk / unsupported claims
+- The claim that L139, L150, and R115 are "critical" for beta-sheet face dimerization is unsupported without mutational or energetic analysis.
+- The claim that KAP1 binding "drives" structural rearrangements implies causality that is not demonstrated with quantitative comparisons.
+- The claim of "elucidating the molecular mechanism of HP1 oligomerization" overstates the scope of a purely computational study without experimental validation.
+- The specific interaction patterns described, such as "KAP1 FRs interact with the beta-sheet residues laterally," cannot be evaluated without structural or contact data.

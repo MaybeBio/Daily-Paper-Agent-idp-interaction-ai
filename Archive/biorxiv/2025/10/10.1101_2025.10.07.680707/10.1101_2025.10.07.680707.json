@@ -1,0 +1,245 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.07.680707",
+  "title": "Functional Group Composition: The Blueprint for Protein Interactions",
+  "doi": "10.1101/2025.10.07.680707",
+  "abstract": "Understanding the complex landscape of protein interactions, especially those involving intrinsically disordered proteins (IDPs), is fundamental yet challenging due to their structural heterogeneity and flexibility. Traditional sequence-based homology methods frequently fall short in characterizing IDP functions and interactions. Here, we present a novel approach leveraging supervised and unsupervised machine learning techniques, focusing exclusively on the compositional features of proteins. An Edmond-Ogston-inspired mixing model can reliably predict the degree of survivin (BIRC5) binding as a function of peptide composition alone, revealing a first interesting connection with the composition diagrams of chemical thermodynamics. By representing protein sequences through their functional group compositions, we demonstrate that specific compositions robustly predict binding interactions with survivin, an important human protein in cellular regulation pathways. Experimental validation via peptide microarray confirms the predictive power of our simplified compositional model, independent of exact amino acid sequences. Extending this method across the human proteome, we identified distinct compositional signatures correlating with survivin interactions and revealed fine grained biologically meaningful functional clusters based on compositional similarity. Our findings suggest a compositional blueprint underpinning protein interactions, offering a powerful, simplified framework to decode complex biological networks.",
+  "authors": [
+    "Olsson TN",
+    "Anindya AL",
+    "García-Bonete M",
+    "Vrouwe E",
+    "Marguet D",
+    "Preto J",
+    "Calandrini V",
+    "Pettini M",
+    "Ruffenach S",
+    "Torres J",
+    "Chandrasekaran V",
+    "Bokarewa M",
+    "Mezzasalma SA",
+    "Katona G"
+  ],
+  "published_date": "2025-10-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.07.680707",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.07.680707.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1097661",
+    "raw_record": {
+      "id": "PPR1097661",
+      "source": "PPR",
+      "doi": "10.1101/2025.10.07.680707",
+      "title": "Functional Group Composition: The Blueprint for Protein Interactions",
+      "authorString": "Olsson TN, Anindya AL, García-Bonete M, Vrouwe E, Marguet D, Preto J, Calandrini V, Pettini M, Ruffenach S, Torres J, Chandrasekaran V, Bokarewa M, Mezzasalma SA, Katona G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Olsson TN",
+            "lastName": "Olsson",
+            "firstName": "Torbjörn Nur",
+            "initials": "TN"
+          },
+          {
+            "fullName": "Anindya AL",
+            "lastName": "Anindya",
+            "firstName": "Atsarina Larasati",
+            "initials": "AL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6338-2905"
+            }
+          },
+          {
+            "fullName": "García-Bonete M",
+            "lastName": "García-Bonete",
+            "firstName": "María-José",
+            "initials": "M"
+          },
+          {
+            "fullName": "Vrouwe E",
+            "lastName": "Vrouwe",
+            "firstName": "Elwin",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3287-3466"
+            }
+          },
+          {
+            "fullName": "Marguet D",
+            "lastName": "Marguet",
+            "firstName": "Didier",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3198-5095"
+            }
+          },
+          {
+            "fullName": "Preto J",
+            "lastName": "Preto",
+            "firstName": "Jordan",
+            "initials": "J"
+          },
+          {
+            "fullName": "Calandrini V",
+            "lastName": "Calandrini",
+            "firstName": "Vania",
+            "initials": "V"
+          },
+          {
+            "fullName": "Pettini M",
+            "lastName": "Pettini",
+            "firstName": "Marco",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1561-4390"
+            }
+          },
+          {
+            "fullName": "Ruffenach S",
+            "lastName": "Ruffenach",
+            "firstName": "Sandra",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7667-9687"
+            }
+          },
+          {
+            "fullName": "Torres J",
+            "lastName": "Torres",
+            "firstName": "Jeremie",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5874-0990"
+            }
+          },
+          {
+            "fullName": "Chandrasekaran V",
+            "lastName": "Chandrasekaran",
+            "firstName": "Venkataragavan",
+            "initials": "V"
+          },
+          {
+            "fullName": "Bokarewa M",
+            "lastName": "Bokarewa",
+            "firstName": "Maria",
+            "initials": "M"
+          },
+          {
+            "fullName": "Mezzasalma SA",
+            "lastName": "Mezzasalma",
+            "firstName": "Stefano",
+            "initials": "SA"
+          },
+          {
+            "fullName": "Katona G",
+            "lastName": "Katona",
+            "firstName": "Gergely",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2031-8716"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5874-0990"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6338-2905"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7667-9687"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2031-8716"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8832-4338"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1561-4390"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3198-5095"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3287-3466"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Understanding the complex landscape of protein interactions, especially those involving intrinsically disordered proteins (IDPs), is fundamental yet challenging due to their structural heterogeneity and flexibility. Traditional sequence-based homology methods frequently fall short in characterizing IDP functions and interactions. Here, we present a novel approach leveraging supervised and unsupervised machine learning techniques, focusing exclusively on the compositional features of proteins. An Edmond-Ogston-inspired mixing model can reliably predict the degree of survivin (BIRC5) binding as a function of peptide composition alone, revealing a first interesting connection with the composition diagrams of chemical thermodynamics. By representing protein sequences through their functional group compositions, we demonstrate that specific compositions robustly predict binding interactions with survivin, an important human protein in cellular regulation pathways. Experimental validation via peptide microarray confirms the predictive power of our simplified compositional model, independent of exact amino acid sequences. Extending this method across the human proteome, we identified distinct compositional signatures correlating with survivin interactions and revealed fine grained biologically meaningful functional clusters based on compositional similarity. Our findings suggest a compositional blueprint underpinning protein interactions, offering a powerful, simplified framework to decode complex biological networks.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.10.07.680707"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-10-10",
+      "firstPublicationDate": "2025-10-07",
+      "firstIndexDate": "2025-10-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

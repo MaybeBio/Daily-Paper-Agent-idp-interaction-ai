@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.06.07.495081",
+  "title": "A hybrid model combining evolutionary probability and machine learning leverages data-driven protein engineering",
+  "authors": "Alexander-Maurice Illig; Niklas E. Siedhoff; Ulrich Schwaneberg; Mehdi D. Davari",
+  "journal": "bioRxiv",
+  "published_date": "2022-06-07",
+  "window": {
+    "start": "2022-06-06",
+    "end": "2022-06-12"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出结合进化耦合分析与机器学习的混合模型，用于数据驱动的蛋白质工程序列-适应度预测，但对象非无序蛋白/IDR，且不涉及PPI或互作机制建模，仅方法上对序列-功能预测有间接启发。",
+  "abstract": "Protein engineering through directed evolution and (semi-)rational approaches has been applied successfully to optimize protein properties for broad applications in molecular biology, biotechnology, and biomedicine. The potential of protein engineering is not yet fully realized due to the limited screening throughput hampering the efficient exploration of the vast protein sequence space. Data-driven strategies have emerged as a powerful tool to leverage protein engineering by providing a model of the sequence-fitness landscape that can exhaustively be explored in silico and capitalize on the high diversity potential offered by nature However, as both the quality and quantity of the inputted data determine the success of such approaches, the applicability of data-driven strategies is often limited due to sparse data. Here, we present a hybrid model that combines direct coupling analysis and machine learning techniques to enable data-driven protein engineering when only few labeled sequences are available. Our method achieves high performance in predicting a protein’s fitness based on its sequence regardless of the number of sequences-fitness pairs in the training dataset. Besides reducing the computational effort compared to state-of-the-art methods, it outperforms them for sparse data situations, i.e., 50 − 250 labeled sequences available for training. In essence, the developed method is auspicious for data-driven protein engineering, especially for protein engineers who have only access to a limited amount of data for sequence-fitness landscape modeling.",
+  "abstract_zh": "通过定向进化和（半）理性方法进行的蛋白质工程已成功应用于优化蛋白质特性，广泛应用于分子生物学、生物技术和生物医学领域。由于筛选通量有限，阻碍了对庞大蛋白质序列空间的高效探索，蛋白质工程的潜力尚未完全实现。数据驱动策略已成为一种强大的工具，通过提供序列-适应度景观模型来增强蛋白质工程，该模型可以在计算中全面探索，并利用自然界提供的高多样性潜力。然而，由于输入数据的质量和数量决定了此类方法的成功与否，数据驱动策略的适用性常因数据稀疏而受限。在此，我们提出一种混合模型，结合直接耦合分析和机器学习技术，在仅有少量标记序列可用时实现数据驱动的蛋白质工程。我们的方法在基于序列预测蛋白质适应度方面实现了高性能，无论训练数据集中序列-适应度对的数量如何。与最先进的方法相比，该方法不仅减少了计算工作量，而且在稀疏数据情况下（即训练可用标记序列为50−250个）表现更优。本质上，所开发的方法对数据驱动的蛋白质工程前景广阔，尤其适用于那些仅能获得有限数据进行序列-适应度景观建模的蛋白质工程师。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.06.07.495081",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.06.07.495081",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.06.07.495081/index.html"
+}

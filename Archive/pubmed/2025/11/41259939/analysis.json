@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41259939",
+  "title": "Development of an EPR-based methodology to study protein-lipid interaction.",
+  "authors": "Piersson, Clara; Prakash, Shikhar; Lublin, Victoria; Rossotti, Melanie; Fischer, Baptiste; Srivastava, Madhur; Fichou, Yann",
+  "journal": "Biophysical chemistry",
+  "published_date": "2025-11-20",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究开发了基于CW-EPR的方法定量研究Tau（IDP）与脂质膜的结合模式与亲和力，虽涉及IDP与膜互作，但方法为实验光谱而非AI/物理模拟，且互作对象为脂质而非蛋白，机制建模深度有限。",
+  "abstract": "The interaction of protein with other biomolecules is central to all cellular processes. In particular, protein-lipid interactions play an essential role in regulating soluble and membrane protein function, structure, and dynamics. However, probing these interactions remains challenging due to the complexity and heterogeneity of membranes. Various methods have been developed to characterize protein-membrane interaction, each presenting advantages and limitations. This study presents a robust methodology based on continuous-wave Electron Paramagnetic Resonance (CW-EPR) spectroscopy to characterize protein-membrane interactions. We focused on the protein Tau, an intrinsically disordered protein associated with neurodegenerative diseases. We show that the interaction of labelled Tau with lipids gives rise to a very distinct lineshape, which can be used to quantify the fraction of bound protein. This allows to obtain the apparent binding mode and affinity through titration experiments. In addition, we show that a single measurement provides the absolute concentration of free and bound protein. We argue that this information, which is rarely obtained by other methods providing relative signals, is very useful for mechanistic studies. Furthermore, we developed a minimal-data approach and demonstrated that a single EPR measurement can be used to estimate an apparent binding constant. The approach is applied to the Tau-membrane interaction occurring in different conditions affecting the binding behavior. The presented methodology is expected to be applicable to other proteins.",
+  "abstract_zh": "蛋白质与其他生物分子的相互作用是所有细胞过程的核心。特别是，蛋白质-脂质相互作用在调节可溶性和膜蛋白的功能、结构和动态方面发挥着重要作用。然而，由于膜的复杂性和异质性，探测这些相互作用仍然具有挑战性。已开发出多种方法来表征蛋白质-膜相互作用，每种方法各有优缺点。本研究提出了一种基于连续波电子顺磁共振 (CW-EPR) 光谱的稳健方法，用于表征蛋白质-膜相互作用。我们聚焦于蛋白质Tau，这是一种与神经退行性疾病相关的固有无序蛋白质。我们表明，标记的Tau与脂质的相互作用产生非常独特的线形，可用于量化结合蛋白质的比例。这允许通过滴定实验获得表观结合模式和亲和力。此外，我们表明单次测量即可提供游离和结合蛋白质的绝对浓度。我们认为，这一信息（通常难以通过提供相对信号的其他方法获得）对机制研究非常有用。进一步，我们开发了一种最小数据方法，并证明单次EPR测量可用于估算表观结合常数。该方法应用于不同条件下影响结合行为的Tau-膜相互作用。所提出的方法预计可适用于其他蛋白质。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41259939/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41259939/",
+  "paper_page_path": "papers/pubmed/41259939/index.html"
+}

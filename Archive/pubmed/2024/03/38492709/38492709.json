@@ -1,0 +1,284 @@
+{
+  "identity": {
+    "pmid": "38492709",
+    "doi": "10.1016/j.ijbiomac.2024.130802",
+    "title": "Hiding in plain sight: Complex interaction patterns between Tau and 14-3-3zeta protein variants."
+  },
+  "content": {
+    "abstract": "Tau protein is an intrinsically disordered protein that plays a key role in Alzheimer's disease (AD). In brains of AD patients, Tau occurs abnormally phosphorylated and aggregated in neurofibrillary tangles (NFTs). Together with Tau, 14-3-3 proteins - abundant cytosolic dimeric proteins - were found colocalized in the NFTs. However, so far, the molecular mechanism of the process leading to pathological changes in Tau structure as well as the direct involvement of 14-3-3 proteins are not well understood. Here, we aimed to reveal the effects of phosphorylation by protein kinase A (PKA) on Tau structural preferences and provide better insight into the interaction between Tau and 14-3-3 proteins. We also addressed the impact of monomerization-inducing phosphorylation of 14-3-3 at S58 on the binding to Tau protein. Using multidimensional nuclear magnetic resonance spectroscopy (NMR), chemical cross-linking analyzed by mass spectrometry (MS) and PAGE, we unveiled differences in their binding affinity, stoichiometry, and interfaces with single-residue resolution. We revealed that the interaction between 14-3-3 and Tau proteins is mediated not only via the 14-3-3 amphipathic binding grooves, but also via less specific interactions with 14-3-3 protein surface and, in the case of monomeric 14-3-3, also partially via the exposed dimeric interface. In addition, the hyperphosphorylation of Tau changes its affinity to 14-3-3 proteins. In conclusion, we propose quite complex interaction mode between the Tau and 14-3-3 proteins.",
+    "keywords": [
+      "14-3-3zeta protein",
+      "Cross-linking",
+      "Interaction",
+      "NMR",
+      "Phosphorylation",
+      "Tau protein"
+    ],
+    "mesh_terms": [
+      "*14-3-3 Proteins/metabolism/chemistry",
+      "*tau Proteins/metabolism/chemistry",
+      "Humans",
+      "Phosphorylation",
+      "*Protein Binding",
+      "Protein Multimerization",
+      "Alzheimer Disease/metabolism",
+      "Cyclic AMP-Dependent Protein Kinases/metabolism",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Crha, Radek",
+        "Kozelekova, Aneta",
+        "Hofrova, Alena",
+        "Ilkovicova, Lucia",
+        "Gasparik, Norbert",
+        "Kaderavek, Pavel",
+        "Hritz, Jozef"
+      ],
+      "short_names": [
+        "Crha R",
+        "Kozelekova A",
+        "Hofrova A",
+        "Ilkovicova L",
+        "Gasparik N",
+        "Kaderavek P",
+        "Hritz J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic.",
+        "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic.",
+        "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; Department of Chemistry, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic.",
+        "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic.",
+        "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic.",
+        "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic.",
+        "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; Department of Chemistry, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic. Electronic address: jozef.hritz@ceitec.muni.cz."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Crha, Radek",
+        "short_name": "Crha R",
+        "identifiers": [],
+        "affiliations": [
+          "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Kozeleková, Aneta",
+        "short_name": "Kozeleková A",
+        "identifiers": [],
+        "affiliations": [
+          "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Hofrová, Alena",
+        "short_name": "Hofrová A",
+        "identifiers": [],
+        "affiliations": [
+          "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; Department of Chemistry, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Iľkovičová, Lucia",
+        "short_name": "Iľkovičová L",
+        "identifiers": [],
+        "affiliations": [
+          "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Gašparik, Norbert",
+        "short_name": "Gašparik N",
+        "identifiers": [],
+        "affiliations": [
+          "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Kadeřávek, Pavel",
+        "short_name": "Kadeřávek P",
+        "identifiers": [],
+        "affiliations": [
+          "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; National Centre for Biomolecular Research, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Hritz, Jozef",
+        "short_name": "Hritz J",
+        "identifiers": [],
+        "affiliations": [
+          "Central European Institute of Technology, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic; Department of Chemistry, Faculty of Science, Masaryk University, Kamenice 5, 625 00 Brno, Czech Republic. Electronic address: jozef.hritz@ceitec.muni.cz."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 May",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/17 00:42",
+    "fetched_at": "2026-09-21 05:49:38"
+  },
+  "links": {
+    "cites": [
+      "41931065",
+      "41889765",
+      "41778964",
+      "41402026",
+      "40912403",
+      "40745206",
+      "39877981"
+    ],
+    "refs": [],
+    "similar": [
+      "38492709",
+      "32979285",
+      "28258221",
+      "23962087",
+      "17317006",
+      "10840038",
+      "26103986",
+      "19138662",
+      "27548710",
+      "28575131",
+      "19324008",
+      "29722962",
+      "19014373",
+      "21978388",
+      "32499112",
+      "8166686",
+      "16225961",
+      "15450610",
+      "10460255",
+      "19647741",
+      "31062171",
+      "8261023",
+      "23273861",
+      "11959122",
+      "21876254",
+      "21367856",
+      "10090741",
+      "1735956",
+      "17241267",
+      "12875979",
+      "21081103",
+      "15375165",
+      "20658994",
+      "25096626",
+      "9886072",
+      "7533559",
+      "18690390",
+      "11852060",
+      "15986501",
+      "38512672",
+      "15126504",
+      "32538846",
+      "36786552",
+      "33428128",
+      "34769495",
+      "29844403",
+      "16465464",
+      "24367683",
+      "18338250",
+      "30346708",
+      "29584657",
+      "16712493",
+      "15963640",
+      "32851560",
+      "28646348",
+      "34239348",
+      "23362255",
+      "30587819",
+      "16987932",
+      "33509301",
+      "11054815",
+      "21731772",
+      "19769346",
+      "18061582",
+      "36939323",
+      "23001711",
+      "21509508",
+      "12903511",
+      "11447842",
+      "37167199",
+      "29802200",
+      "10737616",
+      "12435421",
+      "11264299",
+      "16014719",
+      "7931292",
+      "15475565",
+      "23810804",
+      "23550703",
+      "27995573",
+      "21910444",
+      "9187935",
+      "23628704",
+      "20160453",
+      "33597014",
+      "15014115",
+      "15230863",
+      "36610160",
+      "34164834",
+      "9201960",
+      "18052981",
+      "24707050",
+      "17906291",
+      "26400044",
+      "9353289",
+      "26858248"
+    ],
+    "review": [
+      "38492709",
+      "15450610",
+      "31062171",
+      "23273861",
+      "21876254",
+      "20658994",
+      "25096626",
+      "33428128",
+      "30346708",
+      "29584657",
+      "16712493",
+      "32851560",
+      "34239348",
+      "21509508"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)01606-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.phosphosite.org/referenceSearchSubmitAction.action?from=0&queryId=-1&pubMedIds=38492709",
+        "provider": "PhosphoSitePlus",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "PhosphoSitePlus® - comprehensive post-translational modification resource"
+      }
+    ],
+    "text_mined": []
+  }
+}

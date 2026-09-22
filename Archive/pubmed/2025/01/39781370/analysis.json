@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39781370",
+  "title": "Insights into conformational ensembles of compositionally identical disordered peptidomimetics.",
+  "authors": "Day, Erin C; Cunha, Keila C; Zhao, Roy J; DeStefano, Audra J; Dodds, James N; Yu, Melissa A; Bemis, Jaina R; Han, Songi; Baker, Erin S; Shea, Joan-Emma; Berlow, Rebecca B; Knight, Abigail S",
+  "journal": "Polymer chemistry",
+  "published_date": "2025-01-09",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用复制交换MD和离子迁移谱等方法表征组成相同但序列不同的无序拟肽的构象系综，虽对象为拟肽而非天然IDP且未聚焦具体PPI，但其无序构象系综的建模与表征思路对IDR介导互作机制研究有可迁移启发。",
+  "abstract": "While the conformational ensembles of disordered peptides and peptidomimetics are complex and challenging to characterize, they are a critical component in the paradigm connecting macromolecule sequence, structure, and function. In molecules that do not adopt a single predominant conformation, the conformational ensemble contains rich structural information that, if accessible, can provide a fundamental understanding related to desirable functions such as cell penetration of a therapeutic or the generation of tunable enzyme-mimetic architecture. To address the fundamental challenge of describing broad conformational ensembles, we developed a model system of peptidomimetics comprised of polar glycine and hydrophobic N-butylglycine to characterize using a suite of analytical techniques. Using replica exchange molecular dynamics atomistic simulations and liquid chromatography coupled to ion mobility spectrometry, we were able to distinguish the conformations of compositionally identical model sequences. However, differences between these model sequences were more challenging to resolve with characterization tools developed for intrinsically disordered proteins and polymers, including double electron-electron resonance (DEER) spectroscopy and diffusion ordered spectroscopy (DOSY) NMR. Finally, we introduce a facile colorimetric assay using immobilized sequences that leverages a solvatochromic probe, Reichardt's dye, to visually reveal conformational trends consistent with the experimental and computational analysis. This rapid colorimetric technique provides a complementary method to characterize the disorder of macromolecules and examine conformational ensembles as an isolated or multiplexed technique.",
+  "abstract_zh": "虽然无序肽和肽模拟物的构象集合复杂且难以表征，但它们是连接大分子序列、结构和功能范式中的关键组成部分。在不采用单一主导构象的分子中，构象集合包含丰富的结构信息，如果能够获取这些信息，可以为理解理想功能（如治疗药物的细胞穿透或可调酶模拟架构的生成）提供基础性认识。为应对描述广泛构象集合这一根本性挑战，我们开发了一个由极性甘氨酸和疏水性N-丁基甘氨酸组成的肽模拟物模型系统，并采用一系列分析技术进行表征。通过副本交换分子动力学原子模拟和液相色谱耦合离子迁移谱，我们能够区分组成相同模型序列的构象。然而，这些模型序列之间的差异在使用为固有无序蛋白质和聚合物开发的表征工具（包括双电子-电子共振（DEER）光谱和扩散有序光谱（DOSY）核磁共振）时更难分辨。最后，我们引入了一种简便的比色测定法，使用固定化序列并利用溶剂化显色探针Reichardt染料，以视觉方式揭示与实验和计算分析一致的构象趋势。这种快速比色技术提供了一种互补方法，用于表征大分子的无序性，并可作为独立或多重技术检查构象集合。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39781370/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39781370/",
+  "paper_page_path": "papers/pubmed/39781370/index.html"
+}

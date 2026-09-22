@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors investigate co-condensates formed by DNA and the human transcription factor p53, a system in which neither component alone undergoes phase separation. They report a phase diagram at a fixed observation time, identifying a transition between viscoelastic fluid and viscoelastic solid states, and a morphology transition from droplet-like to "pearl chain"-like co-condensates. They further report that both morphologies share a common initial critical microscopic cluster size at the nanometer scale during early-stage phase separation.
+- **Visible evidence base** Abstract text only; no experimental or theoretical details, no quantitative data, no figure or table references
+- **Missing materials affecting confidence** Full manuscript, experimental methods, theoretical model details, phase diagram data, microscopy and rheology measurements, cluster size determination methodology, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting biophysical question regarding multicomponent phase separation, specifically the molecular mechanism of morphology transitions in DNA-protein co-condensates. The system choice, where neither component phase separates individually, is conceptually appealing and may offer new insights into cooperative assembly. However, the abstract provides insufficient detail to evaluate the rigor of the experimental and theoretical approaches, the robustness of the phase diagram, or the validity of the claim regarding a common critical cluster size. The core mechanistic claim implied by the title, namely the "molecular mechanism" underlying the morphology transition, is not articulated in the abstract. As presented, the evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, biophysics of nucleic acid-protein interactions, and transcriptional regulation would be interested. The finding that a morphology transition can occur in a two-component system where neither component phase separates alone could inform general principles of multicomponent condensation relevant to cellular organization and disease mechanisms involving p53.
+- **Major strengths** The study addresses a timely and important question in the phase separation field, namely how multicomponent systems give rise to diverse condensate morphologies. The choice of a system requiring both components for phase separation is a useful design that may reveal cooperative effects not accessible in single-component studies. The combination of experimental and theoretical approaches is appropriate for the stated aims.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim identification of a phase transition between viscoelastic fluid and viscoelastic solid states, and a morphology transition from droplet-like to "pearl chain"-like co-condensates.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states that a phase diagram was determined at "a certain observation time" but provides no information on how the phase boundaries were established, what experimental techniques were used to assess viscoelastic properties, or how the morphology transition was characterized. The term "pearl chain" is introduced without definition or visual evidence.
+  - **Why it matters** Without details on the methods and quantitative criteria used to assign phases and morphologies, the reader cannot assess whether the reported transitions are robust, reproducible, or an artifact of the specific observation time or preparation conditions. The observation-time dependence is particularly critical because phase separation is a dynamic process, and a single time point may not capture equilibrium behavior.
+  - **Resolution test** The full manuscript must provide detailed experimental methods for rheological measurements, microscopy characterization, and phase boundary determination, including error estimates and reproducibility across multiple independent experiments. Representative images and quantitative metrics for distinguishing droplet-like from "pearl chain"-like morphologies must be shown.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that droplet-like and "pearl chain"-like co-condensates share a common initial critical microscopic cluster size at the nanometer scale during the early stage of phase separation.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no information on how the critical cluster size was determined, what theoretical framework was used, or how the experimental measurements were compared to the theoretical prediction. The claim of a "common" critical size across two morphologies is a strong statement that requires quantitative support.
+  - **Why it matters** The critical cluster size is a central concept in nucleation theory, and the claim that two distinct morphologies share the same critical nucleus is nontrivial. If not rigorously established, this claim could be misleading. The abstract does not specify whether this size was measured directly or inferred from fitting a model, nor does it report the actual value or its uncertainty.
+  - **Resolution test** The full manuscript must describe the experimental method for measuring cluster sizes at the nanometer scale, the theoretical model used to predict the critical size, and a quantitative comparison showing agreement within experimental uncertainty. The robustness of the conclusion to model assumptions must be discussed.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope alignment
+  - **Claim pointer** The title promises "deciphering the molecular mechanism underlying morphology transition," but the abstract does not articulate any molecular-level mechanism.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract describes phenomenological observations of phase and morphology transitions and growth dynamics, but it does not state what molecular interactions or structural rearrangements drive the morphology transition. No specific molecular mechanism is proposed or tested.
+  - **Why it matters** The title sets an expectation that the study will provide mechanistic insight at the molecular level. If the manuscript does not deliver this, the title overstates the contribution. Even if the full text contains mechanistic discussion, the abstract should reflect the central claim of the paper.
+  - **Resolution test** The abstract should be revised to either state the proposed molecular mechanism explicitly or the title should be adjusted to match the actual scope of the findings. The full manuscript must provide molecular-level evidence, such as mutational analysis, binding affinity measurements, or structural data, to support any mechanistic claims.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "pearl chain" is used without definition or context. It is unclear whether this is an established term in the field or a new descriptor introduced by the authors.
+  - **Required correction** Define the term upon first use and provide a reference if it is established, or describe the morphology in more standard language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Phase diagram description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "a certain observation time" for the phase diagram but does not state what that time is or why it was chosen.
+  - **Required correction** Specify the observation time and justify its selection, or state that the phase diagram is time-dependent and describe how this was addressed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Critical cluster size
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the critical cluster size is at the nanometer scale but does not report a numerical value or range.
+  - **Required correction** Provide the numerical value or range of the critical cluster size in the abstract, along with an indication of uncertainty.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail to assess the validity of the phase diagram, the critical cluster size claim, or the molecular mechanism implied by the title. These are not necessarily technical errors but rather gaps in the presented evidence that prevent evaluation.
+- **Assessment against Nature-style criteria** 
+  - Originality: The system choice is original in that it focuses on a two-component system where neither component phase separates alone. This could offer new insights, but the abstract does not demonstrate how this advances beyond existing studies of multicomponent condensates.
+  - Scientific importance: The topic is important given the broad interest in biomolecular condensates and the role of p53 in transcription. However, the abstract does not articulate the broader implications of the findings for cellular function or disease.
+  - Interdisciplinary readership: The work spans biophysics, molecular biology, and physical chemistry, which could appeal to a broad audience. The abstract is written in a way that is accessible to nonspecialists, though the lack of quantitative detail limits its impact.
+  - Technical soundness: Cannot be assessed from the abstract alone. The claims require detailed experimental and theoretical validation that is not presented.
+  - Readability for nonspecialists: The abstract is readable and concise, but the undefined term "pearl chain" and the lack of context for the phase diagram reduce clarity for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting observations but does not provide sufficient detail to evaluate the validity of the claims or the significance of the contribution. A decision would require access to the full manuscript. If the full text provides rigorous experimental and theoretical support for the phase diagram, the critical cluster size, and a molecular mechanism, the work could be of interest to the condensate community. However, as presented, the case is not made.
+
+## Risk / unsupported claims
+- The claim of a phase transition between viscoelastic fluid and viscoelastic solid states is unsupported in the abstract due to lack of methodological detail.
+- The claim of a morphology transition from droplet-like to "pearl chain"-like co-condensates is unsupported without visual or quantitative evidence.
+- The claim of a common initial critical microscopic cluster size at the nanometer scale is unsupported without details on measurement or theoretical derivation.
+- The title's implication of a deciphered molecular mechanism is unsupported by the abstract content.

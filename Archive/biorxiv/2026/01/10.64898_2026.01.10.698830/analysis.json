@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.10.698830",
+  "title": "Liquid liquid phase separation of the intrinsically disordered protein JPT2 compartmentalizes components of NAADP-evoked Ca <sup>2+</sup> signaling",
+  "authors": "Sushil Kumar; Gihan S. Gunaratne; Jasmine Cornish; Kirsten M. Silvey; Qianru Mu; Zhong Guan; Gabriella T. Heller; James. T. Slama; Sandip Patel; Jonathan S. Marchant",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-11",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究无序蛋白JPT2的液-液相分离及其对NAADP信号通路组分（LSM12、微管等）的招募，属于IDP介导的凝聚体互作机制，但方法以实验为主，缺乏AI或物理模拟建模，故评7分。",
+  "abstract": "Nicotinic acid adenine dinucleotide phosphate (NAADP) is a Ca 2+ -releasing second messenger that activates two-pore channels (TPCs) on endosomes and lysosomes. Rather than binding TPCs directly, NAADP acts through cytoplasmic NAADP-binding proteins (NAADP-BPs) which are essential for endolysosomal Ca 2+ release. Here we characterized the properties of two recombinant, purified NAADP-BPs: Jupiter Microtubule Associated Homolog 2 (JPT2) and like-Sm protein 12 (LSM12). In contrast to LSM12, JPT2 is predicted to be an intrinsically disordered protein, a feature confirmed by circular dichroism and NMR spectroscopy. Under conditions of low Na + concentration or molecular crowding, JPT2 underwent phase separation, as demonstrated by multiple orthogonal approaches. JPT2 condensates displayed liquid-like behavior and efficiently recruited LSM12, a novel fluorescent NAADP analog, as well as tubulin. JPT2 condensates also interacted with polymerized microtubules and lysosomes isolated from human cell lines. These findings reveal an unexpected capability of NAADP-BPs to undergo phase separation, and segregate with components needed for NAADP-dependent Ca 2+ release. We speculate that these signaling condensates dictate cellular NAADP sensitivity, desensitization of NAADP responses, as well as NAADP targeting to TPCs at membrane contact sites between acidic organelles and the endoplasmic reticulum. Graphical Abstract",
+  "abstract_zh": "烟酸腺嘌呤二核苷酸磷酸（NAADP）是一种Ca 2+释放型第二信使，可激活内体和溶酶体上的双孔通道（TPCs）。NAADP并非直接结合TPCs，而是通过胞质NAADP结合蛋白（NAADP-BPs）发挥作用，这些蛋白对内溶酶体Ca 2+释放至关重要。在此，我们表征了两种重组纯化的NAADP-BPs的特性：Jupiter微管相关同源物2（JPT2）和类Sm蛋白12（LSM12）。与LSM12相比，JPT2被预测为固有无序蛋白，这一特征通过圆二色谱和核磁共振波谱得到证实。在低Na +浓度或分子拥挤条件下，JPT2发生相分离，多种正交方法均证实了这一点。JPT2凝聚体表现出液体样行为，并能高效招募LSM12、一种新型荧光NAADP类似物以及微管蛋白。JPT2凝聚体还与从人类细胞系中分离的聚合微管和溶酶体相互作用。这些发现揭示了NAADP-BPs具有发生相分离的意外能力，并能与NAADP依赖性Ca 2+释放所需组分分离。我们推测，这些信号凝聚体决定了细胞NAADP敏感性、NAADP反应的脱敏，以及NAADP在酸性细胞器与内质网之间的膜接触位点靶向TPCs的过程。图形摘要",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.10.698830",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.10.698830",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.10.698830/index.html"
+}

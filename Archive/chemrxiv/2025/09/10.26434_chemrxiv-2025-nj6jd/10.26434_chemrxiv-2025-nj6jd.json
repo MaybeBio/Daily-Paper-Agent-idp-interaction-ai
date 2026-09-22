@@ -1,0 +1,561 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-nj6jd",
+  "title": "Empowering Federated Learning for Robust Compound-Protein Interaction Prediction across Heterogeneous Cross-Pharma Domains",
+  "doi": "10.26434/chemrxiv-2025-nj6jd",
+  "abstract": "Accurately predicting novel compound-protein interactions (CPIs) is essential for accelerating drug discovery. The generalizability of machine learning-based CPI prediction models relies significantly on the availability and diversity of CPI datasets. To maximize data utility, particularly for highly confidential datasets maintained by industries, federated learning (FL)—which integrates multi-site data while preserving privacy—has emerged as a promising approach. Nonetheless, its effectiveness when applied to heterogeneous data from diverse molecular domains, a common real-world scenario, remains unclear, thereby limiting its broader adoption. This study evaluates FL for CPI prediction using datasets spanning multiple chemical and protein domains, providing practical guidance for optimizing the FL approach. Results indicate that the FL model enhanced out-of-domain prediction performance but was surpassed by local models for in-domain data under data heterogeneity. Drawing on these findings, a new strategy was developed to achieve robust performance for in- and out-of-domain tasks: a similarity-guided ensemble that combines the global FL model with fine-tuned models based on each client's local data. This method demonstrated effectiveness with real-world industry data, including samples from the public database and 13 pharmaceutical companies. Cumulatively, these findings offer practical guidance for implementing FL in contemporary drug discovery processes.",
+  "authors": [
+    "Takuto Koyama",
+    "Hiroaki Iwata",
+    "Ryosuke Kojima",
+    "Takao Otsuka",
+    "Aki Hasegawa",
+    "Hiroshi Ueda",
+    "Toshiharu Morimoto",
+    "Ryoko Sasaki",
+    "Nao Torimoto",
+    "Sei Murakami",
+    "Manabu Tojo",
+    "Teruki Honma",
+    "Shigeyuki Matsumoto",
+    "Yasushi Okuno"
+  ],
+  "published_date": "2025-09-23",
+  "updated_date": "2025-09-23T15:32:15Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-nj6jd",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-nj6jd",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T09:17:56Z",
+        "timestamp": 1785403076891,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            23
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                23
+              ]
+            ],
+            "date-time": "2025-09-23T00:00:00Z",
+            "timestamp": 1758585600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/100009619",
+          "name": "Japan Agency for Medical Research and Development",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "JP24nk0101111h0105"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "JP24nk0101111h0105"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100009619",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Accurately predicting novel compound-protein interactions (CPIs) is essential for accelerating drug discovery. The generalizability of machine learning-based CPI prediction models relies significantly on the availability and diversity of CPI datasets. To maximize data utility, particularly for highly confidential datasets maintained by industries, federated learning (FL)—which integrates multi-site data while preserving privacy—has emerged as a promising approach. Nonetheless, its effectiveness when applied to heterogeneous data from diverse molecular domains, a common real-world scenario, remains unclear, thereby limiting its broader adoption. This study evaluates FL for CPI prediction using datasets spanning multiple chemical and protein domains, providing practical guidance for optimizing the FL approach. Results indicate that the FL model enhanced out-of-domain prediction performance but was surpassed by local models for in-domain data under data heterogeneity. Drawing on these findings, a new strategy was developed to achieve robust performance for in- and out-of-domain tasks: a similarity-guided ensemble that combines the global FL model with fine-tuned models based on each client's local data. This method demonstrated effectiveness with real-world industry data, including samples from the public database and 13 pharmaceutical companies. Cumulatively, these findings offer practical guidance for implementing FL in contemporary drug discovery processes.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-nj6jd",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            23
+          ]
+        ],
+        "date-time": "2025-09-23T15:32:15Z",
+        "timestamp": 1758641535000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Empowering Federated Learning for Robust Compound-Protein Interaction Prediction across Heterogeneous Cross-Pharma Domains"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-9569-8370",
+          "authenticated-orcid": false,
+          "given": "Takuto",
+          "family": "Koyama",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02kpeqv85",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Kyoto University",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hiroaki",
+          "family": "Iwata",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/024yc3q36",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Tottori University",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ryosuke",
+          "family": "Kojima",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02kpeqv85",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Kyoto University",
+              "place": [
+                "Japan"
+              ]
+            },
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/023rffy11",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "RIKEN Center for Biosystems Dynamics Research",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Takao",
+          "family": "Otsuka",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02kpeqv85",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Kyoto University",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Aki",
+          "family": "Hasegawa",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02kpeqv85",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Kyoto University",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hiroshi",
+          "family": "Ueda",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/029xh1r47",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Toray Industries, Inc. (Japan)",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Toshiharu",
+          "family": "Morimoto",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/009z2z347",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Kowa (Japan)",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ryoko",
+          "family": "Sasaki",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/000wej815",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Kyowa Kirin (Japan)",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nao",
+          "family": "Torimoto",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/038ehsm73",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Mitsubishi Tanabe Pharma Corporation",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sei",
+          "family": "Murakami",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sanwa Kagaku Kenkyusho Co., Ltd."
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Manabu",
+          "family": "Tojo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Teijin Pharma Limited"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Teruki",
+          "family": "Honma",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/023rffy11",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "RIKEN Center for Biosystems Dynamics Research",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shigeyuki",
+          "family": "Matsumoto",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02kpeqv85",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Kyoto University",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yasushi",
+          "family": "Okuno",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02kpeqv85",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Kyoto University",
+              "place": [
+                "Japan"
+              ]
+            },
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03r519674",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "RIKEN Center for Computational Science",
+              "place": [
+                "Japan"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-nj6jd",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:05:28Z",
+        "timestamp": 1778753128000
+      },
+      "score": 44.155914,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-nj6jd"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            23
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-nj6jd",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1186/s13321-025-01147-5",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.06.28.497399",
+  "title": "Predicting the locations of cryptic pockets from single protein structures using the PocketMiner graph neural network",
+  "authors": "Artur Meller; Michael Ward; Jonathan Borowsky; Jeffrey M. Lotthammer; Meghana Kshirsagar; Felipe Oviedo; Juan Lavista Ferres; Gregory R. Bowman",
+  "journal": "bioRxiv",
+  "published_date": "2022-06-29",
+  "window": {
+    "start": "2022-06-27",
+    "end": "2022-07-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用图神经网络PocketMiner从单蛋白结构预测隐蔽口袋，虽非IDP对象且无PPI，但其基于MD模拟的构象动态口袋预测方法对无序蛋白互作界面/隐蔽结合位点的机制建模有可迁移启发。",
+  "abstract": "Cryptic pockets expand the scope of drug discovery by enabling targeting of proteins currently considered undruggable because they lack pockets in their ground state structures. However, identifying cryptic pockets is labor-intensive and slow. The ability to accurately and rapidly predict if and where cryptic pockets are likely to form from a protein structure would greatly accelerate the search for druggable pockets. Here, we present PocketMiner, a graph neural network trained to predict where pockets are likely to open in molecular dynamics simulations. Applying PocketMiner to single structures from a newly-curated dataset of 39 experimentally-confirmed cryptic pockets demonstrates that it accurately identifies cryptic pockets (ROC-AUC: 0.87) >1,000-fold faster than existing methods. We apply PocketMiner across the human proteome and show that predicted pockets open in simulations, suggesting that over half of proteins thought to lack pockets based on available structures are likely to contain cryptic pockets, vastly expanding the druggable proteome.",
+  "abstract_zh": "隐性口袋（cryptic pockets）通过靶向那些因其基态结构中缺乏口袋而被认为不可成药的蛋白质，扩展了药物发现的范围。然而，识别隐性口袋既费时又缓慢。能够准确且快速地从蛋白质结构预测隐性口袋是否可能形成及其位置，将极大地加速可成药口袋的搜索进程。在此，我们介绍了PocketMiner，一种图神经网络，训练用于预测分子动力学模拟中口袋可能打开的位置。将PocketMiner应用于新整理的包含39个实验确认的隐性口袋数据集中的单一结构，表明它能准确识别隐性口袋（ROC-AUC：0.87），比现有方法快超过1,000倍。我们将PocketMiner应用于整个人类蛋白质组，并显示预测的口袋在模拟中打开，这表明基于现有结构被认为缺乏口袋的蛋白质中，超过一半可能含有隐性口袋，从而极大地扩展了可成药的蛋白质组。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.06.28.497399",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.06.28.497399",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.06.28.497399/index.html"
+}

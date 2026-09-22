@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.03.547513",
+  "title": "A YTHDF-PABP axis is required for m 6 A-mediated organogenesis in plants",
+  "authors": "Tankmar MD; Reichel M; Arribas-Hernández L; Brodersen P",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-03",
+  "window": {
+    "start": "2023-07-03",
+    "end": "2023-07-09"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究植物YTHDF蛋白ECT2通过其长IDR中的酪氨酸富集短元件与PAB蛋白互作、调控m6A介导的器官发生，虽对象为IDR介导的PPI且涉及机制，但方法为遗传/生化实验而非AI或物理模拟，故综合评分为6。",
+  "abstract": "<h4>ABSTRACT</h4> N6 -methyladenosine (m 6 A) in mRNA is key to eukaryotic gene regulation. Many m 6 A functions involve specialized RNA-binding proteins that recognize m 6 A via a YT521-B Homology (YTH) domain. YTH domain proteins contain long intrinsically disordered regions (IDRs) that may mediate phase separation and interaction with protein partners, but whose precise biochemical functions remain largely unknown. The Arabidopsis thaliana YTH domain proteins ECT2, ECT3 and ECT4 accelerate organogenesis through stimulation of cell division in organ primordia. Here, we focus on ECT2 to reveal molecular underpinnings of this function of ECT2/3/4. We show that stimulation of leaf formation requires the long N-terminal IDR, and we identify two short IDR-elements required for ECT2-mediated organogenesis. Of these two, a tyrosine-rich 19-amino acid region is necessary for binding to a small subset of proteins that includes the major cytoplasmic poly(A)-binding proteins PAB2, PAB4 and PAB8. Remarkably, overexpression of PAB4 in leaf primordia partially rescues the delayed leaf formation in ect2 ect3 ect4 mutants, suggesting that the ECT2-PAB2/4/8 interaction on target mRNAs of organogenesis-related genes may overcome limiting PAB concentrations in primordial cells.",
+  "abstract_zh": "<h4>摘要</h4> mRNA中的N6-甲基腺苷（m6A）是真核基因调控的关键。许多m6A功能涉及通过YT521-B同源（YTH）结构域识别m6A的特化RNA结合蛋白。YTH结构域蛋白含有长的固有无序区域（IDRs），这些区域可能介导相分离（phase separation）及与蛋白质伙伴的相互作用，但其精确的生化功能在很大程度上仍属未知。拟南芥（Arabidopsis thaliana）的YTH结构域蛋白ECT2、ECT3和ECT4通过刺激器官原基中的细胞分裂来加速器官发生。在此，我们聚焦于ECT2，以揭示ECT2/3/4这一功能的分子基础。我们表明，叶片形成的刺激需要长的N端IDR，并鉴定出两个短IDR元件，这些元件是ECT2介导的器官发生所必需的。在这两个元件中，一个富含酪氨酸的19个氨基酸区域对于与一小部分蛋白质（包括主要细胞质多聚(A)结合蛋白PAB2、PAB4和PAB8）的结合是必要的。值得注意的是，在叶片原基中过表达PAB4部分挽救了ect2 ect3 ect4突变体中延迟的叶片形成，这表明器官发生相关基因靶标mRNA上的ECT2-PAB2/4/8相互作用可能克服原基细胞中PAB浓度的限制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.03.547513",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.03.547513",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.03.547513/index.html"
+}

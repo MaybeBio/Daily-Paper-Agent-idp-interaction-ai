@@ -1,0 +1,259 @@
+{
+  "identity": {
+    "pmid": "40967530",
+    "doi": "10.1016/j.ijbiomac.2025.147712",
+    "title": "Temperature and time induced assembly phase changes of engineered spidroin protein solutions."
+  },
+  "content": {
+    "abstract": "Here, we explore the molecular level origins of the curious temperature and time dependent assembly phase response of silk-like protein materials. Combining molecular dynamics simulations, CD and FTIR spectroscopy, as well as optical microscopy, we examine the assembly phase response of model engineered tri-block protein constructs with a middle intrinsically disordered region and folded terminal domains. We show that, the assembly phase response over a broad temperature range between 20 and 80  degrees C arises from strong interprotein interactions. The phase transitions are governed by the interplay of changes in the entropy of the flexible glycine-rich regions and the hydrophobic interactions between the alpha-helices rich in alanine (Ala). Furthermore, we observe irreversible gelation at high temperatures and during aging (time-induced gelation). Thermal gelation rises via interactions between the Ala-rich regions and subsequent formation of beta-sheets that crosslink the protein network. On the other hand, the time-induced gel is formed with no notable secondary structure transitions of the middle block via percolation of the protein, which is sensitive to the dimerizing interactions of the terminal domains. Overall, the significance of this work is that we identify time as a separate design variable from the molecular level characteristics and solution conditions of the silk-like protein gels, and extract assembly guidelines for the gel formation and its characteristics.",
+    "keywords": [
+      "Gelling",
+      "Liquid-liquid phase separation",
+      "Silk-like proteins",
+      "Spidroins",
+      "Temperature response"
+    ],
+    "mesh_terms": [
+      "*Fibroins/chemistry/genetics",
+      "Molecular Dynamics Simulation",
+      "*Temperature",
+      "*Protein Engineering",
+      "Solutions",
+      "Phase Transition",
+      "Protein Structure, Secondary",
+      "Hydrophobic and Hydrophilic Interactions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tolmachev, Dmitry",
+        "Tunn, Isabell",
+        "Harmat, Adam L",
+        "Mottonen, Nea B",
+        "Scacchi, Alberto",
+        "Linder, Markus B",
+        "Sammalkorpi, Maria"
+      ],
+      "short_names": [
+        "Tolmachev D",
+        "Tunn I",
+        "Harmat AL",
+        "Mottonen NB",
+        "Scacchi A",
+        "Linder MB",
+        "Sammalkorpi M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry and Materials Science, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland.",
+        "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Fraunhofer Institute for Applied Polymer Research (IAP), Geiselbergstrasse 69, 14476, Potsdam, Germany.",
+        "Department of Chemistry and Materials Science, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland.",
+        "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland.",
+        "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Department of Mechanical and Materials Engineering, University of Turku, Vesilinnantie 5, FI-20014, Turku, Finland.",
+        "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland.",
+        "Department of Chemistry and Materials Science, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland. Electronic address: maria.sammalkorpi@aalto.fi."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tolmachev, Dmitry",
+        "short_name": "Tolmachev D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Materials Science, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland."
+        ]
+      },
+      {
+        "full_name": "Tunn, Isabell",
+        "short_name": "Tunn I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Fraunhofer Institute for Applied Polymer Research (IAP), Geiselbergstraße 69, 14476, Potsdam, Germany."
+        ]
+      },
+      {
+        "full_name": "Harmat, Adam L",
+        "short_name": "Harmat AL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Materials Science, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland."
+        ]
+      },
+      {
+        "full_name": "Möttönen, Nea B",
+        "short_name": "Möttönen NB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland."
+        ]
+      },
+      {
+        "full_name": "Scacchi, Alberto",
+        "short_name": "Scacchi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Department of Mechanical and Materials Engineering, University of Turku, Vesilinnantie 5, FI-20014, Turku, Finland."
+        ]
+      },
+      {
+        "full_name": "Linder, Markus B",
+        "short_name": "Linder MB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland."
+        ]
+      },
+      {
+        "full_name": "Sammalkorpi, Maria",
+        "short_name": "Sammalkorpi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Materials Science, Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland; Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076, Aalto, Finland. Electronic address: maria.sammalkorpi@aalto.fi."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/19 00:36",
+    "fetched_at": "2026-09-17 20:10:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40967530",
+      "17064118",
+      "41060761",
+      "40935304",
+      "38019577",
+      "33157141",
+      "41433062",
+      "38963823",
+      "23418525",
+      "20696068",
+      "29669211",
+      "28233980",
+      "38761906",
+      "18031805",
+      "18293938",
+      "27627061",
+      "26730413",
+      "29886015",
+      "17289141",
+      "25056606",
+      "28128547",
+      "19458259",
+      "20959449",
+      "38916967",
+      "12957301",
+      "39084421",
+      "26211688",
+      "22340682",
+      "32198037",
+      "20697759",
+      "38821983",
+      "35398358",
+      "31558722",
+      "26457360",
+      "15518557",
+      "32962298",
+      "37803828",
+      "28196414",
+      "33406825",
+      "37712205",
+      "24422432",
+      "31282471",
+      "16002994",
+      "29859277",
+      "35312302",
+      "37084706",
+      "17173967",
+      "38321642",
+      "19388023",
+      "27618011",
+      "20358077",
+      "33139563",
+      "29454054",
+      "30017976",
+      "34251190",
+      "18181610",
+      "24550393",
+      "22406911",
+      "31683683",
+      "15916801",
+      "36328175",
+      "34737230",
+      "11027155",
+      "25484116",
+      "40598306",
+      "22352399",
+      "31843611",
+      "33561241",
+      "19128057",
+      "26669270",
+      "18445655",
+      "16283749",
+      "22012252",
+      "12005518",
+      "23859710",
+      "38587986",
+      "38936088",
+      "25984597",
+      "31786743",
+      "28603980",
+      "27801879",
+      "40256795",
+      "33418640",
+      "26112753",
+      "31800210",
+      "15132658",
+      "28507126",
+      "31670097",
+      "26407900",
+      "25748848",
+      "25196562",
+      "31163680",
+      "11262046",
+      "18515724",
+      "29091028",
+      "30235223",
+      "29196631",
+      "33216415",
+      "39855521",
+      "14995643"
+    ],
+    "review": [
+      "40967530",
+      "29886015"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(25)08269-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

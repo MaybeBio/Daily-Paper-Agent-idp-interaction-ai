@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "42063817",
+    "doi": "10.1021/jacsau.5c01454",
+    "title": "Mechanism of AF9 (MLLT3)-Partner Dissociation in Mixed-Lineage Leukemia-Rearranged Leukemia."
+  },
+  "content": {
+    "abstract": "Chromosomal rearrangements involving the mixed-lineage leukemia (MLL) gene drive aggressive leukemias with a poor prognosis. AF9 (MLLT3), a YEATS family protein, is a core component of transcriptional and epigenetic regulatory complexes essential for hematopoietic stem cell maintenance. In MLL-rearranged leukemia, the MLL-AF9 fusion protein aberrantly recruits transcriptional and epigenetic modifiers, including DOT1L, BCOR, and CBX8, disrupting normal hematopoietic gene regulation. Despite the importance of these interactions, the molecular mechanisms underlying AF9-partner(s) binding and their dissociation remain unclear. Here, we employed Protein-Protein Interaction-Gaussian accelerated Molecular Dynamics (PPI-GaMD) simulations to probe the dissociation pathways of AF9-bound peptides. Free-energy landscapes revealed that the dissociation process proceeds in a stepwise manner through metastable intermediates. Dissociation predominantly occurred through channel 1, a broad electrostatically asymmetric face of AF9. Consistent with the experimental findings, DOT1L formed the most stable complex with AF9, followed by CBX8 and then BCOR. Distinct intermediate conformations and interaction patterns were observed for each partner, reflecting their differential binding stabilities. Partner release was primarily driven by electrostatic interactions, while metastable intermediates were stabilized by hydrophobic contacts. The extended hydrophobic surface of DOT1L accounted for its enhanced binding, evident from its dominant van der Waals contribution. Clustering analysis identified dominant intermediate conformations that highlight critical steps in peptide dissociation and provide structural templates for inhibitor design. These metastable states represent druggable conformations that can be leveraged in structure-based screening, offering a foundation for targeted therapies in MLL-rearranged leukemias.",
+    "keywords": [
+      "AF9",
+      "MLL-rearranged leukemia",
+      "PPI-GaMD simulations",
+      "enhanced sampling",
+      "free-energy landscape",
+      "intrinsically disordered proteins",
+      "peptide dissociation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sharma, Shilpa",
+        "Joshi, Keya",
+        "Saha, Arjun"
+      ],
+      "short_names": [
+        "Sharma S",
+        "Joshi K",
+        "Saha A"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-7151-2921",
+        "ORCID: 0009-0001-8139-478X",
+        "ORCID: 0000-0003-1198-1820"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin 53211, United States. RINGGOLD: 118733",
+        "Computational Medicine and Pharmacology, University of North Carolina, Chapel Hill, North Carolina 27599, United States. RINGGOLD: 2331",
+        "Department of Computational Biology and Bioinformatics, University of North Carolina, Chapel Hill, North Carolina 27599, United States. RINGGOLD: 2331",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin 53211, United States. RINGGOLD: 118733"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sharma, Shilpa",
+        "short_name": "Sharma S",
+        "identifiers": [
+          "0009-0005-7151-2921"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin 53211, United States."
+        ]
+      },
+      {
+        "full_name": "Joshi, Keya",
+        "short_name": "Joshi K",
+        "identifiers": [
+          "0009-0001-8139-478X"
+        ],
+        "affiliations": [
+          "Computational Medicine and Pharmacology, University of North Carolina, Chapel Hill, North Carolina 27599, United States.",
+          "Department of Computational Biology and Bioinformatics, University of North Carolina, Chapel Hill, North Carolina 27599, United States."
+        ]
+      },
+      {
+        "full_name": "Saha, Arjun",
+        "short_name": "Saha A",
+        "identifiers": [
+          "0000-0003-1198-1820"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin 53211, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2026 Apr 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/01 06:34",
+    "fetched_at": "2026-09-18 02:54:53"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40957087",
+      "40308178",
+      "39902762",
+      "39041172",
+      "38505224",
+      "38039868",
+      "37958457",
+      "37949765",
+      "37921534",
+      "37774136",
+      "36224384",
+      "35099970",
+      "34373735",
+      "34174329",
+      "33562706",
+      "32968059",
+      "32962386",
+      "32954361",
+      "30760596",
+      "30289722",
+      "28701730",
+      "28394257",
+      "27819658",
+      "27105114",
+      "26631602",
+      "26583988",
+      "25921540",
+      "25835573",
+      "25417107",
+      "25061441",
+      "24606139",
+      "23260655",
+      "20153263",
+      "19548705",
+      "19486540",
+      "19044944",
+      "17212484",
+      "16511515",
+      "15941828",
+      "8744570"
+    ],
+    "similar": [
+      "42063817",
+      "40308178",
+      "34174329",
+      "38747396",
+      "32954361",
+      "34373735",
+      "37295550",
+      "28974232",
+      "23996074",
+      "35612819",
+      "37958457",
+      "33562706",
+      "22094252",
+      "34639154",
+      "42475469",
+      "23679849",
+      "25921540",
+      "12776190",
+      "22553314",
+      "42001795",
+      "28114278",
+      "28394257",
+      "35245435",
+      "29972300",
+      "32768438",
+      "21741597",
+      "21896721",
+      "20854876",
+      "30258537",
+      "27840424",
+      "31157223",
+      "21521783",
+      "26627013",
+      "24517546",
+      "23260655",
+      "39002676",
+      "29551026",
+      "27310306",
+      "40931580",
+      "9331569",
+      "22160057",
+      "28202522",
+      "39436449",
+      "26311362",
+      "23349306",
+      "30359161",
+      "30387535",
+      "23403462",
+      "35331314",
+      "25082813",
+      "23628958",
+      "25822366",
+      "34692539",
+      "23178754",
+      "40957087",
+      "32320749",
+      "30315824",
+      "33220260",
+      "32552847",
+      "40921261",
+      "24764564",
+      "26747896",
+      "40451432",
+      "21190993",
+      "32549410",
+      "23054645",
+      "30003105",
+      "17851551",
+      "31882723",
+      "20332322",
+      "25509985",
+      "28076791",
+      "37190104",
+      "24769646",
+      "20159607",
+      "21873227",
+      "25349154",
+      "31253180",
+      "27462455",
+      "28411381",
+      "26118503",
+      "19535349",
+      "19262598",
+      "31717699",
+      "35172132",
+      "30528456",
+      "15269783",
+      "33823889",
+      "36005562",
+      "10861294",
+      "28412727",
+      "11681416",
+      "34627412",
+      "25538041",
+      "35677155",
+      "20961854",
+      "38877874",
+      "41114172",
+      "18538732",
+      "32398749"
+    ],
+    "review": [
+      "42063817",
+      "34174329",
+      "37295550",
+      "31157223",
+      "27310306",
+      "22160057",
+      "39436449",
+      "35331314",
+      "32320749",
+      "40921261",
+      "23054645",
+      "26118503",
+      "19535349"
+    ],
+    "pmc": [
+      "13126186"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42063817/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.5c01454",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

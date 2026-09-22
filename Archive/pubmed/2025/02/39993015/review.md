@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods details, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors study the cytoplasmic intrinsically disordered region (IDR) of neuropilin-1 (NRP-1 IDR) using a combination of enhanced sampling molecular simulations, structural statistics methods, and AI-driven conformation mining. They compare these approaches for sampling diversity and energy landscape exploration, predict binding partners via AlphaFold3, and experimentally validate interactions with GIPC-1 and SNX-5, including effects of membrane context and phosphorylation. They conclude that the flexible cytoplasmic region can modulate transmembrane signaling.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or experimental data are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, experimental protocols, statistical analyses, and any validation data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and timely study on the intracellular IDR of NRP-1, a topic relevant to understanding signal transduction in single-pass membrane proteins. The combination of computational and experimental approaches is commendable in principle. However, the abstract provides no quantitative results, no methodological specifics, and no clear evidence that the stated conclusions are supported. The claim that the IDR modulates transmembrane signaling is presented as a general inference without direct functional data. As submitted, the evidence base is insufficient to evaluate the technical soundness or the validity of the conclusions.
+- **Who would be interested in the results, and why** Researchers in membrane protein signaling, intrinsically disordered protein biology, and computational biophysics would be interested. Those developing or applying enhanced sampling and AI-based structure prediction methods to disordered systems may also find the methodological comparison useful. The potential link between IDR dynamics and transmembrane signaling could attract a broader biophysics audience.
+- **Major strengths** The study addresses a challenging and understudied problem, namely the functional mechanism of an intracellular IDR in a single-pass membrane protein. The planned combination of multiple computational approaches with experimental validation is appropriate for the question. The focus on specific binding partners (GIPC-1 and SNX-5) and on modulatory factors such as membrane context and phosphorylation is a reasonable strategy to move beyond generic IDR characterization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that their findings provide critical insights into how a flexible cytoplasmic region in signal-transmembrane proteins can modulate transmembrane signaling.
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Concern** The abstract does not present any direct evidence linking NRP-1 IDR dynamics or interactions to changes in transmembrane signaling. No functional assays, signaling readouts, or mechanistic data are described. The claim of modulation of transmembrane signaling is therefore unsupported by the visible evidence.
+  - **Why it matters** This is the central conclusion of the study. Without direct functional evidence, the claim remains speculative and does not establish a mechanistic link between the IDR and signaling outcomes.
+  - **Resolution test** Provide experimental data showing that perturbation of the NRP-1 IDR, its binding partners, or its post-translational modifications alters a measurable signaling output in a cellular or reconstituted system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that they compare several enhanced sampling simulations, structural statistics methods, and AI-driven conformation mining techniques, emphasizing strengths and limitations with respect to sampling diversity and energy landscape exploration.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** No quantitative comparison metrics are provided. It is unclear how sampling diversity or energy landscape exploration was assessed, what the convergence criteria were, or whether the methods were compared on equal footing. Without these details, the comparison cannot be evaluated.
+  - **Why it matters** The methodological comparison is a stated component of the study. If the comparison is not rigorous, the conclusions drawn from it are not reliable.
+  - **Resolution test** Provide quantitative metrics such as free energy estimates, sampling convergence measures, or structural ensemble overlap, along with clear descriptions of simulation protocols and analysis parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that they validate the interaction of the NRP-1 IDR with GIPC-1 and SNX-5 and investigate the effects of membrane context and phosphorylation on these interactions.
+  - **Evidence pointer** Abstract, experimental validation section; location not provided
+  - **Concern** The abstract does not describe the experimental methods used for validation, the nature of the observed interactions, or the direction and magnitude of the effects of membrane context and phosphorylation. No quantitative binding data are presented.
+  - **Why it matters** The validation of binding partners and the modulation of these interactions are key results. Without experimental details and quantitative outcomes, the findings cannot be assessed.
+  - **Resolution test** Provide binding affinities, kinetic parameters, or other quantitative interaction data, along with a clear description of the experimental system and controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, methods description
+  - **Evidence pointer** Abstract, second sentence; location not provided
+  - **Issue** The phrase "structural statistics-based methods" is vague and could refer to a range of techniques.
+  - **Required correction** Specify which methods are included under this term.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, binding partner identification
+  - **Evidence pointer** Abstract, third sentence; location not provided
+  - **Issue** The abstract states that a broad array of potential binding partners was investigated but does not indicate how many were identified or how high-confidence partners were selected.
+  - **Required correction** Provide the number of predicted partners and the criteria used to define high confidence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Abstract, conclusion
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Issue** The phrase "critical insights" is not supported by the level of detail in the abstract.
+  - **Required correction** Use more measured language that reflects the actual evidence presented.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central signaling claim is unsupported, the methodological comparison lacks quantitative rigor, and the experimental validation is not described in sufficient detail.
+- **Assessment against Nature-style criteria** Originality: The topic is of interest, but the abstract does not demonstrate a novel conceptual advance beyond applying existing methods to a new system. Scientific importance: Potentially high if the signaling link is established, but currently not demonstrated. Interdisciplinary readership: The study could appeal to biophysicists, structural biologists, and cell biologists, but the abstract does not frame the findings in a way that would engage a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail is a major limitation. Readability for nonspecialists: The abstract is reasonably clear but uses jargon without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The study may have merit, but the abstract alone does not provide sufficient evidence to support the central claims. A full manuscript with detailed methods, quantitative results, and direct functional data would be required to assess the case.
+
+## Risk / unsupported claims
+- The claim that NRP-1 IDR modulates transmembrane signaling is unsupported by the visible evidence.
+- The claim that the methodological comparison reveals strengths and limitations of each approach is unverifiable without quantitative metrics.
+- The claim that interactions with GIPC-1 and SNX-5 are validated is unverifiable without experimental details.
+- The claim that membrane context and phosphorylation affect these interactions is unverifiable without quantitative data.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.02.13.637956",
+  "title": "Morpheus: A fragment-based algorithm to predict metamorphic behaviour in proteins across proteomes",
+  "authors": "Subramanian V; Appadurai R; Venkatesh H; Sekhar A; Srivastava A",
+  "journal": "bioRxiv",
+  "published_date": "2025-02-17",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于片段的算法Morpheus，利用PDB和AlphaFold结构数据预测蛋白质的折叠转换（metamorphic）倾向，虽涉及无序/构象多样性蛋白的互作相关机制，但未直接研究PPI或相分离，方法上以结构分类为主，AI/物理模拟成分有限。",
+  "abstract": "Functionally important “fold-switching” proteins, which do not obey the classical folding dogma, are now thought to be widespread. Algorithms that can accurately annotate fold-switching proteins from sequence information can help uncover the true extent of the “metamorphome”. Here, we present Morpheus, a fragment-based classification approach, that works by analysing the diversity of structures within a query protein sequence. Morpheus exhaustively curates and uses fragment structural data from the protein data bank as well as the AlphaFold Protein Structure Database. We employed our algorithm on 57 different proteomes consisting of a total of 601,218 proteins and identified about 10% of these proteins with the ability to fold switch. Additionally, we provide a web server for Morpheus to test for metamorphic propensities for user-defined sequences ( http://mbu.iisc.ac.in/∼anand/morpheus ). Besides screening for metamorphic behaviour in proteomes, our work will be useful in de novo design and engineering of such proteins through further experimentation.",
+  "abstract_zh": "功能上重要的“折叠转换”蛋白，它们不遵循经典的折叠法则，现在被认为广泛存在。能够从序列信息中准确注释折叠转换蛋白的算法，有助于揭示“变形组”的真实范围。在此，我们介绍Morpheus，一种基于片段的分类方法，通过分析查询蛋白质序列内结构的多样性来工作。Morpheus详尽地整理并使用来自蛋白质数据银行以及AlphaFold蛋白质结构数据库的片段结构数据。我们将该算法应用于57个不同的蛋白质组，共包含601,218个蛋白质，并识别出其中约10%具有折叠转换能力的蛋白质。此外，我们为Morpheus提供了一个网络服务器，用于测试用户定义序列的变形倾向（http://mbu.iisc.ac.in/∼anand/morpheus）。除了筛选蛋白质组中的变形行为外，我们的工作还将有助于通过进一步实验进行此类蛋白质的从头设计和工程改造。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.02.13.637956",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.02.13.637956",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.02.13.637956/index.html"
+}

@@ -1,0 +1,270 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.09.21.508910",
+  "title": "A conserved ribosomal protein has entirely dissimilar structures in different organisms",
+  "doi": "10.1101/2022.09.21.508910",
+  "abstract": "<h4>ABSTRACT</h4> Ribosomes from different species can markedly differ in their composition by including dozens of ribosomal proteins that are unique to specific lineages but absent in others. However, it remains unknown how ribosomes acquire and specialize new proteins throughout evolution. Here, to help answer this question, we describe the evolution of the ribosomal protein msL1/msL2 that was recently found in ribosomes from the parasitic microorganism clade, microsporidia. We first show that this protein has a conserved location in the ribosome but entirely dissimilar structures in different organisms: in each of the analyzed species, msL1/msL2 exhibits an altered secondary structure, an inverted orientation of the N- and C-termini on the ribosomal binding surface, and a completely transformed three-dimensional fold. We then show that this evolutionary fold switching is likely caused by changes in the msL1/msL2-binding site in the ribosome; specifically, by variations in microsporidian rRNA. These observations allow us to infer an evolutionary scenario in which a small, positively-charged, de novo -born unfolded protein was first captured by rRNA to become part of the ribosome and subsequently underwent complete fold switching to optimize its binding to its evolving ribosomal binding site. Overall, our work provides a striking example of how a protein can switch its fold in the context of a complex biological assembly while retaining its specificity for its molecular partner. This finding will help us better understand the origin and evolution of new protein components of complex molecular assemblies – thereby enhancing our ability to engineer biological molecules, identify protein homologs, and peer into the history of life on Earth.",
+  "authors": [
+    "Schierholz L",
+    "Brown CR",
+    "Helena-Bueno K",
+    "Uversky VN",
+    "Hirt RP",
+    "Barandun J",
+    "Melnikov SV"
+  ],
+  "published_date": "2022-09-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.09.21.508910",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.09.21.508910.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR548780",
+    "raw_record": {
+      "id": "PPR548780",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR548780"
+        ]
+      },
+      "doi": "10.1101/2022.09.21.508910",
+      "title": "A conserved ribosomal protein has entirely dissimilar structures in different organisms",
+      "authorString": "Schierholz L, Brown CR, Helena-Bueno K, Uversky VN, Hirt RP, Barandun J, Melnikov SV.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Schierholz L",
+            "lastName": "Schierholz",
+            "firstName": "Léon",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology, Laboratory for Molecular Infection Medicine Sweden, Umeå Centre for Microbial Research, Science for Life Laboratory, Umeå University, Umeå, 901 87, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brown CR",
+            "lastName": "Brown",
+            "firstName": "Charlotte",
+            "initials": "CR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0869-441X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biosciences Institute, Newcastle University School of Medicine, Newcastle upon Tyne, NE2 4HH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Helena-Bueno K",
+            "lastName": "Helena-Bueno",
+            "firstName": "Karla",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1852-2408"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biosciences Institute, Newcastle University School of Medicine, Newcastle upon Tyne, NE2 4HH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Uversky VN",
+            "lastName": "Uversky",
+            "firstName": "Vladimir",
+            "initials": "VN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Medicine and USF Health Byrd Alzheimer’s Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hirt RP",
+            "lastName": "Hirt",
+            "firstName": "Robert",
+            "initials": "RP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3760-9958"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology, Laboratory for Molecular Infection Medicine Sweden, Umeå Centre for Microbial Research, Science for Life Laboratory, Umeå University, Umeå, 901 87, Sweden"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barandun J",
+            "lastName": "Barandun",
+            "firstName": "Jonas",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7525-9039"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biosciences Institute, Newcastle University School of Medicine, Newcastle upon Tyne, NE2 4HH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Melnikov SV",
+            "lastName": "Melnikov",
+            "firstName": "Sergey",
+            "initials": "SV"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0869-441X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3760-9958"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7525-9039"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1852-2408"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  Ribosomes from different species can markedly differ in their composition by including dozens of ribosomal proteins that are unique to specific lineages but absent in others. However, it remains unknown how ribosomes acquire and specialize new proteins throughout evolution. Here, to help answer this question, we describe the evolution of the ribosomal protein msL1/msL2 that was recently found in ribosomes from the parasitic microorganism clade, microsporidia. We first show that this protein has a conserved location in the ribosome but entirely dissimilar structures in different organisms: in each of the analyzed species, msL1/msL2 exhibits an altered secondary structure, an inverted orientation of the N- and C-termini on the ribosomal binding surface, and a completely transformed three-dimensional fold. We then show that this evolutionary fold switching is likely caused by changes in the msL1/msL2-binding site in the ribosome; specifically, by variations in microsporidian rRNA. These observations allow us to infer an evolutionary scenario in which a small, positively-charged,  de novo -born unfolded protein was first captured by rRNA to become part of the ribosome and subsequently underwent complete fold switching to optimize its binding to its evolving ribosomal binding site. Overall, our work provides a striking example of how a protein can switch its fold in the context of a complex biological assembly while retaining its specificity for its molecular partner. This finding will help us better understand the origin and evolution of new protein components of complex molecular assemblies – thereby enhancing our ability to engineer biological molecules, identify protein homologs, and peer into the history of life on Earth.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T008695/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "948655",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/09/22/2022.09.21.508910.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.09.21.508910"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR548780"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR548780&type=FILE&fileName=EMS154732-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37987564",
+            "reference": "Molecular biology and evolution. 2024 Jan;41(1):msad254",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS154732",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-09-24",
+      "firstPublicationDate": "2022-09-22",
+      "firstIndexDate": "2022-09-26",
+      "fullTextReceivedDate": "2022-11-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

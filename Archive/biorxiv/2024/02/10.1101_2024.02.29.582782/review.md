@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, author contributions, data availability, acknowledgements) as provided by the author.
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the supplied text. No external data, figures, or supplementary materials were independently accessed or verified.
+- **Shared manuscript claim summary** The authors report that in pre-B cells, Ikaros predominantly associates with corepressor complexes, particularly NuRD, and that transcriptional repression is the immediate response to Ikaros induction. They identify conserved helical motifs in the Ikaros intrinsically disordered region (IDR) that mediate NuRD interaction and are required for stable target gene silencing and anti-proliferative functions in human B-ALL cells. They further report that early repressed genes overlap with genes deregulated in Ikaros-mutant leukemia.
+- **Visible evidence base** Text descriptions of results, including ChIP-MS, RNA-seq, ATAC-seq, ChIP-seq, and cell growth assays. Figure and supplementary figure references are cited but not directly viewable. No numerical data, statistical details, or methodological specifics are fully provided in the supplied text.
+- **Missing materials affecting confidence** Full figures, supplementary figures, detailed methods, statistical analysis details, and raw data are not available. The manuscript text alone is insufficient to fully evaluate the robustness of the claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in transcriptional regulation by Ikaros, a key factor in B cell development and leukemia. The authors present a compelling narrative that Ikaros acts primarily as a repressor through NuRD recruitment, mediated by conserved helical motifs in its IDR. The temporal resolution of the inducible system is a strength, and the identification of a specific motif for NuRD interaction is potentially significant. However, the provided text lacks sufficient methodological detail and direct data presentation to fully assess the technical soundness of the claims. The evidence for the central role of NuRD in repression, the specificity of the motif interaction, and the functional relevance in B-ALL is described but not fully substantiated in the visible text.
+- **Who would be interested in the results, and why** Researchers in transcriptional regulation, chromatin biology, hematopoiesis, and leukemia biology. The findings on Ikaros-NuRD interaction and the role of IDR motifs in repressor function are relevant to understanding how transcription factors coordinate corepressor recruitment. The potential link to B-ALL pathogenesis and the identification of a functional domain may interest translational researchers.
+- **Major strengths** 1. The use of an inducible system to resolve immediate versus secondary transcriptional responses is a strong experimental design. 2. The unbiased proteomic approach to define the Ikaros interactome provides a global view of its associated complexes. 3. The identification and functional characterization of conserved helical motifs in the IDR is a novel and potentially important contribution. 4. The integration of multiple genomic assays (RNA-seq, ATAC-seq, ChIP-seq) to link Ikaros binding to chromatin changes is comprehensive.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for causal claim
+  - **Claim pointer** The authors claim that "conserved helical motifs in the Ikaros IDR mediate NuRD interaction and transcriptional repression" and that this interaction is critical for repression.
+  - **Evidence pointer** Results sections "Conserved helical motifs mediate transcriptional repression and NuRD interaction" and "Conserved helical motifs are required for the anti-proliferative function of Ikaros"; Figure 4F, 4G, 5A-D.
+  - **Concern** The text states that the ΔED mutant shows "weak repressive ability at 2h, but this repression was not sustained at 6h" and that it has "substantially reduced interactions with all NuRD complex subunits." However, the quantitative extent of the reduction in repression and NuRD binding is not provided. It is unclear if the ΔED mutant completely abolishes NuRD interaction or only partially reduces it. The text also does not specify whether other corepressor interactions are affected by the ΔED mutation, which is critical to attribute the phenotype specifically to NuRD loss.
+  - **Why it matters** The central claim of the paper is that the helical motifs mediate repression through NuRD. Without quantitative data showing a strong and specific loss of NuRD binding that correlates with the loss of repression, the causal link is not firmly established. Partial effects could indicate redundant mechanisms or indirect effects.
+  - **Resolution test** Provide quantitative data (e.g., enrichment values from mass spectrometry, western blot quantification) showing the fold-change in NuRD subunit binding for ΔED vs. wild-type. Show that other corepressor interactions (e.g., CtBP1, KAP1) are unchanged in the ΔED mutant. Demonstrate that the residual repression at 2h in ΔED is not NuRD-dependent, perhaps by depleting NuRD components in the ΔED background.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of genomic analysis
+  - **Claim pointer** The authors claim that "Ikaros induction leads to rapid loss of chromatin accessibility and H3K27ac at regulatory regions, especially enhancers and superenhancers" and that this is associated with transcriptional repression.
+  - **Evidence pointer** Results sections "Transcriptional repression is the immediate response to Ikaros induction in pre-B cells" and "Ikaros binding drives rapid loss of chromatin accessibility and H3K27ac at regulatory promoters and enhancers"; Figures 2B, 2C, 2D, 2J, 2K.
+  - **Concern** The text describes changes in accessibility and H3K27ac but does not provide details on the magnitude of these changes, the number of biological replicates, or the statistical significance. The claim that enhancers are "twice as likely" to lose accessibility as promoters is presented without confidence intervals or statistical tests. The temporal relationship between Ikaros binding, chromatin changes, and transcriptional changes is described but not quantitatively demonstrated (e.g., correlation analysis).
+  - **Why it matters** The conclusion that repression is the immediate and primary response relies on the robustness of the time-course data. Without statistical rigor and clear effect sizes, it is difficult to assess whether the observed changes are specific and significant or minor and variable.
+  - **Resolution test** Provide detailed statistical analysis for the genomic data, including numbers of replicates, adjusted p-values, and effect sizes for accessibility and H3K27ac changes. Show a clear temporal correlation between Ikaros binding, loss of accessibility/H3K27ac, and transcriptional repression at individual loci.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance in disease model
+  - **Claim pointer** The authors claim that the conserved helical motifs are "required for the anti-proliferative function of Ikaros" in human B-ALL cells.
+  - **Evidence pointer** Results section "Conserved helical motifs are required for the anti-proliferative function of Ikaros"; Figure 5A-D.
+  - **Concern** The text states that expression of wild-type Ikaros reduced growth of B-ALL lines, and this effect was "reduced or absent" with the ΔED mutant. However, the experimental details are lacking. It is unclear if the ΔED mutant is expressed at levels comparable to wild-type Ikaros. The text does not specify the time course of the growth assays or whether the effect is due to apoptosis, cell cycle arrest, or other mechanisms.
+  - **Why it matters** The relevance to human disease is a key translational aspect of the paper. If the ΔED mutant is poorly expressed or misfolded, the loss of anti-proliferative function could be due to non-specific effects rather than loss of NuRD interaction.
+  - **Resolution test** Show equivalent expression of wild-type and ΔED Ikaros in the B-ALL lines. Provide growth curves with statistical analysis. Include cell cycle and apoptosis assays to characterize the mechanism of growth inhibition.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 2D
+  - **Evidence pointer** Results section "Ikaros binding drives rapid loss of chromatin accessibility and H3K27ac at regulatory promoters and enhancers"
+  - **Issue** The text refers to "ATAC-seq reads corresponding to nucleosome-free regions (NFR)" but does not explain how NFRs were defined or why this specific analysis was chosen over standard ATAC-seq peak calling.
+  - **Required correction** Briefly describe the NFR analysis in the methods or results text to clarify the approach.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of information
+  - **Affected element** Figure 4E
+  - **Evidence pointer** Results section "Identification of conserved helical motifs in Ikaros IDR"
+  - **Issue** The text states that "removal of the conserved helices in ΔED, or in fact any of the IDR regions ΔN, ΔED, or ΔPEST, had no impact on DNA-binding in B3 cells." However, the figure is not visible, and the text does not describe the assay used to assess DNA binding.
+  - **Required correction** Specify the DNA-binding assay used (e.g., immunofluorescence for foci formation, EMSA, ChIP) and provide representative images or quantification.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of data
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The authors state that "the immediate responses to Ikaros binding in pre-B cells are loss of chromatin accessibility and H3K27ac at regulatory enhancers, and transcriptional repression." However, the text does not discuss whether these changes are direct or could be mediated by other factors recruited by Ikaros.
+  - **Required correction** Add a brief discussion on the potential direct versus indirect effects of Ikaros binding on chromatin state, considering the possibility of secondary recruitment events.
+- **Technical failings that need to be addressed before the case is established** 1. Lack of quantitative data for key experiments (R1-M1, R1-M2). 2. Insufficient methodological detail to evaluate the robustness of the genomic and proteomic analyses. 3. The causal link between NuRD interaction and repression is not fully established without showing specificity and correlation. 4. The functional relevance in B-ALL requires more detailed characterization of the mutant phenotype.
+- **Assessment against Nature-style criteria** **Originality:** The identification of specific conserved helical motifs in the Ikaros IDR that mediate NuRD interaction is a novel finding that advances understanding of Ikaros function. **Scientific importance:** The work addresses a fundamental question in transcriptional regulation and has implications for understanding B-ALL pathogenesis. The potential mechanism of IDR-mediated corepressor recruitment is of broad interest. **Interdisciplinary readership:** The topic is relevant to molecular biology, chromatin biology, immunology, and cancer biology. The findings may appeal to a broad audience interested in gene regulation and disease mechanisms. **Technical soundness:** The experimental design is generally sound, but the lack of quantitative details and statistical rigor in the provided text prevents full assessment. The claims are plausible but not fully supported by the visible evidence. **Readability for nonspecialists:** The text is generally clear and well-structured, but some sections assume familiarity with specific techniques (e.g., ChIP-MS, ATAC-seq) and may be challenging for a general audience. The abstract and introduction are accessible, but the results section could benefit from more explanatory context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially significant, but the current evidence base is insufficient to fully establish the claims. The authors should provide quantitative data, statistical analyses, and methodological details to strengthen the case.
+
+## Risk / unsupported claims
+- The claim that Ikaros "overwhelmingly" associates with corepressors is based on relative abundance but lacks quantitative thresholds or statistical comparison.
+- The claim that the ΔED mutant's loss of repression is specifically due to loss of NuRD interaction is not fully supported, as other interactions may be affected.
+- The claim that enhancer disruption is a "primary driver" of repression is inferred from correlation and not directly tested.
+- The claim that the conserved helical motifs are "required" for anti-proliferative function in B-ALL is based on growth assays that are not fully described.
+- The predicted interaction between the Ikaros motif and RBBP4 is based on modeling (AlphaPullDown) and not experimentally validated.

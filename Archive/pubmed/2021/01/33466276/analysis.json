@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33466276",
+  "title": "Evolution of A bHLH Interaction Motif.",
+  "authors": "Millard, Peter S; Kragelund, Birthe B; Burow, Meike",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-01-21",
+  "window": {
+    "start": "2021-01-18",
+    "end": "2021-01-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过序列搜索、结构预测和实验验证，揭示了拟南芥中无序MYC互作基序(MIM)在被子植物中的广泛分布及其介导MYC-MYB转录因子互作的功能，属于IDR介导PPI的机制研究，但方法以实验为主，AI/物理模拟贡献有限。",
+  "abstract": "Intrinsically disordered proteins and regions with their associated short linear motifs play key roles in transcriptional regulation. The disordered MYC-interaction motif (MIM) mediates interactions between MYC and MYB transcription factors in Arabidopsis thaliana that are critical for constitutive and induced glucosinolate (GLS) biosynthesis. GLSs comprise a class of plant defense compounds that evolved in the ancestor of the Brassicales order. We used a diverse set of search strategies to discover additional occurrences of the MIM in other proteins and in other organisms and evaluate the findings by means of structural predictions, interaction assays, and biophysical experiments. Our search revealed numerous MIM instances spread throughout the angiosperm lineage. Experiments verify that several of the newly discovered MIM-containing proteins interact with MYC TFs. Only hits found within the same transcription factor family and having similar characteristics could be validated, indicating that structural predictions and sequence similarity are good indicators of whether the presence of a MIM mediates interaction. The experimentally validated MIMs are found in organisms outside the Brassicales order, showing that MIM function is broader than regulating GLS biosynthesis.",
+  "abstract_zh": "固有无序蛋白及其相关的短线性基序在转录调控中发挥关键作用。无序的MYC相互作用基序（MIM）介导拟南芥中MYC和MYB转录因子之间的相互作用，这对组成型和诱导型硫代葡萄糖苷（GLS）生物合成至关重要。GLS构成一类植物防御化合物，其进化于十字花目祖先中。我们使用多种搜索策略来发现MIM在其他蛋白质和其他生物体中的额外出现，并通过结构预测、相互作用测定和生物物理实验评估这些发现。我们的搜索揭示了众多MIM实例，遍布被子植物谱系。实验验证表明，几个新发现的含MIM蛋白与MYC转录因子相互作用。只有在同一转录因子家族内且具有相似特征的命中才能被验证，这表明结构预测和序列相似性是判断MIM存在是否介导相互作用的良好指标。实验验证的MIM存在于十字花目之外的生物体中，表明MIM的功能比调控GLS生物合成更为广泛。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33466276/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33466276/",
+  "paper_page_path": "papers/pubmed/33466276/index.html"
+}

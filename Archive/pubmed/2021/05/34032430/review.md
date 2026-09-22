@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusion. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to presented evidence, and alignment with Nature-style criteria. Editorial or stylistic preferences beyond scientific clarity are not assessed.
+- **Shared manuscript claim summary** The authors use atomistic discrete molecular dynamics (DMD) simulations to characterize the monomer conformational ensembles and dimerization dynamics of each of the four microtubule-binding (MTB) repeats of tau protein. They report that all repeats are intrinsically disordered, with R1, R2, and R4 transiently populating helical structures and R3 preferentially forming β-sheets. Dimerization enhances β-sheet content in R2, R3, and R4 but not R1. Residues around PHF6* (R2) and PHF6 (R3) are identified as key drivers of inter-molecular interactions, with R3 showing the highest aggregation propensity.
+- **Visible evidence base** Main text figures (Figures 1–6), tables (Tables 1–2), supplementary figures and tables referenced (Figures S1–S7, Tables S1–S2), and methodological descriptions in the Materials and Methods section.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S7, S1–S2) are referenced but not provided, limiting verification of convergence analyses, per-residue secondary structure propensities, contact maps, and probability distributions. Simulation input parameters, force field validation details, and initial structure generation protocols are not fully described. No experimental validation data are included.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational study of the early aggregation behavior of tau MTB repeats, addressing a relevant gap in understanding the differential contributions of each repeat to tau pathology. The use of DMD simulations across multiple independent trajectories is appropriate for exploring conformational ensembles of intrinsically disordered proteins. The findings are largely consistent with prior experimental and computational observations, particularly the high aggregation propensity of R3 and the role of PHF6/PHF6* regions. However, the study is primarily descriptive, and several technical aspects require clarification to fully establish the robustness of the conclusions. The manuscript would benefit from stronger quantitative comparisons between repeats, explicit discussion of force field limitations, and more direct connection to experimental aggregation kinetics.
+- **Who would be interested in the results, and why** Researchers studying tau aggregation, amyloid formation, and intrinsically disordered proteins. The results may inform experimental designs targeting specific MTB repeats or PHF6/PHF6* regions for therapeutic intervention. Computational biophysicists interested in DMD methodology and its application to protein aggregation would also find the study relevant.
+- **Major strengths** 1. Systematic coverage of all four MTB repeats under identical simulation conditions, enabling direct comparisons. 2. Use of long simulation times (0.6 μs for monomers, 1.6 μs for dimers) with 40 independent trajectories per system, providing reasonable sampling for disordered systems. 3. Identification of repeat-specific conformational preferences and aggregation propensities that align with experimental data. 4. Detailed analysis of inter-molecular contact patterns, highlighting the importance of PHF6 and PHF6* regions.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that "all the four repeat monomers (R1–R4) were very dynamic, featuring frequent conformational conversion and lacking stable conformations" and that "R3 displayed the strongest aggregation propensity with high β-sheet contents."  
+  - **Evidence pointer** Figures 1–3, Tables S1–S2, and convergence analyses in Figures S1–S2 (not provided).  
+  - **Concern** The convergence assessment is referenced to supplementary figures that are not available for review. Without these data, it is unclear whether the 0.6 μs monomer and 1.6 μs dimer simulations are sufficient to achieve equilibrium sampling, particularly for a disordered protein like tau. The authors state that secondary structure propensities were similar between two time intervals, but the specific criteria for "similar" and the statistical significance of any differences are not reported. Additionally, the DMD force field (Medusa) is not widely benchmarked for disordered proteins, and no comparison to all-atom explicit-solvent simulations or experimental data is provided to validate the observed conformational preferences.  
+  - **Why it matters** The central claims of repeat-specific conformational preferences and aggregation propensities depend on the simulations being converged and the force field being reliable. If sampling is insufficient or the force field biases certain secondary structures, the conclusions could be artifacts.  
+  - **Resolution test** Provide the supplementary convergence figures and quantitative metrics (e.g., block averaging, autocorrelation times) demonstrating convergence. Include validation of the DMD force field against experimental or all-atom simulation data for tau or similar IDPs, or discuss known limitations and their potential impact on the results.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors conclude that "PHF6* in R2 and PHF6 in R3 played important roles for Tau MTB repeat aggregation" based on inter-molecular contact frequencies.  
+  - **Evidence pointer** Figure 5 and associated text.  
+  - **Concern** The identification of PHF6 and PHF6* as key regions is based on contact frequency maps, but the analysis does not quantify the statistical significance of these contacts relative to other regions or account for sequence-specific biases (e.g., hydrophobic or aromatic residues are more likely to form contacts regardless of functional relevance). The authors do not perform mutation or truncation simulations to test whether removing these regions abolishes aggregation, which would strengthen the causal claim. Furthermore, the relationship between contact frequency and aggregation kinetics is not established; high contact frequency does not necessarily imply a rate-limiting role in fibril formation.  
+  - **Why it matters** The claim that PHF6 and PHF6* are key drivers is a central finding with potential therapeutic implications. Without causal evidence or statistical rigor, the claim remains correlative.  
+  - **Resolution test** Perform additional simulations with PHF6/PHF6* mutations or deletions to demonstrate reduced aggregation propensity. Alternatively, compute binding free energies or use mutational scanning to quantify the contribution of these regions. Provide statistical tests comparing contact frequencies to a null model.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that "dimerization enhanced the β-sheet contents in R2, R3 and R4 instead of R1" and that R3 dimers are stabilized by inter-molecular β-sheets.  
+  - **Evidence pointer** Figures 3–4, Figure S5–S7 (not provided).  
+  - **Concern** The analysis of dimerization-induced conformational changes relies on comparing secondary structure propensities between monomer and dimer simulations. However, the criteria for defining a "dimer" are not clearly specified. The authors mention that only conformations with at least one inter-molecular contact were considered for some analyses, but the threshold for contact formation and the treatment of transient versus stable dimers are not described. Additionally, the free energy surfaces in Figure 6 are based on collective variables (total backbone hydrogen bonds and radius of gyration) that may not capture the full conformational heterogeneity of the dimers.  
+  - **Why it matters** The interpretation of dimerization effects depends on a clear definition of what constitutes a dimer and on the adequacy of the collective variables for describing the free energy landscape. Ambiguities here could affect the comparison between repeats.  
+  - **Resolution test** Clearly define dimer formation criteria (e.g., minimum contact number and duration). Provide additional free energy projections using alternative collective variables (e.g., inter-molecular β-sheet content, end-to-end distance) to confirm the robustness of the observed basins.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interdisciplinary readership  
+  - **Claim pointer** The authors claim that "our results uncovered the conformation and self-assembly dynamics of each tau MTB repeat, which will help better understand the aggregation of Tau."  
+  - **Evidence pointer** Entire manuscript.  
+  - **Concern** The manuscript is written primarily for a computational biophysics audience, with limited contextualization for experimentalists or clinicians. Key terms such as "DMD," "Medusa force field," and "PMF" are introduced without sufficient explanation for non-specialists. The biological implications of the findings are stated but not elaborated, and the connection to Alzheimer's disease pathology is superficial.  
+  - **Why it matters** For a journal with broad readership, the significance of the findings should be accessible to researchers outside the immediate simulation community. The current presentation may limit the impact and uptake of the results.  
+  - **Resolution test** Revise the introduction and discussion to provide more background on tau biology and the relevance of early aggregation. Define technical terms and consider adding a schematic figure illustrating the simulation setup and key findings for a general audience.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, first sentence.  
+  - **Issue** The abstract states "The pathological aggregation of intrinsically disordered tau protein, driven by the interactions between microtubule-binding (MTB) domains, is associated with Alzheimer's disease." This is accurate but could be more precise, as the MTB repeats are within the MTB domains, and the interaction between repeats is one of several factors.  
+  - **Required correction** Rephrase to "The pathological aggregation of the intrinsically disordered protein tau, mediated by interactions among its microtubule-binding (MTB) repeats, is a hallmark of Alzheimer's disease."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Methods, DMD simulation parameters.  
+  - **Evidence pointer** Materials and Methods, "DMD Simulations" section.  
+  - **Issue** The Debye length is set to approximately 10 Å, but the ionic strength corresponding to this value is not stated. This omission makes it difficult to assess the physiological relevance of the electrostatic screening.  
+  - **Required correction** Specify the ionic strength or salt concentration used to determine the Debye length.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Discussion of R4 aggregation.  
+  - **Evidence pointer** Results section, "Dimerization free energy landscapes" and Figure 6d.  
+  - **Issue** The authors note that R4 dimers are β-sheet rich but do not discuss the biological relevance of R4 aggregation in the context of tau isoforms. R4 is present in all tau isoforms, so its aggregation behavior may be more relevant than R2, which is absent in 3R isoforms.  
+  - **Required correction** Add a brief discussion of the implications of R4 aggregation for 3R and 4R tau isoforms.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Figure captions  
+  - **Evidence pointer** Figures 1–6 captions.  
+  - **Issue** The figure captions are dense and assume familiarity with simulation analyses. For example, "PMF as a function of #Hbond and Rg" is not self-explanatory.  
+  - **Required correction** Expand captions to briefly explain the significance of each panel and define abbreviations (e.g., PMF, #Hbond, Rg) at first use.  
+  - **Concern ID** R1-m5  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Statistical analysis  
+  - **Evidence pointer** Results section, "Conformational ensembles" and "Dimerization" sections.  
+  - **Issue** The manuscript reports averages and propensities but does not provide error bars or confidence intervals for key quantities, such as secondary structure content or contact frequencies. This limits the ability to assess variability across trajectories.  
+  - **Required correction** Include standard errors or confidence intervals for reported quantities, and state the number of independent samples used for each analysis.  
+
+## Risk / unsupported claims
+- The claim that R3 has the "strongest aggregation propensity" is based on simulation-derived β-sheet content and contact frequencies, but no direct measure of aggregation kinetics (e.g., dimerization rate, free energy barrier) is provided. This claim is only partially supported.
+- The assertion that PHF6 and PHF6* "play a key role" in aggregation is correlative and not tested causally. This is a risk if interpreted as a definitive mechanistic conclusion.
+- The statement that "dimerization enhanced the β-sheet contents in R2, R3 and R4 instead of R1" is supported by the data, but the lack of convergence details for the dimer simulations (supplementary not provided) makes this claim not fully verifiable.
+- The generalizability of the findings to full-length tau or physiological conditions is not established, as the study uses isolated repeats with implicit solvent, which may not capture inter-repeat interactions or cellular environment effects. This limitation is acknowledged but not quantitatively addressed.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33498179",
+  "title": "Identification of Sortilin Alternatively Spliced Variants in Mouse 3T3L1 Adipocytes.",
+  "authors": "Lui, Ashley; Sparks, Robert; Patel, Rekha; Patel, Niketa A",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-01-28",
+  "window": {
+    "start": "2021-01-25",
+    "end": "2021-01-31"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究脂肪细胞中sortilin剪接变体Sort(17b)编码的新型IDR，通过MD模拟和蛋白-蛋白对接揭示其与Glut4的增强结合及对葡萄糖摄取的抑制，直接涉及IDR介导的PPI机制建模，与课题高度相关。",
+  "abstract": "Type 2 diabetes mellitus is a metabolic disorder defined by systemic insulin resistance. Insulin resistance in adipocytes, an important regulator of glucose metabolism, results in impaired glucose uptake. The trafficking protein, sortilin, regulates major glucose transporter 4 (Glut4) movement, thereby promoting glucose uptake in adipocytes. Here, we demonstrate the presence of an alternatively spliced sortilin variant (Sort(17b)), whose levels increase with insulin resistance in mouse 3T3L1 adipocytes. Using a splicing minigene, we show that inclusion of alternative exon 17b results in the expression of Sort(17b) splice variant. Bioinformatic analysis indicated a novel intrinsic disorder region (IDR) encoded by exon 17b of Sort(17b). Root mean square deviation (RMSD) and root mean square fluctuation (RMSF) measurements using molecular dynamics demonstrated increased flexibility of the protein backbone within the IDR. Using protein-protein docking and co-immunoprecipitation assays, we show robust binding of Glut4 to Sort(17b). Further, results demonstrate that over-expression of Sort(17b) correlates with reduced Glut4 translocation and decreased glucose uptake in adipocytes. The study demonstrates that insulin resistance in 3T3L1 adipocytes promotes expression of a novel sortilin splice variant with thus far unknown implications in glucose metabolism. This knowledge may be used to develop therapeutics targeting sortilin variants in the management of type 2 diabetes and metabolic syndrome.",
+  "abstract_zh": "2型糖尿病是一种以系统性胰岛素抵抗为特征的代谢性疾病。脂肪细胞作为葡萄糖代谢的重要调节者，其胰岛素抵抗导致葡萄糖摄取受损。转运蛋白分拣蛋白 (sortilin) 调节主要葡萄糖转运蛋白4 (Glut4) 的运动，从而促进脂肪细胞中的葡萄糖摄取。在此，我们证明存在一种选择性剪接的分拣蛋白变体 (Sort(17b))，其水平在小鼠3T3L1脂肪细胞中随胰岛素抵抗增加而升高。利用剪接小基因，我们表明选择性外显子17b的包含导致Sort(17b)剪接变体的表达。生物信息学分析揭示了Sort(17b)外显子17b编码的一个新型内在无序区域 (IDR)。使用分子动力学 (molecular dynamics) 的均方根偏差 (RMSD) 和均方根波动 (RMSF) 测量表明，IDR内蛋白质骨架的灵活性增加。通过蛋白质-蛋白质对接和共免疫沉淀实验，我们展示了Glut4与Sort(17b)的强结合。此外，结果表明Sort(17b)的过表达与脂肪细胞中Glut4转位减少和葡萄糖摄取降低相关。该研究表明，3T3L1脂肪细胞中的胰岛素抵抗促进了一种新型分拣蛋白剪接变体的表达，其对葡萄糖代谢的影响迄今未知。这一知识可用于开发针对分拣蛋白变体的治疗策略，以管理2型糖尿病和代谢综合征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33498179/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33498179/",
+  "paper_page_path": "papers/pubmed/33498179/index.html"
+}

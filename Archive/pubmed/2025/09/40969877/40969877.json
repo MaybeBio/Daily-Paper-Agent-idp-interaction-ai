@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "40969877",
+    "doi": "10.1021/acsptsci.5c00467",
+    "title": "Intrinsically Disordered Regions of Zinc Finger Protein 687 in Phase Separation: A Potentially Pathogenic Driver of Paget's Disease of Bone."
+  },
+  "content": {
+    "abstract": "Paget's disease of bone (PDB) is a chronic skeletal disorder characterized by abnormal bone remodeling and structural deformities, yet its underlying molecular mechanisms remain poorly understood. Genetic mutations in regulatory genes have been implicated in the PDB, potentially disrupting osteoclast activity and leading to excessive bone resorption and abnormal bone formation. Current research has largely focused on clinical phenotypes and downstream pathways, relying on molecular biology approaches and omics analyses to elucidate mechanisms. However, the impact of genetic mutations on the biophysical properties and functional dynamics of biomacromolecules remain unclear. Phase separation (PS), a process essential for biomolecular condensate organization and cellular function, has been implicated in various diseases but is unexplored in the PDB. This study investigates the PS properties of ZNF687, a zinc finger protein associated with PDB. Structural predictions and sequence analyses identified intrinsically disordered regions (IDRs) within ZNF687 that may drive PS, while protein interaction predictions suggest its involvement in bone remodeling pathways. These findings provide a novel perspective linking PS to PDB pathogenesis and highlight ZNF687 as a potential target for further investigation.",
+    "keywords": [
+      "Paget's disease",
+      "bone",
+      "phase separation",
+      "zinc finger protein"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Jing",
+        "Guo, Zheng",
+        "Zhang, Muqing",
+        "Wang, Hu"
+      ],
+      "short_names": [
+        "Wang J",
+        "Guo Z",
+        "Zhang M",
+        "Wang H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6132-8788"
+      ],
+      "affiliations": [
+        "Department of Cellular and Molecular Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, California 92093, United States.",
+        "Department of Physiology, School of Medicine, Johns Hopkins University, Baltimore, Maryland 21215, United States. RINGGOLD: 1466",
+        "Institute of Cell Engineering, School of Medicine, Johns Hopkins University, Baltimore, Maryland 21215, United States. RINGGOLD: 1466",
+        "Institute of Cell Engineering, School of Medicine, Johns Hopkins University, Baltimore, Maryland 21215, United States. RINGGOLD: 1466"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Jing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular and Molecular Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, California 92093, United States."
+        ]
+      },
+      {
+        "full_name": "Guo, Zheng",
+        "short_name": "Guo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physiology, School of Medicine, Johns Hopkins University, Baltimore, Maryland 21215, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Muqing",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Cell Engineering, School of Medicine, Johns Hopkins University, Baltimore, Maryland 21215, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Hu",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0000-0001-6132-8788"
+        ],
+        "affiliations": [
+          "Institute of Cell Engineering, School of Medicine, Johns Hopkins University, Baltimore, Maryland 21215, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS pharmacology & translational science"
+    ],
+    "journal_abbrev": [
+      "ACS Pharmacol Transl Sci"
+    ],
+    "pub_date": "2025 Sep 12",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/19 06:32",
+    "fetched_at": "2026-09-17 20:10:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40350613",
+      "40307576",
+      "39565874",
+      "39491635",
+      "39482532",
+      "39303720",
+      "39144566",
+      "39136995",
+      "38906142",
+      "38556549",
+      "37728743",
+      "37705755",
+      "37705750",
+      "37657994",
+      "37207400",
+      "37180975",
+      "37156794",
+      "36424383",
+      "36372390",
+      "36310603",
+      "36035996",
+      "36028355",
+      "35974095",
+      "35165191",
+      "35163424",
+      "35149762",
+      "35072011",
+      "35052467",
+      "34764296",
+      "34265844",
+      "33988819",
+      "33579564",
+      "33318217",
+      "33069007",
+      "33049211",
+      "32895492",
+      "32726575",
+      "32502498",
+      "32424276",
+      "32214099",
+      "32106343",
+      "31076632",
+      "30875728",
+      "30655572",
+      "30397230",
+      "30134174",
+      "29930091",
+      "29567837",
+      "29493781",
+      "29424691",
+      "29401322",
+      "28225081",
+      "27926874",
+      "27600564",
+      "27411336",
+      "27320918",
+      "27058665",
+      "26849110",
+      "26677226",
+      "26445707",
+      "26284446",
+      "26212817",
+      "25288112",
+      "21620140",
+      "20531441",
+      "16218947",
+      "11351498",
+      "10614927"
+    ],
+    "similar": [
+      "40969877",
+      "36372390",
+      "36035996",
+      "36918542",
+      "37728743",
+      "37180975",
+      "33599011",
+      "42208632",
+      "29493781",
+      "18672105",
+      "32106343",
+      "30671590",
+      "17229010",
+      "37048054",
+      "41024681",
+      "16429324",
+      "38950131",
+      "25025000",
+      "21986510",
+      "33988819",
+      "26212817",
+      "33929316",
+      "8873960",
+      "36520195",
+      "24665195",
+      "41033554",
+      "25701875",
+      "37802379",
+      "31991009",
+      "16813535",
+      "15176995",
+      "42218491",
+      "37018522",
+      "11351498",
+      "15125799",
+      "41037515",
+      "31488492",
+      "42475469",
+      "28840181",
+      "16762063",
+      "15389972",
+      "30726512",
+      "23553658",
+      "26587225",
+      "29782529",
+      "35769265",
+      "14584883",
+      "36915391",
+      "27789985",
+      "39233667",
+      "28255281",
+      "9444442",
+      "31076632",
+      "16877352",
+      "8579899",
+      "32485219",
+      "28506889",
+      "28524179",
+      "19925894",
+      "38488978",
+      "33768371",
+      "18765443",
+      "17725490",
+      "26816278",
+      "11165949",
+      "32036052",
+      "10510206",
+      "41526553",
+      "18510762",
+      "29630930",
+      "42295476",
+      "40085271",
+      "21607019",
+      "18620951",
+      "26284446",
+      "38941236",
+      "16932700",
+      "28993189",
+      "21959292",
+      "31051316",
+      "39906256",
+      "23612225",
+      "38457001",
+      "30886882",
+      "34173013",
+      "35229101",
+      "34800131",
+      "17229006",
+      "18226324",
+      "32978683",
+      "15647816",
+      "35241069",
+      "26772620",
+      "22172040",
+      "29145829",
+      "35355568",
+      "15312251",
+      "41439173",
+      "16199218",
+      "36528065"
+    ],
+    "review": [
+      "40969877",
+      "36035996",
+      "37180975",
+      "42208632",
+      "18672105",
+      "30671590",
+      "17229010",
+      "41024681",
+      "25025000",
+      "21986510",
+      "33988819",
+      "26212817",
+      "33929316",
+      "8873960",
+      "36520195",
+      "24665195",
+      "42218491",
+      "41037515",
+      "15389972",
+      "26587225",
+      "27789985",
+      "28255281",
+      "9444442",
+      "8579899",
+      "38488978",
+      "33768371",
+      "17725490",
+      "41526553",
+      "21607019",
+      "18620951",
+      "26284446",
+      "16932700",
+      "21959292",
+      "23612225",
+      "38457001",
+      "17229006",
+      "18226324",
+      "22172040"
+    ],
+    "pmc": [
+      "12441850"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40969877/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/aptsfn/article-lookup/doi/10.1021/acsptsci.5c00467",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

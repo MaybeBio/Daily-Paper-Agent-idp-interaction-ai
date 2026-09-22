@@ -1,0 +1,268 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.21.516320",
+  "title": "Uncharacterized protein c17orf80: a novel interactor of human mitochondrial nucleoids",
+  "doi": "10.1101/2022.11.21.516320",
+  "abstract": "Molecular functions of many human proteins remain unstudied, despite the demonstrated association with diseases or pivotal molecular structures, such as mitochondrial DNA (mtDNA). This small genome is crucial for proper functioning of mitochondria, the energy-converting organelles. In mammals, mtDNA is arranged into macromolecular complexes called nucleoids that serve as functional stations for its maintenance and expression. Here, we aimed to explore an uncharacterized protein c17orf80, which was previously detected close to the nucleoid components by proximity-labelling mass spectrometry. To investigate the subcellular localization and function of c17orf80, we took an advantage of immunofluorescence microscopy, interaction proteomics and several biochemical assays. We demonstrate that c17orf80 is a mitochondrial membrane-associated protein that interacts with nucleoids even when mtDNA replication is inhibited. In addition, we show that c17orf80 is not essential for mtDNA maintenance and mitochondrial gene expression in cultured human cells. These results provide a basis for uncovering the molecular function of c17orf80 and the nature of its association with nucleoids, possibly leading to new insights about mtDNA and its expression.",
+  "authors": [
+    "Potter A",
+    "Hangas A",
+    "Goffart S",
+    "Huynen MA",
+    "Cabrera-Orefice A",
+    "Spelbrink JN"
+  ],
+  "published_date": "2022-11-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.21.516320",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.21.516320.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR574979",
+    "raw_record": {
+      "id": "PPR574979",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR574979"
+        ]
+      },
+      "doi": "10.1101/2022.11.21.516320",
+      "title": "Uncharacterized protein c17orf80: a novel interactor of human mitochondrial nucleoids",
+      "authorString": "Potter A, Hangas A, Goffart S, Huynen MA, Cabrera-Orefice A, Spelbrink JN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Potter A",
+            "lastName": "Potter",
+            "firstName": "Alisa",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5803-5340"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Radboud Center for Mitochondrial Medicine, Department of Paediatrics, Radboud University Medical Center, Nijmegen, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hangas A",
+            "lastName": "Hangas",
+            "firstName": "Anu",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environmental and Biological Sciences, University of Eastern Finland, Joensuu, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goffart S",
+            "lastName": "Goffart",
+            "firstName": "Steffi",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8491-1458"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Environmental and Biological Sciences, University of Eastern Finland, Joensuu, Finland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huynen MA",
+            "lastName": "Huynen",
+            "firstName": "Martijn",
+            "initials": "MA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6189-5491"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Molecular and Biomolecular Informatics, Radboud Institute for Molecular Life Sciences, Radboud University Medical Center, Nijmegen, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cabrera-Orefice A",
+            "lastName": "Cabrera-Orefice",
+            "firstName": "Alfredo",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2042-3794"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Molecular and Biomolecular Informatics, Radboud Institute for Molecular Life Sciences, Radboud University Medical Center, Nijmegen, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spelbrink JN",
+            "lastName": "Spelbrink",
+            "firstName": "Johannes",
+            "initials": "JN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9756-2602"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Radboud Center for Mitochondrial Medicine, Department of Paediatrics, Radboud University Medical Center, Nijmegen, The Netherlands"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6189-5491"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8491-1458"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2042-3794"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5803-5340"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9756-2602"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Molecular functions of many human proteins remain unstudied, despite the demonstrated association with diseases or pivotal molecular structures, such as mitochondrial DNA (mtDNA). This small genome is crucial for proper functioning of mitochondria, the energy-converting organelles. In mammals, mtDNA is arranged into macromolecular complexes called nucleoids that serve as functional stations for its maintenance and expression. Here, we aimed to explore an uncharacterized protein c17orf80, which was previously detected close to the nucleoid components by proximity-labelling mass spectrometry. To investigate the subcellular localization and function of c17orf80, we took an advantage of immunofluorescence microscopy, interaction proteomics and several biochemical assays. We demonstrate that c17orf80 is a mitochondrial membrane-associated protein that interacts with nucleoids even when mtDNA replication is inhibited. In addition, we show that c17orf80 is not essential for mtDNA maintenance and mitochondrial gene expression in cultured human cells. These results provide a basis for uncovering the molecular function of c17orf80 and the nature of its association with nucleoids, possibly leading to new insights about mtDNA and its expression.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "ZonMw",
+            "grantId": "91217009",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/22/2022.11.21.516320.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.21.516320"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR574979"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR574979&type=FILE&fileName=EMS157562-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37401363",
+            "reference": "Journal of cell science. 2023 Aug;136(15):jcs260822",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS157562",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "ensembl",
+          "refseq",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-11-24",
+      "firstPublicationDate": "2022-11-22",
+      "firstIndexDate": "2022-11-24",
+      "fullTextReceivedDate": "2022-12-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

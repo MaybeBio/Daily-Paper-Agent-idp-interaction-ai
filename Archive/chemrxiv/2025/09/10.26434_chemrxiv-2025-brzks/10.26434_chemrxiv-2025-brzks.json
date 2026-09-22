@@ -1,0 +1,234 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-brzks",
+  "title": "Accurate Prediction of Drug Resistance for Intrinsically Disordered Protein Regions",
+  "doi": "10.26434/chemrxiv-2025-brzks",
+  "abstract": "Relative alchemical binding free energy calculations can be used to predict the impact of amino acid mutations on the ligand binding affinities. However, these protocols are not well established for proteins containing intrinsically disordered regions (IDRs). In this work, we focus on the development of robust protein free energy perturbation (FEP) protocols to reproduce experimental binding affinities that have been measured for a panel of mutants of the protein MDM2 against two ligands, AM-7209 and Nutlin-3a. We focus on mutations that occur in the N-terminal IDR lid of MDM2, that is known to undergo ligand-dependent folding upon binding. We systematically assess the effectiveness of both equilibrium and non-equilibrium FEP protocols in reproducing these experimental binding affinities, in particular for mutations with slowly-varying degrees of freedom. We show that the equilibrium protocol outperforms the non-equilibrium protocol in the precision of the free energy estimates obtained. In addition, we demonstrate the effect of the protein force field and the water model used in simulating the highly flexible IDR region. Overall, our findings demonstrate in an accurate FEP protocol capable of reproducing these trends, and further show applicability of FEP protocols for elucidating the mutational effects on the ligand binding affinity in highly dynamic intrinsically disordered protein regions.",
+  "authors": [
+    "Audrius Kalpokas",
+    "Mark Mackey",
+    "Julien Michel"
+  ],
+  "published_date": "2025-09-25",
+  "updated_date": "2025-09-25T21:23:37Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-brzks",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-brzks",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T11:08:08Z",
+        "timestamp": 1785409688384,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            25
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                25
+              ]
+            ],
+            "date-time": "2025-09-25T00:00:00Z",
+            "timestamp": 1758758400000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Relative alchemical binding free energy calculations can be used to predict the impact of amino acid mutations on the ligand binding affinities. However, these protocols are not well established for proteins containing intrinsically disordered regions (IDRs). In this work, we focus on the development of robust protein free energy perturbation (FEP) protocols to reproduce experimental binding affinities that have been measured for a panel of mutants of the protein MDM2 against two ligands, AM-7209 and Nutlin-3a. We focus on mutations that occur in the N-terminal IDR lid of MDM2, that is known to undergo ligand-dependent folding upon binding. We systematically assess the effectiveness of both equilibrium and non-equilibrium FEP protocols in reproducing these experimental binding affinities, in particular for mutations with slowly-varying degrees of freedom. We show that the equilibrium protocol outperforms the non-equilibrium protocol in the precision of the free energy estimates obtained. In addition, we demonstrate the effect of the protein force field and the water model used in simulating the highly flexible IDR region. Overall, our findings demonstrate in an accurate FEP protocol capable of reproducing these trends, and further show applicability of FEP protocols for elucidating the mutational effects on the ligand binding affinity in highly dynamic intrinsically disordered protein regions.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-brzks",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            25
+          ]
+        ],
+        "date-time": "2025-09-25T21:23:37Z",
+        "timestamp": 1758835417000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Accurate Prediction of Drug Resistance for Intrinsically Disordered Protein Regions"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4579-070X",
+          "authenticated-orcid": false,
+          "given": "Audrius",
+          "family": "Kalpokas",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/01nrxwf90",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Edinburgh",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mark",
+          "family": "Mackey",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/02qfkfg14",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Cresset (United Kingdom)",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Julien",
+          "family": "Michel",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/01nrxwf90",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Edinburgh",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-brzks",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:06:50Z",
+        "timestamp": 1778753210000
+      },
+      "score": 114.20782,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-brzks"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            25
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-brzks",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jctc.5c01648",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            9,
+            25
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

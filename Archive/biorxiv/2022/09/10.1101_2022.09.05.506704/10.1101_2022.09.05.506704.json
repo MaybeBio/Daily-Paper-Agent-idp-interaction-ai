@@ -1,0 +1,455 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.09.05.506704",
+  "title": "SE(3) Equivalent Graph Attention Network as an Energy-Based Model for Protein Side Chain Conformation",
+  "doi": "10.1101/2022.09.05.506704",
+  "abstract": "Protein design energy functions have been developed over decades by leveraging physical forces approximation and knowledge-derived features. However, manual feature engineering and parameter tuning might suffer from knowledge bias. Learning potential energy functions fully from crystal structure data is promising to automatically discover unknown or high-order features that contribute to the protein’s energy. Here we proposed a graph attention network as an energy-based model for protein conformation, namely GraphEBM. GraphEBM is equivariant to the SE(3) group transformation, which is the important principle of modern machine learning for molecules-related tasks. GraphEBM was benchmarked on the rotamer recovery task and outperformed both Rosetta and the state-of-the-art deep learning based methods. Furthermore, GraphEBM also yielded promising results on combinatorial side chain optimization, improving 22.2% χ 1 rotamer recovery to the PULCHRA method on average.",
+  "authors": [
+    "Deqin Liu",
+    "Sheng Chen",
+    "Shuangjia Zheng",
+    "Sen Zhang",
+    "Yuedong Yang"
+  ],
+  "published_date": "2022-09-06",
+  "updated_date": "2022-09-06T18:55:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.09.05.506704",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.09.05.506704.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:04:07Z",
+        "timestamp": 1768500247280,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            6
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 39,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Protein design energy functions have been developed over decades by leveraging physical forces approximation and knowledge-derived features. However, manual feature engineering and parameter tuning might suffer from knowledge bias. Learning potential energy functions fully from crystal structure data is promising to automatically discover unknown or high-order features that contribute to the protein’s energy. Here we proposed a graph attention network as an energy-based model for protein conformation, namely GraphEBM. GraphEBM is equivariant to the SE(3) group transformation, which is the important principle of modern machine learning for molecules-related tasks. GraphEBM was benchmarked on the rotamer recovery task and outperformed both Rosetta and the state-of-the-art deep learning based methods. Furthermore, GraphEBM also yielded promising results on combinatorial side chain optimization, improving 22.2%\n                  <jats:italic>χ</jats:italic>\n                  <jats:sub>1</jats:sub>\n                  rotamer recovery to the PULCHRA method on average.\n                </jats:p>",
+      "DOI": "10.1101/2022.09.05.506704",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            6
+          ]
+        ],
+        "date-time": "2022-09-06T18:55:12Z",
+        "timestamp": 1662490512000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "SE(3) Equivalent Graph Attention Network as an Energy-Based Model for Protein Side Chain Conformation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Deqin",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1428-6778",
+          "authenticated-orcid": false,
+          "given": "Sheng",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9747-4285",
+          "authenticated-orcid": false,
+          "given": "Shuangjia",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sen",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6782-2813",
+          "authenticated-orcid": false,
+          "given": "Yuedong",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.181.4096.223"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0065-3233(08)60413-1"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.96.10.5482"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0959-440X(00)00063-4"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.5",
+          "first-page": "66",
+          "volume-title": "in Methods in enzymology",
+          "volume": "383",
+          "year": "2004"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0959-440X(99)80072-4"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.copbio.2007.04.009"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature19946"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-019-0163-x"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.278.5345.1928"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ma60054a013"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0022-2836(05)80269-4"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2007.03.006"
+        },
+        {
+          "issue": "6",
+          "key": "2022090816300690000_2022.09.05.506704v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "3031",
+          "DOI": "10.1021/acs.jctc.7b00125",
+          "article-title": "The Rosetta All-Atom Energy Function for Macromolecular Modeling and Design",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "Journal of Chemical Theory and Computation"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14539"
+        },
+        {
+          "issue": "10",
+          "key": "2022090816300690000_2022.09.05.506704v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "2565",
+          "DOI": "10.1002/prot.24620",
+          "article-title": "Direct prediction of profiles of sequences compatible with a protein structure by neural networks with fragment-based local and energy-based nonlocal profiles",
+          "volume": "82",
+          "year": "2014",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "issue": "1",
+          "key": "2022090816300690000_2022.09.05.506704v1.17",
+          "first-page": "391",
+          "article-title": "To improve protein sequence profile prediction through image captioning on pairwise residue distance map",
+          "volume": "60",
+          "year": "2019",
+          "journal-title": "Journal of chemical information and modeling"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.18",
+          "unstructured": "J. Ingraham , V. Garg , R. Barzilay , and T. Jaakkola , “Generative models for graph-based protein design,” Advances in neural information processing systems, vol. 32, 2019."
+        },
+        {
+          "issue": "12",
+          "key": "2022090816300690000_2022.09.05.506704v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1315",
+          "DOI": "10.1038/s41592-019-0598-1",
+          "article-title": "Unified rational protein engineering with sequence-based deep representation learning",
+          "volume": "16",
+          "year": "2019",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c00064"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "issue": "8",
+          "key": "2022090816300690000_2022.09.05.506704v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "745",
+          "DOI": "10.1002/jcc.26132",
+          "article-title": "Spot-fold: Fragment-free protein structure prediction guided by predicted backbone structure and contact map",
+          "volume": "41",
+          "year": "2020",
+          "journal-title": "Journal of Computational Chemistry"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.23",
+          "year": "2020",
+          "journal-title": "“Energy-based models for atomic-resolution protein conformations,”"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.24",
+          "unstructured": "A. Vaswani , N. Shazeer , N. Parmar , J. Uszkoreit , L. Jones , A. N. Gomez , L. Kaiser , and I. Polosukhin , “Attention is all you need,” Advances in neural information processing systems, vol. 30, 2017."
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.25",
+          "unstructured": "Y. LeCun , S. Chopra , R. Hadsell , M. Ranzato , and F. J. Huang , “A Tutorial on Energy-Based Learning,” p. 59."
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. S. Richardson and D. C. Richardson , “Principles and patterns of protein conformation,” in Prediction of protein structure and the principles of protein conformation. Springer, 1989, pp. 1–98.",
+          "DOI": "10.1007/978-1-4613-1571-1_1"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.27",
+          "year": "2018",
+          "journal-title": "“Tensor field networks: Rotation-and translation-equivariant neural networks for 3d point clouds,” arXiv preprint"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.28",
+          "unstructured": "O.-E. Ganea , X. Huang , C. Bunne , Y. Bian , R. Barzilay , T. S. Jaakkola , and A. Krause , “Independent SE(3)-Equivariant Models for End-to-End Rigid Protein Docking,” in International Conference on Learning Representations, 2021."
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.29",
+          "article-title": "Learning from protein structure with geometric vector perceptrons",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.30",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. McPartlon , B. Lai , and J. Xu , “A deep se (3)-equivariant model for learning inverse protein folding,” bioRxiv, 2022.",
+          "DOI": "10.1101/2022.04.15.488492"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.31",
+          "year": "2020",
+          "journal-title": "“Directional Message Passing for Molecular Graphs,”"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.32",
+          "article-title": "Fast and uncertainty-aware directional message passing for non-equilibrium molecules",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.33",
+          "first-page": "109",
+          "volume-title": "in Methods in Enzymology",
+          "volume": "523",
+          "year": "2013"
+        },
+        {
+          "issue": "6",
+          "key": "2022090816300690000_2022.09.05.506704v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "1267",
+          "DOI": "10.1080/07391102.1991.10507882",
+          "article-title": "A new approach to the rapid determination of protein side chain conformations",
+          "volume": "8",
+          "year": "1991",
+          "journal-title": "Journal of Biomolecular structure and dynamics"
+        },
+        {
+          "issue": "2",
+          "key": "2022090816300690000_2022.09.05.506704v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "213",
+          "DOI": "10.1002/prot.340140208",
+          "article-title": "Fast and simple monte carlo algorithm for side chain optimization in proteins: application to model building by homology",
+          "volume": "14",
+          "year": "1992",
+          "journal-title": "Proteins: Structure, Function, and Bioinformatics"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20906"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.37",
+          "first-page": "1970",
+          "article-title": "Se (3)-transformers: 3d roto-translation equivariant attention networks",
+          "volume": "33",
+          "year": "2020",
+          "journal-title": "Advances in Neural Information Processing Systems"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(82)90515-0"
+        },
+        {
+          "key": "2022090816300690000_2022.09.05.506704v1.39",
+          "unstructured": "S. Ruder , “An overview of gradient descent optimization algorithms,” 2017."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.09.05.506704",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:34:20Z",
+        "timestamp": 1768448060000
+      },
+      "score": 51.807842,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.09.05.506704"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            6
+          ]
+        ]
+      },
+      "references-count": 39,
+      "URL": "https://doi.org/10.1101/2022.09.05.506704",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            9,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

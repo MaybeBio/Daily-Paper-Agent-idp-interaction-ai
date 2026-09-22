@@ -1,0 +1,320 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.10.717777",
+  "title": "Generative design of intrinsically disordered protein regions with IDiom",
+  "doi": "10.64898/2026.04.10.717777",
+  "abstract": "Intrinsically disordered protein regions are ubiquitous across all kingdoms of life. These structurally heterogeneous regions play central roles in cellular processes such as transcriptional regulation, cellular signaling, and subcellular organization, yet they have remained largely inaccessible to rational design. Structure-based generative methods are not applicable to proteins that lack a stable fold, and existing sequence-based approaches for disordered regions rely on sampling methods that do not capture the evolutionary statistics of natural disordered regions. Here, we introduce IDiom, an autoregressive protein language model trained on 37 million intrinsically disordered region sequences curated from the AlphaFold Database. Trained using a fill-in-the-middle data augmentation, IDiom generates disordered region sequences conditioned on their surrounding structured context, as well as fully disordered proteins without any context. The model generates diverse sequences that recapitulate biologically relevant sequence features of natural disordered regions, and we demonstrate that post-training via reinforcement learning with a subcellular localization reward model produces sequences with features which are consistent with known sequence determinants of compartment-specific localization. These results establish IDiom as a general platform for the generative design of intrinsically disordered proteins and regions.",
+  "authors": [
+    "Jason Liu",
+    "Sebastian Ibarraran",
+    "Frank Hu",
+    "Abigail Park",
+    "Alexander Dunn",
+    "Grant Rotskoff"
+  ],
+  "published_date": "2026-04-11",
+  "updated_date": "2026-04-12T04:45:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717777",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717777.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T14:29:50Z",
+        "timestamp": 1785421790974,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                11
+              ]
+            ],
+            "date-time": "2026-04-11T00:00:00Z",
+            "timestamp": 1775865600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "1R35GM159834-01"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "1R35GM159834-01"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "5R35GM130332"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "5R35GM130332"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "T32HL094274"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "T32HL094274"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cwqze88",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Intrinsically disordered protein regions are ubiquitous across all kingdoms of life. These structurally heterogeneous regions play central roles in cellular processes such as transcriptional regulation, cellular signaling, and subcellular organization, yet they have remained largely inaccessible to rational design. Structure-based generative methods are not applicable to proteins that lack a stable fold, and existing sequence-based approaches for disordered regions rely on sampling methods that do not capture the evolutionary statistics of natural disordered regions. Here, we introduce IDiom, an autoregressive protein language model trained on 37 million intrinsically disordered region sequences curated from the AlphaFold Database. Trained using a fill-in-the-middle data augmentation, IDiom generates disordered region sequences conditioned on their surrounding structured context, as well as fully disordered proteins without any context. The model generates diverse sequences that recapitulate biologically relevant sequence features of natural disordered regions, and we demonstrate that post-training via reinforcement learning with a subcellular localization reward model produces sequences with features which are consistent with known sequence determinants of compartment-specific localization. These results establish IDiom as a general platform for the generative design of intrinsically disordered proteins and regions.</jats:p>",
+      "DOI": "10.64898/2026.04.10.717777",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T04:45:12Z",
+        "timestamp": 1775969112000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Generative design of intrinsically disordered protein regions with IDiom"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Jason",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sebastian",
+          "family": "Ibarraran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Frank",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Abigail",
+          "family": "Park",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alexander",
+          "family": "Dunn",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Grant",
+          "family": "Rotskoff",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.10.717777",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            12
+          ]
+        ],
+        "date-time": "2026-04-12T04:45:12Z",
+        "timestamp": 1775969112000
+      },
+      "score": 106.461174,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.10.717777"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.64898/2026.04.10.717777",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            11
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

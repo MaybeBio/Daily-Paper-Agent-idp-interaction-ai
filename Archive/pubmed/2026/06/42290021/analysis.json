@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42290021",
+  "title": "Intrinsic Disorder Status in Human Proteins Interacting With SARS-CoV-2 Proteins: Insights From Five Years of Translational Research.",
+  "authors": "Adilovic, Muhamed; Akcesme, Betul; Hromic-Jahjefendic, Altijana; Uversky, Vladimir N",
+  "journal": "Journal of cellular biochemistry",
+  "published_date": "2026-06-15",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文系统分析SARS-CoV-2宿主互作蛋白的无序性分布，结合无序预测、网络分析和相分离倾向估计，揭示无序蛋白在病毒-宿主PPI网络中的系统级作用，虽非直接建模单一互作机制，但为IDR介导PPI与相分离的系统研究提供了可迁移的分析框架。",
+  "abstract": "SARS-CoV-2 infection is driven by extensive interactions between viral proteins and host cellular factors, yet the structural properties of host proteins within these interaction networks remain incompletely understood. Intrinsically disordered proteins and regions are key contributors to protein-protein interaction networks due to their conformational flexibility and associated with it multifunctionality, binding promiscuity, and regulatory versatility. In this study, we performed a systematic, proteome-wide analysis of intrinsic disorder in human proteins interacting with SARS-CoV-2 by integrating five experimentally validated interaction datasets comprising 2055 unique host proteins. Using disorder prediction, structural confidence assessment, functional and domain annotation, protein-protein interaction network analysis, phase-separation propensity estimation, and independent validation with the D(2)P(2) platform on a selected set of proteins, we characterized the structural organization of the SARS-CoV-2 human interactome. Our results reveal a balanced distribution of ordered and disordered host proteins, distinct functional and domain signatures across disorder classes, consistent inverse relationships between disorder and structural confidence, and increased network connectivity and phase-separation propensity among highly disordered interactors. These findings indicate that SARS-CoV-2 exploits structural diversity within the host proteome rather than preferentially targeting a single disorder class and highlight intrinsic disorder as a key contributor to interaction plasticity and network organization at the systems level.",
+  "abstract_zh": "SARS-CoV-2感染由病毒蛋白与宿主细胞因子之间的广泛相互作用驱动，然而这些相互作用网络中宿主蛋白的结构特性仍未完全阐明。 intrinsically disordered proteins and regions（固有无序蛋白和区域）因其构象灵活性及其伴随的多功能性、结合混杂性和调控多样性，是蛋白-蛋白相互作用网络的关键贡献者。在本研究中，我们通过整合五个经实验验证的相互作用数据集（包含2055个独特宿主蛋白），对与SARS-CoV-2相互作用的人类蛋白进行了系统性、全蛋白质组范围的固有无序分析。利用无序预测、结构置信度评估、功能和结构域注释、蛋白-蛋白相互作用网络分析、相分离倾向性估计，以及使用D(2)P(2)平台对选定蛋白集进行独立验证，我们表征了SARS-CoV-2人类相互作用组的结构组织。我们的结果揭示了有序和 disordered 宿主蛋白的均衡分布、不同无序类别间的独特功能和结构域特征、无序与结构置信度之间一致的反比关系，以及高无序相互作用子中增强的网络连接性和相分离倾向性。这些发现表明，SARS-CoV-2利用宿主蛋白质组内的结构多样性，而非优先靶向单一无序类别，并强调固有无序在系统层面作为相互作用可塑性和网络组织的关键贡献者。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42290021/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42290021/",
+  "paper_page_path": "papers/pubmed/42290021/index.html"
+}

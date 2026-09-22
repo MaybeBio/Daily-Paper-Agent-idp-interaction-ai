@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41556450",
+  "title": "Conformational state of myosin's disordered loop 2 structure mediates actomyosin association during crossbridge formation.",
+  "authors": "Robeson, Kalen Z; Childers, Matthew Carter; Fruebis, Kieran J; Soriano, Rachelle; Davis, Jennifer; Regnier, Michael",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2026-01-20",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用分子动力学模拟和静电计算研究肌球蛋白无序loop2的构象动态如何调控肌动蛋白-肌球蛋白结合力，虽对象非IDP-PPI相分离，但聚焦IDR介导的互作机制建模，方法可迁移。",
+  "abstract": "The binding of myosin to actin to form crossbridges is a critical step for force generation by sarcomeres. A recent cryo-electron microscopy structure has resolved the weakly-bound actomyosin complex (AM.ADP.Pi). However, the structural and dynamic factors that influence actin-myosin association are unclear. The disordered loop 2 of myosin is thought to mediate actomyosin interactions in a complex, chemomechanical state-dependent fashion. Loop 2 is usually unresolved in structural studies due to its intrinsic disorder. Here, we utilize a combination of molecular dynamics simulations and electrostatic calculations to investigate the dynamics of these actin binding regions of myosin. Our results show that loop 2 experiences disordered dynamics and that specific conformations sampled modulate the strength of the associative electrostatic force between actin and myosin. Variation in the actin-myosin associative force was associated with the presentation and orientation of positively charged residues in loop 2. We provide an in-depth analysis of the conformational state space occupied by loop 2 during molecular dynamics simulations of pre-powerstroke human beta-myosin S1, with three 500 ns replicates each of wildtype and two different mutant (E525K and V606M) myosin structures. This data set allowed for exploration of how loop 2 conformational sampling is altered by these two mutations which have experimentally been shown to alter actin binding affinity and clinically associated with cardiomyopathy. The E525K and V606M mutations altered the conformational ensemble sampled by loop 2 and were associated with associative actin binding strength. These results highlight the importance of the positive charges on loop 2 for actomyosin interactions and demonstrate how disease-causing mutations outside of loop 2 can still affect it.",
+  "abstract_zh": "肌球蛋白与肌动蛋白结合形成横桥是肌节产生力量的关键步骤。近期一项冷冻电镜结构解析了弱结合的肌动球蛋白复合物（AM.ADP.Pi）。然而，影响肌动蛋白-肌球蛋白结合的结构和动态因素尚不清楚。肌球蛋白的无序loop 2被认为以复杂的化学机械状态依赖方式介导肌动球蛋白相互作用。由于loop 2的内在无序性，其在结构研究中通常无法解析。在此，我们结合分子动力学模拟和静电计算来研究肌球蛋白这些肌动蛋白结合区域的动态特性。我们的结果表明，loop 2经历无序动态，并且采样的特定构象调节肌动蛋白与肌球蛋白之间的结合静电力强度。肌动蛋白-肌球蛋白结合力的变化与loop 2中带正电荷残基的呈现和取向相关。我们对预动力冲程人β-肌球蛋白S1的分子动力学模拟中loop 2占据的构象状态空间进行了深入分析，包括野生型和两种不同突变体（E525K和V606M）肌球蛋白结构各三个500 ns重复。该数据集使我们能够探索这两种突变如何改变loop 2的构象采样，这些突变在实验上已被证明改变肌动蛋白结合亲和力，并在临床上与心肌病相关。E525K和V606M突变改变了loop 2采样的构象集合，并与结合性肌动蛋白结合强度相关。这些结果强调了loop 2上正电荷对肌动球蛋白相互作用的重要性，并展示了loop 2外致病突变如何仍能影响其功能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41556450/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41556450/",
+  "paper_page_path": "papers/pubmed/41556450/index.html"
+}

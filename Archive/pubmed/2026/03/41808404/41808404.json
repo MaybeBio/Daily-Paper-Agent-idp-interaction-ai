@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "41808404",
+    "doi": "10.1016/j.bpj.2026.03.009",
+    "title": "Backbone rigidity of disordered protein linkers from NMR experiments and MD simulations."
+  },
+  "content": {
+    "abstract": "Disordered protein linkers are essential for multidomain protein function and engineering, but quantitative methods for their biophysical characterization remain limited. We combined NMR experiments with molecular dynamics simulations to demonstrate that protein backbone (15)N spin relaxation times correlate with backbone rigidities in short, disordered linkers. Using a tailored version of the Quality Evaluation Based Simulation Selection framework, we characterized four model peptides: (GGS)(3), (GPS)(3), K(AP)(5)K, and KKEEVKKEEV-(PK)(7)KEEVKKEEVKK, representing common natural and engineered linker repeats. Glycine-rich sequences showed slight looping tendencies, whereas proline-containing sequences adopted extended conformations with increased approximate persistence lengths and slower dynamics. Notably, sodium and calcium binding to charged peptides minimally affected rigidity, indicating electrostatics don't dominate linker stiffness. This integrated approach provides quantitative insights into disordered linker properties and MD simulation accuracy, offering biophysical understanding for protein design and machine learning model development.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Nuclear Magnetic Resonance, Biomolecular",
+      "Amino Acid Sequence",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Peptides/chemistry",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mantzari, Efstathia",
+        "Malm, Cajsa K",
+        "Nencini, Ricky",
+        "Sandelin, Amanda E",
+        "Ollila, O H Samuli"
+      ],
+      "short_names": [
+        "Mantzari E",
+        "Malm CK",
+        "Nencini R",
+        "Sandelin AE",
+        "Ollila OHS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "VTT Technical Research Centre of Finland, 02044 Espoo, Finland; Institute of Biotechnology, University of Helsinki, 00014 Helsinki, Finland; Department of Chemistry and Materials Science, Aalto University, 00076 Espoo, Finland.",
+        "VTT Technical Research Centre of Finland, 02044 Espoo, Finland.",
+        "Institute of Biotechnology, University of Helsinki, 00014 Helsinki, Finland; Division of Pharmaceutical Biosciences, Faculty of Pharmacy, University of Helsinki, 00014 Helsinki, Finland.",
+        "Institute of Biotechnology, University of Helsinki, 00014 Helsinki, Finland; Division of Pharmacology and Pharmacotherapy, Faculty of Pharmacy, University of Helsinki, 00014 Helsinki, Finland.",
+        "VTT Technical Research Centre of Finland, 02044 Espoo, Finland; Institute of Biotechnology, University of Helsinki, 00014 Helsinki, Finland. Electronic address: samuli.ollila@vtt.fi."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mantzari, Efstathia",
+        "short_name": "Mantzari E",
+        "identifiers": [],
+        "affiliations": [
+          "VTT Technical Research Centre of Finland, 02044 Espoo, Finland; Institute of Biotechnology, University of Helsinki, 00014 Helsinki, Finland; Department of Chemistry and Materials Science, Aalto University, 00076 Espoo, Finland."
+        ]
+      },
+      {
+        "full_name": "Malm, Cajsa K",
+        "short_name": "Malm CK",
+        "identifiers": [],
+        "affiliations": [
+          "VTT Technical Research Centre of Finland, 02044 Espoo, Finland."
+        ]
+      },
+      {
+        "full_name": "Nencini, Ricky",
+        "short_name": "Nencini R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biotechnology, University of Helsinki, 00014 Helsinki, Finland; Division of Pharmaceutical Biosciences, Faculty of Pharmacy, University of Helsinki, 00014 Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Sandelin, Amanda E",
+        "short_name": "Sandelin AE",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biotechnology, University of Helsinki, 00014 Helsinki, Finland; Division of Pharmacology and Pharmacotherapy, Faculty of Pharmacy, University of Helsinki, 00014 Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Ollila, O H Samuli",
+        "short_name": "Ollila OHS",
+        "identifiers": [],
+        "affiliations": [
+          "VTT Technical Research Centre of Finland, 02044 Espoo, Finland; Institute of Biotechnology, University of Helsinki, 00014 Helsinki, Finland. Electronic address: samuli.ollila@vtt.fi."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Apr 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/11 06:57",
+    "fetched_at": "2026-09-18 01:31:32"
+  },
+  "links": {
+    "cites": [
+      "41759065"
+    ],
+    "refs": [
+      "41073429",
+      "40907012",
+      "40783454",
+      "39353179",
+      "39340152",
+      "39074364",
+      "38707546",
+      "38663546",
+      "38363137",
+      "38351219",
+      "37710047",
+      "37459524",
+      "37395034",
+      "36610574",
+      "36148743",
+      "36030416",
+      "34767950",
+      "34587504",
+      "33968988",
+      "33623120",
+      "33293101",
+      "33248339",
+      "33147371",
+      "32929427",
+      "32015543",
+      "31936081",
+      "31914313",
+      "30990694",
+      "29812937",
+      "29735687",
+      "29168376",
+      "29076532",
+      "28516008",
+      "28103592",
+      "27874109",
+      "27819658",
+      "26980593",
+      "26889708",
+      "26789759",
+      "26575776",
+      "26451841",
+      "25764013",
+      "25400522",
+      "24918971",
+      "24692552",
+      "23341755",
+      "23026637",
+      "22984159",
+      "22455930",
+      "21500218",
+      "21156127",
+      "20536262",
+      "20483348",
+      "19583332",
+      "19514729",
+      "17212484",
+      "17073440",
+      "16392929",
+      "15880774",
+      "15755151",
+      "15093836",
+      "14979710",
+      "12946363",
+      "12912846",
+      "2690953",
+      "1970994",
+      "1606151"
+    ],
+    "similar": [
+      "41808404",
+      "32929427",
+      "30840442",
+      "39353179",
+      "28834051",
+      "25207671",
+      "39475380",
+      "31617035",
+      "40011319",
+      "32585849",
+      "42000821",
+      "23912807",
+      "30204435",
+      "36131545",
+      "40188464",
+      "40907012",
+      "27844185",
+      "41706900",
+      "29808548",
+      "41053403",
+      "28111343",
+      "33623120",
+      "37646172",
+      "25600810",
+      "33945530",
+      "42299722",
+      "29104984",
+      "38018910",
+      "28355271",
+      "31960224",
+      "30471706",
+      "38830621",
+      "39340152",
+      "27112095",
+      "39736203",
+      "33444020",
+      "14636053",
+      "29790640",
+      "25816772",
+      "40783454",
+      "42014948",
+      "26030674",
+      "33269926",
+      "28805390",
+      "33574233",
+      "42129207",
+      "28095698",
+      "35053175",
+      "30865820",
+      "27430223",
+      "38275091",
+      "42418518",
+      "27558720",
+      "30527335",
+      "40068541",
+      "34201262",
+      "28734076",
+      "34032235",
+      "32933064",
+      "37093489",
+      "38343324",
+      "30414042",
+      "33779503",
+      "35129612",
+      "41703747",
+      "31626641",
+      "27727496",
+      "36148743",
+      "28799215",
+      "24052412",
+      "38116756",
+      "26453204",
+      "31259246",
+      "42057422",
+      "27586017",
+      "24656082",
+      "31613621",
+      "25941036",
+      "31552948",
+      "21819149",
+      "12596268",
+      "41073429",
+      "33030907",
+      "29492731",
+      "29490247",
+      "33926076",
+      "29157493",
+      "30372613",
+      "24739176",
+      "36084124",
+      "24120537",
+      "21574558",
+      "36774359",
+      "23818175",
+      "24763499",
+      "41851975",
+      "26735936",
+      "30471686",
+      "39555784",
+      "32786705"
+    ],
+    "review": [
+      "41808404",
+      "30840442",
+      "31617035",
+      "42014948",
+      "35053175",
+      "40068541",
+      "35129612",
+      "36148743",
+      "24656082"
+    ],
+    "pmc": [
+      "13351908"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(26)00181-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41808404/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

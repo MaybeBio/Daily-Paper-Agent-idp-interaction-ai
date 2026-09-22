@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2604.08316v2",
+  "title": "Active Transport as a Mechanism of Microphase Selection in Biomolecular Condensates",
+  "authors": "Le Qiao; Peter Gispert; Lukas S. Stelzl; Friederike Schmid",
+  "journal": "",
+  "published_date": "2026-04-09",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过扩散-输运模型和模拟研究马达蛋白主动运输对凝聚体微相分离尺寸的调控机制，虽对象为相分离凝聚体且涉及机制建模，但未聚焦无序蛋白PPI，且方法为连续模型而非AI/物理模拟，故为中档。",
+  "abstract": "The size and organization of biomolecular condensates formed by liquid-liquid phase separation (LLPS) are set by multiple cellular mechanisms that are not yet fully understood. Here we identify a transport-driven mechanism: stochastic binding of phase-separating proteins to cytoskeletal motor proteins, followed by active redistribution along filament networks, generates an effective long-range repulsion that arrests coarsening and selects a finite condensate size. A minimal diffusion-transport model, analyzed by linear stability theory and three-dimensional simulations, reveals a transition from macroscopic to microphase separation at remarkably low binding/release fractions, corresponding to minute motor-bound populations. Tuning motor binding rates $b$ or transport velocities enables sublinear control of condensate sizes ($L \\sim b^{-1/4}$) from a few hundred nanometres up to the micron scale. The selected length scale is robust to the intrinsic shot noise of the binding--release reactions. In anisotropic cytoskeletal environments, transport asymmetry drives morphological transitions from spherical to cylindrical condensates, independently of the thermodynamic parameters. This mechanism provides a versatile, spatiotemporally programmable route to condensate organization and informs the design of synthetic active emulsions with tunable architectures.",
+  "abstract_zh": "由液-液相分离（liquid-liquid phase separation, LLPS）形成的生物分子凝聚体的大小和组织由多种尚未完全理解的细胞机制决定。在此，我们识别出一种运输驱动的机制：相分离蛋白与细胞骨架运动蛋白的随机结合，随后沿丝状网络进行主动再分布，产生一种有效的长程排斥力，该排斥力阻止粗化并选择有限的凝聚体尺寸。一个最小扩散-运输模型，通过线性稳定性理论和三维模拟分析，揭示了在极低的结合/释放比例下从宏观相分离到微相分离的转变，这对应于微小的运动蛋白结合群体。调节运动蛋白结合速率$b$或运输速度可实现凝聚体尺寸的亚线性控制（$L \\sim b^{-1/4}$），范围从几百纳米到微米尺度。所选长度尺度对结合-释放反应的固有散粒噪声具有鲁棒性。在异向细胞骨架环境中，运输不对称性驱动从球形到圆柱形凝聚体的形态转变，且独立于热力学参数。该机制为凝聚体组织提供了一条多功能的、时空可编程的路径，并为设计具有可调结构的合成活性乳液提供了信息。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2604.08316v2",
+  "source_url": "https://arxiv.org/abs/2604.08316v2",
+  "paper_page_path": "papers/arxiv/2604.08316v2/index.html"
+}

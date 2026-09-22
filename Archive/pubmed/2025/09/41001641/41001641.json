@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "41001641",
+    "doi": "10.1021/jacsau.5c00625",
+    "title": "Direct Observation of the Conformational Transitions in Tau and Their Correlation with Phase Behavior."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is now recognized as one of the key mechanisms underlying the formation of membraneless organelles. Typically, condensates formed through LLPS are dynamic and play a crucial role in the spatiotemporal regulation of essential cellular processes. In some cases, however, condensates can undergo an aberrant liquid-to-solid transition, which is now recognized as being related to the onset of cancers and neurodegeneration. The microtubule-associated protein Tau, the aberrant aggregation of which is implicated in neurodegenerative disorders like Alzheimer's and Parkinson's, has been found to undergo LLPS. The Tau condensates formed through LLPS are considered to be intermediate on-pathway precursors of amyloid aggregates. Unlike other known phase-separating proteins (e.g., FUS or TDP-43) that have low-complexity domains (LCDs), Tau is intrinsically disordered. Thus, Tau exhibits a highly flexible structure that can be modulated by changes in environmental changes. The intricate relationship between different conformations of full-length Tau and its phase behavior remains poorly understood. To bridge this gap, here, by employing a combination of single-molecule FRET and molecular dynamics simulations, we demonstrate that Tau undergoes conformational transitions from compact to extended states during LLPS, irrespective of diverse driving forces. Moreover, we show that intramolecular interactions responsible for stabilizing the compact conformations of monomeric Tau correlate with the intermolecular interactions driving the LLPS of Tau, thereby facilitating the formation of dynamic networks. These findings provide crucial mechanistic insights into how the conformational state of Tau governs its propensity for phase separation, shedding light on sequence-encoded structural processes that ultimately drive biological phase separation.",
+    "keywords": [
+      "conformational dynamics",
+      "intrinsically disorder proteins",
+      "liquid-liquid phase separation",
+      "molecular dynamics simulations",
+      "single-molecule FRET"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wen, Jitao",
+        "Tang, Yiming",
+        "Sneideris, Tomas",
+        "Ausserwoger, Hannes",
+        "Hong, Liu",
+        "Knowles, Tuomas P J",
+        "Perrett, Sarah",
+        "Wei, Guanghong",
+        "Wu, Si"
+      ],
+      "short_names": [
+        "Wen J",
+        "Tang Y",
+        "Sneideris T",
+        "Ausserwoger H",
+        "Hong L",
+        "Knowles TPJ",
+        "Perrett S",
+        "Wei G",
+        "Wu S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2976-5547",
+        "ORCID: 0000-0002-7879-0140",
+        "ORCID: 0000-0003-0137-0997",
+        "ORCID: 0000-0001-5814-3328",
+        "ORCID: 0000-0001-7743-8236"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China. RINGGOLD: 53015",
+        "University of the Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China.",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Science (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200433, China. RINGGOLD: 12478",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K. RINGGOLD: 2152",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K. RINGGOLD: 2152",
+        "School of Mathematics, Sun Yat-Sen University, Guangzhou 510275, China. RINGGOLD: 26469",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K. RINGGOLD: 2152",
+        "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China. RINGGOLD: 53015",
+        "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K. RINGGOLD: 2152",
+        "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Science (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200433, China. RINGGOLD: 12478",
+        "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China. RINGGOLD: 53015",
+        "University of the Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wen, Jitao",
+        "short_name": "Wen J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of the Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Yiming",
+        "short_name": "Tang Y",
+        "identifiers": [
+          "0000-0002-2976-5547"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Science (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200433, China."
+        ]
+      },
+      {
+        "full_name": "Sneideris, Tomas",
+        "short_name": "Sneideris T",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K."
+        ]
+      },
+      {
+        "full_name": "Ausserwöger, Hannes",
+        "short_name": "Ausserwöger H",
+        "identifiers": [],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K."
+        ]
+      },
+      {
+        "full_name": "Hong, Liu",
+        "short_name": "Hong L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematics, Sun Yat-Sen University, Guangzhou 510275, China."
+        ]
+      },
+      {
+        "full_name": "Knowles, Tuomas P J",
+        "short_name": "Knowles TPJ",
+        "identifiers": [
+          "0000-0002-7879-0140"
+        ],
+        "affiliations": [
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K."
+        ]
+      },
+      {
+        "full_name": "Perrett, Sarah",
+        "short_name": "Perrett S",
+        "identifiers": [
+          "0000-0003-0137-0997"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "Centre for Misfolding Diseases, Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge CB2 1EW, U.K."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghong",
+        "short_name": "Wei G",
+        "identifiers": [
+          "0000-0001-5814-3328"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, and Key Laboratory for Computational Physical Science (Ministry of Education), Fudan University, 2005 Songhu Road, Yangpu District, Shanghai 200433, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Si",
+        "short_name": "Wu S",
+        "identifiers": [
+          "0000-0001-7743-8236"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Biomacromolecules, Institute of Biophysics, Chinese Academy of Sciences, Beijing 100101, China.",
+          "University of the Chinese Academy of Sciences, 19A Yuquan Road, Shijingshan District, Beijing 100049, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2025 Sep 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/26 06:31",
+    "fetched_at": "2026-09-17 20:24:10"
+  },
+  "links": {
+    "cites": [
+      "41409210"
+    ],
+    "refs": [
+      "39014245",
+      "37988476",
+      "37957147",
+      "37853696",
+      "37815389",
+      "37468629",
+      "37134270",
+      "36750251",
+      "36690068",
+      "36543777",
+      "36537242",
+      "36524527",
+      "36513655",
+      "36251053",
+      "36115020",
+      "35260870",
+      "35108264",
+      "34916619",
+      "34778381",
+      "34716273",
+      "34374536",
+      "34230650",
+      "33661634",
+      "33597515",
+      "33279579",
+      "33264400",
+      "33262278",
+      "33078839",
+      "33076213",
+      "32696370",
+      "32548680",
+      "32499559",
+      "32312191",
+      "32302572",
+      "32229582",
+      "32207466",
+      "32201713",
+      "32169484",
+      "32097582",
+      "32004090",
+      "31783713",
+      "31270472",
+      "31260322",
+      "31139718",
+      "31097543",
+      "30950394",
+      "30217894",
+      "29734651",
+      "29602697",
+      "29472250",
+      "29424691",
+      "29364893",
+      "28819146",
+      "28483149",
+      "28225081",
+      "28076807",
+      "27911791",
+      "26836305",
+      "26835789",
+      "26727894",
+      "26631930",
+      "25375525",
+      "23277677",
+      "22998648",
+      "16475817",
+      "11437366",
+      "10027275"
+    ],
+    "similar": [
+      "41001641",
+      "34374536",
+      "40149872",
+      "33930220",
+      "40291420",
+      "37230179",
+      "39342654",
+      "36524527",
+      "36471564",
+      "37075845",
+      "33076213",
+      "36595668",
+      "39421885",
+      "33686854",
+      "33279579",
+      "40516596",
+      "36481455",
+      "39148776",
+      "31097543",
+      "37267850",
+      "40439464",
+      "36841957",
+      "38446061",
+      "40479073",
+      "29511089",
+      "36834792",
+      "34737230",
+      "41294805",
+      "32096047",
+      "38512667",
+      "33955104",
+      "38029395",
+      "38526948",
+      "38960272",
+      "39372747",
+      "40616404",
+      "33260713",
+      "29472250",
+      "36268634",
+      "33982369",
+      "35943083",
+      "41363845",
+      "33549703",
+      "29734651",
+      "35709363",
+      "39612640",
+      "38847095",
+      "35320624",
+      "35998851",
+      "32312191",
+      "41457474",
+      "41206815",
+      "34102212",
+      "30814253",
+      "35142991",
+      "34575888",
+      "35980344",
+      "36894559",
+      "37604044",
+      "37794023",
+      "36350034",
+      "39476948",
+      "31341602",
+      "35181198",
+      "38322526",
+      "36621842",
+      "36310207",
+      "31971365",
+      "34431665",
+      "34522448",
+      "39826709",
+      "39043267",
+      "40723369",
+      "33876938",
+      "31928729",
+      "31941785",
+      "37735186",
+      "35381286",
+      "36310206",
+      "32194074",
+      "36702825",
+      "33515602",
+      "37145883",
+      "39947751",
+      "36575582",
+      "39358890",
+      "32936641",
+      "39987501",
+      "39302099",
+      "38597222",
+      "34206440",
+      "37238596",
+      "36551199",
+      "36115020",
+      "34716273",
+      "39833115",
+      "38997630",
+      "40583215",
+      "33262278",
+      "31911439"
+    ],
+    "review": [
+      "41001641",
+      "33930220",
+      "37230179",
+      "36524527",
+      "37267850",
+      "36834792",
+      "41294805",
+      "32096047",
+      "38029395",
+      "40616404",
+      "33260713",
+      "36268634",
+      "33549703",
+      "39612640",
+      "35998851",
+      "32312191",
+      "41206815",
+      "35142991",
+      "35980344",
+      "37604044",
+      "36350034",
+      "35181198",
+      "34522448",
+      "39043267",
+      "40723369",
+      "31928729",
+      "32194074",
+      "39947751",
+      "38597222",
+      "31911439"
+    ],
+    "pmc": [
+      "12458041"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41001641/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.5c00625",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

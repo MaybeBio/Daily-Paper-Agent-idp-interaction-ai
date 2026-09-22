@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34360648",
+  "title": "Effect of Polyphosphorylation on Behavior of Protein Disordered Regions.",
+  "authors": "Semenyuk, Pavel I",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-08-08",
+  "window": {
+    "start": "2021-08-02",
+    "end": "2021-08-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究用副本交换分子动力学模拟，探究多聚磷酸化修饰对GRP-94无序区域构象行为及与有序域互作的影响，虽未直接建模PPI复合物，但聚焦IDR构象调控与互作机制，方法可迁移。",
+  "abstract": "Proteins interact with many charged biological macromolecules (polyelectrolytes), including inorganic polyphosphates. Recently a new protein post-translational modification, polyphosphorylation, or a covalent binding of polyphosphate chain to lysine, was demonstrated in human and yeast. Herein, we performed the first molecular modeling study of a possible effect of polyphosphorylation on behavior of the modified protein using replica exchange molecular dynamics simulations in atomistic force field with explicit water. Human endoplasmin (GRP-94), a member of heat shock protein 90 family, was selected as a model protein. Intrinsically disordered region in N-terminal domain serving as a charged linker between domains and containing a polyacidic serine and lysine-rich motif, was selected as a potent polyphosphorylation site according to literature data. Polyphosphorylation, depending on exact modification site, has been shown to influence on the disordered loop flexibility and induce its further expanding, as well as induce changes in interaction with ordered part of the molecule. As a result, polyphosphorylation in N-terminal domain might affect interaction of HSP90 with client proteins since these chaperones play a key role in protein folding.",
+  "abstract_zh": "蛋白质与许多带电的生物大分子（聚电解质）相互作用，包括无机多聚磷酸盐。近期，在人类和酵母中证实了一种新的蛋白质翻译后修饰——多聚磷酸化，即多聚磷酸链与赖氨酸的共价结合。在此，我们利用显式水原子力场中的副本交换分子动力学模拟，进行了首次分子建模研究，探讨多聚磷酸化对修饰蛋白行为的可能影响。选择人类内质网蛋白（GRP-94），即热休克蛋白90家族成员，作为模型蛋白。根据文献数据，N端结构域中的内在无序区域被选为潜在的多聚磷酸化位点，该区域作为结构域间的带电连接体，并含有多酸性丝氨酸和赖氨酸富集基序。研究表明，多聚磷酸化根据具体修饰位点的不同，会影响无序环的灵活性并诱导其进一步扩展，同时还会改变与分子有序部分的相互作用。因此，N端结构域中的多聚磷酸化可能影响HSP90与客户蛋白的相互作用，因为这些伴侣蛋白在蛋白质折叠中发挥关键作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34360648/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34360648/",
+  "paper_page_path": "papers/pubmed/34360648/index.html"
+}

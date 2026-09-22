@@ -1,0 +1,406 @@
+{
+  "identity": {
+    "pmid": "40108179",
+    "doi": "10.1038/s41467-025-58060-6",
+    "title": "Multiphasic condensates formed with mono-component of tetrapeptides via phase separation."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates, formed by liquid-liquid phase separation of biomacromolecules, play crucial roles in regulating physiological events in biological systems. While multiphasic condensates have been extensively studied, those derived from a single component of short peptides have not yet been reported. Here, we report the symmetrical core-shell structural biomolecular condensates formed with a programmable tetrapeptide library via phase separation. Our findings reveal that tryptophan is essential for core-shell structure formation due to its strongest homotypical pi-pi interaction, enabling us to modulate the structure of condensates from core-shell to homogeneous by altering the amino acid composition. Molecular dynamics simulation combined with cryogenic focused ion beam scanning electron microscopy and cryogenic electron microscopy show that the inner core of multiphasic tetrapeptide condensates is solid-like, consisting of ordered structures. The core is enveloped by a liquid-like shell, stabilizing the core structure. Furthermore, we demonstrate control over multiphasic condensate formation through intrinsic redox reactions or post-translational modifications, facilitating the rational design of synthetic multiphasic condensates for various applications on demand.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "*Biomolecular Condensates/chemistry",
+      "*Oligopeptides/chemistry",
+      "Cryoelectron Microscopy",
+      "Tryptophan/chemistry",
+      "Microscopy, Electron, Scanning",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Laicheng",
+        "Zhu, Longchen",
+        "Wang, Cong",
+        "Xu, Tengyan",
+        "Wang, Jing",
+        "Zhang, Bin",
+        "Zhang, Xin",
+        "Wang, Huaimin"
+      ],
+      "short_names": [
+        "Zhou L",
+        "Zhu L",
+        "Wang C",
+        "Xu T",
+        "Wang J",
+        "Zhang B",
+        "Zhang X",
+        "Wang H"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5998-3740",
+        "ORCID: 0000-0002-3685-7503",
+        "ORCID: 0000-0001-6686-1645",
+        "ORCID: 0000-0002-8796-0367"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Zhejiang University, Hangzhou, 310058, Zhejiang Province, China.",
+        "Department of Chemistry, School of Science, Westlake University, No. 600 Yungu Road, Hangzhou, 310030, Zhejiang Province, China.",
+        "Institute of Natural Sciences, Westlake Institute for Advanced Study, 18 Shilongshan Road, Hangzhou, 310024, Zhejiang Province, China.",
+        "Department of Chemistry, School of Science, Westlake University, No. 600 Yungu Road, Hangzhou, 310030, Zhejiang Province, China.",
+        "Institute of Natural Sciences, Westlake Institute for Advanced Study, 18 Shilongshan Road, Hangzhou, 310024, Zhejiang Province, China.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA.",
+        "Department of Chemistry, School of Science, Westlake University, No. 600 Yungu Road, Hangzhou, 310030, Zhejiang Province, China.",
+        "Institute of Natural Sciences, Westlake Institute for Advanced Study, 18 Shilongshan Road, Hangzhou, 310024, Zhejiang Province, China.",
+        "Department of Chemistry, School of Science, Westlake University, No. 600 Yungu Road, Hangzhou, 310030, Zhejiang Province, China.",
+        "Institute of Natural Sciences, Westlake Institute for Advanced Study, 18 Shilongshan Road, Hangzhou, 310024, Zhejiang Province, China.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA. binz@mit.edu.",
+        "Department of Chemistry, School of Science, Westlake University, No. 600 Yungu Road, Hangzhou, 310030, Zhejiang Province, China. zhangxin@westlake.edu.cn.",
+        "Institute of Natural Sciences, Westlake Institute for Advanced Study, 18 Shilongshan Road, Hangzhou, 310024, Zhejiang Province, China. zhangxin@westlake.edu.cn.",
+        "Research Center for the Industries of the Future, Westlake University, No. 600 Dunyu Road, Sandun Town, Xihu District, Hangzhou, 310030, Zhejiang Province, China. zhangxin@westlake.edu.cn.",
+        "Department of Chemistry, School of Science, Westlake University, No. 600 Yungu Road, Hangzhou, 310030, Zhejiang Province, China. wanghuaimin@westlake.edu.cn.",
+        "Institute of Natural Sciences, Westlake Institute for Advanced Study, 18 Shilongshan Road, Hangzhou, 310024, Zhejiang Province, China. wanghuaimin@westlake.edu.cn.",
+        "Research Center for the Industries of the Future, Westlake University, No. 600 Dunyu Road, Sandun Town, Xihu District, Hangzhou, 310030, Zhejiang Province, China. wanghuaimin@westlake.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Laicheng",
+        "short_name": "Zhou L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Zhejiang University, Hangzhou, 310058, Zhejiang Province, China.",
+          "Department of Chemistry, School of Science, Westlake University, No. 600 Yungu Road, Hangzhou, 310030, Zhejiang Province, China.",
+          "Institute of Natural Sciences, Westlake Institute for Advanced Study, 18 Shilongshan Road, Hangzhou, 310024, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Longchen",
+        "short_name": "Zhu L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, School of Science, Westlake University, No. 600 Yungu Road, Hangzhou, 310030, Zhejiang Province, China.",
+          "Institute of Natural Sciences, Westlake Institute for Advanced Study, 18 Shilongshan Road, Hangzhou, 310024, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Cong",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0000-0001-5998-3740"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Tengyan",
+        "short_name": "Xu T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, School of Science, Westlake University, No. 600 Yungu Road, Hangzhou, 310030, Zhejiang Province, China.",
+          "Institute of Natural Sciences, Westlake Institute for Advanced Study, 18 Shilongshan Road, Hangzhou, 310024, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Jing",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, School of Science, Westlake University, No. 600 Yungu Road, Hangzhou, 310030, Zhejiang Province, China.",
+          "Institute of Natural Sciences, Westlake Institute for Advanced Study, 18 Shilongshan Road, Hangzhou, 310024, Zhejiang Province, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bin",
+        "short_name": "Zhang B",
+        "identifiers": [
+          "0000-0002-3685-7503"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, MA, 02139, USA. binz@mit.edu."
+        ]
+      },
+      {
+        "full_name": "Zhang, Xin",
+        "short_name": "Zhang X",
+        "identifiers": [
+          "0000-0001-6686-1645"
+        ],
+        "affiliations": [
+          "Department of Chemistry, School of Science, Westlake University, No. 600 Yungu Road, Hangzhou, 310030, Zhejiang Province, China. zhangxin@westlake.edu.cn.",
+          "Institute of Natural Sciences, Westlake Institute for Advanced Study, 18 Shilongshan Road, Hangzhou, 310024, Zhejiang Province, China. zhangxin@westlake.edu.cn.",
+          "Research Center for the Industries of the Future, Westlake University, No. 600 Dunyu Road, Sandun Town, Xihu District, Hangzhou, 310030, Zhejiang Province, China. zhangxin@westlake.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Huaimin",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0000-0002-8796-0367"
+        ],
+        "affiliations": [
+          "Department of Chemistry, School of Science, Westlake University, No. 600 Yungu Road, Hangzhou, 310030, Zhejiang Province, China. wanghuaimin@westlake.edu.cn.",
+          "Institute of Natural Sciences, Westlake Institute for Advanced Study, 18 Shilongshan Road, Hangzhou, 310024, Zhejiang Province, China. wanghuaimin@westlake.edu.cn.",
+          "Research Center for the Industries of the Future, Westlake University, No. 600 Dunyu Road, Sandun Town, Xihu District, Hangzhou, 310030, Zhejiang Province, China. wanghuaimin@westlake.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Mar 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/20 06:24",
+    "fetched_at": "2026-09-21 16:45:24"
+  },
+  "links": {
+    "cites": [
+      "42446225",
+      "42446172",
+      "42358691",
+      "42307228",
+      "42092746",
+      "42020389",
+      "42018990",
+      "41964199",
+      "41703712",
+      "41497175",
+      "41469832",
+      "41137856"
+    ],
+    "refs": [
+      "38169470",
+      "37973891",
+      "37932412",
+      "37932411",
+      "37391398",
+      "37065433",
+      "36881934",
+      "36702825",
+      "35946870",
+      "35943765",
+      "35868012",
+      "35773489",
+      "35771920",
+      "35761089",
+      "35179885",
+      "35115657",
+      "34931046",
+      "34645986",
+      "33957146",
+      "33782607",
+      "33616129",
+      "33558506",
+      "33510441",
+      "32873929",
+      "32776017",
+      "32029630",
+      "31958956",
+      "31906602",
+      "31784535",
+      "30682370",
+      "30452246",
+      "29961577",
+      "29323488",
+      "28935776",
+      "28596363",
+      "28537592",
+      "28225081",
+      "27997165",
+      "27995915",
+      "27819658",
+      "27212236",
+      "26791895",
+      "26777405",
+      "26580045",
+      "25635155",
+      "25288112",
+      "24889800",
+      "23073077",
+      "21401045",
+      "19817473",
+      "19603484",
+      "19345193",
+      "17692815",
+      "12949821",
+      "12405854",
+      "8539615",
+      "241390"
+    ],
+    "similar": [
+      "40108179",
+      "34916288",
+      "40327693",
+      "35727989",
+      "39034215",
+      "37408305",
+      "39075031",
+      "39178343",
+      "39591652",
+      "39987501",
+      "39856105",
+      "38722189",
+      "37019112",
+      "37772963",
+      "39670461",
+      "39826709",
+      "36227474",
+      "39964249",
+      "37549257",
+      "40168179",
+      "39171763",
+      "40098319",
+      "36883003",
+      "37925283",
+      "38383656",
+      "34767801",
+      "39271032",
+      "39320949",
+      "34090478",
+      "40164149",
+      "40291420",
+      "36595668",
+      "39636939",
+      "38804888",
+      "40069227",
+      "34129784",
+      "38781377",
+      "33558506",
+      "39196681",
+      "36191226",
+      "38999934",
+      "39227569",
+      "36847235",
+      "36150962",
+      "39947751",
+      "40112030",
+      "39042834",
+      "36702825",
+      "37470705",
+      "39121161",
+      "37194953",
+      "37252985",
+      "38588907",
+      "39661689",
+      "35001622",
+      "40136009",
+      "39366355",
+      "37162152",
+      "39575859",
+      "38499848",
+      "34785657",
+      "40172489",
+      "38884477",
+      "39070659",
+      "38915678",
+      "39541973",
+      "37721444",
+      "40184654",
+      "38593269",
+      "39804953",
+      "39929988",
+      "38649740",
+      "34772786",
+      "39400294",
+      "40028898",
+      "39166772",
+      "36657879",
+      "36690068",
+      "38885177",
+      "38798623",
+      "37468629",
+      "37293933",
+      "34862761",
+      "38987300",
+      "38429263",
+      "38348795",
+      "39578406",
+      "40229261",
+      "37770446",
+      "38251748",
+      "37782826",
+      "35179885",
+      "38832749",
+      "39620362",
+      "39116032",
+      "39356108",
+      "36439121",
+      "33864415",
+      "36071192",
+      "35597639"
+    ],
+    "review": [
+      "40108179",
+      "39034215",
+      "39178343",
+      "37772963",
+      "39964249",
+      "37925283",
+      "34767801",
+      "39271032",
+      "34129784",
+      "36150962",
+      "39947751",
+      "38588907",
+      "39366355",
+      "39575859",
+      "40172489",
+      "34772786",
+      "38885177",
+      "38348795",
+      "35179885",
+      "36439121"
+    ],
+    "pmc": [
+      "11923152"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-58060-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40108179/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

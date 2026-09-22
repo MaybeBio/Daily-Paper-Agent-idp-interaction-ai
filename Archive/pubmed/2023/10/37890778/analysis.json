@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37890778",
+  "title": "\"Boundary residues\" between the folded RNA recognition motif and disordered RGG domains are critical for FUS-RNA binding.",
+  "authors": "Balasubramanian, Sangeetha; Maharana, Shovamayee; Srivastava, Anand",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2023-10-28",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过分子模拟揭示FUS蛋白中折叠RRM与无序RGG结构域协同结合RNA的机制，聚焦边界残基在无序-有序界面互作中的关键作用，与无序蛋白介导的PPI机制建模高度相关。",
+  "abstract": "Fused in sarcoma (FUS) is an abundant RNA-binding protein, which drives phase separation of cellular condensates and plays multiple roles in RNA regulation. The RNA-binding ability of FUS protein is crucial to its cellular function. Here, our molecular simulation study on the FUS-RNA complex provides atomic resolution insights into the observations from biochemical studies and also illuminates our understanding of molecular driving forces that mediate the structure, stability, and interaction of the RNA recognition motif (RRM) and RGG domains of FUS with a stem-loop junction RNA. We observe clear cooperativity and division of labor among the ordered (RRM) and disordered domains (RGG1 and RGG2) of FUS that leads to an organized and tighter RNA binding. Irrespective of the length of RGG2, the RGG2-RNA interaction is confined to the stem-loop junction and the proximal stem regions. On the other hand, the RGG1 interactions are primarily with the longer RNA stem. We find that the C terminus of RRM, which make up the \"boundary residues\" that connect the folded RRM with the long disordered RGG2 stretch of the protein, plays a critical role in FUS-RNA binding. Our study provides high-resolution molecular insights into the FUS-RNA interactions and forms the basis for understanding the molecular origins of full-length FUS interaction with RNA.",
+  "abstract_zh": "肉瘤融合蛋白（FUS）是一种丰富的RNA结合蛋白，驱动细胞凝聚体的相分离，并在RNA调控中发挥多重作用。FUS蛋白的RNA结合能力对其细胞功能至关重要。在此，我们对FUS-RNA复合物的分子动力学模拟研究，为生化研究的观察结果提供了原子分辨率层面的见解，并阐明了介导FUS的RNA识别基序（RRM）和RGG结构域与茎环连接RNA相互作用的结构、稳定性及分子驱动力的理解。我们观察到FUS的有序结构域（RRM）和无序结构域（RGG1和RGG2）之间存在明显的协同性和分工，这导致更有序且更紧密的RNA结合。无论RGG2的长度如何，RGG2-RNA相互作用均局限于茎环连接及近端茎区。另一方面，RGG1的相互作用主要发生在较长的RNA茎上。我们发现，RRM的C末端构成了连接折叠RRM与蛋白质长无序RGG2延伸段的“边界残基”，在FUS-RNA结合中发挥关键作用。我们的研究为FUS-RNA相互作用提供了高分辨率的分子见解，并为理解全长FUS与RNA相互作用的分子起源奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37890778/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37890778/",
+  "paper_page_path": "papers/pubmed/37890778/index.html"
+}

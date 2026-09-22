@@ -1,0 +1,570 @@
+{
+  "identity": {
+    "pmid": "40273912",
+    "doi": "10.1016/j.cell.2025.03.046",
+    "title": "Encoding and decoding selectivity and promiscuity in the human chemokine-GPCR interaction network."
+  },
+  "content": {
+    "abstract": "In humans, selective and promiscuous interactions between 46 secreted chemokine ligands and 23 cell surface chemokine receptors of the G-protein-coupled receptor (GPCR) family form a complex network to coordinate cell migration. While chemokines and their GPCRs each share common structural scaffolds, the molecular principles driving selectivity and promiscuity remain elusive. Here, we identify conserved, semi-conserved, and variable determinants (i.e., recognition elements) that are encoded and decoded by chemokines and their receptors to mediate interactions. Selectivity and promiscuity emerge from an ensemble of generalized (\"public/conserved\") and specific (\"private/variable\") determinants distributed among structured and unstructured protein regions, with ligands and receptors recognizing these determinants combinatorially. We employ these principles to engineer a viral chemokine with altered GPCR coupling preferences and provide a web resource to facilitate sequence-structure-function studies and protein design efforts for developing immuno-therapeutics and cell therapies.",
+    "keywords": [
+      "GPCR",
+      "chemokine",
+      "chemotaxis",
+      "data science",
+      "machine learning",
+      "polymorphism",
+      "protein-protein interaction",
+      "selectivity determinants",
+      "short linear motif",
+      "unstructured protein"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Receptors, G-Protein-Coupled/metabolism/chemistry",
+      "*Chemokines/metabolism/chemistry",
+      "Ligands",
+      "*Receptors, Chemokine/metabolism/chemistry",
+      "Amino Acid Sequence",
+      "Models, Molecular",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kleist, Andrew B",
+        "Szpakowska, Martyna",
+        "Talbot, Lindsay J",
+        "Slodkowicz, Greg",
+        "Malinverni, Duccio",
+        "Thomas, Monica A",
+        "Crawford, Kyler S",
+        "McGrail, Daniel J",
+        "Dishman, Acacia F",
+        "Wedemeyer, Michael J",
+        "Sluter, Madison",
+        "Yi, S Stephen",
+        "Sahni, Nidhi",
+        "Peterson, Francis C",
+        "Chevigne, Andy",
+        "Volkman, Brian F",
+        "Babu, M Madan"
+      ],
+      "short_names": [
+        "Kleist AB",
+        "Szpakowska M",
+        "Talbot LJ",
+        "Slodkowicz G",
+        "Malinverni D",
+        "Thomas MA",
+        "Crawford KS",
+        "McGrail DJ",
+        "Dishman AF",
+        "Wedemeyer MJ",
+        "Sluter M",
+        "Yi SS",
+        "Sahni N",
+        "Peterson FC",
+        "Chevigne A",
+        "Volkman BF",
+        "Babu MM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA; Medical Scientist Training Program, Medical College of Wisconsin, Milwaukee, WI, USA; MRC Laboratory of Molecular Biology, Cambridge, UK. Electronic address: andrew.b.kleist@gmail.com.",
+        "Immuno-Pharmacology and Interactomics, Department of Infection and Immunity, Luxembourg Institute of Health, Esch-sur-Alzette, Luxembourg.",
+        "Department of Bone Marrow Transplantation and Cellular Therapy, St. Jude Children's Research Hospital, Memphis, TN, USA; Department of Surgery, St. Jude Children's Research Hospital, Memphis, TN, USA.",
+        "MRC Laboratory of Molecular Biology, Cambridge, UK.",
+        "MRC Laboratory of Molecular Biology, Cambridge, UK; Center of Excellence for Data-Driven Discovery, Department of Structural Biology, St Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA; Medical Scientist Training Program, Medical College of Wisconsin, Milwaukee, WI, USA.",
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA; Medical Scientist Training Program, Medical College of Wisconsin, Milwaukee, WI, USA.",
+        "Department of Systems Biology, University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA; Medical Scientist Training Program, Medical College of Wisconsin, Milwaukee, WI, USA.",
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA.",
+        "Center of Excellence for Data-Driven Discovery, Department of Structural Biology, St Jude Children's Research Hospital, Memphis, TN, USA.",
+        "Department of Oncology, Dell Medical School, University of Texas at Austin, Austin, TX, USA; Department of Biomedical Engineering, Cockrell School of Engineering, University of Texas at Austin, Austin, TX, USA.",
+        "Department of Bioinformatics and Computational Biology, University of Texas MD Anderson Cancer Center, Houston, TX, USA; Program in Quantitative and Computational Biosciences, Baylor College of Medicine, Houston, TX, USA; Department of Epigenetics & Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX, USA.",
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA; Protein Foundry, LLC, West Allis, WI, USA; Program in Chemical Biology, Medical College of Wisconsin, Milwaukee, WI, USA; Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, WI, USA.",
+        "Immuno-Pharmacology and Interactomics, Department of Infection and Immunity, Luxembourg Institute of Health, Esch-sur-Alzette, Luxembourg.",
+        "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA; Protein Foundry, LLC, West Allis, WI, USA; Program in Chemical Biology, Medical College of Wisconsin, Milwaukee, WI, USA; Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, WI, USA. Electronic address: bvolkman@mcw.edu.",
+        "MRC Laboratory of Molecular Biology, Cambridge, UK; Center of Excellence for Data-Driven Discovery, Department of Structural Biology, St Jude Children's Research Hospital, Memphis, TN, USA. Electronic address: madan.babu@stjude.org."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kleist, Andrew B",
+        "short_name": "Kleist AB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA; Medical Scientist Training Program, Medical College of Wisconsin, Milwaukee, WI, USA; MRC Laboratory of Molecular Biology, Cambridge, UK. Electronic address: andrew.b.kleist@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Szpakowska, Martyna",
+        "short_name": "Szpakowska M",
+        "identifiers": [],
+        "affiliations": [
+          "Immuno-Pharmacology and Interactomics, Department of Infection and Immunity, Luxembourg Institute of Health, Esch-sur-Alzette, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "Talbot, Lindsay J",
+        "short_name": "Talbot LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bone Marrow Transplantation and Cellular Therapy, St. Jude Children's Research Hospital, Memphis, TN, USA; Department of Surgery, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Slodkowicz, Greg",
+        "short_name": "Slodkowicz G",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Malinverni, Duccio",
+        "short_name": "Malinverni D",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Cambridge, UK; Center of Excellence for Data-Driven Discovery, Department of Structural Biology, St Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Thomas, Monica A",
+        "short_name": "Thomas MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA; Medical Scientist Training Program, Medical College of Wisconsin, Milwaukee, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Crawford, Kyler S",
+        "short_name": "Crawford KS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA; Medical Scientist Training Program, Medical College of Wisconsin, Milwaukee, WI, USA."
+        ]
+      },
+      {
+        "full_name": "McGrail, Daniel J",
+        "short_name": "McGrail DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Systems Biology, University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Dishman, Acacia F",
+        "short_name": "Dishman AF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA; Medical Scientist Training Program, Medical College of Wisconsin, Milwaukee, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Wedemeyer, Michael J",
+        "short_name": "Wedemeyer MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Sluter, Madison",
+        "short_name": "Sluter M",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Excellence for Data-Driven Discovery, Department of Structural Biology, St Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      },
+      {
+        "full_name": "Yi, S Stephen",
+        "short_name": "Yi SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Oncology, Dell Medical School, University of Texas at Austin, Austin, TX, USA; Department of Biomedical Engineering, Cockrell School of Engineering, University of Texas at Austin, Austin, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Sahni, Nidhi",
+        "short_name": "Sahni N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Computational Biology, University of Texas MD Anderson Cancer Center, Houston, TX, USA; Program in Quantitative and Computational Biosciences, Baylor College of Medicine, Houston, TX, USA; Department of Epigenetics & Molecular Carcinogenesis, University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Peterson, Francis C",
+        "short_name": "Peterson FC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA; Protein Foundry, LLC, West Allis, WI, USA; Program in Chemical Biology, Medical College of Wisconsin, Milwaukee, WI, USA; Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, WI, USA."
+        ]
+      },
+      {
+        "full_name": "Chevigné, Andy",
+        "short_name": "Chevigné A",
+        "identifiers": [],
+        "affiliations": [
+          "Immuno-Pharmacology and Interactomics, Department of Infection and Immunity, Luxembourg Institute of Health, Esch-sur-Alzette, Luxembourg."
+        ]
+      },
+      {
+        "full_name": "Volkman, Brian F",
+        "short_name": "Volkman BF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Medical College of Wisconsin, Milwaukee, WI, USA; Protein Foundry, LLC, West Allis, WI, USA; Program in Chemical Biology, Medical College of Wisconsin, Milwaukee, WI, USA; Mellowes Center for Genomic Sciences and Precision Medicine, Medical College of Wisconsin, Milwaukee, WI, USA. Electronic address: bvolkman@mcw.edu."
+        ]
+      },
+      {
+        "full_name": "Babu, M Madan",
+        "short_name": "Babu MM",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Cambridge, UK; Center of Excellence for Data-Driven Discovery, Department of Structural Biology, St Jude Children's Research Hospital, Memphis, TN, USA. Electronic address: madan.babu@stjude.org."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2025 Jun 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/25 01:20",
+    "fetched_at": "2026-09-21 18:15:44"
+  },
+  "links": {
+    "cites": [
+      "42622342",
+      "42609047",
+      "42369400",
+      "41542156",
+      "41540843",
+      "41080585"
+    ],
+    "refs": [
+      "39978339",
+      "39565315",
+      "39378089",
+      "39313635",
+      "39133844",
+      "39093700",
+      "39089252",
+      "38177682",
+      "38040762",
+      "38012179",
+      "37433790",
+      "37336887",
+      "37208363",
+      "37006247",
+      "36879067",
+      "36423287",
+      "35857540",
+      "35857509",
+      "35794482",
+      "35767622",
+      "35570218",
+      "35513723",
+      "35492880",
+      "35102167",
+      "34949837",
+      "34404752",
+      "34230484",
+      "34134983",
+      "33860204",
+      "33307546",
+      "33270228",
+      "32788219",
+      "32610344",
+      "32558485",
+      "32541785",
+      "32404905",
+      "32271748",
+      "32103204",
+      "31848460",
+      "31171722",
+      "30429548",
+      "30395287",
+      "30357350",
+      "30349118",
+      "30165356",
+      "29913161",
+      "29882741",
+      "29875152",
+      "29872229",
+      "29678950",
+      "29596782",
+      "29530506",
+      "29335563",
+      "29272550",
+      "29155946",
+      "29109267",
+      "29055040",
+      "29036507",
+      "28970045",
+      "28694053",
+      "28636951",
+      "28489817",
+      "28426660",
+      "28328290",
+      "28263321",
+      "28187291",
+      "28178200",
+      "27899575",
+      "27525504",
+      "27317745",
+      "27226537",
+      "27106080",
+      "26921961",
+      "26701133",
+      "26569370",
+      "26568635",
+      "26456849",
+      "26391892",
+      "26379229",
+      "26147082",
+      "26047845",
+      "26017770",
+      "25969393",
+      "25745166",
+      "25691825",
+      "25612609",
+      "25541108",
+      "25411203",
+      "25399418",
+      "25207816",
+      "25185155",
+      "25038412",
+      "25002861",
+      "24888271",
+      "24882001",
+      "24773235",
+      "24655300",
+      "24319779",
+      "24145037",
+      "23802178",
+      "23645836",
+      "23148226",
+      "22633458",
+      "22123959",
+      "21988835",
+      "21654748",
+      "21113020",
+      "20929726",
+      "20601685",
+      "19151095",
+      "19029536",
+      "18772890",
+      "18722135",
+      "17724466",
+      "17002593",
+      "16940322",
+      "16736488",
+      "16568088",
+      "15720550",
+      "15034147",
+      "14597658",
+      "12692554",
+      "12511874",
+      "12139929",
+      "12112692",
+      "11242036",
+      "10975800",
+      "10620340",
+      "9689100",
+      "9634238",
+      "9634237",
+      "9129009",
+      "8757135",
+      "8649511",
+      "8629022",
+      "8036519"
+    ],
+    "similar": [
+      "40273912",
+      "39978339",
+      "14573861",
+      "23432589",
+      "33548230",
+      "25039782",
+      "31481523",
+      "29882741",
+      "27459124",
+      "24268109",
+      "25175995",
+      "31506383",
+      "41275296",
+      "28178200",
+      "38856028",
+      "16762304",
+      "30616825",
+      "16708997",
+      "21146524",
+      "24680433",
+      "18537609",
+      "17024562",
+      "10983246",
+      "35750237",
+      "9987599",
+      "10531332",
+      "33249087",
+      "21600920",
+      "31605402",
+      "26921946",
+      "39378089",
+      "27832483",
+      "24644289",
+      "24116930",
+      "27271913",
+      "31924303",
+      "16220973",
+      "25745166",
+      "28267793",
+      "34241650",
+      "28489817",
+      "23713847",
+      "10912618",
+      "19480923",
+      "24931199",
+      "20041127",
+      "15251227",
+      "35258997",
+      "25708536",
+      "38735478",
+      "39616240",
+      "31075355",
+      "20373092",
+      "26921939",
+      "15361546",
+      "14522997",
+      "31965639",
+      "14761190",
+      "15035637",
+      "32114437",
+      "10399063",
+      "16709180",
+      "11390394",
+      "25981303",
+      "22935450",
+      "21223963",
+      "16997914",
+      "24328091",
+      "11358512",
+      "31125224",
+      "10860738",
+      "24145037",
+      "19828377",
+      "29637711",
+      "11031271",
+      "26701133",
+      "15100254",
+      "38151714",
+      "15546882",
+      "19258523",
+      "40076783",
+      "23629648",
+      "19279397",
+      "28325822",
+      "21969095",
+      "19594424",
+      "27106080",
+      "24639348",
+      "24734242",
+      "16840324",
+      "12417585",
+      "15207903",
+      "28165741",
+      "31138704",
+      "35011444",
+      "11290797",
+      "41651015",
+      "39565315",
+      "27543332",
+      "24016604"
+    ],
+    "review": [
+      "40273912",
+      "23432589",
+      "25039782",
+      "27459124",
+      "25175995",
+      "28178200",
+      "38856028",
+      "16708997",
+      "21146524",
+      "24680433",
+      "18537609",
+      "17024562",
+      "10983246",
+      "35750237",
+      "9987599",
+      "21600920",
+      "31605402",
+      "26921946",
+      "27832483",
+      "24116930",
+      "10912618",
+      "24931199",
+      "15251227",
+      "25708536",
+      "31075355",
+      "20373092",
+      "26921939",
+      "31965639",
+      "32114437",
+      "10399063",
+      "16709180",
+      "25981303",
+      "22935450",
+      "21223963",
+      "19828377",
+      "29637711",
+      "26701133",
+      "38151714",
+      "19594424",
+      "27106080",
+      "24734242",
+      "15207903",
+      "28165741",
+      "35011444",
+      "41651015"
+    ],
+    "pmc": [
+      "12435897"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(25)00398-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40273912/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

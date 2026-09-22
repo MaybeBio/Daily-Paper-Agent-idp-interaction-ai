@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42589701",
+  "title": "SASH1 as a Context-Dependent Multi-Docking Scaffold Linking Receptor Signaling to Cytoskeletal Dynamics.",
+  "authors": "Clements, Christopher M; Roney, Md Saiful Islam; Shellman, Yiqun G",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2026-08-13",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 6,
+  "one_liner_zh": "综述SASH1作为多结构域支架蛋白，通过其无序SPIDER区域和模块化结构域介导与多种蛋白的互作，提出上下文依赖的多对接支架模型，但缺乏AI或物理模拟方法，机制建模深度有限。",
+  "abstract": "SASH1 (SAM [sterile alpha motif] and SH3 [SRC-homology-3] domain-containing protein 1) is a multidomain scaffold implicated in pigmentation, innate immunity, receptor signaling, cytoskeletal dynamics, vascular biology, and tumor suppression. Although genetic and expression studies link SASH1 dysfunction to diverse diseases, a unifying mechanistic framework has remained elusive. Here, we synthesize current knowledge of SASH1 structure, interaction networks, and biological functions across cell types and disease contexts. SASH1 contains an intrinsically disordered SPIDER (SLy Proteins Associated Disordered Region), an SH3 domain, two SAM domains, and multiple linear motifs; together, these elements mediate interactions with EphA8 (ephrin type-A receptor 8), beta-arrestin 1, TRAF6 (TNF receptor-associated factor 6), CRKL (CRK-like proto-oncogene), IQGAP1 (IQ-motif-containing GTPase-activating protein 1), cortactin, and TNKS2 (tankyrase-2). We propose that SASH1 functions as a context-dependent multi-docking scaffold that organizes signaling architecture. Its modular domains, intrinsically disordered regions, and dual SAM domains enable flexible, multivalent interactions with partners that can be grouped into three functional modules: receptor regulation, intracellular signaling, and cytoskeletal organization. Notably, many SASH1 partners are themselves scaffold or adaptor proteins, allowing integration into pre-existing networks in a hierarchical 'scaffold-of-scaffolds' manner. Through selective partner recruitment, SASH1 links cell-surface receptor inputs to downstream signaling pathways and cytoskeletal remodeling. This model provides a mechanistic framework for how SASH1 drives diverse, cell-type-specific outputs across physiology and disease, while revealing broader principles by which multidomain scaffolds encode cellular behavior.",
+  "abstract_zh": "SASH1（含SAM [无菌α基序] 和SH3 [SRC同源-3] 结构域的蛋白1）是一种多结构域支架蛋白，参与色素沉着、先天免疫、受体信号传导、细胞骨架动力学、血管生物学和肿瘤抑制。尽管遗传和表达研究将SASH1功能障碍与多种疾病相关联，但统一的机制框架仍难以捉摸。在此，我们综合了关于SASH1结构、相互作用网络及其在不同细胞类型和疾病背景下的生物学功能的现有知识。SASH1包含一个内在无序的SPIDER（SLy蛋白相关无序区域）、一个SH3结构域、两个SAM结构域以及多个线性基序；这些元件共同介导与EphA8（肝配蛋白A型受体8）、β-arrestin 1、TRAF6（TNF受体相关因子6）、CRKL（CRK样原癌基因）、IQGAP1（含IQ基序的GTP酶激活蛋白1）、cortactin和TNKS2（端锚聚合酶-2）的相互作用。我们提出SASH1作为一种依赖于上下文的多对接支架蛋白，组织信号传导架构。其模块化结构域、内在无序区域和双SAM结构域使其能够与伙伴蛋白进行灵活的多价相互作用，这些伙伴蛋白可分为三个功能模块：受体调控、细胞内信号传导和细胞骨架组织。值得注意的是，许多SASH1伙伴蛋白本身是支架或适配器蛋白，从而以层级式“支架中的支架”方式整合到预先存在的网络中。通过选择性伙伴招募，SASH1将细胞表面受体输入连接到下游信号通路和细胞骨架重塑。该模型为SASH1如何在生理和疾病中驱动多样化的、细胞类型特异性的输出提供了机制框架，同时揭示了多结构域支架编码细胞行为的更广泛原理。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42589701/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42589701/",
+  "paper_page_path": "papers/pubmed/42589701/index.html"
+}

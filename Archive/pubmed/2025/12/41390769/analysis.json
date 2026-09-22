@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41390769",
+  "title": "The non-catalytic DNA polymerase epsilon subunit is an NPF motif recognition protein.",
+  "authors": "Keskitalo, Salla; Zambo, Boglarka; Malaymar Pinar, Dicle; Tuhkala, Antti; Salokas, Kari; Turunen, Tanja; Deutsch, Norbert; Davey, Norman; Dosztanyi, Zsuzsanna; Varjosalo, Markku; Gogl, Gergo",
+  "journal": "Nature communications",
+  "published_date": "2025-12-14",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究无序蛋白中的NPF短线性基序(SLiM)被POLE2识别介导PPI，结合AlphaFold预测与生化实验揭示结合机制，虽对象非典型IDP但聚焦SLiM介导的互作机制建模，对本课题有启发。",
+  "abstract": "Short linear motifs (SLiMs) in disordered protein regions direct numerous protein-protein interactions, yet most remain uncharacterized. The Asn-Pro-Phe (NPF) motif is a well-known EH-domain ligand implicated in endocytosis, but here we reveal that the non-catalytic subunit of human DNA polymerase epsilon (POLE2) also serves as a general NPF-motif receptor. Using a quantitative \"native holdup\" assay, we find that POLE2 selectively binds diverse NPF-containing peptides, including canonical EH-domain ligands (e.g., SYNJ1) and previously uncharacterized motifs. Biochemical measurements and mutational analyses show that NPF motifs interact with a shallow pocket near the POLE2 C-terminus, and AlphaFold predictions confirm key roles for Y513, E520, and S522 in motif coordination. Proteome-scale affinity screens identify NPF-containing nuclear proteins (e.g., WDHD1, DONSON, TTF2) that bind POLE2 with micromolar affinities, and their motif mutations abolish binding in cell extracts. Although POLE2 primarily tethers the catalytic POLE subunit to replication forks, these results indicate that it can also recruit various NPF-bearing partners involved in replication, DNA repair, and transcription regulation. Notably, NPF motifs optimized for EH-domain binding can still associate with POLE2, highlighting the inherent degeneracy of SLiM-mediated networks. Overall, these findings establish POLE2 as a central hub possibly linking replication with other processes via broad NPF-motif recognition.",
+  "abstract_zh": "无序蛋白区域中的短线性基序（SLiMs）直接介导众多蛋白质-蛋白质相互作用，然而大多数仍未被表征。Asn-Pro-Phe（NPF）基序是已知的EH结构域配体，参与内吞作用，但在此我们揭示人类DNA聚合酶ε的非催化亚基（POLE2）也作为通用的NPF基序受体。利用定量“天然滞留”实验，我们发现POLE2选择性结合多种含NPF的肽段，包括经典的EH结构域配体（如SYNJ1）及先前未表征的基序。生化测量和突变分析表明，NPF基序与POLE2 C末端附近的浅口袋相互作用，AlphaFold预测确认Y513、E520和S522在基序协调中的关键作用。蛋白质组规模的亲和筛选识别出含NPF的核蛋白（如WDHD1、DONSON、TTF2），它们以微摩尔亲和力结合POLE2，且其基序突变在细胞提取物中消除结合。尽管POLE2主要将催化性POLE亚基锚定至复制叉，这些结果表明它还能招募多种参与复制、DNA修复和转录调控的含NPF伙伴。值得注意的是，为EH结构域结合优化的NPF基序仍能与POLE2关联，突显了SLiM介导网络的内在简并性。总体而言，这些发现确立POLE2作为中心枢纽，可能通过广泛的NPF基序识别将复制与其他过程联系起来。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41390769/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41390769/",
+  "paper_page_path": "papers/pubmed/41390769/index.html"
+}

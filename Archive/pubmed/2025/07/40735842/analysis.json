@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40735842",
+  "title": "Impact of crowder size, hydrophobicity, and hydration on the structure of amyloid-beta oligomers.",
+  "authors": "Shivnandi; Nayar, Divya",
+  "journal": "Soft matter",
+  "published_date": "2025-07-30",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用分子动力学模拟研究不同尺寸/疏水性/水化特性的拥挤剂对Aβ(16-22)无序蛋白寡聚体结构稳定性的影响，揭示体积排斥、水化与拥挤剂互作的机制，虽非直接PPI但聚焦IDP寡聚化机制建模，方法为物理模拟，对本课题有较强启发。",
+  "abstract": "It is being increasingly recognized that a comprehensive understanding of protein folding and aggregation requires accounting for the crowded in vivo milieu. Such a complex milieu offers a variety of soft, non-specific interactions along with the crowder volume exclusion effects that can modulate the hydration and protein aggregation processes. A clear understanding of the interplay of these effects is still lacking. Oligomerization of intrinsically disordered proteins (IDPs) forms the early stage nucleation step for fibrillation and this study investigates the structural stability of the dimer and tetramer of Abeta(16-22) IDP in the presence of molecular crowders. Molecular dynamics simulations are employed to examine the role of ethylene glycol (EG), diethylene glycol (DEG) and modified DEG (UCON) with increased hydrophobicity at crowded concentrations on the structural stability of peptide oligomers. The results show that EG destabilizes both the peptide oligomers at low and high packing fractions by enhancing the hydration of peptides at low concentration and by increasing peptide-crowder interactions at high concentration. UCON stabilizes the oligomers at low concentration by reducing peptide hydration, enhancing the peptide inter-strand interactions leading to energetic effects. Conversely, it stabilizes the oligomer structure at high packing fractions via entropic volume exclusion effects, enhancing the peptide hydration due to confinement of water around the peptide. Water molecules are confined in small volume and are observed to be disordered with anomalously slow diffusion. The results provide insights into the interplay of molecular crowders size effects on peptide hydration, regulating the oligomer structure. The findings have implications in understanding the role of crowding in shaping the free energy landscapes of IDPs.",
+  "abstract_zh": "人们日益认识到，全面理解蛋白质折叠和聚集需要考虑到拥挤的体内环境。这种复杂环境提供了多种软性、非特异性相互作用，以及拥挤剂体积排阻效应，这些都可能调节水合作用和蛋白质聚集过程。然而，对这些效应之间相互作用的清晰理解仍然缺乏。 intrinsically disordered proteins (IDPs) 的低聚化形成纤维化的早期成核步骤，本研究探讨了在分子拥挤剂存在下，Abeta(16-22) IDP 的二聚体和四聚体的结构稳定性。采用分子动力学 (molecular dynamics) 模拟，研究乙二醇 (EG)、二乙二醇 (DEG) 和具有增强疏水性的改性 DEG (UCON) 在拥挤浓度下对肽低聚体结构稳定性的作用。结果表明，EG 在低和高填充率下均使肽低聚体失稳，其机制是在低浓度下增强肽的水合作用，而在高浓度下增加肽-拥挤剂相互作用。UCON 在低浓度下通过减少肽水合作用、增强肽链间相互作用而产生能量效应，从而稳定低聚体。相反，在高填充率下，它通过熵性体积排阻效应稳定低聚体结构，由于水在肽周围被限制而增强肽水合作用。水分子被限制在小体积中，观察到无序状态且扩散异常缓慢。这些结果揭示了分子拥挤剂尺寸效应对肽水合作用的调节作用，从而调控低聚体结构。这些发现对于理解拥挤在塑造 IDPs 自由能景观中的作用具有重要意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40735842/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40735842/",
+  "paper_page_path": "papers/pubmed/40735842/index.html"
+}

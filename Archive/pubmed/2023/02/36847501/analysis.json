@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36847501",
+  "title": "Single-Cell Transcriptomics To Define Plasmodium falciparum Stage Transition in the Mosquito Midgut.",
+  "authors": "Mohammed, Mubasher; Dziedziech, Alexis; Sekar, Vaishnovi; Ernest, Medard; Alves E Silva, Thiago Luiz; Balan, Balu; Emami, S Noushin; Biryukova, Inna; Friedlander, Marc R; Jex, Aaron; Jacobs-Lorena, Marcelo; Henriksson, Johan; Vega-Rodriguez, Joel; Ankarklev, Johan",
+  "journal": "Microbiology spectrum",
+  "published_date": "2023-02-28",
+  "window": {
+    "start": "2023-02-27",
+    "end": "2023-03-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用单细胞转录组学分析疟原虫在蚊中肠的阶段转变，并预测上调基因编码无序蛋白(IDP)作为潜在靶点，但仅提及IDP与PPI重要性，无互作机制建模或AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "Malaria inflicts the highest rate of morbidity and mortality among the vector-borne diseases. The dramatic bottleneck of parasite numbers that occurs in the gut of the obligatory mosquito vector provides a promising target for novel control strategies. Using single-cell transcriptomics, we analyzed Plasmodium falciparum development in the mosquito gut, from unfertilized female gametes through the first 20 h after blood feeding, including the zygote and ookinete stages. This study revealed the temporal gene expression of the ApiAP2 family of transcription factors and of parasite stress genes in response to the harsh environment of the mosquito midgut. Further, employing structural protein prediction analyses, we found several upregulated genes predicted to encode intrinsically disordered proteins (IDPs), a category of proteins known for their importance in regulation of transcription, translation, and protein-protein interactions. IDPs are known for their antigenic properties and may serve as suitable targets for antibody- or peptide-based transmission suppression strategies. In total, this study uncovers the P. falciparum transcriptome from early to late parasite development in the mosquito midgut, inside its natural vector, which provides an important resource for future malaria transmission-blocking initiatives. IMPORTANCE The malaria parasite Plasmodium falciparum causes more than half a million deaths per year. The current treatment regimen targets the symptom-causing blood stage inside the human host. However, recent incentives in the field call for novel interventions to block parasite transmission from humans to the mosquito vector. Therefore, we need to better understand the parasite biology during its development inside the mosquito, including a deeper understanding of the expression of genes controlling parasite progression during these stages. Here, we have generated single-cell transcriptome data, covering P. falciparum's development, from gamete to ookinete inside the mosquito midgut, uncovering previously untapped parasite biology, including a repertoire of novel biomarkers to be explored in future transmission-blocking efforts. We anticipate that our study provides an important resource, which can be further explored to improve our understanding of the parasite biology as well as aid in guiding future malaria intervention strategies.",
+  "abstract_zh": "疟疾在媒介传播疾病中具有最高的发病率和死亡率。寄生虫数量在必需蚊媒肠道内发生的急剧瓶颈现象，为新型控制策略提供了有前景的靶点。利用单细胞转录组学，我们分析了恶性疟原虫（*Plasmodium falciparum*）在蚊肠道内的发育过程，从未受精的雌配子到吸血后前20小时，包括合子期和动合子期。本研究揭示了ApiAP2转录因子家族及寄生虫应激基因在蚊中肠恶劣环境响应中的时间性基因表达。此外，通过结构蛋白预测分析，我们发现若干上调基因预计编码固有无序蛋白（intrinsically disordered proteins, IDPs），这类蛋白已知在转录、翻译及蛋白质-蛋白质相互作用调控中具有重要性。IDPs以其抗原特性著称，可能作为基于抗体或肽的传播阻断策略的合适靶点。总体而言，本研究揭示了恶性疟原虫在其自然媒介蚊中肠内从早期到晚期寄生虫发育的转录组，为未来疟疾传播阻断举措提供了重要资源。**重要性** 疟疾寄生虫恶性疟原虫每年导致超过五十万人死亡。当前治疗方案针对人体内引起症状的血液阶段。然而，该领域近期的激励措施呼吁采取新型干预手段，以阻断寄生虫从人类向蚊媒的传播。因此，我们需要更深入地了解寄生虫在蚊体内发育期间的生物学特性，包括更透彻地理解在这些阶段控制寄生虫进程的基因表达。在此，我们生成了单细胞转录组数据，覆盖恶性疟原虫在蚊中肠内从配子到动合子的发育过程，揭示了此前未探索的寄生虫生物学特性，包括一系列可供未来传播阻断工作探索的新型生物标志物。我们预期，我们的研究提供了重要资源，可进一步探索以增进对寄生虫生物学的理解，并有助于指导未来的疟疾干预策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36847501/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36847501/",
+  "paper_page_path": "papers/pubmed/36847501/index.html"
+}

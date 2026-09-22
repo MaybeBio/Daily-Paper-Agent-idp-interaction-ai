@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37511544",
+  "title": "A New Tool to Study the Binding Behavior of Intrinsically Disordered Proteins.",
+  "authors": "Upadhyay, Aakriti; Ekenna, Chinwe",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2023-07-29",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出一种基于蛋白表面拓扑几何特征的新算法，用于预测无序蛋白与蛋白复合物的结合姿态与轨迹，并与HawkDock/HDOCK对比验证，直接聚焦IDP结合行为与机制建模，兼具对象、互作与方法三要素。",
+  "abstract": "Understanding the binding behavior and conformational dynamics of intrinsically disordered proteins (IDPs) is crucial for unraveling their regulatory roles in biological processes. However, their lack of stable 3D structures poses challenges for analysis. To address this, we propose an algorithm that explores IDP binding behavior with protein complexes by extracting topological and geometric features from the protein surface model. Our algorithm identifies a geometrically favorable binding pose for the IDP and plans a feasible trajectory to evaluate its transition to the docking position. We focus on IDPs from Homo sapiens and Mus-musculus, investigating their interaction with the Plasmodium falciparum (PF) pathogen associated with malaria-related deaths. We compare our algorithm with HawkDock and HDOCK docking tools for quantitative (computation time) and qualitative (binding affinity) measures. Our results indicated that our method outperformed the compared methods in computation performance and binding affinity in experimental conformations.",
+  "abstract_zh": "理解固有无序蛋白（IDPs）的结合行为与构象动态对于揭示其在生物过程中的调控作用至关重要。然而，它们缺乏稳定的三维结构，这给分析带来了挑战。为解决此问题，我们提出了一种算法，通过从蛋白质表面模型中提取拓扑和几何特征，来探索IDP与蛋白质复合物的结合行为。该算法为IDP识别出一个几何上有利的结合姿态，并规划一条可行轨迹以评估其向对接位置的过渡。我们聚焦于来自智人（Homo sapiens）和家鼠（Mus-musculus）的IDPs，研究它们与与疟疾相关死亡有关的恶性疟原虫（Plasmodium falciparum, PF）病原体的相互作用。我们将我们的算法与HawkDock和HDOCK对接工具在定量（计算时间）和定性（结合亲和力）指标上进行比较。结果表明，在实验构象中，我们的方法在计算性能和结合亲和力方面均优于所比较的方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37511544/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37511544/",
+  "paper_page_path": "papers/pubmed/37511544/index.html"
+}

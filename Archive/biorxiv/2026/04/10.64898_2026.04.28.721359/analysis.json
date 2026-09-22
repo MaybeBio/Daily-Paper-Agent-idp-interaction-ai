@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.28.721359",
+  "title": "SPPIDER-seq: Sequence-based partner-aware predictor of protein-protein interaction sites",
+  "authors": "Porollo A; Jadhav O; Alvarez A; Chen J",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-30",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出SPPIDER-seq，用ESM-2嵌入和交叉注意力实现伙伴感知的PPI位点预测，专门针对无序肽介导的相互作用，并在TP53互作组中揭示IDR界面模式，直接契合无序蛋白互作机制建模。",
+  "abstract": "<h4>Motivation</h4> Sequence-based protein–protein interaction (PPI) site predictors typically analyze proteins in isolation, neglecting partner-specific context that is critical for interface specificity, particularly in transient and disordered interactions. <h4>Results</h4> We introduce SPPIDER-seq, a partner-aware PPI site prediction framework that combines pretrained ESM-2 embeddings with a cross-attention architecture to enable residue-level conditioning on interacting partners. We curated non-redundant protein–peptide interaction datasets from BioLiP and used them to train and benchmark two complementary models: a receptor-centric model optimized for structured interfaces and a peptide-centric model tailored to disordered, motif-driven binding. On blind benchmarks, SPPIDER-seq achieved AUROC values up to 0.797 and MCC values up to 0.269, outperforming AlphaFold3 on peptide-mediated and disordered interfaces while remaining complementary on globular complexes. Application to 341 TP53 interaction partners revealed coherent, partner-specific interface patterns across both structured and intrinsically disordered regions. <h4>Availability and Implementation</h4> SPPIDER-seq models, datasets, and the Python code are freely available on the web at: https://github.com/aporollo-lab/SPPIDER-seq and archived on Zenodo at DOI: 10.5281/zenodo.19835990, corresponding to GitHub release v2.0-manuscript. <h4>Contact</h4> Dr. Aleksey Porollo – porollay@ucmail.uc.edu Dr. Jichao Chen – jichao.chen@cchmc.org <h4>Supplementary Information</h4> Available online with the manuscript.",
+  "abstract_zh": "<h4>动机</h4> 基于序列的蛋白质-蛋白质相互作用（PPI）位点预测器通常孤立地分析蛋白质，忽略了对于界面特异性至关重要的伙伴特异性上下文，尤其是在瞬态和无序相互作用中。<h4>结果</h4> 我们引入了SPPIDER-seq，一种伙伴感知的PPI位点预测框架，结合了预训练的ESM-2嵌入与交叉注意力架构，以实现对相互作用伙伴的残基级条件化。我们从BioLiP中整理了非冗余的蛋白质-肽相互作用数据集，并用其训练和评估了两个互补模型：一个针对结构化界面优化的受体中心模型，以及一个针对无序、基序驱动结合量身定制的肽中心模型。在盲测基准上，SPPIDER-seq实现了高达0.797的AUROC值和高达0.269的MCC值，在肽介导和无序界面上优于AlphaFold3，同时在球状复合物上保持互补性。应用于341个TP53相互作用伙伴时，揭示了在结构化区域和内在无序区域中连贯的、伙伴特异性的界面模式。<h4>可用性和实现</h4> SPPIDER-seq模型、数据集和Python代码可在以下网址免费获取：https://github.com/aporollo-lab/SPPIDER-seq，并归档于Zenodo，DOI：10.5281/zenodo.19835990，对应GitHub发布版v2.0-manuscript。<h4>联系方式</h4> Aleksey Porollo博士 – porollay@ucmail.uc.edu Jichao Chen博士 – jichao.chen@cchmc.org <h4>补充信息</h4> 随稿件在线提供。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.28.721359",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.28.721359",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.28.721359/index.html"
+}

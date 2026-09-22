@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "41889780",
+    "doi": "10.1021/jacsau.6c00079",
+    "title": "Deciphering How Clustered O‑Glycosylation Shapes Substrate-Binding Preferences in an Intrinsically Disordered Protein Region."
+  },
+  "content": {
+    "abstract": "Post-translational modifications such as clustered O-glycosylation are frequently enriched in intrinsically disordered regions (IDRs), yet their roles in shaping molecular behavior and functional specificity remain poorly understood. Here, we addressed this challenge through an integrative, stepwise strategy that combines chemical synthesis, experimental characterization, and molecular dynamics (MD) simulations, employing the extensively O-mannosylated linker of Trichoderma reesei Family 7 cellobiohydrolase as a model IDR. Using synthetically accessible linker glycoforms bearing monomannose residues, we showed that unglycosylated and partially glycosylated linkers strongly prefer lignin over cellulose, driven by electrostatic interactions with the negatively charged lignin surface. Increasing glycan density or glycan size, such as through the introduction of dimannose, weakens lignin binding and partially shifts binding preference toward cellulose. Importantly, MD simulations informed and validated by these experimental data enabled prediction of currently synthetically inaccessible glycoforms, revealing that negatively charged glycans, such as phosphorylated mannose, effectively abolish lignin affinity while largely preserving cellulose binding. This work provides a generalizable and predictive framework for elucidating how complex glycosylation patterns regulate IDR-ligand interactions and identifies charge-mediated modulation as a key mechanism through which clustered O-glycosylation tunes IDR function.",
+    "keywords": [
+      "Binding affinity",
+      "Cellobiohydrolase",
+      "Glycosylation",
+      "Intrinsically disordered regions",
+      "Molecular dynamics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Ruihan",
+        "Liu, Wenqiang",
+        "Li, Xin",
+        "Zhang, Yajing",
+        "Tian, Jiekang",
+        "Zhu, Huanjie",
+        "Song, Zerun",
+        "Jin, Chunyu",
+        "Li, Yaohao",
+        "Xu, Dingguo",
+        "Shang, Shiying",
+        "Tan, Zhongping"
+      ],
+      "short_names": [
+        "Wang R",
+        "Liu W",
+        "Li X",
+        "Zhang Y",
+        "Tian J",
+        "Zhu H",
+        "Song Z",
+        "Jin C",
+        "Li Y",
+        "Xu D",
+        "Shang S",
+        "Tan Z"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4169-4673",
+        "ORCID: 0000-0002-4333-9042",
+        "ORCID: 0000-0002-9834-8296"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China. RINGGOLD: 58290",
+        "Chemical Engineering College, Hebei Normal University of Science & Technology, Qinhuangdao, Hebei 066600, China.",
+        "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China. RINGGOLD: 58290",
+        "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China. RINGGOLD: 58290",
+        "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China. RINGGOLD: 58290",
+        "Center of Pharmaceutical Technology, School of Pharmaceutical Sciences, Tsinghua University, Beijing 100084, China. RINGGOLD: 12442",
+        "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China. RINGGOLD: 58290",
+        "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China. RINGGOLD: 58290",
+        "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China. RINGGOLD: 58290",
+        "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China. RINGGOLD: 58290",
+        "MOE Key Laboratory of Green Chemistry and Technology, College of Chemistry, Sichuan University, Chengdu, Sichuan 610064, China. RINGGOLD: 12530",
+        "Center of Pharmaceutical Technology, School of Pharmaceutical Sciences, Tsinghua University, Beijing 100084, China. RINGGOLD: 12442",
+        "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China. RINGGOLD: 58290"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Ruihan",
+        "short_name": "Wang R",
+        "identifiers": [
+          "0000-0002-4169-4673"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China.",
+          "Chemical Engineering College, Hebei Normal University of Science & Technology, Qinhuangdao, Hebei 066600, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wenqiang",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xin",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yajing",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Jiekang",
+        "short_name": "Tian J",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Pharmaceutical Technology, School of Pharmaceutical Sciences, Tsinghua University, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Huanjie",
+        "short_name": "Zhu H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+        ]
+      },
+      {
+        "full_name": "Song, Zerun",
+        "short_name": "Song Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+        ]
+      },
+      {
+        "full_name": "Jin, Chunyu",
+        "short_name": "Jin C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yaohao",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0000-0002-4333-9042"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Dingguo",
+        "short_name": "Xu D",
+        "identifiers": [
+          "0000-0002-9834-8296"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory of Green Chemistry and Technology, College of Chemistry, Sichuan University, Chengdu, Sichuan 610064, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Shiying",
+        "short_name": "Shang S",
+        "identifiers": [],
+        "affiliations": [
+          "Center of Pharmaceutical Technology, School of Pharmaceutical Sciences, Tsinghua University, Beijing 100084, China."
+        ]
+      },
+      {
+        "full_name": "Tan, Zhongping",
+        "short_name": "Tan Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Bioactive Substance and Function of Natural Medicines, Institute of Materia Medica, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing 100050, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2026 Mar 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/27 07:14",
+    "fetched_at": "2026-09-18 01:57:41"
+  },
+  "links": {
+    "cites": [
+      "42359351"
+    ],
+    "refs": [
+      "41116255",
+      "40531986",
+      "40337851",
+      "40301326",
+      "39810827",
+      "39629162",
+      "38117537",
+      "37957331",
+      "36592990",
+      "36430530",
+      "35139468",
+      "34123172",
+      "33709491",
+      "31951671",
+      "31908009",
+      "29780502",
+      "29780404",
+      "29309128",
+      "28966766",
+      "28724292",
+      "27819658",
+      "26616493",
+      "26613815",
+      "26492012",
+      "25937989",
+      "25629559",
+      "25533957",
+      "24821760",
+      "24773235",
+      "23959893",
+      "23203878",
+      "22186222",
+      "22147693",
+      "22125473",
+      "21823626",
+      "21702025",
+      "21693062",
+      "21614187",
+      "21112302",
+      "19334683",
+      "18471276",
+      "17587671",
+      "17391016",
+      "14755566",
+      "12045107",
+      "12022860",
+      "11081633",
+      "9746354",
+      "8744570",
+      "2554967"
+    ],
+    "similar": [
+      "41889780",
+      "23959893",
+      "21112302",
+      "29229855",
+      "24821760",
+      "42475469",
+      "26618856",
+      "32782472",
+      "23912807",
+      "26307003",
+      "40631955",
+      "29780502",
+      "41075889",
+      "30528732",
+      "36774964",
+      "39871444",
+      "38492700",
+      "28873985",
+      "42235792",
+      "42530374",
+      "37125110",
+      "39539017",
+      "35914331",
+      "33627133",
+      "29309620",
+      "38915510",
+      "31709918",
+      "38252962",
+      "12042252",
+      "41378882",
+      "41571439",
+      "39589885",
+      "38915483",
+      "41688823",
+      "31724233",
+      "34557680",
+      "11270873",
+      "33779503",
+      "40403066",
+      "42057422",
+      "42585785",
+      "38942776",
+      "28494147",
+      "36824771",
+      "28355271",
+      "9746354",
+      "34123172",
+      "29843482",
+      "31373133",
+      "42306853",
+      "37875529",
+      "21614187",
+      "42000821",
+      "25207671",
+      "40702731",
+      "34939126",
+      "31279935",
+      "26616493",
+      "31626641",
+      "28780862",
+      "23139804",
+      "27140628",
+      "37555669",
+      "41928988",
+      "30327321",
+      "40944448",
+      "30878482",
+      "34312429",
+      "34181980",
+      "34825861",
+      "26209638",
+      "42250480",
+      "38746434",
+      "39446390",
+      "42159288",
+      "30759204",
+      "34720466",
+      "21918774",
+      "30802457",
+      "39993015",
+      "42425424",
+      "34576338",
+      "40889662",
+      "8407900",
+      "35310482",
+      "34681718",
+      "24747898",
+      "31303975",
+      "29791766",
+      "41451346",
+      "38712287",
+      "41534519",
+      "36005688",
+      "38705823",
+      "32824743",
+      "31804089",
+      "36131545",
+      "41347878",
+      "39763873",
+      "40756902"
+    ],
+    "review": [
+      "41889780",
+      "31709918",
+      "42306853",
+      "21918774",
+      "40889662",
+      "31303975"
+    ],
+    "pmc": [
+      "13014256"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41889780/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.6c00079",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,549 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.10.552825",
+  "title": "Network shape intelligence outperforms AlphaFold2 intelligence in vanilla protein interaction prediction",
+  "doi": "10.1101/2023.08.10.552825",
+  "abstract": "For decades, scientists and engineers have been working to predict protein interactions, and network topology methods have emerged as extensively studied techniques. Recently, approaches based on AlphaFold2 intelligence, exploiting 3D molecular structural information, have been proposed for protein interaction prediction, they are promising as potential alternatives to traditional laboratory experiments, and their design and performance evaluation is compelling. Here, we introduce a new concept of intelligence termed Network Shape Intelligence (NSI). NSI is modelled via network automata rules which minimize external links in local communities according to a brain-inspired principle, as it draws upon the local topology and plasticity rationales initially devised in brain network science and then extended to any complex network. We show that by using only local network information and without the need for training, these network automata designed for modelling and predicting network connectivity can outperform AlphaFold2 intelligence in vanilla protein interactions prediction. We find that the set of interactions mispredicted by AlphaFold2 predominantly consists of proteins whose amino acids exhibit higher probability of being associated with intrinsically disordered regions. Finally, we suggest that the future advancements in AlphaFold intelligence could integrate principles of NSI to further enhance the modelling and structural prediction of protein interactions.",
+  "authors": [
+    "Ilyes Abdelhamid",
+    "Alessandro Muscoloni",
+    "Danny Marc Rotscher",
+    "Matthias Lieber",
+    "Ulf Markwardt",
+    "Carlo Vittorio Cannistraci"
+  ],
+  "published_date": "2023-08-14",
+  "updated_date": "2023-08-14T13:55:13Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.10.552825",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.10.552825.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:33:38Z",
+        "timestamp": 1768505618827,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            14
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 58,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>For decades, scientists and engineers have been working to predict protein interactions, and network topology methods have emerged as extensively studied techniques. Recently, approaches based on AlphaFold2 intelligence, exploiting 3D molecular structural information, have been proposed for protein interaction prediction, they are promising as potential alternatives to traditional laboratory experiments, and their design and performance evaluation is compelling.</jats:p>\n                <jats:p>Here, we introduce a new concept of intelligence termed Network Shape Intelligence (NSI). NSI is modelled via network automata rules which minimize external links in local communities according to a brain-inspired principle, as it draws upon the local topology and plasticity rationales initially devised in brain network science and then extended to any complex network. We show that by using only local network information and without the need for training, these network automata designed for modelling and predicting network connectivity can outperform AlphaFold2 intelligence in vanilla protein interactions prediction. We find that the set of interactions mispredicted by AlphaFold2 predominantly consists of proteins whose amino acids exhibit higher probability of being associated with intrinsically disordered regions. Finally, we suggest that the future advancements in AlphaFold intelligence could integrate principles of NSI to further enhance the modelling and structural prediction of protein interactions.</jats:p>",
+      "DOI": "10.1101/2023.08.10.552825",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            14
+          ]
+        ],
+        "date-time": "2023-08-14T13:55:13Z",
+        "timestamp": 1692021313000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Network shape intelligence outperforms AlphaFold2 intelligence in vanilla protein interaction prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Ilyes",
+          "family": "Abdelhamid",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Alessandro",
+          "family": "Muscoloni",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Danny Marc",
+          "family": "Rotscher",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Matthias",
+          "family": "Lieber",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ulf",
+          "family": "Markwardt",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0100-8410",
+          "authenticated-orcid": false,
+          "given": "Carlo Vittorio",
+          "family": "Cannistraci",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2021.10.04.463034"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-28865-w"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-29394-2"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-022-00910-8"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.129.238101"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.10.050"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2188-x"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1158684"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.12",
+          "first-page": "841",
+          "article-title": "Uncovering disease-disease relationships through the incomplete interactome",
+          "volume": "347",
+          "year": "2015",
+          "journal-title": "Science (80-.)"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.292.5518.929"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "15760",
+          "DOI": "10.1038/s41598-018-33576-8",
+          "article-title": "Modelling Self-Organization in Complex Networks Via a Brain-Inspired Network Automata Theory Improves Link Reliability in Protein Interactomes",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/srep01613"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-019-09078-0"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-37079-7"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1367-2630/17/11/113037"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.isci.2021.103217"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevE.76.046115"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.21",
+          "unstructured": "Muscoloni, A. , Michieli, U. & Cannistraci, C. V. Local-ring network automata and the impact of hyperbolic geometry in complex network link-prediction Brain bio-inspired computation (BBC) lab. doi:doi.org/10.48550/arXiv.1707.09496."
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1183",
+          "DOI": "10.1093/bib/bbx041",
+          "article-title": "Pioneering topological methods for network-based drug–target prediction by exploiting a brain-network self-organization theory",
+          "volume": "19",
+          "year": "2018",
+          "journal-title": "Brief. Bioinform"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kovács, I. A. et al. Network-based prediction of protein interactions. bioRxiv (2018).",
+          "DOI": "10.1101/275529"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/346916"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1140/epjb/e2009-00335-8"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.20944/preprints202012.0808.v3"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.physa.2020.125532"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.isci.2022.105697"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/30.1.303"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/29.1.239"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh086"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.32",
+          "unstructured": "Hebb, D. O. The Organization of Behavior. New York: Wiley vol. 911 (1949)."
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.33",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu, Z. , He, J. L. , Kapoor, K. & Srivastava, J. Correlations between Community Structure and Link Formation in Complex Networks. PLoS One 8, (2013).",
+          "DOI": "10.1371/journal.pone.0072908"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-016-0001-8"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.35",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Tan, F. , Xia, Y. & Zhu, B. Link prediction in complex networks: A mutual information perspective. PLoS One 9, (2014).",
+          "DOI": "10.1371/journal.pone.0107056"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "38938",
+          "DOI": "10.1038/srep38938",
+          "article-title": "A perturbation-based framework for link prediction via non-negative matrix factorization",
+          "volume": "6",
+          "year": "2016",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0154315"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1209/0295-5075/117/38002"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "44981",
+          "DOI": "10.1038/srep44981",
+          "article-title": "Mutual information model for link prediction in heterogeneous complex networks",
+          "volume": "7",
+          "year": "2017",
+          "journal-title": "Sci. Rep"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "28",
+          "DOI": "10.1007/s41109-017-0048-x",
+          "article-title": "Can local-community-paradigm and epitopological learning enhance our understanding of how local brain connectivity is able to process, learn and memorize chronic pain?",
+          "volume": "2",
+          "year": "2017",
+          "journal-title": "Appl. Netw. Sci"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1424644112"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.20944/preprints202209.0277.v1"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/ASONAM.2012.68"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10115-014-0789-0"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt208"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibtech.2008.07.008"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.47",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Smith, M. G. & Snyder, M. Yeast as a Model for Human Disease. Curr. Protoc. Hum. Genet. 48, (2006).",
+          "DOI": "10.1002/0471142905.hg1506s48"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hart, G. T. , Ramani, A. K. & Marcotte, E. M. How complete are current yeast and human protein-interaction networks? Genome Biol. 7, (2006).",
+          "DOI": "10.1186/gb-2006-7-11-120"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2021.167208"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-017-01825-5"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-34634-6"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bth436"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btm087"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq064"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2008.211"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn923"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "679",
+          "DOI": "10.1038/s41592-022-01488-1",
+          "article-title": "ColabFold: making protein folding accessible to all",
+          "volume": "19",
+          "year": "2022",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "2023081904400641000_2023.08.10.552825v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab408"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.08.10.552825",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:03:28Z",
+        "timestamp": 1768453408000
+      },
+      "score": 54.36566,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.08.10.552825"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            14
+          ]
+        ]
+      },
+      "references-count": 58,
+      "URL": "https://doi.org/10.1101/2023.08.10.552825",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            8,
+            14
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

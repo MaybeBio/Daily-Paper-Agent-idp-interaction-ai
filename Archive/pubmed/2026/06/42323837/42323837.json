@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "42323837",
+    "doi": "10.1080/07391102.2026.2688933",
+    "title": "Identification of human T lymphotropic virus type-1 p30 protein phosphorylations and computational analysis of their effect on intrinsically disordered nature of p30."
+  },
+  "content": {
+    "abstract": "Human T-lymphotropic virus (HTLV-1), a delta retrovirus, encodes for accessory proteins in addition to structural and enzymatic proteins. p30, an HTLV-1 accessory protein, contributes to viral persistence and pathogenesis. p30 is a multifunctional protein and its intrinsically disordered protein (IDP) nature enables interactions with different host proteins. The phosphorylation drastically impacts the structure and function of IDPs. In this study, we analyzed the intrinsic disorderness of p30 protein under different levels of phosphorylation, dynamics and the interaction with the regulatory protein Rex. Through MD studies, the effect of phosphorylation on the IDP nature of p30 were examined. The analysis revealed that the p30 with phosphorylation at 10 predicted sites (p30-10site(-P)), exhibited more stable behavior and higher compactness compared to p30 with phosphorylation at 3 experimentally identified sites (p30-3site(-P)) and apo-protein. Rex is a regulatory protein encoded by HTLV-1. The interaction between p30 and Rex modulates the balance between viral replication and latency. Due to the presence of ID regions in p30 and Rex, a significant percentage of loops were observed in their secondary structure. The stability of p30 in the p30-Rex complex is also influenced by its binding partners (Rex protein), as the binding sites are located within the ID regions of p30. It can be concluded that the phosphorylation level and Rex modulate the conformational ensemble of p30. The limited phosphorylation together with Rex interaction may contribute to the structural stability of p30 which is required for its multifunctional role in HTLV-1 infection.",
+    "keywords": [
+      "HTLV-1 p30",
+      "Rex protein",
+      "intrinsically disordered proteins (IDP)",
+      "molecular dynamics simulations",
+      "phosphorylation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nag, Krittika",
+        "Laxman Kumar, Lukkani",
+        "Shkriabai, Nikoloz",
+        "Kvaratskhelia, Mamuka",
+        "Murali, Ayaluru",
+        "Anupam, Rajaneesh"
+      ],
+      "short_names": [
+        "Nag K",
+        "Laxman Kumar L",
+        "Shkriabai N",
+        "Kvaratskhelia M",
+        "Murali A",
+        "Anupam R"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-4219-1363",
+        "ORCID: 0000-0003-1168-2708",
+        "ORCID: 0000-0003-3800-0033",
+        "ORCID: 0000-0001-6406-6840",
+        "ORCID: 0000-0002-0536-1329"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, School of Life Sciences, Pondicherry University, Puducherry, India.",
+        "Department of Bioinformatics, School of Life Sciences, Pondicherry University, Puducherry, India.",
+        "College of Pharmacy, The Ohio State University, Columbus, OH, USA.",
+        "Division of Infectious Diseases, Anschutz Medical Campus, University of Colorado School of Medicine, Aurora, CO, USA.",
+        "College of Pharmacy, The Ohio State University, Columbus, OH, USA.",
+        "Division of Infectious Diseases, Anschutz Medical Campus, University of Colorado School of Medicine, Aurora, CO, USA.",
+        "Department of Bioinformatics, School of Life Sciences, Pondicherry University, Puducherry, India.",
+        "Department of Biochemistry and Molecular Biology, School of Life Sciences, Pondicherry University, Puducherry, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nag, Krittika",
+        "short_name": "Nag K",
+        "identifiers": [
+          "0009-0009-4219-1363"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Life Sciences, Pondicherry University, Puducherry, India."
+        ]
+      },
+      {
+        "full_name": "Laxman Kumar, Lukkani",
+        "short_name": "Laxman Kumar L",
+        "identifiers": [
+          "0000-0003-1168-2708"
+        ],
+        "affiliations": [
+          "Department of Bioinformatics, School of Life Sciences, Pondicherry University, Puducherry, India."
+        ]
+      },
+      {
+        "full_name": "Shkriabai, Nikoloz",
+        "short_name": "Shkriabai N",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, The Ohio State University, Columbus, OH, USA.",
+          "Division of Infectious Diseases, Anschutz Medical Campus, University of Colorado School of Medicine, Aurora, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Kvaratskhelia, Mamuka",
+        "short_name": "Kvaratskhelia M",
+        "identifiers": [
+          "0000-0003-3800-0033"
+        ],
+        "affiliations": [
+          "College of Pharmacy, The Ohio State University, Columbus, OH, USA.",
+          "Division of Infectious Diseases, Anschutz Medical Campus, University of Colorado School of Medicine, Aurora, CO, USA."
+        ]
+      },
+      {
+        "full_name": "Murali, Ayaluru",
+        "short_name": "Murali A",
+        "identifiers": [
+          "0000-0001-6406-6840"
+        ],
+        "affiliations": [
+          "Department of Bioinformatics, School of Life Sciences, Pondicherry University, Puducherry, India."
+        ]
+      },
+      {
+        "full_name": "Anupam, Rajaneesh",
+        "short_name": "Anupam R",
+        "identifiers": [
+          "0000-0002-0536-1329"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, School of Life Sciences, Pondicherry University, Puducherry, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2026 Jun 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/21 22:43",
+    "fetched_at": "2026-09-18 04:11:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42323837",
+      "30618266",
+      "31460093",
+      "17634129",
+      "15452228",
+      "31852501",
+      "22876852",
+      "24062732",
+      "18474092",
+      "19092975",
+      "19919707",
+      "17360706",
+      "19279097",
+      "12208996",
+      "1905815",
+      "28955936",
+      "15574380",
+      "36929465",
+      "17071021",
+      "1602546",
+      "26581997",
+      "11507189",
+      "22318152",
+      "11080823",
+      "9343209",
+      "11070026",
+      "36189216",
+      "14610204",
+      "23104922",
+      "35215946",
+      "19553333",
+      "19602286",
+      "22973269",
+      "16352542",
+      "1400509",
+      "1985205",
+      "23248621",
+      "35216000",
+      "24699669",
+      "26742101",
+      "12907436",
+      "1904103",
+      "15047799",
+      "8627239",
+      "2482226",
+      "14730358",
+      "21216954",
+      "2116986",
+      "19278259",
+      "21819218",
+      "23912807",
+      "21994774",
+      "25569455",
+      "10482560",
+      "2016758",
+      "2398533",
+      "25031324",
+      "8985325",
+      "40344170",
+      "26927155",
+      "9565558",
+      "14612415",
+      "30840442",
+      "8474155",
+      "31492165",
+      "1548784",
+      "25355890",
+      "9680120",
+      "2357216",
+      "8438577",
+      "16282446",
+      "26445449",
+      "31142665",
+      "1871127",
+      "9060636",
+      "15358581",
+      "1898667",
+      "36350035",
+      "22819021",
+      "30813315",
+      "11559821",
+      "7983733",
+      "10710429",
+      "8382312",
+      "7984424",
+      "12829812",
+      "12239314",
+      "21994758",
+      "3262832",
+      "7522638",
+      "34845619",
+      "29080786",
+      "2335818",
+      "16890266",
+      "2562124",
+      "17151132",
+      "17008317",
+      "38830621",
+      "23541980",
+      "9075484"
+    ],
+    "review": [
+      "42323837",
+      "31852501",
+      "24062732",
+      "19092975",
+      "12208996",
+      "15574380",
+      "36189216",
+      "21994774",
+      "26927155",
+      "30840442",
+      "31492165",
+      "15358581",
+      "22819021"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2026.2688933?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2026.2688933",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

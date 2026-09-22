@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37535684",
+  "title": "Exploring the evolution and function of Canoe's intrinsically disordered region in linking cell-cell junctions to the cytoskeleton during embryonic morphogenesis.",
+  "authors": "Gurley, Noah J; Szymanski, Rachel A; Dowen, Robert H; Butcher, T Amber; Ishiyama, Noboru; Peifer, Mark",
+  "journal": "PloS one",
+  "published_date": "2023-08-03",
+  "window": {
+    "start": "2023-07-31",
+    "end": "2023-08-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该文结合生物信息学与AlphaFold预测，研究果蝇Canoe蛋白IDR的进化保守基序及其在连接细胞连接与细胞骨架中的功能，虽涉及IDR与互作位点，但以实验表型为主，缺乏AI/物理模拟的机制建模深度。",
+  "abstract": "One central question for cell and developmental biologists is defining how epithelial cells can change shape and move during embryonic development without tearing tissues apart. This requires robust yet dynamic connections of cells to one another, via the cell-cell adherens junction, and of junctions to the actin and myosin cytoskeleton, which generates force. The last decade revealed that these connections involve a multivalent network of proteins, rather than a simple linear pathway. We focus on Drosophila Canoe, homolog of mammalian Afadin, as a model for defining the underlying mechanisms. Canoe and Afadin are complex, multidomain proteins that share multiple domains with defined and undefined binding partners. Both also share a long carboxy-terminal intrinsically disordered region (IDR), whose function is less well defined. IDRs are found in many proteins assembled into large multiprotein complexes. We have combined bioinformatic analysis and the use of a series of canoe mutants with early stop codons to explore the evolution and function of the IDR. Our bioinformatic analysis reveals that the IDRs of Canoe and Afadin differ dramatically in sequence and sequence properties. When we looked over shorter evolutionary time scales, we identified multiple conserved motifs. Some of these are predicted by AlphaFold to be alpha-helical, and two correspond to known protein interaction sites for alpha-catenin and F-actin. We next identified the lesions in a series of eighteen canoe mutants, which have early stop codons across the entire protein coding sequence. Analysis of their phenotypes are consistent with the idea that the IDR, including the conserved motifs in the IDR, are critical for protein function. These data provide the foundation for further analysis of IDR function.",
+  "abstract_zh": "细胞与发育生物学家的一个核心问题是，定义上皮细胞如何在胚胎发育过程中改变形状和移动，而不撕裂组织。这要求细胞之间通过细胞-细胞粘附连接（adherens junction）进行稳健而动态的连接，以及连接与产生力的肌动蛋白和肌球蛋白细胞骨架之间的连接。过去十年揭示，这些连接涉及一个多价蛋白质网络，而非简单的线性通路。我们以果蝇Canoe（哺乳动物Afadin的同源物）为模型，来定义其潜在机制。Canoe和Afadin是复杂的多结构域蛋白质，共享多个具有已定义和未定义结合伙伴的结构域。两者还共享一个长的羧基末端内在无序区域（intrinsically disordered region, IDR），其功能尚不明确。IDR存在于许多组装成大型多蛋白复合物的蛋白质中。我们结合了生物信息学分析和一系列带有早期终止密码子的canoe突变体的使用，以探索IDR的进化和功能。我们的生物信息学分析揭示，Canoe和Afadin的IDR在序列和序列特性上存在显著差异。当我们在较短的进化时间尺度上观察时，我们识别出多个保守基序。其中一些被AlphaFold预测为α-螺旋，两个对应于已知的α-连环蛋白（alpha-catenin）和F-肌动蛋白（F-actin）的蛋白质相互作用位点。接下来，我们识别了一系列十八个canoe突变体中的损伤，这些突变体在整个蛋白质编码序列中带有早期终止密码子。对其表型的分析支持IDR（包括IDR中的保守基序）对蛋白质功能至关重要的观点。这些数据为进一步分析IDR功能提供了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37535684/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37535684/",
+  "paper_page_path": "papers/pubmed/37535684/index.html"
+}

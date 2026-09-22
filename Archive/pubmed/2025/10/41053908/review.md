@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, and figure legends as provided)
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and adequacy of evidence as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors present SpatPPI, a geometric deep learning model that uses AlphaFold2-predicted structures, graph self-attention with conformation reorganization, and residue contact capture to predict protein-protein interactions, with a focus on interactions involving intrinsically disordered regions (IDPPIs). They claim superior performance over existing methods on benchmark datasets, robustness to structural perturbations, and strong generalization.
+- **Visible evidence base** Main text, Methods section, Figures 1-5, Tables 1, and references to supplementary files (Additional files 1-3)
+- **Missing materials affecting confidence** Supplementary figures and tables (Additional files 1-3) are referenced but not provided; full details of hyperparameter tuning, model selection, and statistical significance testing are not fully described; code and data availability statements are not visible in the provided text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely problem: the prediction of protein-protein interactions involving intrinsically disordered regions, which remains challenging for existing structure-based methods. The proposed architecture is thoughtfully designed, with several novel components (local coordinate frames with quaternion edge features, conformation reorganization, and residue contact capture) that are well motivated. The authors provide a reasonable set of experiments, including benchmark comparisons and perturbation analyses. However, several methodological details and evaluation choices require clarification or strengthening before the claims can be fully accepted. In particular, the evaluation of Speed-PPI under an artificially favorable assumption, the limited description of hyperparameter selection, and the absence of confidence intervals or statistical tests for some comparisons are concerns. The generalization experiments are a strength, but the novelty relative to existing geometric deep learning approaches could be more clearly articulated.
+- **Who would be interested in the results, and why** Computational biologists developing protein interaction prediction methods, researchers studying intrinsically disordered proteins and their interaction networks, and bioinformaticians interested in geometric deep learning applied to structural biology. The model's focus on IDPPIs addresses a gap in current tools, and the methodological components (e.g., conformation reorganization) may inspire further developments in structure-aware prediction.
+- **Major strengths**
+  1. The problem is well motivated, and the limitations of existing methods for IDPPIs are clearly articulated.
+  2. The model architecture is novel and technically sound, with several components specifically designed to address the challenges of disordered regions.
+  3. The evaluation includes both benchmark comparisons and targeted perturbation analyses, which strengthen the claims of robustness.
+  4. The authors provide a practical discussion of computational cost and memory footprint, which is useful for potential users.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evaluation fairness and validity
+  - **Claim pointer** The authors claim that SpatPPI outperforms Speed-PPI on IDPPI prediction, but the evaluation of Speed-PPI was conducted under an artificially favorable assumption: perfect prediction (100% accuracy) for all negative samples.
+  - **Evidence pointer** Methods, "Parameter settings of other compared methods" section
+  - **Concern** The evaluation protocol for Speed-PPI is not a fair comparison. By assuming perfect accuracy on all negative samples, the authors give Speed-PPI an unrealistic advantage, yet SpatPPI still outperforms it. While this is presented as a conservative test, it is unclear how meaningful the comparison is. The authors should either (a) compute Speed-PPI predictions for a subset of negative samples to obtain a realistic estimate, or (b) clearly state that the comparison is not head-to-head and interpret the results accordingly. As presented, the claim that SpatPPI "outperforms" Speed-PPI is not fully supported by a fair evaluation.
+  - **Why it matters** A central claim of the paper is that SpatPPI is superior to existing methods, including Speed-PPI. If the comparison is not fair, the claim is weakened, and readers may question the validity of the benchmark results.
+  - **Resolution test** Provide a fair evaluation of Speed-PPI on the same negative samples (or a representative subset), or explicitly reframe the comparison as a partial evaluation and temper the corresponding claims.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency and reproducibility
+  - **Claim pointer** The authors state that SpatPPI uses a "two-stage decoding strategy" and a "bilinear function" for residue contact capture, but the details of the bilinear mapping, the dimensions of the intermediate representations, and the training procedure (e.g., learning rate, batch size, number of epochs, early stopping criteria) are not fully described.
+  - **Evidence pointer** Methods, "The SpatPPI architecture" section; location not provided for training hyperparameters
+  - **Concern** The manuscript lacks sufficient detail on several key aspects of the model and training procedure. For example, the exact formulation of the bilinear function, the choice of hidden dimensions, the number of attention heads, the dropout rate, and the optimization algorithm are not specified. This limits reproducibility and makes it difficult for other researchers to implement or build upon the method.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without full details, the method cannot be independently validated or compared fairly by other groups.
+  - **Resolution test** Provide a complete description of the model architecture, training hyperparameters, and any regularization or normalization techniques used. Consider releasing code and a configuration file to facilitate reproduction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report performance metrics (AUPR, MCC) for SpatPPI and baseline methods, but it is unclear whether the reported differences are statistically significant beyond the t-test results shown in Figure 3a.
+  - **Evidence pointer** Figure 3a, b; Additional file 3: Tables S1-S4 (not provided)
+  - **Concern** The manuscript reports mean values with standard deviations from ten-fold cross-validation, but no confidence intervals or effect sizes are reported for the key comparisons. The t-test results in Figure 3a are mentioned, but the details (e.g., which comparisons were tested, whether corrections for multiple testing were applied) are not provided. For the generalization experiments (Figure 4b, c), no statistical analysis is presented.
+  - **Why it matters** Without proper statistical analysis, it is difficult to assess whether the observed improvements are meaningful or within the range of random variation.
+  - **Resolution test** Report confidence intervals or perform appropriate statistical tests (e.g., paired tests across folds) for all key comparisons, and clarify the multiple testing correction strategy.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim scope and generalizability
+  - **Claim pointer** The authors claim that SpatPPI shows "strong generalization abilities" based on experiments with a novel test set and cross-species prediction.
+  - **Evidence pointer** Results, "SpatPPI shows strong generalization abilities" section; Figure 4b, c
+  - **Concern** The cross-species experiment is limited to a single species (S. cerevisiae) and a small subnetwork. While the results are encouraging, the claim of "strong generalization" may be overstated given the limited scope. Additionally, the novel test set is derived from STRING, which may have different characteristics compared to the HuRI dataset used for training, and the authors do not fully discuss potential biases.
+  - **Why it matters** Generalization is a key selling point of the method. If the evidence is limited, the claim should be tempered or supported by additional experiments across more diverse species and interaction types.
+  - **Resolution test** Expand the cross-species evaluation to additional species, or clearly state the limitations of the current generalization assessment and adjust the claims accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of definitions
+  - **Affected element** Definition of IDPPI
+  - **Evidence pointer** Methods, "HuPPI-IDP dataset" section
+  - **Issue** The definition of IDPPI as an interaction between an intrinsically disordered protein and a structurally stable protein is clear, but the rationale for excluding disordered-disordered and stable-stable interactions from the IDPPI category is not explained. This choice may affect the interpretation of the results.
+  - **Required correction** Briefly justify the definition of IDPPI and discuss whether the model's performance on other interaction types (e.g., disordered-disordered) was evaluated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Presentation of results
+  - **Affected element** Figure 3a, b
+  - **Evidence pointer** Figure 3a, b
+  - **Issue** The figure legends are not provided in the manuscript text, making it difficult to interpret the results without referring to the main text. Additionally, the use of asterisks for significance is mentioned, but the exact p-values are not reported.
+  - **Required correction** Provide full figure legends and report exact p-values or confidence intervals for the significance tests.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Related work and novelty
+  - **Affected element** Background section
+  - **Evidence pointer** Background section
+  - **Issue** The authors mention existing PPI prediction methods but do not provide a systematic comparison of how SpatPPI differs from or improves upon recent geometric deep learning approaches (e.g., those using equivariant neural networks or protein language model embeddings).
+  - **Required correction** Expand the discussion of related work to clearly position SpatPPI within the current landscape and highlight its unique contributions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Practical utility
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors mention a web server for online prediction, but no details are provided about its availability, input requirements, or usage limits.
+  - **Required correction** Provide a brief description of the web server, including its URL, input format, and any limitations.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1 (Speed-PPI evaluation fairness) must be resolved, as it directly affects the validity of a central performance claim.
+  - R1-M2 (methodological transparency) must be addressed to ensure reproducibility.
+  - R1-M3 (statistical rigor) should be strengthened to support the reported performance differences.
+- **Assessment against Nature-style criteria**
+  - **Originality** The model introduces several novel components (local coordinate frames with quaternion edge features, conformation reorganization, residue contact capture) that are not present in existing PPI prediction methods. The focus on IDPPIs is a valuable and underexplored niche. The originality is moderate to high.
+  - **Scientific importance** The problem of predicting IDPPIs is biologically significant, given the prevalence of disordered regions in the proteome and their involvement in disease. A reliable computational method for this task would be of broad utility. The importance is high.
+  - **Interdisciplinary readership** The work bridges structural biology, deep learning, and interactomics. It is likely to appeal to computational biologists and bioinformaticians, and potentially to experimentalists interested in prioritizing interaction candidates. The interdisciplinary reach is moderate.
+  - **Technical soundness** The architecture is well motivated and the experiments are generally well designed. However, the Speed-PPI evaluation issue and the lack of full methodological details are significant weaknesses that need to be addressed. The technical soundness is currently moderate.
+  - **Readability for nonspecialists** The manuscript is generally well written and the figures are informative. However, some sections (e.g., the mathematical formulation of the model) may be challenging for nonspecialists. The authors should consider adding a plain-language summary of the method. The readability is moderate.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the experiments are largely convincing, but the Speed-PPI evaluation must be corrected, and additional methodological details are needed to fully establish the case.
+
+## Risk / unsupported claims
+- The claim that SpatPPI outperforms Speed-PPI is not fully supported due to the unfair evaluation protocol (R1-M1).
+- The claim of "strong generalization abilities" is based on limited cross-species evidence (R1-M4).
+- The claim that the conformation reorganization mechanism is responsible for the model's robustness is plausible but not directly tested via ablation of this specific component (Figure 5a shows the effect of removing the entire module, not the reorganization subcomponent alone).
+- The statement that "SpatPPI's predictions predominantly rely on the limited folded structural information within IDRs and their interaction partners" is inferred from perturbation experiments but is not directly proven.
+- The performance of SpatPPI on disordered-disordered interactions is not reported, leaving a gap in the evaluation of the model's general utility.

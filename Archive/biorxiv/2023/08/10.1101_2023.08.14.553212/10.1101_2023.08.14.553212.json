@@ -1,0 +1,199 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.14.553212",
+  "title": "Met58 and di-acidic motif located at C-terminal region of SARS-CoV-2 ORF6 plays a crucial role in its structural conformations",
+  "doi": "10.1101/2023.08.14.553212",
+  "abstract": "Despite being mostly neglected in structural biology, the C-terminal Regions (CTRs) are studied to be multifunctional in humans as well as in viruses. Their role in cellular processes such as trafficking, protein-protein interactions, and protein-lipid interactions are known due to their structural properties. In our previous findings on SARS-CoV-2 Spike and NSP1 proteins, the C-terminal regions (CTRs) are observed to be disordered and experimental evidence showed a gain of structure properties in different physiological environments. In this line, we have investigated the structural dynamics of CTR (residues 38-61) of SARS-CoV-2 ORF6 protein, disrupting bidirectional transport between the nucleus and cytoplasm. Like Spike and NSP1-CTR, the ORF6-CTR is also disordered in nature but possesses gain of structure properties in minimal physiological conditions. As per studies, the residue such as Methionine at 58 th position in ORF6 is critical for interaction with Rae1-Nup98. Therefore, along with M58, we have identified a few other mutations from the literature and performed extensive structure modelling and dynamics studies using computational simulations. The exciting revelations in CTR models provide evidence of its structural flexibility and possible capabilities to perform multifunctionality inside the host.",
+  "authors": [
+    "Kumar P",
+    "Saumya KU",
+    "Bhardwaj T",
+    "Giri R"
+  ],
+  "published_date": "2023-08-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.14.553212",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.14.553212.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR706345",
+    "raw_record": {
+      "id": "PPR706345",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR706345"
+        ]
+      },
+      "doi": "10.1101/2023.08.14.553212",
+      "title": "Met58 and di-acidic motif located at C-terminal region of SARS-CoV-2 ORF6 plays a crucial role in its structural conformations",
+      "authorString": "Kumar P, Saumya KU, Bhardwaj T, Giri R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kumar P",
+            "lastName": "Kumar",
+            "firstName": "Prateek",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7392-5045"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saumya KU",
+            "lastName": "Saumya",
+            "firstName": "Kumar Udit",
+            "initials": "KU",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bhardwaj T",
+            "lastName": "Bhardwaj",
+            "firstName": "Taniya",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Giri R",
+            "lastName": "Giri",
+            "firstName": "Rajanish",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2046-836X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, India"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7392-5045"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2046-836X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Despite being mostly neglected in structural biology, the C-terminal Regions (CTRs) are studied to be multifunctional in humans as well as in viruses. Their role in cellular processes such as trafficking, protein-protein interactions, and protein-lipid interactions are known due to their structural properties. In our previous findings on SARS-CoV-2 Spike and NSP1 proteins, the C-terminal regions (CTRs) are observed to be disordered and experimental evidence showed a gain of structure properties in different physiological environments. In this line, we have investigated the structural dynamics of CTR (residues 38-61) of SARS-CoV-2 ORF6 protein, disrupting bidirectional transport between the nucleus and cytoplasm. Like Spike and NSP1-CTR, the ORF6-CTR is also disordered in nature but possesses gain of structure properties in minimal physiological conditions. As per studies, the residue such as Methionine at 58  th position in ORF6 is critical for interaction with Rae1-Nup98. Therefore, along with M58, we have identified a few other mutations from the literature and performed extensive structure modelling and dynamics studies using computational simulations. The exciting revelations in CTR models provide evidence of its structural flexibility and possible capabilities to perform multifunctionality inside the host.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/14/2023.08.14.553212.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.14.553212"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR706345"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR706345&type=FILE&fileName=EMS186893-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39724814",
+            "reference": "Biophysical chemistry. 2025 Mar;318:107384",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS186893",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-08-29",
+      "firstPublicationDate": "2023-08-14",
+      "firstIndexDate": "2023-08-31",
+      "fullTextReceivedDate": "2023-10-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

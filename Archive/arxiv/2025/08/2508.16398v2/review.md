@@ -1,0 +1,104 @@
+## Review setup
+
+- **Input scope** Full manuscript text (Introduction, Results, Conclusion) without supplementary figures, methods section, or figure images
+- **Assessment boundary** Scientific claims, methodological coherence, and interpretive logic as presented in the text; quantitative fitting details and simulation parameters are not fully assessable without methods and supplementary materials
+- **Shared manuscript claim summary** The authors compare the growth kinetics and local structure of biomolecular condensates formed by a phosphorylatable peptide and polyU RNA under passive (spontaneous) and active (enzyme-driven dephosphorylation) conditions, using time-resolved ultra-small-angle X-ray scattering, confocal microscopy, fluorescence recovery after photobleaching, and coarse-grained molecular dynamics simulations. They report that passive condensates grow by Brownian motion-induced coalescence following classical t^(1/3) scaling, while active condensates initially form network-like mass fractal structures that mature before coalescence, and that active condensates exhibit twice the peptide diffusivity of passive ones.
+- **Visible evidence base** Main-text figures referenced (Figs. 1-8), scattering curve fits, turbidity measurements, confocal microscopy images, FRAP recovery curves, and simulation snapshots as described in text; figure images themselves not provided
+- **Missing materials affecting confidence** Figure images, full methods section, supplementary figures, fitting parameters and uncertainties, simulation force field and validation details, raw data availability
+
+## Reviewer
+
+- **Overall assessment** This manuscript addresses a timely and important question: how enzymatic activity modulates the growth kinetics and internal structure of biomolecular condensates. The multiscale experimental approach combining TR-USAXS with confocal microscopy and simulations is ambitious and well conceived. The passive-condition results showing t^(1/3) scaling over four decades in time are compelling and represent a valuable contribution. However, the active-condition results, while intriguing, rest on a model (mass fractal clusters) whose justification and validation are not fully presented in the visible text. The distinction between the two conditions is the central claim of the paper, and the evidence for the structural difference would benefit from more direct validation. The FRAP result showing a factor of two difference in diffusivity is interesting but the interpretation linking it to fractal structure requires more careful argumentation. Overall, the work is potentially significant but the case is not fully established from the provided materials.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates and liquid-liquid phase separation, soft matter physics, biophysics of membraneless organelles, and those interested in nonequilibrium self-assembly. The multiscale methodology combining synchrotron X-ray scattering with simulations will also interest the scattering community and computational biophysicists studying phase separation.
+- **Major strengths** The combination of TR-USAXS with stopped-flow mixing to access millisecond-to-minute timescales across nanometer-to-micrometer length scales is technically impressive and rare. The observation of classical t^(1/3) coalescence scaling over four decades in time for passive condensates is a clean and significant result. The use of a chemically tunable model system (phosphorylatable peptide) that can be switched between passive and active conditions is elegant. The integration of coarse-grained simulations to interpret molecular-level events complements the experimental observations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central structural claim
+  - **Claim pointer** "actively-formed condensates initially display a local mass fractal structure, which gradually matures upon enzymatic activity before condensates undergo coalescence"
+  - **Evidence pointer** Section 2.3, Fig. 5
+  - **Concern** The claim that active condensates have a mass fractal structure with dimension D below 2 is based on fitting scattering data with a polydisperse mass fractal cluster model. However, the text does not provide sufficient justification for why this model is appropriate, how the fits were validated, what the fit uncertainties are, or whether alternative models (e.g., polydisperse spheres with internal density fluctuations, or core-shell structures) were tested and excluded. The fractal dimension D is reported to increase during maturation, but the statistical significance of this trend is not stated. Without this information, the structural interpretation remains one of several possibilities.
+  - **Why it matters** The difference in local structure between passive and active condensates is the central finding of the paper. If the fractal interpretation is not robustly established, the mechanistic conclusion that enzymatic activity produces loosely packed, network-like condensates is not supported. This distinction underpins the subsequent FRAP interpretation and the proposed growth mechanisms in Fig. 8.
+  - **Resolution test** Provide fit residuals and chi-squared values for the fractal model versus alternative models (e.g., polydisperse spheres, core-shell, or ellipsoids) at representative time points. Report confidence intervals on D and show that the D < 2 regime is statistically distinct from D = 2 (or from the passive case) at early times. If possible, validate the fractal structure with an independent technique (e.g., cryo-EM or super-resolution microscopy).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for mechanism assignment
+  - **Claim pointer** "the fact that K increases with volume fraction suggests that coalescence mostly drives the growth kinetics" and "Brownian motion-induced coalescence mechanism"
+  - **Evidence pointer** Section 2.2, Fig. 2b
+  - **Concern** The assignment of the growth mechanism to Brownian motion-induced coalescence rather than Ostwald ripening rests on the observation that the prefactor K increases with peptide concentration (and hence volume fraction). However, only two concentrations (1,000 and 2,000 µM) are mentioned for this comparison, yielding a ratio of 1.6 versus a theoretical expectation of 2. The text does not report uncertainties on K, the number of independent replicates, or whether the difference between 1.6 and 2 is statistically significant. Moreover, the theoretical prediction K ~ φ assumes a specific model whose validity for this system is not discussed. A single ratio from two concentrations is weak evidence for a mechanistic assignment.
+  - **Why it matters** The distinction between coalescence and Ostwald ripening is a central mechanistic conclusion. If the mechanism is misassigned, the interpretation of the passive growth pathway and the comparison with the active case are compromised. The claim that "coalescence mostly drives" the growth is hedged but still presented as the preferred interpretation.
+  - **Resolution test** Measure K at three or more concentrations spanning a wider range of volume fractions. Report K with confidence intervals and perform a quantitative comparison with the theoretical prediction K = 6k_BTφ/5πη. If the data are insufficient for a definitive assignment, soften the claim to state that the data are "consistent with" coalescence rather than "suggest that coalescence mostly drives" the growth.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive gap between structure and dynamics
+  - **Claim pointer** "This finding agrees well with the loosely-packed, network-like local structure measured for actively-formed condensates, which confers a facilitated translational mobility to peptides"
+  - **Evidence pointer** Section 2.4, Fig. 7
+  - **Concern** The FRAP measurement shows that peptide diffusivity is twice as high in active condensates as in passive ones. The interpretation that this is due to the loosely packed fractal structure is plausible but not directly tested. Alternative explanations include differences in condensate viscosity due to different peptide-RNA stoichiometry, different water content, or different crosslink density. The text does not discuss whether the FRAP measurement itself could be affected by the different condensate sizes or morphologies observed under the two conditions. The connection between fractal dimension and macroscopic diffusivity is asserted rather than derived or measured.
+  - **Why it matters** The FRAP result is presented as corroborating evidence for the structural difference. If the interpretation is not well supported, the coherence of the overall narrative is weakened, and the claim that active condensates are "loosely packed" loses independent support.
+  - **Resolution test** Measure diffusivity of a series of passive condensates with different peptide concentrations (and hence different densities) to establish a correlation between packing and diffusivity. Alternatively, use fluorescence correlation spectroscopy or particle tracking to measure local viscosity. Discuss and rule out alternative explanations for the diffusivity difference.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation-experiment correspondence
+  - **Claim pointer** "Coarse-grained molecular dynamics simulations show that peptide-decorated RNA chains assembled shortly after mixing constitute the relevant subunits"
+  - **Evidence pointer** Section 2.2, Fig. 3
+  - **Concern** The simulations are used to support the claim that peptide-decorated RNA chains are the relevant subunits for passive growth. However, the text does not describe the simulation parameters, the force field, the system size, the timescales accessed, or how the simulation results were mapped onto the experimental observables (e.g., cluster sizes, fractal dimensions). The number of peptides per RNA in the simulation (50) differs from the experimental estimate (approximately 30), and this discrepancy is not discussed. Without this information, the simulation support is suggestive but not quantitatively convincing.
+  - **Why it matters** The claim that peptide-decorated RNA chains are the subunits is a key element of the proposed mechanism. If the simulations are not well matched to the experimental conditions, the support they provide is weakened, and the mechanistic picture is less secure.
+  - **Resolution test** Provide simulation details in the methods, including force field parameters, system composition, and timescales. Discuss the discrepancy in peptide loading per RNA between simulation and experiment. Show that the simulation results are robust to parameter variations and that the cluster growth mechanism is consistent with the experimental observations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model justification
+  - **Affected element** Section 2.2, Eq. 1
+  - **Evidence pointer** Fig. 2
+  - **Issue** The choice of a lognormal size distribution for the polydisperse sphere model is stated but not justified. The text mentions that the distribution "resembles a lognormal distribution" for the confocal data, but the scattering fits assume it a priori.
+  - **Required correction** Briefly justify the lognormal assumption or state that it was tested against alternatives (e.g., Schulz or Gaussian distributions) and found to be adequate.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of parameter reporting
+  - **Affected element** Section 2.3, Eq. 2
+  - **Evidence pointer** Fig. 5
+  - **Issue** The stretched exponential cutoff function with β = 3 is stated to fit "satisfactorily" but no justification for this specific value is given, nor is the sensitivity of the results to β discussed.
+  - **Required correction** State why β = 3 was chosen and whether the fitted parameters (D, ξ) are sensitive to this choice.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.4, Fig. 7
+  - **Evidence pointer** Fig. 7e-f
+  - **Issue** The diffusivity values (0.024 vs 0.012 µm²/s) are presented without error bars or statistical tests. The claim of a "twice as fast" difference needs uncertainty quantification.
+  - **Required correction** Report the number of independent measurements, standard errors or confidence intervals, and a statistical test (e.g., t-test or Mann-Whitney) for the comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Fig. 1d
+  - **Issue** The term "saturation concentration" is used for the peptide threshold for phase separation. This could be confused with the saturation concentration in the context of Ostwald ripening or with the critical concentration for phase separation in the thermodynamic sense.
+  - **Required correction** Clarify the terminology, e.g., "critical aggregation concentration" or "phase separation threshold," and define it operationally.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness of comparison
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Fig. 5
+  - **Issue** The comparison between passive and active conditions is made at the same peptide concentration (1,000 µM), but the active condition uses initially phosphorylated peptide. The total peptide concentration is the same, but the charge state differs. The text does not discuss whether the ionic strength or charge screening effects differ between conditions.
+  - **Required correction** Briefly address whether the different charge states of the peptide (phosphorylated vs dephosphorylated) could affect the electrostatic interactions and hence the comparison.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Figure referencing
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Fig. 1
+  - **Issue** The text references "Fig. " and "Fig. " without numbers in two places (SAXS measurement of peptides and Kratky representation), suggesting incomplete figure numbering.
+  - **Required correction** Ensure all figure references are complete and correctly numbered.
+
+## Risk / unsupported claims
+
+- The claim that active condensates have a mass fractal structure with D below 2 is not fully supported without fit validation and alternative model testing (R1-M1).
+- The assignment of the passive growth mechanism to Brownian motion-induced coalescence based on two concentration points is weakly supported (R1-M2).
+- The interpretation of the FRAP diffusivity difference as arising from fractal structure is asserted without direct evidence or alternative explanations being ruled out (R1-M3).
+- The simulation claim that peptide-decorated RNA chains are the relevant subunits is not quantitatively validated against experimental conditions (R1-M4).
+- The statement that "both types of condensate eventually reach a steady state" is presented without quantitative criteria for what constitutes a steady state or how it was determined.
+- The claim that "kinetic effects modulate the local structure of condensates" is presented as a general conclusion but is only demonstrated for this specific model system.
+- The statement that "a loosely-packed content may be crucial for preventing dynamical arrest" is speculative and not directly tested in this work.
+- The comparison with the study by Wilken et al. regarding hyperuniformity is mentioned but the negative result is not quantified or discussed in detail.

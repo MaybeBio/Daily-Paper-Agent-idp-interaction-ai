@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.08.14.607909",
+  "title": "The structural organisation of pentraxin-3 and its interactions with heavy chains of inter-α-inhibitor regulate crosslinking of the hyaluronan matrix",
+  "authors": "Shah A; Zhang X; Snee M; Lockhart-Cairns MP; Levy CW; Jowitt TA; Birchenough HL; Dean L; Collins R; Dodd RJ; Roberts ARE; Enghild JJ; Mantovani A; Fontana J; Baldock C; Inforzato A; Richter RP; Day AJ",
+  "journal": "bioRxiv",
+  "published_date": "2024-08-14",
+  "window": {
+    "start": "2024-08-12",
+    "end": "2024-08-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过晶体学、冷冻电镜和AlphaFold解析PTX3八聚体结构及其与透明质酸重链的pH依赖性互作，虽涉及蛋白-蛋白互作和结构建模，但对象为折叠蛋白而非无序蛋白/相分离，机制建模深度有限。",
+  "abstract": "<h4>ABSTRACT</h4> Pentraxin-3 (PTX3) is an octameric protein, comprised of eight identical protomers, that has diverse functions in reproductive biology, innate immunity and cancer. PTX3 interacts with the large polysaccharide hyaluronan (HA) to which heavy chains (HCs) of the inter-α-inhibitor (IαI) family of proteoglycans are covalently attached, playing a key role in the (non-covalent) crosslinking of HC•HA complexes. These interactions stabilise the cumulus matrix, essential for ovulation and fertilisation in mammals, and are also implicated in the formation of pathogenic matrices in the context of viral lung infections. To better understand the physiological and pathological roles of PTX3 we have analysed how its quaternary structure underpins HA crosslinking via its interactions with HCs. A combination of X-ray crystallography, cryo-electron microscopy (cryo-EM) and AlphaFold predictive modelling revealed that the C-terminal pentraxin domains of the PTX3 octamer are arranged in a central cube, with two long extensions on either side, each formed from four protomers assembled into tetrameric coiled-coil regions, essentially as described by (Noone et al ., 2022; doi:10.1073/pnas.2208144119). From crystallography and cryo-EM data, we identified a network of inter-protomer salt bridges that facilitate the assembly of the octamer. Small angle X-ray scattering (SAXS) validated our model for the octameric protein, including the analysis of two PTX3 constructs: a tetrameric ‘Half-PTX3’ and a construct missing the 24 N-terminal residues (Δ1-24-PTX3). SAXS determined a length of ∼520 Å for PTX3 and, combined with 3D variability analysis of cryo-EM data, defined the flexibility of the N-terminal extensions. Biophysical analyses revealed that the prototypical heavy chain HC1 does not interact with PTX3 at pH 7.4, consistent with our previous studies showing that, at this pH, PTX3 only associates with HC•HA complexes if they are formed in its presence. However, PTX3 binds to HC1 at acidic pH, and can also be incorporated into pre-formed HC•HA complexes under these conditions. This provides a novel mechanism for the regulation of PTX3-mediated HA crosslinking (e.g., during inflammation), likely mediated by a pH-dependent conformational change in HC1. The PTX3 octamer was found to associate simultaneously with up to eight HC1 molecules and, thus, has the potential to form a major crosslinking node within HC•HA matrices, i.e., where the physical and biochemical properties of resulting matrices could be tuned by the HC/PTX3 composition.",
+  "abstract_zh": "<h4>摘要</h4> Pentraxin-3 (PTX3) 是一种八聚体蛋白，由八个相同的原体组成，在生殖生物学、先天免疫和癌症中具有多种功能。PTX3 与大型多糖透明质酸 (hyaluronan, HA) 相互作用，而 inter-α-inhibitor (IαI) 蛋白聚糖家族的重链 (heavy chains, HCs) 共价附着于该多糖上，在 HC•HA 复合物的（非共价）交联中发挥关键作用。这些相互作用稳定了卵丘基质，这对哺乳动物的排卵和受精至关重要，并且也与病毒性肺部感染背景下致病性基质的形成有关。为了更好地理解 PTX3 的生理和病理作用，我们分析了其四级结构如何通过与其 HCs 的相互作用支撑 HA 交联。结合 X 射线晶体学、冷冻电子显微镜 (cryo-EM) 和 AlphaFold 预测建模，揭示了 PTX3 八聚体的 C 端 pentraxin 结构域排列在中央立方体中，两侧各有两个长延伸，每个延伸由四个原体组装成四聚体卷曲螺旋区域组成，基本上如 (Noone et al., 2022; doi:10.1073/pnas.2208144119) 所述。从晶体学和 cryo-EM 数据中，我们识别了一个原体间盐桥网络，该网络促进八聚体的组装。小角 X 射线散射 (SAXS) 验证了我们针对八聚体蛋白的模型，包括对两种 PTX3 构建体的分析：一种四聚体‘Half-PTX3’和一种缺失 24 个 N 端残基的构建体 (Δ1-24-PTX3)。SAXS 确定了 PTX3 的长度约为 ∼520 Å，并结合 cryo-EM 数据的 3D 变异性分析，定义了 N 端延伸的灵活性。生物物理分析揭示，典型重链 HC1 在 pH 7.4 下不与 PTX3 相互作用，这与我们先前的研究一致，表明在此 pH 下，PTX3 仅在其存在时形成的 HC•HA 复合物结合。然而，PTX3 在酸性 pH 下与 HC1 结合，并且在这些条件下也可以被整合到预先形成的 HC•HA 复合物中。这提供了一种调节 PTX3 介导的 HA 交联的新机制（例如，在炎症期间），可能由 HC1 中 pH 依赖性构象变化介导。发现 PTX3 八聚体同时与多达八个 HC1 分子结合，因此，有可能在 HC•HA 基质中形成主要交联节点，即所得基质的物理和生化特性可通过 HC/PTX3 组成进行调节。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.08.14.607909",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.08.14.607909",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.08.14.607909/index.html"
+}

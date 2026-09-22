@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "41102979",
+    "doi": "10.1002/prot.70062",
+    "title": "Predicting Pose Distribution of Protein Domains Connected by Flexible Linkers Is an Unsolved Problem."
+  },
+  "content": {
+    "abstract": "In CASP16, we assessed the ability of computational methods to predict the distribution of relative orientations of two domains tethered by a flexible linker. The range of interdomain distances and orientations (poses) of such domain-linker-domain (D-L-D) proteins can play an important role in protein function, allostery, aggregation, and the thermodynamics of binding. The CASP16 Conformational Ensembles Experiment included two challenges to predict the interdomain pose distribution of a Staphylococcal protein A (SpA) D-L-D construct, called ZLBT-C, in which two of SpA's five nearly identical domains are connected by either (1) a six-residue wild-type (WT) linker (kadnkf), or (2) an all-glycine (Gly6) linker. The wild-type linker has a highly conserved sequence and is thought to contribute to the energetic barrier for binding with host antibodies. Ground truth was provided by nuclear magnetic resonance (NMR) residual dipolar coupling (RDC) data on WT protein and small angle X-ray scattering (SAXS) data on both proteins in solution. Twenty-five predictor groups submitted 35 sets of predicted conformational distributions, in the form of population-weighted finite ensembles of discrete structures. Unlike traditional CASP assessments that compare predicted atomic models to experimental atomic models, the accuracy of these predictions was assessed by back-calculating NMR RDCs and SAXS curves from each ensemble of atomic models and comparing these results to respective experimental data. Accuracy was also assessed by using kernelization to compare ensembles to the continuous orientational distributions optimally fit to experimental data. In our assessment, predictions spanned a wide range of accuracy, but none were close fits to the combined NMR and SAXS data. In addition, none were able to recapitulate the observed difference between WT and Gly6 proteins, as observed in the SAXS data. These results, and our analysis, highlighted strengths and weaknesses, plus complementarity of NMR RDC and SAXS analysis.",
+    "keywords": [
+      "CASP",
+      "NMR spectroscopy",
+      "SAXS",
+      "intrinsically disordered proteins",
+      "protein flexibility",
+      "residual dipolar couplings",
+      "small-angle X-ray scattering",
+      "staphylococcal protein A",
+      "structural dynamics",
+      "thermodynamic ensembles"
+    ],
+    "mesh_terms": [
+      "Protein Domains",
+      "Models, Molecular",
+      "*Computational Biology/methods",
+      "*Staphylococcal Protein A/chemistry/metabolism",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Thermodynamics",
+      "Protein Conformation",
+      "Protein Binding",
+      "Scattering, Small Angle",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "McBride, Allen C",
+        "Yu, Feng",
+        "Cheng, Edward H",
+        "Mpouli, Aulane",
+        "Soe, Aimee C",
+        "Hammel, Michal",
+        "Montelione, Gaetano T",
+        "Oas, Terrence G",
+        "Tsutakawa, Susan E",
+        "Donald, Bruce R"
+      ],
+      "short_names": [
+        "McBride AC",
+        "Yu F",
+        "Cheng EH",
+        "Mpouli A",
+        "Soe AC",
+        "Hammel M",
+        "Montelione GT",
+        "Oas TG",
+        "Tsutakawa SE",
+        "Donald BR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9440-3059",
+        "ORCID: 0000-0002-4918-4571"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Duke University, Durham, United States.",
+        "Department of Structural Biology, Lawrence Berkeley National Laboratory, Berkeley, United States.",
+        "Department of Chemistry, Duke University, Durham, United States.",
+        "Department of Chemistry, Duke University, Durham, United States.",
+        "Department of Structural Biology, Lawrence Berkeley National Laboratory, Berkeley, United States.",
+        "Department of Structural Biology, Lawrence Berkeley National Laboratory, Berkeley, United States.",
+        "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, United States.",
+        "Department of Biochemistry, Duke University, Durham, United States.",
+        "Department of Structural Biology, Lawrence Berkeley National Laboratory, Berkeley, United States.",
+        "Department of Computer Science, Duke University, Durham, United States.",
+        "Department of Chemistry, Duke University, Durham, United States.",
+        "Department of Biochemistry, Duke University, Durham, United States.",
+        "Department of Mathematics, Duke University, Durham, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "McBride, Allen C",
+        "short_name": "McBride AC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Duke University, Durham, United States."
+        ]
+      },
+      {
+        "full_name": "Yu, Feng",
+        "short_name": "Yu F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Lawrence Berkeley National Laboratory, Berkeley, United States."
+        ]
+      },
+      {
+        "full_name": "Cheng, Edward H",
+        "short_name": "Cheng EH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Duke University, Durham, United States."
+        ]
+      },
+      {
+        "full_name": "Mpouli, Aulane",
+        "short_name": "Mpouli A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Duke University, Durham, United States."
+        ]
+      },
+      {
+        "full_name": "Soe, Aimee C",
+        "short_name": "Soe AC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Lawrence Berkeley National Laboratory, Berkeley, United States."
+        ]
+      },
+      {
+        "full_name": "Hammel, Michal",
+        "short_name": "Hammel M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Structural Biology, Lawrence Berkeley National Laboratory, Berkeley, United States."
+        ]
+      },
+      {
+        "full_name": "Montelione, Gaetano T",
+        "short_name": "Montelione GT",
+        "identifiers": [
+          "0000-0002-9440-3059"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, United States."
+        ]
+      },
+      {
+        "full_name": "Oas, Terrence G",
+        "short_name": "Oas TG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Duke University, Durham, United States."
+        ]
+      },
+      {
+        "full_name": "Tsutakawa, Susan E",
+        "short_name": "Tsutakawa SE",
+        "identifiers": [
+          "0000-0002-4918-4571"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, Lawrence Berkeley National Laboratory, Berkeley, United States."
+        ]
+      },
+      {
+        "full_name": "Donald, Bruce R",
+        "short_name": "Donald BR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Duke University, Durham, United States.",
+          "Department of Chemistry, Duke University, Durham, United States.",
+          "Department of Biochemistry, Duke University, Durham, United States.",
+          "Department of Mathematics, Duke University, Durham, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/17 06:28",
+    "fetched_at": "2026-09-17 21:10:01"
+  },
+  "links": {
+    "cites": [
+      "42427316",
+      "42210062",
+      "42037134",
+      "41204761",
+      "41178755",
+      "41147497",
+      "40890987"
+    ],
+    "refs": [
+      "39412378",
+      "38750793",
+      "37650367",
+      "37155239",
+      "36641214",
+      "36410949",
+      "36103556",
+      "36030416",
+      "35129612",
+      "34559429",
+      "34056803",
+      "33592170",
+      "33482331",
+      "32840111",
+      "31204190",
+      "30554840",
+      "29924964",
+      "29731233",
+      "29314274",
+      "27151198",
+      "26728077",
+      "25456817",
+      "25295398",
+      "24773235",
+      "23972848",
+      "23946100",
+      "23624664",
+      "23026637",
+      "22851279",
+      "21928402",
+      "20607113",
+      "20160991",
+      "18078545",
+      "17984079",
+      "17910448",
+      "17014084",
+      "16305251",
+      "16248635",
+      "14718654",
+      "10341140",
+      "8204609"
+    ],
+    "similar": [
+      "41102979",
+      "40964265",
+      "30840442",
+      "29775635",
+      "25456817",
+      "34310942",
+      "29490245",
+      "28668130",
+      "29924964",
+      "30617833",
+      "25087509",
+      "32840111",
+      "26131693",
+      "41147497",
+      "22095648",
+      "30557358",
+      "20483347",
+      "41073429",
+      "18670889",
+      "30878202",
+      "41002017",
+      "26548662",
+      "27566405",
+      "24530797",
+      "14718654",
+      "34627764",
+      "36076045",
+      "24768114",
+      "23456097",
+      "27720588",
+      "37330294",
+      "30125451",
+      "40475948",
+      "26739383",
+      "22639100",
+      "17522855",
+      "29314274",
+      "26320411",
+      "33177626",
+      "31860156",
+      "20731394",
+      "25295398",
+      "22908850",
+      "34817999",
+      "27844185",
+      "26655855",
+      "32696361",
+      "31589784",
+      "31445067",
+      "26946052",
+      "41432269",
+      "26306428",
+      "22988847",
+      "36641214",
+      "35213160",
+      "18787959",
+      "23811057",
+      "21287984",
+      "34579531",
+      "31904133",
+      "26387105",
+      "16284250",
+      "36641211",
+      "21947276",
+      "30554840",
+      "36306263",
+      "36710010",
+      "34056803",
+      "26807783",
+      "18008171",
+      "12460579",
+      "26474790",
+      "33725442",
+      "17182256",
+      "17488097",
+      "32696370",
+      "37555230",
+      "20184389",
+      "32199983",
+      "38178847",
+      "31396910",
+      "32035901",
+      "29045407",
+      "31676138",
+      "38548260",
+      "37454402",
+      "33524015",
+      "40409637",
+      "39503309",
+      "39651234",
+      "30204435",
+      "31402649",
+      "11457289",
+      "31515908",
+      "19478996",
+      "24364917",
+      "23291239",
+      "32119546",
+      "25673340",
+      "32339173"
+    ],
+    "review": [
+      "41102979",
+      "30840442",
+      "30617833",
+      "26739383",
+      "22639100",
+      "26320411",
+      "31445067",
+      "22988847",
+      "26387105",
+      "36641211",
+      "21947276",
+      "34056803",
+      "26807783",
+      "32199983",
+      "32035901",
+      "37454402"
+    ],
+    "pmc": [
+      "12648682"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41102979/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.70062",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3704",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

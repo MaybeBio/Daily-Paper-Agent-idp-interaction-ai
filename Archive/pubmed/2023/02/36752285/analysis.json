@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36752285",
+  "title": "Chasing long-range evolutionary couplings in the AlphaFold era.",
+  "authors": "Karamanos, Theodoros K",
+  "journal": "Biopolymers",
+  "published_date": "2023-02-09",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 7,
+  "one_liner_zh": "利用AlphaFold结构数据库，从MSA中挖掘无法用空间邻近解释的长程进化耦合，发现其更可能位于无序区域，为无序蛋白介导的远距离功能/变构互作提供可迁移的建模思路。",
+  "abstract": "Coevolution between protein residues is normally interpreted as direct contact. However, the evolutionary record of a protein sequence contains rich information that may include long-range functional couplings, couplings that report on homo-oligomeric states or even conformational changes. Due to the complexity of the sequence space and the lack of structural information on various members of a protein family, it has been difficult to effectively mine the additional information encoded in a multiple sequence alignment (MSA). Here, taking advantage of the recent release of the AlphaFold (AF) database we attempt to identify coevolutionary couplings that cannot be explained simply by spatial proximity. We propose a simple computational method that performs direct coupling analysis on a MSA and searches for couplings that are not satisfied in any of the AF models of members of the identified protein family. Application of this method on 2012 protein families suggests that ~12% of the total identified coevolving residue pairs are spatially distant and more likely to be disordered than their contacting counterparts. We expect that this analysis will help improve the quality of coevolutionary distance restraints used for structure determination and will be useful in identifying potentially functional/allosteric cross-talk between distant residues.",
+  "abstract_zh": "蛋白质残基之间的共进化通常被解释为直接接触。然而，蛋白质序列的进化记录包含丰富的信息，可能涉及长程功能耦合、报告同源寡聚状态甚至构象变化的耦合。由于序列空间的复杂性以及蛋白质家族各成员结构信息的缺乏，有效挖掘多重序列比对（MSA）中编码的额外信息一直较为困难。在此，利用最近发布的AlphaFold（AF）数据库，我们尝试识别无法简单通过空间邻近性解释的共进化耦合。我们提出了一种简单的计算方法，对MSA进行直接耦合分析，并搜索在已识别蛋白质家族成员的任何AF模型中均未满足的耦合。将该方法应用于2012个蛋白质家族，结果表明，总识别共进化残基对中约12%在空间上相距较远，且比其接触对应物更可能处于无序状态。我们预期，这一分析将有助于提高用于结构测定的共进化距离约束的质量，并有助于识别远距离残基之间潜在的功能性或变构交叉对话。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36752285/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36752285/",
+  "paper_page_path": "papers/pubmed/36752285/index.html"
+}

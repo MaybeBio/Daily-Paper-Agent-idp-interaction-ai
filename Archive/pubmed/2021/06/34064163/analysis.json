@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34064163",
+  "title": "Viewing SARS-CoV-2 Nucleocapsid Protein in Terms of Molecular Flexibility.",
+  "authors": "Matsuo, Tatsuhito",
+  "journal": "Biology",
+  "published_date": "2021-06-03",
+  "window": {
+    "start": "2021-05-31",
+    "end": "2021-06-06"
+  },
+  "score": 7,
+  "one_liner_zh": "综述SARS-CoV-2核衣壳蛋白N(CoV2)的分子柔性与无序区域在药物结合和液-液相分离凝聚体形成中的作用，涉及模拟研究，但缺乏具体PPI机制建模的深度。",
+  "abstract": "The latest coronavirus SARS-CoV-2, which causes coronavirus disease 2019 (COVID-19) pneumonia leading to the pandemic, contains 29 proteins. Among them, nucleocapsid protein (N(CoV2)) is one of the abundant proteins and shows multiple functions including packaging the RNA genome during the infection cycle. It has also emerged as a potential drug target. In this review, the current status of the research of N(CoV2) is described in terms of molecular structure and dynamics. N(CoV2) consists of two domains, i.e., the N-terminal domain (NTD) and the C-terminal domain (CTD) with a disordered region between them. Recent simulation studies have identified several potential drugs that can bind to NTD or CTD with high affinity. Moreover, it was shown that the degree of flexibility in the disordered region has a large effect on drug binding rate, suggesting the importance of molecular flexibility for the N(CoV2) function. Molecular flexibility has also been shown to be integral to the formation of droplets, where N(CoV2), RNA and/or other viral proteins gather through liquid-liquid phase separation and considered important for viral replication. Finally, as one of the future research directions, a strategy for obtaining the structural and dynamical information on the proteins contained in droplets is presented.",
+  "abstract_zh": "最新冠状病毒SARS-CoV-2，引发2019冠状病毒病（COVID-19）肺炎并导致大流行，包含29种蛋白质。其中，核衣壳蛋白（N(CoV2)）是丰富蛋白之一，在感染周期中表现出多种功能，包括包装RNA基因组。它也被视为潜在的药物靶点。本综述从分子结构和动力学角度描述了N(CoV2)研究的当前状态。N(CoV2)由两个结构域组成，即N端结构域（NTD）和C端结构域（CTD），两者之间有一个无序区域。最近的模拟研究已识别出几种能够高亲和力结合NTD或CTD的潜在药物。此外，研究表明，无序区域的柔韧性程度对药物结合速率有显著影响，提示分子柔韧性对N(CoV2)功能的重要性。分子柔韧性也被证明是液滴形成的关键因素，其中N(CoV2)、RNA和/或其他病毒蛋白通过液-液相分离 (liquid-liquid phase separation) 聚集，并被认为对病毒复制至关重要。最后，作为未来研究方向之一，提出了获取液滴中蛋白质结构和动力学信息的策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34064163/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34064163/",
+  "paper_page_path": "papers/pubmed/34064163/index.html"
+}

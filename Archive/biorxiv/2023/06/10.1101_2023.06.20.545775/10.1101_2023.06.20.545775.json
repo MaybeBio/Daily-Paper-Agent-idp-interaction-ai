@@ -1,0 +1,152 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.20.545775",
+  "title": "Delineating Structural Propensities of the 4E-BP2 Protein via Integrative Modelling and Clustering",
+  "doi": "10.1101/2023.06.20.545775",
+  "abstract": "<h4>ABSTRACT</h4> The intrinsically disordered 4E-BP2 protein regulates mRNA cap-dependent translation through the interaction with the predominantly folded eukaryotic initiation factor 4E (eIF4E). Phosphorylation of 4E-BP2 dramatically reduces eIF4E binding, in part by stabilizing a binding- incompatible folded domain (REF). Here, we used a Rosetta-based sampling algorithm optimized for IDRs to generate initial ensembles for two phospho forms of 4E-BP2, non- and five-fold phosphorylated (NP and 5P, respectively), with the 5P folded domain flanked by N- and C-terminal IDRs (N-IDR and C-IDR, respectively). We then applied an integrative Bayesian approach to obtain NP and 5P conformational ensembles that agree with experimental data from nuclear magnetic resonance, small-angle X-ray scattering and single-molecule Förster resonance energy transfer (smFRET). For the NP state, inter-residue distance scaling and 2D maps revealed the role of charge segregation and pi interactions in driving contacts between distal regions of the chain (∼70 residues apart). The 5P ensemble shows prominent contacts of the N-IDR region with the two phosphosites in the folded domain, pT37 and pT46, and, to a lesser extent, delocalized interactions with the C-IDR region. Agglomerative hierarchical clustering led to partitioning of each of the two ensembles into four clusters, with different global dimensions and contact maps. This helped delineate an NP cluster that, based on our smFRET data, is compatible with the eIF4E-bound state. 5P clusters were differentiated by interactions of C-IDR with the folded domain and of the N-IDR with the two phosphosites in the folded domain. Our study provides both a better visualization of fundamental structural poses of 4E-BP2 and a set of falsifiable insights on intrachain interactions that bias folding and binding of this protein.",
+  "authors": [
+    "Tsangaris TE",
+    "Smyth S",
+    "Gomes GW",
+    "Liu ZH",
+    "Milchberg M",
+    "Bah A",
+    "Wasney GA",
+    "Forman-Kay JD",
+    "Gradinaru CC"
+  ],
+  "published_date": "2023-06-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.20.545775",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.20.545775.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR680137",
+    "raw_record": {
+      "id": "PPR680137",
+      "source": "PPR",
+      "doi": "10.1101/2023.06.20.545775",
+      "title": "Delineating Structural Propensities of the 4E-BP2 Protein via Integrative Modelling and Clustering",
+      "authorString": "Tsangaris TE, Smyth S, Gomes GW, Liu ZH, Milchberg M, Bah A, Wasney GA, Forman-Kay JD, Gradinaru CC.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tsangaris TE",
+            "lastName": "Tsangaris",
+            "firstName": "Thomas",
+            "initials": "TE"
+          },
+          {
+            "fullName": "Smyth S",
+            "lastName": "Smyth",
+            "firstName": "Spencer",
+            "initials": "S"
+          },
+          {
+            "fullName": "Gomes GW",
+            "lastName": "Gomes",
+            "firstName": "Gregory-Neal",
+            "initials": "GW"
+          },
+          {
+            "fullName": "Liu ZH",
+            "lastName": "Liu",
+            "firstName": "Zi Hao",
+            "initials": "ZH"
+          },
+          {
+            "fullName": "Milchberg M",
+            "lastName": "Milchberg",
+            "firstName": "Moses",
+            "initials": "M"
+          },
+          {
+            "fullName": "Bah A",
+            "lastName": "Bah",
+            "firstName": "Alaji",
+            "initials": "A"
+          },
+          {
+            "fullName": "Wasney GA",
+            "lastName": "Wasney",
+            "firstName": "Gregory",
+            "initials": "GA"
+          },
+          {
+            "fullName": "Forman-Kay JD",
+            "lastName": "Forman-Kay",
+            "firstName": "Julie",
+            "initials": "JD"
+          },
+          {
+            "fullName": "Gradinaru CC",
+            "lastName": "Gradinaru",
+            "firstName": "Claudiu",
+            "initials": "CC"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  The intrinsically disordered 4E-BP2 protein regulates mRNA cap-dependent translation through the interaction with the predominantly folded eukaryotic initiation factor 4E (eIF4E). Phosphorylation of 4E-BP2 dramatically reduces eIF4E binding, in part by stabilizing a binding- incompatible folded domain (REF). Here, we used a Rosetta-based sampling algorithm optimized for IDRs to generate initial ensembles for two phospho forms of 4E-BP2, non- and five-fold phosphorylated (NP and 5P, respectively), with the 5P folded domain flanked by N- and C-terminal IDRs (N-IDR and C-IDR, respectively). We then applied an integrative Bayesian approach to obtain NP and 5P conformational ensembles that agree with experimental data from nuclear magnetic resonance, small-angle X-ray scattering and single-molecule Förster resonance energy transfer (smFRET). For the NP state, inter-residue distance scaling and 2D maps revealed the role of charge segregation and pi interactions in driving contacts between distal regions of the chain (∼70 residues apart). The 5P ensemble shows prominent contacts of the N-IDR region with the two phosphosites in the folded domain, pT37 and pT46, and, to a lesser extent, delocalized interactions with the C-IDR region. Agglomerative hierarchical clustering led to partitioning of each of the two ensembles into four clusters, with different global dimensions and contact maps. This helped delineate an NP cluster that, based on our smFRET data, is compatible with the eIF4E-bound state. 5P clusters were differentiated by interactions of C-IDR with the folded domain and of the N-IDR with the two phosphosites in the folded domain. Our study provides both a better visualization of fundamental structural poses of 4E-BP2 and a set of falsifiable insights on intrachain interactions that bias folding and binding of this protein.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/22/2023.06.20.545775.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.20.545775"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-06-26",
+      "firstPublicationDate": "2023-06-22",
+      "firstIndexDate": "2023-06-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

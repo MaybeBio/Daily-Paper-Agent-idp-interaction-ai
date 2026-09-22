@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "41463297",
+    "doi": "10.3390/biom15121641",
+    "title": "Definition and Discovery of Tandem SH3-Binding Motifs Interacting with Members of the p47(phox)-Related Protein Family."
+  },
+  "content": {
+    "abstract": "SH3 domains are widespread protein modules that mostly bind to proline-rich short linear motifs (SLiMs). Most known SH3 domain-motif interactions and canonical or non-canonical recognition specificities are described for individual SH3 domains. Although cooperation and coordinated motif binding between tandem SH3 domains has already been described for members of the p47(phox)-related protein family, individual cases have never been collected and analyzed collectively, which precluded the definition of the binding preferences and targeted discovery of further instances. Here, we apply an integrative approach that includes data collection, curation, bioinformatics analyses and state-of-the-art structure prediction methods to fill these gaps. A search of the human proteome with the sequence signatures of SH3 tandemization and follow-up structure analyses suggest that SH3 tandemization could be specific for this family. We define the optimal binding preference of tandemly arranged SH3 domains as [PAVIL]PPR[PR][;DE][;DE] and propose potential new instances of this SLiM among the family members and their binding partners. Structure predictions suggest the possibility of a novel, reverse binding mode for certain motif instances. In all, our comprehensive analysis of this unique SH3 binding mode enabled the identification of novel, interesting tandem SH3-binding motif candidates with potential therapeutic relevance.",
+    "keywords": [
+      "AlphaFold interaction prediction",
+      "domain-motif interactions",
+      "eukaryotic linear motifs",
+      "evolutionary conservation",
+      "intrinsically disordered proteins",
+      "protein-protein interaction",
+      "short linear motifs"
+    ],
+    "mesh_terms": [
+      "*src Homology Domains",
+      "Humans",
+      "Protein Binding",
+      "*NADPH Oxidases/metabolism/chemistry",
+      "Amino Acid Motifs",
+      "Binding Sites",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kalman, Zsofia E",
+        "Lazar, Tamas",
+        "Dobson, Laszlo",
+        "Pancsa, Rita"
+      ],
+      "short_names": [
+        "Kalman ZE",
+        "Lazar T",
+        "Dobson L",
+        "Pancsa R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4634-0433",
+        "ORCID: 0000-0001-7496-6711",
+        "ORCID: 0000-0003-2765-3872",
+        "ORCID: 0000-0003-0849-9312"
+      ],
+      "affiliations": [
+        "Faculty of Information Technology and Bionics, Pazmany Peter Catholic University, 1088 Budapest, Hungary.",
+        "Structural Biology Brussels (SBB), Department of Bioengineering Sciences, Vrije Universiteit Brussel (VUB), 1050 Brussels, Belgium.",
+        "VIB-VUB Center for Structural Biology, Vlaams Instituut voor Biotechnologie (VIB), 1050 Brussels, Belgium.",
+        "Department of Bioinformatics, Semmelweis University, Tuzolto u. 7, 1094 Budapest, Hungary.",
+        "Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, 1117 Budapest, Hungary.",
+        "Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, 1117 Budapest, Hungary."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kalman, Zsofia E",
+        "short_name": "Kalman ZE",
+        "identifiers": [
+          "0000-0003-4634-0433"
+        ],
+        "affiliations": [
+          "Faculty of Information Technology and Bionics, Pázmány Péter Catholic University, 1088 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Lazar, Tamas",
+        "short_name": "Lazar T",
+        "identifiers": [
+          "0000-0001-7496-6711"
+        ],
+        "affiliations": [
+          "Structural Biology Brussels (SBB), Department of Bioengineering Sciences, Vrije Universiteit Brussel (VUB), 1050 Brussels, Belgium.",
+          "VIB-VUB Center for Structural Biology, Vlaams Instituut voor Biotechnologie (VIB), 1050 Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Dobson, Laszlo",
+        "short_name": "Dobson L",
+        "identifiers": [
+          "0000-0003-2765-3872"
+        ],
+        "affiliations": [
+          "Department of Bioinformatics, Semmelweis University, Tűzoltó u. 7, 1094 Budapest, Hungary.",
+          "Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, 1117 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Pancsa, Rita",
+        "short_name": "Pancsa R",
+        "identifiers": [
+          "0000-0003-0849-9312"
+        ],
+        "affiliations": [
+          "Institute of Molecular Life Sciences, HUN-REN Research Centre for Natural Sciences, 1117 Budapest, Hungary."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2025 Nov 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/30 07:41",
+    "fetched_at": "2026-09-17 23:28:50"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40671631",
+      "40638710",
+      "40326522",
+      "40080667",
+      "39565202",
+      "39552041",
+      "39446390",
+      "39402428",
+      "39282643",
+      "39234565",
+      "38985526",
+      "38747347",
+      "38718835",
+      "38686797",
+      "38363808",
+      "38275820",
+      "38238291",
+      "38225382",
+      "37962385",
+      "37962356",
+      "37933859",
+      "37894817",
+      "37774136",
+      "37626864",
+      "37468638",
+      "37156916",
+      "36753519",
+      "36674824",
+      "35637307",
+      "35271311",
+      "34761267",
+      "34676613",
+      "34360869",
+      "34265844",
+      "33289895",
+      "33143131",
+      "33070389",
+      "32696353",
+      "31506351",
+      "30659095",
+      "30476227",
+      "30445427",
+      "30397184",
+      "29910111",
+      "28890361",
+      "28235806",
+      "27802184",
+      "27173435",
+      "27153630",
+      "25825872",
+      "24999761",
+      "24926813",
+      "24081580",
+      "23663663",
+      "23090967",
+      "22891260",
+      "22260678",
+      "21988835",
+      "21909575",
+      "21658605",
+      "20454568",
+      "20404169",
+      "19755709",
+      "19531213",
+      "19464300",
+      "19268472",
+      "19144821",
+      "18644376",
+      "18508559",
+      "17387114",
+      "17126813",
+      "16636290",
+      "16460309",
+      "16456539",
+      "16326715",
+      "16228008",
+      "16052631",
+      "15147273",
+      "14648622",
+      "12829691",
+      "12732142",
+      "12716910",
+      "12620234",
+      "12618429",
+      "12615925",
+      "11133775",
+      "10899172",
+      "10559253",
+      "10391914",
+      "10091661",
+      "8294442",
+      "8202490",
+      "8188650",
+      "7938008",
+      "7802869",
+      "7526465",
+      "7510218"
+    ],
+    "similar": [
+      "41463297",
+      "12169629",
+      "7938008",
+      "10391914",
+      "12650641",
+      "15929943",
+      "31872783",
+      "21098279",
+      "39698111",
+      "34360869",
+      "19464300",
+      "11373621",
+      "8824280",
+      "16446784",
+      "40758840",
+      "15657040",
+      "12672956",
+      "9624128",
+      "9461621",
+      "17118402",
+      "15147273",
+      "16326715",
+      "21112296",
+      "16766517",
+      "27393996",
+      "17189480",
+      "10986122",
+      "28002650",
+      "12732142",
+      "24021866",
+      "28890361",
+      "37793087",
+      "27210447",
+      "15834155",
+      "18955169",
+      "8766817",
+      "38275820",
+      "26296892",
+      "9624165",
+      "27440912",
+      "9083043",
+      "9343926",
+      "18831792",
+      "36674928",
+      "18828911",
+      "28104445",
+      "18508559",
+      "21879107",
+      "8643668",
+      "8703027",
+      "19323566",
+      "12356722",
+      "27443979",
+      "11101511",
+      "15209505",
+      "22745667",
+      "20509626",
+      "10559253",
+      "7536925",
+      "33467043",
+      "8206939",
+      "9121467",
+      "7479908",
+      "26068101",
+      "8761480",
+      "18778683",
+      "12620234",
+      "7799925",
+      "32780150",
+      "10982817",
+      "8605874",
+      "26893375",
+      "10856234",
+      "26387106",
+      "9171351",
+      "10508163",
+      "18644376",
+      "12773374",
+      "13129930",
+      "28387819",
+      "29980598",
+      "26861823",
+      "16351739",
+      "38408543",
+      "24970888",
+      "10788501",
+      "22468754",
+      "18672905",
+      "9490029",
+      "7929055",
+      "24018043",
+      "11278853",
+      "10903934",
+      "18537677",
+      "15743816",
+      "9778343",
+      "15882055",
+      "18067320",
+      "14978303",
+      "8757285"
+    ],
+    "review": [
+      "41463297",
+      "18508559",
+      "26387106"
+    ],
+    "pmc": [
+      "12730246"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom15121641",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41463297/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FHL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

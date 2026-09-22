@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "41535729",
+    "doi": "10.1021/acs.jpcb.5c07950",
+    "title": "Tuning the Liquid-Liquid Phase Separation of FUS by Phosphorylation: A Role of Domain-Specific Compensation."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates, a type of subcellular or membraneless organelle, form through liquid-liquid phase separation (LLPS) driven by multivalent interactions. As an RNA-binding protein, FUS participates in biological processes by forming dynamic liquid condensates via LLPS, with its abnormal fibrous aggregation associated with neurodegenerative disorders such as amyotrophic lateral sclerosis (ALS). Experiments show that phosphorylation inhibits LLPS of the FUS low-complexity domain (LCD) under low salt conditions, whereas for full-length FUS, phosphorylation does not block initial LLPS but inhibits the conversion of liquid droplets to toxic aggregates. The molecular mechanism underlying the difference between the two remains unknown. In this molecular dynamics simulation study, we examined condensate structural characteristics and compared wild-type (WT) versus phosphorylated condensates, revealing the molecular details of how full-length FUS avoids LLPS impairment through synergistic compensatory regulation among various domains. As for the FUS-LCD system, the extent to which their LLPS is reduced by phosphorylation is associated with the number of phosphorylation sites. Moreover, we have developed a model for analyzing the viscoelasticity of the condensates, which revealed that altered interaction patterns impact condensate viscoelasticity. This study characterizes the postphosphorylation architecture of FUS condensates and elucidates the molecular mechanisms by which phosphorylation regulates condensate formation and properties.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phosphorylation",
+      "*RNA-Binding Protein FUS/chemistry/metabolism",
+      "Phase Separation",
+      "Molecular Dynamics Simulation",
+      "Protein Domains",
+      "Humans",
+      "Biomolecular Condensates/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tong, Si-Cheng",
+        "Zhang, Jin",
+        "Diao, Chen-Jiao",
+        "Zhao, Li",
+        "Lu, Zhong-Yuan"
+      ],
+      "short_names": [
+        "Tong SC",
+        "Zhang J",
+        "Diao CJ",
+        "Zhao L",
+        "Lu ZY"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7884-0091"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China.",
+        "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China.",
+        "School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "School of Life Sciences, Jilin University, Changchun 130012, China.",
+        "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tong, Si-Cheng",
+        "short_name": "Tong SC",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jin",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Diao, Chen-Jiao",
+        "short_name": "Diao CJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Li",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Zhong-Yuan",
+        "short_name": "Lu ZY",
+        "identifiers": [
+          "0000-0001-7884-0091"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 Jan 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/15 16:13",
+    "fetched_at": "2026-09-17 23:51:24"
+  },
+  "links": {
+    "cites": [
+      "42465288"
+    ],
+    "refs": [],
+    "similar": [
+      "41535729",
+      "40516596",
+      "35709363",
+      "35943083",
+      "38029395",
+      "29677513",
+      "33515602",
+      "33307683",
+      "34156864",
+      "34233002",
+      "34862761",
+      "39302099",
+      "34624313",
+      "37211763",
+      "38632300",
+      "37179431",
+      "33547841",
+      "28924037",
+      "31270472",
+      "38070499",
+      "32231288",
+      "39486437",
+      "37155880",
+      "40842365",
+      "31188823",
+      "40164149",
+      "39342654",
+      "28942918",
+      "41311968",
+      "36841957",
+      "41587927",
+      "38593618",
+      "41360394",
+      "41415473",
+      "29511089",
+      "37735186",
+      "36268634",
+      "40616404",
+      "41363845",
+      "41656808",
+      "34487489",
+      "41238911",
+      "31805282",
+      "37130459",
+      "41524628",
+      "39756021",
+      "34767801",
+      "40098319",
+      "30205960",
+      "33159856",
+      "34787417",
+      "38231854",
+      "41307542",
+      "33081049",
+      "37549257",
+      "32426986",
+      "38492239",
+      "38526948",
+      "28790177",
+      "30948513",
+      "36690069",
+      "41480717",
+      "40794831",
+      "35727989",
+      "34654750",
+      "37009800",
+      "40654645",
+      "37961424",
+      "37231298",
+      "39495179",
+      "35182479",
+      "38279531",
+      "30814253",
+      "39052476",
+      "41001641",
+      "36416085",
+      "40748104",
+      "34787357",
+      "33607084",
+      "38157426",
+      "38446061",
+      "32976566",
+      "35372329",
+      "31630970",
+      "40539959",
+      "42072614",
+      "41933903",
+      "38251748",
+      "26317470",
+      "37735903",
+      "39535884",
+      "29897835",
+      "36310223",
+      "39987501",
+      "41794289",
+      "39116032",
+      "37720552",
+      "29547565",
+      "35320731",
+      "40281357"
+    ],
+    "review": [
+      "41535729",
+      "38029395",
+      "41587927",
+      "36268634",
+      "40616404",
+      "39756021",
+      "34767801",
+      "41307542",
+      "30948513",
+      "41480717",
+      "37009800",
+      "32976566",
+      "35372329",
+      "37735903",
+      "37720552"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c07950",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34894985",
+  "title": "Surveying over 100 predictors of intrinsic disorder in proteins.",
+  "authors": "Zhao, Bi; Kurgan, Lukasz",
+  "journal": "Expert review of proteomics",
+  "published_date": "2021-12-14",
+  "window": {
+    "start": "2021-12-13",
+    "end": "2021-12-19"
+  },
+  "score": 5,
+  "one_liner_zh": "综述了100多种无序蛋白预测器，涵盖机器学习到深度学习的演进，但未涉及PPI互作机制或物理模拟，仅作为IDP预测方法背景参考。",
+  "abstract": "INTRODUCTION: Intrinsic disorder prediction field develops, assesses, and deploys computational predictors of disorder in protein sequences and constructs and disseminates databases of these predictions. Over 40 years of research resulted in the release of numerous resources. AREAS COVERED: We identify and briefly summarize the most comprehensive to date collection of over 100 disorder predictors. We focus on their predictive models, availability and predictive performance. We categorize and study them from a historical point of view to highlight informative trends. EXPERT OPINION: We find a consistent trend of improvements in predictive quality as newer and more advanced predictors are developed. The original focus on machine learning methods has shifted to meta-predictors in early 2010s, followed by a recent transition to deep learning. The use of deep learners will continue in foreseeable future given recent and convincing success of these methods. Moreover, a broad range of resources that facilitate convenient collection of accurate disorder predictions is available to users. They include web servers and standalone programs for disorder prediction, servers that combine prediction of disorder and disorder functions, and large databases of pre-computed predictions. We also point to the need to address the shortage of accurate methods that predict disordered binding regions.",
+  "abstract_zh": "引言：内在无序预测领域致力于开发、评估和部署用于预测蛋白质序列中无序区域的计算工具，并构建和传播这些预测结果的数据库。超过40年的研究已催生大量资源的发布。涵盖领域：我们识别并简要总结了迄今为止最全面的、包含100多种无序预测器的集合。我们重点关注其预测模型、可用性和预测性能，并从历史角度对其进行分类和研究，以突出有信息量的趋势。专家意见：我们发现，随着更新、更先进的预测器被开发出来，预测质量呈现持续改进的趋势。最初对机器学习方法的关注在2010年代初转向了元预测器，随后近期又转向深度学习。鉴于这些方法近期取得的令人信服的成功，深度学习的使用在可预见的未来将继续。此外，用户可获得多种资源，便于便捷收集准确的无序预测结果，包括用于无序预测的网络服务器和独立程序、结合无序及无序功能预测的服务器，以及大型预计算预测数据库。我们还指出，需要解决预测无序结合区域准确方法短缺的问题。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34894985/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34894985/",
+  "paper_page_path": "papers/pubmed/34894985/index.html"
+}

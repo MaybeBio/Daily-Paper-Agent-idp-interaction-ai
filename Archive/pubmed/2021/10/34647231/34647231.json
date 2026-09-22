@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "34647231",
+    "doi": "10.1007/s11095-021-03119-4",
+    "title": "Revisit PEG-Induced Precipitation Assay for Protein Solubility Assessment of Monoclonal Antibody Formulations."
+  },
+  "content": {
+    "abstract": "PURPOSE: Protein solubility is an important attribute of pharmaceutical monoclonal antibody (MAb) formulations, particularly at high MAb concentrations. PEG-induced protein precipitation has been routinely used to assess protein solubility. To provide insights for better understanding and implementation of PEG-induced protein precipitation assay, this work compares different solubility measures and examines their relevance to loss of protein solubility in concentrated formulations. METHODS: Solubility of a MAb in 15 formulations was evaluated using PEG-induced precipitation assay. Three apparent protein solubility measures, the middle-point and onset PEG concentrations (c(mid) and c(onset)) as well as the binding free energy (mu(B)), were obtained from the PEG-induced protein precipitation assay and compared to the DLS protein interaction parameter (k(D)). Visual inspection of loss of protein solubility in concentrated formulations during storage was used to further examine the discrepancy of protein solubility ranking by these measures. RESULTS: PEG-induced precipitation assay predicted overall protein solubility ranking similar to that by DLS k(D). However, for three formulations with ionic excipients NaCl, Arg.Cl, and Arg.Glu.Cl, PEG-induced precipitation assay yielded more accurate predictions compared to DLS k(D) measurements. Furthermore, mu(B) showed superior ability in distinguishing protein solubility for these formulations. CONCLUSIONS: This study demonstrated good correlations between the protein solubility measures obtained from PEG-induced precipitation experiments and DLS k(D) measurement. It also provides one example in which protein solubility ranking by binding free energy is more accurate than the other measures. The results support the theoretical proposition that mu(B) has a potential to serve as standard protein solubility measure.",
+    "keywords": [
+      "Concentrated formulation",
+      "Liquid-liquid phase separation (LLPS)",
+      "Monoclonal antibody (MAb)",
+      "PEG-induced precipitation",
+      "Protein solubility"
+    ],
+    "mesh_terms": [
+      "Antibodies, Monoclonal/*chemistry/therapeutic use",
+      "Chemistry, Pharmaceutical/methods",
+      "Polyethylene Glycols/*chemistry",
+      "Solubility"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Scannell, Martha J",
+        "Hyatt, Matthew W",
+        "Budyak, Ivan L",
+        "Woldeyes, Mahlet A",
+        "Wang, Ying"
+      ],
+      "short_names": [
+        "Scannell MJ",
+        "Hyatt MW",
+        "Budyak IL",
+        "Woldeyes MA",
+        "Wang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6370-4134"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of North Carolina Wilmington, 601 S. College Road, Wilmington, NC, 28403, USA.",
+        "Lilly Research Laboratories, Bioproduct Research and Development, Eli Lilly and Company, Indianapolis, IN, 46285, USA.",
+        "Lilly Research Laboratories, Bioproduct Research and Development, Eli Lilly and Company, Indianapolis, IN, 46285, USA.",
+        "Lilly Research Laboratories, Bioproduct Research and Development, Eli Lilly and Company, Indianapolis, IN, 46285, USA. woldeyes_mahlet@lilly.com.",
+        "Department of Chemistry and Biochemistry, University of North Carolina Wilmington, 601 S. College Road, Wilmington, NC, 28403, USA. wangyy@uncw.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Scannell, Martha J",
+        "short_name": "Scannell MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of North Carolina Wilmington, 601 S. College Road, Wilmington, NC, 28403, USA."
+        ]
+      },
+      {
+        "full_name": "Hyatt, Matthew W",
+        "short_name": "Hyatt MW",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Bioproduct Research and Development, Eli Lilly and Company, Indianapolis, IN, 46285, USA."
+        ]
+      },
+      {
+        "full_name": "Budyak, Ivan L",
+        "short_name": "Budyak IL",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Bioproduct Research and Development, Eli Lilly and Company, Indianapolis, IN, 46285, USA."
+        ]
+      },
+      {
+        "full_name": "Woldeyes, Mahlet A",
+        "short_name": "Woldeyes MA",
+        "identifiers": [],
+        "affiliations": [
+          "Lilly Research Laboratories, Bioproduct Research and Development, Eli Lilly and Company, Indianapolis, IN, 46285, USA. woldeyes_mahlet@lilly.com."
+        ]
+      },
+      {
+        "full_name": "Wang, Ying",
+        "short_name": "Wang Y",
+        "identifiers": [
+          "0000-0001-6370-4134"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of North Carolina Wilmington, 601 S. College Road, Wilmington, NC, 28403, USA. wangyy@uncw.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmaceutical research"
+    ],
+    "journal_abbrev": [
+      "Pharm Res"
+    ],
+    "pub_date": "2021 Nov",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/15 06:00",
+    "fetched_at": "2026-09-20 05:57:09"
+  },
+  "links": {
+    "cites": [
+      "42382974",
+      "41502674",
+      "41277089",
+      "40053704",
+      "37191233"
+    ],
+    "refs": [
+      "33514069",
+      "32483267",
+      "32197816",
+      "31681303",
+      "31487466",
+      "31337677",
+      "30913963",
+      "30665000",
+      "30145245",
+      "30017887",
+      "29045869",
+      "28807783",
+      "28576695",
+      "28106257",
+      "27806265",
+      "27368120",
+      "26869409",
+      "26682236",
+      "25529996",
+      "24810917",
+      "24700358",
+      "24679215",
+      "24089716",
+      "23740802",
+      "21921237",
+      "21894928",
+      "21280052",
+      "20665695",
+      "20345171",
+      "18160663",
+      "17266278",
+      "15779919",
+      "15325646",
+      "15264823",
+      "12925745",
+      "12717013",
+      "12391331",
+      "12115400",
+      "10062642",
+      "9302288",
+      "4074322",
+      "1304392"
+    ],
+    "similar": [
+      "34647231",
+      "37867303",
+      "28106257",
+      "27368120",
+      "21280052",
+      "23740802",
+      "32197816",
+      "25559441",
+      "26407030",
+      "26520020",
+      "30395473",
+      "30913963",
+      "32583625",
+      "36668814",
+      "33555888",
+      "28754261",
+      "34225583",
+      "27981848",
+      "27380437",
+      "30535587",
+      "31487466",
+      "20014099",
+      "26455339",
+      "25835267",
+      "25556561",
+      "28614662",
+      "31342417",
+      "8592668",
+      "29030532",
+      "24679215",
+      "25989509",
+      "36226348",
+      "24036248",
+      "29229331",
+      "30236644",
+      "26849155",
+      "26419285",
+      "32380027",
+      "28690199",
+      "31201906",
+      "20159037",
+      "24318171",
+      "17705287",
+      "26551593",
+      "25691715",
+      "22716467",
+      "19236839",
+      "24392929",
+      "36380169",
+      "26528726",
+      "9218150",
+      "25808186",
+      "25660529",
+      "29135256",
+      "31866444",
+      "30267438",
+      "17380261",
+      "16046087",
+      "28130198",
+      "29355594",
+      "22881446",
+      "33754257",
+      "30128780",
+      "18824225",
+      "37209519",
+      "29499299",
+      "25490694",
+      "25817600",
+      "22280478",
+      "23624326",
+      "20401522",
+      "25058571",
+      "21319164",
+      "21414942",
+      "20604829",
+      "31887053",
+      "26657350",
+      "15820404",
+      "18809481",
+      "26419339",
+      "37218059",
+      "27876584",
+      "29045869",
+      "24944002",
+      "21312375",
+      "17238195",
+      "12391331",
+      "25832501",
+      "24634063",
+      "7298647",
+      "2212652",
+      "22001847",
+      "19508891",
+      "21277826",
+      "22465658",
+      "26797970",
+      "25362811",
+      "27017836",
+      "26048747",
+      "18583114",
+      "21953825",
+      "25641961"
+    ],
+    "review": [
+      "34647231",
+      "27017836"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/s11095-021-03119-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-GST+Mu1-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

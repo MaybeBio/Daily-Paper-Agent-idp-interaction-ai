@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary materials were available for evaluation
+- **Shared manuscript claim summary** The authors report systematic measurement of amino acid–amino acid interactions (AAIs) via mutual solubility of 15 uncharged amino acids in 20 amino-acid-based solutions, deriving transfer free energies. They claim that aromatic amino acids are stabilized by cationic amino acids, and that glutamine, asparagine, and methionine are stabilized by charged amino acids. They further claim successful solubilization of peptide segments in LLPS-related domains and that multivariate analysis shows their dataset captures factors beyond existing amino-acid indices, enabling improved LLPS prediction and sequence design.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or figures were provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, numerical solubility and transfer free energy data, multivariate analysis details, peptide solubilization experimental results, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable experimental framework for quantifying amino acid–amino acid interactions via solubility measurements, with clear relevance to understanding and predicting protein liquid-liquid phase separation. The conceptual approach is interesting and the reported findings, if robustly supported, could be of interest to the biophysics and protein chemistry communities. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the measurements, the statistical robustness of the conclusions, or the generalizability of the proposed framework. The claims regarding successful solubilization of LLPS-related peptide segments and the superiority of the dataset over existing amino-acid indices are particularly difficult to assess without quantitative results and comparative analyses.
+- **Who would be interested in the results, and why** Researchers studying protein liquid-liquid phase separation, biomolecular condensates, and intrinsically disordered proteins would be interested because the work addresses a fundamental gap in quantitative understanding of amino acid interactions that drive LLPS. Additionally, computational biologists developing predictors of phase-separating sequences and protein engineers designing synthetic condensates or soluble protein variants would find the proposed framework potentially useful for rational sequence design.
+- **Major strengths** The study addresses a significant and timely problem, namely the quantitative evaluation of amino acid interactions underlying LLPS. The experimental design, using mutual solubility to derive transfer free energies, is conceptually elegant and potentially more direct than computational predictions. The systematic coverage of 15 amino acids against 20 solutions represents a substantial dataset. The discovery that glutamine, asparagine, and methionine are stabilized by charged amino acids is a specific and potentially novel finding with direct relevance to LLPS-prone sequences.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim to have systematically measured AAIs based on mutual solubility and derived transfer free energies for 15 uncharged amino acids in 20 amino-acid-based solutions.  
+  - **Evidence pointer** Methods section, location not provided  
+  - **Concern** The abstract provides no information on experimental conditions, such as temperature, pH, ionic strength, buffer composition, or concentration ranges. These parameters critically affect amino acid solubility and interaction energetics. Without this information, the reproducibility and comparability of the measurements cannot be assessed.  
+  - **Why it matters** Solubility measurements are highly sensitive to solution conditions. If conditions are not carefully controlled and reported, the derived transfer free energies may not be thermodynamically meaningful or comparable across different amino acid pairs. This directly affects the validity of all subsequent conclusions.  
+  - **Resolution test** Provide full experimental details in the methods section, including exact buffer compositions, pH, temperature, and concentration ranges for both the amino acids being dissolved and the background solutions. Demonstrate reproducibility with replicate measurements and appropriate error analysis.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical robustness  
+  - **Claim pointer** The authors claim that glutamine, asparagine, and methionine are stabilized by charged amino acids, and that aromatic amino acids are stabilized by cationic amino acids.  
+  - **Evidence pointer** Results section, location not provided  
+  - **Concern** The abstract does not report any statistical analysis supporting these claims. No effect sizes, confidence intervals, p-values, or multiple testing corrections are mentioned. With 15 amino acids measured against 20 solutions, there are 300 pairwise combinations, creating substantial risk of false positives without appropriate statistical controls.  
+  - **Why it matters** The central scientific claims of the paper rest on identifying specific stabilization patterns. Without statistical validation, these patterns could arise from noise or systematic artifacts rather than genuine interaction effects.  
+  - **Resolution test** Provide statistical analysis of the transfer free energy data, including appropriate multiple testing corrections, and report effect sizes with confidence intervals for the claimed stabilization effects.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim to have achieved significant solubilization of peptide segments in LLPS-related domains based on their insights.  
+  - **Evidence pointer** Results section, location not provided  
+  - **Concern** The abstract provides no quantitative information about this solubilization experiment. No data on peptide sequences, degree of solubilization, comparison to controls, or relevance to actual LLPS behavior are presented. The term "significant" is used without statistical or practical context.  
+  - **Why it matters** This claim is presented as a key validation of the framework's practical utility. Without quantitative evidence, it is impossible to determine whether the effect is meaningful, reproducible, or generalizable beyond the specific test case.  
+  - **Resolution test** Provide full experimental details and results for the peptide solubilization experiments, including peptide sequences, baseline and post-treatment solubility values, appropriate controls, and statistical analysis.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interpretive validity  
+  - **Claim pointer** The authors claim that multivariate analysis suggests their AAI dataset reflects complex factors, including polarity and charge, which cannot be captured by existing amino-acid indices.  
+  - **Evidence pointer** Results section, location not provided  
+  - **Concern** The abstract does not describe the multivariate analysis method, the specific amino-acid indices used for comparison, or the criteria for determining that the dataset captures factors beyond existing indices. The claim of novelty relative to existing indices is therefore not substantiated.  
+  - **Why it matters** This claim is central to the paper's assertion that the framework provides improved predictive power. Without a clear comparative analysis, the added value over existing approaches remains unclear.  
+  - **Resolution test** Describe the multivariate analysis method, list the amino-acid indices used for comparison, and provide quantitative metrics showing that the new dataset explains variance not captured by existing indices.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "uncharged amino acids"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states that 15 uncharged amino acids were measured but does not specify which amino acids were included or excluded, nor the rationale for these choices.  
+  - **Required correction** List the 15 amino acids studied and briefly justify the selection criteria, including why charged amino acids were used as solvents rather than as solutes.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "stabilized"  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "stabilized" is used to describe the effect of one amino acid on another's solubility. This is potentially ambiguous, as stabilization could refer to thermodynamic favorability of dissolution or to kinetic effects.  
+  - **Required correction** Define "stabilization" in thermodynamic terms, specifically relating it to transfer free energy changes, and clarify whether the effect is enthalpic or entropic in origin if such data are available.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Claim of relevance to LLPS prediction  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract implies that the measured AAIs are directly relevant to LLPS, but the connection between binary amino acid solubility and multivalent interactions in phase separation is not explicitly established.  
+  - **Required correction** Briefly discuss the assumed relationship between pairwise amino acid interactions and higher-order interactions in LLPS, and acknowledge any limitations of the binary approach.
+
+## Risk / unsupported claims
+- The claim of successful solubilization of peptide segments in LLPS-related domains is unsupported by any quantitative data in the abstract.
+- The claim that the AAI dataset captures factors beyond existing amino-acid indices is unsupported without details of the multivariate analysis and comparative metrics.
+- The specific stabilization patterns (aromatic amino acids by cationic amino acids; glutamine, asparagine, and methionine by charged amino acids) are unverifiable without statistical analysis and numerical data.
+- The general claim that the framework enables improved prediction of biological LLPS and rational sequence design is a forward-looking statement that cannot be evaluated from the abstract alone.

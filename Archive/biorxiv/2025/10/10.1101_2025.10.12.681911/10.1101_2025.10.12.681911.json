@@ -1,0 +1,233 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.12.681911",
+  "title": "Dynamical buffering of reconfiguration dynamics in intrinsically disordered proteins",
+  "doi": "10.1101/2025.10.12.681911",
+  "abstract": "The dynamics of intrinsically disordered proteins are important for their function, allowing their heterogeneous conformational ensembles to rapidly reconfigure in response to binding partners or changes in solution conditions. However, the relation between sequence composition and chain dynamics has rarely been studied. Here, we characterize the dynamics of a set of 16 naturally occurring disordered regions of identical chain length but with highly diverse sequences. In spite of the strong variation of chain dimensions with sequence in this set inferred from single-molecule FRET, nanosecond fluorescence correlation spectroscopy yields chain reconfiguration times that are almost independent of sequence. This surprising observation contrasts with the slowdown in dynamics, attributed to internal friction, that has been observed in more compact disordered proteins. We investigated this effect with the aid of multi-microsecond, all-atom explicit-solvent simulations of all 16 disordered proteins. The simulations reproduce the experimental FRET efficiencies with near-quantitative accuracy, with explicit inclusion of the FRET dyes improving agreement with experiment while minimally perturbing the protein ensemble. Critically, the simulations also reproduce the lack of correlation between reconfiguration times and chain dimensions across the sequences and allow us to rationalize this observation as arising from two competing factors as the chains get more compact. The narrowing of end-to-end distance distributions and a concomitant reduction of the corresponding intrachain diffusion coefficients have opposite effects that end up resulting in only a small variation of reconfiguration times with chain dimensions. These compensating factors “buffer” the effect of sequence on linker dynamics, which may help to conserve function as sequences evolve.",
+  "authors": [
+    "Ivanović MT",
+    "Holla A",
+    "Nüesch MF",
+    "von Roten V",
+    "Schuler B",
+    "Best RB"
+  ],
+  "published_date": "2025-10-12",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.12.681911",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.12.681911.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1100344",
+    "raw_record": {
+      "id": "PPR1100344",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1100344"
+        ]
+      },
+      "doi": "10.1101/2025.10.12.681911",
+      "title": "Dynamical buffering of reconfiguration dynamics in intrinsically disordered proteins",
+      "authorString": "Ivanović MT, Holla A, Nüesch MF, von Roten V, Schuler B, Best RB.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ivanović MT",
+            "lastName": "Ivanović",
+            "firstName": "Miloš",
+            "initials": "MT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Holla A",
+            "lastName": "Holla",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nüesch MF",
+            "lastName": "Nüesch",
+            "firstName": "Mark",
+            "initials": "MF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "von Roten V",
+            "lastName": "von Roten",
+            "firstName": "Valentin",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schuler B",
+            "lastName": "Schuler",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5970-4251"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                },
+                {
+                  "affiliation": "Department of Physics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Best RB",
+            "lastName": "Best",
+            "firstName": "Robert",
+            "initials": "RB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Chemical Physics, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5970-4251"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3164-9411"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The dynamics of intrinsically disordered proteins are important for their function, allowing their heterogeneous conformational ensembles to rapidly reconfigure in response to binding partners or changes in solution conditions. However, the relation between sequence composition and chain dynamics has rarely been studied. Here, we characterize the dynamics of a set of 16 naturally occurring disordered regions of identical chain length but with highly diverse sequences. In spite of the strong variation of chain dimensions with sequence in this set inferred from single-molecule FRET, nanosecond fluorescence correlation spectroscopy yields chain reconfiguration times that are almost independent of sequence. This surprising observation contrasts with the slowdown in dynamics, attributed to internal friction, that has been observed in more compact disordered proteins. We investigated this effect with the aid of multi-microsecond, all-atom explicit-solvent simulations of all 16 disordered proteins. The simulations reproduce the experimental FRET efficiencies with near-quantitative accuracy, with explicit inclusion of the FRET dyes improving agreement with experiment while minimally perturbing the protein ensemble. Critically, the simulations also reproduce the lack of correlation between reconfiguration times and chain dimensions across the sequences and allow us to rationalize this observation as arising from two competing factors as the chains get more compact. The narrowing of end-to-end distance distributions and a concomitant reduction of the corresponding intrachain diffusion coefficients have opposite effects that end up resulting in only a small variation of reconfiguration times with chain dimensions. These compensating factors “buffer” the effect of sequence on linker dynamics, which may help to conserve function as sequences evolve.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "197776",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "310030",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.10.12.681911"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1100344"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1100344&type=FILE&fileName=EMS209826-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41889770",
+            "reference": "JACS Au. 2026 Mar;6(3):1900-1913",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS209826",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-10-14",
+      "firstPublicationDate": "2025-10-12",
+      "firstIndexDate": "2025-10-14",
+      "fullTextReceivedDate": "2026-02-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

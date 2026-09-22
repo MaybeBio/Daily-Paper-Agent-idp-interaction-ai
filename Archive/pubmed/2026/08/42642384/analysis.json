@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42642384",
+  "title": "A natural solution from caterpillar cuticles for flexible impact-resistant materials.",
+  "authors": "Yuan, Fenghou; Hu, Shuaifei; Pang, Zihan; Cui, Yuntian; Qian, Xuliang; Shi, Chaowei; Liu, Tian",
+  "journal": "Nature communications",
+  "published_date": "2026-08-26",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究蛾幼虫角质层中结构蛋白经液-液相分离形成β-折叠基质并粘附几丁质，结合NMR与MD模拟揭示氢键/静电/π-π等互作机制，并据此开发仿生抗冲击水凝胶；对象涉及相分离蛋白但非典型IDP-PPI，方法含MD模拟且机制建模可迁移，故评6分。",
+  "abstract": "Flexible impact-resistant materials are essential for defense, transportation, and biomedical engineering due to their ability to combine strength, energy dissipation, and compliance. While nature offers robust solutions like beetle elytra or mantis shrimp hammers, designing materials that achieve these properties simultaneously remains a significant challenge. Here, we explore the cuticle of Ostrinia furnacalis (Asian corn borer) as a natural model. We identify two key structural proteins, FCSP-1 and FCSP-2, that form a beta-sheet-rich matrix via liquid-liquid phase separation, adhering to chitin scaffolds. This matrix promotes lamellar structures that enhance energy dissipation through hydrogen bond disruption and secondary structure transformation under stress. NMR and molecular dynamics simulations further confirm that matrix formation relies on fine-tuned hydrogen bonding, electrostatic interactions, and pi-pi/cation-pi interactions. Inspired by this mechanism, we developed a chitin-protein composite hydrogel with an energy dissipation capability of 8 MJ/m(3), and its mechanical properties can be precisely tuned via in-vitro phosphorylation. This hydrogel demonstrates exceptional potential for protecting fragile objects.",
+  "abstract_zh": "柔性抗冲击材料因其兼具强度、能量耗散和柔顺性，在国防、交通和生物医学工程中至关重要。尽管自然界提供了如甲虫鞘翅或螳螂虾锤等强韧的解决方案，但设计同时实现这些性能的材料仍是一项重大挑战。在此，我们探索亚洲玉米螟（Ostrinia furnacalis）的角质层作为天然模型。我们鉴定了两种关键结构蛋白，FCSP-1和FCSP-2，它们通过液-液相分离 (liquid-liquid phase separation) 形成富含β-折叠的基质，并粘附于几丁质支架上。该基质促进层状结构形成，通过氢键断裂和应力下的二级结构转变增强能量耗散。核磁共振 (NMR) 和分子动力学 (molecular dynamics) 模拟进一步证实，基质形成依赖于精细调控的氢键、静电相互作用以及π-π/阳离子-π相互作用。受此机制启发，我们开发了一种几丁质-蛋白质复合水凝胶，其能量耗散能力达8 MJ/m(3)，且其力学性能可通过体外磷酸化精确调控。该水凝胶在保护易碎物体方面展现出卓越潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42642384/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42642384/",
+  "paper_page_path": "papers/pubmed/42642384/index.html"
+}

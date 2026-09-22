@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.01.691618",
+  "title": "Structural mechanisms of drebrin-mediated F-actin network modulation",
+  "authors": "Zhao W; Abis G; Oozeer F; Mulvaney T; Nagar N; Topf M; Gordon-Weeks P; Conte M; Atherton J",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-02",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用冷冻电镜解析drebrin与F-肌动蛋白互作的结构机制，对象为折叠蛋白复合物而非无序蛋白/相分离，且无AI或物理模拟方法，仅对互作机制有结构层面的启发。",
+  "abstract": "Drebrin modulates F-actin networks and links them to other intracellular components, regulating crucial processes including neuritogenesis, synaptic plasticity, virus internalisation and cancer invasion. Using single-particle cryo-EM we characterise drebrin’s interaction with F-actin through two separate conserved actin binding domains (ABD1 and ABD2), revealing structural bases for its F-actin-modulating properties. We describe a multimodal interaction where drebrin’s ABD1 can adopt two conformations and a long flexible loop connecting to ABD2 allows the two ABDs to occupy multiple relative positions along F-actin. Despite harbouring two separated ABDs, we find that drebrin is not a strong direct F-actin bundler. Drebrin’s ABDs bind across multiple actin protomers and their subdomains and modify the longitudinal inter-protomer interface, explaining their F-actin stabilising properties. Furthermore, we show drebrin’s binding site on F-actin is shared with other critical actin-binding and regulatory proteins, explaining their competitive displacement.",
+  "abstract_zh": "Drebrin调节F-actin网络并将其与其他细胞内组分连接，调控包括神经突生成、突触可塑性、病毒内化和癌症侵袭在内的关键过程。利用单颗粒冷冻电镜（cryo-EM），我们通过两个独立的保守肌动蛋白结合域（ABD1和ABD2）表征了drebrin与F-actin的相互作用，揭示了其F-actin调节特性的结构基础。我们描述了一种多模式相互作用，其中drebrin的ABD1能采用两种构象，且连接至ABD2的长柔性环使得两个ABD能沿F-actin占据多个相对位置。尽管含有两个分离的ABD，我们发现drebrin并非强效的直接F-actin成束因子。Drebrin的ABDs跨越多个肌动蛋白原体及其亚域结合，并修饰纵向原体间界面，这解释了其F-actin稳定特性。此外，我们显示drebrin在F-actin上的结合位点与其他关键肌动蛋白结合及调控蛋白共享，从而解释了它们的竞争性置换。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.01.691618",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.01.691618",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.01.691618/index.html"
+}

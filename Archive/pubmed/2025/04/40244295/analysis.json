@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40244295",
+  "title": "Deep Learning-Based Comparative Prediction and Functional Analysis of Intrinsically Disordered Regions in SARS-CoV-2.",
+  "authors": "Ilyas, Sidra; Manan, Abdul; Lee, Donghun",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2025-04-17",
+  "window": {
+    "start": "2025-04-14",
+    "end": "2025-04-20"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究用多种深度学习无序预测工具比较分析SARS-CoV-2蛋白的IDR，并讨论其功能与药物靶点潜力，但未涉及IDR介导的PPI或互作机制建模，方法为预测应用而非机制建模。",
+  "abstract": "This study explores the role of intrinsically disordered regions (IDRs) in the SARS-CoV-2 proteome and their potential as targets for small-molecule drug discovery. Experimentally validated intrinsic disordered regions from the literature were utilized to assess the prediction of intrinsic disorder across a selection of SARS-CoV-2 proteins. The disorder propensities of proteins using four deep learning-based disorder prediction models: ADOPT, PONDR((R))VLXT, PONDR((R))VSL2, and flDPnn, were analyzed. ADOPT, VSL2, and VLXT identified a flexible linker (129-147), while VSL2 and VLXT predicted disorder in the Cu(II) binding region (163-167) of NSP1. ADOPT did not predict disordered regions in NSP11; however, VSL2 and VLXT identified disorder in the experimentally validated regions. The IDR in ORF3a is crucial for protein localization and immune modulation, affecting inflammatory pathways. VSL2 predicted significant disorder in the N-terminal domain (18-23), which aligns with experimental data (1-41), overlapping with the TRAF-binding motif, while ADOPT indicated high disorder in the C-terminal domain (255-275), consistent with VSL2 and flDPnn. All tools identified disorder in the N-terminal (1-68), central linker (181-248), and C-terminal (370-419) regions of the nucleocapsid (N) protein, suggesting flexibility and accuracy. The S2 subunit of the spike protein displayed more predicted disorder than the S1 subunit across ADOPT, VSL2, and flDPnn. These IDRs are essential for viral functions, like protein localization, immune modulation, receptor binding, and membrane fusion. This study highlights the importance of IDR in modulating key inflammatory pathways, suggesting that they could serve as promising targets for small-molecule drug development to combat COVID-19.",
+  "abstract_zh": "本研究探讨了SARS-CoV-2蛋白质组中固有无序区域（IDRs）的作用及其作为小分子药物发现靶点的潜力。利用文献中经实验验证的固有无序区域，评估了对多种SARS-CoV-2蛋白质固有无序性的预测。通过四种基于深度学习的无序预测模型：ADOPT、PONDR((R))VLXT、PONDR((R))VSL2和flDPnn，分析了蛋白质的无序倾向性。ADOPT、VSL2和VLXT识别出一个柔性连接区（129-147），而VSL2和VLXT预测了NSP1中Cu(II)结合区域（163-167）的无序性。ADOPT未预测NSP11中的无序区域；然而，VSL2和VLXT识别了实验验证区域中的无序性。ORF3a中的IDR对蛋白质定位和免疫调节至关重要，影响炎症通路。VSL2预测了N端结构域（18-23）的显著无序性，这与实验数据（1-41）一致，并与TRAF结合基序重叠，而ADOPT指示C端结构域（255-275）的高无序性，与VSL2和flDPnn一致。所有工具均识别了核衣壳（N）蛋白的N端（1-68）、中央连接区（181-248）和C端（370-419）区域的无序性，表明其灵活性和准确性。刺突蛋白的S2亚基在ADOPT、VSL2和flDPnn中显示出比S1亚基更多的预测无序性。这些IDRs对病毒功能至关重要，如蛋白质定位、免疫调节、受体结合和膜融合。本研究强调了IDR在调节关键炎症通路中的重要性，表明它们可能作为对抗COVID-19的小分子药物开发的有前景靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40244295/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40244295/",
+  "paper_page_path": "papers/pubmed/40244295/index.html"
+}

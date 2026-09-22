@@ -1,0 +1,229 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.15.670491",
+  "title": "Ambroxol displaces α-synuclein from the membrane and inhibits the formation of early protein-lipid coaggregates †",
+  "doi": "10.1101/2025.08.15.670491",
+  "abstract": "Parkinson’s disease (PD) is a neurological disorder characterized by neuronal loss and the deposition of α -synuclein-lipid coaggregates in the brain of patients as well as disruptions in lipid metabolism. Mutations in the gene GBA , which encodes the lysosomal glycoprotein Glucocerebrosidase, are together the most important genetic risk factor for PD and have been associated with lysosomal dysfunction, accumulation of pathological α -synuclein as well as major changes in both the levels and properties of lipids. Ambroxol, a small molecule chaperone capable of binding and stabilizing Glucocerebrosidase, was found to revert changes in lipid levels and increase in α -synuclein levels due to GBA mutations potentially via restoring lysosomal function. Here, we show that Ambroxol also has a direct effect on α -synuclein-lipid co-aggregation by inhibiting the primary nucleation step in the aggregation process. We find that Ambroxol not only displaces α -synuclein from negatively charged membranes but also prevents the formation of early α -synuclein-lipid coaggregates during primary nucleation. These results suggest that Ambroxol may have beneficial effects on other synucleinopathies, such as multiple system atrophy and dementia with Lewy Bodies, that are also characterised by the aggregation of α -synuclein into amyloid fibrils.",
+  "authors": [
+    "Dreier JE",
+    "Stevenson A",
+    "Carles E",
+    "Michaels TC",
+    "Galvagnion C"
+  ],
+  "published_date": "2025-08-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.15.670491",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.15.670491.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1068044",
+    "raw_record": {
+      "id": "PPR1068044",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1068044"
+        ]
+      },
+      "doi": "10.1101/2025.08.15.670491",
+      "title": "Ambroxol displaces α-synuclein from the membrane and inhibits the formation of early protein-lipid coaggregates  <sup>†</sup>",
+      "authorString": "Dreier JE, Stevenson A, Carles E, Michaels TC, Galvagnion C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dreier JE",
+            "lastName": "Dreier",
+            "firstName": "Jesper",
+            "initials": "JE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0740-1750"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stevenson A",
+            "lastName": "Stevenson",
+            "firstName": "Alisdair",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0000-2105-6669"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , Otto Stern Weg 3"
+                },
+                {
+                  "affiliation": "Bringing Materials to Life (BML) Initiative, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carles E",
+            "lastName": "Carles",
+            "firstName": "Elliot",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Michaels TC",
+            "lastName": "Michaels",
+            "firstName": "Thomas CT",
+            "initials": "TC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6931-5041"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, , Otto Stern Weg 3"
+                },
+                {
+                  "affiliation": "Bringing Materials to Life (BML) Initiative, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Galvagnion C",
+            "lastName": "Galvagnion",
+            "firstName": "Céline",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6931-5041"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0740-1750"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0000-2105-6669"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Parkinson’s disease (PD) is a neurological disorder characterized by neuronal loss and the deposition of  α -synuclein-lipid coaggregates in the brain of patients as well as disruptions in lipid metabolism. Mutations in the gene  GBA , which encodes the lysosomal glycoprotein Glucocerebrosidase, are together the most important genetic risk factor for PD and have been associated with lysosomal dysfunction, accumulation of pathological  α -synuclein as well as major changes in both the levels and properties of lipids. Ambroxol, a small molecule chaperone capable of binding and stabilizing Glucocerebrosidase, was found to revert changes in lipid levels and increase in  α -synuclein levels due to  GBA mutations potentially via restoring lysosomal function. Here, we show that Ambroxol also has a direct effect on  α -synuclein-lipid co-aggregation by inhibiting the primary nucleation step in the aggregation process. We find that Ambroxol not only displaces  α -synuclein from negatively charged membranes but also prevents the formation of early  α -synuclein-lipid coaggregates during primary nucleation. These results suggest that Ambroxol may have beneficial effects on other synucleinopathies, such as multiple system atrophy and dementia with Lewy Bodies, that are also characterised by the aggregation of  α -synuclein into amyloid fibrils.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "219703",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.15.670491"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1068044"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1068044&type=FILE&fileName=EMS208072-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41229914",
+            "reference": "Chemical science. 2026 Jan;17(1):354-363",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208072",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-08-22",
+      "firstPublicationDate": "2025-08-20",
+      "firstIndexDate": "2025-08-22",
+      "fullTextReceivedDate": "2025-08-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

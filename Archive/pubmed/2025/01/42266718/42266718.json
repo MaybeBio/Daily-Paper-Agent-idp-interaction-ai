@@ -1,0 +1,257 @@
+{
+  "identity": {
+    "pmid": "42266718",
+    "doi": "10.1103/prxlife.3.013011",
+    "title": "Conformational Entropy of Intrinsically Disordered Proteins Bars Intruders from Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "It was recently discovered that eukaryotic cells are host to a multiplicity of biomolecular condensates. These condensates typically contain protein and/or RNA components with intrinsically disordered regions (IDRs). While IDRs have been proposed and demonstrated to play many roles in condensate biology, we suggest here an additional crucial role of IDRs, which is to exclude unwanted \"intruders\" from condensates. This exclusion effect arises from the large conformational entropy of IDRs; i.e., there is a high free-energy cost to occupying space that would otherwise be available to the IDRs. By combining polymer theory with sticker-spacer simulations, we show that the relevant insertion free energy increases with the concentration of IDRs in the condensate as well as with intruder size, attaining a linear scaling with surface area for large intruders. We find that at realistic IDR concentrations, particles as small as the size of an average protein (4 nm in diameter) can be 97% excluded from condensates. To overcome this entropic barrier, molecules must interact favorably with condensate components to be recruited as clients. Application of the developed size-exclusion theory to biological condensates suggests that condensate IDRs may play a generic exclusionary role across organisms and types of condensates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Grigorev, Vladimir",
+        "Wingreen, Ned S",
+        "Zhang, Yaojun"
+      ],
+      "short_names": [
+        "Grigorev V",
+        "Wingreen NS",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0009-0002-1041-0778",
+        "ORCID: 0000-0001-7384-2821",
+        "ORCID: 0000-0003-4587-6834"
+      ],
+      "affiliations": [
+        "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, Maryland 21218, USA.",
+        "Department of Molecular Biology, Princeton University, Princeton, New Jersey 08540, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08540, USA.",
+        "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, Maryland 21218, USA.",
+        "Department of Biophysics, Johns Hopkins University, Baltimore, Maryland 21218, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Grigorev, Vladimir",
+        "short_name": "Grigorev V",
+        "identifiers": [
+          "0009-0002-1041-0778"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, Maryland 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Wingreen, Ned S",
+        "short_name": "Wingreen NS",
+        "identifiers": [
+          "0000-0001-7384-2821"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Princeton University, Princeton, New Jersey 08540, USA.",
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, New Jersey 08540, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yaojun",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0003-4587-6834"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, Maryland 21218, USA.",
+          "Department of Biophysics, Johns Hopkins University, Baltimore, Maryland 21218, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PRX life"
+    ],
+    "journal_abbrev": [
+      "PRX Life"
+    ],
+    "pub_date": "2025 Jan-Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/01 00:00",
+    "fetched_at": "2026-09-21 14:19:10"
+  },
+  "links": {
+    "cites": [
+      "42465321",
+      "42285942",
+      "40667294",
+      "40475453",
+      "39071308",
+      "38559018"
+    ],
+    "refs": [
+      "39271915",
+      "37824531",
+      "33692345",
+      "32004090",
+      "31540706",
+      "30099028",
+      "29091028",
+      "29064502",
+      "28938113",
+      "28935776",
+      "28225081",
+      "27697925",
+      "26015579",
+      "25695516",
+      "24010708",
+      "21402789",
+      "1117994"
+    ],
+    "similar": [
+      "42266718",
+      "41337585",
+      "42230638",
+      "42244740",
+      "36412795",
+      "41647538",
+      "39232584",
+      "34090478",
+      "39071308",
+      "41394673",
+      "37986933",
+      "42150060",
+      "39537752",
+      "33267376",
+      "23912807",
+      "40521608",
+      "40848932",
+      "33076213",
+      "32456986",
+      "34552246",
+      "35179885",
+      "42585785",
+      "37328094",
+      "40028898",
+      "41933903",
+      "39933697",
+      "32824743",
+      "41169547",
+      "24930020",
+      "41667469",
+      "38915483",
+      "39510346",
+      "38987300",
+      "41232529",
+      "40672301",
+      "36657879",
+      "42057657",
+      "28924037",
+      "39947751",
+      "37470705",
+      "42055532",
+      "34390736",
+      "38588835",
+      "41276815",
+      "37155239",
+      "37735186",
+      "34285781",
+      "33976270",
+      "40631955",
+      "37878721",
+      "34179096",
+      "39826710",
+      "41670285",
+      "37385580",
+      "41991555",
+      "40229261",
+      "36908253",
+      "36987865",
+      "40325419",
+      "34825861",
+      "41659523",
+      "36883003",
+      "37191808",
+      "38824391",
+      "34557680",
+      "41524628",
+      "38252962",
+      "24115198",
+      "42530374",
+      "33078839",
+      "41342450",
+      "41170986",
+      "42178852",
+      "39271032",
+      "34916288",
+      "36865181",
+      "38662765",
+      "42180996",
+      "39316611",
+      "39486437",
+      "30878482",
+      "37066255",
+      "39433443",
+      "41279444",
+      "41865079",
+      "37998041",
+      "36711874",
+      "33627133",
+      "37791635",
+      "37657994",
+      "40867025",
+      "36754681",
+      "33812316",
+      "32225071",
+      "40804711",
+      "39042834",
+      "40530859",
+      "42437078",
+      "34074792",
+      "39589885"
+    ],
+    "review": [
+      "42266718",
+      "41647538",
+      "32456986",
+      "35179885",
+      "24930020",
+      "42057657",
+      "39947751",
+      "34390736",
+      "38588835",
+      "34285781",
+      "40325419",
+      "33078839",
+      "42178852",
+      "39271032",
+      "37657994",
+      "36754681",
+      "33812316",
+      "40804711"
+    ],
+    "pmc": [
+      "13246162"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42266718/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

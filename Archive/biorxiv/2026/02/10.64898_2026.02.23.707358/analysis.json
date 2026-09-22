@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.02.23.707358",
+  "title": "Condensate-Driven Transcriptional Reprogramming Defines Core Vulnerabilities in Esophageal and Gastric Cancers",
+  "authors": "Alvarez-Carrion L; Tejedor AR; Ardura JA; Alonso V; Alonso-Moreno C; Collepardo-Guevara R; Gutierrez-Rojas I; Privat C; Moreno V; Calvo E; Gyorffy B; Espinosa JR; Ocana A",
+  "journal": "bioRxiv",
+  "published_date": "2026-02-24",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究整合多组学、功能基因组学与分子动力学/粗粒化模拟，揭示食管癌和胃癌中由IDR驱动的凝聚体转录程序，并确认TOPBP1/CHERP通过IDR同型互作发生相分离，直接关联无序蛋白介导的PPI与凝聚体机制建模，方法上兼具AI预测与物理模拟，高度契合本课题。",
+  "abstract": "Biomolecular condensates organize key nuclear functions by compartmentalizing biomolecules, yet their contribution to gastrointestinal tumorigenesis remains poorly defined. Integrating multi-omics profiling, functional genomics, and molecular dynamics simulations, we reveal that esophageal and gastric cancers share a condensate-enriched transcriptional program driven by intrinsically disordered proteins involved in transcription, RNA processing, and replication stress. Transcriptomic analyses identify a hyperactive transcriptional state with upregulation of condensate-associated genes, including TOPBP1 and CHERP . Dependency mapping demonstrates that these proteins are essential for tumor cell viability, defining a conserved condensate core across different tumor types. Machine-learned predictions and residue-resolution coarse-grained simulations confirm that TOPBP1 and CHERP undergo phase separation through homotypic interactions mediated by intrinsically disordered regions, with saturation concentrations below 2 µM, consistent with spontaneous condensate formation observed in vitro. Together, these findings establish condensate organization as a fundamental mesoscale principle in upper gastrointestinal cancers and nominate condensate scaffolds as tractable therapeutic vulnerabilities.",
+  "abstract_zh": "生物分子凝聚体通过区室化生物分子来组织关键的核功能，然而它们对胃肠道肿瘤发生的贡献仍不明确。整合多组学分析、功能基因组学和分子动力学 (molecular dynamics) 模拟，我们揭示食管癌和胃癌共享一个由参与转录、RNA加工和复制应激的内在无序蛋白驱动的凝聚体富集转录程序。转录组分析识别出一种过度活跃的转录状态，伴随凝聚体相关基因（包括 TOPBP1 和 CHERP）的上调。依赖性图谱表明，这些蛋白对肿瘤细胞存活至关重要，定义了不同肿瘤类型间保守的凝聚体核心。机器学习预测和残基分辨率粗粒化模拟证实，TOPBP1 和 CHERP 通过内在无序区域介导的同型相互作用发生相分离 (phase separation)，其饱和浓度低于 2 µM，与体外观察到的自发凝聚体形成一致。综合这些发现，将凝聚体组织确立为上消化道癌症中的一个基本介观尺度原理，并提名凝聚体支架作为可操作的治疗靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.02.23.707358",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.23.707358",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.02.23.707358/index.html"
+}

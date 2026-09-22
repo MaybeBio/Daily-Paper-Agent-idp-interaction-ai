@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.13.507838",
+  "title": "The intrinsically disordered protein glue of myelin: Linking AlphaFold2 predictions to experimental data",
+  "authors": "Oda C. Krokengen; Arne Raasakka; Petri Kursula",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-15",
+  "window": {
+    "start": "2022-09-12",
+    "end": "2022-09-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用AlphaFold2预测两个髓鞘无序蛋白MBP和P0ct的结构，并与实验数据比对，揭示预测模型反映配体结合态而非溶液态，为IDP互作机制建模提供启发。",
+  "abstract": "Numerous human proteins are either partially or fully classified as intrinsically disordered proteins (IDPs). Due to their properties, high-resolution structural information about IDPs is generally lacking. On the other hand, IDPs are known to adopt local ordered structures upon interactions with ligands, which could be e.g . other proteins or lipid membrane surfaces. While recent developments in protein structure prediction have been revolutionary, their impact on IDP research at high resolution remains limited. We took a specific example of two myelin-specific IDPs, the myelin basic protein (MBP) and the cytoplasmic domain of myelin protein zero (P0ct). Both of these IDPs are known to be crucial for normal nervous system development and function, and while they are disordered in solution, upon membrane binding, they partially fold into helices, being embedded into the lipid membrane. We carried out AlphaFold2 predictions of both proteins and analysed the models in light of previously published data related to solution structure and molecular interactions. We observe that the predicted models have helical segments that closely correspond to the characterised membrane-binding sites on both proteins. We furthermore analyse the fits of the models to SAXS data from the same IDPs. Artificial intelligence-based models of IDPs appear to be able to provide detailed information on the ligand-bound state of these proteins, instead of the form dominating free in solution. We further discuss the implications of the predictions for normal mammalian nervous system myelination and their relevance to understanding disease aspects of these IDPs.",
+  "abstract_zh": "许多人类蛋白质被部分或完全归类为固有无序蛋白质（IDPs）。由于其特性，关于IDPs的高分辨率结构信息通常缺乏。另一方面，已知IDPs在与配体（例如其他蛋白质或脂质膜表面）相互作用时会采用局部有序结构。尽管蛋白质结构预测的最新发展具有革命性，但它们对高分辨率IDP研究的影响仍然有限。我们以两种髓鞘特异性IDPs为例，即髓鞘碱性蛋白（MBP）和髓鞘蛋白零的胞质域（P0ct）。这两种IDPs均已知对正常神经系统发育和功能至关重要，虽然它们在溶液中呈无序状态，但在膜结合时，它们部分折叠成螺旋结构，嵌入脂质膜中。我们对这两种蛋白质进行了AlphaFold2预测，并根据先前发表的关于溶液结构和分子相互作用的数据分析了模型。我们观察到预测模型中的螺旋片段与两种蛋白质上已表征的膜结合位点密切对应。此外，我们分析了模型与来自相同IDPs的SAXS数据的拟合情况。基于人工智能的IDPs模型似乎能够提供这些蛋白质配体结合状态的详细信息，而非其在溶液中自由存在的主要形式。我们进一步讨论了这些预测对正常哺乳动物神经系统髓鞘形成的影响及其与理解这些IDPs疾病方面的相关性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.13.507838",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.13.507838",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.13.507838/index.html"
+}

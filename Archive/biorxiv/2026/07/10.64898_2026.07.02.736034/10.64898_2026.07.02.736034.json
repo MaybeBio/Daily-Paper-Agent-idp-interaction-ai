@@ -1,0 +1,466 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.02.736034",
+  "title": "Deep-Interact Studio: An Interactive Deep Learning Model Building Platform for Biomolecular Interaction Prediction",
+  "doi": "10.64898/2026.07.02.736034",
+  "abstract": "Motivation Deep learning has rapidly become essential for predicting biomolecular interactions; however, most web-tools expose only a single, pre-built model with a fixed, non-configurable architecture that users cannot redesign, retrain on their own data, or compare; they are typically dedicated to one interaction type and often one species, and report prediction scores with little interpretability. These constraints force researchers across several disconnected, single-purpose tools and limit the flexibility, reproducibility, and long-term usability of existing platforms. Results We present Deep-Interact Studio, a unified, web-based deep-learning platform that addresses these limitations by shifting interaction prediction from a model-centric to a user-driven, comparative, and interpretable paradigm. Within a single interface spanning all four interaction classes, namely protein-protein, drugtarget, RNA-protein, and protein-DNA, users design their own model architectures layer by layer, configure training hyperparameters, and train them on their own data, including custom, species-specific datasets. Multiple user-built models can then be trained under identical conditions and compared side by side at both the training and inference levels, while integrated interpretability, including SHAP-based feature attribution, embedding-space visualization, and interaction hub analysis, turns predictions into auditable, mechanistically grounded results. Deep-Interact Studio is, to our knowledge, the only such platform to combine fine-grained per-layer model customization with multi-model comparison and interpretability, offering a flexible and transparent alternative to fixed, single-purpose tools. Availability and implementation Deep-Interact Studio is freely available as a web application at https://deepinteract.compbiosysnbu.in/ , with no login or installation required.",
+  "authors": [
+    "Dipayan Sarkar",
+    "Koushik Bardhan",
+    "Chiranjib Sarkar"
+  ],
+  "published_date": "2026-07-07",
+  "updated_date": "2026-07-08T03:35:19Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736034",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.02.736034.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            10
+          ]
+        ],
+        "date-time": "2026-07-10T06:13:38Z",
+        "timestamp": 1783664018106,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            7
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 30,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                7
+              ]
+            ],
+            "date-time": "2026-07-07T00:00:00Z",
+            "timestamp": 1783382400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            7
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Deep learning has rapidly become essential for predicting biomolecular interactions; however, most web-tools expose only a single, pre-built model with a fixed, non-configurable architecture that users cannot redesign, retrain on their own data, or compare; they are typically dedicated to one interaction type and often one species, and report prediction scores with little interpretability. These constraints force researchers across several disconnected, single-purpose tools and limit the flexibility, reproducibility, and long-term usability of existing platforms.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>We present Deep-Interact Studio, a unified, web-based deep-learning platform that addresses these limitations by shifting interaction prediction from a model-centric to a user-driven, comparative, and interpretable paradigm. Within a single interface spanning all four interaction classes, namely protein-protein, drugtarget, RNA-protein, and protein-DNA, users design their own model architectures layer by layer, configure training hyperparameters, and train them on their own data, including custom, species-specific datasets. Multiple user-built models can then be trained under identical conditions and compared side by side at both the training and inference levels, while integrated interpretability, including SHAP-based feature attribution, embedding-space visualization, and interaction hub analysis, turns predictions into auditable, mechanistically grounded results. Deep-Interact Studio is, to our knowledge, the only such platform to combine fine-grained per-layer model customization with multi-model comparison and interpretability, offering a flexible and transparent alternative to fixed, single-purpose tools.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability and implementation</jats:title>\n                  <jats:p>\n                    Deep-Interact Studio is freely available as a web application at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://deepinteract.compbiosysnbu.in/\">https://deepinteract.compbiosysnbu.in/</jats:ext-link>\n                    , with no login or installation required.\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.64898/2026.07.02.736034",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            8
+          ]
+        ],
+        "date-time": "2026-07-08T03:35:19Z",
+        "timestamp": 1783481719000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Deep-Interact Studio: An Interactive Deep Learning Model Building Platform for Biomolecular Interaction Prediction"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0765-5689",
+          "authenticated-orcid": false,
+          "given": "Dipayan",
+          "family": "Sarkar",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Computational Systems Biology Laboratory, Department of Bioinformatics, University of North Bengal, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0002-8846-8347",
+          "authenticated-orcid": false,
+          "given": "Koushik",
+          "family": "Bardhan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Computational Systems Biology Laboratory, Department of Bioinformatics, University of North Bengal, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-1536-7449",
+          "authenticated-orcid": false,
+          "given": "Chiranjib",
+          "family": "Sarkar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Computational Systems Biology Laboratory, Department of Bioinformatics, University of North Bengal, India"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Chanin Nantasenamat , Avratanu Biswas, J. Naápoles-Duarte , Mitchell I Parker , and Roland L Dunbrack Jr . Building bioinformatics web applications with stream-lit. In Cheminformatics, QSAR and Machine Learning Applications for Novel Drug Development, pages 679–699. Elsevier, 2023.",
+          "DOI": "10.1016/B978-0-443-18638-7.00001-3"
+        },
+        {
+          "issue": "1",
+          "key": "2026070922153748000_2026.07.02.736034v1.2",
+          "first-page": "147648",
+          "article-title": "Protein-protein interaction detection: methods and analysis",
+          "volume": "2014",
+          "year": "2014",
+          "journal-title": "International journal of proteomics"
+        },
+        {
+          "issue": "1",
+          "key": "2026070922153748000_2026.07.02.736034v1.3",
+          "first-page": "1289259",
+          "article-title": "Drug target protein-protein interaction networks: a systematic perspective",
+          "volume": "2017",
+          "year": "2017",
+          "journal-title": "BioMed research international"
+        },
+        {
+          "issue": "22",
+          "key": "2026070922153748000_2026.07.02.736034v1.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "5073",
+          "DOI": "10.1093/bioinformatics/btac629",
+          "article-title": "Drug–protein interaction prediction by correcting the effect of incomplete information in heterogeneous information",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "2",
+          "key": "2026070922153748000_2026.07.02.736034v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "2500011",
+          "DOI": "10.1002/ggn2.202500011",
+          "article-title": "Decoding rna–protein interactions: methodological advances and emerging challenges",
+          "volume": "6",
+          "year": "2025",
+          "journal-title": "Advanced Genetics"
+        },
+        {
+          "issue": "7",
+          "key": "2026070922153748000_2026.07.02.736034v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "1752",
+          "DOI": "10.1074/mcp.R113.027771",
+          "article-title": "Identification of protein interactions involved in cellular signaling",
+          "volume": "12",
+          "year": "2013",
+          "journal-title": "Molecular & Cellular Proteomics"
+        },
+        {
+          "issue": "1",
+          "key": "2026070922153748000_2026.07.02.736034v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "111",
+          "DOI": "10.1007/s44371-026-00567-y",
+          "article-title": "Network pharmacology in the multi-omics era: uncovering novel therapeutic strategies",
+          "volume": "3",
+          "year": "2026",
+          "journal-title": "Discover Chemistry"
+        },
+        {
+          "issue": "6",
+          "key": "2026070922153748000_2026.07.02.736034v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "2903",
+          "DOI": "10.3390/ijms22062903",
+          "article-title": "Incorporating machine learning into established bioinformatics frameworks",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "International journal of molecular sciences"
+        },
+        {
+          "issue": "17",
+          "key": "2026070922153748000_2026.07.02.736034v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "4449",
+          "DOI": "10.1016/j.cell.2024.07.045",
+          "article-title": "The evolution of computational research in a data-centric world",
+          "volume": "187",
+          "year": "2024",
+          "journal-title": "Cell"
+        },
+        {
+          "issue": "1",
+          "key": "2026070922153748000_2026.07.02.736034v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "32",
+          "DOI": "10.1007/s44345-025-00037-5",
+          "article-title": "Ai-enabled drug and molecular discovery: computational methods, platforms, and translational horizons",
+          "volume": "2",
+          "year": "2025",
+          "journal-title": "Discover Molecules"
+        },
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.12",
+          "article-title": "Chemberta: large-scale self-supervised pretraining for molecular property prediction",
+          "year": "2020",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "issue": "1",
+          "key": "2026070922153748000_2026.07.02.736034v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "125",
+          "DOI": "10.1186/s13321-024-00920-2",
+          "article-title": "Protein-small molecule binding site prediction based on a pre-trained protein language model with contrastive learning",
+          "volume": "16",
+          "year": "2024",
+          "journal-title": "Journal of cheminformatics"
+        },
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Amir Hallaji Bidgoli , Morteza Mahdavi , and Hamed Malek . Structure-free drug– target affinity prediction using protein and molecule language models. Journal of Cheminformatics, 2026.",
+          "DOI": "10.1186/s13321-025-01146-6"
+        },
+        {
+          "issue": "1",
+          "key": "2026070922153748000_2026.07.02.736034v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "vbac059",
+          "DOI": "10.1093/bioadv/vbac059",
+          "article-title": "Proteinprompt: a webserver for predicting protein– protein interactions",
+          "volume": "2",
+          "year": "2022",
+          "journal-title": "Bioinformatics advances"
+        },
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty573"
+        },
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa921"
+        },
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa1005"
+        },
+        {
+          "issue": "1",
+          "key": "2026070922153748000_2026.07.02.736034v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "156",
+          "DOI": "10.1186/s12859-024-05783-w",
+          "article-title": "Drug-online: an online platform for drug-target interaction, affinity, and binding sites identification using deep learning",
+          "volume": "25",
+          "year": "2024",
+          "journal-title": "BMC bioinformatics"
+        },
+        {
+          "issue": "W1",
+          "key": "2026070922153748000_2026.07.02.736034v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "W213",
+          "DOI": "10.1093/nar/gkaf343",
+          "article-title": "Deep-molecules: a web server for predicting enzyme and transporter–small molecule interactions",
+          "volume": "53",
+          "year": "2025",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkad353"
+        },
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12864-020-07291-6"
+        },
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab122"
+        },
+        {
+          "issue": "7",
+          "key": "2026070922153748000_2026.07.02.736034v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "3017",
+          "DOI": "10.1093/nar/gkad055",
+          "article-title": "Deepbio: an automated and interpretable deep-learning platform for high-throughput biological sequence prediction, functional annotation and visualization analysis",
+          "volume": "51",
+          "year": "2023",
+          "journal-title": "Nucleic acids research"
+        },
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab829"
+        },
+        {
+          "issue": "1",
+          "key": "2026070922153748000_2026.07.02.736034v1.26",
+          "first-page": "btaf018",
+          "article-title": "Enrichrbp: an automated and interpretable computational platform for predicting and analysing rna-binding protein events",
+          "volume": "41",
+          "year": "2025",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac020"
+        },
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/cts.70056"
+        },
+        {
+          "issue": "6",
+          "key": "2026070922153748000_2026.07.02.736034v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "930",
+          "DOI": "10.1038/s41592-024-02301-x",
+          "article-title": "Seeing data as t-sne and umap do",
+          "volume": "21",
+          "year": "2024",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2026070922153748000_2026.07.02.736034v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "101491",
+          "DOI": "10.1016/j.is.2020.101491",
+          "article-title": "Understanding service-oriented architecture (soa): A systematic literature review and directions for further investigation",
+          "volume": "91",
+          "year": "2020",
+          "journal-title": "Information Systems"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.07.02.736034",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            10
+          ]
+        ],
+        "date-time": "2026-07-10T05:15:46Z",
+        "timestamp": 1783660546000
+      },
+      "score": 64.65799,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.07.02.736034"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            7
+          ]
+        ]
+      },
+      "references-count": 30,
+      "URL": "https://doi.org/10.64898/2026.07.02.736034",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

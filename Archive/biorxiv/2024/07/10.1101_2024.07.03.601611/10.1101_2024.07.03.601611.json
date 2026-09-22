@@ -1,0 +1,122 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.03.601611",
+  "title": "Drugging Disordered Proteins by Conformational Selection to Inform Therapeutic Intervention",
+  "doi": "10.1101/2024.07.03.601611",
+  "abstract": "<h4>ABSTRACT</h4> Drugging intrinsically disordered proteins (IDPs) has historically been a major challenge due to their lack of stable binding sites, conformational heterogeneity, and rapid ability to self-associate or bind non-specific neighbors. Furthermore, it is unclear whether binders of disordered proteins i) induce entirely new conformations or ii) target transient pre-structured conformations via stabilizing existing states. To distinguish between these two mechanisms, we utilize molecular dynamics simulations to induce structured conformations in islet amyloid polypeptide (IAPP), a disordered endocrine peptide implicated in Type II Diabetes. Using umbrella sampling, we measure conformation-specific affinities of molecules previously shown to bind IAPP to determine if they can discriminate between two distinct IAPP conformations (fixed in either ⍺-helix or β-sheet). We show our two-state model of IAPP faithfully predicts the experimentally observed selectivity of two classes of IAPP binders while revealing differences in their molecular mechanisms of binding. Specifically, the binding preferences of foldamers designed for human IAPP was not fully accounted for by conformational selection, unlike β-breaking peptides designed to mimic IAPP self-assembly sequences. Furthermore, the binding of these foldamers, but not β-breaking peptides, was disrupted by changes in the rat IAPP sequence. Taken together, our data quantifies the sequence and conformational specificity for IAPP binders and reveals conformational selection sometimes overrides sequence-level specificity. This work highlights the important role of conformational selection in stabilizing IDPs, and it reveals how fixed conformations can provide a tractable target for developing disordered protein binders.",
+  "authors": [
+    "Bogin BA",
+    "Levine ZA"
+  ],
+  "published_date": "2024-07-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.03.601611",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.03.601611.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR877903",
+    "raw_record": {
+      "id": "PPR877903",
+      "source": "PPR",
+      "doi": "10.1101/2024.07.03.601611",
+      "title": "Drugging Disordered Proteins by Conformational Selection to Inform Therapeutic Intervention",
+      "authorString": "Bogin BA, Levine ZA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bogin BA",
+            "lastName": "Bogin",
+            "firstName": "Bryan",
+            "initials": "BA"
+          },
+          {
+            "fullName": "Levine ZA",
+            "lastName": "Levine",
+            "firstName": "Zachary",
+            "initials": "ZA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0182-1081"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0182-1081"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Drugging intrinsically disordered proteins (IDPs) has historically been a major challenge due to their lack of stable binding sites, conformational heterogeneity, and rapid ability to self-associate or bind non-specific neighbors. Furthermore, it is unclear whether binders of disordered proteins i) induce entirely new conformations or ii) target transient pre-structured conformations via stabilizing existing states. To distinguish between these two mechanisms, we utilize molecular dynamics simulations to induce structured conformations in islet amyloid polypeptide (IAPP), a disordered endocrine peptide implicated in Type II Diabetes. Using umbrella sampling, we measure  conformation-specific affinities of molecules previously shown to bind IAPP to determine if they can discriminate between two distinct IAPP conformations (fixed in either ⍺-helix or β-sheet). We show our two-state model of IAPP faithfully predicts the experimentally observed selectivity of two classes of IAPP binders while revealing differences in their molecular mechanisms of binding. Specifically, the binding preferences of foldamers designed for human IAPP was not fully accounted for by conformational selection, unlike β-breaking peptides designed to mimic IAPP self-assembly sequences. Furthermore, the binding of these foldamers, but not β-breaking peptides, was disrupted by changes in the rat IAPP sequence. Taken together, our data quantifies the sequence and conformational specificity for IAPP binders and reveals conformational selection sometimes overrides sequence-level specificity. This work highlights the important role of conformational selection in stabilizing IDPs, and it reveals how fixed conformations can provide a tractable target for developing disordered protein binders.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.07.03.601611"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.07.03.601611"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40029731",
+            "reference": "Journal of chemical theory and computation. 2025 Mar;21(6):3204-3215",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-07-08",
+      "firstPublicationDate": "2024-07-06",
+      "firstIndexDate": "2024-07-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

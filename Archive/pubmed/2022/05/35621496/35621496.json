@@ -1,0 +1,346 @@
+{
+  "identity": {
+    "pmid": "35621496",
+    "doi": "10.3390/bioengineering9050218",
+    "title": "Oral Cells-On-Chip: Design, Modeling and Experimental Results."
+  },
+  "content": {
+    "abstract": "Recent advances in periodontal studies have attracted the attention of researchers to the relation between oral cells and gum diseases, which is a real threat to overall human health. Among various microfabrication technologies, Complementary Metal Oxide Semiconductors (CMOSs) enable the development of low-cost integrated sensors and circuits for rapid and accurate assessment of living cells that can be employed for the early detection and control of periodontal diseases. This paper presents a CMOS capacitive sensing platform that can be considered as an alternative for the analysis of salivatory cells such as oral neutrophils. This platform consists of two sensing electrodes connected to a read-out capacitive circuitry designed and fabricated on the same chip using Austria Mikro Systeme (AMS) 0.35 microm CMOS process. A graphical user interface (GUI) was also developed to interact with the capacitive read-out system and the computer to monitor the capacitance changes due to the presence of saliva cells on top of the chip. Thanks to the wide input dynamic range (IDR) of more than 400 femto farad (fF) and high resolution of 416 atto farad (aF), the experimental and simulation results demonstrate the functionality and applicability of the proposed sensor for monitoring cells in a small volume of 1 microL saliva samples. As per these results, the hydrophilic adhesion of oral cells on the chip varies the capacitance of interdigitated electrodes (IDEs). These capacitance changes then give an assessment of the oral cells existing in the sample. In this paper, the simulation and experimental results set a new stage for emerging sensing platforms for testing oral samples.",
+    "keywords": [
+      "capacitive sensor",
+      "complementary metal-oxide-semiconductor",
+      "oral epithelial cells",
+      "oral neutrophils",
+      "saliva"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Osouli Tabrizi, Hamed",
+        "Panahi, Abbas",
+        "Forouhi, Saghi",
+        "Sadighbayan, Deniz",
+        "Soheili, Fatemeh",
+        "Haji Hosseini Khani, Mohammad Reza",
+        "Magierowski, Sebastian",
+        "Ghafar-Zadeh, Ebrahim"
+      ],
+      "short_names": [
+        "Osouli Tabrizi H",
+        "Panahi A",
+        "Forouhi S",
+        "Sadighbayan D",
+        "Soheili F",
+        "Haji Hosseini Khani MR",
+        "Magierowski S",
+        "Ghafar-Zadeh E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0937-1591",
+        "ORCID: 0000-0003-3477-7689",
+        "ORCID: 0000-0002-7090-2304"
+      ],
+      "affiliations": [
+        "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+        "Department of Electrical Engineering and Computer Science, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+        "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+        "Department of Electrical Engineering and Computer Science, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+        "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+        "Department of Electrical Engineering and Computer Science, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+        "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+        "Department of Biology, Faculty of Science, York University, Toronto, ON M3J 1P3, Canada.",
+        "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+        "Department of Biology, Faculty of Science, York University, Toronto, ON M3J 1P3, Canada.",
+        "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+        "Department of Electrical Engineering and Computer Science, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+        "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+        "Department of Electrical Engineering and Computer Science, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+        "Department of Biology, Faculty of Science, York University, Toronto, ON M3J 1P3, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Osouli Tabrizi, Hamed",
+        "short_name": "Osouli Tabrizi H",
+        "identifiers": [],
+        "affiliations": [
+          "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+          "Department of Electrical Engineering and Computer Science, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada."
+        ]
+      },
+      {
+        "full_name": "Panahi, Abbas",
+        "short_name": "Panahi A",
+        "identifiers": [],
+        "affiliations": [
+          "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+          "Department of Electrical Engineering and Computer Science, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada."
+        ]
+      },
+      {
+        "full_name": "Forouhi, Saghi",
+        "short_name": "Forouhi S",
+        "identifiers": [
+          "0000-0002-0937-1591"
+        ],
+        "affiliations": [
+          "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+          "Department of Electrical Engineering and Computer Science, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada."
+        ]
+      },
+      {
+        "full_name": "Sadighbayan, Deniz",
+        "short_name": "Sadighbayan D",
+        "identifiers": [
+          "0000-0003-3477-7689"
+        ],
+        "affiliations": [
+          "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+          "Department of Biology, Faculty of Science, York University, Toronto, ON M3J 1P3, Canada."
+        ]
+      },
+      {
+        "full_name": "Soheili, Fatemeh",
+        "short_name": "Soheili F",
+        "identifiers": [],
+        "affiliations": [
+          "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+          "Department of Biology, Faculty of Science, York University, Toronto, ON M3J 1P3, Canada."
+        ]
+      },
+      {
+        "full_name": "Haji Hosseini Khani, Mohammad Reza",
+        "short_name": "Haji Hosseini Khani MR",
+        "identifiers": [],
+        "affiliations": [
+          "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada."
+        ]
+      },
+      {
+        "full_name": "Magierowski, Sebastian",
+        "short_name": "Magierowski S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical Engineering and Computer Science, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada."
+        ]
+      },
+      {
+        "full_name": "Ghafar-Zadeh, Ebrahim",
+        "short_name": "Ghafar-Zadeh E",
+        "identifiers": [
+          "0000-0002-7090-2304"
+        ],
+        "affiliations": [
+          "Biologically Inspired Sensors and Actuators (BioSA) Laboratory, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+          "Department of Electrical Engineering and Computer Science, Lassonde School of Engineering, York University, Toronto, ON M3J 1P3, Canada.",
+          "Department of Biology, Faculty of Science, York University, Toronto, ON M3J 1P3, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioengineering (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Bioengineering (Basel)"
+    ],
+    "pub_date": "2022 May 19",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/28 06:00",
+    "fetched_at": "2026-09-20 10:40:13"
+  },
+  "links": {
+    "cites": [
+      "39664582",
+      "37251577",
+      "37237659"
+    ],
+    "refs": [
+      "35319605",
+      "35140721",
+      "34858437",
+      "33891555",
+      "32372438",
+      "32011025",
+      "31998301",
+      "31788854",
+      "31352224",
+      "31275933",
+      "30970206",
+      "30897827",
+      "30524928",
+      "30143044",
+      "30139044",
+      "30059320",
+      "29877815",
+      "29595347",
+      "29512141",
+      "29377798",
+      "28796323",
+      "28113953",
+      "27696284",
+      "27515277",
+      "27270666",
+      "26936034",
+      "26237346",
+      "26185600",
+      "25974947",
+      "25380127",
+      "23853369",
+      "22470235",
+      "22224774",
+      "21323704",
+      "18281207",
+      "16505259",
+      "5259408",
+      "2433501",
+      "2358421"
+    ],
+    "similar": [
+      "35621496",
+      "37015455",
+      "33891555",
+      "30304843",
+      "25134090",
+      "22303167",
+      "28832523",
+      "24682025",
+      "30404251",
+      "23852977",
+      "22163459",
+      "29301299",
+      "25353984",
+      "18281207",
+      "31195725",
+      "21096503",
+      "23454336",
+      "20855189",
+      "30139044",
+      "24110634",
+      "25826808",
+      "23367048",
+      "29061954",
+      "22163860",
+      "28113953",
+      "26457707",
+      "36296007",
+      "20692155",
+      "26738034",
+      "26473877",
+      "38398961",
+      "21096255",
+      "23503294",
+      "22368466",
+      "30274297",
+      "26213943",
+      "23853242",
+      "24594612",
+      "29068429",
+      "18951013",
+      "23749303",
+      "25629705",
+      "39167525",
+      "31283487",
+      "37028090",
+      "27916911",
+      "25686312",
+      "28353680",
+      "25793229",
+      "23853369",
+      "23519330",
+      "30424280",
+      "33435399",
+      "30715056",
+      "26780441",
+      "30340405",
+      "21592770",
+      "30424417",
+      "38930642",
+      "34577368",
+      "25974947",
+      "34770624",
+      "25036331",
+      "24072022",
+      "29382183",
+      "31293372",
+      "30301258",
+      "37708011",
+      "30824846",
+      "25879968",
+      "24859027",
+      "30424275",
+      "22976747",
+      "22782131",
+      "25314707",
+      "24172287",
+      "15117185",
+      "27294925",
+      "35408384",
+      "34259948",
+      "29877830",
+      "28903300",
+      "23852008",
+      "32113402",
+      "26437404",
+      "25806868",
+      "22163949",
+      "28593743",
+      "25594598",
+      "17330164",
+      "34038637",
+      "32746351",
+      "19054661",
+      "31430732",
+      "30736294",
+      "35270927",
+      "29877815",
+      "28806960",
+      "22522781",
+      "28144536"
+    ],
+    "review": [
+      "35621496",
+      "37028090",
+      "30715056"
+    ],
+    "pmc": [
+      "9137814"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=bioengineering9050218",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35621496/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35621496",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

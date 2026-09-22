@@ -1,0 +1,368 @@
+{
+  "identity": {
+    "pmid": "35074392",
+    "doi": "10.1016/j.bpj.2022.01.011",
+    "title": "The origin and impact of bound water around intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "Proteins and water couple dynamically over a wide range of time scales. Motivated by their central role in protein function, protein-water dynamics and thermodynamics have been extensively studied for structured proteins, where correspondence to structural features has been made. However, properties controlling intrinsically disordered protein (IDP)-water dynamics are not yet known. We report results of megahertz-to-terahertz dielectric spectroscopy and molecular dynamics simulations of a group of IDPs with varying charge content along with structured proteins of similar size. Hydration water around IDPs is found to exhibit more heterogeneous rotational and translational dynamics compared with water around structured proteins of similar size, yielding on average more restricted dynamics around individual residues of IDPs, charged or neutral, compared with structured proteins. The on-average slower water dynamics is found to arise from excess tightly bound water in the first hydration layer, which is related to greater exposure to charged groups. The more tightly bound water to IDPs correlates with the smaller hydration shell found experimentally, and affects entropy associated with protein-water interactions, the contribution of which we estimate based on the dielectric measurements and simulations. Water-IDP dynamic coupling at terahertz frequencies is characterized by the dielectric measurements and simulations.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Thermodynamics",
+      "Water/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Reid, Korey M",
+        "Singh, Abhishek K",
+        "Bikash, Chowdhury R",
+        "Wei, Jessica",
+        "Tal-Gan, Yftah",
+        "Vinh, Nguyen Q",
+        "Leitner, David M"
+      ],
+      "short_names": [
+        "Reid KM",
+        "Singh AK",
+        "Bikash CR",
+        "Wei J",
+        "Tal-Gan Y",
+        "Vinh NQ",
+        "Leitner DM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, University of Nevada, Reno, Nevada.",
+        "Department of Physics and Center for Soft Matter and Biological Physics, Virginia Tech, Blacksburg, Virginia.",
+        "Department of Chemistry, University of Nevada, Reno, Nevada.",
+        "Department of Chemistry, University of Nevada, Reno, Nevada.",
+        "Department of Chemistry, University of Nevada, Reno, Nevada.",
+        "Department of Physics and Center for Soft Matter and Biological Physics, Virginia Tech, Blacksburg, Virginia. Electronic address: vinh@vt.edu.",
+        "Department of Chemistry, University of Nevada, Reno, Nevada. Electronic address: dml@unr.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Reid, Korey M",
+        "short_name": "Reid KM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Nevada, Reno, Nevada."
+        ]
+      },
+      {
+        "full_name": "Singh, Abhishek K",
+        "short_name": "Singh AK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Center for Soft Matter and Biological Physics, Virginia Tech, Blacksburg, Virginia."
+        ]
+      },
+      {
+        "full_name": "Bikash, Chowdhury R",
+        "short_name": "Bikash CR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Nevada, Reno, Nevada."
+        ]
+      },
+      {
+        "full_name": "Wei, Jessica",
+        "short_name": "Wei J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Nevada, Reno, Nevada."
+        ]
+      },
+      {
+        "full_name": "Tal-Gan, Yftah",
+        "short_name": "Tal-Gan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Nevada, Reno, Nevada."
+        ]
+      },
+      {
+        "full_name": "Vinh, Nguyen Q",
+        "short_name": "Vinh NQ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Center for Soft Matter and Biological Physics, Virginia Tech, Blacksburg, Virginia. Electronic address: vinh@vt.edu."
+        ]
+      },
+      {
+        "full_name": "Leitner, David M",
+        "short_name": "Leitner DM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Nevada, Reno, Nevada. Electronic address: dml@unr.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2022 Feb 15",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/26 06:00",
+    "fetched_at": "2026-09-20 07:55:50"
+  },
+  "links": {
+    "cites": [
+      "42369663",
+      "41759741",
+      "41221473",
+      "40427553",
+      "39680044",
+      "39281959",
+      "38854569",
+      "38615192",
+      "38532700",
+      "38163950",
+      "37417885",
+      "36128704",
+      "35785325"
+    ],
+    "refs": [
+      "34687717",
+      "34337607",
+      "33587794",
+      "33557542",
+      "33108190",
+      "32610961",
+      "32487732",
+      "32192337",
+      "32163276",
+      "31539246",
+      "31425549",
+      "31402660",
+      "30878482",
+      "30865440",
+      "30849897",
+      "30833555",
+      "30703278",
+      "29884055",
+      "29874605",
+      "29791154",
+      "29780979",
+      "29553735",
+      "28863546",
+      "28277584",
+      "28248491",
+      "28226222",
+      "27661395",
+      "27653477",
+      "27186992",
+      "26851275",
+      "26724004",
+      "26634958",
+      "26418258",
+      "26261956",
+      "25933769",
+      "25871264",
+      "25650934",
+      "25356908",
+      "25072053",
+      "24740064",
+      "24639500",
+      "24533462",
+      "24502763",
+      "24430203",
+      "24313531",
+      "23277543",
+      "23267504",
+      "23185649",
+      "22828339",
+      "21557554",
+      "21542634",
+      "21501695",
+      "20685393",
+      "20578769",
+      "19959848",
+      "19812816",
+      "19436490",
+      "18247605",
+      "18093918",
+      "16689642",
+      "16246365",
+      "16159150",
+      "11601975",
+      "9348663",
+      "6644811"
+    ],
+    "similar": [
+      "35074392",
+      "37838830",
+      "28226222",
+      "32859072",
+      "33355572",
+      "25871264",
+      "30865832",
+      "29091442",
+      "30058229",
+      "39163306",
+      "36468418",
+      "29553735",
+      "26418258",
+      "28805390",
+      "30703278",
+      "33945530",
+      "31259246",
+      "38743557",
+      "34504009",
+      "33587794",
+      "29791154",
+      "34986640",
+      "30091924",
+      "33591749",
+      "24604825",
+      "25774711",
+      "28926706",
+      "39056166",
+      "32579908",
+      "34656328",
+      "37452752",
+      "33403854",
+      "24098099",
+      "37442414",
+      "36084347",
+      "39225535",
+      "28834051",
+      "37108059",
+      "29548755",
+      "27936491",
+      "26735936",
+      "30840442",
+      "30909517",
+      "31702919",
+      "24211251",
+      "26742101",
+      "28095698",
+      "38118365",
+      "28493424",
+      "31756104",
+      "33810353",
+      "36579699",
+      "31809054",
+      "29548979",
+      "24278008",
+      "35044776",
+      "34845619",
+      "36641212",
+      "24671380",
+      "25331250",
+      "35384652",
+      "28914483",
+      "29080468",
+      "33382616",
+      "25611056",
+      "26575776",
+      "29990433",
+      "34509724",
+      "31375817",
+      "31362509",
+      "35944496",
+      "25919886",
+      "36291634",
+      "30813315",
+      "26387099",
+      "27243806",
+      "36080494",
+      "28554553",
+      "33444020",
+      "30372613",
+      "23912807",
+      "37672685",
+      "24589355",
+      "25855872",
+      "29276882",
+      "29808548",
+      "30979035",
+      "36178373",
+      "35454150",
+      "37936402",
+      "28111343",
+      "25375525",
+      "30277791",
+      "36387274",
+      "30184304",
+      "35298814",
+      "32074499",
+      "36750251",
+      "30865440",
+      "33411518",
+      "36840694",
+      "38165099",
+      "38569130",
+      "35755809",
+      "36820489",
+      "37106781",
+      "38250712",
+      "37406151",
+      "19436490"
+    ],
+    "review": [
+      "35074392",
+      "28226222",
+      "33355572",
+      "33591749",
+      "30840442",
+      "30909517",
+      "38118365",
+      "29080468",
+      "26387099",
+      "28554553",
+      "30979035"
+    ],
+    "pmc": [
+      "8874019"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(22)00040-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35074392/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35074392",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

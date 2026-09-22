@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36532445",
+  "title": "D1018 with higher stability and excellent lipopolysaccharide binding affinity has potent anti-bacterial and anti-inflammatory activity.",
+  "authors": "Wu, Runzhe; Dong, Xunxi; Wang, Qiang; Zhang, Zirui; Wang, Jianhua; Wang, Xiao",
+  "journal": "Frontiers in microbiology",
+  "published_date": "2022-12-20",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究抗菌肽D1018的稳定性、LPS结合及抗炎活性，对象为折叠肽与LPS，非无序蛋白PPI，且无AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Escherichia coli (E. coli) infection and LPS-induced inflammation are still of severe threat to human health. With the increasing problem of antibiotic resistance, there is a desperate need to develop new approaches to solve the problem. Antimicrobial peptide (AMP) IDR-1018 exhibited potential antimicrobial and immunoregulation activity. However, moderate antimicrobial efficiency and susceptibility to protease cleavage limited its therapeutic application. Therefore, the derived 1018M which has better activity against MRSA and whole sequence D-amino acids substitution peptides (D1018 and D1018M) were synthesized in this study. The resistance of D1018 and D1018M against tested proteases increased (2-4 times), particularly in D1018. The antibacterial activity of D1018 was the same as that of the parent peptide IDR-1018, but the antimicrobial activity of D1018M was slightly increased (2-fold). Though the hemolysis of IDR-1018 and D1018 was about 2%, at the concentration of 8xMIC, the cytotoxicity of IDR-1018, D1018, and 1018M was negligible. The peptides could interact with E. coli cell wall and cytoplasmic membrane, penetrate the membrane, cause leakage of contents, and disrupt genomic DNA. Among them, D1018 is the most prominent one. In addition, IDR-1018 and D1018 showed potent binding ability to LPS, thus leading to excellent inhibition capacity to LPS-induced proinflammation response. Taken together, these data demonstrate that D1018 is a promising peptide candidate for the treatment of E. coli infection.",
+  "abstract_zh": "大肠杆菌（Escherichia coli, E. coli）感染及脂多糖（LPS）诱导的炎症仍对人类健康构成严重威胁。随着抗生素耐药性问题日益加剧，迫切需要开发新方法来解决这一难题。抗菌肽（antimicrobial peptide, AMP）IDR-1018展现出潜在的抗菌和免疫调节活性。然而，其适中的抗菌效率和对蛋白酶切割的敏感性限制了其治疗应用。因此，本研究合成了对耐甲氧西林金黄色葡萄球菌（MRSA）具有更好活性的衍生肽1018M，以及全序列D-氨基酸替换肽（D1018和D1018M）。D1018和D1018M对测试蛋白酶的抵抗力增加（2-4倍），尤其是D1018。D1018的抗菌活性与母体肽IDR-1018相同，但D1018M的抗菌活性略有增加（2倍）。尽管在8倍最小抑菌浓度（8xMIC）下，IDR-1018和D1018的溶血率约为2%，但IDR-1018、D1018和1018M的细胞毒性可忽略不计。这些肽能与大肠杆菌细胞壁和细胞质膜相互作用，穿透膜，导致内容物泄漏，并破坏基因组DNA。其中，D1018最为突出。此外，IDR-1018和D1018显示出对LPS的强结合能力，从而对LPS诱导的促炎反应具有优异的抑制能力。综上所述，这些数据表明D1018是治疗大肠杆菌感染的有前景的肽候选物。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36532445/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36532445/",
+  "paper_page_path": "papers/pubmed/36532445/index.html"
+}

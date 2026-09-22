@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.02.16.431420",
+  "title": "Transfer learning via multi-scale convolutional neural layers for human-virus protein-protein interaction prediction",
+  "authors": "Xiaodi Yang; Shiping Yang; Xianyi Lian; Stefan Wuchty; Ziding Zhang",
+  "journal": "bioRxiv",
+  "published_date": "2021-02-16",
+  "window": {
+    "start": "2021-02-15",
+    "end": "2021-02-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用Siamese CNN结合迁移学习预测人-病毒蛋白互作，方法上可迁移至IDR介导的PPI预测，但对象非无序蛋白且未涉及互作机制建模。",
+  "abstract": "To predict interactions between human and viral proteins, we combine evolutionary sequence profile features with a Siamese convolutional neural network (CNN) architecture and a multi-layer perceptron (MLP). Our architecture outperforms various feature encodings-based machine learning and state-of-the-art prediction methods. As our main contribution, we introduce two types of transfer learning methods (i.e., ‘frozen’ type and ‘fine-tuning’ type) that reliably predict interactions in a target human-virus domain based on training in a source human-virus domain, by retraining CNN layers. Our transfer learning strategies can effectively apply prior knowledge transfer from large source dataset/task to small target dataset/task to improve prediction performance. Finally, we utilize the ‘frozen’ type of transfer learning to predict human-SARS-CoV-2 PPIs, indicating that our predictions are topologically and functionally similar to experimentally known interactions. Source code and datasets are available at https://github.com/XiaodiYangCAU/TransPPI/ .",
+  "abstract_zh": "为预测人类与病毒蛋白之间的相互作用，我们结合了进化序列谱特征与暹罗卷积神经网络（CNN）架构及多层感知器（MLP）。我们的架构优于基于各种特征编码的机器学习方法和最先进的预测方法。作为我们的主要贡献，我们引入了两种类型的迁移学习方法（即“冻结”型和“微调”型），通过重新训练CNN层，基于源人类-病毒域的训练，可靠地预测目标人类-病毒域中的相互作用。我们的迁移学习策略能有效利用从大型源数据集/任务到小型目标数据集/任务的知识迁移，以提高预测性能。最后，我们利用“冻结”型迁移学习预测人类-SARS-CoV-2蛋白-蛋白相互作用（PPIs），表明我们的预测在拓扑和功能上与实验已知的相互作用相似。源代码和数据集可在 https://github.com/XiaodiYangCAU/TransPPI/ 获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.02.16.431420",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.02.16.431420",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.02.16.431420/index.html"
+}

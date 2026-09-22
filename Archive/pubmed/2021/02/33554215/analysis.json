@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33554215",
+  "title": "Fuzzy Association of an Intrinsically Disordered Protein with Acidic Membranes.",
+  "authors": "Hicks, Alan; Escobar, Cristian A; Cross, Timothy A; Zhou, Huan-Xiang",
+  "journal": "JACS Au",
+  "published_date": "2021-02-09",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合NMR与MD模拟研究无序蛋白ChiZ NT与酸性膜的无序结合机制，虽非典型PPI但聚焦IDP-膜互作的动态识别机制，方法上物理模拟与实验结合，对IDR介导互作机制建模有启发。",
+  "abstract": "Many physiological and pathophysiological processes, including Mycobacterium tuberculosis (Mtb) cell division, may involve fuzzy membrane association by proteins via intrinsically disordered regions. The fuzziness is extreme when the conformation and pose of the bound protein and the composition of the proximal lipids are all highly dynamic. Here, we tackled the challenge in characterizing the extreme fuzzy membrane association of the disordered, cytoplasmic N-terminal region (NT) of ChiZ, an Mtb divisome protein, by combining solution and solid-state NMR spectroscopy and molecular dynamics simulations. While membrane-associated NT does not gain any secondary structure, its interactions with lipids are not random, but formed largely by Arg residues predominantly in the second, conserved half of the NT sequence. As NT frolics on the membrane, lipids quickly redistribute, with acidic lipids, relative to zwitterionic lipids, preferentially taking up Arg-proximal positions. The asymmetric engagement of NT arises partly from competition between acidic lipids and acidic residues, all in the first half of NT, for Arg interactions. This asymmetry is accentuated by membrane insertion of the downstream transmembrane helix. This type of semispecific molecular recognition may be a general mechanism by which disordered proteins target membranes.",
+  "abstract_zh": "许多生理和病理生理过程，包括结核分枝杆菌（Mycobacterium tuberculosis, Mtb）的细胞分裂，可能涉及蛋白质通过内在无序区域与膜发生模糊结合。当结合蛋白的构象和姿态以及邻近脂质的组成均高度动态时，这种模糊性尤为极端。在此，我们通过结合溶液和固态核磁共振波谱（NMR spectroscopy）以及分子动力学（molecular dynamics）模拟，应对了表征ChiZ（一种Mtb分裂体蛋白）无序的细胞质N端区域（NT）极端模糊膜结合的挑战。尽管膜结合的NT未获得任何二级结构，但其与脂质的相互作用并非随机，而是主要由主要位于NT序列第二个保守半段中的Arg残基形成。当NT在膜上飘动时，脂质迅速重新分布，酸性脂质相对于两性离子脂质优先占据Arg邻近位置。NT的不对称参与部分源于酸性脂质与酸性残基（均位于NT前半段）之间对Arg相互作用的竞争。这种不对称性因下游跨膜螺旋的膜插入而加剧。这种半特异性分子识别可能是无序蛋白质靶向膜的一般机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33554215/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33554215/",
+  "paper_page_path": "papers/pubmed/33554215/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.20.545775",
+  "title": "Delineating Structural Propensities of the 4E-BP2 Protein via Integrative Modelling and Clustering",
+  "authors": "Tsangaris TE; Smyth S; Gomes GW; Liu ZH; Milchberg M; Bah A; Wasney GA; Forman-Kay JD; Gradinaru CC",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-22",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用Rosetta采样与贝叶斯整合建模解析无序蛋白4E-BP2的构象系综，并聚类揭示其与eIF4E结合兼容的构象及磷酸化调控互作的机制，对象、互作与物理模拟方法齐备且聚焦机制建模。",
+  "abstract": "<h4>ABSTRACT</h4> The intrinsically disordered 4E-BP2 protein regulates mRNA cap-dependent translation through the interaction with the predominantly folded eukaryotic initiation factor 4E (eIF4E). Phosphorylation of 4E-BP2 dramatically reduces eIF4E binding, in part by stabilizing a binding- incompatible folded domain (REF). Here, we used a Rosetta-based sampling algorithm optimized for IDRs to generate initial ensembles for two phospho forms of 4E-BP2, non- and five-fold phosphorylated (NP and 5P, respectively), with the 5P folded domain flanked by N- and C-terminal IDRs (N-IDR and C-IDR, respectively). We then applied an integrative Bayesian approach to obtain NP and 5P conformational ensembles that agree with experimental data from nuclear magnetic resonance, small-angle X-ray scattering and single-molecule Förster resonance energy transfer (smFRET). For the NP state, inter-residue distance scaling and 2D maps revealed the role of charge segregation and pi interactions in driving contacts between distal regions of the chain (∼70 residues apart). The 5P ensemble shows prominent contacts of the N-IDR region with the two phosphosites in the folded domain, pT37 and pT46, and, to a lesser extent, delocalized interactions with the C-IDR region. Agglomerative hierarchical clustering led to partitioning of each of the two ensembles into four clusters, with different global dimensions and contact maps. This helped delineate an NP cluster that, based on our smFRET data, is compatible with the eIF4E-bound state. 5P clusters were differentiated by interactions of C-IDR with the folded domain and of the N-IDR with the two phosphosites in the folded domain. Our study provides both a better visualization of fundamental structural poses of 4E-BP2 and a set of falsifiable insights on intrachain interactions that bias folding and binding of this protein.",
+  "abstract_zh": "<h4>摘要</h4> 本质无序的4E-BP2蛋白通过与主要折叠的真核起始因子4E（eIF4E）的相互作用调控mRNA帽依赖性翻译。4E-BP2的磷酸化显著降低eIF4E结合，部分通过稳定一个结合不相容的折叠结构域（REF）实现。在此，我们使用一种针对IDR优化的基于Rosetta的采样算法，为4E-BP2的两种磷酸化形式（非磷酸化和五重磷酸化，分别记为NP和5P）生成初始系综，其中5P的折叠结构域两侧分别连接N端和C端IDR（分别记为N-IDR和C-IDR）。随后，我们应用一种整合贝叶斯方法，获得与核磁共振、小角X射线散射和单分子福斯特共振能量转移（smFRET）实验数据一致的NP和5P构象系综。对于NP状态，残基间距离标度和二维图谱揭示了电荷分离和π相互作用在驱动链远端区域（相距约70个残基）接触中的作用。5P系综显示N-IDR区域与折叠结构域中两个磷酸化位点pT37和pT46的显著接触，以及与C-IDR区域的较弱离域相互作用。凝聚层次聚类将每个系综划分为四个簇，具有不同的全局尺寸和接触图谱。这有助于描绘一个NP簇，基于我们的smFRET数据，该簇与eIF4E结合状态兼容。5P簇通过C-IDR与折叠结构域的相互作用以及N-IDR与折叠结构域中两个磷酸化位点的相互作用加以区分。我们的研究不仅提供了4E-BP2基本结构姿态的更清晰可视化，还提供了一组关于偏置该蛋白折叠和结合的链内相互作用的可证伪见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.20.545775",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.20.545775",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.20.545775/index.html"
+}

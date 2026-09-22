@@ -1,0 +1,216 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.09.13.507836",
+  "title": "Intrinsically disordered proteins SAID1/2 condensate on SERRATE/ARS2 for dual inhibition of miRNA biogenesis in Arabidopsis",
+  "doi": "10.1101/2022.09.13.507836",
+  "abstract": "<h4>Summary</h4> Intrinsically disordered proteins (IDPs) SAID1/2 are hypothetic dentin sialophosphoprotein-like proteins, but their true functions are unknown. Here, we identified SAID1/2 as negative regulators of SERRATE(SE)/ARS2, a core factor in miRNA biogenesis complex (microprocessor). Loss-of-function double mutants of said1; said2 caused pleiotropic developmental defects and thousands of differentially-expressed genes that partially overlapped with those in se. said1; said2 also displayed increased assembly of microprocessor and elevated accumulation of miRNAs. Mechanistically, SAID1/2 promotes PRP4KA-mediated phosphorylation of SE, leading to its degradation in vivo. Unexpectedly, SAID1/2 have strong binding affinity to hairpin-structured pri-miRNAs and can sequester them from SE. Moreover, SAID1/2 directly inhibit pri-miRNA processing by microprocessor in vitro. Whereas SAID1/2 did not impact SE subcellular compartmentation, the proteins themselves exhibited liquid-liquid phase condensation that is nucleated on SE. Thus, we proposed that SAID1/2 reduce miRNA production through hijacking pri-miRNAs to prevent microprocessor activity while promoting SE phosphorylation and its destabilization in Arabidopsis.",
+  "authors": [
+    "Shang B",
+    "Wang L",
+    "Yan X",
+    "Li Y",
+    "Li C",
+    "Wu C",
+    "Wang T",
+    "Xiang-Guo",
+    "Choi S",
+    "Zhang T",
+    "Wang Z",
+    "Tong C",
+    "Oh T",
+    "Xiao-Zhang",
+    "Wang Z",
+    "Peng X",
+    "Zhang X"
+  ],
+  "published_date": "2022-09-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.09.13.507836",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.09.13.507836.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR546559",
+    "raw_record": {
+      "id": "PPR546559",
+      "source": "PPR",
+      "doi": "10.1101/2022.09.13.507836",
+      "title": "Intrinsically disordered proteins SAID1/2 condensate on SERRATE/ARS2 for dual inhibition of miRNA biogenesis in Arabidopsis",
+      "authorString": "Shang B, Wang L, Yan X, Li Y, Li C, Wu C, Wang T, Xiang-Guo, Choi S, Zhang T, Wang Z, Tong C, Oh T, Xiao-Zhang, Wang Z, Peng X, Zhang X.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shang B",
+            "lastName": "Shang",
+            "firstName": "Baoshuan",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8744-3554"
+            }
+          },
+          {
+            "fullName": "Wang L",
+            "lastName": "Wang",
+            "firstName": "Lin",
+            "initials": "L"
+          },
+          {
+            "fullName": "Yan X",
+            "lastName": "Yan",
+            "firstName": "Xingxing",
+            "initials": "X"
+          },
+          {
+            "fullName": "Li Y",
+            "lastName": "Li",
+            "firstName": "Yanjun",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Li C",
+            "lastName": "Li",
+            "firstName": "Changhao",
+            "initials": "C"
+          },
+          {
+            "fullName": "Wu C",
+            "lastName": "Wu",
+            "firstName": "Chaohua",
+            "initials": "C"
+          },
+          {
+            "fullName": "Wang T",
+            "lastName": "Wang",
+            "firstName": "Tian",
+            "initials": "T"
+          },
+          {
+            "fullName": "Xiang-Guo",
+            "lastName": "Xiang-Guo"
+          },
+          {
+            "fullName": "Choi S",
+            "lastName": "Choi",
+            "firstName": "Sukwon",
+            "initials": "S"
+          },
+          {
+            "fullName": "Zhang T",
+            "lastName": "Zhang",
+            "firstName": "Tianru",
+            "initials": "T"
+          },
+          {
+            "fullName": "Wang Z",
+            "lastName": "Wang",
+            "firstName": "Ziying",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Tong C",
+            "lastName": "Tong",
+            "firstName": "Chun-Yip",
+            "initials": "C"
+          },
+          {
+            "fullName": "Oh T",
+            "lastName": "Oh",
+            "firstName": "Taerin",
+            "initials": "T"
+          },
+          {
+            "fullName": "Xiao-Zhang",
+            "lastName": "Xiao-Zhang"
+          },
+          {
+            "fullName": "Wang Z",
+            "lastName": "Wang",
+            "firstName": "Zhiye",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Peng X",
+            "lastName": "Peng",
+            "firstName": "Xu",
+            "initials": "X"
+          },
+          {
+            "fullName": "Zhang X",
+            "lastName": "Zhang",
+            "firstName": "Xiuren",
+            "initials": "X"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8744-3554"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>Summary</h4>  Intrinsically disordered proteins (IDPs) SAID1/2 are hypothetic dentin sialophosphoprotein-like proteins, but their true functions are unknown. Here, we identified SAID1/2 as negative regulators of SERRATE(SE)/ARS2, a core factor in miRNA biogenesis complex (microprocessor). Loss-of-function double mutants of  said1; said2 caused pleiotropic developmental defects and thousands of differentially-expressed genes that partially overlapped with those in  se. said1; said2 also displayed increased assembly of microprocessor and elevated accumulation of miRNAs. Mechanistically, SAID1/2 promotes PRP4KA-mediated phosphorylation of SE, leading to its degradation in vivo. Unexpectedly, SAID1/2 have strong binding affinity to hairpin-structured pri-miRNAs and can sequester them from SE. Moreover, SAID1/2 directly inhibit pri-miRNA processing by microprocessor in vitro. Whereas SAID1/2 did not impact SE subcellular compartmentation, the proteins themselves exhibited liquid-liquid phase condensation that is nucleated on SE. Thus, we proposed that SAID1/2 reduce miRNA production through hijacking pri-miRNAs to prevent microprocessor activity while promoting SE phosphorylation and its destabilization in Arabidopsis.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/09/16/2022.09.13.507836.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.09.13.507836"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-09-18",
+      "firstPublicationDate": "2022-09-16",
+      "firstIndexDate": "2022-09-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

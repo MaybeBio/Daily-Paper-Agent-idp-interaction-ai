@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39091801",
+  "title": "Transient Non-local Interactions Dominate the Dynamics of Measles Virus N(TAIL).",
+  "authors": "Otteson, Lillian; Nagy, Gabor; Kunkel, John; Kodis, Gerdenis; Bock, Lars V; Bignon, Christophe; Longhi, Sonia; Zheng, Wenwei; Grubmuller, Helmut; Vaiana, Andrea C; Vaiana, Sara M",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-08-02",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合PET实验、模拟与共进化分析，揭示麻疹病毒N(TAIL)无序域中远距离非局部瞬态互作主导其构象动态并调控MoRE结合位点，进而影响与磷酸蛋白的PPI及病毒转录复制，为IDP内非局部互作调控结合机制提供了可迁移的建模范例。",
+  "abstract": "The RNA genome of measles virus is encapsidated by the nucleoprotein within a helical nucleocapsid that serves as template for both transcription and replication. The intrinsically disordered domain of the nucleoprotein (N(TAIL)), partly protruding outward from the nucleocapsid, is essential for binding the polymerase complex responsible for viral transcription and replication. As for many IDPs, binding of N(TAIL) occurs through a short molecular recognition element (MoRE) that folds upon binding, with the majority of N(TAIL) remaining disordered. Though N(TAIL) regions far from the MoRE influence the binding affinity, interactions between them and the MoRE have not been investigated in depth. Using an integrated approach, relying on photo-induced electron transfer (PET) experiments between tryptophan and cysteine pairs placed at different positions in the protein under varying salt and pH conditions, combined with simulations and analytical models, we identified transient interactions between two disordered regions distant in sequence, which dominate N(TAIL) dynamics, and regulate the conformational preferences of both the MoRE and the entire N(TAIL) domain. Co-evolutionary analysis corroborates our findings and suggests an important functional role for the same intramolecular interactions. We propose mechanisms by which these non-local interactions may regulate binding to the measles phosphoprotein, polymerase recruitment, and ultimately viral transcription and replication. Our findings may be extended to other IDPs, where non-local intra-protein interactions affect the conformational preferences of intermolecular binding sites.",
+  "abstract_zh": "麻疹病毒RNA基因组被核蛋白包裹在螺旋核衣壳内，该核衣壳作为转录和复制的模板。核蛋白的内在无序结构域（N(TAIL)）部分从核衣壳向外突出，对于结合负责病毒转录和复制的聚合酶复合物至关重要。与许多内在无序蛋白（IDPs）一样，N(TAIL)的结合通过一个短分子识别元件（MoRE）发生，该元件在结合时折叠，而N(TAIL)的大部分保持无序状态。尽管远离MoRE的N(TAIL)区域影响结合亲和力，但它们与MoRE之间的相互作用尚未被深入研究。通过一种综合方法，利用在不同盐浓度和pH条件下置于蛋白质不同位置的色氨酸和半胱氨酸对之间的光诱导电子转移（PET）实验，结合模拟和分析模型，我们鉴定了两个在序列上相距较远的无序区域之间的瞬时相互作用，这些相互作用主导N(TAIL)动力学，并调节MoRE及整个N(TAIL)结构域的构象偏好。共进化分析证实了我们的发现，并提示相同的分子内相互作用具有重要的功能作用。我们提出了这些非局部相互作用可能调节与麻疹磷蛋白结合、聚合酶招募以及最终病毒转录和复制的机制。我们的发现可能推广到其他IDPs，其中非局部蛋白质内相互作用影响分子间结合位点的构象偏好。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39091801/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39091801/",
+  "paper_page_path": "papers/pubmed/39091801/index.html"
+}

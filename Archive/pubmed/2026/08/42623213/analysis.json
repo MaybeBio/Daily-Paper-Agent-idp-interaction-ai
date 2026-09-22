@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42623213",
+  "title": "PreMemMoRF: A pretraining-fine-tuning framework for predicting membrane molecular recognition features.",
+  "authors": "Xia, Chenxi; Hao, Jiayi; Liu, Hao; Zeng, Min; Zhang, Fuhao; Li, Min",
+  "journal": "IEEE journal of biomedical and health informatics",
+  "published_date": "2026-08-20",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 7,
+  "one_liner_zh": "提出预训练-微调深度学习框架PreMemMoRF，预测膜结合无序区域(MemMoRFs)的脂质结合分子识别特征，虽聚焦IDR与脂质互作而非典型PPI，但迁移学习建模思路对无序蛋白互作预测有启发。",
+  "abstract": "Membrane molecular recognition features (MemMoRFs) are lipid-binding intrinsically disordered regions (IDRs) that undergo disorder-to-order transitions to mediate critical membrane dynamics. Consequently, their dysregulation is closely linked to severe human pathologies, including neurodegenerative diseases and viral infections. Despite their biological significance, annotations for MemMoRFs are scarce, limiting the accuracy of computational predictors. We introduce PreMemMoRF, a deep learning framework that leverages transfer learning to alleviate data scarcity. The model is pre-trained on linear interacting peptides (LIPs) with similar conformational transitions and fine-tuned on MemMoRF datasets, capturing generalizable binding-related sequence features. PreMemMoRF outperforms existing predictors across multiple metrics and demonstrates robust performance on transmembrane and membrane-associated proteins. It also performs consistently in short linear motif prediction, highlighting cross-task generalizability. Proteome-wide analysis in yeast shows that predicted scores exhibit systematic differences across distinct transmembrane topological regions and are consistent with established physicochemical constraints of membrane proteins. Collectively, these results validate PreMemMoRF as a robust and reliable computational framework for the large-scale identification of MemMoRFs.",
+  "abstract_zh": "膜分子识别特征（MemMoRFs）是脂质结合的内在无序区域（IDRs），它们经历无序到有序的转变以介导关键的膜动力学过程。因此，其失调与严重的人类病理密切相关，包括神经退行性疾病和病毒感染。尽管具有生物学重要性，MemMoRFs的注释稀缺，限制了计算预测器的准确性。我们引入了PreMemMoRF，一种利用迁移学习来缓解数据稀缺性的深度学习框架。该模型在具有相似构象转变的线性相互作用肽（LIPs）上进行预训练，并在MemMoRF数据集上进行微调，捕获可泛化的结合相关序列特征。PreMemMoRF在多个指标上优于现有预测器，并在跨膜和膜相关蛋白上表现出稳健性能。它在短线性基序预测中也表现一致，突显了跨任务泛化能力。酵母中的蛋白质组-wide分析显示，预测分数在不同跨膜拓扑区域间表现出系统性差异，并与膜蛋白的既定物理化学约束一致。总体而言，这些结果验证了PreMemMoRF作为大规模识别MemMoRFs的稳健可靠计算框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42623213/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42623213/",
+  "paper_page_path": "papers/pubmed/42623213/index.html"
+}

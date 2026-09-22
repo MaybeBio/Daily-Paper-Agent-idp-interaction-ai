@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34557680",
+  "title": "Folded domain charge properties influence the conformational behavior of disordered tails.",
+  "authors": "Taneja, Ishan; Holehouse, Alex S",
+  "journal": "Current research in structural biology",
+  "published_date": "2021-09-25",
+  "window": {
+    "start": "2021-09-20",
+    "end": "2021-09-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过结构生物信息学与全原子隐式溶剂模拟，研究折叠结构域表面电荷特性如何调控相邻无序尾部的构象行为，虽未直接聚焦PPI，但揭示了IDR-折叠域相互作用的静电机制，对无序蛋白介导互作的建模有方法学启发。",
+  "abstract": "Intrinsically disordered proteins and protein regions (IDRs) make up around 30% of the human proteome where they play essential roles in dictating and regulating many core biological processes. While IDRs are often studied as isolated domains, in naturally occurring proteins most IDRs are found adjacent to folded domains, where they exist as either N- or C-terminal tails or as linkers connecting two folded domains. Prior work has shown that charge properties of IDRs can influence their conformational behavior, both in isolation and in the context of folded domains. In contrast, the converse scenario is less well-explored: how do the charge properties of folded domains influence IDR conformational behavior? To answer this question, we combined a large-scale structural bioinformatics analysis with all-atom implicit solvent simulations of both rationally designed and naturally occurring proteins. Our results reveal three key takeaways. Firstly, the relative position and accessibility of charged residues across the surface of a folded domain can dictate IDR conformational behavior, overriding expectations based on net surface charge properties. Secondly, naturally occurring proteins possess multiple charge patches that are physically accessible to local IDRs. Finally, even modest changes in the local electrostatic environment of a folded domain can substantially modulate IDR-folded domain interactions. Taken together, our results suggest that folded domain surfaces can act as local determinants of IDR conformational behavior.",
+  "abstract_zh": "固有无序蛋白和蛋白区域（IDRs）约占人类蛋白质组的30%，在决定和调控许多核心生物过程中发挥重要作用。尽管IDRs常被作为孤立结构域进行研究，但在天然存在的蛋白质中，大多数IDRs位于折叠结构域附近，以N端或C端尾部形式存在，或作为连接两个折叠结构域之间的连接子。先前的研究表明，IDRs的电荷特性可以影响其构象行为，无论是在孤立状态下还是在折叠结构域的背景下。相反，反向情景的探索较少：折叠结构域的电荷特性如何影响IDRs的构象行为？为回答此问题，我们结合了大规模结构生物信息学分析，以及对合理设计和天然存在蛋白质的全原子隐式溶剂模拟。我们的结果揭示了三个关键要点。首先，折叠结构域表面带电残基的相对位置和可及性可以决定IDRs的构象行为，超越基于净表面电荷特性的预期。其次，天然存在的蛋白质具有多个物理上可被局部IDRs接触的电荷斑块。最后，即使折叠结构域局部静电环境的适度变化也能显著调节IDRs-折叠结构域相互作用。综合来看，我们的结果表明，折叠结构域表面可作为IDRs构象行为的局部决定因素。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34557680/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34557680/",
+  "paper_page_path": "papers/pubmed/34557680/index.html"
+}

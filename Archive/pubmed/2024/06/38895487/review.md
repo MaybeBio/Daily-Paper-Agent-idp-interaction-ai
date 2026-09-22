@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv, 2024)
+- **Assessment boundary** Scientific content, methodology, validation, and claims as presented in the provided text; no external data or code were accessed
+- **Shared manuscript claim summary** The authors present a computational approach (FINCHES) that repurposes coarse-grained molecular force field parameters (Mpipi-GG, CALVADOS2) to predict intermolecular interactions involving intrinsically disordered regions (IDRs) directly from amino acid sequence. The method yields a mean-field interaction parameter (ϵ) and "intermaps" that identify attractive/repulsive subregions. Claims include: (i) ϵ correlates with experimental second virial coefficients; (ii) predicted phase diagrams recapitulate experimental trends for multiple IDR systems; (iii) intermaps identify known interaction hotspots in ProTα:H1, CAPRIN-1, and Sox2:Nanog; (iv) the approach can interpret high-throughput activation domain data; (v) proteome-scale analysis reveals chemically distinct IDR clusters.
+- **Visible evidence base** Abstract; Introduction; Results sections (force field repurposing, validation against molecular interaction, phase diagram prediction, chemical space organization, decoding chemical specificity); Discussion; Methods; figure callouts (Figs. 1–5, S1–S15); supplementary table callouts (S1–S7)
+- **Missing materials affecting confidence** Figures and supplementary figures/tables not provided; no code or webserver access; no detailed derivation of the Mayer-f function analogy; no explicit error analysis or statistical tests; no comparison to existing sequence-based predictors beyond qualitative statements
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually appealing and computationally efficient framework for predicting IDR-mediated intermolecular interactions from sequence alone. The core idea—integrating force field-derived interaction parameters over all configurations to obtain a mean-field ϵ—is physically motivated and clearly explained. The validation against experimental second virial coefficients and phase diagrams is encouraging, and the application to activation domain interpretation is novel and thought-provoking. However, the manuscript as provided has several significant gaps: the absence of figures and supplementary materials makes it impossible to fully assess the quantitative claims; the validation set is limited; the treatment of folded domain interactions is superficial; and the statistical rigor of the proteome-scale analysis is not described. The method's limitations are acknowledged candidly, which is commendable, but the current evidence base does not fully establish the broad utility claimed.
+- **Who would be interested in the results, and why** Researchers studying IDR function, biomolecular condensates, phase separation, and protein-protein interactions involving disordered regions. The method's speed and interpretability could appeal to experimentalists seeking to prioritize mutations or regions for study, and to computational biologists interested in sequence-to-property predictions for IDRs. The activation domain analysis may attract the transcription field.
+- **Major strengths** (1) The conceptual reframing of force field parameters as sequence-based interaction predictors is elegant and physically grounded. (2) The method is fast, open-source, and accessible via multiple interfaces, which should facilitate adoption. (3) Validation against multiple independent experimental datasets (virial coefficients, phase diagrams, known hotspots) is a clear strength. (4) The candid and detailed discussion of caveats is exemplary and builds trust. (5) The application to high-throughput activation domain data demonstrates a potentially powerful interpretive use case.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "ϵ is proportional to experimentally-measurable values for intermolecular interaction" and "the value of 0 should be equivalent in ϵ and A2 space"
+  - **Evidence pointer** Figure 2A, 2C; Figure S3; "location not provided" for statistical details
+  - **Concern** The validation against second virial coefficients is based on only two systems (FUS variants, LAF-1 RGG). The claim of proportionality and the equivalence of zero in ϵ and A2 space rests on a best-fit line through the origin, but no correlation coefficients, confidence intervals, or statistical tests are reported in the text. The 1:1 correspondence for LAF-1 is stated but not quantified. With only two systems, the generality of this calibration is unestablished.
+  - **Why it matters** The entire predictive framework rests on the assumption that ϵ captures real intermolecular interactions. If the calibration to experimental observables is weak or system-specific, downstream predictions (phase diagrams, hotspot identification) lose quantitative meaning.
+  - **Resolution test** Provide correlation coefficients, p-values, and confidence intervals for the ϵ vs. A2/B2 fits. Ideally, validate against additional systems with published virial coefficient data. State explicitly the expected error in ϵ as a predictor of experimental interaction strength.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Our approach is capable of capturing effects driven by sequence patterning, changes in the identity of cationic residues, and the solution environment" (phase diagram predictions)
+  - **Evidence pointer** Figure 3B–I; Figures S4–S6; "location not provided" for quantitative comparisons
+  - **Concern** The phase diagram predictions are described as "qualitative" and "good agreement," but no quantitative metrics are provided. For hnRNPA1 variants, the relative shifts in critical temperature are stated to match experiments, but the magnitude of agreement is not given. For DDX4, the salt dependence is "correctly reproduced," but again without numbers. The claim that CALVADOS2 gives "equivalent results" is not shown. Without quantitative comparison (e.g., predicted vs. experimental Tc, binodal widths), the predictive power of the method for phase behavior is not rigorously established.
+  - **Why it matters** Phase diagram prediction is a central advertised capability. If the agreement is only qualitative, the method's utility for guiding experiments (e.g., predicting whether a mutation will enhance or suppress phase separation) is limited and potentially misleading.
+  - **Resolution test** Provide a systematic quantitative comparison of predicted and experimental phase diagrams for all systems studied, including errors in Tc and binodal shapes. Report the fraction of cases where the predicted direction of change (e.g., mutation effect) matches experiment. If only qualitative agreement is claimed, state this explicitly and define the limits of applicability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality / Scientific importance
+  - **Claim pointer** "We lack tools to describe, quantify, predict, and interpret these types of structurally heterogeneous interactions from the underlying amino acid sequences" and the method addresses this gap
+  - **Evidence pointer** Introduction; Discussion; "location not provided" for comparison to existing tools
+  - **Concern** The manuscript does not compare FINCHES to existing sequence-based predictors of IDR interactions or phase behavior. Several tools exist (e.g., catGRANULE, PScore, FuzDrop, and machine learning approaches like those from von Bulow et al., which are cited). The claim of addressing a "lack of tools" is overstated without a direct benchmark against these methods. The authors do cite von Bulow et al. and acknowledge their approach may be more quantitative for phase diagrams, but a head-to-head comparison is absent.
+  - **Why it matters** For the method to be adopted, users need to know when to choose FINCHES over existing tools. Without benchmarking, the relative advantages (speed, interpretability, generality) are asserted but not demonstrated.
+  - **Resolution test** Add a benchmarking section comparing FINCHES predictions (ϵ, intermaps, phase diagram trends) to existing predictors on a common set of IDRs. Report runtime, accuracy, and interpretability metrics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "Intermaps enable the development of testable and well-motivated hypotheses regarding intermolecular interactions" and the activation domain analysis reveals that "strong homotypic interaction is detrimental to activation domain function"
+  - **Evidence pointer** Figure 5J–L; Figures S12–S15; "location not provided" for statistical analysis
+  - **Concern** The activation domain analysis is the most novel application, but the statistical basis for the conclusions is not described. The correlation (r = 0.94) between average AD score and average attractive interaction is reported, but the number of data points, the definition of "strong" vs. "weak" AD, and the threshold choices are not specified. The manual line in Figure 5J and the classification of tiles are subjective. The claim that homotypic interaction is "detrimental" is a causal interpretation from correlational data.
+  - **Why it matters** This analysis could be a significant contribution, but the lack of statistical rigor and the over-interpretation of correlations undermine confidence in the conclusions.
+  - **Resolution test** Provide a detailed statistical analysis: number of tiles, threshold definitions, sensitivity analysis, and appropriate statistical tests (e.g., permutation tests). Acknowledge the correlational nature of the finding and discuss alternative explanations.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "The approach does not consider the intrinsic competition between intramolecular interactions and intermolecular interactions, although this effect can be accounted for explicitly (e.g., see Fig. 5)"
+  - **Evidence pointer** Discussion; Figure 5; "location not provided" for the explicit accounting
+  - **Concern** The statement that intramolecular vs. intermolecular competition "can be accounted for explicitly" is vague. The reference to Figure 5 is unclear, as the text does not explain how this competition is incorporated. If the method can account for this, the details should be provided; if not, the limitation should be stated more strongly.
+  - **Why it matters** Intramolecular interactions are known to compete with intermolecular interactions in IDRs. If the method cannot distinguish these, predictions of intermolecular interaction strength may be systematically biased.
+  - **Resolution test** Clarify how intramolecular competition is handled, or explicitly state that the current implementation does not account for it and discuss the potential impact on predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Results
+  - **Evidence pointer** "location not provided"
+  - **Issue** The distinction between "sequence-specific" and "chemical-specific" interactions is introduced early but could be clearer for readers unfamiliar with the IDR field. The term "chemical specificity" is used in multiple ways (e.g., as a general concept and as a specific method name).
+  - **Required correction** Define "chemical specificity" explicitly at first use and consider using a different term for the method (e.g., "chemically specific interactions") to avoid confusion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** "location not provided"
+  - **Issue** The description of the local charge and hydrophobic corrections is brief. The rationale for the specific scaling factors (1.5x, 3x) is not given.
+  - **Required correction** Provide a brief justification for the scaling factors and cite any prior work that informed these choices.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** "location not provided"
+  - **Issue** The discussion of potential applications (e.g., interpreting affinity purification mass spectrometry) is speculative and not tied to specific examples or data.
+  - **Required correction** Either provide a concrete example or clearly label these as future directions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figure 1
+  - **Evidence pointer** "location not provided"
+  - **Issue** The description of the intermap concept in the text is clear, but the figure is not available for review. The text should stand alone in explaining how to read an intermap.
+  - **Required correction** Ensure the figure legend and text together provide a complete guide to interpreting intermaps.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation statistics), R1-M2 (quantitative phase diagram comparison), R1-M3 (benchmarking against existing tools), R1-M4 (statistical rigor of activation domain analysis)
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of repurposing force field parameters for direct sequence-based prediction of intermolecular interactions is original and distinct from existing approaches that rely on simulation or machine learning. The activation domain analysis is a novel application.
+  - **Scientific importance** If validated, the method could fill a clear gap in the field: rapid, interpretable prediction of IDR interaction properties. The potential for proteome-scale analysis is significant. However, the importance is currently tempered by the limited validation and lack of benchmarking.
+  - **Interdisciplinary readership** The method is relevant to biophysics, cell biology, and computational biology. The activation domain application extends relevance to gene regulation. The writing is generally accessible, though some jargon is used without definition.
+  - **Technical soundness** The underlying physics is sound, and the implementation appears straightforward. However, the validation is thin (two systems for virial coefficients, qualitative phase diagram comparisons), and the statistical analysis of the activation domain data is incomplete. These issues must be resolved.
+  - **Readability for nonspecialists** The abstract and introduction are clear. The Results section is dense but understandable. The Discussion is well-written and candid. The Methods section is brief and would benefit from more detail.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the initial validations are encouraging, but the current evidence base is insufficient to fully establish the method's quantitative predictive power or its advantages over existing tools. The authors should address the validation statistics, provide quantitative phase diagram comparisons, add benchmarking, and strengthen the statistical analysis of the activation domain application.
+
+## Risk / unsupported claims
+- The claim that ϵ is "proportional" to experimental virial coefficients is supported by only two systems and lacks statistical quantification; the generality is unestablished.
+- The claim that phase diagram predictions "correctly reproduce" experimental results is qualitative; no quantitative metrics are provided.
+- The claim that the method can "account for" intramolecular vs. intermolecular competition is vague and not substantiated in the text.
+- The claim that "strong homotypic interaction is detrimental to activation domain function" is a causal interpretation from correlational data without statistical support.
+- The claim that the method addresses a "lack of tools" is overstated without benchmarking against existing predictors.
+- The proteome-scale clustering analysis (Fig. 4) is described, but the statistical significance of the clusters and the robustness of the clustering method are not discussed.

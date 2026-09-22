@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36041015",
+  "title": "When acidic residues do not mimic phosphorylation: high-affinity binding of the reticulophagy receptor TEX264 to LC3/GABARAP.",
+  "authors": "Popelka, Hana; Klionsky, Daniel J",
+  "journal": "Autophagy",
+  "published_date": "2022-08-31",
+  "window": {
+    "start": "2022-08-29",
+    "end": "2022-09-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该文探讨自噬受体TEX264中无序区域LIR基序磷酸化而非酸性残基模拟磷酸化如何实现与LC3/GABARAP的高亲和结合，涉及IDR介导的PPI机制，但为综述性文章且无AI/物理模拟方法。",
+  "abstract": "Substrates that are selected for degradation by autophagy interact in more complex eukaryotes with Atg8-family proteins via the LC3-interacting region (LIR) that is often preceded by either acidic residues or phosphorylated serine or threonine. These upstream amino acid residues increase the binding affinity of the LIR motif to its binding site on the surface of LC3/GABARAP. It is not fully understood whether or how phosphorylation functionally replaces acidic residues in the LIR-Atg8-family protein interactions. A recent study by Chino et al. discussed in this article analyzed the phosphorylation of two serine residues upstream of the LIR motif in TEX264, a reticulophagy receptor that exhibits a high binding affinity to LC3/GABARAP proteins. The authors found a structural basis for the high-affinity interaction yielded by phosphorylation but not by an acidic residue in place of phosphoserine. Furthermore, finding that phosphorylation of TEX264 generates its high binding affinity to Atg8-family proteins uncovers a mechanistic alternative to that utilized by other reticulophagy receptors when they interact with LC3/GABARAP.Abbreviations: CSNK2: casein kinase 2; ER: endoplasmic reticulum; IDPR: intrinsically disordered protein region; LIR: LC3-interacting region; p-S: phosphorylated serine.",
+  "abstract_zh": "被选择用于自噬降解的底物在更复杂的真核生物中，通过LC3相互作用区域（LIR）与Atg8家族蛋白相互作用，该区域通常位于酸性残基或磷酸化丝氨酸或苏氨酸之前。这些上游氨基酸残基增强了LIR基序与其在LC3/GABARAP表面结合位点的结合亲和力。目前尚未完全理解磷酸化是否或如何在功能上替代LIR-Atg8家族蛋白相互作用中的酸性残基。本文讨论的Chino等人近期研究分析了TEX264中LIR基序上游两个丝氨酸残基的磷酸化，TEX264是一种对LC3/GABARAP蛋白具有高结合亲和力的网状自噬受体。作者发现了由磷酸化而非替代磷酸丝氨酸的酸性残基所产生的高亲和力相互作用的结构基础。此外，发现TEX264的磷酸化使其对Atg8家族蛋白产生高结合亲和力，揭示了一种与其他网状自噬受体在与LC3/GABARAP相互作用时所采用机制不同的替代机制。缩写：CSNK2：酪蛋白激酶2；ER：内质网；IDPR： intrinsically disordered protein region（内在无序蛋白区域）；LIR：LC3相互作用区域；p-S：磷酸化丝氨酸。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36041015/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36041015/",
+  "paper_page_path": "papers/pubmed/36041015/index.html"
+}

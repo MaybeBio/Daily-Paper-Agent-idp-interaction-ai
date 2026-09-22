@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41972736",
+  "title": "Estimation of Double-Serine Phosphorylation's Effects on the Intrinsically Disordered Region Structure in Y14 (RBM8A) Protein via Molecular Dynamics Simulation.",
+  "authors": "Nakamura, Yuka; Horie, Tetsuhiro; Sakamoto, Takuya; Yoshizaki, Hisayoshi; Okajima, Hideaki; Ishigaki, Yasuhito",
+  "journal": "Cells",
+  "published_date": "2026-04-13",
+  "window": {
+    "start": "2026-04-13",
+    "end": "2026-04-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过分子动力学模拟预测Y14蛋白IDR中双丝氨酸磷酸化诱导的构象变化，虽聚焦单蛋白IDR结构变化而非直接PPI机制，但方法可迁移至IDR磷酸化调控互作的研究。",
+  "abstract": "The C-terminus of the Y14 protein, which is also known as RBM8A and is encoded by the gene responsible for human thrombocytopenia absent radius syndrome, contains two serines that undergo phosphorylation inside an intrinsically disordered region (IDR). Although both serines are frequently phosphorylated in cells, their biological role remains unclear; therefore, we estimated the peptide structure using PEPstrMOD, which predicts peptide conformations through molecular dynamics. For this analysis, amino acid residues 151-174 of Y14, identified as an IDR in UniProt, were targeted. Structural prediction via PEPstrMOD revealed that the target peptide adopts an elongated structure in its unphosphorylated state, while simulating its phosphorylated state revealed an increase in hydrogen bonds and a more compact conformation. The compact structure of Y14 induced by phosphorylation may aid in the formation of the exon-exon junction complex at the exon-exon junction, which facilitates mRNA transport and translation. The prevalence of phosphorylated Y14 in cells may indicate that this higher-order structure is also essential for mRNA metabolism.",
+  "abstract_zh": "Y14蛋白的C末端，也称为RBM8A，由导致人类血小板减少症伴桡骨缺失综合征的基因编码，包含两个丝氨酸，这些丝氨酸在内在无序区（IDR）内发生磷酸化。尽管这两个丝氨酸在细胞中经常被磷酸化，但其生物学作用仍不清楚；因此，我们使用PEPstrMOD估计了肽结构，该方法通过分子动力学预测肽构象。在此分析中，靶向了Y14的氨基酸残基151-174，该区域在UniProt中被鉴定为IDR。通过PEPstrMOD进行的结构预测显示，目标肽在未磷酸化状态下采用延伸结构，而模拟其磷酸化状态则显示氢键增加和更紧凑的构象。磷酸化诱导的Y14紧凑结构可能有助于在外显子-外显子连接处形成外显子-外显子连接复合物，从而促进mRNA运输和翻译。细胞中磷酸化Y14的普遍存在可能表明这种高阶结构对mRNA代谢也至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41972736/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41972736/",
+  "paper_page_path": "papers/pubmed/41972736/index.html"
+}

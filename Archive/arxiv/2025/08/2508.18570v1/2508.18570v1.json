@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2508.18570v1",
+  "title": "The Protein Force Field Plays a Crucial Role in Obtaining Accurate Macromolecular Ensembles of IDPs",
+  "doi": "",
+  "abstract": "Intrinsically disordered proteins (IDPs) play a significant role in intracellular phenomena and are known to exist in an ensemble of inter-converting conformations in solution. Accurately modeling the conformations of IDPs in solution poses a challenge to traditional force fields that are tuned to predict the properties of folded proteins. There is a need for generalized atomistic force fields that can accurately predict the properties of both folded proteins and IDPs. Improvements to protein force fields for increased accuracy in secondary structure prediction and new water models with increased water-water dispersion interactions have been proposed in search of a generalized simulation method. Validating the proposed improvements against experiments poses challenges such as a lack of suitable systems to test the generalizability and choosing a property of interest to match the simulation results against experiments. In this work, we use small angle X-ray scattering (SAXS) data from peptide-based polyampholytes that mimic IDPs to test the generalizability of the AMBER protein force fields and the OPC water model. The specific improvements due to the AMBER ff19SB protein force field and the OPC water model are isolated and studied. Analysis of SAXS profiles and the conformational distribution of polyampholyte sequences show the AMBER ff19SB-OPC water combination to be a generalized model that predicts both ordered polyampholyte sequences and disordered polyampholyte sequences in good agreement with experiments. We have developed a new scattering model termed SWAXS-AMDE that accounts for the hydration layer density changes in atomic detail and is particularly useful in making one-to-one comparisons of simulated scattering profiles to experiments. SWAXS-AMDE allows for the thermal fluctuations of the solute which is particularly consequential for IDPs.",
+  "authors": [
+    "Rohan S. Adhikari",
+    "Winnie H. Shi",
+    "Amanda B. Marciel",
+    "Walter G. Chapman"
+  ],
+  "published_date": "2025-08-26T00:07:56Z",
+  "updated_date": "2025-08-26T00:07:56Z",
+  "journal": "",
+  "category": "physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2508.18570v1",
+  "pdf_url": "https://arxiv.org/pdf/2508.18570v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2508.18570v1",
+    "raw_categories": [
+      "physics.bio-ph"
+    ],
+    "journal_ref": ""
+  }
+}

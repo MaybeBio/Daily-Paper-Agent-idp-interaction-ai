@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35037015",
+  "title": "A reproducibility analysis-based statistical framework for residue-residue evolutionary coupling detection.",
+  "authors": "Si, Yunda; Zhang, Yi; Yan, Chengfei",
+  "journal": "Briefings in bioinformatics",
+  "published_date": "2022-01-18",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出基于可重复性分析的统计框架IDR-DCA，用于从DCA耦合分数中筛选显著共进化残基对，并应用于蛋白-蛋白互作接触预测；虽涉及PPI且方法有统计建模，但对象非无序蛋白/相分离，且未深入互作机制建模，仅提供预测筛选工具。",
+  "abstract": "Direct coupling analysis (DCA) has been widely used to infer evolutionary coupled residue pairs from the multiple sequence alignment (MSA) of homologous sequences. However, effectively selecting residue pairs with significant evolutionary couplings according to the result of DCA is a non-trivial task. In this study, we developed a general statistical framework for significant evolutionary coupling detection, referred to as irreproducible discovery rate (IDR)-DCA, which is based on reproducibility analysis of the coupling scores obtained from DCA on manually created MSA replicates. IDR-DCA was applied to select residue pairs for contact prediction for monomeric proteins, protein-protein interactions and monomeric RNAs, in which three different versions of DCA were applied. We demonstrated that with the application of IDR-DCA, the residue pairs selected using a universal threshold always yielded stable performance for contact prediction. Comparing with the application of carefully tuned coupling score cutoffs, IDR-DCA always showed better performance. The robustness of IDR-DCA was also supported through the MSA downsampling analysis. We further demonstrated the effectiveness of applying constraints obtained from residue pairs selected by IDR-DCA to assist RNA secondary structure prediction.",
+  "abstract_zh": "直接耦合分析（DCA）已被广泛用于从同源序列的多序列比对（MSA）中推断进化耦合的残基对。然而，根据DCA结果有效选择具有显著进化耦合的残基对并非易事。在本研究中，我们开发了一个通用的统计框架，用于检测显著进化耦合，称为不可重复发现率（IDR）-DCA，该框架基于对人工创建的MSA重复样本上DCA获得的耦合分数进行可重复性分析。IDR-DCA被应用于选择残基对，用于单体蛋白质、蛋白质-蛋白质相互作用和单体RNA的接触预测，其中应用了三种不同版本的DCA。我们证明，通过应用IDR-DCA，使用通用阈值选择的残基对在接触预测中始终产生稳定的性能。与使用精心调整的耦合分数截断值相比，IDR-DCA始终表现出更好的性能。IDR-DCA的鲁棒性也通过MSA降采样分析得到了支持。我们进一步证明了应用由IDR-DCA选择的残基对获得的约束来辅助RNA二级结构预测的有效性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35037015/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35037015/",
+  "paper_page_path": "papers/pubmed/35037015/index.html"
+}

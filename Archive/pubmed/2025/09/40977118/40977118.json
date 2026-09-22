@@ -1,0 +1,357 @@
+{
+  "identity": {
+    "pmid": "40977118",
+    "doi": "10.1002/prot.70054",
+    "title": "Metal-Coordination Specificity and Structural Dynamics of C. elegans Metallothionein I: Insights From 3D Modeling and MD Simulations."
+  },
+  "content": {
+    "abstract": "Metallothioneins (MTLs) are small, cysteine-rich proteins known for their ability to bind metal ions and exhibit flexible, disordered structures. The structural and functional characteristics of metallothionein I (MTL-1) from Caenorhabditis elegans were investigated, focusing on its behavior in both metal free (MTL-1 Apo) and metal-bond states with Zn(2+), Cd(2+), Cu(2+), Hg(2+), and Pb(2+) divalent metal ions. Using molecular dynamics simulations and 3D modeling via AlphaFold, we characterized the flexibility and stability of MTL. The MTL-1 Apo form displayed high flexibility, aligning with its intrinsically disordered protein (IDP) nature, with 89.3% of its structure composed of coils, bends, and turns. Metal binding significantly enhanced the protein's stability, particularly with Zn(2+), Cd(2+), Cu(2+), and Hg(2+), reducing root mean square deviation (RMSD), root mean square fluctuation (RMSF), accessible surface area (SASA) and radius of gyration (R (g)) values, indicating structural compaction. Conversely, Pb(2+) showed a weaker stabilizing effect, with a more dynamic and less stable structure. Structural analysis revealed that conserved cysteine residues coordinate the metal through strong thiolate interactions, with additional contributions from non-cysteine residues, such as Glu and Lys. The study underscores the importance of incorporating intrinsically disordered protein models in MD simulations to provide deeper insights into how metallothionein's flexibility and stability vary in response to different metal ions, offering a structural perspective on their biological interactions and behavior under diverse environmental conditions. While thermodynamic aspects were not directly assessed, the results reveal consistent conformation trends across different metal coordination states.",
+    "keywords": [
+      "AMBER",
+      "metalloprotein",
+      "molecular dynamic simulation",
+      "structural biology",
+      "tridimensional protein"
+    ],
+    "mesh_terms": [
+      "*Metallothionein/chemistry/metabolism/genetics",
+      "Animals",
+      "Molecular Dynamics Simulation",
+      "*Caenorhabditis elegans/chemistry/metabolism",
+      "*Caenorhabditis elegans Proteins/chemistry/metabolism/genetics",
+      "Protein Binding",
+      "Cadmium/chemistry/metabolism",
+      "*Metals, Heavy/chemistry/metabolism",
+      "Binding Sites",
+      "Amino Acid Sequence",
+      "Protein Stability",
+      "Zinc/chemistry/metabolism",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Copper/chemistry/metabolism",
+      "*Metals/chemistry/metabolism",
+      "Protein Conformation",
+      "Mercury/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "de Oliveira, Nilvea Ramalho",
+        "Siqueira, Andrei Santos",
+        "Bueno, Paulo Sergio Alves",
+        "Goncalves, Evonnildo Costa",
+        "Zanette, Juliano"
+      ],
+      "short_names": [
+        "de Oliveira NR",
+        "Siqueira AS",
+        "Bueno PSA",
+        "Goncalves EC",
+        "Zanette J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2397-7119"
+      ],
+      "affiliations": [
+        "Instituto de Ciencias Biologicas, Universidade Federal do Rio Grande, Rio Grande, Rio Grande do Sul, Brazil.",
+        "Laboratorio de Tecnologia Biomolecular, Instituto de Ciencias Biologicas, Universidade Federal do Para, Belem, Para, Brazil.",
+        "Departamento de Bioquimica, Universidade Estadual de Maringa, Maringa, Parana, Brazil.",
+        "Laboratorio de Tecnologia Biomolecular, Instituto de Ciencias Biologicas, Universidade Federal do Para, Belem, Para, Brazil.",
+        "Instituto de Ciencias Biologicas, Universidade Federal do Rio Grande, Rio Grande, Rio Grande do Sul, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "de Oliveira, Nilvea Ramalho",
+        "short_name": "de Oliveira NR",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Ciências Biológicas, Universidade Federal do Rio Grande, Rio Grande, Rio Grande do Sul, Brazil."
+        ]
+      },
+      {
+        "full_name": "Siqueira, Andrei Santos",
+        "short_name": "Siqueira AS",
+        "identifiers": [
+          "0000-0002-2397-7119"
+        ],
+        "affiliations": [
+          "Laboratório de Tecnologia Biomolecular, Instituto de Ciências Biológicas, Universidade Federal do Pará, Belém, Pará, Brazil."
+        ]
+      },
+      {
+        "full_name": "Bueno, Paulo Sérgio Alves",
+        "short_name": "Bueno PSA",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Bioquímica, Universidade Estadual de Maringá, Maringá, Paraná, Brazil."
+        ]
+      },
+      {
+        "full_name": "Gonçalves, Evonnildo Costa",
+        "short_name": "Gonçalves EC",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratório de Tecnologia Biomolecular, Instituto de Ciências Biológicas, Universidade Federal do Pará, Belém, Pará, Brazil."
+        ]
+      },
+      {
+        "full_name": "Zanette, Juliano",
+        "short_name": "Zanette J",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Ciências Biológicas, Universidade Federal do Rio Grande, Rio Grande, Rio Grande do Sul, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/22 06:31",
+    "fetched_at": "2026-09-17 20:24:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38490456",
+      "38232596",
+      "38213902",
+      "38151062",
+      "37933859",
+      "37805934",
+      "37241727",
+      "37156916",
+      "37147085",
+      "36671509",
+      "36430530",
+      "36291675",
+      "35992603",
+      "35562983",
+      "34762438",
+      "34477370",
+      "34418423",
+      "34368766",
+      "34265844",
+      "33793233",
+      "33266184",
+      "33205965",
+      "33139074",
+      "32828470",
+      "32510956",
+      "32225102",
+      "31714766",
+      "31633358",
+      "30633652",
+      "30533602",
+      "30471688",
+      "30444224",
+      "30191219",
+      "29858425",
+      "29624115",
+      "29561927",
+      "29431781",
+      "29067766",
+      "28731302",
+      "28598392",
+      "28466911",
+      "28394890",
+      "27668217",
+      "26757944",
+      "26742040",
+      "26583802",
+      "26167879",
+      "25400877",
+      "24970224",
+      "24918957",
+      "24871565",
+      "24670003",
+      "24559479",
+      "23841698",
+      "22668884",
+      "22552775",
+      "22399135",
+      "21941540",
+      "21647514",
+      "21625408",
+      "21562828",
+      "21255385",
+      "21134891",
+      "21077111",
+      "20877848",
+      "20553489",
+      "20442962",
+      "20361221",
+      "19860833",
+      "19617453",
+      "19361445",
+      "19071644",
+      "18951636",
+      "18816489",
+      "18724363",
+      "18171588",
+      "17517781",
+      "17391016",
+      "17373731",
+      "17203314",
+      "17055583",
+      "17018876",
+      "16413543",
+      "16098817",
+      "15685654",
+      "15116359",
+      "11188527",
+      "8401235",
+      "6667333",
+      "5345587",
+      "3558354",
+      "2344361"
+    ],
+    "similar": [
+      "40977118",
+      "19860833",
+      "29624115",
+      "20361221",
+      "22370740",
+      "24871565",
+      "20553489",
+      "23430778",
+      "30420986",
+      "29561927",
+      "9778374",
+      "30191219",
+      "18429853",
+      "24687203",
+      "38151062",
+      "38549424",
+      "9172640",
+      "3011391",
+      "30724942",
+      "10830841",
+      "27886631",
+      "21437709",
+      "24276409",
+      "15698955",
+      "23835914",
+      "8706670",
+      "7986666",
+      "26299797",
+      "31633358",
+      "6466647",
+      "18566982",
+      "28598392",
+      "23385446",
+      "16420476",
+      "31918077",
+      "7851390",
+      "23542714",
+      "18795800",
+      "21352798",
+      "9341226",
+      "33641237",
+      "14960585",
+      "24469686",
+      "21124968",
+      "8713064",
+      "19111340",
+      "25790102",
+      "24479872",
+      "18389296",
+      "17055583",
+      "24918957",
+      "36918407",
+      "30187212",
+      "29218632",
+      "20877848",
+      "22560974",
+      "17377964",
+      "10716192",
+      "23636452",
+      "30176031",
+      "26475450",
+      "16377055",
+      "24982030",
+      "26703589",
+      "25770010",
+      "37336105",
+      "10830870",
+      "22668884",
+      "19716152",
+      "34477370",
+      "17211631",
+      "19361445",
+      "11087412",
+      "17018871",
+      "27061576",
+      "39462019",
+      "10555583",
+      "16508004",
+      "29766364",
+      "10433724",
+      "21409206",
+      "31841760",
+      "6623481",
+      "21255385",
+      "38000179",
+      "26401817",
+      "11460757",
+      "26167879",
+      "16060682",
+      "17388808",
+      "8428932",
+      "16464247",
+      "22905252",
+      "20221439",
+      "2959502",
+      "3757869",
+      "21688177",
+      "26006175",
+      "38993068",
+      "21305157"
+    ],
+    "review": [
+      "40977118",
+      "23430778",
+      "28598392",
+      "24469686",
+      "17055583",
+      "17018871",
+      "21409206"
+    ],
+    "pmc": [
+      "12779199"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40977118/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.70054",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

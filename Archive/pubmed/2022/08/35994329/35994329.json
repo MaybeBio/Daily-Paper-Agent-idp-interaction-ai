@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "35994329",
+    "doi": "10.1021/acs.jcim.2c00591",
+    "title": "Markov State Models and Molecular Dynamics Simulations Reveal the Conformational Transition of the Intrinsically Disordered Hypervariable Region of K-Ras4B to the Ordered Conformation."
+  },
+  "content": {
+    "abstract": "K-Ras4B, the most frequently mutated Ras isoform in human tumors, plays a vital part in cell growth, differentiation, and survival. Its tail, the C-terminal hypervariable region (HVR), is involved in anchoring K-Ras4B at the cellular plasma membrane and in isoform-specific protein-protein interactions and signaling. In the inactive guanosine diphosphate-bound state, the intrinsically disordered HVR interacts with the catalytic domain at the effector-binding region, rendering K-Ras4B in its autoinhibited state. Activation releases the HVR from the catalytic domain, with its ensemble favoring an ordered alpha-helical structure. The large-scale conformational transition of the HVR from the intrinsically disordered to the ordered conformation remains poorly understood. Here, we deploy a computational scheme that integrates a transition path-generation algorithm, extensive molecular dynamics simulation, and Markov state model analysis to investigate the conformational landscape of the HVR transition pathway. Our findings reveal a stepwise pathway for the HVR transition and uncover several key conformational substates along the transition pathway. Importantly, key interactions between the HVR and the catalytic domain are unraveled, highlighting the pathogenesis of K-Ras4B mild mutations in several congenital developmental anomaly syndromes. Together, these findings provide a deeper understanding of the HVR transition mechanism and the regulation of K-Ras4B activity at an atomic level.",
+    "keywords": [],
+    "mesh_terms": [
+      "Catalytic Domain",
+      "Cell Membrane/metabolism",
+      "Guanosine Diphosphate/chemistry/metabolism",
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "Protein Isoforms/metabolism",
+      "*Proto-Oncogene Proteins p21(ras)/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Hao",
+        "Ni, Duan",
+        "Fan, Jigang",
+        "Li, Minyu",
+        "Zhang, Jian",
+        "Hua, Chen",
+        "Nussinov, Ruth",
+        "Lu, Shaoyong"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Ni D",
+        "Fan J",
+        "Li M",
+        "Zhang J",
+        "Hua C",
+        "Nussinov R",
+        "Lu S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8115-6415",
+        "ORCID: 0000-0002-1334-6292"
+      ],
+      "affiliations": [
+        "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai 200011, China.",
+        "The Charles Perkins Centre, University of Sydney, Sydney, New South Wales 2006, Australia.",
+        "Department of Pathophysiology, Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, School of Medicine, Shanghai Jiao Tong University, Shanghai 200025, China.",
+        "Department of Pathophysiology, Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, School of Medicine, Shanghai Jiao Tong University, Shanghai 200025, China.",
+        "Department of Pathophysiology, Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, School of Medicine, Shanghai Jiao Tong University, Shanghai 200025, China.",
+        "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai 200011, China.",
+        "Computational Structural Biology Section, Frederick National Laboratory for Cancer Research, Cancer Innovation Laboratory, National Cancer Institute, Frederick, Maryland 21702, United States.",
+        "Department of Human Genetics and Molecular Medicine, Sackler School of Medicine, Sackler Institute of Molecular Medicine, Tel Aviv University, Tel Aviv 69978, Israel.",
+        "Department of Pathophysiology, Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, School of Medicine, Shanghai Jiao Tong University, Shanghai 200025, China.",
+        "Medicinal Chemistry and Bioinformatics Centre, School of Medicine, Shanghai Jiao Tong University, Shanghai 200025, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Hao",
+        "short_name": "Zhang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai 200011, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Duan",
+        "short_name": "Ni D",
+        "identifiers": [],
+        "affiliations": [
+          "The Charles Perkins Centre, University of Sydney, Sydney, New South Wales 2006, Australia."
+        ]
+      },
+      {
+        "full_name": "Fan, Jigang",
+        "short_name": "Fan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, School of Medicine, Shanghai Jiao Tong University, Shanghai 200025, China."
+        ]
+      },
+      {
+        "full_name": "Li, Minyu",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, School of Medicine, Shanghai Jiao Tong University, Shanghai 200025, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jian",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathophysiology, Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, School of Medicine, Shanghai Jiao Tong University, Shanghai 200025, China."
+        ]
+      },
+      {
+        "full_name": "Hua, Chen",
+        "short_name": "Hua C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plastic and Reconstructive Surgery, Shanghai Ninth People's Hospital, School of Medicine, Shanghai Jiao Tong University, Shanghai 200011, China."
+        ]
+      },
+      {
+        "full_name": "Nussinov, Ruth",
+        "short_name": "Nussinov R",
+        "identifiers": [
+          "0000-0002-8115-6415"
+        ],
+        "affiliations": [
+          "Computational Structural Biology Section, Frederick National Laboratory for Cancer Research, Cancer Innovation Laboratory, National Cancer Institute, Frederick, Maryland 21702, United States.",
+          "Department of Human Genetics and Molecular Medicine, Sackler School of Medicine, Sackler Institute of Molecular Medicine, Tel Aviv University, Tel Aviv 69978, Israel."
+        ]
+      },
+      {
+        "full_name": "Lu, Shaoyong",
+        "short_name": "Lu S",
+        "identifiers": [
+          "0000-0002-1334-6292"
+        ],
+        "affiliations": [
+          "Department of Pathophysiology, Key Laboratory of Cell Differentiation and Apoptosis of Chinese Ministry of Education, School of Medicine, Shanghai Jiao Tong University, Shanghai 200025, China.",
+          "Medicinal Chemistry and Bioinformatics Centre, School of Medicine, Shanghai Jiao Tong University, Shanghai 200025, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2022 Sep 12",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/23 06:00",
+    "fetched_at": "2026-09-20 12:48:52"
+  },
+  "links": {
+    "cites": [
+      "41823837",
+      "41217569",
+      "40563391",
+      "40005117",
+      "40001520",
+      "39298085",
+      "38992777",
+      "38675678",
+      "38459030",
+      "37322137",
+      "37070199",
+      "36985681",
+      "36358979",
+      "36291604"
+    ],
+    "refs": [],
+    "similar": [
+      "35994329",
+      "26453300",
+      "26718888",
+      "25713064",
+      "26682817",
+      "26902995",
+      "26761128",
+      "26709496",
+      "31816384",
+      "28623230",
+      "32754617",
+      "25941399",
+      "31931009",
+      "31739603",
+      "19583261",
+      "33357178",
+      "35752212",
+      "22851002",
+      "35142524",
+      "30351122",
+      "27057007",
+      "21141956",
+      "36889947",
+      "27774533",
+      "31141233",
+      "11030147",
+      "28448716",
+      "28540724",
+      "31339036",
+      "35463958",
+      "20838576",
+      "30792310",
+      "20566322",
+      "18547521",
+      "31855604",
+      "27410739",
+      "18273062",
+      "31554397",
+      "36080216",
+      "29413054",
+      "28597297",
+      "33825026",
+      "31419909",
+      "30199525",
+      "32390436",
+      "38116743",
+      "33645620",
+      "18758236",
+      "12882980",
+      "38419331",
+      "9223188",
+      "10716188",
+      "16889753",
+      "16303170",
+      "16236799",
+      "33034275",
+      "33030907",
+      "32027820",
+      "22569482",
+      "26958889",
+      "29706533",
+      "25846136",
+      "31958057",
+      "14989985",
+      "29320680",
+      "34123058",
+      "28286004",
+      "29239694",
+      "24297914",
+      "30604476",
+      "26659836",
+      "29199977",
+      "28455099",
+      "31136713",
+      "34247129",
+      "9585579",
+      "29235861",
+      "25566993",
+      "1466766",
+      "38354232",
+      "9194162",
+      "32323533",
+      "15181015",
+      "21112297",
+      "25625937",
+      "31861875",
+      "34102474",
+      "26867649",
+      "34466166",
+      "35163518",
+      "28122482",
+      "34384763",
+      "37609330",
+      "37871498"
+    ],
+    "review": [
+      "35994329",
+      "26709496",
+      "31739603",
+      "28597297",
+      "26659836",
+      "25566993",
+      "25625937",
+      "34466166"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1550",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.2c00591",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

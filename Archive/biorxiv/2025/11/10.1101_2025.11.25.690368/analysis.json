@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.25.690368",
+  "title": "In vitro liquid-liquid phase separation induced by respiratory syncytial virus proteins and RNA",
+  "authors": "Basse V; Agarwal T; Sneideris T; Richard C; Troussier J; Vasseur J; Debart F; Eléouët J; de Csillery E; Knowles T; Galloux M",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-25",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过微流控和生化实验表征RSV病毒蛋白N/P/M2-1与RNA的液-液相分离，揭示互作化学计量和RNA偏好性，但缺乏AI或物理模拟方法，机制建模深度有限。",
+  "abstract": "Respiratory syncytial virus (RSV) causes severe respiratory infections, with viral replication occurring in cytoplasmic membraneless viral factories formed by liquid-liquid phase separation (LLPS). The interactions between the RSV nucleoprotein N, phosphoprotein P, transcription factor M2-1, and RNA drive these condensates. Here we employed a microfluidic Phase Scan platform, together with biochemical and cellular assays to systematically characterise LLPS involving RSV proteins and RNA. We identified optimal stoichiometric ratios of N oligomers and P tetramers for condensate formation, demonstrated that monomeric N inhibits LLPS, and revealed that M2-1 enhances condensate formation by increasing multivalency. Notably, we discovered that M2-1 preferentially binds 5’ capped RNA, distinguishing it from N, which binds uncapped RNA. These findings elucidate molecular determinants of RSV viral factory assembly and subcompartmentalisation, providing insights into viral replication mechanisms and informing potential antiviral strategies targeting LLPS processes.",
+  "abstract_zh": "呼吸道合胞病毒（RSV）引起严重呼吸道感染，其病毒复制发生在由液-液相分离（liquid-liquid phase separation, LLPS）形成的细胞质无膜病毒工厂中。RSV核蛋白N、磷蛋白P、转录因子M2-1与RNA之间的相互作用驱动这些凝聚体的形成。在此，我们采用微流控Phase Scan平台，结合生化和细胞实验，系统表征了涉及RSV蛋白和RNA的LLPS。我们确定了N寡聚体与P四聚体形成凝聚体的最佳化学计量比，证明单体N抑制LLPS，并揭示M2-1通过增加多价性增强凝聚体形成。值得注意的是，我们发现M2-1优先结合5‘端加帽RNA，这使其区别于结合未加帽RNA的N蛋白。这些发现阐明了RSV病毒工厂组装和亚区室化的分子决定因素，为病毒复制机制提供了见解，并为靶向LLPS过程的潜在抗病毒策略提供了信息。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.25.690368",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.25.690368",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.25.690368/index.html"
+}

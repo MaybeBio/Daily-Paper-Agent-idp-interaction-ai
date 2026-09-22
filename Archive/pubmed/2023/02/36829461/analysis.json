@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36829461",
+  "title": "How AlphaFold2 Predicts Conditionally Folding Regions Annotated in an Intrinsically Disordered Protein Database, IDEAL.",
+  "authors": "Anbo, Hiroto; Sakuma, Koya; Fukuchi, Satoshi; Ota, Motonori",
+  "journal": "Biology",
+  "published_date": "2023-02-26",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 8,
+  "one_liner_zh": "该文利用AlphaFold2的pLDDT等特征，系统评估其对IDEAL数据库中无序蛋白条件折叠区域(ProS)的预测能力，并识别影响预测的结构与序列特征，直接关联无序蛋白互作中的折叠转变机制建模。",
+  "abstract": "AlphaFold2 (AF2) is a protein structure prediction program which provides accurate models. In addition to predicting structural domains, AF2 assigns intrinsically disordered regions (IDRs) by identifying regions with low prediction reliability (pLDDT). Some regions in IDRs undergo disorder-to-order transition upon binding the interaction partner. Here we assessed model structures of AF2 based on the annotations in IDEAL, in which segments with disorder-to-order transition have been collected as Protean Segments (ProSs). We non-redundantly selected ProSs from IDEAL and classified them based on the root mean square deviation to the corresponding region of AF2 models. Statistical analysis identified 11 structural and sequential features, possibly contributing toward the prediction of ProS structures. These features were categorized into two groups: one that contained pLDDT and the other that contained normalized radius of gyration. The typical ProS structures in the former group comprise a long alpha helix or a whole or part of the structural domain and those in the latter group comprise a short alpha helix with terminal loops.",
+  "abstract_zh": "AlphaFold2 (AF2) 是一种蛋白质结构预测程序，能够提供精确的模型。除了预测结构域外，AF2 还通过识别低预测可靠性（pLDDT）的区域来分配内在无序区域（IDRs）。IDRs 中的某些区域在与相互作用伙伴结合时会发生无序到有序的转变。在此，我们基于 IDEAL 中的注释评估了 AF2 的模型结构，其中具有无序到有序转变的片段已被收集为蛋白片段（ProSs）。我们从 IDEAL 中非冗余地选择了 ProSs，并根据它们与 AF2 模型对应区域的均方根偏差进行分类。统计分析识别出 11 个结构和序列特征，可能有助于预测 ProS 结构。这些特征被分为两组：一组包含 pLDDT，另一组包含归一化回转半径。前一组中的典型 ProS 结构包含长α螺旋或结构域的全部或部分，而后一组中的典型 ProS 结构包含带有末端环的短α螺旋。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36829461/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36829461/",
+  "paper_page_path": "papers/pubmed/36829461/index.html"
+}

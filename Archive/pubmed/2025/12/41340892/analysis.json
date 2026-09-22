@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41340892",
+  "title": "Modeling liquid-liquid phase separation and its impact on proteasomal substrate degradation.",
+  "authors": "Wu, Di; Ouyang, Qi; Wang, Hongli",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2025-12-04",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用反应-扩散模型定量刻画蛋白酶体相关LLPS及其对底物降解的双向调控，虽对象非典型IDP且方法为物理建模而非AI，但聚焦LLPS介导的互作机制建模，对本课题有可迁移启发。",
+  "abstract": "The proteasome, central to ubiquitin-proteasome mediated degradation of substrate proteins, undergoes liquid-liquid phase separation (LLPS) during substrate processing. However, the mechanisms governing proteasomal LLPS and its functional interplay with degradation dynamics remain elusive. Here, we developed a reaction-diffusion model with thermodynamic constraints to quantitatively characterize proteasome-associated LLPS mediated by the substrate-shuttling factor Radiation-sensitive 23 homolog B (RAD23B). The model successfully captures experimental LLPS dynamics, revealing a concentration-dependent phase transition boundary influenced by proteasome activity and molecular interactions. Significantly, LLPS was found to have bidirectional (enhancing or suppressing), context-dependent effects on degradation efficiency. This work elucidates regulatory mechanisms and functional roles of LLPS in proteasome-mediated degradation, offering a predictive quantitative model and testable hypotheses for future investigation.",
+  "abstract_zh": "蛋白酶体是泛素-蛋白酶体介导底物蛋白降解的核心，在底物加工过程中经历液-液相分离（liquid-liquid phase separation, LLPS）。然而，调控蛋白酶体LLPS的机制及其与降解动力学的功能相互作用仍不明确。在此，我们开发了一个带有热力学约束的反应-扩散模型，以定量表征由底物穿梭因子辐射敏感23同源物B（Radiation-sensitive 23 homolog B, RAD23B）介导的蛋白酶体相关LLPS。该模型成功捕捉了实验LLPS动态，揭示了一个受蛋白酶体活性和分子相互作用影响的浓度依赖性相变边界。值得注意的是，LLPS被发现对降解效率具有双向（增强或抑制）、情境依赖性的影响。本研究阐明了LLPS在蛋白酶体介导降解中的调控机制和功能作用，为未来研究提供了预测性定量模型和可检验的假设。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41340892/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41340892/",
+  "paper_page_path": "papers/pubmed/41340892/index.html"
+}

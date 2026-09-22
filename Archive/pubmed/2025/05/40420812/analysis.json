@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40420812",
+  "title": "IPAMD: A Plugin-Based Software for Biomolecular Condensate Simulations.",
+  "authors": "Liu, Xiao-Yang; Zhu, You-Liang; Jiang, Yu-Ze; Shi, Shao-Kang; Zhao, Li; Lu, Zhong-Yuan",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2025-05-27",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该文介绍IPAMD插件化软件，专用于无序蛋白生物分子凝聚体的分子动力学模拟，直接命中IDP对象、凝聚体形成机制及物理模拟方法，虽为工具开发而非新机制发现，但高度契合课题需求。",
+  "abstract": "The study of intrinsically disordered proteins (IDPs) and their role in biomolecular condensate formation has become a critical area of research, offering insights into fundamental biological processes and therapeutic development. Here, we present IPAMD (Intrinsically disordered Protein Aggregation Molecular Dynamics), a plugin-based software designed to simulate the formation dynamics of biomolecular condensates of IDPs. IPAMD provides a modular, efficient, and customizable simulation platform specifically designed for biomolecular condensate studies. It incorporates advanced force fields, such as HPS-based and Mpipi models, and employs optimization techniques for large-scale simulations. The software features a user-friendly interface and supports batch processing, making it accessible to researchers with varying computational expertise. Benchmarking and case studies demonstrate the ability of IPAMD to accurately simulate and analyze condensate structures and properties.",
+  "abstract_zh": "对固有无序蛋白（IDPs）及其在生物分子凝聚体形成中作用的研究已成为一个关键研究领域，为基本生物过程和治疗开发提供了见解。在此，我们介绍IPAMD（固有无序蛋白聚集分子动力学），一种基于插件的软件，旨在模拟IDPs生物分子凝聚体的形成动力学。IPAMD提供了一个模块化、高效且可定制的模拟平台，专门用于生物分子凝聚体研究。它整合了先进力场，如基于HPS的模型和Mpipi模型，并采用优化技术以支持大规模模拟。该软件具有用户友好的界面，并支持批处理，使具有不同计算专业水平的研究人员均可使用。基准测试和案例研究证明了IPAMD能够准确模拟和分析凝聚体结构与性质。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40420812/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40420812/",
+  "paper_page_path": "papers/pubmed/40420812/index.html"
+}

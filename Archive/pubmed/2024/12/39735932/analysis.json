@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39735932",
+  "title": "Identifying Sequence Effects on Chain Dimensions of Disordered Proteins by Integrating Experiments and Simulations.",
+  "authors": "Holla, Andrea; Martin, Erik W; Dannenhoffer-Lafage, Thomas; Ruff, Kiersten M; Konig, Sebastian L B; Nuesch, Mark F; Chowdhury, Aritra; Louis, John M; Soranno, Andrea; Nettels, Daniel; Pappu, Rohit V; Best, Robert B; Mittag, Tanja; Schuler, Benjamin",
+  "journal": "JACS Au",
+  "published_date": "2024-12-30",
+  "window": {
+    "start": "2024-12-30",
+    "end": "2025-01-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文整合单分子FRET等实验与原子/粗粒化模拟，系统研究IDR序列组成对链构象的影响并参数化可迁移模型，虽未直接聚焦PPI，但其序列-构象机制建模方法对无序蛋白互作研究有重要启发。",
+  "abstract": "It has become increasingly evident that the conformational distributions of intrinsically disordered proteins or regions are strongly dependent on their amino acid compositions and sequence. To facilitate a systematic investigation of these sequence-ensemble relationships, we selected a set of 16 naturally occurring intrinsically disordered regions of identical length but with large differences in amino acid composition, hydrophobicity, and charge patterning. We probed their conformational ensembles with single-molecule Forster resonance energy transfer (FRET), complemented by circular dichroism (CD) and nuclear magnetic resonance (NMR) spectroscopy as well as small-angle X-ray scattering (SAXS). The set of disordered proteins shows a strong dependence of the chain dimensions on sequence composition, with chain volumes differing by up to a factor of 6. The residue-specific intrachain interaction networks that underlie these pronounced differences were identified using atomistic simulations combined with ensemble reweighting, revealing the important role of charged, aromatic, and polar residues. To advance a transferable description of disordered protein regions, we further employed the experimental data to parametrize a coarse-grained model for disordered proteins that includes an explicit representation of the FRET fluorophores and successfully describes experiments with different dye pairs. Our findings demonstrate the value of integrating experiments and simulations for advancing our quantitative understanding of the sequence features that determine the conformational ensembles of intrinsically disordered proteins.",
+  "abstract_zh": "越来越明显的是， intrinsically disordered proteins 或区域的构象分布强烈依赖于其氨基酸组成和序列。为了系统研究这些序列-ensemble 关系，我们选取了一组16个天然存在的 intrinsically disordered regions，它们长度相同，但在氨基酸组成、疏水性和电荷分布模式上存在显著差异。我们通过单分子 Forster 共振能量转移 (FRET) 探测了它们的构象 ensemble，并辅以圆二色性 (CD) 和核磁共振 (NMR) 光谱以及小角 X 射线散射 (SAXS)。这组无序蛋白显示链尺寸对序列组成有强烈依赖性，链体积差异高达6倍。通过原子模拟结合 ensemble 重加权，我们识别了导致这些显著差异的残基特异性链内相互作用网络，揭示了带电、芳香族和极性残基的重要作用。为了推进无序蛋白区域的可转移描述，我们进一步利用实验数据参数化了一个粗粒化模型，该模型显式表示 FRET 荧光团，并成功描述了不同染料对的实验。我们的发现证明了整合实验和模拟对于推进我们对决定 intrinsically disordered proteins 构象 ensemble 的序列特征的定量理解的价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39735932/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39735932/",
+  "paper_page_path": "papers/pubmed/39735932/index.html"
+}

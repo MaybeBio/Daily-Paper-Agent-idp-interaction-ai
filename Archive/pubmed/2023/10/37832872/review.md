@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, experimental procedures, and figure legends
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the presented data; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors propose that the basic RRKR motif of the DIAPH1 DAD forms a productive encounter complex with a negatively charged patch on the DID domain, that this interaction is required for proper autoinhibition, and that its disruption leads to dysregulated DIAPH1 activity with pathological consequences
+- **Visible evidence base** NMR spectroscopy (chemical shift perturbations, nOe, HSQC, van't Hoff analysis), cross-linking mass spectrometry, fluorescence binding titrations, stopped-flow kinetics, cell-based colocalization microscopy, cell migration assays
+- **Missing materials affecting confidence** Supplementary figures S1–S6 and tables S1–S5 referenced but not provided; PDB structure 8FG1 and BMRB deposition 31064 not independently verified; raw MS data not examined; statistical details for colocalization and migration assays partially reported
+
+## Reviewer
+- **Overall assessment** The manuscript presents a structurally and biophysically informed model for DIAPH1 autoinhibition that extends beyond previously published crystal structures. The combination of NMR, cross-linking MS, and functional assays is appropriate and the data are largely internally consistent. However, several claims regarding the "productive encounter complex" mechanism exceed what the presented data can directly support, particularly the assertion that the observed electrostatic interaction is specifically required for autoinhibition rather than merely contributing to binding affinity. The functional relevance is demonstrated but the mechanistic link between the encounter complex and disease pathology remains speculative.
+- **Who would be interested in the results, and why** Researchers studying formin family proteins, actin cytoskeleton regulation, and autoinhibitory domain mechanisms. The work also has relevance for those investigating DIAPH1-associated pathologies including sensorineural hearing loss, macrothrombocytopenia, and cardiovascular disease. The methodological approach combining NMR with cross-linking MS may interest structural biologists studying dynamic protein complexes.
+- **Major strengths** The study addresses a previously unresolved region of the DIAPH1 structure, the RRKR motif, using complementary biophysical approaches. The NMR data showing conformational exchange in the interdomain helix is a novel observation. The combination of binding affinity, kinetics, and cellular assays provides multiple lines of evidence. The identification of specific residues E326/E327 as functionally important is a concrete and testable contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The abstract states that "Disruption of the productive encounter complex results in dysregulation of DIAPH1 activity" and the discussion claims that the encounter complex is "required for autoinhibition"
+  - **Evidence pointer** Results sections "DID–DADM1199L complex stoichiometry and affinity" and "Double mutant DIDE326G/E327A alters the affinity and kinetics of DADM1199L binding"; Figures 4 and 6
+  - **Concern** The causal link between encounter complex disruption and functional dysregulation is not directly established. The E326G/E327A mutations reduce binding affinity and kon, and increase actin colocalization, but the manuscript does not demonstrate that the loss of the encounter complex specifically causes the observed dysregulation. Alternative explanations, such as global destabilization of the DID-DAD interaction or altered protein folding, are not excluded. The colocalization and migration data show correlation but not causation.
+  - **Why it matters** The central thesis of the manuscript rests on this causal claim. Without direct evidence that the encounter complex is mechanistically required for autoinhibition, the conclusion that encounter complex disruption causes dysregulation is not supported. The distinction between "reduced affinity" and "disrupted mechanism" is critical for the proposed model.
+  - **Resolution test** Provide a direct test where the encounter complex is specifically disrupted without affecting the overall DID-DAD interaction, for example through mutations that alter only the electrostatic steering surface while preserving the hydrophobic binding interface, and show that this specifically impairs autoinhibition. Alternatively, demonstrate that the E326G/E327A mutations do not affect DID stability or folding through biophysical characterization.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The manuscript claims a 5-fold decrease in binding affinity and 4-fold decrease in association rate constant for the E326G/E327A mutant
+  - **Evidence pointer** Results section "Double mutant DIDE326G/E327A alters the affinity and kinetics of DADM1199L binding"; Figure 4B; Figure S1C
+  - **Concern** The binding constants are reported with large uncertainties (KD of 270 ± 100 nM for WT and 1.5 ± 0.5 μM for mutant). The 5-fold difference is within the combined error of the measurements. Similarly, the kon values of 52 ± 1.5 and 13 ± 1 (μM s)−1 are reported without confidence intervals for the linear regression. The koff values have very large errors (19 ± 17 and 27 ± 14 s−1), making the kinetic interpretation unreliable. The manuscript does not report the number of independent replicates or the goodness-of-fit statistics.
+  - **Why it matters** The quantitative claims of 5-fold and 4-fold differences are central to the argument that the encounter complex contributes significantly to binding. If these differences are not statistically robust, the conclusion that the acidic patch is critical for binding is weakened.
+  - **Resolution test** Report the full statistical analysis including confidence intervals for all fitted parameters, the number of replicates, and the results of model comparison tests. Provide the raw titration curves and fit residuals. If possible, use an orthogonal method such as ITC to confirm the affinity difference.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** The discussion states that "the RRKR motif does not exhibit NMR–visible interactions with DID" and that the motif is "flexible in the DID–DADM1199L complex"
+  - **Evidence pointer** Results section "Solution structure of the DID–DADM1199L complex"; Figures 2A and 3
+  - **Concern** The absence of NMR-visible interactions for the RRKR motif is interpreted as flexibility, but this could also result from intermediate exchange broadening, low population of the bound state, or the motif being dynamic on a timescale that precludes detection. The cross-linking data show that the RRKR motif can be cross-linked to DID residues, which suggests some degree of proximity, but the manuscript does not reconcile these observations quantitatively. The structural ensemble shows the RRKR motif interacting with the acidic patch only when cross-link constraints are applied, which is circular.
+  - **Why it matters** The interpretation of the RRKR motif as forming a transient encounter complex is the conceptual foundation of the paper. If the NMR data cannot distinguish between flexibility and other explanations, the encounter complex model is not uniquely supported.
+  - **Resolution test** Perform relaxation dispersion experiments to characterize the dynamics of the RRKR motif on the microsecond-to-millisecond timescale. Alternatively, use paramagnetic relaxation enhancement to probe transient interactions. Provide a quantitative analysis of the cross-link data that accounts for the ensemble nature of the encounter complex.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The manuscript claims that "mutations in the negative patch of DID result in dysregulation of DIAPH1 activity" and that this has "implications for human pathology"
+  - **Evidence pointer** Results section "Mutations in the negative patch of DID result in dysregulation of DIAPH1 activity"; Figure 6
+  - **Concern** The functional assays use overexpressed mutant proteins in HEK293T cells. The E326G/E327A mutations are not disease-associated mutations, and the manuscript does not test any of the known disease mutations in the RRKR motif or the acidic patch. The link to human pathology is therefore speculative. The migration assay shows reduced migration for the mutant, but the mechanism by which dysregulated actin assembly leads to reduced migration is not explored.
+  - **Why it matters** The claim of relevance to human pathology is a significant part of the paper's significance. Without testing disease-associated mutations or providing a mechanistic link between the observed dysregulation and specific pathological outcomes, this claim is not supported.
+  - **Resolution test** Test known disease-associated mutations in the RRKR motif or the acidic patch in the same assays. Provide a more detailed analysis of how the mutant affects actin dynamics, for example through live-cell imaging of actin polymerization or through biochemical actin polymerization assays.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2C and Table S1
+  - **Evidence pointer** Results section "C terminus of DID IH has two conformations"
+  - **Issue** The van't Hoff analysis is performed on only four residues, and the thermodynamic parameters are reported without error estimates. The interpretation of an entropically driven transition is based on limited data.
+  - **Required correction** Report the full thermodynamic parameters with confidence intervals for all four residues. Discuss the limitations of the van't Hoff analysis for this system.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Cross-linking MS analysis
+  - **Evidence pointer** Results section "Solution structure of the DID–DADM1199L complex"; Figure 2D
+  - **Issue** The manuscript states that cross-linkers of different lengths gave results for the same set of amines, but the details of which cross-links were used in the final structure calculation are not fully described. The criteria for selecting "tighter distance constraints" are not specified.
+  - **Required correction** Provide a table listing all identified cross-links, their distances, and which were used in the final structure calculation. Specify the filtering criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 6B
+  - **Evidence pointer** Results section "Mutations in the negative patch of DID result in dysregulation of DIAPH1 activity"
+  - **Issue** The Manders coefficients are shown as bar graphs with SD error bars, but the number of cells analyzed and the statistical test used are not fully described in the figure legend.
+  - **Required correction** Report the number of cells analyzed per condition, the statistical test used, and the exact p-values in the figure legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, paragraph on disease implications
+  - **Issue** The discussion states that "the disease states characterized by gain of function... may arise from enhanced actin assembly mediated by DIAPH1 dysregulation." This is presented as a conclusion rather than a hypothesis.
+  - **Required correction** Soften this language to clearly indicate that this is a speculative hypothesis requiring further investigation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (causal link not established), R1-M2 (quantitative rigor of binding and kinetics data)
+
+## Risk / unsupported claims
+- The claim that the encounter complex is "required" for autoinhibition is not directly supported; the data show reduced affinity but not a specific mechanistic requirement
+- The claim that "this is the first demonstration of a specific alteration of the surfaces responsible for productive encounter complexation with implications for human pathology" is overstated; no disease-associated mutations were tested
+- The interpretation of the RRKR motif as forming a "productive encounter complex" is one possible explanation but is not uniquely supported by the NMR and cross-linking data
+- The thermodynamic analysis of the conformational equilibrium between DID conformers A and B is based on limited data and the interpretation of entropic driving forces is speculative
+- The relevance to human pathology is inferred from the functional assays but no direct evidence links the specific mutations studied to disease states

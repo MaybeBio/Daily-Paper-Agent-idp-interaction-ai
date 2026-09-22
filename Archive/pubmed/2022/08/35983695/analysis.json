@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35983695",
+  "title": "Designing drugs when there is low data availability: one-shot learning and other approaches to face the issues of a long-term concern.",
+  "authors": "Verissimo, Gabriel C; Serafim, Mateus Sa M; Kronenberger, Thales; Ferreira, Rafaela S; Honorio, Kathia M; Maltarollo, Vinicius G",
+  "journal": "Expert opinion on drug discovery",
+  "published_date": "2022-08-20",
+  "window": {
+    "start": "2022-08-15",
+    "end": "2022-08-21"
+  },
+  "score": 5,
+  "one_liner_zh": "综述了低数据可用性下用于药物设计的AI与物理模拟方法（如单样本学习、分子对接、MD/QM），并提及针对无序蛋白的药物设计挑战，但未聚焦IDR介导的PPI机制建模，方法为综述性概述。",
+  "abstract": "INTRODUCTION: Modern drug discovery is generally accessed by useful information from previous large databases or uncovering novel data. The lack of biological and/or chemical data tends to slow the development of scientific research and innovation. Here, approaches that may help provide solutions to generate or obtain enough relevant data or improve/accelerate existing methods within the last five years were reviewed. AREAS COVERED: One-shot learning (OSL) approaches, structural modeling, molecular docking, scoring function space (SFS), molecular dynamics (MD), and quantum mechanics (QM) may be used to amplify the amount of available data to drug design and discovery campaigns, presenting methods, their perspectives, and discussions to be employed in the near future. EXPERT OPINION: Recent works have successfully used these techniques to solve a range of issues in the face of data scarcity, including complex problems such as the challenging scenario of drug design aimed at intrinsically disordered proteins and the evaluation of potential adverse effects in a clinical scenario. These examples show that it is possible to improve and kickstart research from scarce available data to design and discover new potential drugs.",
+  "abstract_zh": "引言：现代药物发现通常依赖于以往大型数据库中的有用信息或发掘新数据。生物和/或化学数据的缺乏往往会减缓科学研究和创新的发展。本文综述了近五年内可能有助于生成或获取足够相关数据，或改进/加速现有方法的技术途径。涵盖领域：单样本学习（OSL）方法、结构建模、分子对接、评分函数空间（SFS）、分子动力学（MD）和量子力学（QM）可用于扩充药物设计和发现活动中可用数据的数量，并介绍了这些方法、其前景及近期内可采用的讨论。专家意见：近期研究已成功运用这些技术应对数据稀缺中的一系列问题，包括针对固有无序蛋白的药物设计这一复杂挑战，以及临床场景中潜在不良反应的评估。这些实例表明，从稀缺的可用数据出发，改进并启动研究以设计和发现新的潜在药物是可行的。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35983695/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35983695/",
+  "paper_page_path": "papers/pubmed/35983695/index.html"
+}

@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "36870681",
+    "doi": "10.1016/j.jbc.2023.104568",
+    "title": "NMR characterization of an assembling RHIM (RIP homotypic interaction motif) amyloid reveals a cryptic region for self-recognition."
+  },
+  "content": {
+    "abstract": "The RIP homotypic interaction motif (RHIM) is an essential protein motif in inflammatory signaling and certain cell death pathways. RHIM signaling occurs following the assembly of functional amyloids, and while the structural biology of such higher-order RHIM complexes has started to emerge, the conformations and dynamics of nonassembled RHIMs remain unknown. Here, using solution NMR spectroscopy, we report the characterization of the monomeric form of the RHIM in receptor-interacting protein kinase 3 (RIPK3), a fundamental protein in human immunity. Our results establish that the RHIM of RIPK3 is an intrinsically disordered protein motif, contrary to prediction, and that exchange dynamics between free monomers and amyloid-bound RIPK3 monomers involve a 20-residue stretch outside the RHIM that is not incorporated within the structured cores of the RIPK3 assemblies determined by cryo-EM or solid-state NMR. Thus, our findings expand on the structural characterization of RHIM-containing proteins, specifically highlighting conformational dynamics involved in assembly processes.",
+    "keywords": [
+      "amyloid",
+      "innate immunity",
+      "intrinsically disordered protein",
+      "nuclear magnetic resonance (NMR)",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Amyloid/chemistry",
+      "Cell Death",
+      "*Amyloidogenic Proteins/metabolism",
+      "Signal Transduction",
+      "Magnetic Resonance Spectroscopy",
+      "Receptor-Interacting Protein Serine-Threonine Kinases/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pham, Chi L L",
+        "Titaux-Delgado, Gustavo A",
+        "Varghese, Nikhil R",
+        "Polonio, Paula",
+        "Wilde, Karyn L",
+        "Sunde, Margaret",
+        "Mompean, Miguel"
+      ],
+      "short_names": [
+        "Pham CLL",
+        "Titaux-Delgado GA",
+        "Varghese NR",
+        "Polonio P",
+        "Wilde KL",
+        "Sunde M",
+        "Mompean M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Medical Sciences, Sydney Nano and Sydney Infectious Diseases, University of Sydney, Sydney, New South Wales, Australia.",
+        "\"Rocasolano\" Institute of Physical Chemistry, Spanish National Research Council, Madrid, Spain.",
+        "School of Medical Sciences, Sydney Nano and Sydney Infectious Diseases, University of Sydney, Sydney, New South Wales, Australia.",
+        "\"Rocasolano\" Institute of Physical Chemistry, Spanish National Research Council, Madrid, Spain.",
+        "National Deuteration Facility Australian Nuclear Science and Technology Organization (ANSTO), Sydney, New South Wales, Australia.",
+        "School of Medical Sciences, Sydney Nano and Sydney Infectious Diseases, University of Sydney, Sydney, New South Wales, Australia.",
+        "\"Rocasolano\" Institute of Physical Chemistry, Spanish National Research Council, Madrid, Spain. Electronic address: mmompean@iqfr.csic.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pham, Chi L L",
+        "short_name": "Pham CLL",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Sciences, Sydney Nano and Sydney Infectious Diseases, University of Sydney, Sydney, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Titaux-Delgado, Gustavo A",
+        "short_name": "Titaux-Delgado GA",
+        "identifiers": [],
+        "affiliations": [
+          "\"Rocasolano\" Institute of Physical Chemistry, Spanish National Research Council, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Varghese, Nikhil R",
+        "short_name": "Varghese NR",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Sciences, Sydney Nano and Sydney Infectious Diseases, University of Sydney, Sydney, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Polonio, Paula",
+        "short_name": "Polonio P",
+        "identifiers": [],
+        "affiliations": [
+          "\"Rocasolano\" Institute of Physical Chemistry, Spanish National Research Council, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Wilde, Karyn L",
+        "short_name": "Wilde KL",
+        "identifiers": [],
+        "affiliations": [
+          "National Deuteration Facility Australian Nuclear Science and Technology Organization (ANSTO), Sydney, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Sunde, Margaret",
+        "short_name": "Sunde M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Sciences, Sydney Nano and Sydney Infectious Diseases, University of Sydney, Sydney, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Mompeán, Miguel",
+        "short_name": "Mompeán M",
+        "identifiers": [],
+        "affiliations": [
+          "\"Rocasolano\" Institute of Physical Chemistry, Spanish National Research Council, Madrid, Spain. Electronic address: mmompean@iqfr.csic.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of biological chemistry"
+    ],
+    "journal_abbrev": [
+      "J Biol Chem"
+    ],
+    "pub_date": "2023 Apr",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/05 06:00",
+    "fetched_at": "2026-09-20 19:50:04"
+  },
+  "links": {
+    "cites": [
+      "42252518",
+      "41806054",
+      "41736787",
+      "41730819",
+      "41634369",
+      "41498337",
+      "40841823"
+    ],
+    "refs": [],
+    "similar": [
+      "36870681",
+      "33790016",
+      "30498077",
+      "39143113",
+      "35684320",
+      "29738881",
+      "32433959",
+      "30504227",
+      "35015082",
+      "40434815",
+      "29681455",
+      "28085133",
+      "33348174",
+      "37580406",
+      "33563842",
+      "27819682",
+      "32737444",
+      "36040212",
+      "31287416",
+      "29045898",
+      "32060646",
+      "24902904",
+      "26786097",
+      "32649716",
+      "39149247",
+      "22817896",
+      "32689912",
+      "27648755",
+      "39697597",
+      "28273458",
+      "39002793",
+      "30517972",
+      "28498367",
+      "36178467",
+      "27052312",
+      "25500536",
+      "37150671",
+      "33712586",
+      "27819681",
+      "25828583",
+      "39982916",
+      "38982083",
+      "19590578",
+      "23892367",
+      "33058872",
+      "33573441",
+      "18941233",
+      "29352166",
+      "29775589",
+      "25683283",
+      "25778401",
+      "32298652",
+      "32296175",
+      "18533105",
+      "26282197",
+      "29527209",
+      "36098620",
+      "24902902",
+      "18442983",
+      "37162737",
+      "35658951",
+      "33503908",
+      "22423968",
+      "26903619",
+      "40168465",
+      "32849553",
+      "35739084",
+      "24019532",
+      "15814722",
+      "27446921",
+      "25316792",
+      "32601205",
+      "31311708",
+      "29236673",
+      "39571918",
+      "40424123",
+      "25674982",
+      "29679649",
+      "30294675",
+      "35858757",
+      "35800780",
+      "28230861",
+      "25662614",
+      "20413098",
+      "36310204",
+      "31155585",
+      "32849607",
+      "37798606",
+      "33691165",
+      "39345610",
+      "35784331",
+      "34419074",
+      "38400065",
+      "29045890",
+      "27766502",
+      "30893581",
+      "26453215",
+      "32097611",
+      "31028177",
+      "25674983"
+    ],
+    "review": [
+      "36870681",
+      "29738881",
+      "32689912",
+      "39002793",
+      "30517972",
+      "28498367",
+      "27052312",
+      "37150671",
+      "25828583",
+      "25683283",
+      "26282197",
+      "32849553",
+      "31311708",
+      "29236673",
+      "39571918",
+      "25662614",
+      "33691165"
+    ],
+    "pmc": [
+      "10070927"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9258(23)00210-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36870681/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36870681",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-900",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

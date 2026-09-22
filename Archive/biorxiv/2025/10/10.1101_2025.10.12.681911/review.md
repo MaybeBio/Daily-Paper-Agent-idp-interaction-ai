@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report that reconfiguration dynamics of 16 intrinsically disordered proteins of identical length but diverse sequence are nearly independent of sequence, despite strong variation in chain dimensions. All-atom explicit-solvent simulations reproduce experimental FRET efficiencies and the lack of correlation between reconfiguration times and chain dimensions, which the authors rationalize as arising from compensating effects of narrowed end-to-end distance distributions and reduced intrachain diffusion coefficients.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation details, experimental protocols, statistical analyses, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation regarding the sequence dependence of reconfiguration dynamics in intrinsically disordered proteins, with a proposed mechanistic explanation based on compensating factors. However, the evidence base available for this review is limited to the abstract, which precludes a thorough evaluation of the experimental and computational methods, the quality of the data, and the robustness of the conclusions. The central claim of sequence-independent reconfiguration times is surprising and, if well supported, would be of interest to the disordered protein community. Nevertheless, the mechanistic rationalization, while plausible, requires careful scrutiny of the simulation methodology and the statistical treatment of the data.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those interested in the relationship between sequence, conformational ensembles, and dynamics. The work may also appeal to computational biophysicists developing and applying all-atom simulations to disordered systems, and to biochemists interested in how sequence evolution may preserve functional dynamics.
+- **Major strengths** The study addresses a question that has rarely been systematically examined, namely the sequence dependence of chain dynamics in disordered proteins. The use of 16 naturally occurring disordered regions of identical length but diverse sequence is a sensible design. The combination of single-molecule FRET, fluorescence correlation spectroscopy, and all-atom explicit-solvent simulations is appropriate and potentially powerful. The claim that simulations reproduce experimental FRET efficiencies with near-quantitative accuracy is encouraging, if substantiated.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that chain reconfiguration times are almost independent of sequence across the 16 disordered proteins, despite strong variation in chain dimensions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that nanosecond fluorescence correlation spectroscopy yields reconfiguration times that are almost independent of sequence, but no quantitative data, statistical measures, or error estimates are provided. It is unclear how "almost independent" is defined, what the range of reconfiguration times is across the set, and whether the variation is within experimental uncertainty.
+  - **Why it matters** The central conclusion of the paper rests on this observation. Without quantitative support, the claim cannot be evaluated, and the subsequent mechanistic interpretation may be built on a weak foundation.
+  - **Resolution test** Provide the measured reconfiguration times for all 16 proteins, with uncertainties, and a statistical test demonstrating that the variation across sequences is not significant relative to experimental error.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that all-atom explicit-solvent simulations reproduce the experimental FRET efficiencies with near-quantitative accuracy and reproduce the lack of correlation between reconfiguration times and chain dimensions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given regarding the simulation methodology, force field, sampling length, number of replicas, or how reconfiguration times were extracted from the simulations. The claim of near-quantitative accuracy cannot be assessed without a comparison of simulated and experimental values, including error bars.
+  - **Why it matters** The mechanistic explanation of compensating factors depends entirely on the reliability of the simulations. If the simulations do not accurately capture the dynamics, the proposed buffering mechanism may be an artifact.
+  - **Resolution test** Provide a detailed description of the simulation protocol, a direct comparison of simulated and experimental FRET efficiencies and reconfiguration times for all 16 proteins, and an assessment of sampling convergence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical soundness
+  - **Claim pointer** The authors propose that the narrowing of end-to-end distance distributions and a concomitant reduction of intrachain diffusion coefficients have opposite effects, resulting in only small variation of reconfiguration times with chain dimensions.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not explain how these two factors quantitatively compensate. It is not clear whether the compensation is exact, approximate, or merely a post hoc rationalization. The relationship between end-to-end distance distribution width, intrachain diffusion coefficient, and reconfiguration time is not derived or referenced.
+  - **Why it matters** The proposed buffering mechanism is the main conceptual contribution of the work. Without a clear quantitative framework, the explanation remains speculative.
+  - **Resolution test** Provide a mathematical or simulation-based demonstration that the two factors indeed compensate across the sequence set, with quantitative estimates of their relative contributions.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "dynamical buffering" in the title is not defined in the abstract, and its relationship to the proposed compensating mechanism is not made explicit.
+  - **Required correction** Define the term in the abstract or adjust the title to more directly reflect the content.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Literature comparison
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions that the observed sequence independence contrasts with slowdowns attributed to internal friction in more compact disordered proteins, but no specific prior work is cited.
+  - **Required correction** Cite the relevant studies to allow readers to contextualize the contrast.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Functional implications
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The final statement that buffering "may help to conserve function as sequences evolve" is speculative and not supported by any data presented in the abstract.
+  - **Required correction** Either soften the claim or provide supporting evidence or a clear hypothesis for how this conservation would manifest.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central experimental observation, the simulation validation, and the mechanistic explanation all require substantially more evidence than is provided in the abstract.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of sequence dependence of reconfiguration dynamics in IDPs is relatively underexplored, and the proposed compensating mechanism is novel. However, the abstract does not establish that the observation is unprecedented.
+  - Scientific importance: If the claims are substantiated, the work would contribute to understanding how sequence encodes dynamics in disordered proteins, which is relevant to function and evolution. The importance is moderate to high within the field.
+  - Interdisciplinary readership: The work is likely to appeal primarily to biophysicists and computational biologists. The broader biochemical readership may find the conclusions relevant, but the abstract does not make a strong case for cross-disciplinary significance.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative results is a major limitation.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terminology without sufficient context. The mechanistic explanation is presented at a level that assumes familiarity with polymer physics concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible experimental and computational strategy, but the absence of quantitative data, methodological detail, and statistical support means that the central claims cannot be evaluated. The manuscript may become suitable for consideration if the full paper provides the necessary evidence.
+
+## Risk / unsupported claims
+- The claim that reconfiguration times are almost independent of sequence is unsupported without quantitative data and statistical analysis.
+- The claim that simulations reproduce experimental FRET efficiencies with near-quantitative accuracy is unsupported without a detailed comparison.
+- The claim that simulations reproduce the lack of correlation between reconfiguration times and chain dimensions is unsupported without simulation details and convergence assessment.
+- The proposed compensating mechanism of narrowed end-to-end distance distributions and reduced intrachain diffusion coefficients is speculative without a quantitative framework.
+- The statement that buffering may help conserve function as sequences evolve is speculative and not supported by any data in the abstract.

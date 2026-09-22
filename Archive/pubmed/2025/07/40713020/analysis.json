@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40713020",
+  "title": "Functional Design and Biophysical Characterization of Analyte-Responsive Polymers.",
+  "authors": "Curley, Carolyn E; Jovic Dold, Katarina; Torres, Jazmine A; Richard, A Clay; Sanders, Eleenah; Halpern, Jeffrey M; Pantazes, Robert J; Balog, Eva Rose M",
+  "journal": "Biomacromolecules",
+  "published_date": "2025-07-28",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过实验表征配体结合对弹性蛋白样聚合物(ELP)相行为的影响，涉及无序蛋白组装与配体互作，但方法以实验为主，缺乏AI或物理模拟建模，故评7分。",
+  "abstract": "As a proof-of-concept for analyte-responsive polymers (ARPs) for biosensing, this study investigates how ligand binding changes the temperature-dependent dynamics and self-assembly of an elastin-like polymer (ELP) fused with a peptide recognition element for the small globular protein domain SH3. Using isothermal titration calorimetry, we characterized the apparent binding thermodynamics when one binding partner is fused with an ELP. Circular dichroism, dynamic light scattering, and temperature-dependent UV-vis spectroscopy were used to examine how ligand binding influences ARP conformational dynamics and phase behavior. SH3 binding was associated with an increase in transition temperature that reproduced in a complex medium and was consistent with predictions from a published model for ELP fusions. Addition of SH3 destabilized ARP assemblies, demonstrating that an ARP response can be specifically triggered by ligand binding. This work advances our understanding of how ligand binding and phase behavior are interdependent in systems involving intrinsically disordered proteins and their assemblies.",
+  "abstract_zh": "作为分析物响应性聚合物（ARPs）用于生物传感的概念验证，本研究探讨了配体结合如何改变与弹性蛋白样聚合物（ELP）融合的肽识别元件（针对小球形蛋白结构域SH3）的温度依赖性动力学和自组装。利用等温滴定量热法，我们表征了一个结合伴侣与ELP融合时的表观结合热力学。采用圆二色光谱、动态光散射和温度依赖性紫外-可见光谱，考察配体结合如何影响ARP构象动力学和相行为。SH3结合与转变温度升高相关，该升高在复杂介质中重现，并与已发表的ELP融合模型预测一致。SH3的添加使ARP组装体失稳，表明ARP响应可被配体结合特异性触发。这项工作推进了我们对配体结合与相行为在涉及固有无序蛋白及其组装体的系统中相互依赖性的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40713020/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40713020/",
+  "paper_page_path": "papers/pubmed/40713020/index.html"
+}

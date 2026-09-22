@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors used proteomic peptide phage display (ProP-PD) to identify human intrinsically disordered region (IDR) peptides binding to folded SARS-CoV-2 protein domains. Eleven domains bound human peptides. Of 281 high/medium confidence peptides, 23 interactions involving eight domains were validated by fluorescence polarization with micromolar affinities. Specificity determinants were established for six domains. Two cell-penetrating peptides targeting Nsp9 and Nsp16 inhibited viral replication. The authors conclude that high-throughput peptide binding screens can simultaneously map potential host-virus interactions and identify antiviral ligands.
+- **Visible evidence base** Abstract text only. No methods, figures, tables, or supplementary information were provided.
+- **Missing materials affecting confidence** Full methods, all experimental data (phage display counts, fluorescence polarization curves, SPOT array results, viral replication assays), statistical analyses, peptide sequences, domain constructs, and any validation of specificity or functional relevance. Without these, the quantitative and qualitative claims cannot be independently assessed.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of ProP-PD to SARS-CoV-2 protein domains, with a logical progression from screening to affinity validation to functional inhibition. However, the evidence base available for review is limited to the abstract, which precludes verification of key methodological details, data quality, and statistical rigor. The claim that two cell-penetrating peptides inhibit viral replication is the most consequential and requires careful scrutiny of the assay design and specificity controls. The work may be of interest to virologists and chemical biologists, but the current evidence does not establish the case as presented.
+- **Who would be interested in the results, and why** Virologists studying host-pathogen interactions, particularly those focused on SARS-CoV-2 biology and antiviral development. Chemical biologists and peptide engineers interested in domain-peptide interaction screening and the use of phage display for ligand discovery. Structural biologists studying viral protein interaction interfaces. Drug discovery researchers seeking peptide-based leads against viral targets.
+- **Major strengths** The approach is conceptually straightforward and potentially high-throughput, combining unbiased screening with affinity validation. The inclusion of functional antiviral data for two peptides adds translational relevance. The focus on intrinsically disordered regions of the human proteome is a relevant and underexplored angle in host-virus interaction studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "23 interactions involving eight SARS-CoV-2 protein domains were tested by fluorescence polarization, and binding was observed with affinities spanning the whole micromolar range."
+  - **Evidence pointer** Abstract only; no figures or tables provided
+  - **Concern** The abstract reports affinities in the micromolar range but provides no information on the number of replicates, error estimates, or whether binding was saturable and specific. Micromolar affinities for peptide-domain interactions are common and may reflect nonspecific or weak electrostatic interactions. Without competition experiments or mutant controls, the biological relevance of these affinities is unclear.
+  - **Why it matters** The central claim that these are specific host-virus interactions rests on the quality of the affinity measurements. If the binding is not specific or not reproducible, the downstream conclusions about host-virus interaction mapping are undermined.
+  - **Resolution test** Provide full fluorescence polarization binding curves with replicates, fitted Kd values with confidence intervals, and negative control peptides (e.g., scrambled sequences or unrelated domains) to demonstrate specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Two cell-penetrating peptides, targeting Nsp9 and Nsp16, respectively, were shown to function as inhibitors of viral replication."
+  - **Evidence pointer** Abstract only; no assay details provided
+  - **Concern** The abstract does not specify the viral replication assay used, the concentration range tested, the cytotoxicity of the peptides, or whether the inhibition was due to on-target engagement of Nsp9/Nsp16 versus off-target effects. Cell-penetrating peptides can inhibit viral replication through nonspecific membrane disruption or cellular toxicity. The claim of "targeting" implies a mechanism that is not supported by the abstract alone.
+  - **Why it matters** This is the most translational claim and the basis for the antiviral relevance of the study. If the inhibition is not shown to be on-target and specific, the conclusion that these peptides are antiviral leads is not established.
+  - **Resolution test** Provide dose-response curves for viral replication inhibition, cytotoxicity data, and evidence that the peptides engage their intended viral targets (e.g., mutations in Nsp9/Nsp16 that abrogate peptide binding also abrogate antiviral activity).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and scientific importance
+  - **Claim pointer** "Our findings demonstrate how high-throughput peptide binding screens simultaneously provide information on potential host-virus interactions and identify ligands with antiviral properties."
+  - **Evidence pointer** Abstract only
+  - **Concern** The abstract does not provide any evidence that the identified human peptide ligands correspond to actual host proteins that interact with SARS-CoV-2 during infection. The peptides are derived from human IDRs, but no data are shown to confirm that the full-length human proteins engage the viral domains in a cellular context. The leap from peptide binding to "potential host-virus interactions" is not supported by the abstract.
+  - **Why it matters** The broader significance of the work depends on the claim that these are biologically relevant host-virus interactions. Without cellular validation (e.g., co-immunoprecipitation, proximity ligation, or genetic perturbation), the physiological relevance is speculative.
+  - **Resolution test** Provide evidence of endogenous or overexpressed full-length human protein interaction with the viral domains in cells, or at minimum, a clear statement that such validation is beyond the scope of the current study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses terms such as "ProP-PD" and "SPOT arrays" without defining them, which may hinder readers unfamiliar with these techniques.
+  - **Required correction** Define ProP-PD and SPOT arrays briefly on first use, or provide a one-sentence explanation of the methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Specificity determinants claim
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "key specificity determinants were established for six of these domains, two based on ProP-PD and four by alanine scanning SPOT arrays," but does not describe what these determinants are or how they were validated.
+  - **Required correction** Provide a summary of the identified determinants (e.g., key residues or motifs) and the validation approach in the abstract or indicate where this information is presented in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not state the number of viral domains screened or the total number of peptides tested, which would help readers gauge the scale of the screen.
+  - **Required correction** Include the number of SARS-CoV-2 domains screened and the peptide library size in the abstract.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (affinity validation quality), R1-M2 (antiviral assay specificity), R1-M3 (lack of cellular validation for host-virus interaction relevance). These are blocking because the core conclusions depend on them.
+- **Assessment against Nature-style criteria** Originality: The application of ProP-PD to SARS-CoV-2 domains is not entirely novel, as similar peptide phage display approaches have been used for other viruses, but the focus on IDR-derived peptides is a reasonable angle. Scientific importance: Potentially high if the host-virus interactions are validated in cells and the antiviral peptides are shown to be on-target, but the abstract does not establish this. Interdisciplinary readership: The work bridges virology, peptide chemistry, and drug discovery, which could appeal to a broad audience, but the abstract is too technical in places. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail and data is a major limitation. Readability for nonspecialists: The abstract is accessible in structure but uses undefined technical terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible workflow and interesting preliminary results, but the key claims regarding affinity specificity, antiviral mechanism, and host-virus relevance require full experimental details and additional validation. I would be supportive if the technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The claim that the identified peptides represent "potential host-virus interactions" is unsupported without cellular validation of full-length protein engagement.
+- The claim that the two cell-penetrating peptides "target" Nsp9 and Nsp16 and inhibit viral replication is unsupported without mechanistic evidence linking peptide binding to antiviral activity.
+- The claim that affinities "spanning the whole micromolar range" are biologically meaningful is unsupported without specificity controls or context on typical affinities for such interactions.
+- The general conclusion that ProP-PD "simultaneously" provides host-virus interaction information and antiviral leads is overstated given the lack of validation for either aspect in the abstract.

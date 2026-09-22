@@ -1,0 +1,635 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.26.690418",
+  "title": "FuzzAletheia: Mapping dynamic interaction landscapes of intrinsically disordered protein-ligand complexes to accelerate ligand optimization",
+  "doi": "10.1101/2025.11.26.690418",
+  "abstract": "Intrinsically disordered proteins (IDPs), representing more than 30% of human proteome, present great challenges in rational drug design due to their highly flexible conformations and dynamic interactions. Though their malfunction is linked to major diseases, IDPs are difficult to target. A critical roadblock lies in hit-to-lead optimization due to their dynamic interactions with hit compounds. Here we developed FuzzAletheia, an IDP-ligand dynamic binding pattern analyzer, to accelerate hit optimization. It analyzes the molecular dynamics simulation trajectories of IDP-ligand to cluster interactions into distinct spatiotemporal stable binding features, which are then visualized and quantified to provide insights into the dynamic binding orientation, strength, and stability. This analysis pinpoints modification sites on hit compounds for optimization. We applied FuzzAletheia to the disordered p53 transactivation domain 1 and its hit compound 1050. Guided by FuzzAletheia analysis, we designed and synthesized six derivatives of 1050 and the most potent compound achieved a 10-fold enhancement in activity, demonstrating its power to accelerate IDP hit optimization.",
+  "authors": [
+    "Hanping Wang",
+    "Fanhao Wang",
+    "Ruoyao Xiong",
+    "Qi Sun",
+    "Luhua Lai"
+  ],
+  "published_date": "2025-12-01",
+  "updated_date": "2025-12-02T00:20:14Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690418",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.26.690418.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T01:54:13Z",
+        "timestamp": 1768528453969,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            1
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                1
+              ]
+            ],
+            "date-time": "2025-12-01T00:00:00Z",
+            "timestamp": 1764547200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "22237002"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "22237002"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "T2321001"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "T2321001"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "22307002"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "22307002"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "The CAMS Innovation Fund for Medical Sciences",
+          "award": [
+            "2021-I2M-5-014"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "2021-I2M-5-014"
+              ]
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            1
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Intrinsically disordered proteins (IDPs), representing more than 30% of human proteome, present great challenges in rational drug design due to their highly flexible conformations and dynamic interactions. Though their malfunction is linked to major diseases, IDPs are difficult to target. A critical roadblock lies in hit-to-lead optimization due to their dynamic interactions with hit compounds. Here we developed FuzzAletheia, an IDP-ligand dynamic binding pattern analyzer, to accelerate hit optimization. It analyzes the molecular dynamics simulation trajectories of IDP-ligand to cluster interactions into distinct spatiotemporal stable binding features, which are then visualized and quantified to provide insights into the dynamic binding orientation, strength, and stability. This analysis pinpoints modification sites on hit compounds for optimization. We applied FuzzAletheia to the disordered p53 transactivation domain 1 and its hit compound\n                  <jats:bold>1050.</jats:bold>\n                  Guided by FuzzAletheia analysis, we designed and synthesized six derivatives of\n                  <jats:bold>1050</jats:bold>\n                  and the most potent compound achieved a 10-fold enhancement in activity, demonstrating its power to accelerate IDP hit optimization.\n                </jats:p>",
+      "DOI": "10.1101/2025.11.26.690418",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            2
+          ]
+        ],
+        "date-time": "2025-12-02T00:20:14Z",
+        "timestamp": 1764634814000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "FuzzAletheia: Mapping dynamic interaction landscapes of intrinsically disordered protein-ligand complexes to accelerate ligand optimization"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0000-3986-5608",
+          "authenticated-orcid": false,
+          "given": "Hanping",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fanhao",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ruoyao",
+          "family": "Xiong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Qi",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8343-7587",
+          "authenticated-orcid": false,
+          "given": "Luhua",
+          "family": "Lai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-9-S2-S1"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.1c00848"
+        },
+        {
+          "issue": "7",
+          "key": "2025120318250953000_2025.11.26.690418v1.3",
+          "first-page": "1",
+          "article-title": "Small molecules in regulating protein phase separation",
+          "volume": "55",
+          "year": "2023",
+          "journal-title": "Acta Biochimica et Biophysica Sinica"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cbpa.2021.02.009"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0217889"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2021.167208"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "issue": "1",
+          "key": "2025120318250953000_2025.11.26.690418v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "20",
+          "DOI": "10.1186/s12964-022-00821-7",
+          "article-title": "Intrinsically disordered proteins play diverse roles in cell signaling",
+          "volume": "20",
+          "year": "2022",
+          "journal-title": "Cell Communication and Signaling"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2022.09.021"
+        },
+        {
+          "issue": "21",
+          "key": "2025120318250953000_2025.11.26.690418v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "e202203369",
+          "DOI": "10.1002/chem.202203369",
+          "article-title": "Multifunctional intrinsically disordered regions in transcription factors",
+          "volume": "29",
+          "year": "2023",
+          "journal-title": "Chemistry – A European Journal"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2018.09.017"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/wcms.1685"
+        },
+        {
+          "issue": "4_suppl",
+          "key": "2025120318250953000_2025.11.26.690418v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "141",
+          "DOI": "10.1200/JCO.2024.42.4_suppl.141",
+          "article-title": "Phase 1/2 trial of oral EPI-7386 (masofaniten) in combination with enzalutamide (Enz) compared to Enz alone in patients with metastatic castration-resistant prostate cancer (mCRPC): phase 1 (P1) results and phase 2 (P2) design",
+          "volume": "42",
+          "year": "2024",
+          "journal-title": "Journal of Clinical Oncology"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41591-024-02805-1"
+        },
+        {
+          "issue": "5",
+          "key": "2025120318250953000_2025.11.26.690418v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "551",
+          "DOI": "10.1080/17460441.2020.1732920",
+          "article-title": "Discovery of drugs that directly target the intrinsically disordered region of the androgen receptor",
+          "volume": "15",
+          "year": "2020",
+          "journal-title": "Expert Opinion on Drug Discovery"
+        },
+        {
+          "issue": "8",
+          "key": "2025120318250953000_2025.11.26.690418v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "e202103090",
+          "DOI": "10.1083/jcb.202103090",
+          "article-title": "The long journey to bring a Myc inhibitor to the clinic",
+          "volume": "220",
+          "year": "2021",
+          "journal-title": "Journal of Cell Biology"
+        },
+        {
+          "issue": "1",
+          "key": "2025120318250953000_2025.11.26.690418v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "6390",
+          "DOI": "10.1038/s41467-022-34077-z",
+          "article-title": "Small molecules targeting the disordered transactivation domain of the androgen receptor induce the formation of collapsed helical states",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.1c07591"
+        },
+        {
+          "issue": "1",
+          "key": "2025120318250953000_2025.11.26.690418v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "986",
+          "DOI": "10.1038/s41467-021-21258-5",
+          "article-title": "EGCG binds intrinsically disordered N-terminal domain of p53 and disrupts p53-MDM2 interaction",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "127711",
+          "DOI": "10.1016/j.bmcl.2020.127711",
+          "article-title": "Ligand-based optimization and biological evaluation of N-(2,2,2-trichloro-1-(3-phenylthioureido)ethyl)acetamide derivatives as potent intrinsically disordered protein c-Myc inhibitors",
+          "volume": "31",
+          "year": "2021",
+          "journal-title": "Bioorganic & Medicinal Chemistry Letters"
+        },
+        {
+          "issue": "10",
+          "key": "2025120318250953000_2025.11.26.690418v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1453",
+          "DOI": "10.3390/biom11101453",
+          "article-title": "Design of inhibitors of the intrinsically disordered protein NUPR1: balance between drug affinity and target function",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Biomolecules"
+        },
+        {
+          "issue": "10",
+          "key": "2025120318250953000_2025.11.26.690418v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1003249",
+          "DOI": "10.1371/journal.pcbi.1003249",
+          "article-title": "Ligand clouds around protein clouds: a scenario of ligand binding with intrinsically disordered proteins",
+          "volume": "9",
+          "year": "2013",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.chembiol.2008.09.011"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.0c02088"
+        },
+        {
+          "issue": "12",
+          "key": "2025120318250953000_2025.11.26.690418v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "1738",
+          "DOI": "10.1021/acschemneuro.2c00116",
+          "article-title": "A small molecule stabilizes the disordered native state of the Alzheimer’s Aβ peptide",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "ACS Chemical Neuroscience"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.0c01175"
+        },
+        {
+          "issue": "1",
+          "key": "2025120318250953000_2025.11.26.690418v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "1865",
+          "DOI": "10.1038/s41467-024-45826-7",
+          "article-title": "A druggable conformational switch in the c-MYC transactivation domain",
+          "volume": "15",
+          "year": "2024",
+          "journal-title": "Nature Communications"
+        },
+        {
+          "issue": "30",
+          "key": "2025120318250953000_2025.11.26.690418v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "9431",
+          "DOI": "10.1021/jp204407d",
+          "article-title": "Replica exchange with solute scaling: a more efficient version of replica exchange with solute tempering (REST2)",
+          "volume": "115",
+          "year": "2011",
+          "journal-title": "The Journal of Physical Chemistry B"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-019-0110-x"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2020.12.011"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.semcancer.2020.07.005"
+        },
+        {
+          "issue": "1",
+          "key": "2025120318250953000_2025.11.26.690418v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "91",
+          "DOI": "10.1186/s13045-022-01314-3",
+          "article-title": "Targeting p53-MDM2 interaction by small-molecule inhibitors: learning from MDM2 inhibitors in clinical trials",
+          "volume": "15",
+          "year": "2022",
+          "journal-title": "Journal of Hematology & Oncology"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41573-022-00571-8"
+        },
+        {
+          "issue": "8",
+          "key": "2025120318250953000_2025.11.26.690418v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "3004",
+          "DOI": "10.1039/D0SC04670A",
+          "article-title": "Computational strategy for intrinsically disordered protein ligand design leads to the discovery of p53 transactivation domain I binding compounds that activate the p53 pathway",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Chemical Science"
+        },
+        {
+          "issue": "1",
+          "key": "2025120318250953000_2025.11.26.690418v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "71",
+          "DOI": "10.1038/nmeth.4067",
+          "article-title": "CHARMM36m: an improved force field for folded and intrinsically disordered proteins",
+          "volume": "14",
+          "year": "2017",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.21367"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.4314"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ccr.2010.04.027"
+        },
+        {
+          "issue": "11",
+          "key": "2025120318250953000_2025.11.26.690418v1.39",
+          "first-page": "e87850",
+          "article-title": "An imaging agent to detect androgen receptor and its active splice variants in prostate cancer",
+          "volume": "1",
+          "year": "2016",
+          "journal-title": "JCI Insight"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.chemrev.5c00159"
+        },
+        {
+          "issue": "9",
+          "key": "2025120318250953000_2025.11.26.690418v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "2499",
+          "DOI": "10.1021/acschembio.6b00182",
+          "article-title": "EPI-001, a compound active against castration-resistant prostate cancer, targets transactivation unit 5 of the androgen receptor",
+          "volume": "11",
+          "year": "2016",
+          "journal-title": "ACS Chemical Biology"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.4c08869"
+        },
+        {
+          "key": "2025120318250953000_2025.11.26.690418v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.accounts.0c00813"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.11.26.690418",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T10:07:26Z",
+        "timestamp": 1768471646000
+      },
+      "score": 104.586395,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.11.26.690418"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            1
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.1101/2025.11.26.690418",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            12,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37749095",
+  "title": "Driving forces behind phase separation of the carboxy-terminal domain of RNA polymerase II.",
+  "authors": "Flores-Solis, David; Lushpinskaia, Irina P; Polyansky, Anton A; Changiarath, Arya; Boehning, Marc; Mirkovic, Milana; Walshe, James; Pietrek, Lisa M; Cramer, Patrick; Stelzl, Lukas S; Zagrovic, Bojan; Zweckstetter, Markus",
+  "journal": "Nature communications",
+  "published_date": "2023-09-26",
+  "window": {
+    "start": "2023-09-25",
+    "end": "2023-10-01"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合NMR、分子系综计算和全原子MD模拟，揭示RNA聚合酶II无序CTD中酪氨酸介导的多价相互作用驱动相分离，并介导Mediator复合物共招募，直接聚焦IDR-PPI机制建模，高度契合课题。",
+  "abstract": "Eukaryotic gene regulation and pre-mRNA transcription depend on the carboxy-terminal domain (CTD) of RNA polymerase (Pol) II. Due to its highly repetitive, intrinsically disordered sequence, the CTD enables clustering and phase separation of Pol II. The molecular interactions that drive CTD phase separation and Pol II clustering are unclear. Here, we show that multivalent interactions involving tyrosine impart temperature- and concentration-dependent self-coacervation of the CTD. NMR spectroscopy, molecular ensemble calculations and all-atom molecular dynamics simulations demonstrate the presence of diverse tyrosine-engaging interactions, including tyrosine-proline contacts, in condensed states of human CTD and other low-complexity proteins. We further show that the network of multivalent interactions involving tyrosine is responsible for the co-recruitment of the human Mediator complex and CTD during phase separation. Our work advances the understanding of the driving forces of CTD phase separation and thus provides the basis to better understand CTD-mediated Pol II clustering in eukaryotic gene transcription.",
+  "abstract_zh": "真核基因调控和前体mRNA转录依赖于RNA聚合酶（Pol）II的羧基末端结构域（CTD）。由于其高度重复、内在无序的序列，CTD能够促进Pol II的聚集和相分离（phase separation）。驱动CTD相分离和Pol II聚集的分子相互作用尚不清楚。在此，我们表明涉及酪氨酸的多价相互作用赋予CTD温度和浓度依赖性的自凝聚特性。核磁共振波谱（NMR spectroscopy）、分子系综计算和全原子分子动力学（molecular dynamics）模拟证明，在人CTD及其他低复杂度蛋白的凝聚态中，存在多种涉及酪氨酸的相互作用，包括酪氨酸-脯氨酸接触。我们进一步表明，涉及酪氨酸的多价相互作用网络负责在相分离过程中共同招募人Mediator复合物和CTD。我们的工作推进了对CTD相分离驱动力的理解，从而为更好地理解真核基因转录中CTD介导的Pol II聚集提供了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37749095/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37749095/",
+  "paper_page_path": "papers/pubmed/37749095/index.html"
+}

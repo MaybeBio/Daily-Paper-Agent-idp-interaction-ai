@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "41874470",
+    "doi": "10.1021/acschemneuro.6c00106",
+    "title": "Molecular Interplay of Small Molecules and Calcium Ions with alpha-Synuclein Revealed by NMR and Molecular Dynamics Simulations."
+  },
+  "content": {
+    "abstract": "Human alpha-synuclein is an intrinsically disordered protein concentrated at presynaptic terminals and strongly linked to Parkinson's disease and other synucleinopathies. Its dynamic C-terminal region mediates interactions with small molecules and metal ions. Here, we used high-resolution nuclear magnetic resonance spectroscopy (NMR) and molecular dynamics (MD) simulations to characterize interactions between the C-terminal alpha-synuclein construct, the small molecule fasudil, and calcium ions. NMR data show that fasudil and Ca(2+) bind preferentially to overlapping regions enriched in alternating tyrosine and acidic residues while preserving the protein's disordered nature. Side-chain-resolved spectra indicate distinct driving forces for fasudil and calcium binding. MD simulations reveal that Ca(2+) modifies the local electrostatic environment, decreasing fasudil interaction frequency through electrostatic screening and steric effects. Despite this, fasudil retains dynamic, reversible contacts with key tyrosine residues. Overall, exposed alpha-synuclein conformations allow simultaneous, ligand-specific interactions, highlighting side-chain hotspots governing binding in Ca(2+)-rich conditions.",
+    "keywords": [
+      "13C NMR",
+      "Amino acids side chain",
+      "Drug discovery",
+      "Intrinsically Disordered Proteins",
+      "Protein interactions",
+      "Synucleinopathies"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Calcium/metabolism/chemistry",
+      "Humans",
+      "Magnetic Resonance Spectroscopy/methods",
+      "*1-(5-Isoquinolinesulfonyl)-2-Methylpiperazine/analogs & derivatives/metabolism/chemistry",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Turchi, Filippo",
+        "Turan, Haydar Taylan",
+        "Schiavina, Marco",
+        "Brancato, Giuseppe",
+        "Felli, Isabella C",
+        "Pierattelli, Roberta"
+      ],
+      "short_names": [
+        "Turchi F",
+        "Turan HT",
+        "Schiavina M",
+        "Brancato G",
+        "Felli IC",
+        "Pierattelli R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8825-8900",
+        "ORCID: 0000-0001-8059-2517",
+        "ORCID: 0000-0002-6018-9090",
+        "ORCID: 0000-0001-7755-0885"
+      ],
+      "affiliations": [
+        "Department of Chemistry \"Ugo Schiff\" and Magnetic Resonance Center (CERM), University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy.",
+        "Scuola Normale Superiore, Piazza dei Cavalieri 7, 56126 Pisa, Italy.",
+        "Department of Chemistry \"Ugo Schiff\" and Magnetic Resonance Center (CERM), University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy.",
+        "Scuola Normale Superiore, Piazza dei Cavalieri 7, 56126 Pisa, Italy.",
+        "Department of Chemistry \"Ugo Schiff\" and Magnetic Resonance Center (CERM), University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy.",
+        "Department of Chemistry \"Ugo Schiff\" and Magnetic Resonance Center (CERM), University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Turchi, Filippo",
+        "short_name": "Turchi F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry \"Ugo Schiff\" and Magnetic Resonance Center (CERM), University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy."
+        ]
+      },
+      {
+        "full_name": "Turan, Haydar Taylan",
+        "short_name": "Turan HT",
+        "identifiers": [],
+        "affiliations": [
+          "Scuola Normale Superiore, Piazza dei Cavalieri 7, 56126 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Schiavina, Marco",
+        "short_name": "Schiavina M",
+        "identifiers": [
+          "0000-0001-8825-8900"
+        ],
+        "affiliations": [
+          "Department of Chemistry \"Ugo Schiff\" and Magnetic Resonance Center (CERM), University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy."
+        ]
+      },
+      {
+        "full_name": "Brancato, Giuseppe",
+        "short_name": "Brancato G",
+        "identifiers": [
+          "0000-0001-8059-2517"
+        ],
+        "affiliations": [
+          "Scuola Normale Superiore, Piazza dei Cavalieri 7, 56126 Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Felli, Isabella C",
+        "short_name": "Felli IC",
+        "identifiers": [
+          "0000-0002-6018-9090"
+        ],
+        "affiliations": [
+          "Department of Chemistry \"Ugo Schiff\" and Magnetic Resonance Center (CERM), University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy."
+        ]
+      },
+      {
+        "full_name": "Pierattelli, Roberta",
+        "short_name": "Pierattelli R",
+        "identifiers": [
+          "0000-0001-7755-0885"
+        ],
+        "affiliations": [
+          "Department of Chemistry \"Ugo Schiff\" and Magnetic Resonance Center (CERM), University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS chemical neuroscience"
+    ],
+    "journal_abbrev": [
+      "ACS Chem Neurosci"
+    ],
+    "pub_date": "2026 Apr 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/24 12:36",
+    "fetched_at": "2026-09-18 01:57:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40207671",
+      "40079830",
+      "38632492",
+      "37345454",
+      "37201129",
+      "35130691",
+      "34439840",
+      "32735376",
+      "32568105",
+      "32277934",
+      "32138193",
+      "30527975",
+      "29459792",
+      "28066161",
+      "27101974",
+      "26275458",
+      "25256602",
+      "24739139",
+      "24098099",
+      "23254192",
+      "22940885",
+      "19285989",
+      "18573080",
+      "18493022",
+      "16866548",
+      "15832397",
+      "15767574",
+      "12834338",
+      "11312271"
+    ],
+    "similar": [
+      "41874470",
+      "35130691",
+      "39232485",
+      "41575228",
+      "27101974",
+      "19655784",
+      "33719460",
+      "33345970",
+      "41604267",
+      "40207671",
+      "32735376",
+      "39693390",
+      "29874605",
+      "42093278",
+      "40994307",
+      "19576220",
+      "20620148",
+      "29459792",
+      "24316000",
+      "20359221",
+      "37407505",
+      "23583776",
+      "40878020",
+      "42027070",
+      "33004902",
+      "29364151",
+      "27092002",
+      "39915220",
+      "36232847",
+      "40818051",
+      "27273030",
+      "40532196",
+      "41301496",
+      "31903719",
+      "23964651",
+      "36749138",
+      "23912807",
+      "30184304",
+      "36278939",
+      "40315262",
+      "28075555",
+      "21280118",
+      "39980393",
+      "29715424",
+      "29603451",
+      "16866548",
+      "18415022",
+      "22860160",
+      "38857533",
+      "32497661",
+      "23607785",
+      "30917651",
+      "29642031",
+      "23374072",
+      "31830361",
+      "31600047",
+      "17681539",
+      "42114215",
+      "36379279",
+      "23374074",
+      "39306670",
+      "26808899",
+      "40853068",
+      "33903234",
+      "38358134",
+      "30527975",
+      "19895818",
+      "20629174",
+      "27096466",
+      "41009570",
+      "29382893",
+      "32164323",
+      "40605637",
+      "37037308",
+      "28667699",
+      "32592698",
+      "33581430",
+      "40945576",
+      "25207671",
+      "19481095",
+      "21396938",
+      "24871041",
+      "29633780",
+      "37686208",
+      "29704492",
+      "36413494",
+      "41761630",
+      "31699336",
+      "18423664",
+      "24551051",
+      "37189428",
+      "10529232",
+      "26553504",
+      "39462994",
+      "15643843",
+      "31900363",
+      "18366183",
+      "16953580",
+      "34636232",
+      "27860069"
+    ],
+    "review": [
+      "41874470",
+      "29364151",
+      "30527975"
+    ],
+    "pmc": [
+      "13088183"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41874470/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acncdm/article-lookup/doi/10.1021/acschemneuro.6c00106",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

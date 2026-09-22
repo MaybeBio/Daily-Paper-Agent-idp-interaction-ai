@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.24.428004",
+  "title": "Allosteric activation of SARS-CoV-2 RdRp by remdesivir triphosphate and other phosphorylated nucleotides",
+  "authors": "Wang B; Svetlov V; Wolf YI; Koonin EV; Nudler E; Artsimovitch I",
+  "journal": "bioRxiv",
+  "published_date": "2021-01-25",
+  "window": {
+    "start": "2021-01-25",
+    "end": "2021-01-31"
+  },
+  "score": 3,
+  "one_liner_zh": "该文研究SARS-CoV-2 RdRp的别构激活机制，涉及蛋白构象变化与配体调控，但对象为折叠蛋白复合物，非无序蛋白/IDR/相分离，且无AI或物理模拟方法，仅实验机制研究，与本课题关联较弱。",
+  "abstract": "<h4>SUMMARY</h4> The catalytic subunit of SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), Nsp12, has a unique NiRAN domain that transfers nucleoside monophosphates to the Nsp9 protein. The NiRAN and RdRp modules form a dynamic interface distant from their catalytic sites and both activities are essential for viral replication. We report that codon-optimized (for the pause-free translation) Nsp12 exists in inactive state in which NiRAN/RdRp interactions are broken, whereas translation by slow ribosomes and incubation with accessory Nsp7/8 subunits or NTPs partially rescue RdRp activity. Our data show that adenosine and remdesivir triphosphates promote synthesis of A-less RNAs, as does ppGpp, while amino acid substitutions at the NiRAN/RdRp interface augment activation, suggesting that ligand binding to the NiRAN catalytic site modulates RdRp activity. The existence of allosterically-linked nucleotidyl transferase sites that utilize the same substrates has important implications for understanding the mechanism of SARS-CoV-2 replication and design of its inhibitors. <h4>Highlights</h4> Codon-optimization of Nsp12 triggers misfolding and activity loss Slow translation, accessory Nsp7 and Nsp8 subunits, and NTPs rescue Nsp12 Non-substrate nucleotides activate RNA chain synthesis, likely via NiRAN domain Crosstalk between two Nsp12 active sites that bind the same ligands",
+  "abstract_zh": "<h4>摘要</h4> SARS-CoV-2 RNA依赖性RNA聚合酶（RdRp）的催化亚基Nsp12具有一个独特的NiRAN结构域，该结构域将核苷单磷酸转移至Nsp9蛋白。NiRAN和RdRp模块形成一个远离其催化位点的动态界面，且这两种活性对病毒复制至关重要。我们报告，密码子优化（以实现无暂停翻译）的Nsp12存在于非活性状态，其中NiRAN/RdRp相互作用被破坏，而通过慢速核糖体翻译以及与辅助亚基Nsp7/8或NTPs共孵育可部分恢复RdRp活性。我们的数据表明，腺苷和瑞德西韦三磷酸促进无A RNA的合成，ppGpp也是如此，而NiRAN/RdRp界面处的氨基酸替换增强激活，提示配体结合至NiRAN催化位点调节RdRp活性。利用相同底物的变构连接的核苷酸转移酶位点的存在，对理解SARS-CoV-2复制机制及其抑制剂设计具有重要意义。<h4>亮点</h4> Nsp12的密码子优化触发错误折叠和活性丧失 慢速翻译、辅助亚基Nsp7和Nsp8亚基以及NTPs可恢复Nsp12 非底物核苷酸激活RNA链合成，可能通过NiRAN结构域 两个结合相同配体的Nsp12活性位点之间的串扰",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.24.428004",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.24.428004",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.24.428004/index.html"
+}

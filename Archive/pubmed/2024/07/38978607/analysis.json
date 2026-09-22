@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38978607",
+  "title": "Sampling Conformational Ensembles of Highly Dynamic Proteins via Generative Deep Learning.",
+  "authors": "Ruzmetov, Talant; Hung, Ta I; Jonnalagedda, Saisri Padmaja; Chen, Si-Han; Fasihianifard, Parisa; Guo, Zhefeng; Bhanu, Bir; Chang, Chia-En A",
+  "journal": "Research square",
+  "published_date": "2024-07-09",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用无监督深度学习(ICoN)从MD数据学习并采样高度动态蛋白(如Aβ42单体)的构象系综，虽未直接研究PPI，但针对IDP构象采样的生成式建模方法对本课题的IDP互作机制建模具有直接可迁移的启发价值。",
+  "abstract": "Proteins are inherently dynamic, and their conformational ensembles are functionally important in biology. Large-scale motions may govern protein structure-function relationship, and numerous transient but stable conformations of intrinsically disordered proteins (IDPs) can play a crucial role in biological function. Investigating conformational ensembles to understand regulations and disease-related aggregations of IDPs is challenging both experimentally and computationally. In this paper first an unsupervised deep learning-based model, termed Internal Coordinate Net (ICoN), is developed that learns the physical principles of conformational changes from molecular dynamics (MD) simulation data. Second, interpolating data points in the learned latent space are selected that rapidly identify novel synthetic conformations with sophisticated and large-scale sidechains and backbone arrangements. Third, with the highly dynamic amyloid-beta(1-42) (Abeta42) monomer, our deep learning model provided a comprehensive sampling of Abeta42's conformational landscape. Analysis of these synthetic conformations revealed conformational clusters that can be used to rationalize experimental findings. Additionally, the method can identify novel conformations with important interactions in atomistic details that are not included in the training data. New synthetic conformations showed distinct sidechain rearrangements that are probed by our EPR and amino acid substitution studies. The proposed approach is highly transferable and can be used for any available data for training. The work also demonstrated the ability for deep learning to utilize learned natural atomistic motions in protein conformation sampling.",
+  "abstract_zh": "蛋白质本质上是动态的，其构象集合在生物学中具有重要功能。大规模运动可能主导蛋白质的结构-功能关系，而内在无序蛋白质（IDPs）的众多瞬时但稳定的构象在生物功能中可发挥关键作用。研究构象集合以理解IDPs的调控及疾病相关聚集，在实验和计算层面均具挑战性。本文首先开发了一种基于无监督深度学习的模型，称为内部坐标网络（ICoN），该模型从分子动力学（molecular dynamics, MD）模拟数据中学习构象变化的物理原理。其次，在学习的潜在空间中插值数据点，以快速识别具有复杂且大规模侧链和主链排列的新型合成构象。第三，利用高度动态的淀粉样蛋白-β(1-42)（Abeta42）单体，我们的深度学习模型提供了对Abeta42构象景观的全面采样。对这些合成构象的分析揭示了可用于合理化实验发现的构象簇。此外，该方法能够识别训练数据中未包含的、具有原子细节重要相互作用的新型构象。新的合成构象显示出不同的侧链重排，这些重排通过我们的EPR和氨基酸替换研究进行了探测。所提出的方法具有高度可转移性，可用于任何可用数据进行训练。该工作还展示了深度学习在蛋白质构象采样中利用学习到的自然原子运动的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38978607/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38978607/",
+  "paper_page_path": "papers/pubmed/38978607/index.html"
+}

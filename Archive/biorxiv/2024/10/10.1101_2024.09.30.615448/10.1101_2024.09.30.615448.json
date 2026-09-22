@@ -1,0 +1,569 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.09.30.615448",
+  "title": "Promiscuous and multivalent interactions between Eps15 and partner protein Dab2 generate a complex interaction network",
+  "doi": "10.1101/2024.09.30.615448",
+  "abstract": "Clathrin-mediated endocytosis depends on complex protein interactions. Eps15 plays a key role through interactions of its three EH domains with Asn-Pro-Phe (NPF) motifs in intrinsically disordered regions (IDRs) of other endocytic proteins. Using nuclear magnetic resonance spectroscopy, we investigate the interaction between Eps15’s EH domains and a highly disordered Dab2 fragment (Dab2₃₂₀₋₄₉₅). We find that the EH domains exhibit binding promiscuity, recognizing not only the NPF motif of Dab2 but also other phenylalanine containing motifs. This promiscuity enables interactions with Eps15’s own IDR (Eps15 IDR ), which lacks NPF motifs, suggesting an self-inhibitory state that promotes liquid-liquid phase separation. Despite competing for the same EH domain binding sites, Eps15 IDR and Dab2₃₂₀₋₄₉₅ can bind EH123 simultaneously, forming a highly dynamic interaction network that facilitates the recruitment of Dab2₃₂₀₋₄₉₅ into Eps15 condensates. Our findings provide molecular insights into the competitive interactions shaping the early stages of clathrin-mediated endocytosis.",
+  "authors": [
+    "Andromachi Papagiannoula",
+    "Ida Marie Vedel",
+    "Kathrin Motzny",
+    "Maud Tengo",
+    "Arbesa Saiti",
+    "Sigrid Milles"
+  ],
+  "published_date": "2024-10-01",
+  "updated_date": "2024-10-01T17:35:22Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.09.30.615448",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.09.30.615448.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            30
+          ]
+        ],
+        "date-time": "2026-04-30T22:43:18Z",
+        "timestamp": 1777588998763,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            1
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 63,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2024-10-01T00:00:00Z",
+            "timestamp": 1727740800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            2,
+            25
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Clathrin-mediated endocytosis depends on complex protein interactions. Eps15 plays a key role through interactions of its three EH domains with Asn-Pro-Phe (NPF) motifs in intrinsically disordered regions (IDRs) of other endocytic proteins. Using nuclear magnetic resonance spectroscopy, we investigate the interaction between Eps15’s EH domains and a highly disordered Dab2 fragment (Dab2₃₂₀₋₄₉₅). We find that the EH domains exhibit binding promiscuity, recognizing not only the NPF motif of Dab2 but also other phenylalanine containing motifs. This promiscuity enables interactions with Eps15’s own IDR (Eps15\n                  <jats:sub>IDR</jats:sub>\n                  ), which lacks NPF motifs, suggesting an self-inhibitory state that promotes liquid-liquid phase separation. Despite competing for the same EH domain binding sites, Eps15\n                  <jats:sub>IDR</jats:sub>\n                  and Dab2₃₂₀₋₄₉₅ can bind EH123 simultaneously, forming a highly dynamic interaction network that facilitates the recruitment of Dab2₃₂₀₋₄₉₅ into Eps15 condensates. Our findings provide molecular insights into the competitive interactions shaping the early stages of clathrin-mediated endocytosis.\n                </jats:p>",
+      "DOI": "10.1101/2024.09.30.615448",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            1
+          ]
+        ],
+        "date-time": "2024-10-01T17:35:22Z",
+        "timestamp": 1727804122000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Promiscuous and multivalent interactions between Eps15 and partner protein Dab2 generate a complex interaction network"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0767-5129",
+          "authenticated-orcid": false,
+          "given": "Andromachi",
+          "family": "Papagiannoula",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3465-4796",
+          "authenticated-orcid": false,
+          "given": "Ida Marie",
+          "family": "Vedel",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Kathrin",
+          "family": "Motzny",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Maud",
+          "family": "Tengo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Arbesa",
+          "family": "Saiti",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9362-9606",
+          "authenticated-orcid": false,
+          "given": "Sigrid",
+          "family": "Milles",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.132"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2006.08.001"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0969-2126(02)00784-0"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr400585q"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.0040262"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.emboj.7600445"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-50212-4"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2010.09.044"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.5b00065"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1188462"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0014-5793(01)03241-0"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.272.24.15413"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.272.52.33430"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1478-811X-7-24"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2009.248"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41556-021-00646-5"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.11.17.2239"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/sj.emboj.7601980"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E11-12-1007"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bies.201670907"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Smith, S. M. , Baker, M. , Halebian, M. & Smith, C. J . Weak Molecular Interactions in Clathrin-Mediated Endocytosis. Frontiers in Molecular Biosciences 4, (2017).",
+          "DOI": "10.3389/fmolb.2017.00072"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0962-8924(01)02082-7"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpbi.99"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts172"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja909973n"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s12104-008-9083-y"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008394326526"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1008382305918"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.062465306"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi990922i"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/80924"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi9927383"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja809687r"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M203004200"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0968-0004(01)01835-7"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.6b02424"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2017.12.007"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-022-09259-w"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/emboj/17.22.6541"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.258"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2091-8-29"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature06173"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-024-48004-x"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/pnasnexus/pgae342"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaw8653"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pbio.1000604"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1385/1-59259-890-0:571"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00197809"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/anie.201100370"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10858-016-0060-y"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10858-013-9715-0"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/B:JNMR.0000042954.99056.ad"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1023/A:1022836027055"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10858-012-9626-5"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp074793o"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10858-007-9166-6"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41592-022-01488-1"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.59",
+          "unstructured": "The PyMOL Molecular Graphics System, Version 3.0 Schrödinger, LLC."
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.aaz7095"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-61779-151-2_1"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2019"
+        },
+        {
+          "key": "2025022701302056000_2024.09.30.615448v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1419528112"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.09.30.615448",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T07:10:12Z",
+        "timestamp": 1768461012000
+      },
+      "score": 60.41063,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.09.30.615448"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            1
+          ]
+        ]
+      },
+      "references-count": 63,
+      "URL": "https://doi.org/10.1101/2024.09.30.615448",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41467-025-63090-1",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            1
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

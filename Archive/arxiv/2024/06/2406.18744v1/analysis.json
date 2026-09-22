@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2406.18744v1",
+  "title": "Quantum Resources Required for Binding Affinity Calculations of Amyloid beta",
+  "authors": "Matthew Otten; Thomas W. Watts; Samuel D. Johnson; Rashmi Sundareswara; Zhihui Wang; Tarini S. Hardikar; Kenneth Heitritter; James Brown; Kanav Setia; Adam Holmes",
+  "journal": "",
+  "published_date": "2024-06-26",
+  "window": {
+    "start": "2024-06-24",
+    "end": "2024-06-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文以无序蛋白Aβ与金属离子的结合亲和力为对象，用量子算法估算计算所需资源，虽涉及IDP和结合计算，但聚焦量子资源而非PPI机制建模，方法为量子计算而非AI/经典物理模拟。",
+  "abstract": "Amyloid beta, an intrinsically disordered protein, plays a seemingly important but not well-understood role in neurodegenerative diseases like Alzheimer's disease. A key feature of amyloid beta, which could lead to potential therapeutic intervention pathways, is its binding affinity to certain metal centers, like iron and copper. Numerically calculating such binding affinities is a computationally challenging task, involving strongly correlated metal centers. A key bottleneck in understanding the binding affinity is obtaining estimates of the ground state energy. Quantum computers have the potential to accelerate such calculations but it is important to understand the quantum resources required. In this work, we detail a computational workflow for binding affinity calculations for amyloid beta utilizing quantum algorithms, providing estimated quantum resources required, at both the logical and hardware level.",
+  "abstract_zh": "淀粉样β蛋白，一种本质无序蛋白质，在阿尔茨海默病等神经退行性疾病中扮演着看似重要但尚未充分理解的角色。淀粉样β蛋白的一个关键特征，可能为潜在的治疗干预途径提供线索，是其对某些金属中心（如铁和铜）的结合亲和力。数值计算此类结合亲和力是一项计算上极具挑战性的任务，涉及强关联的金属中心。理解结合亲和力的一个关键瓶颈在于获取基态能量的估计值。量子计算机有潜力加速此类计算，但理解所需的量子资源至关重要。在本工作中，我们详细阐述了一种利用量子算法进行淀粉样β蛋白结合亲和力计算的计算工作流程，并在逻辑层和硬件层提供了估算的量子资源需求。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2406.18744v1",
+  "source_url": "https://arxiv.org/abs/2406.18744v1",
+  "paper_page_path": "papers/arxiv/2406.18744v1/index.html"
+}

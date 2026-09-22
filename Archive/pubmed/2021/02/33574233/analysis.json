@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33574233",
+  "title": "High resolution ensemble description of metamorphic and intrinsically disordered proteins using an efficient hybrid parallel tempering scheme.",
+  "authors": "Appadurai, Rajeswari; Nagesh, Jayashree; Srivastava, Anand",
+  "journal": "Nature communications",
+  "published_date": "2021-02-13",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出一种高效混合并行回火采样方案，用于高分辨率描述变构蛋白和IDP的构象系综，虽未直接研究PPI，但为IDP构象采样和自由能景观建模提供了可迁移的物理模拟方法，对无序蛋白互作机制建模有方法学启发。",
+  "abstract": "Mapping free energy landscapes of complex multi-funneled metamorphic proteins and weakly-funneled intrinsically disordered proteins (IDPs) remains challenging. While rare-event sampling molecular dynamics simulations can be useful, they often need to either impose restraints or reweigh the generated data to match experiments. Here, we present a parallel-tempering method that takes advantage of accelerated water dynamics and allows efficient and accurate conformational sampling across a wide variety of proteins. We demonstrate the improved sampling efficiency by benchmarking against standard model systems such as alanine di-peptide, TRP-cage and beta-hairpin. The method successfully scales to large metamorphic proteins such as RFA-H and to highly disordered IDPs such as Histatin-5. Across the diverse proteins, the calculated ensemble averages match well with the NMR, SAXS and other biophysical experiments without the need to reweigh. By allowing accurate sampling across different landscapes, the method opens doors for sampling free energy landscape of complex uncharted proteins.",
+  "abstract_zh": "绘制复杂多漏斗形变构蛋白和弱漏斗形 intrinsically disordered proteins (IDPs) 的自由能景观仍具挑战性。虽然稀有事件采样分子动力学模拟可能有用，但它们通常需要施加约束或对生成的数据进行重新加权以匹配实验。在此，我们提出一种并行回火方法，利用加速水动力学，能够在多种蛋白质中实现高效且准确的构象采样。我们通过对标准模型系统（如丙氨酸二肽、TRP-cage 和β-发夹）进行基准测试，展示了改进的采样效率。该方法成功扩展到大型变构蛋白（如RFA-H）和高度无序的IDPs（如Histatin-5）。在多样化的蛋白质中，计算得到的系综平均值与NMR、SAXS及其他生物物理实验良好匹配，无需重新加权。通过在不同景观中实现准确采样，该方法为采样复杂未探索蛋白质的自由能景观打开了大门。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33574233/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33574233/",
+  "paper_page_path": "papers/pubmed/33574233/index.html"
+}

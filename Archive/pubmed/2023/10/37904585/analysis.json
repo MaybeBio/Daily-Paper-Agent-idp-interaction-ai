@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37904585",
+  "title": "DisProt in 2024: improving function annotation of intrinsically disordered proteins.",
+  "authors": "Aspromonte, Maria Cristina; Nugnes, Maria Victoria; Quaglia, Federica; Bouharoua, Adel; Tosatto, Silvio C E; Piovesan, Damiano",
+  "journal": "Nucleic acids research",
+  "published_date": "2023-10-31",
+  "window": {
+    "start": "2023-10-30",
+    "end": "2023-11-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍DisProt数据库2024年更新，改进无序蛋白功能注释并验证与AlphaFold2预测的相关性，虽以无序蛋白为对象但无PPI机制建模或AI/物理方法实质贡献，仅作为资源性工作提供一定参考。",
+  "abstract": "DisProt (URL: https://disprot.org) is the gold standard database for intrinsically disordered proteins and regions, providing valuable information about their functions. The latest version of DisProt brings significant advancements, including a broader representation of functions and an enhanced curation process. These improvements aim to increase both the quality of annotations and their coverage at the sequence level. Higher coverage has been achieved by adopting additional evidence codes. Quality of annotations has been improved by systematically applying Minimum Information About Disorder Experiments (MIADE) principles and reporting all the details of the experimental setup that could potentially influence the structural state of a protein. The DisProt database now includes new thematic datasets and has expanded the adoption of Gene Ontology terms, resulting in an extensive functional repertoire which is automatically propagated to UniProtKB. Finally, we show that DisProt's curated annotations strongly correlate with disorder predictions inferred from AlphaFold2 pLDDT (predicted Local Distance Difference Test) confidence scores. This comparison highlights the utility of DisProt in explaining apparent uncertainty of certain well-defined predicted structures, which often correspond to folding-upon-binding fragments. Overall, DisProt serves as a comprehensive resource, combining experimental evidence of disorder information to enhance our understanding of intrinsically disordered proteins and their functional implications.",
+  "abstract_zh": "DisProt（网址：https://disprot.org）是内在无序蛋白质及区域的金标准数据库，提供关于其功能的有价值信息。最新版本的DisProt带来了显著进展，包括更广泛的功能表示和增强的策展流程。这些改进旨在提高注释质量及其在序列层面的覆盖度。通过采用额外的证据代码，实现了更高的覆盖度。通过系统应用无序实验最低信息（MIADE）原则，并报告可能影响蛋白质结构状态的实验设置的所有细节，注释质量得到了提升。DisProt数据库现包含新的主题数据集，并扩大了基因本体术语的采用，从而形成了一个广泛的功能库，该功能库自动传播至UniProtKB。最后，我们展示了DisProt的策展注释与从AlphaFold2 pLDDT（预测局部距离差异测试）置信度分数推断出的无序预测强烈相关。这一比较凸显了DisProt在解释某些明确预测结构中明显不确定性方面的实用性，这些结构通常对应于结合折叠片段。总体而言，DisProt作为一个综合资源，结合了无序信息的实验证据，以增强我们对内在无序蛋白质及其功能影响的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37904585/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37904585/",
+  "paper_page_path": "papers/pubmed/37904585/index.html"
+}

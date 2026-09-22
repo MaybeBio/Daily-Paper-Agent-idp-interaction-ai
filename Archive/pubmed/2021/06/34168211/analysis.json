@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34168211",
+  "title": "Analysis of the dark proteome of Chandipura virus reveals maximum propensity for intrinsic disorder in phosphoprotein.",
+  "authors": "Sharma, Nishi R; Gadhave, Kundlik; Kumar, Prateek; Saif, Mohammad; Khan, Md M; Sarkar, Debi P; Uversky, Vladimir N; Giri, Rajanish",
+  "journal": "Scientific reports",
+  "published_date": "2021-06-26",
+  "window": {
+    "start": "2021-06-21",
+    "end": "2021-06-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该文分析Chandipura病毒暗蛋白质组，发现磷蛋白(P)具有最高无序倾向，并用MD模拟展示其柔性，虽涉及IDP和MD方法，但未深入PPI机制建模，仅预测无序结合区域。",
+  "abstract": "Chandipura virus (CHPV, a member of the Rhabdoviridae family) is an emerging pathogen that causes rapidly progressing influenza-like illness and acute encephalitis often leading to coma and death of the human host. Given several CHPV outbreaks in Indian sub-continent, recurring sporadic cases, neurological manifestation, and high mortality rate of this infection, CHPV is gaining global attention. The 'dark proteome' includes the whole proteome with special emphasis on intrinsically disordered proteins (IDP) and IDP regions (IDPR), which are proteins or protein regions that lack unique (or ordered) three-dimensional structures within the cellular milieu. These proteins/regions, however, play a number of vital roles in various biological processes, such as cell cycle regulation, control of signaling pathways, etc. and, therefore, are implicated in many human diseases. IDPs and IPPRs are also abundantly found in many viral proteins enabling their multifunctional roles in the viral life cycles and their capability to highjack various host systems. The unknown abundance of IDP and IDPR in CHPV, therefore, prompted us to analyze the dark proteome of this virus. Our analysis revealed a varying degree of disorder in all five CHPV proteins, with the maximum level of intrinsic disorder propensity being found in Phosphoprotein (P). We have also shown the flexibility of P protein using extensive molecular dynamics simulations up to 500 ns (ns). Furthermore, our analysis also showed the abundant presence of the disorder-based binding regions (also known as molecular recognition features, MoRFs) in CHPV proteins. The identification of IDPs/IDPRs in CHPV proteins suggests that their disordered regions may function as potential interacting domains and may also serve as novel targets for disorder-based drug designs.",
+  "abstract_zh": "Chandipura病毒（CHPV，弹状病毒科成员）是一种新兴病原体，引起快速进展的流感样疾病和急性脑炎，常导致人类宿主昏迷和死亡。鉴于印度次大陆多次CHPV疫情暴发、复发性散发病例、神经系统表现及该感染的高死亡率，CHPV正受到全球关注。“暗蛋白质组”包括整个蛋白质组，特别强调固有无序蛋白（IDP）和IDP区域（IDPR），这些蛋白或蛋白区域在细胞环境中缺乏独特（或有序）的三维结构。然而，这些蛋白/区域在多种生物过程中发挥关键作用，如细胞周期调控、信号通路控制等，因此与许多人类疾病相关。IDP和IPPR也大量存在于多种病毒蛋白中，使其在病毒生命周期中具有多功能作用，并能劫持多种宿主系统。因此，CHPV中IDP和IDPR的未知丰度促使我们分析该病毒的暗蛋白质组。我们的分析揭示了CHPV所有五种蛋白存在不同程度的无序性，其中磷酸蛋白（P）的内在无序倾向性最高。我们还通过长达500纳秒（ns）的广泛分子动力学模拟展示了P蛋白的灵活性。此外，我们的分析还显示CHPV蛋白中富含基于无序的结合区域（也称为分子识别特征，MoRFs）。CHPV蛋白中IDP/IDPR的鉴定表明，其无序区域可能作为潜在相互作用域，并可能作为基于无序的药物设计的新靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34168211/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34168211/",
+  "paper_page_path": "papers/pubmed/34168211/index.html"
+}

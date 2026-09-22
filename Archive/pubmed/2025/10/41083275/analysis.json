@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41083275",
+  "title": "Transition State Conformations for IDPs: Application to Human Amylin (hIAPP).",
+  "authors": "Carton, Nicholas A; Buchete, Nicolae-Viorel",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-10-14",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用无偏分子动力学模拟研究hIAPP单体在不同环境中的构象转变，以相对RMSD识别过渡态系综，对象为IDP且涉及聚集机制，但未直接研究PPI或相分离，方法为物理模拟，整体机制建模有启发但互作轴较弱。",
+  "abstract": "Human islet amyloid polypeptide (hIAPP, a.k.a. amylin) aggregation is involved in the pathogenesis of type 2 diabetes, yet no effective inhibitors of fibril formation are currently available. In this study, we examine the conformational transitions of hIAPP monomers across distinct molecular environments (i.e., lipids, water, and amyloid fibrils), to probe key features, such as transition states across the complex free energy landscape of the amyloidization pathway. Using unbiased molecular dynamics simulations of monomeric amylin, we apply relative RMSD values as putative reaction coordinates to identify and assess transition state ensemble (TSE) membership of monomeric amylin conformations. TSE conformations are high-value drug targets located at the probabilistic midpoint between aggregation-prone and helical-rich reference states. Using relative RMSD, we validate a transition state candidate as a TSE member and identify additional kinetically similar amylin conformations. Segment-level analysis offers insight into early stage branching along the aggregation pathway. These findings establish relative RMSD as a useful parameter for characterizing transitions in amylin and other intrinsically disordered proteins.",
+  "abstract_zh": "人胰岛淀粉样多肽（hIAPP，又称amylin）的聚集与2型糖尿病的发病机制相关，但目前尚无有效的纤维形成抑制剂。在本研究中，我们考察了hIAPP单体在不同分子环境（即脂质、水和淀粉样纤维）中的构象转变，以探究关键特征，例如淀粉样化途径复杂自由能景观中的过渡态。通过对单体amylin进行无偏分子动力学模拟，我们采用相对RMSD值作为假定的反应坐标，以识别并评估单体amylin构象的过渡态系综（TSE）成员资格。TSE构象位于聚集倾向参考态与富含螺旋参考态之间的概率中点，是高价值药物靶点。利用相对RMSD，我们验证了一个过渡态候选物为TSE成员，并识别了其他动力学上相似的amylin构象。片段水平分析为聚集途径的早期分支提供了见解。这些发现确立了相对RMSD作为表征amylin及其他固有无序蛋白转变的有用参数。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41083275/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41083275/",
+  "paper_page_path": "papers/pubmed/41083275/index.html"
+}

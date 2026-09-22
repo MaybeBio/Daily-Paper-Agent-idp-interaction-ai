@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors propose a merging-limited coarsening (MLC) regime in which nanoscale condensates formed by complex coacervation of oppositely charged polymers stop growing because chain-length asymmetry induces entropic interfacial charge separation, imparting net droplet charges and long-range electrostatic repulsion that create size-dependent barriers to merging. This yields exponential rather than power-law growth and long-lived metastable states, unifying suppressed MLC and classical Brownian coalescence in one model.
+- **Visible evidence base** Abstract text only; no experimental data, simulation details, theoretical derivations, or figures are available for inspection
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods, simulation parameters, experimental system descriptions, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing and potentially general mechanism for arrested coarsening in nanoscale condensates. The idea that chain-length asymmetry can generate net charges at globally neutral stoichiometry and thereby produce electrostatic barriers is physically plausible and would be of broad interest. However, the abstract alone provides no quantitative evidence, no experimental or simulation details, and no theoretical derivation. The core claims cannot be evaluated for technical soundness or robustness from the supplied material. The work may be significant if the evidence is strong, but the case is not established from what is visible here.
+- **Who would be interested in the results, and why** Researchers in biomolecular condensates and phase separation, soft matter physicists studying coacervation, and cell biologists interested in mechanisms of condensate stability without active regulation. The proposed generality across synthetic and biological systems would appeal to a broad interdisciplinary audience.
+- **Major strengths** The proposed mechanism is physically intuitive and potentially unifying, offering a single framework for both arrested and classical coarsening. The emphasis on entropic effects at globally neutral stoichiometry is a nontrivial and interesting angle. The relevance to both synthetic coacervates and cellular condensates suggests wide applicability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that chain-length asymmetry drives entropic interfacial charge separation and imparts net droplet charges, leading to long-range electrostatic repulsion and size-dependent merging barriers.
+  - **Evidence pointer** Abstract only; no figures, tables, or methods provided
+  - **Concern** The central mechanistic claim is presented without any supporting data. No experimental measurements of droplet charge, no simulation snapshots or force calculations, and no theoretical derivation of the size-dependent barrier are visible. The claim that charge separation occurs even at globally neutral stoichiometry is nontrivial and requires direct evidence, such as electrophoretic mobility measurements, zeta potential data, or simulation-based charge density profiles.
+  - **Why it matters** The entire framework rests on this charge separation mechanism. If the evidence is indirect or the effect is small, the proposed barrier may not be sufficient to explain the observed stability. Without quantitative support, the claim is not verifiable.
+  - **Resolution test** Provide experimental or simulation data showing net droplet charge as a function of chain-length asymmetry, and demonstrate that the resulting electrostatic repulsion is of sufficient magnitude to arrest merging at the observed length scales.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support for growth law
+  - **Claim pointer** The abstract claims that the model produces exponential rather than classical power-law growth and traps droplets in long-lived metastable states.
+  - **Evidence pointer** Abstract only; no growth curves or time-resolved data provided
+  - **Concern** No experimental or simulation data showing droplet size versus time are presented. The claim of exponential growth is a specific quantitative prediction that must be compared directly to classical power-law behavior in the same systems. Without such comparison, it is unclear whether the proposed MLC regime is actually observed or merely inferred.
+  - **Why it matters** The distinction between exponential and power-law growth is a key differentiator of the proposed mechanism. If the data do not clearly show this difference, the claim of a new regime is not supported.
+  - **Resolution test** Show time-resolved droplet size distributions from experiments or simulations, fit to both exponential and power-law forms, and demonstrate that the exponential form is statistically preferred in the MLC regime.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generality of the framework
+  - **Claim pointer** The abstract claims the framework unifies suppressed MLC and classical Brownian coalescence within a single predictive model and provides a general mechanism for condensate stability in both synthetic systems and living cells.
+  - **Evidence pointer** Abstract only; no model equations or parameter ranges provided
+  - **Concern** The claim of unification and generality is broad. No model equations, parameter regimes, or boundary conditions are shown. It is not clear over what range of chain-length asymmetry, salt concentration, or polymer length the MLC regime applies, nor whether the model reduces correctly to classical Brownian coalescence in the appropriate limit.
+  - **Why it matters** A unifying model must demonstrate both limits explicitly. Without this, the claim of generality is an assertion rather than a demonstrated result.
+  - **Resolution test** Present the model equations and show that in the limit of symmetric chains or large droplet sizes, the classical coalescence behavior is recovered, and that the MLC regime emerges only under specific conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** The term "merging-limited coarsening (MLC)"
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The term MLC is introduced but not defined in relation to existing terminology such as coalescence-limited or diffusion-limited growth. It is unclear whether MLC is a distinct regime or a re-description of known behavior.
+  - **Required correction** Define MLC explicitly in terms of the rate-limiting step and clarify how it differs from classical coalescence-limited growth.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Experimental system description
+  - **Affected element** The experimental component of the study
+  - **Evidence pointer** Abstract, first sentence of results
+  - **Issue** The abstract mentions experiments but does not specify the chemical system, polymer types, molecular weights, or solution conditions. This makes it impossible to assess the relevance of the findings to the claimed generality.
+  - **Required correction** Specify the experimental system in the abstract or indicate that full details are in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantitative claim precision
+  - **Affected element** The claim of "exponential rather than classical power-law growth"
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The abstract does not state the time scale over which exponential growth is observed or the range of droplet sizes over which it applies. Without these bounds, the claim is imprecise.
+  - **Required correction** Provide the relevant time and size scales in the abstract or refer to specific figures in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish the proposed mechanism, the growth law, or the generality of the framework.
+- **Assessment against Nature-style criteria** Originality appears high, as the proposed entropic charge separation mechanism at neutral stoichiometry is not a standard explanation for condensate stability. Scientific importance is potentially high given the broad relevance to biomolecular condensates and coacervation. Interdisciplinary readership is likely, spanning biology, soft matter physics, and physical chemistry. Technical soundness cannot be assessed from the abstract alone, as no methods, data, or derivations are visible. Readability for nonspecialists is good, as the abstract is clearly written and the core idea is accessible, though the term MLC could be better defined.
+- **Recommendation posture** Currently not established from the provided evidence. The idea is promising and the abstract is compelling, but the absence of any quantitative data, model details, or experimental descriptions prevents a supportive assessment. I would be supportive if the full manuscript provides direct evidence for the charge separation mechanism, clear growth law comparisons, and a demonstration of the model's unifying limits.
+
+## Risk / unsupported claims
+- The claim that chain-length asymmetry drives entropic interfacial charge separation at globally neutral stoichiometry is unsupported in the abstract.
+- The claim that size-dependent electrostatic barriers lead to exponential growth is unsupported without time-resolved data.
+- The claim that the framework unifies MLC and classical Brownian coalescence is unsupported without model equations and limit analyses.
+- The claim of generality to living cells is unsupported without any biological data or discussion of relevant physiological conditions.

@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "35898309",
+    "doi": "10.3389/fmolb.2022.882160",
+    "title": "CARs-DB: A Database of Cryptic Amyloidogenic Regions in Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Proteome-wide analyses suggest that most globular proteins contain at least one amyloidogenic region, whereas these aggregation-prone segments are thought to be underrepresented in intrinsically disordered proteins (IDPs). In recent work, we reported that intrinsically disordered regions (IDRs) indeed sustain a significant amyloid load in the form of cryptic amyloidogenic regions (CARs). CARs are widespread in IDRs, but they are necessarily exposed to solvent, and thus they should be more polar and have a milder aggregation potential than conventional amyloid regions protected inside globular proteins. CARs are connected with IDPs function and, in particular, with the establishment of protein-protein interactions through their IDRs. However, their presence also appears associated with pathologies like cancer or Alzheimer's disease. Given the relevance of CARs for both IDPs function and malfunction, we developed CARs-DB, a database containing precomputed predictions for all CARs present in the IDPs deposited in the DisProt database. This web tool allows for the fast and comprehensive exploration of previously unnoticed amyloidogenic regions embedded within IDRs sequences and might turn helpful in identifying disordered interacting regions. It contains >8,900 unique CARs identified in a total of 1711 IDRs. CARs-DB is freely available for users and can be accessed at http://carsdb.ppmclab.com. To validate CARs-DB, we demonstrate that two previously undescribed CARs selected from the database display full amyloidogenic potential. Overall, CARs-DB allows easy access to a previously unexplored amyloid sequence space.",
+    "keywords": [
+      "amyloid",
+      "database",
+      "disease",
+      "intrinsically disordered proteins",
+      "protein-protein interactions"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pintado-Grima, Carlos",
+        "Barcenas, Oriol",
+        "Manglano-Artunedo, Zoe",
+        "Vilaca, Rita",
+        "Macedo-Ribeiro, Sandra",
+        "Pallares, Irantzu",
+        "Santos, Jaime",
+        "Ventura, Salvador"
+      ],
+      "short_names": [
+        "Pintado-Grima C",
+        "Barcenas O",
+        "Manglano-Artunedo Z",
+        "Vilaca R",
+        "Macedo-Ribeiro S",
+        "Pallares I",
+        "Santos J",
+        "Ventura S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Instituto de Biologia Molecular e Celular and Instituto de Investigacao e Inovacao Em Saude, Universidade Do Porto, Porto, Portugal.",
+        "Instituto de Biologia Molecular e Celular and Instituto de Investigacao e Inovacao Em Saude, Universidade Do Porto, Porto, Portugal.",
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Institut de Biotecnologia i de Biomedicina and Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pintado-Grima, Carlos",
+        "short_name": "Pintado-Grima C",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Bárcenas, Oriol",
+        "short_name": "Bárcenas O",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Manglano-Artuñedo, Zoe",
+        "short_name": "Manglano-Artuñedo Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Vilaça, Rita",
+        "short_name": "Vilaça R",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Biologia Molecular e Celular and Instituto de Investigação e Inovação Em Saúde, Universidade Do Porto, Porto, Portugal."
+        ]
+      },
+      {
+        "full_name": "Macedo-Ribeiro, Sandra",
+        "short_name": "Macedo-Ribeiro S",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Biologia Molecular e Celular and Instituto de Investigação e Inovação Em Saúde, Universidade Do Porto, Porto, Portugal."
+        ]
+      },
+      {
+        "full_name": "Pallarès, Irantzu",
+        "short_name": "Pallarès I",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Santos, Jaime",
+        "short_name": "Santos J",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Ventura, Salvador",
+        "short_name": "Ventura S",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biotecnologia i de Biomedicina and Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/29 06:00",
+    "fetched_at": "2026-09-20 12:12:29"
+  },
+  "links": {
+    "cites": [
+      "41326719",
+      "41303502",
+      "40629388",
+      "40337976",
+      "40100133",
+      "39576588",
+      "38681860",
+      "37676599",
+      "36726678"
+    ],
+    "refs": [
+      "34963892",
+      "34850135",
+      "34527192",
+      "34269900",
+      "33328883",
+      "33294637",
+      "33237329",
+      "32890404",
+      "32645344",
+      "32620861",
+      "32294448",
+      "32225176",
+      "31952691",
+      "31928729",
+      "29966079",
+      "29812908",
+      "29761107",
+      "29550973",
+      "29439243",
+      "28498720",
+      "27511635",
+      "26094605",
+      "25531225",
+      "25451785",
+      "25412900",
+      "24551113",
+      "23689371",
+      "23180855",
+      "23161999",
+      "22713792",
+      "22701727",
+      "22559198",
+      "22542525",
+      "22535488",
+      "22155180",
+      "21909575",
+      "20154676",
+      "20019059",
+      "19768526",
+      "19717576",
+      "19696882",
+      "19502422",
+      "17324296",
+      "16359707",
+      "16218947",
+      "16214166",
+      "15849252",
+      "15361882",
+      "12130773",
+      "11060312",
+      "11025552",
+      "10984534",
+      "10805776"
+    ],
+    "similar": [
+      "35898309",
+      "34527192",
+      "37676599",
+      "36726678",
+      "35034725",
+      "38507044",
+      "35094056",
+      "28381244",
+      "37634152",
+      "34626492",
+      "39071267",
+      "21647374",
+      "31756456",
+      "35275927",
+      "33951592",
+      "31709918",
+      "33036302",
+      "23912807",
+      "17145717",
+      "32696395",
+      "39253485",
+      "36291695",
+      "23723000",
+      "29734798",
+      "29763584",
+      "35167081",
+      "35149212",
+      "35139468",
+      "36133101",
+      "27899601",
+      "24532081",
+      "34390736",
+      "31797594",
+      "23142703",
+      "17196033",
+      "32824743",
+      "33098409",
+      "15313629",
+      "30443712",
+      "29066345",
+      "36215254",
+      "31998071",
+      "35436286",
+      "31521230",
+      "32503351",
+      "24594841",
+      "24317797",
+      "26618856",
+      "35789137",
+      "27787828",
+      "30841624",
+      "39279844",
+      "34347206",
+      "33567297",
+      "26042223",
+      "32696391",
+      "35992603",
+      "33866372",
+      "29626537",
+      "23153654",
+      "22108787",
+      "33269918",
+      "35744058",
+      "30878482",
+      "34285781",
+      "27179590",
+      "34986640",
+      "33194509",
+      "37167423",
+      "35290420",
+      "30216674",
+      "33976270",
+      "31707710",
+      "29076577",
+      "32743159",
+      "34418423",
+      "26376097",
+      "35417609",
+      "33248138",
+      "35093643",
+      "31307006",
+      "32112084",
+      "35863661",
+      "33087759",
+      "30177944",
+      "30875980",
+      "26184172",
+      "26126425",
+      "26402567",
+      "34656333",
+      "25502193",
+      "25287424",
+      "33108190",
+      "30324701",
+      "34179096",
+      "29722136",
+      "36306150",
+      "37581491",
+      "37904768",
+      "36304335",
+      "37992221",
+      "39072126",
+      "35487971",
+      "36829461",
+      "30299594",
+      "33325498",
+      "38293114",
+      "25097386",
+      "32376934",
+      "36486941",
+      "36491092",
+      "36668599",
+      "36954999",
+      "37054168"
+    ],
+    "review": [
+      "35898309",
+      "33951592",
+      "31709918",
+      "35139468",
+      "36133101",
+      "24532081",
+      "34390736",
+      "31998071",
+      "31521230",
+      "34347206",
+      "33567297",
+      "26042223",
+      "34285781",
+      "33194509",
+      "30216674",
+      "31707710",
+      "34418423",
+      "33248138",
+      "35093643",
+      "30875980",
+      "26126425",
+      "26402567",
+      "25502193",
+      "25287424",
+      "29722136"
+    ],
+    "pmc": [
+      "9309178"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35898309/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35898309",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-4044",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2022.882160",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

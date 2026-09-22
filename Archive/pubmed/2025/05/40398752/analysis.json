@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40398752",
+  "title": "Computational methods for modeling protein-protein interactions in the AI era: Current status and future directions.",
+  "authors": "Li, Hao; Nithin, Chandran; Kmiecik, Sebastian; Huang, Sheng-You",
+  "journal": "Drug discovery today",
+  "published_date": "2025-05-22",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 8,
+  "one_liner_zh": "综述AI时代蛋白-蛋白互作建模的计算方法，涵盖AlphaFold等深度学习及传统对接，并明确讨论IDR参与的互作挑战与进展，与本课题高度相关。",
+  "abstract": "The modeling of protein-protein interactions (PPIs) has been revolutionized by artificial intelligence, with deep learning and end-to-end frameworks such as AlphaFold and its derivatives now dominating the field. This review surveys the current computational landscape for predicting protein complex structures, outlining the role of traditional docking approaches as well as focusing on recent advances in AI-driven methods. We discuss key challenges, including protein flexibility, reliance on co-evolutionary signals, modeling of large assemblies, and interactions involving intrinsically disordered regions (IDRs). Recent innovations aimed at improving sampling diversity, integrating experimental data, and enhancing robustness are also highlighted. Although classical methods remain relevant in specific contexts, the continued evolution of AI-based tools offers transformative potential for structural biology. These advances are poised to deepen our understanding of biomolecular interactions and accelerate the design of therapeutic interventions.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）的建模已被人工智能彻底改变，深度学习和端到端框架（如AlphaFold及其衍生工具）如今在该领域占据主导地位。本综述审视了当前预测蛋白质复合物结构的计算格局，概述了传统对接方法的作用，并重点聚焦于AI驱动方法的最新进展。我们讨论了关键挑战，包括蛋白质柔性、对共进化信号的依赖、大型组装体的建模，以及涉及固有无序区域（IDRs）的相互作用。同时，还强调了旨在提高采样多样性、整合实验数据和增强鲁棒性的近期创新。尽管经典方法在特定情境下仍具相关性，但基于AI工具的持续演进为结构生物学提供了变革性潜力。这些进展有望加深我们对生物分子相互作用的理解，并加速治疗干预的设计。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40398752/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40398752/",
+  "paper_page_path": "papers/pubmed/40398752/index.html"
+}

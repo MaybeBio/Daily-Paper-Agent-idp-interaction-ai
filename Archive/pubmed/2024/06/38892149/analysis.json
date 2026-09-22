@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38892149",
+  "title": "Genome-Wide Identification and Expression Analysis of the YTH Domain-Containing RNA-Binding Protein Family in Cinnamomum camphora.",
+  "authors": "Zhang, Jingjing; Yao, Sheng; Cheng, Xiang; Zhao, Yulu; Yu, Wenya; Ren, Xingyue; Ji, Kongshu; Yu, Qiong",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2024-06-19",
+  "window": {
+    "start": "2024-06-17",
+    "end": "2024-06-23"
+  },
+  "score": 3,
+  "one_liner_zh": "该文对樟树YTH结构域RNA结合蛋白家族进行全基因组鉴定与表达分析，虽涉及LLPS预测，但无PPI互作机制研究，且方法为常规生信与实验，缺乏AI/物理模拟建模，与本课题关联较弱。",
+  "abstract": "N(6)-methyladenosine (m(6)A) is one of the most abundant chemical modifications on mRNA in eukaryotes. RNA-binding proteins containing the YT521-B (YTH) domain play crucial roles in post-transcriptional regulation of plant growth, development, and stress response by reading the m(6)A mark. However, the YTH domain-containing RNA-binding protein family has not been studied in a valuable and medicinal tree such as Cinnamomum camphora (C. camphora) yet. In this study, we identified 10 YTH genes in C. camphora, located on eight out of 12 chromosomes. Phylogenetic analysis revealed that these genes can be classified into two major classes, YTHDF (CcDF) and YTHDC (CcDC). Closely related CcYTHs within the same class exhibited a similar distribution of conserved motifs and domain organization, suggesting functional similarities among these closely related CcYTHs. All CcYTH proteins possessed a highly conserved YTH domain, with CcDC1A containing an additional CCCH domain. The liquid-liquid phase separation (LLPS) predictions indicate that CcDC1A, CcDF1A, CcDF1C, CcDF3C, CcDF4C, and CcDF5C may undergo phase transitions. Quantitative expression analysis revealed that tissue-specific expression was observed fo CcYTHs. Notably, there were two genes, CcDF1A and CcDF5C; both exhibited significantly higher expression levels in various tissues than other genes, indicating that the m(6)A-YTH regulatory network in C. camphora might be quite distinct from that in most plants such as Arabidopsis thaliana (A. thaliana) with only one abundant YTH protein. According to the analysis of the up-stream cis-regulatory elements of these YTH genes, these genes could be closely related to stress, hormones, and development. The following stress response experiments further verified that their expression levels indeed changed under both PEG and NaCl treatments. These findings not only provide a foundation for future functional analysis of CcYTHs in C. camphora, but also provide insights into the functions of epigenetic mark m(6)A in forest trees.",
+  "abstract_zh": "N(6)-甲基腺苷（m(6)A）是真核生物mRNA上最丰富的化学修饰之一。含有YT521-B（YTH）结构域的RNA结合蛋白通过读取m(6)A标记，在植物生长、发育和胁迫响应的转录后调控中发挥关键作用。然而，在具有重要价值和药用价值的树种如樟树（Cinnamomum camphora）中，含有YTH结构域的RNA结合蛋白家族尚未被研究。在本研究中，我们在樟树中鉴定出10个YTH基因，它们分布在12条染色体中的8条上。系统发育分析显示，这些基因可分为两大类：YTHDF（CcDF）和YTHDC（CcDC）。同一类中亲缘关系较近的CcYTHs表现出相似的保守基序分布和结构域组织，表明这些亲缘关系较近的CcYTHs之间可能存在功能相似性。所有CcYTH蛋白均含有一个高度保守的YTH结构域，其中CcDC1A还包含一个额外的CCCH结构域。液-液相分离（LLPS）预测表明，CcDC1A、CcDF1A、CcDF1C、CcDF3C、CcDF4C和CcDF5C可能发生相变。定量表达分析显示，CcYTHs表现出组织特异性表达。值得注意的是，有两个基因CcDF1A和CcDF5C，它们在多种组织中的表达水平均显著高于其他基因，表明樟树中的m(6)A-YTH调控网络可能与大多数植物（如拟南芥（Arabidopsis thaliana）仅有一个高丰度YTH蛋白）存在显著差异。根据这些YTH基因上游顺式调控元件的分析，这些基因可能与胁迫、激素和发育密切相关。随后的胁迫响应实验进一步验证了在PEG和NaCl处理下，它们的表达水平确实发生变化。这些发现不仅为未来樟树中CcYTHs的功能分析提供了基础，也为表观遗传标记m(6)A在林木中的功能提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38892149/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38892149/",
+  "paper_page_path": "papers/pubmed/38892149/index.html"
+}

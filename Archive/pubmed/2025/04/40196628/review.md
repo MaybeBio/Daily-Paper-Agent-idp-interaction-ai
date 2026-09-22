@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, and claims as presented in the provided text; no external validation performed
+- **Shared manuscript claim summary** The authors use residue-resolution coarse-grained molecular dynamics simulations and graph-theoretic analysis to show that biomolecular condensates formed by prion-like low-complexity domains and binary sticker-spacer sequences exhibit small-world network microstructures. They report that network topology predicts surface tension, that hubs and cliques are spatially segregated and have distinct lifetimes, and that single-molecule conformation and dynamics correlate with network centrality.
+- **Visible evidence base** Figures 1-5 referenced in text; Supplementary Figures S5, S7-S18 referenced; Methods section with simulation and analysis details
+- **Missing materials affecting confidence** Actual figure panels and numerical data not provided; Supplementary Material not provided; exact sequence information for LCDs not shown in the provided text; statistical details and error bars not visible
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially valuable multiscale framework linking sequence, microstructure, and material properties in biomolecular condensates. The combination of molecular simulation with graph-theoretic analysis is timely and the findings, if robust, would be of interest to the condensate community. However, the provided text alone does not allow full verification of the central claims. Several methodological choices require clarification, and the evidence for the key predictive relationship between small-worldness and surface tension is not fully visible in the text provided.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and disordered proteins would be the primary audience. The work also speaks to the broader soft matter and polymer physics communities interested in structure-property relationships in associative polymers. The potential link to condensate aging and interfacial phenomena may attract cell biologists studying condensate function and pathology.
+- **Major strengths** The study addresses an important gap by attempting to connect molecular-level interactions to mesoscale and macroscopic properties. The use of both natural LCD sequences and designed binary variants is a sound approach for testing generality. The graph-theoretic framework is conceptually appealing and could provide a new vocabulary for describing condensate internal organization. The observation that hubs and cliques have distinct spatial and temporal characteristics is intriguing and potentially testable experimentally.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that "network small-worldness predicts droplet surface tension" and that this relationship is demonstrated across LCD and YS condensates.
+  - **Evidence pointer** Figures 1(g-i) and 2(d-f); location not provided
+  - **Concern** The text describes trends between small-worldness and surface tension but does not provide quantitative measures of this relationship. No correlation coefficients, statistical significance values, or quantitative model fits are presented in the text. The claim of prediction implies a quantitative, testable relationship, but the evidence as described appears to be qualitative trend observation.
+  - **Why it matters** The predictive claim is central to the manuscript's thesis that microstructure couples to macroscopic properties. Without quantitative evidence, the strength of this coupling cannot be assessed, and the claim as stated is not supported.
+  - **Resolution test** Provide quantitative correlation analysis between small-world metrics (e.g., omega_sw or sigma_sw) and surface tension values across all sequences, with appropriate statistical measures and ideally a predictive model with cross-validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological robustness
+  - **Claim pointer** The manuscript claims that the graph construction threshold of -5 kBT identifies "long-lived associations" and that the resulting networks represent the condensate microstructure.
+  - **Evidence pointer** Methods section "Construction of interaction graphs"; Figure 2b; location not provided
+  - **Concern** The choice of -5 kBT as the interaction threshold is presented with limited justification. The text states that 33% of interactions are stronger than 5 kBT, but the sensitivity of the network properties to this threshold is not discussed. If network metrics vary substantially with threshold choice, the reported relationships may not be robust.
+  - **Why it matters** The entire graph-theoretic analysis depends on this threshold. Without a sensitivity analysis, it is unclear whether the reported small-world properties and their correlations with physical quantities are robust features or artifacts of the specific threshold chosen.
+  - **Resolution test** Perform a systematic threshold sweep (e.g., from -2 to -10 kBT) and show that the key findings (small-world topology, hub/clique spatial segregation, correlations with surface tension and conformation) are qualitatively unchanged across a reasonable range.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretational clarity
+  - **Claim pointer** The manuscript states that "cliques localize near interfaces without a secondary phase transition, suggesting a role in mediating molecular partitioning and condensate aging by tuning interfacial material properties."
+  - **Evidence pointer** Figure 3; location not provided
+  - **Concern** The mechanistic link between interfacial cliques and condensate aging is speculative. The text does not provide simulation evidence for aging behavior (e.g., changes in dynamics or structure over time) or for how cliques would tune interfacial properties in a way that promotes aging. The connection to experimental observations of nanoscale clustering is noted but not developed mechanistically.
+  - **Why it matters** The aging claim is potentially significant for the biological relevance of the work, but as presented it is an unsupported extrapolation. Overstating this connection could mislead readers about the direct implications of the findings.
+  - **Resolution test** Either provide direct simulation evidence linking clique properties to aging (e.g., time-dependent changes in clique structure or dynamics) or temper the claim to reflect that this is a hypothesis requiring further investigation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript claims that findings from four natural LCDs and binary YS variants provide "general principles for designing and interpreting condensates with complex internal organization and material properties."
+  - **Evidence pointer** Figures 1-5; location not provided
+  - **Concern** The study examines a limited set of sequences, all of which are prion-like or simplified binary models. The claim of general principles may be premature given the narrow sequence space explored. Other classes of LCDs, sequences with charged residues, or systems with RNA or other partners are not considered.
+  - **Why it matters** The stated generality of the conclusions is a key part of the manuscript's significance. If the findings are specific to the sequence classes studied, the broader impact is reduced.
+  - **Resolution test** Acknowledge the limited sequence space explicitly and frame the findings as applicable to prion-like and sticker-spacer systems, or add simulations of additional sequence classes to support the generality claim.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of blockiness
+  - **Evidence pointer** Methods section "LCD and Binary sequences"; location not provided
+  - **Issue** The blockiness parameter f_B is defined, but the text does not clearly explain how the scrambled sequence (S120Y30)scr differs from the blocky variants in terms of f_B values. A table or explicit values would aid interpretation.
+  - **Required correction** Provide f_B values for all sequences in a table or in the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Methods section "Molecular dynamics simulations"; location not provided
+  - **Issue** The text states that NPT simulations are used to accelerate condensate formation but does not specify the system size, number of chains, box dimensions, or equilibration criteria for the production runs.
+  - **Required correction** Add these details to the Methods section to enable reproduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Error estimates
+  - **Evidence pointer** Figures 1-5; location not provided
+  - **Issue** The text does not describe how error bars or confidence intervals were computed for the reported quantities (surface tension, network metrics, Rg, etc.).
+  - **Required correction** State the number of independent simulations or blocks used for error estimation and how uncertainties were propagated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "small-world"
+  - **Evidence pointer** Results section "Small-world connectivity in LCD and YS condensates predicts surface tension"; location not provided
+  - **Issue** The term "small-world" is used descriptively, but the manuscript does not report the full set of network metrics typically used to establish small-world topology (e.g., characteristic path length vs. random graph, clustering coefficient vs. random graph, degree distribution).
+  - **Required correction** Report the relevant network statistics explicitly and compare to appropriate null models.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion of prior work
+  - **Evidence pointer** Discussion section; location not provided
+  - **Issue** The discussion references lattice simulations and experimental observations but does not critically compare the present findings with alternative theoretical frameworks for condensate internal structure, such as percolation theory or random field models.
+  - **Required correction** Add a brief comparison with alternative frameworks to contextualize the novelty of the graph-theoretic approach.
+
+## Risk / unsupported claims
+- The claim that "network small-worldness predicts droplet surface tension" is not quantitatively supported in the provided text; only qualitative trends are described.
+- The suggestion that interfacial cliques mediate condensate aging is speculative and not directly supported by simulation evidence presented.
+- The claim of "general principles" for condensate design may be overstated given the limited sequence space explored.
+- The relationship between network centrality and single-molecule dynamics (Figure 5) is described as a power law, but the text does not provide the fitted exponents, goodness-of-fit values, or comparison across sequences, making the claim difficult to evaluate.
+- The assertion that the -5 kBT threshold captures "long-lived associations" is not supported by any temporal analysis of interaction persistence.
+- The statement that findings are "consistent with" experimental observations of nanoscale clustering is made without quantitative comparison or discussion of potential discrepancies.

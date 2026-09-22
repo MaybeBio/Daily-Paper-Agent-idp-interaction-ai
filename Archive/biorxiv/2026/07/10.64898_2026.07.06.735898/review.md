@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure descriptions
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretive logic as presented in the provided text. No external literature verification performed.
+- **Shared manuscript claim summary** The authors use Martini 3.0 coarse-grained molecular dynamics simulations to show that RGG protein condensates tethered to opposing leaflets of a POPC bilayer exhibit stable coupled diffusion. They report that increasing protein-protein interaction strength (α = 1.00) leads to decoupling, which they attribute to competing membrane curvatures. Applying membrane tension suppresses curvature and rescues coupling. They further report reduced lipid entropy and diffusion in condensate-covered regions, but no transfer of these effects to the opposing leaflet. Instead, they observe increased lipid tail interdigitation beneath condensates and propose this as the primary mechanism driving transbilayer coupling.
+- **Visible evidence base** Figures 1-6 described in text; Supplementary Figures 1-4 described in text; Methods section; no raw data, simulation parameter files, or analysis scripts provided in the submitted material
+- **Missing materials affecting confidence** Simulation parameter files referenced as available in SI but not provided; no trajectory data; no convergence analysis; no error analysis methodology for entropy calculations beyond standard deviation; no force field validation data; no control simulations without tethers; no atomistic validation
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and timely question in membrane biophysics: the molecular mechanism of transbilayer coupling between protein condensates. The simulation setup is reasonable and the observation of coupled diffusion is a useful contribution. However, the central mechanistic claim, that lipid tail interdigitation is the primary driver of coupling, is not convincingly established from the data presented. The evidence for interdigitation is correlative, the magnitude of the effect is small relative to measurement uncertainty, and alternative explanations are not adequately excluded. The entropy analysis is well-executed in principle but the interpretation is incomplete. The manuscript would benefit from more direct tests of the proposed mechanism and a more careful treatment of statistical and methodological limitations.
+- **Who would be interested in the results, and why** Researchers in membrane biophysics, phase separation biology, and coarse-grained simulation methodology. The work speaks to the growing interest in how condensates communicate across membranes without transmembrane proteins, which is relevant to signaling, trafficking, and organelle biology. The methodological approach, using Martini simulations with scaled protein-protein interactions, will be of interest to the simulation community.
+- **Major strengths** The study addresses a mechanistically unresolved question with a tractable simulation model. The use of multiple repeat simulations and multiple interaction strength conditions is commendable. The entropy analysis using the quasi-harmonic approximation is a thoughtful approach. The authors are appropriately cautious in some interpretations and acknowledge limitations of the coarse-grained model. The writing is clear and the figures are well described.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic claim support
+  - **Claim pointer** "We propose that enhanced lipid interdigitation mediates interleaflet communication and serves as the primary mechanism driving transbilayer coupling of condensates in this system."
+  - **Evidence pointer** Figure 6C-6E; Supplementary Figure 4
+  - **Concern** The central claim that interdigitation is the primary mechanism is not supported by direct evidence. The data show a correlation between coupling and increased interdigitation, but no causal link is established. The authors do not demonstrate that disrupting interdigitation abolishes coupling, nor do they show that enhancing interdigitation promotes coupling in a decoupled system. The observed increase in interdigitation (34% in coupled vs. protein-free) is modest and the difference between coupled and single-sided systems is only 6%, which the authors themselves note is small relative to the magnitude of the measurements. This is insufficient to support a "primary mechanism" claim.
+  - **Why it matters** The manuscript's main contribution is the proposed mechanism. Without direct causal evidence, the conclusion is speculative and the work does not advance understanding beyond the phenomenological observation of coupling.
+  - **Resolution test** Provide simulations where interdigitation is suppressed (e.g., via lipid tail modifications or cholesterol addition) and show that coupling is lost. Alternatively, demonstrate that interdigitation correlates with coupling strength across a range of conditions in a dose-dependent manner. A free energy decomposition showing the energetic contribution of interdigitation to the coupled state would also strengthen the claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Alternative mechanism exclusion
+  - **Claim pointer** "Entropy was reduced for lipids in direct contact with the proteins but there was no effect on the opposing leaflet" and "these data did not support the hypothesis of an entropic loss for mirrored lipids that could be recovered through coupling"
+  - **Evidence pointer** Figure 5; location not provided for statistical test details
+  - **Concern** The authors rule out the entropic mechanism proposed in prior work, but they do not adequately consider other possible mechanisms for coupling. For example, the constant-force tethering used in the simulations may itself impose a coupling that is not representative of the experimental system. The authors do not test whether the tethering method influences the observed coupling. Additionally, the possibility of collective membrane fluctuations or lipid-mediated elastic interactions is mentioned but not quantitatively evaluated. The conclusion that interdigitation is the mechanism is reached partly by elimination, but the elimination is incomplete.
+  - **Why it matters** If the tethering method or another unexamined factor drives coupling, the proposed mechanism would be an artifact of the simulation setup rather than a general physical principle.
+  - **Resolution test** Perform control simulations with different tethering schemes (e.g., weaker tethers, tethers to different residues, or no tethers with condensates allowed to adsorb). Quantitatively evaluate the contribution of membrane elastic energy to the coupled state. Compare the free energy of coupling in systems with and without interdigitation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical and methodological rigor
+  - **Claim pointer** "We found that although the two lipid populations were statistically distinguishable, their mean internal entropies differed by less than 1 J/mol*K" and "the apparent statistical significance arose primarily from the large sample size (n > 900 per group)"
+  - **Evidence pointer** Figure 5D; Methods section "Calculation of quasi-harmonic lipid entropy"
+  - **Concern** The authors correctly identify that statistical significance does not imply physical significance for the internal entropy comparison, but they do not apply the same scrutiny to the interdigitation measurements. The interdigitation differences between coupled and single-sided systems are described as "statistically significant" but the effect size is small. No effect size or confidence interval is reported. Additionally, the quasi-harmonic entropy method has known limitations for highly anharmonic systems, and the authors do not discuss whether this applies to their lipid simulations. The choice of a 2 nm radius for lipid selection is not justified, and the sensitivity of results to this parameter is not tested.
+  - **Why it matters** The manuscript's conclusions rest on quantitative comparisons of small effects. Without proper effect size reporting and robustness analysis, the reader cannot assess whether the observed differences are meaningful.
+  - **Resolution test** Report effect sizes (e.g., Cohen's d) and confidence intervals for all key comparisons. Test the sensitivity of entropy and interdigitation results to the selection radius (e.g., 1.5 nm, 2.5 nm, 3 nm). Discuss the applicability of the quasi-harmonic approximation to the simulated system and, if possible, compare with an alternative entropy estimation method.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** "Simulation parameter files are available in the SI" and "Details for membrane and condensate generation, minimization, equilibration, and production simulations are further described in methods"
+  - **Evidence pointer** Methods section; Supplementary information
+  - **Concern** The methods section is not sufficiently detailed to reproduce the simulations. Key parameters are missing, including the specific Martini 3.0 parameter files used, the exact tethering force constant and implementation, the equilibration protocol, the number of ions and their concentration, and the criteria for defining condensate membership. The scaling factor α is described but the implementation details (which interactions are scaled, how the scaling is applied in GROMACS) are not fully specified. The supplementary figures are referenced but not provided in the submitted material.
+  - **Why it matters** Reproducibility is a core requirement for simulation studies. Without complete methodological details, the work cannot be independently verified or built upon.
+  - **Resolution test** Provide complete simulation parameter files, initial coordinate files, and analysis scripts. Specify all force field modifications and scaling implementations. Provide a detailed step-by-step protocol for system preparation and simulation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1C description
+  - **Evidence pointer** "The average distance converged to ∼3 nm"
+  - **Issue** The text states the average distance converged to approximately 3 nm, but it is unclear whether this is the centroid-to-centroid distance in the xy plane or the full 3D distance. The methods section later clarifies that xy in-plane distance was used, but this is not stated in the results.
+  - **Required correction** Specify in the results section that the distance refers to the in-plane (xy) centroid-to-centroid distance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 5 and Supplementary Figure 4
+  - **Evidence pointer** "Error bars show std dev"
+  - **Issue** The use of standard deviation for error bars is appropriate for describing variability, but for comparisons between conditions, confidence intervals or standard error of the mean would be more informative. Additionally, the number of independent samples (e.g., number of lipids, number of trajectory frames) is not consistently reported.
+  - **Required correction** Report the number of independent samples for each analysis and consider presenting confidence intervals for key comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "interdigitation" definition
+  - **Evidence pointer** Figure 6C-6E
+  - **Issue** The term "interdigitation" is used to describe overlap of lipid tail distributions between leaflets, but the specific metric (overlap fraction of fitted Gaussian distributions) is only described in the results. A formal definition in the methods section would improve clarity.
+  - **Required correction** Add a formal definition of the interdigitation metric in the Methods section, including the fitting procedure and the integration limits.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** References 26, 27
+  - **Issue** The introduction cites prior work on transbilayer coupling but does not clearly distinguish what is known from what is unknown. The discussion of the prior entropic hypothesis (reference 26) is clear, but other proposed mechanisms are not mentioned.
+  - **Required correction** Briefly mention alternative proposed mechanisms for transbilayer coupling in the introduction or discussion to provide a more complete context.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 1A and Supplementary Figure 1A
+  - **Evidence pointer** "Figure 1A and Supplemental Figure 1A, first panel"
+  - **Issue** The initial configuration is described as having partial overlap, but the degree of overlap is not quantified. A quantitative description of the initial conditions would help the reader understand the starting state.
+  - **Required correction** Report the initial percent overlap for each simulation condition.
+- **Technical failings that need to be addressed before the case is established** The causal link between interdigitation and coupling is not established (R1-M1). Alternative mechanisms, including potential artifacts of the tethering method, are not excluded (R1-M2). Statistical reporting is insufficient to assess the robustness of small effect sizes (R1-M3). Methodological details are incomplete for reproduction (R1-M4).
+- **Assessment against Nature-style criteria** Originality: The question of how condensates couple across membranes is timely and the simulation approach is appropriate. However, the proposed mechanism, interdigitation, is not novel in the membrane biophysics literature, and the manuscript does not clearly articulate what is new beyond applying this concept to condensates. Scientific importance: The topic is important for understanding membrane-associated phase separation, but the manuscript does not convincingly establish a generalizable mechanism. The small effect sizes and limited system scope (one lipid type, one protein) limit the generality of the conclusions. Interdisciplinary readership: The work is likely to interest both biophysicists and cell biologists, but the presentation assumes significant simulation expertise. Technical soundness: The simulation methodology is generally sound, but the analysis and interpretation have gaps as detailed above. Readability for nonspecialists: The abstract is accessible, but the results section is dense and would benefit from clearer framing of the key question and findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an interesting question and the simulation setup is reasonable, but the central mechanistic claim requires substantially stronger evidence. The authors should either provide direct causal tests of the interdigitation mechanism or temper their conclusions to reflect the correlative nature of the evidence.

@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to figures, methods, or supplementary materials
+- **Shared manuscript claim summary** The authors report that altering anchor geometry converts the DocG:CohE adhesion complex from a slip bond into a catch bond under force, as measured by AFM single-molecule force spectroscopy across five anchor geometries. A kinetic Monte Carlo model with experimentally derived parameters reproduces rupture force and lifetime distributions. Single-molecule FRET indicates no dual binding mode at equilibrium but multiple unbinding pathways under force. The authors conclude that mechanical anisotropy and anchor point selection enable engineering of artificial catch bonds.
+- **Visible evidence base** AFM force spectroscopy data across five anchor geometries; kinetic Monte Carlo simulations; single-molecule FRET measurements
+- **Missing materials affecting confidence** Full methods, force spectroscopy curves, simulation details, FRET data, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to engineering catch bonds through anchor geometry, which could have broad relevance in mechanobiology and protein engineering. However, the evidence as summarized is insufficient to fully establish the central claim. The key observation, that one specific pulling geometry produces a two-state catch bond while others produce slip bonds, is stated without quantitative support. The simulation and FRET results are mentioned but not described in sufficient detail to assess their validity or interpretative weight. The claim of engineering artificial catch bonds is plausible but not fully supported from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in mechanobiology, single-molecule biophysics, and protein engineering would be interested. The work addresses fundamental questions about how force direction and anchor geometry modulate bond lifetime, with potential implications for designing force-responsive biomaterials and understanding bacterial adhesion mechanisms.
+- **Major strengths** The use of multiple anchor geometries to systematically probe mechanical anisotropy is a rigorous experimental design. Combining AFM force spectroscopy with kinetic Monte Carlo modeling and single-molecule FRET provides a multi-pronged approach. The finding that a non-native anchor geometry can convert slip to catch behavior is conceptually novel and potentially impactful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the complex behaves as a two-state catch bond when tension is applied through residue #13 on CohE and the N-terminus of DocG
+  - **Evidence pointer** AFM single-molecule force spectroscopy, location not provided
+  - **Concern** The abstract states that one pulling geometry yields a two-state catch bond, but no quantitative data are provided, such as lifetime versus force curves, rupture force distributions, or statistical comparisons across geometries. The distinction between catch and slip behavior is central to the paper, yet the evidence is only described qualitatively.
+  - **Why it matters** Without quantitative force spectroscopy data, the reader cannot evaluate whether the observed catch bond behavior is statistically robust, reproducible, or distinct from slip bond behavior. This is the foundational claim on which the entire manuscript rests.
+  - **Resolution test** Provide representative force spectroscopy curves, lifetime versus force plots, and statistical tests comparing catch versus slip behavior across the five anchor geometries.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The kinetic Monte Carlo model with experimentally derived parameters achieves strong agreement with experiments
+  - **Evidence pointer** Kinetic Monte Carlo model, location not provided
+  - **Concern** The abstract states that the model achieves strong agreement with experiments, but no metrics of agreement are given, such as goodness-of-fit values, confidence intervals, or comparisons of predicted versus measured distributions. The phrase "strong agreement" is subjective and cannot be assessed.
+  - **Why it matters** The model is used to support the mechanistic interpretation of catch bond behavior. Without quantitative validation metrics, the model's predictive power and the robustness of the inferred parameters remain unclear.
+  - **Resolution test** Provide quantitative agreement metrics, such as chi-squared values, root-mean-square deviations, or Bayesian information criteria, along with parameter uncertainty estimates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive consistency
+  - **Claim pointer** The complex does not exhibit dual binding mode behavior at equilibrium but unbinds along multiple pathways under force
+  - **Evidence pointer** Single-molecule FRET measurements, location not provided
+  - **Concern** The FRET results are described in a single sentence. It is unclear how the absence of dual binding modes at equilibrium relates to the observation of multiple unbinding pathways under force, and how this supports the catch bond mechanism. The logical connection between these observations and the central claim is not articulated.
+  - **Why it matters** The FRET data appear to be used to rule out an alternative explanation for the catch bond behavior. Without a clear explanation of how these results inform the mechanism, their contribution to the overall argument is unclear.
+  - **Resolution test** Clarify the mechanistic link between the FRET observations and the catch bond model, and provide representative FRET traces or histograms with quantitative analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "two-state catch bond" is used without definition. It is unclear whether this refers to a specific kinetic scheme or a general description of catch bond behavior.
+  - **Required correction** Define "two-state catch bond" in the context of the kinetic model and explain how it differs from other catch bond descriptions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental details
+  - **Evidence pointer** AFM force spectroscopy, location not provided
+  - **Issue** The abstract does not specify the range of pulling forces or loading rates used in the AFM experiments, which are critical for interpreting catch bond behavior.
+  - **Required correction** Include the force range and loading rates in the abstract or refer to methods where these are specified.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Statistical reporting
+  - **Evidence pointer** All experimental results, location not provided
+  - **Issue** No sample sizes, error bars, or statistical significance values are reported in the abstract.
+  - **Required correction** Add key statistical details, such as number of measurements and p-values or confidence intervals, for the main findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central claim of catch bond behavior and the model validation both require quantitative evidence that is not present in the abstract. R1-M3 is non-blocking but requires clarification.
+- **Assessment against Nature-style criteria** Originality is high, as the concept of engineering catch bonds through anchor geometry appears novel. Scientific importance is potentially high, given the relevance to mechanobiology and protein design. Interdisciplinary readership is plausible, as the work bridges biophysics, protein engineering, and microbiology. Technical soundness cannot be fully assessed from the abstract, as key quantitative data are missing. Readability for nonspecialists is adequate, though the abstract assumes familiarity with catch bond concepts and single-molecule techniques.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the experimental design is thoughtful, but the abstract does not provide sufficient quantitative support for the central claims. A revised version with full data presentation could change this assessment.
+
+## Risk / unsupported claims
+- The claim that the complex behaves as a two-state catch bond under one specific anchor geometry is unsupported without quantitative force spectroscopy data.
+- The claim of strong agreement between the kinetic Monte Carlo model and experiments is unsupported without quantitative validation metrics.
+- The claim that mechanical anisotropy and anchor point selection can be used to engineer artificial catch bonds is a reasonable extrapolation but is not fully established from the abstract alone.
+- The FRET-based claim regarding the absence of dual binding modes and the presence of multiple unbinding pathways under force is not assessable without data.

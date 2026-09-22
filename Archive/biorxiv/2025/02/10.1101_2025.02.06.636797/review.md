@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, background, methods, results, discussion, and conclusions. Figures and supplementary materials referenced but not fully provided.
+- **Assessment boundary** Assessment is limited to the scientific content, experimental design, data interpretation, and claims as presented in the provided text. No external validation of data or methods was performed.
+- **Shared manuscript claim summary** The manuscript reports the first biophysical characterization of full-length TCF4 isoform I, demonstrating that it is an intrinsically disordered protein (IDP) with approximately 90% disorder, that it binds E-box DNA with submicromolar affinity, and that DNA binding does not significantly alter its overall disordered conformation but does affect its thermal stability.
+- **Visible evidence base** The evidence base includes in silico predictions (PONDR, IUPred3, NetSurfP-2.0, PSIPRED, DynaMine, ColabFold/AlphaFold2), HDX-MS data, fluorescence polarization (FP), electrophoretic mobility shift assay (EMSA), fluorescence correlation spectroscopy (FCS), size-exclusion chromatography (SEC), native PAGE, sedimentation-velocity analytical ultracentrifugation (SV-AUC), circular dichroism (CD) spectroscopy, and thermal shift assays. Figures and supplementary data are referenced but not fully visible in the provided text.
+- **Missing materials affecting confidence** Full figures, supplementary data, detailed statistical analyses, raw HDX-MS data, and complete experimental parameters (e.g., buffer conditions for each assay, replicates, and error analysis) are not provided. This limits the ability to fully assess the robustness of the quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant gap in the understanding of TCF4, a key transcription factor implicated in neurodevelopmental disorders. The authors provide a comprehensive biophysical characterization of the full-length protein, which is a substantial and technically challenging undertaking. The finding that TCF4 is largely disordered, with only the bHLH domain folded, and that DNA binding does not globally alter its conformation, is novel and of considerable interest to the fields of transcription regulation and intrinsically disordered proteins. However, the manuscript has several technical and interpretational issues that need to be addressed. The claim that TCF4 acts as a "hub" transcription factor is largely speculative and not directly tested. The quantitative agreement between the different binding assays is presented as "semiquantitative," which is a weakness. The HDX-MS data, while promising, are not presented in sufficient detail to fully evaluate the conformational claims. The discussion of the functional implications of the observed stability changes is speculative. Overall, the work is potentially important, but the current presentation does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers studying transcription factor structure and function, particularly those focused on the bHLH family and E-proteins. The work is also highly relevant to the intrinsically disordered protein (IDP) community, as it provides a detailed analysis of a large, biologically important IDP. Additionally, those interested in the molecular basis of neurodevelopmental disorders such as Pitt-Hopkins syndrome and schizophrenia, where TCF4 is a key player, would find this study valuable. The methodological approaches, particularly the combination of HDX-MS with other biophysical techniques, will be of interest to biochemists and biophysicists.
+- **Major strengths** 1. The study addresses a clear gap in knowledge by characterizing the full-length TCF4 protein, which has not been done before. 2. The use of multiple orthogonal biophysical techniques (HDX-MS, AUC, SEC, CD, thermal shift) to characterize the protein is a major strength. 3. The finding that TCF4 is a large, mostly disordered protein is novel and important. 4. The observation that DNA binding does not induce global folding of the IDRs is a significant and non-obvious result. 5. The work has potential implications for understanding how TCF4 mutations outside the bHLH domain might contribute to disease.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that TCF4 is "almost entirely disordered except for the canonical bHLH domain" based on HDX-MS data.
+  - **Evidence pointer** Section 5.3, Figure 4
+  - **Concern** The HDX-MS data are presented as a key piece of evidence for the disorder claim, but the level of detail is insufficient. The authors state that "the entire sequence, except for the region covering the bHLH domain (residues 360–405) is characterized by efficient, almost total H/D exchange after 10 s." However, the resolution of the HDX-MS data is not clear. Peptide-level resolution can be coarse, and it is possible that short, structured elements within the "disordered" regions are missed. The authors need to provide a more detailed analysis, including the number of peptides identified, their length, and the coverage map. Furthermore, the claim of "almost total" exchange needs to be quantified. What is the percentage of exchange? The error bars are mentioned but the magnitude of the differences between the free and bound states is not clearly shown. The statement that the bHLH domain is "well-ordered" is also based on the HDX-MS data, but the authors also cite crystal structures. The HDX-MS data for the bHLH domain should be shown in detail to support this claim.
+  - **Why it matters** The central claim of the paper is that TCF4 is an IDP. If the HDX-MS data are not robust or are over-interpreted, the entire premise of the paper is weakened. The resolution and quantification of the HDX-MS data are critical for supporting the conclusion that the protein is largely disordered.
+  - **Resolution test** The authors should provide a full HDX-MS coverage map, a plot of deuterium uptake for all identified peptides at all time points, and a clear statistical analysis of the differences between the free and bound states. They should also provide a more quantitative definition of "disorder" based on their HDX-MS data (e.g., a threshold for percentage exchange).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the K D values for TCF4 binding to E-box DNA are "semiquantitatively concordant" across three methods (FP, EMSA, FCS).
+  - **Evidence pointer** Section 5.2, Table 1, Figures 2 and 3
+  - **Concern** The K D values obtained from the three methods are 0.12 ± 0.03 μM (FP), 0.327 ± 0.014 μM (EMSA), and 0.33 ± 0.11 μM (FCS). The FP value is approximately 2.5-fold lower than the other two. The authors dismiss this as "semiquantitatively concordant," but this is a significant discrepancy. The reasons for this difference are not adequately discussed. The FP assay is a solution-based method, while EMSA is a gel-based method that can be affected by the "cage effect" and the stability of the complex during electrophoresis. FCS is also a solution-based method, but it is sensitive to the hydrodynamic properties of the complex. The authors should discuss these potential sources of discrepancy in more detail. The fact that the FP value is used to calculate the amount of DNA for subsequent experiments (Section 5.3) introduces a potential systematic error into those experiments.
+  - **Why it matters** The binding affinity is a key quantitative claim of the paper. A 2.5-fold discrepancy between methods is not trivial and suggests that the true affinity may be different from what is reported. This also raises questions about the rigor of the quantitative analysis.
+  - **Resolution test** The authors should provide a more detailed discussion of the potential reasons for the discrepancy between the methods. They should also consider performing a global analysis of the binding data or using an additional method (e.g., isothermal titration calorimetry) to resolve the issue. The choice of the FP-derived K D for calculating DNA amounts in subsequent experiments should be justified.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript proposes that TCF4 acts as a "hub" transcription factor, with the IDRs acting as a "flexible platform for multiple interactions with other transcription-related proteins."
+  - **Evidence pointer** Section 6 (Discussion), Section 7 (Conclusions)
+  - **Concern** The "hub" hypothesis is a central part of the paper's framing and conclusions, but it is not directly tested by any experiment. The authors show that TCF4 is disordered and that DNA binding does not change its global conformation. However, they do not provide any evidence that the IDRs are involved in protein-protein interactions, nor do they demonstrate that TCF4 acts as a hub in a cellular context. The discussion of the "hub" function is speculative and goes beyond the data presented.
+  - **Why it matters** The claim of "hub" function is a major part of the paper's significance. If it is not supported by data, the paper's impact is reduced. The authors should either provide direct evidence for the hub function or temper their conclusions.
+  - **Resolution test** The authors should either (a) perform experiments to test the hub function, such as identifying interaction partners of the IDRs, or (b) revise the discussion and conclusions to clearly state that the hub function is a hypothesis that remains to be tested.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that DNA binding "influences the stability of the TCF4 molecule" based on thermal shift assays and CD spectroscopy.
+  - **Evidence pointer** Section 5.5, Figure 8
+  - **Concern** The thermal shift assay data for the free form of TCF4 are unusual. The authors state that "for free TCF4, the fluorescence was high from the beginning of the heating process, and then, its value increased only slightly." This suggests that the free protein is already in a state where its hydrophobic residues are exposed, which is consistent with a molten-globule or disordered state. However, the authors then derive a melting temperature of approximately 50 °C for the free form. It is not clear how a reliable melting temperature can be derived from a curve that lacks a clear transition. The CD spectroscopy data show a reversible transition for the free form, which is also unusual for a protein. The authors should provide a more detailed analysis of these data and discuss the implications of the unusual behavior of the free form.
+  - **Why it matters** The stability data are used to support the claim that DNA binding has a functional effect on TCF4. If the data are not robust, this claim is weakened.
+  - **Resolution test** The authors should provide the raw thermal shift curves and a more detailed analysis of how the melting temperatures were determined. They should also discuss the unusual behavior of the free form in more detail and consider whether the observed effects are due to the DNA binding or to other factors (e.g., changes in ionic strength).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Section 1 (Abstract), Section 3 (Background)
+  - **Issue** The abstract and introduction are dense and assume a high level of familiarity with the IDP field and the specific terminology used (e.g., "hub transcription factor," "IDRs"). The significance of the work for a broader audience could be enhanced by a more accessible explanation of why the disordered nature of TCF4 is important.
+  - **Required correction** Consider adding a sentence or two in the abstract and introduction that explains, in simple terms, what it means for a protein to be intrinsically disordered and why this property is relevant to transcription factor function and disease.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Section 4.7
+  - **Issue** The description of the binding assays is incomplete. The exact buffer conditions for each assay are not fully specified, and the details of the FCS analysis (e.g., how the diffusion time was converted to a K D ) are not provided.
+  - **Required correction** Provide a more detailed description of the experimental conditions for each binding assay, including buffer composition, temperature, and the model used for data analysis.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results
+  - **Evidence pointer** Section 5.4, Figure 6
+  - **Concern** The SV-AUC data are presented as showing that TCF4 is a dimer, but the analysis is not described in detail. The c(f/f0) model is used, but the authors do not explain how the f/f0 value was determined or how the molecular weight was estimated.
+  - **Required correction** Provide a more detailed description of the SV-AUC data analysis, including how the f/f0 value was determined and how the molecular weight was estimated from the sedimentation coefficient.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 6
+  - **Issue** The discussion of the functional implications of the stability changes is speculative and not well-connected to the broader literature on TCF4 function.
+  - **Required correction** Consider revising the discussion to more clearly distinguish between what is directly supported by the data and what is speculative. The potential link between the observed stability changes and TCF4 function could be discussed in the context of specific, testable hypotheses.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results
+  - **Evidence pointer** Section 5.3, Table 2
+  - **Concern** The HDX-MS data are presented as showing protection of specific peptides upon DNA binding, but the quantitative differences are not shown. The authors state that "the residues 352–359 (ANNARERL) preceding the canonical HLH domain are protected from the immediate HDX while the protein is bound to a specific DNA sequence." It is not clear how much protection is observed.
+  - **Required correction** Provide a quantitative measure of the protection (e.g., the difference in percentage deuterium uptake between the free and bound states) for the peptides of interest.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of detail in the presentation of the HDX-MS data, which is central to the main claim of the paper. The resolution of the data, the quantification of the exchange, and the statistical analysis of the differences between the free and bound states are not adequately described. The discrepancy in K D values between the binding assays is also a concern that needs to be addressed. The unusual behavior of the free form in the thermal shift assay needs to be explained.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in that it provides the first biophysical characterization of full-length TCF4. This is a significant contribution, as previous studies have focused on isolated domains.
+  - **Scientific importance** The findings are important for understanding the structure and function of a key transcription factor. The demonstration that TCF4 is a large IDP has implications for how it interacts with DNA and other proteins. However, the importance is somewhat diminished by the lack of direct testing of the "hub" hypothesis.
+  - **Interdisciplinary readership** The work will be of interest to researchers in structural biology, biophysics, and transcription regulation. The use of multiple biophysical techniques makes it relevant to a broad audience.
+  - **Technical soundness** The technical soundness is currently not fully established due to the lack of detail in the presentation of the HDX-MS data and the discrepancy in the binding assays.
+  - **Readability for nonspecialists** The manuscript is written for a specialist audience and may be challenging for nonspecialists to follow. The significance of the work could be better communicated.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents novel data. However, the central claims are not fully supported by the evidence as presented. The authors need to provide a more detailed and rigorous analysis of their data, particularly the HDX-MS data, and address the discrepancy in the binding assays. The "hub" hypothesis should be either tested or presented more cautiously.
+
+## Risk / unsupported claims
+- The claim that TCF4 is "one of the largest intrinsically disordered proteins (IDPs) described to date" is not directly supported by the data presented. The size comparison is not quantified, and no reference is given for the size of other known IDPs.
+- The claim that the "hub" function of TCF4 is enabled by its IDRs is speculative and not supported by any direct experimental evidence.
+- The claim that the irreversibility of denaturation of the DNA-bound form of TCF4 could be related to a mechanism of activity inhibition is highly speculative and not supported by any data.
+- The claim that the "dual nature" of TCF4's structure explains its involvement in multiple processes is an interpretation that is not directly tested.

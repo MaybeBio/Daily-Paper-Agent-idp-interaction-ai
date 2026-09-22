@@ -1,0 +1,264 @@
+{
+  "identity": {
+    "pmid": "36814642",
+    "doi": "10.3389/fmolb.2023.1151676",
+    "title": "Editorial: From the hydrophobic core to the globular-disorder interface: New challenges and insights into protein design."
+  },
+  "content": {
+    "abstract": "",
+    "keywords": [
+      "disorder transitions in proteins",
+      "disorder-globular interface",
+      "high throughput approach",
+      "intrinsically disordered proteins (IDPs)",
+      "multi-step electron-transfer activity",
+      "mutational scanning",
+      "prediction of protein-protein binding sites of IDPs",
+      "protein design"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Editorial"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Basu, Sankar",
+        "Chakravarty, Devlina",
+        "Hou, Qingzhen",
+        "Uversky, Vladimir N"
+      ],
+      "short_names": [
+        "Basu S",
+        "Chakravarty D",
+        "Hou Q",
+        "Uversky VN"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Microbiology, Asutosh College, University of Calcutta, Kolkata, India.",
+        "National Library of Medicine, National Center for Biotechnology Information, National Institutes of Health, Bethesda, MD, United States.",
+        "Department of Biostatistics, School of Public Health, Cheeloo College of Medicine, Shandong University, Jinan, Shandong, China.",
+        "Department of Molecular Medicine, USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Basu, Sankar",
+        "short_name": "Basu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology, Asutosh College, University of Calcutta, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Chakravarty, Devlina",
+        "short_name": "Chakravarty D",
+        "identifiers": [],
+        "affiliations": [
+          "National Library of Medicine, National Center for Biotechnology Information, National Institutes of Health, Bethesda, MD, United States."
+        ]
+      },
+      {
+        "full_name": "Hou, Qingzhen",
+        "short_name": "Hou Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biostatistics, School of Public Health, Cheeloo College of Medicine, Shandong University, Jinan, Shandong, China."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Editorial"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/24 06:00",
+    "fetched_at": "2026-09-20 19:29:20"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36465553",
+      "36371561",
+      "35214759",
+      "35157344",
+      "34265844",
+      "33257889",
+      "32579908",
+      "31906016",
+      "29548979",
+      "29364151",
+      "28516008",
+      "27623012",
+      "23180855",
+      "22735943",
+      "21605466",
+      "15283911",
+      "1570343"
+    ],
+    "similar": [
+      "36814642",
+      "32253236",
+      "23723000",
+      "29307002",
+      "34101805",
+      "34626492",
+      "32823616",
+      "15313629",
+      "28097742",
+      "29548979",
+      "32696395",
+      "28381244",
+      "34656328",
+      "33087759",
+      "26274075",
+      "25496281",
+      "21445877",
+      "23214134",
+      "34545666",
+      "32579908",
+      "35507264",
+      "29262365",
+      "24317797",
+      "34532345",
+      "25611056",
+      "25287424",
+      "35883018",
+      "24098099",
+      "31756456",
+      "27450808",
+      "30909517",
+      "29051952",
+      "18369417",
+      "30813629",
+      "33267368",
+      "35053175",
+      "29341251",
+      "20875082",
+      "32103094",
+      "30730736",
+      "23436397",
+      "36217309",
+      "27004461",
+      "32707418",
+      "29614221",
+      "26513658",
+      "22821530",
+      "26042223",
+      "25974317",
+      "31207240",
+      "23794453",
+      "30471704",
+      "29982297",
+      "21686180",
+      "32429036",
+      "28554553",
+      "26376097",
+      "26879470",
+      "28365882",
+      "26156460",
+      "31707710",
+      "35034725",
+      "29843482",
+      "28493424",
+      "36310204",
+      "32859072",
+      "23170892",
+      "27498593",
+      "33118136",
+      "31709918",
+      "23142500",
+      "30058229",
+      "24178034",
+      "19121309",
+      "31139867",
+      "24532081",
+      "26851279",
+      "30979035",
+      "34527192",
+      "32020911",
+      "26387110",
+      "22721951",
+      "34922214",
+      "32771522"
+    ],
+    "review": [
+      "36814642",
+      "32253236",
+      "29307002",
+      "34101805",
+      "23214134",
+      "34545666",
+      "25287424",
+      "30909517",
+      "30813629",
+      "35053175",
+      "36217309",
+      "27004461",
+      "26042223",
+      "23794453",
+      "29982297",
+      "21686180",
+      "32429036",
+      "28554553",
+      "31707710",
+      "23170892",
+      "31709918",
+      "23142500",
+      "31139867",
+      "24532081",
+      "26851279",
+      "30979035",
+      "32020911",
+      "26387110"
+    ],
+    "pmc": [
+      "9939879"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36814642/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36814642",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2023.1151676",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

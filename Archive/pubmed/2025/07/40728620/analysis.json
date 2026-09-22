@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40728620",
+  "title": "Prediction of Disordered Linear Interacting Peptides with CLIP.",
+  "authors": "Liang, Jiahui; Peng, Zhenling; Kurgan, Lukasz",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2025-07-29",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文介绍基于CLIP的序列预测器，用于预测无序线性互作肽(LIPs)，直接针对IDR介导的PPI结合区域，方法为AI序列预测，虽未深入机制建模，但对象与互作高度契合。",
+  "abstract": "Linear interacting peptides (LIPs) are intrinsically disordered regions in protein sequences that undergo disorder-to-order transition upon binding to a protein or a nucleic acid. The disordered binding regions, such as LIPs, are notoriously difficult to predict from the protein sequences, which motivated the development and release of the sequence-based CLIP predictor. Empirical evaluations show that CLIP generates relatively accurate predictions when compared to a selection of modern alternatives. We summarize the predictive architecture of CLIP, briefly discuss its predictive performance and runtime, and focus on explaining how to use its web server ( http://biomine.cs.vcu.edu/servers/CLIP/ ) and standalone package ( http://yanglab.qd.sdu.edu.cn/download/CLIP/CLIP_20220609.tar.gz ). Additionally, we demonstrate the utility of CLIP-generated results through a case study for the STAM-binding protein.",
+  "abstract_zh": "线性相互作用肽（LIPs）是蛋白质序列中的固有无序区域，在与蛋白质或核酸结合时会发生从无序到有序的转变。诸如LIPs之类的无序结合区域，从蛋白质序列中预测尤为困难，这促使了基于序列的CLIP预测器的开发与发布。实证评估显示，与一系列现代替代方法相比，CLIP能产生相对准确的预测。我们总结了CLIP的预测架构，简要讨论了其预测性能和运行时间，并重点解释了如何使用其网络服务器（ http://biomine.cs.vcu.edu/servers/CLIP/ ）和独立软件包（ http://yanglab.qd.sdu.edu.cn/download/CLIP/CLIP_20220609.tar.gz ）。此外，我们通过STAM结合蛋白的案例研究，展示了CLIP生成结果的实用性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40728620/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40728620/",
+  "paper_page_path": "papers/pubmed/40728620/index.html"
+}

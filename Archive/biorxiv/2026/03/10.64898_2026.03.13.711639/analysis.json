@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.13.711639",
+  "title": "RIBEX: Predicting and Explaining RNA Binding Across Structured and Intrinsically Disordered Regions (IDR)-rich Proteins",
+  "authors": "Firmani S; Steinbauer F; Kasneci G; Marsico A; Horlacher M",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-17",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出多模态框架RIBEX，融合蛋白语言模型与PPI网络拓扑预测RNA结合蛋白，特别关注IDR富集蛋白，并解释IDR相关贡献，但对象为RNA结合而非蛋白-蛋白互作，机制建模深度有限。",
+  "abstract": "<h4>Motivation</h4> RNA-binding proteins (RBPs) regulate post-transcriptional processes, yet many remain undiscovered because RNA-binding activity often occurs outside canonical RNA-binding domains (RBDs), including within intrinsically disordered regions (IDRs) or through protein complexes. Computational methods can help identify novel RBPs, but approaches relying solely on sequence-derived features or ignoring the cellular interaction context are limited in capturing the complexity of RNA-binding behavior. To date, no framework rigorously integrates both sequence information and protein interaction context for RBP prediction. <h4>Results</h4> We introduce RIBEX, a multimodal framework that combines protein language model (pLM) embeddings with protein interactome topology to improve RBP prediction and interpretation. Specifically, we integrate sequence representations with graph-derived positional encodings (PE) from the human STRING protein–protein interaction (PPI) network. PE are computed using Personalized PageRank, reduced with principal component analysis, and fused with pooled sequence embeddings through FiLM conditioning, while Low-Rank Adaptation (LoRA) enables parameter-efficient task adaptation. Across both an annotation-based benchmark and experimental RNA Interactome Capture (RIC) dataset, PE consistently improves predictive performance, indicating that interactome topology provides complementary information beyond sequence features. LoRA adaptation of ESM2-650M further yields larger gains than simply scaling frozen backbone size. RIBEX outperforms state-of-the-art methods such as RBP-TSTL and HydRA, particularly on challenging subsets including proteins lacking canonical RBDs and those enriched in IDRs. For interpretability, we combine sequence-level computational alanine scanning with network-level positional-encoding ablation and inverse-PCA mapping, recovering known RNA-binding domains, IDR-associated contributions, and functional interactome communities linked to RBP predictions.",
+  "abstract_zh": "<h4>动机</h4> RNA结合蛋白（RBPs）调控转录后过程，然而许多RBPs尚未被发现，因为RNA结合活性常发生在经典RNA结合结构域（RBDs）之外，包括内在无序区域（IDRs）内或通过蛋白质复合物实现。计算方法有助于识别新型RBPs，但仅依赖序列衍生特征或忽略细胞相互作用背景的方法在捕捉RNA结合行为的复杂性方面存在局限。迄今为止，尚无框架严格整合序列信息和蛋白质相互作用背景用于RBP预测。<h4>结果</h4> 我们引入RIBEX，一种多模态框架，结合蛋白质语言模型（pLM）嵌入与蛋白质相互作用组拓扑，以改进RBP预测和解释。具体而言，我们将序列表示与来自人类STRING蛋白质-蛋白质相互作用（PPI）网络的图衍生位置编码（PE）相整合。PE通过个性化PageRank计算，经主成分分析降维，并通过FiLM条件化与池化序列嵌入融合，而低秩适应（LoRA）实现参数高效的任务适应。在基于注释的基准和实验性RNA相互作用捕获（RIC）数据集上，PE持续提升预测性能，表明相互作用组拓扑提供了超越序列特征的互补信息。ESM2-650M的LoRA适应进一步带来比单纯扩大冻结骨干规模更大的增益。RIBEX优于现有最先进方法如RBP-TSTL和HydRA，尤其在缺乏经典RBDs及富含IDRs的挑战性子集上表现突出。在可解释性方面，我们结合序列级计算丙氨酸扫描与网络级位置编码消融及逆PCA映射，恢复了已知RNA结合结构域、IDR相关贡献及与RBP预测相关的功能性相互作用组群落。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.13.711639",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.13.711639",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.13.711639/index.html"
+}

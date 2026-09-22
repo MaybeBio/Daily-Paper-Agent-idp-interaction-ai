@@ -1,0 +1,227 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.31.667942",
+  "title": "Intermolecular β-sheet formation guides the interaction between ubiquitin-like modifier FAT10 and adapter protein NUB1L",
+  "doi": "10.1101/2025.07.31.667942",
+  "abstract": "<h4>ABSTRACT</h4> Under inflammatory conditions, the ubiquitin-like modifier FAT10 targets proteins for rapid and irreversible degradation by the 26S proteasome. FAT10 is degraded along with its substrates and in this process, the loose folding of FAT10 and adapter protein NUB1L have long been suspected to play crucial roles. We report here the investigation of the N-domain of FAT10 and its interaction with NUB1L by magic-angle spinning (MAS) NMR spectroscopy. A stretch of residues that is intrinsically disordered when the N-domain of FAT10 is in its ubiquitin-like β-grasp fold, becomes part of a regularly structured loop and an intermolecular β-sheet upon binding to NUB1L. The rest of the N-domain is now disordered, with exception of a series of anchor residues and the N-terminus. We propose that, in preparation of degradation by the proteasome, NUB1L stabilizes N-FAT10 in an unfolded state, acting as a holdase. The ability of FAT10 to interact in folded as well as unfolded form is essential for its role in inflammation-linked proteostasis.",
+  "authors": [
+    "Weiss C",
+    "Overall S",
+    "Catone N",
+    "Barnes AB",
+    "Aichem A",
+    "Mathies G"
+  ],
+  "published_date": "2025-08-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.31.667942",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.31.667942.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1059686",
+    "raw_record": {
+      "id": "PPR1059686",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1059686"
+        ]
+      },
+      "doi": "10.1101/2025.07.31.667942",
+      "title": "Intermolecular β-sheet formation guides the interaction between ubiquitin-like modifier FAT10 and adapter protein NUB1L",
+      "authorString": "Weiss C, Overall S, Catone N, Barnes AB, Aichem A, Mathies G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Weiss C",
+            "lastName": "Weiss",
+            "firstName": "Charlotte",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Overall S",
+            "lastName": "Overall",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Physical Science, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Catone N",
+            "lastName": "Catone",
+            "firstName": "Nicola",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barnes AB",
+            "lastName": "Barnes",
+            "firstName": "Alexander",
+            "initials": "AB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Physical Science, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aichem A",
+            "lastName": "Aichem",
+            "firstName": "Annette",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mathies G",
+            "lastName": "Mathies",
+            "firstName": "Guinevere",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  Under inflammatory conditions, the ubiquitin-like modifier FAT10 targets proteins for rapid and irreversible degradation by the 26S proteasome. FAT10 is degraded along with its substrates and in this process, the loose folding of FAT10 and adapter protein NUB1L have long been suspected to play crucial roles. We report here the investigation of the N-domain of FAT10 and its interaction with NUB1L by magic-angle spinning (MAS) NMR spectroscopy. A stretch of residues that is intrinsically disordered when the N-domain of FAT10 is in its ubiquitin-like β-grasp fold, becomes part of a regularly structured loop and an intermolecular β-sheet upon binding to NUB1L. The rest of the N-domain is now disordered, with exception of a series of anchor residues and the N-terminus. We propose that, in preparation of degradation by the proteasome, NUB1L stabilizes N-FAT10 in an unfolded state, acting as a holdase. The ability of FAT10 to interact in folded as well as unfolded form is essential for its role in inflammation-linked proteostasis.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "201070",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "219514",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/08/02/2025.07.31.667942.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.31.667942"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1059686"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1059686&type=FILE&fileName=EMS207847-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42159595",
+            "reference": "Journal of the American Chemical Society. 2026 Jun;148(21):22219-22231",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207847",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-08-03",
+      "firstPublicationDate": "2025-08-02",
+      "firstIndexDate": "2025-08-04",
+      "fullTextReceivedDate": "2026-04-01",
+      "hasEvaluations": "N"
+    }
+  }
+}

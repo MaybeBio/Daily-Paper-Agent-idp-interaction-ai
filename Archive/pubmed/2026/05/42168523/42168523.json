@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "42168523",
+    "doi": "10.1038/s41598-026-54092-0",
+    "title": "Deciphering the role of tubulin's C-terminal tail in kinesin binding using computational and clustering approaches."
+  },
+  "content": {
+    "abstract": "The C-terminal tails (CTTs) of alphabeta-tubulin heterodimer are intrinsically disordered regions (IDRs) which play critical roles in regulating the processivity and velocity of kinesin walking along microtubule. However, their involvement in the binding process of kinesin to microtubule remains poorly understood. To seek the binding process, a kinesin with high binding ability, KIF7 and its partner microtubule TUBA4A-TUBB8 complex were chosen. They were employed biphasic steered and long-term all-atom molecular dynamic simulation to study the CTTs' conformational changes induced by kinesin recruitment. We propose that the disordered CTTs extend outward to capture the surrounding kinesin. It then gradually transitions into alpha-helical conformation, stabilizing kinesin-microtubule interactions, akin to molecular glue. Further computationally biophysical analyses, including electrostatic analyses and binding free energies, showed that CTTs enhanced the binding affinity between kinesin and microtubule. Additionally, high-occupancy hydrogen bonds were such as arginine 308 in kinesin and glutamine 410 in beta-tubulin when CTTs were present, which contributed to the protein-protein interactions. Our findings provide atomistic insights into the regulatory function of the CTTs in kinesin-microtubule binding process, which may facilitate the development of therapeutic strategies targeting CTTs-mediated interactions.",
+    "keywords": [
+      "C-terminal tail",
+      "Computational modelling and simulation",
+      "Kinesin",
+      "Microtubule"
+    ],
+    "mesh_terms": [
+      "*Kinesins/metabolism/chemistry",
+      "*Tubulin/metabolism/chemistry",
+      "Protein Binding",
+      "Molecular Dynamics Simulation",
+      "Microtubules/metabolism",
+      "Animals",
+      "Hydrogen Bonding",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shen, Ting",
+        "Li, Yuyan",
+        "Li, Yangle",
+        "Zhao, Jingjing",
+        "Ma, Jianxin",
+        "Cheng, Haojie",
+        "Zhang, Jiayi",
+        "Zhou, Meng",
+        "Zheng, Wei",
+        "Hu, Dehua",
+        "Li, Lin",
+        "Liu, Kefu",
+        "Sun, Shengjie"
+      ],
+      "short_names": [
+        "Shen T",
+        "Li Y",
+        "Li Y",
+        "Zhao J",
+        "Ma J",
+        "Cheng H",
+        "Zhang J",
+        "Zhou M",
+        "Zheng W",
+        "Hu D",
+        "Li L",
+        "Liu K",
+        "Sun S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China.",
+        "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China.",
+        "State Key Laboratory of Pathogen and Biosecurity, Academy of Military Medical Sciences, Beijing, 100071, China.",
+        "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China.",
+        "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China.",
+        "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China.",
+        "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China.",
+        "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China.",
+        "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China.",
+        "Center for Medical Genetics, School of Life Sciences, Central South University, Changsha, 410083, China.",
+        "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China.",
+        "Department of Physics, The University of Texas at El Paso, El Paso, TX, 79968, USA.",
+        "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China. liukefu@csu.edu.cn.",
+        "School of Life Sciences, MOE Key Laboratory of Rare Pediatric Diseases & Hunan Key Laboratory of Medical Genetics, Changsha, 410083, Hunan, China. liukefu@csu.edu.cn.",
+        "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shen, Ting",
+        "short_name": "Shen T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yuyan",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China.",
+          "State Key Laboratory of Pathogen and Biosecurity, Academy of Military Medical Sciences, Beijing, 100071, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yangle",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Jingjing",
+        "short_name": "Zhao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Jianxin",
+        "short_name": "Ma J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Haojie",
+        "short_name": "Cheng H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jiayi",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Meng",
+        "short_name": "Zhou M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Wei",
+        "short_name": "Zheng W",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Medical Genetics, School of Life Sciences, Central South University, Changsha, 410083, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Dehua",
+        "short_name": "Hu D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China."
+        ]
+      },
+      {
+        "full_name": "Li, Lin",
+        "short_name": "Li L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, The University of Texas at El Paso, El Paso, TX, 79968, USA."
+        ]
+      },
+      {
+        "full_name": "Liu, Kefu",
+        "short_name": "Liu K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China. liukefu@csu.edu.cn.",
+          "School of Life Sciences, MOE Key Laboratory of Rare Pediatric Diseases & Hunan Key Laboratory of Medical Genetics, Changsha, 410083, Hunan, China. liukefu@csu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Sun, Shengjie",
+        "short_name": "Sun S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Informatic, School of Life Sciences, Central South University, Changsha, 410083, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 May 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/22 00:33",
+    "fetched_at": "2026-09-18 03:25:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41005306",
+      "40956303",
+      "40281262",
+      "40074328",
+      "39872894",
+      "39507380",
+      "39477877",
+      "39394463",
+      "38479245",
+      "37875488",
+      "37600020",
+      "35216151",
+      "33557020",
+      "32107477",
+      "31031197",
+      "30655442",
+      "30185874",
+      "29321670",
+      "28130775",
+      "27976831",
+      "26988596",
+      "26789871",
+      "24633327",
+      "23832629",
+      "22583952",
+      "19851335",
+      "18558852",
+      "18351591",
+      "16222654",
+      "14976555",
+      "11123888",
+      "10733974",
+      "10639132"
+    ],
+    "similar": [
+      "42168523",
+      "40281262",
+      "40074328",
+      "21905119",
+      "30132979",
+      "35216151",
+      "42374736",
+      "14976555",
+      "27541566",
+      "33557020",
+      "29777059",
+      "17993481",
+      "40920139",
+      "32462384",
+      "41662400",
+      "40172259",
+      "30770469",
+      "39688542",
+      "21884976",
+      "41002034",
+      "23434508",
+      "31031197",
+      "36065637",
+      "28701465",
+      "34201478",
+      "20071331",
+      "37499261",
+      "17412962",
+      "26055718",
+      "28685905",
+      "41867850",
+      "10764575",
+      "28300595",
+      "38479245",
+      "18513992",
+      "27503105",
+      "22140358",
+      "21236672",
+      "21910419",
+      "41016033",
+      "37345829",
+      "19186149",
+      "35050657",
+      "40489183",
+      "26488644",
+      "40298806",
+      "24927501",
+      "15175652",
+      "24835459",
+      "40907488",
+      "38956021",
+      "30185874",
+      "19332892",
+      "40617823",
+      "38160255",
+      "25915621",
+      "25537000",
+      "36051882",
+      "10733974",
+      "41075004",
+      "2138610",
+      "25307498",
+      "27046833",
+      "31958056",
+      "9083088",
+      "23872990",
+      "42489236",
+      "8095324",
+      "38170592",
+      "28697331",
+      "15731766",
+      "14659746",
+      "9048948",
+      "41040367",
+      "18829030",
+      "16362723",
+      "42427032",
+      "20224548",
+      "17976515",
+      "20818331",
+      "16929184",
+      "17124495",
+      "31589786",
+      "21307100",
+      "11864572",
+      "35173049",
+      "26009873",
+      "18294653",
+      "20547877",
+      "25418105",
+      "41912506",
+      "10639132",
+      "22403406",
+      "33484719",
+      "22650362",
+      "32084356",
+      "30770434",
+      "14662742",
+      "24257625",
+      "29980677"
+    ],
+    "review": [
+      "42168523",
+      "25307498"
+    ],
+    "pmc": [
+      "13402287"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-026-54092-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42168523/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-597",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

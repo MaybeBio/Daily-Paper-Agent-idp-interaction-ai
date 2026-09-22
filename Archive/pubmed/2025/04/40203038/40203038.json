@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "40203038",
+    "doi": "10.1073/pnas.2425261122",
+    "title": "Exploring RNA destabilization mechanisms in biomolecular condensates through atomistic simulations."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are currently recognized to play a key role in organizing cellular space and in orchestrating biochemical processes. Despite an increasing interest in characterizing their internal organization at the molecular scale, not much is known about how the densely crowded environment within these condensates affects the structural properties of recruited macromolecules. Here, we adopted explicit-solvent all-atom simulations based on a combination of enhanced sampling approaches to investigate how the conformational ensemble of an RNA hairpin is reshaped in a highly concentrated peptide solution that mimics the interior of a biomolecular condensate. Our simulations indicate that RNA structure is greatly perturbed by this distinctive physico-chemical environment, which weakens RNA secondary structure and promotes extended nonnative conformations. The resulting high-resolution picture reveals that RNA unfolding is driven by the effective solvation of nucleobases through hydrogen bonding and stacking interactions with surrounding peptides. This solvent effect can be modulated by the amino acid composition of the model condensate as proven by the differential RNA behavior observed in the case of arginine-rich and lysine-rich peptides.",
+    "keywords": [
+      "RNA folding",
+      "enhanced sampling",
+      "membraneless organelles",
+      "molecular dynamics",
+      "protein-RNA interactions"
+    ],
+    "mesh_terms": [
+      "*RNA/chemistry",
+      "Nucleic Acid Conformation",
+      "*Biomolecular Condensates/chemistry",
+      "Hydrogen Bonding",
+      "*Molecular Dynamics Simulation",
+      "*RNA Stability",
+      "Solvents/chemistry",
+      "Peptides/chemistry",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Boccalini, Matteo",
+        "Berezovska, Yelyzaveta",
+        "Bussi, Giovanni",
+        "Paloni, Matteo",
+        "Barducci, Alessandro"
+      ],
+      "short_names": [
+        "Boccalini M",
+        "Berezovska Y",
+        "Bussi G",
+        "Paloni M",
+        "Barducci A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6392-4978",
+        "ORCID: 0000-0003-2164-0640",
+        "ORCID: 0000-0001-9216-5782",
+        "ORCID: 0000-0003-4841-9321",
+        "ORCID: 0000-0002-1911-8039"
+      ],
+      "affiliations": [
+        "Centre de Biologie Structurale, Universite de Montpellier, CNRS, INSERM, Montpellier 34090, France.",
+        "Centre de Biologie Structurale, Universite de Montpellier, CNRS, INSERM, Montpellier 34090, France.",
+        "Molecular and Statistical Biophysics, Scuola Internazionale Superiore di Studi Avanzati, Trieste 34136, Italy.",
+        "Centre de Biologie Structurale, Universite de Montpellier, CNRS, INSERM, Montpellier 34090, France.",
+        "Department of Chemical Engineering, Thomas Young Centre, University College London, London WC1E 7JE, United Kingdom.",
+        "Centre de Biologie Structurale, Universite de Montpellier, CNRS, INSERM, Montpellier 34090, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Boccalini, Matteo",
+        "short_name": "Boccalini M",
+        "identifiers": [
+          "0000-0002-6392-4978"
+        ],
+        "affiliations": [
+          "Centre de Biologie Structurale, Université de Montpellier, CNRS, INSERM, Montpellier 34090, France."
+        ]
+      },
+      {
+        "full_name": "Berezovska, Yelyzaveta",
+        "short_name": "Berezovska Y",
+        "identifiers": [
+          "0000-0003-2164-0640"
+        ],
+        "affiliations": [
+          "Centre de Biologie Structurale, Université de Montpellier, CNRS, INSERM, Montpellier 34090, France."
+        ]
+      },
+      {
+        "full_name": "Bussi, Giovanni",
+        "short_name": "Bussi G",
+        "identifiers": [
+          "0000-0001-9216-5782"
+        ],
+        "affiliations": [
+          "Molecular and Statistical Biophysics, Scuola Internazionale Superiore di Studi Avanzati, Trieste 34136, Italy."
+        ]
+      },
+      {
+        "full_name": "Paloni, Matteo",
+        "short_name": "Paloni M",
+        "identifiers": [
+          "0000-0003-4841-9321"
+        ],
+        "affiliations": [
+          "Centre de Biologie Structurale, Université de Montpellier, CNRS, INSERM, Montpellier 34090, France.",
+          "Department of Chemical Engineering, Thomas Young Centre, University College London, London WC1E 7JE, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Barducci, Alessandro",
+        "short_name": "Barducci A",
+        "identifiers": [
+          "0000-0002-1911-8039"
+        ],
+        "affiliations": [
+          "Centre de Biologie Structurale, Université de Montpellier, CNRS, INSERM, Montpellier 34090, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Apr 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/09 18:26",
+    "fetched_at": "2026-09-21 17:42:44"
+  },
+  "links": {
+    "cites": [
+      "42407334",
+      "41868013",
+      "41626689",
+      "41487138",
+      "40614690"
+    ],
+    "refs": [
+      "40009520",
+      "38991204",
+      "38446881",
+      "38199037",
+      "37890457",
+      "37735186",
+      "37729412",
+      "37645312",
+      "37606640",
+      "37470705",
+      "37468629",
+      "37198487",
+      "36028355",
+      "35795820",
+      "35773489",
+      "35694853",
+      "35501484",
+      "35363478",
+      "35165426",
+      "34890201",
+      "34099940",
+      "33982350",
+      "33307683",
+      "33302617",
+      "33230101",
+      "32936641",
+      "31790873",
+      "31634364",
+      "31363226",
+      "31270472",
+      "31182864",
+      "30700721",
+      "29913160",
+      "29650703",
+      "29414513",
+      "29378935",
+      "29364893",
+      "29297679",
+      "28935776",
+      "28894006",
+      "28225081",
+      "27661094",
+      "27546789",
+      "27219701",
+      "27091499",
+      "26139368",
+      "26015579",
+      "25355509",
+      "25288112",
+      "24606137",
+      "23746349",
+      "21714551",
+      "21244633",
+      "19919063",
+      "19906714",
+      "19239882",
+      "18232845",
+      "17937486",
+      "17373794",
+      "12271136",
+      "10786851",
+      "10550208",
+      "9000624",
+      "2236056",
+      "1373521"
+    ],
+    "similar": [
+      "40203038",
+      "23912807",
+      "38416758",
+      "39591652",
+      "33982350",
+      "40136009",
+      "41187075",
+      "34129784",
+      "40972943",
+      "40455990",
+      "40009520",
+      "38832749",
+      "40521608",
+      "10512702",
+      "39042834",
+      "39636939",
+      "37408305",
+      "38949285",
+      "41017414",
+      "39172789",
+      "41342450",
+      "40985078",
+      "40172489",
+      "37468629",
+      "11955005",
+      "19754142",
+      "39486437",
+      "36883003",
+      "34772789",
+      "30811210",
+      "34772786",
+      "35727989",
+      "37194953",
+      "38383656",
+      "41118627",
+      "28633759",
+      "40058249",
+      "22525788",
+      "37470705",
+      "37171907",
+      "15959866",
+      "16626172",
+      "34090478",
+      "39303698",
+      "28666087",
+      "38804888",
+      "40664121",
+      "38751116",
+      "40614690",
+      "40954121",
+      "40327693",
+      "30542771",
+      "38360555",
+      "12596268",
+      "22524526",
+      "39827079",
+      "32936641",
+      "38773325",
+      "40880224",
+      "25973961",
+      "39377398",
+      "12885628",
+      "36702825",
+      "41129218",
+      "39896463",
+      "41191214",
+      "24955654",
+      "30831385",
+      "40877270",
+      "40102453",
+      "18688533",
+      "16625657",
+      "38649740",
+      "40168179",
+      "34706977",
+      "34767801",
+      "39620362",
+      "29248728",
+      "39824169",
+      "41481439",
+      "25805858",
+      "38279531",
+      "28809963",
+      "35243657",
+      "39605385",
+      "38987300",
+      "39356108",
+      "26580891",
+      "10656830",
+      "39260373",
+      "40229261",
+      "41060763",
+      "37480229",
+      "14581218",
+      "38472406",
+      "40420812",
+      "37695778",
+      "33864415",
+      "39059370",
+      "40667293"
+    ],
+    "review": [
+      "40203038",
+      "34129784",
+      "40172489",
+      "34772789",
+      "34772786",
+      "40058249",
+      "22525788",
+      "37171907",
+      "39303698",
+      "40664121",
+      "40614690",
+      "38360555",
+      "39827079",
+      "38773325",
+      "41191214",
+      "34706977",
+      "34767801"
+    ],
+    "pmc": [
+      "12012522"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2425261122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40203038/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report direct visualization of lipid raft-like domains in plasma membranes using cryo-electron tomography (cryo-ET) combined with in situ gold nanoparticle (AuNP) labeling via an engineered raft-associated protein (MTn-trLAT-GFP). They claim that AuNP markers localize predominantly within thicker membrane regions, that raft-like domains consistently correspond to thicker membrane regions, and that molecular dynamics simulations show glycosphingolipids increase local membrane thickness by approximately 0.6 nm, driving preferential localization of palmitoylated MTn-trLAT-GFP to ordered domains.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information were supplied
+- **Missing materials affecting confidence** Full methods, all figures and tables, statistical analyses, simulation parameters and validation, control experiments, and any quantitative data supporting the stated thickness differences and colocalization
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in the direct structural study of lipid raft-like domains in native plasma membranes. The combination of cryo-ET with in situ AuNP labeling is conceptually appealing and could offer a new approach to a long-standing question in membrane biology. However, the evidence base provided is insufficient to evaluate the technical soundness of the labeling strategy, the rigor of the cryo-ET analysis, or the validity of the simulation conclusions. Several claims, particularly regarding the causal relationship between membrane thickness and protein partitioning, and the quantitative agreement between experiments and simulations, are not assessable from the abstract alone.
+- **Who would be interested in the results, and why** Membrane biophysicists, cell biologists studying membrane organization and signaling, and structural biologists using cryo-ET would be interested. The work addresses a central and long-debated question about the existence and structural basis of lipid rafts in living membranes, and the methodological approach could be of broad interest to researchers developing in situ labeling strategies for cryo-ET.
+- **Major strengths** The study tackles a fundamental and controversial question in membrane biology with a direct imaging approach. The use of cryo-ET on native plasma membranes is technically demanding and appropriate for the question. The engineering of a raft-associated protein for in situ AuNP synthesis is an innovative strategy that could enable high-resolution spatial mapping of membrane components. The combination of experimental imaging with molecular dynamics simulations provides a potential mechanistic link between lipid composition, membrane thickness, and protein localization.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that AuNP markers localize predominantly within thicker membrane regions, demonstrating that raft-like domains consistently correspond to thicker membrane regions.  
+  - **Evidence pointer** Abstract only; no figures or quantitative data provided  
+  - **Concern** The abstract does not provide any quantitative data on the distribution of AuNP markers relative to membrane thickness. No statistics, no effect sizes, no number of membranes or cells analyzed, and no description of how "thicker" regions were defined or measured are given. The claim of "predominantly" and "consistently" implies a robust correlation, but no evidence is visible to support this.  
+  - **Why it matters** The central conclusion of the paper rests on this correlation. Without quantitative evidence and appropriate controls, the claim that raft-like domains correspond to thicker regions cannot be evaluated. Potential confounders, such as labeling efficiency, steric effects of AuNP synthesis, or artifacts from membrane curvature, are not addressed.  
+  - **Resolution test** Provide quantitative colocalization analysis between AuNP positions and membrane thickness measurements, including appropriate statistical tests, control experiments with non-raft proteins, and a description of the thickness measurement methodology and its resolution limits.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that the engineered protein MTn-trLAT-GFP facilitates in situ synthesis of gold nanoparticles and that these AuNPs label the outer leaflet of the membrane.  
+  - **Evidence pointer** Abstract only; no methods or validation data provided  
+  - **Concern** The abstract does not describe how the MTn tag enables in situ AuNP synthesis, what the efficiency and specificity of labeling are, whether the synthesis conditions perturb membrane structure, or how the outer leaflet localization was determined. The claim that AuNP labeling enables "high-resolution visualization" of the protein's spatial distribution requires validation that the AuNP position accurately reflects the protein position at the required resolution.  
+  - **Why it matters** If the labeling is nonspecific, inefficient, or perturbing, the entire interpretation of the spatial distribution is compromised. The resolution of the AuNP label relative to the protein of interest and the membrane thickness measurements is critical for the conclusions.  
+  - **Resolution test** Provide detailed methods for the MTn-based AuNP synthesis, including controls for specificity, efficiency, and membrane integrity. Show validation that AuNP position corresponds to protein position at the claimed resolution, and describe how outer leaflet localization was established.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that molecular dynamics simulations reveal that glycosphingolipids increase local thickness by approximately 0.6 nm relative to unsaturated lipids, driving preferential localization of palmitoylated MTn-trLAT-GFP to ordered domains.  
+  - **Evidence pointer** Abstract only; no simulation details or validation provided  
+  - **Concern** The abstract provides no information on the simulation system, force field, timescale, system size, or how the thickness increase was calculated. The claim that this thickness difference "drives" preferential localization is a causal statement that requires demonstration of a mechanism, not just correlation. The agreement between the simulated 0.6 nm thickness increase and the experimentally observed thickness differences is not quantified.  
+  - **Why it matters** The simulation is presented as supporting the experimental findings, but without details on the model's validity and the statistical significance of the results, the support is unverifiable. The causal claim about thickness driving localization is a strong mechanistic statement that requires direct evidence from the simulations.  
+  - **Resolution test** Provide full simulation methods, including system composition, force field, equilibration and production times, and analysis protocols. Show that the thickness difference is statistically significant and that the proposed mechanism is directly tested, for example by mutational or compositional perturbations. Quantitatively compare simulated and experimental thickness values.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The authors claim that cryo-ET analysis reveals AuNP labeling of the outer leaflet and enables high-resolution visualization of MTn-trLAT-GFP in situ spatial distribution.  
+  - **Evidence pointer** Abstract only; no methods or reproducibility data provided  
+  - **Concern** No information is given on the number of independent biological replicates, the number of tomograms analyzed, the resolution of the tomograms, or the criteria for identifying AuNPs and membrane regions. Without this information, the reproducibility and generalizability of the findings cannot be assessed.  
+  - **Why it matters** Cryo-ET is prone to artifacts from sample preparation, beam damage, and segmentation. The absence of any reproducibility information makes it impossible to determine whether the observed patterns are robust or represent a single favorable example.  
+  - **Resolution test** Provide details on sample preparation, data collection parameters, number of replicates, and analysis criteria. Include representative tomograms and a description of how AuNP and membrane thickness measurements were performed and validated.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The phrase "it has serves as an explanation" contains a grammatical error.  
+  - **Required correction** Change to "it has served as an explanation."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, description of MTn-trLAT-GFP  
+  - **Issue** The abstract states that MTn-trLAT-GFP is engineered and that AuNPs label the outer leaflet, but it is unclear whether the protein is expressed in cells, added exogenously, or reconstituted. The experimental context is ambiguous.  
+  - **Required correction** Clarify the experimental system, for example whether the protein is expressed in cultured cells and whether the plasma membrane is isolated or imaged in situ.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, simulation claim  
+  - **Issue** The phrase "approximately 0.6 nm" is presented without an error estimate or statistical context.  
+  - **Required correction** Provide the uncertainty or confidence interval for the simulated thickness increase.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The claim that the findings "advance understanding of membrane organization in vivo" is broad and not specific to what new understanding is provided.  
+  - **Required correction** Specify what particular aspect of membrane organization is newly understood, for example the relationship between thickness and protein partitioning or the role of glycosphingolipids.
+
+## Risk / unsupported claims
+- The claim that raft-like domains "consistently" correspond to thicker membrane regions is unsupported by the abstract alone, as no quantitative data are provided.
+- The claim that glycosphingolipids "drive" preferential localization of palmitoylated MTn-trLAT-GFP is a causal statement that is not supported by the evidence described in the abstract.
+- The claim that AuNP labeling enables "high-resolution visualization" of the protein's spatial distribution is not assessable without validation of labeling specificity and resolution.
+- The claim that the findings provide "direct structural insight into raft-like domains" is not assessable without the actual structural data and analysis.
+- The agreement between experimental and simulated membrane thickness values is not quantified and therefore cannot be evaluated.

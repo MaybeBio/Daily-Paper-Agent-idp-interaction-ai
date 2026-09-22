@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "36898349",
+    "doi": "10.1016/j.bpc.2023.106993",
+    "title": "Lipid domain boundary triggers membrane damage and protein folding of human islet amyloid polypeptide in the early pathogenesis of amyloid diseases."
+  },
+  "content": {
+    "abstract": "The misfolding and self-aggregation of human Islet Amyloid Polypeptide (hIAPP) are linked to the onset of type 2 diabetes (T2D). However, the mechanism of how the disordered hIAPP aggregates trigger membrane damage leading to the loss of Islet cells in T2D is unknown. Using coarse-grained (CG) and all-atom (AA) molecular dynamics simulations, we have investigated the membrane-disruption behaviors of hIAPP oligomers on the phase-separated lipid nanodomains that mimic the highly heterogeneous lipid raft structures of cell membranes. Our results revealed that hIAPP oligomers preferentially bind to the liquid-ordered and liquid-disordered domain boundary around two hydrophobic residues at L16 and I26, and lipid acyl chain order disruption and beta-sheet formation occur upon hIAPP binding to the membrane surface. We propose that the lipid order disruption and surface-induced beta-sheet formation on the lipid domain boundary represent the early molecular events of membrane damage associated with the early pathogenesis of T2D.",
+    "keywords": [
+      "Diabetes",
+      "Intrinsically disordered protein",
+      "Membrane biophysics",
+      "Membrane protein",
+      "Membrane structure",
+      "Molecular dynamics",
+      "Protein folding"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Amyloid/chemistry",
+      "*Amyloidosis/metabolism",
+      "Cell Membrane/chemistry",
+      "*Diabetes Mellitus, Type 2/metabolism",
+      "*Islet Amyloid Polypeptide/chemistry",
+      "Lipids",
+      "Protein Folding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lewis, Amber",
+        "Pham, Thuong",
+        "Nguyen, Ngoc",
+        "Graf, Angela",
+        "Cheng, Kwan H"
+      ],
+      "short_names": [
+        "Lewis A",
+        "Pham T",
+        "Nguyen N",
+        "Graf A",
+        "Cheng KH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Neuroscience Dept., Trinity University, San Antonio, TX, USA.",
+        "Physics Dept., Trinity University, San Antonio, TX, USA.",
+        "Physics Dept., Trinity University, San Antonio, TX, USA.",
+        "Physics Dept., Trinity University, San Antonio, TX, USA.",
+        "Neuroscience Dept., Trinity University, San Antonio, TX, USA; Physics Dept., Trinity University, San Antonio, TX, USA. Electronic address: kcheng1@trinity.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lewis, Amber",
+        "short_name": "Lewis A",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience Dept., Trinity University, San Antonio, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Pham, Thuong",
+        "short_name": "Pham T",
+        "identifiers": [],
+        "affiliations": [
+          "Physics Dept., Trinity University, San Antonio, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Ngoc",
+        "short_name": "Nguyen N",
+        "identifiers": [],
+        "affiliations": [
+          "Physics Dept., Trinity University, San Antonio, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Graf, Angela",
+        "short_name": "Graf A",
+        "identifiers": [],
+        "affiliations": [
+          "Physics Dept., Trinity University, San Antonio, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Cheng, Kwan H",
+        "short_name": "Cheng KH",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience Dept., Trinity University, San Antonio, TX, USA; Physics Dept., Trinity University, San Antonio, TX, USA. Electronic address: kcheng1@trinity.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical chemistry"
+    ],
+    "journal_abbrev": [
+      "Biophys Chem"
+    ],
+    "pub_date": "2023 May",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/11 06:00",
+    "fetched_at": "2026-09-20 20:06:47"
+  },
+  "links": {
+    "cites": [
+      "42338763",
+      "38930883",
+      "38338484",
+      "38298098",
+      "37241931"
+    ],
+    "refs": [],
+    "similar": [
+      "36898349",
+      "37241931",
+      "31436406",
+      "22404928",
+      "34224702",
+      "28585804",
+      "30576976",
+      "38345763",
+      "31490518",
+      "38062941",
+      "22693597",
+      "29530482",
+      "20570648",
+      "21158384",
+      "32800950",
+      "30814273",
+      "39012029",
+      "31995712",
+      "31222470",
+      "26953503",
+      "30803034",
+      "23331123",
+      "36142176",
+      "21428404",
+      "30502402",
+      "36098068",
+      "27854243",
+      "18483616",
+      "35060728",
+      "25495656",
+      "28811318",
+      "33227292",
+      "38338914",
+      "27759128",
+      "26636105",
+      "27936589",
+      "37121365",
+      "26887358",
+      "27075579",
+      "18408164",
+      "29697253",
+      "35164285",
+      "22876830",
+      "24702784",
+      "18989933",
+      "26255739",
+      "33544470",
+      "19794060",
+      "36108345",
+      "30621387",
+      "33207866",
+      "23372685",
+      "26173078",
+      "30908844",
+      "26587568",
+      "31195047",
+      "38338484",
+      "33544469",
+      "24268144",
+      "35311274",
+      "25862064",
+      "28801684",
+      "32893436",
+      "37262327",
+      "22059381",
+      "25952953",
+      "24892388",
+      "32860895",
+      "11731221",
+      "31759017",
+      "28917147",
+      "36400215",
+      "30149632",
+      "21942864",
+      "35549098",
+      "33887213",
+      "29432676",
+      "35667301",
+      "24041993",
+      "16403520",
+      "36163697",
+      "28870071",
+      "23225004",
+      "20153100",
+      "35104126",
+      "25036705",
+      "32824918",
+      "37082256",
+      "36174237",
+      "32790383",
+      "19405534",
+      "34313292",
+      "20809197",
+      "35275530",
+      "27865831",
+      "19817482",
+      "31491457",
+      "26283068",
+      "24071712",
+      "24754490",
+      "29986579",
+      "34027899",
+      "23519103",
+      "34518699",
+      "33792323",
+      "37485551",
+      "33427465",
+      "29428499",
+      "35557876",
+      "37541643",
+      "36889961",
+      "37999364",
+      "26697504"
+    ],
+    "review": [
+      "36898349",
+      "29530482",
+      "18483616",
+      "28811318",
+      "33227292",
+      "26636105",
+      "27075579",
+      "35164285",
+      "33544470",
+      "11731221",
+      "36400215",
+      "30149632",
+      "23225004",
+      "33427465"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301-4622(23)00044-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/amyloidosis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Amyloidosis"
+      }
+    ],
+    "text_mined": []
+  }
+}

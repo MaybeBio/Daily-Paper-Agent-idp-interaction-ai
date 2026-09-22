@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "33574233",
+    "doi": "10.1038/s41467-021-21105-7",
+    "title": "High resolution ensemble description of metamorphic and intrinsically disordered proteins using an efficient hybrid parallel tempering scheme."
+  },
+  "content": {
+    "abstract": "Mapping free energy landscapes of complex multi-funneled metamorphic proteins and weakly-funneled intrinsically disordered proteins (IDPs) remains challenging. While rare-event sampling molecular dynamics simulations can be useful, they often need to either impose restraints or reweigh the generated data to match experiments. Here, we present a parallel-tempering method that takes advantage of accelerated water dynamics and allows efficient and accurate conformational sampling across a wide variety of proteins. We demonstrate the improved sampling efficiency by benchmarking against standard model systems such as alanine di-peptide, TRP-cage and beta-hairpin. The method successfully scales to large metamorphic proteins such as RFA-H and to highly disordered IDPs such as Histatin-5. Across the diverse proteins, the calculated ensemble averages match well with the NMR, SAXS and other biophysical experiments without the need to reweigh. By allowing accurate sampling across different landscapes, the method opens doors for sampling free energy landscape of complex uncharted proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "Entropy",
+      "Intrinsically Disordered Proteins/*chemistry",
+      "Molecular Dynamics Simulation",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Peptides/chemistry",
+      "Protein Conformation",
+      "Scattering, Small Angle",
+      "X-Ray Diffraction"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Appadurai, Rajeswari",
+        "Nagesh, Jayashree",
+        "Srivastava, Anand"
+      ],
+      "short_names": [
+        "Appadurai R",
+        "Nagesh J",
+        "Srivastava A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5988-868X",
+        "ORCID: 0000-0002-2757-1511"
+      ],
+      "affiliations": [
+        "Molecular Biophysics Unit, Indian Institute of Science, Bangalore, Karnataka, India.",
+        "Solid State & Structural Chemistry Unit, Indian Institute of Science, Bangalore, Karnataka, India.",
+        "Molecular Biophysics Unit, Indian Institute of Science, Bangalore, Karnataka, India. anand@iisc.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Appadurai, Rajeswari",
+        "short_name": "Appadurai R",
+        "identifiers": [
+          "0000-0001-5988-868X"
+        ],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science, Bangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Nagesh, Jayashree",
+        "short_name": "Nagesh J",
+        "identifiers": [],
+        "affiliations": [
+          "Solid State & Structural Chemistry Unit, Indian Institute of Science, Bangalore, Karnataka, India."
+        ]
+      },
+      {
+        "full_name": "Srivastava, Anand",
+        "short_name": "Srivastava A",
+        "identifiers": [
+          "0000-0002-2757-1511"
+        ],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science, Bangalore, Karnataka, India. anand@iisc.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Feb 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/02/13 06:00",
+    "fetched_at": "2026-09-20 01:21:12"
+  },
+  "links": {
+    "cites": [
+      "42573943",
+      "42248893",
+      "42133682",
+      "42129207",
+      "41911046",
+      "41889830",
+      "41542156",
+      "41510765",
+      "41376388",
+      "41284920",
+      "41139839",
+      "40815267",
+      "40486818",
+      "40238689",
+      "40209951",
+      "40043838",
+      "38760339",
+      "38535831",
+      "38505224",
+      "38396721",
+      "38150499",
+      "38118365",
+      "37890778",
+      "37681096",
+      "37646172",
+      "37463458",
+      "37338049",
+      "36923156",
+      "36628457",
+      "36382197",
+      "35634768",
+      "35586549",
+      "35409257",
+      "35308859",
+      "35174713",
+      "35163518",
+      "35045069",
+      "34478435",
+      "34298994",
+      "34068835",
+      "33878950"
+    ],
+    "refs": [
+      "31783069",
+      "31552948",
+      "31548393",
+      "31176319",
+      "30913885",
+      "30876367",
+      "30865820",
+      "30742024",
+      "30587581",
+      "30134668",
+      "29805999",
+      "29784778",
+      "29735687",
+      "29539394",
+      "29323497",
+      "29080468",
+      "28448138",
+      "27819658",
+      "27560127",
+      "26929365",
+      "26914439",
+      "26851286",
+      "26620937",
+      "26580748",
+      "26575570",
+      "26544073",
+      "26402567",
+      "26230837",
+      "26018669",
+      "25774711",
+      "25400522",
+      "25328493",
+      "25173450",
+      "24758259",
+      "24089719",
+      "23822324",
+      "23205890",
+      "22988066",
+      "22829760",
+      "22817892",
+      "22817886",
+      "22044150",
+      "22034434",
+      "21776971",
+      "21714551",
+      "21500218",
+      "21297873",
+      "20628786",
+      "20556825",
+      "19576220",
+      "17439169",
+      "17188296",
+      "16172406",
+      "15814618",
+      "15738986",
+      "15102452",
+      "11979279",
+      "10223287",
+      "9923693",
+      "9901660",
+      "9080195",
+      "8144548",
+      "2406266"
+    ],
+    "similar": [
+      "33574233",
+      "30840442",
+      "31402649",
+      "31548393",
+      "32840111",
+      "29808548",
+      "36641212",
+      "32859072",
+      "30865820",
+      "26320411",
+      "32696370",
+      "39056166",
+      "34817999",
+      "29571687",
+      "30554840",
+      "33623120",
+      "26387110",
+      "31052346",
+      "32585849",
+      "26387105",
+      "29080468",
+      "28092832",
+      "31809054",
+      "30433786",
+      "26548662",
+      "32696361",
+      "29218556",
+      "33725442",
+      "30125451",
+      "39340152",
+      "28834051",
+      "35377637",
+      "29548755",
+      "30876367",
+      "29573987",
+      "30878202",
+      "39851064",
+      "30979035",
+      "26574339",
+      "32696368",
+      "33177626",
+      "37646172",
+      "40095314",
+      "35174713",
+      "35298814",
+      "31714774",
+      "23794453",
+      "28625737",
+      "29792674",
+      "23545493",
+      "26387099",
+      "27844185",
+      "29705209",
+      "26387101",
+      "32074499",
+      "31375817",
+      "33355572",
+      "33810353",
+      "26030189",
+      "24174539",
+      "37108059",
+      "34627764",
+      "28885015",
+      "34680048",
+      "30708285",
+      "30134733",
+      "33337879",
+      "28095698",
+      "36791464",
+      "39499823",
+      "35053175",
+      "38018910",
+      "34032235",
+      "28734076",
+      "34252246",
+      "33411518",
+      "26387102",
+      "31617035",
+      "31445067",
+      "33555894",
+      "29790640",
+      "31259246",
+      "39642200",
+      "30316104",
+      "30204435",
+      "24410358",
+      "27268235",
+      "28805390",
+      "22044150",
+      "33030249",
+      "30527137",
+      "26052838",
+      "25207671",
+      "36410960",
+      "31756104",
+      "38275091",
+      "29026044",
+      "31362509",
+      "39983022",
+      "39353179"
+    ],
+    "review": [
+      "33574233",
+      "30840442",
+      "26320411",
+      "26387110",
+      "26387105",
+      "29080468",
+      "29218556",
+      "30979035",
+      "23794453",
+      "28625737",
+      "23545493",
+      "26387099",
+      "29705209",
+      "26387101",
+      "33355572",
+      "34680048",
+      "35053175",
+      "26387102",
+      "31617035",
+      "31445067",
+      "30316104",
+      "22044150"
+    ],
+    "pmc": [
+      "7878814"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-21105-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33574233/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33574233",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33574233",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusion, materials and methods, and figure legends.
+- **Assessment boundary** Scientific validity of claims, experimental design, data interpretation, and consistency with stated conclusions. No assessment of editorial fit or language polishing.
+- **Shared manuscript claim summary** The authors propose that lipid packing defects, rather than anionic lipid charge, are the primary and sufficient driver for membrane binding of N-terminally acetylated α-synuclein (NTA-αSyn). They support this with fluorescence microscopy-based binding assays, circular dichroism spectroscopy, and all-atom molecular dynamics simulations across a range of lipid compositions, including synaptic vesicle mimics.
+- **Visible evidence base** Main text figures 1–5, supplementary figures 1–10, supplementary tables 1–4, and methods descriptions for experimental and simulation protocols.
+- **Missing materials affecting confidence** Raw numerical data for binding curves and simulation outputs are not provided in the manuscript text. Statistical details for some comparisons (e.g., exact p-values, effect sizes) are only partially reported in figure legends. The manuscript does not include a detailed description of the fitting procedure for the Langmuir-Hill equation beyond its presentation in the methods.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a well-designed and carefully executed study that challenges a long-standing assumption in the α-synuclein field. The combination of experimental binding assays and molecular dynamics simulations provides a compelling case that lipid packing defects, not anionic charge alone, are necessary and sufficient for NTA-αSyn membrane binding. The work is technically sound, with appropriate controls for vesicle size, curvature, and labeling effects. The conclusions are largely supported by the data, though some claims regarding the sufficiency of defects and the role of cholesterol require further clarification or additional evidence. The study is likely to be of broad interest to researchers studying protein-membrane interactions, lipid biophysics, and neurodegeneration.
+- **Who would be interested in the results, and why** Researchers in the fields of membrane biophysics, protein-lipid interactions, and neurodegenerative disease mechanisms would find this work highly relevant. The finding that lipid packing defects, rather than charge alone, drive α-synuclein binding has implications for understanding how lipid composition and membrane fluidity regulate α-synuclein function and pathology. The study also provides a methodological framework for quantifying membrane defects that could be applied to other peripheral membrane proteins.
+- **Major strengths** 1. The study directly addresses a gap in the literature by examining the combined effects of N-terminal acetylation, membrane charge, and lipid packing defects on α-synuclein binding. 2. The use of multiple complementary techniques (fluorescence microscopy, CD spectroscopy, MD simulations) strengthens the conclusions. 3. The tethered vesicle assay is well-controlled, with careful calibration of vesicle size and single-molecule counting. 4. The inclusion of synaptic vesicle mimics with varying degrees of unsaturation provides physiological relevance. 5. The finding that NTA-αSyn can prefer neutral, defect-rich membranes over anionic membranes is novel and challenges existing paradigms.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The title and abstract state that lipid packing defects are "necessary and sufficient" for membrane binding of α-synuclein. The sufficiency claim is supported by the correlation between defect coverage and binding, but the data do not demonstrate that defects alone, in the absence of any other membrane property, can drive binding. The experiments vary lipid composition, which simultaneously alters multiple properties (e.g., charge, fluidity, headgroup size). The manuscript does not include experiments where defects are introduced independently of other lipid changes (e.g., via pressure or temperature changes) to isolate the effect of defects.
+  - **Evidence pointer** Figures 2–5, particularly the correlation plots in Figures 4D and 5D.
+  - **Concern** The claim of sufficiency requires a more direct test. The current data show a strong correlation between defect coverage and binding, but correlation does not establish causation. The authors should either (a) perform experiments where defect density is modulated without changing lipid composition (e.g., via hydrostatic pressure or temperature), or (b) soften the claim to "necessary and strongly correlated with binding" rather than "sufficient."
+  - **Why it matters** The title and abstract make a strong mechanistic claim that goes beyond the correlative evidence presented. If the claim is overstated, it could mislead the field and lead to incorrect interpretations of α-synuclein-membrane interactions.
+  - **Resolution test** The authors should either provide additional experimental evidence directly manipulating defect density independent of lipid composition, or revise the claim to be more cautious. A revised claim such as "lipid packing defects are necessary and a primary determinant of NTA-αSyn binding" would be more consistent with the data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical rigor
+  - **Claim pointer** The manuscript states that "NTA-αSyn exhibited a binding preference for the neutral DPhPC SUVs" over anionic DOPC/DOPS membranes (Figure 1E). This is a key finding, but the comparison is made between two compositions that differ in both charge and tail chemistry. The authors do not isolate the effect of charge from the effect of tail chemistry.
+  - **Evidence pointer** Figure 1C–E.
+  - **Concern** The comparison between DPhPC and DOPC/DOPS confounds charge and tail chemistry. DPhPC has branched, saturated tails, while DOPC/DOPS have unsaturated tails. The higher binding to DPhPC could be due to the higher defect density, but it could also be due to other differences in membrane properties (e.g., fluidity, headgroup spacing). The authors should include a control where the tail chemistry is held constant and only charge is varied (e.g., DOPC vs. DOPC/DOPS) to directly assess the role of charge.
+  - **Why it matters** The conclusion that defects are more important than charge relies on this comparison. Without isolating charge, the interpretation is ambiguous.
+  - **Resolution test** The authors should add a control experiment comparing DOPC and DOPC/DOPS membranes (which have similar tail chemistry but differ in charge) to directly test the role of charge. If binding is similar, the claim that defects dominate over charge is strengthened.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data interpretation
+  - **Claim pointer** The manuscript states that "the addition of PS increased the surface coverage of packing defects in DPh membranes by increasing the average size of individual membrane defects" (Figure 4C). This is used to explain the synergistic effect of charge and defects on binding.
+  - **Evidence pointer** Figure 4C.
+  - **Concern** The MD simulations show that adding PS to DPhPC increases defect size, but the experimental binding data show a corresponding increase in binding. However, the authors do not directly test whether the increased binding is due to the increased defect size or to the electrostatic attraction between the anionic membrane and the positively charged lysine residues in α-synuclein. The correlation between defect size and binding is suggestive but not conclusive.
+  - **Why it matters** The claim of synergy between charge and defects is central to the proposed mechanism. Without a direct test, the interpretation remains speculative.
+  - **Resolution test** The authors could perform experiments with a mutant α-synuclein lacking the lysine-rich N-terminus to test whether the electrostatic contribution is required for the synergistic effect. Alternatively, they could use membranes with the same defect density but different charge densities to isolate the electrostatic contribution.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1D
+  - **Evidence pointer** Figure 1D, top panel.
+  - **Issue** The distribution of vesicle diameters is shown, but the text does not clearly state how the 100 nm average diameter was selected or whether the distribution is narrow enough to avoid curvature effects.
+  - **Required correction** Please add a sentence in the figure legend or text clarifying the selection criteria for the 100 nm vesicle population and the width of the size distribution.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 3F
+  - **Evidence pointer** Figure 3F.
+  - **Issue** The Kd values are reported with error bars, but the number of independent experiments (n) is not stated in the figure legend.
+  - **Required correction** Please add the number of independent experiments (n) and the statistical test used for comparisons in the figure legend.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methods detail
+  - **Affected element** MD simulations
+  - **Evidence pointer** Methods section, "All-atom molecular dynamics simulation models."
+  - **Issue** The methods state that DPhPS was modeled using CHARMM-GUI ligand modeler, but the validation of this force field parameterization is not described.
+  - **Required correction** Please add a brief description of how the DPhPS parameters were validated (e.g., comparison to experimental data or existing force field parameters for similar lipids).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of cholesterol
+  - **Evidence pointer** Discussion section, paragraph on cholesterol.
+  - **Issue** The discussion of cholesterol's role in modulating binding is speculative and goes beyond the data presented. The authors suggest that cholesterol may enhance binding in low-defect regimes, but this is not directly tested.
+  - **Required correction** Please either add experimental data supporting this claim or clearly label it as a hypothesis for future work.
+- **Technical failings that need to be addressed before the case is established** 1. The sufficiency claim (R1-M1) requires either additional experiments or a revised, more cautious claim. 2. The confounding of charge and tail chemistry in the key comparison (R1-M2) needs to be addressed with a control experiment. 3. The mechanistic interpretation of the synergy between charge and defects (R1-M3) would benefit from a direct test.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is original in its focus on NTA-αSyn and its systematic examination of lipid packing defects as a primary driver of binding. The finding that NTA-αSyn can prefer neutral, defect-rich membranes over anionic membranes is novel and challenges existing paradigms.
+  - **Scientific importance** The work has significant implications for understanding α-synuclein-membrane interactions, which are central to its function and pathology in Parkinson's disease. The findings may also be relevant to other peripheral membrane proteins that sense membrane defects.
+  - **Interdisciplinary readership** The study bridges biophysics, lipid chemistry, and neurobiology, making it of interest to a broad audience. The methods and findings are accessible to researchers in these fields.
+  - **Technical soundness** The experimental and computational methods are generally sound, with appropriate controls and careful calibration. However, the confounding of charge and tail chemistry in the key comparison and the lack of a direct test of sufficiency are technical weaknesses that need to be addressed.
+  - **Readability for nonspecialists** The manuscript is well-written and logically organized. The figures are clear and support the text. However, some sections, particularly the MD simulation methods, may be challenging for nonspecialists. The authors could improve accessibility by providing a brief summary of the simulation approach in the main text.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is interesting and potentially important, but the sufficiency claim and the confounding of charge and tail chemistry need to be addressed before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that lipid packing defects are "sufficient" for NTA-αSyn binding is not directly supported by the data, as the experiments do not isolate defect density from other membrane properties.
+- The claim that "charge alone is not enough to regulate NTA-αSyn binding" is supported by the DLPC/DLPS data, but the comparison between DPhPC and DOPC/DOPS confounds charge and tail chemistry, making the broader conclusion less robust.
+- The discussion of cholesterol's role in modulating binding in low-defect regimes is speculative and not directly tested in this study.
+- The extrapolation in Figure 5D suggesting that cholesterol-containing membranes promote stronger binding in the low-defect regime is based on a linear fit with limited data points and should be interpreted with caution.

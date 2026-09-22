@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36500275",
+  "title": "Theoretical Studies of Leu-Pro-Arg-Asp-Ala Pentapeptide (LPRDA) Binding to Sortase A of Staphylococcus aureus.",
+  "authors": "Shulga, Dmitry A; Kudryavtsev, Konstantin V",
+  "journal": "Molecules (Basel, Switzerland)",
+  "published_date": "2022-12-12",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过对接和分子动力学模拟研究五肽LPRDA与金黄色葡萄球菌Sortase A的结合，关注其无序环区在复合物中的动态行为，虽对象为折叠酶与肽配体，但无序区域介导的互作机制建模思路对本课题有启发。",
+  "abstract": "Sortase A (SrtA) of Staphylococcus aureus is a well-defined molecular target to combat the virulence of these clinically important bacteria. However up to now no efficient drugs or even clinical candidates are known, hence the search for such drugs is still relevant and necessary. SrtA is a complex target, so many straight-forward techniques for modeling using the structure-based drug design (SBDD) fail to produce the results they used to bring for other, simpler, targets. In this work we conduct theoretical studies of the binding/activity of Leu-Pro-Arg-Asp-Ala (LPRDA) polypeptide, which was recently shown to possess antivirulence activity against S. aureus. Our investigation was aimed at establishing a framework for the estimation of the key interactions and subsequent modification of LPRDA, targeted at non-peptide molecules, with better drug-like properties than the original polypeptide. Firstly, the available PDB structures are critically analyzed and the criteria to evaluate the quality of the ligand-SrtA complex geometry are proposed. Secondly, the docking protocol was investigated to establish its applicability to the LPRDA-SrtA complex prediction. Thirdly, the molecular dynamics studies were carried out to refine the geometries and estimate the stability of the complexes, predicted by docking. The main finding is that the previously reported partially chaotic movement of the beta6/beta7 and beta7/beta8 loops of SrtA (being the intrinsically disordered parts related to the SrtA binding site) is exaggerated when SrtA is complexed with LPRDA, which in turn reveals all the signs of the flexible and structurally disordered molecule. As a result, a wealth of plausible LPRDA-SrtA complex conformations are hard to distinguish using simple modeling means, such as docking. The use of more elaborate modeling approaches may help to model the system reliably but at the cost of computational efficiency.",
+  "abstract_zh": "金黄色葡萄球菌的分选酶A（Sortase A, SrtA）是应对这些临床重要细菌毒力的明确分子靶点。然而，迄今为止尚无有效药物甚至临床候选药物问世，因此寻找此类药物仍具有现实意义和必要性。SrtA是一个复杂靶点，许多基于结构药物设计（SBDD）的常规建模技术难以产生它们在其他更简单靶点上通常带来的结果。在本工作中，我们对Leu-Pro-Arg-Asp-Ala（LPRDA）多肽的结合/活性进行了理论研究，该多肽近期被证明对金黄色葡萄球菌具有抗毒力活性。我们的研究旨在建立一个框架，用于评估关键相互作用并随后对LPRDA进行修饰，目标是获得比原始多肽具有更好药物样特性的非肽类分子。首先，对现有PDB结构进行批判性分析，并提出评估配体-SrtA复合物几何质量的标准。其次，研究对接协议以确定其对LPRDA-SrtA复合物预测的适用性。第三，进行分子动力学研究以优化几何结构并评估对接预测复合物的稳定性。主要发现是，先前报道的SrtA的beta6/beta7和beta7/beta8环（与SrtA结合位点相关的内在无序部分）的部分混沌运动，在SrtA与LPRDA复合时被夸大，这反过来揭示了柔性且结构无序分子的所有特征。因此，大量可能的LPRDA-SrtA复合物构象难以通过简单建模手段（如对接）进行区分。使用更精细的建模方法可能有助于可靠地模拟该系统，但代价是计算效率降低。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36500275/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36500275/",
+  "paper_page_path": "papers/pubmed/36500275/index.html"
+}

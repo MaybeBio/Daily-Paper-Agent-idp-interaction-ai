@@ -1,0 +1,73 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present FuzzAletheia, a computational tool that analyzes molecular dynamics simulation trajectories of intrinsically disordered protein (IDP)-ligand complexes to cluster interactions into spatiotemporally stable binding features. These features are visualized and quantified to inform ligand optimization. The tool was applied to the disordered p53 transactivation domain 1 and a hit compound 1050, leading to the design and synthesis of six derivatives, with the most potent compound showing a 10-fold activity enhancement.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation parameters, statistical analyses, or experimental protocols are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation details, compound synthesis and characterization data, activity assay protocols, and any statistical or reproducibility information
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful computational workflow for analyzing IDP-ligand dynamics and applying it to a specific case study. The concept of mapping dynamic interaction landscapes to guide hit optimization addresses a genuine gap in IDP drug discovery. However, the abstract alone provides insufficient evidence to evaluate the technical validity of the method, the robustness of the clustering approach, or the reliability of the reported activity enhancement. The central claim of a 10-fold improvement rests on a single compound and lacks contextual data such as assay error, replicate numbers, or comparison to unguided optimization efforts.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, particularly those working on intrinsically disordered proteins, molecular dynamics simulation analysis, and hit-to-lead optimization. The work may also interest medicinal chemists targeting challenging protein classes and method developers in trajectory analysis and interaction fingerprinting.
+- **Major strengths** The problem addressed is important and underexplored. The proposed workflow directly targets a recognized bottleneck in IDP drug discovery. The application to a real biological system with synthesis and activity testing demonstrates an intention to validate the method beyond in silico demonstration.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The method "clusters interactions into distinct spatiotemporal stable binding features" that are "visualized and quantified to provide insights into the dynamic binding orientation, strength, and stability."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No details are given on how the clustering is performed, what features are used, how spatiotemporal stability is defined, or how the resulting clusters are validated. Without this information, the core methodological contribution cannot be assessed.  
+  - **Why it matters** The entire utility of FuzzAletheia depends on whether the clustering produces biologically meaningful and reproducible interaction states. If the clustering is arbitrary or unstable, the derived modification sites and optimization guidance would lack a valid basis.  
+  - **Resolution test** Provide a detailed methods section describing the clustering algorithm, input features, parameter selection, and validation strategy, including tests of cluster stability across replicate simulations or parameter perturbations.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "The most potent compound achieved a 10-fold enhancement in activity."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract reports a single activity value without assay details, error estimates, replicate counts, or comparison to the parent compound under identical conditions. A 10-fold enhancement is meaningful only if the assay is robust and the comparison is controlled.  
+  - **Why it matters** The claim of accelerated hit optimization rests on this experimental result. If the activity difference is within assay variability or if the comparison is not properly controlled, the central practical benefit of the method is not established.  
+  - **Resolution test** Provide dose-response curves, replicate measurements, statistical analysis, and a clear description of the assay and conditions for both the parent compound and the derivatives.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The method "accelerate[s] IDP hit optimization" as a general capability.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract presents a single application to one IDP and one hit compound. No evidence is provided that the workflow transfers to other IDP-ligand systems with different dynamic behaviors or interaction patterns.  
+  - **Why it matters** The title and framing suggest a broadly applicable tool. A single case study, even if successful, does not establish generalizability, which is important for a method paper claiming broad utility.  
+  - **Resolution test** Include at least one additional IDP-ligand system or provide a clear discussion of the expected scope and limitations of the method.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Molecular dynamics simulation setup  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** No information is given on the force field, water model, simulation length, temperature, or number of replicates used for the molecular dynamics simulations.  
+  - **Required correction** Specify all simulation parameters in the methods section.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "spatiotemporally stable binding features"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The term is introduced without a precise definition, making it difficult to understand what the method actually detects.  
+  - **Required correction** Provide an explicit operational definition of spatiotemporal stability in the context of the clustering approach.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Derivative design rationale  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract states that six derivatives were designed and synthesized but does not indicate how the FuzzAletheia analysis specifically guided the design choices.  
+  - **Required correction** Describe the relationship between the identified binding features and the structural modifications made in the derivatives.
+
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The methodological details of the clustering approach and the experimental evidence for the 10-fold activity enhancement must be provided and validated before the central claims can be accepted.
+
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of mapping dynamic interaction landscapes for IDP-ligand complexes to guide optimization is a novel contribution to a challenging area. The originality is promising but cannot be fully assessed without methodological detail.  
+  - **Scientific importance** The problem of IDP drug discovery is of high importance, and a validated tool that accelerates hit optimization would be a significant advance. The importance is clear from the abstract.  
+  - **Interdisciplinary readership** The work bridges computational chemistry, structural biology, and medicinal chemistry. The abstract is written accessibly, but the technical depth required to evaluate the method may limit immediate accessibility to nonspecialists.  
+  - **Technical soundness** Not assessable from the abstract. The clustering methodology and the experimental validation are not described in sufficient detail.  
+  - **Readability for nonspecialists** The abstract is clear and well structured, with the problem, method, and result presented in a logical order. Technical terms are used appropriately but may require some background knowledge.
+
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting concept and a promising case study, but the lack of methodological and experimental detail prevents a supportive recommendation. If the full manuscript addresses the blocking concerns, the work could become a valuable contribution to the field.

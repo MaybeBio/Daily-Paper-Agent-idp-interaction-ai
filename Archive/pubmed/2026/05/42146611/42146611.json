@@ -1,0 +1,265 @@
+{
+  "identity": {
+    "pmid": "42146611",
+    "doi": "10.64898/2026.05.05.723039",
+    "title": "Deep Computational Anatomy via Latent-Aligned Multiview Normalizing Flows."
+  },
+  "content": {
+    "abstract": "In modeling complex probability distributions, normalizing flows provide exact-likelihood, bijective mappings between empirical data and tractable latent spaces. Building on this foundation, latent-aligned multiview normalizing (LAMNr) flows leverage these salient properties to learn shared latent subspaces across heterogeneous, multimodal datasets while simultaneously topologically unfolding the sampled data manifold into a continuous vector space. Formal latent-alignment constraints are used to model shared structural features separate from view-specific variations, coordinating latent projections into a shared geometric subspace. By applying this transformation in the context of biological imaging, the framework establishes a potential basis for a deep learning interpretation of foundational computational anatomy concepts, such as the population template, latent distances, and geodesic pairwise image interpolation. Additionally, the proposed framework enables closed-form conditional modeling for exact cross-view imputation and other latent space manipulations. Evaluations and illustrations on both imaging-derived phenotypes (IDPs) and multimodal MRI demonstrate the proposed framework and potential applications. To further motivate our work, we provide a robust and comprehensive, 2D and 3D open-source implementation in PyTorch, natively integrated with the ANTsX ecosystem (i.e., ANTsTorch) for efficient training and subsequent data transformation, manipulation, and analysis.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tustison, Nicholas J",
+        "Avants, Brian B",
+        "Cook, Philip A",
+        "Gee, James C",
+        "Stone, James R"
+      ],
+      "short_names": [
+        "Tustison NJ",
+        "Avants BB",
+        "Cook PA",
+        "Gee JC",
+        "Stone JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9418-5103",
+        "ORCID: 0000-0002-4212-3362",
+        "ORCID: 0000-0002-1985-8475",
+        "ORCID: 0000-0002-2258-0187"
+      ],
+      "affiliations": [
+        "Department of Radiology and Medical Imaging, University of Virginia, Charlottesville, VA.",
+        "Department of Radiology and Medical Imaging, University of Virginia, Charlottesville, VA.",
+        "Department of Radiology, University of Pennsylvania, Philadelphia, PA.",
+        "Department of Radiology, University of Pennsylvania, Philadelphia, PA.",
+        "Department of Radiology and Medical Imaging, University of Virginia, Charlottesville, VA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tustison, Nicholas J",
+        "short_name": "Tustison NJ",
+        "identifiers": [
+          "0000-0001-9418-5103"
+        ],
+        "affiliations": [
+          "Department of Radiology and Medical Imaging, University of Virginia, Charlottesville, VA."
+        ]
+      },
+      {
+        "full_name": "Avants, Brian B",
+        "short_name": "Avants BB",
+        "identifiers": [
+          "0000-0002-4212-3362"
+        ],
+        "affiliations": [
+          "Department of Radiology and Medical Imaging, University of Virginia, Charlottesville, VA."
+        ]
+      },
+      {
+        "full_name": "Cook, Philip A",
+        "short_name": "Cook PA",
+        "identifiers": [
+          "0000-0002-1985-8475"
+        ],
+        "affiliations": [
+          "Department of Radiology, University of Pennsylvania, Philadelphia, PA."
+        ]
+      },
+      {
+        "full_name": "Gee, James C",
+        "short_name": "Gee JC",
+        "identifiers": [
+          "0000-0002-2258-0187"
+        ],
+        "affiliations": [
+          "Department of Radiology, University of Pennsylvania, Philadelphia, PA."
+        ]
+      },
+      {
+        "full_name": "Stone, James R",
+        "short_name": "Stone JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology and Medical Imaging, University of Virginia, Charlottesville, VA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 May 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/18 12:43",
+    "fetched_at": "2026-09-18 03:25:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40419566",
+      "39919411",
+      "39235436",
+      "38632390",
+      "37950709",
+      "34227163",
+      "33907199",
+      "33796865",
+      "32396070",
+      "31351230",
+      "29377989",
+      "27862600",
+      "27643430",
+      "25181316",
+      "24879923",
+      "24817849",
+      "21930184",
+      "19818860",
+      "15516276"
+    ],
+    "similar": [
+      "42146611",
+      "42475469",
+      "27244756",
+      "31251209",
+      "22392706",
+      "37015566",
+      "42508236",
+      "33654579",
+      "35593869",
+      "40117987",
+      "42352485",
+      "42161036",
+      "29990089",
+      "37745533",
+      "34637382",
+      "40606332",
+      "31329151",
+      "37292973",
+      "30571651",
+      "41487138",
+      "34303890",
+      "39369634",
+      "41750280",
+      "27655043",
+      "32866107",
+      "35766221",
+      "38517724",
+      "38494061",
+      "40439703",
+      "41604705",
+      "41318360",
+      "39231053",
+      "42351452",
+      "32287010",
+      "25095265",
+      "29994781",
+      "38052076",
+      "34370671",
+      "41744270",
+      "34191743",
+      "41534153",
+      "31442979",
+      "33459255",
+      "34432638",
+      "42055992",
+      "41503270",
+      "32386174",
+      "41676545",
+      "41192305",
+      "28562222",
+      "42098353",
+      "38530724",
+      "37120080",
+      "37585332",
+      "40363217",
+      "22318490",
+      "38061777",
+      "30281508",
+      "42326564",
+      "36175853",
+      "35816534",
+      "32795232",
+      "41699969",
+      "41654286",
+      "31226094",
+      "36094989",
+      "36459654",
+      "41370158",
+      "41780447",
+      "42315603",
+      "42265060",
+      "42335952",
+      "37310818",
+      "41515632",
+      "39243598",
+      "38266474",
+      "41584869",
+      "30990450",
+      "30794195",
+      "41547064",
+      "40665474",
+      "41257571",
+      "35476581",
+      "40030920",
+      "40526534",
+      "42191532",
+      "38667705",
+      "28436903",
+      "42568598",
+      "41106211",
+      "37300060",
+      "32175877",
+      "40203514",
+      "36130281",
+      "36086377",
+      "39919411",
+      "31731045",
+      "36459804",
+      "42140144",
+      "38746199"
+    ],
+    "review": [
+      "42146611"
+    ],
+    "pmc": [
+      "13174527"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42146611/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.05.05.723039",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

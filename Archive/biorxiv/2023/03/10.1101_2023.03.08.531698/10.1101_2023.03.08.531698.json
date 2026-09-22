@@ -1,0 +1,283 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.08.531698",
+  "title": "Histone variants shape chromatin states in Arabidopsis",
+  "doi": "10.1101/2023.03.08.531698",
+  "abstract": "<h4>Summary</h4> How different intrinsic sequence variation or regulatory modifications of histones regulate nucleosome interactions with transcription remain unclear. By contrast with H3 and H2B variants, H2A variants occupy specific domains of chromatin in Arabidopsis thaliana. Broad domains of chromatin are affected by the loss of remodelers that affect the deposition or the exchange of H2A variants. Notably, the chromatin remodeler DECREASED IN DNA METHYLATION (DDM1) is required to maintain enrichment in all markers of constitutive heterochromatin including DNA methylation, H3K9me1/2 and the variant H2A.W. To test the importance of histone variants in the organization of chromatin we investigated how histone variants and histone modifications assemble in the Arabidopsis thaliana genome and showed that a limited number of chromatin states divide euchromatin and heterochromatin into several subdomains. We found that histone variants are as significant as histone modifications in determining the composition of chromatin states. Particularly strong associations were observed between H2A variants and specific combinations of histone modifications. To study the role of H2A variants in organizing chromatin states we determined the role the chromatin remodeler DECREASED IN DNA METHYLATION (DDM1) in the organization of chromatin states. We showed that the loss of DDM1 prevented the exchange of the histone variant H2A.Z to H2A.W in constitutive heterochromatin, resulting in significant effects on the definition and distribution of chromatin states in and outside of heterochromatin. We thus propose that dynamic exchanges of histone variants control the organization of histone modifications into chromatin states, acting as molecular landmarks.",
+  "authors": [
+    "Jamge B",
+    "Lorković ZJ",
+    "Axelsson E",
+    "Osakabe A",
+    "Shukla V",
+    "Yelagandula R",
+    "Akimcheva S",
+    "Kuehn AL",
+    "Berger F"
+  ],
+  "published_date": "2023-03-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531698",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531698.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR628452",
+    "raw_record": {
+      "id": "PPR628452",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR628452"
+        ]
+      },
+      "doi": "10.1101/2023.03.08.531698",
+      "title": "Histone variants shape chromatin states in Arabidopsis",
+      "authorString": "Jamge B, Lorković ZJ, Axelsson E, Osakabe A, Shukla V, Yelagandula R, Akimcheva S, Kuehn AL, Berger F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Jamge B",
+            "lastName": "Jamge",
+            "firstName": "Bhagyshree",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gregor Mendel Institute, Austrian Academy of Sciences, Vienna BioCenter, Dr. Bohr-Gasse 3, 1030 Vienna, Austria"
+                },
+                {
+                  "affiliation": "Vienna BioCenter PhD Program, Doctoral School of the University of Vienna and Medical University of Vienna, A-1030, Vienna, Austria"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lorković ZJ",
+            "lastName": "Lorković",
+            "firstName": "Zdravko",
+            "initials": "ZJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gregor Mendel Institute, Austrian Academy of Sciences, Vienna BioCenter, Dr. Bohr-Gasse 3, 1030 Vienna, Austria"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Axelsson E",
+            "lastName": "Axelsson",
+            "firstName": "Elin",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gregor Mendel Institute, Austrian Academy of Sciences, Vienna BioCenter, Dr. Bohr-Gasse 3, 1030 Vienna, Austria"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Osakabe A",
+            "lastName": "Osakabe",
+            "firstName": "Akihisa",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gregor Mendel Institute, Austrian Academy of Sciences, Vienna BioCenter, Dr. Bohr-Gasse 3, 1030 Vienna, Austria"
+                },
+                {
+                  "affiliation": "Department of Biological Sciences, Graduate School of Science, The University of Tokyo, Hongo, Bunkyo-ku, Tokyo, 113-0033, Japan"
+                },
+                {
+                  "affiliation": "PRESTO, Japan Science and Technology Agency, Honcho, Kawaguchi, Saitama, 332-0012, Japan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shukla V",
+            "lastName": "Shukla",
+            "firstName": "Vikas",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gregor Mendel Institute, Austrian Academy of Sciences, Vienna BioCenter, Dr. Bohr-Gasse 3, 1030 Vienna, Austria"
+                },
+                {
+                  "affiliation": "Vienna BioCenter PhD Program, Doctoral School of the University of Vienna and Medical University of Vienna, A-1030, Vienna, Austria"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yelagandula R",
+            "lastName": "Yelagandula",
+            "firstName": "Ramesh",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gregor Mendel Institute, Austrian Academy of Sciences, Vienna BioCenter, Dr. Bohr-Gasse 3, 1030 Vienna, Austria"
+                },
+                {
+                  "affiliation": "Institute of Molecular Biotechnology, IMBA, Dr. Bohr-Gasse 3, 1030 Vienna, Austria"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Akimcheva S",
+            "lastName": "Akimcheva",
+            "firstName": "Svetlana",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gregor Mendel Institute, Austrian Academy of Sciences, Vienna BioCenter, Dr. Bohr-Gasse 3, 1030 Vienna, Austria"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kuehn AL",
+            "lastName": "Kuehn",
+            "firstName": "Annika Luisa",
+            "initials": "AL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gregor Mendel Institute, Austrian Academy of Sciences, Vienna BioCenter, Dr. Bohr-Gasse 3, 1030 Vienna, Austria"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Berger F",
+            "lastName": "Berger",
+            "firstName": "Frédéric",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3609-8260"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gregor Mendel Institute, Austrian Academy of Sciences, Vienna BioCenter, Dr. Bohr-Gasse 3, 1030 Vienna, Austria"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3609-8260"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Summary</h4>  How different intrinsic sequence variation or regulatory modifications of histones regulate nucleosome interactions with transcription remain unclear. By contrast with H3 and H2B variants, H2A variants occupy specific domains of chromatin in  Arabidopsis thaliana. Broad domains of chromatin are affected by the loss of remodelers that affect the deposition or the exchange of H2A variants. Notably, the chromatin remodeler DECREASED IN DNA METHYLATION (DDM1) is required to maintain enrichment in all markers of constitutive heterochromatin including DNA methylation, H3K9me1/2 and the variant H2A.W. To test the importance of histone variants in the organization of chromatin we investigated how histone variants and histone modifications assemble in the  Arabidopsis thaliana genome and showed that a limited number of chromatin states divide euchromatin and heterochromatin into several subdomains. We found that histone variants are as significant as histone modifications in determining the composition of chromatin states. Particularly strong associations were observed between H2A variants and specific combinations of histone modifications. To study the role of H2A variants in organizing chromatin states we determined the role the chromatin remodeler DECREASED IN DNA METHYLATION (DDM1) in the organization of chromatin states. We showed that the loss of DDM1 prevented the exchange of the histone variant H2A.Z to H2A.W in constitutive heterochromatin, resulting in significant effects on the definition and distribution of chromatin states in and outside of heterochromatin. We thus propose that dynamic exchanges of histone variants control the organization of histone modifications into chromatin states, acting as molecular landmarks.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/05/11/2023.03.08.531698.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.03.08.531698"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR628452"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR628452&type=FILE&fileName=EMS172089-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37467143",
+            "reference": "eLife. \n    2023 Jul;12:RP87714",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS172089",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-03-12",
+      "firstPublicationDate": "2023-03-10",
+      "firstIndexDate": "2023-03-12",
+      "fullTextReceivedDate": "2023-05-27",
+      "hasEvaluations": "Y"
+    }
+  }
+}

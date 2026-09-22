@@ -1,0 +1,248 @@
+{
+  "identity": {
+    "pmid": "40236119",
+    "doi": "10.1101/2025.03.20.644249",
+    "title": "The Origin of the Ionic-strength Dependent Reentrant Behavior in Liquid-Liquid Phase Separation of Uncharged IDPs."
+  },
+  "content": {
+    "abstract": "The effect of salt on coacervation of synthetic or biological polyelectrolytes and polyampholytes is well-studied. However, recent experiments showed that largely uncharged IDPs (like FUS) also undergo LLPS at physiological salt concentrations such as [C(ion)]~0.15M, dissolve at higher salt concentration, and again phase separate at even higher salt concentrations such as, [C(ion)]~3M. Here we use analytical theory and simulations to reveal the mechanism of these transitions. At low [C(ion)], the ionic solution acts as a highly correlated medium conferring long-range effective attractive interactions between spatially distant monomers. In this regime the ion concentration inside the condensate is higher than in the bulk solution. As [C(ion)] increases, the correlation length in the ionic plasma decreases, and the condensate dissolves. Second LLPS at high [C(ion)] is due to the entropy-driven crowding, and ion concentration inside the condensate is lower than in the bulk. Our study unravels a general physical mechanism of salt-dependent reentrant behavior in LLPS in uncharged IDPs.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mondal, Sayantan",
+        "Shakhnovich, Eugene"
+      ],
+      "short_names": [
+        "Mondal S",
+        "Shakhnovich E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4612-7758",
+        "ORCID: 0000-0002-4769-2265"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Chemical Biology, Harvard University 12 Oxford St. Cambridge MA 02138, U.S.A.",
+        "Department of Chemistry and Chemical Biology, Harvard University 12 Oxford St. Cambridge MA 02138, U.S.A."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mondal, Sayantan",
+        "short_name": "Mondal S",
+        "identifiers": [
+          "0000-0002-4612-7758"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Harvard University 12 Oxford St. Cambridge MA 02138, U.S.A."
+        ]
+      },
+      {
+        "full_name": "Shakhnovich, Eugene",
+        "short_name": "Shakhnovich E",
+        "identifiers": [
+          "0000-0002-4769-2265"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Harvard University 12 Oxford St. Cambridge MA 02138, U.S.A."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Aug 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/16 06:19",
+    "fetched_at": "2026-09-21 18:01:25"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40028898",
+      "38407041",
+      "37853696",
+      "37073403",
+      "37043540",
+      "36227467",
+      "35377637",
+      "35179885",
+      "34476121",
+      "34221333",
+      "33782607",
+      "33515602",
+      "33319830",
+      "33307683",
+      "33237286",
+      "32484438",
+      "32302572",
+      "32207974",
+      "32134099",
+      "31974256",
+      "31543265",
+      "31325933",
+      "30873835",
+      "29961577",
+      "29364893",
+      "29313527",
+      "28790177",
+      "28225081",
+      "27392146",
+      "25288112",
+      "23057830",
+      "22398450",
+      "18232845",
+      "15267302",
+      "8744570"
+    ],
+    "similar": [
+      "40236119",
+      "41965924",
+      "35944496",
+      "40066891",
+      "41804277",
+      "34984429",
+      "39466031",
+      "41930927",
+      "30996987",
+      "33597515",
+      "38435530",
+      "30205960",
+      "41457474",
+      "39947751",
+      "32808784",
+      "31325933",
+      "32824618",
+      "40693839",
+      "39432752",
+      "29210575",
+      "42223083",
+      "33302617",
+      "41535729",
+      "32007034",
+      "20401522",
+      "42397882",
+      "40792356",
+      "32432453",
+      "40516596",
+      "38973194",
+      "36443315",
+      "40698779",
+      "42280196",
+      "39044475",
+      "34156864",
+      "28191978",
+      "26849155",
+      "42692763",
+      "38526948",
+      "37662293",
+      "40028898",
+      "30950394",
+      "33260713",
+      "41785961",
+      "41363845",
+      "40278867",
+      "42283756",
+      "35883530",
+      "39980654",
+      "39865610",
+      "37039349",
+      "34206440",
+      "37276246",
+      "33735576",
+      "36900563",
+      "37494702",
+      "38464093",
+      "36524527",
+      "39473462",
+      "35435684",
+      "38547652",
+      "35644946",
+      "39575590",
+      "39372747",
+      "30384692",
+      "38949285",
+      "39898481",
+      "37668019",
+      "36444977",
+      "33890467",
+      "38862770",
+      "38407041",
+      "37001915",
+      "38245749",
+      "34984754",
+      "33299652",
+      "28159365",
+      "36883003",
+      "31188388",
+      "26756795",
+      "26237070",
+      "23912807",
+      "32426986",
+      "33057154",
+      "27846698",
+      "34716273",
+      "41001641",
+      "39605385",
+      "40966042",
+      "39302099",
+      "36231107",
+      "36703474",
+      "41544898",
+      "36310206",
+      "39761364",
+      "35943083",
+      "31139718",
+      "36671427",
+      "38997630",
+      "17201449"
+    ],
+    "review": [
+      "40236119",
+      "39947751",
+      "32824618",
+      "33260713",
+      "36524527",
+      "38547652",
+      "38245749"
+    ],
+    "pmc": [
+      "11996367"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40236119/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.03.20.644249",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42432205",
+  "title": "The allostery principle supports the symbolic character of signaling circuits: gene regulation provides a form of intelligence to living systems.",
+  "authors": "Collado-Vides, Julio",
+  "journal": "Theory in biosciences = Theorie in den Biowissenschaften",
+  "published_date": "2026-07-11",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 3,
+  "one_liner_zh": "该文提出变构原理作为基因调控的符号化组织原则，虽提及无序蛋白与可变剪接作为真核平台，但聚焦于理论框架与进化符号爆炸，未涉及无序蛋白介导的PPI机制建模或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Biology faces the challenge of articulating general principles capable of organizing and conceptually integrating its immense diversity. Since the operon and allosteric models of the 1960s, the regulatory landscape has expanded dramatically. Building on classical allosteric regulation, I propose the allostery principle, which stipulates that the combinatorial diversity in gene regulation arises from the use of two independent sites that can link any two molecular species within a signaling process, independent of specific mechanistic implementations. I provide empirical evidence that the allostery principle has been implemented repeatedly in six distinct molecular platforms during evolution, generating symbolic genetic explosions that expanded the combinatorial diversity of gene regulation. Four involve bacterial genetic platforms, including protein regulators, promoters, and small RNAs. Two involve eukaryotic platforms: intrinsically disordered proteins coupled with alternative splicing, and the extensive complex multicellular eukaryotic regulation mediated by non-coding RNAs. Remarkably, the central Merge operation within the minimalist generative model of the human language faculty-another symbolic explosion in evolution-conceptually satisfies the allostery principle. I further propose that regulatory signaling fluxes constitute a theory physically instantiated within organisms' architecture, functioning as a compressed representation with a strong explanatory power of its capabilities. The concept of missing regulatability provides the required falsifiability for this theoretical construct. Gene regulation implements physiological capabilities whose global significance derives from alignment with universally encoded biological ends-survival, reproduction, development, and differentiation. A system that responds to the environment making the adequate changes to achieve its final ends is showing the ability to instantiate intelligent actions. Therefore, gene regulation provides a form of intelligence to biological systems. This definition matches with intelligence in physical symbol systems formalized early in artificial intelligence. Adequate interpretations of these results and their implications are discussed. \"It is the union of passionate interest in the detailed facts with equal devotion to abstract generalization which forms the novelty in our present society\" (Whitehead 1925).",
+  "abstract_zh": "生物学面临的一个挑战是，如何阐述能够组织并概念性整合其巨大多样性的普遍原理。自20世纪60年代的操纵子与别构模型以来，调控领域已急剧扩展。在经典别构调控的基础上，我提出别构原理 (allostery principle)，该原理规定，基因调控中的组合多样性源于使用两个独立位点，这些位点可以在信号传导过程中连接任意两种分子种类，而不依赖于特定的机制实现。我提供了经验证据表明，别构原理在进化过程中已在六种不同的分子平台上反复实现，产生了象征性的遗传爆炸，扩展了基因调控的组合多样性。其中四种涉及细菌遗传平台，包括蛋白质调控因子、启动子和小RNA。两种涉及真核平台：与选择性剪接耦合的内在无序蛋白质，以及由非编码RNA介导的广泛复杂多细胞真核调控。值得注意的是，人类语言能力的最小生成模型中的核心合并操作——进化中的另一次象征性爆炸——在概念上符合别构原理。我进一步提出，调控信号流构成了一种在生物体结构内物理实现的理论，作为一种压缩表示，对其能力具有强大的解释力。缺失可调控性 (missing regulatability) 的概念为该理论构建提供了所需的可证伪性。基因调控实现生理能力，其全局意义源于与普遍编码的生物目的——生存、繁殖、发育和分化——的一致性。一个对环境作出反应并进行适当改变以实现其最终目的的系统，展示了实例化智能行为的能力。因此，基因调控为生物系统提供了一种智能形式。这一定义与人工智能早期形式化的物理符号系统中的智能相匹配。对这些结果及其含义的适当解释进行了讨论。“对细节事实的热情兴趣与对抽象概括的同等投入相结合，构成了我们当前社会的新颖之处”（Whitehead 1925）。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42432205/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42432205/",
+  "paper_page_path": "papers/pubmed/42432205/index.html"
+}

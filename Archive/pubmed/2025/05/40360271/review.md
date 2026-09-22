@@ -1,0 +1,79 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, without access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose TIDGN, a transfer learning-based invariant geometric dynamic graph model, to predict interactions of intrinsically disordered proteins (IDPs). The model includes a pretraining task module for learning dynamic structural encoding of IDP monomers and a downstream task module for interaction site prediction. Training data are generated from all-atom molecular dynamics (MD) simulations, covering both homotypic and heterotypic interactions. The authors report enhanced performance via transfer learning, particularly for heterotypic interactions, and highlight the importance of invariant geometric graph features through ablation analysis.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset descriptions, model architecture details, or evaluation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset construction details, MD simulation parameters, model hyperparameters, baseline comparisons, statistical significance tests, and ablation study results
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting application of transfer learning to a challenging and understudied problem, namely IDP interaction prediction with limited training data. The integration of invariant geometric graph networks with dynamic structural encoding from MD simulations is a plausible and potentially valuable direction. However, the abstract provides no quantitative evidence to support the claimed performance improvements, and several key methodological aspects remain unclear. The scientific case is not established from the supplied material alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein interaction prediction, particularly those focused on intrinsically disordered proteins and phase separation. Researchers developing machine learning methods for biomolecular systems with scarce labeled data may also find the transfer learning approach relevant. Experimentalists studying IDP interactions via NMR or other biophysical methods could benefit from improved predictive tools, though the practical utility depends on validation against experimental data, which is not described here.
+- **Major strengths** The problem is well motivated, as IDP interactions are biologically important and experimentally challenging. The proposed transfer learning strategy directly addresses the data scarcity issue, which is a recognized bottleneck in this domain. The use of MD simulations to generate training data is a reasonable approach to circumvent the lack of experimental labels. The consideration of both homotypic and heterotypic interactions adds breadth to the study.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "the transfer learning strategy effectively enhances the model's performance" and that "TIDGN performs well for the heterotypic interaction prediction."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No quantitative results are presented. There are no performance metrics, baseline comparisons, or statistical analyses to support the claims of enhanced performance or good performance on heterotypic interactions. The abstract does not specify what "performs well" means in terms of accuracy, precision, recall, AUC, or any other metric.
+  - **Why it matters** Without quantitative evidence, the central claims of the paper cannot be evaluated. The reader cannot assess whether the proposed method offers a meaningful improvement over existing approaches or whether the reported performance is statistically robust.
+  - **Resolution test** Provide specific performance metrics (e.g., AUC, F1 score, precision, recall) for TIDGN compared to appropriate baselines, including confidence intervals or significance tests, for both homotypic and heterotypic interaction predictions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract describes a "pretraining task module" and a "downstream task module" but does not specify the nature of the pretraining task or how the learned representations are transferred.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The transfer learning framework is described only at a high level. It is unclear what the pretraining task is (e.g., self-supervised reconstruction, contrastive learning, or a supervised auxiliary task), how the dynamic structural encoding is defined, and how the pretrained representations are integrated into the downstream interaction site prediction task.
+  - **Why it matters** The novelty and utility of the method depend on the specific design of the transfer learning approach. Without details, the approach cannot be reproduced or compared with other transfer learning strategies in the literature.
+  - **Resolution test** Describe the pretraining objective, the architecture of both modules, the transfer mechanism (e.g., fine-tuning, feature extraction), and the input features used for dynamic structural encoding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data validity
+  - **Claim pointer** The abstract states that "the IDP monomer structure data set and the IDP interaction event data set are constructed using all-atom molecular dynamics (MD) simulations."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which IDP systems were simulated, the simulation lengths, force fields, or how interaction events were defined and labeled. The reliability of the training labels is critical, as MD-derived interaction events may not correspond to biologically relevant interactions without careful validation.
+  - **Why it matters** If the training data are not representative of real IDP interactions or if the labeling is noisy, the model's predictions may not generalize to experimental contexts. The scientific validity of the entire approach depends on the quality and relevance of the simulated data.
+  - **Resolution test** Provide details on the IDP sequences studied, simulation protocols, criteria for defining interaction events, and any validation against experimental data (e.g., known interaction partners or NMR-derived contacts).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract claims that "the integration of transfer learning and the invariant geometric graph network offers a promising approach for addressing data scarcity challenges of IDP interaction prediction."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not discuss how the model would generalize to IDPs not represented in the training set, to different types of interactions, or to experimental data. The claim of "promising" is speculative without evidence of generalization performance.
+  - **Why it matters** For a predictive model to be useful, it must generalize beyond the training distribution. The abstract provides no indication of whether the model was tested on held-out IDPs or on experimental datasets.
+  - **Resolution test** Include evaluation on held-out IDP systems not used in training, and if possible, test on experimentally validated IDP interactions to demonstrate practical utility.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model name and description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The acronym TIDGN is introduced but the full expansion is not repeated in the abstract, and the term "invariant geometric dynamic graph model" is not explained.
+  - **Required correction** Briefly define what "invariant geometric" refers to (e.g., rotation and translation invariance of graph features) and clarify the model's input and output.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Ablation analysis
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "feature ablation analysis" but does not specify which features were ablated or the magnitude of the effect.
+  - **Required correction** Summarize the key ablation findings, such as which features were most important and the performance drop when removed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison with existing methods
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** No comparison with existing IDP interaction prediction methods or general protein interaction predictors is mentioned.
+  - **Required correction** State how TIDGN compares with at least one baseline method to contextualize the claimed improvements.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence), R1-M2 (insufficient methodological detail), R1-M3 (unvalidated training data)
+- **Assessment against Nature-style criteria** Originality: The combination of transfer learning with invariant geometric graph networks for IDP interaction prediction appears novel, though the abstract does not fully distinguish it from prior work. Scientific importance: The problem is important, but the abstract does not demonstrate that the method advances the field beyond existing tools. Interdisciplinary readership: The topic bridges computational biology and biophysics, but the abstract is too technical for a broad audience without more context. Technical soundness: Cannot be assessed from the abstract alone; the lack of quantitative results and methodological details precludes evaluation. Readability for nonspecialists: The abstract is reasonably clear but assumes familiarity with IDP biology and graph neural networks.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach but lacks the quantitative and methodological detail necessary to support the claims. A full manuscript with results, baselines, and data validation would be required to assess the contribution.
+
+## Risk / unsupported claims
+- The claim that "the transfer learning strategy effectively enhances the model's performance" is unsupported without quantitative comparisons.
+- The claim that "TIDGN performs well for the heterotypic interaction prediction" is unsupported without specific metrics.
+- The claim that "the integration of transfer learning and the invariant geometric graph network offers a promising approach" is speculative without evidence of generalization.
+- The adequacy of MD simulation-derived training data for representing real IDP interactions is unverified.

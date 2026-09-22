@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "37211763",
+    "doi": "10.1016/j.bpj.2023.05.018",
+    "title": "Modeling the effects of phosphorylation on phase separation of the FUS low-complexity domain."
+  },
+  "content": {
+    "abstract": "Aggregation of the RNA-binding protein fused in sarcoma (FUS) is a hallmark of neurodegenerative diseases. Phosphorylation of Ser/Thr in the FUS low-complexity domain (FUS-LC) may regulate phase separation of FUS and prevent pathological aggregation in cells. However, many details of this process remain elusive to date. In this work, we systematically investigated the phosphorylation of FUS-LC and the underlying molecular mechanism by molecular dynamics (MD) simulations and free energy calculations. The results clearly show that phosphorylation can destroy the fibril core structure of FUS-LC by breaking interchain interactions, particularly contacts involving residues like Tyr, Ser, and Gln. Among the six phosphorylation sites, Ser61 and Ser84 may have more important effects on the stability of the fibril core. Our study reveals structural and dynamic details of FUS-LC phase separation modulated by phosphorylation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phosphorylation",
+      "Protein Domains",
+      "*Molecular Dynamics Simulation",
+      "*RNA-Binding Proteins/metabolism",
+      "RNA-Binding Protein FUS/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Mingwei",
+        "Chen, Guanglin",
+        "Zhang, Zhiyong"
+      ],
+      "short_names": [
+        "Li M",
+        "Chen G",
+        "Zhang Z"
+      ],
+      "auids": [],
+      "affiliations": [
+        "MOE Key Laboratory for Cellular Dynamics and Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui, P.R. China.",
+        "Department of Physics, University of Science and Technology of China, Hefei, Anhui, P.R. China.",
+        "MOE Key Laboratory for Cellular Dynamics and Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui, P.R. China; Department of Physics, University of Science and Technology of China, Hefei, Anhui, P.R. China. Electronic address: zzyzhang@ustc.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Mingwei",
+        "short_name": "Li M",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Cellular Dynamics and Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Guanglin",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Science and Technology of China, Hefei, Anhui, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Zhiyong",
+        "short_name": "Zhang Z",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Cellular Dynamics and Division of Life Sciences and Medicine, University of Science and Technology of China, Hefei, Anhui, P.R. China; Department of Physics, University of Science and Technology of China, Hefei, Anhui, P.R. China. Electronic address: zzyzhang@ustc.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2023 Jul 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/22 06:42",
+    "fetched_at": "2026-09-20 22:20:06"
+  },
+  "links": {
+    "cites": [
+      "42465288",
+      "41224766"
+    ],
+    "refs": [
+      "35702028",
+      "33582133",
+      "33302617",
+      "31805282",
+      "31790873",
+      "31723601",
+      "31479821",
+      "31270472",
+      "31260322",
+      "30865832",
+      "30173914",
+      "29610493",
+      "29364893",
+      "28942918",
+      "28790177",
+      "28575444",
+      "28225081",
+      "27544113",
+      "27289443",
+      "27212236",
+      "27056844",
+      "27051975",
+      "26727894",
+      "26619985",
+      "26596457",
+      "26317470",
+      "25531407",
+      "25400877",
+      "25289647",
+      "25288112",
+      "23953108",
+      "22509003",
+      "21763600",
+      "20813183",
+      "20190788",
+      "20055378",
+      "19674978",
+      "19460965",
+      "19394210",
+      "17212484",
+      "16982415",
+      "16981200",
+      "16698771",
+      "16211538",
+      "15967811",
+      "12440955",
+      "8744570"
+    ],
+    "similar": [
+      "37211763",
+      "31805282",
+      "33184287",
+      "35709363",
+      "28942918",
+      "37399327",
+      "33547841",
+      "34516126",
+      "28790177",
+      "35297101",
+      "34654750",
+      "31270472",
+      "32231288",
+      "29610493",
+      "31895552",
+      "26455390",
+      "29897835",
+      "37890778",
+      "28924037",
+      "35036880",
+      "29677515",
+      "37155880",
+      "36945688",
+      "34759379",
+      "33607084",
+      "37231298",
+      "33307683",
+      "31022909",
+      "34862761",
+      "33758287",
+      "34487489",
+      "37158592",
+      "28432364",
+      "31188823",
+      "24842888",
+      "33022038",
+      "29677513",
+      "31240261",
+      "31479821",
+      "28389532",
+      "38458997",
+      "32687767",
+      "18620545",
+      "38070499",
+      "35709984",
+      "38347806",
+      "27731383",
+      "27381509",
+      "35320731",
+      "24013423",
+      "34156864",
+      "32426986",
+      "36690069",
+      "30581145",
+      "24267890",
+      "32915994",
+      "33311468",
+      "34233002",
+      "21856723",
+      "35943083",
+      "29677514",
+      "29961577",
+      "38492239",
+      "38157426",
+      "26317470",
+      "32877292",
+      "31067465",
+      "39372747",
+      "33705755",
+      "29547565",
+      "35134572",
+      "25494299",
+      "23249733",
+      "30455313",
+      "24256263",
+      "23048034",
+      "33159856",
+      "29755516",
+      "34624313",
+      "39211498",
+      "34018649",
+      "30205960",
+      "33857479",
+      "22563080",
+      "33262375",
+      "25009283",
+      "27283512",
+      "22240165",
+      "37130459",
+      "37906538",
+      "24738488",
+      "24268778",
+      "20541619",
+      "36453011",
+      "21327870",
+      "38311174",
+      "33947944",
+      "30021151",
+      "35445401",
+      "27033831",
+      "38971830",
+      "38467846",
+      "39129227",
+      "38996511",
+      "39403745"
+    ],
+    "review": [
+      "37211763",
+      "37399327",
+      "31022909",
+      "31479821",
+      "28389532",
+      "29547565",
+      "25494299",
+      "24256263",
+      "29755516"
+    ],
+    "pmc": [
+      "10397571"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(23)00330-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37211763/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37211763",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

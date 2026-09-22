@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "37841837",
+    "doi": "10.21203/rs.3.rs-3385692/v1",
+    "title": "Affinity hierarchies and amphiphilic proteins underlie the co-assembly of nucleolar and heterochromatin condensates."
+  },
+  "content": {
+    "abstract": "Nucleoli are surrounded by Pericentromeric Heterochromatin (PCH), reflecting a close spatial association between the two largest biomolecular condensates in eukaryotic nuclei. This nuclear organizational feature is highly conserved and is disrupted in diseased states like senescence, however, the mechanisms driving PCH-nucleolar association are unclear. High-resolution live imaging during early Drosophila development revealed a highly dynamic process in which PCH and nucleolar formation is coordinated and interdependent. When nucleolus assembly was eliminated by deleting the ribosomal RNA genes (rDNA), PCH showed increased compaction and subsequent reorganization to a shell-like structure. In addition, in embryos lacking rDNA, some nucleolar proteins were redistributed into new bodies or 'neocondensates,' including enrichment in the core of the PCH shell. These observations, combined with physical modeling and simulations, suggested that nucleolar-PCH associations are mediated by a hierarchy of affinities between PCH, nucleoli, and 'amphiphilic' protein(s) that interact with both nucleolar and PCH components. This result was validated by demonstrating that the depletion of one candidate amphiphile, the nucleolar protein Pitchoune, significantly reduced PCH-nucleolar associations. Together, these results unveil a dynamic program for establishing nucleolar-PCH associations during animal development, demonstrate that nucleoli are required for normal PCH organization, and identify Pitchoune as an amphiphilic molecular link that promotes PCH-nucleolar associations. Finally, we propose that disrupting affinity hierarchies between interacting condensates can liberate molecules to form neocondensates or other aberrant structures that could contribute to cellular disease phenotypes.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rajshekar, Srivarsha",
+        "Adame-Arana, Omar",
+        "Bajpai, Gaurav",
+        "Lin, Kyle",
+        "Colmenares, Serafin",
+        "Safran, Samuel",
+        "Karpen, Gary H"
+      ],
+      "short_names": [
+        "Rajshekar S",
+        "Adame-Arana O",
+        "Bajpai G",
+        "Lin K",
+        "Colmenares S",
+        "Safran S",
+        "Karpen GH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5224-5531",
+        "ORCID: 0000-0001-5828-0584",
+        "ORCID: 0000-0002-0798-1492",
+        "ORCID: 0000-0003-1534-0385"
+      ],
+      "affiliations": [
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, USA.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot, Israel.",
+        "Max Planck Institute for the Physics of Complex Systems, Dresden, Germany.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, USA.",
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, USA.",
+        "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, USA.",
+        "Division of Biological Sciences and the Environment, Lawrence Berkeley National Laboratory, Berkeley, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rajshekar, Srivarsha",
+        "short_name": "Rajshekar S",
+        "identifiers": [
+          "0000-0002-5224-5531"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, USA."
+        ]
+      },
+      {
+        "full_name": "Adame-Arana, Omar",
+        "short_name": "Adame-Arana O",
+        "identifiers": [
+          "0000-0001-5828-0584"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot, Israel.",
+          "Max Planck Institute for the Physics of Complex Systems, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Bajpai, Gaurav",
+        "short_name": "Bajpai G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Lin, Kyle",
+        "short_name": "Lin K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, USA."
+        ]
+      },
+      {
+        "full_name": "Colmenares, Serafin",
+        "short_name": "Colmenares S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, USA."
+        ]
+      },
+      {
+        "full_name": "Safran, Samuel",
+        "short_name": "Safran S",
+        "identifiers": [
+          "0000-0002-0798-1492"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Physics, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Karpen, Gary H",
+        "short_name": "Karpen GH",
+        "identifiers": [
+          "0000-0003-1534-0385"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, USA.",
+          "Division of Biological Sciences and the Environment, Lawrence Berkeley National Laboratory, Berkeley, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Research square"
+    ],
+    "journal_abbrev": [
+      "Res Sq"
+    ],
+    "pub_date": "2023 Sep 29",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/16 06:48",
+    "fetched_at": "2026-09-21 02:10:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37683610",
+      "37549295",
+      "36644296",
+      "36533441",
+      "35037046",
+      "34916288",
+      "34129784",
+      "33661100",
+      "33510441",
+      "33307247",
+      "33169001",
+      "32873929",
+      "32737322",
+      "31543422",
+      "30808658",
+      "30656516",
+      "30442760",
+      "30099028",
+      "30044650",
+      "29887377",
+      "28935776",
+      "28855503",
+      "28636604",
+      "28636597",
+      "28575119",
+      "28115706",
+      "28035241",
+      "27250769",
+      "27212236",
+      "26935600",
+      "26878336",
+      "26776729",
+      "26351690",
+      "25349213",
+      "25195504",
+      "24690547",
+      "23873938",
+      "23834025",
+      "23562326",
+      "22291607",
+      "21368180",
+      "21295884",
+      "20826608",
+      "20361057",
+      "19815776",
+      "17807987",
+      "17159999",
+      "15817375",
+      "14765118",
+      "12368916",
+      "11867540",
+      "10753776",
+      "9716523"
+    ],
+    "similar": [
+      "37841837",
+      "37808710",
+      "36533441",
+      "25349213",
+      "27614293",
+      "37549295",
+      "35978024",
+      "26505814",
+      "28500793",
+      "16835752",
+      "993274",
+      "32203508",
+      "15552571",
+      "8735937",
+      "30311594",
+      "28068183",
+      "7983476",
+      "38099650",
+      "32332163",
+      "24223222",
+      "17466364",
+      "37808656",
+      "37759327",
+      "27605042",
+      "38247831",
+      "21327085",
+      "28069438",
+      "7688750",
+      "36200829",
+      "21326952",
+      "1723041",
+      "15464853",
+      "10848637",
+      "37586369",
+      "35321919",
+      "18253863",
+      "36203874",
+      "32405004",
+      "25481757",
+      "16638814",
+      "2460303",
+      "28823932",
+      "23285058",
+      "30736350",
+      "38020886",
+      "37034708",
+      "2265823",
+      "9560482",
+      "11900641",
+      "6705638",
+      "6428744",
+      "31493766",
+      "35830599",
+      "6169728",
+      "22649076",
+      "316784",
+      "38213308",
+      "26376167",
+      "15293212",
+      "36890225",
+      "28993479",
+      "21900751",
+      "9266759",
+      "8129175",
+      "37610836",
+      "37105967",
+      "28032386",
+      "28659485",
+      "25315210",
+      "21639891",
+      "17654824",
+      "14577129",
+      "25057015",
+      "35410715",
+      "34819354",
+      "31908012",
+      "16563129",
+      "17007106",
+      "32106410",
+      "9184085",
+      "11381093",
+      "10567578",
+      "3882724",
+      "28420437",
+      "592409",
+      "7988293",
+      "35607824",
+      "2686980",
+      "38263258",
+      "39077682",
+      "37886520",
+      "39258545"
+    ],
+    "review": [
+      "37841837",
+      "28500793",
+      "16835752",
+      "17466364",
+      "15464853",
+      "36203874",
+      "8129175",
+      "17654824",
+      "35410715"
+    ],
+    "pmc": [
+      "10571612"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37841837/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37841837",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21203/rs.3.rs-3385692/v1",
+        "provider": "Research Square",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

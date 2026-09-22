@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33806726",
+  "title": "Assessment of Amyloid Forming Tendency of Peptide Sequences from Amyloid Beta and Tau Proteins Using Force-Field, Semi-Empirical, and Density Functional Theory Calculations.",
+  "authors": "Muvva, Charuvaka; Murugan, Natarajan Arul; Subramanian, Venkatesan",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-04-04",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究用伞形采样和电子结构计算评估淀粉样蛋白与tau蛋白肽段的螺旋-β折叠转变自由能，虽聚焦淀粉样聚集而非IDP-PPI，但物理模拟方法对无序蛋白互作机制建模有可迁移启发。",
+  "abstract": "A wide variety of neurodegenerative diseases are characterized by the accumulation of protein aggregates in intraneuronal or extraneuronal brain regions. In Alzheimer's disease (AD), the extracellular aggregates originate from amyloid-beta proteins, while the intracellular aggregates are formed from microtubule-binding tau proteins. The amyloid forming peptide sequences in the amyloid-beta peptides and tau proteins are responsible for aggregate formation. Experimental studies have until the date reported many of such amyloid forming peptide sequences in different proteins, however, there is still limited molecular level understanding about their tendency to form aggregates. In this study, we employed umbrella sampling simulations and subsequent electronic structure theory calculations in order to estimate the energy profiles for interconversion of the helix to beta-sheet like secondary structures of sequences from amyloid-beta protein (KLVFFA) and tau protein (QVEVKSEKLD and VQIVYKPVD). The study also included a poly-alanine sequence as a reference system. The calculated force-field based free energy profiles predicted a flat minimum for monomers of sequences from amyloid and tau proteins corresponding to an alpha-helix like secondary structure. For the parallel and anti-parallel dimer of KLVFFA, double well potentials were obtained with the minima corresponding to alpha-helix and beta-sheet like secondary structures. A similar double well-like potential has been found for dimeric forms for the sequences from tau fibril. Complementary semi-empirical and density functional theory calculations displayed similar trends, validating the force-field based free energy profiles obtained for these systems.",
+  "abstract_zh": "多种神经退行性疾病以神经元内或神经元外脑区蛋白质聚集体的积累为特征。在阿尔茨海默病（Alzheimer's disease, AD）中，细胞外聚集体源自淀粉样β蛋白，而细胞内聚集体则由微管结合tau蛋白形成。淀粉样β肽和tau蛋白中的淀粉样形成肽序列负责聚集体的形成。迄今为止，实验研究已报道了许多不同蛋白质中的此类淀粉样形成肽序列，然而，关于其形成聚集体的倾向，分子层面的理解仍然有限。在本研究中，我们采用伞形采样模拟及随后的电子结构理论计算，以估算来自淀粉样β蛋白（KLVFFA）和tau蛋白（QVEVKSEKLD和VQIVYKPVD）的序列从螺旋到β折叠样二级结构相互转换的能量图谱。研究还包括一个多聚丙氨酸序列作为参考系统。计算得到的基于力场的自由能图谱预测，来自淀粉样和tau蛋白的单体序列存在一个平坦的最小值，对应于α螺旋样二级结构。对于KLVFFA的平行和反平行二聚体，获得了双阱势能，其最小值对应于α螺旋和β折叠样二级结构。对于tau纤维中的序列，其二聚体形式也发现了类似的双阱样势能。补充的半经验方法和密度泛函理论计算显示出相似趋势，验证了这些系统获得的基于力场的自由能图谱。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33806726/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33806726/",
+  "paper_page_path": "papers/pubmed/33806726/index.html"
+}

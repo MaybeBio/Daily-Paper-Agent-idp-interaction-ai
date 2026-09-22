@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "pmid": "40029731",
+    "doi": "10.1021/acs.jctc.4c01160",
+    "title": "Drugging Disordered Proteins by Conformational Selection to Inform Therapeutic Intervention."
+  },
+  "content": {
+    "abstract": "Drugging intrinsically disordered proteins (IDPs) has historically been a major challenge due to their lack of stable binding sites, conformational heterogeneity, and rapid ability to self-associate or bind nonspecific neighbors. Furthermore, it is unclear whether binders of disordered proteins (i) induce entirely new conformations or (ii) target transient prestructured conformations via stabilizing existing states. To distinguish between these two mechanisms, we utilize molecular dynamics simulations to induce structured conformations in islet amyloid polypeptide (IAPP), a disordered endocrine peptide implicated in Type II Diabetes. Using umbrella sampling, we measure conformation-specific affinities of molecules previously shown to bind IAPP to determine if they can discriminate between two distinct IAPP conformations (fixed in either alpha-helix or beta-sheet). We show that our two-state model of IAPP faithfully predicts the experimentally observed selectivity of two classes of IAPP binders while revealing differences in their molecular binding mechanisms. Specifically, the binding preferences of foldamers designed for human IAPP were not fully accounted for by conformational selection, unlike those of beta-breaking peptides designed to mimic IAPP self-assembly sequences. Furthermore, the binding of these foldamers, but not beta-breaking peptides, was disrupted by changes in the rat IAPP sequence. Taken together, our data quantify the sequence and conformational specificity for IAPP binders and reveal that conformational selection sometimes overrides sequence-level specificity. This work highlights the important role of conformational selection in stabilizing IDPs, and it reveals how fixed conformations can provide a tractable target for developing disordered protein binders.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Islet Amyloid Polypeptide/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Rats",
+      "Animals",
+      "Protein Conformation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bogin, Bryan A",
+        "Levine, Zachary A"
+      ],
+      "short_names": [
+        "Bogin BA",
+        "Levine ZA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7562-4008",
+        "ORCID: 0000-0003-0182-1081"
+      ],
+      "affiliations": [
+        "Department of Molecular Biophysics & Biochemistry, Yale University, New Haven, Connecticut 06520, United States.",
+        "Altos Laboratories, San Diego Institute of Science, San Diego, California 92121, United States.",
+        "Department of Molecular Biophysics & Biochemistry, Yale University, New Haven, Connecticut 06520, United States.",
+        "Department of Pathology, Yale School of Medicine, New Haven, Connecticut 06510, United States.",
+        "Altos Laboratories, San Diego Institute of Science, San Diego, California 92121, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bogin, Bryan A",
+        "short_name": "Bogin BA",
+        "identifiers": [
+          "0000-0002-7562-4008"
+        ],
+        "affiliations": [
+          "Department of Molecular Biophysics & Biochemistry, Yale University, New Haven, Connecticut 06520, United States.",
+          "Altos Laboratories, San Diego Institute of Science, San Diego, California 92121, United States."
+        ]
+      },
+      {
+        "full_name": "Levine, Zachary A",
+        "short_name": "Levine ZA",
+        "identifiers": [
+          "0000-0003-0182-1081"
+        ],
+        "affiliations": [
+          "Department of Molecular Biophysics & Biochemistry, Yale University, New Haven, Connecticut 06520, United States.",
+          "Department of Pathology, Yale School of Medicine, New Haven, Connecticut 06510, United States.",
+          "Altos Laboratories, San Diego Institute of Science, San Diego, California 92121, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2025 Mar 25",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/03 18:23",
+    "fetched_at": "2026-09-21 16:19:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40029731",
+      "24009497",
+      "30803034",
+      "28684415",
+      "21266296",
+      "24892388",
+      "26331261",
+      "36163697",
+      "28004495",
+      "28801684",
+      "25260075",
+      "21942864",
+      "29378116",
+      "23331123",
+      "27854243",
+      "29505875",
+      "31456396",
+      "31155148",
+      "30975901",
+      "23133593",
+      "39208885",
+      "27641459",
+      "28811318",
+      "26694855",
+      "32579908",
+      "26216991",
+      "32123956",
+      "21138275",
+      "34264642",
+      "29989407",
+      "32860895",
+      "29364151",
+      "32541895",
+      "23713771",
+      "25646717",
+      "21870807",
+      "31442763",
+      "22936797",
+      "39071267",
+      "26331242",
+      "39555603",
+      "10191146",
+      "28550295",
+      "17123962",
+      "27213520",
+      "24218607",
+      "25649462",
+      "22206987",
+      "23526456",
+      "30405276",
+      "23956012",
+      "11731221",
+      "31441158",
+      "19456151",
+      "35034725",
+      "40198840",
+      "28665109",
+      "25826050",
+      "17660321",
+      "31999880",
+      "22609945",
+      "25754474",
+      "26283787",
+      "33887213",
+      "29373018",
+      "27997176",
+      "22876830",
+      "39984300",
+      "30149632",
+      "30708285",
+      "39822034",
+      "32925900",
+      "25531836",
+      "33122085",
+      "34681811",
+      "37108059",
+      "31490518",
+      "26582441",
+      "22334700",
+      "23796517",
+      "35587203",
+      "29303519",
+      "29928798",
+      "20495767",
+      "33802170",
+      "24930968",
+      "16467158",
+      "24338965",
+      "26052838",
+      "23493863",
+      "19647750",
+      "30979035",
+      "24739176",
+      "21215287",
+      "20028124",
+      "33310020",
+      "34365921",
+      "26840340",
+      "35538665",
+      "39225636"
+    ],
+    "review": [
+      "40029731",
+      "28811318",
+      "29364151",
+      "39555603",
+      "11731221",
+      "31441158",
+      "30149632",
+      "26582441",
+      "30979035"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.4c01160",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

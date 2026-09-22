@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and main body as provided)
+- **Assessment boundary** Scientific content, conceptual coherence, and evidentiary support based solely on the supplied text
+- **Shared manuscript claim summary** The authors propose that cellular learning, desensitisation, stress, and aging can be unified along a single axis of increasing signalling intensity or frequency, and that anti-Hebbian mechanisms underlie desensitisation and forgetting in signalling networks
+- **Visible evidence base** Review article with cited literature, conceptual models, and examples from signalling pathways (e.g., NF-κB)
+- **Missing materials affecting confidence** Figures, tables, reference list, and detailed methodological or experimental data are not provided; the manuscript is a review, so primary experimental evidence is not expected but the depth of citation support cannot be fully assessed
+
+## Reviewer
+- **Overall assessment** This is a thought-provoking review that attempts to synthesise disparate concepts in cellular signalling into a unified framework. The central idea, that learning, desensitisation, stress, and aging share a common axis of signalling intensity, is intellectually appealing and could stimulate new research directions. However, the manuscript suffers from conceptual overreach, insufficient mechanistic depth, and a lack of clear operational definitions. The Hebbian and anti-Hebbian analogies are used loosely, and the proposed unification, while suggestive, is not rigorously argued. The clinical and drug design implications are presented without sufficient critical evaluation. The manuscript would benefit from substantial revision to clarify its claims and ground them more firmly in established evidence.
+- **Who would be interested in the results, and why** Systems biologists, computational neuroscientists interested in non-neuronal learning, and researchers in cellular stress and aging biology would find this review relevant. The conceptual framework could appeal to those seeking cross-disciplinary bridges between learning theory and cell signalling. Clinicians and pharmacologists working on drug resistance or desensitisation might also find the translational suggestions of interest, though these are currently underdeveloped.
+- **Major strengths** The manuscript addresses a timely and important topic, namely the extension of learning concepts to non-neuronal cells. The proposal to unify learning, desensitisation, stress, and aging along a single axis is original and could provide a useful heuristic. The inclusion of diverse molecular mechanisms, such as intrinsically disordered proteins, chromatin memory, and receptor internalisation, demonstrates broad scholarship. The discussion of fold-change detection in NF-κB signalling is a concrete example that grounds the abstract concepts.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Conceptual clarity
+  - **Claim pointer** The manuscript claims that cellular learning, desensitisation, stress, and aging "may be placed along the same axis of more and more intensive (prolonged or repeated) signalling"
+  - **Evidence pointer** Main text, section on the proposed axis (location not provided)
+  - **Concern** The central thesis is presented as a unifying principle, but the manuscript does not provide a rigorous definition of what constitutes "intensive" signalling, nor does it specify how the transition from learning to desensitisation to stress to aging is mechanistically determined. The axis is described qualitatively, and the boundaries between the four phenomena are blurred. For example, it is unclear whether desensitisation is a protective response or a failure state, and how this distinction affects the proposed continuum.
+  - **Why it matters** Without clear operational definitions, the framework cannot be tested or falsified. The claim of unification is the manuscript's main contribution, and if it remains vague, the review's value is largely descriptive rather than explanatory.
+  - **Resolution test** The authors should provide explicit criteria for each stage on the axis, such as specific molecular markers, timescales, or threshold levels of signalling. They should also discuss potential counterexamples where the proposed ordering does not hold, and how such cases would be accommodated.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidentiary support
+  - **Claim pointer** The manuscript states that "stress can be perceived as signalling overload inducing the desensitisation of signalling pathways" and that "aging occurs by the summative effects of cumulative stress downregulating signalling"
+  - **Evidence pointer** Main text, sections on stress and aging (location not provided)
+  - **Concern** These claims are presented as established facts, but the manuscript does not critically evaluate the evidence for or against them. The relationship between stress and desensitisation is likely context-dependent, and the link between cumulative stress and aging is a major area of research with competing models. The review does not address alternative interpretations, such as hormesis or the role of stochastic damage, which could undermine the proposed linear progression.
+  - **Why it matters** The manuscript aims to be a review, and as such, it should present a balanced assessment of the literature. Overstating the evidence for a unified axis could mislead readers, particularly those new to the field.
+  - **Resolution test** The authors should cite and discuss studies that support and contradict the proposed relationships. They should also specify the conditions under which stress leads to desensitisation versus adaptation, and how aging might involve non-linear or threshold effects.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** The manuscript proposes that "cellular learning desensitisation, stress and aging" are governed by "Hebbian and anti-Hebbian mechanisms"
+  - **Evidence pointer** Main text, sections on Hebbian and anti-Hebbian learning (location not provided)
+  - **Concern** The Hebbian and anti-Hebbian analogies are used broadly, but the manuscript does not specify how these concepts map onto specific molecular interactions. For example, receptor internalisation is described as anti-Hebbian, but it is not clear whether this is a form of synaptic weight decrease or a distinct process. The manuscript also does not address how the timescales of molecular changes (e.g., phosphorylation vs. chromatin remodelling) relate to the proposed learning and forgetting processes.
+  - **Why it matters** The analogy to Hebbian learning is a key selling point, but if it is not mechanistically grounded, it risks being superficial. A more detailed mapping would strengthen the framework and make it more useful for generating hypotheses.
+  - **Resolution test** The authors should provide specific examples where a molecular change is explicitly shown to follow Hebbian or anti-Hebbian rules, and discuss how these rules might be implemented at the network level. They should also address potential limitations of the analogy.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Translational relevance
+  - **Claim pointer** The manuscript lists "drug design methods using Hebbian learning" and "clinical treatment modalities inducing desensitisation or avoiding drug-induced desensitisation"
+  - **Evidence pointer** Main text, section on drug design and clinical implications (location not provided)
+  - **Concern** The translational section is underdeveloped. The authors mention chemically-induced proximity and desensitisation in cancer and drug allergies, but they do not provide concrete examples of how the proposed framework leads to new therapeutic strategies. The link between the conceptual model and practical applications is asserted rather than demonstrated.
+  - **Why it matters** The manuscript's stated goal includes opening "novel directions in drug design," but without specific, actionable proposals, this claim is not substantiated. The review would be more impactful if it offered testable predictions or design principles.
+  - **Resolution test** The authors should provide at least one detailed example of how the learning-desensitisation axis could be exploited therapeutically, including potential targets and expected outcomes. They should also discuss potential pitfalls or off-target effects.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract and introduction
+  - **Evidence pointer** Abstract and first section (location not provided)
+  - **Issue** The abstract is dense and uses jargon without definition, which may deter nonspecialist readers. The introduction similarly assumes familiarity with both learning theory and cell signalling.
+  - **Required correction** Define key terms (e.g., Hebbian learning, desensitisation) early and provide a brief roadmap of the review's structure.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Terminology
+  - **Evidence pointer** Throughout (location not provided)
+  - **Issue** The terms "learning," "forgetting," "desensitisation," and "stress" are used interchangeably in some places, which creates confusion. For example, "forgetting" is sometimes equated with desensitisation and sometimes with a distinct process.
+  - **Required correction** Establish clear definitions and use them consistently throughout the manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of alternative models
+  - **Evidence pointer** Sections on stress and aging (location not provided)
+  - **Issue** The manuscript does not discuss alternative frameworks, such as the role of stochastic noise in cellular decision-making or the possibility that desensitisation is an active learning process rather than a passive failure.
+  - **Required correction** Add a paragraph acknowledging alternative views and explaining why the proposed axis is preferable.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures (if any)
+  - **Evidence pointer** Not provided
+  - **Issue** The manuscript likely contains figures, but they are not available for review. If figures are included, they should be self-explanatory and clearly illustrate the proposed axis.
+  - **Required correction** Ensure figures are accessible and include legends that define all symbols and abbreviations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central thesis is not rigorously defined or supported. The manuscript's main contribution, the unified axis, cannot be evaluated or accepted without these issues being resolved.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea of unifying learning, desensitisation, stress, and aging is original and could be influential, but it is not sufficiently developed to be considered a major conceptual advance.
+  - Scientific importance: The topic is important, and the framework could have broad implications, but the current treatment is too superficial to establish its significance.
+  - Interdisciplinary readership: The manuscript has potential to appeal to multiple fields, but the lack of clear definitions and mechanistic detail limits its accessibility.
+  - Technical soundness: The review is not technically unsound, but it lacks the depth needed to support its claims. The use of Hebbian and anti-Hebbian analogies is not rigorously justified.
+  - Readability for nonspecialists: The manuscript is challenging to read due to dense jargon and a lack of clear structure.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the central claims are not sufficiently defined or supported. Major revisions are required to clarify the framework, provide mechanistic grounding, and critically evaluate the evidence.
+
+## Risk / unsupported claims
+- The claim that learning, desensitisation, stress, and aging lie on a single axis is unsupported due to lack of operational definitions and mechanistic detail.
+- The assertion that stress is equivalent to signalling overload is presented without critical evaluation of alternative models.
+- The link between cumulative stress and aging is stated as fact without discussing competing theories.
+- The translational implications for drug design are asserted but not demonstrated with concrete examples.
+- The mapping of Hebbian and anti-Hebbian concepts to specific molecular mechanisms is not established.

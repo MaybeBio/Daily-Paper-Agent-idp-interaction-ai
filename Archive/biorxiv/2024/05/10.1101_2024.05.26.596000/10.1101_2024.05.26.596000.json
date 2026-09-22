@@ -1,0 +1,136 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.05.26.596000",
+  "title": "Direct and Indirect Salt Effects on Homotypic Phase Separation",
+  "doi": "10.1101/2024.05.26.596000",
+  "abstract": "The low-complexity domain of hnRNPA1 (A1-LCD) phase separates in a salt-dependent manner. Unlike many intrinsically disordered proteins (IDPs) whose phase separation is suppressed by increasing salt concentrations, the phase separation of A1-LCD is promoted by > 100 mM NaCl. To investigate the atypical salt effect on A1-LCD phase separation, we carried out all-atom molecular dynamics simulations of systems comprising multiple A1-LCD chains at NaCl concentrations from 50 to 1000 mM NaCl. The ions occupy first-shell as well as more distant sites around the IDP chains, with Arg sidechains and backbone carbonyls the favored partners of Cl - and Na + , respectively. They play two direct roles in driving A1-LCD condensation. The first is to neutralize the high net charge of the protein (+9) by an excess of bound Cl - over Na + ; the second is to bridge between A1-LCD chains, thereby fortifying the intermolecular interaction networks in the dense phase. At high concentrations, NaCl also indirectly strengthens π-π, cation-π, and amino-π interactions, by drawing water away from the interaction partners. Therefore, at low salt, A1-LCD is prevented from phase separation by net charge repulsion; at intermediate concentrations, NaCl neutralizes enough of the net charge while also bridging IDP chains to drive phase separation. This drive becomes even stronger at high salt due to strengthened π-type interactions. Based on this understanding, four classes of salt dependence of IDP phase separation can be predicted from amino-acid composition.",
+  "authors": [
+    "MacAinsh M",
+    "Dey S",
+    "Zhou H"
+  ],
+  "published_date": "2024-05-31",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.05.26.596000",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.05.26.596000.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR859905",
+    "raw_record": {
+      "id": "PPR859905",
+      "source": "PPR",
+      "doi": "10.1101/2024.05.26.596000",
+      "title": "Direct and Indirect Salt Effects on Homotypic Phase Separation",
+      "authorString": "MacAinsh M, Dey S, Zhou H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "MacAinsh M",
+            "lastName": "MacAinsh",
+            "firstName": "Matthew",
+            "initials": "M"
+          },
+          {
+            "fullName": "Dey S",
+            "lastName": "Dey",
+            "firstName": "Souvik",
+            "initials": "S"
+          },
+          {
+            "fullName": "Zhou H",
+            "lastName": "Zhou",
+            "firstName": "Huan-Xiang",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9020-0302"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9020-0302"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The low-complexity domain of hnRNPA1 (A1-LCD) phase separates in a salt-dependent manner. Unlike many intrinsically disordered proteins (IDPs) whose phase separation is suppressed by increasing salt concentrations, the phase separation of A1-LCD is promoted by > 100 mM NaCl. To investigate the atypical salt effect on A1-LCD phase separation, we carried out all-atom molecular dynamics simulations of systems comprising multiple A1-LCD chains at NaCl concentrations from 50 to 1000 mM NaCl. The ions occupy first-shell as well as more distant sites around the IDP chains, with Arg sidechains and backbone carbonyls the favored partners of Cl  - and Na  + , respectively. They play two direct roles in driving A1-LCD condensation. The first is to neutralize the high net charge of the protein (+9) by an excess of bound Cl  - over Na  + ; the second is to bridge between A1-LCD chains, thereby fortifying the intermolecular interaction networks in the dense phase. At high concentrations, NaCl also indirectly strengthens π-π, cation-π, and amino-π interactions, by drawing water away from the interaction partners. Therefore, at low salt, A1-LCD is prevented from phase separation by net charge repulsion; at intermediate concentrations, NaCl neutralizes enough of the net charge while also bridging IDP chains to drive phase separation. This drive becomes even stronger at high salt due to strengthened π-type interactions. Based on this understanding, four classes of salt dependence of IDP phase separation can be predicted from amino-acid composition.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.05.26.596000"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.05.26.596000"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39531035",
+            "reference": "eLife. \n    2024 Nov;13:RP100282",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-06-02",
+      "firstPublicationDate": "2024-05-31",
+      "firstIndexDate": "2024-06-02",
+      "hasEvaluations": "Y"
+    }
+  }
+}

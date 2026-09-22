@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "40631837",
+    "doi": "10.1063/5.0275549",
+    "title": "Anomalous thermoresponsive phase behavior in a minimal lattice model mimicking proteins."
+  },
+  "content": {
+    "abstract": "Proteins are known to phase separate and form biomolecular condensates that play key roles in cellular functions. Therefore, there is now a growing interest in understanding rational design principles for protein sequences that exhibit rich stimulus-responsive phase behavior. Here, we have developed a minimal lattice-gas model and employed Monte-Carlo simulations to capture rich thermoresponsive phase behavior often observed in computational and experimental studies on disordered proteins. Proteins are modeled as particles with two internal states: a ground state representing the native configuration and a degenerate excited state representing unfolded configurations. The computed phase diagrams reveal an anomalous reentrant phase separation behavior with both upper and lower critical solution temperatures, providing insights into its underlying mechanism. We also explored non-equilibrium effects, such as non-Boltzmann population distributions of native and unfolded states, and enhanced translational diffusion due to non-thermal noise on the phase separation. We find that these factors offer an additional dimension for modulating condensate morphologies. We further extended our model to study phase separation in binary protein mixtures and successfully reproduced complex phase-separated states, including wetted, partially wetted, segregative, and associative phases-observed in computational studies of these systems. This model can be easily extended to mimic proteins with multiple internal (say, partially folded) states, allowing exploration of conformation heterogeneity effects on condensate morphologies. Our findings offer important insights into designing solvent-mediated effective interactions between proteins for controlled phase separation, relevant for engineering functional condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "Monte Carlo Method",
+      "*Proteins/chemistry",
+      "*Temperature",
+      "Phase Transition",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Roy, Siddhartha",
+        "Santra, Mantu",
+        "Singh, Rakesh S"
+      ],
+      "short_names": [
+        "Roy S",
+        "Santra M",
+        "Singh RS"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-8122-6083",
+        "ORCID: 0000-0002-6361-7580",
+        "ORCID: 0000-0002-2243-1747"
+      ],
+      "affiliations": [
+        "Department of Physics, Indian Institute of Science Education and Research (IISER) Tirupati, Tirupati, Andhra Pradesh 517619, India.",
+        "School of Chemical and Materials Sciences, Indian Institute of Technology Goa, Farmagudi, Goa 403401, India.",
+        "Department of Chemistry, Indian Institute of Science Education and Research (IISER) Tirupati, Tirupati, Andhra Pradesh 517619, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Roy, Siddhartha",
+        "short_name": "Roy S",
+        "identifiers": [
+          "0009-0004-8122-6083"
+        ],
+        "affiliations": [
+          "Department of Physics, Indian Institute of Science Education and Research (IISER) Tirupati, Tirupati, Andhra Pradesh 517619, India."
+        ]
+      },
+      {
+        "full_name": "Santra, Mantu",
+        "short_name": "Santra M",
+        "identifiers": [
+          "0000-0002-6361-7580"
+        ],
+        "affiliations": [
+          "School of Chemical and Materials Sciences, Indian Institute of Technology Goa, Farmagudi, Goa 403401, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Rakesh S",
+        "short_name": "Singh RS",
+        "identifiers": [
+          "0000-0002-2243-1747"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Science Education and Research (IISER) Tirupati, Tirupati, Andhra Pradesh 517619, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2025 Jul 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/09 12:28",
+    "fetched_at": "2026-09-21 20:44:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40631837",
+      "38949285",
+      "23912807",
+      "40944421",
+      "31634364",
+      "31139718",
+      "33387533",
+      "40098319",
+      "36993212",
+      "39172789",
+      "41187075",
+      "39042834",
+      "24981545",
+      "40531332",
+      "40291420",
+      "7549881",
+      "29397728",
+      "8990496",
+      "33704061",
+      "34965250",
+      "17166038",
+      "33864415",
+      "38429263",
+      "18570533",
+      "40293809",
+      "34984429",
+      "39227569",
+      "39896463",
+      "18206291",
+      "30471685",
+      "39947751",
+      "23061859",
+      "37215004",
+      "39541973",
+      "39605385",
+      "39645030",
+      "40664121",
+      "32087632",
+      "23214749",
+      "41129218",
+      "24880268",
+      "40093057",
+      "34966005",
+      "29949750",
+      "25747462",
+      "38874369",
+      "36181270",
+      "20887263",
+      "38362050",
+      "36804705",
+      "35562982",
+      "37551809",
+      "38885177",
+      "18447499",
+      "40545646",
+      "36883003",
+      "19894955",
+      "37668016",
+      "37461689",
+      "37205474",
+      "39937084",
+      "33597515",
+      "37546778",
+      "39804953",
+      "31342428",
+      "40626470",
+      "27783224",
+      "40748104",
+      "9865959",
+      "39924792",
+      "34598580",
+      "40848932",
+      "16706477",
+      "17295339",
+      "40196628",
+      "40197588",
+      "39071308",
+      "35364888",
+      "40791163",
+      "28201915",
+      "40661408",
+      "33672806",
+      "28915352",
+      "33087563",
+      "16766555",
+      "24899107",
+      "32936641",
+      "36524527",
+      "29509422",
+      "37470705",
+      "36503242",
+      "32426986",
+      "36350032",
+      "16906874",
+      "25122264",
+      "35974095",
+      "34638825",
+      "38690757",
+      "41279444",
+      "36993371"
+    ],
+    "review": [
+      "40631837",
+      "33387533",
+      "39947751",
+      "40664121",
+      "34966005",
+      "29949750",
+      "36804705",
+      "38885177",
+      "39924792",
+      "36524527",
+      "29509422",
+      "36503242",
+      "36350032"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0275549",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,5 @@
+# FIREBALL: A tool to fit protein phase diagrams based on mean-field theories for polymer solutions
+
+
+## Statement of Significance
+  Macromolecular phase separation drives the assembly of membraneless bodies known as biomolecular condensates. Measurements and computer simulations can now be brought to bear to quantify how the concentrations of macromolecules in coexisting dilute and dense phases vary with changes to solution conditions. These mappings can be fit to analytical expressions for free energies of solution to extract information regarding parameters that enable comparative assessments of the balance of macromolecule-solvent interactions across different systems. However, the underlying free energies are non-linear and fitting them to actual data is non-trivial. To enable comparative numerical analyses, we introduce FIREBALL, a user-friendly suite of computational tools that allows one to generate, analyze, and fit phase diagrams and coil-to-globule transitions using well-known theories.

@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, benchmarking, and conclusions as presented in the provided text
+- **Shared manuscript claim summary** The authors introduce FusOn-pLM, a fine-tuned ESM-2 language model trained on fusion oncoprotein sequences using a novel probabilistic masking strategy biased by predicted protein-protein interaction sites. They claim improved performance over baseline embeddings on fusion oncoprotein-specific benchmarks and disorder prediction tasks, and distinct representation of fusion oncoproteins from their constituent head and tail proteins.
+- **Visible evidence base** Abstract, Introduction, Methods, Results, Discussion sections; references to Figures 1-4, Table 1, and Supplementary Figures S1-S2
+- **Missing materials affecting confidence** Figures, tables, and supplementary materials are referenced but not provided; training details such as hyperparameter search, data preprocessing specifics, and statistical significance tests are partially described but not fully detailed; code and model weights are not described in the text
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem: generating specialized embeddings for fusion oncoproteins, a class of proteins that is both clinically important and structurally challenging. The idea of using a binding-site predictor to bias masking during fine-tuning is creative and potentially useful. However, the evidence presented is insufficient to fully support the claims of improved performance and distinct representation. Several benchmarking details are unclear, statistical rigor is lacking, and the absence of figures and tables limits evaluation. The work is promising but requires substantial clarification and additional validation before the claims can be considered established.
+- **Who would be interested in the results, and why** Researchers in computational biology, protein language modeling, and therapeutic design, particularly those working on intrinsically disordered proteins, fusion oncoproteins, and peptide or protein binder design. The approach of task-focused fine-tuning via biased masking may also interest the broader machine learning for biology community.
+- **Major strengths** 1) The problem is well-motivated and clinically relevant. 2) The proposed masking strategy is novel and conceptually sound. 3) The authors evaluate on multiple downstream tasks, including fusion-specific and general disorder benchmarks. 4) The model is made publicly available, supporting reproducibility and community use.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that FusOn-pLM outperforms baseline ESM-2, FOdb, and one-hot embeddings on fusion oncoprotein-specific benchmarks (puncta formation, localization, cancer class) and disorder prediction tasks.
+  - **Evidence pointer** Results section, Figures 2-3, Table 1 (not provided)
+  - **Concern** The benchmarking methodology is incompletely described. For puncta and localization tasks, only 177 sequences are used, with train/test splits of approximately 143/34. It is unclear how the XGBoost classifier is trained and evaluated (e.g., cross-validation scheme, hyperparameter tuning, number of runs). For the cancer class task, the text mentions 1,072 test-set proteins but the Methods describe a train/test split of 859/213; the discrepancy is not explained. For the IDR property prediction task, the MLP architecture is described, but the evaluation metric (R2) is reported without confidence intervals or statistical comparison across embeddings. For the CAID benchmark, only a single fusion protein (NUP98::HOXC13) is shown, and the claim of "stronger performance across all metrics" is not supported by quantitative data in the text.
+  - **Why it matters** Without clear and statistically rigorous benchmarking, the central claim of improved performance cannot be verified. The small dataset sizes and lack of error bars or significance testing raise concerns about overfitting and generalizability.
+  - **Resolution test** Provide full experimental details: cross-validation strategy, number of independent runs, standard deviations or confidence intervals for all metrics, and a clear description of the cancer class task dataset. Include quantitative results for all benchmarks, not just selected examples. For the CAID benchmark, report aggregate metrics across the full test set, not just a single protein.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the SaLT&PepPr-based masking strategy yields "optimal" embeddings compared to random masking.
+  - **Evidence pointer** Results section, Table 1 (not provided)
+  - **Concern** The selection of the final model (11 unfrozen layers, SaLT&PepPr masking) is described as based on "preliminary benchmarking," but no details are given on what benchmarks were used, how many configurations were tested, or how the choice was made. The statement that "training loss alone cannot be relied upon" suggests a model selection process that is not fully documented. It is unclear whether the comparison between masking strategies is fair (e.g., same number of training steps, same hyperparameters).
+  - **Why it matters** The novelty of the work hinges on the proposed masking strategy. If the comparison is not rigorously controlled, the advantage of SaLT&PepPr-based masking over random masking is not established.
+  - **Resolution test** Describe the model selection procedure in detail, including the benchmarks used, the range of configurations tested, and the criteria for choosing the final model. Ensure that random masking and SaLT&PepPr masking are trained with identical hyperparameters and training budgets, and report results for both across all benchmarks.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that FusOn-pLM embeddings are "distinct" from head and tail protein embeddings, as shown by t-SNE visualization.
+  - **Evidence pointer** Results section, Figure 4A (not provided)
+  - **Concern** The t-SNE visualization is qualitative and based on only four fusion oncoproteins. It is unclear how many sequences are plotted, whether the head and tail proteins are from the same organisms and isoforms, and whether the separation is statistically significant. t-SNE is known to produce visually separated clusters even for random data, so this evidence is weak.
+  - **Why it matters** The claim of distinct representation is important for the proposed downstream use in binder design. Without quantitative evidence (e.g., separation metrics, silhouette scores, or nearest-neighbor analysis), the claim is not convincing.
+  - **Resolution test** Provide quantitative measures of embedding separation (e.g., silhouette score, centroid distance, or classification accuracy of a linear probe) for a larger set of fusion oncoproteins and their head and tail proteins. Include appropriate controls, such as embeddings from the base ESM-2 model.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that FusOn-pLM improves upon ESM-2 for disorder prediction and IDR property prediction.
+  - **Evidence pointer** Results section, Figure 3A-C (not provided)
+  - **Concern** For IDR property prediction, the text states that FusOn-pLM outperforms ESM-2 for asphericity but achieves "equivalent performance" for Rg. This is a modest improvement. For the CAID benchmark, only one fusion protein is shown, and the comparison to ESM-2 is qualitative. The broader claim of improved disorder understanding is not well supported.
+  - **Why it matters** The authors argue that fusion oncoproteins are disordered and that this is a key reason for needing a specialized model. If the improvement over ESM-2 is marginal or not consistently demonstrated, the practical value of FusOn-pLM is reduced.
+  - **Resolution test** Report quantitative results for the full CAID test set, including aggregate metrics (e.g., AUC, F1) and per-protein breakdowns. For IDR property prediction, report error bars and statistical tests comparing FusOn-pLM to ESM-2. Clarify whether any improvement is practically significant.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Methods, Model Training Set Curation
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of data curation is brief. It is unclear how sequences were filtered for quality, whether redundancy was removed, and how the final training set size (31,788) relates to the initial counts (41,420 from FusionPDB and 4,536 from FOdb).
+  - **Required correction** Provide a more detailed description of the data curation pipeline, including filtering criteria, redundancy removal, and the number of sequences removed at each step.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Amino Acid Masking Strategies
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The masking strategy uses a softmax over SaLT&PepPr probabilities, but it is not clear whether the probabilities are logits or already normalized. The formula in Equation (1) applies softmax to pi, which may already be a probability, leading to a sharper distribution. This should be clarified.
+  - **Required correction** Clarify the nature of the SaLT&PepPr output (logits vs. probabilities) and justify the use of softmax in this context.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, Probabilistic masking enables focused training
+  - **Evidence pointer** Results section, Table 1 (not provided)
+  - **Issue** The text states that "both SaLT&PepPr-based and random masking produced similar training results with low perplexity values," but the actual perplexity values are not reported in the text.
+  - **Required correction** Report the perplexity values in the text or refer to Table 1 with specific numbers.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section, location not provided
+  - **Issue** The discussion of future work is speculative and does not address potential limitations of the current approach, such as the small size of the training dataset or the reliance on predicted PPI sites.
+  - **Required correction** Add a paragraph discussing limitations and potential sources of bias or error in the current study.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that FusOn-pLM "improves performance on both fusion oncoprotein-specific benchmarks and disorder prediction tasks," but the magnitude of improvement is not quantified.
+  - **Required correction** Include a brief quantitative summary of the improvements in the abstract, if space permits.
+
+## Risk / unsupported claims
+- The claim that FusOn-pLM outperforms baselines on fusion oncoprotein-specific benchmarks is not fully supported due to incomplete benchmarking details and lack of statistical rigor.
+- The claim that SaLT&PepPr-based masking is superior to random masking is not established without a controlled comparison.
+- The claim of distinct embedding representation based on t-SNE visualization is qualitative and not quantitatively validated.
+- The claim of improved disorder prediction is based on limited evidence (one fusion protein for CAID, and equivalent performance for Rg).
+- The generalizability of FusOn-pLM to all fusion oncoproteins is not demonstrated, given the limited number of sequences in the training set and the lack of diversity analysis.

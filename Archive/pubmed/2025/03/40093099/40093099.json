@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "40093099",
+    "doi": "10.1101/2025.03.04.641530",
+    "title": "Prediction of small-molecule partitioning into biomolecular condensates from simulation."
+  },
+  "content": {
+    "abstract": "Predicting small-molecule partitioning into biomolecular condensates is key to developing drugs that selectively target aberrant condensates. However, the molecular mechanisms underlying small-molecule partitioning remain largely unknown. Here, we first exploit atomistic molecular dynamics simulations of model condensates to elucidate physicochemical rules governing small-molecule partitioning. We find that while hydrophobicity is a major determinant, solubility becomes a stronger regulator of partitioning in more polar condensates. Additionally, more polar condensates exhibit selectivity toward certain compounds, suggesting that condensate-specific therapeutics can be engineered. Building on these insights, we develop minimal models (MAPPS) for efficient prediction of small-molecule partitioning into biologically relevant condensates. We demonstrate that this approach reproduces atomistic partition coefficients in both model systems and condensates composed of the low complexity domain (LCD) of FUS. Applying MAPPS to various LCD-based condensates shows that protein sequence can exert a selective pressure, thereby influencing small-molecule partitioning. Collectively, our findings reveal that partitioning is driven by both small-molecule-protein affinity and the complex interplay between the compounds and the condensate chemical environment.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Emelianova, Alina",
+        "Garcia, Pablo L",
+        "Tan, Daniel",
+        "Joseph, Jerelle A"
+      ],
+      "short_names": [
+        "Emelianova A",
+        "Garcia PL",
+        "Tan D",
+        "Joseph JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3528-5478",
+        "ORCID: 0009-0009-5768-4945",
+        "ORCID: 0009-0005-4021-2176",
+        "ORCID: 0000-0003-4525-180X"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Emelianova, Alina",
+        "short_name": "Emelianova A",
+        "identifiers": [
+          "0000-0002-3528-5478"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Garcia, Pablo L",
+        "short_name": "Garcia PL",
+        "identifiers": [
+          "0009-0009-5768-4945"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Tan, Daniel",
+        "short_name": "Tan D",
+        "identifiers": [
+          "0009-0005-4021-2176"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Joseph, Jerelle A",
+        "short_name": "Joseph JA",
+        "identifiers": [
+          "0000-0003-4525-180X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Mar 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/17 15:20",
+    "fetched_at": "2026-09-21 16:45:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40925983",
+      "40024444",
+      "39827079",
+      "39824169",
+      "39534915",
+      "39510346",
+      "39412378",
+      "39271915",
+      "39134696",
+      "38251829",
+      "37973889",
+      "37805934",
+      "37770698",
+      "37645312",
+      "37546704",
+      "36690068",
+      "36471564",
+      "36302916",
+      "36181270",
+      "36061735",
+      "36028355",
+      "35974095",
+      "35795820",
+      "35675815",
+      "35657723",
+      "35483357",
+      "35320624",
+      "35001622",
+      "34452345",
+      "33934416",
+      "33876938",
+      "33812316",
+      "33619090",
+      "33597515",
+      "33307683",
+      "33004511",
+      "32962378",
+      "32554597",
+      "31681941",
+      "31430179",
+      "31272829",
+      "29518158",
+      "29424691",
+      "29364893",
+      "29323488",
+      "28935776",
+      "28225081",
+      "27374333",
+      "26589065",
+      "26580045",
+      "26406374",
+      "26386959",
+      "26317470",
+      "25885484",
+      "25400522",
+      "25288112",
+      "22936764",
+      "22579281",
+      "18196502",
+      "17985865",
+      "16211538"
+    ],
+    "similar": [
+      "40093099",
+      "40747072",
+      "39271915",
+      "40985078",
+      "40196628",
+      "39184067",
+      "39534915",
+      "39071308",
+      "40229261",
+      "36993212",
+      "37770698",
+      "41279444",
+      "40672301",
+      "39937084",
+      "37546704",
+      "35761089",
+      "40286793",
+      "37205474",
+      "37961424",
+      "37684240",
+      "39486437",
+      "36883003",
+      "37735186",
+      "33307683",
+      "39804953",
+      "36847235",
+      "37470705",
+      "41342450",
+      "37013374",
+      "40291709",
+      "40321778",
+      "38987300",
+      "39232584",
+      "35727989",
+      "37194953",
+      "36758221",
+      "40468084",
+      "34862761",
+      "39356108",
+      "40857360",
+      "38328070",
+      "39134696",
+      "34636323",
+      "39496836",
+      "40848932",
+      "39636939",
+      "30926670",
+      "37006777",
+      "38832749",
+      "39005320",
+      "37782826",
+      "40009520",
+      "40954121",
+      "39896463",
+      "32554597",
+      "40343340",
+      "40166274",
+      "36175408",
+      "37977129",
+      "37156794",
+      "38181073",
+      "34487489",
+      "40518709",
+      "40867025",
+      "41191214",
+      "36227474",
+      "40972943",
+      "35001622",
+      "36004782",
+      "35293386",
+      "33672806",
+      "34767801",
+      "40616404",
+      "38293146",
+      "39138204",
+      "40375868",
+      "34570101",
+      "40502052",
+      "33302617",
+      "37549257",
+      "39922194",
+      "40455990",
+      "39535884",
+      "37695778",
+      "40877270",
+      "39484615",
+      "37503034",
+      "40203038",
+      "37386790",
+      "40782375",
+      "41351266",
+      "40721018",
+      "37791635",
+      "40751677",
+      "40172489",
+      "33890764",
+      "34241502",
+      "38999934",
+      "35864335",
+      "40667293"
+    ],
+    "review": [
+      "40093099",
+      "35761089",
+      "39134696",
+      "41191214",
+      "34767801",
+      "40616404"
+    ],
+    "pmc": [
+      "11908252"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40093099/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.03.04.641530",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41820684",
+  "title": "Classical and Nonclassical Nucleation Mechanisms of Biomolecules.",
+  "authors": "Karibjanova, Yevgeniya; Teychene, Sebastien; Rodriguez-Ruiz, Isaac",
+  "journal": "Advances in biochemical engineering/biotechnology",
+  "published_date": "2026-03-13",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 7,
+  "one_liner_zh": "综述蛋白质结晶中经典与非经典成核机制，聚焦LLPS介导的两步成核与复合簇模型，并讨论多维自由能景观与模拟方法，虽对象为结晶而非直接PPI，但其相分离与成核机制建模思路对无序蛋白互作研究有迁移启发。",
+  "abstract": "This chapter offers a critical review of classical and nonclassical nucleation mechanisms in protein crystallization. It focuses on two-step nucleation (TSN) and composite cluster models as alternatives to classical nucleation theory (CNT), highlighting their relevance for describing nucleation in systems where intermediate disordered phases emerge. A particular emphasis is placed on the role of liquid-liquid phase separation (LLPS) as a modulator of the local environment and a potential precursor state. Through experimentally documented case studies, the spatial location of nucleation events - within dense phases, at interfaces, or in the lean phase - is discussed in relation to structural and kinetic parameters. Emphasis is placed on the role of intermolecular interactions, phase behavior, and limitations of current models and measurement techniques. Finally, recent advances in multidimensional free energy landscapes and simulation approaches are discussed, highlighting the need for integrated experimental and computational strategies to better understand and control nucleation in complex biological systems.",
+  "abstract_zh": "本章对蛋白质结晶中的经典与非经典成核机制进行了批判性综述。重点探讨了两步成核（TSN）和复合团簇模型作为经典成核理论（CNT）的替代方案，并强调它们在描述中间无序相出现系统中成核过程的相关性。特别关注液-液相分离（LLPS）作为局部环境调节因子和潜在前驱态的作用。通过实验记录的案例研究，讨论了成核事件的空间位置——在稠密相内、界面处或贫相中——及其与结构和动力学参数的关系。重点强调了分子间相互作用、相行为以及当前模型和测量技术的局限性。最后，讨论了多维自由能景观和模拟方法的最新进展，强调了整合实验与计算策略以更好地理解和控制复杂生物系统中成核过程的必要性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41820684/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41820684/",
+  "paper_page_path": "papers/pubmed/41820684/index.html"
+}

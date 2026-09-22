@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40091211",
+  "title": "Understanding Anti-Polyelectrolyte Effect in Polyzwitterions Using Coarse-Grained Molecular Dynamics Simulations.",
+  "authors": "Chauhan, Akshay; Chaudhury, Srabanti",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-03-17",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究聚两性电解质（作为无序蛋白合成类似物）的盐响应构象变化，虽非真实IDP-PPI，但对象相关且方法为物理模拟，对无序蛋白构象调控机制建模有启发。",
+  "abstract": "Polyzwitterions (PZs) horizontal line polymers bearing both positive and negative charges within each repeating unit horizontal line exhibit an unusual antipolyelectrolyte effect where their solubility and viscosity increase upon the addition of salt, contrary to typical polyelectrolytes. As model synthetic analogues of intrinsically disordered proteins, PZs in dilute aqueous solutions are expected to adopt either globular or random coil conformations, with salt addition influencing these structures. We employed coarse-grained Langevin dynamics simulations to investigate how structural parameters horizontal line specifically, the spacing between dipolar side chains (d), and the overall polymer chain length (N) horizontal line affect the conformational properties of polyzwitterions in salt solutions. Our simulations reveal that added salt leads to nonmonotonic changes in the polymer's radius of gyration, exhibiting both antipolyelectrolyte and polyelectrolyte effects depending on the salt concentration. This behavior is attributed to charge regulation and screening of dipole-dipole interactions by ions. Understanding and controlling the conformations of PZs in aqueous solutions by adjusting salt concentration is of paramount interest for applications in antimicrobial materials, antifouling coatings, drug delivery, membranes, and polymer electrolytes.",
+  "abstract_zh": "聚两性离子（PZs）——每个重复单元内同时带有正负电荷的线性聚合物——表现出一种不寻常的反聚电解质效应，即加入盐后其溶解度和粘度增加，这与典型的聚电解质相反。作为 intrinsically disordered proteins 的模型合成类似物，稀水溶液中的 PZs 预期采用球状或随机卷曲构象，而盐的加入会影响这些结构。我们采用粗粒化 Langevin 动力学模拟，研究结构参数——具体为偶极侧链间距（d）和整体聚合物链长（N）——如何影响盐溶液中聚两性离子的构象特性。模拟结果显示，加入的盐导致聚合物回转半径发生非单调变化，根据盐浓度表现出反聚电解质效应和聚电解质效应。这种行为归因于离子对偶极-偶极相互作用的电荷调节和屏蔽。通过调节盐浓度来理解和控制 PZs 在水溶液中的构象，对于抗菌材料、防污涂层、药物递送、膜和聚合物电解质等应用具有重要意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40091211/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40091211/",
+  "paper_page_path": "papers/pubmed/40091211/index.html"
+}

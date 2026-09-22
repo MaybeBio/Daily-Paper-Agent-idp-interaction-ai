@@ -1,0 +1,150 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.01.679751",
+  "title": "Arginine versus Lysine: Molecular Determinants of Cation–π Interactions in Biomolecular Condensates",
+  "doi": "10.1101/2025.10.01.679751",
+  "abstract": "Biomolecular condensates formed by intrinsically disordered regions of proteins are primarily stabilised by specific types of amino acids, usually labelled “stickers” for their ability to crosslink distinct polypeptide chains into droplet-spanning networks. Both aromatic and positively charged residues can play this role, but they differ in their interaction types and relative strengths. An outstanding problem is the quantification of these differences, since they determine the fate of multicomponent mixtures. Here we focus on the interactions formed by aromatic residues with the two main positively charged stickers, Arg and Lys, whose experimental behaviour in condensates shows a clear hierarchy: Arg is consistently observed to promote phase separation more effectively than Lys. We use molecular dynamics simulations and alchemical transformations together with quantum chemical calculations to resolve the differences in their cation– π interaction strengths in different media. We find that, unlike the aromatic residues Phe and Tyr, Arg and Lys consistently maintain a hierarchy of interaction strengths across molecular environments, with Arg being favoured over Lys. While cation- π interactions are important, the primary factor underlying this difference is the higher dehydration penalty of Lys. By contrast, the identity of the aromatic partner that forms the strongest interaction with a cation depends on the dielectric environment. These results provide a clear molecular-level explanation for the distinct contributions of interactions between cationic and aromatic residues to condensate stability.",
+  "authors": [
+    "Armentia L",
+    "López X",
+    "De Sancho D"
+  ],
+  "published_date": "2025-10-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.01.679751",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.01.679751.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1094873",
+    "raw_record": {
+      "id": "PPR1094873",
+      "source": "PPR",
+      "doi": "10.1101/2025.10.01.679751",
+      "title": "Arginine versus Lysine: Molecular Determinants of Cation–π Interactions in Biomolecular Condensates",
+      "authorString": "Armentia L, López X, De Sancho D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Armentia L",
+            "lastName": "Armentia",
+            "firstName": "Lydia",
+            "initials": "L"
+          },
+          {
+            "fullName": "López X",
+            "lastName": "López",
+            "firstName": "Xabier",
+            "initials": "X",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2711-3588"
+            }
+          },
+          {
+            "fullName": "De Sancho D",
+            "lastName": "De Sancho",
+            "firstName": "David",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8985-2685"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2711-3588"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8985-2685"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Biomolecular condensates formed by intrinsically disordered regions of proteins are primarily stabilised by specific types of amino acids, usually labelled “stickers” for their ability to crosslink distinct polypeptide chains into droplet-spanning networks. Both aromatic and positively charged residues can play this role, but they differ in their interaction types and relative strengths. An outstanding problem is the quantification of these differences, since they determine the fate of multicomponent mixtures. Here we focus on the interactions formed by aromatic residues with the two main positively charged stickers, Arg and Lys, whose experimental behaviour in condensates shows a clear hierarchy: Arg is consistently observed to promote phase separation more effectively than Lys. We use molecular dynamics simulations and alchemical transformations together with quantum chemical calculations to resolve the differences in their cation–  π interaction strengths in different media. We find that, unlike the aromatic residues Phe and Tyr, Arg and Lys consistently maintain a hierarchy of interaction strengths across molecular environments, with Arg being favoured over Lys. While cation-  π interactions are important, the primary factor underlying this difference is the higher dehydration penalty of Lys. By contrast, the identity of the aromatic partner that forms the strongest interaction with a cation depends on the dielectric environment. These results provide a clear molecular-level explanation for the distinct contributions of interactions between cationic and aromatic residues to condensate stability.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Basque Government",
+            "grantId": "IT1584-22",
+            "orderIn": 0
+          },
+          {
+            "agency": "Ministry of Science, Innovation and Universities",
+            "grantId": "PID2024-158678NB-I00",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.10.01.679751"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42192191",
+            "reference": "Communications chemistry. 2026 May;:",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-10-04",
+      "firstPublicationDate": "2025-10-02",
+      "firstIndexDate": "2025-10-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

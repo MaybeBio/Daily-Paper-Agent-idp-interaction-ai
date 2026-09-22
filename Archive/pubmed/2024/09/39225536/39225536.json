@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "39225536",
+    "doi": "10.1063/5.0223001",
+    "title": "Direct computations of viscoelastic moduli of biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are viscoelastic materials defined by time-dependent, sequence-specific complex shear moduli. Here, we show that viscoelastic moduli can be computed directly using a generalization of the Rouse model that leverages information regarding intra- and inter-chain contacts, which we extract from equilibrium configurations of lattice-based Metropolis Monte Carlo (MMC) simulations of phase separation. The key ingredient of the generalized Rouse model is a graph Laplacian that we compute from equilibrium MMC simulations. We compute two flavors of graph Laplacians, one based on a single-chain graph that accounts only for intra-chain contacts, and the other referred to as a collective graph that accounts for inter-chain interactions. Calculations based on the single-chain graph systematically overestimate the storage and loss moduli, whereas calculations based on the collective graph reproduce the measured moduli with greater fidelity. However, in the long time, low-frequency domain, a mixture of the two graphs proves to be most accurate. In line with the theory of Rouse and contrary to recent assertions, we find that a continuous distribution of relaxation times exists in condensates. The single crossover frequency between dominantly elastic vs dominantly viscous behaviors does not imply a single relaxation time. Instead, it is influenced by the totality of the relaxation modes. Hence, our analysis affirms that viscoelastic fluid-like condensates are best described as generalized Maxwell fluids. Finally, we show that the complex shear moduli can be used to solve an inverse problem to obtain the relaxation time spectra that underlie the dynamics within condensates. This is of practical importance given advancements in passive and active microrheology measurements of condensate viscoelasticity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Viscosity",
+      "*Monte Carlo Method",
+      "*Biomolecular Condensates/chemistry",
+      "Elasticity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cohen, Samuel R",
+        "Banerjee, Priya R",
+        "Pappu, Rohit V"
+      ],
+      "short_names": [
+        "Cohen SR",
+        "Banerjee PR",
+        "Pappu RV"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6169-1461",
+        "ORCID: 0000-0003-2568-1378"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering and Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, Missouri 63130, USA.",
+        "Department of Physics, The State University of New York at Buffalo, Buffalo, New York 14260, USA.",
+        "Department of Biomedical Engineering and Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, Missouri 63130, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cohen, Samuel R",
+        "short_name": "Cohen SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering and Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, Missouri 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Banerjee, Priya R",
+        "short_name": "Banerjee PR",
+        "identifiers": [
+          "0000-0002-6169-1461"
+        ],
+        "affiliations": [
+          "Department of Physics, The State University of New York at Buffalo, Buffalo, New York 14260, USA."
+        ]
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [
+          "0000-0003-2568-1378"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering and Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, Missouri 63130, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2024 Sep 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/03 12:42",
+    "fetched_at": "2026-09-21 10:01:38"
+  },
+  "links": {
+    "cites": [
+      "42497855",
+      "42473993",
+      "42407334",
+      "42161313",
+      "41940344",
+      "41868013",
+      "41863073",
+      "41670285",
+      "41343645",
+      "41118627",
+      "40894760",
+      "40455990",
+      "40441157",
+      "40386802",
+      "40216775",
+      "40188296",
+      "40160200",
+      "39928699",
+      "39824169",
+      "39610751",
+      "39398199",
+      "39185151",
+      "39026887",
+      "38464104",
+      "36747818"
+    ],
+    "refs": [
+      "38782886",
+      "38503281",
+      "38443761",
+      "38429263",
+      "38363841",
+      "38316988",
+      "37932412",
+      "37856873",
+      "37684240",
+      "37582808",
+      "37468629",
+      "37418523",
+      "36881934",
+      "36747054",
+      "36513655",
+      "36071192",
+      "35795820",
+      "35787038",
+      "35675815",
+      "35674796",
+      "34931046",
+      "34887356",
+      "34785657",
+      "34784177",
+      "34716273",
+      "34648275",
+      "34645832",
+      "34106828",
+      "34018649",
+      "33688043",
+      "33453268",
+      "33303613",
+      "33212590",
+      "32934220",
+      "32661370",
+      "32571937",
+      "32029630",
+      "32004090",
+      "31634364",
+      "31540706",
+      "30926670",
+      "30500535",
+      "30323334",
+      "30217894",
+      "29961577",
+      "29517898",
+      "29313527",
+      "29091028",
+      "29064502",
+      "28935776",
+      "28894006",
+      "28225081",
+      "27791212",
+      "27392146",
+      "26474065",
+      "26406374",
+      "26317470",
+      "26015579",
+      "25288112",
+      "22492978",
+      "19118688",
+      "15674285",
+      "10058972",
+      "7698310"
+    ],
+    "similar": [
+      "39225536",
+      "38915484",
+      "39464253",
+      "34654286",
+      "37066350",
+      "41670285",
+      "41481439",
+      "34645832",
+      "38363841",
+      "40455990",
+      "40661456",
+      "34785657",
+      "40894760",
+      "37194953",
+      "39866835",
+      "40249817",
+      "41645509",
+      "40791470",
+      "40876279",
+      "39168125",
+      "41279444",
+      "39610751",
+      "39185151",
+      "36436394",
+      "39630960",
+      "38832749",
+      "37468629",
+      "36053000",
+      "40481268",
+      "33864415",
+      "39541973",
+      "19045431",
+      "36541141",
+      "20175286",
+      "40985078",
+      "39636939",
+      "33453924",
+      "17328629",
+      "38429263",
+      "25633438",
+      "29477455",
+      "16921892",
+      "40168179",
+      "39113361",
+      "40972943",
+      "31750939",
+      "40954121",
+      "36372152",
+      "32621160",
+      "35881789",
+      "39620362",
+      "36175408",
+      "26523785",
+      "38489385",
+      "21278920",
+      "32889334",
+      "41187075",
+      "34037061",
+      "39042834",
+      "40801528",
+      "40074825",
+      "34129784",
+      "30388509",
+      "40867025",
+      "38722189",
+      "39356108",
+      "39398199",
+      "38987300",
+      "37791635",
+      "36227477",
+      "12785099",
+      "30286375",
+      "40626470",
+      "40102453",
+      "39568893",
+      "41566033",
+      "40172489",
+      "39987501",
+      "38290911",
+      "39410441",
+      "20695539",
+      "36546789",
+      "39271032",
+      "40386802",
+      "40521608",
+      "40098319",
+      "39166772",
+      "37523528",
+      "38781207",
+      "35674796",
+      "37386790",
+      "39591652",
+      "37156074",
+      "3207837",
+      "40518709",
+      "33303613",
+      "39804953",
+      "39386700",
+      "17141788",
+      "33309827"
+    ],
+    "review": [
+      "39225536",
+      "40801528",
+      "34129784",
+      "40172489"
+    ],
+    "pmc": [
+      "11374380"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39225536/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0223001",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

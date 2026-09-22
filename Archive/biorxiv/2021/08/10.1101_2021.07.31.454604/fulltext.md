@@ -1,0 +1,62 @@
+## Abstract
+
+An unbalanced composition of lipids and proteins in brain membranes is related to the appearance neurodegenrative diseases and recent investigations show that the 14-3-3 tau protein might relate to some of these diseases. This article reports results from a coarse-grained model brain membrane with and without a 14-3-3 τ/θ protein inside the membrane. We investigated the symmetrized partial density, thickness, diffusion coefficients, and deuterium order parameters of the membrane with and without protein. We observe a slight increase in heads and linkers in the symmetrized partial density of the membrane with the protein inserted and higher values of the deuterium order parameters for the brain model membrane with protein. We observe a reduction in the diffusion coefficient of the fluid membrane in the presence of the transmembrane tau protein. Our findings show that the protein can modify the structural and dynamical properties of the membrane. This work will serve as a guide for future investigations on the interactions of tau proteins with brain membrane models and their relation to neurodegenerative diseases.
+
+
+## Introduction
+
+Cell membranes are biological structures composed of a large variety of lipids and proteins. Somen are integral proteins exposed to the cell interior and exterior parts and are called transmembrane proteins. Cell membranes serve as semi-permeable barriers that behave as a two-dimensional fluid at physiological temperatures that can host many proteins and other types of macromolecules. 1 , 2 Lipids in the membranes do not distribute uniformly (i.e., membranes are highly heterogenous media) and their composition varies between different kinds of membranes (cellular or organelles). Inappropriate compositions of lipids and proteins are related to the appearance of many diseases like Parkinson’s, cancer, diabetes, and Alzheimer’s. 3 There are proteins linked to the appearance of some of these diseases, e.g., the family of 14-3-3 proteins. The brain is the tissue with the most concentration of these proteins.
+
+The 14-3-3 proteins are phospho-serine/phospho-threonine binding proteins involved in several mechanisms, they interact with kinases and participate in transcriptional processes. There are seven isoforms of this protein commonly labeled with Greek the letters: ( β, γ, ϵ, η, ξ, σ y τ / θ ). Each isoform consists of nine alpha-helices which form an amphipathic groove that can bind to a protein partner. Because of their incidence in neurological diseases, the interactions of 14-3-3 proteins with brain membranes is a current topic of research 4 – 6
+
+One of the essential 14-3-3 binding partners is the isoform tau, a microtubule-associated protein. These proteins have been found in the cerebrospinal fluid of people with various neurological disorders and seem to assemble in some specific disease-lesions of the brain. Researchers found them in the cerebrospinal fluid of patients with dementia of unknown causes, fronto-temporal dementia, and brain tumors. They are also found in NFT’s of Alzheimer’s disease brain sections. 7 – 18 and in patients with Parkinson’s disease protein aggregates known as Lewy Bodies. 19 – 22
+
+Another important function of the 14-3-3 proteins is the neuroprotective effect in the way of the inhibition of the apoptotic process by multiple mechanisms. This causes cell survival. Also, the 14-3-3 proteins extend their neuroprotective effect by the formation of aggresomes and this facilitates the degradation of misfolded toxic proteins. Recently, has been demonstrated that the accumulation of toxic proteins is one of the main causes of neurodegeneration and the elucidation and study of 14-3-3 proteins and its molecular mechanisms of for example, formation of aggresomes, could be important on the investigation of neuropathologies. 23 , 24
+
+Although it is known that 14-3-3 proteins are involved in neurological disorders and the brain is the tissue with most concentration of these proteins, most of the computational studies involve the beta amyloid in comparison of 14-3-3 proteins. 25 – 27 Ingólfsson, et al., 3 recently reported a study of a realistic human brain plasma membrane using advances in computational power and molecular dynamics simulation (MD) techniques.
+
+In this work, we simulate using MD a coarse-grained model the interaction of a 14-3-3 protein with/inside a model brain membrane. We report results for a brain plasma membrane constructed on the basis of the composition reported by Ingólfsson et al., adding a 14-3-3 τ/θ protein inside the membrane. We investigate the symmetrized partial density, thickness, diffusion coefficients, and deuterium order parameters of the membrane with and without the protein. We observe a slight increase in heads and linkers in the symmetrized partial density of the membrane with the protein inserted and higher values of the deuterium order parameters for the brain model membrane with protein. We observe a reduction in the diffusion coefficient of the fluid membrane in the presence of the transmembrane tau protein. Our findings show that the protein can modify the structural and dynamical properties of the membrane.
+
+
+## Methods
+
+Using the INSANE program, two membranes were constructed: one with 14-3-3 τ isoform inserted and the other without the protein. The neural plasma membrane composition was obtained from Ingólfsson, et al. 3 The simulations were performed using the Martini Force Field. 28 , 29 The parameters for lipids, ganglioside and improved cholesterol were described according to Ingólfsson et al, López et al and Melo et al, respectively. The lipid composition is based in the membrane reported by Ingólfsson et al. 3 but is not at the same proportions as the reported by them. The details of the composition of the model brain membrane are shown in tables 1 and 2 , and in the pie charts of figure 1 .
+
+The simulations were run using GROMACS 2019.4 with a timestep of 10 fs. The simulation box of a model brain membrane without 14-3-3 τ contained 2275 lipids, 21892 and 481 mM NaCl. The simulation box of the model brain membrane with 14-3-3 τ protein contained 2187 lipids, 21892 waters and 483 mM NaCl. For each bilayer mixture, the composition was adjusted to have a symmetrical composition of each leaflet. The temperature and pressure (310 K and 1 bar of pressure) were controlled with the velocity rescaling thermostat and the Parrinello Rahman barostat. The total time of simulation of the equilibrated system was 9 µ s. Figures 2 and 3 illustrate the initial and final configurations on the time interval of 9 µ s of the equilibrated systems, with and without the tau protein, respectively.
+
+The diffusion coefficient was obtained from Einstein relation where MSD stands for mean squared displacement, Δ r is the displacement vector of a particle occurring on the time interval t, d is the dimensionality ( d = 3 for diffusion in 3D euclidean space, d = 2 for diffusion in 2D euclidean space) and D ( t ) is the so-called self-diffusion coefficient. The variable t is also called the correlation time. The usual diffusion coefficient is the long-time limit of D ( t ).
+
+
+## Results and discussion
+
+The model brain membranes with and without 14-3-3 τ were correctly equilibrated at 310 K and 1 bar. From the simulated trajectories we performed the analysis of following properties of the membrane with and without 14-3-3 tau:
+
+Density profiles of Heads, Tails and Linkers.
+
+Deuterium order parameters of each species.
+
+Local membrane thickness
+
+Self diffusion of PO4 and ROH.
+
+The results displayed in figure 4 show that there are only slight differences between both density profiles of the tails, heads and linkers. The tail density with 14-3-3 τ inserted peaks at about 1200 kg m − 3 , heads at (about 400 kg m-3) and linkers, at 350 kg m − 3 and in the model brain membrane the density was 300 kg m − 3 . These values are consistent with the results of Ingólfsson et al.
+
+The details of the order parameters of SN1 and SN2 tails are given in tables 3 and 4 for the membrane with and without protein, respectively. The average order parameter of SN1 and SN2 tails are respectively 0.29190725 and 0.3611618133 without protein, while with the protein they are 0.3262190325 and 0.3921093714. We observe an increase of about ten percent in the order parameter due to the presence of the protein and this implies more order of the carbon tails. This explains why the model brain membrane without protein presents more undulations in comparison with the membrane containing the protein inserted, as shown in the snapshots of figures 2 and 3 . One cay say that the protein makes the membrane slightly more stiff.
+
+Figure 5 shows the dynamics of the membrane thickness averaged on 100 nanoseconds of each of the microseconds of the simulation run, with and without protein. We observe that the thickness exhibits smaller fluctuations when the protein is present. In a sense, the protein stabilizes the model brain membrane.
+
+Figure 6 displays de average MSD self-diffusion coefficient D ( t ) of PO4 and ROH in 3D and 2D (XY plane) spaces. The average is taken in different regions of space as indicated in the figure. The graphs labeled PO4 and ROH are the self-diffusion coefficients averaged over all the corresponding group of molecules of PO4 and ROH molecules in the simulation box, respectively, without the protein inserted. The graphs labeled PO4 < 5nm and ROH < nm are the self-diffusion coefficients averaged over all the corresponding group of molecules located inside a sphere of radius 5nm around the center of the protein. The graphs labeled PO4 > 5nm and ROH > nm are the self-diffusion coefficients averaged over the groups of molecules located at the exterior of a sphere of radius 5nm around the center of the protein in the simulation box. The PO4 and PO4 > 5nm graphs are practically indistinguishable form each other, and the same can be said about the ROH and ROH > 5 graphs. This means that at the level of the dynamics, the influence of the protein is limited to a cutoff radius of about 5nm. On analyzing the numerical values of the self diffusion coefficient in the long time regime one observes that the effect of the protein is to reduce the diffusion coefficient in an amount of 8 to 10 per cent with respect to the value in absence of the protein. Furthermore, note that the obtained value of the diffusion coefficient is of the order of 25 µ m 2 · ns − 1 . The authors of the Martini force field mention that “to compare the diffusion coefficient obtained from a Martini simulation to a measured one, a conversion factor of about 4 has to be applied to account for the faster diffusion at the CG level due to the smoothened free energy landscape”. Taking into account this scaling factor, our results for the diffusion coefficient are in good agreement with typical values of lipid diffusion coefficient obtained experimentally.
+
+
+## Conclusions
+
+In this work, we correctly built two realistically model brain membranes: one with 14-3-3 protein inserted and the other without 14-3-3 τ inserted, with the primary objective to observe the influence of the protein inside the model brain membrane.
+
+We obtained that the protein reduces the diffusion of the closer lipids, reduces thickness fluctuations, and increases the order of the SN1 and SN2 tails. In the analysis of the partial density of the membrane, we observe in the model brain membrane with protein inserted a slight increase in the peaks of lipid heads and linkers, compared to the model brain membrane. Also, in the order parameters, we can observe higher values in the model brain membrane with the protein inserted than the membrane without protein. We can conclude that the presence of 14-3-3 tau slightly modifies the undulations of the membrane and makes the membrane more stable to thickness fluctuations.
+
+There are many interesting questions about the role of the 14-3-3 protein in model brain membranes that we should tackle in the near future. For example, investigate the influence of a finite protein concentration on the properties of the membrane.
+
+
+## Acknowledgement
+
+J.A.A.-Z. thanks CONACYT for financial support through the program Estancias Posdoctorales Nacionales, and Facultad de Ciencias en Física y Matemáticas UNACH. We thank ACARUS-Unison and LARCAD-UNACH for access to computing facilities.

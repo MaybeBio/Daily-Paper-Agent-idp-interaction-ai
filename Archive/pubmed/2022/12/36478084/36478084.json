@@ -1,0 +1,611 @@
+{
+  "identity": {
+    "pmid": "36478084",
+    "doi": "10.1093/nar/gkac1050",
+    "title": "Biological Magnetic Resonance Data Bank."
+  },
+  "content": {
+    "abstract": "The Biological Magnetic Resonance Data Bank (BMRB, https://bmrb.io) is the international open data repository for biomolecular nuclear magnetic resonance (NMR) data. Comprised of both empirical and derived data, BMRB has applications in the study of biomacromolecular structure and dynamics, biomolecular interactions, drug discovery, intrinsically disordered proteins, natural products, biomarkers, and metabolomics. Advances including GHz-class NMR instruments, national and trans-national NMR cyberinfrastructure, hybrid structural biology methods and machine learning are driving increases in the amount, type, and applications of NMR data in the biosciences. BMRB is a Core Archive and member of the World-wide Protein Data Bank (wwPDB).",
+    "keywords": [],
+    "mesh_terms": [
+      "Databases, Protein",
+      "*Magnetic Resonance Spectroscopy",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Protein Conformation",
+      "*Databases, Chemical"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hoch, Jeffrey C",
+        "Baskaran, Kumaran",
+        "Burr, Harrison",
+        "Chin, John",
+        "Eghbalnia, Hamid R",
+        "Fujiwara, Toshimichi",
+        "Gryk, Michael R",
+        "Iwata, Takeshi",
+        "Kojima, Chojiro",
+        "Kurisu, Genji",
+        "Maziuk, Dmitri",
+        "Miyanoiri, Yohei",
+        "Wedell, Jonathan R",
+        "Wilburn, Colin",
+        "Yao, Hongyang",
+        "Yokochi, Masashi"
+      ],
+      "short_names": [
+        "Hoch JC",
+        "Baskaran K",
+        "Burr H",
+        "Chin J",
+        "Eghbalnia HR",
+        "Fujiwara T",
+        "Gryk MR",
+        "Iwata T",
+        "Kojima C",
+        "Kurisu G",
+        "Maziuk D",
+        "Miyanoiri Y",
+        "Wedell JR",
+        "Wilburn C",
+        "Yao H",
+        "Yokochi M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9230-2019",
+        "ORCID: 0000-0002-5073-1819",
+        "ORCID: 0000-0002-5354-0807"
+      ],
+      "affiliations": [
+        "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA.",
+        "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA.",
+        "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA.",
+        "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA.",
+        "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA.",
+        "Protein Data Bank Japan, Institute for Protein Research, Osaka University, Suita, Osaka 565-0871. Japan.",
+        "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA.",
+        "Protein Data Bank Japan, Institute for Protein Research, Osaka University, Suita, Osaka 565-0871. Japan.",
+        "Protein Data Bank Japan, Institute for Protein Research, Osaka University, Suita, Osaka 565-0871. Japan.",
+        "Graduate School of Engineering Science, Yokohama National University, Yokohama 240-8501, Japan.",
+        "Protein Data Bank Japan, Institute for Protein Research, Osaka University, Suita, Osaka 565-0871. Japan.",
+        "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA.",
+        "Protein Data Bank Japan, Institute for Protein Research, Osaka University, Suita, Osaka 565-0871. Japan.",
+        "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA.",
+        "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA.",
+        "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA.",
+        "Protein Data Bank Japan, Institute for Protein Research, Osaka University, Suita, Osaka 565-0871. Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hoch, Jeffrey C",
+        "short_name": "Hoch JC",
+        "identifiers": [
+          "0000-0002-9230-2019"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA."
+        ]
+      },
+      {
+        "full_name": "Baskaran, Kumaran",
+        "short_name": "Baskaran K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA."
+        ]
+      },
+      {
+        "full_name": "Burr, Harrison",
+        "short_name": "Burr H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA."
+        ]
+      },
+      {
+        "full_name": "Chin, John",
+        "short_name": "Chin J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA."
+        ]
+      },
+      {
+        "full_name": "Eghbalnia, Hamid R",
+        "short_name": "Eghbalnia HR",
+        "identifiers": [
+          "0000-0002-5073-1819"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA."
+        ]
+      },
+      {
+        "full_name": "Fujiwara, Toshimichi",
+        "short_name": "Fujiwara T",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Data Bank Japan, Institute for Protein Research, Osaka University, Suita, Osaka 565-0871. Japan."
+        ]
+      },
+      {
+        "full_name": "Gryk, Michael R",
+        "short_name": "Gryk MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA."
+        ]
+      },
+      {
+        "full_name": "Iwata, Takeshi",
+        "short_name": "Iwata T",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Data Bank Japan, Institute for Protein Research, Osaka University, Suita, Osaka 565-0871. Japan."
+        ]
+      },
+      {
+        "full_name": "Kojima, Chojiro",
+        "short_name": "Kojima C",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Data Bank Japan, Institute for Protein Research, Osaka University, Suita, Osaka 565-0871. Japan.",
+          "Graduate School of Engineering Science, Yokohama National University, Yokohama 240-8501, Japan."
+        ]
+      },
+      {
+        "full_name": "Kurisu, Genji",
+        "short_name": "Kurisu G",
+        "identifiers": [
+          "0000-0002-5354-0807"
+        ],
+        "affiliations": [
+          "Protein Data Bank Japan, Institute for Protein Research, Osaka University, Suita, Osaka 565-0871. Japan."
+        ]
+      },
+      {
+        "full_name": "Maziuk, Dmitri",
+        "short_name": "Maziuk D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA."
+        ]
+      },
+      {
+        "full_name": "Miyanoiri, Yohei",
+        "short_name": "Miyanoiri Y",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Data Bank Japan, Institute for Protein Research, Osaka University, Suita, Osaka 565-0871. Japan."
+        ]
+      },
+      {
+        "full_name": "Wedell, Jonathan R",
+        "short_name": "Wedell JR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA."
+        ]
+      },
+      {
+        "full_name": "Wilburn, Colin",
+        "short_name": "Wilburn C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA."
+        ]
+      },
+      {
+        "full_name": "Yao, Hongyang",
+        "short_name": "Yao H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology and Biophysics, UConn Health, Farmington, CT 06030-3305, USA."
+        ]
+      },
+      {
+        "full_name": "Yokochi, Masashi",
+        "short_name": "Yokochi M",
+        "identifiers": [],
+        "affiliations": [
+          "Protein Data Bank Japan, Institute for Protein Research, Osaka University, Suita, Osaka 565-0871. Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2023 Jan 6",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/09 06:00",
+    "fetched_at": "2026-09-20 17:30:28"
+  },
+  "links": {
+    "cites": [
+      "42617149",
+      "42427544",
+      "42421183",
+      "42395354",
+      "42389901",
+      "42298000",
+      "42284071",
+      "42184111",
+      "42142280",
+      "42127198",
+      "42111695",
+      "42079120",
+      "42026047",
+      "42017787",
+      "42011106",
+      "41903834",
+      "41812158",
+      "41706900",
+      "41676702",
+      "41585721",
+      "41573260",
+      "41532680",
+      "41460861",
+      "41436358",
+      "41421450",
+      "41407720",
+      "41320746",
+      "41278779",
+      "41206752",
+      "41188311",
+      "41171883",
+      "41133822",
+      "41082321",
+      "41002996",
+      "40998818",
+      "40953484",
+      "40923454",
+      "40922426",
+      "40877418",
+      "40872577",
+      "40863631",
+      "40848935",
+      "40815649",
+      "40815493",
+      "40783896",
+      "40775231",
+      "40737128",
+      "40719813",
+      "40716019",
+      "40689497",
+      "40681704",
+      "40679059",
+      "40567503",
+      "40545728",
+      "40536432",
+      "40490488",
+      "40475586",
+      "40466235",
+      "40443993",
+      "40420686",
+      "40333863",
+      "40310505",
+      "40304844",
+      "40223480",
+      "40215227",
+      "40196146",
+      "40133793",
+      "40099807",
+      "39975317",
+      "39969112",
+      "39936944",
+      "39870763",
+      "39858647",
+      "39763873",
+      "39701127",
+      "39630857",
+      "39625332",
+      "39591230",
+      "39574402",
+      "39566105",
+      "39564476",
+      "39441065",
+      "39354323",
+      "39353179",
+      "39279844",
+      "39231223",
+      "39228364",
+      "39217275",
+      "39212001",
+      "39149386",
+      "39069976",
+      "39026850",
+      "38984065",
+      "38979954",
+      "38968106",
+      "38928762",
+      "38928035",
+      "38904893",
+      "38886570",
+      "38873224",
+      "38857235",
+      "38830621",
+      "38794150",
+      "38786466",
+      "38739798",
+      "38691336",
+      "38646777",
+      "38612793",
+      "38597878",
+      "38527460",
+      "38527204",
+      "38507044",
+      "38504100",
+      "38498885",
+      "38177162",
+      "38145951",
+      "38132849",
+      "38111059",
+      "38110031",
+      "38086821",
+      "38040737",
+      "38033387",
+      "37999504",
+      "37994703",
+      "37992167",
+      "37978380",
+      "37953312",
+      "37935005",
+      "37887422",
+      "37887402",
+      "37858532",
+      "37854037",
+      "37762021",
+      "37725656",
+      "37686144",
+      "37666776",
+      "37654797",
+      "37371977",
+      "37298436",
+      "36624667",
+      "21078966",
+      "15684057"
+    ],
+    "refs": [
+      "37905229",
+      "36312518",
+      "36173162",
+      "36005608",
+      "35623116",
+      "35537087",
+      "35460671",
+      "35448495",
+      "35208223",
+      "34676613",
+      "34664328",
+      "34161644",
+      "34152328",
+      "34122823",
+      "33175160",
+      "31362904",
+      "30778259",
+      "30580387",
+      "30395287",
+      "30357364",
+      "30125102",
+      "29058410",
+      "28815765",
+      "28766807",
+      "28534867",
+      "28445744",
+      "28263718",
+      "28190782",
+      "27927232",
+      "27663422",
+      "27048719",
+      "26578576",
+      "26036565",
+      "25502373",
+      "21448735",
+      "20628786",
+      "20554045",
+      "19282963",
+      "19034676",
+      "18288446",
+      "17535901",
+      "17017791",
+      "15608248",
+      "9746340",
+      "3172202"
+    ],
+    "similar": [
+      "36478084",
+      "32006287",
+      "28573592",
+      "18288446",
+      "33950382",
+      "34516045",
+      "17984079",
+      "41903834",
+      "18073189",
+      "24060334",
+      "24010715",
+      "37561405",
+      "28190782",
+      "36281733",
+      "28302053",
+      "27927232",
+      "26269925",
+      "25758094",
+      "38490206",
+      "22110033",
+      "21045060",
+      "38177162",
+      "17142228",
+      "30617821",
+      "39803829",
+      "28495511",
+      "36291635",
+      "24656082",
+      "12766409",
+      "31531901",
+      "41577021",
+      "24288376",
+      "34676613",
+      "23180575",
+      "35507259",
+      "37093489",
+      "35111815",
+      "38087081",
+      "29533231",
+      "36496256",
+      "29067736",
+      "41706900",
+      "39427279",
+      "39273672",
+      "37499445",
+      "40782957",
+      "34791429",
+      "30357364",
+      "17922259",
+      "26293815",
+      "22139937",
+      "35446534",
+      "26387102",
+      "24309626",
+      "30840442",
+      "31911439",
+      "37573815",
+      "30875725",
+      "40562354",
+      "29705209",
+      "39738947",
+      "37583258",
+      "22689068",
+      "36257955",
+      "34633390",
+      "22102572",
+      "16957317",
+      "38501482",
+      "34449019",
+      "36641211",
+      "11727313",
+      "35053175",
+      "31617035",
+      "23545493",
+      "17623851",
+      "2911559",
+      "31502861",
+      "35490563",
+      "31150202",
+      "41174312",
+      "37175539",
+      "27844185",
+      "35930941",
+      "40935285",
+      "33524015",
+      "28132477",
+      "19162471",
+      "37572958",
+      "15853690",
+      "35474152",
+      "17387736",
+      "35005884",
+      "23453016",
+      "20602353",
+      "36395419",
+      "40089044",
+      "38507203",
+      "35801924",
+      "25444697",
+      "23831612"
+    ],
+    "review": [
+      "36478084",
+      "28573592",
+      "33950382",
+      "24060334",
+      "30617821",
+      "39803829",
+      "36291635",
+      "24656082",
+      "41577021",
+      "35111815",
+      "38087081",
+      "36496256",
+      "29067736",
+      "39273672",
+      "37499445",
+      "26293815",
+      "35446534",
+      "26387102",
+      "24309626",
+      "30840442",
+      "31911439",
+      "37573815",
+      "30875725",
+      "40562354",
+      "29705209",
+      "39738947",
+      "16957317",
+      "36641211",
+      "11727313",
+      "35053175",
+      "31617035",
+      "23545493",
+      "37175539",
+      "40935285",
+      "28132477",
+      "19162471",
+      "37572958",
+      "15853690",
+      "35005884",
+      "23453016",
+      "40089044",
+      "38507203",
+      "25444697"
+    ],
+    "pmc": [
+      "9825541"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36478084/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36478084",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkac1050",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

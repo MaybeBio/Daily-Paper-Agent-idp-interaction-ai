@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41741446",
+  "title": "Structural and functional implications of phase separation of membrane protein LacY in Escherichia coli.",
+  "authors": "Linnik, Dmitrii; Sultanji, Sumayra; Stevens, Jan A; Schuurman-Wolters, Gea K; de Boer, Rinse; Punter, Christiaan M; Marrink, Siewert J; Maslov, Ivan; Poolman, Bert",
+  "journal": "Nature communications",
+  "published_date": "2026-02-26",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过PopTag诱导膜蛋白LacY在体内发生相分离，结合分子动力学模拟揭示疏水sticker驱动的凝聚体关联机制，并探讨相分离对膜蛋白功能的影响，虽对象为折叠膜蛋白而非IDP，但其相分离PPI机制建模思路对本课题有迁移启发。",
+  "abstract": "Liquid-liquid phase-separation (LLPS) controls protein activity and dynamically organizes (macro)molecules in living systems without the need for membrane-bound compartments. Biomolecular condensates of water-soluble proteins have extensively been studied, but little is known about LLPS of membrane proteins. In this work we induce in vivo condensation of lactose permease (LacY), a widely-studied model monomeric inner membrane protein in Escherichia coli, and evaluate how it affects LacY function. We fused LacY with engineered, condensate-forming protein PopTag. We observe major changes in the localization and mobility of LacY(Pop). Molecular dynamics simulations show how the PopTag domain drives the condensate-like association dynamics of LacY(Pop) through hydrophobic sticker interactions. LacY(Pop) preserves native-level transport activity and outperforms the non-condensed LacY under mild hyperosmotic stress (osmotic upshift). In osmotically stressed cells, membrane-bound biomolecular condensates also reduce deformation of the cytoplasmic membrane. Perturbation experiments suggest that membrane curvature drives the accumulation of LacY(Pop) at the poles of E. coli. Co-condensation of LacY and beta-galactosidase LacZ slightly reduces their activity and results in remarkable cellular reorganization of the proteins. Our research shows the localization, dynamics, and function of phase-separated membrane proteins in bacteria and highlights the potential of LLPS for engineering complex metabolic networks in vivo.",
+  "abstract_zh": "液-液相分离（LLPS）控制蛋白质活性，并在无需膜结合区室的情况下动态组织生命系统中的（大）分子。水溶性蛋白质的生物分子凝聚体已被广泛研究，但关于膜蛋白的LLPS知之甚少。在本工作中，我们诱导大肠杆菌中广泛研究的模型单体内膜蛋白乳糖通透酶（LacY）发生体内凝聚，并评估其对LacY功能的影响。我们将LacY与工程化、可形成凝聚体的蛋白质PopTag融合。我们观察到LacY(Pop)的定位和移动性发生重大变化。分子动力学（molecular dynamics）模拟显示PopTag结构域如何通过疏水性贴纸相互作用驱动LacY(Pop)的凝聚体样关联动力学。LacY(Pop)保持天然水平的转运活性，并在轻度高渗胁迫（渗透压升高）下优于非凝聚的LacY。在渗透压胁迫细胞中，膜结合生物分子凝聚体还减少细胞质膜的变形。扰动实验表明，膜曲率驱动LacY(Pop)在大肠杆菌极部的积累。LacY与β-半乳糖苷酶LacZ的共凝聚略微降低其活性，并导致蛋白质显著的细胞重组。我们的研究展示了细菌中相分离膜蛋白的定位、动力学和功能，并强调了LLPS在体内工程化复杂代谢网络方面的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41741446/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41741446/",
+  "paper_page_path": "papers/pubmed/41741446/index.html"
+}

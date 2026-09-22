@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.08.11.503562",
+  "title": "Phosphorylation of the Smooth Muscle Master Splicing Regulator RBPMS Regulates its Splicing Activity",
+  "authors": "Barnhart MD; Yang Y; Nakagaki-Silva EE; Hammond TH; Pizzinga M; Gooding C; Stott K; Smith CW",
+  "journal": "bioRxiv",
+  "published_date": "2022-08-12",
+  "window": {
+    "start": "2022-08-08",
+    "end": "2022-08-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究RNA结合蛋白RBPMS磷酸化调控剪接活性，涉及RNA结合与寡聚化机制，但对象非无序蛋白/相分离，且无AI或物理模拟方法，仅与互作机制间接相关。",
+  "abstract": "<h4>ABSTRACT</h4> We previously identified RBPMS as a master regulator of alternative splicing in differentiated smooth muscle cells (SMCs). RBPMS is transcriptionally downregulated during SMC dedifferentiation, but we hypothesized that RBPMS protein activity might be acutely downregulated by post-translational modifications. Publicly available phosphoproteomic datasets reveal that Thr113 and Thr118 immediately adjacent to the RRM domain are commonly both phosphorylated. An RBPMS T113/118 phosphomimetic T/E mutant showed decreased splicing regulatory activity both in transfected cells and in a cell-free in vitro assay, while a non-phosphorylatable T/A mutant retained full activity. Loss of splicing activity was associated with a modest reduction in RNA affinity but significantly reduced RNA binding in nuclear extract. A lower degree of oligomerization of the T/E mutant might cause lower avidity of multivalent RNA binding. However, NMR analysis also revealed that the T113/118E peptide acts as an RNA mimic which can loop back and antagonize RNA-binding by the RRM domain. Finally, we identified ERK2 as the most likely kinase responsible for phosphorylation at Thr113 and Thr118. Collectively, our data identify a potential mechanism for rapid modulation of the SMC splicing program in response to external signals during the vascular injury response and atherogenesis.",
+  "abstract_zh": "我们先前鉴定出RBPMS是分化平滑肌细胞（SMCs）中可变剪接的主调控因子。RBPMS在SMC去分化过程中转录水平下调，但我们假设RBPMS蛋白活性可能通过翻译后修饰被急性下调。公开可用的磷酸化蛋白质组数据集显示，紧邻RRM结构域的Thr113和Thr118通常同时被磷酸化。RBPMS T113/118磷酸化模拟突变体T/E在转染细胞和无细胞体外实验中均表现出剪接调控活性降低，而不可磷酸化的T/A突变体则保留完全活性。剪接活性的丧失与RNA亲和力的适度降低相关，但在核提取物中RNA结合显著减少。T/E突变体的较低寡聚化程度可能导致多价RNA结合亲合力降低。然而，NMR分析还揭示T113/118E肽段充当RNA模拟物，可回折并拮抗RRM结构域的RNA结合。最后，我们鉴定出ERK2是最可能负责Thr113和Thr118磷酸化的激酶。综合来看，我们的数据揭示了在血管损伤反应和动脉粥样硬化形成过程中，响应外部信号快速调节SMC剪接程序的潜在机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.08.11.503562",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.08.11.503562",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.08.11.503562/index.html"
+}

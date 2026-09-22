@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary materials provided
+- **Shared manuscript claim summary** The authors report the first systematic evaluation of AlphaFold3 (AF3) on intrinsically disordered proteins (IDPs), finding that AF3 reliably predicts monomer disorder via pLDDT scores (MCC 0.693) comparable to AlphaFold2 (AF2) and dedicated predictors, but that multimer performance is unpredictable, with AF3 achieving similar aggregate DockQ scores to AF2 through different mechanisms, deterministic failures across seeds, and limited explainability from conventional interface features.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full methods, all numerical results beyond the cited MCC and DockQ values, benchmark definitions, dataset compositions, seed variance analysis details, and any supplementary figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable and timely evaluation of AF3 on IDPs, a topic of high current interest. The claimed dichotomy between reliable monomer disorder prediction and unpredictable multimer performance is intriguing and, if rigorously supported, would constitute a meaningful contribution. However, the abstract alone provides insufficient methodological detail and statistical evidence to assess the robustness of the central claims. The variance decomposition percentages and the seed variance analysis are presented without context, and the mechanistic interpretation of AF3's behavior requires substantially more evidence than is visible here.
+- **Who would be interested in the results, and why** Structural biologists, computational biologists, and researchers using deep learning for protein structure prediction would find these results relevant. The work also speaks to the broader machine learning community interested in model generalization and failure modes, as well as experimentalists studying IDPs who need guidance on when to trust AF3 predictions.
+- **Major strengths** The study addresses a clear gap in the literature, as AF3's performance on IDPs has not been systematically characterized. The comparative design against AF2 and dedicated disorder predictors is appropriate. The claim that disorder prediction emerges from training data rather than architecture is conceptually interesting and testable. The seed variance analysis, if properly executed, could provide novel insight into AF3's deterministic failure modes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "For monomers, AF3's pLDDT scores reliably predict disorder (MCC: 0.693), matching AlphaFold2 and rivaling dedicated predictors."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports a single MCC value of 0.693 for AF3 monomer disorder prediction but provides no confidence intervals, no comparison of statistical significance against AF2 or dedicated predictors, and no description of the dataset used for this evaluation. The claim that AF3 "matches" AF2 and "rivals" dedicated predictors cannot be assessed without knowing the variance in these metrics and the benchmark composition.
+  - **Why it matters** The central positive claim of the paper rests on this comparison. Without statistical rigor, the reader cannot determine whether the observed MCC difference is meaningful or within noise. The abstract also does not specify whether the same test set was used across all methods, which is critical for a fair comparison.
+  - **Resolution test** Provide confidence intervals or error bars for MCC values, report the number of proteins in the test set, specify whether the same benchmark was used for all methods, and include a statistical test for the difference between AF3 and AF2 MCC values.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Conventional structural features explain 58% of AF2's variance but only 42% of AF3's."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The variance decomposition percentages are presented without any description of the regression model, the features included, the number of observations, or the cross-validation scheme. It is unclear whether these are R-squared values from a linear model, and if so, which features were used and how they were selected. The claim that AF3's performance is less explainable by conventional features is central to the "unpredictable" conclusion, but the evidence is not visible.
+  - **Why it matters** This is the key quantitative support for the claim that users cannot predict AF3 multimer success from interface properties. If the feature set is incomplete or the model is misspecified, the lower explained variance for AF3 could be an artifact rather than a genuine mechanistic difference.
+  - **Resolution test** Describe the feature set, the regression approach, the sample size, and the validation strategy. Report standard errors or confidence intervals for the explained variance values. Consider whether the same feature set is equally appropriate for both models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Seed variance analysis reveals AF3's failures are deterministic: the model converges to identical structures across independent runs, whether correct or incorrect, indicating rigid structural priors override available information."
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The seed variance analysis is described in a single sentence with no methodological detail. It is unclear how many seeds were tested, how many complexes were included, what metric was used to define "identical structures," and how the comparison to AF2 was performed. The mechanistic interpretation that "rigid structural priors override available information" is a strong claim that requires direct evidence, such as analysis of internal model states or ablation studies, which is not described.
+  - **Why it matters** This is the most novel and potentially impactful claim in the abstract. If AF3 is deterministic in its failures, this has practical implications for users who might otherwise run multiple seeds to assess confidence. However, the current evidence is insufficient to distinguish genuine determinism from insufficient sampling or a trivial consequence of the model's architecture.
+  - **Resolution test** Report the number of seeds, the number of complexes, the metric used to assess convergence (e.g., RMSD or DockQ between runs), and the distribution of results across seeds. Provide a comparison with AF2 under identical conditions. If possible, include an analysis that directly tests the "rigid structural priors" interpretation, such as examining whether AF3's predictions are insensitive to input features that should matter.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "matching AlphaFold2 and rivaling dedicated predictors" is vague. It is unclear whether "matching" implies statistical equivalence or simply similar magnitude, and which dedicated predictors were used.
+  - **Required correction** Specify the exact comparison, including the names of the dedicated predictors and the statistical basis for the "matching" and "rivaling" claims.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The MFIB benchmark is mentioned but not described. The reader does not know how many entries it contains, how disorder-to-order transitions are defined, or what metric was used to assess successful prediction of folded states.
+  - **Required Correction** Provide a brief description of the MFIB benchmark, including its size and the evaluation metric, or refer to a methods section where this is detailed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Conclusion
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The concluding statement that "Progress demands disorder-enriched datasets and ensemble sampling, not merely novel architectures" is presented as a definitive conclusion, but it is a recommendation that goes beyond the data presented. The abstract does not show that ensemble sampling would improve AF3's multimer performance.
+  - **Required Correction** Soften this statement to reflect that it is a suggestion based on the observed results, or provide preliminary evidence that ensemble sampling improves performance.
+
+## Risk / unsupported claims
+- The claim that AF3's multimer failures are "deterministic" is unsupported without detailed seed variance methodology and results.
+- The mechanistic interpretation that "rigid structural priors override available information" is not directly evidenced in the abstract.
+- The variance decomposition percentages (58% vs 42%) are presented without sufficient context to be evaluated.
+- The claim that disorder prediction "emerges from training data, not model design" is an inference that cannot be conclusively established from a comparison of two models alone.
+- The recommendation that "disorder-enriched datasets and ensemble sampling" are required is a policy suggestion not directly supported by the presented data.

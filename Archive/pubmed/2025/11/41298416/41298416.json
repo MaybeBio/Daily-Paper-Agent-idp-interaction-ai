@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "41298416",
+    "doi": "10.1038/s41467-025-65603-4",
+    "title": "Optimized protein-water interactions and torsional refinements yield balanced atomistic protein force fields."
+  },
+  "content": {
+    "abstract": "All-atom molecular dynamics (MD) simulations based on physics-based force fields serve as an essential complement to experiments for investigating protein structure, dynamics, and interactions. Despite significant advances in force field parameterization, achieving a consistent balance of molecular interactions that stabilize folded proteins while accurately capturing the conformational dynamics of intrinsically disordered polypeptides in solution remains challenging. In this work, we introduce two refined force fields which incorporate either a selective upscaling of protein-water interactions or targeted improvements to backbone torsional sampling: (i) amber ff03w-sc, and (ii) amber ff99SBws-STQ'. Extensive validation against small-angle X-ray scattering (SAXS) and nuclear magnetic resonance (NMR) spectroscopy observables revealed that both force fields accurately reproduced the chain dimensions and secondary structure propensities of IDPs. Importantly, both force fields also maintained the stability of single-chain folded proteins and protein-protein complexes over microsecond-timescale simulations. Overall, our refinement strategies result in transferable force fields with improved accuracy for simulating diverse protein systems, ranging from folded domains to IDPs and protein-protein complexes.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Water/chemistry",
+      "Scattering, Small Angle",
+      "X-Ray Diffraction",
+      "Protein Folding",
+      "*Proteins/chemistry",
+      "Protein Conformation",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Magnetic Resonance Spectroscopy",
+      "Protein Structure, Secondary"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Phan, Tien Minh",
+        "Mohanty, Priyesh",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Phan TM",
+        "Mohanty P",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8608-7359",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA. tienminhphan@tamu.edu.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+        "Department of Chemistry, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Phan, Tien Minh",
+        "short_name": "Phan TM",
+        "identifiers": [
+          "0000-0002-8608-7359"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA. tienminhphan@tamu.edu."
+        ]
+      },
+      {
+        "full_name": "Mohanty, Priyesh",
+        "short_name": "Mohanty P",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+          "Department of Chemistry, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX, USA. jeetain@tamu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Nov 26",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/27 00:27",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [
+      "42437078",
+      "42384764",
+      "42376920",
+      "42261607",
+      "42129207"
+    ],
+    "refs": [
+      "40842365",
+      "40704671",
+      "40289673",
+      "39437158",
+      "38655711",
+      "38592759",
+      "38492239",
+      "38465679",
+      "38160320",
+      "37579155",
+      "37459524",
+      "37134270",
+      "37133846",
+      "36537242",
+      "35802394",
+      "35129612",
+      "34143637",
+      "34025949",
+      "33833657",
+      "33725442",
+      "33174726",
+      "33078950",
+      "32929427",
+      "32402249",
+      "32132204",
+      "31914313",
+      "31877033",
+      "31714766",
+      "31657215",
+      "31363226",
+      "30990694",
+      "30865832",
+      "30049874",
+      "29735687",
+      "29648448",
+      "29547221",
+      "29359503",
+      "29319301",
+      "29080468",
+      "28945358",
+      "28915352",
+      "28808438",
+      "28790177",
+      "28651056",
+      "27819658",
+      "27787702",
+      "27617340",
+      "27082121",
+      "26632962",
+      "26619985",
+      "26606367",
+      "26588950",
+      "26580780",
+      "26575776",
+      "26574453",
+      "26574392",
+      "26574339",
+      "26030189",
+      "25764013",
+      "25400877",
+      "25400522",
+      "25358113",
+      "24854339",
+      "24706910",
+      "24702709",
+      "24128758",
+      "23503848",
+      "23341755",
+      "22577825",
+      "22492978",
+      "22443635",
+      "22384157",
+      "22360139",
+      "22082669",
+      "21539772",
+      "21234644",
+      "21038907",
+      "20866953",
+      "20628786",
+      "19514729",
+      "19033473",
+      "18456823",
+      "17608477",
+      "17263399",
+      "16807295",
+      "16643946",
+      "16392929",
+      "16211481",
+      "15369375",
+      "15296744",
+      "15267980",
+      "11979279",
+      "11960483",
+      "10380930",
+      "10368275",
+      "8744570",
+      "8043575",
+      "6667333",
+      "6414511",
+      "6210373",
+      "4856347"
+    ],
+    "similar": [
+      "41298416",
+      "40060049",
+      "40907012",
+      "30840442",
+      "41073429",
+      "30878202",
+      "32859072",
+      "33078950",
+      "41480867",
+      "29080468",
+      "29808548",
+      "29735687",
+      "30865820",
+      "33382616",
+      "33810353",
+      "26574339",
+      "40534127",
+      "35377637",
+      "31877033",
+      "29548755",
+      "26575776",
+      "31657215",
+      "31402649",
+      "32816485",
+      "34032235",
+      "32585849",
+      "30514082",
+      "28095698",
+      "26030189",
+      "31552948",
+      "31613621",
+      "36641212",
+      "40172236",
+      "28805390",
+      "36468450",
+      "31241933",
+      "39340152",
+      "42129207",
+      "37646172",
+      "32074499",
+      "33623120",
+      "20825228",
+      "29490245",
+      "26320411",
+      "30990694",
+      "39499823",
+      "33444020",
+      "25207671",
+      "34524800",
+      "30979035",
+      "32227937",
+      "40842365",
+      "31914313",
+      "33459730",
+      "32696361",
+      "36533639",
+      "40569578",
+      "21038907",
+      "27300587",
+      "32403216",
+      "26387110",
+      "29864281",
+      "38928405",
+      "22384157",
+      "26020564",
+      "27819658",
+      "23912807",
+      "36800279",
+      "28448138",
+      "26910732",
+      "40654645",
+      "33591749",
+      "40128232",
+      "34152264",
+      "33574233",
+      "24815738",
+      "30865832",
+      "29235155",
+      "32050065",
+      "25719206",
+      "37134270",
+      "34817999",
+      "39651234",
+      "29026044",
+      "29571687",
+      "39056166",
+      "29792674",
+      "31809054",
+      "30091924",
+      "33355572",
+      "39536029",
+      "37452752",
+      "20408171",
+      "36080494",
+      "26990788",
+      "27727496",
+      "26387105",
+      "34680048",
+      "30620594",
+      "27617340"
+    ],
+    "review": [
+      "41298416",
+      "30840442",
+      "29080468",
+      "26320411",
+      "30979035",
+      "32403216",
+      "26387110",
+      "33591749",
+      "33355572",
+      "26387105"
+    ],
+    "pmc": [
+      "12658220"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-65603-4",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41298416/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that introducing a synthetic biomolecular condensate system (Pum2-ELP) into engineered *Vibrio natriegens* expressing ancestral versions of the ectoine biosynthetic enzymes EctA, EctB, and EctC improves ectoine production via substrate channeling. They report a 1.7-fold yield increase from condensate introduction and a final titer of approximately 50 g/L with volumetric productivity of 2.08 g/(L·h) in a 5-L bioreactor.
+- **Visible evidence base** Abstract text only; no numerical data, statistical analyses, experimental details, or methodological descriptions beyond those summarized in the abstract
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, statistical details, strain construction information, enzyme activity data, condensate characterization data, fermentation profiles, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting concept that combines ancestral enzyme reconstruction with synthetic biomolecular condensates to improve ectoine biosynthesis. The reported titer and productivity are notable. However, the abstract provides insufficient experimental detail to evaluate the validity of the central claims, particularly the mechanism of substrate channeling and the attribution of the yield increase to this effect. The causal link between condensate formation and improved production is asserted rather than demonstrated. The ancestral enzyme reconstruction approach is described only superficially. The reported 1.7-fold improvement and the absolute titer are difficult to contextualize without information on controls, replicates, and strain backgrounds. The abstract is written in a way that suggests a complete study, but the evidence base provided is too thin to assess technical soundness.
+- **Who would be interested in the results, and why** Researchers in metabolic engineering, synthetic biology, and industrial biotechnology would be interested in the combination of ancestral enzyme reconstruction with spatial organization strategies. Those working on compatible solute production, particularly ectoine, would find the reported titers relevant. The broader community interested in biomolecular condensates as tools for metabolic flux optimization would also find the concept appealing.
+- **Major strengths** The conceptual combination of ancestral enzyme reconstruction and biomolecular condensate-mediated substrate channeling is novel and potentially impactful. The reported final titer of approximately 50 g/L and productivity of 2.08 g/(L·h) are impressive if reproducible. The systematic evaluation of 27 pathway combinations suggests a thorough optimization approach. The use of *Vibrio natriegens* as a non-halophilic host is a reasonable choice for ectoine production.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the 1.7-fold increase in ectoine yield is "ascribed to the substrate channeling effect" from the Pum2-ELP condensate system.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The causal attribution of the yield increase to substrate channeling is not supported by any direct evidence presented in the abstract. No data are shown demonstrating that condensates form, that enzymes are enriched within them, that substrate channeling occurs, or that the yield increase is specifically due to this mechanism rather than to other effects of protein overexpression, altered gene dosage, or changes in cellular physiology.
+  - **Why it matters** The central mechanistic claim of the paper is substrate channeling. Without direct evidence for this mechanism, the study reduces to an empirical demonstration that a particular fusion protein system improves production, which is less novel and less impactful. The distinction matters for the broader applicability of the approach.
+  - **Resolution test** Provide direct evidence of condensate formation (microscopy), enzyme colocalization within condensates, and a control experiment where the condensate system is introduced without the targeting tags or with a non-interacting scaffold, showing that the yield increase is lost. Alternatively, provide flux analysis or kinetic evidence consistent with channeling.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that ancestral enzymes EctA, EctB, and EctC were reconstructed and selected using "an integrated bioinformatics process" and analyzed with molecular dynamics simulations.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No information is provided about the ancestral reconstruction methodology, the criteria for enzyme selection, the results of the molecular dynamics simulations, or how the ancestral enzymes compare to the modern counterparts in terms of activity, stability, or expression. The rationale for using ancestral enzymes is not stated beyond a general reference to "biosynthetic ancestral enzymes."
+  - **Why it matters** The ancestral enzyme approach is a key component of the claimed innovation. Without evidence that the ancestral enzymes are functionally superior or otherwise advantageous, the contribution of this element to the overall result cannot be assessed. The reader cannot determine whether the reported titer is due to the ancestral enzymes, the condensate system, or the combination.
+  - **Resolution test** Provide sequence alignments, phylogenetic analysis, activity measurements of ancestral versus modern enzymes, and simulation results. Show that the ancestral enzymes are expressed and functional in *V. natriegens* and that they outperform or complement the modern versions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract reports a final titer of approximately 50 g/L and productivity of 2.08 g/(L·h) in a 5-L bioreactor.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no information on the number of biological replicates, the variability between runs, the fermentation conditions (media, carbon source, induction strategy, feeding regime), or the analytical methods used to quantify ectoine. The "approximately 50 g/L" phrasing suggests uncertainty that is not quantified.
+  - **Why it matters** For a claim of industrial relevance, reproducibility and defined conditions are essential. Without these details, the reported titer cannot be evaluated or compared to existing literature. The lack of statistical context prevents assessment of whether the improvement is significant.
+  - **Resolution test** Provide full fermentation details, replicate data with error bars, statistical analysis, and a clear description of the quantification method. Show that the titer is reproducible across at least three independent fermentations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison adequacy
+  - **Claim pointer** The abstract implies that the engineered strain achieves improved ectoine production relative to a baseline, but no baseline titer is given.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The 1.7-fold increase is reported relative to an unspecified control. It is unclear whether the control is the same strain without the condensate system, a strain with the modern enzymes, or a strain with a different pathway configuration. The absolute titer of 50 g/L is presented without comparison to previously reported ectoine production in *V. natriegens* or other hosts.
+  - **Why it matters** Without a clear baseline and comparison to the state of the art, the significance of the reported improvement cannot be judged. The claim of "high volumetric productivity" requires context.
+  - **Resolution test** Clearly define the control strain and provide its titer. Compare the final titer and productivity to published values for ectoine production in other systems, ideally in the same host.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The sentence describing the Pum2-ELP system and the interaction with PRS tags is dense and difficult to follow. The mechanism of recruitment is described in a single long sentence that mixes the design rationale with the expected outcome.
+  - **Required correction** Rewrite this section to clearly separate the design principle (Pum2-ELP forms condensates), the mechanism (PRS tags on mRNA recruit ribosomes and enzymes), and the expected consequence (substrate channeling). Use shorter sentences.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "biosynthetic ancestral enzymes"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "biosynthetic ancestral enzymes" is vague. It is unclear whether these are reconstructed ancestors of the ectoine pathway enzymes specifically or of some broader metabolic context.
+  - **Required correction** Specify that the ancestral enzymes are reconstructed ancestors of EctA, EctB, and EctC from the ectoine biosynthetic pathway.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** "approximately 1.7 folds"
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "1.7 folds" is grammatically awkward and imprecise. It is unclear whether this is a fold-change in titer, yield, or productivity.
+  - **Required correction** State the metric explicitly, for example "the ectoine titer increased by 1.7-fold" and specify the units and conditions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Fermentation description
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The fermentation is described as "batch fermentation" but the productivity of 2.08 g/(L·h) over 24 h implies a specific time course that is not described.
+  - **Required correction** Clarify whether this is a simple batch, fed-batch, or repeated batch, and specify the time points for titer measurement.
+
+## Risk / unsupported claims
+- The claim that the yield increase is due to substrate channeling is unsupported by direct evidence in the abstract.
+- The claim that ancestral enzymes were "reconstructed" and "selected" is unverifiable without methodological details.
+- The claim of "synergistic catalytic efficiency" for the optimal hybrid pathway is not defined or quantified.
+- The reported titer of approximately 50 g/L and productivity of 2.08 g/(L·h) cannot be evaluated without fermentation details and replicate data.
+- The statement that the approach provides "an efficient platform strategy" is a general claim that extends beyond the specific system studied and is not supported by comparative data.

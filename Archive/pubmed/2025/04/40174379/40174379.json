@@ -1,0 +1,247 @@
+{
+  "identity": {
+    "pmid": "40174379",
+    "doi": "10.1016/j.foodchem.2025.143961",
+    "title": "Multispectral analysis and molecular simulation of quinoa protein-tannic acid interactions: Conformational changes and functional properties."
+  },
+  "content": {
+    "abstract": "This study used multispectral analysis and molecular simulation to investigate the mechanisms of non-covalent interactions between quinoa protein isolate (QPI) and tannic acid (TA), and its effects on protein conformation. The formation of the QPI-TA complex was confirmed by increased turbidity, polyphenol binding capacity, and UV-visible absorbance. The addition of TA decreased alpha-helices while increasing beta-sheets and random coils, resulting in a looser, more disordered protein structure of QPI. Thermodynamic analysis and molecular docking results indicated that the predominant interactions between QPI and TA are hydrophobic interactions and hydrogen bonds. Molecular dynamics simulations confirmed that the binding sites of TA and QPI were tightly associated, thereby maintaining conformational stability. Additionally, the non-covalent modification by TA significantly enhanced the emulsifying and foaming capacities of QPI. This study provides a theoretical foundation for the application of QPI-polyphenol complexes in the production of emulsified foods.",
+    "keywords": [
+      "Non-covalently bound",
+      "Protein modification",
+      "Quinoa protein isolate",
+      "Tannic acid"
+    ],
+    "mesh_terms": [
+      "*Chenopodium quinoa/chemistry",
+      "*Tannins/chemistry",
+      "*Plant Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Molecular Docking Simulation",
+      "Protein Conformation",
+      "Hydrogen Bonding",
+      "Thermodynamics",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Polyphenols"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qu, Guangfan",
+        "Yang, Feiyan",
+        "Liu, Fei",
+        "He, Xudong",
+        "Sun, Shuguo"
+      ],
+      "short_names": [
+        "Qu G",
+        "Yang F",
+        "Liu F",
+        "He X",
+        "Sun S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "National Engineering Laboratory for Deep Process of Rice and Byproducts, Hunan Key Laboratory of Grain-oil Deep Process and Quality Control, Hunan Key Laboratory of Forestry Edible Resources Safety and Processing, College of Food Science and Engineering, Central South University of Forestry and Technology, Changsha 410004, Hunan, China.",
+        "National Engineering Laboratory for Deep Process of Rice and Byproducts, Hunan Key Laboratory of Grain-oil Deep Process and Quality Control, Hunan Key Laboratory of Forestry Edible Resources Safety and Processing, College of Food Science and Engineering, Central South University of Forestry and Technology, Changsha 410004, Hunan, China.",
+        "National Engineering Laboratory for Deep Process of Rice and Byproducts, Hunan Key Laboratory of Grain-oil Deep Process and Quality Control, Hunan Key Laboratory of Forestry Edible Resources Safety and Processing, College of Food Science and Engineering, Central South University of Forestry and Technology, Changsha 410004, Hunan, China.",
+        "National Engineering Laboratory for Deep Process of Rice and Byproducts, Hunan Key Laboratory of Grain-oil Deep Process and Quality Control, Hunan Key Laboratory of Forestry Edible Resources Safety and Processing, College of Food Science and Engineering, Central South University of Forestry and Technology, Changsha 410004, Hunan, China.",
+        "National Engineering Laboratory for Deep Process of Rice and Byproducts, Hunan Key Laboratory of Grain-oil Deep Process and Quality Control, Hunan Key Laboratory of Forestry Edible Resources Safety and Processing, College of Food Science and Engineering, Central South University of Forestry and Technology, Changsha 410004, Hunan, China. Electronic address: sshuguo@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qu, Guangfan",
+        "short_name": "Qu G",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Deep Process of Rice and Byproducts, Hunan Key Laboratory of Grain-oil Deep Process and Quality Control, Hunan Key Laboratory of Forestry Edible Resources Safety and Processing, College of Food Science and Engineering, Central South University of Forestry and Technology, Changsha 410004, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Feiyan",
+        "short_name": "Yang F",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Deep Process of Rice and Byproducts, Hunan Key Laboratory of Grain-oil Deep Process and Quality Control, Hunan Key Laboratory of Forestry Edible Resources Safety and Processing, College of Food Science and Engineering, Central South University of Forestry and Technology, Changsha 410004, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Fei",
+        "short_name": "Liu F",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Deep Process of Rice and Byproducts, Hunan Key Laboratory of Grain-oil Deep Process and Quality Control, Hunan Key Laboratory of Forestry Edible Resources Safety and Processing, College of Food Science and Engineering, Central South University of Forestry and Technology, Changsha 410004, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "He, Xudong",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Deep Process of Rice and Byproducts, Hunan Key Laboratory of Grain-oil Deep Process and Quality Control, Hunan Key Laboratory of Forestry Edible Resources Safety and Processing, College of Food Science and Engineering, Central South University of Forestry and Technology, Changsha 410004, Hunan, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Shuguo",
+        "short_name": "Sun S",
+        "identifiers": [],
+        "affiliations": [
+          "National Engineering Laboratory for Deep Process of Rice and Byproducts, Hunan Key Laboratory of Grain-oil Deep Process and Quality Control, Hunan Key Laboratory of Forestry Edible Resources Safety and Processing, College of Food Science and Engineering, Central South University of Forestry and Technology, Changsha 410004, Hunan, China. Electronic address: sshuguo@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Food chemistry"
+    ],
+    "journal_abbrev": [
+      "Food Chem"
+    ],
+    "pub_date": "2025 Jul 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/03 00:25",
+    "fetched_at": "2026-09-22 02:24:26"
+  },
+  "links": {
+    "cites": [
+      "42511178",
+      "42100298",
+      "42069739",
+      "41723949",
+      "41477630",
+      "41323688",
+      "41160200"
+    ],
+    "refs": [],
+    "similar": [
+      "40174379",
+      "39929670",
+      "39147514",
+      "39622378",
+      "34998155",
+      "40271827",
+      "39890002",
+      "29664623",
+      "30016098",
+      "36786363",
+      "37678683",
+      "35217462",
+      "36230034",
+      "39349982",
+      "33648217",
+      "34364069",
+      "23996786",
+      "40086553",
+      "28562127",
+      "31771881",
+      "39414189",
+      "23442089",
+      "37120191",
+      "36372509",
+      "32829242",
+      "39067727",
+      "39029314",
+      "33128352",
+      "31287454",
+      "39146685",
+      "39396476",
+      "40086398",
+      "39432945",
+      "31812319",
+      "31366118",
+      "40073562",
+      "39955364",
+      "39592256",
+      "39708642",
+      "29102789",
+      "39068794",
+      "38201176",
+      "39038434",
+      "31284976",
+      "28943441",
+      "31000294",
+      "38467227",
+      "38960272",
+      "39426260",
+      "32447158",
+      "36387599",
+      "38658073",
+      "36461320",
+      "38729700",
+      "30377080",
+      "25986749",
+      "35267403",
+      "27453381",
+      "31617530",
+      "33152895",
+      "35880440",
+      "39503090",
+      "26226053",
+      "39614490",
+      "40064256",
+      "30939368",
+      "38957103",
+      "37392629",
+      "32045610",
+      "39837440",
+      "31386202",
+      "39510487",
+      "34481848",
+      "34175622",
+      "39094886",
+      "19878856",
+      "39787765",
+      "40253031",
+      "32977429",
+      "40333553",
+      "33576221",
+      "31102867",
+      "39197239",
+      "37716302",
+      "18489119",
+      "38820644",
+      "39029827",
+      "36435086",
+      "39505170",
+      "39987803",
+      "40043433",
+      "31842519",
+      "25093402",
+      "39633551",
+      "31351319",
+      "37562335",
+      "30007881",
+      "30059735",
+      "37181658",
+      "32028198"
+    ],
+    "review": [
+      "40174379",
+      "35880440",
+      "19878856"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0308-8146(25)01212-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

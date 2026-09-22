@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, footnotes) from bioRxiv preprint
+- **Assessment boundary** Scientific content, methodological soundness, claims vs. evidence, and presentation quality as presented in the provided text
+- **Shared manuscript claim summary** The authors present a general algorithm for designing intrinsically disordered protein (IDP) variants with specified conformational properties, using MCMC sampling combined with coarse-grained simulations (CALVADOS) and alchemical free-energy calculations. They demonstrate that variants with diverse compaction levels and phase-separation propensities can be generated while keeping amino acid composition fixed, and validate predictions experimentally for five A1-LCD variants.
+- **Visible evidence base** Abstract, Introduction, Results sections (four subsections), Methods (partial), figure references (Figs. 1–6, S1–S12), tables (S1, S2), data availability statement
+- **Missing materials affecting confidence** Full Methods details (MCMC algorithm equations, simulation parameters, experimental protocols), all figures and tables, supplementary information, detailed statistical analyses, sequence-level data for designed variants
+
+## Reviewer
+- **Overall assessment** This manuscript describes a potentially valuable computational approach for designing IDP sequences with targeted conformational properties. The core idea of combining MCMC sequence sampling with efficient coarse-grained simulations and alchemical free-energy calculations is timely and relevant given recent advances in IDP modeling. The demonstration that compaction can be modulated while preserving amino acid composition, and the experimental validation of five A1-LCD variants, are encouraging. However, the manuscript as presented has several limitations that prevent full assessment: the Methods section is incomplete, figures and tables are not available for inspection, and some claims appear to extend beyond what the described evidence can support. The conceptual advance over prior work (e.g., Zeng et al., Lichtinger et al.) needs clearer articulation. The experimental validation is limited to a single protein family, and the outlier behavior of V5 raises questions about predictive accuracy that are not fully resolved.
+- **Who would be interested in the results, and why** Researchers in the fields of protein design, intrinsically disordered proteins, computational biophysics, and biomolecular condensates would find this work relevant. The ability to design IDPs with tunable conformational properties has potential applications in synthetic biology, biomaterials, and understanding sequence-ensemble-function relationships. The demonstration that charge patterning is a key determinant of compaction in designed sequences also speaks to a broad community studying IDP sequence determinants.
+- **Major strengths** 1) The algorithmic framework is general and could be adapted to other target properties beyond compaction. 2) The combination of MCMC sampling with alchemical free-energy calculations is computationally efficient and clever. 3) The experimental validation, while limited in scope, provides important proof-of-concept evidence. 4) The analysis of sequence features (charge patterning, K parameter) connects design outcomes to established biophysical principles. 5) The contextualization within the human IDRome adds evolutionary and functional relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the algorithm can design IDPs with "different levels of compaction" and that predictions are "highly accurate" based on experimental validation.
+  - **Evidence pointer** Results section "Experimental characterization of A1-LCD variants", Figs. 4 and 5
+  - **Concern** The experimental validation is limited to five A1-LCD variants from a single protein family. The claim of generalizability to other IDPs is not supported by the presented evidence. Additionally, V5 is identified as an outlier in the c_sat predictions, but the authors do not provide a satisfactory explanation for this discrepancy. The statement that "we find a high correlation between predicted and observed values of c_sat" is undermined by the presence of an unexplained outlier, and the small sample size (n=5) makes the correlation statistics unreliable.
+  - **Why it matters** The central claim of the paper is that the design algorithm produces accurate predictions for novel sequences. If the accuracy does not hold for all tested variants, or if the validation is too narrow, the general utility of the method is called into question. The outlier V5 suggests that the model may miss important sequence features that influence phase separation, which is a critical limitation.
+  - **Resolution test** Provide experimental validation on a larger and more diverse set of designed variants from multiple parental IDPs. Offer a mechanistic explanation for the V5 discrepancy, or acknowledge it as a limitation with appropriate caveats. Report correlation statistics with confidence intervals and discuss the implications of the outlier.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the algorithm is "efficient" and enables "large-scale exploration of the sequence-structure space."
+  - **Evidence pointer** Methods section "Markov chain Monte Carlo sampling for IDP design", Fig. S4
+  - **Concern** The Methods section describing the MCMC algorithm is incomplete. The acceptance criterion equation is not fully defined (the equation itself is missing from the text), the simulated annealing schedule is only vaguely described ("decreased by 1% every 2/MCMC steps"), and the criteria for choosing between MD simulation versus reweighting for evaluating R_g are not specified. The efficiency claims cannot be assessed without these details. Furthermore, the threshold for N_eff (20000) and the maximum pool size (10) appear to be chosen based on test data, but the sensitivity of the algorithm to these parameters is not discussed.
+  - **Why it matters** The efficiency of the algorithm is a key selling point. Without complete methodological details, readers cannot reproduce the method, assess its computational cost, or understand its limitations. The choice of parameters could significantly affect the balance between accuracy and speed.
+  - **Resolution test** Provide a complete description of the MCMC algorithm, including the full acceptance criterion, the simulated annealing schedule, and the decision rule for when to run new simulations versus reweighting. Include a sensitivity analysis for key parameters (N_eff threshold, pool size, cooling rate). Report wall-clock times or computational costs for representative design runs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The authors claim their work "builds on previous work using genetic algorithms" but implies their approach is distinct and more general.
+  - **Evidence pointer** Introduction, Conclusions
+  - **Concern** The novelty of the approach relative to prior IDP design efforts (Zeng et al., 2021; Lichtinger et al., 2021) is not clearly articulated. The authors mention these prior works but do not explicitly state what their algorithm adds beyond what was already possible. The use of MCMC with alchemical free-energy calculations is a technical choice, but the conceptual advance needs to be stated more explicitly.
+  - **Why it matters** For a Nature-style audience, the originality and conceptual advance are critical. If the method is largely an incremental improvement over existing tools, the impact is diminished.
+  - **Resolution test** Clearly state the specific limitations of prior approaches that this work overcomes. Provide a direct comparison (at least conceptually, if not computationally) with existing IDP design methods. Highlight any new capabilities enabled by this approach.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that designing IDPs "could help expand the repertoire of proteins with novel functions" and that their method "will enable the design of proteins whose functions exploit the many properties afforded by protein disorder."
+  - **Evidence pointer** Abstract, Conclusions
+  - **Concern** The broader impact and potential applications of the designed IDPs are not demonstrated or discussed in concrete terms. The authors do not show any functional characterization of the designed variants beyond biophysical properties (compaction, phase separation). The claim that this enables "novel functions" is speculative without functional assays or examples of applications.
+  - **Why it matters** The significance of the work for a broad readership depends on the potential for downstream applications. Without concrete examples or a clear roadmap for how designed IDPs could be used, the impact remains abstract.
+  - **Resolution test** Discuss specific potential applications in more detail. If possible, include at least one example of a designed variant with a demonstrated or strongly inferred functional consequence. Alternatively, frame the work more modestly as a tool for probing sequence-ensemble relationships.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and uses jargon (e.g., "conformational ensembles," "compaction," "phase separation") without defining these terms for a general scientific audience. The phrase "vary more than 100 fold in their propensity to undergo phase separation" is striking but the significance is not immediately clear.
+  - **Required correction** Briefly define key terms or provide context for non-specialists. Consider adding a sentence explaining why the 100-fold range in phase-separation propensity is significant.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Sequence features that determine the compaction of the designs"
+  - **Evidence pointer** Fig. 3, Fig. S2
+  - **Issue** The analysis of sequence features relies on correlation coefficients, but the statistical significance of these correlations is not reported. The statement that "charge patterning captures most of the variation" is not quantified.
+  - **Required correction** Report correlation coefficients with p-values or confidence intervals. State explicitly how much of the variance in R_g is explained by the K parameter versus other features.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section "Designed variants in the context of the human disordered proteome"
+  - **Evidence pointer** Fig. 6
+  - **Issue** The comparison with the human IDRome is interesting but the figure is not available for inspection. The text mentions "z(o+-) scores" and "scaling exponents" without fully explaining these metrics for readers unfamiliar with the IDP field.
+  - **Required correction** Provide brief definitions of z(o+-) and scaling exponents. Ensure the figure is self-explanatory with clear axis labels and legends.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Small-angle X-ray scattering"
+  - **Evidence pointer** Methods, Fig. S11, Table S2
+  - **Issue** The SAXS methods are described in detail, but the analysis pipeline for extracting R_g values is not fully described. The use of the molecular form factor (MFF) is mentioned but not explained.
+  - **Required correction** Briefly describe how R_g values were extracted from the SAXS data using the MFF approach. Cite the relevant reference for the MFF method.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions
+  - **Issue** The conclusions section is somewhat repetitive of the results and does not fully address the limitations of the study, particularly the V5 outlier and the narrow experimental validation.
+  - **Required correction** Add a paragraph discussing limitations and potential future directions. Acknowledge the V5 discrepancy and suggest how it might be resolved.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (limited experimental validation and unexplained outlier), R1-M2 (incomplete Methods for the core algorithm)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The combination of MCMC sampling with alchemical free-energy calculations for IDP design appears novel, but the conceptual advance over prior genetic algorithm-based approaches needs clearer articulation.
+  - **Scientific importance** Moderate to high. The ability to design IDPs with tunable properties has broad implications, but the demonstrated applications are limited to biophysical characterization.
+  - **Interdisciplinary readership** Moderate. The work bridges computational biophysics, protein design, and cell biology (phase separation), but the presentation is heavily computational and may be challenging for experimentalists.
+  - **Technical soundness** Currently insufficient. The incomplete Methods and limited experimental validation prevent full assessment of the algorithm's reliability and generalizability.
+  - **Readability for nonspecialists** Needs improvement. The abstract and several sections use field-specific jargon without adequate context.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the preliminary validation is encouraging, but the manuscript in its current form does not fully establish the case. The authors must provide complete methodological details, expand or contextualize the experimental validation, and address the V5 outlier before the claims can be fully assessed.
+
+## Risk / unsupported claims
+- The claim that the algorithm enables "large-scale exploration of the sequence-structure space" is not supported by quantitative efficiency data.
+- The claim of "high accuracy" in predicting phase-separation propensity is weakened by the V5 outlier and the small number of experimentally tested variants.
+- The statement that the method "expands the toolbox for protein design" is forward-looking but not demonstrated with concrete applications.
+- The generalizability of the design algorithm to IDPs beyond the four tested parental sequences is asserted but not experimentally demonstrated.
+- The claim that charge patterning "captures most of the variation" in compaction is not quantified with statistical measures.

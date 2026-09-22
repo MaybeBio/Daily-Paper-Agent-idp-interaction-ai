@@ -1,0 +1,246 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.10.552629",
+  "title": "Dynamic modes of Notch transcription hubs conferring memory and stochastic activation revealed by live imaging the co-activator Mastermind",
+  "doi": "10.1101/2023.08.10.552629",
+  "abstract": "<h4>Summary</h4> Developmental programming involves the accurate conversion of signaling levels and dynamics to transcriptional outputs. The transcriptional relay in the Notch pathway relies on nuclear complexes containing the coactivator Mastermind (Mam). By tracking these complexes in real time, we reveal that they promote formation of a dynamic transcription hub in Notch ON nuclei which concentrates key factors including the Mediator CDK module. The composition of the hub is labile and persists after Notch withdrawal conferring a memory that enables rapid reformation. Surprisingly, only a third of Notch ON hubs progress to a state with nascent transcription, that correlates with Polymerase II and core Mediator recruitment. This probability is increased by a second signal. The discovery that target-gene transcription is probabilistic has far-reaching implications because it implies that stochastic differences in Notch pathway output can arise downstream of receptor activation.",
+  "authors": [
+    "deHaro-Arbona FJ",
+    "Roussos C",
+    "Baloul S",
+    "Townson J",
+    "Gomez-Lamarca MJ",
+    "Bray S"
+  ],
+  "published_date": "2023-08-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.10.552629",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.10.552629.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR705599",
+    "raw_record": {
+      "id": "PPR705599",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR705599"
+        ]
+      },
+      "doi": "10.1101/2023.08.10.552629",
+      "title": "Dynamic modes of Notch transcription hubs conferring memory and stochastic activation revealed by live imaging the co-activator Mastermind",
+      "authorString": "deHaro-Arbona FJ, Roussos C, Baloul S, Townson J, Gomez-Lamarca MJ, Bray S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "deHaro-Arbona FJ",
+            "lastName": "deHaro-Arbona",
+            "firstName": "Javier",
+            "initials": "FJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology Development and Neuroscience University of Cambridge, Downing Street, Cambridge, CB2 3DY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roussos C",
+            "lastName": "Roussos",
+            "firstName": "Charalambos",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology Development and Neuroscience University of Cambridge, Downing Street, Cambridge, CB2 3DY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baloul S",
+            "lastName": "Baloul",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology Development and Neuroscience University of Cambridge, Downing Street, Cambridge, CB2 3DY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Townson J",
+            "lastName": "Townson",
+            "firstName": "Jonathan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5145-5289"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology Development and Neuroscience University of Cambridge, Downing Street, Cambridge, CB2 3DY, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gomez-Lamarca MJ",
+            "lastName": "Gomez-Lamarca",
+            "firstName": "Maria",
+            "initials": "MJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3750-7959"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology Development and Neuroscience University of Cambridge, Downing Street, Cambridge, CB2 3DY, UK"
+                },
+                {
+                  "affiliation": "Instituto de Biomedicina de Sevilla (IBiS), Hospital Universitario Virgen del Rocío/CSIC/Universidad de Sevilla, Departamento de Biología Celular, 41013 Seville, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bray S",
+            "lastName": "Bray",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology Development and Neuroscience University of Cambridge, Downing Street, Cambridge, CB2 3DY, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5145-5289"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3750-7959"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Summary</h4>  Developmental programming involves the accurate conversion of signaling levels and dynamics to transcriptional outputs. The transcriptional relay in the Notch pathway relies on nuclear complexes containing the coactivator Mastermind (Mam). By tracking these complexes in real time, we reveal that they promote formation of a dynamic transcription hub in Notch ON nuclei which concentrates key factors including the Mediator CDK module. The composition of the hub is labile and persists after Notch withdrawal conferring a memory that enables rapid reformation. Surprisingly, only a third of Notch ON hubs progress to a state with nascent transcription, that correlates with Polymerase II and core Mediator recruitment. This probability is increased by a second signal. The discovery that target-gene transcription is probabilistic has far-reaching implications because it implies that stochastic differences in Notch pathway output can arise downstream of receptor activation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "212207",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/11/2023.08.10.552629.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.10.552629"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR705599"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR705599&type=FILE&fileName=EMS186662-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38727722",
+            "reference": "eLife. 2024 May;12:RP92083",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS186662",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-08-29",
+      "firstPublicationDate": "2023-08-11",
+      "firstIndexDate": "2023-08-31",
+      "fullTextReceivedDate": "2024-02-12",
+      "hasEvaluations": "Y"
+    }
+  }
+}

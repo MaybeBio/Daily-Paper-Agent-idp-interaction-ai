@@ -1,0 +1,167 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.16.665182",
+  "title": "Cooperative multivalency converts disorder into rods, resolving a paradox in cellular architecture",
+  "doi": "10.1101/2025.07.16.665182",
+  "abstract": "The cortically anchored adaptor KANK1 organizes microtubules at focal adhesions through a long, intrinsically disordered linker (L2), yet how this linker spans the ∼35–50 nm membrane–microtubule gap is unclear. Here, we combine in-cell, biochemical, and biophysical assays, predictions of motif interaction and multivalent assembly using AlphaFold, and structural analysis by electron microscopy to show that the hub protein LC8, which binds more than 100 clients, converts the intrinsically disordered 600 amino acid L2 into an elongated, multivalent, rod-like assembly. In contrast, isolated motif peptides fail to bind LC8 at physiologically relevant concentrations, indicating that strong complex formation arises from cooperativity among multiple weak sites. These results establish LC8 as a molecular switch that rigidifies and extends KANK1 L2 via distributed weak motifs and short linkers. This interaction produces compositionally homogeneous yet conformationally adaptable rods, long enough to bridge the membrane–microtubule gap, resolving the paradox. This work expands the LC8 binding repertoire, reveals design principles for multivalent assembly, and suggests a generalizable strategy for tuning length, rigidity, and flexibility in large protein architectures.",
+  "authors": [
+    "Walker DR",
+    "Estelle A",
+    "Ammon Y",
+    "Song Y",
+    "Lv QH",
+    "Reardon PN",
+    "Ichikawa M",
+    "Akhmanova A",
+    "Barbar EJ"
+  ],
+  "published_date": "2025-07-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.16.665182",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.16.665182.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1052278",
+    "raw_record": {
+      "id": "PPR1052278",
+      "source": "PPR",
+      "doi": "10.1101/2025.07.16.665182",
+      "title": "Cooperative multivalency converts disorder into rods, resolving a paradox in cellular architecture",
+      "authorString": "Walker DR, Estelle A, Ammon Y, Song Y, Lv QH, Reardon PN, Ichikawa M, Akhmanova A, Barbar EJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Walker DR",
+            "lastName": "Walker",
+            "firstName": "Douglas",
+            "initials": "DR"
+          },
+          {
+            "fullName": "Estelle A",
+            "lastName": "Estelle",
+            "firstName": "Aidan",
+            "initials": "A"
+          },
+          {
+            "fullName": "Ammon Y",
+            "lastName": "Ammon",
+            "firstName": "York-Christoph",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Song Y",
+            "lastName": "Song",
+            "firstName": "Yujuan",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Lv QH",
+            "lastName": "Lv",
+            "firstName": "Qianru",
+            "initials": "QH"
+          },
+          {
+            "fullName": "Reardon PN",
+            "lastName": "Reardon",
+            "firstName": "Patrick",
+            "initials": "PN"
+          },
+          {
+            "fullName": "Ichikawa M",
+            "lastName": "Ichikawa",
+            "firstName": "Muneyoshi",
+            "initials": "M"
+          },
+          {
+            "fullName": "Akhmanova A",
+            "lastName": "Akhmanova",
+            "firstName": "Anna",
+            "initials": "A"
+          },
+          {
+            "fullName": "Barbar EJ",
+            "lastName": "Barbar",
+            "firstName": "Elisar",
+            "initials": "EJ"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The cortically anchored adaptor KANK1 organizes microtubules at focal adhesions through a long, intrinsically disordered linker (L2), yet how this linker spans the ∼35–50 nm membrane–microtubule gap is unclear. Here, we combine in-cell, biochemical, and biophysical assays, predictions of motif interaction and multivalent assembly using AlphaFold, and structural analysis by electron microscopy to show that the hub protein LC8, which binds more than 100 clients, converts the intrinsically disordered 600 amino acid L2 into an elongated, multivalent, rod-like assembly. In contrast, isolated motif peptides fail to bind LC8 at physiologically relevant concentrations, indicating that strong complex formation arises from cooperativity among multiple weak sites. These results establish LC8 as a molecular switch that rigidifies and extends KANK1 L2 via distributed weak motifs and short linkers. This interaction produces compositionally homogeneous yet conformationally adaptable rods, long enough to bridge the membrane–microtubule gap, resolving the paradox. This work expands the LC8 binding repertoire, reveals design principles for multivalent assembly, and suggests a generalizable strategy for tuning length, rigidity, and flexibility in large protein architectures.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "R01GM141733",
+            "orderIn": 0
+          },
+          {
+            "agency": "Marie Sk&amp;#322;odowska-Curie Actions Innovative Training Network",
+            "grantId": "675407",
+            "orderIn": 0
+          },
+          {
+            "agency": "Natural Science Foundation of Shanghai",
+            "grantId": "24ZR1403800",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/21/2025.07.16.665182.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.16.665182"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-07-22",
+      "firstPublicationDate": "2025-07-21",
+      "firstIndexDate": "2025-07-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

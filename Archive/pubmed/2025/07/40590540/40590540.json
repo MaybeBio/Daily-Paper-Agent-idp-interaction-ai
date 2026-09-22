@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "40590540",
+    "doi": "10.1063/5.0269504",
+    "title": "Predicting heteropolymer phase separation using two-chain contact maps."
+  },
+  "content": {
+    "abstract": "Phase separation in polymer solutions often correlates with single-chain and two-chain properties, such as the single-chain radius of gyration, Rg, and the pairwise second virial coefficient, B22. However, recent studies have shown that these metrics can fail to distinguish phase-separating from non-phase-separating heteropolymers, including intrinsically disordered proteins (IDPs). Here, we introduce an approach to predict heteropolymer phase separation from two-chain simulations by analyzing contact maps, which capture how often specific monomers from the two chains are in physical proximity. While B22 summarizes the overall attraction between two chains, contact maps preserve spatial information about their interactions. To compare these metrics, we train phase-separation classifiers for both a minimal heteropolymer model and a chemically specific, residue-level IDP model. Remarkably, simple statistical properties of two-chain contact maps predict phase separation with high accuracy, vastly outperforming classifiers based on Rg and B22 alone. Our results thus establish a transferable and computationally efficient method to uncover key driving forces of IDP phase behavior based on their physical interactions in dilute solution.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jin, Jessica",
+        "Oliver, Wesley",
+        "Webb, Michael A",
+        "Jacobs, William M"
+      ],
+      "short_names": [
+        "Jin J",
+        "Oliver W",
+        "Webb MA",
+        "Jacobs WM"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-4304-9988",
+        "ORCID: 0000-0003-4870-9679",
+        "ORCID: 0000-0002-7420-4474",
+        "ORCID: 0000-0003-0574-4319"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Department of Chemistry, Princeton University, Princeton, New Jersey 08544, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jin, Jessica",
+        "short_name": "Jin J",
+        "identifiers": [
+          "0009-0000-4304-9988"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Princeton University, Princeton, New Jersey 08544, USA.",
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Oliver, Wesley",
+        "short_name": "Oliver W",
+        "identifiers": [
+          "0000-0003-4870-9679"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Webb, Michael A",
+        "short_name": "Webb MA",
+        "identifiers": [
+          "0000-0002-7420-4474"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Jacobs, William M",
+        "short_name": "Jacobs WM",
+        "identifiers": [
+          "0000-0003-0574-4319"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2025 Jul 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/01 21:15",
+    "fetched_at": "2026-09-21 20:31:45"
+  },
+  "links": {
+    "cites": [
+      "40848932"
+    ],
+    "refs": [
+      "40131954",
+      "39078082",
+      "38884406",
+      "38429263",
+      "38380794",
+      "38181073",
+      "37276062",
+      "37079924",
+      "36881934",
+      "36804705",
+      "36701125",
+      "36519427",
+      "34598580",
+      "33934416",
+      "33875649",
+      "33582133",
+      "33078839",
+      "33069007",
+      "32822449",
+      "32312191",
+      "32227994",
+      "32168715",
+      "32087632",
+      "32029630",
+      "31869935",
+      "31139718",
+      "30397688",
+      "29961577",
+      "27824447",
+      "26328871",
+      "25863585",
+      "25747659",
+      "24120937",
+      "23901099",
+      "20404210",
+      "1420991"
+    ],
+    "similar": [
+      "40590540",
+      "40093361",
+      "40911789",
+      "37079924",
+      "28483149",
+      "40748104",
+      "29397728",
+      "34716273",
+      "37039349",
+      "38112495",
+      "31139718",
+      "39225535",
+      "40095314",
+      "36343363",
+      "33403854",
+      "32393642",
+      "26250594",
+      "32357776",
+      "41159867",
+      "39980654",
+      "35119946",
+      "32639157",
+      "35944496",
+      "39105804",
+      "23912807",
+      "39163306",
+      "37662293",
+      "30471685",
+      "39947751",
+      "38260590",
+      "32619404",
+      "33555894",
+      "40970906",
+      "41174305",
+      "33934416",
+      "36321557",
+      "33139563",
+      "30913885",
+      "41169547",
+      "26818963",
+      "34931046",
+      "36641212",
+      "37461587",
+      "26754414",
+      "39568948",
+      "36674958",
+      "39531035",
+      "30217894",
+      "41086136",
+      "39354680",
+      "35126984",
+      "38546977",
+      "36272811",
+      "40128232",
+      "24312701",
+      "38243474",
+      "37093140",
+      "39586094",
+      "36993371",
+      "38965780",
+      "40009520",
+      "36778236",
+      "34710373",
+      "40792356",
+      "35648517",
+      "33302617",
+      "41768432",
+      "40360271",
+      "31021441",
+      "41481439",
+      "33684117",
+      "29364893",
+      "32426975",
+      "31667345",
+      "39475380",
+      "37961110",
+      "39677697",
+      "36346711",
+      "39885825",
+      "39042834",
+      "31898464",
+      "40131954",
+      "40998749",
+      "36351806",
+      "42153320",
+      "30243977",
+      "37290157",
+      "33582133",
+      "30066087",
+      "40278867",
+      "41279136",
+      "37815389",
+      "33610793",
+      "38252962",
+      "36607820",
+      "40072940",
+      "36066390",
+      "41566033",
+      "12833265",
+      "39642200"
+    ],
+    "review": [
+      "40590540",
+      "35119946",
+      "39947751",
+      "36321557",
+      "31021441",
+      "36351806",
+      "30243977",
+      "30066087"
+    ],
+    "pmc": [
+      "12221347"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40590540/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0269504",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

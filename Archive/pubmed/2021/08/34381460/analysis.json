@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34381460",
+  "title": "Structural Basis for SARS-CoV-2 Nucleocapsid Protein Recognition by Single-Domain Antibodies.",
+  "authors": "Ye, Qiaozhen; Lu, Shan; Corbett, Kevin D",
+  "journal": "Frontiers in immunology",
+  "published_date": "2021-08-13",
+  "window": {
+    "start": "2021-08-09",
+    "end": "2021-08-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究解析了单域抗体识别SARS-CoV-2核衣壳蛋白的结构，并探讨抗体对RNA介导相分离的影响，涉及IDR相关相分离但非无序蛋白互作机制建模，方法以晶体结构为主，AI/物理模拟较弱。",
+  "abstract": "The COVID-19 pandemic, caused by the coronavirus SARS-CoV-2, is the most severe public health event of the twenty-first century. While effective vaccines against SARS-CoV-2 have been developed, there remains an urgent need for diagnostics to quickly and accurately detect infections. Antigen tests, particularly those that detect the abundant SARS-CoV-2 Nucleocapsid protein, are a proven method for detecting active SARS-CoV-2 infections. Here we report high-resolution crystal structures of three llama-derived single-domain antibodies that bind the SARS-CoV-2 Nucleocapsid protein with high affinity. Each antibody recognizes a specific folded domain of the protein, with two antibodies recognizing the N-terminal RNA binding domain and one recognizing the C-terminal dimerization domain. The two antibodies that recognize the RNA binding domain affect both RNA binding affinity and RNA-mediated phase separation of the Nucleocapsid protein. All three antibodies recognize highly conserved surfaces on the Nucleocapsid protein, suggesting that they could be used to develop affordable diagnostic tests to detect all circulating SARS-CoV-2 variants.",
+  "abstract_zh": "由冠状病毒SARS-CoV-2引起的COVID-19大流行，是二十一世纪最严重的公共卫生事件。尽管已开发出针对SARS-CoV-2的有效疫苗，但仍迫切需要能够快速、准确检测感染的诊断方法。抗原检测，尤其是那些检测丰富的SARS-CoV-2核衣壳蛋白的检测方法，是检测活跃SARS-CoV-2感染的一种成熟方法。在此，我们报告了三种源自美洲驼的单域抗体的高分辨率晶体结构，这些抗体以高亲和力结合SARS-CoV-2核衣壳蛋白。每种抗体识别该蛋白的一个特定折叠结构域，其中两种抗体识别N端RNA结合结构域，一种识别C端二聚化结构域。识别RNA结合结构域的两种抗体影响RNA结合亲和力以及核衣壳蛋白的RNA介导的相分离 (phase separation)。所有三种抗体均识别核衣壳蛋白上高度保守的表面，这表明它们可用于开发经济实惠的诊断测试，以检测所有流行的SARS-CoV-2变异株。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34381460/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34381460/",
+  "paper_page_path": "papers/pubmed/34381460/index.html"
+}

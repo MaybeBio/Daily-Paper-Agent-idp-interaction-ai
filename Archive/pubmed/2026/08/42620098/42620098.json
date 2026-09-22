@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "42620098",
+    "doi": "10.64898/2026.07.31.741769",
+    "title": "Competing Molecular Interactions Govern the Dynamical Arrest of G3BP1 Condensates."
+  },
+  "content": {
+    "abstract": "G3BP1 is a central scaffold of stress granules (SGs). Upon cellular stress, G3BP1 forms complex coacervates with translationally repressed mRNAs and recruits multiple RNA-binding proteins to form reversible biomolecular condensates. Persistent SGs are linked to age-dependent dynamical arrest and impaired disassembly. Here, we employ active and passive nanoscale rheology with optical tweezers to show that G3BP1 condensates evolve from being dominantly viscous fluids to dynamically arrested network glasses characterized by nanoscale caging and elastic memory. Integrating atomistic and coarse-grained simulations with experiments, we find that electrostatic interactions between the oppositely charged intrinsically disordered regions drive condensate ageing. RNA modulates these interactions in a length-and structure-dependent manner, delaying dynamic arrest, whereas Caprin-1 binding to the NTF2L domain has little effect. Together, these findings reveal how competing inter-IDR and IDR-RNA interactions govern condensate ageing and material-state transitions. The findings have broader implications for the regulation of SG dynamics in cells.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Anurag",
+        "Liu, Vicky",
+        "Mahendran, Tharun Selvam",
+        "Rizvi, Aoon",
+        "Gindra, Bhargavi",
+        "Freibaum, Brian",
+        "Kim, Hong Joo",
+        "Taylor, J Paul",
+        "Pappu, Rohit V",
+        "Banerjee, Priya R"
+      ],
+      "short_names": [
+        "Singh A",
+        "Liu V",
+        "Mahendran TS",
+        "Rizvi A",
+        "Gindra B",
+        "Freibaum B",
+        "Kim HJ",
+        "Taylor JP",
+        "Pappu RV",
+        "Banerjee PR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8132-903X",
+        "ORCID: 0000-0002-6169-1461"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Anurag",
+        "short_name": "Singh A",
+        "identifiers": [
+          "0000-0002-8132-903X"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Liu, Vicky",
+        "short_name": "Liu V",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Mahendran, Tharun Selvam",
+        "short_name": "Mahendran TS",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Rizvi, Aoon",
+        "short_name": "Rizvi A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gindra, Bhargavi",
+        "short_name": "Gindra B",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Freibaum, Brian",
+        "short_name": "Freibaum B",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kim, Hong Joo",
+        "short_name": "Kim HJ",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Taylor, J Paul",
+        "short_name": "Taylor JP",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Banerjee, Priya R",
+        "short_name": "Banerjee PR",
+        "identifiers": [
+          "0000-0002-6169-1461"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jul 31",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/20 11:41",
+    "fetched_at": "2026-09-18 05:48:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42620098",
+      "36279435",
+      "41131140",
+      "37161291",
+      "31481451",
+      "41263030",
+      "42450319",
+      "40848932",
+      "39070659",
+      "38915678",
+      "42383738",
+      "40548742",
+      "23912807",
+      "25520508",
+      "36692217",
+      "40751677",
+      "40455990",
+      "28592527",
+      "32302571",
+      "38252962",
+      "33939924",
+      "41924133",
+      "40603603",
+      "25784705",
+      "42626889",
+      "28972166",
+      "34090478",
+      "39637853",
+      "42475469",
+      "28794026",
+      "25800057",
+      "41933903",
+      "35694405",
+      "34785657",
+      "41670285",
+      "40473629",
+      "41591303",
+      "33199441",
+      "40009520",
+      "30608810",
+      "37194953",
+      "36175408",
+      "39710983",
+      "40214262",
+      "41279444",
+      "41169547",
+      "40028356",
+      "38383656",
+      "42302304",
+      "41524628",
+      "27601476",
+      "39398199",
+      "41481439",
+      "42262924",
+      "36851663",
+      "31956030",
+      "34890409",
+      "38778761",
+      "25488811",
+      "37386790",
+      "37215004",
+      "33547245",
+      "30926670",
+      "39004265",
+      "38262290",
+      "39636939",
+      "35085371",
+      "39464253",
+      "38363675",
+      "42107076",
+      "42276972",
+      "34739333",
+      "39756021",
+      "27147742",
+      "42055532",
+      "39729994",
+      "38370785",
+      "34953209",
+      "39232584",
+      "41337585",
+      "36412795",
+      "35179885",
+      "40791470",
+      "41863073",
+      "24260247",
+      "42260147",
+      "40145738",
+      "37059803",
+      "35293386",
+      "30944179",
+      "37468629",
+      "36322659",
+      "40588121",
+      "36350614",
+      "38429263",
+      "39079611",
+      "37295429",
+      "38915483",
+      "41909144",
+      "40894760"
+    ],
+    "review": [
+      "42620098",
+      "41924133",
+      "35694405",
+      "36851663",
+      "38778761",
+      "42276972",
+      "39756021"
+    ],
+    "pmc": [
+      "13484267"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42620098/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-37",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.07.31.741769",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2601.07513v3",
+  "title": "Modulators Selectively Reshape alpha-Synuclein Phase Transitions",
+  "authors": "Holly Masson; Massimiliano Paesani; Ioana M. Ilie",
+  "journal": "",
+  "published_date": "2026-01-12",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用粗粒化模拟研究调节因子如何重塑α-突触核蛋白从无序到β-rich状态的相变，虽对象为IDP且涉及相变机制，但互作轴较弱（非典型PPI），方法为物理模拟，整体对无序蛋白相变机制建模有启发。",
+  "abstract": "Protein phase transitions govern numerous diseases, including neurodegenerative disorders such as Parkinson's and Alzheimer's. In Parkinson's disease, distinct species of the protein alpha-synuclein undergo phase transitions from highly disordered to ordered beta-rich states. The emerging species and transitions between them can be reshaped by chaperones, small molecules, peptides or antibodies. Here, we use coarse-grained simulations to understand the effect of modulators on the thermodynamics and kinetics of alpha-synuclein transformations and phase transitions. Each protein is represented as a single morphing particle that transforms from a soft sphere (disordered state) to a hard spherocylinder (beta-rich state), while modulators are modeled as soft isotropic particles mimicking small peptides. The results show that purely repulsive modulators do not alter the final outcome, i.e. fibrils form following the same mechanisms independently of the modulator concentration. Attractive interactions towards the disordered protein slow down fibril formation in a dose-dependent manner by stabilizing intermediate species, and strong attraction yields persistent disordered heteroclusters. In contrast, specific attraction to the beta-rich state results in shorter fibrils through direct modulator surface \"capping\" that introduce kinetic barriers to monomer templating at the fibril ends and inhibit lateral attachment. Together, these results link modulator properties and environmental conditions to the effects on nucleation, fibril elongation and off-pathway trapping, providing a quantitative roadmap for selecting modulator properties and strategies that redirect phase transitions toward desirable endpoints. Additionally, they provide guiding principles for the development of intervention strategies and the engineering of novel materials with tunable and responsive properties.",
+  "abstract_zh": "蛋白质相转变调控多种疾病，包括帕金森病和阿尔茨海默病等神经退行性疾病。在帕金森病中，α-突触核蛋白的不同种类经历从高度无序到有序β富集状态的相转变。新出现的种类及其之间的转变可被分子伴侣、小分子、肽段或抗体重塑。在此，我们使用粗粒化模拟来理解调节剂对α-突触核蛋白转化和相转变的热力学及动力学的影响。每种蛋白质被表示为一个单一的可变形粒子，从软球体（无序状态）转变为硬质球柱体（β富集状态），而调节剂则被建模为模拟小肽的软各向同性粒子。结果表明，纯排斥性调节剂不改变最终结果，即纤维形成遵循相同机制，与调节剂浓度无关。对无序蛋白质的吸引性相互作用通过稳定中间种类，以剂量依赖方式减缓纤维形成，而强吸引力则产生持续的无序异质簇。相反，对β富集状态的特异性吸引通过直接调节剂表面“封端”导致更短的纤维，这引入了对纤维末端单体模板化的动力学屏障，并抑制侧向附着。综合来看，这些结果将调节剂特性和环境条件与对成核、纤维伸长和脱靶捕获的影响联系起来，为选择调节剂特性和策略提供了定量路线图，以将相转变导向理想终点。此外，它们为干预策略的开发及具有可调响应特性的新型材料工程提供了指导原则。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2601.07513v3",
+  "source_url": "https://arxiv.org/abs/2601.07513v3",
+  "paper_page_path": "papers/arxiv/2601.07513v3/index.html"
+}

@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "pmid": "38101676",
+    "doi": "10.1016/j.ijbiomac.2023.128718",
+    "title": "Synergistic formulation approach for developing pea protein and guar gum enriched olive oil-in-water emulsion gels as solid fat substitutes: Formulation optimization, characterization, and molecular simulation."
+  },
+  "content": {
+    "abstract": "This study aimed to optimize the formulation of olive oil-in-water (O/W) emulsion gels by incorporating Pea Protein (PP) and Guar Gum (GG) as alternative options for solid fats. The optimum rheological (consistency index, apparent viscosity, recovery) and texture (firmness) properties of the emulsion gels were obtained using a mixture of 2 % PP, 1 % GG, 60 % Olive Oil (OO), and 37 % Water (W). The blend of PP2/GG1 showed the highest results for recovery and firmness, 111.27 % and 33.89 g, respectively. PP/GG blend emulsion gels exhibited higher absolute zeta-potential values, ranging between -72.3 and -77.4 mV. The polydispersity index (PDI) ranged from 0.185 to 0.535, with the most uniform distributions found in the PP/GG blend emulsion gels. Strong phase separation resistance indicated strong stability of PP-GG complex emulsion gels. Higher PP concentrations decreased emulsion oxidation. FTIR and XRD research showed that PP and GG interact strongly, indicating good compatibility. The free binding energy of the most stable configuration of the molecules was -6.8 kcal mol(-1), indicating a high affinity. PP interacted with GG through 9 amino acid residues, with notable residues being Asp 224, Thr 235, Ala 332, Ile 334, and Arg 336, and their respective interaction distances ranged between 2.69 A and 3.87 A.",
+    "keywords": [
+      "Emulsion gels",
+      "Guar gum",
+      "Mixture design",
+      "Olive oil",
+      "Pea protein"
+    ],
+    "mesh_terms": [
+      "*Fat Substitutes/chemistry",
+      "Olive Oil/chemistry",
+      "*Pea Proteins",
+      "Emulsions/chemistry",
+      "*Olea",
+      "Gels/chemistry",
+      "Water/chemistry",
+      "*Galactans",
+      "*Mannans",
+      "*Plant Gums"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kamer, Deniz Damla Altan"
+      ],
+      "short_names": [
+        "Kamer DDA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Food Engineering, Tekirdag Namik Kemal University, 59030 Tekirdag, Turkey. Electronic address: ddaltan@nku.edu.tr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kamer, Deniz Damla Altan",
+        "short_name": "Kamer DDA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Food Engineering, Tekirdag Namik Kemal University, 59030 Tekirdag, Turkey. Electronic address: ddaltan@nku.edu.tr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Feb",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/16 11:42",
+    "fetched_at": "2026-09-21 03:29:37"
+  },
+  "links": {
+    "cites": [
+      "42121511",
+      "41976443"
+    ],
+    "refs": [],
+    "similar": [
+      "38101676",
+      "29389594",
+      "27374540",
+      "27431793",
+      "24751263",
+      "32353929",
+      "27569658",
+      "32829824",
+      "29857107",
+      "38593896",
+      "33548306",
+      "38336319",
+      "38329620",
+      "36265536",
+      "25148996",
+      "31826449",
+      "31301227",
+      "38489875",
+      "19723189",
+      "25224989",
+      "31398027",
+      "31917216",
+      "29291832",
+      "28504182",
+      "34577117",
+      "37736877",
+      "34605029",
+      "26995773",
+      "38042322",
+      "35183963",
+      "35611754",
+      "36336159",
+      "23054308",
+      "36455426",
+      "32105338",
+      "15315390",
+      "27380032",
+      "35651066",
+      "23567291",
+      "25788169",
+      "9876566",
+      "37657583",
+      "36657538",
+      "36821919",
+      "28608892",
+      "39111475",
+      "29572142",
+      "36148831",
+      "17995797",
+      "25952895",
+      "38054382",
+      "25749106",
+      "32599246",
+      "34209325",
+      "32458576",
+      "35777253",
+      "12502419",
+      "38243763",
+      "29289667",
+      "24751034",
+      "28093331",
+      "23988556",
+      "36740248",
+      "31935410",
+      "26692051",
+      "31960429",
+      "31856593",
+      "25236250",
+      "28189788",
+      "30575035",
+      "9486428",
+      "33282435",
+      "35018645",
+      "34102237",
+      "27608547",
+      "37004315",
+      "24619581",
+      "28843146",
+      "21641924",
+      "38301559",
+      "23987443",
+      "1333522",
+      "29654858",
+      "29309872",
+      "36591896",
+      "39265906",
+      "36368364",
+      "31138369",
+      "36703263",
+      "24099940",
+      "30511166",
+      "26584988",
+      "29581005",
+      "34312850",
+      "37549626",
+      "22944434",
+      "32070902",
+      "37696376",
+      "23891769",
+      "19505599",
+      "25492017",
+      "31739049",
+      "31117494",
+      "34289915",
+      "36965393",
+      "32478408",
+      "15826025",
+      "30572043",
+      "30529204",
+      "38969047",
+      "31954572",
+      "36580792",
+      "38434691",
+      "35053910",
+      "38142551",
+      "38502971",
+      "39059910",
+      "39058356",
+      "39013508",
+      "38719014",
+      "38540806",
+      "38823852",
+      "39067425",
+      "37888356",
+      "38626840",
+      "39423967",
+      "38463330",
+      "37232985",
+      "38840808",
+      "39264093"
+    ],
+    "review": [
+      "38101676",
+      "36591896",
+      "38502971"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(23)05617-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3340",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

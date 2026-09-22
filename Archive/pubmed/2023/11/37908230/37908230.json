@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "37908230",
+    "doi": "10.3389/fmolb.2023.1249939",
+    "title": "Structural properties of the HNF-1A transactivation domain."
+  },
+  "content": {
+    "abstract": "Hepatocyte nuclear factor 1alpha (HNF-1A) is a transcription factor with important gene regulatory roles in pancreatic beta-cells. HNF1A gene variants are associated with a monogenic form of diabetes (HNF1A-MODY) or an increased risk for type 2 diabetes. While several pancreatic target genes of HNF-1A have been described, a lack of knowledge regarding the structure-function relationships in HNF-1A prohibits a detailed understanding of HNF-1A-mediated gene transcription, which is important for precision medicine and improved patient care. Therefore, we aimed to characterize the understudied transactivation domain (TAD) of HNF-1A in vitro. We present a bioinformatic approach to dissect the TAD sequence, analyzing protein structure, sequence composition, sequence conservation, and the existence of protein interaction motifs. Moreover, we developed the first protocol for the recombinant expression and purification of the HNF-1A TAD. Small-angle X-ray scattering and synchrotron radiation circular dichroism suggested a disordered conformation for the TAD. Furthermore, we present functional data on HNF-1A undergoing liquid-liquid phase separation, which is in line with in silico predictions and may be of biological relevance for gene transcriptional processes in pancreatic beta-cells.",
+    "keywords": [
+      "HNF-1A",
+      "MODY",
+      "diabetes",
+      "intrinsically disordered protein",
+      "liquid-liquid phase separation",
+      "short linear motif",
+      "transcription factor",
+      "beta-cell"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kind, Laura",
+        "Driver, Mark",
+        "Raasakka, Arne",
+        "Onck, Patrick R",
+        "Njolstad, Pal Rasmus",
+        "Arnesen, Thomas",
+        "Kursula, Petri"
+      ],
+      "short_names": [
+        "Kind L",
+        "Driver M",
+        "Raasakka A",
+        "Onck PR",
+        "Njolstad PR",
+        "Arnesen T",
+        "Kursula P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedicine, University of Bergen, Bergen, Norway.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, Netherlands.",
+        "Department of Biomedicine, University of Bergen, Bergen, Norway.",
+        "Zernike Institute for Advanced Materials, University of Groningen, Groningen, Netherlands.",
+        "Mohn Center for Diabetes Precision Medicine, Department of Clinical Science, University of Bergen, Bergen, Norway.",
+        "Section of Endocrinology and Metabolism, Children and Youth Clinic, Haukeland University Hospital, Bergen, Norway.",
+        "Department of Biomedicine, University of Bergen, Bergen, Norway.",
+        "Department of Surgery, Haukeland University Hospital, Bergen, Norway.",
+        "Department of Biomedicine, University of Bergen, Bergen, Norway.",
+        "Faculty of Biochemistry and Molecular Medicine & Biocenter Oulu, University of Oulu, Oulu, Finland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kind, Laura",
+        "short_name": "Kind L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, University of Bergen, Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Driver, Mark",
+        "short_name": "Driver M",
+        "identifiers": [],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Raasakka, Arne",
+        "short_name": "Raasakka A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, University of Bergen, Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Onck, Patrick R",
+        "short_name": "Onck PR",
+        "identifiers": [],
+        "affiliations": [
+          "Zernike Institute for Advanced Materials, University of Groningen, Groningen, Netherlands."
+        ]
+      },
+      {
+        "full_name": "Njølstad, Pål Rasmus",
+        "short_name": "Njølstad PR",
+        "identifiers": [],
+        "affiliations": [
+          "Mohn Center for Diabetes Precision Medicine, Department of Clinical Science, University of Bergen, Bergen, Norway.",
+          "Section of Endocrinology and Metabolism, Children and Youth Clinic, Haukeland University Hospital, Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Arnesen, Thomas",
+        "short_name": "Arnesen T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, University of Bergen, Bergen, Norway.",
+          "Department of Surgery, Haukeland University Hospital, Bergen, Norway."
+        ]
+      },
+      {
+        "full_name": "Kursula, Petri",
+        "short_name": "Kursula P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedicine, University of Bergen, Bergen, Norway.",
+          "Faculty of Biochemistry and Molecular Medicine & Biocenter Oulu, University of Oulu, Oulu, Finland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2023",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/01 06:43",
+    "fetched_at": "2026-09-21 02:31:27"
+  },
+  "links": {
+    "cites": [
+      "41767394",
+      "41497485",
+      "40823916",
+      "40164612",
+      "39311028",
+      "38855865"
+    ],
+    "refs": [
+      "37553525",
+      "37020022",
+      "36648282",
+      "36444977",
+      "35610022",
+      "35412617",
+      "35257744",
+      "35245500",
+      "35120642",
+      "34999124",
+      "34791371",
+      "34738950",
+      "34718738",
+      "34687712",
+      "34391803",
+      "34265844",
+      "34048569",
+      "33904398",
+      "33833657",
+      "33529164",
+      "33289883",
+      "33237286",
+      "33049213",
+      "33004511",
+      "32613009",
+      "32561165",
+      "32312191",
+      "32238450",
+      "32099086",
+      "31430179",
+      "31024253",
+      "30682370",
+      "30449618",
+      "30420502",
+      "30371978",
+      "30168221",
+      "29893907",
+      "29516480",
+      "29196601",
+      "28946939",
+      "28701416",
+      "28225081",
+      "28186245",
+      "28079019",
+      "27899486",
+      "27881680",
+      "27393828",
+      "27080136",
+      "26668030",
+      "26589045",
+      "26038575",
+      "25866658",
+      "25352555",
+      "25229147",
+      "24753421",
+      "24600443",
+      "23619693",
+      "23484762",
+      "23285060",
+      "22743772",
+      "22280219",
+      "22014521",
+      "21557087",
+      "19917239",
+      "19736561",
+      "19723583",
+      "19412530",
+      "19289501",
+      "18366598",
+      "18082598",
+      "17411046",
+      "17020841",
+      "16930618",
+      "16850178",
+      "16734424",
+      "16274290",
+      "16084395",
+      "15738986",
+      "15629064",
+      "15314216",
+      "15298336",
+      "14988562",
+      "12574234",
+      "12475772",
+      "12469359",
+      "12453420",
+      "11784292",
+      "11439029",
+      "11395415",
+      "11097421",
+      "9858554",
+      "8697299",
+      "8466643",
+      "8065338",
+      "7900999",
+      "2667136",
+      "2163307",
+      "1988015",
+      "1673926"
+    ],
+    "similar": [
+      "37908230",
+      "38855865",
+      "35257744",
+      "30143652",
+      "9703322",
+      "26853433",
+      "11162430",
+      "10491332",
+      "10331424",
+      "23803251",
+      "32072180",
+      "11978637",
+      "11272211",
+      "11428722",
+      "30290432",
+      "21628466",
+      "10868855",
+      "11376119",
+      "14633861",
+      "11590126",
+      "12145145",
+      "17996499",
+      "9754819",
+      "33459938",
+      "10649494",
+      "12235114",
+      "12712243",
+      "10581189",
+      "11439029",
+      "17636037",
+      "15171724",
+      "11278466",
+      "12097158",
+      "21176092",
+      "9839108",
+      "1324404",
+      "11043867",
+      "10672453",
+      "16274290",
+      "21170474",
+      "19188435",
+      "10634407",
+      "15660729",
+      "11440371",
+      "11058894",
+      "15522234",
+      "12646418",
+      "15830177",
+      "11106484",
+      "9593777",
+      "9441664",
+      "11679424",
+      "10468604",
+      "12627330",
+      "12475772",
+      "11284743",
+      "11806470",
+      "11724785",
+      "19336222",
+      "18445177",
+      "12631740",
+      "9174162",
+      "17033837",
+      "11668618",
+      "16492670",
+      "14722127",
+      "11023148",
+      "8139574",
+      "11272165",
+      "12488962",
+      "7776982",
+      "12031966",
+      "10868949",
+      "26413797",
+      "33950347",
+      "15651981",
+      "28934671",
+      "18510493",
+      "11668623",
+      "9231664",
+      "9822613",
+      "9294105",
+      "12574234",
+      "9428789",
+      "9032114",
+      "9780731",
+      "9796880",
+      "11355750",
+      "12189445",
+      "16223942",
+      "24559927",
+      "12475773",
+      "18492944",
+      "10588527",
+      "29695419",
+      "15547294",
+      "18811724"
+    ],
+    "review": [
+      "37908230",
+      "12145145",
+      "11058894",
+      "12475772",
+      "33950347",
+      "9780731"
+    ],
+    "pmc": [
+      "10613711"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37908230/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37908230",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2023.1249939",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

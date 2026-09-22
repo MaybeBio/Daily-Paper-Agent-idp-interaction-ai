@@ -1,0 +1,366 @@
+{
+  "identity": {
+    "pmid": "39867440",
+    "doi": "10.1021/acsphyschemau.4c00048",
+    "title": "Structure Characterization of a Disordered Peptide Using In-Droplet Hydrogen/Deuterium Exchange Mass Spectrometry and Molecular Dynamics."
+  },
+  "content": {
+    "abstract": "In-droplet hydrogen/deuterium exchange (HDX)-mass spectrometry (MS) experiments have been conducted for peptides of highly varied conformational type. A new model is presented that combines the use of protection factors (PF) from molecular dynamics (MD) simulations with intrinsic HDX rates (k (int)) to obtain a structure-to-reactivity calibration curve. Using the model, the relationship of peptide structural flexibility and HDX reactivity for different peptides is elucidated. Additionally, the model is used to describe the degree of conformational flexibility and structural bias for the disease-relevant Nt17 peptide; although highly flexible, intrinsically primed for facile conversion to alpha-helical conformation upon binding with molecular partners imparts significant in-droplet HDX protection for this peptide. In the future, a scale may be developed whereby HDX reactivity is predictive of the degree of structural flexibility and bias (propensity to form 2 degrees  structural elements such as alpha-helix, beta-sheet, and beta-turn) for intrinsically disordered regions (IDRs). Such structural resolution may ultimately be used for high-throughput screening of IDR structural transformation(s) upon binding of ligands such as drug candidates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rahman, Mohammad A",
+        "Sultana, Mst Nigar",
+        "Sharif, Daud",
+        "Mahmud, Sultan",
+        "Legleiter, Justin",
+        "Li, Peng",
+        "Mertz, Blake",
+        "Valentine, Stephen J"
+      ],
+      "short_names": [
+        "Rahman MA",
+        "Sultana MN",
+        "Sharif D",
+        "Mahmud S",
+        "Legleiter J",
+        "Li P",
+        "Mertz B",
+        "Valentine SJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5262-1867",
+        "ORCID: 0000-0002-8332-7142",
+        "ORCID: 0000-0003-4360-2928"
+      ],
+      "affiliations": [
+        "Department of Chemistry, West Virginia University, Morgantown, West Virginia 26506, United States.",
+        "Department of Chemistry, West Virginia University, Morgantown, West Virginia 26506, United States.",
+        "Department of Chemistry, West Virginia University, Morgantown, West Virginia 26506, United States.",
+        "Department of Chemistry, West Virginia University, Morgantown, West Virginia 26506, United States.",
+        "Department of Biochemistry & Molecular Biology, University of Nevada, Reno, Reno, Nevada 89557, United States.",
+        "Department of Chemistry, West Virginia University, Morgantown, West Virginia 26506, United States.",
+        "Alivexis, Cambridge, Massachusetts 02142, United States.",
+        "Department of Chemistry, West Virginia University, Morgantown, West Virginia 26506, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rahman, Mohammad A",
+        "short_name": "Rahman MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, West Virginia University, Morgantown, West Virginia 26506, United States."
+        ]
+      },
+      {
+        "full_name": "Sultana, Mst Nigar",
+        "short_name": "Sultana MN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, West Virginia University, Morgantown, West Virginia 26506, United States."
+        ]
+      },
+      {
+        "full_name": "Sharif, Daud",
+        "short_name": "Sharif D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, West Virginia University, Morgantown, West Virginia 26506, United States."
+        ]
+      },
+      {
+        "full_name": "Mahmud, Sultan",
+        "short_name": "Mahmud S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, West Virginia University, Morgantown, West Virginia 26506, United States."
+        ]
+      },
+      {
+        "full_name": "Legleiter, Justin",
+        "short_name": "Legleiter J",
+        "identifiers": [
+          "0000-0002-5262-1867"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biology, University of Nevada, Reno, Reno, Nevada 89557, United States."
+        ]
+      },
+      {
+        "full_name": "Li, Peng",
+        "short_name": "Li P",
+        "identifiers": [
+          "0000-0002-8332-7142"
+        ],
+        "affiliations": [
+          "Department of Chemistry, West Virginia University, Morgantown, West Virginia 26506, United States."
+        ]
+      },
+      {
+        "full_name": "Mertz, Blake",
+        "short_name": "Mertz B",
+        "identifiers": [],
+        "affiliations": [
+          "Alivexis, Cambridge, Massachusetts 02142, United States."
+        ]
+      },
+      {
+        "full_name": "Valentine, Stephen J",
+        "short_name": "Valentine SJ",
+        "identifiers": [
+          "0000-0003-4360-2928"
+        ],
+        "affiliations": [
+          "Department of Chemistry, West Virginia University, Morgantown, West Virginia 26506, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS physical chemistry Au"
+    ],
+    "journal_abbrev": [
+      "ACS Phys Chem Au"
+    ],
+    "pub_date": "2025 Jan 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/27 06:20",
+    "fetched_at": "2026-09-21 15:11:46"
+  },
+  "links": {
+    "cites": [
+      "39878076"
+    ],
+    "refs": [
+      "38854816",
+      "38829021",
+      "38081856",
+      "37646172",
+      "37463458",
+      "37430450",
+      "36976935",
+      "36644498",
+      "36497453",
+      "36416865",
+      "36318704",
+      "35815971",
+      "35539973",
+      "34767787",
+      "34633178",
+      "34308068",
+      "33917117",
+      "33791275",
+      "33784451",
+      "33417454",
+      "33230318",
+      "33227208",
+      "33124815",
+      "32610010",
+      "32455657",
+      "32275420",
+      "31940176",
+      "31855437",
+      "31025855",
+      "30980382",
+      "30979084",
+      "30793264",
+      "30324261",
+      "30222348",
+      "30040388",
+      "29993155",
+      "29858839",
+      "28516007",
+      "28481522",
+      "28315238",
+      "28304155",
+      "28211014",
+      "27872189",
+      "27321838",
+      "26631602",
+      "26537403",
+      "26387110",
+      "26320411",
+      "26195754",
+      "25741791",
+      "25601683",
+      "25424537",
+      "25160559",
+      "24773235",
+      "23134552",
+      "22821581",
+      "20598937",
+      "19575467",
+      "19444816",
+      "19035774",
+      "18351591",
+      "18171065",
+      "17935303",
+      "16222654",
+      "15907703",
+      "12586457",
+      "12022860",
+      "11700597",
+      "11425309",
+      "11381529",
+      "10550212",
+      "8749853",
+      "8744570",
+      "8388469",
+      "8234246",
+      "6204354",
+      "5333290",
+      "1175645",
+      "625059"
+    ],
+    "similar": [
+      "39867440",
+      "39879324",
+      "37430450",
+      "36636941",
+      "36454645",
+      "31721348",
+      "32420996",
+      "25171396",
+      "39254669",
+      "30324261",
+      "25950969",
+      "30353968",
+      "32036298",
+      "35815971",
+      "36896500",
+      "38801229",
+      "29704663",
+      "29080206",
+      "38516985",
+      "22571272",
+      "23197791",
+      "23649779",
+      "36413494",
+      "32105651",
+      "25510931",
+      "18494500",
+      "28448048",
+      "31449409",
+      "33384131",
+      "37080138",
+      "23663649",
+      "24904985",
+      "33689297",
+      "32955262",
+      "28374315",
+      "34644496",
+      "40163306",
+      "30280315",
+      "26791987",
+      "37093484",
+      "25325890",
+      "37582225",
+      "28770632",
+      "29736601",
+      "34302583",
+      "24715628",
+      "35163047",
+      "35720345",
+      "28344973",
+      "31104815",
+      "30321473",
+      "26791988",
+      "35263087",
+      "28702519",
+      "30293810",
+      "31917926",
+      "25693946",
+      "34493042",
+      "36960982",
+      "33877613",
+      "32672982",
+      "30712581",
+      "19650640",
+      "30282614",
+      "25697521",
+      "33125650",
+      "38561318",
+      "29753788",
+      "27224086",
+      "38888268",
+      "28108962",
+      "36094889",
+      "28355271",
+      "38462973",
+      "39402881",
+      "21342575",
+      "36695755",
+      "20946595",
+      "30890021",
+      "28956290",
+      "39765317",
+      "26826755",
+      "40149012",
+      "27662755",
+      "25267084",
+      "34180886",
+      "38639434",
+      "25053029",
+      "37589157",
+      "18803853",
+      "28550305",
+      "27033079",
+      "37961914",
+      "26802030",
+      "32722756",
+      "31724102",
+      "21173980",
+      "26756197",
+      "23666601",
+      "30609519"
+    ],
+    "review": [
+      "39867440",
+      "36636941",
+      "36454645",
+      "31721348",
+      "25171396",
+      "29704663",
+      "23663649",
+      "28770632",
+      "35720345",
+      "34493042",
+      "39402881",
+      "27662755"
+    ],
+    "pmc": [
+      "11758492"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39867440/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/apcach/article-lookup/doi/10.1021/acsphyschemau.4c00048",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that a 10-residue intracrystalline peptide, LICP, from the hinge ligament of *Pinctada fucata* adopts a planar, elongated conformation upon binding to the aragonite 110 surface, and that this binding promotes elongation of aragonite crystals along the c-axis, thereby explaining a mechanism for aragonite nanofiber formation.
+- **Visible evidence base** Solution-state NMR, saturation transfer difference NMR, dose-dependent structural analyses, molecular dynamics simulations, and in vitro crystallization assays, all as described in the abstract only
+- **Missing materials affecting confidence** Full methods, NMR spectra and assignments, simulation parameters and trajectories, crystallization assay conditions and quantitative results, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting mechanism for aragonite nanofiber formation via a short intrinsically disordered peptide. The combination of NMR, simulation, and in vitro crystallization is appropriate in principle. However, the abstract alone does not provide sufficient quantitative or methodological detail to assess the robustness of the key claims, particularly the specificity of the 110 surface binding, the conformational change mechanism, and the causal link between peptide binding and c-axis elongation. The work is likely of interest to the biomineralization and biomaterials communities, but the evidence base as presented is insufficient to fully establish the central conclusions.
+- **Who would be interested in the results, and why** Researchers in biomineralization, shell biomechanics, protein-mineral interactions, and intrinsically disordered protein function. The work may also appeal to materials scientists interested in bioinspired synthesis of anisotropic crystalline materials, and to structural biologists studying peptide conformation at solid interfaces.
+- **Major strengths** The study addresses a significant gap in understanding the molecular control of aragonite nanofiber formation in a biologically and mechanically important system. The use of multiple complementary techniques (NMR, simulations, crystallization assays) is a strength. The focus on a minimal 10-residue peptide provides a tractable model system with potential for broader insight into disordered peptide function at solid interfaces.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that LICP adopts a planar, elongated conformation in binding to aragonite, featuring a coplanar arrangement of carboxyl and aromatic side chains that enables selective interaction with the aragonite 110 surface.
+  - **Evidence pointer** Solution-state NMR and saturation transfer difference NMR, as described in the abstract; location not provided
+  - **Concern** The abstract states that a solution-state NMR technique was optimized for biomineral systems with dispersive calcium carbonate particles, but no details are given on how the peptide-aragonite interaction was detected in solution, how the bound conformation was distinguished from free or aggregated states, or how the 110 surface specificity was established. Saturation transfer difference NMR can indicate binding, but the abstract does not specify which protons showed saturation transfer, how the epitope was mapped, or how controls (e.g., other crystal faces or amorphous calcium carbonate) were performed.
+  - **Why it matters** The central structural claim, that a specific coplanar arrangement of carboxyl and aromatic side chains enables selective 110 recognition, is the foundation for the entire proposed mechanism. Without clear evidence that the conformation is uniquely induced by the 110 surface and not by other surfaces or solution conditions, the mechanism is not established.
+  - **Resolution test** Provide full NMR data including chemical shift assignments, distance restraints or residual dipolar couplings used to define the planar elongated conformation, and control experiments with other mineral phases or faces. Show that the saturation transfer difference signals are specific to the 110 surface and that the conformational change is not reproduced by free calcium ions or other surfaces.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that molecular dynamics simulations revealed enhanced binding stability of LICP to the 110 surface through multiple carboxyl and aromatic residues.
+  - **Evidence pointer** Molecular dynamics simulations, as described in the abstract; location not provided
+  - **Concern** The abstract does not describe the simulation methodology, including force field parameters for aragonite, water model, simulation length, number of replicas, or how binding free energies or stabilities were computed. Without these details, it is impossible to judge whether the simulations adequately sample the binding landscape or whether the conclusions are robust to parameter choice.
+  - **Why it matters** The simulations are presented as supporting evidence for the specificity of binding to the 110 surface. If the simulation methodology is not validated or if the results are not converged, the claim of enhanced binding stability is not reliable.
+  - **Resolution test** Provide full simulation methods, including force field validation against experimental data, convergence checks, and free energy calculations or binding affinity estimates. Show that the enhanced stability is statistically significant and specific to the 110 surface compared to other faces.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that in vitro crystallization assays showed that LICP promoted elongation of aragonite crystals along the c-axis, consistent with selective binding to the 110 surface.
+  - **Evidence pointer** In vitro crystallization assays, as described in the abstract; location not provided
+  - **Concern** The abstract does not specify the crystallization conditions, the concentration range of LICP tested, the controls used (e.g., scrambled peptide, no peptide, or other peptides), or how crystal morphology and orientation were quantified. The claim of c-axis elongation requires quantitative measurement of crystal dimensions and orientation, which is not described.
+  - **Why it matters** The in vitro assay is the direct functional test of the proposed mechanism. Without quantitative data and appropriate controls, the observed elongation could be due to non-specific effects or artifacts of the crystallization conditions.
+  - **Resolution Test** Provide detailed crystallization protocols, dose-response data, statistical analysis of crystal dimensions, and electron microscopy or diffraction evidence for c-axis orientation. Include controls with mutant or scrambled peptides to demonstrate sequence specificity.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "planar, elongated conformation" and "coplanar arrangement of carboxyl and aromatic side chains" may be unclear to readers unfamiliar with peptide structure at interfaces. A brief explanation of why this conformation is significant for surface recognition would improve accessibility.
+  - **Required correction** Add one sentence clarifying that the planar arrangement allows multiple side chains to simultaneously contact the flat crystal surface, enhancing binding specificity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract claims that LICP serves as a "minimal yet powerful model" but does not state what specific broader principles are revealed beyond the specific system. The significance for other intrinsically disordered peptides in solid-phase systems is asserted but not elaborated.
+  - **Required correction** Provide one concrete example of how the proposed mechanism might apply to other biomineral or biological solid-phase systems, or temper the claim to match the evidence presented.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the conformational change is triggered by solid-phase contact rather than free calcium ions, but does not specify how this was tested beyond "dose-dependent structural analyses." The nature of the dose-response experiment is unclear.
+  - **Required correction** Clarify whether the dose-response was performed with calcium ions, peptide, or mineral surface, and specify the readout used to assess conformational change.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient methodological detail to verify the structural determination, the simulation results, or the functional assay. All three are required to support the central mechanism.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of a short intrinsically disordered peptide using conformational plasticity for crystal face recognition is potentially original, but the abstract does not clearly distinguish this from prior work on acidic proteins in biomineralization.
+  - Scientific importance: The hinge ligament is a mechanically important biological material, and understanding nanofiber formation has broad relevance. However, the abstract does not demonstrate how this mechanism generalizes beyond the specific peptide.
+  - Interdisciplinary readership: The work bridges structural biology, biomineralization, and materials science, which is appropriate for a broad audience. The abstract is largely accessible but includes some specialized terminology.
+  - Technical soundness: Not assessable from the abstract alone. The described techniques are appropriate, but the lack of methodological detail prevents evaluation of the robustness of the results.
+  - Readability for nonspecialists: The abstract is generally clear but could benefit from a brief explanation of the structural significance of the peptide conformation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible mechanism, but the lack of methodological detail and quantitative results prevents verification of the central claims. I would be supportive if the full manuscript provides rigorous evidence for the conformational change, the binding specificity, and the functional effect on crystal growth.
+
+## Risk / unsupported claims
+- The claim that LICP specifically binds the aragonite 110 surface is not supported by the abstract alone, as no direct binding data to different crystal faces are presented.
+- The claim that the conformational change is triggered by solid-phase contact rather than free calcium ions is not fully supported, as the dose-dependent analyses are not described in sufficient detail.
+- The claim that LICP promotes c-axis elongation is not quantitatively supported, as no data on crystal dimensions or orientation are provided.
+- The broader claim that these findings reveal general principles for intrinsically disordered peptides in solid-phase biological systems is an extrapolation beyond the specific evidence presented.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.10.26.513919",
+  "title": "Tropomyosin 1-I/C co-ordinates kinesin-1 and dynein motors during oskar mRNA transport",
+  "authors": "Heber S; McClintock MA; Simon B; Hennig J; Bullock SL; Ephrussi A",
+  "journal": "bioRxiv",
+  "published_date": "2022-10-26",
+  "window": {
+    "start": "2022-10-24",
+    "end": "2022-10-30"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究Tropomyosin 1-I/C通过稳定kinesin-1自抑制构象协调微管马达的时序活动，涉及结构建模但对象非无序蛋白/IDR，且无AI或MD方法，与无序蛋白介导的PPI机制建模关联较弱。",
+  "abstract": "Dynein and kinesin motors mediate long-range intracellular transport, translocating towards microtubule minus and plus ends, respectively. Cargoes often undergo bidirectional transport by binding to both motors simultaneously. However, it is not known how motor activities are coordinated in such circumstances. In Drosophila , sequential activities of the dynein-dynactin-BicD-Egalitarian (DDBE) complex and of kinesin-1 deliver oskar mRNA from nurse cells to the oocyte, and within the oocyte to the posterior pole. Here, through in vitro reconstitution, we show that Tm1-I/C, a Tropomyosin-1 isoform, links kinesin-1 in an inactive state to DDBE-associated oskar mRNA. NMR spectroscopy, small-angle X-ray scattering and structural modeling indicate that Tm1-I/C suppresses kinesin-1 activity by stabilizing its autoinhibited conformation, thus preventing a tug-of-war between the opposite polarity motors until kinesin-1 is activated in the oocyte. Our work reveals a novel strategy ensuring sequential activity of microtubule motors.",
+  "abstract_zh": "动力蛋白（dynein）和驱动蛋白（kinesin）马达介导长距离细胞内运输，分别向微管负端和正端移动。货物通常通过同时结合两种马达而进行双向运输。然而，在这种情况下，马达活性如何协调尚不清楚。在果蝇（Drosophila）中，dynein-dynactin-BicD-Egalitarian（DDBE）复合物和kinesin-1的连续活性将oskar mRNA从滋养细胞运送至卵母细胞，并在卵母细胞内运送至后极。在此，通过体外重构，我们表明Tm1-I/C（一种Tropomyosin-1亚型）将处于失活状态的kinesin-1与DDBE相关的oskar mRNA连接起来。核磁共振波谱（NMR spectroscopy）、小角X射线散射（small-angle X-ray scattering）和结构建模表明，Tm1-I/C通过稳定kinesin-1的自抑制构象来抑制其活性，从而在kinesin-1于卵母细胞中被激活前，防止相反极性马达之间的“拔河”竞争。我们的工作揭示了一种确保微管马达连续活性的新策略。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.10.26.513919",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.10.26.513919",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.10.26.513919/index.html"
+}

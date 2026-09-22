@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38108299",
+  "title": "Correction to \"Analytical Formulation and Field-Theoretic Simulation of Sequence-Specific Phase Separation of Protein-Like Heteropolymers with Short- and Long-Spatial-Range Interactions\".",
+  "authors": "Wessen, Jonas; Das, Suman; Pal, Tanmoy; Chan, Hue Sun",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2023-12-18",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文为关于蛋白样杂聚物序列特异性相分离的解析公式与场论模拟论文的更正，涉及无序蛋白相分离机制建模，但无摘要且为更正，方法贡献有限。",
+  "abstract": "",
+  "abstract_zh": "",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38108299/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38108299/",
+  "paper_page_path": "papers/pubmed/38108299/index.html"
+}

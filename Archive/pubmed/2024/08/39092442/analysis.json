@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39092442",
+  "title": "Site-directed allostery perturbation to probe the negative regulation of hypoxia inducible factor-1alpha.",
+  "authors": "Petrovicz, Vencel L; Pasztuhov, Istvan; Martinek, Tamas A; Hegedus, Zsofia",
+  "journal": "RSC chemical biology",
+  "published_date": "2024-08-02",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过位点定向扰动研究无序转录因子HIF-1alpha与p300/CBP互作中CITED2介导的负协同置换机制，结合生物物理与NMR揭示IDR基序对别构结构变化的作用，属于IDR介导PPI机制建模研究，但方法以实验为主、AI/物理模拟较弱。",
+  "abstract": "The interaction between the intrinsically disordered transcription factor HIF-1alpha and the coactivator proteins p300/CBP is essential in the fast response to low oxygenation. The negative feedback regulator, CITED2, switches off the hypoxic response through a very efficient irreversible mechanism. The negative cooperativity with HIF-1alpha relies on the formation of a ternary intermediate that leads to allosteric structural changes in p300/CBP, in which the cooperative folding/binding of the CITED2 sequence motifs plays a key role. Understanding the contribution of a binding motif to the structural changes in relation to competition efficiency provides invaluable insights into the molecular mechanism. Our strategy is to site-directedly perturb the p300-CITED2 complex's structure without significantly affecting binding thermodynamics. In this way, the contribution of a sequence motif to the negative cooperativity with HIF-1alpha would mainly depend on the induced structural changes, and to a lesser extent on binding affinity. Using biophysical assays and NMR measurements, we show here that the interplay between the N-terminal tail and the rest of the binding motifs of CITED2 is crucial for the unidirectional displacement of HIF-1alpha. We introduce an advantageous approach for evaluating the roles of the different sequence parts with the help of motif-by-motif backbone perturbations.",
+  "abstract_zh": "固有无序转录因子HIF-1alpha与共激活蛋白p300/CBP之间的相互作用对于低氧快速反应至关重要。负反馈调节因子CITED2通过一种非常高效的不可逆机制关闭低氧反应。与HIF-1alpha的负协同性依赖于三元中间体的形成，该中间体导致p300/CBP中的变构结构变化，其中CITED2序列基序的协同折叠/结合起着关键作用。理解结合基序对结构变化的贡献及其与竞争效率的关系，为分子机制提供了宝贵的见解。我们的策略是定点扰动p300-CITED2复合物的结构，而不显著影响结合热力学。通过这种方式，序列基序对HIF-1alpha负协同性的贡献将主要取决于诱导的结构变化，而较少依赖于结合亲和力。利用生物物理测定和核磁共振（NMR）测量，我们在此表明CITED2的N端尾部与其余结合基序之间的相互作用对于HIF-1alpha的单向置换至关重要。我们引入了一种有利的方法，通过逐基序骨架扰动来评估不同序列部分的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39092442/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39092442/",
+  "paper_page_path": "papers/pubmed/39092442/index.html"
+}

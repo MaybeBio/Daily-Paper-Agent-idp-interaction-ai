@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "42600397",
+    "doi": "10.1016/j.sbi.2026.103354",
+    "title": "Single-molecule fluorescence spectroscopy of biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Single-molecule spectroscopy is emerging as a powerful approach for elucidating the molecular structure and dynamics of biomolecular condensates. Unlike ensemble methods, it can resolve heterogeneous conformations, dynamics, interactions, concentrations, and transport properties across a broad range of length- and timescales, even for minute amounts of biomolecules. Recent applications, especially fluorescence-based methods such as single-molecule Forster resonance energy transfer, fluorescence correlation spectroscopy (FCS), fluorescence anisotropy, and nanosecond FCS, have revealed how proteins and nucleic acids behave within dense phases, and how molecular-scale dynamics relate to mesoscopic properties and biological function. Combined with molecular simulations, these measurements yield mechanistic insight into condensate organization, dynamics, and aging. We highlight recent advances, key applications, and promising directions for probing the properties of condensates with single-molecule spectroscopy.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schuler, Benjamin",
+        "Chowdhury, Aritra",
+        "Ivanovic, Milos T",
+        "Valdimarsson, Matti",
+        "Galvanetto, Nicola"
+      ],
+      "short_names": [
+        "Schuler B",
+        "Chowdhury A",
+        "Ivanovic MT",
+        "Valdimarsson M",
+        "Galvanetto N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland; Department of Physics, University of Zurich, 8057 Zurich, Switzerland. Electronic address: schuler@bioc.uzh.ch.",
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland.",
+        "Institut de Biologie Structurale, CNRS, CEA, Universite Grenoble Alps, 38000 Grenoble, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schuler, Benjamin",
+        "short_name": "Schuler B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland; Department of Physics, University of Zurich, 8057 Zurich, Switzerland. Electronic address: schuler@bioc.uzh.ch."
+        ]
+      },
+      {
+        "full_name": "Chowdhury, Aritra",
+        "short_name": "Chowdhury A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Ivanović, Miloš T",
+        "short_name": "Ivanović MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Valdimarsson, Matti",
+        "short_name": "Valdimarsson M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Winterthurerstrasse 190, 8057 Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Galvanetto, Nicola",
+        "short_name": "Galvanetto N",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biologie Structurale, CNRS, CEA, Université Grenoble Alps, 38000 Grenoble, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2026 Aug 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/14 23:37",
+    "fetched_at": "2026-09-18 05:36:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42600397",
+      "42172735",
+      "41795235",
+      "36227474",
+      "33600559",
+      "34970909",
+      "37468629",
+      "41990454",
+      "41317070",
+      "40985078",
+      "29981536",
+      "36416865",
+      "33723285",
+      "36227472",
+      "41406720",
+      "27381442",
+      "36750251",
+      "20627168",
+      "24108646",
+      "40196628",
+      "18410159",
+      "38586000",
+      "38086853",
+      "40291420",
+      "42551042",
+      "30223001",
+      "34144468",
+      "20922742",
+      "28542243",
+      "27583695",
+      "23912807",
+      "22775295",
+      "36524527",
+      "39019880",
+      "28625737",
+      "37957147",
+      "31999015",
+      "28103588",
+      "42577707",
+      "33825543",
+      "39029539",
+      "23312353",
+      "24616447",
+      "41491124",
+      "38781207",
+      "41189905",
+      "41279444",
+      "41670285",
+      "42407334",
+      "42081454",
+      "34845613",
+      "40954121",
+      "28223518",
+      "34185946",
+      "37194953",
+      "33525784",
+      "38363841",
+      "33945656",
+      "35727989",
+      "39530201",
+      "29055320",
+      "40502052",
+      "29800904",
+      "33831596",
+      "33783937",
+      "38405951",
+      "35053175",
+      "40455990",
+      "40136009",
+      "17641956",
+      "40998325",
+      "27566405",
+      "29543457",
+      "35817064",
+      "12384704",
+      "24805942",
+      "36652471",
+      "35179885",
+      "24565277",
+      "34090478",
+      "41540001",
+      "41278259",
+      "36227473",
+      "35881789",
+      "40661423",
+      "28882307",
+      "28510027",
+      "34371261",
+      "36883003",
+      "21767945",
+      "40972943",
+      "28990725",
+      "41667469",
+      "12210537",
+      "30441830",
+      "37252985",
+      "27145874",
+      "29490247",
+      "37499445",
+      "37470705"
+    ],
+    "review": [
+      "42600397",
+      "42172735",
+      "41795235",
+      "33600559",
+      "41990454",
+      "41317070",
+      "27381442",
+      "36750251",
+      "42551042",
+      "30223001",
+      "34144468",
+      "20922742",
+      "27583695",
+      "36524527",
+      "28625737",
+      "33825543",
+      "23312353",
+      "24616447",
+      "41491124",
+      "42407334",
+      "33945656",
+      "29800904",
+      "35053175",
+      "17641956",
+      "24805942",
+      "35179885",
+      "41278259",
+      "28510027",
+      "34371261",
+      "21767945",
+      "12210537",
+      "30441830",
+      "27145874",
+      "37499445"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959-440X(26)00136-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

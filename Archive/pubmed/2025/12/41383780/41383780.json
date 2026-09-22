@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "41383780",
+    "doi": "10.1101/2025.11.26.690784",
+    "title": "HTS-Oracle: Experimentally validated AI-enabled prioritization for generalizable small molecule hit discovery."
+  },
+  "content": {
+    "abstract": "High-throughput screening (HTS) remains a central pillar of small molecule discovery yet routinely fails for immune receptors and protein-protein interaction-driven targets. Here, we introduce HTS-Oracle, an experimentally validated AI system for prospective hit discovery that integrates molecular language modeling with cheminformatics to prioritize bioactive compounds at scale. We deploy HTS-Oracle across three clinically validated yet historically intractable immune targets, TREM2, CHI3L1, and CD28, representing cryptic binding pockets, intrinsically disordered proteins, and protein-protein interaction-driven immune checkpoint, respectively. Across the tested targets, HTS-Oracle reduces experimental screening requirements by up to >99% while increasing hit rates by up to 176-fold relative to traditional HTS. Notably, the platform remains predictive under extreme data sparsity, achieving an eightfold improvement for CD28 despite fewer than 2% actives in training. By consistently enriching for experimentally validated hits, HTS-Oracle establishes a new performance benchmark for hit discovery and unlocks small molecule access to immune targets long regarded as chemically inaccessible.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nada, Hossam",
+        "Calvo-Barreiro, Laura",
+        "Fuchs, Natalie",
+        "Kaur, Baljit",
+        "Cho, Sungwoo",
+        "Upadhyay, Saurabh",
+        "Meanwell, Nicholas",
+        "Gabr, Moustafa"
+      ],
+      "short_names": [
+        "Nada H",
+        "Calvo-Barreiro L",
+        "Fuchs N",
+        "Kaur B",
+        "Cho S",
+        "Upadhyay S",
+        "Meanwell N",
+        "Gabr M"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Nada, Hossam",
+        "short_name": "Nada H",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Calvo-Barreiro, Laura",
+        "short_name": "Calvo-Barreiro L",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Fuchs, Natalie",
+        "short_name": "Fuchs N",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kaur, Baljit",
+        "short_name": "Kaur B",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Cho, Sungwoo",
+        "short_name": "Cho S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Upadhyay, Saurabh",
+        "short_name": "Upadhyay S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Meanwell, Nicholas",
+        "short_name": "Meanwell N",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Gabr, Moustafa",
+        "short_name": "Gabr M",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Dec 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/12 07:20",
+    "fetched_at": "2026-09-17 22:50:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41383780",
+      "40777482",
+      "40750059",
+      "41244399",
+      "40667055",
+      "40501992",
+      "36994428",
+      "37328053",
+      "32808550",
+      "40774638",
+      "41072798",
+      "41394665",
+      "40501875",
+      "40833877",
+      "26678094",
+      "19479324",
+      "40658043",
+      "27789427",
+      "29425455",
+      "21395401",
+      "12471601",
+      "32400264",
+      "27043133",
+      "27831568",
+      "33882754",
+      "16475970",
+      "24933016",
+      "27487177",
+      "22933186",
+      "32009951",
+      "21160066",
+      "37499195",
+      "38565852",
+      "33790118",
+      "28570708",
+      "18428086",
+      "22233646",
+      "16991174",
+      "40055728",
+      "21247425",
+      "22727778",
+      "27252534",
+      "39543721",
+      "24117015",
+      "20809896",
+      "17936059",
+      "22594495",
+      "40795239",
+      "18227223",
+      "23585218",
+      "28418656",
+      "19775937",
+      "33482073",
+      "21882410",
+      "18084916",
+      "41192685",
+      "19531667",
+      "23860224",
+      "38020385",
+      "41357984",
+      "34047186",
+      "28333338",
+      "24376084",
+      "29699447",
+      "40777267",
+      "24132686",
+      "40909671",
+      "35169219",
+      "26318992",
+      "34111995",
+      "41089657",
+      "23667592",
+      "15338950",
+      "27313114",
+      "35405106",
+      "23454345",
+      "24900874",
+      "17608469",
+      "19795815",
+      "15287820",
+      "27317000",
+      "25163000",
+      "21660516",
+      "31284073",
+      "31373203",
+      "29574079",
+      "20838979",
+      "32734803",
+      "32208718",
+      "23975880",
+      "24695619",
+      "29795804",
+      "39879825",
+      "30204440",
+      "18549981",
+      "26878899",
+      "21680863",
+      "41199304",
+      "35695766",
+      "35872229"
+    ],
+    "review": [
+      "41383780",
+      "37328053",
+      "27789427",
+      "33790118",
+      "18428086",
+      "20809896",
+      "17936059",
+      "28418656",
+      "19775937",
+      "18084916",
+      "15338950",
+      "15287820",
+      "25163000",
+      "39879825",
+      "18549981"
+    ],
+    "pmc": [
+      "12694594"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41383780/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.11.26.690784",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

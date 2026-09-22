@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.06.552203",
+  "title": "S-PLM: Structure-aware Protein Language Model via Contrastive Learning between Sequence and Structure",
+  "authors": "Duolin Wang; Mahdi Pourmirzaei; Usman L Abbas; Shuai Zeng; Negin Manshour; Farzaneh Esmaili; Biplab Poudel; Yuexu Jiang; Qing Shao; Jin Chen; Dong Xu",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-07",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 5,
+  "one_liner_zh": "提出结构感知蛋白语言模型S-PLM，通过对比学习融合序列与AlphaFold预测结构，用于蛋白功能预测，虽涉及蛋白互作相关表征但未聚焦IDP/PPI机制建模。",
+  "abstract": "Proteins play an essential role in various biological and engineering processes. Large protein language models (PLMs) present excellent potential to reshape protein research by accelerating the determination of protein function and the design of proteins with the desired functions. The prediction and design capacity of PLMs relies on the representation gained from the protein sequences. However, the lack of crucial 3D structure information in most PLMs restricts the prediction capacity of PLMs in various applications, especially those heavily dependent on 3D structures. To address this issue, we introduce S-PLM, a 3D structure-aware PLM that utilizes multi-view contrastive learning to align the sequence and 3D structure of a protein in a coordinated latent space. S-PLM applies Swin-Transformer on AlphaFold-predicted protein structures to embed the structural information and fuses it into sequence-based embedding from ESM2. Additionally, we provide a library of lightweight tuning tools to adapt S-PLM for diverse protein property prediction tasks. Our results demonstrate S-PLM’s superior performance over sequence-only PLMs on all protein clustering and classification tasks, achieving competitiveness comparable to state-of-the-art methods requiring both sequence and structure inputs. S-PLM and its lightweight tuning tools are available at https://github.com/duolinwang/S-PLM/ .",
+  "abstract_zh": "蛋白质在多种生物学和工程过程中扮演着至关重要的角色。大型蛋白质语言模型（PLMs）展现出重塑蛋白质研究的巨大潜力，通过加速蛋白质功能的确定以及设计具有所需功能的蛋白质。PLMs的预测与设计能力依赖于从蛋白质序列中获得的表征。然而，大多数PLMs缺乏关键的3D结构信息，这限制了PLMs在各种应用中的预测能力，尤其是那些高度依赖3D结构的应用。为解决这一问题，我们引入了S-PLM，一种3D结构感知的PLM，它利用多视角对比学习在协调的潜在空间中对齐蛋白质的序列和3D结构。S-PLM在AlphaFold预测的蛋白质结构上应用Swin-Transformer来嵌入结构信息，并将其融合到基于ESM2的序列嵌入中。此外，我们提供了一个轻量级调优工具库，以适应S-PLM用于多种蛋白质性质预测任务。我们的结果表明，S-PLM在所有蛋白质聚类和分类任务上均优于仅基于序列的PLMs，达到了与需要同时输入序列和结构的最先进方法相当的竞争力。S-PLM及其轻量级调优工具可在https://github.com/duolinwang/S-PLM/ 获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.06.552203",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.06.552203",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.06.552203/index.html"
+}

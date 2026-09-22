@@ -1,0 +1,232 @@
+{
+  "identity": {
+    "pmid": "38370681",
+    "doi": "10.1101/2024.02.01.578453",
+    "title": "Defining the mechanisms and properties of post-transcriptional regulatory disordered regions by high-throughput functional profiling."
+  },
+  "content": {
+    "abstract": "Disordered regions within RNA binding proteins are required to control mRNA decay and protein synthesis. To understand how these disordered regions modulate gene expression, we surveyed regulatory activity across the entire disordered proteome using a high-throughput functional assay. We identified hundreds of regulatory sequences within intrinsically disordered regions and demonstrate how these elements cooperate with core mRNA decay machinery to promote transcript turnover. Coupling high-throughput functional profiling with mutational scanning revealed diverse molecular features, ranging from defined motifs to overall sequence composition, underlying the regulatory effects of disordered peptides. Machine learning analysis implicated aromatic residues in particular contexts as critical determinants of repressor activity, consistent with their roles in forming protein-protein interactions with downstream effectors. Our results define the molecular principles and biochemical mechanisms that govern post-transcriptional gene regulation by disordered regions and exemplify the encoding of diverse yet specific functions in the absence of well-defined structure.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lobel, Joseph H",
+        "Ingolia, Nicholas T"
+      ],
+      "short_names": [
+        "Lobel JH",
+        "Ingolia NT"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5986-7280",
+        "ORCID: 0000-0002-3395-1545"
+      ],
+      "affiliations": [
+        "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA 94720, USA.",
+        "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA 94720, USA.",
+        "Lead contact."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lobel, Joseph H",
+        "short_name": "Lobel JH",
+        "identifiers": [
+          "0000-0001-5986-7280"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA 94720, USA."
+        ]
+      },
+      {
+        "full_name": "Ingolia, Nicholas T",
+        "short_name": "Ingolia NT",
+        "identifiers": [
+          "0000-0002-3395-1545"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA 94720, USA.",
+          "Lead contact."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Feb 5",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/19 06:43",
+    "fetched_at": "2026-09-21 05:15:46"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38370681",
+      "40269159",
+      "42475469",
+      "29759983",
+      "41053545",
+      "26941072",
+      "37231154",
+      "41993527",
+      "39888268",
+      "35404090",
+      "37957331",
+      "41690588",
+      "23912807",
+      "34663436",
+      "27048167",
+      "39617253",
+      "22416277",
+      "24649509",
+      "26784394",
+      "34591015",
+      "35481633",
+      "23076520",
+      "28934129",
+      "39864625",
+      "39553988",
+      "42585785",
+      "25286318",
+      "23056474",
+      "38296708",
+      "23184988",
+      "31521236",
+      "38941236",
+      "38165154",
+      "35012986",
+      "10731411",
+      "21732203",
+      "42306853",
+      "36754681",
+      "40767619",
+      "27911701",
+      "24668165",
+      "19432952",
+      "23904995",
+      "29525204",
+      "36908253",
+      "28002650",
+      "26626130",
+      "31442477",
+      "39383002",
+      "41657982",
+      "30819075",
+      "40563459",
+      "7891717",
+      "39826710",
+      "41446148",
+      "40645561",
+      "25896902",
+      "38297118",
+      "40383327",
+      "35098694",
+      "20959291",
+      "36851914",
+      "31264965",
+      "31053165",
+      "33806614",
+      "27803181",
+      "33866372",
+      "39386603",
+      "41910388",
+      "25631540",
+      "19067583",
+      "27151978",
+      "42519045",
+      "34631798",
+      "1764516",
+      "38866324",
+      "35605677",
+      "34347206",
+      "18950538",
+      "32696354",
+      "37722056",
+      "42057657",
+      "31709918",
+      "22574904",
+      "22535488",
+      "29080786",
+      "12771211",
+      "28857320",
+      "42364125",
+      "33304713",
+      "28024160",
+      "40826469",
+      "42246097",
+      "42450148",
+      "30099775",
+      "35120642",
+      "37498545",
+      "41512952",
+      "42645201",
+      "41101509"
+    ],
+    "review": [
+      "38370681",
+      "39888268",
+      "37957331",
+      "27048167",
+      "38296708",
+      "31521236",
+      "42306853",
+      "36754681",
+      "27911701",
+      "26626130",
+      "40645561",
+      "35098694",
+      "36851914",
+      "25631540",
+      "34347206",
+      "42057657",
+      "31709918",
+      "22535488"
+    ],
+    "pmc": [
+      "10871298"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38370681/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38370681",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.02.01.578453",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

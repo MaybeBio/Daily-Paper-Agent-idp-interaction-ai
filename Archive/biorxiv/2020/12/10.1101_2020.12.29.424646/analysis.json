@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2020.12.29.424646",
+  "title": "Environmental Dependence of the Structure of the C-terminal Domain of the SARS-CoV-2 Envelope Protein",
+  "authors": "Gadhave K; Kumar A; Kumar P; Kapuganti SK; Garg N; Vendruscolo M; Giri R",
+  "journal": "bioRxiv",
+  "published_date": "2020-12-29",
+  "window": {
+    "start": "2020-12-28",
+    "end": "2021-01-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究SARS-CoV-2包膜蛋白C端无序结构域在不同环境下的构象转变（无序-膜结合折叠-淀粉样纤维），对象为IDP且涉及膜互作，但未聚焦蛋白-蛋白互作机制，且方法以实验表征为主，仅用PEP-FOLD预测结构，AI/物理模拟方法较弱。",
+  "abstract": "The SARS-CoV-2 envelope protein (E) is involved in a broad spectrum of functions in the cycle of the virus, including assembly, budding, envelope formation, and pathogenesis. To enable these activities, E is likely to be capable of changing its conformation depending on environmental cues. To investigate this issue, here we characterised the structural properties of the C-terminal domain of E (E-CTD), which has been reported to interact with host cell membranes. We first studied the conformation of the E-CTD in solution, finding characteristic features of a disordered protein. By contrast, in the presence of large unilamellar vesicles and micelles, which mimic cell membranes, the E-CTD was observed to become structured. The E-CTD was also found to display conformational changes with osmolytes. Furthermore, prolonged incubation of the E-CTD under physiological conditions resulted in amyloid-like fibril formation. Taken together, these findings indicate that the E-CTD can change its conformation depending on its environment, ranging from a disordered state, to a membrane-bound folded state, and an amyloid state. Our results thus provide insight into the structural basis of the role of E in the viral infection process. <h4>Highlights</h4> The E-CTD of SARS-CoV-2 is intrinsically disordered in solution The E-CTD folds into an ordered structure in presence of membrane mimetics The E-CTD displays conformational changes in the presence of osmolytes Prolonged incubation of the E-CTD leads to its self-assembly into amyloid-like fibrils <h4>Graphical Abstract</h4> <h4>Structural heterogeneity of the E-CTD.</h4> The E-CTD shows a disordered secondary structure in an aqueous solution and converts into an ordered structure in the presence of membrane mimetics (neutral and negative lipids) and natural osmolytes (TMAO). Incubation at physiological condition shows typical amyloid-like fibrils. The yellow-colored structure represents a predicted structure of the E-CTD by PEP-FOLD.",
+  "abstract_zh": "SARS-CoV-2包膜蛋白（E）在病毒生命周期中涉及广泛的功能，包括组装、出芽、包膜形成及致病性。为实现这些活性，E可能能够根据环境线索改变其构象。为探究此问题，我们在此表征了E的C端结构域（E-CTD）的结构特性，该结构域已被报道与宿主细胞膜相互作用。我们首先研究了E-CTD在溶液中的构象，发现其具有无序蛋白的特征。相反，在模拟细胞膜的大单层囊泡和胶束存在下，观察到E-CTD变得结构化。还发现E-CTD在渗透剂存在下表现出构象变化。此外，E-CTD在生理条件下长时间孵育导致淀粉样纤维形成。综合这些发现表明，E-CTD可根据其环境改变构象，范围从无序状态到膜结合折叠状态及淀粉样状态。因此，我们的结果为E在病毒感染过程中的作用提供了结构基础见解。<h4>亮点</h4> SARS-CoV-2的E-CTD在溶液中本质无序 E-CTD在膜模拟物存在下折叠为有序结构 E-CTD在渗透剂存在下表现出构象变化 E-CTD长时间孵育导致其自组装为淀粉样纤维 <h4>图形摘要</h4> <h4>E-CTD的结构异质性。</h4> E-CTD在水溶液中显示无序二级结构，并在膜模拟物（中性和阴性脂质）及天然渗透剂（TMAO）存在下转化为有序结构。在生理条件下孵育显示典型淀粉样纤维。黄色结构代表PEP-FOLD预测的E-CTD结构。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2020.12.29.424646",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2020.12.29.424646",
+  "paper_page_path": "papers/biorxiv/10.1101_2020.12.29.424646/index.html"
+}

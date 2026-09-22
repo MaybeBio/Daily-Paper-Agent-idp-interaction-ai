@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.02.626355",
+  "title": "Structural polymorphism of α-synuclein fibrils alters pathway of Hsc70 mediated disaggregation",
+  "authors": "Jäger S; Tittelmeier J; Dang TL; Bellande T; Redeker V; Buell AK; Melki R; Nussbaum-Krammer C; Bukau B; Wentink AS",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-04",
+  "window": {
+    "start": "2024-12-02",
+    "end": "2024-12-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究α-突触核蛋白纤维多态性如何影响Hsc70分子伴侣介导的解聚途径，涉及蛋白-蛋白互作机制，但对象为淀粉样纤维而非无序蛋白/IDR，且方法以实验为主，缺乏AI或物理模拟建模，故综合评分为5。",
+  "abstract": "The pathological aggregation of α -synuclein into amyloid fibrils is a hallmark of synucleinopathies including Parkinson’s disease. Despite this commonality, synucleinopathies display divergent disease phenotypes that have been attributed to disease specific three-dimensional structures of α -synuclein fibrils, each with a unique toxic gain-of-function profile. The Hsc70 chaperone is remarkable in its ability to disassemble pre-existing amyloid fibrils of different proteins in an ATP and co-chaperone dependent manner. We find however, using six well-defined conformational polymorphs of α -synuclein fibrils, that the activity of the Hsc70 disaggregase machinery is sensitive to differences in the amyloid conformation, confirming that fibril polymorphism directly affects interactions with the proteostasis network. Amyloid conformation influences not only how efficiently fibrils are cleared by the Hsc70 machinery but also the preferred pathway of disaggregation. We further show that, in vitro , the active processing of fibrils by the Hsc70 machinery inadvertently produces seeding competent species that further promote protein aggregation. Amyloid conformation thus is an important feature that can tilt the balance between beneficial or detrimental protein quality control activities in the context of disease.",
+  "abstract_zh": "α-突触核蛋白（α-synuclein）病理性聚集形成淀粉样纤维，是包括帕金森病在内的突触核蛋白病（synucleinopathies）的标志性特征。尽管存在这一共性，突触核蛋白病却表现出不同的疾病表型，这些表型归因于疾病特异性的α-突触核蛋白纤维三维结构，每种结构具有独特的毒性功能获得性特征。Hsc70伴侣蛋白以其在ATP和辅助伴侣蛋白依赖方式下分解不同蛋白质的预先形成淀粉样纤维的能力而著称。然而，我们利用六种定义明确的α-突触核蛋白纤维构象多态体发现，Hsc70解聚机器（disaggregase machinery）的活性对淀粉样构象的差异敏感，这证实了纤维多态性直接影响与蛋白质稳态网络的相互作用。淀粉样构象不仅影响Hsc70机器清除纤维的效率，还决定了解聚的优选途径。我们进一步表明，在体外，Hsc70机器对纤维的活跃加工过程无意中产生了具有种子能力的物种，这些物种进一步促进蛋白质聚集。因此，淀粉样构象是一个重要特征，在疾病背景下可倾斜蛋白质质量控制活动在有益或有害之间的平衡。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.02.626355",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.02.626355",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.02.626355/index.html"
+}

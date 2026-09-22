@@ -1,0 +1,249 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.27.678968",
+  "title": "RNA-binding proteins provide specificity to the PAN2–PAN3 mRNA deadenylation complex",
+  "doi": "10.1101/2025.09.27.678968",
+  "abstract": "Cytoplasmic shortening of mRNA poly(A) tails represses eukaryotic gene expression by inhibiting efficient translation and committing an mRNA to decay. The CCR4–NOT deadenylase machinery interacts with sequence-specific RNA-binding proteins (RBPs), termed RNA adaptors, to target specific transcripts for deadenylation. In contrast, the PAN2–PAN3 deadenylation complex is thought to be predominantly recruited to mRNAs via interaction with the poly(A) binding protein, raising the question of whether it acts in a transcript-specific manner. Here, using biochemical reconstitution, we show that PAN2–PAN3 can also be recruited to specific RNAs via RNA adaptors, including MEX3, YTHDF and ZFP36 proteins. In cells, we find that a diverse range of RNA adaptors interact with both major deadenylation complexes. Thus, our data suggest that, in addition to CCR4-NOT, PAN2-PAN3 also contributes to the specificity of mRNA degradation and the robustness of post-transcriptional regulation of gene expression.",
+  "authors": [
+    "Tang TT",
+    "Zangari F",
+    "Yu CW",
+    "Stowell JA",
+    "Roeselová A",
+    "Freund SM",
+    "Gingras A",
+    "Passmore LA"
+  ],
+  "published_date": "2025-09-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.27.678968",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.27.678968.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1092374",
+    "raw_record": {
+      "id": "PPR1092374",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1092374"
+        ]
+      },
+      "doi": "10.1101/2025.09.27.678968",
+      "title": "RNA-binding proteins provide specificity to the PAN2–PAN3 mRNA deadenylation complex",
+      "authorString": "Tang TT, Zangari F, Yu CW, Stowell JA, Roeselová A, Freund SM, Gingras A, Passmore LA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tang TT",
+            "lastName": "Tang",
+            "firstName": "Terence T.L.",
+            "initials": "TT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zangari F",
+            "lastName": "Zangari",
+            "firstName": "Francesco",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Genetics, , , , ,"
+                },
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yu CW",
+            "lastName": "Yu",
+            "firstName": "Conny W.H.",
+            "initials": "CW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stowell JA",
+            "lastName": "Stowell",
+            "firstName": "James A.W.",
+            "initials": "JA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roeselová A",
+            "lastName": "Roeselová",
+            "firstName": "Alžběta",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Freund SM",
+            "lastName": "Freund",
+            "firstName": "Stefan M.V.",
+            "initials": "SM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gingras A",
+            "lastName": "Gingras",
+            "firstName": "Anne-Claude",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Genetics, , , , ,"
+                },
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Passmore LA",
+            "lastName": "Passmore",
+            "firstName": "Lori",
+            "initials": "LA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1815-3710"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1815-3710"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Cytoplasmic shortening of mRNA poly(A) tails represses eukaryotic gene expression by inhibiting efficient translation and committing an mRNA to decay. The CCR4–NOT deadenylase machinery interacts with sequence-specific RNA-binding proteins (RBPs), termed RNA adaptors, to target specific transcripts for deadenylation. In contrast, the PAN2–PAN3 deadenylation complex is thought to be predominantly recruited to mRNAs via interaction with the poly(A) binding protein, raising the question of whether it acts in a transcript-specific manner. Here, using biochemical reconstitution, we show that PAN2–PAN3 can also be recruited to specific RNAs via RNA adaptors, including MEX3, YTHDF and ZFP36 proteins. In cells, we find that a diverse range of RNA adaptors interact with both major deadenylation complexes. Thus, our data suggest that, in addition to CCR4-NOT, PAN2-PAN3 also contributes to the specificity of mRNA degradation and the robustness of post-transcriptional regulation of gene expression.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "725685",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.27.678968"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1092374"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1092374&type=FILE&fileName=EMS209300-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS209300",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-09-29",
+      "firstPublicationDate": "2025-09-27",
+      "firstIndexDate": "2025-09-29",
+      "fullTextReceivedDate": "2025-10-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

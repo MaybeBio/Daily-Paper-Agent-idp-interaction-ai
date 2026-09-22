@@ -1,0 +1,272 @@
+{
+  "identity": {
+    "pmid": "38933387",
+    "doi": "10.1016/j.fmre.2022.09.001",
+    "title": "Optogenetic control of GGGGCC repeat-containing RNA phase transition."
+  },
+  "content": {
+    "abstract": "The GGGGCC (G(4)C(2)) hexanucleotide repeat expansion in the C9ORF72 gene is a major cause of both hereditary amyotrophic lateral sclerosis and familial frontotemporal dementia. Recent studies have shown that G(4)C(2) hexanucleotide repeat-containing RNA transcripts ((G(4)C(2))(n) RNA) could go through liquid-liquid phase separation to form RNA foci, which may elicit neurodegeneration. However, the direct causality between these abnormal RNA foci and neuronal toxicity remains to be demonstrated. Here we introduce an optogenetic control system that can induce the assembly and phase separation of (G(4)C(2))(n) RNA foci with blue light illumination in human cells, by fusing a specific (G(4)C(2))(n) RNA binding protein as the linker domain to Cry2, a protein that oligomerizes in response to blue light. Our results demonstrate that a higher number of G(4)C(2) repeats have the potential to be induced into more RNA foci in the cells. Both spontaneous and induced RNA foci display liquid-like properties according to FRAP measurements. Computational simulation shows strong consistency with the experimental results and supports the effect of our system to promote the propensity of (G(4)C(2))(n) RNA towards phase separation. This system can thus be used to investigate whether (G(4)C(2))(n) RNA foci would disrupt normal cellular processes and lead to pathological phenotypes relevant to repeat expansion disorders.",
+    "keywords": [
+      "Amyotrophic lateral sclerosis",
+      "Chromosome 9 open reading frame 72 (C9ORF72)",
+      "Liquid-liquid phase separation",
+      "Optogenetics",
+      "RNA aggregates"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Xiong",
+        "Lu, Shengyi",
+        "Lu, Boxun",
+        "Sun, Xiaoli"
+      ],
+      "short_names": [
+        "Li X",
+        "Lu S",
+        "Lu B",
+        "Sun X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Institutes of Biomedical Sciences, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Institutes of Biomedical Sciences, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Institutes of Biomedical Sciences, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Institutes of Biomedical Sciences, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+        "Shanghai Xuhui Central Hospital, Zhongshan-Xuhui Hospital, Fudan University, Shanghai 200031, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Xiong",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Institutes of Biomedical Sciences, School of Life Sciences, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Shengyi",
+        "short_name": "Lu S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Institutes of Biomedical Sciences, School of Life Sciences, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Boxun",
+        "short_name": "Lu B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Institutes of Biomedical Sciences, School of Life Sciences, Fudan University, Shanghai 200438, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Xiaoli",
+        "short_name": "Sun X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Medical Neurobiology and MOE Frontiers Center for Brain Science, Institutes of Biomedical Sciences, School of Life Sciences, Fudan University, Shanghai 200438, China.",
+          "Shanghai Xuhui Central Hospital, Zhongshan-Xuhui Hospital, Fudan University, Shanghai 200031, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Fundamental research"
+    ],
+    "journal_abbrev": [
+      "Fundam Res"
+    ],
+    "pub_date": "2022 Nov",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/09 00:00",
+    "fetched_at": "2026-09-20 14:51:43"
+  },
+  "links": {
+    "cites": [
+      "37592155"
+    ],
+    "refs": [
+      "32931756",
+      "31792412",
+      "28646204",
+      "28562589",
+      "28041848",
+      "27623008",
+      "27150398",
+      "25233328",
+      "24290757",
+      "23553836",
+      "23377377",
+      "23264878",
+      "21944779",
+      "21944778",
+      "20177426",
+      "10954586"
+    ],
+    "similar": [
+      "38933387",
+      "24366528",
+      "28729824",
+      "24290757",
+      "26308899",
+      "31176718",
+      "30745340",
+      "30767771",
+      "28158451",
+      "22300876",
+      "25442110",
+      "30126445",
+      "29262335",
+      "33129345",
+      "32829028",
+      "38318532",
+      "28243191",
+      "37845749",
+      "30239641",
+      "33024945",
+      "32753055",
+      "34677935",
+      "36611007",
+      "25756586",
+      "35462091",
+      "30503283",
+      "33431483",
+      "26402604",
+      "32639008",
+      "24248382",
+      "23836290",
+      "25788698",
+      "34848561",
+      "22366794",
+      "24170860",
+      "33855846",
+      "34450161",
+      "24866055",
+      "36793534",
+      "37570771",
+      "38295729",
+      "23423380",
+      "28088213",
+      "24836899",
+      "34161229",
+      "34174288",
+      "30774737",
+      "30685122",
+      "31784536",
+      "27274540",
+      "33679328",
+      "38597682",
+      "26016851",
+      "26916632",
+      "23553836",
+      "31023341",
+      "27768896",
+      "25716178",
+      "30322030",
+      "37525497",
+      "31920478",
+      "37756636",
+      "29402965",
+      "29326544",
+      "24371143",
+      "26637797",
+      "35625816",
+      "28132891",
+      "36226410",
+      "30776581",
+      "32278549",
+      "27349438",
+      "24129584",
+      "34705518",
+      "37006471",
+      "35675776",
+      "27134035",
+      "32905541",
+      "29703376",
+      "37010807",
+      "32035847",
+      "26308891",
+      "22366793",
+      "28356511",
+      "22344582",
+      "33196168",
+      "32375043",
+      "25210488",
+      "37216594",
+      "27016280",
+      "27059391",
+      "31800202"
+    ],
+    "review": [
+      "38933387",
+      "24366528",
+      "28729824",
+      "32829028",
+      "38318532",
+      "28243191",
+      "32639008",
+      "36793534",
+      "37570771",
+      "24836899",
+      "30774737",
+      "33679328",
+      "30322030",
+      "37525497",
+      "31920478",
+      "29326544",
+      "27349438",
+      "37006471",
+      "27134035",
+      "29703376",
+      "27016280"
+    ],
+    "pmc": [
+      "11197711"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2667-3258(22)00361-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38933387/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38933387",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

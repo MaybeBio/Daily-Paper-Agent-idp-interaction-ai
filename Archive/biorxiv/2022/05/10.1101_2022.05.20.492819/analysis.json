@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.20.492819",
+  "title": "Revealing druggable cryptic pockets in the Nsp-1 of SARS-CoV-2 and other β-coronaviruses by simulations and crystallography",
+  "authors": "Borsatto A; Akkad O; Galdadas I; Ma S; Damfo S; Haider S; Kozielski F; Estarellas C; Gervasio FL",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-20",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究通过MD模拟、片段筛选和晶体学揭示SARS-CoV-2 Nsp1中的可成药隐蔽口袋，并探讨靶向该口袋破坏Nsp1-mRNA复合物的机制，虽涉及蛋白-核酸互作和物理模拟方法，但对象非IDP/相分离，且互作轴为蛋白-RNA而非典型PPI，故综合评分为5。",
+  "abstract": "Non-structural protein 1 (Nsp1) is a main pathogenicity factor of α - and β -coronaviruses. Nsp1 of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) suppresses the host gene expression by sterically blocking 40S host ribosomal subunits and promoting host mRNA degradation. This mechanism leads to the downregulation of the translation-mediated innate immune response in host cells, ultimately mediating the observed immune evasion capabilities of SARS-CoV-2. Here, by combining extensive Molecular Dynamics simulations, fragment screening and crystallography, we reveal druggable pockets in Nsp1. Structural and computational solvent mapping analyses indicate the partial crypticity of these newly discovered and druggable binding sites. The results of fragment-based screening via X-ray crystallography confirm the druggability of the major pocket of Nsp1. Finally, we show how the targeting of this pocket could disrupt the Nsp1-mRNA complex and open a novel avenue to design new inhibitors for other Nsp1s present in homologous β -coronaviruses.",
+  "abstract_zh": "非结构蛋白1（Nsp1）是α-和β-冠状病毒的主要致病因子。严重急性呼吸综合征冠状病毒2型（SARS-CoV-2）的Nsp1通过空间阻断40S宿主核糖体亚基并促进宿主mRNA降解来抑制宿主基因表达。这一机制导致宿主细胞中翻译介导的先天免疫反应下调，最终介导了观察到的SARS-CoV-2免疫逃逸能力。在此，通过结合广泛的分子动力学（Molecular Dynamics）模拟、片段筛选和晶体学，我们揭示了Nsp1中的可成药口袋。结构和计算溶剂映射分析表明，这些新发现且可成药的结合位点具有部分隐蔽性。通过X射线晶体学进行的基于片段的筛选结果证实了Nsp1主要口袋的可成药性。最后，我们展示了靶向该口袋如何能够破坏Nsp1-mRNA复合物，并为设计针对同源β-冠状病毒中其他Nsp1的新型抑制剂开辟了新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.20.492819",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.20.492819",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.20.492819/index.html"
+}

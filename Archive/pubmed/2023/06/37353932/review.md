@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that numerical reaction-diffusion simulations using the Virtual Cell platform can replace analytic solutions for analyzing fluorescence redistribution after photobleaching (FRAP) experiments, particularly in complex geometries and with complex binding and diffusion behaviors. They demonstrate this approach for membrane surface diffusion, cytosolic diffusion with binding, and diffusion within phase-separated biomolecular condensates modeled as spherical low-affinity binding domains with high viscosity.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, validation data, or comparisons to analytic solutions are presented
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation parameters, validation datasets, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually valuable and timely methodological contribution, addressing a recognized limitation of analytic FRAP models in complex biological geometries. The use of forward simulation with parameter scanning is a sensible and increasingly adopted strategy. However, the abstract alone provides insufficient evidence to evaluate the technical soundness, validation rigor, or generalizability of the proposed approach. The claims of applicability to membrane, cytosolic, and condensate systems are plausible but not substantiated with quantitative outcomes or comparisons to established methods. The manuscript may hold interest for the biophysics and cell biology communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers using FRAP to quantify molecular dynamics in cells, particularly those working with irregular cell morphologies, binding interactions, or phase-separated compartments. The work would also interest computational biologists developing accessible simulation tools for experimentalists, and method developers seeking alternatives to analytic solutions for reaction-diffusion problems.
+- **Major strengths** The abstract identifies a genuine and widely encountered limitation of analytic FRAP solutions. The proposed approach leverages an established, user-accessible platform (Virtual Cell), which lowers the barrier for adoption. The inclusion of multiple biological contexts (membrane, cytosol, condensates) suggests broad applicability. The concept of using parameter scans and varying bleach geometries to bracket parameters is methodologically sound.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that numerical simulations can model FRAP in complex geometries and with complex binding and diffusion behaviors, and that parameter scans can bracket diffusion coefficients and kinetic rate constants.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No quantitative evidence is presented to demonstrate that the simulation approach accurately recovers known parameters in test cases, or that it outperforms or matches analytic solutions where those are valid. The abstract states the approach is "demonstrated" but provides no results, error metrics, or validation against experimental or synthetic data.  
+  - **Why it matters** The central value of the proposed method depends on its accuracy and reliability. Without validation, readers cannot assess whether the simulations introduce systematic biases, whether parameter identifiability is adequate, or whether the approach is practically usable.  
+  - **Resolution test** Provide validation results comparing simulated FRAP curves to analytic solutions in simple geometries, and to ground-truth parameters in synthetic or experimental systems with known values. Report error ranges and identifiability limits for fitted parameters.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and methodological detail  
+  - **Claim pointer** The abstract implies that the Virtual Cell platform can be used to perform these simulations, but no details are given on model construction, boundary conditions, mesh resolution, or computational cost.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not specify how geometries are imported or discretized, how binding reactions are parameterized, how photobleaching is simulated (e.g., Gaussian profile, duration, depth), or how parameter scans are designed and analyzed. These details are essential for reproducibility and for assessing whether the approach is feasible for typical users.  
+  - **Why it matters** A methodological paper must enable others to implement the approach. Missing technical details undermine the practical utility and make it impossible to evaluate the robustness of the simulations.  
+  - **Resolution test** Include a methods section with full simulation setup, including geometry handling, mesh convergence tests, bleach profile implementation, and computational resource requirements.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability and scope of claims  
+  - **Claim pointer** The abstract claims the approach is applicable to membrane surface diffusion, cytosolic diffusion with binding, and diffusion within phase-separated condensates.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not indicate the range of conditions under which the method is reliable. For example, it is unclear whether the approach handles very fast binding relative to diffusion, immobile fractions, or heterogeneous geometries with sharp boundaries. The condensate model is described as "low-affinity binding domains" with "high viscosity," but no justification is given for this representation.  
+  - **Why it matters** Overstated generalizability could mislead users into applying the method outside its validated domain, producing incorrect parameter estimates.  
+  - **Resolution test** State explicit limitations and validate the method across a range of parameter regimes, including edge cases. Justify the condensate model with reference to physical evidence or prior work.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity for nonspecialists  
+  - **Affected element** Abstract, description of condensate model  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "spherical low-affinity binding domains that also define a high viscosity medium" is dense and may confuse readers unfamiliar with condensate biophysics.  
+  - **Required correction** Clarify the physical rationale for this model, perhaps with a brief explanation of how phase separation creates distinct diffusion and binding environments.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Comparison to existing methods  
+  - **Affected element** Abstract, framing of the contribution  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract contrasts the approach with analytic solutions but does not mention other numerical or simulation-based FRAP analysis methods that may already exist.  
+  - **Required correction** Briefly acknowledge prior numerical approaches and state what is novel about the present work relative to those.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Quantitative reporting  
+  - **Affected element** Abstract, outcomes  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract states that simulations "help to bracket" parameters, but no indication is given of the precision or confidence of such bracketing.  
+  - **Required correction** Provide representative ranges or confidence intervals from the demonstrated cases to give readers a sense of expected performance.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. Without validation data and full methodological detail, the central claims of accuracy and usability cannot be assessed. R1-M3 is non-blocking but should be addressed to refine the scope of claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The abstract suggests a practical integration of existing simulation tools with FRAP analysis, which is not entirely novel but may offer a useful systematization. The condensate application adds some originality.  
+  - Scientific importance: The work addresses a real need in quantitative cell biology, but the importance is moderate unless the method is shown to enable measurements that are otherwise inaccessible.  
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and computational biology, and the use of a widely available platform could attract a broad audience.  
+  - Technical soundness: Not assessable from the abstract; validation and methodological detail are missing.  
+  - Readability for nonspecialists: The abstract is generally clear but the condensate description and the lack of quantitative context reduce accessibility.  
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the direction is worthwhile, but the abstract alone does not demonstrate that the method works reliably or is practically implementable. A full manuscript with validation, methods, and limitations would be required to assess the contribution properly.
+
+## Risk / unsupported claims
+- The claim that numerical simulations can accurately model FRAP in complex geometries is unsupported without validation data.
+- The claim that parameter scans can bracket diffusion coefficients and rate constants is unsupported without identifiability analysis or error metrics.
+- The applicability to membrane, cytosolic, and condensate systems is asserted but not demonstrated with results.
+- The representation of condensates as low-affinity binding domains with high viscosity is not justified.
+- The relative performance of the method compared to analytic solutions or other numerical approaches is not assessable.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42376920",
+  "title": "CondenSimAdapter: A Versatile Builder for Multiscale Simulations of Protein Condensates with Broad Force-Field Compatibility and Robust Dense-Phase Relaxation.",
+  "authors": "Tian, Xiaojing; Han, Wei",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2026-06-30",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文开发了CondenSimAdapter工具，结合SE(3)-Transformer反映射与物理优化协议，实现蛋白凝聚体多尺度模拟的粗粒化到全原子转换，虽非直接研究PPI机制，但为无序蛋白相分离凝聚体的多尺度建模提供了关键方法支撑，与本课题的机制建模高度相关。",
+  "abstract": "Multiscale molecular dynamics simulations that sequentially couple coarse-grained (CG) sampling with all-atom (AA) simulation are widely used to study biomolecular condensates, yet building such multiscale systems remains a practical challenge. Dense CG condensate configurations must be backmapped and converted into stable, explicitly solvated AA systems horizontal line a step where severe steric clashes often prevent production simulation, creating a \"relaxation bottleneck\". Here, we introduce CondenSimAdapter, a Python package that bridges this resolution gap by integrating SE(3)-transformer-based cg2all backmapping with a physics-inspired optimization protocol (using Gaussian repulsion and soft-core potentials), which succeeds where standard energy minimization fails. CondenSimAdapter unifies four CG and nine AA force fields under a single interface. We validated the workflow by (1) demonstrating the robust elimination of major structure conflicts across diverse CG-AA combinations, (2) verifying its functional versatility in preserving the structural integrity of multidomain proteins, and (3) confirming ensemble fidelity via a 2 mus atomistic simulation of a FUS LC condensate that accurately reproduced established macroscopic and microscopic properties. By resolving the dense-phase relaxation bottleneck and providing a highly accessible, streamlined workflow, CondenSimAdapter lowers the technical barrier to multiscale condensate simulations and enables systematic, high-throughput studies of protein phase separation. CondenSimAdapter is freely available at https://github.com/hanlab-computChem/CondenSimAdapter.",
+  "abstract_zh": "将粗粒化（CG）采样与全原子（AA）模拟顺序耦合的多尺度分子动力学（molecular dynamics）模拟被广泛用于研究生物分子凝聚体，然而构建此类多尺度系统仍是一个实际挑战。致密的CG凝聚体构型必须被反向映射并转换为稳定的、显式溶剂化的AA系统——这一步骤中严重的空间冲突往往阻碍生产模拟，形成“弛豫瓶颈”。在此，我们介绍CondenSimAdapter，一个Python包，通过集成基于SE(3)-transformer的cg2all反向映射与物理启发的优化协议（使用高斯排斥和软核势），弥合了这一分辨率差距，在标准能量最小化失败的情况下取得成功。CondenSimAdapter在单一接口下统一了四种CG和九种AA力场。我们通过以下方式验证了该工作流程：（1）展示在不同CG-AA组合中稳健消除主要结构冲突，（2）验证其在保持多结构域蛋白结构完整性方面的功能多样性，以及（3）通过对FUS LC凝聚体的2微秒原子模拟确认系综保真度，该模拟准确再现了已确立的宏观和微观性质。通过解决致密相弛豫瓶颈并提供高度可访问、简化的工作流程，CondenSimAdapter降低了多尺度凝聚体模拟的技术门槛，并实现了蛋白质相分离（phase separation）的系统性、高通量研究。CondenSimAdapter可在https://github.com/hanlab-computChem/CondenSimAdapter免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42376920/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42376920/",
+  "paper_page_path": "papers/pubmed/42376920/index.html"
+}

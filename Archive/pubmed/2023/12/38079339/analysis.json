@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38079339",
+  "title": "IDPpred: a new sequence-based predictor for identification of intrinsically disordered protein with enhanced accuracy.",
+  "authors": "Chaurasiya, Deepak; Mondal, Rajkrishna; Lahiri, Tapobrata; Tripathi, Asmita; Ghinmine, Tejas",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2023-12-11",
+  "window": {
+    "start": "2023-12-11",
+    "end": "2023-12-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出基于序列的IDP预测器IDPpred，仅预测无序蛋白本身，不涉及PPI或互作机制建模，且方法为传统特征+机器学习，无AI/物理模拟深度，与本课题关联较弱。",
+  "abstract": "Discovery of intrinsically disordered proteins (IDPs) and protein hybrids that contain both intrinsically disordered protein regions (IDPRs) along with ordered regions has changed the sequence-structure-function paradigm of protein. These proteins with lack of persistently fixed structure are often found in all organisms and play vital roles in various biological processes. Some of them are considered as potential drug targets due to their overrepresentation in pathophysiological processes. The major bottlenecks for characterizing such proteins are their occasional overexpression, difficulty in getting purified homogeneous form and the challenge of investigating them experimentally. Sequence-based prediction of intrinsic disorder remains a useful strategy especially for many large-scale proteomic investigations. However, worst accuracy still occurs for short disordered regions with less than ten residues, for the residues close to order-disorder boundaries, for regions that undergo coupled folding and binding in presence of partner, and for prediction of fully disordered proteins. Annotation of fully disordered proteins mostly relies on the far-UV circular dichroism experiment which gives overall secondary structure composition without residue-level resolution. Current methods including that using secondary structure information failed to predict half of target IDPs correctly in the recent Critical Assessment of protein Intrinsic Disorder prediction (CAID) experiment. This study utilized profiles of random sequential appearance of physicochemical properties of amino acids and random sequential appearance of order and disorder promoting amino acids in protein together with the existing CIDER feature for the prediction of IDP from sequence input. Our method was found to significantly outperform the existing predictors across different datasets.Communicated by Ramaswamy H. Sarma.",
+  "abstract_zh": "发现 intrinsically disordered proteins (IDPs) 及同时含有 intrinsically disordered protein regions (IDPRs) 和有序区域的蛋白质杂合体，已改变了蛋白质的序列-结构-功能范式。这些缺乏持久固定结构的蛋白质常见于所有生物体中，并在多种生物过程中发挥关键作用。其中一些因其在病理生理过程中的过度表达而被视为潜在药物靶点。表征此类蛋白质的主要瓶颈包括其偶尔的过度表达、难以获得纯化的均一形式，以及实验研究的挑战。基于序列的内在无序预测仍是一种有用策略，尤其适用于许多大规模蛋白质组学研究。然而，对于少于十个残基的短无序区域、靠近有序-无序边界的残基、在伴侣存在下发生偶联折叠和结合的区域，以及完全无序蛋白质的预测，准确性仍然最差。完全无序蛋白质的注释主要依赖于远紫外圆二色性实验，该实验提供整体二级结构组成，但缺乏残基级分辨率。在最近的 Critical Assessment of protein Intrinsic Disorder prediction (CAID) 实验中，包括利用二级结构信息在内的现有方法未能正确预测一半目标 IDPs。本研究利用氨基酸理化性质的随机顺序出现特征、蛋白质中有序和无序促进氨基酸的随机顺序出现特征，以及现有 CIDER 特征，从序列输入预测 IDP。我们发现，我们的方法在不同数据集上显著优于现有预测器。由 Ramaswamy H. Sarma 通讯。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38079339/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38079339/",
+  "paper_page_path": "papers/pubmed/38079339/index.html"
+}

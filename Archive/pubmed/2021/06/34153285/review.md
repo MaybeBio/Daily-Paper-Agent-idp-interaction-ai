@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that the N-terminal tails of histones H2A and H2B in nucleosomes (145-bp and 193-bp) adopt two distinct conformations each, as determined by NMR, and that MD simulations suggest specific DNA groove interactions and orientation-dependent contact differences.
+- **Visible evidence base** Abstract text only; no experimental details, spectra, simulation parameters, or statistical analyses provided
+- **Missing materials affecting confidence** Full methods, NMR data and assignments, MD simulation setup and convergence criteria, structural models, validation statistics, and any quantitative comparison of contact strengths
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding histone tail conformational heterogeneity in nucleosomes, but the evidence base is too limited to evaluate the technical soundness or robustness of the claims. The central conclusions regarding two distinct conformations and differential DNA contact are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in chromatin structure and dynamics, histone post-translational modification biology, and computational biophysics of nucleosome complexes would find these results relevant, as they address unresolved aspects of histone tail behavior that impact chromatin accessibility and regulation.
+- **Major strengths** The study addresses a recognized gap in nucleosome structural biology, namely the dynamic nature of histone tails that are often unresolved in high-resolution structures. The combination of NMR and MD simulations is appropriate for probing conformational ensembles. The comparison across two nucleosome lengths (145-bp and 193-bp) adds a useful dimension.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that the H2A and H2B N-tails adopt two distinct conformations in each nucleosome, as determined by NMR.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No NMR data, resonance assignments, or conformational analysis details are provided. It is unclear how "two distinct conformations" were defined, whether they represent discrete states or a bimodal distribution, and what criteria were used to distinguish them from dynamic averaging or exchange broadening.  
+  - **Why it matters** The central claim of the paper rests on the identification of two conformations. Without evidence for the spectral features, peak assignments, or relaxation/dispersion data supporting this distinction, the claim cannot be assessed.  
+  - **Resolution test** Provide representative NMR spectra, assignment completeness, and quantitative analysis (e.g., peak intensities, chemical shift differences, or relaxation data) demonstrating two resolvable states.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract states that MD simulations suggest the H2A N-tail can locate stably in either the major or minor grooves of nucleosomal DNA.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** No simulation details are given, including force field, simulation length, sampling methodology, or convergence criteria. The term "stably" implies a free energy minimum, but no free energy calculations or statistical measures are described.  
+  - **Why it matters** The MD results are used to interpret the NMR findings and to support the conclusion about differential DNA contact. Without evidence of adequate sampling and convergence, the simulation-based claims are not verifiable.  
+  - **Resolution test** Provide simulation parameters, trajectory lengths, convergence metrics, and free energy profiles or occupancy analyses for the major and minor groove states.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for conclusions  
+  - **Claim pointer** The abstract concludes that the minor groove conformer of the H2A N-tail is likely to contact DNA more strongly than the major groove conformer, and that the H2A N-tail reduces contact with DNA in the major groove when the H2B N-tail is located in the entry/exit side.  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The conclusion about differential contact strength is presented as a synthesis of NMR and MD findings, but no quantitative measure of contact strength (e.g., contact frequencies, interaction energies, or NMR-derived distance restraints) is provided. The causal link between H2B N-tail orientation and H2A N-tail contact reduction is asserted without supporting data.  
+  - **Why it matters** This is the key functional conclusion of the study. Without quantitative evidence, the claim remains speculative and cannot be distinguished from a correlation or simulation artifact.  
+  - **Resolution test** Provide quantitative contact metrics from MD (e.g., hydrogen bond occupancy, minimum distances) and, if possible, NMR-based validation (e.g., paramagnetic relaxation enhancement or chemical shift perturbations) that directly compare the two conformers.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The phrase "two distinct conformations" is used for both H2A and H2B N-tails, but the nature of the distinction differs (groove location for H2A, orientation for H2B). This could confuse readers.  
+  - **Required correction** Clarify the conformational coordinate for each tail and define the states explicitly.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Comparison to peptide data  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract mentions comparison with unbound and DNA-bound tail peptides, but no results from this comparison are described.  
+  - **Required correction** State what the peptide comparisons revealed and how they inform the nucleosome findings.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Nucleosome constructs  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The 145-bp and 193-bp nucleosomes are mentioned, but the reason for choosing these lengths and any differences in tail behavior between them are not summarized.  
+  - **Required correction** Briefly indicate whether the two conformations were observed in both constructs and whether any length-dependent differences were noted.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of NMR and MD methodological details and quantitative contact analysis prevents verification of the central claims.
+- **Assessment against Nature-style criteria**  
+  - Originality: The topic is of interest, but the abstract does not demonstrate a conceptual advance beyond prior studies of histone tail dynamics.  
+  - Scientific importance: Potentially relevant to chromatin biology, but the significance is not clearly articulated in terms of functional consequences.  
+  - Interdisciplinary readership: The work bridges structural biology and computation, but the abstract is too technical for a broad audience without context.  
+  - Technical soundness: Not assessable from the abstract; major methodological details are missing.  
+  - Readability for nonspecialists: The abstract assumes familiarity with nucleosome structure and NMR/MD methods; key terms are not explained.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible but require full methodological disclosure and quantitative validation. A revised manuscript with complete NMR and MD data could be reconsidered.
+
+## Risk / unsupported claims
+- The claim that H2A and H2B N-tails adopt two distinct conformations is unsupported without NMR spectral evidence.
+- The claim that MD simulations show stable major and minor groove locations is unsupported without simulation details and convergence analysis.
+- The conclusion that the minor groove conformer contacts DNA more strongly and that H2B N-tail orientation modulates H2A N-tail contact is unsupported without quantitative contact metrics.
+- The comparison with free and DNA-bound tail peptides is mentioned but not described, making any related claims unassessable.

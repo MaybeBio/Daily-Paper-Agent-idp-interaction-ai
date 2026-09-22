@@ -1,0 +1,66 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report atomistic molecular dynamics simulations of 1CGrx1 from Trypanosoma brucei, a class II glutaredoxin with a parasite-specific unstructured N-terminal extension. They claim that simulations confirm the intrinsically disordered nature of this extension and that it modulates the conformational dynamics of the glutathione-binding pocket by stiffening the ligand cavity through specific interactions, potentially affecting Fe-S cluster storage or transfer. They further suggest relevance for drug screening against trypanosomiasis.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, force fields, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field choices, system setup, equilibration details, trajectory lengths, replica or ensemble information, binding pocket analysis methods, and any comparison with NMR data beyond the brief mention
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis that an intrinsically disordered N-terminal extension in a parasite-specific glutaredoxin modulates ligand binding dynamics. However, the evidence base available for review is limited to the abstract, which lacks the quantitative and methodological detail necessary to evaluate the technical soundness of the simulations or the strength of the claims. The central assertion that the disordered region "stiffens" the ligand cavity is stated without supporting data. The work may be of interest to the computational biophysics and parasitology communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists studying intrinsically disordered proteins and their effects on ligand binding dynamics; researchers in parasitology focused on Trypanosoma brucei and drug target discovery; structural biologists interested in glutaredoxin family diversity and Fe-S cluster metabolism. The potential link to antitrypanosomal drug screening broadens relevance to medicinal chemistry.
+- **Major strengths** The study addresses a biologically relevant and under-explored question, namely the functional role of a parasite-specific disordered region in a conserved protein family. The combination of NMR-derived prior knowledge with atomistic simulations is a sensible approach. The hypothesis that disordered regions can modulate binding pocket flexibility is mechanistically interesting and testable.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that atomistic molecular dynamics simulations "confirm the intrinsically disordered nature of the N-terminal extension" and "confirm the main role of these residues in modulating the conformational dynamics of the glutathione-binding pocket."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no methodological information about the simulations, including force field, water model, salt concentration, temperature, simulation length, number of replicas, or convergence assessment. Without these details, the reliability of the conformational sampling and the derived conclusions cannot be evaluated. The term "confirm" is used twice, which is strong language for simulation-based findings that are inherently model-dependent.
+  - **Why it matters** Molecular dynamics results are only as credible as the sampling and force field used. If the simulations are under-converged or use an inappropriate force field for disordered regions, the conclusions about the disordered nature and its modulatory role could be artifacts. The claim of "confirmation" requires quantitative evidence such as radius of gyration distributions, secondary structure propensities, or free energy profiles, none of which are presented.
+  - **Resolution test** Provide simulation protocols, convergence metrics, and quantitative comparisons of conformational ensembles between the wild-type and the tail-deleted mutant. Show that the disordered region remains disordered across independent replicates and that the binding pocket dynamics differ statistically between the two systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for functional claim
+  - **Claim pointer** The authors state that the N-terminal extension "modifies the ligand cavity stiffening it by specific interactions that ultimately modulate its intrinsic flexibility, which may modify its role in the storage and/or transfer of preformed iron-sulfur clusters."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The causal chain from "stiffening the ligand cavity" to "modifying Fe-S cluster storage or transfer" is speculative. The abstract does not report any direct measurement of ligand binding affinity, binding kinetics, or Fe-S cluster interactions. The word "may" is used, which appropriately signals speculation, but the preceding "confirm" language creates an inconsistent level of certainty.
+  - **Why it matters** The functional relevance of the observed dynamics is the central motivation for the study. Without direct evidence linking the simulated dynamics to Fe-S cluster handling, the claim remains a hypothesis. Overstating the connection could mislead readers into assuming functional significance that is not demonstrated.
+  - **Resolution test** Either provide experimental or simulation data directly probing Fe-S cluster binding or transfer in the presence and absence of the N-terminal extension, or clearly reframe the claim as a hypothesis with supporting circumstantial evidence.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence of results description
+  - **Issue** The phrase "confirm the intrinsically disordered nature" is redundant with prior NMR findings mentioned in the same paragraph. The simulations appear to be consistent with, rather than confirmatory of, the NMR data.
+  - **Required correction** Rephrase to "are consistent with the intrinsically disordered nature" or "support the intrinsically disordered nature" to avoid overclaiming.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Abstract, description of interactions
+  - **Evidence pointer** Abstract, "specific interactions" without further detail
+  - **Issue** The abstract does not specify which residues or types of interactions (electrostatic, hydrophobic, hydrogen bonding) mediate the stiffening effect. This level of detail is important for reproducibility and for readers to assess the plausibility of the mechanism.
+  - **Required correction** Add a brief description of the key interacting residues and interaction types, or state that this detail is in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Abstract, final sentence
+  - **Evidence pointer** Abstract, "screening of potential 1CGrx1 inhibitors as antitrypanosomal drug candidates"
+  - **Issue** The drug screening suggestion is presented without any evidence that the binding pocket is druggable or that the disordered region would be a viable target. This is a reasonable outlook but should be framed as a future direction rather than an implication of the current results.
+  - **Required correction** Soften the language to "could inform future screening efforts" or move this statement to a clearly labeled outlook section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 as described above. The lack of methodological detail and the absence of direct functional evidence are the primary technical failings.
+- **Assessment against Nature-style criteria** 
+  - Originality: Moderate. The application of simulations to a parasite-specific disordered region in a glutaredoxin is somewhat novel, but the general concept of disordered regions modulating binding pocket dynamics is well established.
+  - Scientific importance: Moderate. The potential link to Fe-S metabolism and drug development is interesting, but the abstract does not demonstrate a significant advance over prior NMR work.
+  - Interdisciplinary readership: Limited. The work is likely to appeal mainly to computational biophysicists and parasitology specialists, not a broad interdisciplinary audience.
+  - Technical soundness: Not assessable from the abstract. The absence of simulation details prevents evaluation.
+  - Readability for nonspecialists: The abstract is generally clear but uses jargon such as "thioredoxin-fold" and "class II Grx" without sufficient context for a general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the work may be sound, but the abstract alone does not provide enough information to assess technical quality or support the functional claims. A revised assessment would require the full manuscript.
+
+## Risk / unsupported claims
+- The claim that simulations "confirm" the disordered nature and the modulatory role is unsupported without methodological and quantitative detail.
+- The causal link between binding pocket stiffening and Fe-S cluster storage or transfer is speculative and not directly evidenced.
+- The suggestion of drug screening potential is an outlook statement without supporting evidence.
+- Any quantitative statements about dynamics, interactions, or conformational changes are not assessable from the abstract.

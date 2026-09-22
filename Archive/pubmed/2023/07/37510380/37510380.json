@@ -1,0 +1,341 @@
+{
+  "identity": {
+    "pmid": "37510380",
+    "doi": "10.3390/genes14071476",
+    "title": "Arabidopsis Transcription Regulatory Factor Domain/Domain Interaction Analysis Tool-Liquid/Liquid Phase Separation, Oligomerization, GO Analysis: A Toolkit for Interaction Data-Based Domain Analysis."
+  },
+  "content": {
+    "abstract": "Although a large number of databases are available for regulatory elements, a bottleneck has been created by the lack of bioinformatics tools to predict the interaction modes of regulatory elements. To reduce this gap, we developed the Arabidopsis Transcription Regulatory Factor Domain/Domain Interaction Analysis Tool-liquid/liquid phase separation (LLPS), oligomerization, GO analysis (ART FOUNDATION-LOG), a useful toolkit for protein-nucleic acid interaction (PNI) and protein-protein interaction (PPI) analysis based on domain-domain interactions (DDIs). LLPS, protein oligomerization, the structural properties of protein domains, and protein modifications are major components in the orchestration of the spatiotemporal dynamics of PPIs and PNIs. Our goal is to integrate PPI/PNI information into the development of a prediction model for identifying important genetic variants in peaches. Our program unified interdatabase relational keys based on protein domains to facilitate inference from the model species. A key advantage of this program lies in the integrated information of related features, such as protein oligomerization, LOG analysis, structural characterizations of domains (e.g., domain linkers, intrinsically disordered regions, DDIs, domain-motif (peptide) interactions, beta sheets, and transmembrane helices), and post-translational modification. We provided simple tests to demonstrate how to use this program, which can be applied to other eukaryotic organisms.",
+    "keywords": [
+      "GO",
+      "beta sheet",
+      "domain linker",
+      "domain-domain interaction",
+      "domain-peptide interaction",
+      "intrinsically disordered regions",
+      "liquid-liquid phase separation",
+      "post-translational modification",
+      "protein oligomerization",
+      "transmembrane helices"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis/genetics/metabolism",
+      "Transcription Factors/genetics/metabolism",
+      "Gene Expression Regulation",
+      "Protein Processing, Post-Translational"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kang, Jee Eun",
+        "Jun, Ji Hae",
+        "Kwon, Jung Hyun",
+        "Lee, Ju-Hyun",
+        "Hwang, Kidong",
+        "Kim, Sungjong",
+        "Jeong, Namhee"
+      ],
+      "short_names": [
+        "Kang JE",
+        "Jun JH",
+        "Kwon JH",
+        "Lee JH",
+        "Hwang K",
+        "Kim S",
+        "Jeong N"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2475-0474"
+      ],
+      "affiliations": [
+        "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea.",
+        "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea.",
+        "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea.",
+        "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea.",
+        "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea.",
+        "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea.",
+        "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kang, Jee Eun",
+        "short_name": "Kang JE",
+        "identifiers": [
+          "0000-0003-2475-0474"
+        ],
+        "affiliations": [
+          "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jun, Ji Hae",
+        "short_name": "Jun JH",
+        "identifiers": [],
+        "affiliations": [
+          "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kwon, Jung Hyun",
+        "short_name": "Kwon JH",
+        "identifiers": [],
+        "affiliations": [
+          "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Ju-Hyun",
+        "short_name": "Lee JH",
+        "identifiers": [],
+        "affiliations": [
+          "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Hwang, Kidong",
+        "short_name": "Hwang K",
+        "identifiers": [],
+        "affiliations": [
+          "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Sungjong",
+        "short_name": "Kim S",
+        "identifiers": [],
+        "affiliations": [
+          "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jeong, Namhee",
+        "short_name": "Jeong N",
+        "identifiers": [],
+        "affiliations": [
+          "Fruit Research Division, National Institute of Horticultural and Herbal Science, Wanju 55365, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2023 Jul 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/29 11:50",
+    "fetched_at": "2026-09-20 23:49:56"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37016311",
+      "36681763",
+      "36450893",
+      "36418326",
+      "36350672",
+      "36300618",
+      "35836677",
+      "35543798",
+      "35495061",
+      "35428172",
+      "35231447",
+      "35185952",
+      "35108264",
+      "34871295",
+      "34718741",
+      "34718740",
+      "34619090",
+      "34618085",
+      "34522448",
+      "34473403",
+      "34293345",
+      "34208629",
+      "34144927",
+      "33125078",
+      "32726575",
+      "31722410",
+      "31691822",
+      "31494994",
+      "31214208",
+      "30476243",
+      "30471703",
+      "30357393",
+      "29342231",
+      "28784690",
+      "27824331",
+      "27492088",
+      "27117388",
+      "27097556",
+      "26507856",
+      "26201819",
+      "26110593",
+      "25435546",
+      "25428367",
+      "25228343",
+      "25215497",
+      "24217916",
+      "24081580",
+      "23525075",
+      "23203878",
+      "23193287",
+      "22576172",
+      "21045057",
+      "20965969",
+      "20502673",
+      "19609323",
+      "16734424",
+      "16524982",
+      "15287978",
+      "12519987",
+      "10802651",
+      "10592235"
+    ],
+    "similar": [
+      "37510380",
+      "23912807",
+      "33744316",
+      "32028878",
+      "34029402",
+      "37047451",
+      "31691822",
+      "36575582",
+      "28387819",
+      "33610793",
+      "29511089",
+      "25228343",
+      "28924037",
+      "23760157",
+      "31941785",
+      "31694155",
+      "27097556",
+      "34179096",
+      "32615218",
+      "33799876",
+      "34102212",
+      "23651452",
+      "25159688",
+      "19945192",
+      "29526694",
+      "21654625",
+      "23747397",
+      "36321557",
+      "19962994",
+      "19667081",
+      "20195357",
+      "27881680",
+      "34816836",
+      "35883530",
+      "21044807",
+      "34522448",
+      "27128442",
+      "26305482",
+      "26817596",
+      "30397184",
+      "21720952",
+      "36093737",
+      "28575075",
+      "27098855",
+      "33104784",
+      "19333396",
+      "19208164",
+      "35231447",
+      "29474620",
+      "35491929",
+      "22535423",
+      "29341856",
+      "25207797",
+      "28701416",
+      "34370723",
+      "29733626",
+      "36528388",
+      "15073273",
+      "35615014",
+      "19357200",
+      "33582133",
+      "33982369",
+      "30940742",
+      "22759586",
+      "35685361",
+      "20027642",
+      "29940855",
+      "29028906",
+      "26107850",
+      "33913240",
+      "37211575",
+      "37189373",
+      "26851279",
+      "21036669",
+      "22651224",
+      "23847151",
+      "31043738",
+      "29626537",
+      "11838236",
+      "36265487"
+    ],
+    "review": [
+      "37510380",
+      "33610793",
+      "31694155",
+      "36321557",
+      "34816836",
+      "34522448",
+      "27098855",
+      "28701416",
+      "30940742",
+      "33913240",
+      "26851279",
+      "11838236"
+    ],
+    "pmc": [
+      "10379056"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes14071476",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37510380/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37510380",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

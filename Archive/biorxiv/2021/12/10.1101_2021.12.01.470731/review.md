@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Conclusions, Methods, Notes, Acknowledgments)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency as presented in the provided text
+- **Shared manuscript claim summary** The authors propose a pipeline combining deep learning (trRosetta with deepMSA) and a coarse-grained force field (AWSEM) to predict not only static protein structures but also conformational ensembles, and demonstrate on five test cases that their approach can sample experimentally relevant conformations and intermediate states observed in molecular dynamics simulations, while noting limitations related to metal ions, cofactors, and MSA quality.
+- **Visible evidence base** Text descriptions of results for five test cases (adenylate kinase, LFA-1 αI domain, myoglobin, T4 lysozyme, T. thermophila BIL2), references to figures and supplementary materials (Figure 1-5, S1-S8), and methodological descriptions
+- **Missing materials affecting confidence** Figures and supplementary materials referenced but not provided; no quantitative metrics (e.g., RMSD values, enrichment factors, statistical tests); no detailed comparison of computational cost or reproducibility; no code or data availability statement
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question: whether current deep learning-based structure prediction methods can capture protein conformational diversity, not just static folds. The authors present a plausible pipeline and apply it to five test cases with known conformational changes. However, the evidence as presented is largely qualitative and descriptive, with heavy reliance on visual inspection and unreferenced figures. The central claim that the pipeline "retrieves experimental structural dynamics" is not quantitatively supported. The lack of clear metrics, statistical analysis, and comparison to baselines (beyond a single AlphaFold comparison) weakens the case. The manuscript has potential but requires substantial strengthening of the evidence and clarity of presentation before the claims can be considered established.
+- **Who would be interested in the results, and why** Computational biologists, structural biologists, and researchers in protein engineering and drug discovery would be interested. The question of whether ML-based predictors can go beyond static structures to sample conformational ensembles is of broad relevance, especially for understanding function, allostery, and ligand binding. The practical implications for drug discovery (e.g., targeting inactive vs. active conformations) are significant.
+- **Major strengths** 1) The question is important and timely. 2) The pipeline is clearly described and combines established tools (trRosetta, deepMSA, AWSEM) in a sensible way. 3) The choice of test cases covers diverse conformational changes (domain motion, metal-induced changes, cofactor effects). 4) The authors acknowledge limitations (metal ions, cofactors, MSA quality) and discuss them thoughtfully. 5) The comparison to AlphaFold (via ColabFold) is a useful benchmark.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "Our pipeline not only allows us to retrieve the global experimental folding but also the experimental structural dynamics."
+  - **Evidence pointer** Results sections for all test cases; Figures 1-5 (not provided)
+  - **Concern** The central claim of retrieving experimental structural dynamics is supported only by qualitative descriptions of visual overlaps between predicted clusters and MD-derived ensembles. No quantitative metrics (e.g., overlap coefficients, Jensen-Shannon divergence of distance distributions, RMSD distributions) are provided. The figures that would substantiate this are not available for review.
+  - **Why it matters** Without quantitative comparison, the claim that the pipeline captures dynamics is not distinguishable from the trivial observation that some predicted models are more open or closed than others. The reader cannot assess the degree of agreement or the significance of the overlap.
+  - **Resolution test** Provide quantitative measures of ensemble overlap (e.g., distribution overlap, Kullback-Leibler divergence, or fraction of predicted models within a threshold of MD-sampled conformations) for each test case, with appropriate statistical testing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** "The predicted models were filtered based on energy scores, RMSD clustering, and the centroids selected as the lowest energy structure per cluster."
+  - **Evidence pointer** Methods: "RMSD clustering and centroid selection"
+  - **Concern** The clustering and centroid selection procedure is described only briefly. The choice of the number of clusters (via the Elbow method) is mentioned, but the criteria for selecting the "best" number of clusters are not detailed. More critically, the energy filtering threshold (e.g., "energy higher than -788 kcal/mol") is presented without justification or sensitivity analysis. It is unclear how robust the final ensemble is to these choices.
+  - **Why it matters** The pipeline's output (the predicted ensemble) depends directly on these filtering and clustering steps. If the results are sensitive to arbitrary thresholds, the conclusions are not robust. The lack of sensitivity analysis undermines confidence in the method's generalizability.
+  - **Resolution test** Perform and report a sensitivity analysis of the energy threshold and clustering parameters (e.g., number of clusters) on the final ensemble composition and the agreement with MD data. Justify the chosen parameters based on these analyses.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison and baselines
+  - **Claim pointer** "AlphaFold2 models from ColabFold pipeline reviewed close and intermediate AKe conformations, while the AlphaFold2 prediction deposited in the AlphaFold Protein Structure Database provides only the close AKe conformation."
+  - **Evidence pointer** Results: Adenylate kinase section; Figure 1 (not provided)
+  - **Concern** The comparison to AlphaFold is limited to a single point (one model from ColabFold, one from the AlphaFold DB) for one test case. For other test cases, only ColabFold is mentioned, and the comparison is qualitative. The claim that the pipeline outperforms AlphaFold in sampling conformational diversity is not systematically established.
+  - **Why it matters** The manuscript positions the pipeline as an improvement over current state-of-the-art methods. A fair and systematic comparison (e.g., generating multiple AlphaFold models with different random seeds or MSA depths, and comparing ensemble diversity) is essential to support this claim.
+  - **Resolution test** Provide a systematic comparison of ensemble diversity and coverage between the proposed pipeline and AlphaFold (or other baselines) across all test cases, using quantitative metrics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "1000 models have been generated with the XML version of transform-restrained Rosetta pipeline (trRosetta) used during CASP13"
+  - **Evidence pointer** Methods: "trRosetta and the energy filtered step"
+  - **Concern** The manuscript does not provide a data or code availability statement. The pipeline is described, but the exact parameters, scripts, and input files are not made available. Given the complexity of the pipeline, this limits reproducibility.
+  - **Why it matters** For a methods-focused manuscript, reproducibility is a core requirement. Without access to the code and data, other researchers cannot build on or validate the approach.
+  - **Resolution test** Provide a clear data and code availability statement, with links to repositories (e.g., GitHub, Zenodo) containing the pipeline scripts, configuration files, and the generated models for all test cases.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "Protein structure dynamic prediction" is ambiguous. It could be read as predicting the dynamics of protein structures, which is not exactly what the paper does (it predicts ensembles of static structures).
+  - **Required correction** Consider rephrasing to "Predicting protein conformational ensembles" or "Sampling protein conformational space" for clarity.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, Test case database
+  - **Evidence pointer** "The list of PDB structures is summarized in Table 1."
+  - **Issue** Table 1 is referenced but not provided in the text. The reader cannot see which PDB structures were used, their resolutions, or the sequence identities.
+  - **Required correction** Include Table 1 in the manuscript or supplementary material, with columns for PDB ID, protein name, resolution, and the specific conformations used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, all test cases
+  - **Evidence pointer** "RMSF analysis (Figure 1.B) ..." and similar
+  - **Issue** The RMSF and PCA analyses are described qualitatively. No error bars, confidence intervals, or statistical tests are reported for the comparisons between predicted and MD-derived fluctuations.
+  - **Required correction** Add quantitative comparisons (e.g., Pearson correlation between predicted and MD RMSF profiles) and report the statistical significance of any differences.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Discussion
+  - **Evidence pointer** "Föster resonance energy" (Discussion, first paragraph)
+  - **Issue** The correct spelling is "Förster resonance energy transfer" (FRET).
+  - **Required correction** Correct the spelling and expand the acronym on first use.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, Molecular Dynamics protocol
+  - **Evidence pointer** "The system was simulated for on average 30 ns in the NPT ensemble."
+  - **Issue** The simulation length is reported as an average, but the range across the five test cases is not given. Also, the number of replicas (if any) is not stated.
+  - **Required correction** Report the simulation length for each test case and state whether multiple replicas were run.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative evidence for the central claim), R1-M2 (lack of sensitivity analysis for filtering/clustering parameters), R1-M3 (incomplete comparison to AlphaFold), R1-M4 (lack of reproducibility materials)
+- **Assessment against Nature-style criteria**  
+  - **Originality** The question of whether ML predictors can capture conformational ensembles is not entirely new, but the specific combination of trRosetta, deepMSA, and AWSEM for this purpose has some novelty. However, the approach is largely an application of existing tools rather than a fundamentally new method.  
+  - **Scientific importance** The topic is important, as understanding conformational diversity is critical for function and drug discovery. If the claims were rigorously supported, the work would be of interest to a broad community.  
+  - **Interdisciplinary readership** The manuscript bridges machine learning, biophysics, and structural biology, which could appeal to a wide audience. However, the presentation is often technical and assumes familiarity with all three fields, which may limit accessibility.  
+  - **Technical soundness** The technical approach is reasonable, but the evidence is not presented with sufficient rigor. The lack of quantitative metrics and sensitivity analyses is a significant weakness.  
+  - **Readability for nonspecialists** The abstract is clear, but the results sections are dense and rely heavily on unreferenced figures. A nonspecialist would struggle to follow the arguments without seeing the figures and having more context.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question and presents a plausible pipeline, but the central claims are not quantitatively supported. Substantial revisions, including quantitative analyses, sensitivity tests, and a systematic comparison to baselines, are required before the case can be considered established.
+
+## Risk / unsupported claims
+- The claim that the pipeline "retrieves the experimental structural dynamics" is unsupported without quantitative comparison to MD ensembles.
+- The claim that the model ensemble "resembles the conformational shift between the apo and holo forms" is based on visual inspection and is not quantified.
+- The claim that "MSA seems to encode information regarding the conformational flexibility of the protein" is speculative and not directly tested.
+- The statement that "the choice of the MSA profile ... are fundamentals in the ability of deep learning algorithms as trRosetta to retrieve flexible information" is not supported by systematic comparison of different MSA methods across all test cases.
+- The claim that "the model clustering distribution is in agreement with the current experimentally available conformations" is based on a single test case (adenylate kinase) and is not generalized.
+- The discussion of AlphaFold's limitations is based on a small number of generated models (five) and may not be representative of the method's full capability.

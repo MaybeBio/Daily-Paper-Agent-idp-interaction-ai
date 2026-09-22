@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "35694516",
+    "doi": "10.1021/acsomega.2c00477",
+    "title": "Wide-Line NMR Melting Diagrams, Their Thermodynamic Interpretation, and Secondary Structure Predictions for A30P and E46K alpha-Synuclein."
+  },
+  "content": {
+    "abstract": "Parkinson's disease is thought to be caused by aggregation of the intrinsically disordered protein, alpha-synuclein. Two amyloidogenic variants, A30P, and E46K familial mutants were investigated by wide-line (1)H NMR spectrometry as a completion of our earlier work on wild-type and A53T alpha-synuclein (Bokor M. et al. WT and A53T alpha-synuclein systems: melting diagram and its new interpretation. Int. J. Mol. Sci.2020, 21, 3997.). A monolayer of mobile water molecules hydrates A30P alpha-synuclein at the lowest potential barriers (temperatures), while E46K alpha-synuclein has here third as much mobile hydration, insufficient for functionality. According to wide-line (1)H NMR results and secondary structure predictions, E46K alpha-synuclein is more compact than the A30P variant and they are more compact than the wild type (WT) and A53T variants. Linear hydration vs potential barrier sections of A30P alpha-synuclein shows one and E46K shows two slopes. The different slopes of the latter between potential barriers E (a,1) and E (a,2) reflect a change in water-protein interactions. The 31-32% homogeneous potential barrier distribution of the protein-water bonds refers to a non-negligible amount of secondary structures in all four alpha-synuclein variants. The secondary structures detected by wide-line (1)H NMR are solvent-exposed alpha-helices, which are predicted by secondary structure models. beta-sheets are only minor components of the protein structures as three- and eight-state predicted secondary structures are dominated by alpha-helices and coils.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bokor, Monika",
+        "Hazy, Eszter",
+        "Tantos, Agnes"
+      ],
+      "short_names": [
+        "Bokor M",
+        "Hazy E",
+        "Tantos A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8883-1316"
+      ],
+      "affiliations": [
+        "Institute for Solid State Physics and Optics, Wigner Research Centre for Physics, 1121 Budapest, Hungary.",
+        "Institute of Enzymology, Research Centre for Natural Sciences, 1117 Budapest, Hungary.",
+        "Institute of Enzymology, Research Centre for Natural Sciences, 1117 Budapest, Hungary."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bokor, Mónika",
+        "short_name": "Bokor M",
+        "identifiers": [
+          "0000-0001-8883-1316"
+        ],
+        "affiliations": [
+          "Institute for Solid State Physics and Optics, Wigner Research Centre for Physics, 1121 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Házy, Eszter",
+        "short_name": "Házy E",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Enzymology, Research Centre for Natural Sciences, 1117 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Tantos, Ágnes",
+        "short_name": "Tantos Á",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Enzymology, Research Centre for Natural Sciences, 1117 Budapest, Hungary."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS omega"
+    ],
+    "journal_abbrev": [
+      "ACS Omega"
+    ],
+    "pub_date": "2022 Jun 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/14 06:00",
+    "fetched_at": "2026-09-20 11:11:12"
+  },
+  "links": {
+    "cites": [
+      "38854569",
+      "38155658"
+    ],
+    "refs": [
+      "34307295",
+      "33620224",
+      "32503167",
+      "32390826",
+      "32237272",
+      "32015135",
+      "31451723",
+      "31331359",
+      "31251384",
+      "30917651",
+      "30917118",
+      "30424574",
+      "29959372",
+      "29860432",
+      "29604892",
+      "29076577",
+      "28992347",
+      "28430949",
+      "28109332",
+      "28066974",
+      "27628239",
+      "26723627",
+      "26582456",
+      "25883141",
+      "25139280",
+      "23991082",
+      "23505409",
+      "22814390",
+      "22552968",
+      "22315227",
+      "22024360",
+      "20011072",
+      "19412530",
+      "19348762",
+      "18423664",
+      "18261456",
+      "17530780",
+      "16997873",
+      "16325180",
+      "15769473",
+      "15306376",
+      "11933069",
+      "11804722",
+      "11560511",
+      "9809558",
+      "6667333",
+      "3016460"
+    ],
+    "similar": [
+      "35694516",
+      "34912851",
+      "35836937",
+      "23374074",
+      "26695014",
+      "32497661",
+      "19580781",
+      "32503167",
+      "31242217",
+      "23374072",
+      "20041693",
+      "21520980",
+      "22067166",
+      "30605594",
+      "30892349",
+      "35394271",
+      "30249789",
+      "15498564",
+      "23607785",
+      "21684335",
+      "39412059",
+      "14550771",
+      "21264320",
+      "34285796",
+      "11560511",
+      "14756560",
+      "19126542",
+      "25657004",
+      "34070204",
+      "25561023",
+      "19067456",
+      "16325180",
+      "21658409",
+      "17530780",
+      "25635052",
+      "29364143",
+      "24833599",
+      "33749266",
+      "27177693",
+      "31385584",
+      "24450731",
+      "32866007",
+      "33620224",
+      "18261456",
+      "15122920",
+      "19345692",
+      "32595456",
+      "22389823",
+      "32672441",
+      "24740651",
+      "11812148",
+      "11590151",
+      "16519533",
+      "26582456",
+      "17209570",
+      "27866262",
+      "16679557",
+      "28562630",
+      "30352158",
+      "12428728",
+      "25909158",
+      "12727333",
+      "25902443",
+      "17531952",
+      "27622765",
+      "10978144",
+      "29503608",
+      "34877798",
+      "26769358",
+      "33805843",
+      "30528390",
+      "19586054",
+      "16166095",
+      "16957925",
+      "19548659",
+      "23180276",
+      "31178336",
+      "12367530",
+      "15110760",
+      "15755676",
+      "16679556",
+      "20412383",
+      "25369246",
+      "15632170",
+      "19291219",
+      "26711807",
+      "28820063",
+      "24064336",
+      "20106867",
+      "38854569",
+      "36600624"
+    ],
+    "review": [
+      "35694516",
+      "23180276"
+    ],
+    "pmc": [
+      "9178613"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acsomega.2c00477",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35694516/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35694516",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acsodf/article-lookup/doi/10.1021/acsomega.2c00477",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

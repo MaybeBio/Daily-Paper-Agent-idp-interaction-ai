@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report structural models of meiotic Rec114−Mei4 and Mer2 complexes derived from AlphaFold, supported by NMR, SAXS, and mutagenesis. They claim that Rec114 C-terminal dimers form α-helical chains interacting with an N-terminal Mei4 α-helix, that Mer2 forms a parallel homotetrameric coiled coil, that both complexes bind preferentially to branched DNA substrates, that Rec114−Mei4 contains two oppositely oriented DNA-binding sites driving condensation, that Mer2 bridges co-aligned DNA duplexes via electrostatic interactions, and that structures are conserved across eukaryotes while DNA-binding properties vary. They propose a model where Mer2 condensation is the essential driver of meiotic DSB machinery assembly, with Rec114−Mei4 DNA-binding playing a supportive role.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, structural coordinates, experimental spectra, mutagenesis details, sequence alignments, phylogenetic analyses, and quantitative DNA-binding data are not available for verification
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding meiotic DSB formation, with novel structural models and a functional model that could reshape current thinking. However, the evidence base is limited to the abstract, and several claims, particularly regarding evolutionary conservation and the mechanistic hierarchy between Mer2 and Rec114−Mei4, cannot be adequately assessed without the underlying data. The work is likely of interest to the meiosis and DNA repair communities, but the strength of the conclusions depends on the quality and interpretation of the structural and biochemical experiments, which are not visible here.
+- **Who would be interested in the results, and why** Researchers studying meiosis, homologous recombination, DNA double-strand break formation, and chromosome dynamics would be interested. Additionally, those working on protein-DNA interactions, coiled-coil structures, and the application of AlphaFold in structural biology would find the methodological aspects relevant. The proposed model for DSB machinery assembly could influence studies on fertility and genome stability.
+- **Major strengths** The combination of AlphaFold predictions with experimental validation (NMR, SAXS, mutagenesis) is a robust approach. The identification of specific structural features, such as the α-helical chains and the homotetrameric coiled coil, provides concrete molecular hypotheses. The comparative analysis of DNA-binding properties across eukaryotes adds an evolutionary dimension that is often lacking in structural studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "the structure of Rec114−Mei4 and Mer2 are conserved across eukaryotes, while DNA-binding properties vary significantly."
+  - **Evidence pointer** Abstract only; no phylogenetic or sequence conservation data provided
+  - **Concern** The claim of evolutionary conservation is broad and requires substantial comparative data, including sequence alignments, structural superimpositions, and functional assays across multiple species. The abstract does not specify which species were examined, how conservation was quantified, or how DNA-binding variability was measured.
+  - **Why it matters** Overstating conservation without robust evidence could mislead the field about the universality of the proposed mechanism. If the structural conservation is only inferred from AlphaFold models without experimental validation in other species, the claim is premature.
+  - **Resolution test** Provide a clear description of the species set, alignment methods, and structural comparison metrics. Include experimental or high-confidence computational evidence for at least two non-model organisms. Show quantitative DNA-binding data for multiple orthologs to support the variability claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic inference
+  - **Claim pointer** The abstract proposes that "Mer2 condensation is the essential driver of assembly, with the DNA-binding activity of Rec114−Mei4 playing a supportive role."
+  - **Evidence pointer** Abstract only; no functional assays or genetic experiments described
+  - **Concern** The hierarchical model assigning essentiality to Mer2 condensation and a supportive role to Rec114−Mei4 DNA-binding is a strong functional conclusion. The abstract does not present direct evidence, such as separation-of-function mutants, depletion experiments, or in vivo reconstitution, that would distinguish essential from supportive roles.
+  - **Why it matters** This model has implications for how the DSB machinery assembles in vivo. Without functional validation, the model remains speculative and could be challenged by existing genetic data that may not align with this hierarchy.
+  - **Resolution test** Include mutagenesis or domain-deletion experiments that specifically disrupt Mer2 condensation versus Rec114−Mei4 DNA-binding, and assess effects on DSB formation in a relevant system. Alternatively, provide quantitative in vitro assembly assays that demonstrate the necessity of Mer2 condensation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural validation
+  - **Claim pointer** The abstract states that "dimers composed of the Rec114 C-terminus form α-helical chains that cup an N-terminal Mei4 α-helix, and that Mer2 forms a parallel homotetrameric coiled coil."
+  - **Evidence pointer** Abstract only; no structural figures or validation metrics provided
+  - **Concern** While AlphaFold models are mentioned, the abstract does not indicate the confidence levels (e.g., pLDDT, PAE) or whether the key interfaces are experimentally confirmed by NMR or SAXS. The claim of a "parallel homotetrameric coiled coil" is specific and requires oligomerization state determination, which is not described.
+  - **Why it matters** Structural models, especially from prediction, can have errors in domain orientation or oligomeric interfaces. Without clear validation, the specific architecture may be incorrect, undermining downstream functional interpretations.
+  - **Resolution test** Provide AlphaFold confidence metrics for the key interfaces, and show experimental data (e.g., NMR chemical shift perturbations, SAXS envelopes, or crosslinking) that confirm the oligomeric states and the Mei4 interaction mode.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "cup" to describe the Mei4 α-helix interaction is informal and ambiguous.
+  - **Required correction** Use a more precise structural description, such as "form a groove that accommodates" or "wrap around."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** DNA-binding specificity
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states "preferentially to branched DNA substrates" but does not define the range of substrates tested or the degree of preference.
+  - **Required correction** Specify the types of branched substrates (e.g., Y-junctions, Holliday junctions) and provide quantitative binding affinities or fold-preferences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions mutagenesis but does not indicate which residues were mutated or the rationale.
+  - **Required correction** List key mutations in the abstract or refer to a figure that summarizes the mutagenesis strategy.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (evolutionary conservation claim lacks evidence), R1-M2 (mechanistic hierarchy not functionally tested), R1-M3 (structural validation incomplete)
+- **Assessment against Nature-style criteria** Originality: High, as the proposed structures and model are novel. Scientific importance: Potentially high for meiosis and DNA repair fields, but the essentiality claim needs stronger support. Interdisciplinary readership: Moderate, as the topic is specialized but relevant to structural biology and genomics. Technical soundness: Cannot be fully assessed from the abstract; the combination of methods is promising but validation details are missing. Readability for nonspecialists: The abstract is accessible but uses jargon (e.g., "coiled coil," "condensation") that may require background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved, particularly the provision of full structural validation data and functional experiments to support the mechanistic hierarchy. Currently not established from the provided evidence.
+
+## Risk / unsupported claims
+- The claim of evolutionary conservation of structures and variability of DNA-binding properties is unsupported without comparative data.
+- The proposal that Mer2 condensation is the "essential driver" and Rec114−Mei4 DNA-binding is "supportive" is not supported by functional evidence in the abstract.
+- The specific structural architectures (α-helical chains, homotetrameric coiled coil) are not verifiable without figures or validation metrics.
+- The preference for branched DNA substrates is stated but not quantified or contextualized.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.05.26.596000",
+  "title": "Direct and Indirect Salt Effects on Homotypic Phase Separation",
+  "authors": "MacAinsh M; Dey S; Zhou H",
+  "journal": "bioRxiv",
+  "published_date": "2024-05-31",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过全原子MD模拟揭示盐离子对hnRNPA1低复杂度域同型相分离的直接与间接作用机制，直接命中无序蛋白相分离互作机制建模，方法为物理模拟，对象、互作、方法三者齐备且具机制深度。",
+  "abstract": "The low-complexity domain of hnRNPA1 (A1-LCD) phase separates in a salt-dependent manner. Unlike many intrinsically disordered proteins (IDPs) whose phase separation is suppressed by increasing salt concentrations, the phase separation of A1-LCD is promoted by > 100 mM NaCl. To investigate the atypical salt effect on A1-LCD phase separation, we carried out all-atom molecular dynamics simulations of systems comprising multiple A1-LCD chains at NaCl concentrations from 50 to 1000 mM NaCl. The ions occupy first-shell as well as more distant sites around the IDP chains, with Arg sidechains and backbone carbonyls the favored partners of Cl - and Na + , respectively. They play two direct roles in driving A1-LCD condensation. The first is to neutralize the high net charge of the protein (+9) by an excess of bound Cl - over Na + ; the second is to bridge between A1-LCD chains, thereby fortifying the intermolecular interaction networks in the dense phase. At high concentrations, NaCl also indirectly strengthens π-π, cation-π, and amino-π interactions, by drawing water away from the interaction partners. Therefore, at low salt, A1-LCD is prevented from phase separation by net charge repulsion; at intermediate concentrations, NaCl neutralizes enough of the net charge while also bridging IDP chains to drive phase separation. This drive becomes even stronger at high salt due to strengthened π-type interactions. Based on this understanding, four classes of salt dependence of IDP phase separation can be predicted from amino-acid composition.",
+  "abstract_zh": "低复杂度结构域hnRNPA1（A1-LCD）以盐依赖性方式发生相分离（phase separation）。与许多 intrinsically disordered proteins (IDPs) 的相分离随盐浓度增加而受到抑制不同，A1-LCD 的相分离在 > 100 mM NaCl 条件下被促进。为了研究盐对 A1-LCD 相分离的非典型效应，我们在 NaCl 浓度从 50 到 1000 mM 的条件下，对包含多个 A1-LCD 链的系统进行了全原子分子动力学（molecular dynamics）模拟。离子占据 IDP 链周围的第一壳层及更远位点，其中 Arg 侧链和主链羰基分别是 Cl⁻ 和 Na⁺ 的优先配位伙伴。它们在驱动 A1-LCD 凝聚中发挥两个直接作用：第一，通过过量结合的 Cl⁻ 相对于 Na⁺ 来中和蛋白质的高净电荷（+9）；第二，在 A1-LCD 链之间形成桥接，从而增强稠密相中的分子间相互作用网络。在高浓度下，NaCl 还通过将水从相互作用伙伴中抽离，间接增强 π-π、阳离子-π 和氨基-π 相互作用。因此，在低盐条件下，A1-LCD 因净电荷排斥而无法发生相分离；在中等浓度下，NaCl 中和足够多的净电荷，同时桥接 IDP 链以驱动相分离。在高盐条件下，由于 π 型相互作用的增强，这种驱动力变得更强。基于这一理解，可以根据氨基酸组成预测 IDP 相分离的四类盐依赖性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.05.26.596000",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.05.26.596000",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.05.26.596000/index.html"
+}

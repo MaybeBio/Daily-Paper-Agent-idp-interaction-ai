@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "38592759",
+    "doi": "10.7554/eLife.90820",
+    "title": "Interplay between charge distribution and DNA in shaping HP1 paralog phase separation and localization."
+  },
+  "content": {
+    "abstract": "The heterochromatin protein 1 (HP1) family is a crucial component of heterochromatin with diverse functions in gene regulation, cell cycle control, and cell differentiation. In humans, there are three paralogs, HP1alpha, HP1beta, and HP1gamma, which exhibit remarkable similarities in their domain architecture and sequence properties. Nevertheless, these paralogs display distinct behaviors in liquid-liquid phase separation (LLPS), a process linked to heterochromatin formation. Here, we employ a coarse-grained simulation framework to uncover the sequence features responsible for the observed differences in LLPS. We highlight the significance of the net charge and charge patterning along the sequence in governing paralog LLPS propensities. We also show that both highly conserved folded and less-conserved disordered domains contribute to the observed differences. Furthermore, we explore the potential co-localization of different HP1 paralogs in multicomponent assemblies and the impact of DNA on this process. Importantly, our study reveals that DNA can significantly reshape the stability of a minimal condensate formed by HP1 paralogs due to competitive interactions of HP1alpha with HP1beta and HP1gamma versus DNA. In conclusion, our work highlights the physicochemical nature of interactions that govern the distinct phase-separation behaviors of HP1 paralogs and provides a molecular framework for understanding their role in chromatin organization.",
+    "keywords": [
+      "biochemistry",
+      "chemical biology",
+      "heterochromatin organization",
+      "hp1 paralogs",
+      "liquid-liquid phase separation",
+      "molecular biophysics",
+      "none",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Chromobox Protein Homolog 5",
+      "*Heterochromatin",
+      "Phase Separation",
+      "DNA",
+      "Cell Differentiation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Phan, Tien M",
+        "Kim, Young C",
+        "Debelouchina, Galia T",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Phan TM",
+        "Kim YC",
+        "Debelouchina GT",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8608-7359",
+        "ORCID: 0000-0001-6775-9415",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, United States.",
+        "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, United States.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, United States.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, United States.",
+        "Department of Chemistry, Texas A&M University, College Station, United States.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Phan, Tien M",
+        "short_name": "Phan TM",
+        "identifiers": [
+          "0000-0002-8608-7359"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, United States."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, United States."
+        ]
+      },
+      {
+        "full_name": "Debelouchina, Galia T",
+        "short_name": "Debelouchina GT",
+        "identifiers": [
+          "0000-0001-6775-9415"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, United States."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, United States.",
+          "Department of Chemistry, Texas A&M University, College Station, United States.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2024 Apr 9",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/09 12:43",
+    "fetched_at": "2026-09-21 06:25:44"
+  },
+  "links": {
+    "cites": [
+      "41714601",
+      "41575850",
+      "41540001",
+      "41378114",
+      "41298416",
+      "41253788",
+      "41091939",
+      "40954121",
+      "40842365",
+      "40837125",
+      "40661423",
+      "40658601",
+      "40640210",
+      "40441156",
+      "40350613",
+      "40146081",
+      "40138713",
+      "40060049",
+      "39827079",
+      "39660932",
+      "39610751",
+      "39437158",
+      "39185151",
+      "38895997",
+      "38885177",
+      "38160320",
+      "37961422"
+    ],
+    "refs": [
+      "37988476",
+      "37267850",
+      "36819870",
+      "36657879",
+      "36537242",
+      "35802394",
+      "35526078",
+      "35364104",
+      "35159030",
+      "34557680",
+      "34001913",
+      "33934416",
+      "33826337",
+      "33661100",
+      "33660589",
+      "33577679",
+      "33453922",
+      "33302617",
+      "33078950",
+      "33032406",
+      "32784937",
+      "32101700",
+      "31618757",
+      "31543422",
+      "31543265",
+      "31117592",
+      "30217894",
+      "29644850",
+      "29364893",
+      "29339721",
+      "29336876",
+      "28746339",
+      "28636604",
+      "27090491",
+      "25332400",
+      "24618358",
+      "23996328",
+      "23585859",
+      "22493481",
+      "21346195",
+      "21271610",
+      "21245376",
+      "21047797",
+      "20421743",
+      "19045161",
+      "18429317",
+      "17224041",
+      "17173056",
+      "16531993",
+      "16503133",
+      "16392929",
+      "16254244",
+      "15071554",
+      "14765118",
+      "12869583",
+      "12231507",
+      "11882902",
+      "11336697",
+      "11242054",
+      "11242053",
+      "10801440",
+      "10753776",
+      "10747027",
+      "10660299",
+      "10460410"
+    ],
+    "similar": [
+      "38592759",
+      "37398008",
+      "33661100",
+      "40070663",
+      "37549295",
+      "41498760",
+      "40640210",
+      "36537242",
+      "33660589",
+      "41372631",
+      "29166597",
+      "20689044",
+      "28059589",
+      "12840071",
+      "17381543",
+      "28636597",
+      "28636604",
+      "17314413",
+      "40350613",
+      "29467217",
+      "38895997",
+      "37839545",
+      "31952807",
+      "35447032",
+      "41272271",
+      "35166421",
+      "38746378",
+      "29336876",
+      "22205726",
+      "41091213",
+      "36533441",
+      "37988476",
+      "11408576",
+      "28236007",
+      "21267468",
+      "34428454",
+      "21271610",
+      "40138713",
+      "24681131",
+      "39383876",
+      "10460410",
+      "18664736",
+      "30514760",
+      "38802567",
+      "36710442",
+      "40152110",
+      "35159030",
+      "35042897",
+      "17575412",
+      "31533340",
+      "12411497",
+      "9378752",
+      "18599480",
+      "33595886",
+      "20421743",
+      "18676401",
+      "39192031",
+      "29685391",
+      "40262618",
+      "30346969",
+      "37400983",
+      "12771122",
+      "30471698",
+      "29491004",
+      "39945308",
+      "39482359",
+      "40450002",
+      "39562713",
+      "39862081",
+      "20962594",
+      "36672260",
+      "22715096",
+      "29924345",
+      "38403935",
+      "12675308",
+      "23287531",
+      "31145866",
+      "33536327",
+      "38526948",
+      "27466409",
+      "11124534",
+      "32101700",
+      "30845353",
+      "31671722",
+      "19486527",
+      "35036738",
+      "31866201",
+      "41362113",
+      "29665845",
+      "34849911",
+      "25769025",
+      "40711461",
+      "16261261",
+      "36550219",
+      "31618757",
+      "32493764",
+      "34128099",
+      "17855382",
+      "7664737",
+      "10330177"
+    ],
+    "review": [
+      "38592759",
+      "41091213",
+      "28236007",
+      "21271610",
+      "18664736",
+      "36710442",
+      "35159030",
+      "20421743",
+      "16261261"
+    ],
+    "pmc": [
+      "11003746"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38592759/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38592759",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.90820",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

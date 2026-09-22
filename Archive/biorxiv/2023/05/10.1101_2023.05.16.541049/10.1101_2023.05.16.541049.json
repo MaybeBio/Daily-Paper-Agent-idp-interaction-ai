@@ -1,0 +1,310 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.16.541049",
+  "title": "What can Ribo-seq and proteomics tell us about the non-canonical proteome?",
+  "doi": "10.1101/2023.05.16.541049",
+  "abstract": "Ribosome profiling (Ribo-seq) has proven transformative for our understanding of the human genome and proteome by illuminating thousands of non-canonical sites of ribosome translation outside of the currently annotated coding sequences (CDSs). A conservative estimate suggests that at least 7,000 non-canonical open reading frames (ORFs) are translated, which, at first glance, has the potential to expand the number of human protein-coding sequences by 30%, from ∼19,500 annotated CDSs to over 26,000. Yet, additional scrutiny of these ORFs has raised numerous questions about what fraction of them truly produce a protein product and what fraction of those can be understood as proteins according to conventional understanding of the term. Adding further complication is the fact that published estimates of non-canonical ORFs vary widely by around 30-fold, from several thousand to several hundred thousand. The summation of this research has left the genomics and proteomics communities both excited by the prospect of new coding regions in the human genome, but searching for guidance on how to proceed. Here, we discuss the current state of non-canonical ORF research, databases, and interpretation, focusing on how to assess whether a given ORF can be said to be “protein-coding”. <h4>In brief</h4> The human genome encodes thousands of non-canonical open reading frames (ORFs) in addition to protein-coding genes. As a nascent field, many questions remain regarding non-canonical ORFs. How many exist? Do they encode proteins? What level of evidence is needed for their verification? Central to these debates has been the advent of ribosome profiling (Ribo-seq) as a method to discern genome-wide ribosome occupancy, and immunopeptidomics as a method to detect peptides that are processed and presented by MHC molecules and not observed in traditional proteomics experiments. This article provides a synthesis of the current state of non-canonical ORF research and proposes standards for their future investigation and reporting. <h4>Highlights</h4> Combined use of Ribo-seq and proteomics-based methods enables optimal confidence in detecting non-canonical ORFs and their protein products. Ribo-seq can provide more sensitive detection of non-canonical ORFs, but data quality and analytical pipelines will impact results. Non-canonical ORF catalogs are diverse and span both high-stringency and low-stringency ORF nominations. A framework for standardized non-canonical ORF evidence will advance the research field. <h4>Graphical Abstract</h4>",
+  "authors": [
+    "Prensner JR",
+    "Abelin JG",
+    "Kok LW",
+    "Clauser KR",
+    "Mudge JM",
+    "Ruiz-Orera J",
+    "Bassani-Sternberg M",
+    "Deutsch EW",
+    "van Heesch S"
+  ],
+  "published_date": "2023-05-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.16.541049",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.16.541049.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR661752",
+    "raw_record": {
+      "id": "PPR661752",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR661752"
+        ]
+      },
+      "doi": "10.1101/2023.05.16.541049",
+      "title": "What can Ribo-seq and proteomics tell us about the non-canonical proteome?",
+      "authorString": "Prensner JR, Abelin JG, Kok LW, Clauser KR, Mudge JM, Ruiz-Orera J, Bassani-Sternberg M, Deutsch EW, van Heesch S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Prensner JR",
+            "lastName": "Prensner",
+            "firstName": "John",
+            "initials": "JR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7024-636X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pediatrics, Division of Pediatric Hematology/Oncology, University of Michigan Medical School, Ann Arbor, MI 48109, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abelin JG",
+            "lastName": "Abelin",
+            "firstName": "Jennifer",
+            "initials": "JG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5262-7241"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard, Cambridge, MA, 02142, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kok LW",
+            "lastName": "Kok",
+            "firstName": "Leron",
+            "initials": "LW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, 3584 CS, Utrecht, the Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Clauser KR",
+            "lastName": "Clauser",
+            "firstName": "Karl",
+            "initials": "KR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1052-9456"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Broad Institute of MIT and Harvard, Cambridge, MA, 02142, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mudge JM",
+            "lastName": "Mudge",
+            "firstName": "Jonathan",
+            "initials": "JM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4789-7495"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus, Hinxton, Cambridge CB10 1SD, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ruiz-Orera J",
+            "lastName": "Ruiz-Orera",
+            "firstName": "Jorge",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cardiovascular and Metabolic Sciences, Max Delbrück Center for Molecular Medicine in the Helmholtz Association (MDC), 13125 Berlin, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bassani-Sternberg M",
+            "lastName": "Bassani-Sternberg",
+            "firstName": "Michal",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1934-954X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Ludwig Institute for Cancer Research, University of Lausanne, Agora Center Bugnon 25A, 1005 Lausanne, Switzerland"
+                },
+                {
+                  "affiliation": "Department of Oncology, Centre hospitalier universitaire vaudois (CHUV), Rue du Bugnon 46, 1005 Lausanne, Switzerland"
+                },
+                {
+                  "affiliation": "Agora Cancer Research Centre, 1011 Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Deutsch EW",
+            "lastName": "Deutsch",
+            "firstName": "Eric",
+            "initials": "EW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8732-0928"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Systems Biology (ISB), Seattle, Washington 98109, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "van Heesch S",
+            "lastName": "van Heesch",
+            "firstName": "Sebastiaan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Princess Máxima Center for Pediatric Oncology, Heidelberglaan 25, 3584 CS, Utrecht, the Netherlands"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5262-7241"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8732-0928"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1052-9456"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1934-954X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7024-636X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4789-7495"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Ribosome profiling (Ribo-seq) has proven transformative for our understanding of the human genome and proteome by illuminating thousands of non-canonical sites of ribosome translation outside of the currently annotated coding sequences (CDSs). A conservative estimate suggests that at least 7,000 non-canonical open reading frames (ORFs) are translated, which, at first glance, has the potential to expand the number of human protein-coding sequences by 30%, from ∼19,500 annotated CDSs to over 26,000. Yet, additional scrutiny of these ORFs has raised numerous questions about what fraction of them truly produce a protein product and what fraction of those can be understood as proteins according to conventional understanding of the term. Adding further complication is the fact that published estimates of non-canonical ORFs vary widely by around 30-fold, from several thousand to several hundred thousand. The summation of this research has left the genomics and proteomics communities both excited by the prospect of new coding regions in the human genome, but searching for guidance on how to proceed. Here, we discuss the current state of non-canonical ORF research, databases, and interpretation, focusing on how to assess whether a given ORF can be said to be “protein-coding”. <h4>In brief</h4>  The human genome encodes thousands of non-canonical open reading frames (ORFs) in addition to protein-coding genes. As a nascent field, many questions remain regarding non-canonical ORFs. How many exist? Do they encode proteins? What level of evidence is needed for their verification? Central to these debates has been the advent of ribosome profiling (Ribo-seq) as a method to discern genome-wide ribosome occupancy, and immunopeptidomics as a method to detect peptides that are processed and presented by MHC molecules and not observed in traditional proteomics experiments. This article provides a synthesis of the current state of non-canonical ORF research and proposes standards for their future investigation and reporting. <h4>Highlights</h4>  Combined use of Ribo-seq and proteomics-based methods enables optimal confidence in detecting non-canonical ORFs and their protein products. Ribo-seq can provide more sensitive detection of non-canonical ORFs, but data quality and analytical pipelines will impact results. Non-canonical ORF catalogs are diverse and span both high-stringency and low-stringency ORF nominations. A framework for standardized non-canonical ORF evidence will advance the research field. <h4>Graphical Abstract</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "108749/Z/15/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/05/18/2023.05.16.541049.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.05.16.541049"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR661752"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR661752&type=FILE&fileName=EMS176071-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS176071",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-05-20",
+      "firstPublicationDate": "2023-05-18",
+      "firstIndexDate": "2023-05-20",
+      "fullTextReceivedDate": "2023-06-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

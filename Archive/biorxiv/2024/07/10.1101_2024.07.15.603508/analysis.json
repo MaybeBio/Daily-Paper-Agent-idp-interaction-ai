@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.15.603508",
+  "title": "Heterogeneous Slowdown of Dynamics in the Condensate of an Intrinsically Disordered Protein",
+  "authors": "Saumyak Mukherjee; Lars V Schäfer",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-17",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用原子级MD模拟研究FUS无序蛋白LCD在凝聚体中的异质性动力学减速，直接聚焦IDP凝聚体环境对构象运动时间尺度的影响，属于无序蛋白相分离体系中的物理模拟机制研究，与本课题高度契合。",
+  "abstract": "The high concentration of proteins and other biological macromolecules inside biomolecular condensates leads to dense and confined environments, which can affect the dynamic ensembles and the time-scales of the conformational transitions. Here we use atomistic molecular dynamics (MD) simulations of the intrinsically disordered low complexity domain (LCD) of the human fused in sarcoma (FUS) RNA-binding protein to study how self-crowding inside a condensate affects the dynamic motions of the protein. We found a heterogeneous retardation of the protein dynamics in the condensate with respect to the dilute phase, with large-amplitude motions being strongly slowed by up to two orders of magnitude, whereas small-scale motions, such as local backbone fluctuations and side-chain rotations, are less affected. The results support the notion of a liquid-like character of the condensates and show that different protein motions respond differently to the environment.",
+  "abstract_zh": "生物分子凝聚体内部蛋白质及其他生物大分子的高浓度导致形成致密且受限的环境，这可能影响动态系综及构象转变的时间尺度。在此，我们利用人源融合肉瘤（FUS）RNA结合蛋白的内在无序低复杂度结构域（LCD）的原子级分子动力学（MD）模拟，研究凝聚体内部的自拥挤如何影响蛋白质的动态运动。我们发现，与稀相相比，凝聚体中蛋白质动力学存在异质性延迟，大幅度运动被强烈减慢，最多可达两个数量级，而小尺度运动，如局部骨架波动和侧链旋转，受影响较小。结果支持凝聚体具有液体样特性的观点，并表明不同蛋白质运动对环境响应各异。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.15.603508",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.15.603508",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.15.603508/index.html"
+}

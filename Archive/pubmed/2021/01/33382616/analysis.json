@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33382616",
+  "title": "Conformational Preferences of an Intrinsically Disordered Protein Domain: A Case Study for Modern Force Fields.",
+  "authors": "Gopal, Srinivasa M; Wingbermuhle, Sebastian; Schnatwinkel, Jan; Juber, Selina; Herrmann, Christian; Schafer, Lars V",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-01-01",
+  "window": {
+    "start": "2020-12-28",
+    "end": "2021-01-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文系统评估多种现代力场对无序蛋白c-Myb在自由态及与KIX结合态构象系综的描述能力，聚焦耦合折叠与结合的机制建模，虽无AI方法但物理模拟方法扎实，对象与互作轴均命中。",
+  "abstract": "Molecular simulations of intrinsically disordered proteins (IDPs) are challenging because they require sampling a very large number of relevant conformations, corresponding to a multitude of shallow minima in a flat free energy landscape. However, in the presence of a binding partner, the free energy landscape of an IDP can be dominated by few deep minima. This characteristic imposes high demands on the accuracy of the force field used to describe the molecular interactions. Here, as a model system for an IDP that is unstructured in solution but folds upon binding to a structured interaction partner, the transactivation domain of c-Myb was studied both in the unbound (free) form and when bound to the KIX domain. Six modern biomolecular force fields were systematically tested and compared in terms of their ability to describe the structural ensemble of the IDP. The protein force field/water model combinations included in this study are AMBER ff99SB-disp with its corresponding water model that was derived from TIP4P-D, CHARMM36m with TIP3P, ff15ipq with SPC/E(b), ff99SB*-ILDNP with TIP3P and TIP4P-D, and FB15 with TIP3P-FB water. Comparing the results from REST2-enhanced sampling simulations with experimental CD spectra and secondary chemical shifts reveals that the ff99SB-disp force field can realistically capture the broad and mildly helical structural ensemble of free c-Myb. The structural ensembles yielded by CHARMM36m, ff99SB*-ILDNP together with TIP4P-D water, and FB15 are also mildly helical; however, each of these force fields can be assigned a specific subset of c-Myb residues for which the simulations could not reproduce the experimental secondary chemical shifts. In addition, microsecond-timescale MD simulations of the KIX/c-Myb complex show that most force fields used preserve a stable helix fold of c-Myb in the complex. Still, all force fields predict a KIX/c-Myb complex interface that differs slightly from the structures provided by NMR because several NOE-derived distances between KIX and c-Myb were exceeded in the simulations. Taken together, the ff99SB-disp force field in the first place but also CHARMM36m, ff99SB*-ILDNP together with TIP4P-D water, and FB15 can be suitable choices for future simulation studies of the coupled folding and binding mechanism of the KIX/c-Myb complex and potentially also other IDPs.",
+  "abstract_zh": "固有无序蛋白（IDPs）的分子模拟具有挑战性，因为它们需要采样大量相关构象，这些构象对应于平坦自由能景观中的众多浅极小值。然而，在存在结合伴侣的情况下，IDP的自由能景观可能由少数深极小值主导。这一特性对用于描述分子相互作用的力场精度提出了高要求。在此，以c-Myb的转录激活域作为模型系统，该IDP在溶液中无序，但在结合结构化相互作用伴侣时折叠，研究了其未结合（游离）形式及与KIX域结合时的状态。系统测试并比较了六种现代生物分子力场在描述该IDP结构系综方面的能力。本研究包含的蛋白质力场/水模型组合包括：AMBER ff99SB-disp及其相应水模型（源自TIP4P-D）、CHARMM36m与TIP3P、ff15ipq与SPC/E(b)、ff99SB*-ILDNP与TIP3P及TIP4P-D，以及FB15与TIP3P-FB水。将REST2增强采样模拟结果与实验CD光谱和二级化学位移进行比较，发现ff99SB-disp力场能真实捕捉游离c-Myb的宽泛且轻度螺旋的结构系综。CHARMM36m、ff99SB*-ILDNP与TIP4P-D水组合，以及FB15产生的结构系综也呈轻度螺旋；然而，这些力场各自可被分配至c-Myb残基的特定子集，在这些子集上模拟无法重现实验二级化学位移。此外，对KIX/c-Myb复合物的微秒级MD模拟表明，所用的大多数力场在复合物中保持了c-Myb的稳定螺旋折叠。尽管如此，所有力场预测的KIX/c-Myb复合物界面与NMR提供的结构略有不同，因为模拟中若干KIX与c-Myb之间的NOE衍生距离被超出。综合来看，ff99SB-disp力场为首选，但CHARMM36m、ff99SB*-ILDNP与TIP4P-D水组合，以及FB15也可作为未来研究KIX/c-Myb复合物偶联折叠与结合机制及其他潜在IDPs的合适选择。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33382616/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33382616/",
+  "paper_page_path": "papers/pubmed/33382616/index.html"
+}

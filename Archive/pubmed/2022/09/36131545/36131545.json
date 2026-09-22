@@ -1,0 +1,460 @@
+{
+  "identity": {
+    "pmid": "36131545",
+    "doi": "10.1016/j.bpj.2022.09.016",
+    "title": "Convergent views on disordered protein dynamics from NMR and computational approaches."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) or intrinsically disordered regions (IDRs) is a class of biologically important proteins exhibiting specific biophysical characteristics. They lack a hydrophobic core, and their conformational behavior is strongly influenced by electrostatic interactions. IDPs and IDRs are highly dynamic, and a characterization of the motions of IDPs and IDRs is essential for their physically correct description. NMR together with molecular dynamics simulations are the methods best suited to such a task because they provide information about dynamics of proteins with atomistic resolution. Here, we present a study of motions of a disordered C-terminal domain of the delta subunit of RNA polymerase from Bacillus subtilis. Positively and negatively charged residues in the studied domain form transient electrostatic contacts critical for the biological function. Our study is focused on investigation of ps-ns dynamics of backbone of the delta subunit based on analysis of amide (15)N NMR relaxation data and molecular dynamics simulations. In order to extend an informational content of NMR data to lower frequencies, which are more sensitive to slower motions, we combined standard (high-field) NMR relaxation experiments with high-resolution relaxometry. Altogether, we collected data reporting the relaxation at 12 different magnetic fields, resulting in an unprecedented data set. Our results document that the analysis of such data provides a consistent description of dynamics and confirms the validity of so far used protocols of the analysis of dynamics of IDPs also for a partially folded protein. In addition, the potential to access detailed description of motions at the timescale of tens of ns with the help of relaxometry data is discussed. Interestingly, in our case, it appears to be mostly relevant for a region involved in the formation of temporary contacts within the disordered region, which was previously proven to be biologically important.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Conformation",
+      "Magnetic Resonance Spectroscopy",
+      "Molecular Dynamics Simulation",
+      "DNA-Directed RNA Polymerases/chemistry",
+      "Amides"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Salvi, Nicola",
+        "Zapletal, Vojtech",
+        "Jasenakova, Zuzana",
+        "Zachrdla, Milan",
+        "Padrta, Petr",
+        "Narasimhan, Subhash",
+        "Marquardsen, Thorsten",
+        "Tyburn, Jean-Max",
+        "Zidek, Lukas",
+        "Blackledge, Martin",
+        "Ferrage, Fabien",
+        "Kaderavek, Pavel"
+      ],
+      "short_names": [
+        "Salvi N",
+        "Zapletal V",
+        "Jasenakova Z",
+        "Zachrdla M",
+        "Padrta P",
+        "Narasimhan S",
+        "Marquardsen T",
+        "Tyburn JM",
+        "Zidek L",
+        "Blackledge M",
+        "Ferrage F",
+        "Kaderavek P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institut de Biologie Structurale (IBS), CEA, CNRS, University Grenoble Alpes, Grenoble, France.",
+        "National Centre for Biomolecular Research, Faculty of Science and Central European Institute of Technology, Masaryk University, Brno, Czech Republic.",
+        "National Centre for Biomolecular Research, Faculty of Science and Central European Institute of Technology, Masaryk University, Brno, Czech Republic.",
+        "Laboratoire des Biomolecules, LBM, Departement de chimie, Ecole normale superieure, PSL University, Sorbonne Universite, CNRS, Paris, France.",
+        "Central European Institute of Technology, Masaryk University, Brno, Czech Republic.",
+        "National Centre for Biomolecular Research, Faculty of Science and Central European Institute of Technology, Masaryk University, Brno, Czech Republic.",
+        "Bruker BioSpin GmbH, Rheinstetten, Germany.",
+        "BioSpin, Wissembourg Cedex, France.",
+        "National Centre for Biomolecular Research, Faculty of Science and Central European Institute of Technology, Masaryk University, Brno, Czech Republic.",
+        "Institut de Biologie Structurale (IBS), CEA, CNRS, University Grenoble Alpes, Grenoble, France. Electronic address: martin.blackledge@ibs.fr.",
+        "Laboratoire des Biomolecules, LBM, Departement de chimie, Ecole normale superieure, PSL University, Sorbonne Universite, CNRS, Paris, France. Electronic address: fabien.ferrage@ens.psl.eu.",
+        "Central European Institute of Technology, Masaryk University, Brno, Czech Republic. Electronic address: pavel.kaderavek@mail.muni.cz."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Salvi, Nicola",
+        "short_name": "Salvi N",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biologie Structurale (IBS), CEA, CNRS, University Grenoble Alpes, Grenoble, France."
+        ]
+      },
+      {
+        "full_name": "Zapletal, Vojtěch",
+        "short_name": "Zapletal V",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Biomolecular Research, Faculty of Science and Central European Institute of Technology, Masaryk University, Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Jaseňáková, Zuzana",
+        "short_name": "Jaseňáková Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Biomolecular Research, Faculty of Science and Central European Institute of Technology, Masaryk University, Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Zachrdla, Milan",
+        "short_name": "Zachrdla M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire des Biomolécules, LBM, Département de chimie, École normale supérieure, PSL University, Sorbonne Université, CNRS, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Padrta, Petr",
+        "short_name": "Padrta P",
+        "identifiers": [],
+        "affiliations": [
+          "Central European Institute of Technology, Masaryk University, Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Narasimhan, Subhash",
+        "short_name": "Narasimhan S",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Biomolecular Research, Faculty of Science and Central European Institute of Technology, Masaryk University, Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Marquardsen, Thorsten",
+        "short_name": "Marquardsen T",
+        "identifiers": [],
+        "affiliations": [
+          "Bruker BioSpin GmbH, Rheinstetten, Germany."
+        ]
+      },
+      {
+        "full_name": "Tyburn, Jean-Max",
+        "short_name": "Tyburn JM",
+        "identifiers": [],
+        "affiliations": [
+          "BioSpin, Wissembourg Cedex, France."
+        ]
+      },
+      {
+        "full_name": "Žídek, Lukáš",
+        "short_name": "Žídek L",
+        "identifiers": [],
+        "affiliations": [
+          "National Centre for Biomolecular Research, Faculty of Science and Central European Institute of Technology, Masaryk University, Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Blackledge, Martin",
+        "short_name": "Blackledge M",
+        "identifiers": [],
+        "affiliations": [
+          "Institut de Biologie Structurale (IBS), CEA, CNRS, University Grenoble Alpes, Grenoble, France. Electronic address: martin.blackledge@ibs.fr."
+        ]
+      },
+      {
+        "full_name": "Ferrage, Fabien",
+        "short_name": "Ferrage F",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire des Biomolécules, LBM, Département de chimie, École normale supérieure, PSL University, Sorbonne Université, CNRS, Paris, France. Electronic address: fabien.ferrage@ens.psl.eu."
+        ]
+      },
+      {
+        "full_name": "Kadeřávek, Pavel",
+        "short_name": "Kadeřávek P",
+        "identifiers": [],
+        "affiliations": [
+          "Central European Institute of Technology, Masaryk University, Brno, Czech Republic. Electronic address: pavel.kaderavek@mail.muni.cz."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2022 Oct 18",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/23 06:00",
+    "fetched_at": "2026-09-20 15:14:51"
+  },
+  "links": {
+    "cites": [
+      "42168213",
+      "41009484",
+      "40783454",
+      "38476076",
+      "38409704",
+      "37146977",
+      "36671509"
+    ],
+    "refs": [
+      "35377637",
+      "33759077",
+      "32367806",
+      "32234674",
+      "31960224",
+      "31591893",
+      "31550880",
+      "31509419",
+      "31259246",
+      "30503534",
+      "30192142",
+      "29735687",
+      "29071460",
+      "28856783",
+      "28834051",
+      "27892567",
+      "27866371",
+      "27417269",
+      "27300592",
+      "27112095",
+      "26661739",
+      "26331256",
+      "25764013",
+      "25505092",
+      "25462944",
+      "25331250",
+      "24725176",
+      "24515886",
+      "24228712",
+      "23868186",
+      "23543716",
+      "20408171",
+      "19641854",
+      "19358609",
+      "18308599",
+      "18075575",
+      "16513739",
+      "15839707",
+      "15738986",
+      "12010044",
+      "11960483",
+      "11042057",
+      "10653785",
+      "8520220",
+      "7545758"
+    ],
+    "similar": [
+      "36131545",
+      "31960224",
+      "36579699",
+      "27112095",
+      "28834051",
+      "32585849",
+      "30184304",
+      "29157493",
+      "31550880",
+      "26661739",
+      "33810353",
+      "31591893",
+      "24008243",
+      "24515886",
+      "38275091",
+      "25207671",
+      "32929427",
+      "28111343",
+      "30840442",
+      "28780862",
+      "25771525",
+      "38087081",
+      "30813315",
+      "29071460",
+      "31259246",
+      "28095698",
+      "37146977",
+      "32074499",
+      "34390736",
+      "29763584",
+      "33945530",
+      "34680048",
+      "35053175",
+      "26331256",
+      "23868186",
+      "24671380",
+      "27288992",
+      "29341926",
+      "23912807",
+      "35744058",
+      "31613621",
+      "39353179",
+      "26387099",
+      "26387101",
+      "36551304",
+      "33355572",
+      "31756456",
+      "33411518",
+      "31441158",
+      "31709918",
+      "27844185",
+      "32859072",
+      "33779503",
+      "29705209",
+      "29790640",
+      "38707546",
+      "25261014",
+      "31241933",
+      "32824743",
+      "26387102",
+      "28554553",
+      "26411860",
+      "35934194",
+      "34626492",
+      "36833360",
+      "34656328",
+      "34032235",
+      "30471706",
+      "36641212",
+      "36083825",
+      "31877033",
+      "35920752",
+      "29808548",
+      "37108059",
+      "26387110",
+      "30407719",
+      "28493424",
+      "31297688",
+      "25919886",
+      "29548979",
+      "29151210",
+      "36416865",
+      "32239382",
+      "24763499",
+      "32367806",
+      "36827446",
+      "24656084",
+      "30979035",
+      "27300592",
+      "30306288",
+      "31809054",
+      "35245815",
+      "32579908",
+      "26195786",
+      "30527137",
+      "36178373",
+      "38118365",
+      "30802457",
+      "31617035",
+      "36084347",
+      "34543573",
+      "35129612",
+      "38942776",
+      "38230670",
+      "34285781",
+      "37990496",
+      "35562983",
+      "37831084",
+      "36774964",
+      "39089542",
+      "38569130",
+      "38251829",
+      "37904768",
+      "38242384",
+      "28894006",
+      "38712287",
+      "38112495",
+      "38547550",
+      "38365983",
+      "36133101",
+      "36778236",
+      "38771003",
+      "33831596",
+      "36209362",
+      "37905226",
+      "38127117",
+      "39370942",
+      "33901472",
+      "38048753",
+      "38830621",
+      "38915483",
+      "39248370",
+      "39279844",
+      "33184256",
+      "38616575",
+      "37797558",
+      "36409899",
+      "32268219",
+      "37609330",
+      "39005418",
+      "38622111"
+    ],
+    "review": [
+      "36131545",
+      "29157493",
+      "24008243",
+      "30840442",
+      "38087081",
+      "34390736",
+      "34680048",
+      "35053175",
+      "26387099",
+      "26387101",
+      "36551304",
+      "33355572",
+      "31441158",
+      "31709918",
+      "29705209",
+      "38707546",
+      "26387102",
+      "28554553",
+      "36833360",
+      "26387110",
+      "24656084",
+      "30979035",
+      "30527137",
+      "38118365",
+      "31617035",
+      "35129612",
+      "34285781",
+      "36133101",
+      "38048753"
+    ],
+    "pmc": [
+      "9674986"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(22)00766-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://hal.archives-ouvertes.fr/hal-03861375",
+        "provider": "HAL archives ouvertes - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36131545/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36131545",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

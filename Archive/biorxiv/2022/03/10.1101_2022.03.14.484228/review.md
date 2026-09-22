@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (Summary, Introduction, Results, Methods, Discussion, Figure legends, Supplementary figure legends) as provided in the preprint.
+- **Assessment boundary** Scientific content, technical soundness, and support of claims based solely on the provided text. No external validation of data or methods was performed.
+- **Shared manuscript claim summary** The manuscript identifies an acidic activation domain (AD) in the NUT portion of the BRD4-NUT oncogenic fusion protein that binds to the TAZ2 domain of p300. The authors propose that this interaction relieves TAZ2-mediated autoinhibition of p300's acetyltransferase activity, and that the resulting acetylation, combined with bromodomain (BD) multivalency, drives a self-organizing, acetylation-dependent feed-forward condensation reaction that enables long-range chromatin interactions.
+- **Visible evidence base** The provided text includes the Summary, Introduction, a partial Results section (with subsections on AD identification, TAZ2-NUT interaction, and condensation mechanism), a partial Methods section, and figure legends for Figures 1-6 and several supplementary figures. Specific data points, such as exact Kd values, are mentioned in the text.
+- **Missing materials affecting confidence** The full Results section is incomplete, with several subsections (e.g., "Condensation requires BD multivalency", "Dynamics of condensation") appearing as titles without their corresponding data and text. All main figures (Figures 1-7) and most supplementary figures (Figures S1-S6) are referenced but not provided. The Methods section is incomplete, lacking details for NMR, HADDOCK, cell biology, and microscopy experiments. This significantly limits the ability to fully assess the technical soundness of the work.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental and timely question in chromatin biology: how acetylation 'readers' and 'writers' cooperate to establish higher-order chromatin structure. The central hypothesis, that a NUT AD relieves TAZ2 autoinhibition of p300 and that the resulting acetylation drives a BD-dependent condensation reaction, is compelling and mechanistically plausible. The identification of a specific AD in NUT and the evidence for TAZ2 autoinhibition are potentially significant contributions. However, the manuscript in its current form is incomplete. The absence of key data, figures, and methods makes it impossible to rigorously evaluate the central claims, particularly those regarding the *in vivo* relevance of the proposed mechanism and the role of BD multivalency. The conceptual framework is strong, but the evidence base is currently insufficient to support the broad conclusions drawn.
+- **Who would be interested in the results, and why** This work will be of high interest to researchers in the fields of chromatin structure and function, gene regulation, epigenetics, and cancer biology. Specifically, those studying enhancer-promoter communication, 3D genome organization, the role of histone acetylation in transcriptional control, and the molecular mechanisms of oncogenic fusion proteins like BRD4-NUT will find the proposed model highly relevant. The potential general mechanism of TAZ2 autoinhibition and its relief by AD binding could have broad implications for understanding how numerous transcription factors regulate p300 activity.
+- **Major strengths**
+    1.  The central hypothesis is novel and conceptually important, proposing a unified mechanism linking p300 autoinhibition, AD-mediated activation, and BD-dependent chromatin condensation.
+    2.  The study integrates a wide range of techniques, from biophysical methods (NMR, SEC-MALS, BLI) to cell biology (confocal microscopy, FRAP) and biochemistry (in vitro acetylation assays), which is a strength if the data are fully presented.
+    3.  The identification of a specific, functional AD within NUT provides a concrete molecular handle for understanding the oncogenic mechanism of BRD4-NUT.
+    4.  The use of multiple inhibitors (A-485, JQ1, CBP30) to dissect the pathway is a logical and powerful approach.
+- **Major Concerns**
+    - **R1-M1**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Evidence Completeness
+        - **Claim pointer** The manuscript claims that "condensation depends on a feed-forward mechanism that involves allosteric activation of p300 by binding of NUT to the p300 TAZ2 domain, nucleation of the condensation reaction through BRD4 and p300 BD-acetyl-lysine binding and that BD multivalency is required."
+        - **Evidence pointer** Results sections "Condensation requires BD multivalency" and "Dynamics of condensation of BRD4-NUT and p300"; Figures 5, 6, and S5.
+        - **Concern** The Results sections that are central to the claim of a feed-forward condensation mechanism are presented only as titles. The corresponding data, figures, and detailed descriptions are missing from the provided manuscript. The text mentions results (e.g., Figure 5c, 5d, 5e) but the figures themselves are not available for review. This makes it impossible to evaluate the experimental design, controls, and quantitative data supporting the proposed mechanism.
+        - **Why it matters** The core conclusion of the paper rests on these experiments. Without the data, the claim that a self-organizing, acetylation-dependent feed-forward reaction drives long-range interactions is not supported by the evidence presented.
+        - **Resolution test** The full Results section, including all data for Figures 5, 6, and S5, must be provided. This should include representative images, quantitative analyses, and appropriate statistical tests to support the claims of condensation, its dependence on acetylation and BD binding, and the differential effects of BD1 vs BD2 mutations.
+    - **R1-M2**
+        - **Severity** Major
+        - **Blocking** Yes
+        - **Axis** Technical Soundness
+        - **Claim pointer** The manuscript claims that "the TAZ2 domain has an autoinhibitory role for p300" and that "NUT-TAZ2 interaction or mutations found in cancer that interfere with autoinhibition by TAZ2 allosterically activate p300."
+        - **Evidence pointer** Results section "The role of the TAZ2 domain in p300 regulation and substrate acetylation"; Figure 4.
+        - **Concern** The evidence for TAZ2 autoinhibition is based on a structural model (Figure 4a, 4b) and activity assays (Figure 4c, 4d). The structural model is derived from AlphaFold predictions, which are not experimentally validated. The activity assays are mentioned but the data are not shown. The claim that cancer mutations activate p300 by relieving autoinhibition requires direct experimental evidence, such as showing that these mutations increase p300 activity in the absence of a TAZ2 ligand.
+        - **Why it matters** The proposed mechanism of autoinhibition and its relief is a central pillar of the paper. If the structural model is inaccurate or the activity data are not robust, the entire model is weakened.
+        - **Resolution test** Provide the full data for the HAT assays (Figure 4c, 4d), including quantification and statistical analysis. The AlphaFold models should be clearly presented as models, and the key interactions should be validated by mutagenesis experiments that disrupt the predicted interface and affect p300 activity.
+    - **R1-M3**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Technical Soundness
+        - **Claim pointer** The manuscript claims that "the NUT AD is made up of subdomains that contain short amphipathic interaction motifs that synergise to enable high affinity binding."
+        - **Evidence pointer** Results section "TAZ2-NUT interaction"; Figures 3 and S3.
+        - **Concern** The conclusion that the AD is composed of synergistic subdomains is based on mutagenesis and binding assays (BLI, GST-pulldown). While the data are mentioned, the specific details of the mutants (e.g., mut1, mut2, mut3, mut4) and the quantitative binding data are not fully presented. The structural model from HADDOCK is based on sparse NMR data and may not be unique.
+        - **Why it matters** Understanding the molecular details of the NUT-TAZ2 interaction is important for the overall model. If the binding is not as synergistic as claimed, the model for how NUT activates p300 may need revision.
+        - **Resolution test** Provide the full BLI sensorgrams and binding curves for all mutants, with calculated Kd values and errors. The HADDOCK model should be presented with clear statistics and an assessment of its uniqueness.
+    - **R1-M4**
+        - **Severity** Major
+        - **Blocking** No
+        - **Axis** Scientific Importance / Overreach
+        - **Claim pointer** The Discussion states: "We argue that key aspects of these reactions involve modulation of an acetylation-dependent condensation reaction we describe here." and "TF-mediated recruitment and activation of p300 result in local histone and TF acetylation and establishment of positive feed-back through binding by BD containing proteins."
+        - **Evidence pointer** Discussion section.
+        - **Concern** The Discussion extrapolates the findings from the BRD4-NUT system to general mechanisms of enhancer function and 3D genome organization. While this is a valid and interesting speculation, it goes beyond the data presented, which are largely from an overexpressed oncogenic fusion protein in heterologous cells. The claim that this mechanism is a "key aspect" of normal enhancer signaling is not directly supported by the evidence.
+        - **Why it matters** Overstating the implications of the findings can mislead the field and diminish the impact of the solid, specific contributions of the paper.
+        - **Resolution test** The Discussion should be revised to clearly distinguish between the direct findings of this study and the broader, speculative implications. The authors should temper the language to state that the mechanism *may* be relevant to normal enhancer function, rather than asserting it as a key aspect.
+- **Minor Comments**
+    - **R1-m1**
+        - **Severity** Minor
+        - **Axis** Clarity and Reproducibility
+        - **Affected element** Methods section
+        - **Evidence pointer** Methods, "HAT assays"
+        - **Issue** The description of the HAT assays is brief. It is unclear how the "increasing amounts" of substrates were chosen and whether the assays were performed in a linear range for quantification.
+        - **Required correction** Provide more detail on the concentration ranges used, the number of replicates, and the method of quantification (e.g., phosphorimager analysis).
+    - **R1-m2**
+        - **Severity** Minor
+        - **Axis** Clarity and Reproducibility
+        - **Affected element** Results section "Identification of an acidic activation domain in NUT"
+        - **Evidence pointer** Figure 1c
+        - **Issue** The text states the NUT region is "predicted to be disordered, and negatively charged with modest propensity to self-aggregate." The specific bioinformatic tools used for these predictions are not mentioned.
+        - **Required correction** Cite the specific tools (e.g., IUPred, PONDR, CIDER) used for the disorder, charge, and aggregation predictions.
+    - **R1-m3**
+        - **Severity** Minor
+        - **Axis** Data Presentation
+        - **Affected element** Figure 5c
+        - **Evidence pointer** Figure 5c legend
+        - **Issue** The legend mentions quantification in Tables S4 and S5, but these tables are not provided. The criteria for classifying a cell as having "condensates" should be defined.
+        - **Required correction** Provide the tables and define the scoring criteria for condensation in the legend or Methods.
+    - **R1-m4**
+        - **Severity** Minor
+        - **Axis** Data Presentation
+        - **Affected element** Figure 6
+        - **Evidence pointer** Figure 6 legend
+        - **Issue** The FRAP analysis is described, but the number of biological replicates and the statistical test used are not mentioned in the legend.
+        - **Required correction** State the number of independent experiments and the statistical test used for comparing recovery rates.
+    - **R1-m5**
+        - **Severity** Minor
+        - **Axis** Clarity
+        - **Affected element** Introduction
+        - **Evidence pointer** Introduction, paragraph 1
+        - **Issue** The term "condensation" is used to describe the formation of nuclear foci and droplets. This could be confused with the condensation of chromosomes during mitosis. A more specific term, such as "phase-separated condensates" or "nuclear foci," might be clearer.
+        - **Required correction** Define the term "condensation" clearly upon first use and consider using more specific terminology throughout.
+    - **R1-m6**
+        - **Severity** Minor
+        - **Axis** Data Presentation
+        - **Affected element** Figure 2
+        - **Evidence pointer** Figure 2 legend
+        - **Issue** The legend for Figure 2d and 2e refers to a structural model, but the quality of the model (e.g., RMSD, Ramachandran statistics) is not reported.
+        - **Required correction** Provide the relevant structural statistics for the HADDOCK model in Table S2, as mentioned in the text.
+
+## Risk / unsupported claims
+- The claim that "condensation depends on a feed-forward mechanism... and that BD multivalency is required" is unsupported as the corresponding data (Figures 5, 6, S5) are missing.
+- The claim that "the TAZ2 domain has an autoinhibitory role" is partially supported by the activity data mentioned, but the structural basis for this is based on unvalidated AlphaFold models.
+- The claim that "mutations found in cancer that interfere with autoinhibition by TAZ2 allosterically activate p300" is mentioned but the specific data for these cancer mutants are not shown.
+- The broad implications for normal enhancer function and 3D genome organization discussed in the Discussion are speculative and not directly supported by the data presented.
+- The statement that "the NUT AD is made up of subdomains that contain short amphipathic interaction motifs that synergise" is a reasonable interpretation but the quantitative evidence for synergy is not fully presented.

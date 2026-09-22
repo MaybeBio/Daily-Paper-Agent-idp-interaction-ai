@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.26.501505",
+  "title": "The highly conserved RNA-binding specificity of nucleocapsid protein facilitates the identification of drugs with broad anti-coronavirus activity",
+  "authors": "Fan S; Sun W; Fan L; Wu N; Sun W; Ma H; Chen S; Li Z; Li Y; Zhang J; Yan J",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-26",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过HTR-SELEX解析冠状病毒核衣壳蛋白的RNA结合特异性，聚焦病毒基因组包装机制，但对象为RNA-蛋白互作而非无序蛋白介导的PPI，且方法为实验筛选而非AI/物理模拟，与本课题关联较弱。",
+  "abstract": "The binding of SARS-CoV-2 nucleocapsid (N) protein to both the 5′- and 3′-ends of genomic RNA has different implications arising from its binding to the central region during virion assembly. However, the mechanism underlying selective binding remains unknown. Herein, we performed the high-throughput RNA-SELEX (HTR-SELEX) to determine the RNA-binding specificity of the N proteins of various SARS-CoV-2 variants as well as other β-coronaviruses and showed that N proteins could bind two unrelated sequences, both of which were highly conserved across all variants and species. Interestingly, both these sequence motifs are virtually absent from the human transcriptome; however, they exhibit a highly enriched, mutually complementary distribution in the coronavirus genome, highlighting their varied functions in genome packaging. Our results provide mechanistic insights into viral genome packaging, thereby increasing the feasibility of developing drugs with broad-spectrum anti-coronavirus activity by targeting RNA binding by N proteins.",
+  "abstract_zh": "SARS-CoV-2核衣壳（N）蛋白与基因组RNA的5′-和3′-末端结合，与其在病毒粒子组装过程中与中央区域结合相比，具有不同的意义。然而，选择性结合的机制仍未知。在此，我们进行了高通量RNA-SELEX（HTR-SELEX）以确定多种SARS-CoV-2变异株及其他β-冠状病毒N蛋白的RNA结合特异性，并表明N蛋白能够结合两种不相关的序列，这两种序列在所有变异株和物种中均高度保守。有趣的是，这两个序列基序在人类转录组中几乎完全缺失；然而，它们在冠状病毒基因组中表现出高度富集且相互互补的分布，突显了它们在基因组包装中的不同功能。我们的结果为病毒基因组包装提供了机制性见解，从而增加了通过靶向N蛋白的RNA结合来开发具有广谱抗冠状病毒活性药物的可行性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.26.501505",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.26.501505",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.26.501505/index.html"
+}

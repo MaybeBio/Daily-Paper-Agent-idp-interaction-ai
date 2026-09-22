@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.03.11.584374",
+  "title": "Separate domains of the Arabidopsis ENHANCER OF PINOID drive its own polarization and recruit PIN1 to the plasma membrane",
+  "authors": "Matthes MS; Yun N; Luichtl M; Büschges U; Fiesselmann BS; Strickland B; Lehnardt MS; Ruiz RAT",
+  "journal": "bioRxiv",
+  "published_date": "2024-03-13",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合AlphaFold预测与FLIM-FRET实验，揭示拟南芥ENP蛋白的IDR区域介导其与PIN1的互作并调控极性，属于IDR介导PPI机制建模，虽非相分离背景但方法可迁移。",
+  "abstract": "The Arabidopsis ENHANCER OF PINOID (ENP) protein and the AGC-kinase PINOID (PID) synergistically impact on polarization of the auxin transporter PIN-FORMED1 (PIN1) required for plant leaf and flower organ development. ENP offers a PID-independent input for PIN-polarity since enp pid double mutants lead to cotyledon- and flower-less plants in contrast to pid single mutants, which develop cotyledons and abnormal albeit fertile flowers. This indicated that ENP, which depicts a similar polar localization as PIN1, is a potential interactor of PINs especially PIN1. Here we show that the modular structure of ENP predicted by AlphaFold separates the capability for its own cellular polarization and its function linked to polar PIN1 activity. The anterior part of ENP is subdivided into three structured domains. They are supportive and/or essential for cellular polarity. In contrast, the C-terminus, which is an intrinsically disordered region (IDR), is completely dispensable for polarity but essential for ENP-mediated PIN-function. FLIM-FRET shows ENP to be closely associated with the plasma membrane and its IDR to significantly interact with PINs. Moreover, the modification status of two prominent phosphorylation sites in the IDR determines ENPs stability and its capability in supporting PIN1. Our results show ENP to be an element in the assumed PIN-multiprotein complex and explain its impact on PID-independent PIN1 activity.",
+  "abstract_zh": "拟南芥ENHANCER OF PINOID (ENP)蛋白与AGC激酶PINOID (PID)协同影响生长素转运蛋白PIN-FORMED1 (PIN1)的极性定位，该定位是植物叶片和花器官发育所必需的。ENP为PIN极性提供了一条不依赖PID的输入途径，因为enp pid双突变体导致无子叶和无花的植株，而pid单突变体则能发育出子叶及异常但可育的花。这表明，ENP（其极性定位与PIN1相似）是PINs（尤其是PIN1）的潜在相互作用因子。在此，我们展示AlphaFold预测的ENP模块化结构将其自身细胞极性化的能力与其与极性PIN1活性相关的功能区分开来。ENP的前端部分细分为三个结构化结构域，它们对细胞极性起支持性和/或必需性作用。相比之下，C端是一个内在无序区域 (intrinsically disordered region, IDR)，对极性完全非必需，但对ENP介导的PIN功能至关重要。FLIM-FRET显示ENP与质膜紧密关联，且其IDR与PINs显著相互作用。此外，IDR中两个显著磷酸化位点的修饰状态决定了ENP的稳定性及其支持PIN1的能力。我们的结果表明，ENP是假定的PIN多蛋白复合体中的一个元件，并解释了其对不依赖PID的PIN1活性的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.03.11.584374",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.03.11.584374",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.03.11.584374/index.html"
+}

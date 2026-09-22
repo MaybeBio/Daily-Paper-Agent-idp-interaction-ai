@@ -1,0 +1,429 @@
+{
+  "identity": {
+    "pmid": "38056002",
+    "doi": "10.1021/acs.jpclett.3c02790",
+    "title": "Liquid-Liquid Phase Separation of the Intrinsically Disordered Domain of the Fused in Sarcoma Protein Results in Substantial Slowing of Hydration Dynamics."
+  },
+  "content": {
+    "abstract": "Formation of liquid condensates plays a critical role in biology via localization of different components or via altered hydrodynamic transport, yet the hydrogen-bonding environment within condensates, pivotal for solvation, has remained elusive. We explore the hydrogen-bond dynamics within condensates formed by the low-complexity domain of the fused in sarcoma protein. Probing the hydrogen-bond dynamics sensed by condensate proteins using two-dimensional infrared spectroscopy of the protein amide I vibrations, we find that frequency-frequency correlations of the amide I vibration decay on a picosecond time scale. Interestingly, these dynamics are markedly slower for proteins in the condensate than in a homogeneous protein solution, indicative of different hydration dynamics. All-atom molecular dynamics simulations confirm that lifetimes of hydrogen-bonds between water and the protein are longer in the condensates than in the protein in solution. Altered hydrogen-bonding dynamics may contribute to unique solvation and reaction dynamics in such condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Proteins",
+      "Amides",
+      "Hydrogen",
+      "*Sarcoma"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Krevert, Carola S",
+        "Chavez, Daniel",
+        "Chatterjee, Sayantan",
+        "Stelzl, Lukas S",
+        "Putz, Sabine",
+        "Roeters, Steven J",
+        "Rudzinski, Joseph F",
+        "Fawzi, Nicolas L",
+        "Girard, Martin",
+        "Parekh, Sapun H",
+        "Hunger, Johannes"
+      ],
+      "short_names": [
+        "Krevert CS",
+        "Chavez D",
+        "Chatterjee S",
+        "Stelzl LS",
+        "Putz S",
+        "Roeters SJ",
+        "Rudzinski JF",
+        "Fawzi NL",
+        "Girard M",
+        "Parekh SH",
+        "Hunger J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5348-0277",
+        "ORCID: 0000-0003-3238-2181",
+        "ORCID: 0000-0003-3403-640X",
+        "ORCID: 0000-0001-5483-0577",
+        "ORCID: 0000-0003-2051-6218",
+        "ORCID: 0000-0001-8522-1854",
+        "ORCID: 0000-0002-4419-5220"
+      ],
+      "affiliations": [
+        "Department of Molecular Spectroscopy, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany.",
+        "Department of Polymer Theory, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany.",
+        "Department of Molecular Spectroscopy, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany.",
+        "Department of Biomedical Engineering, The University of Texas at Austin, 107 West Dean Keeton Street, Stop C0800, Austin, Texas 78712, United States.",
+        "KOMET 1, Institute of Physics, Johannes Gutenberg University, Staudingerweg 7, 55099 Mainz, Germany.",
+        "Faculty of Biology, Johannes Gutenberg University Mainz, Gresemundweg 2, 55128 Mainz, Germany.",
+        "Institute of Molecular Biology (IMB), Ackermannweg 2, 55128 Mainz, Germany.",
+        "Department of Molecular Spectroscopy, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany.",
+        "Department of Chemistry, Aarhus University, Langelandsgade 140, 8000 Aarhus C, Denmark.",
+        "Department of Anatomy and Neurosciences, Amsterdam UMC, Vrije Universiteit, De Boelelaan 1108, 1081 HZ Amsterdam, The Netherlands.",
+        "Department of Polymer Theory, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany.",
+        "IRIS Adlershof, Humboldt-Universitat zu Berlin, Zum Grossen Windkanal 2, 12489 Berlin, Germany.",
+        "Department of Molecular Biology, Cell Biology, and Biochemistry, Brown University, 70 Ship Street, Providence, Rhode Island 02912, United States.",
+        "Department of Polymer Theory, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany.",
+        "Department of Molecular Spectroscopy, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany.",
+        "Department of Biomedical Engineering, The University of Texas at Austin, 107 West Dean Keeton Street, Stop C0800, Austin, Texas 78712, United States.",
+        "Department of Molecular Spectroscopy, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Krevert, Carola S",
+        "short_name": "Krevert CS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Spectroscopy, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Chavez, Daniel",
+        "short_name": "Chavez D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Polymer Theory, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Chatterjee, Sayantan",
+        "short_name": "Chatterjee S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Spectroscopy, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany.",
+          "Department of Biomedical Engineering, The University of Texas at Austin, 107 West Dean Keeton Street, Stop C0800, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Stelzl, Lukas S",
+        "short_name": "Stelzl LS",
+        "identifiers": [
+          "0000-0002-5348-0277"
+        ],
+        "affiliations": [
+          "KOMET 1, Institute of Physics, Johannes Gutenberg University, Staudingerweg 7, 55099 Mainz, Germany.",
+          "Faculty of Biology, Johannes Gutenberg University Mainz, Gresemundweg 2, 55128 Mainz, Germany.",
+          "Institute of Molecular Biology (IMB), Ackermannweg 2, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Pütz, Sabine",
+        "short_name": "Pütz S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Spectroscopy, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Roeters, Steven J",
+        "short_name": "Roeters SJ",
+        "identifiers": [
+          "0000-0003-3238-2181"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Aarhus University, Langelandsgade 140, 8000 Aarhus C, Denmark.",
+          "Department of Anatomy and Neurosciences, Amsterdam UMC, Vrije Universiteit, De Boelelaan 1108, 1081 HZ Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Rudzinski, Joseph F",
+        "short_name": "Rudzinski JF",
+        "identifiers": [
+          "0000-0003-3403-640X"
+        ],
+        "affiliations": [
+          "Department of Polymer Theory, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany.",
+          "IRIS Adlershof, Humboldt-Universität zu Berlin, Zum Großen Windkanal 2, 12489 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Fawzi, Nicolas L",
+        "short_name": "Fawzi NL",
+        "identifiers": [
+          "0000-0001-5483-0577"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology, Cell Biology, and Biochemistry, Brown University, 70 Ship Street, Providence, Rhode Island 02912, United States."
+        ]
+      },
+      {
+        "full_name": "Girard, Martin",
+        "short_name": "Girard M",
+        "identifiers": [
+          "0000-0003-2051-6218"
+        ],
+        "affiliations": [
+          "Department of Polymer Theory, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Parekh, Sapun H",
+        "short_name": "Parekh SH",
+        "identifiers": [
+          "0000-0001-8522-1854"
+        ],
+        "affiliations": [
+          "Department of Molecular Spectroscopy, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany.",
+          "Department of Biomedical Engineering, The University of Texas at Austin, 107 West Dean Keeton Street, Stop C0800, Austin, Texas 78712, United States."
+        ]
+      },
+      {
+        "full_name": "Hunger, Johannes",
+        "short_name": "Hunger J",
+        "identifiers": [
+          "0000-0002-4419-5220"
+        ],
+        "affiliations": [
+          "Department of Molecular Spectroscopy, Max Planck Institute for Polymer Research, Ackermannweg 10, 55128 Mainz, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2023 Dec 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/06 18:42",
+    "fetched_at": "2026-09-21 03:16:20"
+  },
+  "links": {
+    "cites": [
+      "42403045",
+      "42376920",
+      "42261607",
+      "41542481",
+      "40880224",
+      "40830340",
+      "40614690",
+      "39591652",
+      "39486437",
+      "39437793",
+      "39388385",
+      "38580324"
+    ],
+    "refs": [
+      "37723164",
+      "37672685",
+      "37515326",
+      "37231298",
+      "36745512",
+      "36703474",
+      "36697920",
+      "35968816",
+      "35112738",
+      "34862761",
+      "34785657",
+      "34759379",
+      "34491037",
+      "34164013",
+      "33515602",
+      "33367441",
+      "33307683",
+      "33302617",
+      "32921055",
+      "32824618",
+      "32096510",
+      "31784535",
+      "31456282",
+      "31270472",
+      "30682370",
+      "30608810",
+      "29735687",
+      "29364893",
+      "29026086",
+      "28790177",
+      "28248491",
+      "27339434",
+      "27299801",
+      "26619985",
+      "26616351",
+      "26580045",
+      "26575938",
+      "26455390",
+      "26317470",
+      "26262494",
+      "26071731",
+      "26015579",
+      "25774711",
+      "24164089",
+      "24163724",
+      "23566310",
+      "23407358",
+      "21966585",
+      "20607691",
+      "19351162",
+      "19256572",
+      "18754632",
+      "18288813",
+      "17569554",
+      "16852342",
+      "16851862",
+      "16851775",
+      "16494351",
+      "16311331",
+      "16040800",
+      "15974713",
+      "3541539"
+    ],
+    "similar": [
+      "38056002",
+      "37735186",
+      "28510458",
+      "19425543",
+      "35179885",
+      "34862761",
+      "36219826",
+      "19585982",
+      "35943083",
+      "30633268",
+      "35297101",
+      "38416758",
+      "35001626",
+      "37672685",
+      "36524527",
+      "28924037",
+      "34487489",
+      "32866390",
+      "33464100",
+      "19026071",
+      "23912807",
+      "36798393",
+      "26191969",
+      "18288813",
+      "32559329",
+      "21241132",
+      "38061016",
+      "24571104",
+      "34869607",
+      "37468629",
+      "35490020",
+      "30759344",
+      "26049426",
+      "31448608",
+      "38798623",
+      "27023758",
+      "37034777",
+      "35918061",
+      "30514760",
+      "29677513",
+      "27537202",
+      "37293933",
+      "36412795",
+      "34598583",
+      "36015451",
+      "36273579",
+      "31017394",
+      "36502125",
+      "28593765",
+      "22462868",
+      "18247601",
+      "22530969",
+      "30791483",
+      "26125325",
+      "31042039",
+      "34636323",
+      "37155880",
+      "19663683",
+      "37957147",
+      "34142827",
+      "34500836",
+      "21417263",
+      "37604044",
+      "36449075",
+      "18754632",
+      "36993212",
+      "34102212",
+      "31260322",
+      "35325654",
+      "31444270",
+      "31783713",
+      "18491881",
+      "37231298",
+      "34491037",
+      "35900106",
+      "34986640",
+      "32696384",
+      "35902591",
+      "32822449",
+      "33376791"
+    ],
+    "review": [
+      "38056002",
+      "19425543",
+      "35179885",
+      "36524527",
+      "18288813",
+      "34869607",
+      "27023758",
+      "36502125",
+      "19663683",
+      "37604044"
+    ],
+    "pmc": [
+      "10726384"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.jpclett.3c02790",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/softtissuesarcoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Soft Tissue Sarcoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38056002/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38056002",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38056002",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.3c02790",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37883249",
+  "title": "Accurate and Fast Prediction of Intrinsically Disordered Protein by Multiple Protein Language Models and Ensemble Learning.",
+  "authors": "Xu, Shijie; Onoda, Akira",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2023-10-26",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用多种蛋白质语言模型和集成学习预测无序蛋白/无序区域及其功能（如结合），对象和方法均相关，但聚焦于无序区域预测而非PPI互作机制建模，故评分为6。",
+  "abstract": "Intrinsically disordered proteins (IDPs) play a vital role in various biological processes and have attracted increasing attention in the past few decades. Predicting IDPs from the primary structures of proteins offers a rapid and facile means of protein analysis without necessitating crystal structures. In particular, machine learning methods have demonstrated their potential in this field. Recently, protein language models (PLMs) are emerging as a promising approach to extracting essential information from protein sequences and have been employed in protein modeling to utilize their advantages of precision and efficiency. In this article, we developed a novel IDP prediction method named IDP-ELM to predict the intrinsically disordered regions (IDRs) as well as their functions including disordered flexible linkers and disordered protein binding. This method utilizes high-dimensional representations extracted from several state-of-the-art PLMs and predicts IDRs by ensemble learning based on bidirectional recurrent neural networks. The performance of the method was evaluated on two independent test data sets from CAID (critical assessment of protein intrinsic disorder prediction) and CAID2, indicating notable improvements in terms of area under the receiver operating characteristic (AUC), Matthew's correlation coefficient (MCC), and F1 score. Moreover, IDP-ELM requires solely protein sequences as inputs and does not entail a time-consuming process of protein profile generation, which is a prerequisite for most existing state-of-the-art methods, enabling an accurate, fast, and convenient tool for proteome-level analysis. The corresponding reproducible source code and model weights are available at https://github.com/xu-shi-jie/idp-elm.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在多种生物过程中发挥关键作用，并在过去几十年中引起了越来越多的关注。从蛋白质的一级结构预测IDPs提供了一种快速简便的蛋白质分析方法，无需晶体结构。特别是，机器学习方法在这一领域展示了其潜力。近年来，蛋白质语言模型 (protein language models, PLMs) 正成为一种从蛋白质序列中提取关键信息的有前景方法，并已被应用于蛋白质建模，以利用其精确性和高效性的优势。在本文中，我们开发了一种名为IDP-ELM的新型IDP预测方法，用于预测内在无序区域 (intrinsically disordered regions, IDRs) 及其功能，包括无序柔性连接子和无序蛋白质结合。该方法利用从多个最先进的PLMs中提取的高维表示，并通过基于双向循环神经网络的集成学习来预测IDRs。该方法的性能在来自CAID (critical assessment of protein intrinsic disorder prediction) 和CAID2的两个独立测试数据集上进行了评估，结果显示在接收者操作特征曲线下面积 (AUC)、马修斯相关系数 (MCC) 和F1分数方面均有显著提升。此外，IDP-ELM仅需蛋白质序列作为输入，无需耗时的蛋白质谱生成过程，而这一过程是大多数现有最先进方法的前提条件，从而为蛋白质组水平分析提供了一种准确、快速且便捷的工具。相应的可复现源代码和模型权重可在 https://github.com/xu-shi-jie/idp-elm 获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37883249/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37883249/",
+  "paper_page_path": "papers/pubmed/37883249/index.html"
+}

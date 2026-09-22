@@ -1,0 +1,294 @@
+{
+  "identity": {
+    "pmid": "42035258",
+    "doi": "10.1016/j.bpj.2026.04.024",
+    "title": "An optimized contact map for GoMartini 3 enabling conformational changes in protein assemblies."
+  },
+  "content": {
+    "abstract": "Advances in structural biology, particularly cryo-electron microscopy, have enabled high-resolution characterization of complex protein assemblies. These developments underscore the need for computational approaches capable of describing biologically relevant conformational changes over extended timescales. GoMartini 3 is a coarse-grained approach that demonstrates computational efficiency and versatility across several systems, from membrane-binding proteins and soluble proteins to intrinsically disordered proteins, while preserving key physicochemical features. In this work, we introduce an optimized approach that integrates dynamic contact information from all-atom molecular dynamics (AA-MD) simulations to refine the contact map in GoMartini simulations and select the AA-MD structure consistent with the refined map. Specifically, we define high-frequency contacts, which reduce the number of original Go contact set by  approximately 20%-30%, thereby improving the representation of conformational states beyond the original approach in Martini 3. Benchmarking different contact selection criteria revealed that including intra- and interchain high-frequency contacts in protein assemblies captures structural flexibility and domain dynamics. The method was tested on single-chain globular proteins and on the SARS-CoV-2 spike protein. Overall, the optimized contact map improves sampling efficiency and expands the accessible conformational landscape. The full framework is available as an open-source tool for large-scale simulations of protein assemblies.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "*Proteins/chemistry",
+      "SARS-CoV-2/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Olivos-Ramirez, Gustavo E",
+        "Cofas-Vargas, Luis F",
+        "Marrink, Siewert J",
+        "Poma, Adolfo B"
+      ],
+      "short_names": [
+        "Olivos-Ramirez GE",
+        "Cofas-Vargas LF",
+        "Marrink SJ",
+        "Poma AB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Biosystems and Soft Matter Division, Institute of Fundamental Technological Research, Polish Academy of Sciences, ul. Pawinskiego 5B, 02-106, Warsaw, Poland.",
+        "Biosystems and Soft Matter Division, Institute of Fundamental Technological Research, Polish Academy of Sciences, ul. Pawinskiego 5B, 02-106, Warsaw, Poland; Departamento de Quimica, Universidad Autonoma Metropolitana-Iztapalapa, Mexico City, Mexico.",
+        "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, the Netherlands.",
+        "Biosystems and Soft Matter Division, Institute of Fundamental Technological Research, Polish Academy of Sciences, ul. Pawinskiego 5B, 02-106, Warsaw, Poland. Electronic address: apoma@ippt.pan.pl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Olivos-Ramirez, Gustavo E",
+        "short_name": "Olivos-Ramirez GE",
+        "identifiers": [],
+        "affiliations": [
+          "Biosystems and Soft Matter Division, Institute of Fundamental Technological Research, Polish Academy of Sciences, ul. Pawińskiego 5B, 02-106, Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Cofas-Vargas, Luis F",
+        "short_name": "Cofas-Vargas LF",
+        "identifiers": [],
+        "affiliations": [
+          "Biosystems and Soft Matter Division, Institute of Fundamental Technological Research, Polish Academy of Sciences, ul. Pawińskiego 5B, 02-106, Warsaw, Poland; Departamento de Química, Universidad Autónoma Metropolitana-Iztapalapa, Mexico City, Mexico."
+        ]
+      },
+      {
+        "full_name": "Marrink, Siewert J",
+        "short_name": "Marrink SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Groningen, the Netherlands."
+        ]
+      },
+      {
+        "full_name": "Poma, Adolfo B",
+        "short_name": "Poma AB",
+        "identifiers": [],
+        "affiliations": [
+          "Biosystems and Soft Matter Division, Institute of Fundamental Technological Research, Polish Academy of Sciences, ul. Pawińskiego 5B, 02-106, Warsaw, Poland. Electronic address: apoma@ippt.pan.pl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Jun 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/26 06:38",
+    "fetched_at": "2026-09-18 02:46:05"
+  },
+  "links": {
+    "cites": [
+      "42302153"
+    ],
+    "refs": [
+      "41739654",
+      "41263305",
+      "41231767",
+      "40544328",
+      "40359486",
+      "40307210",
+      "40175561",
+      "40128232",
+      "39351797",
+      "39235392",
+      "39189419",
+      "38447049",
+      "38291973",
+      "38000367",
+      "37856311",
+      "37529288",
+      "36647365",
+      "34848718",
+      "34253022",
+      "33782608",
+      "33782607",
+      "33255977",
+      "33140034",
+      "32962386",
+      "32113133",
+      "28746339",
+      "28722007",
+      "28195464",
+      "27333362",
+      "26723590",
+      "26621095",
+      "26616630",
+      "26574453",
+      "26574392",
+      "25544475",
+      "22034434",
+      "19548705",
+      "17569554",
+      "17383173",
+      "17212484",
+      "16249344",
+      "10592235",
+      "9402065",
+      "6667333",
+      "3041007"
+    ],
+    "similar": [
+      "42035258",
+      "23912807",
+      "42475469",
+      "40307210",
+      "41326937",
+      "41851975",
+      "41088757",
+      "39349594",
+      "40359486",
+      "35163572",
+      "34845619",
+      "33448856",
+      "41739654",
+      "38869513",
+      "41325725",
+      "40137759",
+      "41652163",
+      "41738539",
+      "39709776",
+      "39471972",
+      "35679397",
+      "37000187",
+      "37279354",
+      "38118364",
+      "40339149",
+      "42589282",
+      "41556442",
+      "40673918",
+      "42657169",
+      "30404229",
+      "28195464",
+      "40962313",
+      "25659594",
+      "40960922",
+      "38430110",
+      "25099811",
+      "19800974",
+      "41236412",
+      "38928405",
+      "32786508",
+      "38732174",
+      "42286058",
+      "26327565",
+      "37165855",
+      "33577557",
+      "31793290",
+      "41129692",
+      "36346589",
+      "39235392",
+      "34864296",
+      "40129029",
+      "29204882",
+      "40179097",
+      "33170884",
+      "34680048",
+      "28949136",
+      "40907012",
+      "34060425",
+      "42302153",
+      "30840442",
+      "41554569",
+      "41101376",
+      "40750749",
+      "36321557",
+      "38018910",
+      "31106328",
+      "40188940",
+      "21830782",
+      "24048570",
+      "19843465",
+      "19754142",
+      "42129207",
+      "38447049",
+      "32833550",
+      "33693028",
+      "38960299",
+      "41346034",
+      "37134270",
+      "30234303",
+      "15959866",
+      "35147419",
+      "36774359",
+      "41984823",
+      "42345087",
+      "31375023",
+      "42302372",
+      "38048753",
+      "39273672",
+      "39340152",
+      "32621235",
+      "21905106",
+      "30708941",
+      "40011543",
+      "34655449",
+      "39754120",
+      "39066727",
+      "33180485",
+      "40842437",
+      "40663537",
+      "38864493"
+    ],
+    "review": [
+      "42035258",
+      "41326937",
+      "41652163",
+      "38118364",
+      "30404229",
+      "31793290",
+      "29204882",
+      "40179097",
+      "34680048",
+      "30840442",
+      "41101376",
+      "36321557",
+      "21830782",
+      "31375023",
+      "38048753",
+      "39273672"
+    ],
+    "pmc": [
+      "13351852"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(26)00310-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42035258/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and data availability statement. Figures and supplementary materials referenced but not provided.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with stated conclusions. Not assessed: editorial style, formatting, or journal fit beyond general Nature-style criteria.
+- **Shared manuscript claim summary** The authors present a high-throughput method combining cysteine scanning mutagenesis with chemical labeling and yeast surface display to map protein-protein interaction interfaces in intrinsically disordered regions, applied to three Mycobacterium tuberculosis MazEF toxin-antitoxin systems. They report identification of interfacial residues, inference of bound secondary structure from mutational periodicity, and comparison with AlphaFold2 predictions, claiming superior accuracy for their experimental approach.
+- **Visible evidence base** Full text of methods and results, including quantitative data for Tm values, KD values, sensitivity/accuracy calculations, and sequence conservation analyses. Figures referenced but not viewable. Supplementary tables referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-7, Supplementary Figures S1-S10, Supplementary Tables S1-S10, deep sequencing raw data, and the crystal structure comparison details are not available to the reviewer. This limits verification of key claims regarding interface identification, structural inference, and comparative accuracy.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a technically interesting approach with potential utility for mapping interaction interfaces in intrinsically disordered proteins. The application to three MazEF systems is systematic, and the validation against a crystal structure for MazEF9 is a valuable control. However, several claims exceed what the presented evidence supports, particularly regarding the accuracy comparison with AlphaFold2 and the generalizability of the method. The absence of key figures and supplementary data prevents full verification of the central conclusions. The work is likely of interest to the structural biology and toxin-antitoxin communities, but the case for broad applicability and superiority over computational methods is not fully established from the provided material.
+- **Who would be interested in the results, and why** Structural biologists studying protein-protein interactions, particularly those involving intrinsically disordered regions, would find the experimental approach relevant. Researchers working on Mycobacterium tuberculosis toxin-antitoxin systems would value the interaction data for MazEF3, MazEF6, and MazEF9. Methodologists developing high-throughput interaction mapping techniques may also be interested, though they would require more rigorous benchmarking than currently presented.
+- **Major strengths** The experimental design is logical and integrates multiple complementary techniques (YSD, chemical labeling, deep sequencing, MST, nanoDSF, SEC-MALS). The validation against a crystal structure for MazEF9 provides an objective benchmark. The inference of secondary structure from mutational periodicity is an innovative analytical approach. The inclusion of in vivo experiments in M. smegmatis adds functional relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim their cysteine scan DMS experimental data "can add considerable value to structure prediction efforts" and that their method is "much more sensitive and accurate than predictions from AlphaFold2" for the MazEF9 complex.
+  - **Evidence pointer** Results section "Interface identification from DMS-cysteine labeling is more accurate than AlphaFold2 for MazEF9"; Table 1; Figures 5-6 (not viewable)
+  - **Concern** The accuracy comparison with AlphaFold2 is based on a single complex (MazEF9) and uses sensitivity/accuracy metrics that are not fully defined in the text. The claim of superiority is stated strongly, but the statistical significance of the difference is not assessed. The authors acknowledge AlphaFold2 had limitations due to few homologs, which is a known confounder, but they do not discuss whether their method would outperform AlphaFold2 in cases with abundant homologs. The comparison is therefore not generalizable.
+  - **Why it matters** The central novelty of the paper is positioned as an experimental alternative or complement to computational prediction. If the comparison is not rigorously established, the claim of added value over AlphaFold2 is overstated and could mislead readers about the method's relative utility.
+  - **Resolution test** Provide a more detailed comparison including confidence intervals or statistical tests for sensitivity/accuracy differences. Discuss performance in systems with varying homolog availability. Acknowledge the single-complex basis of the comparison and temper the claim accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The authors state that "because of the steric bulk of the masking reagent, labeling of virtually all exposed epitope residues should result in loss of binding, and buried residues are inaccessible to the labeling reagent."
+  - **Evidence pointer** Introduction; Methods section "Sorting and deep sequencing of cysteine library"; Results section "Pooled cysteine libraries can be used to identify interacting residues"
+  - **Concern** The assumption that all surface-exposed cysteine residues will be labeled and that labeling will uniformly disrupt binding is not directly validated. The authors do not present a positive control demonstrating that a known surface residue, when mutated to cysteine and labeled, consistently loses binding. They also do not address the possibility that some surface residues may tolerate the bulky label without losing binding, or that some buried residues may become accessible upon conformational changes. The cut-off of ≥15% reduction in binding and a labeling ratio ≥1.2 appears arbitrary without a formal justification or ROC-type analysis.
+  - **Why it matters** The entire method rests on the assumption that labeling-induced loss of binding reliably identifies interface residues. If this assumption has exceptions, the false positive and false negative rates could be higher than reported, undermining the accuracy claims.
+  - **Resolution test** Include positive and negative controls for the labeling reaction. Provide a formal justification for the chosen cut-offs, ideally with a receiver operating characteristic analysis against the crystal structure. Discuss potential exceptions to the labeling assumption.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Data completeness
+  - **Claim pointer** The authors report that "data for only 16 mutants of MazF3 and 21 mutants of MazE3 were analysed after deep sequencing, as the remaining mutants had very low reads numbers and so they were omitted from the analysis."
+  - **Evidence pointer** Results section "Pooled cysteine libraries can be used to identify interacting residues"; Supplementary Tables S4-S9
+  - **Concern** A substantial fraction of mutants were excluded due to low read counts. The authors do not specify how many mutants were excluded for each system, whether the excluded mutants were randomly distributed or biased toward particular sequence positions, or whether the exclusions could have systematically affected the results. If excluded positions were enriched in interface residues, the reported sensitivity could be inflated.
+  - **Why it matters** Incomplete data coverage could bias the interface mapping and the subsequent structural inference. The reader cannot assess whether the missing data points would have changed the conclusions.
+  - **Resolution test** Report the number and positions of excluded mutants for each system. Perform a sensitivity analysis showing that the main conclusions are robust to the exclusion. If possible, re-sequence or re-sort to recover missing data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural inference validity
+  - **Claim pointer** The authors state that "the periodicity of mutational sensitivity in the antitoxins was analysed to infer the locations of helical regions in the bound antitoxin" and that for MazE9, the inferred helix (residues 42-58) is "consistent with the available MazEF9 crystal structure."
+  - **Evidence pointer** Results section "Local secondary structural features can be predicted from mutational effects in MazE cysteine variants"; Figure 7 (not viewable)
+  - **Concern** The inference of secondary structure from mutational periodicity is an interesting idea, but the validation is limited to one system (MazE9) and the fit quality is modest (R values of 0.67-0.80). The authors do not provide a statistical framework for distinguishing genuine helical periodicity from random fluctuations in the mutational data. The claim that residues 59-67 form a "non-canonical helix" is particularly difficult to assess without seeing the fitted curves and the crystal structure overlay.
+  - **Why it matters** The title of the paper promises "infer bound structure," which is a strong claim. If the structural inference is based on subjective fitting with modest correlation coefficients, the claim should be tempered.
+  - **Resolution test** Provide a statistical test for periodicity detection. Show the fitted curves alongside the crystal structure for MazE9. For MazE3 and MazE6, where no crystal structure is available, clearly label the structural predictions as hypotheses rather than validated inferences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "Binding of MazF toxins to full length MazE antitoxins and C-terminal peptides by microscale thermophoresis"
+  - **Evidence pointer** Methods section; Supplementary Figure S3
+  - **Issue** The KD values are reported without error estimates or the number of independent replicates. The assumption that "only one peptide will bind to a toxin dimer" is stated without justification.
+  - **Required correction** Report KD values with standard errors and replicate numbers. Justify the binding stoichiometry assumption or discuss its potential impact on the calculated KD.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "TA complexes are more stable than individual toxins and antitoxins, and form higher oligomeric states"
+  - **Evidence pointer** Figure 1 (not viewable); Supplementary Table S2
+  - **Issue** The text describes "two different peaks" in SEC-MALS traces but does not clearly state which peak corresponds to which oligomeric state for each system. The molecular weight assignments are presented in a supplementary table that is not available to the reviewer.
+  - **Required correction** Summarize the oligomeric state assignments in the main text for each system, including the molecular weights and the inferred stoichiometries.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results section "Interface identification from DMS-cysteine labeling is more accurate than AlphaFold2 for MazEF9"
+  - **Evidence pointer** Table 1
+  - **Issue** The terms "sensitivity," "specificity," and "accuracy" are used, but the definitions of true positive, true negative, false positive, and false negative in this context are not explicitly stated. The reader must infer them from the equations in the Methods.
+  - **Required correction** Briefly define the classification categories in the Results section or refer explicitly to the equations with a one-sentence explanation of how they apply to interface prediction.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Analysis of deep sequencing data"
+  - **Evidence pointer** Methods section; GitHub repository link
+  - **Issue** The analysis pipeline is described briefly, and the GitHub link is provided, but the specific version of the code and the parameters used for this study are not specified.
+  - **Required correction** Provide a version tag or commit hash for the analysis code and list the key parameters used in the analysis.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (accuracy comparison with AlphaFold2 not statistically rigorous), R1-M2 (labeling assumption not validated with controls), R1-M3 (excluded data not fully reported or analyzed for bias).
+- **Assessment against Nature-style criteria** Originality: The combination of cysteine scanning with chemical labeling on yeast surface display for mapping IDP interaction interfaces is a creative adaptation of existing methods, though each component has been used previously. Scientific importance: The application to M. tuberculosis MazEF systems is relevant, but the broader significance for understanding IDP interactions or improving structure prediction is not fully demonstrated. Interdisciplinary readership: The method could appeal to structural biologists, microbiologists, and computational biologists, but the presentation is somewhat specialized. Technical soundness: The experimental design is generally sound, but the validation of key assumptions and the statistical rigor of the accuracy comparison are insufficient. Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with yeast surface display, deep sequencing analysis, and structural biology terminology; a brief primer on the method's rationale would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the application is relevant, but the claims of accuracy over AlphaFold2 and the generalizability of the structural inference require stronger evidence. The missing figures and supplementary data must be provided for a complete assessment.
+
+## Risk / unsupported claims
+- The claim that the method is "much more sensitive and accurate" than AlphaFold2 is not statistically substantiated and is based on a single complex.
+- The inference of "bound structure" in the title overstates what is demonstrated; the paper infers secondary structural features, not a full bound structure.
+- The statement that "labeling of virtually all exposed epitope residues should result in loss of binding" is an assumption without direct experimental validation.
+- The claim of "significant cross-talk" between MazEF3 and MazEF9 based on a single non-cognate KD measurement is preliminary and requires additional replicates and controls.
+- The generalizability of the method to other IDP-containing complexes is asserted but not demonstrated beyond the three systems studied.

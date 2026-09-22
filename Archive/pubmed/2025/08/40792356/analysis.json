@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40792356",
+  "title": "Systematic Investigation of the Liquid-Liquid Phase Separation Propensity of Intrinsically Disordered Proteins by Molecular Simulations.",
+  "authors": "Hu, Zixin; Sun, Tiedong; Nordenskiold, Lars; Lu, Lanyuan",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-08-12",
+  "window": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用分子动力学模拟系统计算无序蛋白的多价性并预测其液-液相分离倾向，直接针对IDP的相分离机制建模，与本课题高度契合。",
+  "abstract": "Liquid-liquid phase separation (LLPS) has been intensively studied since P-granules in Caenorhabditis elegans drew the attention of researchers. Decades of studies have revealed that intrinsically disordered proteins or regions (IDP/Rs) are closely related to phase-separating (PS) proteins, and their multivalency is instrumental to the LLPS propensity. Here, we constructed a comprehensive database of PS and non-PS IDPs and introduced a framework to calculate the exact value of multivalence with molecular dynamics (MD) simulations. Also, we examined the correlation of the calculated multivalence to LLPS. Results show that the simulation-based classification of the LLPS propensity can achieve high consistency with experimental observations despite varying experimental conditions. Besides, inspired by a graph theoretical approach, we determined a recommended cutoff of multivalence for effectively differentiating IDPs with a high LLPS propensity. Last, studies on the role of amino acid types in the fused in sarcoma (FUS) protein and its mutants reveal context-dependent interactions in prion-like and RNA-binding domains. Our work deepens the understanding of LLPS and provides a cost-effective computational framework for studying LLPS for IDPs.",
+  "abstract_zh": "液-液相分离（LLPS）自线虫（Caenorhabditis elegans）中的P颗粒引起研究者关注以来，已被广泛研究。数十年的研究表明， intrinsically disordered proteins or regions (IDP/Rs) 与相分离（PS）蛋白密切相关，其多价性对LLPS倾向性至关重要。在此，我们构建了一个包含PS和非PS IDPs的综合数据库，并引入了一个框架，通过分子动力学（molecular dynamics, MD）模拟计算多价性的精确值。同时，我们检验了计算所得多价性与LLPS之间的相关性。结果表明，尽管实验条件各异，基于模拟的LLPS倾向性分类能与实验观察高度一致。此外，受图论方法启发，我们确定了有效区分高LLPS倾向性IDPs的多价性推荐阈值。最后，对融合肉瘤（fused in sarcoma, FUS）蛋白及其突变体中氨基酸类型作用的研究揭示了朊病毒样结构域和RNA结合域中的上下文依赖性相互作用。我们的工作加深了对LLPS的理解，并为研究IDPs的LLPS提供了一种成本效益高的计算框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40792356/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40792356/",
+  "paper_page_path": "papers/pubmed/40792356/index.html"
+}

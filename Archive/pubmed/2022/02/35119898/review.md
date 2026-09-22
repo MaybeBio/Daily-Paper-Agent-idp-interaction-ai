@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract and Methods section only
+- **Assessment boundary** Claims presented in the abstract and methodological details provided in the Methods section
+- **Shared manuscript claim summary** The authors propose that the internal dynamics of liquid condensates formed by two complementary multivalent associative proteins are controlled by stoichiometry. When stoichiometry is balanced, relaxation slows dramatically due to scarcity of alternative binding partners after bond breakage, and this microscopic slowdown affects bulk diffusivity, viscosity, and mixing, offering an experimentally testable prediction.
+- **Visible evidence base** Abstract text and Methods section describing molecular dynamics simulations, system setup, and measurement protocols
+- **Missing materials affecting confidence** Full results section, all figures and tables, quantitative data, analysis details, and discussion of implications are not provided
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting hypothesis linking stoichiometry to internal dynamics of biomolecular condensates, with a plausible mechanistic rationale. The methodological description is detailed and suggests careful simulation design. However, the provided material is insufficient to evaluate the validity of the central claims. No quantitative results, figures, or statistical analyses are visible. The claim that balanced stoichiometry slows relaxation due to scarcity of alternative binding partners is mechanistically reasonable but not demonstrated in the supplied text. The connection between microscopic dynamics and macroscopic properties such as diffusivity, viscosity, and mixing is asserted but not supported by presented data. The manuscript may be of interest to the condensate and soft matter communities, but the case is not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and intracellular organization would be interested because the work addresses internal dynamics of condensates, a topic relevant to understanding material properties and biological function. The soft matter and polymer physics community would also find interest in the scaling analysis and simulation approach to associative polymer networks. Experimentalists working on condensate rheology or mobility measurements could be interested in the proposed testable prediction linking stoichiometry to bulk properties.
+- **Major strengths** The hypothesis is clearly stated and mechanistically motivated. The use of complementary proteins with different valencies to avoid magic-number effects shows careful consideration of simulation design. The Methods section is detailed regarding simulation parameters, equilibration protocols, and measurement procedures, suggesting technical rigor. The proposed link between microscopic dynamics and experimentally accessible bulk properties provides a potential pathway for validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that balanced stoichiometry slows relaxation dramatically due to scarcity of alternative binding partners following bond breakage
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The central mechanistic claim is presented in the abstract but no supporting data are visible in the supplied material. No figures, quantitative measurements, or comparisons across stoichiometry conditions are provided. The statement that relaxation slows dramatically is not backed by any presented numerical results or statistical analysis.
+  - **Why it matters** This is the core finding of the manuscript. Without visible evidence, the claim cannot be evaluated for validity, magnitude, or robustness. The mechanistic explanation involving scarcity of alternative binding partners is plausible but requires demonstration that this effect dominates over other possible factors.
+  - **Resolution test** Provide the relevant figures and quantitative data showing relaxation times, mean squared displacements, or related measures as functions of stoichiometry, with error bars and statistical significance. Show that the slowdown at balanced stoichiometry is robust across repeats and system sizes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the microscopic slow-down strongly affects bulk diffusivity, viscosity, and mixing
+  - **Evidence pointer** Abstract and Methods, location not provided
+  - **Concern** The abstract asserts that the microscopic slowdown affects bulk properties, and the Methods section indicates that diffusivity, viscosity, and mixing were measured. However, no results are presented in the supplied material. The connection between microscopic dynamics and macroscopic properties is a key part of the paper's significance, but it cannot be assessed without data.
+  - **Why it matters** The experimental testability of the prediction depends on the strength and clarity of the link between microscopic dynamics and bulk properties. If the effect on bulk properties is weak or non-monotonic, the proposed experimental test may not be feasible. The claim needs quantitative support.
+  - **Resolution test** Present the measured diffusivity, viscosity, and mixing data as functions of stoichiometry, with appropriate statistical analysis. Demonstrate that the effects are significant and large enough to be experimentally detectable.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological validation
+  - **Claim pointer** The Methods section describes simulations of the dense phase with periodic boundary conditions and density typical of a demixed droplet with free surface
+  - **Evidence pointer** Methods, location not provided
+  - **Concern** The Methods state that the system is simulated with periodic boundary conditions at a density typical of a demixed droplet with free surface. It is unclear how a free surface is reconciled with periodic boundary conditions. The box sizes are given as 10^3 for Fig. 2 and 30x10x10 for Fig. 3, but the rationale for these choices and their adequacy for the measurements is not explained. Finite size effects could influence the results, particularly for viscosity and mixing measurements.
+  - **Why it matters** If the simulation setup does not properly represent the physical system of interest, the results may not be generalizable to real condensates. The choice of box size and boundary conditions can affect measured properties, especially for collective phenomena like viscosity and mixing.
+  - **Resolution test** Clarify how the free surface condition is implemented with periodic boundaries. Provide justification for box sizes, possibly including finite size scaling tests or convergence checks.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description of binding potential
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The binding potential is described as a soft potential with a cosine form, and it is stated that Lennard-Jones repulsion between same-type domains ensures one-to-one binding. The relationship between the interaction strength A and the binding free energy is given, but the physical interpretation of the parameter values is not discussed.
+  - **Required correction** Provide a brief explanation of how the chosen parameter values relate to realistic protein-protein interactions, or state that the model is coarse-grained and not intended to represent specific proteins.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods description of equilibration
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The equilibration protocol involves annealing the attraction strength from zero to its final value over one bond relaxation time, followed by 4 tau of additional evolution. The choice of these time scales is not justified.
+  - **Required correction** Provide a rationale for the equilibration time scales or cite prior work using similar protocols.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description of measurements
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The Methods state that measurements of tau, MSD, and D have N=10 repeats and viscosity has N=100 repeats, but the definitions of these quantities and the methods used to extract them from simulations are not described.
+  - **Required correction** Briefly define how relaxation time, mean squared displacement, diffusivity, and viscosity are calculated from the simulation trajectories.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description of mixing simulation
+  - **Evidence pointer** Methods, location not provided
+  - **Issue** The mixing simulation is described as initially having walls separating two halves of the system with different labels for domains on either side. The purpose of this setup and the specific observable used to quantify mixing are not stated.
+  - **Required correction** Clarify what quantity is measured to assess mixing and how the initial wall setup enables this measurement.
+
+## Risk / unsupported claims
+- The claim that balanced stoichiometry slows relaxation dramatically is unsupported in the supplied material, as no data are presented.
+- The claim that the microscopic slowdown strongly affects bulk diffusivity, viscosity, and mixing is unsupported in the supplied material, as no results are shown.
+- The mechanistic explanation involving scarcity of alternative binding partners is plausible but not demonstrated.
+- The experimental testability of the prediction is asserted but cannot be evaluated without quantitative results.
+- The adequacy of the simulation setup for representing physical condensates is not fully established due to unclear boundary condition implementation and lack of finite size analysis.

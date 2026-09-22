@@ -1,0 +1,418 @@
+{
+  "identity": {
+    "pmid": "35310482",
+    "doi": "10.1039/d1sc06825c",
+    "title": "The importance of the compact disordered state in the fuzzy interactions between intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "The intrinsically disordered C-terminal domain (CTD) of protein 4.1G is able to specifically bind a 26-residue intrinsically disordered region of NuMA, forming a dynamic fuzzy complex. As one of a few cases of extremely fuzzy interactions between two intrinsically disordered proteins/regions (IDPs/IDRs) without induced folding, the principle of the binding is unknown. Here, we combined experimental and computational methods to explore the detailed mechanism of the interaction between 4.1G-CTD and NuMA. MD simulations suggest that the kinetic hub states in the structure ensemble of 4.1G-CTD are favorable in the fuzzy complex. The feature of these hub states is that the binding 'hot spot' motifs betaA and betaB exhibit beta strand propensities and are well packed to each other. The binding between 4.1G-CTD and NuMA is disrupted at low pH, which changes the intramolecular packing of 4.1G-CTD and weakens the packing between betaA and betaB motifs. Low pH conditions also lead to increased hydrodynamic radius and acceleration of backbone dynamics of 4.1G-CTD. All these results underscore the importance of tertiary structural arrangements and overall compactness of 4.1G-CTD in its binding to NuMA, i.e. the compact disordered state of 4.1G-CTD is crucial for binding. Different from the short linear motifs (SLiMs) that are often found to mediate IDP interactions, 4.1G-CTD functions as an intrinsically disordered domain (IDD), which is a functional and structural unit similar to conventional protein domains. This work sheds light on the molecular recognition mechanism of IDPs/IDRs and expands the conventional structure-function paradigm in protein biochemistry.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Dan",
+        "Wu, Shaowen",
+        "Wang, Dongdong",
+        "Song, Xingyu",
+        "Yang, Maohua",
+        "Zhang, Wolun",
+        "Huang, Shaohui",
+        "Weng, Jingwei",
+        "Liu, Zhijun",
+        "Wang, Wenning"
+      ],
+      "short_names": [
+        "Wang D",
+        "Wu S",
+        "Wang D",
+        "Song X",
+        "Yang M",
+        "Zhang W",
+        "Huang S",
+        "Weng J",
+        "Liu Z",
+        "Wang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8712-0536"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Multiscale Research Institute of Complex Systems and Institute of Biomedical Sciences, Fudan University Shanghai 200438 China jwweng@fudan.edu.cn wnwang@fudan.edu.cn.",
+        "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences Guangzhou 510640 Guangdong China.",
+        "DP Technology Beijing 100080 China.",
+        "Department of Chemistry, Multiscale Research Institute of Complex Systems and Institute of Biomedical Sciences, Fudan University Shanghai 200438 China jwweng@fudan.edu.cn wnwang@fudan.edu.cn.",
+        "Department of Chemistry, Multiscale Research Institute of Complex Systems and Institute of Biomedical Sciences, Fudan University Shanghai 200438 China jwweng@fudan.edu.cn wnwang@fudan.edu.cn.",
+        "LightEdge Technologies Limited Zhongshan 528403 China.",
+        "Institute of Biophysics, Chinese Academy of Sciences Beijing 100101 China.",
+        "University of Chinese Academy of Science Beijing 101408 China.",
+        "Department of Chemistry, Multiscale Research Institute of Complex Systems and Institute of Biomedical Sciences, Fudan University Shanghai 200438 China jwweng@fudan.edu.cn wnwang@fudan.edu.cn.",
+        "National Facility for Protein Science in Shanghai, Zhangjiang Lab, Shanghai Advanced Research Institute, Chinese Academy of Sciences Shanghai 201210 China liuzhijun@sari.ac.cn.",
+        "Department of Chemistry, Multiscale Research Institute of Complex Systems and Institute of Biomedical Sciences, Fudan University Shanghai 200438 China jwweng@fudan.edu.cn wnwang@fudan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Dan",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Multiscale Research Institute of Complex Systems and Institute of Biomedical Sciences, Fudan University Shanghai 200438 China jwweng@fudan.edu.cn wnwang@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wu, Shaowen",
+        "short_name": "Wu S",
+        "identifiers": [],
+        "affiliations": [
+          "Guangdong Key Laboratory for Crop Germplasm Resources Preservation and Utilization, Agro-biological Gene Research Center, Guangdong Academy of Agricultural Sciences Guangzhou 510640 Guangdong China."
+        ]
+      },
+      {
+        "full_name": "Wang, Dongdong",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "DP Technology Beijing 100080 China."
+        ]
+      },
+      {
+        "full_name": "Song, Xingyu",
+        "short_name": "Song X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Multiscale Research Institute of Complex Systems and Institute of Biomedical Sciences, Fudan University Shanghai 200438 China jwweng@fudan.edu.cn wnwang@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Maohua",
+        "short_name": "Yang M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Multiscale Research Institute of Complex Systems and Institute of Biomedical Sciences, Fudan University Shanghai 200438 China jwweng@fudan.edu.cn wnwang@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wolun",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "LightEdge Technologies Limited Zhongshan 528403 China."
+        ]
+      },
+      {
+        "full_name": "Huang, Shaohui",
+        "short_name": "Huang S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biophysics, Chinese Academy of Sciences Beijing 100101 China.",
+          "University of Chinese Academy of Science Beijing 101408 China."
+        ]
+      },
+      {
+        "full_name": "Weng, Jingwei",
+        "short_name": "Weng J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Multiscale Research Institute of Complex Systems and Institute of Biomedical Sciences, Fudan University Shanghai 200438 China jwweng@fudan.edu.cn wnwang@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Liu, Zhijun",
+        "short_name": "Liu Z",
+        "identifiers": [],
+        "affiliations": [
+          "National Facility for Protein Science in Shanghai, Zhangjiang Lab, Shanghai Advanced Research Institute, Chinese Academy of Sciences Shanghai 201210 China liuzhijun@sari.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Wenning",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0000-0002-8712-0536"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Multiscale Research Institute of Complex Systems and Institute of Biomedical Sciences, Fudan University Shanghai 200438 China jwweng@fudan.edu.cn wnwang@fudan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2022 Feb 23",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/22 06:00",
+    "fetched_at": "2026-09-20 09:07:24"
+  },
+  "links": {
+    "cites": [
+      "41169557",
+      "41053219",
+      "40673718",
+      "39811792",
+      "39673470",
+      "39608603",
+      "38118365",
+      "37722056",
+      "36833360",
+      "36291675"
+    ],
+    "refs": [
+      "33667107",
+      "33550810",
+      "33207556",
+      "32613009",
+      "31783325",
+      "30813629",
+      "29466338",
+      "29345991",
+      "28493424",
+      "28076801",
+      "27730716",
+      "26617301",
+      "26505632",
+      "26226339",
+      "26125588",
+      "25531225",
+      "24926813",
+      "24824374",
+      "24773235",
+      "24109598",
+      "24027492",
+      "24021023",
+      "23870127",
+      "23822324",
+      "23750122",
+      "23747363",
+      "23233352",
+      "22570416",
+      "22505141",
+      "22411565",
+      "22360139",
+      "21927770",
+      "21909575",
+      "21548671",
+      "21530236",
+      "21514142",
+      "21501695",
+      "21448735",
+      "21291253",
+      "20534497",
+      "20360767",
+      "20117254",
+      "19260013",
+      "19157855",
+      "19145244",
+      "18215316",
+      "18054235",
+      "17088319",
+      "15738986",
+      "15313625",
+      "15260562",
+      "15111064",
+      "11839490",
+      "11432737",
+      "11381529",
+      "10056251",
+      "8520220",
+      "7514039",
+      "1749933"
+    ],
+    "similar": [
+      "35310482",
+      "37722056",
+      "30813629",
+      "28493424",
+      "31441158",
+      "28597880",
+      "27881680",
+      "31756456",
+      "28914483",
+      "34390736",
+      "31709918",
+      "27936491",
+      "32184088",
+      "35139468",
+      "26195786",
+      "26684000",
+      "32323533",
+      "25244701",
+      "24317797",
+      "30865832",
+      "31303975",
+      "34845619",
+      "35098694",
+      "21766125",
+      "32696395",
+      "36504386",
+      "33567297",
+      "23912807",
+      "26742101",
+      "34626492",
+      "32859072",
+      "25207671",
+      "29276882",
+      "29990433",
+      "26735936",
+      "23891935",
+      "28893908",
+      "30514761",
+      "21464206",
+      "28516021",
+      "36055623",
+      "19462392",
+      "35404090",
+      "34610267",
+      "23189058",
+      "26910732",
+      "23056474",
+      "36969402",
+      "30840442",
+      "32824743",
+      "33087759",
+      "28111343",
+      "25387963",
+      "35605677",
+      "36851914",
+      "29763584",
+      "27844185",
+      "24763499",
+      "21268115",
+      "34504009",
+      "28497792",
+      "34262938",
+      "26794929",
+      "33617899",
+      "33355572",
+      "29716994",
+      "31387300",
+      "27555285",
+      "24027208",
+      "31092000",
+      "22125611",
+      "31793295",
+      "22280012",
+      "33719450",
+      "30278223",
+      "23189168",
+      "33810353",
+      "22813934",
+      "34680162",
+      "31307006",
+      "30528464",
+      "33194509",
+      "23794453",
+      "30727987",
+      "27098855",
+      "34923394",
+      "35436286",
+      "38600130",
+      "34235484",
+      "36209362",
+      "37333393",
+      "36380579",
+      "36133101",
+      "29761107",
+      "39279844",
+      "37546728",
+      "37609146",
+      "37106781",
+      "36213119",
+      "35044811",
+      "36829461",
+      "38712134",
+      "39141804",
+      "37099901",
+      "38966365",
+      "32613009",
+      "33447499",
+      "39214280",
+      "28250374"
+    ],
+    "review": [
+      "35310482",
+      "30813629",
+      "31441158",
+      "34390736",
+      "31709918",
+      "35139468",
+      "31303975",
+      "35098694",
+      "33567297",
+      "19462392",
+      "34610267",
+      "36969402",
+      "30840442",
+      "36851914",
+      "33355572",
+      "24027208",
+      "22280012",
+      "30278223",
+      "34680162",
+      "33194509",
+      "23794453",
+      "27098855",
+      "36133101",
+      "29761107",
+      "37099901",
+      "32613009",
+      "39214280"
+    ],
+    "pmc": [
+      "8864705"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35310482/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d1sc06825c",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35310482",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NUMA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-937",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

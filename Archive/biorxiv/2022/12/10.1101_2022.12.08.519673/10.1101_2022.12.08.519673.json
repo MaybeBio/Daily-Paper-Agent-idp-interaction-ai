@@ -1,0 +1,796 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.12.08.519673",
+  "title": "HLApollo: A superior transformer model for pan-allelic peptide-MHC-I presentation prediction, with diverse negative coverage, deconvolution and protein language features",
+  "doi": "10.1101/2022.12.08.519673",
+  "abstract": "Antigen presentation on MHC class I (MHC-I) is key to the adaptive immune response to cancerous cells. Computational prediction of peptide presentation by MHC-I has enabled individualized cancer immunotherapies. Here, we introduce HLApollo, a transformer-based approach with end-to-end modeling of MHC-I sequence, deconvolution, and flanking sequences. To achieve this, we develop a novel training strategy, negative set switching, which greatly reduces overfitting to falsely presumed negatives that are necessarily found in presentation datasets. HLApollo shows a meaningful improvement compared to recent MHC-I models on peptide presentation (20.19% average precision (AP)) and immunogenicity (4.1% AP). As expected, adding gene expression boosts the performance of HLApollo. More interestingly, we show that introduction of features from a protein language model, ESM 1b, remarkably recoups much of the benefits of gene expression in absence of true expression measurements. Finally, we demonstrate excellent pan-allelic generalization, and introduce a framework for estimating the expected accuracy of HLApollo for untrained alleles. This guides the use of HLApollo in a clinical setting, where rare alleles may be observed in some subjects, particularly for underrepresented minorities.",
+  "authors": [
+    "William John Thrift",
+    "Nicolas W. Lounsbury",
+    "Quade Broadwell",
+    "Amy Heidersbach",
+    "Emily Freund",
+    "Yassan Abdolazimi",
+    "Qui T Phung",
+    "Jieming Chen",
+    "Aude-Hélène Capietto",
+    "Ann-Jay Tong",
+    "Christopher M. Rose",
+    "Craig Blanchette",
+    "Jennie R Lill",
+    "Benjamin Haley",
+    "Lélia Delamarre",
+    "Richard Bourgon",
+    "Kai Liu",
+    "Suchit Jhunjhunwala"
+  ],
+  "published_date": "2022-12-12",
+  "updated_date": "2022-12-12T22:00:13Z",
+  "journal": "bioRxiv",
+  "category": "Immunology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.12.08.519673",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.12.08.519673.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Immunology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Immunology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2026-07-17T19:46:55Z",
+        "timestamp": 1784317615342,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            12
+          ]
+        ]
+      },
+      "group-title": "Immunology",
+      "reference-count": 67,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Antigen presentation on MHC class I (MHC-I) is key to the adaptive immune response to cancerous cells. Computational prediction of peptide presentation by MHC-I has enabled individualized cancer immunotherapies. Here, we introduce HLApollo, a transformer-based approach with end-to-end modeling of MHC-I sequence, deconvolution, and flanking sequences. To achieve this, we develop a novel training strategy, negative set switching, which greatly reduces overfitting to falsely presumed negatives that are necessarily found in presentation datasets. HLApollo shows a meaningful improvement compared to recent MHC-I models on peptide presentation (20.19% average precision (AP)) and immunogenicity (4.1% AP). As expected, adding gene expression boosts the performance of HLApollo. More interestingly, we show that introduction of features from a protein language model, ESM 1b, remarkably recoups much of the benefits of gene expression in absence of true expression measurements. Finally, we demonstrate excellent pan-allelic generalization, and introduce a framework for estimating the expected accuracy of HLApollo for untrained alleles. This guides the use of HLApollo in a clinical setting, where rare alleles may be observed in some subjects, particularly for underrepresented minorities.</jats:p>",
+      "DOI": "10.1101/2022.12.08.519673",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            12
+          ]
+        ],
+        "date-time": "2022-12-12T22:00:13Z",
+        "timestamp": 1670882413000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 8,
+      "title": [
+        "HLApollo: A superior transformer model for pan-allelic peptide-MHC-I presentation prediction, with diverse negative coverage, deconvolution and protein language features"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "William John",
+          "family": "Thrift",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nicolas W.",
+          "family": "Lounsbury",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Quade",
+          "family": "Broadwell",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Amy",
+          "family": "Heidersbach",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emily",
+          "family": "Freund",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yassan",
+          "family": "Abdolazimi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qui T",
+          "family": "Phung",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jieming",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Aude-Hélène",
+          "family": "Capietto",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ann-Jay",
+          "family": "Tong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Christopher M.",
+          "family": "Rose",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Craig",
+          "family": "Blanchette",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jennie R",
+          "family": "Lill",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Benjamin",
+          "family": "Haley",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lélia",
+          "family": "Delamarre",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Richard",
+          "family": "Bourgon",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kai",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Suchit",
+          "family": "Jhunjhunwala",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.aaa1348"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1200/JCO.2012.47.7521"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature14001"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.01.010"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature13988"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature23003"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2537-9"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ccell.2022.08.003"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1619",
+          "DOI": "10.1038/s41591-022-01937-6",
+          "article-title": "Individualized, heterologous chimpanzee adenovirus and self-amplifying mRNA neoantigen vaccine for advanced metastatic solid tumors: phase 1 trial interim results",
+          "volume": "28",
+          "year": "2022",
+          "journal-title": "Nature Medicine"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41568-021-00339-z"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.it.2016.08.010"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nri3084"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.immunol.22.012703.104538"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.immuni.2017.02.007"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1546328"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF00172063"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku938"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.18",
+          "first-page": "163",
+          "article-title": "Scheme for ranking potential HLA-A2 binding peptides based on independent binding of individual peptide side-chains",
+          "volume": "152",
+          "year": "1994",
+          "journal-title": "J Immunol Baltim Md 1950"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1110/ps.0239403"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0000796"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00251-011-0579-8"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.22",
+          "unstructured": "Vaswani, A. et al. Attention is All you Need. in (NeurlPS 2017, 2017)."
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.23",
+          "unstructured": "Brown, T. et al. Language Models are Few-Shot Learners. in NeurlPS 2020 (NeurlPS, 2020)."
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "W449",
+          "DOI": "10.1093/nar/gkaa379",
+          "article-title": "NetMHCpan-4.1 and NetMHCIIpan-4.0: improved predictions of MHC antigen presentation by concurrent motif deconvolution and integration of MS MHC eluted ligand data",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "818",
+          "DOI": "10.1016/j.cell.2020.09.015",
+          "article-title": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction",
+          "volume": "183",
+          "year": "2020",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "100111",
+          "DOI": "10.1016/j.mcpro.2021.100111",
+          "article-title": "Precision Neoantigen Discovery Using Large-scale Immunopeptidomes and Composite Modeling of MHC Peptide Presentation",
+          "volume": "20",
+          "year": "2021",
+          "journal-title": "Mol Cell Proteomics"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "199",
+          "DOI": "10.1038/s41587-019-0322-9",
+          "article-title": "A large peptidome dataset improves HLA class I epitope prediction across most of the human population",
+          "volume": "38",
+          "year": "2020",
+          "journal-title": "Nat Biotechnol"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "100194",
+          "DOI": "10.1016/j.xcrm.2021.100194",
+          "article-title": "Prediction of neo-epitope immunogenicity reveals TCR recognition determinants and provides insight into immunoediting",
+          "volume": "2",
+          "year": "2021",
+          "journal-title": "Cell Reports Medicine"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.30",
+          "first-page": "gkx664",
+          "article-title": "The SysteMHC Atlas project",
+          "volume": "46",
+          "year": "2017",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/778944"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1006"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s002510050595"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "129",
+          "DOI": "10.1016/j.cels.2018.05.014",
+          "article-title": "MHCflurry: Open-Source Class I MHC Binding Affinity Prediction",
+          "volume": "7",
+          "year": "2018",
+          "journal-title": "Cell Syst"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12967-018-1539-y"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "603",
+          "DOI": "10.3892/br.2015.494",
+          "article-title": "Role of cellular cytoskeleton in epithelial-mesenchymal transition process during cancer progression",
+          "volume": "3",
+          "year": "2015",
+          "journal-title": "Biomed Reports"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.37",
+          "unstructured": "Vaswani, A. et al. Attention Is All You Need. Arxiv (2017)."
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/mcp.TIR119.001658"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.4049/jimmunol.1600808"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "55",
+          "DOI": "10.1038/nbt.4313",
+          "article-title": "Deep learning using tumor HLA peptide mass spectrometry datasets improves neoantigen identification",
+          "volume": "37",
+          "year": "2019",
+          "journal-title": "Nat Biotechnol"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/622803"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1707658114"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Löffler, M. W. et al. Mapping the HLA ligandome of Colorectal Cancer Reveals an Imprint of Malignant Cell Transformation. Cancer Res 78, canres.1745.2017 (2018).",
+          "DOI": "10.1158/0008-5472.CAN-17-1745"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "100194",
+          "DOI": "10.1016/j.xcrm.2021.100194",
+          "article-title": "Prediction of neo-epitope immunogenicity reveals TCR recognition determinants and provides insight into immunoediting",
+          "volume": "2",
+          "year": "2021",
+          "journal-title": "Cell Reports Medicine"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "818",
+          "DOI": "10.1016/j.cell.2020.09.015",
+          "article-title": "Key Parameters of Tumor Epitope Immunogenicity Revealed Through a Consortium Approach Improve Neoantigen Prediction",
+          "volume": "183",
+          "year": "2020",
+          "journal-title": "Cell"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "13404",
+          "DOI": "10.1038/ncomms13404",
+          "article-title": "Direct identification of clinically relevant neoepitopes presented on native human melanoma tissue by mass spectrometry",
+          "volume": "7",
+          "year": "2016",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1005725",
+          "DOI": "10.1371/journal.pcbi.1005725",
+          "article-title": "Deciphering HLA-I motifs across HLA peptidomes improves neo-antigen predictions and identifies allostery regulating HLA specificity",
+          "volume": "13",
+          "year": "2017",
+          "journal-title": "Plos Comput Biol"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz1029"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/2326-6066.CIR-19-0464"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/rcm.1196"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.51",
+          "first-page": "D916",
+          "article-title": "GENCODE 2021",
+          "volume": "49",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.52",
+          "first-page": "283",
+          "article-title": "Statistical Genomics, Methods and Protocols",
+          "volume": "1418",
+          "year": "2016",
+          "journal-title": "Methods Mol Biology Clifton N J"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.53",
+          "unstructured": "Pau, G. & Reeder, J. HTSeqGenie: A NGS analysis pipeline. R package version 4.25.1. (2021)."
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4197"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1113"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1172/jci88590"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.57",
+          "first-page": "D988",
+          "article-title": "Ensembl 2022",
+          "volume": "50",
+          "year": "2021",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.58",
+          "first-page": "2272",
+          "article-title": "Logomaker: beautiful sequence logos in Python",
+          "volume": "36",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.59",
+          "doi-asserted-by": "crossref",
+          "first-page": "3645",
+          "DOI": "10.1093/bioinformatics/btx469",
+          "article-title": "ggseqlogo: a versatile R package for drawing sequence logos",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinform Oxf Engl"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.60",
+          "unstructured": "Paszke, A. et al. PyTorch: An Imperative Style, High-Performance Deep Learning Library. Arxiv (2019)."
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/info11020108"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.62",
+          "unstructured": "Kingma, D. P. & Ba, J. Adam: A Method for Stochastic Optimization. Arxiv (2014)."
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.63",
+          "unstructured": "Ramachandran, P. , Zoph, B. & Le, Q. V. Searching for Activation Functions. Arxiv (2017)."
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0000796"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.89.22.10915"
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.66",
+          "unstructured": "GitHub - facebookresearch/esm: Evolutionary Scale Modeling (esm): Pretrained language models for proteins. https://github.com/facebookresearch/esm."
+        },
+        {
+          "key": "2022121403200452000_2022.12.08.519673v1.67",
+          "first-page": "2272",
+          "article-title": "Logomaker: beautiful sequence logos in Python",
+          "volume": "36",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.12.08.519673",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:59:09Z",
+        "timestamp": 1768449549000
+      },
+      "score": 36.22106,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.12.08.519673"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            12
+          ]
+        ]
+      },
+      "references-count": 67,
+      "URL": "https://doi.org/10.1101/2022.12.08.519673",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

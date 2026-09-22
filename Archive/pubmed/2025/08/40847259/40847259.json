@@ -1,0 +1,272 @@
+{
+  "identity": {
+    "pmid": "40847259",
+    "doi": "10.1021/acs.biomac.5c00583",
+    "title": "Intrinsically Disordered to Stable and Reversible alpha-Helical Conformational Transition of alpha-Synuclein in a Neat Polymer Surfactant Mesophase."
+  },
+  "content": {
+    "abstract": "alpha-synuclein (alpha-Syn), an intrinsically disordered protein associated with Parkinson's disease, exhibits a high propensity for aggregation under physiological and in vitro conditions, even at low concentrations. This necessitates its storage in the lyophilized form at </= -20  degrees C. In this work, we demonstrate that dispersing native alpha-Syn in an aqueous solution of poly(ethylene glycol)(PEG)-based polymer surfactant (PS), followed by lyophilization, forms a viscoelastic material at room temperature, in which alpha-Syn adopts a highly stable and reversible alpha-helical secondary structure. Solid-state NMR analysis reveals that helix formation involves alanine, threonine, and valine residues, predominantly within the N-terminal and NAC regions. Interestingly, small-angle X-ray scattering (SAXS) studies indicate that a neat PS matrix exhibits a distorted lamellar mesophase; however, it becomes ordered upon alpha-Syn incorporation. All-atom MD simulations show that PS hydrophobic domains self-assemble into \"nematic-like\" structures that selectively interact with the hydrophobic residues in alpha-Syn. These findings establish polymer-driven strategies for long-term storage and structure-function stabilization of various therapeutic proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry",
+      "*Surface-Active Agents/chemistry",
+      "*Polyethylene Glycols/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation, alpha-Helical",
+      "Scattering, Small Angle",
+      "Humans",
+      "*Polymers/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maity, Anwesha",
+        "Panigrahi, Rajlaxmi",
+        "Chaudhary, Amit",
+        "Panwar, Ajay S",
+        "Kumar, Ashutosh",
+        "Sharma, Kamendra P"
+      ],
+      "short_names": [
+        "Maity A",
+        "Panigrahi R",
+        "Chaudhary A",
+        "Panwar AS",
+        "Kumar A",
+        "Sharma KP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3079-7239",
+        "ORCID: 0000-0001-6245-6896",
+        "ORCID: 0000-0002-5061-8162",
+        "ORCID: 0000-0002-1932-6698"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Indian Institute of Technology Bombay, Mumbai 400076, India.",
+        "Department of Biosciences and Bioengineering, Indian Institute of Technology Bombay, Mumbai 400076, India.",
+        "Department of Chemistry, Indian Institute of Technology Bombay, Mumbai 400076, India.",
+        "Department of Metallurgical Engineering and Materials Science, Indian Institute of Technology Bombay, Mumbai 400076, India.",
+        "Department of Metallurgical Engineering and Materials Science, Indian Institute of Technology Bombay, Mumbai 400076, India.",
+        "Department of Biosciences and Bioengineering, Indian Institute of Technology Bombay, Mumbai 400076, India.",
+        "Department of Chemistry, Indian Institute of Technology Bombay, Mumbai 400076, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maity, Anwesha",
+        "short_name": "Maity A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Technology Bombay, Mumbai 400076, India."
+        ]
+      },
+      {
+        "full_name": "Panigrahi, Rajlaxmi",
+        "short_name": "Panigrahi R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences and Bioengineering, Indian Institute of Technology Bombay, Mumbai 400076, India."
+        ]
+      },
+      {
+        "full_name": "Chaudhary, Amit",
+        "short_name": "Chaudhary A",
+        "identifiers": [
+          "0000-0002-3079-7239"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Technology Bombay, Mumbai 400076, India.",
+          "Department of Metallurgical Engineering and Materials Science, Indian Institute of Technology Bombay, Mumbai 400076, India."
+        ]
+      },
+      {
+        "full_name": "Panwar, Ajay S",
+        "short_name": "Panwar AS",
+        "identifiers": [
+          "0000-0001-6245-6896"
+        ],
+        "affiliations": [
+          "Department of Metallurgical Engineering and Materials Science, Indian Institute of Technology Bombay, Mumbai 400076, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Ashutosh",
+        "short_name": "Kumar A",
+        "identifiers": [
+          "0000-0002-5061-8162"
+        ],
+        "affiliations": [
+          "Department of Biosciences and Bioengineering, Indian Institute of Technology Bombay, Mumbai 400076, India."
+        ]
+      },
+      {
+        "full_name": "Sharma, Kamendra P",
+        "short_name": "Sharma KP",
+        "identifiers": [
+          "0000-0002-1932-6698"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Indian Institute of Technology Bombay, Mumbai 400076, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2025 Sep 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/23 08:44",
+    "fetched_at": "2026-09-21 22:45:27"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40847259",
+      "23607785",
+      "31382050",
+      "24383916",
+      "30840442",
+      "36379279",
+      "32304757",
+      "32623047",
+      "40853068",
+      "29364151",
+      "36961209",
+      "37433401",
+      "40882443",
+      "31903719",
+      "41381387",
+      "29642031",
+      "31699336",
+      "30917651",
+      "35681426",
+      "30003969",
+      "23374074",
+      "40671581",
+      "30853581",
+      "39947752",
+      "23374072",
+      "40147456",
+      "29853639",
+      "39868549",
+      "31515915",
+      "30184304",
+      "38321955",
+      "31809054",
+      "33345970",
+      "36115020",
+      "38358134",
+      "32497661",
+      "22315227",
+      "23648364",
+      "39980393",
+      "19576220",
+      "32866007",
+      "41301496",
+      "37407505",
+      "29286644",
+      "24072065",
+      "29663556",
+      "30769283",
+      "36373662",
+      "29604892",
+      "39306670",
+      "22029383",
+      "39674478",
+      "30933517",
+      "22274962",
+      "25919930",
+      "41504268",
+      "39046235",
+      "22573613",
+      "33581430",
+      "39718971",
+      "33386904",
+      "23583776",
+      "40465629",
+      "31181290",
+      "33649211",
+      "29550429",
+      "31548393",
+      "32074499",
+      "33292065",
+      "32585849",
+      "26846854",
+      "35749730",
+      "38996889",
+      "32514159",
+      "37198991",
+      "39232485",
+      "40994307",
+      "28796507",
+      "31917569",
+      "31424463",
+      "31841313",
+      "24551051",
+      "24361273",
+      "37060757",
+      "29621630",
+      "37961511",
+      "39175373",
+      "21696191",
+      "36278939",
+      "38700150",
+      "20828147",
+      "29792674",
+      "26453205",
+      "28024449",
+      "19285989",
+      "29026044",
+      "35543707",
+      "26601760",
+      "37768058",
+      "27588692"
+    ],
+    "review": [
+      "40847259",
+      "30840442",
+      "29364151",
+      "35681426",
+      "30853581",
+      "39947752",
+      "23648364",
+      "36373662",
+      "37198991"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.5c00583",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

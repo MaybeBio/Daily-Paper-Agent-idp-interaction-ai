@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41887012",
+  "title": "Frontiers and challenges in the design of binders for intrinsically disordered proteins.",
+  "authors": "Wang, Chentong; Zhang, Yanzhe; Fang, Minchao; Peng, Zhangzhi; Cao, Longxing",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2026-03-27",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述系统梳理了从物理原理到深度学习的无序蛋白结合物设计策略，聚焦IDP靶向的PPI设计挑战与前沿，与本课题的IDP互作机制建模高度相关。",
+  "abstract": "Intrinsically disordered proteins (IDPs) lack a stable tertiary structure but are fundamental to cellular function and disease, making them a compelling yet challenging class of drug targets. While their inherent flexibility poses a significant hurdle to conventional structure-based design methods, recent breakthroughs in computational protein design have enabled the creation of specific binders for these dynamic targets. In this review, we dissect the principles, advantages, and limitations of the design strategies, from those based on physical principles to those driven by deep learning. We then survey current applications of IDP binders and conclude by exploring the key challenges and future directions in this rapidly advancing field.",
+  "abstract_zh": "固有无序蛋白（IDPs）缺乏稳定的三级结构，但对细胞功能和疾病至关重要，使其成为一类引人注目且具有挑战性的药物靶点。尽管其固有的灵活性对传统的基于结构的设计方法构成了重大障碍，但计算蛋白质设计的最新突破已使得为这些动态靶点创建特异性结合剂成为可能。在本综述中，我们剖析了设计策略的原理、优势和局限性，从基于物理原理的方法到由深度学习驱动的方法。随后，我们概述了IDP结合剂的当前应用，并最后探讨了这一快速进展领域中的关键挑战和未来方向。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41887012/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41887012/",
+  "paper_page_path": "papers/pubmed/41887012/index.html"
+}

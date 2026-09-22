@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and perspectives presented in the abstract, without access to the full manuscript text, figures, or supplementary materials
+- **Shared manuscript claim summary** The abstract argues that protein function is governed by intermolecular interactions involving dynamic conformational states and intrinsic disorder, with structures ranging from binary complexes to large biomolecular condensates. It further claims that recent machine learning advances in solving the protein folding problem create new challenges and opportunities for addressing core questions in molecular biosciences.
+- **Visible evidence base** Abstract text only; no experimental data, methodological details, or case studies are provided
+- **Missing materials affecting confidence** Full manuscript, figures, tables, references, and any quantitative or qualitative evidence supporting the claims; the abstract is a high-level perspective without specific examples or validation
+
+## Reviewer
+- **Overall assessment** This abstract presents a forward-looking perspective on the role of machine learning in protein science, emphasizing the importance of dynamic interactions and disorder. The writing is clear and accessible, and the topic is timely given recent advances in protein structure prediction. However, the abstract is largely descriptive and lacks specific evidence or examples to substantiate its claims. As a perspective piece, it may be of interest to a broad audience, but the current form does not establish a novel technical or conceptual contribution beyond what is already widely discussed in the field.
+- **Who would be interested in the results, and why** Researchers in computational biology, structural biology, and biophysics would find this perspective relevant, as it frames how machine learning could extend beyond static structure prediction to dynamic and disordered systems. Additionally, scientists studying biomolecular condensates and protein interaction networks may appreciate the emphasis on intermolecular interactions. The abstract could also appeal to method developers in machine learning seeking biological application areas.
+- **Major strengths** The abstract identifies a clear and important gap in current machine learning applications, namely the focus on static structures rather than dynamic and disordered states. It also connects protein science to broader biological questions, such as disease mechanisms, which enhances its relevance. The writing is concise and avoids overtechnical jargon, making it accessible to nonspecialists.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that machine learning advances create "challenges and opportunities" for the next frontiers of biomolecular science, but it does not specify what these challenges or opportunities are.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The abstract is a high-level statement without concrete examples, such as specific machine learning methods, case studies, or potential applications to dynamic systems or condensates. It reads as an introduction rather than a substantive perspective.  
+  - **Why it matters** For a perspective article, readers expect a critical analysis of current limitations and future directions. Without specific instances or a framework, the claim remains unsubstantiated and does not advance the discourse.  
+  - **Resolution test** The full manuscript should provide detailed examples of machine learning applications to dynamic protein interactions, disorder, or condensates, and articulate specific challenges (e.g., data scarcity, model interpretability) and opportunities (e.g., integrating molecular dynamics with learning).  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Novelty and originality  
+  - **Claim pointer** The abstract implies that the discussed frontiers are "new," but it does not distinguish this perspective from existing reviews or opinion pieces on machine learning in protein science.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The abstract does not reference prior work or position itself relative to the literature. The idea that machine learning can address dynamic and disordered systems is not new, and the abstract does not indicate what unique insights or synthesis this article offers.  
+  - **Why it matters** Without a clear statement of novelty, the contribution is unclear, and the article risks being redundant with existing perspectives.  
+  - **Resolution test** The full manuscript should explicitly cite and contrast with prior reviews, and highlight novel angles, such as specific unresolved problems or emerging methods that have not been covered elsewhere.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scope and focus  
+  - **Claim pointer** The abstract covers a broad range of topics, from binary complexes to condensates, but does not prioritize or structure these topics.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The abstract lists multiple phenomena (dynamic states, disorder, condensates) without indicating which are the primary focus or how they are interconnected. This lack of focus may lead to a diffuse manuscript.  
+  - **Why it matters** A perspective should have a clear thesis or argument. The current abstract suggests a general overview rather than a targeted analysis, which may reduce its impact.  
+  - **Resolution test** The full manuscript should define a central thesis, such as arguing that machine learning must shift from structure prediction to interaction dynamics, and organize content around that thesis.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract sentence on "unintended manners"  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The phrase "when they take place in unintended manners" is vague and could be more precise, such as "when interactions are dysregulated."  
+  - **Required correction** Rephrase to specify the context, such as "when these interactions are aberrant or misregulated, leading to disease."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "protein folding problem"  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The term "solving the protein folding problem" is strong and may be contested, as machine learning has made significant progress but not fully solved all aspects.  
+  - **Required correction** Consider softening to "major advances in addressing the protein folding problem" to avoid overstatement.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Readability  
+  - **Affected element** Abstract structure  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The abstract is a single paragraph that mixes background, motivation, and aims, which may reduce readability.  
+  - **Required correction** In the full manuscript, ensure the introduction clearly separates background, gap, and objectives, even if the abstract remains concise.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient evidence or novelty to establish the case for a perspective article. The full manuscript must include specific examples, a literature comparison, and a clear thesis to address these failings.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Weak based on the abstract, as it does not indicate a novel angle or synthesis beyond common discussions in the field.  
+  - **Scientific importance** Moderate to high, as the topic of machine learning for dynamic protein systems is relevant, but the abstract does not demonstrate a specific advance.  
+  - **Interdisciplinary readership** Potentially broad, appealing to biologists, chemists, and computational scientists, but the abstract lacks concrete hooks to engage each group.  
+  - **Technical soundness** Not assessable from the abstract, as no methods or data are presented.  
+  - **Readability for nonspecialists** Good, as the language is clear and avoids excessive jargon, but the abstract is too general to be informative.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is a promising start, but the full manuscript must provide substantive content, including specific examples, a clear thesis, and a comparison with existing literature, to support a positive recommendation.
+
+## Risk / unsupported claims
+- The claim that machine learning advances create "challenges and opportunities" is unsupported without specific examples or a framework.
+- The implication that the discussed frontiers are "new" is unsubstantiated without a literature comparison.
+- The statement that protein interactions "underpin" function is a general assertion that is not backed by data in the abstract.
+- The relevance to disease is mentioned but not elaborated, making it an unsupported claim in the current form.

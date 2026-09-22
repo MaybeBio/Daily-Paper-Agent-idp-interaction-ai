@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38118365",
+  "title": "Molecular simulations integrated with experiments for probing the interaction dynamics and binding mechanisms of intrinsically disordered proteins.",
+  "authors": "Ghosh, Catherine; Nagpal, Suhani; Munoz, Victor",
+  "journal": "Current opinion in structural biology",
+  "published_date": "2023-12-21",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该综述整合分子模拟与实验，系统探讨无序蛋白互作的动态与结合机制，涵盖折叠、保持无序或驱动凝聚等过程，直接命中IDP-PPI机制建模核心，方法上以物理模拟为主，深度契合本课题。",
+  "abstract": "Intrinsically disordered proteins (IDPs) exploit their plasticity to deploy a rich panoply of soft interactions and binding phenomena. Advances in tailoring molecular simulations for IDPs combined with experimental cross-validation offer an atomistic view of the mechanisms that control IDP binding, function, and dysfunction. The emerging theme is that unbound IDPs autonomously form transient local structures and self-interactions that determine their binding behavior. Recent results have shed light on whether and how IDPs fold, stay disordered or drive condensation upon binding; how they achieve binding specificity and select among competing partners. The disorder-binding paradigm is now being proactively used by researchers to target IDPs for rational drug design and engineer molecular responsive elements for biosensing applications.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 利用其可塑性，部署了丰富多样的软相互作用和结合现象。针对IDPs的分子模拟定制进展，结合实验交叉验证，提供了控制IDP结合、功能和功能障碍机制的原子级视角。新兴主题是，未结合的IDPs自主形成瞬态局部结构和自相互作用，这些决定了它们的结合行为。近期结果揭示了IDPs在结合时是否及如何折叠、保持无序或驱动凝聚；它们如何实现结合特异性并在竞争伙伴中选择。无序-结合范式现正被研究人员主动用于靶向IDPs进行合理药物设计，并工程化分子响应元件用于生物传感应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38118365/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38118365/",
+  "paper_page_path": "papers/pubmed/38118365/index.html"
+}

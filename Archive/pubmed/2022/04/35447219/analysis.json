@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35447219",
+  "title": "Serotonergic drugs modulate the phase behavior of complex lipid bilayers.",
+  "authors": "Musabirova, Guzel; Engberg, Oskar; Gupta, Ankur; Roy, Debsankar Saha; Maiti, Sudipta; Huster, Daniel",
+  "journal": "Biochimie",
+  "published_date": "2022-04-22",
+  "window": {
+    "start": "2022-04-18",
+    "end": "2022-04-24"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用2H NMR和AFM等实验方法考察血清素能药物对脂质双层相行为的影响，对象为脂膜而非无序蛋白/IDR，无PPI互作机制建模，也无AI或物理模拟方法，与本课题关联微弱。",
+  "abstract": "Serotonin is an endogenous neurotransmitter involved in both physiological and pathophysiological processes. Traditionally, serotonin acts as a ligand for G protein-coupled receptors (GPCRs) leading to subsequent cell signaling. However, serotonin can also bind to lipid membranes with high affinity and modulate the phase behavior in 1-palmitoyl-2-oleoyl-glycero-3-phosphocholine (POPC)/N-palmitoyl-D-erythro-sphingosylphosphorylcholine (PSM)/cholesterol model membranes mimicking the outer leaflet of the plasma membrane. Here, we investigated if serotonergic drugs containing the pharmacophore from serotonin would also modulate phase behavior in lipid membranes in a similar fashion. We used (2)H NMR spectroscopy to explore the phase behavior of POPC/PSM/cholesterol (4/4/2 molar ratio) mixtures in the presence of the serotonergic drugs aripiprazole, BRL-54443, BW-723C86, and CP-135807 at a lipid to drug molar ratio of 10:1. POPC and PSM were perdeuterated in the palmitoyl chain, respectively, and prepared in individual samples. Numerical lineshape simulations of the (2)H NMR spectra were used to calculate the order parameter profiles and projected lengths of the saturated acyl chains. All serotonergic drugs induce two components in (2)H NMR spectra, indicating that they increased the hydrophobic mismatch between the thickness of the coexisting lipid phases leading to larger domain sizes, relatively similarly to serotonin. AFM force indentation and Raman spectral studies, which interrogate membrane mechanical properties, also indicate changes in membrane order in the presence of these drugs. These findings highlight how serotonergic drugs alter membrane phase behavior and could modulate both target and other membrane proteins, possibly explaining the side effects observed for serotonergic and other clinically relevant drugs.",
+  "abstract_zh": "血清素是一种内源性神经递质，参与生理和病理生理过程。传统上，血清素作为G蛋白偶联受体（GPCRs）的配体，引发后续细胞信号传导。然而，血清素也能以高亲和力结合脂质膜，并调节模拟质膜外叶的1-棕榈酰-2-油酰-sn-甘油-3-磷酸胆碱（POPC）/N-棕榈酰-D-赤型鞘磷脂（PSM）/胆固醇模型膜中的相行为。在此，我们研究了含有血清素药效团的血清素能药物是否也会以类似方式调节脂质膜中的相行为。我们使用(2)H NMR光谱法，在脂质与药物摩尔比为10:1的条件下，探讨了POPC/PSM/胆固醇（4/4/2摩尔比）混合物在血清素能药物阿立哌唑、BRL-54443、BW-723C86和CP-135807存在下的相行为。POPC和PSM分别在棕榈酰链上进行全氘代，并制备成独立样品。通过(2)H NMR谱的数值线形模拟，计算了饱和酰基链的序参数分布和投影长度。所有血清素能药物在(2)H NMR谱中诱导出两个组分，表明它们增加了共存脂质相厚度之间的疏水不匹配，导致畴尺寸增大，与血清素的作用相对类似。AFM力压痕和拉曼光谱研究，这些方法探测膜机械性质，也表明在这些药物存在下膜有序性发生变化。这些发现突显了血清素能药物如何改变膜相行为，并可能调节靶蛋白及其他膜蛋白，这可能解释了血清素能及其他临床相关药物观察到的副作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35447219/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35447219/",
+  "paper_page_path": "papers/pubmed/35447219/index.html"
+}

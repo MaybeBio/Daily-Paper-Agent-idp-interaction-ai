@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.09.29.462446",
+  "title": "Gaussian Network Model Revisited: Effects of Mutation and Ligand Binding on Protein Behavior",
+  "authors": "Burak Erman",
+  "journal": "bioRxiv",
+  "published_date": "2021-10-01",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文改进高斯网络模型(GNM)以纳入原子细节，预测突变和配体结合对残基波动及对相关性的影响，虽涉及蛋白互作(配体结合)和物理建模，但对象为折叠蛋白而非无序蛋白/IDR，且未涉及相分离或无序介导的PPI机制，方法思路对IDP互作建模有一定可迁移启发。",
+  "abstract": "The coarse-grained Gaussian Network model, GNM, considers only the alpha carbons of the folded protein. Therefore it is not directly applicable to the study of mutation or ligand binding problems where atomic detail is required. This shortcoming is improved by including the local effect of heavy atoms in the neighborhood of each alpha carbon into the Kirchoff Adjacency Matrix. The presence of other atoms in the coordination shell of each alpha carbon diminishes the magnitude of fluctuations of that alpha carbon. But more importantly, it changes the graph-like connectivity structure, i.e., the Kirchoff Adjacency Matrix of the whole system which introduces amino acid specific and position specific information into the classical coarse-grained GNM which was originally modelled in analogy with phantom network theory of rubber elasticity. With this modification, it is now possible to make predictions on the effects of mutation and ligand binding on residue fluctuations and their pair-correlations. We refer to the new model as ‘all-atom GNM’. Using examples from published data we show that the all-atom GNM applied to in silico mutated proteins and to their laboratory mutated structures gives similar results. Thus, loss and gain of correlations, which may be related to loss and gain of function, may be studied by using simple in silico mutations only.",
+  "abstract_zh": "粗粒度高斯网络模型（Gaussian Network model, GNM）仅考虑折叠蛋白质的α碳原子。因此，它不直接适用于需要原子细节的突变或配体结合问题的研究。通过在每个α碳原子邻域内纳入重原子的局部效应到基尔霍夫邻接矩阵（Kirchoff Adjacency Matrix）中，这一缺陷得到了改进。每个α碳原子配位壳层中其他原子的存在减弱了该α碳原子波动的幅度。但更重要的是，它改变了整个系统的图状连接结构，即基尔霍夫邻接矩阵，从而将氨基酸特异性和位置特异性信息引入到经典粗粒度GNM中，该模型最初是类比于橡胶弹性的幻影网络理论（phantom network theory）构建的。通过这一修改，现在可以预测突变和配体结合对残基波动及其对相关性的影响。我们将新模型称为“全原子GNM”。利用已发表数据中的例子，我们展示了全原子GNM应用于计算机模拟突变蛋白质及其实验室突变结构时，结果相似。因此，可能与功能丧失或获得相关的相关性丧失或获得，可以仅通过简单的计算机模拟突变进行研究。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.09.29.462446",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.09.29.462446",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.09.29.462446/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42596546",
+  "title": "Multi-step binding-unbinding pathways govern properties of biomolecular condensates.",
+  "authors": "Debnath, Bhanjan; Katira, Parag",
+  "journal": "Biophysical journal",
+  "published_date": "2026-08-14",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过启发式建模与布朗动力学模拟，揭示多步结合-解离机制如何通过改变寿命分布而非平均寿命来调控生物分子凝聚体的交换动力学、老化与尺寸分布，直接关联无序蛋白介导的PPI与相分离机制建模。",
+  "abstract": "The interactions among condensate-forming biomolecules dictate both the specificity and properties of these condensates, including their fluid-like nature and material exchange dynamics among condensate droplets. While interaction specificity is typically associated with mean interaction lifetimes, the role of interaction lifetime distributions in shaping condensate behavior remains unexplored. This is a critical gap where extensive research has focused on interaction strengths and mean lifetimes. Using a heuristic modeling approach, we show that independent and sequential multi-step binding-unbinding interactions between protein molecules lead to similar average interaction lifetimes but fundamentally different lifetime distributions: exponential and truncated power law, respectively. Combining the binding-unbinding models with Brownian dynamics simulations, our findings show that an alteration in the binding-unbinding interaction mechanism in a protein-specific system impacts the exchange dynamics, aging, and size distribution of condensates, even when mean interaction lifetimes remain constant. Our work demonstrates a link between binding-unbinding mechanisms, lifetime distributions, and features of condensates.",
+  "abstract_zh": "凝聚体形成生物分子之间的相互作用决定了这些凝聚体的特异性和性质，包括其类液体特性及凝聚体液滴间的物质交换动态。虽然相互作用特异性通常与平均相互作用寿命相关联，但相互作用寿命分布对凝聚体行为的影响仍未得到探索。这是一个关键空白，因为大量研究集中于相互作用强度和平均寿命。通过启发式建模方法，我们表明蛋白质分子之间的独立和顺序多步结合-解离相互作用导致相似的平均相互作用寿命，但寿命分布根本不同：分别呈指数分布和截断幂律分布。将结合-解离模型与布朗动力学模拟相结合，我们的发现表明，在蛋白质特异性系统中，结合-解离相互作用机制的改变会影响凝聚体的交换动态、老化和尺寸分布，即使平均相互作用寿命保持不变。我们的工作展示了结合-解离机制、寿命分布与凝聚体特征之间的联系。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42596546/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42596546/",
+  "paper_page_path": "papers/pubmed/42596546/index.html"
+}

@@ -1,0 +1,223 @@
+{
+  "identity": {
+    "pmid": "34369007",
+    "doi": "10.1002/prot.26210",
+    "title": "Dimerization underlies the aggregation propensity of intrinsically disordered coiled-coil domain-containing 124."
+  },
+  "content": {
+    "abstract": "Coiled-coil domain-containing 124 (CCDC124) is a recently discovered ribosome-binding protein conserved in eukaryotes. CCDC124 has regulatory functions on the mediation of reversible ribosomal hibernation and translational recovery by direct attachment to large subunit ribosomal protein uL5, 25S rRNA backbone, and tRNA-binding P/A-site major groove. Moreover, it independently mediates cell division and cellular stress response by facilitating cytokinetic abscission and disulfide stress-dependent transcriptional regulation, respectively. However, the structural characterization and intracellular physiological status of CCDC124 remain unknown. In this study, we employed advanced in silico protein modeling and characterization tools to generate a native-like tertiary structure of CCDC124 and examine the disorder, low sequence complexity, and aggregation propensities, as well as high-order dimeric/oligomeric states. Subsequently, dimerization of CCDC124 was investigated with co-immunoprecipitation (CO-IP) analysis, immunostaining, and a recent live-cell protein-protein interaction method, bimolecular fluorescence complementation (BiFC). Results revealed CCDC124 as a highly disordered protein consisting of low complexity regions at the N-terminus and an aggregation sequence (151-IAVLSV-156) located in the middle region. Molecular docking and post-docking binding free energy analyses highlighted a potential involvement of V153 residue on the generation of high-order dimeric/oligomeric structures. Co-IP, immunostaining, and BiFC analyses were used to further confirm the dimeric state of CCDC124 predominantly localized at the cytoplasm. In conclusion, our findings revealed in silico structural characterization and in vivo subcellular physiological state of CCDC124, suggesting low-complexity regions located at the N-terminus of disordered CCDC124 may regulate the formation of aggregates or high-order dimeric/oligomeric states.",
+    "keywords": [
+      "BiFC",
+      "CCDC124",
+      "dimerization",
+      "intrinsically disordered protein",
+      "protein aggregation"
+    ],
+    "mesh_terms": [
+      "*Cell Cycle Proteins/chemistry/metabolism",
+      "HEK293 Cells",
+      "Humans",
+      "*Intracellular Signaling Peptides and Proteins/chemistry/metabolism",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Molecular Docking Simulation",
+      "Protein Binding",
+      "Protein Multimerization/*physiology",
+      "Protein Structure, Tertiary"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tuzlakoglu Ozturk, Merve",
+        "Gullulu, Omer"
+      ],
+      "short_names": [
+        "Tuzlakoglu Ozturk M",
+        "Gullulu O"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5983-2854",
+        "ORCID: 0000-0003-0218-7721"
+      ],
+      "affiliations": [
+        "Department of Molecular Biology and Genetics, Gebze Technical University, Kocaeli, Turkey.",
+        "Department of Radiotherapy and Oncology, University Hospital Frankfurt, Frankfurt am Main, Germany.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tuzlakoğlu Öztürk, Merve",
+        "short_name": "Tuzlakoğlu Öztürk M",
+        "identifiers": [
+          "0000-0001-5983-2854"
+        ],
+        "affiliations": [
+          "Department of Molecular Biology and Genetics, Gebze Technical University, Kocaeli, Turkey."
+        ]
+      },
+      {
+        "full_name": "Güllülü, Ömer",
+        "short_name": "Güllülü Ö",
+        "identifiers": [
+          "0000-0003-0218-7721"
+        ],
+        "affiliations": [
+          "Department of Radiotherapy and Oncology, University Hospital Frankfurt, Frankfurt am Main, Germany.",
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/10 06:00",
+    "fetched_at": "2026-09-20 04:51:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "34369007",
+      "32687489",
+      "33896821",
+      "38029384",
+      "39009911",
+      "23894443",
+      "27082063",
+      "26195786",
+      "23760157",
+      "30304684",
+      "29944921",
+      "33436890",
+      "24704038",
+      "27844185",
+      "27791060",
+      "32933064",
+      "29945970",
+      "27111521",
+      "26742101",
+      "33122085",
+      "32735805",
+      "33443146",
+      "25305578",
+      "34243065",
+      "30443712",
+      "25533957",
+      "30208026",
+      "28109327",
+      "28502465",
+      "24022511",
+      "24451381",
+      "15084581",
+      "17174464",
+      "32621228",
+      "23027878",
+      "37834064",
+      "25966461",
+      "32007275",
+      "32708183",
+      "30563168",
+      "30514761",
+      "25054624",
+      "33530506",
+      "33647291",
+      "22125611",
+      "30730736",
+      "25715079",
+      "27791355",
+      "24532081",
+      "34509724",
+      "33355572",
+      "24589355",
+      "28934129",
+      "10653693",
+      "24594841",
+      "30937482",
+      "27004461",
+      "33872615",
+      "31804089",
+      "26735936",
+      "33137381",
+      "21985334",
+      "26851284",
+      "33454008",
+      "27048167",
+      "24008243",
+      "29716994",
+      "25412900",
+      "26073260",
+      "33155649",
+      "27508433",
+      "26851279",
+      "24668165",
+      "25533001",
+      "26684000",
+      "25409870",
+      "25400026",
+      "28893908",
+      "26918762",
+      "28393629",
+      "25616417",
+      "25871264",
+      "23912807",
+      "30259679",
+      "29990433",
+      "32722024",
+      "32822572",
+      "35298807"
+    ],
+    "review": [
+      "34369007",
+      "25305578",
+      "28109327",
+      "28502465",
+      "32708183",
+      "33530506",
+      "24532081",
+      "33355572",
+      "27004461",
+      "27048167",
+      "24008243",
+      "26073260",
+      "33155649",
+      "26851279"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://glygen.org/publication/PubMed/34369007/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.26210",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

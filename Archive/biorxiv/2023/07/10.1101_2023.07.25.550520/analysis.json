@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.07.25.550520",
+  "title": "Local Disordered Region Sampling (LDRS) for Ensemble Modeling of Proteins with Experimentally Undetermined or Low Confidence Prediction Segments",
+  "authors": "Liu ZH; Teixeira JM; Zhang O; Tsangaris TE; Li J; Gradinaru CC; Head-Gordon T; Forman-Kay JD",
+  "journal": "bioRxiv",
+  "published_date": "2023-07-27",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文介绍LDRS工具，用于为蛋白结构中缺失或低置信度的无序区域生成全原子构象系综，虽聚焦IDR构象建模而非直接PPI机制，但为无序蛋白参与互作的结构基础提供了可迁移的物理建模方法。",
+  "abstract": "<h4>STRUCTURED ABSTRACT</h4> <h4>SUMMARY</h4> The Local Disordered Region Sampling (LDRS, pronounced loaders ) tool, developed for the IDPConformerGenerator platform (Teixeira et al . 2022), provides a method for generating all-atom conformations of intrinsically disordered regions (IDRs) at N- and C-termini of and in loops or linkers between folded regions of an existing protein structure. These disordered elements often lead to missing coordinates in experimental structures or low confidence in predicted structures. Requiring only a pre-existing PDB structure of the protein with missing coordinates or with predicted confidence scores and its full-length primary sequence, LDRS will automatically generate physically meaningful conformational ensembles of the missing flexible regions to complete the full-length protein. The capabilities of the LDRS tool of IDPConformerGenerator include modeling phosphorylation sites using enhanced Monte Carlo Side Chain Entropy (MC-SCE) (Bhowmick and Head-Gordon 2015), transmembrane proteins within an all-atom bilayer, and multi-chain complexes. The modeling capacity of LDRS capitalizes on the modularity, ability to be used as a library and via command-line, and computational speed of the IDPConformerGenerator platform. <h4>AVAILABILITY AND IMPLEMENTATION</h4> The LDRS module is part of the IDPConformerGenerator modeling suite, which can be downloaded from GitHub at https://github.com/julie-forman-kay-lab/IDPConformerGenerator . IDPConformerGenerator is written in Python and works on Linux, Microsoft Windows, and Mac OS versions that support DSSP. Users can utilize LDRS’s Python API for scripting the same way they can use any part of IDPConformerGenerator’s API, by importing functions from the ‘idpconfgen.ldrs_helper’ library. Otherwise, LDRS can be used as a command line interface application within IDPConformerGenerator. Full documentation is available within the command-line interface (CLI) as well as on IDPConformerGenerator’s official documentation pages ( https://idpconformergenerator.readthedocs.io/en/latest/ ). <h4>CONTACT</h4> For support with LDRS please contact Zi Hao (Nemo) Liu via nemo.liu@sickkids.ca or submit an issue in the IDPConformerGenerator repository on GitHub ( https://github.com/julie-forman-kay-lab/IDPConformerGenerator/issues ). <h4>SUPPLEMENTARY INFORMATION</h4> The supplementary information document contains, or links to, all the conformer ensembles generated for this publication, the generalized Python scripts using the LDRS Python API, figures of detailed methods, fractional secondary structure information, torsion angle sampling, and the time required to generate the different protein cases.",
+  "abstract_zh": "<h4>结构化摘要</h4> <h4>总结</h4> 为IDPConformerGenerator平台（Teixeira等人，2022）开发的局部无序区域采样（LDRS，读作loaders）工具，提供了一种生成现有蛋白质结构N端、C端以及折叠区域之间环或连接子中固有无序区域（IDRs）全原子构象的方法。这些无序元件常导致实验结构中坐标缺失或预测结构置信度低。仅需预先存在的蛋白质PDB结构（含缺失坐标或预测置信度分数）及其全长初级序列，LDRS将自动生成缺失柔性区域的物理意义构象系综，以完成全长蛋白质。IDPConformerGenerator的LDRS工具能力包括使用增强型蒙特卡罗侧链熵（MC-SCE）（Bhowmick和Head-Gordon 2015）建模磷酸化位点、全原子双层中的跨膜蛋白以及多链复合物。LDRS的建模能力利用了IDPConformerGenerator平台的模块化特性、作为库和命令行使用的灵活性以及计算速度。<h4>可用性和实现</h4> LDRS模块是IDPConformerGenerator建模套件的一部分，可从GitHub下载：https://github.com/julie-forman-kay-lab/IDPConformerGenerator 。IDPConformerGenerator用Python编写，适用于支持DSSP的Linux、Microsoft Windows和Mac OS版本。用户可以通过从‘idpconfgen.ldrs_helper’库导入函数，以与使用IDPConformerGenerator API任何部分相同的方式，利用LDRS的Python API进行脚本编写。否则，LDRS可作为IDPConformerGenerator内的命令行界面应用程序使用。完整文档可在命令行界面（CLI）以及IDPConformerGenerator官方文档页面（ https://idpconformergenerator.readthedocs.io/en/latest/ ）中获取。<h4>联系方式</h4> 如需LDRS支持，请联系Zi Hao (Nemo) Liu，邮箱：nemo.liu@sickkids.ca，或在GitHub上的IDPConformerGenerator仓库中提交问题（ https://github.com/julie-forman-kay-lab/IDPConformerGenerator/issues ）。<h4>补充信息</h4> 补充信息文档包含或链接到本出版物生成的所有构象系综、使用LDRS Python API的通用Python脚本、详细方法图、分数二级结构信息、扭转角采样以及生成不同蛋白质案例所需的时间。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.07.25.550520",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.07.25.550520",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.07.25.550520/index.html"
+}

@@ -1,0 +1,138 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.15.575740",
+  "title": "Elucidating ATP’s Role as Solubilizer of Biomolecular Aggregate",
+  "doi": "10.1101/2024.01.15.575740",
+  "abstract": "Proteins occurring in significantly high concentrations in cellular environments (over 100 mg/mL) and functioning in crowded cytoplasm, often face the prodigious challenges of aggregation which are the pathological hallmark of aging and are critically responsible for a wide spectrum of rising human diseases. Here we combine a joint-venture of complementary wet-lab experiment and molecular simulation to discern the potential ability of adenosine triphosphate (ATP) as solubilizer of protein aggregates. We show that ATP prevents both condensation of aggregation-prone intrinsically disordered protein Aβ40 and promotes dissolution of pre-formed aggregates. Computer simulation links ATP’s solubilizing role to its ability to modulate protein’s structural plasticity by unwinding protein conformation. We show that ATP is positioned as a superior biological solubilizer of protein aggregates over traditional chemical hydrotropes, potentially holding promises in therapeutic interventions in protein-aggregation related diseases. Going beyond its conventional activity as energy currency, the amphiphilic nature of ATP enables its protein-specific interaction that would enhance ATP’s efficiency in cellular processes.",
+  "authors": [
+    "Sarkar S",
+    "Gupta S",
+    "Mahato C",
+    "Das D",
+    "Mondal J"
+  ],
+  "published_date": "2024-01-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.15.575740",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.15.575740.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR787889",
+    "raw_record": {
+      "id": "PPR787889",
+      "source": "PPR",
+      "doi": "10.1101/2024.01.15.575740",
+      "title": "Elucidating ATP’s Role as Solubilizer of Biomolecular Aggregate",
+      "authorString": "Sarkar S, Gupta S, Mahato C, Das D, Mondal J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sarkar S",
+            "lastName": "Sarkar",
+            "firstName": "Susmita",
+            "initials": "S"
+          },
+          {
+            "fullName": "Gupta S",
+            "lastName": "Gupta",
+            "firstName": "Saurabh",
+            "initials": "S"
+          },
+          {
+            "fullName": "Mahato C",
+            "lastName": "Mahato",
+            "firstName": "Chiranjit",
+            "initials": "C"
+          },
+          {
+            "fullName": "Das D",
+            "lastName": "Das",
+            "firstName": "Dibyendu",
+            "initials": "D"
+          },
+          {
+            "fullName": "Mondal J",
+            "lastName": "Mondal",
+            "firstName": "Jagannath",
+            "initials": "J"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Proteins occurring in significantly high concentrations in cellular environments (over 100 mg/mL) and functioning in crowded cytoplasm, often face the prodigious challenges of aggregation which are the pathological hallmark of aging and are critically responsible for a wide spectrum of rising human diseases. Here we combine a joint-venture of complementary wet-lab experiment and molecular simulation to discern the potential ability of adenosine triphosphate (ATP) as solubilizer of protein aggregates. We show that ATP prevents both condensation of aggregation-prone intrinsically disordered protein Aβ40 and promotes dissolution of pre-formed aggregates. Computer simulation links ATP’s solubilizing role to its ability to modulate protein’s structural plasticity by unwinding protein conformation. We show that ATP is positioned as a superior biological solubilizer of protein aggregates over traditional chemical hydrotropes, potentially holding promises in therapeutic interventions in protein-aggregation related diseases. Going beyond its conventional activity as energy currency, the amphiphilic nature of ATP enables its protein-specific interaction that would enhance ATP’s efficiency in cellular processes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/01/16/2024.01.15.575740.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.01.15.575740"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39475790",
+            "reference": "eLife. 2024 Oct;13:RP99150",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-01-17",
+      "firstPublicationDate": "2024-01-16",
+      "firstIndexDate": "2024-01-17",
+      "hasEvaluations": "Y"
+    }
+  }
+}

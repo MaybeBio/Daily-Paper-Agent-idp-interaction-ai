@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, experimental section, and supplementary figure/table references
+- **Assessment boundary** Scientific validity of claims, experimental design, data interpretation, and alignment with stated conclusions
+- **Shared manuscript claim summary** The authors identify a prion-like domain (PrLD) in EBV EBNA1 (a.a. 89–350) that drives protein aggregation and liquid-liquid phase separation, interacts with splicing factor SRSRM1, and regulates alternative splicing of SRRM1 to promote nasopharyngeal carcinoma progression. They further propose that targeting this PrLD with HSP90 inhibitors (17-DMAG, 17-AAG) inhibits tumor growth.
+- **Visible evidence base** PLAAC prediction, SDD-AGE, immunoelectron microscopy, Thioflavin T staining, yeast Sup35 prion assay, immunoprecipitation, proximity ligation assay, bimolecular fluorescence complementation, RT-PCR, cell proliferation assays, clone formation assays, transwell migration assays, xenograft mouse models, Ki67/TUNEL staining, nanopore sequencing
+- **Missing materials affecting confidence** No raw sequencing data or bioinformatic analysis details for the nanopore RNA-seq are provided in the visible text; no quantification or statistical details for several key experiments (e.g., SDD-AGE, immunoelectron microscopy, Thioflavin T staining) are shown; no information on the number of biological replicates for most experiments; no details on the mass spectrometry parameters or validation of the 295 interacting proteins; no information on the specificity of the EBNA1 antibody used for immunoelectron microscopy and Thioflavin T co-staining; no negative controls for the yeast prion assay beyond the deletion construct; no data showing the phase separation experiments beyond the 1,6-hexanediol treatment and confocal images
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting observation that EBNA1 contains a prion-like domain capable of driving phase separation and influencing alternative splicing. However, the evidence provided is largely descriptive and correlative, with several key claims lacking quantitative support or appropriate controls. The link between EBNA1 PrLD-mediated phase separation, SRRM1 splicing regulation, and tumor progression is mechanistically underdeveloped. The therapeutic claims based on HSP90 inhibitors are preliminary and require more rigorous validation. The manuscript would benefit from substantial additional experimentation and more careful data presentation before the conclusions can be considered established.
+- **Who would be interested in the results, and why** Researchers studying EBV biology, viral oncogenesis, liquid-liquid phase separation in viral systems, and the emerging role of prion-like domains in non-neurodegenerative contexts. The potential connection between EBV and neurodegenerative diseases may also attract interest from the neurodegeneration community. The splicing regulation angle could interest RNA biologists studying SR protein function.
+- **Major strengths** The identification of a PrLD in EBNA1 using established prediction tools and validation in a yeast prion assay is a solid starting point. The use of multiple orthogonal techniques (SDD-AGE, immunoelectron microscopy, Thioflavin T staining) to demonstrate aggregation is commendable. The clinical relevance is supported by staining of patient tumor tissues. The inclusion of in vivo xenograft models strengthens the translational aspect.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental support for phase separation
+  - **Claim pointer** "The prion-like domain is a prerequisite for the ability of EBNA1 to undergo phase transition" and "EBNA1 forms liquid-like condensates in the nucleus"
+  - **Evidence pointer** Figure 3; location not provided
+  - **Concern** The evidence for liquid-liquid phase separation is limited to 1,6-hexanediol sensitivity and confocal microscopy showing puncta. No fluorescence recovery after photobleaching (FRAP) data are shown despite the text claiming "fluorescence bleaching recovery experiments" were performed. The distinction between liquid-like condensates and solid aggregates is not rigorously established. No in vitro phase separation assays with purified proteins are shown, and the authors acknowledge difficulties with recombinant protein purification. The claim that EBNA1 forms liquid-like condensates requires more direct evidence, such as FRAP curves with quantitative recovery rates, fusion events, or in vitro droplet formation assays.
+  - **Why it matters** The central thesis of the manuscript rests on the phase separation behavior of EBNA1. Without rigorous demonstration of liquid-like properties, the distinction between phase separation and simple aggregation is not established, which undermines the conceptual framework of the paper.
+  - **Resolution test** Provide quantitative FRAP data showing recovery kinetics for EBNA1 puncta, demonstrate fusion events, and/or show in vitro droplet formation with purified PrLD-containing protein. Include appropriate controls such as a known non-phase-separating mutant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic link between PrLD, SRRM1 splicing, and tumor progression
+  - **Claim pointer** "EBNA1 interacts with the splicing factor SRSF1 to regulate alternative splicing of SRRM1 and promote tumor progression" and "Deleting the EBNA1 PrLD results in defects in... alternative splicing regulation, and nasopharyngeal carcinoma cells proliferation"
+  - **Evidence pointer** Figures 4-6; location not provided
+  - **Concern** The mechanistic chain from EBNA1 PrLD to SRSF1 interaction to SRRM1 splicing to tumor progression is not convincingly established. The interaction between EBNA1 and SRSF1 is shown, but the functional significance of this interaction for splicing regulation is not demonstrated. The data show that EBNA1 affects SRRM1 splicing, but the specific role of SRSF1 in this process is inferred rather than directly tested. The connection between SRRM1 splicing isoforms and tumor proliferation is correlative. The rescue experiments (e.g., expressing SRRM1(+) in EBNA1 PrLD-deleted cells) are not shown.
+  - **Why it matters** The manuscript claims a novel mechanism linking a viral prion-like domain to splicing regulation and oncogenesis. Without direct evidence for each step in the proposed pathway, the causal chain remains speculative.
+  - **Resolution test** Perform SRSF1 knockdown/rescue experiments to demonstrate its requirement in EBNA1-mediated SRRM1 splicing. Show that SRRM1(+) expression rescues the proliferation defect in EBNA1 PrLD-deleted cells. Use RNA-seq data to identify global splicing changes and validate specific targets.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative data and statistical rigor
+  - **Claim pointer** Multiple claims regarding proliferation, migration, splicing changes, and tumor growth
+  - **Evidence pointer** Figures 5-7; location not provided
+  - **Concern** The manuscript lacks quantitative data for many key experiments. Proliferation assays, clone formation, migration assays, and splicing changes are described but no quantitative values, error bars, or statistical analyses are shown in the visible text. The nanopore sequencing data are mentioned but no bioinformatic analysis, differential splicing statistics, or validation of specific events are presented. The xenograft data show tumor growth curves but no statistical comparison between groups is described.
+  - **Why it matters** Without quantitative data and appropriate statistical analysis, the significance and reproducibility of the findings cannot be assessed. This is particularly important for a paper making strong claims about therapeutic targeting.
+  - **Resolution test** Provide quantitative data with appropriate statistical tests for all key experiments. Include effect sizes, confidence intervals, and information on biological and technical replicates. Present the RNA-seq analysis with clear differential splicing statistics and validation by RT-PCR.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Therapeutic claims
+  - **Claim pointer** "Targeting the prion-like domain of EBNA1 inhibits protein aggregate formation, promotes SRRM1 alternative splicing and inhibits nasopharyngeal carcinoma progression"
+  - **Evidence pointer** Figure 7; location not provided
+  - **Concern** The therapeutic claims are based on the use of HSP90 inhibitors (17-DMAG, 17-AAG) that are not specific to EBNA1 PrLD. The authors show that these inhibitors reduce EBNA1 aggregation and affect splicing, but the specificity of this effect is not established. The inhibitors likely have pleiotropic effects on many HSP90 client proteins. The claim that this represents "targeting the prion-like domain" is an overstatement.
+  - **Why it matters** The therapeutic implications are a significant part of the paper's impact. Overstating the specificity of the approach could mislead future research directions and clinical applications.
+  - **Resolution test** Use more specific approaches to target the PrLD, such as peptide inhibitors or genetic mutations that disrupt phase separation without affecting other EBNA1 functions. Show that the effects of 17-DMAG/17-AAG are mediated through EBNA1 PrLD specifically, for example by comparing effects in cells expressing WT vs PrLD-deleted EBNA1.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of experimental details
+  - **Affected element** Methods section
+  - **Evidence pointer** Experimental Section; location not provided
+  - **Issue** The methods section lacks sufficient detail for several experiments. For example, the concentrations of 17-DMAG and 17-AAG used are not specified, the duration of treatments is not stated, and the siRNA transfection conditions are not described.
+  - **Required correction** Provide complete experimental details including concentrations, time points, and conditions for all treatments and assays.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figures
+  - **Evidence pointer** Figures 1-7; location not provided
+  - **Issue** The figure legends are not visible in the provided text, making it difficult to interpret the data. Additionally, several figures are referenced but their content is not described in sufficient detail in the text.
+  - **Required correction** Ensure all figures have complete legends describing experimental conditions, sample sizes, and statistical tests used. Consider adding representative images alongside quantitative data.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The discussion does not adequately address the limitations of the study, particularly the lack of in vitro phase separation data and the correlative nature of some findings.
+  - **Required correction** Add a limitations paragraph acknowledging the gaps in the current evidence and outlining future experiments needed to address them.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Author contributions
+  - **Affected element** Author Contributions section
+  - **Evidence pointer** Author Contributions; location not provided
+  - **Issue** The author contributions list initials that do not match the author list provided. For example, "C.X., J.T., and Q.Y." and "H.N. and X.X." do not correspond to the listed authors.
+  - **Required correction** Correct the author contributions to match the actual author list and ensure all authors are properly credited.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Consistency of terminology
+  - **Affected element** Throughout manuscript
+  - **Evidence pointer** Abstract, Results, Discussion; location not provided
+  - **Issue** The terms "prion-like domain" and "PrLD" are used interchangeably, and the boundaries of the predicted PrLD (a.a. 89-350 vs. a.a. 90-325) are inconsistently stated.
+  - **Required correction** Use consistent terminology and clearly define the boundaries of the PrLD based on the prediction and experimental validation.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure legends and Results
+  - **Evidence pointer** Figures 5-7; location not provided
+  - **Issue** The statistical methods used for the RNA-seq analysis are not described, and the criteria for defining significant differential splicing events are not stated.
+  - **Required correction** Provide details on the bioinformatic pipeline, statistical thresholds, and multiple testing corrections used for the nanopore sequencing analysis.
+
+## Risk / unsupported claims
+- The claim that EBNA1 forms "liquid-like condensates" is not fully supported by the evidence presented, as no FRAP data or in vitro phase separation assays are shown.
+- The mechanistic link between EBNA1 PrLD, SRSF1 interaction, SRRM1 splicing regulation, and tumor progression is correlative and lacks direct causal evidence.
+- The therapeutic claim that targeting the PrLD with HSP90 inhibitors is specific is not supported, as these inhibitors have broad effects on many cellular proteins.
+- The statement that "EBNA1 is a prion-like protein" based on the yeast assay and prediction tools is an overstatement, as the authors did not demonstrate prion-like conformational propagation or infectivity.
+- The claim that EBNA1 aggregation in tumor tissues is demonstrated by Thioflavin T staining is weakened by the lack of specificity of Thioflavin T for EBNA1 aggregates and the absence of co-staining with additional amyloid-specific dyes or electron microscopy in the same tissues.
+- The assertion that the findings "imply a possible molecular pathogenic mechanism of EBNA1 in neurodegenerative diseases" is speculative and not directly supported by any experimental evidence in this study.

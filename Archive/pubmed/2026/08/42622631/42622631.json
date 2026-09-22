@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "42622631",
+    "doi": "10.1093/jimmun/vkag213",
+    "title": "Recombinant SpTrf proteins illustrate putative functions of native SpTrf proteins: from immune response to resolution in sea urchins."
+  },
+  "content": {
+    "abstract": "The complex and sophisticated sea urchin innate immune system relies on conserved immune receptor and effector molecules plus the euechinoid-specific Transformer family. Native SpTransformer (natSpTrf) proteins in Strongylocentrotus purpuratus respond to immune challenge by augmenting phagocytosis of microbes. These proteins show significant sequence diversity both within and among sea urchins with the predicted benefit of host protection through the recognition of a broad range of pathogens. Prior reports show that 6 recombinant (r)SpTrf proteins from insect cells induce phagocytosis when cross-linked to inert beads. Soluble rSpTrf proteins bind phagocytes, which respond by downregulating expression of the SpTrf gene family and SpIL17-9. Here we extend this analysis to determine the rSpTrf protein binding targets and find that they fail to bind pathogen-associated molecular patterns (PAMPs) and bacteria. Similarly, Ni-isolated natSpTrf proteins also fail to bind the same PAMPs. The insect cells add posttranslational modifications to the rSpTrf proteins that impart protein stability and impact predicted structure. Together with prior results, our findings suggest a working hypothesis for the natSpTrf proteins in vivo in which disordered natSpTrf proteins bind to pathogens, transform to secondary structure, and augment phagocytosis leading to pathogen clearance. Upon pathogen clearance, unbound natSpTrf proteins transform, multimerize, and bind to phagocytes. The cellular response adjusts expression of the SpTrf genes and SpIL17-9 to the threat level. This hypothesis suggests that the natSpTrf proteins participate in immune responses to foreign challenge but also function in immune resolution after pathogen clearance.",
+    "keywords": [
+      "Strongylocentrotus purpuratus",
+      "echinoderm",
+      "intrinsically disordered proteins",
+      "pathogen binding"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Strongylocentrotus purpuratus/immunology",
+      "Recombinant Proteins/immunology/genetics/metabolism",
+      "Phagocytosis/immunology",
+      "Immunity, Innate",
+      "Innate Immunity Recognition",
+      "Pathogen-Associated Molecular Pattern Molecules/metabolism/immunology",
+      "Phagocytes/immunology"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Crow, Ryley S",
+        "Grubb, Christopher",
+        "Meisel, Joseph W",
+        "Smith, L Courtney"
+      ],
+      "short_names": [
+        "Crow RS",
+        "Grubb C",
+        "Meisel JW",
+        "Smith LC"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3348-0242",
+        "ORCID: 0000-0001-7099-7852"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, George Washington University, Washington, DC, United States.",
+        "Department of Chemistry, George Washington University, Washington, DC, United States.",
+        "Department of Chemistry, George Washington University, Washington, DC, United States.",
+        "Department of Biological Sciences, George Washington University, Washington, DC, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Crow, Ryley S",
+        "short_name": "Crow RS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, George Washington University, Washington, DC, United States."
+        ]
+      },
+      {
+        "full_name": "Grubb, Christopher",
+        "short_name": "Grubb C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, George Washington University, Washington, DC, United States."
+        ]
+      },
+      {
+        "full_name": "Meisel, Joseph W",
+        "short_name": "Meisel JW",
+        "identifiers": [
+          "0000-0003-3348-0242"
+        ],
+        "affiliations": [
+          "Department of Chemistry, George Washington University, Washington, DC, United States."
+        ]
+      },
+      {
+        "full_name": "Smith, L Courtney",
+        "short_name": "Smith LC",
+        "identifiers": [
+          "0000-0001-7099-7852"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, George Washington University, Washington, DC, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of immunology (Baltimore, Md. : 1950)"
+    ],
+    "journal_abbrev": [
+      "J Immunol"
+    ],
+    "pub_date": "2026 Aug 4",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/20 11:41",
+    "fetched_at": "2026-09-18 05:48:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42622631",
+      "39936151",
+      "38742116",
+      "29738524",
+      "34867968",
+      "28713368",
+      "28553283",
+      "34206148",
+      "27020848",
+      "38397211",
+      "18198192",
+      "42176914",
+      "19201874",
+      "36119116",
+      "28242650",
+      "17331248",
+      "27113124",
+      "26406912",
+      "25355922",
+      "20354110",
+      "22566951",
+      "23405032",
+      "41520907",
+      "41939874",
+      "36330505",
+      "19887082",
+      "31585247",
+      "40622552",
+      "29138299",
+      "31105697",
+      "11414357",
+      "32222357",
+      "31430488",
+      "35290688",
+      "31923433",
+      "25295041",
+      "31244844",
+      "38042212",
+      "33159959",
+      "27192936",
+      "30287242",
+      "33766584",
+      "28826989",
+      "15753628",
+      "39002558",
+      "16837652",
+      "29476770",
+      "12770576",
+      "37793181",
+      "36646340",
+      "29146448",
+      "40472907",
+      "40530878",
+      "35669774",
+      "36750319",
+      "32532819",
+      "25800112",
+      "35065955",
+      "26042329",
+      "22679446",
+      "31152761",
+      "17697382",
+      "17095692",
+      "42331123",
+      "18482736",
+      "26052017",
+      "25517999",
+      "8449368",
+      "32180018",
+      "30995452",
+      "26049063",
+      "27776779",
+      "32940448",
+      "41641265",
+      "33340590",
+      "24008017",
+      "29738808",
+      "30923941",
+      "31334134",
+      "34440622",
+      "29051762",
+      "31066339",
+      "20196874",
+      "38732232",
+      "34709692",
+      "37398667",
+      "37305042",
+      "39192124",
+      "26592964",
+      "15827237",
+      "32142875",
+      "36002084",
+      "40838877",
+      "34445642",
+      "39438030",
+      "33643289",
+      "30107261",
+      "21046016",
+      "19594626",
+      "34738270"
+    ],
+    "review": [
+      "42622631",
+      "28713368",
+      "19887082",
+      "40622552",
+      "11414357",
+      "32222357",
+      "31430488",
+      "35290688",
+      "25295041",
+      "15753628",
+      "36750319",
+      "17095692",
+      "32180018",
+      "27776779",
+      "32940448",
+      "31334134",
+      "34440622",
+      "31066339",
+      "34709692",
+      "37398667",
+      "40838877",
+      "34445642",
+      "21046016",
+      "19594626"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://academic.oup.com/jimmunol/article-lookup/doi/10.1093/jimmun/vkag213",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

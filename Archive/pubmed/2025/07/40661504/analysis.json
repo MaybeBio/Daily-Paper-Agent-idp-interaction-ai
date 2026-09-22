@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40661504",
+  "title": "Controlling Multicomponent Condensate Morphology via Additive-Modulated Interactions.",
+  "authors": "Wang, Jiahui; Nikoubashman, Arash; Kim, Young C; Mittal, Jeetain",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-07-15",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究小分子共溶质如何通过调节组分间相互作用和化学计量比来控制多组分凝聚体的形态（如核壳/去润湿），虽对象为凝聚体形态而非直接PPI，但机制建模思路对无序蛋白介导的相分离互作调控有直接启发。",
+  "abstract": "The morphology of biomolecular condensates plays a critical role in regulating intracellular organization and function by enabling both spatial and temporal control over biochemical processes. Recent studies have shown that small-molecule cosolutes can not only modulate phase separation but also influence condensate morphology. However, the mechanistic understanding of how small molecules regulate condensate structure remains limited. In this study, we employ coarse-grained molecular dynamics simulations to investigate how the morphology of two-component condensates can be modulated through the introduction of additional small-molecule cosolutes. By systematically varying the interaction strengths between the small molecules and the macromolecular components, we observe morphological transitions between, e.g., core-shell and dewetted structures. To rationalize these transitions, we calculate second virial coefficients in the presence of the small molecules, providing a molecular-level framework to capture shifts in effective homotypic and heterotypic interactions. We further investigate the role of stoichiometry between the small molecules and macromolecules, demonstrating that stoichiometry and interaction strength jointly determine the condensate morphology by altering the relative interaction strengths among components. Additionally, we show that fully miscible two-component condensates can undergo transitions to microphase-separated morphologies, such as core-shell or dewetted, upon small molecule introduction. Together, these findings reveal that condensate morphology can be rationally tuned through interaction- and stoichiometry-dependent mechanisms, offering molecular-scale insights into how small-molecule cosolutes modulate condensate structure.",
+  "abstract_zh": "生物分子凝聚体的形态在调控细胞内组织和功能中起着关键作用，通过实现对生化过程的空间和时间控制。近期研究表明，小分子共溶质不仅能调节相分离 (phase separation)，还能影响凝聚体形态。然而，关于小分子如何调控凝聚体结构的机制理解仍有限。在本研究中，我们采用粗粒化分子动力学 (molecular dynamics) 模拟，探讨如何通过引入额外的小分子共溶质来调节双组分凝聚体的形态。通过系统变化小分子与大分子组分之间的相互作用强度，我们观察到形态转变，例如核-壳 (core-shell) 和去润湿 (dewetted) 结构之间的转换。为合理化这些转变，我们计算了存在小分子时的第二维里系数，提供了一个分子层面的框架来捕捉同型与异型有效相互作用的偏移。我们进一步研究了小分子与大分子之间化学计量比的作用，证明化学计量比和相互作用强度共同决定凝聚体形态，通过改变组分间的相对相互作用强度。此外，我们展示了完全混溶的双组分凝聚体在小分子引入后可经历向微相分离形态（如核-壳或去润湿）的转变。综合这些发现，凝聚体形态可通过依赖相互作用和化学计量比的机制进行理性调控，为小分子共溶质如何调节凝聚体结构提供了分子尺度的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40661504/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40661504/",
+  "paper_page_path": "papers/pubmed/40661504/index.html"
+}

@@ -1,0 +1,121 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results and Discussion, Materials and Methods, Conclusions) as provided by the user. No figures, tables, supplementary materials, or references were included in the supplied material.
+- **Assessment boundary** The review assesses the scientific claims, methodological soundness, and presentation quality of the manuscript as described in the provided text. It does not evaluate the actual simulation data, figures, or code, which were not accessible.
+- **Shared manuscript claim summary** The authors present a new hybrid united-atom/coarse-grained (UA-CG) force field that couples the PACE UA peptide model with the MARTINI CG framework. They claim this model can simulate amyloid formation within biomolecular condensates, capturing both chemistry-specific contacts and mesoscale phase behavior. Using this model, they report a multi-step aggregation pathway for the LVFFAR9 peptide involving micelle-like intermediates, reaction-limited cluster coalescence, and amyloid polymorphism dependent on peptide stoichiometry.
+- **Visible evidence base** The manuscript text describes results from ten-microsecond simulations, including aggregate size evolution, cluster growth power laws, β-sheet content analysis, and structural characterization of amyloid registry. The methods section describes a two-stage parameter optimization strategy against all-atom PMFs and Rg distributions. The authors reference figures (Figures 1-5), a supplementary movie (Movie S1), and a supplementary figure (Figure S1), but these are not provided in the supplied material.
+- **Missing materials affecting confidence** Figures 1-5, Movie S1, Figure S1, all simulation trajectory data, the GitHub repository contents, and the full reference list are not available. The absence of these materials prevents independent verification of the quantitative results, the quality of the PMF fits, the structural interpretations, and the statistical significance of the reported differences between simulation conditions.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem: developing computational models capable of simulating amyloid formation within biomolecular condensates. The hybrid UA-CG approach is conceptually appealing, as it attempts to balance chemical detail with computational efficiency. The two-stage parameterization strategy is sensible and follows recent trends in the field. However, the manuscript as presented has several significant weaknesses. The description of the parameterization is incomplete, particularly regarding the treatment of charged residues and the validation of the cross-interaction parameters. The central claims about the aggregation pathway, the electrostatic coalescence barrier, and the stoichiometry-dependent polymorphism are based on limited simulation data (three independent runs per condition) and lack sufficient quantitative detail to be fully evaluated. The writing is sometimes unclear, and the manuscript would benefit from a more rigorous presentation of the methods and results. The potential of the approach is clear, but the current evidence does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers in the fields of computational biophysics, molecular simulation, and amyloid biology would be interested. Specifically, those developing multiscale or hybrid-resolution force fields, those studying liquid-liquid phase separation of proteins, and those investigating the molecular mechanisms of amyloid aggregation within condensates would find the methodological framework and the reported aggregation pathway of interest. The work could also appeal to a broader audience interested in the physics of biomolecular condensates and their role in disease.
+- **Major strengths**
+  1. The hybrid UA-CG approach is a novel and potentially powerful strategy to address the timescale and resolution challenges in simulating amyloid formation within condensates.
+  2. The two-stage parameterization strategy, combining PMF-based optimization with Rg-based refinement, is a rigorous and systematic approach to developing cross-resolution interactions.
+  3. The application to a specific, experimentally relevant system (LVFFAR9) and the identification of micelle-like intermediates and a reaction-limited coalescence step provide potentially valuable mechanistic insights.
+  4. The authors make their simulation setup files openly available, which is commendable for reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the hybrid UA-CG model can "capture both parallel and anti-parallel registry polymorphism within amyloid β-sheets" and that the LVFFAR9-to-R9 ratio "affects not only the growth kinetics and the final size of the LVFF clusters within the aggregate but also the subtle structural arrangements within those LVFF clusters."
+  - **Evidence pointer** Section 2.5, Section 2.6, Figure 3e, Figure 4 (figures not provided)
+  - **Concern** The claim of capturing amyloid polymorphism is based on a single analysis of "the largest LVFF clusters" from three independent simulations per condition. The manuscript does not provide sufficient statistical detail (e.g., number of clusters analyzed, distribution of registry types across replicates, error bars) to assess the robustness of the reported 40% amyloid content and the 24% versus 16% parallel/anti-parallel split. Similarly, the claim that a lower LVFFAR9 fraction reverses the preference from parallel to anti-parallel is based on a comparison of 24%/16% versus 16%/28%. Without error estimates or replicate-level data, it is impossible to determine if these differences are statistically significant or within the noise of the simulation. The structural assignment of "amyloid" and the specific registry definitions are not described in sufficient detail.
+  - **Why it matters** The central scientific claims of the paper hinge on the ability of the model to reproduce experimentally observed polymorphism and its dependence on composition. If the reported differences are not statistically robust, the conclusions about the mechanism and the model's predictive power are not supported.
+  - **Resolution test** The authors must provide a detailed statistical analysis of the polymorphism data, including the number of independent clusters analyzed, the distribution of registry types across all replicates, and appropriate error bars or confidence intervals. They should also clearly define the geometric criteria used to classify a structure as "amyloid" and to distinguish parallel from anti-parallel registry. Ideally, they would show that the observed preferences are consistent across all three replicates, not just in the aggregate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the fusion of micelle-like clusters is "reaction-limited due to an electrostatic coalescence barrier" and attribute this barrier to "electrostatic repulsion between the positively charged outer layers of the micelle-like nanostructures."
+  - **Evidence pointer** Section 2.4, Figure 3d, Figure S1 (not provided)
+  - **Concern** The evidence for the electrostatic barrier is indirect. The manuscript reports that clusters approach to ~25-35 Å and then separate, and that the growth exponent is α = 0.25. However, no direct calculation of the electrostatic potential or force between clusters is presented. The claim that the barrier is electrostatic is an inference based on the known positive charge of the R9 corona. Alternative explanations, such as steric hindrance from the corona or the free energy cost of desolvating the charged corona, are not discussed or ruled out. The manuscript does not present any control simulations (e.g., with altered electrostatics or a charge-neutralized corona) to test this hypothesis.
+  - **Why it matters** The proposed mechanism of a reaction-limited, electrostatically driven coalescence barrier is a key finding of the paper. If the mechanism is not correctly identified, the understanding of the aggregation pathway is flawed, and the model's utility for predicting the behavior of other systems is diminished.
+  - **Resolution test** The authors should provide direct evidence for the electrostatic barrier. This could include calculating the potential of mean force between two clusters as a function of distance, decomposing the interaction energy into electrostatic and van der Waals components, or performing a control simulation where the charges on the R9 residues are neutralized to see if coalescence becomes diffusion-limited. At minimum, they should discuss and rule out alternative mechanisms.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the two-stage parameterization strategy, optimizing against PMFs and Rg, "establishes a robust protocol for developing such multiscale models."
+  - **Evidence pointer** Section 2.1, Section 2.2, Section 3.2, Figures 1-2 (not provided)
+  - **Concern** The description of the parameterization is incomplete. The manuscript states that 12 side-chain analogs were used, but it does not specify which 12 of the 18 possible amino acids were chosen and why. More critically, the treatment of charged residues (Arg, Lys, Glu, Asp) is not described in detail. The manuscript mentions that the R9 segment is modeled with MARTINI, but the cross-interactions between the charged CG beads and the UA atoms are not discussed. The PMF optimization is described as being against "all-atom side chain potentials of mean force," but the details of the fitting procedure (e.g., the objective function, the optimization algorithm, the weights assigned to different pairs) are not provided. The manuscript also does not report the final values of the optimized parameters or the quality of the fit (e.g., the average deviation is given, but not the maximum deviation or the deviation for specific problematic pairs).
+  - **Why it matters** The validity of the entire simulation approach rests on the quality of the cross-resolution parameters. Without a detailed description of the parameterization, it is impossible for others to reproduce the work or to assess whether the parameters are transferable to other systems. The claim of a "robust protocol" is not supported by the level of detail provided.
+  - **Resolution test** The authors should provide a complete description of the parameterization procedure, including the list of side-chain analogs used, the treatment of charged species, the fitting algorithm and objective function, and a table of the final optimized parameters. They should also show a comparison of the hybrid PMFs to the all-atom reference PMFs for all 144 pairs, not just a summary statistic.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that their simulations "reveal rapid droplet formation populated by micelle like nanostructures" and that "β structures emerge once clusters exceed ~10 peptides."
+  - **Evidence pointer** Section 2.3, Section 2.4, Figure 3 (not provided)
+  - **Concern** The manuscript does not provide a clear definition of what constitutes a "micelle-like nanostructure" or how it is identified in the simulation. The critical cluster size of ~10 peptides for β-sheet emergence is presented as a single number without a clear definition of how it was determined or its uncertainty. The manuscript also does not discuss whether this critical size is sensitive to the simulation conditions (e.g., concentration, temperature) or the force field parameters.
+  - **Why it matters** These are key quantitative findings of the paper. Without clear definitions and uncertainty estimates, it is difficult for the reader to judge the significance of these numbers or to compare them with future work.
+  - **Resolution test** The authors should provide a clear operational definition of "micelle-like nanostructure" (e.g., based on cluster size, shape, and internal structure) and describe the algorithm used to identify them. They should also describe how the critical cluster size for β-sheet emergence was determined and provide an estimate of its uncertainty, perhaps by analyzing the data from the three independent simulations separately.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract contains a grammatical error: "refined through universal parameter scaling by matching radius of gyration distributions for specific systems using." The sentence is incomplete and ends with "using," which is unclear.
+  - **Required correction** The sentence should be rewritten, for example: "refined through universal parameter scaling by matching radius of gyration distributions for specific systems."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Section 2.6, location not provided
+  - **Issue** The sentence "This result is largely in accord with the experimental observation that [34]." is incomplete. The citation is placed after "that" without stating what the experimental observation is.
+  - **Required correction** The sentence should be completed, for example: "This result is largely in accord with the experimental observation that lower LVFFAR9 fractions suppress amyloid formation [34]."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2, location not provided
+  - **Issue** The text states "It is noted that MARTINI 22 defines backbone bead types based on the backbone's secondary structure: N0/Nd/Na for helices, P5 for coils, and Nda for extended structures, excluding Ala and Pro." This is a repetition of the previous sentence and is redundant.
+  - **Required correction** Remove the redundant sentence.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2, location not provided
+  - **Issue** The text mentions "the LKVFFR9 peptide" but the peptide is referred to as "LVFFAR9" throughout the rest of the manuscript. This is likely a typo.
+  - **Required correction** Correct the peptide name to "LVFFAR9".
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The text states "Figure 1. summarizes all the pairwise PMFs" with a period after "Figure 1". This is a formatting error.
+  - **Required correction** Remove the period: "Figure 1 summarizes all the pairwise PMFs".
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3, location not provided
+  - **Issue** The text states "The combined simulation concentration of LVFFAR9 and R9 is approximately 27 mM." It is unclear if this is the concentration of each species or the total concentration. The experimental concentration is given as ~1 mM, but it is not clear if this is the same definition.
+  - **Required correction** Clarify the definition of concentration used in the simulation and how it compares to the experimental condition.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Section 2.4, location not provided
+  - **Issue** The phrase "the size of the largest cluster of LVFF segments continued to grow within the large aggregate" is somewhat ambiguous. It is unclear if "size" refers to the number of peptides or the physical dimensions of the cluster.
+  - **Required correction** Clarify the definition of "size" (e.g., number of peptides, radius of gyration) when referring to cluster growth.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of statistical analysis for polymorphism claims.
+  - R1-M2: Insufficient evidence for the electrostatic coalescence barrier mechanism.
+  - R1-M3: Incomplete description of the parameterization procedure.
+- **Assessment against Nature-style criteria**
+  - **Originality** The hybrid UA-CG approach is a novel contribution. While other multiscale methods exist, the specific combination of PACE and MARTINI for this application, and the two-stage parameterization strategy, appear to be new. The application to a specific peptide system with a focus on condensate-mediated amyloid formation is timely.
+  - **Scientific importance** The problem of understanding amyloid formation within condensates is of high importance. If the model is validated, it could provide a valuable tool for the community. However, the current manuscript does not fully establish the model's predictive power or the generality of the proposed mechanism. The importance is therefore potential rather than fully demonstrated.
+  - **Interdisciplinary readership** The topic is of interest to biophysicists, computational chemists, and cell biologists studying phase separation and amyloid disease. The manuscript is written in a way that is largely accessible to these groups, though some methodological details are lacking.
+  - **Technical soundness** The technical soundness is currently not fully established. The parameterization is not described in sufficient detail, and the key mechanistic claims lack statistical support. The use of a single system (LVFFAR9) and a limited number of replicates raises questions about the robustness of the findings.
+  - **Readability for nonspecialists** The manuscript is generally readable, but the abstract and some sections contain grammatical errors and unclear phrasing. The introduction and conclusions are clear, but the results section would benefit from more explicit definitions of key terms and concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the topic is important. However, the manuscript in its current form does not provide sufficient evidence to fully support the central claims. The authors must address the concerns regarding statistical analysis, mechanistic evidence, and methodological detail before the case is established.
+
+## Risk / unsupported claims
+- The claim that the model "can capture both parallel and anti-parallel registry polymorphism" is unsupported due to lack of statistical analysis.
+- The claim that the coalescence barrier is "electrostatic" is unsupported by direct evidence.
+- The claim that the two-stage parameterization "establishes a robust protocol" is unsupported due to incomplete methodological description.
+- The claim that "β structures emerge once clusters exceed ~10 peptides" is presented without a clear definition or uncertainty estimate.
+- The claim that the simulation results are "largely in accord with the experimental observation" is unverifiable without the specific experimental data being cited and compared.
+- The generalizability of the approach to other amyloidogenic peptides is not demonstrated and is therefore an unsupported extrapolation.

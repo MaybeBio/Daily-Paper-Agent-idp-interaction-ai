@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41944692",
+  "title": "Interfacial Structure of Positively Charged Polypeptide Condensates.",
+  "authors": "Wang, Yajing; Zhang, Pengfei; Wang, Zhen-Gang",
+  "journal": "Biomacromolecules",
+  "published_date": "2026-04-07",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用非均匀平均场理论建模带正电多肽凝聚体的界面结构，聚焦静电与芳香族非静电相互作用的协同机制，虽非AI/分子动力学方法，但以物理理论深入揭示IDP凝聚体界面PPI相关组织机制，对本课题的相分离互作机制建模有直接启发。",
+  "abstract": "The interface of biomolecular condensates plays a crucial role in droplet stability, growth, and biochemical function, yet their properties remain poorly understood. Here, we develop an inhomogeneous mean-field theory to investigate the interfacial structure of condensates formed by polypeptides containing positively charged, polar, and aromatic residues in aqueous solutions. Our study focuses on the synergistic interplay between electrostatic interactions among charged residues and specific nonelectrostatic interactions among aromatics. We systematically explore how charge fraction alpha, aromatic fraction beta, specific interaction strength epsilon(s), and salt concentration rho(s) regulate interfacial organization in aqueous solutions. At finite alpha, the condensate interface typically exhibits an electric double-layer structure with a positively charged periphery surrounded by a diffuse counterion cloud. In the absence of added salt, the polypeptide concentration profile develops a depletion layer on the supernatant side and an overshoot on the coacervate side of the interface. Increasing rho(s) narrows the interfacial width and weakens the local charge separation in condensates stabilized by specific attractions. The electrostatic potential displays an asymmetric diffuse profile across the interface. Overall, our predictions are qualitatively consistent with experimental observations, and the insights provided here may aid the rational design of biomolecular condensates with tailored interfacial properties.",
+  "abstract_zh": "生物分子凝聚体的界面在液滴稳定性、生长及生化功能中起着关键作用，然而其性质仍未被充分理解。在此，我们发展了一种非均匀平均场理论，以研究由含正电荷、极性和芳香族残基的多肽在水溶液中形成的凝聚体的界面结构。我们的研究聚焦于带电残基间的静电相互作用与芳香族残基间特异性非静电相互作用的协同效应。我们系统探讨了电荷分数alpha、芳香族分数beta、特异性相互作用强度epsilon(s)及盐浓度rho(s)如何调控水溶液中的界面组织。在有限alpha下，凝聚体界面通常呈现电双层结构，即带正电的外围被扩散的反离子云包围。在无外加盐的情况下，多肽浓度分布在上清液侧形成耗尽层，而在凝聚体侧界面处形成过冲。增加rho(s)会缩小界面宽度，并削弱由特异性吸引稳定的凝聚体中的局部电荷分离。静电势在界面间呈现不对称的扩散分布。总体而言，我们的预测与实验观察定性一致，此处提供的见解可能有助于合理设计具有定制界面性质的生物分子凝聚体。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41944692/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41944692/",
+  "paper_page_path": "papers/pubmed/41944692/index.html"
+}

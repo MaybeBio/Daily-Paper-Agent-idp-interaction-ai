@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "41544898",
+    "doi": "10.1016/j.drudis.2026.104603",
+    "title": "Intrinsically disordered proteins and liquid-liquid phase separation in drug discovery."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) and their involvement in liquid-liquid phase separation (LLPS) have reshaped our understanding of how cells organize biochemical reactions in space and time. Unlike structured proteins, IDPs populate highly dynamic conformational ensembles that promote weak, multivalent interactions and enable the formation of biomolecular condensates (BCs). When these phase-separation processes become dysregulated, they often contribute to diseases, including cancer, neurodegeneration, viral infection, and certain metabolic disorders. This emerging biology presents both conceptual challenges and promising opportunities for drug discovery. Therapeutic strategies now extend beyond classical small molecules to include physicochemical modulators, post-translational modification mimetics, peptides, nanobodies, and targeted protein degradation tools such as PROTACs (proteolysis-targeting chimeras). In parallel, artificial intelligence and advanced computational methods are beginning to illuminate the complex conformational landscapes of IDPs and provide new ways to predict, screen, and optimize modulators of condensate behavior. However, major obstacles remain, including the intrinsic heterogeneity of disordered regions, context-dependent condensate properties, and variability across cell types and patients. Addressing these hurdles will require integrated advances in biosensors, high-throughput screening, quantitative imaging, and delivery technologies. Together, these developments are paving the way for a new generation of targeted therapies that exploit or correct the phase behavior of IDPs.",
+    "keywords": [
+      "condensatopathies",
+      "drug discovery",
+      "intrinsically disordered proteins (IDPs)",
+      "liquid-liquid phase separation (LLPS)",
+      "targeted protein degradation",
+      "therapeutics"
+    ],
+    "mesh_terms": [
+      "Phase Separation",
+      "Humans",
+      "*Drug Discovery/methods",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Animals",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Deka, Nilakshi",
+        "Nag, Niharika",
+        "Tripathi, Timir"
+      ],
+      "short_names": [
+        "Deka N",
+        "Nag N",
+        "Tripathi T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular and Structural Biophysics Laboratory, Department of Zoology, School of Life Sciences, North-Eastern Hill University, Shillong 793022, India.",
+        "Molecular and Structural Biophysics Laboratory, Department of Biochemistry, School of Life Sciences, North-Eastern Hill University, Shillong 793022, India.",
+        "Molecular and Structural Biophysics Laboratory, Department of Zoology, School of Life Sciences, North-Eastern Hill University, Shillong 793022, India. Electronic address: timir.tripathi@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Deka, Nilakshi",
+        "short_name": "Deka N",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Structural Biophysics Laboratory, Department of Zoology, School of Life Sciences, North-Eastern Hill University, Shillong 793022, India."
+        ]
+      },
+      {
+        "full_name": "Nag, Niharika",
+        "short_name": "Nag N",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Structural Biophysics Laboratory, Department of Biochemistry, School of Life Sciences, North-Eastern Hill University, Shillong 793022, India."
+        ]
+      },
+      {
+        "full_name": "Tripathi, Timir",
+        "short_name": "Tripathi T",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Structural Biophysics Laboratory, Department of Zoology, School of Life Sciences, North-Eastern Hill University, Shillong 793022, India. Electronic address: timir.tripathi@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Drug discovery today"
+    ],
+    "journal_abbrev": [
+      "Drug Discov Today"
+    ],
+    "pub_date": "2026 Mar",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/17 00:36",
+    "fetched_at": "2026-09-17 23:51:24"
+  },
+  "links": {
+    "cites": [
+      "42074305"
+    ],
+    "refs": [],
+    "similar": [
+      "41544898",
+      "40616404",
+      "39947751",
+      "39510346",
+      "41480717",
+      "33260713",
+      "26549326",
+      "39987501",
+      "39225535",
+      "38982922",
+      "33917117",
+      "36524527",
+      "35883530",
+      "41946638",
+      "34716273",
+      "41206632",
+      "33076213",
+      "41524628",
+      "35179885",
+      "41457474",
+      "42106138",
+      "36768473",
+      "38526948",
+      "42190015",
+      "32020911",
+      "38252962",
+      "41904596",
+      "36350034",
+      "30471705",
+      "40748104",
+      "40943143",
+      "34680048",
+      "37290157",
+      "33555894",
+      "29511089",
+      "36657879",
+      "31911439",
+      "41774984",
+      "39833115",
+      "38296708",
+      "38855848",
+      "38348795",
+      "40792356",
+      "28924037",
+      "32371601",
+      "38987470",
+      "34390736",
+      "30471685",
+      "34922214",
+      "41497175",
+      "40588121",
+      "38097100",
+      "40325419",
+      "37219402",
+      "32135192",
+      "37992221",
+      "40913895",
+      "35142991",
+      "21686180",
+      "26387099",
+      "39828029",
+      "36444977",
+      "37782899",
+      "41781700",
+      "31054969",
+      "31425549",
+      "42214054",
+      "29068531",
+      "41477739",
+      "30979035",
+      "30278223",
+      "24008243",
+      "33069007",
+      "37222424",
+      "23912807",
+      "33719450",
+      "41500492",
+      "41433062",
+      "41385825",
+      "39433443",
+      "38825770",
+      "32824618",
+      "33913240",
+      "40490488",
+      "33812316",
+      "37964343",
+      "38597222",
+      "42202935",
+      "31139718",
+      "30471704",
+      "40306367",
+      "33930220",
+      "29526694",
+      "41596484",
+      "42243951",
+      "42290014",
+      "38322526",
+      "34029402",
+      "39537071",
+      "30066087"
+    ],
+    "review": [
+      "41544898",
+      "40616404",
+      "39947751",
+      "41480717",
+      "33260713",
+      "26549326",
+      "38982922",
+      "33917117",
+      "36524527",
+      "41946638",
+      "41206632",
+      "35179885",
+      "32020911",
+      "41904596",
+      "36350034",
+      "30471705",
+      "40943143",
+      "34680048",
+      "31911439",
+      "41774984",
+      "38296708",
+      "38855848",
+      "38348795",
+      "34390736",
+      "34922214",
+      "41497175",
+      "38097100",
+      "40325419",
+      "37219402",
+      "32135192",
+      "40913895",
+      "35142991",
+      "21686180",
+      "26387099",
+      "39828029",
+      "41781700",
+      "31054969",
+      "29068531",
+      "30979035",
+      "30278223",
+      "24008243",
+      "33069007",
+      "41500492",
+      "41385825",
+      "32824618",
+      "33913240",
+      "40490488",
+      "33812316",
+      "38597222",
+      "33930220",
+      "41596484",
+      "42243951",
+      "42290014",
+      "30066087"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1359-6446(26)00008-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40269159",
+  "title": "Deciphering disordered regions controlling mRNA decay in high-throughput.",
+  "authors": "Lobel, Joseph H; Ingolia, Nicholas T",
+  "journal": "Nature",
+  "published_date": "2025-04-24",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过高通量突变与机器学习解析无序区域调控mRNA降解的分子特征，虽涉及IDR功能机制，但聚焦RNA代谢而非蛋白-蛋白互作建模，方法上机器学习应用较浅，缺乏AI/物理模拟的机制建模深度。",
+  "abstract": "Intrinsically disordered regions within proteins drive specific molecular functions despite lacking a defined structure(1,2). Although disordered regions are integral to controlling mRNA stability and translation, the mechanisms underlying these regulatory effects remain unclear(3). Here we reveal the molecular determinants of this activity using high-throughput functional profiling. Systematic mutagenesis across hundreds of regulatory disordered elements, combined with machine learning, reveals a complex pattern of molecular features important for their activity. The presence and arrangement of aromatic residues strongly predicts the ability of seemingly diverse protein sequences to influence mRNA stability and translation. We further show how many of these regulatory elements exert their effects by engaging core mRNA decay machinery. Our results define molecular features and biochemical pathways that explain how disordered regions control mRNA expression and shed light on broader principles within functional, unstructured proteins.",
+  "abstract_zh": "蛋白质内部的无序区域尽管缺乏明确结构，却驱动特定的分子功能(1,2)。尽管无序区域在调控mRNA稳定性和翻译中不可或缺，但这些调控效应背后的机制仍不清楚(3)。在此，我们通过高通量功能分析揭示了这一活性的分子决定因素。对数百个调控性无序元件进行系统性突变，结合机器学习，揭示出对其活性至关重要的复杂分子特征模式。芳香族残基的存在和排列强烈预测了看似多样的蛋白质序列影响mRNA稳定性和翻译的能力。我们进一步展示了这些调控元件中的许多如何通过参与核心mRNA降解机制来发挥其效应。我们的结果定义了无序区域控制mRNA表达的分子特征和生化途径，并阐明了功能性、无结构蛋白质中的更广泛原则。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40269159/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40269159/",
+  "paper_page_path": "papers/pubmed/40269159/index.html"
+}

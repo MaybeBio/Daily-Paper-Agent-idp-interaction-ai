@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.08.10.503436",
+  "title": "Protein Fold Classification using Graph Neural Network and Protein Topology Graph",
+  "authors": "Suri Dipannita Sayeed; Jan Niclas Wolf; Ina Koch; Guang Song",
+  "journal": "bioRxiv",
+  "published_date": "2022-08-13",
+  "window": {
+    "start": "2022-08-08",
+    "end": "2022-08-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用图神经网络对蛋白质折叠结构进行分类，对象为折叠蛋白而非无序蛋白/IDR，且不涉及PPI或互作机制建模，仅方法上（GNN+拓扑图）对结构建模有间接启发。",
+  "abstract": "Protein fold classification reveals key structural information about proteins that is essential for understanding their function. While numerous approaches exist in the literature that classifies protein fold from sequence data using machine learning, there is hardly any approach that classifies protein fold from the secondary or tertiary structure data using deep learning. This work proposes a novel protein fold classification technique based on graph neural network and protein topology graphs. Protein topology graphs are constructed according to definitions in the Protein Topology Graph Library from protein secondary structure level data and their contacts. To the best of our knowledge, this is the first approach that applies graph neural network for protein fold classification. We analyze the SCOPe 2.07 data set, a manually and computationally curated database that classifies known protein structures into their taxonomic hierarchy and provides predefined labels for a certain number of entries from the Protein Data Bank. We also analyze the latest version of the CATH data set. Experimental results show that the classification accuracy is at around 82% − 100% under certain settings. Due to the rapid growth of structural data, automating the structure classification process with high accuracy using structural data is much needed in the field. This work introduces a new paradigm of protein fold classification that meets this need. The implementation of the model for protein fold classification and the datasets are available here https://github.com/SuriDipannitaSayeed/ProteinFoldClassification.git Author summary Classification of protein structures is traditionally done using manual curation, evolutionary relationship, or sequence comparison-based methods. Applying machine learning and deep learning to protein structure classification is a comparatively new trend that holds great promises for automating the structure classification process. Advance deep learning technique like Graph Neural Network is still unexplored in this respect. SCOP and CATH are two traditional databases that provide the hierarchical taxonomic classification of protein structures. This work provides a novel computational approach that classifies protein folds in SCOP and CATH with graph neural network, performing a graph classification task.",
+  "abstract_zh": "蛋白质折叠分类揭示了关于蛋白质的关键结构信息，这些信息对于理解其功能至关重要。尽管文献中存在多种使用机器学习从序列数据对蛋白质折叠进行分类的方法，但几乎没有方法利用深度学习从二级或三级结构数据对蛋白质折叠进行分类。本研究提出了一种基于图神经网络和蛋白质拓扑图的新型蛋白质折叠分类技术。蛋白质拓扑图根据蛋白质拓扑图库中的定义，从蛋白质二级结构水平数据及其接触信息构建。据我们所知，这是首次将图神经网络应用于蛋白质折叠分类的方法。我们分析了SCOPe 2.07数据集，这是一个经过人工和计算双重整理的数据库，将已知蛋白质结构分类到其分类学层级中，并为蛋白质数据银行中的特定条目提供预定义标签。我们还分析了最新版本的CATH数据集。实验结果表明，在特定设置下，分类准确率约为82%−100%。由于结构数据的快速增长，利用结构数据以高准确性自动化结构分类过程在该领域显得尤为必要。本研究引入了一种满足这一需求的新型蛋白质折叠分类范式。用于蛋白质折叠分类的模型实现及数据集可在以下网址获取：https://github.com/SuriDipannitaSayeed/ProteinFoldClassification.git 作者摘要：蛋白质结构的分类传统上通过人工整理、进化关系或基于序列比较的方法进行。将机器学习和深度学习应用于蛋白质结构分类是一个相对较新的趋势，在自动化结构分类过程中具有巨大潜力。先进的深度学习技术，如图神经网络，在这方面仍未得到探索。SCOP和CATH是两个传统的数据库，提供蛋白质结构的层级分类学分类。本研究提供了一种新颖的计算方法，通过图神经网络对SCOP和CATH中的蛋白质折叠进行分类，执行图分类任务。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.08.10.503436",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.08.10.503436",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.08.10.503436/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.02.543394",
+  "title": "Silk Road Revealed: Mechanism of silk fibre formation in Bombyx mori",
+  "authors": "Moreno-Tortolero R; Luo Y; Parmeggiani F; Skaer N; Walker R; Serpell L; Holland C; Davis S",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-03",
+  "window": {
+    "start": "2023-05-29",
+    "end": "2023-06-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究解析了家蚕丝素重链的β-螺旋结构，揭示其N端结构域在pH降低下驱动高阶寡聚化并介导液-固转变的机制，虽对象为丝素蛋白而非典型IDP，但其寡聚化与相变机制建模思路对无序蛋白介导的PPI研究有可迁移启发。",
+  "abstract": "The transition of silk fibroin from liquid to solid is fundamental to silk-fibre production and key to the superior materials properties of native silks. Here we discover that the fibroin heavy chain from the silkworm moth Bombyx mori folds into a novel β-solenoid structure, where the N-terminal domain (NTD) promotes higher-order oligomerization driven by pH reduction. These findings elucidate the complex rheological behaviour of silk and the liquid crystalline textures within the silk gland. We also find that NTD undergoes hydrolysis during standard regeneration, explaining differences between native and regenerated silk feedstocks. Overall, this study establishes a fibroin heavy chain fold, which could be relevant for other similar proteins, and explains mechanistically its liquid-to-solid transition, driven by pH reduction and stress. <h4>One sentence summary</h4> This study redefines the molecular structure of fibroin heavy chain and its role in the transition from solution to fibre.",
+  "abstract_zh": "丝素蛋白从液态到固态的转变是丝纤维生产的基础，也是天然丝优异材料性能的关键。在此，我们发现了家蚕（Bombyx mori）丝素重链折叠成一种新型的β-螺旋结构，其中N端结构域（NTD）在pH降低的驱动下促进高阶寡聚化。这些发现阐明了丝在丝腺内复杂的流变行为及液晶织构。我们还发现，NTD在标准再生过程中发生水解，这解释了天然丝与再生丝原料之间的差异。总体而言，本研究确立了一种丝素重链折叠方式，这可能对其他类似蛋白质具有参考意义，并从机制上解释了由pH降低和应力驱动的液-固转变。<h4>一句话摘要</h4> 本研究重新定义了丝素重链的分子结构及其在从溶液到纤维转变中的作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.02.543394",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.02.543394",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.02.543394/index.html"
+}

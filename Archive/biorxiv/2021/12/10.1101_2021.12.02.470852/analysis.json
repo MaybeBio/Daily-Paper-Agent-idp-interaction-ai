@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.12.02.470852",
+  "title": "Post-Translational Modifications Optimize the Ability of SARS-CoV-2 Spike for Effective Interaction with Host Cell Receptors",
+  "authors": "Kapoor K; Chen T; Tajkhorshid E",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-03",
+  "window": {
+    "start": "2021-11-29",
+    "end": "2021-12-05"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用同源建模、对接和MD模拟构建完整糖基化SARS-CoV-2刺突蛋白模型，研究翻译后修饰如何通过铰链区动力学增强与宿主受体互作，虽对象非IDP，但互作机制建模方法可迁移至无序蛋白介导的PPI研究。",
+  "abstract": "SARS-CoV2 spike glycoprotein is prime target for vaccines and for diagnostics and therapeutic antibodies against the virus. While anchored in the viral envelope, for effective virulance, the spike needs to maintain structural flexibility to recognize the host cell surface receptors and bind to them, a property that can heavily hinge upon the dynamics of the unresolved domains, most prominently the stalk. Construction of the complete, membrane-bound spike model and the description of its dynamics remain critical steps in understanding the inner working of this key element in viral infection. Using a hybrid approach, combining homology modeling, protein-protein docking and MD simulations, guided by biochemical and glycomics data, we have developed a full-length, membrane-bound, palmitoylated and fully-glycosylated spike structure in a native membrane. Multi-microsecond MD simulations of this model, the longest known trajectory of the full-spike, reveals conformational dynamics employed by the protein to explore the crowded surface of the host cell. In agreement with cryoEM, three flexiblele hinges in stalk allow for global conformational heterogeneity of spike in the fully-glycosyslated system mediated by glycan-glycan and glycan-lipid interactions. Dynamical range of spike is considerably reduced in its non-glycosylated form, confining the area explored by the spike on the host cell surface. Furthermore, palmitoylation of the membrane domain amplify the local curvature that may prime the fusion. We show that the identified hinge regions are highly conserved in SARS coronaviruses, highlighting their functional importance in enhancing viral infection, and thereby provide novel points for discovery of alternative therapeutics against the virus. <h4>Significance</h4> SARS-CoV2 Spike protein, which forms the basis for high pathogenicity and transmissibility of the virus, is also prime target for the development of both diagnostics and vaccines for the debilitating disease caused by the virus. We present a full model of spike methodically crafted and used to study its atomic-level dynamics by multiple- µ s simulations. The results shed new light on the impact of posttranslational modifications in the pathogenicity of the virus. We show how glycan-glycan and glycan-lipid interactions broaden the protein’s dynamical range, and thereby, its effective interaction with the surface receptors on the host cell. Palmitoylation of spike membrane domain, on the other hand, results in a unique deformation pattern that might prime the membrane for fusion.",
+  "abstract_zh": "SARS-CoV2刺突糖蛋白是疫苗以及针对该病毒的诊断和治疗性抗体的主要靶点。当锚定在病毒包膜中时，为了有效发挥毒力，刺突需要保持结构灵活性以识别宿主细胞表面受体并与之结合，这一特性可能在很大程度上依赖于未解析结构域（尤其是柄部）的动态行为。构建完整的、膜结合的刺突模型并描述其动态行为，仍是理解病毒感染中这一关键要素内部机制的重要步骤。采用混合方法，结合同源建模、蛋白质-蛋白质对接和分子动力学 (molecular dynamics) 模拟，并在生物化学和糖组学数据指导下，我们开发了一个在天然膜中的全长、膜结合、棕榈酰化且完全糖基化的刺突结构。对该模型进行多微秒级分子动力学模拟（已知最长的全刺突轨迹），揭示了蛋白质在探索宿主细胞拥挤表面时所采用的构象动态。与冷冻电镜结果一致，柄部中的三个柔性铰链允许在完全糖基化系统中，通过聚糖-聚糖和聚糖-脂质相互作用介导刺突的整体构象异质性。在非糖基化形式中，刺突的动态范围显著减小，限制了其在宿主细胞表面探索的区域。此外，膜结构域的棕榈酰化增强了局部曲率，这可能为融合做好准备。我们表明，所识别的铰链区域在SARS冠状病毒中高度保守，突显了它们在增强病毒感染中的功能重要性，从而为发现针对该病毒的替代疗法提供了新靶点。\n\n<h4>意义</h4> SARS-CoV2刺突蛋白是该病毒高致病性和高传播性的基础，也是针对该病毒所致衰弱性疾病开发诊断工具和疫苗的主要靶点。我们提出了一个系统构建的完整刺突模型，并通过多微秒模拟研究其原子级动态。结果揭示了翻译后修饰对病毒致病性的新影响。我们展示了聚糖-聚糖和聚糖-脂质相互作用如何拓宽蛋白质的动态范围，从而增强其与宿主细胞表面受体的有效相互作用。另一方面，刺突膜结构域的棕榈酰化导致独特的变形模式，这可能为膜融合做好准备。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.12.02.470852",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.12.02.470852",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.12.02.470852/index.html"
+}

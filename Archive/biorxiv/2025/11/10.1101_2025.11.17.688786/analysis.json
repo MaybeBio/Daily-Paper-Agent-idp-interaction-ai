@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.17.688786",
+  "title": "ProtAttn-QuadNet: An attention-based deep learning framework for protein–protein interaction prediction using ProtBERT embeddings",
+  "authors": "Md. Shahidul Islam; Md. Muhtasim Rahman Mim; Md. Raihan Kabir",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-17",
+  "window": {
+    "start": "2025-11-17",
+    "end": "2025-11-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于ProtBERT嵌入和四流注意力机制的深度学习框架ProtAttn-QuadNet，用于序列级蛋白-蛋白互作预测，方法上属AI建模，但对象未涉及无序蛋白/IDR或相分离，且预测偏二元分类而非互作机制建模，故综合评分为6。",
+  "abstract": "Protein–protein interactions (PPIs) form the backbone of most cellular processes, governing signal transduction, gene regulation, and metabolic control. However, experimental approaches to identifying PPIs remain expensive, laborious, and often incomplete. Recent advances in protein language models (PLMs) have transformed sequence-based PPI prediction by enabling deep contextual encoding of biochemical and structural information directly from amino acid sequences. Building upon this progress, we present ProtAttn-QuadNet, an attention-based deep learning framework that leverages ProtBERT embeddings to model reciprocal dependencies between protein pairs. The proposed model employs a quad-stream attention mechanism that integrates individual protein features, synergistic interactions, and complementary differences through multi-level self- and cross-attention layers. This architecture enables the discovery of fine-grained relational patterns while ensuring balanced bidirectional modeling of interacting proteins. Evaluated on large-scale dataset from UniProt, ProtAttn-QuadNet achieves 97.16% accuracy (AUC-ROC 99.00%) on balanced data and 99.19% accuracy (AUC-ROC 99.76%) on oversampled datasets, surpassing several recent state-of-the-art PPI prediction methods. Statistical validation using the Chi-square and Wilcoxon signed-rank tests confirms the model’s predictive significance and reliability. ProtAttn-QuadNet offers a powerful computational framework for large-scale PPI prediction. Author summary Proteins work together to carry out almost every function in living cells, from sending signals to controlling metabolism. Knowing which proteins interact with each other helps scientists understand how cells work and how diseases develop. However, finding these interactions in the laboratory is often slow, costly, and incomplete. In this study, a computational model called ProtAttn-QuadNet is developed to predict protein–protein interactions using only the amino acid sequences of proteins. The model analyses each pair of proteins to find shared features and differences that indicate whether they interact. It also uses a set of attention layers that allow the model to focus on the most relevant sequence patterns. When tested on a large protein dataset, ProtAttn-QuadNet produced highly accurate and consistent results, performing better than several existing methods. These results suggest that ProtAttn-QuadNet can serve as a reliable tool for studying protein networks and may help guide future research in biology, medicine, and drug development.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）构成大多数细胞过程的核心，调控信号转导、基因调控和代谢控制。然而，实验方法识别PPIs仍然昂贵、费力且往往不完整。近年来，蛋白质语言模型（PLMs）的进展通过直接从氨基酸序列进行深度上下文编码，转变了基于序列的PPI预测。在此基础上，我们提出了ProtAttn-QuadNet，一种基于注意力的深度学习框架，利用ProtBERT嵌入来建模蛋白质对之间的相互依赖关系。该模型采用四流注意力机制，通过多层次的自注意力和交叉注意力层，整合单个蛋白质特征、协同相互作用和互补差异。这种架构能够发现细粒度的关系模式，同时确保对相互作用蛋白质的平衡双向建模。在来自UniProt的大规模数据集上评估，ProtAttn-QuadNet在平衡数据上达到97.16%的准确率（AUC-ROC 99.00%），在过采样数据集上达到99.19%的准确率（AUC-ROC 99.76%），超越了多种近期最先进的PPI预测方法。使用卡方检验和Wilcoxon符号秩检验进行的统计验证确认了模型的预测显著性和可靠性。ProtAttn-QuadNet为大规模PPI预测提供了一个强大的计算框架。\n\n作者总结 蛋白质协同工作执行活细胞中几乎每一项功能，从发送信号到控制代谢。了解哪些蛋白质相互作用有助于科学家理解细胞如何运作以及疾病如何发展。然而，在实验室中寻找这些相互作用往往缓慢、昂贵且不完整。在本研究中，开发了一种名为ProtAttn-QuadNet的计算模型，仅使用蛋白质的氨基酸序列来预测蛋白质-蛋白质相互作用。该模型分析每对蛋白质，以发现指示它们是否相互作用的共享特征和差异。它还使用一组注意力层，使模型能够聚焦于最相关的序列模式。在大型蛋白质数据集上测试时，ProtAttn-QuadNet产生了高度准确且一致的结果，优于多种现有方法。这些结果表明，ProtAttn-QuadNet可以作为研究蛋白质网络的可靠工具，并可能有助于指导生物学、医学和药物开发的未来研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688786",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.17.688786",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.17.688786/index.html"
+}

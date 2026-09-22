@@ -1,0 +1,351 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.16.688718",
+  "title": "Reliable repurposing of antibody interactome inside the cell",
+  "doi": "10.1101/2025.11.16.688718",
+  "abstract": "In biology proximity is paramount and eighty-five percent of the human proteome has at least one documented interacting monoclonal antibody. These molecules penetrate the cytoplasm poorly and are very often non-functional within the cell. Sequence analysis of 10 6 antibody variable domains alongside the cytoplasmic human proteome shows charge and isoelectric point are characteristics ill adapted to intracellular monodispersity. Characterisation of forty-five single-chain variable fragment (scFv) intrabodies expressed in human cells confirmed charge to have the greatest impact on solubility. We created new interdomain linkers, optimised scFv domain orientation and found variable heavy domain framework sites to be generally positively charged, and promote insolubility, but be amenable to optimisation. This is applied in combination to reduce the search space and refine the products of AI-led inverse folding to create highly soluble, abundant and thermally stable intrabodies that maintain parent antibody epitope recognition. Over six hundred intrabody sequences are described targeting sixty cytoplasmic proteins with linear, conformational, post-translational modification or oligomeric state specificity. Interactions were validated for p53, α-synuclein, SOD1, polyQ, FUS/TLS, UCHL1 and GFP. This approach removes obstacles hindering intracellular repurposing of the vast sequenced antibody interactome with applications relevant to many human disease states.",
+  "authors": [
+    "O’Shea CM",
+    "Shahzad R",
+    "Aghasoleimani K",
+    "Newman S",
+    "Panmanee J",
+    "Schalkwyk LC",
+    "Brooke GN",
+    "Benson FE",
+    "Trimmer JS",
+    "Bosco DA",
+    "Fujisawa T",
+    "Ichijo H",
+    "Cashman NR",
+    "Engel S",
+    "Wright GSA"
+  ],
+  "published_date": "2025-11-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.16.688718",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.16.688718.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1120488",
+    "raw_record": {
+      "id": "PPR1120488",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1120488"
+        ]
+      },
+      "doi": "10.1101/2025.11.16.688718",
+      "title": "Reliable repurposing of antibody interactome inside the cell",
+      "authorString": "O’Shea CM, Shahzad R, Aghasoleimani K, Newman S, Panmanee J, Schalkwyk LC, Brooke GN, Benson FE, Trimmer JS, Bosco DA, Fujisawa T, Ichijo H, Cashman NR, Engel S, Wright GSA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "O’Shea CM",
+            "lastName": "O’Shea",
+            "firstName": "Caitlin",
+            "initials": "CM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shahzad R",
+            "lastName": "Shahzad",
+            "firstName": "Rushba",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aghasoleimani K",
+            "lastName": "Aghasoleimani",
+            "firstName": "Kimia",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Newman S",
+            "lastName": "Newman",
+            "firstName": "Stuart",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Panmanee J",
+            "lastName": "Panmanee",
+            "firstName": "Jiraporn",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Center for Neuroscience, Institute of Molecular Biosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schalkwyk LC",
+            "lastName": "Schalkwyk",
+            "firstName": "Leonard",
+            "initials": "LC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brooke GN",
+            "lastName": "Brooke",
+            "firstName": "Greg",
+            "initials": "GN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Benson FE",
+            "lastName": "Benson",
+            "firstName": "Fiona",
+            "initials": "FE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Biomedical and Life Sciences, Faculty of Health and Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Trimmer JS",
+            "lastName": "Trimmer",
+            "firstName": "James",
+            "initials": "JS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Physiology and Membrane Biology, School of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bosco DA",
+            "lastName": "Bosco",
+            "firstName": "Daryl",
+            "initials": "DA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", 368 Plantation Street , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fujisawa T",
+            "lastName": "Fujisawa",
+            "firstName": "Takao",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cell Signalling, Graduate School of Pharmaceutical Sciences, , ,"
+                },
+                {
+                  "affiliation": "Cell Signalling and Stress Responses Laboratory, Advanced Research Initiative, Institute of Integrated Research, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ichijo H",
+            "lastName": "Ichijo",
+            "firstName": "Hidenori",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Cell Signalling, Graduate School of Pharmaceutical Sciences, , ,"
+                },
+                {
+                  "affiliation": "Cell Signalling and Stress Responses Laboratory, Advanced Research Initiative, Institute of Integrated Research, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cashman NR",
+            "lastName": "Cashman",
+            "firstName": "Neil",
+            "initials": "NR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Djavad Mowafaghian Centre for Brain Health, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Engel S",
+            "lastName": "Engel",
+            "firstName": "Stanislav",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical Biochemistry and Pharmacology, Faculty of Health Sciences, Ben-Gurion , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wright GSA",
+            "lastName": "Wright",
+            "firstName": "Gareth",
+            "initials": "GSA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Life Sciences, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "In biology proximity is paramount and eighty-five percent of the human proteome has at least one documented interacting monoclonal antibody. These molecules penetrate the cytoplasm poorly and are very often non-functional within the cell. Sequence analysis of 10  6 antibody variable domains alongside the cytoplasmic human proteome shows charge and isoelectric point are characteristics ill adapted to intracellular monodispersity. Characterisation of forty-five single-chain variable fragment (scFv) intrabodies expressed in human cells confirmed charge to have the greatest impact on solubility. We created new interdomain linkers, optimised scFv domain orientation and found variable heavy domain framework sites to be generally positively charged, and promote insolubility, but be amenable to optimisation. This is applied in combination to reduce the search space and refine the products of AI-led inverse folding to create highly soluble, abundant and thermally stable intrabodies that maintain parent antibody epitope recognition. Over six hundred intrabody sequences are described targeting sixty cytoplasmic proteins with linear, conformational, post-translational modification or oligomeric state specificity. Interactions were validated for p53, α-synuclein, SOD1, polyQ, FUS/TLS, UCHL1 and GFP. This approach removes obstacles hindering intracellular repurposing of the vast sequenced antibody interactome with applications relevant to many human disease states.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Academy of Medical Sciences",
+            "grantId": "SBF008\\1028",
+            "orderIn": 0
+          },
+          {
+            "agency": "Motor Neurone Disease Association",
+            "grantId": "Wright/Apr25/2472",
+            "orderIn": 0
+          },
+          {
+            "agency": "Motor Neurone Disease Association",
+            "grantId": "Wright/Oct18/969-799",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.16.688718"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1120488"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1120488&type=FILE&fileName=EMS210887-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41620420",
+            "reference": "Nature communications. 2026 Jan;17(1):2222",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS210887",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-11-18",
+      "firstPublicationDate": "2025-11-16",
+      "firstIndexDate": "2025-11-18",
+      "fullTextReceivedDate": "2025-12-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

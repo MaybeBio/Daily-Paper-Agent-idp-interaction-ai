@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35964158",
+  "title": "Polymyxins induce lipid scrambling and disrupt the homeostasis of Gram-negative bacteria membrane.",
+  "authors": "Fu, Lei; Li, Xiangyuan; Zhang, Shan; Dong, Yi; Fang, Weihai; Gao, Lianghui",
+  "journal": "Biophysical journal",
+  "published_date": "2022-08-15",
+  "window": {
+    "start": "2022-08-15",
+    "end": "2022-08-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究多粘菌素破坏细菌膜脂质稳态的机制，涉及膜相分离与肽转运，但对象为细菌膜脂质而非无序蛋白/IDR，且无蛋白-蛋白互作，方法可迁移性有限。",
+  "abstract": "Polymyxins are increasingly used as the last-line therapeutic option for the treatment of infections caused by multidrug-resistant Gram-negative bacteria. However, efforts to address the resistance in superbugs are compromised by a poor understanding of the bactericidal modes because high-resolution detection of the cell structure is still lacking. By performing molecular dynamics simulations at a coarse-grained level, here we show that polymyxin B (PmB) disrupts Gram-negative bacterial membranes by altering lipid homeostasis and asymmetry. We found that the binding of PmBs onto the asymmetric outer membrane (OM) loosens the packing of lipopolysaccharides (LPS) and induces unbalanced bending torque between the inner and outer leaflets, which in turn triggers phospholipids to flip from the inner leaflet to the outer leaflet to compensate for the stress deformation. Meanwhile, some LPSs may be detained on the inner membrane (IM). Then, the lipid-scrambled OM undergoes phase separation. Defects are created at the boundaries between LPS-rich domains and phospholipid-rich domains, which consequently facilitate the uptake of PmB across the OM. Finally, PmBs target LPSs detained on the IM and similarly perturb the IM. This lipid Scramble, membrane phase Separation, and peptide Translocation model depicts a novel mechanism by which polymyxins kill bacteria and sheds light on developing a new generation of polymyxins or antibiotic adjuvants with improved killing activities and higher therapeutic indices.",
+  "abstract_zh": "多粘菌素日益被用作治疗由多重耐药革兰氏阴性菌引起的感染的最后一线治疗选择。然而，由于缺乏对细胞结构的高分辨率检测，对超级细菌耐药性问题的解决因对其杀菌模式理解不足而受阻。通过进行粗粒化水平的分子动力学模拟，我们在此表明，多粘菌素B（PmB）通过改变脂质稳态和不对称性来破坏革兰氏阴性菌膜。我们发现，PmBs结合到不对称外膜（OM）上会松弛脂多糖（LPS）的堆积，并诱导内外叶之间产生不平衡的弯曲力矩，进而触发磷脂从内叶翻转到外叶以补偿应力变形。同时，一些LPS可能滞留在内膜（IM）上。随后，脂质混乱的OM发生相分离。在LPS富集域和磷脂富集域的边界处产生缺陷，这从而促进了PmB跨过OM的摄取。最后，PmBs靶向滞留在IM上的LPS，并类似地扰动IM。这种脂质混乱、膜相分离和肽转运模型揭示了一种多粘菌素杀死细菌的新机制，并为开发具有改进杀菌活性和更高治疗指数的新一代多粘菌素或抗生素佐剂提供了启示。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35964158/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35964158/",
+  "paper_page_path": "papers/pubmed/35964158/index.html"
+}

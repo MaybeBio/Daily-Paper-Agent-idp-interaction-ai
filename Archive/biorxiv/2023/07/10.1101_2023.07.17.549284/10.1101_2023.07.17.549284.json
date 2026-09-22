@@ -1,0 +1,182 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.17.549284",
+  "title": "Structural insights into complex I deficiency and assembly from the disease-related ndufs4 -/- mouse",
+  "doi": "10.1101/2023.07.17.549284",
+  "abstract": "Respiratory complex I (NADH:ubiquinone oxidoreductase) is essential for cellular energy production and NAD + homeostasis. Complex I mutations cause neuromuscular, mitochondrial diseases, such as Leigh Syndrome, but their molecular-level consequences remain poorly understood. Here, we use a popular complex I-linked mitochondrial disease model, the ndufs4 -/- mouse, to define the structural, biochemical and functional consequences of the absence of subunit NDUFS4. Cryo-EM analyses of mouse-heart ndufs4 -/- complex I revealed a loose association of the NADH-dehydrogenase module, and discrete classes containing either assembly factor NDUFAF2 or subunit NDUFS6. Subunit NDUFA12 (that replaces its paralogue NDUFAF2 in mature complex I) is absent from all classes, compounding the deletion of NDUFS4 and preventing maturation of an NDUFS4-free but otherwise complete enzyme. We propose NDUFAF2 as the recruiter of the NADH dehydrogenase module during assembly of the complex. Our results provide new molecular level understanding of the ndufs4 -/- mouse model and complex I-linked mitochondrial disease.",
+  "authors": [
+    "Yin Z",
+    "Agip AA",
+    "Bridges HR",
+    "Hirst J"
+  ],
+  "published_date": "2023-07-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.17.549284",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.17.549284.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR693240",
+    "raw_record": {
+      "id": "PPR693240",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR693240"
+        ]
+      },
+      "doi": "10.1101/2023.07.17.549284",
+      "title": "Structural insights into complex I deficiency and assembly from the disease-related  <i>ndufs4</i>  <sup>-/-</sup>  mouse",
+      "authorString": "Yin Z, Agip AA, Bridges HR, Hirst J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yin Z",
+            "lastName": "Yin",
+            "firstName": "Zhan",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3846-0147"
+            }
+          },
+          {
+            "fullName": "Agip AA",
+            "lastName": "Agip",
+            "firstName": "Ahmed-Noor",
+            "initials": "AA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3020-8262"
+            }
+          },
+          {
+            "fullName": "Bridges HR",
+            "lastName": "Bridges",
+            "firstName": "Hannah",
+            "initials": "HR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6890-6050"
+            }
+          },
+          {
+            "fullName": "Hirst J",
+            "lastName": "Hirst",
+            "firstName": "Judy",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8667-6797"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6890-6050"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8667-6797"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3020-8262"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3846-0147"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Respiratory complex I (NADH:ubiquinone oxidoreductase) is essential for cellular energy production and NAD  + homeostasis. Complex I mutations cause neuromuscular, mitochondrial diseases, such as Leigh Syndrome, but their molecular-level consequences remain poorly understood. Here, we use a popular complex I-linked mitochondrial disease model, the  ndufs4 -/- mouse, to define the structural, biochemical and functional consequences of the absence of subunit NDUFS4. Cryo-EM analyses of mouse-heart  ndufs4 -/- complex I revealed a loose association of the NADH-dehydrogenase module, and discrete classes containing either assembly factor NDUFAF2 or subunit NDUFS6. Subunit NDUFA12 (that replaces its paralogue NDUFAF2 in mature complex I) is absent from all classes, compounding the deletion of NDUFS4 and preventing maturation of an NDUFS4-free but otherwise complete enzyme. We propose NDUFAF2 as the recruiter of the NADH dehydrogenase module during assembly of the complex. Our results provide new molecular level understanding of the  ndufs4 -/- mouse model and complex I-linked mitochondrial disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/07/25/2023.07.17.549284.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.07.17.549284"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR693240"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR693240&type=FILE&fileName=EMS181499-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS181499",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-07-20",
+      "firstPublicationDate": "2023-07-17",
+      "firstIndexDate": "2023-07-22",
+      "fullTextReceivedDate": "2023-11-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

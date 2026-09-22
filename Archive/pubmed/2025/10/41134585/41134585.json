@@ -1,0 +1,193 @@
+{
+  "identity": {
+    "pmid": "41134585",
+    "doi": "10.1021/acs.jpcb.5c03912",
+    "title": "Nucleation Landscape of Biomolecular Condensates in the Grand Canonical Ensemble via Monte Carlo Simulations."
+  },
+  "content": {
+    "abstract": "We present a Monte Carlo framework for simulating the nucleation of biomolecular condensates in the grand canonical ensemble, which overcomes the limitations of fixed particle number and allows direct control of the dilute-phase concentration. Our approach combines conformation sampling with bias-enhanced cluster size sampling, enabling accurate sampling of individual cluster sizes in various conformations. Our method resolves nucleation free energy surfaces and is capable of capturing both classical and nonclassical nucleation mechanisms. We validated our method by reproducing structural properties of disordered proteins across a diverse benchmark set and by applying it to study nucleation in two phase-separating proteins, FUS-LC and NDDX4, using both HPS and MPIPI coarse-grained force fields. While both proteins exhibit classical nucleation behavior under the HPS model, only FUS-LC remains classical with MPIPI. In contrast, NDDX4 follows a nonclassical nucleation pathway under the MPIPI force field: the free-energy profile versus cluster size is convex and exhibits a local minimum, indicating the presence of metastable prenucleation clusters. Morphologically, larger clusters of NDDX4 (with MPIPI) frequently adopt a curved, horseshoe-like geometry. Although this work marks the adaptation of this Monte Carlo sampling framework, results from our initial test systems underscore the critical role of sequence composition and force-field parametrization in shaping nucleation pathways and demonstrate the utility of our framework for uncovering complex, mechanism-rich free energy landscapes in biomolecular condensation.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sepehri, Aliasghar",
+        "Zerze, Gul H"
+      ],
+      "short_names": [
+        "Sepehri A",
+        "Zerze GH"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3074-3521"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biomolecular Engineering, University of Houston, Houston, Texas 77204, United States.",
+        "Department of Chemical and Biomolecular Engineering, University of Houston, Houston, Texas 77204, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sepehri, Aliasghar",
+        "short_name": "Sepehri A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Houston, Houston, Texas 77204, United States."
+        ]
+      },
+      {
+        "full_name": "Zerze, Gül H",
+        "short_name": "Zerze GH",
+        "identifiers": [
+          "0000-0002-3074-3521"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biomolecular Engineering, University of Houston, Houston, Texas 77204, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Nov 6",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/24 12:30",
+    "fetched_at": "2026-09-17 21:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41134585",
+      "36758221",
+      "40028356",
+      "39804953",
+      "16833423",
+      "29347588",
+      "18335920",
+      "16965025",
+      "34552246",
+      "31588744",
+      "27984874",
+      "39997852",
+      "15969192",
+      "38203949",
+      "39937084",
+      "40944421",
+      "40970906",
+      "33307683",
+      "22320745",
+      "33261485",
+      "38417108",
+      "40614129",
+      "36713321",
+      "38260590",
+      "28799396",
+      "28240262",
+      "23767652",
+      "28984274",
+      "26575898",
+      "40766493",
+      "36198874",
+      "28799379",
+      "16970491",
+      "37073403",
+      "36902975",
+      "30068609",
+      "32534553",
+      "38747413",
+      "34998350",
+      "20441298",
+      "15910046",
+      "31362509",
+      "36227466",
+      "41086061",
+      "34598583",
+      "32936641",
+      "35389401",
+      "30134670",
+      "15260623",
+      "19916595",
+      "40009520",
+      "40093057",
+      "40172489",
+      "25961429",
+      "30984939",
+      "27908118",
+      "39665326",
+      "39568948",
+      "35795820",
+      "19198351",
+      "19102537",
+      "25843966",
+      "32857938",
+      "36847779",
+      "40820825",
+      "38236500",
+      "24359386",
+      "40420812",
+      "24588152",
+      "16848593",
+      "26565475",
+      "37464641",
+      "22370965",
+      "38314956",
+      "15260771",
+      "39749906",
+      "37130439",
+      "39561395",
+      "29272947",
+      "21341875",
+      "35438090",
+      "23181303",
+      "22401429",
+      "33610691",
+      "12617679",
+      "23425466",
+      "36692215",
+      "28001354",
+      "32575327",
+      "15945697",
+      "34412323",
+      "25289603",
+      "16471687",
+      "37584438",
+      "28799399",
+      "20059083",
+      "18763964",
+      "37793028",
+      "15527357",
+      "25492932"
+    ],
+    "review": [
+      "41134585",
+      "28984274"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c03912",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

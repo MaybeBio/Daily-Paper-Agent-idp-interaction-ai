@@ -1,0 +1,62 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract; no methods, figures, or supplementary data were provided
+- **Shared manuscript claim summary** The authors propose that the HIV capsid penetrates the nuclear pore complex by mimicking cellular karyopherins, using a surface pocket to interact multivalently with FG-motifs from multiple nucleoporins, thereby solubilising in and penetrating nucleoporin condensates despite being over one thousand times larger than the diffusion barrier size limit.
+- **Visible evidence base** In vitro dissection of the nuclear pore complex; demonstration of a capsid surface pocket interacting with FG-motifs; evidence that this interaction licenses capsids to penetrate nucleoporin condensates
+- **Missing materials affecting confidence** Full methods, experimental details, quantitative data, figures, statistical analyses, and any control experiments; no information on the nature of the in vitro system, the specific nucleoporins tested, or the assays used to measure condensate penetration
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually appealing and potentially significant model for HIV nuclear entry. The central idea, that the capsid exploits karyopherin-like FG-interactions to breach the nuclear pore barrier, is intellectually compelling and would be of broad interest. However, the abstract alone provides insufficient experimental detail to evaluate the robustness of the evidence. The claim of a specific surface pocket and the demonstration of condensate penetration require careful validation, and the absence of methodological information limits the ability to assess technical soundness. The work is promising but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Virologists studying HIV replication and nuclear entry; cell biologists investigating nuclear pore complex function and nucleocytoplasmic transport; biophysicists interested in phase-separated condensates and their interactions with large macromolecular assemblies; and researchers in drug development targeting capsid function, given the potential for this mechanism to inform therapeutic strategies.
+- **Major strengths** The model offers a mechanistic resolution to a long-standing paradox in HIV biology, namely how a particle vastly exceeding the diffusion limit traverses the nuclear pore. The concept of karyopherin mimicry is elegant and testable, and the use of an in vitro reconstitution approach is appropriate for dissecting the molecular basis of the interaction. The potential to explain non-destructive breaching of the nuclear envelope by an exogenous entity has broad implications beyond HIV.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that a pocket on the HIV capsid surface interacts with FG-motifs from multiple nucleoporins and that this interaction licenses capsids to penetrate nucleoporin condensates
+  - **Evidence pointer** Abstract, in vitro dissection of the nuclear pore complex; location not provided
+  - **Concern** The abstract states that a pocket on the capsid surface interacts with FG-motifs and that this interaction licenses condensate penetration, but no experimental detail is given to support the identification of this pocket, the specificity of the FG-interactions, or the quantitative nature of the penetration assay. It is unclear whether the interaction was demonstrated with purified components, whether the pocket was mapped by mutagenesis or structural methods, and whether the penetration was measured in a controlled system that distinguishes specific from non-specific effects.
+  - **Why it matters** The core of the proposed model rests on the existence of a specific, functional FG-interacting pocket. Without evidence for the identity of the pocket, the selectivity of the interaction, and the robustness of the penetration phenotype, the model remains speculative. Non-specific hydrophobic interactions between the capsid and FG-rich condensates could produce similar observations, and the claim of mimicry requires demonstration that the interaction is mechanistically analogous to karyopherin function.
+  - **Resolution test** Provide data from mutagenesis or structural studies that identify the pocket and show that its disruption abolishes FG-binding and condensate penetration. Include quantitative measurements of penetration efficiency, appropriate negative controls (e.g., capsids with mutated pockets, non-FG condensates), and a demonstration that the interaction is multivalent and FG-motif dependent.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The claim that the intact HIV capsid is over one thousand times greater than the size-limit prescribed by the nuclear pore’s diffusion barrier and that the capsid can non-destructively breach the nuclear envelope
+  - **Evidence pointer** Abstract, summary paragraph; location not provided
+  - **Concern** The abstract asserts a size comparison and a non-destructive breach, but no experimental evidence is presented to support the non-destructive nature of the entry or to rule out alternative mechanisms such as transient pore dilation or active remodelling of the pore complex. The in vitro system described may not fully recapitulate the in vivo nuclear pore environment, and the relevance of the condensate penetration assay to the intact nuclear pore is not established.
+  - **Why it matters** The claim of non-destructive entry is central to the model’s novelty, distinguishing it from mechanisms involving pore disruption. If the capsid entry involves any structural alteration to the pore, the karyopherin mimicry model would be incomplete. Additionally, the size comparison is used to frame the conceptual challenge, but the relevance of the diffusion barrier size limit to a particle that may engage in active, facilitated transport is not clarified.
+  - **Resolution test** Include imaging or biochemical evidence from intact cells or isolated nuclear envelopes showing that capsid entry does not disrupt pore structure. Provide a quantitative comparison of capsid size to the effective pore limit under conditions of facilitated transport, and discuss how the in vitro condensate system relates to the native pore environment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of karyopherin mimicry
+  - **Evidence pointer** Abstract, summary paragraph; location not provided
+  - **Issue** The term "karyopherin mimicry" is introduced but not defined in terms of the specific molecular features that are mimicked, such as the FG-binding pocket architecture or the multivalency of interactions.
+  - **Required correction** Provide a brief definition of what constitutes mimicry in this context, including the key structural or functional features shared with karyopherins.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Description of the in vitro system
+  - **Evidence pointer** Abstract, in vitro dissection of the nuclear pore complex; location not provided
+  - **Issue** The abstract does not specify which nucleoporins were used, how the condensates were formed, or the composition of the system, making it difficult to assess the physiological relevance.
+  - **Required Correction** Briefly describe the components of the in vitro system, including the nucleoporins and the method of condensate formation, in the abstract or refer to methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Claim of explaining entry of an exogenous entity larger than any known cellular cargo
+  - **Evidence pointer** Abstract, final sentence; location not provided
+  - **Issue** The claim that the model explains how any exogenous entity larger than known cargo can breach the nuclear envelope is broad and may overreach beyond the HIV-specific data presented.
+  - **Required correction** Soften the claim to refer specifically to the HIV capsid and note that the general applicability to other large exogenous entities would require further investigation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The identification of the capsid pocket and the demonstration of specific, multivalent FG-interactions are essential to support the mimicry model. The non-destructive nature of entry and the physiological relevance of the in vitro system must be validated. Without these, the case for karyopherin mimicry as the mechanism of nuclear pore penetration is not established.
+- **Assessment against Nature-style criteria** Originality: The concept of karyopherin mimicry by a viral capsid is highly original and offers a fresh perspective on a well-studied problem. Scientific importance: The work addresses a fundamental question in HIV biology and has implications for understanding nuclear transport mechanisms, making it potentially important. Interdisciplinary readership: The topic bridges virology, cell biology, and biophysics, and would attract readers across these fields. Technical soundness: Cannot be fully assessed from the abstract alone; the lack of methodological detail and quantitative data prevents evaluation of the robustness of the experiments. Readability for nonspecialists: The abstract is clearly written and accessible, with the key concepts explained in a way that nonspecialists can follow, though the term "karyopherin mimicry" could be better defined.
+- **Recommendation posture** Supportive if technical concerns are resolved. The model is compelling and the abstract suggests a well-designed in vitro approach, but the evidence base is insufficient to establish the case. Full evaluation requires access to the methods, figures, and quantitative data.
+
+## Risk / unsupported claims
+- The claim that the capsid pocket interacts with FG-motifs from multiple nucleoporins is unsupported without experimental identification of the pocket and demonstration of the interaction.
+- The claim that the interaction licenses capsids to penetrate nucleoporin condensates is unsupported without quantitative penetration data and appropriate controls.
+- The claim of non-destructive breach of the nuclear envelope is unsupported and not directly tested in the described in vitro system.
+- The general claim that the model explains how any exogenous entity larger than known cargo can breach the nuclear envelope is unsupported and overreaches beyond the HIV-specific data.
+- The size comparison of the capsid to the diffusion barrier limit is presented without context for how facilitated transport may alter the effective size limit, making the claim difficult to evaluate.

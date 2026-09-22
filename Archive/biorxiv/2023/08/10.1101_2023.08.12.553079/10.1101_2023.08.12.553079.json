@@ -1,0 +1,233 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.12.553079",
+  "title": "Pandemic preparedness through genomic surveillance: Overview of mutations in SARS-CoV-2 over the course of COVID-19 outbreak",
+  "doi": "10.1101/2023.08.12.553079",
+  "abstract": "<h4>ABSTRACT</h4> Genomic surveillance is a vital strategy for preparedness against the spread of infectious diseases and to aid in development of new treatments. In an unprecedented effort, millions of samples from COVID-19 patients have been sequenced worldwide for SARS-CoV-2. Using more than 8 million sequences that are currently available in GenBank’s SARS-CoV-2 database, we report a comprehensive overview of mutations in all 26 proteins and open reading frames (ORFs) from the virus. The results indicate that the spike protein, NSP6, nucleocapsid protein, envelope protein and ORF7b have shown the highest mutational propensities so far (in that order). In particular, the spike protein has shown rapid acceleration in mutations in the post-vaccination period. Monitoring the rate of non-synonymous mutations (K a ) provides a fairly reliable signal for genomic surveillance, successfully predicting surges in 2022. Further, the external proteins (spike, membrane, envelope, and nucleocapsid proteins) show a significant number of mutations compared to the NSPs. Interestingly, these four proteins showed significant changes in K a typically 2 to 4 weeks before the increase in number of human infections (“surges”). Therefore, our analysis provides real time surveillance of mutations of SARS-CoV-2, accessible through the project website http://pandemics.okstate.edu/covid19/ . Based on ongoing mutation trends of the virus, predictions of what proteins are likely to mutate next are also made possible by our approach. The proposed framework is general and is thus applicable to other pathogens. The approach is fully automated and provides the needed genomic surveillance to address a fast-moving pandemic such as COVID-19.",
+  "authors": [
+    "Najar FZ",
+    "Murphy CL",
+    "Linde E",
+    "Borin VA",
+    "Wang H",
+    "Haider S",
+    "Agarwal PK"
+  ],
+  "published_date": "2023-08-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.12.553079",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.12.553079.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR706368",
+    "raw_record": {
+      "id": "PPR706368",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR706368"
+        ]
+      },
+      "doi": "10.1101/2023.08.12.553079",
+      "title": "Pandemic preparedness through genomic surveillance: Overview of mutations in SARS-CoV-2 over the course of COVID-19 outbreak",
+      "authorString": "Najar FZ, Murphy CL, Linde E, Borin VA, Wang H, Haider S, Agarwal PK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Najar FZ",
+            "lastName": "Najar",
+            "firstName": "Fares",
+            "initials": "FZ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "High-Performance Computing Center, Oklahoma State University, Stillwater, Oklahoma"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Murphy CL",
+            "lastName": "Murphy",
+            "firstName": "Chelsea",
+            "initials": "CL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "High-Performance Computing Center, Oklahoma State University, Stillwater, Oklahoma"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Linde E",
+            "lastName": "Linde",
+            "firstName": "Evan",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2053-6721"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "High-Performance Computing Center, Oklahoma State University, Stillwater, Oklahoma"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Borin VA",
+            "lastName": "Borin",
+            "firstName": "Veniamin",
+            "initials": "VA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiological Sciences, Oklahoma State University, Stillwater, Oklahoma"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang H",
+            "lastName": "Wang",
+            "firstName": "Huan",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University College London School of Pharmacy, Pharmaceutical and Biological Chemistry, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Haider S",
+            "lastName": "Haider",
+            "firstName": "Shozeb",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University College London School of Pharmacy, Pharmaceutical and Biological Chemistry, London, United Kingdom"
+                },
+                {
+                  "affiliation": "University College London Centre for Advanced Research Computing, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Agarwal PK",
+            "lastName": "Agarwal",
+            "firstName": "Pratul",
+            "initials": "PK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "High-Performance Computing Center, Oklahoma State University, Stillwater, Oklahoma"
+                },
+                {
+                  "affiliation": "Department of Physiological Sciences, Oklahoma State University, Stillwater, Oklahoma"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2053-6721"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Genomic surveillance is a vital strategy for preparedness against the spread of infectious diseases and to aid in development of new treatments. In an unprecedented effort, millions of samples from COVID-19 patients have been sequenced worldwide for SARS-CoV-2. Using more than 8 million sequences that are currently available in GenBank’s SARS-CoV-2 database, we report a comprehensive overview of mutations in all 26 proteins and open reading frames (ORFs) from the virus. The results indicate that the spike protein, NSP6, nucleocapsid protein, envelope protein and ORF7b have shown the highest mutational propensities so far (in that order). In particular, the spike protein has shown rapid acceleration in mutations in the post-vaccination period. Monitoring the rate of non-synonymous mutations (K  a ) provides a fairly reliable signal for genomic surveillance, successfully predicting surges in 2022. Further, the external proteins (spike, membrane, envelope, and nucleocapsid proteins) show a significant number of mutations compared to the NSPs. Interestingly, these four proteins showed significant changes in K  a typically 2 to 4 weeks before the increase in number of human infections (“surges”). Therefore, our analysis provides real time surveillance of mutations of SARS-CoV-2, accessible through the project website  http://pandemics.okstate.edu/covid19/ . Based on ongoing mutation trends of the virus, predictions of what proteins are likely to mutate next are also made possible by our approach. The proposed framework is general and is thus applicable to other pathogens. The approach is fully automated and provides the needed genomic surveillance to address a fast-moving pandemic such as COVID-19.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/14/2023.08.12.553079.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.12.553079"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR706368"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.12.553079"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS186909",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-08-29",
+      "firstPublicationDate": "2023-08-14",
+      "firstIndexDate": "2023-08-31",
+      "fullTextReceivedDate": "2023-10-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

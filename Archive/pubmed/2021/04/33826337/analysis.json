@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33826337",
+  "title": "Consistent Force Field Captures Homologue-Resolved HP1 Phase Separation.",
+  "authors": "Latham, Andrew P; Zhang, Bin",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2021-04-08",
+  "window": {
+    "start": "2021-04-05",
+    "end": "2021-04-11"
+  },
+  "score": 9,
+  "one_liner_zh": "该文开发了统一粗粒化力场MOFF，同时准确建模有序与无序蛋白，并用于HP1同源蛋白的相分离模拟，揭示多价互作稳定凝聚体的机制，兼具IDP对象、PPI/相分离机制与物理模拟方法，高度契合本课题。",
+  "abstract": "Many proteins have been shown to function via liquid-liquid phase separation. Computational modeling could offer much needed structural details of protein condensates and reveal the set of molecular interactions that dictate their stability. However, the presence of both ordered and disordered domains in these proteins places a high demand on the model accuracy. Here, we present an algorithm to derive a coarse-grained force field, MOFF, which can model both ordered and disordered proteins with consistent accuracy. It combines maximum entropy biasing, least-squares fitting, and basic principles of energy landscape theory to ensure that MOFF recreates experimental radii of gyration while predicting the folded structures for globular proteins with lower energy. The theta temperature determined from MOFF separates ordered and disordered proteins at 300 K and exhibits a strikingly linear relationship with amino acid sequence composition. We further applied MOFF to study the phase behavior of HP1, an essential protein for post-translational modification and spatial organization of chromatin. The force field successfully resolved the structural difference of two HP1 homologues despite their high sequence similarity. We carried out large-scale simulations with hundreds of proteins to determine the critical temperature of phase separation and uncover multivalent interactions that stabilize higher-order assemblies. In all, our work makes significant methodological strides to connect theories of ordered and disordered proteins and provides a powerful tool for studying liquid-liquid phase separation with near-atomistic details.",
+  "abstract_zh": "许多蛋白质已被证明通过液-液相分离（liquid-liquid phase separation）发挥功能。计算建模能够提供蛋白质凝聚体所需的结构细节，并揭示决定其稳定性的分子相互作用集合。然而，这些蛋白质中同时存在有序和无序结构域，这对模型精度提出了很高要求。在此，我们提出一种算法来推导粗粒化力场MOFF，该力场能够以一致的精度模拟有序和无序蛋白质。它结合了最大熵偏置、最小二乘拟合以及能量景观理论的基本原理，确保MOFF在预测球状蛋白质折叠结构时具有较低能量的同时，重现实验测得的回旋半径。由MOFF确定的θ温度在300 K下区分有序和无序蛋白质，并与氨基酸序列组成表现出显著的线性关系。我们进一步应用MOFF研究HP1的相行为，HP1是染色质翻译后修饰和空间组织所必需的关键蛋白质。该力场成功解析了两个HP1同源物在序列高度相似情况下的结构差异。我们进行了涉及数百种蛋白质的大规模模拟，以确定相分离的临界温度，并揭示稳定高阶组装的多价相互作用。总体而言，我们的工作在连接有序和无序蛋白质理论方面取得了显著的方法论进展，并为研究具有近原子细节的液-液相分离提供了强大工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33826337/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33826337/",
+  "paper_page_path": "papers/pubmed/33826337/index.html"
+}

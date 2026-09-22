@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodology, and conclusions as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors use computational tools to analyze 250 human acrosomal proteins, reporting that approximately 81% show moderate to high intrinsic disorder, 30% are high-probability LLPS drivers, and that disorder and phase separation propensity correlate with functions in exocytosis, motility, and chromatin remodeling. They highlight five highly disordered proteins and propose biological roles for their disorder and LLPS behavior.
+- **Visible evidence base** Full text including abstract, introduction, methods, results, and conclusions; figure and table references are present but figures/tables themselves are not provided
+- **Missing materials affecting confidence** Figures 1-20, Tables 1-4, and supplementary data are referenced but not included; UniProt and AlphaFold accession details are partially provided; no code or raw prediction outputs are available
+
+## Reviewer
+- **Overall assessment** This manuscript presents a purely computational analysis of intrinsic disorder and phase separation propensity in the human acrosomal proteome. The topic is timely and the dataset is potentially useful, but the study is largely descriptive and correlative. The central claims about coordination of exocytosis, motility, and chromatin remodeling by disorder and LLPS are not directly tested, and the evidence provided is insufficient to establish causal or mechanistic relationships. The manuscript would benefit from clearer hypothesis framing, additional validation, and more cautious interpretation of computational predictions.
+- **Who would be interested in the results, and why** Researchers in reproductive biology, particularly those studying sperm function, acrosome biology, and male infertility, may find the dataset and predictions useful as a starting point for hypothesis generation. The computational biology community interested in disorder and phase separation predictions may also find the application to a specialized proteome of interest. However, the lack of experimental validation limits the impact for most readers.
+- **Major strengths** The study addresses an under-explored area, namely the potential role of intrinsic disorder and LLPS in acrosomal function. The use of multiple disorder prediction tools and the integration of several bioinformatics resources is methodologically reasonable. The focus on specific proteins with high disorder and LLPS propensity provides concrete examples for discussion. The authors acknowledge the limitations of computational approaches in the conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The title and abstract claim that intrinsic disorder and phase separation "coordinate" exocytosis, motility, and chromatin remodeling in the acrosomal proteome.
+  - **Evidence pointer** Abstract; Sections 3.2-3.7; Figures 4-20 (not provided)
+  - **Concern** The manuscript presents correlative computational predictions but the language throughout implies a causal or coordinating role. No experimental data are provided to demonstrate that disorder or LLPS actually coordinates these processes. The term "coordinate" suggests a functional relationship that is not established by bioinformatic prediction alone.
+  - **Why it matters** Overstating the implications of computational predictions can mislead readers and overstate the significance of the findings. The scientific claim goes beyond what the evidence can support.
+  - **Resolution test** Revise the title and abstract to reflect that the study identifies potential associations or predictions, rather than established coordination. Alternatively, provide experimental evidence demonstrating functional coordination.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The regression analysis reports a significant relationship between intrinsic disorder and LLPS propensity (p < 0.0001, R² = 0.649).
+  - **Evidence pointer** Section 2.6; Section 3.6; Figure 15 (not provided)
+  - **Concern** The regression analysis uses pLLPS values that include boundary values of 0 and 1, which are adjusted with arbitrary small constants before Box-Cox transformation. This adjustment can substantially affect results, especially for data with many boundary values. The choice of lambda (0.0606) and the polynomial model are not justified in detail. Additionally, the R² value is reported without confidence intervals or cross-validation.
+  - **Why it matters** The statistical relationship between disorder and LLPS is a central finding. If the analysis is not robust, the conclusion that disorder facilitates phase separation in acrosomal proteins is weakened.
+  - **Resolution test** Provide details on the distribution of pLLPS values, sensitivity analysis for the boundary adjustment, model selection criteria, and validation of the regression approach.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that "over 30% of these proteins are high-probability LLPS drivers (>60%)" and use this to support the role of LLPS in acrosomal function.
+  - **Evidence pointer** Section 3.6; Table 4 (not provided)
+  - **Concern** The threshold of pLLPS ≥ 0.60 for classifying "high-probability LLPS drivers" is not justified. FuzDrop predictions are computational and have known limitations. The manuscript does not discuss the accuracy or limitations of FuzDrop in detail, nor does it compare with other LLPS prediction tools.
+  - **Why it matters** The classification directly supports a major conclusion. Without justification of the threshold and acknowledgment of prediction limitations, the claim is not well supported.
+  - **Resolution test** Justify the threshold, discuss FuzDrop limitations, and ideally compare with additional LLPS prediction methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The study relies on a dataset of 250 acrosomal proteins compiled from UniProt, with subsequent analyses using RIDAO, D2P2, STRING, and g:Profiler.
+  - **Evidence pointer** Section 2.1-2.7
+  - **Concern** The exact search query, filtering criteria, and the list of 250 proteins are not provided in the manuscript. The date of the search is given, but the reproducibility of the dataset compilation is not fully documented. No accession list or supplementary table is referenced for the full dataset.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without the full protein list and search details, other researchers cannot replicate or build upon this work.
+  - **Resolution test** Provide the full list of UniProt IDs, the exact search query, and all filtering steps as supplementary material.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.5 title
+  - **Evidence pointer** Section 2.5
+  - **Issue** The section is titled "Interactivity Analysis" but the text describes "Intractability Analysis" in the first sentence. This appears to be a typo, as the section describes protein-protein interaction networks.
+  - **Required correction** Correct the section title to "Interaction Analysis" or revise the text to match the title.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.7.2
+  - **Evidence pointer** Section 3.7.2, Figure 17C
+  - **Issue** The text states "The PPI network (Figure 17C) generated by STRING for CEP131" but this section is about TNP2. The protein name appears to be a copy-paste error.
+  - **Required correction** Change "CEP131" to "TNP2" in this sentence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Section 2.6
+  - **Issue** The text states "1 replaced with 1 10−6" which appears to be a typo. It should likely read "1 replaced with 1 − 10−6" to avoid the boundary value.
+  - **Required correction** Correct the typo in the boundary adjustment description.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.1
+  - **Evidence pointer** Section 3.1, Figures 2-3
+  - **Issue** The text states "Representative examples of these 250 proteins were selected and are shown in Figure 2" and "Figure 3, which displays predicted structures of the 10 most disordered proteins." The criteria for "representative" selection are not described.
+  - **Required correction** Briefly describe the selection criteria for the representative proteins shown in Figures 2 and 3.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (overstated claims), R1-M2 (regression analysis robustness), R1-M4 (reproducibility of dataset)
+- **Assessment against Nature-style criteria** Originality: Moderate. The application of disorder and LLPS prediction to the acrosomal proteome is relatively novel, but the approach is standard and the findings are largely descriptive. Scientific importance: Moderate. The topic is relevant to reproductive biology and male infertility, but the lack of experimental validation limits the immediate impact. Interdisciplinary readership: Limited. The manuscript is likely to appeal mainly to researchers already working on disorder, LLPS, or reproductive biology. Technical soundness: Adequate but with concerns. The use of multiple prediction tools is reasonable, but the statistical analysis and interpretation need strengthening. Readability for nonspecialists: Acceptable. The manuscript is generally clear, though some sections are dense with computational details.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a useful computational survey but does not substantiate the strong claims in the title and abstract. Major revisions are needed to temper the claims, strengthen the statistical analysis, and improve reproducibility. If the authors address these concerns, the manuscript could become a valuable resource for the field.
+
+## Risk / unsupported claims
+- The claim that disorder and LLPS "coordinate" exocytosis, motility, and chromatin remodeling is unsupported by the evidence, which is purely computational and correlative.
+- The statement that "these disordered regions may aid their roles in fertilization" is speculative and not directly tested.
+- The biological interpretations for individual proteins (e.g., MARCKS, TNP2, CEP131, CYCL1, CCDC136) are plausible but not experimentally validated.
+- The claim that "over 30% of these proteins are high-probability LLPS drivers" depends on an unjustified threshold and a single prediction tool.
+- The regression relationship between disorder and LLPS (R² = 0.649) is presented as robust, but the analysis has methodological concerns that could affect the result.
+- The statement that "these findings provide insights into how intrinsic disorder and LLPS contribute to the structural adaptability and functional precision required for fertilization" overreaches beyond the descriptive computational evidence.

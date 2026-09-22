@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to full text, figures, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that RNA adaptor IDRs engage Ccr4-Not through dispersed, multivalent interactions at multiple distinct binding sites, and that phosphorylation of these IDRs modulates deadenylation rates in a continuously tunable manner. They further claim this mechanism is conserved across evolutionarily divergent IDRs from fission yeast Puf3, human PUM1, and human TTP, and that it represents a graded regulatory strategy for mRNA decay.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, statistical analyses, structural coordinates, and any quantitative data supporting the claims
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially significant model for graded regulation of mRNA deadenylation through multivalent IDR interactions and phosphorylation. However, the evidence base available for this review is limited to the abstract, which precludes verification of the structural, biochemical, and functional claims. The central conclusions are plausible but not independently assessable from the supplied material. The work, if fully supported, would be of broad interest to the gene expression and RNA biology communities.
+- **Who would be interested in the results, and why** Researchers studying mRNA decay, post-transcriptional gene regulation, Ccr4-Not complex function, intrinsically disordered proteins, and phosphorylation-dependent signaling. The proposed graded regulatory mechanism would also interest those working on quantitative models of gene expression and on the evolution of regulatory networks.
+- **Major strengths** The abstract articulates a clear and novel conceptual framework, moving beyond binary on/off models to a tunable regulatory mechanism. The claim of evolutionary conservation across yeast and human RNA adaptors suggests broad relevance. The combination of structural biology and biochemical reconstitution is appropriate for addressing the questions posed.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that dispersed segments within IDRs bind to several distinct sites on Ccr4-Not through multivalent interactions, and that phosphorylation modulates deadenylation rates in a continuously tunable manner.
+  - **Evidence pointer** Abstract only; no figures or tables provided
+  - **Concern** The abstract states these findings are demonstrated, but no quantitative data, structural details, or experimental controls are visible. It is unclear how multivalency was established, how binding sites were mapped, how phosphorylation was introduced, and how deadenylation rates were measured and shown to be continuously tunable.
+  - **Why it matters** Without access to the underlying data, the core mechanistic claims cannot be evaluated for rigor, reproducibility, or statistical support. The term "continuously tunable" implies a quantitative relationship that requires dose-response or titration data, which are not visible.
+  - **Resolution test** Provide the full manuscript with figures and methods, including binding assays, mutagenesis or truncation experiments, phosphorylation site mapping, and deadenylation rate measurements with appropriate replicates and statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The abstract claims the mechanism is broadly applicable to evolutionarily divergent IDRs from fission yeast Puf3, human PUM1, and human TTP.
+  - **Evidence pointer** Abstract only; no comparative data shown
+  - **Concern** The abstract asserts conservation across three adaptors, but no evidence is provided for how these were selected, how their IDRs were compared, or whether the observed effects are quantitatively similar or merely qualitative. The term "broadly applicable" may overstate the evidence if only a limited set of conditions was tested.
+  - **Why it matters** The claim of evolutionary conservation is central to the paper's significance. If the evidence is limited to a few constructs or conditions, the conclusion may not be generalizable.
+  - **Resolution test** Provide comparative data for all three adaptors, including sequence alignments, binding and activity measurements, and phosphorylation effects, with clear statistical comparisons.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** The abstract implies that phosphorylation-dependent tuning is a conserved regulatory strategy, but does not specify which kinases or phosphatases are involved or how cellular cues are transduced.
+  - **Evidence pointer** Abstract only; no signaling context provided
+  - **Concern** The abstract states that "in response to cellular cues, mRNA decay can be regulated by a graded mechanism," but no information is given about the upstream signaling pathways, the specific phosphorylation sites, or the physiological relevance of the observed modulation.
+  - **Why it matters** Without linking the biochemical observations to a cellular context, the physiological significance of the graded mechanism remains speculative.
+  - **Resolution test** Include data on phosphorylation site identification, kinase/phosphatase candidates, and ideally cellular or in vivo validation of the graded response.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "mRNA decay is a major determinant of gene regulation" is vague and could be more precise, as decay is one of several determinants.
+  - **Required correction** Rephrase to specify that mRNA decay rates are a major determinant of mRNA abundance and thus gene expression.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract, methods mention
+  - **Issue** The abstract mentions "structural biology and biochemical reconstitution" but does not specify which techniques were used, such as cryo-EM, X-ray crystallography, or NMR.
+  - **Required correction** Add brief specification of the structural method(s) used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Conclusion framing
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The statement that the mechanism "rationalizes how post-transcriptional gene expression is fine-tuned" is interpretive and goes beyond the data presented in the abstract.
+  - **Required correction** Soften the claim to indicate that the findings are consistent with a graded regulatory model, without overstating the explanatory power.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core mechanistic and generalizability claims cannot be assessed from the abstract alone. R1-M3 is non-blocking but requires additional context for full interpretation.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of graded, phosphorylation-tunable deadenylation via multivalent IDR interactions appears novel and distinct from binary regulatory models. This is a potential strength, but originality cannot be fully judged without seeing the full context of prior work.
+  - **Scientific importance** If substantiated, the work would have high importance for understanding post-transcriptional regulation and signaling integration. The proposed mechanism could influence multiple fields.
+  - **Interdisciplinary readership** The topic bridges structural biology, biochemistry, and RNA biology, and the graded regulation concept may appeal to systems biologists. However, the abstract is written in a specialized manner that may limit accessibility.
+  - **Technical soundness** Cannot be evaluated from the abstract. The use of structural biology and reconstitution is appropriate, but the absence of data prevents any assessment of rigor.
+  - **Readability for nonspecialists** The abstract is dense and assumes familiarity with deadenylation, Ccr4-Not, and IDR concepts. It is not written for a broad audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is compelling, but the current evidence base is insufficient to establish the claims. Full manuscript review is required.
+
+## Risk / unsupported claims
+- The claim of "continuously tunable" deadenylation rates is unsupported without dose-response or titration data.
+- The claim of "broadly applicable" conservation across three adaptors is unsupported without comparative quantitative data.
+- The claim that the mechanism "rationalizes how post-transcriptional gene expression is fine-tuned" is interpretive and not directly supported by the abstract.
+- The physiological relevance of the phosphorylation-dependent tuning is not assessable from the abstract.

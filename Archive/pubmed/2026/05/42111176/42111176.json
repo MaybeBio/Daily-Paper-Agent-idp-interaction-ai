@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "42111176",
+    "doi": "10.1016/j.isci.2026.115737",
+    "title": "The intrinsic disorder challenge for AlphaFold: A case study of G3BP1 and pathogenic peptide."
+  },
+  "content": {
+    "abstract": "The dipeptide repeat protein GR20 in amyotrophic lateral sclerosis (ALS) exerts neurotoxicity in part by binding to the stress granule protein G3BP1 and disrupting liquid-liquid phase separation (LLPS). However, the structural basis of this interaction remains elusive due to the pervasive intrinsic disorder in both partners. Here, we combine biochemical assays and structure prediction to characterize the G3BP1-GR20 complex. GR20 has high-affinity binding to G3BP1 and modulates LLPS in a concentration-dependent manner. Since the standard AlphaFold (AF) pipeline failed to predict credible models, we employed a constraint-based method AFEX to generate a G3BP1-GR20 complex model with improved confidence and structural plausibility. Our work underscores the necessity of extra efforts for AF predictions on disordered complexes and demonstrates the value of integrative and knowledge-guided approaches for exploring the \"invisible proteome\" of biomolecular condensates.",
+    "keywords": [
+      "biochemistry",
+      "biological sciences",
+      "structural biology"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Yucong",
+        "Yao, Zhiying",
+        "Song, Zilin",
+        "Yang, Peiguo",
+        "Huang, Jing",
+        "Lei, Kai",
+        "Xu, You"
+      ],
+      "short_names": [
+        "Li Y",
+        "Yao Z",
+        "Song Z",
+        "Yang P",
+        "Huang J",
+        "Lei K",
+        "Xu Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Fudan University, Shanghai, China.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China.",
+        "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+        "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Yucong",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Fudan University, Shanghai, China.",
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Zhiying",
+        "short_name": "Yao Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Song, Zilin",
+        "short_name": "Song Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Peiguo",
+        "short_name": "Yang P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Jing",
+        "short_name": "Huang J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Lei, Kai",
+        "short_name": "Lei K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China."
+        ]
+      },
+      {
+        "full_name": "Xu, You",
+        "short_name": "Xu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Gene Expression, School of Life Sciences, Westlake University, Hangzhou, Zhejiang, China.",
+          "Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, Zhejiang, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2026 May 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/11 13:01",
+    "fetched_at": "2026-09-18 03:16:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40891313",
+      "40595555",
+      "39952928",
+      "39756261",
+      "39621905",
+      "39604737",
+      "38718835",
+      "38424324",
+      "37917924",
+      "37898666",
+      "37673981",
+      "37638324",
+      "37626421",
+      "36948209",
+      "36926275",
+      "36918529",
+      "35679397",
+      "35637307",
+      "35634782",
+      "35562983",
+      "34706979",
+      "34293799",
+      "34265844",
+      "33357399",
+      "32860626",
+      "32302571",
+      "32119645",
+      "31996674",
+      "31942072",
+      "31582731",
+      "31266945",
+      "30981631",
+      "30604225",
+      "30037833",
+      "29149615",
+      "28746339",
+      "28377462",
+      "28243191",
+      "28225081",
+      "28069952",
+      "27830784",
+      "27819658",
+      "27768896",
+      "27658852",
+      "27203111",
+      "27150398",
+      "27051975",
+      "26931465",
+      "25103406",
+      "24324649",
+      "23832629",
+      "21989245",
+      "21944779",
+      "21500218",
+      "19444816",
+      "16024877",
+      "12065398"
+    ],
+    "similar": [
+      "42111176",
+      "39621905",
+      "42383738",
+      "42475469",
+      "41591303",
+      "36692217",
+      "42585785",
+      "40214262",
+      "27481264",
+      "32302571",
+      "39979561",
+      "38526948",
+      "37015810",
+      "35905138",
+      "36416085",
+      "40799657",
+      "29511089",
+      "39673974",
+      "34115105",
+      "40424178",
+      "18831774",
+      "36350034",
+      "37546760",
+      "36279435",
+      "40516596",
+      "35372329",
+      "34779554",
+      "36310223",
+      "41524628",
+      "40481689",
+      "40407495",
+      "42190015",
+      "36806943",
+      "41535729",
+      "30981631",
+      "37161291",
+      "35240128",
+      "39515684",
+      "31911439",
+      "28980860",
+      "29677513",
+      "32371601",
+      "29526694",
+      "23912807",
+      "38160320",
+      "28306503",
+      "41263030",
+      "37471224",
+      "39705832",
+      "41363845",
+      "37268555",
+      "33515602",
+      "30948513",
+      "41131140",
+      "42425235",
+      "41875115",
+      "34517025",
+      "32405004",
+      "36444977",
+      "37496271",
+      "42509551",
+      "42178983",
+      "41307542",
+      "37720552",
+      "42106138",
+      "42262924",
+      "32976566",
+      "34233002",
+      "41092354",
+      "37578163",
+      "38446881",
+      "42446172",
+      "40515902",
+      "40943143",
+      "41480717",
+      "42105592",
+      "32105731",
+      "31362587",
+      "39957101",
+      "35943083",
+      "36834792",
+      "31481451",
+      "38632300",
+      "38166858",
+      "41000164",
+      "29438978",
+      "42450319",
+      "36430801",
+      "35883530",
+      "42153320",
+      "38106114",
+      "36575582",
+      "36304330",
+      "41472324",
+      "38997630",
+      "42214054",
+      "36841957",
+      "36511898",
+      "35709363",
+      "28972166"
+    ],
+    "review": [
+      "42111176",
+      "35905138",
+      "36350034",
+      "35372329",
+      "39515684",
+      "31911439",
+      "28980860",
+      "39705832",
+      "37268555",
+      "30948513",
+      "42425235",
+      "41875115",
+      "37496271",
+      "41307542",
+      "37720552",
+      "32976566",
+      "40943143",
+      "41480717"
+    ],
+    "pmc": [
+      "13157106"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(26)01112-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42111176/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-374",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

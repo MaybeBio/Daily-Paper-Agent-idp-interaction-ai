@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (Summary, Introduction, Results, Discussion, Limitations, STAR Methods, Supplemental information list)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidentiary support as presented in the provided text. No access to supplemental figures, tables, or trajectory data.
+- **Shared manuscript claim summary** The authors use 22 μs of all-atom MD simulations of β2-adrenergic receptor (β2AR) in a multi-lipid bilayer to show that PIP2 stabilizes the active state of the receptor by anchoring ICL3 in an open conformation, leading to receptor tilting within the membrane. GM3 interacts with extracellular loops and allosterically impacts the ligand binding site. ICL3 is proposed as a secondary regulator of G protein coupling.
+- **Visible evidence base** Main-text Figures 1–3, Figure 4 (schematic), Tables S1–S4 and Figures S1–S5 referenced but not provided, Methods section describing simulation and analysis protocols.
+- **Missing materials affecting confidence** Supplemental figures and tables (S1–S5, T1–T4), MD trajectory data, simulation system composition details, force field parameters, convergence metrics, and statistical details for all comparisons.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in GPCR biology, namely how specific lipid species modulate the conformational ensemble of a disordered intracellular loop and thereby influence receptor activation. The authors present a plausible mechanistic model supported by extensive MD simulations. However, the current text does not provide sufficient quantitative evidence to fully establish the central claims. Key concerns include the lack of convergence analysis, limited statistical treatment of the lipid contact data, and the absence of direct experimental validation. The study is potentially valuable but requires substantial strengthening of the evidence base and clarity of presentation.
+- **Who would be interested in the results, and why** Researchers in GPCR structural biology, membrane biophysics, and lipid-protein interactions would find this study relevant. The proposed mechanism of PIP2-mediated ICL3 stabilization and receptor tilting could inform understanding of GPCR signaling regulation by membrane composition. The work may also interest those studying intrinsically disordered regions in membrane proteins and their role in allosteric regulation.
+- **Major strengths** The study addresses a timely and important question about lipid regulation of GPCR conformational dynamics. The use of multi-lipid bilayer models is more physiologically relevant than single-lipid systems. The identification of a specific "cap" motif in ICL3 that regulates G protein access is a useful conceptual advance. The authors connect their findings to prior experimental work on PIP2 binding sites in other GPCRs, providing some external validation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that PIP2 stabilizes the active state of β2AR by keeping ICL3 in an open conformation, based on MD simulations.
+  - **Evidence pointer** Results section, Figures 2 and 3; Methods section
+  - **Concern** The manuscript does not provide any convergence analysis for the MD simulations. For a disordered loop such as ICL3, sampling convergence is critical. The authors state that 22 μs of simulation was performed, but no block analysis, autocorrelation times, or replica convergence metrics are shown. Without evidence that the conformational ensembles are converged, the population distributions and contact frequencies reported may not be statistically reliable.
+  - **Why it matters** The central claim of the paper depends on the relative populations of open versus closed ICL3 conformations in different states. If the simulations are not converged, the observed differences between states could be sampling artifacts rather than genuine thermodynamic preferences.
+  - **Resolution test** Provide convergence metrics such as block averaging of key observables, split-half analysis of contact frequencies, or replicate simulations with error bars. Show that the population distributions of ICL3 conformations are stable over the final portion of the trajectories.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors report significant differences in ICL3-lipid interaction interface area between states (Figure 2D) and in ligand RMSD (Figure 3C).
+  - **Evidence pointer** Results section, Figures 2D, 3C; Methods section
+  - **Concern** The statistical treatment is insufficient. The authors state that a Mann-Whitney U test was used, but the number of independent samples is unclear. For Figure 2D, each cluster is represented by a single point, but the number of clusters per state is small (10 total across three states). For the inactive state, the authors extracted five segments from a single cluster, which are not independent samples. The p-values reported (e.g., p = 0.0278, p = 0.0079) are based on these non-independent or very small samples. The same issue applies to the ligand RMSD comparison in Figure 3C.
+  - **Why it matters** The claim that PIP2 stabilizes the active state and that this leads to receptor tilting and altered ligand binding depends on these statistical comparisons. If the samples are not independent or the sample sizes are too small, the significance of the reported differences is not established.
+  - **Resolution test** Clarify the number of independent simulation segments per state. Use appropriate statistical tests that account for the hierarchical structure of the data (e.g., mixed-effects models or bootstrapping over independent trajectories). Report effect sizes and confidence intervals.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors propose that GM3 interacts with ECL2/ECL3 and allosterically impacts the ligand binding site.
+  - **Evidence pointer** Results section, Figure 3E–G
+  - **Concern** The evidence for the GM3-mediated allosteric effect is indirect. The authors show that GM3 contacts ECL2/ECL3 residues and that the D192-K305 salt bridge distance differs between states. However, the causal link between GM3 binding, salt bridge dynamics, and ligand binding is not demonstrated. The authors do not show whether removing GM3 from the simulation or mutating the GM3 contact residues abolishes the observed effect on the ligand.
+  - **Why it matters** The claim that GM3 allosterically impacts the ligand binding site is a key part of the proposed mechanism. Without a perturbation analysis, the correlation between GM3 contacts and ligand RMSD could be coincidental or driven by other factors.
+  - **Resolution test** Perform control simulations without GM3 or with mutated GM3 contact residues to test whether the observed effects on the salt bridge and ligand RMSD are dependent on GM3. Alternatively, provide a more detailed analysis of the allosteric pathway.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** External validity
+  - **Claim pointer** The authors state that their findings provide mechanistic insight into lipid regulation of GPCR activity and suggest that PIP2 stabilizes the active state.
+  - **Evidence pointer** Discussion section
+  - **Concern** The study is purely computational. The authors acknowledge in the Limitations that experimental validation is needed, but the Discussion frames the findings as providing "mechanistic evidence." Without experimental corroboration (e.g., mutagenesis, BRET or FRET-based assays, or NMR), the physiological relevance of the proposed mechanism remains speculative. The authors should temper their claims or provide a clearer path to experimental testing.
+  - **Why it matters** The title and Summary imply a biological conclusion about lipid regulation of receptor function. If the findings are only computational predictions, the claims should be framed accordingly to avoid overstatement.
+  - **Resolution test** Revise the language in the Summary and Discussion to clearly distinguish computational predictions from experimentally validated findings. Alternatively, include preliminary experimental data to support the key claims.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Projecting lipid/GPCR onto X-Y plane"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the projection method is unclear. The text states that the CoM of lipids and TM regions are projected onto the X-Y plane, but it is not specified how the receptor orientation is defined or how the density maps are normalized.
+  - **Required correction** Provide a clearer description of the coordinate system, alignment procedure, and density map normalization.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, force field and simulation parameters
+  - **Evidence pointer** Methods section
+  - **Issue** The manuscript does not specify the force field parameters, water model, ion concentration, or temperature/pressure coupling schemes used in the simulations. These details are essential for reproducibility.
+  - **Required correction** Add a detailed simulation parameters table or refer to the previous publication with explicit parameter listing.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 2D
+  - **Evidence pointer** Results section, Figure 2D
+  - **Issue** The p-value annotation in Figure 2D is unclear. The text states "ns – p = 0.722, ∗ - p = 0.0278, ∗∗ - p = 0.0079" but it is not clear which comparisons these correspond to.
+  - **Required correction** Clearly label the comparisons in the figure legend or use standard bracket notation to indicate which groups are being compared.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion does not address potential limitations of the multi-lipid bilayer model, such as the absence of asymmetric lipid distribution or the lack of membrane protein crowding.
+  - **Required correction** Add a brief discussion of model limitations and how they might affect the conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (convergence analysis), R1-M2 (statistical rigor), R1-M3 (causal evidence for GM3 effect)
+- **Assessment against Nature-style criteria** Originality: The study offers a novel perspective on lipid-mediated regulation of GPCR conformational ensembles, particularly the role of PIP2 in stabilizing ICL3. This is a relatively unexplored area and the conceptual framework is original. Scientific importance: The question of how membrane lipids modulate GPCR function is of broad significance. However, the importance of the specific findings is limited by the lack of experimental validation and the indirect nature of the evidence. Interdisciplinary readership: The work bridges membrane biophysics, computational chemistry, and GPCR biology, which could attract readers from multiple disciplines. Technical soundness: The simulation methodology is standard, but the lack of convergence analysis and the statistical issues undermine the technical rigor. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some methodological details are dense. The main concepts are explained clearly.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and potentially significant, but the current evidence base is insufficient to fully establish the claims. The authors must address the convergence and statistical issues, and ideally provide some form of experimental validation or at least a clear experimental roadmap.
+
+## Risk / unsupported claims
+- The claim that PIP2 "stabilizes" the active state is not fully supported without convergence analysis and proper statistical comparison.
+- The claim that GM3 "allosterically impacts the ligand binding site" is correlational and lacks causal evidence.
+- The statement that the observed receptor tilt is "likely due to its favorable interaction with PIP2" is presented as a conclusion but is only a hypothesis.
+- The generalizability of the findings to other GPCRs, suggested in the Discussion, is speculative and not supported by data.
+- The claim that ICL3 acts as a "secondary regulator" of β2AR activity is based on prior work and the current simulations, but the functional significance is not experimentally demonstrated.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.14.514089",
+  "title": "De novo design of modular peptide binding proteins by superhelical matching",
+  "authors": "Wu K; Bai H; Chang Y; Redler R; McNally KE; Sheffler W; Brunette T; Hicks DR; Morgan TE; Stevens TJ; Broerman A; Goreshnik I; DeWitt M; Chow CM; Shen Y; Stewart L; Derivery E; Silva DA; Bhabha G; Ekiert D; Baker D",
+  "journal": "bioRxiv",
+  "published_date": "2022-11-15",
+  "window": {
+    "start": "2022-11-14",
+    "end": "2022-11-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过超螺旋匹配从头设计模块化肽结合蛋白，针对无序肽段（如polyproline II构象）实现序列特异性结合，虽对象为无序肽而非IDP/相分离，但方法（对接+几何哈希+Rosetta设计）对无序肽互作机制建模有直接启发。",
+  "abstract": "General approaches for designing sequence-specific peptide binding proteins would have wide utility in proteomics and synthetic biology. Although considerable progress has been made in designing proteins which bind to other proteins, the general peptide binding problem is more challenging as most peptides do not have defined structures in isolation, and to offset the loss in solvation upon binding the protein binding interface has to provide specific hydrogen bonds that complement the majority of the buried peptide’s backbone polar groups ( 1 – 3 ). Inspired by natural repeat protein-peptide complexes, and engineering efforts to alter their specificity ( 4 – 11 ), we describe a general approach for de novo design of proteins made out of repeating units that bind peptides with repeating sequences such that there is a one to one correspondence between repeat units on the protein and peptide. We develop a rapid docking plus geometric hashing method to identify protein backbones and protein-peptide rigid body arrangements that are compatible with bidentate hydrogen bonds between side chains on the protein and the backbone of the peptide ( 12 ); the remainder of the protein sequence is then designed using Rosetta to incorporate additional interactions with the peptide and drive folding to the desired structure. We use this approach to design, from scratch, alpha helical repeat proteins that bind six different tripeptide repeat sequences--PLP, LRP, PEW, IYP, PRM and PKW--in near polyproline 2 helical conformations. The proteins are expressed at high levels in E. coli, are hyperstable, and bind peptides with 4-6 copies of the target tripeptide sequences with nanomolar to picomolar affinities both in vitro and in living cells. Crystal structures reveal repeating interactions between protein and peptide interactions as designed, including a ladder of protein sidechain to peptide backbone hydrogen bonds. By redesigning the binding interfaces of individual repeat units, specificity can be achieved for non-repeating sequences, and for naturally occuring proteins containing disordered regions. Our approach provides a general route to designing specific binding proteins for a broad range of repeating and non-repetitive peptide sequences.",
+  "abstract_zh": "设计序列特异性肽结合蛋白的通用方法将在蛋白质组学和合成生物学中具有广泛用途。尽管在设计结合其他蛋白质的蛋白质方面已取得显著进展，但通用肽结合问题更具挑战性，因为大多数肽在孤立状态下没有明确结构，并且为了抵消结合时溶剂化损失，蛋白质结合界面必须提供特定的氢键，以互补被埋藏肽骨架的大部分极性基团（1–3）。受天然重复蛋白-肽复合物及其特异性改造工程努力的启发（4–11），我们描述了一种通用方法，用于从头设计由重复单元组成的蛋白质，这些蛋白质结合具有重复序列的肽，使得蛋白质上的重复单元与肽之间存在一一对应关系。我们开发了一种快速对接加几何哈希方法，以识别与蛋白质侧链和肽骨架之间的双齿氢键相容的蛋白质骨架及蛋白质-肽刚体排列（12）；随后使用Rosetta设计蛋白质序列的其余部分，以引入与肽的额外相互作用并驱动折叠至目标结构。我们利用此方法从头设计了α螺旋重复蛋白，这些蛋白以近聚脯氨酸II螺旋构象结合六种不同的三肽重复序列——PLP、LRP、PEW、IYP、PRM和PKW。这些蛋白质在大肠杆菌中高表达，具有超稳定性，并在体外和活细胞中与含有4–6个目标三肽序列拷贝的肽以纳摩尔至皮摩尔亲和力结合。晶体结构揭示了按设计进行的蛋白质与肽之间的重复相互作用，包括蛋白质侧链到肽骨架的氢键阶梯。通过重新设计单个重复单元的结合界面，可以实现对非重复序列以及含有无序区的天然蛋白质的特异性。我们的方法为设计针对广泛重复和非重复肽序列的特异性结合蛋白提供了通用途径。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.14.514089",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.14.514089",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.14.514089/index.html"
+}

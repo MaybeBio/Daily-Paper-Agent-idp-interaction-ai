@@ -1,0 +1,110 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability, author contributions, conflict of interest, funding, acknowledgements, references list)
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, technical completeness, and suitability for a Nature-style journal. Editorial decisions and author rebuttals are outside scope.
+- **Shared manuscript claim summary** The authors present two deep learning models, CAPSIF:V (3D-UNet voxel-based) and CAPSIF:G (equivariant graph neural network), for residue-level prediction of protein-carbohydrate binding sites. They report that CAPSIF:V outperforms CAPSIF:G, achieving test Dice scores of 0.597 and 0.543 and Matthews correlation coefficients of 0.599 and 0.538, respectively. They further claim that CAPSIF:V performs equivalently on AlphaFold2-predicted structures compared to experimentally determined structures, and that CAPSIF:V can be used in a pipeline with GlycanDock to predict bound protein-carbohydrate structures.
+- **Visible evidence base** Abstract, full text of introduction, results, discussion, methods, data availability statement, author contributions, conflict of interest, funding, acknowledgements, references. Figures and tables are referenced but not provided. Supplementary files are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-6, Tables 1-3, Supplementary Files S1, Figure S8, and the referenced GitHub repository are not provided. This limits verification of quantitative results, architectural details, and dataset composition.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and under-served problem in structural bioinformatics: residue-level prediction of protein-carbohydrate binding sites. The authors introduce two deep learning architectures and report performance improvements over existing surrogate methods. The work is timely and potentially useful to a broad community. However, the provided text alone is insufficient to fully evaluate the technical soundness of the models, the validity of the performance comparisons, and the robustness of the claims. Several key details, including dataset construction, baseline selection, statistical significance testing, and failure analysis, are either missing or only partially described. The claim of equivalence on AlphaFold2 structures is not fully supported by the data presented. The proof-of-concept docking pipeline is promising but preliminary. The manuscript has merit but requires substantial additional evidence and clarification before the central claims can be considered established.
+- **Who would be interested in the results, and why** Structural biologists, glycobiologists, computational chemists, and researchers developing machine learning methods for protein function prediction. The models could be useful for prioritizing carbohydrate-binding sites in experimental studies, annotating protein structures, and facilitating glycodrug design. The comparison of voxel-based and graph-based architectures is also of interest to the deep learning community.
+- **Major strengths** The problem is well-motivated and biologically important. The authors address a gap in available tools for carbohydrate-specific binding site prediction. The use of two complementary deep learning architectures is a thoughtful approach. The evaluation against existing surrogate methods is appropriate. The demonstration of robustness to AlphaFold2-predicted structures is practically relevant. The proof-of-concept docking pipeline is a useful extension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CAPSIF:V and CAPSIF:G outperform previous surrogate methods for carbohydrate binding site prediction, with CAPSIF:V achieving test Dice scores of 0.597 and MCC of 0.599.
+  - **Evidence pointer** Results section 2.3, Table 1 (not provided)
+  - **Concern** The performance comparison against FTMap and Kalasanty is presented, but the text does not describe how these baselines were configured, whether hyperparameters were optimized, or whether the comparison is fair. The choice of metrics is reasonable, but the definition of "success" (Dice greater than 0.6 or DCC under 4 Å) is arbitrary and not justified. No statistical significance testing is reported for the differences between CAPSIF:V, CAPSIF:G, and the baselines.
+  - **Why it matters** Without a clear and fair baseline comparison, the claim of outperformance is not rigorously established. The lack of statistical testing means the observed differences could be due to chance, especially given the small test set size.
+  - **Resolution test** Provide details on baseline configuration, hyperparameter selection, and any optimization performed. Report confidence intervals or p-values for the performance differences. Justify the choice of success thresholds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CAPSIF:V performs equivalently on AlphaFold2-predicted structures and experimentally determined structures, with Dice scores of 0.586 and 0.597, respectively.
+  - **Evidence pointer** Results section 2.4, Table 2 (not provided), Figure 4 (not provided)
+  - **Concern** The claim of equivalence is based on a single comparison of mean Dice scores. The text notes that CAPSIF:V fails to predict any sites on 15% of AF2 structures versus 5% of PDB structures, which is a substantial difference in failure mode. The authors also state that pLDDT confidence does not correlate with prediction success, which undermines the practical utility of the model on AF2 structures. No statistical test is reported to support the equivalence claim.
+  - **Why it matters** The practical value of the model depends on its reliability on predicted structures, which are increasingly common. A higher failure rate on AF2 structures, without a way to identify failures, is a significant limitation that is not adequately addressed by the mean Dice score.
+  - **Resolution test** Report the distribution of performance metrics, not just means. Perform a statistical test for equivalence or difference. Analyze the characteristics of the AF2 structures where prediction fails. Discuss potential strategies to identify or mitigate these failures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the dataset consists of 808 nonhomologous, high-accuracy, physiologically relevant protein-carbohydrate structures, with 5.2% of residues contacting carbohydrates.
+  - **Evidence pointer** Results section 2.1, Methods section 4.1, Supplementary File S1 (not provided)
+  - **Concern** The dataset construction is described only briefly. The criteria for "physiologically relevant" are not defined. The manual removal of nonspecific crystallization buffers and glycoproteins is subjective and not described in sufficient detail to be reproducible. The definition of a "carbohydrate-interacting residue" (heavy atom within 4.2 Å) is stated, but the rationale for this cutoff is not given. The distribution of carbohydrate types and the number of structures per type are not provided in the main text.
+  - **Why it matters** The quality and composition of the dataset are foundational to the validity of the trained models and the reported performance. Without a clear and reproducible dataset construction protocol, the results cannot be independently verified or compared to future work.
+  - **Resolution test** Provide a detailed, step-by-step description of the dataset construction process, including specific filtering criteria and the number of structures removed at each step. Justify the 4.2 Å cutoff. Provide a full breakdown of carbohydrate types and structure counts in the main text or a supplementary table.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that CAPSIF:V can be used in conjunction with GlycanDock to predict bound protein-carbohydrate structures, demonstrated on five proteins.
+  - **Evidence pointer** Results section 2.5, Figure 5 (not provided)
+  - **Concern** The proof-of-concept pipeline is tested on only five proteins. The text reports RMSD values but does not provide a comparison to a baseline or a random placement. The manual placement and rotation of the carbohydrate is a potential source of bias. The failure on the antibody case is attributed to training on single-chain data, but this limitation is not explored further.
+  - **Why it matters** The docking pipeline is presented as a key application of the models. A five-protein test with manual intervention is insufficient to demonstrate general utility. The lack of a baseline comparison makes it difficult to assess the added value of CAPSIF:V in the pipeline.
+  - **Resolution test** Expand the test set. Provide a baseline comparison, such as docking without CAPSIF:V guidance or random placement. Describe the manual steps in detail and discuss how they could be automated. Analyze the failure case more deeply.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that CAPSIF:V has approximately 102 million parameters and CAPSIF:G has approximately 236 thousand parameters.
+  - **Evidence pointer** Methods section 4.3
+  - **Concern** The large difference in parameter count between the two models is striking, but the text does not discuss the implications for training data requirements, overfitting risk, or generalization. The voxel-based model's performance advantage could be due to its larger capacity, but this is not analyzed.
+  - **Why it matters** Understanding the relationship between model capacity, architecture, and performance is important for interpreting the results and for guiding future model development.
+  - **Resolution test** Discuss the trade-offs between the two architectures. Report training curves, validation performance, and any signs of overfitting. Consider ablations to isolate the effect of architecture versus capacity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, Results section 2.3
+  - **Evidence pointer** Location not provided
+  - **Issue** The text uses terms such as "equivariant graph neural network" and "voxelized approach" without sufficient explanation for readers unfamiliar with deep learning architectures.
+  - **Required correction** Add a brief, plain-language explanation of the two architectures and their key differences in the introduction or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section 2.3
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states "CAPSIF:V achieves an average .0596 Dice coefficient" which appears to be a typo, likely 0.596.
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section 2.3
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states "CAPSIF:G successfully predicts 55.2% of test structures with less than 0.6 Dice" which is inconsistent with the earlier statement that success is defined as Dice greater than 0.6.
+  - **Required correction** Clarify the success criteria and ensure consistent reporting.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section 2.3
+  - **Evidence pointer** Location not provided
+  - **Issue** The text mentions "coeffiecents" which is a typo for "coefficients".
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section 2.4
+  - **Evidence pointer** Location not provided
+  - **Issue** The text states "CAPSIF:V predicts the carbohydrate binding regions with similar Dice coefficients of 0.597 and 0.586 for protein databank versus AF2 predicted structures" but the abstract reports a test Dice of 0.597 for CAPSIF:V. It is unclear if these are the same number or a coincidence.
+  - **Required correction** Clarify whether the test set used in section 2.3 is the same as the PDB structures used in section 2.4.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of why CAPSIF:V outperforms CAPSIF:G is speculative and would benefit from a more structured analysis.
+  - **Required correction** Provide a more systematic comparison of the two architectures, potentially referencing specific architectural differences and their expected effects.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (baseline comparison and statistical significance), R1-M2 (equivalence claim on AF2 structures), R1-M3 (dataset construction reproducibility), R1-M4 (docking pipeline validation), R1-M5 (model capacity analysis).
+- **Assessment against Nature-style criteria** Originality: The work is original in its specific application of deep learning to carbohydrate-binding site prediction, though it builds on established methods for small molecule binding site prediction. Scientific importance: The problem is important and the potential impact is high, but the current evidence is insufficient to fully establish the claimed improvements. Interdisciplinary readership: The topic is relevant to structural biology, glycobiology, and machine learning, but the presentation may be too technical for a general audience. Technical soundness: The methods are plausible, but key details are missing and the evaluation is incomplete. Readability for nonspecialists: The abstract and introduction are accessible, but the results and methods sections assume significant background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a valuable problem and presents a reasonable approach, but the current evidence does not fully support the central claims. The authors should address the concerns regarding baseline comparisons, statistical significance, dataset construction, and the AF2 equivalence claim before the case is established.
+
+## Risk / unsupported claims
+- The claim that CAPSIF:V "performs equivalently" on AF2 structures is not supported by statistical testing and is contradicted by the higher failure rate on AF2 structures.
+- The claim that CAPSIF models "outperform previous surrogate methods" is not fully supported without details on baseline configuration and statistical significance.
+- The claim that the dataset is "physiologically relevant" is subjective and not defined.
+- The performance of the GlycanDock pipeline is not compared to any baseline, so the added value of CAPSIF:V in this context is not established.
+- The statement that CAPSIF:V "performs best on glucose, galactosamine, arabinose, xylose, ribose, and galacturonic acid" is based on data in a supplementary file that was not provided, making it unverifiable.

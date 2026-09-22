@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.12.02.470946",
+  "title": "Omicron and Delta Variant of SARS-CoV-2: A Comparative Computational Study of Spike protein",
+  "authors": "Kumar S; Thambiraja TS; Karuppanan K; Subramaniam G",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-03",
+  "window": {
+    "start": "2021-11-29",
+    "end": "2021-12-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过分子对接比较Omicron与Delta刺突蛋白与ACE2的结合亲和力，并提及RBD区域的无序-有序转变，但对象非IDP/相分离，互作机制建模较浅，方法以常规对接为主。",
+  "abstract": "Emerging SARS-CoV-2 variants, especially those of concern, may have an impact on the virus’s transmissibility and pathogenicity, as well as diagnostic equipment performance and vaccine effectiveness. Even though the SARS-CoV-2 Delta variant (B.1.617.2) emerged during India’s second wave of infections, Delta variants have grown dominant internationally and are still evolving. On November 26, 2021, WHO identified the variant B.1.1.529 as a variant of concern, naming it Omicron, based on evidence that Omicron contains numerous mutations that may influence its behaviour. However, the mode of transmission and severity of the Omicron variant remains unknown. We used computational studies to examine the Delta and Omicron variants in this work and found that the Omicron variant had a higher affinity for human ACE2 than the Delta variant due to a significant number of mutations in the SARS-CoV-2 receptor binding domain, indicating a higher potential for transmission. Based on docking studies, the Q493R, N501Y, S371L, S373P, S375F, Q498R, and T478K mutations contribute significantly to high binding affinity with human ACE2. In comparison to the Delta variant, both the entire spike protein and the RBD in Omicron include a high proportion of hydrophobic amino acids such as leucine and phenylalanine. These amino acids are located within the protein’s core and are required for structural stability. Omicron has a higher percentage of alpha-helix structure than the Delta variant in both whole spike protein and RBD, indicating that it has a more stable structure. We observed a disorder-order transition in the Omicron variant between spike protein RBD regions 468-473, and it may be significant in the influence of disordered residues/regions on spike protein stability and binding to ACE2. A future study might investigate the epidemiological and biological consequences of the Omicron variant.",
+  "abstract_zh": "新出现的SARS-CoV-2变异株，尤其是那些受关注的变异株，可能对病毒的传播性、致病性以及诊断设备性能和疫苗有效性产生影响。尽管SARS-CoV-2 Delta变异株（B.1.617.2）在印度第二波感染期间出现，但Delta变异株已在国际上占据主导地位，并仍在持续进化。2021年11月26日，世界卫生组织（WHO）根据证据将B.1.1.529变异株认定为受关注变异株，并命名为Omicron，该证据表明Omicron包含众多可能影响其行为的突变。然而，Omicron变异株的传播方式和严重程度仍未知。我们在这项工作中使用计算研究来检查Delta和Omicron变异株，并发现由于SARS-CoV-2受体结合域中存在大量突变，Omicron变异株对人类ACE2的亲和力高于Delta变异株，表明其具有更高的传播潜力。基于对接研究，Q493R、N501Y、S371L、S373P、S375F、Q498R和T478K突变对与人类ACE2的高结合亲和力有显著贡献。与Delta变异株相比，Omicron中的整个刺突蛋白和RBD均包含高比例的疏水性氨基酸，如亮氨酸和苯丙氨酸。这些氨基酸位于蛋白质核心内，对结构稳定性至关重要。在整条刺突蛋白和RBD中，Omicron的α-螺旋结构比例高于Delta变异株，表明其具有更稳定的结构。我们观察到Omicron变异株在刺突蛋白RBD区域468-473之间存在无序-有序转变，这可能对无序残基/区域影响刺突蛋白稳定性及与ACE2结合具有重要意义。未来研究可探讨Omicron变异株的流行病学和生物学后果。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.12.02.470946",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.12.02.470946",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.12.02.470946/index.html"
+}

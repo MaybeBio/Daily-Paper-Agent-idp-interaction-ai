@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.06.29.450372",
+  "title": "Epitope order Matters in multi-epitope-based peptide (MEBP) vaccine design: An in silico study",
+  "authors": "Salaikumaran MR; Kasamuthu PS; Burra VLSP",
+  "journal": "bioRxiv",
+  "published_date": "2021-06-30",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过改变多表位肽疫苗中表位顺序并引入评分指标进行计算机模拟设计，对象为SARS-CoV-2疫苗而非无序蛋白/IDR，且不涉及PPI机制或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "With different countries facing multiple waves, with some SARS-CoV-2 variants more deadly and virulent, the COVID-19 pandemic is becoming more dangerous by the day and the world is facing an even more dreadful extended pandemic with exponential positive cases and increasing death rates. There is an urgent need for more efficient and faster methods of vaccine development against SARS-CoV-2. Compared to experimental protocols, the opportunities to innovate are very high in immunoinformatics/ in silico approaches especially with the recent adoption of structural bioinformatics in peptide vaccine design. In recent times, multi-epitope-based peptide vaccine candidates (MEBPVCs) have shown extraordinarily high humoral and cellular responses to immunization. Most of the publications claim that respective reported MEBPVC(s) assembled using a set of in silico predicted epitopes, to be the computationally validated potent vaccine candidate(s) ready for experimental validation. However, in this article, for a given set of predicted epitopes, it is shown that the published MEBPVC is one among the many possible variants and there is high likelihood of finding more potent MEBPVCs than the published candidate. To test the same, a methodology is developed where novel MEBP variants are derived by changing the epitope order of the published MEBPVC. Further, to overcome the limitations of current qualitative methods of assessment of MEBPVC, to enable quantitative comparison, ranking, and the discovery of more potent MEBPVCs, novel predictors, Percent Epitope Accessibility (PEA), Receptor specific MEBP vaccine potency(RMVP), MEBP vaccine potency(MVP) are introduced. The MEBP variants indeed showed varied MVP scores indicating varied immunogenicity. When the MEBP variants were ranked in descending order of their MVP scores, the published MEBPVC had the least MVP score. Further, the MEBP variants with IDs, SPVC_387 and SPVC_206, had the highest MVP scores indicating these variants to be more potent MEBPVCs than the published MEBPVC and hence should be prioritized for experimental testing and validation. Through this method, more vaccine candidates will be available for experimental validation and testing. This study also opens the opportunity to develop new software tools for designing more potent MEBPVCs in less time. The computationally validated top-ranked MEBPVCs must be experimentally tested, validated, and verified. The differences and deviations between experimental results and computational predictions provide an opportunity for improving and developing more efficient algorithms and reliable scoring schemes and software.",
+  "abstract_zh": "不同国家面临多轮疫情，部分SARS-CoV-2变异株更为致命且毒力更强，COVID-19大流行日益危险，世界正面临更可怕且延长的疫情，阳性病例呈指数级增长，死亡率不断上升。迫切需要更高效、更快速的SARS-CoV-2疫苗开发方法。与实验方案相比，免疫信息学/计算机模拟方法（in silico approaches）的创新机会非常高，尤其是在结构生物信息学最近被应用于肽疫苗设计之后。近年来，基于多表位的肽疫苗候选物（multi-epitope-based peptide vaccine candidates, MEBPVCs）在免疫接种中显示出极高的体液和细胞免疫应答。大多数出版物声称，各自报道的MEBPVC(s)由一组计算机预测的表位组装而成，是经计算验证的强效疫苗候选物，已准备好进行实验验证。然而，本文表明，对于给定的一组预测表位，已发表的MEBPVC仅是众多可能变体之一，并且极有可能找到比已发表候选物更有效的MEBPVC。为验证这一点，开发了一种方法，通过改变已发表MEBPVC的表位顺序来衍生新的MEBP变体。此外，为克服当前MEBPVC定性评估方法的局限性，实现定量比较、排序和发现更有效的MEBPVC，引入了新型预测指标：表位可及性百分比（Percent Epitope Accessibility, PEA）、受体特异性MEBP疫苗效力（Receptor specific MEBP vaccine potency, RMVP）和MEBP疫苗效力（MEBP vaccine potency, MVP）。MEBP变体确实显示出不同的MVP评分，表明其免疫原性存在差异。当MEBP变体按MVP评分降序排列时，已发表的MEBPVC的MVP评分最低。此外，ID为SPVC_387和SPVC_206的MEBP变体具有最高MVP评分，表明这些变体比已发表的MEBPVC更有效，因此应优先进行实验测试和验证。通过这种方法，将有更多疫苗候选物可供实验验证和测试。本研究还为开发新软件工具以在更短时间内设计更有效的MEBPVCs提供了机会。经计算验证的排名靠前的MEBPVCs必须经过实验测试、验证和确认。实验结果与计算预测之间的差异和偏差为改进和开发更高效的算法、可靠的评分方案及软件提供了机会。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.06.29.450372",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.06.29.450372",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.06.29.450372/index.html"
+}

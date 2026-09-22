@@ -1,0 +1,274 @@
+{
+  "identity": {
+    "pmid": "40662788",
+    "doi": "10.1093/bioinformatics/btaf185",
+    "title": "LoRA-DR-suite: adapted embeddings predict intrinsic and soft disorder from protein sequences."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Intrinsic disorder regions (IDR) and soft disorder regions (SDR) provide crucial information on a protein structure to underpin its functioning, interaction with other molecules and assembly path. Circular dichroism experiments are used to identify intrinsic disorder residues, while SDRs are characterized using B-factors, missing residues, or a combination of both in alternative X-ray crystal structures of the same molecule. These flexible regions in proteins are particularly significant in diverse biological processes and are often implicated in pathological conditions. Accurate computational prediction of these disordered regions is thus essential for advancing protein research and understanding their functional implications. RESULTS: LoRA-DR-suite addresses the challenge and employs a simple adapter-based architecture that utilizes protein language models embeddings as protein sequence representations, enabling the precise prediction of IDRs and SDRs directly from primary sequence data. Alongside the fast LoRA-DR-suite implementation, we release SoftDis, a unique soft disorder database constructed for approximately 500 000 PDB chains. SoftDis is designed to facilitate new research, testing, and applications on soft disorder, advancing the study of protein dynamics and interactions. AVAILABILITY: LoRA-DR-suite and SoftDis database are available at https://huggingface.co/CQSB.",
+    "keywords": [],
+    "mesh_terms": [
+      "Databases, Protein",
+      "*Software",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Sequence Analysis, Protein/methods",
+      "*Computational Biology/methods",
+      "Amino Acid Sequence",
+      "Protein Conformation",
+      "Models, Molecular",
+      "*Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lombardi, Gianluca",
+        "Seoane, Beatriz",
+        "Carbone, Alessandra"
+      ],
+      "short_names": [
+        "Lombardi G",
+        "Seoane B",
+        "Carbone A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2098-5743"
+      ],
+      "affiliations": [
+        "Sorbonne Universite, CNRS, IBPS, Department of Computational, Quantitative and Synthetic Biology (CQSB), UMR7238, 4 Place Jussieu, Paris, 75005, France.",
+        "Departamento de Fisica Teorica, Universidad Complutense de Madrid, Madrid 28040, Spain.",
+        "Sorbonne Universite, CNRS, IBPS, Department of Computational, Quantitative and Synthetic Biology (CQSB), UMR7238, 4 Place Jussieu, Paris, 75005, France.",
+        "Institut Universitaire de France, Paris, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lombardi, Gianluca",
+        "short_name": "Lombardi G",
+        "identifiers": [],
+        "affiliations": [
+          "Sorbonne Université, CNRS, IBPS, Department of Computational, Quantitative and Synthetic Biology (CQSB), UMR7238, 4 Place Jussieu, Paris, 75005, France."
+        ]
+      },
+      {
+        "full_name": "Seoane, Beatriz",
+        "short_name": "Seoane B",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Física Téorica, Universidad Complutense de Madrid, Madrid 28040, Spain."
+        ]
+      },
+      {
+        "full_name": "Carbone, Alessandra",
+        "short_name": "Carbone A",
+        "identifiers": [
+          "0000-0003-2098-5743"
+        ],
+        "affiliations": [
+          "Sorbonne Université, CNRS, IBPS, Department of Computational, Quantitative and Synthetic Biology (CQSB), UMR7238, 4 Place Jussieu, Paris, 75005, France.",
+          "Institut Universitaire de France, Paris, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2025 Jul 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/15 12:29",
+    "fetched_at": "2026-09-21 21:02:36"
+  },
+  "links": {
+    "cites": [
+      "41452662"
+    ],
+    "refs": [
+      "39789785",
+      "39237195",
+      "37904585",
+      "37740110",
+      "37621223",
+      "37246642",
+      "36927031",
+      "36458437",
+      "36395332",
+      "34418423",
+      "34290238",
+      "34265844",
+      "34232869",
+      "33875885",
+      "33417598",
+      "32173600",
+      "31713636",
+      "31415569",
+      "30698416",
+      "30198635",
+      "29413001",
+      "29035372",
+      "28991473",
+      "28589442",
+      "27911791",
+      "27899601",
+      "24939692",
+      "20889377",
+      "20053844",
+      "19412530",
+      "12814657",
+      "12381310",
+      "12368089",
+      "11700597"
+    ],
+    "similar": [
+      "40662788",
+      "39571839",
+      "42475469",
+      "23912807",
+      "18831774",
+      "33417598",
+      "38701796",
+      "40133791",
+      "17206849",
+      "28369666",
+      "24573479",
+      "31411026",
+      "40859602",
+      "16618368",
+      "40577786",
+      "24573480",
+      "35469832",
+      "38079339",
+      "27787828",
+      "28968795",
+      "27115638",
+      "26109352",
+      "28365882",
+      "38166858",
+      "26683124",
+      "30099775",
+      "40131945",
+      "32599863",
+      "37992088",
+      "42288727",
+      "39237195",
+      "41500381",
+      "26090958",
+      "42635213",
+      "32901090",
+      "40728619",
+      "39576583",
+      "41534519",
+      "25637562",
+      "33875885",
+      "39708500",
+      "32621220",
+      "26801222",
+      "37883249",
+      "41218076",
+      "35094056",
+      "40138319",
+      "31521235",
+      "36458437",
+      "23466039",
+      "17391016",
+      "40054813",
+      "30395465",
+      "31889261",
+      "29895149",
+      "37709009",
+      "36908253",
+      "22661649",
+      "25534081",
+      "40031750",
+      "27787825",
+      "40971691",
+      "29136219",
+      "29360926",
+      "32696355",
+      "23142703",
+      "34830151",
+      "40347452",
+      "42503799",
+      "40867524",
+      "32696351",
+      "39253485",
+      "17391014",
+      "28968848",
+      "20976197",
+      "31756456",
+      "31299122",
+      "15388930",
+      "40689530",
+      "32535960",
+      "30878482",
+      "36334049",
+      "20522251",
+      "40116777",
+      "40650026",
+      "38866950",
+      "40254833",
+      "25246432",
+      "27307636",
+      "29584811",
+      "31870849",
+      "37740110",
+      "39246251",
+      "39237207",
+      "20823312",
+      "32173600",
+      "29228892",
+      "28589442",
+      "24727949",
+      "41104652"
+    ],
+    "review": [
+      "40662788",
+      "31521235",
+      "23466039",
+      "40650026",
+      "37740110"
+    ],
+    "pmc": [
+      "12261480"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40662788/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3772",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btaf185",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

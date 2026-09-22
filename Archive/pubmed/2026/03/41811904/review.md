@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that 20S proteasomes can degrade osteopontin (OPN) and its C-terminal fragment in vitro, generating canonical and spliced peptides. Two specific peptides, OPN217–230 and OPN292–306, are shown to stimulate cell migration via CD44, and computational docking predicts that these peptides interact with the CD44 extracellular domain, potentially displacing the flexible C-terminal region and promoting a conformational change that activates downstream signaling. The authors further propose that this represents a broader regulatory mechanism of cell surface receptors by proteasome-derived peptides.
+- **Visible evidence base** Results sections 2.1–2.4, Figures 1–4 (referenced), Tables S1–S3 (referenced), Materials and Methods sections 4.1–4.8
+- **Missing materials affecting confidence** Figures 1–4 and supplementary figures/tables are referenced but not provided in the manuscript text. Statistical details in figure captions are not available. The NMR structure ensemble (PDB: 1POZ) is referenced but not described in detail. No raw data or MS output files are directly accessible.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an interesting and potentially novel hypothesis regarding the role of proteasome-generated OPN-derived peptides in regulating cell migration via CD44. The combination of in vitro proteasome digestion, MS-based peptide identification, cell-based functional assays, and computational docking is a reasonable approach. However, the evidence provided in the text is insufficient to fully establish the proposed mechanism. Key concerns include the lack of direct demonstration that these peptides are generated endogenously at physiologically relevant concentrations, the absence of validation for the docking predictions, and the limited mechanistic depth of the CD44 activation studies. The manuscript would benefit from additional experiments to bridge the gap between in vitro observations and physiological relevance.
+- **Who would be interested in the results, and why** Researchers in immunology, cancer biology, and proteostasis would find this work relevant. The potential role of proteasome-derived peptides in extracellular signaling and immune regulation is of broad interest, particularly given the established importance of OPN in inflammation and tumor progression. The study may also appeal to those studying CD44 signaling and cell migration.
+- **Major strengths** The study addresses a novel and potentially important question about the non-canonical functions of proteasome-generated peptides. The use of a well-established in vitro–in silico pipeline for peptide identification is a methodological strength. The identification of specific residues (E226, S228) that appear to impact CD44-mediated migration provides a testable hypothesis for future work. The authors are transparent about limitations in the discussion.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Physiological relevance
+  - **Claim pointer** The authors claim that proteasomes can process OPNs "theoretically both inside and outside a cell, leading to the presence of OPN-derived peptides in the extracellular space where they can play an immunological role."
+  - **Evidence pointer** Section 2.1, Section 3, Discussion
+  - **Concern** The study demonstrates in vitro proteasome digestion of recombinant OPN substrates and shows that synthetic peptides can stimulate migration. However, there is no evidence that these peptides are generated endogenously at concentrations sufficient to exert biological effects. The authors acknowledge this limitation but do not provide any experimental approach to address it. The claim that this process "could be involved in the regulation of cell surface receptors" remains speculative without demonstration of endogenous peptide production.
+  - **Why it matters** The central hypothesis of the paper is that proteasome-generated OPN peptides have physiological relevance. Without evidence of endogenous generation, the study remains an in vitro observation with unclear translational significance.
+  - **Resolution test** Provide evidence of endogenous OPN peptide generation, for example by detecting these peptides in cell culture supernatants, extracellular fluids, or tissue samples using targeted MS approaches. Alternatively, demonstrate that inhibiting proteasome activity reduces OPN peptide levels and associated cell migration in a relevant biological system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** The authors propose that OPN217–230 and OPN292–306 promote cell migration by binding to CD44, specifically interacting with residues including N164, and displacing the flexible C-terminal region to induce a conformational change.
+  - **Evidence pointer** Section 2.3, Section 2.4, Figure 3 (referenced)
+  - **Concern** The docking predictions are presented as the primary evidence for the molecular mechanism. However, no experimental validation of the predicted binding is provided. The claim that E226 and S228 are key residues is based solely on computational predictions and cell-based assays with mutant peptides. Direct binding studies (e.g., surface plasmon resonance, isothermal titration calorimetry, or NMR) are needed to confirm that these peptides bind CD44 and to characterize the binding affinity and specificity.
+  - **Why it matters** The proposed mechanism of CD44 activation via peptide binding and conformational change is central to the paper's conclusions. Without experimental validation of the peptide-CD44 interaction, the mechanism remains hypothetical.
+  - **Resolution test** Perform direct binding assays between the OPN peptides and the CD44 extracellular domain. Use techniques such as SPR or ITC to measure binding affinity. Additionally, validate the role of N164 and the E226/S228 residues through site-directed mutagenesis of CD44 or peptide analogs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Concentration-response and specificity
+  - **Claim pointer** The authors state that OPN217–230 and OPN292–306 peptides stimulate HUVEC and PBL migration at 50 and 500 nM concentrations, and that mutant peptides do not.
+  - **Evidence pointer** Section 2.2, Figure 2 (referenced), Figure 4 (referenced)
+  - **Concern** The manuscript reports effects at two concentrations (50 and 500 nM) but does not provide a full dose-response curve. It is unclear whether the effect is saturable and whether the concentrations used are physiologically relevant. Additionally, the specificity of the peptide effect is only tested with an inverse sequence control. It would be important to test scrambled peptides or peptides from other OPN regions to rule out non-specific effects.
+  - **Why it matters** Establishing a clear dose-response relationship and demonstrating specificity are essential to support the claim that the observed effects are due to specific peptide-CD44 interactions.
+  - **Resolution test** Provide a full dose-response curve for both peptides. Include additional control peptides (e.g., scrambled sequences, peptides from non-hotspot regions) to demonstrate specificity.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Section 2.1, Figure 1 (referenced)
+  - **Issue** The manuscript references Figure 1 with multiple panels (A–E) but does not describe the content of each panel in the text. This makes it difficult to assess the quality of the MS data and the peptide identification.
+  - **Required correction** Provide a detailed description of each panel in the figure legend and refer to specific panels in the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figures 2 and 4
+  - **Evidence pointer** Section 2.2, Section 2.4, Figures 2 and 4 (referenced)
+  - **Issue** The statistical tests used are mentioned in the figure captions, but the captions are not provided in the manuscript text. It is unclear whether appropriate tests were used and whether multiple comparisons were accounted for.
+  - **Required correction** Include the statistical details in the main text or ensure the figure captions are accessible to the reader.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.2
+  - **Evidence pointer** Section 2.2, Figure 2D (referenced)
+  - **Concern** The text refers to "OPN217–230 and OPN292–230 peptides" in one instance, which appears to be a typo for OPN292–306.
+  - **Required correction** Correct the typo to OPN292–306.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3, Figure 3 (referenced)
+  - **Issue** The description of the docking methodology is brief. It is unclear how the "unlikely to bind" regions were defined and how the models were ranked and selected.
+  - **Required correction** Provide more detail on the docking protocol, including the definition of "unlikely to bind" regions and the criteria for model selection.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of endogenous peptide evidence), R1-M2 (lack of direct binding validation), R1-M3 (incomplete dose-response and specificity controls)
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of proteasome-derived peptides acting as extracellular signaling molecules is novel and builds on recent work by Merbl et al. The specific focus on OPN and CD44 is original.
+  - Scientific importance: If fully validated, the proposed mechanism could have broad implications for understanding immune regulation and cancer biology. However, the current evidence is insufficient to establish physiological relevance.
+  - Interdisciplinary readership: The topic bridges immunology, proteomics, and cell biology, which could attract a broad audience. The computational docking component adds structural biology interest.
+  - Technical soundness: The in vitro digestion and MS-based peptide identification appear methodologically sound. However, the lack of binding validation and the limited functional assays weaken the technical case.
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., docking methodology) could be clearer for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the preliminary data are suggestive, but the current evidence does not fully establish the proposed mechanism. Addressing the major concerns, particularly the lack of endogenous peptide evidence and direct binding validation, would significantly strengthen the manuscript.

@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2511.09514v2",
+  "title": "Force-induced Elastic Softening and Conformational Transitions in a Polyampholyte Chain",
+  "authors": "Rakesh Palariya; Sunil P. Singh",
+  "journal": "",
+  "published_date": "2025-11-12",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用分子动力学模拟和GRPA理论系统研究聚电解质/无序蛋白链在力作用下的构象转变与非线性弹性软化机制，虽未直接聚焦PPI，但为IDP构象-力学机制建模提供了可迁移的理论与模拟框架，与课题的机制建模高度相关。",
+  "abstract": "The mechanical response of intrinsically disordered proteins (IDPs) and polyampholyte (PA) chains is vital for understanding their biological functions and designing functional materials. We investigate the force-extension behavior of a PA chain with distinct charge sequences using molecular dynamics simulations and a theoretical approach based on the generalized random-phase approximation (GRPA). A diblock PA chain under extensional force undergoes a continuous coil-to-stretch transition at weak electrostatic coupling, which sharpens into a globule-coil-like transition at stronger coupling. The GRPA theory quantitatively captures these behaviors, including the sharp conformational transition and its dependence on electrostatic strength. Simulations reveal pronounced hysteresis during the force-extension and relaxation processes. Additionally, the elastic modulus exhibits four regimes: an initial plateau, stress stiffening, an exponential stress-softening behavior, and a stress stiffening regime. Using the theoretical model and structural input of the PA chain, we have demonstrated that the elastic modulus in the elastic softening regime decreases exponentially, $E\\sim \\exp(-α_0 f/Γ_e)$, as a function of $f$, which aligns with the simulation results. The elastic response of the PA chain is further examined across different charge sequences, where both elastic softening and sharp transitions are absent at smaller block lengths. Finally, coarse-grained models of IDPs such as LAF-1 and DDX4 exhibit similar nonlinear elasticity, highlighting the universality of these mechanisms. Our results establish a fundamental link between electrostatic correlations, charge sequence, and nonlinear elasticity, bridging molecular interactions and macroscopic mechanics.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 和 polyampholyte (PA) 链的力学响应对于理解其生物学功能和设计功能材料至关重要。我们利用分子动力学模拟和基于广义随机相位近似 (generalized random-phase approximation, GRPA) 的理论方法，研究了具有不同电荷序列的 PA 链的力-延伸行为。在弱静电耦合下，双嵌段 PA 链在拉伸力作用下经历连续的线圈-拉伸转变，而在较强耦合下，该转变锐化为球状-线圈样转变。GRPA 理论定量捕捉了这些行为，包括尖锐的构象转变及其对静电强度的依赖性。模拟揭示了力-延伸和松弛过程中的显著滞后现象。此外，弹性模量表现出四个区域：初始平台、应力硬化、指数应力软化和应力硬化区域。利用理论模型和 PA 链的结构输入，我们证明了弹性软化区域的弹性模量随 $f$ 呈指数下降，$E\\sim \\exp(-α_0 f/Γ_e)$，这与模拟结果一致。我们还考察了不同电荷序列下 PA 链的弹性响应，发现较小嵌段长度时弹性软化和尖锐转变均消失。最后，IDPs 如 LAF-1 和 DDX4 的粗粒化模型表现出类似的非线性弹性，凸显了这些机制的普适性。我们的结果建立了静电关联、电荷序列和非线性弹性之间的基本联系，桥接了分子相互作用与宏观力学。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2511.09514v2",
+  "source_url": "https://arxiv.org/abs/2511.09514v2",
+  "paper_page_path": "papers/arxiv/2511.09514v2/index.html"
+}

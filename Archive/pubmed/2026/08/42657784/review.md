@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report molecular dynamics simulations of full-length TSH receptor (TSHR) complexes with various ligands, showing that the linker region (LR) is conformationally flexible and adopts ligand-dependent structures ("chameleon" behavior). A beta-sheet structure was absent only in the complex with the blocking antibody K1-70, not with stimulating (M22) or LR-specific (MC1) antibodies. A TSHR fragment lacking the LR (V1.3) was used in protein thermal shift analyses to show that TSH ligand influences the entire TSHR structure, not just the LR.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, statistical analyses, or experimental data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation setup and validation, experimental protocols for protein thermal shift assays, all figures and tables, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant observation regarding the conformational plasticity of the TSHR linker region in response to different ligands. However, the current evidence base is insufficient to evaluate the robustness of the computational findings or the validity of the experimental conclusions. The claim that the LR is a "chameleon" is intriguing but requires detailed structural and dynamic analyses to be substantiated. The thermal shift experiment with the V1.3 fragment is a useful complementary approach, but the interpretation that TSH influences the entire receptor structure from this single assay is under-supported. The manuscript may be of interest to the glycoprotein hormone receptor community, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying glycoprotein hormone receptors, particularly the TSH receptor, and those interested in receptor activation mechanisms, intrinsically disordered regions in signaling proteins, and computational approaches to membrane protein dynamics. The findings could also be relevant to drug development targeting TSHR, given the differential effects of stimulating, blocking, and LR-specific antibodies.
+- **Major strengths** The study addresses a previously unexplored question regarding ligand-dependent conformational behavior of the TSHR linker region. The combination of full-length receptor simulations with a complementary experimental thermal shift assay is a reasonable approach. The use of multiple ligand types (stimulating, blocking, LR-specific) provides a comparative framework that could yield mechanistically informative results.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the LR "exhibited high conformational flexibility, adopting distinct structures depending on the bound ligand" is central to the paper.
+  - **Evidence pointer** Location not provided; abstract only
+  - **Concern** The abstract provides no information on the simulation methodology, including force field parameters, simulation length, number of replicates, equilibration protocols, or convergence criteria. Without these details, it is impossible to assess whether the observed conformational differences are statistically robust or merely artifacts of insufficient sampling or simulation setup.
+  - **Why it matters** Molecular dynamics simulations of large membrane protein complexes are computationally demanding and prone to sampling limitations. The conclusion that the LR adopts ligand-dependent structures requires evidence that the simulations have converged and that the observed conformational ensembles are reproducible across independent runs.
+  - **Resolution test** Provide detailed methods including force field, water model, membrane setup, simulation length, number of replicates, and convergence metrics. Show that the conformational differences between ligand-bound states are statistically significant and reproducible.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "a beta-sheet structure was absent only in the complex with a TSHR blocking antibody (K1-70) and not with stimulating (M22) or LR-specific (MC1) antibodies" is presented as a key finding.
+  - **Evidence pointer** Location not provided; abstract only
+  - **Concern** The abstract does not specify how secondary structure elements were assigned or quantified in the simulations. Different secondary structure assignment algorithms (e.g., DSSP, STRIDE) can yield different results, and the threshold for "presence" or "absence" of a beta-sheet is not defined. Additionally, the biological significance of a single secondary structure element difference is unclear without context on its location and stability.
+  - **Why it matters** The differential beta-sheet presence is presented as a distinguishing feature between ligand-bound states. If the assignment method or threshold is arbitrary, the conclusion may not be robust. Furthermore, the functional relevance of this structural difference is not established.
+  - **Resolution test** Specify the secondary structure assignment method, define criteria for beta-sheet presence, and provide structural context (e.g., which residues are involved, persistence over simulation time). Discuss the potential functional implications of this difference.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The claim that "TSH ligand was able to influence the entire TSHR structure and, therefore, not just the LR" is based on protein thermal shift analyses of the V1.3 fragment.
+  - **Evidence pointer** Location not provided; abstract only
+  - **Concern** The abstract reports a single experimental approach (protein thermal shift) using a TSHR fragment lacking the LR. It is not clear how a thermal shift assay on a fragment can demonstrate effects on "the entire TSHR structure." The V1.3 fragment is described as "absent the LR," but its composition, purity, and relevance to the full-length receptor are not specified. The interpretation that TSH influences the entire receptor is a significant extrapolation from this limited assay.
+  - **Why it matters** The conclusion that ligand effects extend beyond the LR is important for the overall message of the paper. If the thermal shift data are not directly comparable to the full-length receptor context, the claim is overreaching.
+  - **Resolution test** Provide details on the V1.3 fragment construct, the thermal shift assay conditions, and the magnitude and reproducibility of the observed shifts. Clarify how these data support effects on the full-length receptor structure, or temper the claim accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "chameleon" is used to describe the LR's conformational behavior, but it is not defined in the abstract. This colloquial term may be unclear to readers unfamiliar with the concept of conformational plasticity in disordered proteins.
+  - **Required correction** Define "chameleon" in the context of protein conformation, or use a more standard term such as "conformationally adaptive" or "ligand-dependent conformational selection."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Antibody descriptions
+  - **Evidence pointer** Abstract, results section
+  - **Issue** The antibodies M22, K1-70, and MC1 are described by their functional effects (stimulating, blocking, LR-specific), but no information is provided on their binding sites or how they were modeled in the simulations.
+  - **Required Correction** Briefly state the binding epitopes of each antibody and how they were incorporated into the simulation systems.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Thermal shift data
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The thermal shift analysis is mentioned without any quantitative results, such as melting temperature shifts or statistical significance.
+  - **Required Correction** Report the magnitude of the thermal shift and its statistical significance, or state that these details are in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation methodology and convergence), R1-M2 (secondary structure assignment and significance), R1-M3 (thermal shift interpretation and extrapolation to full-length receptor)
+- **Assessment against Nature-style criteria** Originality: The concept of a ligand-dependent "chameleon" linker region in TSHR is novel and could be of interest to a specialized audience. Scientific importance: The findings could inform understanding of TSHR activation mechanisms, but the significance is not fully established from the abstract. Interdisciplinary readership: The work bridges computational biophysics and receptor biology, but the abstract is likely to appeal primarily to a specialized audience. Technical soundness: Not assessable from the abstract; critical methodological details are missing. Readability for nonspecialists: The abstract is generally clear but uses specialized terminology without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary data, but the lack of methodological detail and the overreach in the thermal shift interpretation prevent a supportive recommendation. The manuscript may become suitable for publication if the technical concerns are addressed and the claims are appropriately tempered.
+
+## Risk / unsupported claims
+- The claim that the LR "adopts distinct structures depending on the bound ligand" is unsupported without simulation convergence and reproducibility data.
+- The claim that "a beta-sheet structure was absent only in the complex with K1-70" is unsupported without defined secondary structure assignment criteria.
+- The claim that "TSH ligand was able to influence the entire TSHR structure" is an overreach from a single thermal shift assay on a fragment lacking the LR.
+- The general statement that the LR "appears to serve as a critical bridge transmitting structural changes" is presented as prior work but is not verifiable from the abstract.

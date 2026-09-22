@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34022132",
+  "title": "alpha-tubulin tail modifications regulate microtubule stability through selective effector recruitment, not changes in intrinsic polymer dynamics.",
+  "authors": "Chen, Jiayi; Kholina, Ekaterina; Szyk, Agnieszka; Fedorov, Vladimir A; Kovalenko, Ilya; Gudimchuk, Nikita; Roll-Mecak, Antonina",
+  "journal": "Developmental cell",
+  "published_date": "2021-05-23",
+  "window": {
+    "start": "2021-05-17",
+    "end": "2021-05-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过分子动力学模拟和实验揭示α-微管蛋白无序尾部通过选择性招募效应蛋白而非改变内在聚合动力学来调控微管稳定性，虽对象为无序蛋白且涉及互作机制建模，但互作对象非典型PPI且方法以MD为主，整体与课题相关但深度有限。",
+  "abstract": "Microtubules are non-covalent polymers of alphabeta-tubulin dimers. Posttranslational processing of the intrinsically disordered C-terminal alpha-tubulin tail produces detyrosinated and Delta2-tubulin. Although these are widely employed as proxies for stable cellular microtubules, their effect (and of the alpha-tail) on microtubule dynamics remains uncharacterized. Using recombinant, engineered human tubulins, we now find that neither detyrosinated nor Delta2-tubulin affect microtubule dynamics, while the alpha-tubulin tail is an inhibitor of microtubule growth. Consistent with the latter, molecular dynamics simulations show the alpha-tubulin tail transiently occluding the longitudinal microtubule polymerization interface. The marked differential in vivo stabilities of the modified microtubule subpopulations, therefore, must result exclusively from selective effector recruitment. We find that tyrosination quantitatively tunes CLIP-170 density at the growing plus end and that CLIP170 and EB1 synergize to selectively upregulate the dynamicity of tyrosinated microtubules. Modification-dependent recruitment of regulators thereby results in microtubule subpopulations with distinct dynamics, a tenet of the tubulin code hypothesis.",
+  "abstract_zh": "微管是由αβ-微管蛋白二聚体组成的非共价聚合物。 intrinsically disordered C-末端α-微管蛋白尾部的翻译后加工产生去酪氨酸化和Δ2-微管蛋白。尽管这些常被用作稳定细胞微管的替代标志，但它们（以及α-尾部）对微管动力学的影响仍未得到表征。利用重组、工程化的人源微管蛋白，我们现在发现去酪氨酸化和Δ2-微管蛋白均不影响微管动力学，而α-微管蛋白尾部是微管生长的抑制剂。与后者一致，分子动力学 (molecular dynamics) 模拟显示α-微管蛋白尾部瞬时封闭纵向微管聚合界面。因此，修饰微管亚群在体内稳定性的显著差异必然完全源于选择性效应因子招募。我们发现酪氨酸化定量调控CLIP-170在生长正端的密度，且CLIP170和EB1协同作用，选择性上调酪氨酸化微管的动态性。由此，修饰依赖性调控因子的招募导致具有不同动力学的微管亚群，这是微管蛋白密码假说的一个核心原则。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34022132/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34022132/",
+  "paper_page_path": "papers/pubmed/34022132/index.html"
+}

@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "41259415",
+    "doi": "10.1371/journal.pcbi.1013634",
+    "title": "Molecular insights on the mechanism of alpha1-antitrypsin condensate formation and maturation."
+  },
+  "content": {
+    "abstract": "The deficiency of [Formula: see text]-antitrypsin protein is a genetic disorder characterized by the accumulation of misfolded protein aggregates within hepatocytes, leading to liver dysfunction. In the lung, it is found in macrophages, bronchial and epithelial alveolar cells type 2, leading to pulmonary emphysema. Despite extensive research, the precise mechanism underlying the formation of [Formula: see text]-antitrypsin inclusion bodies remain elusive. In this study, we combine equilibrium and non-equilibrium molecular dynamics simulations to elucidate the intricate process of [Formula: see text]-antitrypsin condensate formation and maturation. Our mechanistic model explains cluster accumulation-specifically the onset of this pathogenesis-through the emergence of phase-separated liquid-like protein droplets, which subsequently undergo inter-protein beta-sheet transitions between misfolded variants, resulting in solid-like clusters. We find that this mechanism only applies to the misfolded variant, Z-[Formula: see text]-antitrypsin, which phase-separates driven by its disordered C-terminus. In contrast, the native protein, M-[Formula: see text]-antitrypsin, shows much lower propensity to phase-separate and later form kinetically trapped aggregates. Furthermore, we explore how Z-[Formula: see text]-antitrypsin exhibits an increased capacity to form condensates near external walls with different types of interactions. Such conditions can be similar to those found within the endoplasmic reticulum membrane, where phase separation and hardening take place. Overall, our results shed light on the molecular basis of [Formula: see text]-antitrypsin-related disorders and provide valuable microscopic insights for the development of therapeutic strategies targeting protein misfolding and aggregation-related disorders.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha 1-Antitrypsin/chemistry/metabolism/genetics",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "Protein Folding",
+      "Protein Aggregates",
+      "alpha 1-Antitrypsin Deficiency/metabolism",
+      "Computational Biology",
+      "Inclusion Bodies/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sanchez-Burgos, Ignacio",
+        "Tejedor, Andres R",
+        "Collepardo-Guevara, Rosana",
+        "de la Serna, Jorge Bernardino",
+        "Espinosa, Jorge R"
+      ],
+      "short_names": [
+        "Sanchez-Burgos I",
+        "Tejedor AR",
+        "Collepardo-Guevara R",
+        "de la Serna JB",
+        "Espinosa JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1160-3945",
+        "ORCID: 0000-0002-9437-6169",
+        "ORCID: 0000-0002-1396-3338",
+        "ORCID: 0000-0001-9530-2658"
+      ],
+      "affiliations": [
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, United Kingdom.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Physical-Chemistry, Universidad Complutense de Madrid, Madrid, Spain.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Faculty of Medicine, Imperial College London, South Kensington, London, United Kingdom.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, United Kingdom.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+        "Department of Physical-Chemistry, Universidad Complutense de Madrid, Madrid, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sanchez-Burgos, Ignacio",
+        "short_name": "Sanchez-Burgos I",
+        "identifiers": [
+          "0000-0002-1160-3945"
+        ],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Tejedor, Andres R",
+        "short_name": "Tejedor AR",
+        "identifiers": [
+          "0000-0002-9437-6169"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+          "Department of Physical-Chemistry, Universidad Complutense de Madrid, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "de la Serna, Jorge Bernardino",
+        "short_name": "de la Serna JB",
+        "identifiers": [
+          "0000-0002-1396-3338"
+        ],
+        "affiliations": [
+          "Faculty of Medicine, Imperial College London, South Kensington, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [
+          "0000-0001-9530-2658"
+        ],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge, United Kingdom.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, United Kingdom.",
+          "Department of Physical-Chemistry, Universidad Complutense de Madrid, Madrid, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/19 18:27",
+    "fetched_at": "2026-09-17 22:07:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41259415",
+      "23912807",
+      "33668611",
+      "29769092",
+      "34830348",
+      "27246852",
+      "42475469",
+      "29538751",
+      "25068987",
+      "31091192",
+      "41021735",
+      "25218041",
+      "28504839",
+      "34948056",
+      "21909074",
+      "19751191",
+      "41231946",
+      "25442121",
+      "26091018",
+      "30833329",
+      "40507182",
+      "12672469",
+      "1608473",
+      "24502947",
+      "15100318",
+      "14694355",
+      "22723858",
+      "33311470",
+      "20522742",
+      "29879455",
+      "15486938",
+      "32978262",
+      "22735536",
+      "9569237",
+      "40943425",
+      "12023831",
+      "18045994",
+      "36321557",
+      "38336172",
+      "7664092",
+      "34002692",
+      "10092640",
+      "29742402",
+      "24374162",
+      "27465791",
+      "14767073",
+      "24355812",
+      "10954247",
+      "16011217",
+      "34202771",
+      "11773044",
+      "33753261",
+      "10677536",
+      "15170041",
+      "16439713",
+      "16571774",
+      "26753407",
+      "26647313",
+      "35293386",
+      "3488921",
+      "33512066",
+      "28927525",
+      "16874089",
+      "31116417",
+      "35319354",
+      "19232354",
+      "32699193",
+      "34073489",
+      "17635928",
+      "18785256",
+      "38557779",
+      "20583215",
+      "33058391",
+      "22995909",
+      "8977959",
+      "42011130",
+      "39665869",
+      "8033502",
+      "22076419",
+      "23104507",
+      "27034252",
+      "42579796",
+      "34151245",
+      "25418171",
+      "40133359",
+      "23197448",
+      "8662752",
+      "16629899",
+      "22392975",
+      "33311976",
+      "32723872",
+      "17918823",
+      "25098359",
+      "37470509",
+      "39809267",
+      "30346731",
+      "25323228",
+      "32427833",
+      "28362108",
+      "10092631"
+    ],
+    "review": [
+      "41259415",
+      "33668611",
+      "34830348",
+      "25068987",
+      "19751191",
+      "25442121",
+      "12672469",
+      "14694355",
+      "40943425",
+      "12023831",
+      "36321557",
+      "24374162",
+      "27465791",
+      "24355812",
+      "16011217",
+      "34202771",
+      "15170041",
+      "16439713",
+      "26753407",
+      "28927525",
+      "16874089",
+      "18785256",
+      "8977959",
+      "8033502",
+      "27034252",
+      "33311976"
+    ],
+    "pmc": [
+      "12629480"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1013634",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41259415/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

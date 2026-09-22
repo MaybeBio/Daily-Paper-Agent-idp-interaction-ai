@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "37190853",
+    "doi": "10.1039/d3cp00340j",
+    "title": "Naphthoquinone-dopamine hybrids disrupt alpha-synuclein fibrils by their intramolecular synergistic interactions with fibrils and display a better effect on fibril disruption."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein (alphaSyn) is an intrinsically disordered protein and its abnormal aggregation into amyloid fibrils is the main hallmark of Parkinson's disease (PD). The disruption of preformed alphaSyn fibrils using small molecules is considered as a potential strategy for PD treatment. Recent experiments have reported that naphthoquinone-dopamine hybrids (NQDA), synthesized by naphthoquinone (NQ) and dopamine (DA) molecules, can significantly disrupt alphaSyn fibrils and cross the blood-brain barrier. To unravel the fibril-disruptive mechanisms at the atomic level, we performed microsecond molecular dynamics simulations of alphaSyn fibrils in the absence and presence of NQDA, NQ, DA, or NQ+DA molecules. Our simulations showed that NQDA reduces the beta-sheet content, disrupts K45-E57 and E46-K80 salt-bridges, weakens the inter-protofibril interaction, and thus destabilizes the alphaSyn fibril structure. NQDA has the ability to form cation-pi and H-bonding interactions with K45/K80, and form pi-pi stacking interactions with Y39/F94. Those interactions between NQDA and alphaSyn fibrils play a crucial role in disaggregating alphaSyn fibrils. Moreover, we found that NQDA has a better fibril destabilization effect than that of NQ, DA, and NQ+DA molecules. This is attributed to the synergistic fibril-binding effect between NQ and DA groups in NQDA molecules. The DA group can form strong pi-pi stacking interactions with aromatic residues Y39/F94 of the alphaSyn fibril, while the DA molecule cannot. In addition, NQDA can form stronger cation-pi interactions with residues K45/K80 than those of both NQ and DA molecules. Our results provide the molecular mechanism underlying the disaggregation of the alphaSyn fibril by NQDA and its better performance in fibril disruption than NQ, DA, and NQ+DA molecules, which offers new clues for the screening and development of promising drug candidates to treat PD.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "alpha-Synuclein/chemistry",
+      "Dopamine/chemistry",
+      "*Naphthoquinones",
+      "*Parkinson Disease/metabolism",
+      "Amyloid/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Yun",
+        "Yao, Yifei",
+        "Yang, Zhongyuan",
+        "Tang, Yiming",
+        "Wei, Guanghong"
+      ],
+      "short_names": [
+        "Zhou Y",
+        "Yao Y",
+        "Yang Z",
+        "Tang Y",
+        "Wei G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6093-8119",
+        "ORCID: 0000-0001-5814-3328"
+      ],
+      "affiliations": [
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, People's Republic of China. ghwei@fudan.edu.cn.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, People's Republic of China. ghwei@fudan.edu.cn.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, People's Republic of China. ghwei@fudan.edu.cn.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, People's Republic of China. ghwei@fudan.edu.cn.",
+        "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, People's Republic of China. ghwei@fudan.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Yun",
+        "short_name": "Zhou Y",
+        "identifiers": [
+          "0000-0002-6093-8119"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, People's Republic of China. ghwei@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yao, Yifei",
+        "short_name": "Yao Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, People's Republic of China. ghwei@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Zhongyuan",
+        "short_name": "Yang Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, People's Republic of China. ghwei@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Tang, Yiming",
+        "short_name": "Tang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, People's Republic of China. ghwei@fudan.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wei, Guanghong",
+        "short_name": "Wei G",
+        "identifiers": [
+          "0000-0001-5814-3328"
+        ],
+        "affiliations": [
+          "Department of Physics, State Key Laboratory of Surface Physics, Key Laboratory for Computational Physical Sciences (Ministry of Education), Fudan University, Shanghai 200438, People's Republic of China. ghwei@fudan.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2023 May 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/16 06:42",
+    "fetched_at": "2026-09-20 22:07:46"
+  },
+  "links": {
+    "cites": [
+      "40486190",
+      "39813330"
+    ],
+    "refs": [],
+    "similar": [
+      "37190853",
+      "32870550",
+      "37585669",
+      "31799519",
+      "33186020",
+      "33523571",
+      "35981677",
+      "31181290",
+      "27097022",
+      "28460628",
+      "20226175",
+      "26799377",
+      "37162160",
+      "34472835",
+      "29575453",
+      "31424918",
+      "36877087",
+      "37186077",
+      "33903234",
+      "33223048",
+      "25582977",
+      "37431676",
+      "33997868",
+      "39318230",
+      "28292187",
+      "29964084",
+      "37047286",
+      "24058647",
+      "32394304",
+      "36939875",
+      "30826264",
+      "39133842",
+      "37272890",
+      "30093536",
+      "23499431",
+      "26161848",
+      "36008493",
+      "33970620",
+      "34612422",
+      "28112214",
+      "31815671",
+      "33177717",
+      "36464107",
+      "30327435",
+      "10704204",
+      "33152946",
+      "31096048",
+      "38546732",
+      "38953933",
+      "33533252",
+      "34680099",
+      "36623616",
+      "25131592",
+      "27539923",
+      "38003322",
+      "16162499",
+      "35108590",
+      "27112900",
+      "16533927",
+      "20197038",
+      "30605312",
+      "39172784",
+      "31142553",
+      "29368447",
+      "36500474",
+      "32790707",
+      "31740740",
+      "36261424",
+      "32424039",
+      "38538591",
+      "38029411",
+      "29372732",
+      "32441920",
+      "39208301",
+      "28373279",
+      "30249646",
+      "23272053",
+      "28710275",
+      "31809698",
+      "28872299",
+      "34651357",
+      "35244787",
+      "20221696",
+      "15946991",
+      "29715424",
+      "37036430",
+      "33862084",
+      "24527756",
+      "32173400",
+      "19103312",
+      "36744543",
+      "35969734",
+      "35918045",
+      "33809196",
+      "31282646",
+      "31912891",
+      "29969391",
+      "24066973",
+      "12900507",
+      "34082772",
+      "15059976",
+      "37574034",
+      "38973194",
+      "31859430",
+      "37489886",
+      "19137068",
+      "38170745",
+      "39197832",
+      "37953701",
+      "37737124",
+      "38458997",
+      "28045494",
+      "26873872",
+      "36316279",
+      "38980078",
+      "33998793",
+      "26707645",
+      "38197437",
+      "38773124",
+      "37407638",
+      "34667532",
+      "39091827",
+      "39281856",
+      "37400537",
+      "36001084",
+      "38105512",
+      "37241742",
+      "39327912",
+      "38746133",
+      "38803339",
+      "37448594",
+      "38464093",
+      "37705330",
+      "35070162",
+      "39350459",
+      "38254656",
+      "37621995",
+      "24947141",
+      "35518018",
+      "38516046",
+      "37836019",
+      "38004442",
+      "38362440",
+      "33889379",
+      "38508075"
+    ],
+    "review": [
+      "37190853",
+      "23499431",
+      "27112900",
+      "16533927",
+      "32424039",
+      "35244787",
+      "20221696",
+      "32173400"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://doi.org/10.1039/d3cp00340j",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

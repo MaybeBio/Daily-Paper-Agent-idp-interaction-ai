@@ -1,0 +1,210 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.05.515302",
+  "title": "Keratin filament mechanics and energy dissipation are determined by metal-like plasticity",
+  "doi": "10.1101/2022.11.05.515302",
+  "abstract": "Cell mechanics is determined by an intracellular biopolymer network, including intermediate filaments that are expressed in a cell-type specific manner. A prominent pair of intermediate filaments are keratin and vimentin as the epithelial-to-mesenchymal transition is associated with a switch from keratin to vimentin. The transition coincides with a change in cellular mechanics, and thus dynamic properties of the cells. This observation raises the question of how the mechanical properties already differ on the single filament level. Here we use optical tweezers and a computational model to compare the stretching and dissipation behavior of the two filament types. We find that keratin and vimentin filaments behave in opposite ways: keratin filaments elongate, but retain their stiffness, whereas vimentin filaments soften, but retain their length. This finding is explained by fundamentally different ways to dissipate energy: viscous subunits sliding within keratin filaments and non-equilibrium α helix unfolding in vimentin filaments.",
+  "authors": [
+    "Lorenz C",
+    "Forsting J",
+    "Style RW",
+    "Klumpp S",
+    "Köster S"
+  ],
+  "published_date": "2022-11-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.05.515302",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.05.515302.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR567595",
+    "raw_record": {
+      "id": "PPR567595",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR567595"
+        ]
+      },
+      "doi": "10.1101/2022.11.05.515302",
+      "title": "Keratin filament mechanics and energy dissipation are determined by metal-like plasticity",
+      "authorString": "Lorenz C, Forsting J, Style RW, Klumpp S, Köster S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lorenz C",
+            "lastName": "Lorenz",
+            "firstName": "Charlotta",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-9822-9384"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for X-Ray Physics, University of Göttingen, Friedrich-Hund-Platz 1, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Forsting J",
+            "lastName": "Forsting",
+            "firstName": "Johanna",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for X-Ray Physics, University of Göttingen, Friedrich-Hund-Platz 1, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Style RW",
+            "lastName": "Style",
+            "firstName": "Robert",
+            "initials": "RW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Materials, ETH Zürich, Vladimir-Prelog-Weg 1-5/10, 8093 Zürich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Klumpp S",
+            "lastName": "Klumpp",
+            "firstName": "Stefan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for the Dynamics of Complex Systems, University of Göttingen, Friedrich-Hund-Platz 1, 37077 Göttingen, Germany"
+                },
+                {
+                  "affiliation": "Max Planck School “Matter to Life”, Friedrich-Hund-Platz 1, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Köster S",
+            "lastName": "Köster",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for X-Ray Physics, University of Göttingen, Friedrich-Hund-Platz 1, 37077 Göttingen, Germany"
+                },
+                {
+                  "affiliation": "Max Planck School “Matter to Life”, Friedrich-Hund-Platz 1, 37077 Göttingen, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0009-1024"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0005-9822-9384"
+          }
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Cell mechanics is determined by an intracellular biopolymer network, including intermediate filaments that are expressed in a cell-type specific manner. A prominent pair of intermediate filaments are keratin and vimentin as the epithelial-to-mesenchymal transition is associated with a switch from keratin to vimentin. The transition coincides with a change in cellular mechanics, and thus dynamic properties of the cells. This observation raises the question of how the mechanical properties already differ on the single filament level. Here we use optical tweezers and a computational model to compare the stretching and dissipation behavior of the two filament types. We find that keratin and vimentin filaments behave in opposite ways: keratin filaments elongate, but retain their stiffness, whereas vimentin filaments soften, but retain their length. This finding is explained by fundamentally different ways to dissipate energy: viscous subunits sliding within keratin filaments and non-equilibrium  α helix unfolding in vimentin filaments.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/05/2022.11.05.515302.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.05.515302"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR567595"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR567595&type=FILE&fileName=EMS156743-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37332398",
+            "reference": "Matter. 2023 Jun;6(6):2019-2033",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS156743",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-11-07",
+      "firstPublicationDate": "2022-11-05",
+      "firstIndexDate": "2022-11-07",
+      "fullTextReceivedDate": "2022-11-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

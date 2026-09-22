@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35787038",
+  "title": "Phase-separating RNA-binding proteins form heterogeneous distributions of clusters in subsaturated solutions.",
+  "authors": "Kar, Mrityunjoy; Dar, Furqan; Welsh, Timothy J; Vogel, Laura T; Kuhnemuth, Ralf; Majumdar, Anupa; Krainer, Georg; Franzmann, Titus M; Alberti, Simon; Seidel, Claus A M; Knowles, Tuomas P J; Hyman, Anthony A; Pappu, Rohit V",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2022-07-06",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过体外生物物理实验研究含无序朊样结构域的RNA结合蛋白在亚饱和溶液中的团簇异质分布，揭示团簇形成与相分离由序列编码互作耦合，为无序蛋白介导的PPI及凝聚体机制建模提供了关键实验基础。",
+  "abstract": "Macromolecular phase separation is thought to be one of the processes that drives the formation of membraneless biomolecular condensates in cells. The dynamics of phase separation are thought to follow the tenets of classical nucleation theory, and, therefore, subsaturated solutions should be devoid of clusters with more than a few molecules. We tested this prediction using in vitro biophysical studies to characterize subsaturated solutions of phase-separating RNA-binding proteins with intrinsically disordered prion-like domains and RNA-binding domains. Surprisingly, and in direct contradiction to expectations from classical nucleation theory, we find that subsaturated solutions are characterized by the presence of heterogeneous distributions of clusters. The distributions of cluster sizes, which are dominated by small species, shift continuously toward larger sizes as protein concentrations increase and approach the saturation concentration. As a result, many of the clusters encompass tens to hundreds of molecules, while less than 1% of the solutions are mesoscale species that are several hundred nanometers in diameter. We find that cluster formation in subsaturated solutions and phase separation in supersaturated solutions are strongly coupled via sequence-encoded interactions. We also find that cluster formation and phase separation can be decoupled using solutes as well as specific sets of mutations. Our findings, which are concordant with predictions for associative polymers, implicate an interplay between networks of sequence-specific and solubility-determining interactions that, respectively, govern cluster formation in subsaturated solutions and the saturation concentrations above which phase separation occurs.",
+  "abstract_zh": "大分子相分离（macromolecular phase separation）被认为是驱动细胞内无膜生物分子凝聚体形成的过程之一。相分离的动态过程被认为遵循经典成核理论（classical nucleation theory）的原理，因此，亚饱和溶液应不含超过少数几个分子的簇。我们通过体外生物物理研究测试了这一预测，表征了具有 intrinsically disordered prion-like domains 和 RNA-binding domains 的相分离RNA结合蛋白的亚饱和溶液。令人惊讶的是，与经典成核理论的预期直接矛盾，我们发现亚饱和溶液的特征是存在异质性分布的簇。簇大小分布以小型物种为主，随着蛋白质浓度增加并接近饱和浓度，分布持续向更大尺寸移动。因此，许多簇包含数十至数百个分子，而溶液中不到1%的物种是直径为数百纳米的介观尺度物种。我们发现，亚饱和溶液中的簇形成与过饱和溶液中的相分离通过序列编码的相互作用强耦合。我们还发现，使用溶质以及特定突变组合可以解耦簇形成与相分离。我们的发现与缔合聚合物（associative polymers）的预测一致，暗示了序列特异性和溶解度决定相互作用网络之间的相互作用，这些相互作用分别控制亚饱和溶液中的簇形成以及相分离发生的饱和浓度以上。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35787038/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35787038/",
+  "paper_page_path": "papers/pubmed/35787038/index.html"
+}

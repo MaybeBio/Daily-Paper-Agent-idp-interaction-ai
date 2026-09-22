@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39412696",
+  "title": "Expression and immobilization of novel N-glycan-binding protein for highly efficient purification and enrichment of N-glycans, N-glycopeptides, and N-glycoproteins.",
+  "authors": "Zhang, Liang; Wang, Wenhui; Yang, Yueqin; Li, Pengjie; Liu, Xiang; Zhu, Wenjie; Yang, Wei; Wang, Song; Lin, Yawei; Liu, Xin",
+  "journal": "Analytical and bioanalytical chemistry",
+  "published_date": "2024-10-16",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究N-聚糖结合蛋白的表达与固定化用于糖组学富集，对象为糖蛋白/糖肽而非无序蛋白PPI，且无AI或物理模拟方法，与本课题无关。",
+  "abstract": "Comprehensive and selective enrichment of N-glycans, N-glycopeptides, and N-glycoproteins prior to analysis is of great significance in N-glycomics research, reducing sample complexity, removing impurity interference, increasing sample abundance and enhancing signal intensity. However, only an Fbs1 (F-box protein that recognizes sugar chain 1) GYR variant (Fg) can enrich these N-glycomolecules solely due to its substantial binding affinity for the core pentasaccharide motif of N-glycans. Stationary phase separation is commonly used to enrich N-glycomolecules efficiently. Herein, DNA encoding the Fg was cloned into pGEX-4T-1, and the protein was expressed with a GST tag, which facilitates the convenient and efficient immobilization of recombinant GST-tagged Fg to GSH agarose resin. The yield of the GST-tagged Fg reached to 0.05 g/L after optimization of the induction condition, and the purified protein exhibited good identification ability and excellent stability for months. In particular, the immobilized GST-tagged Fg can enrich N-glycans released by PNGase F and capture derivatized N-glycans possessing an intact terminal N-acetyl glucosamine (GlcNAc). Validation of immobilized GST-tagged Fg with standard N-glycopeptides and N-glycoproteins revealed its high loading capacity, sensitivity, and selectivity. The novel immobilized GST-tagged Fg is a convenient and efficient enrichment material specific for N-glycans, N-glycopeptides, and N-glycoproteins, suggesting excellent performance and prospects for industrial application.",
+  "abstract_zh": "在分析前对N-聚糖、N-糖肽和N-糖蛋白进行全面且选择性的富集，在N-糖组学研究中具有重要意义，可降低样品复杂性、去除杂质干扰、提高样品丰度并增强信号强度。然而，仅有一种Fbs1（识别糖链1的F-box蛋白）GYR变体（Fg）能够富集这些N-糖分子，这完全归因于其对N-聚糖核心五糖基序的显著结合亲和力。固定相分离通常用于高效富集N-糖分子。本文中，编码Fg的DNA被克隆至pGEX-4T-1中，并以GST标签表达蛋白质，这便于将重组GST标记的Fg便捷高效地固定到GSH琼脂糖树脂上。经诱导条件优化后，GST标记Fg的产量达到0.05 g/L，纯化后的蛋白质表现出良好的识别能力和数月内优异的稳定性。特别地，固定化的GST标记Fg能够富集由PNGase F释放的N-聚糖，并捕获具有完整末端N-乙酰葡糖胺（GlcNAc）的衍生化N-聚糖。使用标准N-糖肽和N-糖蛋白对固定化GST标记Fg的验证显示其具有高载量、高灵敏度和高选择性。新型固定化GST标记Fg是一种便捷高效的N-聚糖、N-糖肽和N-糖蛋白特异性富集材料，显示出优异的性能和工业应用前景。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39412696/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39412696/",
+  "paper_page_path": "papers/pubmed/39412696/index.html"
+}

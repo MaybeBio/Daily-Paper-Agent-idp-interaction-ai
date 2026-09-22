@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "34598580",
+    "doi": "10.1063/5.0060046",
+    "title": "Phase separation vs aggregation behavior for model disordered proteins."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is widely utilized by the cell to organize and regulate various biochemical processes. Although the LLPS of proteins is known to occur in a sequence-dependent manner, it is unclear how sequence properties dictate the nature of the phase transition and thereby influence condensed phase morphology. In this work, we have utilized grand canonical Monte Carlo simulations for a simple coarse-grained model of disordered proteins to systematically investigate how sequence distribution, sticker fraction, and chain length impact the formation of finite-size aggregates, which can preempt macroscopic phase separation for some sequences. We demonstrate that a normalized sequence charge decoration (SCD) parameter establishes a \"soft\" predictive criterion for distinguishing when a model protein undergoes macroscopic phase separation vs finite aggregation. Additionally, we find that this order parameter is strongly correlated with the critical density for phase separation, highlighting an unambiguous connection between sequence distribution and condensed phase density. Results obtained from an analysis of the order parameter reveal that at sufficiently long chain lengths, the vast majority of sequences are likely to phase separate. Our results suggest that classical LLPS should be the primary phase transition for disordered proteins when short-ranged attractive interactions dominate and suggest a possible reason behind recent findings of widespread phase separation throughout living cells.",
+    "keywords": [],
+    "mesh_terms": [
+      "Intrinsically Disordered Proteins/*chemistry",
+      "Monte Carlo Method",
+      "*Phase Transition",
+      "*Protein Aggregates"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rana, Ushnish",
+        "Brangwynne, Clifford P",
+        "Panagiotopoulos, Athanassios Z"
+      ],
+      "short_names": [
+        "Rana U",
+        "Brangwynne CP",
+        "Panagiotopoulos AZ"
+      ],
+      "auids": [
+        "ORCID: 0000000167836193",
+        "ORCID: 0000000281526615"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rana, Ushnish",
+        "short_name": "Rana U",
+        "identifiers": [
+          "0000000167836193"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Brangwynne, Clifford P",
+        "short_name": "Brangwynne CP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Panagiotopoulos, Athanassios Z",
+        "short_name": "Panagiotopoulos AZ",
+        "identifiers": [
+          "0000000281526615"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2021 Sep 28",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/03 06:00",
+    "fetched_at": "2026-09-20 05:39:35"
+  },
+  "links": {
+    "cites": [
+      "41513854",
+      "41511470",
+      "41481439",
+      "40998749",
+      "40962203",
+      "40954121",
+      "40830340",
+      "40791470",
+      "40661423",
+      "40590540",
+      "40093361",
+      "39937084",
+      "39589726",
+      "39582487",
+      "39568948",
+      "38943248",
+      "38895487",
+      "38591689",
+      "38429263",
+      "38383656",
+      "38356260",
+      "38316988",
+      "38260590",
+      "38250712",
+      "37710047",
+      "37398035",
+      "37215004",
+      "37194953",
+      "37171907",
+      "37126437",
+      "37079924",
+      "36881934",
+      "36804705",
+      "36741445",
+      "36227469",
+      "36138006",
+      "36106018",
+      "35796676",
+      "35540725",
+      "35219215",
+      "35119946",
+      "34863777",
+      "34784177",
+      "34637756"
+    ],
+    "refs": [],
+    "similar": [
+      "34598580",
+      "32087632",
+      "30397688",
+      "33139563",
+      "29397728",
+      "33076213",
+      "33982369",
+      "33684117",
+      "30986043",
+      "29511089",
+      "32168715",
+      "32824618",
+      "33934416",
+      "30217894",
+      "36227468",
+      "37815389",
+      "32613961",
+      "34428231",
+      "39105804",
+      "33971237",
+      "35883530",
+      "36181270",
+      "37764358",
+      "38380794",
+      "28924037",
+      "38597222",
+      "38546977",
+      "38855848",
+      "37189373",
+      "35142991",
+      "34571015",
+      "33744316",
+      "33069007",
+      "31270472",
+      "32867340",
+      "30873835",
+      "37079924",
+      "34830152",
+      "33582133",
+      "33453922",
+      "31054969",
+      "31237369",
+      "27838525",
+      "29573987",
+      "35562982",
+      "31444270",
+      "32227994",
+      "37664947",
+      "30471691",
+      "38965780",
+      "36528418",
+      "31941785",
+      "36272811",
+      "32615218",
+      "31023505",
+      "33876938",
+      "37037120",
+      "31667345",
+      "31694155",
+      "32639157",
+      "29734651",
+      "34931046",
+      "37222424",
+      "34259536",
+      "30529747",
+      "34106723",
+      "29064502",
+      "33078839",
+      "32619404",
+      "30193467",
+      "36343363",
+      "34102212",
+      "26914439",
+      "30443712",
+      "33503380",
+      "38653686",
+      "31260322",
+      "38407041",
+      "36227478",
+      "32144274",
+      "32096047",
+      "34536913",
+      "19026080",
+      "32207864",
+      "28915764",
+      "32936641",
+      "34866377",
+      "29716768",
+      "28483149",
+      "26756795",
+      "33555894",
+      "38862770",
+      "31691822",
+      "29509422",
+      "30531905",
+      "29068531",
+      "34110175",
+      "23912807",
+      "31139718",
+      "30986567",
+      "31756104",
+      "30982635",
+      "33629837",
+      "34862032",
+      "34431665",
+      "29949750",
+      "34291921",
+      "36328544",
+      "35513709",
+      "37094002",
+      "38051203",
+      "29509425",
+      "37574757",
+      "32937111",
+      "38884406",
+      "33826337",
+      "32802734",
+      "37364418",
+      "37186597",
+      "39393020",
+      "35590561",
+      "37672839"
+    ],
+    "review": [
+      "34598580",
+      "32824618",
+      "37764358",
+      "38597222",
+      "38855848",
+      "35142991",
+      "33069007",
+      "32867340",
+      "34830152",
+      "31054969",
+      "31237369",
+      "27838525",
+      "31444270",
+      "37664947",
+      "36528418",
+      "31023505",
+      "31694155",
+      "33078839",
+      "33503380",
+      "38653686",
+      "32096047",
+      "34536913",
+      "29716768",
+      "29509422",
+      "29068531",
+      "30986567",
+      "29949750",
+      "34291921",
+      "29509425"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0060046",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

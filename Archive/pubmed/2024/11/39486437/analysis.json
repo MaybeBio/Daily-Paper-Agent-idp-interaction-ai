@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39486437",
+  "title": "Heterogeneous Slowdown of Dynamics in the Condensate of an Intrinsically Disordered Protein.",
+  "authors": "Mukherjee, Saumyak; Schafer, Lars V",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2024-11-02",
+  "window": {
+    "start": "2024-10-28",
+    "end": "2024-11-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用原子级MD模拟研究FUS无序蛋白LCD在凝聚体中的动态异质性减速，聚焦IDP在相分离环境中的构象动态机制，虽未直接涉及PPI，但对象与方法高度契合，对理解IDP凝聚体互作环境有直接启发。",
+  "abstract": "The high concentration of proteins and other biological macromolecules inside biomolecular condensates leads to dense and confined environments, which can affect the dynamic ensembles and the time scales of the conformational transitions. Here, we use atomistic molecular dynamics (MD) simulations of the intrinsically disordered low complexity domain (LCD) of the human fused in sarcoma (FUS) RNA-binding protein to study how self-crowding inside a condensate affects the dynamic motions of the protein. We found a heterogeneous retardation of the protein dynamics in the condensate with respect to the dilute phase, with large-amplitude motions being strongly slowed by up to 2 orders of magnitude, whereas small-scale motions, such as local backbone fluctuations and side-chain rotations, are less affected. The results support the notion of a liquid-like character of the condensates and show that different protein motions respond differently to the environment.",
+  "abstract_zh": "生物分子凝聚体内部蛋白质及其他生物大分子的高浓度导致形成致密且受限的环境，这可能影响动态系综及构象转变的时间尺度。在此，我们利用人融合肉瘤（FUS）RNA结合蛋白的内在无序低复杂度结构域（LCD）的原子级分子动力学（MD）模拟，研究凝聚体内部的自拥挤如何影响蛋白质的动态运动。我们发现，与稀相相比，凝聚体中蛋白质动力学存在异质性延迟，其中大幅度运动被强烈减慢，最多达2个数量级，而小尺度运动，如局部骨架波动和侧链旋转，则受影响较小。结果支持凝聚体具有液态特征的观点，并表明不同蛋白质运动对环境响应各异。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39486437/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39486437/",
+  "paper_page_path": "papers/pubmed/39486437/index.html"
+}

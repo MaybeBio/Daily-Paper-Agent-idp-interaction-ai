@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results and discussion, conclusions, supporting information descriptions)
+- **Assessment boundary** Scientific content, methodological soundness, and interpretation of results as presented in the manuscript. No external validation of claims was performed.
+- **Shared manuscript claim summary** The authors investigate the conformational behavior of the S2 region (residues 120–152) of the intrinsically disordered N-terminal domain of the Drosophila melanogaster Escargot protein. Using CD spectroscopy and REST2 enhanced-sampling MD simulations, they report that TFE increases the α-helical population of the S2 peptide, with maximum helicity at 40% v/v TFE. They attribute this stabilization to preferential solvation of the peptide by TFE, primarily through nonspecific contacts with uncharged polar and nonpolar side chains, and propose that the S2 region's structural plasticity is functionally relevant.
+- **Visible evidence base** Main text figures (Figures 1–4), Tables 1–2 (referenced), Supporting Information items (Tables S1–S2, Figures S1–S5) described but not fully visible in the provided material
+- **Missing materials affecting confidence** Full Supporting Information content (Tables S1–S2, Figures S1–S5), simulation input parameters, force field validation details, raw CD data, convergence metrics in full, and methodological details for the TFE model implementation
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the biophysics of intrinsically disordered proteins, specifically the molecular mechanism of TFE-induced helix stabilization in a predicted MoRF region of the Escargot protein. The combination of experimental CD and enhanced-sampling simulations is appropriate, and the application of Kirkwood–Buff theory to interpret preferential solvation is a strength. However, several technical concerns limit the strength of the conclusions as currently presented. The inability to measure CD in pure water due to solubility issues is a significant experimental gap that weakens the quantitative comparison between water and TFE conditions. The simulation force field combination is acknowledged to overestimate helicity, and the authors do not fully address how this affects the quantitative claims. The mechanistic interpretation, while plausible, relies on correlation between solvation metrics and helicity rather than a demonstrated causal link. The functional relevance of the S2 region's plasticity is asserted but not directly tested.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, molecular recognition features, and the physical chemistry of cosolvent effects on protein conformation. The work may also interest those using Kirkwood–Buff theory to analyze preferential solvation in biomolecular simulations, and investigators studying TFE as a helix-inducing agent. The specific biological context (Escargot transcription factor) may attract developmental biologists interested in the structural basis of Snail-family protein function.
+- **Major strengths** 1) The combination of experimental CD and enhanced-sampling simulations provides complementary perspectives on the conformational equilibrium. 2) The use of Kirkwood–Buff theory and MDDFs to quantify preferential solvation is methodologically rigorous and provides molecular-level insight. 3) The per-residue analysis of helical propensity identifies specific regions of the peptide that respond to TFE, which is informative. 4) The authors acknowledge the known helicity overestimation of their force field combination and provide qualitative rather than quantitative comparisons where appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental data completeness
+  - **Claim pointer** The manuscript claims that TFE "nearly doubles the helix population at 40% v/v compared to pure water" and presents this as a central quantitative finding.
+  - **Evidence pointer** Figure 1, Section "Structural Properties of the S2 Region of the N-Terminal Domain of the Escargot Protein"
+  - **Concern** The CD spectrum in pure water could not be measured because the peptide requires DMSO for dissolution, and DMSO interferes with CD measurements. The comparison between water and TFE conditions is therefore not based on direct experimental measurement in pure water. The claim of "nearly doubling" the helix population relies on simulation data in water, which the authors acknowledge overestimates helicity. This creates a mismatch between the experimental and computational baselines.
+  - **Why it matters** The central quantitative claim of the paper depends on a reliable baseline measurement in water. Without experimental CD data in pure water, the magnitude of the TFE effect cannot be experimentally verified. The simulation baseline is known to be biased, so the quantitative comparison is not firmly grounded.
+  - **Resolution test** Provide experimental CD data in a solvent condition that approximates pure water without DMSO interference (e.g., using a different solubilization strategy, lower peptide concentration with higher path length, or a solvent correction method). Alternatively, clearly reframe the quantitative claim as simulation-based and provide a rigorous uncertainty analysis that accounts for the known force field bias.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The manuscript concludes that "preferential solvation by TFE drives α-helical folding" and that nonspecific contacts between TFE and uncharged polar and nonpolar side chains are the primary mechanism.
+  - **Evidence pointer** Figures 3–4, Table 2, Section "MDDFs"
+  - **Concern** The manuscript demonstrates correlation between TFE accumulation near the peptide and increased helicity, but does not establish causation. The observation that TFE preferentially solvates the peptide could be a consequence of the peptide adopting a more helical structure (which exposes different surface chemistry) rather than the cause of helix stabilization. The salt bridge argument for E141-R144 is presented as supporting evidence, but the temporal relationship between TFE accumulation, salt bridge formation, and helix stabilization is not analyzed.
+  - **Why it matters** The title and abstract make a causal claim ("drives α-helical folding"). If the relationship is correlational, the mechanistic conclusion is overstated. Understanding whether TFE accumulation precedes or follows helix formation is essential for the proposed mechanism.
+  - **Resolution test** Perform time-resolved or transition-path analysis of the simulation trajectories to determine whether TFE accumulation at specific sites occurs before or after helix formation. Alternatively, conduct simulations with TFE positions restrained or with modified TFE-peptide interaction parameters to test whether disrupting preferential solvation abolishes helix stabilization.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Force field validation
+  - **Claim pointer** The manuscript states that the force field combination (Amber03w, TIP4P/2005, and the Vymětal TFE model) is "compatible and reliable" and that simulations "remain in qualitative agreement with the experimental CD data."
+  - **Evidence pointer** Section "Enhanced Sampling in Molecular Dynamics Simulations", Figure 2
+  - **Concern** The authors acknowledge that the force field overestimates helicity, but the degree of overestimation is not quantified. The comparison between simulated and experimental CD spectra is described as "qualitative," but the manuscript does not provide a quantitative metric for this agreement. The TFE model from Vymětal et al. was developed for specific thermodynamic properties, and its transferability to peptide solvation in mixed solvents is not fully established.
+  - **Why it matters** The quantitative claims about helix populations and the magnitude of the TFE effect depend on the accuracy of the simulation model. Without a clear quantification of the force field bias, readers cannot assess the reliability of the reported helix fractions or the preferential solvation parameters.
+  - **Resolution test** Provide a quantitative comparison between simulated and experimental CD spectra (e.g., RMSD between spectra, or comparison of helix fraction estimates from both methods). Report the known helicity bias of Amber03w for this peptide in pure water and discuss how it affects the reported TFE-induced changes. Consider additional validation simulations with an alternative force field or TFE model.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance
+  - **Claim pointer** The manuscript concludes that "the S2 region's structural plasticity is critical for modulating the function of Esg" and that the findings "provide a basis for future studies investigating its interactions with nucleic acids or other regulatory partners."
+  - **Evidence pointer** Abstract, Introduction, Conclusions
+  - **Concern** The functional relevance of the S2 region's helical propensity is asserted but not tested. No experiments or simulations address whether the helical conformation of S2 is actually involved in protein-protein or protein-nucleic acid interactions. The connection between TFE-induced helicity in vitro and the behavior of the full-length protein in a cellular context is not established.
+  - **Why it matters** The broader significance of the work depends on the functional importance of the S2 region. If the helical propensity is a biophysical curiosity without demonstrated biological relevance, the impact of the study is substantially reduced.
+  - **Resolution test** Add a discussion of known or predicted interaction partners of the S2 region, or perform preliminary binding simulations or experiments. Alternatively, temper the functional claims to match the evidence presented, clearly stating that functional relevance is speculative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Simulation protocol description
+  - **Evidence pointer** Section "Enhanced Sampling in Molecular Dynamics Simulations"
+  - **Issue** The manuscript states that 10 replicas were used with a scaling factor range of 1 to 0.71, but does not specify how the intermediate scaling factors were distributed (linear, geometric, etc.) or the exchange attempt frequency in real time units.
+  - **Required correction** Provide the full list of scaling factors or the distribution scheme, and specify the time interval between exchange attempts in physical units.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Helix fraction estimates
+  - **Evidence pointer** Figure 2B, Section "Structural Properties of the S2 Region of the N-Terminal Domain of the Escargot Protein"
+  - **Issue** The helix fractions are reported as single values without error bars or confidence intervals. Given that the simulations are finite in length, some measure of statistical uncertainty should be provided.
+  - **Required correction** Add error bars or confidence intervals to the helix fraction estimates in Figure 2B, or report the standard error from block averaging as described in the Supporting Information.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental reproducibility
+  - **Affected element** CD spectroscopy conditions
+  - **Evidence pointer** Section "CD Spectroscopy"
+  - **Issue** The manuscript does not specify the temperature control during CD measurements beyond "room temperature," nor the number of replicate measurements or the scan speed and accumulation number.
+  - **Required correction** Specify the exact temperature, number of scans, scan speed, and any baseline correction procedures used for CD data collection.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure clarity
+  - **Affected element** Figure 4E
+  - **Evidence pointer** Figure 4E, Section "MDDFs"
+  - **Issue** The density map in Figure 4E is described qualitatively ("darker the color, the greater the TFE density"), but no color scale or quantitative legend is provided.
+  - **Required correction** Add a color bar with quantitative density values to Figure 4E.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Native α-MoRF" in Conclusions
+  - **Evidence pointer** Conclusions section
+  - **Issue** The term "native α-MoRF" implies a biologically relevant, evolutionarily conserved structural element, but the manuscript does not provide evidence for the functional significance of this specific region beyond computational prediction.
+  - **Required correction** Replace "native" with "predicted" or "putative" unless additional evidence for biological relevance is provided.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing experimental baseline in water), R1-M2 (causality not established), R1-M3 (force field bias not quantified)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of Kirkwood–Buff theory to TFE-peptide interactions in the context of a specific IDR is a reasonable extension of existing approaches, but the general phenomenon of TFE-induced helix stabilization is well established. The specific biological system (Escargot S2 region) is novel but the conceptual advance is incremental.
+  - **Scientific importance** Moderate. The work contributes to understanding cosolvent effects on disordered proteins, which is relevant to the broader field of IDP biophysics. However, the functional significance of the S2 region is not demonstrated, limiting the biological impact.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to biophysicists and computational chemists studying protein solvation. The biological implications are speculative, and the methods are specialized.
+  - **Technical soundness** The simulation methodology is appropriate and the use of REST2 is justified. However, the force field bias is not fully addressed, and the experimental gap in pure water measurements weakens the quantitative claims. The Kirkwood–Buff analysis appears technically sound.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear. However, the methods section assumes familiarity with enhanced sampling techniques and Kirkwood–Buff theory, which may limit accessibility. The figures are informative but some (particularly Figure 4E) lack quantitative legends.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core methodology is sound and the topic is relevant, but the quantitative claims require strengthening through additional experimental data or more careful framing of the simulation results. The causal mechanism needs to be more rigorously established or the language tempered accordingly.
+
+## Risk / unsupported claims
+- The claim that TFE "nearly doubles the helix population at 40% v/v compared to pure water" is not experimentally supported because CD data in pure water could not be obtained.
+- The causal statement that preferential solvation "drives" α-helical folding is not established; the data support correlation, not causation.
+- The assertion that the S2 region's structural plasticity is "critical for modulating the function of Esg" is speculative and not tested in this work.
+- The claim that the force field combination is "reliable" is not quantitatively supported given the acknowledged helicity overestimation.
+- The statement that the E141-R144 salt bridge "contributes to helix stabilization" is based on indirect evidence (hydrogen bond counts) and requires more direct analysis to be conclusive.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.06.06.494887",
+  "title": "Metapredict V2: An update to metapredict, a fast, accurate, and easy-to-use predictor of consensus disorder and structure",
+  "authors": "Emenecker RJ; Griffith D; Holehouse AS",
+  "journal": "bioRxiv",
+  "published_date": "2022-06-09",
+  "window": {
+    "start": "2022-06-06",
+    "end": "2022-06-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文介绍基于深度学习的无序蛋白预测器Metapredict V2，虽聚焦IDR预测且用AI方法，但未涉及PPI或互作机制建模，故得中档分。",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically disordered proteins and protein regions make up 20-40% of most eukaryotic proteomes and play essential roles in a wide gamut of cellular processes, from intracellular trafficking to epigenetic silencing. Given their importance, the ability to robustly, quickly, and easily identify IDRs within large proteins is critical. Here we present metapredict V2, an update to our deep-learning-based disorder predictor metapredict. Metapredict V2 has substantially improved accuracy, more features, and a more user-friendly interface via our web server ( https://metapredict.net/ ), Python package, and command-line tool. To illustrate V2’s improved performance we undertake a systematic analysis of human transcription factors, as well as illustrate that metapredict V2 works well for synthetic or non-natural proteins. <h4>KEY POINTS</h4> Metapredict is a fast and easy-to-use disorder predictor released in 2021. Metapredict V2 was released in March 2022 and includes improved accuracy and new features. Metapredict V2 is now the default metapredict implementation, although the original implementation is available as ‘legacy’ metapredict. This manuscript provides a summary of how we improved the accuracy of metapredict and compares the original version (legacy) to our improved version (V2) This manuscript will not be submitted to a journal; if you use metapredict V2 please cite the original paper and make reference to the fact that V2 is being used.",
+  "abstract_zh": "<h4>摘要</h4> 内在无序蛋白质及蛋白质区域构成了大多数真核生物蛋白质组的20-40%，并在从细胞内运输到表观遗传沉默的广泛细胞过程中发挥关键作用。鉴于其重要性，稳健、快速且简便地识别大蛋白质中的内在无序区域（IDRs）的能力至关重要。在此，我们介绍metapredict V2，这是我们基于深度学习的无序预测器metapredict的更新版本。Metapredict V2在准确性上有显著提升，功能更丰富，并通过我们的网络服务器（ https://metapredict.net/ ）、Python包和命令行工具提供了更友好的用户界面。为展示V2性能的提升，我们对人类转录因子进行了系统分析，并证明metapredict V2对合成或非天然蛋白质同样有效。<h4>关键要点</h4> Metapredict是2021年发布的一款快速且易于使用的无序预测器。Metapredict V2于2022年3月发布，包含改进的准确性和新功能。Metapredict V2现为默认的metapredict实现，尽管原始版本仍可作为“旧版”metapredict使用。本手稿总结了如何提高metapredict的准确性，并将原始版本（旧版）与改进版本（V2）进行比较。本手稿不会提交至期刊；若使用metapredict V2，请引用原始论文并注明正在使用V2版本。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.06.06.494887",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.06.06.494887",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.06.06.494887/index.html"
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and data availability statements.
+- **Assessment boundary** The scientific claims, methodology, evidence quality, and internal consistency of the presented work. No external literature verification or replication of analyses was performed.
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered intracellular domain (ICD) of the prolactin receptor (PRLR), specifically the juxtamembrane region (LID1), forms a co-structure with the membrane lipid PI(4,5)P2 and the FERM-SH2 domain of Janus kinase 2 (JAK2). This co-structure is suggested to stabilize an extended conformation of the disordered region, facilitate PI(4,5)P2 accumulation at the transmembrane interface, and be functionally important for PRLR-mediated STAT5 signaling.
+- **Visible evidence base** NMR spectroscopy (chemical shift perturbations, intensity changes, secondary chemical shifts), CD spectroscopy, coarse-grained and all-atom molecular dynamics simulations, cellular signaling assays (STAT5 phosphorylation), and immunofluorescence-based membrane localization analysis.
+- **Missing materials affecting confidence** No raw NMR spectra or assignments are shown for the key titration experiments. No quantification of the western blot data is provided in the text. No statistical analysis or replicates are described for the cellular assays. The structural model of the JAK2-PRLR complex is not validated experimentally. No direct binding affinity measurements are reported.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question regarding the role of membrane lipids in cytokine receptor signaling. The integrative approach is commendable and the central hypothesis is interesting. However, the evidence presented does not fully establish the proposed co-structure model. The NMR data are largely qualitative, the simulation results are not sufficiently validated against experimental data, and the cellular experiments lack the quantitative rigor needed to support the functional claims. The manuscript would benefit from a more focused and quantitatively supported presentation of the key findings.
+- **Who would be interested in the results, and why** Researchers studying cytokine receptor signaling, JAK-STAT pathway regulation, membrane-protein interactions, intrinsically disordered proteins, and the role of phosphoinositides in cell signaling. The work may also be of interest to those developing integrative structural biology approaches for studying dynamic membrane-associated complexes.
+- **Major strengths** The study tackles a challenging and biologically important problem using a multi-technique approach. The identification of specific residues in the PRLR ICD involved in PI(4,5)P2 interaction is a useful contribution. The simulation work provides testable hypotheses about the orientation and dynamics of the JAK2-PRLR complex at the membrane. The cellular experiments, while preliminary, connect the molecular observations to a functional readout.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The claim that PRLR, JAK2, and PI(4,5)P2 form a specific co-structure is the central thesis of the manuscript.
+  - **Evidence pointer** Results sections "LID1 binds PI(4,5)P2 in the juxtamembrane region forming extended structures" and "JAK2-FERM-SH2 and PRLR-ICDLID1 form co-structures with PI(4,5)P2 on membranes"; Figures 2, 3, 4.
+  - **Concern** The evidence for a defined co-structure is indirect. The NMR data show intensity changes and CSPs, but no intermolecular NOEs or other direct structural restraints between the three components are presented. The simulations are used to build a model, but this model is not validated by independent experimental data (e.g., cross-linking, paramagnetic relaxation enhancement, or mutational analysis that specifically disrupts the predicted interface). The claim of co-structure formation, as opposed to independent or sequential binding events, is therefore not strongly supported.
+  - **Why it matters** The proposed co-structure is the foundational concept of the paper. Without direct evidence for a ternary complex, the mechanistic model and its implications for signaling remain speculative.
+  - **Resolution test** Provide direct experimental evidence for a ternary complex, such as intermolecular NOEs in NMR, cross-linking mass spectrometry, or a three-component binding assay (e.g., pull-down or FRET) that demonstrates simultaneous binding. Alternatively, use mutations that specifically disrupt the predicted JAK2-PRLR-PI(4,5)P2 interface and show a loss of co-structure formation and signaling.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The claim that mutations in the identified residues negatively affect PRLR-mediated STAT5 activation.
+  - **Evidence pointer** Results section "Key residues for membrane interaction control cellular signaling efficiency"; Figure 5C, D, F, G.
+  - **Concern** The cellular signaling data are presented qualitatively. The text states that STAT5 activation is "significantly decreased" for some mutants, but no quantification, error bars, or statistical tests are shown. The representative blots are not sufficient to assess the magnitude or reproducibility of the effect. Furthermore, the membrane localization data are also qualitative, and the relationship between reduced localization and reduced signaling is not quantitatively deconvoluted.
+  - **Why it matters** The functional significance of the proposed co-structure is a key part of the paper's impact. Without quantitative data, the strength of the link between the molecular model and the cellular phenotype cannot be evaluated.
+  - **Resolution test** Provide quantified data from at least three independent biological replicates, with appropriate statistical analysis (e.g., mean ± SEM, with significance testing). Show that the effect on signaling is not solely due to reduced membrane localization, for example by normalizing signaling to the amount of membrane-localized receptor.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validation
+  - **Claim pointer** The claim that the simulations accurately capture the behavior of the system and that the identified states are functionally relevant.
+  - **Evidence pointer** Results sections "LID1 has specific PI(4,5)P2 contacts which drive PI(4,5)P2 recruitment" and "The complex between JAK2-FERM-SH2 and PRLR-ICDLID1 shows preferential bound orientations with membranes containing PI(4,5)P2"; Figures 3 and 4.
+  - **Concern** The simulation results are presented as predictive, but the force field parameters for PI(4,5)P2 in Martini3 are adapted from Martini2 without validation. The choice of the 10% increase in protein-water interactions is based on previous work but may not be optimal for this system. The functional relevance of the Y and Flat states is purely speculative, as no experimental data are provided to support the claim that these states correspond to active or inactive signaling conformations.
+  - **Why it matters** The simulations are a major pillar of the evidence. If the model is not robust or the states are not experimentally validated, the conclusions drawn from them are weakened.
+  - **Resolution test** Validate the simulation model against experimental data (e.g., by comparing predicted contacts with those measured by NMR or cross-linking). Test the functional relevance of the Y and Flat states by designing mutations that stabilize or destabilize these states and measuring their effect on signaling.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "We find that the co-structure exists in different states which we speculate could be relevant for turning signaling on and off."
+  - **Issue** The use of "speculate" in the abstract is appropriate, but the sentence is vague. It is unclear what "different states" refers to and how they might relate to signaling.
+  - **Required correction** Clarify the nature of the different states and provide a more specific hypothesis for how they might regulate signaling.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods
+  - **Evidence pointer** Materials and methods, "Expression and purification of ICDK235-G313 and variants"
+  - **Issue** The description of the protein purification is brief. Details on the lysis method, affinity purification steps, and final buffer conditions are not provided.
+  - **Required correction** Provide a more detailed description of the purification protocol to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5B, E
+  - **Issue** The line scan analysis for membrane localization is described, but the criteria for selecting cells and the number of cells analyzed are not stated.
+  - **Required correction** Include details on the image analysis methodology, including the number of cells analyzed and the statistical test used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, "One of the suggested roles of PI(4,5)P2 as a regulatory lipid is indeed to form microdomains around proteins and reduce their lateral movement"
+  - **Issue** The discussion of PI(4,5)P2 microdomains is interesting but not directly supported by the data presented in this manuscript.
+  - **Required correction** Clearly distinguish between speculation and findings from this study.
+
+## Risk / unsupported claims
+- The claim of a specific ternary co-structure between PRLR, JAK2, and PI(4,5)P2 is not directly supported by the presented data.
+- The functional relevance of the Y and Flat states is speculative and not experimentally tested.
+- The claim that the co-structure "locks" the juxtamembrane domain in an extended structure is not directly demonstrated.
+- The quantitative impact of the mutations on STAT5 signaling is not established due to lack of quantification.
+- The statement that PI(4,5)P2 accumulates at the transmembrane interface is based on simulations and not directly verified experimentally.

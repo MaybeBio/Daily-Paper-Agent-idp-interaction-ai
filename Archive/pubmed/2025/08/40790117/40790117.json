@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "40790117",
+    "doi": "10.1038/s41467-025-62772-0",
+    "title": "A blueprint for biomolecular condensation driven by bacterial microcompartment encapsulation peptides."
+  },
+  "content": {
+    "abstract": "Bacterial microcompartments are protein organelles with diverse metabolic capabilities. Their functional diversity is determined by an enzymatic core that is sequestered within a structurally conserved protein shell architecture. Segregation of protein cargo into the bacterial microcompartment is enabled by encapsulation peptides, which are short helical domains fused to core proteins through a disordered linker. Here, we investigate how encapsulation peptides drive multicomponent cargo assembly into biomolecular condensates. In vitro experiments supported by molecular dynamics simulations demonstrate the importance of both conserved hydrophobic packing and electrostatic interactions in stabilizing trimeric encapsulation peptide bundles. Topological rearrangements of encapsulation peptide domains can drive programmable liquid- or gel-like partitioning in vitro and in vivo. This partitioning is found to be encapsulation peptide-specific, modular, and can co-assemble at least three fluorescent reporters. In summary, we describe the molecular features necessary to drive biomolecular condensation using a widespread peptide tag. This work can serve as a blueprint for implementing encapsulation peptide biotechnology across diverse applications.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Peptides/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Bacterial Proteins/metabolism/chemistry/genetics",
+      "Hydrophobic and Hydrophilic Interactions",
+      "*Organelles/metabolism",
+      "*Biomolecular Condensates/metabolism/chemistry",
+      "Escherichia coli/metabolism",
+      "Static Electricity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Trettel, Daniel S",
+        "Lopez, Cesar A",
+        "Rodriguez, Eliana",
+        "Marrone, Babetta L",
+        "Gonzalez-Esquer, Cesar Raul"
+      ],
+      "short_names": [
+        "Trettel DS",
+        "Lopez CA",
+        "Rodriguez E",
+        "Marrone BL",
+        "Gonzalez-Esquer CR"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9206-4340",
+        "ORCID: 0000-0001-5002-1289"
+      ],
+      "affiliations": [
+        "Los Alamos National Laboratory, Bioscience Division, Microbial and Biome Sciences Group, Los Alamos, NM, USA.",
+        "Los Alamos National Laboratory, Theoretical Biology and Biophysics Group, Los Alamos, NM, USA.",
+        "Los Alamos National Laboratory, Bioscience Division, Microbial and Biome Sciences Group, Los Alamos, NM, USA.",
+        "Los Alamos National Laboratory, Bioscience Division, Microbial and Biome Sciences Group, Los Alamos, NM, USA.",
+        "Los Alamos National Laboratory, Bioscience Division, Microbial and Biome Sciences Group, Los Alamos, NM, USA. crge@lanl.gov."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Trettel, Daniel S",
+        "short_name": "Trettel DS",
+        "identifiers": [
+          "0000-0001-9206-4340"
+        ],
+        "affiliations": [
+          "Los Alamos National Laboratory, Bioscience Division, Microbial and Biome Sciences Group, Los Alamos, NM, USA."
+        ]
+      },
+      {
+        "full_name": "López, Cesar A",
+        "short_name": "López CA",
+        "identifiers": [],
+        "affiliations": [
+          "Los Alamos National Laboratory, Theoretical Biology and Biophysics Group, Los Alamos, NM, USA."
+        ]
+      },
+      {
+        "full_name": "Rodriguez, Eliana",
+        "short_name": "Rodriguez E",
+        "identifiers": [],
+        "affiliations": [
+          "Los Alamos National Laboratory, Bioscience Division, Microbial and Biome Sciences Group, Los Alamos, NM, USA."
+        ]
+      },
+      {
+        "full_name": "Marrone, Babetta L",
+        "short_name": "Marrone BL",
+        "identifiers": [
+          "0000-0001-5002-1289"
+        ],
+        "affiliations": [
+          "Los Alamos National Laboratory, Bioscience Division, Microbial and Biome Sciences Group, Los Alamos, NM, USA."
+        ]
+      },
+      {
+        "full_name": "Gonzalez-Esquer, Cesar Raul",
+        "short_name": "Gonzalez-Esquer CR",
+        "identifiers": [],
+        "affiliations": [
+          "Los Alamos National Laboratory, Bioscience Division, Microbial and Biome Sciences Group, Los Alamos, NM, USA. crge@lanl.gov."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Aug 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/12 00:27",
+    "fetched_at": "2026-09-21 22:26:03"
+  },
+  "links": {
+    "cites": [
+      "42496041",
+      "42143052",
+      "42093323",
+      "42007694",
+      "41875368",
+      "41191432"
+    ],
+    "refs": [
+      "40238862",
+      "40187678",
+      "40128232",
+      "40069227",
+      "39929988",
+      "39271915",
+      "39023255",
+      "38971311",
+      "38735476",
+      "38622124",
+      "38425792",
+      "37735196",
+      "37668016",
+      "37552700",
+      "37380708",
+      "37348448",
+      "36973546",
+      "36786617",
+      "36702825",
+      "36227479",
+      "36227469",
+      "36163138",
+      "35866871",
+      "35773489",
+      "35675815",
+      "35614058",
+      "35575582",
+      "35216657",
+      "34802870",
+      "34759380",
+      "34369156",
+      "34155212",
+      "33975941",
+      "33782607",
+      "33638215",
+      "33186556",
+      "33116131",
+      "32966943",
+      "32824618",
+      "32747754",
+      "32710089",
+      "32679076",
+      "32675239",
+      "32456986",
+      "32123388",
+      "32053746",
+      "32004090",
+      "31959967",
+      "31501298",
+      "31048338",
+      "30675061",
+      "30523075",
+      "30197298",
+      "30066189",
+      "30017918",
+      "29866851",
+      "29797764",
+      "29522747",
+      "29503457",
+      "29298433",
+      "28824573",
+      "28241402",
+      "28225081",
+      "28138097",
+      "27819658",
+      "27063436",
+      "26991644",
+      "26969252",
+      "26899032",
+      "26589065",
+      "26478774",
+      "24933391",
+      "24267892",
+      "24023971",
+      "23832629",
+      "23585538",
+      "23524392",
+      "23077559",
+      "22927404",
+      "22461622",
+      "22428024",
+      "22174863",
+      "21821773",
+      "20308536",
+      "19658435",
+      "18296526",
+      "9864330",
+      "8254673"
+    ],
+    "similar": [
+      "40790117",
+      "38735476",
+      "35216657",
+      "32053746",
+      "37552700",
+      "39969154",
+      "41004005",
+      "20192762",
+      "38909546",
+      "35575582",
+      "40237445",
+      "33683101",
+      "36702825",
+      "39080489",
+      "39636939",
+      "36932732",
+      "39964249",
+      "34473104",
+      "31075444",
+      "40877270",
+      "26478774",
+      "40455990",
+      "39390911",
+      "40113598",
+      "35727989",
+      "22461622",
+      "40028898",
+      "35778087",
+      "27166515",
+      "34384019",
+      "29866851",
+      "30038362",
+      "32123388",
+      "37937366",
+      "40069227",
+      "24631000",
+      "30063715",
+      "40195042",
+      "41481439",
+      "39232584",
+      "39987501",
+      "25184561",
+      "28138097",
+      "37710047",
+      "39929988",
+      "37971493",
+      "35658421",
+      "38326220",
+      "33227310",
+      "22927404",
+      "40174834",
+      "40847519",
+      "34767801",
+      "34862761",
+      "40108179",
+      "40721018",
+      "39878648",
+      "27450681",
+      "38971830",
+      "41060763",
+      "28642439",
+      "25713376",
+      "40468084",
+      "28829618",
+      "37408305",
+      "24873823",
+      "40203038",
+      "37171907",
+      "36786617",
+      "31959751",
+      "39424799",
+      "38751116",
+      "40044576",
+      "40229261",
+      "38773325",
+      "34916288",
+      "40339164",
+      "34648275",
+      "37871222",
+      "37721444",
+      "27355101",
+      "34090478",
+      "40136009",
+      "33581219",
+      "40588121",
+      "39207096",
+      "33934561",
+      "39591652",
+      "28281548",
+      "18937343",
+      "39080253",
+      "40768359",
+      "39079038",
+      "40985078",
+      "40408482",
+      "23188745",
+      "39827079",
+      "40702806",
+      "16081736",
+      "41166416"
+    ],
+    "review": [
+      "40790117",
+      "41004005",
+      "20192762",
+      "38909546",
+      "39964249",
+      "40195042",
+      "25184561",
+      "40847519",
+      "34767801",
+      "37171907",
+      "38773325",
+      "33934561",
+      "18937343"
+    ],
+    "pmc": [
+      "12339742"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-62772-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40790117/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

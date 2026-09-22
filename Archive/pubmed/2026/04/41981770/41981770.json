@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "41981770",
+    "doi": "10.1021/acs.jcim.6c00270",
+    "title": "Transient Aggregation-Prone States in Disordered Proteins as Therapeutic Targets: The Amyloid-beta Case."
+  },
+  "content": {
+    "abstract": "The amyloid-beta (Abeta) peptide is an intrinsically disordered protein whose self-association into toxic oligomers underlies Alzheimer's disease. Because of its dynamic and heterogeneous nature, identifying the conformational states that nucleate aggregation remains a central challenge. In this work, we introduce a chemically interpretable descriptor of amyloidogenic propensity derived from self-docking analyses of conformational ensembles generated through temperature-replica exchange molecular dynamics (T-REMD) using different and complementary force fields. This descriptor classifies individual conformers within the generated ensembles according to their intrinsic aggregation tendency, enabling the identification of metastable, aggregation-prone states. The resulting ensembles reproduce experimental observables, and their classification based on amyloidogenic propensity provides a consistent structural basis for the rationalization and study of these metastable conformers. As a test, we demonstrate that the molecular chaperone DNAJB6, experimentally known to bind amyloidogenic conformations, preferentially interacts with aggregation-prone conformers, thus supporting both the proposed protocol and the consistency of the classification scheme. More broadly, this framework outlines a potentially generalizable strategy to identify metastable states in intrinsically disordered proteins as prospective pharmacological targets to help develop drugs or biomolecules capable of inhibiting the early stages of their aggregation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Amyloid beta-Peptides/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Protein Aggregates/drug effects",
+      "Protein Conformation",
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Molecular Targeted Therapy",
+      "HSP40 Heat-Shock Proteins/metabolism/chemistry",
+      "Molecular Chaperones/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bini, Margherita",
+        "Tozzini, Valentina",
+        "Bellucci, Luca"
+      ],
+      "short_names": [
+        "Bini M",
+        "Tozzini V",
+        "Bellucci L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7829-3507",
+        "ORCID: 0000-0002-7586-5039",
+        "ORCID: 0000-0003-2031-064X"
+      ],
+      "affiliations": [
+        "Scuola Normale Superiore, P.za S. Silvestro 12, 56127Pisa, Italy.",
+        "Istituto Nanoscienze, Consiglio Nazionale delle Ricerche (CNR-NANO), P.za S. Silvestro 12, 56127Pisa, Italy.",
+        "Scuola Normale Superiore, P.za S. Silvestro 12, 56127Pisa, Italy.",
+        "Istituto Nanoscienze, Consiglio Nazionale delle Ricerche (CNR-NANO), P.za S. Silvestro 12, 56127Pisa, Italy.",
+        "INFN, Sezione di Pisa, Largo Bruno Pontecorvo, 56127Pisa, Italy.",
+        "Scuola Normale Superiore, P.za S. Silvestro 12, 56127Pisa, Italy.",
+        "Istituto Nanoscienze, Consiglio Nazionale delle Ricerche (CNR-NANO), P.za S. Silvestro 12, 56127Pisa, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bini, Margherita",
+        "short_name": "Bini M",
+        "identifiers": [
+          "0000-0002-7829-3507"
+        ],
+        "affiliations": [
+          "Scuola Normale Superiore, P.za S. Silvestro 12, 56127Pisa, Italy.",
+          "Istituto Nanoscienze, Consiglio Nazionale delle Ricerche (CNR-NANO), P.za S. Silvestro 12, 56127Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Tozzini, Valentina",
+        "short_name": "Tozzini V",
+        "identifiers": [
+          "0000-0002-7586-5039"
+        ],
+        "affiliations": [
+          "Scuola Normale Superiore, P.za S. Silvestro 12, 56127Pisa, Italy.",
+          "Istituto Nanoscienze, Consiglio Nazionale delle Ricerche (CNR-NANO), P.za S. Silvestro 12, 56127Pisa, Italy.",
+          "INFN, Sezione di Pisa, Largo Bruno Pontecorvo, 56127Pisa, Italy."
+        ]
+      },
+      {
+        "full_name": "Bellucci, Luca",
+        "short_name": "Bellucci L",
+        "identifiers": [
+          "0000-0003-2031-064X"
+        ],
+        "affiliations": [
+          "Scuola Normale Superiore, P.za S. Silvestro 12, 56127Pisa, Italy.",
+          "Istituto Nanoscienze, Consiglio Nazionale delle Ricerche (CNR-NANO), P.za S. Silvestro 12, 56127Pisa, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2026 Jun 8",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/15 06:29",
+    "fetched_at": "2026-09-18 02:33:55"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41445582",
+      "40617079",
+      "40532196",
+      "39865265",
+      "38886530",
+      "38655711",
+      "38241093",
+      "38109338",
+      "37955845",
+      "37555670",
+      "37459141",
+      "36937482",
+      "36302506",
+      "35839425",
+      "35649268",
+      "35569410",
+      "34687956",
+      "34040740",
+      "33399148",
+      "33148639",
+      "32350108",
+      "29744830",
+      "29581438",
+      "29490247",
+      "28124697",
+      "27025652",
+      "26780756",
+      "26629886",
+      "26619985",
+      "26606367",
+      "26596619",
+      "26498066",
+      "26489794",
+      "24739139",
+      "22947874",
+      "22443635",
+      "20734314",
+      "19706468",
+      "18456823",
+      "14971932",
+      "8744570"
+    ],
+    "similar": [
+      "41981770",
+      "40617079",
+      "29364151",
+      "32350108",
+      "23811057",
+      "35167081",
+      "29235155",
+      "34369377",
+      "25217638",
+      "30024736",
+      "31342431",
+      "29571707",
+      "29581438",
+      "42475469",
+      "41129692",
+      "34152264",
+      "42065441",
+      "24566672",
+      "27727496",
+      "27091578",
+      "33174726",
+      "26562747",
+      "40628933",
+      "36310204",
+      "24410358",
+      "38928405",
+      "21761818",
+      "24871565",
+      "33024142",
+      "32371882",
+      "30708285",
+      "23640306",
+      "21056574",
+      "30605312",
+      "35144022",
+      "40403529",
+      "26453216",
+      "27854243",
+      "32623047",
+      "26100600",
+      "31138770",
+      "23912807",
+      "39450869",
+      "17917109",
+      "41173868",
+      "41988656",
+      "37246935",
+      "31894361",
+      "30876367",
+      "31365254",
+      "41289380",
+      "29508987",
+      "33687193",
+      "37786925",
+      "39150403",
+      "28478483",
+      "32816485",
+      "30840442",
+      "20946608",
+      "39908957",
+      "29985420",
+      "37746887",
+      "31521233",
+      "42129207",
+      "39126645",
+      "28218749",
+      "37924907",
+      "16973602",
+      "23904097",
+      "25908410",
+      "36142176",
+      "39989313",
+      "20709081",
+      "38271485",
+      "30101700",
+      "37038252",
+      "31903719",
+      "35247211",
+      "29432676",
+      "26923286",
+      "42194082",
+      "42093397",
+      "31661242",
+      "41385865",
+      "41442122",
+      "29490247",
+      "32696387",
+      "42290153",
+      "42578546",
+      "26327208",
+      "38892222",
+      "35934194",
+      "30443712",
+      "29442498",
+      "26868929",
+      "31600048",
+      "39251087",
+      "41034231",
+      "33806726",
+      "30345755"
+    ],
+    "review": [
+      "41981770",
+      "29364151",
+      "24566672",
+      "35144022",
+      "17917109",
+      "29508987",
+      "30840442",
+      "31521233",
+      "25908410",
+      "30101700",
+      "37038252",
+      "42194082"
+    ],
+    "pmc": [
+      "13250902"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41981770/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.6c00270",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

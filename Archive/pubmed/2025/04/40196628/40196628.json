@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "40196628",
+    "doi": "10.1101/2025.03.25.645354",
+    "title": "Biomolecular condensate microstructure couples molecular and mesoscale properties."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates, including those formed by prion-like low complexity domains (LCDs) of proteins, are typically maintained by networks of molecular interactions. Such collective interactions give rise to the rich array of material behaviors underlying condensate function. Previous work has uncovered distinct LCD conformations in condensates versus dilute phases, and recently, single-component LCD condensates have been predicted to exhibit microstructures with \"small-world\" networks-where molecular nodes are highly clustered and connected via short pathlengths. However, a framework linking single-molecule properties, condensate microstructure, and macroscopic material properties remains elusive. Here, we combine molecular simulation and graph-theoretic analysis to reveal how molecular features encode condensate microstructure, which impacts molecule-scale conformations and droplet-scale material properties. Using a residue-resolution coarse-grained model, we probe condensates comprising natural LCD sequences and generalize our findings by varying composition and patterning in binary sequences of hydrophobic and polar residues. We show that non-blocky sequences form condensates with small-world internal networks featuring \"hubs\"-molecules responsible for global connectivity-and \"cliques\", molecular clusters bound by persistent short-ranged associations. Cliques localize near interfaces without a secondary phase transition, suggesting a role in mediating molecular partitioning and condensate aging by tuning interfacial material properties. Moreover, we demonstrate that network small-worldness predicts droplet surface tension. We also track single-molecule structure and dynamics inside condensates, revealing that internal heterogeneity at the single-molecule level is systematically encoded by network topology. Collectively, our work establishes multiscale structure-property relationships in LCD condensates, providing general principles for designing and interpreting condensates with complex internal organization and material properties.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tan, Daniel",
+        "Aierken, Dilimulati",
+        "Garcia, Pablo L",
+        "Joseph, Jerelle A"
+      ],
+      "short_names": [
+        "Tan D",
+        "Aierken D",
+        "Garcia PL",
+        "Joseph JA"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-4021-2176",
+        "ORCID: 0000-0003-1727-5759",
+        "ORCID: 0009-0009-5768-4945",
+        "ORCID: 0000-0003-4525-180X"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tan, Daniel",
+        "short_name": "Tan D",
+        "identifiers": [
+          "0009-0005-4021-2176"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Aierken, Dilimulati",
+        "short_name": "Aierken D",
+        "identifiers": [
+          "0000-0003-1727-5759"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Garcia, Pablo L",
+        "short_name": "Garcia PL",
+        "identifiers": [
+          "0009-0009-5768-4945"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Joseph, Jerelle A",
+        "short_name": "Joseph JA",
+        "identifiers": [
+          "0000-0003-4525-180X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 Jul 19",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/08 06:24",
+    "fetched_at": "2026-09-21 17:42:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40386802",
+      "39937084",
+      "39827079",
+      "39610751",
+      "39568948",
+      "39562559",
+      "39505326",
+      "39464253",
+      "38649740",
+      "38492239",
+      "38467846",
+      "38429263",
+      "38349628",
+      "38297184",
+      "37856873",
+      "37782826",
+      "37549257",
+      "37272573",
+      "37079924",
+      "36881934",
+      "36513655",
+      "36272811",
+      "36004748",
+      "35911447",
+      "35795820",
+      "35727989",
+      "35675815",
+      "34931046",
+      "34887356",
+      "34785657",
+      "33302617",
+      "33069007",
+      "32482873",
+      "32087632",
+      "32029630",
+      "32015543",
+      "31681941",
+      "30608810",
+      "29961577",
+      "29364893",
+      "28935776",
+      "28924037",
+      "28894006",
+      "27212236",
+      "26455390",
+      "25288112",
+      "23406146",
+      "22432451",
+      "22398450",
+      "19460965",
+      "18446219",
+      "16615219",
+      "15319512",
+      "9623998"
+    ],
+    "similar": [
+      "40196628",
+      "40985078",
+      "42475469",
+      "40747072",
+      "42244763",
+      "36993212",
+      "41670285",
+      "41279444",
+      "42407334",
+      "37252985",
+      "40093099",
+      "39928699",
+      "41728087",
+      "37205474",
+      "41481439",
+      "39804953",
+      "40954121",
+      "37215004",
+      "38429263",
+      "41868013",
+      "39937084",
+      "36883003",
+      "37194953",
+      "42081454",
+      "40386802",
+      "40661423",
+      "33307683",
+      "39271915",
+      "42551042",
+      "41863073",
+      "39636939",
+      "38622120",
+      "36819870",
+      "40848932",
+      "40881393",
+      "40894760",
+      "42290133",
+      "40791470",
+      "41540001",
+      "30926670",
+      "40661504",
+      "41645509",
+      "35727989",
+      "36513655",
+      "40661408",
+      "40172489",
+      "39386700",
+      "39763716",
+      "42182309",
+      "38649740",
+      "40626470",
+      "40894708",
+      "22720789",
+      "41700935",
+      "39171763",
+      "37961424",
+      "38260590",
+      "41867831",
+      "42124614",
+      "35293386",
+      "41662498",
+      "40534071",
+      "40502052",
+      "41991555",
+      "37873180",
+      "37468629",
+      "41917059",
+      "37486948",
+      "42701255",
+      "36747818",
+      "42531022",
+      "42358691",
+      "38591689",
+      "36004748",
+      "41169547",
+      "42717536",
+      "40136009",
+      "37886520",
+      "42029922",
+      "41256623",
+      "39386612",
+      "37684240",
+      "41118627",
+      "33558506",
+      "40291709",
+      "40321778",
+      "39568948",
+      "34090478",
+      "39005320",
+      "40867025",
+      "37131735",
+      "42497855",
+      "40098319",
+      "41238911",
+      "41993480",
+      "34784177",
+      "39071308",
+      "41703914",
+      "41535729",
+      "38766065"
+    ],
+    "review": [
+      "40196628",
+      "42407334",
+      "41728087",
+      "42551042"
+    ],
+    "pmc": [
+      "11974821"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40196628/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.03.25.645354",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

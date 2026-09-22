@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42227120",
+  "title": "Overinvestment in ultra‑rare APOE variants and highly speculative apoE-inhibitor docking risks undermining translational progress in sporadic Alzheimer's disease.",
+  "authors": "Gillet, Jean-Numa",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2026-06-02",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文批判性评述APOE无序区域背景下超罕见变异误分类及小分子对接的不严谨，虽涉及IDR和对接方法，但聚焦方法学纠错而非PPI机制建模，对本课题有警示性启发。",
+  "abstract": "Misclassification of ultra-rare and isoform-defining APOE variants, together with unsupported attempts to dock small-molecule 'inhibitors' to apolipoprotein E (apoE), continues to appear in the structural bioinformatics literature. Such inconsistencies stem from a broader misunderstanding of apoE as a highly flexible, two-domain protein with extensive intrinsically disordered regions (IDRs), a context essential for interpreting sequence variation. A recurring issue is the treatment of the pathogenic epsilon4 and protective epsilon2 substitutions as independent rare variants rather than as the canonical APOE isoform-defining polymorphism, a misinterpretation arising, for instance, from inconsistent minor-allele-frequency filtering and leading to overinterpretation of ultra-rare substitutions lacking established clinical relevance. Likewise, no experimental evidence supports stable interactions between apoE and small 'inhibitors' such as donepezil or other acetylcholinesterase drugs that provide only symptomatic benefit in Alzheimer's disease (AD). Docking such small ligands to apoE-frequently using incompatible homology models and outdated molecular-dynamics force fields ill-suited for proteins with large IDRs (e.g. AMBERff03)-tends to generate simulation-artifact cavities and non-biological ligand poses; compounding this, ligand protonation is frequently misassigned, such as the neutral state often attributed to donepezil, leading to meaningless structure-activity relationships. Collectively, these issues risk obscuring the well-established genetic architecture of APOE-associated AD and highlight the need for methodological rigor in in-silico structural modeling.",
+  "abstract_zh": "超罕见和异构体定义的APOE变体的错误分类，连同将小分子“抑制剂”对接至载脂蛋白E（apoE）的无根据尝试，持续出现在结构生物信息学文献中。这些不一致源于对apoE作为一种高度灵活、双结构域蛋白且含有广泛内在无序区域（IDRs）的更广泛误解，而这一背景对于解释序列变异至关重要。一个反复出现的问题是将致病性epsilon4和保护性epsilon2替换视为独立的罕见变体，而非典型的APOE异构体定义多态性，这种误解例如源于不一致的次要等位基因频率过滤，并导致对缺乏既定临床相关性的超罕见替换的过度解读。同样，没有实验证据支持apoE与小“抑制剂”（如多奈哌齐或其他乙酰胆碱酯酶药物）之间的稳定相互作用，这些药物在阿尔茨海默病（AD）中仅提供症状缓解。将此类小配体对接至apoE——通常使用不兼容的同源模型和过时的分子动力学力场（如AMBERff03），这些力场不适合具有大IDRs的蛋白质——往往会产生模拟伪影空腔和非生物配体姿态；此外，配体质子化状态常被错误分配，例如多奈哌齐常被归为中性状态，导致无意义的结构-活性关系。总体而言，这些问题可能掩盖APOE相关AD的既定遗传结构，并强调在计算机结构建模中需要方法学严谨性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42227120/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42227120/",
+  "paper_page_path": "papers/pubmed/42227120/index.html"
+}

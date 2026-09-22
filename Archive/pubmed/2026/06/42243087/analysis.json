@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42243087",
+  "title": "Dynamics of the beta-cardiac myosin auto-inhibited state explain cardiomyopathy pathogenesis.",
+  "authors": "Auguin, Daniel; Lannes, Laurie; Kikuti, Carlos; Ayoub, Nour; Juille, Marie; Rety, Stephane; Nandwani, Neha; Pathak, Divya; Ruppel, Kathleen M; Spudich, James A; Robert-Paganin, Julien; Houdusse, Anne",
+  "journal": "Nature communications",
+  "published_date": "2026-06-05",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文整合冷冻电镜与全原子分子动力学，研究心肌肌球蛋白自抑制态(IHM)的构象动态及致病突变效应，虽对象非典型IDP，但明确涉及IDR对互作动态的调控，且聚焦互作界面的机制建模，对本课题有方法迁移价值。",
+  "abstract": "Cardiac contractility requires precise regulation. A recently discovered form of regulation of cardiac contractility involves a beta-cardiac myosin off-state, the Interacting-Heads Motif ((Car)IHM). Despite its central role in cardiac physiology and disease, (Car)IHM structural dynamics remain poorly understood. Here, we integrate near-atomic resolution cryo-EM with all-atom molecular dynamics to characterize (Car)IHM in solution and in the context of the filament. We describe its conformational ensembles maintained by dynamic interfaces, and the stabilizing effect of the dilated cardiomyopathy mutation E525K, which limits S2 coiled-coil flexibility and impairs myosin activation. Intrinsically disordered regions of (Car)IHM and MyBP-C further modulate these dynamics. Our findings provide evidence for how (Car)IHM ensembles balance off/on states and anchor myosin heads in distinct thick filament environments. This integrated structural and dynamic approach enhances the understanding of thick filament regulation and facilitates predictions of the effects of genetic variants in inherited cardiomyopathies.",
+  "abstract_zh": "心脏收缩力需要精确的调控。近期发现的一种心脏收缩力调控形式涉及β-心肌肌球蛋白的关闭态，即相互作用头基序（(Car)IHM）。尽管其在心脏生理和疾病中发挥核心作用，但(Car)IHM的结构动力学仍知之甚少。在此，我们整合近原子分辨率冷冻电镜与全原子分子动力学，以表征溶液中和细丝背景下的(Car)IHM。我们描述了由动态界面维持的其构象集合，以及扩张型心肌病突变E525K的稳定效应，该突变限制S2卷曲螺旋的灵活性并损害肌球蛋白激活。(Car)IHM和MyBP-C的内在无序区域进一步调节这些动力学。我们的发现为(Car)IHM集合如何平衡关闭/开启状态并在不同粗丝环境中锚定肌球蛋白头提供了证据。这种整合的结构与动力学方法增强了对粗丝调控的理解，并有助于预测遗传性心肌病中遗传变异的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42243087/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42243087/",
+  "paper_page_path": "papers/pubmed/42243087/index.html"
+}

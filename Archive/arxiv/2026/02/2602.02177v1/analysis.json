@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2602.02177v1",
+  "title": "Interaction-induced moiré lattices: from mosaic mobility edges to many-body localization",
+  "authors": "Yan-Hao Yang; Zhihao Xu; Lei Ying; Qizhong Zhu",
+  "journal": "",
+  "published_date": "2026-02-02",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究莫尔晶格中相互作用诱导的局域化，属于凝聚态物理，与无序蛋白互作及AI/物理模拟方法无关。",
+  "abstract": "We study localization driven solely by interparticle interactions in moiré lattice systems without intrinsic disorder or externally imposed quasiperiodic potentials. We consider a one-dimensional bilayer with incommensurate lattice constants, described by a spin-dependent Fermi-Hubbard-type model with short-range interlayer interactions, where quasiperiodicity emerges only through interactions. Exact diagonalization shows that quenching hopping in one layer generates an interaction-induced mosaic potential with multiple mobility edges. When both layers are dynamical, increasing interlayer interactions drives transitions among ergodic, critical, and many-body localized regimes, with energy-dependent coexistence in certain parameter ranges. An exact mapping to a noninteracting single-particle model on a higher-dimensional structured graph provides a unified interpretation of these results and suggests an experimentally accessible route to interaction-induced moiré physics and localization.",
+  "abstract_zh": "我们研究了莫尔晶格系统中仅由粒子间相互作用驱动的局域化现象，该系统不含内在无序或外部施加的准周期势。我们考虑一个具有非公度晶格常数的一维双层结构，由自旋依赖的费米-哈伯德型模型描述，包含短程层间相互作用，其中准周期性仅通过相互作用涌现。精确对角化表明，在一层中淬灭跳跃会生成具有多个迁移边的相互作用诱导镶嵌势。当两层均为动力学时，增强层间相互作用驱动遍历态、临界态和多体局域态之间的转变，并在特定参数范围内出现能量依赖的共存现象。精确映射到高维结构化图上的无相互作用单粒子模型，为这些结果提供了统一解释，并提出了通向相互作用诱导莫尔物理和局域化的实验可行途径。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2602.02177v1",
+  "source_url": "https://arxiv.org/abs/2602.02177v1",
+  "paper_page_path": "papers/arxiv/2602.02177v1/index.html"
+}

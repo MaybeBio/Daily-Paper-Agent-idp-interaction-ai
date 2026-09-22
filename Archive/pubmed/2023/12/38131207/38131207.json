@@ -1,0 +1,217 @@
+{
+  "identity": {
+    "pmid": "38131207",
+    "doi": "10.1039/d3cp04899c",
+    "title": "Molecular dynamics simulations revealed topological frustration in the binding-wrapping process of eIF4G with eIF4E."
+  },
+  "content": {
+    "abstract": "Interaction between the cap-binding protein eIF4E and the scaffolding protein eIF4G is essential for the cap-dependent translation initiation in eukaryotes. In the Saccharomyces cerevisiae eIF4G/eIF4E complex, the intrinsically disordered eIF4E-binding domain of eIF4G folds into a bracelet-like structure upon binding to eIF4E. Aiming to unveil the molecular mechanism underlying the binding-wrapping process of eIF4G with eIF4E, we performed extensive coarse-grained molecular dynamics simulations and transition path analysis in this work. The major transition pathway revealed from our simulations showed that docking of the eIF4E-binding motif of eIF4G to the folded core of eIF4E initiates the binding process and then the disordered eIF4G wraps around the N-terminal tail of eIF4E. Additionally, we identified a minor transition pathway which indicates the involvement of topological frustration in the binding process. By manipulating the interaction strength of the wrapping contacts and the latching contacts, we further dissected factors affecting the formation of topological frustration and the binding transition kinetics. Our findings provide new clues for experimental studies on the binding mechanism of eIF4G to eIF4E in the future and exemplify the involvement of topological frustration in the binding process of intrinsically disordered proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Eukaryotic Initiation Factor-4E/chemistry/genetics/metabolism",
+      "*Eukaryotic Initiation Factor-4G/chemistry/genetics/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Biosynthesis",
+      "Saccharomyces cerevisiae",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Meng",
+        "Huang, Yongqi"
+      ],
+      "short_names": [
+        "Gao M",
+        "Huang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9463-8325"
+      ],
+      "affiliations": [
+        "Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China. yqhuang@hbut.edu.cn.",
+        "Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Hubei University of Technology, Wuhan 430068, China.",
+        "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China.",
+        "Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China. yqhuang@hbut.edu.cn.",
+        "Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Hubei University of Technology, Wuhan 430068, China.",
+        "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Meng",
+        "short_name": "Gao M",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China. yqhuang@hbut.edu.cn.",
+          "Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Hubei University of Technology, Wuhan 430068, China.",
+          "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yongqi",
+        "short_name": "Huang Y",
+        "identifiers": [
+          "0000-0002-9463-8325"
+        ],
+        "affiliations": [
+          "Hubei Key Laboratory of Industrial Microbiology, Hubei University of Technology, Wuhan 430068, China. yqhuang@hbut.edu.cn.",
+          "Cooperative Innovation Center of Industrial Fermentation (Ministry of Education & Hubei Province), Hubei University of Technology, Wuhan 430068, China.",
+          "Key Laboratory of Industrial Fermentation (Ministry of Education), Hubei University of Technology, Wuhan 430068, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical chemistry chemical physics : PCCP"
+    ],
+    "journal_abbrev": [
+      "Phys Chem Chem Phys"
+    ],
+    "pub_date": "2024 Jan 17",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/22 06:42",
+    "fetched_at": "2026-09-21 03:36:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38131207",
+      "27773676",
+      "14675538",
+      "38511550",
+      "30053226",
+      "21964297",
+      "26668315",
+      "28522457",
+      "18614538",
+      "27162083",
+      "28242763",
+      "19114555",
+      "25179781",
+      "25049413",
+      "31968220",
+      "25826663",
+      "17316629",
+      "24200290",
+      "31201269",
+      "9372919",
+      "20823271",
+      "17254965",
+      "16405910",
+      "9707439",
+      "24183571",
+      "31033289",
+      "15220445",
+      "20212144",
+      "29987188",
+      "17213333",
+      "30213859",
+      "9118949",
+      "31819221",
+      "33122085",
+      "15766285",
+      "12391154",
+      "35689631",
+      "24501003",
+      "16519694",
+      "19321500",
+      "14751272",
+      "26384734",
+      "22509910",
+      "24207126",
+      "10406811",
+      "28827335",
+      "25973932",
+      "10887196",
+      "30012864",
+      "17709445",
+      "11483729",
+      "35163752",
+      "25849588",
+      "15153109",
+      "12861028",
+      "10409688",
+      "32421011",
+      "28287067",
+      "35716598",
+      "26338184",
+      "24458973",
+      "18480444",
+      "8635470",
+      "32245232",
+      "31132531",
+      "32561718",
+      "34541613",
+      "14675529",
+      "20360945",
+      "9878069",
+      "12762040",
+      "24971752",
+      "16246166",
+      "19777548",
+      "22284680",
+      "25702871",
+      "19751846",
+      "16739988",
+      "28559344",
+      "9049313",
+      "16263769",
+      "18215131",
+      "17036047",
+      "9539725",
+      "23901100",
+      "23095751",
+      "10394359",
+      "29114037",
+      "32971126",
+      "25533957",
+      "9256432",
+      "32469309",
+      "12054859",
+      "16439989",
+      "22832024",
+      "24336354",
+      "31817792",
+      "35029261",
+      "37595014"
+    ],
+    "review": [
+      "38131207",
+      "28287067",
+      "32245232",
+      "34541613",
+      "12762040"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d3cp04899c",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-325",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

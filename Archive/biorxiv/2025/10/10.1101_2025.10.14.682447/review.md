@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) from bioRxiv preprint
+- **Assessment boundary** Scientific and technical evaluation of the presented claims, methods, and evidence; no assessment of editorial fit or publication venue
+- **Shared manuscript claim summary** The authors present MaSIF-PMP, a geometric deep learning model using molecular surface fingerprints to predict interfacial binding sites (IBSs) of peripheral membrane proteins (PMPs). They claim superior performance over existing IBS predictors, distinct feature determinants versus protein-protein interactions, and that MD simulations can validate predictions, refine IBS labels, and capture composition-dependent binding patterns.
+- **Visible evidence base** Main text figures referenced (Figs 1-7), supplementary figures and tables referenced but not provided in full, methods section
+- **Missing materials affecting confidence** Supplementary Information (16 figures, 5 tables) not provided; dataset details not fully described; benchmark set composition not fully specified; MD simulation parameters only partially described
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful extension of the MaSIF framework to peripheral membrane protein interfacial binding site prediction. The core idea of applying surface fingerprint descriptors to protein-membrane interactions is reasonable and the reported performance improvements over existing methods are encouraging. However, several technical aspects require clarification and additional validation before the claims can be fully assessed. The ablation study and transfer learning analyses are informative, but the MD simulation component, while conceptually appealing, shows limited improvement in prediction accuracy and its role in the overall framework needs clearer articulation. The case studies are interesting but raise questions about the reliability of the ground-truth labels used for evaluation.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein interaction prediction, particularly those interested in extending geometric deep learning approaches to non-protein interaction partners. Researchers studying peripheral membrane proteins and their membrane binding mechanisms may also find the MD simulation case studies relevant. The work could be of interest to developers of drug discovery tools targeting protein-membrane interfaces.
+- **Major strengths** 1) The extension of a well-established surface fingerprinting approach (MaSIF) to a new problem domain is logical and potentially impactful. 2) The surface-level prediction output provides richer spatial information than residue-level approaches. 3) The systematic ablation study and transfer learning analyses provide useful insights into feature importance. 4) The integration of MD simulations for label refinement is a creative approach to address the scarcity of experimentally validated IBS annotations.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "MaSIF-PMP outperformed all other predictors in both per-protein residue-level ROC AUC and MCC"
+  - **Evidence pointer** Section 2.2, Figure 3
+  - **Concern** The benchmark comparison against existing methods is described only at a high level. The specific details of how predictions from other methods (DREAMM, PPM3, MODA, PMIpred) were obtained and mapped to comparable metrics are not provided. The manuscript states that predictions were mapped between surface and residue levels, but the exact procedure and potential biases introduced by this mapping are unclear. Additionally, the benchmark set of 21 PMPs is small, and the criteria for selecting these proteins are not described.
+  - **Why it matters** Without a clear description of the benchmarking methodology, including how different prediction formats were harmonized, the claimed superiority over existing methods cannot be independently verified. Small benchmark sets with unclear selection criteria may not be representative of the broader PMP population.
+  - **Resolution test** Provide detailed methodology for benchmark construction, including how each method's predictions were obtained and converted to comparable formats. Justify the selection of the 21 benchmark proteins. Consider expanding the benchmark set or providing confidence intervals for performance metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "MD simulations can validate model predictions, refine IBS labels, and capture composition-dependent membrane binding patterns"
+  - **Evidence pointer** Sections 2.4, 2.5, Figures 6-7
+  - **Concern** The claim that MD simulations can "refine IBS labels" is not well supported by the presented results. The solution-phase MD simulations (Section 2.4) showed essentially no improvement in prediction performance when used for data augmentation. The HMMM simulations in the case studies are used to generate new IBS labels, but the manuscript does not clearly demonstrate that these labels are more accurate than the original homology-based annotations. The comparison between MaSIF-PMP predictions and HMMM-derived labels is circular to some degree, as the model's performance is being evaluated against labels generated by a different computational method without experimental validation.
+  - **Why it matters** The claim that MD simulations can refine IBS labels is a key contribution of the work. If the refined labels are not validated against experimental data, the improvement in label quality is speculative. The circularity concern undermines the strength of the conclusions drawn from the case studies.
+  - **Resolution test** Provide experimental validation for at least some of the HMMM-derived IBS labels, or clearly state the limitations of using computational labels as ground truth. Demonstrate that the refined labels lead to improved predictions in a way that is not circular.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "we performed high-throughput MD simulations of PMPs from the training set in aqueous solution"
+  - **Evidence pointer** Section 2.4, Methods
+  - **Concern** The description of the MD simulation protocol is incomplete. The manuscript states that simulations were performed but does not provide sufficient details on system size, simulation length, number of replicates, force field parameters beyond the force field name, or convergence criteria. The statement that "high-throughput MD simulations" were performed is vague, and the specific software and version are not mentioned in the main text.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without complete simulation details, other researchers cannot replicate the data augmentation procedure or assess the quality of the MD-generated conformations.
+  - **Resolution test** Provide a complete description of the MD simulation protocol, including software, version, system composition, simulation length, number of replicates, and analysis procedures. Consider providing example input files or a link to a repository with simulation parameters.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "These results establish MaSIF-PMP as an effective framework for IBS prediction"
+  - **Evidence pointer** Abstract, Section 3
+  - **Concern** The practical utility of MaSIF-PMP for the broader scientific community is not fully demonstrated. The model is benchmarked against other prediction tools, but the manuscript does not discuss how the surface-level predictions could be used in downstream applications such as drug design or mutagenesis studies. The improvement over existing methods, while statistically measurable, may not translate to practically meaningful differences in identifying functional binding sites.
+  - **Why it matters** For the work to have significant impact beyond the immediate methodological contribution, the authors should articulate and demonstrate the practical value of their approach. This is particularly important given the stated motivation of enabling drug discovery and mechanistic analysis.
+  - **Resolution test** Provide examples of how the surface-level predictions could guide experimental design or drug discovery efforts. Discuss the interpretability of the model outputs and how they could be used to generate testable hypotheses.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The description of the model architecture in the main text is brief, and the reader is referred to the Methods and Supplementary Information for details. However, the Methods section also lacks some specifics, such as the number of parameters in each layer, the learning rate schedule, and the batch size.
+  - **Required correction** Provide a more complete description of the neural network architecture in the Methods, including layer dimensions, activation functions, and optimization hyperparameters.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Section 2.2, Figure 3
+  - **Evidence pointer** Figure 3
+  - **Issue** The performance comparison uses median per-protein ROC AUC and MCC, but no confidence intervals or statistical significance tests are reported. Given the small benchmark set (21 proteins), the observed differences may not be statistically robust.
+  - **Required correction** Report confidence intervals or perform statistical tests (e.g., Wilcoxon signed-rank test) to assess the significance of performance differences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.5, Figure 6
+  - **Evidence pointer** Figure 6
+  - **Issue** The manuscript states that "a small number of organic solvent molecules escaped from the HMMM bilayer" but does not quantify this effect or discuss its potential impact on the simulation results.
+  - **Required correction** Provide quantitative information on solvent escape and discuss whether this could affect the protein-membrane interaction sampling.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.3, Figure 5
+  - **Evidence pointer** Figure 5
+  - **Issue** The ablation study results are presented as median ROC AUC values, but the variance across the five cross-validation folds is not reported. This makes it difficult to assess the reliability of the observed differences between feature combinations.
+  - **Required correction** Report the distribution of ROC AUC values across folds, for example using box plots or confidence intervals.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, Dataset
+  - **Evidence pointer** Methods
+  - **Issue** The manuscript states that 10 proteins were excluded from the dataset but does not provide a list of excluded proteins or the specific reasons for exclusion beyond "extensive unmodeled residues" or "lacked IBS annotations."
+  - **Required correction** Provide a supplementary table listing the excluded proteins and the specific reason for each exclusion.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.5, Figure 7
+  - **Evidence pointer** Figure 7
+  - **Issue** The selection of phospholipase A2 and glycosyl hydrolase as case studies for poorly predicted IBSs is not justified. The manuscript does not explain why these specific proteins were chosen or whether they are representative of the broader set of poorly predicted proteins.
+  - **Required correction** Provide a rationale for the selection of these case study proteins, or state that they were selected as illustrative examples.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmark methodology incomplete), R1-M2 (circularity in MD-based label evaluation), R1-M3 (insufficient MD simulation details)
+- **Assessment against Nature-style criteria** Originality: The application of surface fingerprint descriptors to protein-membrane interaction prediction is a reasonable extension of existing work, though not conceptually novel. The combination with MD simulations for label refinement is somewhat creative. Scientific importance: The work addresses a relevant problem in computational biology, but the practical impact is not fully demonstrated. The improvement over existing methods appears incremental rather than transformative. Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians. The MD simulation component may attract interest from the biophysics community, but the presentation is not sufficiently detailed to engage this audience fully. Technical soundness: The core methodology appears sound, but the benchmark evaluation and MD simulation components have significant gaps in reporting that prevent full assessment. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with geometric deep learning concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core approach is promising and the results are encouraging, but the benchmark methodology needs to be more rigorously described and the role of MD simulations in the framework needs to be clarified with stronger evidence. The manuscript would benefit from additional validation of the MD-derived labels and a more complete description of the simulation protocols.
+
+## Risk / unsupported claims
+- The claim that MD simulations can "refine IBS labels" is not supported by direct evidence; the solution-phase MD data augmentation showed no improvement, and the HMMM-derived labels are not validated against experimental data.
+- The claim of "superior performance" over existing methods is based on a small benchmark set with incomplete methodological description.
+- The statement that "surface fingerprints serve as robust, material-agnostic descriptors" is an overgeneralization based on limited testing on PMPs.
+- The claim that the model captures "composition-dependent membrane binding patterns" is based on two case studies and may not be generalizable.
+- The assertion that the model provides "a more realistic representation of binding interfaces" is speculative and not directly validated.

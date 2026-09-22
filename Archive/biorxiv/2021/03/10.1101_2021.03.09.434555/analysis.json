@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.09.434555",
+  "title": "Detection of the germline specific NAC protein paralog enriched by intrinsically disordered regions in <i>Drosophila melanogaster</i>",
+  "authors": "Galina L. Kogan; Elena A. Mikhaleva; Oxana M. Olenkina; Sergei S. Ryazansky; Oxana V. Galzitskaya; Yuri A. Abramov; Toomas A. Leinsoo; Natalia V. Akulenko; Vladimir A. Gvozdev",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-10",
+  "window": {
+    "start": "2021-03-08",
+    "end": "2021-03-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文发现果蝇生殖系特异性NAC蛋白旁系同源物富含内在无序区域(IDR)，并推测IDR赋予结合客户蛋白的构象可塑性和新功能，但主要基于序列分析和功能实验，缺乏对PPI机制的AI或物理模拟建模。",
+  "abstract": "Nascent polypeptide associated complex (NAC) consisting of α- and β-subunits is an essential conserved ubiquitously expressed ribosome-associated protein in eukaryotes. NAC is considered as a chaperone and co-translational regulator of nascent protein sorting providing homeostasis of cellular proteins. Here we discovered the germinal cell specific NAC (gNAC) homologue, which differs from the ubiquitously expressed NAC by the presence of expanded intrinsically disordered regions (IDRs) at the N- and C-ends of the α- and β-subunits, respectively. We propose these evolutionary acquisition of long IDRs drive gNAC to endow both the specific conformational plasticity for binding client proteins and novel functions regulated by post-transcriptional modifications (PTM). At the same time, we demonstrated that the well-known lethal effect of the loss of ubiquitous NAC-β is suppressed by ectopic expression of its germinal paralog indicating the absence of strict functional differences between the ubiquitous and germline NAC-β subunit paralogs for protein homeostasis.",
+  "abstract_zh": "由α和β亚基组成的初生多肽相关复合物（NAC）是真核生物中一种必需且保守的普遍表达的核糖体相关蛋白。NAC被视为伴侣蛋白及新生蛋白分选的共翻译调节因子，维持细胞蛋白的稳态。在此，我们发现了生殖细胞特异性NAC（gNAC）同源物，其与普遍表达的NAC不同之处在于α和β亚基的N端和C端分别存在扩展的内在无序区域（IDRs）。我们提出，这些进化上获得的长IDRs促使gNAC具备结合客户蛋白的特异性构象可塑性，并赋予由转录后修饰（PTM）调控的新功能。同时，我们证明，普遍存在的NAC-β缺失的已知致死效应可通过其生殖细胞旁系同源物的异位表达得到抑制，这表明在蛋白稳态方面，普遍型和生殖系NAC-β亚基旁系同源物之间不存在严格的功能差异。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.09.434555",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.09.434555",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.09.434555/index.html"
+}

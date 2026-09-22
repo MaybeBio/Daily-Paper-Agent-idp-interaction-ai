@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors describe TAPASS, a computational pipeline that integrates structural context (structured regions versus intrinsically disordered regions) with amyloidogenicity prediction to identify Exposed Amyloidogenic Regions (EARs) within IDRs, claiming improved prediction accuracy, applicability to proteome-wide discovery, and utility for personalised medicine.
+- **Visible evidence base** Abstract text only; no quantitative results, validation datasets, or performance metrics provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, validation methodology, benchmark datasets, comparison with existing tools, and web interface implementation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually reasonable pipeline that addresses a recognised limitation in amyloidogenicity prediction by incorporating structural context. However, the evidence provided is insufficient to evaluate the technical soundness, validation rigor, or claimed improvements over existing methods. The abstract reads as a description of a tool's design and potential applications rather than a demonstration of its performance or utility.
+- **Who would be interested in the results, and why** Researchers in protein aggregation and amyloidosis, computational biologists developing or using prediction tools, and clinicians or translational scientists interested in personalised risk assessment for amyloid diseases. The proposed integration of structural context with amyloidogenicity prediction is a relevant direction for the field.
+- **Major strengths** The conceptual motivation is clear and addresses a genuine gap in existing prediction approaches. The pipeline's modular architecture, allowing incorporation of new predictors, is a practical design feature. The potential applications to proteome-wide screening and personalised medicine are ambitious and could be impactful if validated.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that TAPASS "can substantially improve the prediction of amyloids" and "allows the detection of Exposed Amyloidogenic Regions (EARs) located within intrinsically disordered regions (IDRs) and carrying high amyloidogenic potential."
+  - **Evidence pointer** Abstract only; no validation data, benchmark results, or comparison with existing tools provided
+  - **Concern** The abstract provides no quantitative evidence supporting the claimed improvement in prediction accuracy. No datasets, performance metrics, or comparative analyses against existing amyloidogenicity predictors are presented.
+  - **Why it matters** Without validation, the central claim of improved prediction cannot be assessed. The scientific value of the tool depends on demonstrated performance relative to established methods.
+  - **Resolution test** Provide benchmark results on standard datasets, including sensitivity, specificity, and area under the ROC curve, with comparisons to existing tools such as Waltz, AmyloidMutant, or FoldAmyloid.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that TAPASS uses "several state-of-the-art programs for prediction of IDRs, of transmembrane regions and of structured domains or the artificial intelligence program AlphaFold."
+  - **Evidence pointer** Abstract only; no details on specific tools, versions, or parameter settings
+  - **Concern** The abstract does not specify which predictors are used, how they are combined, or how conflicts between predictions are resolved. The choice of AlphaFold as an alternative is mentioned but not elaborated.
+  - **Why it matters** Reproducibility is a core requirement for computational tools. Without specification of the pipeline components and their integration, other researchers cannot replicate or independently evaluate the method.
+  - **Resolution test** Provide a detailed description of all pipeline components, including software names, versions, and decision rules for combining predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of claims
+  - **Claim pointer** The abstract claims TAPASS "can be used in proteome-wide analysis to discover new amyloid-forming proteins" and that "its results, combined with clinical data, can create individual risk profiles for different amyloidoses, opening up new opportunities for personalised medicine."
+  - **Evidence pointer** Abstract only; no demonstration of proteome-wide application or clinical integration
+  - **Concern** These claims are presented as potential applications without any supporting evidence. No example of proteome-wide discovery or clinical correlation is provided.
+  - **Why it matters** Overstating potential applications without demonstration can mislead readers about the tool's current capabilities and readiness for translational use.
+  - **Resolution test** Provide at least one case study demonstrating proteome-wide application or a proof-of-concept clinical correlation, or temper the claims to reflect intended future work.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of EARs
+  - **Evidence pointer** Abstract only
+  - **Issue** The term "Exposed Amyloidogenic Regions (EARs)" is introduced but not defined in terms of thresholds or criteria for "exposed" and "high amyloidogenic potential."
+  - **Required correction** Provide explicit operational definitions for EARs, including the scoring thresholds and structural criteria used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Web interface
+  - **Evidence pointer** Abstract only
+  - **Issue** The web interface URL is provided, but no information is given about input formats, output types, or computational requirements.
+  - **Required correction** Include a brief description of the user interface, input/output specifications, and any limitations on sequence length or number of queries.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison with existing tools
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract mentions "several computational programs to predict amyloidogenicity" but does not specify which ones TAPASS is intended to improve upon.
+  - **Required correction** Name the specific existing tools that TAPASS aims to outperform and describe the expected advantages.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of validation data and pipeline specification prevents assessment of the tool's technical soundness and reproducibility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The conceptual integration of structural context with amyloidogenicity prediction is not entirely novel, as the abstract itself acknowledges that "a growing number of studies indicate that an accurate prediction of the protein aggregation can only be achieved when also accounting for the overall structural context." The specific pipeline design may offer incremental novelty, but this cannot be assessed from the abstract.
+  - Scientific importance: The problem addressed is relevant to protein aggregation research and amyloidosis, but the importance of the contribution depends on demonstrated performance improvements, which are not provided.
+  - Interdisciplinary readership: The tool could appeal to computational biologists, structural biologists, and clinical researchers, but the abstract does not present results that would engage a broad interdisciplinary audience.
+  - Technical soundness: Not assessable from the abstract due to missing validation and methodological details.
+  - Readability for nonspecialists: The abstract is generally clear and accessible, with technical terms defined in context, though the lack of concrete results limits its informative value for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract lacks the validation data and methodological detail necessary to support the central claims. A revised submission with full results and pipeline specifications could change this assessment.
+
+## Risk / unsupported claims
+- The claim that TAPASS "can substantially improve the prediction of amyloids" is unsupported by any quantitative evidence in the abstract.
+- The claim that TAPASS "can be used in proteome-wide analysis to discover new amyloid-forming proteins" is presented as a capability without demonstration.
+- The claim that results "combined with clinical data, can create individual risk profiles for different amyloidoses" is speculative and not supported by any clinical or translational evidence.
+- The assertion that the pipeline "assigns each residue of a protein as belonging to a structured region or an intrinsically disordered region" using the described tools is not verifiable without specification of the tools and their integration.

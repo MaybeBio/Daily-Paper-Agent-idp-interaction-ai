@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39663388",
+  "title": "PICNIC accurately predicts condensate-forming proteins regardless of their structural disorder across organisms.",
+  "authors": "Hadarovich, Anna; Singh, Hari Raj; Ghosh, Soumyadeep; Scheremetjew, Maxim; Rostam, Nadia; Hyman, Anthony A; Toth-Petroczy, Agnes",
+  "journal": "Nature communications",
+  "published_date": "2024-12-12",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用机器学习算法PICNIC基于序列和结构特征预测凝聚体蛋白，虽聚焦凝聚体组分识别而非PPI机制建模，但对象高度相关且方法可迁移。",
+  "abstract": "Biomolecular condensates are membraneless organelles that can concentrate hundreds of different proteins in cells to operate essential biological functions. However, accurate identification of their components remains challenging and biased towards proteins with high structural disorder content with focus on self-phase separating (driver) proteins. Here, we present a machine learning algorithm, PICNIC (Proteins Involved in CoNdensates In Cells) to classify proteins that localize to biomolecular condensates regardless of their role in condensate formation. PICNIC successfully predicts condensate members by learning amino acid patterns in the protein sequence and structure in addition to the intrinsic disorder. Extensive experimental validation of 24 positive predictions in cellulo shows an overall ~82% accuracy regardless of the structural disorder content of the tested proteins. While increasing disorder content is associated with organismal complexity, our analysis of 26 species reveals no correlation between predicted condensate proteome content and disorder content across organisms. Overall, we present a machine learning classifier to interrogate condensate components at whole-proteome levels across the tree of life.",
+  "abstract_zh": "生物分子凝聚体是无膜细胞器，能够在细胞中浓缩数百种不同的蛋白质，以执行关键的生物学功能。然而，准确识别其组成成分仍具挑战性，且偏向于具有高结构无序含量并聚焦于自相分离（驱动）蛋白的蛋白质。在此，我们提出一种机器学习算法PICNIC（细胞中凝聚体相关蛋白），用于分类定位于生物分子凝聚体的蛋白质，无论其在凝聚体形成中的角色如何。PICNIC通过学习蛋白质序列和结构中的氨基酸模式以及内在无序性，成功预测凝聚体成员。对24个阳性预测在细胞内的广泛实验验证显示，无论测试蛋白质的结构无序含量如何，总体准确率约为82%。虽然增加的无序含量与生物体复杂性相关，但我们对26个物种的分析揭示，预测的凝聚体蛋白质组含量与跨生物体的无序含量之间无相关性。总体而言，我们提出一种机器学习分类器，用于在生命之树的整个蛋白质组水平上探究凝聚体成分。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39663388/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39663388/",
+  "paper_page_path": "papers/pubmed/39663388/index.html"
+}

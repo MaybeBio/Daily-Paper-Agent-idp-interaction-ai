@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.29.685313",
+  "title": "Structure-based Predictions of Conformational B Cell Epitopes by Protein Language Model and Deep Learning",
+  "authors": "Yuhao Zhang; Zhaoqian Su; Felipe Vilicich; Xiaohan Kuang; Yunchao Liu; Grace Zhang; Yinghao Wu",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-30",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用蛋白语言模型(ESM-2)和深度学习在抗原结构上预测构象B细胞表位，属于抗体-抗原PPI界面预测，但对象为折叠抗原而非无序蛋白/IDR，机制建模深度有限，方法可迁移至IDR互作界面预测。",
+  "abstract": "Mapping conformational B-cell epitopes remains a central challenge for antibody discovery: experiments are costly and most computational tools trained on generic protein–protein interfaces transfer poorly to antibody–antigen recognition. We introduce a patch-centric framework that predicts epitopes directly on antigen structures. Each surface “patch” is defined as a triad of neighboring residues, capturing the smallest local unit that encodes both shape and chemistry. We evaluate two classifiers: (i) a protein language model (PLM) approach that averages ESM-2 embeddings over each triad and scores them with a small multilayer perceptron [1], and (ii) a convolutional baseline that consumes a hand-crafted 15 × 20 feature matrix summarizing amino-acid identity, secondary structure, solvent accessibility, and shape index. Trained with five-fold cross-validation on 1,151 AbDb antibody–antigen complexes, the PLM model markedly outperforms the CNN at the patch level (e.g., F1 ≈ 0.986 , ROC–AUC ≈ 0.998 ). Aggregating patch scores to residues with an ensemble over all folds yields robust residue-wise performance, surpassing the CNN (ROC–AUC 0.689 ± 0.072 vs. 0.548 ± 0.018 ). Against widely used sequence- and structure-based tools on AbDb, our PLM achieves the best summary metrics (ROC–AUC 0.67 , PR– AUC 0.56 ) with full coverage of all antigens. On five external complexes unseen during development, the model generalizes well (ROC–AUC 0.663 ) and accurately localizes binding regions qualitatively. The method converts PLM representations into interpretable epitope likelihood maps, offering a practical aid for antigen prioritization, antibody engineering, and vaccine design.",
+  "abstract_zh": "绘制构象B细胞表位仍是抗体发现的核心挑战：实验成本高昂，且大多数基于通用蛋白质-蛋白质界面训练的计算机工具在抗体-抗原识别上迁移效果不佳。我们引入了一种以斑块为中心的框架，直接在抗原结构上预测表位。每个表面“斑块”被定义为三个相邻残基的三元组，捕捉编码形状和化学性质的最小局部单元。我们评估了两种分类器：（i）一种蛋白质语言模型（PLM）方法，对每个三元组平均ESM-2嵌入，并用小型多层感知器[1]进行评分；（ii）一种卷积基线，消耗手工制作的15×20特征矩阵，汇总氨基酸身份、二级结构、溶剂可及性和形状指数。在1,151个AbDb抗体-抗原复合物上进行五折交叉验证训练后，PLM模型在斑块水平上显著优于CNN（例如，F1 ≈ 0.986，ROC–AUC ≈ 0.998）。通过集成所有折的斑块分数聚合到残基，获得稳健的残基级性能，超越CNN（ROC–AUC 0.689 ± 0.072 对比 0.548 ± 0.018）。与AbDb上广泛使用的基于序列和结构的工具相比，我们的PLM实现了最佳汇总指标（ROC–AUC 0.67，PR–AUC 0.56），并覆盖所有抗原。在开发期间未见过的五个外部复合物上，模型泛化良好（ROC–AUC 0.663），并定性准确定位结合区域。该方法将PLM表示转换为可解释的表位似然图，为抗原优先级排序、抗体工程和疫苗设计提供实用辅助。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.29.685313",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.29.685313",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.29.685313/index.html"
+}

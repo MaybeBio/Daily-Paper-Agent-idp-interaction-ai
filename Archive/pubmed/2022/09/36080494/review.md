@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, and methods sections.
+- **Assessment boundary** Scientific content, methodological rigor, validity of conclusions, and presentation quality. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors propose that a modest increase (λ = 1.03) in protein-water Lennard-Jones interactions, relative to the standard CHARMM36m force field, improves the balance between protein-protein and protein-water interactions. This modification preserves the thermodynamic properties of proteins in dilute solutions while significantly enhancing translational diffusion in crowded solutions by reducing overly sticky protein-protein interactions.
+- **Visible evidence base** Results from REMD simulations of (AAQAA)3, GaREUS simulations of chignolin, GaMD simulations of TDP-43 CTD, conventional MD simulations of c-Src kinase and villin in dilute and crowded solutions, and FEP calculations of solvation free energies for 14 amino acid analogues. Methods section describes simulation protocols, system setups, and analysis procedures.
+- **Missing materials affecting confidence** Supplementary figures referenced (S1-S10) are not provided. Simulation parameter files, force field modification details, and convergence analyses are not fully described. Experimental data for direct comparison (e.g., NMR chemical shifts, SAXS profiles) are referenced but not shown.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely problem in biomolecular simulation: the balance between protein-protein and protein-water interactions, particularly for intrinsically disordered proteins and crowded solutions. The systematic exploration of the scaling parameter λ for CHARMM36m is valuable, and the finding that only a modest increase (λ = 1.03) is optimal, rather than the previously suggested λ = 1.09, is significant. However, several technical concerns regarding simulation convergence, the generalizability of the results, and the interpretation of the diffusion data need to be addressed before the conclusions are fully supported.
+- **Who would be interested in the results, and why** Researchers in the molecular dynamics simulation community, particularly those working on force field development, intrinsically disordered proteins, and macromolecular crowding. The results are also relevant to experimentalists studying protein dynamics and interactions in cellular environments, as they provide a practical modification to improve the accuracy of simulations in crowded conditions.
+- **Major strengths** The study addresses a critical issue in the field with a systematic approach. The use of multiple enhanced sampling methods (REMD, GaREUS, GaMD) is appropriate for the different systems studied. The inclusion of solvation free energy calculations provides a molecular-level interpretation of the observed effects. The finding that λ = 1.03 is optimal for CHARMM36m, distinct from the value proposed for other force fields, highlights the need for force-field-specific optimization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that λ = 1.03 is the optimal scaling parameter for CHARMM36m, based primarily on the (AAQAA)3 peptide results.
+  - **Evidence pointer** Section 2.1.1, Figure 1
+  - **Concern** The determination of the optimal λ value relies heavily on the (AAQAA)3 peptide, which contains only alanine and glutamine. The authors acknowledge this limitation but do not provide sufficient evidence that λ = 1.03 is universally optimal for other amino acid types or protein sequences. The sigmoidal fit in Figure 1b shows a sharp transition between λ = 1.03 and 1.04, but the error bars and statistical significance of this difference are not clearly presented.
+  - **Why it matters** The central claim of the paper is that λ = 1.03 is the appropriate scaling factor for CHARMM36m. If this value is not robust across different peptide/protein sequences, the practical utility of the proposed modification is limited.
+  - **Resolution test** Provide additional simulations of peptides with diverse amino acid compositions, or demonstrate that the optimal λ is consistent across multiple test systems. Include statistical analysis (e.g., bootstrap or Bayesian inference) to quantify the uncertainty in the optimal λ value.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that λ = 1.03 significantly accelerates translational diffusion in crowded solutions, reducing overly sticky protein-protein interactions.
+  - **Evidence pointer** Section 2.3, Figure 7, Table 1
+  - **Concern** The diffusion coefficients are calculated from MSD analysis over a limited time window (30-50 ns). The authors apply a PBC correction and a viscosity correction, but the validity of these corrections for the crowded system is not fully justified. The Einstein relationship used for the viscosity of the crowded solution assumes a specific relationship between volume fraction and viscosity that may not hold for the protein concentrations studied. Additionally, only one trajectory is used for the λ = 1.09 condition, which is insufficient for reliable statistics.
+  - **Why it matters** The claim that the modified force field improves the description of protein dynamics in crowded environments is a key selling point of the paper. If the diffusion measurements are not robust, this conclusion is weakened.
+  - **Resolution test** Provide longer simulations with multiple independent trajectories for each condition. Validate the viscosity correction against independent measurements or theoretical predictions. Show that the diffusion coefficients are converged with respect to simulation length.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the modified force field is applicable to both globular and disordered proteins in dilute and crowded solutions.
+  - **Evidence pointer** Sections 2.1-2.3
+  - **Concern** The test systems are limited to a small α-helical peptide, a β-hairpin, a short disordered region, and two globular proteins. The authors do not test the modified force field on a larger, more diverse set of proteins, particularly those with significant disordered regions or complex folding landscapes. The claim of broad applicability is therefore not fully supported.
+  - **Why it matters** The practical value of the proposed modification depends on its generalizability. If it only works for the specific systems tested, its impact is limited.
+  - **Resolution test** Test the modified force field on additional proteins, including larger IDPs, multi-domain proteins, and proteins with different secondary structure compositions. Compare the results with experimental data where available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction assumes familiarity with force field terminology and the specific challenges of IDP simulations. A brief explanation of why protein-water interactions are often imbalanced in current force fields would help nonspecialist readers.
+  - **Required correction** Add a short paragraph explaining the physical basis for the overestimation of protein-protein interactions and why scaling protein-water interactions is a reasonable correction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section
+  - **Evidence pointer** Section 4.1
+  - **Issue** The temperature list for the 58 replicas in the REMD simulation is provided, but the exchange acceptance rates and the convergence of the replica exchange are not discussed.
+  - **Required correction** Provide exchange acceptance rates and a brief discussion of convergence (e.g., using the autocorrelation of the potential energy or the distribution of replica visits).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 2.1.2
+  - **Evidence pointer** Figure 3
+  - **Issue** The folded population for λ = 1.00 (27%) is significantly higher than that reported in the original CHARMM36m paper (2.6%). The authors attribute this to the enhanced sampling efficiency of GaREUS, but this large discrepancy warrants further discussion.
+  - **Required correction** Discuss the potential reasons for this discrepancy, such as differences in the simulation protocol, the definition of the folded state, or the force field parameters.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Figure 8
+  - **Issue** The solvation free energy calculations show that λ = 1.03 improves agreement with experiment for most amino acid analogues, but the authors do not discuss the implications for the overall force field accuracy.
+  - **Required correction** Briefly discuss whether the improved solvation free energies are consistent with the observed effects on protein structure and dynamics, and whether further improvements are needed.
+
+## Risk / unsupported claims
+- The claim that λ = 1.03 is the optimal scaling parameter for CHARMM36m is not fully supported, as it is based on a limited set of test systems.
+- The claim that the modified force field avoids overly sticky protein-protein interactions in crowded solutions is based on a single diffusion measurement and requires further validation.
+- The claim that the modified force field is applicable to both globular and disordered proteins is not fully supported by the limited test set.
+- The comparison of the folded population of chignolin with the original CHARMM36m paper is not fully explained.
+- The solvation free energy calculations suggest that larger scaling factors would be needed for quantitative agreement with experiment, which is inconsistent with the conclusion that λ = 1.03 is optimal.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34473567",
+  "title": "Nucleoporins' exclusive amino acid sequence features regulate their transient interaction with and selectivity of cargo complexes in the nuclear pore.",
+  "authors": "Peyro, Mohaddeseh; Dickson, Andrew M; Mofrad, Mohammad R K",
+  "journal": "Molecular biology of the cell",
+  "published_date": "2021-09-03",
+  "window": {
+    "start": "2021-08-30",
+    "end": "2021-09-05"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟结合力分布分析，研究FG核孔蛋白无序区域中lpLCR序列特征如何调控其与货物复合物的瞬时互作及选择性，直接命中无序蛋白介导PPI的机制建模主题。",
+  "abstract": "Nucleocytoplasmic traffic of nucleic acids and proteins across the nuclear envelop via the nuclear pore complexes (NPCs) is vital for eukaryotic cells. NPCs screen transported macromolecules based on their morphology and surface chemistry. This selective nature of the NPC-mediated traffic is essential for regulating the fundamental functions of the nucleus, such as gene regulation, protein synthesis, and mechanotransduction. Despite the fundamental role of the NPC in cell and nuclear biology, the detailed mechanisms underlying how the NPC works have remained largely unknown. The critical components of NPCs enabling their selective barrier function are the natively unfolded phenylalanine- and glycine-rich proteins called \"FG-nucleoporins\" (FG Nups). These intrinsically disordered proteins are tethered to the inner wall of the NPC, and together form a highly dynamic polymeric meshwork whose physicochemical conformation has been the subject of intense debate. We observed that specific sequence features (called largest positive like-charge regions, or lpLCRs), characterized by extended subsequences that only possess positively charged amino acids, significantly affect the conformation of FG Nups inside the NPC. Here we investigate how the presence of lpLCRs affects the interactions between FG Nups and their interactions with the cargo complex. We combine coarse-grained molecular dynamics simulations with time-resolved force distribution analysis to disordered proteins to explore the behavior of the system. Our results suggest that the number of charged residues in the lpLCR domain directly governs the average distance between Phe residues and the intensity of interaction between them. As a result, the number of charged residues within lpLCR determines the balance between the hydrophobic interaction and the electrostatic repulsion and governs how dense and disordered the hydrophobic network formed by FG Nups is. Moreover, changing the number of charged residues in an lpLCR domain can interfere with ultrafast and transient interactions between FG Nups and the cargo complex.",
+  "abstract_zh": "核酸和蛋白质通过核孔复合体（NPCs）跨越核膜的核质运输对真核细胞至关重要。NPCs根据运输大分子的形态和表面化学特性对其进行筛选。这种NPC介导的运输的选择性本质对于调控细胞核的基本功能（如基因调控、蛋白质合成和机械转导）至关重要。尽管NPC在细胞和核生物学中具有基础性作用，但NPC工作机制的详细分子机制在很大程度上仍属未知。NPCs实现其选择性屏障功能的关键组分是天然无折叠的富含苯丙氨酸和甘氨酸的蛋白质，称为“FG-核孔蛋白”（FG Nups）。这些固有无序蛋白锚定在NPC内壁上，共同形成高度动态的聚合物网状结构，其物理化学构象一直是激烈争论的主题。我们观察到，特定的序列特征（称为最大正电荷同源区域，或lpLCRs），其特征为仅含正电荷氨基酸的延伸子序列，显著影响FG Nups在NPC内部的构象。在此，我们研究lpLCRs的存在如何影响FG Nups之间的相互作用及其与货物复合物的相互作用。我们将粗粒化分子动力学模拟与时间分辨力分布分析相结合，应用于无序蛋白质，以探索该系统的行为。我们的结果表明，lpLCR结构域中带电残基的数量直接控制苯丙氨酸残基之间的平均距离及其相互作用强度。因此，lpLCR内带电残基的数量决定了疏水相互作用与静电排斥之间的平衡，并调控FG Nups形成的疏水网络的致密性和无序性。此外，改变lpLCR结构域中带电残基的数量可干扰FG Nups与货物复合物之间的超快瞬时相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34473567/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34473567/",
+  "paper_page_path": "papers/pubmed/34473567/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39807013",
+  "title": "Scale-free Spatio-temporal Correlations in Conformational Fluctuations of Intrinsically Disordered Proteins.",
+  "authors": "Song, Haoyu; Cui, Jian; Hu, Guorong; Xiong, Long; Wutthinitikornkit, Yanee; Lei, Hai; Li, Jingyuan",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2025-01-14",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过微秒级MD模拟和smFRET实验揭示IDP构象波动的无标度时空关联，表明IDP处于临界态，为理解IDP互作与相分离的集体行为提供物理机制建模基础。",
+  "abstract": "The self-assembly of intrinsically disordered proteins (IDPs) into condensed phases and the formation of membrane-less organelles (MLOs) can be considered as the phenomenon of collective behavior. The conformational dynamics of IDPs are essential for their interactions and the formation of a condensed phase. From a physical perspective, collective behavior and the emergence of phase are associated with long-range correlations. Here the conformational dynamics of IDPs and the correlations therein are analyzed, using micros-scale atomistic molecular dynamics (MD) simulations and single-molecule Forster resonance energy transfer (smFRET) experiments. The existence of typical scale-free spatio-temporal correlations in IDP conformational fluctuations is demonstrated. Their conformational evolutions exhibit \"1/f noise\" power spectra and are accompanied by the appearance of residue domains following a power-law size distribution. Additionally, the motions of residues present scale-free behavioral correlation. These scale-free correlations resemble those in physical systems near critical points, suggesting that IDPs are poised at a critical state. Therefore, IDPs can effectively respond to finite differences in sequence compositions and engender considerable structural heterogeneity which is beneficial for IDP interactions and phase formation.",
+  "abstract_zh": "固有无序蛋白（IDPs）自组装形成凝聚相以及无膜细胞器（MLOs）的形成可被视为集体行为现象。IDPs的构象动力学对其相互作用及凝聚相的形成至关重要。从物理视角看，集体行为和相的出现与长程关联相关。本文利用微秒级原子分子动力学（MD）模拟和单分子福斯特共振能量转移（smFRET）实验，分析了IDPs的构象动力学及其中的关联性。证明了IDP构象波动中存在典型的无标度时空关联。其构象演化表现出“1/f噪声”功率谱，并伴随遵循幂律尺寸分布的残基域的出现。此外，残基的运动呈现无标度行为关联。这些无标度关联类似于接近临界点的物理系统中的现象，表明IDPs处于临界状态。因此，IDPs能有效响应序列组成的有限差异，并产生显著的结构异质性，这有利于IDP相互作用和相形成。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39807013/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39807013/",
+  "paper_page_path": "papers/pubmed/39807013/index.html"
+}

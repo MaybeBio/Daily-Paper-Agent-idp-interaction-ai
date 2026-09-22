@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "37241931",
+    "doi": "10.3390/molecules28104191",
+    "title": "Exploring the Role of Anionic Lipid Nanodomains in the Membrane Disruption and Protein Folding of Human Islet Amyloid Polypeptide Oligomers on Lipid Membrane Surfaces Using Multiscale Molecular Dynamics Simulations."
+  },
+  "content": {
+    "abstract": "The aggregation of human Islet Amyloid Polypeptide (hIAPP) on cell membranes is linked to amyloid diseases. However, the physio-chemical mechanisms of how these hIAPP aggregates trigger membrane damage are unclear. Using coarse-grained and all-atom molecular dynamics simulations, we investigated the role of lipid nanodomains in the presence or absence of anionic lipids, phosphatidylserine (PS), and a ganglioside (GM1), in the membrane disruption and protein folding behaviors of hIAPP aggregates on phase-separated raft membranes. Our raft membranes contain liquid-ordered (Lo), liquid-disordered (Ld), mixed Lo/Ld (Lod), PS-cluster, and GM1-cluster nanosized domains. We observed that hIAPP aggregates bound to the Lod domain in the absence of anionic lipids, but also to the GM1-cluster- and PS-cluster-containing domains, with stronger affinity in the presence of anionic lipids. We discovered that L16 and I26 are the lipid anchoring residues of hIAPP binding to the Lod and PS-cluster domains. Finally, significant lipid acyl chain order disruption in the annular lipid shells surrounding the membrane-bound hIAPP aggregates and protein folding, particularly beta-sheet formation, in larger protein aggregates were evident. We propose that the interactions of hIAPP and both non-anionic and anionic lipid nanodomains represent key molecular events of membrane damage associated with the pathogenesis of amyloid diseases.",
+    "keywords": [
+      "computational physical chemistry",
+      "intrinsically disordered protein",
+      "lipid nanodomains",
+      "multiscale molecular modeling",
+      "protein folding",
+      "protein-lipid interaction",
+      "surface nanostructures"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Molecular Dynamics Simulation",
+      "*Islet Amyloid Polypeptide/chemistry",
+      "G(M1) Ganglioside",
+      "Cell Membrane/metabolism",
+      "Protein Folding",
+      "Amyloid/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nguyen, Ngoc",
+        "Lewis, Amber",
+        "Pham, Thuong",
+        "Sikazwe, Donald",
+        "Cheng, Kwan H"
+      ],
+      "short_names": [
+        "Nguyen N",
+        "Lewis A",
+        "Pham T",
+        "Sikazwe D",
+        "Cheng KH"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1109-6872"
+      ],
+      "affiliations": [
+        "Physics Department, Trinity University, San Antonio, TX 78212, USA.",
+        "Neuroscience Department, Trinity University, San Antonio, TX 78212, USA.",
+        "Physics Department, Trinity University, San Antonio, TX 78212, USA.",
+        "Pharmaceutical Sciences Department, Feik School of Pharmacy, University of the Incarnate Word, San Antonio, TX 78209, USA.",
+        "Physics Department, Trinity University, San Antonio, TX 78212, USA.",
+        "Neuroscience Department, Trinity University, San Antonio, TX 78212, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nguyen, Ngoc",
+        "short_name": "Nguyen N",
+        "identifiers": [],
+        "affiliations": [
+          "Physics Department, Trinity University, San Antonio, TX 78212, USA."
+        ]
+      },
+      {
+        "full_name": "Lewis, Amber",
+        "short_name": "Lewis A",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience Department, Trinity University, San Antonio, TX 78212, USA."
+        ]
+      },
+      {
+        "full_name": "Pham, Thuong",
+        "short_name": "Pham T",
+        "identifiers": [],
+        "affiliations": [
+          "Physics Department, Trinity University, San Antonio, TX 78212, USA."
+        ]
+      },
+      {
+        "full_name": "Sikazwe, Donald",
+        "short_name": "Sikazwe D",
+        "identifiers": [
+          "0000-0003-1109-6872"
+        ],
+        "affiliations": [
+          "Pharmaceutical Sciences Department, Feik School of Pharmacy, University of the Incarnate Word, San Antonio, TX 78209, USA."
+        ]
+      },
+      {
+        "full_name": "Cheng, Kwan H",
+        "short_name": "Cheng KH",
+        "identifiers": [],
+        "affiliations": [
+          "Physics Department, Trinity University, San Antonio, TX 78212, USA.",
+          "Neuroscience Department, Trinity University, San Antonio, TX 78212, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecules (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Molecules"
+    ],
+    "pub_date": "2023 May 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/27 09:42",
+    "fetched_at": "2026-09-20 22:20:06"
+  },
+  "links": {
+    "cites": [
+      "40247292",
+      "38930883",
+      "38338484"
+    ],
+    "refs": [
+      "36898349",
+      "36363654",
+      "36067650",
+      "35866164",
+      "35372496",
+      "34784548",
+      "34499498",
+      "33543942",
+      "33155649",
+      "32926619",
+      "32916822",
+      "32850783",
+      "32790367",
+      "32581851",
+      "32541896",
+      "32205411",
+      "31871065",
+      "31433485",
+      "31222470",
+      "31051105",
+      "30978005",
+      "30859819",
+      "30362705",
+      "29590584",
+      "29555191",
+      "28356571",
+      "28054763",
+      "27578804",
+      "27410742",
+      "26880502",
+      "26621095",
+      "26620784",
+      "26589065",
+      "26580045",
+      "26574453",
+      "26164502",
+      "25905447",
+      "25230234",
+      "25029558",
+      "23523632",
+      "22947931",
+      "21942864",
+      "19647738",
+      "18989933",
+      "18987307",
+      "18444645",
+      "18408164",
+      "15385542",
+      "9714886",
+      "8744570",
+      "6667333"
+    ],
+    "similar": [
+      "37241931",
+      "36898349",
+      "38338484",
+      "36067650",
+      "28585804",
+      "34224702",
+      "22693597",
+      "36363654",
+      "20570648",
+      "31222470",
+      "29530482",
+      "26953503",
+      "26887358",
+      "32179374",
+      "27936589",
+      "39012029",
+      "38345763",
+      "27075579",
+      "25495656",
+      "30576976",
+      "37121365",
+      "22404928",
+      "18989933",
+      "20153100",
+      "22181459",
+      "31436406",
+      "24702784",
+      "27854243",
+      "32824918",
+      "31490518",
+      "23331123",
+      "32800950",
+      "22876830",
+      "26649316",
+      "33227292",
+      "30814273",
+      "31491457",
+      "21158384",
+      "25646717",
+      "24268144",
+      "23519103",
+      "35820640",
+      "35060728",
+      "28829144",
+      "22935354",
+      "30502402",
+      "33544469",
+      "37082256",
+      "19427320",
+      "30908844",
+      "36142176",
+      "24892388",
+      "26255739",
+      "29428499",
+      "36098068",
+      "31995712",
+      "26587568",
+      "32790383",
+      "18408164",
+      "28811318",
+      "38338914",
+      "21428404",
+      "35104126",
+      "24071712",
+      "27759128",
+      "30149632",
+      "30714593",
+      "30803034",
+      "18483616",
+      "28801684",
+      "25706385",
+      "30621387",
+      "26460729",
+      "24754490",
+      "30457145",
+      "31195047",
+      "28917147",
+      "28870071",
+      "32893436",
+      "30007378",
+      "33544470",
+      "24041993",
+      "37262327",
+      "26636105",
+      "26827904",
+      "23225004",
+      "33792323",
+      "29986579",
+      "33887213",
+      "30468883",
+      "26283068",
+      "19817482",
+      "31759017",
+      "26173078",
+      "35557876",
+      "36163697",
+      "20440729",
+      "23927287",
+      "35164285",
+      "33207866",
+      "38478740",
+      "24411251",
+      "32053776",
+      "31762060",
+      "37402649",
+      "29159013",
+      "38325816",
+      "36582138",
+      "28620219",
+      "26290979",
+      "29590593",
+      "38976709",
+      "38766652",
+      "37075065",
+      "38562685"
+    ],
+    "review": [
+      "37241931",
+      "29530482",
+      "27075579",
+      "33227292",
+      "28811318",
+      "30149632",
+      "18483616",
+      "33544470",
+      "26636105",
+      "23225004",
+      "35164285",
+      "29159013"
+    ],
+    "pmc": [
+      "10223233"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=molecules28104191",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37241931/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37241931",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39105804",
+  "title": "Differential Effects of Sequence-Local versus Nonlocal Charge Patterns on Phase Separation and Conformational Dimensions of Polyampholytes as Model Intrinsically Disordered Proteins.",
+  "authors": "Pal, Tanmoy; Wessen, Jonas; Das, Suman; Chan, Hue Sun",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2024-08-06",
+  "window": {
+    "start": "2024-08-05",
+    "end": "2024-08-11"
+  },
+  "score": 9,
+  "one_liner_zh": "该文以多聚两性电解质为模型IDP，结合场论模拟与粗粒化MD，系统比较局部与非局部电荷模式对构象尺寸和相分离倾向的预测能力，直接聚焦IDP序列-构象-相分离机制建模，与课题高度契合。",
+  "abstract": "Conformational properties of intrinsically disordered proteins (IDPs) are governed by a sequence-ensemble relationship. To differentiate the impact of sequence-local versus sequence-nonlocal features of an IDP's charge pattern on its conformational dimensions and its phase-separation propensity, the charge \"blockiness\" kappa and the nonlocality-weighted sequence charge decoration (SCD) parameters are compared for their correlations with isolated-chain radii of gyration (R(g)s) and upper critical solution temperatures (UCSTs) of polyampholytes modeled by random phase approximation, field-theoretic simulation, and coarse-grained molecular dynamics. SCD is superior to kappa in predicting R(g) because SCD accounts for effects of contact order, i.e., nonlocality, on dimensions of isolated chains. In contrast, kappa and SCD are comparably good, though nonideal, predictors of UCST because frequencies of interchain contacts in the multiple-chain condensed phase are less sensitive to sequence positions than frequencies of intrachain contacts of an isolated chain, as reflected by kappa correlating better with condensed-phase interaction energy than SCD.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 的构象性质由序列-系综关系所支配。为区分IDP电荷模式中序列局部与序列非局部特征对其构象尺寸及相分离倾向的影响，比较了电荷“块状度”κ（kappa）与非局域性加权序列电荷装饰（SCD）参数，在随机相近似、场论模拟及粗粒化分子动力学建模的多聚两性电解质中，它们与孤立链回转半径（R(g)s）及上临界溶液温度（UCSTs）的相关性。SCD在预测R(g)方面优于κ，因为SCD考虑了接触序效应，即非局域性，对孤立链尺寸的影响。相反，κ和SCD在预测UCST方面表现相当，尽管非理想，因为多链凝聚相中链间接触的频率对序列位置的敏感性低于孤立链中链内接触的频率，这反映在κ与凝聚相相互作用能的相关性优于SCD。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39105804/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39105804/",
+  "paper_page_path": "papers/pubmed/39105804/index.html"
+}

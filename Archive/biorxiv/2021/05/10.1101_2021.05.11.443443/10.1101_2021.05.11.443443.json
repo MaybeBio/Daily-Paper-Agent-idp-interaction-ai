@@ -1,0 +1,182 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.05.11.443443",
+  "title": "SARS-CoV-2 Beta Variant Substitutions Alter Spike Glycoprotein Receptor Binding Domain Structure and Stability",
+  "doi": "10.1101/2021.05.11.443443",
+  "abstract": "The emergence of severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2) and the subsequent COVID-19 pandemic has visited a terrible cost on the world in the forms of disease, death, and economic turmoil. The rapid development and deployment of extremely effective vaccines against SARS-CoV-2 have seemingly brought within reach the end of the pandemic. However, the virus has acquired mutations; and emerging variants of concern (VOC) are more infectious and reduce the efficacy of existing vaccines. While promising efforts to combat these variants are underway, the evolutionary pressures leading to these variants are poorly understood. To that end, here we have studied the effects on the structure and function of the SARS-CoV-2 spike glycoprotein receptor-binding domain of three amino-acid substitutions found in several variants of concern, including alpha (B.1.1.7), beta (B.1.351), and gamma (P.1). We found that these substitutions alter the RBD structure, stability, and ability to bind to ACE2, in such a way as to possibly have opposing and compensatory effects. These findings provide new insights into how these VOC may have been selected for infectivity while maintaining the structure and stability of the receptor binding domain.",
+  "authors": [
+    "Moss DL",
+    "Rappaport J"
+  ],
+  "published_date": "2021-05-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.05.11.443443",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.05.11.443443.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR340140",
+    "raw_record": {
+      "id": "PPR340140",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR340140"
+        ]
+      },
+      "doi": "10.1101/2021.05.11.443443",
+      "title": "SARS-CoV-2 Beta Variant Substitutions Alter Spike Glycoprotein Receptor Binding Domain Structure and Stability",
+      "authorString": "Moss DL, Rappaport J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Moss DL",
+            "lastName": "Moss",
+            "firstName": "Daniel",
+            "initials": "DL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7639-7276"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Divison of Comparative Pathology, Tulane National Primate Research Center, Covington, LA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rappaport J",
+            "lastName": "Rappaport",
+            "firstName": "Jay",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7916-3571"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Divison of Comparative Pathology, Tulane National Primate Research Center, Covington, LA, USA"
+                },
+                {
+                  "affiliation": "Department of Microbiology and Immunology, Tulane University School of Medicine, New Orleans, LA, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7639-7276"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7916-3571"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The emergence of severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2) and the subsequent COVID-19 pandemic has visited a terrible cost on the world in the forms of disease, death, and economic turmoil. The rapid development and deployment of extremely effective vaccines against SARS-CoV-2 have seemingly brought within reach the end of the pandemic. However, the virus has acquired mutations; and emerging variants of concern (VOC) are more infectious and reduce the efficacy of existing vaccines. While promising efforts to combat these variants are underway, the evolutionary pressures leading to these variants are poorly understood. To that end, here we have studied the effects on the structure and function of the SARS-CoV-2 spike glycoprotein receptor-binding domain of three amino-acid substitutions found in several variants of concern, including alpha (B.1.1.7), beta (B.1.351), and gamma (P.1). We found that these substitutions alter the RBD structure, stability, and ability to bind to ACE2, in such a way as to possibly have opposing and compensatory effects. These findings provide new insights into how these VOC may have been selected for infectivity while maintaining the structure and stability of the receptor binding domain.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/09/30/2021.05.11.443443.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.05.11.443443"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR340140"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR340140&type=FILE&fileName=EMS124583-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34756892",
+            "reference": "The Journal of biological chemistry. 2021 Dec;297(6):101371",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS124583",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-05-16",
+      "firstPublicationDate": "2021-05-14",
+      "firstIndexDate": "2021-05-16",
+      "fullTextReceivedDate": "2021-12-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

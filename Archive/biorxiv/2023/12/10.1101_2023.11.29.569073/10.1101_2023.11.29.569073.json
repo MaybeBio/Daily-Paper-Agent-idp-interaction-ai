@@ -1,0 +1,355 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.11.29.569073",
+  "title": "Subfamily C7 Raf-like kinases MRK1, RAF26, and RAF39 regulate immune homeostasis and stomatal opening in Arabidopsis thaliana",
+  "doi": "10.1101/2023.11.29.569073",
+  "abstract": "<h4>Summary</h4> The calcium-dependent protein kinase CPK28 is a regulator of immune homeostasis in multiple plant species. Here, we used a proteomics approach to uncover CPK28-associated proteins. We found that CPK28 associates with subfamily C7 Raf-like kinases MRK1, RAF26, and RAF39, and trans-phosphorylates RAF26 and RAF39. Metazoan Raf kinases function in mitogen-activated protein kinase (MAPK) cascades as MAPK kinase kinases (MKKKs). Although Raf-like kinases share some features with MKKKs, we found that MRK1, RAF26, and RAF39 are unable to trans-phosphorylate any of the 10 Arabidopsis MKKs. We show that MRK1, RAF26, and RAF39 localize to the cytosol and endomembranes, and we define redundant roles for these kinases in stomatal opening, immune-triggered reactive oxygen species (ROS) production, and resistance to a bacterial pathogen. Overall, our study suggests that C7 Raf-like kinases associate with and are phosphorylated by CPK28, function redundantly in stomatal immunity, and possess substrate specificities distinct from canonical MKKKs.",
+  "authors": [
+    "Dias MG",
+    "Doss B",
+    "Rawat A",
+    "Siegel KR",
+    "Mahathanthrige T",
+    "Sklenar J",
+    "Derbyshire P",
+    "Dharmasena T",
+    "Cameron E",
+    "Zipfel C",
+    "Menke FL",
+    "Monaghan J"
+  ],
+  "published_date": "2023-12-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.11.29.569073",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.11.29.569073.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR767338",
+    "raw_record": {
+      "id": "PPR767338",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR767338"
+        ]
+      },
+      "doi": "10.1101/2023.11.29.569073",
+      "title": "Subfamily C7 Raf-like kinases MRK1, RAF26, and RAF39 regulate immune homeostasis and stomatal opening in  <i>Arabidopsis thaliana</i>",
+      "authorString": "Dias MG, Doss B, Rawat A, Siegel KR, Mahathanthrige T, Sklenar J, Derbyshire P, Dharmasena T, Cameron E, Zipfel C, Menke FL, Monaghan J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dias MG",
+            "lastName": "Dias",
+            "firstName": "Márcia Gonçalves",
+            "initials": "MG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Queen’s University, Kingston, ON, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Doss B",
+            "lastName": "Doss",
+            "firstName": "Bassem",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0001-1867-3903"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Queen’s University, Kingston, ON, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rawat A",
+            "lastName": "Rawat",
+            "firstName": "Anamika",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9081-3547"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Queen’s University, Kingston, ON, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Siegel KR",
+            "lastName": "Siegel",
+            "firstName": "Kristen",
+            "initials": "KR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Queen’s University, Kingston, ON, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mahathanthrige T",
+            "lastName": "Mahathanthrige",
+            "firstName": "Tharika",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-6564-3079"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Queen’s University, Kingston, ON, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sklenar J",
+            "lastName": "Sklenar",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1858-2574"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Sainsbury Laboratory, University of East Anglia, Norwich Research Park, Norwich, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Derbyshire P",
+            "lastName": "Derbyshire",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5095-9397"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Sainsbury Laboratory, University of East Anglia, Norwich Research Park, Norwich, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dharmasena T",
+            "lastName": "Dharmasena",
+            "firstName": "Thakshila",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Queen’s University, Kingston, ON, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cameron E",
+            "lastName": "Cameron",
+            "firstName": "Emma",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2325-2927"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Queen’s University, Kingston, ON, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zipfel C",
+            "lastName": "Zipfel",
+            "firstName": "Cyril",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4935-8583"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Sainsbury Laboratory, University of East Anglia, Norwich Research Park, Norwich, United Kingdom"
+                },
+                {
+                  "affiliation": "Institute of Plant and Microbial Biology and Zurich-Basel Plant Science Center, University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Menke FL",
+            "lastName": "Menke",
+            "firstName": "Frank L.H.",
+            "initials": "FL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Queen’s University, Kingston, ON, Canada"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Monaghan J",
+            "lastName": "Monaghan",
+            "firstName": "Jacqueline",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biology, Queen’s University, Kingston, ON, Canada"
+                },
+                {
+                  "affiliation": "The Sainsbury Laboratory, University of East Anglia, Norwich Research Park, Norwich, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9081-3547"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0751-3920"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2325-2927"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5095-9397"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1858-2574"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4935-8583"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0001-1867-3903"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0005-6564-3079"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Summary</h4>  The calcium-dependent protein kinase CPK28 is a regulator of immune homeostasis in multiple plant species. Here, we used a proteomics approach to uncover CPK28-associated proteins. We found that CPK28 associates with subfamily C7 Raf-like kinases MRK1, RAF26, and RAF39, and trans-phosphorylates RAF26 and RAF39. Metazoan Raf kinases function in mitogen-activated protein kinase (MAPK) cascades as MAPK kinase kinases (MKKKs). Although Raf-like kinases share some features with MKKKs, we found that MRK1, RAF26, and RAF39 are unable to trans-phosphorylate any of the 10 Arabidopsis MKKs. We show that MRK1, RAF26, and RAF39 localize to the cytosol and endomembranes, and we define redundant roles for these kinases in stomatal opening, immune-triggered reactive oxygen species (ROS) production, and resistance to a bacterial pathogen. Overall, our study suggests that C7 Raf-like kinases associate with and are phosphorylated by CPK28, function redundantly in stomatal immunity, and possess substrate specificities distinct from canonical MKKKs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/01/2023.11.29.569073.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.11.29.569073"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR767338"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR767338&type=FILE&fileName=EMS192488-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS192488",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-12-02",
+      "firstPublicationDate": "2023-12-01",
+      "firstIndexDate": "2023-12-02",
+      "fullTextReceivedDate": "2024-01-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors propose a molecular mechanism for self-activation of Rac1b, a splicing variant of Rac1 with a 19-amino-acid insertion, based on combined molecular dynamics simulations and experimental approaches. They claim that the insertion enhances flexibility of Switch I and Switch II, weakens Mg(2+) interaction, reduces GDP-binding affinity, disrupts Switch I-II interactions, induces a "see-saw" dynamic in Switch I, and thereby mimics GEF-mediated activation. They further report five conformational sub-states during inactivation and cryptic small-molecule binding pockets, offering a structural basis for inhibitor design.
+- **Visible evidence base** Abstract text only; no methods, figures, tables, or numerical data provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, experimental protocols, statistical analyses, structural coordinates, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially significant hypothesis regarding the mechanistic role of an intrinsically disordered insertion in Rac1b self-activation. The proposed "see-saw" dynamic and the analogy to GEF-mediated activation are conceptually appealing. However, the abstract provides insufficient methodological detail and quantitative evidence to evaluate the robustness of the simulations, the experimental validation, or the claim of cryptic binding pockets. The conclusions are plausible but not yet established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in Ras superfamily GTPase biology, intrinsically disordered proteins, molecular dynamics simulation of protein dynamics, and structure-based drug discovery targeting Rac isoforms in cancer. The proposed mechanism could inform studies on other splicing variants or disordered insertions in small GTPases.
+- **Major strengths** The study addresses a clinically relevant target with a clear mechanistic question. The combination of computational and experimental approaches is appropriate for the claim. The proposed mechanism is specific and testable, and the identification of conformational sub-states with potential binding pockets has translational relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the 19AA insertion enhances flexibility of Switch I and Switch II, weakens Mg(2+) interaction, and reduces GDP-binding affinity is presented as a demonstrated result.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative data are provided for flexibility measures, Mg(2+) interaction strength, or GDP-binding affinity. It is unclear which experimental assays were used, how many replicates were performed, and whether the simulation results were validated against experimental measurements.
+  - **Why it matters** Without quantitative evidence and methodological detail, the reader cannot assess whether the observed effects are statistically significant, reproducible, or an artifact of simulation parameters or experimental conditions.
+  - **Resolution test** Provide specific values with error bars and statistical tests for flexibility, Mg(2+) binding, and GDP affinity in both Rac1b and Rac1 controls. Describe simulation force field, sampling length, and convergence criteria. Show that experimental and computational results are consistent.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the 19AA insertion disrupts Switch I-II interactions and induces a destabilizing "see-saw" dynamic in Switch I that facilitates rapid GDP dissociation.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The "see-saw" dynamic is a qualitative descriptor. No quantitative metric is provided to define this motion, its amplitude, frequency, or how it was distinguished from thermal fluctuations. The causal link between this motion and GDP dissociation is asserted but not demonstrated with free energy calculations or mutation studies.
+  - **Why it matters** A mechanistic claim requires a clear operational definition and evidence of causality. Without this, the proposed mechanism remains speculative.
+  - **Resolution test** Define the "see-saw" motion with a quantitative order parameter. Show that this motion is absent in Rac1 or in a Rac1b mutant lacking the insertion. Provide free energy profiles for GDP dissociation or show that disrupting the proposed motion abolishes the enhanced dissociation rate.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and significance
+  - **Claim pointer** The claim that the 19AA insertion functionally mimics GEF activity and that five distinct conformational sub-states reveal cryptic small-molecule binding pockets.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The analogy to GEF-mediated activation is presented without comparison to known GEF mechanisms or quantitative assessment of the degree of mimicry. The identification of five conformational sub-states and cryptic pockets is stated without any description of the methods used to identify them, their stability, or their druggability.
+  - **Why it matters** The significance of the work depends on the strength of the GEF-mimicry analogy and the practical utility of the proposed binding pockets. Without supporting data, these claims cannot be evaluated.
+  - **Resolution test** Compare the structural and dynamic features of the insertion-induced state with a known GEF-bound Rac1 structure. Provide pocket detection methods, pocket volumes, and preliminary docking or binding assays to support druggability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "see-saw dynamic" is not defined and may be unclear to readers unfamiliar with the specific simulation analysis.
+  - **Required correction** Provide a brief operational definition of the "see-saw" motion in the abstract or refer to a specific figure where it is visualized.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Experimental validation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "combined molecular dynamics simulations and experimental approaches" but does not specify which experiments were performed.
+  - **Required correction** List the experimental techniques used (for example, fluorescence-based nucleotide exchange assays, isothermal titration calorimetry, or mutagenesis) in the abstract or methods summary.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Context for drug design
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim of "rational design of Rac1b-targeted inhibitors" lacks context on how the identified pockets differ from known Rac1 inhibitor binding sites.
+  - **Required correction** Add a sentence comparing the proposed pockets with existing Rac1 inhibitor sites or state the novelty of the pocket locations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative or methodological evidence to support the central mechanistic claims.
+- **Assessment against Nature-style criteria** Originality: the proposed mechanism of an intrinsically disordered insertion mimicking GEF activity is conceptually novel and potentially of broad interest. Scientific importance: Rac1b is a relevant cancer target, and understanding its self-activation could inform therapeutic strategies. Interdisciplinary readership: the work bridges structural biology, biophysics, and drug discovery, which could appeal to a broad audience. Technical soundness: not assessable from the abstract alone; the lack of methodological detail and quantitative results prevents evaluation. Readability for nonspecialists: the abstract is generally clear but uses an undefined qualitative term ("see-saw") and omits experimental context.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is appropriate, but the abstract lacks the quantitative and methodological detail required to support the central claims. Supportive if the technical concerns are resolved with full data and methods.
+
+## Risk / unsupported claims
+- The claim that the 19AA insertion enhances flexibility of Switch I and Switch II is unsupported without quantitative flexibility measures.
+- The claim that Mg(2+) interaction is weakened and GDP-binding affinity is reduced is unsupported without experimental or computational binding data.
+- The claim that the "see-saw" dynamic facilitates rapid GDP dissociation is unsupported without a defined metric and causal evidence.
+- The claim that the mechanism resembles GEF-mediated activation is unsupported without direct comparison to GEF-bound structures or kinetics.
+- The claim of five distinct conformational sub-states and cryptic binding pockets is unsupported without methodological description or pocket characterization.
+- The translational claim of providing a structural foundation for inhibitor design is premature without druggability assessment.

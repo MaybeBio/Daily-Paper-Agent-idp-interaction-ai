@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report development of macrocyclic peptides that bind the SCF Skp2/Cks1 E3 ligase with nanomolar affinity, inhibit p27 ubiquitination in vitro, restore p27 levels in a breast cancer cell line, and reduce cell proliferation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, quantitative data, statistical analyses, structural or biophysical characterization, cell line details, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in targeting an oncogenic E3 ligase with constrained peptides, addressing a challenging protein-protein interaction. However, the evidence base is limited to a summary of results without methodological detail or quantitative support. The core claims are plausible but cannot be fully evaluated from the supplied material. The work would interest the ubiquitin signaling and peptide drug discovery communities, but the case for broad impact requires verification of specificity, mechanism, and translational relevance.
+- **Who would be interested in the results, and why** Researchers in targeted protein degradation, ubiquitin ligase biology, peptide macrocycle chemistry, and cancer therapeutics would find these results relevant. The approach offers a potential route to drugging a previously intractable oncogenic interaction, which is of interest to both basic scientists studying SCF complex regulation and translational groups seeking new cancer treatments.
+- **Major strengths** The abstract identifies a clear unmet need and a rational design strategy. The reported affinity enhancement over the natural peptide is substantial and suggests effective optimization. The demonstration of functional effects in a cell line, including restoration of p27 and reduced proliferation, provides a meaningful biological endpoint.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The macrocyclic peptides bind to SCF Skp2/Cks1 with nanomolar affinities and inhibit p27 ubiquitination in vitro.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify how binding affinity was measured, which peptide variants were tested, or how selectivity against other SCF complexes or E3 ligases was assessed. The in vitro ubiquitination assay conditions and the extent of inhibition are not described.
+  - **Why it matters** Without selectivity data, the peptides could act through off-target mechanisms. The affinity and inhibition claims require quantitative validation to establish that the observed cellular effects are due to specific Skp2/Cks1 engagement.
+  - **Resolution test** Provide binding assay details (e.g., ITC, SPR) with replicate numbers, selectivity profiling against related F-box proteins, and dose-response curves for ubiquitination inhibition.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The peptides restore p27 levels in a breast cancer cell line and reduce cell proliferation.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify the cell line, peptide concentration, treatment duration, or whether the effects are on-target. The magnitude of p27 restoration and proliferation reduction is not quantified, and no comparison to controls (e.g., scrambled peptide or known inhibitors) is mentioned.
+  - **Why it matters** Cellular efficacy is the key translational claim. Without mechanistic evidence linking peptide treatment to Skp2 inhibition and p27 stabilization, the observed effects could be non-specific or due to toxicity.
+  - **Resolution test** Include cell line identity, dose-response and time-course data, genetic or pharmacological controls, and measurement of p27 half-life or ubiquitination status in cells.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** The peptides are macrocyclic and bind with nanomolar affinity, an enhancement of almost two orders of magnitude over the natural p27 peptide.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe the peptide design, cyclization strategy, or how the affinity enhancement was achieved. The structural basis of binding is not addressed.
+  - **Why it matters** For a broad readership, the novelty of the approach depends on understanding the design principles and whether the macrocycles engage the extended interface as intended. Lack of structural or mechanistic detail limits assessment of generalizability.
+  - **Resolution test** Provide structural data (e.g., co-crystal structure or NMR) or mutagenesis studies showing the binding epitope, and describe the library design and selection process.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract introduction
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract assumes familiarity with SCF complex nomenclature and p27 biology, which may limit accessibility.
+  - **Required correction** Briefly define SCF and p27 roles in one sentence to orient non-specialist readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Affinity claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "almost two orders of magnitude" is imprecise without exact values.
+  - **Required correction** Report the specific Kd values for the natural peptide and the best macrocycle.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Cell proliferation claim
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract does not state whether proliferation reduction is cytostatic or cytotoxic.
+  - **Required correction** Clarify the assay used (e.g., viability, colony formation) and the nature of the effect.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of specific binding and on-target cellular efficacy are not supported by the provided evidence. R1-M3 is non-blocking but important for establishing the novelty and mechanistic basis.
+- **Assessment against Nature-style criteria** Originality is high, as constrained peptides targeting an E3 ligase substrate interface represent a novel approach. Scientific importance is potentially high given the oncogenic role of Skp2, but the current evidence does not establish therapeutic relevance. Interdisciplinary readership is likely, but the abstract lacks sufficient detail for non-specialists to assess the claims. Technical soundness cannot be evaluated from the abstract alone, and the missing methods and controls are a significant limitation. Readability for nonspecialists is moderate, with some jargon that could be clarified.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is promising, but the claims require full manuscript data, including quantitative binding and selectivity analyses, cellular mechanistic studies, and appropriate controls. Supportive if technical concerns are resolved.
+
+## Risk / unsupported claims
+- Nanomolar binding affinity is stated without assay details or replicate data, making it unverifiable.
+- Inhibition of p27 ubiquitination in vitro is claimed without assay conditions or extent of inhibition.
+- Restoration of p27 levels in a breast cancer cell line is not quantified and lacks mechanistic evidence.
+- Reduction of cell proliferation is not quantified and lacks evidence of on-target specificity.
+- The enhancement over the natural peptide is not supported by specific values.
+- No selectivity data against other SCF complexes or E3 ligases is provided, so specificity is unassessed.

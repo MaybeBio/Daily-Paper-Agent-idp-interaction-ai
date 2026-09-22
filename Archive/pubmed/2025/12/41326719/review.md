@@ -1,0 +1,125 @@
+## Review setup
+- **Input scope** Full manuscript text, including Introduction, Materials and methods, Results, Discussion, and supplementary figure/table references. No supplementary files were provided for review.
+- **Assessment boundary** Scientific and technical soundness of the cryo-EM structure determination, biochemical validation, and interpretive claims. Editorial fit and scope decisions are outside this assessment.
+- **Shared manuscript claim summary** The authors report a 2.9 Å cryo-EM reconstruction of plum pox virus (PPV, strain M, isolate GR0046) helical virions, showing CP subunits arranged with 8.8 subunits per turn, a rise of 4.08 Å and twist of −40.89°, with five nucleotides per CP protomer. They model residues Asn129–Val330, describe a C-terminal amyloid-like segment, identify phosphorylation sites by mass spectrometry, and compare the structure to potato virus Y (PVY).
+- **Visible evidence base** Main text figures (Fig. 1, 2, 3), Supplementary Fig. S1–S12 and Supplementary Tables S1–S2 as referenced, GenBank deposit (PV955083), and ModelArchive deposit as stated. Supplementary files (PDF, XLSX, CSV) were not accessible for this review.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S12, Tables S1–S2), Supplementary Files 1 and 2, the cryo-EM map and model deposition identifiers (EMDB/PDB), the ModelArchive accession, and the mass spectrometry raw data or peak lists. Without these, several key claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a plausible and potentially valuable cryo-EM structure of a plant potyvirus, PPV, at a claimed resolution of 2.9 Å. The work aligns with a growing series of potyvirus structures and offers some novel observations, particularly regarding the C-terminal amyloid-like segment and the placement of phosphorylation sites within the structural context. However, the manuscript as provided has several technical gaps that prevent full assessment: the resolution claim is not supported by visible validation metrics, the mass spectrometry data are not shown, and the structural comparison to PVY is presented without quantitative detail. The writing is generally clear but the Discussion extends into speculative territory without sufficient experimental support. The work is likely of interest to the plant virology and structural biology communities, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Plant virologists studying potyvirus assembly, evolution, and transmission; structural biologists working on filamentous helical viruses; researchers interested in the role of intrinsically disordered regions and post-translational modifications in viral capsid assembly; and those developing structure-based antiviral strategies against potyviruses.
+- **Major strengths**
+  1. The study addresses a relevant and under-characterized virus (PPV) with significant agricultural impact, and the cryo-EM approach is appropriate for filamentous helical virions.
+  2. The claimed resolution of 2.9 Å, if validated, would be among the higher-resolution potyvirus structures and would enable meaningful comparative analysis.
+  3. The integration of mass spectrometry to map post-translational modifications onto the structural model is a valuable addition that goes beyond a purely structural description.
+  4. The observation of an amyloid-like segment in the C-terminal region is intriguing and potentially novel, with implications for capsid stability and assembly.
+  5. The comparison to PVY and other potyviruses is contextually appropriate and helps frame the significance of the work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims a final reconstruction at 2.9 Å resolution.
+  - **Evidence pointer** Materials and methods, Data processing methods; Supplementary Fig. S1 and Supplementary Table S1 (not provided)
+  - **Concern** The resolution claim is central to the paper's value, but no Fourier shell correlation (FSC) curve, gold-standard FSC criterion, or directional resolution analysis is shown in the main text. The supplementary material that would support this claim was not available for review. Without these validation metrics, the 2.9 Å claim cannot be assessed.
+  - **Why it matters** If the resolution is overestimated, the atomic model details, including the amyloid-like segment and RNA interactions, may not be reliable. The entire structural interpretation depends on the accuracy of the map.
+  - **Resolution test** Provide the gold-standard FSC curve with the 0.143 criterion clearly marked, local resolution maps, and a statement on directional resolution anisotropy. If the map is deposited, provide the EMDB accession and confirm the resolution is reproducible from the deposited half-maps.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that the CP sequence was determined by Sanger sequencing of a 3'-terminal fragment and that the sequence has 99% identity to PPV-M isolates PS and SK1.
+  - **Evidence pointer** Materials and methods, Purification and CP sequencing; Results, Virus purification and CP sequence; GenBank deposit PV955083
+  - **Concern** The manuscript does not state whether the deposited sequence is complete or partial, and the 1% difference from known isolates is not discussed. If the sequence used for model building differs from the deposited sequence, or if the sequence is incomplete, the model may contain errors. The sequence alignment and the exact residue numbering used for the model are not shown.
+  - **Why it matters** The structural model is built using this sequence. Any ambiguity in the sequence directly affects the accuracy of the model, including the assignment of the amyloid-like segment and the phosphorylation sites.
+  - **Resolution test** Provide the full CP sequence in the manuscript or supplementary material, an alignment to the reference isolates, and a clear statement of which sequence was used for model building. Confirm the GenBank deposit matches the sequence used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript reports 15 high-confidence phosphorylation sites and one HexNAc-modified peptide, with additional sites at lower confidence.
+  - **Evidence pointer** Materials and methods, High-resolution mass spectrometry analysis; Results, Post-translational modifications; Supplementary Fig. S2, S3, Supplementary File 1 (not provided)
+  - **Concern** The mass spectrometry data are described only in text. No spectra, localization scores, site-determining ions, or false discovery rates are shown. The distinction between "high confidence" and "lower probability" sites is not defined. The claim that a peptide contains both a phosphorylation and a HexNAc modification is stated but not supported by shown evidence.
+  - **Why it matters** Post-translational modifications are a key part of the paper's interpretive framework, particularly the proposed role of phosphorylation in modulating capsid stability. Without the underlying data, these claims are unverifiable.
+  - **Resolution test** Provide the annotated MS/MS spectra for each reported modification site, the localization probabilities, the FDR thresholds used, and the list of all identified peptides with modifications. Clarify the criteria for "high confidence" versus "lower probability."
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript states that the C-terminal region of the PPV CP partially adopts an amyloid fibril-like conformation, with only a single glycine residue deviating from this structural motif.
+  - **Evidence pointer** Results, Filamentous PPV virions assemble into a helical heterooligomeric structure; Fig. 3b
+  - **Concern** The amyloid-like assignment is based on a short segment (Asn223–Arg228) and a computational prediction. The structural evidence for this assignment is not clearly distinguished from a generic beta-strand conformation. The functional significance is speculative, and the connection to the amyloid prediction tools used (AMYLPRED2) is not made in the results section.
+  - **Why it matters** The amyloid-like claim is presented as a notable finding, but without stronger structural or biophysical evidence, it risks being overstated. The term "amyloid-like" carries specific connotations that may not be warranted from a short beta-strand segment.
+  - **Resolution test** Provide a more detailed structural analysis of this segment, including hydrogen bonding patterns, side-chain interactions, and a comparison to known amyloid structures. Consider whether the term "amyloid-like" is appropriate or whether "beta-strand-rich" would be more accurate. If functional claims are made, provide experimental evidence.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that the CP monomer with all phosphorylation sites produced a structure closely resembling the cryo-EM structure, and that the CP octamer yielded a structure resembling the assembled virion.
+  - **Evidence pointer** Results, AlphaFold-mediated simulation of folding; Supplementary Fig. S8–S10 (not provided)
+  - **Concern** The AlphaFold predictions are described qualitatively. No quantitative comparison (e.g., RMSD between the AlphaFold model and the cryo-EM model) is provided. The statement that the octamer "closely resembles" the virion structure is not supported by shown data.
+  - **Why it matters** The AlphaFold predictions are used to support the biological relevance of the cryo-EM structure and the potential effects of phosphorylation. Without quantitative comparison, the strength of this support is unclear.
+  - **Resolution test** Provide the RMSD values between the AlphaFold-predicted models and the cryo-EM model, and show the superimposed structures. Clarify what "closely resembles" means in quantitative terms.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The Introduction provides useful context but could more clearly state the specific gap in knowledge that this study addresses. The statement "providing important details about its virion architecture" is vague.
+  - **Required correction** Specify what is currently unknown about PPV structure that this study resolves, and how this advances beyond previous potyvirus structures.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, Purification and CP sequencing
+  - **Evidence pointer** Materials and methods, Purification and CP sequencing
+  - **Issue** The method states that 100 g of leaves were used, but the yield is given as 0.85 mg/ml without a total volume. The total yield is unclear.
+  - **Required correction** Provide the total volume and total yield of purified virus.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and methods, Data processing methods
+  - **Evidence pointer** Materials and methods, Data processing methods
+  - **Issue** The manuscript states that 406,769 initial segments were produced, but does not state how many were used in the final reconstruction after 2D classification and filtering.
+  - **Required correction** Report the number of segments contributing to the final reconstruction.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Virus purification and CP sequence
+  - **Evidence pointer** Results, Virus purification and CP sequence; Fig. 1
+  - **Issue** The modal length of 650 nm was determined from 50 particles. The distribution of lengths is not shown, and the significance of the modal length is unclear.
+  - **Required correction** Provide the length distribution or a histogram, and state whether the 650 nm length is consistent with the expected PPV virion length.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 4
+  - **Issue** The discussion of intrinsically disordered regions and their role in viral adaptation, while interesting, is not directly connected to the PPV CP data presented.
+  - **Required correction** Either connect this discussion more explicitly to the PPV CP disordered regions identified in this study, or shorten this section.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Post-translational modifications
+  - **Evidence pointer** Results, Post-translational modifications; Supplementary Fig. S2
+  - **Issue** The manuscript states that one phosphorylated peptide is "highly likely" to contain a HexNAc modification, but the evidence for this is not shown.
+  - **Required correction** Provide the evidence for the HexNAc modification, or soften the claim to reflect the uncertainty.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Missing FSC curves and resolution validation for the 2.9 Å claim.
+  - R1-M2: Incomplete description of the CP sequence used for model building.
+  - R1-M3: Mass spectrometry data not shown, preventing verification of phosphorylation and HexNAc claims.
+  - R1-M5: AlphaFold predictions not quantitatively compared to the cryo-EM structure.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The structure of PPV is new, but it follows closely on the heels of other potyvirus structures (PVY, WMV, TuMV). The amyloid-like segment and PTM mapping provide some novelty, but the overall architectural conclusions are largely confirmatory.
+  - **Scientific importance** Moderate. The work provides a useful addition to the potyvirus structural catalogue and may inform understanding of PPV biology, but it does not fundamentally change the current understanding of potyvirus assembly or function.
+  - **Interdisciplinary readership** Limited. The primary audience is plant virologists and structural biologists. The broader significance to cell biology, immunology, or medicine is not apparent.
+  - **Technical soundness** Currently not fully assessable. The resolution claim and mass spectrometry results are not supported by visible data. The structural model appears plausible but cannot be verified without the deposited map and validation metrics.
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally well-written and the figures are clear, but some sections of the Discussion are speculative and could be tightened.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant topic and the core structural work is likely sound, but the missing validation data and the unverifiable mass spectrometry claims must be addressed before the case is established. The authors should provide the FSC curves, map/model deposition accessions, mass spectrometry evidence, and quantitative comparisons to the AlphaFold models. If these are provided and the claims hold, the work would be a solid contribution to the potyvirus structural literature.
+
+## Risk / unsupported claims
+- The 2.9 Å resolution claim is unsupported in the provided material (no FSC curves or validation metrics shown).
+- The claim of 15 high-confidence phosphorylation sites and one HexNAc-modified peptide is unverifiable without the mass spectrometry data.
+- The amyloid-like assignment for the C-terminal segment (Asn223–Arg228) is based on limited structural evidence and computational prediction; the term "amyloid-like" may overstate the finding.
+- The statement that the AlphaFold-predicted octamer "closely resembles" the cryo-EM structure is not quantitatively supported.
+- The claim that phosphorylation at specific sites could enhance or destabilize capsid interactions is speculative and not experimentally tested.
+- The manuscript states that the CP sequence has 99% identity to known isolates, but the 1% difference is not discussed, and the completeness of the sequence is not stated.

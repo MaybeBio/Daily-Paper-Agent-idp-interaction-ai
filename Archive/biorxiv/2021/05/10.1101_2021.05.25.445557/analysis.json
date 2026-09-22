@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.05.25.445557",
+  "title": "An Issue of Concern: Unique Truncated ORF8 Protein Variants of SARS-CoV-2",
+  "authors": "Hassan SS; Kodakandla V; Redwan EM; Lundstrom K; Choudhury PP; El-Aziz TMA; Takayama K; Kandimalla R; Lal A; Serrano-Aroca Á; Azad GK; Aljabali AAA; Palu G; Chauhan G; Adadi P; Tambuwala M; Brufsky AM; Baetas-da-Cruz W; Barh D; Bazan NG; Uversky VN",
+  "journal": "bioRxiv",
+  "published_date": "2021-05-25",
+  "window": {
+    "start": "2021-05-24",
+    "end": "2021-05-30"
+  },
+  "score": 2,
+  "one_liner_zh": "该文分析SARS-CoV-2 ORF8截短变体的序列特征与地理分布，未涉及无序蛋白、蛋白互作机制或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "Open reading frame 8 (ORF8) protein is one of the most evolving accessory proteins in severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the causative agent of coronavirus disease 2019 (COVID-19). It was previously reported that the ORF8 protein inhibits presentation of viral antigens by the major histocompatibility complex class I (MHC-I) and interacts with host factors involved in pulmonary inflammation. The ORF8 protein assists SARS-CoV-2 to evade immunity and replication. Among many contributing mutations, Q27STOP, a mutation in the ORF8 protein defines the B.1.1.7 lineage of SARS-CoV-2, which is engendering the second wave of COVID-19. In the present study, 47 unique truncated ORF8 proteins (T-ORF8) due to the Q27STOP mutations were identified among 49055 available B.1.1.7 SARS-CoV-2 sequences. The results show that only one of the 47 T-ORF8 variants spread to over 57 geo-locations in North America, and other continents which includes Africa, Asia, Europe and South America. Based on various quantitative features such as amino acid homology, polar/non-polar sequence homology, Shannon entropy conservation, and other physicochemical properties of all specific 47 T-ORF8 protein variants, a collection of nine possible T-ORF8 unique variants were defined. The question of whether T-ORF8 variants work similarly to ORF8 has yet to be investigated. A positive response to the question could exacerbate future COVID-19 waves, necessitating severe containment measures.",
+  "abstract_zh": "开放阅读框8（ORF8）蛋白是严重急性呼吸综合征冠状病毒2型（SARS-CoV-2）中进化最迅速的辅助蛋白之一，该病毒是2019冠状病毒病（COVID-19）的病原体。此前有报道称，ORF8蛋白抑制主要组织相容性复合体I类（MHC-I）对病毒抗原的呈递，并与参与肺部炎症的宿主因子相互作用。ORF8蛋白帮助SARS-CoV-2逃避免疫并促进其复制。在众多贡献性突变中，Q27STOP是ORF8蛋白中的一个突变，定义了SARS-CoV-2的B.1.1.7谱系，该谱系引发了第二波COVID-19疫情。在本研究中，从49055条可用的B.1.1.7 SARS-CoV-2序列中鉴定出47种因Q27STOP突变而产生的独特截短ORF8蛋白（T-ORF8）。结果表明，47种T-ORF8变异体中仅有一种传播至北美超过57个地理位置，以及其他大陆，包括非洲、亚洲、欧洲和南美洲。基于所有特定47种T-ORF8蛋白变异体的多种定量特征，如氨基酸同源性、极性/非极性序列同源性、香农熵保守性及其他理化性质，定义了一组共9种可能的T-ORF8独特变异体。T-ORF8变异体是否与ORF8功能相似的问题尚待研究。若该问题得到肯定回答，可能会加剧未来COVID-19疫情浪潮，从而需要采取严格的防控措施。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.05.25.445557",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.05.25.445557",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.05.25.445557/index.html"
+}

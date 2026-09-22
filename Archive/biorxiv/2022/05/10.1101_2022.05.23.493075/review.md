@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, or supplementary materials provided
+- **Shared manuscript claim summary** The authors propose that phase separation and amyloid fibrillation of the hnRNPA1 low-complexity domain are distinct processes mediated by different protein regions, that fibril formation is promoted at the condensate interface rather than homogeneously within droplets, and that surfactant coating of the interface inhibits fibrillation, suggesting the interface as a therapeutic target.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or methodological descriptions
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically novel hypothesis regarding the role of condensate interfaces in amyloid formation. However, the evidence base is limited to a summary of findings without access to the underlying data, making it impossible to evaluate the robustness of the claims. The distinction between phase separation and fibrillation mediated by different sequence regions is a notable conceptual contribution, but the abstract does not provide sufficient detail to assess the strength of the experimental support.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, protein aggregation, and neurodegeneration, particularly those studying ALS and related proteinopathies. The work could also interest biophysicists and chemical biologists focused on interfacial phenomena in biological systems, as well as those exploring therapeutic strategies targeting condensate dynamics.
+- **Major strengths** The abstract clearly articulates a novel mechanistic distinction between phase separation and fibrillation, which challenges assumptions that these processes are tightly coupled. The proposal that the condensate interface acts as a catalytic site for fibril formation is conceptually innovative and could have broad implications. The use of surfactant coating as an experimental intervention is a creative approach to test the interfacial hypothesis.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that "phase separation and fibrillation are connected but distinct processes which are independently mediated by different regions of the protein sequence"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states that different regions mediate phase separation and fibrillation, but no specific sequence regions, mutagenesis data, or truncation experiments are described. Without these details, it is impossible to verify that the processes are truly independent or that the observed separation is not an artifact of experimental conditions.  
+  - **Why it matters** This claim is foundational to the paper's conceptual contribution. If the regions are not clearly delineated, the distinction between the two processes may be overstated, weakening the overall narrative.  
+  - **Resolution test** Provide sequence-level evidence, such as domain mapping or mutation studies, that demonstrate separable effects on phase separation versus fibrillation, with quantitative comparisons.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that "the formation of fibrils does not occur homogeneously inside the droplets but is promoted at the interface of the condensates"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract mentions monitoring "spatial and temporal evolution" but provides no details on the imaging methods, resolution, or quantification. It is unclear how the interface was defined, whether the observation is statistically robust, or if the result could be influenced by optical artifacts or sample preparation.  
+  - **Why it matters** This is the central experimental finding. Without rigorous imaging and quantification details, the claim of interfacial promotion cannot be assessed for reliability or generalizability.  
+  - **Resolution test** Include representative images with scale bars, a clear definition of the interface region, and statistical analysis of fibril localization across multiple droplets and time points.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that "coating the interface of the droplets with surfactant molecules inhibits fibril formation"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not specify the surfactant type, concentration, or mechanism of action. It is unclear whether the inhibition is due to interfacial coating specifically or to off-target effects such as surfactant-induced droplet destabilization or protein denaturation.  
+  - **Why it matters** This experiment is presented as consistent evidence for the interfacial mechanism, but alternative explanations could undermine the conclusion. The therapeutic implication depends on the specificity of this effect.  
+  - **Resolution test** Provide control experiments showing that surfactant treatment does not globally alter protein conformation or droplet stability, and demonstrate a dose-dependent relationship between interfacial coating and fibrillation inhibition.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that "the interface of biomolecular condensates can act as an important catalyst for fibril formation" and "could represent a possible therapeutic target"  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract extrapolates from a single protein system to a general statement about biomolecular condensates and therapeutic potential. No evidence is provided for generality across other proteins or for the feasibility of targeting interfaces in a disease context.  
+  - **Why it matters** The broader significance and translational relevance of the work depend on this generalization. Overstatement without supporting data could mislead readers and overstate the clinical implications.  
+  - **Resolution test** Discuss limitations regarding generalizability, and if possible, include preliminary data from other condensate-forming proteins or a clear rationale for why the hnRNPA1 system is representative.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "interface" is used without operational definition, which could be ambiguous in the context of droplet boundaries versus internal surfaces.  
+  - **Required correction** Define the interface explicitly, such as the droplet surface or a specific boundary layer, and state how it was identified experimentally.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Experimental conditions  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not mention protein concentration, buffer conditions, or temperature, which are critical for phase separation and fibrillation assays.  
+  - **Required correction** Include key experimental conditions in the abstract or refer to methods sections where these are specified.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Statistical rigor  
+  - **Affected element** Quantification  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No mention of replicates, error bars, or statistical tests for the imaging and inhibition experiments.  
+  - **Required correction** State the number of independent experiments and the statistical methods used to support the conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, and R1-M4 are blocking concerns. The abstract alone does not provide sufficient evidence to establish the central claims of sequence-region independence, interfacial promotion, surfactant-specific inhibition, or generalizable therapeutic relevance.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of interfacial catalysis of fibril formation is novel and could be a significant advance if rigorously supported.  
+  - **Scientific importance** The work addresses a key question in condensate biology and neurodegeneration, with potential implications for understanding disease mechanisms.  
+  - **Interdisciplinary readership** The topic bridges biophysics, cell biology, and neurobiology, and would appeal to a broad audience if the findings are robust.  
+  - **Technical soundness** Cannot be assessed from the abstract; the lack of methodological detail prevents evaluation of experimental rigor.  
+  - **Readability for nonspecialists** The abstract is clear and accessible, but the technical claims require more context to be fully appreciated by a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a compelling hypothesis, but the absence of experimental details and data means the claims cannot be verified. Supportive if technical concerns are resolved with full evidence.
+
+## Risk / unsupported claims
+- The claim that phase separation and fibrillation are independently mediated by different sequence regions is unsupported without specific mutagenesis or domain mapping data.
+- The claim of interfacial promotion of fibril formation is unsupported without imaging details and quantification.
+- The claim that surfactant coating inhibits fibrillation via interfacial effects is unsupported without controls for off-target effects.
+- The generalization to a therapeutic target is unsupported and speculative based on the abstract alone.

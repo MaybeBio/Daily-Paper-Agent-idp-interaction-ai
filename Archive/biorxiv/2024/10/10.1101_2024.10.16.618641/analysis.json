@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.16.618641",
+  "title": "Genomic and structural insights into Jyvaskylavirus, the first giant virus isolated from Finland",
+  "authors": "de Freitas Almeida GM; Arriaga I; de Azevedo BL; Leppänen M; Abrahao JS; Andreani J; Zabeo D; Ravantti J; Abrescia NG; Sundberg L",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-17",
+  "window": {
+    "start": "2024-10-14",
+    "end": "2024-10-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究描述芬兰首个巨型病毒Jyvaskylavirus的基因组与冷冻电镜结构，虽用AI辅助建模但对象为病毒衣壳蛋白，不涉及无序蛋白或PPI机制，与本课题关联微弱。",
+  "abstract": "<h4>ABSTRACT</h4> Giant viruses of protists are a diverse and likely ubiquitous group of organisms. Here, we describe Jyvaskylavirus, the first giant virus isolated from Finland. This clade B marseillevirus was found in Acanthamoeba castellanii from a composting soil sample in Jyväskylä, Central Finland. Its genome shares similarities with other marseilleviruses. Helium ion microscopy and electron microscopy of infected cells unraveled stages of the Jyvaskylavirus lifecycle. We reconstructed the Jyvaskylavirus particle to 6.3 Å resolution using cryo-EM. The ∼2,500 Å diameter virion displays structural similarities to other Marseilleviridae giant viruses. The capsid comprises of 9,240 copies of the major capsid protein ORF184, which possesses a double jellyroll fold arranged in trimers forming pseudo-hexameric capsomers. Below the capsid shell, the internal membrane vesicle encloses the genome. Through cross-structural and -sequence comparisons with other Marseilleviridae using AI-based software in model building and prediction, we elucidated ORF142 as the penton protein, which plugs the twelve vertices of the capsid. Five additional ORFs were identified, with models predicted and fitted into densities that either cap the capsomers externally or stabilize them internally. The isolation of Jyvaskylavirus suggests that these viruses may be widespread in the boreal environment and provide structural insights extendable to other marseilleviruses.",
+  "abstract_zh": "<h4>摘要</h4> 原生生物巨病毒（giant viruses）是一类多样且可能普遍存在的生物体。在此，我们描述了Jyvaskylavirus，这是从芬兰分离出的首个巨病毒。该B分支马赛病毒（marseillevirus）发现于芬兰中部于韦斯屈莱（Jyväskylä）堆肥土壤样品中的卡氏棘阿米巴（Acanthamoeba castellanii）内。其基因组与其他马赛病毒具有相似性。氦离子显微镜和电子显微镜对感染细胞的观察揭示了Jyvaskylavirus生命周期的各个阶段。我们利用冷冻电镜（cryo-EM）将Jyvaskylavirus颗粒重建至6.3 Å分辨率。直径约2,500 Å的病毒粒子在结构上与其他马赛病毒科（Marseilleviridae）巨病毒显示出相似性。衣壳由9,240个主要衣壳蛋白ORF184拷贝组成，该蛋白具有双果冻卷（double jellyroll）折叠，以三聚体形式排列形成伪六聚体衣壳粒（pseudo-hexameric capsomers）。在衣壳壳层下方，内部膜囊泡包裹着基因组。通过与其他马赛病毒科进行交叉结构和序列比较，并利用基于AI的软件进行模型构建和预测，我们阐明了ORF142为五邻体蛋白（penton protein），它封闭了衣壳的十二个顶点。另外鉴定出五个ORF，其模型被预测并拟合到密度中，这些密度要么在外部覆盖衣壳粒，要么在内部稳定它们。Jyvaskylavirus的分离表明，这些病毒可能在北方环境中广泛分布，并提供了可推广至其他马赛病毒的结构见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.16.618641",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.16.618641",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.16.618641/index.html"
+}

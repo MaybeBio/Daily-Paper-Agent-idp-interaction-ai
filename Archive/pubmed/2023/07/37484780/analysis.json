@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37484780",
+  "title": "In silico analysis of sporozoite surface antigen 1 of Theileria annulata (TaSPAG1) for multi-epitope vaccine design against theileriosis.",
+  "authors": "Azimi-Resketi, Mojtaba; Akbari, Mehdi; Heydaryan, Saeed; Eftekhari, Amirreza; Balali, Javad; Shams, Morteza; Sargazi, Dariush",
+  "journal": "In silico pharmacology",
+  "published_date": "2023-07-24",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究对环形泰勒虫TaSPAG1蛋白进行计算机分析并设计多表位疫苗，虽涉及IDR预测和MHC-I结合，但对象非IDP介导的PPI机制建模，方法为常规免疫信息学工具，与本课题关联较弱。",
+  "abstract": "Tropical theileriosis is a protozoan infection caused by Theileria annulata, which significantly affects cattle worldwide. This study was aimed to analyze the TaSPAG1 protein and design a novel multi-epitope vaccine candidate. Online tools were employed for the prediction of Physico-chemical properties, antigenicity, allergenicity, solubility, transmembrane domains and signal peptide, posttranslational modification (PTM) sites, secondary and tertiary structures as well as intrinsically disordered regions, followed by identification and screening of potential linear and conformational B-cell epitopes and those peptides having affinity to bind bovine major histocompatibility complex class I (MHC-I) molecules. Next, a multi-epitope vaccine construct was designed and analyzed. This 907-residue protein was hydrophilic (GRAVY: -0.399) and acidic (pI: 5.04) in nature, with high thermotolerance (aliphatic: 71.27). Also, 5 linear and 12 conformational B-cell epitopes along with 8 CTL epitopes were predicted for TaSPAG1. The 355-residue vaccine candidate had a MW of about 35 kDa and it was antigenic, non-allergenic, soluble and stable, which was successfully interacted with cattle MHC-I molecule and finally cloned into the pET28a(+) vector. Further wet studies are required to assess the vaccine efficacy in cattle. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s40203-023-00153-5.",
+  "abstract_zh": "热带泰勒虫病是由环形泰勒虫（Theileria annulata）引起的原生动物感染，对全球牛群造成显著影响。本研究旨在分析TaSPAG1蛋白并设计一种新型多表位疫苗候选物。采用在线工具预测理化性质、抗原性、致敏性、溶解性、跨膜结构域和信号肽、翻译后修饰（PTM）位点、二级和三级结构以及固有无序区域，随后识别并筛选潜在的线性及构象B细胞表位，以及那些与牛主要组织相容性复合体I类（MHC-I）分子具有亲和力的肽段。接下来，设计并分析了一种多表位疫苗构建体。该907残基蛋白具有亲水性（GRAVY：-0.399）和酸性（pI：5.04）特征，且热稳定性高（脂肪族指数：71.27）。此外，针对TaSPAG1预测了5个线性B细胞表位、12个构象B细胞表位以及8个CTL表位。该355残基疫苗候选物分子量约为35 kDa，具有抗原性、非致敏性、可溶性和稳定性，并成功与牛MHC-I分子相互作用，最终克隆至pET28a(+)载体中。需进一步开展湿实验研究以评估该疫苗在牛体内的效力。补充信息：在线版本包含补充材料，可访问10.1007/s40203-023-00153-5获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37484780/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37484780/",
+  "paper_page_path": "papers/pubmed/37484780/index.html"
+}

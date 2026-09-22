@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35298814",
+  "title": "Metadynamics Simulations to Study the Structural Ensembles and Binding Processes of Intrinsically Disordered Proteins.",
+  "authors": "Zhou, Rui; Duan, Mojie",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2022-03-18",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用元动力学增强采样方法研究无序蛋白KID/pKID的结构系综及其与KIX的结合自由能面，直接聚焦IDP构象动态与PPI结合机制建模，方法为物理模拟，高度契合课题。",
+  "abstract": "The structures of intrinsically disordered proteins (IDPs) are highly dynamic. It is hard to characterize the structures of these proteins experimentally. Molecular dynamics (MD) simulation is a powerful tool in the understanding of protein dynamic structures and function. This chapter describes the application of metadynamics-based enhanced sampling methods in the study of phosphorylation regulation on the structure of kinase-inducible domains (KID). The structural properties of free pKID and KID were obtained by parallel tempering metadynamics combined with well-tempered ensemble (PTMetaD WTE) method, and the binding free energy surfaces of pKID/KID and KIX were characterized by bias-exchanged metadynamics (BE-MetaD) simulations.",
+  "abstract_zh": "天然无序蛋白（IDPs）的结构高度动态。实验上难以表征这些蛋白质的结构。分子动力学（molecular dynamics）模拟是理解蛋白质动态结构和功能的有力工具。本章描述了基于元动力学的增强采样方法在研究磷酸化调控激酶诱导域（KID）结构中的应用。通过并行回火元动力学结合良态系综（PTMetaD WTE）方法获得了游离pKID和KID的结构特性，并通过偏置交换元动力学（BE-MetaD）模拟表征了pKID/KID与KIX的结合自由能面。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35298814/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35298814/",
+  "paper_page_path": "papers/pubmed/35298814/index.html"
+}

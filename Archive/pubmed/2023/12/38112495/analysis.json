@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38112495",
+  "title": "Toward Accurate Simulation of Coupling between Protein Secondary Structure and Phase Separation.",
+  "authors": "Zhang, Yumeng; Li, Shanlong; Gong, Xiping; Chen, Jianhan",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2023-12-19",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该文开发HyRes混合分辨率模型，通过粗粒化模拟准确捕捉IDP的瞬时二级结构与相分离的耦合，并解析突变对相分离倾向的机制影响，直接契合无序蛋白互作与相分离的物理建模课题。",
+  "abstract": "Intrinsically disordered proteins (IDPs) frequently mediate phase separation that underlies the formation of a biomolecular condensate. Together with theory and experiment, efficient coarse-grained (CG) simulations have been instrumental in understanding the sequence-specific phase separation of IDPs. However, the widely used Calpha-only models are limited in capturing the peptide nature of IDPs, particularly backbone-mediated interactions and effects of secondary structures, in phase separation. Here, we describe a hybrid resolution (HyRes) protein model toward a more accurate description of the backbone and transient secondary structures in phase separation. With an atomistic backbone and coarse-grained side chains, HyRes can semiquantitatively capture the residue helical propensity and overall chain dimension of monomeric IDPs. Using GY-23 as a model system, we show that HyRes is efficient enough for the direct simulation of spontaneous phase separation and, at the same time, appears accurate enough to resolve the effects of single His to Lys mutations. HyRes simulations also successfully predict increased beta-structure formation in the condensate, consistent with available experimental CD data. We further utilize HyRes to study the phase separation of TPD-43, where several disease-related mutants in the conserved region (CR) have been shown to affect residual helicities and modulate the phase separation propensity as measured by the saturation concentration. The simulations successfully recapitulate the effect of these mutants on the helicity and phase separation propensity of TDP-43 CR. Analyses reveal that the balance between backbone and side chain-mediated interactions, but not helicity itself, actually determines phase separation propensity. These results support that HyRes represents an effective protein model for molecular simulation of IDP phase separation and will help to elucidate the coupling between transient secondary structures and phase separation.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 常介导相分离（phase separation），这是生物分子凝聚体形成的基础。结合理论与实验，高效的粗粒化（coarse-grained, CG）模拟在理解IDPs的序列特异性相分离中发挥了重要作用。然而，广泛使用的仅含Cα原子模型在捕捉IDPs的肽本质方面存在局限，特别是在相分离中主链介导的相互作用及二级结构效应方面。在此，我们描述了一种混合分辨率（hybrid resolution, HyRes）蛋白质模型，旨在更精确地描述相分离中的主链和瞬时二级结构。HyRes采用原子级主链和粗粒化侧链，能够半定量地捕捉单体IDPs的残基螺旋倾向性和整体链尺寸。以GY-23为模型系统，我们展示了HyRes足以高效直接模拟自发相分离，同时其精度足以分辨单个His到Lys突变的影响。HyRes模拟还成功预测了凝聚体中β-结构形成的增加，这与现有的实验圆二色谱（CD）数据一致。我们进一步利用HyRes研究TPD-43的相分离，其中保守区域（conserved region, CR）中的几个疾病相关突变已被证明影响残基螺旋性，并调节以饱和浓度测量的相分离倾向性。模拟成功重现了这些突变对TDP-43 CR螺旋性和相分离倾向性的影响。分析揭示，主链与侧链介导的相互作用之间的平衡，而非螺旋性本身，实际上决定了相分离倾向性。这些结果支持HyRes作为IDP相分离分子模拟的有效蛋白质模型，并将有助于阐明瞬时二级结构与相分离之间的耦合。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38112495/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38112495/",
+  "paper_page_path": "papers/pubmed/38112495/index.html"
+}

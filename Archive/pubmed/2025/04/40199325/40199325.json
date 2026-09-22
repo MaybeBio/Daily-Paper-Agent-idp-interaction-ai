@@ -1,0 +1,261 @@
+{
+  "identity": {
+    "pmid": "40199325",
+    "doi": "10.1016/j.celrep.2025.115504",
+    "title": "Multiphasic protein condensation governed by shape and valency."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) of biological macromolecules leads to the formation of various membraneless organelles. The multilayered and multiphasic form of LLPS can mediate complex cellular functions; however, the determinants of its topological features are not fully understood. Herein, we focus on synaptic proteins consisting of Ca(2+)/calmodulin-dependent protein kinase II (CaMKII) and its interacting partners and present a computational model that reproduces forms of LLPS, including a form of two-phase condensates, phase-in-phase (PIP) organization. The model analyses reveal that the PIP formation requires competitive binding between the proteins. The PIP forms only when CaMKII has high valency and a short linker length. Such CaMKII exhibits low surface tension, a modular structure, and slow diffusion, enabling it to stay in small biochemical domains for a long time, which is necessary for synaptic plasticity. Thus, the computational modeling reveals new structure-function relationships for CaMKII as a synaptic memory unit.",
+    "keywords": [
+      "CP: Molecular biology",
+      "CP: Neuroscience",
+      "CaMKII",
+      "Monte Carlo simulation",
+      "liquid-liquid phase separation",
+      "synaptic plasticity"
+    ],
+    "mesh_terms": [
+      "*Calcium-Calmodulin-Dependent Protein Kinase Type 2/metabolism/chemistry",
+      "Animals",
+      "Humans",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pandey, Vikas",
+        "Hosokawa, Tomohisa",
+        "Hayashi, Yasunori",
+        "Urakubo, Hidetoshi"
+      ],
+      "short_names": [
+        "Pandey V",
+        "Hosokawa T",
+        "Hayashi Y",
+        "Urakubo H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biomedical Data Science, Fujita Health University School of Medicine, 1-98 Dengakugakubo, Kutsukake-cho, Toyoake, Aichi 470-1192, Japan; International Center for Brain Science (ICBS), Fujita Health University, 1-98 Dengakugakubo, Kutsukake-cho, Toyoake, Aichi 470-1192, Japan; National Institute for Physiological Sciences, National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji, Okazaki, Aichi 444-8787, Japan.",
+        "Department of Pharmacology, Kyoto University Graduate School of Medicine, Kyoto 606-8501, Japan.",
+        "Department of Pharmacology, Kyoto University Graduate School of Medicine, Kyoto 606-8501, Japan.",
+        "Department of Biomedical Data Science, Fujita Health University School of Medicine, 1-98 Dengakugakubo, Kutsukake-cho, Toyoake, Aichi 470-1192, Japan; International Center for Brain Science (ICBS), Fujita Health University, 1-98 Dengakugakubo, Kutsukake-cho, Toyoake, Aichi 470-1192, Japan; National Institute for Physiological Sciences, National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji, Okazaki, Aichi 444-8787, Japan. Electronic address: hurakubo@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pandey, Vikas",
+        "short_name": "Pandey V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Data Science, Fujita Health University School of Medicine, 1-98 Dengakugakubo, Kutsukake-cho, Toyoake, Aichi 470-1192, Japan; International Center for Brain Science (ICBS), Fujita Health University, 1-98 Dengakugakubo, Kutsukake-cho, Toyoake, Aichi 470-1192, Japan; National Institute for Physiological Sciences, National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji, Okazaki, Aichi 444-8787, Japan."
+        ]
+      },
+      {
+        "full_name": "Hosokawa, Tomohisa",
+        "short_name": "Hosokawa T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Kyoto University Graduate School of Medicine, Kyoto 606-8501, Japan."
+        ]
+      },
+      {
+        "full_name": "Hayashi, Yasunori",
+        "short_name": "Hayashi Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Kyoto University Graduate School of Medicine, Kyoto 606-8501, Japan."
+        ]
+      },
+      {
+        "full_name": "Urakubo, Hidetoshi",
+        "short_name": "Urakubo H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Data Science, Fujita Health University School of Medicine, 1-98 Dengakugakubo, Kutsukake-cho, Toyoake, Aichi 470-1192, Japan; International Center for Brain Science (ICBS), Fujita Health University, 1-98 Dengakugakubo, Kutsukake-cho, Toyoake, Aichi 470-1192, Japan; National Institute for Physiological Sciences, National Institutes of Natural Sciences, 5-1 Higashiyama, Myodaiji, Okazaki, Aichi 444-8787, Japan. Electronic address: hurakubo@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports"
+    ],
+    "journal_abbrev": [
+      "Cell Rep"
+    ],
+    "pub_date": "2025 Apr 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/09 10:14",
+    "fetched_at": "2026-09-21 17:42:44"
+  },
+  "links": {
+    "cites": [
+      "42446172",
+      "42311417",
+      "40985614",
+      "40954121",
+      "40661423",
+      "40631338"
+    ],
+    "refs": [],
+    "similar": [
+      "40199325",
+      "36827181",
+      "31869343",
+      "36144710",
+      "29518331",
+      "32678848",
+      "27207106",
+      "20668654",
+      "22412364",
+      "33672806",
+      "21064217",
+      "25446714",
+      "18845160",
+      "31455737",
+      "39395168",
+      "22279535",
+      "24462093",
+      "24655517",
+      "21070840",
+      "32198047",
+      "23255606",
+      "36056211",
+      "23632248",
+      "31151856",
+      "37290118",
+      "26291163",
+      "32049957",
+      "34375719",
+      "33927400",
+      "33556559",
+      "24484698",
+      "25533468",
+      "28954869",
+      "29196604",
+      "30142967",
+      "28614711",
+      "30942928",
+      "27463141",
+      "19453375",
+      "21884935",
+      "32149607",
+      "30418153",
+      "36920190",
+      "33752045",
+      "18162541",
+      "31444270",
+      "23931327",
+      "18052535",
+      "32488204",
+      "34522448",
+      "29847775",
+      "28842436",
+      "38322526",
+      "28589927",
+      "22427672",
+      "34814703",
+      "21685929",
+      "23543616",
+      "39558039",
+      "30527447",
+      "25217378",
+      "34908526",
+      "19190753",
+      "22902837",
+      "30753871",
+      "38889145",
+      "20139983",
+      "24473075",
+      "33517364",
+      "33121174",
+      "37061000",
+      "20168991",
+      "19089983",
+      "31401388",
+      "35872016",
+      "23145145",
+      "11160423",
+      "27246855",
+      "31941785",
+      "24843070",
+      "23288040",
+      "29395358",
+      "25215889",
+      "21768120",
+      "14699099",
+      "36215504",
+      "34051268",
+      "7953554",
+      "26949248",
+      "10764765",
+      "28355539",
+      "28105734",
+      "24855644",
+      "21104309",
+      "18332106",
+      "22683827",
+      "24872564",
+      "37130439",
+      "33235361",
+      "37648853"
+    ],
+    "review": [
+      "40199325",
+      "27207106",
+      "24462093",
+      "21070840",
+      "36056211",
+      "23632248",
+      "37290118",
+      "34375719",
+      "33556559",
+      "24484698",
+      "29196604",
+      "33752045",
+      "31444270",
+      "34522448",
+      "29847775",
+      "21685929",
+      "39558039",
+      "33121174",
+      "29395358"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2211-1247(25)00275-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://hdl.handle.net/2433/293637",
+        "provider": "Kyoto University Research Information Repository - Articles",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

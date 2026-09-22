@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40260937",
+  "title": "Structural insights into the interaction between testis-specific Y-encoded-like protein 5 and ubiquitin-specific protease 7.",
+  "authors": "Ancia, Marine; Wahni, Khadija; Chakrowf, Joudy; El Aakchioui, Asia; Claude, Eloise; de Lhoneux, Guillaume; Liberelle, Maxime; Janvier, Steven; Baranova, Ekaterina; Malo Pueyo, Julia; Jijon Vergara, Ariana; Papadopoulos, Nicolas; Balty, Clemence; Dejeu, Jerome; Decottignies, Anabelle; Messens, Joris; Frederick, Raphael",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2025-04-22",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过结构分析揭示无序蛋白TSPYL5与USP7的互作界面和结合热点，虽以实验为主、无AI/物理模拟方法，但聚焦IDP-PPI机制建模，对本课题有直接参考价值。",
+  "abstract": "The Alternative Lengthening of Telomeres (ALT) mechanism enables telomere maintenance, contributing to the immortality of certain cancer cells. Disrupting the interaction between testis-specific Y-encoded-like protein 5 (TSPYL5) and ubiquitin-specific protease 7 (USP7) has emerged as a promising strategy to target ALT-dependent cancers. While the N-terminal MATH domain of USP7 mediates the protein interaction, the regions of TSPYL5 involved in binding remain unclear. Here, we present a structural analysis of the TSPYL5-USP7 interaction to guide targeted therapeutic strategies. We showed that TSPYL5 is intrinsically disordered, with an unfolded N-terminal region and partial structure in the C-terminal half. In vitro, recombinantly expressed TSPYL5 binds USP7 with nanomolar affinity and is prone to C-terminal truncation. However, the truncated form retained a similar binding affinity for USP7, suggesting the primary interaction site resides in the N-terminal region of TSPYL5. We identified three key binding hotspots within TSPYL5: residues 65-97, residues 210-262, and residues 368-388. Moreover, TSPYL5 forms trimers that further assemble into hexamers. This study provides the first structural and quantitative analysis of the TSPYL5-USP7 interaction, highlighting these three binding sites. These findings lay the groundwork for the development of novel inhibitors targeting ALT-dependent cancers.",
+  "abstract_zh": "端粒选择性延长（ALT）机制使端粒得以维持，从而促进某些癌细胞的永生性。破坏睾丸特异性Y编码样蛋白5（TSPYL5）与泛素特异性蛋白酶7（USP7）之间的相互作用，已成为靶向ALT依赖性癌症的一种有前景的策略。尽管USP7的N端MATH结构域介导蛋白质相互作用，但TSPYL5中参与结合的区段仍不明确。在此，我们呈现了TSPYL5-USP7相互作用的结构分析，以指导靶向治疗策略。我们表明，TSPYL5本质上是无序的，其N端区域未折叠，而C端半部分具有部分结构。在体外，重组表达的TSPYL5以纳摩尔级亲和力结合USP7，并易于发生C端截短。然而，截短形式对USP7保留了相似的结合亲和力，表明主要相互作用位点位于TSPYL5的N端区域。我们在TSPYL5中识别出三个关键结合热点：残基65-97、残基210-262和残基368-388。此外，TSPYL5形成三聚体，并进一步组装成六聚体。本研究首次提供了TSPYL5-USP7相互作用的结构和定量分析，突出了这三个结合位点。这些发现为开发靶向ALT依赖性癌症的新型抑制剂奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40260937/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40260937/",
+  "paper_page_path": "papers/pubmed/40260937/index.html"
+}

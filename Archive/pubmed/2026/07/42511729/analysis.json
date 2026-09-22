@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42511729",
+  "title": "The Intrinsic Disordered N-Terminus of Nucleocapsid Protein of SARS-CoV-2 Is Critical in DNA Aptamer Binding.",
+  "authors": "Lu, Hongye; Ma, Jiawen; Ma, Xiaomin; Wu, Yuanpeng; Sun, Xuan; Ma, Changxing; Li, Xiaoxian; Xu, Zhiyong; Lu, Pengxi; Luo, Zhaofeng; Zhang, Liyun; Zhang, Lixin; Wang, Shenlin",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2026-07-28",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过NMR解析SARS-CoV-2核衣壳蛋白N端无序区与DNA适配体的复合物结构，揭示IDR通过亲水相互作用介导核酸结合的关键机制，属于无序蛋白-核酸互作的结构机制建模，虽非PPI但机制可迁移至IDR介导的蛋白互作研究。",
+  "abstract": "SARS-CoV-2 nucleocapsid protein (N protein) binds nucleic acids and packages viral RNA. DNA aptamers that specifically bind the N protein have been used in antigen-based COVID-19 detection and have potential clinical applications for preventing SARS-CoV-2 infection. However, the complex structures of the N protein with DNA aptamers and the mechanisms by which aptamers recognize the N protein remain unclear. Here, we report the NMR-derived complex structure of the N-terminal domain of the N protein (N-NTD) with a 58 nt DNA aptamer, A48. The complex structure reveals a distinct topology with a large contact area between A48 and N-NTD. The N-terminal intrinsically disordered region (IDR) of N-NTD forms close contact with A48, primarily stabilized by hydrophilic interactions. Deletion of the N-terminal IDR or substitution of positively charged arginine residues with negatively charged glutamate residues in the IDR region substantially reduced the binding affinity for A48. Because most previously determined N protein structures were obtained using constructs lacking the N-terminal IDR, this study reveals a topology of the N protein-nucleic acid complex and highlights the importance of the N-terminal IDR in nucleic acid binding.",
+  "abstract_zh": "SARS-CoV-2核衣壳蛋白（N蛋白）结合核酸并包装病毒RNA。特异性结合N蛋白的DNA适体已用于基于抗原的COVID-19检测，并在预防SARS-CoV-2感染方面具有潜在临床应用价值。然而，N蛋白与DNA适体的复合结构以及适体识别N蛋白的机制仍不清楚。在此，我们报告了N蛋白N端结构域（N-NTD）与58 nt DNA适体A48的NMR衍生复合结构。该复合结构揭示了一种独特的拓扑结构，A48与N-NTD之间具有较大的接触面积。N-NTD的N端 intrinsically disordered region (IDR) 与A48形成紧密接触，主要通过亲水性相互作用稳定。删除N端IDR或将IDR区域中带正电的精氨酸残基替换为带负电的谷氨酸残基，显著降低了与A48的结合亲和力。由于先前确定的大多数N蛋白结构均使用缺乏N端IDR的构建体获得，本研究揭示了N蛋白-核酸复合物的一种拓扑结构，并强调了N端IDR在核酸结合中的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42511729/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42511729/",
+  "paper_page_path": "papers/pubmed/42511729/index.html"
+}

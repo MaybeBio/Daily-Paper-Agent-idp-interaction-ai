@@ -56,158 +56,158 @@
         "author": [
           {
             "fullName": "Hasan A",
-            "firstName": "Adria",
             "lastName": "Hasan",
+            "firstName": "Adria",
             "initials": "A"
           },
           {
             "fullName": "Demidova EV",
-            "firstName": "Elena",
             "lastName": "Demidova",
+            "firstName": "Elena",
             "initials": "EV"
           },
           {
             "fullName": "Priyadarshini P",
-            "firstName": "Pragya",
             "lastName": "Priyadarshini",
+            "firstName": "Pragya",
             "initials": "P"
           },
           {
             "fullName": "Czyzewicz P",
-            "firstName": "Philip",
             "lastName": "Czyzewicz",
+            "firstName": "Philip",
             "initials": "P"
           },
           {
             "fullName": "Gathuka L",
-            "firstName": "Leonny",
             "lastName": "Gathuka",
+            "firstName": "Leonny",
             "initials": "L"
           },
           {
             "fullName": "Murayama T",
-            "firstName": "Takahiko",
             "lastName": "Murayama",
+            "firstName": "Takahiko",
             "initials": "T"
           },
           {
             "fullName": "Zhou Y",
-            "firstName": "Yan",
             "lastName": "Zhou",
+            "firstName": "Yan",
             "initials": "Y"
           },
           {
             "fullName": "Kiss ZA",
-            "firstName": "Zachary AC",
             "lastName": "Kiss",
+            "firstName": "Zachary AC",
             "initials": "ZA"
           },
           {
             "fullName": "Shastry RK",
-            "firstName": "Raksha KR",
             "lastName": "Shastry",
+            "firstName": "Raksha KR",
             "initials": "RK"
           },
           {
             "fullName": "Andrake M",
-            "firstName": "Mark",
             "lastName": "Andrake",
+            "firstName": "Mark",
             "initials": "M"
           },
           {
             "fullName": "Hearne G",
-            "firstName": "Gavin",
             "lastName": "Hearne",
+            "firstName": "Gavin",
             "initials": "G"
           },
           {
             "fullName": "Devarajan K",
-            "firstName": "Karthik",
             "lastName": "Devarajan",
+            "firstName": "Karthik",
             "initials": "K"
           },
           {
             "fullName": "Wu C",
-            "firstName": "Chao",
             "lastName": "Wu",
+            "firstName": "Chao",
             "initials": "C"
           },
           {
             "fullName": "Shah A",
-            "firstName": "Anshul",
             "lastName": "Shah",
+            "firstName": "Anshul",
             "initials": "A"
           },
           {
             "fullName": "Schultz BM",
-            "firstName": "Bryant",
             "lastName": "Schultz",
+            "firstName": "Bryant",
             "initials": "BM"
           },
           {
             "fullName": "Connolly DC",
-            "firstName": "Denise",
             "lastName": "Connolly",
+            "firstName": "Denise",
             "initials": "DC"
           },
           {
             "fullName": "Rosen GL",
-            "firstName": "Gail",
             "lastName": "Rosen",
+            "firstName": "Gail",
             "initials": "GL"
           },
           {
             "fullName": "Canadas I",
-            "firstName": "Israel",
             "lastName": "Canadas",
+            "firstName": "Israel",
             "initials": "I"
           },
           {
             "fullName": "Liu JC",
-            "firstName": "Jeffrey",
             "lastName": "Liu",
+            "firstName": "Jeffrey",
             "initials": "JC"
           },
           {
             "fullName": "Burtness BA",
-            "firstName": "Barbara",
             "lastName": "Burtness",
+            "firstName": "Barbara",
             "initials": "BA"
           },
           {
             "fullName": "Smith JJ",
-            "firstName": "Jesse Joshua",
             "lastName": "Smith",
+            "firstName": "Jesse Joshua",
             "initials": "JJ"
           },
           {
             "fullName": "Dunbrack RL",
-            "firstName": "Roland",
             "lastName": "Dunbrack",
+            "firstName": "Roland",
             "initials": "RL"
           },
           {
             "fullName": "Golemis EA",
-            "firstName": "Erica",
             "lastName": "Golemis",
+            "firstName": "Erica",
             "initials": "EA"
           },
           {
             "fullName": "Whetstine JR",
-            "firstName": "Johnathan",
             "lastName": "Whetstine",
+            "firstName": "Johnathan",
             "initials": "JR"
           },
           {
             "fullName": "Meyer JE",
-            "firstName": "Joshua",
             "lastName": "Meyer",
+            "firstName": "Joshua",
             "initials": "JE"
           },
           {
             "fullName": "Arora S",
-            "firstName": "Sanjeevani",
             "lastName": "Arora",
+            "firstName": "Sanjeevani",
             "initials": "S"
           }
         ]
@@ -237,23 +237,23 @@
       "isOpenAccess": "N",
       "inEPMC": "N",
       "inPMC": "N",
-      "hasPDF": "N",
-      "hasBook": "N",
-      "hasSuppl": "N",
       "citedByCount": 0,
-      "hasData": "N",
       "hasReferences": "N",
       "hasTextMinedTerms": "N",
       "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
       "hasLabsLinks": "N",
-      "hasEvaluations": "N",
+      "hasData": "N",
       "authMan": "N",
       "epmcAuthMan": "N",
       "nihAuthMan": "N",
       "hasTMAccessionNumbers": "N",
       "dateOfCreation": "2026-09-01",
+      "firstPublicationDate": "2026-08-31",
       "firstIndexDate": "2026-09-01",
-      "firstPublicationDate": "2026-08-31"
+      "hasEvaluations": "N"
     }
   }
 }

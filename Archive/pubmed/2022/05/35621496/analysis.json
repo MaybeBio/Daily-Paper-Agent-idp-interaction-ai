@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35621496",
+  "title": "Oral Cells-On-Chip: Design, Modeling and Experimental Results.",
+  "authors": "Osouli Tabrizi, Hamed; Panahi, Abbas; Forouhi, Saghi; Sadighbayan, Deniz; Soheili, Fatemeh; Haji Hosseini Khani, Mohammad Reza; Magierowski, Sebastian; Ghafar-Zadeh, Ebrahim",
+  "journal": "Bioengineering (Basel, Switzerland)",
+  "published_date": "2022-05-28",
+  "window": {
+    "start": "2022-05-23",
+    "end": "2022-05-29"
+  },
+  "score": 0,
+  "one_liner_zh": "该文介绍CMOS电容传感芯片用于检测口腔唾液细胞，与无序蛋白/IDR介导的蛋白互作及AI/物理模拟方法无关。",
+  "abstract": "Recent advances in periodontal studies have attracted the attention of researchers to the relation between oral cells and gum diseases, which is a real threat to overall human health. Among various microfabrication technologies, Complementary Metal Oxide Semiconductors (CMOSs) enable the development of low-cost integrated sensors and circuits for rapid and accurate assessment of living cells that can be employed for the early detection and control of periodontal diseases. This paper presents a CMOS capacitive sensing platform that can be considered as an alternative for the analysis of salivatory cells such as oral neutrophils. This platform consists of two sensing electrodes connected to a read-out capacitive circuitry designed and fabricated on the same chip using Austria Mikro Systeme (AMS) 0.35 microm CMOS process. A graphical user interface (GUI) was also developed to interact with the capacitive read-out system and the computer to monitor the capacitance changes due to the presence of saliva cells on top of the chip. Thanks to the wide input dynamic range (IDR) of more than 400 femto farad (fF) and high resolution of 416 atto farad (aF), the experimental and simulation results demonstrate the functionality and applicability of the proposed sensor for monitoring cells in a small volume of 1 microL saliva samples. As per these results, the hydrophilic adhesion of oral cells on the chip varies the capacitance of interdigitated electrodes (IDEs). These capacitance changes then give an assessment of the oral cells existing in the sample. In this paper, the simulation and experimental results set a new stage for emerging sensing platforms for testing oral samples.",
+  "abstract_zh": "近期牙周病研究的进展引起了研究者对口腔细胞与牙龈疾病之间关系的关注，这对人类整体健康构成实际威胁。在各种微加工技术中，互补金属氧化物半导体（CMOS）使得开发低成本集成传感器和电路成为可能，用于快速、准确评估活细胞，可用于牙周病的早期检测和控制。本文提出了一种CMOS电容传感平台，可视为分析唾液细胞（如口腔中性粒细胞）的替代方案。该平台由两个传感电极组成，连接到读出电容电路，该电路采用奥地利微系统（AMS）0.35微米CMOS工艺在同一芯片上设计和制造。还开发了一个图形用户界面（GUI），用于与电容读出系统和计算机交互，以监测芯片顶部唾液细胞存在引起的电容变化。得益于超过400飞法拉（fF）的宽输入动态范围（IDR）和416阿托法拉（aF）的高分辨率，实验和仿真结果表明，该传感器在监测1微升唾液样本中少量细胞方面具有功能性和适用性。根据这些结果，口腔细胞在芯片上的亲水粘附改变了叉指电极（IDEs）的电容。这些电容变化随后提供了样本中存在的口腔细胞的评估。本文中，仿真和实验结果为进一步测试口腔样本的新兴传感平台奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35621496/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35621496/",
+  "paper_page_path": "papers/pubmed/35621496/index.html"
+}

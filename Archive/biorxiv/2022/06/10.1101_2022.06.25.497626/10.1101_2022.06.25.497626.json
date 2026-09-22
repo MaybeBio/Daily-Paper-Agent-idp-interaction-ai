@@ -1,0 +1,659 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.06.25.497626",
+  "title": "pH Induced Switch in the Conformational Ensemble of an Intrinsically Disordered Protein Prothymosin- <i>α</i> and Its Implications to Amyloid Fibril Formation",
+  "doi": "10.1101/2022.06.25.497626",
+  "abstract": "Aggregation of intrinsically disordered proteins (IDPs) is the cause of various neu-rodegenerative diseases. Changes in solution pH can trigger IDP aggregation due to a shift in the IDP monomer population with a high aggregation propensity. Al-though there is experimental evidence that acidic pH promotes the compaction of IDP monomers, which subsequently leads to aggregation, the general mechanism is not clear. Using the IDP prothymosin- α (proT α ), which is involved in multiple essential functions as a model system, we studied the pH effect on the conformational ensemble of proT α and probed its role in aggregation using a coarse-grained IDP model and molecular dynamics simulations. We show that compaction in the proT α dimension at low pH is due to the protein’s collapse in the intermediate region (E41 - D80) rich in glutamic acid residues. Further, the β -sheet content increases in this region upon pH change from neutral to acidic. We hypothesized that the conformations with high β -sheet content could act as aggregation-prone ( N ∗ ) states and nucleate the aggregation process. We validated our hypothesis by performing dimer simulations starting from N ∗ and non- N ∗ states. We show that simulations initiated using N ∗ states as initial conformations form dimers within 1.5 μ s, whereas the non- N ∗ states do not form dimers within this timescale. This study contributes to understanding the general principles of pH-induced IDP aggregation. The main result upon pH change from neutral to acidic, the intermediate region of proT α is responsible for aggregation due to an increase in its β -sheet forming propensity and forms the fibril core can be verified by experiments. Graphical TOC Entry",
+  "authors": [
+    "Lipika Baidya",
+    "Govardhan Reddy"
+  ],
+  "published_date": "2022-06-29",
+  "updated_date": "2023-04-04T06:51:55Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.06.25.497626",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.06.25.497626.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            17
+          ]
+        ],
+        "date-time": "2026-01-17T15:08:26Z",
+        "timestamp": 1768662506548,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            29
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 70,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            29
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Aggregation of intrinsically disordered proteins (IDPs) is the cause of various neu-rodegenerative diseases. Changes in solution pH can trigger IDP aggregation due to a shift in the IDP monomer population with a high aggregation propensity. Al-though there is experimental evidence that acidic pH promotes the compaction of IDP monomers, which subsequently leads to aggregation, the general mechanism is not clear. Using the IDP prothymosin-\n                  <jats:italic>α</jats:italic>\n                  (proT\n                  <jats:italic>α</jats:italic>\n                  ), which is involved in multiple essential functions as a model system, we studied the pH effect on the conformational ensemble of proT\n                  <jats:italic>α</jats:italic>\n                  and probed its role in aggregation using a coarse-grained IDP model and molecular dynamics simulations. We show that compaction in the proT\n                  <jats:italic>α</jats:italic>\n                  dimension at low pH is due to the protein’s collapse in the intermediate region (E41 - D80) rich in glutamic acid residues. Further, the\n                  <jats:italic>β</jats:italic>\n                  -sheet content increases in this region upon pH change from neutral to acidic. We hypothesized that the conformations with high\n                  <jats:italic>β</jats:italic>\n                  -sheet content could act as aggregation-prone (\n                  <jats:italic>N</jats:italic>\n                  <jats:sup>\n                    <jats:italic>∗</jats:italic>\n                  </jats:sup>\n                  ) states and nucleate the aggregation process. We validated our hypothesis by performing dimer simulations starting from\n                  <jats:italic>N</jats:italic>\n                  <jats:sup>\n                    <jats:italic>∗</jats:italic>\n                  </jats:sup>\n                  and non-\n                  <jats:italic>N</jats:italic>\n                  <jats:sup>\n                    <jats:italic>∗</jats:italic>\n                  </jats:sup>\n                  states. We show that simulations initiated using\n                  <jats:italic>N</jats:italic>\n                  <jats:sup>\n                    <jats:italic>∗</jats:italic>\n                  </jats:sup>\n                  states as initial conformations form dimers within 1.5\n                  <jats:italic>μ</jats:italic>\n                  s, whereas the non-\n                  <jats:italic>N</jats:italic>\n                  <jats:sup>\n                    <jats:italic>∗</jats:italic>\n                  </jats:sup>\n                  states do not form dimers within this timescale. This study contributes to understanding the general principles of pH-induced IDP aggregation. The main result upon pH change from neutral to acidic, the intermediate region of proT\n                  <jats:italic>α</jats:italic>\n                  is responsible for aggregation due to an increase in its\n                  <jats:italic>β</jats:italic>\n                  -sheet forming propensity and forms the fibril core can be verified by experiments.\n                </jats:p>\n                <jats:sec>\n                  <jats:title>Graphical TOC Entry</jats:title>\n                  <jats:fig id=\"ufig1\" position=\"float\" fig-type=\"figure\" orientation=\"portrait\">\n                    <jats:graphic xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"497626v1_ufig1\" position=\"float\" orientation=\"portrait\"/>\n                  </jats:fig>\n                </jats:sec>",
+      "DOI": "10.1101/2022.06.25.497626",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            4
+          ]
+        ],
+        "date-time": "2023-04-04T06:51:55Z",
+        "timestamp": 1680591115000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "pH Induced Switch in the Conformational Ensemble of an Intrinsically Disordered Protein Prothymosin-\n                  <i>α</i>\n                  and Its Implications to Amyloid Fibril Formation"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Lipika",
+          "family": "Baidya",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Govardhan",
+          "family": "Reddy",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm1589"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbapap.2010.01.017"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tibs.2012.08.004"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-072711-164947"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "88",
+          "DOI": "10.1186/s12964-021-00774-3",
+          "article-title": "On the roles of intrinsically disordered proteins and regions in cell communication and signaling",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "Cell Commun. Signal"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2011.03.011"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.8",
+          "first-page": "11",
+          "article-title": "Common molecular pathogenesis of disease-related intrinsically disordered proteins revealed by NMR analysis",
+          "volume": "163",
+          "year": "2017",
+          "journal-title": "J. Biochem"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10930-009-9201-4"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1313006111"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi990752+"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1944",
+          "DOI": "10.1021/acs.jctc.0c01316",
+          "article-title": "Molecular Transfer Model for pH Effects on intrinsically disordered proteins: theory and applications",
+          "volume": "17",
+          "year": "2021",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1001743107"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Maity, H. ; Baidya, L. ; Reddy, G. Salt induced transitions in the conformational ensembles of intrinsically disordered proteins. bioRxiv 2022,",
+          "DOI": "10.1101/2022.02.16.480648"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1418155112"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "1950",
+          "DOI": "10.1021/acs.jpcb.8b11128",
+          "article-title": "Cosolvent effects on the growth of protein aggregates formed by a single domain globular protein and an intrinsically disordered protein",
+          "volume": "123",
+          "year": "2019",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "10131",
+          "DOI": "10.1021/acs.jpclett.0c02822",
+          "article-title": "Revealing the hidden sensitivity of intrinsically disordered proteins to their chemical environment",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "J. Phys. Chem. Lett"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "1171",
+          "DOI": "10.1021/jz200330k",
+          "article-title": "Influence of nanoparticle size and shape on oligomer formation of an amyloidogenic peptide",
+          "volume": "2",
+          "year": "2011",
+          "journal-title": "J. Phys. Chem. Lett"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "6208",
+          "DOI": "10.3390/ijms21176208",
+          "article-title": "Relevance of electrostatic charges in compactness, aggregation, and phase separation of intrinsically disordered proteins",
+          "volume": "21",
+          "year": "2020",
+          "journal-title": "Int. J. Mol. Sci"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1186/s40035-019-0181-9",
+          "article-title": "Effect of the micro-environment on alpha-synuclein conversion and implication in seeded conversion assays",
+          "volume": "9",
+          "year": "2020",
+          "journal-title": "Transl. Neurodegener"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1315346111"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/cshperspect.a033878"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "20380",
+          "DOI": "10.1021/jacs.9b10892",
+          "article-title": "Intermolecular charge–transfer modulates liquid–liquid phase separation and liquid-to-solid maturation of an intrinsically disordered pH-responsive domain",
+          "volume": "141",
+          "year": "2019",
+          "journal-title": "J. Am. Chem. Soc"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi00040a037"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0024-3205(97)00882-5"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/bj3330001"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0014-5793(02)02572-3"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0959-440X(03)00032-0"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp808914c"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.105.218101"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2014.05.007"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2002570117"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "165104",
+          "DOI": "10.1063/1.3415372",
+          "article-title": "Relationship between population of the fibril-prone conformation in the monomeric state and oligomer formation times of peptides: insights from all-atom simulations",
+          "volume": "132",
+          "year": "2010",
+          "journal-title": "J. Chem. Phys"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.34",
+          "doi-asserted-by": "crossref",
+          "first-page": "2576",
+          "DOI": "10.1021/acs.jpclett.1c00208",
+          "article-title": "Liquid–liquid phase separation of tau protein is encoded at the monomeric level",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "J. Phys. Chem. Lett"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "9026",
+          "DOI": "10.1021/acs.jpclett.1c02310",
+          "article-title": "Sequence determines the switch in the fibril forming regions in the low-complexity FUS protein and its variants",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "J. Phys. Chem. Lett"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.9b02575"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1804177115"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "219",
+          "DOI": "10.1016/j.sbi.2020.12.012",
+          "article-title": "Physics-based computational and theoretical approaches to intrinsically disordered proteins",
+          "volume": "67",
+          "year": "2021",
+          "journal-title": "Curr. Opin. Struct. Biol"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "11115",
+          "DOI": "10.1021/acs.jpcb.8b05791",
+          "article-title": "AWSEM-IDP: a coarse-grained force field for intrinsically disordered proteins",
+          "volume": "122",
+          "year": "2018",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.9b00932"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2111696118"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "1367",
+          "DOI": "10.1021/acs.jctc.8b00573",
+          "article-title": "Improvements to the ABSINTH force field for proteins based on experimentally derived amino acid specific backbone conformational statistics",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "6968",
+          "DOI": "10.1021/acs.jctc.9b00723",
+          "article-title": "Evaluating models of varying complexity of crowded intrinsically disordered protein solutions against SAXS",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "16092",
+          "DOI": "10.1021/ja403147m",
+          "article-title": "Dynamics of an intrinsically disordered protein reveal metastable conformations that potentially seed aggregation",
+          "volume": "135",
+          "year": "2013",
+          "journal-title": "J. Am. Chem. Soc"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "624302",
+          "DOI": "10.3389/fmolb.2021.624302",
+          "article-title": "Insight into seeded tau fibril growth from molecular dynamics simulation of the Alzheimer’s disease protofibril core",
+          "volume": "8",
+          "year": "2021",
+          "journal-title": "Front. Mol. Biosci"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-physchem-040513-103738"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2739547"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "163323",
+          "DOI": "10.1063/1.5035428",
+          "article-title": "Charge fluctuation effects on the shape of flexible polyampholytes with applications to intrinsically disordered proteins",
+          "volume": "149",
+          "year": "2018",
+          "journal-title": "J. Chem. Phys"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0911107107"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "085101",
+          "DOI": "10.1063/1.4929391",
+          "article-title": "A theoretical method to compute sequence dependent configurational properties in charged polymers and proteins",
+          "volume": "143",
+          "year": "2015",
+          "journal-title": "J. Chem. Phy"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rubinstein, M. ; Colby, R. Polymer Physics; Oxford University Press Oxford: New York, 2003.",
+          "DOI": "10.1093/oso/9780198520597.001.0001"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.52",
+          "doi-asserted-by": "crossref",
+          "first-page": "6451",
+          "DOI": "10.1021/acs.jpcb.1c02453",
+          "article-title": "Small-Angle X-ray scattering signatures of conformational heterogeneity and homogeneity of disordered protein ensembles",
+          "volume": "125",
+          "year": "2021",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1704692114"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2017.07.023"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4812791"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "106552",
+          "DOI": "10.1016/j.bpc.2021.106552",
+          "article-title": "Effects of pH on an IDP conformational ensemble explored by molecular dynamics simulation",
+          "volume": "271",
+          "year": "2021",
+          "journal-title": "Biophys. Chem"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "2543",
+          "DOI": "10.1016/j.bbagen.2017.09.002",
+          "article-title": "Aggregation properties of a disordered protein are tunable by pH and depend on its net charge per residue",
+          "volume": "1861",
+          "year": "2017",
+          "journal-title": "Biochim. Biophys. Acta"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "145",
+          "DOI": "10.3390/cells9010145",
+          "article-title": "pH-dependent aggregation in intrinsically disordered proteins is determined by charge and lipophilicity",
+          "volume": "9",
+          "year": "2020",
+          "journal-title": "Cells"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.149"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2009.06.063"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M117.780528"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.62",
+          "doi-asserted-by": "crossref",
+          "first-page": "1757",
+          "DOI": "10.1002/jcc.23683",
+          "article-title": "PCASSO: A fast and efficient Cα-based method for accurately assigning protein secondary structure elements",
+          "volume": "35",
+          "year": "2014",
+          "journal-title": "J. Comput. Chem"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.360221211"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.7b00838"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2013.04.056"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.66",
+          "doi-asserted-by": "crossref",
+          "first-page": "5499",
+          "DOI": "10.1021/acs.jctc.8b00652",
+          "article-title": "t-Distributed stochastic neighbor embedding method with the least information loss for macromolecular simulations",
+          "volume": "14",
+          "year": "2018",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M010907200"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.68",
+          "doi-asserted-by": "crossref",
+          "first-page": "27",
+          "DOI": "10.1016/j.bpc.2018.07.005",
+          "article-title": "Conformational heterogeneity of tau: Implication on intrinsic disorder, acid stability and fibrillation in Alzheimer’s disease",
+          "volume": "241",
+          "year": "2018",
+          "journal-title": "Biophys. Chem"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1359-0278(97)00002-3"
+        },
+        {
+          "key": "2023040403511717000_2022.06.25.497626v1.70",
+          "doi-asserted-by": "crossref",
+          "first-page": "1148",
+          "DOI": "10.1107/S1600576716007962",
+          "article-title": "Accurate optimization of amino acid form factors for computing small angle X-ray scattering intensity of atomistic protein structures",
+          "volume": "49",
+          "year": "2016",
+          "journal-title": "J. Appl. Crystallogr"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.06.25.497626",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:16:54Z",
+        "timestamp": 1768447014000
+      },
+      "score": 89.982796,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.06.25.497626"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            29
+          ]
+        ]
+      },
+      "references-count": 70,
+      "URL": "https://doi.org/10.1101/2022.06.25.497626",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            6,
+            29
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2402.10405v2",
+  "title": "Theory of Wetting Dynamics with Surface Binding",
+  "authors": "Xueping Zhao; Susanne Liese; Alf Honigmann; Frank Jülicher; Christoph A. Weber",
+  "journal": "",
+  "published_date": "2024-02-16",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用非平衡热力学理论建模表面结合对生物分子凝聚体润湿动力学的影响，聚焦相分离凝聚体与表面互作机制，虽无AI/物理模拟方法，但对象与互作机制建模高度相关。",
+  "abstract": "Biomolecules, such as proteins and RNAs, can phase separate in the cytoplasm of cells to form biomolecular condensates. Such condensates are liquid-like droplets that can wet biological surfaces such as membranes. Many molecules that participate in phase separation can also reversibly bind to membrane surfaces. When a droplet wets a surface, molecules can diffuse inside and outside of the droplet or in the bound state on the surface. How the interplay between surface binding, diffusion in surface and bulk affects the wetting kinetics is not well understood. Here, we derive the governing equations using non-equilibrium thermodynamics by relating the thermodynamic fluxes and forces at the surface coupled to the bulk. We study the spreading dynamics in the presence of surface binding and find that binding speeds up wetting by nucleating a droplet inside the surface. Our results suggest that the wetting dynamics of droplets can be regulated by two-dimensional surface droplets in the surface-bound layer through changing the binding affinity to the surfaces. These findings are relevant both to engineering life-like systems with condensates and vesicles, and biomolecular condensates in living cells.",
+  "abstract_zh": "生物分子，如蛋白质和RNA，可在细胞质中发生相分离（phase separation），形成生物分子凝聚体。这些凝聚体是液态样液滴，能够润湿生物表面，如膜。许多参与相分离的分子也能可逆地结合到膜表面。当液滴润湿表面时，分子可在液滴内外或表面结合状态下扩散。表面结合、表面及体相中的扩散如何相互作用影响润湿动力学，目前尚不清楚。在此，我们通过非平衡热力学，将表面与体相耦合的热力学通量和力关联起来，推导出控制方程。我们研究了存在表面结合时的铺展动力学，发现结合通过表面内成核加速了润湿。我们的结果表明，液滴的润湿动力学可通过改变对表面的结合亲和力，由表面结合层中的二维表面液滴来调控。这些发现既与利用凝聚体和囊泡工程化类生命系统相关，也与活细胞中的生物分子凝聚体相关。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2402.10405v2",
+  "source_url": "https://arxiv.org/abs/2402.10405v2",
+  "paper_page_path": "papers/arxiv/2402.10405v2/index.html"
+}

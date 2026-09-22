@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35590589",
+  "title": "Enthalpic and entropic contributions to interleaflet coupling drive domain registration and antiregistration in biological membrane.",
+  "authors": "Sharma, Akshara; Seal, Aniruddha; Iyer, Sahithya S; Srivastava, Anand",
+  "journal": "Physical review. E",
+  "published_date": "2022-05-21",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用蒙特卡洛模拟研究双层膜叶间耦合的焓/熵贡献与结构域对齐，对象为脂质膜而非无序蛋白/IDR，且无蛋白互作或AI/物理模拟方法聚焦于PPI，仅机制建模思路可部分迁移，故评分较低。",
+  "abstract": "Biological membrane is a complex self-assembly of lipids, sterols, and proteins organized as a fluid bilayer of two closely stacked lipid leaflets. Differential molecular interactions among its diverse constituents give rise to heterogeneities in the membrane lateral organization. Under certain conditions, heterogeneities in the two leaflets can be spatially synchronized and exist as registered domains across the bilayer. Several contrasting theories behind mechanisms that induce registration of nanoscale domains have been suggested. Following a recent study showing the effect of position of lipid tail unsaturation on domain registration behavior, we decided to develop an analytical theory to elucidate the driving forces that create and maintain domain registry across leaflets. Towards this, we formulated a Hamiltonian for a stacked lattice system where site variables capture the lipid molecular properties such as the position of unsaturation and various other interactions that could drive phase separation and interleaflet coupling. We solve the Hamiltonian using Monte Carlo simulations and create a complete phase diagram that reports the presence or absence of registered domains as a function of various Hamiltonian parameters. We find that the interleaflet coupling should be described as a competing enthalpic contribution due to interaction of lipid tail termini, primarily due to saturated-saturated interactions, and an interleaflet entropic contribution from overlap of unsaturated tail termini. A higher position of unsaturation is seen to provide weaker interleaflet coupling. Thermodynamically stable nanodomains could also be observed for certain points in the parameter space in our bilayer model, which were further verified by carrying out extended Monte Carlo simulations. These persistent noncoalescing registered nanodomains close to the lower end of the accepted nanodomain size range also point towards a possible \"nanoscale\" emulsion description of lateral heterogeneities in biological membrane leaflets.",
+  "abstract_zh": "生物膜是由脂质、甾醇和蛋白质组成的复杂自组装体，组织为两层紧密堆叠的脂质小叶的流体双层。其多样组分间的差异分子相互作用导致膜横向组织中的异质性。在某些条件下，两层小叶中的异质性可在空间上同步，并以跨双层的注册域形式存在。已有多种对比理论被提出，用以解释诱导纳米尺度域注册的机制。继一项近期研究显示脂质尾部不饱和位置对域注册行为的影响后，我们决定发展一种解析理论，以阐明创建并维持跨小叶域注册的驱动力。为此，我们构建了一个堆叠晶格系统的哈密顿量，其中位点变量捕捉脂质分子特性，如不饱和位置及可能驱动相分离和层间耦合的各种其他相互作用。我们使用蒙特卡洛模拟求解该哈密顿量，并创建了一个完整的相图，报告注册域的存在与否作为各种哈密顿参数的函数。我们发现，层间耦合应描述为竞争性焓贡献，主要来自饱和-饱和相互作用的脂质尾部末端，以及来自不饱和尾部末端重叠的层间熵贡献。观察到较高的不饱和位置提供较弱的层间耦合。在我们的双层模型中，参数空间的某些点也能观察到热力学稳定的纳米域，这通过扩展蒙特卡洛模拟进一步验证。这些接近公认纳米域尺寸范围下限的持久非合并注册纳米域，也指向生物膜小叶中横向异质性可能的“纳米尺度”乳液描述。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35590589/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35590589/",
+  "paper_page_path": "papers/pubmed/35590589/index.html"
+}

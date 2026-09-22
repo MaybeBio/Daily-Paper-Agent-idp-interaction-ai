@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.07.698192",
+  "title": "Electrostatic Self-Assembly of Protein Nanoparticles from Intrinsically Disordered Polypeptide and Globular Protein Pairs",
+  "authors": "So Yeon Ahn; Megan S.K. Jen; Dayoung Gloria Lee; Jake D Johnston; Jane Liao; Eun Sol Kim; Ying Tong Yue; Shana Elbaum; Oleg Gang; Allie C Obermeyer",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-08",
+  "window": {
+    "start": "2026-01-05",
+    "end": "2026-01-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究无序蛋白与球状蛋白通过静电共组装形成纳米颗粒，涉及IDP与蛋白互作及组装机制，但聚焦递送应用而非PPI机制建模，方法以实验表征为主，缺乏AI/物理模拟，故评6分。",
+  "abstract": "Intracellular delivery of folded, functional proteins remains a critical barrier to realizing the full potential of protein therapeutics. We present a fully aqueous, genetically encoded platform for assembling micellar protein nanoparticles via electrostatic coacervation between anionic globular proteins and multi-domain intrinsically disordered proteins (IDPs) composed of a neutral elastin-like polypeptide (ELP) domain and a cationic disordered histone-derived domain (H5). This biosynthetic system allows modular control over charge density, neutral domain length, and stoichiometry, enabling the formation of homogeneous micellar nanoparticles with high protein payload retention under mild, biologically relevant conditions without organic solvents or covalent modification. Unlike amphiphilic micelle systems, globular proteins in this approach act as both cargo and assembly drivers, providing a direct handle to tune encapsulation. Nanoparticle assembly was characterized with a suite of complementary techniques including DLS, FCS, TEM, and SAXS, enabling detailed analysis of nanoparticle structure, size, and composition. The system exhibits remarkable tolerance to different formulations, consistently producing well-defined particles with low dispersity. This expanded design space arises from the use of structured, charge-regulating proteins and confers exceptional versatility in formulation. Different charge fractions modulate not only nanoparticle size but also physicochemical properties such as core density and cargo loading, which may be critical for tuning nanoparticle stability and performance. Together, these features establish a robust and programmable platform for protein-based nanoparticle engineering with potential application in intracellular protein delivery.",
+  "abstract_zh": "折叠的、具有功能活性的蛋白质的胞内递送仍是实现蛋白质治疗药物全部潜力的关键障碍。我们提出了一种全水相、基因编码的平台，通过阴离子球状蛋白与由中性弹性蛋白样多肽（ELP）结构域和阳离子无序组蛋白衍生结构域（H5）组成的多结构域 intrinsically disordered proteins (IDPs) 之间的静电共聚，组装胶束状蛋白质纳米颗粒。该生物合成系统允许对电荷密度、中性结构域长度和化学计量比进行模块化控制，从而在温和、生物相关条件下，无需有机溶剂或共价修饰，即可形成具有高蛋白质载荷保留率的均质胶束状纳米颗粒。与两亲性胶束系统不同，该方法中的球状蛋白既充当载荷又充当组装驱动因子，为调控封装提供了直接手段。纳米颗粒组装通过包括DLS、FCS、TEM和SAXS在内的一系列互补技术进行了表征，从而能够详细分析纳米颗粒的结构、尺寸和组成。该系统对不同配方表现出显著耐受性，持续产生低分散性的明确颗粒。这种扩展的设计空间源于使用结构化、电荷调节蛋白，并在配方中赋予卓越的多功能性。不同的电荷分数不仅调节纳米颗粒尺寸，还调节核心密度和载荷装载等物理化学性质，这可能对调控纳米颗粒稳定性和性能至关重要。总之，这些特征建立了一个稳健且可编程的基于蛋白质的纳米颗粒工程平台，在胞内蛋白质递送方面具有潜在应用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.07.698192",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.07.698192",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.07.698192/index.html"
+}

@@ -1,0 +1,428 @@
+{
+  "identity": {
+    "pmid": "40994307",
+    "doi": "10.1021/jacs.5c11056",
+    "title": "Zn(2+) Binding Shifts the Conformational Ensemble of alpha-Synuclein Monomers toward Accelerated Amyloid Formation."
+  },
+  "content": {
+    "abstract": "Alpha-synuclein (alphaS) is an intrinsically disordered protein (IDP) that can self-assemble into amyloid fibrils, undergoing a transition from disordered monomers to ordered beta-sheet-rich fibrils. The amyloid state of alphaS is implicated in various synucleinopathies, most notably Parkinson's disease (PD), in which alphaS fibrils accumulate as insoluble Lewy body deposits. Colocalized with alphaS in Lewy bodies are elevated levels of metal ions including Zn(2+). We find in vitro that Zn(2+) accelerates aggregation of N-terminally acetylated alphaS, decreasing the t(50) ca. 5-fold, as measured by thioflavin T (ThT) fluorescence. Strikingly, the extent of Zn(2+) binding (native mass spectrometry; MS) and shifts of the monomeric alphaS conformational ensemble toward compaction, measured using ion mobility MS (IM-MS) at different alphaS:Zn(2+) ratios, mirror precisely the accelerated aggregation kinetics. Chemical shift perturbations in Nuclear Magnetic Resonance (NMR) spectroscopy were investigated together with molecular dynamics (MD) to map the Zn(2+) binding sites and subsequent effects on conformation under identical solution conditions to those used in IM-MS. Zn(2+) is found to predominantly interact with negative residues in the C-terminal region of alphaS but also His50 in the N-terminal region. This promiscuity in interactions potentially guides compaction of the protein chain by bridging residues between the N- and C-terminal regions through Zn(2+) ion co-ordination. This study provides insights into the early stages of amyloid assembly, correlating aggregation kinetics with structural compaction in monomeric alphaS and highlighting the capability of native IM-MS to resolve complex structural ensembles of a disordered protein.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "Zinc/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Binding Sites",
+      "Amyloid/chemistry/metabolism",
+      "Humans",
+      "Protein Conformation",
+      "Benzothiazoles"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Byrd, Emily J",
+        "Rowlinson, Benjamin",
+        "Crossley, Joel A",
+        "Brockwell, David J",
+        "Ross, James F",
+        "Radford, Sheena E",
+        "Sobott, Frank"
+      ],
+      "short_names": [
+        "Byrd EJ",
+        "Rowlinson B",
+        "Crossley JA",
+        "Brockwell DJ",
+        "Ross JF",
+        "Radford SE",
+        "Sobott F"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9029-1865"
+      ],
+      "affiliations": [
+        "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K.",
+        "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K.",
+        "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K.",
+        "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K.",
+        "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K.",
+        "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K.",
+        "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Byrd, Emily J",
+        "short_name": "Byrd EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K."
+        ]
+      },
+      {
+        "full_name": "Rowlinson, Benjamin",
+        "short_name": "Rowlinson B",
+        "identifiers": [],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K."
+        ]
+      },
+      {
+        "full_name": "Crossley, Joel A",
+        "short_name": "Crossley JA",
+        "identifiers": [],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K."
+        ]
+      },
+      {
+        "full_name": "Brockwell, David J",
+        "short_name": "Brockwell DJ",
+        "identifiers": [],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K."
+        ]
+      },
+      {
+        "full_name": "Ross, James F",
+        "short_name": "Ross JF",
+        "identifiers": [],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K."
+        ]
+      },
+      {
+        "full_name": "Radford, Sheena E",
+        "short_name": "Radford SE",
+        "identifiers": [],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K."
+        ]
+      },
+      {
+        "full_name": "Sobott, Frank",
+        "short_name": "Sobott F",
+        "identifiers": [
+          "0000-0001-9029-1865"
+        ],
+        "affiliations": [
+          "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds LS2 9JT, U.K."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2025 Oct 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/25 06:29",
+    "fetched_at": "2026-09-17 20:24:10"
+  },
+  "links": {
+    "cites": [
+      "42437078",
+      "42332177",
+      "42183579",
+      "41969219",
+      "41761630",
+      "41700898",
+      "41677652",
+      "41134940"
+    ],
+    "refs": [
+      "40207671",
+      "39674478",
+      "39462994",
+      "39150274",
+      "39133842",
+      "38941872",
+      "38859611",
+      "38839930",
+      "38683963",
+      "38557001",
+      "38134875",
+      "37982746",
+      "37936057",
+      "37805934",
+      "37407505",
+      "37201129",
+      "36977661",
+      "36809765",
+      "36794997",
+      "36794792",
+      "36466161",
+      "36413494",
+      "36252622",
+      "36115020",
+      "36108674",
+      "36008493",
+      "36001095",
+      "35894540",
+      "35682892",
+      "35486726",
+      "35115402",
+      "34977906",
+      "34374536",
+      "34335440",
+      "34248606",
+      "34015255",
+      "33946908",
+      "33903234",
+      "33791275",
+      "33110167",
+      "33051572",
+      "33004902",
+      "32799899",
+      "32786148",
+      "32649184",
+      "32510956",
+      "32461689",
+      "32424039",
+      "32302450",
+      "32203130",
+      "32143659",
+      "32078298",
+      "31937832",
+      "31815671",
+      "31181290",
+      "31135803",
+      "31068782",
+      "30917118",
+      "30841441",
+      "30834319",
+      "30707468",
+      "30190461",
+      "29969391",
+      "29951842",
+      "29852073",
+      "29459792",
+      "29382893",
+      "29033788",
+      "28874699",
+      "28695211",
+      "28634347",
+      "28619113",
+      "28562630",
+      "28498720",
+      "28298083",
+      "28289488",
+      "28096355",
+      "27924262",
+      "27916677",
+      "27884064",
+      "27621459",
+      "27531743",
+      "27517125",
+      "27467405",
+      "26741409",
+      "26153422",
+      "26076669",
+      "25939020",
+      "25800554",
+      "25799115",
+      "25756329",
+      "25400877",
+      "25218565",
+      "25131584",
+      "24984882",
+      "24908489",
+      "24871041",
+      "24860495",
+      "24047453",
+      "23589876",
+      "22835933",
+      "22832069",
+      "22694188",
+      "22573613",
+      "22407793",
+      "22344688",
+      "22316405",
+      "22006323",
+      "21841800",
+      "21158432",
+      "20979392",
+      "20923645",
+      "20000583",
+      "19285989",
+      "19156745",
+      "18693689",
+      "18602274",
+      "18573080",
+      "17653732",
+      "17328689",
+      "16866548",
+      "16847063",
+      "16756495",
+      "16731975",
+      "15815974",
+      "15767574",
+      "15684072",
+      "15451224",
+      "14755719",
+      "12115139",
+      "11553618",
+      "11050320",
+      "10940218",
+      "10617630",
+      "9801138",
+      "9197268"
+    ],
+    "similar": [
+      "40994307",
+      "33903234",
+      "36794792",
+      "40853068",
+      "42093278",
+      "23607785",
+      "23583776",
+      "35041853",
+      "33771571",
+      "28820253",
+      "31799519",
+      "33333378",
+      "26950519",
+      "28968082",
+      "29372732",
+      "33719460",
+      "37964757",
+      "32699326",
+      "27809690",
+      "23374074",
+      "22573613",
+      "31776941",
+      "28667699",
+      "33004902",
+      "39504036",
+      "37201129",
+      "24058647",
+      "31854188",
+      "19481095",
+      "26332674",
+      "36278939",
+      "39255305",
+      "29888220",
+      "30769283",
+      "26845568",
+      "26477939",
+      "27531743",
+      "37253119",
+      "19475665",
+      "34454326",
+      "25075858",
+      "36500474",
+      "20041693",
+      "30486688",
+      "31772376",
+      "29853639",
+      "19554627",
+      "42010890",
+      "37114769",
+      "38567991",
+      "42411659",
+      "29364151",
+      "30142878",
+      "41604267",
+      "40207671",
+      "30384594",
+      "36053833",
+      "17681539",
+      "20197038",
+      "34506119",
+      "30030380",
+      "29715424",
+      "29951842",
+      "39875340",
+      "32013170",
+      "29704492",
+      "41969219",
+      "30755483",
+      "34254125",
+      "26016728",
+      "40332135",
+      "26695131",
+      "29451381",
+      "10704204",
+      "41077913",
+      "19576220",
+      "28759722",
+      "30917654",
+      "33260436",
+      "18693689",
+      "16162499",
+      "22674434",
+      "42159605",
+      "30318002",
+      "26843956",
+      "19655784",
+      "31783644",
+      "40882443",
+      "35926717",
+      "36413494",
+      "31937832",
+      "23272053",
+      "29866153",
+      "27273030",
+      "20947801",
+      "22274962",
+      "18494470",
+      "31728738",
+      "40253030",
+      "39708879"
+    ],
+    "review": [
+      "40994307",
+      "29364151"
+    ],
+    "pmc": [
+      "12512189"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40994307/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40994307",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.5c11056",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://eprints.whiterose.ac.uk/id/eprint/232543/",
+        "provider": "White Rose Research Online",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

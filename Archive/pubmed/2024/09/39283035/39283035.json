@@ -1,0 +1,209 @@
+{
+  "identity": {
+    "pmid": "39283035",
+    "doi": "10.1039/d4sm00750f",
+    "title": "Features of heterogeneously charged systems at their liquid-liquid critical point."
+  },
+  "content": {
+    "abstract": "Recently synthesized colloids and biological systems such as proteins, viruses and monoclonal antibodies are heterogeneously charged, i.e., different regions of their surfaces carry different amounts of positive or negative charge. Because of charge inhomogeneity, electrostatic interactions between these units through the surrounding medium are intrinsically anisotropic, meaning that they are characterized not only by the attraction between oppositely charged regions but also by the repulsion between like-charged areas. Recent experiments have shown that the liquid-liquid phase separation of these systems can be driven by anisotropic electrostatic interactions, but it is not clear how the emerging aggregates are affected by charge imbalance and charge patchiness. The ability to experimentally control these two quantities calls for a theoretical understanding of their interplay, which we address here at the critical point. We consider a coarse-grained model of anisotropically charged hard spheres whose interaction potential is grounded in a robust mean field theory and perform extensive numerical Monte Carlo simulations to understand the aggregation behavior of these units at the critical point. Stemming from the simplicity of the model, we address the interplay between charge imbalance and charge patchiness with the use of three parameters only and fully rationalize how these features impact the critical point of the model by means of thermodynamic-independent pair properties.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Notarmuzi, Daniele",
+        "Bianchi, Emanuela"
+      ],
+      "short_names": [
+        "Notarmuzi D",
+        "Bianchi E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3282-1087"
+      ],
+      "affiliations": [
+        "Institut fur Theoretische Physik, TU Wien, Wiedner Hauptstrasse 8-10, A-1040 Wien, Austria. daniele.notarmuzi@tuwien.ac.at.",
+        "Institut fur Theoretische Physik, TU Wien, Wiedner Hauptstrasse 8-10, A-1040 Wien, Austria. daniele.notarmuzi@tuwien.ac.at.",
+        "CNR-ISC, Uos Sapienza, Piazzale A. Moro 2, 00185 Roma, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Notarmuzi, Daniele",
+        "short_name": "Notarmuzi D",
+        "identifiers": [],
+        "affiliations": [
+          "Institut für Theoretische Physik, TU Wien, Wiedner Hauptstraße 8-10, A-1040 Wien, Austria. daniele.notarmuzi@tuwien.ac.at."
+        ]
+      },
+      {
+        "full_name": "Bianchi, Emanuela",
+        "short_name": "Bianchi E",
+        "identifiers": [
+          "0000-0002-3282-1087"
+        ],
+        "affiliations": [
+          "Institut für Theoretische Physik, TU Wien, Wiedner Hauptstraße 8-10, A-1040 Wien, Austria. daniele.notarmuzi@tuwien.ac.at.",
+          "CNR-ISC, Uos Sapienza, Piazzale A. Moro 2, 00185 Roma, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Soft matter"
+    ],
+    "journal_abbrev": [
+      "Soft Matter"
+    ],
+    "pub_date": "2024 Oct 2",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/17 10:43",
+    "fetched_at": "2026-09-21 10:27:51"
+  },
+  "links": {
+    "cites": [
+      "41037634",
+      "39802629"
+    ],
+    "refs": [],
+    "similar": [
+      "39283035",
+      "23912807",
+      "23627740",
+      "20687685",
+      "24032832",
+      "21715902",
+      "29876574",
+      "19842639",
+      "33869968",
+      "20632770",
+      "16711801",
+      "19551418",
+      "16965092",
+      "26010804",
+      "22404737",
+      "16851954",
+      "35378477",
+      "18718458",
+      "29566519",
+      "30853717",
+      "21410204",
+      "22680474",
+      "22979893",
+      "16080765",
+      "28160710",
+      "18791755",
+      "16486528",
+      "17918865",
+      "39044475",
+      "19368363",
+      "34847668",
+      "26651702",
+      "38965780",
+      "27984866",
+      "16383604",
+      "16084783",
+      "30292214",
+      "16800500",
+      "26454382",
+      "18412456",
+      "32672952",
+      "15260639",
+      "17026212",
+      "19697905",
+      "23940518",
+      "26914439",
+      "25956114",
+      "17929863",
+      "31342428",
+      "22571282",
+      "31542010",
+      "22861126",
+      "20568875",
+      "16906822",
+      "38252962",
+      "24954361",
+      "26809106",
+      "18163709",
+      "38153151",
+      "26286281",
+      "31192341",
+      "28964034",
+      "26117503",
+      "16605334",
+      "25494763",
+      "39400290",
+      "20146444",
+      "20481729",
+      "30913985",
+      "17523784",
+      "27486996",
+      "29074886",
+      "15010981",
+      "27253725",
+      "23179012",
+      "20969425",
+      "24611285",
+      "17381231",
+      "37037120",
+      "37528959",
+      "16584264",
+      "18233846",
+      "23496521",
+      "14995493",
+      "17677259",
+      "19905309",
+      "12443203",
+      "15524508",
+      "24061316",
+      "30283950",
+      "28079383",
+      "17228968",
+      "17677666",
+      "33105117",
+      "36272803",
+      "17677060",
+      "11112315",
+      "34981941",
+      "28526129",
+      "26815664",
+      "20136335"
+    ],
+    "review": [
+      "39283035",
+      "18718458",
+      "16084783"
+    ],
+    "pmc": [
+      "11404297"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39283035/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d4sm00750f",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

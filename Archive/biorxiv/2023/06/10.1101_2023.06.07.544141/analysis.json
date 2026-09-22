@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.07.544141",
+  "title": "An evolutionarily conserved strategy for ribosome binding and inhibition by β-coronavirus non-structural protein 1",
+  "authors": "Maurina SF; O’Sullivan JP; Sharma G; Pineda Rodriguez DC; MacFadden A; Cendali F; Henen MA; Kieft JS; Glasgow A; Steckelberg A",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-08",
+  "window": {
+    "start": "2023-06-05",
+    "end": "2023-06-11"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究β-冠状病毒Nsp1蛋白与核糖体的结合及抑制翻译机制，涉及蛋白-核糖体互作建模，但对象非无序蛋白/相分离，且方法以建模和实验结合为主，AI/物理模拟成分有限，对本课题的互作机制建模有部分启发。",
+  "abstract": "An important pathogenicity factor of SARS-CoV-2 and related coronaviruses is Nsp1, which suppresses host gene expression and stunts antiviral signaling. SARS-CoV-2 Nsp1 binds the ribosome to inhibit translation through mRNA displacement and induces degradation of host mRNAs through an unknown mechanism. Here we show that Nsp1-dependent host shutoff is conserved in diverse coronaviruses, but only Nsp1 from β-CoV inhibits translation through ribosome binding. The C-terminal domain of all β-CoV Nsp1s confers high-affinity ribosome-binding despite low sequence conservation. Modeling of interactions of four Nsp1s to the ribosome identified few absolutely conserved amino acids that, together with an overall conservation in surface charge, form the β-CoV Nsp1 ribosome-binding domain. Contrary to previous models, the Nsp1 ribosome-binding domain is an inefficient translation inhibitor. Instead, the Nsp1-CTD likely functions by recruiting Nsp1’s N-terminal “effector” domain. Finally, we show that a viral cis -acting RNA element has co-evolved to fine-tune SARS-CoV-2 Nsp1 function, but does not provide similar protection against Nsp1 from related viruses. Together, our work provides new insight into the diversity and conservation of ribosome-dependent host-shutoff functions of Nsp1, knowledge that could aide future efforts in pharmacological targeting of Nsp1 from SARS-CoV-2, but also related human-pathogenic β-coronaviruses. Our study also exemplifies how comparing highly divergent Nsp1 variants can help to dissect the different modalities of this multi-functional viral protein.",
+  "abstract_zh": "SARS-CoV-2及相关冠状病毒的一个重要致病因子是Nsp1，它抑制宿主基因表达并阻碍抗病毒信号传导。SARS-CoV-2 Nsp1结合核糖体，通过mRNA置换抑制翻译，并通过未知机制诱导宿主mRNA降解。在此，我们显示Nsp1依赖性宿主关闭在多种冠状病毒中保守，但仅β-CoV的Nsp1通过核糖体结合抑制翻译。所有β-CoV Nsp1的C端结构域赋予高亲和力核糖体结合，尽管序列保守性低。对四种Nsp1与核糖体相互作用的建模识别出少数绝对保守的氨基酸，这些氨基酸与表面电荷的整体保守性共同构成β-CoV Nsp1核糖体结合结构域。与先前模型相反，Nsp1核糖体结合结构域是低效的翻译抑制剂。相反，Nsp1-CTD可能通过招募Nsp1的N端“效应器”结构域发挥作用。最后，我们显示一个病毒顺式作用RNA元件已共同进化以微调SARS-CoV-2 Nsp1功能，但对相关病毒的Nsp1不提供类似保护。总之，我们的工作为Nsp1核糖体依赖性宿主关闭功能的多样性和保守性提供了新见解，这些知识可能有助于未来针对SARS-CoV-2及相关人致病性β冠状病毒Nsp1的药理学靶向努力。我们的研究也例证了比较高度分化的Nsp1变体如何有助于解析这一多功能病毒蛋白的不同作用模式。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.07.544141",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.07.544141",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.07.544141/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33547841",
+  "title": "N-terminal acetylation modestly enhances phase separation and reduces aggregation of the low-complexity domain of RNA-binding protein fused in sarcoma.",
+  "authors": "Bock, Anna S; Murthy, Anastasia C; Tang, Wai Shing; Jovic, Nina; Shewmaker, Frank; Mittal, Jeetain; Fawzi, Nicolas L",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2021-02-07",
+  "window": {
+    "start": "2021-02-01",
+    "end": "2021-02-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过NMR和实验方法揭示N端乙酰化修饰增强FUS低复杂度域相分离并抑制聚集，聚焦IDR介导的相分离机制，虽无AI/物理模拟但机制建模深度高，对本课题有直接参考价值。",
+  "abstract": "The RNA-binding protein fused in sarcoma (FUS) assembles via liquid-liquid phase separation (LLPS) into functional RNA granules and aggregates in amyotrophic lateral sclerosis associated neuronal inclusions. Several studies have demonstrated that posttranslational modification (PTM) can significantly alter FUS phase separation and aggregation, particularly charge-altering phosphorylation of the nearly uncharged N-terminal low complexity domain of FUS (FUS LC). However, the occurrence and impact of N-terminal acetylation on FUS phase separation remains unexplored, even though N-terminal acetylation is the most common PTM in mammals and changes the charge at the N-terminus. First, we find that FUS is predominantly acetylated in two human cell types and stress conditions. Next, we show that recombinant FUS LC can be acetylated when co-expressed with the NatA complex in Escherichia coli. Using NMR spectroscopy, we find that N-terminal acetylated FUS LC (FUS LC Nt-Ac) does not notably alter monomeric FUS LC structure or motions. Despite no difference in structure, Nt-Ac-FUS LC phase separates more avidly than unmodified FUS LC. More importantly, N-terminal acetylation of FUS LC reduces aggregation. Our findings highlight the importance of N-terminal acetylation of proteins that undergo physiological LLPS and pathological aggregation.",
+  "abstract_zh": "RNA结合蛋白肉瘤融合蛋白（FUS）通过液-液相分离（LLPS）组装成功能性RNA颗粒，并在肌萎缩侧索硬化相关的神经元包涵体中聚集。多项研究表明，翻译后修饰（PTM）能显著改变FUS的相分离和聚集行为，尤其是对FUS近中性电荷的N端低复杂度结构域（FUS LC）进行电荷改变的磷酸化修饰。然而，尽管N端乙酰化是哺乳动物中最常见的PTM，并改变N端的电荷，但其对FUS相分离的发生和影响仍未得到探索。首先，我们发现FUS在两种人类细胞类型及应激条件下主要被乙酰化。接下来，我们展示了重组FUS LC与NatA复合物在大肠杆菌中共表达时可被乙酰化。利用核磁共振波谱，我们发现N端乙酰化的FUS LC（FUS LC Nt-Ac）并未显著改变单体FUS LC的结构或运动。尽管结构无差异，Nt-Ac-FUS LC比未修饰的FUS LC更易发生相分离。更重要的是，FUS LC的N端乙酰化减少了聚集。我们的发现强调了经历生理性LLPS和病理性聚集的蛋白质N端乙酰化的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33547841/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33547841/",
+  "paper_page_path": "papers/pubmed/33547841/index.html"
+}

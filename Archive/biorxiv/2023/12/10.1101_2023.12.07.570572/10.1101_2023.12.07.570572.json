@@ -1,0 +1,257 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.07.570572",
+  "title": "The cryoEM structure of the Hendra henipavirus nucleoprotein reveals insights into paramyxoviral nucleocapsid architectures",
+  "doi": "10.1101/2023.12.07.570572",
+  "abstract": "We report the first cryoEM structure of the Hendra henipavirus nucleoprotein in complex with RNA, at 3.5 Å resolution, derived from single particle analysis of homotetradecameric RNA-bound N protein rings exhibiting D14 symmetry. The structure of the HeV N protein adopts the common bi-lobed paramyxoviral N protein fold; the N-terminal and C-terminal globular domains are bisected by an RNA binding cleft containing six RNA nucleotides and are flanked by the N-terminal and C-terminal arms, respectively. In common with other paramyxoviral nucleocapsids, the lateral interface between adjacent N and N +1 protomers involves electrostatic and hydrophobic interactions mediated primarily through the N-terminal arm and globular domains with minor contribution from the C-terminal arm. However, the HeV N multimeric assembly uniquely identifies an additional interaction between N +1 and N -1 protomers. The model presented here broadens the understanding of RNA-bound paramyxoviral nucleocapsid architectures and provides a platform for further insight into the molecular biology of HeV, as well as the development of antiviral interventions.",
+  "authors": [
+    "Passchier TC",
+    "White JBR",
+    "Maskell DP",
+    "Byrne MJ",
+    "Ranson NA",
+    "Edwards TA",
+    "Barr JN"
+  ],
+  "published_date": "2023-12-07",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.07.570572",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.07.570572.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR770773",
+    "raw_record": {
+      "id": "PPR770773",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR770773"
+        ]
+      },
+      "doi": "10.1101/2023.12.07.570572",
+      "title": "The cryoEM structure of the  <i>Hendra henipavirus</i>  nucleoprotein reveals insights into paramyxoviral nucleocapsid architectures",
+      "authorString": "Passchier TC, White JBR, Maskell DP, Byrne MJ, Ranson NA, Edwards TA, Barr JN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Passchier TC",
+            "lastName": "Passchier",
+            "firstName": "Tim",
+            "initials": "TC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, LS2 9JT, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "White JBR",
+            "lastName": "White",
+            "firstName": "Joshua",
+            "initials": "JBR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, LS2 9JT, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maskell DP",
+            "lastName": "Maskell",
+            "firstName": "Daniel",
+            "initials": "DP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, LS2 9JT, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Byrne MJ",
+            "lastName": "Byrne",
+            "firstName": "Matthew",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, LS2 9JT, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ranson NA",
+            "lastName": "Ranson",
+            "firstName": "Neil",
+            "initials": "NA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, LS2 9JT, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Edwards TA",
+            "lastName": "Edwards",
+            "firstName": "Thomas",
+            "initials": "TA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1467-3674"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, LS2 9JT, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barr JN",
+            "lastName": "Barr",
+            "firstName": "John",
+            "initials": "JN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9035-2039"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, School of Molecular and Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, LS2 9JT, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1467-3674"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9035-2039"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "We report the first cryoEM structure of the  Hendra henipavirus nucleoprotein in complex with RNA, at 3.5 Å resolution, derived from single particle analysis of homotetradecameric RNA-bound N protein rings exhibiting D14 symmetry. The structure of the HeV N protein adopts the common bi-lobed paramyxoviral N protein fold; the N-terminal and C-terminal globular domains are bisected by an RNA binding cleft containing six RNA nucleotides and are flanked by the N-terminal and C-terminal arms, respectively. In common with other paramyxoviral nucleocapsids, the lateral interface between adjacent N and N  +1 protomers involves electrostatic and hydrophobic interactions mediated primarily through the N-terminal arm and globular domains with minor contribution from the C-terminal arm. However, the HeV N multimeric assembly uniquely identifies an additional interaction between N  +1 and N  -1 protomers. The model presented here broadens the understanding of RNA-bound paramyxoviral nucleocapsid architectures and provides a platform for further insight into the molecular biology of HeV, as well as the development of antiviral interventions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "215064/Z/18/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "218785/Z/19/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "108466/Z/15/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/23/2023.12.07.570572.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.12.07.570572"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR770773"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR770773&type=FILE&fileName=EMS192647-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS192647",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "emdb",
+          "refseq",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-12-09",
+      "firstPublicationDate": "2023-12-07",
+      "firstIndexDate": "2023-12-09",
+      "fullTextReceivedDate": "2024-02-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

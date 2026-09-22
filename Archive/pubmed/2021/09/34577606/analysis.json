@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34577606",
+  "title": "Semaphorin 3A-Glycosaminoglycans Interaction as Therapeutic Target for Axonal Regeneration.",
+  "authors": "Perez, Yolanda; Bonet, Roman; Corredor, Miriam; Domingo, Cecilia; Moure, Alejandra; Messeguer, Angel; Bujons, Jordi; Alfonso, Ignacio",
+  "journal": "Pharmaceuticals (Basel, Switzerland)",
+  "published_date": "2021-09-29",
+  "window": {
+    "start": "2021-09-27",
+    "end": "2021-10-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究表征Sema3A无序C端区域与GAG的互作，并用NMR和分子动力学模拟探索小分子破坏该PPI，虽对象非典型IDP-PPI且无AI，但无序区域介导互作机制建模对本课题有启发。",
+  "abstract": "Semaphorin 3A (Sema3A) is a cell-secreted protein that participates in the axonal guidance pathways. Sema3A acts as a canonical repulsive axon guidance molecule, inhibiting CNS regenerative axonal growth and propagation. Therefore, interfering with Sema3A signaling is proposed as a therapeutic target for achieving functional recovery after CNS injuries. It has been shown that Sema3A adheres to the proteoglycan component of the extracellular matrix (ECM) and selectively binds to heparin and chondroitin sulfate-E (CS-E) glycosaminoglycans (GAGs). We hypothesize that the biologically relevant interaction between Sema3A and GAGs takes place at Sema3A C-terminal polybasic region (SCT). The aims of this study were to characterize the interaction of the whole Sema3A C-terminal polybasic region (Sema3A 725-771) with GAGs and to investigate the disruption of this interaction by small molecules. Recombinant Sema3A basic domain was produced and we used a combination of biophysical techniques (NMR, SPR, and heparin affinity chromatography) to gain insight into the interaction of the Sema3A C-terminal domain with GAGs. The results demonstrate that SCT is an intrinsically disordered region, which confirms that SCT binds to GAGs and helps to identify the specific residues involved in the interaction. NMR studies, supported by molecular dynamics simulations, show that a new peptoid molecule (CSIC02) may disrupt the interaction between SCT and heparin. Our structural study paves the way toward the design of new molecules targeting these protein-GAG interactions with potential therapeutic applications.",
+  "abstract_zh": "Semaphorin 3A (Sema3A) 是一种细胞分泌蛋白，参与轴突导向通路。Sema3A 作为典型的排斥性轴突导向分子，抑制中枢神经系统再生性轴突生长和传播。因此，干扰 Sema3A 信号传导被提议作为中枢神经系统损伤后实现功能恢复的治疗靶点。研究表明，Sema3A 粘附于细胞外基质 (ECM) 的蛋白聚糖成分，并选择性结合肝素和硫酸软骨素-E (CS-E) 糖胺聚糖 (GAGs)。我们假设 Sema3A 与 GAGs 之间的生物学相关相互作用发生在 Sema3A C 端多碱性区域 (SCT)。本研究旨在表征整个 Sema3A C 端多碱性区域 (Sema3A 725-771) 与 GAGs 的相互作用，并探讨小分子对此相互作用的干扰。我们生产了重组 Sema3A 碱性结构域，并结合生物物理技术 (NMR、SPR 和肝素亲和色谱) 来深入了解 Sema3A C 端结构域与 GAGs 的相互作用。结果表明，SCT 是一个内在无序区域，这证实了 SCT 与 GAGs 结合，并有助于识别参与相互作用的特定残基。NMR 研究，辅以分子动力学模拟，显示一种新的肽模拟分子 (CSIC02) 可能破坏 SCT 与肝素之间的相互作用。我们的结构研究为设计靶向这些蛋白-GAG 相互作用的新分子铺平了道路，具有潜在的治疗应用价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34577606/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34577606/",
+  "paper_page_path": "papers/pubmed/34577606/index.html"
+}

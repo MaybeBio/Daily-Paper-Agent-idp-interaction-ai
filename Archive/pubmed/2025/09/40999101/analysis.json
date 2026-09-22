@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40999101",
+  "title": "Field-oriented assessment of bovine tuberculosis in Tunisian cattle: IDR, PCR(Mpb70) and serological test prediction based on AI approaches.",
+  "authors": "Jaajaa, Said; Bouglita, Wafa; Khamessi, Oussema; Mahjoub, Ghada; Dhaouadi, Sana; Rjeb, Ahmed; Ghedira, Kais; Smadhi, Hanen; Elandoulsi, Ramzi Boubaker",
+  "journal": "World journal of microbiology & biotechnology",
+  "published_date": "2025-09-26",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究用AI方法评估牛结核病诊断测试（IDR、PCR、血清学）的性能，对象为传染病诊断，与无序蛋白/IDR/PPI/相分离机制建模完全无关。",
+  "abstract": "Bovine tuberculosis (bTB), caused by Mycobacterium bovis (M. bovis), remains a major zoonotic and economically burdensome disease worldwide. In Tunisia, where bTB has remained present for many years, Efforts to eliminate the disease have been slowed down by limited diagnostic tools and a lack of resources. The tuberculin Intra Dermal Reaction test (IDR), also known as Tuberculin Skin Test (TST), is still the main tool for surveillance, but its low sensitivity and specificity show the need for better diagnostic methods. This study evaluated the diagnostic performance of IDR, PCR(Mpb70) and three serological rapid tests: Quickvet Ab((R)) (Ac1, detecting antibodies against a recombinant M.bovis antigen), Vetdiagnostix Ab((R)) (Ac2, detecting antibodies against a recombinant MPB70/MPB83 fusion protein), and Vetdiagnostix Ag((R)) (Monoclonal antibodies against Bovine IFN-gamma detecting a native M. bovis antigen complex) in Tunisian cattle (n = 32). Based on AI, Bayesian Latent Class Model (BLCM) analysis, PCR(Mpb70) was identified as the most reliable reference standard due to its high sensitivity (Se) and perfect specificity (Sp) when assessed alongside other tests. Using PCR(Mpb70) as a proxy gold standard, supervised machine learning via the Random Forest algorithm was employed to assess the predictive performance of the individual and combined diagnostic tests. As a main result, a high bTB prevalence (46.37%) was confirmed in the tested animals, although prevalence estimates varied considerably depending on the diagnostic test used (average +/- 9.76). The combinations IDR2/Ac2, IDR2/Ag, and IDR2/Ac2/Ag pair a second IntraDermal test (IDR2) with antibody tests for Ac2, Ag, or both, proved to be the most informative and complementary alternatives to PCR. These approaches provide practical and effective diagnostic options for field settings where access to molecular testing is limited or unavailable.",
+  "abstract_zh": "牛结核病（bTB）由牛分枝杆菌（Mycobacterium bovis, M. bovis）引起，仍然是全球范围内一种重要的人畜共患且经济负担沉重的疾病。在突尼斯，bTB多年来持续存在，由于诊断工具有限和资源匮乏，消除该病的努力进展缓慢。结核菌素皮内反应试验（IDR），也称为结核菌素皮肤试验（TST），仍是监测的主要工具，但其低敏感性和低特异性表明需要更优的诊断方法。本研究评估了IDR、PCR（Mpb70）及三种血清学快速检测在突尼斯牛群（n = 32）中的诊断性能：Quickvet Ab（(R)）（Ac1，检测针对重组M. bovis抗原的抗体）、Vetdiagnostix Ab（(R)）（Ac2，检测针对重组MPB70/MPB83融合蛋白的抗体）和Vetdiagnostix Ag（(R)）（针对牛干扰素-γ的单克隆抗体，检测天然M. bovis抗原复合物）。基于AI，贝叶斯潜在类别模型（BLCM）分析显示，PCR（Mpb70）被确定为最可靠的参考标准，因其在与其他检测方法联合评估时具有高敏感性（Se）和完美特异性（Sp）。以PCR（Mpb70）作为代理金标准，采用随机森林算法的监督机器学习用于评估单独及组合诊断检测的预测性能。主要结果为，在受检动物中确认了高bTB患病率（46.37%），尽管患病率估计值因所用诊断检测不同而有显著差异（平均±9.76）。组合IDR2/Ac2、IDR2/Ag和IDR2/Ac2/Ag，将第二次皮内试验（IDR2）与针对Ac2、Ag或两者的抗体检测配对，被证明是PCR最具信息量且互补的替代方案。这些方法为分子检测获取受限或不可用的现场环境提供了实用且有效的诊断选择。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40999101/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40999101/",
+  "paper_page_path": "papers/pubmed/40999101/index.html"
+}

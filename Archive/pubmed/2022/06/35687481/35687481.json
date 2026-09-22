@@ -1,0 +1,309 @@
+{
+  "identity": {
+    "pmid": "35687481",
+    "doi": "10.1021/acs.jpcb.2c01253",
+    "title": "Phosphatidylserine and Phosphatidylethanolamine Asymmetry Have a Negligible Effect on the Global Structure, Dynamics, and Interactions of the KRAS Lipid Anchor."
+  },
+  "content": {
+    "abstract": "The intrinsically disordered C-terminus of the prominent oncogenic protein KRAS-4B (KRAS) selectively interacts and clusters with phosphatidylserine (PS) lipids in the plasma membrane (PM). This 11-residue segment, called tK, contains a polybasic domain (PBD) of six contiguous lysine residues and a farnesylated cysteine. Previous molecular dynamics (MD) simulation studies of tK in phosphatidylcholine (PC)/PS bilayers have suggested that backbone conformational dynamics modulate tK-PS interactions. These simulations have been conducted in symmetric membranes whereas the PM is compositionally asymmetric, with the inner leaflet, where KRAS is localized, being enriched with PS and phosphatidylethanolamine (PE) lipids. To examine if bilayer asymmetry affects tK conformational dynamics and interaction with lipids, we conducted two 10 mus long MD simulations of tK bound to a PC/PS and a PC/PS/PE bilayer in which the PS and PE lipids are distributed in one leaflet. We found that, first, these compositional asymmetries caused differences in acyl chain dynamics between leaflets, but the equilibrium structural and dynamic properties of the two asymmetric bilayers are similar; second, in both systems tK is highly dynamic and samples at least two distinct conformational states; third, PS-tK hydrogen-bonding interactions vary with peptide backbone conformations, and lysine side chains in the PBD predominantly interact with the serine oxygens of PS. These results are in good agreement with previous observations of tK in symmetric membranes. The effects of POPS asymmetry or the presence of POPE on tK are limited to modulating the relative contribution of individual side chains to interactions with lipids and redistributing conformational substates. Additional observations include the larger flexibility of tK in the current simulations, which we attribute to the longer duration of the simulations and the use of the CHARMM36m force field, which more accurately models intrinsically disordered peptides such as tK.",
+    "keywords": [],
+    "mesh_terms": [
+      "Lipid Bilayers/chemistry",
+      "Lysine",
+      "Phosphatidylcholines/chemistry",
+      "*Phosphatidylethanolamines/chemistry",
+      "*Phosphatidylserines/chemistry",
+      "Proto-Oncogene Proteins p21(ras)/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Araya, Mussie K",
+        "Gorfe, Alemayehu A"
+      ],
+      "short_names": [
+        "Araya MK",
+        "Gorfe AA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9328-4692"
+      ],
+      "affiliations": [
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, University of Texas Health Science Center at Houston, 6431 Fannin St., Houston, Texas 77030, United States.",
+        "Department of Integrative Biology and Pharmacology, McGovern Medical School, University of Texas Health Science Center at Houston, 6431 Fannin St., Houston, Texas 77030, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Araya, Mussie K",
+        "short_name": "Araya MK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, University of Texas Health Science Center at Houston, 6431 Fannin St., Houston, Texas 77030, United States."
+        ]
+      },
+      {
+        "full_name": "Gorfe, Alemayehu A",
+        "short_name": "Gorfe AA",
+        "identifiers": [
+          "0000-0002-9328-4692"
+        ],
+        "affiliations": [
+          "Department of Integrative Biology and Pharmacology, McGovern Medical School, University of Texas Health Science Center at Houston, 6431 Fannin St., Houston, Texas 77030, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2022 Jun 23",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/11 06:00",
+    "fetched_at": "2026-09-20 11:02:04"
+  },
+  "links": {
+    "cites": [
+      "41651414",
+      "40801144",
+      "39001846",
+      "38943706",
+      "38942776",
+      "37919400",
+      "37633182",
+      "37504995",
+      "35930019"
+    ],
+    "refs": [
+      "34653389",
+      "33526670",
+      "33155649",
+      "32752662",
+      "32367016",
+      "32209560",
+      "32027820",
+      "31958057",
+      "31554397",
+      "31493860",
+      "31438765",
+      "30616834",
+      "29855542",
+      "29229665",
+      "28041850",
+      "27819658",
+      "26958889",
+      "26654782",
+      "26616788",
+      "25955841",
+      "25713064",
+      "25130509",
+      "21819968",
+      "21112291",
+      "20617134",
+      "19804725",
+      "19580743",
+      "18761454",
+      "18621822",
+      "18351591",
+      "17849009",
+      "16604469",
+      "15548025",
+      "12719238",
+      "12324428",
+      "8744570",
+      "6337629",
+      "3955038"
+    ],
+    "similar": [
+      "35687481",
+      "23401539",
+      "33526670",
+      "26827904",
+      "18225878",
+      "21473645",
+      "27664502",
+      "30954213",
+      "27121138",
+      "15635254",
+      "25436970",
+      "37919400",
+      "23895572",
+      "22369354",
+      "31118479",
+      "36795947",
+      "27526681",
+      "8466911",
+      "11148042",
+      "30616834",
+      "37609330",
+      "26497753",
+      "28356535",
+      "21112291",
+      "26659855",
+      "29024593",
+      "9860844",
+      "24986456",
+      "27761499",
+      "29239694",
+      "7756552",
+      "21294564",
+      "3955180",
+      "38096496",
+      "17766350",
+      "18363402",
+      "28002946",
+      "33533367",
+      "32933265",
+      "24807693",
+      "10956003",
+      "39288811",
+      "31554397",
+      "31574222",
+      "35204684",
+      "7490265",
+      "24689790",
+      "1734960",
+      "7946065",
+      "29320681",
+      "16456222",
+      "30295483",
+      "12124281",
+      "9477969",
+      "16035800",
+      "27035634",
+      "16214871",
+      "31816323",
+      "27958740",
+      "6466608",
+      "28585804",
+      "21610074",
+      "12632206",
+      "16150973",
+      "8399295",
+      "24024591",
+      "8061200",
+      "32710854",
+      "22820347",
+      "10827979",
+      "17142272",
+      "29169746",
+      "9336192",
+      "31059265",
+      "16905614",
+      "28702543",
+      "8765713",
+      "27465729",
+      "15170347",
+      "30266319",
+      "23073177",
+      "27771953",
+      "11053135",
+      "31056917",
+      "36883374",
+      "22274566",
+      "26631602",
+      "19445452",
+      "9404670",
+      "22766297",
+      "31386337",
+      "16250335",
+      "10465778",
+      "30019106",
+      "27275841",
+      "1493615",
+      "17676793",
+      "29799756",
+      "25237736",
+      "8457667",
+      "12083922",
+      "9753438",
+      "27034995",
+      "21454708",
+      "39330522",
+      "38191035",
+      "39002247",
+      "36988943",
+      "39025575",
+      "33266473",
+      "34384763",
+      "36606294",
+      "38334958",
+      "35892343",
+      "38853864",
+      "26402709",
+      "34653389",
+      "38355393",
+      "35530371",
+      "35108564",
+      "37586469",
+      "38854128",
+      "24358048",
+      "37627303",
+      "36895318",
+      "38192346",
+      "26290979",
+      "37504995",
+      "31737850",
+      "35054590",
+      "31988705"
+    ],
+    "review": [
+      "35687481",
+      "38191035",
+      "38355393",
+      "38192346",
+      "37504995",
+      "31988705"
+    ],
+    "pmc": [
+      "9531325"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35687481/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35687481",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1550",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.2c01253",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

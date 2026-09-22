@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33453922",
+  "title": "Using a sequence-specific coarse-grained model for studying protein liquid-liquid phase separation.",
+  "authors": "Mammen Regy, Roshan; Zheng, Wenwei; Mittal, Jeetain",
+  "journal": "Methods in enzymology",
+  "published_date": "2021-01-18",
+  "window": {
+    "start": "2021-01-18",
+    "end": "2021-01-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文介绍了一种基于单珠粗粒化模型和共存采样的分子动力学方法，用于研究序列特异性IDP的液-液相分离，直接聚焦无序蛋白介导的互作机制建模，虽未涉及AI但物理模拟方法扎实，对相分离PPI机制研究有直接启发。",
+  "abstract": "The formation of membraneless organelles (MLOs) via liquid-liquid phase separation (LLPS) of biomolecules is a topic that has garnered significant attention in the scientific community recently. Experimental studies have revealed that intrinsically disordered proteins (IDPs) may play a major role in driving the formation of these droplets via LLPS by forming multivalent interactions between amino acids. To quantify these interactions is an arduous task as it is difficult to investigate these interactions at the amino acid level using currently available experimental tools. It becomes necessary to complement experimental studies using appropriate computational methods such as coarse-grained models of IDPs that can allow one to simulate biomolecular LLPS using general-purpose hardware. Here, we summarize our coarse-grained modeling framework that uses a single bead per amino acid resolution and the co-existence sampling technique to study sequence-specific protein phase separation using molecular dynamics simulations. We further discuss the caveats and technicalities, which one must consider while using this method to obtain thermodynamic phase diagrams. To ease the learning curve, we provide our implementations of the coarse-grained potentials in the HOOMD-Blue simulation package and associated python scripts to run such simulations.",
+  "abstract_zh": "通过生物分子的液-液相分离（liquid-liquid phase separation, LLPS）形成无膜细胞器（membraneless organelles, MLOs）是近期科学界备受关注的话题。实验研究揭示， intrinsically disordered proteins (IDPs) 可能通过氨基酸之间的多价相互作用，在驱动这些液滴通过LLPS形成中发挥主要作用。量化这些相互作用是一项艰巨任务，因为使用现有实验工具难以在氨基酸水平上研究这些相互作用。因此，有必要采用适当的计算方法（如IDPs的粗粒化模型）来补充实验研究，这些模型允许使用通用硬件模拟生物分子LLPS。在此，我们总结了我们的粗粒化建模框架，该框架采用每个氨基酸一个珠子的分辨率，并结合共存采样技术，通过分子动力学模拟研究序列特异性蛋白质相分离。我们进一步讨论了使用此方法获取热力学相图时必须考虑的注意事项和技术细节。为降低学习曲线，我们在HOOMD-Blue模拟包中提供了粗粒化势能的实现，以及运行此类模拟的相关python脚本。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33453922/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33453922/",
+  "paper_page_path": "papers/pubmed/33453922/index.html"
+}

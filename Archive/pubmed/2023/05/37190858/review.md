@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or quantitative results were available for evaluation
+- **Shared manuscript claim summary** The authors use dissipative particle dynamics simulations of a coarse-grained polymer model, inspired by galectin-3, to show that biomolecular condensates can form on lipid membranes, induce lateral lipid segregation, and localize to inward-curved membrane regions, thereby exhibiting apparent membrane curvature sensing despite lacking intrinsic curvature or shape preference.
+- **Visible evidence base** Abstract text only; no simulation details, parameter values, control simulations, or quantitative metrics are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, all figures and tables, quantitative analysis, control experiments, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that biomolecular condensates may sense membrane curvature through a generic clustering mechanism, which could have implications for endocytosis and related processes. However, the current evidence base is limited to a brief summary of simulation findings, with no access to the underlying methodology, quantitative results, or validation. The central claim of "curvature sensing" is intriguing but requires careful scrutiny regarding whether the observed localization reflects true sensing or a passive consequence of the simulation setup. The work may be of interest to the soft matter and biophysics communities, but the case is not fully established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in soft matter physics, biophysics, and cell biology, particularly those studying biomolecular condensates, membrane remodeling, and endocytic mechanisms. The proposed generic mechanism could inform experimental studies on galectin-3 and other membrane-associated condensates, and may appeal to computational biologists interested in coarse-grained simulations of membrane-protein interactions.
+- **Major strengths** The abstract addresses a timely and understudied topic, namely membrane-associated biomolecular condensates, which have received less attention than cytosolic or nuclear condensates. The connection to galectin-3 and endocytosis provides biological relevance. The use of a generic coarse-grained model is appropriate for exploring general principles, and the finding of apparent curvature sensing without intrinsic curvature is a potentially novel and thought-provoking result.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that polymer droplets "localize at membrane regions curved inward" and that this indicates "membrane curvature sensing" by the condensates.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not provide any details on how membrane curvature was imposed or generated in the simulations, nor how the localization was quantified. Without knowing whether the curvature was pre-defined, dynamically induced, or emergent from the polymer-membrane interactions, it is impossible to assess whether the observed localization reflects a genuine sensing mechanism or an artifact of the simulation design.  
+  - **Why it matters** The central conclusion of the paper hinges on the interpretation of curvature sensing. If the membrane curvature is externally imposed and the polymers simply partition to regions with favorable local lipid composition or packing, the result may be trivial or unrelated to biological curvature sensing. The distinction between active sensing and passive response is critical for the claimed generality.  
+  - **Resolution test** The authors must provide a clear description of the simulation setup, including how curvature is introduced, the range of curvatures tested, and quantitative measures of polymer localization (e.g., density profiles or free energy calculations). They should also include control simulations with homogeneous membranes or non-interacting polymers to demonstrate that the localization is specific to the condensate-forming polymers and not a generic feature of the model.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors state that their results "indicate toward a generic mechanism of membrane curvature sensing by BCs involved in such processes as endocytosis."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no quantitative data, such as the magnitude of curvature preference, the dependence on polymer concentration or membrane composition, or the timescales of droplet formation and localization. Without these details, the claim of a "generic mechanism" is speculative and cannot be evaluated for its robustness or biological relevance.  
+  - **Why it matters** The significance of the work depends on whether the proposed mechanism is robust across parameter space and can be extrapolated to biological conditions. If the effect is only observed under narrow simulation conditions, the claim of generality is overstated.  
+  - **Resolution test** The authors should present a systematic parameter study, including variations in polymer length, interaction strengths, membrane bending rigidity, and lipid composition, to demonstrate that the curvature-sensing behavior is robust. They should also discuss how the simulation parameters map to biological scales and whether the predicted behavior is consistent with experimental observations of galectin-3 condensates.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interdisciplinary readership  
+  - **Claim pointer** The abstract implies that the findings are relevant to endocytosis, specifically referencing galectin-3-mediated clathrin-independent endocytosis.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not explain how the simulation results connect to the biological function of galectin-3 in endocytic pit formation. The leap from a generic polymer model to a specific biological process is not justified without a discussion of the biological context, such as the relevant membrane curvatures in endocytic pits or the known behavior of galectin-3 at membranes.  
+  - **Why it matters** For a broad readership, including cell biologists, the biological implications must be clearly articulated and supported. Without this connection, the work may be perceived as purely theoretical with limited practical relevance.  
+  - **Resolution test** The authors should include a discussion section that explicitly links the simulation findings to experimental observations of galectin-3 and endocytosis, citing relevant literature and specifying the expected curvature ranges and timescales. They should also state any predictions that could be tested experimentally.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract uses terms such as "dissipative particle dynamics" and "coarse-grained model" without defining them, which may hinder comprehension for readers outside the simulation community.  
+  - **Required correction** Provide brief definitions or context for these terms, or rephrase to emphasize the conceptual approach rather than the technical method.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Model description  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract states that polymers comprise two segments, one mediating multivalent interactions and one with affinity for lipid head groups, but does not specify the length or architecture of the polymers, which could affect the conclusions.  
+  - **Required correction** Include a brief description of the polymer architecture and the range of parameters tested, or refer to a methods section where these details are provided.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Originality  
+  - **Affected element** Literature context  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Issue** The abstract does not situate the work within existing literature on membrane curvature sensing by proteins or condensates, making it difficult to assess the novelty of the proposed mechanism.  
+  - **Required correction** Add a sentence in the abstract or introduction that contrasts the proposed mechanism with known curvature-sensing mechanisms, such as those involving BAR domains or amphipathic helices.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of curvature sensing and generality cannot be evaluated without quantitative simulation details and control studies. The lack of a clear connection to biological context (R1-M3) is a significant gap but not necessarily blocking for a soft matter audience.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of condensates sensing membrane curvature through clustering is potentially novel, but the abstract does not provide enough context to distinguish it from prior work on membrane-protein interactions or condensate wetting.  
+  - **Scientific importance** The topic is timely and relevant, but the importance is not fully established without quantitative evidence and a clear link to biological processes.  
+  - **Interdisciplinary readership** The work could appeal to both soft matter physicists and cell biologists, but the abstract currently leans toward a specialized simulation audience and does not sufficiently bridge the gap to biology.  
+  - **Technical soundness** The simulation approach is appropriate, but the lack of methodological details and control simulations prevents a full assessment of technical rigor.  
+  - **Readability for nonspecialists** The abstract is concise but uses jargon that may limit accessibility; the biological motivation is clear, but the technical execution is not explained in accessible terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of quantitative results, methodological details, and biological context means that the central claims cannot be verified. I would be supportive if the full manuscript addresses the blocking concerns, particularly by providing robust simulation evidence for curvature sensing and a clear discussion of biological relevance.
+
+## Risk / unsupported claims
+- The claim that polymer droplets "sense" membrane curvature is unsupported without quantitative localization data and control simulations.
+- The claim of a "generic mechanism" is unsupported without a systematic parameter study.
+- The connection to galectin-3-mediated endocytosis is speculative and not substantiated by any data in the abstract.
+- The statement that BCs at the cell membrane "have not been studied to the same extent" is a general assertion that cannot be verified from the abstract alone.

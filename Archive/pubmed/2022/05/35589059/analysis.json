@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35589059",
+  "title": "Phylogeny of NF-YA trans-activation splicing isoforms in vertebrate evolution.",
+  "authors": "Bernardini, Andrea; Gallo, Alberto; Gnesutta, Nerina; Dolfini, Diletta; Mantovani, Roberto",
+  "journal": "Genomics",
+  "published_date": "2022-05-20",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究NF-YA转录因子剪接异构体的系统发育，虽涉及IDR结构预测，但核心是进化分析而非PPI互作机制建模，且无AI/物理模拟方法贡献。",
+  "abstract": "NF-Y is a trimeric pioneer Transcription Factor (TF) whose target sequence -the CCAAT box- is present in ~25% of mammalian promoters. We reconstruct the phylogenetic history of the regulatory NF-YA subunit in vertebrates. We find that in addition to the remarkable conservation of the subunits-interaction and DNA-binding parts, the Transcriptional Activation Domain (TAD) is also conserved (>90% identity among bony vertebrates). We infer the phylogeny of the alternatively spliced exon-3 and partial splicing events of exon-7 -7N and 7C- revealing independent clade-specific losses of these regions. These isoforms shape the TAD. Absence of exon-3 in basal deuterostomes, cartilaginous fishes and hagfish, but not in lampreys, suggests that the \"short\" isoform is primordial, with emergence of exon-3 in chordates. Exon 7N was present in the vertebrate common ancestor, while 7C is a molecular innovation of teleost fishes. RNA-seq analysis in several species confirms expression of all these isoforms. We identify 3 blocks of amino acids in the TAD shared across deuterostomes, yet structural predictions and sequence analyses suggest an evolutionary drive for maintenance of an Intrinsically Disordered Region -IDR- within the TAD. Overall, these data help reconstruct the logic for alternative splicing of this essential eukaryotic TF.",
+  "abstract_zh": "NF-Y是一种三聚体先驱转录因子（Transcription Factor, TF），其靶序列——CCAAT盒——存在于约25%的哺乳动物启动子中。我们重建了脊椎动物中调控性NF-YA亚基的系统发育历史。我们发现，除了亚基相互作用和DNA结合部分的显著保守性外，转录激活域（Transcriptional Activation Domain, TAD）也高度保守（在硬骨脊椎动物中一致性>90%）。我们推断选择性剪接的外显子3以及外显子7的部分剪接事件——7N和7C——的系统发育关系，揭示了这些区域独立且具有支系特异性的丢失。这些异构体塑造了TAD。外显子3在基础后口动物、软骨鱼类和盲鳗中缺失，但在七鳃鳗中存在，这表明“短”异构体是原始的，而外显子3在脊索动物中出现。外显子7N存在于脊椎动物共同祖先中，而7C是硬骨鱼类的分子创新。多个物种的RNA-seq分析确认了所有这些异构体的表达。我们在TAD中识别出3个在后口动物中共享的氨基酸模块，但结构预测和序列分析表明，存在维持TAD内固有无序区域（Intrinsically Disordered Region, IDR）的进化驱动力。总体而言，这些数据有助于重建这一关键真核转录因子选择性剪接的逻辑。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35589059/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35589059/",
+  "paper_page_path": "papers/pubmed/35589059/index.html"
+}

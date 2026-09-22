@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35778087",
+  "title": "Microcompartment assembly around multicomponent fluid cargoes.",
+  "authors": "Tsidilkovski, Lev; Mohajerani, Farzaneh; Hagan, Michael F",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2022-07-02",
+  "window": {
+    "start": "2022-06-27",
+    "end": "2022-07-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用动力学模拟研究二十面体蛋白壳围绕双组分流体货物的组装，涉及多组分液-液相分离与自组装的耦合，虽对象非IDP但相分离机制建模思路对无序蛋白介导的凝聚体PPI研究有启发。",
+  "abstract": "This article describes dynamical simulations of the assembly of an icosahedral protein shell around a bicomponent fluid cargo. Our simulations are motivated by bacterial microcompartments, which are protein shells found in bacteria that assemble around a complex of enzymes and other components involved in certain metabolic processes. The simulations demonstrate that the relative interaction strengths among the different cargo species play a key role in determining the amount of each species that is encapsulated, their spatial organization, and the nature of the shell assembly pathways. However, the shell protein-shell protein and shell protein-cargo component interactions that help drive assembly and encapsulation also influence cargo composition within certain parameter regimes. These behaviors are governed by a combination of thermodynamic and kinetic effects. In addition to elucidating how natural microcompartments encapsulate multiple components involved within reaction cascades, these results have implications for efforts in synthetic biology to colocalize alternative sets of molecules within microcompartments to accelerate specific reactions. More broadly, the results suggest that coupling between self-assembly and multicomponent liquid-liquid phase separation may play a role in the organization of the cellular cytoplasm.",
+  "abstract_zh": "本文描述了二十面体蛋白质外壳围绕双组分流体货物组装的动力学模拟。我们的模拟受细菌微区室启发，这些是细菌中发现的蛋白质外壳，围绕涉及特定代谢过程的酶及其他组分复合物组装。模拟表明，不同货物种类之间的相对相互作用强度在决定每种货物的封装量、其空间组织以及外壳组装途径的性质方面起关键作用。然而，驱动组装和封装的壳蛋白-壳蛋白及壳蛋白-货物组分相互作用，也在某些参数范围内影响货物组成。这些行为由热力学和动力学效应的组合控制。除了阐明天然微区室如何封装反应级联中涉及的多种组分外，这些结果对合成生物学中在微区室内共定位替代分子集以加速特定反应的努力具有启示意义。更广泛地，结果表明自组装与多组分液-液相分离 (liquid-liquid phase separation) 之间的耦合可能在细胞质组织化中发挥作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35778087/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35778087/",
+  "paper_page_path": "papers/pubmed/35778087/index.html"
+}

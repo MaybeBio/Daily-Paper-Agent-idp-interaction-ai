@@ -1,0 +1,342 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.18.683247",
+  "title": "The tryptophan-binding pockets of Arabidopsis AGO1 facilitate amplified RNA interference via SGS3",
+  "doi": "10.1101/2025.10.18.683247",
+  "abstract": "<h4>ABSTRACT</h4> ARGONAUTE (AGO) proteins associate with small RNAs to form RNA-induced silencing complexes (RISCs). Arabidopsis AGO1 effects post-transcriptional silencing by microRNAs (miRNAs) and small interfering RNAs (siRNAs) and is necessary for siRNA amplification through conversion of RISC target RNAs into double-stranded RNA by the RNA-dependent RNA Polymerase RDR6 and its mandatory cofactors SGS3 and SDE5. Many AGO proteins harbor hydrophobic pockets that interact with tryptophan residues, often surrounded by glycine (GW/WG), in intrinsically disordered regions (IDRs) of RISC cofactors. Here, we show that GW/WG dipeptides in the IDR of SGS3 and the hydrophobic pockets in AGO1 are required for fully functional RDR6-dependent siRNA amplification. We also show that this mechanism requires AGO1-specific structural elements, including positively charged residues surrounding the binding pockets, and a conserved, negatively charged patch in the IDR of SGS3. Thus, the same, conserved protein-protein interaction site is used for different purposes in distinct eukaryotic AGO proteins: the GW/WG-mediated TNRC6-Ago2 interaction is crucial for miRNA-guided silencing in metazoans whereas the GW/WG-mediated SGS3-AGO1 interaction facilitates siRNA amplification via RDR6 in plants.",
+  "authors": [
+    "López-Márquez D",
+    "Arribas-Hernández L",
+    "Poulsen C",
+    "Oksbjerg ED",
+    "Bouteiller N",
+    "Meier M",
+    "Blanke J",
+    "del Espino A",
+    "Vigh ML",
+    "Bressendorff S",
+    "Carbonell A",
+    "Daucke R",
+    "Schoof EM",
+    "Vaucheret H",
+    "Brodersen P"
+  ],
+  "published_date": "2025-10-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.18.683247",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.18.683247.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1104563",
+    "raw_record": {
+      "id": "PPR1104563",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1104563"
+        ]
+      },
+      "doi": "10.1101/2025.10.18.683247",
+      "title": "The tryptophan-binding pockets of Arabidopsis AGO1 facilitate amplified RNA interference via SGS3",
+      "authorString": "López-Márquez D, Arribas-Hernández L, Poulsen C, Oksbjerg ED, Bouteiller N, Meier M, Blanke J, del Espino A, Vigh ML, Bressendorff S, Carbonell A, Daucke R, Schoof EM, Vaucheret H, Brodersen P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "López-Márquez D",
+            "lastName": "López-Márquez",
+            "firstName": "Diego",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, Ole Maaløes Vej 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arribas-Hernández L",
+            "lastName": "Arribas-Hernández",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, Ole Maaløes Vej 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Poulsen C",
+            "lastName": "Poulsen",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, Ole Maaløes Vej 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oksbjerg ED",
+            "lastName": "Oksbjerg",
+            "firstName": "Emilie Duus",
+            "initials": "ED",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, Ole Maaløes Vej 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bouteiller N",
+            "lastName": "Bouteiller",
+            "firstName": "Nathalie",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meier M",
+            "lastName": "Meier",
+            "firstName": "Mads",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, Ole Maaløes Vej 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blanke J",
+            "lastName": "Blanke",
+            "firstName": "Johannes",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, Ole Maaløes Vej 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "del Espino A",
+            "lastName": "del Espino",
+            "firstName": "Angel",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, Ole Maaløes Vej 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vigh ML",
+            "lastName": "Vigh",
+            "firstName": "Maria Louisa",
+            "initials": "ML",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, Ole Maaløes Vej 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bressendorff S",
+            "lastName": "Bressendorff",
+            "firstName": "Simon",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, Ole Maaløes Vej 5 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carbonell A",
+            "lastName": "Carbonell",
+            "firstName": "Alberto",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "( - ), ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Daucke R",
+            "lastName": "Daucke",
+            "firstName": "Rune",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biotechnology and Biomedicine. Anker Engelundsvej 101 , . ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schoof EM",
+            "lastName": "Schoof",
+            "firstName": "Erwin",
+            "initials": "EM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biotechnology and Biomedicine. Anker Engelundsvej 101 , . ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vaucheret H",
+            "lastName": "Vaucheret",
+            "firstName": "Hervé",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brodersen P",
+            "lastName": "Brodersen",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Department of Biology, Ole Maaløes Vej 5 , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0605-0407"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  ARGONAUTE (AGO) proteins associate with small RNAs to form RNA-induced silencing complexes (RISCs). Arabidopsis AGO1 effects post-transcriptional silencing by microRNAs (miRNAs) and small interfering RNAs (siRNAs) and is necessary for siRNA amplification through conversion of RISC target RNAs into double-stranded RNA by the RNA-dependent RNA Polymerase RDR6 and its mandatory cofactors SGS3 and SDE5. Many AGO proteins harbor hydrophobic pockets that interact with tryptophan residues, often surrounded by glycine (GW/WG), in intrinsically disordered regions (IDRs) of RISC cofactors. Here, we show that GW/WG dipeptides in the IDR of SGS3 and the hydrophobic pockets in AGO1 are required for fully functional RDR6-dependent siRNA amplification. We also show that this mechanism requires AGO1-specific structural elements, including positively charged residues surrounding the binding pockets, and a conserved, negatively charged patch in the IDR of SGS3. Thus, the same, conserved protein-protein interaction site is used for different purposes in distinct eukaryotic AGO proteins: the GW/WG-mediated TNRC6-Ago2 interaction is crucial for miRNA-guided silencing in metazoans whereas the GW/WG-mediated SGS3-AGO1 interaction facilitates siRNA amplification via RDR6 in plants.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "282460",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "726417",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.10.18.683247"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1104563"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1104563&type=FILE&fileName=EMS209964-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS209964",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-10-21",
+      "firstPublicationDate": "2025-10-18",
+      "firstIndexDate": "2025-10-21",
+      "fullTextReceivedDate": "2025-11-12",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report a bioinformatics and molecular dynamics study of the disordered potential of spike glycoprotein endodomains across six coronaviruses, extending their prior work on SARS-CoV-2. They claim varying disorder propensity across these endodomains and suggest relevance for understanding pathogenicity and therapeutic development.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or results sections provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods details, sequence accession numbers, MD simulation parameters, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful extension of prior work on coronavirus spike endodomains, but the supplied material is insufficient to evaluate the technical quality, validity, or novelty of the findings. The claims are broad and largely unsupported by the evidence visible in the abstract. The study may interest virologists and structural biologists, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Virologists studying coronavirus entry and fusion mechanisms, structural biologists interested in intrinsically disordered regions, and researchers developing peptide-based or entry-targeting therapeutics. The focus on endodomain disorder could inform understanding of intracellular interactions and immune evasion.
+- **Major strengths** The study addresses a relatively underexplored region of coronavirus spike proteins, the cytoplasmic tail, which is functionally important for trafficking and fusion. The combination of sequence-based prediction and molecular dynamics is appropriate for assessing disorder propensity. The extension from SARS-CoV-2 to six other coronaviruses broadens the comparative scope.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim "varying disorder propensity in endodomains of spike proteins of coronaviruses" based on "multiple bioinformatics approaches and molecular dynamics simulations."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative results, no comparison metrics, no simulation details, and no validation of the disorder predictions. It is impossible to assess whether the reported variation is statistically significant, biologically meaningful, or an artifact of the chosen methods.
+  - **Why it matters** The central claim of the study rests on the demonstration of differential disorder propensity. Without visible data, the claim is unverifiable and the scientific contribution cannot be evaluated.
+  - **Resolution test** Provide the full results section with disorder propensity scores, statistical comparisons across the six coronaviruses, and MD simulation convergence and reproducibility metrics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and context
+  - **Claim pointer** The abstract states this is "in continuation with our previous study" and implies new findings for six other coronaviruses.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which six coronaviruses were studied, how they were selected, or what new insights beyond the prior SARS-CoV-2 study are provided. The novelty relative to existing literature on coronavirus spike cytoplasmic tails is not articulated.
+  - **Why it matters** Without clear delineation of the new contribution, the study may be seen as incremental or redundant, which affects its significance for a broad readership.
+  - **Resolution test** State the specific coronaviruses, the rationale for their selection, and explicitly compare findings with prior published work on spike endodomains.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methods transparency
+  - **Claim pointer** The abstract claims use of "multiple bioinformatics approaches and molecular dynamics simulations."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No methods are described. The specific prediction tools, force fields, simulation lengths, temperatures, and analysis protocols are absent. This prevents any assessment of methodological rigor or reproducibility.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. The absence of methods details means the work cannot be independently verified or built upon.
+  - **Resolution test** Provide a full methods section with software versions, parameters, and validation steps.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract introduction
+  - **Evidence pointer** Abstract text
+  - **Issue** The opening sentences on protein flexibility are generic and do not clearly frame the specific gap addressed by this study.
+  - **Required correction** Revise the introduction to state the specific unresolved question about coronavirus endodomain disorder and its functional relevance.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract text
+  - **Issue** The statement that findings "may help to understand the importance" is vague and does not specify the proposed mechanism or application.
+  - **Required correction** Provide a more concrete statement of the potential implications, such as specific interaction partners or therapeutic targeting strategies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not mention any limitations of the study or the need for experimental validation.
+  - **Required correction** Add a sentence acknowledging that predictions require experimental confirmation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract. The extension to six coronaviruses is potentially novel, but the abstract does not demonstrate how the findings differ from prior work.
+  - Scientific importance: Potentially moderate, as disordered regions in viral proteins are of interest, but the abstract does not establish functional significance.
+  - Interdisciplinary readership: The topic could appeal to virologists, structural biologists, and computational biologists, but the abstract is too generic to attract a broad audience.
+  - Technical soundness: Not assessable. No methods or results are visible.
+  - Readability for nonspecialists: The abstract is understandable but lacks specificity and concrete findings.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not permit a fair assessment of the study's validity or significance. A full manuscript with methods and results would be required to determine whether the claims are supported.
+
+## Risk / unsupported claims
+- The claim of "varying disorder propensity" is unsupported without quantitative data.
+- The implication that findings may aid therapeutic development is speculative and not backed by any functional or experimental evidence.
+- The statement that the study covers "six other coronaviruses" is unverifiable without listing the species or strains.
+- The relevance to pathogenicity is asserted but not demonstrated.

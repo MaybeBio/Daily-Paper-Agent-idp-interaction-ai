@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.02.27.481241",
+  "title": "EpiBERTope: a sequence-based pre-trained BERT model improves linear and structural epitope prediction by learning long-distance protein interactions effectively",
+  "authors": "Minjun Park; Seung-woo Seo; Eunyoung Park; Jinhan Kim",
+  "journal": "bioRxiv",
+  "published_date": "2022-03-02",
+  "window": {
+    "start": "2022-02-28",
+    "end": "2022-03-06"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用预训练BERT模型预测抗原表位（线性与构象），虽涉及序列长程相互作用，但对象为抗原表位而非无序蛋白/IDR，且无相分离或PPI机制建模，仅方法上可迁移启发。",
+  "abstract": "Motivation Epitopes are the immunogenic regions of antigen that are recognized by antibodies in a highly specific manner to trigger an immune response. Predicting such regions is extremely difficult yet contains profound implications for complex mechanisms of humoral immunogenicity. Results Here, we present a BERT-based epitope prediction model called EpiBERTope, a pre-trained model on the Swiss-Prot protein database, which can predict both linear and structural epitopes using protein sequences only. The model achieves an AUC of 0.922 and 0.667 for linear and structural epitope datasets respectively, outperforming all benchmark classification models including random forest, gradient boosting, naive Bayesian, and support vector machine models. In conclusion, EpiBERTope is a sequence-based model that captures content-based global interactions of antigen sequences, which will be transformative in epitope discovery with high specificity. Contact minjun.park@standigm.com",
+  "abstract_zh": "动机 表位（epitopes）是抗原的免疫原性区域，能够以高度特异性的方式被抗体识别，从而触发免疫反应。预测此类区域极为困难，但对体液免疫原性的复杂机制具有深远意义。结果 在此，我们提出一种基于BERT的表位预测模型，称为EpiBERTope，这是一个在Swiss-Prot蛋白质数据库上预训练的模型，仅使用蛋白质序列即可预测线性表位和构象表位。该模型在线性表位和构象表位数据集上分别达到0.922和0.667的AUC，优于所有基准分类模型，包括随机森林、梯度提升、朴素贝叶斯和支持向量机模型。结论 EpiBERTope是一种基于序列的模型，能够捕获抗原序列中基于内容的全局相互作用，这将在高特异性的表位发现中具有变革性意义。联系方式 minjun.park@standigm.com",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.02.27.481241",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.02.27.481241",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.02.27.481241/index.html"
+}

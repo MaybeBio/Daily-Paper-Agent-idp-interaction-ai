@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, model description, methods, results, conclusions, data availability)
+- **Assessment boundary** Scientific soundness, technical correctness, clarity of claims, and adequacy of evidence as presented in the provided text. No line numbers were available; section and figure references are used as pointers.
+- **Shared manuscript claim summary** The authors use coarse-grained inverse patchy particle (IPP) simulations to study how charge patchiness and charge imbalance affect the liquid–liquid critical point of heterogeneously charged systems. They report systematic trends in critical temperature, density, chemical potential, and energy as functions of patch size and electrostatic repulsion strengths, and rationalize these trends using thermodynamic-independent pair properties such as bonding volume, second virial coefficient, and effective particle valence.
+- **Visible evidence base** Description of the IPP model and interaction potential; grand canonical Monte Carlo simulation methodology; critical point identification via histogram reweighting against the Ising universality class; results presented in Figures 2–8 (referenced but not shown); probability distributions of pair energies; bonding volume calculations; second virial coefficient analysis; joint density–energy distributions.
+- **Missing materials affecting confidence** Figures and tables are referenced but not provided in the submitted text. Numerical values of critical parameters are only partially quoted in the text. Details of the mapping between DLVO-like potential parameters and the IPP interaction strengths are not fully specified. Convergence criteria for the critical point matching procedure are described qualitatively. The specific values of uEE and uPP used for each system are not tabulated in the text.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant question in the physics of heterogeneously charged colloids and proteins, namely how charge patchiness and charge imbalance control liquid–liquid phase separation. The authors build on their prior work and extend it to a broader parameter space. The use of thermodynamic-independent pair properties to rationalize critical behavior is a useful and potentially generalizable approach. However, the manuscript as presented has several technical gaps that prevent full assessment: the figures are not available, the mapping between the DLVO-like potential and the IPP parameters is not fully detailed, and some methodological choices (e.g., the definition of effective valence, the estimation of fmaxE) require more rigorous justification. The central claims are plausible but not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers working on patchy colloids, protein phase behavior, and the general theory of anisotropic interactions in soft matter. The connection between charge patchiness and critical point location is of direct relevance to experimental groups studying protein condensation and to theorists developing coarse-grained models for such systems. The use of bonding volume and second virial coefficient as predictors may also interest the broader community working on corresponding states for anisotropic potentials.
+- **Major strengths** The study covers a wide and systematic range of parameters, which is valuable for mapping trends. The use of a DLVO-based potential grounded in mean-field theory provides a physical basis for the model. The attempt to connect critical behavior to pair-level, thermodynamic-independent quantities is conceptually appealing and could offer predictive power. The authors are transparent about limitations (e.g., difficulty equilibrating at low temperatures) and provide code and data availability.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the critical point can be "fully rationalized" using thermodynamic-independent pair properties, specifically bonding volume and second virial coefficient.
+  - **Evidence pointer** Section 4.2, Section 4.3, Figures 2 and 5 (not provided)
+  - **Concern** The claim of "fully rationalizing" the critical behavior is strong. The text shows correlations between bonding volume and critical temperature, and between second virial coefficient and critical parameters, but correlation does not establish a causal or predictive relationship. The authors do not provide a quantitative test of how well these pair properties predict the critical point across the full parameter range. Without such a test, the claim of full rationalization is overstated.
+  - **Why it matters** The central contribution of the paper is the claim that pair-level properties can explain critical behavior. If this is only a qualitative correlation, the significance is reduced. A quantitative assessment (e.g., a scaling collapse or a predictive model) is needed to support the claim.
+  - **Resolution test** Provide a quantitative comparison between predicted and simulated critical temperatures/densities using bonding volume or second virial coefficient as input. Show that the prediction error is small across the full parameter range, or explicitly state the limitations of the correlation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors define an effective particle valence fmaxE and use it to compare with the generalized law of corresponding states for patchy systems.
+  - **Evidence pointer** Section 4.3, Figure 6 (not provided)
+  - **Concern** The definition of fmaxE is based on a Monte Carlo sampling procedure that is described only briefly. The text states that fmaxE is estimated as the largest number of bonds formed by the central particle during the simulation, but it is not clear how this relates to a well-defined physical quantity. The procedure involves a two-stage sampling with a specific choice of Δ = 0.17, and the authors claim that this value is independent of the interaction potential. This claim requires justification. Moreover, the relationship between fmaxE and the actual bonding behavior in the liquid is not established.
+  - **Why it matters** The comparison with the law of corresponding states relies on the validity of fmaxE as a measure of particle functionality. If the definition is arbitrary or not robust, the conclusion that IPP systems do not follow the generalized law is not reliable.
+  - **Resolution test** Provide a more detailed description of the fmaxE estimation procedure, including a sensitivity analysis with respect to Δ and the number of Monte Carlo steps. Show that fmaxE is a robust and physically meaningful quantity, or revise the claims based on it.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that the critical point is identified by matching the reweighted distribution of a scaling variable to the Ising magnetization distribution, with a threshold of 0.140 for the norm of the difference.
+  - **Evidence pointer** Section 3.2
+  - **Concern** The threshold of 0.140 for the norm of the difference between the reweighted distribution and the Ising distribution is not justified. It is not clear how sensitive the estimated critical parameters are to this threshold. A larger threshold may lead to biased estimates, while a smaller threshold may be computationally prohibitive. The authors do not report any convergence tests or error estimates for the critical parameters.
+  - **Why it matters** The accuracy of the critical parameters is central to all subsequent analysis. If the identification procedure is not robust, the reported trends in Tc, ρc, μc, and uc may be affected.
+  - **Resolution test** Provide a convergence analysis showing that the estimated critical parameters are stable with respect to the threshold value and the simulation length. Report error bars or confidence intervals for the critical parameters.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their model has predictive power beyond the spherical approximation, based on the agreement of the second virial coefficient with experimental measurements on proteins and antibodies.
+  - **Evidence pointer** Section 5 (Conclusions)
+  - **Concern** The comparison with experimental values of the second virial coefficient is only mentioned qualitatively. The text states that the values are "in the range reported" for proteins and antibodies, but no specific comparison is shown. It is not clear whether the agreement is meaningful or coincidental, given the simplicity of the model.
+  - **Why it matters** The claim of predictive power is a strong statement that goes beyond the scope of the presented results. Without a quantitative comparison, this claim is not supported.
+  - **Resolution test** Provide a quantitative comparison between the simulated second virial coefficient and experimental values for specific proteins or antibodies, including a discussion of the limitations of the model in capturing the full complexity of real systems.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2 (The model)
+  - **Evidence pointer** Equation (1) and surrounding text
+  - **Issue** The description of the interaction potential is dense and the notation is not always defined clearly. For example, the meaning of the overlap volumes wαβ and the relationship between the parameters εαβ and the physical charge distribution could be explained more explicitly.
+  - **Required correction** Expand the description of the model, define all symbols, and provide a more intuitive explanation of how the parameters relate to the physical system.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 3.1 (Grand Canonical Monte Carlo simulations)
+  - **Evidence pointer** Text describing simulation parameters
+  - **Issue** The text does not specify the range of chemical potentials and temperatures explored, the number of independent simulations per state point beyond the stated 12, or the criteria for selecting state points for the critical point search.
+  - **Required correction** Provide a table or list of the state points studied and the range of parameters explored.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4.5 (Geometric versus energetic bonds)
+  - **Evidence pointer** Figure 8 (not provided)
+  - **Issue** The distinction between geometric and energetic bonds is introduced but the implications for the physical interpretation are not fully discussed. The text states that the fraction of geometric bonds that are energetic does not vary with γ in the presence of electrostatic repulsion, but the significance of this observation is not explained.
+  - **Required correction** Add a brief discussion of why this observation is important for understanding the structure of the aggregates.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4.4 (The role of the patch–patch repulsion)
+  - **Evidence pointer** Figure 7 (not provided)
+  - **Issue** The comparison between random and simulated pair energy distributions is described, but the quantitative differences are not reported. The text states that the distributions are different, but does not provide a measure of the difference.
+  - **Required correction** Report quantitative measures of the difference between the distributions (e.g., Kullback–Leibler divergence) or show the distributions side by side for comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (overstated claim of full rationalization), R1-M2 (unclear definition and robustness of fmaxE), R1-M3 (lack of convergence analysis for critical point identification). These are the main technical issues that need to be resolved.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work extends previous studies by the same group to a broader parameter space and introduces the use of pair-level properties to rationalize critical behavior. The approach is not entirely new but the systematic mapping is a useful contribution.
+  - **Scientific importance** The question of how charge patchiness and charge imbalance control LLPS is of significant interest in soft matter and biophysics. The results could inform experimental work on protein condensation and the design of patchy colloids.
+  - **Interdisciplinary readership** The topic is relevant to soft matter physics, physical chemistry, and biophysics. The manuscript is written in a way that is accessible to researchers in these fields, though some parts require specialized knowledge.
+  - **Technical soundness** The simulation methodology is standard, but the critical point identification and the definition of fmaxE require more rigorous validation. The lack of figures and quantitative error estimates limits the assessment.
+  - **Readability for nonspecialists** The manuscript is generally well written, but the model description is dense and may be challenging for readers not familiar with patchy particle models. The abstract and introduction are clear and accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and presents a systematic study, but the central claims need to be supported by more rigorous quantitative analysis. The authors should address the concerns about the critical point identification, the definition of fmaxE, and the claim of full rationalization.
+
+## Risk / unsupported claims
+- The claim that the critical behavior is "fully rationalized" by pair-level properties is not supported by the provided evidence, as no quantitative predictive test is shown.
+- The claim that the model has predictive power beyond the spherical approximation is not supported by a quantitative comparison with experimental data.
+- The statement that the estimator of fmaxE "well captures" the maximum number of energetic bonds is not justified by a convergence or sensitivity analysis.
+- The assertion that the threshold of 0.140 for the critical point matching is sufficient is not supported by any convergence test.
+- The claim that the model reproduces the features of a directional screened Coulomb interaction is plausible but not fully demonstrated in the provided text, as the mapping between the DLVO-like potential and the IPP parameters is not detailed.

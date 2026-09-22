@@ -1,0 +1,260 @@
+{
+  "identity": {
+    "pmid": "41350115",
+    "doi": "10.1021/acs.jcim.5c02154",
+    "title": "Sticky Salts: Overbinding of Monovalent Cations to Phosphorylations in All-Atom Force Fields."
+  },
+  "content": {
+    "abstract": "Phosphorylation is a major post-translational modification that is involved in the regulation of the dynamics and function of intrinsically disordered proteins (IDPs). We recently characterized a phenomenon, which we termed n-phosphate collaborations (nP-collabs), where bulk cations form stable bridges between several phosphoresidues in all-atom molecular dynamic simulations. nP-collabs were found to be sensitive to the combination of force fields and cation types. Here, we attempt to assess the physical relevance of these nP-collabs by evaluating the strength of the cation/phosphate interaction through osmotic coefficient (varphi) calculations on the model 2Na(+)HPO(4)(2-) and 2K(+)HPO(4)(2-) salts, using different classical force fields for phosphorylations. All force fields were found to overestimate the strength of the interaction to various degrees. We thus designed new parameters for CHARMM36m and AmberFF99SB-ILDN using the Electronic Continuum Correction (ECC) approach, which provide remarkable agreement for varphi values for both cation types and over a range of concentrations. We provide a preliminary test of these ECC parameters for phosphorylations by simulating the 7-fold-phosphorylated rhodopsin peptide 7PP and comparing secondary chemical shifts to experimental data. Conformational ensembles resulting from the ECC-derived phosphorylated force fields display both qualitative and quantitative improvements with regard to full-charge force fields. We thus conclude that long-lasting nP-collabs are artifacts for classical force fields born from the lack of explicit polarization, and propose a possible computational strategy for the extensive parametrization of phosphorylations. The presence of long-lived nP-collabs in simulations produced using classical force fields is therefore a serious concern for the accurate modeling of multiphosphorylated peptides and IDPs, which are at the center of research questions regarding neurodegenerative diseases such as Alzheimer's or Parkinson's.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Phosphorylation",
+      "Salts/chemistry",
+      "Cations, Monovalent/chemistry",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Phosphates/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Marien, Jules",
+        "Puyo-Fourtine, Julie",
+        "Prevost, Chantal",
+        "Sacquin-Mora, Sophie",
+        "Duboue-Dijon, Elise"
+      ],
+      "short_names": [
+        "Marien J",
+        "Puyo-Fourtine J",
+        "Prevost C",
+        "Sacquin-Mora S",
+        "Duboue-Dijon E"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3516-6687",
+        "ORCID: 0000-0002-2781-4333",
+        "ORCID: 0000-0003-0871-5177"
+      ],
+      "affiliations": [
+        "Universite Paris Cite, CNRS, Laboratoire de Biochimie Theorique, 13 rue Pierre et Marie Curie, 75005, Paris, France.",
+        "Universite Paris Cite, CNRS, Laboratoire de Biochimie Theorique, 13 rue Pierre et Marie Curie, 75005, Paris, France.",
+        "Universite Paris Cite, CNRS, Laboratoire de Biochimie Theorique, 13 rue Pierre et Marie Curie, 75005, Paris, France.",
+        "Universite Paris Cite, CNRS, Laboratoire de Biochimie Theorique, 13 rue Pierre et Marie Curie, 75005, Paris, France.",
+        "Universite Paris Cite, CNRS, Laboratoire de Biochimie Theorique, 13 rue Pierre et Marie Curie, 75005, Paris, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Marien, Jules",
+        "short_name": "Marien J",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris Cité, CNRS, Laboratoire de Biochimie Théorique, 13 rue Pierre et Marie Curie, 75005, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Puyo-Fourtine, Julie",
+        "short_name": "Puyo-Fourtine J",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris Cité, CNRS, Laboratoire de Biochimie Théorique, 13 rue Pierre et Marie Curie, 75005, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Prévost, Chantal",
+        "short_name": "Prévost C",
+        "identifiers": [
+          "0000-0003-3516-6687"
+        ],
+        "affiliations": [
+          "Université Paris Cité, CNRS, Laboratoire de Biochimie Théorique, 13 rue Pierre et Marie Curie, 75005, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sacquin-Mora, Sophie",
+        "short_name": "Sacquin-Mora S",
+        "identifiers": [
+          "0000-0002-2781-4333"
+        ],
+        "affiliations": [
+          "Université Paris Cité, CNRS, Laboratoire de Biochimie Théorique, 13 rue Pierre et Marie Curie, 75005, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Duboué-Dijon, Elise",
+        "short_name": "Duboué-Dijon E",
+        "identifiers": [
+          "0000-0003-0871-5177"
+        ],
+        "affiliations": [
+          "Université Paris Cité, CNRS, Laboratoire de Biochimie Théorique, 13 rue Pierre et Marie Curie, 75005, Paris, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Dec 22",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/06 00:32",
+    "fetched_at": "2026-09-17 22:37:00"
+  },
+  "links": {
+    "cites": [
+      "42050987",
+      "42038481"
+    ],
+    "refs": [],
+    "similar": [
+      "41350115",
+      "39092904",
+      "34576338",
+      "33459730",
+      "33945530",
+      "34681718",
+      "31241933",
+      "32816485",
+      "31755710",
+      "27727496",
+      "32050065",
+      "29537020",
+      "41073429",
+      "30840442",
+      "29364151",
+      "32859072",
+      "33382616",
+      "26910732",
+      "28448138",
+      "28095698",
+      "25207671",
+      "30514082",
+      "33078950",
+      "34524800",
+      "40569578",
+      "29808548",
+      "35054659",
+      "33591749",
+      "31657215",
+      "31552948",
+      "40864868",
+      "30990694",
+      "40068541",
+      "37746887",
+      "31613621",
+      "33623120",
+      "34152264",
+      "40172236",
+      "26742101",
+      "25919886",
+      "27819658",
+      "29235155",
+      "35920605",
+      "39536029",
+      "38928405",
+      "33355572",
+      "30876367",
+      "29080468",
+      "24589355",
+      "32579908",
+      "39555603",
+      "37646172",
+      "40907012",
+      "36080494",
+      "28226222",
+      "34680048",
+      "29186229",
+      "36827446",
+      "26575776",
+      "36232586",
+      "36533639",
+      "30204435",
+      "26574339",
+      "30933517",
+      "27484738",
+      "34656328",
+      "19754142",
+      "32227937",
+      "41298416",
+      "25098651",
+      "39539017",
+      "32403216",
+      "40101966",
+      "23320702",
+      "33411518",
+      "26030189",
+      "30433786",
+      "24702709",
+      "36178373",
+      "30979035",
+      "28554553",
+      "39651234",
+      "29735687",
+      "34491058",
+      "30250773",
+      "30259679",
+      "36800279",
+      "37452752",
+      "31903719",
+      "36468450",
+      "35608554",
+      "28805390",
+      "25814479",
+      "29907037",
+      "33810353",
+      "33444020",
+      "41257331",
+      "41082321",
+      "31487161",
+      "34845619"
+    ],
+    "review": [
+      "41350115",
+      "30840442",
+      "29364151",
+      "33591749",
+      "40068541",
+      "33355572",
+      "29080468",
+      "39555603",
+      "28226222",
+      "34680048",
+      "32403216",
+      "30979035",
+      "28554553"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-570",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c02154",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

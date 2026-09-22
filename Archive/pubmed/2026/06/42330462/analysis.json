@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42330462",
+  "title": "Entropic Charge Separation as a General Mechanism Arresting Nanoscale Condensate Coarsening.",
+  "authors": "Chen, Feipeng; Yuan, Jiaxing; Zhang, Yaojun; Tanaka, Hajime; Shum, Ho Cheung",
+  "journal": "Physical review letters",
+  "published_date": "2026-06-22",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过实验、理论与模拟揭示电荷不对称驱动的熵性界面电荷分离如何抑制纳米级凝聚体粗化，为无序蛋白介导的相分离凝聚体稳定性提供了可迁移的物理机制建模框架。",
+  "abstract": "Classical liquid-liquid phase separation predicts that droplets grow continuously via Brownian coalescence or Ostwald ripening, yet many nanoscale biomolecular condensates remain stable for hours or days without active regulation. Such condensates often arise through complex coacervation between oppositely charged macromolecules, making this interaction motif broadly relevant in biology and soft matter. Here we combine experiments, theory, and simulations to identify a merging-limited coarsening (MLC) regime in which merging of condensates decreases sharply below a critical droplet size. Chain-length asymmetry between oppositely charged polymers drives entropic interfacial charge separation even at globally neutral stoichiometry, imparting net droplet charges and generating long-range electrostatic repulsion. These size-dependent barriers lead to exponential rather than classical power-law growth and trap droplets in long-lived metastable states. Our framework unifies suppressed MLC and classical Brownian coalescence within a single predictive model and provides a general mechanism for condensate stability in both synthetic systems and living cells.",
+  "abstract_zh": "经典液-液相分离预测液滴通过布朗聚并或奥斯特瓦尔德熟化持续生长，然而许多纳米尺度的生物分子凝聚体在无主动调控下能稳定存在数小时或数天。这类凝聚体通常通过带相反电荷的大分子之间的复杂凝聚作用形成，使得这一相互作用模式在生物学和软物质领域具有广泛相关性。我们结合实验、理论和模拟，识别出一种合并受限粗化（MLC）机制，在该机制中，凝聚体的合并随液滴尺寸降至临界值以下而急剧减少。带相反电荷聚合物之间的链长不对称性，即使在整体中性化学计量下，也会驱动熵驱动的界面电荷分离，赋予液滴净电荷并产生长程静电排斥。这些尺寸依赖的能垒导致指数增长而非经典幂律增长，并将液滴困于长寿命亚稳态。我们的框架将抑制的MLC和经典布朗聚并统一于单一预测模型中，为合成系统和活细胞中的凝聚体稳定性提供了一种通用机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42330462/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42330462/",
+  "paper_page_path": "papers/pubmed/42330462/index.html"
+}

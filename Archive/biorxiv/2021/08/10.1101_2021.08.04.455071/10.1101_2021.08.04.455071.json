@@ -1,0 +1,634 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.08.04.455071",
+  "title": "RPnet: A Reverse Projection Based Neural Network for Coarse-graining Metastable Conformational States for Protein Dynamics",
+  "doi": "10.1101/2021.08.04.455071",
+  "abstract": "Markov State Model (MSM) is a powerful tool for modeling the long timescale dynamics based on numerous short molecular dynamics (MD) simulation trajectories, which makes it a useful tool for elucidating the conformational changes of biological macromolecules. By partitioning the phase space into discretized states and estimate the probabilities of inter-state transitions based on short MD trajectories, one can construct a kinetic network model that could be used to extrapolate long time kinetics if the Markovian condition is met. However, meeting the Markovian condition often requires hundreds or even thousands of states (microstates), which greatly hinders the comprehension of conformational dynamics of complex biomolecules. Kinetic lumping algorithms can coarse grain numerous microstates into a handful of metastable states (macrostates), which would greatly facilitate the elucidation of biological mechanisms. In this work, we have developed a reverse projection based neural network (RPnet) method to lump microstates into macrostates, by making use of a physics-based loss function based on the projection operator framework of conformational dynamics. By recognizing that microstate and macrostate transition modes can be related through a projection process, we have developed a reverse projection scheme to directly compare the microstate and macrostate dynamics. Based on this reverse projection scheme, we designed a loss function that allows effectively assess the quality of a given kinetic lumping. We then make use of a neural network to efficiently minimize this loss function to obtain an optimized set of macrostates. We have demonstrated the power of our RPnet in analyzing the dynamics of a numerical 2D potential, alanine dipeptide, and the clamp opening of an RNA polymerase. In all these systems, we have illustrated that our method could yield comparable or better results than competing methods in terms of state partitioning and reproduction of slow dynamics. We expect that our RPnet holds promise in analyzing conformational dynamics of biological macromolecules.",
+  "authors": [
+    "Hanlin Gu",
+    "Wei Wang",
+    "Siqin Cao",
+    "Ilona Christy Unarta",
+    "Yuan Yao",
+    "Fu Kit Sheong",
+    "Xuhui Huang"
+  ],
+  "published_date": "2021-08-06",
+  "updated_date": "2021-08-06T06:45:28Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.08.04.455071",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.08.04.455071.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T17:00:04Z",
+        "timestamp": 1768496404499,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            6
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 63,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            6
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Markov State Model (MSM) is a powerful tool for modeling the long timescale dynamics based on numerous short molecular dynamics (MD) simulation trajectories, which makes it a useful tool for elucidating the conformational changes of biological macromolecules. By partitioning the phase space into discretized states and estimate the probabilities of inter-state transitions based on short MD trajectories, one can construct a kinetic network model that could be used to extrapolate long time kinetics if the Markovian condition is met. However, meeting the Markovian condition often requires hundreds or even thousands of states (microstates), which greatly hinders the comprehension of conformational dynamics of complex biomolecules. Kinetic lumping algorithms can coarse grain numerous microstates into a handful of metastable states (macrostates), which would greatly facilitate the elucidation of biological mechanisms. In this work, we have developed a reverse projection based neural network (RPnet) method to lump microstates into macrostates, by making use of a physics-based loss function based on the projection operator framework of conformational dynamics. By recognizing that microstate and macrostate transition modes can be related through a projection process, we have developed a reverse projection scheme to directly compare the microstate and macrostate dynamics. Based on this reverse projection scheme, we designed a loss function that allows effectively assess the quality of a given kinetic lumping. We then make use of a neural network to efficiently minimize this loss function to obtain an optimized set of macrostates. We have demonstrated the power of our RPnet in analyzing the dynamics of a numerical 2D potential, alanine dipeptide, and the clamp opening of an RNA polymerase. In all these systems, we have illustrated that our method could yield comparable or better results than competing methods in terms of state partitioning and reproduction of slow dynamics. We expect that our RPnet holds promise in analyzing conformational dynamics of biological macromolecules.</jats:p>",
+      "DOI": "10.1101/2021.08.04.455071",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            6
+          ]
+        ],
+        "date-time": "2021-08-06T06:45:28Z",
+        "timestamp": 1628232328000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "RPnet: A Reverse Projection Based Neural Network for Coarse-graining Metastable Conformational States for Protein Dynamics"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Hanlin",
+          "family": "Gu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Siqin",
+          "family": "Cao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ilona Christy",
+          "family": "Unarta",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yuan",
+          "family": "Yao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Fu Kit",
+          "family": "Sheong",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7119-9358",
+          "authenticated-orcid": false,
+          "given": "Xuhui",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2002971117"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms11244"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1315751111"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2014.04.002"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct300878a"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.3565032"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ymeth.2009.04.013"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jacs.7b12191"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "2648",
+          "DOI": "10.1021/ct5002363",
+          "volume": "10",
+          "year": "2014",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "G. R. Bowman , V. S. Pande and F. Noé , Eds., An Introduction to Markov State Models and Their Application to Long Timescale Molecular Simulation, Springer Netherlands, Dordrecht, 2014, vol. 797.",
+          "DOI": "10.1007/978-94-007-7606-7"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2714538"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2959573"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1001015"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0909088106"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp0761665"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0905466106"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2010.10.006"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1103547108"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002054"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2714539"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct900620b"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1137/090764049"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "635",
+          "DOI": "10.1137/110858616",
+          "volume": "11",
+          "year": "2013",
+          "journal-title": "Multiscale Model. Simul"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00332-019-09567-y"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "21344",
+          "DOI": "10.1021/jacs.0c09343",
+          "volume": "142",
+          "year": "2020",
+          "journal-title": "J. Am. Chem. Soc"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "6767",
+          "DOI": "10.1039/C7CP06181A",
+          "volume": "20",
+          "year": "2018",
+          "journal-title": "Phys. Chem. Chem. Phys"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "8289",
+          "DOI": "10.1021/acs.jpcb.6b02015",
+          "volume": "120",
+          "year": "2016",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.1016/j.sbi.2020.10.005",
+          "volume": "67",
+          "year": "2021",
+          "journal-title": "Curr. Opin. Struct. Biol"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1343",
+          "DOI": "10.1002/wcms.1343",
+          "volume": "8",
+          "year": "2018",
+          "journal-title": "Wiley Interdiscip. Rev. Comput. Mol. Sci"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4811489"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1287/moor.10.2.180"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.32",
+          "first-page": "100",
+          "volume": "28",
+          "year": "1979",
+          "journal-title": "J. R. Stat. Soc. Ser. C Appl. Stat"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.5b00743"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja210656k"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "39",
+          "DOI": "10.1016/S0024-3795(00)00095-1",
+          "volume": "315",
+          "year": "2000",
+          "journal-title": "Linear Algebra Its Appl"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "161",
+          "DOI": "10.1016/j.laa.2004.10.026",
+          "volume": "398",
+          "year": "2005",
+          "journal-title": "Linear Algebra Its Appl"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "57",
+          "DOI": "10.1007/11560500_6",
+          "volume": "3695",
+          "year": "2005",
+          "journal-title": "Comput. Life Sci. Proc"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s11634-013-0134-6"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "134111",
+          "DOI": "10.1063/1.4755751",
+          "volume": "137",
+          "year": "2012",
+          "journal-title": "J. Chem. Phys"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "072337",
+          "DOI": "10.1063/1.5027001",
+          "volume": "149",
+          "year": "2018",
+          "journal-title": "J. Chem. Phys"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "3810",
+          "DOI": "10.1021/ct300077q",
+          "volume": "8",
+          "year": "2012",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "5",
+          "DOI": "10.1038/s41467-017-02388-1",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "214114",
+          "DOI": "10.1063/1.5092521",
+          "volume": "150",
+          "year": "2019",
+          "journal-title": "J. Chem. Phys"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "7999",
+          "DOI": "10.1021/acs.jpcb.9b05578",
+          "volume": "123",
+          "year": "2019",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Zwanzig , Nonequilibrium Statistical Mechanics, Oxford University Press, 2001.",
+          "DOI": "10.1093/oso/9780195140187.001.0001"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "255",
+          "DOI": "10.1007/BF01012300",
+          "volume": "30",
+          "year": "1983",
+          "journal-title": "J. Stat. Phys"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1143/PTP.33.423"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "9029",
+          "DOI": "10.1021/jp508375q",
+          "volume": "119",
+          "year": "2015",
+          "journal-title": "J. Phys. Chem. B"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.49",
+          "unstructured": "J. G. Kemeny and J. L. Snell , Finite Markov Chains: With a New Appendix “Generalization of a Fundamental Matrix,” Springer-Verlag, New York, 1976."
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4916292"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0893-6080(98)00012-4"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.52",
+          "unstructured": "V. Nair and G. E. Hinton , in Proceedings of the 27th International Conference on International Conference on Machine Learning, Omnipress, Madison, WI, USA, 2010, pp. 807–814."
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.53",
+          "unstructured": "B. Hu , R.-J. Song , X.-S. Wei , Y. Yao , X.-S. Hua and Y. Liu , in Proceedings of the 28th ACM International Conference on Multimedia, Association for Computing Machinery, New York, NY, USA, 2020, pp. 4461–4464."
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02163027"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRev.159.98"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.439486"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2282967"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2024324118"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.59",
+          "unstructured": "D. P. Kingma and J. Ba , ArXiv14126980 Cs."
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.477819"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.61",
+          "doi-asserted-by": "crossref",
+          "first-page": "17",
+          "DOI": "10.1021/ct5007168",
+          "volume": "11",
+          "year": "2015",
+          "journal-title": "J. Chem. Theory Comput"
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.62",
+          "unstructured": "I. Goodfellow , Y. Bengio and A. Courville , Deep Learning, MIT Press, Cambridge, MA, USA, 2016."
+        },
+        {
+          "key": "2021080904250508000_2021.08.04.455071v1.63",
+          "unstructured": "Z. Allen-Zhu , Y. Li and Z. Song , in International Conference on Machine Learning, PMLR, 2019, pp. 242–252."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.08.04.455071",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T02:02:13Z",
+        "timestamp": 1768442533000
+      },
+      "score": 48.958015,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.08.04.455071"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            6
+          ]
+        ]
+      },
+      "references-count": 63,
+      "URL": "https://doi.org/10.1101/2021.08.04.455071",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1039/D1CP03622J",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            8,
+            6
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "36747818",
+    "doi": "10.1101/2023.01.26.525727",
+    "title": "Single fluorogen imaging reveals distinct environmental and structural features of biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are viscoelastic materials. Simulations predict that fluid-like condensations are defined by spatially inhomogeneous organization of the underlying molecules. Here, we test these predictions using single-fluorogen tracking and super-resolution imaging. Specifically, we leverage the localization and orientational preferences of freely diffusing fluorogens and the solvatochromic effect whereby specific fluorogens are turned on in response to condensate microenvironments. We deployed three different fluorogens to probe the microenvironments and molecular organization of different protein-based condensates. The spatiotemporal resolution and environmental sensitivity afforded by single-fluorogen imaging shows that the internal environments of condensates are more hydrophobic than coexisting dilute phases. Molecules within condensates are organized in a spatially inhomogeneous manner, and this gives rise to slow-moving nanoscale molecular clusters that coexist with fast-moving molecules. Fluorogens that localize preferentially to the interface help us map their distinct features. Our findings provide a structural and dynamical basis for the viscoelasticity of condensates.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Tingting",
+        "King, Matthew R",
+        "Qiu, Yuanxin",
+        "Farag, Mina",
+        "Pappu, Rohit V",
+        "Lew, Matthew D"
+      ],
+      "short_names": [
+        "Wu T",
+        "King MR",
+        "Qiu Y",
+        "Farag M",
+        "Pappu RV",
+        "Lew MD"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5736-4962",
+        "ORCID: 0000-0002-8533-3589",
+        "ORCID: 0000-0003-2568-1378",
+        "ORCID: 0000-0002-5614-3292"
+      ],
+      "affiliations": [
+        "Department of Electrical and Systems Engineering, Washington University in St. Louis, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+        "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+        "These authors contributed equally: Tingting Wu, Matthew R. King.",
+        "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+        "Department of Biomedical Engineering, Washington University in St. Louis, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+        "These authors contributed equally: Tingting Wu, Matthew R. King.",
+        "Department of Electrical and Systems Engineering, Washington University in St. Louis, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+        "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+        "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+        "Department of Biomedical Engineering, Washington University in St. Louis, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+        "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+        "Department of Biomedical Engineering, Washington University in St. Louis, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+        "Department of Electrical and Systems Engineering, Washington University in St. Louis, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+        "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Tingting",
+        "short_name": "Wu T",
+        "identifiers": [
+          "0000-0001-5736-4962"
+        ],
+        "affiliations": [
+          "Department of Electrical and Systems Engineering, Washington University in St. Louis, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+          "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+          "These authors contributed equally: Tingting Wu, Matthew R. King."
+        ]
+      },
+      {
+        "full_name": "King, Matthew R",
+        "short_name": "King MR",
+        "identifiers": [
+          "0000-0002-8533-3589"
+        ],
+        "affiliations": [
+          "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+          "Department of Biomedical Engineering, Washington University in St. Louis, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+          "These authors contributed equally: Tingting Wu, Matthew R. King."
+        ]
+      },
+      {
+        "full_name": "Qiu, Yuanxin",
+        "short_name": "Qiu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Electrical and Systems Engineering, Washington University in St. Louis, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+          "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Farag, Mina",
+        "short_name": "Farag M",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+          "Department of Biomedical Engineering, Washington University in St. Louis, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [
+          "0000-0003-2568-1378"
+        ],
+        "affiliations": [
+          "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+          "Department of Biomedical Engineering, Washington University in St. Louis, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA."
+        ]
+      },
+      {
+        "full_name": "Lew, Matthew D",
+        "short_name": "Lew MD",
+        "identifiers": [
+          "0000-0002-5614-3292"
+        ],
+        "affiliations": [
+          "Department of Electrical and Systems Engineering, Washington University in St. Louis, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA.",
+          "Center for Biomolecular Condensates, James F. McKelvey School of Engineering, Washington University in St. Louis; St. Louis, MO 63130, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Oct 7",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/08 06:00",
+    "fetched_at": "2026-09-20 19:05:35"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40216775",
+      "39464253",
+      "39271915",
+      "39225536",
+      "38649740",
+      "38503281",
+      "38363841",
+      "37684240",
+      "37261897",
+      "36968242",
+      "36881934",
+      "36652471",
+      "36513655",
+      "36443315",
+      "36191226",
+      "36153973",
+      "36004748",
+      "35911447",
+      "35675815",
+      "35663461",
+      "35601691",
+      "35582428",
+      "34931046",
+      "34887356",
+      "34785657",
+      "34645832",
+      "34179888",
+      "34122915",
+      "33877835",
+      "33653957",
+      "33558506",
+      "33514117",
+      "33453924",
+      "33303613",
+      "33205106",
+      "32832582",
+      "32648275",
+      "32029630",
+      "31392763",
+      "30221931",
+      "29953718",
+      "29424691",
+      "29133588",
+      "28894006",
+      "28537592",
+      "28225081",
+      "28067047",
+      "27406265",
+      "27212236",
+      "26777405",
+      "25747659",
+      "23244787",
+      "22086768",
+      "22031697",
+      "21405121",
+      "21106648",
+      "17142314",
+      "16980368",
+      "16902090",
+      "16896339",
+      "15509651",
+      "12190415",
+      "8443220",
+      "3651436",
+      "2394705"
+    ],
+    "similar": [
+      "36747818",
+      "40386802",
+      "37782826",
+      "37503034",
+      "40216775",
+      "37549257",
+      "39005320",
+      "37873180",
+      "39356108",
+      "38649740",
+      "37194953",
+      "36711465",
+      "36798397",
+      "39610751",
+      "39185151",
+      "37886520",
+      "40196628",
+      "38363841",
+      "37156794",
+      "40136009",
+      "38722189",
+      "40183356",
+      "37261897",
+      "31017394",
+      "36993212",
+      "38987300",
+      "35840781",
+      "35881789",
+      "39568893",
+      "39034215",
+      "31083964",
+      "40172489",
+      "39327453",
+      "36847235",
+      "40074825",
+      "39168125",
+      "35727989",
+      "39225536",
+      "40321778",
+      "40291709",
+      "37546704",
+      "36191226",
+      "36227487",
+      "37438363",
+      "38670952",
+      "38429263",
+      "37996438",
+      "37034777",
+      "40166346",
+      "30926670",
+      "37770698",
+      "40203202",
+      "37013374",
+      "36883003",
+      "38405951",
+      "37393916",
+      "34865286",
+      "39464253",
+      "39937084",
+      "39134696",
+      "37066350",
+      "37470705",
+      "38086853",
+      "40168179",
+      "33453924",
+      "36755024",
+      "37162152",
+      "38781207",
+      "33938061",
+      "34129784",
+      "39496836",
+      "36227474",
+      "39184067",
+      "23912807",
+      "33087563",
+      "34241502",
+      "37252985",
+      "40249817",
+      "36175408",
+      "40195119",
+      "39534915",
+      "39138204",
+      "39171763",
+      "35867833",
+      "38360555",
+      "34404453",
+      "39271032",
+      "38832749",
+      "39271915",
+      "40229261",
+      "34767801",
+      "38915678",
+      "39070659",
+      "35832192",
+      "39433596",
+      "31789501",
+      "37904914",
+      "38999934",
+      "34129687",
+      "40188296"
+    ],
+    "review": [
+      "36747818",
+      "39034215",
+      "40172489",
+      "39327453",
+      "37393916",
+      "34865286",
+      "39134696",
+      "34129784",
+      "38360555",
+      "39271032",
+      "34767801",
+      "35832192",
+      "39433596",
+      "31789501"
+    ],
+    "pmc": [
+      "9900924"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36747818/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36747818",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.01.26.525727",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

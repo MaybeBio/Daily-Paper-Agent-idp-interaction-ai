@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42465487",
+  "title": "Competing effects modulate the rate of poly(A) RNA deadenylation in a biomolecular condensate.",
+  "authors": "Irwin, Rose M; Harkness, Robert W; Tsang, Brian; Liu, Zi Hao; Sun, Kunyang; Huang, Tian Hao; Head-Gordon, Teresa; Kay, Lewis E; Forman-Kay, Julie D",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-07-17",
+  "window": {
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合酶学实验、动力学建模、NMR和分子动力学模拟，定量解析了CAPRIN1无序区域形成的凝聚体通过浓度富集与扩散限制竞争性调控CNOT7对poly(A) RNA去腺苷化活性的机制，聚焦无序蛋白凝聚体中的酶-底物互作与动力学调控，与本课题高度相关。",
+  "abstract": "The unique solvent milieu found in biomolecular condensates can control cellular enzymatic reactions and shift reaction kinetics by modulating reactant concentrations, structural dynamics, and enzyme activities. Here we explore the interplay of multiple regulatory factors within a condensate to control poly(A) RNA deadenylation, the first and rate-limiting step in mRNA turnover. The deadenylase CNOT7, a subunit of the CCR4-NOT deadenylation complex, localizes to cytoplasmic RNA granules and shows increased degradation activity in vitro in condensates formed by the C-terminal low complexity disordered region of CAPRIN1, a component of RNA granules. We use a combination of enzymatic assays, kinetic modeling, microscopy, Nuclear Magnetic Resonance (NMR) spectroscopy, and molecular dynamics simulations to deconvolute and define the components that underlie this enhancement. We found that enzyme and RNA are concentrated in condensates relative to buffer, which increases CNOT7 activity, while the equilibrium between CNOT7's active and inactive states remains unchanged. The concentration-dependent increase in enzymatic rates is counterbalanced by a substantial decrease in the enzyme's catalytic efficiency, likely due to slower diffusion of CNOT7 and RNA within the condensates, which lessens the probability of enzyme-substrate complex formation. Molecular dynamics simulations reveal CNOT7-CAPRIN1 interactions that rely on conserved CAPRIN1 sequence features, hinting at an evolutionarily conserved role for CAPRIN1 condensation. With this quantitative kinetic analysis, we describe the multifaceted mechanism behind regulation of CNOT7 deadenylation by a condensate environment.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）中独特的溶剂环境可通过调节反应物浓度、结构动力学和酶活性来控制细胞酶促反应并改变反应动力学。在此，我们探讨凝聚体内多种调控因子对poly(A) RNA去腺苷酸化（mRNA降解的首个限速步骤）的协同控制作用。去腺苷酸酶CNOT7是CCR4-NOT去腺苷酸化复合物的一个亚基，定位于细胞质RNA颗粒中，并在由RNA颗粒组分CAPRIN1的C端低复杂度无序区域形成的凝聚体中，于体外表现出增强的降解活性。我们结合酶活性测定、动力学建模、显微镜技术、核磁共振（NMR）波谱学和分子动力学（molecular dynamics）模拟，以解析并界定这一增强效应所涉及的组分。我们发现，与缓冲液相比，酶和RNA在凝聚体中富集，从而提高了CNOT7活性，而CNOT7活性态与非活性态之间的平衡保持不变。酶促速率随浓度增加而提升，但这一效应被酶催化效率的显著下降所抵消，这可能是由于CNOT7和RNA在凝聚体内扩散较慢，降低了酶-底物复合物形成的概率。分子动力学模拟揭示了依赖CAPRIN1保守序列特征的CNOT7-CAPRIN1相互作用，提示CAPRIN1凝聚可能具有进化上保守的功能。通过这一定量动力学分析，我们描述了凝聚体环境调控CNOT7去腺苷酸化的多层面机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42465487/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42465487/",
+  "paper_page_path": "papers/pubmed/42465487/index.html"
+}

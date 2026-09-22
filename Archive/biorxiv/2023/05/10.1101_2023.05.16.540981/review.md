@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose GraphCPLMQA, a graph-coupled network using protein language model embeddings, for residue-level protein model quality assessment. They report state-of-the-art performance on CASP15 multimer, CAMEO blind test, CASP13/14 monomer, and AlphaFold2 datasets.
+- **Visible evidence base** Abstract text only; no quantitative results, statistical analyses, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, dataset descriptions, baseline definitions, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to protein model quality assessment, particularly for multimer models, which is an area of active need. The proposed architecture combining protein language model embeddings with graph-coupled networks is conceptually reasonable. However, the abstract lacks sufficient quantitative detail, methodological transparency, and statistical rigor to evaluate the strength of the reported claims. The performance comparisons are described qualitatively without effect sizes, confidence intervals, or clear baseline specifications. The claim of superiority over AlphaFold2 self-assessment requires careful scrutiny given the known strengths of that method.
+- **Who would be interested in the results, and why** Structural biologists and computational biologists working on protein structure prediction and model quality assessment would be the primary audience. Developers of structure prediction pipelines, particularly those using AlphaFold2 or similar tools, would be interested in improved quality assessment methods for selecting and refining models. The multimer focus is timely given the growing interest in protein complexes.
+- **Major strengths** The problem addressed is important and timely, particularly the multimer quality assessment component. The use of protein language model embeddings is a modern and promising approach. The reported evaluation across multiple benchmark datasets (CASP15, CAMEO, CASP13/14) suggests broad applicability. The design of novel features (triangular location and residue-level contact order) shows thoughtful engagement with structural biology principles.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "GraphCPLMQA using single-sequence embedding achieves the best performance compared to the CASP15 interface evaluation method in 9108 models of CASP15 multimer test set"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states "best performance" without reporting the specific metric, the numerical value, or the margin of improvement over the comparison method. The identity of the "CASP15 interface evaluation method" is not specified, and it is unclear whether this is a single method or an ensemble. The sample size of 9108 models is stated, but no statistical significance testing is mentioned.
+  - **Why it matters** Without quantitative results and statistical context, the reader cannot assess whether the reported improvement is meaningful or within noise. The choice of comparison method is critical for interpreting the claim, and its omission prevents evaluation of whether the comparison is fair and appropriate.
+  - **Resolution test** Provide the specific evaluation metric (e.g., lDDT, GDT-TS), the numerical scores for both methods, the margin of improvement, and a statistical test (e.g., paired t-test or Wilcoxon) with reported p-values. Specify the exact comparison method and justify its selection.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "GraphCPLMQA ranked first compared to other servers" in CAMEO blind test
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of ranking first in CAMEO is presented without specifying the time window, the number of competing servers, the evaluation metric used for ranking, or the margin by which GraphCPLMQA outperformed the next best server. The date range provided (2022-05-20 to 2022-08-13) is helpful, but the absence of quantitative ranking data makes the claim unverifiable from the abstract alone.
+  - **Why it matters** CAMEO rankings are widely used as benchmarks, but the specific metric and the competitive landscape matter greatly. A first-place ranking by a narrow margin on one metric is different from a dominant performance across multiple metrics. Without these details, the significance of the claim cannot be assessed.
+  - **Resolution test** Report the specific CAMEO metric (e.g., lDDT, GDT-TS, or z-score), the numerical score for GraphCPLMQA and the top competitors, the number of participating servers, and the margin of difference. Clarify whether the ranking is consistent across all CAMEO metrics or specific to one.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "GraphCPLMQA also outperforms state-of-the-art methods on 19,035 models in CASP13 and CASP14 monomer test set"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify which "state-of-the-art methods" were used for comparison, what metric was used, or the magnitude of the improvement. The combined sample size of 19,035 models across two CASP rounds is stated, but the breakdown between CASP13 and CASP14 is not provided. The term "state-of-the-art" is vague and could refer to any number of methods.
+  - **Why it matters** The identity of comparison methods is essential for interpreting the claim. Different baselines have different strengths, and the choice of comparison set can substantially influence results. Without this information, the claim of outperformance cannot be evaluated for fairness or significance.
+  - **Resolution test** List the specific comparison methods, report the evaluation metric and numerical scores for each method on each dataset, provide the breakdown of models between CASP13 and CASP14, and include statistical significance testing.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "on AlphaFold2 datasets, GraphCPLMQA was superior to self-assessment of AlphaFold2 in MAE metric, and it was able to screen out better models than AlphaFold2"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of superiority over AlphaFold2 self-assessment is significant and requires careful substantiation. The abstract does not specify which AlphaFold2 datasets were used, how many models were evaluated, what the MAE values were for both methods, or what "screen out better models" means operationally. The relationship between MAE improvement and practical model selection benefit is not explained.
+  - **Why it matters** AlphaFold2 self-assessment (pLDDT) is a strong baseline, and claims of superiority need to be demonstrated with clear metrics and practical significance. The phrase "screen out better models" suggests a downstream application, but the evaluation protocol for this claim is not described.
+  - **Resolution test** Specify the datasets, report MAE values for both GraphCPLMQA and AlphaFold2 self-assessment with error bars, define the model screening protocol, and provide evidence that the screening improvement is statistically and practically significant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The sentence "Model quality evaluation is crucial part of protein structural biology" contains a grammatical error ("crucial part" should be "a crucial part").
+  - **Required correction** Revise to "Model quality evaluation is a crucial part of protein structural biology."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, second sentence
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The sentence "How to distinguish high-quality models from low-quality models, and to assess which high-quality models have relatively incorrect regions for improvement, are remain challenge" contains grammatical errors ("are remain challenge" should be "remains a challenge") and is awkwardly phrased.
+  - **Required correction** Revise to "Distinguishing high-quality models from low-quality models and identifying incorrect regions within high-quality models for improvement remains a challenge."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, third sentence
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The sentence "the quality assessment of multimer models is a hot topic for structure predicton" contains a typo ("predicton" should be "prediction") and uses informal language ("hot topic").
+  - **Required correction** Revise to "the quality assessment of multimer models is an active area of research in structure prediction."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "transform-based convolutional decoding module"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "transform-based" is ambiguous. It could refer to transformer architectures, Fourier transforms, or other transformations. This ambiguity is confusing.
+  - **Required correction** Clarify what "transform-based" refers to, or use a more specific term such as "transformer-based" if that is the intended meaning.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, "Evolutionary Scale Modeling"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "Evolutionary Scale Modeling" appears to refer to the ESM family of protein language models, but this is not explicitly stated. The capitalization and phrasing are unusual.
+  - **Required correction** Clarify the specific model used (e.g., ESM-2, ESM-1b) and cite the relevant reference.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, "triangular location and residue level contact order features"
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "triangular location" is not standard in the protein structure literature and its meaning is unclear without further context.
+  - **Required correction** Define what "triangular location" refers to, or use a more standard term.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The abstract does not provide sufficient quantitative evidence, methodological detail, or statistical analysis to support the central performance claims. Without these, the case for the method's superiority is not established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of protein language model embeddings with graph-coupled networks for quality assessment is a reasonable extension of existing work, but the abstract does not clearly articulate what is conceptually novel beyond the specific architecture. The novelty claim is not fully established from the abstract alone.
+  - Scientific importance: The problem of model quality assessment, particularly for multimers, is scientifically important and timely. If the claims are substantiated, the work would be of value to the structural biology community.
+  - Interdisciplinary readership: The work sits at the intersection of structural biology, machine learning, and computational biology. The abstract is written in a way that is accessible to these communities, though some terms (e.g., "triangular location") would benefit from clarification.
+  - Technical soundness: Cannot be assessed from the abstract alone. The lack of methodological detail and quantitative results prevents evaluation of technical soundness.
+  - Readability for nonspecialists: The abstract is generally readable, but contains grammatical errors and undefined terms that would hinder comprehension for readers outside the immediate field.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents promising directions and plausible claims, but the absence of quantitative results, statistical analysis, and methodological detail means the central claims cannot be verified. The manuscript may be supportable if the full paper provides the missing evidence and addresses the concerns raised.
+
+## Risk / unsupported claims
+- The claim of "best performance" on CASP15 multimer test set is unsupported without specific metrics, comparison methods, and statistical testing.
+- The claim of ranking first in CAMEO blind test is unsupported without ranking data, metric specification, and competitive context.
+- The claim of outperforming "state-of-the-art methods" on CASP13/14 is unsupported without identification of comparison methods and quantitative results.
+- The claim of superiority over AlphaFold2 self-assessment is unsupported without specific datasets, MAE values, and practical significance analysis.
+- The general claim that GraphCPLMQA "was able to screen out better models than AlphaFold2" is undefined and cannot be evaluated without a clear screening protocol.
+- The methodological description is too brief to assess the validity of the architecture or the feature design.

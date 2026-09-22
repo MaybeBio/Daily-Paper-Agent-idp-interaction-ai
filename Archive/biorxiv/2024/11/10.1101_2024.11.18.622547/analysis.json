@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.18.622547",
+  "title": "Accurate <i>de novo</i> design of high-affinity protein binding macrocycles using deep learning",
+  "authors": "Stephen A. Rettie; David Juergens; Victor Adebomi; Yensi Flores Bueso; Qinqin Zhao; Alexandria N. Leveille; Andi Liu; Asim K. Bera; Joana A. Wilms; Alina Üffing; Alex Kang; Evans Brackenbrough; Mila Lamb; Stacey R. Gerben; Analisa Murray; Paul M. Levine; Maika Schneider; Vibha Vasireddy; Sergey Ovchinnikov; Oliver H. Weiergräber; Dieter Willbold; Joshua A. Kritzer; Joseph D. Mougous; David Baker; Frank DiMaio; Gaurav Bhardwaj",
+  "journal": "bioRxiv",
+  "published_date": "2024-11-18",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用去噪扩散模型RFpeptides从头设计高亲和力蛋白结合大环肽，虽对象非IDP，但深度学习方法与结合机制建模思路对无序蛋白PPI设计有可迁移启发。",
+  "abstract": "The development of macrocyclic binders to therapeutic proteins typically relies on large-scale screening methods that are resource-intensive and provide little control over binding mode. Despite considerable progress in physics-based methods for peptide design and deep-learning methods for protein design, there are currently no robust approaches for de novo design of protein-binding macrocycles. Here, we introduce RFpeptides, a denoising diffusion-based pipeline for designing macrocyclic peptide binders against protein targets of interest. We test 20 or fewer designed macrocycles against each of four diverse proteins and obtain medium to high-affinity binders against all selected targets. Designs against MCL1 and MDM2 demonstrate K D between 1-10 μM, and the best anti-GABARAP macrocycle binds with a K D of 6 nM and a sub-nanomolar IC 50 in vitro . For one of the targets, RbtA, we obtain a high-affinity binder with K D < 10 nM despite starting from the target sequence alone due to the lack of an experimentally determined target structure. X-ray structures determined for macrocycle-bound MCL1, GABARAP, and RbtA complexes match very closely with the computational design models, with three out of the four structures demonstrating Ca RMSD of less than 1.5 Å to the design models. In contrast to library screening approaches for which determining binding mode can be a major bottleneck, the binding modes of RFpeptides-generated macrocycles are known by design, which should greatly facilitate downstream optimization. RFpeptides thus provides a powerful framework for rapid and custom design of macrocyclic peptides for diagnostic and therapeutic applications.",
+  "abstract_zh": "靶向治疗性蛋白的大环结合剂的开发通常依赖于资源密集且对结合模式控制有限的大规模筛选方法。尽管在基于物理的肽设计方法和基于深度学习的蛋白质设计方法方面取得了显著进展，但目前尚无稳健的方法用于蛋白质结合大环的从头设计。在此，我们介绍RFpeptides，一种基于去噪扩散的流程，用于设计针对感兴趣蛋白质靶标的大环肽结合剂。我们针对四种不同蛋白质中的每一种测试了20个或更少的设计大环，并针对所有选定靶标获得了中等至高亲和力的结合剂。针对MCL1和MDM2的设计展示了K D在1-10 μM之间，而最佳抗GABARAP大环在体外以6 nM的K D和亚纳摩尔IC 50结合。对于其中一个靶标RbtA，尽管由于缺乏实验确定的靶标结构而仅从靶标序列出发，我们仍获得了K D < 10 nM的高亲和力结合剂。大环结合MCL1、GABARAP和RbtA复合物的X射线结构与计算设计模型非常吻合，其中四个结构中有三个的Ca RMSD小于1.5 Å。与确定结合模式可能成为主要瓶颈的文库筛选方法相比，RFpeptides生成的大环的结合模式通过设计已知，这应大大促进下游优化。因此，RFpeptides为快速定制设计用于诊断和治疗应用的大环肽提供了一个强大的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.18.622547",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.18.622547",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.18.622547/index.html"
+}

@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided; supplementary tables referenced but not supplied.
+- **Assessment boundary** Assessment is limited to claims and evidence presented in the supplied text. Supplementary figures and tables (Figure S1, Tables S1–S3) are referenced but their contents were not provided; claims relying on them are marked as not assessable from the supplied material.
+- **Shared manuscript claim summary** The authors present moPPIt, a sequence-only computational pipeline combining a transformer-based binding-site predictor (BindEvaluator) with a peptide generator (PepMLM) and genetic algorithm optimization, to design peptide binders targeting user-defined motifs on protein targets, including structured and disordered proteins, without requiring target structure.
+- **Visible evidence base** Text descriptions of model architecture, training data sizes, loss curves (referenced to Figure S1), performance metrics (accuracy, AUC, F1, MCC) for BindEvaluator, and in silico benchmarking results (ipTM, pTM, RIS) described in text and referenced to Tables S1–S3 and Figures 2–5.
+- **Missing materials affecting confidence** All supplementary tables (S1–S3), supplementary figures (S1–S4), and the specific numerical values for benchmarking results are not provided. The PepMLM model is referenced but its architecture and training details are not described in this manuscript. No experimental validation data are presented.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in peptide binder design, namely targeting specific motifs without structural information. The proposed pipeline is conceptually reasonable and combines existing components (ESM-2, PepMLM) with a new binding-site predictor. However, the evidence provided in the supplied text is insufficient to establish the central claims. Key benchmarking results are only referenced to missing supplementary materials, and the in silico validation metrics (ipTM, pTM, RIS) are described qualitatively rather than presented quantitatively. The claim that moPPIt can target intrinsically disordered regions is supported only by computational predictions whose reliability for disordered proteins is acknowledged by the authors as uncertain. The manuscript would benefit from clearer presentation of quantitative results and a more critical discussion of the limitations of in silico validation.
+- **Who would be interested in the results, and why** Computational biologists and protein engineers working on peptide therapeutics, particularly those interested in sequence-based design methods that avoid structure dependence. The approach may also be of interest to researchers studying protein-protein interactions, intrinsically disordered proteins, and targeted protein degradation, given the authors' stated intention to combine moPPIt with ubiquibody technology.
+- **Major strengths** The problem addressed is timely and important. The sequence-only approach is a meaningful departure from structure-based methods and could broaden the applicability of computational binder design. The integration of a binding-site predictor with a generative model and optimization loop is a sensible pipeline design. The authors demonstrate awareness of the limitations of structure-based methods for disordered targets.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "BindEvaluator accurately predicts target binding sites given protein-protein sequence pairs with a test AUC > 0.94, improving to AUC > 0.96 when fine-tuned on peptide-protein pairs."
+  - **Evidence pointer** Results section "BindEvaluator accurately predicts target binding sites provided two interacting sequences"; Figure 1B; location not provided for numerical values
+  - **Concern** The performance metrics for BindEvaluator are stated in the abstract and introduction, but the specific values (accuracy, AUC, F1, MCC) are only described in text without a clear presentation of the test set composition, baseline comparisons, or confidence intervals. The improvement from fine-tuning is claimed but the magnitude and statistical significance are not reported in the supplied text.
+  - **Why it matters** The central claim of the manuscript depends on BindEvaluator's predictive accuracy. Without quantitative details, including comparison to existing methods (e.g., PepNN, Pseq2Sites, which are cited as inspiration), the reader cannot assess whether the model represents a genuine advance or merely a marginal variation on existing approaches.
+  - **Resolution test** Provide a table or figure with test set metrics (AUC, accuracy, F1, MCC) for both the PPI-trained and peptide-fine-tuned models, including standard deviations or confidence intervals, and a comparison to at least one existing binding-site prediction method on the same test set.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "moPPIt generates peptides that bind specifically to user-defined residues on target proteins" and "moPPIt-designed binders can form peptide-protein complexes with similar or superior ipTM and pTM scores compared to the pre-existing ones."
+  - **Evidence pointer** Results section "moPPIt generates epitope-specific binders to target proteins"; Tables S1–S3; Figures 2–5; location not provided
+  - **Concern** The benchmarking results for moPPIt-generated binders are described only qualitatively in the text. The actual ipTM, pTM, and RIS values are in supplementary tables that were not provided. The comparison to pre-existing binders is stated as "similar or superior" without specific numbers. The threshold for "superior" is not defined.
+  - **Why it matters** The claim that moPPIt produces binders with high affinity and specificity rests entirely on these in silico metrics. Without the actual values, the reader cannot evaluate whether the differences are meaningful or within the noise of the prediction methods. The absence of any negative controls or random-binder baselines further weakens the case.
+  - **Resolution test** Present the full benchmarking results in the main text or a clearly accessible supplementary table, including ipTM, pTM, and RIS values for all 15 known-binder targets and all novel targets, with the specified motif positions clearly indicated. Include a comparison to a control set of randomly generated or scrambled peptides.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim validity
+  - **Claim pointer** "moPPIt serves as a powerful tool for developing highly specific peptide therapeutics without relying on target structure or structure-dependent latent spaces" and "The true utility of using pLMs as opposed to structure-based models such as RFDiffusion, lies in the ability to bind to conformationally diverse targets and regions."
+  - **Evidence pointer** Results section "moPPIt generates binders targeting intrinsically disordered proteins"; Table S3; Figure 5; Discussion; location not provided
+  - **Concern** The claim that moPPIt can target intrinsically disordered regions is based on three examples (UCHL5, 4E-BP2, EWS::FLI1) with only computational predictions. The authors themselves acknowledge that "BindEvaluator and PepMLM were primarily trained on sequences from solved peptide-protein structures" and that "AlphaFold2-Multimer and PeptideDerive may not be fully reliable for disordered regions." This admission undermines the strength of the claim as stated.
+  - **Why it matters** The advantage over structure-based methods is a key selling point of the manuscript. If the validation tools are unreliable for the very targets that constitute the claimed advantage, the evidence base is insufficient to support the claim. The statement "provides a high degree of confidence" is not justified given the acknowledged limitations.
+  - **Resolution test** Provide additional validation for disordered targets, such as comparison to experimentally determined binding data for at least one disordered target, or a more cautious interpretation of the computational results with explicit acknowledgment that these are predictions requiring experimental confirmation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section "BindEvaluator Model Architecture"
+  - **Evidence pointer** Equations 1 and 2; location not provided
+  - **Issue** The reciprocal attention formulation in Equations 1 and 2 is not fully explained. The notation is ambiguous regarding which sequence provides the query and which provides the key/value in each direction.
+  - **Required correction** Clarify the notation and provide a brief textual explanation of how the reciprocal attention operates in both directions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section "Motif-Specific Binder Design Algorithm"
+  - **Evidence pointer** Genetic algorithm description; location not provided
+  - **Issue** The genetic algorithm parameters (population size, number of generations, mutation rate, selection method) are not specified. The stopping criteria are described only as "no further improvement in successive rounds" without defining "improvement" quantitatively.
+  - **Required correction** Provide the full set of genetic algorithm hyperparameters and define the convergence criterion precisely.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "moPPIt generates epitope-specific binders for structured proteins without known binders"
+  - **Evidence pointer** Table S2; location not provided
+  - **Issue** The selection of "three enzyme classes (kinases, phosphatases, and deubiquitinases)" is mentioned, but the number of proteins per class and the criteria for target selection are not stated in the text.
+  - **Required correction** Specify the number of targets per enzyme class and the inclusion criteria for target selection.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "moPPIt generates epitope-specific binders to target proteins"
+  - **Evidence pointer** Figure 3, Figure S3; location not provided
+  - **Issue** The RIS analysis is described as showing "similar or higher RIS at specified binding positions compared to existing complexes." The text does not explain how RIS values from different complexes are normalized or whether the comparison is apples-to-apples.
+  - **Required correction** Describe the normalization procedure for RIS values and clarify whether the comparison accounts for differences in complex size or composition.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Data and Materials Availability
+  - **Evidence pointer** Hugging Face repository link; location not provided
+  - **Issue** The code is described as accessible "after signing a free, non-commercial, research-only academic license." This is a restriction that may limit reproducibility for some researchers.
+  - **Required correction** Clarify the licensing terms and consider whether a more permissive license would be appropriate for a method intended for broad use.
+
+## Risk / unsupported claims
+- The claim that BindEvaluator achieves "test AUC > 0.94" and "AUC > 0.96" after fine-tuning is not verifiable from the supplied text, as the specific test set results are not presented with sufficient detail.
+- The claim that moPPIt generates binders with "similar or superior" ipTM and pTM scores compared to pre-existing binders is not assessable, as the actual values are in missing supplementary tables.
+- The claim that moPPIt can target intrinsically disordered regions with "a high degree of confidence" is not supported, given the authors' own acknowledgment that the validation tools may not be reliable for disordered regions.
+- The statement that moPPIt is "a powerful tool for developing highly specific peptide therapeutics" is an overstatement based on the in silico-only evidence presented.
+- The comparison to structure-based methods such as RFDiffusion is asserted but not demonstrated with any direct comparative benchmarking.

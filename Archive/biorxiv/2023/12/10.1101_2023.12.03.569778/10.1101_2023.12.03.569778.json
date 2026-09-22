@@ -1,0 +1,205 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.03.569778",
+  "title": "Structural Host-Virus Interactome Profiling of Intact Infected Cells",
+  "doi": "10.1101/2023.12.03.569778",
+  "abstract": "<h4>ABSTRACT</h4> Virus-host protein-protein interactions (PPIs) are fundamental to viral infections, yet high-resolution identification within the native context of intact infected cells has remained an unsolved challenge. Here, we developed structural host-virus interactome profiling (SHVIP) that combines in situ cross-linking mass spectrometry with the enrichment of newly synthesized viral proteins from infected cells. We established SHVIP using herpes simplex virus type 1 and obtained 739 PPIs based on 6,194 cross-links from productively infected cells. SHVIP captures PPIs across intracellular compartments and at the intact host endomembrane system. It resolves PPIs to the protein domain level and seamlessly integrates with AlphaFold-based structural modeling, facilitating detailed predictions of PPI sites within structured and intrinsically disordered regions. We show that SHVIP captures parts of the virus-host PPI space that are elusive to traditional interaction proteomics approaches. By selectively disrupting several newly identified virus-host PPIs, we confirm SHVIP’s ability to uncover genuine virus-host PPIs in the intact complex environment of infected cells.",
+  "authors": [
+    "Bogdanow B",
+    "Mühlberg L",
+    "Gruska I",
+    "Vetter B",
+    "Ruta J",
+    "Elofsson A",
+    "Wiebusch L",
+    "Liu F"
+  ],
+  "published_date": "2023-12-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.03.569778",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.03.569778.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR768141",
+    "raw_record": {
+      "id": "PPR768141",
+      "source": "PPR",
+      "doi": "10.1101/2023.12.03.569778",
+      "title": "Structural Host-Virus Interactome Profiling of Intact Infected Cells",
+      "authorString": "Bogdanow B, Mühlberg L, Gruska I, Vetter B, Ruta J, Elofsson A, Wiebusch L, Liu F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Bogdanow B",
+            "lastName": "Bogdanow",
+            "firstName": "Boris",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9634-7353"
+            }
+          },
+          {
+            "fullName": "Mühlberg L",
+            "lastName": "Mühlberg",
+            "firstName": "Lars",
+            "initials": "L"
+          },
+          {
+            "fullName": "Gruska I",
+            "lastName": "Gruska",
+            "firstName": "Iris",
+            "initials": "I"
+          },
+          {
+            "fullName": "Vetter B",
+            "lastName": "Vetter",
+            "firstName": "Barbara",
+            "initials": "B"
+          },
+          {
+            "fullName": "Ruta J",
+            "lastName": "Ruta",
+            "firstName": "Julia",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-0524-6885"
+            }
+          },
+          {
+            "fullName": "Elofsson A",
+            "lastName": "Elofsson",
+            "firstName": "Arne",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7115-9751"
+            }
+          },
+          {
+            "fullName": "Wiebusch L",
+            "lastName": "Wiebusch",
+            "firstName": "Lüder",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7210-6731"
+            }
+          },
+          {
+            "fullName": "Liu F",
+            "lastName": "Liu",
+            "firstName": "Fan",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2358-549X"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2358-549X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7115-9751"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7210-6731"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9634-7353"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-0524-6885"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-8046-007X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Virus-host protein-protein interactions (PPIs) are fundamental to viral infections, yet high-resolution identification within the native context of intact infected cells has remained an unsolved challenge. Here, we developed structural host-virus interactome profiling (SHVIP) that combines  in situ cross-linking mass spectrometry with the enrichment of newly synthesized viral proteins from infected cells. We established SHVIP using herpes simplex virus type 1 and obtained 739 PPIs based on 6,194 cross-links from productively infected cells. SHVIP captures PPIs across intracellular compartments and at the intact host endomembrane system. It resolves PPIs to the protein domain level and seamlessly integrates with AlphaFold-based structural modeling, facilitating detailed predictions of PPI sites within structured and intrinsically disordered regions. We show that SHVIP captures parts of the virus-host PPI space that are elusive to traditional interaction proteomics approaches. By selectively disrupting several newly identified virus-host PPIs, we confirm SHVIP’s ability to uncover genuine virus-host PPIs in the intact complex environment of infected cells.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/03/2023.12.03.569778.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.12.03.569778"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40691152",
+            "reference": "Nature communications. 2025 Jul;16(1):6713",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-12-05",
+      "firstPublicationDate": "2023-12-03",
+      "firstIndexDate": "2023-12-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

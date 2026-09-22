@@ -1,0 +1,647 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.09.658393",
+  "title": "Integrating structural homology with deep learning to achieve highly accurate protein-protein interface prediction for the human interactome",
+  "doi": "10.1101/2025.06.09.658393",
+  "abstract": "A significant portion of disease-causing mutations occur at protein-protein interfaces however, the number of structurally resolved multi-protein complexes is extremely small. Here we present a computational pipeline, PIONEER2, that integrates 3D structural similarity with geometric deep learning to accurately predict protein binding partner-specific interfacial residues. We compare the performance of PIONEER2 to that of AlphaFold3 and found, using a test set of PDB structures, that their performance is quite similar. However, about 20% of AlphaFold3 predictions for protein-protein complexes in the PDB have AlphaFold3 ranking scores below 0.5, which indicates an uncertain model. For these structures, PIONEER2 outperforms AlphaFold3 at discriminating interfacial from non-interfacial residues. Further, about half of the AlphaFold3 ranking scores on high confidence protein-protein interactions (PPIs) not associated with a PDB structure are below 0.5 indicating that PIONEER2 offers superior interface prediction for a large number of PPIs for which structures are not available. We created a comprehensive 3D structurally informed interactome encompassing all 352,124 experimentally detected binary human PPIs in the current literature and made PIONEER2 interface predictions for each. We experimentally validated these predictions by generating 1,866 mutations and testing their disruptive impact on 5,010 mutation-interaction pairs. PIONEER2-predicted interfaces are found to be comparable to PDB structures in their ability to predict disruptive mutations while AlphaFold3 performance is reduced. Similarly, PIONEER2-predicted interfaces outperform AlphaFold3 in accounting for the depletion of non-deleterious common population variants and the enrichment of disease-related mutations on protein surfaces. Overall, our results suggest that PIONEER2-predicted interfaces provide a valuable tool for studying disease etiology, advancing personalized medicine and for fundamental research. We further implemented PIONEER2 as a user-friendly web server (https://pioneer2.yulab.org) platform for users to explore our 3D interactome models and conduct genome-wide functional genomics studies.",
+  "authors": [
+    "Dapeng Xiong",
+    "Mateo Torres",
+    "Diana Murray",
+    "Zizhao Zhang",
+    "Le Li",
+    "Aniket C. Naravane",
+    "Robert Fragoza",
+    "Barry Honig",
+    "Haiyuan Yu"
+  ],
+  "published_date": "2025-06-12",
+  "updated_date": "2025-06-13T01:35:26Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.09.658393",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.09.658393.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            21
+          ]
+        ],
+        "date-time": "2026-09-21T09:07:52Z",
+        "timestamp": 1789981672383,
+        "version": "4.0.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            12
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 50,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                12
+              ]
+            ],
+            "date-time": "2025-06-12T00:00:00Z",
+            "timestamp": 1749686400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "name": "National Institute of General Medical Sciences",
+          "award": [
+            "R01GM124559"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R01GM124559"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/04q48ey07",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "National Institute of General Medical Sciences",
+          "award": [
+            "RM1GM139738"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "RM1GM139738"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/04q48ey07",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "National Institute of General Medical Sciences",
+          "award": [
+            "R35GM139585"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "R35GM139585"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/04q48ey07",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "name": "Simons Foundation Autism Research Initiative",
+          "award": [
+            "SFARI-893926"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "SFARI-893926"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/01cmst727",
+              "id-type": "ROR",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            20
+          ]
+        ]
+      },
+      "abstract": "<jats:p>A significant portion of disease-causing mutations occur at protein-protein interfaces however, the number of structurally resolved multi-protein complexes is extremely small. Here we present a computational pipeline, PIONEER2, that integrates 3D structural similarity with geometric deep learning to accurately predict protein binding partner-specific interfacial residues.  We compare the performance of PIONEER2 to that of AlphaFold3 and found, using a test set of PDB structures, that their performance is quite similar. However, about 20% of AlphaFold3 predictions for protein-protein complexes in the PDB have AlphaFold3 ranking scores below 0.5, which indicates an uncertain model. For these structures, PIONEER2 outperforms AlphaFold3 at discriminating interfacial from non-interfacial residues. Further, about half of the AlphaFold3 ranking scores on high confidence protein-protein interactions (PPIs) not associated with a PDB structure are below 0.5 indicating that  PIONEER2 offers superior interface prediction for a large number of PPIs for which structures are not available. We created a comprehensive 3D structurally informed interactome encompassing all 352,124 experimentally detected binary human PPIs in the current literature and made PIONEER2 interface predictions for each. We experimentally validated these predictions by generating 1,866 mutations and testing their disruptive impact on 5,010 mutation-interaction pairs.  PIONEER2-predicted interfaces are found to be comparable to PDB structures in their ability to predict disruptive mutations while AlphaFold3 performance is reduced. Similarly, PIONEER2-predicted interfaces outperform AlphaFold3 in accounting for the depletion of non-deleterious common population variants and the enrichment of disease-related mutations on protein surfaces. Overall, our results suggest that PIONEER2-predicted interfaces provide a valuable tool for studying disease etiology, advancing personalized medicine and for fundamental research. We further implemented PIONEER2 as a user-friendly web server (https://pioneer2.yulab.org) platform for users to explore our 3D interactome models and conduct genome-wide functional genomics studies.</jats:p>",
+      "DOI": "10.1101/2025.06.09.658393",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            13
+          ]
+        ],
+        "date-time": "2025-06-13T01:35:26Z",
+        "timestamp": 1749778526000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Integrating structural homology with deep learning to achieve highly accurate protein-protein interface prediction for the human interactome"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Dapeng",
+          "family": "Xiong",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Cornell University;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mateo",
+          "family": "Torres",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell University;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Diana",
+          "family": "Murray",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Columbia University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zizhao",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell University;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Le",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell University;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Aniket C.",
+          "family": "Naravane",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Columbia University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Robert",
+          "family": "Fragoza",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell University;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Barry",
+          "family": "Honig",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Columbia University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7597-6049",
+          "authenticated-orcid": false,
+          "given": "Haiyuan",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Cornell University;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2918"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2011.02.016"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2188-x"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature22366"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2014.10.050"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1280"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2005.08.029"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature04209"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature11503"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.14.9.1027"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.2106"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0666-6"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-022-01490-7"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-37701-8"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "D. Xiong et al., A structurally informed human protein–protein interactome reveals proteome-wide perturbations caused by disease mutations. Nat. Biotechnol., (2024).",
+          "DOI": "10.1101/2023.04.24.538110"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2023.168052"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkae1091"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.19",
+          "unstructured": "R. Evans , et al., Protein complex prediction with AlphaFold-Multimer. bioRxiv, 2021.2010.2004.463034 (2022)."
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-022-00910-8"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4540"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-022-29394-2"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "J. Das , H. Yu , HINT: High-quality protein interactomes and their applications in understanding human disease. BMC Syst. Biol. 6, 92 (2012).",
+          "DOI": "10.1186/1752-0509-6-92"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1079"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh086"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1115"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr930"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/database/baq023"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn892"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq1157"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1284"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.3215"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2400260121"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1004819"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.04.013"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00439-017-1779-6"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.39",
+          "unstructured": "J. Su , C. Han , Y. Zhou , J. Shan , X. Zhou , F. Yuan , paper presented at the The Twelfth International Conference on Learning Representations, 2024."
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng.2764"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1258"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(71)90324-X"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/(SICI)1097-0282(199603)38:3<305::AID-BIP4>3.0.CO;2-Y"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.45",
+          "unstructured": "O.-E. Ganea et al., paper presented at the The Tenth International Conference on Learning Representations, 2022."
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAB1061"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.18715"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr311"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/HUMU.24309"
+        },
+        {
+          "key": "2026041203190067000_2025.06.09.658393v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/meth.2001.1190"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.06.09.658393",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            21
+          ]
+        ],
+        "date-time": "2026-09-21T08:55:22Z",
+        "timestamp": 1789980922000
+      },
+      "score": 55.027023,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.06.09.658393"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            12
+          ]
+        ]
+      },
+      "references-count": 50,
+      "URL": "https://doi.org/10.1101/2025.06.09.658393",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            6,
+            12
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

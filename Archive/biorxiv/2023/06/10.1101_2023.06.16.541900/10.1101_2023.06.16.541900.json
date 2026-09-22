@@ -1,0 +1,244 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.16.541900",
+  "title": "CC + : A Searchable Database of Validated Coiled coils in PDB Structures and AlphaFold2 Models",
+  "doi": "10.1101/2023.06.16.541900",
+  "abstract": "<h4>ABSTRACT</h4> α-Helical coiled coils are common tertiary and quaternary elements of protein structure. In coiled coils, two or more α helices wrapped around each other to form bundles. This apparently simple structural motif can generate many architectures and topologies. Understanding the variety of and limits on coiled-coil assemblies and their sequence-to-structure relationships impacts on protein structure, design, and engineering. Coiled coil-forming sequences can be predicted from heptad repeats of hydrophobic and polar residues, hpphppp , although this is not always reliable. Alternatively, coiled-coil structures can be identified using the program SOCKET, which finds knobs-into-holes (KIH) packing between side chains of neighboring helices. SOCKET also classifies coiled-coil architecture and topology, thus allowing sequence-to-structure relationships to be garnered. In 2009, we used SOCKET to create a relational database of coiled-coil structures, CC + , from the RCSB Protein Data Bank (PDB). Here we report an update of CC + following the recent explosion of structural data and the success of AlphaFold2 in predicting protein structures from genome sequences. With the most-stringent SOCKET parameters, CC + contains ≈12,000 coiled-coil assemblies from experimentally determined structures, and ≈120,000 potential coiled-coil structures within single-chain models predicted by AlphaFold2 across 48 proteomes. CC + allows these and other less-stringently defined coiled coils to be searched at various levels of structure, sequence, and side-chain interactions. The identified coiled coils can be viewed directly from CC + using the Socket2 application, and their associated data can be downloaded for further analyses. CC + is available freely at http://coiledcoils.chm.bris.ac.uk/CCPlus/Home.html . It will be regularly updated automatically. <h4>FOR THE BROADER AUDIENCE</h4> Protein assemblies and protein-protein interactions are key to all biological processes. α-Helical coiled coils are one of the most common modes of directing and stabilising these interfaces. Here, we report an updated CC + database of structurally validated coiled coils from experimental protein structures and AlphaFold2 models. CC + contains many thousands of coiled-coil structures and models, associated parameters, and sequences. It enables the compilation of rich datasets for advancing protein structure, design, and engineering research.",
+  "authors": [
+    "Kumar P",
+    "Petrenas R",
+    "Dawson WM",
+    "Schweke H",
+    "Levy ED",
+    "Woolfson DN"
+  ],
+  "published_date": "2023-06-17",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.16.541900",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.16.541900.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR677543",
+    "raw_record": {
+      "id": "PPR677543",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR677543"
+        ]
+      },
+      "doi": "10.1101/2023.06.16.541900",
+      "title": "CC  <sup>+</sup>  : A Searchable Database of Validated Coiled coils in PDB Structures and AlphaFold2 Models",
+      "authorString": "Kumar P, Petrenas R, Dawson WM, Schweke H, Levy ED, Woolfson DN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kumar P",
+            "lastName": "Kumar",
+            "firstName": "Prasun",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Petrenas R",
+            "lastName": "Petrenas",
+            "firstName": "Rokas",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dawson WM",
+            "lastName": "Dawson",
+            "firstName": "William",
+            "initials": "WM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schweke H",
+            "lastName": "Schweke",
+            "firstName": "Hugo",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7830-1546"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Levy ED",
+            "lastName": "Levy",
+            "firstName": "Emmanuel",
+            "initials": "ED",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Woolfson DN",
+            "lastName": "Woolfson",
+            "firstName": "Derek",
+            "initials": "DN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Chemistry, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                },
+                {
+                  "affiliation": "School of Biochemistry, University of Bristol, Medical Sciences Building, University Walk, Bristol BS8 1TD, UK"
+                },
+                {
+                  "affiliation": "Bristol BioDesign Institute, School of Chemistry, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7830-1546"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  α-Helical coiled coils are common tertiary and quaternary elements of protein structure. In coiled coils, two or more α helices wrapped around each other to form bundles. This apparently simple structural motif can generate many architectures and topologies. Understanding the variety of and limits on coiled-coil assemblies and their sequence-to-structure relationships impacts on protein structure, design, and engineering. Coiled coil-forming sequences can be predicted from heptad repeats of hydrophobic and polar residues,  hpphppp , although this is not always reliable. Alternatively, coiled-coil structures can be identified using the program SOCKET, which finds knobs-into-holes (KIH) packing between side chains of neighboring helices. SOCKET also classifies coiled-coil architecture and topology, thus allowing sequence-to-structure relationships to be garnered. In 2009, we used SOCKET to create a relational database of coiled-coil structures, CC  + , from the RCSB Protein Data Bank (PDB). Here we report an update of CC  + following the recent explosion of structural data and the success of AlphaFold2 in predicting protein structures from genome sequences. With the most-stringent SOCKET parameters, CC  + contains ≈12,000 coiled-coil assemblies from experimentally determined structures, and ≈120,000 potential coiled-coil structures within single-chain models predicted by AlphaFold2 across 48 proteomes. CC  + allows these and other less-stringently defined coiled coils to be searched at various levels of structure, sequence, and side-chain interactions. The identified coiled coils can be viewed directly from CC  + using the Socket2 application, and their associated data can be downloaded for further analyses. CC  + is available freely at  http://coiledcoils.chm.bris.ac.uk/CCPlus/Home.html . It will be regularly updated automatically.  <h4>FOR THE BROADER AUDIENCE</h4>  Protein assemblies and protein-protein interactions are key to all biological processes. α-Helical coiled coils are one of the most common modes of directing and stabilising these interfaces. Here, we report an updated CC  + database of structurally validated coiled coils from experimental protein structures and AlphaFold2 models. CC  + contains many thousands of coiled-coil structures and models, associated parameters, and sequences. It enables the compilation of rich datasets for advancing protein structure, design, and engineering research.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "787173",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "340764",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/17/2023.06.16.541900.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.16.541900"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR677543"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR677543&type=FILE&fileName=EMS177755-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37768271",
+            "reference": "Protein science : a publication of the Protein Society. 2023 Nov;32(11):e4789",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS177755",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-06-19",
+      "firstPublicationDate": "2023-06-17",
+      "firstIndexDate": "2023-06-19",
+      "fullTextReceivedDate": "2023-08-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

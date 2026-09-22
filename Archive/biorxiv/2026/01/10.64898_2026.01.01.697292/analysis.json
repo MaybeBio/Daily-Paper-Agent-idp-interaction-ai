@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.01.697292",
+  "title": "A variational method for efficient estimation of diffusion and free-energy profiles along collective variables",
+  "authors": "Hubman A; Merzel F",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-02",
+  "window": {
+    "start": "2025-12-29",
+    "end": "2026-01-04"
+  },
+  "score": 6,
+  "one_liner_zh": "提出一种变分方法，从投影分子动力学轨迹高效估计沿集体变量的扩散系数和自由能分布，并应用于生物分子凝聚体界面的水扩散，虽对象非IDP互作，但方法可迁移至无序蛋白介导PPI的动力学建模。",
+  "abstract": "An efficient variational method is presented for estimating the diffusion coefficients and free-energy profiles along selected collective variables from projected molecular dynamics trajectories under both equilibrium and nonequilibrium conditions. The method is based on the assumption that the short-time transition probability density of the coordinate moves can be approximated by a Gaussian form. Defining a loss function as the sum of Kullback-Leibler divergences between the analytical short-time propagators of an overdamped Langevin model and those estimated directly from the projected trajectories maximises the agreement between the two and allows for its analytic evaluation. To efficiently minimise this loss function by varying diffusion and free-energy profiles along collective variables, we use an adaptive Monte Carlo scheme. The method is applied to two model systems exhibiting diffusive dynamics, as well as to water diffusion across the interface of a biomolecular condensate, demonstrating its robustness and accuracy.",
+  "abstract_zh": "提出了一种高效变分方法，用于在平衡和非平衡条件下，从投影分子动力学轨迹中估计沿选定集体变量的扩散系数和自由能分布。该方法基于坐标运动的短时转移概率密度可近似为高斯形式的假设。将损失函数定义为过阻尼朗之万模型的解析短时传播子与直接从投影轨迹估计的传播子之间的Kullback-Leibler散度之和，最大化两者之间的一致性，并允许其解析评估。为通过沿集体变量变化扩散和自由能分布来高效最小化此损失函数，我们采用自适应蒙特卡洛方案。该方法应用于两个表现出扩散动力学的模型系统，以及生物分子凝聚体界面上的水扩散，展示了其稳健性和准确性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.01.697292",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.01.697292",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.01.697292/index.html"
+}

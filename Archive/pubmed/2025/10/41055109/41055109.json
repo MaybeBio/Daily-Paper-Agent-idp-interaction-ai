@@ -1,0 +1,303 @@
+{
+  "identity": {
+    "pmid": "41055109",
+    "doi": "10.7554/eLife.107470",
+    "title": "DIRseq as a method for predicting drug-interacting residues of intrinsically disordered proteins from sequences."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are now well-recognized as drug targets. Identifying drug-interacting residues is valuable for both optimizing compounds and elucidating the mechanism of action. Currently, NMR chemical shift perturbation and all-atom molecular dynamics (MD) simulations are the primary tools for this purpose. Here, we present DIRseq, a fast method for predicting drug-interacting residues from the amino-acid sequence. All residues contribute to the propensity of a particular residue to be drug-interacting; the contributing factor of each residue has an amplitude that is determined by its amino-acid type and attenuates with increasing sequence distance from the particular residue. DIRseq predictions match well with drug-interacting residues identified by NMR chemical shift perturbation and other methods, including residues L(22)WK(24) and Q(52)WFT(55) in the tumor suppressor protein p53. These successes augur well for deciphering the sequence code for IDP-drug binding. DIRseq is available as a web server at https://zhougroup-uic.github.io/DIRseq/ and has many applications, such as virtual screening against IDPs and designing IDP fragments for in-depth NMR and MD studies.",
+    "keywords": [
+      "drug binding",
+      "drug-interacting residues",
+      "intrinsically disordered proteins",
+      "molecular biophysics",
+      "none",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Amino Acid Sequence",
+      "*Software",
+      "Protein Binding",
+      "*Computational Biology/methods",
+      "Pharmaceutical Preparations/metabolism/chemistry",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "MacAinsh, Matt",
+        "Qin, Sanbo",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "MacAinsh M",
+        "Qin S",
+        "Zhou HX"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9020-0302"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois Chicago, Chicago, United States.",
+        "Department of Chemistry, University of Illinois Chicago, Chicago, United States.",
+        "Department of Chemistry, University of Illinois Chicago, Chicago, United States.",
+        "Department of Physics, University of Illinois Chicago, Chicago, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "MacAinsh, Matt",
+        "short_name": "MacAinsh M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Chicago, Chicago, United States."
+        ]
+      },
+      {
+        "full_name": "Qin, Sanbo",
+        "short_name": "Qin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Chicago, Chicago, United States."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [
+          "0000-0001-9020-0302"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Chicago, Chicago, United States.",
+          "Department of Physics, University of Illinois Chicago, Chicago, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2025 Oct 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/07 12:30",
+    "fetched_at": "2026-09-17 20:55:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40532196",
+      "40068541",
+      "39475380",
+      "39433443",
+      "38885177",
+      "38686803",
+      "38424045",
+      "38251829",
+      "38170904",
+      "38049566",
+      "37645312",
+      "36969402",
+      "36302916",
+      "36142176",
+      "36084347",
+      "35210421",
+      "35200356",
+      "35130691",
+      "34716273",
+      "34278794",
+      "34164069",
+      "34130216",
+      "33579943",
+      "33148639",
+      "32786705",
+      "32593678",
+      "32029630",
+      "31679823",
+      "28841302",
+      "28435985",
+      "28054562",
+      "27356095",
+      "27101974",
+      "26931396",
+      "26507530",
+      "25436420",
+      "24845231",
+      "24372466",
+      "24098099",
+      "22393064",
+      "21873994",
+      "20707388",
+      "20545323",
+      "19948969",
+      "19432426",
+      "18511942",
+      "18442979",
+      "15235593",
+      "11872841",
+      "11746699"
+    ],
+    "similar": [
+      "41055109",
+      "40654683",
+      "39475380",
+      "28365882",
+      "39163306",
+      "27844185",
+      "40068541",
+      "29228892",
+      "21541066",
+      "32696367",
+      "41174305",
+      "30840442",
+      "33355572",
+      "26742101",
+      "33623120",
+      "34626492",
+      "30240067",
+      "33945530",
+      "24589355",
+      "31756456",
+      "28394890",
+      "40133791",
+      "34863777",
+      "34845619",
+      "38987470",
+      "38079339",
+      "40532196",
+      "32771522",
+      "29042212",
+      "25919886",
+      "26735936",
+      "35436286",
+      "28448138",
+      "29808548",
+      "32393642",
+      "30204435",
+      "32621228",
+      "28765603",
+      "40728620",
+      "40728621",
+      "25207671",
+      "30979035",
+      "24211251",
+      "28076807",
+      "40944448",
+      "32426975",
+      "34799573",
+      "34504009",
+      "36827446",
+      "38739602",
+      "40650026",
+      "35562983",
+      "39885825",
+      "36674958",
+      "39807013",
+      "29286306",
+      "30002402",
+      "25863585",
+      "30471704",
+      "32357776",
+      "30471686",
+      "29907037",
+      "38116756",
+      "32859072",
+      "32696383",
+      "29990433",
+      "31441158",
+      "39740355",
+      "27787828",
+      "28554553",
+      "40360271",
+      "31809054",
+      "35883018",
+      "30366362",
+      "40128232",
+      "32585849",
+      "35130691",
+      "29276882",
+      "36084347",
+      "28493424",
+      "24333248",
+      "30259679",
+      "37883249",
+      "29716994",
+      "28155710",
+      "40441416",
+      "24098099",
+      "32639157",
+      "23606624",
+      "41082321",
+      "32139510",
+      "36778236",
+      "30866736",
+      "34201262",
+      "38048333",
+      "31425549",
+      "28926706",
+      "32074499",
+      "41001635",
+      "31052346"
+    ],
+    "review": [
+      "41055109",
+      "40068541",
+      "30840442",
+      "33355572",
+      "30979035",
+      "40650026",
+      "25863585",
+      "31441158",
+      "39740355"
+    ],
+    "pmc": [
+      "12503486"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41055109/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.107470",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

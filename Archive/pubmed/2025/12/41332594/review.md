@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with reference to the stated availability of supplementary material and data repositories
+- **Shared manuscript claim summary** The authors report that small molecule inhibitors of the androgen receptor activation domain (AR AD), previously tested in clinical trials for castration-resistant prostate cancer, stabilize oligomeric forms of this intrinsically disordered protein in solution and alter condensate properties. Using long-timescale all-atom molecular dynamics simulations and NMR spectroscopy, they claim to have determined atomic-level mechanisms by which these compounds stabilize highly dynamic, heterogeneous intermolecular interfaces mediating AR AD oligomerization. They further claim that these mechanisms explain relative inhibitor potencies and suggest general design strategies for small molecules targeting oligomeric and condensed forms of intrinsically disordered proteins.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or results sections provided. The abstract references molecular dynamics simulations and NMR spectroscopy as methods, and a GitHub repository for simulation data, but no specific data or quantitative results are presented in the supplied material.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, detailed methods for simulations and NMR experiments, quantitative results (e.g., binding affinities, oligomer size distributions, NMR chemical shift perturbations), and validation of simulation force fields and sampling convergence. The GitHub repository is mentioned but not accessible within the provided scope.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially significant advance in understanding how small molecules modulate oligomerization of an intrinsically disordered protein, with clear clinical relevance. However, the supplied material is limited to the abstract, which contains no quantitative data, no methodological detail, and no direct evidence supporting the central mechanistic claims. The claims of atomic-level mechanism determination and potency explanation are therefore not assessable from the provided evidence. The work may be of high interest if the full manuscript substantiates the abstract, but the current evidence base is insufficient to evaluate technical soundness or establish the case.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, phase separation, drug discovery for disordered targets, and prostate cancer therapeutics would be interested. The work addresses a long-standing challenge in targeting disordered proteins with small molecules, and the proposed general design strategies could have broad implications for drug development. Clinicians and translational researchers focused on castration-resistant prostate cancer may also find relevance given the clinical testing of these compounds.
+- **Major strengths** The abstract identifies a clinically relevant problem and proposes a mechanistic approach combining long-timescale all-atom simulations with NMR, which is a rigorous combination for studying dynamic disordered systems. The claim of explaining relative potencies is potentially impactful if supported. The availability of simulation data in a public repository is a positive feature for reproducibility.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim to have determined, in atomic detail, the molecular mechanisms by which small molecules stabilize highly dynamic, heterogeneous intermolecular interfaces that mediate oligomerization of the androgen receptor activation domain.
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative results provided. Location not provided.
+  - **Concern** The abstract asserts atomic-level mechanistic determination, but no specific data are presented to support this. There are no quantitative measures of oligomer stabilization, no structural or dynamic details of the intermolecular interfaces, and no comparison of different inhibitors. The claim is stated as a conclusion without visible supporting evidence.
+  - **Why it matters** The central scientific contribution of the work rests on this mechanistic claim. Without evidence, the claim cannot be evaluated for validity, and the significance of the study is unverifiable.
+  - **Resolution test** The full manuscript must provide specific simulation and NMR data, such as binding free energy calculations, contact maps, chemical shift perturbations, and oligomer size distributions, that directly demonstrate how small molecules stabilize the interfaces and how these data support the proposed mechanisms.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The authors claim that the mechanisms determined explain the relative potencies of androgen receptor activation domain inhibitors.
+  - **Evidence pointer** Abstract only; no potency data or correlation analysis provided. Location not provided.
+  - **Concern** The abstract states that the mechanisms explain relative potencies, but no potency values, no ranking of inhibitors, and no quantitative link between mechanistic features and potency are shown. This is a strong claim that requires direct comparative evidence.
+  - **Why it matters** If the mechanisms do not quantitatively correlate with potency, the practical utility of the findings for drug design is weakened. The claim is central to the translational relevance of the work.
+  - **Resolution test** The full manuscript must present a quantitative comparison of multiple inhibitors, with potency measurements and mechanistic parameters (e.g., binding affinities, interface stabilization energies) that show a statistically robust correlation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical validation
+  - **Claim pointer** The authors use long-timescale all-atom molecular dynamics simulations and NMR spectroscopy to determine the mechanisms.
+  - **Evidence pointer** Abstract only; no methods details provided. Location not provided.
+  - **Concern** No information is given on simulation lengths, force field parameters, system setup, convergence criteria, or NMR experimental conditions. For disordered proteins, simulation accuracy is highly sensitive to force field choice and sampling adequacy, and NMR validation is critical. Without these details, the technical soundness of the approach cannot be assessed.
+  - **Why it matters** Inadequate sampling or inaccurate force fields could lead to spurious interface structures, and NMR data may be overinterpreted. The reliability of all mechanistic conclusions depends on the quality of these methods.
+  - **Resolution test** The full manuscript must provide comprehensive methods, including simulation protocols, force field validation, convergence analysis, and NMR experimental details, with evidence that the simulations reproduce experimental observables.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "small molecule inhibitors of the intrinsically disordered androgen receptor activation domain" is ambiguous regarding whether the compounds are approved or investigational, and the clinical trial context is not specified.
+  - **Required correction** Clarify the clinical development stage and specify the trial context to avoid overstatement.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Claim of general design strategies
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim that the mechanisms suggest "general strategies" for targeting oligomeric and condensed forms of intrinsically disordered proteins is broad and may not be justified from a single protein system.
+  - **Required correction** Soften the claim or provide evidence in the full manuscript that the strategies are transferable to other disordered proteins.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data and Code Availability section
+  - **Issue** The GitHub repository is mentioned, but no accession number or version identifier is provided, and the NMR data availability is not stated.
+  - **Required correction** Provide a persistent identifier for the repository and state where NMR data and analysis scripts can be accessed.
+
+## Risk / unsupported claims
+- The claim of atomic-level mechanistic determination is unsupported in the abstract, as no data are presented.
+- The claim that mechanisms explain relative inhibitor potencies is unsupported, as no potency data or correlation analysis is shown.
+- The claim of general design strategies for targeting oligomeric and condensed forms of intrinsically disordered proteins is not substantiated from the abstract alone.
+- The methodological adequacy of the simulations and NMR experiments is not assessable due to missing details.
+- The clinical relevance implied by the abstract is plausible but not directly evidenced in the supplied material.

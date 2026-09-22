@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35408906",
+  "title": "In Silico Characterisation of the Late Embryogenesis Abundant (LEA) Protein Families and Their Role in Desiccation Tolerance in Ramonda serbica Panc.",
+  "authors": "Pantelic, Ana; Stevanovic, Strahinja; Komic, Sonja Milic; Kilibarda, Natasa; Vidovic, Marija",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2022-04-13",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究对复苏植物LEA蛋白家族进行结构表征，发现多数LEA为无序蛋白并推测其参与凝聚体形成和蛋白/膜稳定，但缺乏PPI互作机制建模和AI/物理模拟方法，仅作预测性描述。",
+  "abstract": "Ramonda serbica Panc. is an ancient resurrection plant able to survive a long desiccation period and recover metabolic functions upon watering. The accumulation of protective late embryogenesis abundant proteins (LEAPs) is a desiccation tolerance hallmark. To propose their role in R. serbica desiccation tolerance, we structurally characterised LEAPs and evaluated LEA gene expression levels in hydrated and desiccated leaves. By integrating de novo transcriptomics and homologues LEAP domains, 318 R. serbica LEAPs were identified and classified according to their conserved motifs and phylogeny. The in silico analysis revealed that hydrophilic LEA4 proteins exhibited an exceptionally high tendency to form amphipathic alpha-helices. The most abundant, atypical LEA2 group contained more hydrophobic proteins predicted to fold into the defined globular domains. Within the desiccation-upregulated LEA genes, the majority encoded highly disordered DEH1, LEA1, LEA4.2, and LEA4.3 proteins, while the greatest portion of downregulated genes encoded LEA2.3 and LEA2.5 proteins. While dehydrins might chelate metals and bind DNA under water deficit, other intrinsically disordered LEAPs might participate in forming intracellular proteinaceous condensates or adopt amphipathic alpha-helical conformation, enabling them to stabilise desiccation-sensitive proteins and membranes. This comprehensive LEAPs structural characterisation is essential to understanding their function and regulation during desiccation aiming at crop drought tolerance improvement.",
+  "abstract_zh": "Ramonda serbica Panc. 是一种古老的复苏植物，能够度过长时间干燥期并在浇水后恢复代谢功能。保护性晚期胚胎发生丰富蛋白（LEAPs）的积累是耐脱水性的标志。为探讨其在R. serbica耐脱水性中的作用，我们对LEAPs进行了结构表征，并评估了水合和脱水叶片中LEA基因的表达水平。通过整合从头转录组学和同源LEAP结构域，鉴定出318个R. serbica LEAPs，并根据其保守基序和系统发育进行分类。计算机模拟分析显示，亲水性LEA4蛋白表现出异常高的形成两亲性α-螺旋倾向。最丰富的非典型LEA2组包含更多疏水性蛋白，预测其折叠成明确的球状结构域。在脱水上调的LEA基因中，大多数编码高度无序的DEH1、LEA1、LEA4.2和LEA4.3蛋白，而下调基因中最大部分编码LEA2.3和LEA2.5蛋白。虽然脱水素可能在水分亏缺下螯合金属并结合DNA，但其他固有无序LEAPs可能参与形成细胞内蛋白凝聚体或采用两亲性α-螺旋构象，从而能够稳定对干燥敏感的蛋白质和膜。这一全面的LEAPs结构表征对于理解其在干燥过程中的功能和调控至关重要，旨在提高作物耐旱性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35408906/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35408906/",
+  "paper_page_path": "papers/pubmed/35408906/index.html"
+}

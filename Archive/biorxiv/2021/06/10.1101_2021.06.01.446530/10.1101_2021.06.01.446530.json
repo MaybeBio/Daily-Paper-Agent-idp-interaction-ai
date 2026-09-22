@@ -1,0 +1,166 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.06.01.446530",
+  "title": "A functionally divergent intrinsically disordered region underlying the conservation of stochastic signaling",
+  "doi": "10.1101/2021.06.01.446530",
+  "abstract": "Stochastic signaling dynamics expand living cells’ information processing capabilities. An increasing number of studies report that regulators encode information in their pulsatile dynamics. The evolutionary mechanisms that lead to complex signaling dynamics remain uncharacterized, perhaps because key interactions of signaling proteins are encoded in intrinsically disordered regions (IDRs), whose evolution is difficult to analyze. Here we focused on the stochastic pulsing dynamics of Crz1, a transcription factor in fungi downstream of the widely conserved calcium signaling pathway. We find that Crz1 IDRs from anciently diverged fungi can all respond transiently to calcium stress; however, only Crz1 IDRs from the Saccharomyces clade support pulsatility, encode extra information, and rescue fitness, while the Crz1 IDRs from distantly related fungi do none of the three. On the other hand, we find that Crz1 pulsing is conserved in the distantly related fungi, consistent with the evolutionary model of stabilizing selection. Further, we show that a calcineurin docking site in a specific part of the IDRs appears to be sufficient for pulsing and show evidence for a beneficial increase in the relative calcineurin affinity of this docking site. We propose that evolutionary flexibility of functionally divergent IDRs underlies the conservation of stochastic signaling by stabilizing selection.",
+  "authors": [
+    "Hsu IS",
+    "Strome B",
+    "Lash E",
+    "Robbins N",
+    "Cowen LE",
+    "Moses AM"
+  ],
+  "published_date": "2021-06-01",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.06.01.446530",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.06.01.446530.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR350271",
+    "raw_record": {
+      "id": "PPR350271",
+      "source": "PPR",
+      "doi": "10.1101/2021.06.01.446530",
+      "title": "A functionally divergent intrinsically disordered region underlying the conservation of stochastic signaling",
+      "authorString": "Hsu IS, Strome B, Lash E, Robbins N, Cowen LE, Moses AM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hsu IS",
+            "lastName": "Hsu",
+            "firstName": "Ian",
+            "initials": "IS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3532-530X"
+            }
+          },
+          {
+            "fullName": "Strome B",
+            "lastName": "Strome",
+            "firstName": "Bob",
+            "initials": "B"
+          },
+          {
+            "fullName": "Lash E",
+            "lastName": "Lash",
+            "firstName": "Emma",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0676-3215"
+            }
+          },
+          {
+            "fullName": "Robbins N",
+            "lastName": "Robbins",
+            "firstName": "Nicole",
+            "initials": "N"
+          },
+          {
+            "fullName": "Cowen LE",
+            "lastName": "Cowen",
+            "firstName": "Leah",
+            "initials": "LE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5797-0110"
+            }
+          },
+          {
+            "fullName": "Moses AM",
+            "lastName": "Moses",
+            "firstName": "Alan",
+            "initials": "AM"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5797-0110"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0676-3215"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3532-530X"
+          }
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Stochastic signaling dynamics expand living cells’ information processing capabilities. An increasing number of studies report that regulators encode information in their pulsatile dynamics. The evolutionary mechanisms that lead to complex signaling dynamics remain uncharacterized, perhaps because key interactions of signaling proteins are encoded in intrinsically disordered regions (IDRs), whose evolution is difficult to analyze. Here we focused on the stochastic pulsing dynamics of Crz1, a transcription factor in fungi downstream of the widely conserved calcium signaling pathway. We find that Crz1 IDRs from anciently diverged fungi can all respond transiently to calcium stress; however, only Crz1 IDRs from the Saccharomyces clade support pulsatility, encode extra information, and rescue fitness, while the Crz1 IDRs from distantly related fungi do none of the three. On the other hand, we find that Crz1 pulsing is conserved in the distantly related fungi, consistent with the evolutionary model of stabilizing selection. Further, we show that a calcineurin docking site in a specific part of the IDRs appears to be sufficient for pulsing and show evidence for a beneficial increase in the relative calcineurin affinity of this docking site. We propose that evolutionary flexibility of functionally divergent IDRs underlies the conservation of stochastic signaling by stabilizing selection.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/06/01/2021.06.01.446530.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.06.01.446530"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "34506483",
+            "reference": "PLoS genetics. 2021 Sep;17(9):e1009629",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-06-02",
+      "firstPublicationDate": "2021-06-01",
+      "firstIndexDate": "2021-06-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

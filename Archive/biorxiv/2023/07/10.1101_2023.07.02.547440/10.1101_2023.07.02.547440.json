@@ -1,0 +1,299 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.02.547440",
+  "title": "RNA structure and multiple weak interactions balance the interplay between RNA binding and phase separation of SARS-CoV-2 nucleocapsid",
+  "doi": "10.1101/2023.07.02.547440",
+  "abstract": "The nucleocapsid (N) protein of SARS-CoV-2 binds viral RNA, condensing it inside the virion, and phase separating with RNA to form liquid-liquid condensates. There is little consensus on what differentiates sequence-independent N-RNA interactions in the virion or in liquid droplets from those with specific genomic RNA motifs necessary for viral function inside infected cells. To identify the RNA structures and the N domains responsible for specific interactions and phase separation, we use the first 1000nt of viral RNA and short RNA segments designed as models for single-stranded and paired RNA. Binding affinities estimated from fluorescence anisotropy of these RNAs to the two folded domains of N (the NTD and CTD) and comparison to full-length N demonstrate that the NTD binds preferentially to single-stranded RNA, and while it is the primary RNA binding site, it is not essential to phase separation. Nuclear magnetic resonance spectroscopy identifies two RNA binding sites on the NTD: a previously characterized site and an additional although weaker RNA-binding face that becomes prominent when binding to the primary site is weak, such as with dsRNA or a binding-impaired mutant. Phase separation assays of nucleocapsid domains with different RNA structures support a model where multiple weak interactions, such as with the CTD or the NTD’s secondary face promote phase separation, while strong, specific interactions do not. These studies indicate that both strong and multivalent weak N-RNA interactions underlie the multifunctional abilities of N. <h4>Significance</h4> The nucleocapsid protein of the SARS-CoV-2 coronavirus binds to viral RNA, both to protect and condense it inside the viral particle and to facilitate viral transcription inside infected host cells. Evidence suggests that variations in RNA structure impact how and where it binds to the nucleocapsid, but these differences are not well understood at a structural level. Using nuclear magnetic resonance spectroscopy, we examine the interactions between each folded domain of the nucleocapsid and different RNA structures. Binding affinities and NMR chemical shift profiles demonstrate that binding between the N-terminal domain and single stranded RNA is driven by strong interactions at a specific site, while multiple weak nonspecific interactions at newly discovered sites lead to phase separation and RNA condensation.",
+  "authors": [
+    "Estelle AB",
+    "Forsythe HM",
+    "Yu Z",
+    "Hughes K",
+    "Lasher B",
+    "Allen P",
+    "Reardon P",
+    "Hendrix DA",
+    "Barbar EJ"
+  ],
+  "published_date": "2023-07-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.02.547440",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.02.547440.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR686276",
+    "raw_record": {
+      "id": "PPR686276",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR686276"
+        ]
+      },
+      "doi": "10.1101/2023.07.02.547440",
+      "title": "RNA structure and multiple weak interactions balance the interplay between RNA binding and phase separation of SARS-CoV-2 nucleocapsid",
+      "authorString": "Estelle AB, Forsythe HM, Yu Z, Hughes K, Lasher B, Allen P, Reardon P, Hendrix DA, Barbar EJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Estelle AB",
+            "lastName": "Estelle",
+            "firstName": "Aidan",
+            "initials": "AB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0305-0524"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, Oregon 97331, United States"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Forsythe HM",
+            "lastName": "Forsythe",
+            "firstName": "Heather",
+            "initials": "HM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, Oregon 97331, United States"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yu Z",
+            "lastName": "Yu",
+            "firstName": "Zhen",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, Oregon 97331, United States"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hughes K",
+            "lastName": "Hughes",
+            "firstName": "Kaitlyn",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, Oregon 97331, United States"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lasher B",
+            "lastName": "Lasher",
+            "firstName": "Brittany",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, Oregon 97331, United States"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Allen P",
+            "lastName": "Allen",
+            "firstName": "Patrick",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, Oregon 97331, United States"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Reardon P",
+            "lastName": "Reardon",
+            "firstName": "Patrick",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6858-0086"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Oregon State University NMR Facility, Oregon State University, Corvallis, Oregon 97331, United States"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hendrix DA",
+            "lastName": "Hendrix",
+            "firstName": "David",
+            "initials": "DA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7285-1977"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, Oregon 97331, United States"
+                },
+                {
+                  "affiliation": "School of Electrical Engineering and Computer Science, Oregon State University, Corvallis, Oregon 97331, United states"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barbar EJ",
+            "lastName": "Barbar",
+            "firstName": "Elisar",
+            "initials": "EJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4892-5259"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, Oregon 97331, United States"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6461-4154"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6858-0086"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7285-1977"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0305-0524"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4892-5259"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The nucleocapsid (N) protein of SARS-CoV-2 binds viral RNA, condensing it inside the virion, and phase separating with RNA to form liquid-liquid condensates. There is little consensus on what differentiates sequence-independent N-RNA interactions in the virion or in liquid droplets from those with specific genomic RNA motifs necessary for viral function inside infected cells. To identify the RNA structures and the N domains responsible for specific interactions and phase separation, we use the first 1000nt of viral RNA and short RNA segments designed as models for single-stranded and paired RNA. Binding affinities estimated from fluorescence anisotropy of these RNAs to the two folded domains of N (the NTD and CTD) and comparison to full-length N demonstrate that the NTD binds preferentially to single-stranded RNA, and while it is the primary RNA binding site, it is not essential to phase separation. Nuclear magnetic resonance spectroscopy identifies two RNA binding sites on the NTD: a previously characterized site and an additional although weaker RNA-binding face that becomes prominent when binding to the primary site is weak, such as with dsRNA or a binding-impaired mutant. Phase separation assays of nucleocapsid domains with different RNA structures support a model where multiple weak interactions, such as with the CTD or the NTD’s secondary face promote phase separation, while strong, specific interactions do not. These studies indicate that both strong and multivalent weak N-RNA interactions underlie the multifunctional abilities of N. <h4>Significance</h4>  The nucleocapsid protein of the SARS-CoV-2 coronavirus binds to viral RNA, both to protect and condense it inside the viral particle and to facilitate viral transcription inside infected host cells. Evidence suggests that variations in RNA structure impact how and where it binds to the nucleocapsid, but these differences are not well understood at a structural level. Using nuclear magnetic resonance spectroscopy, we examine the interactions between each folded domain of the nucleocapsid and different RNA structures. Binding affinities and NMR chemical shift profiles demonstrate that binding between the N-terminal domain and single stranded RNA is driven by strong interactions at a specific site, while multiple weak nonspecific interactions at newly discovered sites lead to phase separation and RNA condensation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/07/03/2023.07.02.547440.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.07.02.547440"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR686276"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR686276&type=FILE&fileName=EMS178565-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37901441",
+            "reference": "PNAS nexus. 2023 Oct;2(10):pgad333",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS178565",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-07-06",
+      "firstPublicationDate": "2023-07-03",
+      "firstIndexDate": "2023-07-06",
+      "fullTextReceivedDate": "2023-07-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

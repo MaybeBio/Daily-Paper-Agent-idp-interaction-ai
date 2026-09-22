@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "pmid": "34681586",
+    "doi": "10.3390/ijms222010929",
+    "title": "Insight into the Binding and Hydrolytic Preferences of hNudt16 Based on Nucleotide Diphosphate Substrates."
+  },
+  "content": {
+    "abstract": "Nudt16 is a member of the NUDIX family of hydrolases that show specificity towards substrates consisting of a nucleoside diphosphate linked to another moiety X. Several substrates for hNudt16 and various possible biological functions have been reported. However, some of these reports contradict each other and studies comparing the substrate specificity of the hNudt16 protein are limited. Therefore, we quantitatively compared the affinity of hNudt16 towards a set of previously published substrates, as well as identified novel potential substrates. Here, we show that hNudt16 has the highest affinity towards IDP and GppG, with K(d) below 100 nM. Other tested ligands exhibited a weaker affinity of several orders of magnitude. Among the investigated compounds, only IDP, GppG, m(7)GppG, AppA, dpCoA, and NADH were hydrolyzed by hNudt16 with a strong substrate preference for inosine or guanosine containing compounds. A new identified substrate for hNudt16, GppG, which binds the enzyme with an affinity comparable to that of IDP, suggests another potential regulatory role of this protein. Molecular docking of hNudt16-ligand binding inside the hNudt16 pocket revealed two binding modes for representative substrates. Nucleobase stabilization by Pi stacking interactions with His24 has been associated with strong binding of hNudt16 substrates.",
+    "keywords": [
+      "DSF",
+      "GppG",
+      "IDP",
+      "MST",
+      "SAXS",
+      "dinucleoside diphosphates",
+      "hNudt16",
+      "nudix family"
+    ],
+    "mesh_terms": [
+      "Binding Sites",
+      "Circular Dichroism",
+      "Dinucleoside Phosphates/*metabolism",
+      "Humans",
+      "Hydrolysis",
+      "Kinetics",
+      "Molecular Docking Simulation",
+      "Protein Stability",
+      "Pyrophosphatases/*metabolism",
+      "Substrate Specificity",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chrabaszczewska, Magdalena",
+        "Winiewska-Szajewska, Maria",
+        "Ostrowska, Natalia",
+        "Bojarska, Elzbieta",
+        "Stepinski, Janusz",
+        "Mancewicz, Lukasz",
+        "Lukaszewicz, Maciej",
+        "Trylska, Joanna",
+        "Taube, Michal",
+        "Kozak, Maciej",
+        "Darzynkiewicz, Edward",
+        "Grzela, Renata"
+      ],
+      "short_names": [
+        "Chrabaszczewska M",
+        "Winiewska-Szajewska M",
+        "Ostrowska N",
+        "Bojarska E",
+        "Stepinski J",
+        "Mancewicz L",
+        "Lukaszewicz M",
+        "Trylska J",
+        "Taube M",
+        "Kozak M",
+        "Darzynkiewicz E",
+        "Grzela R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1847-5376",
+        "ORCID: 0000-0003-0986-6882",
+        "ORCID: 0000-0002-1464-5323",
+        "ORCID: 0000-0002-8876-929X",
+        "ORCID: 0000-0003-3312-6518",
+        "ORCID: 0000-0002-1971-6012"
+      ],
+      "affiliations": [
+        "Division of Biophysics, Institute of Experimental Physics, Faculty of Physics, University of Warsaw, Pasteura 5, 02-093 Warsaw, Poland.",
+        "Institute of Biochemistry and Biophysics, Polish Academy of Sciences, Pawinskiego 5a, 02-106 Warsaw, Poland.",
+        "Centre of New Technologies, University of Warsaw, Banacha 2c, 02-097 Warsaw, Poland.",
+        "Centre of New Technologies, University of Warsaw, Banacha 2c, 02-097 Warsaw, Poland.",
+        "Centre of New Technologies, University of Warsaw, Banacha 2c, 02-097 Warsaw, Poland.",
+        "Division of Biophysics, Institute of Experimental Physics, Faculty of Physics, University of Warsaw, Pasteura 5, 02-093 Warsaw, Poland.",
+        "Division of Biophysics, Institute of Experimental Physics, Faculty of Physics, University of Warsaw, Pasteura 5, 02-093 Warsaw, Poland.",
+        "Centre of New Technologies, University of Warsaw, Banacha 2c, 02-097 Warsaw, Poland.",
+        "Department of Macromolecular Physics, Faculty of Physics, Adam Mickiewicz University, Uniwersytetu Poznanskiego 2, 61-614 Poznan, Poland.",
+        "Department of Macromolecular Physics, Faculty of Physics, Adam Mickiewicz University, Uniwersytetu Poznanskiego 2, 61-614 Poznan, Poland.",
+        "National Synchrotron Radiation Centre SOLARIS, Jagiellonian University, Czerwone Maki 98, 30-392 Krakow, Poland.",
+        "Division of Biophysics, Institute of Experimental Physics, Faculty of Physics, University of Warsaw, Pasteura 5, 02-093 Warsaw, Poland.",
+        "Centre of New Technologies, University of Warsaw, Banacha 2c, 02-097 Warsaw, Poland.",
+        "Division of Biophysics, Institute of Experimental Physics, Faculty of Physics, University of Warsaw, Pasteura 5, 02-093 Warsaw, Poland.",
+        "Centre of New Technologies, University of Warsaw, Banacha 2c, 02-097 Warsaw, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chrabąszczewska, Magdalena",
+        "short_name": "Chrabąszczewska M",
+        "identifiers": [
+          "0000-0002-1847-5376"
+        ],
+        "affiliations": [
+          "Division of Biophysics, Institute of Experimental Physics, Faculty of Physics, University of Warsaw, Pasteura 5, 02-093 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Winiewska-Szajewska, Maria",
+        "short_name": "Winiewska-Szajewska M",
+        "identifiers": [
+          "0000-0003-0986-6882"
+        ],
+        "affiliations": [
+          "Institute of Biochemistry and Biophysics, Polish Academy of Sciences, Pawinskiego 5a, 02-106 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Ostrowska, Natalia",
+        "short_name": "Ostrowska N",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of New Technologies, University of Warsaw, Banacha 2c, 02-097 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Bojarska, Elżbieta",
+        "short_name": "Bojarska E",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of New Technologies, University of Warsaw, Banacha 2c, 02-097 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Stępiński, Janusz",
+        "short_name": "Stępiński J",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of New Technologies, University of Warsaw, Banacha 2c, 02-097 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Mancewicz, Łukasz",
+        "short_name": "Mancewicz Ł",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biophysics, Institute of Experimental Physics, Faculty of Physics, University of Warsaw, Pasteura 5, 02-093 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Łukaszewicz, Maciej",
+        "short_name": "Łukaszewicz M",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biophysics, Institute of Experimental Physics, Faculty of Physics, University of Warsaw, Pasteura 5, 02-093 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Trylska, Joanna",
+        "short_name": "Trylska J",
+        "identifiers": [
+          "0000-0002-1464-5323"
+        ],
+        "affiliations": [
+          "Centre of New Technologies, University of Warsaw, Banacha 2c, 02-097 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Taube, Michał",
+        "short_name": "Taube M",
+        "identifiers": [
+          "0000-0002-8876-929X"
+        ],
+        "affiliations": [
+          "Department of Macromolecular Physics, Faculty of Physics, Adam Mickiewicz University, Uniwersytetu Poznanskiego 2, 61-614 Poznan, Poland."
+        ]
+      },
+      {
+        "full_name": "Kozak, Maciej",
+        "short_name": "Kozak M",
+        "identifiers": [
+          "0000-0003-3312-6518"
+        ],
+        "affiliations": [
+          "Department of Macromolecular Physics, Faculty of Physics, Adam Mickiewicz University, Uniwersytetu Poznanskiego 2, 61-614 Poznan, Poland.",
+          "National Synchrotron Radiation Centre SOLARIS, Jagiellonian University, Czerwone Maki 98, 30-392 Krakow, Poland."
+        ]
+      },
+      {
+        "full_name": "Darżynkiewicz, Edward",
+        "short_name": "Darżynkiewicz E",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Biophysics, Institute of Experimental Physics, Faculty of Physics, University of Warsaw, Pasteura 5, 02-093 Warsaw, Poland.",
+          "Centre of New Technologies, University of Warsaw, Banacha 2c, 02-097 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Grzela, Renata",
+        "short_name": "Grzela R",
+        "identifiers": [
+          "0000-0002-1971-6012"
+        ],
+        "affiliations": [
+          "Division of Biophysics, Institute of Experimental Physics, Faculty of Physics, University of Warsaw, Pasteura 5, 02-093 Warsaw, Poland.",
+          "Centre of New Technologies, University of Warsaw, Banacha 2c, 02-097 Warsaw, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2021 Oct 10",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/24 06:00",
+    "fetched_at": "2026-09-20 06:04:51"
+  },
+  "links": {
+    "cites": [
+      "41054930",
+      "40060009",
+      "39470566",
+      "39338357",
+      "38380271",
+      "37656232",
+      "36418172",
+      "35563260"
+    ],
+    "refs": [
+      "33689348",
+      "33045949",
+      "32548091",
+      "32432673",
+      "32059949",
+      "32006251",
+      "31911551",
+      "31216043",
+      "30976021",
+      "29893907",
+      "29483298",
+      "29142246",
+      "28695505",
+      "28273138",
+      "27406238",
+      "27378923",
+      "26121039",
+      "26038575",
+      "25789582",
+      "21337011",
+      "21224379",
+      "21070968",
+      "20385596",
+      "20081199",
+      "19563527",
+      "18820299",
+      "18599640",
+      "18307169",
+      "17913640",
+      "17853878",
+      "17567574",
+      "16808471",
+      "16472752",
+      "15963459",
+      "15581572",
+      "15060060",
+      "15053875",
+      "12711324",
+      "11115507",
+      "10354416",
+      "8810257",
+      "8744570",
+      "7578113"
+    ],
+    "similar": [
+      "34681586",
+      "29483298",
+      "21337011",
+      "27618147",
+      "9452430",
+      "15581572",
+      "10585413",
+      "12096117",
+      "29367493",
+      "26121039",
+      "19462967",
+      "16336194",
+      "31173659",
+      "20385596",
+      "28011303",
+      "23184251",
+      "20546305",
+      "19081844",
+      "15147580",
+      "16900379",
+      "10090752",
+      "8391269",
+      "17824959",
+      "18512963",
+      "11479323",
+      "37343711",
+      "24816099",
+      "17187902",
+      "11773415",
+      "8286347",
+      "32059949",
+      "9622508",
+      "34329705",
+      "12370170",
+      "12370179",
+      "11695920",
+      "20542141",
+      "7819284",
+      "11053429",
+      "27467751",
+      "11287126",
+      "11183782",
+      "16077129",
+      "17567574",
+      "12501185",
+      "32432673",
+      "20081199",
+      "10085096",
+      "20601405",
+      "2982324",
+      "15158734",
+      "17344088",
+      "10419486",
+      "20394834",
+      "22556419",
+      "32492501",
+      "11323725",
+      "31728067",
+      "30478756",
+      "2830251",
+      "12399474",
+      "2538346",
+      "15211510",
+      "24787956",
+      "1653209",
+      "17698004",
+      "11976345",
+      "11136450",
+      "23670977",
+      "19541768",
+      "15878881",
+      "8834776",
+      "21768126",
+      "28705712",
+      "16285737",
+      "23481913",
+      "23770441",
+      "22414689",
+      "11513604",
+      "26524597",
+      "3017212",
+      "12906832",
+      "9694840",
+      "2176605",
+      "10029539",
+      "10080922",
+      "12837785",
+      "17603550",
+      "9880487",
+      "15611104",
+      "3009442",
+      "8198532",
+      "7727060",
+      "16766526",
+      "10873676",
+      "27155296",
+      "17639373",
+      "29042506"
+    ],
+    "review": [
+      "34681586",
+      "15581572",
+      "19081844"
+    ],
+    "pmc": [
+      "8535469"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms222010929",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34681586/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34681586",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

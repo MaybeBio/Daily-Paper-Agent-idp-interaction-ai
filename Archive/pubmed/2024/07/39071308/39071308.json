@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "pmid": "39071308",
+    "doi": "10.1101/2024.07.11.603072",
+    "title": "Controlled and orthogonal partitioning of large particles into biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates arising from liquid-liquid phase separation contribute to diverse cellular processes, such as gene expression. Partitioning of client molecules into condensates is critical to regulating the composition and function of condensates. Previous studies suggest that client size limits partitioning, with dextrans >5 nm excluded from condensates. Here, we asked whether larger particles, such as macromolecular complexes, can partition into condensates based on particle-condensate interactions. We sought to discover the biophysical principles that govern particle inclusion in or exclusion from condensates using polymer nanoparticles with tailored surface chemistries as models of macromolecular complexes. Particles coated with polyethylene glycol (PEG) did not partition into condensates. We next leveraged the PEGylated particles as an inert platform to which we conjugated specific adhesive moieties. Particles functionalized with biotin partitioned into condensates containing streptavidin, driven by high-affinity biotin-streptavidin binding. Oligonucleotide-decorated particles exhibited varying degrees of partitioning into condensates, depending on condensate composition. Partitioning of oligonucleotide-coated particles was tuned by altering salt concentration, oligonucleotide length, and oligonucleotide surface density. Remarkably, beads with distinct surface chemistries partitioned orthogonally into immiscible condensates. Based on our experiments, we conclude that arbitrarily large particles can controllably partition into biomolecular condensates given sufficiently strong condensate-particle interactions, a conclusion also supported by our coarse-grained molecular dynamics simulations and theory. These findings may provide insights into how various cellular processes are achieved based on partitioning of large clients into biomolecular condensates, as well as offer design principles for the development of drug delivery systems that selectively target disease-related biomolecular condensates.",
+    "keywords": [
+      "biological sciences",
+      "biophysics and computational biology",
+      "interfaces",
+      "intrinsically disordered proteins",
+      "liquid-liquid phase separation",
+      "molecular simulations",
+      "nanoparticles"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kelley, Fleurie M",
+        "Ani, Anas",
+        "Pinlac, Emily G",
+        "Linders, Bridget",
+        "Favetta, Bruna",
+        "Barai, Mayur",
+        "Ma, Yuchen",
+        "Singh, Arjun",
+        "Dignon, Gregory L",
+        "Gu, Yuwei",
+        "Schuster, Benjamin S"
+      ],
+      "short_names": [
+        "Kelley FM",
+        "Ani A",
+        "Pinlac EG",
+        "Linders B",
+        "Favetta B",
+        "Barai M",
+        "Ma Y",
+        "Singh A",
+        "Dignon GL",
+        "Gu Y",
+        "Schuster BS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3613-1665",
+        "ORCID: 0000-0001-8016-8652",
+        "ORCID: 0000-0002-6468-8081"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemistry and Chemical Biology, Rutgers, the State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Biomedical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemistry and Chemical Biology, Rutgers, the State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemistry and Chemical Biology, Rutgers, the State University of New Jersey, Piscataway, NJ 08854.",
+        "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kelley, Fleurie M",
+        "short_name": "Kelley FM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Ani, Anas",
+        "short_name": "Ani A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854.",
+          "Department of Chemistry and Chemical Biology, Rutgers, the State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Pinlac, Emily G",
+        "short_name": "Pinlac EG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Linders, Bridget",
+        "short_name": "Linders B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Favetta, Bruna",
+        "short_name": "Favetta B",
+        "identifiers": [
+          "0000-0002-3613-1665"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Barai, Mayur",
+        "short_name": "Barai M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Ma, Yuchen",
+        "short_name": "Ma Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Rutgers, the State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Singh, Arjun",
+        "short_name": "Singh A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Dignon, Gregory L",
+        "short_name": "Dignon GL",
+        "identifiers": [
+          "0000-0001-8016-8652"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Gu, Yuwei",
+        "short_name": "Gu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Rutgers, the State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      },
+      {
+        "full_name": "Schuster, Benjamin S",
+        "short_name": "Schuster BS",
+        "identifiers": [
+          "0000-0002-6468-8081"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biochemical Engineering, Rutgers, the State University of New Jersey, Piscataway, NJ 08854."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jul 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/29 06:42",
+    "fetched_at": "2026-09-21 09:09:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42266718",
+      "39271915",
+      "38553587",
+      "38267583",
+      "38061626",
+      "37770698",
+      "37343188",
+      "35974095",
+      "35871289",
+      "35832192",
+      "35803926",
+      "35773489",
+      "35582428",
+      "35149762",
+      "35033560",
+      "34785657",
+      "34614359",
+      "34516789",
+      "33571428",
+      "33303613",
+      "33290746",
+      "33277608",
+      "33247108",
+      "32873929",
+      "32783880",
+      "32405004",
+      "32393642",
+      "31391587",
+      "30923194",
+      "30890636",
+      "30877141",
+      "30608810",
+      "30099028",
+      "30061688",
+      "29606312",
+      "29064502",
+      "28578189",
+      "28225081",
+      "27219701",
+      "26348965",
+      "26317470",
+      "26015579",
+      "25691803",
+      "22932224",
+      "22058573",
+      "21402789",
+      "21368180",
+      "19460965",
+      "19206405",
+      "15509651",
+      "15361408",
+      "237414"
+    ],
+    "similar": [
+      "39071308",
+      "40229261",
+      "23912807",
+      "41667469",
+      "40747072",
+      "42266718",
+      "40672301",
+      "36883003",
+      "39271915",
+      "31017394",
+      "34916288",
+      "40954121",
+      "39232584",
+      "41480717",
+      "39356108",
+      "40635595",
+      "37159305",
+      "40782375",
+      "40093099",
+      "40291420",
+      "39725032",
+      "40009520",
+      "40661423",
+      "33672806",
+      "40985078",
+      "40626470",
+      "42143038",
+      "30926670",
+      "41979049",
+      "39271032",
+      "33087563",
+      "37013374",
+      "40616404",
+      "39005320",
+      "35179885",
+      "40804711",
+      "42276972",
+      "33864415",
+      "37252985",
+      "37470705",
+      "40913895",
+      "34767801",
+      "42055532",
+      "40664121",
+      "41670285",
+      "39856105",
+      "36993212",
+      "39933351",
+      "42244763",
+      "41868013",
+      "36829460",
+      "41169547",
+      "36004748",
+      "37194953",
+      "37546704",
+      "41662498",
+      "42081454",
+      "40172489",
+      "40577602",
+      "36028355",
+      "39591652",
+      "33704061",
+      "41351266",
+      "32632317",
+      "40867025",
+      "38383656",
+      "34865286",
+      "41705673",
+      "40848932",
+      "40196628",
+      "42475937",
+      "38499848",
+      "41540001",
+      "32482873",
+      "41700935",
+      "38405951",
+      "40168179",
+      "39937084",
+      "39987501",
+      "40028356",
+      "38181073",
+      "40721018",
+      "41575805",
+      "33453924",
+      "40588121",
+      "40521608",
+      "39574691",
+      "36657879",
+      "36227474",
+      "39184067",
+      "40028898",
+      "41481439",
+      "35108264",
+      "35881789",
+      "40801528",
+      "42465321",
+      "41997364",
+      "29509422",
+      "40420812",
+      "34636323"
+    ],
+    "review": [
+      "39071308",
+      "41480717",
+      "41979049",
+      "39271032",
+      "40616404",
+      "35179885",
+      "40804711",
+      "42276972",
+      "40913895",
+      "34767801",
+      "40664121",
+      "40172489",
+      "36028355",
+      "32632317",
+      "34865286",
+      "42475937",
+      "41575805",
+      "40801528",
+      "41997364"
+    ],
+    "pmc": [
+      "11275771"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39071308/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.07.11.603072",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2022-jz75v",
+  "title": "Towards the development of machine learning models to predict protein-protein interaction modulators",
+  "authors": "Bárbara I. Díaz-Eufracio; José L. Medina-Franco",
+  "journal": "ChemRxiv",
+  "published_date": "2022-05-16",
+  "window": {
+    "start": "2022-05-16",
+    "end": "2022-05-22"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用机器学习模型基于结构描述符预测PPI抑制剂，涉及PPI但非无序蛋白/IDR对象，且无机制建模，方法可迁移性有限。",
+  "abstract": "Protein-protein interaction (PPI) inhibitors have a continued and increasing role in drug discovery. It is hypothesized that machine learning (ML) algorithms are able to classify or identify PPI inhibitors. In this work, we describe the performance of different algorithms broadly used in chemoinformatics to develop a classification model able to identify PPI inhibitors based on structural and physicochemical descriptors. We found that the classification algorithms have different performance according to different features employed in the training process: random forest (RF) models with the extended connectivity fingerprint radius 4 (ECFP4) had the best classification performance as compared to those models trained with ECFP6 o MACCS keys (166-bits). In general, logistic regression models had lower performance metrics than RF models, but ECFP4 was the representation most appropriate for linear regression. ECFP4 also yielded models with high performance metrics, in particular, with support vector machine (SVM). As part of this work, we constructed ensemble models based on the top-performing models. The pipeline code developed in this work and all results are freely available at https://github.com/BarbaraDiazE/PPI_ML.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPI）抑制剂在药物发现中持续且日益发挥重要作用。假设机器学习（ML）算法能够分类或识别PPI抑制剂。在本工作中，我们描述了化学信息学中广泛使用的不同算法的性能，以开发一种基于结构和物理化学描述符的分类模型，能够识别PPI抑制剂。我们发现，分类算法的性能根据训练过程中使用的不同特征而异：随机森林（RF）模型使用扩展连接指纹半径4（ECFP4）时，其分类性能优于使用ECFP6或MACCS键（166位）训练的模型。总体而言，逻辑回归模型的性能指标低于RF模型，但ECFP4是线性回归最合适的表示方式。ECFP4也产生了高性能指标的模型，特别是与支持向量机（SVM）结合时。作为本工作的一部分，我们基于表现最佳的模型构建了集成模型。本工作开发的管道代码及所有结果可在https://github.com/BarbaraDiazE/PPI_ML免费获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2022-jz75v",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2022-jz75v",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2022-jz75v/index.html"
+}

@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "37011370",
+    "doi": "10.1021/acschemneuro.2c00726",
+    "title": "The Anthocyanidin Peonidin Interferes with an Early Step in the Fibrillation Pathway of alpha-Synuclein and Modulates It toward Amorphous Aggregates."
+  },
+  "content": {
+    "abstract": "Parkinson's disease (PD) is characterized by progressive degeneration of the dopaminergic neurons in the brain, accompanied by the accumulation of proteinaceous inclusions, Lewy bodies (LB), mainly comprised of alpha synuclein (alpha-syn) aggregates. The heterogeneity and the transient nature of the intermediate species formed in the alpha-syn fibrillation pathway have made it difficult to develop an effective therapeutic intervention. Therefore, any therapeutic molecule that could prevent as well as treat PD would be of great interest. Anthocyanidins are natural flavonoid compounds that have been shown to have neuroprotective properties and to modulate factors that cause neuronal death. Herein, we have explored the modulation and inhibition of alpha-syn fibrillation by the anthocyanidins cyanidin, delphinidin, and peonidin using a number of biophysical and structural tools. alpha-Syn fibrillation monitored using thioflavin T (ThT) fluorescence and light scattering suggested concentration dependent inhibition of alpha-syn fibrillation by all the three anthocyanidins. While cyanidin and delphinidin induced the formation of oligomers and small fibrillar structures of alpha-syn, respectively, peonidin led to the formation of amorphous aggregates, as observed by Atomic Force Microscopy (AFM). Peonidin proved to be most effective of the three anthocyanidins toward alleviating cell toxicity of SH-SY5Y neuroblastoma cells at concentrations where alpha-synuclein fibrillation was completely suppressed. Hence, the inhibition mechanism of peonidin was further explored by studying its interaction with alpha-syn using titration calorimetry and molecular docking. The results show its weak binding (in mM range) to the NAC region of alpha-syn through hydrogen bonding interactions. Also, circular dichroism and Raman spectroscopy revealed the structural aspects of peonidin-induced alpha-syn amorphous aggregates showing alpha helical structures with exposed Phe and Tyr regions. Due to the neuroprotective nature of peonidin, the findings reported here are significant and can be further explored toward developing a modifying therapy that could address both disease onset as well as the progression of PD.",
+    "keywords": [
+      "IDP",
+      "aggregation",
+      "alpha synuclein",
+      "anthocyanidins",
+      "fibrillation",
+      "flavonoids"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Verma, Geetika",
+        "Bhat, Rajiv"
+      ],
+      "short_names": [
+        "Verma G",
+        "Bhat R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2298-3717"
+      ],
+      "affiliations": [
+        "School of Biotechnology Jawaharlal Nehru University, New Delhi 110067, India.",
+        "School of Biotechnology Jawaharlal Nehru University, New Delhi 110067, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Verma, Geetika",
+        "short_name": "Verma G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology Jawaharlal Nehru University, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Bhat, Rajiv",
+        "short_name": "Bhat R",
+        "identifiers": [
+          "0000-0003-2298-3717"
+        ],
+        "affiliations": [
+          "School of Biotechnology Jawaharlal Nehru University, New Delhi 110067, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS chemical neuroscience"
+    ],
+    "journal_abbrev": [
+      "ACS Chem Neurosci"
+    ],
+    "pub_date": "2023 Apr 3",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/04 06:00",
+    "fetched_at": "2026-09-20 21:04:06"
+  },
+  "links": {
+    "cites": [
+      "40174314",
+      "40057579",
+      "39596162"
+    ],
+    "refs": [],
+    "similar": [
+      "37011370",
+      "38637513",
+      "30394624",
+      "30917654",
+      "34290084",
+      "31939603",
+      "35413176",
+      "24269918",
+      "28872299",
+      "32683319",
+      "31654699",
+      "35421539",
+      "32579329",
+      "30290273",
+      "31142553",
+      "26502720",
+      "21271629",
+      "30941047",
+      "27445146",
+      "36348612",
+      "32971232",
+      "35690099",
+      "38222653",
+      "35904551",
+      "29851342",
+      "38496993",
+      "26839406",
+      "20858207",
+      "32032728",
+      "30853581",
+      "32390826",
+      "32265684",
+      "39084146",
+      "31925956",
+      "30968030",
+      "35787838",
+      "35561861",
+      "36314062",
+      "30046897",
+      "27737778",
+      "29286644",
+      "36830639",
+      "26093169",
+      "20140223",
+      "29751824",
+      "12217698",
+      "10878583",
+      "30796974",
+      "31693290",
+      "32075919",
+      "28330770",
+      "33352233",
+      "31756328",
+      "27917933",
+      "20164329",
+      "34695168",
+      "34948195",
+      "32750740",
+      "32833434",
+      "21050861",
+      "27658511",
+      "30277753",
+      "32786327",
+      "33256825",
+      "32486485",
+      "32736645",
+      "33186020",
+      "32372484",
+      "27965913",
+      "21986202",
+      "36373662",
+      "26167732",
+      "33336386",
+      "18382667",
+      "15180968",
+      "32869336",
+      "31505208",
+      "26250981",
+      "16819979",
+      "29180135",
+      "28057070",
+      "36399706",
+      "17381514",
+      "31586134",
+      "24509835",
+      "26057626",
+      "26972727",
+      "32886481",
+      "32392751",
+      "33631264",
+      "33549656",
+      "32424162",
+      "24892822",
+      "12122208",
+      "32350746",
+      "29632314",
+      "39067421",
+      "37304685",
+      "38545462",
+      "38801346",
+      "24970188",
+      "39067714",
+      "37558717"
+    ],
+    "review": [
+      "37011370",
+      "32683319",
+      "30941047",
+      "30853581",
+      "32390826",
+      "32265684",
+      "35787838",
+      "27737778",
+      "10878583",
+      "31693290",
+      "27658511",
+      "36373662",
+      "31586134",
+      "26057626",
+      "26972727"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-649",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acncdm/article-lookup/doi/10.1021/acschemneuro.2c00726",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

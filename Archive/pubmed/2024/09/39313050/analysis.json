@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39313050",
+  "title": "Exploring the effects of 4-chloro-o-phenylenediamine on human fibrinogen: A comprehensive investigation via biochemical, biophysical and computational approaches.",
+  "authors": "Singh, Yogendra; Ahmad, Rizwan; Raza, Ali; Warsi, Mohd Sharib; Mustafa, Mohd; Khan, Hamda; Hassan, Md Imtaiyaz; Khan, Ruhi; Moinuddin; Habib, Safia",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2024-09-24",
+  "window": {
+    "start": "2024-09-23",
+    "end": "2024-09-29"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过对接、MD模拟及多种生物物理方法探究染发剂成分4-Cl-o-PD与人纤维蛋白原的相互作用及结构扰动，对象为折叠蛋白而非IDP，虽涉及蛋白-配体互作机制建模，但非PPI且与无序蛋白/相分离课题关联较弱。",
+  "abstract": "Fibrinogen (Fg), an essential plasma glycoprotein involved in the coagulation cascade, undergoes structural alterations upon exposure to various chemicals, impacting its functionality and contributing to pathological conditions. This research article explored the effects of 4-Chloro-o-phenylenediamine (4-Cl-o-PD), a common hair dye component (IUPAC = 1-Chloro-3,4-diaminobenzene), on human fibrinogen through comprehensive computational, biophysical, and biochemical approaches. The formation of a stable ligand-protein complex is confirmed through molecular docking and molecular dynamics simulations, revealing possible interaction having a favorable -4.8 kcal/mol binding energy. Biophysical results, including UV-vis and fluorescence spectroscopies, corroborated with the computational findings, whereas Fourier transform infrared spectroscopy (FT-IR) and circular dichroism spectroscopy (CD) provide insights into the alterations of secondary structures upon interaction with 4-Cl-o-PD. Anilinonaphthalene-sulfonic acid (ANS) fluorescence showed a partially unfolded protein, with enhanced alpha to beta-sheet transition as evidenced by thioflavin T (ThT) spectroscopy and microscopy. Moreover, biochemical assays confirmed the formation of carbonyl compounds that may be responsible for the oxidation of methionine residues in fibrinogen. Electrophoresis and electron microscopy confirmed the formation of aggregates. Our findings elucidate the interaction pattern of 4-Cl-o-PD with Fg, leading to structural perturbation, which may have potential implications for fibrinogen misfolding or its aggregation. Protein aggregation or its misfolded products affect peripheral tissues and the central nervous system. Many chronic progressive diseases, like type II diabetes mellitus, Alzheimer's disease, Parkison's disease, and Creutzfeldt-Jakob disease are associated with intrinsically aberrant disordered proteins. Understanding these interactions may offer new perspectives on the safety and biocompatibility of dye compounds, which may contribute to developing improved strategies for acquired amyloidogenesis.",
+  "abstract_zh": "纤维蛋白原（Fg）是一种参与凝血级联反应的关键血浆糖蛋白，在接触多种化学物质后会发生结构改变，影响其功能并导致病理状态。本研究通过综合计算、生物物理和生物化学方法，探讨了常见染发剂成分4-氯邻苯二胺（4-Cl-o-PD，IUPAC名=1-氯-3,4-二氨基苯）对人纤维蛋白原的影响。通过分子对接和分子动力学模拟确认了稳定配体-蛋白质复合物的形成，揭示了具有有利的-4.8 kcal/mol结合能的可能相互作用。生物物理结果，包括紫外-可见光谱和荧光光谱，与计算发现相印证，而傅里叶变换红外光谱（FT-IR）和圆二色光谱（CD）则提供了与4-Cl-o-PD相互作用后二级结构变化的见解。苯胺萘磺酸（ANS）荧光显示蛋白质部分去折叠，硫黄素T（ThT）光谱和显微镜观察证实了α-螺旋向β-折叠转变的增强。此外，生化分析确认了羰基化合物的形成，这可能与纤维蛋白原中甲硫氨酸残基的氧化有关。电泳和电子显微镜确认了聚集体的形成。我们的发现阐明了4-Cl-o-PD与Fg的相互作用模式，导致结构扰动，这可能对纤维蛋白原错误折叠或其聚集具有潜在影响。蛋白质聚集或其错误折叠产物影响外周组织和中枢神经系统。许多慢性进行性疾病，如II型糖尿病、阿尔茨海默病、帕金森病和克雅氏病，与本质上异常的无序蛋白质相关。理解这些相互作用可能为染料化合物的安全性和生物相容性提供新视角，这可能有助于制定改善获得性淀粉样变性的策略。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39313050/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39313050/",
+  "paper_page_path": "papers/pubmed/39313050/index.html"
+}

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, or supplementary material provided
+- **Shared manuscript claim summary** The authors propose that opposing short-ranged attraction and long-ranged electrostatic repulsion can suppress coarsening in biomolecular condensates, leading to equilibrium coexistence of many equal-sized droplets. They assert that size control depends strongly on charge asymmetry between constituents, weakly on short-ranged attraction strength, and that ion expulsion prevents effective screening, causing droplets to acquire net charge and limit growth.
+- **Visible evidence base** Molecular dynamics simulations and an equilibrium field theory, as stated in the abstract; no quantitative results, parameter ranges, or validation details are visible
+- **Missing materials affecting confidence** Full manuscript, methods, simulation details, field theory derivation, figures, quantitative comparisons, and any experimental validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that electrostatic repulsion can regulate condensate size, which is a timely topic in the biomolecular condensate field. However, the evidence base is limited to a brief summary of simulation and theory results, with no quantitative details or validation. The core claims are plausible but not fully established from the supplied material, and several aspects require clarification and additional evidence to assess technical soundness and generalizability.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and membraneless organelles would be interested because the work addresses a fundamental question of size control, which is relevant to cellular organization and function. Additionally, scientists in soft matter physics and chemical engineering interested in designing synthetic patterned materials or emulsions with controlled droplet sizes would find the results relevant.
+- **Major strengths** The abstract identifies a clear and mechanistically distinct hypothesis, namely that net charge and ion expulsion can counteract coarsening, which is a nontrivial extension of common condensate models. The combination of molecular dynamics simulations and equilibrium field theory suggests a complementary approach that could provide both microscopic and macroscopic insights. The claim that charge asymmetry is a key control parameter, while attraction strength is less influential, is a testable and potentially impactful prediction.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that opposing interactions can suppress coarsening so that many droplets of equal size coexist at equilibrium.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract states that simulations and field theory show this behavior, but no quantitative evidence is provided, such as droplet size distributions, time evolution of coarsening, or equilibrium criteria. It is unclear how equilibrium is defined and verified, and whether finite-size effects or simulation timescales could bias the conclusion.  
+  - **Why it matters** The central claim of equilibrium coexistence of many equal-sized droplets is nontrivial and contradicts typical Ostwald ripening behavior. Without quantitative evidence, the reader cannot assess whether the observed suppression is a true equilibrium phenomenon or a kinetic artifact.  
+  - **Resolution test** Provide representative simulation snapshots, droplet size distributions at multiple time points, and a demonstration that the size distribution is stationary and independent of initial conditions. Show that the field theory predicts a stable finite droplet size and that simulation results match theoretical predictions quantitatively.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that size control depends strongly on charge asymmetry between constituents, while the strength of short-ranged attractions has a weak influence.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** This claim is presented as a key result, but no parameter ranges, phase diagrams, or sensitivity analyses are shown. It is unclear how charge asymmetry is defined and varied, and what range of attraction strengths was tested. The claim of weak influence of attraction strength is surprising and requires systematic exploration to rule out regime-specific effects.  
+  - **Why it matters** If the claim is robust, it has strong implications for designing condensates with predictable sizes. However, if it only holds in a narrow parameter window, the generalizability is limited. The abstract does not provide enough information to judge the scope of the claim.  
+  - **Resolution test** Present a phase diagram or systematic parameter sweep showing droplet size as a function of charge asymmetry and attraction strength, with clear definitions of the parameter ranges and error bars. Demonstrate that the weak dependence on attraction strength holds across multiple values and is not an artifact of a specific simulation setup.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors claim that droplets expel ions, so they cannot screen electrostatics effectively, implying droplets acquire a net charge and cannot grow indefinitely.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The mechanism of ion expulsion and its effect on screening is stated as a conclusion, but no direct evidence is provided, such as ion concentration profiles, local charge densities, or comparison with screening length scales. The claim that droplets acquire a net charge is central to the proposed mechanism, yet it is not supported by visible data.  
+  - **Why it matters** The proposed mechanism is the physical basis for size control. If ion expulsion is not directly demonstrated, the mechanism remains speculative, and alternative explanations, such as kinetic trapping or finite-size effects, cannot be excluded.  
+  - **Resolution test** Provide radial distribution functions of ions and charged species around and inside droplets, showing depletion of ions and accumulation of net charge. Compare the effective screening length inside and outside droplets and show that it is insufficient to neutralize the droplet charge.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interdisciplinary readership  
+  - **Claim pointer** The authors state that the work is relevant for understanding biomolecular condensates and creating synthetic patterns in chemical engineering.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not specify how the findings translate to biological contexts, such as which specific condensate systems or conditions are relevant, nor does it indicate how the principles could be applied in chemical engineering. The relevance claims are broad and lack concrete examples or predictions.  
+  - **Why it matters** For a Nature-style audience, the significance of the work must be clear to nonspecialists. Without specific biological or engineering implications, the impact may be perceived as limited to a narrow physics problem.  
+  - **Resolution test** Add a brief discussion in the abstract or introduction that identifies at least one biological condensate system where charge asymmetry is known to vary, and one synthetic application where droplet size control is a design goal, with a specific prediction or design rule.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "coarsening" is used without definition, which may be unclear to readers outside the soft matter or phase separation community.  
+  - **Required correction** Briefly define coarsening as the growth of larger droplets at the expense of smaller ones, or use a more accessible phrase such as "droplet growth over time."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not specify the molecular model used in simulations, such as the type of particles, interaction potentials, or solvent representation, which limits reproducibility assessment.  
+  - **Required correction** Add a sentence in the abstract or methods summary indicating the coarse-grained model and key interaction parameters.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The claim that "size control depends strongly on charge asymmetry" is not quantified, so the reader cannot gauge the magnitude of the effect.  
+  - **Required correction** Provide a quantitative example, such as a range of droplet sizes observed for different charge asymmetry values, in the abstract or a figure.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns relate to the lack of quantitative evidence for the central claims of equilibrium coexistence, parameter dependence, and the proposed mechanism. Without addressing these, the case for the proposed size control mechanism is not established from the supplied material.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of using net charge and ion expulsion to control condensate size is a novel angle, as most condensate models focus on attraction-dominated phase separation. The abstract suggests a distinct mechanism, which is original.  
+  - Scientific importance: The topic is important for the condensate field, where size control is a recognized open question. However, the abstract does not yet demonstrate broad biological or engineering impact, so the importance is potential rather than established.  
+  - Interdisciplinary readership: The work bridges soft matter physics, biophysics, and chemical engineering, which is promising. However, the abstract lacks concrete examples or accessible framing for nonspecialists, limiting its immediate appeal.  
+  - Technical soundness: The combination of simulations and theory is appropriate, but the abstract provides no quantitative validation, parameter details, or error analysis. The technical soundness cannot be fully assessed from the supplied material.  
+  - Readability for nonspecialists: The abstract is concise but uses field-specific terms without definition, and the relevance claims are vague. It is readable for experts but not fully accessible to a broad audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The hypothesis is interesting and timely, but the current abstract does not provide sufficient evidence to establish the central claims. The authors should provide quantitative results, mechanism validation, and clearer framing of relevance to strengthen the case.
+
+## Risk / unsupported claims
+- The claim that many droplets of equal size coexist at equilibrium is unsupported by visible quantitative evidence.
+- The claim that size control depends strongly on charge asymmetry and weakly on attraction strength is unsupported by visible parameter sweeps or sensitivity analyses.
+- The claim that droplets expel ions and acquire a net charge is unsupported by visible ion distribution or charge density data.
+- The relevance to biomolecular condensates and chemical engineering is stated but not substantiated with specific examples or predictions.

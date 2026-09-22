@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "41628219",
+    "doi": "10.1371/journal.pone.0342107",
+    "title": "Regulation of tension-dependent localization of LATS1 and LATS2 to adherens junctions."
+  },
+  "content": {
+    "abstract": "The LIM domain protein LIMD1 is a critical regulator of the Hippo signaling pathway, acting to sequester the kinases LATS1/2 to adherens junctions (AJs) in response to mechanical strain. Here, we identify the molecular basis for LIMD1 binding and recruitment of LATS1/2 to AJs. We show that while the LIM domains of LIMD1 are sufficient for AJ localization and binding to LATS1/2, recruitment of LATS1 to AJ requires both the intrinsically disordered region (IDR) in the N-terminus as well as the LIM domains. We further dissected the LIM domains and found that LIM1 and LIM2, but not LIM3, are necessary for LATS1 AJ localization. Point mutations that disrupt strain sensitivity in either the first or second LIM domain disrupt both binding and recruitment of LATS1/2 to AJs. Mechanistically, LIMD1 binds LATS1/2 through a conserved linear motif, the LATS-LATCH, which we identified by AlphaFold modeling and confirmed by biochemical and localization assays. The LATS-LATCH is required for mechanical strain-dependent recruitment of LATS1 and LATS2 to AJs. Further analysis of the LATS2-LATCH showed that it is sufficient for binding to LIMD1 and localization to AJs. Mutation of predicted contact residues within the LATS2-LATCH both disrupts its binding to LIMD1 and localization to AJs. These findings define a bipartite mechanism for LIMD1-dependent recruitment of LATS1/2 involving LIM domain-LATCH interactions and N-terminal IDR functions, providing insight into how mechanical signals are transduced through the Hippo pathway.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Protein Serine-Threonine Kinases/metabolism/genetics/chemistry",
+      "*Adherens Junctions/metabolism",
+      "*Tumor Suppressor Proteins/metabolism/chemistry/genetics",
+      "Animals",
+      "Protein Binding",
+      "Humans",
+      "Signal Transduction",
+      "LIM Domain Proteins/metabolism/chemistry/genetics",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "De Silva, Chamika",
+        "Kelch, Brian A",
+        "McCollum, Dannel"
+      ],
+      "short_names": [
+        "De Silva C",
+        "Kelch BA",
+        "McCollum D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3846-4313",
+        "ORCID: 0000-0003-0278-2715"
+      ],
+      "affiliations": [
+        "Department of Biochemistry & Molecular Biotechnology, UMass Chan Medical School, Worcester, Massachusetts, United States of America.",
+        "Department of Biochemistry & Molecular Biotechnology, UMass Chan Medical School, Worcester, Massachusetts, United States of America.",
+        "Department of Biochemistry & Molecular Biotechnology, UMass Chan Medical School, Worcester, Massachusetts, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "De Silva, Chamika",
+        "short_name": "De Silva C",
+        "identifiers": [
+          "0000-0003-3846-4313"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biotechnology, UMass Chan Medical School, Worcester, Massachusetts, United States of America."
+        ]
+      },
+      {
+        "full_name": "Kelch, Brian A",
+        "short_name": "Kelch BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biotechnology, UMass Chan Medical School, Worcester, Massachusetts, United States of America."
+        ]
+      },
+      {
+        "full_name": "McCollum, Dannel",
+        "short_name": "McCollum D",
+        "identifiers": [
+          "0000-0003-0278-2715"
+        ],
+        "affiliations": [
+          "Department of Biochemistry & Molecular Biotechnology, UMass Chan Medical School, Worcester, Massachusetts, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/02 19:41",
+    "fetched_at": "2026-09-18 00:33:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38718835",
+      "38426816",
+      "37835395",
+      "37626124",
+      "36807601",
+      "36475898",
+      "36439396",
+      "36318920",
+      "34859820",
+      "34716691",
+      "34265844",
+      "34038160",
+      "33891898",
+      "33606996",
+      "33558314",
+      "33058779",
+      "32989126",
+      "32203417",
+      "31594864",
+      "29440237",
+      "29222344",
+      "27457617",
+      "26108669",
+      "24995985",
+      "22743772",
+      "18497260",
+      "16413547",
+      "15644491",
+      "10831611"
+    ],
+    "similar": [
+      "41628219",
+      "40909571",
+      "38426816",
+      "29440237",
+      "29222344",
+      "25127217",
+      "36439396",
+      "24023255",
+      "31697683",
+      "25624491",
+      "33558314",
+      "23791731",
+      "25482410",
+      "20841485",
+      "30266805",
+      "20935475",
+      "33847835",
+      "33141042",
+      "30659113",
+      "40501385",
+      "28644436",
+      "35969522",
+      "27006470",
+      "31268774",
+      "41187851",
+      "27847303",
+      "30671453",
+      "26898830",
+      "40923675",
+      "38690712",
+      "21383157",
+      "15131260",
+      "34267330",
+      "29183995",
+      "39818347",
+      "35429439",
+      "31848340",
+      "23230145",
+      "41912774",
+      "25902174",
+      "31776189",
+      "26360373",
+      "29787761",
+      "36475898",
+      "37337213",
+      "39248565",
+      "27634386",
+      "38687825",
+      "28373298",
+      "24225952",
+      "33891898",
+      "15688006",
+      "21832154",
+      "10647888",
+      "12606349",
+      "9658172",
+      "33515576",
+      "32420069",
+      "24995985",
+      "36930055",
+      "40233139",
+      "30463880",
+      "28434174",
+      "23791728",
+      "30006462",
+      "24336325",
+      "26934863",
+      "18158288",
+      "42167578",
+      "21822051",
+      "41427739",
+      "19117955",
+      "27335147",
+      "34337379",
+      "27656835",
+      "16674920",
+      "38200110",
+      "10574708",
+      "15542589",
+      "27912060",
+      "26437443",
+      "29487715",
+      "40221530",
+      "30551532",
+      "30865227",
+      "39077779",
+      "24101513",
+      "27013235",
+      "26611125",
+      "30219064",
+      "24106267",
+      "27531557",
+      "36125128",
+      "29666277",
+      "25841306",
+      "20709423",
+      "30600590",
+      "27434182",
+      "30837288",
+      "32826458"
+    ],
+    "review": [
+      "41628219",
+      "20935475"
+    ],
+    "pmc": [
+      "12863670"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0342107",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41628219/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

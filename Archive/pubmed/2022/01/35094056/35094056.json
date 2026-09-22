@@ -1,0 +1,344 @@
+{
+  "identity": {
+    "pmid": "35094056",
+    "doi": "10.1093/bioinformatics/btac051",
+    "title": "DisEnrich: database of enriched regions in human dark proteome."
+  },
+  "content": {
+    "abstract": "MOTIVATION: Intrinsically disordered proteins (IDPs) are involved in numerous processes crucial for living organisms. Bias in amino acid composition of these proteins determines their unique biophysical and functional features. Distinct intrinsically disordered regions (IDRs) with compositional bias play different important roles in various biological processes. IDRs enriched in particular amino acids in human proteome have not been described consistently. RESULTS: We developed DisEnrich-the database of human proteome IDRs that are significantly enriched in particular amino acids. Each human protein is described using Gene Ontology (GO) function terms, disorder prediction for the full-length sequence using three methods, enriched IDR composition and ranks of human proteins with similar enriched IDRs. Distribution analysis of enriched IDRs among broad functional categories revealed significant overrepresentation of R- and Y-enriched IDRs in metabolic and enzymatic activities and F-enriched IDRs in transport. About 75% of functional categories contain IDPs with IDRs significantly enriched in hydrophobic residues that are important for protein-protein interactions. AVAILABILITY AND IMPLEMENTATION: The database is available at http://prodata.swmed.edu/DisEnrichDB/. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics Advances online.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Proteome",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Computational Biology",
+      "Amino Acids",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Medvedev, Kirill E",
+        "Pei, Jimin",
+        "Grishin, Nick V"
+      ],
+      "short_names": [
+        "Medvedev KE",
+        "Pei J",
+        "Grishin NV"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7982-4242",
+        "ORCID: 0000-0002-3505-9665"
+      ],
+      "affiliations": [
+        "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+        "Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Medvedev, Kirill E",
+        "short_name": "Medvedev KE",
+        "identifiers": [
+          "0000-0002-7982-4242"
+        ],
+        "affiliations": [
+          "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Pei, Jimin",
+        "short_name": "Pei J",
+        "identifiers": [
+          "0000-0002-3505-9665"
+        ],
+        "affiliations": [
+          "McDermott Center for Human Growth and Development, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Grishin, Nick V",
+        "short_name": "Grishin NV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+          "Department of Biochemistry, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA.",
+          "Howard Hughes Medical Institute, University of Texas Southwestern Medical Center, Dallas, TX 75390, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioinformatics (Oxford, England)"
+    ],
+    "journal_abbrev": [
+      "Bioinformatics"
+    ],
+    "pub_date": "2022 Mar 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/31 06:00",
+    "fetched_at": "2026-09-20 08:03:14"
+  },
+  "links": {
+    "cites": [
+      "41689628",
+      "41020891",
+      "37491511"
+    ],
+    "refs": [],
+    "similar": [
+      "35094056",
+      "36291695",
+      "32503351",
+      "30878482",
+      "36008992",
+      "38297118",
+      "35275927",
+      "34626492",
+      "31756456",
+      "34418423",
+      "33719450",
+      "37634152",
+      "31175370",
+      "35883444",
+      "36959451",
+      "36833360",
+      "19594884",
+      "32696395",
+      "35767567",
+      "35882686",
+      "33248138",
+      "29763584",
+      "26513658",
+      "38220424",
+      "35034725",
+      "33567297",
+      "20522251",
+      "36575582",
+      "36908253",
+      "23142703",
+      "31709918",
+      "35436286",
+      "33191750",
+      "21647374",
+      "27587688",
+      "37878721",
+      "33866372",
+      "27062995",
+      "34390736",
+      "38588835",
+      "35454181",
+      "27387657",
+      "38662765",
+      "27787828",
+      "38275292",
+      "26699268",
+      "26376097",
+      "33616531",
+      "32535960",
+      "35290420",
+      "35898309",
+      "24532081",
+      "33243935",
+      "30841624",
+      "38297184",
+      "33036302",
+      "31207240",
+      "35196007",
+      "32824743",
+      "29066345",
+      "25752799",
+      "35139468",
+      "34347206",
+      "26109352",
+      "28934129",
+      "32681491",
+      "34461937",
+      "25391399",
+      "32696354",
+      "32756939",
+      "36272675",
+      "39032884",
+      "28381244",
+      "32553192",
+      "27807972",
+      "39205298",
+      "24115198",
+      "35659505",
+      "34656333",
+      "30096183",
+      "38942776",
+      "38194282",
+      "34830151",
+      "30218496",
+      "27179590",
+      "38507044",
+      "37883249",
+      "31724233",
+      "34179096",
+      "26149687",
+      "34905768",
+      "29791766",
+      "31797594",
+      "32702119",
+      "28167781",
+      "33087759",
+      "34864847",
+      "24727949",
+      "31264965",
+      "36528065",
+      "26402567",
+      "34825861",
+      "30324701",
+      "30471696",
+      "38701796",
+      "36987865",
+      "33806614",
+      "32295482",
+      "31521235",
+      "39253485",
+      "31613621",
+      "32696367",
+      "27037624",
+      "25057855",
+      "35061901",
+      "36551304",
+      "35562983",
+      "35102880",
+      "38579676",
+      "36215254",
+      "38284524",
+      "33267376",
+      "29699482",
+      "36210722",
+      "37155239",
+      "34487138",
+      "39383002",
+      "34048569",
+      "31442477",
+      "37561450",
+      "36648282",
+      "37498545",
+      "38712287",
+      "37986812",
+      "36133101",
+      "38459060",
+      "37961106",
+      "37463458",
+      "33325498",
+      "36851914",
+      "33976270",
+      "36726678",
+      "39279844",
+      "37736816",
+      "38747347",
+      "37400558",
+      "38073129",
+      "37583961",
+      "36304335",
+      "31797598",
+      "38915510",
+      "39311135",
+      "36306150",
+      "28257525",
+      "37450154",
+      "36824878",
+      "38039154",
+      "36917664",
+      "39072126",
+      "38895487",
+      "35487971",
+      "37082000",
+      "37992221",
+      "38045241",
+      "30561547",
+      "33266184",
+      "30299594",
+      "37873130",
+      "33136065",
+      "38503517",
+      "38182699"
+    ],
+    "review": [
+      "35094056",
+      "34418423",
+      "36959451",
+      "36833360",
+      "35882686",
+      "33248138",
+      "38220424",
+      "33567297",
+      "31709918",
+      "34390736",
+      "38588835",
+      "24532081",
+      "33243935",
+      "25752799",
+      "35139468",
+      "34347206",
+      "39205298",
+      "26402567",
+      "31521235",
+      "36551304",
+      "35102880",
+      "36648282",
+      "36133101",
+      "36851914",
+      "37400558",
+      "33266184"
+    ],
+    "pmc": [
+      "8963327"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35094056.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35094056/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35094056",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btac051",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

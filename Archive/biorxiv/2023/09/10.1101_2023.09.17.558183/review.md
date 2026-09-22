@@ -1,0 +1,110 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, conclusions, and supplementary information description
+- **Assessment boundary** Scientific validity of the ensemble binding framework proposed to reconcile crystallography and NMR binding mode discrepancies for ASPP-p53 interactions; computational methodology and its alignment with experimental evidence
+- **Shared manuscript claim summary** The authors propose that iASPP and ASPP2 bind p53 through multiple binding modes in solution, reconciling crystallography (distinct surfaces) and NMR (similar surfaces) data. They use Martini3.0 coarse-grained MD, conventional all-atom MD, umbrella sampling PMF calculations, and sketch-map dimensionality reduction to support an ensemble binding framework. They claim ensemble-average contacts match NMR data, ensemble-average binding free energies match experimental Kd values, and p53 IDRs modulate binding modes and kinetics.
+- **Visible evidence base** Abstract, full introduction, methods sections 2.1-2.5, results sections 3.1-3.4, discussion, conclusions, supplementary information descriptions S1-S2, one figure reference (Fig. 1A-B), supplementary figure references (Fig. S1, S2A-D), table reference (Table S1)
+- **Missing materials affecting confidence** Actual figures and tables (Figs. 2-5, Fig. S1-S2, Table S1) not provided; detailed numerical data for PMF calculations, contact maps, and statistical analyses not available; simulation convergence criteria and error estimates not fully described; specific parameters for Martini3.0 elastic network and sketch-map settings partially described but not fully reproducible
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely question regarding the discrepancy between crystallographic and NMR-derived binding modes for the ASPP-p53 interaction. The ensemble binding framework is conceptually appealing and potentially valuable for reconciling conflicting structural data. However, the evidence presented in the text alone is insufficient to fully establish the claims. Key quantitative results (PMF values, statistical comparisons, contact maps) are referenced but not shown in the provided material. The methodology is generally sound but several technical details require clarification, particularly regarding convergence of CGMD sampling, selection of representative complexes, and treatment of IDRs in simulations. The manuscript would benefit from clearer presentation of validation metrics and error analysis.
+- **Who would be interested in the results, and why** Structural biologists studying protein-protein interactions, particularly those investigating discrepancies between crystallographic and solution-state methods; computational biologists developing ensemble-based approaches for characterizing weak or dynamic interactions; cancer researchers interested in p53 regulation and the ASPP family as therapeutic targets; method developers in coarse-grained simulation and free energy calculation communities.
+- **Major strengths** 1) Addresses a genuine and important discrepancy in the literature with potential implications for understanding ASPP-p53 regulation. 2) Proposes a conceptually novel ensemble binding framework that could reconcile conflicting structural data. 3) Integrates multiple computational approaches (CGMD, all-atom MD, umbrella sampling, dimensionality reduction) in a multi-scale strategy. 4) Attempts to connect computational predictions with experimental observations (NMR chemical shifts, peptide screening, Kd values). 5) Considers the role of IDRs, which are often neglected in structural studies of PPIs.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The ensemble-average inter-protein contacting residues and NMR-detected interfacial residues align well with ASPP proteins"
+  - **Evidence pointer** Section 3.2, Figure 3A-B (not provided)
+  - **Concern** The claim of agreement between ensemble-average contacts and NMR data is central to the validation of the ensemble framework. However, the actual contact maps, quantitative comparison metrics, and statistical significance tests are not presented in the provided text. The description in section 3.2 is qualitative ("qualitatively agree") without supporting numerical data or statistical analysis.
+  - **Why it matters** Without quantitative evidence of agreement between simulated contacts and NMR-derived interfacial residues, the core validation of the ensemble framework is unsubstantiated. The claim that the ensemble framework reconciles crystallography and NMR data depends critically on this comparison.
+  - **Resolution test** Provide the contact maps with per-residue comparison to NMR chemical shift perturbations, including quantitative similarity metrics (e.g., Matthews correlation coefficient, overlap fraction) and appropriate statistical tests demonstrating non-random agreement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative validation
+  - **Claim pointer** "The ensemble-average binding free energies better match experimental Kd values compared to single crystallography-determined binding mode"
+  - **Evidence pointer** Section 3.3, Figure 4A-D (not provided)
+  - **Concern** The claim that ensemble-average binding free energies match experimental Kd values is presented without the actual PMF curves, calculated free energy values, or comparison to experimental data. The statistical comparison (P = 0.995, t-test) is mentioned but the underlying distributions and sample sizes are not described. The conversion from PMF to Kd and the associated uncertainties are not discussed.
+  - **Why it matters** Quantitative agreement with experimental binding affinities is a key validation metric. Without the actual values, error estimates, and statistical framework, the claim of better agreement for ensemble averages cannot be evaluated. The P-value reported appears to indicate no significant difference between ASPP2 and iASPP, which is consistent with experimental data, but the comparison to single-structure calculations is not quantified.
+  - **Resolution test** Present PMF curves with error bars, calculated binding free energies for both single-structure and ensemble approaches, experimental Kd values with uncertainties, and a clear statistical comparison demonstrating that ensemble averages are closer to experimental values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** "We conducted extensive multi-scale molecular dynamics (MD) simulations to investigate if p53's DBD domain and ASPP2/iASPP ANK-SH3 domain could bind in multiple binding modes"
+  - **Evidence pointer** Sections 2.1-2.3, Table S1 (not provided)
+  - **Concern** The description of the simulation methodology lacks critical details for assessing convergence and sampling adequacy. The number of independent simulations, total simulation time, convergence criteria for CGMD binding events, and validation of the Martini3.0 model for this specific system are not fully described. The elastic network parameters and their potential influence on binding mode sampling are not discussed.
+  - **Why it matters** The ensemble framework relies on adequate sampling of binding modes. Insufficient sampling or biased simulation protocols could lead to artificial ensembles that do not represent the true conformational landscape. The use of elastic networks in CGMD may constrain protein flexibility and affect the sampling of alternative binding modes.
+  - **Resolution test** Provide detailed convergence analysis (e.g., block averaging, multiple independent runs), demonstrate that binding mode distributions are stable over simulation time, and discuss potential limitations of the elastic network approach for this system.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretational clarity
+  - **Claim pointer** "Crystal packing shifts the equilibrium of binding modes towards the crystallography-determined one"
+  - **Evidence pointer** Section 4 Discussion
+  - **Concern** The proposal that crystal packing shifts the binding mode equilibrium is presented as a conclusion but the evidence supporting this specific mechanism is not clearly articulated. The authors show that the crystal structure mode is present in the ensemble but not that crystal packing specifically stabilizes this mode over others. Alternative explanations for the crystallographic observation are not discussed.
+  - **Why it matters** This is a mechanistic claim about the relationship between crystal packing and binding mode selection. Without direct evidence or a clear mechanistic argument, this remains speculative. The claim has implications for how crystallographic structures of weak complexes should be interpreted.
+  - **Resolution test** Provide additional analysis or discussion supporting the crystal packing mechanism, such as comparison of crystal contacts with the binding interface, or cite literature evidence for similar phenomena in other systems.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4 sketch-map description
+  - **Evidence pointer** Section 2.4
+  - **Issue** The description of the sketch-map dimensionality reduction is incomplete. The stress function equation is referenced but not shown, and the selection of landmarks, output dimensionality, and validation of the projection are not described.
+  - **Required correction** Provide the complete stress function, describe the landmark selection procedure, and include a measure of projection reliability (e.g., trustworthiness, continuity).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1 simulation parameters
+  - **Evidence pointer** Section 2.1
+  - **Issue** The force field parameters for Zn2+ are stated to be adapted from the Li-Merz dataset, but the specific parameters and the harmonic constraint force constant (300 kcal/mol/Å2) justification are not provided.
+  - **Required correction** Provide the specific Zn2+ parameters used, cite the original source, and justify the choice of harmonic constraint force constant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.3 statistical comparison
+  - **Evidence pointer** Section 3.3
+  - **Issue** The t-test P-value (P = 0.995) is reported without specifying the sample size, whether the test is paired or unpaired, or the underlying distribution assumptions.
+  - **Required correction** Report the sample size, test type, and effect size. Consider reporting confidence intervals for the binding free energy differences.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 3.4 "envolved"
+  - **Evidence pointer** Section 3.4
+  - **Issue** Typographical error "envolved" should be "evolved".
+  - **Required correction** Correct the typographical error.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.2 backmapping procedure
+  - **Evidence pointer** Section 2.2
+  - **Issue** The backmapping procedure from CG to all-atom using backward.py is mentioned but the subsequent equilibration protocol and the criteria for accepting backmapped structures are not described.
+  - **Required correction** Describe the equilibration protocol after backmapping and any quality checks performed on the backmapped structures.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Section 1 Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction cites the discrepancy between crystallography and NMR but does not discuss previous computational attempts to reconcile these data or alternative explanations proposed in the literature.
+  - **Required correction** Add a brief discussion of prior computational or experimental studies addressing this discrepancy to contextualize the novelty of the ensemble framework.
+
+## Risk / unsupported claims
+- The claim that "the ensemble-average inter-protein contacting residues and NMR-detected interfacial residues align well" (Section 3.2) is unsupported in the provided material as the actual comparison data are not shown.
+- The claim that "the ensemble-average binding free energies better match experimental Kd values" (Section 3.3) is unsupported without the numerical values and statistical comparison.
+- The claim that "crystal packing shifts the equilibrium of binding modes towards the crystallography-determined one" (Section 4) is presented as a conclusion but lacks direct evidence in the provided text.
+- The claim that "p53's IDRs accelerate the binding rates" (Section 3.4) is based on mean first passage time comparisons but the statistical significance and convergence of these kinetic measurements are not reported.
+- The statement that "the simulated complexes contain the exact crystal-structure binding modes" (Section 4) is not verifiable without structural comparison data.
+- The claim that "the inclusion of IDRs accentuated the differences in binding modes" (Section 3.4) is based on sketch-map projections but the quantitative measure of "difference" is not defined.
+- The overall conclusion that the ensemble framework "unifies" crystallography and NMR data is not fully established from the provided evidence, as the quantitative validation metrics are missing.
+
+## Assessment against Nature-style criteria
+- **Originality** The ensemble binding framework is a conceptually novel approach to reconciling conflicting structural data for the ASPP-p53 interaction. While ensemble views of protein interactions are not new, applying this framework specifically to resolve a crystallography-NMR discrepancy for a cancer-relevant PPI is original. The integration of multiple computational methods is thoughtful.
+- **Scientific importance** The ASPP-p53 interaction is biologically significant given its role in apoptosis regulation and cancer. Resolving the binding mode discrepancy has implications for understanding the opposing functions of ASPP2 and iASPP and for structure-based drug design. The broader concept of ensemble binding modes for weak PPIs is important for the structural biology community.
+- **Interdisciplinary readership** The work bridges structural biology, computational biophysics, and cancer biology. The findings would interest researchers in each of these fields, though the technical nature of the methods may limit accessibility to non-specialists. The biological implications are clearly articulated.
+- **Technical soundness** The multi-scale approach is appropriate, but the provided material lacks sufficient detail to fully assess technical rigor. Key validation metrics (convergence, error estimates, statistical comparisons) are referenced but not shown. The selection of representative complexes and the treatment of IDRs require more detail. The use of Martini3.0 and umbrella sampling is reasonable, but the limitations of these approaches for this system are not discussed.
+- **Readability for nonspecialists** The manuscript is generally well-written and the logical flow is clear. However, some sections (particularly the sketch-map description and PMF methodology) assume familiarity with advanced computational techniques. The biological context and significance are well-explained. The abstract effectively summarizes the key findings and their implications.
+
+## Recommendation posture
+Supportive if technical concerns are resolved. The conceptual framework is valuable and the research question is important. However, the current evidence presented in the provided material is insufficient to fully establish the central claims. The authors must provide the quantitative validation data (contact map comparisons, PMF values, statistical analyses) and address the methodological details regarding sampling convergence and representative complex selection. Once these concerns are addressed, the manuscript could make a significant contribution to understanding ASPP-p53 interactions and the broader issue of reconciling structural data from different methods.

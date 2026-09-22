@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.09.693204",
+  "title": "O-GlcNAcylation and an importin-β radial gradient keep the FG barrier liquid in live-cell nuclear pores",
+  "authors": "Yu M; Heidari M; Palacio-Rodriguez K; Ruan H; Mingu S; Hidayat AA; Bode M; Sikora M; Hummer G; Lemke EA",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-11",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合活细胞荧光与粗粒化MD模拟，揭示O-GlcNAc修饰和importin-β梯度共同维持FG-NUP无序蛋白液态屏障及核孔PPI机制，直接命中IDP互作机制建模核心。",
+  "abstract": "The nuclear pore complex (NPC) regulates the molecular traffic between nucleus and cytoplasm. Its permeability barrier is formed by intrinsically disordered proteins (IDPs) known as FG-nucleoporins (FG-NUPs), whose physical state has long been debated. Deciphering how FG-NUPs behave inside living cells is crucial for understanding how the NPC achieves selective and rapid transport. Here, by combining site-specific labelling with picosecond time-resolved fluorescence anisotropy, we reveal that FG domains exhibit nanosecond-scale, liquid-like mobility in live cells, yet undergo a liquid-to-solid transition in vitro. Experiments and coarse-grained molecular dynamics simulations further show that importin-β, a major nuclear transport receptor, and O-linked β-N-acetylglucosamine (O-GlcNAc), a key post-translational modification of FG-NUPs together stabilise the dynamic FG network. Finely balanced FG-FG interactions modulated by O-GlcNAcylation, along with FG-importin-β interactions, maintain liquidity and enrich importin-β near the NPC periphery, while extended FG domains remain in the central channel to form the transport barrier. These findings reconcile conflicting models of FG-NUP organisation and explain the recent observations in high-resolution MINFLUX studies of importin-β depletion from the pore centre in mammalian cells. Beyond resolving debates over FG-NUP behaviour, our study underscores the importance of studying IDPs in their cellular context, with broader implications for understanding IDP-related diseases, including viral infections, cancer, and neurodegenerative disorders.",
+  "abstract_zh": "核孔复合体（NPC）调控细胞核与细胞质之间的分子运输。其通透性屏障由称为FG-核孔蛋白（FG-NUPs）的内在无序蛋白（IDPs）构成，这些蛋白的物理状态长期以来一直存在争议。解析FG-NUPs在活细胞内的行为对于理解NPC如何实现选择性和快速运输至关重要。在此，通过将位点特异性标记与皮秒时间分辨荧光各向异性相结合，我们揭示了FG结构域在活细胞中表现出纳秒级、类液体的流动性，但在体外却经历液-固转变。实验和粗粒化分子动力学模拟进一步表明，主要核运输受体importin-β以及FG-NUPs的关键翻译后修饰O-连接β-N-乙酰葡糖胺（O-GlcNAc）共同稳定了动态FG网络。由O-GlcNAc修饰调控的精细平衡的FG-FG相互作用，以及FG-importin-β相互作用，维持了流动性并在NPC外周富集importin-β，而延伸的FG结构域则保留在中央通道中以形成运输屏障。这些发现调和了关于FG-NUP组织的相互矛盾的模型，并解释了近期在哺乳动物细胞中通过高分辨率MINFLUX研究观察到的importin-β从孔中心耗竭的现象。除了解决关于FG-NUP行为的争议外，我们的研究强调了在细胞环境中研究IDPs的重要性，并对理解与IDPs相关的疾病（包括病毒感染、癌症和神经退行性疾病）具有更广泛的意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693204",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693204",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.09.693204/index.html"
+}

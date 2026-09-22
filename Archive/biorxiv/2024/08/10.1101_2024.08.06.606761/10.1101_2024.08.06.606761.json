@@ -1,0 +1,300 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.06.606761",
+  "title": "Defining short linear motif binding determinants by phage-based multiplexed deep mutational scanning",
+  "doi": "10.1101/2024.08.06.606761",
+  "abstract": "Deep mutational scanning (DMS) has emerged as a powerful approach for evaluating the effects of mutations on binding or function. Here, we developed a multiplexed DMS by phage display protocol to define the binding determinants of short linear motifs (SLiMs) binding to peptide binding domains. We first designed a benchmarking DMS library to evaluate the performance of the approach on well-known ligands for eleven different peptide binding domains, including the talin-1 PTB domain. Systematic benchmarking against a gold-standard set of motifs from the eukaryotic linear motif (ELM) database confirmed that the DMS by phage analysis correctly identifies known motif binding determinants. The DMS analysis further defined a non-canonical PTB binding motif, with a putative extended conformation. A second DMS library was designed aiming to provide information on the binding determinants for 19 SLiM-based interactions between human and SARS-CoV-2 proteins. The analysis confirmed the affinity determining residues of viral peptides binding to host proteins, and refined the consensus motifs in human peptides binding to five domains from SARS-CoV-2 proteins, including the non-structural protein (NSP) 9. The DMS analysis further pinpointed mutations that increased the affinity of ligands for NSP3 and NSP9. An affinity improved cell-permeable NSP9-binding peptide was found to exert stronger antiviral effects as compared to the initial wild-type peptide. Our study demonstrates that DMS by phage display can efficiently be multiplexed and applied to refine binding determinants, and shows how DMS by phage display can guide peptide-engineering efforts.",
+  "authors": [
+    "Benz C",
+    "Maasen L",
+    "Simonetti L",
+    "Mihalic F",
+    "Lindqvist R",
+    "Tsitsa I",
+    "Jemth P",
+    "Överby AK",
+    "Davey NE",
+    "Ivarsson Y"
+  ],
+  "published_date": "2024-08-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.06.606761",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.06.606761.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR891714",
+    "raw_record": {
+      "id": "PPR891714",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR891714"
+        ]
+      },
+      "doi": "10.1101/2024.08.06.606761",
+      "title": "Defining short linear motif binding determinants by phage-based multiplexed deep mutational scanning",
+      "authorString": "Benz C, Maasen L, Simonetti L, Mihalic F, Lindqvist R, Tsitsa I, Jemth P, Överby AK, Davey NE, Ivarsson Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Benz C",
+            "lastName": "Benz",
+            "firstName": "Caroline",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5166-3598"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - BMC, , Box 576, Husargatan 3 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maasen L",
+            "lastName": "Maasen",
+            "firstName": "Lars",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - BMC, , Box 576, Husargatan 3 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Simonetti L",
+            "lastName": "Simonetti",
+            "firstName": "Leandro",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1283-9770"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - BMC, , Box 576, Husargatan 3 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mihalic F",
+            "lastName": "Mihalic",
+            "firstName": "Filip",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medical Biochemistry and Microbiology, , BMC, Box 582, Husargatan 3 , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lindqvist R",
+            "lastName": "Lindqvist",
+            "firstName": "Richard",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical Microbiology, , 90185 , ,"
+                },
+                {
+                  "affiliation": "Laboratory for Molecular Infection Medicine Sweden (MIMS), , 90187 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tsitsa I",
+            "lastName": "Tsitsa",
+            "firstName": "Ifigenia",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8154-5528"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Biology, , 237 Fulham Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jemth P",
+            "lastName": "Jemth",
+            "firstName": "Per",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medical Biochemistry and Microbiology, , BMC, Box 582, Husargatan 3 , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Överby AK",
+            "lastName": "Överby",
+            "firstName": "Anna",
+            "initials": "AK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Clinical Microbiology, , 90185 , ,"
+                },
+                {
+                  "affiliation": "Laboratory for Molecular Infection Medicine Sweden (MIMS), , 90187 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davey NE",
+            "lastName": "Davey",
+            "firstName": "Norman",
+            "initials": "NE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Cancer Biology, , 237 Fulham Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ivarsson Y",
+            "lastName": "Ivarsson",
+            "firstName": "Ylva",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7081-3846"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry - BMC, , Box 576, Husargatan 3 , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8154-5528"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5166-3598"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7081-3846"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1283-9770"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Deep mutational scanning (DMS) has emerged as a powerful approach for evaluating the effects of mutations on binding or function. Here, we developed a multiplexed DMS by phage display protocol to define the binding determinants of short linear motifs (SLiMs) binding to peptide binding domains. We first designed a benchmarking DMS library to evaluate the performance of the approach on well-known ligands for eleven different peptide binding domains, including the talin-1 PTB domain. Systematic benchmarking against a gold-standard set of motifs from the eukaryotic linear motif (ELM) database confirmed that the DMS by phage analysis correctly identifies known motif binding determinants. The DMS analysis further defined a non-canonical PTB binding motif, with a putative extended conformation. A second DMS library was designed aiming to provide information on the binding determinants for 19 SLiM-based interactions between human and SARS-CoV-2 proteins. The analysis confirmed the affinity determining residues of viral peptides binding to host proteins, and refined the consensus motifs in human peptides binding to five domains from SARS-CoV-2 proteins, including the non-structural protein (NSP) 9. The DMS analysis further pinpointed mutations that increased the affinity of ligands for NSP3 and NSP9. An affinity improved cell-permeable NSP9-binding peptide was found to exert stronger antiviral effects as compared to the initial wild-type peptide. Our study demonstrates that DMS by phage display can efficiently be multiplexed and applied to refine binding determinants, and shows how DMS by phage display can guide peptide-engineering efforts.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.08.06.606761"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.08.06.606761"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR891714"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR891714&type=FILE&fileName=EMS198033-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS198033",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-08-09",
+      "firstPublicationDate": "2024-08-06",
+      "firstIndexDate": "2024-08-09",
+      "fullTextReceivedDate": "2024-08-16",
+      "hasEvaluations": "N"
+    }
+  }
+}

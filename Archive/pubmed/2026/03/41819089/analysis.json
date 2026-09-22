@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41819089",
+  "title": "De novo design of Ras isoform selective binders.",
+  "authors": "Zhang, Jason Z; Li, Xinting; Batingana, Alexa Rane; Liu, Caixuan; Jiang, Hanlun; Shannon, Kevin; Huang, Benjamin J; Wu, Kejia; Baker, David",
+  "journal": "Cell chemical biology",
+  "published_date": "2026-03-13",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用深度学习从头设计靶向Ras无序C末端的异构体选择性结合蛋白，通过破坏膜定位抑制Ras活性，虽对象为无序区域而非完整IDP，但聚焦IDR介导的PPI机制与AI设计方法，对本课题有直接启发。",
+  "abstract": "The four major isoforms encoded by RAS proto-oncogenes are differentially associated with cancer, but there are few isoform-specific binding reagents becasue the sequence differences are confined to their disordered C termini. To overcome this limitation, we use deep learning-based methods to design Ras isoform-specific binders (RIBs) for all major Ras isoforms de novo by targeting the Ras C terminus. The RIBs bind to their target Ras isoforms both in vitro and in cells with remarkable specificity, disrupting their membrane localization and inhibiting Ras activity. The RIBs enable dissection of the distinct roles of Ras isoforms during Ras(G12C) inhibitor resistance, demonstrating their utility in understanding Ras biology and disease and suggesting potential therapeutic applications.",
+  "abstract_zh": "RAS原癌基因编码的四种主要亚型与癌症的相关性存在差异，但由于序列差异仅限于其无序的C末端，针对特定亚型的结合试剂很少。为克服这一限制，我们利用基于深度学习的方法，通过靶向Ras C末端，从头设计针对所有主要Ras亚型的亚型特异性结合剂（RIBs）。这些RIBs在体外和细胞内均能以显著的特异性结合其目标Ras亚型，破坏其膜定位并抑制Ras活性。RIBs能够解析Ras亚型在Ras(G12C)抑制剂耐药过程中的不同作用，展示了其在理解Ras生物学和疾病中的实用性，并提示了潜在的治疗应用前景。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41819089/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41819089/",
+  "paper_page_path": "papers/pubmed/41819089/index.html"
+}

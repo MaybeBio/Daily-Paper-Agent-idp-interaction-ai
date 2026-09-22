@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "pmid": "36215496",
+    "doi": "10.1073/pnas.2211178119",
+    "title": "Connecting sequence features within the disordered C-terminal linker of Bacillus subtilis FtsZ to functions and bacterial cell division."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) can function as autoregulators of folded enzymes to which they are tethered. One example is the bacterial cell division protein FtsZ. This includes a folded core and a C-terminal tail (CTT) that encompasses a poorly conserved, disordered C-terminal linker (CTL) and a well-conserved 17-residue C-terminal peptide (CT17). Sites for GTPase activity of FtsZs are formed at the interface between GTP binding sites and T7 loops on cores of adjacent subunits within dimers. Here, we explore the basis of autoregulatory functions of the CTT in Bacillus subtilis FtsZ (Bs-FtsZ). Molecular simulations show that the CT17 of Bs-FtsZ makes statistically significant CTL-mediated contacts with the T7 loop. Statistical coupling analysis of more than 1,000 sequences from FtsZ orthologs reveals clear covariation of the T7 loop and the CT17 with most of the core domain, whereas the CTL is under independent selection. Despite this, we discover the conservation of nonrandom sequence patterns within CTLs across orthologs. To test how the nonrandom patterns of CTLs mediate CTT-core interactions and modulate FtsZ functionalities, we designed Bs-FtsZ variants by altering the patterning of oppositely charged residues within the CTL. Such alterations disrupt the core-CTT interactions, lead to anomalous assembly and inefficient GTP hydrolysis in vitro and protein degradation, aberrant assembly, and disruption of cell division in vivo. Our findings suggest that viable CTLs in FtsZs are likely to be IDRs that encompass nonrandom, functionally relevant sequence patterns that also preserve three-way covariation of the CT17, the T7 loop, and core domain.",
+    "keywords": [
+      "autoinhibition",
+      "autoregulation",
+      "covariation",
+      "intrinsically disordered proteins",
+      "polymerization"
+    ],
+    "mesh_terms": [
+      "*Bacillus subtilis/metabolism",
+      "Bacterial Proteins/metabolism",
+      "Cell Division",
+      "*Cytoskeletal Proteins/metabolism",
+      "GTP Phosphohydrolases/metabolism",
+      "Guanosine Triphosphate/metabolism",
+      "Peptides/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shinn, Min Kyung",
+        "Cohan, Megan C",
+        "Bullock, Jessie L",
+        "Ruff, Kiersten M",
+        "Levin, Petra A",
+        "Pappu, Rohit V"
+      ],
+      "short_names": [
+        "Shinn MK",
+        "Cohan MC",
+        "Bullock JL",
+        "Ruff KM",
+        "Levin PA",
+        "Pappu RV"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2713-5602",
+        "ORCID: 0000-0003-3998-9568",
+        "ORCID: 0000-0003-2071-0547",
+        "ORCID: 0000-0003-2568-1378"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Washington University in St. Louis, St. Louis, MO 63130.",
+        "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO 63130.",
+        "Department of Biomedical Engineering, Washington University in St. Louis, St. Louis, MO 63130.",
+        "Department of Biology, Washington University in St. Louis, St. Louis, MO 63130.",
+        "Department of Biomedical Engineering, Washington University in St. Louis, St. Louis, MO 63130.",
+        "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO 63130.",
+        "Department of Biology, Washington University in St. Louis, St. Louis, MO 63130.",
+        "Department of Biomedical Engineering, Washington University in St. Louis, St. Louis, MO 63130.",
+        "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO 63130."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shinn, Min Kyung",
+        "short_name": "Shinn MK",
+        "identifiers": [
+          "0000-0003-2713-5602"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Washington University in St. Louis, St. Louis, MO 63130.",
+          "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO 63130."
+        ]
+      },
+      {
+        "full_name": "Cohan, Megan C",
+        "short_name": "Cohan MC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Washington University in St. Louis, St. Louis, MO 63130."
+        ]
+      },
+      {
+        "full_name": "Bullock, Jessie L",
+        "short_name": "Bullock JL",
+        "identifiers": [
+          "0000-0003-3998-9568"
+        ],
+        "affiliations": [
+          "Department of Biology, Washington University in St. Louis, St. Louis, MO 63130."
+        ]
+      },
+      {
+        "full_name": "Ruff, Kiersten M",
+        "short_name": "Ruff KM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Washington University in St. Louis, St. Louis, MO 63130.",
+          "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO 63130."
+        ]
+      },
+      {
+        "full_name": "Levin, Petra A",
+        "short_name": "Levin PA",
+        "identifiers": [
+          "0000-0003-2071-0547"
+        ],
+        "affiliations": [
+          "Department of Biology, Washington University in St. Louis, St. Louis, MO 63130."
+        ]
+      },
+      {
+        "full_name": "Pappu, Rohit V",
+        "short_name": "Pappu RV",
+        "identifiers": [
+          "0000-0003-2568-1378"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Washington University in St. Louis, St. Louis, MO 63130.",
+          "Center for Biomolecular Condensates, James McKelvey School of Engineering, Washington University in St. Louis, St. Louis, MO 63130."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2022 Oct 18",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/11 06:00",
+    "fetched_at": "2026-09-20 15:46:57"
+  },
+  "links": {
+    "cites": [
+      "42311477",
+      "42115746",
+      "41460861",
+      "41232529",
+      "41114597",
+      "40824055",
+      "40403066",
+      "39947282",
+      "39899719",
+      "39196930",
+      "39101471",
+      "38895487",
+      "38883712",
+      "38503281",
+      "38443761",
+      "38297184",
+      "38187731",
+      "37957331",
+      "37788668",
+      "37503768",
+      "36881934"
+    ],
+    "refs": [
+      "35948766",
+      "35481648",
+      "35177069",
+      "35120642",
+      "34863777",
+      "34330820",
+      "34303077",
+      "34048569",
+      "34001533",
+      "33951592",
+      "33737746",
+      "32763138",
+      "32613009",
+      "32302572",
+      "32198113",
+      "32188783",
+      "32039891",
+      "31932314",
+      "31375817",
+      "30597162",
+      "29889022",
+      "29763584",
+      "29759983",
+      "29618050",
+      "29525204",
+      "29443967",
+      "29438904",
+      "29078291",
+      "29045877",
+      "28915352",
+      "28841137",
+      "28526136",
+      "28465423",
+      "28209898",
+      "28161714",
+      "28100778",
+      "27387519",
+      "27254668",
+      "27140628",
+      "27135163",
+      "27091999",
+      "27040757",
+      "26806637",
+      "26328871",
+      "26099469",
+      "25863585",
+      "25305578",
+      "25176632",
+      "25024220",
+      "24529242",
+      "24347164",
+      "24127580",
+      "24007276",
+      "23901099",
+      "23714328",
+      "23692518",
+      "23457247",
+      "23215820",
+      "22672910",
+      "22298780",
+      "21988835",
+      "21224850",
+      "21119015",
+      "20856929",
+      "20708087",
+      "20439314",
+      "20026071",
+      "19703402",
+      "19680248",
+      "19137575",
+      "19136590",
+      "18502809",
+      "17973494",
+      "17900614",
+      "17662947",
+      "16935303",
+      "16580662",
+      "16484179",
+      "16156658",
+      "15948963",
+      "15488393",
+      "15317782",
+      "14743312",
+      "12566454",
+      "12477408",
+      "12368265",
+      "12007411",
+      "11972006",
+      "11731321",
+      "11517324",
+      "11152458",
+      "11069103",
+      "10880432",
+      "10690414",
+      "10601211",
+      "10514373",
+      "9922245",
+      "9428770",
+      "8412693",
+      "8412689",
+      "3145384"
+    ],
+    "similar": [
+      "36215496",
+      "32198113",
+      "23692518",
+      "17718511",
+      "23237472",
+      "29089389",
+      "11781090",
+      "24007276",
+      "8412693",
+      "31932314",
+      "15317782",
+      "41114597",
+      "9287012",
+      "25294259",
+      "22703373",
+      "24347164",
+      "29045877",
+      "38992051",
+      "41460861",
+      "24300445",
+      "33907196",
+      "25305578",
+      "36349414",
+      "22298780",
+      "26463348",
+      "31519752",
+      "22064072",
+      "26099469",
+      "23384248",
+      "23617789",
+      "18291323",
+      "11717278",
+      "15101985",
+      "12808143",
+      "23855511",
+      "11514533",
+      "9605973",
+      "17662960",
+      "15910002",
+      "22575662",
+      "39602291",
+      "24749867",
+      "38718863",
+      "22912848",
+      "26247422",
+      "36657643",
+      "23577149",
+      "10960100",
+      "20598544",
+      "8430073",
+      "17043359",
+      "20711458",
+      "26258635",
+      "30455283",
+      "18782755",
+      "23940054",
+      "25848052",
+      "30636070",
+      "15942012",
+      "38758654",
+      "32605984",
+      "30277210",
+      "15225606",
+      "23714328",
+      "27871791",
+      "19447111",
+      "8016071",
+      "12904563",
+      "21224850",
+      "11454202",
+      "7726836",
+      "40049472",
+      "8282688",
+      "14705956",
+      "31160399",
+      "31871036",
+      "30010220",
+      "35481648",
+      "26655719",
+      "12700262",
+      "21782843",
+      "19842714",
+      "25068683",
+      "25950808",
+      "15948963",
+      "12003935",
+      "20615583",
+      "33077634",
+      "17015652",
+      "24366721",
+      "21058659",
+      "12952956",
+      "10869082",
+      "20212044",
+      "19141479",
+      "26330552",
+      "15039432",
+      "35312677",
+      "24079270",
+      "26601800"
+    ],
+    "review": [
+      "36215496",
+      "25305578"
+    ],
+    "pmc": [
+      "9586301"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2211178119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://biocyc.org/gene?orgid=BSUB&id=BSU15290",
+        "provider": "BioCyc",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "ftsZ"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36215496/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36215496",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

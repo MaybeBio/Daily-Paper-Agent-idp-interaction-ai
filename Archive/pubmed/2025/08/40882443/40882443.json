@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "pmid": "40882443",
+    "doi": "10.1016/j.compbiolchem.2025.108661",
+    "title": "Adenine bolsters the monomeric conformations of the intrinsically disordered A53T mutant of alpha-Synuclein protein."
+  },
+  "content": {
+    "abstract": "Parkinson's disease (PD) is significantly characterized by the accumulation of alpha-synuclein (alpha-Syn) amyloid aggregates, especially in the form of Lewy bodies. Our study explores the effect of one of the four nucleobases, adenine, on the amyloid transformation of the A53T mutant of alpha-Syn (A53T Syn), which is linked to the early-onset PD characterized by increased protofibril production and fast aggregation. Systematic analysis using biophysical techniques in conjunction with computational methods demonstrated that adenine stabilizes the monomeric conformations of A53T Syn by interacting with the NAC domain of the protein through non-covalent interactions. Adenine specifically prevents the amyloid transformation of the intrinsically disordered A53T Syn protein and has no effect on the fibrillation of the wild type alpha-Syn protein. Replica exchange molecular dynamics (REMD) simulations established that adenine decreases the tendency of A53T Syn to form amyloid aggregates by reducing intramolecular hydrogen bonds and abrogating malicious structural transitions into beta-sheet rich conformations. This decrease in beta-sheet rich conformations is also corroborated by nearly 85 % decrease in Thioflavin T binding at the saturation phase of amyloid transformation kinetics. Adenine stabilizes the monomeric conformations of A53T Syn, preventing the formation of cross-beta amyloids. Through several morphological investigations employing TEM, AFM, and particle size distribution analysis by DLS, we validated the amyloid-modulatory effects of adenine. Our findings collectively demonstrate that adenine shows a selective efficacy against A53T Syn and poses as a good therapeutic candidate for early-onset PD. Further investigations on adenine using cellular and animal models can support early intervention strategies and possible treatments.",
+    "keywords": [
+      "A53T",
+      "Adenine",
+      "Biophysical Characterization",
+      "In-silico Screening",
+      "Protein Aggregation",
+      "REMD Simulation",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/genetics/chemistry/metabolism",
+      "Humans",
+      "*Adenine/pharmacology/chemistry",
+      "Molecular Dynamics Simulation",
+      "Mutation",
+      "*Intrinsically Disordered Proteins/genetics/chemistry",
+      "Protein Conformation/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Payal",
+        "Akhtar, Almas",
+        "Admane, Nikita",
+        "Grover, Abhinav"
+      ],
+      "short_names": [
+        "Singh P",
+        "Akhtar A",
+        "Admane N",
+        "Grover A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India.",
+        "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India.",
+        "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India.",
+        "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India. Electronic address: abhinavgr@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Payal",
+        "short_name": "Singh P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Akhtar, Almas",
+        "short_name": "Akhtar A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Admane, Nikita",
+        "short_name": "Admane N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Grover, Abhinav",
+        "short_name": "Grover A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India. Electronic address: abhinavgr@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/30 00:44",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [
+      "41882374"
+    ],
+    "refs": [],
+    "similar": [
+      "40882443",
+      "39693815",
+      "23607785",
+      "29364151",
+      "39084146",
+      "30853581",
+      "37238596",
+      "40763859",
+      "40345607",
+      "41882374",
+      "20148295",
+      "37433401",
+      "40320462",
+      "30769283",
+      "26119103",
+      "37741548",
+      "36373662",
+      "34684701",
+      "30917654",
+      "31903719",
+      "39773404",
+      "29771508",
+      "40912022",
+      "35836937",
+      "23374074",
+      "25937088",
+      "23936403",
+      "41410608",
+      "35474118",
+      "29866153",
+      "17381514",
+      "38700150",
+      "40691198",
+      "41723982",
+      "40490407",
+      "29503608",
+      "32709107",
+      "33805843",
+      "41476182",
+      "31142553",
+      "28373279",
+      "35681426",
+      "26601760",
+      "38321955",
+      "31699336",
+      "29624735",
+      "39046235",
+      "25665531",
+      "29853639",
+      "38335809",
+      "41301496",
+      "37198991",
+      "31566224",
+      "36675288",
+      "28759722",
+      "31092553",
+      "27101974",
+      "34290084",
+      "10704204",
+      "31939603",
+      "34146705",
+      "34769023",
+      "22090514",
+      "39947752",
+      "41397943",
+      "21445308",
+      "38693066",
+      "11560511",
+      "33649211",
+      "22707286",
+      "36550041",
+      "33997868",
+      "28460628",
+      "22701661",
+      "28386933",
+      "26972727",
+      "39251364",
+      "25268550",
+      "34201785",
+      "36232847",
+      "19067456",
+      "38157926",
+      "42159605",
+      "32833434",
+      "38801346",
+      "40189878",
+      "30098984",
+      "32170541",
+      "40020199",
+      "28187263",
+      "34556785",
+      "40853068",
+      "23339399",
+      "39756734",
+      "23748003",
+      "29704492",
+      "40147456",
+      "25369246",
+      "32497661",
+      "23648364"
+    ],
+    "review": [
+      "40882443",
+      "29364151",
+      "30853581",
+      "36373662",
+      "41410608",
+      "35681426",
+      "37198991",
+      "39947752",
+      "26972727",
+      "23748003"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(25)00322-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-649",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

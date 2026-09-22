@@ -1,0 +1,73 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, equations, figures, or results beyond the abstract were available for evaluation
+- **Shared manuscript claim summary** The authors present a continuum reaction-diffusion model for liquid-liquid phase separation (LLPS) that captures multiscale features including a diffusivity threshold for droplet formation enhancement, acceleration of coarsening and Ostwald ripening by stronger interconversion kinetics, spontaneous formation of ring-like dilute-phase shells around condensates, and acceleration of phase separation by stochastic fluctuations. The model is claimed to integrate molecular-level interactions into a continuum framework with mechanistic transparency and computational efficiency.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, model equations, parameter values, simulation details, comparison with experimental data, and any quantitative results or validation metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting and potentially valuable modeling framework for LLPS, with claims that span several phenomena of current interest in the field. However, the abstract alone provides insufficient detail to assess the technical soundness of the model, the validity of the claims, or the novelty relative to existing continuum models of phase separation. The claim regarding ring-like dilute-phase shells is particularly notable and, if substantiated, would represent a meaningful advance. Nevertheless, without access to the model formulation, numerical methods, and validation against experimental or reference data, the case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in biophysics, soft matter physics, and physical chemistry studying biomolecular condensates and phase separation would be interested. The model's potential to bridge molecular interactions and macroscopic phase behavior, and its claimed ability to capture experimentally observed ring-like structures, would appeal to both experimentalists seeking interpretative frameworks and theorists developing multiscale models. The computational efficiency claim may also attract those interested in large-scale simulations of cellular organization.
+- **Major strengths** The abstract addresses a timely and important problem, namely predictive modeling of LLPS that connects molecular-scale interactions to macroscopic behavior. The claimed capability to reproduce ring-like dilute-phase shells, which the authors correctly note is inaccessible in classical single-field models, is a potentially significant contribution. The inclusion of stochastic effects and the identification of noise-sensitive regimes add conceptual depth. The stated goal of mechanistic transparency alongside computational efficiency is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The continuum reaction-diffusion model captures key multiscale features of LLPS, including a threshold in dilute-phase diffusivity above which droplet formation is enhanced.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no details on the model equations, the physical basis for the reaction-diffusion formulation, the definition of the dilute-phase diffusivity, or the nature of the threshold. Without this information, it is impossible to evaluate whether the model is physically well-grounded, whether the threshold is a robust feature or an artifact of specific parameter choices, and whether the claim of enhanced droplet formation is quantitatively supported.
+  - **Why it matters** The central contribution of the paper is the model itself. If the model formulation or the threshold behavior is not rigorously presented and analyzed, the entire set of conclusions rests on an unverifiable foundation. The claim of a diffusivity threshold is nonstandard and requires careful derivation and demonstration of its generality.
+  - **Resolution test** Provide the full model equations, boundary and initial conditions, parameter ranges explored, and a demonstration that the diffusivity threshold is robust across reasonable parameter variations. Show quantitative evidence, such as phase diagrams or growth rate plots, that support the threshold claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Stronger interconversion kinetics between the dilute and dense phases accelerate droplet coarsening and Ostwald ripening, consistent with faster growth of large droplets at the expense of smaller ones.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states a relationship between interconversion kinetics and coarsening rates but provides no quantitative results, no comparison with known scaling laws for Ostwald ripening, and no discussion of how the model's predictions differ from or improve upon classical theories such as the Lifshitz-Slyozov-Wagner framework. The claim of consistency with faster growth of large droplets is qualitative and does not establish that the model captures the correct physics.
+  - **Why it matters** Ostwald ripening is a well-studied phenomenon with established theoretical predictions. A new model must demonstrate that it reproduces known behavior quantitatively and, if it deviates, explain why. Without such comparison, the claim of consistency is weak and the model's predictive value for coarsening dynamics is unsubstantiated.
+  - **Resolution test** Present quantitative measures of coarsening rates as a function of interconversion kinetics, compare with classical scaling predictions, and discuss any deviations. Provide time-resolved droplet size distributions or growth exponents.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and significance
+  - **Claim pointer** The multi-component framework naturally produces ring-like dilute-phase shells around condensates, a phenomenon observed experimentally but inaccessible in classical single-field phase-separation models.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This is the most striking claim in the abstract, yet no evidence is presented. There is no description of the multi-component interactions that give rise to the shells, no comparison with experimental observations, and no discussion of the parameter regimes in which such shells appear. The claim that this is "inaccessible" in classical models requires a demonstration of why single-field models fail and what specific multi-component physics is essential.
+  - **Why it matters** If substantiated, this would be a significant advance with broad interest. However, the claim is currently unsupported. The phenomenon of ring-like shells is subtle and could arise from numerical artifacts or specific boundary conditions. The authors must demonstrate that the shells are a robust physical feature of the model and that they correspond to experimentally observed structures.
+  - **Resolution test** Provide simulation snapshots or space-time plots showing ring formation, a parameter map of where shells appear, a comparison with experimental images or data, and an analysis of the underlying mechanism. Show that the rings are not artifacts of grid resolution, boundary effects, or initial conditions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Incorporating stochastic fluctuations further accelerates phase separation, highlighting noise-sensitive regimes.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The role of noise in phase separation is a well-studied topic, and the claim that fluctuations accelerate phase separation requires careful qualification. The abstract does not specify the type of noise (e.g., multiplicative or additive), the magnitude, or the regimes in which acceleration occurs. It is also unclear whether the acceleration is a genuine physical effect or a numerical consequence of the stochastic integration scheme.
+  - **Why it matters** Noise effects in phase separation can be subtle and system-dependent. Overclaiming the role of fluctuations without rigorous analysis could mislead readers. The identification of "noise-sensitive regimes" is vague and needs quantitative definition.
+  - **Resolution test** Provide a systematic study of noise amplitude and type, show how phase separation kinetics change, and compare with deterministic results. Discuss the numerical scheme used for stochastic integration and its accuracy. Define the noise-sensitive regimes quantitatively.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "captures the essence" in the title is vague and not typical of scientific precision. The abstract also uses "Remarkably" and "naturally" which are subjective and do not add information.
+  - **Required correction** Revise the title to be more specific about the model's contribution. Replace subjective adverbs with objective statements of what the model does and what was found.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model validation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims the model offers "predictive power to interpret and control LLPS" but provides no indication of validation against experimental data or benchmark problems.
+  - **Required correction** Add a sentence in the abstract or main text indicating how the model was validated, even if only against known analytical results or published experimental observations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "interconversion kinetics" is used without definition. It is unclear whether this refers to molecular association/dissociation rates, conformational exchange, or something else.
+  - **Required correction** Define the term clearly in the abstract or introduction, and specify how it enters the model equations.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The model formulation, quantitative results, and validation are all absent from the provided material. The central claims cannot be evaluated without the full manuscript.
+- **Assessment against Nature-style criteria** Originality: The claimed ring-like shell phenomenon and the integration of multi-component interactions into a continuum model suggest potential originality, but this cannot be confirmed without seeing the model and its results. Scientific importance: The problem of bridging molecular and macroscopic scales in LLPS is important, and the abstract addresses relevant questions, but the significance of the specific contributions is not yet demonstrated. Interdisciplinary readership: The topic is of interest across biophysics, soft matter, and physical chemistry, and the abstract is written accessibly, though technical details are lacking. Technical soundness: Not assessable from the abstract alone; the absence of equations, methods, and results is a critical gap. Readability for nonspecialists: The abstract is generally clear and avoids excessive jargon, which is a positive feature.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting ideas, but the absence of the full manuscript prevents any assessment of the model's validity, novelty, or significance. A full review would be required to determine whether the technical concerns can be resolved.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.15.488492",
+  "title": "A Deep SE(3)-Equivariant Model for Learning Inverse Protein Folding",
+  "authors": "Matt McPartlon; Ben Lai; Jinbo Xu",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-16",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出SE(3)-等变生成模型解决逆蛋白质折叠（由骨架预测序列），虽涉及蛋白质互作相关功能预测，但对象非无序蛋白/IDR，且未聚焦PPI机制建模，方法可迁移性有限。",
+  "abstract": "In this work, we establish a framework to tackle the inverse protein design problem; the task of predicting a protein’s primary sequence given its backbone conformation. To this end, we develop a generative SE(3)-equivariant model which significantly improves upon existing autoregressive methods. Conditioned on backbone structure, and trained with our novel partial masking scheme and side-chain conformation loss, we achieve state-of-the-art native sequence recovery on structurally independent CASP13, CASP14, CATH4.2, and TS50 test sets. On top of accurately recovering native sequences, we demonstrate that our model captures functional aspects of the underlying protein by accurately predicting the effects of point mutations through testing on Deep Mutational Scanning datasets. We further verify the efficacy of our approach by comparing with recently proposed inverse protein folding methods and by rigorous ablation studies.",
+  "abstract_zh": "在本项工作中，我们建立了一个框架来解决逆向蛋白质设计问题，即根据给定的骨架构象预测蛋白质一级序列的任务。为此，我们开发了一个生成式SE(3)-等变模型，该模型显著优于现有的自回归方法。以骨架结构为条件，并采用我们新颖的部分掩蔽方案和侧链构象损失进行训练，我们在结构独立的CASP13、CASP14、CATH4.2和TS50测试集上实现了最先进的天然序列恢复率。除了准确恢复天然序列外，我们还通过深度突变扫描数据集上的测试，证明我们的模型能够准确预测点突变效应，从而捕捉到潜在蛋白质的功能方面。我们进一步通过与近期提出的逆向蛋白质折叠方法进行比较以及严格的消融研究，验证了我们方法的有效性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.15.488492",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.15.488492",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.15.488492/index.html"
+}

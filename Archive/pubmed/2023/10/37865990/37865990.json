@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "37865990",
+    "doi": "10.1016/j.biopha.2023.115770",
+    "title": "Genipin and pyrogallol: Two natural small molecules targeting the modulation of disordered proteins in Alzheimer's disease."
+  },
+  "content": {
+    "abstract": "Alzheimer's disease (AD) is characterized by the aggregation of disordered proteins, such as amyloid beta (Abeta) and tau, leading to neurotoxicity and disease progression. Despite numerous efforts, effective inhibitors of Abeta and tau aggregates have not been developed. Thus, we aimed to screen natural small molecules from crude extracts that target various pathologies and are prescribed for patients with neurological diseases. In this study, we screened 162 natural small molecules prescribed for neurological diseases and identified genipin and pyrogallol as hit compounds capable of simultaneously regulating the aggregation of Abeta and tau K18. Moreover, we confirmed the dual modulatory effects of these compounds on the reduction of amyloid-mediated neurotoxicity in vitro and the disassembly of preformed Abeta(42) and tau K18 fibrils. Furthermore, we observed the alleviatory effects of genipin and pyrogallol against AD-related pathologies in triple transgenic AD mice. Molecular dynamics and docking simulations revealed the molecular interaction dynamics of genipin and pyrogallol with Abeta(42) and tau K18, providing insights into their suppression of aggregation. Our findings suggest the therapeutic potential of genipin and pyrogallol as dual modulators for the treatment of AD by inhibiting aggregation or promoting dissociation of Abeta and tau.",
+    "keywords": [
+      "Alzheimer's disease",
+      "Amyloid beta",
+      "Genipin",
+      "Pyrogallol",
+      "Tau"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Mice",
+      "Animals",
+      "*Alzheimer Disease/metabolism",
+      "Amyloid beta-Peptides/metabolism",
+      "Pyrogallol/pharmacology",
+      "tau Proteins/metabolism",
+      "Mice, Transgenic",
+      "Iridoids",
+      "gamma-Globulins",
+      "Melphalan"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Sujin",
+        "Hyun, Da Gyeong",
+        "Nam, Yunkwon",
+        "Shin, Soo Jung",
+        "Im, Dongjoon",
+        "Kim, Hyeon Soo",
+        "Leem, Seol Hwa",
+        "Park, Hyun Ha",
+        "Kim, Byeong-Hyeon",
+        "Park, Yong Ho",
+        "Cho, Eunbi",
+        "Goddard, William A 3rd",
+        "Kim, Dong Hyun",
+        "Kim, Hugh I",
+        "Moon, Minho"
+      ],
+      "short_names": [
+        "Kim S",
+        "Hyun DG",
+        "Nam Y",
+        "Shin SJ",
+        "Im D",
+        "Kim HS",
+        "Leem SH",
+        "Park HH",
+        "Kim BH",
+        "Park YH",
+        "Cho E",
+        "Goddard WA 3rd",
+        "Kim DH",
+        "Kim HI",
+        "Moon M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea; Research Institute for Dementia Science, Konyang University, Daejeon 35365, the Republic of Korea.",
+        "Department of Chemistry, Korea University, Seoul 02841, the Republic of Korea; Center for Proteogenome Research, Korea University, Seoul 02841, the Republic of Korea; Single Cell Analysis Laboratory, Korea University, Seoul 02841, the Republic of Korea; Division of Chemistry and Chemical Engineering and Materials Process and Simulation Center, California Institute of Technology, Pasadena, CA 91125, United States.",
+        "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea.",
+        "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea.",
+        "Department of Chemistry, Korea University, Seoul 02841, the Republic of Korea; Center for Proteogenome Research, Korea University, Seoul 02841, the Republic of Korea; Single Cell Analysis Laboratory, Korea University, Seoul 02841, the Republic of Korea; Division of Chemistry and Chemical Engineering and Materials Process and Simulation Center, California Institute of Technology, Pasadena, CA 91125, United States.",
+        "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea.",
+        "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea.",
+        "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea.",
+        "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea.",
+        "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea.",
+        "Department of Pharmacology, School of Medicine, Konkuk University, Seoul 05029, the Republic of Korea.",
+        "Division of Chemistry and Chemical Engineering and Materials Process and Simulation Center, California Institute of Technology, Pasadena, CA 91125, United States.",
+        "Department of Pharmacology, School of Medicine, Konkuk University, Seoul 05029, the Republic of Korea. Electronic address: mose79@kku.ac.kr.",
+        "Department of Chemistry, Korea University, Seoul 02841, the Republic of Korea; Center for Proteogenome Research, Korea University, Seoul 02841, the Republic of Korea; Single Cell Analysis Laboratory, Korea University, Seoul 02841, the Republic of Korea; Division of Chemistry and Chemical Engineering and Materials Process and Simulation Center, California Institute of Technology, Pasadena, CA 91125, United States. Electronic address: hughkim@korea.ac.kr.",
+        "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea; Research Institute for Dementia Science, Konyang University, Daejeon 35365, the Republic of Korea. Electronic address: hominmoon@konyang.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Sujin",
+        "short_name": "Kim S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea; Research Institute for Dementia Science, Konyang University, Daejeon 35365, the Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Hyun, Da Gyeong",
+        "short_name": "Hyun DG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Korea University, Seoul 02841, the Republic of Korea; Center for Proteogenome Research, Korea University, Seoul 02841, the Republic of Korea; Single Cell Analysis Laboratory, Korea University, Seoul 02841, the Republic of Korea; Division of Chemistry and Chemical Engineering and Materials Process and Simulation Center, California Institute of Technology, Pasadena, CA 91125, United States."
+        ]
+      },
+      {
+        "full_name": "Nam, Yunkwon",
+        "short_name": "Nam Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Shin, Soo Jung",
+        "short_name": "Shin SJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Im, Dongjoon",
+        "short_name": "Im D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Korea University, Seoul 02841, the Republic of Korea; Center for Proteogenome Research, Korea University, Seoul 02841, the Republic of Korea; Single Cell Analysis Laboratory, Korea University, Seoul 02841, the Republic of Korea; Division of Chemistry and Chemical Engineering and Materials Process and Simulation Center, California Institute of Technology, Pasadena, CA 91125, United States."
+        ]
+      },
+      {
+        "full_name": "Kim, Hyeon Soo",
+        "short_name": "Kim HS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Leem, Seol Hwa",
+        "short_name": "Leem SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Hyun Ha",
+        "short_name": "Park HH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Byeong-Hyeon",
+        "short_name": "Kim BH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Park, Yong Ho",
+        "short_name": "Park YH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Eunbi",
+        "short_name": "Cho E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Konkuk University, Seoul 05029, the Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Goddard, William A",
+        "short_name": "Goddard WA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Chemistry and Chemical Engineering and Materials Process and Simulation Center, California Institute of Technology, Pasadena, CA 91125, United States."
+        ]
+      },
+      {
+        "full_name": "Kim, Dong Hyun",
+        "short_name": "Kim DH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, School of Medicine, Konkuk University, Seoul 05029, the Republic of Korea. Electronic address: mose79@kku.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Kim, Hugh I",
+        "short_name": "Kim HI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Korea University, Seoul 02841, the Republic of Korea; Center for Proteogenome Research, Korea University, Seoul 02841, the Republic of Korea; Single Cell Analysis Laboratory, Korea University, Seoul 02841, the Republic of Korea; Division of Chemistry and Chemical Engineering and Materials Process and Simulation Center, California Institute of Technology, Pasadena, CA 91125, United States. Electronic address: hughkim@korea.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Moon, Minho",
+        "short_name": "Moon M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Medicine, Konyang University, Daejeon 35365, the Republic of Korea; Research Institute for Dementia Science, Konyang University, Daejeon 35365, the Republic of Korea. Electronic address: hominmoon@konyang.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomedicine & pharmacotherapy = Biomedecine & pharmacotherapie"
+    ],
+    "journal_abbrev": [
+      "Biomed Pharmacother"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/23 00:44",
+    "fetched_at": "2026-09-21 02:18:19"
+  },
+  "links": {
+    "cites": [
+      "41304756",
+      "40890872",
+      "40133924",
+      "39660289",
+      "39579121",
+      "38835114",
+      "38548872"
+    ],
+    "refs": [],
+    "similar": [
+      "37865990",
+      "33948899",
+      "36242849",
+      "38301421",
+      "30454039",
+      "38423419",
+      "34546619",
+      "29093372",
+      "31927145",
+      "19897719",
+      "31414210",
+      "32966331",
+      "31847886",
+      "34239348",
+      "31282646",
+      "36880288",
+      "35286997",
+      "18771816",
+      "35002518",
+      "31350262",
+      "28073379",
+      "30605056",
+      "28032988",
+      "36014310",
+      "34480901",
+      "22926141",
+      "23648430",
+      "16768248",
+      "21715616",
+      "15084661",
+      "28044060",
+      "35114013",
+      "17472708",
+      "29309769",
+      "30412496",
+      "23506614",
+      "24662099",
+      "32286945",
+      "22660329",
+      "25556849",
+      "20154508",
+      "22406441",
+      "27629715",
+      "28598836",
+      "24223757",
+      "29714053",
+      "34260075",
+      "21270904",
+      "29782794",
+      "34004220",
+      "30102892",
+      "28502066",
+      "33452414",
+      "36399277",
+      "17111439",
+      "25080056",
+      "33052247",
+      "20610758",
+      "29733887",
+      "32920628",
+      "29378642",
+      "32017704",
+      "25492702",
+      "15465275",
+      "25810517",
+      "30907317",
+      "28821400",
+      "23566195",
+      "34488602",
+      "36717922",
+      "34219729",
+      "30365112",
+      "12177374",
+      "34752954",
+      "30540497",
+      "29248542",
+      "31814000",
+      "36771052",
+      "29634991",
+      "31476414",
+      "26567742",
+      "20802182",
+      "31883601",
+      "23979993",
+      "25178404",
+      "37496076",
+      "18486110",
+      "32456156",
+      "17478890",
+      "35431249",
+      "36271678",
+      "38795546",
+      "39100310",
+      "34336783",
+      "39134826",
+      "38486385",
+      "38352474"
+    ],
+    "review": [
+      "37865990",
+      "29093372",
+      "34239348",
+      "30605056",
+      "36014310",
+      "23506614",
+      "20154508",
+      "21270904",
+      "29782794",
+      "29733887",
+      "32017704",
+      "25492702",
+      "15465275",
+      "28821400",
+      "34488602",
+      "26567742",
+      "23979993"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0753-3322(23)01568-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0753-3322(23)01568-8",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:37865990",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

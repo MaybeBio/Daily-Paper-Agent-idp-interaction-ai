@@ -1,0 +1,482 @@
+{
+  "identity": {
+    "pmid": "38980064",
+    "doi": "10.1021/jacs.4c04749",
+    "title": "Ligand-Receptor Interaction-Induced Intracellular Phase Separation: A Global Disruption Strategy for Resistance-Free Lethality of Pathogenic Bacteria."
+  },
+  "content": {
+    "abstract": "Addressing the global challenge of bacterial resistance demands innovative approaches, among which multitargeting is a widely used strategy. Current strategies of multitargeting, typically achieved through drug combinations or single agents inherently aiming at multiple targets, face challenges such as stringent pharmacokinetic and pharmacodynamic requirements and cytotoxicity concerns. In this report, we propose a bacterial-specific global disruption approach as a vastly expanded multitargeting strategy that effectively disrupts bacterial subcellular organization. This effect is achieved through a pioneering chemical design of ligand-receptor interaction-induced aggregation of small molecules, i.e., DNA-induced aggregation of a diarginine peptidomimetic within bacterial cells. These intracellular aggregates display affinity toward various proteins and thus substantially interfere with essential bacterial functions and rupture bacterial cell membranes in an \"inside-out\" manner, leading to robust antibacterial activities and suppression of drug resistance. Additionally, biochemical analysis of macromolecule binding affinity, cytoplasmic localization patterns, and bacterial stress responses suggests that this bacterial-specific intracellular aggregation mechanism is fundamentally different from nonselective classic DNA or membrane binding mechanisms. These mechanistic distinctions, along with the peptidomimetic's selective permeation of bacterial membranes, contribute to its favorable biocompatibility and pharmacokinetic properties, enabling its in vivo antimicrobial efficacy in several animal models, including mice-based superficial wound models, subcutaneous abscess models, and septicemia infection models. These results highlight the great promise of ligand-receptor interaction-induced intracellular aggregation in achieving a globally disruptive multitargeting effect, thereby offering potential applications in the treatment of malignant cells, including pathogens, tumor cells, and infected tissues.",
+    "keywords": [],
+    "mesh_terms": [
+      "Ligands",
+      "Animals",
+      "*Anti-Bacterial Agents/pharmacology/chemistry",
+      "Mice",
+      "Microbial Sensitivity Tests",
+      "Drug Resistance, Bacterial/drug effects",
+      "Peptidomimetics/pharmacology/chemistry",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Anming",
+        "Song, Junfeng",
+        "Li, Jiaqi",
+        "Li, Youzhi",
+        "Bai, Silei",
+        "Zhou, Cailing",
+        "Wang, Min",
+        "Zhou, Yu",
+        "Wen, Kang",
+        "Luo, Miaomiao",
+        "Chen, Peiren",
+        "Liu, Bo",
+        "Yang, Huan",
+        "Bai, Yugang",
+        "Wong, Wing-Leung",
+        "Cai, Qingyun",
+        "Pu, Huangsheng",
+        "Qian, Yu",
+        "Hu, Wenhao",
+        "Huang, Wei",
+        "Wan, Muyang",
+        "Zhang, Chunhui",
+        "Feng, Xinxin"
+      ],
+      "short_names": [
+        "Yang A",
+        "Song J",
+        "Li J",
+        "Li Y",
+        "Bai S",
+        "Zhou C",
+        "Wang M",
+        "Zhou Y",
+        "Wen K",
+        "Luo M",
+        "Chen P",
+        "Liu B",
+        "Yang H",
+        "Bai Y",
+        "Wong WL",
+        "Cai Q",
+        "Pu H",
+        "Qian Y",
+        "Hu W",
+        "Huang W",
+        "Wan M",
+        "Zhang C",
+        "Feng X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0342-8144",
+        "ORCID: 0000-0002-9834-7517",
+        "ORCID: 0000-0001-7191-7578",
+        "ORCID: 0000-0001-9742-3330",
+        "ORCID: 0000-0003-1511-2614",
+        "ORCID: 0000-0001-6432-1848",
+        "ORCID: 0000-0003-3142-5629"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China.",
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China.",
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China.",
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China.",
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China.",
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China.",
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China.",
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China.",
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China.",
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China.",
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, No.555 Zuchongzhi Rd, Pudong, Shanghai 201203, China.",
+        "School of Medical Technology, Xuzhou Medical University, Xuzhou 221004, China.",
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China.",
+        "State Key Laboratory of Chemical Biology and Drug Discovery, Department of Applied Biology and Chemical Technology, The Hong Kong Polytechnic University, Kowloon, Hong Kong SAR 999077, China.",
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China.",
+        "College of Advanced Interdisciplinary Studies & Hunan Provincial Key Laboratory of Novel NanoOptoelectronic Information Materials and Devices, National University of Defense Technology, Changsha, Hunan 410073, China.",
+        "Nanhu Laser Laboratory, National University of Defense Technology, Changsha 410073, China.",
+        "State Key Laboratory of Anti-Infective Drug Discovery and Development, Guangdong Provincial Key Laboratory of Chiral Molecule and Drug Discovery, School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China.",
+        "State Key Laboratory of Anti-Infective Drug Discovery and Development, Guangdong Provincial Key Laboratory of Chiral Molecule and Drug Discovery, School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China.",
+        "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, No.555 Zuchongzhi Rd, Pudong, Shanghai 201203, China.",
+        "College of Biology, Hunan University, Changsha, Hunan 410082, China.",
+        "College of Biology, Hunan University, Changsha, Hunan 410082, China.",
+        "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Anming",
+        "short_name": "Yang A",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Song, Junfeng",
+        "short_name": "Song J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jiaqi",
+        "short_name": "Li J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Li, Youzhi",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Silei",
+        "short_name": "Bai S",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Cailing",
+        "short_name": "Zhou C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Min",
+        "short_name": "Wang M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Yu",
+        "short_name": "Zhou Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Wen, Kang",
+        "short_name": "Wen K",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Luo, Miaomiao",
+        "short_name": "Luo M",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Peiren",
+        "short_name": "Chen P",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bo",
+        "short_name": "Liu B",
+        "identifiers": [
+          "0000-0003-0342-8144"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, No.555 Zuchongzhi Rd, Pudong, Shanghai 201203, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Huan",
+        "short_name": "Yang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Technology, Xuzhou Medical University, Xuzhou 221004, China."
+        ]
+      },
+      {
+        "full_name": "Bai, Yugang",
+        "short_name": "Bai Y",
+        "identifiers": [
+          "0000-0002-9834-7517"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Wong, Wing-Leung",
+        "short_name": "Wong WL",
+        "identifiers": [
+          "0000-0001-7191-7578"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Chemical Biology and Drug Discovery, Department of Applied Biology and Chemical Technology, The Hong Kong Polytechnic University, Kowloon, Hong Kong SAR 999077, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Qingyun",
+        "short_name": "Cai Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Pu, Huangsheng",
+        "short_name": "Pu H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Advanced Interdisciplinary Studies & Hunan Provincial Key Laboratory of Novel NanoOptoelectronic Information Materials and Devices, National University of Defense Technology, Changsha, Hunan 410073, China.",
+          "Nanhu Laser Laboratory, National University of Defense Technology, Changsha 410073, China."
+        ]
+      },
+      {
+        "full_name": "Qian, Yu",
+        "short_name": "Qian Y",
+        "identifiers": [
+          "0000-0001-9742-3330"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Anti-Infective Drug Discovery and Development, Guangdong Provincial Key Laboratory of Chiral Molecule and Drug Discovery, School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Wenhao",
+        "short_name": "Hu W",
+        "identifiers": [
+          "0000-0003-1511-2614"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Anti-Infective Drug Discovery and Development, Guangdong Provincial Key Laboratory of Chiral Molecule and Drug Discovery, School of Pharmaceutical Sciences, Sun Yat-sen University, Guangzhou 510006, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Wei",
+        "short_name": "Huang W",
+        "identifiers": [
+          "0000-0001-6432-1848"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Drug Research, Shanghai Institute of Materia Medica, Chinese Academy of Sciences, No.555 Zuchongzhi Rd, Pudong, Shanghai 201203, China."
+        ]
+      },
+      {
+        "full_name": "Wan, Muyang",
+        "short_name": "Wan M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biology, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Chunhui",
+        "short_name": "Zhang C",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biology, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Xinxin",
+        "short_name": "Feng X",
+        "identifiers": [
+          "0000-0003-3142-5629"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Chemo/Biosensing and Chemometrics, Hunan Provincial Key Laboratory of Biomacromolecular Chemical Biology, and School of Chemistry and Chemical Engineering, Hunan University, Changsha, Hunan 410082, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2024 Aug 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/07/09 12:42",
+    "fetched_at": "2026-09-21 08:34:16"
+  },
+  "links": {
+    "cites": [
+      "41460948",
+      "40985478",
+      "40896923",
+      "39834832"
+    ],
+    "refs": [],
+    "similar": [
+      "38980064",
+      "40759068",
+      "36321557",
+      "40997619",
+      "41933752",
+      "39793961",
+      "40861483",
+      "34634935",
+      "41868181",
+      "41478008",
+      "39276418",
+      "33789422",
+      "38893366",
+      "40896802",
+      "36503077",
+      "40554250",
+      "42059246",
+      "34044257",
+      "41397384",
+      "41962277",
+      "37572534",
+      "39222706",
+      "36801104",
+      "30419925",
+      "41855047",
+      "41161053",
+      "36475769",
+      "41159726",
+      "41025656",
+      "41557069",
+      "41389440",
+      "42251921",
+      "39486741",
+      "33422980",
+      "25210781",
+      "42025239",
+      "30831407",
+      "41161580",
+      "41676993",
+      "39688563",
+      "40957193",
+      "41900143",
+      "40088661",
+      "36700862",
+      "39936387",
+      "39637960",
+      "40012610",
+      "39022883",
+      "41797130",
+      "41159745",
+      "33346639",
+      "38747306",
+      "42097438",
+      "40552825",
+      "40038061",
+      "40895297",
+      "40992043",
+      "39075773",
+      "41607263",
+      "41871300",
+      "34851152",
+      "35250983",
+      "25131957",
+      "39793746",
+      "42102469",
+      "39537051",
+      "39535007",
+      "39830154",
+      "40034218",
+      "42184005",
+      "40054399",
+      "41061016",
+      "39787691",
+      "41562599",
+      "34520955",
+      "16245793",
+      "21615107",
+      "31114762",
+      "41223586",
+      "38815408",
+      "38917423",
+      "41775295",
+      "32291298",
+      "41981971",
+      "37838963",
+      "29310083",
+      "40013796",
+      "31812678",
+      "41022237",
+      "30790604",
+      "39039988",
+      "40568697",
+      "41974681",
+      "40998075",
+      "41077817",
+      "39607538",
+      "34227804",
+      "39178727",
+      "30499392",
+      "41677253"
+    ],
+    "review": [
+      "38980064",
+      "36321557",
+      "39276418",
+      "38893366",
+      "41389440",
+      "40895297",
+      "42184005",
+      "21615107",
+      "40568697",
+      "41077817"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/antibiotics.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Antibiotics"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:38980064",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.4c04749",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

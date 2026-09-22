@@ -1,0 +1,500 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.12.22.521634",
+  "title": "WUREN: Whole-modal fUsion Representation for protein interaction interfacE predictioN",
+  "doi": "10.1101/2022.12.22.521634",
+  "abstract": "Proteins are one of the most important components in life, and the research on protein complex and the development of protein or antibody drugs relies on effective representation of proteins. Both experimental methods like cryo-electron microscopy and computational methods like molecular dynamic simulation suffer from high cost, long time investment and low throughput, and cannot be used in large-scale studies. Some examples of artificial intelligence for protein complex prediction tasks show that different representations of proteins have their own limitations. This paper constructs a multimodal model named WUREN (Whole-modal fUsion Representation for protein interaction interfacE predictioN), which effectively fuses sequence, graph, and structural features. WUREN has achieved state-of-the-art performance on both the antigen epitope prediction task and the protein-protein interaction interface prediction task, with AUC-PR reaching 0.462 and 0.516, respectively. Our results show that WUREN is a general and effective feature extraction model for protein complex, which can be used in the development of protein-based drugs. Furthermore, the general framework in WUREN can be potentially applied to model similar biologics to proteins, such as DNA and RNA.",
+  "authors": [
+    "Xiaodong Wang",
+    "Xiangrui Gao",
+    "Xuezhe Fan",
+    "Zhe Huai",
+    "Mengcheng Yao",
+    "Tianyuan Wang",
+    "Xiaolu Huang",
+    "Lipeng Lai"
+  ],
+  "published_date": "2022-12-23",
+  "updated_date": "2022-12-23T19:45:11Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.12.22.521634",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.12.22.521634.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:50:40Z",
+        "timestamp": 1768503040425,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            23
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 39,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            23
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Proteins are one of the most important components in life, and the research on protein complex and the development of protein or antibody drugs relies on effective representation of proteins. Both experimental methods like cryo-electron microscopy and computational methods like molecular dynamic simulation suffer from high cost, long time investment and low throughput, and cannot be used in large-scale studies. Some examples of artificial intelligence for protein complex prediction tasks show that different representations of proteins have their own limitations. This paper constructs a multimodal model named WUREN (Whole-modal fUsion Representation for protein interaction interfacE predictioN), which effectively fuses sequence, graph, and structural features. WUREN has achieved state-of-the-art performance on both the antigen epitope prediction task and the protein-protein interaction interface prediction task, with AUC-PR reaching 0.462 and 0.516, respectively. Our results show that WUREN is a general and effective feature extraction model for protein complex, which can be used in the development of protein-based drugs. Furthermore, the general framework in WUREN can be potentially applied to model similar biologics to proteins, such as DNA and RNA.</jats:p>",
+      "DOI": "10.1101/2022.12.22.521634",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            23
+          ]
+        ],
+        "date-time": "2022-12-23T19:45:11Z",
+        "timestamp": 1671824711000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "WUREN: Whole-modal fUsion Representation for protein interaction interfacE predictioN"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5537-5764",
+          "authenticated-orcid": false,
+          "given": "Xiaodong",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiangrui",
+          "family": "Gao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xuezhe",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Zhe",
+          "family": "Huai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Mengcheng",
+          "family": "Yao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tianyuan",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xiaolu",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Lipeng",
+          "family": "Lai",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-020-2829-0"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/molecules25051030"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "6321",
+          "DOI": "10.1038/s41467-020-20177-1",
+          "article-title": "A method for validating the accuracy of NMR protein structures",
+          "volume": "11",
+          "year": "2020",
+          "journal-title": "Nat Commun"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1000644"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.6",
+          "unstructured": "Richard Evans . et al. Protein complex prediction with AlphaFold-Multimer. bioRxiv, March 10 (2022)."
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.7",
+          "first-page": "184",
+          "article-title": "Deciphering interaction fingerprints from protein molecular surfaces using geometric deep learning",
+          "volume": "17",
+          "year": "2019",
+          "journal-title": "Nat Methods"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btaa263"
+        },
+        {
+          "issue": "17",
+          "key": "2022122708400653000_2022.12.22.521634v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "2580",
+          "DOI": "10.1093/bioinformatics/btab154",
+          "article-title": "Protein interaction interface region prediction by geometric deep learning",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1207864109"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nprot.2012.085"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.12",
+          "unstructured": "Ashish Vaswani . et al. Attention is All you Need. Neural Information Processing Systems (NIPS), volume 30 (2017)."
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "11",
+          "DOI": "10.1186/s40649-019-0069-y",
+          "article-title": "Graph convolutional networks: a comprehensive review",
+          "volume": "6",
+          "year": "2019",
+          "journal-title": "Comput Soc Netw"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.14",
+          "unstructured": "R. Qi Charles . et al. PointNet++: deep hierarchical feature learning on point sets in a metric space. Proceedings of the 31st International Conference on Neural Information Processing Systems December 2017, 5105–5114 (2017)."
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.15",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Qi Charles . et al. PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation. 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 77–85 (2017).",
+          "DOI": "10.1109/CVPR.2017.16"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.16",
+          "unstructured": "Petar Veličković et al. Graph Attention Networks. ICLR (2018)."
+        },
+        {
+          "issue": "12",
+          "key": "2022122708400653000_2022.12.22.521634v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "4338",
+          "DOI": "10.1109/TPAMI.2020.3005434",
+          "article-title": "Deep Learning for 3D Point Clouds: A Survey",
+          "volume": "43",
+          "year": "2021",
+          "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.aiopen.2021.01.001"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu190"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1043"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Qin, Libo et al. A Co-Interactive Transformer for Joint Slot Filling and Intent Detection. ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP): 8193–8197 (2020).",
+          "DOI": "10.1109/ICASSP39728.2021.9414110"
+        },
+        {
+          "issue": "140",
+          "key": "2022122708400653000_2022.12.22.521634v1.22",
+          "first-page": "1",
+          "article-title": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+          "volume": "21",
+          "author": "Colin",
+          "year": "2020",
+          "journal-title": "Journal of Machine Learning Research (JMLR)"
+        },
+        {
+          "issue": "6",
+          "key": "2022122708400653000_2022.12.22.521634v1.23",
+          "first-page": "606",
+          "article-title": "An expanded benchmark for antibody-antigen docking and affinity prediction reveals insights into antibody recognition determinants",
+          "volume": "29",
+          "year": "2020",
+          "journal-title": "Structure"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.24",
+          "first-page": "2825",
+          "article-title": "Scikit-learn: Machine Learning in Python",
+          "volume": "12",
+          "year": "2011",
+          "journal-title": "Journal of Machine Learning Research (JMLR)"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq302"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu097"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jm048957q"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq003"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "630",
+          "DOI": "10.1002/prot.21248",
+          "article-title": "Prediction-based fingerprints of protein–protein interactions",
+          "volume": "66",
+          "year": "2007",
+          "journal-title": "Proteins Struct. Funct. Bioinf.f"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "899",
+          "DOI": "10.1107/S0907444902003451",
+          "article-title": "The protein data bank. Acta Crystallogr",
+          "volume": "58",
+          "year": "2002",
+          "journal-title": "D Biol. Crystallogr"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkm276"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.181342398"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq007"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.34",
+          "first-page": "66",
+          "volume": "383",
+          "year": "2004",
+          "journal-title": "Protein Structure Prediction Using Rosetta, Methods in Enzymology"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "issue": "1",
+          "key": "2022122708400653000_2022.12.22.521634v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "4",
+          "DOI": "10.32614/RJ-2015-001",
+          "article-title": "Peptides: A package for data mining of antimicrobial peptides",
+          "volume": "7",
+          "year": "2015",
+          "journal-title": "The R Journal"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "146",
+          "DOI": "10.1002/cem.856",
+          "article-title": "Peptide studies by means of principal properties of amino acids derived from MIF descriptors",
+          "volume": "18",
+          "year": "2004",
+          "journal-title": "J. Chemom"
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.38",
+          "unstructured": "Diederik P. Kingma . et al. Adam: A Method for Stochastic Optimization. International Conference on Learning Representations (ICLR) (2015)."
+        },
+        {
+          "key": "2022122708400653000_2022.12.22.521634v1.39",
+          "unstructured": "Zhilu Zhang , Mert R. Sabuncu . Generalized Cross Entropy Loss for Training Deep Neural Networks with Noisy Labels. 32nd Conference on Neural Information Processing Systems (NeurIPS), 8792–8802 (2018)."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.12.22.521634",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:03:31Z",
+        "timestamp": 1768449811000
+      },
+      "score": 53.681923,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.12.22.521634"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            23
+          ]
+        ]
+      },
+      "references-count": 39,
+      "URL": "https://doi.org/10.1101/2022.12.22.521634",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            23
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

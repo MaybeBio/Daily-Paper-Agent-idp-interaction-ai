@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "41405960",
+    "doi": "10.1093/bib/bbaf681",
+    "title": "Prediction of liquid-liquid phase separation proteins based on protein language model."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) enables biomolecules to form membraneless condensates critical for cellular functions like RNA metabolism and protein synthesis. Identifying LLPS-associated proteins is essential for understanding their roles in cellular organization and disease. Current prediction methods are hindered by complex and inefficient feature extraction processes. Here, we present a novel framework combining a protein language model ProtT5 with a KmerConv module for local sequence pattern detection and a multi-head attention mechanism for global sequence information extraction. This integrated approach achieves high predictive performance across multiple diverse datasets and generalizes effectively across different species. Our method provides a robust and efficient tool for systematic LLPS protein identification, advancing research into biomolecular aggregation and its implications for health and disease.",
+    "keywords": [
+      "deep learning",
+      "feature engineering",
+      "liquid-liquid phase separation (LLPS)",
+      "machine learning",
+      "protein language model (PLM)"
+    ],
+    "mesh_terms": [
+      "*Proteins/chemistry/isolation & purification",
+      "Humans",
+      "*Computational Biology/methods",
+      "*Liquid-Liquid Extraction",
+      "Algorithms",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Wenbin",
+        "Deng, Xusheng",
+        "Xiang, Chunlin",
+        "Shen, Hengxiang",
+        "Zhang, Yongyou"
+      ],
+      "short_names": [
+        "Li W",
+        "Deng X",
+        "Xiang C",
+        "Shen H",
+        "Zhang Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2413-9106"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Signaling Network, Engineering Research Centre of Molecular Diagnostics of the Ministry of Education, National Institute for Data Science in Health and Medicine Engineering, School of Life Sciences, Faculty of Medicine and Life Sciences, Shenzhen Research Institute of Xiamen University, Xiamen University, No. 4221, Xiang'an South Road, Xiamen, Fujian 361102, China.",
+        "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Signaling Network, Engineering Research Centre of Molecular Diagnostics of the Ministry of Education, National Institute for Data Science in Health and Medicine Engineering, School of Life Sciences, Faculty of Medicine and Life Sciences, Shenzhen Research Institute of Xiamen University, Xiamen University, No. 4221, Xiang'an South Road, Xiamen, Fujian 361102, China.",
+        "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Signaling Network, Engineering Research Centre of Molecular Diagnostics of the Ministry of Education, National Institute for Data Science in Health and Medicine Engineering, School of Life Sciences, Faculty of Medicine and Life Sciences, Shenzhen Research Institute of Xiamen University, Xiamen University, No. 4221, Xiang'an South Road, Xiamen, Fujian 361102, China.",
+        "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Signaling Network, Engineering Research Centre of Molecular Diagnostics of the Ministry of Education, National Institute for Data Science in Health and Medicine Engineering, School of Life Sciences, Faculty of Medicine and Life Sciences, Shenzhen Research Institute of Xiamen University, Xiamen University, No. 4221, Xiang'an South Road, Xiamen, Fujian 361102, China.",
+        "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Signaling Network, Engineering Research Centre of Molecular Diagnostics of the Ministry of Education, National Institute for Data Science in Health and Medicine Engineering, School of Life Sciences, Faculty of Medicine and Life Sciences, Shenzhen Research Institute of Xiamen University, Xiamen University, No. 4221, Xiang'an South Road, Xiamen, Fujian 361102, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Wenbin",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Signaling Network, Engineering Research Centre of Molecular Diagnostics of the Ministry of Education, National Institute for Data Science in Health and Medicine Engineering, School of Life Sciences, Faculty of Medicine and Life Sciences, Shenzhen Research Institute of Xiamen University, Xiamen University, No. 4221, Xiang'an South Road, Xiamen, Fujian 361102, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Xusheng",
+        "short_name": "Deng X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Signaling Network, Engineering Research Centre of Molecular Diagnostics of the Ministry of Education, National Institute for Data Science in Health and Medicine Engineering, School of Life Sciences, Faculty of Medicine and Life Sciences, Shenzhen Research Institute of Xiamen University, Xiamen University, No. 4221, Xiang'an South Road, Xiamen, Fujian 361102, China."
+        ]
+      },
+      {
+        "full_name": "Xiang, Chunlin",
+        "short_name": "Xiang C",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Signaling Network, Engineering Research Centre of Molecular Diagnostics of the Ministry of Education, National Institute for Data Science in Health and Medicine Engineering, School of Life Sciences, Faculty of Medicine and Life Sciences, Shenzhen Research Institute of Xiamen University, Xiamen University, No. 4221, Xiang'an South Road, Xiamen, Fujian 361102, China."
+        ]
+      },
+      {
+        "full_name": "Shen, Hengxiang",
+        "short_name": "Shen H",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Signaling Network, Engineering Research Centre of Molecular Diagnostics of the Ministry of Education, National Institute for Data Science in Health and Medicine Engineering, School of Life Sciences, Faculty of Medicine and Life Sciences, Shenzhen Research Institute of Xiamen University, Xiamen University, No. 4221, Xiang'an South Road, Xiamen, Fujian 361102, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yongyou",
+        "short_name": "Zhang Y",
+        "identifiers": [
+          "0000-0003-2413-9106"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Cellular Stress Biology, Innovation Center for Cell Signaling Network, Engineering Research Centre of Molecular Diagnostics of the Ministry of Education, National Institute for Data Science in Health and Medicine Engineering, School of Life Sciences, Faculty of Medicine and Life Sciences, Shenzhen Research Institute of Xiamen University, Xiamen University, No. 4221, Xiang'an South Road, Xiamen, Fujian 361102, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Nov 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/17 19:11",
+    "fetched_at": "2026-09-17 23:05:16"
+  },
+  "links": {
+    "cites": [
+      "42184109"
+    ],
+    "refs": [
+      "40233760",
+      "40211004",
+      "39522739",
+      "39349455",
+      "38811444",
+      "38808534",
+      "38795350",
+      "38738636",
+      "38631097",
+      "38553595",
+      "38551058",
+      "38531854",
+      "38459060",
+      "38383403",
+      "38244674",
+      "38167731",
+      "38166858",
+      "38132713",
+      "37897365",
+      "37733759",
+      "36927031",
+      "36834689",
+      "36426870",
+      "36370105",
+      "36018855",
+      "35687670",
+      "35303483",
+      "34967936",
+      "34232869",
+      "34020549",
+      "33876751",
+      "33535034",
+      "33510441",
+      "32873929",
+      "32302571",
+      "31942072",
+      "31906602",
+      "31691822",
+      "31626750",
+      "31612960",
+      "31584089",
+      "31430179",
+      "30682370",
+      "30250057",
+      "29602697",
+      "29424691",
+      "28935776",
+      "28495876",
+      "28340338",
+      "28225081",
+      "27320918",
+      "27289443",
+      "27212236",
+      "26213851",
+      "25433700",
+      "24825614",
+      "23787338",
+      "23060610",
+      "22398450",
+      "14597658"
+    ],
+    "similar": [
+      "41405960",
+      "39067723",
+      "41241351",
+      "40794947",
+      "39434494",
+      "40629388",
+      "40515902",
+      "39705832",
+      "40421658",
+      "32947964",
+      "35168563",
+      "33517364",
+      "40632496",
+      "34206440",
+      "38205268",
+      "32312191",
+      "39947751",
+      "41163338",
+      "39566743",
+      "38997894",
+      "39033393",
+      "39920037",
+      "38979955",
+      "33765580",
+      "41307542",
+      "40628826",
+      "38063081",
+      "36920190",
+      "39391315",
+      "38824664",
+      "37496271",
+      "36524527",
+      "39979996",
+      "34371110",
+      "40324711",
+      "38481812",
+      "40231263",
+      "40618698",
+      "38547652",
+      "38553587",
+      "40616404",
+      "39987501",
+      "40840584",
+      "41365436",
+      "41268324",
+      "33809541",
+      "38811080",
+      "41092354",
+      "33057154",
+      "37735903",
+      "36227478",
+      "31941785",
+      "37609923",
+      "38762334",
+      "38322526",
+      "38231854",
+      "38380794",
+      "39460625",
+      "39990825",
+      "41206815",
+      "30682370",
+      "39194247",
+      "39964249",
+      "33827920",
+      "41480717",
+      "38245749",
+      "38262205",
+      "39038510",
+      "33672806",
+      "38808958",
+      "41461700",
+      "34522448",
+      "35803926",
+      "40381034",
+      "41457474",
+      "38804888",
+      "39561518",
+      "40984006",
+      "37925283",
+      "33264400",
+      "39670461",
+      "40291420",
+      "31612960",
+      "39446580",
+      "34606793",
+      "37092470",
+      "38446881",
+      "36528388",
+      "37796176",
+      "41250174",
+      "38322521",
+      "38526948",
+      "36471564",
+      "33081049",
+      "40969122",
+      "40513647",
+      "34129784",
+      "41457624",
+      "39227829",
+      "36310223"
+    ],
+    "review": [
+      "41405960",
+      "39705832",
+      "32947964",
+      "32312191",
+      "39947751",
+      "41163338",
+      "39566743",
+      "39033393",
+      "39920037",
+      "38979955",
+      "33765580",
+      "41307542",
+      "39391315",
+      "37496271",
+      "36524527",
+      "34371110",
+      "38481812",
+      "40231263",
+      "38547652",
+      "40616404",
+      "40840584",
+      "41365436",
+      "41268324",
+      "38811080",
+      "37735903",
+      "38762334",
+      "39990825",
+      "41206815",
+      "30682370",
+      "39964249",
+      "41480717",
+      "38245749",
+      "38262205",
+      "39038510",
+      "38808958",
+      "34522448",
+      "35803926",
+      "40381034",
+      "39561518",
+      "37925283",
+      "37092470",
+      "38322521",
+      "40969122",
+      "34129784",
+      "41457624",
+      "39227829"
+    ],
+    "pmc": [
+      "12710474"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41405960.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41405960/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf681",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

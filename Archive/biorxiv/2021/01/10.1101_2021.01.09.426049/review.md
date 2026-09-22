@@ -1,0 +1,73 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, acknowledgments) as provided
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the supplied text; no external data or supplementary figures were available for review
+- **Shared manuscript claim summary** The authors report that the intrinsically disordered prion protein variant Y145Stop undergoes liquid-liquid phase separation into dynamic liquid-like droplets, which upon aging transform into ordered, β-rich, amyloid-like aggregates with self-templating, autocatalytic properties. They propose that the C-terminal globular domain of full-length PrP exerts a chaperone-like inhibitory effect on phase separation and amyloid maturation, and that RNA modulates this behavior in a concentration-dependent manner.
+- **Visible evidence base** Text descriptions of results including turbidity assays, confocal microscopy, FRAP, circular dichroism, Raman spectroscopy, fluorescence anisotropy, ThT binding, atomic force microscopy, and kinetic seeding experiments; bioinformatic predictions (FuzPred, catGRANULE); reference to supplementary figures (S1–S6) without data
+- **Missing materials affecting confidence** All primary data figures (main and supplementary) are not provided; numerical values for kinetic parameters, quantitative FRAP data, and statistical analyses are absent; experimental details for protein preparation, labeling, and assay conditions are incomplete; supplementary figures referenced but not accessible
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the field of neurodegenerative disease, namely the mechanistic link between liquid-liquid phase separation and amyloid formation for a disease-associated prion protein variant. The authors present a plausible and interesting narrative supported by a multi-technique approach. However, the absence of primary data in the provided material severely limits the ability to evaluate the robustness of the claims. Several conclusions, particularly regarding the role of the C-terminal domain and the self-templating mechanism, are inferred from indirect evidence or comparisons that are not fully described. The work has potential to be of interest to a broad readership, but the current evidence base as presented is insufficient to fully establish the central claims.
+- **Who would be interested in the results, and why** Researchers in the fields of prion biology, protein misfolding and aggregation, liquid-liquid phase separation, intrinsically disordered proteins, and neurodegenerative disease mechanisms would find these results relevant. The proposed link between phase separation and prion-like self-templating behavior could inform studies on disease initiation and propagation, and the suggested protective role of the C-terminal domain may be of interest to those studying protein homeostasis and chaperone function.
+- **Major strengths** The study addresses a significant and timely question with potential implications for understanding prion diseases. The use of multiple complementary techniques (bioinformatics, spectroscopy, microscopy, mutagenesis, kinetics) is commendable. The observation of RNA-dependent modulation of phase behavior adds a layer of biological relevance. The comparison between Y145Stop and full-length PrP provides a useful framework for understanding the role of the C-terminal domain.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that Y145Stop phase separation is driven by electrostatic screening and hydrophobic interactions, and that specific mutations (A→G, A→V) alter phase behavior and material properties.
+  - **Evidence pointer** Results sections "Molecular drivers of phase separation" and "Vibrational Raman spectroscopy"; Figures 2, S2, S3; location not provided
+  - **Concern** The text describes results from turbidity, confocal microscopy, FRAP, and mutagenesis, but the actual data (plots, images, quantitative values) are not available in the provided material. The claim that A→V mutations result in "more solid-like and aggregation-prone droplets" is based on qualitative descriptions without quantitative rheological or FRAP data. The Raman spectroscopy data are described but not shown, and the interpretation of increased FWHM as "higher conformational heterogeneity" is not supported by statistical analysis.
+  - **Why it matters** The molecular drivers of phase separation are central to the manuscript's mechanistic claims. Without access to the primary data, it is impossible to verify whether the observed effects are robust, reproducible, or statistically significant. The distinction between liquid-like and solid-like states is critical and requires quantitative evidence.
+  - **Resolution test** Provide the primary data for all figures, including quantitative FRAP recovery curves with error bars, turbidity titration curves, and Raman spectra with peak fitting analyses. Include statistical tests (e.g., ANOVA, t-tests) for comparisons between wild-type and mutant proteins.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that "aggregates formed via phase transition display a self-perpetuating autocatalytic behavior" and that seeding with aged aggregates shortens the lag phase in a dose-dependent manner.
+  - **Evidence pointer** Results section "Aggregates formed via phase transition display a self-perpetuating autocatalytic behavior"; Figure 6; location not provided
+  - **Concern** The kinetic seeding experiments are described qualitatively ("lag phase shortened in a dose-dependent manner"), but no kinetic traces, lag time values, or statistical comparisons are provided. The claim that 10% seeds "nearly bypass the lag phase" is not quantified. The distinction between "liquid droplets" and "aged solid-like species" as seeds is not clearly defined in terms of preparation and characterization.
+  - **Why it matters** The self-templating property is a hallmark of prion-like mechanisms and is a key conclusion of the study. Without quantitative kinetic data, the reader cannot assess the efficiency of seeding or the specificity of the effect. The lack of characterization of the seed species undermines the mechanistic interpretation.
+  - **Resolution test** Provide full kinetic curves (e.g., ThT fluorescence vs. time) for unseeded and seeded reactions at multiple seed concentrations, with lag time and apparent rate constants extracted and compared statistically. Characterize the seed species (e.g., by electron microscopy, FTIR, or X-ray diffraction) to confirm amyloid nature.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The authors propose that the C-terminal globular domain of full-length PrP acts as a "chaperone-like" inhibitor of phase separation and amyloid maturation, based on the lower phase separation propensity of full-length PrP compared to Y145Stop.
+  - **Evidence pointer** Results sections "PrP Y145Stop undergoes liquid-liquid phase-separation in vitro" and "Discussion"; Figure 1N; location not provided
+  - **Concern** The comparison between full-length PrP and Y145Stop is described in a single sentence with reference to one figure panel. The conditions under which full-length PrP was tested (concentration, salt, time) are not specified, and the claim of "much lower propensity" is not quantified. The interpretation that the C-terminal domain has a "protective, chaperone-like role" is speculative and not directly tested (e.g., by adding the C-terminal domain in trans or by mutating specific residues).
+  - **Why it matters** This claim has implications for understanding the physiological regulation of PrP phase behavior and disease susceptibility. However, the evidence is too limited to support such a broad conclusion. The lack of direct mechanistic testing weakens the claim.
+  - **Resolution test** Provide quantitative phase diagrams for both full-length PrP and Y145Stop under identical conditions, including saturation concentrations and droplet properties. Perform domain-swap or complementation experiments to directly test the inhibitory role of the C-terminal domain.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods description
+  - **Evidence pointer** Results sections; location not provided
+  - **Issue** The text mentions "single-droplet Raman measurements" and "recombinantly expressed human prion protein Y145Stop" but does not provide details on protein expression, purification, labeling, or the Raman setup (e.g., laser wavelength, acquisition time, data processing).
+  - **Required correction** Add a Methods section or expand the text to include sufficient experimental details for reproducibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure references
+  - **Evidence pointer** Results sections; Figures 1–6, S1–S6; location not provided
+  - **Issue** The text refers to multiple figures and supplementary figures, but the actual data are not provided in the manuscript text. This makes it difficult to follow the narrative and verify claims.
+  - **Required correction** Ensure all figures are included in the manuscript or provide a link to accessible data. Consider moving some supplementary figures to the main text if they are critical to the claims.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "salting out" description
+  - **Evidence pointer** Results section "Molecular drivers of phase separation"; location not provided
+  - **Issue** The term "salting out" is used to describe the phase separation behavior, but this typically refers to protein precipitation at high salt concentrations. The authors may mean "salt-induced phase separation" or "electrostatic screening," which is clearer.
+  - **Required correction** Clarify the terminology to avoid confusion with classical salting-out phenomena.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of the manuscript (molecular drivers of phase separation and self-templating behavior) cannot be evaluated without primary data. R1-M3 is non-blocking but requires additional evidence to support the interpretation.
+- **Assessment against Nature-style criteria** Originality: The study is original in its focus on a specific disease-associated PrP variant and its phase separation behavior, though the general concept of LLPS-mediated amyloid formation is not new. Scientific importance: The findings could be important for understanding prion diseases and the role of phase separation in neurodegeneration, but the impact depends on the robustness of the evidence. Interdisciplinary readership: The topic bridges biophysics, cell biology, and neurobiology, and would appeal to a broad audience if the claims are well-supported. Technical soundness: The multi-technique approach is appropriate, but the lack of quantitative data and statistical analysis in the provided material undermines confidence. Readability for nonspecialists: The text is generally clear and well-structured, but some technical terms and abbreviations may be challenging for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the absence of primary data and quantitative analyses prevents a full assessment. I would be supportive if the technical concerns are resolved and the data are made available.
+
+## Risk / unsupported claims
+- The claim that Y145Stop phase separation is driven by hydrophobic interactions is supported only by indirect evidence (ANS fluorescence, hexanediol sensitivity) described in text without data.
+- The claim that A→V mutations increase solid-like behavior is not supported by quantitative data.
+- The claim that RNA at low concentrations promotes phase separation and at high concentrations inhibits it is described but not quantified.
+- The claim that full-length PrP has a "much lower" phase separation propensity than Y145Stop is not quantified.
+- The self-templating and autocatalytic behavior is described qualitatively without kinetic parameters.
+- The "chaperone-like" role of the C-terminal domain is speculative and not directly tested.
+- All statements referencing supplementary figures (S1–S6) are unverifiable from the provided material.

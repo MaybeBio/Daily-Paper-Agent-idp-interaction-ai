@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38463037",
+  "title": "Quantitative description of the phase-separation behavior of the multivalent SLP65-CIN85 complex.",
+  "authors": "Maier, Joachim; Sieme, Daniel; Wong, Leo E; Dar, Furqan; Wienands, Jurgen; Becker, Stefan; Griesinger, Christian",
+  "journal": "PNAS nexus",
+  "published_date": "2024-03-11",
+  "window": {
+    "start": "2024-03-11",
+    "end": "2024-03-17"
+  },
+  "score": 8,
+  "one_liner_zh": "该文定量测定多价无序蛋白SLP65与CIN85间18个SH3-PRM互作的解离常数，并用LASSI格子模拟忠实再现其相分离行为，属于IDR介导PPI与相分离机制建模的典型工作。",
+  "abstract": "Biomolecular condensates play a major role in cell compartmentalization, besides membrane-enclosed organelles. The multivalent SLP65 and CIN85 proteins are proximal B-cell antigen receptor (BCR) signal effectors and critical for proper immune responses. In association with intracellular vesicles, the two effector proteins form phase separated condensates prior to antigen stimulation, thereby preparing B lymphocytes for rapid and effective activation upon BCR ligation. Within this tripartite system, 6 proline-rich motifs (PRMs) of SLP65 interact promiscuously with 3 SH3 domains of the CIN85 monomer, establishing 18 individual SH3-PRM interactions whose individual dissociation constants we determined. Based on these 18 dissociation constants, we measured the phase-separation properties of the natural SLP65/CIN85 system as well as designer constructs that emphasize the strongest SH3/PRM interactions. By modeling these various SLP65/CIN85 constructs with the program LASSI (LAttice simulation engine for Sticker and Spacer Interactions), we reproduced the observed phase-separation properties. In addition, LASSI revealed a deviation in the experimental measurement, which was independently identified as a previously unknown intramolecular interaction. Thus, thermodynamic properties of the individual PRM/SH3 interactions allow us to model the phase-separation behavior of the SLP65/CIN85 system faithfully.",
+  "abstract_zh": "生物分子凝聚体在细胞区室化中发挥重要作用，除膜包裹的细胞器之外。多价的SLP65和CIN85蛋白是B细胞抗原受体（BCR）近端信号效应因子，对正常免疫应答至关重要。在与细胞内囊泡的关联中，这两种效应蛋白在抗原刺激前形成相分离（phase separation）凝聚体，从而为B淋巴细胞在BCR连接时快速有效激活做好准备。在这个三元系统中，SLP65的6个富含脯氨酸基序（PRMs）与CIN85单体的3个SH3结构域混杂相互作用，建立了18个独立的SH3-PRM相互作用，我们测定了各自的解离常数。基于这18个解离常数，我们测量了天然SLP65/CIN85系统以及强调最强SH3/PRM相互作用的设计构建体的相分离特性。通过使用程序LASSI（LAttice simulation engine for Sticker and Spacer Interactions）对这些不同的SLP65/CIN85构建体进行建模，我们重现了观察到的相分离特性。此外，LASSI揭示了实验测量中的一个偏差，该偏差被独立识别为一种先前未知的分子内相互作用。因此，单个PRM/SH3相互作用的热力学性质使我们能够忠实地模拟SLP65/CIN85系统的相分离行为。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38463037/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38463037/",
+  "paper_page_path": "papers/pubmed/38463037/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42199740",
+  "title": "Neutralization of SARS-CoV-2 Spike Pseudotyped Viruses Using Postbiotic Preparations from Lactiplantibacillus plantarum BS25.",
+  "authors": "Mandanas, Joshua Angelo Hermida; Yu-Chao, Day; Dalmacio, Leslie Michelle M",
+  "journal": "Acta medica Philippina",
+  "published_date": "2026-05-27",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用分子对接探讨植物抗菌素与SARS-CoV-2 RBD/ACE2的互作，虽涉及RBD无序残基，但对象非IDP/相分离，互作机制建模浅，方法仅对接，整体相关性边缘。",
+  "abstract": "BACKGROUND: Despite the presence of SARS-CoV-2 antivirals, namely, remdesivir, nirmatrelvir and toremifene, these drugs entail adverse effects and limited effectiveness. Thus, development of a safer alternative is imperative, and likely candidates include the cell-free supernatant (CFS) and protein fractions from Lactiplantibacillus plantarum strains. These postbiotics have known antiviral properties primarily mediated by plantaricins and enhanced by organic acids. OBJECTIVES: The study determined the in silico mechanism of plantaricins against the receptor-binding domain (RBD) and angiotensin-converting enzyme 2 (ACE2), as well as compared the in vitro activities of the L. plantarum BS25 CFS, semi-purified and crude protein fractions, against the SARS-CoV-2 pseudotyped viruses (nCoV-S-EGFP) expressing the spike of wild-type (wt) Wuhan strain, Omicron BA.1 and BA.4/5 variants. Further, this study determined the metabolome of the strain BS25 CFS. METHODS: A quasi-experimental approach was utilized in the study. Plantaricins were screened for safety in silico, followed by molecular docking with RBD and ACE2. Using a cell culture model, two-fold dilutions of the CFS and fractions were tested for cytotoxicity and microneutralization against the pseudoviruses. Mass spectrometry was utilized for the metabolomics. RESULTS: Plantaricins interact stably with RBD than ACE2 which were mediated by hydrogen, hydrophobic and covalent bonds. The activities of the CFS and fractions were substantially higher against the nCoV-S-EGFP BA.4/5 variant. The 1:8 dilution of CFS entailed no cytotoxicity and displayed higher activities than toremifene. Metabolomics has identified a relatively abundant putative peptide, followed by organic acids and cyclic peptides. CONCLUSION: Plantaricins can prevent SARS-CoV-2 entry by interacting with key RBD mutations or with intrinsically disordered RBD residues. The cationic and hydrophobic RBD mutations in the BA.4/5 variant may facilitate interactions with the putative peptide from the CFS and fractions, hence the observed potent activities. These findings can be used as basis for the development of an alternative antiviral targeting the RBD of live or pseudotyped SARS-CoV-2 variants.",
+  "abstract_zh": "背景：尽管已有针对SARS-CoV-2的抗病毒药物，即瑞德西韦（remdesivir）、奈玛特韦（nirmatrelvir）和他莫昔芬（toremifene），但这些药物存在不良反应且有效性有限。因此，开发更安全的替代方案势在必行，可能的候选物包括来自植物乳杆菌（Lactiplantibacillus plantarum）菌株的无细胞上清液（CFS）和蛋白组分。这些后生元具有已知的抗病毒特性，主要由植物素（plantaricins）介导，并受有机酸增强。目的：本研究确定了植物素对受体结合域（RBD）和血管紧张素转换酶2（ACE2）的计算机模拟机制，并比较了L. plantarum BS25 CFS、半纯化和粗蛋白组分对表达野生型（wt）武汉株、奥密克戎BA.1和BA.4/5变异株刺突蛋白的SARS-CoV-2假病毒（nCoV-S-EGFP）的体外活性。此外，本研究还测定了菌株BS25 CFS的代谢组。方法：本研究采用准实验设计。植物素在计算机模拟中进行了安全性筛选，随后与RBD和ACE2进行分子对接。使用细胞培养模型，对CFS和组分的两倍稀释液进行了细胞毒性和针对假病毒的微量中和测试。代谢组学采用质谱法。结果：植物素与RBD的相互作用比ACE2更稳定，这些相互作用由氢键、疏水键和共价键介导。CFS和组分对nCoV-S-EGFP BA.4/5变异株的活性显著更高。CFS的1:8稀释液无细胞毒性，且显示出高于他莫昔芬的活性。代谢组学鉴定出一个相对丰富的推定肽，其次是有机酸和环肽。结论：植物素可通过与关键RBD突变或内在无序的RBD残基相互作用来阻止SARS-CoV-2进入。BA.4/5变异株中的阳离子和疏水性RBD突变可能促进与CFS和组分中推定肽的相互作用，从而观察到强效活性。这些发现可作为开发针对活病毒或假型SARS-CoV-2变异株RBD的替代抗病毒药物的基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42199740/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42199740/",
+  "paper_page_path": "papers/pubmed/42199740/index.html"
+}

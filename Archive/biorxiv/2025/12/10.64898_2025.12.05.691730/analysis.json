@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.05.691730",
+  "title": "AlphaFold3 and Intrinsically Disordered Proteins: Reliable Monomer Prediction, Unpredictable Multimer Performance",
+  "authors": "Dao TM; Ghent S; Uversky VN; Rahman T",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-10",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文系统评估AlphaFold3对无序蛋白单体与多聚体的预测性能，揭示其在多聚体互作预测中的不可靠性及结构先验偏差，直接关联IDP-PPI的AI建模机制。",
+  "abstract": "AlphaFold3 represents a major advance in protein structure prediction, yet its performance on intrinsically disordered proteins remains uncharacterized. We present the first systematic evaluation of AF3 on disordered systems, revealing a striking dichotomy. For monomers, AF3’s pLDDT scores reliably predict disorder (MCC: 0.693), matching AlphaFold2 and rivaling dedicated predictors. This consistency across fundamentally different architectures confirms that disorder prediction emerges from training data, not model design. For multimers, the picture grows complex. Despite comparable aggregate performance (mean DockQ: 0.563 vs 0.571), AF3 and AF2 achieve these results through fundamentally different mechanisms. Conventional structural features explain 58% of AF2’s variance but only 42% of AF3’s. Users cannot predict when AF3 will succeed or fail from interface properties alone. On disorder-to-order transitions (MFIB benchmark), both models perform equally well, successfully predicting final folded states. Yet seed variance analysis reveals AF3’s failures are deterministic: the model converges to identical structures across independent runs, whether correct or incorrect, indicating rigid structural priors override available information. Our findings establish AF3 as reliable for the prediction of monomer disorder but unpredictable for multimers. Architectural innovation alone cannot overcome training data bias. Progress demands disorder-enriched datasets and ensemble sampling, not merely novel architectures.",
+  "abstract_zh": "AlphaFold3代表了蛋白质结构预测的重大进展，然而其在固有无序蛋白上的表现仍未得到表征。我们首次对AF3在无序系统上进行了系统性评估，揭示了一个显著的分歧。对于单体，AF3的pLDDT分数可靠地预测了无序性（MCC：0.693），与AlphaFold2相当，并可与专用预测器媲美。这种在根本不同架构间的一致性确认了无序预测源自训练数据，而非模型设计。对于多聚体，情况变得复杂。尽管总体性能相当（平均DockQ：0.563对0.571），AF3和AF2通过根本不同的机制实现这些结果。传统结构特征解释了AF2方差的58%，但仅解释了AF3方差的42%。用户无法仅从界面属性预测AF3何时会成功或失败。在无序到有序转变（MFIB基准）中，两种模型表现同样出色，成功预测了最终折叠状态。然而，种子方差分析揭示AF3的失败是确定性的：模型在独立运行中收敛到相同结构，无论正确与否，表明刚性结构先验覆盖了可用信息。我们的发现确立了AF3在单体无序预测中的可靠性，但在多聚体上则不可预测。仅靠架构创新无法克服训练数据偏差。进展需要富含无序的数据集和集合采样，而不仅仅是新颖的架构。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.05.691730",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.05.691730",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.05.691730/index.html"
+}

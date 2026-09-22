@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41037909",
+  "title": "Polystyrene nanoplastics modulate VGLL3 phase separation by enhancing intermolecular interactions: Implications for fibrosis and beyond.",
+  "authors": "Dang, Mei; Deng, Qinqin; Wu, Longjiang; Yang, Chenxuan; Jin, Gelin",
+  "journal": "Journal of hazardous materials",
+  "published_date": "2025-10-03",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究聚苯乙烯纳米塑料通过增强分子间相互作用调控VGLL3（含无序区域）的相分离，结合分子对接揭示多价氢键和疏水接触的支架模型，属于IDR/相分离对象、PPI机制与物理模拟方法齐备的机制建模研究。",
+  "abstract": "Microplastics and nanoplastics (MNPs) are widespread environmental pollutants associated with diverse health risks, yet their impact on protein liquid-liquid phase separation (LLPS) in fibrosis remains poorly understood. Here, we focus on vestigial-like family member 3 (VGLL3), a transcriptional cofactor implicated in fibrosis, to investigate whether polystyrene nanoparticles (PS NPs) with defined surface chemistries and sizes modulate its phase behavior. The results revealed that PS-COOH NPs robustly and selectively induced VGLL3 LLPS in a concentration- and size-dependent manner, with re-entrant dissolution at higher NP fractions. In contrast, PS NPs and PS-NH(2) NPs exert only minor effects. The condensates were sensitive to 1,6-hexanediol, indicating their dynamic and reversible nature. Dynamic light scattering (DLS) revealed right-shifted size distributions consistent with higher-order NP-protein complexes, whereas a negatively charged oligonucleotide failed to trigger LLPS, suggesting that charge alone is insufficient. Molecular docking supports a scaffold model in which PS-COOH NP surfaces stabilize multivalent hydrogen-bonding and hydrophobic contacts between VGLL3 molecules. Collectively, these findings provide a mechanistic basis for how carboxylate-rich/aged MNPs can remodel condensates of a fibrosis regulator, offering a framework to assess MNP health risks and to guide the design of safer or condensate-targeting nanomaterials.",
+  "abstract_zh": "微塑料和纳米塑料（MNPs）是广泛存在的环境污染物，与多种健康风险相关，然而它们对蛋白质液-液相分离（LLPS）在纤维化中的影响仍知之甚少。在此，我们聚焦于vestigial-like家族成员3（VGLL3），一种与纤维化相关的转录辅因子，以研究具有明确表面化学性质和尺寸的聚苯乙烯纳米颗粒（PS NPs）是否调节其相行为。结果表明，PS-COOH NPs以浓度和尺寸依赖的方式强有力地且选择性地诱导VGLL3 LLPS，并在较高NP分数下出现重入溶解。相比之下，PS NPs和PS-NH(2) NPs仅产生微小影响。凝聚体对1,6-己二醇敏感，表明其动态和可逆性质。动态光散射（DLS）揭示右移的尺寸分布，与高阶NP-蛋白质复合物一致，而带负电荷的寡核苷酸未能触发LLPS，表明仅电荷不足以诱导。分子对接支持一种支架模型，其中PS-COOH NP表面稳定VGLL3分子之间的多价氢键和疏水接触。总体而言，这些发现为富含羧基/老化的MNPs如何重塑纤维化调节因子的凝聚体提供了机制基础，为评估MNP健康风险和指导设计更安全或靶向凝聚体的纳米材料提供了框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41037909/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41037909/",
+  "paper_page_path": "papers/pubmed/41037909/index.html"
+}

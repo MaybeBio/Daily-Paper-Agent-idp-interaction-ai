@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The protocol description and claims as presented in the abstract
+- **Shared manuscript claim summary** The chapter describes a protocol for characterizing posttranslationally modified Tau peptides (phosphorylation and O-GlcNAcylation at the PHF-1 epitope, residues 392 to 411) using Gaussian accelerated molecular dynamics (GaMD) simulations with the CHARMM36m force field, including trajectory analyses such as energetics reweighting, clustering, and secondary structure characterization against circular dichroism data.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or results are provided
+- **Missing materials affecting confidence** Full chapter text, simulation parameters, force field validation details, experimental circular dichroism data, trajectory analysis outputs, and any comparative benchmarks against experimental nuclear magnetic resonance data
+
+## Reviewer
+- **Overall assessment** The abstract presents a protocol chapter that is potentially useful for researchers studying intrinsically disordered proteins and posttranslational modifications. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the GaMD protocol, the validity of the force field choices, or the robustness of the analytical methods. The claim that the protocol explains the relationship between phospho- and glyco-modifications and stable conformations is not substantiated by any quantitative evidence in the abstract. The work is likely of interest to a specialized audience in computational biophysics and Tau biology, but the current evidence base does not allow a full assessment of its scientific contribution.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular modelers studying intrinsically disordered proteins, particularly those investigating Tau protein modifications and aggregation. Researchers in neurodegenerative disease biology who seek structural insights into posttranslational modifications may also find the protocol relevant. The methods could be adopted by groups working on enhanced sampling simulations of disordered peptides.
+- **Major strengths** The abstract addresses a relevant and timely topic, namely the structural characterization of Tau peptides with combined phosphorylation and O-GlcNAcylation, which is underexplored. The use of GaMD as an enhanced sampling method is appropriate for disordered peptides that require long simulation times. The inclusion of circular dichroism data as a comparison point for simulation-derived secondary structure is a practical approach for validating conformational ensembles.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The protocol enables structural characterization of modified Tau peptides and explains the relationship between phospho- and glyco-modifications and stable conformations over longer simulation timeframes.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not provide any quantitative results, such as convergence metrics, free energy profiles, or comparison statistics between simulated and experimental circular dichroism spectra. Without these, the claim that the protocol successfully characterizes the relationship between modifications and conformation is unsupported.
+  - **Why it matters** For a methods chapter, the key value lies in demonstrating that the protocol produces reliable and reproducible results. The absence of any validation data in the abstract prevents readers from assessing whether the GaMD parameters, reweighting scheme, or clustering approach are fit for purpose.
+  - **Resolution test** Provide in the full chapter, and ideally in the abstract, representative convergence metrics (e.g., potential energy drift, reweighted free energy errors), a comparison of simulated secondary structure populations against experimental circular dichroism data with quantitative agreement measures, and a demonstration that the protocol distinguishes between singly and doubly modified peptides.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The protocol details the GaMD method and analyses of molecular dynamics trajectories.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify key simulation parameters, such as the number of replicas, simulation length, temperature and pressure coupling schemes, GaMD boost parameters, or the specific reweighting method used. Without these details, the protocol cannot be reproduced by other researchers.
+  - **Why it matters** A methods chapter must provide sufficient operational detail to allow independent implementation. The abstract's lack of specificity undermines the practical utility of the protocol.
+  - **Resolution test** In the full chapter, include a step-by-step parameter table, input file examples, and a clear description of the reweighting algorithm. The abstract should at least mention the simulation length and the number of independent runs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The protocol can be used to investigate structures of complex proteins, especially disordered ones.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims general applicability to complex disordered proteins, but the protocol is demonstrated only on short Tau peptides (residues 392 to 411). The transferability to larger systems or other disordered proteins is not established.
+  - **Why it matters** Overgeneralization may mislead readers into applying the protocol beyond its validated scope, potentially yielding unreliable results.
+  - **Resolution test** In the full chapter, discuss limitations and provide at least one example of application to a larger or different disordered system, or explicitly state the scope of applicability with justification.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses terms such as "energetics reweighting" and "Gaussian accelerated molecular dynamics" without brief definitions, which may hinder readers unfamiliar with enhanced sampling methods.
+  - **Required correction** Add a short parenthetical explanation for GaMD and reweighting, or rephrase to make the methods accessible to a broader structural biology audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of scope
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not clearly state whether the protocol is validated against experimental nuclear magnetic resonance data, despite mentioning previous experimental studies. This creates ambiguity about the benchmark used.
+  - **Required correction** Clarify in the abstract whether the protocol reproduces known experimental conformations and, if so, which specific experimental datasets were used for comparison.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Force field choice
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states the use of CHARMM36m but does not justify this choice over other force fields optimized for disordered proteins, such as ff14IDPSFF or a99SB-disp.
+  - **Required correction** In the full chapter, include a brief rationale for the force field selection, referencing comparative studies if available.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient quantitative validation or operational detail to establish that the protocol works as claimed. R1-M3 is non-blocking but should be addressed to avoid overgeneralization.
+- **Assessment against Nature-style criteria** Originality: The topic is not novel in concept, as enhanced sampling of Tau peptides has been reported, but the specific combination of phosphorylation and O-GlcNAcylation on the PHF-1 epitope may offer a niche contribution. Scientific importance: Moderate, as the protocol could aid in understanding PTM crosstalk, but the abstract does not demonstrate a significant advance over existing methods. Interdisciplinary readership: Limited, as the abstract is highly technical and likely to appeal mainly to computational biophysicists and Tau researchers. Technical soundness: Not assessable from the abstract alone; the lack of validation data is a critical gap. Readability for nonspecialists: The abstract is dense and assumes familiarity with enhanced sampling and Tau biology, which may exclude broader readers.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide enough detail to assess the protocol's validity or reproducibility. A supportive recommendation would require access to the full chapter, including validation data and parameter specifications.
+
+## Risk / unsupported claims
+- The claim that the protocol explains the relationship between phospho- and glyco-modifications and stable conformations is unsupported by any quantitative evidence in the abstract.
+- The claim that the protocol can be used for complex disordered proteins beyond the tested Tau peptides is not supported by the abstract.
+- The assertion that the analyses involve circular dichroism data from the simulation is ambiguous, as circular dichroism is an experimental technique; the abstract does not clarify whether this refers to simulated spectra or experimental comparison data.

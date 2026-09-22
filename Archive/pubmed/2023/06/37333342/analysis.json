@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37333342",
+  "title": "Effects of linker length on phase separation: lessons from the Rubisco-EPYC1 system of the algal pyrenoid.",
+  "authors": "GrandPre, Trevor; Zhang, Yaojun; Pyo, Andrew G T; Weiner, Benjamin; Li, Je-Luen; Jonikas, Martin C; Wingreen, Ned S",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-06-19",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过粗粒化模拟和解析理论，研究无序蛋白EPYC1连接子长度如何通过分子适配调控Rubisco-EPYC1体系的相分离，直接聚焦IDR介导的PPI机制建模，与课题高度契合。",
+  "abstract": "Biomolecular condensates are membraneless organelles formed via phase separation of macromolecules, typically consisting of bond-forming \"stickers\" connected by flexible \"linkers\". Linkers have diverse roles, such as occupying space and facilitating interactions. To understand how linker length relative to other lengths affects condensation, we focus on the pyrenoid, which enhances photosynthesis in green algae. Specifically, we apply coarse-grained simulations and analytical theory to the pyrenoid proteins of Chlamydomonas reinhardtii: the rigid holoenzyme Rubisco and its flexible partner EPYC1. Remarkably, halving EPYC1 linker lengths decreases critical concentrations by ten-fold. We attribute this difference to the molecular \"fit\" between EPYC1 and Rubisco. Varying Rubisco sticker locations reveals that the native sites yield the poorest fit, thus optimizing phase separation. Surprisingly, shorter linkers mediate a transition to a gas of rods as Rubisco stickers approach the poles. These findings illustrate how intrinsically disordered proteins affect phase separation through the interplay of molecular length scales.",
+  "abstract_zh": "生物分子凝聚体是通过大分子相分离（phase separation）形成的无膜细胞器，通常由通过柔性“连接子”（linkers）连接的成键“粘附子”（stickers）组成。连接子具有多种作用，例如占据空间和促进相互作用。为了理解连接子长度相对于其他长度如何影响凝聚，我们聚焦于叶绿体中的类核体（pyrenoid），它增强了绿藻的光合作用。具体而言，我们将粗粒化模拟（coarse-grained simulations）和分析理论应用于莱茵衣藻（Chlamydomonas reinhardtii）的类核体蛋白：刚性的全酶Rubisco及其柔性伙伴EPYC1。值得注意的是，将EPYC1连接子长度减半会使临界浓度降低十倍。我们将这一差异归因于EPYC1与Rubisco之间的分子“适配性”。改变Rubisco粘附子位置揭示，天然位点产生最差的适配性，从而优化了相分离。令人惊讶的是，当Rubisco粘附子接近极点时，较短的连接子介导向棒状气体（gas of rods）的转变。这些发现阐明了内在无序蛋白如何通过分子长度尺度的相互作用影响相分离。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37333342/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37333342/",
+  "paper_page_path": "papers/pubmed/37333342/index.html"
+}

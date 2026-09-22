@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39766854",
+  "title": "HROB Is Implicated in DNA Replication.",
+  "authors": "Kutz, Julia; Schmietendorf, Hannes; Rahman, Sheikh Anika; Opel, Franz; Pospiech, Helmut",
+  "journal": "Genes",
+  "published_date": "2025-01-08",
+  "window": {
+    "start": "2025-01-06",
+    "end": "2025-01-12"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究无序蛋白HROB与DNA复制/修复机器蛋白的互作，涉及结构预测和FRET检测结合，但未深入互作机制建模，方法以实验为主，AI/物理模拟贡献有限。",
+  "abstract": "DNA replication represents a series of precisely regulated events performed by a complex protein machinery that guarantees accurate duplication of the genetic information. Since DNA replication is permanently faced by a variety of exogenous and endogenous stressors, DNA damage response, repair and replication must be closely coordinated to maintain genomic integrity. HROB has been identified recently as a binding partner and activator of the Mcm8/9 helicase involved in DNA interstrand crosslink (ICL) repair. We identified HROB independently as a nuclear protein whose expression is co-regulated with various DNA replication factors. Accordingly, the HROB protein level showed a maximum in S phase and a downregulation in quiescence. Structural prediction and homology searches revealed that HROB is a largely intrinsically disordered protein bearing a helix-rich region and a canonical oligonucleotide/oligosaccharide-binding-fold motif that originated early in eukaryotic evolution. Employing a flow cytometry Forster resonance energy transfer (FRET) assay, we detected associations between HROB and proteins of the DNA replication machinery. Moreover, ectopic expression of HROB protein led to an almost complete shutdown of DNA replication. The available data imply a function for HROB during DNA replication across barriers such as ICLs.",
+  "abstract_zh": "DNA复制代表了一系列由复杂蛋白质机器执行的精确调控事件，该机器确保遗传信息的准确复制。由于DNA复制始终面临多种外源性和内源性应激源，DNA损伤应答、修复和复制必须紧密协调以维持基因组完整性。HROB最近被鉴定为参与DNA链间交联（ICL）修复的Mcm8/9解旋酶的结合伴侣和激活因子。我们独立地将HROB鉴定为一种核蛋白，其表达与多种DNA复制因子共同调控。相应地，HROB蛋白水平在S期达到最大值，并在静止期下调。结构预测和同源性搜索揭示，HROB是一种 largely 固有无序蛋白，含有一个富螺旋区域和一个典型的寡核苷酸/寡糖结合折叠基序，该基序在真核生物进化早期起源。利用流式细胞术福斯特共振能量转移（FRET）实验，我们检测到HROB与DNA复制机制蛋白之间的关联。此外，HROB蛋白的异位表达导致DNA复制几乎完全停止。现有数据暗示HROB在跨越如ICL等屏障的DNA复制过程中具有功能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39766854/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39766854/",
+  "paper_page_path": "papers/pubmed/39766854/index.html"
+}

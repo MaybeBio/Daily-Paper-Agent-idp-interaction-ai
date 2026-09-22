@@ -1,0 +1,313 @@
+{
+  "identity": {
+    "pmid": "36917561",
+    "doi": "10.1021/acs.jpcb.3c00096",
+    "title": "Interpreting Transient Interactions of Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "The flexible nature of intrinsically disordered proteins (IDPs) gives rise to a conformational ensemble with a diverse set of conformations. The simplest way to describe this ensemble is through a homopolymer model without any specific interactions. However, there has been growing evidence that the conformational properties of IDPs and their relevant functions can be affected by transient interactions between specific and even nonlocal pairs of amino acids. Interpreting these interactions from experimental methods, each of which is most sensitive to a different distance regime referred to as probing length, remains a challenging and unsolved problem. Here, we first show that transient interactions can be realized between short fragments of charged amino acids by generating conformational ensembles using model disordered peptides and coarse-grained simulations. Using these ensembles, we investigate how sensitive different types of experimental measurements are to the presence of transient interactions. We find methods with shorter probing lengths to be more appropriate for detecting these transient interactions, but one experimental method is not sufficient due to the existence of other weak interactions typically seen in IDPs. Finally, we develop an adjusted polymer model with an additional short-distance peak which can robustly reproduce the distance distribution function from two experimental measurements with complementary short and long probing lengths. This new model can suggest whether a homopolymer model is insufficient for describing a specific IDP and meets the challenge of quantitatively identifying specific, transient interactions from a background of nonspecific, weak interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acids",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Peptides/chemistry",
+      "Polymers/chemistry",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wohl, Samuel",
+        "Zheng, Wenwei"
+      ],
+      "short_names": [
+        "Wohl S",
+        "Zheng W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9603-009X"
+      ],
+      "affiliations": [
+        "Department of Physics, Arizona State University, Tempe, Arizona 85287, United States.",
+        "College of Integrative Sciences and Arts, Arizona State University, Mesa, Arizona 85212, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wohl, Samuel",
+        "short_name": "Wohl S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Arizona State University, Tempe, Arizona 85287, United States."
+        ]
+      },
+      {
+        "full_name": "Zheng, Wenwei",
+        "short_name": "Zheng W",
+        "identifiers": [
+          "0000-0002-9603-009X"
+        ],
+        "affiliations": [
+          "College of Integrative Sciences and Arts, Arizona State University, Mesa, Arizona 85212, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2023 Mar 23",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/15 06:00",
+    "fetched_at": "2026-09-20 20:21:09"
+  },
+  "links": {
+    "cites": [
+      "42147780",
+      "41959048",
+      "41846982",
+      "40727229",
+      "40264953",
+      "39554085"
+    ],
+    "refs": [
+      "37144719",
+      "36331868",
+      "36302916",
+      "36204594",
+      "35923464",
+      "35605677",
+      "35512095",
+      "34995480",
+      "34687712",
+      "34664948",
+      "34550709",
+      "34504002",
+      "34473923",
+      "34259536",
+      "34115515",
+      "33865811",
+      "33305318",
+      "32879005",
+      "32732434",
+      "32613009",
+      "32286812",
+      "32227994",
+      "32088185",
+      "31756104",
+      "31617035",
+      "30939006",
+      "30913885",
+      "30876367",
+      "30620594",
+      "30581045",
+      "30471693",
+      "30384718",
+      "30217894",
+      "29735687",
+      "29604882",
+      "29571687",
+      "29466338",
+      "29364893",
+      "29026044",
+      "28616445",
+      "28074088",
+      "27819658",
+      "27583687",
+      "27583570",
+      "27145874",
+      "26967199",
+      "26919016",
+      "26684000",
+      "26592995",
+      "26588273",
+      "26477262",
+      "26328871",
+      "25400522",
+      "24191018",
+      "23901099",
+      "22984159",
+      "21947276",
+      "21128621",
+      "20556825",
+      "20499903",
+      "20404210",
+      "19522502",
+      "18837035",
+      "17145717",
+      "15650731",
+      "12368089",
+      "11872841",
+      "11025552",
+      "10860987",
+      "10820006"
+    ],
+    "similar": [
+      "36917561",
+      "36674958",
+      "35944496",
+      "40095314",
+      "32345021",
+      "30913885",
+      "32357776",
+      "39554085",
+      "30840442",
+      "29573987",
+      "39499823",
+      "27844185",
+      "29539394",
+      "26387101",
+      "26052838",
+      "30091924",
+      "40727229",
+      "32696367",
+      "32227994",
+      "35454150",
+      "36083825",
+      "39163306",
+      "31809054",
+      "26030674",
+      "34680048",
+      "31548393",
+      "32840111",
+      "33530506",
+      "35129612",
+      "41432303",
+      "30204435",
+      "28805390",
+      "41082321",
+      "30909517",
+      "38252962",
+      "31375817",
+      "34845619",
+      "40317235",
+      "26727467",
+      "23794453",
+      "30471690",
+      "39977663",
+      "36641212",
+      "33581430",
+      "33623120",
+      "39248414",
+      "31756104",
+      "26387104",
+      "32828471",
+      "36178373",
+      "36934808",
+      "38928405",
+      "32579908",
+      "25375525",
+      "38165099",
+      "39851064",
+      "30708285",
+      "37459524",
+      "29186229",
+      "33310020",
+      "32859072",
+      "35119946",
+      "24410358",
+      "24312701",
+      "33411518",
+      "34863777",
+      "30979035",
+      "24739176",
+      "37108059",
+      "32135192",
+      "28448138",
+      "38118365",
+      "36331868",
+      "32696369",
+      "30230839",
+      "37338049",
+      "33337879",
+      "33566618",
+      "30413085",
+      "26387102",
+      "30933517",
+      "26433382",
+      "31552948",
+      "34259536",
+      "33725442",
+      "26387099",
+      "36350035",
+      "30445805",
+      "30372613",
+      "30066087",
+      "39642200",
+      "41159867",
+      "35725761",
+      "41137856",
+      "33945530",
+      "33076213",
+      "39983022",
+      "25358803",
+      "36291634",
+      "28095698"
+    ],
+    "review": [
+      "36917561",
+      "30840442",
+      "26387101",
+      "34680048",
+      "33530506",
+      "35129612",
+      "30909517",
+      "23794453",
+      "26387104",
+      "32828471",
+      "35119946",
+      "30979035",
+      "32135192",
+      "38118365",
+      "30413085",
+      "26387102",
+      "26387099",
+      "30445805"
+    ],
+    "pmc": [
+      "10038935"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36917561/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36917561",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.3c00096",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

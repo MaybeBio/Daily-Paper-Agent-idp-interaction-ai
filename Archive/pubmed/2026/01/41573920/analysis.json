@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41573920",
+  "title": "Distinguishing near- versus off-critical phase behaviors of intrinsically disordered proteins.",
+  "authors": "Mitra, Gaurav; Ghosh, Souradeep; Ruff, Kiersten M; Zhang, Ruoyao; Chauhan, Gaurav; Pappu, Rohit V",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-01-23",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过大规模模拟和有限尺寸标度分析，系统刻画了无序朊病毒样低复杂度结构域(PLCD)相分离中近临界与远临界行为的三个区域，并揭示稀相簇尺寸分布可作为区分相行为的可测特征，为无序蛋白介导的凝聚体相变机制建模提供了关键物理洞见。",
+  "abstract": "Intrinsically disordered prion-like low complexity domains (PLCDs) drive phase transitions that underlie the biogenesis of different biomolecular condensates. There are suggestions of condensates formed by different proteins being in the vicinity of thermodynamic critical points. To enable quantitative adjudication of near-versus off-critical phase behaviors, we analyzed results from large-scale simulations of an archetypal PLCD that undergoes phase separation coupled to percolation. Mapping of critical points required the use of finite-size scaling and computation of Binder cumulants. We find that the binodal can be demarcated into three distinct regimes. Regime I is farthest from the critical point, with the dilute phase being akin to a gas of dispersed polymers. Regime II lies above the intersection of the overlap line and the dilute arm of the binodal. Here, dilute phases are characterized by heterogeneous cluster-size distributions with heavy tails. In Regimes I and II, dense phases are confined percolated networks. Regime III is closest to the critical point. Here, the dense phase becomes unconfined and the per-colated network swells to become system-spanning. In Regime III, the dilute phase also forms a percolated, system-spanning network. Thus, Regime III comprises two interconnected, system-spanning networks. Strikingly, across the entire temperature range, conformational distributions of individual chains within dense and dilute phases closely follow Gaussian chain statistics. Changes to sequence-encoded interactions change critical temperatures and the locations of different regimes. Our results show that regime-specific cluster-size distributions within dilute phases are measurable signatures of near-versus off-critical phase behaviors of condensate-forming systems.",
+  "abstract_zh": "本质上无序的朊病毒样低复杂度结构域（PLCDs）驱动相变，这些相变是不同生物分子凝聚体生物发生的基础。有研究表明，由不同蛋白质形成的凝聚体可能位于热力学临界点附近。为了对近临界与远离临界相行为进行定量判定，我们分析了一个典型PLCD的大规模模拟结果，该PLCD经历与渗透耦合的相分离。临界点的映射需要使用有限尺寸标度和Binder累积量的计算。我们发现，双节线可划分为三个不同的区域。区域I离临界点最远，其中稀相类似于分散聚合物的气体。区域II位于重叠线与双节线稀相臂的交点之上。在此区域，稀相以具有重尾的异质簇大小分布为特征。在区域I和II中，浓相是受限的渗透网络。区域III最接近临界点。在此区域，浓相变得不受限，渗透网络膨胀至系统尺度。在区域III中，稀相也形成渗透的、系统尺度的网络。因此，区域III包含两个相互连接的系统尺度网络。引人注目的是，在整个温度范围内，浓相和稀相中单链的构象分布紧密遵循高斯链统计。序列编码的相互作用变化会改变临界温度和不同区域的位置。我们的结果表明，稀相中区域特异性的簇大小分布是凝聚体形成系统近临界与远离临界相行为的可测量特征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41573920/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41573920/",
+  "paper_page_path": "papers/pubmed/41573920/index.html"
+}

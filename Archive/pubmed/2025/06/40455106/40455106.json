@@ -1,0 +1,259 @@
+{
+  "identity": {
+    "pmid": "40455106",
+    "doi": "10.1021/acs.analchem.5c01431",
+    "title": "AI-Assisted Native Proteomics: Delineating Ribosomal Protein Conformations Pre- and Post-Assembly."
+  },
+  "content": {
+    "abstract": "The simultaneous identification of proteins as well as their conformations in a biological system would greatly enhance our understanding of cellular mechanisms and disease. As an emerging technique, native proteomics analyzes proteins in their native states, facilitating the acquisition of protein stoichiometry, post-translational modifications (PTMs), and interactions with ligands. However, revealing protein conformations at the proteome scale remains a significant challenge. In this study, we propose an AI-assisted native proteomics method that integrates a protein structure prediction (PSP) module with top-down proteomics (TDP) and native mass spectrometry (nMS) to acquire both proteome identities and conformations. First, protein sequences are obtained using the TDP method, while the protein solvent-accessible surface area is measured by nMS. These data are integrated with the PSP module to acquire protein conformations under experimental conditions. This approach was applied to delineate the conformations of ribosomal proteins pre- and post-assembly. Results revealed that most ribosomal proteins with intrinsically disordered regions exhibit multiple conformational ensembles in the monomer state. Protein-drug interaction (PDI) experiments show that the preferred conformation during binding events may differ from its conformation within the complex, highlighting the importance of acquiring protein \"dark\" conformations during drug development. By enabling high-throughput proteome identification and conformational characterization, this method bridges the gap between structural biology and conventional proteomics technologies.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Ribosomal Proteins/chemistry/metabolism",
+      "*Proteomics/methods",
+      "Protein Conformation",
+      "Mass Spectrometry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Wenjing",
+        "Sun, Chen",
+        "Xu, Zhang",
+        "Xu, Wei"
+      ],
+      "short_names": [
+        "Zhang W",
+        "Sun C",
+        "Xu Z",
+        "Xu W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5274-1546"
+      ],
+      "affiliations": [
+        "School of Medical Technology, Beijing Institute of Technology, Beijing 100081, China.",
+        "School of Medical Technology, Beijing Institute of Technology, Beijing 100081, China.",
+        "School of Medical Technology, Beijing Institute of Technology, Beijing 100081, China.",
+        "School of Medical Technology, Beijing Institute of Technology, Beijing 100081, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Wenjing",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Technology, Beijing Institute of Technology, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Chen",
+        "short_name": "Sun C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Technology, Beijing Institute of Technology, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Zhang",
+        "short_name": "Xu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medical Technology, Beijing Institute of Technology, Beijing 100081, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Wei",
+        "short_name": "Xu W",
+        "identifiers": [
+          "0000-0001-5274-1546"
+        ],
+        "affiliations": [
+          "School of Medical Technology, Beijing Institute of Technology, Beijing 100081, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Analytical chemistry"
+    ],
+    "journal_abbrev": [
+      "Anal Chem"
+    ],
+    "pub_date": "2025 Jun 17",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/02 12:32",
+    "fetched_at": "2026-09-21 19:31:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40455106",
+      "38737506",
+      "41960701",
+      "36851867",
+      "39445718",
+      "41851019",
+      "23912807",
+      "42093278",
+      "42475469",
+      "36682868",
+      "41208386",
+      "25502208",
+      "42246097",
+      "15609350",
+      "27448560",
+      "32412054",
+      "15842167",
+      "31256386",
+      "30365227",
+      "34227362",
+      "40062899",
+      "28875426",
+      "29322920",
+      "30222357",
+      "29131144",
+      "35779351",
+      "41526500",
+      "19067583",
+      "19801377",
+      "33683887",
+      "31432414",
+      "31347048",
+      "37294807",
+      "40834981",
+      "36070201",
+      "38966976",
+      "38966969",
+      "40119838",
+      "31225774",
+      "40992842",
+      "41116609",
+      "30062477",
+      "35576205",
+      "23720318",
+      "40168520",
+      "30591534",
+      "25728987",
+      "23935861",
+      "42234617",
+      "42401778",
+      "21389073",
+      "30471705",
+      "24524650",
+      "24043423",
+      "27975226",
+      "15473684",
+      "20627868",
+      "17934214",
+      "26232565",
+      "27975217",
+      "31375721",
+      "31888965",
+      "35926718",
+      "19343072",
+      "37937372",
+      "35749283",
+      "39072225",
+      "26465659",
+      "29100108",
+      "36036492",
+      "38470568",
+      "39276099",
+      "26598644",
+      "39196601",
+      "16287167",
+      "33983025",
+      "22037311",
+      "35053283",
+      "36526727",
+      "33232185",
+      "32959512",
+      "31606085",
+      "31741267",
+      "34846899",
+      "32133759",
+      "30647140",
+      "37272536",
+      "39706777",
+      "40768165",
+      "25823410",
+      "29072706",
+      "40540249",
+      "33263984",
+      "39402881",
+      "39832869",
+      "27291504",
+      "40840759",
+      "41023435",
+      "29452276",
+      "36346751"
+    ],
+    "review": [
+      "40455106",
+      "36851867",
+      "39445718",
+      "27448560",
+      "32412054",
+      "30365227",
+      "30222357",
+      "35779351",
+      "31347048",
+      "40834981",
+      "38966976",
+      "38966969",
+      "42401778",
+      "30471705",
+      "27975226",
+      "27975217",
+      "35926718",
+      "37937372",
+      "29100108",
+      "36036492",
+      "38470568",
+      "33983025",
+      "35053283",
+      "36526727",
+      "32959512",
+      "32133759",
+      "30647140",
+      "39706777",
+      "25823410",
+      "39402881",
+      "39832869",
+      "29452276"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/ancham/article-lookup/doi/10.1021/acs.analchem.5c01431",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.23.700524",
+  "title": "Extending the MAD Toolbox: New Polymer Builder and Enhanced Martini Database",
+  "authors": "Marin R; Hilpert C; Grunewald F; Valerio M; Borges L; Janczarski S; Rossini N; Marrink S; Telles de Souza P; Launay G",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-26",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文介绍MAD网络服务器更新，新增聚合物构建器和Martini 3增强功能（含GoMartini 3），支持无序蛋白的粗粒化建模，为IDP相关PPI的物理模拟提供工具基础，但未直接研究互作机制。",
+  "abstract": "The MArtini Database (MAD) web server (www.mad.ens-lyon.fr) has been updated with new tools, models, and capabilities to support a broader range of molecular sys- tems for the Martini coarse grained (CG) force field. The most notable addition is the MAD:Polymer Builder, enabling the automated construction of CG polymer models with varying architectures and complexities. The server now incorporates the latest developments in Martini 3, providing enhanced control within the MAD:Molecule Builder over the conversion of all-atom structures into CG representations, including the implementation of GoMartini 3 for protein complexes and water protein interaction biases. The MAD:Polymer Builder and MAD:Molecule Builder are both adapted to work with intrinsically disordered proteins and domains. Substantial progress has been made in expanding the MAD:Database, making a growing library of Martini-ready compounds readily accessible across the entire MAD ecosystem. These advances position MAD as a comprehensive and evolving platform for the preparation of diverse systems in CG molecular simulations.",
+  "abstract_zh": "MArtini数据库（MAD）网络服务器（www.mad.ens-lyon.fr）已更新，新增了工具、模型和功能，以支持Martini粗粒化（CG）力场更广泛的分子系统。最显著的添加是MAD:Polymer Builder，能够自动构建具有不同架构和复杂性的CG聚合物模型。该服务器现已整合Martini 3的最新进展，在MAD:Molecule Builder中增强了对全原子结构转换为CG表示的控制，包括针对蛋白质复合物和水-蛋白质相互作用偏置的GoMartini 3实现。MAD:Polymer Builder和MAD:Molecule Builder均适用于 intrinsically disordered proteins（固有无序蛋白质）及其结构域。在扩展MAD:Database方面取得了显著进展，使不断增长的Martini-ready化合物库在整个MAD生态系统中易于访问。这些进展使MAD成为CG分子模拟中多样系统准备的全面且不断发展的平台。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.23.700524",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.23.700524",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.23.700524/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.09.675178",
+  "title": "Centrosome Softening As A Mechanical Adaptation For Mitosis",
+  "authors": "Garcia-Baucells J; Bevilacqua C; Rufin M; Rumpf-Kienzl C; Zampetaki A; Andriotis OG; Thurner PJ; Prevedel R; Fürthauer S; Dammermann A",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-10",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究通过AFM和布里渊散射测量中心体在分裂期逐渐软化，并用理论模型解释其力学适应机制，但对象为微管组织中心而非无序蛋白/IDR，且未涉及PPI或AI/物理模拟方法，仅力学建模对互作机制启发有限。",
+  "abstract": "Centrosomes are microtubule-organizing centers important for mitotic spindle assembly and chromosome segregation. During mitosis, centrosomes are exposed to mechanical forces via the microtubules they nucleate, yet the material properties underlying their response to these forces remain poorly understood. In this study, we systematically probed the mechanical behavior of C. elegans centrosomes, both in vitro and in vivo . Using microtubule perturbations and quantitative live cell imaging, we found that centrosomes become increasingly deformed during mitosis. Centrosome deformation is independent of cortical pulling forces but instead results from microtubule polymerization within the pericentriolar material. This deformation impacts centrosome size: as microtubule number decreases with cell volume in early cleavage divisions, centrosome size scales proportionately. To directly measure centrosome elasticity, we employed atomic force microscopy (AFM) on isolated centrosomes in vitro and Brillouin light scattering microscopy in developing embryos in vivo . Both approaches revealed that centrosomes progressively soften during mitosis. Theoretical modeling predicts that softening serves to dampen spindle force fluctuations, helping to protect kinetochore-microtubule interactions and safeguarding chromosome segregation. Further, softening may enhance centrosomal microtubule nucleation capacity, facilitating mitotic spindle assembly, particularly in large early embryonic cells. We propose that centrosome softening is a mechanical adaptation for mitosis that couples microtubule number to centrosome size through force-dependent deformation. This optimally balances two mitotic requirements: the need for robust microtubule nucleation and the ability to withstand spindle forces, thereby ensuring accurate cell division.",
+  "abstract_zh": "中心体是微管组织中心，对纺锤体组装和染色体分离至关重要。在有丝分裂期间，中心体通过其核化的微管暴露于机械力之下，然而其响应这些力所依赖的材料特性仍知之甚少。在本研究中，我们系统探究了秀丽隐杆线虫（C. elegans）中心体的力学行为，涵盖体外（in vitro）和体内（in vivo）条件。利用微管扰动和定量活细胞成像，我们发现中心体在有丝分裂过程中逐渐变形。中心体变形不依赖于皮层拉力，而是源于中心粒周围物质（pericentriolar material）内的微管聚合。这种变形影响中心体大小：随着早期卵裂分裂中细胞体积减小导致微管数量下降，中心体大小按比例缩放。为直接测量中心体弹性，我们采用原子力显微镜（atomic force microscopy, AFM）对体外分离的中心体进行测量，并使用布里渊光散射显微镜（Brillouin light scattering microscopy）对发育中胚胎进行体内测量。两种方法均揭示中心体在有丝分裂期间逐渐软化。理论模型预测，软化有助于缓冲纺锤体力的波动，从而保护动粒-微管相互作用并保障染色体分离。此外，软化可能增强中心体微管核化能力，促进有丝分裂纺锤体组装，尤其在大型早期胚胎细胞中。我们提出，中心体软化是一种有丝分裂的力学适应，通过力依赖性变形将微管数量与中心体大小耦合。这优化平衡了两个有丝分裂需求：强健的微管核化能力与承受纺锤体力的能力，从而确保精确的细胞分裂。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.09.675178",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.09.675178",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.09.675178/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.02.22.529574",
+  "title": "DR-BERT: A Protein Language Model to Annotate Disordered Regions",
+  "authors": "Ananthan Nambiar; John Malcolm Forsyth; Simon Liu; Sergei Maslov",
+  "journal": "bioRxiv",
+  "published_date": "2023-02-22",
+  "window": {
+    "start": "2023-02-20",
+    "end": "2023-02-26"
+  },
+  "score": 6,
+  "one_liner_zh": "DR-BERT 用蛋白语言模型预测无序区域，虽涉及 IDR 和 AI 方法，但仅做区域注释而非 PPI 互作机制建模，故为中档。",
+  "abstract": "Despite their lack of a rigid structure, intrinsically disordered regions in proteins play important roles in cellular functions, including mediating protein-protein interactions. Therefore, it is important to computationally annotate disordered regions of proteins with high accuracy. Most popular tools use evolutionary or biophysical features to make predictions of disordered regions. In this study, we present DR-BERT, a compact protein language model that is first pretrained on a large number of unannotated proteins before being trained to predict disordered regions. Although it does not use any explicit evolutionary or biophysical information, DR-BERT shows a statistically significant improvement when compared to several existing methods on a gold standard dataset. We show that this performance is due to the information learned during pretraining and DR-BERT’s ability to use contextual information. A web application for using DR-BERT is available at https://huggingface.co/spaces/nambiar4/DR-BERT and the code to run the model can be found at https://github.com/maslov-group/DR-BERT .",
+  "abstract_zh": "尽管蛋白质中的固有无序区域缺乏刚性结构，但它们在细胞功能中扮演重要角色，包括介导蛋白质-蛋白质相互作用。因此，以高精度计算注释蛋白质的无序区域至关重要。大多数流行工具利用进化或生物物理特征来预测无序区域。在本研究中，我们提出了DR-BERT，一个紧凑的蛋白质语言模型，该模型首先在大量未注释的蛋白质上进行预训练，然后训练以预测无序区域。尽管它不使用任何显式的进化或生物物理信息，但在一个金标准数据集上，与几种现有方法相比，DR-BERT显示出统计学上显著的改进。我们表明，这种性能归因于预训练期间学习到的信息以及DR-BERT利用上下文信息的能力。用于使用DR-BERT的Web应用程序可在https://huggingface.co/spaces/nambiar4/DR-BERT 获取，运行该模型的代码可在https://github.com/maslov-group/DR-BERT 找到。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.02.22.529574",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.02.22.529574",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.02.22.529574/index.html"
+}

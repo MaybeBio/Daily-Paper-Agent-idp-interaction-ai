@@ -1,0 +1,243 @@
+{
+  "identity": {
+    "pmid": "40383327",
+    "doi": "10.1016/j.ijbiomac.2025.144158",
+    "title": "Proteome-wide identification and comprehensive profiling of intrinsic disorder in Fasciola gigantica."
+  },
+  "content": {
+    "abstract": "Despite the wealth of proteome sequences from multicellular parasitic helminths, studies on intrinsically disordered proteins (IDPs) in these organisms remain limited, particularly compared to viruses, bacteria, and unicellular parasites. We provide a comprehensive analysis of intrinsic disorder within the proteome of Fasciola gigantica, a parasitic liver fluke, using multiple predictive tools. Out of 12,537 proteins analyzed, a significant portion exhibited a distinct amino acid composition, characterized by an enrichment of polar and charged residues and a relative depletion of hydrophobic and aromatic residues, which are hallmarks of IDPs. These compositional features likely confer structural flexibility and functional adaptability, facilitating the survival of the parasite in diverse and hostile environments within its host. The presence of IDPs was further supported by compositional profiling of experimentally validated proteins in the DisProt database. Approximately 34.15 % of the F. gigantica proteome comprises highly disordered proteins, while 59.27 % is moderately disordered, as calculated from six well-established predictors integrated under the RIDAO platform. The consistent findings across various predictors, including PONDR(R) and IUPred, underscore the reliability of these results. Additionally, a detailed analysis of the distribution of charged residues in the proteome was performed. The high prevalence of IDPs in F. gigantica suggests their critical role in host-pathogen interactions, potentially providing functional advantages such as binding promiscuity and adaptability, which are essential for the survival of the parasite within the host. This study highlights the importance of IDPs in the biology of F. gigantica and provides insights into their potential roles in the parasite's pathogenesis and interactions with the host immune system.",
+    "keywords": [
+      "AlphaFold",
+      "Cellular processes",
+      "Flukes",
+      "Helminths, host-parasite interactions",
+      "Intrinsic disorder",
+      "Intrinsically disordered regions",
+      "Parasites",
+      "Protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Fasciola/metabolism/genetics",
+      "*Proteome/chemistry",
+      "*Helminth Proteins/chemistry/metabolism",
+      "*Proteomics/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Duarah, Anjelika",
+        "Subedi, Sushma",
+        "Dayhoff, Guy W 2nd",
+        "Uversky, Vladimir N",
+        "Tripathi, Timir"
+      ],
+      "short_names": [
+        "Duarah A",
+        "Subedi S",
+        "Dayhoff GW 2nd",
+        "Uversky VN",
+        "Tripathi T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular and Structural Biophysics Laboratory, Department of Zoology, North-Eastern Hill University, Shillong 793022, India.",
+        "Molecular and Structural Biophysics Laboratory, Department of Biochemistry, North-Eastern Hill University, Shillong 793022, India.",
+        "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD 21201, USA.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA.",
+        "Molecular and Structural Biophysics Laboratory, Department of Zoology, North-Eastern Hill University, Shillong 793022, India. Electronic address: timir.tripathi@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Duarah, Anjelika",
+        "short_name": "Duarah A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Structural Biophysics Laboratory, Department of Zoology, North-Eastern Hill University, Shillong 793022, India."
+        ]
+      },
+      {
+        "full_name": "Subedi, Sushma",
+        "short_name": "Subedi S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Structural Biophysics Laboratory, Department of Biochemistry, North-Eastern Hill University, Shillong 793022, India."
+        ]
+      },
+      {
+        "full_name": "Dayhoff, Guy W",
+        "short_name": "Dayhoff GW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, University of Maryland School of Pharmacy, Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA."
+        ]
+      },
+      {
+        "full_name": "Tripathi, Timir",
+        "short_name": "Tripathi T",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Structural Biophysics Laboratory, Department of Zoology, North-Eastern Hill University, Shillong 793022, India. Electronic address: timir.tripathi@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/19 00:37",
+    "fetched_at": "2026-09-21 19:07:16"
+  },
+  "links": {
+    "cites": [
+      "42445447"
+    ],
+    "refs": [],
+    "similar": [
+      "40383327",
+      "39979561",
+      "36292739",
+      "39757576",
+      "28286139",
+      "18190913",
+      "30565193",
+      "38811840",
+      "16626816",
+      "31425549",
+      "24594261",
+      "26376097",
+      "29080786",
+      "23167294",
+      "25496281",
+      "34696693",
+      "37561450",
+      "31606027",
+      "33719450",
+      "25176159",
+      "38932209",
+      "31739058",
+      "23820262",
+      "39696651",
+      "28455238",
+      "39537071",
+      "26513658",
+      "20550752",
+      "17069976",
+      "36765398",
+      "37892124",
+      "32696395",
+      "16647680",
+      "30400957",
+      "37634152",
+      "28627969",
+      "34610021",
+      "34347206",
+      "32681491",
+      "36194274",
+      "40157585",
+      "35094056",
+      "28934129",
+      "38851737",
+      "37626310",
+      "38569991",
+      "30287492",
+      "27037624",
+      "30218496",
+      "31805319",
+      "23148687",
+      "31159882",
+      "30592560",
+      "39892696",
+      "30192010",
+      "27189489",
+      "36088077",
+      "27906040",
+      "34985596",
+      "23300925",
+      "21408104",
+      "35436286",
+      "34626492",
+      "35454181",
+      "25025757",
+      "36334049",
+      "32503351",
+      "27266482",
+      "26946400",
+      "33430759",
+      "24507641",
+      "18183422",
+      "33513403",
+      "39025183",
+      "34022913",
+      "31442892",
+      "28381244",
+      "32583206",
+      "34742714",
+      "31756456",
+      "27062995",
+      "31521236",
+      "38338831",
+      "29643398",
+      "27771460",
+      "30471705",
+      "36420436",
+      "35034725",
+      "19619366",
+      "25602718",
+      "21763690",
+      "32770017",
+      "31377228",
+      "32472758",
+      "20522251",
+      "40244295",
+      "28612216",
+      "36070805",
+      "27804894",
+      "35196007"
+    ],
+    "review": [
+      "40383327",
+      "34347206",
+      "33513403",
+      "31521236",
+      "30471705"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(25)04710-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

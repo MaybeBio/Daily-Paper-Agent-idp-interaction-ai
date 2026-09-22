@@ -1,0 +1,380 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.09.539985",
+  "title": "MeCP2 binds to methylated DNA independently of phase separation and heterochromatin organisation",
+  "doi": "10.1101/2023.05.09.539985",
+  "abstract": "Correlative evidence has suggested that DNA methylation promotes the formation of transcriptionally silent heterochromatin. Accordingly, the methyl-CpG binding domain protein MeCP2 is often portrayed as a constituent of heterochromatin. This interpretation has been reinforced by the use of mouse cells as an experimental system for studying the mammalian epigenome, as heterochromatin, DNA methylation and MeCP2 colocalise in prominent foci. The findings presented here revise this view. We show that focal localisation of MeCP2 in mice is independent of heterochromatin, as DNA methylation-dependent MeCP2 foci persist even when the signature heterochromatin histone mark H3K9me3 is absent and heterochromatin protein HP1 is diffuse. Contrary to the proposal that MeCP2 forms condensates at mouse heterochromatic foci via liquid-liquid phase transition, the short methyl-CpG binding domain, which lacks the disordered domains thought to be required for condensation, is sufficient to target foci in mouse cells. Importantly, we find that the formation of MeCP2 foci in mice is highly atypical, as they are indetectable in 14 out of 16 other mammalian species, including humans. Notably, MeCP2 foci are absent in Mus spretus which can interbreed with Mus musculus but lacks its highly methylated pericentric satellite DNA repeats. We conclude that MeCP2 has no intrinsic tendency to form nuclear condensates and its localisation is independent of heterochromatin formation. Instead, the distribution of MeCP2 in the nucleus is primarily determined by global DNA methylation patterns and is typically euchromatic.",
+  "authors": [
+    "Pantier R",
+    "Brown M",
+    "Han S",
+    "Paton K",
+    "Meek S",
+    "Montavon T",
+    "McHugh T",
+    "Kelly DA",
+    "Hochepied T",
+    "Libert C",
+    "Jenuwein T",
+    "Burdon T",
+    "Bird A"
+  ],
+  "published_date": "2023-05-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.09.539985",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.09.539985.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR657418",
+    "raw_record": {
+      "id": "PPR657418",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR657418"
+        ]
+      },
+      "doi": "10.1101/2023.05.09.539985",
+      "title": "MeCP2 binds to methylated DNA independently of phase separation and heterochromatin organisation",
+      "authorString": "Pantier R, Brown M, Han S, Paton K, Meek S, Montavon T, McHugh T, Kelly DA, Hochepied T, Libert C, Jenuwein T, Burdon T, Bird A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pantier R",
+            "lastName": "Pantier",
+            "firstName": "Raphaël",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Wellcome Centre for Cell Biology, University of Edinburgh, Michael Swann Building, Max Born Crescent, The King’s Buildings, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brown M",
+            "lastName": "Brown",
+            "firstName": "Megan",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Wellcome Centre for Cell Biology, University of Edinburgh, Michael Swann Building, Max Born Crescent, The King’s Buildings, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Han S",
+            "lastName": "Han",
+            "firstName": "Sicheng",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Wellcome Centre for Cell Biology, University of Edinburgh, Michael Swann Building, Max Born Crescent, The King’s Buildings, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Paton K",
+            "lastName": "Paton",
+            "firstName": "Katie",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6635-7924"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Wellcome Centre for Cell Biology, University of Edinburgh, Michael Swann Building, Max Born Crescent, The King’s Buildings, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meek S",
+            "lastName": "Meek",
+            "firstName": "Stephen",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Montavon T",
+            "lastName": "Montavon",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8247-1399"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Max Planck Institute of Immunobiology and Epigenetics, Stübeweg 51,79108 Freiburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McHugh T",
+            "lastName": "McHugh",
+            "firstName": "Toni",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5212-3868"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Wellcome Centre for Cell Biology, University of Edinburgh, Michael Swann Building, Max Born Crescent, The King’s Buildings, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kelly DA",
+            "lastName": "Kelly",
+            "firstName": "David",
+            "initials": "DA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3021-8495"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Wellcome Centre for Cell Biology, University of Edinburgh, Michael Swann Building, Max Born Crescent, The King’s Buildings, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hochepied T",
+            "lastName": "Hochepied",
+            "firstName": "Tino",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5897-2054"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Inflammation Research, VIB, Ghent, Belgium, Department of Biomedical Molecular Biology, Ghent University, Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Libert C",
+            "lastName": "Libert",
+            "firstName": "Claude",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6408-036X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Inflammation Research, VIB, Ghent, Belgium, Department of Biomedical Molecular Biology, Ghent University, Ghent, Belgium"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jenuwein T",
+            "lastName": "Jenuwein",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Max Planck Institute of Immunobiology and Epigenetics, Stübeweg 51,79108 Freiburg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Burdon T",
+            "lastName": "Burdon",
+            "firstName": "Tom",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Roslin Institute and Royal (Dick) School of Veterinary Studies, University of Edinburgh, Easter Bush, Midlothian, EH25 9RG, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bird A",
+            "lastName": "Bird",
+            "firstName": "Adrian",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Wellcome Centre for Cell Biology, University of Edinburgh, Michael Swann Building, Max Born Crescent, The King’s Buildings, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5897-2054"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6408-036X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6635-7924"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8247-1399"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3021-8495"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5212-3868"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Correlative evidence has suggested that DNA methylation promotes the formation of transcriptionally silent heterochromatin. Accordingly, the methyl-CpG binding domain protein MeCP2 is often portrayed as a constituent of heterochromatin. This interpretation has been reinforced by the use of mouse cells as an experimental system for studying the mammalian epigenome, as heterochromatin, DNA methylation and MeCP2 colocalise in prominent foci. The findings presented here revise this view. We show that focal localisation of MeCP2 in mice is independent of heterochromatin, as DNA methylation-dependent MeCP2 foci persist even when the signature heterochromatin histone mark H3K9me3 is absent and heterochromatin protein HP1 is diffuse. Contrary to the proposal that MeCP2 forms condensates at mouse heterochromatic foci via liquid-liquid phase transition, the short methyl-CpG binding domain, which lacks the disordered domains thought to be required for condensation, is sufficient to target foci in mouse cells. Importantly, we find that the formation of MeCP2 foci in mice is highly atypical, as they are indetectable in 14 out of 16 other mammalian species, including humans. Notably, MeCP2 foci are absent in  Mus spretus which can interbreed with  Mus musculus but lacks its highly methylated pericentric satellite DNA repeats. We conclude that MeCP2 has no intrinsic tendency to form nuclear condensates and its localisation is independent of heterochromatin formation. Instead, the distribution of MeCP2 in the nucleus is primarily determined by global DNA methylation patterns and is typically euchromatic.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BBS/E/D/10002071",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "694295",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/05/10/2023.05.09.539985.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.05.09.539985"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR657418"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR657418&type=FILE&fileName=EMS175597-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38719804",
+            "reference": "Nature communications. 2024 May;15(1):3880",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS175597",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "ensembl",
+          "refseq",
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-05-12",
+      "firstPublicationDate": "2023-05-10",
+      "firstIndexDate": "2023-05-12",
+      "fullTextReceivedDate": "2023-06-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

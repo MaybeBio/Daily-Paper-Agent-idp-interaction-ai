@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33597515",
+  "title": "Reentrant liquid condensate phase of proteins is stabilized by hydrophobic and non-ionic interactions.",
+  "authors": "Krainer, Georg; Welsh, Timothy J; Joseph, Jerelle A; Espinosa, Jorge R; Wittmann, Sina; de Csillery, Ella; Sridhar, Akshay; Toprakcioglu, Zenon; Gudiskyte, Giedre; Czekalska, Magdalena A; Arter, William E; Guillen-Boixet, Jordina; Franzmann, Titus M; Qamar, Seema; George-Hyslop, Peter St; Hyman, Anthony A; Collepardo-Guevara, Rosana; Alberti, Simon; Knowles, Tuomas P J",
+  "journal": "Nature communications",
+  "published_date": "2021-02-19",
+  "window": {
+    "start": "2021-02-15",
+    "end": "2021-02-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合实验与模拟揭示FUS、TDP-43等IDP在高低盐浓度下凝聚体形成的疏水/非离子驱动力机制，聚焦相分离中的互作机制建模，对无序蛋白PPI机制研究有直接启发。",
+  "abstract": "Liquid-liquid phase separation of proteins underpins the formation of membraneless compartments in living cells. Elucidating the molecular driving forces underlying protein phase transitions is therefore a key objective for understanding biological function and malfunction. Here we show that cellular proteins, which form condensates at low salt concentrations, including FUS, TDP-43, Brd4, Sox2, and Annexin A11, can reenter a phase-separated regime at high salt concentrations. By bringing together experiments and simulations, we demonstrate that this reentrant phase transition in the high-salt regime is driven by hydrophobic and non-ionic interactions, and is mechanistically distinct from the low-salt regime, where condensates are additionally stabilized by electrostatic forces. Our work thus sheds light on the cooperation of hydrophobic and non-ionic interactions as general driving forces in the condensation process, with important implications for aberrant function, druggability, and material properties of biomolecular condensates.",
+  "abstract_zh": "蛋白质的液-液相分离（liquid-liquid phase separation）支撑着活细胞中无膜区室的形成。因此，阐明蛋白质相变背后的分子驱动力，是理解其生物学功能与功能障碍的关键目标。在此，我们展示了在低盐浓度下形成凝聚体的细胞蛋白，包括FUS、TDP-43、Brd4、Sox2和Annexin A11，在高盐浓度下能够重新进入相分离状态。通过结合实验与模拟，我们证明高盐区域中的这种回滞相变由疏水性和非离子相互作用驱动，在机制上不同于低盐区域，后者中凝聚体还额外受到静电力的稳定作用。因此，我们的工作揭示了疏水性和非离子相互作用在凝聚过程中作为普遍驱动力的协同作用，这对生物分子凝聚体的异常功能、可药性及材料性质具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33597515/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33597515/",
+  "paper_page_path": "papers/pubmed/33597515/index.html"
+}

@@ -1,0 +1,56 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The review analyzes a collection of 3D structures of tau protein linear motifs, derived from deposited complexes with binding partners and tau-tau complexes, using X-ray and electron crystallography, single-particle electron microscopy, NMR spectroscopy, and molecular dynamics simulations, to provide insights into partially stabilized conformations relevant to tau physiology and pathology.
+- **Visible evidence base** Abstract text only; no structural data, method details, or specific findings are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, method descriptions, structural database accession numbers, simulation parameters, and any quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a reasonable scope for a review article on tau linear motif structures, but it lacks specific claims, quantitative findings, or a clear synthesis of the analyzed data. As presented, the abstract is descriptive rather than substantive, and the scientific contribution cannot be evaluated without the full text. The topic is relevant to the structural biology and neurodegeneration communities, but the abstract does not establish a novel or critical perspective.
+- **Who would be interested in the results, and why** Structural biologists studying intrinsically disordered proteins, researchers focused on tau protein function and tauopathies, and computational scientists using molecular dynamics to explore disordered conformations. These groups would value a curated analysis of tau linear motif structures, as such data are scattered across multiple techniques and complexes.
+- **Major strengths** The abstract addresses a timely and important topic, namely the structural characterization of linear motifs within an intrinsically disordered protein. The inclusion of multiple experimental and computational techniques suggests a comprehensive approach. The focus on partially stabilized conformations is a relevant angle for understanding tau function and dysfunction.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims to "analyze the collection of 3D structures of tau local linear motifs" and to provide "insights into the partially stabilized conformations of tau linear motifs."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no specific examples of the analyzed structures, no summary of findings, and no indication of how the different techniques were integrated or compared. The claim of "insights" is unsupported by any concrete result or conclusion in the abstract.
+  - **Why it matters** Without specific findings or a synthesis, the abstract does not demonstrate that the review offers new understanding beyond listing existing structures. The scientific value of the review cannot be assessed from the provided material.
+  - **Resolution test** The full manuscript must present a clear analysis with specific examples, comparative insights across techniques, and explicit conclusions about the structural propensities of tau linear motifs. The abstract should be revised to include at least one key finding or a summary of the main patterns observed.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Scope definition
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the number of structures analyzed, the range of tau isoforms or fragments covered, or the criteria for selecting the included structures.
+  - **Required correction** Add a brief statement on the scope, such as the number of structures and the tau regions covered, to help readers gauge the comprehensiveness of the review.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methodological integration
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract lists techniques but does not explain how results from different methods were reconciled, especially given the inherent variability in disordered protein conformations.
+  - **Required correction** Include a sentence on the methodological approach for comparing or integrating data from crystallography, EM, NMR, and simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "mosaic" in the title is not explained in the abstract, and its relevance to the review's content is unclear.
+  - **Required correction** Define or clarify the "mosaic" concept in the abstract to align the title with the content.
+- **Technical failings that need to be addressed before the case is established** R1-M1 is the primary blocking concern. The abstract lacks any substantive result or synthesis, so the case for a valuable review is not established from the provided material. Minor comments R1-m1, R1-m2, and R1-m3 should be addressed to improve clarity and completeness.
+- **Assessment against Nature-style criteria** 
+  - Originality: The topic is not new, but a comprehensive analysis of tau linear motif structures could offer a novel synthesis. The abstract does not demonstrate originality in approach or findings.
+  - Scientific importance: Tau structure and function are of high importance in neurodegeneration research. However, the abstract does not articulate why this review advances the field beyond existing knowledge.
+  - Interdisciplinary readership: The topic bridges structural biology, biophysics, and neurobiology, which could attract a broad audience. The abstract does not currently make this cross-disciplinary appeal explicit.
+  - Technical soundness: Cannot be assessed from the abstract. The reliability of the structural analysis and simulation integration is unknown.
+  - Readability for nonspecialists: The abstract is accessible but lacks context for readers unfamiliar with tau or linear motifs. The term "mosaic" and the list of techniques may be opaque without further explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is too descriptive to support a recommendation for publication. A revised abstract with specific findings and a clear statement of the review's contribution would be required for a supportive posture.
+
+## Risk / unsupported claims
+- The claim of providing "insights into the partially stabilized conformations of tau linear motifs" is unsupported in the abstract, as no specific insights are described.
+- The implied comprehensiveness of the "collection of 3D structures" is not verifiable without a list of structures or accession numbers.
+- The relevance of the findings to "physiological and pathological processes" is stated but not substantiated with any example or mechanism.

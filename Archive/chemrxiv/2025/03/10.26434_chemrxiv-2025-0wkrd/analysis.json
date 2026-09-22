@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-0wkrd",
+  "title": "A Minimalistic Deep Graph Learning Approach for Protein-Ligand Binding Affinity: One Step Towards Generalization",
+  "authors": "Ulises Rojas-Castañeda; Gabriel A. Argüelles-Arjona; Víctor H. Ramón-Cetina; Norberto Sánchez-Cruz",
+  "journal": "ChemRxiv",
+  "published_date": "2025-03-20",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用极简图卷积网络预测蛋白-配体结合亲和力，对象为折叠蛋白与小分子配体，非无序蛋白/IDR/相分离，且仅预测亲和力而无互作机制建模，对无序蛋白PPI机制建模启发有限。",
+  "abstract": "Predicting protein-ligand binding affinity is a fundamental challenge in structure-based drug design. While deep learning models have significantly improved affinity predictions, many state-of-the-art approaches rely on complex architectures with tens or hundreds of thousands of trainable parameters, which may lead to overfitting and reduced generalizability. In this study, we introduce ECIF-GCN, a minimalist deep graph learning model that extends the Extended Connectivity Interaction Features (ECIF) framework by incorporating a fully connected graph representation and leveraging Graph Convolutional Networks (GCNs) to process molecular interactions. ECIF-GCN was trained and evaluated on LP-PDBbind, a benchmark specifically designed to minimize protein and ligand similarity across dataset splits, providing a rigorous assessment of model generalization. Despite having significantly fewer trainable parameters compared to more complex architectures, ECIF-GCN achieved the lowest RMSE (1.52) in the test set of LP-PDBbind, outperforming models such as InteractionGraphNet and RF-Score, which contain a substantially larger number of parameters. These results demonstrate that high predictive accuracy in binding affinity estimation does not require highly overparameterized deep learning models. These results highlight the potential of minimalist deep learning architectures in protein-ligand binding affinity prediction, providing a balance between predictive power, computational efficiency, and generalization ability, and suggest that a carefully designed low-parameter model can achieve state-of-the-art performance, reinforcing the idea that overparameterization is not a prerequisite for robust molecular modeling.",
+  "abstract_zh": "预测蛋白质-配体结合亲和力是基于结构的药物设计中的一个基本挑战。尽管深度学习模型显著提高了亲和力预测的准确性，但许多最先进的方法依赖于具有数万或数十万个可训练参数的复杂架构，这可能导致过拟合和泛化能力下降。在本研究中，我们引入了ECIF-GCN，一种极简的深度图学习模型，它通过纳入全连接图表示并利用图卷积网络（GCNs）处理分子相互作用，扩展了扩展连通性交互特征（ECIF）框架。ECIF-GCN在LP-PDBbind上进行了训练和评估，这是一个专门设计用于最小化数据集分割中蛋白质和配体相似性的基准，提供了对模型泛化能力的严格评估。尽管与更复杂的架构相比，ECIF-GCN的可训练参数显著较少，但它在LP-PDBbind的测试集中实现了最低的RMSE（1.52），优于包含大量参数的模型，如InteractionGraphNet和RF-Score。这些结果表明，在结合亲和力估计中实现高预测准确性并不需要高度过参数化的深度学习模型。这些结果突显了极简深度学习架构在蛋白质-配体结合亲和力预测中的潜力，在预测能力、计算效率和泛化能力之间提供了平衡，并表明精心设计的低参数模型可以达到最先进的性能，进一步强化了过参数化并非稳健分子建模的先决条件的观点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-0wkrd",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-0wkrd",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-0wkrd/index.html"
+}

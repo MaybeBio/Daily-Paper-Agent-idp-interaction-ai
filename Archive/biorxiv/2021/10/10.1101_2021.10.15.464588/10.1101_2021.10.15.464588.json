@@ -1,0 +1,157 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.10.15.464588",
+  "title": "The Pathogenic R5L Mutation Disrupts Formation of Tau Complexes on the Microtubule by Altering Local N-Terminal Structure",
+  "doi": "10.1101/2021.10.15.464588",
+  "abstract": "The microtubule-associated protein (MAP) Tau is an intrinsically disordered protein (IDP) primarily expressed in axons, where it functions to regulate microtubule dynamics, modulate motor protein motility, and participate in signaling cascades. Tau misregulation and point mutations are linked to neurodegenerative diseases, including Progressive Supranuclear Palsy (PSP), Pick’s Disease and Alzheimer’s disease. Many disease-associated mutations in Tau occur in the C-terminal microtubule-binding domain of the protein. Effects of C-terminal mutations in Tau have led to the widely accepted disease-state theory that missense mutations in Tau reduce microtubule-binding affinity or increase Tau propensity to aggregate. Here, we investigate the effect of an N-terminal disease-associated mutation in Tau, R5L, on Tau-microtubule interactions using an in vitro reconstituted system. Contrary to the canonical disease-state theory, we determine the R5L mutation does not reduce Tau affinity for the microtubule using Total Internal Reflection Fluorescence (TIRF) Microscopy. Rather, the R5L mutation decreases the ability of Tau to form larger order complexes, or Tau patches, at high concentrations of Tau. Using Nuclear Magnetic Resonance (NMR), we show that the R5L mutation results in a local structural change that reduces interactions of the projection domain in the presence of microtubules. Altogether, these results challenge both the current paradigm of how mutations in Tau lead to disease and the role of the projection domain in modulating Tau behavior on the microtubule surface. <h4>Significance Statement</h4> The microtubule-associated protein Tau is strongly linked to a number of neurological diseases. Disease onset is typically associated with weakened interaction with the microtubule, but this widely accepted model is based on hyperphosphorylation or mutations within the C-terminal microtubule-binding domain of Tau. Here, we find an N-terminal disease-associated mutation in Tau, R5L, does not reduce Tau affinity for microtubules, but instead modifies the N-terminal structure, altering Tau’s behavior and ability to condense on the microtubule surface. Our findings challenge the current paradigms of both how mutations in Tau lead to disease and the functional role of the N-terminal region of Tau.",
+  "authors": [
+    "Cario A",
+    "Savastano A",
+    "Wood NB",
+    "Liu Z",
+    "Previs MJ",
+    "Hendricks AG",
+    "Zweckstetter M",
+    "Berger CL"
+  ],
+  "published_date": "2021-10-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.10.15.464588",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.10.15.464588.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR407924",
+    "raw_record": {
+      "id": "PPR407924",
+      "source": "PPR",
+      "doi": "10.1101/2021.10.15.464588",
+      "title": "The Pathogenic R5L Mutation Disrupts Formation of Tau Complexes on the Microtubule by Altering Local N-Terminal Structure",
+      "authorString": "Cario A, Savastano A, Wood NB, Liu Z, Previs MJ, Hendricks AG, Zweckstetter M, Berger CL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Cario A",
+            "lastName": "Cario",
+            "firstName": "Alisa",
+            "initials": "A"
+          },
+          {
+            "fullName": "Savastano A",
+            "lastName": "Savastano",
+            "firstName": "Adriana",
+            "initials": "A"
+          },
+          {
+            "fullName": "Wood NB",
+            "lastName": "Wood",
+            "firstName": "Neil",
+            "initials": "NB"
+          },
+          {
+            "fullName": "Liu Z",
+            "lastName": "Liu",
+            "firstName": "Zhu",
+            "initials": "Z"
+          },
+          {
+            "fullName": "Previs MJ",
+            "lastName": "Previs",
+            "firstName": "Michael",
+            "initials": "MJ"
+          },
+          {
+            "fullName": "Hendricks AG",
+            "lastName": "Hendricks",
+            "firstName": "Adam",
+            "initials": "AG"
+          },
+          {
+            "fullName": "Zweckstetter M",
+            "lastName": "Zweckstetter",
+            "firstName": "Markus",
+            "initials": "M"
+          },
+          {
+            "fullName": "Berger CL",
+            "lastName": "Berger",
+            "firstName": "Christopher",
+            "initials": "CL"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The microtubule-associated protein (MAP) Tau is an intrinsically disordered protein (IDP) primarily expressed in axons, where it functions to regulate microtubule dynamics, modulate motor protein motility, and participate in signaling cascades. Tau misregulation and point mutations are linked to neurodegenerative diseases, including Progressive Supranuclear Palsy (PSP), Pick’s Disease and Alzheimer’s disease. Many disease-associated mutations in Tau occur in the C-terminal microtubule-binding domain of the protein. Effects of C-terminal mutations in Tau have led to the widely accepted disease-state theory that missense mutations in Tau reduce microtubule-binding affinity or increase Tau propensity to aggregate. Here, we investigate the effect of an N-terminal disease-associated mutation in Tau, R5L, on Tau-microtubule interactions using an  in vitro reconstituted system. Contrary to the canonical disease-state theory, we determine the R5L mutation does not reduce Tau affinity for the microtubule using Total Internal Reflection Fluorescence (TIRF) Microscopy. Rather, the R5L mutation decreases the ability of Tau to form larger order complexes, or Tau patches, at high concentrations of Tau. Using Nuclear Magnetic Resonance (NMR), we show that the R5L mutation results in a local structural change that reduces interactions of the projection domain in the presence of microtubules. Altogether, these results challenge both the current paradigm of how mutations in Tau lead to disease and the role of the projection domain in modulating Tau behavior on the microtubule surface.  <h4>Significance Statement</h4>  The microtubule-associated protein Tau is strongly linked to a number of neurological diseases. Disease onset is typically associated with weakened interaction with the microtubule, but this widely accepted model is based on hyperphosphorylation or mutations within the C-terminal microtubule-binding domain of Tau. Here, we find an N-terminal disease-associated mutation in Tau, R5L, does not reduce Tau affinity for microtubules, but instead modifies the N-terminal structure, altering Tau’s behavior and ability to condense on the microtubule surface. Our findings challenge the current paradigms of both how mutations in Tau lead to disease and the functional role of the N-terminal region of Tau.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/10/16/2021.10.15.464588.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.10.15.464588"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35135879",
+            "reference": "Proceedings of the National Academy of Sciences of the United States of America. 2022 Feb;119(7):e2114215119",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-10-17",
+      "firstPublicationDate": "2021-10-16",
+      "firstIndexDate": "2021-10-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

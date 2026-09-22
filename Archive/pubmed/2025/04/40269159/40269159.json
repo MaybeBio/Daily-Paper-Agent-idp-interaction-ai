@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "40269159",
+    "doi": "10.1038/s41586-025-08919-x",
+    "title": "Deciphering disordered regions controlling mRNA decay in high-throughput."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions within proteins drive specific molecular functions despite lacking a defined structure(1,2). Although disordered regions are integral to controlling mRNA stability and translation, the mechanisms underlying these regulatory effects remain unclear(3). Here we reveal the molecular determinants of this activity using high-throughput functional profiling. Systematic mutagenesis across hundreds of regulatory disordered elements, combined with machine learning, reveals a complex pattern of molecular features important for their activity. The presence and arrangement of aromatic residues strongly predicts the ability of seemingly diverse protein sequences to influence mRNA stability and translation. We further show how many of these regulatory elements exert their effects by engaging core mRNA decay machinery. Our results define molecular features and biochemical pathways that explain how disordered regions control mRNA expression and shed light on broader principles within functional, unstructured proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA Stability/genetics",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/genetics",
+      "*RNA, Messenger/metabolism/genetics",
+      "Protein Biosynthesis/genetics",
+      "Machine Learning",
+      "Humans",
+      "Mutagenesis",
+      "*High-Throughput Screening Assays"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lobel, Joseph H",
+        "Ingolia, Nicholas T"
+      ],
+      "short_names": [
+        "Lobel JH",
+        "Ingolia NT"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5986-7280",
+        "ORCID: 0000-0002-3395-1545"
+      ],
+      "affiliations": [
+        "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA, USA.",
+        "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA, USA. ingolia@berkeley.edu.",
+        "Center for Computational Biology and California Institute for Quantitative Biosciences, University of California, Berkeley, Berkeley, CA, USA. ingolia@berkeley.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lobel, Joseph H",
+        "short_name": "Lobel JH",
+        "identifiers": [
+          "0000-0001-5986-7280"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Ingolia, Nicholas T",
+        "short_name": "Ingolia NT",
+        "identifiers": [
+          "0000-0002-3395-1545"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Berkeley, Berkeley, CA, USA. ingolia@berkeley.edu.",
+          "Center for Computational Biology and California Institute for Quantitative Biosciences, University of California, Berkeley, Berkeley, CA, USA. ingolia@berkeley.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2025 Jun",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/24 06:27",
+    "fetched_at": "2026-09-21 18:15:44"
+  },
+  "links": {
+    "cites": [
+      "41824454",
+      "41690588",
+      "41446148",
+      "41341047",
+      "41184513",
+      "41007432"
+    ],
+    "refs": [
+      "37957331",
+      "37231154",
+      "36700108",
+      "36422864",
+      "36418462",
+      "35637307",
+      "34717010",
+      "34594027",
+      "33904398",
+      "33876751",
+      "33303588",
+      "32728246",
+      "32416068",
+      "32029630",
+      "31932632",
+      "31264965",
+      "30908907",
+      "30692204",
+      "30601114",
+      "30053226",
+      "29883606",
+      "29860432",
+      "29779948",
+      "29559651",
+      "29525204",
+      "29339797",
+      "28645171",
+      "28190770",
+      "28076807",
+      "26956374",
+      "26481498",
+      "26376869",
+      "26315911",
+      "25702871",
+      "25531225",
+      "24926813",
+      "24352420",
+      "23832786",
+      "23644599",
+      "22890846",
+      "22785621",
+      "22416277",
+      "22388286",
+      "20705650",
+      "19505943",
+      "19358741",
+      "19151095",
+      "18199049",
+      "17984081",
+      "17578581",
+      "17401334",
+      "17389596",
+      "16169922",
+      "15652485",
+      "15034147"
+    ],
+    "similar": [
+      "40269159",
+      "38370681",
+      "39617253",
+      "42475469",
+      "31900363",
+      "38941236",
+      "27647212",
+      "42259285",
+      "29236252",
+      "39929988",
+      "40877262",
+      "27911701",
+      "33866372",
+      "26790343",
+      "33806614",
+      "26598238",
+      "34831133",
+      "31264965",
+      "36130271",
+      "21132108",
+      "26354771",
+      "34591015",
+      "32719458",
+      "26941072",
+      "29018283",
+      "28934129",
+      "37231154",
+      "42306853",
+      "39826710",
+      "42455625",
+      "30819075",
+      "41391147",
+      "29511089",
+      "28168220",
+      "39353735",
+      "28802259",
+      "39383002",
+      "42598852",
+      "23912807",
+      "37498545",
+      "33590687",
+      "29186753",
+      "40715456",
+      "8811193",
+      "34246632",
+      "34390736",
+      "31425549",
+      "38296708",
+      "29843482",
+      "23706950",
+      "36908253",
+      "11465035",
+      "26928467",
+      "32204351",
+      "42295476",
+      "25631540",
+      "42492491",
+      "39505899",
+      "42233425",
+      "41812468",
+      "40788873",
+      "39093570",
+      "31527111",
+      "27392146",
+      "42268714",
+      "24930020",
+      "28381244",
+      "42154591",
+      "33949788",
+      "32869519",
+      "30622246",
+      "28867216",
+      "18039654",
+      "32048998",
+      "31175012",
+      "40081192",
+      "34663436",
+      "24587103",
+      "27048167",
+      "30979781",
+      "29759983",
+      "38768217",
+      "41170986",
+      "26944332",
+      "35040509",
+      "40769718",
+      "39196930",
+      "29982297",
+      "15157107",
+      "33319437",
+      "25752799",
+      "31547849",
+      "25424537",
+      "36731471",
+      "32210357",
+      "21956941",
+      "26851284",
+      "42578546",
+      "32817217",
+      "34852690"
+    ],
+    "review": [
+      "40269159",
+      "27647212",
+      "27911701",
+      "34831133",
+      "21132108",
+      "29018283",
+      "42306853",
+      "29186753",
+      "8811193",
+      "34390736",
+      "38296708",
+      "23706950",
+      "11465035",
+      "32204351",
+      "25631540",
+      "41812468",
+      "39093570",
+      "24930020",
+      "33949788",
+      "32869519",
+      "40081192",
+      "27048167",
+      "26944332",
+      "29982297",
+      "25752799",
+      "32210357",
+      "21956941"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-025-08919-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

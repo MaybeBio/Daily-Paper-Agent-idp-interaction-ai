@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40847259",
+  "title": "Intrinsically Disordered to Stable and Reversible alpha-Helical Conformational Transition of alpha-Synuclein in a Neat Polymer Surfactant Mesophase.",
+  "authors": "Maity, Anwesha; Panigrahi, Rajlaxmi; Chaudhary, Amit; Panwar, Ajay S; Kumar, Ashutosh; Sharma, Kamendra P",
+  "journal": "Biomacromolecules",
+  "published_date": "2025-08-23",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究α-突触核蛋白（IDP）在聚合物表面活性剂介观相中由无序向稳定可逆α-螺旋的构象转变，涉及IDP对象和MD模拟方法，但核心是蛋白稳定化存储而非PPI互作机制，故综合评分为5。",
+  "abstract": "alpha-synuclein (alpha-Syn), an intrinsically disordered protein associated with Parkinson's disease, exhibits a high propensity for aggregation under physiological and in vitro conditions, even at low concentrations. This necessitates its storage in the lyophilized form at </= -20  degrees C. In this work, we demonstrate that dispersing native alpha-Syn in an aqueous solution of poly(ethylene glycol)(PEG)-based polymer surfactant (PS), followed by lyophilization, forms a viscoelastic material at room temperature, in which alpha-Syn adopts a highly stable and reversible alpha-helical secondary structure. Solid-state NMR analysis reveals that helix formation involves alanine, threonine, and valine residues, predominantly within the N-terminal and NAC regions. Interestingly, small-angle X-ray scattering (SAXS) studies indicate that a neat PS matrix exhibits a distorted lamellar mesophase; however, it becomes ordered upon alpha-Syn incorporation. All-atom MD simulations show that PS hydrophobic domains self-assemble into \"nematic-like\" structures that selectively interact with the hydrophobic residues in alpha-Syn. These findings establish polymer-driven strategies for long-term storage and structure-function stabilization of various therapeutic proteins.",
+  "abstract_zh": "α-突触核蛋白（alpha-Syn），一种与帕金森病相关的固有无序蛋白，在生理和体外条件下，即使浓度较低，也表现出高度的聚集倾向。这要求其在≤-20°C条件下以冻干形式储存。在本工作中，我们证明，将天然alpha-Syn分散于基于聚乙二醇（PEG）的聚合物表面活性剂（PS）水溶液中，随后进行冻干处理，可在室温下形成一种粘弹性材料，其中alpha-Syn采用高度稳定且可逆的α-螺旋二级结构。固态核磁共振分析揭示，螺旋形成涉及丙氨酸、苏氨酸和缬氨酸残基，主要位于N端和NAC区域。有趣的是，小角X射线散射（SAXS）研究表明，纯PS基质呈现扭曲的层状中间相；然而，在掺入alpha-Syn后，其变得有序。全原子分子动力学模拟显示，PS疏水结构域自组装成“向列型”结构，选择性地与alpha-Syn中的疏水残基相互作用。这些发现确立了基于聚合物的策略，用于多种治疗性蛋白质的长期储存及结构-功能稳定化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40847259/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40847259/",
+  "paper_page_path": "papers/pubmed/40847259/index.html"
+}

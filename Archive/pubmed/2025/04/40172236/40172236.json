@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "40172236",
+    "doi": "10.1021/acs.jcim.5c00140",
+    "title": "Personalized Energy Adaptation through Reweighting Learning (PEARL) Force Field for Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) have garnered significant attention due to their critical roles in complex human diseases. Molecular dynamics (MD) simulations have emerged as a valuable approach for studying IDPs, whose accuracy heavily depends on the accuracy of force fields. Despite this, the high conformational flexibility of IDPs presents limitations for current force fields in precisely capturing their conformational features. Here, we developed a tool for generating force field parameters, consisting of two main components: the construction and training of a model named DihedralProbNet to predict protein dihedral probability distributions and the DeepReweighting algorithm to optimize force field parameters. This personalized energy adaptation through reweighting learning was termed the PEARL force field. To evaluate its performance, 8 IDPs and 5 folded protein systems were used. The results demonstrate that the PEARL force field more accurately reproduces the conformational ensembles of IDPs than ff19SB and stabilizes the conformations of folded proteins. Therefore, by enabling a more accurate sampling of IDP conformations, PEARL has the potential to advance our understanding of the role of IDPs in biological processes and their involvement in disease mechanisms.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Protein Folding",
+      "Thermodynamics",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ji, Xiaoyue",
+        "Zhu, Junjie",
+        "Zhong, Bozitao",
+        "Li, Zhengxin",
+        "Choi, Taeyoung",
+        "Cui, Xiaochen",
+        "Wei, Ting",
+        "Chen, Hai-Feng"
+      ],
+      "short_names": [
+        "Ji X",
+        "Zhu J",
+        "Zhong B",
+        "Li Z",
+        "Choi T",
+        "Cui X",
+        "Wei T",
+        "Chen HF"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7496-4182"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China.",
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ji, Xiaoyue",
+        "short_name": "Ji X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Junjie",
+        "short_name": "Zhu J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Bozitao",
+        "short_name": "Zhong B",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhengxin",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      },
+      {
+        "full_name": "Choi, Taeyoung",
+        "short_name": "Choi T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Xiaochen",
+        "short_name": "Cui X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Ting",
+        "short_name": "Wei T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hai-Feng",
+        "short_name": "Chen HF",
+        "identifiers": [
+          "0000-0002-7496-4182"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai, 200240, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Apr 14",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/02 12:37",
+    "fetched_at": "2026-09-22 02:24:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40172236",
+      "36533639",
+      "28448138",
+      "31552948",
+      "34032235",
+      "36178373",
+      "30840442",
+      "32227937",
+      "36468450",
+      "31613621",
+      "33355572",
+      "38018910",
+      "37452752",
+      "31756104",
+      "33591749",
+      "32859072",
+      "30091924",
+      "29808548",
+      "29735687",
+      "32816485",
+      "36800279",
+      "34680048",
+      "30865832",
+      "37108059",
+      "39651234",
+      "30979035",
+      "31657215",
+      "31809054",
+      "33382616",
+      "34504009",
+      "33444020",
+      "28226222",
+      "40042172",
+      "29080468",
+      "39555603",
+      "39366599",
+      "29990433",
+      "33623120",
+      "33810353",
+      "30876367",
+      "32579908",
+      "27819658",
+      "28095698",
+      "37646172",
+      "30708285",
+      "38928405",
+      "31877033",
+      "33230318",
+      "33459730",
+      "34358545",
+      "30250773",
+      "26575776",
+      "39499823",
+      "30204435",
+      "35725761",
+      "28805390",
+      "25919886",
+      "34656328",
+      "24589355",
+      "33945530",
+      "28970487",
+      "26574339",
+      "36934808",
+      "36084124",
+      "34546059",
+      "31402649",
+      "39163306",
+      "40128232",
+      "34845619",
+      "35129612",
+      "35950933",
+      "38739602",
+      "31441158",
+      "33078950",
+      "25207671",
+      "35377637",
+      "27484738",
+      "26052838",
+      "30909517",
+      "33411518",
+      "23754493",
+      "36827446",
+      "30933517",
+      "31548393",
+      "34576338",
+      "40095314",
+      "26030189",
+      "39225535",
+      "31241933",
+      "34390736",
+      "29548755",
+      "21766125",
+      "38275091",
+      "36641212",
+      "24278008",
+      "30184304",
+      "32525675",
+      "33567297",
+      "39807013",
+      "30514082"
+    ],
+    "review": [
+      "40172236",
+      "30840442",
+      "33355572",
+      "33591749",
+      "34680048",
+      "30979035",
+      "28226222",
+      "29080468",
+      "39555603",
+      "34358545",
+      "35129612",
+      "31441158",
+      "30909517",
+      "34390736",
+      "33567297"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c00140",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

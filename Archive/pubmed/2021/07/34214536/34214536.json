@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "34214536",
+    "doi": "10.1016/j.bpj.2021.06.021",
+    "title": "Introducing intrinsic disorder reduces electrostatic steering in protein-protein interactions."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions underlie many critical biology functions, such as cellular signaling and gene expression, in which electrostatic interactions can play a critical role in mediating the specificity and stability of protein complexes. A substantial portion of proteins are intrinsically disordered, and the influences of structural disorder on binding kinetics and thermodynamics have been widely investigated. However, whether the effect of electrostatic steering depends on structural disorder remains unexplored. In this work, we addressed the consequence of introducing intrinsic disorder in the electrostatic steering of the E3/Im3 complex using molecular dynamics simulation. Our results recapitulated the experimental observations that the responses of stability and kinetics to salt concentration for the ordered E3/Im3 complex were larger than those for the disordered E3/Im3 complex. Mechanistic analysis revealed that the native contact interactions involved in the encounter state and the transition state were essentially identical for both ordered and disordered E3. Therefore, the observed difference in electrostatic steering between ordered E3 and disordered E3 may result from their difference in conformation rather than their difference in binding mechanism. Because charged residues are frequently involved in protein-protein interactions, our results suggest that increasing structural disorder is expected to generally modulate the effect of electrostatic steering.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/metabolism",
+      "Kinetics",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "Protein Conformation",
+      "Protein Folding",
+      "Static Electricity",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gao, Meng",
+        "Han, Yue",
+        "Zeng, Yifan",
+        "Su, Zhengding",
+        "Huang, Yongqi"
+      ],
+      "short_names": [
+        "Gao M",
+        "Han Y",
+        "Zeng Y",
+        "Su Z",
+        "Huang Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Industrial Fermentation, Ministry of Education, Wuhan, China; Hubei Key Laboratory of Industrial Microbiology, Department of Biological Engineering, Wuhan, China; National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, China.",
+        "Key Laboratory of Industrial Fermentation, Ministry of Education, Wuhan, China; Hubei Key Laboratory of Industrial Microbiology, Department of Biological Engineering, Wuhan, China; National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, China.",
+        "Key Laboratory of Industrial Fermentation, Ministry of Education, Wuhan, China; Hubei Key Laboratory of Industrial Microbiology, Department of Biological Engineering, Wuhan, China; National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, China.",
+        "Key Laboratory of Industrial Fermentation, Ministry of Education, Wuhan, China; Hubei Key Laboratory of Industrial Microbiology, Department of Biological Engineering, Wuhan, China; National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, China.",
+        "Key Laboratory of Industrial Fermentation, Ministry of Education, Wuhan, China; Hubei Key Laboratory of Industrial Microbiology, Department of Biological Engineering, Wuhan, China; National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, China. Electronic address: yqhuang@pku.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gao, Meng",
+        "short_name": "Gao M",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Industrial Fermentation, Ministry of Education, Wuhan, China; Hubei Key Laboratory of Industrial Microbiology, Department of Biological Engineering, Wuhan, China; National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Han, Yue",
+        "short_name": "Han Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Industrial Fermentation, Ministry of Education, Wuhan, China; Hubei Key Laboratory of Industrial Microbiology, Department of Biological Engineering, Wuhan, China; National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Yifan",
+        "short_name": "Zeng Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Industrial Fermentation, Ministry of Education, Wuhan, China; Hubei Key Laboratory of Industrial Microbiology, Department of Biological Engineering, Wuhan, China; National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Su, Zhengding",
+        "short_name": "Su Z",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Industrial Fermentation, Ministry of Education, Wuhan, China; Hubei Key Laboratory of Industrial Microbiology, Department of Biological Engineering, Wuhan, China; National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, China."
+        ]
+      },
+      {
+        "full_name": "Huang, Yongqi",
+        "short_name": "Huang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Industrial Fermentation, Ministry of Education, Wuhan, China; Hubei Key Laboratory of Industrial Microbiology, Department of Biological Engineering, Wuhan, China; National \"111\" Center for Cellular Regulation and Molecular Pharmaceutics, Hubei University of Technology, Wuhan, China. Electronic address: yqhuang@pku.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2021 Aug 3",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/03 06:00",
+    "fetched_at": "2026-09-20 04:02:18"
+  },
+  "links": {
+    "cites": [
+      "38409704",
+      "37173574"
+    ],
+    "refs": [
+      "32429036",
+      "32325001",
+      "32242581",
+      "31804089",
+      "31709918",
+      "31535860",
+      "31521329",
+      "31425549",
+      "30992509",
+      "30528464",
+      "29899144",
+      "29878773",
+      "29413001",
+      "29319301",
+      "29044255",
+      "28832695",
+      "28604862",
+      "28369057",
+      "27911701",
+      "27834926",
+      "26651072",
+      "26641694",
+      "26195786",
+      "26073260",
+      "25856265",
+      "25057855",
+      "24830552",
+      "24773235",
+      "24739139",
+      "24654952",
+      "24606139",
+      "24532081",
+      "24449148",
+      "24278008",
+      "22807669",
+      "22744607",
+      "22140358",
+      "21268115",
+      "19747922",
+      "19594884",
+      "18573080",
+      "17681540",
+      "17391014",
+      "17243791",
+      "15133158",
+      "12680770",
+      "12381310",
+      "10908673"
+    ],
+    "similar": [
+      "34214536",
+      "35029261",
+      "24278008",
+      "32654182",
+      "25207671",
+      "30793144",
+      "28786199",
+      "32325001",
+      "33454008",
+      "25856265",
+      "23912807",
+      "22721951",
+      "26910732",
+      "26183799",
+      "30107436",
+      "28369057",
+      "30071273",
+      "30528464",
+      "29548979",
+      "34181980",
+      "33355572",
+      "23990768",
+      "27018856",
+      "31397874",
+      "29734867",
+      "27030593",
+      "28914483",
+      "29590589",
+      "25387963",
+      "29716994",
+      "30413699",
+      "31709918",
+      "29565070",
+      "28552960",
+      "25544254",
+      "24604825",
+      "11302708",
+      "39074869",
+      "30514761",
+      "26720267",
+      "30471695",
+      "28847960",
+      "29990433",
+      "22807669",
+      "32020911",
+      "31002232",
+      "30520528",
+      "26851275",
+      "20455270",
+      "32323533",
+      "31136713",
+      "34533560",
+      "16787780",
+      "33877595",
+      "31783325",
+      "29753880",
+      "31415767",
+      "22161863",
+      "12680770",
+      "29885328",
+      "32696381",
+      "30507941",
+      "19683007",
+      "31951234",
+      "32936312",
+      "23364837",
+      "21079758",
+      "10753808",
+      "32527832",
+      "29319301",
+      "33155649",
+      "33629837",
+      "24317797",
+      "24589355",
+      "12324994",
+      "29413001",
+      "34504009",
+      "25631161",
+      "17729276",
+      "28934129",
+      "19747922",
+      "29080468",
+      "36468418",
+      "12470214",
+      "26073257",
+      "27004461",
+      "33269926",
+      "34504002",
+      "27498593",
+      "28832695",
+      "25511246",
+      "31683980",
+      "26851279",
+      "25871264",
+      "27936491",
+      "9600896",
+      "31422443"
+    ],
+    "review": [
+      "34214536",
+      "33355572",
+      "31397874",
+      "31709918",
+      "25544254",
+      "26720267",
+      "32020911",
+      "26851275",
+      "31783325",
+      "29753880",
+      "10753808",
+      "29319301",
+      "33155649",
+      "12324994",
+      "29413001",
+      "29080468",
+      "12470214",
+      "26073257",
+      "27004461",
+      "26851279"
+    ],
+    "pmc": [
+      "8390962"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(21)00508-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34214536/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34214536",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

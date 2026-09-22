@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.10.20.513005",
+  "title": "Small molecule modulates α -Synuclein conformation and its oligomerization via Entropy Expansion",
+  "authors": "Menon S; Mondal J",
+  "journal": "bioRxiv",
+  "published_date": "2022-10-21",
+  "window": {
+    "start": "2022-10-17",
+    "end": "2022-10-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用毫秒级原子模拟与统计模型研究小分子药物fasudil如何通过熵扩展机制调控α-突触核蛋白（IDP）的构象ensemble并抑制其二聚化/聚集，属于IDP互作机制建模的物理模拟研究，与本课题高度相关。",
+  "abstract": "Aberrant misfolding and progressive aggregation of the intrinsically disordered protein (IDP), α -synuclein, are associated with the etiology of several neurodegenerative diseases. However, the structurally heterogeneous ensemble of this IDP and lack of a well-defined binding pocket make it difficult to probe the druggability of α -synuclein. Here, by building a comprehensive statistical model of the fuzzy ensemble of a millisecond-long atomistic simulation trajectory of monomeric α -synuclein interacting with the small-molecule drug fasudil, we identify exhaustive sets of metastable binding-competent states of α -synuclein. The model reveals that the interaction with the drug primes this IDP to explore both more compact and more extended conformational sub-ensemble than those in neat water, thereby broadening its structural repertoire in presence of small-molecule via an entropy expansion mechanism. Subsequent simulation of the dimerisation process shows that similar motif of entropic-expansion mechanism helps fasudil to retard the self-aggregation propensity of α -synuclein via trapping it into multiple distinct states of diverse compaction featuring aggregation-resistant long-range interactions. Furthermore, small-molecule binding interactions in dimerisation-competent relatively extended states have a screening effect that hinders the formation of stable dimer contacts. Together, the investigation demonstrates the ability of small-molecules to have an ensemble-modulatory effect on IDPs that can be effectively utilised in therapeutic strategies probing aggregation-related diseases.",
+  "abstract_zh": "本质上无序蛋白（IDP）α-突触核蛋白的异常错误折叠和渐进聚集与多种神经退行性疾病的病因相关。然而，该IDP的结构异质性集合以及缺乏明确的结合口袋，使得探测α-突触核蛋白的可药性变得困难。在此，通过构建单体α-突触核蛋白与小分子药物法舒地尔相互作用的毫秒级原子模拟轨迹的模糊集合的综合统计模型，我们识别出α-突触核蛋白的详尽的一组亚稳态结合胜任状态。该模型揭示，与药物的相互作用促使该IDP探索比在纯水中更紧凑和更延伸的构象亚集合，从而通过熵扩展机制在存在小分子时拓宽其结构库。随后的二聚化过程模拟显示，类似的熵扩展机制基序帮助法舒地尔通过将α-突触核蛋白捕获到多种具有不同紧凑度的不同状态中，并伴有抗聚集的长程相互作用，从而延缓其自聚集倾向。此外，在二聚化胜任的相对延伸状态中的小分子结合相互作用具有筛选效应，阻碍了稳定二聚体接触的形成。总之，该研究展示了小分子对IDP具有集合调节效应，这可在针对聚集相关疾病的治疗策略中得到有效利用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.10.20.513005",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.10.20.513005",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.10.20.513005/index.html"
+}

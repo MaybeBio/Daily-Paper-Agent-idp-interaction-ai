@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and concluding remarks. No figures or tables were provided; references to them are noted but their content could not be inspected.
+- **Assessment boundary** The review is limited to the scientific content and technical claims presented in the supplied text. No external validation of simulation data, force field parameters, or comparison with experimental results beyond what is described was possible.
+- **Shared manuscript claim summary** The authors report two 10 μs molecular dynamics simulations of the KRAS lipid anchor (tK) bound to asymmetric bilayers, one with a POPC–POPC/POPS composition and one with a POPC–POPC/POPS/POPE composition. They claim that bilayer asymmetry and the presence of POPE have negligible effects on the global structure, dynamics, and interactions of tK, with only minor modulations of individual side-chain interactions and conformational substate distributions.
+- **Visible evidence base** The manuscript text includes descriptions of methods, results, and figures (Figures 1–7) and tables (Table 1). However, the actual figures, tables, and numerical data are not provided in the supplied material. The evidence base is therefore limited to the textual descriptions and the authors' interpretations.
+- **Missing materials affecting confidence** Figures 1–7, Table 1, all numerical values (e.g., diffusion coefficients, order parameters, hydrogen bond counts, free energy estimates), and any statistical analyses are not available. This prevents independent verification of the quantitative claims and the robustness of the conclusions.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the field of membrane biophysics and KRAS biology, namely whether lipid asymmetry and composition affect the behavior of the KRAS lipid anchor. The use of long (10 μs) simulations with an improved force field is a methodological strength. However, the central claim of "negligible effect" is supported only by qualitative textual descriptions, and the absence of the actual data (figures, tables, numerical values) makes it impossible to assess the statistical significance and robustness of the findings. The manuscript is well written and logically structured, but the evidence as presented is insufficient to fully establish the conclusions.
+- **Who would be interested in the results, and why** Researchers in the fields of membrane biophysics, molecular dynamics simulations of lipid-protein interactions, and KRAS biology would be interested. The work addresses the ongoing debate about the importance of membrane asymmetry in protein function and provides guidance for simulation studies of peripheral membrane proteins. The findings could also inform experimental studies on KRAS membrane binding and clustering.
+- **Major strengths** The use of 10 μs simulations is a significant improvement over earlier shorter simulations. The choice of the CHARMM36m force field is appropriate for studying intrinsically disordered peptides. The comparison between binary and ternary asymmetric bilayers is a logical design to isolate the effect of POPE. The authors also compare their results with previous symmetric bilayer simulations, which provides context. The analysis of monolayer coupling and interdigitation is a thoughtful addition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "the equilibrium structural and dynamic properties of the two asymmetric bilayers are similar" and that "the overall structure and lipid interactions of tK are not significantly affected by the presence of POPE."
+  - **Evidence pointer** Results and Discussion, Figures 1–7, Table 1 (location not provided for specific data points)
+  - **Concern** The central conclusion of negligible effects is based on comparisons of ensemble averages and distributions, but the actual numerical data, error bars, and statistical tests are not presented in the supplied text. The authors state that differences in diffusion coefficients are "statistically significant" but less than 1.5-fold, yet no p-values, confidence intervals, or effect sizes are given. Similarly, the claim that hydrogen bond counts are "essentially identical" is not supported by quantitative data.
+  - **Why it matters** Without access to the actual data, the reader cannot judge whether the observed differences are truly negligible or merely within the noise of the simulations. The claim of "negligible effect" is a strong negative result that requires robust statistical evidence to be convincing.
+  - **Resolution test** Provide the numerical values for all reported properties (e.g., thickness, area per lipid, diffusion coefficients, order parameters, hydrogen bond counts) with appropriate error estimates (e.g., standard deviations from block averaging) and statistical tests (e.g., t-tests or bootstrapping) to support the claim of no significant differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors attribute the larger flexibility of tK in the current simulations to the longer simulation duration and the use of CHARMM36m, stating that this force field "more accurately models intrinsically disordered peptides such as tK."
+  - **Evidence pointer** Abstract, Results and Discussion (location not provided)
+  - **Concern** The claim that CHARMM36m is more accurate for tK is plausible but not directly tested in this work. The authors do not provide a comparison of tK conformational ensembles or dynamics between CHARMM36 and CHARMM36m under identical conditions. The attribution of increased flexibility to the force field is therefore speculative and not supported by the presented data.
+  - **Why it matters** The choice of force field is a critical methodological decision that can affect the interpretation of the results. If the increased flexibility is due to the longer simulation time rather than the force field, the conclusion about force field accuracy would be incorrect.
+  - **Resolution test** Perform a direct comparison of tK simulations using CHARMM36 and CHARMM36m with the same system setup and simulation length, or cite published benchmark studies that demonstrate the improved accuracy of CHARMM36m for this specific peptide or similar IDPs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "monolayer surface area matching reduces packing differences and curvature arising from differences in phospholipid shape" and that this was done based on areas per lipid determined by CHARMM-GUI.
+  - **Evidence pointer** Materials and Methods, Simulation Setup (location not provided)
+  - **Concern** The description of the monolayer surface area matching procedure is brief. It is not clear how the matching was performed, what specific areas per lipid were used, and whether this procedure was applied consistently to both the binary and ternary systems. Insufficient detail may hinder reproducibility.
+  - **Why it matters** The construction of asymmetric bilayers is technically challenging, and the surface area matching procedure can influence the resulting bilayer properties and the behavior of the bound peptide. Without a detailed protocol, other researchers may not be able to reproduce the simulations.
+  - **Resolution test** Provide a more detailed description of the surface area matching procedure, including the specific values used for the areas per lipid of each lipid type and how the matching was implemented in the simulation setup.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract (location not provided)
+  - **Issue** The abstract states that "the effects of POPS asymmetry or the presence of POPE on tK are limited to modulating the relative contribution of individual side chains to interactions with lipids and redistributing conformational substates." This is a key finding, but it is not quantified in the abstract.
+  - **Required correction** Consider including a quantitative measure (e.g., a specific change in hydrogen bond occupancy or substate population) to strengthen the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and Methods, Trajectory Analysis
+  - **Evidence pointer** Materials and Methods, Trajectory Analysis (location not provided)
+  - **Issue** The methods for calculating the pseudo-dihedral angle and Euler angles are described, but the specific definitions of these angles (e.g., which atoms are used for the pseudo-dihedral) are not given.
+  - **Required correction** Provide the exact definitions of the pseudo-dihedral angle and the Euler angles, including the atom selections, to ensure reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results and Discussion, Structure and Dynamics of Asymmetric PC/PS and PC/PS/PE Bilayers
+  - **Evidence pointer** Results and Discussion (location not provided)
+  - **Issue** The authors note that POPE forms hydrogen bonds with POPS and that this correlates with increased chain ordering. However, the causal relationship is not fully explored.
+  - **Required correction** Consider a brief discussion of whether the hydrogen bonding between POPE and POPS is a direct cause of the increased ordering or a consequence of other packing effects.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of quantitative data in the supplied text. The manuscript relies heavily on qualitative descriptions of figures and tables that are not available for inspection. This prevents the reviewer from verifying the statistical significance of the reported differences and the robustness of the "negligible effect" conclusion. Additionally, the attribution of increased tK flexibility to the CHARMM36m force field is not directly tested and requires further evidence.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work addresses a relevant and timely question about the role of membrane asymmetry in protein-lipid interactions, specifically for the KRAS lipid anchor. While previous studies have examined tK in symmetric bilayers, the use of asymmetric bilayers is a novel contribution. However, the finding of negligible effects is not entirely unexpected given the known robustness of tK interactions.
+  - **Scientific importance** The results have potential implications for the design of future simulation studies of KRAS and other peripheral membrane proteins, suggesting that asymmetry may not be a critical factor for the lipid anchor. This is useful but not a major conceptual advance.
+  - **Interdisciplinary readership** The work is primarily of interest to computational biophysicists and KRAS researchers. The methods and findings may not appeal to a broader interdisciplinary audience.
+  - **Technical soundness** The simulation setup and analysis are generally sound, but the lack of quantitative data and the speculative attribution of flexibility to the force field are concerns. The use of 10 μs simulations and CHARMM36m is appropriate.
+  - **Readability for nonspecialists** The manuscript is clearly written and the concepts are explained well. However, the heavy reliance on simulation-specific terminology and the lack of quantitative context may make it challenging for nonspecialists to fully appreciate the significance of the findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question with an appropriate methodology, but the evidence as presented is insufficient to fully establish the central claim of negligible effects. The authors must provide the actual numerical data with statistical analyses and clarify the force field attribution to strengthen the case.
+
+## Risk / unsupported claims
+- The claim that "the equilibrium structural and dynamic properties of the two asymmetric bilayers are similar" is unsupported without the actual data and statistical tests.
+- The claim that "the overall structure and lipid interactions of tK are not significantly affected by the presence of POPE" is unsupported without quantitative hydrogen bond counts and interaction energy analyses.
+- The attribution of larger tK flexibility to the CHARMM36m force field is speculative and not directly tested in this work.
+- The statement that "the effects of POPS asymmetry or the presence of POPE on tK are limited to modulating the relative contribution of individual side chains to interactions with lipids and redistributing conformational substates" is not quantifiable from the supplied text.
+- The comparison of simulation results with experimental values (e.g., bilayer thickness, diffusion coefficients) is mentioned but not detailed, making the validation of the simulations unassessable.

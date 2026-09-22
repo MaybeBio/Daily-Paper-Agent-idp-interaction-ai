@@ -1,0 +1,246 @@
+{
+  "identity": {
+    "pmid": "35189052",
+    "doi": "10.1515/bmc-2022-0006",
+    "title": "The epigenetic dimension of protein structure."
+  },
+  "content": {
+    "abstract": "Accurate prediction of protein structure is one of the most challenging goals of biology. The most recent achievement is AlphaFold, a machine learning method that has claimed to have solved the structure of almost all human proteins. This technological breakthrough has been compared to the sequencing of the human genome. However, this triumphal statement should be treated with caution, as we identified serious flaws in some AlphaFold models. Disordered regions are often represented by large loops that clash with the overall protein geometry, leading to unrealistic structures, especially for membrane proteins. In fact, AlphaFold comes up against the notion that protein folding is not solely determined by genomic information. We suggest that all parameters controlling the structure of a protein without being strictly encoded in its amino acid sequence should be coined \"epigenetic dimension of protein structure.\" Such parameters include for instance protein solvation by membrane lipids, or the structuration of disordered proteins upon ligand binding, but exclude sequence-encoded sites of post-translational modifications such as glycosylation. In our view, this paradigm is necessary to reconcile two opposite properties of living systems: beyond rigorous biological coding, evolution has given way to a certain level of uncertainty and anarchy.",
+    "keywords": [
+      "AlphaFold",
+      "Robetta",
+      "intrinsically disordered proteins",
+      "lipid",
+      "membrane",
+      "protein structure"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Epigenesis, Genetic",
+      "Humans",
+      "*Membrane Proteins",
+      "Protein Conformation",
+      "*Protein Folding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Azzaz, Fodil",
+        "Fantini, Jacques"
+      ],
+      "short_names": [
+        "Azzaz F",
+        "Fantini J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8653-5521"
+      ],
+      "affiliations": [
+        "Department of Biology, Aix-Marseille Universite and INSERM UMR_S 1072, Marseille, France.",
+        "Department of Biology, Aix-Marseille Universite and INSERM UMR_S 1072, Marseille, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Azzaz, Fodil",
+        "short_name": "Azzaz F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Aix-Marseille Université and INSERM UMR_S 1072, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Fantini, Jacques",
+        "short_name": "Fantini J",
+        "identifiers": [
+          "0000-0001-8653-5521"
+        ],
+        "affiliations": [
+          "Department of Biology, Aix-Marseille Université and INSERM UMR_S 1072, Marseille, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecular concepts"
+    ],
+    "journal_abbrev": [
+      "Biomol Concepts"
+    ],
+    "pub_date": "2022 Feb 21",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/22 06:00",
+    "fetched_at": "2026-09-20 08:31:55"
+  },
+  "links": {
+    "cites": [
+      "42382599",
+      "41598273",
+      "41594651",
+      "39941940",
+      "38833116",
+      "38541606",
+      "37484534",
+      "36551250",
+      "36423140",
+      "36291736",
+      "35629783"
+    ],
+    "refs": [],
+    "similar": [
+      "35189052",
+      "36291736",
+      "34418423",
+      "34358545",
+      "23912807",
+      "35655760",
+      "36928239",
+      "30819075",
+      "27115638",
+      "36960558",
+      "34390736",
+      "31942072",
+      "34293799",
+      "34087198",
+      "38603560",
+      "31693199",
+      "29716994",
+      "35073311",
+      "27911701",
+      "34116123",
+      "31683980",
+      "34757056",
+      "35769910",
+      "33621244",
+      "34023402",
+      "31756456",
+      "33155649",
+      "35118884",
+      "18611404",
+      "25287424",
+      "29790601",
+      "18004752",
+      "33269926",
+      "34586808",
+      "23076520",
+      "17391016",
+      "34884640",
+      "7919780",
+      "19585006",
+      "29982297",
+      "30527137",
+      "19730682",
+      "26742101",
+      "22108787",
+      "23716602",
+      "34510309",
+      "9719646",
+      "32112804",
+      "29634920",
+      "27548131",
+      "23341186",
+      "20221927",
+      "20887265",
+      "28934129",
+      "17206849",
+      "26851286",
+      "34473923",
+      "26851284",
+      "34469019",
+      "18952168",
+      "28425697",
+      "26598238",
+      "19157855",
+      "31046040",
+      "28952717",
+      "23138868",
+      "21064129",
+      "32304757",
+      "23466039",
+      "29753880",
+      "26618856",
+      "26790343",
+      "20003365",
+      "25138014",
+      "11381529",
+      "8909296",
+      "22101336",
+      "26073260",
+      "19597536",
+      "14579342",
+      "17545177",
+      "36699409",
+      "29208936",
+      "29990433",
+      "31415767",
+      "27004461",
+      "34271008",
+      "28511148",
+      "36513827",
+      "35439658",
+      "36644294",
+      "37060758",
+      "34716446",
+      "39289573",
+      "35757294",
+      "39099834",
+      "37783848",
+      "37726533"
+    ],
+    "review": [
+      "35189052",
+      "34418423",
+      "34358545",
+      "35655760",
+      "34390736",
+      "38603560",
+      "27911701",
+      "34116123",
+      "34757056",
+      "34023402",
+      "33155649",
+      "25287424",
+      "7919780",
+      "29982297",
+      "30527137",
+      "29634920",
+      "27548131",
+      "20887265",
+      "26851286",
+      "18952168",
+      "19157855",
+      "23466039",
+      "29753880",
+      "11381529",
+      "26073260",
+      "19597536",
+      "27004461",
+      "34271008",
+      "28511148",
+      "35439658",
+      "37060758"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.degruyter.com/document/doi/10.1515/bmc-2022-0006",
+        "provider": "De Gruyter",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

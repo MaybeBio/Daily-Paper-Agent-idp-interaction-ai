@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39636939",
+  "title": "Microscopic Origins of Flow Activation Energy in Biomolecular Condensates.",
+  "authors": "Yang, Sean; Banerjee, Priya R; Potoyan, Davit A",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2024-12-05",
+  "window": {
+    "start": "2024-12-02",
+    "end": "2024-12-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过序列分辨粗粒化模拟，揭示生物分子凝聚体中流动活化能的微观起源，阐明sticker-sticker相互作用寿命与竞争性sticker对活化能的影响，为无序蛋白介导的相分离互作机制建模提供可迁移的物理模拟思路。",
+  "abstract": "The material properties of biomolecular condensates govern their dynamics and functions by influencing the molecular diffusion rates and biochemical interactions. A recent report has identified a characteristic timescale of temperature-dependent viscosity in biomolecular condensates arising from an activated dissociation events collectively referred to as flow activation energy. The microscopic origin of this activation energy is a complex function of sequence, stoichiometry, and external conditions. In this study, we elucidate the microscopic origins of flow activation energy in single and multicomponent condensates formed from model peptide sequences with varying \"sticker\" and \"spacer\" motifs, incorporating RNA as a secondary component. We examined how condensate density, RNA stoichiometry, and peptide sequence patterning impact these properties through detailed sequence-resolved coarse-grained simulations. Our findings reveal that flow activation energy is closely tied to the lifetime of sticker-sticker interactions under specific conditions. However, the presence of multiple competing stickers may complicate this relationship leading to frustrated interactions in condensates and lowering of activation energy. The findings of this study should help to create predictive models of material properties of condensates, which in turn can facilitate a more profound understanding of functions and programmable design principles of biomolecular condensates.",
+  "abstract_zh": "生物分子凝聚体的材料性质通过影响分子扩散速率和生化相互作用来调控其动力学与功能。近期一项报告识别出生物分子凝聚体中温度依赖性黏度的特征时间尺度，该尺度源于统称为流动活化能的活化解离事件。此活化能的微观起源是序列、化学计量比及外部条件的复杂函数。在本研究中，我们阐明了由具有不同“粘附子”和“间隔子”基序的模型肽序列形成的单组分和多组分凝聚体中流动活化能的微观起源，并纳入RNA作为次要组分。我们通过详细的序列分辨粗粒化模拟，考察了凝聚体密度、RNA化学计量比及肽序列模式如何影响这些性质。我们的发现表明，流动活化能在特定条件下与粘附子-粘附子相互作用的寿命密切相关。然而，多种竞争性粘附子的存在可能使这一关系复杂化，导致凝聚体中相互作用受阻并降低活化能。本研究的发现应有助于建立凝聚体材料性质的预测模型，进而促进对生物分子凝聚体功能及可编程设计原理的更深入理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39636939/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39636939/",
+  "paper_page_path": "papers/pubmed/39636939/index.html"
+}

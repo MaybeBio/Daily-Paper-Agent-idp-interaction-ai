@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, methods, and supplementary figure/table legends.
+- **Assessment boundary** Scientific validity, technical rigor, and clarity of claims based solely on the provided manuscript text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors define a class of transcripts, termed "smOOPs," identified by semi-extractability and OOPS assays across three developmental stages. They report that smOOPs are longer, form larger foci, have denser RNA-RNA interaction networks, and are distinguished by sequence features, RBP binding, and encoded protein disorder. A deep learning model is used to classify and characterize these transcripts.
+- **Visible evidence base** Main text figures (Figure 1, 2, 3, 4, 5) and supplementary figures (S1-S5) are referenced. Methods sections for cell culture, assays, sequencing, and computational analyses are provided. Data availability statements are included.
+- **Missing materials affecting confidence** Full figure panels and legends are not provided. Detailed statistical outputs, model hyperparameters, and specific numerical results for all analyses are not fully described. The complete list of smOOPs and control transcripts is only in supplementary tables. Validation of the deep learning model on independent datasets is not described.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially valuable resource and a novel conceptual framework for identifying and characterizing condensation-prone RNAs. The integration of multiple transcriptomic assays and a deep learning approach is ambitious and could be of broad interest. However, the current evidence does not fully establish the central claim that smOOPs are a distinct, functionally relevant class of condensation-prone RNAs. Several technical concerns, particularly regarding assay specificity, network analysis controls, and the interpretability of the deep learning model, need to be addressed to strengthen the case.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, RNA biology, phase separation, and developmental biology would be interested. The resource of smOOPs across developmental stages and the computational framework for feature analysis could be useful for those investigating RNA-driven condensation mechanisms and the role of RNA-protein networks in development.
+- **Major strengths** The study combines orthogonal assays (semi-extractability, OOPS) to define a candidate RNA set. The use of a deep learning model to integrate diverse features is a modern and potentially powerful approach. The identification of two distinct clusters with different sequence and protein properties is an interesting finding. The study provides a substantial resource of candidate transcripts and a methodological framework.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that smOOPs are "condensation-prone RNAs" is based on their enrichment in semi-extractability and OOPS assays.
+    - **Evidence pointer** Figure 1, Methods: Semi-extractability and OOPS assays.
+    - **Concern** The specificity of the semi-extractability and OOPS assays for condensation is not sufficiently established. The manuscript does not adequately address how these assays distinguish RNAs in condensates from those in other large RNP complexes, aggregates, or membrane-bound organelles. The OOPS assay relies on UV crosslinking, which has known biases, and the semi-extractability assay may be influenced by RNA length, structure, or association with chromatin. The authors acknowledge UV bias in the discussion but do not provide controls to show that smOOPs are specifically enriched in phase-separated compartments.
+    - **Why it matters** The entire premise of the paper rests on the assumption that these biochemical assays specifically capture condensation-prone RNAs. If the assays are not specific, the definition of smOOPs is not valid, and all downstream analyses are compromised.
+    - **Resolution test** Provide orthogonal evidence that smOOPs are enriched in condensates. This could include co-localization with known condensate markers (e.g., via FISH), validation in an in vitro condensation assay, or demonstration that smOOPs are specifically lost or retained upon disruption of condensates (e.g., using 1,6-hexanediol).
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that smOOPs form "denser RNA-RNA interaction subnetworks than expected" is based on RIC-seq data.
+    - **Evidence pointer** Figure 2, Methods: RIC-seq network inference and analysis.
+    - **Concern** The network analysis uses a degree-matched sub-sampling control. However, the manuscript does not fully describe how this control accounts for other potential confounding factors, such as expression level, transcript length, and subcellular localization. The authors state that degree correlates with expression, but it is unclear if the degree-matched control also matches for these other variables. If not, the observed increased connectivity could be an artifact of these factors rather than a specific property of smOOPs.
+    - **Why it matters** The conclusion that smOOPs are specifically organized into dense interaction networks is a key finding. If the control is inadequate, this conclusion is not supported.
+    - **Resolution test** Perform additional network analyses that explicitly match for expression level, transcript length, and potentially localization. Alternatively, use a more sophisticated null model that preserves multiple network properties simultaneously.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The claim that the deep learning model reveals "characteristic sequence composition" and "specific RBP binding patterns" that define smOOPs.
+    - **Evidence pointer** Figure 3, 4, Methods: Deep learning model architecture, Explaining the trained weights.
+    - **Concern** The interpretability of the deep learning model is limited. The manuscript uses integrated gradients to identify important features, but it is not clear how these importance scores translate into a mechanistic understanding of what makes an RNA condensation-prone. The analysis identifies features like C-richness and RBP binding, but these are correlative. The model does not provide a testable hypothesis for how these features drive condensation.
+    - **Why it matters** For the paper to have a lasting impact, it should provide insights into the principles of RNA-driven condensation. If the model only identifies correlations without mechanistic insight, its value is diminished.
+    - **Resolution test** Use the model's predictions to generate and test specific hypotheses. For example, mutate the identified important sequence elements in a reporter RNA and test its condensation properties. Or, use the model to predict which non-smOOPs could become condensation-prone upon specific perturbations.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Technical soundness
+    - **Claim pointer** The claim that smOOPs encode proteins with "extensive intrinsically disordered regions" and are "markedly predicted to be involved in biomolecular condensates."
+    - **Evidence pointer** Figure 5, Methods: Investigation of the features of proteins encoded by smOOPs.
+    - **Concern** The analysis of protein features is based on predictions (IUPred, PICNIC) and annotations (UniProt). The manuscript does not provide experimental validation that these proteins are indeed disordered or that they localize to condensates. The link between RNA condensation-proneness and protein condensation-proneness is inferred but not directly tested.
+    - **Why it matters** This is a potentially important finding that links RNA and protein properties. However, without experimental validation, it remains a prediction.
+    - **Resolution test** Validate the disordered nature of a few candidate proteins (e.g., by circular dichroism or NMR). Test whether the encoded proteins localize to condensates in cells. Test whether the RNA and protein features act synergistically to drive condensation.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Definition of smOOPs
+    - **Evidence pointer** Abstract, Introduction, Results
+    - **Issue** The term "smOOPs" is used to define the class, but the criteria for inclusion are not fully clear. The text states "semi-extractable and OOPS-enriched," but the exact thresholds and how the two assays are combined are not explicitly stated in the main text.
+    - **Required correction** Clearly state the criteria for defining smOOPs in the Results section, including the specific fold-change and p-value thresholds for both assays.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Deep learning model validation
+    - **Evidence pointer** Methods: Assessing model performance
+    - **Issue** The model's performance is evaluated on a held-out test set from the same data. There is no cross-validation or validation on an independent dataset (e.g., from a different cell type or condition) to assess generalizability.
+    - **Required correction** Add cross-validation or external validation to demonstrate that the model is not overfitting to the specific dataset.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Readability
+    - **Affected element** Figure 1
+    - **Evidence pointer** Figure 1
+    - **Issue** The description of Figure 1 is complex and difficult to follow without seeing the figure. The text mentions "Figure 1B,C" and "Figure S1C" but does not clearly explain what each panel shows.
+    - **Required correction** Provide a more detailed and structured description of the figure panels in the text, or refer to a well-annotated figure legend.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** HCR-FISH analysis
+    - **Evidence pointer** Methods: HCR-FISH image analysis
+    - **Issue** The image analysis method is described briefly. The thresholding and particle analysis parameters are not fully specified, which could affect reproducibility.
+    - **Required correction** Provide more details on the image analysis pipeline, including specific parameters used for background subtraction, thresholding, and particle detection.
+- **Assessment against Nature-style criteria**
+    - **Originality** The concept of systematically identifying condensation-prone RNAs using a combination of biochemical assays and deep learning is novel. The specific definition of "smOOPs" and the two-cluster classification are new contributions.
+    - **Scientific importance** The work addresses a fundamental question in RNA biology and could provide a valuable resource. However, the importance is currently limited by the lack of functional validation and the unresolved specificity of the assays.
+    - **Interdisciplinary readership** The topic is of interest to molecular biologists, biochemists, and computational biologists. The deep learning approach may attract readers from the machine learning community. The manuscript is generally accessible but could be improved with clearer explanations of the computational methods.
+    - **Technical soundness** The experimental and computational methods are mostly sound, but there are significant concerns about assay specificity and the adequacy of the network analysis controls. The deep learning model is well-executed but its interpretability and generalizability are not fully demonstrated.
+    - **Readability for nonspecialists** The abstract and introduction are clear. The results and methods sections are dense and may be challenging for nonspecialists. The use of acronyms (smOOPs, OOPS, RIC-seq) is frequent and could be better managed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept and resource are potentially valuable, but the central claim that smOOPs are a distinct class of condensation-prone RNAs is not fully established from the provided evidence. The authors must address the specificity of their assays, strengthen the network analysis controls, and provide experimental validation of the protein-level predictions.
+
+## Risk / unsupported claims
+- The claim that smOOPs are "condensation-prone" is not fully supported due to the lack of direct evidence that the assays specifically capture condensate-associated RNAs.
+- The claim that smOOPs form "denser RNA-RNA interaction subnetworks than expected" is dependent on the adequacy of the degree-matched control, which is not fully described.
+- The claim that smOOPs encode proteins with high condensation propensity is based on predictions and annotations, not experimental validation.
+- The generalizability of the deep learning model to other cell types or conditions is not demonstrated.
+- The functional relevance of the two smOOPs clusters is not experimentally tested.

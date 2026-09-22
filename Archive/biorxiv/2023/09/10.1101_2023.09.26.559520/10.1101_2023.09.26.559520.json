@@ -1,0 +1,344 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.26.559520",
+  "title": "The structural landscape and diversity of Pyricularia oryzae MAX effectors revisited",
+  "doi": "10.1101/2023.09.26.559520",
+  "abstract": "<h4>ABSTRACT</h4> Magnaporthe AVRs and ToxB-like (MAX) effectors constitute a family of secreted virulence proteins in the fungus Pyricularia oryzae (syn. Magnaporthe oryzae) , which causes blast disease on numerous cereals and grasses. In spite of high sequence divergence, MAX effectors share a common fold characterized by a ß-sandwich core stabilized by a conserved disulfide bond. In this study, we investigated the structural landscape and diversity within the MAX effector repertoire of P. oryzae. Combining experimental protein structure determination and in silico structure modeling we validated the presence of the conserved MAX effector core domain in 77 out of 94 groups of orthologs (OG) identified in a previous population genomic study. Four novel MAX effector structures determined by NMR were in remarkably good agreement with AlphaFold2 (AF2) predictions. Based on the comparison of the AF2-generated 3D models we propose a classification of the MAX effectors superfamily in 20 structural groups that vary in the canonical MAX fold, disulfide bond patterns, and additional secondary structures in N- and C-terminal extensions. About one-third of the MAX family members remain singletons, without strong structural relationship to other MAX effectors. Analysis of the surface properties of the AF2 MAX models also highlights the high variability within the MAX family at the structural level, potentially reflecting the wide diversity of their virulence functions and host targets. <h4>Author summary</h4> MAX effectors are a family of virulence proteins from the plant pathogenic fungus Pyricularia (syn. Magnaporthe) oryzae that share a similar 3D structure despite very low amino-acid sequence identity. Characterizing the function and evolution of these proteins requires a detailed understanding of their structural diversity. With this in mind, we have determined the NMR structures of four new MAX effectors and shown a near-perfect match with the corresponding AlphaFold2 (AF2) models. We then applied a prediction pipeline based on similarity searches with structural modeling using the AF2 software to predict MAX effectors in a collection of 120 P. oryzae genomes. The resulting models and experimental structures revealed that the MAX core while preserved is highly permissive to secondary structure variations and may coexists with extensive structural diversity in terms of structured N- or C-terminal extensions permitting their classification. For a subset of AF2 models, we have also analyzed the physico-chemical properties of the core domain surfaces, adding another, more functional perspective, notably surface electrostatics and stickiness. This work constitutes a major step in understanding the relationships among MAX effectors by analyzing their structural landscape and cataloguing specific physico-chemical properties. It also provides valuable insights for guiding research into the putative targets of these effectors in infected plant hosts.",
+  "authors": [
+    "Lahfa M",
+    "Barthe P",
+    "De Guillen K",
+    "Cesari S",
+    "Raji M",
+    "Kroj T",
+    "Le Naour--Vernet M",
+    "Hoh F",
+    "Gladieux P",
+    "Roumestand C",
+    "Gracy J",
+    "Declerck N",
+    "Padilla A"
+  ],
+  "published_date": "2023-09-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.26.559520",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.26.559520.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR732857",
+    "raw_record": {
+      "id": "PPR732857",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR732857"
+        ]
+      },
+      "doi": "10.1101/2023.09.26.559520",
+      "title": "The structural landscape and diversity of  <i>Pyricularia oryzae</i>  MAX effectors revisited",
+      "authorString": "Lahfa M, Barthe P, De Guillen K, Cesari S, Raji M, Kroj T, Le Naour--Vernet M, Hoh F, Gladieux P, Roumestand C, Gracy J, Declerck N, Padilla A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lahfa M",
+            "lastName": "Lahfa",
+            "firstName": "Mounia",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2337-3857"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale, Univ Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barthe P",
+            "lastName": "Barthe",
+            "firstName": "Philippe",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4282-6604"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale, Univ Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "De Guillen K",
+            "lastName": "De Guillen",
+            "firstName": "Karine",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale, Univ Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cesari S",
+            "lastName": "Cesari",
+            "firstName": "Stella",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "PHIM Plant Health Institute, Univ Montpellier, INRAE, CIRAD, Institut Agro, IRD, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Raji M",
+            "lastName": "Raji",
+            "firstName": "Mouna",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale, Univ Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kroj T",
+            "lastName": "Kroj",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3752-1788"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "PHIM Plant Health Institute, Univ Montpellier, INRAE, CIRAD, Institut Agro, IRD, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Le Naour--Vernet M",
+            "lastName": "Le Naour--Vernet",
+            "firstName": "Marie",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "PHIM Plant Health Institute, Univ Montpellier, INRAE, CIRAD, Institut Agro, IRD, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoh F",
+            "lastName": "Hoh",
+            "firstName": "François",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale, Univ Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gladieux P",
+            "lastName": "Gladieux",
+            "firstName": "Pierre",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1929-1576"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "PHIM Plant Health Institute, Univ Montpellier, INRAE, CIRAD, Institut Agro, IRD, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roumestand C",
+            "lastName": "Roumestand",
+            "firstName": "Christian",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale, Univ Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gracy J",
+            "lastName": "Gracy",
+            "firstName": "Jérôme",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale, Univ Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Declerck N",
+            "lastName": "Declerck",
+            "firstName": "Nathalie",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale, Univ Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Padilla A",
+            "lastName": "Padilla",
+            "firstName": "André",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale, Univ Montpellier, CNRS UMR 5048, INSERM U 1054, Montpellier, France"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3752-1788"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1929-1576"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2337-3857"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4282-6604"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Magnaporthe AVRs and ToxB-like (MAX) effectors constitute a family of secreted virulence proteins in the fungus  Pyricularia oryzae (syn. Magnaporthe oryzae) , which causes blast disease on numerous cereals and grasses. In spite of high sequence divergence, MAX effectors share a common fold characterized by a ß-sandwich core stabilized by a conserved disulfide bond.  In this study, we investigated the structural landscape and diversity within the MAX effector repertoire of  P. oryzae. Combining experimental protein structure determination and  in silico structure modeling we validated the presence of the conserved MAX effector core domain in 77 out of 94 groups of orthologs (OG) identified in a previous population genomic study. Four novel MAX effector structures determined by NMR were in remarkably good agreement with AlphaFold2 (AF2) predictions. Based on the comparison of the AF2-generated 3D models we propose a classification of the MAX effectors superfamily in 20 structural groups that vary in the canonical MAX fold, disulfide bond patterns, and additional secondary structures in N- and C-terminal extensions. About one-third of the MAX family members remain singletons, without strong structural relationship to other MAX effectors. Analysis of the surface properties of the AF2 MAX models also highlights the high variability within the MAX family at the structural level, potentially reflecting the wide diversity of their virulence functions and host targets.  <h4>Author summary</h4>  MAX effectors are a family of virulence proteins from the plant pathogenic fungus  Pyricularia (syn. Magnaporthe) oryzae that share a similar 3D structure despite very low amino-acid sequence identity. Characterizing the function and evolution of these proteins requires a detailed understanding of their structural diversity. With this in mind, we have determined the NMR structures of four new MAX effectors and shown a near-perfect match with the corresponding AlphaFold2 (AF2) models. We then applied a prediction pipeline based on similarity searches with structural modeling using the AF2 software to predict MAX effectors in a collection of 120  P. oryzae genomes. The resulting models and experimental structures revealed that the MAX core while preserved is highly permissive to secondary structure variations and may coexists with extensive structural diversity in terms of structured N- or C-terminal extensions permitting their classification. For a subset of AF2 models, we have also analyzed the physico-chemical properties of the core domain surfaces, adding another, more functional perspective, notably surface electrostatics and stickiness. This work constitutes a major step in understanding the relationships among MAX effectors by analyzing their structural landscape and cataloguing specific physico-chemical properties. It also provides valuable insights for guiding research into the putative targets of these effectors in infected plant hosts.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "852482",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/28/2023.09.26.559520.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.09.26.559520"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR732857"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR732857&type=FILE&fileName=EMS188820-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS188820",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-09-30",
+      "firstPublicationDate": "2023-09-28",
+      "firstIndexDate": "2023-09-30",
+      "fullTextReceivedDate": "2024-03-16",
+      "hasEvaluations": "N"
+    }
+  }
+}

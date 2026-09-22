@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "41086136",
+    "doi": "10.1021/acs.biomac.5c01118",
+    "title": "Prediction of Physical Characteristics of Disordered Proteins Using Molecular Simulation and Physics-Informed Multiple Machine Learning Strategies."
+  },
+  "content": {
+    "abstract": "We introduce a novel hybrid machine learning (ML) framework to predict the radius of gyration and other conformational properties of intrinsically disordered proteins (IDPs). Our model integrates sequence information with physical features derived from a coarse-grained model validated by experimental data. Specifically, we combine hidden states from sequence-based models with 23 physical features projected into a shared latent space, and apply an attention mechanism that assigns weights to each residue to highlight the most informative regions of the sequence. This attention-guided fusion significantly improves predictive accuracy across multiple metrics, including mean absolute percentage error and mean squared error, while also enhancing confidence in the predictions. We trained and evaluated our models on Brownian dynamics (BD) simulation results for approximately 7000 IDPs from the MobiDB database (each with >99% disorder score). We find that sequence-based models consistently outperform feature-only models, with the GRU achieving the best performance among sequence-only approaches. Moreover, combining sequence and feature information further improves accuracy across all architectures, with the hybrid biGRU model delivering the best overall predictive performance. SHAP analysis reveals the relative importance of physical features, offering model explainability, and guiding feature selection. Notably, using a small number of top features often reduces model complexity and improves generalization. Furthermore, an integrated gradient analysis reveals that in addition to the length of the IDPs, the three parameters (sequence charge and hydropathy decoration parameters (SCD and SHD), and charge asymmetry parameter f*) play a key role in the predictions of ML. Our framework provides a fast, interpretable, and scalable tool for predicting IDP behavior, enabling efficient initial screening prior to costly molecular simulations.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Machine Learning",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Databases, Protein"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Linares Gonzalez, Diego",
+        "Ibrahim, Shahana",
+        "Seth, Swarnadeep",
+        "Atia, George",
+        "Bhattacharya, Aniket"
+      ],
+      "short_names": [
+        "Linares Gonzalez D",
+        "Ibrahim S",
+        "Seth S",
+        "Atia G",
+        "Bhattacharya A"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-9177-6633",
+        "ORCID: 0000-0003-1951-5234",
+        "ORCID: 0000-0001-7271-0704",
+        "ORCID: 0000-0001-7958-9855",
+        "ORCID: 0000-0002-4370-0037"
+      ],
+      "affiliations": [
+        "Department of Electrical and Computer Engineering, University of Central Florida, Orlando, Florida 32816-2385, United States.",
+        "Department of Electrical and Computer Engineering, University of Central Florida, Orlando, Florida 32816-2385, United States.",
+        "Department of Physics, University of Central Florida, Orlando, Florida 32816-2385, United States.",
+        "Department of Electrical and Computer Engineering, University of Central Florida, Orlando, Florida 32816-2385, United States.",
+        "Department of Physics, University of Central Florida, Orlando, Florida 32816-2385, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Linares Gonzalez, Diego",
+        "short_name": "Linares Gonzalez D",
+        "identifiers": [
+          "0009-0005-9177-6633"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of Central Florida, Orlando, Florida 32816-2385, United States."
+        ]
+      },
+      {
+        "full_name": "Ibrahim, Shahana",
+        "short_name": "Ibrahim S",
+        "identifiers": [
+          "0000-0003-1951-5234"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of Central Florida, Orlando, Florida 32816-2385, United States."
+        ]
+      },
+      {
+        "full_name": "Seth, Swarnadeep",
+        "short_name": "Seth S",
+        "identifiers": [
+          "0000-0001-7271-0704"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Central Florida, Orlando, Florida 32816-2385, United States."
+        ]
+      },
+      {
+        "full_name": "Atia, George",
+        "short_name": "Atia G",
+        "identifiers": [
+          "0000-0001-7958-9855"
+        ],
+        "affiliations": [
+          "Department of Electrical and Computer Engineering, University of Central Florida, Orlando, Florida 32816-2385, United States."
+        ]
+      },
+      {
+        "full_name": "Bhattacharya, Aniket",
+        "short_name": "Bhattacharya A",
+        "identifiers": [
+          "0000-0002-4370-0037"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Central Florida, Orlando, Florida 32816-2385, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2025 Nov 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/14 18:29",
+    "fetched_at": "2026-09-17 21:10:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41086136",
+      "23912807",
+      "42014948",
+      "40072940",
+      "41310253",
+      "38053335",
+      "36674958",
+      "40911789",
+      "39504303",
+      "41137856",
+      "41082321",
+      "41644540",
+      "37883249",
+      "33934416",
+      "40570739",
+      "34845619",
+      "42185919",
+      "39555603",
+      "39163306",
+      "37905972",
+      "39105804",
+      "32227994",
+      "42427316",
+      "40360271",
+      "38275091",
+      "32357776",
+      "39718444",
+      "24589355",
+      "32702119",
+      "36641212",
+      "32859072",
+      "42380674",
+      "37241789",
+      "41231651",
+      "30204435",
+      "38018910",
+      "40068541",
+      "38866950",
+      "41053403",
+      "37452752",
+      "41419964",
+      "42169426",
+      "40960922",
+      "40095314",
+      "32696367",
+      "40577645",
+      "35562983",
+      "38165099",
+      "28834051",
+      "41881077",
+      "41957719",
+      "41385825",
+      "40172236",
+      "30091924",
+      "40128232",
+      "40143108",
+      "40131954",
+      "41575322",
+      "42399867",
+      "38507053",
+      "40737706",
+      "40036481",
+      "41642902",
+      "25375525",
+      "38987470",
+      "41756940",
+      "42418518",
+      "34390736",
+      "39196930",
+      "32696355",
+      "42337199",
+      "40998749",
+      "41251282",
+      "38928405",
+      "16796745",
+      "39952928",
+      "38781245",
+      "39499823",
+      "38166858",
+      "38079339",
+      "37442414",
+      "41814305",
+      "42344510",
+      "31375817",
+      "31756456",
+      "32579908",
+      "33078950",
+      "39977663",
+      "39093570",
+      "32034199",
+      "39121059",
+      "40065741",
+      "38222029",
+      "34680048",
+      "42057264",
+      "40652425",
+      "42340103",
+      "30397688",
+      "41670376",
+      "42338018"
+    ],
+    "review": [
+      "41086136",
+      "42014948",
+      "39555603",
+      "37241789",
+      "40068541",
+      "41385825",
+      "42399867",
+      "34390736",
+      "39093570",
+      "32034199"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.5c01118",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

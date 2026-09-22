@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors report a combined ion mobility-mass spectrometry (IM-MS) and molecular dynamics (MD) study of the intrinsically disordered protein COR15A, showing two dominant conformational families in the gas phase, with MD-derived pseudo-collision cross sections matching experimental data and supporting the relevance of gas-phase conformers to natively accessible states.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, MD simulation parameters, SAXS comparison details, statistical analyses, and all figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of IM-MS to a dehydration-responsive intrinsically disordered protein, with a plausible workflow combining experiment and simulation. However, the evidence as presented is insufficient to evaluate the central claims regarding conformational landscape mapping, the correspondence between gas-phase and solution states, and the functional relevance of the observed conformers. The abstract lacks quantitative detail, methodological transparency, and any statistical or validation information.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly LEA proteins and dehydration-responsive systems, would be interested in the methodological combination of IM-MS and MD. The biophysics community focused on conformational ensembles of disordered proteins and the structural biology community using gas-phase techniques would also find relevance. The potential link to dehydration response mechanisms may attract plant stress biology researchers.
+- **Major strengths** The combination of IM-MS with MD-based pseudo-CCS calculation is a sensible approach for comparing gas-phase and solution-derived structural information. The observation of two dominant conformational families with sub-conformers suggests the method can resolve heterogeneity in a disordered protein. The explicit comparison with SAXS-derived structures under functional conditions is a valuable design element.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that MD-derived pseudo-CCS distributions are "highly similar" to experimental IM-MS data, providing "compelling evidence" that gas-phase data correspond to natively accessible states.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract states that MD histograms produce a pCCS distribution "highly similar" to experimental data, but no quantitative measure of similarity is provided. No metrics such as root-mean-square deviation, correlation coefficients, or overlap integrals are given. The term "compelling evidence" is a strong interpretive claim that requires statistical or quantitative support.
+  - **Why it matters** The central conclusion of the paper rests on the correspondence between gas-phase and solution/native states. Without quantitative comparison, the claim that the experimental gas-phase data corresponds to natively accessible states is not established. This is the key translational step that would make the IM-MS results biologically meaningful.
+  - **Resolution test** Provide quantitative similarity metrics between experimental CCS distributions and MD-derived pCCS distributions, including error estimates and statistical tests. Show that the similarity is significantly better than null models or alternative conformational ensembles.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The claim that MD simulations with "elevated temperature for enhanced sampling" were used to explore the conformational landscape.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are given about the MD protocol, including the force field, simulation length, temperature schedule, number of replicas, or convergence criteria. Elevated-temperature enhanced sampling can introduce artifacts if not carefully validated, and the abstract provides no information on how the resulting ensembles were validated or whether they reached equilibrium.
+  - **Why it matters** The reliability of the pCCS distributions depends entirely on the quality and convergence of the MD sampling. Without methodological details, the reader cannot assess whether the simulated ensemble is representative of the true conformational landscape or an artifact of the sampling protocol.
+  - **Resolution test** Provide full MD simulation parameters, convergence analysis, and validation of the enhanced sampling approach. Show that the resulting ensemble is robust to simulation length and initial conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The claim that the approach "permits simultaneous observation of disordered forms as well as conformers populated upon dehydration, allowing insights to dehydration-responsive LEA proteins."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not describe any dehydration experiments or conditions. It is unclear how the IM-MS data relates to dehydration-responsive conformers, as no dehydration state is explicitly mentioned in the experimental design. The connection between the observed gas-phase conformers and dehydration-responsive behavior appears to be inferred rather than demonstrated.
+  - **Why it matters** The functional relevance of the findings to dehydration-responsive LEA proteins is a major selling point of the work. If this connection is not experimentally demonstrated, the claim overreaches the presented evidence and may mislead readers about the biological implications.
+  - **Resolution test** Clearly describe any dehydration conditions used in the experiments, or alternatively reframe the claim to state that the method has potential for such studies rather than claiming it provides insights into dehydration-responsive behavior.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Charge state range
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The charge state range is given as "+5 to+12" with a missing space after "to". This is a formatting issue but also raises a question about whether the charge state distribution was fully resolved and whether all charge states were included in the CCS analysis.
+  - **Required correction** Fix the formatting and clarify whether all charge states from +5 to +12 were used for CCS distribution analysis or only a subset.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** CCS values
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The CCS values are given as "approximately 1200 and 1800 Å2" without error estimates or information on how these values were determined from the distributions. The use of "approximately" is vague for a quantitative technique.
+  - **Required correction** Provide mean CCS values with standard deviations or confidence intervals, and specify how the centers of the conformational families were determined.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** SAXS comparison
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions comparison with SAXS-derived structures but does not state whether the SAXS data were collected under the same conditions as the functional state, what the resolution of the SAXS structures was, or how the comparison was performed.
+  - **Required correction** Provide details on the SAXS data collection conditions, the source of the SAXS-derived structures, and the specific comparison method used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative similarity between experimental and simulated CCS distributions), R1-M2 (MD protocol transparency and validation), R1-M3 (lack of demonstrated dehydration connection)
+- **Assessment against Nature-style criteria** Originality: The application of IM-MS to a dehydration-responsive LEA protein is moderately original, though the general approach of combining IM-MS with MD for disordered proteins is established. Scientific importance: The potential to observe dehydration-responsive conformers is interesting, but the current abstract does not demonstrate this capability, limiting the immediate importance. Interdisciplinary readership: The work could appeal to structural biology, biophysics, and plant stress biology communities, but the abstract does not provide enough context for nonspecialists to appreciate the significance. Technical soundness: Cannot be assessed from the abstract alone; the missing methodological details and quantitative comparisons prevent evaluation. Readability for nonspecialists: The abstract is reasonably clear but uses technical terms without sufficient explanation, and the logical flow from data to conclusions is not fully transparent.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible workflow but lacks the quantitative and methodological detail needed to support the central claims. Supportive if the full manuscript addresses the major concerns regarding quantitative similarity metrics, MD protocol transparency, and the dehydration connection.
+
+## Risk / unsupported claims
+- The claim that MD-derived pCCS distributions are "highly similar" to experimental data is unsupported without quantitative metrics.
+- The claim that gas-phase data "corresponds to natively accessible states" is unsupported without a rigorous comparison to solution-state data.
+- The claim that the approach provides "insights to dehydration-responsive LEA proteins" is unsupported as no dehydration experiments are described.
+- The existence of "two dominant coexisting conformational families" is stated but not quantitatively supported with peak fitting or statistical analysis.
+- The presence of "sub conformers" is mentioned without any evidence or analysis.

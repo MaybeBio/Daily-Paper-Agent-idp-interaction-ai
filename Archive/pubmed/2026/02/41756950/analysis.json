@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41756950",
+  "title": "Unleashed condensation by recurrent mutations of an epigenetic regulator promotes cancer.",
+  "authors": "Song, Yansu; Hao, Yi; Latacz, Maria; Cykowiak, Marta; Kirylczuk, Julia; Quan, Xuebo; Palomba, Francesco; Ni, Songwei; Liu, Linjie; Hu, Jing; Shi, Bi; Posey, Ammon; Li, Qiaoli; Yuan, Haoran; Sun, Jie; Pappu, Rohit; Digman, Michelle A; Huang, Kai; Jiang, Hao",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-02-27",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究揭示ASXL1无序区截短突变通过解除分子内抑制、增强相分离凝聚体形成来驱动白血病，结合生化、生物物理与模拟分析阐明IDR介导PPI/凝聚体调控癌症的机制，与课题高度契合。",
+  "abstract": "The pathological mechanisms and significance for the prevalent hotspot mutations in disordered protein regions are poorly understood. ASXL1 is an obligate co-factor for BAP1 in H2AK119 deubiquitination. ASXL1 mutations are very frequent in myeloid malignancies, and are mostly C-terminal truncating mutations concentrated in a specific disordered region of ASXL1. ASXL1 truncations are gain-of-function mutations that promote myeloid malignancies, but the underlying mechanisms remain poorly understood. Here we show that the frequently truncated mutants of ASXL1 possess an intrinsic property of forming phase-separated biomolecular condensates, and this property is normally suppressed by the frequently deleted regions. A disease-mutant of the endogenous ASXL1 in leukemia cells forms dynamic nuclear co-condensates with other endogenous factors important for gene activation. The ASXL1 disease-mutants can greatly enhance H2A deubiquitination activity of BAP1 in cells and in vitro reconstituted system, enhance myeloid leukemia cell growth, and promote leukemogenesis in a mouse transplant model by turning on myeloid leukemogenic transcriptional programs. However, substitution of residues important for condensation disrupted or impaired all these abilities, suggesting that the condensation property is crucially important for the ASXL1 mutants in promoting cancer. Moreover, we discover that the conserved negative charges in the highly disordered and frequently deleted region on ASXL1 suppress the condensation of the wild type ASXL1. Charge-neutralizing mutations in this region restores condensation of the full-length ASXL1, and are sufficient to turn ASXL1 into a leukemogenic protein. Biochemical, biophysical, and simulation analyses suggest the intramolecular interactions normally mask the N-terminal region in engaging intermolecular interactions required for phase separation, and disease truncations escape from the regulatory interactions and unleash the phase separation property to form nuclear hubs to promote expression of tumorigenic gene programs. Finally, by showing a striking correlation of the mutation frequencies with the condensation properties and leukemogenesis activity for a series of human patient mutations, we suggest that dysregulation of condensation is a central mechanism for ASXL1 mutations in promoting myeloid malignancies. This suggests that dysregulation of condensation may be a key mechanism for some of the prevalent hotspot disease mutations in the disordered proteomes.",
+  "abstract_zh": "无序蛋白区域中常见热点突变的病理机制及其意义目前尚不清楚。ASXL1是BAP1在H2AK119去泛素化中的必需辅助因子。ASXL1突变在髓系恶性肿瘤中非常常见，且大多为集中在ASXL1特定无序区域的C端截短突变。ASXL1截短是促进髓系恶性肿瘤的功能获得性突变，但其潜在机制仍不明确。在此，我们展示了ASXL1的频繁截短突变体具有形成相分离 (phase separation) 生物分子凝聚体的内在特性，而这一特性通常被频繁缺失的区域所抑制。白血病细胞中内源性ASXL1的疾病突变体与其他对基因激活重要的内源性因子形成动态核共凝聚体。ASXL1疾病突变体在细胞和体外重构系统中能显著增强BAP1的H2A去泛素化活性，增强髓系白血病细胞生长，并通过启动髓系白血病转录程序在小鼠移植模型中促进白血病发生。然而，替换对凝聚至关重要的残基会削弱或消除所有这些能力，表明凝聚特性对ASXL1突变体促进癌症至关重要。此外，我们发现ASXL1高度无序且频繁缺失区域中保守的负电荷抑制了野生型ASXL1的凝聚。该区域的电荷中和突变恢复了全长ASXL1的凝聚，并足以将ASXL1转化为白血病蛋白。生化、生物物理和模拟分析表明，分子内相互作用通常掩盖N端区域参与相分离所需的分子间相互作用，而疾病截短突变逃逸了调控性相互作用，释放相分离特性以形成核中心，促进致瘤基因程序的表达。最后，通过展示一系列人类患者突变中突变频率与凝聚特性和白血病发生活性的显著相关性，我们提出凝聚失调是ASXL1突变促进髓系恶性肿瘤的核心机制。这表明凝聚失调可能是无序蛋白质组中某些常见热点疾病突变的关键机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41756950/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41756950/",
+  "paper_page_path": "papers/pubmed/41756950/index.html"
+}

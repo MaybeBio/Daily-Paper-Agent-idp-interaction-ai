@@ -1,0 +1,212 @@
+{
+  "identity": {
+    "pmid": "41225715",
+    "doi": "10.1021/acs.jcim.5c02323",
+    "title": "Mapping Conformational and Kinetic Landscapes of 14-3-3sigma/alpha-Synuclein Assembly via Variational Autoencoders and Markov State Models."
+  },
+  "content": {
+    "abstract": "The interaction between the molecular chaperone 14-3-3sigma and the intrinsically disordered protein alpha-synuclein is implicated in the pathogenesis of Parkinson's disease, yet its dynamic mechanism remains poorly understood at an atomistic level. The inherent flexibility and rugged energy landscape of this complex pose significant challenges to conventional molecular dynamics simulations. Here, we employ an advanced adaptive sampling framework that integrates variational autoencoders (VAEs) and Markov state models (MSMs) to overcome these limitations and obtain comprehensive atomistic insight into the 14-3-3sigma/alpha-synuclein assembly. Our VAE-driven approach iteratively learns a low-dimensional latent space of the system's dynamics, guiding simulations to efficiently explore and sample novel conformations. This strategy successfully captured over 90% of the conformational variance observed in a 17 mus reference trajectory using around 3 mus of simulation time. An MSM constructed from approximately 20 mus of combined simulation data revealed three key metastable states: a highly stable bound complex, a structurally distinct intermediate, and a disordered, largely unbound ensemble. The resulting kinetic model quantitatively characterized the transition pathways, identifying the final bound state as a deep kinetic trap with a dissociation time scale of over 100 mus, confirming its high stability. Furthermore, we elucidated the crucial role of the intermediate state as a primary steppingstone in the dissociation pathway. This work not only provides valuable atomistic insight into a key interaction relevant to neurodegeneration but also establishes the VAE-MSM pipeline as a powerful tool for dissecting the complex mechanisms of disordered protein-protein interactions.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "*14-3-3 Proteins/chemistry/metabolism",
+      "*Markov Chains",
+      "*Molecular Dynamics Simulation",
+      "Kinetics",
+      "Protein Conformation",
+      "Humans",
+      "Protein Binding",
+      "Autoencoder"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chakraborty, Gourav",
+        "Patra, Niladri"
+      ],
+      "short_names": [
+        "Chakraborty G",
+        "Patra N"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-0875-3258",
+        "ORCID: 0000-0002-0331-2670"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Chemical Biology, Indian Institute of Technology (ISM) Dhanbad, Dhanbad-826004, India.",
+        "Department of Chemistry and Chemical Biology, Indian Institute of Technology (ISM) Dhanbad, Dhanbad-826004, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chakraborty, Gourav",
+        "short_name": "Chakraborty G",
+        "identifiers": [
+          "0009-0004-0875-3258"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Indian Institute of Technology (ISM) Dhanbad, Dhanbad-826004, India."
+        ]
+      },
+      {
+        "full_name": "Patra, Niladri",
+        "short_name": "Patra N",
+        "identifiers": [
+          "0000-0002-0331-2670"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Indian Institute of Technology (ISM) Dhanbad, Dhanbad-826004, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Dec 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/13 06:30",
+    "fetched_at": "2026-09-17 21:54:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41225715",
+      "40521689",
+      "37108059",
+      "37382437",
+      "27588692",
+      "38857533",
+      "37114769",
+      "25625937",
+      "40853068",
+      "29715424",
+      "38018910",
+      "29990433",
+      "39555603",
+      "29364151",
+      "34800961",
+      "22947936",
+      "32145946",
+      "34869602",
+      "23705683",
+      "29474075",
+      "36472885",
+      "41129692",
+      "39753544",
+      "29642031",
+      "26134632",
+      "23912807",
+      "37027313",
+      "24552877",
+      "32640825",
+      "34600140",
+      "40878020",
+      "33719460",
+      "39046235",
+      "26553504",
+      "38859575",
+      "22506277",
+      "34015255",
+      "22747188",
+      "32623047",
+      "31903719",
+      "39175373",
+      "31560849",
+      "29874605",
+      "36379279",
+      "40532196",
+      "39462994",
+      "29633780",
+      "30917651",
+      "35543707",
+      "30327139",
+      "29704492",
+      "30957116",
+      "19908375",
+      "39868549",
+      "23607785",
+      "32747735",
+      "33581430",
+      "33345970",
+      "41252524",
+      "30184304",
+      "39984297",
+      "30917118",
+      "30577777",
+      "40994307",
+      "39360688",
+      "32192337",
+      "29451381",
+      "31477241",
+      "28075555",
+      "26574199",
+      "35950933",
+      "15643843",
+      "36278939",
+      "23583776",
+      "38826699",
+      "31699336",
+      "30771181",
+      "39984300",
+      "38294935",
+      "30047198",
+      "33759131",
+      "39504036",
+      "40289377",
+      "30479124",
+      "27875868",
+      "35130691",
+      "39588651",
+      "30933517",
+      "39980393",
+      "28437473",
+      "39982680",
+      "25139280",
+      "32324998",
+      "25950981",
+      "34551528",
+      "26723627",
+      "40568771",
+      "29267381",
+      "31554397",
+      "29295994"
+    ],
+    "review": [
+      "41225715",
+      "25625937",
+      "39555603",
+      "29364151",
+      "34600140",
+      "33759131",
+      "25139280",
+      "25950981"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c02323",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

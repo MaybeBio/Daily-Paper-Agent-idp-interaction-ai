@@ -1,0 +1,1111 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.17.643830",
+  "title": "Ultimate paths of least resistance: Intrinsically disordered links as developmental resets in regulatory protein networks",
+  "doi": "10.1101/2025.03.17.643830",
+  "abstract": "Development and evolution require both stability and adaptability, yet how these opposite properties are reconciled is unclear. Here, we show that intrinsically disordered proteins (IDPs) act as reset mechanisms in conserved regulatory networks facilitating developmental transitions by integrating physical processes with genetic regulation. By tracing the ontogeny of mesenchymal cells in avian beak primordia, we demonstrate that mechanosensitive IDPs mediate shifts between physical cell states via dosage-dependent binding plasticity, converting stochastic protein variation into discreet regulatory networks. The disorder-enabled connectivity in these proteins resets their regulatory specialization and promotes population divergence. Comparative analyses across avian proteomes confirm that binding plasticity in transcriptional IDPs drives their diverse regulatory associations and accelerates their evolution. By resetting specialized states in conserved regulatory networks, IDPs flexibly regulate developmental pathways and reconcile precision with evolvability.",
+  "authors": [
+    "Alexander V. Badyaev",
+    "Carmen Sánchez Moreno",
+    "Cody A. Lee",
+    "Sarah E. Britton",
+    "Laurel M. Johnstone",
+    "Renée A. Duckworth"
+  ],
+  "published_date": "2025-03-18",
+  "updated_date": "2025-03-19T17:19:37Z",
+  "journal": "bioRxiv",
+  "category": "Evolutionary Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643830",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.17.643830.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Evolutionary Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Evolutionary Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T06:02:49Z",
+        "timestamp": 1782280969865,
+        "version": "3.54.5"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            18
+          ]
+        ]
+      },
+      "group-title": "Evolutionary Biology",
+      "reference-count": 164,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                18
+              ]
+            ],
+            "date-time": "2025-03-18T00:00:00Z",
+            "timestamp": 1742256000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Development and evolution require both stability and adaptability, yet how these opposite properties are reconciled is unclear. Here, we show that intrinsically disordered proteins (IDPs) act as reset mechanisms in conserved regulatory networks facilitating developmental transitions by integrating physical processes with genetic regulation. By tracing the ontogeny of mesenchymal cells in avian beak primordia, we demonstrate that mechanosensitive IDPs mediate shifts between physical cell states via dosage-dependent binding plasticity, converting stochastic protein variation into discreet regulatory networks. The disorder-enabled connectivity in these proteins resets their regulatory specialization and promotes population divergence. Comparative analyses across avian proteomes confirm that binding plasticity in transcriptional IDPs drives their diverse regulatory associations and accelerates their evolution. By resetting specialized states in conserved regulatory networks, IDPs flexibly regulate developmental pathways and reconcile precision with evolvability.</jats:p>",
+      "DOI": "10.1101/2025.03.17.643830",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            19
+          ]
+        ],
+        "date-time": "2025-03-19T17:19:37Z",
+        "timestamp": 1742404777000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Ultimate paths of least resistance: Intrinsically disordered links as developmental resets in regulatory protein networks"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-0862-9431",
+          "authenticated-orcid": false,
+          "given": "Alexander V.",
+          "family": "Badyaev",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Ecology & Evolutionary Biology, University of Arizona, Tucson, Arizona, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Carmen Sánchez",
+          "family": "Moreno",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Ecology & Evolutionary Biology, University of Arizona, Tucson, Arizona, USA"
+            },
+            {
+              "name": "Department of Molecular and Cellular Biology, University of Arizona, Tucson, AZ, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Cody A.",
+          "family": "Lee",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Ecology & Evolutionary Biology, University of Arizona, Tucson, Arizona, USA"
+            },
+            {
+              "name": "College of Human Medicine, Michigan State University, Grand Rapids, Michigan, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sarah E.",
+          "family": "Britton",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Ecology & Evolutionary Biology, University of Arizona, Tucson, Arizona, USA"
+            },
+            {
+              "name": "Department of Ecology, Behavior and Evolution, University of California, San Diego, California, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Laurel M.",
+          "family": "Johnstone",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Arizona Genetics Core, Research Innovation & Impact Core Facilities, Tucson, Arizona, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Renée A.",
+          "family": "Duckworth",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Ecology & Evolutionary Biology, University of Arizona, Tucson, Arizona, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.1",
+          "unstructured": "Waddington, C. H . The Strategy of the Genes: A Discussion of Some Aspects of Theoretical Biology. (McMillan, 1957)."
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.2",
+          "first-page": "8868",
+          "article-title": "G",
+          "volume": "97",
+          "year": "2000",
+          "journal-title": "Speeding molecular recognition by using the folding funnel: The fly-casting mechanism PNAS"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0301-4622(74)80050-5"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2008.12.003"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.5",
+          "unstructured": "Kirschner, M. & Gerhart, J. C . The Plausibility of Life: Resolving Darwin’s Dilemma. (Yale University Press, 2005)."
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2019.07.011"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2013.03.035"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0065-3233(04)67002-1"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.115"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2024.102892"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1135"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1000243"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/jxb/erx493"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1517-4"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/polym11060990"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature10879"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm.2017.7"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2017.02.007"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.09.017"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2009.04.029"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41580-023-00673-0"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-022-00811-w"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.24",
+          "unstructured": "Dunker, A. K. et al. Protein disorder and the evolution of molecular recognition: theory, predictions and observations. Pac. Symp. Biocomput., 473-484 (1998)."
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.4455"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1169375"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpcb.9b08793"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/bs.pmbts.2019.05.003"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-07004-5"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2011.02.005"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.30294"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2016.11.3200"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-018-06532-3"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms8875"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.30688"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gbe/evx073"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi0602718"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2006.04.016"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.cellbio.042308.113245"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-genet-111523-101929"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1098109"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1525-142X.2009.00371.x"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1206205109"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms4700"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1558-5646.2008.00428.x"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1098095"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature04843"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-017-02037-7"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.49",
+          "unstructured": "Hallgrímsson, B. et al. in Evolvability: A Unifying Concept in Evolutionary Biology? (eds T. F. Hansen , D. Houle , M. Pavličev , & Pélabon C. ) 171–198 (The MIT Press, 2023)."
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ijbiomac.2022.07.203"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.51",
+          "unstructured": "Badyaev, A. V. & Walsh, J. B. in Quantitative Genetics in the Wild (eds A. Charmantier , D. Garant , & L.E.B. Kruuk ) 177-189 (Oxford University Press, 2014)."
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2320413121"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.febslet.2013.04.006"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msp277"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1614787114"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1009629"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2021.12.006"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3389/fphy.2021.666709"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2025.03.05.641736"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.58.1.251"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1917853118"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1088/1478-3975/5/1/015009"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.semcdb.2016.07.029"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rstb.2009.0285"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.65",
+          "first-page": "10285",
+          "article-title": "FInCH: FIJI plugin for automated and scalable whole-image analysis of protein expression and cell morphology",
+          "volume": "13",
+          "year": "2024",
+          "journal-title": "MethodsX"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.66",
+          "unstructured": "Huxley, J. S . Evolution: The Modern Synthesis. (Allen and Unwin, 1942)."
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.67",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cope, E. D . The primary factors of organic evolution. (Open Court Publishing Co., Chicago, 1896).",
+          "DOI": "10.5962/bhl.title.30042"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.68",
+          "unstructured": "Gould, S. J . The Structure of Evolutionary Theory., (Belknap Press, Harvard University Press, 2002)."
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.69",
+          "unstructured": "Riedl, R . Order in Living Organisms: A Systems Analysis of Evolution. (Wiley, 1978)."
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.70",
+          "unstructured": "Wagner, A. Robustness and Evolvability in Living Systems. (Princeton University Press 2005)."
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.71",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Hansen, T. F. & Wagner, G. P. in Evolvability: A Unifying Concept in Evolutionary Biology? (eds T.F. Hansen , D. Houle , M. Pavličev , & C. Pélabon ) 121–146 (The MIT Press, 2023).",
+          "DOI": "10.7551/mitpress/14126.003.0009"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.72",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Kauffman, S. A . The Origins of Order: Self Organization and Selection in Evolution. (Oxford University Press, 1993).",
+          "DOI": "10.1093/oso/9780195079517.001.0001"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.semcdb.2018.05.014"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2408096"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature23473"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1098/rspb.2000.1011"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41559-025-02639-1"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-16938-7"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.79",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2408911"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.80",
+          "unstructured": "Wagner, G. P. & Mezey, J. G. in Modularity in Development and Evolution (eds G. Schlosser & G. P. Wagner ) 338-358 (Chicago University Press, 2004)."
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.81",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrg2949"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.82",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2307/2410734"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.83",
+          "unstructured": "Blows, M. W. & Walsh, B. in Adaptation and Fitness in Animal Populations: Evolutionary and Breeding Perspectives on Genetic Resource Management (eds J. van der Werf , H.-U. Graser , R. Frankham , & C. Gondro ) 83-101 (Springer Netherlands, 2009)."
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.84",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1046/j.1525-142X.2001.003002073.x"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.85",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Arthur, W . Biased Embryos and Evolution. (Cambridge University Press, 2004).",
+          "DOI": "10.1017/CBO9780511606830"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.86",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1534/genetics.118.300995"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.87",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature12142"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.88",
+          "unstructured": "Schmalhausen, I. I . Organism as a Whole in Individual Development and History. (Academy of Sciences, USSR, 1938)."
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.89",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0959-440X(02)00289-0"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.90",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.46883"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.91",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/gbe/evv105"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.92",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1007186"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.93",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00239-001-2309-6"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.94",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-ecolsys-110617-062339"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.95",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1908803117"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.96",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmat4357"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.97",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41567-018-0089-9"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.98",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq973"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.99",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-024-07487-W"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.100",
+          "doi-asserted-by": "crossref",
+          "first-page": "176",
+          "DOI": "10.1002/prot.20735",
+          "article-title": "Exploiting heterogeneous sequence properties improves predictions of protein disorder",
+          "volume": "61",
+          "year": "2005",
+          "journal-title": "Proteins Struct. Funct. Bioinformatics"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.101",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/1097-0134(20010101)42:1<38::AID-PROT50>3.0.CO;2-3"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.102",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-7-208"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.103",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbapap.2010.01.011"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.104",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti541"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.105",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2005.01.071"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.106",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/cpbi.99)"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.107",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky384"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.108",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks1226"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.109",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-022-04599-w"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.110",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms22094321"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.111",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1749-799X-5-37"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.112",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.22203/eCM.v028a19"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.113",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/03008207.2016.1183667"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.114",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M500608200"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.115",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.01564"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.116",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbrc.2005.06.041"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.117",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms221910459"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.118",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7150/ijbs.2929"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.119",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/cells8090969"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.120",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wu, M. , Wu, S. , Chen, W. & Li, Y.-P. The roles and regulatory mechanisms of TGF-β and BMP signaling in bone and cartilage development, homeostasis and disease. Cell Res In press, 1–23 (2024).",
+          "DOI": "10.1038/s41422-023-00918-9"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.121",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ydbio.2018.05.002"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.122",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/j.1365-2184.2010.00682.x"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.123",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bone.2007.01.005"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.124",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cellsig.2007.11.011"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.125",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.02546"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.126",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.002709"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.127",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.13.16.2072"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.128",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ydbio.2010.11.004"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.129",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-03-1952"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.130",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jcs.00623"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.131",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/J.JOCA.2015.11.021"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.132",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gep.2008.12.009"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.133",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.21873/anticanres.14617"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.134",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3892/ijmm.2022.5131"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.135",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1011480108"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.136",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/abbs/gmr079"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.137",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/cr.2010.159"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.138",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/dev.052324"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.139",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00774-022-01388-6"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.140",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/jnc.12464"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.141",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ydbio.2007.04.043"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.142",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M702391200"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.143",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s40610-017-0059-5"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.144",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M305312200"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.145",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcp.20923"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.146",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00441-014-2010-x"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.147",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bies.201200061"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.148",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/term.1744"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.149",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cb400713v"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.150",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pgen.1004479"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.151",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Long, F. , et al. Ihh signaling is directly required for the osteoblast lineage in the endochondral skeleton. (2004).",
+          "DOI": "10.1242/dev.01006"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.152",
+          "first-page": "40891",
+          "article-title": "A review of hedgehog signaling in cranial bone development",
+          "volume": "4",
+          "year": "2013",
+          "journal-title": "Frontiers in Physiology"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.153",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/dvg.20768"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.154",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/dbio.1998.9181"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.155",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms22147529"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.156",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3390/ijms19103220"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.157",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/dbio.2000.9932"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.158",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1098109"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.159",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/dvdy.20825"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.160",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1098095"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.161",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature04843"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.162",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.ydbio.2004.05.028"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.163",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1206205109"
+        },
+        {
+          "key": "2026041200072616000_2025.03.17.643830v1.164",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/dvdy.21934"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.03.17.643830",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            24
+          ]
+        ],
+        "date-time": "2026-06-24T05:10:20Z",
+        "timestamp": 1782277820000
+      },
+      "score": 82.65245,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.03.17.643830"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            18
+          ]
+        ]
+      },
+      "references-count": 164,
+      "URL": "https://doi.org/10.1101/2025.03.17.643830",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1098/rspb.2025.2393",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            3,
+            18
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

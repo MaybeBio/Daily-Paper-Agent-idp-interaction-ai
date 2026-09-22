@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2602.06779v1",
+  "title": "Radially symmetric transition-layer solutions in mass-conserving reaction-diffusion systems with bistable nonlinearity",
+  "authors": "Xiaoqing He; Quan-Xing Liu; Dong Ye",
+  "journal": "",
+  "published_date": "2026-02-06",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文为质量守恒反应-扩散系统建立径向对称过渡层稳态解的严格数学理论，为相分离/凝聚体模式形成提供定量建模基础，但对象为一般MCRD系统而非具体无序蛋白PPI，方法为数学分析而非AI/物理模拟，故中档。",
+  "abstract": "Mass-conserving reaction-diffusion (MCRD) systems are widely used to model phase separation and pattern formation in cell polarity, biomolecular condensates, and ecological systems. Numerical simulations and formal asymptotic analysis suggest that such models can support stationary patterns with sharp internal interfaces. In this work, we establish for a general class of bistable MCRD systems the existence of nonconstant radially symmetric stationary solutions with a single internal transition layer on an $N$-dimensional ball, for general spatial dimension $N$. Our approach incorporates the global mass constraint directly into a refined matched-asymptotic framework complemented by a uniform spectral/linear analysis. Beyond mere existence, our framework yields arbitrarily high-order asymptotic approximations of the constructed solutions together with quantitative uniform error estimates, which provides a quantitative higher-dimensional theory of transition-layer patterns in MCRD systems and a rigorous justification for their use in modeling phase separation and pattern formation in biological and ecological settings.",
+  "abstract_zh": "质量守恒反应-扩散（MCRD）系统广泛用于模拟细胞极性、生物分子凝聚体和生态系统中的相分离和图案形成。数值模拟和形式渐近分析表明，此类模型可以支持具有尖锐内部界面的稳态图案。在本工作中，我们针对一般类别的双稳态MCRD系统，在$N$维球体上建立了具有单一内部过渡层的非恒定径向对称稳态解的存在性，适用于一般空间维度$N$。我们的方法将全局质量约束直接纳入一个精细的匹配渐近框架，并辅以均匀谱/线性分析。除了单纯的存在性，我们的框架还提供了所构造解的任意高阶渐近近似以及定量均匀误差估计，这为MCRD系统中过渡层图案提供了定量的高维理论，并严格证明了其在生物和生态背景下模拟相分离和图案形成中的适用性。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2602.06779v1",
+  "source_url": "https://arxiv.org/abs/2602.06779v1",
+  "paper_page_path": "papers/arxiv/2602.06779v1/index.html"
+}

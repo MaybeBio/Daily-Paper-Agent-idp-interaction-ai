@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33704061",
+  "title": "Decoding the physical principles of two-component biomolecular phase separation.",
+  "authors": "Zhang, Yaojun; Xu, Bin; Weiner, Benjamin G; Meir, Yigal; Wingreen, Ned S",
+  "journal": "eLife",
+  "published_date": "2021-03-12",
+  "window": {
+    "start": "2021-03-08",
+    "end": "2021-03-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过粗粒化分子动力学模拟和解析理论，研究双组分聚合物（含无序蛋白类体系）特异性结合驱动的相分离物理原理，揭示魔数比效应，直接关联无序蛋白介导的互作与凝聚体机制建模。",
+  "abstract": "Cells possess a multiplicity of non-membrane-bound compartments, which form via liquid-liquid phase separation. These condensates assemble and dissolve as needed to enable central cellular functions. One important class of condensates is those composed of two associating polymer species that form one-to-one specific bonds. What are the physical principles that underlie phase separation in such systems? To address this question, we employed coarse-grained molecular dynamics simulations to examine how the phase boundaries depend on polymer valence, stoichiometry, and binding strength. We discovered a striking phenomenon - for sufficiently strong binding, phase separation is suppressed at rational polymer stoichiometries, which we termed the magic-ratio effect. We further developed an analytical dimer-gel theory that confirmed the magic-ratio effect and disentangled the individual roles of polymer properties in shaping the phase diagram. Our work provides new insights into the factors controlling the phase diagrams of biomolecular condensates, with implications for natural and synthetic systems.",
+  "abstract_zh": "细胞拥有多种非膜结合区室，这些区室通过液-液相分离（liquid-liquid phase separation）形成。这些凝聚体根据需要组装和溶解，以实现核心细胞功能。其中一类重要的凝聚体由两种相互关联的聚合物种类组成，它们形成一对一特异性键。此类系统中相分离的物理原理是什么？为解答此问题，我们采用粗粒化分子动力学（molecular dynamics）模拟，考察相边界如何依赖于聚合物价态、化学计量比和结合强度。我们发现了一个显著现象——当结合足够强时，在合理的聚合物化学计量比下相分离被抑制，我们将其称为“魔数比效应”（magic-ratio effect）。我们进一步开发了一种解析二聚体凝胶理论，该理论证实了魔数比效应，并厘清了聚合物性质在塑造相图中的各自作用。我们的工作为控制生物分子凝聚体相图的因素提供了新见解，对自然和合成系统均有意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33704061/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33704061/",
+  "paper_page_path": "papers/pubmed/33704061/index.html"
+}

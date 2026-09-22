@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, methodological soundness, and interpretation of results as presented in the manuscript
+- **Shared manuscript claim summary** The authors report that human Cdt1 (residues 92–546) is a monomeric, mixed folded/disordered protein in solution, with both folded winged-helix domains in close spatial proximity ("folded-over" conformations), as determined by SEC-SAXS combined with Monte Carlo ensemble modeling, supported by CD, NMR, DLS, and SEC-MALS.
+- **Visible evidence base** Full text including abstract, introduction, experimental procedures, results and discussion, figures referenced (Figures 1–5), tables (Tables 1–2), and supplementary figure/table references
+- **Missing materials affecting confidence** Raw SAXS data and fitting statistics (e.g., χ² values per model, error estimates), SASSIE input parameters and convergence criteria, NMR spectral assignments, full DSF and CD melting curves, and supplementary figures/tables (S1–S5) were not provided in the submitted material
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and understudied question: the solution conformation of the mixed folded/disordered protein Cdt1 in isolation. The combination of orthogonal biophysical techniques is appropriate and the conclusion that Cdt1 adopts monomeric, folded-over conformations is plausible. However, the evidence as presented has several gaps that limit confidence in the central structural claims. The thermal stability data are interpreted as showing both domains are "unstable," but the distinction between global unfolding and domain-specific instability is not rigorously established. The SEC-SAXS modeling relies on a single frame from the elution peak, and the ensemble analysis lacks quantitative validation metrics beyond χ². The NMR data are used to estimate disorder content, but the analysis is qualitative. The manuscript would be strengthened by more detailed presentation of the SAXS fitting statistics, ensemble validation, and a clearer discussion of alternative models that could also fit the data.
+- **Who would be interested in the results, and why** Researchers studying DNA replication licensing, kinetochore-microtubule interactions, and the broader class of mixed folded/disordered proteins. The methodological template combining SEC-SAXS with Monte Carlo ensemble modeling may also interest structural biologists working on intrinsically disordered proteins and multi-domain proteins with flexible linkers.
+- **Major strengths** (1) The study addresses a genuine gap: the structure of full-length/multi-domain Cdt1 in isolation has been understudied. (2) The use of multiple orthogonal techniques (CD, NMR, DLS, SEC-MALS, SEC-SAXS) is commendable and provides complementary views of the protein. (3) The computational modeling approach using SASSIE is appropriate for generating conformational ensembles of proteins with disordered regions. (4) The authors are transparent about limitations, such as the inability to produce full-length Cdt1 and the use of a truncated construct.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural conclusions
+  - **Claim pointer** The authors claim that "the best-fit models have the N-terminal and linker disordered regions extended into the solution and the two folded domains close to each other in apparent 'folded over' conformations."
+  - **Evidence pointer** Results and Discussion section "Ensemble Rigid Body Modeling Suggests the Two Folded Domains of Cdt1 Are Spatially Close to Each Other in 'Closed' Conformations"; Figures 4 and 5; Table 2
+  - **Concern** The ensemble modeling is based on a single SAXS frame from the middle of the SEC peak. The authors do not report how many frames were analyzed, whether the results were consistent across the peak, or how the choice of frame affects the conclusions. Additionally, the χ² filtering threshold (χ² < 3) is not justified, and the authors do not report the distribution of χ² values for the full ensemble or the fraction of models that pass the filter. The center-of-mass analysis (Figure 5) shows a broad distribution of inter-domain distances, and the claim that only distances between 35 and 52 Å fit the data is based on a subset of models, but the statistical significance of this enrichment is not assessed.
+  - **Why it matters** The central structural conclusion of the paper, that Cdt1 adopts folded-over conformations, rests on the ensemble modeling. If the analysis is sensitive to the choice of SAXS frame, the filtering criteria, or the starting model, the conclusion may not be robust. Without quantitative validation, the reader cannot assess whether the folded-over conformations are uniquely supported by the data or merely one of many possible interpretations.
+  - **Resolution test** The authors should provide: (1) analysis of multiple SAXS frames across the SEC peak to demonstrate consistency; (2) justification for the χ² threshold and a report of the full χ² distribution; (3) a comparison of the best-fit ensemble to alternative ensembles (e.g., with different domain orientations or linker flexibilities) to show that folded-over conformations are uniquely favored; (4) error estimates on the inter-domain distance distributions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of thermal stability data
+  - **Claim pointer** The authors state that "thermal stability analyses shows that both folded winged helix domains are unstable" and later interpret this as evidence for the protein's intrinsic instability.
+  - **Evidence pointer** Results and Discussion section "Thermal Denaturation Experiments Demonstrate That Cdt1 Is Unstable"; Figures 2B and 2C; Table S1
+  - **Concern** The thermal denaturation experiments show a single transition for Cdt1, which the authors interpret as both domains unfolding simultaneously. However, the data do not distinguish between a single cooperative unfolding event and two overlapping transitions. The authors do not report deconvolution of the melting curves or provide evidence that the observed transition corresponds to both domains rather than one domain dominating the signal. The claim that "both domains are unstable" is therefore not directly supported by the data.
+  - **Why it matters** The interpretation of Cdt1 as intrinsically unstable is used to support the biological relevance of the folded-over conformations and the hypothesis of conformational regulation. If the thermal stability data do not rigorously establish domain-specific instability, this part of the argument is weakened.
+  - **Resolution test** The authors should either (1) perform deconvolution of the melting curves to resolve potential overlapping transitions, (2) provide domain-specific stability data (e.g., using isolated domains), or (3) temper the claim to state that the construct as a whole shows a single unfolding transition without assigning it to specific domains.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative support for disorder content
+  - **Claim pointer** The authors state that "CD and NMR show that the N-terminal and linker regions are intrinsically disordered" and estimate "approximately 100 strong peaks that correspond to unstructured residues."
+  - **Evidence pointer** Results and Discussion section "Spectroscopic Characterization Demonstrates Significant Intrinsic Disorder in the N-Terminus and Linker Regions"; Figure 2D and 2E
+  - **Concern** The NMR analysis is qualitative. The authors count "approximately 100 strong peaks" but do not provide a rigorous method for distinguishing structured from unstructured residues, nor do they account for peak overlap or the expected number of backbone amide resonances for the construct. The CD analysis provides a secondary structure estimate, but the authors do not report the error on this estimate or how it compares to the expected secondary structure content from the folded domains alone.
+  - **Why it matters** The claim that the N-terminal and linker regions are disordered is a key input to the ensemble modeling. If the disorder content is overestimated, the modeling may bias toward extended conformations that are not representative of the true ensemble.
+  - **Resolution test** The authors should provide a more quantitative analysis of the NMR data, such as a comparison of peak counts to the expected number of resonances, or use of a chemical shift-based disorder prediction. For CD, they should report the error on the secondary structure estimates and discuss how the estimates compare to the folded domain content.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of construct description
+  - **Affected element** Introduction and Experimental Procedures
+  - **Evidence pointer** Introduction, first paragraph; Experimental Procedures, "Cloning and Molecular Biology"
+  - **Issue** The manuscript refers to "Cdt1 92–546" as the construct used, but the rationale for choosing this construct (rather than full-length 1–546) is only briefly mentioned in the Results. The N-terminal 1–92 region is described as disordered and protease-sensitive, but the authors do not explicitly state whether this region was excluded to improve stability or for other reasons.
+  - **Required correction** Add a sentence in the Introduction or Experimental Procedures explicitly stating the rationale for using residues 92–546 and whether full-length Cdt1 was attempted.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality and accessibility
+  - **Affected element** Figures 2 and 3
+  - **Evidence pointer** Results and Discussion, Figures 2 and 3
+  - **Issue** The figures are referenced but not provided in the submitted material. Based on the text, Figure 2E (NMR spectrum) and Figure 3C (SAXS scattering) would benefit from clear labeling of key features (e.g., peak dispersion regions, Guinier region).
+  - **Required correction** Ensure figures are self-explanatory with clear labels and legends, and consider adding annotations to highlight the features discussed in the text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Discussion of alternative interpretations
+  - **Affected element** Results and Discussion, "Ensemble Rigid Body Modeling" subsection
+  - **Evidence pointer** Results and Discussion, fourth subsection
+  - **Issue** The authors discuss why extended conformations do not fit the data, but they do not discuss whether other compact conformations (e.g., with different relative orientations of the WH domains) could also fit. The term "folded-over" implies a specific geometry, but the resolution of SAXS may not distinguish between different compact arrangements.
+  - **Required correction** Add a brief discussion of the range of compact conformations that are consistent with the data and whether the term "folded-over" is the most accurate description.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results and Discussion, thermal stability and DLS sections
+  - **Evidence pointer** Results and Discussion, "Thermal Denaturation" and "Hydrodynamic" subsections
+  - **Issue** The manuscript reports melting temperatures and hydrodynamic radii without error estimates or the number of replicates for some measurements. For example, the DLS R(h) of 3.7 nm is reported as a single value.
+  - **Required correction** Report the number of replicates and standard deviations for all quantitative measurements.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (SAXS ensemble modeling validation) and R1-M2 (interpretation of thermal stability data) are the primary technical issues that must be resolved. R1-M3 (quantitative NMR analysis) is also important but less critical if the disorder content is supported by other data.
+- **Assessment against Nature-style criteria** Originality: The study addresses a novel question (solution structure of isolated Cdt1) and provides a methodological template for mixed folded/disordered proteins. Scientific importance: The results have implications for understanding Cdt1's moonlighting functions, but the biological significance is largely speculative and not directly tested. Interdisciplinary readership: The topic is of interest to cell biologists and structural biologists, but the technical detail may limit broader appeal. Technical soundness: The combination of techniques is appropriate, but the quantitative validation of the central modeling claim is insufficient. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., SAXS modeling) assume familiarity with the methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and the overall approach is sound, but the central structural conclusion requires stronger quantitative support.
+
+## Risk / unsupported claims
+- The claim that "both folded winged helix domains are unstable" is not directly supported by the thermal denaturation data, which show a single transition without domain-specific resolution.
+- The claim that the best-fit models represent "folded-over" conformations is based on a single SAXS frame and a filtering threshold that is not justified; the uniqueness of this interpretation is not established.
+- The estimate of "approximately 100 strong peaks" corresponding to unstructured residues in the NMR spectrum is qualitative and not rigorously quantified.
+- The speculation that low thermal stability in vitro could relate to rapid degradation in vivo is presented without direct evidence and should be clearly labeled as hypothesis.
+- The statement that "Cdt1 cannot independently form higher-order oligomers in vitro" is based on the absence of observed oligomers, which is a negative result and should be interpreted with appropriate caution.

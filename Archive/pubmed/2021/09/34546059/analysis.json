@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34546059",
+  "title": "Balanced Solvent Model for Intrinsically Disordered and Ordered Proteins.",
+  "authors": "Mu, Junxi; Pan, Zhengsong; Chen, Hai-Feng",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2021-09-22",
+  "window": {
+    "start": "2021-09-20",
+    "end": "2021-09-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了与ESFF1力场匹配的平衡溶剂模型TIP4P-B，以改进IDP和有序蛋白的MD模拟回旋半径采样，虽聚焦IDP构象采样而非直接PPI机制，但为IDP互作模拟提供了关键方法基础。",
+  "abstract": "Intrinsically disordered proteins (IDPs) have no fixed three-dimensional (3D) structures under physiological conditions, with the content being about 51% in human proteomics. IDPs are associated with many human diseases, such as cancer, diabetes, and neurodegenerative diseases. Because IDPs do not crystallize and have diverse conformers, traditional experimental methods such as crystallization and NMR can hardly capture their conformation ensemble and just provide average structural characters of IDPs. Therefore, molecular dynamics (MD) simulations become a valuable complement to the experimental data. However, the accuracy of molecular dynamics simulation for IDPs depends on the combination of force fields and solvent models. Recently, we released an environment-specific force field (ESFF1) for IDPs, which can well reproduce the local structural properties (such as J-coupling and secondary chemical shifts). However, there is still a large deviation for the radius of gyration (R(g)). Therefore, a solvent model combined with ESFF1 is necessary to capture the local and global characters for IDPs and ordered proteins. Here, we investigated the underestimation or overestimation of the solvent interaction for four solvent models (TIP3P, TIP4P-Ew, TIP4P-D, OPC) under ESFF1 and found the important epsilon parameter of the solvent model to play a key role in scaling R(g). A near-linear relationship between the simulation R(g) and the epsilon parameter was used to develop the new solvent model, named TIP4P-B. The results indicate that the simulated R(g) with TIP4P-B is in better agreement with the experimental observations than the other four solvent models. Simultaneously, TIP4P-B can also maintain the advantages of the ESFF1 force field for the local structural properties. Additionally, TIP4P-B can successfully sample the conformation of ordered proteins. These findings confirm that TIP4P-B is a balanced solvent model and can improve sampling R(g) performance for folded proteins and IDPs.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在生理条件下没有固定的三维（3D）结构，其在人类蛋白质组中的含量约为51%。IDPs 与许多人类疾病相关，如癌症、糖尿病和神经退行性疾病。由于 IDPs 不易结晶且具有多种构象，传统的实验方法如结晶和核磁共振（NMR）难以捕捉其构象集合，只能提供 IDPs 的平均结构特征。因此，分子动力学 (molecular dynamics) 模拟成为实验数据的有价值补充。然而，IDPs 的分子动力学模拟准确性取决于力场和溶剂模型的组合。最近，我们发布了一种针对 IDPs 的环境特异性力场（ESFF1），该力场能很好地再现局部结构特性（如 J-耦合和次级化学位移）。然而，对于回转半径 (R(g)) 仍存在较大偏差。因此，结合 ESFF1 的溶剂模型对于捕捉 IDPs 和有序蛋白质的局部及全局特征至关重要。在此，我们研究了在 ESFF1 下四种溶剂模型（TIP3P、TIP4P-Ew、TIP4P-D、OPC）对溶剂相互作用的低估或高估，并发现溶剂模型的重要 epsilon 参数在缩放 R(g) 中起关键作用。模拟 R(g) 与 epsilon 参数之间的近线性关系被用于开发新的溶剂模型，命名为 TIP4P-B。结果表明，与其他四种溶剂模型相比，使用 TIP4P-B 模拟的 R(g) 与实验观察结果更一致。同时，TIP4P-B 还能保持 ESFF1 力场在局部结构特性方面的优势。此外，TIP4P-B 能成功采样有序蛋白质的构象。这些发现证实 TIP4P-B 是一种平衡的溶剂模型，并能提高折叠蛋白质和 IDPs 的 R(g) 采样性能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34546059/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34546059/",
+  "paper_page_path": "papers/pubmed/34546059/index.html"
+}

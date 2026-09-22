@@ -1,0 +1,315 @@
+{
+  "identity": {
+    "pmid": "38559297",
+    "doi": "10.1021/acscentsci.3c01196",
+    "title": "Molecular Deformation Is a Key Factor in Screening Aggregation Inhibitor for Intrinsically Disordered Protein Tau."
+  },
+  "content": {
+    "abstract": "Direct inhibitor of tau aggregation has been extensively studied as potential therapeutic agents for Alzheimer's disease. However, the natively unfolded structure of tau complicates the structure-based ligand design, and the relatively large surface areas that mediate tau-tau interactions in aggregation limit the potential for identifying high-affinity ligand binding sites. Herein, a group of isatin-pyrrolidinylpyridine derivative isomers (IPP1-IPP4) were designed and synthesized. They are like different forms of molecular \"transformers\". These isatin isomers exhibit different inhibitory effects on tau self-aggregation or even possess a depolymerizing effect. Our results revealed for the first time that the direct inhibitor of tau protein aggregation is not only determined by the previously reported conjugated structure, substituent, hydrogen bond donor, etc. but also depends more importantly on the molecular shape. In combination with molecular docking and molecular dynamics simulations, a new inhibition mechanism was proposed: like a \"molecular clip\", IPP1 could noncovalently bind and fix a tau polypeptide chain at a multipoint to prevent the transition from the \"natively unfolded conformation\" to the \"aggregation competent conformation\" before nucleation. At the cellular and animal levels, the effectiveness of the inhibitor of the IPP1 has been confirmed, providing an innovative design strategy as well as a lead compound for Alzheimer's disease drug development.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chai, Keke",
+        "Yang, Jian",
+        "Tu, Ying",
+        "Wu, Junjie",
+        "Fang, Kang",
+        "Shi, Shuo",
+        "Yao, Tianming"
+      ],
+      "short_names": [
+        "Chai K",
+        "Yang J",
+        "Tu Y",
+        "Wu J",
+        "Fang K",
+        "Shi S",
+        "Yao T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4387-3445",
+        "ORCID: 0000-0003-4630-140X"
+      ],
+      "affiliations": [
+        "School of Chemical Science and Engineering, Shanghai Key Laboratory of Chemical Assessment and Sustainability, Tongji University, Shanghai 200092, China.",
+        "School of Medicine, Shanghai University, Shanghai 200444, China.",
+        "School of Chemical Science and Engineering, Shanghai Key Laboratory of Chemical Assessment and Sustainability, Tongji University, Shanghai 200092, China.",
+        "School of Chemical Science and Engineering, Shanghai Key Laboratory of Chemical Assessment and Sustainability, Tongji University, Shanghai 200092, China.",
+        "School of Chemical Science and Engineering, Shanghai Key Laboratory of Chemical Assessment and Sustainability, Tongji University, Shanghai 200092, China.",
+        "School of Chemical Science and Engineering, Shanghai Key Laboratory of Chemical Assessment and Sustainability, Tongji University, Shanghai 200092, China.",
+        "School of Chemical Science and Engineering, Shanghai Key Laboratory of Chemical Assessment and Sustainability, Tongji University, Shanghai 200092, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chai, Keke",
+        "short_name": "Chai K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Science and Engineering, Shanghai Key Laboratory of Chemical Assessment and Sustainability, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jian",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Medicine, Shanghai University, Shanghai 200444, China."
+        ]
+      },
+      {
+        "full_name": "Tu, Ying",
+        "short_name": "Tu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Science and Engineering, Shanghai Key Laboratory of Chemical Assessment and Sustainability, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Junjie",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Science and Engineering, Shanghai Key Laboratory of Chemical Assessment and Sustainability, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Kang",
+        "short_name": "Fang K",
+        "identifiers": [],
+        "affiliations": [
+          "School of Chemical Science and Engineering, Shanghai Key Laboratory of Chemical Assessment and Sustainability, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Shuo",
+        "short_name": "Shi S",
+        "identifiers": [
+          "0000-0003-4387-3445"
+        ],
+        "affiliations": [
+          "School of Chemical Science and Engineering, Shanghai Key Laboratory of Chemical Assessment and Sustainability, Tongji University, Shanghai 200092, China."
+        ]
+      },
+      {
+        "full_name": "Yao, Tianming",
+        "short_name": "Yao T",
+        "identifiers": [
+          "0000-0003-4630-140X"
+        ],
+        "affiliations": [
+          "School of Chemical Science and Engineering, Shanghai Key Laboratory of Chemical Assessment and Sustainability, Tongji University, Shanghai 200092, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS central science"
+    ],
+    "journal_abbrev": [
+      "ACS Cent Sci"
+    ],
+    "pub_date": "2024 Mar 27",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/04/01 18:42",
+    "fetched_at": "2026-09-22 01:14:46"
+  },
+  "links": {
+    "cites": [
+      "41889760",
+      "41509380",
+      "41428676",
+      "39107835"
+    ],
+    "refs": [
+      "36481599",
+      "35168458",
+      "35147406",
+      "35141810",
+      "34649422",
+      "34472835",
+      "34235259",
+      "34126168",
+      "34115933",
+      "33944571",
+      "33859747",
+      "33428389",
+      "33128896",
+      "33120080",
+      "33048528",
+      "32592429",
+      "32441920",
+      "32130010",
+      "32070362",
+      "31746849",
+      "31244000",
+      "29780451",
+      "29359764",
+      "28984591",
+      "28358034",
+      "28335005",
+      "28219440",
+      "28152568",
+      "27005833",
+      "26936282",
+      "26390242",
+      "25691742",
+      "25387336",
+      "25326800",
+      "23442089",
+      "22913544",
+      "20392114",
+      "20140061",
+      "19432420",
+      "18619417",
+      "18202255",
+      "17985339",
+      "17908042",
+      "17685560",
+      "17088067",
+      "17047358",
+      "15611092",
+      "14975751",
+      "8855335"
+    ],
+    "similar": [
+      "38559297",
+      "18783251",
+      "34649422",
+      "23442089",
+      "36331069",
+      "23912807",
+      "34562674",
+      "36310204",
+      "17081491",
+      "31661961",
+      "34369377",
+      "25206938",
+      "31783644",
+      "25691742",
+      "30259679",
+      "30081240",
+      "27638048",
+      "32691116",
+      "38352474",
+      "29630333",
+      "31073393",
+      "33343298",
+      "37878050",
+      "34032430",
+      "31259310",
+      "31805267",
+      "29944336",
+      "32724104",
+      "34019757",
+      "36768484",
+      "30893872",
+      "27989667",
+      "31865017",
+      "22232002",
+      "17685560",
+      "33662414",
+      "28155596",
+      "17920001",
+      "28833749",
+      "29630971",
+      "32920628",
+      "35131537",
+      "29182053",
+      "33579328",
+      "31770557",
+      "28882313",
+      "30247897",
+      "29988016",
+      "28598836",
+      "32828429",
+      "36332313",
+      "36061732",
+      "37037183",
+      "33322166",
+      "29248553",
+      "25284680",
+      "30853336",
+      "35269542",
+      "32069017",
+      "37585669",
+      "24414310",
+      "33071757",
+      "25093402",
+      "37830541",
+      "21498513",
+      "28841372",
+      "36363654",
+      "32486218",
+      "34152739",
+      "31683063",
+      "31974309",
+      "18725924",
+      "32623047",
+      "32201713",
+      "35167081",
+      "31046642",
+      "30909223",
+      "36375666",
+      "38088006",
+      "29364151",
+      "37865990",
+      "35848028",
+      "34401998",
+      "29472250",
+      "34784549",
+      "22998648",
+      "24733915",
+      "21056617",
+      "36894559"
+    ],
+    "review": [
+      "38559297",
+      "33343298",
+      "28833749",
+      "33071757",
+      "29364151",
+      "34401998"
+    ],
+    "pmc": [
+      "10979476"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38559297/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38559297",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acscii/article-lookup/doi/10.1021/acscentsci.3c01196",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

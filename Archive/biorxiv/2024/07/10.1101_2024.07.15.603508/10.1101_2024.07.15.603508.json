@@ -1,0 +1,198 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.15.603508",
+  "title": "Heterogeneous Slowdown of Dynamics in the Condensate of an Intrinsically Disordered Protein",
+  "doi": "10.1101/2024.07.15.603508",
+  "abstract": "The high concentration of proteins and other biological macromolecules inside biomolecular condensates leads to dense and confined environments, which can affect the dynamic ensembles and the time-scales of the conformational transitions. Here we use atomistic molecular dynamics (MD) simulations of the intrinsically disordered low complexity domain (LCD) of the human fused in sarcoma (FUS) RNA-binding protein to study how self-crowding inside a condensate affects the dynamic motions of the protein. We found a heterogeneous retardation of the protein dynamics in the condensate with respect to the dilute phase, with large-amplitude motions being strongly slowed by up to two orders of magnitude, whereas small-scale motions, such as local backbone fluctuations and side-chain rotations, are less affected. The results support the notion of a liquid-like character of the condensates and show that different protein motions respond differently to the environment.",
+  "authors": [
+    "Saumyak Mukherjee",
+    "Lars V Schäfer"
+  ],
+  "published_date": "2024-07-17",
+  "updated_date": "2024-07-17T20:05:17Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.15.603508",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.15.603508.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T21:51:53Z",
+        "timestamp": 1768513913691,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            17
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                7,
+                17
+              ]
+            ],
+            "date-time": "2024-07-17T00:00:00Z",
+            "timestamp": 1721174400000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            9,
+            12
+          ]
+        ]
+      },
+      "abstract": "<jats:p>The high concentration of proteins and other biological macromolecules inside biomolecular condensates leads to dense and confined environments, which can affect the dynamic ensembles and the time-scales of the conformational transitions. Here we use atomistic molecular dynamics (MD) simulations of the intrinsically disordered low complexity domain (LCD) of the human fused in sarcoma (FUS) RNA-binding protein to study how self-crowding inside a condensate affects the dynamic motions of the protein. We found a heterogeneous retardation of the protein dynamics in the condensate with respect to the dilute phase, with large-amplitude motions being strongly slowed by up to two orders of magnitude, whereas small-scale motions, such as local backbone fluctuations and side-chain rotations, are less affected. The results support the notion of a liquid-like character of the condensates and show that different protein motions respond differently to the environment.</jats:p>",
+      "DOI": "10.1101/2024.07.15.603508",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2024-07-17T20:05:17Z",
+        "timestamp": 1721246717000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Heterogeneous Slowdown of Dynamics in the Condensate of an Intrinsically Disordered Protein"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-2196-3423",
+          "authenticated-orcid": false,
+          "given": "Saumyak",
+          "family": "Mukherjee",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8498-3061",
+          "authenticated-orcid": false,
+          "given": "Lars V",
+          "family": "Schäfer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.07.15.603508",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:43:31Z",
+        "timestamp": 1768459411000
+      },
+      "score": 120.734535,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.07.15.603508"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            17
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.1101/2024.07.15.603508",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jpclett.4c02142",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

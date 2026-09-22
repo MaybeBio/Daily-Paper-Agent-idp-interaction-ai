@@ -1,0 +1,552 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.05.06.442265",
+  "title": "Accurate prediction of protein torsion angles using evolutionary signatures and recurrent neural network",
+  "doi": "10.1101/2021.05.06.442265",
+  "abstract": "The amino acid sequence of a protein contains all the necessary information to specify its shape, which dictates its biological activities. However, it is challenging and expensive to experimentally determine the three-dimensional structure of proteins. The backbone torsion angles, as an important structural constraint, play a critical role in protein structure prediction, and accurately predicting the angles can considerably advance the tertiary structure prediction by accelerating efficient sampling of the large conformational space for low energy structures. On account of the rapid growth of protein databases and striking breakthroughs in deep learning algorithms, computational advances allow us to extract knowledge from large-scale data to address key biological questions. Here we propose evolutionary signatures that are computed from protein sequence profiles, and a deep neural network, termed ESIDEN, that adopts a straightforward architecture of recurrent neural networks with a small number of learnable parameters. The proposed ESIDEN is validated on three benchmark datasets, including D2020, TEST2016/2018, and CASPs datasets. On the D2020, using the combination of the four novel features and basic features, the ESIDEN achieves the mean absolute error (MAE) of 15.7 and 19.8 for ϕ and ψ , respectively. Comparing to the best-so-far methods, we show that the ESIDEN significantly improves the angle ψ by the MAE decrements of more than 3.5 degrees on both TEST2016 and TEST2018 and achieves better MAE of the angle ϕ by decrements of at least 0.3 degrees although it adopts simple architecture and fewer learnable parameters. On fifty-nine template-free modeling targets, the ESIDEN achieves high accuracy by reducing the MAEs by 0.6 and more than 2.3 degrees on average for the torsion angles ϕ and ψ in the CASPs, respectively. Using the predicted torsion angles, we infer the tertiary structures of four representative template-free modeling targets that achieve high precision with regard to the root-mean-square deviation and TM-score by comparing them to the native structures. The results demonstrate that the ESIDEN can make accurate predictions of the torsion angles by leveraging the evolutionary signatures. The proposed evolutionary signatures would be also used as alternative features in predicting residue-residue distance, protein structure, and protein-ligand binding sites. Moreover, the high-precision torsion angles predicted by the ESIDEN can be used to accurately infer protein tertiary structures, and the ESIDEN would potentially pave the way to improve protein structure prediction.",
+  "authors": [
+    "Yong-Chang Xu",
+    "Tian-Jun ShangGuan",
+    "Xue-Ming Ding",
+    "Ngaam J. Cheung"
+  ],
+  "published_date": "2021-05-07",
+  "updated_date": "2021-05-07T20:14:27Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.05.06.442265",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.05.06.442265.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:36:33Z",
+        "timestamp": 1768494993481,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            7
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 47,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                7
+              ]
+            ],
+            "date-time": "2021-05-07T00:00:00Z",
+            "timestamp": 1620345600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            8
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>\n                  The amino acid sequence of a protein contains all the necessary information to specify its shape, which dictates its biological activities. However, it is challenging and expensive to experimentally determine the three-dimensional structure of proteins. The backbone torsion angles, as an important structural constraint, play a critical role in protein structure prediction, and accurately predicting the angles can considerably advance the tertiary structure prediction by accelerating efficient sampling of the large conformational space for low energy structures. On account of the rapid growth of protein databases and striking breakthroughs in deep learning algorithms, computational advances allow us to extract knowledge from large-scale data to address key biological questions. Here we propose evolutionary signatures that are computed from protein sequence profiles, and a deep neural network, termed ESIDEN, that adopts a straightforward architecture of recurrent neural networks with a small number of learnable parameters. The proposed ESIDEN is validated on three benchmark datasets, including D2020, TEST2016/2018, and CASPs datasets. On the D2020, using the combination of the four novel features and basic features, the ESIDEN achieves the mean absolute error (MAE) of 15.7 and 19.8 for\n                  <jats:italic>ϕ</jats:italic>\n                  and\n                  <jats:italic>ψ</jats:italic>\n                  , respectively. Comparing to the best-so-far methods, we show that the ESIDEN significantly improves the angle\n                  <jats:italic>ψ</jats:italic>\n                  by the MAE decrements of more than 3.5 degrees on both TEST2016 and TEST2018 and achieves better MAE of the angle\n                  <jats:italic>ϕ</jats:italic>\n                  by decrements of at least 0.3 degrees although it adopts simple architecture and fewer learnable parameters. On fifty-nine template-free modeling targets, the ESIDEN achieves high accuracy by reducing the MAEs by 0.6 and more than 2.3 degrees on average for the torsion angles\n                  <jats:italic>ϕ</jats:italic>\n                  and\n                  <jats:italic>ψ</jats:italic>\n                  in the CASPs, respectively. Using the predicted torsion angles, we infer the tertiary structures of four representative template-free modeling targets that achieve high precision with regard to the root-mean-square deviation and TM-score by comparing them to the native structures. The results demonstrate that the ESIDEN can make accurate predictions of the torsion angles by leveraging the evolutionary signatures. The proposed evolutionary signatures would be also used as alternative features in predicting residue-residue distance, protein structure, and protein-ligand binding sites. Moreover, the high-precision torsion angles predicted by the ESIDEN can be used to accurately infer protein tertiary structures, and the ESIDEN would potentially pave the way to improve protein structure prediction.\n                </jats:p>",
+      "DOI": "10.1101/2021.05.06.442265",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            7
+          ]
+        ],
+        "date-time": "2021-05-07T20:14:27Z",
+        "timestamp": 1620418467000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Accurate prediction of protein torsion angles using evolutionary signatures and recurrent neural network"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Yong-Chang",
+          "family": "Xu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Tian-Jun",
+          "family": "ShangGuan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Xue-Ming",
+          "family": "Ding",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ngaam J.",
+          "family": "Cheung",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "420",
+          "DOI": "10.1073/pnas.58.2.420",
+          "article-title": "Minimization of polypeptide energy. i. preliminary structures of bovine pancreatic ribonuclease s-peptide",
+          "volume": "58",
+          "year": "1967",
+          "journal-title": "Proc. Natl. Acad. Sci. United States Am"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1219021"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1007/s00214-010-0799-2",
+          "article-title": "Trends in template/fragment-free protein structure prediction",
+          "volume": "128",
+          "year": "2011",
+          "journal-title": "Theor. chemistry accounts"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cheung, N. J. & Yu, W. De novo protein structure prediction using ultra-fast molecular dynamics simulation. PloS ONE 13(2018).",
+          "DOI": "10.1101/262188"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1141",
+          "DOI": "10.1002/prot.25834",
+          "article-title": "Protein structure prediction using multiple deep neural networks in the 13th Critical Assessment of Protein Structure Prediction (CASP13)",
+          "volume": "87",
+          "year": "2019",
+          "journal-title": "Proteins: Struct. Funct. Bioinforma"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "706",
+          "DOI": "10.1038/s41586-019-1923-7",
+          "article-title": "Improved protein structure prediction using potentials from deep learning",
+          "volume": "577",
+          "year": "2020",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1209000109"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "5021",
+          "DOI": "10.1093/bioinformatics/btaa629",
+          "article-title": "OPUS-TASS: a protein backbone torsion angles and secondary structure predictor based on ensemble neural networks",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444998003254"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.10",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Güntert, P. Automated NMR structure calculation with cyana. In Protein NMR Techniques, 353–378 (Springer, 2004).",
+          "DOI": "10.1385/1-59259-809-9:353"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "1668",
+          "DOI": "10.1002/jcc.20290",
+          "article-title": "The Amber biomolecular simulation programs",
+          "volume": "26",
+          "year": "2005",
+          "journal-title": "J. computational chemistry"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "76",
+          "DOI": "10.1002/prot.21408",
+          "article-title": "Real-SPINE: An integrated system of neural networks for real-value prediction of protein structural properties",
+          "volume": "68",
+          "year": "2007",
+          "journal-title": "PROTEINS: Struct. Funct. Bioinforma"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0003400"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bth136"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl489"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "173",
+          "DOI": "10.1006/jmbi.2000.3837",
+          "article-title": "HMMSTR: a hidden Markov model for local sequence-structure correlations in proteins",
+          "volume": "301",
+          "year": "2000",
+          "journal-title": "J. molecular biology"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "504",
+          "DOI": "10.1002/prot.10369",
+          "article-title": "Hidden Markov models that use predicted local structure for fold recognition: alphabets of backbone geometry",
+          "volume": "51",
+          "year": "2003",
+          "journal-title": "Proteins: Struct. Funct. Bioinforma"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "476",
+          "DOI": "10.1002/prot.20435",
+          "article-title": "Protein secondary structure prediction with dihedral angles",
+          "volume": "59",
+          "year": "2005",
+          "journal-title": "PROTEINS: Struct. Funct. Bioinforma"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.19",
+          "first-page": "1",
+          "article-title": "Improving prediction of secondary structure, local backbone angles and solvent accessible surface area of proteins by iterative deep learning",
+          "volume": "5",
+          "year": "2015",
+          "journal-title": "Sci. reports"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx218"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "2673",
+          "DOI": "10.1109/78.650093",
+          "article-title": "Bidirectional recurrent neural networks",
+          "volume": "45",
+          "year": "1997",
+          "journal-title": "IEEE transactions on Signal Process"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.22",
+          "first-page": "1020",
+          "article-title": "Prediction of protein backbone torsion angles using deep residual inception neural networks",
+          "volume": "16",
+          "year": "2018",
+          "journal-title": "IEEE/ACM transactions on computational biology bioinformatics"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Szegedy, C. et al. Going deeper with convolutions. In Proceedings of the IEEE conference on computer vision and pattern recognition, 1–9 (2015).",
+          "DOI": "10.1109/CVPR.2015.7298594"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "He, K. , Zhang, X. , Ren, S. & Sun, J. Identity mappings in deep residual networks. In European conference on computer vision, 630–645 (Springer, 2016).",
+          "DOI": "10.1007/978-3-319-46493-0_38"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "29",
+          "DOI": "10.1186/s12859-018-2031-7",
+          "article-title": "Grid-based prediction of torsion angle probabilities of protein backbone and its application to discrimination of protein intrinsic disorder regions and selection of model structures",
+          "volume": "19",
+          "year": "2018",
+          "journal-title": "BMC bioinformatics"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-018-2065-x"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "2403",
+          "DOI": "10.1093/bioinformatics/bty1006",
+          "article-title": "Improving prediction of protein secondary structure, backbone angles, solvent accessibility and contact numbers by using predicted contact maps and an ensemble of recurrent and residual convolutional neural networks",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "237",
+          "DOI": "10.1016/j.ygeno.2013.05.006",
+          "article-title": "Ppievo: Protein–protein interaction prediction from PSSM based evolutionary information",
+          "volume": "102",
+          "year": "2013",
+          "journal-title": "Genomics"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "360",
+          "DOI": "10.1007/s008940100038",
+          "article-title": "Generation and evaluation of dimension-reduced amino acid parameter representations by artificial neural networks",
+          "volume": "7",
+          "year": "2001",
+          "journal-title": "Mol. modeling annual"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gki402"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty481"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh429"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.34",
+          "first-page": "427",
+          "volume": "72",
+          "year": "2008",
+          "journal-title": "Real-value prediction of backbone torsion angles"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1818"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.38",
+          "unstructured": "Cheung, N. J. , Peter, A. T. J. & Kornmann, B. Leri: a web-server for identifying protein functional networks from evolutionary couplings. bioRxiv."
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "366",
+          "DOI": "10.1002/pro.5560020309",
+          "article-title": "Relationship between sequence conservation and three-dimensional structure in a large family of esterases, lipases, and related proteins",
+          "volume": "2",
+          "year": "1993",
+          "journal-title": "Protein Sci"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "012707",
+          "DOI": "10.1103/PhysRevE.87.012707",
+          "article-title": "Improved contact prediction in proteins: using pseudolikelihoods to infer potts models",
+          "volume": "87",
+          "year": "2013",
+          "journal-title": "Phys. Rev. E"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3769"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0506078102"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi0474822"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.44",
+          "first-page": "857",
+          "article-title": "Stochastic neighbor embedding",
+          "volume": "15",
+          "year": "2002",
+          "journal-title": "Adv. neural information processing systems"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.45",
+          "unstructured": "Paszke, A. et al. Pytorch: An imperative style, high-performance deep learning library. In Advances in neural information processing systems, 8026–8037 (2019)."
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.46",
+          "article-title": "Adam: A method for stochastic optimization",
+          "year": "2014",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2024080523162991000_2021.05.06.442265v2.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "702",
+          "DOI": "10.1002/prot.20264",
+          "article-title": "Scoring function for automated assessment of protein structure template quality",
+          "volume": "57",
+          "year": "2004",
+          "journal-title": "Proteins: Struct. Funct. Bioinforma"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.05.06.442265",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:41:33Z",
+        "timestamp": 1768441293000
+      },
+      "score": 54.054493,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.05.06.442265"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            7
+          ]
+        ]
+      },
+      "references-count": 47,
+      "URL": "https://doi.org/10.1101/2021.05.06.442265",
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            5,
+            7
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42164658",
+  "title": "Exploring and Targeting the Connection of Iron and Copper Homeostasis to Neurodegenerative Diseases.",
+  "authors": "Liu, Xin; Jia, Lin; Wu, Kerong; Chen, Mo; Sun, Jichao; Yang, Chuanbin; Xu, Chengchao; Sun, Jie; Wang, Jigang; Dai, Lingyun",
+  "journal": "MedComm",
+  "published_date": "2026-05-21",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 5,
+  "one_liner_zh": "综述铁铜稳态与神经退行性疾病关联，涉及IDP（Aβ、tau、α-突触核蛋白）与金属蛋白互作及AI应用，但缺乏具体互作机制建模，属综述性工作。",
+  "abstract": "Iron (Fe) and copper (Cu) are vital micronutrients that regulate many critical physiological processes in the human body, with their homeostasis in the central nervous system (CNS) being essential for proper neuronal function. Disruptions in their metabolism and regulatory pathways have been associated with the pathogenesis of various forms of neurodegenerative diseases (NDDs) such as Alzheimer's disease (AD) and Parkinson's disease (PD). Despite growing research on metal homeostasis, the intricate molecular mechanisms that link iron and copper metabolism to the initiation and progression of NDDs remain insufficiently elucidated. In this review, we provide a systematic overview of the metabolic processes of iron and copper in the body and CNS, highlighting their interactions with many metal-binding proteins, including transporters, storage proteins, and important intrinsically disordered proteins (e.g., amyloid beta-protein, tau, and alpha-synuclein) involved in NDDs. We further dissect the downstream effects of metal ion dyshomeostasis on cellular redox balance, neuroinflammation, autophagy, organelle interaction network, and cell death. Additionally, we discuss current therapeutic strategies aimed at targeting iron and copper dyshomeostasis, as well as the emerging role of artificial intelligence in this field of research. By integrating metal metabolism, metal-protein interactions, the effect of metal dyshomeostasis on downstream biological processes, and potential intervention strategies, this review serves as a comprehensive reference for understanding the pathogenesis of NDDs and offers new perspectives for developing effective therapeutics. Overall, this review underscores the significance of reinstating metal balance for the treatment of neurodegeneration.",
+  "abstract_zh": "铁（Fe）和铜（Cu）是调节人体内许多关键生理过程的重要微量营养素，其中枢神经系统（CNS）中的稳态对于正常神经元功能至关重要。其代谢和调控途径的紊乱与多种神经退行性疾病（NDDs）的发病机制相关，如阿尔茨海默病（AD）和帕金森病（PD）。尽管关于金属稳态的研究日益增多，但连接铁和铜代谢与NDDs发生及进展的复杂分子机制仍未得到充分阐明。在本综述中，我们系统概述了铁和铜在人体及中枢神经系统中的代谢过程，重点介绍了它们与多种金属结合蛋白的相互作用，包括转运蛋白、储存蛋白以及参与NDDs的重要固有无序蛋白（如淀粉样β蛋白、tau蛋白和α-突触核蛋白）。我们进一步剖析了金属离子稳态失衡对细胞氧化还原平衡、神经炎症、自噬、细胞器相互作用网络及细胞死亡的下游效应。此外，我们讨论了当前针对铁和铜稳态失衡的治疗策略，以及人工智能在该研究领域中的新兴作用。通过整合金属代谢、金属-蛋白质相互作用、金属稳态失衡对下游生物过程的影响以及潜在干预策略，本综述为理解NDDs的发病机制提供了全面参考，并为开发有效疗法提供了新视角。总体而言，本综述强调了恢复金属平衡对于治疗神经退行性疾病的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42164658/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42164658/",
+  "paper_page_path": "papers/pubmed/42164658/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35876068",
+  "title": "Spliceosomal SL1 RNA binding to U1-70K: the role of the extended RRM.",
+  "authors": "Gopan, Gopika; Ghaemi, Zhaleh; Davis, Caitlin M; Gruebele, Martin",
+  "journal": "Nucleic acids research",
+  "published_date": "2022-07-26",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究剪接体U1-70K蛋白的eRRM（含无序C-IDR）与SL1 RNA结合，用MD模拟揭示侧翼区域通过集体相互作用维持复合物稳定性，虽对象为RNA而非PPI，但无序区域介导结合机制建模思路可迁移至IDR介导的蛋白互作研究。",
+  "abstract": "The RNA recognition motif (RRM) occurs widely in RNA-binding proteins, but does not always by itself support full binding. For example, it is known that binding of SL1 RNA to the protein U1-70K in the U1 spliceosomal particle is reduced when a region flanking the RRM is truncated. How the RRM flanking regions that together with the RRM make up an 'extended RRM' (eRRM) contribute to complex stability and structural organization is unknown. We study the U1-70K eRRM bound to SL1 RNA by thermal dissociation and laser temperature jump kinetics; long-time molecular dynamics simulations interpret the experiments with atomistic resolution. Truncation of the helix flanking the RRM on its N-terminal side, 'N-helix,' strongly reduces overall binding, which is further weakened under higher salt and temperature conditions. Truncating the disordered region flanking the RRM on the C-terminal side, 'C-IDR', affects the local binding site. Surprisingly, all-atom simulations show that protein truncation enhances base stacking interactions in the binding site and leaves the overall number of hydrogen bonds intact. Instead, the flanking regions of the eRRM act in a distributed fashion via collective interactions with the RNA when external stresses such as temperature or high salt mimicking osmotic imbalance are applied.",
+  "abstract_zh": "RNA识别基序（RRM）广泛存在于RNA结合蛋白中，但并非总能单独支持完全结合。例如，已知在U1剪接体颗粒中，当RRM侧翼区域被截短时，SL1 RNA与蛋白U1-70K的结合会减弱。RRM侧翼区域与RRM共同构成“扩展RRM”（eRRM），它们如何促进复合物稳定性和结构组织尚不清楚。我们通过热解离和激光温度跳跃动力学研究结合SL1 RNA的U1-70K eRRM；长时间分子动力学模拟以原子级分辨率解释实验。截短RRM N端侧翼的螺旋（“N-螺旋”）会强烈降低整体结合，在高盐和高温条件下进一步减弱。截短RRM C端侧翼的无序区域（“C-IDR”）影响局部结合位点。令人惊讶的是，全原子模拟显示，蛋白截短增强了结合位点中的碱基堆积相互作用，并保持氢键总数不变。相反，当施加温度或高盐（模拟渗透失衡）等外部应力时，eRRM的侧翼区域通过与RNA的集体相互作用以分布式方式发挥作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35876068/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35876068/",
+  "paper_page_path": "papers/pubmed/35876068/index.html"
+}

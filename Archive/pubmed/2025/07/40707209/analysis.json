@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40707209",
+  "title": "Deciphering Glycan Dynamics through Nonlinear Correlation Analysis.",
+  "authors": "Kato, Koichi; Watanabe, Tokio; Yamaguchi, Takumi",
+  "journal": "Chemical & pharmaceutical bulletin",
+  "published_date": "2025-07-25",
+  "window": {
+    "start": "2025-07-21",
+    "end": "2025-07-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用MD模拟与NMR结合非线性相关分析研究糖链构象动态，虽对象为糖而非IDP，但其动态构象系综与无序蛋白的构象异质性建模思路可迁移，且涉及分子间相互作用机制，故给中档分。",
+  "abstract": "Glycans, as one of the fundamental biomolecules alongside nucleic acids and proteins, play critical roles in biological processes, including glycoprotein folding, transport, degradation, and cell-cell interactions. Despite their biological importance, the structural analysis of glycans remains challenging due to their high flexibility and complex branched structures. This study addresses these challenges by combining molecular dynamics (MD) simulations and NMR spectroscopy to obtain dynamic conformational ensembles of glycans. Nonlinear correlation analyses, specifically Hilbert-Schmidt independence criterion and maximal information coefficient, were applied to decipher the structural dynamics of glycans. The study focused on GM3 trisaccharides and high-mannose glycans (GM9, M9, and M8B), uncovering the roles of glycosidic dihedral angles and intramolecular hydrogen bonds in stabilizing specific conformations. Key correlations between glycosidic linkages and hydrogen bonds were identified, offering insights into the conformational changes that underpin glycan bioactivity. Notably, the removal of specific mannose residues disrupts hydrogen bond networks, expanding conformational space and influencing glycoprotein fate in the endoplasmic reticulum. By integrating MD simulations, NMR validation, and nonlinear multivariate analysis, this study provides a robust framework for understanding glycan structural dynamics. These findings have broad implications for glycoengineering, glycan-based drug discovery, and the design of therapeutics targeting structurally dynamic biomolecules, such as intrinsically disordered proteins.",
+  "abstract_zh": "聚糖（glycans）作为与核酸和蛋白质并列的基本生物分子之一，在生物过程中发挥关键作用，包括糖蛋白折叠、转运、降解以及细胞间相互作用。尽管其具有重要的生物学意义，但由于聚糖的高度灵活性和复杂分支结构，其结构分析仍具挑战性。本研究通过结合分子动力学（molecular dynamics, MD）模拟和核磁共振（NMR）波谱法，获得聚糖的动态构象系综，以应对这些挑战。应用非线性相关分析，特别是希尔伯特-施密特独立性准则（Hilbert-Schmidt independence criterion）和最大信息系数（maximal information coefficient），来解析聚糖的结构动力学。研究聚焦于GM3三糖和高甘露糖聚糖（GM9、M9和M8B），揭示了糖苷二面角和分子内氢键在稳定特定构象中的作用。识别了糖苷键与氢键之间的关键相关性，为理解支撑聚糖生物活性的构象变化提供了见解。值得注意的是，特定甘露糖残基的去除会破坏氢键网络，扩大构象空间，并影响内质网中糖蛋白的命运。通过整合MD模拟、NMR验证和非线性多变量分析，本研究为理解聚糖结构动力学提供了稳健框架。这些发现对糖工程、基于聚糖的药物发现以及靶向结构动态生物分子（如固有无序蛋白）的治疗设计具有广泛意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40707209/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40707209/",
+  "paper_page_path": "papers/pubmed/40707209/index.html"
+}

@@ -1,0 +1,240 @@
+{
+  "identity": {
+    "pmid": "35130441",
+    "doi": "10.1021/acs.jcim.1c01354",
+    "title": "Multiscale Computational Study of the Conformation of the Full-Length Intrinsically Disordered Protein MeCP2."
+  },
+  "content": {
+    "abstract": "The malfunction of the methyl-CpG binding protein 2 (MeCP2) is associated with the Rett syndrome, one of the most common causes of cognitive impairment in females. MeCP2 is an intrinsically disordered protein (IDP), making its experimental characterization a challenge. There is currently no structure available for the full-length MeCP2 in any of the databases, and only the structure of its MBD domain has been solved. We used this structure to build a full-length model of MeCP2 by completing the rest of the protein via ab initio modeling. Using a combination of all-atom and coarse-grained simulations, we characterized its structure and dynamics as well as the conformational space sampled by the ID and transcriptional repression domain (TRD) domains in the absence of the rest of the protein. The present work is the first computational study of the full-length protein. Two main conformations were sampled in the coarse-grained simulations: a globular structure similar to the one observed in the all-atom force field and a two-globule conformation. Our all-atom model is in good agreement with the available experimental data, predicting amino acid W104 to be buried, amino acids R111 and R133 to be solvent-accessible, and having a 4.1% alpha-helix content, compared to the 4% found experimentally. Finally, we compared the model predicted by AlphaFold to our Modeller model. The model was not stable in water and underwent further folding. Together, these simulations provide a detailed (if perhaps incomplete) conformational ensemble of the full-length MeCP2, which is compatible with experimental data and can be the basis of further studies, e.g., on mutants of the protein or its interactions with its biological partners.",
+    "keywords": [],
+    "mesh_terms": [
+      "Female",
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Conformation",
+      "Protein Binding",
+      "Protein Conformation",
+      "Protein Domains",
+      "*Rett Syndrome/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chavez-Garcia, Cecilia",
+        "Henin, Jerome",
+        "Karttunen, Mikko"
+      ],
+      "short_names": [
+        "Chavez-Garcia C",
+        "Henin J",
+        "Karttunen M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8626-3033"
+      ],
+      "affiliations": [
+        "Department of Chemistry, the University of Western Ontario, 1151 Richmond Street, London, Ontario N6A 5B7, Canada.",
+        "The Centre of Advanced Materials and Biomaterials Research, the University of Western Ontario, 1151 Richmond Street, London, Ontario N6A 5B7, Canada.",
+        "Laboratoire de Biochimie Theorique UPR 9080, CNRS and Universite de Paris, Paris 75005, France.",
+        "Department of Chemistry, the University of Western Ontario, 1151 Richmond Street, London, Ontario N6A 5B7, Canada.",
+        "The Centre of Advanced Materials and Biomaterials Research, the University of Western Ontario, 1151 Richmond Street, London, Ontario N6A 5B7, Canada.",
+        "Department of Physics and Astronomy, the University of Western Ontario, 1151 Richmond Street, London, Ontario N6A 3K7, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chávez-García, Cecilia",
+        "short_name": "Chávez-García C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, the University of Western Ontario, 1151 Richmond Street, London, Ontario N6A 5B7, Canada.",
+          "The Centre of Advanced Materials and Biomaterials Research, the University of Western Ontario, 1151 Richmond Street, London, Ontario N6A 5B7, Canada."
+        ]
+      },
+      {
+        "full_name": "Hénin, Jérôme",
+        "short_name": "Hénin J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique UPR 9080, CNRS and Université de Paris, Paris 75005, France."
+        ]
+      },
+      {
+        "full_name": "Karttunen, Mikko",
+        "short_name": "Karttunen M",
+        "identifiers": [
+          "0000-0002-8626-3033"
+        ],
+        "affiliations": [
+          "Department of Chemistry, the University of Western Ontario, 1151 Richmond Street, London, Ontario N6A 5B7, Canada.",
+          "The Centre of Advanced Materials and Biomaterials Research, the University of Western Ontario, 1151 Richmond Street, London, Ontario N6A 5B7, Canada.",
+          "Department of Physics and Astronomy, the University of Western Ontario, 1151 Richmond Street, London, Ontario N6A 3K7, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2022 Feb 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/08 06:00",
+    "fetched_at": "2026-09-20 08:12:06"
+  },
+  "links": {
+    "cites": [
+      "41904596",
+      "40894892",
+      "39431217",
+      "38680556",
+      "37961597",
+      "36628457"
+    ],
+    "refs": [],
+    "similar": [
+      "35130441",
+      "33182787",
+      "33548325",
+      "34845619",
+      "29428602",
+      "31356990",
+      "34439881",
+      "18334558",
+      "22294343",
+      "30906830",
+      "30933517",
+      "30865832",
+      "29421650",
+      "20405910",
+      "11738839",
+      "29573987",
+      "27502833",
+      "36702223",
+      "30840442",
+      "27423742",
+      "26052838",
+      "34358545",
+      "32859072",
+      "26580746",
+      "31756104",
+      "33382616",
+      "32323533",
+      "28139759",
+      "32828471",
+      "33030249",
+      "24970834",
+      "29101034",
+      "27929079",
+      "11035019",
+      "39412378",
+      "15549394",
+      "30865820",
+      "36563129",
+      "27115638",
+      "26195786",
+      "34259536",
+      "33030907",
+      "30673959",
+      "32696369",
+      "33337879",
+      "26742101",
+      "32145192",
+      "30708941",
+      "29990433",
+      "37134270",
+      "30708285",
+      "27844185",
+      "30979035",
+      "29431277",
+      "30372613",
+      "33725442",
+      "30471699",
+      "27420643",
+      "26910732",
+      "34473923",
+      "31601272",
+      "34201262",
+      "14618241",
+      "30528464",
+      "32184088",
+      "26618856",
+      "30184304",
+      "31623284",
+      "26138206",
+      "30230839",
+      "31809054",
+      "31717404",
+      "28914483",
+      "27936491",
+      "26453218",
+      "10944854",
+      "26562397",
+      "25207671",
+      "26574339",
+      "30909517",
+      "34418423",
+      "31241933",
+      "33566618",
+      "32472557",
+      "26735936",
+      "27819658",
+      "28092832",
+      "26575776",
+      "12869202",
+      "36798393",
+      "35575372",
+      "36291736",
+      "32554177",
+      "37546943",
+      "35655760",
+      "39131300",
+      "37060758"
+    ],
+    "review": [
+      "35130441",
+      "11738839",
+      "30840442",
+      "34358545",
+      "32828471",
+      "30708941",
+      "30979035",
+      "30909517",
+      "34418423",
+      "35655760"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/rettsyndrome.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Rett Syndrome"
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.1c01354",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

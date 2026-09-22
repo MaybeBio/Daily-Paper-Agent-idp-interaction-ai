@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "40998749",
+    "doi": "10.1021/acs.jpcb.5c05422",
+    "title": "Statistical Physics-Based Approaches to Model the Function and Complexation of Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Functional classification of intrinsically disordered proteins (IDP) is a challenge due to their low sequence homology and lack of stable tertiary structure. We embrace this challenge to classify a model system of two IDPs horizontal line NCBD and CID horizontal line that have coevolved and for which both ancestral and extant sequences are available, along with quantitative binding data. One of these sequences, NCBD, exhibits partial secondary structure, while the other (CID) remains highly disordered and is highly charged. We classify these sequences using statistical physics-derived sequence-dependent interaction maps that predict distance maps (ensemble average distances between arbitrary residue pairs). We also use sequence-specific dynamic profiles for further comparison. Our findings show that CID proteins can be classified into two major groups due to two distinct types of patterns in their electrostatic interaction maps. Classification of CIDs using nonelectrostatic patterning yields diverging predictions, illustrating the importance of accurately modeling long-range electrostatic interactions. Conversely, the classification of NCBD sequences generally reaches a consensus when physics-based noncharge patterning metrics are applied, along with the dynamical profiles. Furthermore, we used these sequence-dependent metrics and dynamical profiles to quantitatively model the binding affinities between the two IDPs. Surprisingly, we find that multiple physics-based sequence metrics quantitatively recapitulate the binding affinities between CID and NCBD variants, linking sequence composition and patterning to their emergent function. This integrated framework provides a generalizable strategy for classifying IDPs and predicting complexation behavior, offering new avenues for probing sequence-function relationships in disordered protein systems.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/classification",
+      "Static Electricity",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Haider, Austin",
+        "Gaalswyk, Kari",
+        "Houston, Lilianna",
+        "Ose, Nicholas J",
+        "Ozkan, S Banu",
+        "Ghosh, Kingshuk"
+      ],
+      "short_names": [
+        "Haider A",
+        "Gaalswyk K",
+        "Houston L",
+        "Ose NJ",
+        "Ozkan SB",
+        "Ghosh K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9351-3758",
+        "ORCID: 0000-0003-4976-0986"
+      ],
+      "affiliations": [
+        "Department of Molecular and Cellular Biophysics, University of Denver, Denver, Colorado 80210, United States.",
+        "Department of Physics and Astronomy, University of Denver, Denver, Colorado 80210, United States.",
+        "Department of Physics and Astronomy, University of Denver, Denver, Colorado 80210, United States.",
+        "Department of Physics, Arizona State University, Tempe, Arizona 85287, United States.",
+        "Department of Physics, Arizona State University, Tempe, Arizona 85287, United States.",
+        "Department of Molecular and Cellular Biophysics, University of Denver, Denver, Colorado 80210, United States.",
+        "Department of Physics and Astronomy, University of Denver, Denver, Colorado 80210, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Haider, Austin",
+        "short_name": "Haider A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cellular Biophysics, University of Denver, Denver, Colorado 80210, United States."
+        ]
+      },
+      {
+        "full_name": "Gaalswyk, Kari",
+        "short_name": "Gaalswyk K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Denver, Denver, Colorado 80210, United States."
+        ]
+      },
+      {
+        "full_name": "Houston, Lilianna",
+        "short_name": "Houston L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, University of Denver, Denver, Colorado 80210, United States."
+        ]
+      },
+      {
+        "full_name": "Ose, Nicholas J",
+        "short_name": "Ose NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Arizona State University, Tempe, Arizona 85287, United States."
+        ]
+      },
+      {
+        "full_name": "Ozkan, S Banu",
+        "short_name": "Ozkan SB",
+        "identifiers": [
+          "0000-0002-9351-3758"
+        ],
+        "affiliations": [
+          "Department of Physics, Arizona State University, Tempe, Arizona 85287, United States."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Kingshuk",
+        "short_name": "Ghosh K",
+        "identifiers": [
+          "0000-0003-4976-0986"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biophysics, University of Denver, Denver, Colorado 80210, United States.",
+          "Department of Physics and Astronomy, University of Denver, Denver, Colorado 80210, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Oct 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/26 00:30",
+    "fetched_at": "2026-09-17 20:24:10"
+  },
+  "links": {
+    "cites": [
+      "41756953",
+      "41298246"
+    ],
+    "refs": [
+      "41083871",
+      "40403066",
+      "40286867",
+      "40185744",
+      "40133781",
+      "39504303",
+      "39253398",
+      "39105804",
+      "38747347",
+      "38657047",
+      "38383656",
+      "38316988",
+      "38297118",
+      "37796987",
+      "37574787",
+      "37133846",
+      "36726312",
+      "36603581",
+      "36599672",
+      "36472898",
+      "35389981",
+      "35119946",
+      "34932937",
+      "34863777",
+      "34826385",
+      "34716273",
+      "34637756",
+      "34598580",
+      "34115515",
+      "33951452",
+      "33865811",
+      "33767175",
+      "33184256",
+      "32639157",
+      "32357776",
+      "32227994",
+      "32075411",
+      "31375817",
+      "31264965",
+      "30873835",
+      "30501088",
+      "30193467",
+      "29735738",
+      "29604827",
+      "29466338",
+      "29078291",
+      "28497792",
+      "28483149",
+      "28398197",
+      "28288117",
+      "28167781",
+      "26851278",
+      "26568635",
+      "26328871",
+      "26254902",
+      "25565105",
+      "25330965",
+      "23901099",
+      "23745135",
+      "22984159",
+      "22517748",
+      "21998559",
+      "20682272",
+      "20404210",
+      "19851447",
+      "19399253",
+      "18075575",
+      "12271132",
+      "11910019",
+      "11823864",
+      "11025552"
+    ],
+    "similar": [
+      "40998749",
+      "30240067",
+      "21766125",
+      "30397651",
+      "23912807",
+      "33454008",
+      "32357776",
+      "41298246",
+      "33865811",
+      "32426975",
+      "41174305",
+      "35119946",
+      "39504303",
+      "27844185",
+      "22253588",
+      "36674958",
+      "39163306",
+      "38252962",
+      "28398197",
+      "31441158",
+      "30193467",
+      "26851286",
+      "34863777",
+      "32696367",
+      "30913885",
+      "25863585",
+      "41086136",
+      "32639157",
+      "38987470",
+      "41166416",
+      "31683980",
+      "41481439",
+      "33310020",
+      "28365882",
+      "38079339",
+      "30002402",
+      "32403216",
+      "30514761",
+      "28394890",
+      "32345021",
+      "34390736",
+      "25207671",
+      "39074869",
+      "29990433",
+      "40095314",
+      "28076807",
+      "34716273",
+      "30813315",
+      "36917561",
+      "35658083",
+      "35512095",
+      "34259536",
+      "30528464",
+      "39740355",
+      "41534519",
+      "29042212",
+      "28369057",
+      "27936491",
+      "30979035",
+      "40532196",
+      "25375525",
+      "26910732",
+      "38194282",
+      "41082321",
+      "34626492",
+      "25287424",
+      "31874413",
+      "39499823",
+      "35944496",
+      "27503953",
+      "27752679",
+      "35354917",
+      "38166858",
+      "34504009",
+      "32227994",
+      "30413699",
+      "41137856",
+      "31425549",
+      "34845619",
+      "34610267",
+      "36343363",
+      "32859072",
+      "28381244",
+      "26195786",
+      "31375817",
+      "36084347",
+      "29186229",
+      "30968464",
+      "26387101",
+      "31709918",
+      "24329095",
+      "29734867",
+      "36291634",
+      "24532081",
+      "32771522",
+      "30413085",
+      "32135192",
+      "40185744",
+      "32702119",
+      "24606139"
+    ],
+    "review": [
+      "40998749",
+      "35119946",
+      "31441158",
+      "26851286",
+      "25863585",
+      "32403216",
+      "34390736",
+      "39740355",
+      "30979035",
+      "25287424",
+      "31874413",
+      "34610267",
+      "26387101",
+      "31709918",
+      "24532081",
+      "30413085",
+      "32135192"
+    ],
+    "pmc": [
+      "12740113"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40998749/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c05422",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

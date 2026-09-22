@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "42438122",
+    "doi": "10.1021/acsnano.6c02752",
+    "title": "Tyrosine Stickers Regulate Phase Separation and Hierarchical Assembly of Silk Fibroin Nanoclusters."
+  },
+  "content": {
+    "abstract": "Silk proteins are high-performance natural biomaterials whose properties arise from tightly regulated hierarchical self-assembly. Although liquid-liquid phase separation (LLPS) is increasingly recognized as a precursor to silk fiber formation, the residue-level interactions linking phase behavior to downstream assembly remain unclear. Here, we use silk fibroin as a low-complexity model to define how specific amino acids govern phase separation through a sticker-spacer architecture. Bioinformatic analysis reveals that fibroin is intrinsically disordered, with limited sequence diversity, and is dominated by flexible spacers interspersed with tyrosine residues. Coarse-grained single- and multichain simulations show that tyrosine content and patterning control chain compaction, condensate stability, and cluster dynamics. Intermediate tyrosine densities promote dynamic LLPS, whereas insufficient or excessive aromatic content suppresses condensation or drives aggregation-like behavior, identifying tyrosine as the primary sticker residue regulating phase behavior. Experimentally, we modulated tyrosine-mediated interactions using l-arginine. Spectroscopic and colloidal measurements demonstrate that l-arginine disrupts aromatic clustering without global denaturation, inhibiting phase separation, suppressing nanocluster formation, reducing viscosity, and enhancing thermal and colloidal stability. Microscopy and nanoparticle tracking further reveal reversible amorphous condensates and irreversible aggregated nanoassembly states, with tyrosine interactions governing transitions between them. Together, these results establish tyrosine-mediated aromatic interactions as a central molecular driver of fibroin LLPS and hierarchical assembly. By demonstrating that these interactions can be selectively and reversibly regulated, this work provides both a mechanistic framework and a practical strategy for controlling silk self-assembly, informing the design and stabilization of silk-based and synthetic protein biomaterials.",
+    "keywords": [
+      "biomaterials",
+      "intrinsically disordered",
+      "phase separation",
+      "proteins",
+      "silk",
+      "sticker-spacer",
+      "tyrosine"
+    ],
+    "mesh_terms": [
+      "*Fibroins/chemistry",
+      "Phase Separation",
+      "*Tyrosine/chemistry",
+      "Animals",
+      "*Nanoparticles/chemistry",
+      "Bombyx/chemistry",
+      "*Silk/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maraldo, Anton",
+        "Tran, Hien A",
+        "Lebhar, Helene",
+        "Huang, Xiaojing",
+        "Rnjak-Kovacina, Jelena",
+        "Marquis, Christopher"
+      ],
+      "short_names": [
+        "Maraldo A",
+        "Tran HA",
+        "Lebhar H",
+        "Huang X",
+        "Rnjak-Kovacina J",
+        "Marquis C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6121-4676",
+        "ORCID: 0000-0003-1656-7215"
+      ],
+      "affiliations": [
+        "School of Biotechnology and Biomolecular Sciences, University of New South Wales, Sydney, NSW2052, Australia.",
+        "Recombinant Products Facility, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, NSW2052, Australia.",
+        "School of Biomedical Engineering, University of New South Wales, Sydney, NSW2052, Australia.",
+        "School of Biomedical Engineering, University of New South Wales, Sydney, NSW2052, Australia.",
+        "Recombinant Products Facility, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, NSW2052, Australia.",
+        "Molecular Surface Interaction Lab, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, NSW2052, Australia.",
+        "School of Biomedical Engineering, University of New South Wales, Sydney, NSW2052, Australia.",
+        "Tyree Institute of Health Engineering (IHealthE), University of New South Wales, Sydney, NSW2052, Australia.",
+        "School of Biotechnology and Biomolecular Sciences, University of New South Wales, Sydney, NSW2052, Australia.",
+        "Recombinant Products Facility, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, NSW2052, Australia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maraldo, Anton",
+        "short_name": "Maraldo A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology and Biomolecular Sciences, University of New South Wales, Sydney, NSW2052, Australia.",
+          "Recombinant Products Facility, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, NSW2052, Australia.",
+          "School of Biomedical Engineering, University of New South Wales, Sydney, NSW2052, Australia."
+        ]
+      },
+      {
+        "full_name": "Tran, Hien A",
+        "short_name": "Tran HA",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, University of New South Wales, Sydney, NSW2052, Australia."
+        ]
+      },
+      {
+        "full_name": "Lebhar, Helene",
+        "short_name": "Lebhar H",
+        "identifiers": [],
+        "affiliations": [
+          "Recombinant Products Facility, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, NSW2052, Australia."
+        ]
+      },
+      {
+        "full_name": "Huang, Xiaojing",
+        "short_name": "Huang X",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Surface Interaction Lab, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, NSW2052, Australia."
+        ]
+      },
+      {
+        "full_name": "Rnjak-Kovacina, Jelena",
+        "short_name": "Rnjak-Kovacina J",
+        "identifiers": [
+          "0000-0001-6121-4676"
+        ],
+        "affiliations": [
+          "School of Biomedical Engineering, University of New South Wales, Sydney, NSW2052, Australia.",
+          "Tyree Institute of Health Engineering (IHealthE), University of New South Wales, Sydney, NSW2052, Australia."
+        ]
+      },
+      {
+        "full_name": "Marquis, Christopher",
+        "short_name": "Marquis C",
+        "identifiers": [
+          "0000-0003-1656-7215"
+        ],
+        "affiliations": [
+          "School of Biotechnology and Biomolecular Sciences, University of New South Wales, Sydney, NSW2052, Australia.",
+          "Recombinant Products Facility, Mark Wainwright Analytical Centre, University of New South Wales, Sydney, NSW2052, Australia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS nano"
+    ],
+    "journal_abbrev": [
+      "ACS Nano"
+    ],
+    "pub_date": "2026 Jul 28",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/13 06:32",
+    "fetched_at": "2026-09-18 04:57:40"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42438122",
+      "41433062",
+      "41972496",
+      "42167428",
+      "37084706",
+      "40935304",
+      "38761906",
+      "27736062",
+      "41060761",
+      "15638554",
+      "36926854",
+      "41342450",
+      "36181270",
+      "31924052",
+      "32393642",
+      "28820488",
+      "38546977",
+      "38653686",
+      "39614109",
+      "42436074",
+      "41169547",
+      "38347806",
+      "33139563",
+      "29511089",
+      "41804277",
+      "33406825",
+      "27618011",
+      "42315359",
+      "37797553",
+      "42475469",
+      "39855521",
+      "40035478",
+      "39413432",
+      "36791420",
+      "38750918",
+      "41739144",
+      "15132657",
+      "41587927",
+      "27314644",
+      "25677178",
+      "16853228",
+      "23912807",
+      "39922493",
+      "39084421",
+      "11914089",
+      "38526948",
+      "40709791",
+      "38951579",
+      "39342654",
+      "38965780",
+      "15386264",
+      "28603980",
+      "26575529",
+      "31591247",
+      "28065870",
+      "39836923",
+      "22387468",
+      "33259636",
+      "30677520",
+      "34472056",
+      "40753679",
+      "41771308",
+      "29886015",
+      "39548941",
+      "34106723",
+      "12957301",
+      "41457474",
+      "31683683",
+      "36113722",
+      "34931046",
+      "42175893",
+      "23418525",
+      "37042465",
+      "41532502",
+      "33358779",
+      "42361867",
+      "35408547",
+      "33076213",
+      "35796676",
+      "40772702",
+      "25056606",
+      "29961577",
+      "28924037",
+      "42106138",
+      "26756449",
+      "38824391",
+      "38252962",
+      "41415473",
+      "34598580",
+      "19572633",
+      "18629803",
+      "10342769",
+      "31500018",
+      "41524628",
+      "20942397",
+      "38076908",
+      "38245448",
+      "15068584",
+      "32882279",
+      "34693962"
+    ],
+    "review": [
+      "42438122",
+      "38653686",
+      "41587927",
+      "29886015",
+      "36113722"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/ancac3/article-lookup/doi/10.1021/acsnano.6c02752",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

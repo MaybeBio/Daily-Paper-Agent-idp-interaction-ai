@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35913965",
+  "title": "Structural and biophysical properties of FopA, a major outer membrane protein of Francisella tularensis.",
+  "authors": "Nagaratnam, Nirupa; Martin-Garcia, Jose M; Yang, Jay-How; Goode, Matthew R; Ketawala, Gihan; Craciunescu, Felicia M; Zook, James D; Sonowal, Manashi; Williams, Dewight; Grant, Thomas D; Fromme, Raimund; Hansen, Debra T; Fromme, Petra",
+  "journal": "PloS one",
+  "published_date": "2022-08-02",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究通过生物物理与AlphaFold2预测解析FopA膜蛋白的二聚体双结构域组织，其中包含长无序区域连接N端β桶与C端结构域，虽涉及IDR和结构预测，但非PPI机制建模核心，方法以实验为主，AI仅辅助预测。",
+  "abstract": "Francisella tularensis is an extremely infectious pathogen and a category A bioterrorism agent. It causes the highly contagious zoonosis, Tularemia. Currently, FDA approved vaccines against tularemia are unavailable. F. tularensis outer membrane protein A (FopA) is a well-studied virulence determinant and protective antigen against tularemia. It is a major outer membrane protein (Omp) of F. tularensis. However, FopA-based therapeutic intervention is hindered due to lack of complete structural information for membrane localized mature FopA. In our study, we established recombinant expression, monodisperse purification, crystallization and X-ray diffraction (~6.5 A) of membrane localized mature FopA. Further, we performed bioinformatics and biophysical experiments to unveil its structural organization in the outer membrane. FopA consists of 393 amino acids and has less than 40% sequence identity to known bacterial Omps. Using comprehensive sequence alignments and structure predictions together with existing partial structural information, we propose a two-domain organization for FopA. Circular dichroism spectroscopy and heat modifiability assay confirmed FopA has a beta-barrel domain consistent with alphafold2's prediction of an eight stranded beta-barrel at the N-terminus. Small angle X-ray scattering (SAXS) and native-polyacrylamide gel electrophoresis revealed FopA purified in detergent micelles is predominantly dimeric. Molecular density derived from SAXS at 31 A shows putative dimeric N-terminal beta-barrels surrounded by detergent corona and connected to C-terminal domains via flexible linker. Disorder analysis predicts N- and C-terminal domains are interspersed by a long intrinsically disordered region and alphafold2 predicts this region to be largely unstructured. Taken together, we propose a dimeric, two-domain organization of FopA in the outer membrane: the N-terminal beta-barrel is membrane embedded, provides dimerization interface and tethers to membrane extrinsic C-terminal domain via long flexible linker. Structure determination of membrane localized mature FopA is essential to understand its role in pathogenesis and develop anti-tularemia therapeutics. Our results pave the way towards it.",
+  "abstract_zh": "Francisella tularensis是一种极具感染性的病原体，属于A类生物恐怖制剂。它引起高度传染性的人畜共患病——兔热病（Tularemia）。目前，尚无FDA批准的针对兔热病的疫苗。F. tularensis外膜蛋白A（FopA）是一种经过充分研究的毒力决定因子和针对兔热病的保护性抗原。它是F. tularensis的主要外膜蛋白（Omp）。然而，由于缺乏膜定位成熟FopA的完整结构信息，基于FopA的治疗干预受到阻碍。在我们的研究中，我们建立了膜定位成熟FopA的重组表达、单分散纯化、结晶和X射线衍射（约6.5 Å）。此外，我们进行了生物信息学和生物物理实验，以揭示其在外膜中的结构组织。FopA由393个氨基酸组成，与已知细菌Omps的序列同一性低于40%。通过综合序列比对和结构预测，结合现有部分结构信息，我们提出FopA具有两个结构域的组织方式。圆二色光谱和热修饰性实验确认FopA具有一个β-桶结构域，这与alphafold2预测的N端八链β-桶一致。小角X射线散射（SAXS）和天然聚丙烯酰胺凝胶电泳显示，在去污剂胶束中纯化的FopA主要以二聚体形式存在。从SAXS在31 Å处获得的分子密度显示，推测的N端β-桶二聚体被去污剂冠包围，并通过柔性连接子与C端结构域相连。无序性分析预测N端和C端结构域之间穿插着一个长的内在无序区域，而alphafold2预测该区域大部分是无结构的。综合来看，我们提出FopA在外膜中具有二聚体、双结构域的组织方式：N端β-桶嵌入膜中，提供二聚化界面，并通过长柔性连接子锚定到膜外C端结构域。膜定位成熟FopA的结构测定对于理解其在发病机制中的作用以及开发抗兔热病治疗药物至关重要。我们的结果为此铺平了道路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35913965/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35913965/",
+  "paper_page_path": "papers/pubmed/35913965/index.html"
+}

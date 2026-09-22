@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors use coarse-grained (CG) and all-atom (AA) molecular dynamics simulations to show that human islet amyloid polypeptide (hIAPP) oligomers preferentially bind to the boundary between liquid-ordered and liquid-disordered lipid domains, that this binding disrupts lipid acyl chain order and induces beta-sheet formation, and that these events represent early molecular mechanisms of membrane damage in type 2 diabetes pathogenesis.
+- **Visible evidence base** Abstract text only; no simulation parameters, system details, quantitative results, or figures were supplied
+- **Missing materials affecting confidence** Full methods, simulation trajectories, analysis protocols, quantitative metrics (e.g., binding free energies, order parameter changes, beta-sheet content), and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis linking lipid domain boundaries to hIAPP-induced membrane damage. However, the evidence base is limited to a summary of qualitative findings, and the central claims regarding preferential binding, lipid order disruption, and beta-sheet formation cannot be quantitatively evaluated from the supplied material. The mechanistic proposal is reasonable but requires substantial additional evidence to be established.
+- **Who would be interested in the results, and why** Researchers in the fields of amyloid diseases, membrane biophysics, and computational biology would be interested. The work addresses a long-standing question about how hIAPP aggregation damages cell membranes, which is relevant to type 2 diabetes pathology. The focus on lipid raft heterogeneity and domain boundaries may also appeal to those studying membrane organization and its role in protein-membrane interactions.
+- **Major strengths** The study addresses an important and unresolved question in amyloid biology. The use of both CG and AA simulations is appropriate for capturing different scales of membrane behavior. The focus on phase-separated lipid nanodomains is a novel and physiologically relevant angle, as most prior work has used homogeneous membranes.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "hIAPP oligomers preferentially bind to the liquid-ordered and liquid-disordered domain boundary around two hydrophobic residues at L16 and I26"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The claim of preferential binding to the domain boundary is stated without any quantitative comparison to binding on the liquid-ordered or liquid-disordered phases themselves. No binding free energies, residence times, or density profiles are reported. The specific involvement of residues L16 and I26 is asserted but no mutational or energetic analysis is described.  
+  - **Why it matters** Preferential binding is a comparative claim that requires quantitative evidence. Without such data, the reader cannot assess whether the boundary is truly favored over other membrane regions, nor whether L16 and I26 are uniquely important or merely among several contributing residues.  
+  - **Resolution test** Provide quantitative binding metrics (e.g., free energy profiles, contact probabilities, or density maps) comparing boundary versus phase interiors, and show that mutation of L16 and I26 significantly reduces boundary binding relative to wild-type.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Causal inference  
+  - **Claim pointer** "lipid acyl chain order disruption and beta-sheet formation occur upon hIAPP binding to the membrane surface" and "lipid order disruption and surface-induced beta-sheet formation on the lipid domain boundary represent the early molecular events of membrane damage"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports that lipid order disruption and beta-sheet formation occur upon binding, but does not establish a causal or temporal relationship between these events and actual membrane damage. Membrane damage is not defined or measured. The leap from structural changes to a pathogenic mechanism is not supported by the presented evidence.  
+  - **Why it matters** The central hypothesis is that these events are early steps in membrane damage. Without a direct measure of membrane integrity (e.g., pore formation, leakage, or rupture) or a temporal sequence showing that order disruption and beta-sheet formation precede damage, the claim remains speculative.  
+  - **Resolution test** Include simulations or experiments that directly measure membrane damage (e.g., water permeation, lipid flip-flop, or vesicle leakage) and show that the observed structural changes occur before and correlate with damage onset.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Model validity  
+  - **Claim pointer** "phase-separated lipid nanodomains that mimic the highly heterogeneous lipid raft structures of cell membranes"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not specify the lipid composition, the size of the nanodomains, or the timescales simulated. It is unclear whether the CG and AA simulations are consistent with each other in terms of system setup and whether the domain sizes are representative of physiological lipid rafts.  
+  - **Why it matters** The physiological relevance of the model depends on the choice of lipids and domain dimensions. If the domains are too small or the composition is not representative, the conclusions may not transfer to real cell membranes.  
+  - **Resolution test** Provide full system details including lipid types, domain sizes, simulation lengths, and a justification for how these parameters mimic native raft structures. Show convergence of results across CG and AA approaches.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "early molecular events" is used without a clear definition of the timescale or the sequence relative to other known events in hIAPP aggregation.  
+  - **Required correction** Define what is meant by "early" in terms of simulation time or aggregation stage, and clarify how these events relate to the broader aggregation pathway.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Oligomer characterization  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract refers to "hIAPP oligomers" but does not specify the oligomer size, conformation, or how these were prepared in the simulations.  
+  - **Required correction** State the oligomer size(s) studied and the method used to generate or stabilize them.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Generalizability  
+  - **Affected element** Species specificity  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract focuses on hIAPP but does not mention whether any control simulations with non-amyloidogenic peptides (e.g., rat IAPP) were performed to establish specificity.  
+  - **Required correction** Include or mention control simulations with a non-toxic variant to demonstrate that the observed effects are specific to hIAPP.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of quantitative binding data and the absence of a direct measure of membrane damage prevent the core claims from being evaluated. R1-M3 is important but not blocking if the system details are provided in the full manuscript.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The focus on lipid domain boundaries as a preferential site for hIAPP action is a novel angle that extends prior work on homogeneous membranes. This is a potentially original contribution.  
+  - **Scientific importance** The question of how hIAPP damages membranes is of high importance for understanding type 2 diabetes. However, the abstract does not yet demonstrate that the proposed mechanism is correct, so the importance is potential rather than established.  
+  - **Interdisciplinary readership** The topic bridges biophysics, computational biology, and diabetes research, which could attract a broad audience. The abstract is written in a way that is accessible to nonspecialists, though some terms (e.g., "liquid-ordered and liquid-disordered") may require background knowledge.  
+  - **Technical soundness** The use of CG and AA simulations is appropriate, but the abstract does not provide enough detail to assess the technical quality of the simulations. The lack of quantitative results is a significant gap.  
+  - **Readability for nonspecialists** The abstract is concise and generally clear, but the mechanistic claims are stated without sufficient supporting detail, which may confuse readers who are not experts in simulation methods.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the approach is reasonable, but the abstract alone does not provide the quantitative and causal evidence needed to support the central claims. I would be supportive if the full manuscript addresses the blocking concerns with appropriate data.
+
+## Risk / unsupported claims
+- The claim of preferential binding to the lipid domain boundary is unsupported without quantitative comparison to other membrane regions.
+- The claim that lipid order disruption and beta-sheet formation are "early molecular events of membrane damage" is unsupported because membrane damage is not directly measured or temporally linked.
+- The specific role of residues L16 and I26 is asserted without mutational or energetic evidence.
+- The physiological relevance of the simulated lipid nanodomains is not assessable without system composition and size details.

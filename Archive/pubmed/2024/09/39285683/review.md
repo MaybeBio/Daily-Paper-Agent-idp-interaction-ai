@@ -1,0 +1,120 @@
+## Review setup
+- **Input scope** Full manuscript text (meeting report)
+- **Assessment boundary** Scientific content, structure, and claims as presented in the provided text; no external verification of conference presentations
+- **Shared manuscript claim summary** This is a conference report summarizing the second FASEB conference on Nuclear Bodies held June 2–7, 2024, at Niagara Falls, NY. The report covers presentations on RNA components of nuclear bodies, nuclear bodies in cancer, form and function of nuclear bodies, nucleolar organization, biomolecular condensation, new methods, and diversity/career development. The authors conclude with reflections on the field's momentum, using Niagara Falls as a metaphor.
+- **Visible evidence base** Full text of the meeting report, including abstract, section summaries of presentations, disclosure statement, author contributions, data-availability statement, and acknowledgments
+- **Missing materials affecting confidence** No figures, tables, or primary data are included; this is a narrative meeting report. No supplementary materials were provided. No line numbers were available for precise citation.
+
+## Reviewer
+- **Overall assessment** This is a well-written and informative meeting report that effectively captures the scientific breadth and key themes of the FASEB conference on Nuclear Bodies. The authors have organized the content logically, moving from RNA-centric topics to cancer relevance, structural biology, condensation, methods, and finally diversity. The report is accessible to a broad scientific audience and provides a useful snapshot of the current state of the field. However, as a meeting report, it does not present new primary data, and its scientific impact is limited to summarizing and contextualizing the work of others. The report would benefit from a more critical synthesis of the presented findings and their implications for the field, rather than a largely descriptive account.
+- **Who would be interested in the results, and why** Researchers in the fields of nuclear organization, gene expression regulation, RNA biology, biomolecular condensation, and cancer biology would find this report valuable. It provides a concise overview of recent advances and emerging themes, including the role of long noncoding RNAs, phase separation mechanisms, and new methodological approaches. Trainees and early-career scientists entering these areas would also benefit from the broad perspective offered. The diversity and career development section may interest those concerned with scientific workforce issues.
+- **Major strengths** The report is clearly structured and well-written, making complex topics accessible. It successfully integrates diverse presentations into coherent thematic sections. The inclusion of trainee contributions and the diversity session reflects a commendable commitment to scientific community values. The authors provide useful context for each presentation, helping readers understand the significance of the work. The concluding metaphor of Niagara Falls is effective and memorable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific depth and critical synthesis
+  - **Claim pointer** The report claims to capture the central theme of the conference, which was "how these protein and RNA–protein complexes that are situated in the nucleus outside the genome support and regulate gene expression."
+  - **Evidence pointer** Abstract and throughout the text
+  - **Concern** The report is largely descriptive, summarizing individual presentations without providing a critical synthesis or comparative analysis of the findings. For example, the section on speckles presents complementary data from Belmont and Guttman but does not discuss potential contradictions or unresolved questions that emerged from the combined data. Similarly, the section on nucleolar organization presents findings from McStay, Huang, and Santoro without integrating them into a broader model of nucleolar structure and function.
+  - **Why it matters** A meeting report should not only inform readers of what was presented but also help them understand the significance of the findings, how they fit together, and what questions remain. Without critical synthesis, the report risks being a simple list of talks rather than a valuable scientific resource.
+  - **Resolution test** The authors should add a discussion section or integrate comparative analysis within each thematic section, highlighting convergences, divergences, and open questions. For example, they could explicitly compare the TSA-seq results from Belmont with the single-molecule approaches from Guttman and discuss what each method reveals and what remains unclear.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical detail and reproducibility
+  - **Claim pointer** The report describes several new methods, including DisP-seq, NoLMseq, O-MAP, and Microscoop, but provides limited technical detail.
+  - **Evidence pointer** Sections "New methods for studying nuclear substructures" and "Nuclear bodies and cancer"
+  - **Concern** For a reader unfamiliar with these methods, the descriptions are insufficient to understand their principles, advantages, and limitations. For example, DisP-seq is described as "disordered protein precipitation followed by DNA sequencing," but the mechanism of precipitation, the type of information obtained, and its resolution are not explained. Similarly, NoLMseq is mentioned as a method for mapping NADs in single cells, but the technical basis of laser-capture microdissection coupled with sequencing is not elaborated.
+  - **Why it matters** Methods are central to scientific progress, and a meeting report should provide enough detail for readers to assess the potential utility of new approaches. Without this, the report may generate interest but not understanding.
+  - **Resolution test** The authors should expand the methods section to include a brief description of the principle, key steps, and potential applications of each new method, as well as any known limitations discussed at the meeting.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Balance and completeness
+  - **Claim pointer** The report states that "Eight talks at the meeting involved discussion of these three bodies [CB, HLB, PS] and the biological processes carried out by factors that concentrate therein."
+  - **Evidence pointer** Section "Form and function of nuclear bodies"
+  - **Concern** The report covers CB, HLB, and PS talks but does not clearly indicate how many talks were given on each body or whether some were given more weight than others. The section on CB includes three talks (Matera, Neugebauer, Escande-Beillard), HLB includes two (Kemp, Geisler), and PS includes one (Kaufman). The report does not explain this imbalance or whether it reflects the actual distribution of talks at the meeting.
+  - **Why it matters** A balanced report should accurately represent the meeting's content. If the distribution of talks was indeed uneven, the authors could note this and explain why, or they could seek additional information from the meeting program to ensure completeness.
+  - **Resolution test** The authors should verify the number of talks on each nuclear body and either present a balanced account or explicitly note the distribution and its rationale.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and precision
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states the conference was held "June 2–7, 2024, at Niagara Falls, NY." The title of the report includes "with momentum," which is not explained in the abstract.
+  - **Required correction** Consider adding a brief explanation of the "momentum" metaphor in the abstract or title, or clarify its meaning in the conclusion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section "Nuclear bodies and cancer"
+  - **Evidence pointer** Section "Nuclear bodies and cancer"
+  - **Issue** The report mentions "ZNF692" and later "692 ZNF692" in the same paragraph. This is inconsistent and may confuse readers.
+  - **Required correction** Use "ZNF692" consistently throughout.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section "Diversity and careers"
+  - **Evidence pointer** Section "Diversity and careers"
+  - **Issue** The report states that "Of the 37 invited main speakers, 17 were female and 20 were male (self-assigned)." It does not provide similar demographic information for the 11 short talk speakers or poster presenters.
+  - **Required correction** If such data are available, include them for completeness. If not, note that this information was not collected.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section "Condensation in, on, and around the genome"
+  - **Evidence pointer** Section "Condensation in, on, and around the genome"
+  - **Issue** The sentence "The fusion protein can follow this process as well and create nuclear puncta of cleaved FUS-CREB3L2 at DNA loci" is somewhat unclear. It is not immediately obvious what "this process" refers to.
+  - **Required correction** Rephrase for clarity, for example: "The fusion protein can also undergo cleavage and translocation to the nucleus, where it forms puncta at DNA loci."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Section "Condensation in, on, and around the genome"
+  - **Evidence pointer** Section "Condensation in, on, and around the genome"
+  - **Issue** The report states that "1,6-hexanediol... does solely act only condensates." This sentence is grammatically incorrect and confusing.
+  - **Required correction** Correct to: "1,6-hexanediol does not act solely on condensates."
+- **Technical failings that need to be addressed before the case is established** No primary data are presented, so there are no technical failings in the traditional sense. However, the lack of critical synthesis and insufficient technical detail on new methods are significant shortcomings that should be addressed to strengthen the report's value.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The report is a meeting summary and does not present original research. Its originality lies in the synthesis of diverse findings, but this is limited by the descriptive approach.
+  - **Scientific importance** The topic is of high importance to molecular and cell biology. The report highlights key advances in understanding nuclear bodies, but its impact is diminished by the lack of critical analysis.
+  - **Interdisciplinary readership** The report is accessible to a broad audience, including cell biologists, molecular biologists, and cancer researchers. However, the limited technical detail on methods may reduce its utility for readers outside the immediate field.
+  - **Technical soundness** The report is technically sound in its descriptions, but the lack of detail on methods and the absence of critical synthesis are weaknesses.
+  - **Readability for nonspecialists** The report is generally well-written and accessible, but some sections assume prior knowledge of nuclear body biology. The use of jargon is moderate and appropriate for the target audience.
+- **Recommendation posture** Supportive if the major concerns are addressed. The report is informative and well-written, but it would benefit from a more critical synthesis of the presented findings and additional technical detail on new methods. These improvements would enhance its value as a scientific resource.
+
+## Risk / unsupported claims
+- The report claims that "ELEANOR2 binds to and regulates the activity of an adjacent super-enhancer close to CCDC170, playing a role in the progression of ER-positive breast cancer." This is presented as a finding from the conference, but no primary data are shown to support it. It is attributed to a specific presenter, which is appropriate for a meeting report, but the claim itself cannot be independently verified from the provided text.
+- The report states that "MALAT1 regulates the expression and RNA processing of many hypoxia-responsive genes" and that "MALAT1 regulates the splicing of these genes by acting as a scaffold." These are attributed to a presenter but are not supported by data in the report.
+- The report describes findings on ZNF692, including that "knockdown of which disrupts nucleolar integrity, reduced ribosome synthesis and translational efficiency" and that it "interacts with nucleophosmin 1 in ribosome assembly." These are attributed to presenters but are not supported by data in the report.
+- The report mentions that "perturbation of U3 snoRNA-mediated 18S rRNA cleavage blocks 18S rRNA processing and results in the 'inside-out' nucleoli." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "FRG2A predominantly localizes to the Dense Fibrillar Compartment (DFC) of nucleoli and is involved in the organization of nuclear chromatin architecture." This is attributed to a presenter but is not supported by data in the report.
+- The report claims that "NADs typically contact nucleoli in a monoallelic manner and that contact frequency sets NAD gene expression and their chromatin states." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "EWS-FLI1 proteins use their low-complexity domains to cluster into groups of approximately 24 proteins, though only 8 DNA binding sites are present linearly." This is attributed to a presenter but is not supported by data in the report.
+- The report mentions that "the fusion protein can follow this process as well and create nuclear puncta of cleaved FUS-CREB3L2 at DNA loci." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "a 10-residue helix was found in the CTD of TDP-43 to act as a tetramer, with methionine, leucine, and tryptophan residues in this helix stabilizing its oligomerization." This is attributed to a presenter but is not supported by data in the report.
+- The report claims that "the pro-inflammatory assembly involves known PS RNA-binding proteins and the long non-coding RNA NEAT1–2." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "the equilibrium affinity constants between/among certain proteins and with RNAs are what they are (i.e., are constants)" in the conclusion. This is a general statement and is not attributed to any specific presentation. It is a philosophical reflection rather than a scientific claim.
+- The report claims that "high concentration of charges within a condensate can result in a very different pH within the condensate than outside of it, which is mollified by mutating the D/E tracts of DFC proteins." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "pH gradients formed by condensates can drive enzymatic reactions like dephosphorylation without enzymes." This is attributed to a presenter but is not supported by data in the report.
+- The report claims that "the subsets of active genes in closest proximity to speckles tend to be GC-rich, conserved, and residing in dense arrays, i.e., are small genes, and that they also are enriched in super-enhancers." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "promoter type is a greater factor in determining speckle proximity than a gene's expression level." This is attributed to a presenter but is not supported by data in the report.
+- The report claims that "genes near speckles have higher concentrations of gene-vicinal splicing factors as well as higher co-transcriptional splicing levels than genes which are located further from speckles." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "experimental recruitment of a specific pre-mRNA to speckles is sufficient to boost its level of splicing." This is attributed to a presenter but is not supported by data in the report.
+- The report claims that "different cell types have precisely controlled rates of rRNA transcription, that this rate is important for maintenance of cell identity, and that cell-type-specific transcription factors (TFs) bind rDNA repeats and control Pol I activity." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "a 30% reduction in rRNA transcription was enough to impair cell growth and induce differentiation" in a myeloid progenitor cell line. This is attributed to a presenter but is not supported by data in the report.
+- The report claims that "the SMN complex has new functions in innate immune signaling, with connections to the larger proteostasis network of heat shock (folding) chaperones." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "loss-of-function mutations in SPN1 cause CBs to disassemble and coilin to re-localize to the nucleolus." This is attributed to a presenter but is not supported by data in the report.
+- The report claims that "SPN1 uses its C-terminal domain to multimerize, and that truncation of this domain is particularly problematic in muscle cells." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "the NOR-bearing p-arms of the acrocentric chromosomes possess a property of self-association, independent of the rDNA itself or any influence by existing nucleoli." This is attributed to a presenter but is not supported by data in the report.
+- The report claims that "AID degron-mediated degradation of the Pol I subunit PAF53 induced a prompt morphological segregation of nucleoli" and that "removal of the pre-rRNA processing factor UTP4 blocked the PAF53-induced nucleolar segregation." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "the loss of PAF53 led to a shutdown of the SSU processome via proteasome degradation of a subset of its constituents." This is attributed to a presenter but is not supported by data in the report.
+- The report claims that "light-controlled engineered condensates can pull and push on genomic loci" and that "liquid-like condensates can utilize surface tension to apply force on the genome, without the use of ATP-driven motors." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "the force applied by synthetic condensates is sufficient to rearrange loci over microns of nuclear space and create targeted pairwise genomic interactions." This is attributed to a presenter but is not supported by data in the report.
+- The report claims that "endogenous condensates may be sites of force generation in genome organization, acting as anchors or 'motors' to orchestrate long-range or even inter-chromosomal interactions." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "a two-component RNA system can deliver large insert transgenes via target-primed reverse transcription (RT) at specific sites in the genome" and that "this method offers considerable promise for many different gene therapy applications as it evades surveillance by the innate immune system." This is attributed to a presenter but is not supported by data in the report.
+- The report claims that "O-MAP uses many off-the-shelf components that can be combined in innovative ways" and that "nascent pre-mRNAs might serve as scaffolding elements to generate novel nuclear subdomains." This is attributed to a presenter but is not supported by data in the report.
+- The report states that "the Microscoop system utilizes a photoactivatable biotin compound to enable high-content in situ photolabeling" and that "the novel element of the system is to microscopically train the photoactivation beam to trigger photochemical conversion of the compound specifically within a delimited site within the nucleus." This is attributed to a presenter but is not supported by data in the report.
+- The report claims that "the 'Pair-Up' program in which minority scientists are hosted for week-long visits by centers of excellence in the field" is "not 'remedial' but rather is 'catalytic'." This is attributed to a speaker and is a program description, not a scientific claim.
+- The report states that "the organizers did not 'target' any genders, ethnicities, or countries in creating the list of invitees." This is a statement about the organizers' process and cannot be independently verified.
+- The report claims that "water may be 54.5 M inside the cell." This is a general statement about cellular water concentration and is not attributed to any specific presentation. It is a well-known value in biochemistry, but the report does not provide a citation.
+- The report states that "the ever-present hydrophobic effect rules to the same degree it always has." This is a general statement and is not attributed to any specific presentation. It is a philosophical reflection rather than a scientific claim.

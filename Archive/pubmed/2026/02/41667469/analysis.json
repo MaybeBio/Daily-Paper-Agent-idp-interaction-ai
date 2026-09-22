@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41667469",
+  "title": "Oxygen depletion in biomolecular condensates is dominated by macromolecular density.",
+  "authors": "Garg, Ankush; Brasnett, Christopher; Marrink, Siewert J; Koren, Klaus; Kjaergaard, Magnus",
+  "journal": "Nature communications",
+  "published_date": "2026-02-11",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究无序蛋白凝聚体中氧气的分配机制，结合MD模拟揭示密度主导而非疏水性，虽非PPI但涉及IDR凝聚体物理机制建模，对相分离环境中的互作建模有启发。",
+  "abstract": "Biomolecular condensates are dynamic cellular compartments formed by the self-assembly of proteins and nucleic acids. Many metabolites partition into condensates based on their interactions with the macromolecular constituents; yet, whether gases behave similarly remains unknown. Here, we show that oxygen partitions into protein-based condensates formed by intrinsically disordered repeat proteins with systematically varied sequences. Using microelectrodes, phosphorescence lifetime imaging microscopy, and molecular dynamics simulations, we find that oxygen is partially excluded from the condensate, and its partitioning does not correlate with the condensate hydrophobicity. Instead, oxygen concentration is inversely related to condensate protein density. These results suggest that the prevailing theory of small-molecule partitioning into condensates has to be augmented to consider the concentration of macromolecules as a dominant factor in the absence of interactions between the metabolite and the condensate. Our results suggest that biomolecular condensates can generate a nanoscale oxygen gradient, potentially modulating the local availability of oxygen for biochemical reactions within the cell.",
+  "abstract_zh": "生物分子凝聚体是由蛋白质和核酸自组装形成的动态细胞区室。许多代谢物根据其与大分子组分的相互作用而分配进入凝聚体；然而，气体是否具有类似行为仍属未知。在此，我们展示了氧气分配进入由序列系统变化的内在无序重复蛋白形成的基于蛋白质的凝聚体。利用微电极、磷光寿命成像显微镜和分子动力学模拟，我们发现氧气部分被排除在凝聚体之外，且其分配与凝聚体疏水性不相关。相反，氧气浓度与凝聚体蛋白质密度呈反比关系。这些结果表明，关于小分子分配进入凝聚体的主流理论需加以补充，以考虑在没有代谢物与凝聚体相互作用的情况下，大分子浓度作为主导因素。我们的结果提示，生物分子凝聚体可产生纳米尺度的氧气梯度，可能调节细胞内生化反应所需的局部氧气可用性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41667469/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41667469/",
+  "paper_page_path": "papers/pubmed/41667469/index.html"
+}

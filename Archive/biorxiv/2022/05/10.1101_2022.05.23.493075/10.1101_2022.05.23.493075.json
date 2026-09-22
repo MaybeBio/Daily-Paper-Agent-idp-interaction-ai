@@ -1,0 +1,283 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.05.23.493075",
+  "title": "The interface of condensates of the hnRNPA1 low complexity domain promotes formation of amyloid fibrils",
+  "doi": "10.1101/2022.05.23.493075",
+  "abstract": "The maturation of liquid-like protein condensates into amyloid fibrils has been associated with neurodegenerative diseases. Here, we analyze the amyloid formation mediated by condensation of the low-complexity domain of hnRNPA1, a protein involved in Amyotrophic Lateral Sclerosis (ALS). We show that phase separation and fibrillation are connected but distinct processes which are independently mediated by different regions of the protein sequence. By monitoring the spatial and temporal evolution of amyloid formation we demonstrate that the formation of fibrils does not occur homogeneously inside the droplets but is promoted at the interface of the condensates. Consistently, we further show that coating the interface of the droplets with surfactant molecules inhibits fibril formation. Our results indicate that the interface of biomolecular condensates can act as an important catalyst for fibril formation, and therefore could represent a possible therapeutic target against the formation of aberrant amyloids mediated by condensation.",
+  "authors": [
+    "Linsenmeier M",
+    "Faltova L",
+    "Palmiero UC",
+    "Seiffert C",
+    "Küffner AM",
+    "Pinotsi D",
+    "Zhou J",
+    "Mezzenga R",
+    "Arosio P"
+  ],
+  "published_date": "2022-05-23",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.05.23.493075",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.05.23.493075.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR496834",
+    "raw_record": {
+      "id": "PPR496834",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR496834"
+        ]
+      },
+      "doi": "10.1101/2022.05.23.493075",
+      "title": "The interface of condensates of the hnRNPA1 low complexity domain promotes formation of amyloid fibrils",
+      "authorString": "Linsenmeier M, Faltova L, Palmiero UC, Seiffert C, Küffner AM, Pinotsi D, Zhou J, Mezzenga R, Arosio P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Linsenmeier M",
+            "lastName": "Linsenmeier",
+            "firstName": "Miriam",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Applied Sciences, Institute for Chemical and Bioengineering, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Faltova L",
+            "lastName": "Faltova",
+            "firstName": "Lenka",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Applied Sciences, Institute for Chemical and Bioengineering, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Palmiero UC",
+            "lastName": "Palmiero",
+            "firstName": "Umberto Capasso",
+            "initials": "UC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Applied Sciences, Institute for Chemical and Bioengineering, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seiffert C",
+            "lastName": "Seiffert",
+            "firstName": "Charlotte",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Applied Sciences, Institute for Chemical and Bioengineering, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Küffner AM",
+            "lastName": "Küffner",
+            "firstName": "Andreas",
+            "initials": "AM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Applied Sciences, Institute for Chemical and Bioengineering, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pinotsi D",
+            "lastName": "Pinotsi",
+            "firstName": "Dorothea",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Scientific Center for Optical and Electron Microscopy, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhou J",
+            "lastName": "Zhou",
+            "firstName": "Jiangtao",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4248-2207"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department for Health Sciences and Technology, Institute of Food, Nutrition and Health, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mezzenga R",
+            "lastName": "Mezzenga",
+            "firstName": "Raffaele",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5739-2610"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department for Health Sciences and Technology, Institute of Food, Nutrition and Health, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arosio P",
+            "lastName": "Arosio",
+            "firstName": "Paolo",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Applied Sciences, Institute for Chemical and Bioengineering, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5739-2610"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4248-2207"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The maturation of liquid-like protein condensates into amyloid fibrils has been associated with neurodegenerative diseases. Here, we analyze the amyloid formation mediated by condensation of the low-complexity domain of hnRNPA1, a protein involved in Amyotrophic Lateral Sclerosis (ALS). We show that phase separation and fibrillation are connected but distinct processes which are independently mediated by different regions of the protein sequence. By monitoring the spatial and temporal evolution of amyloid formation we demonstrate that the formation of fibrils does not occur homogeneously inside the droplets but is promoted at the interface of the condensates. Consistently, we further show that coating the interface of the droplets with surfactant molecules inhibits fibril formation. Our results indicate that the interface of biomolecular condensates can act as an important catalyst for fibril formation, and therefore could represent a possible therapeutic target against the formation of aberrant amyloids mediated by condensation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "179055",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "205321",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/05/23/2022.05.23.493075.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.05.23.493075"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR496834"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR496834&type=FILE&fileName=EMS145363-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37749234",
+            "reference": "Nature chemistry. \n    2023 Sep;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 7,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS145363",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-05-25",
+      "firstPublicationDate": "2022-05-23",
+      "firstIndexDate": "2022-05-25",
+      "fullTextReceivedDate": "2022-06-02",
+      "hasEvaluations": "N"
+    }
+  }
+}

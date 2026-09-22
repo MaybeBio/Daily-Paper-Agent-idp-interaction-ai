@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37246935",
+  "title": "SEVI Inhibits Abeta Amyloid Aggregation by Capping the beta-Sheet Elongation Edges.",
+  "authors": "Wang, Ying; Xu, Jia; Huang, Fengjuan; Yan, Jiajia; Fan, Xinjie; Zou, Yu; Wang, Chuang; Ding, Feng; Sun, Yunxiang",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2023-05-29",
+  "window": {
+    "start": "2023-05-29",
+    "end": "2023-06-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用原子级离散分子动力学模拟揭示无序肽SEVI通过封盖Abeta42 β-片层延伸边缘抑制其聚集的分子机制，对象为IDP、聚焦PPI/聚集机制、方法为物理模拟，与本课题高度契合。",
+  "abstract": "Inhibiting the aggregation of amyloid peptides with endogenous peptides has broad interest due to their intrinsically high biocompatibility and low immunogenicity. Here, we investigated the inhibition mechanism of the prostatic acidic phosphatase fragment SEVI (semen-derived enhancer of viral infection) against Abeta42 fibrillization using atomistic discrete molecular dynamic simulations. Our result revealed that SEVI was intrinsically disordered with dynamic formation of residual helices. With a high positive net charge, the self-aggregation tendency of SEVI was weak. Abeta42 had a strong aggregation propensity by readily self-assembling into beta-sheet-rich aggregates. SEVI preferred to interact with Abeta42, rather than SEVI themselves. In the heteroaggregates, Abeta42 mainly adopted beta-sheets buried inside and capped by SEVI in the outer layer. SEVI could bind to various Abeta aggregation species horizontal line including monomers, dimers, and proto-fibrils horizontal line by capping the exposed beta-sheet elongation edges. The aggregation processes Abeta42 from the formation of oligomers to conformational nucleation into fibrils and fibril growth should be inhibited as their beta-sheet elongation edges are being occupied by the highly charged SEVI. Overall, our computational study uncovered the molecular mechanism of experimentally observed inhibition of SEVI against Abeta42 aggregation, providing novel insights into the development of therapeutic strategies against Alzheimer's disease.",
+  "abstract_zh": "利用内源性肽抑制淀粉样肽的聚集因其固有的高生物相容性和低免疫原性而受到广泛关注。在此，我们采用原子级离散分子动力学模拟研究了前列腺酸性磷酸酶片段SEVI（精液来源的病毒感染增强因子）对Abeta42纤维化的抑制机制。我们的结果表明，SEVI本质上是无序的，并动态形成残基螺旋。由于其高正净电荷，SEVI的自聚集倾向较弱。Abeta42具有强烈的聚集倾向，易于自组装成富含β-折叠的聚集体。SEVI更倾向于与Abeta42相互作用，而非与自身相互作用。在异源聚集体中，Abeta42主要采用β-折叠结构，埋藏于内部，并由SEVI封盖在外层。SEVI能够通过封盖暴露的β-折叠延伸边缘，与多种Abeta聚集物种（包括单体、二聚体和原纤维）结合。由于Abeta42的β-折叠延伸边缘被高电荷的SEVI占据，其从寡聚体形成到构象成核为纤维及纤维生长的聚集过程应受到抑制。总体而言，我们的计算研究揭示了实验观察到的SEVI对Abeta42聚集抑制的分子机制，为针对阿尔茨海默病的治疗策略开发提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37246935/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37246935/",
+  "paper_page_path": "papers/pubmed/37246935/index.html"
+}

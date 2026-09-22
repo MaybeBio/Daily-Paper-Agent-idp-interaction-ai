@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary material were provided
+- **Shared manuscript claim summary** The author reports improving the a99SB-disp force field and GBNeck2 implicit solvent model to better describe disordered proteins, using differentiable molecular dynamics simulations with 5 ns trajectories to jointly optimise 108 parameters against explicit solvent trajectories. The resulting force field, GB99dms, is claimed to better reproduce experimental radius of gyration and secondary structure content for disordered proteins, with slightly degraded performance on folded proteins and complexes, and to reproduce a small molecule binding study and improve agreement for amyloid peptide aggregation. The work is claimed to be the first to obtain gradients directly from nanosecond-length differentiable simulations of biomolecules.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, validation protocols, or code documentation are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation parameters, training data details, validation datasets, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a technically ambitious and potentially impactful approach to force field optimisation using differentiable simulation. However, the evidence provided is insufficient to evaluate the validity of the central claims. Key quantitative outcomes, methodological details, and validation procedures are absent. The claim of being "first" to obtain gradients from nanosecond-length differentiable simulations requires careful contextualisation against existing literature, which cannot be assessed from the abstract alone. The reported trade-off between improved disordered protein behaviour and degraded folded protein performance raises questions about the generality and practical utility of the method.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular dynamics method developers would be interested in the differentiable simulation approach for force field parameterisation. Researchers studying intrinsically disordered proteins and amyloid aggregation would value improved implicit solvent models. The OpenMM compatibility and public code availability would appeal to practitioners seeking practical tools. The work may also interest machine learning researchers applying differentiable programming to scientific simulation.
+- **Major strengths** The approach addresses a recognised limitation in implicit solvent force fields for disordered proteins. Joint optimisation of 108 parameters is a substantial undertaking. The use of differentiable simulation to directly train force field parameters is conceptually novel. The reported validation against experimental observables, including radius of gyration and secondary structure content, is appropriate. Public release of the force field and code supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that GB99dms "better reproduce[s] the radius of gyration and secondary structure content seen in experiments" for disordered proteins
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative data are provided to support this claim. The abstract does not state the magnitude of improvement, the number of systems tested, the statistical significance of the differences, or the comparison metrics used. Without these details, the claim cannot be evaluated.
+  - **Why it matters** The central purpose of the work is to improve force field accuracy for disordered proteins. If the improvement is marginal or limited to specific systems, the practical value of the method is substantially reduced.
+  - **Resolution test** Provide quantitative comparisons between GB99dms, a99SB-disp, and experimental data for multiple disordered proteins, including error bars or statistical measures, and specify the number of independent simulations and systems.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "gradients can be obtained directly from nanosecond-length differentiable simulations of biomolecules" and that this is "the first" such demonstration
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no technical details on how differentiability was achieved, what simulation software and integrator were used, how gradients were computed and propagated through 5 ns trajectories, or how numerical stability was maintained. The novelty claim requires a literature comparison that is absent.
+  - **Why it matters** Differentiable simulation of biomolecules at nanosecond timescales is technically challenging due to chaotic dynamics and numerical instability. Without methodological details, the feasibility and robustness of the approach cannot be assessed, and the priority claim cannot be verified.
+  - **Resolution test** Describe the differentiable simulation framework, including software, integrator, gradient computation method, and stability measures. Provide a literature review demonstrating the absence of prior nanosecond-scale differentiable biomolecular simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation adequacy
+  - **Claim pointer** The claim that GB99dms "reproduces the results of a small molecule binding study and improves agreement to experiment for the aggregation of amyloid peptides"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given on the binding study, the amyloid peptide systems, the experimental references, or the metrics used to assess agreement. The scope of validation is unclear, and it is not stated whether these tests were pre-specified or exploratory.
+  - **Why it matters** Validation on binding and aggregation is presented as evidence of transferability beyond the training targets. Without specifics, these claims could reflect cherry-picked examples or weak benchmarks.
+  - **Resolution test** Specify the binding system, the experimental data used, the simulation protocols, and the quantitative agreement metrics. State whether these tests were planned before optimisation or selected post hoc.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalisability
+  - **Claim pointer** The statement that GB99dms shows "slightly degraded performance on folded proteins and protein complexes"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract acknowledges degraded performance on folded proteins but does not quantify the extent or discuss the implications. It is unclear whether this degradation is acceptable for the intended use cases or whether it limits the force field to disordered protein applications.
+  - **Why it matters** A force field that improves disordered proteins at the expense of folded proteins may have limited utility in systems containing both folded and disordered regions, which are common in biology.
+  - **Resolution test** Provide quantitative comparisons for folded proteins and complexes, and discuss the practical implications of the trade-off for typical simulation studies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Force field availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states the force field is available at a GitHub URL, but no version, license, or usage instructions are mentioned.
+  - **Required correction** Specify the software version, license, and provide a brief usage example or link to documentation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "differentiable molecular simulations" is used without defining the specific framework or software implementation.
+  - **Required correction** Define the term and cite the relevant software or method used for differentiability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Training details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states 108 parameters were optimised but does not specify which parameters were included or how they were selected.
+  - **Required correction** List the parameter types and the selection criteria in the methods section.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking because the central claims of improved accuracy, methodological novelty, and validation success cannot be assessed from the provided material. R1-M4 is non-blocking but requires clarification.
+- **Assessment against Nature-style criteria** Originality: The differentiable simulation approach appears conceptually novel, but the priority claim cannot be verified without a literature comparison. Scientific importance: The potential to improve force fields for disordered proteins is significant, but the demonstrated impact is unclear from the abstract. Interdisciplinary readership: The work bridges machine learning, molecular dynamics, and biophysics, which could attract broad interest, but the abstract lacks sufficient context for non-specialists. Technical soundness: Cannot be assessed without methodological details. Readability for nonspecialists: The abstract is concise but assumes familiarity with force fields and differentiable programming; key terms are not explained.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising approach, but the absence of quantitative results, methodological details, and validation specifics prevents a supportive recommendation. A full manuscript with comprehensive data and methods would be required to assess the claims.
+
+## Risk / unsupported claims
+- The claim that GB99dms "better reproduce[s]" experimental observables is unsupported without quantitative data.
+- The claim of being "the first" to obtain gradients from nanosecond-length differentiable simulations is unverifiable without a literature review.
+- The claim that GB99dms "reproduces the results of a small molecule binding study" is unsupported without system details and metrics.
+- The statement that performance on folded proteins is "slightly degraded" is unquantified and cannot be evaluated.
+- The overall effectiveness of the differentiable simulation approach for training force fields is asserted but not demonstrated with evidence.

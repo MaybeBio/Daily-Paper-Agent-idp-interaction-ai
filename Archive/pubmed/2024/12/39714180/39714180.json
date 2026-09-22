@@ -1,0 +1,432 @@
+{
+  "identity": {
+    "pmid": "39714180",
+    "doi": "10.1128/mbio.03200-24",
+    "title": "The protein structurome of Orthornavirae and its dark matter."
+  },
+  "content": {
+    "abstract": "Metatranscriptomics is uncovering more and more diverse families of viruses with RNA genomes comprising the viral kingdom Orthornavirae in the realm Riboviria. Thorough protein annotation and comparison are essential to get insights into the functions of viral proteins and virus evolution. In addition to sequence- and hmm profile‑based methods, protein structure comparison adds a powerful tool to uncover protein functions and relationships. We constructed an Orthornavirae \"structurome\" consisting of already annotated as well as unannotated (\"dark matter\") proteins and domains encoded in viral genomes. We used protein structure modeling and similarity searches to illuminate the remaining dark matter in hundreds of thousands of orthornavirus genomes. The vast majority of the dark matter domains showed either \"generic\" folds, such as single alpha-helices, or no high confidence structure predictions. Nevertheless, a variety of lineage-specific globular domains that were new either to orthornaviruses in general or to particular virus families were identified within the proteomic dark matter of orthornaviruses, including several predicted nucleic acid-binding domains and nucleases. In addition, we identified a case of exaptation of a cellular nucleoside monophosphate kinase as an RNA-binding protein in several virus families. Notwithstanding the continuing discovery of numerous orthornaviruses, it appears that all the protein domains conserved in large groups of viruses have already been identified. The rest of the viral proteome seems to be dominated by poorly structured domains including intrinsically disordered ones that likely mediate specific virus-host interactions. IMPORTANCE: Advanced methods for protein structure prediction, such as AlphaFold2, greatly expand our capability to identify protein domains and infer their likely functions and evolutionary relationships. This is particularly pertinent for proteins encoded by viruses that are known to evolve rapidly and as a result often cannot be adequately characterized by analysis of the protein sequences. We performed an exhaustive structure prediction and comparative analysis for uncharacterized proteins and domains (\"dark matter\") encoded by viruses with RNA genomes. The results show the dark matter of RNA virus proteome consists mostly of disordered and all-alpha-helical domains that cannot be readily assigned a specific function and that likely mediate various interactions between viral proteins and between viral and host proteins. The great majority of globular proteins and domains of RNA viruses are already known although we identified several unexpected domains represented in individual viral families.",
+    "keywords": [
+      "Orthornaviria",
+      "RNA virus",
+      "novel protein domains",
+      "protein structure prediction",
+      "proteome"
+    ],
+    "mesh_terms": [
+      "*Viral Proteins/genetics/chemistry",
+      "Genome, Viral",
+      "*RNA Viruses/genetics",
+      "Protein Conformation",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mutz, Pascal",
+        "Camargo, Antonio Pedro",
+        "Sahakyan, Harutyun",
+        "Neri, Uri",
+        "Butkovic, Anamarija",
+        "Wolf, Yuri I",
+        "Krupovic, Mart",
+        "Dolja, Valerian V",
+        "Koonin, Eugene V"
+      ],
+      "short_names": [
+        "Mutz P",
+        "Camargo AP",
+        "Sahakyan H",
+        "Neri U",
+        "Butkovic A",
+        "Wolf YI",
+        "Krupovic M",
+        "Dolja VV",
+        "Koonin EV"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0430-2095",
+        "ORCID: 0000-0003-0894-2484",
+        "ORCID: 0000-0002-1435-0912",
+        "ORCID: 0000-0002-0247-8708",
+        "ORCID: 0000-0001-5486-0098",
+        "ORCID: 0000-0002-8148-4670",
+        "ORCID: 0000-0003-3943-8299"
+      ],
+      "affiliations": [
+        "Division of Intramural Research, Computational Biology Branch, National Library of Medicine, National Institutes of Health, Bethesda, Maryland, USA.",
+        "Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, California, USA.",
+        "Division of Intramural Research, Computational Biology Branch, National Library of Medicine, National Institutes of Health, Bethesda, Maryland, USA.",
+        "Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, California, USA.",
+        "Institut Pasteur, Universite Paris Cite, CNRS UMR6047, Archaeal Virology Unit, Paris, France.",
+        "Division of Intramural Research, Computational Biology Branch, National Library of Medicine, National Institutes of Health, Bethesda, Maryland, USA.",
+        "Institut Pasteur, Universite Paris Cite, CNRS UMR6047, Archaeal Virology Unit, Paris, France.",
+        "Department of Botany and Plant Pathology, Oregon State University, Corvallis, Oregon, USA.",
+        "Division of Intramural Research, Computational Biology Branch, National Library of Medicine, National Institutes of Health, Bethesda, Maryland, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mutz, Pascal",
+        "short_name": "Mutz P",
+        "identifiers": [
+          "0000-0002-0430-2095"
+        ],
+        "affiliations": [
+          "Division of Intramural Research, Computational Biology Branch, National Library of Medicine, National Institutes of Health, Bethesda, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Camargo, Antonio Pedro",
+        "short_name": "Camargo AP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, California, USA."
+        ]
+      },
+      {
+        "full_name": "Sahakyan, Harutyun",
+        "short_name": "Sahakyan H",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Intramural Research, Computational Biology Branch, National Library of Medicine, National Institutes of Health, Bethesda, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Neri, Uri",
+        "short_name": "Neri U",
+        "identifiers": [
+          "0000-0003-0894-2484"
+        ],
+        "affiliations": [
+          "Department of Energy Joint Genome Institute, Lawrence Berkeley National Laboratory, Berkeley, California, USA."
+        ]
+      },
+      {
+        "full_name": "Butkovic, Anamarija",
+        "short_name": "Butkovic A",
+        "identifiers": [
+          "0000-0002-1435-0912"
+        ],
+        "affiliations": [
+          "Institut Pasteur, Université Paris Cité, CNRS UMR6047, Archaeal Virology Unit, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Wolf, Yuri I",
+        "short_name": "Wolf YI",
+        "identifiers": [
+          "0000-0002-0247-8708"
+        ],
+        "affiliations": [
+          "Division of Intramural Research, Computational Biology Branch, National Library of Medicine, National Institutes of Health, Bethesda, Maryland, USA."
+        ]
+      },
+      {
+        "full_name": "Krupovic, Mart",
+        "short_name": "Krupovic M",
+        "identifiers": [
+          "0000-0001-5486-0098"
+        ],
+        "affiliations": [
+          "Institut Pasteur, Université Paris Cité, CNRS UMR6047, Archaeal Virology Unit, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Dolja, Valerian V",
+        "short_name": "Dolja VV",
+        "identifiers": [
+          "0000-0002-8148-4670"
+        ],
+        "affiliations": [
+          "Department of Botany and Plant Pathology, Oregon State University, Corvallis, Oregon, USA."
+        ]
+      },
+      {
+        "full_name": "Koonin, Eugene V",
+        "short_name": "Koonin EV",
+        "identifiers": [
+          "0000-0003-3943-8299"
+        ],
+        "affiliations": [
+          "Division of Intramural Research, Computational Biology Branch, National Library of Medicine, National Institutes of Health, Bethesda, Maryland, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "mBio"
+    ],
+    "journal_abbrev": [
+      "mBio"
+    ],
+    "pub_date": "2025 Feb 5",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/23 12:22",
+    "fetched_at": "2026-09-21 14:05:42"
+  },
+  "links": {
+    "cites": [
+      "42522195",
+      "42505598",
+      "42043279",
+      "42012165",
+      "42010269",
+      "41963553",
+      "41816290",
+      "41264852",
+      "41222234",
+      "40844272",
+      "40613633",
+      "40568107",
+      "40063816"
+    ],
+    "refs": [
+      "39574394",
+      "39389057",
+      "39187718",
+      "39018195",
+      "38805295",
+      "38648214",
+      "38613393",
+      "38298181",
+      "38233646",
+      "37933859",
+      "37669381",
+      "37319262",
+      "37173746",
+      "37156916",
+      "37017580",
+      "36927031",
+      "36477806",
+      "36174579",
+      "36139088",
+      "36008967",
+      "35834963",
+      "35723908",
+      "35439658",
+      "35389782",
+      "35082445",
+      "35073311",
+      "34951396",
+      "34850923",
+      "34718998",
+      "34356002",
+      "34282049",
+      "34265844",
+      "34035898",
+      "33828273",
+      "33769809",
+      "33125078",
+      "32881101",
+      "32853546",
+      "32690954",
+      "32132243",
+      "32011700",
+      "32006276",
+      "31521110",
+      "31462568",
+      "30383829",
+      "30199753",
+      "30059538",
+      "29077904",
+      "29035372",
+      "28625850",
+      "28481363",
+      "28453683",
+      "28265094",
+      "27773688",
+      "27706213",
+      "27001046",
+      "25679389",
+      "25474468",
+      "24676359",
+      "24304899",
+      "23615902",
+      "23418397",
+      "22901812",
+      "22514350",
+      "21262835",
+      "21085117",
+      "20462493",
+      "20003500",
+      "19609302",
+      "19194459",
+      "18718927",
+      "16912299",
+      "16549795",
+      "16439522",
+      "15645082",
+      "15531603",
+      "15318951",
+      "15304651",
+      "12490163",
+      "12136088",
+      "11152613",
+      "10592235",
+      "9783223",
+      "9254694",
+      "2313270"
+    ],
+    "similar": [
+      "39714180",
+      "41950502",
+      "23912807",
+      "37017580",
+      "32471829",
+      "32512909",
+      "24330969",
+      "41143103",
+      "23865988",
+      "33671332",
+      "40464578",
+      "39903107",
+      "8269709",
+      "17490476",
+      "23620725",
+      "42041085",
+      "26296474",
+      "32999026",
+      "30482837",
+      "16602696",
+      "27062995",
+      "39414627",
+      "15842167",
+      "34960638",
+      "39928875",
+      "22319434",
+      "30835193",
+      "31852780",
+      "20017929",
+      "8828152",
+      "27852858",
+      "30986983",
+      "42043279",
+      "16011798",
+      "8483926",
+      "39688401",
+      "41081509",
+      "31578292",
+      "27053559",
+      "29103997",
+      "22515485",
+      "10640565",
+      "37569537",
+      "31589960",
+      "11897024",
+      "16494962",
+      "28637756",
+      "41055214",
+      "32817218",
+      "32712910",
+      "31299122",
+      "34000991",
+      "8257287",
+      "40288078",
+      "27803181",
+      "30383829",
+      "34448455",
+      "29237829",
+      "33001599",
+      "34656333",
+      "26431690",
+      "28122979",
+      "18831774",
+      "10729156",
+      "35107373",
+      "32873755",
+      "38797853",
+      "23768067",
+      "28261669",
+      "33952664",
+      "41354934",
+      "40455157",
+      "41305427",
+      "36504386",
+      "39212930",
+      "29997213",
+      "39287447",
+      "29080786",
+      "23983005",
+      "39531012",
+      "31337286",
+      "32690954",
+      "11457991",
+      "29900495",
+      "39205165",
+      "26063429",
+      "41032608",
+      "16503363",
+      "33866372",
+      "32676682",
+      "36189246",
+      "39197652",
+      "37011200",
+      "22379100",
+      "38254661",
+      "26884177",
+      "2522556",
+      "38739430",
+      "39205298",
+      "2116525"
+    ],
+    "review": [
+      "39714180",
+      "24330969",
+      "8269709",
+      "26296474",
+      "34960638",
+      "8828152",
+      "29103997",
+      "16494962",
+      "8257287",
+      "40288078",
+      "41305427",
+      "23983005",
+      "31337286",
+      "29900495",
+      "16503363",
+      "36189246"
+    ],
+    "pmc": [
+      "11796362"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/mbio.03200-24?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39714180/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt82r5834n",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      }
+    ],
+    "text_mined": []
+  }
+}

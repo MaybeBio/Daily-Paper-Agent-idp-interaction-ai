@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "39828029",
+    "doi": "10.1016/j.pharmthera.2025.108797",
+    "title": "Conformationally adaptive therapeutic peptides for diseases caused by intrinsically disordered proteins (IDPs). New paradigm for drug discovery: Target the target, not the arrow."
+  },
+  "content": {
+    "abstract": "The traditional model of protein structure determined by the amino acid sequence is today seriously challenged by the fact that approximately half of the human proteome is made up of proteins that do not have a stable 3D structure, either partially or in totality. These proteins, called intrinsically disordered proteins (IDPs), are involved in numerous physiological functions and are associated with severe pathologies, e.g. Alzheimer, Parkinson, Creutzfeldt-Jakob, amyotrophic lateral sclerosis (ALS), and type 2 diabetes. Targeting these proteins is challenging for two reasons: i) we need to preserve their physiological functions, and ii) drug design by molecular docking is not possible due to the lack of reliable starting conditions. Faced with this challenge, the solutions proposed by artificial intelligence (AI) such as AlphaFold are clearly unsuitable. Instead, we suggest an innovative approach consisting of mimicking, in short synthetic peptides, the conformational flexibility of IDPs. These peptides, which we call adaptive peptides, are derived from the domains of IDPs that become structured after interacting with a ligand. Adaptive peptides are designed with the aim of selectively antagonizing the harmful effects of IDPs, without targeting them directly but through selected ligands, without affecting their physiological properties. This \"target the target, not the arrow\" strategy is promised to open a new route to drug discovery for currently undruggable proteins.",
+    "keywords": [
+      "Alzheimer",
+      "Conformational plasticity",
+      "Disease",
+      "Gangliosides",
+      "IDP",
+      "Lipid raft",
+      "Parkinson",
+      "Peptide",
+      "Therapy: Innovation"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/antagonists & inhibitors",
+      "Humans",
+      "*Drug Discovery/methods",
+      "*Peptides/therapeutic use/chemistry/pharmacology",
+      "Protein Conformation",
+      "Animals",
+      "Drug Design"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fantini, Jacques",
+        "Azzaz, Fodil",
+        "Di Scala, Coralie",
+        "Aulas, Anais",
+        "Chahinian, Henri",
+        "Yahi, Nouara"
+      ],
+      "short_names": [
+        "Fantini J",
+        "Azzaz F",
+        "Di Scala C",
+        "Aulas A",
+        "Chahinian H",
+        "Yahi N"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Aix-Marseille University, INSERM UA 16, Faculty of Medicine, 13015 Marseille, France. Electronic address: jacques.fantini@univ-amu.fr.",
+        "Aix-Marseille University, INSERM UA 16, Faculty of Medicine, 13015 Marseille, France.",
+        "Neuroscience Center-HiLIFE, Helsinki Institute of Life Science, University of Helsinki, 00014 Helsinki, Finland.",
+        "Neuroscience Center-HiLIFE, Helsinki Institute of Life Science, University of Helsinki, 00014 Helsinki, Finland.",
+        "Aix-Marseille University, INSERM UA 16, Faculty of Medicine, 13015 Marseille, France.",
+        "Aix-Marseille University, INSERM UA 16, Faculty of Medicine, 13015 Marseille, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fantini, Jacques",
+        "short_name": "Fantini J",
+        "identifiers": [],
+        "affiliations": [
+          "Aix-Marseille University, INSERM UA 16, Faculty of Medicine, 13015 Marseille, France. Electronic address: jacques.fantini@univ-amu.fr."
+        ]
+      },
+      {
+        "full_name": "Azzaz, Fodil",
+        "short_name": "Azzaz F",
+        "identifiers": [],
+        "affiliations": [
+          "Aix-Marseille University, INSERM UA 16, Faculty of Medicine, 13015 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Di Scala, Coralie",
+        "short_name": "Di Scala C",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience Center-HiLIFE, Helsinki Institute of Life Science, University of Helsinki, 00014 Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Aulas, Anaïs",
+        "short_name": "Aulas A",
+        "identifiers": [],
+        "affiliations": [
+          "Neuroscience Center-HiLIFE, Helsinki Institute of Life Science, University of Helsinki, 00014 Helsinki, Finland."
+        ]
+      },
+      {
+        "full_name": "Chahinian, Henri",
+        "short_name": "Chahinian H",
+        "identifiers": [],
+        "affiliations": [
+          "Aix-Marseille University, INSERM UA 16, Faculty of Medicine, 13015 Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Yahi, Nouara",
+        "short_name": "Yahi N",
+        "identifiers": [],
+        "affiliations": [
+          "Aix-Marseille University, INSERM UA 16, Faculty of Medicine, 13015 Marseille, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Pharmacology & therapeutics"
+    ],
+    "journal_abbrev": [
+      "Pharmacol Ther"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/20 22:53",
+    "fetched_at": "2026-09-21 14:54:21"
+  },
+  "links": {
+    "cites": [
+      "42398074",
+      "42278235",
+      "42057792",
+      "41584669",
+      "41471836",
+      "40637574",
+      "40423094",
+      "40362582",
+      "40097723"
+    ],
+    "refs": [],
+    "similar": [
+      "39828029",
+      "34922214",
+      "21686180",
+      "30979035",
+      "31441158",
+      "30278223",
+      "30471705",
+      "31667555",
+      "26549326",
+      "34197833",
+      "38368657",
+      "25287424",
+      "27844185",
+      "31425549",
+      "24098099",
+      "26513658",
+      "40532196",
+      "30875980",
+      "36291736",
+      "26923286",
+      "33917117",
+      "38987470",
+      "34626492",
+      "30352491",
+      "24871565",
+      "25611056",
+      "39537071",
+      "41082321",
+      "34390736",
+      "35196007",
+      "29364151",
+      "37108059",
+      "26931396",
+      "40325419",
+      "32103094",
+      "34799573",
+      "29385704",
+      "26387110",
+      "29808548",
+      "40423592",
+      "35883018",
+      "30471704",
+      "25496281",
+      "25863585",
+      "33411518",
+      "35436286",
+      "34347206",
+      "35609776",
+      "29928798",
+      "36178373",
+      "40198840",
+      "30218496",
+      "32020911",
+      "40490488",
+      "30840442",
+      "33513387",
+      "38097100",
+      "35034725",
+      "26126425",
+      "39740355",
+      "31739058",
+      "27004461",
+      "34545666",
+      "34504009",
+      "31809054",
+      "28734076",
+      "30066087",
+      "31756456",
+      "38296708",
+      "33530506",
+      "32579908",
+      "38118365",
+      "36674958",
+      "41174305",
+      "29306779",
+      "38338831",
+      "30909517",
+      "39665260",
+      "32227937",
+      "31382021",
+      "33355572",
+      "35131537",
+      "33207637",
+      "25974317",
+      "37219402",
+      "34358545",
+      "26325592",
+      "32859072",
+      "37338049",
+      "24532081",
+      "38039868",
+      "40029731",
+      "34610267",
+      "30002402",
+      "25849651",
+      "40095314",
+      "33310020",
+      "30992509",
+      "29990433",
+      "41556566"
+    ],
+    "review": [
+      "39828029",
+      "34922214",
+      "21686180",
+      "30979035",
+      "31441158",
+      "30278223",
+      "30471705",
+      "31667555",
+      "26549326",
+      "38368657",
+      "25287424",
+      "30875980",
+      "33917117",
+      "30352491",
+      "34390736",
+      "29364151",
+      "40325419",
+      "26387110",
+      "40423592",
+      "25863585",
+      "34347206",
+      "32020911",
+      "40490488",
+      "30840442",
+      "38097100",
+      "26126425",
+      "39740355",
+      "27004461",
+      "34545666",
+      "30066087",
+      "38296708",
+      "33530506",
+      "38118365",
+      "29306779",
+      "30909517",
+      "31382021",
+      "33355572",
+      "33207637",
+      "37219402",
+      "34358545",
+      "26325592",
+      "24532081",
+      "38039868",
+      "34610267",
+      "25849651"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0163-7258(25)00009-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/39828029.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3993",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

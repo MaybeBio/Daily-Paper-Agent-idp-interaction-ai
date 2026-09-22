@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40080692",
+  "title": "Impact of Polydispersity on Phase Separation: Insights from Polyethylene Glycol and Dextran Mixtures.",
+  "authors": "Kamo, Akari; Nikoubashman, Arash; Yanagisawa, Miho",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-03-14",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过PEG/Dextran混合物的实验与模拟研究多分散性对相分离的影响，虽对象非IDP，但相分离机制建模思路对无序蛋白凝聚体研究有可迁移启发。",
+  "abstract": "The dynamic formation of (bio)molecular condensates has emerged as a key regulatory mechanism in cellular processes. Concepts from polymer physics can provide valuable insights into the underlying mechanisms and properties of these condensates. While stoichiometric interactions between chemically distinct molecules have traditionally been the primary focus for understanding and predicting the equilibrium behavior, recent attention has turned to the role of molecular diversity, particularly the interplay between molecules of similar types but varying chain lengths. To mimic such cellular conditions, we investigated the impact of molecular weight polydispersity using polyethylene glycol (PEG) and dextran (Dex) solutions through experiments and molecular simulations. Our findings reveal that polydisperse systems, which contain a higher fraction of short-chain components, exhibit a narrower two-phase region, along with reduced concentration differences and interfacial tension between the coexisting polymer-rich and polymer-poor phases. In these systems, the Dex-rich phase is enriched with longer Dex chains compared to the PEG-rich phase, with a gradual transition in chain length across their interface. However, polydispersity has no significant effects on the critical concentration and critical exponents. Finally, our study of condensation kinetics demonstrates that phase separation is not limited by the nucleation rate but instead by the diffusion-driven aggregation of polymers.",
+  "abstract_zh": "（生物）分子凝聚体的动态形成已成为细胞过程中的关键调控机制。聚合物物理学的概念可为理解这些凝聚体的潜在机制和性质提供宝贵见解。尽管化学上不同分子间的化学计量相互作用传统上是理解和预测平衡行为的主要焦点，但近期关注已转向分子多样性的作用，特别是相似类型但链长不同的分子间的相互作用。为模拟此类细胞条件，我们通过实验和分子模拟研究了使用聚乙二醇（PEG）和葡聚糖（Dex）溶液时分子量多分散性的影响。我们的发现表明，含有较高比例短链组分的多分散体系表现出更窄的两相区域，同时共存富聚合物相和贫聚合物相之间的浓度差及界面张力降低。在这些体系中，与富PEG相相比，富Dex相富集了更长的Dex链，且其界面处链长呈逐渐过渡。然而，多分散性对临界浓度和临界指数无显著影响。最后，我们对凝聚动力学的研究表明，相分离不受成核速率限制，而是受聚合物扩散驱动的聚集所限制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40080692/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40080692/",
+  "paper_page_path": "papers/pubmed/40080692/index.html"
+}

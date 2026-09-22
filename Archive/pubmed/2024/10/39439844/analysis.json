@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39439844",
+  "title": "Navigating STEM careers with AI mentors: a new IDP journey.",
+  "authors": "Chang, Chi-Ning; Hui, John; Justus-Smith, Cammie; Wang, Tzu-Wei",
+  "journal": "Frontiers in artificial intelligence",
+  "published_date": "2024-10-23",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究AI导师在STEM职业发展中的个人发展计划(IDP)应用，与无序蛋白/蛋白互作/相分离等生物物理课题完全无关。",
+  "abstract": "INTRODUCTION: Mentoring is crucial to the success of STEM higher education. The Individual Development Plan (IDP) is a common career development tool in STEM graduate education that facilitates structured mentor-mentee interactions and goal setting. This study examined the integration of AI mentors into the myIDP framework to provide real-time support and career insights. METHODS: Using Google Gemini as an AI mentor, this study developed and assessed AI prompts within the myIDP framework. Eighteen STEM graduate students, primarily from underrepresented groups, were trained to engage with the AI mentor. Their interactions, feedback, and comments were analyzed using sentiment and thematic analysis. RESULTS: Participants reported positive experiences with AI mentors, noting benefits, such as immediate responses, up-to-date information, access to multiple AI mentors, enhanced ownership of career development, and time savings. However, concerns about misinformation, bias, privacy, equity, and algorithmic influences have also been raised. The study identified two hybrid human-AI mentoring models-Sequential Integration and Concurrent Collaboration-that combine the unique strengths of human and AI mentors to enhance the mentoring process. DISCUSSION: This study underscores the potential of AI mentors to enhance IDP practices by providing timely feedback and career information, thereby empowering students in their STEM career development. The proposed human-AI mentoring models show promise in supporting underrepresented minorities, potentially broadening participation in STEM fields.",
+  "abstract_zh": "引言：导师指导对于STEM高等教育的成功至关重要。个人发展计划（IDP）是STEM研究生教育中常见的职业发展工具，有助于促进结构化的导师-学员互动和目标设定。本研究探讨了将AI导师整合到myIDP框架中，以提供实时支持和职业见解。方法：本研究使用Google Gemini作为AI导师，在myIDP框架内开发并评估了AI提示词。十八名STEM研究生，主要来自代表性不足群体，接受了与AI导师互动的培训。通过情感分析和主题分析，对其互动、反馈和评论进行了分析。结果：参与者报告了对AI导师的积极体验，指出了即时响应、信息更新及时、可访问多个AI导师、增强职业发展自主性以及节省时间等益处。然而，也提出了对错误信息、偏见、隐私、公平性和算法影响的担忧。本研究识别出两种混合人机导师模式——顺序整合和并行协作——结合了人类和AI导师的独特优势，以增强导师指导过程。讨论：本研究强调了AI导师通过提供及时反馈和职业信息来增强IDP实践的潜力，从而赋能学生的STEM职业发展。所提出的人机导师模式在支持代表性不足的少数群体方面显示出前景，可能拓宽STEM领域的参与度。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39439844/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39439844/",
+  "paper_page_path": "papers/pubmed/39439844/index.html"
+}

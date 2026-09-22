@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34241389",
+  "title": "Multiscale modeling of genome organization with maximum entropy optimization.",
+  "authors": "Lin, Xingcheng; Qi, Yifeng; Latham, Andrew P; Zhang, Bin",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2021-07-10",
+  "window": {
+    "start": "2021-07-05",
+    "end": "2021-07-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该文综述了用最大熵优化的多尺度粗粒化模型建模基因组3D组织，并提及该方法揭示无序蛋白相分离的物理化学相互作用，虽对象非IDP-PPI，但建模思路对无序蛋白互作机制研究有可迁移启发。",
+  "abstract": "Three-dimensional (3D) organization of the human genome plays an essential role in all DNA-templated processes, including gene transcription, gene regulation, and DNA replication. Computational modeling can be an effective way of building high-resolution genome structures and improving our understanding of these molecular processes. However, it faces significant challenges as the human genome consists of over 6 x 10(9) base pairs, a system size that exceeds the capacity of traditional modeling approaches. In this perspective, we review the progress that has been made in modeling the human genome. Coarse-grained models parameterized to reproduce experimental data via the maximum entropy optimization algorithm serve as effective means to study genome organization at various length scales. They have provided insight into the principles of whole-genome organization and enabled de novo predictions of chromosome structures from epigenetic modifications. Applications of these models at a near-atomistic resolution further revealed physicochemical interactions that drive the phase separation of disordered proteins and dictate chromatin stability in situ. We conclude with an outlook on the opportunities and challenges in studying chromosome dynamics.",
+  "abstract_zh": "人类基因组的三维（3D）组织在所有DNA模板化过程中扮演着至关重要的角色，包括基因转录、基因调控和DNA复制。计算建模可以成为构建高分辨率基因组结构并增进我们对这些分子过程理解的有效途径。然而，它面临着重大挑战，因为人类基因组由超过6 x 10(9)个碱基对组成，这一系统规模超出了传统建模方法的能力范围。在此视角中，我们回顾了在人类基因组建模方面取得的进展。通过最大熵优化算法参数化以重现实验数据的粗粒化模型，成为研究不同长度尺度下基因组组织的有效手段。这些模型提供了对全基因组组织原理的洞察，并实现了从表观遗传修饰从头预测染色体结构。在近原子分辨率下应用这些模型，进一步揭示了驱动无序蛋白质相分离并决定染色质原位稳定性的物理化学相互作用。最后，我们展望了研究染色体动力学中的机遇与挑战。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34241389/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34241389/",
+  "paper_page_path": "papers/pubmed/34241389/index.html"
+}

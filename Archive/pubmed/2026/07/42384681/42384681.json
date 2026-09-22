@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "pmid": "42384681",
+    "doi": "10.1073/pnas.2527873123",
+    "title": "Combinatorial decision-making driven by multicomponent surface condensates."
+  },
+  "content": {
+    "abstract": "Living organisms rely on molecular networks, such as gene circuits and signaling pathways, for information processing and robust decision-making in crowded, noisy environments. Recent advances show that interacting biomolecules self-organize by phase transitions into coexisting spatial compartments called condensates, often on cellular surfaces such as chromatin and membranes. In this paper, we demonstrate that multicomponent fluids can be designed to recruit distinct condensates to surfaces with differing compositions, performing a form of surface classification by condensation. We draw an analogy to multidimensional classification in machine learning and explore how hidden species, analogous to hidden nodes, expand the expressivity and capacity of these interacting ensembles to facilitate complex decision boundaries. By simply changing levels of individual species, we find that the same molecular repertoire can be reprogrammed to solve new tasks. Together, our findings suggest that the physical processes underlying biomolecular condensates can encode and drive adaptive information processing beyond compartmentalization.",
+    "keywords": [
+      "biophysics",
+      "condensates",
+      "molecular computation",
+      "self-organization"
+    ],
+    "mesh_terms": [
+      "*Biomolecular Condensates/chemistry",
+      "Phase Separation",
+      "Machine Learning",
+      "Surface Properties"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zentner, Aidan",
+        "Halingstad, Ethan V",
+        "Chalk, Cameron",
+        "Brenner, Michael P",
+        "Murugan, Arvind",
+        "Winfree, Erik",
+        "Shrinivas, Krishna"
+      ],
+      "short_names": [
+        "Zentner A",
+        "Halingstad EV",
+        "Chalk C",
+        "Brenner MP",
+        "Murugan A",
+        "Winfree E",
+        "Shrinivas K"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-0612-385X",
+        "ORCID: 0000-0002-5673-7947",
+        "ORCID: 0000-0002-4167-9385"
+      ],
+      "affiliations": [
+        "School of Engineering and Applied Sciences, Harvard University, Cambridge, MA 02138. ROR: https://ror.org/03vek6s52",
+        "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL 60208.",
+        "Center for Synthetic Biology, Northwestern University, Evanston, IL 60208.",
+        "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago, IL 60611.",
+        "Computation and Neural Systems, California Institute of Technology, Pasadena, CA 91125. ROR: https://ror.org/05dxps055",
+        "School of Engineering and Applied Sciences, Harvard University, Cambridge, MA 02138. ROR: https://ror.org/03vek6s52",
+        "Department of Physics, Harvard University, Cambridge, MA 02138. ROR: https://ror.org/03vek6s52",
+        "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago, IL 60611.",
+        "Department of Physics, University of Chicago, Chicago, IL 60637. ROR: https://ror.org/024mw5h28",
+        "Computation and Neural Systems, California Institute of Technology, Pasadena, CA 91125. ROR: https://ror.org/05dxps055",
+        "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL 60208.",
+        "Center for Synthetic Biology, Northwestern University, Evanston, IL 60208.",
+        "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago, IL 60611."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zentner, Aidan",
+        "short_name": "Zentner A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Engineering and Applied Sciences, Harvard University, Cambridge, MA 02138."
+        ]
+      },
+      {
+        "full_name": "Halingstad, Ethan V",
+        "short_name": "Halingstad EV",
+        "identifiers": [
+          "0009-0008-0612-385X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL 60208.",
+          "Center for Synthetic Biology, Northwestern University, Evanston, IL 60208.",
+          "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago, IL 60611."
+        ]
+      },
+      {
+        "full_name": "Chalk, Cameron",
+        "short_name": "Chalk C",
+        "identifiers": [],
+        "affiliations": [
+          "Computation and Neural Systems, California Institute of Technology, Pasadena, CA 91125."
+        ]
+      },
+      {
+        "full_name": "Brenner, Michael P",
+        "short_name": "Brenner MP",
+        "identifiers": [
+          "0000-0002-5673-7947"
+        ],
+        "affiliations": [
+          "School of Engineering and Applied Sciences, Harvard University, Cambridge, MA 02138.",
+          "Department of Physics, Harvard University, Cambridge, MA 02138."
+        ]
+      },
+      {
+        "full_name": "Murugan, Arvind",
+        "short_name": "Murugan A",
+        "identifiers": [],
+        "affiliations": [
+          "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago, IL 60611.",
+          "Department of Physics, University of Chicago, Chicago, IL 60637."
+        ]
+      },
+      {
+        "full_name": "Winfree, Erik",
+        "short_name": "Winfree E",
+        "identifiers": [],
+        "affiliations": [
+          "Computation and Neural Systems, California Institute of Technology, Pasadena, CA 91125."
+        ]
+      },
+      {
+        "full_name": "Shrinivas, Krishna",
+        "short_name": "Shrinivas K",
+        "identifiers": [
+          "0000-0002-4167-9385"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Northwestern University, Evanston, IL 60208.",
+          "Center for Synthetic Biology, Northwestern University, Evanston, IL 60208.",
+          "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago, IL 60611."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 Jul 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/01 18:34",
+    "fetched_at": "2026-09-18 04:37:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41205601",
+      "40768359",
+      "40764290",
+      "40424940",
+      "40371835",
+      "39978343",
+      "39565317",
+      "39516712",
+      "39080489",
+      "39080253",
+      "38697088",
+      "38383656",
+      "38233621",
+      "37577000",
+      "37359769",
+      "37272568",
+      "36603581",
+      "36470673",
+      "36400990",
+      "36240277",
+      "35867744",
+      "35687671",
+      "35421362",
+      "35421361",
+      "34725154",
+      "34616053",
+      "34599097",
+      "34569155",
+      "34241502",
+      "33395293",
+      "33169001",
+      "32929202",
+      "32726575",
+      "32579968",
+      "32546522",
+      "32004090",
+      "31974256",
+      "31398323",
+      "30981085",
+      "30951647",
+      "30894725",
+      "30506078",
+      "29973727",
+      "28935776",
+      "28886385",
+      "28340338",
+      "28256228",
+      "28225081",
+      "25535383",
+      "23862930",
+      "23352241",
+      "20110992",
+      "19720872",
+      "14683134",
+      "12432407",
+      "11110125",
+      "10591225",
+      "6953413"
+    ],
+    "similar": [
+      "42384681",
+      "42475469",
+      "42531022",
+      "41480717",
+      "23912807",
+      "42420726",
+      "34271007",
+      "38781207",
+      "42474060",
+      "41587927",
+      "39034215",
+      "37252985",
+      "42161866",
+      "42065721",
+      "41343645",
+      "42360027",
+      "39824169",
+      "36993212",
+      "42154217",
+      "37770698",
+      "42105641",
+      "39227569",
+      "37171907",
+      "41266168",
+      "40327693",
+      "41629872",
+      "40545646",
+      "42322777",
+      "40791163",
+      "35881789",
+      "39271032",
+      "31604601",
+      "41500492",
+      "40557772",
+      "41337585",
+      "39366355",
+      "34303933",
+      "38429263",
+      "41662498",
+      "40849651",
+      "42081454",
+      "41469832",
+      "39168125",
+      "40830100",
+      "37894933",
+      "41596484",
+      "41360394",
+      "37772963",
+      "41612036",
+      "41238911",
+      "34552246",
+      "41944040",
+      "42126123",
+      "38971467",
+      "41904915",
+      "41670285",
+      "38848869",
+      "32004090",
+      "41705673",
+      "41758048",
+      "39178343",
+      "41774821",
+      "41979049",
+      "40744081",
+      "41957206",
+      "38781377",
+      "37993409",
+      "39670461",
+      "41203642",
+      "38722189",
+      "39078082",
+      "34785657",
+      "40645941",
+      "40094245",
+      "41540001",
+      "38405951",
+      "34772786",
+      "34772789",
+      "37586369",
+      "33672806",
+      "37925283",
+      "40748104",
+      "41838899",
+      "38466837",
+      "37464880",
+      "38670952",
+      "42315359",
+      "42242225",
+      "36227474",
+      "39482532",
+      "33765580",
+      "34767801",
+      "41692248",
+      "34706978",
+      "37806293",
+      "36071192",
+      "40804711",
+      "40074825",
+      "42149037",
+      "40938216"
+    ],
+    "review": [
+      "42384681",
+      "41480717",
+      "34271007",
+      "42474060",
+      "41587927",
+      "39034215",
+      "42161866",
+      "42065721",
+      "42360027",
+      "39824169",
+      "42154217",
+      "42105641",
+      "37171907",
+      "41266168",
+      "41629872",
+      "42322777",
+      "39271032",
+      "31604601",
+      "41500492",
+      "40557772",
+      "39366355",
+      "34303933",
+      "40849651",
+      "41469832",
+      "41596484",
+      "37772963",
+      "38971467",
+      "41904915",
+      "32004090",
+      "41758048",
+      "39178343",
+      "41979049",
+      "40744081",
+      "41957206",
+      "34772786",
+      "34772789",
+      "37925283",
+      "37464880",
+      "39482532",
+      "33765580",
+      "34767801",
+      "41692248",
+      "34706978",
+      "37806293",
+      "36071192",
+      "40804711",
+      "40938216"
+    ],
+    "pmc": [
+      "13342848"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2527873123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42384681/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "35048531",
+    "doi": "10.1111/febs.16360",
+    "title": "MUL1-RING recruits the substrate, p53-TAD as a complex with UBE2D2-UB conjugate."
+  },
+  "content": {
+    "abstract": "The RING domain of MUL1 (RING(MUL1) ) alone mediates ubiquitylation of the p53-transactivation domain (TAD(p53) ). To elucidate the mechanism underlying the simultaneous recruitment of UBE2D2 and the substrate TAD(p53) by RING(MUL1) , we determined the complex structure of RING(MUL1) :UBE2D2 and studied the interaction between RING(MUL1) and TAD(p53) in the presence of UBE2D2-UB thioester (UBE2D2~UB) mimetics. The RING(MUL1) -binding induced the closed conformation of UBE2D2(S22R/C85S) -UB(K48R) oxyester (UBE2D2(RS) -UB(R) (OE) ), and strongly accelerated its hydrolysis, which was suppressed by the additional N77A-mutation of UBE2D2. Interestingly, UBE2D2(S22R/N77A/C85S) -UB(K48R) oxyester (UBE2D2(RAS) -UB(R) (OE) ) already formed a closed conformation in the absence of RING(MUL1) . Although TAD(p53) exhibited weak binding for RING(MUL1) or UBE2D2 alone, its binding affinity was enhanced and even further for RING(MUL1) :UBE2D2 and RING(MUL1) :UBE2D2(RAS) -UB(R) (OE) , respectively. The recognition of TAD(p53) by RING(MUL1) as a complex with UBE2D2~UB is related to the multivalency of the binding events and underlies the ability of RING(MUL1) to ubiquitylate the intrinsically disordered protein, TAD(p53) .",
+    "keywords": [
+      "MUL1 RING domain",
+      "NMR",
+      "UBE2D2",
+      "p53 transactivation domain",
+      "ubiquitin"
+    ],
+    "mesh_terms": [
+      "Protein Binding",
+      "*Tumor Suppressor Protein p53/metabolism",
+      "*Ubiquitin/metabolism",
+      "Ubiquitin-Conjugating Enzymes/metabolism",
+      "Ubiquitin-Protein Ligases/metabolism",
+      "Ubiquitination"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Min-Sung",
+        "Lee, Sang-Ok",
+        "Choi, Joonhyeok",
+        "Ryu, Minju",
+        "Lee, Mi-Kyung",
+        "Kim, Ji-Hun",
+        "Hwang, Eunha",
+        "Lee, Chong-Kil",
+        "Chi, Seung-Wook",
+        "Ryu, Kyoung-Seok"
+      ],
+      "short_names": [
+        "Lee MS",
+        "Lee SO",
+        "Choi J",
+        "Ryu M",
+        "Lee MK",
+        "Kim JH",
+        "Hwang E",
+        "Lee CK",
+        "Chi SW",
+        "Ryu KS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8422-6669"
+      ],
+      "affiliations": [
+        "Disease Target Structure Research Center, Division of Biomedical Research, KRIBB, Daejeon, South Korea.",
+        "Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, South Korea.",
+        "Disease Target Structure Research Center, Division of Biomedical Research, KRIBB, Daejeon, South Korea.",
+        "College of Pharmacy, Chungbuk National University, Cheongju-si, South Korea.",
+        "Ochang Center, Korea Basic Science Institute, Cheongju-Si, South Korea.",
+        "Disease Target Structure Research Center, Division of Biomedical Research, KRIBB, Daejeon, South Korea.",
+        "Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, South Korea.",
+        "Disease Target Structure Research Center, Division of Biomedical Research, KRIBB, Daejeon, South Korea.",
+        "Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, South Korea.",
+        "College of Pharmacy, Chungbuk National University, Cheongju-si, South Korea.",
+        "Ochang Center, Korea Basic Science Institute, Cheongju-Si, South Korea.",
+        "College of Pharmacy, Chungbuk National University, Cheongju-si, South Korea.",
+        "Disease Target Structure Research Center, Division of Biomedical Research, KRIBB, Daejeon, South Korea.",
+        "Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, South Korea.",
+        "Ochang Center, Korea Basic Science Institute, Cheongju-Si, South Korea.",
+        "Department of Bio-Analytical Science, University of Science and Technology, Daejeon, South Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Min-Sung",
+        "short_name": "Lee MS",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Target Structure Research Center, Division of Biomedical Research, KRIBB, Daejeon, South Korea.",
+          "Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, South Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Sang-Ok",
+        "short_name": "Lee SO",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Target Structure Research Center, Division of Biomedical Research, KRIBB, Daejeon, South Korea.",
+          "College of Pharmacy, Chungbuk National University, Cheongju-si, South Korea."
+        ]
+      },
+      {
+        "full_name": "Choi, Joonhyeok",
+        "short_name": "Choi J",
+        "identifiers": [],
+        "affiliations": [
+          "Ochang Center, Korea Basic Science Institute, Cheongju-Si, South Korea."
+        ]
+      },
+      {
+        "full_name": "Ryu, Minju",
+        "short_name": "Ryu M",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Target Structure Research Center, Division of Biomedical Research, KRIBB, Daejeon, South Korea.",
+          "Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, South Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Mi-Kyung",
+        "short_name": "Lee MK",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Target Structure Research Center, Division of Biomedical Research, KRIBB, Daejeon, South Korea.",
+          "Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, South Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Ji-Hun",
+        "short_name": "Kim JH",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chungbuk National University, Cheongju-si, South Korea."
+        ]
+      },
+      {
+        "full_name": "Hwang, Eunha",
+        "short_name": "Hwang E",
+        "identifiers": [],
+        "affiliations": [
+          "Ochang Center, Korea Basic Science Institute, Cheongju-Si, South Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Chong-Kil",
+        "short_name": "Lee CK",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy, Chungbuk National University, Cheongju-si, South Korea."
+        ]
+      },
+      {
+        "full_name": "Chi, Seung-Wook",
+        "short_name": "Chi SW",
+        "identifiers": [],
+        "affiliations": [
+          "Disease Target Structure Research Center, Division of Biomedical Research, KRIBB, Daejeon, South Korea.",
+          "Department of Proteome Structural Biology, KRIBB School of Bioscience, University of Science and Technology, Daejeon, South Korea."
+        ]
+      },
+      {
+        "full_name": "Ryu, Kyoung-Seok",
+        "short_name": "Ryu KS",
+        "identifiers": [
+          "0000-0002-8422-6669"
+        ],
+        "affiliations": [
+          "Ochang Center, Korea Basic Science Institute, Cheongju-Si, South Korea.",
+          "Department of Bio-Analytical Science, University of Science and Technology, Daejeon, South Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The FEBS journal"
+    ],
+    "journal_abbrev": [
+      "FEBS J"
+    ],
+    "pub_date": "2022 Jun",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/21 06:00",
+    "fetched_at": "2026-09-20 07:47:03"
+  },
+  "links": {
+    "cites": [
+      "41362701",
+      "41083601",
+      "41083456",
+      "39339186",
+      "39313481",
+      "37962001",
+      "37060572"
+    ],
+    "refs": [
+      "32613009",
+      "32416094",
+      "31929179",
+      "31235254",
+      "29430834",
+      "29188417",
+      "29067766",
+      "28827147",
+      "28766807",
+      "27754618",
+      "27485899",
+      "27422544",
+      "27126246",
+      "27034206",
+      "27002219",
+      "25950237",
+      "25801170",
+      "25505092",
+      "25471371",
+      "24898855",
+      "24841215",
+      "24499665",
+      "23747565",
+      "23316052",
+      "22902369",
+      "22885007",
+      "22842904",
+      "22410793",
+      "21597459",
+      "21226485",
+      "20383002",
+      "20126473",
+      "20124702",
+      "19782077",
+      "19489725",
+      "19007744",
+      "18591963",
+      "18573080",
+      "18213395",
+      "18207745",
+      "17164524",
+      "16543155",
+      "16159876",
+      "15264254",
+      "14744430",
+      "14517261",
+      "11046142",
+      "8520220",
+      "2610349"
+    ],
+    "similar": [
+      "35048531",
+      "31929179",
+      "31235254",
+      "25471371",
+      "25003393",
+      "32503993",
+      "23259674",
+      "22885007",
+      "25543083",
+      "28790309",
+      "29311602",
+      "30242710",
+      "32747811",
+      "30850057",
+      "25825779",
+      "30910030",
+      "28322253",
+      "30446597",
+      "28162934",
+      "32398758",
+      "24906799",
+      "21226485",
+      "22350918",
+      "22551455",
+      "23671280",
+      "36142504",
+      "27378730",
+      "33086510",
+      "20585566",
+      "29626159",
+      "28614034",
+      "24912152",
+      "36323865",
+      "29496391",
+      "19240029",
+      "26475854",
+      "27565346",
+      "21532592",
+      "18703417",
+      "25799589",
+      "17426036",
+      "33361156",
+      "28786561",
+      "30242699",
+      "22507829",
+      "21158740",
+      "25065893",
+      "23550736",
+      "22081111",
+      "27570077",
+      "30459234",
+      "29964046",
+      "25527291",
+      "20064473",
+      "35525199",
+      "16543155",
+      "23656784",
+      "31350353",
+      "13678584",
+      "29432170",
+      "21357418",
+      "28461335",
+      "16427630",
+      "32101714",
+      "23416107",
+      "27569044",
+      "25969509",
+      "25646477",
+      "23665229",
+      "22081612",
+      "29326975",
+      "21518764",
+      "32416094",
+      "20133640",
+      "23936405",
+      "20152160",
+      "28827147",
+      "30242709",
+      "25065467",
+      "30455251",
+      "18287095",
+      "32393902",
+      "18821010",
+      "24924398",
+      "34057440",
+      "37636942"
+    ],
+    "review": [
+      "35048531",
+      "36323865",
+      "21158740",
+      "25065893",
+      "28827147"
+    ],
+    "pmc": [
+      "9304225"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/35048531.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35048531/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35048531",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/febs.16360",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

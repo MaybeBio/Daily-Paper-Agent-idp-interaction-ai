@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33741410",
+  "title": "Unstructural Biology of TRP Ion Channels: The Role of Intrinsically Disordered Regions in Channel Function and Regulation.",
+  "authors": "Goretzki, Benedikt; Guhl, Charlotte; Tebbe, Frederike; Harder, Jean-Martin; Hellmich, Ute A",
+  "journal": "Journal of molecular biology",
+  "published_date": "2021-03-21",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文综述TRP离子通道中无序区域(IDR)与蛋白/脂质互作在通道功能调控中的作用，对象为IDR且涉及PPI，但缺乏AI/物理模拟方法，机制建模深度有限。",
+  "abstract": "The first genuine high-resolution single particle cryo-electron microscopy structure of a membrane protein determined was a transient receptor potential (TRP) ion channel, TRPV1, in 2013. This methodical breakthrough opened up a whole new world for structural biology and ion channel aficionados alike. TRP channels capture the imagination due to the sheer endless number of tasks they carry out in all aspects of animal physiology. To date, structures of at least one representative member of each of the six mammalian TRP channel subfamilies as well as of a few non-mammalian families have been determined. These structures were instrumental for a better understanding of TRP channel function and regulation. However, all of the TRP channel structures solved so far are incomplete since they miss important information about highly flexible regions found mostly in the channel N- and C-termini. These intrinsically disordered regions (IDRs) can represent between a quarter to almost half of the entire protein sequence and act as important recruitment hubs for lipids and regulatory proteins. Here, we analyze the currently available TRP channel structures with regard to the extent of these \"missing\" regions and compare these findings to disorder predictions. We discuss select examples of intra- and intermolecular crosstalk of TRP channel IDRs with proteins and lipids as well as the effect of splicing and post-translational modifications, to illuminate their importance for channel function and to complement the prevalently discussed structural biology of these versatile and fascinating proteins with their equally relevant 'unstructural' biology.",
+  "abstract_zh": "首个真正高分辨率的膜蛋白单颗粒冷冻电镜结构是2013年解析的瞬时受体电位（TRP）离子通道TRPV1。这一方法学突破为结构生物学和离子通道爱好者打开了一个全新的世界。TRP通道因其在动物生理学各个方面承担的无数任务而引人入胜。迄今为止，已解析了六个哺乳动物TRP通道亚家族中每个至少一个代表成员以及少数非哺乳动物家族的结构。这些结构对于更好地理解TRP通道功能和调控起到了关键作用。然而，目前所有已解析的TRP通道结构都不完整，因为它们缺少主要位于通道N端和C端的高度柔性区域的重要信息。这些固有无序区域（IDRs）可占整个蛋白质序列的四分之一至近一半，并作为脂质和调控蛋白的重要招募中心。在此，我们分析了当前可用的TRP通道结构，以评估这些“缺失”区域的范围，并将这些发现与无序性预测进行比较。我们讨论了TRP通道IDRs与蛋白质和脂质之间分子内和分子间相互作用的选定实例，以及剪接和翻译后修饰的影响，以阐明它们对通道功能的重要性，并补充这些多功能且迷人蛋白质的结构生物学讨论，同时强调其同样相关的“非结构”生物学。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33741410/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33741410/",
+  "paper_page_path": "papers/pubmed/33741410/index.html"
+}

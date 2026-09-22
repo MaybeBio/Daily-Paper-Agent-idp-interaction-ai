@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37207400",
+  "title": "Towards sequence-based principles for protein phase separation predictions.",
+  "authors": "Vendruscolo, Michele; Fuxreiter, Monika",
+  "journal": "Current opinion in chemical biology",
+  "published_date": "2023-05-20",
+  "window": {
+    "start": "2023-05-15",
+    "end": "2023-05-21"
+  },
+  "score": 7,
+  "one_liner_zh": "综述序列层面预测蛋白相分离倾向的原理，聚焦熵贡献与序列编码，虽无具体AI/物理建模方法，但为IDR相分离预测提供机制性框架，对无序蛋白互作建模有启发。",
+  "abstract": "The phenomenon of protein phase separation, which underlies the formation of biomolecular condensates, has been associated with numerous cellular functions. Recent studies indicate that the amino acid sequences of most proteins may harbour not only the code for folding into the native state but also for condensing into the liquid-like droplet state and the solid-like amyloid state. Here we review the current understanding of the principles for sequence-based methods for predicting the propensity of proteins for phase separation. A guiding concept is that entropic contributions are generally more important to stabilise the droplet state than they are for the native and amyloid states. Although estimating these entropic contributions has proven difficult, we describe some progress that has been recently made in this direction. To conclude, we discuss the challenges ahead to extend sequence-based prediction methods of protein phase separation to include quantitative in vivo characterisations of this process.",
+  "abstract_zh": "蛋白质相分离（phase separation）现象是生物分子凝聚体形成的基础，并与众多细胞功能相关联。近期研究表明，大多数蛋白质的氨基酸序列可能不仅编码折叠成天然态的信息，还编码凝聚成液态液滴态和固态淀粉样态的信息。在此，我们回顾了当前基于序列方法预测蛋白质相分离倾向性的原理理解。一个指导性概念是，熵贡献通常对稳定液滴态更为重要，相较于天然态和淀粉样态而言。尽管估算这些熵贡献已被证明具有挑战性，我们描述了该方向近期取得的一些进展。最后，我们讨论了将蛋白质相分离的序列预测方法扩展至包含该过程定量体内表征所面临的未来挑战。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37207400/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37207400/",
+  "paper_page_path": "papers/pubmed/37207400/index.html"
+}

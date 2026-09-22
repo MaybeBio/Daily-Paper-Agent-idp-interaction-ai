@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.04.29.651207",
+  "title": "High resolution mapping of the actin fusion focus reveals myosin V-dependent transport of formin for actin aster compaction",
+  "authors": "Thomas V; Mase H; Michon L; Picco A; Kaksonen M; Martin SG",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-01",
+  "window": {
+    "start": "2025-04-28",
+    "end": "2025-05-04"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过高分辨率成像追踪裂殖酵母细胞融合位点，揭示肌球蛋白V转运甲酸蛋白Fus1驱动肌动蛋白星体凝聚的机制，涉及凝聚体形成蛋白但未采用AI或物理模拟方法，且互作机制为实验观测而非计算建模。",
+  "abstract": "Many cellular processes such as polarized growth and secretion require the formation of specific actin networks. In fungi, the morphogenetic process of cell-cell fusion requires cell wall digestion mediated by the local secretion of lytic enzymes at the site of cell-cell contact. In Schizosaccharomyces pombe , lytic enzyme-containing secretory vesicles are transported by the myosin V Myo52 on the actin fusion focus, an aster-like actin network assembled by the condensate-forming formin Fus1. The fusion focus also concentrates proteins regulating cell polarity, cell-cell communication, actin cytoskeleton, exocytosis and membrane merging, but their precise position from the time of focus formation to cell fusion is unknown. Here, using centroid tracking and averaging, we present a first spatiotemporal map of the fusion site with a precision of 8 nm. We show that the bulk of secretory vesicles remains at constant distance from the plasma membrane as the actin structure condenses. Notably, though necessary to transport vesicles, Myo52 detaches from the vesicle pool and colocalizes with Fus1 in a more membrane-proximal position. We show that Myo52 physically interacts with Fus1 and transports it along actin filaments, and that Myo52 and Fus1 actin assembly activity contribute to focus compaction. Thus, myosin V-driven transport of the formin Fus1 along actin filaments nucleated by other Fus1 molecules underlies a positive feedback mechanism for actin aster formation.",
+  "abstract_zh": "许多细胞过程，如极性生长和分泌，需要特定肌动蛋白网络的形成。在真菌中，细胞-细胞融合的形态发生过程需要细胞壁消化，这一过程由裂解酶在细胞接触位点的局部分泌介导。在裂殖酵母（Schizosaccharomyces pombe）中，含有裂解酶的分泌囊泡由肌球蛋白V Myo52沿肌动蛋白融合焦点运输，该焦点是由凝聚形成蛋白formin Fus1组装成的星状肌动蛋白网络。融合焦点还富集了调控细胞极性、细胞间通讯、肌动蛋白细胞骨架、胞吐和膜融合的蛋白质，但它们在焦点形成至细胞融合期间的精确位置尚不清楚。在此，我们利用质心追踪和平均化方法，以8纳米精度呈现了融合位点的首个时空图谱。我们显示，随着肌动蛋白结构的凝聚，大部分分泌囊泡与质膜保持恒定距离。值得注意的是，尽管Myo52对囊泡运输是必需的，但它从囊泡池中脱离，并与Fus1共定位于更靠近膜的位置。我们证明，Myo52与Fus1发生物理相互作用，并沿肌动蛋白丝运输Fus1，且Myo52和Fus1的肌动蛋白组装活性共同促进焦点压实。因此，肌球蛋白V驱动的formin Fus1沿由其他Fus1分子成核的肌动蛋白丝运输，构成了肌动蛋白星体形成的正反馈机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651207",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.04.29.651207",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.04.29.651207/index.html"
+}

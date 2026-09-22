@@ -1,0 +1,178 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.08.29.505644",
+  "title": "Improved methodology for protein NMR structure calculation using hydrogen bond restraints and ANSURR validation: the SH2 domain of SH2B1",
+  "doi": "10.1101/2022.08.29.505644",
+  "abstract": "Protein structures calculated using NMR data are less accurate and less well defined than they could be. Here we use the program ANSURR to show that this deficiency is at least in part due to a lack of hydrogen bond restraints. We then describe a protocol to introduce hydrogen bond restraints into the structure calculation of the SH2 domain from SH2B1 in a systematic and transparent way, and show that the structures generated are more accurate and better defined as a result. We also show that ANSURR can be used as a guide to know when the structure calculation is good enough to stop.",
+  "authors": [
+    "Fowler NJ",
+    "Albalwi MF",
+    "Lee S",
+    "Hounslow AM",
+    "Williamson MP"
+  ],
+  "published_date": "2022-08-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.08.29.505644",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.08.29.505644.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR537760",
+    "raw_record": {
+      "id": "PPR537760",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR537760"
+        ]
+      },
+      "doi": "10.1101/2022.08.29.505644",
+      "title": "Improved methodology for protein NMR structure calculation using hydrogen bond restraints and ANSURR validation: the SH2 domain of SH2B1",
+      "authorString": "Fowler NJ, Albalwi MF, Lee S, Hounslow AM, Williamson MP.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Fowler NJ",
+            "lastName": "Fowler",
+            "firstName": "Nicholas",
+            "initials": "NJ"
+          },
+          {
+            "fullName": "Albalwi MF",
+            "lastName": "Albalwi",
+            "firstName": "Marym",
+            "initials": "MF"
+          },
+          {
+            "fullName": "Lee S",
+            "lastName": "Lee",
+            "firstName": "Subin",
+            "initials": "S"
+          },
+          {
+            "fullName": "Hounslow AM",
+            "lastName": "Hounslow",
+            "firstName": "Andrea",
+            "initials": "AM"
+          },
+          {
+            "fullName": "Williamson MP",
+            "lastName": "Williamson",
+            "firstName": "Mike",
+            "initials": "MP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5572-1903"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5572-1903"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Protein structures calculated using NMR data are less accurate and less well defined than they could be. Here we use the program ANSURR to show that this deficiency is at least in part due to a lack of hydrogen bond restraints. We then describe a protocol to introduce hydrogen bond restraints into the structure calculation of the SH2 domain from SH2B1 in a systematic and transparent way, and show that the structures generated are more accurate and better defined as a result. We also show that ANSURR can be used as a guide to know when the structure calculation is good enough to stop.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/08/29/2022.08.29.505644.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.08.29.505644"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR537760"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR537760&type=FILE&fileName=EMS153549-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37311460",
+            "reference": "Structure (London, England : 1993). 2023 Aug;31(8):975-986.e3",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS153549",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-08-31",
+      "firstPublicationDate": "2022-08-29",
+      "firstIndexDate": "2022-08-31",
+      "fullTextReceivedDate": "2022-10-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

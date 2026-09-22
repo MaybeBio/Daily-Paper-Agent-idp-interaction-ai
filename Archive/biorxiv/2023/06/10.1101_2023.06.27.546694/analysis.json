@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.27.546694",
+  "title": "A novel role for the peptidyl-prolyl cis-trans isomerase Cyclophilin A in DNA-repair following replication fork stalling via the MRE11-RAD50-NBS1 complex",
+  "authors": "Bedir M; Outwin E; Colnaghi R; Bassett L; Abramowicz I; O’Driscoll M",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-28",
+  "window": {
+    "start": "2023-06-26",
+    "end": "2023-07-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究Cyclophilin A通过PPI酶活性与MRN复合物互作参与DNA修复，对象为折叠蛋白且无IDP/相分离背景，方法以实验为主，仅PPI一词与课题表面相关，无AI/物理模拟建模，故低分。",
+  "abstract": "We previously reported that non-homologous end-joining (NHEJ)-defective human LIG4 -/- pre-B lymphocytes were unexpectedly sensitive to killing by the cyclic peptide Cyclosporin A (CsA), a common component of bone marrow transplantation conditioning and maintenance regimes. We also found that CsA induced DNA double strand breaks (DSBs) in LIG4 syndrome patient fibroblasts, specifically upon transit through S-phase. The molecular basis underlying these CsA impacts has not been described hitherto. We postulated that CsA-induced genomic instability may reflect a direct role of Cyclophilin A (CYPA) in DNA repair, as CYPA is the primary physiological target interactor of CsA. CYPA is the founding member of the Cyclophilin family of peptidyl-prolyl cis-trans isomerases (PPIs). CsA inhibits the PPI activity of CYPA through occupation of the latter’s enzymatic active site. Using an integrated approach involving CRISPR/Cas9-engineering, siRNA, BioID, co-immunoprecipitation, pathway-specific DNA repair investigations as well as protein expression-interaction analysis, we describe novel impacts of CYPA loss and inhibition of its PPI activity on DNA repair. Prompted by findings from our CYPA-BioID proximity interactome, we validate CYPA interactions with different components of the DNA end resection machinery. Moreover, we characterise a novel and direct CYPA interaction with the NBS1 component of the MRE11-RAD50-NBS1 (MRN) complex, providing evidence that the PPI function of CYPA actively influences DNA repair via direct protein-protein interaction at the level of DNA end resection. Consequently, we demonstrate that CYPA loss or inhibition impairs Homologous Recombination Repair (HRR) following DNA replication fork stalling. Additionally, we define a set of genetic vulnerabilities associated with CYPA loss and inhibition, identifying DNA replication fork protection as an important determinant of viability herein. Leveraging the novel insights into CYPA biology we have uncovered; we explore examples of how CYPA PPI inhibition may be exploited to selectively kill cells from a variety of different cancers with a shared characteristic genomic instability profile. These findings propose a potential new disease application or repurposing strategy for the non-immunosuppressive CsA analogue class of Cyclophilin inhibitors.",
+  "abstract_zh": "我们此前报道过，非同源末端连接（NHEJ）缺陷的人LIG4 -/-前B淋巴细胞对环肽环孢素A（CsA）的杀伤作用表现出意外敏感性，而CsA是骨髓移植预处理和维持方案中的常见组分。我们还发现，CsA在LIG4综合征患者成纤维细胞中诱导DNA双链断裂（DSBs），且特异性地在S期通过期间发生。这些CsA影响的分子基础迄今尚未被描述。我们假设，CsA诱导的基因组不稳定性可能反映了亲环蛋白A（CYPA）在DNA修复中的直接作用，因为CYPA是CsA的主要生理靶标相互作用因子。CYPA是亲环蛋白家族肽基脯氨酰顺反异构酶（PPIs）的创始成员。CsA通过占据CYPA的酶活性位点来抑制其PPI活性。利用涉及CRISPR/Cas9工程、siRNA、BioID、免疫共沉淀、通路特异性DNA修复研究以及蛋白表达-相互作用分析的综合方法，我们描述了CYPA缺失及其PPI活性抑制对DNA修复的新影响。受CYPA-BioID邻近相互作用组发现的启发，我们验证了CYPA与DNA末端切除机制不同组分的相互作用。此外，我们表征了CYPA与MRE11-RAD50-NBS1（MRN）复合物中NBS1组分的新型直接相互作用，提供证据表明CYPA的PPI功能通过DNA末端切除层面的直接蛋白-蛋白相互作用积极影响DNA修复。因此，我们证明CYPA缺失或抑制会损害DNA复制叉停滞后的同源重组修复（HRR）。另外，我们定义了一组与CYPA缺失和抑制相关的遗传脆弱性，确定DNA复制叉保护是此处生存能力的重要决定因素。利用我们揭示的CYPA生物学新见解，我们探索了如何利用CYPA PPI抑制来选择性地杀死具有共同基因组不稳定性特征的各种不同癌症细胞。这些发现为无免疫抑制作用的CsA类似物类亲环蛋白抑制剂提出了潜在的新疾病应用或药物再利用策略。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.27.546694",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.27.546694",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.27.546694/index.html"
+}

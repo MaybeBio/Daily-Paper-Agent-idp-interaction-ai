@@ -1,0 +1,61 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The claims and methodological guidance presented in the abstract, not the full chapter content
+- **Shared manuscript claim summary** The abstract claims that computational structure and disorder prediction tools, while powerful, are biased toward classical proteins and that microproteins present unique challenges requiring tailored workflows and precautions for reliable prediction and analysis
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or results sections provided
+- **Missing materials affecting confidence** Full chapter text, all figures and tables, any validation data or case studies, detailed workflow descriptions, and references
+
+## Reviewer
+- **Overall assessment** The abstract presents a timely and potentially useful methodological perspective on applying structure and disorder prediction tools to microproteins. The core premise, that prediction models trained on classical proteins may underperform on short or atypical sequences, is plausible and relevant to a growing community studying small open reading frame-encoded proteins. However, the abstract provides only a high-level outline of workflows and precautions without any concrete evidence, examples, or validation. As an abstract for a methods chapter, the lack of specificity is not fatal, but the scientific case for the claimed biases and the effectiveness of the proposed precautions cannot be assessed from the supplied material. The writing is clear and accessible, though the abstract reads more as an introduction than as a summary of specific methodological content.
+- **Who would be interested in the results, and why** Researchers studying microproteins, small open reading frame-encoded peptides, or short proteins in development and disease contexts would find this chapter relevant. Additionally, computational biologists and bioinformaticians who apply structure prediction tools to noncanonical or short sequences, and experimentalists seeking guidance on interpreting prediction outputs for small proteins, would benefit. The chapter could also interest developers of prediction methods who need to understand the limitations of their tools on atypical substrates.
+- **Major strengths** The abstract identifies a genuine and underexplored gap in the application of prediction tools to microproteins. The framing around training biases in prediction models is scientifically sound and likely accurate. The emphasis on practical precautions and workflows is appropriate for a methods-oriented chapter and addresses a real need in the community. The writing is concise and accessible to a broad audience.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that microproteins present unique challenges making homology detection more difficult and requiring careful methodological considerations, and that the proposed workflows ensure reliable insights
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract asserts that microproteins pose unique challenges and that the described workflows and precautions lead to reliable insights, but no specific evidence, examples, or validation data are presented. It is unclear what constitutes the "unique challenges" beyond short length and molecular interactions, and no demonstration is given that the proposed precautions actually improve reliability.
+  - **Why it matters** For a methods chapter, the scientific value depends on the validity and utility of the recommended workflows. Without evidence that the precautions address real failure modes or that the workflows produce accurate predictions on microproteins, the chapter's contribution cannot be evaluated. The claim of "reliable insights" is particularly strong and requires support.
+  - **Resolution test** Provide in the full chapter specific case studies or benchmarks comparing prediction performance on microproteins versus classical proteins, and demonstrate that the proposed precautions measurably improve accuracy or interpretability. If such data exist, cite them explicitly in the abstract or provide them in the main text.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope and specificity
+  - **Claim pointer** The abstract states that workflows for predicting, analyzing, and refining microprotein structures and disorders are outlined
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify which prediction tools are covered, what the workflows entail, or what the "key precautions" are. The reader cannot determine whether the chapter offers novel methodological guidance or merely a compilation of existing practices. The abstract lacks any concrete detail that would distinguish this chapter from general reviews of structure prediction.
+  - **Why it matters** A methods chapter must provide actionable, specific guidance. The abstract's vagueness prevents assessment of the chapter's practical value and originality. Without naming tools, parameters, or decision criteria, the claims of utility are unverifiable.
+  - **Resolution test** Revise the abstract to name at least the main prediction tools discussed, summarize the workflow steps, and list one or two specific precautions with their rationale. This would allow reviewers and readers to gauge the chapter's specificity and contribution.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract sentence on training biases
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "favoring specific sequence lengths and patterns" is vague. It is unclear whether the bias is toward longer sequences, particular amino acid compositions, or specific fold classes.
+  - **Required correction** Specify the nature of the bias, for example, that training sets are dominated by globular domains of 100 to 500 residues, or that disordered regions are underrepresented.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "disorders" in the title and "disorder" in the abstract
+  - **Evidence pointer** Title and abstract text; location not provided
+  - **Issue** The term "disorders" in the title is potentially ambiguous, as it could be read as diseases rather than protein disorder. The abstract uses "disorder" correctly, but the title may confuse nonspecialist readers.
+  - **Required correction** Consider revising the title to "Structure and Disorder Prediction of Microproteins" or adding a clarifying phrase such as "intrinsic disorder" to avoid ambiguity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope statement
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract mentions "molecular interactions" as a challenge but does not explain how the workflows address interactions, such as with partners or membranes. This is a potentially important aspect for microproteins.
+  - **Required correction** Add a brief statement on whether and how interaction contexts are handled in the prediction and refinement workflows.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical failings. The abstract does not provide sufficient evidence or specificity to establish that the proposed workflows are reliable or novel. These must be addressed by providing concrete examples, tool names, and validation data in the full chapter, and by revising the abstract to reflect that content.
+- **Assessment against Nature-style criteria** Originality: The focus on microproteins as a distinct prediction challenge is a relatively underexplored angle, giving the chapter potential originality, though the abstract does not demonstrate what is new beyond general caution. Scientific importance: Microproteins are of growing biological interest, and reliable prediction tools would be valuable, so the topic is important. Interdisciplinary readership: The abstract is accessible to both computational and experimental biologists, and the topic bridges structural biology, bioinformatics, and cell biology. Technical soundness: Cannot be assessed from the abstract alone; the claims of bias and reliability are plausible but unverified. Readability for nonspecialists: The abstract is clear and jargon-light, which is a strength, though the title's use of "disorders" may confuse.
+- **Recommendation posture** Supportive if technical concerns are resolved. The topic is relevant and the premise is sound, but the abstract alone does not establish the scientific case. The full chapter must provide concrete workflows, named tools, and evidence of effectiveness. If the chapter delivers on these, it would be a useful contribution to the methods literature.
+
+## Risk / unsupported claims
+- The claim that microproteins present "unique challenges" beyond short length and molecular interactions is unsupported in the abstract.
+- The claim that the outlined workflows and precautions ensure "reliable insights" is unsupported and cannot be evaluated without validation data.
+- The claim that prediction models are biased toward "classical proteins" is plausible but not substantiated with specific examples or references in the abstract.
+- The general statement that computational predictions "in some cases, rival experimental results" is a broad claim that would benefit from citation, though it is likely uncontroversial.

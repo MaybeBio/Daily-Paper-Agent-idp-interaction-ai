@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34157332",
+  "title": "Normal mode calculation and infrared spectroscopy of proteins in water solution: Relationship between amide I transition dipole strength and secondary structure.",
+  "authors": "Ripanti, Francesca; Luchetti, Nicole; Nucara, Alessandro; Minicozzi, Velia; Venere, Almerinda Di; Filabozzi, Alessandra; Carbonaro, Marina",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2021-06-23",
+  "window": {
+    "start": "2021-06-21",
+    "end": "2021-06-27"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用红外光谱、简正模式计算和分子动力学研究蛋白质酰胺I偶极强度与二级结构的关系，涉及无序蛋白但无PPI互作机制，方法为物理模拟但非互作建模，与本课题关联较弱。",
+  "abstract": "Dipole Strength (DS) of the amides has gained a renewed interest in chemical physics since it provides an important tool to disclose the on-site vibrational energy distributions. Apart from earlier experimental efforts on polypeptides, little is still known about DS in complex proteins. We accurately measured the Fourier Transform Infrared absorption spectra of nine proteins in water solution obtaining their Molar Extinction Coefficient in the amide I and II spectral region. Our results show that the amide I DS value depends on the protein secondary structure, being that of the alpha-rich and unstructured proteins lower by a factor of 2 than that of the beta-rich proteins. The average DS for amino acids in alpha and beta secondary structures confirms this finding. Normal Mode calculation and Molecular Dynamics were performed and used as tools for data analysis and interpretation. The present outcomes corroborate the hypothesis that antiparallel beta-sheet environment is more prone to delocalize the on-site CO stretching vibration through coupling mechanisms between carbonyl groups, whereas alpha-helix structures are energetically less stable to permit vibrational mode delocalization.",
+  "abstract_zh": "酰胺的二极子强度（DS）在化学物理学中重新引起关注，因为它为揭示位点振动能量分布提供了重要工具。除了早期对多肽的实验研究外，关于复杂蛋白质中DS的了解仍然很少。我们精确测量了九种蛋白质在水溶液中的傅里叶变换红外吸收光谱，获得了它们在酰胺I和酰胺II光谱区域的摩尔消光系数。我们的结果表明，酰胺I的DS值依赖于蛋白质的二级结构，其中α-丰富和无结构蛋白质的DS值比β-丰富蛋白质低2倍。氨基酸在α和β二级结构中的平均DS值证实了这一发现。我们进行了正则模式计算和分子动力学模拟，并将其用作数据分析和解释的工具。当前结果支持以下假设：反平行β-折叠环境更倾向于通过羰基之间的耦合机制使位点CO伸缩振动离域，而α-螺旋结构在能量上较不稳定，难以允许振动模式离域。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34157332/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34157332/",
+  "paper_page_path": "papers/pubmed/34157332/index.html"
+}

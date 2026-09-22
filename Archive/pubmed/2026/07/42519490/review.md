@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, limitations, and conclusion. Figures and supplementary materials were referenced but not provided.
+- **Assessment boundary** This review evaluates the scientific claims, methodological rigor, and interpretive validity of the presented integrative phosphoproteomic analysis. It does not assess editorial fit or journal-specific policy compliance.
+- **Shared manuscript claim summary** The authors claim that integrative analysis of large-scale human phosphoproteomic datasets identifies three predominant YTHDC1 phosphosites (S308, S146, S424), predicts upstream kinases, and reveals co-regulated phosphosites in other proteins enriched for splicing and tumorigenesis-associated functions, thereby constructing a putative phosphomodulatory network for YTHDC1.
+- **Visible evidence base** Text descriptions of methods and results, including counts of datasets, phosphosites, and co-regulated proteins. References to Figures 1–7 and Supplementary Tables S1–S4, none of which were provided for inspection.
+- **Missing materials affecting confidence** All figures, all supplementary tables, the specific list of source datasets with PubMed IDs, the full list of 44 phosphosites, the complete co-regulated protein lists, and the detailed outputs of kinase prediction and enrichment analyses. Without these, quantitative claims and network interpretations cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a bioinformatics-driven hypothesis-generating study on YTHDC1 phosphorylation. The conceptual framing is reasonable and the analytical pipeline is described in moderate detail. However, the absence of all primary data outputs, figures, and supplementary materials prevents verification of the central claims. The statistical approach for co-regulation is described only in outline, and the leap from correlational phosphosite co-occurrence to a "phosphomodulatory network" with functional implications is not adequately justified. The manuscript would benefit from clearer presentation of the analytical workflow, explicit reporting of effect sizes and confidence intervals, and a more cautious interpretive tone regarding functional consequences.
+- **Who would be interested in the results, and why** Researchers studying m6A RNA modification, YTH domain proteins, phosphoproteomics, and RNA splicing regulation would find this resource-oriented analysis of interest. The compiled dataset of YTHDC1 phosphosites across hundreds of studies could serve as a reference for future targeted investigations. Cancer biologists studying post-translational regulation of RNA-binding proteins may also find the tumor-associated correlations worth following up experimentally.
+- **Major strengths**
+  - The study addresses a genuine gap: the phosphoregulation of YTHDC1 is understudied relative to its well-characterized m6A reader functions.
+  - The integration of a large number of public datasets (938 profiling, 198 differential) represents a substantial data-mining effort.
+  - The phosphosite-centric analytical framework is a sensible alternative to conventional protein-level phosphoproteomic analyses.
+  - The identification of splicing-related co-regulated proteins and kinases is biologically coherent with known YTHDC1 functions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence availability
+  - **Claim pointer** The manuscript claims identification of 44 phosphosites from profiling data and 32 from differential data, with S308, S146, and S424 designated as predominant based on frequency of occurrence and differential regulation.
+  - **Evidence pointer** Results section, "Global phosphoproteomic exploration of YTHDC1 and mapping of phosphopeptides and predominant phosphosites"; Supplementary Table S1; Figure 1
+  - **Concern** The core quantitative results are presented only as summary counts. The full list of 44 phosphosites, the per-dataset occurrence matrix, the frequency rankings, and the criteria application for "predominance" are not visible. The threshold of "more than 50% of qualitative and quantitative profile datasets" is stated in Methods, but the actual percentages for S308, S146, and S424 are not reported. Without the underlying data, the designation of these three sites as predominant cannot be evaluated.
+  - **Why it matters** The entire downstream analysis depends on the correct identification of predominant phosphosites. If the frequency calculations are flawed, or if the 50% threshold is applied inconsistently, all subsequent co-regulation, kinase prediction, and enrichment results are compromised.
+  - **Resolution test** Provide Supplementary Table S1 with the complete phosphosite list, per-dataset detection matrix, and frequency calculations. Report the exact percentage of datasets in which each of the three predominant phosphosites appears, separately for qualitative and quantitative datasets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The manuscript claims identification of 823 positively and 27 negatively co-regulated PsOPs for S308, 1682 and 139 for S146, and 595 and 101 for S424, based on a one-sided Fisher's exact test with four filtering criteria.
+  - **Evidence pointer** Methods section, "Identification of protein phosphosites co-differentially regulated with predominant YTHDC1 phosphosites"; Results section, "Co-regulated phosphosites associated with YTHDC1 predominant phosphosites"; Supplementary Table S2; Figure 3
+  - **Concern** The statistical framework is described only in outline. The contingency table construction is explained, but the multiple testing burden is not addressed. With thousands of phosphosites tested across multiple datasets, the number of expected false positives at p < 0.05 is substantial. No correction for multiple comparisons is mentioned. Additionally, the requirement of "a minimum of three separate experimental conditions" and "three independent publications" is stated, but the rationale for these thresholds is not given, and the sensitivity of results to these cutoffs is not explored.
+  - **Why it matters** The co-regulated PsOP lists form the basis for all functional enrichment and network interpretations. If the statistical thresholds are permissive and uncorrected, the resulting networks may be dominated by noise, leading to spurious biological conclusions.
+  - **Resolution test** Report the number of tests performed, apply an appropriate multiple testing correction (e.g., Benjamini-Hochberg FDR), and show how the co-regulated PsOP counts change with varying p-value thresholds and filtering criteria. Provide the full contingency table data for a representative subset of PsOPs to demonstrate the method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretive validity
+  - **Claim pointer** The manuscript claims that co-regulated PsOPs are "enriched in the YTHDC1 phosphoregulatory network" and that the findings "suggest a potential role of YTHDC1 predominant phosphosites in tumor-associated pathways."
+  - **Evidence pointer** Results sections, "Functional characterization of the predominant phosphosites of YTHDC1 and its co-regulated protein network" and "The role of YTHDC1 in cancer"; Figures 4 and 7; Supplementary Figure S1
+  - **Concern** The interpretive leap from co-occurrence of phosphosites in datasets to a functional "phosphoregulatory network" is not justified. Co-regulation in this analysis means that two phosphosites are both detected as up- or downregulated in the same experimental conditions. This is a correlational observation that could arise from shared upstream signaling cascades, similar protein turnover rates, or technical artifacts, without implying direct regulatory relationships. The manuscript does not distinguish between these possibilities. Furthermore, the cancer association is based solely on the frequency of YTHDC1 phosphosite detection in cancer cell lines, which may reflect dataset composition bias rather than biological relevance.
+  - **Why it matters** The title and conclusion claim a "phosphomodulatory network linked to splicing and tumorigenesis." If the evidence only supports correlational co-occurrence, this overstates the findings and could mislead readers into assuming causal or direct regulatory relationships that have not been demonstrated.
+  - **Resolution test** Rewrite the interpretive sections to explicitly acknowledge the correlational nature of the analysis. Distinguish between "co-regulated" and "co-regulated by the same kinase" or "directly interacting." Provide a network figure that clearly differentiates predicted kinase-substrate relationships, binary protein interactions, and mere co-occurrence. Soften the cancer-related claims to reflect that these are hypothesis-generating observations requiring experimental validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological completeness
+  - **Claim pointer** The manuscript claims that "phosphomotif-based analysis identified upstream kinases such as MAPK14, CDK7, AKT1, and PAK1" and that "annotation of phosphosites in these kinases co-regulated with the predominant YTHDC1 phosphosites demonstrated their association with kinase activity."
+  - **Evidence pointer** Methods section, "Identification of upstream kinases and binary interactors of YTHDC1"; Results section, "Predicted upstream kinases regulating YTHDC1 phosphorylation"; Supplementary Table S3A; Figure 5
+  - **Concern** The kinase prediction methodology is described in a single sentence referencing a protocol from Johnson et al. (2023). The specific tools, scoring thresholds, sequence context used, and how predictions from different methods were reconciled are not described. The claim that co-regulated phosphosites in the predicted kinases "demonstrated their association with kinase activity" is vague. What does "association with kinase activity" mean operationally? Was this a functional annotation enrichment, a literature-based assertion, or a computational prediction?
+  - **Why it matters** Kinase prediction is a central component of the proposed network. Without a transparent description of the prediction pipeline and the evidence linking predicted kinases to activity, the network reconstruction cannot be reproduced or critically evaluated.
+  - **Resolution test** Provide a detailed step-by-step description of the kinase prediction workflow, including tool versions, parameters, scoring thresholds, and how conflicting predictions were resolved. Define "association with kinase activity" and provide the specific evidence for each of the four named kinases. Include the full prediction results in Supplementary Table S3A.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Identification of predominant YTHDC1 phosphosites in cellular phosphoproteomes"
+  - **Evidence pointer** Methods section, "Identification of predominant YTHDC1 phosphosites in cellular phosphoproteomes"
+  - **Issue** The criterion "identified in more than 50% of qualitative and quantitative profile datasets" is ambiguous. Does this mean 50% of qualitative datasets and 50% of quantitative datasets separately, or 50% of the combined total? The two interpretations could yield different results.
+  - **Required correction** Clarify the exact calculation. State whether the 50% threshold applies to each dataset type independently or to the combined dataset count.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "Systematic phosphoproteomic dataset screening for YTHDC1 phosphosites"
+  - **Evidence pointer** Methods section, "Systematic phosphoproteomic dataset screening for YTHDC1 phosphosites"
+  - **Issue** The literature search strategy is described as using keywords "phosphoproteomics" OR "phosphoproteome" while excluding "Plant" and "Review". The search date, the number of articles screened versus included, and the exclusion criteria beyond the two stated keywords are not reported. The PRISMA-style flow diagram is standard for systematic reviews and would improve transparency.
+  - **Required correction** Report the search date, the total number of articles retrieved, the number excluded at each stage, and the specific inclusion and exclusion criteria applied during screening.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement
+  - **Issue** The statement says "further inquiries can be directed to the corresponding author." For a study that integrates hundreds of public datasets, the derived data (e.g., the compiled phosphosite frequency table, the co-regulation matrix) should be deposited in a public repository to ensure accessibility and reproducibility.
+  - **Required correction** Deposit the compiled dataset and all derived analysis outputs in a public repository (e.g., Zenodo, Figshare) and provide the accession number in the Data availability statement.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results, "The role of YTHDC1 in cancer"
+  - **Evidence pointer** Results section, "The role of YTHDC1 in cancer"; Figure 7
+  - **Issue** The statement "The higher occurrence of phosphorylation events in cancer cell lines compared with other cell types suggests that there may be a potential association between YTHDC1 phosphorylation and tumorigenesis" is presented without statistical support. A simple chi-square test comparing the proportion of cancer versus non-cancer datasets would strengthen this claim.
+  - **Required correction** Add a statistical comparison of phosphosite detection frequency between cancer and non-cancer cell lines, and report the test statistic and p-value.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Title, Abstract, Results, Discussion
+  - **Issue** The term "phosphomodulatory network" is used throughout but is never formally defined. It is unclear whether this refers to a network of kinase-substrate relationships, a co-regulation network, or a combination of both.
+  - **Required correction** Define "phosphomodulatory network" explicitly in the Introduction or Methods, and use the term consistently with that definition throughout the manuscript.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Absence of primary data outputs (phosphosite lists, frequency tables) prevents verification of the predominant phosphosite designation.
+  - R1-M2: No multiple testing correction in the co-regulation analysis; the statistical thresholds are arbitrary and their sensitivity is unexplored.
+  - R1-M3: The interpretive framework overstates the functional significance of correlational co-regulation data.
+  - R1-M4: The kinase prediction methodology is insufficiently described for reproducibility.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The phosphosite-centric integration of public datasets is not entirely novel, but applying it specifically to YTHDC1 fills a defined gap. The approach is derivative of existing phosphoproteomic mining strategies.
+  - **Scientific importance** Moderate. YTHDC1 is a biologically significant protein, and understanding its phosphoregulation could have implications for RNA biology and cancer. However, the study is hypothesis-generating and does not provide mechanistic insight.
+  - **Interdisciplinary readership** Limited. The study will primarily interest specialists in m6A biology, phosphoproteomics, and RNA splicing. The bioinformatics approach is not sufficiently innovative to attract a broader computational biology audience.
+  - **Technical soundness** Currently not established. The statistical framework has unresolved issues (multiple testing, arbitrary thresholds), and the absence of primary data prevents evaluation of the analytical pipeline.
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally clearly written, but the Methods section assumes familiarity with phosphoproteomic terminology and would benefit from a brief primer on key concepts such as phosphosite localization probability and A-score.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and the analytical concept is sound, but the absence of all primary data outputs, the unresolved statistical issues, and the overinterpretation of correlational findings prevent endorsement. The authors should be invited to resubmit after addressing the blocking concerns, particularly by providing the full dataset, applying appropriate multiple testing corrections, and substantially revising the interpretive language to match the evidence level.
+
+## Risk / unsupported claims
+- The designation of S308, S146, and S424 as "predominant" phosphosites is unverifiable without the underlying frequency data.
+- The claim of a "phosphomodulatory network linked to splicing and tumorigenesis" is not supported by the evidence presented, which is correlational and computational in nature.
+- The predicted upstream kinases (MAPK14, CDK7, AKT1, PAK1) are presented without experimental validation or a clear description of the prediction confidence.
+- The statement that co-regulated PsOPs "demonstrated their association with kinase activity" is vague and not operationally defined.
+- The cancer association claims are based on dataset frequency distributions without statistical testing or consideration of dataset composition bias.
+- The functional enrichment results are described only in narrative form; no enrichment scores, significance values, or gene lists are provided.
+- The claim that "none of the predominant phosphosites were evolutionarily conserved" is presented without the alignment data or the species set used for comparison.

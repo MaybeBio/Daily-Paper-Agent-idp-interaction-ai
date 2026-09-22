@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "42078357",
+    "doi": "10.64898/2026.04.15.26349265",
+    "title": "THRB splice site variants lead to exon 4 skipping and TRbeta1 gain-of-function syndrome."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Heterozygous c.283+1G>A and c.283G>A variants in the THRB gene, encoding for thyroid hormone receptor (TR)beta1 and beta2, lead to autosomal dominant macular dystrophy (ADMD). We report the detailed clinical characterization of two first-degree relatives with ADMD, heterozygous for THRB c.283+1G>A, and an unrelated ADMD patient with a novel variant, c.283G>C. The genomic and molecular consequences of both variants were studied. METHODS: gDNA and mRNA were obtained from leukocytes. Clinical characterization included biochemistry, bone density and body composition, ECG, echocardiography, ultrasound, audiometry and color-vision. In vitro assays investigated TR function and DNA binding. RESULTS: The patients manifested no resistance to thyroid hormone beta (RTHbeta) and had normal FT4 and TSH. Detailed studies in two patients showed no goiter, tachycardia, hypercholesterinemia or hepatic steatosis. Hearing was not impaired. Both had impaired color vision and reduced bone density. RT-PCR from all three patients revealed skipping of exon 4 exclusive to TRbeta1, producing a deletion of 87 amino acids in the N-terminal domain (TRbeta1(DeltaNTD)). In vitro, DNA-binding affinity of TRbeta1(DeltaNTD) to DR4-TRE with or without RXRalpha was comparable to TRbeta1(WT). Surprisingly, TRbeta1(DeltaNTD) was transcriptionally twice more active than TRbeta1(WT) with a similar EC(50) for T3, demonstrating gain-of-function of TRbeta1(DeltaNTD). THRA expression in leukocytes was increased by 3-fold compared to unrelated controls and different from RTHbeta patients. CONCLUSION: These THRB splice site variants produce TRbeta1 exon 4 skipping, resulting in a gain-of-function mutant, TRbeta1(DeltaNTD). This explains the dominant ADMD phenotype devoid of RTHbeta and suggests a TRbeta1 gain-of-function syndrome.",
+    "keywords": [
+      "THRB",
+      "TRbeta1",
+      "color vision",
+      "exon 4 skipping",
+      "gain-of-function",
+      "intrinsically disordered region",
+      "macular degeneration",
+      "resistance to thyroid hormone (RTH)",
+      "thyroid hormone receptor"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hones, Georg Sebastian",
+        "Liao, Xiao-Hui",
+        "Mahler, Elisa Annabelle",
+        "Herrmann, Philipp",
+        "Eckstein, Anja",
+        "Fuhrer, Dagmar",
+        "Castillo, Jesus Moreno",
+        "Chiang, John",
+        "Vincent, Andrea Louise",
+        "Weiss, Roy E",
+        "Dumitrescu, Alexandra Mihaela",
+        "Refetoff, Samuel",
+        "Moeller, Lars Christian"
+      ],
+      "short_names": [
+        "Hones GS",
+        "Liao XH",
+        "Mahler EA",
+        "Herrmann P",
+        "Eckstein A",
+        "Fuhrer D",
+        "Castillo JM",
+        "Chiang J",
+        "Vincent AL",
+        "Weiss RE",
+        "Dumitrescu AM",
+        "Refetoff S",
+        "Moeller LC"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9330-9036"
+      ],
+      "affiliations": [
+        "Department of Endocrinology, Diabetes and Metabolism and Division of Laboratory Research, Center for Rare Endocrine Diseases/Endo-ERN, University Hospital Essen, Essen, Germany.",
+        "Center Endocrine Medicine, University Hospital Essen, Essen, Germany.",
+        "Department of Medicine, The University of Chicago, Chicago, IL USA.",
+        "Department of Ophthalmology, University Hospital Bonn, Bonn, Germany.",
+        "Ophthalmology Department, Necker Enfants Malades University Hospital, Assistance Publique-Hopitaux de Paris (AP-HP), Paris Cite University, 75015 Paris, France.",
+        "Department of Ophthalmology, University Hospital Bonn, Bonn, Germany.",
+        "Center Endocrine Medicine, University Hospital Essen, Essen, Germany.",
+        "Department of Ophthalmology, Center for Endocrine Medicine, University Hospital Essen, Essen, Germany.",
+        "Department of Endocrinology, Diabetes and Metabolism and Division of Laboratory Research, Center for Rare Endocrine Diseases/Endo-ERN, University Hospital Essen, Essen, Germany.",
+        "Center Endocrine Medicine, University Hospital Essen, Essen, Germany.",
+        "Department of Medicine, The University of Chicago, Chicago, IL USA.",
+        "Molecular Vision Laboratory Hillsboro, Oregon, USA.",
+        "Department of Ophthalmology, New Zealand National Eye Centre, Faculty of Medical and Health Science University of Auckland, Auckland, and Eye Department Greenlane Clinical Centre, Te.",
+        "Department of Medicine, University of Miami Miller School of Medicine, Miami, Florida, USA. Toka Tumai, Health New Zealand, Te Whatu Ora, Auckland New Zealand.",
+        "Department of Medicine, The University of Chicago, Chicago, IL USA.",
+        "Committee on Molecular Metabolism and Nutrition, The University of Chicago, Chicago, IL USA.",
+        "Department of Medicine, The University of Chicago, Chicago, IL USA.",
+        "Department of Pediatrics and Committee on Genetics, The University of Chicago, Chicago, IL USA.",
+        "Department of Endocrinology, Diabetes and Metabolism and Division of Laboratory Research, Center for Rare Endocrine Diseases/Endo-ERN, University Hospital Essen, Essen, Germany.",
+        "Center Endocrine Medicine, University Hospital Essen, Essen, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hönes, Georg Sebastian",
+        "short_name": "Hönes GS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Diabetes and Metabolism and Division of Laboratory Research, Center for Rare Endocrine Diseases/Endo-ERN, University Hospital Essen, Essen, Germany.",
+          "Center Endocrine Medicine, University Hospital Essen, Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "Liao, Xiao-Hui",
+        "short_name": "Liao XH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Chicago, Chicago, IL USA."
+        ]
+      },
+      {
+        "full_name": "Mahler, Elisa Annabelle",
+        "short_name": "Mahler EA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, University Hospital Bonn, Bonn, Germany.",
+          "Ophthalmology Department, Necker Enfants Malades University Hospital, Assistance Publique-Hôpitaux de Paris (AP-HP), Paris Cité University, 75015 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Herrmann, Philipp",
+        "short_name": "Herrmann P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, University Hospital Bonn, Bonn, Germany."
+        ]
+      },
+      {
+        "full_name": "Eckstein, Anja",
+        "short_name": "Eckstein A",
+        "identifiers": [],
+        "affiliations": [
+          "Center Endocrine Medicine, University Hospital Essen, Essen, Germany.",
+          "Department of Ophthalmology, Center for Endocrine Medicine, University Hospital Essen, Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "Führer, Dagmar",
+        "short_name": "Führer D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Endocrinology, Diabetes and Metabolism and Division of Laboratory Research, Center for Rare Endocrine Diseases/Endo-ERN, University Hospital Essen, Essen, Germany.",
+          "Center Endocrine Medicine, University Hospital Essen, Essen, Germany."
+        ]
+      },
+      {
+        "full_name": "Castillo, Jesus Moreno",
+        "short_name": "Castillo JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Chicago, Chicago, IL USA."
+        ]
+      },
+      {
+        "full_name": "Chiang, John",
+        "short_name": "Chiang J",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Vision Laboratory Hillsboro, Oregon, USA."
+        ]
+      },
+      {
+        "full_name": "Vincent, Andrea Louise",
+        "short_name": "Vincent AL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Ophthalmology, New Zealand National Eye Centre, Faculty of Medical and Health Science University of Auckland, Auckland, and Eye Department Greenlane Clinical Centre, Te."
+        ]
+      },
+      {
+        "full_name": "Weiss, Roy E",
+        "short_name": "Weiss RE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, University of Miami Miller School of Medicine, Miami, Florida, USA. Toka Tumai, Health New Zealand, Te Whatu Ora, Auckland New Zealand."
+        ]
+      },
+      {
+        "full_name": "Dumitrescu, Alexandra Mihaela",
+        "short_name": "Dumitrescu AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Chicago, Chicago, IL USA.",
+          "Committee on Molecular Metabolism and Nutrition, The University of Chicago, Chicago, IL USA."
+        ]
+      },
+      {
+        "full_name": "Refetoff, Samuel",
+        "short_name": "Refetoff S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicine, The University of Chicago, Chicago, IL USA.",
+          "Department of Pediatrics and Committee on Genetics, The University of Chicago, Chicago, IL USA."
+        ]
+      },
+      {
+        "full_name": "Moeller, Lars Christian",
+        "short_name": "Moeller LC",
+        "identifiers": [
+          "0000-0002-9330-9036"
+        ],
+        "affiliations": [
+          "Department of Endocrinology, Diabetes and Metabolism and Division of Laboratory Research, Center for Rare Endocrine Diseases/Endo-ERN, University Hospital Essen, Essen, Germany.",
+          "Center Endocrine Medicine, University Hospital Essen, Essen, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "medRxiv : the preprint server for health sciences"
+    ],
+    "journal_abbrev": [
+      "medRxiv"
+    ],
+    "pub_date": "2026 Apr 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/04 12:35",
+    "fetched_at": "2026-09-18 03:06:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41153457",
+      "40295579",
+      "38718835",
+      "37547476",
+      "37033230",
+      "36753417",
+      "33524107",
+      "33353459",
+      "30661751",
+      "29229863",
+      "28379567",
+      "27716857",
+      "26862888",
+      "25903050",
+      "24550448",
+      "22986150",
+      "21594896",
+      "14651789",
+      "8157732"
+    ],
+    "similar": [
+      "42078357",
+      "37547476",
+      "40295579",
+      "34956926",
+      "11726557",
+      "37992217",
+      "31934554",
+      "33333891",
+      "39091608",
+      "10401662",
+      "30027432",
+      "15233549",
+      "9140079",
+      "9827656",
+      "33353459",
+      "41267806",
+      "7491112",
+      "34069457",
+      "26820127",
+      "33960321",
+      "34727089",
+      "21871106",
+      "37587475",
+      "8674808",
+      "22696245",
+      "10566629",
+      "10090317",
+      "32581500",
+      "25633667",
+      "9685218",
+      "37033230",
+      "9605519",
+      "35689814",
+      "41153457",
+      "32635414",
+      "9100577",
+      "32153641",
+      "41997342",
+      "8594618",
+      "9624596",
+      "39713907",
+      "25063548",
+      "30497070",
+      "9348197",
+      "9141558",
+      "19378427",
+      "8701076",
+      "22319036",
+      "41800491",
+      "26241124",
+      "15802373",
+      "31902113",
+      "19268523",
+      "25135573",
+      "39476806",
+      "24031088",
+      "26754848",
+      "23806029",
+      "17218414",
+      "41923883",
+      "9041123",
+      "36506769",
+      "17177139",
+      "28257829",
+      "20691260",
+      "8040316",
+      "42319533",
+      "38877800",
+      "22919057",
+      "42231433",
+      "30707410",
+      "21703645",
+      "28471274",
+      "28527577",
+      "29733698",
+      "16804041",
+      "10691308",
+      "30595106",
+      "26506010",
+      "8175986",
+      "11061510",
+      "26513165",
+      "12382103",
+      "26802880",
+      "19171649",
+      "32733382",
+      "8593822",
+      "30693116",
+      "42045985",
+      "1653889",
+      "7796935",
+      "35864542",
+      "30458118",
+      "39541421",
+      "42099606",
+      "23621778",
+      "2040690",
+      "7838159",
+      "1563081",
+      "16357047"
+    ],
+    "review": [
+      "42078357",
+      "9827656",
+      "41997342",
+      "8594618",
+      "8701076",
+      "22319036",
+      "25135573",
+      "28527577",
+      "39541421"
+    ],
+    "pmc": [
+      "13131726"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42078357/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.04.15.26349265",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

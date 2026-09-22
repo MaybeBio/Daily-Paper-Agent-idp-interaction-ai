@@ -1,0 +1,395 @@
+{
+  "identity": {
+    "pmid": "36988562",
+    "doi": "10.1021/acs.jcim.2c01595",
+    "title": "Structure Determination of Challenging Protein-Peptide Complexes Combining NMR Chemical Shift Data and Molecular Dynamics Simulations."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions of proteins often mediate important protein-protein interactions. However, the folding-upon-binding nature of many polypeptide-protein interactions limits the ability of modeling tools to predict the three-dimensional structures of such complexes. To address this problem, we have taken a tandem approach combining NMR chemical shift data and molecular simulations to determine the structures of peptide-protein complexes. Here, we use the MELD (Modeling Employing Limited Data) technique applied to polypeptide complexes formed with the extraterminal domain (ET) of bromo and extraterminal domain (BET) proteins, which exhibit a high degree of binding plasticity. This system is particularly challenging as the binding process includes allosteric changes across the ET receptor upon binding, and the polypeptide binding partners can adopt different conformations (e.g., helices and hairpins) in the complex. In a blind study, the new approach successfully modeled bound-state conformations and binding poses, using only protein receptor backbone chemical shift data, in excellent agreement with experimentally determined structures for moderately tight (K(d)  approximately 100 nM) binders. The hybrid MELD + NMR approach required additional peptide ligand chemical shift data for weaker (K(d)  approximately 250 muM) peptide binding partners. AlphaFold also successfully predicts the structures of some of these peptide-protein complexes. However, whereas AlphaFold can provide qualitative peptide rankings, MELD can directly estimate relative binding affinities. The hybrid MELD + NMR approach offers a powerful new tool for structural analysis of protein-polypeptide complexes involving disorder-to-order transitions upon complex formation, which are not successfully modeled with most other complex prediction methods, providing both the 3D structures of peptide-protein complexes and their relative binding affinities.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Protein Binding",
+      "*Peptides",
+      "Proteins/chemistry",
+      "Protein Structure, Secondary",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mondal, Arup",
+        "Swapna, G V T",
+        "Lopez, Maria M",
+        "Klang, Laura",
+        "Hao, Jingzhou",
+        "Ma, LiChung",
+        "Roth, Monica J",
+        "Montelione, Gaetano T",
+        "Perez, Alberto"
+      ],
+      "short_names": [
+        "Mondal A",
+        "Swapna GVT",
+        "Lopez MM",
+        "Klang L",
+        "Hao J",
+        "Ma L",
+        "Roth MJ",
+        "Montelione GT",
+        "Perez A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8970-3380",
+        "ORCID: 0000-0002-9440-3059",
+        "ORCID: 0000-0002-5054-5338"
+      ],
+      "affiliations": [
+        "The Quantum Theory Project, Department of Chemistry, University of Florida, Gainesville, Florida 32611, United States.",
+        "Department of Pharmacology, Robert Wood Johnson Medical School, Rutgers, The State University of New Jersey, Piscataway, New Jersey 08854, United States.",
+        "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, New York 12180, United States.",
+        "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, New York 12180, United States.",
+        "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, New York 12180, United States.",
+        "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, New York 12180, United States.",
+        "Department of Pharmacology, Robert Wood Johnson Medical School, Rutgers, The State University of New Jersey, Piscataway, New Jersey 08854, United States.",
+        "Department of Pharmacology, Robert Wood Johnson Medical School, Rutgers, The State University of New Jersey, Piscataway, New Jersey 08854, United States.",
+        "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, New York 12180, United States.",
+        "The Quantum Theory Project, Department of Chemistry, University of Florida, Gainesville, Florida 32611, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mondal, Arup",
+        "short_name": "Mondal A",
+        "identifiers": [
+          "0000-0002-8970-3380"
+        ],
+        "affiliations": [
+          "The Quantum Theory Project, Department of Chemistry, University of Florida, Gainesville, Florida 32611, United States."
+        ]
+      },
+      {
+        "full_name": "Swapna, G V T",
+        "short_name": "Swapna GVT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Robert Wood Johnson Medical School, Rutgers, The State University of New Jersey, Piscataway, New Jersey 08854, United States.",
+          "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, New York 12180, United States."
+        ]
+      },
+      {
+        "full_name": "Lopez, Maria M",
+        "short_name": "Lopez MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, New York 12180, United States."
+        ]
+      },
+      {
+        "full_name": "Klang, Laura",
+        "short_name": "Klang L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, New York 12180, United States."
+        ]
+      },
+      {
+        "full_name": "Hao, Jingzhou",
+        "short_name": "Hao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, New York 12180, United States."
+        ]
+      },
+      {
+        "full_name": "Ma, LiChung",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Robert Wood Johnson Medical School, Rutgers, The State University of New Jersey, Piscataway, New Jersey 08854, United States."
+        ]
+      },
+      {
+        "full_name": "Roth, Monica J",
+        "short_name": "Roth MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, Robert Wood Johnson Medical School, Rutgers, The State University of New Jersey, Piscataway, New Jersey 08854, United States."
+        ]
+      },
+      {
+        "full_name": "Montelione, Gaetano T",
+        "short_name": "Montelione GT",
+        "identifiers": [
+          "0000-0002-9440-3059"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Center for Biotechnology and Interdisciplinary Sciences, Rensselaer Polytechnic Institute, Troy, New York 12180, United States."
+        ]
+      },
+      {
+        "full_name": "Perez, Alberto",
+        "short_name": "Perez A",
+        "identifiers": [
+          "0000-0002-5054-5338"
+        ],
+        "affiliations": [
+          "The Quantum Theory Project, Department of Chemistry, University of Florida, Gainesville, Florida 32611, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2023 Apr 10",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/30 06:00",
+    "fetched_at": "2026-09-20 20:44:12"
+  },
+  "links": {
+    "cites": [
+      "42437078",
+      "42146406",
+      "42039621",
+      "42013870",
+      "41983650",
+      "41979361",
+      "41975608",
+      "41596921",
+      "41298366",
+      "41292843",
+      "41211640",
+      "40766644",
+      "40388903",
+      "40093119",
+      "39893583",
+      "39345459",
+      "38978294",
+      "38877295",
+      "38588243",
+      "38328039",
+      "37529282",
+      "36860646",
+      "36338806",
+      "35769913"
+    ],
+    "refs": [
+      "36563190",
+      "36542066",
+      "35637307",
+      "35013344",
+      "34912846",
+      "34282049",
+      "34265844",
+      "33592170",
+      "33380110",
+      "32813975",
+      "32324992",
+      "31746034",
+      "31612567",
+      "30717654",
+      "30525598",
+      "30407805",
+      "30327139",
+      "30108856",
+      "29567837",
+      "29176719",
+      "29062047",
+      "28834715",
+      "28746339",
+      "28582625",
+      "28042966",
+      "28042965",
+      "27806305",
+      "27545620",
+      "27532687",
+      "27291650",
+      "26858406",
+      "26583988",
+      "26574453",
+      "26488642",
+      "26077712",
+      "26038552",
+      "25788871",
+      "25502373",
+      "24623816",
+      "23897031",
+      "23526461",
+      "23269674",
+      "22554188",
+      "21555454",
+      "20493208",
+      "20431534",
+      "19548092",
+      "19319480",
+      "17984079",
+      "17918726",
+      "17209543",
+      "16981200",
+      "15139819",
+      "12784359",
+      "12580598",
+      "8616269"
+    ],
+    "similar": [
+      "36988562",
+      "39345459",
+      "23912807",
+      "31062799",
+      "26910732",
+      "25207671",
+      "37498491",
+      "36542066",
+      "22803956",
+      "28042965",
+      "28042966",
+      "22829760",
+      "29095607",
+      "20698672",
+      "30840442",
+      "25896389",
+      "12626407",
+      "27287023",
+      "27888839",
+      "21572516",
+      "11297422",
+      "33401765",
+      "26372966",
+      "12617657",
+      "33779503",
+      "19733177",
+      "22153506",
+      "30908034",
+      "34845619",
+      "26742101",
+      "29990433",
+      "20825228",
+      "29276882",
+      "1379072",
+      "15454423",
+      "35655760",
+      "21904908",
+      "21299226",
+      "28236236",
+      "32145192",
+      "26728967",
+      "36149394",
+      "28279820",
+      "28780862",
+      "21668001",
+      "34152264",
+      "35482919",
+      "10842338",
+      "22395160",
+      "32323533",
+      "31683063",
+      "33034007",
+      "28092038",
+      "28597880",
+      "25643174",
+      "36692197",
+      "30730741",
+      "19325869",
+      "1445872",
+      "33122085",
+      "32914959",
+      "35352094",
+      "9691278",
+      "28355271",
+      "23516555",
+      "36727436",
+      "11427046",
+      "9144767",
+      "11727705",
+      "8263915",
+      "17729277",
+      "21523491",
+      "24999015",
+      "9592123",
+      "37373197",
+      "16873467",
+      "33289734",
+      "38732174",
+      "20039666",
+      "25275445",
+      "30802465",
+      "31350773",
+      "1466810",
+      "29747001",
+      "20455260",
+      "31294851",
+      "29023395",
+      "31597702",
+      "36348631",
+      "20017540",
+      "30865832",
+      "24763499",
+      "29359223",
+      "33926076",
+      "30933978",
+      "38588243",
+      "39356805",
+      "36304330",
+      "37277701",
+      "38328039",
+      "38966365",
+      "39303718",
+      "38804015"
+    ],
+    "review": [
+      "36988562",
+      "30840442",
+      "25896389",
+      "27888839",
+      "35655760",
+      "11727705",
+      "39303718"
+    ],
+    "pmc": [
+      "10150588"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36988562/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36988562",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.2c01595",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

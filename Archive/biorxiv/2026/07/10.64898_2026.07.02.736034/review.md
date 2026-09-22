@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusion, supplementary references)
+- **Assessment boundary** Scientific and technical claims as presented in the provided text; no external verification of platform functionality or benchmark data was possible
+- **Shared manuscript claim summary** The authors present Deep-Interact Studio, a web-based, no-code platform for building, training, comparing, and interpreting deep learning models across four biomolecular interaction classes (protein-protein, drug-target, RNA-protein, protein-DNA). They claim it is the only tool combining per-layer model customization, multi-model comparison, interpretability, and reproducibility in a single interface, and demonstrate its utility through a drug-target interaction case study.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results, Conclusion, Author contributions, Supplementary Data description, Funding, Conflict of interest, Data availability
+- **Missing materials affecting confidence** Supplementary sections S1, S2, and S8 (including all figures and tables referenced); benchmark dataset details; platform code and deployment configuration; user documentation; performance comparisons against existing tools
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially valuable platform that addresses a real gap in biomolecular interaction prediction tools. The concept of user-driven model building with integrated comparison and interpretability is timely and relevant. However, the current manuscript provides insufficient technical detail and validation evidence to establish the platform's reliability, performance, or novelty. The case study is described only in summary form, with all substantive results relegated to supplementary materials that were not provided for review. The claims of uniqueness and broad utility are not adequately supported by the evidence presented.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians developing or using interaction prediction tools would be the primary audience. Experimental biologists without programming expertise who need customizable, interpretable prediction tools for non-model organisms or custom datasets would also find the platform relevant. Researchers working on protein-protein, drug-target, RNA-protein, or protein-DNA interactions who are dissatisfied with fixed, single-purpose web servers may be interested in a unified, customizable alternative.
+- **Major strengths**
+  - Addresses a clearly identified gap: existing tools are largely fixed, single-purpose, and non-interpretable
+  - The proposed platform covers four interaction classes in one interface, which is a practical advantage
+  - The emphasis on user-driven model design, multi-model comparison, and interpretability is a meaningful conceptual shift
+  - The platform is freely available, open source, and requires no login, which lowers barriers to adoption
+  - The modular architecture (Streamlit, FastAPI, Celery, Redis, PostgreSQL) is sensible for a web-based deep learning platform
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The platform was validated through an end-to-end drug-target interaction case study with three architectures achieving AUROC 0.880-0.889 and AUPRC 0.892-0.897.
+  - **Evidence pointer** Results section, Supplementary Figures S3-S5, Tables S3-S5 (location not provided)
+  - **Concern** All validation results are presented only as summary statistics in the main text, with the actual figures, tables, and detailed methodology relegated to supplementary materials that were not provided for review. The case study description lacks critical details: dataset composition, train/test split sizes, hyperparameter settings, training time, computational resources used, and comparison against baseline or existing methods.
+  - **Why it matters** Without access to the underlying data and detailed results, the reported performance metrics cannot be independently assessed. The claim that the platform produces "comparable discriminative performance" is unverifiable without knowing what it is being compared to. The absence of baseline comparisons (e.g., against existing tools like DeepPurpose or PrismNet) makes it impossible to judge whether the platform offers any performance advantage or merely comparable utility.
+  - **Resolution test** Provide the full case study details in the main text or accessible supplementary materials, including dataset descriptions, hyperparameter configurations, baseline comparisons, and all figures and tables. The performance claims should be reproducible from the provided information.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** "Deep-Interact Studio is, to our knowledge, the only such platform to combine fine-grained per-layer model customization with multi-model comparison and interpretability."
+  - **Evidence pointer** Results section, Table 1, Supplementary Table S8 (location not provided)
+  - **Concern** The claim of uniqueness is supported only by a qualitative comparison table (Table 1) and an expanded comparison in Supplementary Table S8, neither of which was provided for review. The comparison criteria and the selection of platforms included in the comparison are not described. It is unclear whether the comparison includes recent platforms that may offer similar features, and the criteria for what counts as "per-layer customization" or "multi-model comparison" are not defined.
+  - **Why it matters** The novelty claim is central to the manuscript's contribution. If comparable platforms exist, the manuscript's framing as a unique tool would be misleading. The comparison methodology must be transparent and comprehensive to support such a strong claim.
+  - **Resolution test** Provide Table 1 and Supplementary Table S8 with clear criteria for platform selection and feature comparison. Define the specific features being compared and justify why the included platforms represent the current state of the art. Consider softening the uniqueness claim if the comparison is not exhaustive.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The platform supports four interaction classes (protein-protein, drug-target, RNA-protein, protein-DNA) with a unified pipeline.
+  - **Evidence pointer** Materials and Methods section, Figure 1, Supplementary Figure S1 (location not provided)
+  - **Concern** The methods section describes the pipeline at a high level but does not provide sufficient detail on how each interaction class is handled. For example, the encoding strategy mentions ESM-2 for proteins, ChemBERTa for compounds, and "an RNA-specific encoder" for RNA-protein tasks, but the nature of this RNA encoder is not specified. The model builder supports multiple layer types, but the specific input/output dimensions, embedding sizes, and compatibility constraints across interaction classes are not described. The benchmark datasets are mentioned but not described in terms of size, source, or preprocessing.
+  - **Why it matters** The claim of unified coverage across four interaction classes requires that the platform handles the distinct data modalities and prediction tasks appropriately. Without technical details on encoding, model construction, and task formulation for each interaction class, it is impossible to assess whether the platform is genuinely functional across all four or whether some classes are less well supported.
+  - **Resolution test** Provide detailed descriptions of the data encoding, model input/output formats, and task definitions for each of the four interaction classes. Include information on the RNA-specific encoder and how it differs from the protein encoder. Describe the benchmark datasets used for each interaction class, including sources, sizes, and preprocessing steps.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "Every run is recorded in a model registry that stores the architecture, configuration, metrics, and learned embeddings to guarantee full reproducibility."
+  - **Evidence pointer** Materials and Methods section, Supplementary Section S2 (location not provided)
+  - **Concern** The model registry is described as guaranteeing reproducibility, but the details of what is stored, how it can be accessed, and whether it includes all necessary information (e.g., random seeds, data splits, software versions) are not provided. The claim of "full reproducibility" is strong and requires evidence that the registry captures all relevant parameters and that the information is accessible to users.
+  - **Why it matters** Reproducibility is a core value in computational biology. If the registry does not capture all necessary information or is not accessible, the claim is overstated. The manuscript should clarify what exactly is stored and how users can retrieve and use this information.
+  - **Resolution test** Describe the contents of the model registry in detail, including whether random seeds, data split definitions, software versions, and environment configurations are stored. Explain how users can access the registry and reproduce a given run. If the registry is not publicly accessible, clarify this limitation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section, paragraph 1
+  - **Issue** The introduction uses semicolons in a list of interaction classes ("protein-protein, drug-target, RNA-protein, and protein-DNA") which is inconsistent with standard punctuation. The same list appears multiple times with varying punctuation.
+  - **Required correction** Use commas consistently for lists throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods section, paragraph 2
+  - **Issue** The description of the model builder mentions support for "linear, convolutional (CNN1D), recurrent (BiLSTM, GRU), transformer, and residual blocks" but does not specify how these are combined or whether there are constraints on layer ordering or compatibility.
+  - **Required correction** Provide a brief description of how layers can be combined and any constraints on architecture construction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data availability section
+  - **Issue** The data availability statement provides URLs for benchmark datasets and the GitHub repository, but it is unclear whether the datasets are the same as those used in the case study and whether they are versioned or curated.
+  - **Required correction** Clarify the relationship between the provided datasets and those used in the case study, and describe any versioning or curation procedures.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, Results section
+  - **Issue** The abstract states the platform is "to our knowledge, the only such platform" but this claim is repeated in the Results section. The abstract should be more concise and avoid duplicating claims made later.
+  - **Required correction** Consider removing the uniqueness claim from the abstract or making it more tentative.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods
+  - **Evidence pointer** Materials and Methods section, paragraph 3
+  - **Issue** The description of the disagreement analysis mentions "ranks the drug-target pairs on which models most strongly disagree" but does not specify the metric used for ranking or the threshold for "strong" disagreement.
+  - **Required correction** Define the disagreement metric and any thresholds used for flagging uncertain predictions.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Validation results are not accessible for review; all substantive data is in unreviewed supplementary materials
+  - R1-M2: Uniqueness claim is not supported by a transparent comparison methodology
+  - R1-M3: Technical details for handling all four interaction classes are insufficient
+  - R1-M4: Reproducibility claim is not substantiated with details on the model registry contents and accessibility
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of a unified, user-driven, comparative, and interpretable platform for multiple interaction classes is a reasonable contribution, but the claim of uniqueness is not adequately supported. The manuscript does not clearly differentiate itself from existing platforms beyond the combination of features, and the comparison table is not available for review.
+  - **Scientific importance** The problem addressed is important, and the platform could be valuable to the community if it functions as described. However, the scientific importance of the platform itself is not demonstrated through rigorous benchmarking or comparison with existing tools. The case study is a single demonstration, not a comprehensive validation.
+  - **Interdisciplinary readership** The platform is designed for experimental biologists without programming expertise, which is a broad and relevant audience. The manuscript is written in an accessible style, but the lack of technical detail may limit its usefulness for computational readers, while the lack of clear biological validation may limit its appeal to experimental readers.
+  - **Technical soundness** The architecture is sensible, but the lack of detailed technical information and accessible validation data prevents assessment of whether the platform is technically sound. The performance claims are not verifiable from the provided text.
+  - **Readability for nonspecialists** The manuscript is generally readable, with clear motivation and a logical structure. However, the repeated use of the same interaction class list and the abstract's duplication of claims could be streamlined. The lack of figures in the main text (all are in supplementary) reduces accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially useful platform, but the core claims of functionality, performance, and uniqueness cannot be assessed without access to the supplementary materials and additional technical details. The authors should provide the full case study data, a transparent comparison with existing tools, and more detailed technical descriptions of the platform's handling of all four interaction classes before the claims can be evaluated.
+
+## Risk / unsupported claims
+- The claim that Deep-Interact Studio is "the only such platform" is unsupported without a transparent and comprehensive comparison methodology.
+- The performance metrics (AUROC 0.880-0.889, AUPRC 0.892-0.897) are unverifiable without access to the underlying data and experimental details.
+- The claim of "full reproducibility" through the model registry is unsupported without details on registry contents and accessibility.
+- The statement that the platform "turns predictions into auditable, mechanistically grounded results" is an overstatement; the interpretability features (SHAP, UMAP, hub analysis) provide insights but do not establish mechanistic grounding.
+- The claim that the platform serves "non-model organisms" well is not supported by any specific demonstration or benchmark on such data.
+- The assertion that existing tools "report prediction scores with little interpretability" is a generalization that may not hold for all cited tools and is not systematically evaluated.

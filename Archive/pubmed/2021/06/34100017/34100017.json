@@ -1,0 +1,216 @@
+{
+  "identity": {
+    "pmid": "34100017",
+    "doi": "10.1101/2021.06.01.446591",
+    "title": "Structural basis for SARS-CoV-2 Nucleocapsid protein recognition by single-domain antibodies."
+  },
+  "content": {
+    "abstract": "The COVID-19 pandemic, caused by the coronavirus SARS-CoV-2, is the most severe public health event of the twenty-first century. While effective vaccines against SARS-CoV-2 have been developed, there remains an urgent need for diagnostics to quickly and accurately detect infections. Antigen tests, particularly those that detect the abundant SARS-CoV-2 Nucleocapsid protein, are a proven method for detecting active SARS-CoV-2 infections. Here we report high-resolution crystal structures of three llama-derived single-domain antibodies that bind the SARS-CoV-2 Nucleocapsid protein with high affinity. Each antibody recognizes a specific folded domain of the protein, with two antibodies recognizing the N-terminal RNA binding domain and one recognizing the C-terminal dimerization domain. The two antibodies that recognize the RNA binding domain affect both RNA binding affinity and RNA-mediated phase separation of the Nucleocapsid protein. All three antibodies recognize highly-conserved surfaces on the Nucleocapsid protein, suggesting that they could be used to develop affordable diagnostic tests to detect all circulating SARS-CoV-2 variants.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ye, Qiaozhen",
+        "Lu, Shan",
+        "Corbett, Kevin D"
+      ],
+      "short_names": [
+        "Ye Q",
+        "Lu S",
+        "Corbett KD"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Cellular & Molecular Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, CA.",
+        "Department of Cellular & Molecular Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, CA.",
+        "Department of Cellular & Molecular Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, CA.",
+        "Department of Chemistry and Biochemistry, University of California San Diego, 9500 Gilman Drive, La Jolla, CA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ye, Qiaozhen",
+        "short_name": "Ye Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular & Molecular Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, CA."
+        ]
+      },
+      {
+        "full_name": "Lu, Shan",
+        "short_name": "Lu S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular & Molecular Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, CA."
+        ]
+      },
+      {
+        "full_name": "Corbett, Kevin D",
+        "short_name": "Corbett KD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cellular & Molecular Medicine, University of California San Diego, 9500 Gilman Drive, La Jolla, CA.",
+          "Department of Chemistry and Biochemistry, University of California San Diego, 9500 Gilman Drive, La Jolla, CA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2021 Jun 1",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/09 06:00",
+    "fetched_at": "2026-09-20 03:43:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "34100017",
+      "34381460",
+      "34665939",
+      "36146847",
+      "36798118",
+      "32363136",
+      "32796155",
+      "35215848",
+      "37379800",
+      "34899762",
+      "33955213",
+      "35976427",
+      "33511102",
+      "32469265",
+      "32427334",
+      "34678315",
+      "34643438",
+      "15759315",
+      "35412347",
+      "32511359",
+      "15941537",
+      "34386028",
+      "37230729",
+      "35389244",
+      "36644652",
+      "17379242",
+      "36219482",
+      "34961853",
+      "38327783",
+      "35682904",
+      "34287344",
+      "35898497",
+      "34765991",
+      "36379348",
+      "35430407",
+      "36551128",
+      "37749713",
+      "35072628",
+      "15650189",
+      "33627511",
+      "16254320",
+      "34904253",
+      "34734665",
+      "37738355",
+      "37409816",
+      "34543771",
+      "32964056",
+      "35867423",
+      "16171519",
+      "22334738",
+      "37112903",
+      "35003131",
+      "34499464",
+      "33318065",
+      "34523986",
+      "34452287",
+      "36413757",
+      "37515096",
+      "36183165",
+      "17002283",
+      "37275459",
+      "35230450",
+      "34612689",
+      "32511445",
+      "37462793",
+      "34213733",
+      "32766587",
+      "35756710",
+      "39341499",
+      "39343000",
+      "34064163",
+      "34095780",
+      "39386676",
+      "39380503",
+      "33269347",
+      "36097552",
+      "38173536",
+      "33479219",
+      "38330137",
+      "36809148"
+    ],
+    "review": [
+      "34100017",
+      "33318065",
+      "35756710",
+      "39343000"
+    ],
+    "pmc": [
+      "8183014"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34100017/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34100017",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2021.06.01.446591",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34100017",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present a temperature-dependent coarse-grained (CG) model for intrinsically disordered proteins (IDPs), built on the MARTINI 3 force field, that modifies Lennard-Jones potentials between apolar or charged solute beads and water using a temperature-dependent rescaling factor. The model is parametrized against all-atom (AA) simulations of potentials of mean force (PMF) between two apolar or two charged molecules. The authors claim the model reproduces experimentally known liquid-liquid phase separation (LLPS) for both lower critical solution temperature (LCST) and upper critical solution temperature (UCST) low-complexity sequences and estimates phase transition temperatures comparable to experimental measurements.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or simulation protocols provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, parametrization details, simulation parameters, system compositions, force field modifications, comparison datasets, and statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially valuable contribution to the IDP simulation community, addressing a recognized gap in CG models capable of capturing both LCST and UCST behavior. The conceptual approach of introducing a temperature-dependent rescaling factor into MARTINI 3 Lennard-Jones interactions is plausible and timely. However, the abstract alone provides insufficient detail to evaluate the rigor of the parametrization, the breadth of validation, or the robustness of the claimed agreement with experimental phase transition temperatures. The central claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular simulation, particularly those studying IDP phase behavior, condensate formation, and temperature-sensitive biomolecular assembly. The work would also interest developers of CG force fields and those applying MARTINI-based models to biological phase separation problems.
+- **Major strengths** The work addresses a clear and important gap in current CG modeling capabilities for IDPs. The strategy of deriving temperature-dependent interactions from all-atom PMF calculations provides a physically grounded parametrization route. The demonstration of both LCST and UCST behavior within a single framework is a notable advance over existing models that typically capture only one type of temperature response.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The model "is able to reproduce the experimentally known LLPS of both LCST and UCST low-complexity sequences and to estimate phase transition temperatures comparable to experimental measurements."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that the model reproduces experimentally known LLPS behavior and estimates phase transition temperatures comparable to experiments, but no quantitative data, comparison metrics, error estimates, or specific sequences are provided. Without access to the actual phase diagrams, transition temperature values, or statistical measures of agreement, this claim cannot be assessed.
+  - **Why it matters** The central value proposition of the work rests on quantitative agreement with experimental phase behavior. If the agreement is only qualitative or limited to a narrow set of conditions, the claim of "comparable" temperatures would be overstated. The absence of any numerical evidence in the abstract prevents evaluation of the strength of this claim.
+  - **Resolution test** Provide the specific LCST and UCST sequences tested, the computed and experimental phase transition temperatures with uncertainties, and the criteria used to define "comparable" agreement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Parametrization validity
+  - **Claim pointer** The model "was parametrized to fit the TD potentials of mean force (PMF) between two apolar or two charged molecules computed using all-atom (AA) simulations."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which molecules were used for the PMF calculations, the temperature range covered, the number of temperatures sampled, or the fitting procedure and its accuracy. The transferability of a parametrization based on only two types of pairwise interactions (apolar-apolar and charged-charged) to the full diversity of amino acid side chains and their combinations in IDP sequences is not established.
+  - **Why it matters** The reliability of the CG model for arbitrary IDP sequences depends on the representativeness of the parametrization set. If the PMF fitting is limited to a small number of molecule pairs or a narrow temperature window, the model may fail for sequences with different chemical compositions or under conditions outside the fitted range.
+  - **Resolution test** Specify the molecules used for PMF calculations, the temperature range and resolution, the fitting error, and demonstrate transferability to sequences not used in parametrization.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of validation
+  - **Claim pointer** The model reproduces LLPS for "both LCST and UCST low-complexity sequences."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not indicate how many sequences were tested, whether they represent diverse sequence compositions, or whether the validation includes both single-chain and multi-chain simulations. The generality of the claim across the broad class of temperature-sensitive IDPs cannot be assessed from the abstract alone.
+  - **Why it matters** Low-complexity sequences vary widely in amino acid composition, charge distribution, and hydrophobicity. Demonstrating behavior on a small number of sequences would not establish the model's utility for the broader IDP community.
+  - **Resolution test** List the sequences tested, their compositional features, and the range of conditions (temperature, concentration, salt) over which LLPS was observed.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "modifying the Lennard-Jones potentials between apolar or charged solute beads and water with a TD rescaling factor" is vague regarding whether the rescaling applies to the epsilon, sigma, or both parameters of the Lennard-Jones potential, and whether the rescaling is a simple multiplicative factor or a more complex function of temperature.
+  - **Required correction** Specify the functional form of the temperature-dependent rescaling factor and which Lennard-Jones parameters are modified.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison to existing models
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that "the development of CG models allowing simulations of both LCST and UCST behavior of temperature-sensitive IDPs is still in its infancy," but does not describe how the present model compares to or improves upon existing temperature-dependent CG approaches.
+  - **Required correction** Briefly state what distinguishes this model from prior attempts and what specific limitations it overcomes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No information is provided on simulation box sizes, salt concentrations, or the number of independent simulations used to estimate phase boundaries, all of which affect the reliability of computed transition temperatures.
+  - **Required correction** Include key simulation parameters in the main text or indicate where they are provided in the methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The quantitative agreement with experiment and the adequacy of the parametrization strategy must be demonstrated with concrete data before the central claims can be accepted.
+- **Assessment against Nature-style criteria** 
+  - Originality: The approach of introducing a temperature-dependent rescaling factor into MARTINI 3 for capturing both LCST and UCST behavior appears novel and addresses a recognized gap. However, the abstract does not provide enough context to fully assess novelty relative to other temperature-dependent CG approaches.
+  - Scientific importance: The work targets a significant problem in IDP biophysics, and a validated model of this type would be of broad utility. The importance is high if the claims hold.
+  - Interdisciplinary readership: The topic bridges computational chemistry, biophysics, and cell biology. The abstract is written in a way that is accessible to specialists in these fields, though the technical detail is limited.
+  - Technical soundness: Cannot be assessed from the abstract. The parametrization strategy is reasonable in principle, but the absence of quantitative validation data prevents evaluation of technical rigor.
+  - Readability for nonspecialists: The abstract is concise and uses standard terminology, but the lack of context on the significance of LCST versus UCST behavior and the implications for biological function may limit accessibility for a broad audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual approach is promising and the work addresses an important gap, but the abstract alone does not provide sufficient quantitative evidence to support the central claims of reproducing experimental LLPS behavior and estimating transition temperatures. A supportive recommendation would require access to the full manuscript with detailed validation data.
+
+## Risk / unsupported claims
+- The claim that the model "is able to reproduce the experimentally known LLPS of both LCST and UCST low-complexity sequences" is unsupported in the abstract due to the absence of specific sequences, phase diagrams, or comparison data.
+- The claim that the model "estimate[s] phase transition temperatures comparable to experimental measurements" is unsupported without quantitative temperature values and error estimates.
+- The adequacy of the parametrization based on PMF fitting between "two apolar or two charged molecules" for general IDP applications is not assessable from the abstract.
+- The temperature range over which the model is valid is not stated, limiting the assessment of its applicability.

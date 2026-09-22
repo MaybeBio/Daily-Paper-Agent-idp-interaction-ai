@@ -1,0 +1,198 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.03.703498",
+  "title": "FrustrAI-Seq: Scaling Local Energetic Frustration to the Protein Sequence Space",
+  "doi": "10.64898/2026.02.03.703498",
+  "abstract": "Proteins fold into their native three-dimensional (3D) structures by navigating complex energy landscapes shaped by the bio-physical and biochemical properties of their sequence. Once folded, some residues remain locally frustrated, reflecting functional constraints incompatible with optimal packing. This local energetic frustration provides important insights into protein function and dynamics, but its analysis typically relies on structure-based energy calculations and remains computationally costly at scale. Here, we introduce an ultra-fast sequence-based prediction of local energetic frustration directly from protein sequences using embeddings from protein language models (pLMs). Our method, coined FrustrAI-Seq , enables proteome-wide frustration profiling in minutes (∼ 17 minutes for the entire human proteome on a single NVIDIA H100 GPU) while retaining biologically relevant performance as shown for the α -globin and β -lactamase family. By eliminating the need for explicit structural or evolutionary information, this approach expands frustration analysis to protein regions and classes that were previously inaccessible, including intrinsically disordered regions and high-throughput de novo designed protein datasets. To support reproducibility and large-scale applications, we provide the largest freely available resource of precomputed local frustration scores to date (∼ 10 6 proteins), along with model weights and complete training and inference code at: github.com/leuschjanphilipp/FrustrAI-Seq .",
+  "authors": [
+    "Leusch J",
+    "Poley-Gil M",
+    "Fernandez-Martin M",
+    "Simonetti FL",
+    "Schlensok J",
+    "Bordin N",
+    "Rost B",
+    "Parra RG",
+    "Heinzinger M"
+  ],
+  "published_date": "2026-02-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.03.703498",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.03.703498.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1225050",
+    "raw_record": {
+      "id": "PPR1225050",
+      "source": "PPR",
+      "doi": "10.64898/2026.02.03.703498",
+      "title": "FrustrAI-Seq: Scaling Local Energetic Frustration to the Protein Sequence Space",
+      "authorString": "Leusch J, Poley-Gil M, Fernandez-Martin M, Simonetti FL, Schlensok J, Bordin N, Rost B, Parra RG, Heinzinger M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Leusch J",
+            "lastName": "Leusch",
+            "firstName": "Jan-Philipp",
+            "initials": "J"
+          },
+          {
+            "fullName": "Poley-Gil M",
+            "lastName": "Poley-Gil",
+            "firstName": "Miriam",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0000-1579-6687"
+            }
+          },
+          {
+            "fullName": "Fernandez-Martin M",
+            "lastName": "Fernandez-Martin",
+            "firstName": "Miguel",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3231-7806"
+            }
+          },
+          {
+            "fullName": "Simonetti FL",
+            "lastName": "Simonetti",
+            "firstName": "Franco",
+            "initials": "FL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6568-9035"
+            }
+          },
+          {
+            "fullName": "Schlensok J",
+            "lastName": "Schlensok",
+            "firstName": "Julius",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0179-8424"
+            }
+          },
+          {
+            "fullName": "Bordin N",
+            "lastName": "Bordin",
+            "firstName": "Nicola",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2446-016X"
+            }
+          },
+          {
+            "fullName": "Rost B",
+            "lastName": "Rost",
+            "firstName": "Burkhard",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9601-3580"
+            }
+          },
+          {
+            "fullName": "Parra RG",
+            "lastName": "Parra",
+            "firstName": "Gonzalo",
+            "initials": "RG"
+          },
+          {
+            "fullName": "Heinzinger M",
+            "lastName": "Heinzinger",
+            "firstName": "Michael",
+            "initials": "M"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6568-9035"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9601-3580"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0179-8424"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2446-016X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3231-7806"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0000-1579-6687"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Proteins fold into their native three-dimensional (3D) structures by navigating complex energy landscapes shaped by the bio-physical and biochemical properties of their sequence. Once folded, some residues remain locally frustrated, reflecting functional constraints incompatible with optimal packing. This  local energetic frustration provides important insights into protein function and dynamics, but its analysis typically relies on structure-based energy calculations and remains computationally costly at scale. Here, we introduce an ultra-fast sequence-based prediction of local energetic frustration directly from protein sequences using embeddings from protein language models (pLMs). Our method, coined  FrustrAI-Seq , enables proteome-wide frustration profiling in minutes (∼ 17 minutes for the entire human proteome on a single NVIDIA H100 GPU) while retaining biologically relevant performance as shown for the  α -globin and  β -lactamase family. By eliminating the need for explicit structural or evolutionary information, this approach expands frustration analysis to protein regions and classes that were previously inaccessible, including intrinsically disordered regions and high-throughput  de novo designed protein datasets. To support reproducibility and large-scale applications, we provide the largest freely available resource of precomputed local frustration scores to date (∼ 10  6 proteins), along with model weights and complete training and inference code at:  github.com/leuschjanphilipp/FrustrAI-Seq .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.02.03.703498"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-02-05",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

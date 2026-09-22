@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.13.653854",
+  "title": "ProtFun: A Protein Function Prediction Model Using Graph Attention Networks with a Protein Large Language Model",
+  "authors": "Muhammed Talo; Serdar Bozdag",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-17",
+  "window": {
+    "start": "2025-05-12",
+    "end": "2025-05-18"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用图注意力网络和蛋白质语言模型预测蛋白质功能，不涉及无序蛋白或蛋白-蛋白互作机制建模，与本课题关联微弱。",
+  "abstract": "Understanding protein functions facilitates the identification of the underlying causes of many diseases and guides the research for discovering new therapeutic targets and medications. With the advancement of high throughput technologies, obtaining novel protein sequences has been a routine process. However, determining protein functions experimentally is cost- and labor-prohibitive. Therefore, it is crucial to develop computational methods for automatic protein function prediction. In this study, we propose a multi-modal deep learning architecture called ProtFun to predict protein functions. ProtFun integrates protein large language model (LLM) embeddings as node features in a protein family network. Employing graph attention networks (GAT) on this protein family network, ProtFun learns protein embeddings, which are integrated with protein signature representations from InterPro to train a protein function prediction model. We evaluated our architecture using three benchmark datasets. Our results showed that our proposed approach outperformed current state-of-the-art methods for most cases. An ablation study also highlighted the importance of different components of ProtFun. The data and source code of ProtFun is available at https://github.com/bozdaglab/ProtFun under Creative Commons Attribution Non Commercial 4.0 International Public License.",
+  "abstract_zh": "理解蛋白质功能有助于识别许多疾病的根本原因，并指导发现新治疗靶点和药物的研究。随着高通量技术的进步，获取新型蛋白质序列已成为常规流程。然而，通过实验确定蛋白质功能在成本和时间上均难以承受。因此，开发用于自动预测蛋白质功能的计算方法至关重要。在本研究中，我们提出了一种名为ProtFun的多模态深度学习架构来预测蛋白质功能。ProtFun将蛋白质大语言模型（LLM）嵌入作为蛋白质家族网络中的节点特征。通过在此蛋白质家族网络上采用图注意力网络（GAT），ProtFun学习蛋白质嵌入，并将其与来自InterPro的蛋白质签名表示整合，以训练蛋白质功能预测模型。我们使用三个基准数据集评估了我们的架构。结果表明，我们提出的方法在大多数情况下优于当前最先进的方法。一项消融研究也强调了ProtFun不同组件的重要性。ProtFun的数据和源代码可在https://github.com/bozdaglab/ProtFun上获取，遵循知识共享署名-非商业性使用4.0国际公共许可证。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653854",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653854",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.13.653854/index.html"
+}

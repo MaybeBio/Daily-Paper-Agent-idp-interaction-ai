@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2512.16150v1",
+  "title": "Predicting the Interfacial Energy and Morphology of DNA Condensates",
+  "doi": "",
+  "abstract": "The physics and morphology of biomolecular condensates formed through liquid-liquid phase separation underpin diverse biological processes, exemplified by the nested organization of nucleoli that facilitates ribosome biogenesis. Here, we develop a theoretical and computational framework to understand and predict multiphase morphologies in DNA-nanostar solutions. Because morphology is governed by interfacial energies between coexisting phases, we combine Flory-Huggins theory with coarse-grained molecular dynamics simulations to examine how these energies depend on key microscopic features of DNA nanostars, including size, valence, bending rigidity, Debye screening length, binding strength, and sticky-end distribution. The phase behavior of DNA nanostars is quantitatively captured by a generalized lattice model, in which the interplay between sticky-end binding energy and conformational entropy determines the effective interactions. Focusing on condensates comprising two dense phases, we find that Janus-like morphologies are ubiquitous because the interfacial energies between the dense and dilute phases, $γ_{i\\in\\{1,2\\}}$, are typically comparable. In contrast, nested morphologies are rare as they require a large asymmetry in $γ_i$, which arises only for highly dissimilar nanostars such as those differing markedly in valence or size. Moreover, the interfacial energy between the two dense phases, $γ_{12}$, can be modulated either discretely, by varying sticky-end distribution, or continuously, by tuning the crosslinker ratio; the former may even eliminate nested configurations. These findings establish physical design principles for constructing complex condensate architectures directly from microscopic molecular parameters.",
+  "authors": [
+    "Sihan Liu",
+    "Andrej Košmrlj"
+  ],
+  "published_date": "2025-12-18T04:10:57Z",
+  "updated_date": "2025-12-18T04:10:57Z",
+  "journal": "",
+  "category": "physics.bio-ph, cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2512.16150v1",
+  "pdf_url": "https://arxiv.org/pdf/2512.16150v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "physics.bio-ph",
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2512.16150v1",
+    "raw_categories": [
+      "physics.bio-ph",
+      "cond-mat.soft"
+    ],
+    "journal_ref": ""
+  }
+}

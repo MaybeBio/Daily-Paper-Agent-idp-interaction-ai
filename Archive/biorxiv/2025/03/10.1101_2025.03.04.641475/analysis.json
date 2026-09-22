@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.03.04.641475",
+  "title": "Structural conformations of intrinsically disordered proteins of podocyte slit-diaphragm",
+  "authors": "Padmanaban HK; Bheemireddy S; Mulukala SK; Dunna NR; Pasupulati AK",
+  "journal": "bioRxiv",
+  "published_date": "2025-03-11",
+  "window": {
+    "start": "2025-03-10",
+    "end": "2025-03-16"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用分子对接与MD模拟研究足细胞裂孔隔膜中多个含IDR蛋白（nephrin、podocin、CD2AP等）的互作构象动态与亚基共享机制，并解析疾病突变对IDR柔性和复合物组装的影响，是IDR介导PPI机制建模的典型范例。",
+  "abstract": "The slit-diaphragm (SD), a specialized junction between the foot processes of neighboring podocytes, regulates the permselectivity of glomerular filtration. It functions as a size- and charge-selective molecular sieve, ensuing protein-free urine. SD comprises several proteins such as nephrin, NEPH1, podocin, CD2AP, and TRPC6. Nephrin and NEPH1 are extracellular proteins that bridge the gap between foot processes, whereas podocin and CD2AP are adapter proteins. The intrinsically disordered regions (IDRs) of SD proteins play a crucial role in assembling these proteins as a macromolecular complex. Mutations in these proteins disrupt SD integrity, leading to a nephrotic syndrome characterized by heavy proteinuria. The structural details of each protein of this macromolecular complex are poorly detailed. We employed molecular docking and molecular dynamics simulations to investigate the structural dynamics of SD proteins. Our findings reveal that SD proteins exhibit partner-specific conformational adaptations driven by short linear motifs and molecular recognition features. CD2AP interacts transiently with nephrin but forms a more stable complex with podocin. NEPH1 and nephrin interact via extracellular immunoglobulin domains while maintaining dynamic intracellular contacts. Podocin preferentially interacts with nephrin over NEPH1, and distinct subunit-sharing mechanisms emerge, where CD2AP and TRPC6 may simultaneously associate with a single podocin subunit. Mutational analysis reveals that disease-associated variants, including CD2AP (P532S), podocin (R138Q), and nephrin (G1161V), enhance local stability but restrict the flexibility of IDR and impair SD assembly. Our study provides evidence of dynamic subunit sharing within the SD complex, offering new insights into the assembly of SD in health and disease.",
+  "abstract_zh": "裂孔隔膜（slit-diaphragm, SD）是相邻足细胞足突之间的特化连接结构，调控肾小球滤过的选择性通透性。它作为尺寸和电荷选择性的分子筛，确保尿液无蛋白。SD由多种蛋白质组成，包括nephrin、NEPH1、podocin、CD2AP和TRPC6。Nephrin和NEPH1是桥接足突间隙的胞外蛋白，而podocin和CD2AP是衔接蛋白。SD蛋白的固有无序区域（intrinsically disordered regions, IDRs）在将这些蛋白组装成大分子复合物中发挥关键作用。这些蛋白的突变会破坏SD完整性，导致以重度蛋白尿为特征的肾病综合征。该大分子复合物中每种蛋白的结构细节尚不清楚。我们采用分子对接和分子动力学模拟来研究SD蛋白的结构动态。我们的发现揭示，SD蛋白表现出由短线性基序和分子识别特征驱动的伴侣特异性构象适应。CD2AP与nephrin瞬时相互作用，但与podocin形成更稳定的复合物。NEPH1和nephrin通过胞外免疫球蛋白结构域相互作用，同时维持动态的胞内接触。Podocin优先与nephrin而非NEPH1相互作用，并出现不同的亚基共享机制，其中CD2AP和TRPC6可能同时与单个podocin亚基结合。突变分析显示，疾病相关变异体，包括CD2AP (P532S)、podocin (R138Q)和nephrin (G1161V)，增强局部稳定性但限制IDR的灵活性，并损害SD组装。我们的研究提供了SD复合物内动态亚基共享的证据，为健康和疾病状态下SD的组装提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.03.04.641475",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.03.04.641475",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.03.04.641475/index.html"
+}

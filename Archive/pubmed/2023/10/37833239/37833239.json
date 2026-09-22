@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "37833239",
+    "doi": "10.1002/pro.4804",
+    "title": "Coronaviruses spike glycoprotein endodomains: The sequence and structure-based comprehensive study."
+  },
+  "content": {
+    "abstract": "Any protein's flexibility or region makes it available to interact with many biomolecules in the cell. Specifically, such interactions in viruses help them to perform more functions despite having a smaller genome. Therefore, these flexible regions can be exciting and essential targets to be explored for their role in pathogenicity and therapeutic developments as they achieve essential interactions. In the continuation with our previous study on disordered analysis of SARS-CoV-2 spike protein's cytoplasmic tail (CTR), or endodomain, here we have explored the endodomain's disordered potential of six other coronaviruses using multiple bioinformatics approaches and molecular dynamics simulations. Based on the comprehensive analysis of its sequence and structural composition, we report the varying disorder propensity in endodomains of spike proteins of coronaviruses. The observations of this study may help to understand the importance of spike glycoprotein endodomain and creating therapeutic interventions against them.",
+    "keywords": [
+      "coronaviruses",
+      "intrinsic disorder regions (IDRs)",
+      "molecular dynamics simulations",
+      "molecular recognition features (MoRFs)",
+      "post-translational modifications"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Spike Glycoprotein, Coronavirus/chemistry",
+      "*SARS-CoV-2/genetics/metabolism",
+      "Molecular Dynamics Simulation",
+      "Glycoproteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kumar, Prateek",
+        "Bhardwaj, Aparna",
+        "Mukherjee, Bodhidipra",
+        "Joshi, Richa",
+        "Giri, Rajanish"
+      ],
+      "short_names": [
+        "Kumar P",
+        "Bhardwaj A",
+        "Mukherjee B",
+        "Joshi R",
+        "Giri R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2046-836X"
+      ],
+      "affiliations": [
+        "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India.",
+        "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India.",
+        "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India.",
+        "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India.",
+        "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kumar, Prateek",
+        "short_name": "Kumar P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Bhardwaj, Aparna",
+        "short_name": "Bhardwaj A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Mukherjee, Bodhidipra",
+        "short_name": "Mukherjee B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Joshi, Richa",
+        "short_name": "Joshi R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Giri, Rajanish",
+        "short_name": "Giri R",
+        "identifiers": [
+          "0000-0002-2046-836X"
+        ],
+        "affiliations": [
+          "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, Mandi, Himachal Pradesh, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2023 Nov",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/14 10:42",
+    "fetched_at": "2026-09-21 02:00:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "34864296",
+      "34413500",
+      "34265844",
+      "34117209",
+      "33928117",
+      "33466921",
+      "33431842",
+      "33247099",
+      "32835122",
+      "32712910",
+      "32324217",
+      "30878482",
+      "30134158",
+      "30079062",
+      "29952542",
+      "29860432",
+      "28656226",
+      "28569247",
+      "27696819",
+      "27578435",
+      "27552928",
+      "26631602",
+      "26517836",
+      "26402567",
+      "25391399",
+      "24773235",
+      "24753421",
+      "24533462",
+      "24532081",
+      "24214962",
+      "22569528",
+      "22258255",
+      "22216214",
+      "22110040",
+      "21988835",
+      "20739308",
+      "20610737",
+      "20580052",
+      "20129637",
+      "20100603",
+      "19596244",
+      "18351591",
+      "17567614",
+      "17166901",
+      "17134730",
+      "17081050",
+      "16618368",
+      "16537590",
+      "16415007",
+      "15030705",
+      "14604535",
+      "14579347",
+      "12072517",
+      "11988757",
+      "11839490",
+      "11533628",
+      "11093259"
+    ],
+    "similar": [
+      "37833239",
+      "34864296",
+      "33302501",
+      "33090493",
+      "33374797",
+      "33667553",
+      "37349943",
+      "34346753",
+      "33103998",
+      "32502733",
+      "32886331",
+      "35871894",
+      "35737823",
+      "36563415",
+      "37052956",
+      "33662570",
+      "33618621",
+      "34855795",
+      "32522874",
+      "37566991",
+      "35132518",
+      "33210300",
+      "33105999",
+      "35932890",
+      "37268078",
+      "34495700",
+      "34612290",
+      "33099199",
+      "33132205",
+      "35074895",
+      "38189333",
+      "32565126",
+      "33629340",
+      "38494148",
+      "32587094",
+      "33292056",
+      "34780781",
+      "32817223",
+      "34817202",
+      "33864655",
+      "35689514",
+      "34929169",
+      "34896769",
+      "34105996",
+      "33671255",
+      "35196796",
+      "34914115",
+      "33728680",
+      "33547281",
+      "35728285",
+      "35163572",
+      "34436245",
+      "38777906",
+      "33006900",
+      "32825063",
+      "34147139",
+      "34435953",
+      "39349594",
+      "39066230",
+      "35852351",
+      "33893649",
+      "34961524",
+      "38329233",
+      "33448856",
+      "32568687",
+      "34824253",
+      "35098887",
+      "33187074",
+      "34333227",
+      "37896834",
+      "35848330",
+      "35300999",
+      "36534291",
+      "34067272",
+      "34428449",
+      "33186231",
+      "36422744",
+      "34858396",
+      "36560795",
+      "35121799",
+      "35278433",
+      "33634309",
+      "34049205",
+      "33443088",
+      "38713502",
+      "33460172",
+      "34508827",
+      "33503469",
+      "37021470",
+      "34445414",
+      "38872399",
+      "33084150",
+      "36764825",
+      "34871297",
+      "35927218",
+      "34340537",
+      "38351259",
+      "34898597",
+      "35380435",
+      "32658736"
+    ],
+    "review": [
+      "37833239",
+      "33302501",
+      "33667553",
+      "32886331",
+      "37268078",
+      "33132205",
+      "35689514",
+      "32568687",
+      "33187074",
+      "35300999",
+      "33186231",
+      "33460172",
+      "34445414"
+    ],
+    "pmc": [
+      "10599102"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37833239.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37833239/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4804",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

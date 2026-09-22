@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, supplementary figure list)
+- **Assessment boundary** Scientific content, methodological validity, claims versus evidence, and alignment with Nature-style criteria. Not assessed: code availability, reproducibility of software implementation beyond described methods.
+- **Shared manuscript claim summary** The authors present OpenCGChromatin, a coarse-grained chromatin model with residue-level histone and nucleotide-level DNA resolution, achieving order-of-magnitude computational speedups. They claim the model independently predicts linker-DNA-dependent chromatin fiber structures observed by cryo-ET, relative thermodynamic stability of condensates from biochemical assays, and identifies H4K16 and H3K9 acetylation as the most energetically disruptive modifications. They further claim that 10N+5 linker lengths promote phase separation via conformational frustration and histone-tail exposure, while 10N linkers suppress it by sequestering tails in compact zigzag structures.
+- **Visible evidence base** Main text figures referenced: Fig. 1 (performance benchmarks), Fig. 2 (validation against sedimentation and structural data), Fig. 3 (histone tail contact analysis), Fig. 4 (phase separation simulations and assays), Fig. 5 (conformational analysis), Fig. 6 (tail-mediated interaction networks), Fig. 7 (acetylation effects on 108-nucleosome fibers), Fig. 8 (contact and energy analysis for acetylation). Supplementary figures S1–S12 referenced. Methods section provides simulation protocols and analysis details.
+- **Missing materials affecting confidence** Supplementary Information not provided in full; only figure titles listed. Specific numerical values for key claims (e.g., energy differences, contact frequencies, phase boundaries) not available in the provided text. Experimental phase separation assay data shown only as representative images (Fig. 4e,f) without quantification. No error bars or statistical significance tests reported in the text.
+
+## Reviewer
+- **Overall assessment** This manuscript describes a substantial methodological advance in chromatin simulation, with promising validation against experimental data and biologically insightful predictions about phase separation mechanisms. The central claims are largely supported by the evidence described, though several require closer scrutiny. The identification of H4K16 and H3K9 as key acetylation targets from an unbiased simulation is striking and potentially important. However, the manuscript would benefit from clearer quantification of key results, more explicit discussion of model limitations, and additional validation of the phase separation predictions against quantitative experimental measurements. The writing is generally clear, though some technical details are dense.
+- **Who would be interested in the results, and why** Computational biophysicists and physical chemists studying chromatin and biomolecular condensates; experimental chromatin biologists interested in the molecular mechanisms of fiber structure and phase separation; researchers developing coarse-grained models for large biomolecular systems; scientists studying epigenetic regulation and the physical basis of gene silencing/activation.
+- **Major strengths** 1) The methodological advance is significant: order-of-magnitude speedup enabling near-atomistic simulations of systems 10x larger than previously possible. 2) The model is validated against multiple independent experimental datasets (sedimentation, cryo-ET, cryo-EM, X-ray crystallography). 3) The mechanistic predictions about histone-tail accessibility and phase separation are novel and testable. 4) The unbiased identification of H4K16 and H3K9 as key acetylation sites provides a physicochemical explanation for their known regulatory importance. 5) The connection between single-fiber conformational properties and collective phase behavior is conceptually important.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "OpenCGChromatin independently predicts that the 25bp chromatin solution phase-separates into a chromatin-rich condensate with sharp interfaces coexisting with a chromatin-poor dilute phase, whereas the 30bp system lies near a critical regime"
+  - **Evidence pointer** Fig. 4a,b; Methods "Phase separation" section
+  - **Concern** The phase separation claim is central to the paper, but the evidence presented in the text is qualitative. The authors state that 25bp systems form stable condensates and 30bp systems do not, but no quantitative measures are provided: no density profiles, no surface tension values from the near-atomistic simulations, no free energy estimates, no finite-size analysis. The direct coexistence method is appropriate, but the reader cannot assess the robustness of the phase boundary determination without quantitative output. Furthermore, the experimental validation (Fig. 4e,f) is described only as "in agreement" without quantitative comparison (e.g., measured vs. simulated coexistence densities, droplet sizes, or contact angles).
+  - **Why it matters** The phase separation prediction is a headline result. Without quantitative characterization, the claim that the model "predicts" phase behavior from physicochemical principles cannot be rigorously evaluated. The distinction between "stable condensate" and "near critical regime" requires quantitative criteria.
+  - **Resolution test** Provide quantitative measures: equilibrium coexistence densities for both phases, density profiles across the interface, surface tension values, and a phase diagram or at least a clear demonstration of the phase boundary. Compare simulated coexistence densities with experimentally measured values (e.g., from fluorescence correlation spectroscopy or quantitative imaging).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "H4K16 and H3K9 emerging as the most energetically disruptive modifications"
+  - **Evidence pointer** Fig. 8c; Methods "Analysis methods" section
+  - **Concern** The energy-weighted contact analysis is described briefly, but the methodology for isolating the "intrinsic energetic effect of acetylation" is not fully specified. The authors pool data from three different systems (0 Ac, 5×12 Ac, 54 Ac) and partition by lysine identity and acetylation state. However, the text does not clarify how the energy contributions are normalized across systems with different acetylation patterns, how statistical significance is assessed, or whether the ranking of lysine sites is robust to the choice of energy function parameters. The claim that H4K16 and H3K9 are "most energetically disruptive" requires a clear definition of "disruptive" (e.g., change in interaction energy relative to unacetylated state) and a demonstration that the ranking is statistically meaningful.
+  - **Why it matters** This is a key predictive claim with potential biological significance. If the ranking is an artifact of the analysis method or insufficient sampling, the conclusion would be undermined.
+  - **Resolution test** Provide a detailed description of the energy-weighted analysis, including normalization procedures, statistical tests (e.g., bootstrap or block averaging), and sensitivity analysis to key parameters. Show that the ranking of lysine sites is robust across different acetylation patterns and simulation lengths.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "OpenCGChromatin simulations independently predict, from physicochemical principles, the linker-DNA-dependent chromatin structures observed by cryo-ET"
+  - **Evidence pointer** Fig. 2a,b; Fig. S7
+  - **Concern** The validation against cryo-ET data is described as showing "close" agreement, but the text does not provide quantitative comparison metrics. For the sedimentation coefficients, the agreement is described as "near-quantitative," but no numerical values or error estimates are given. For the structural comparison (D, αi,i+1, parai,i+2), the text states that parai,i+2 shows "the correct trend but with a slightly higher mean for 25 bp and a broader distribution for 30 bp linkers." This discrepancy is attributed to model limitations, but the magnitude of the discrepancy and its implications for the model's predictive power are not quantified.
+  - **Why it matters** The validation is the foundation for all subsequent claims. Without quantitative comparison metrics, the reader cannot assess how well the model reproduces experimental data or whether the discrepancies are within acceptable bounds.
+  - **Resolution test** Provide quantitative comparison metrics: e.g., root-mean-square deviations between simulated and experimental distributions for D, αi,i+1, and parai,i+2; correlation coefficients or chi-squared statistics for sedimentation coefficient comparisons. Discuss whether the observed discrepancies are within the expected range given model resolution and experimental uncertainty.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "achieving over an order-of-magnitude acceleration relative to our previous residue-level model while improving physicochemical accuracy and experimental agreement"
+  - **Evidence pointer** Fig. 1b; Fig. S3
+  - **Concern** The performance benchmark is described in terms of wall-clock speedup, but the text does not provide details on how the comparison was conducted: were both models run on the same hardware? Were the same system sizes and simulation lengths used? The claim of "improving physicochemical accuracy" is supported by comparison to experimental data, but the text does not provide a systematic comparison between the old and new models on the same validation metrics. Without this, the claim of improvement is not fully substantiated.
+  - **Why it matters** The methodological advance is a central selling point. A rigorous benchmark is needed to establish that the speedup is not achieved at the cost of accuracy.
+  - **Resolution test** Provide benchmark details: hardware specifications, system sizes, simulation lengths, and a direct comparison of old versus new model on the same validation metrics (e.g., sedimentation coefficients, structural distributions). Show that the accuracy improvement is statistically significant.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "near-atomistic simulations" is used without definition. The model has one bead per residue and one bead per nucleotide, which is coarse-grained, not near-atomistic in the usual sense (which might imply multiple interaction sites per residue or explicit solvent).
+  - **Required correction** Define "near-atomistic" in the context of this model, or use a more precise term such as "residue-level coarse-grained."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "OpenCGChromatin" section
+  - **Evidence pointer** Methods, "Model overview" paragraph
+  - **Issue** The model is named OpenCGChromatin, suggesting open-source availability, but no code repository or software availability statement is provided in the manuscript.
+  - **Required correction** Add a Code Availability section with a repository URL or state clearly that code will be made available upon publication.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results, "Physical and molecular mechanisms" section
+  - **Evidence pointer** Fig. 5a,b
+  - **Issue** The conformational analysis (k-means clustering, PCA) is described, but the text does not report the number of independent simulations or the statistical uncertainty in the cluster populations. The claim that 25bp arrays "undergo further expansion upon phase separation" is based on comparing distributions, but no statistical test is mentioned.
+  - **Required correction** Report the number of independent simulations, the statistical uncertainty in cluster populations (e.g., standard error), and perform a statistical test (e.g., Kolmogorov-Smirnov) to support the claim of distribution differences.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results, "Histone acetylation" section
+  - **Evidence pointer** Fig. 7, Fig. 8
+  - **Issue** The acetylation simulations use 50% random acetylation of lysine residues. The text does not discuss whether this level of acetylation is physiologically relevant or how the results depend on the acetylation density.
+  - **Required correction** Add a discussion of the physiological range of acetylation density and, if possible, a sensitivity analysis varying the acetylation fraction.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The statement "chromatin does not follow the conventional flexible polymer paradigm" is presented as a general conclusion, but the simulations only consider two linker lengths (25 and 30 bp). The conclusion may not generalize to other linker lengths.
+  - **Required correction** Qualify the statement to reflect the range of linker lengths studied, or add simulations with additional linker lengths to support the general claim.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative phase separation evidence), R1-M2 (methodological detail for energy analysis), R1-M3 (quantitative validation metrics)
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The model represents a significant technical advance, and the mechanistic insights into phase separation via conformational frustration are novel.
+  - Scientific importance: High. The work addresses fundamental questions about chromatin organization and phase separation with broad implications for gene regulation.
+  - Interdisciplinary readership: Moderate to high. The topic bridges biophysics, molecular biology, and computational biology, but the technical density may limit accessibility.
+  - Technical soundness: Moderate. The model is well-constructed and validated, but key quantitative analyses are missing or underreported.
+  - Readability for nonspecialists: Moderate. The introduction and discussion are accessible, but the results section is dense and assumes significant background in coarse-grained modeling.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a significant advance with important biological insights, but the quantitative evidence for the central claims needs strengthening. The authors should provide detailed numerical results for phase separation, rigorous statistical analysis of the energy-weighted contact data, and quantitative validation metrics. With these additions, the paper would be suitable for a high-impact venue.
+
+## Risk / unsupported claims
+- The claim that 25bp chromatin forms stable condensates while 30bp does not is not quantitatively supported in the provided text.
+- The ranking of H4K16 and H3K9 as "most energetically disruptive" acetylation sites lacks statistical validation.
+- The claim of "improving physicochemical accuracy" relative to the previous model is not systematically demonstrated.
+- The statement that "chromatin does not follow the conventional flexible polymer paradigm" is based on only two linker lengths and may be overgeneralized.
+- The discrepancy between simulated and cryo-ET parai,i+2 values is acknowledged but not quantified, making it difficult to assess its significance.
+- The physiological relevance of 50% random acetylation is not discussed.

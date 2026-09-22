@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36350614",
+  "title": "rG4detector, a novel RNA G-quadruplex predictor, uncovers their impact on stress granule formation.",
+  "authors": "Turner, Maor; Danino, Yehuda M; Barshai, Mira; Yacovzada, Nancy S; Cohen, Yahel; Olender, Tsviya; Rotkopf, Ron; Monchaud, David; Hornstein, Eran; Orenstein, Yaron",
+  "journal": "Nucleic acids research",
+  "published_date": "2022-11-10",
+  "window": {
+    "start": "2022-11-07",
+    "end": "2022-11-13"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用卷积神经网络预测RNA G四链体(rG4)并揭示其与G3BP1结合影响应激颗粒(相分离凝聚体)形成，虽对象为RNA结构而非无序蛋白，但涉及凝聚体中的RNA-蛋白互作机制且含AI方法，对IDR介导的相分离PPI建模有可迁移启发。",
+  "abstract": "RNA G-quadruplexes (rG4s) are RNA secondary structures, which are formed by guanine-rich sequences and have important cellular functions. Existing computational tools for rG4 prediction rely on specific sequence features and/or were trained on small datasets, without considering rG4 stability information, and are therefore sub-optimal. Here, we developed rG4detector, a convolutional neural network to identify potential rG4s in transcriptomics data. rG4detector outperforms existing methods in both predicting rG4 stability and in detecting rG4-forming sequences. To demonstrate the biological-relevance of rG4detector, we employed it to study RNAs that are bound by the RNA-binding protein G3BP1. G3BP1 is central to the induction of stress granules (SGs), which are cytoplasmic biomolecular condensates that form in response to a variety of cellular stresses. Unexpectedly, rG4detector revealed a dynamic enrichment of rG4s bound by G3BP1 in response to cellular stress. In addition, we experimentally characterized G3BP1 cross-talk with rG4s, demonstrating that G3BP1 is a bona fide rG4-binding protein and that endogenous rG4s are enriched within SGs. Furthermore, we found that reduced rG4 availability impairs SG formation. Hence, we conclude that rG4s play a direct role in SG biology via their interactions with RNA-binding proteins and that rG4detector is a novel useful tool for rG4 transcriptomics data analyses.",
+  "abstract_zh": "RNA G-四链体（rG4s）是RNA二级结构，由富含鸟嘌呤的序列形成，并具有重要的细胞功能。现有的rG4预测计算工具依赖于特定的序列特征和/或在小型数据集上训练，未考虑rG4稳定性信息，因此表现欠佳。在此，我们开发了rG4detector，一种卷积神经网络，用于识别转录组数据中的潜在rG4s。rG4detector在预测rG4稳定性和检测rG4形成序列方面均优于现有方法。为展示rG4detector的生物学相关性，我们将其应用于研究RNA结合蛋白G3BP1所结合的RNAs。G3BP1是应激颗粒（SGs）诱导的核心因子，SGs是响应多种细胞应激而形成的细胞质生物分子凝聚体。出乎意料的是，rG4detector揭示了在细胞应激响应中，G3BP1结合的rG4s存在动态富集。此外，我们通过实验表征了G3BP1与rG4s的相互作用，证明G3BP1是真正的rG4结合蛋白，且内源性rG4s在SGs中富集。进一步地，我们发现rG4可用性降低会损害SG形成。因此，我们得出结论：rG4s通过与RNA结合蛋白的相互作用在SG生物学中发挥直接作用，且rG4detector是rG4转录组数据分析的新型有用工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36350614/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36350614/",
+  "paper_page_path": "papers/pubmed/36350614/index.html"
+}

@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and presentation quality based solely on the supplied material
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations and Fokker–Planck type modeling to show that the charge sequence of polyampholytes with non-zero net charge, particularly the blockiness of minority charge blocks and the presence of long majority charge blocks, significantly influences the kinetics of dimerization and dissociation, with more blocky sequences exhibiting longer dimer dwell times and certain sequences forming pearl-necklace conformations that stabilize dimers.
+- **Visible evidence base** Simulation descriptions, static property analyses (inertia tensor eigenvalues), contact maps, dwell time distributions, survival probabilities, free energy profiles, Fokker–Planck equation formulation, dynamic contact maps, block contact survival times, and comparison between simulation and theoretical results
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided (Figure S1, S2, Table S1, movie files), simulation parameter details beyond those stated, raw data for statistical analyses, details of the Fokker–Planck numerical solution including boundary conditions, and the toy model derivation for multi-block dissociation
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in polyampholyte physics and intrinsically disordered protein behavior, namely how charge sequence details affect dimerization kinetics. The combination of MD simulations with a Fokker–Planck approach is appropriate and potentially valuable. However, the manuscript has several significant weaknesses. The central claims regarding the influence of blockiness and central net charge on dimer kinetics are only partially supported by the presented evidence, with limited statistical analysis and no clear quantitative framework connecting sequence parameters to kinetic outcomes. The theoretical model is presented in a qualitative manner and its agreement with simulations is not rigorously quantified. The connection to intrinsically disordered proteins is asserted rather than demonstrated. The presentation is at times disorganized, with key definitions and results scattered across sections and the supplementary material. The manuscript would benefit from a more systematic analysis and clearer articulation of the quantitative relationships between sequence features and kinetic observables.
+- **Who would be interested in the results, and why** Researchers in polymer physics, particularly those studying polyampholytes and polyelectrolyte complexation, would find the sequence-dependent kinetic effects of interest. The biophysics community studying intrinsically disordered proteins and liquid-liquid phase separation would also be interested given the claimed relevance to IDP behavior. Additionally, materials scientists working on coacervate-based materials or drug delivery systems might find the design principles suggested by the sequence-kinetics relationships useful.
+- **Major strengths** The manuscript addresses an important and understudied aspect of polyampholyte behavior, namely the kinetics of dimerization rather than just equilibrium properties. The use of multiple complementary approaches (MD simulations, contact map analysis, dwell time distributions, Fokker–Planck modeling) provides a multifaceted view of the problem. The identification of specific sequence features (blockiness of minority charges, central net charge, long majority blocks) as kinetic determinants is a useful conceptual framework. The dynamic contact map analysis is a creative approach to visualizing temporal evolution of inter-chain interactions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims that "the charge sequence of tails and the blockiness of the minority charge group markedly influence the kinetics of dimerization" and that "large blockiness and tails with a high number of majority-type charges slow down the dissociation of dimers."
+  - **Evidence pointer** Section 5, Figures 5-7, Table 1
+  - **Concern** The evidence presented for this central claim is largely qualitative. The dwell time data show variations across sequences, but the statistical significance of these differences is not established. The manuscript reports average dwell times for different sequence groups but does not provide error bars, confidence intervals, or statistical tests comparing groups. The claim that blockiness "markedly influences" kinetics requires quantitative demonstration that the observed differences exceed what would be expected from random sequence variation. Additionally, the relationship between the specific sequence features (blockiness, tail composition) and the measured dwell times is not systematically quantified, for example through a correlation or regression analysis.
+  - **Why it matters** The central thesis of the manuscript is that charge sequence features control dimerization kinetics. Without statistical validation and quantitative characterization of these relationships, the claims remain suggestive rather than established. This weakens the manuscript's contribution to the field and its utility for guiding future experimental or theoretical work.
+  - **Resolution test** Provide statistical analysis of dwell time differences across sequence groups, including measures of variance and appropriate significance tests. Quantify the relationship between sequence features (e.g., blockiness index, tail charge composition) and kinetic observables through correlation analysis or a predictive model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The manuscript states that the Fokker–Planck approach "provides an estimate of the average first passage time from the dimer state to the unimer state" and that it "shows good agreement with simulation results for quasi-spherical unimer shapes."
+  - **Evidence pointer** Section 6, Figure 9
+  - **Concern** The comparison between Fokker–Planck predictions and simulation results is presented in Figure 9, but the manuscript does not provide a quantitative measure of agreement. The text mentions "fairly similar characteristic times" and "slightly more discrepancy" without defining what constitutes acceptable agreement. The exceptions noted (seq.29 for dimerization, seq.17 and seq.39 for dissociation) are attributed to specific structural features, but the criteria for when the model is expected to apply are not clearly specified. The manuscript would benefit from a systematic comparison across all sequences, with quantitative error metrics and a discussion of the model's limitations.
+  - **Why it matters** The Fokker–Planck model is presented as a key theoretical contribution. Its validity and range of applicability must be clearly established for the theoretical framework to be useful. Without rigorous validation, the model's predictive power and the manuscript's theoretical claims remain uncertain.
+  - **Resolution test** Provide a quantitative comparison between Fokker–Planck predictions and simulation results for all sequences studied, including error metrics (e.g., relative error, correlation coefficient). Clearly state the conditions under which the model is expected to be accurate and discuss the sources of discrepancy for outlier sequences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual clarity
+  - **Claim pointer** The manuscript introduces the "central net charge" (CNC) parameter and claims it "reliably predicts dimer propensity and duration" within sequences of similar blockiness.
+  - **Evidence pointer** Section 3, Figure 7
+  - **Concern** The CNC parameter is introduced as a key predictor, but its definition and physical rationale are not fully explained. The manuscript states that CNC is "the net charge after excluding the number of majority-type charges allocated at the first block of both chain ends," but the justification for this specific definition is not provided. The evidence for CNC's predictive power is presented in Figure 7, but the correlation analysis is limited to specific subgroups and the manuscript acknowledges exceptions (e.g., seq.17). The relationship between CNC and the physical mechanisms of dimer stability is not clearly articulated.
+  - **Why it matters** A new parameter should be well-motivated and its predictive power clearly demonstrated. If CNC is to be a useful concept for the field, its definition needs physical justification and its predictive validity needs to be established across a broader range of sequences.
+  - **Resolution test** Provide a clear physical rationale for the CNC definition. Demonstrate its predictive power across all sequence groups with appropriate statistical analysis. Discuss the limitations and exceptions in the context of the physical mechanisms.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript describes the simulation methodology and states that "the simulation details are provided in the Supplementary Information."
+  - **Evidence pointer** Section 2
+  - **Concern** The simulation methodology is described at a level that may be insufficient for reproduction. Key parameters such as the number of independent simulation runs, total simulation time, equilibration protocol, and the method for generating the sequence ensemble are not fully specified in the main text. The manuscript relies on the supplementary material for details, but this material was not available for review. The statistical sampling of sequences (50 independent sequences) is mentioned, but the criteria for ensuring adequate sampling of the sequence space are not discussed.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific manuscripts. Without complete methodological details, other researchers cannot replicate the simulations or assess the robustness of the findings.
+  - **Resolution test** Provide complete simulation parameters in the main text or ensure the supplementary material contains all necessary details. Include information on run lengths, number of independent runs, equilibration, and sequence generation protocols.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope of claims
+  - **Claim pointer** The abstract and introduction claim relevance to intrinsically disordered proteins, stating that the findings "provide insights into the fundamental principles governing the structural and dynamical properties of polyampholytic IDP."
+  - **Evidence pointer** Abstract, Section 1
+  - **Concern** The connection between the model polyampholyte system studied and real IDPs is asserted but not developed. The simulations use a simplified model with specific parameters (N=100, 34 charged monomers, specific interaction strengths) that may not capture the complexity of real IDPs, including sequence heterogeneity beyond charge distribution, specific amino acid interactions, and the role of solvent. The manuscript does not discuss how the findings might translate to IDP behavior or what specific predictions could be tested experimentally.
+  - **Why it matters** The claimed relevance to IDPs is likely to attract a broader readership, but if this connection is not substantiated, it may overstate the manuscript's implications and mislead readers about the applicability of the findings.
+  - **Resolution test** Either provide a more detailed discussion of how the model relates to IDP behavior, including specific testable predictions, or moderate the claims about IDP relevance to what is directly supported by the simulations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 3, Table 1
+  - **Evidence pointer** Section 3, Table 1
+  - **Issue** The grouping of sequences into categories (A, B, C) based on blockiness is described, but the criteria for these groupings are not fully transparent. The manuscript mentions "longest block length" as the primary criterion, but the relationship between this classification and the subsequent analysis is not always clear.
+  - **Required correction** Provide a clear and explicit description of the classification criteria, including how the longest block length and other features are used to assign sequences to groups.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4, Figure 3
+  - **Evidence pointer** Section 4, Figure 3
+  - **Issue** The eigenvalue analysis is presented as showing that "more blocky sequences are more compact," but the connection between eigenvalue distributions and compactness is not explained. The text states that peaks shift to larger values in the order seq.13 < seq.41 < seq.22, but the interpretation of this ordering is not fully developed.
+  - **Required correction** Explain how the eigenvalue distributions relate to molecular shape and compactness, and clarify the physical interpretation of the observed ordering.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 5, Figure 5
+  - **Evidence pointer** Section 5, Figure 5
+  - **Issue** The term "matured dimers" is used to describe dimers lasting more than 250τ, but this term is not defined or justified. The choice of 250τ as a threshold appears arbitrary.
+  - **Required correction** Define what is meant by "matured" and justify the choice of threshold, or use more neutral terminology such as "long-lived dimers."
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 8, Figure 11
+  - **Evidence pointer** Section 8, Figure 11
+  - **Issue** The discussion of block contact dynamics mentions a "toy model" for multi-block dissociation, but the model is only briefly described in the main text with details relegated to the supplementary material. The main text states that "most quantities of interest can be derived from the block dwell time distributions" but does not provide the key results of this derivation.
+  - **Required correction** Provide a more complete description of the toy model and its key predictions in the main text, or clearly state which results depend on the supplementary derivation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Language
+  - **Affected element** Section 1, Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction contains a sentence fragment: "We identified three key factors that significantly influence the behavior and stability of charged polymer sequences:Block Index of Minority Charge: The longest and the second longest blocks of minority type charges directly correlate with the switching frequency, reflecting the sequence's blockiness." The colon and the formatting suggest a list, but the presentation is inconsistent with the rest of the text.
+  - **Required correction** Format the three key factors as a proper list or integrate them into the text flow.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 2, Model description
+  - **Evidence pointer** Section 2
+  - **Issue** The manuscript states that "the critical charge for splitting a dimer into unimers is approximately Qc∼8–9" in a theta solvent, and that "simulations indicate 8 units of net charge per unimer" under weakly poor solvent conditions. The relationship between these two values and the choice of Q=8 for the simulations is not fully explained.
+  - **Required correction** Clarify the relationship between the critical charge values and the choice of Q=8, and explain why this value is appropriate for studying the dimerization kinetics.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Section 6, Fokker–Planck approach
+  - **Evidence pointer** Section 6
+  - **Issue** The manuscript states that "The FP equation can be solved numerically by incorporating free energy profiles as studied earlier, [30]" but does not provide sufficient detail on how the free energy profiles are obtained and incorporated into the FP equation.
+  - **Required correction** Provide a brief description of the method for obtaining free energy profiles and how they are used in the FP equation, or refer more specifically to the relevant equations in the supplementary material.
+- **Technical failings that need to be addressed before the case is established** The lack of statistical analysis on the central claims regarding sequence-dependent kinetics (R1-M1) is a fundamental issue that must be addressed. The validation of the Fokker–Planck model requires quantitative comparison metrics (R1-M2). The manuscript's reliance on supplementary material for key methodological details and model derivations makes the presented case incomplete (R1-M4, R1-m4). The connection to IDP behavior is asserted without sufficient development (R1-M5).
+
+## Risk / unsupported claims
+- The claim that "large blockiness and tails with a high number of majority-type charges slow down the dissociation of dimers" is not quantitatively supported with statistical analysis.
+- The claim that the Fokker–Planck approach "shows good agreement with simulation results" is not backed by quantitative comparison metrics.
+- The claim that CNC "reliably predicts dimer propensity and duration" is based on limited correlation analysis with acknowledged exceptions and no statistical testing.
+- The relevance of the findings to intrinsically disordered proteins is asserted but not demonstrated through specific connections or testable predictions.
+- The claim that "the presence of blockiness appears to retard the switching kinetics" is presented as a general conclusion but is based on a limited set of sequences with substantial variability.
+- The interpretation of the power-law behavior in block contact dwell times as reminiscent of the Sinai process is speculative and not rigorously tested against alternative explanations.

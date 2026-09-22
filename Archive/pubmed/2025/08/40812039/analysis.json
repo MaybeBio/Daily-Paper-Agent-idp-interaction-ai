@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40812039",
+  "title": "Molecular mechanism of self-activation induced by the intrinsically disordered region in Rac1b: Structural and functional insights.",
+  "authors": "Li, Shuo; Jiang, Yabo; Yang, Hai; Yang, Zaixing; Jiao, Yang; Yu, Chanchan; Zhao, Huanyu; Meng, Xuanyu",
+  "journal": "Colloids and surfaces. B, Biointerfaces",
+  "published_date": "2025-08-14",
+  "window": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过分子动力学模拟与实验结合，揭示Rac1b中19AA无序插入片段通过增强Switch区域柔性、削弱Mg2+和GDP结合来模拟GEF功能并促进GDP解离的自身激活机制，虽对象为无序区域介导的蛋白内功能调控而非典型PPI，但机制建模思路对IDR介导互作研究有启发。",
+  "abstract": "Rac1b is a splicing variant of the RAC1 gene, characterized by a 19-amino-acid (19AA) insertion between residues 75 and 76. Overexpression of Rac1b has been observed in various cancers, establishing it as a potential target for anticancer therapies. Similar to Rac1, Rac1b functions as a GTPase, cycling between an active GTP-bound state and an inactive GDP-bound state. However, due to the presence of the 19AA insertion, Rac1b undergoes GTP/GDP exchange independently of guanine nucleotide exchange factors (GEFs). Using combined molecular dynamics simulations and experimental approaches, we demonstrate that this insertion enhances the flexibility of the critical Switch I and Switch II regions, weakens Rac1b's interaction with Mg(2)(+), and reduces its GDP-binding affinity. Mechanistically, the 19AA insertion disrupts Switch I-II interactions, inducing a destabilizing \"see-saw\" dynamic in Switch I that facilitates rapid GDP dissociation. This mechanism resembles GEF-mediated Rac1 activation, suggesting that the 19AA insertion functionally mimics GEF activity. Furthermore, five distinct conformational sub-states were identified during Rac1b inactivation, revealing cryptic small-molecule binding pockets. These findings provide deeper insights into the role of intrinsically disordered regions in protein function and offer a structural foundation for the rational design of Rac1b-targeted inhibitors.",
+  "abstract_zh": "Rac1b是RAC1基因的一种剪接变体，其特征是在第75和76位残基之间插入19个氨基酸（19AA）。已在多种癌症中观察到Rac1b的过表达，使其成为抗癌治疗的潜在靶点。与Rac1类似，Rac1b作为GTPase发挥作用，在活性GTP结合状态和非活性GDP结合状态之间循环。然而，由于19AA插入的存在，Rac1b独立于鸟嘌呤核苷酸交换因子（GEFs）进行GTP/GDP交换。通过结合分子动力学模拟和实验方法，我们证明该插入增强了关键Switch I和Switch II区域的灵活性，削弱了Rac1b与Mg(2)(+)的相互作用，并降低了其GDP结合亲和力。机制上，19AA插入破坏了Switch I-II相互作用，诱导Switch I中一种不稳定的“跷跷板”动态，从而促进快速GDP解离。这一机制类似于GEF介导的Rac1激活，表明19AA插入在功能上模拟了GEF活性。此外，在Rac1b失活过程中鉴定出五种不同的构象亚态，揭示了隐性的小分子结合口袋。这些发现为内在无序区域在蛋白质功能中的作用提供了更深入的见解，并为Rac1b靶向抑制剂的合理设计提供了结构基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40812039/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40812039/",
+  "paper_page_path": "papers/pubmed/40812039/index.html"
+}

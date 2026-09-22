@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42593141",
+  "title": "Filtering Disordered Protein Conformations by NMR Residual Dipolar Couplings.",
+  "authors": "Botnari, Marina; Sibille, Nathalie; Lin, Jung-Hsin; Malliavin, Therese E",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2026-08-13",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用TAiBP几何枚举结合NMR残余偶极耦合过滤无序蛋白构象，聚焦IDR构象空间描述而非PPI互作机制，方法上无AI/物理模拟，故中档评分。",
+  "abstract": "An accurate description of the conformational space of intrinsically disordered regions (IDR) is essential for understanding the functions of these regions, in particular in cell signaling. The characterization of the conformational space of IDR must deal with the presence of highly variable conformations of similar energy, which increases the complexity of the conformational exploration. The purely geometric Threading-Augmented interval Branch-and-Prune (TAiBP) approach allows us to systematically enumerate the conformations of intrinsically disordered proteins and to determine a set of conformations representative of the conformational space. The present work has two purposes: (i) proposing an extension of the TAiBP approach for providing a relevant description of the conformational landscapes of IDRs in the cases where residual dipolar couplings (RDC) have been measured, and (ii) comparing the descriptions of the conformational space obtained using TAiBP and classical approaches in the literature. The generation of peptide representative conformations was realized using, on the one hand, varphi,psi input regions of the Ramachandran diagram, obtained from a statistical analysis of the delta2D predictions, and on the other hand, secondary structure elements defined by a consensus between residual dipolar couplings (RDC) and the chemical shift index (CSI). A maximum-parsimony ensemble reweighting is proposed to filter the protein conformations by the residual dipolar coupling (RDC) values, based on non-negative least-squares (nnls) to select conformations. The RDC filtering efficiency is directly related to the resolution of the clustering during the assembly step of TAiBP. The generation of TAiBP conformations from the delta2D and CSI inputs, followed by the RDC filtering, provides conformations in general agreement with the previously published results. The filtering by residual dipolar couplings induces more localized positions of the secondary structure elements in front of the CSI-RDC consensus elements.",
+  "abstract_zh": "对 intrinsically disordered regions (IDR) 构象空间的准确描述对于理解这些区域的功能至关重要，尤其是在细胞信号传导中。IDR 构象空间的表征必须处理相似能量下高度可变构象的存在，这增加了构象探索的复杂性。纯几何的 Threading-Augmented interval Branch-and-Prune (TAiBP) 方法使我们能够系统地枚举 intrinsically disordered proteins 的构象，并确定一组代表构象空间的构象。本研究有两个目的：(i) 提出 TAiBP 方法的扩展，以在已测量 residual dipolar couplings (RDC) 的情况下提供 IDR 构象景观的相关描述，以及 (ii) 比较使用 TAiBP 和文献中经典方法获得的构象空间描述。肽代表构象的生成通过两种方式实现：一方面，使用从 delta2D 预测的统计分析中获得的 Ramachandran 图的 varphi,psi 输入区域；另一方面，使用由 residual dipolar couplings (RDC) 和 chemical shift index (CSI) 之间共识定义的二级结构元素。提出了一种基于非负最小二乘法 (nnls) 的最大简约系综重加权方法，以通过 residual dipolar coupling (RDC) 值过滤蛋白质构象并选择构象。RDC 过滤效率直接与 TAiBP 组装步骤中聚类的分辨率相关。从 delta2D 和 CSI 输入生成 TAiBP 构象，随后进行 RDC 过滤，提供了与先前发表结果总体一致的构象。通过 residual dipolar couplings 的过滤导致二级结构元素在 CSI-RDC 共识元素前的位置更加局部化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42593141/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42593141/",
+  "paper_page_path": "papers/pubmed/42593141/index.html"
+}

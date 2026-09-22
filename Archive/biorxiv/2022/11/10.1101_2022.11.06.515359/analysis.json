@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.06.515359",
+  "title": "Partial Mimicry of the Microtubule Binding of Tau by Its Membrane Binding",
+  "authors": "MacAinsh M; Zhou H",
+  "journal": "bioRxiv",
+  "published_date": "2022-11-06",
+  "window": {
+    "start": "2022-10-31",
+    "end": "2022-11-06"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用分子动力学模拟表征Tau无序蛋白与酸性膜及微管的动态结合，揭示其两亲性螺旋介导的膜锚定与部分模拟微管结合界面的机制，直接契合无序蛋白互作机制建模主题。",
+  "abstract": "Tau, as typical of intrinsically disordered proteins (IDPs), binds to multiple targets including microtubules and acidic membranes. The latter two surfaces are both highly negatively charged, raising the prospect of mimicry in their binding by tau. The tau-microtubule complex was recently determined by cryo-EM. Here we used molecular dynamics simulations to characterize the dynamic binding of tau K19 to an acidic membrane. This IDP can be divided into three repeats, each containing an amphipathic helix. The three amphipathic helices, along with flanking residues, tether the protein to the membrane interface. The separation between and membrane positioning of the amphipathic helices in the simulations are validated by published EPR data. The membrane contact probabilities of individual residues in tau show both similarities to and distinctions from native contacts with microtubules. In particular, a Lys that is conserved among the repeats forms similar interactions with membranes and with microtubules, as does a conserved Val. This partial mimicry facilitates both the membrane anchoring of microtubules by tau and the transfer of tau from membranes to microtubules.",
+  "abstract_zh": "Tau，作为固有无序蛋白（IDPs）的典型代表，与多种靶标结合，包括微管和酸性膜。后两者表面均高度带负电，这引发了Tau在结合时可能模拟这些表面的前景。Tau-微管复合物最近通过冷冻电镜（cryo-EM）解析。在此，我们使用分子动力学（molecular dynamics）模拟来表征Tau K19与酸性膜的动态结合。该IDP可分为三个重复序列，每个重复序列包含一个两亲性螺旋。这三个两亲性螺旋及其侧翼残基将蛋白质锚定在膜界面上。模拟中两亲性螺旋的分离和膜定位已通过已发表的EPR数据验证。Tau中单个残基的膜接触概率与微管的天然接触既有相似性也有区别。特别是，一个在重复序列中保守的Lys与膜和微管形成相似相互作用，一个保守的Val也是如此。这种部分模拟促进了Tau对微管的膜锚定以及Tau从膜向微管的转移。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.06.515359",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.06.515359",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.06.515359/index.html"
+}

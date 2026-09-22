@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33799876",
+  "title": "The Participation of the Intrinsically Disordered Regions of the bHLH-PAS Transcription Factors in Disease Development.",
+  "authors": "Kolonko-Adamska, Marta; Uversky, Vladimir N; Greb-Markiewicz, Beata",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-04-04",
+  "window": {
+    "start": "2021-03-29",
+    "end": "2021-04-04"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过计算分析探讨bHLH-PAS转录因子无序区域、翻译后修饰与液-液相分离在疾病相关错义突变中的关联，涉及IDR介导的互作机制，但方法以序列分析为主，缺乏AI或物理模拟建模。",
+  "abstract": "The basic helix-loop-helix/Per-ARNT-SIM (bHLH-PAS) proteins are a family of transcription factors regulating expression of a wide range of genes involved in different functions, ranging from differentiation and development control by oxygen and toxins sensing to circadian clock setting. In addition to the well-preserved DNA-binding bHLH and PAS domains, bHLH-PAS proteins contain long intrinsically disordered C-terminal regions, responsible for regulation of their activity. Our aim was to analyze the potential connection between disordered regions of the bHLH-PAS transcription factors, post-transcriptional modifications and liquid-liquid phase separation, in the context of disease-associated missense mutations. Highly flexible disordered regions, enriched in short motives which are more ordered, are responsible for a wide spectrum of interactions with transcriptional co-regulators. Based on our in silico analysis and taking into account the fact that the functions of transcription factors can be modulated by posttranslational modifications and spontaneous phase separation, we assume that the locations of missense mutations inducing disease states are clearly related to sequences directly undergoing these processes or to sequences responsible for their regulation.",
+  "abstract_zh": "碱性螺旋-环-螺旋/Per-ARNT-SIM（bHLH-PAS）蛋白是一类转录因子，调控涉及多种功能的广泛基因表达，从通过氧和毒素感应进行的分化与发育控制，到昼夜节律设定。除了高度保守的DNA结合bHLH和PAS结构域外，bHLH-PAS蛋白还包含长的内在无序C端区域，这些区域负责其活性的调控。我们的目标是分析bHLH-PAS转录因子的无序区域、转录后修饰和液-液相分离（liquid-liquid phase separation）之间潜在的联系，并结合疾病相关的错义突变进行探讨。高度灵活的无序区域富含较短且更有序的基序，负责与转录共调节因子进行广泛的相互作用。基于我们的计算机模拟分析，并考虑到转录因子功能可通过翻译后修饰和自发相分离进行调节的事实，我们假设诱导疾病状态的错义突变位置与直接参与这些过程的序列或负责其调控的序列明显相关。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33799876/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33799876/",
+  "paper_page_path": "papers/pubmed/33799876/index.html"
+}

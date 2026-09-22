@@ -1,0 +1,354 @@
+{
+  "identity": {
+    "pmid": "39478017",
+    "doi": "10.1038/s41598-024-77522-3",
+    "title": "Crystal structure of the HMGA AT-hook 1 domain bound to the minor groove of AT-rich DNA and inhibition by antikinetoplastid drugs."
+  },
+  "content": {
+    "abstract": "High mobility group (HMG) proteins are intrinsically disordered nuclear non-histone chromosomal proteins that play an essential role in many biological processes by regulating the expression of numerous genes in eukaryote cells. HMGA proteins contain three DNA binding motifs, the \"AT-hooks\", that bind preferentially to AT-rich sequences in the minor groove of B-form DNA. Understanding the interactions of AT-hook domains with DNA is very relevant from a medical point of view because HMGA proteins are involved in different conditions including cancer and parasitic diseases. We present here the first crystal structure (1.40 A resolution) of the HMGA AT-hook 1 domain, bound to the minor groove of AT-rich DNA. In contrast to AT-hook 3 which bends DNA and shows a larger minor groove widening, AT-hook 1 binds neighbouring DNA molecules and displays moderate widening of DNA upon binding. The binding affinity and thermodynamics of binding were studied in solution with surface plasmon resonance (SPR)-biosensor and isothermal titration calorimetry (ITC) experiments. AT-hook 1 forms an entropy-driven 2:1 complex with (TTAA)(2)-containing DNA with relatively slow kinetics of association/dissociation. We show that N-phenylbenzamide-derived antikinetoplastid compounds (1-3) bind strongly and specifically to the minor groove of AT-DNA and compete with AT-hook 1 for binding. The central core of the molecule is the basis for the observed sequence selectivity of these compounds. These findings provide clues regarding a possible mode of action of DNA minor groove binding compounds that are relevant to major neglected tropical diseases such as leishmaniasis and trypanosomiasis.",
+    "keywords": [
+      "AT-hook 1 binding inhibitor",
+      "DNA minor groove binder",
+      "HMGA AT-hook 1 domain",
+      "High mobility group (HMG) protein",
+      "crystal structure.",
+      "kinetoplastid parasite"
+    ],
+    "mesh_terms": [
+      "Crystallography, X-Ray",
+      "*DNA/metabolism/chemistry",
+      "Protein Binding",
+      "HMGA Proteins/metabolism/chemistry",
+      "AT-Hook Motifs",
+      "Humans",
+      "Models, Molecular",
+      "Thermodynamics",
+      "Nucleic Acid Conformation",
+      "Binding Sites",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nue-Martinez, J Jonathan",
+        "Maturana, Marta",
+        "Lagartera, Laura",
+        "Rodriguez-Gutierrez, Juan-Antonio",
+        "Boer, Roeland",
+        "Campos, J Lourdes",
+        "Saperas, Nuria",
+        "Dardonville, Christophe"
+      ],
+      "short_names": [
+        "Nue-Martinez JJ",
+        "Maturana M",
+        "Lagartera L",
+        "Rodriguez-Gutierrez JA",
+        "Boer R",
+        "Campos JL",
+        "Saperas N",
+        "Dardonville C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Instituto de Quimica Medica, IQM-CSIC, Madrid, 28006, Spain.",
+        "Departament d'Enginyeria Quimica, EEBE, Universitat Politecnica de Catalunya, Barcelona, 08019, Spain.",
+        "Instituto de Quimica Medica, IQM-CSIC, Madrid, 28006, Spain.",
+        "Instituto de Quimica Medica, IQM-CSIC, Madrid, 28006, Spain.",
+        "ALBA Synchrotron Light Source, Experiments division, Cerdanyola del Valles, 08290, Barcelona, Spain.",
+        "Departament d'Enginyeria Quimica, EEBE, Universitat Politecnica de Catalunya, Barcelona, 08019, Spain.",
+        "Departament d'Enginyeria Quimica, EEBE, Universitat Politecnica de Catalunya, Barcelona, 08019, Spain. nuria.saperas@upc.edu.",
+        "Instituto de Quimica Medica, IQM-CSIC, Madrid, 28006, Spain. dardonville@iqm.csic.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nué-Martinez, J Jonathan",
+        "short_name": "Nué-Martinez JJ",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Química Médica, IQM-CSIC, Madrid, 28006, Spain."
+        ]
+      },
+      {
+        "full_name": "Maturana, Marta",
+        "short_name": "Maturana M",
+        "identifiers": [],
+        "affiliations": [
+          "Departament d'Enginyeria Química, EEBE, Universitat Politècnica de Catalunya, Barcelona, 08019, Spain."
+        ]
+      },
+      {
+        "full_name": "Lagartera, Laura",
+        "short_name": "Lagartera L",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Química Médica, IQM-CSIC, Madrid, 28006, Spain."
+        ]
+      },
+      {
+        "full_name": "Rodríguez-Gutiérrez, Juan-Antonio",
+        "short_name": "Rodríguez-Gutiérrez JA",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Química Médica, IQM-CSIC, Madrid, 28006, Spain."
+        ]
+      },
+      {
+        "full_name": "Boer, Roeland",
+        "short_name": "Boer R",
+        "identifiers": [],
+        "affiliations": [
+          "ALBA Synchrotron Light Source, Experiments división, Cerdanyola del Valles, 08290, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Campos, J Lourdes",
+        "short_name": "Campos JL",
+        "identifiers": [],
+        "affiliations": [
+          "Departament d'Enginyeria Química, EEBE, Universitat Politècnica de Catalunya, Barcelona, 08019, Spain."
+        ]
+      },
+      {
+        "full_name": "Saperas, Núria",
+        "short_name": "Saperas N",
+        "identifiers": [],
+        "affiliations": [
+          "Departament d'Enginyeria Química, EEBE, Universitat Politècnica de Catalunya, Barcelona, 08019, Spain. nuria.saperas@upc.edu."
+        ]
+      },
+      {
+        "full_name": "Dardonville, Christophe",
+        "short_name": "Dardonville C",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Química Médica, IQM-CSIC, Madrid, 28006, Spain. dardonville@iqm.csic.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Oct 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/31 10:18",
+    "fetched_at": "2026-09-21 12:02:18"
+  },
+  "links": {
+    "cites": [
+      "42075794",
+      "41904596",
+      "40060818"
+    ],
+    "refs": [
+      "39201549",
+      "37828010",
+      "37729094",
+      "37720761",
+      "36449697",
+      "36336658",
+      "35864955",
+      "35212375",
+      "32898299",
+      "30543391",
+      "30126638",
+      "28673423",
+      "28641558",
+      "28637278",
+      "28239154",
+      "25654243",
+      "24971961",
+      "24914972",
+      "24890590",
+      "24879122",
+      "24865793",
+      "24323836",
+      "22994497",
+      "22857824",
+      "22615915",
+      "22497334",
+      "22162017",
+      "21854779",
+      "21807972",
+      "21731738",
+      "21460454",
+      "21460441",
+      "20124702",
+      "20123067",
+      "19865164",
+      "19778070",
+      "19620327",
+      "19461840",
+      "19405506",
+      "18343228",
+      "18247550",
+      "18202751",
+      "18023407",
+      "18004397",
+      "17956125",
+      "17517831",
+      "17472897",
+      "17169561",
+      "16759117",
+      "16369096",
+      "16240044",
+      "15572765",
+      "12930962",
+      "12897853",
+      "11602345",
+      "9253416",
+      "6941276",
+      "6052643",
+      "1692833"
+    ],
+    "similar": [
+      "39478017",
+      "39201549",
+      "22615915",
+      "35212375",
+      "12504903",
+      "17081121",
+      "14709078",
+      "10873468",
+      "10588902",
+      "17114349",
+      "12628246",
+      "11922670",
+      "17935330",
+      "29101034",
+      "19666574",
+      "37720761",
+      "14750519",
+      "11533063",
+      "11602345",
+      "17425312",
+      "26156556",
+      "19781672",
+      "12775690",
+      "1692833",
+      "16109425",
+      "24914972",
+      "25711412",
+      "16274217",
+      "18937643",
+      "12767244",
+      "23647824",
+      "23607615",
+      "16837123",
+      "31162607",
+      "33051202",
+      "10966796",
+      "28637278",
+      "20713062",
+      "34142803",
+      "11425313",
+      "9020982",
+      "21627167",
+      "11033083",
+      "9875333",
+      "15379563",
+      "35661929",
+      "10933789",
+      "35629349",
+      "9485418",
+      "16893881",
+      "24281844",
+      "15493923",
+      "7973627",
+      "11502170",
+      "11877739",
+      "8636970",
+      "18023407",
+      "16504207",
+      "8585957",
+      "18596978",
+      "15697219",
+      "14747338",
+      "35687119",
+      "23149213",
+      "22530735",
+      "7478996",
+      "1939057",
+      "11726497",
+      "33010889",
+      "26084422",
+      "10347218",
+      "24323836",
+      "12656603",
+      "17506529",
+      "12354918",
+      "12123799",
+      "28644006",
+      "17055530",
+      "31616952",
+      "20079749",
+      "18202751",
+      "21890907",
+      "10091119",
+      "11350169",
+      "16828700",
+      "20108983",
+      "9743632",
+      "21545188",
+      "23061670",
+      "12590579",
+      "11406267",
+      "19726198",
+      "11442059",
+      "37071034",
+      "17087509",
+      "32466162",
+      "27791148",
+      "18662672",
+      "18798655",
+      "15798993"
+    ],
+    "review": [
+      "39478017",
+      "39201549",
+      "14750519",
+      "11602345",
+      "17055530",
+      "18202751",
+      "11406267",
+      "37071034",
+      "32466162"
+    ],
+    "pmc": [
+      "11526092"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-77522-3",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39478017/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

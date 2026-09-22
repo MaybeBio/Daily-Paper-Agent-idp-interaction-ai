@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "33708792",
+    "doi": "10.3389/fmolb.2020.629520",
+    "title": "Albumin Alters the Conformational Ensemble of Amyloid-beta by Promiscuous Interactions: Implications for Amyloid Inhibition."
+  },
+  "content": {
+    "abstract": "Human serum albumin (HSA) is a key endogenous inhibitor of amyloid-beta (Alphabeta) aggregation. In vitro HSA inhibits Abeta fibrillization and targets multiple species along the aggregation pathway including monomers, oligomers, and protofibrils. Amyloid inhibition by HSA has both pathological implications and therapeutic potential, but the underlying molecular mechanism remains elusive. As a first step towards addressing this complex question, we studied the interactions of an Abeta42 monomer with HSA by molecular dynamics simulations. To adequately sample the conformational space, we adapted the replica exchange with solute tempering (REST2) method to selectively heat the Abeta42 peptide in the absence and presence of HSA. Abeta42 binds to multiple sites on HSA with a preference to domain III and adopts various conformations that all differ from the free state. The beta-sheet abundances of H14-E22 and A30-M33 regions are significantly reduced by HSA, so are the beta-sheet lengths. HSA shifts the conformational ensemble towards more disordered states and alters the beta-sheet association patterns. In particular, the frequent association of Q15-V24 and N27-V36 regions into beta-hairpin which is critical for aggregation is impeded. HSA primarily interacts with the latter beta-region and the N-terminal charged residues. They form promiscuous interactions characterized by salt bridges at the edge of the peptide-protein interface and hydrophobic cores at the center. Consequently, intrapeptide interactions crucial for beta-sheet formation are disrupted. Our work builds the bridge between the modification of Abeta conformational ensemble and amyloid inhibition by HSA. It also illustrates the potential of the REST2 method in studying interactions between intrinsically disordered peptides and globular proteins.",
+    "keywords": [
+      "alzheimer's disease",
+      "amyloid-beta",
+      "conformational ensemble",
+      "promiscuous interactions",
+      "serum albumin",
+      "solute tempering"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Xie, Huisi",
+        "Guo, Cong"
+      ],
+      "short_names": [
+        "Xie H",
+        "Guo C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, Shanghai, China.",
+        "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, Shanghai, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Xie, Huisi",
+        "short_name": "Xie H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, Shanghai, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Cong",
+        "short_name": "Guo C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and International Centre for Quantum and Molecular Structures, College of Sciences, Shanghai University, Shanghai, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2020",
+    "pub_year": "2020",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/13 06:00",
+    "fetched_at": "2026-09-20 01:58:31"
+  },
+  "links": {
+    "cites": [
+      "42563066",
+      "40855053",
+      "40437610",
+      "39206288",
+      "38915402",
+      "36614115",
+      "36313027"
+    ],
+    "refs": [
+      "33119314",
+      "32715623",
+      "31794135",
+      "31783325",
+      "31360335",
+      "30685090",
+      "30580919",
+      "30134733",
+      "29409811",
+      "29319301",
+      "28930473",
+      "28882996",
+      "28841239",
+      "28798235",
+      "28550295",
+      "28245647",
+      "28092832",
+      "27560127",
+      "27469165",
+      "27355699",
+      "26721621",
+      "26682687",
+      "26562747",
+      "26553504",
+      "26488662",
+      "26046578",
+      "25938662",
+      "25789869",
+      "25762330",
+      "25646717",
+      "24737040",
+      "24094411",
+      "24072068",
+      "24042052",
+      "24020590",
+      "22718756",
+      "22232005",
+      "21726530",
+      "21714551",
+      "21190670",
+      "20408171",
+      "19883602",
+      "18375754",
+      "18028874",
+      "17367135",
+      "17212484",
+      "16172406",
+      "15713083",
+      "14971932",
+      "14705137",
+      "14687578",
+      "12149256",
+      "10679277",
+      "10388840",
+      "10347147",
+      "8955133",
+      "8744570",
+      "6667333"
+    ],
+    "similar": [
+      "33708792",
+      "23811057",
+      "34160192",
+      "28798235",
+      "30605312",
+      "27091578",
+      "33687193",
+      "30580919",
+      "31111835",
+      "34472835",
+      "25137638",
+      "36179370",
+      "36052514",
+      "28371680",
+      "35093643",
+      "37040092",
+      "34612422",
+      "28162045",
+      "28881033",
+      "29900443",
+      "22674434",
+      "30821624",
+      "19053400",
+      "20709081",
+      "35301147",
+      "28767224",
+      "24094411",
+      "31496378",
+      "32794732",
+      "36153964",
+      "26070334",
+      "37218694",
+      "32637837",
+      "36069400",
+      "38344035",
+      "29200307",
+      "25973904",
+      "34152264",
+      "37126408",
+      "37390790",
+      "37217059",
+      "34494046",
+      "31162715",
+      "33289734",
+      "31454243",
+      "35905824",
+      "34565139",
+      "23421682",
+      "16731963",
+      "31457321",
+      "23904252",
+      "21056574",
+      "22947874",
+      "25650940",
+      "26562747",
+      "18835397",
+      "27933940",
+      "18479708",
+      "24857343",
+      "24041422",
+      "29235155",
+      "27854243",
+      "17367135",
+      "28241387",
+      "35682848",
+      "19883602",
+      "32441920",
+      "35732234",
+      "36302506",
+      "18408165",
+      "23440928",
+      "31046642",
+      "35458686",
+      "20938982",
+      "25256598",
+      "23051147",
+      "36602150",
+      "33119314",
+      "31566950",
+      "31234720",
+      "35580288",
+      "30381893",
+      "20338850",
+      "36219848",
+      "30582723",
+      "22128957",
+      "28930473",
+      "24498083",
+      "34605235",
+      "31872820",
+      "31027286",
+      "35167084",
+      "29432676",
+      "25330935",
+      "36150020",
+      "31900057",
+      "36250019",
+      "35530686",
+      "38292476",
+      "38938816"
+    ],
+    "review": [
+      "33708792",
+      "35093643"
+    ],
+    "pmc": [
+      "7940760"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33708792/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33708792",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2020.629520",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33708792",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

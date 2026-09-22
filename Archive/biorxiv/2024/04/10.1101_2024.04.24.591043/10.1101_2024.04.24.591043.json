@@ -1,0 +1,599 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.04.24.591043",
+  "title": "Graph convolutional network learning model based on new integrated data of the protein-protein interaction network and network pharmacology for the prediction of herbal medicines effective for the treatment of metabolic diseases",
+  "doi": "10.1101/2024.04.24.591043",
+  "abstract": "Chronic metabolic diseases constitute a group of conditions requiring long-term management and hold significant importance for national public health and medical care. Currently, in Korean medicine, there are no insurance-covered herbal prescriptions designated primarily for the treatment of metabolic diseases. Therefore, the objective of this study was to identify herbal prescriptions from the existing pool of insurance-covered options that could be effective in treating metabolic diseases. This research study employed a graph convolutional network learning model to analyze PPI network constructed from network pharmacology, aiming to identify suitable herbal prescriptions for various metabolic diseases, thus diverging from literature-based approaches based on classical indications. Additionally, the derived herbal medicine candidates were subjected to transfer learning on a model that binarily classified the marketed drugs into those currently used for metabolic diseases and those that are not for data-based verification. GCN, adept at capturing patterns within protein-protein interaction (PPI) networks, was utilized for classifying and learning the data. Moreover, gene scores related to the diseases were extracted from GeneCards and used as weights. The performance of the pre-trained model was validated through 5-fold cross-validation and bootstrapping with 100 iterations. Furthermore, to ascertain the superior performance of our proposed model, the number of layers was varied, and the performance of each was evaluated. Our proposed model structure achieved outstanding performance in classifying drugs, with an average precision of 96.68%, recall of 97.18%, and an F1 score of 96.74%. The trained model predicted that the most effective decoction would be Jowiseunggi-tang for hyperlipidemia, Saengmaegsan for hypertension, and Kalkunhaeki-tang for type 2 diabetes. This study is the first of its kind to integrate GCN with weighted PPI network data to classify herbal prescriptions by their potential for usage on certain diseases.",
+  "authors": [
+    "Tae-Hyoung Kim",
+    "Ga-Ram Yu",
+    "Dong-Woo Lim",
+    "Won-Hwan Park"
+  ],
+  "published_date": "2024-04-30",
+  "updated_date": "2024-04-30T10:56:05Z",
+  "journal": "bioRxiv",
+  "category": "Systems Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.04.24.591043",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.04.24.591043.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Systems Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Systems Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T21:05:58Z",
+        "timestamp": 1768511158051,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            30
+          ]
+        ]
+      },
+      "group-title": "Systems Biology",
+      "reference-count": 49,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            30
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Chronic metabolic diseases constitute a group of conditions requiring long-term management and hold significant importance for national public health and medical care. Currently, in Korean medicine, there are no insurance-covered herbal prescriptions designated primarily for the treatment of metabolic diseases. Therefore, the objective of this study was to identify herbal prescriptions from the existing pool of insurance-covered options that could be effective in treating metabolic diseases. This research study employed a graph convolutional network learning model to analyze PPI network constructed from network pharmacology, aiming to identify suitable herbal prescriptions for various metabolic diseases, thus diverging from literature-based approaches based on classical indications. Additionally, the derived herbal medicine candidates were subjected to transfer learning on a model that binarily classified the marketed drugs into those currently used for metabolic diseases and those that are not for data-based verification. GCN, adept at capturing patterns within protein-protein interaction (PPI) networks, was utilized for classifying and learning the data. Moreover, gene scores related to the diseases were extracted from GeneCards and used as weights. The performance of the pre-trained model was validated through 5-fold cross-validation and bootstrapping with 100 iterations. Furthermore, to ascertain the superior performance of our proposed model, the number of layers was varied, and the performance of each was evaluated. Our proposed model structure achieved outstanding performance in classifying drugs, with an average precision of 96.68%, recall of 97.18%, and an F1 score of 96.74%. The trained model predicted that the most effective decoction would be\n                  <jats:italic>Jowiseunggi-tang</jats:italic>\n                  for hyperlipidemia,\n                  <jats:italic>Saengmaegsan</jats:italic>\n                  for hypertension, and\n                  <jats:italic>Kalkunhaeki-tang</jats:italic>\n                  for type 2 diabetes. This study is the first of its kind to integrate GCN with weighted PPI network data to classify herbal prescriptions by their potential for usage on certain diseases.\n                </jats:p>",
+      "DOI": "10.1101/2024.04.24.591043",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            30
+          ]
+        ],
+        "date-time": "2024-04-30T10:56:05Z",
+        "timestamp": 1714474565000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Graph convolutional network learning model based on new integrated data of the protein-protein interaction network and network pharmacology for the prediction of herbal medicines effective for the treatment of metabolic diseases"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Tae-Hyoung",
+          "family": "Kim",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Ga-Ram",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3179-9439",
+          "authenticated-orcid": false,
+          "given": "Dong-Woo",
+          "family": "Lim",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Won-Hwan",
+          "family": "Park",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wiegers C , van de Burgwal LH , Claassen E , Larsen OF . Trends in nutrition, lifestyle, and metabolic disease in the United States from 1900 onwards. PharmaNutrition. 2023:100350.",
+          "DOI": "10.1016/j.phanu.2023.100350"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.2",
+          "unstructured": "Choi DH . The trend of health insurance medical care costs in the last 20 years. 2020."
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.reprotox.2016.10.001"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.4",
+          "unstructured": "Organization WH . The world health report 2002: reducing risks, promoting healthy life: World Health Organization; 2002."
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.diabres.2021.109118"
+        },
+        {
+          "issue": "7",
+          "key": "2024050402350504000_2024.04.24.591043v1.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "569",
+          "DOI": "10.1016/j.arcmed.2018.01.004",
+          "article-title": "Hypolipidemic components from medicine food homology species used in China: pharmacological and health effects",
+          "volume": "48",
+          "year": "2017",
+          "journal-title": "Archives of medical research"
+        },
+        {
+          "issue": "1",
+          "key": "2024050402350504000_2024.04.24.591043v1.7",
+          "first-page": "399",
+          "article-title": "A review article on hyperlipidemia: types, treatments and new drug targets",
+          "volume": "7",
+          "year": "2015",
+          "journal-title": "Biomedical and Pharmacology Journal"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1001/jama.2022.19590"
+        },
+        {
+          "issue": "12",
+          "key": "2024050402350504000_2024.04.24.591043v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1801655",
+          "DOI": "10.1002/adhm.201801655",
+          "article-title": "Drug delivery strategies for the treatment of metabolic diseases",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "Advanced healthcare materials"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "892",
+          "DOI": "10.1016/S0140-6736(04)15739-5",
+          "article-title": "Selenoprotein synthesis and side-effects of statins",
+          "volume": "363",
+          "year": "2004",
+          "journal-title": "The Lancet"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1161/01.HYP.11.2_Pt_2.I42"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0167-6296(02)00126-1"
+        },
+        {
+          "issue": "12",
+          "key": "2024050402350504000_2024.04.24.591043v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "3080",
+          "DOI": "10.1038/s41401-022-00983-7",
+          "article-title": "Multi-compound and drug-combination pharmacokinetic research on Chinese herbal medicines",
+          "volume": "43",
+          "year": "2022",
+          "journal-title": "Acta Pharmacologica Sinica"
+        },
+        {
+          "issue": "1",
+          "key": "2024050402350504000_2024.04.24.591043v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "9055",
+          "DOI": "10.1038/s41598-019-45099-x",
+          "article-title": "Drug repurposing in alternative medicine: herbal digestive Sochehwan exerts multifaceted effects against metabolic syndrome",
+          "volume": "9",
+          "year": "2019",
+          "journal-title": "Scientific Reports"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.drudis.2018.01.039"
+        },
+        {
+          "issue": "1",
+          "key": "2024050402350504000_2024.04.24.591043v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "3",
+          "DOI": "10.1002/minf.201501008",
+          "article-title": "Deep learning in drug discovery",
+          "volume": "35",
+          "year": "2016",
+          "journal-title": "Molecular informatics"
+        },
+        {
+          "issue": "10",
+          "key": "2024050402350504000_2024.04.24.591043v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "2017",
+          "DOI": "10.1016/j.drudis.2019.07.006",
+          "article-title": "Deep learning in drug discovery: opportunities, challenges and future prospects",
+          "volume": "24",
+          "year": "2019",
+          "journal-title": "Drug discovery today"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.18",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Liu Z , Luo C , Fu D , Gui J , Zheng Z , Qi L , et al. A novel transfer learning model for traditional herbal medicine prescription generation from unstructured resources and knowledge. Artificial Intelligence in Medicine. 2022;124:102232.",
+          "DOI": "10.1016/j.artmed.2021.102232"
+        },
+        {
+          "issue": "12",
+          "key": "2024050402350504000_2024.04.24.591043v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1632",
+          "DOI": "10.1093/jamia/ocz164",
+          "article-title": "Traditional Chinese medicine clinical records classification with BERT and domain specific corpora",
+          "volume": "26",
+          "year": "2019",
+          "journal-title": "Journal of the American Medical Informatics Association"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.20",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wang Z , Poon J , Poon S , editors. Tcm translator: A sequence generation approach for prescribing herbal medicines. 2019 IEEE International Conference on Bioinformatics and Biomedicine (BIBM); 2019: IEEE.",
+          "DOI": "10.1109/BIBM47256.2019.8983384"
+        },
+        {
+          "issue": "1",
+          "key": "2024050402350504000_2024.04.24.591043v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "119",
+          "DOI": "10.1186/s12911-023-02230-3",
+          "article-title": "Development of a novel drug information provision system for Kampo medicine using natural language processing technology",
+          "volume": "23",
+          "year": "2023",
+          "journal-title": "BMC Medical Informatics and Decision Making"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.22",
+          "unstructured": "Kipf TN , Welling M . Semi-supervised classification with graph convolutional networks. arXiv preprint arXiv:160902907. 2016."
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Safran M , Dalah I , Alexander J , Rosen N , Iny Stein T , Shmoish M , et al. GeneCards Version 3: the human gene integrator. Database. 2010;2010.",
+          "DOI": "10.1093/database/baq020"
+        },
+        {
+          "issue": "16",
+          "key": "2024050402350504000_2024.04.24.591043v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "5035",
+          "DOI": "10.1021/acs.jcim.3c00554",
+          "article-title": "Evaluating the Use of Graph Neural Networks and Transfer Learning for Oral Bioavailability Prediction",
+          "volume": "63",
+          "year": "2023",
+          "journal-title": "Journal of Chemical Information and Modeling"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Egbert J , Plonsky L . Bootstrapping techniques. A practical handbook of corpus linguistics: Springer; 2021. p. 593–610.",
+          "DOI": "10.1007/978-3-030-46216-1_24"
+        },
+        {
+          "issue": "3",
+          "key": "2024050402350504000_2024.04.24.591043v1.26",
+          "first-page": "569",
+          "article-title": "Sensitivity analysis of k-fold cross validation in prediction error estimation",
+          "volume": "32",
+          "year": "2009",
+          "journal-title": "IEEE transactions on pattern analysis and machine intelligence"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3346/jkms.2017.32.5.718"
+        },
+        {
+          "issue": "4",
+          "key": "2024050402350504000_2024.04.24.591043v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "267",
+          "DOI": "10.4258/hir.2011.17.4.267",
+          "article-title": "The development of a Korean drug dosing database",
+          "volume": "17",
+          "year": "2011",
+          "journal-title": "Healthcare Informatics Research"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1000"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1277"
+        },
+        {
+          "issue": "7",
+          "key": "2024050402350504000_2024.04.24.591043v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "610",
+          "DOI": "10.2174/1574893618666230504143647",
+          "article-title": "Predicting Herb-Disease Associations through Graph Convolutional Network",
+          "volume": "18",
+          "year": "2023",
+          "journal-title": "Current Bioinformatics"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-4-2"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.33",
+          "unstructured": "Paszke A , Gross S , Chintala S , Chanan G , Yang E , DeVito Z , et al. Automatic differentiation in pytorch. 2017."
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3758/BF03213026"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "56",
+          "DOI": "10.1016/j.beproc.2018.01.004",
+          "article-title": "Evaluation of the confusion matrix method in the validation of an automated system for measuring feeding behaviour of cattle",
+          "volume": "148",
+          "year": "2018",
+          "journal-title": "Behavioural processes"
+        },
+        {
+          "issue": "2",
+          "key": "2024050402350504000_2024.04.24.591043v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0263614",
+          "DOI": "10.1371/journal.pone.0263614",
+          "article-title": "A network pharmacology approach to explore active compounds and pharmacological mechanisms of a patented Chinese herbal medicine in the treatment of endometriosis",
+          "volume": "17",
+          "year": "2022",
+          "journal-title": "PloS one"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.37",
+          "doi-asserted-by": "crossref",
+          "first-page": "1353",
+          "DOI": "10.3389/fphar.2019.01353",
+          "article-title": "Comparative network pharmacology analysis of classical TCM prescriptions for chronic liver disease",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Frontiers in Pharmacology"
+        },
+        {
+          "issue": "2",
+          "key": "2024050402350504000_2024.04.24.591043v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "1314",
+          "DOI": "10.3390/cimb45020086",
+          "article-title": "Network Pharmacological Analysis of a New Herbal Combination Targeting Hyperlipidemia and Efficacy Validation In Vitro",
+          "volume": "45",
+          "year": "2023",
+          "journal-title": "Current Issues in Molecular Biology"
+        },
+        {
+          "issue": "2",
+          "key": "2024050402350504000_2024.04.24.591043v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "136",
+          "DOI": "10.1016/j.tips.2021.11.004",
+          "article-title": "Network pharmacology: curing causal mechanisms instead of treating symptoms",
+          "volume": "43",
+          "year": "2022",
+          "journal-title": "Trends in Pharmacological Sciences"
+        },
+        {
+          "issue": "3",
+          "key": "2024050402350504000_2024.04.24.591043v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "e0282875",
+          "DOI": "10.1371/journal.pone.0282875",
+          "article-title": "Network pharmacology predicts combinational effect of novel herbal pair consist of Ephedrae herba and Coicis semen on adipogenesis in 3T3-L1 cells",
+          "volume": "18",
+          "year": "2023",
+          "journal-title": "Plos one"
+        },
+        {
+          "issue": "2",
+          "key": "2024050402350504000_2024.04.24.591043v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "2141",
+          "DOI": "10.1093/bib/bbaa044",
+          "article-title": "Identifying drug–target interactions based on graph convolutional network and deep neural network",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Briefings in bioinformatics"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.42",
+          "doi-asserted-by": "crossref",
+          "first-page": "101",
+          "DOI": "10.1016/j.ymeth.2022.05.003",
+          "article-title": "HPE-GCN: Predicting efficacy of tonic formulae via graph convolutional networks integrating traditionally defined herbal properties",
+          "volume": "204",
+          "year": "2022",
+          "journal-title": "Methods"
+        },
+        {
+          "issue": "1",
+          "key": "2024050402350504000_2024.04.24.591043v1.43",
+          "first-page": "1",
+          "article-title": "Study on Standard Herb Prescriptions Based on the Specific Names of the Sick and Wounded for the Application of Oriental Herbal Medicine Health Insurance",
+          "volume": "30",
+          "year": "2009",
+          "journal-title": "J Korean Oriental Med"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Yoo J-H , Par SB , Ki EH , Lee JY , Yoo SW . A Case Report on Opioid-Induced Constipation in a Patient with Cancer Treated by Jowiseunggi-tang. The Society of Internal Korean Medicine. 2022;43(2).",
+          "DOI": "10.22246/jikm.2022.43.2.229"
+        },
+        {
+          "issue": "1",
+          "key": "2024050402350504000_2024.04.24.591043v1.45",
+          "doi-asserted-by": "crossref",
+          "first-page": "1",
+          "DOI": "10.13048/jkm.23001",
+          "article-title": "Study on the distribution in major disease category and frequency of clinical usage of national health insurance herbal prescription based on analysis on KCD8 disease code of indications",
+          "volume": "44",
+          "year": "2023",
+          "journal-title": "Journal of Korean Medicine"
+        },
+        {
+          "key": "2024050402350504000_2024.04.24.591043v1.46",
+          "doi-asserted-by": "crossref",
+          "first-page": "114700",
+          "DOI": "10.1016/j.jep.2021.114700",
+          "article-title": "Effects of Jowiseungki-tang on high fat diet-induced obesity in mice and functional analysis on network pharmacology and metabolomics analysis",
+          "volume": "283",
+          "year": "2022",
+          "journal-title": "Journal of Ethnopharmacology"
+        },
+        {
+          "issue": "4",
+          "key": "2024050402350504000_2024.04.24.591043v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "779",
+          "DOI": "10.22246/jikm.2022.43.4.779",
+          "article-title": "Reports of 63 Patients Treated with Herbal Medicine to Relieve Symptoms of COVID-19 at One Korean Medicine Clinic: A Retrospective Chart Review",
+          "volume": "43",
+          "year": "2022",
+          "journal-title": "The Journal of Internal Korean Medicine"
+        },
+        {
+          "issue": "9",
+          "key": "2024050402350504000_2024.04.24.591043v1.48",
+          "doi-asserted-by": "crossref",
+          "first-page": "1179",
+          "DOI": "10.3746/jkfn.2009.38.9.1179",
+          "article-title": "Effect of Saengmaec-san on the Level of Blood Glucose and Serum Components in Streptozocin-Induced Diabetic Rats",
+          "volume": "38",
+          "year": "2009",
+          "journal-title": "J Korean Soc Food Sci Nutr"
+        },
+        {
+          "issue": "2",
+          "key": "2024050402350504000_2024.04.24.591043v1.49",
+          "first-page": "1287",
+          "article-title": "The Effects of Sang-maek-san Supplementation on the Body Composition",
+          "volume": "19",
+          "year": "2010",
+          "journal-title": "Blood Lipids and Free Fatty Acid in Obese Middle-aged Women. The Korea Journal of Sports Science"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.04.24.591043",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:22:19Z",
+        "timestamp": 1768458139000
+      },
+      "score": 78.16625,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.04.24.591043"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            30
+          ]
+        ]
+      },
+      "references-count": 49,
+      "URL": "https://doi.org/10.1101/2024.04.24.591043",
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            30
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

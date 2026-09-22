@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "40337642",
+    "doi": "10.3389/fmolb.2025.1531793",
+    "title": "Successful prediction of LC8 binding to intrinsically disordered proteins sheds light on AlphaFold's black box."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: LC8 is a hub protein involved in many processes from tumor suppression and cell cycle regulation to neurotransmission and viral infection. Despite recent progress, prediction of binding sites for LC8 is plagued by motif variability and a multitude of weakly binding motifs, especially when binding depends on multivalency. Our binding site prediction algorithm, LC8Pred has proven useful for uncovering new LC8 binders, but is insufficient for finding all LC8 binding sites. METHODS: To address this, we probed the ability of a general structure predictor, AlphaFold, to predict whether a given sequence binds to LC8. Certain combinations of in-built AlphaFold scores were extracted and distributions of scores of binders were compared to scores of nonbinders. RESULTS: AlphaFold successfully places proteins at the correct interface of LC8. A set of threshold values of built-in AlphaFold scores enables differentiation between known binders and nonbinders with minimal false positive (8%) and acceptable false negative rates (20%). This cutoff, along with a more inclusive cutoff, was used to predict elusive LC8 binding sites in proteins known to bind LC8. DISCUSSION: Correlations between binding affinities and AlphaFold scores provide insight into the black box and indicate that AlphaFold learned an inaccurate energy function that nevertheless is useful for making inferences and conclusions about physical systems. Binding sites predicted by this method can be prioritized for investigation by comparing to result by LC8Pred, local structure, and evolutionary conservation.",
+    "keywords": [
+      "AlphaFold 2",
+      "LC8 dynein light chain",
+      "binding predictions",
+      "explain AI",
+      "hub protein",
+      "intrinsic disorder",
+      "protein binding"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Walker, Douglas R",
+        "Fujimura, Gretchen",
+        "Vanegas, Juan M",
+        "Barbar, Elisar J"
+      ],
+      "short_names": [
+        "Walker DR",
+        "Fujimura G",
+        "Vanegas JM",
+        "Barbar EJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR, United States.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR, United States.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR, United States.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Walker, Douglas R",
+        "short_name": "Walker DR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR, United States."
+        ]
+      },
+      {
+        "full_name": "Fujimura, Gretchen",
+        "short_name": "Fujimura G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR, United States."
+        ]
+      },
+      {
+        "full_name": "Vanegas, Juan M",
+        "short_name": "Vanegas JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR, United States."
+        ]
+      },
+      {
+        "full_name": "Barbar, Elisar J",
+        "short_name": "Barbar EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/08 11:14",
+    "fetched_at": "2026-09-22 02:37:05"
+  },
+  "links": {
+    "cites": [
+      "41542604"
+    ],
+    "refs": [
+      "39446390",
+      "39181864",
+      "38800721",
+      "38744917",
+      "38238291",
+      "38225382",
+      "37713472",
+      "37590370",
+      "37399411",
+      "37083599",
+      "36979339",
+      "36928239",
+      "36753519",
+      "36563190",
+      "36542066",
+      "36335430",
+      "35994486",
+      "35637307",
+      "34791371",
+      "34762488",
+      "34282049",
+      "34265844",
+      "32311332",
+      "32139510",
+      "31728719",
+      "31266884",
+      "30091878",
+      "29922309",
+      "29240760",
+      "27881680",
+      "26851286",
+      "26459761",
+      "25038412",
+      "24098557",
+      "23986568",
+      "23223634",
+      "22110040",
+      "21533121",
+      "21150998",
+      "21094642",
+      "20921139",
+      "20480050",
+      "20164152",
+      "20133940",
+      "19060904",
+      "18650427",
+      "18364713",
+      "18092820",
+      "17570393",
+      "16740735",
+      "16156658",
+      "15980204",
+      "15891768",
+      "15190252",
+      "14760703",
+      "14634627",
+      "12761050",
+      "11333967",
+      "11034217",
+      "10592235",
+      "4358940"
+    ],
+    "similar": [
+      "40337642",
+      "32139510",
+      "28792212",
+      "36979339",
+      "29240760",
+      "31266884",
+      "26652654",
+      "24920673",
+      "17570393",
+      "17274669",
+      "40107617",
+      "36335430",
+      "29714690",
+      "34656330",
+      "18092820",
+      "36114230",
+      "15581372",
+      "23482567",
+      "19641106",
+      "17438267",
+      "16183843",
+      "33630249",
+      "18948118",
+      "21621319",
+      "37083599",
+      "19863079",
+      "39446390",
+      "11602781",
+      "15701632",
+      "21454704",
+      "23038268",
+      "15611139",
+      "21777386",
+      "23914803",
+      "31634467",
+      "25263009",
+      "18650427",
+      "36269348",
+      "23243318",
+      "14760703",
+      "21533121",
+      "12920307",
+      "40074079",
+      "31505170",
+      "35762713",
+      "11327818",
+      "11689631",
+      "11746667",
+      "23223634",
+      "24757501",
+      "40298087",
+      "34827601",
+      "12782328",
+      "19289209",
+      "18942858",
+      "26459761",
+      "26253171",
+      "15078108",
+      "20974845",
+      "17428790",
+      "12519184",
+      "26226419",
+      "19557173",
+      "19759397",
+      "17169380",
+      "11513870",
+      "16949604",
+      "36291736",
+      "39990437",
+      "23293355",
+      "11914076",
+      "36304330",
+      "25312846",
+      "25342295",
+      "22753897",
+      "35976160",
+      "18579519",
+      "36948209",
+      "39313455",
+      "32311332",
+      "37185764",
+      "38077000",
+      "11024151",
+      "18635601",
+      "36416224",
+      "39697677",
+      "11559815",
+      "35655760",
+      "36542066",
+      "35696549",
+      "35883541",
+      "34418423",
+      "35757294",
+      "20889982",
+      "38751115",
+      "35945035",
+      "18831774",
+      "38073135",
+      "39845016",
+      "22286006"
+    ],
+    "review": [
+      "40337642",
+      "40107617",
+      "21777386",
+      "25263009",
+      "24757501",
+      "26226419",
+      "35976160",
+      "39313455",
+      "32311332",
+      "37185764",
+      "35655760",
+      "34418423"
+    ],
+    "pmc": [
+      "12057147"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40337642/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2025.1531793",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

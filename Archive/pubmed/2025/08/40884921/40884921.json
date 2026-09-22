@@ -1,0 +1,246 @@
+{
+  "identity": {
+    "pmid": "40884921",
+    "doi": "10.1016/j.bioorg.2025.108905",
+    "title": "Structure-activity relationship and molecular interaction mechanisms of the ACE-inhibitory tripeptide LL-X."
+  },
+  "content": {
+    "abstract": "Investigating the molecular interaction mechanisms of angiotensin-converting enzyme (ACE) inhibitory peptides is valuable in antihypertensive drug development. In this study, we designed two novel peptide variants, Leu-Leu-Phe (LLF) and Leu-Leu-Pro (LLP), by substituting the C-terminal tyrosine (Tyr) in casein-derived Leu-Leu-Tyr (LLY) with phenylalanine (Phe) and proline (Pro), respectively, to investigate the impact of C-terminal amino acid properties of peptide on ACE inhibition. The ACE inhibitory activity, inhibition kinetics, peptides-ACE binding mechanisms, and LLF and LLP conformational relationship were systematically investigated with comparative assessment against the LLY. The results showed the ACE inhibitory activity of the synthetic peptide (LLF: IC(50) = 168.57 +/- 5.11 muM; LLP: IC(50) = 96.64 +/- 2.93 muM) was significantly lower than that casein-derived tripeptide LLY (IC(50) = 44.16 +/- 2.45 muM). The Lineweaver-Burk plots and molecular docking indicated that both LLF and LLP were noncompetitive inhibitors, which was consistent with LLY. Molecular dynamics simulations validated their stable binding to the ACE complex. The comparison of the three peptides interacting with ACE using multispectral techniques indicated that LLY resulted in the formation of a greater number of disordered protein structural regions, rendering it more active than the other peptides. Consequently, we concluded that the role of the C-terminal Tyr in the ACE inhibitory peptide LLY is more significant than that of Phe and Pro. This study highlights the crucial influence of C-terminal amino acids on the inhibitory activity of tripeptides, providing an essential theoretical foundation for the rational design of effective ACE inhibitory peptides.",
+    "keywords": [
+      "Angiotensin-converting enzyme inhibitory peptides",
+      "Molecular docking",
+      "Spectroscopy analysis",
+      "Structure-activity relationship"
+    ],
+    "mesh_terms": [
+      "Structure-Activity Relationship",
+      "*Angiotensin-Converting Enzyme Inhibitors/chemistry/pharmacology/chemical synthesis",
+      "*Oligopeptides/chemistry/pharmacology/chemical synthesis",
+      "*Peptidyl-Dipeptidase A/metabolism",
+      "Humans",
+      "Molecular Docking Simulation",
+      "Dose-Response Relationship, Drug",
+      "Molecular Structure",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Cuicui",
+        "Cai, Mengmeng",
+        "Ma, Zhengkun",
+        "Liu, Pengru",
+        "Lan, Xiongdiao"
+      ],
+      "short_names": [
+        "Yang C",
+        "Cai M",
+        "Ma Z",
+        "Liu P",
+        "Lan X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Guangxi Key Laboratory for Polysaccharide Materials and Modifications, School of Chemistry and Chemical Engineering, Guangxi Minzu University, Nanning 530006, China.",
+        "Guangxi Key Laboratory for Polysaccharide Materials and Modifications, School of Chemistry and Chemical Engineering, Guangxi Minzu University, Nanning 530006, China.",
+        "Guangxi Key Laboratory for Polysaccharide Materials and Modifications, School of Chemistry and Chemical Engineering, Guangxi Minzu University, Nanning 530006, China.",
+        "Guangxi Key Laboratory for Polysaccharide Materials and Modifications, School of Chemistry and Chemical Engineering, Guangxi Minzu University, Nanning 530006, China. Electronic address: liu-pengru@gxmzu.edu.cn.",
+        "Guangxi Key Laboratory for Polysaccharide Materials and Modifications, School of Chemistry and Chemical Engineering, Guangxi Minzu University, Nanning 530006, China. Electronic address: lanxiongdiao@gxmzu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Cuicui",
+        "short_name": "Yang C",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Key Laboratory for Polysaccharide Materials and Modifications, School of Chemistry and Chemical Engineering, Guangxi Minzu University, Nanning 530006, China."
+        ]
+      },
+      {
+        "full_name": "Cai, Mengmeng",
+        "short_name": "Cai M",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Key Laboratory for Polysaccharide Materials and Modifications, School of Chemistry and Chemical Engineering, Guangxi Minzu University, Nanning 530006, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Zhengkun",
+        "short_name": "Ma Z",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Key Laboratory for Polysaccharide Materials and Modifications, School of Chemistry and Chemical Engineering, Guangxi Minzu University, Nanning 530006, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Pengru",
+        "short_name": "Liu P",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Key Laboratory for Polysaccharide Materials and Modifications, School of Chemistry and Chemical Engineering, Guangxi Minzu University, Nanning 530006, China. Electronic address: liu-pengru@gxmzu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lan, Xiongdiao",
+        "short_name": "Lan X",
+        "identifiers": [],
+        "affiliations": [
+          "Guangxi Key Laboratory for Polysaccharide Materials and Modifications, School of Chemistry and Chemical Engineering, Guangxi Minzu University, Nanning 530006, China. Electronic address: lanxiongdiao@gxmzu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Bioorganic chemistry"
+    ],
+    "journal_abbrev": [
+      "Bioorg Chem"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/31 04:44",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40884921",
+      "39684732",
+      "12297036",
+      "30481537",
+      "30947100",
+      "25347076",
+      "28810191",
+      "31525262",
+      "23740817",
+      "30347317",
+      "30081563",
+      "40153927",
+      "22835627",
+      "38689562",
+      "40737925",
+      "29157802",
+      "30893907",
+      "31145747",
+      "29173648",
+      "34060658",
+      "34473745",
+      "30373231",
+      "34269010",
+      "20214946",
+      "21465810",
+      "8737991",
+      "28452129",
+      "31004484",
+      "39250996",
+      "31398788",
+      "25181455",
+      "33057549",
+      "24866326",
+      "22606330",
+      "39967093",
+      "25402658",
+      "29567240",
+      "29606478",
+      "25306378",
+      "38247271",
+      "28573254",
+      "30974297",
+      "25768442",
+      "16717411",
+      "39158526",
+      "24140975",
+      "29521090",
+      "41828750",
+      "26344130",
+      "28910674",
+      "33664447",
+      "32132600",
+      "29345929",
+      "32066337",
+      "38638071",
+      "30101981",
+      "41134446",
+      "35090938",
+      "28871778",
+      "35802984",
+      "29287398",
+      "29173094",
+      "17475904",
+      "40710492",
+      "40112975",
+      "24131339",
+      "39436688",
+      "41224052",
+      "30511571",
+      "31614165",
+      "7764272",
+      "39307496",
+      "25410725",
+      "39106751",
+      "10200262",
+      "41855526",
+      "39437699",
+      "38393061",
+      "33807119",
+      "32013233",
+      "29210412",
+      "30229250",
+      "7763772",
+      "41392825",
+      "29637780",
+      "30150552",
+      "24215325",
+      "10919370",
+      "31454889",
+      "30060651",
+      "23015408",
+      "21352096",
+      "41844106",
+      "30998765",
+      "18096385",
+      "29086555",
+      "37110571",
+      "38967438",
+      "32966470",
+      "16981241"
+    ],
+    "review": [
+      "40884921",
+      "28573254"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0045-2068(25)00785-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-2597",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

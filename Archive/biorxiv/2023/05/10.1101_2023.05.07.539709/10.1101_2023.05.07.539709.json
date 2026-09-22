@@ -1,0 +1,414 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.05.07.539709",
+  "title": "An intrinsically disordered kinetochore protein coordinates mechanical regulation of chromosome segregation by dynein",
+  "doi": "10.1101/2023.05.07.539709",
+  "abstract": "Kinetochores connect chromosomes and spindle microtubules to maintain genomic integrity through cell division. Crosstalk between the minus-end directed motor dynein and kinetochore-microtubule attachment factors promotes accurate chromosome segregation through a poorly understood pathway. Here we identify a physical linkage between the intrinsically disordered protein Spc105 (KNL1 orthologue) and dynein using an optogenetic oligomerization assay. Core pools of the checkpoint protein BubR1 and the adaptor complex RZZ mediate the connection of Spc105 to dynein. Furthermore, a minimal segment of Spc105 that contains regions with a propensity to multimerize and binding motifs for Bub1 and BubR1 is sufficient to functionally link Spc105 to RZZ and dynein. Deletion of the minimal region from Spc105 reduces recruitment of its binding partners to bioriented kinetochores and causes chromosome mis-segregation. Restoration of normal chromosome segregation and localization of BubR1 and RZZ requires both protein binding motifs and higher-order oligomerization of Spc105. Together, our results reveal that higher-order multimerization of Spc105 is required to recruit a core pool of RZZ that modulates microtubule attachment stability to promote accurate chromosome segregation.",
+  "authors": [
+    "Jessica M. McGory",
+    "Dylan M. Barcelos",
+    "Vikash Verma",
+    "Thomas J. Maresca"
+  ],
+  "published_date": "2023-05-09",
+  "updated_date": "2023-05-09T14:49:58Z",
+  "journal": "bioRxiv",
+  "category": "Cell Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.05.07.539709",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.05.07.539709.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Cell Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Cell Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T19:29:54Z",
+        "timestamp": 1768505394407,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            9
+          ]
+        ]
+      },
+      "group-title": "Cell Biology",
+      "reference-count": 38,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            9
+          ]
+        ]
+      },
+      "abstract": "<jats:title>ABSTRACT</jats:title>\n                <jats:p>Kinetochores connect chromosomes and spindle microtubules to maintain genomic integrity through cell division. Crosstalk between the minus-end directed motor dynein and kinetochore-microtubule attachment factors promotes accurate chromosome segregation through a poorly understood pathway. Here we identify a physical linkage between the intrinsically disordered protein Spc105 (KNL1 orthologue) and dynein using an optogenetic oligomerization assay. Core pools of the checkpoint protein BubR1 and the adaptor complex RZZ mediate the connection of Spc105 to dynein. Furthermore, a minimal segment of Spc105 that contains regions with a propensity to multimerize and binding motifs for Bub1 and BubR1 is sufficient to functionally link Spc105 to RZZ and dynein. Deletion of the minimal region from Spc105 reduces recruitment of its binding partners to bioriented kinetochores and causes chromosome mis-segregation. Restoration of normal chromosome segregation and localization of BubR1 and RZZ requires both protein binding motifs and higher-order oligomerization of Spc105. Together, our results reveal that higher-order multimerization of Spc105 is required to recruit a core pool of RZZ that modulates microtubule attachment stability to promote accurate chromosome segregation.</jats:p>",
+      "DOI": "10.1101/2023.05.07.539709",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            9
+          ]
+        ],
+        "date-time": "2023-05-09T14:49:58Z",
+        "timestamp": 1683643798000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "An intrinsically disordered kinetochore protein coordinates mechanical regulation of chromosome segregation by dynein"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Jessica M.",
+          "family": "McGory",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Dylan M.",
+          "family": "Barcelos",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Vikash",
+          "family": "Verma",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Thomas J.",
+          "family": "Maresca",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.AAC118.004421"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "ar1",
+          "DOI": "10.1091/mbc.E21-06-0307-T",
+          "article-title": "The microtubule- and PP1-binding activities of Drosophila melanogaster Spc105 control the kinetics of SAC satisfaction",
+          "volume": "33",
+          "year": "2022",
+          "journal-title": "Mol Biol Cell"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "787294",
+          "DOI": "10.3389/fcell.2022.787294",
+          "article-title": "The Role of Mitotic Kinases and the RZZ Complex in Kinetochore-Microtubule Attachments: Doing the Right Link",
+          "volume": "10",
+          "year": "2022",
+          "journal-title": "Front Cell Dev Biol"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cub.2003.12.025"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "222",
+          "DOI": "10.1016/j.celrep.2016.05.076",
+          "article-title": "A Concentration-Dependent Liquid Phase Separation Can Cause Toxicity upon Increased Protein Expression",
+          "volume": "16",
+          "year": "2016",
+          "journal-title": "Cell Rep"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1042/EBC20190081"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.2360"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.201306054"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.9",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Caldas, G.V. , T.R. Lynch , R. Anderson , S. Afreen , D. Varma , and J.G. DeLuca . 2015. The RZZ complex requires the N-terminus of KNL1 to mediate optimal Mad1 kinetochore localization in human cells. Open Biol. 5.",
+          "DOI": "10.1098/rsob.150160"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "69",
+          "DOI": "10.4161/bioa.25734",
+          "article-title": "Insights from an erroneous kinetochore-microtubule attachment state",
+          "volume": "3",
+          "year": "2013",
+          "journal-title": "Bioarchitecture"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.1246232"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.153.3.517"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.13",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Edwards, F. , G. Maton , N. Gareil , J.C. Canman , and J. Dumont . 2018. BUB-1 promotes amphitelic chromosome biorientation via multiple activities at the kinetochore. Elife. 7.",
+          "DOI": "10.7554/eLife.40690"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.201610108"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1318"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Goedhart, J. 2019. PlotsOfDifferences – a web app for the quantitative comparison of unpaired data. bioRxiv:578575.",
+          "DOI": "10.1101/578575"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.150.6.1233"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.200105093"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1091/mbc.E14-06-1125"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1128/MCB.00815-10"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2007.09.005"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.tcb.2020.04.006"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.201110013"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0610358104"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1242/jcs.064790"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.201611060"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.2000.4042"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.05269"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2015.07.047"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.01030"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.celrep.2020.107535"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/emboj.2009.173"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2016.11.054"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.142.1.1"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1083/jcb.201304197"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "165",
+          "DOI": "10.1016/bs.mcb.2018.03.007",
+          "article-title": "Measuring mitotic forces",
+          "volume": "144",
+          "year": "2018",
+          "journal-title": "Methods Cell Biol"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.37",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, G. , T. Kruse , C. Guasch Boldu , D.H. Garvanska , F. Coscia , M. Mann , M. Barisic , and J. Nilsson . 2019. Efficient mitotic checkpoint signaling depends on integrated activities of Bub1 and the RZZ complex. EMBO J. 38.",
+          "DOI": "10.15252/embj.2018100977"
+        },
+        {
+          "key": "2023051103350798000_2023.05.07.539709v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ncomms8162"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.05.07.539709",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T04:38:13Z",
+        "timestamp": 1768451893000
+      },
+      "score": 92.47727,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.05.07.539709"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            9
+          ]
+        ]
+      },
+      "references-count": 38,
+      "URL": "https://doi.org/10.1101/2023.05.07.539709",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            5,
+            9
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

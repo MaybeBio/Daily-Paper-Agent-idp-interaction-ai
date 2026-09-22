@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33498876",
+  "title": "Structural Insights into Substrate Recognition and Processing by the 20S Proteasome.",
+  "authors": "Sahu, Indrajit; Glickman, Michael H",
+  "journal": "Biomolecules",
+  "published_date": "2021-01-28",
+  "window": {
+    "start": "2021-01-25",
+    "end": "2021-01-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文综述20S蛋白酶体如何识别并降解含无序伸展片段的底物，涉及底物结合诱导的构象变化与转位机制，虽非IDP-PPI直接建模，但无序底物识别与构象耦合机制对IDR介导互作建模有启发。",
+  "abstract": "Four decades of proteasome research have yielded extensive information on ubiquitin-dependent proteolysis. The archetype of proteasomes is a 20S barrel-shaped complex that does not rely on ubiquitin as a degradation signal but can degrade substrates with a considerable unstructured stretch. Since roughly half of all proteasomes in most eukaryotic cells are free 20S complexes, ubiquitin-independent protein degradation may coexist with ubiquitin-dependent degradation by the highly regulated 26S proteasome. This article reviews recent advances in our understanding of the biochemical and structural features that underlie the proteolytic mechanism of 20S proteasomes. The two outer alpha-rings of 20S proteasomes provide a number of potential docking sites for loosely folded polypeptides. The binding of a substrate can induce asymmetric conformational changes, trigger gate opening, and initiate its own degradation through a protease-driven translocation mechanism. Consequently, the substrate translocates through two additional narrow apertures augmented by the beta-catalytic active sites. The overall pulling force through the two annuli results in a protease-like unfolding of the substrate and subsequent proteolysis in the catalytic chamber. Although both proteasomes contain identical beta-catalytic active sites, the differential translocation mechanisms yield distinct peptide products. Nonoverlapping substrate repertoires and product outcomes rationalize cohabitation of both proteasome complexes in cells.",
+  "abstract_zh": "四十年来的蛋白酶体研究已积累了关于泛素依赖性蛋白降解的广泛信息。蛋白酶体的原型是一个20S桶状复合物，它不依赖泛素作为降解信号，但能降解含有相当长无结构区域的底物。由于大多数真核细胞中约一半的蛋白酶体是游离的20S复合物，非泛素依赖性蛋白降解可能与高度调控的26S蛋白酶体所介导的泛素依赖性降解共存。本文回顾了我们对20S蛋白酶体蛋白水解机制所依赖的生化和结构特征的最新研究进展。20S蛋白酶体的两个外侧α环为松散折叠的多肽提供了多个潜在对接位点。底物的结合可诱导不对称构象变化，触发门控开启，并通过蛋白酶驱动的转位机制启动其自身降解。随后，底物穿过由β催化活性位点增强的两个额外狭窄孔道。通过两个环状结构的整体拉力导致底物发生类似蛋白酶的展开，并在催化腔中进行后续蛋白水解。尽管两种蛋白酶体含有相同的β催化活性位点，但不同的转位机制产生不同的肽产物。非重叠的底物库和产物结果合理化了两种蛋白酶体复合物在细胞中的共存。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33498876/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33498876/",
+  "paper_page_path": "papers/pubmed/33498876/index.html"
+}

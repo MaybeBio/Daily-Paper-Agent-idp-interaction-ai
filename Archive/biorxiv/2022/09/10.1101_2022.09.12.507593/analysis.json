@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.12.507593",
+  "title": "Exploration of O-GlcNAc-transferase (OGT) glycosylation sites reveals a target sequence compositional bias",
+  "authors": "Chong PA; Nosella M; Vanama M; Ruiz-Arduengo R; Forman-Kay JD",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-13",
+  "window": {
+    "start": "2022-09-12",
+    "end": "2022-09-18"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究OGT对无序蛋白底物的糖基化位点偏好，发现TPR区域与FUS等IDR的结合受组成偏倚影响，涉及无序蛋白与酶的互作机制，但方法以实验为主，AI/物理模拟建模较弱。",
+  "abstract": "O-GlcNAc transferase (OGT) is an essential glycosylating enzyme that catalyzes the addition of N-acetylglucosamine to serine or threonine residues of nuclear and cytoplasmic proteins. The enzyme glycosylates a broad range of peptide sequences and prediction of glycosylation sites has proven challenging. The lack of an experimentally verified set of polypeptide sequences that are not glycosylated by OGT has made prediction of legitimate glycosylation sites more difficult. Here, we tested a number of intrinsically disordered protein regions as substrates of OGT to establish a set of sequences that are not glycosylated by OGT. The negative data set suggests an amino acid compositional bias for OGT targets. This compositional bias was validated by modifying the amino acid composition of the protein Fused in sarcoma (FUS) to enhance glycosylation. NMR experiments demonstrate that the tetratricopeptide repeat (TPR) region of OGT can bind FUS and that glycosylation-promoting mutations enhance binding. These results provide evidence that the TPR recognizes disordered segments of substrates with particular compositions to promote glycosylation, providing insight into the broad specificity of OGT.",
+  "abstract_zh": "O-GlcNAc转移酶（OGT）是一种必需的糖基化酶，催化N-乙酰氨基葡萄糖添加到核蛋白和胞质蛋白的丝氨酸或苏氨酸残基上。该酶可糖基化多种肽序列，而糖基化位点的预测已被证明具有挑战性。缺乏经实验验证的、不被OGT糖基化的多肽序列集合，使得预测合法糖基化位点更加困难。在此，我们测试了多个固有无序蛋白区域作为OGT底物，以建立一组不被OGT糖基化的序列。该阴性数据集提示OGT靶标存在氨基酸组成偏好。通过修改肉瘤融合蛋白（FUS）的氨基酸组成以增强糖基化，验证了这一组成偏好。核磁共振（NMR）实验表明，OGT的四肽重复序列（TPR）区域能结合FUS，且促进糖基化的突变增强了这种结合。这些结果提供了证据，表明TPR识别具有特定组成的底物无序片段以促进糖基化，从而深入揭示了OGT的广泛特异性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.12.507593",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.12.507593",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.12.507593/index.html"
+}

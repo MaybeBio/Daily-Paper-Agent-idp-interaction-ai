@@ -1,0 +1,414 @@
+{
+  "identity": {
+    "pmid": "41714601",
+    "doi": "10.1038/s41467-026-69689-2",
+    "title": "Structural organization of HBV pgRNA genome driven by phase separation in capsid confinement."
+  },
+  "content": {
+    "abstract": "Viruses rely on the precise packaging of their genomes within a capsid to execute essential life-cycle events, yet the principles governing genome structural organization in this confined environment remain elusive. Here, we reveal that hepatitis B virus (HBV) pregenomic RNA (pgRNA) exploits liquid-liquid phase separation (LLPS) inside the capsid to sculpt its architecture. Multiscale molecular dynamics (MD) simulations, supplemented by biochemical assays, show that pgRNA coalesces into a hollow, shell-like condensate along the inner capsid surface, with coexisting low- and high-density regions. Electrostatic interactions between pgRNA and the disordered C-terminal domain of capsid protein primarily govern condensate formation. LLPS drives the establishment of microphases composed of nematically aligned RNA hairpin arrays interspersed by domains rich in flexible single-stranded RNA linkers, achieving an optimal balance between structural order and dynamic flexibility. Intriguingly, although the ensemble-averaged pgRNA density exhibits icosahedral symmetry, individual simulation snapshots display pronounced heterogeneity, indicating symmetry breaking at the single-particle level. In addition, LLPS-induced hollow-shell architecture of pgRNA genome promotes long-range RNA base-pairing and enhances polymerase mobility, which may facilitate the functional dynamics of polymerase during reverse transcription. Our findings uncover a capsid-confined LLPS mechanism that orchestrates viral genome structure and dynamics, offering new targets for antiviral intervention.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Hepatitis B virus/genetics/physiology",
+      "Phase Separation",
+      "*Capsid/metabolism/chemistry",
+      "*RNA, Viral/genetics/chemistry/metabolism",
+      "*Genome, Viral/genetics",
+      "Molecular Dynamics Simulation",
+      "Capsid Proteins/metabolism/chemistry/genetics",
+      "Virus Assembly",
+      "Nucleic Acid Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bian, Yunqiang",
+        "Pan, Hai",
+        "Mao, Jiaqi",
+        "He, Yixin",
+        "Wang, Yanwei",
+        "Cao, Yi",
+        "Li, Wenfei",
+        "Wang, Wei"
+      ],
+      "short_names": [
+        "Bian Y",
+        "Pan H",
+        "Mao J",
+        "He Y",
+        "Wang Y",
+        "Cao Y",
+        "Li W",
+        "Wang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7316-8301",
+        "ORCID: 0000-0001-6660-9052",
+        "ORCID: 0000-0003-1493-7868",
+        "ORCID: 0000-0003-2679-4075",
+        "ORCID: 0000-0001-5441-0302"
+      ],
+      "affiliations": [
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang, PR China.",
+        "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang, PR China.",
+        "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China.",
+        "Department of Physics, Wenzhou University, Wenzhou, PR China.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang, PR China.",
+        "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China.",
+        "Department of Physics, Wenzhou University, Wenzhou, PR China.",
+        "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China.",
+        "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China. wfli@nju.edu.cn.",
+        "Jiangsu Key Laboratory for Cardiovascular Information and Health Engineering Medicine, Department of Cardiology, Nanjing Drum Tower Hospital, Medical School, Nanjing University, Nanjing, PR China. wfli@nju.edu.cn.",
+        "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bian, Yunqiang",
+        "short_name": "Bian Y",
+        "identifiers": [
+          "0000-0002-7316-8301"
+        ],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang, PR China.",
+          "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Pan, Hai",
+        "short_name": "Pan H",
+        "identifiers": [
+          "0000-0001-6660-9052"
+        ],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang, PR China."
+        ]
+      },
+      {
+        "full_name": "Mao, Jiaqi",
+        "short_name": "Mao J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China.",
+          "Department of Physics, Wenzhou University, Wenzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "He, Yixin",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, Zhejiang, PR China.",
+          "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanwei",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Wenzhou University, Wenzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Cao, Yi",
+        "short_name": "Cao Y",
+        "identifiers": [
+          "0000-0003-1493-7868"
+        ],
+        "affiliations": [
+          "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenfei",
+        "short_name": "Li W",
+        "identifiers": [
+          "0000-0003-2679-4075"
+        ],
+        "affiliations": [
+          "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China. wfli@nju.edu.cn.",
+          "Jiangsu Key Laboratory for Cardiovascular Information and Health Engineering Medicine, Department of Cardiology, Nanjing Drum Tower Hospital, Medical School, Nanjing University, Nanjing, PR China. wfli@nju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0000-0001-5441-0302"
+        ],
+        "affiliations": [
+          "Department of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2026 Feb 19",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/20 00:32",
+    "fetched_at": "2026-09-18 00:58:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40312512",
+      "39538373",
+      "39488545",
+      "39328748",
+      "38885177",
+      "38862544",
+      "38718835",
+      "38592759",
+      "38448589",
+      "38000367",
+      "37805934",
+      "37797619",
+      "37754759",
+      "37696687",
+      "37494400",
+      "37192279",
+      "37040799",
+      "37006777",
+      "36642156",
+      "36575113",
+      "36001979",
+      "35902318",
+      "35675815",
+      "35610038",
+      "35512333",
+      "35381009",
+      "35313165",
+      "35236847",
+      "34916604",
+      "34654297",
+      "34648608",
+      "34634033",
+      "34272520",
+      "34265844",
+      "34234347",
+      "34006106",
+      "33895773",
+      "33728406",
+      "33558506",
+      "33466113",
+      "33247108",
+      "32901111",
+      "32548680",
+      "32320662",
+      "32312191",
+      "31950084",
+      "31337286",
+      "30967547",
+      "30834322",
+      "30737287",
+      "29708495",
+      "29622627",
+      "29602697",
+      "29547221",
+      "29466338",
+      "29364893",
+      "29226245",
+      "29219580",
+      "29078285",
+      "28981800",
+      "28935776",
+      "28787658",
+      "28722007",
+      "28718930",
+      "28711172",
+      "28636604",
+      "28628133",
+      "27509857",
+      "27482896",
+      "27309278",
+      "27174390",
+      "26958920",
+      "26753008",
+      "26653769",
+      "26596457",
+      "26575522",
+      "26574453",
+      "26552701",
+      "26383954",
+      "25532951",
+      "25497547",
+      "25188030",
+      "25034253",
+      "25002491",
+      "24730874",
+      "24352445",
+      "24116642",
+      "24039702",
+      "23795290",
+      "23028319",
+      "23006380",
+      "22753508",
+      "22495300",
+      "22277169",
+      "22203973",
+      "21943426",
+      "21921995",
+      "20203008",
+      "19460965",
+      "18845685",
+      "18374942",
+      "17988705",
+      "17531265",
+      "17212484",
+      "16611897",
+      "15381433",
+      "12578983",
+      "11707588",
+      "11607035",
+      "9591479",
+      "8254673"
+    ],
+    "similar": [
+      "41714601",
+      "25568211",
+      "23028319",
+      "39538373",
+      "27076641",
+      "29669831",
+      "34287051",
+      "36448800",
+      "29491156",
+      "42330277",
+      "30626666",
+      "35135882",
+      "33079954",
+      "37754759",
+      "40316009",
+      "40231820",
+      "33785622",
+      "30201396",
+      "30566530",
+      "33933516",
+      "37567479",
+      "30012770",
+      "23763992",
+      "28559265",
+      "33789995",
+      "25986309",
+      "26611395",
+      "27852858",
+      "39932960",
+      "40991695",
+      "30044190",
+      "29743374",
+      "39078123",
+      "39725271",
+      "25034253",
+      "20684044",
+      "28566379",
+      "9018150",
+      "19383452",
+      "32650547",
+      "27992877",
+      "39537894",
+      "42023836",
+      "24965458",
+      "32702076",
+      "34232738",
+      "28768874",
+      "29782550",
+      "35512333",
+      "14963114",
+      "20427522",
+      "33810481",
+      "39738955",
+      "30541863",
+      "31799606",
+      "19913556",
+      "38848682",
+      "26912613",
+      "30282709",
+      "31996436",
+      "36992351",
+      "28228589",
+      "38614100",
+      "39928681",
+      "32938763",
+      "23576500",
+      "41379934",
+      "29309148",
+      "16474122",
+      "40782375",
+      "37175867",
+      "38392858",
+      "7690471",
+      "41468551",
+      "24006447",
+      "33947819",
+      "31940474",
+      "21843467",
+      "19559027",
+      "28950450",
+      "34287037",
+      "34375636",
+      "23977352",
+      "28584155",
+      "32358197",
+      "30279282",
+      "39214281",
+      "30068643",
+      "19710138",
+      "8638400",
+      "20720013",
+      "39827433",
+      "35507643",
+      "22114561",
+      "34705562",
+      "39044076",
+      "8421524",
+      "31570619",
+      "30089690",
+      "26552701"
+    ],
+    "review": [
+      "41714601",
+      "40316009",
+      "32650547",
+      "39738955",
+      "36992351",
+      "38392858"
+    ],
+    "pmc": [
+      "13031878"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-026-69689-2",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41714601/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

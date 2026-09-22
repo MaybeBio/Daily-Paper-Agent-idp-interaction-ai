@@ -1,0 +1,274 @@
+{
+  "identity": {
+    "pmid": "40728620",
+    "doi": "10.1007/978-1-0716-4662-5_16",
+    "title": "Prediction of Disordered Linear Interacting Peptides with CLIP."
+  },
+  "content": {
+    "abstract": "Linear interacting peptides (LIPs) are intrinsically disordered regions in protein sequences that undergo disorder-to-order transition upon binding to a protein or a nucleic acid. The disordered binding regions, such as LIPs, are notoriously difficult to predict from the protein sequences, which motivated the development and release of the sequence-based CLIP predictor. Empirical evaluations show that CLIP generates relatively accurate predictions when compared to a selection of modern alternatives. We summarize the predictive architecture of CLIP, briefly discuss its predictive performance and runtime, and focus on explaining how to use its web server ( http://biomine.cs.vcu.edu/servers/CLIP/ ) and standalone package ( http://yanglab.qd.sdu.edu.cn/download/CLIP/CLIP_20220609.tar.gz ). Additionally, we demonstrate the utility of CLIP-generated results through a case study for the STAM-binding protein.",
+    "keywords": [
+      "Intrinsic disorder",
+      "Intrinsically disordered protein",
+      "Linear interacting peptide",
+      "Machine learning",
+      "Prediction",
+      "Protein function"
+    ],
+    "mesh_terms": [
+      "*Peptides/chemistry/metabolism",
+      "*Software",
+      "Protein Binding",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liang, Jiahui",
+        "Peng, Zhenling",
+        "Kurgan, Lukasz"
+      ],
+      "short_names": [
+        "Liang J",
+        "Peng Z",
+        "Kurgan L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "MOE Frontiers Science Center for Nonlinear Expectations, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, China.",
+        "MOE Frontiers Science Center for Nonlinear Expectations, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, China. zhenling@email.sdu.edu.cn.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, VA, USA. lkurgan@vcu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liang, Jiahui",
+        "short_name": "Liang J",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Frontiers Science Center for Nonlinear Expectations, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Zhenling",
+        "short_name": "Peng Z",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Frontiers Science Center for Nonlinear Expectations, Research Center for Mathematics and Interdisciplinary Sciences, Shandong University, Qingdao, China. zhenling@email.sdu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Kurgan, Lukasz",
+        "short_name": "Kurgan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, VA, USA. lkurgan@vcu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 12:32",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38765610",
+      "38146538",
+      "37962385",
+      "37740110",
+      "37709009",
+      "37140058",
+      "36851914",
+      "36416266",
+      "34487791",
+      "33647288",
+      "31889261",
+      "31870849",
+      "31642118",
+      "31504193",
+      "31213136",
+      "31173061",
+      "31007871",
+      "30657889",
+      "30324701",
+      "30107436",
+      "30102464",
+      "29860432",
+      "28701416",
+      "28589442",
+      "28232901",
+      "27802931",
+      "27787828",
+      "27662088",
+      "27229125",
+      "27174932",
+      "27037624",
+      "26651072",
+      "26517836",
+      "26481498",
+      "26439842",
+      "26297830",
+      "26109352",
+      "25637562",
+      "25391399",
+      "25004990",
+      "24739139",
+      "24214962",
+      "23946100",
+      "23942625",
+      "23764774",
+      "22689782",
+      "22543956",
+      "22198341",
+      "21918774",
+      "19717576",
+      "18991772",
+      "18054235",
+      "16935303"
+    ],
+    "similar": [
+      "40728620",
+      "36458437",
+      "40728619",
+      "40728621",
+      "37709009",
+      "32696351",
+      "39576584",
+      "34290238",
+      "31870849",
+      "39237195",
+      "30298407",
+      "38048333",
+      "31889261",
+      "33291838",
+      "34487138",
+      "27787828",
+      "30099775",
+      "39576585",
+      "32621220",
+      "41921197",
+      "40133785",
+      "34894985",
+      "39576583",
+      "40133791",
+      "26090958",
+      "31642118",
+      "28589442",
+      "26109352",
+      "40441416",
+      "39576586",
+      "38166858",
+      "37140058",
+      "28369666",
+      "29042212",
+      "34415020",
+      "42059199",
+      "34905768",
+      "28365882",
+      "41419011",
+      "24573480",
+      "24573479",
+      "29360926",
+      "40944448",
+      "33875885",
+      "29895149",
+      "31521235",
+      "38079339",
+      "31504193",
+      "24668165",
+      "37740110",
+      "32860044",
+      "31510679",
+      "41534519",
+      "32173600",
+      "36519304",
+      "41055109",
+      "40133781",
+      "28381244",
+      "30395465",
+      "40650026",
+      "30866736",
+      "26513658",
+      "19717576",
+      "26198229",
+      "33122085",
+      "32901090",
+      "40867524",
+      "32696352",
+      "28002650",
+      "28934129",
+      "25637562",
+      "33381830",
+      "25391399",
+      "30717652",
+      "41500381",
+      "32112804",
+      "19128505",
+      "36851914",
+      "30135358",
+      "27307636",
+      "29076577",
+      "30657889",
+      "18831774",
+      "38213902",
+      "29228892",
+      "31616935",
+      "40577786",
+      "41174305",
+      "26086829",
+      "39576581",
+      "34480923",
+      "38866950",
+      "38747347",
+      "22689782",
+      "23798504",
+      "31207240",
+      "39246251",
+      "39789785",
+      "40674483",
+      "30324701"
+    ],
+    "review": [
+      "40728620",
+      "33291838",
+      "28589442",
+      "31521235",
+      "37740110",
+      "40650026",
+      "36851914",
+      "30657889",
+      "31616935"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-4662-5_16",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

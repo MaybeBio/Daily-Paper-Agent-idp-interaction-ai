@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusion, experimental section) as provided by the user. Supplementary figures and tables are referenced but not supplied.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors present an integrative chemical synthesis, experimental binding assay, and molecular dynamics simulation workflow to show that clustered O-mannosylation in the intrinsically disordered linker of TrCel7A modulates substrate-binding preferences. Neutral glycans (mono- and dimannose) preferentially promote lignin over cellulose binding, while computationally predicted phosphorylated mannose glycoforms abolish lignin binding while retaining cellulose affinity.
+- **Visible evidence base** Main text figures (referenced as Figure 1, 2, 3, 4, 5 with panels), Tables S1 and S2 (referenced), Figures S1–S29 (referenced). None of these figures or tables are provided in the submitted material.
+- **Missing materials affecting confidence** All figures, tables, and supplementary information are absent. Experimental raw data, simulation trajectories, force field parameters, and statistical details are not available. This substantially limits verification of quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting and potentially valuable integrative strategy to address a challenging question in glycobiology and IDR research. The stepwise logic, from synthetic glycoforms to validated simulations and predictive application, is commendable. However, the absence of all figures, tables, and supplementary data makes it impossible to verify the quantitative results, the quality of the simulations, or the validity of the experimental binding measurements. The core claims, particularly the predictive power of the model and the striking phosphorylation results, rest on data that are not visible in the provided material. The manuscript is therefore not assessable in its current form.
+- **Who would be interested in the results, and why** Researchers in glycoscience, protein post-translational modification, intrinsically disordered proteins, and biomass deconstruction enzymology. The framework for combining chemical synthesis with MD simulation to predict glycoform behavior could interest the broader glycobiology and protein engineering communities. The specific finding that phosphorylation may eliminate lignin binding has potential applied relevance for biofuel enzyme optimization.
+- **Major strengths** The conceptual framework is clear and logically structured. The stepwise validation approach, using synthetically accessible glycoforms to calibrate a computational model before applying it to inaccessible ones, is a genuine strength. The focus on a biologically and industrially relevant system (TrCel7A) adds significance. The hypothesis-driven design of phosphorylation experiments is elegant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence availability
+  - **Claim pointer** The manuscript reports quantitative binding affinities (K ads values) for glycoforms 1–12 and 16, and binding free energies (E total) from MD simulations for multiple variants.
+  - **Evidence pointer** Figures 2B, 3A, 3C, 3D, 4B, 4D, 5B; Tables S1 and S2; Figures S18–S22. Location not provided in the submitted text.
+  - **Concern** None of the figures or tables are provided. The reader cannot see the actual K ads values, the E total values, the error bars, the statistical comparisons, or the simulation convergence data. The claims of agreement between experiment and simulation, and the predicted effects of phosphorylation, are entirely unverifiable from the supplied material.
+  - **Why it matters** The central thesis of the paper, that the MD model is validated by experiment and can predict behavior of inaccessible glycoforms, depends entirely on the quantitative comparison between measured and computed values. Without the data, the validation claim is unsupported.
+  - **Resolution test** Provide all figures and tables with full axis labels, error bars, and statistical annotations. Include simulation convergence metrics and force field validation details.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological detail
+  - **Claim pointer** The manuscript states that binding affinities were measured at 4 °C and that K ads values were obtained by fitting to a Langmuir isotherm. It also states that MD simulations were run for 100 ns in the NVT ensemble.
+  - **Evidence pointer** Experimental Section, "Determination of Binding Affinity" and "Molecular Dynamics Simulations". Location not provided.
+  - **Concern** The experimental section lacks critical details. The concentration range of the variants used for the binding isotherm is not stated. The number of independent simulation replicates is not given. The equilibration protocol is described only as "heating to 300 K and equilibration at 1 atm pressure" but the production run is stated to be NVT, which is inconsistent with constant pressure equilibration. The choice of NVT for a binding interface simulation is unusual and not justified. The force field for lignin is described as "optimized" but no citation or validation is provided.
+  - **Why it matters** Reproducibility is a core requirement. The inconsistencies in the simulation protocol and the lack of detail on the binding assay prevent independent replication and raise questions about the robustness of the results.
+  - **Resolution test** Provide full experimental protocols including concentration ranges, replicate numbers, equilibration details, and justification for the NVT ensemble. Cite and describe the lignin force field.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The manuscript claims that "negatively charged glycans, such as phosphorylated mannose, effectively abolish lignin affinity while largely preserving cellulose binding" and that this "identifies charge-mediated modulation as a key mechanism."
+  - **Evidence pointer** Results section "Unlocking a Selective Route to Eliminate Lignin Binding through Phosphorylation"; Figure 5. Location not provided.
+  - **Concern** The phosphorylation results are entirely computational. No experimental validation is presented for any phosphorylated glycoform. The claim that phosphorylation "abolishes" lignin binding is based solely on a single simulation per variant, apparently. The extrapolation from simulation to a general mechanistic principle ("charge-mediated modulation as a key mechanism") is strong given the lack of experimental confirmation.
+  - **Why it matters** The manuscript's most striking and potentially impactful claim is the phosphorylation effect. If this is only a simulation prediction, it should be framed as such, with appropriate caveats about force field accuracy for phosphorylated glycans and the need for experimental testing.
+  - **Resolution test** Reframe the phosphorylation results as predictions requiring experimental verification. Provide additional simulation replicates and free energy calculations with error estimates. Discuss limitations of the force field for charged glycans.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript states that the framework is "generalizable and predictive" for understanding how glycosylation patterns regulate IDR-ligand interactions.
+  - **Evidence pointer** Abstract and Discussion. Location not provided.
+  - **Concern** The study is based on a single IDR sequence from one enzyme. The grouping strategy for glycosylation sites is based on a "working assumption" of proximal similarity, which is not tested. The generality of the conclusions to other IDRs, other glycan types, or other substrates is not demonstrated.
+  - **Why it matters** The claim of generalizability is central to the paper's significance. Without evidence from at least one additional system, or a systematic variation of sequence context, the claim is speculative.
+  - **Resolution test** Soften the generalizability claim or provide additional data from a second IDR system. Discuss the limitations of the single-sequence model.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure references
+  - **Evidence pointer** Throughout the Results section. Location not provided.
+  - **Issue** The text refers to "Figure 1", "Figure 2", etc., but the figures are not provided. Some references are ambiguous, e.g., "Figure 2B" is cited for K ads values but the panel layout is unknown.
+  - **Required correction** Ensure all figure references are accurate and that figures are provided in the final submission. Consider adding a brief description of each panel in the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "K ads" units
+  - **Evidence pointer** Results section, "Design, Synthesis, and Characterization". Location not provided.
+  - **Issue** The unit of K ads is given as μM–1, which is unusual for an adsorption equilibrium constant. Typically, K ads would have units of L/mg or mL/mg for a solid substrate. The meaning of μM–1 in this context is unclear.
+  - **Required correction** Clarify the definition of K ads and its units. If it is a solution-phase binding constant, explain the relevance to a solid substrate.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Experimental Section, "Molecular Dynamics Simulations". Location not provided.
+  - **Issue** The number of replicates per simulation is not stated. The text says "each system was subjected to an independent 100 ns MD simulation," which implies a single run per system. This is insufficient for estimating statistical uncertainty.
+  - **Required correction** State the number of independent replicates and provide standard deviations for computed quantities.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Ensemble choice
+  - **Evidence pointer** Experimental Section, "Molecular Dynamics Simulations". Location not provided.
+  - **Issue** The text says equilibration was at 1 atm pressure, but production runs were in the NVT ensemble. This is inconsistent. Either the equilibration was also NVT, or the production should be NPT.
+  - **Required correction** Correct the inconsistency and justify the choice of ensemble for the production runs.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Lignin model
+  - **Evidence pointer** Experimental Section, "Molecular Dynamics Simulations". Location not provided.
+  - **Issue** The lignin model is described as "optimized" but no citation is given for the model or its validation.
+  - **Required correction** Provide a citation for the lignin model and a brief description of its construction and validation.
+
+## Risk / unsupported claims
+- The claim that phosphorylated mannose "abolishes" lignin binding is unsupported by experimental data and rests on a single simulation per variant.
+- The claim of a "generalizable and predictive framework" is unsupported by evidence from more than one IDR system.
+- The quantitative agreement between experimental K ads and computed E total is unverifiable without the figures and tables.
+- The statement that glycoform 12 is "the first chemically synthesized O-linked glycoprotein of this length and structural complexity obtained in a single synthetic sequence" is a strong priority claim that cannot be assessed without a thorough literature comparison, which is not provided.
+- The mechanistic interpretation of the phosphorylation effect (electrostatic repulsion) is plausible but not directly tested, e.g., by mutation or by varying ionic strength.

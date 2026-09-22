@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.23.713466",
+  "title": "Non-fibrillar prion protein oligomers transmit structural information during early assembly",
+  "authors": "Prigent S; Deniset-Besseau A; Mathurin J; Igel A; Klute H; Bohl J; van der Rest G; Malosse C; Lecomte S; Rezaei H; Torrent J; Béringue V; Dazzi A; Martin D; Rezaei H",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-27",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过AFM-IR和突变实验揭示朊蛋白非纤维寡聚体在早期组装中传递结构信息并作为模板促进异源寡聚化，虽对象为无序相关蛋白且涉及互作机制，但方法以实验为主、无AI或物理模拟建模，故综合评分为6。",
+  "abstract": "The prion paradigm is founded on the transmission of structural information from aggregated assemblies to soluble protein substrates, a process classically attributed to fibril-end-mediated templating. Whether non-fibrillar assemblies or transient oligomeric states can also participate in folding information transfer remains unclear. Here, using recombinant prion protein (PrP), rational mutagenesis, hetero-oligomerization assays, arrested reaction conditions, and single-particle atomic force microscopy coupled to infrared nano-spectroscopy (AFM-IR), we examine the earliest stages of PrP assembly from the perspective of folding information transmission. We show that polymerization-defective PrP variants can be incorporated into oligomeric assemblies through structural complementation, in which folding information supplied by wild-type PrP restores their assembly competence. Under arrested reaction conditions, transient polymerization-competent conformers further contribute to folding information transfer at subcritical concentrations. Domain-resolved analyses reveal a modular oligomeric architecture in which a β-sheet-rich B domain constitutes the primary scaffold for folding information transfer. Preformed O1 oligomers then act as autonomous conformational templates that promote mutant incorporation and undergo hierarchical condensation through accretion of a structurally distinct E domain. Together, these findings demonstrate that non-fibrillar PrP oligomers and transient assembly intermediates can store and transmit folding information and may function as oligomer-based secondary nucleation platforms, expanding the conceptual framework of prion assembly beyond fibril-end elongation alone.",
+  "abstract_zh": "朊病毒范式建立在聚集组装体向可溶性蛋白质底物传递结构信息的基础上，这一过程经典上归因于纤维末端介导的模板化作用。非纤维状组装体或瞬时寡聚状态是否也能参与折叠信息传递仍不清楚。在此，我们利用重组朊病毒蛋白（prion protein, PrP）、理性突变、异源寡聚化实验、 arrested 反应条件，以及单颗粒原子力显微镜耦合红外纳米光谱（AFM-IR），从折叠信息传递的视角审视 PrP 组装的最早期阶段。我们表明，聚合缺陷型 PrP 变体可通过结构互补被整合进寡聚组装体中，其中野生型 PrP 提供的折叠信息恢复其组装能力。在 arrested 反应条件下，瞬时聚合能力构象体在亚临界浓度下进一步促进折叠信息传递。域分辨分析揭示了一种模块化寡聚架构，其中富含β-折叠的 B 域构成折叠信息传递的主要支架。预形成的 O1 寡聚体随后作为自主构象模板，促进突变体整合，并通过结构上不同的 E 域的增积进行层级凝聚。综合这些发现表明，非纤维状 PrP 寡聚体和瞬时组装中间体能够存储并传递折叠信息，且可能作为基于寡聚体的次级成核平台，将朊病毒组装的概念框架扩展至仅纤维末端延伸之外。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.23.713466",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.23.713466",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.23.713466/index.html"
+}

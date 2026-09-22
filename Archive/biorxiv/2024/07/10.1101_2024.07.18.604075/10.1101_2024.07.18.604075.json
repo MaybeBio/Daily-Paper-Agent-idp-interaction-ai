@@ -1,0 +1,277 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.18.604075",
+  "title": "The evolutionary ancient MEIS transcription factors actuate lineage-specific transcription to establish cardiac fate",
+  "doi": "10.1101/2024.07.18.604075",
+  "abstract": "Control of gene expression is commonly mediated by distinct combinations of transcription factors (TFs). This cooperative action allows multiple biological signals to be integrated at specific regulatory elements, resulting in highly specific gene expression patterns in space and time. It is unclear whether combinatorial binding is also necessary to bring together TFs with distinct biochemical functions, which collaborate to effectively recruit and activate RNA polymerase II. Using a cardiac differentiation model, we find that the largely ubiquitous, evolutionary ancient homeodomain proteins MEIS are essential for activating a cardiac-specific gene expression program. MEIS TFs act as actuators , fully activating transcriptional programs selected by lineage-restricted TFs to drive the dynamic progression of cardiac differentiation. Combinatorial binding of MEIS with lineage-enriched TFs, GATA and HOX, provides selectivity, guiding MEIS to function at cardiac-specific enhancers. In turn, MEIS TFs promote accumulation of the methyltransferase KMT2D to initiate lineage-specific enhancer commissioning. MEIS combinatorial binding dynamics, dictated by the changing dosage of its partners, drive cells into progressive stages of cardiac differentiation. Our results uncover tissue-specific transcriptional activation as the result of ubiquitous actuator TFs harnessing general transcriptional coactivators at tissue-specific enhancers, to which they are directed by binding with lineage- and domain-specific TFs.",
+  "authors": [
+    "Darieva Z",
+    "Zarrineh P",
+    "Phillips N",
+    "Mallen J",
+    "Mora AG",
+    "Donaldson I",
+    "Bridoux L",
+    "Douglas M",
+    "Dias Henriques SF",
+    "Schulte D",
+    "Birket MJ",
+    "Bobola N"
+  ],
+  "published_date": "2024-07-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.18.604075",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.18.604075.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR884818",
+    "raw_record": {
+      "id": "PPR884818",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR884818"
+        ]
+      },
+      "doi": "10.1101/2024.07.18.604075",
+      "title": "The evolutionary ancient MEIS transcription factors actuate lineage-specific transcription to establish cardiac fate",
+      "authorString": "Darieva Z, Zarrineh P, Phillips N, Mallen J, Mora AG, Donaldson I, Bridoux L, Douglas M, Dias Henriques SF, Schulte D, Birket MJ, Bobola N.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Darieva Z",
+            "lastName": "Darieva",
+            "firstName": "Zoulfia",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zarrineh P",
+            "lastName": "Zarrineh",
+            "firstName": "Peyman",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Phillips N",
+            "lastName": "Phillips",
+            "firstName": "Naomi",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mallen J",
+            "lastName": "Mallen",
+            "firstName": "Joshua",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mora AG",
+            "lastName": "Mora",
+            "firstName": "Araceli Garcia",
+            "initials": "AG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Donaldson I",
+            "lastName": "Donaldson",
+            "firstName": "Ian",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bridoux L",
+            "lastName": "Bridoux",
+            "firstName": "Laure",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Douglas M",
+            "lastName": "Douglas",
+            "firstName": "Megan",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dias Henriques SF",
+            "lastName": "Dias Henriques",
+            "firstName": "Sara",
+            "initials": "SF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schulte D",
+            "lastName": "Schulte",
+            "firstName": "Dorothea",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Neurologisches Institut (Edinger Institut), University of Frankfurt, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Birket MJ",
+            "lastName": "Birket",
+            "firstName": "Matthew",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bobola N",
+            "lastName": "Bobola",
+            "firstName": "Nicoletta",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Biology, Medicine and Health, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Control of gene expression is commonly mediated by distinct combinations of transcription factors (TFs). This cooperative action allows multiple biological signals to be integrated at specific regulatory elements, resulting in highly specific gene expression patterns in space and time. It is unclear whether combinatorial binding is also necessary to bring together TFs with distinct biochemical functions, which collaborate to effectively recruit and activate RNA polymerase II. Using a cardiac differentiation model, we find that the largely ubiquitous, evolutionary ancient homeodomain proteins MEIS are essential for activating a cardiac-specific gene expression program. MEIS TFs act as  actuators , fully activating transcriptional programs selected by lineage-restricted TFs to drive the dynamic progression of cardiac differentiation. Combinatorial binding of MEIS with lineage-enriched TFs, GATA and HOX, provides selectivity, guiding MEIS to function at cardiac-specific enhancers. In turn, MEIS TFs promote accumulation of the methyltransferase KMT2D to initiate lineage-specific enhancer commissioning. MEIS combinatorial binding dynamics, dictated by the changing dosage of its partners, drive cells into progressive stages of cardiac differentiation. Our results uncover tissue-specific transcriptional activation as the result of ubiquitous  actuator TFs harnessing general transcriptional coactivators at tissue-specific enhancers, to which they are directed by binding with lineage- and domain-specific TFs.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.07.18.604075"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR884818"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR884818&type=FILE&fileName=EMS197710-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS197710",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-07-24",
+      "firstPublicationDate": "2024-07-19",
+      "firstIndexDate": "2024-07-24",
+      "fullTextReceivedDate": "2024-07-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.01.14.575580",
+  "title": "The <i>Streptococcus</i> phage protein paratox is an intrinsically disordered protein",
+  "authors": "Iman Asakereh; Nicole R. Rutbeek; Manvir Singh; David Davidson; Gerd Prehna; Mazdak Khajehpour",
+  "journal": "bioRxiv",
+  "published_date": "2024-01-14",
+  "window": {
+    "start": "2024-01-08",
+    "end": "2024-01-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过生物物理实验证明链球菌噬菌体蛋白paratox为内在无序蛋白，并揭示其与ComR结合时通过构象选择与诱导契合机制折叠成球状结构，直接关联无序蛋白介导的PPI机制建模。",
+  "abstract": "The bacteriophage protein paratox blocks quorum sensing in its streptococcal host by directly binding the signal receptor and transcription factor ComR. This reduces ability of Streptococcus to uptake environmental DNA and protects phage DNA from damage by recombination. Past work characterizing the paratox:ComR molecular interaction revealed that paratox adopts a well-ordered globular fold when bound to ComR. However, solution-state biophysical measurements suggested that paratox may be conformationally dynamic. To address this discrepancy, we investigated the stability and dynamic properties of paratox in solution using circular dichroism, nuclear magnetic resonance, and several fluorescence-based protein folding assays. Our work shows that under dilute buffer conditions paratox is intrinsically disordered. We also show that the addition of kosmotropic salts or protein stabilizing osmolytes induces paratox folding. However, only the addition of ComR was able to induce paratox to adopt its previously characterized globular fold. Furthermore, as we can induce different paratox folding-states we characterize Prx folding thermodynamics and folding kinetics using stopped flow measurements. Based upon the kinetic results, paratox is a highly dynamic protein in dilute solution, folding and refolding within the 10 ms timescale. Overall, our results demonstrate that the streptococcal phage protein paratox is an intrinsically disordered protein in a two-state equilibrium with a solute-stabilized folded form. Furthermore, the solute-stabilized paratox fold is likely the predominant form of paratox in a solute-crowded bacterial cell. Finally, our work suggests that Prx binds and inhibits ComR, and thus quorum sensing in Streptococcus , by a combination of conformational selection and induced-fit binding mechanisms.",
+  "abstract_zh": "噬菌体蛋白paratox通过直接结合信号受体和转录因子ComR，阻断其链球菌宿主中的群体感应 (quorum sensing)。这降低了链球菌摄取环境DNA的能力，并保护噬菌体DNA免受重组损伤。过去对paratox:ComR分子相互作用的研究表明，paratox在与ComR结合时采用有序的球状折叠。然而，溶液态生物物理测量提示paratox可能具有构象动态性。为解决这一矛盾，我们使用圆二色光谱、核磁共振以及多种基于荧光的蛋白质折叠实验，研究了paratox在溶液中的稳定性和动态特性。我们的工作表明，在稀缓冲液条件下，paratox本质上是无序的。我们还显示，添加离液盐 (kosmotropic salts) 或蛋白质稳定渗透剂可诱导paratox折叠。然而，只有添加ComR才能诱导paratox采用其先前表征的球状折叠。此外，由于我们能够诱导paratox处于不同折叠状态，我们使用停流测量表征了Prx折叠热力学和折叠动力学。基于动力学结果，paratox在稀溶液中是一种高度动态的蛋白质，在10毫秒时间尺度内折叠和重折叠。总体而言，我们的结果表明，链球菌噬菌体蛋白paratox是一种本质无序蛋白，与溶质稳定的折叠形式处于两态平衡。此外，溶质稳定的paratox折叠可能是paratox在溶质拥挤的细菌细胞中的主要形式。最后，我们的工作提示，Prx通过构象选择和诱导契合结合机制的组合，结合并抑制ComR，从而抑制链球菌中的群体感应。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.01.14.575580",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.01.14.575580",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.01.14.575580/index.html"
+}

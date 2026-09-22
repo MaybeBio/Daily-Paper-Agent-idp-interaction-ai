@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34856104",
+  "title": "Understanding How Coacervates Drive Reversible Small Molecule Reactions to Promote Molecular Complexity.",
+  "authors": "Jacobs, Michael I; Jira, Edward R; Schroeder, Charles M",
+  "journal": "Langmuir : the ACS journal of surfaces and colloids",
+  "published_date": "2021-12-03",
+  "window": {
+    "start": "2021-11-29",
+    "end": "2021-12-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过实验与反应-扩散模型研究凝聚液滴内可逆小分子反应，虽涉及相分离凝聚体但对象为小分子而非无序蛋白PPI，方法无AI/物理模拟，仅部分机制建模可迁移启发。",
+  "abstract": "Liquid-liquid phase-separated coacervate droplets give rise to membraneless compartments that play an important role in the spatial organization and reactivity in cells. Due to their molecularly crowded nature and ability to sequester biomolecules, coacervate droplets create distinct environments for enzymatic reaction kinetics and reaction mechanisms that markedly differ from bulk solution. In this work, we use a combination of experiments and quantitative modeling to understand how coacervate droplets promote reversible small molecule reaction chemistry. In particular, we study a model condensation reaction generating an unstable fluorescent imine in polyacrylic acid-polyethylene glycol coacervate droplets over a range of conditions. At equilibrium, the concentration of the imine product in coacervate droplets is approximately 140-fold larger than that in bulk solution, which arises due to preferential partitioning of reactants and products into coacervate droplets and a reaction equilibrium constant that is roughly threefold larger in coacervate droplets than in solution. A reaction-diffusion model is developed to quantitatively describe how competing reaction and partitioning equilibria govern the spatial distribution of the imine product inside coacervate droplets. Overall, our results show that compartmentalization stabilizes kinetically labile reaction products, which enables larger reactant concentrations in coacervate droplets compared to bulk solution. Broadly, these results provide an improved understanding of how biomolecular condensates promote multistep reaction pathways involving unstable reaction intermediates and suggest how coacervates provide a potential abiotic mechanism to promote molecular complexity.",
+  "abstract_zh": "液-液相分离凝聚液滴形成无膜区室，在细胞内的空间组织和反应性中发挥重要作用。由于其分子拥挤特性及隔离生物分子的能力，凝聚液滴为酶促反应动力学和反应机制创造了与本体溶液显著不同的独特环境。在本工作中，我们结合实验与定量建模来理解凝聚液滴如何促进可逆小分子反应化学。具体而言，我们研究了一个模型缩合反应，在聚丙烯酸-聚乙二醇凝聚液滴中生成不稳定的荧光亚胺，并考察了多种条件下的行为。在平衡状态下，凝聚液滴中亚胺产物的浓度约为本体溶液的140倍，这源于反应物和产物优先分配进入凝聚液滴，以及凝聚液滴中的反应平衡常数约为溶液中的三倍。我们开发了一个反应-扩散模型，以定量描述竞争性反应和分配平衡如何控制凝聚液滴内亚胺产物的空间分布。总体而言，我们的结果表明，区室化稳定了动力学上不稳定的反应产物，从而使凝聚液滴中的反应物浓度高于本体溶液。广泛来看，这些结果增进了对生物分子凝聚体如何促进涉及不稳定反应中间体的多步反应途径的理解，并提示凝聚体可能提供一种潜在的非生物机制来促进分子复杂性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34856104/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34856104/",
+  "paper_page_path": "papers/pubmed/34856104/index.html"
+}

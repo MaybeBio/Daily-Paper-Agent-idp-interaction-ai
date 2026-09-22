@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42242225",
+  "title": "Deep learning of functional perturbations from condensate morphology.",
+  "authors": "Donlic, Anita; Comi, Troy J; Quinodoz, Sofia A; Jaberi-Lashkari, Nima; Antunes Fernandes, Krist; Jiang, Lifei; Wiesner, Lennard W; Lim, Ai Ing; Brangwynne, Clifford P",
+  "journal": "Cell",
+  "published_date": "2026-06-05",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习从凝聚体形态图像推断药物扰动，虽以相分离凝聚体为对象并涉及亚区室界面机制，但核心是表型-药物关联而非PPI结合机制建模，方法可迁移但互作机制深度有限。",
+  "abstract": "Biomolecular condensates compartmentalize the interior of cells to organize complex functions, yet linking molecular interactions within condensates to their mesoscale organization remains a major challenge. To bridge this gap, we developed a neural-network-based framework-Deep-Phase (deep learning of phase-separated condensates)-that uses microscopy images to directly measure condensate morphology changes resulting from pharmacological alterations in associated biochemical processes. We use Deep-Phase to precisely quantify time- and concentration-dependent structural perturbations to the multiphase nucleolus and show that they are tightly coupled to potencies of drugs inhibiting ribosomal RNA (rRNA) transcription and processing. Applying Deep-Phase in a chemical screen, we identify a unique nucleolar morphology and discover a role for a DNA topoisomerase in rRNA processing. Mechanistic studies of this morphology provide insights into how the interfaces between nucleolar sub-compartments are maintained. We demonstrate Deep-Phase's adaptability to diverse cell lines, labeling techniques, and condensates, offering a powerful platform for connecting molecular pathways to cellular mesoscale organization.",
+  "abstract_zh": "生物分子凝聚体通过区隔化细胞内部来组织复杂功能，然而将凝聚体内的分子相互作用与其介观尺度组织联系起来仍是一项重大挑战。为弥合这一差距，我们开发了一个基于神经网络的框架——Deep-Phase（相分离凝聚体的深度学习）——利用显微镜图像直接测量由相关生化过程的药理学改变引起的凝聚体形态变化。我们使用Deep-Phase精确量化了多相核仁在时间和浓度依赖下的结构扰动，并表明这些扰动与抑制核糖体RNA（rRNA）转录和加工的药物的效力紧密耦合。在化学筛选中应用Deep-Phase，我们识别出一种独特的核仁形态，并发现了DNA拓扑异构酶在rRNA加工中的作用。对该形态的机制研究为核仁亚区室之间界面的维持提供了见解。我们展示了Deep-Phase对不同细胞系、标记技术和凝聚体的适应性，为连接分子通路与细胞介观尺度组织提供了一个强大平台。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42242225/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42242225/",
+  "paper_page_path": "papers/pubmed/42242225/index.html"
+}

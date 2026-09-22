@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41383708",
+  "title": "Methyladenine as a regulator of biomolecular condensation.",
+  "authors": "Arsie, Roberto; Tartaglia, Gian G; Vabulas, R Martin",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2025-12-12",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 6,
+  "one_liner_zh": "综述RNA甲基化修饰(m1A/m6A)如何通过调控RNA结构及RNA-蛋白互作来影响生物分子凝聚体/相分离，涉及无序蛋白介导的互作机制，但缺乏AI或物理模拟方法，机制深度有限。",
+  "abstract": "Ribonucleotide modifications modulate RNA structure and stability, thereby influencing RNA turnover and a wide range of cellular functions. Recent studies have revealed that specific RNA modifications can also affect the formation, composition, and material properties of biomolecular condensates. This review explores how N1-methyladenine (m(1)A) and N6-methyladenine (m(6)A) contribute to RNA-driven phase transitions and the balance between adaptive granulation and pathological protein aggregation. m(1)A can act as a protective tag: by altering local RNA structure and RNA-protein interactions, it promotes the sequestration of selected transcripts into dynamic stress granules and facilitates the resumption of protein synthesis after stress. During chronic proteotoxicity, m(1)A helps prevent aberrant RNA-protein entanglement. However, when present on pathogenic repeat RNAs, m(1)A can recruit aggregation-prone proteins and exacerbate pathology. On the other hand, m(6)A functions as both a structural switch and a multivalent docking signal. Multiple m(6)A sites enhance the binding of cognate reader proteins to a transcript, thereby accelerating stress granule assembly. m(6)A modification has also been implicated in organizing nuclear condensates such as HSATIII lncRNA assemblies. We discuss mechanistic models that aim to reconcile the diverse roles of methyladenine, highlight current experimental challenges, and outline emerging approaches for addressing the remaining open questions.",
+  "abstract_zh": "核糖核苷酸修饰调节RNA的结构和稳定性，从而影响RNA的周转及广泛的细胞功能。近期研究揭示，特定的RNA修饰也能影响生物分子凝聚体的形成、组成及物质性质。本综述探讨了N1-甲基腺嘌呤（m(1)A）和N6-甲基腺嘌呤（m(6)A）如何参与RNA驱动的相变，以及适应性颗粒化与病理性蛋白聚集之间的平衡。m(1)A可作为保护性标签：通过改变局部RNA结构和RNA-蛋白质相互作用，它促进选定转录本被隔离到动态应激颗粒中，并促进应激后蛋白质合成的恢复。在慢性蛋白毒性条件下，m(1)A有助于防止异常的RNA-蛋白质纠缠。然而，当m(1)A存在于致病性重复RNA上时，它可能招募易聚集蛋白并加剧病理。另一方面，m(6)A既作为结构开关，又作为多价对接信号。多个m(6)A位点增强同源阅读蛋白与转录本的结合，从而加速应激颗粒的组装。m(6)A修饰也被认为参与组织核内凝聚体，如HSATIII长链非编码RNA组装体。我们讨论了旨在调和甲基腺嘌呤多样作用的机制模型，强调了当前实验挑战，并概述了解决剩余开放问题的新兴方法。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41383708/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41383708/",
+  "paper_page_path": "papers/pubmed/41383708/index.html"
+}

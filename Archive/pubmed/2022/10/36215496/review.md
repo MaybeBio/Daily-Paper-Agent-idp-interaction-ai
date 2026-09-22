@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, figure legends referenced, methods summary, supplementary figure/table references)
+- **Assessment boundary** Scientific claims, evidence quality, internal consistency, and alignment with stated conclusions; no line-by-line editorial review
+- **Shared manuscript claim summary** The authors propose that the disordered C-terminal linker (CTL) of *Bacillus subtilis* FtsZ contains evolutionarily conserved, nonrandom sequence patterns that modulate autoinhibitory interactions between the CTL, the CT17 motif, and the core domain. They further claim that disrupting these patterns via charge segregation/mixing alters FtsZ assembly, GTP hydrolysis, and in vivo cell division phenotypes.
+- **Visible evidence base** Atomistic simulations, circular dichroism, fluorescence correlation spectroscopy, dynamic light scattering, right-angle light scattering, negative-stain TEM, GTPase assays, immunoblots, growth curves, immunofluorescence microscopy, statistical coupling analysis, NARDINI sequence analysis
+- **Missing materials affecting confidence** Full SI Appendix contents (including Figs. S1–S10 and Table S1) not provided; detailed simulation parameters and force field choices not fully described; raw data and statistical analysis details for several assays not shown; exact strain construction details and validation of protein expression levels for all variants not fully described
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and well-integrated study that combines computational, biophysical, biochemical, and cellular approaches to dissect the functional role of sequence patterning within a disordered region of FtsZ. The central claim, that nonrandom sequence features within the CTL are functionally consequential and evolutionarily constrained, is well supported by the convergence of multiple independent lines of evidence. The design of CTL variants with fixed length and composition but varied charge patterning is a particularly strong methodological choice. However, several technical details and quantitative analyses are not fully visible from the provided material, and the mechanistic model would benefit from clearer articulation of how specific sequence features map to specific functional outcomes. The in vivo results are suggestive but limited by the small number of variants tested and the lack of direct mechanistic interrogation in cells.
+- **Who would be interested in the results, and why** Researchers studying bacterial cell division, FtsZ biology, intrinsically disordered proteins, and sequence-function relationships in disordered regions. The work also has broader relevance for those interested in how evolution constrains disordered sequences and how sequence patterning influences protein function. The methodological framework (combining simulations, biophysics, and cell biology) will appeal to a wide interdisciplinary audience.
+- **Major strengths** 1) The study directly challenges a previous claim that generic IDRs can functionally replace natural CTLs, providing a clear and testable counterexample. 2) The use of κ+− as a single tunable parameter while holding length and composition constant is a rigorous and elegant experimental design. 3) The integration of multiple orthogonal methods (simulations, spectroscopy, scattering, microscopy, enzymology, cell biology) provides strong convergent evidence. 4) The identification of covariation between the T7 loop and CT17, with the CTL under independent selection, is a novel and important evolutionary insight. 5) The work has clear implications for understanding how sequence features in disordered regions can be functionally consequential, with broad relevance beyond FtsZ.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "disruption of these patterns impairs molecular functions and cellular phenotypes" and that "extreme segregation or mixing of oppositely charged residues in the CTL cause significant deviations from WT-like behavior in FtsZ assembly and enzymatic activity in vitro."
+  - **Evidence pointer** Figures 5–8; Results sections "CTT–CTT Interactions Can Drive Nonnative FtsZ Assemblies In Vitro," "Nonnative Interactions Driven by Redesigned CTLs Promote Large and Diverse Assemblies That Are Less Active in GTP Hydrolysis than WT," and "Extremes of Mixing or Segregation of Oppositely Charged Residues Show Pronounced In Vivo Phenotypes"
+  - **Concern** The manuscript reports that variants with κ+− values between 0.19 and 0.34 show "robustness of both functions" in vitro, and that K59, despite a high κ+− value, shows WT-like in vivo behavior. This suggests a nonlinear or threshold-like relationship between κ+− and function, but the mechanistic basis for this robustness is not clearly explained. The authors attribute K59's behavior to preservation of native contacts, but the specific sequence features that allow this preservation are not identified. Additionally, the in vivo data are limited to a small number of variants (K14, K18, K47, K53, K59, K72), and the relationship between protein stability, assembly, and function in cells is not fully disentangled. The claim that "any sequence solution that mediates the native interaction between the T7 loop and the CT17 is a viable CTL" is interesting but is supported by only one example (K59).
+  - **Why it matters** The central thesis is that specific sequence patterns are functionally important. If some variants with high κ+− retain function (K59), the relationship between patterning and function is more complex than a simple linear correlation. Understanding this complexity is essential for the generalizability of the conclusions and for guiding future sequence design efforts.
+  - **Resolution test** Provide a more detailed analysis of the sequence features that distinguish K59 from other high-κ+− variants. Test additional variants with intermediate κ+− values and varied sequence arrangements to map the functional landscape more completely. Quantify the relationship between in vitro assembly properties, GTPase activity, and in vivo phenotypes for a larger panel of variants.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the CTL becomes the facilitator of distal contacts between the CT17 and the T7 loop of the core domain" and that "the CTL and the CT17 can compete for interactions with the T7 loop."
+  - **Evidence pointer** Figure 2; Results section "The CTL and CT17 Interact with the Core Domain at Mutually Exclusive Sites"
+  - **Concern** The simulations used to support the competition model are described only briefly. The force field, simulation length, sampling methodology, and convergence criteria are not provided in the main text. The definition of "contact" (10 Å cutoff) is given, but the statistical significance of the contact frequency differences between constructs is not fully described. The claim that the CTL "facilitates" CT17–T7 loop interactions is based on comparisons between full-length and deletion constructs, but the mechanistic interpretation (i.e., that the CTL positions the CT17) is inferred rather than directly demonstrated.
+  - **Why it matters** The competition model is a key mechanistic claim that underlies the interpretation of all subsequent experiments. If the simulation evidence is not robust, the entire conceptual framework is weakened.
+  - **Resolution test** Provide full simulation details (force field, water model, salt concentration, simulation time, number of replicas, convergence metrics). Show that the contact frequency differences are statistically significant with appropriate error analysis. Consider additional analyses (e.g., free energy calculations, mutational perturbations in silico) to directly test the competition model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** The authors propose that "the evolutionary drive to limit interactions between the CTL and the core is conserved in FtsZ orthologs" and that this is achieved via "nonrandom segregation of negatively charged residues and dispersion of positively charged residues."
+  - **Evidence pointer** Figure 4; Results section "Identifying Nonrandom Sequence Patterns within the Bs-FtsZ CTL"; Discussion
+  - **Concern** The NARDINI analysis identifies nonrandom patterns in the Bs-FtsZ CTL and shows conservation of some patterns across orthologs. However, the link between these specific patterns and the proposed functional role (limiting CTL–core interactions) is not directly tested. The authors infer that segregation of negatively charged residues and dispersion of positively charged residues minimize aberrant interactions, but no experiments directly manipulate these specific features while holding other properties constant. The Kappa variants alter the overall charge patterning, but they do not specifically isolate the roles of negative charge segregation versus positive charge dispersion.
+  - **Why it matters** The evolutionary argument is a central claim of the paper. Without direct experimental evidence linking the specific conserved patterns to the proposed functional mechanism, the claim remains correlative.
+  - **Resolution test** Design additional variants that specifically disrupt negative charge segregation while preserving positive charge dispersion (and vice versa). Test these variants in the same in vitro and in vivo assays to determine which specific sequence features are functionally critical. Alternatively, use phylogenetic analysis to identify convergent sequence solutions across diverse bacterial species and test whether these converge on similar functional properties.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that "the CTT likely undergoes conformational changes when it is tethered to the core domain by forming intermodule interactions with the core" based on the observation that the sum of CD spectra of core and CTT does not reproduce the full-length spectrum.
+  - **Evidence pointer** Figure 1D; Results section "The CTL and CT17 Interact with the Core Domain at Mutually Exclusive Sites"
+  - **Concern** The CD spectral comparison is suggestive but not definitive. The difference between the sum spectrum and the full-length spectrum could arise from several factors, including changes in secondary structure, changes in tertiary contacts, or simply the limitations of summing spectra from different concentrations or buffer conditions. The authors do not provide a quantitative analysis of the spectral difference or control experiments (e.g., mixing core and CTT in trans) to support their interpretation.
+  - **Why it matters** This observation is used to justify the simulation studies of full-length FtsZ. If the interpretation is incorrect, the simulations may be probing irrelevant conformations.
+  - **Resolution test** Perform control experiments with the core domain and CTT peptide mixed in trans at equivalent concentrations. Use additional spectroscopic methods (e.g., NMR, FRET) to directly monitor interdomain interactions. Provide quantitative analysis of the CD spectral differences (e.g., deconvolution into secondary structure components).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1B
+  - **Evidence pointer** Figure 1B
+  - **Issue** The IUPred scores are described as "above 0.5 for the entirety of the CTT," but the figure is not shown in the provided text. It would be helpful to state the prediction method and threshold used more explicitly.
+  - **Required correction** Clarify the IUPred prediction method (e.g., IUPred2A, long vs. short disorder) and the significance of the 0.5 threshold.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The Materials and Methods section is very brief and refers to SI Appendix for most details. For a standalone assessment, more information is needed about the simulation protocol, statistical analyses, and assay conditions.
+  - **Required correction** Provide a more complete description of key methods in the main text or ensure the SI Appendix is accessible and comprehensive.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive clarity
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The "Goldilocks effect" analogy is evocative but not precisely defined. The authors state that the CTL effects "may need to be just right," but the boundaries of the optimal range are not quantified.
+  - **Required correction** Define the optimal range of κ+− more precisely based on the data, or acknowledge that the boundaries are not yet determined.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 7B
+  - **Evidence pointer** Figure 7B
+  - **Issue** The GTPase activity data are described as "independent continuous assays," but the number of replicates and error bars are not described in the text.
+  - **Required correction** State the number of independent measurements and the statistical test used to compare variants to WT.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section "Design of CTL Variants"
+  - **Evidence pointer** Results section "Design of CTL Variants"
+  - **Issue** The relationship between κ+− and the physical properties of the CTL (e.g., radius of gyration, charge distribution) is described, but the reader is not told how many variants were designed and what range of κ+− values was covered.
+  - **Required correction** Provide a table or list of all designed variants with their κ+− values and key sequence features.
+
+## Risk / unsupported claims
+- The claim that "the CTL becomes the facilitator of distal contacts between the CT17 and the T7 loop" is inferred from simulations and deletion constructs but is not directly demonstrated experimentally.
+- The claim that "the evolutionary drive to limit interactions between the CTL and the core is conserved" is based on sequence analysis but lacks direct experimental evidence linking the conserved patterns to the proposed functional mechanism.
+- The statement that "any sequence solution that mediates the native interaction between the T7 loop and the CT17 is a viable CTL" is supported by only one variant (K59) and requires additional testing.
+- The interpretation of CD spectral differences as evidence for interdomain interactions is suggestive but not definitive without control experiments.
+- The in vivo phenotypic data are limited to a subset of variants, and the relationship between protein stability, assembly, and function in cells is not fully disentangled.

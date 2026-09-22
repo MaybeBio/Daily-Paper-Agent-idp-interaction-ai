@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "37621223",
+    "doi": "10.1002/prot.26582",
+    "title": "Critical assessment of protein intrinsic disorder prediction (CAID) - Results of round 2."
+  },
+  "content": {
+    "abstract": "Protein intrinsic disorder (ID) is a complex and context-dependent phenomenon that covers a continuum between fully disordered states and folded states with long dynamic regions. The lack of a ground truth that fits all ID flavors and the potential for order-to-disorder transitions depending on specific conditions makes ID prediction challenging. The CAID2 challenge aimed to evaluate the performance of different prediction methods across different benchmarks, leveraging the annotation provided by the DisProt database, which stores the coordinates of ID regions when there is experimental evidence in the literature. The CAID2 challenge demonstrated varying performance of different prediction methods across different benchmarks, highlighting the need for continued development of more versatile and efficient prediction software. Depending on the application, researchers may need to balance performance with execution time when selecting a predictor. Methods based on AlphaFold2 seem to be good ID predictors but they are better at detecting absence of order rather than ID regions as defined in DisProt. The CAID2 predictors can be freely used through the CAID Prediction Portal, and CAID has been integrated into OpenEBench, which will become the official platform for running future CAID challenges.",
+    "keywords": [
+      "CAID",
+      "Critical assessment of protein intrinsic disorder prediction",
+      "benchmarking",
+      "intrinsic protein disorder"
+    ],
+    "mesh_terms": [
+      "*Proteins",
+      "Software",
+      "Databases, Protein",
+      "*Intrinsically Disordered Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Conte, Alessio Del",
+        "Mehdiabadi, Mahta",
+        "Bouhraoua, Adel",
+        "Miguel Monzon, Alexander",
+        "Tosatto, Silvio C E",
+        "Piovesan, Damiano"
+      ],
+      "short_names": [
+        "Conte AD",
+        "Mehdiabadi M",
+        "Bouhraoua A",
+        "Miguel Monzon A",
+        "Tosatto SCE",
+        "Piovesan D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8210-2390"
+      ],
+      "affiliations": [
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Information Engineering, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Conte, Alessio Del",
+        "short_name": "Conte AD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Mehdiabadi, Mahta",
+        "short_name": "Mehdiabadi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Bouhraoua, Adel",
+        "short_name": "Bouhraoua A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Miguel Monzon, Alexander",
+        "short_name": "Miguel Monzon A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Information Engineering, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Piovesan, Damiano",
+        "short_name": "Piovesan D",
+        "identifiers": [
+          "0000-0001-8210-2390"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2023 Dec",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/25 06:42",
+    "fetched_at": "2026-09-21 00:43:07"
+  },
+  "links": {
+    "cites": [
+      "42358483",
+      "42288727",
+      "41921197",
+      "41707996",
+      "41689628",
+      "41419474",
+      "41279659",
+      "41249866",
+      "41218076",
+      "41204761",
+      "41009135",
+      "40937679",
+      "40867524",
+      "40859602",
+      "40830753",
+      "40828855",
+      "40728621",
+      "40728619",
+      "40662788",
+      "40535106",
+      "40509866",
+      "40501571",
+      "40347452",
+      "40242292",
+      "40221640",
+      "40138319",
+      "40067116",
+      "39920196",
+      "39833102",
+      "39811792",
+      "39718444",
+      "39645148",
+      "39470701",
+      "39464109",
+      "39107463",
+      "38932209",
+      "38866950",
+      "38765610",
+      "38747347",
+      "38718835",
+      "38648741",
+      "38540707",
+      "38358120",
+      "38297184",
+      "38216661",
+      "38166858",
+      "37957331",
+      "37904608",
+      "37904585"
+    ],
+    "refs": [],
+    "similar": [
+      "37621223",
+      "40859602",
+      "40054813",
+      "37246642",
+      "39571839",
+      "39576585",
+      "33875885",
+      "39237195",
+      "38079339",
+      "28968848",
+      "38540707",
+      "30576490",
+      "39576583",
+      "40138319",
+      "35356546",
+      "40133791",
+      "36210722",
+      "39708500",
+      "34850135",
+      "28453683",
+      "37892124",
+      "16618368",
+      "31713636",
+      "34894985",
+      "25361972",
+      "38166858",
+      "41454828",
+      "37904585",
+      "38701796",
+      "39811792",
+      "33017101",
+      "33291838",
+      "31411026",
+      "31870849",
+      "34290238",
+      "37883249",
+      "40133781",
+      "28369666",
+      "40347452",
+      "24573480",
+      "26090958",
+      "32696355",
+      "37626310",
+      "29595057",
+      "16954270",
+      "18831774",
+      "28365882",
+      "39576584",
+      "22208280",
+      "30914747",
+      "20100603",
+      "38213902",
+      "34480923",
+      "32034199",
+      "39470701",
+      "27899601",
+      "34048569",
+      "38765610",
+      "31326853",
+      "24573479",
+      "31616935",
+      "35367597",
+      "36334049",
+      "27115638",
+      "30099775",
+      "38507044",
+      "35883444",
+      "39718444",
+      "17145717",
+      "40728619",
+      "26683124",
+      "28589442",
+      "28381244",
+      "27636733",
+      "32696395",
+      "32696351",
+      "22661649",
+      "18314578",
+      "27326998",
+      "32901090",
+      "37167423",
+      "35789137",
+      "30819075",
+      "16187360",
+      "32599863",
+      "26287166",
+      "32823616",
+      "32621220",
+      "32112084",
+      "23798504",
+      "35507260",
+      "27787828",
+      "35562983",
+      "23946100",
+      "26086829",
+      "32112804",
+      "27037818",
+      "35469832",
+      "39246251",
+      "37992088"
+    ],
+    "review": [
+      "37621223",
+      "35356546",
+      "39811792",
+      "33291838",
+      "32034199",
+      "31616935",
+      "35367597",
+      "28589442"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/prot.26582",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

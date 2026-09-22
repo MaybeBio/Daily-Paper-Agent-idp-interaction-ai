@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results and discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, interpretation of results, and alignment with stated claims. No assessment of formatting, grammar, or editorial style beyond readability for a general scientific audience.
+- **Shared manuscript claim summary** The authors use 50 ns molecular dynamics simulations to study the conformational dynamics of two intrinsically disordered proteins (XPA, CDK1P) and two folded proteins (GTPase HRas, pVHL) in the presence of monomeric (ethylene glycol) and polymeric (PEG 600, PEG 8k, PEG 20k) crowding agents. They report that polymer crowders stabilize IDPs through both enthalpic and entropic effects, reduce backbone fluctuations, and alter conformational ensembles, while folded proteins remain largely unaffected.
+- **Visible evidence base** Main text tables (Tables 1–6), figures (Figures 1–8), supplementary figure references (Figures S1–S4), and supplementary table reference (Table S1). No raw simulation trajectories, force field parameter files, or input structures were provided.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S4, S1–S2) are referenced but not provided. No details on system size, number of crowder molecules, equilibration protocol, or replica runs. No error estimates or statistical analysis of replicate simulations. No validation of force field parameters for PEG models. No comparison with experimental data.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the field of intrinsically disordered proteins, namely how macromolecular crowding affects conformational dynamics. The study design compares two IDPs with two folded controls across multiple crowding conditions, which is a reasonable approach. However, the work is limited by short simulation times (50 ns), lack of replicate simulations, absence of key methodological details, and reliance on qualitative visual inspection for several central claims. The conclusion that polymer crowders stabilize IDPs through combined enthalpic and entropic effects is plausible but not rigorously established from the evidence presented. The manuscript would benefit from additional analyses, longer simulations, and clearer presentation of quantitative results.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, macromolecular crowding, and protein conformational dynamics would find this work relevant. The study also speaks to the broader biophysics community interested in how cellular environments modulate protein behavior. The use of MD simulations to probe crowding effects is of methodological interest to computational biophysicists.
+- **Major strengths** The study addresses an important and timely question about IDP behavior in crowded environments. The inclusion of two IDPs and two folded controls provides a comparative framework. The use of multiple crowder types (monomeric vs. polymeric, varying molecular weights) allows for a systematic exploration of crowding effects. The analysis combines multiple metrics (RMSD, radius of gyration, interaction energies, configurational entropy, essential dynamics) which provides a multifaceted view of conformational changes.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "polymer crowders stabilize the disordered proteins through enthalpic as well as entropic effects" and that "the disorder of the polymer crowders themselves compensated for the entropic loss due to reduced backbone fluctuations of the disordered proteins."
+  - **Evidence pointer** Results section, Tables 3–5, Figures 4–6
+  - **Concern** The central claim of enthalpic and entropic stabilization is based on single 50 ns simulations per condition with no replicate runs. The interaction energies and configurational entropies are reported as single values without error estimates, making it impossible to assess whether the observed differences between conditions are statistically significant. Furthermore, the claim that crowder entropy compensates for protein entropy loss is inferred from comparing protein configurational entropy (Table 4) with crowder configurational entropy (Table 5), but no free energy calculations or decomposition of entropy contributions are provided to support this compensation mechanism.
+  - **Why it matters** The primary conclusion of the paper rests on the balance of enthalpic and entropic contributions. Without statistical replicates or error analysis, the reported differences could be within noise. The compensation mechanism is a key mechanistic claim that requires more rigorous thermodynamic analysis.
+  - **Resolution test** Provide replicate simulations (at least 3 independent runs per condition) with standard deviations for all reported quantities. Perform a free energy analysis (e.g., MM-PBSA or thermodynamic integration) to quantify enthalpic and entropic contributions. Alternatively, clearly state the limitations of single-run simulations and temper the claims accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that "the present study revealed that polymer crowders stabilize the disordered proteins" and that "the largest stabilization energy occurred for PEG 600."
+  - **Evidence pointer** Results section, Table 3, Figure 4
+  - **Concern** The interaction energies reported in Table 3 are presented as single values without error bars or statistical analysis. The claim that PEG 600 provides the largest stabilization is based on comparing interaction energies across different crowder types, but the manuscript does not report the number of crowder molecules in each system, the concentration of crowder, or the surface area of protein-crowder contact. Without normalizing for crowder concentration or contact area, the comparison between different crowder types is not meaningful. Additionally, the interaction energy is a raw energetic quantity that does not account for entropic penalties of crowder confinement near the protein surface.
+  - **Why it matters** The relative stabilization by different crowders is a key finding. If the comparison is confounded by different crowder concentrations or molecular weights, the conclusion that PEG 600 is most stabilizing may not be valid.
+  - **Resolution test** Report crowder concentrations and number of crowder molecules per system. Normalize interaction energies by crowder concentration or protein surface area. Provide error estimates from replicate simulations. Discuss the role of crowder size and concentration in interpreting the results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that "the essential dynamics analysis revealed that for GTPase HRas and pVHL, the crowded environments caused little change in the conformational space" and that for XPA and CDK1P, "the crowders not only altered the conformational space significantly but also its distribution across different conformational ensembles."
+  - **Evidence pointer** Results section, Table 6, Figure 7
+  - **Concern** The essential dynamics analysis is based on principal components derived from the entire 50 ns trajectory. However, the manuscript does not report the fraction of variance captured by the top three principal components, nor does it provide convergence checks for the principal component analysis. The cluster populations are reported as percentages, but the criteria for cluster assignment are not described. The RMSD values between cluster-averaged structures are presented without error estimates. Without these details, the robustness of the conformational ensemble analysis cannot be evaluated.
+  - **Why it matters** The conclusion that crowders alter conformational ensembles of IDPs but not folded proteins is a central finding. If the PCA is not converged or the clustering is not robust, the conclusions may not be reliable.
+  - **Resolution test** Report the fraction of variance explained by the top principal components. Provide convergence analysis of PCA (e.g., split-half analysis). Describe the clustering algorithm and criteria. Provide error estimates for cluster populations and RMSD values.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript concludes that "the theoretical models can be used as a prototype to further probe the structure-function relationships of these IDPs."
+  - **Evidence pointer** Conclusions section
+  - **Concern** The study does not connect the observed conformational changes to any functional implications for the IDPs studied. The statement about structure-function relationships is speculative and not supported by any functional assays or analysis of functional regions within the proteins. The choice of XPA and CDK1P as model IDPs is not justified in terms of their biological relevance to crowding effects.
+  - **Why it matters** The broader significance of the work depends on whether the findings can be linked to biological function. Without this connection, the study remains a purely biophysical characterization with limited impact.
+  - **Resolution test** Discuss the functional regions of XPA and CDK1P and how crowding-induced conformational changes might affect their interactions with binding partners. Alternatively, temper the claims about structure-function relationships and focus on the biophysical insights.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section, "Building up of crowder-protein-solvent systems"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The method for placing crowder molecules around the protein is described as "using scripts generated in our lab" without providing details on the algorithm, random seed, or initial configuration generation. This limits reproducibility.
+  - **Required correction** Provide a detailed description of the crowder placement protocol, including any random seeding procedures, and consider making the scripts available.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section, "Minimization and dynamics"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The equilibration protocol is not described. The manuscript states that two minimizations were performed followed by 50 ns MD, but does not specify whether any equilibration phase was included, how the system was heated, or how pressure was controlled.
+  - **Required correction** Describe the full equilibration protocol, including heating, pressure coupling, and any restraints applied during equilibration.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section, "Essential dynamics analysis"
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The manuscript states that "the principal components were generated using the Ca–Ca covariance matrix using the entire 50 ns trajectory data" but does not specify whether the trajectory was fitted to a reference structure prior to covariance calculation, which is a standard requirement for PCA of internal motions.
+  - **Required correction** Specify the fitting procedure used before covariance matrix calculation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section, "Crowders' impact on backbone flexibility"
+  - **Evidence pointer** Results section, location not provided
+  - **Issue** The manuscript states that "the standard deviations of RMSDs were less than 1 Å, which demonstrates the equilibration of all protein systems." This is an unusual use of RMSD standard deviation as an equilibration criterion. Equilibration is typically assessed by drift in RMSD over time, not by the magnitude of fluctuations.
+  - **Required correction** Clarify the equilibration assessment or use a more standard criterion such as plateauing of RMSD over time.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Introduction section
+  - **Evidence pointer** Introduction section, location not provided
+  - **Issue** The introduction does not clearly state why the specific crowder concentrations or molecular weights were chosen. The choice of EG, PEG 600, PEG 8k, and PEG 20k is not justified in terms of physiological relevance or comparison with previous studies.
+  - **Required correction** Provide justification for the choice of crowder types and concentrations, and discuss how they relate to physiological crowding conditions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of replicate simulations and error analysis), R1-M2 (uncontrolled comparison of crowder types), R1-M3 (insufficient detail on PCA and clustering methodology)
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The application of MD simulations to study crowding effects on IDPs is not new, but the specific comparison of monomeric vs. polymeric crowders and the focus on both enthalpic and entropic contributions provides some novelty.
+  - **Scientific importance** Moderate. The question of how crowding affects IDP conformation is important, but the study does not provide definitive mechanistic insights or connect to functional consequences. The short simulation times and lack of replicates limit the impact.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to computational biophysicists and researchers studying IDPs. The findings are unlikely to attract a broad interdisciplinary audience without stronger connections to cellular biology or experimental validation.
+  - **Technical soundness** Weak. The lack of replicate simulations, error analysis, and detailed methodological descriptions undermines the technical rigor. Several central claims are not supported by quantitative evidence.
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally well-written and the concepts are explained clearly, though some sections assume familiarity with MD simulation terminology.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and has a reasonable study design, but the technical limitations (short simulations, no replicates, missing methodological details) prevent the central claims from being rigorously supported. Major revisions addressing the concerns above would be required before the case is established.
+
+## Risk / unsupported claims
+- The claim that polymer crowders stabilize IDPs through combined enthalpic and entropic effects is not supported by statistical analysis or free energy calculations.
+- The claim that crowder entropy compensates for protein entropy loss is speculative and not directly measured.
+- The claim that PEG 600 provides the largest stabilization is not normalized for crowder concentration or contact area.
+- The claim that crowders alter conformational ensembles of IDPs but not folded proteins is based on PCA analysis without convergence checks or error estimates.
+- The statement that "the theoretical models can be used as a prototype to further probe the structure-function relationships" is speculative and not supported by functional analysis.
+- The equilibration of all systems is claimed based on RMSD standard deviation, which is not a standard criterion.

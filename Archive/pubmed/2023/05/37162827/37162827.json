@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "37162827",
+    "doi": "10.1101/2023.04.25.538329",
+    "title": "Atomistic Modeling of Liquid-Liquid Phase Equilibrium Explains Dependence of Critical Temperature on gamma-Crystallin Sequence."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation of protein solutions has regained heightened attention for its biological importance and pathogenic relevance. Coarse-grained models are limited when explaining residue-level effects on phase equilibrium. Here we report phase diagrams for gamma-crystallins using atomistic modeling. The calculations were made possible by combining our FMAP method for computing chemical potentials and Brownian dynamics simulations for configurational sampling of dense protein solutions, yielding the binodal and critic temperature ( T (c) ). We obtain a higher T (c) for a known high- T (c) gamma-crystallin, gammaF, than for a low- T (c) paralog, gammaB. The difference in T (c) is corroborated by a gap in second virial coefficient. Decomposition of inter-protein interactions reveals one amino-acid substitution between gammaB and gammaF, from Ser to Trp at position 130, as the major contributor to the difference in T (c) . This type of analysis enables us to link phase equilibrium to amino-acid sequence and to design mutations for altering phase equilibrium.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Qin, Sanbo",
+        "Zhou, Huan-Xiang"
+      ],
+      "short_names": [
+        "Qin S",
+        "Zhou HX"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA.",
+        "Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA.",
+        "Department of Physics, University of Illinois Chicago, Chicago, IL 60607, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Qin, Sanbo",
+        "short_name": "Qin S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Huan-Xiang",
+        "short_name": "Zhou HX",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Illinois Chicago, Chicago, IL 60607, USA.",
+          "Department of Physics, University of Illinois Chicago, Chicago, IL 60607, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Apr 28",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/10 12:42",
+    "fetched_at": "2026-09-20 21:51:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37184002",
+      "36227466",
+      "35853451",
+      "34645832",
+      "34241191",
+      "32029630",
+      "31490691",
+      "31430179",
+      "31192219",
+      "30985120",
+      "30633517",
+      "30414964",
+      "30217894",
+      "29961577",
+      "29930094",
+      "29898402",
+      "29716768",
+      "27327881",
+      "27077243",
+      "26596171",
+      "26123630",
+      "25964322",
+      "25061446",
+      "24835736",
+      "24187527",
+      "21173272",
+      "20616077",
+      "18792934",
+      "15299624",
+      "15264254",
+      "15215472",
+      "11517324",
+      "10688888",
+      "9367641",
+      "9260279",
+      "8142489",
+      "4843792",
+      "3856852",
+      "3783678",
+      "3670288",
+      "3478681",
+      "3351938",
+      "2738925",
+      "2602383",
+      "2062844",
+      "887936"
+    ],
+    "similar": [
+      "37162827",
+      "37644195",
+      "9367641",
+      "28178791",
+      "16613479",
+      "27327881",
+      "15461210",
+      "37039349",
+      "27077243",
+      "15692460",
+      "1741375",
+      "19438717",
+      "33453922",
+      "2062844",
+      "9642290",
+      "8552642",
+      "11733987",
+      "15878859",
+      "9777706",
+      "31490691",
+      "2738925",
+      "9162088",
+      "9191069",
+      "9541393",
+      "7559623",
+      "7925695",
+      "11123905",
+      "14517968",
+      "3351938",
+      "24120835",
+      "9650079",
+      "26505877",
+      "18783771",
+      "9988710",
+      "23912807",
+      "23559856",
+      "26602507",
+      "3478681",
+      "18172107",
+      "2356232",
+      "20959464",
+      "3255364",
+      "9232654",
+      "9018433",
+      "15522290",
+      "20462253",
+      "26588552",
+      "29923722",
+      "32907192",
+      "30633517",
+      "21157607",
+      "36637342",
+      "10512720",
+      "3255376",
+      "8983941",
+      "37093140",
+      "8838595",
+      "10549666",
+      "4064730",
+      "16494412",
+      "12226711",
+      "29172128",
+      "16179909",
+      "9699550",
+      "7627123",
+      "7862635",
+      "15709761",
+      "21494747",
+      "21677790",
+      "12211442",
+      "2306495",
+      "7843902",
+      "29346981",
+      "16402021",
+      "35170596",
+      "26385181",
+      "12535638",
+      "6294661",
+      "12391331",
+      "23758385",
+      "15448619",
+      "7811735",
+      "18999422",
+      "8063735",
+      "23595102",
+      "24223529",
+      "15299910",
+      "24289039",
+      "12949468",
+      "21866213",
+      "32118433"
+    ],
+    "review": [
+      "37162827"
+    ],
+    "pmc": [
+      "10168431"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37162827/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37162827",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.04.25.538329",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

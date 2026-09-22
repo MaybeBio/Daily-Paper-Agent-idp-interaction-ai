@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, methodology, evidence quality, and internal consistency as presented in the provided text
+- **Shared manuscript claim summary** The authors propose that prion-like low-complexity domains (PLCDs) in Arabidopsis thaliana proteins encode thermoresponsive phase separation via lower critical solution temperature (LCST)-type transitions, that this behavior is predictable from sequence composition, and that engineered variants can tune condensation thresholds.
+- **Visible evidence base** Results sections, figures referenced (Figs. 1–5, SI Figs. S1–S8), Materials and Methods, Discussion, Limitations
+- **Missing materials affecting confidence** Full figures and supplementary tables not provided; numerical data (e.g., exact percentages, statistical tests, error bars) not available; experimental replicates and controls not described in detail; simulation parameters partially described but validation metrics not shown
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in plant thermosensing, proposing a sequence-encoded mechanism for LCST-type phase separation in Arabidopsis PLCDs. The combination of cellular imaging, biophysics, and coarse-grained simulations is ambitious and potentially impactful. However, the evidence as presented has several gaps that prevent full confidence in the central claims. The link between PLCD sufficiency/necessity and full-length protein behavior is correlative, the sequence heuristics are derived from a limited dataset, and the simulation-experiment comparison lacks quantitative rigor. The work is promising but requires substantial additional evidence and clarification before the conclusions can be considered established.
+- **Who would be interested in the results, and why** Plant biologists studying temperature responses and stress adaptation; biophysicists and computational biologists working on phase separation and intrinsically disordered proteins; synthetic biologists interested in designing thermoresponsive biomaterials. The proposed sequence rules could have broad applicability beyond plants, making it relevant to the general phase separation community.
+- **Major strengths** 1) Addresses a fundamental and understudied question in plant biology with potential broad implications. 2) Integrates multiple experimental and computational approaches. 3) Identifies a potentially generalizable sequence heuristic for LCST behavior. 4) Provides a clear framework for engineering thermoresponsive proteins. 5) The limitations section is honest and thoughtful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "PLCDs sufficient for thermoresponsive phase separation transitioned to more compact globule states at lower temperatures than those that were insufficient" and "sufficient PLCDs achieved higher dense-phase packing as temperature increased compared to insufficient PLCDs"
+  - **Evidence pointer** Fig. 4c, 4d, SI Figs. S2–S5; location not provided
+  - **Concern** The simulation results are presented as qualitative comparisons without statistical analysis or quantitative metrics. The number of PLCDs simulated, the number of replicates, and the error estimates are not reported. The claim that "sufficient" PLCDs behave differently from "insufficient" ones in simulations is central to the sequence-encoding hypothesis, but the evidence as described does not establish this with confidence.
+  - **Why it matters** Without quantitative rigor, the simulation results cannot be distinguished from noise or model artifacts. This weakens the central claim that sequence composition directly encodes thermoresponsive behavior.
+  - **Resolution test** Provide quantitative data for all simulated PLCDs, including error bars, statistical tests comparing sufficient vs. insufficient groups, and convergence checks. Report the number of independent simulations and demonstrate reproducibility.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** "The experimental results closely mirrored the simulations: Variant Set 3 showed the strongest heat-induced condensation, followed by Variant Set 2 and then Variant Set 1"
+  - **Evidence pointer** Fig. 5b, 5c; location not provided
+  - **Concern** The experimental validation of engineered variants is described only qualitatively. No quantitative data (e.g., percentage of cells with condensates, fluorescence intensity, condensate size) are provided. The number of biological replicates, the number of cells counted, and the statistical significance of differences between variant sets are not reported. The claim that experiments "closely mirrored" simulations cannot be evaluated without these data.
+  - **Why it matters** The convergence between simulation and experiment is a key selling point of the paper. Without quantitative experimental data, this convergence cannot be verified, and the predictive power of the sequence heuristics remains unsubstantiated.
+  - **Resolution test** Provide quantitative measurements of condensation for all variants at all temperatures, with appropriate statistical tests and effect sizes. Show that the ranking of variant sets is statistically robust and reproducible across replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "These sequence heuristics not only explained natural variation but also enabled design" and "providing a molecular framework for designing synthetic biomolecules with programmable temperature responses"
+  - **Evidence pointer** Results section "Sequence heuristics can be leveraged to design mutants with tunable thermoresponsive phase separation"; location not provided
+  - **Concern** The sequence heuristics are derived from a limited set of 20 PLCDs (and only 54 tested overall). The claim of generalizability to other proteins, other plant species, or synthetic biomolecules is not supported by the data presented. The manuscript does not test whether the heuristics apply to PLCDs outside the training set or to non-plant proteins.
+  - **Why it matters** The broader implications and potential applications of the work depend on the generalizability of the sequence rules. Without validation on independent datasets, the heuristics may be overfitted to the specific proteins studied.
+  - **Resolution test** Test the predictive power of the heuristics on a held-out set of PLCDs or on PLCDs from other species. Alternatively, clearly frame the heuristics as specific to the proteins studied and temper the generalizability claims.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** "LCST-driven phase separation as a fundamental mechanism of thermoresponsiveness in plants"
+  - **Evidence pointer** Discussion; location not provided
+  - **Concern** The manuscript demonstrates that many PLCDs undergo LCST-type transitions, but it does not establish that this is a "fundamental mechanism" of thermoresponsiveness in plants. The link to physiological function is not tested. For example, the authors do not show that the phase separation behavior of these proteins is required for temperature-dependent biological responses.
+  - **Why it matters** The claim of fundamental importance goes beyond the data presented. Without functional validation, the physiological relevance of the observed phase separation remains speculative.
+  - **Resolution test** Provide evidence that at least one PLCD's phase separation is required for a temperature-dependent biological process, or temper the claim to reflect that this is a proposed mechanism requiring further validation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Fig. 2 clustering description
+  - **Evidence pointer** Results section "PLCD-containing proteins in Arabidopsis exhibit variability in heat-induced condensation behavior"; location not provided
+  - **Issue** The description of the four clusters is qualitative. It is unclear how cluster assignments were validated or whether they are robust to different clustering parameters.
+  - **Required correction** Provide quantitative cluster characteristics (e.g., mean condensation at each temperature per cluster) and sensitivity analysis for the clustering.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Protoplast assay quantification
+  - **Evidence pointer** Materials and Methods "Microscopy"; location not provided
+  - **Issue** The microscopy methods describe image acquisition but not the quantification pipeline for determining "percentage of cells displaying fluorescent puncta." The criteria for what constitutes a punctum and how cells were segmented are not described.
+  - **Required correction** Provide a detailed description of the image analysis pipeline, including any automated or manual thresholding, and state whether the analysis was blinded.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All quantitative claims
+  - **Evidence pointer** Throughout; location not provided
+  - **Issue** No statistical tests are mentioned anywhere in the results. It is unclear whether differences between conditions or groups are statistically significant.
+  - **Required correction** Add appropriate statistical tests for all quantitative comparisons and report effect sizes and confidence intervals.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation methods
+  - **Evidence pointer** Materials and Methods "Mpipi-T approach" and "Dense phase density computations"; location not provided
+  - **Issue** The simulation methods lack key details for reproducibility, such as the number of chains in multi-chain simulations, box sizes, and how the "high-density region" was defined for dense phase density calculations.
+  - **Required correction** Provide complete simulation parameters and analysis details, or reference a prior publication where these are fully described.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The discussion does not adequately contextualize the findings within the broader plant thermosensing literature, particularly regarding known thermosensors like phytochrome B and ELF3.
+  - **Required correction** Add a paragraph discussing how the proposed LCST mechanism relates to or complements existing models of plant thermosensing.
+- **Technical failings that need to be addressed before the case is established** 1) Lack of quantitative data and statistical analysis for both experimental and simulation results (R1-M1, R1-M2). 2) Insufficient description of image quantification and simulation analysis methods (R1-m2, R1-m4). 3) No validation of sequence heuristics on independent datasets (R1-M3). 4) Overstated claims of fundamental importance without functional validation (R1-M4).
+- **Assessment against Nature-style criteria** Originality: High. The application of LCST-type phase separation to plant thermosensing is novel and conceptually interesting. Scientific importance: Potentially high, but not yet established due to evidence gaps. If validated, the findings could reshape understanding of plant temperature sensing. Interdisciplinary readership: The work bridges plant biology, biophysics, and computational biology, which could attract a broad audience. Technical soundness: Currently insufficient. The lack of quantitative rigor and statistical analysis undermines confidence in the conclusions. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some simulation details may be challenging for non-experts. Overall, the manuscript has strong potential but does not yet meet the standards of evidence required for a high-impact journal.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is interesting and the approach is innovative, but the current evidence is insufficient to establish the claims. Major revisions with additional quantitative data, statistical analysis, and independent validation are required.
+
+## Risk / unsupported claims
+- The claim that "numerous PLCDs undergo reversible LCST-type transitions" is not supported by quantitative data or statistical analysis.
+- The claim that "PLCD sufficiency/necessity predicts full-length protein thermoresponsive variability" is based on a limited sample (20 proteins) and lacks statistical validation.
+- The claim that "sequence heuristics can be used to design mutants with tunable thermoresponsive phase separation" is based on qualitative experimental results without quantitative confirmation.
+- The claim that "LCST-driven phase separation is a fundamental mechanism of thermoresponsiveness in plants" is speculative and not supported by functional experiments.
+- The generalizability of the sequence heuristics to other proteins or species is not tested and cannot be evaluated from the provided evidence.

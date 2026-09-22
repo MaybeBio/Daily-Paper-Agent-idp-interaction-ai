@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "41965924",
+    "doi": "10.1038/s42004-026-02011-9",
+    "title": "Origin of the ionic-strength dependent reentrant behavior in the liquid-liquid phase separation of uncharged intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "The effect of salt on coacervation of synthetic or biological polyelectrolytes and polyampholytes is well-studied. However, recent experiments showed that largely uncharged IDPs (like FUS) also undergo LLPS at physiological salt concentrations such as [C(ion)]~0.15 M, dissolve at higher salt concentration, and again phase separate at even higher salt concentrations such as [C(ion)]~3 M. Here we use analytical theory and explicit solvent coarse-grained simulations to reveal the mechanism of these transitions, which is significantly different than that of highly charged IDPs with net charge neutrality. At low [C(ion)], the ionic solution acts as a highly correlated medium conferring long-range effective attractive interactions between spatially distant monomers. In this regime, the ion concentration inside the condensate is higher than in the bulk solution. As [C(ion)] increases, the correlation length in the ionic plasma decreases, and the condensate dissolves. Second LLPS at high [C(ion)] is due to the entropy-driven crowding, and the ion concentration inside the condensate is lower than in the bulk. Our study unravels a general physical mechanism of salt-dependent reentrant behavior in LLPS in uncharged IDPs.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mondal, Sayantan",
+        "Shakhnovich, Eugene"
+      ],
+      "short_names": [
+        "Mondal S",
+        "Shakhnovich E"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4612-7758",
+        "ORCID: 0000-0002-4769-2265"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Chemical Biology, Harvard University, 12 Oxford St, Cambridge, MA, USA.",
+        "Department of Chemistry and Chemical Biology, Harvard University, 12 Oxford St, Cambridge, MA, USA. shakhnovich@chemistry.harvard.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mondal, Sayantan",
+        "short_name": "Mondal S",
+        "identifiers": [
+          "0000-0002-4612-7758"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Harvard University, 12 Oxford St, Cambridge, MA, USA."
+        ]
+      },
+      {
+        "full_name": "Shakhnovich, Eugene",
+        "short_name": "Shakhnovich E",
+        "identifiers": [
+          "0000-0002-4769-2265"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Harvard University, 12 Oxford St, Cambridge, MA, USA. shakhnovich@chemistry.harvard.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications chemistry"
+    ],
+    "journal_abbrev": [
+      "Commun Chem"
+    ],
+    "pub_date": "2026 Apr 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/12 04:37",
+    "fetched_at": "2026-09-18 02:21:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41263305",
+      "41056468",
+      "40963550",
+      "40028898",
+      "39977663",
+      "39674888",
+      "38407041",
+      "38177243",
+      "37856873",
+      "37853696",
+      "37735186",
+      "37217523",
+      "37159305",
+      "37155880",
+      "37073403",
+      "37043540",
+      "36513655",
+      "36227467",
+      "35597632",
+      "35377637",
+      "35179885",
+      "34221333",
+      "33827920",
+      "33782607",
+      "33597515",
+      "33558506",
+      "33515602",
+      "33319830",
+      "33307683",
+      "33237286",
+      "32962386",
+      "32675239",
+      "32484438",
+      "32302572",
+      "32134099",
+      "32007034",
+      "31974256",
+      "31543265",
+      "31430179",
+      "31325933",
+      "30951647",
+      "30873835",
+      "29961577",
+      "29364893",
+      "29313527",
+      "28790177",
+      "28225081",
+      "27392146",
+      "25288112",
+      "23901099",
+      "23057830",
+      "22398450",
+      "18232845",
+      "17212484",
+      "15267302",
+      "8744570",
+      "5288774"
+    ],
+    "similar": [
+      "41965924",
+      "40236119",
+      "35944496",
+      "41457474",
+      "30996987",
+      "41804277",
+      "39947751",
+      "40278867",
+      "39466031",
+      "41930927",
+      "34984429",
+      "39980654",
+      "39044475",
+      "32824618",
+      "35883530",
+      "33139563",
+      "40792356",
+      "33302617",
+      "36443315",
+      "33260713",
+      "31139718",
+      "34716273",
+      "29210575",
+      "42223083",
+      "33890467",
+      "40066891",
+      "38435530",
+      "34259536",
+      "33934416",
+      "37662293",
+      "30193467",
+      "33597515",
+      "40028898",
+      "39761364",
+      "38407041",
+      "41566033",
+      "33076213",
+      "39568948",
+      "31325933",
+      "36524527",
+      "23912807",
+      "32808784",
+      "32007034",
+      "34598583",
+      "36444977",
+      "38973194",
+      "33555894",
+      "36227468",
+      "39372747",
+      "40693839",
+      "37222424",
+      "38546977",
+      "41544898",
+      "37668019",
+      "38526948",
+      "30205960",
+      "42106138",
+      "39922493",
+      "34428231",
+      "33629837",
+      "29364893",
+      "42283756",
+      "36251838",
+      "30217894",
+      "41860076",
+      "33876938",
+      "36343363",
+      "34737230",
+      "39605385",
+      "34984754",
+      "30066087",
+      "33684117",
+      "38260590",
+      "41363845",
+      "38965780",
+      "37645312",
+      "34203110",
+      "38252962",
+      "38287572",
+      "34598580",
+      "38862770",
+      "38464093",
+      "32639157",
+      "41169547",
+      "33299652",
+      "39225535",
+      "30913885",
+      "37815389",
+      "36900563",
+      "34206440",
+      "40500881",
+      "37480340",
+      "41297573",
+      "35142991",
+      "39898481",
+      "33453922",
+      "37189373",
+      "42437078",
+      "39645030",
+      "31237369"
+    ],
+    "review": [
+      "41965924",
+      "39947751",
+      "32824618",
+      "33260713",
+      "36524527",
+      "41544898",
+      "30066087",
+      "35142991",
+      "42437078"
+    ],
+    "pmc": [
+      "13269793"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42004-026-02011-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41965924/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "33369404",
+    "doi": "10.1021/acsnano.0c07672",
+    "title": "Tunable Electromechanical Nanopore Trap Reveals Populations of Peripheral Membrane Protein Binding Conformations."
+  },
+  "content": {
+    "abstract": "We demonstrate that a naturally occurring nanopore, the voltage-dependent anion channel (VDAC) of the mitochondrion, can be used to electromechanically trap and interrogate proteins bound to a lipid surface at the single-molecule level. Electromechanically probing alpha-synuclein (alphaSyn), an intrinsically disordered neuronal protein intimately associated with Parkinson's pathology, reveals wide variation in the time required for individual proteins to unbind from the same membrane surface. The observed distributions of unbinding times span up to 3 orders of magnitude and depend strongly on the lipid composition of the membrane; surprisingly, lipid membranes to which alphaSyn binds weakly are most likely to contain subpopulations in which electromechanically driven unbinding is very slow. We conclude that unbinding of alphaSyn from the membrane surface depends not only on membrane binding affinity but also on the conformation adopted by an individual alphaSyn molecule on the membrane surface.",
+    "keywords": [
+      "energy landscape",
+      "intrinsically disordered proteins",
+      "peripheral membrane proteins",
+      "protein-lipid interaction",
+      "single-molecule measurement",
+      "voltage-dependent anion channel",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [
+      "Membrane Proteins/metabolism",
+      "Mitochondria/metabolism",
+      "Molecular Conformation",
+      "*Nanopores",
+      "Protein Binding",
+      "alpha-Synuclein/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hoogerheide, David P",
+        "Rostovtseva, Tatiana K",
+        "Jacobs, Daniel",
+        "Gurnev, Philip A",
+        "Bezrukov, Sergey M"
+      ],
+      "short_names": [
+        "Hoogerheide DP",
+        "Rostovtseva TK",
+        "Jacobs D",
+        "Gurnev PA",
+        "Bezrukov SM"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2918-1469",
+        "ORCID: 0000-0001-9247-5027",
+        "ORCID: 0000-0002-8209-8050"
+      ],
+      "affiliations": [
+        "Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899, United States.",
+        "Section on Molecular Transport, Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, Maryland 20892, United States.",
+        "Section on Molecular Transport, Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, Maryland 20892, United States.",
+        "Section on Molecular Transport, Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, Maryland 20892, United States.",
+        "Section on Molecular Transport, Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, Maryland 20892, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hoogerheide, David P",
+        "short_name": "Hoogerheide DP",
+        "identifiers": [
+          "0000-0003-2918-1469"
+        ],
+        "affiliations": [
+          "Center for Neutron Research, National Institute of Standards and Technology, Gaithersburg, Maryland 20899, United States."
+        ]
+      },
+      {
+        "full_name": "Rostovtseva, Tatiana K",
+        "short_name": "Rostovtseva TK",
+        "identifiers": [],
+        "affiliations": [
+          "Section on Molecular Transport, Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, Maryland 20892, United States."
+        ]
+      },
+      {
+        "full_name": "Jacobs, Daniel",
+        "short_name": "Jacobs D",
+        "identifiers": [],
+        "affiliations": [
+          "Section on Molecular Transport, Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, Maryland 20892, United States."
+        ]
+      },
+      {
+        "full_name": "Gurnev, Philip A",
+        "short_name": "Gurnev PA",
+        "identifiers": [
+          "0000-0001-9247-5027"
+        ],
+        "affiliations": [
+          "Section on Molecular Transport, Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, Maryland 20892, United States."
+        ]
+      },
+      {
+        "full_name": "Bezrukov, Sergey M",
+        "short_name": "Bezrukov SM",
+        "identifiers": [
+          "0000-0002-8209-8050"
+        ],
+        "affiliations": [
+          "Section on Molecular Transport, Eunice Kennedy Shriver National Institute of Child Health and Human Development, National Institutes of Health, Bethesda, Maryland 20892, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS nano"
+    ],
+    "journal_abbrev": [
+      "ACS Nano"
+    ],
+    "pub_date": "2021 Jan 26",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Intramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2020/12/29 06:00",
+    "fetched_at": "2026-09-20 00:28:29"
+  },
+  "links": {
+    "cites": [
+      "41846524",
+      "37490313",
+      "36104348",
+      "35718804",
+      "34773956",
+      "34298976",
+      "34037064",
+      "33971161"
+    ],
+    "refs": [
+      "39081564",
+      "32400834",
+      "31676211",
+      "30872688",
+      "30679525",
+      "30190617",
+      "29853639",
+      "29777059",
+      "29338842",
+      "28858358",
+      "28538092",
+      "28343391",
+      "28213435",
+      "28063492",
+      "27905618",
+      "26055708",
+      "24007978",
+      "23376966",
+      "23005466",
+      "22763701",
+      "22435461",
+      "22352310",
+      "22327461",
+      "21819966",
+      "21336266",
+      "20041693",
+      "19678920",
+      "19033201",
+      "18988731",
+      "17921997",
+      "17028145",
+      "11286556",
+      "10915790",
+      "10503244",
+      "9545270",
+      "2447968",
+      "1567895"
+    ],
+    "similar": [
+      "33369404",
+      "33971161",
+      "31760463",
+      "35718804",
+      "33578201",
+      "30872688",
+      "26055708",
+      "32400834",
+      "34298976",
+      "34064816",
+      "27905618",
+      "31740740",
+      "34813679",
+      "32304757",
+      "29633780",
+      "27030050",
+      "30871620",
+      "25081642",
+      "29777059",
+      "37947369",
+      "39829920",
+      "22771474",
+      "40267181",
+      "23583776",
+      "19293380",
+      "30093536",
+      "36830656",
+      "33862084",
+      "25209675",
+      "39208301",
+      "25446002",
+      "32647130",
+      "31931835",
+      "30826264",
+      "39584804",
+      "23899046",
+      "29305919",
+      "35327661",
+      "28698628",
+      "31181290",
+      "33577583",
+      "34439733",
+      "33318779",
+      "32356963",
+      "27570136",
+      "23419876",
+      "34617653",
+      "28980756",
+      "38928232",
+      "30753527",
+      "28462393",
+      "39188788",
+      "22155643",
+      "32790707",
+      "29853639",
+      "38951707",
+      "34454615",
+      "35918045",
+      "31048377",
+      "23565679",
+      "33587036",
+      "30877431",
+      "30339869",
+      "29273335",
+      "32513706",
+      "29428500",
+      "27273030",
+      "23327569",
+      "19934398",
+      "40341765",
+      "8420959",
+      "25757154",
+      "25665896",
+      "24325796",
+      "38702883",
+      "39062470",
+      "20704592",
+      "30605305",
+      "36939875",
+      "34233191",
+      "40001501",
+      "28239748",
+      "30771178",
+      "29747823",
+      "33114222",
+      "31917569",
+      "37272890",
+      "30625272",
+      "34788284",
+      "17729279",
+      "29092095",
+      "34685771",
+      "34015255",
+      "29382893",
+      "35742998",
+      "25985082",
+      "26306046",
+      "22009045",
+      "34769043",
+      "31356747"
+    ],
+    "review": [
+      "33369404",
+      "34298976",
+      "34064816",
+      "29305919",
+      "23419876",
+      "38928232",
+      "39188788",
+      "29428500",
+      "40001501",
+      "29747823"
+    ],
+    "pmc": [
+      "9019845"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33369404/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33369404",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/ancac3/article-lookup/doi/10.1021/acsnano.0c07672",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

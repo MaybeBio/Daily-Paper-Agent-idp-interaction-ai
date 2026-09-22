@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "34757373",
+    "doi": "10.1039/d1bm01364e",
+    "title": "Designing amphiphilic Janus nanoparticles with tunable lipid raft affinity via molecular dynamics simulation."
+  },
+  "content": {
+    "abstract": "Due to the differential interactions among lipids and proteins, the plasma membrane can segregate into a series of functional nanoscale membrane domains (\"lipid rafts\"), which are essential in multiple biological processes such as signaling transduction, protein trafficking and endocytosis. On the other hand, Janus nanoparticles (NPs) have shown great promise in various biomedical applications due to their asymmetric characteristics and can integrate different surface properties and thus synergetic functions. Hence, in this work, we aim to design an amphiphilic Janus NP to target and regulate lipid rafts via tuning its surface ligand amphiphilicity using coarse-grained molecular dynamics (MD) simulations. Our mus-scale free coarse-grained MD simulations as well as umbrella sampling free energy calculations indicated that the hydrophobicity of the hydrophobic surface ligands not only determined the lateral membrane partitioning thermodynamics of Janus NPs in phase-separated lipid membranes, but also the difficulty in their insertion into different membrane domains of the lipid membrane. These two factors jointly regulated the lipid raft affinity of Janus NPs. Meanwhile, the hydrophilicity of the hydrophilic surface ligands could affect the insertion ability of Janus NPs. Besides, the ultra-small size could ensure the membrane-bound behavior of Janus NPs without disrupting the overall structure and phase separation kinetics of the lipid membrane. These results may provide valuable insights into the design of functional NPs targeting and controllably regulating lipid rafts.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cell Membrane",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Lipid Bilayers",
+      "Membrane Microdomains",
+      "Molecular Dynamics Simulation",
+      "*Multifunctional Nanoparticles",
+      "*Nanoparticles"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Xiaoqian",
+        "Lin, Xubo"
+      ],
+      "short_names": [
+        "Lin X",
+        "Lin X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4633-1281",
+        "ORCID: 0000-0002-4417-3582"
+      ],
+      "affiliations": [
+        "Institute of Single Cell Engineering, Key Laboratory of Ministry of Education for Biomechanics and Mechanobiology, Beijing Advanced Innovation Center for Biomedical Engineering, School of Biological Science and Medical Engineering, Beihang University, Beijing 100191, China. linxbseu@buaa.edu.cn.",
+        "Shen Yuan Honors College, Beihang University, Beijing 100191, China.",
+        "Institute of Single Cell Engineering, Key Laboratory of Ministry of Education for Biomechanics and Mechanobiology, Beijing Advanced Innovation Center for Biomedical Engineering, School of Biological Science and Medical Engineering, Beihang University, Beijing 100191, China. linxbseu@buaa.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Xiaoqian",
+        "short_name": "Lin X",
+        "identifiers": [
+          "0000-0002-4633-1281"
+        ],
+        "affiliations": [
+          "Institute of Single Cell Engineering, Key Laboratory of Ministry of Education for Biomechanics and Mechanobiology, Beijing Advanced Innovation Center for Biomedical Engineering, School of Biological Science and Medical Engineering, Beihang University, Beijing 100191, China. linxbseu@buaa.edu.cn.",
+          "Shen Yuan Honors College, Beihang University, Beijing 100191, China."
+        ]
+      },
+      {
+        "full_name": "Lin, Xubo",
+        "short_name": "Lin X",
+        "identifiers": [
+          "0000-0002-4417-3582"
+        ],
+        "affiliations": [
+          "Institute of Single Cell Engineering, Key Laboratory of Ministry of Education for Biomechanics and Mechanobiology, Beijing Advanced Innovation Center for Biomedical Engineering, School of Biological Science and Medical Engineering, Beihang University, Beijing 100191, China. linxbseu@buaa.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomaterials science"
+    ],
+    "journal_abbrev": [
+      "Biomater Sci"
+    ],
+    "pub_date": "2021 Dec 7",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/11 06:00",
+    "fetched_at": "2026-09-20 06:24:52"
+  },
+  "links": {
+    "cites": [
+      "42147365",
+      "41573751",
+      "36465108"
+    ],
+    "refs": [],
+    "similar": [
+      "34757373",
+      "34032262",
+      "32022059",
+      "32392064",
+      "32432336",
+      "37753922",
+      "30398246",
+      "38646798",
+      "36465108",
+      "25757187",
+      "28918189",
+      "30625163",
+      "28780125",
+      "29340405",
+      "33006360",
+      "23592976",
+      "29694870",
+      "31250627",
+      "38354368",
+      "21137995",
+      "28797162",
+      "35702934",
+      "31148024",
+      "34232016",
+      "26194872",
+      "31499808",
+      "30638009",
+      "30941901",
+      "25474252",
+      "24892900",
+      "29445792",
+      "29617553",
+      "29808987",
+      "37470374",
+      "22609866",
+      "32179374",
+      "23223270",
+      "31812867",
+      "29730243",
+      "37742069",
+      "17319738",
+      "22325271",
+      "37431896",
+      "22949806",
+      "30672546",
+      "30177443",
+      "38720633",
+      "14661971",
+      "37194398",
+      "19032046",
+      "24464138",
+      "25444976",
+      "30938720",
+      "30768108",
+      "25042518",
+      "32368578",
+      "27740657",
+      "26974016",
+      "25149801",
+      "23165312",
+      "25299598",
+      "27574865",
+      "25675048",
+      "21631111",
+      "31012268",
+      "30908057",
+      "32770501",
+      "22239803",
+      "25331143",
+      "22450237",
+      "25347475",
+      "31770996",
+      "28650048",
+      "20365400",
+      "34008687",
+      "33885120",
+      "35524412",
+      "23487780",
+      "35513897",
+      "32259453",
+      "27119640",
+      "22369354",
+      "28266786",
+      "18848917",
+      "26241883",
+      "34302793",
+      "25819781",
+      "24730247",
+      "21424456",
+      "18414995",
+      "20146444",
+      "38652033",
+      "32890945",
+      "26013284",
+      "25549137",
+      "22975010",
+      "30335394",
+      "25310179",
+      "27435187",
+      "22116542",
+      "38195886",
+      "29897087",
+      "24695573",
+      "16354701",
+      "33725068",
+      "27241464",
+      "32145948",
+      "36144641",
+      "34491056",
+      "35625567",
+      "28168669",
+      "34115507",
+      "35732528",
+      "35809145",
+      "36778479",
+      "36364637",
+      "37812767",
+      "29690495",
+      "35603431",
+      "33561356",
+      "37183654",
+      "39290054",
+      "38809819",
+      "34389679",
+      "34077229",
+      "37011179",
+      "29465986",
+      "36000475",
+      "35955941",
+      "36573314",
+      "30979183",
+      "35302738",
+      "30814004",
+      "35877876",
+      "33733783",
+      "39020963",
+      "39382132",
+      "23180691",
+      "36166427",
+      "35480645",
+      "36411252",
+      "35229843",
+      "34918910",
+      "35103740",
+      "31231633",
+      "37755137",
+      "36377485",
+      "37248200",
+      "36132950",
+      "31165058",
+      "36752505",
+      "34920773",
+      "34942735",
+      "37844420",
+      "38516954",
+      "36797885",
+      "36134536",
+      "33325629",
+      "36880601",
+      "35166272",
+      "35651214",
+      "37437847",
+      "35519336",
+      "34597710",
+      "39362471"
+    ],
+    "review": [
+      "34757373",
+      "26194872",
+      "25444976",
+      "32770501",
+      "18848917",
+      "26241883",
+      "18414995",
+      "22975010",
+      "28168669",
+      "35809145",
+      "38809819",
+      "36000475",
+      "30979183",
+      "30814004",
+      "35877876",
+      "36377485",
+      "31165058"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d1bm01364e",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-570",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

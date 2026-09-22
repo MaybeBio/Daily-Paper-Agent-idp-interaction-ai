@@ -1,0 +1,228 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.07.552219",
+  "title": "Systematic discovery of protein interaction interfaces using AlphaFold and experimental validation",
+  "doi": "10.1101/2023.08.07.552219",
+  "abstract": "Structural resolution of protein interactions enables mechanistic and functional studies as well as interpretation of disease variants. However, structural data is still missing for most protein interactions because we lack computational and experimental tools at scale. We thoroughly assessed AlphaFold-Multimer accuracy for structure prediction of interactions involving folded domains binding to short linear motifs from the ELM database. The structure predictions were highly sensitive but not very specific when using small protein fragments. Sensitivity decreased substantially when using long protein fragments or full length proteins with intrinsically disordered regions. We delineated a fragmentation strategy to optimize sensitivity and applied it to interactions between proteins associated with neurodevelopmental disorders. This enabled prediction of highly confident and likely disease-related novel interfaces, but also resulted in many high scoring false positive predictions. Experiments supported predicted interfaces between CREBZF-HCFC1, FBXO23-STX1B, STX1B-VAMP2, ESRRG-PSMC5, PEX3-PEX19, PEX3-PEX16, and SNRPB-GIGYF1 providing novel molecular insights for diverse biological processes. Our work highlights exciting perspectives, but also reveals clear limitations and the need for future developments to maximize the power of Alphafold-Multimer for interface predictions.",
+  "authors": [
+    "Lee CY",
+    "Hubrich D",
+    "Varga JK",
+    "Schäfer C",
+    "Welzel M",
+    "Schumbera E",
+    "Đokić M",
+    "Strom JM",
+    "Schönfeld J",
+    "Geist JL",
+    "Polat F",
+    "Gibson TJ",
+    "Keller Valsecchi CI",
+    "Kumar M",
+    "Schueler-Furman O",
+    "Luck K"
+  ],
+  "published_date": "2023-08-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.07.552219",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.07.552219.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR706902",
+    "raw_record": {
+      "id": "PPR706902",
+      "source": "PPR",
+      "doi": "10.1101/2023.08.07.552219",
+      "title": "Systematic discovery of protein interaction interfaces using AlphaFold and experimental validation",
+      "authorString": "Lee CY, Hubrich D, Varga JK, Schäfer C, Welzel M, Schumbera E, Đokić M, Strom JM, Schönfeld J, Geist JL, Polat F, Gibson TJ, Keller Valsecchi CI, Kumar M, Schueler-Furman O, Luck K.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Lee CY",
+            "lastName": "Lee",
+            "firstName": "Chop Yan",
+            "initials": "CY",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8907-6831"
+            }
+          },
+          {
+            "fullName": "Hubrich D",
+            "lastName": "Hubrich",
+            "firstName": "Dalmira",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0552-2890"
+            }
+          },
+          {
+            "fullName": "Varga JK",
+            "lastName": "Varga",
+            "firstName": "Julia",
+            "initials": "JK"
+          },
+          {
+            "fullName": "Schäfer C",
+            "lastName": "Schäfer",
+            "firstName": "Christian",
+            "initials": "C"
+          },
+          {
+            "fullName": "Welzel M",
+            "lastName": "Welzel",
+            "firstName": "Mareen",
+            "initials": "M"
+          },
+          {
+            "fullName": "Schumbera E",
+            "lastName": "Schumbera",
+            "firstName": "Eric",
+            "initials": "E"
+          },
+          {
+            "fullName": "Đokić M",
+            "lastName": "Đokić",
+            "firstName": "Milena",
+            "initials": "M"
+          },
+          {
+            "fullName": "Strom JM",
+            "lastName": "Strom",
+            "firstName": "Joelle",
+            "initials": "JM"
+          },
+          {
+            "fullName": "Schönfeld J",
+            "lastName": "Schönfeld",
+            "firstName": "Jonas",
+            "initials": "J"
+          },
+          {
+            "fullName": "Geist JL",
+            "lastName": "Geist",
+            "firstName": "Johanna",
+            "initials": "JL"
+          },
+          {
+            "fullName": "Polat F",
+            "lastName": "Polat",
+            "firstName": "Feyza",
+            "initials": "F"
+          },
+          {
+            "fullName": "Gibson TJ",
+            "lastName": "Gibson",
+            "firstName": "Toby",
+            "initials": "TJ"
+          },
+          {
+            "fullName": "Keller Valsecchi CI",
+            "lastName": "Keller Valsecchi",
+            "firstName": "Claudia Isabelle",
+            "initials": "CI"
+          },
+          {
+            "fullName": "Kumar M",
+            "lastName": "Kumar",
+            "firstName": "Manjeet",
+            "initials": "M"
+          },
+          {
+            "fullName": "Schueler-Furman O",
+            "lastName": "Schueler-Furman",
+            "firstName": "Ora",
+            "initials": "O"
+          },
+          {
+            "fullName": "Luck K",
+            "lastName": "Luck",
+            "firstName": "Katja",
+            "initials": "K"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0552-2890"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8907-6831"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Structural resolution of protein interactions enables mechanistic and functional studies as well as interpretation of disease variants. However, structural data is still missing for most protein interactions because we lack computational and experimental tools at scale. We thoroughly assessed AlphaFold-Multimer accuracy for structure prediction of interactions involving folded domains binding to short linear motifs from the ELM database. The structure predictions were highly sensitive but not very specific when using small protein fragments. Sensitivity decreased substantially when using long protein fragments or full length proteins with intrinsically disordered regions. We delineated a fragmentation strategy to optimize sensitivity and applied it to interactions between proteins associated with neurodevelopmental disorders. This enabled prediction of highly confident and likely disease-related novel interfaces, but also resulted in many high scoring false positive predictions. Experiments supported predicted interfaces between CREBZF-HCFC1, FBXO23-STX1B, STX1B-VAMP2, ESRRG-PSMC5, PEX3-PEX19, PEX3-PEX16, and SNRPB-GIGYF1 providing novel molecular insights for diverse biological processes. Our work highlights exciting perspectives, but also reveals clear limitations and the need for future developments to maximize the power of Alphafold-Multimer for interface predictions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/09/2023.08.07.552219.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.07.552219"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38225382",
+            "reference": "Molecular systems biology. 2024 Feb;20(2):75-97",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-08-29",
+      "firstPublicationDate": "2023-08-09",
+      "firstIndexDate": "2023-08-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full-text methods, figures, or supplementary data
+- **Shared manuscript claim summary** The authors propose that flexibility of the rotavirus NSP2 C-terminal region (CTR, residues 291 to 317) supports viroplasm formation via liquid-liquid phase separation (LLPS). They report that a K294E mutation reduces CTR flexibility in silico, and that a recombinant rotavirus bearing this mutation (rRV-NSP2K294E) shows reduced titers, altered viroplasm morphology and fusion kinetics, reduced viroplasm-like structure formation in coexpressing cells, and defective LLPS droplet formation in vitro.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full methods, all figure panels, statistical analyses, raw data, simulation parameters, experimental replicates, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and mechanistically motivated hypothesis linking NSP2 CTR flexibility to viroplasm formation via LLPS. The combination of in silico, in cellulo, and in vitro approaches is commendable and appropriate for the question. However, the abstract alone does not provide sufficient quantitative detail to fully evaluate the strength of the evidence. The central claim that reduced flexibility directly causes the observed phenotypic changes is plausible but not fully established from the provided material, particularly given the absence of data on whether K294E affects other NSP2 functions such as RNA binding, octamer stability, or interactions with NSP5 beyond the reported assays.
+- **Who would be interested in the results, and why** Virologists studying rotavirus replication and viroplasm biogenesis; cell biologists interested in liquid-liquid phase separation as a mechanism for viral factory formation; structural biologists studying protein dynamics and domain-swapping interactions; researchers investigating antiviral strategies targeting viral replication compartments.
+- **Major strengths** The study integrates multiple complementary approaches (molecular dynamics, recombinant virus, live-cell imaging, coexpression assays, in vitro LLPS) to address a specific mechanistic question. The use of a recombinant virus bearing a targeted mutation provides direct biological relevance. The findings connect a structural feature (CTR flexibility) to a biophysical process (LLPS) and a phenotypic outcome (factory morphology and fusion), which is a conceptually important advance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The authors claim that reduced NSP2 CTR flexibility causes the observed defects in viroplasm formation, fusion, and LLPS.
+  - **Evidence pointer** Abstract; specific figures not provided
+  - **Concern** The abstract does not demonstrate that the K294E mutation selectively affects CTR flexibility without altering other NSP2 properties. No data are presented on whether K294E affects NSP2 octamer stability, RNA binding, NSP5 binding affinity, or subcellular localization independent of flexibility. Without such controls, the observed phenotypes could arise from pleiotropic effects of the mutation rather than specifically from reduced flexibility.
+  - **Why it matters** The central mechanistic claim of the paper is that flexibility per se is the critical feature. If K294E also disrupts other functions, the conclusion would be overstated and the mechanistic link weakened.
+  - **Resolution test** Provide data showing that K294E does not significantly alter NSP2 octamer formation, RNA binding, or NSP5 interaction affinity, and that other CTR mutations with similar flexibility reductions but different sequences produce comparable phenotypes.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** The authors report a >1.2-log reduction in endpoint titers and smaller, more numerous viroplasms with delayed fusion kinetics for rRV-NSP2K294E.
+  - **Evidence pointer** Abstract; specific figures and statistical details not provided
+  - **Concern** The abstract lacks quantitative details such as exact titer reductions, viroplasm size and number distributions, fusion kinetics parameters, and statistical significance values. Without these, the magnitude and reproducibility of the reported effects cannot be assessed.
+  - **Why it matters** The strength of the phenotypic claims depends on the effect sizes and their statistical robustness. The abstract as presented does not allow the reader to judge whether the differences are biologically meaningful and consistent across replicates.
+  - **Resolution test** Include exact values, confidence intervals, and statistical tests for all quantitative comparisons in the full manuscript, and summarize key numbers in the abstract.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic link between in vitro and in vivo observations
+  - **Claim pointer** The authors state that NSP2K294E exhibited defects in LLPS droplet formation in vitro when incubated with NSP5.
+  - **Evidence pointer** Abstract; in vitro LLPS assay details not provided
+  - **Concern** The abstract does not specify the conditions under which LLPS was assessed, such as protein concentrations, buffer composition, temperature, or whether the droplets were reversible and sensitive to dilution or salt. It is also unclear whether the in vitro defect quantitatively correlates with the in vivo viroplasm phenotypes.
+  - **Why it matters** LLPS assays are highly condition-dependent, and the physiological relevance of the in vitro system needs to be established. Without these details, the connection between reduced droplet formation and altered viroplasm morphology remains suggestive rather than definitive.
+  - **Resolution test** Provide full experimental conditions for the LLPS assay, demonstrate that droplet formation is concentration-dependent and reversible, and show a quantitative correlation between in vitro droplet formation efficiency and in vivo viroplasm size or number.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence of results
+  - **Issue** The phrase "reduces NSP2 CTR flexibility in silico" is based on molecular dynamics simulations, but the abstract does not specify the simulation time scale, force field, or whether the flexibility change was statistically significant across multiple trajectories.
+  - **Required correction** Add a brief statement on simulation parameters and significance, or refer to a methods section where these are detailed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mutant panel
+  - **Evidence pointer** Abstract, coexpression experiments
+  - **Issue** The abstract mentions "several other CTR mutants" but does not list them or describe their predicted flexibility changes. This limits the interpretability of the coexpression results.
+  - **Required correction** List the specific mutants tested and their predicted or measured flexibility properties in the abstract or refer to a table in the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Factory formation" vs. "viroplasm formation"
+  - **Evidence pointer** Abstract, title and text
+  - **Issue** The title uses "factory formation" while the abstract primarily uses "viroplasm formation." This is not incorrect, but consistency would improve clarity for nonspecialist readers.
+  - **Required correction** Use consistent terminology throughout, or define "factory" as equivalent to "viroplasm" at first use.
+
+## Risk / unsupported claims
+- The claim that reduced CTR flexibility directly causes the observed phenotypes is not fully supported without evidence ruling out pleiotropic effects of K294E.
+- The quantitative magnitude of the titer reduction and viroplasm morphology changes is not assessable from the abstract.
+- The in vitro LLPS defect is reported without experimental conditions, making the result difficult to evaluate.
+- The relevance of the in silico flexibility prediction to the in vivo behavior is inferred but not directly validated (e.g., no experimental measurement of flexibility in the mutant protein).
+- The statement that "these results underscore the importance of NSP2 CTR flexibility" is a reasonable interpretation but goes beyond the direct evidence presented in the abstract, as causality is not fully established.

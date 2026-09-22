@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.06.27.497749",
+  "title": "The RNA demethylase FTO controls m 6 A marking on SARS-CoV-2 and classifies COVID-19 severity in patients",
+  "authors": "Malbec L; Celerier M; Bizet M; Calonne E; Hofmann-Winkler H; Boeckx B; Abdelnabi R; Putmans P; Hassabi B; Naesens L; Lambrechts D; Pöhlmann S; Deplus R; Delang L; Jeschke J; Fuks F",
+  "journal": "bioRxiv",
+  "published_date": "2022-06-28",
+  "window": {
+    "start": "2022-06-27",
+    "end": "2022-07-03"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究RNA去甲基化酶FTO对SARS-CoV-2 m6A修饰及COVID-19严重程度的影响，属病毒RNA修饰与临床分类，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "The RNA modification N 6 -methyladenosine (m 6 A) plays a key role in the life cycles of several RNA viruses. Whether this applies to SARS-CoV-2 and whether m 6 A affects the outcome of COVID-19 disease is still poorly explored. Here we report that the RNA demethylase FTO strongly affects both m 6 A marking of SARS-CoV-2 and COVID-19 severity. By m 6 A profiling of SARS-CoV-2, we confirmed in infected cultured cells and showed for the first time in vivo in hamsters that the regions encoding TRS_L and the nucleocapsid protein are multiply marked by m 6 A, preferentially within RRACH motifs that are specific to β-coronaviruses and well conserved across SARS-CoV-2 variants. In cells, downregulation of the m 6 A demethylase FTO, occurring upon SARS-CoV-2 infection, increased m 6 A marking of SARS-CoV-2 RNA and slightly promoted viral replication. In COVID-19 patients, a negative correlation was found between FTO expression and both SARS-CoV-2 expression and disease severity. FTO emerged as a classifier of disease severity and hence a potential stratifier of COVID-19 patients.",
+  "abstract_zh": "RNA修饰N6-甲基腺苷（m6A）在多种RNA病毒的生命周期中发挥关键作用。这一机制是否适用于SARS-CoV-2，以及m6A是否影响COVID-19疾病的结局，目前仍鲜有探索。在此，我们报道RNA去甲基化酶FTO强烈影响SARS-CoV-2的m6A标记及COVID-19的严重程度。通过对SARS-CoV-2的m6A谱分析，我们在感染的培养细胞中确认，并首次在仓鼠体内展示，编码TRS_L和核衣壳蛋白的区域被m6A多重标记，且优先位于β-冠状病毒特异且在SARS-CoV-2各变异株中高度保守的RRACH基序内。在细胞中，SARS-CoV-2感染后发生的m6A去甲基化酶FTO下调，增加了SARS-CoV-2 RNA的m6A标记，并轻微促进了病毒复制。在COVID-19患者中，FTO表达与SARS-CoV-2表达及疾病严重程度呈负相关。FTO可作为疾病严重程度的分类因子，因此可能成为COVID-19患者分层指标。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.06.27.497749",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.06.27.497749",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.06.27.497749/index.html"
+}

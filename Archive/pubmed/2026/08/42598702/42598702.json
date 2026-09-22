@@ -1,0 +1,316 @@
+{
+  "identity": {
+    "pmid": "42598702",
+    "doi": "10.3389/fgene.2026.1813104",
+    "title": "Integrated genetic identification and molecular dynamics simulations in a novel LOXL3 genetic mutation associated with Stickler syndrome."
+  },
+  "content": {
+    "abstract": "OBJECTIVE: Stickler syndrome (SS) is a genetically and clinically heterogeneous connective tissue disorder. This study aimed to investigate the genetic etiology in a Chinese patient associated with SS and characterize the novel pathogenic variant. METHODS: Whole-exome sequencing (WES) was performed on the proband, and Sanger sequencing was conducted on both the proband and all available family members for variant validation. Variants were filtered by multiple in silico tools and co-segregation analysis based on American College of Medical Genetics and Genomics (ACMG) Guidelines. Structural consequences were evaluated via molecular dynamics (MD) simulations. A systematic review was conducted to summarize the genotypic and phenotypic features of previously reported LOXL3-related SS and early-onset high myopia (eoHM) cases, including four published case reports of independent SS pedigrees and two studies on eoHM. RESULTS: A novel compound heterozygous LOXL3 mutation (NM_032603.5:c.1348T>A(p.Trp450Arg); NM_032603.5:c.824dup(p.Ala277Cysfs*57)) was identified in a 5-year-old female child diagnosed with SS, who exhibited eoHM, vitreous syneresis, cleft palate, foveal hypoplasia (FVH), and mild craniofacial dysmorphism. In silico analysis using Variant Effect Predictor (VEP) predicted both variants as deleterious. Molecular dynamics (MD) simulations revealed that the novel NM_032603.5:c.1348T>A(p.Trp450Arg) mutation significantly destabilizes LOXL3 protein structure. Specifically, this variant increases structural flexibility and solvent accessibility while reducing hydrogen bond formation, resulting in a disordered protein conformation. Furthermore, p.Trp450Arg perturbs the copper-binding pocket and impairs copper ion coordination. Both variants co-segregated with clinical phenotypes in the family. Collectively, these functional and genetic findings, combined with clinical evidence, support the two variants as likely pathogenic and pathogenic respectively following the ACMG guidelines. The literature review revealed that high myopia is the most frequent clinical feature of LOXL3-related disorders, followed by FVH. CONCLUSION: Compound heterozygous LOXL3 variants are associated with the SS phenotype. This study broadens the recessive mutational and phenotypic spectrum of LOXL3-related SS, supports refined disease subclassification and also aids genetic testing and clinical diagnosis of this disorder. It underscores the critical role of the Trp450 residue in maintaining protein structural stability and provides atomic-level insights into the molecular pathogenesis of this disorder.",
+    "keywords": [
+      "LOXL3",
+      "novel",
+      "stickler syndrome",
+      "structural stability",
+      "variant"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ye, Min",
+        "Li, Shuai",
+        "Li, Rui",
+        "Zhang, Wen",
+        "He, Xianglian",
+        "Ma, Lijun",
+        "Li, Qian",
+        "Zhuang, Wenjuan"
+      ],
+      "short_names": [
+        "Ye M",
+        "Li S",
+        "Li R",
+        "Zhang W",
+        "He X",
+        "Ma L",
+        "Li Q",
+        "Zhuang W"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Basic Medicine, Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "The First Affiliated Hospital of Dali University, Dali, Yunnan, China.",
+        "Ningxia Eye Hospital, People's Hospital of Ningxia Hui Autonomous Region, Third Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Ningxia Eye Hospital, People's Hospital of Ningxia Hui Autonomous Region, Third Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Ningxia Eye Hospital, People's Hospital of Ningxia Hui Autonomous Region, Third Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "College of Basic Medicine, Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Ningxia Eye Hospital, People's Hospital of Ningxia Hui Autonomous Region, Third Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, China.",
+        "Ningxia Eye Hospital, People's Hospital of Ningxia Hui Autonomous Region, Third Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ye, Min",
+        "short_name": "Ye M",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medicine, Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Li, Shuai",
+        "short_name": "Li S",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Dali University, Dali, Yunnan, China."
+        ]
+      },
+      {
+        "full_name": "Li, Rui",
+        "short_name": "Li R",
+        "identifiers": [],
+        "affiliations": [
+          "Ningxia Eye Hospital, People's Hospital of Ningxia Hui Autonomous Region, Third Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Wen",
+        "short_name": "Zhang W",
+        "identifiers": [],
+        "affiliations": [
+          "Ningxia Eye Hospital, People's Hospital of Ningxia Hui Autonomous Region, Third Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "He, Xianglian",
+        "short_name": "He X",
+        "identifiers": [],
+        "affiliations": [
+          "Ningxia Eye Hospital, People's Hospital of Ningxia Hui Autonomous Region, Third Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Lijun",
+        "short_name": "Ma L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Basic Medicine, Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Li, Qian",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Ningxia Eye Hospital, People's Hospital of Ningxia Hui Autonomous Region, Third Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      },
+      {
+        "full_name": "Zhuang, Wenjuan",
+        "short_name": "Zhuang W",
+        "identifiers": [],
+        "affiliations": [
+          "Ningxia Eye Hospital, People's Hospital of Ningxia Hui Autonomous Region, Third Clinical Medical College of Ningxia Medical University, Yinchuan, Ningxia, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in genetics"
+    ],
+    "journal_abbrev": [
+      "Front Genet"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/14 12:16",
+    "fetched_at": "2026-09-18 05:36:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40923693",
+      "40736844",
+      "38957076",
+      "36964802",
+      "36917121",
+      "36610533",
+      "35885918",
+      "35741851",
+      "35628534",
+      "34611315",
+      "34150778",
+      "33456446",
+      "33129801",
+      "32867104",
+      "31340433",
+      "30362103",
+      "29581294",
+      "28283280",
+      "26957899",
+      "26574453",
+      "25741868",
+      "25663169",
+      "25634530",
+      "23942204",
+      "17675240",
+      "16152640",
+      "12429253",
+      "6148038"
+    ],
+    "similar": [
+      "42598702",
+      "41052910",
+      "37749571",
+      "38957076",
+      "36917121",
+      "41645375",
+      "38790056",
+      "41451494",
+      "41811047",
+      "40763965",
+      "42211199",
+      "35873758",
+      "41549261",
+      "39076172",
+      "42087735",
+      "42342639",
+      "41639873",
+      "32196734",
+      "42261587",
+      "42342638",
+      "40350394",
+      "40826089",
+      "40763970",
+      "41451501",
+      "41010026",
+      "41451491",
+      "38028590",
+      "37085840",
+      "40251640",
+      "41783587",
+      "40372224",
+      "42144731",
+      "42483726",
+      "41673963",
+      "42298173",
+      "41070650",
+      "40763966",
+      "41050055",
+      "41430707",
+      "41764152",
+      "39528284",
+      "26957899",
+      "40919431",
+      "41451495",
+      "39779335",
+      "42553504",
+      "40372220",
+      "42510869",
+      "41317100",
+      "37211999",
+      "37596645",
+      "41613956",
+      "42091199",
+      "42353774",
+      "41969674",
+      "42432871",
+      "38179410",
+      "42074509",
+      "42494305",
+      "37882226",
+      "41645377",
+      "42487276",
+      "41621844",
+      "39528282",
+      "35711095",
+      "40175531",
+      "38030997",
+      "30362103",
+      "38915017",
+      "40836236",
+      "41552733",
+      "37736303",
+      "37532496",
+      "39607615",
+      "40887625",
+      "42351326",
+      "38444283",
+      "40350401",
+      "41631463",
+      "39988772",
+      "36738896",
+      "41645371",
+      "38134649",
+      "41041882",
+      "41230588",
+      "42087738",
+      "40372223",
+      "42377900",
+      "40372227",
+      "41444645",
+      "42113100",
+      "32281771",
+      "39076169",
+      "42326764",
+      "42386665",
+      "41311698",
+      "42186038",
+      "38655056",
+      "30642272",
+      "42272804"
+    ],
+    "review": [
+      "42598702",
+      "41645375",
+      "41451494",
+      "40763965",
+      "41549261",
+      "40350394",
+      "40763970",
+      "41010026",
+      "41451491",
+      "41070650",
+      "42432871",
+      "41645377",
+      "41621844",
+      "39528282",
+      "40887625",
+      "38134649",
+      "41230588",
+      "40372223",
+      "40372227"
+    ],
+    "pmc": [
+      "13472571"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42598702/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fgene.2026.1813104",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

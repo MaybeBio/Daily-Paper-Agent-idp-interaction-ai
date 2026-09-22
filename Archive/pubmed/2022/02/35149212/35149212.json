@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "35149212",
+    "doi": "10.1016/j.jsb.2022.107840",
+    "title": "TAPASS: Tool for annotation of protein amyloidogenicity in the context of other structural states."
+  },
+  "content": {
+    "abstract": "Numerous studies have demonstrated that the propensity of a protein to form amyloids or amorphous aggregates is encoded by its amino acid sequence. This led to the emergence of several computational programs to predict amyloidogenicity from amino acid sequences. However, a growing number of studies indicate that an accurate prediction of the protein aggregation can only be achieved when also accounting for the overall structural context of the protein, and the likelihood of transition between the initial state and the aggregate. Here, we describe a computational pipeline called TAPASS, which was designed to do just that. The pipeline assigns each residue of a protein as belonging to a structured region or an intrinsically disordered region (IDR). For this purpose, TAPASS uses either several state-of-the-art programs for prediction of IDRs, of transmembrane regions and of structured domains or the artificial intelligence program AlphaFold. In the next step, this assignment is crossed with amyloidogenicity prediction. As a result, TAPASS allows the detection of Exposed Amyloidogenic Regions (EARs) located within intrinsically disordered regions (IDRs) and carrying high amyloidogenic potential. TAPASS can substantially improve the prediction of amyloids and be used in proteome-wide analysis to discover new amyloid-forming proteins. Its results, combined with clinical data, can create individual risk profiles for different amyloidoses, opening up new opportunities for personalised medicine. The architecture of the pipeline is designed so that it makes it easy to add new individual predictors as they become available. TAPASS can be used through the web interface (https://bioinfo.crbm.cnrs.fr/index.php?route=tools&tool=32).",
+    "keywords": [
+      "Aggregation",
+      "AlphaFold",
+      "Amyloid",
+      "Bioinformatics",
+      "Intrinsically Disordered Regions",
+      "Proteome-wide analysis"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Amyloid/*chemistry/genetics",
+      "Artificial Intelligence",
+      "Computational Biology/methods",
+      "*Intrinsically Disordered Proteins/chemistry/genetics",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Falgarone, Theo",
+        "Villain, Etienne",
+        "Guettaf, Abdelkader",
+        "Leclercq, Jeremy",
+        "Kajava, Andrey V"
+      ],
+      "short_names": [
+        "Falgarone T",
+        "Villain E",
+        "Guettaf A",
+        "Leclercq J",
+        "Kajava AV"
+      ],
+      "auids": [],
+      "affiliations": [
+        "CRBM, Universite de Montpellier, CNRS, Montpellier, France.",
+        "CRBM, Universite de Montpellier, CNRS, Montpellier, France.",
+        "CRBM, Universite de Montpellier, CNRS, Montpellier, France.",
+        "CRBM, Universite de Montpellier, CNRS, Montpellier, France.",
+        "CRBM, Universite de Montpellier, CNRS, Montpellier, France; Institute of Bioengineering, ITMO University, St. Petersburg, Russia. Electronic address: andrey.kajava@crbm.cnrs.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Falgarone, Théo",
+        "short_name": "Falgarone T",
+        "identifiers": [],
+        "affiliations": [
+          "CRBM, Université de Montpellier, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Villain, Étienne",
+        "short_name": "Villain É",
+        "identifiers": [],
+        "affiliations": [
+          "CRBM, Université de Montpellier, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Guettaf, Abdelkader",
+        "short_name": "Guettaf A",
+        "identifiers": [],
+        "affiliations": [
+          "CRBM, Université de Montpellier, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Leclercq, Jérémy",
+        "short_name": "Leclercq J",
+        "identifiers": [],
+        "affiliations": [
+          "CRBM, Université de Montpellier, CNRS, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Kajava, Andrey V",
+        "short_name": "Kajava AV",
+        "identifiers": [],
+        "affiliations": [
+          "CRBM, Université de Montpellier, CNRS, Montpellier, France; Institute of Bioengineering, ITMO University, St. Petersburg, Russia. Electronic address: andrey.kajava@crbm.cnrs.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of structural biology"
+    ],
+    "journal_abbrev": [
+      "J Struct Biol"
+    ],
+    "pub_date": "2022 Mar",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/13 06:00",
+    "fetched_at": "2026-09-20 08:12:06"
+  },
+  "links": {
+    "cites": [
+      "40988544",
+      "40813923",
+      "39776173",
+      "39409138",
+      "38380794",
+      "36358962",
+      "35921495"
+    ],
+    "refs": [],
+    "similar": [
+      "35149212",
+      "34418423",
+      "29042212",
+      "38185324",
+      "36959451",
+      "32696351",
+      "32535960",
+      "23262221",
+      "30443712",
+      "31756456",
+      "31207240",
+      "33248138",
+      "29066345",
+      "31797595",
+      "31521235",
+      "29763584",
+      "25391399",
+      "34358545",
+      "32702119",
+      "32503351",
+      "30657889",
+      "27115638",
+      "35898309",
+      "28387819",
+      "24594841",
+      "31889261",
+      "34905768",
+      "31521230",
+      "27787828",
+      "35417609",
+      "27179590",
+      "28934129",
+      "35469832",
+      "34864847",
+      "29444233",
+      "30717652",
+      "24564523",
+      "33866372",
+      "28176659",
+      "33903234",
+      "24848016",
+      "34048569",
+      "32553192",
+      "17196033",
+      "32722039",
+      "23912807",
+      "32696354",
+      "28365882",
+      "32382058",
+      "23466039",
+      "30866736",
+      "32824743",
+      "26513658",
+      "34680137",
+      "33087759",
+      "35034725",
+      "29228892",
+      "26198229",
+      "32007275",
+      "34527192",
+      "26090958",
+      "28369666",
+      "25496281",
+      "37761851",
+      "38459060",
+      "27662088",
+      "36334049",
+      "30216674",
+      "35405097",
+      "28685932",
+      "24027208",
+      "31195143",
+      "23723000",
+      "24305169",
+      "26790343",
+      "24587103",
+      "30324701",
+      "30819075",
+      "15849755",
+      "32173600",
+      "32696395",
+      "31034892",
+      "36358962",
+      "24573479",
+      "29791766",
+      "26402567",
+      "30252478",
+      "29360926",
+      "30058229",
+      "31870849",
+      "33036302",
+      "37740110",
+      "34487138",
+      "34347206",
+      "32731489",
+      "32696352",
+      "30099775",
+      "36005688",
+      "38039154",
+      "29021608",
+      "36726678",
+      "36306150",
+      "37574757",
+      "35655760",
+      "35610022",
+      "37200152",
+      "23275694",
+      "36909479",
+      "36644294"
+    ],
+    "review": [
+      "35149212",
+      "34418423",
+      "36959451",
+      "23262221",
+      "33248138",
+      "31521235",
+      "34358545",
+      "30657889",
+      "31521230",
+      "28176659",
+      "23466039",
+      "30216674",
+      "24027208",
+      "31195143",
+      "26402567",
+      "37740110",
+      "34347206"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1047-8477(22)00010-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:35149212",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

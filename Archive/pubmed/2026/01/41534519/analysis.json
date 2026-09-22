@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41534519",
+  "title": "Disobind: A sequence-based, partner-dependent contact map and interface residue predictor for intrinsically disordered regions.",
+  "authors": "Majila, Kartik; Ullanat, Varun; Viswanath, Shruthi",
+  "journal": "Cell systems",
+  "published_date": "2026-01-15",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 9,
+  "one_liner_zh": "该文开发了基于ProtT5语言模型的深度学习方法Disobind，针对无序蛋白区域预测其与伴侣蛋白的接触图和界面残基，在机制建模上优于AlphaFold，直接契合无序蛋白PPI的AI预测课题。",
+  "abstract": "Intrinsically disordered proteins or regions (IDPs or IDRs) adopt diverse binding modes with different partners, ranging from coupled folding and binding to fuzzy binding and fully disordered binding. Characterizing IDR interfaces is challenging both experimentally and computationally. State-of-the-art tools such as AlphaFold multimer and AlphaFold3 can be used to predict IDR binding sites, although they are less accurate at their benchmarked confidence cutoffs. Here, we developed Disobind, a deep-learning method that predicts inter-protein contact maps and interface residues for an IDR and its partner, given their sequences. It uses sequence embeddings from the ProtT5 protein language model. Disobind outperforms state-of-the-art interface predictors for IDRs. It also outperforms AlphaFold multimer and AlphaFold3 at multiple confidence cutoffs. Combining Disobind and AlphaFold-multimer predictions further improves performance. In contrast to current methods, Disobind considers the context of the binding partner and does not depend on structures and multiple sequence alignments. Its predictions can be used to localize IDRs in large assemblies and characterize IDR-mediated interactions.",
+  "abstract_zh": "固有无序蛋白或区域（IDPs或IDRs）采用多种结合模式与不同伙伴相互作用，范围从偶联折叠与结合到模糊结合及完全无序结合。表征IDR界面在实验和计算上均具挑战性。诸如AlphaFold multimer和AlphaFold3等最先进工具可用于预测IDR结合位点，尽管在其基准置信度阈值下准确性较低。在此，我们开发了Disobind，一种深度学习方法，根据IDR及其伙伴的序列预测蛋白质间接触图和界面残基。它利用来自ProtT5蛋白质语言模型的序列嵌入。Disobind在IDR界面预测方面优于最先进的预测器，并在多个置信度阈值下超越AlphaFold multimer和AlphaFold3。将Disobind与AlphaFold-multimer预测结合可进一步提升性能。与现有方法相比，Disobind考虑结合伙伴的上下文，且不依赖结构和多序列比对。其预测可用于在大组装体中定位IDR，并表征IDR介导的相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41534519/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41534519/",
+  "paper_page_path": "papers/pubmed/41534519/index.html"
+}

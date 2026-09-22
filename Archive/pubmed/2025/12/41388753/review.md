@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusions, materials and methods, and supplementary figure references
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The manuscript reports that two naturally occurring variants of the PKA regulatory subunit RIβ, differing at position 268 (Ala vs Arg), exhibit distinct biochemical and functional properties. The authors demonstrate reduced cAMP sensitivity, altered cooperativity between cAMP binding sites, increased basal holoenzyme activity, and differential dynamic behavior in molecular dynamics simulations for the R268 variant. They also show that both variants form cytoplasmic puncta consistent with liquid-liquid phase separation.
+- **Visible evidence base** Results sections describing BRET2 dissociation assays, fluorescence polarization binding and competition assays, spectrophotometric kinase activation assays, SPR binding measurements, GaMD simulations with LSP analysis, and cellular imaging experiments. Methods sections for all experimental procedures are provided.
+- **Missing materials affecting confidence** Raw data files, full statistical analysis details, supplementary figures (S1-S8) and tables (S1) referenced but not provided, movies S1 and S2, and complete figure legends. The manuscript states data availability upon reasonable request, which limits independent verification.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and previously underappreciated issue: the existence of two RIβ variants that have been conflated in the literature. The authors provide a multi-faceted characterization combining cellular, biochemical, biophysical, and computational approaches. The finding that a single amino acid substitution at position 268 alters cAMP sensitivity, cooperativity, and holoenzyme dynamics is potentially significant for understanding PKA regulation and interpreting prior studies. However, several concerns regarding the interpretation of the cellular versus in vitro data, the speculative nature of some computational conclusions, and the limited validation of the LLPS claims require attention. The manuscript is generally well-written and the experimental approaches are appropriate, but the strength of some conclusions exceeds what the current evidence supports.
+- **Who would be interested in the results, and why** Researchers studying PKA signaling, cAMP-dependent processes, and kinase regulation would find this work relevant. The distinction between RIβ variants has implications for interpreting previous studies that may have used different variants. Additionally, those interested in allosteric regulation of multidomain proteins and the role of specific structural motifs in signal transduction would benefit. The potential link to neurological disorders through PRKAR1B mutations broadens the relevance to the neuroscience community.
+- **Major strengths** The study addresses a genuine gap in the field by identifying and characterizing two RIβ variants that have not been previously distinguished. The combination of experimental approaches, from cellular assays to biophysical measurements and molecular dynamics simulations, provides a comprehensive picture. The recommendation to specify which variant is used in future studies is practical and important for the field. The identification of the N3A motif as a critical functional element extends current understanding of PKA regulatory mechanisms.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and consistency
+  - **Claim pointer** The authors state that "the decreased cAMP affinity is in line with the BRET2 measurements showing reduced cAMP-induced dissociation in HEK293 cells" (Results, RIβ R268 has a reduced cAMP sensitivity section).
+  - **Evidence pointer** Results section "RIβ R268 has a reduced cAMP sensitivity", Figure 2A-E, Table 1
+  - **Concern** The in vitro fluorescence polarization competition assay shows a 6.8-fold difference in EC50 for cAMP displacement (62 nM vs 9.1 nM for R268 and A268, respectively), which the authors interpret as reduced cAMP affinity for R268. However, the direct binding assay (Figure S2) shows comparable affinities of 4 nM for both variants. The discrepancy between direct binding and competition results is not adequately explained. Furthermore, the in vitro kinase activation assay (Figure 2F, Table 2) shows a lower Kact for R268 (12 nM) compared to A268 (17 nM), suggesting R268 holoenzymes are more sensitive to cAMP activation, which appears contradictory to the cellular BRET2 data showing reduced dissociation for R268. The authors acknowledge this inconsistency but do not provide a mechanistic explanation that reconciles these observations. This is critical because the central claim of reduced cAMP sensitivity for R268 rests on this interpretation.
+  - **Why it matters** The manuscript's primary conclusion is that the R268 variant has reduced cAMP sensitivity, leading to altered PKA regulation. If the in vitro activation data suggest the opposite, the interpretation of the cellular data becomes ambiguous. Without a clear mechanistic framework that explains why reduced cAMP binding affinity would result in lower Kact in the kinase assay, the central thesis is weakened. The authors need to either provide additional experiments that resolve this discrepancy or substantially revise their interpretation.
+  - **Resolution test** Provide a detailed mechanistic model that explains how reduced cAMP affinity in R268 leads to lower Kact in vitro but reduced dissociation in cells. Alternatively, perform additional experiments such as measuring cAMP binding to individual CNB domains, or using a FRET-based cAMP sensor to directly measure cAMP binding in cells. The authors could also test whether the higher basal activity of R268 affects the apparent Kact calculation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational methodology and validation
+  - **Claim pointer** The authors state that "Gaussian accelerated molecular dynamics (GaMD) simulations revealed that the CNB-A domain is more flexible in A268 while the opposite is true for the CNB-B domain, which is more dynamic in the R268 protein" (Abstract).
+  - **Evidence pointer** Results section "Gaussian MD simulations confirm altered dynamics between the variants", Figure 4, Figures S5.1-S5.3, S6.1-S6.3, S7
+  - **Concern** The GaMD simulations are presented as "confirming" altered dynamics, but the methods section lacks critical details about the simulation setup, including the force field parameters, the initial structure preparation, the number of replicates beyond the stated three, and the convergence criteria. The LSP-based centrality analysis is described briefly, but the statistical significance of the differences between variants is not reported. The authors state that "three independent 200 ns GaMD simulation replicates were performed" but do not provide error bars or confidence intervals for the RMSF or distance measurements. The claim that the simulations "confirm" the experimental findings is too strong given the limited sampling and lack of statistical analysis.
+  - **Why it matters** Molecular dynamics simulations are powerful tools for generating hypotheses, but they are not confirmatory evidence unless properly validated and statistically analyzed. The authors use the simulations to support their mechanistic model of how the A268R substitution alters holoenzyme dynamics and allosteric communication. If the simulations are not robustly analyzed, the mechanistic conclusions drawn from them are not reliable. This is particularly important because the authors use the simulations to make specific claims about the behavior of W260 and the uncoupling of CNB domains.
+  - **Resolution test** Provide additional details on simulation convergence, including RMSD plots over time, and report the standard deviation or standard error for the RMSF and distance measurements across replicates. Perform a statistical test (e.g., t-test or Mann-Whitney U test) to compare the flexibility between variants. If the simulations are intended to be hypothesis-generating, state this explicitly and temper the language accordingly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental validation of LLPS claims
+  - **Claim pointer** The authors state that "Both variants show a similar localization pattern, enriched in the cytoplasm and detectable only at a low level in the nucleus. Moreover, when overexpressing Cα, both RIβ variants colocalized in the cytoplasm and in puncta-like structures. Like RIα, RIβ undergoes liquid-liquid phase separation, resulting in the formation of puncta-like structures enriched with cAMP and the C subunit" (Results, Cellular localization of the RIβ variants section).
+  - **Evidence pointer** Results section "Cellular localization of the RIβ variants", Figure 8
+  - **Concern** The claim that the observed puncta represent liquid-liquid phase separation is based solely on fluorescence microscopy of overexpressed proteins. No experiments are presented that would distinguish LLPS from other types of aggregates, such as amyloid fibrils, stress granules, or non-specific protein aggregates. The authors do not perform fluorescence recovery after photobleaching (FRAP), which is the standard assay to demonstrate liquid-like behavior, nor do they test for sensitivity to 1,6-hexanediol, a common LLPS inhibitor. The statement that the puncta are "most consistent with droplet-like condensates rather than stress-induced aggregates" is an assertion without supporting evidence.
+  - **Why it matters** The claim that RIβ undergoes LLPS is presented as a significant finding, but the evidence is insufficient. If the puncta are not bona fide liquid-liquid phase separation, the interpretation of the cellular localization data is misleading. This is particularly relevant because the authors use the LLPS claim to suggest a broader functional significance for the variants in cellular organization. Without proper validation, this claim should be either substantially tempered or supported with additional experiments.
+  - **Resolution test** Perform FRAP experiments on the puncta to demonstrate liquid-like behavior (i.e., rapid recovery). Test sensitivity to 1,6-hexanediol. Alternatively, use a well-characterized LLPS marker or perform in vitro phase separation assays with purified proteins. If these experiments are not feasible, the authors should revise the language to state that the puncta are "consistent with, but not proof of, LLPS" and acknowledge the alternative explanations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings across catalytic subunits
+  - **Claim pointer** The authors state that "We monitored the dissociation of holoenzymes composed of the RIβ variants and different catalytic subunits" and that "Only the human protein kinase X (PrKX), a C-subunit regulated by type I R-subunits only, showed the same percentage of dissociation for both RIβ variants" (Results, RIβ R268 has a reduced cAMP sensitivity section).
+  - **Evidence pointer** Results section "RIβ R268 has a reduced cAMP sensitivity", Figure 2C-D, Figure S1
+  - **Concern** The authors tested multiple catalytic subunits (Cα, Cβ1, Cβ4, Cβ4ab, PrKX) and found that the difference between A268 and R268 was observed for all except PrKX. However, the manuscript does not provide a mechanistic explanation for why PrKX behaves differently. This is potentially informative, as it could reveal the structural basis for the differential sensitivity. The authors mention this finding but do not explore its implications. Additionally, the physiological relevance of the different C subunits is not discussed in the context of the variants.
+  - **Why it matters** The differential behavior with PrKX could provide insight into the mechanism by which the A268R substitution alters holoenzyme properties. Understanding why PrKX is insensitive to the variant difference could help identify the specific interactions that are disrupted. This is a missed opportunity to strengthen the mechanistic model. Furthermore, the physiological context of the different C subunits is relevant for understanding the functional consequences of the variants in different tissues.
+  - **Resolution test** Provide a structural or mechanistic explanation for why PrKX does not show differential dissociation between A268 and R268. This could be addressed through additional simulations or by comparing the sequences and structures of the C subunits at the interface with the RIβ αAB helix. Alternatively, discuss the physiological relevance of the different C subunits and how the variant-specific effects might manifest in different tissues.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and consistency
+  - **Affected element** Terminology for variants
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The authors use "A268" and "R268" to refer to the two variants, which is clear. However, in the Introduction, they state that "the human RIβ sequence as annotated in the UniProt database indicates an alanine residue at Position 268" and later define A268 as the canonical form. This is somewhat confusing because the initial human sequence reported arginine. The authors should clarify whether the A268 variant is the more common or ancestral form, and whether the R268 variant is a rare polymorphism or a sequencing artifact.
+  - **Required correction** Clarify the frequency and distribution of the two variants in human populations, and explicitly state whether the R268 variant has been observed in any population or if it is only from the original 1991 sequence.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 2 and Table 1
+  - **Evidence pointer** Results section "RIβ R268 has a reduced cAMP sensitivity", Figure 2, Table 1
+  - **Issue** The manuscript reports EC50 values and Kact values but does not provide confidence intervals or the number of independent experiments for the fluorescence polarization and kinase assays. The authors state that measurements were performed in duplicates for FP, but it is unclear if these are technical or biological replicates.
+  - **Required correction** Report the number of independent experiments (n) and provide confidence intervals or standard deviations for all reported values. Clarify whether duplicates are technical or biological replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figure 8
+  - **Evidence pointer** Results section "Cellular localization of the RIβ variants", Figure 8
+  - **Issue** The description of the cellular localization data is brief, and it is unclear whether the images shown are representative and how many cells were examined. The authors state that "both variants form small droplets in the cytoplasm" but do not provide quantitative analysis of droplet size, number, or frequency.
+  - **Required correction** Provide quantitative analysis of the puncta (e.g., number per cell, size distribution) and state how many cells were examined across how many independent experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors do not explicitly discuss the limitations of their study, particularly the use of overexpressed proteins in HEK293 cells, the potential artifacts of the BRET2 assay, and the speculative nature of the computational predictions.
+  - **Required correction** Add a paragraph discussing the limitations of the study and the need for future work to validate the computational predictions and the physiological relevance of the variant differences.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The authors mention that "recent studies have identified two variants of RIβ" but do not cite the specific studies that identified these variants. This makes it difficult for readers to trace the origin of the R268 variant and understand its prevalence.
+  - **Required correction** Provide citations for the studies that identified the two variants and clarify the source of the R268 sequence.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Data availability statement
+  - **Issue** The data availability statement says that datasets are available "upon reasonable request," which is not in line with current best practices for open science. Given the importance of the computational simulations, the authors should consider depositing the simulation parameters and trajectories in a public repository.
+  - **Required correction** Consider depositing the simulation input files and analysis scripts in a public repository (e.g., Zenodo, Figshare) and provide the accession numbers in the manuscript.
+
+## Risk / unsupported claims
+- The claim that RIβ undergoes liquid-liquid phase separation is not supported by the evidence presented. The microscopy data showing puncta formation is consistent with LLPS but does not demonstrate it. No FRAP, 1,6-hexanediol sensitivity, or in vitro phase separation assays were performed.
+- The claim that the GaMD simulations "confirm" altered dynamics is too strong given the lack of statistical analysis and convergence details. The simulations should be described as providing "supporting evidence" or "hypotheses" rather than confirmation.
+- The interpretation that the R268 variant has reduced cAMP sensitivity in cells is complicated by the in vitro kinase activation data showing lower Kact for R268. The authors acknowledge this discrepancy but do not resolve it mechanistically.
+- The statement that "the R268 variant is reported only once in the initial published sequence of human RIβ" is presented without a comprehensive literature search, and the authors do not provide evidence that the R268 variant exists in any human population.
+- The claim that the A268 variant is "canonical" is based on the UniProt annotation, but the authors do not provide population frequency data to support this designation.
+- The SPR data showing comparable affinities for both variants are described as being "at the detection limit" of the instrument, which limits the confidence in the conclusion that the variants have similar C-subunit binding affinities.

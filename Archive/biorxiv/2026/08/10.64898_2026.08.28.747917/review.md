@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, supplementary figure references) from bioRxiv preprint
+- **Assessment boundary** Scientific content, methodological soundness, interpretation validity, and clarity of claims as presented in the provided text. No assessment of experimental raw data, supplementary figures, or methods section (not provided)
+- **Shared manuscript claim summary** The authors present an MspA nanopore platform for studying the conformational dynamics, interactions, and inhibition of the intrinsically disordered p53 transactivation domain (p53-TAD) at single-molecule resolution. They report resolving six distinct current states, detecting conformational shifts in a cancer-associated N29K/N30D mutant, monitoring MDM2 binding, and characterizing inhibition by EGCG, supported by steered molecular dynamics simulations
+- **Visible evidence base** Results sections on wild-type trapping, mutational effects, MDM2 binding, and EGCG inhibition; supplementary figure references (S1-S17); simulation methodology descriptions
+- **Missing materials affecting confidence** Methods section (detailed experimental protocols, buffer conditions, pore preparation, data acquisition parameters); all supplementary figures and extended data; raw current traces; simulation parameters beyond force values; statistical analysis details; control experiments
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically ambitious application of nanopore sensing to intrinsically disordered proteins, a challenging and important target class. The core concept, using MspA to trap full-length p53-TAD and resolve conformational substates, is novel and potentially impactful. However, the current text provides insufficient methodological detail and experimental validation to fully support the strong claims made. The interpretation of current states as conformational ensembles, the assignment of specific states to structural features, and the quantitative binding measurements all require more rigorous support. The simulation work is a valuable complement but is presented with limited validation. The manuscript would benefit from clearer articulation of controls, reproducibility measures, and limitations
+- **Who would be interested in the results, and why** Researchers in single-molecule biophysics, nanopore sensing, intrinsically disordered protein biology, and drug discovery targeting IDPs. The work is also relevant to the p53 field given the therapeutic implications of MDM2 inhibition. The demonstration of label-free single-molecule detection of IDP conformational changes and ligand binding could attract interest from groups developing biosensing platforms and from structural biologists studying dynamic protein systems
+- **Major strengths** 1) Novel application of nanopore technology to full-length IDPs, addressing a genuine gap in single-molecule tools for disordered proteins. 2) Integration of experimental nanopore data with steered molecular dynamics simulations provides complementary perspectives. 3) Demonstration of multiple capabilities (conformational substate resolution, mutation detection, protein-protein interaction monitoring, small-molecule inhibition) in a single platform. 4) The use of a well-characterized biological system (p53-TAD/MDM2) with known binding affinities provides a benchmark for validation
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "MspA can stably capture p53-TAD and resolve up to six distinct current states with frequent interconversions, revealing a rich conformational landscape"
+  - **Evidence pointer** Results section "Trapping wild type p53-TAD to resolve conformational substates"; Figures 1b-d, S3-S5
+  - **Concern** The assignment of six discrete current states to distinct conformational ensembles lacks direct validation. The authors acknowledge that each state likely represents multiple configurations, but the criteria for defining six states (versus more or fewer), the reproducibility of state definitions across experiments, and the relationship between current blockade levels and specific structural properties are not established. The HMM analysis is described but no details on model selection, convergence, or validation are provided. Without independent verification (e.g., comparison to known conformational distributions from solution measurements, or correlation with orthogonal single-molecule techniques), the interpretation of these states as meaningful conformational populations remains speculative
+  - **Why it matters** The central claim of the paper, that nanopore analysis can resolve IDP conformational dynamics, rests entirely on the validity of assigning current states to conformational ensembles. If the state definitions are arbitrary or irreproducible, the subsequent analyses of mutational effects and ligand binding lose their foundation
+  - **Resolution test** Provide detailed HMM methodology including model selection criteria, state number determination, and validation against simulated data. Include replicate experiments demonstrating state reproducibility. Correlate current state populations with independently measured conformational properties (e.g., from smFRET or SAXS under similar conditions). Show that state transitions are kinetically meaningful and not artifacts of noise or pore dynamics
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Titration of MDM2 to p53-TAD increased the frequency of complex events... yielding an apparent Kd of 308.8 ± 60.4 nM by Hill equation fit"
+  - **Evidence pointer** Results section "Monitoring the complex formation between p53-TAD and MDM2"; Figure 3d
+  - **Concern** The determination of binding affinity from event frequency is not adequately justified. The relationship between event frequency and solution binding equilibrium depends on multiple factors including capture efficiency, complex stability within the pore, and the assumption that the measured events specifically represent p53-TAD/MDM2 complexes rather than other species. The authors do not provide a kinetic model linking event frequency to binding affinity, nor do they address potential artifacts such as concentration-dependent changes in capture probability or pore blocking by aggregates. The reported Kd is consistent with literature values, but this agreement could be coincidental given the indirect measurement approach
+  - **Why it matters** Quantitative binding measurements are a key claimed capability of the platform. If the Kd determination is not rigorously grounded in a validated model, the utility of the platform for drug screening and interaction studies is significantly weakened
+  - **Resolution test** Provide a detailed kinetic model relating event frequency to binding equilibrium. Validate the approach using a known interaction with well-characterized kinetics. Include control experiments with non-binding proteins or mutants. Show that event frequency scales linearly with complex concentration over a defined range. Discuss and account for potential biases in capture efficiency between free and bound species
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "EGCG stabilizes one of the six states sampled by p53-TAD, providing a mechanistic explanation for its inhibitory effect"
+  - **Evidence pointer** Results section "Nanopore detection of EGCG binding and inhibition"; Figure 4c-e
+  - **Concern** The interpretation that EGCG stabilizes a specific conformational state is based on the observation of a single long-duration event type at ~0.4 residual current. However, the authors also note that EGCG-bound p53-TAD rarely leaves the pore spontaneously, requiring voltage reversal for ejection. This extremely long residence time could reflect non-specific interactions with the pore, aggregation, or other artifacts rather than specific conformational stabilization. The claim that this represents a "mechanistic explanation" for EGCG's inhibitory effect is not supported by direct evidence linking the observed state to reduced MDM2 binding. The observation that EGCG abolishes p53-TAD/MDM2 complex events could also be explained by competitive binding in solution rather than conformational changes
+  - **Why it matters** The mechanistic claim about EGCG's mode of action is a significant conclusion with therapeutic implications. If the interpretation is incorrect, the paper's contribution to understanding EGCG's mechanism is misleading
+  - **Resolution test** Provide direct evidence that the EGCG-stabilized state is conformationally distinct and specifically prevents MDM2 binding. Use orthogonal methods (e.g., NMR or smFRET) to confirm EGCG-induced conformational changes. Control for non-specific pore interactions using a non-binding small molecule. Show that the EGCG effect is concentration-dependent and reversible. Demonstrate that the inhibition of complex events is due to conformational modulation rather than competitive binding
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "The platform was demonstrated using the intrinsically disordered transactivation domain of tumor suppressor p53 (p53-TAD), one of the important proteins in cancer biology"
+  - **Evidence pointer** Throughout; Discussion section
+  - **Concern** While the p53-TAD system is biologically relevant, the broader significance of the platform for IDP research is not clearly articulated. The authors demonstrate proof-of-concept with a single IDP, but do not discuss how the approach generalizes to other IDPs with different charge distributions, sizes, or degrees of disorder. The specific advantages of nanopore sensing over existing single-molecule techniques (smFRET, optical tweezers, etc.) for IDP studies are not systematically compared. The claim that this platform can address fundamental questions about IDP function is not fully developed
+  - **Why it matters** The impact of the work depends on its generalizability and the unique insights it can provide beyond existing methods. Without a clear articulation of the platform's broader applicability, the significance may be limited to a technical demonstration
+  - **Resolution test** Discuss how the approach would apply to IDPs with different properties (e.g., positively charged, larger, more structured). Compare the information content of nanopore data to that from smFRET or other single-molecule methods. Provide a perspective on what unique questions about IDP biology can be addressed with this platform
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1d and state definitions
+  - **Evidence pointer** Results section "Trapping wild type p53-TAD to resolve conformational substates"
+  - **Issue** The normalized residual current values for the six states are partially missing in the text (appears as blank spaces). The notation for states S1-S6 should be consistently defined and all values clearly stated
+  - **Required correction** Provide complete numerical values for all six state levels in both text and figure legends
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical clarity
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Results section "Molecular dynamics simulations of p53-TAD in MspA"
+  - **Issue** The description of simulation setup is incomplete. The force screening approach is acknowledged as non-physical, but the rationale for choosing specific force values (10, 20, 25, 30, 45 pN) and the criteria for selecting 10 pN for production runs are not explained. The number of replicates per condition and the total simulation time are not stated
+  - **Required correction** Provide complete simulation parameters, replicate numbers, and justification for force selection
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Kd comparison for EGCG
+  - **Evidence pointer** Results section "Nanopore detection of EGCG binding and inhibition"
+  - **Issue** The reported apparent Kd of 0.43 ± 0.49 µM has a very large relative error, making the value poorly constrained. The comparison to the literature value of 4 ± 2 µM is presented as a discrepancy, but the large uncertainty in the measured value weakens this comparison
+  - **Required correction** Report confidence intervals and discuss the precision of the measurement. Consider whether the large error reflects methodological limitations that should be addressed
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Control experiments
+  - **Evidence pointer** Throughout
+  - **Issue** The text does not describe control experiments for several key claims. For example, no negative control is shown for MDM2 binding (e.g., a non-binding protein), and no control for EGCG effects on pore conductance in the absence of p53-TAD
+  - **Required correction** Add description of appropriate control experiments or explicitly state their absence and discuss implications
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 4d-e
+  - **Evidence pointer** Results section "Nanopore detection of EGCG binding and inhibition"
+  - **Issue** The observation that EGCG-bound p53-TAD events are only observed at +75 mV but not at +200 mV is interesting but not fully explained. The authors offer a hypothesis but acknowledge the mechanism is unknown. This should be more clearly framed as a limitation
+  - **Required correction** Clarify the speculative nature of the explanation and discuss alternative interpretations
+- **Technical failings that need to be addressed before the case is established** R1-M1 (state assignment validity), R1-M2 (binding affinity determination), R1-M3 (EGCG mechanism interpretation). These three concerns directly challenge the core claims of the manuscript and require substantial additional evidence or revised claims
+- **Assessment against Nature-style criteria** 
+  - Originality: High. The application of nanopore sensing to full-length IDPs with conformational state resolution is novel and represents a creative extension of existing nanopore methodologies
+  - Scientific importance: Moderate to high. The work addresses a genuine need for single-molecule tools for IDPs, but the broader impact depends on generalizability and the ability to extract mechanistically meaningful information
+  - Interdisciplinary readership: Moderate. The work bridges nanopore technology, biophysics, and cancer biology, but the technical nature of the presentation may limit accessibility to non-specialists
+  - Technical soundness: Currently insufficient. The core claims require more rigorous validation, particularly regarding state assignment, quantitative binding measurements, and mechanistic interpretation
+  - Readability for nonspecialists: Adequate but improvable. The introduction and discussion are accessible, but the results section assumes significant familiarity with nanopore methods and IDP biophysics
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an intriguing proof-of-concept with significant potential, but the core claims require substantial additional validation and methodological detail. The authors should be encouraged to resubmit after addressing the major concerns, particularly the validation of state assignments, the rigor of binding measurements, and the interpretation of EGCG's mechanism
+
+## Risk / unsupported claims
+- The assignment of six discrete current states to distinct conformational ensembles is not validated (R1-M1)
+- The apparent Kd for p53-TAD/MDM2 binding derived from event frequency lacks a validated kinetic model (R1-M2)
+- The claim that EGCG stabilizes a specific conformational state to inhibit MDM2 binding is not directly supported (R1-M3)
+- The statement that "the effects of perturbation (both mutational and pharmacological) remain clearly resolvable" is an overstatement given the lack of quantitative validation
+- The claim that the platform can "screen for inhibitors of specific IDP binding" is premature without demonstration of specificity and reproducibility
+- The comparison of simulated and experimental results is presented as supportive but lacks quantitative metrics of agreement
+- The reported Kd for EGCG binding (0.43 ± 0.49 µM) has unacceptably large uncertainty for a quantitative claim

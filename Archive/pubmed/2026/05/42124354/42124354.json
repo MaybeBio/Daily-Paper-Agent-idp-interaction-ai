@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "42124354",
+    "doi": "10.1016/j.bpj.2026.05.006",
+    "title": "Impact of N-terminal dimerization on formin homology 1 domain polymer dynamics and actin assembly."
+  },
+  "content": {
+    "abstract": "Many proteins contain intrinsically disordered regions (IDRs) that lack stable three-dimensional structure. IDR behavior is poorly understood, leading to challenges for biochemical and computational analysis of IDR-containing proteins. Formins are a diverse set of homodimers containing an IDR-the FH1 domain-that facilitates polymerization of the cytoskeletal protein actin by increasing the local concentration of actin monomers at the actin assembly site. A commonly accepted model of formin-based actin polymerization involves a capture-and-deliver process: one or more binding sites (proline-rich motifs, PRMs) \"capture\" actin monomers and then \"deliver\" actin to the actin assembly site. There is evidence that formin FH1 domains are dimerized on both ends, but much research has been performed with formin constructs lacking the N-terminal dimerization site. Here, we ask: what happens when N-terminal dimerization is added to the standard model of formin-mediated actin assembly? We extend the kinetic model of FH1-mediated actin polymerization by incorporating a coarse-grained polymer model of FH1 domain dynamics, modeling the FH1 domain as a freely jointed chain. We find that N-terminal dimerization can impact polymerization rates by modifying binding site accessibility and/or local concentration of binding sites (PRMs) at the actin assembly site. Which effect dominates depends on kinetic parameters and formin properties such as FH1 domain length and binding site location. Additionally, we demonstrate that our model can be fit to experimental data and used to make predictions for the effects of N-terminal dimerization on a variety of formin family members.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Actins/metabolism/chemistry",
+      "*Protein Multimerization",
+      "Protein Domains",
+      "Formins",
+      "Polymerization",
+      "Models, Molecular",
+      "Kinetics",
+      "*Microfilament Proteins/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bogue, Katharine",
+        "Christian, Bryan",
+        "Quinlan, Margot E",
+        "Allard, Jun"
+      ],
+      "short_names": [
+        "Bogue K",
+        "Christian B",
+        "Quinlan ME",
+        "Allard J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry & Biochemistry, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Department of Chemistry & Biochemistry, University of California, Los Angeles, Los Angeles, CA, USA.",
+        "Department of Chemistry & Biochemistry, University of California, Los Angeles, Los Angeles, CA, USA; Molecular Biology Institute, University of California, Los Angeles, Los Angeles, CA, USA. Electronic address: margot@chem.ucla.edu.",
+        "Department of Physics & Astronomy, Department of Mathematics, University of California, Irvine, Irvine, CA, USA. Electronic address: jun.allard@uci.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bogue, Katharine",
+        "short_name": "Bogue K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California, Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Christian, Bryan",
+        "short_name": "Christian B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California, Los Angeles, Los Angeles, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Quinlan, Margot E",
+        "short_name": "Quinlan ME",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry & Biochemistry, University of California, Los Angeles, Los Angeles, CA, USA; Molecular Biology Institute, University of California, Los Angeles, Los Angeles, CA, USA. Electronic address: margot@chem.ucla.edu."
+        ]
+      },
+      {
+        "full_name": "Allard, Jun",
+        "short_name": "Allard J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics & Astronomy, Department of Mathematics, University of California, Irvine, Irvine, CA, USA. Electronic address: jun.allard@uci.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Jul 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/13 06:31",
+    "fetched_at": "2026-09-18 03:16:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42124354",
+      "41332682",
+      "29754461",
+      "27792274",
+      "39667500",
+      "24861497",
+      "33289668",
+      "19633191",
+      "32075907",
+      "30266808",
+      "18978356",
+      "22428073",
+      "12906795",
+      "22605659",
+      "16483928",
+      "22247555",
+      "18160294",
+      "23921379",
+      "26668326",
+      "15950879",
+      "20927338",
+      "40463035",
+      "22094460",
+      "14992721",
+      "25483300",
+      "12525176",
+      "16364624",
+      "25482541",
+      "17210567",
+      "25246531",
+      "15740615",
+      "24915113",
+      "16490788",
+      "30392063",
+      "19459187",
+      "17482208",
+      "15994911",
+      "21998204",
+      "34818061",
+      "15377785",
+      "35673994",
+      "20862687",
+      "15507212",
+      "12796476",
+      "15923338",
+      "20332108",
+      "16818491",
+      "23222643",
+      "40993919",
+      "23653364",
+      "19589360",
+      "21333540",
+      "34214524",
+      "22879592",
+      "34506773",
+      "30309655",
+      "23161908",
+      "35248815",
+      "15596547",
+      "28642367",
+      "40316024",
+      "22397711",
+      "18835814",
+      "14990563",
+      "28834725",
+      "17398099",
+      "18305104",
+      "20869367",
+      "23716666",
+      "17158576",
+      "28527698",
+      "22875983",
+      "14576350",
+      "12775772",
+      "16480715",
+      "18977251",
+      "17373907",
+      "37863260",
+      "20949068",
+      "15635372",
+      "30035712",
+      "23558679",
+      "41498749",
+      "22947203",
+      "23050667",
+      "20566685",
+      "24914801",
+      "29282276",
+      "27729544",
+      "31514372",
+      "38097186",
+      "18329618",
+      "28951543",
+      "30638962",
+      "23620398",
+      "16472660",
+      "36139355",
+      "15006353",
+      "24586110",
+      "16360240"
+    ],
+    "review": [
+      "42124354",
+      "15950879",
+      "25483300",
+      "16364624",
+      "30392063",
+      "19459187",
+      "19589360",
+      "30309655",
+      "12775772",
+      "18977251",
+      "17373907",
+      "24914801",
+      "36139355"
+    ],
+    "pmc": [
+      "13507409"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(26)00346-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42124354/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3579",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

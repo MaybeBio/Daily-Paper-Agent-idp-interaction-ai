@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract, with no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors propose a drug discovery approach targeting intrinsically disordered regions (IDRs) of SARS-CoV-2 proteins, using interaction modeling and statistical methods. They report discovery of eleven new drug candidates and claim evidence for IDR involvement in viral processes such as enzymatic peptide cleavage, while demonstrating efficacy of a unique docking approach.
+- **Visible evidence base** Abstract text only; no methods, results, figures, tables, or statistical details provided
+- **Missing materials affecting confidence** Full manuscript, methods description, docking protocol, validation data, statistical analyses, candidate compound identities, target protein details, and any comparison with existing approaches
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting departure from conventional structure-based drug discovery by targeting intrinsically disordered regions. However, the claims are broad and the evidence base is entirely absent from the supplied material. The central assertions of drug candidate discovery, IDR involvement in viral processes, and docking efficacy cannot be evaluated without methodological detail and quantitative results. The work may hold potential for a specialized computational biology audience, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on drug discovery, particularly those focused on viral pathogens and alternative target spaces beyond fixed protein structures. Researchers studying intrinsically disordered proteins and their roles in viral life cycles may also find the conceptual framework relevant. The potential to expand druggable targets could interest pharmaceutical scientists seeking novel antiviral strategies.
+- **Major strengths** The conceptual shift from static structure-based docking to targeting IDRs is timely and addresses a recognized limitation in conventional drug discovery. The focus on SARS-CoV-2 is of high current relevance. The abstract clearly articulates the rationale for targeting IDRs and suggests a novel methodological angle.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim discovery of eleven new SARS-CoV-2 drug candidates targeting IDRs.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No experimental or computational validation data are presented. The abstract does not specify how the candidates were identified, what docking or statistical methods were used, what thresholds defined a "candidate," or whether any in vitro or in vivo validation was performed.
+  - **Why it matters** A claim of drug discovery requires at least preliminary evidence of binding affinity, specificity, or functional inhibition. Without such data, the claim is unsupported and cannot be distinguished from a purely speculative list of compounds.
+  - **Resolution test** Provide details of the screening pipeline, scoring functions, statistical significance thresholds, and any experimental validation. If validation is absent, clearly state the computational nature of the discovery and temper the claim accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim substantiation
+  - **Claim pointer** The authors claim to provide "further evidence for the involvement of IDRs in viral processes such as enzymatic peptide cleavage."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not describe what evidence was generated, how it relates to IDR function, or what specific viral processes were examined beyond a single example. The term "further evidence" implies prior work, but no context or comparison is given.
+  - **Why it matters** This claim is central to the biological relevance of the approach. Without a clear description of the experimental or computational evidence, the reader cannot assess whether the finding is robust or coincidental.
+  - **Resolution test** Specify the experimental or computational assays used, the viral proteins and IDRs involved, and the statistical or functional significance of the results. Provide figures or tables that support the claim.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors claim to demonstrate "the efficacy of our unique docking approach."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No description of the docking method is provided, nor any benchmark, comparison to existing docking tools, or performance metrics. The term "unique" is not substantiated, and efficacy is not defined.
+  - **Why it matters** Without a clear methodological description and validation against known standards, the claim of efficacy is not testable. The novelty of the approach cannot be assessed, and the reader cannot determine whether the method is an improvement over existing tools.
+  - **Resolution test** Describe the docking algorithm, its input features, scoring function, and any validation against known protein-ligand complexes. Provide quantitative comparisons with established docking methods and define what constitutes efficacy in this context.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Background statement
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The statement that COVID-19 "has spread to over 19.9 million people worldwide" is time-bound and may be outdated by publication. It does not add scientific value to the abstract.
+  - **Required correction** Remove the epidemiological statistic or replace it with a general statement about the pandemic's global impact that is not time-sensitive.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "unique"
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The term "unique" is subjective and unsubstantiated. It implies novelty without providing a basis for comparison.
+  - **Required correction** Replace "unique" with a descriptive term such as "alternative" or "novel in this context," and support the claim with methodological details in the full text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Drug candidate description
+  - **Evidence pointer** Abstract, claim of eleven candidates
+  - **Issue** The abstract does not indicate whether the eleven candidates are known drugs, novel compounds, or repurposed molecules. This affects the interpretation of the discovery.
+  - **Required correction** Clarify the nature of the candidates and, if possible, list their identifiers or classes in the abstract or full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of any methodological or quantitative evidence in the supplied material means the core claims of drug discovery, IDR involvement, and docking efficacy are not established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of targeting IDRs for SARS-CoV-2 drug discovery is a fresh angle relative to conventional structure-based approaches, which is a point in favor.
+  - Scientific importance: If substantiated, the work could expand the druggable target space for antiviral therapy, which is significant. However, the current abstract does not demonstrate impact.
+  - Interdisciplinary readership: The topic bridges computational biology, virology, and drug discovery, which could attract a broad audience. The abstract is written in accessible language for nonspecialists, but the lack of technical detail limits its utility.
+  - Technical soundness: Cannot be assessed from the abstract alone. No methods, data, or statistical analyses are provided.
+  - Readability for nonspecialists: The abstract is clear and jargon is explained, but the claims are too broad and unsupported, which undermines reader confidence.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract alone does not provide sufficient support for the claims. A revised submission with full methodological detail, validation data, and tempered claims could be reconsidered.
+
+## Risk / unsupported claims
+- The claim of discovering eleven drug candidates is unsupported without any screening or validation data.
+- The claim of providing evidence for IDR involvement in viral processes is unsupported without description of the evidence.
+- The claim of demonstrating efficacy of a unique docking approach is unsupported without methodological description or benchmarks.
+- The epidemiological statistic about COVID-19 spread is time-bound and not relevant to the scientific claims.

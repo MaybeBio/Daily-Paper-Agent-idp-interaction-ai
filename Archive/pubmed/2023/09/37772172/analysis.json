@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37772172",
+  "title": "ATP Acts as a Hydrotrope to Regulate the Phase Separation of NBDY Clusters.",
+  "authors": "Liu, Fei; Wang, Jin",
+  "journal": "JACS Au",
+  "published_date": "2023-09-29",
+  "window": {
+    "start": "2023-09-25",
+    "end": "2023-10-01"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过模拟方法揭示ATP作为生物水溶胶调节NBDY无序蛋白簇的相分离动态机制，聚焦IDR/凝聚体中的互作与相变调控，与课题高度相关。",
+  "abstract": "Nonannotated P-body dissociating polypeptide (NBDY) is a recently discovered human microprotein that has been found to be a novel component of the mRNA decapping complex. Previous studies have shown that the phosphorylation of NBDY promotes the liquid phase of the NBDY remixing in vitro. Typically, during the process of phosphorylation, a phosphate group is added to the protein through adenosine triphosphate (ATP) hydrolysis. It has been shown that ATP acts as a biological hydrotrope, affecting the phase separation of proteins in solution. In this study, we utilized simulation methods to investigate the dynamic properties of the NBDY clusters at various ATP concentrations. Our findings demonstrate that ATP can regulate the phase separation of NBDY clusters. Specifically, we identified a critical point in the concentration ratio between ATP and NBDY that exhibits a dual effect on the phase separation of NBDY. We observed that the nonsaturated ATP concentration can facilitate the formation of phase separation, while oversaturated ATP concentration promotes the diffusion of NBDY, and the oversaturated ATP-NBDY interaction impedes the phase separation of NBDY. Additionally, we found that ATPs can bind to the protein surface by aggregating into ATP clusters, which further hinders the diffusion of NBDY clusters. Our work provides general insight into the role of ATP in the phase separation of protein condensates.",
+  "abstract_zh": "非注释P小体解离多肽（NBDY）是一种最近发现的人类微蛋白，已被发现是mRNA脱帽复合物的新组分。先前研究表明，NBDY的磷酸化促进NBDY在体外重混合的液相。通常，在磷酸化过程中，通过三磷酸腺苷（ATP）水解将磷酸基团添加到蛋白质上。已有研究表明，ATP作为一种生物水溶助剂，影响溶液中蛋白质的相分离。在本研究中，我们利用模拟方法研究了不同ATP浓度下NBDY簇的动态特性。我们的发现表明，ATP可以调节NBDY簇的相分离。具体而言，我们确定了ATP与NBDY浓度比中的一个临界点，该点对NBDY的相分离表现出双重效应。我们观察到，非饱和ATP浓度可促进相分离的形成，而过饱和ATP浓度则促进NBDY的扩散，且过饱和的ATP-NBDY相互作用阻碍NBDY的相分离。此外，我们发现ATP可通过聚集成ATP簇结合到蛋白质表面，这进一步阻碍了NBDY簇的扩散。我们的工作为ATP在蛋白质凝聚体相分离中的作用提供了普遍见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37772172/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37772172/",
+  "paper_page_path": "papers/pubmed/37772172/index.html"
+}

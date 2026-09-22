@@ -1,0 +1,340 @@
+{
+  "identity": {
+    "pmid": "42242225",
+    "doi": "10.1016/j.cell.2026.05.010",
+    "title": "Deep learning of functional perturbations from condensate morphology."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates compartmentalize the interior of cells to organize complex functions, yet linking molecular interactions within condensates to their mesoscale organization remains a major challenge. To bridge this gap, we developed a neural-network-based framework-Deep-Phase (deep learning of phase-separated condensates)-that uses microscopy images to directly measure condensate morphology changes resulting from pharmacological alterations in associated biochemical processes. We use Deep-Phase to precisely quantify time- and concentration-dependent structural perturbations to the multiphase nucleolus and show that they are tightly coupled to potencies of drugs inhibiting ribosomal RNA (rRNA) transcription and processing. Applying Deep-Phase in a chemical screen, we identify a unique nucleolar morphology and discover a role for a DNA topoisomerase in rRNA processing. Mechanistic studies of this morphology provide insights into how the interfaces between nucleolar sub-compartments are maintained. We demonstrate Deep-Phase's adaptability to diverse cell lines, labeling techniques, and condensates, offering a powerful platform for connecting molecular pathways to cellular mesoscale organization.",
+    "keywords": [
+      "RNA biochemistry",
+      "RSV",
+      "TOP1",
+      "biomolecular condensate",
+      "deep learning",
+      "high-content imaging",
+      "morphological profiling",
+      "nuclear speckle",
+      "nucleolus"
+    ],
+    "mesh_terms": [
+      "*Deep Learning",
+      "*Cell Nucleolus/metabolism/drug effects/ultrastructure",
+      "RNA, Ribosomal/metabolism/genetics",
+      "Humans",
+      "*Biomolecular Condensates/metabolism",
+      "Phase Separation",
+      "DNA Topoisomerases, Type I/metabolism",
+      "Animals",
+      "Neural Networks, Computer"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Donlic, Anita",
+        "Comi, Troy J",
+        "Quinodoz, Sofia A",
+        "Jaberi-Lashkari, Nima",
+        "Antunes Fernandes, Krist",
+        "Jiang, Lifei",
+        "Wiesner, Lennard W",
+        "Lim, Ai Ing",
+        "Brangwynne, Clifford P"
+      ],
+      "short_names": [
+        "Donlic A",
+        "Comi TJ",
+        "Quinodoz SA",
+        "Jaberi-Lashkari N",
+        "Antunes Fernandes K",
+        "Jiang L",
+        "Wiesner LW",
+        "Lim AI",
+        "Brangwynne CP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA; Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA; Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA; Research Computing, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA; Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA; Howard Hughes Medical Institute, Chevy Chase, MD 21044, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA; Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Molecular Biology, Princeton University, Princeton, NJ 08544, USA; School of Medicine, Pontifical Catholic University of Rio Grande do Sul, Porto Alegre, RS 90619-900, Brazil.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA; Department of Molecular Biology, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA; Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA.",
+        "Howard Hughes Medical Institute, Chevy Chase, MD 21044, USA; Department of Molecular Biology, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA; Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA; Howard Hughes Medical Institute, Chevy Chase, MD 21044, USA. Electronic address: cbrangwy@princeton.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Donlic, Anita",
+        "short_name": "Donlic A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA; Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Comi, Troy J",
+        "short_name": "Comi TJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA; Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA; Research Computing, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Quinodoz, Sofia A",
+        "short_name": "Quinodoz SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA; Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA; Howard Hughes Medical Institute, Chevy Chase, MD 21044, USA."
+        ]
+      },
+      {
+        "full_name": "Jaberi-Lashkari, Nima",
+        "short_name": "Jaberi-Lashkari N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA; Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Antunes Fernandes, Krist",
+        "short_name": "Antunes Fernandes K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Biology, Princeton University, Princeton, NJ 08544, USA; School of Medicine, Pontifical Catholic University of Rio Grande do Sul, Porto Alegre, RS 90619-900, Brazil."
+        ]
+      },
+      {
+        "full_name": "Jiang, Lifei",
+        "short_name": "Jiang L",
+        "identifiers": [],
+        "affiliations": [
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA; Department of Molecular Biology, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Wiesner, Lennard W",
+        "short_name": "Wiesner LW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA; Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Lim, Ai Ing",
+        "short_name": "Lim AI",
+        "identifiers": [],
+        "affiliations": [
+          "Howard Hughes Medical Institute, Chevy Chase, MD 21044, USA; Department of Molecular Biology, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Brangwynne, Clifford P",
+        "short_name": "Brangwynne CP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA; Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA; Howard Hughes Medical Institute, Chevy Chase, MD 21044, USA. Electronic address: cbrangwy@princeton.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell"
+    ],
+    "journal_abbrev": [
+      "Cell"
+    ],
+    "pub_date": "2026 Jul 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/05 00:36",
+    "fetched_at": "2026-09-18 03:49:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42242225",
+      "42190656",
+      "40223701",
+      "42475469",
+      "40604277",
+      "40675030",
+      "37683610",
+      "41286440",
+      "41540001",
+      "40327693",
+      "31399547",
+      "29364875",
+      "8877378",
+      "40804711",
+      "42081454",
+      "26776729",
+      "38909586",
+      "32405004",
+      "41957206",
+      "41191214",
+      "41480717",
+      "36890225",
+      "40468084",
+      "40010605",
+      "41298079",
+      "42065721",
+      "38654122",
+      "34772789",
+      "31540874",
+      "41670285",
+      "40954121",
+      "39386460",
+      "18712681",
+      "39824169",
+      "38987300",
+      "39498261",
+      "23912807",
+      "9588897",
+      "40424940",
+      "42196497",
+      "40931032",
+      "42240196",
+      "42312489",
+      "42161866",
+      "37894933",
+      "39303698",
+      "41990454",
+      "40849651",
+      "33055158",
+      "41950918",
+      "41587927",
+      "42059155",
+      "37105967",
+      "35243657",
+      "29725012",
+      "37937963",
+      "40653653",
+      "40441156",
+      "9211976",
+      "40527409",
+      "41203642",
+      "38421168",
+      "37468629",
+      "40744081",
+      "39541973",
+      "15112326",
+      "39433596",
+      "42276972",
+      "34772787",
+      "40726293",
+      "11381093",
+      "40661408",
+      "40913895",
+      "33836082",
+      "30641024",
+      "39227569",
+      "41238911",
+      "37925283",
+      "34767801",
+      "42056202",
+      "37586369",
+      "34129784",
+      "41845050",
+      "40557772",
+      "41272271",
+      "6204996",
+      "38848869",
+      "40502052",
+      "39661689",
+      "40445759",
+      "42420726",
+      "33300985",
+      "39677698",
+      "42105641",
+      "21818412",
+      "12839096",
+      "39738032",
+      "37772963",
+      "38446881",
+      "40570844"
+    ],
+    "review": [
+      "42242225",
+      "40675030",
+      "8877378",
+      "40804711",
+      "38909586",
+      "41957206",
+      "41191214",
+      "41480717",
+      "42065721",
+      "34772789",
+      "18712681",
+      "39824169",
+      "40424940",
+      "42196497",
+      "42161866",
+      "39303698",
+      "41990454",
+      "40849651",
+      "41587927",
+      "42059155",
+      "40527409",
+      "40744081",
+      "39433596",
+      "42276972",
+      "34772787",
+      "40726293",
+      "40913895",
+      "37925283",
+      "34767801",
+      "34129784",
+      "40557772",
+      "33300985",
+      "42105641",
+      "21818412",
+      "12839096"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092-8674(26)00569-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/42242225",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TOP1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

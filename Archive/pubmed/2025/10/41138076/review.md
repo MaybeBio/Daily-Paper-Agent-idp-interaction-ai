@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, model description, results sections, conclusions, and supplementary material references.
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims relative to presented evidence, and alignment with Nature-style criteria. No assessment of formatting, grammar, or editorial fit for a specific journal.
+- **Shared manuscript claim summary** The authors use coarse-grained polymer simulations to show that bridging-induced phase separation (BIPS) of transcription factors and stochastic loop extrusion by cohesin both contribute to transcriptional noise (cell-to-cell variability in transcription). They report that BIPS creates temporal correlations in transcription, that noise depends nonmonotonically on transcription unit spacing, and that loop extrusion increases noise without strongly affecting mean expression.
+- **Visible evidence base** Main text figures 1-3, supplementary figures S1-S12, supplementary movies S3-S4, and references to simulation details in reference [40].
+- **Missing materials affecting confidence** The supplementary material is referenced but not provided in full. Simulation parameter values, detailed model equations, and the full contents of figures S1-S12 are not available for direct inspection. The "HiP-HoP" genomewide simulation results (Fig. S12) are referenced but not shown.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study addressing a timely and important question, namely the molecular mechanisms underlying transcriptional noise. The model is conceptually appealing and the results are potentially significant. However, the evidence as presented is insufficient to fully establish the central claims. Several key results are only described qualitatively, and the link between simulation observables and experimental measures of transcriptional noise requires more rigorous justification. The manuscript would benefit from a more detailed presentation of the model and a more quantitative analysis of the simulation outputs.
+- **Who would be interested in the results, and why** Researchers in gene expression regulation, chromatin biology, biophysics, and computational biology would be interested. The work connects 3D genome organization to transcriptional variability, a topic of broad relevance to development and disease. The predictions regarding TU spacing and loop extrusion as tunable noise modulators could inspire experimental tests.
+- **Major strengths** The study addresses a fundamental and poorly understood problem. The model is relatively simple yet captures key biological features (multivalent binding, loop extrusion). The finding that BIPS and LE contribute to noise through distinct mechanisms is conceptually novel. The prediction that LE affects noise more than mean expression aligns with existing experimental observations and provides a testable framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that transcriptional noise is significantly higher than predicted by a binomial model, indicating overdispersion, and that this overdispersion is caused by BIPS.
+  - **Evidence pointer** Figure 2(a), Figure 2(b), Figure S7, location not provided for specific parameter values.
+  - **Concern** The comparison between simulation results and the binomial baseline is central to the overdispersion claim. However, the binomial model assumes independent sampling events with a fixed probability p. In the simulations, the probability of TF binding to a TU is likely time-dependent and influenced by local TF concentration, which itself fluctuates. The manuscript does not clearly specify how the binomial baseline is computed, what value of M is used, or how p is determined. Without this, the deviation from binomial may simply reflect a misspecified null model rather than a biologically meaningful overdispersion.
+  - **Why it matters** The overdispersion claim is the primary evidence for BIPS-driven noise. If the baseline is not appropriate, the conclusion that clustering causes overdispersion is not supported.
+  - **Resolution test** Provide a clear definition of the binomial baseline, including the value of M and how p is estimated from the simulations. Show that the baseline is a valid null model for the simulation setup. Alternatively, compare the simulation results to a control simulation where TF binding is non-cooperative and clustering is abolished, to demonstrate that the overdispersion is specifically due to BIPS.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that loop extrusion enhances transcriptional noise, and that this is due to stochastic differences in loop configurations between cells.
+  - **Evidence pointer** Figure 3(a), Figure 3(c), Figure 3(d), Figure S9, location not provided for specific parameter values.
+  - **Concern** The phase diagram in Figure 3(c) shows noise as a function of Nex and λex, but the specific values of these parameters and how they map to biological conditions are not given. The claim that noise increases with Nex is based on the hypothesis that different cells have different loop configurations. However, the control simulation with identical loops (orange curve in Fig. 3(a)) shows decreased noise, which supports the hypothesis. Yet, the magnitude of the effect and its dependence on λex are not quantitatively explained. The nonmonotonic dependence on λex is attributed to loop size effects, but the mechanistic explanation is vague.
+  - **Why it matters** The role of LE in noise is a key novel finding. Without a clear quantitative description of the parameter space and the mechanisms, the claim is not fully established.
+  - **Resolution test** Provide the parameter values used in Figure 3 and a more detailed analysis of how loop configurations differ between simulations. Quantify the contribution of loop variability to noise, for example by decomposing the total noise into contributions from BIPS and LE. Show that the nonmonotonic dependence on λex is robust and explain the mechanism with a simple analytical model or additional simulations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the results could be tested with single-cell experiments and provide a pathway to understanding transcriptional plasticity in vivo.
+  - **Evidence pointer** Conclusions section, location not provided.
+  - **Concern** The manuscript does not provide specific, quantitative predictions that could be directly compared to experimental data. For example, what is the predicted relationship between TU spacing and noise in a real cell? How would the predicted effect of LE on noise be distinguished from other sources of variability? The link between the model observable (fraction of time a TU is bound by TF) and experimental measures of transcriptional noise (e.g., from single-cell RNA-seq) is not established.
+  - **Why it matters** The broader significance of the work depends on its testability. Vague suggestions for experiments are insufficient to demonstrate the importance of the findings.
+  - **Resolution test** Provide concrete, falsifiable predictions. For example, predict the shape of the noise-mean relationship for different genomic loci with known TU spacing. Suggest a specific experimental design (e.g., single-cell RNA-seq or DNA FISH) that could distinguish between BIPS-driven and LE-driven noise. Discuss potential confounding factors and how they could be controlled.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, location not provided.
+  - **Issue** The abstract uses terms like "bridging-induced phase separation" and "loop extrusion" without defining them. A nonspecialist reader may struggle to understand the key concepts.
+  - **Required correction** Briefly define these terms in the abstract or introduction, e.g., "bridging-induced phase separation, a process where proteins bind multiple DNA sites to form clusters" and "loop extrusion, a process where cohesin complexes actively create chromatin loops."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model section
+  - **Evidence pointer** Model section, location not provided.
+  - **Issue** The model description is brief. Key parameters such as the number of TFs, the binding affinities, the diffusion coefficients, and the simulation box size are not given in the main text.
+  - **Required correction** Provide a table of all simulation parameters in the main text or refer to a specific table in the supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section on BIPS and noise
+  - **Evidence pointer** Figure 2(c), location not provided.
+  - **Issue** The claim that fluctuations in clustering peak at intermediate activity is based on a single figure. It is unclear how the clustering fraction is defined and how its fluctuations are computed.
+  - **Required correction** Define the clustering fraction and its fluctuations in the text or figure caption. Provide error bars or confidence intervals for the data points in Figure 2(c).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusions section, location not provided.
+  - **Issue** The speculation about evolutionarily young genes being noisier is interesting but not supported by any data in the manuscript. It appears as an afterthought.
+  - **Required correction** Either remove this speculation or provide a brief justification with references to relevant literature.
+- **Technical failings that need to be addressed before the case is established** The lack of a clearly defined binomial baseline (R1-M1) and the insufficient quantitative description of the LE parameter space (R1-M2) are the main technical issues. The model description is also incomplete, making it difficult to reproduce the simulations.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its specific combination of BIPS and LE in a single model to study transcriptional noise. The concept of LE contributing to noise is not entirely new, but the systematic study here is a contribution.
+  - **Scientific importance** The question of what drives transcriptional noise is of high importance. The potential link to 3D genome organization is significant. However, the importance is not fully realized because the predictions are not specific enough to be directly testable.
+  - **Interdisciplinary readership** The topic is of interest to biologists, physicists, and computational scientists. The writing is generally accessible, but the model details may be challenging for experimental biologists.
+  - **Technical soundness** The simulation approach is appropriate, but the analysis is not rigorous enough in key areas (baseline comparison, parameter dependence). The lack of full simulation details is a concern.
+  - **Readability for nonspecialists** The abstract and introduction are reasonably clear, but the results sections are dense and assume familiarity with polymer physics and simulation methods.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising, but the evidence as presented is not sufficient to fully establish the claims. The authors need to provide a more rigorous analysis and more specific predictions.
+
+## Risk / unsupported claims
+- The claim that the results could be tested with single-cell experiments is unsupported as no specific experimental predictions are given.
+- The speculation about evolutionarily young genes being noisier is unsupported by data in this manuscript.
+- The claim that the "HiP-HoP" genomewide simulations confirm the predictions is not assessable as the results are only referenced in Figure S12, which is not provided.
+- The claim that the model reproduces experimental findings on cohesin degradation (references [10,12]) is not directly verified in the manuscript.

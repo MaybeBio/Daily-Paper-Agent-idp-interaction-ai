@@ -1,0 +1,214 @@
+{
+  "identity": {
+    "pmid": "39495179",
+    "doi": "10.1039/d4tb01512f",
+    "title": "Multi-scale in silico analysis of the phase separation behavior of FUS mutants."
+  },
+  "content": {
+    "abstract": "Fused in sarcoma (FUS) is an intrinsically disordered RNA-binding protein that helps to regulate transcription and RNA transport while reversibly assembling into membraneless organelles (MLOs). Some mutations of FUS can promote irreversible aggregation, contributing to neurodegenerative diseases. We previously reported a multi-scale computational framework combining a series of molecular dynamics simulations (MD) followed by lattice Monte Carlo (MC) simulations to describe the tendency and dynamics of the assembly and disassembly of intrinsically disordered proteins (IDPs) using wild-type (WT)-FUS as an illustrative example. In this study, we utilized our computational model to simulate three FUS mutants widely experimented with glycine point mutation G156E, arginine point mutation R244C, and deletion of the C-terminal nuclear localization signal (DeltaNLS). MD simulation results conveyed that G156E has improved sticker contact probability compared to WT-FUS, while R244C has slightly lower contact probability, which is also complemented by change of net interactions according to the molecular mechanics Poisson Boltzmann surface area (MMPBSA) method. The MC simulation results revealed that G156E has a higher aggregation propensity than the WT-FUS, while DeltaNLS has more liquid-like assemblies. R244C demonstrated higher dynamics at the beginning, while over the evolution of MC simulations, it tends to aggregate compared to WT-FUS. In addition, the G156E mutant has more stable protein aggregates, lacking the rapid dynamics shown in all other scenarios. From the peak height of radial distribution functions (RDFs) of the assemblies, the phase separation propensity in ascending order is DeltaNLS < FUS-WT < R244C < G156E. Moreover, interpreting the dynamic assembly propensity (DAP) parameter over time, the fluidity of the assemblies in ascending order is G156E < FUS-WT < R244C < DeltaNLS. The results obtained from this study support that the computational model is able to predict the effect of mutation down to single amino acid substitution on the phase separation behavior of FUS. This efficient in silico method can be generalized to investigate the phase separation propensity of other IDPs and their mutants.",
+    "keywords": [],
+    "mesh_terms": [
+      "*RNA-Binding Protein FUS/chemistry/genetics/metabolism",
+      "*Molecular Dynamics Simulation",
+      "Monte Carlo Method",
+      "Humans",
+      "Mutation",
+      "Computer Simulation",
+      "Intrinsically Disordered Proteins/chemistry/genetics/metabolism",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fernando, Kalindu S",
+        "Chau, Ying"
+      ],
+      "short_names": [
+        "Fernando KS",
+        "Chau Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3033-6907",
+        "ORCID: 0000-0003-1759-934X"
+      ],
+      "affiliations": [
+        "Chemical and Biological Engineering Department, Hong Kong University of Science & Technology, Hong Kong SAR, China. keychau@ust.hk.",
+        "Chemical and Biological Engineering Department, Hong Kong University of Science & Technology, Hong Kong SAR, China. keychau@ust.hk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fernando, Kalindu S",
+        "short_name": "Fernando KS",
+        "identifiers": [
+          "0000-0003-3033-6907"
+        ],
+        "affiliations": [
+          "Chemical and Biological Engineering Department, Hong Kong University of Science & Technology, Hong Kong SAR, China. keychau@ust.hk."
+        ]
+      },
+      {
+        "full_name": "Chau, Ying",
+        "short_name": "Chau Y",
+        "identifiers": [
+          "0000-0003-1759-934X"
+        ],
+        "affiliations": [
+          "Chemical and Biological Engineering Department, Hong Kong University of Science & Technology, Hong Kong SAR, China. keychau@ust.hk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of materials chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Mater Chem B"
+    ],
+    "pub_date": "2024 Dec 11",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/04 12:24",
+    "fetched_at": "2026-09-21 12:22:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39495179",
+      "38546977",
+      "41656808",
+      "40792356",
+      "40516596",
+      "26455390",
+      "32687767",
+      "23912807",
+      "24280224",
+      "33159856",
+      "38029395",
+      "35297101",
+      "29364893",
+      "27381509",
+      "36690069",
+      "32393642",
+      "40842365",
+      "29961577",
+      "39885825",
+      "37211763",
+      "28924037",
+      "39486437",
+      "41535729",
+      "23545117",
+      "40281357",
+      "33307683",
+      "41415473",
+      "40693919",
+      "31630970",
+      "37399327",
+      "33547841",
+      "38111057",
+      "38112495",
+      "34624313",
+      "24013423",
+      "41576087",
+      "41609052",
+      "26317470",
+      "31270472",
+      "32426986",
+      "37130459",
+      "21965298",
+      "21327870",
+      "35134572",
+      "35709363",
+      "24738488",
+      "35943083",
+      "38593618",
+      "25173930",
+      "33607084",
+      "29677515",
+      "34587215",
+      "25207671",
+      "38492239",
+      "29677514",
+      "23474818",
+      "33022038",
+      "25447237",
+      "38462838",
+      "34648275",
+      "33184287",
+      "29677513",
+      "33857479",
+      "35002600",
+      "39801048",
+      "41524628",
+      "37815389",
+      "29511089",
+      "28790177",
+      "28942918",
+      "41504268",
+      "34487489",
+      "37158592",
+      "34737230",
+      "30442662",
+      "34598580",
+      "33229560",
+      "37961424",
+      "33139563",
+      "34516126",
+      "31805282",
+      "33453922",
+      "31022909",
+      "34716273",
+      "33934416",
+      "34156864",
+      "37134270",
+      "33167839",
+      "33582133",
+      "21949354",
+      "35320731",
+      "41114728",
+      "23620769",
+      "29547565",
+      "23046583",
+      "32976566",
+      "38157426",
+      "39947751",
+      "41571439",
+      "29723523"
+    ],
+    "review": [
+      "39495179",
+      "38029395",
+      "37399327",
+      "31022909",
+      "33167839",
+      "29547565",
+      "32976566",
+      "39947751",
+      "29723523"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d4tb01512f",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

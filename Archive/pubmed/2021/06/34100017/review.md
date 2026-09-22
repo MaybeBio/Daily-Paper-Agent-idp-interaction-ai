@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure/table legends as provided.
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript text. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors report high-resolution crystal structures of three llama-derived single-domain antibodies (sdAbs) bound to the SARS-CoV-2 Nucleocapsid (N) protein. Two sdAbs (B6 and C2) bind the N-terminal RNA-binding domain (RBD), and one (E2) binds the C-terminal dimerization domain (CTD). The authors map epitopes, assess sequence conservation across SARS-CoV-2 variants, and show that B6 and C2 affect RNA binding and liquid-liquid phase separation (LLPS) of N.
+- **Visible evidence base** Structural data (crystallography, Table S2), pulldown assays (Figure 1, Figure S1), sequence conservation analysis (Figure S2, Table S3), RNA binding assays (Figure 4a–b, Figure S3), and LLPS assays (Figure 4c–d). Figures and tables are referenced but not fully visible in the provided text.
+- **Missing materials affecting confidence** Actual figures and supplementary tables (Table S1, S2, S3) are not provided. Electron density maps, refinement statistics, and raw binding curves are not accessible. The manuscript appears to be a preprint and may lack some methodological details for full reproducibility.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a structurally and biochemically solid characterization of three sdAbs targeting the SARS-CoV-2 N protein. The crystallographic work is of high quality, with resolutions ranging from 1.42 to 2.56 Å. The epitope mapping and conservation analysis are informative and support the potential utility of these sdAbs for diagnostic applications. The functional assays linking sdAb binding to modulation of RNA binding and LLPS are interesting, though the mechanistic interpretation is somewhat speculative. The manuscript is clearly written and will be of interest to structural biologists, virologists, and those developing diagnostic tools for SARS-CoV-2. However, several technical concerns, particularly regarding the LLPS experiments and the interpretation of the RNA binding data, need to be addressed before the conclusions are fully established.
+- **Who would be interested in the results, and why** Structural biologists studying protein-antibody interactions, virologists investigating SARS-CoV-2 N protein function, and researchers developing diagnostic reagents for COVID-19. The high-resolution structures and the identification of conserved epitopes are directly relevant to the design of robust antigen tests.
+- **Major strengths** 1. High-resolution crystal structures of three sdAb-N complexes, providing detailed molecular insights into epitope recognition. 2. Comprehensive conservation analysis using a large dataset of SARS-CoV-2 sequences, supporting the potential broad reactivity of the sdAbs. 3. Functional assays demonstrating that sdAbs can modulate RNA binding and LLPS, linking structural observations to biochemical function. 4. Clear and concise writing, with a logical flow from structure to function to application.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "both sdAbs slightly reduced the affinity for ssRNA" and that "sdAb-B6 significantly reduced dsRNA binding" based on EMSA data.
+  - **Evidence pointer** Figure 4a–b, Figure S3
+  - **Concern** The EMSA experiments use a cooperative binding model with a Hill coefficient fixed at 5. The rationale for fixing this coefficient is not provided, and the observed progressive band shift toward the well suggests higher-order assembly, complicating the interpretation of binding affinities. The reported Kd values (0.56–0.82 μM) are derived from a model that may not accurately reflect the binding stoichiometry or the effects of sdAbs. The claim that sdAbs "slightly reduced" affinity is based on differences that may be within experimental error, and the statistical significance of these differences is not reported.
+  - **Why it matters** The conclusion that sdAbs compromise RNA binding is central to the proposed mechanism of action. If the binding affinities are not accurately measured, the functional significance of sdAb binding to the RBD is overstated.
+  - **Resolution test** Provide a detailed description of the EMSA quantification method, including how bound and unbound fractions were defined. Report the results of fitting with a variable Hill coefficient and provide statistical analysis (e.g., error bars, replicates, and significance tests) for the Kd values in the presence and absence of sdAbs. If higher-order assembly is observed, consider using alternative methods (e.g., fluorescence anisotropy) to measure binding affinity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "addition of sdAb-E2, which binds the CTD, did not strongly affect formation of N+RNA condensates" and that B6 and C2 "significantly compromised" LLPS.
+  - **Evidence pointer** Figure 4c–d
+  - **Concern** The LLPS experiments are described qualitatively, with no quantitative data provided in the text. The criteria for "significantly compromised" and "did not strongly affect" are not defined. The concentration of N protein used (40 μM) is high, and the stoichiometry of sdAb to N is not specified. It is unclear whether the observed effects are due to direct competition with RNA binding or to non-specific effects of the sdAbs on N self-assembly.
+  - **Why it matters** The claim that sdAbs modulate LLPS is a key finding that links the structural data to a potential functional role in the viral life cycle. Without quantitative and controlled experiments, this conclusion is not well supported.
+  - **Resolution test** Provide quantitative measurements of LLPS, such as turbidity, fluorescence recovery after photobleaching (FRAP), or droplet size distribution, in the presence and absence of each sdAb. Include a titration of sdAb concentration and a control with a non-binding sdAb. Clarify the stoichiometry of N and sdAb in the assays.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the sdAbs "could be used to develop affordable diagnostic tests to detect all circulating SARS-CoV-2 variants" based on the conservation analysis.
+  - **Evidence pointer** Figure S2, Table S3
+  - **Concern** The conservation analysis is based on sequence data from early 2021, and the authors note that the epitopes are conserved in "major variants of concern" known at that time. However, the emergence of new variants with mutations in the N protein, particularly in the RBD, could affect sdAb binding. The analysis does not include a functional validation of sdAb binding to N proteins from different variants.
+  - **Why it matters** The claim of broad utility for diagnostics is a major selling point of the manuscript. Without experimental validation against a panel of variant N proteins, this claim is speculative.
+  - **Resolution test** Perform binding assays (e.g., ELISA or BLI) with N proteins carrying mutations found in variants of concern (e.g., P80R in P.1, T135I, etc.) to confirm that sdAb binding is not affected. Alternatively, clearly state the limitations of the sequence-based analysis.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that "two antibodies recognizing the RNA binding domain affect both RNA binding affinity and RNA-mediated phase separation," but the magnitude of these effects is not quantified.
+  - **Required correction** Consider adding a brief quantitative summary (e.g., fold-change in Kd or percentage reduction in LLPS) to strengthen the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and Methods, Crystallography
+  - **Evidence pointer** Materials and Methods, Crystallography
+  - **Issue** The description of the crystallographic refinement for the NCTD:sdAb-E2 complex mentions "strong diffraction anisotropy and translational non-crystallographic symmetry (tNCS)" and that "the lowest-intensity ~17% of reflections removed." This is an unusual approach, and the rationale for this specific percentage is not explained.
+  - **Required correction** Provide a more detailed justification for the reflection pruning and describe how this affects the final model quality. Include a table of refinement statistics (Rwork/Rfree, RMSD bonds/angles) in Table S2.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, sdAb binding compromises RNA binding and phase separation
+  - **Evidence pointer** Figure 4
+  - **Issue** The text mentions "Hill coefficient ~5" but does not explain why this value was chosen or what it implies for the binding mechanism.
+  - **Required correction** Add a sentence explaining the choice of Hill coefficient and its biological significance, or report the results of fitting with a variable Hill coefficient.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion focuses on diagnostic applications but does not address the potential therapeutic use of these sdAbs, which could be of interest given their high affinity and specificity.
+  - **Required correction** Consider adding a brief paragraph on potential therapeutic applications or explaining why they are not considered.
+- **Technical failings that need to be addressed before the case is established** The quantitative basis for the RNA binding and LLPS claims (R1-M1, R1-M2) is not fully established. The EMSA analysis relies on a fixed Hill coefficient without justification, and the LLPS experiments lack quantitative data. These need to be addressed with more rigorous experimental design and statistical analysis.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The manuscript presents novel structures of sdAbs bound to the SARS-CoV-2 N protein, which is a significant contribution to the field. The identification of conserved epitopes is original and of practical value.
+  - **Scientific importance** The work is important for understanding N protein function and for developing diagnostic tools. However, the functional implications of sdAb binding on RNA binding and LLPS are not fully established, which limits the current impact.
+  - **Interdisciplinary readership** The work will appeal to structural biologists, virologists, and diagnostic developers. The clear writing and figures make it accessible to a broad audience.
+  - **Technical soundness** The crystallographic work is technically sound, but the biochemical assays (EMSA, LLPS) have methodological weaknesses that need to be addressed.
+  - **Readability for nonspecialists** The manuscript is well-written and accessible, with clear explanations of the significance of the findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural data are of high quality and the conservation analysis is compelling. However, the functional claims regarding RNA binding and LLPS need to be strengthened with more rigorous quantitative experiments. Once these are addressed, the manuscript would be suitable for publication in a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that sdAbs "could be used to develop affordable diagnostic tests to detect all circulating SARS-CoV-2 variants" is not fully supported, as no experimental validation against variant N proteins is provided.
+- The claim that sdAbs "compromise RNA binding" is based on EMSA data with a fixed Hill coefficient and lacks statistical analysis.
+- The claim that sdAbs "significantly compromised" LLPS is not supported by quantitative data.
+- The statement that "all three sdAbs will recognize the vast majority of SARS-CoV-2 N proteins" is based on sequence analysis alone and is not experimentally validated.

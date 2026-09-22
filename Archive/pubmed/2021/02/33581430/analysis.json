@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33581430",
+  "title": "Effects of pH on an IDP conformational ensemble explored by molecular dynamics simulation.",
+  "authors": "Lindsay, Richard J; Mansbach, Rachael A; Gnanakaran, S; Shen, Tongye",
+  "journal": "Biophysical chemistry",
+  "published_date": "2021-02-14",
+  "window": {
+    "start": "2021-02-08",
+    "end": "2021-02-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用分子动力学模拟研究pH对α-突触核蛋白（IDP）构象系综的影响，虽聚焦单蛋白构象而非PPI，但无序蛋白构象系综的增强采样建模方法对本课题的IDP互作机制研究有可迁移启发。",
+  "abstract": "The conformational ensemble of intrinsically disordered proteins, such as alpha-synuclein, are responsible for their function and malfunction. Misfolding of alpha-synuclein can lead to neurodegenerative diseases, and the ability to study their conformations and those of other intrinsically disordered proteins under varying physiological conditions can be crucial to understanding and preventing pathologies. In contrast to well-folded peptides, a consensus feature of IDPs is their low hydropathy and high charge, which makes their conformations sensitive to pH perturbation. We examine a prominent member of this subset of IDPs, alpha-synuclein, using a divide-and-conquer scheme that provides enhanced sampling of IDP structural ensembles. We constructed conformational ensembles of alpha-synuclein under neutral (pH ~ 7) and low (pH ~ 3) pH conditions and compared our results with available information obtained from smFRET, SAXS, and NMR studies. Specifically, alpha-synuclein has been found to in a more compact state at low pH conditions and the structural changes observed are consistent with those from experiments. We also characterize the conformational and dynamic differences between these ensembles and discussed the implication on promoting pathogenic fibril formation. We find that under low pH conditions, neutralization of negatively charged residues leads to compaction of the C-terminal portion of alpha-synuclein while internal reorganization allows alpha-synuclein to maintain its overall end-to-end distance. We also observe different levels of intra-protein interaction between three regions of alpha-synuclein at varying pH and a shift towards more hydrophilic interactions with decreasing pH.",
+  "abstract_zh": "intrinsically disordered proteins（如alpha-synuclein）的构象集合体决定了其功能与功能失调。alpha-synuclein的错误折叠可导致神经退行性疾病，而研究其及其他 intrinsically disordered proteins 在不同生理条件下的构象，对于理解和预防病理过程至关重要。与折叠良好的肽段相比，IDPs 的一个共识特征是其低水合性和高电荷，这使得其构象对 pH 扰动敏感。我们采用一种分而治之的方案，对这类 IDPs 中的突出成员 alpha-synuclein 进行研究，该方案提供了对 IDP 结构集合体的增强采样。我们在中性（pH ~ 7）和低（pH ~ 3）pH 条件下构建了 alpha-synuclein 的构象集合体，并将我们的结果与从 smFRET、SAXS 和 NMR 研究中获得的可用信息进行了比较。具体而言，发现 alpha-synuclein 在低 pH 条件下处于更紧凑的状态，观察到的结构变化与实验结果一致。我们还表征了这些集合体之间的构象和动态差异，并讨论了其对促进致病性原纤维形成的意义。我们发现，在低 pH 条件下，负电荷残基的中和导致 alpha-synuclein 的 C 端部分压缩，而内部重组使 alpha-synuclein 保持其整体端到端距离。我们还观察到在不同 pH 下 alpha-synuclein 三个区域之间不同水平的蛋白质内相互作用，以及随着 pH 降低向更亲水性相互作用的转变。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33581430/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33581430/",
+  "paper_page_path": "papers/pubmed/33581430/index.html"
+}

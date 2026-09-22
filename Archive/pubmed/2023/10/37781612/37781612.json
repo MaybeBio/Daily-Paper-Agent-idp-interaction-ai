@@ -1,0 +1,300 @@
+{
+  "identity": {
+    "pmid": "37781612",
+    "doi": "10.1101/2023.09.19.558334",
+    "title": "Mesoscale molecular assembly is favored by the active, crowded cytoplasm."
+  },
+  "content": {
+    "abstract": "The mesoscale organization of molecules into membraneless biomolecular condensates is emerging as a key mechanism of rapid spatiotemporal control in cells(1). Principles of biomolecular condensation have been revealed through in vitro reconstitution(2). However, intracellular environments are much more complex than test-tube environments: They are viscoelastic, highly crowded at the mesoscale, and are far from thermodynamic equilibrium due to the constant action of energy-consuming processes(3). We developed synDrops, a synthetic phase separation system, to study how the cellular environment affects condensate formation. Three key features enable physical analysis: synDrops are inducible, bioorthogonal, and have well-defined geometry. This design allows kinetic analysis of synDrop assembly and facilitates computational simulation of the process. We compared experiments and simulations to determine that macromolecular crowding promotes condensate nucleation but inhibits droplet growth through coalescence. ATP-dependent cellular activities help overcome the frustration of growth. In particular, actomyosin dynamics potentiate droplet growth by reducing confinement and elasticity in the mammalian cytoplasm, thereby enabling synDrop coarsening. Our results demonstrate that mesoscale molecular assembly is favored by the combined effects of crowding and active matter in the cytoplasm. These results move toward a better predictive understanding of condensate formation in vivo.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shu, Tong",
+        "Mitra, Gaurav",
+        "Alberts, Jonathan",
+        "Viana, Matheus P",
+        "Levy, Emmanuel D",
+        "Hocky, Glen M",
+        "Holt, Liam J"
+      ],
+      "short_names": [
+        "Shu T",
+        "Mitra G",
+        "Alberts J",
+        "Viana MP",
+        "Levy ED",
+        "Hocky GM",
+        "Holt LJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute for Systems Genetics, NYU Langone Medical Center, 435 E 30th Street, New York, NY 10016, USA.",
+        "Department of Chemistry, New York University, New York, New York, USA.",
+        "Institute for Systems Genetics, NYU Langone Medical Center, 435 E 30th Street, New York, NY 10016, USA.",
+        "Department of Chemistry, New York University, New York, New York, USA.",
+        "Allen Institute for Cell Science, Seattle, WA, USA.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Institute for Systems Genetics, New York University Langone Medical Center, 435 E 30th Street, New York, NY 10010, USA.",
+        "Simons Center for Computational Physical Chemistry, New York University, New York, New York, USA.",
+        "Allen Institute for Cell Science, Seattle, WA, USA.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Chemistry, New York University, New York, New York, USA.",
+        "Simons Center for Computational Physical Chemistry, New York University, New York, New York, USA.",
+        "Institute for Systems Genetics, NYU Langone Medical Center, 435 E 30th Street, New York, NY 10016, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shu, Tong",
+        "short_name": "Shu T",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Langone Medical Center, 435 E 30th Street, New York, NY 10016, USA."
+        ]
+      },
+      {
+        "full_name": "Mitra, Gaurav",
+        "short_name": "Mitra G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, New York University, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Alberts, Jonathan",
+        "short_name": "Alberts J",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Langone Medical Center, 435 E 30th Street, New York, NY 10016, USA.",
+          "Department of Chemistry, New York University, New York, New York, USA.",
+          "Allen Institute for Cell Science, Seattle, WA, USA.",
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, Israel.",
+          "Institute for Systems Genetics, New York University Langone Medical Center, 435 E 30th Street, New York, NY 10010, USA.",
+          "Simons Center for Computational Physical Chemistry, New York University, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Viana, Matheus P",
+        "short_name": "Viana MP",
+        "identifiers": [],
+        "affiliations": [
+          "Allen Institute for Cell Science, Seattle, WA, USA."
+        ]
+      },
+      {
+        "full_name": "Levy, Emmanuel D",
+        "short_name": "Levy ED",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Hocky, Glen M",
+        "short_name": "Hocky GM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, New York University, New York, New York, USA.",
+          "Simons Center for Computational Physical Chemistry, New York University, New York, New York, USA."
+        ]
+      },
+      {
+        "full_name": "Holt, Liam J",
+        "short_name": "Holt LJ",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Systems Genetics, NYU Langone Medical Center, 435 E 30th Street, New York, NY 10016, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Sep 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/02 06:42",
+    "fetched_at": "2026-09-21 01:52:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37781612",
+      "40162127",
+      "23912807",
+      "34206440",
+      "36594499",
+      "39660892",
+      "37398029",
+      "37546967",
+      "38331392",
+      "36829460",
+      "33581219",
+      "39059370",
+      "32824618",
+      "37073403",
+      "35796197",
+      "36191226",
+      "31001538",
+      "33168632",
+      "34767801",
+      "35867936",
+      "31199001",
+      "34241502",
+      "33057154",
+      "32800925",
+      "38607029",
+      "36758221",
+      "37688556",
+      "35881789",
+      "35293386",
+      "36463407",
+      "37546778",
+      "37461689",
+      "39574691",
+      "39655866",
+      "39042834",
+      "33453934",
+      "39498261",
+      "36108633",
+      "33510441",
+      "34552246",
+      "33300985",
+      "33890764",
+      "35096966",
+      "37131735",
+      "37931170",
+      "40172489",
+      "32254643",
+      "34315935",
+      "39227569",
+      "36315857",
+      "40034645",
+      "33049213",
+      "29632271",
+      "37286396",
+      "39947751",
+      "39327453",
+      "35411085",
+      "34772789",
+      "40290937",
+      "34507991",
+      "33376791",
+      "34179888",
+      "35073746",
+      "33020904",
+      "34129687",
+      "37925283",
+      "39149291",
+      "38308651",
+      "35978196",
+      "31753533",
+      "32818469",
+      "37735186",
+      "37065433",
+      "35325654",
+      "34186016",
+      "40168179",
+      "40183356",
+      "35974095",
+      "36185357",
+      "37546704",
+      "37020020",
+      "38424273",
+      "39168125",
+      "36164646",
+      "38116396",
+      "38192101",
+      "36883003",
+      "36854378",
+      "36979462",
+      "33610691",
+      "38588907",
+      "37470705",
+      "40127264",
+      "24411263",
+      "34573116",
+      "37202374",
+      "37171907",
+      "38766065",
+      "37904914",
+      "40203038"
+    ],
+    "review": [
+      "37781612",
+      "39660892",
+      "38331392",
+      "32824618",
+      "35796197",
+      "31001538",
+      "33168632",
+      "34767801",
+      "32800925",
+      "33510441",
+      "33300985",
+      "35096966",
+      "37931170",
+      "40172489",
+      "33049213",
+      "29632271",
+      "37286396",
+      "39947751",
+      "39327453",
+      "34772789",
+      "34179888",
+      "37925283",
+      "31753533",
+      "35974095",
+      "36164646",
+      "38588907",
+      "34573116",
+      "37202374"
+    ],
+    "pmc": [
+      "10541124"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37781612/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37781612",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.09.19.558334",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

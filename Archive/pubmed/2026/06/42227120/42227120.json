@@ -1,0 +1,215 @@
+{
+  "identity": {
+    "pmid": "42227120",
+    "doi": "10.1080/07391102.2026.2671163",
+    "title": "Overinvestment in ultra‑rare APOE variants and highly speculative apoE-inhibitor docking risks undermining translational progress in sporadic Alzheimer's disease."
+  },
+  "content": {
+    "abstract": "Misclassification of ultra-rare and isoform-defining APOE variants, together with unsupported attempts to dock small-molecule 'inhibitors' to apolipoprotein E (apoE), continues to appear in the structural bioinformatics literature. Such inconsistencies stem from a broader misunderstanding of apoE as a highly flexible, two-domain protein with extensive intrinsically disordered regions (IDRs), a context essential for interpreting sequence variation. A recurring issue is the treatment of the pathogenic epsilon4 and protective epsilon2 substitutions as independent rare variants rather than as the canonical APOE isoform-defining polymorphism, a misinterpretation arising, for instance, from inconsistent minor-allele-frequency filtering and leading to overinterpretation of ultra-rare substitutions lacking established clinical relevance. Likewise, no experimental evidence supports stable interactions between apoE and small 'inhibitors' such as donepezil or other acetylcholinesterase drugs that provide only symptomatic benefit in Alzheimer's disease (AD). Docking such small ligands to apoE-frequently using incompatible homology models and outdated molecular-dynamics force fields ill-suited for proteins with large IDRs (e.g. AMBERff03)-tends to generate simulation-artifact cavities and non-biological ligand poses; compounding this, ligand protonation is frequently misassigned, such as the neutral state often attributed to donepezil, leading to meaningless structure-activity relationships. Collectively, these issues risk obscuring the well-established genetic architecture of APOE-associated AD and highlight the need for methodological rigor in in-silico structural modeling.",
+    "keywords": [
+      "APOE variants",
+      "Alzheimer's disease",
+      "apolipoprotein E4",
+      "cholinesterase inhibitors",
+      "molecular docking",
+      "molecular dynamics",
+      "variant effect predictors"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gillet, Jean-Numa"
+      ],
+      "short_names": [
+        "Gillet JN"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2875-3648"
+      ],
+      "affiliations": [
+        "Centre for Computational Biology and Bioinformatics, School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gillet, Jean-Numa",
+        "short_name": "Gillet JN",
+        "identifiers": [
+          "0000-0003-2875-3648"
+        ],
+        "affiliations": [
+          "Centre for Computational Biology and Bioinformatics, School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2026 Jun 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/02 06:37",
+    "fetched_at": "2026-09-18 03:49:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42227120",
+      "41355503",
+      "28876770",
+      "41085188",
+      "16103669",
+      "40820349",
+      "35948759",
+      "8669492",
+      "40196265",
+      "41390037",
+      "41198610",
+      "25551132",
+      "39768823",
+      "37488848",
+      "41085205",
+      "35582645",
+      "35256931",
+      "33761857",
+      "40145985",
+      "35639372",
+      "40892789",
+      "31444704",
+      "39713891",
+      "16603077",
+      "26402762",
+      "41951832",
+      "12614323",
+      "24633805",
+      "27567841",
+      "38835072",
+      "35900209",
+      "38301647",
+      "29555425",
+      "39354618",
+      "33090224",
+      "27328687",
+      "36707869",
+      "35354468",
+      "32725468",
+      "25624419",
+      "30041236",
+      "34404470",
+      "37547016",
+      "23892237",
+      "36226340",
+      "18416843",
+      "35573689",
+      "34747789",
+      "17498878",
+      "32333488",
+      "28589856",
+      "11285089",
+      "24972680",
+      "33148290",
+      "42141160",
+      "26876367",
+      "20088621",
+      "33637690",
+      "36978190",
+      "36399096",
+      "36795776",
+      "34310032",
+      "11354629",
+      "37051669",
+      "34266503",
+      "41884619",
+      "15172744",
+      "36002891",
+      "40703204",
+      "27358062",
+      "25880661",
+      "39335404",
+      "27395454",
+      "41268805",
+      "26969397",
+      "14757857",
+      "39149451",
+      "35347084",
+      "9700208",
+      "31331998",
+      "39606324",
+      "23990795",
+      "39722484",
+      "35077012",
+      "23781009",
+      "8618665",
+      "16543533",
+      "15664112",
+      "42170779",
+      "40275327",
+      "30110694",
+      "34011927",
+      "18401173",
+      "33376986",
+      "29534716",
+      "18439297",
+      "40149482",
+      "26506597",
+      "37433038",
+      "19013250"
+    ],
+    "review": [
+      "42227120",
+      "40820349",
+      "35948759",
+      "25551132",
+      "37488848",
+      "35256931",
+      "31444704",
+      "12614323",
+      "27328687",
+      "36707869",
+      "30041236",
+      "33148290",
+      "26876367",
+      "37051669",
+      "39335404",
+      "26969397",
+      "39722484",
+      "40275327",
+      "30110694",
+      "29534716"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2026.2671163?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1087",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

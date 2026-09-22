@@ -1,0 +1,705 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.16.603789",
+  "title": "Diffusing protein binders to intrinsically disordered proteins",
+  "doi": "10.1101/2024.07.16.603789",
+  "abstract": "Proteins which bind intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs) with high affinity and specificity could have considerable utility for therapeutic and diagnostic applications. However, a general methodology for targeting IDPs/IDRs has yet to be developed. Here, we show that starting only from the target sequence of the input, and freely sampling both target and binding protein conformation, RFdiffusion can generate binders to IDPs and IDRs in a wide range of conformations. We use this approach to generate binders to the IDPs Amylin, C-peptide and VP48 in a range of conformations with Kds in the 3 -100nM range. The Amylin binder inhibits amyloid fibril formation and dissociates existing fibers, and enables enrichment of amylin for mass spectrometry-based detection. For the IDRs G3bp1, common gamma chain (IL2RG) and prion, we diffused binders to beta strand conformations of the targets, obtaining 10 to 100 nM affinity. The IL2RG binder colocalizes with the receptor in cells, enabling new approaches to modulating IL2 signaling. Our approach should be widely useful for creating binders to flexible IDPs/IDRs spanning a wide range of intrinsic conformational preferences.",
+  "authors": [
+    "Caixuan Liu",
+    "Kejia Wu",
+    "Hojun Choi",
+    "Hannah Han",
+    "Xulie Zhang",
+    "Joseph L. Watson",
+    "Sara Shijo",
+    "Asim K. Bera",
+    "Alex Kang",
+    "Evans Brackenbrough",
+    "Brian Coventry",
+    "Derrick R. Hick",
+    "Andrew N. Hoofnagle",
+    "Ping Zhu",
+    "Xingting Li",
+    "Justin Decarreau",
+    "Stacey R. Gerben",
+    "Wei Yang",
+    "Xinru Wang",
+    "Mila Lamp",
+    "Analisa Murray",
+    "Magnus Bauer",
+    "David Baker"
+  ],
+  "published_date": "2024-07-16",
+  "updated_date": "2024-07-17T00:35:18Z",
+  "journal": "bioRxiv",
+  "category": "Biochemistry",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.16.603789",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.16.603789.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biochemistry"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biochemistry",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            19
+          ]
+        ],
+        "date-time": "2026-09-19T14:15:01Z",
+        "timestamp": 1789827301945,
+        "version": "4.0.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            16
+          ]
+        ]
+      },
+      "group-title": "Biochemistry",
+      "reference-count": 50,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            16
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Proteins which bind intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs) with high affinity and specificity could have considerable utility for therapeutic and diagnostic applications. However, a general methodology for targeting IDPs/IDRs has yet to be developed. Here, we show that starting only from the target sequence of the input, and freely sampling both target and binding protein conformation, RFdiffusion can generate binders to IDPs and IDRs in a wide range of conformations. We use this approach to generate binders to the IDPs Amylin, C-peptide and VP48 in a range of conformations with Kds in the 3 -100nM range. The Amylin binder inhibits amyloid fibril formation and dissociates existing fibers, and enables enrichment of amylin for mass spectrometry-based detection. For the IDRs G3bp1, common gamma chain (IL2RG) and prion, we diffused binders to beta strand conformations of the targets, obtaining 10 to 100 nM affinity. The IL2RG binder colocalizes with the receptor in cells, enabling new approaches to modulating IL2 signaling. Our approach should be widely useful for creating binders to flexible IDPs/IDRs spanning a wide range of intrinsic conformational preferences.</jats:p>",
+      "DOI": "10.1101/2024.07.16.603789",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            17
+          ]
+        ],
+        "date-time": "2024-07-17T00:35:18Z",
+        "timestamp": 1721176518000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 24,
+      "title": [
+        "Diffusing protein binders to intrinsically disordered proteins"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1954-0731",
+          "authenticated-orcid": false,
+          "given": "Caixuan",
+          "family": "Liu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kejia",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hojun",
+          "family": "Choi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hannah",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xulie",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Joseph L.",
+          "family": "Watson",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sara",
+          "family": "Shijo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Asim K.",
+          "family": "Bera",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alex",
+          "family": "Kang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Evans",
+          "family": "Brackenbrough",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Brian",
+          "family": "Coventry",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Derrick R.",
+          "family": "Hick",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Andrew N.",
+          "family": "Hoofnagle",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ping",
+          "family": "Zhu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xingting",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Justin",
+          "family": "Decarreau",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stacey R.",
+          "family": "Gerben",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wei",
+          "family": "Yang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xinru",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mila",
+          "family": "Lamp",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Analisa",
+          "family": "Murray",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Magnus",
+          "family": "Bauer",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Baker",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.1",
+          "doi-asserted-by": "crossref",
+          "unstructured": "1 Zhang, G. , et al. Islet amyloid polypeptide cross-seeds tau and drives the neurofibrillary pathology in Alzheimer’s disease. (2022).",
+          "DOI": "10.1186/s13024-022-00518-y"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm1589"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.febslet.2005.03.072"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2016.10.015"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/518027a"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/521274a"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.21417"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/gzaa014"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2021569118"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/2023.01.13.523785"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06953-1"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-05909-9"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41589-024-01578-5"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-06415-8"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.86.24.9662"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.3109/03009734.2011.573884"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1111/febs.15253"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M809085200"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1093-3263(00)00138-8"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4905586"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.add2187"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03819-2"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-38328-5"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41387-020-00148-7"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Iqbal, S. , Jayyab, A. A. , Alrashdi, A. M. & Reverté-Villarroya, S . The Predictive Ability of C-Peptide in Distinguishing Type 1 Diabetes From Type 2 Diabetes: A Systematic Review and Meta-Analysis. (2023).",
+          "DOI": "10.1016/j.eprac.2023.01.004"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/cr.2013.122"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2020.03.046"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev.pathmechdis.3.121806.154326"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41576-018-0011-4"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.6801762"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0092-8674(84)90533-6"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.6815801"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bbamem.2018.02.031"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmb.2007.02.033"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/pr800063u"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.immuni.2019.03.028"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-022-14382-9"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmsacl.2022.09.005"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1373/clinchem.2008.109652"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1210/jc.2004-0405"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0217889"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-019-1923-7"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1997.0959"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-38328-5"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444909047374"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444910045749"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0021889807021206"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444909052925"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0907444904019158"
+        },
+        {
+          "key": "2024071813000980000_2024.07.16.603789v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3330"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.07.16.603789",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:43:15Z",
+        "timestamp": 1768459395000
+      },
+      "score": 64.13112,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.07.16.603789"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            16
+          ]
+        ]
+      },
+      "references-count": 50,
+      "URL": "https://doi.org/10.1101/2024.07.16.603789",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s41586-025-09248-9",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            16
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

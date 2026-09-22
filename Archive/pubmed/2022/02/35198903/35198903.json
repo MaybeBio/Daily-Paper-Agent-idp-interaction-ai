@@ -1,0 +1,277 @@
+{
+  "identity": {
+    "pmid": "35198903",
+    "doi": "10.1016/j.isci.2022.103852",
+    "title": "Surface tension and super-stoichiometric surface enrichment in two-component biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Cells can achieve internal organization by exploiting liquid-liquid phase separation to form biomolecular condensates. Here we focus on the surface properties of condensates composed of two multivalent associative polymers held together by one-to-one \"sticker\" bonds. Using coarse-grained molecular-dynamics simulations, we study the influence of component stoichiometry on condensate surface properties. We find that unequal stoichiometry results in enrichment of the majority species at the interface and a sharp reduction of surface tension. To relate these two effects, we show that the reduction in surface tension scales linearly with the excess concentration of free binding sites at the interface. Our results imply that each excess free site contributes an approximately fixed additional energy and entropy to the interface, with the latter dominating such that enrichment of free majority sites lowers the surface tension. Our work provides insight into novel physical mechanisms by which cells can regulate condensate surface properties.",
+    "keywords": [
+      "Biophysical chemistry",
+      "Mathematical biosciences",
+      "Molecular dynamics"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pyo, Andrew G T",
+        "Zhang, Yaojun",
+        "Wingreen, Ned S"
+      ],
+      "short_names": [
+        "Pyo AGT",
+        "Zhang Y",
+        "Wingreen NS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Physics, Princeton University, Princeton, NJ 08544, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Physics and Astronomy and Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Molecular Biology, Princeton University, Princeton, NJ 08544, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pyo, Andrew G T",
+        "short_name": "Pyo AGT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yaojun",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Princeton University, Princeton, NJ 08544, USA.",
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544, USA.",
+          "Department of Physics and Astronomy and Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Wingreen, Ned S",
+        "short_name": "Wingreen NS",
+        "identifiers": [],
+        "affiliations": [
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544, USA.",
+          "Department of Molecular Biology, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2022 Feb 18",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/25 06:00",
+    "fetched_at": "2026-09-20 08:31:55"
+  },
+  "links": {
+    "cites": [
+      "42599996",
+      "40881393",
+      "40571657",
+      "39152221",
+      "38885177",
+      "38383656",
+      "37252985",
+      "37065433",
+      "36829460",
+      "36430551",
+      "36243979"
+    ],
+    "refs": [
+      "36247368",
+      "35211183",
+      "34516789",
+      "34315935",
+      "33704061",
+      "33672806",
+      "33558506",
+      "33453268",
+      "33445149",
+      "33230314",
+      "32857503",
+      "32571937",
+      "32484438",
+      "32482873",
+      "32302570",
+      "32214099",
+      "32087632",
+      "32004090",
+      "31874413",
+      "31634364",
+      "30846599",
+      "30498228",
+      "30339413",
+      "30017918",
+      "29930091",
+      "29364893",
+      "29133588",
+      "29091028",
+      "28938114",
+      "27212236",
+      "27166422",
+      "27056844",
+      "26777405",
+      "25747659",
+      "24314076",
+      "23415227",
+      "22398450",
+      "19460965",
+      "18388293",
+      "16863319"
+    ],
+    "similar": [
+      "35198903",
+      "33672806",
+      "33704061",
+      "37252985",
+      "39386700",
+      "39320949",
+      "36758221",
+      "37791635",
+      "38363841",
+      "32584357",
+      "33453268",
+      "37194953",
+      "36004748",
+      "33307683",
+      "33453924",
+      "35378855",
+      "34762868",
+      "37873097",
+      "33864415",
+      "36397514",
+      "34748548",
+      "32004090",
+      "37886520",
+      "35179885",
+      "36993212",
+      "31634364",
+      "37549257",
+      "37873180",
+      "34865286",
+      "35293386",
+      "35881789",
+      "32482873",
+      "38766065",
+      "33087563",
+      "35727989",
+      "36847235",
+      "37065433",
+      "38591689",
+      "37782826",
+      "37156794",
+      "37894933",
+      "37503034",
+      "37159305",
+      "31017394",
+      "34772789",
+      "36071192",
+      "38383656",
+      "35119898",
+      "36247368",
+      "37013374",
+      "35364105",
+      "33558506",
+      "34090478",
+      "36227487",
+      "34767801",
+      "37489654",
+      "33300985",
+      "34144468",
+      "37190858",
+      "34315935",
+      "38405951",
+      "34129784",
+      "38781207",
+      "38670952",
+      "36191226",
+      "36524527",
+      "38579181",
+      "23912807",
+      "38175843",
+      "34785657",
+      "38961263",
+      "37856873",
+      "35001622",
+      "33578289",
+      "33650968",
+      "34552246",
+      "38832749",
+      "34516789",
+      "38328070",
+      "37131735",
+      "38987300",
+      "36227474",
+      "34573116",
+      "37925283",
+      "34236318",
+      "33653957"
+    ],
+    "review": [
+      "35198903",
+      "32004090",
+      "35179885",
+      "34865286",
+      "34772789",
+      "36071192",
+      "34767801",
+      "33300985",
+      "34144468",
+      "34129784",
+      "36524527",
+      "38175843",
+      "33578289",
+      "34573116"
+    ],
+    "pmc": [
+      "8851291"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(22)00122-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35198903/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35198903",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

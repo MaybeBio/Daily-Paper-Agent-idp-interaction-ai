@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, and references cited within the provided text)
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the provided manuscript text. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors propose that liquid-liquid phase-separated condensates can physically reshape cellular membranes through capillary forces at the condensate-membrane interface. They combine in planta observations of tonoplast-derived sheets and cups in Arabidopsis embryos, in vitro reconstitution using GUVs encapsulating phase-separated polymer solutions, and computational modeling (MC minimization and MC simulations) to argue that interfacial tension (Σ) and vesicle volume-to-area ratio (v) govern the stability and transitions between tube, sheet, and cup morphologies. They further propose that cup formation exhibits hysteresis, requiring a tube-to-sheet-to-cup cascade, and that this mechanism explains the formation of "bulbs" in plant vacuoles.
+- **Visible evidence base** Main text figures (Figs. 1-5), methods section, and references to SI Appendix figures (Figs. S1-S11). Specific numerical data, full image sets, and complete SI content were not provided.
+- **Missing materials affecting confidence** Full supplementary information (SI Appendix), including detailed methods for MC simulations, spinning drop tensiometry data, electron microscopy images, and extended parameter sweeps. Raw data files and analysis scripts were not provided. Figure panels referenced but not fully described in the text (e.g., Fig. 1E-F details, Fig. 2D-F STED images) could not be independently assessed.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and well-integrated study combining cell biology, biophysics, and computational modeling to propose a general mechanism for condensate-mediated membrane reshaping. The central hypothesis, that capillary forces at condensate-membrane interfaces drive shape transitions between tubes, sheets, and cups, is clearly articulated and supported by convergent evidence from three complementary approaches. The computational model is elegant and provides testable predictions. However, several technical concerns, particularly regarding the quantitative link between in vitro and in silico results, the treatment of intermembrane interactions, and the physiological relevance of the proposed hysteresis, need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Cell biologists studying membrane dynamics, organelle biogenesis, and plant seed development; biophysicists interested in membrane-condensate interactions, capillarity, and vesicle shape transitions; and researchers in the growing field of biomolecular condensates and their physiological functions. The work provides a new physical mechanism for membrane remodeling that is likely applicable beyond the plant vacuole system, e.g., to Golgi organization and autophagosome formation.
+- **Major strengths** 1) The combination of in vivo, in vitro, and in silico approaches is powerful and mutually reinforcing. 2) The computational model is conceptually simple yet captures the essential physics, providing a clear morphological diagram with testable predictions. 3) The identification of hysteresis in cup formation is a novel and interesting prediction. 4) The work addresses a long-standing question about the mechanism of "bulb" formation in plant vacuoles. 5) The writing is clear and accessible to a broad audience.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative consistency between in vitro and in silico results
+  - **Claim pointer** The authors state that "both in vitro and in silico results indicate that the tube-to-sheet transition time (τ1) ... decreases at higher interfacial tension" and that "the characteristic trends of metastability and energy barriers are conserved across in vitro and in silico systems."
+  - **Evidence pointer** Fig. 5D-E, Section "Activated Shape Transitions"
+  - **Concern** The comparison between in vitro and in silico transition times is qualitative. The in vitro system measures real time (minutes to hours) with a distribution of vesicle sizes and shapes, while the in silico system measures MC steps at a fixed v and σ. The authors do not provide a quantitative mapping between MC steps and physical time, nor do they account for the polydispersity of the experimental system. The claim of "conserved trends" is supported, but the quantitative agreement is not established. The convergence of τ1 and τ2 at Σ≈10 μN/m is intriguing but not explained mechanistically.
+  - **Why it matters** The central claim is that the computational model captures the physics of the experimental system. Without a quantitative link, the model remains a qualitative analogy. The convergence point at Σ≈10 μN/m could be a coincidence or could reflect a fundamental balance between bending and interfacial energies; this needs to be clarified.
+  - **Resolution test** Provide a quantitative comparison, e.g., by plotting in vitro transition times against a scaled version of the in silico MC step counts, or by explicitly modeling the experimental size distribution in the simulations. Alternatively, state clearly the limitations of the comparison and avoid implying quantitative agreement.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Treatment of intermembrane interactions
+  - **Claim pointer** The authors state that "the apposing membranes are not in contact but remain separated, likely stabilized by electrostatic repulsions" and that "our calculations and STED measurements show that the apposing membranes are not in contact but remain separated, likely stabilized by electrostatic repulsions."
+  - **Evidence pointer** Fig. 2D-F, Section "In Vitro Reconstitution of Interfacial Membranes"
+  - **Concern** The computational model explicitly neglects intermembrane interactions ("Our model neglects contributions from varying contact angles, membrane spontaneous curvature, and discontinuities at the three-phase contact line"). However, the experimental data show that membranes are separated by 105-204 nm, and the authors invoke electrostatic repulsion to explain this. If intermembrane interactions are significant in the experimental system, they should be included in the model, or the authors should demonstrate that they do not qualitatively alter the predicted phase diagram. The current approach of neglecting them in the model while invoking them to explain experimental observations is internally inconsistent.
+  - **Why it matters** The model's predictions for the stability of sheets and cups may be quantitatively or even qualitatively wrong if intermembrane interactions are important. The separation distance of ~100-200 nm is large, but the authors' own DLVO estimates suggest repulsion is relevant below ~200 nm. This could shift the energy barriers and transition times.
+  - **Resolution test** Either include a repulsive intermembrane potential in the computational model and show that the phase diagram is unchanged, or provide a quantitative argument for why these interactions can be neglected in the regime of interest (e.g., by showing that the energy scale of the repulsion is much smaller than the bending and interfacial energies).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance of hysteresis
+  - **Claim pointer** The authors state that "cup formation exhibits hysteresis: This morphology depends not only on the instantaneous value of Σ, but also on the system's history of shape transitions, in which tubes transform into sheets and ultimately into cups."
+  - **Evidence pointer** Section "Membrane Shape Remodeling and Symmetry Breaking", Fig. 5A-B
+  - **Concern** The hysteresis prediction is based on the computational model. The experimental evidence for hysteresis is indirect: the authors observe cups at low Σ and sheets at high Σ in vitro, but they do not demonstrate that the same vesicle population follows a history-dependent path. The in vivo observations are static snapshots. The claim that "relatively small changes in the energetic state of the condensate-membrane system can trigger irreversible transitions" is speculative.
+  - **Why it matters** Hysteresis implies memory and irreversibility, which has implications for cellular regulation. If the system can be trapped in a cup state even when conditions favor sheets, this could be a mechanism for stable morphological change. However, this is a strong claim that needs direct experimental support.
+  - **Resolution test** Design an experiment where Σ is increased and then decreased in the same GUV population and show that the morphology does not simply follow the equilibrium prediction. Alternatively, provide a more detailed analysis of the in vivo time course showing that cups do not revert to sheets under conditions where sheets are expected.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the mechanism
+  - **Claim pointer** The authors state that "our findings reveal a general mechanism by which condensates remodel membranes" and that the mechanism is "likely applicable to these and other biological systems where condensates interact with membranes."
+  - **Evidence pointer** Section "Conclusion"
+  - **Concern** The experimental system is highly specific: plant vacuoles with storage protein condensates and GUVs with PEG/dextran. The physical mechanism (capillary forces) is general, but the specific predictions (e.g., the values of Σ at which transitions occur, the role of v) may depend on the material properties of the condensate and membrane. The authors do not discuss how their results would change for different condensate compositions, membrane rigidities, or adhesion energies.
+  - **Why it matters** The claim of generality is important for the impact of the work. If the mechanism only operates in a narrow parameter range, its biological relevance is limited.
+  - **Resolution test** Provide a discussion of the parameter space over which the mechanism is expected to operate, based on the dimensionless numbers (σ, v) and typical values for cellular condensates and membranes. Alternatively, perform simulations with different parameter values to show the robustness of the predictions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Fig. 1D
+  - **Evidence pointer** Fig. 1D
+  - **Issue** The text states that sheets and cups exhibit "approximately twice" the fluorescence intensity of the surrounding tonoplast, but the figure is not provided in the manuscript text. The claim of two closely apposed bilayers is central to the interpretation, so the evidence should be clearly presented.
+  - **Required correction** Ensure that the fluorescence intensity quantification is clearly shown in the figure, with appropriate controls and statistical analysis.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Definition of "cup" and "sheet"
+  - **Affected element** Section "In Planta Observation of Interfacial Vacuole Membranes"
+  - **Evidence pointer** Fig. 1E-F
+  - **Issue** The terms "sheet" and "cup" are introduced without precise geometric definitions. It is unclear how these are distinguished from other membrane shapes (e.g., vesicles, tubules) and what the quantitative criteria are for classification.
+  - **Required correction** Provide clear definitions or criteria for classification, possibly with schematic diagrams or quantitative shape descriptors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Section "In Vitro Reconstitution of Interfacial Membranes"
+  - **Evidence pointer** Fig. 4A
+  - **Issue** The frequency distributions of membrane shapes are quantified, but the statistical treatment is not described. It is unclear how many independent experiments were performed, how many vesicles were counted per condition, and what the error bars represent.
+  - **Required correction** Provide a clear description of the statistical methods, including the number of replicates, the number of vesicles counted, and the definition of error bars.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Contact angle measurements
+  - **Affected element** Section "Theoretical Vesicle Model and the Role of the Contact Angle"
+  - **Evidence pointer** SI Appendix, Fig. S4
+  - **Issue** The authors state that electron microscopy images were used to assess the contact angle, but the results of this assessment are not presented in the main text. The claim that the contact angle does not play a significant role is based on the theoretical model, but the experimental validation is not shown.
+  - **Required correction** Briefly summarize the electron microscopy findings in the main text or clearly state that the contact angle was not directly measured and that the model assumption is an approximation.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** N/A
+  - **Issue** The term "capillary forces" is used throughout, but the physical origin of these forces (interfacial tension at the condensate-membrane interface) could be clarified. The distinction between capillary forces and other possible mechanisms (e.g., osmotic pressure, adhesion) should be made explicit.
+  - **Required correction** Add a brief explanation of the physical origin of capillary forces in this context and how they differ from other potential driving forces.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative in vitro-in silico link), R1-M2 (neglect of intermembrane interactions in the model), R1-M3 (direct experimental evidence for hysteresis).
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The combination of capillary forces and membrane shape transitions in the context of condensates is novel. While individual components (condensate wetting, vesicle shape transitions) are known, their integration into a unified framework with hysteresis is original.
+  - **Scientific importance** High. The work provides a new physical mechanism for membrane remodeling that is likely relevant to a wide range of cellular processes, including organelle biogenesis, autophagy, and plant development. The quantitative framework is a significant contribution.
+  - **Interdisciplinary readership** High. The work bridges cell biology, biophysics, and computational modeling, and should appeal to researchers in all three fields. The clear writing and conceptual framing make it accessible.
+  - **Technical soundness** Moderate. The experimental and computational methods are appropriate, but the quantitative link between them is weak (R1-M1), and the model neglects potentially important interactions (R1-M2). The statistical treatment of the in vitro data is incomplete (R1-m3).
+  - **Readability for nonspecialists** Good. The significance statement and introduction are clear. The results are presented logically. Some sections (e.g., the theoretical model) may be challenging for nonspecialists, but the main conclusions are accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is compelling and the multi-pronged approach is commendable. However, the quantitative link between experiments and simulations needs to be strengthened, the treatment of intermembrane interactions clarified, and the hysteresis claim supported by direct experimental evidence. These are addressable with additional analysis and possibly targeted experiments.
+
+## Risk / unsupported claims
+- The claim that the mechanism is "general" and applicable to other biological systems (e.g., Golgi, autophagosomes) is speculative and not directly supported by the data presented.
+- The claim that "relatively small changes in the energetic state of the condensate-membrane system can trigger irreversible transitions" is not directly supported by experimental evidence.
+- The quantitative agreement between in vitro and in silico transition times is claimed but not demonstrated.
+- The statement that "the apposing membranes are not in contact but remain separated, likely stabilized by electrostatic repulsions" is presented as a conclusion, but the evidence is indirect (STED measurements and DLVO estimates) and the mechanism is not directly tested.
+- The physiological relevance of the observed structures ("bulbs") is inferred but not directly tested (e.g., through genetic or pharmacological manipulation).

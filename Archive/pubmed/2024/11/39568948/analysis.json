@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39568948",
+  "title": "Sequence-dependent conformational transitions of disordered proteins during condensation.",
+  "authors": "Wang, Jiahui; Sundaravadivelu Devarajan, Dinesh; Muthukumar, Keerthivasan; Kim, Young C; Nikoubashman, Arash; Mittal, Jeetain",
+  "journal": "Chemical science",
+  "published_date": "2024-11-21",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究用粗粒化多聚电解质模型模拟无序蛋白在凝聚体形成中的序列依赖性构象转变，聚焦相分离中IDP的构象与序列关系，虽未直接建模PPI，但为无序蛋白在凝聚体中的互作机制提供了关键构象基础。",
+  "abstract": "Intrinsically disordered proteins (IDPs) can form biomolecular condensates through phase separation. It is recognized that the conformation of IDPs in the dense and dilute phases, as well as at the interfaces of condensates, can critically impact their functionality. However, a residue-level understanding of the conformational transitions of IDPs during condensation remains elusive. In this study, we employ a coarse-grained polyampholyte model, comprising an equal number of oppositely charged residues-glutamic acid and lysine-whereby conformations and phase behavior can be tuned by altering the protein sequence. By manipulating sequence patterns from perfectly alternating to block-like, we obtain chains with ideal-like conformations to semi-compact structures in the dilute phase. In the dense phase, however, the chain conformation approaches that of an ideal chain, regardless of the sequence. Simulations across different concentrations reveal that chains transition from small oligomeric clusters in the dilute phase to the dense phase, with a gradual swelling of individual chains. These findings are further validated with naturally occurring protein sequences involved in biological condensate formation. Additionally, we show that chain conformations at the interface display a strong sequence dependence, remaining more collapsed than those in the bulk-like dense phase. This study provides detailed insights into how the conformations of a specific subclass of IDPs (lacking secondary structures) change within condensates and in solution, as governed by their sequences.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 可通过相分离 (phase separation) 形成生物分子凝聚体。已认识到，IDPs 在致密相和稀相中，以及凝聚体界面处的构象，可对其功能产生关键影响。然而，在残基水平上理解 IDPs 在凝聚过程中构象转变的机制仍不明确。本研究采用一种粗粒化多聚两性电解质模型，该模型包含等量的带相反电荷残基——谷氨酸和赖氨酸，通过改变蛋白质序列可调节构象和相行为。通过将序列模式从完全交替调控至块状，我们获得了从稀相中理想状构象到半紧凑结构的链。然而，在致密相中，无论序列如何，链构象均接近理想链。跨不同浓度的模拟显示，链从稀相中的小寡聚簇过渡至致密相，伴随单链逐渐膨胀。这些发现进一步通过参与生物凝聚体形成的天然蛋白质序列得到验证。此外，我们表明界面处的链构象表现出强烈的序列依赖性，其保持比类致密相中更紧凑的状态。本研究提供了关于特定亚类 IDPs（缺乏二级结构）在凝聚体内及溶液中构象如何受序列调控的详细见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39568948/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39568948/",
+  "paper_page_path": "papers/pubmed/39568948/index.html"
+}

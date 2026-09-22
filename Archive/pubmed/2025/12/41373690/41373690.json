@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "41373690",
+    "doi": "10.3390/ijms262311538",
+    "title": "PolyQ Expansion Controls Biomolecular Condensation and Aggregation of the N-Terminal Fragments of Ataxin-2."
+  },
+  "content": {
+    "abstract": "Ataxin-2 (Atx2) is a general RNA-binding protein involved in processes such as RNA processing and metabolism in cells. Atx2 is also a polyglutamine (polyQ) tract-containing protein; its abnormal expansion can lead to protein aggregation associated with neurodegenerative diseases. Previous studies have shown that the C-terminal intrinsically disordered regions (c-IDRs) of Atx2 participate in its condensation and aggregation processes. To elucidate the role of polyQ expansion in biomolecular condensation and aggregation, we studied the N-terminal fragments of Atx2 (namely, Atx2-N317 and Atx2-N81) that preserve a polyQ tract and compared their molecular behaviors in cells to those of the full-length Atx2. We found that the molecular mobility of the N-terminal fragments decreases with the increasing length of polyQ, indicating that polyQ expansion promotes a gradual phase transition to an irreversible and insoluble state. Moreover, the molecular state and mobility of Atx2-N317 are not distinct from those of Atx2-N81, regardless of the presence of other domains, demonstrating that the polyQ tract is a direct and sufficient element for protein condensation and aggregation, while the Like Sm (LSm) and LSm-associated (LSmAD) domains and their interactions with RNA are not necessary for these processes. This result is also validated through the in vitro investigation of Atx2-N81 with different polyQ expansions. This study reveals that polyQ expansion controls the biomolecular condensation and aggregation of the N-terminal fragments of Atx2 and is thus thought to modulate the dynamic behaviors of the full-length protein as well, which is implicated in the pathological accumulation of Atx2 in cells.",
+    "keywords": [
+      "aggregation",
+      "ataxin-2",
+      "biomolecular condensation",
+      "molecular dynamics",
+      "polyQ expansion"
+    ],
+    "mesh_terms": [
+      "*Peptides/metabolism/chemistry/genetics",
+      "Humans",
+      "*Ataxin-2/chemistry/metabolism/genetics",
+      "*Protein Aggregates",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Yin-Hu",
+        "Duan, Heng-Tong",
+        "Jiang, Lei-Lei",
+        "Hu, Hong-Yu"
+      ],
+      "short_names": [
+        "Liu YH",
+        "Duan HT",
+        "Jiang LL",
+        "Hu HY"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of RNA Innovation, Science and Engineering, Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, Chinese Academy of Sciences, Shanghai 200031, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Key Laboratory of RNA Innovation, Science and Engineering, Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, Chinese Academy of Sciences, Shanghai 200031, China.",
+        "University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Key Laboratory of RNA Innovation, Science and Engineering, Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, Chinese Academy of Sciences, Shanghai 200031, China.",
+        "Key Laboratory of RNA Innovation, Science and Engineering, Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, Chinese Academy of Sciences, Shanghai 200031, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Yin-Hu",
+        "short_name": "Liu YH",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of RNA Innovation, Science and Engineering, Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, Chinese Academy of Sciences, Shanghai 200031, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Duan, Heng-Tong",
+        "short_name": "Duan HT",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of RNA Innovation, Science and Engineering, Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, Chinese Academy of Sciences, Shanghai 200031, China.",
+          "University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Lei-Lei",
+        "short_name": "Jiang LL",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of RNA Innovation, Science and Engineering, Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, Chinese Academy of Sciences, Shanghai 200031, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Hong-Yu",
+        "short_name": "Hu HY",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of RNA Innovation, Science and Engineering, Center for Excellence in Molecular Cell Science, Shanghai Institute of Biochemistry and Cell Biology, Chinese Academy of Sciences, Shanghai 200031, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Nov 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/11 07:42",
+    "fetched_at": "2026-09-17 22:50:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40072111",
+      "39209824",
+      "39134696",
+      "38996083",
+      "38877004",
+      "38869059",
+      "38855848",
+      "38810698",
+      "38768217",
+      "38579676",
+      "38308810",
+      "37295429",
+      "36702393",
+      "36424481",
+      "36087810",
+      "35610022",
+      "35563401",
+      "34108660",
+      "34010218",
+      "33654312",
+      "33284045",
+      "33139563",
+      "31527735",
+      "31435879",
+      "30397184",
+      "30348793",
+      "30089230",
+      "29944854",
+      "29869836",
+      "29772202",
+      "29427103",
+      "29127110",
+      "28225081",
+      "27016044",
+      "26406374",
+      "26317470",
+      "23209657",
+      "21292779",
+      "20740007",
+      "17595167",
+      "17392519",
+      "16835262",
+      "15265035",
+      "8896555"
+    ],
+    "similar": [
+      "41373690",
+      "38810698",
+      "40908144",
+      "16835262",
+      "38308810",
+      "40072111",
+      "33689682",
+      "25700012",
+      "17949716",
+      "38768217",
+      "28928079",
+      "28339398",
+      "29334808",
+      "38128014",
+      "33837238",
+      "34718534",
+      "28388438",
+      "22764223",
+      "28445460",
+      "39419034",
+      "18231590",
+      "40289673",
+      "40684934",
+      "31097749",
+      "26317359",
+      "19589877",
+      "26195632",
+      "40633825",
+      "29772202",
+      "40992657",
+      "15544810",
+      "15663938",
+      "20484674",
+      "39092631",
+      "31097540",
+      "29704548",
+      "25231079",
+      "11572863",
+      "22526021",
+      "21945530",
+      "31970864",
+      "18668148",
+      "21740957",
+      "22916034",
+      "17205115",
+      "17925862",
+      "37295429",
+      "23891935",
+      "17127076",
+      "16407371",
+      "21562248",
+      "22438863",
+      "18449188",
+      "10677504",
+      "32696359",
+      "41091939",
+      "28400517",
+      "21780213",
+      "20442863",
+      "26210447",
+      "24817148",
+      "21195182",
+      "30029002",
+      "33115979",
+      "37171184",
+      "27133716",
+      "19955365",
+      "21292779",
+      "20629626",
+      "39732123",
+      "39009034",
+      "38766024",
+      "20732421",
+      "34077532",
+      "31593562",
+      "17646170",
+      "23894474",
+      "19690053",
+      "36894829",
+      "34161085",
+      "23612975",
+      "20104018",
+      "22178474",
+      "24497578",
+      "34977501",
+      "23197749",
+      "38759629",
+      "18849414",
+      "12914917",
+      "23483542",
+      "15182225",
+      "18844449",
+      "17653262",
+      "28542401",
+      "32436573",
+      "24129567",
+      "37837191",
+      "26331258",
+      "30036587",
+      "28085263"
+    ],
+    "review": [
+      "41373690",
+      "28928079",
+      "19589877",
+      "21740957",
+      "21195182",
+      "20629626"
+    ],
+    "pmc": [
+      "12691732"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms262311538",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41373690/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

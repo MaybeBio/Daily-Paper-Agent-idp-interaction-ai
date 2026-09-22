@@ -1,0 +1,465 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.02.01.522707",
+  "title": "Systematic identification of structure-specific protein–protein interactions",
+  "doi": "10.1101/2023.02.01.522707",
+  "abstract": "Protein–protein interactions (PPIs) mediate numerous essential functions and regulatory events in living organisms. The physical interactome of a protein can be abnormally altered in response to external and internal cues, thus modulating cell physiology and contributing to human disease. In particular, neurodegenerative diseases due to the accumulation of aberrantly folded and aggregated proteins may lead to alterations in protein interactomes. Identifying changes in the interactomes of normal and disease states of proteins could help to understand molecular disease mechanisms, but current interactomics methods are limited in the ability to pinpoint structure-specific PPIs and their interaction interfaces on a proteome-wide scale. Here, we adapted limited proteolysis–mass spectrometry (LiP–MS) to systematically identify putative structure-specific PPIs by probing protein structural alterations within cellular extracts upon treatment with specific structural states of a given protein. We demonstrate the feasibility of our method to detect well-characterized PPIs, including antibody–target protein interactions and interactions with membrane proteins, and show that it pinpoints PPI interfaces. We then applied the LiP–MS approach to study the structure-specific interactors of the Parkinson’s disease hallmark protein alpha-synuclein (aSyn). We identified several previously known interactors of both aSyn monomer and amyloid fibrils and provide a resource of novel putative structure-specific interactors for further studies. This approach is applicable to identify structure-specific interactomes of any protein, including posttranslationally modified and unmodified, or metabolite-bound and unbound structural states of proteins.",
+  "authors": [
+    "Holfeld A",
+    "Schuster D",
+    "Sesterhenn F",
+    "Stalder P",
+    "Haenseler W",
+    "Barrio-Hernandez I",
+    "Ghosh D",
+    "Vowles J",
+    "Cowley SA",
+    "Nagel L",
+    "Khanppnavar B",
+    "Beltrao P",
+    "Korkhov VM",
+    "Riek R",
+    "Souza Nd",
+    "Picotti P"
+  ],
+  "published_date": "2023-02-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.02.01.522707",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.02.01.522707.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR612478",
+    "raw_record": {
+      "id": "PPR612478",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR612478"
+        ]
+      },
+      "doi": "10.1101/2023.02.01.522707",
+      "title": "Systematic identification of structure-specific protein–protein interactions",
+      "authorString": "Holfeld A, Schuster D, Sesterhenn F, Stalder P, Haenseler W, Barrio-Hernandez I, Ghosh D, Vowles J, Cowley SA, Nagel L, Khanppnavar B, Beltrao P, Korkhov VM, Riek R, Souza Nd, Picotti P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Holfeld A",
+            "lastName": "Holfeld",
+            "firstName": "Aleš",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schuster D",
+            "lastName": "Schuster",
+            "firstName": "Dina",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6611-8237"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "Institute of Molecular Biology and Biophysics, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sesterhenn F",
+            "lastName": "Sesterhenn",
+            "firstName": "Fabian",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8331-4344"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stalder P",
+            "lastName": "Stalder",
+            "firstName": "Patrick",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4005-8488"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Haenseler W",
+            "lastName": "Haenseler",
+            "firstName": "Walther",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "University Research Priority Program AdaBD (Adaptive Brain Circuits in Development and Learning), University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barrio-Hernandez I",
+            "lastName": "Barrio-Hernandez",
+            "firstName": "Inigo",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5686-0451"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Genome Campus, Hinxton, Cambridge, UK"
+                },
+                {
+                  "affiliation": "Open Targets, Wellcome Genome Campus, Hinxton, Cambridge, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ghosh D",
+            "lastName": "Ghosh",
+            "firstName": "Dhiman",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Physical Chemistry, ETH Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Vowles J",
+            "lastName": "Vowles",
+            "firstName": "Jane",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "James and Lillian Martin Centre for Stem Cell Research, Sir William Dunn School of Pathology, University of Oxford, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cowley SA",
+            "lastName": "Cowley",
+            "firstName": "Sally",
+            "initials": "SA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0297-6675"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "James and Lillian Martin Centre for Stem Cell Research, Sir William Dunn School of Pathology, University of Oxford, Oxford, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nagel L",
+            "lastName": "Nagel",
+            "firstName": "Luise",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8844-7234"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cluster of Excellence Cellular Stress Responses in Aging-associated Diseases (CECAD), University of Cologne, Cologne, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Khanppnavar B",
+            "lastName": "Khanppnavar",
+            "firstName": "Basavraj",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6637-3550"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Biology and Biophysics, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beltrao P",
+            "lastName": "Beltrao",
+            "firstName": "Pedro",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Korkhov VM",
+            "lastName": "Korkhov",
+            "firstName": "Volodymyr",
+            "initials": "VM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Biology and Biophysics, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "Laboratory of Biomolecular Research, Division of Biology and Chemistry, Paul Scherrer Institute, Villigen, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Riek R",
+            "lastName": "Riek",
+            "firstName": "Roland",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6333-066X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Physical Chemistry, ETH Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Souza Nd",
+            "lastName": "Souza",
+            "firstName": "Natalie de",
+            "initials": "Nd",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "Department of Quantitative Biomedicine, University of Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Picotti P",
+            "lastName": "Picotti",
+            "firstName": "Paola",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, Department of Biology, ETH Zurich, Zurich, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6611-8237"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8331-4344"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8844-7234"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5686-0451"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6333-066X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6637-3550"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0297-6675"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4005-8488"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4868-3704"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Protein–protein interactions (PPIs) mediate numerous essential functions and regulatory events in living organisms. The physical interactome of a protein can be abnormally altered in response to external and internal cues, thus modulating cell physiology and contributing to human disease. In particular, neurodegenerative diseases due to the accumulation of aberrantly folded and aggregated proteins may lead to alterations in protein interactomes. Identifying changes in the interactomes of normal and disease states of proteins could help to understand molecular disease mechanisms, but current interactomics methods are limited in the ability to pinpoint structure-specific PPIs and their interaction interfaces on a proteome-wide scale. Here, we adapted limited proteolysis–mass spectrometry (LiP–MS) to systematically identify putative structure-specific PPIs by probing protein structural alterations within cellular extracts upon treatment with specific structural states of a given protein. We demonstrate the feasibility of our method to detect well-characterized PPIs, including antibody–target protein interactions and interactions with membrane proteins, and show that it pinpoints PPI interfaces. We then applied the LiP–MS approach to study the structure-specific interactors of the Parkinson’s disease hallmark protein alpha-synuclein (aSyn). We identified several previously known interactors of both aSyn monomer and amyloid fibrils and provide a resource of novel putative structure-specific interactors for further studies. This approach is applicable to identify structure-specific interactomes of any protein, including posttranslationally modified and unmodified, or metabolite-bound and unbound structural states of proteins.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "177195",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "866004",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "184951",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "823839",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.02.01.522707"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR612478"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR612478&type=FILE&fileName=EMS168246-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38702390",
+            "reference": "Molecular systems biology. 2024 Jun;20(6):651-675",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS168246",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "efo",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-02-07",
+      "firstPublicationDate": "2023-02-03",
+      "firstIndexDate": "2023-02-07",
+      "fullTextReceivedDate": "2023-03-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

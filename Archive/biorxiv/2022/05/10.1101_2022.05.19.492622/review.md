@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, data availability, funding, and acknowledgments.
+- **Assessment boundary** Scientific content, technical soundness, novelty, and utility of the described web server, as presented in the manuscript. No live testing of the web server was performed.
+- **Shared manuscript claim summary** The authors present DEGRONOPEDIA, a web server for proteome-wide screening of degron motifs in seven model organisms. The tool integrates degron motif detection with structural context from AlphaFold models, post-translational modification data, pathogenic mutation data, simulated proteolytic cleavage, and machine learning-based prediction of N-/C-terminal stability.
+- **Visible evidence base** Abstract, introduction, materials and methods, results, discussion, and figure legends (Figures 1-4 referenced but not provided in detail). No supplementary data, tables, or code were provided.
+- **Missing materials affecting confidence** The manuscript does not include the actual web server interface, a live demonstration, or a comprehensive validation of the tool's outputs against known experimental data. The performance metrics of the machine learning models are reported but the underlying data distributions, feature importance, and comparison to existing tools are not shown. The accuracy of degron motif matching and the false positive rate are not evaluated. The manuscript lacks a systematic comparison with existing resources such as ELM or the APC/C degron repository.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a potentially useful web resource for the degron research community. The integration of multiple data types, including structural context, PTMs, mutations, and cleavage simulation, is a valuable concept. However, the manuscript is largely descriptive and lacks rigorous validation of the tool's predictions. The machine learning models are presented with R² values but without sufficient detail on their development, feature selection, or limitations. The claim of being the "first" comprehensive degron screening resource is not fully substantiated given the existence of other tools. The manuscript would benefit from a clearer demonstration of the tool's utility through case studies beyond p53, and a more critical discussion of its limitations, particularly regarding the use of pLDDT scores for disorder prediction.
+- **Who would be interested in the results, and why** Researchers studying protein degradation, ubiquitin-proteasome system biology, degron function, and targeted protein degradation approaches. The tool could also be of interest to computational biologists developing resources for proteome-wide analysis. The integration of structural and functional data makes it potentially useful for a broad audience in cell biology and proteomics.
+- **Major strengths** The concept of a unified web server for degron analysis is timely and useful. The integration of AlphaFold structural data with degron motif screening is a novel feature. The inclusion of cleavage simulation and N-/C-terminal stability prediction adds functionality beyond simple motif matching. The tool is freely available and does not require login, which is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the machine learning models predict N-/C-terminal stability with R² values of 0.815 (C-terminus) and 0.796 (N-terminus).
+  - **Evidence pointer** Materials and Methods, "N-/C-terminus stability predictions"; Figure 2 (not provided in detail).
+  - **Concern** The reported R² values are presented without sufficient context. It is unclear how these models were validated, what the baseline performance is, and whether the models generalize beyond the training data. The manuscript does not describe the feature importance, the potential for overfitting, or the performance on independent datasets. The models are trained on human data but are recommended for use on "higher mammals," which is a significant extrapolation that is not justified.
+  - **Why it matters** The predictive accuracy of these models is a core feature of the tool. If the models are not robustly validated, users may receive misleading stability predictions, undermining the tool's utility for hypothesis generation.
+  - **Resolution test** The authors should provide a more detailed description of the model development, including feature selection, cross-validation results, and performance on an independent test set. They should also discuss the limitations of applying human-trained models to other species and provide guidance on when such predictions are reliable.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that DEGRONOPEDIA screens for "over 400 degron motifs" and provides their "comprehensive sequence and spatial context."
+  - **Evidence pointer** Materials and Methods, "Datasets"; Results, "Query by UniProt ID".
+  - **Concern** The manuscript does not provide a list of the degron motifs included, their sources, or the criteria for inclusion. It is unclear how the motifs were curated and whether they are comprehensive or biased towards certain pathways. The accuracy of the motif matching is not evaluated, and the potential for false positives or negatives is not discussed.
+  - **Why it matters** The core function of the tool is degron motif screening. Without a clear description of the motif dataset and its validation, users cannot assess the reliability of the results. The claim of "comprehensive" screening is not supported by the evidence provided.
+  - **Resolution test** The authors should provide a supplementary table listing all degron motifs, their sequences, sources, and any associated annotations. They should also perform a validation study, for example, by comparing their tool's predictions against a set of known degrons and non-degrons, and report sensitivity and specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The introduction states that "no resource collects all known degron motifs and enables their systematic screening in query proteins, providing data on the tripartite degron model."
+  - **Evidence pointer** Introduction, paragraph 4.
+  - **Concern** The claim of being the first comprehensive resource is not fully substantiated. The authors mention ELM and the APC/C degron repository, but do not provide a detailed comparison of their tool's features against these existing resources. It is possible that other tools or databases, not mentioned in the manuscript, offer similar functionality.
+  - **Why it matters** The novelty of the tool is a key selling point. If the claim of being the first is inaccurate, the manuscript's contribution is diminished.
+  - **Resolution test** The authors should provide a more thorough comparison with existing resources, highlighting the specific features that are unique to DEGRONOPEDIA. They should also acknowledge any overlapping functionality and clarify what new capabilities their tool brings.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript states that the server "simulates protein cleavage, after which it analyzes the newly emerged N- and C-termini for degron motifs."
+  - **Evidence pointer** Materials and Methods, "Implementation"; Results, "Query by UniProt ID".
+  - **Concern** The description of the cleavage simulation is brief. It is unclear how the cleavage sites are predicted, what the accuracy of these predictions is, and how the results are presented to the user. The manuscript mentions the use of the Pyteomics module and PeptideCutter rules, but does not discuss the limitations of these approaches.
+  - **Why it matters** This feature is intended to identify potential degrons that may appear after proteolytic processing. If the cleavage predictions are inaccurate, the resulting degron analysis will be misleading.
+  - **Resolution test** The authors should provide more detail on the cleavage prediction method, including the specific rules used, the expected accuracy, and any validation performed. They should also discuss the limitations of the approach and how users should interpret the results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, paragraph 1
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction is dense and assumes a high level of familiarity with the ubiquitin-proteasome system and degron biology. A brief, more accessible explanation of the core concepts would broaden the readership.
+  - **Required correction** Add a short introductory paragraph explaining what degrons are, why they are important, and the basic principles of the ubiquitin-proteasome system in plain language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Inputs"
+  - **Evidence pointer** Materials and Methods, "Inputs"
+  - **Issue** The manuscript states that the server does not support experimental PDB files because they "lack long IDRs." This is a significant limitation that is not discussed in the main text. Many users may have experimental structures and would be unable to use the tool.
+  - **Required correction** Acknowledge this limitation in the Discussion and suggest alternative approaches for users with experimental structures, such as using predicted models or providing a warning about the potential inaccuracy of disorder predictions from experimental structures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Example application"
+  - **Evidence pointer** Results, "Example application"; Figure 4 (not provided in detail).
+  - **Issue** The p53 case study is described as an example, but the results are not presented in a way that allows the reader to assess the tool's performance. The text mentions specific findings, but without the figure, it is difficult to evaluate the significance.
+  - **Required correction** Provide a more detailed description of the p53 results, including the specific degrons found, their locations, and how the additional data (PTMs, mutations, structural context) contributes to the interpretation. If possible, include a comparison with known experimental data on p53 degradation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion, paragraph 1
+  - **Evidence pointer** Discussion, paragraph 1
+  - **Issue** The Discussion focuses on the features of the tool but does not adequately address the broader implications for the field. The authors could discuss how DEGRONOPEDIA might be used to address open questions in degron biology or to facilitate the development of targeted protein degradation therapies.
+  - **Required correction** Add a paragraph in the Discussion that speculates on the potential impact of the tool and suggests specific research questions that could be addressed using DEGRONOPEDIA.
+- **Technical failings that need to be addressed before the case is established** The lack of validation for the degron motif dataset and the machine learning models is a significant technical failing. The manuscript does not provide evidence that the tool's predictions are accurate or reliable. The use of pLDDT scores for disorder prediction is acknowledged as potentially inaccurate, but the manuscript does not provide a solution or a clear warning to users. The cleavage simulation is described without any validation.
+- **Assessment against Nature-style criteria** Originality: The concept of a unified degron screening platform is original, but the claim of being the first is not fully substantiated. Scientific importance: The tool addresses a real need in the degron research community and could facilitate new discoveries. Interdisciplinary readership: The tool is relevant to cell biologists, biochemists, and computational biologists, but the manuscript is written in a way that may be less accessible to nonspecialists. Technical soundness: The technical implementation is not adequately validated, and the manuscript lacks critical details on the underlying data and methods. Readability for nonspecialists: The manuscript is dense and assumes significant background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially useful tool, but the lack of validation and the insufficient detail on key components prevent a full assessment of its scientific value. The authors should address the major concerns, particularly the validation of the degron motif dataset and the machine learning models, before the case for the tool's utility is established.
+
+## Risk / unsupported claims
+- The claim that DEGRONOPEDIA is the "first" web server for comprehensive degron screening is not fully supported by the evidence provided.
+- The reported R² values for the machine learning models are presented without sufficient context or validation.
+- The accuracy of the degron motif screening is not evaluated.
+- The use of pLDDT scores for disorder prediction is acknowledged as potentially inaccurate, but the manuscript does not provide a clear solution or warning.
+- The cleavage simulation is described without any validation of its accuracy.

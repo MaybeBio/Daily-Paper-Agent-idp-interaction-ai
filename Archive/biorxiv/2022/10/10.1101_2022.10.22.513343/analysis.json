@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.10.22.513343",
+  "title": "The conformational ensemble of an intrinsically disordered protein explains peak shapes under DNP conditions",
+  "authors": "Jaka Kragelj; Rania Dumarieh; Yiling Xiao; Kendra K. Frederick",
+  "journal": "bioRxiv",
+  "published_date": "2022-10-23",
+  "window": {
+    "start": "2022-10-17",
+    "end": "2022-10-23"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用DNP NMR结合构象系综预测解释无序蛋白α-突触核蛋白的峰形，涉及IDP构象偏好但无PPI和AI/物理模拟方法，仅部分相关。",
+  "abstract": "Elucidating the conformational preferences of regions of intrinsic disorder in biologically relevant contexts represents a frontier of structural biology. The sensitivity enhancements conferred by DNP enable structural studies of proteins in native contexts by MAS NMR. However, DNP requires low temperatures which results in broad peaks, particularly for for regions of intrinsic disorder. We describe an approach to predict and interpret peak shapes for frozen regions of intrinsic disorder in terms of dihedral angle populations. We demonstrate the method using the protein a-synuclein. This approach can be used to obtain experimental structural restraints for regions of intrinsic disorder in both simplified and biological settings, providing information that eludes characterization by diffraction-based methods as well as solution-state NMR spectroscopy and molecular dynamics due to molecular size limitations.",
+  "abstract_zh": "阐明生物学相关背景下内在无序区域构象偏好是结构生物学的前沿领域。DNP带来的灵敏度增强使得通过MAS NMR在天然环境中进行蛋白质结构研究成为可能。然而，DNP需要低温条件，这会导致峰形变宽，尤其是对于内在无序区域。我们描述了一种方法，用于预测和解释冷冻状态下内在无序区域的峰形，并将其与二面角群体相关联。我们使用蛋白质α-突触核蛋白（a-synuclein）演示了该方法。这种方法可用于在简化和生物环境中获取内在无序区域的实验结构约束，提供那些因分子大小限制而难以通过基于衍射的方法、溶液态NMR光谱以及分子动力学表征的信息。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.10.22.513343",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.10.22.513343",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.10.22.513343/index.html"
+}

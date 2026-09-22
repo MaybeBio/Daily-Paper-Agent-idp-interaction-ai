@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2024-bf6pw",
+  "title": "Accurate prediction of antibody deamidations by combining high-throughput automated peptide mapping and protein language model-based deep learning",
+  "authors": "Ben Niu; Benjamin Lee; Lili Wang; Wen Chen; Jeffrey Johnson",
+  "journal": "ChemRxiv",
+  "published_date": "2024-05-31",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用蛋白语言模型预测抗体脱酰胺位点，对象为折叠抗体而非无序蛋白，且不涉及蛋白-蛋白互作或互作机制建模，仅序列修饰预测，与本课题关联微弱。",
+  "abstract": "Therapeutic antibodies such as monoclonal antibodies (mAbs), bispecific and multispecific antibodies are pivotal in therapeutic protein development and have transformed disease treatments across various therapeutic areas. The integrity of therapeutic antibodies, however, is compromised by sequence liabilities, notably deamidation, where asparagine (N) and glutamine (Q) residues undergo chemical degradations. Deamidation negatively impacts the efficacy, stability, and safety of diverse classes of antibodies, thus necessitating the critical need for early and accurate identification of vulnerable sites. In this article, a comprehensive antibody deamidation-specific dataset (n = 2285) of varied modalities was created by using high- throughput automated peptide mapping, followed by supervised machine learning to predict the deamidation propensities as well as extents throughout the entire antibody sequences. We propose a novel chimeric deep-learning model, integrating protein language model (pLM)- derived embeddings with local sequence information for enhanced deamidation predictions. Remarkably, this model requires only sequence inputs, eliminating the need for laborious feature engineering. Our approach demonstrates state-of-the-art performance, offering a streamlined workflow for high-throughput automated peptide mapping and deamidation prediction, with potential of broader applicability to other antibody sequence liabilities.",
+  "abstract_zh": "治疗性抗体，如单克隆抗体（mAbs）、双特异性及多特异性抗体，在治疗性蛋白开发中至关重要，并已转变了多个治疗领域的疾病治疗方式。然而，治疗性抗体的完整性受到序列易损性（sequence liabilities）的损害，特别是脱酰胺作用（deamidation），其中天冬酰胺（N）和谷氨酰胺（Q）残基发生化学降解。脱酰胺作用对多种类抗体的有效性、稳定性和安全性产生负面影响，因此迫切需要早期且准确地识别易感位点。本文中，通过使用高通量自动化肽图分析创建了一个全面的抗体脱酰胺特异性数据集（n = 2285），涵盖多种形式，随后采用监督式机器学习来预测整个抗体序列中的脱酰胺倾向及程度。我们提出了一种新型嵌合深度学习模型，整合了蛋白质语言模型（pLM）衍生的嵌入与局部序列信息，以增强脱酰胺预测。值得注意的是，该模型仅需序列输入，无需繁琐的特征工程。我们的方法展示了最先进的性能，为高通量自动化肽图分析和脱酰胺预测提供了简化工作流程，并具有更广泛适用于其他抗体序列易损性的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://doi.org/10.26434/chemrxiv-2024-bf6pw",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2024-bf6pw",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2024-bf6pw/index.html"
+}

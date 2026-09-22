@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41584445",
+  "title": "Local entropy in proteins.",
+  "authors": "Senet, Patrick; Guzzo, Adrien; Delarue, Patrice; Laforge, Christophe; Maisuradze, Gia G; Heydel, Jean-Marie; Neiers, Fabrice; Nicolai, Adrien",
+  "journal": "Chemical science",
+  "published_date": "2026-01-26",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于图的局部熵度量，用MD模拟刻画无序蛋白alpha-synuclein的构象系综及突变影响，虽涉及IDP和物理模拟，但未聚焦PPI或互作机制建模，故为中档。",
+  "abstract": "Proteins populate dynamic ensembles, yet how temperature and mutations reshape these ensembles remains poorly understood. We introduce a local entropy metric that assigns each residue a Shannon entropy based on a graph-derived map of accessible substates, providing a continuous measure of structural complexity across folded, unfolded, and intrinsically disordered states. In molecular dynamics simulations of the fast-folding gpW protein, the average local entropy exhibits a sharp transition near the melting point. Residue-specific entropy curves cluster into distinct unfolding categories and reveal that the apparent unfolding transition depends on the spatial scale used to describe amino-acid environments. We further show that local entropy captures features that differ markedly from other residue-level measures of structural fluctuations, such as the accessible volume (and the associated packing entropy), which is correlated with B-factors and primarily reflects the hydrophobic effect. In simulations of alpha-synuclein, an intrinsically disordered protein, local entropy varies strongly along the sequence at physiological temperature and resembles that of gpW near its melting point. Parkinson's-disease mutations in alpha-synuclein locally reduce entropy while also perturbing distant regions including P1, P2 and NAC segments implicated in fibril formations. These results highlight how temperature and subtle perturbations-such as single-residue changes-remodel conformational ensembles. Local entropy correlates with NMR observables and provides a generalizable framework for quantifying disorder, with broad potential applications beyond protein science.",
+  "abstract_zh": "蛋白质形成动态系综，然而温度和突变如何重塑这些系综仍知之甚少。我们引入一种局部熵度量，基于图衍生的可及亚态图谱，为每个残基分配一个香农熵，从而提供跨越折叠、未折叠和固有无序状态的结构复杂性的连续度量。在快速折叠gpW蛋白的分子动力学模拟中，平均局部熵在熔点附近表现出急剧转变。残基特异性熵曲线聚类为不同的解折叠类别，并揭示表观解折叠转变依赖于描述氨基酸环境所用的空间尺度。我们进一步表明，局部熵捕捉到的特征与其他残基水平的结构波动度量（如可及体积（及相关堆积熵））显著不同，后者与B因子相关并主要反映疏水效应。在α-突触核蛋白（一种固有无序蛋白）的模拟中，局部熵在生理温度下沿序列强烈变化，并类似于gpW在其熔点附近的行为。帕金森病相关的α-突触核蛋白突变在局部降低熵，同时扰动远端区域，包括与纤维形成相关的P1、P2和NAC片段。这些结果突显了温度和微妙扰动（如单残基变化）如何重塑构象系综。局部熵与核磁共振观测值相关，并提供了一种量化无序性的通用框架，在蛋白质科学之外具有广泛潜在应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41584445/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41584445/",
+  "paper_page_path": "papers/pubmed/41584445/index.html"
+}

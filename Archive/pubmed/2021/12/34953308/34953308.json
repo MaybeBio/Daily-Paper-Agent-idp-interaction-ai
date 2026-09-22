@@ -1,0 +1,207 @@
+{
+  "identity": {
+    "pmid": "34953308",
+    "doi": "10.1016/j.sbi.2021.11.010",
+    "title": "Multiscale simulations of protein and membrane systems."
+  },
+  "content": {
+    "abstract": "Classical multiscale simulations are perfectly suited to investigate biological soft matter systems. Owing to the bridging between microscopically realistic and lower-resolution models or the integration of a hierarchy of subsystems, one gets access to biologically relevant system sizes and timescales. In recent years, increasingly complex systems and processes have come into focus such as multidomain proteins, phase separation processes in biopolymer solutions, multicomponent biomembranes, or multiprotein complexes up to entire viruses. The review shows factors that have contributed to this progress - from improved models to machine-learning-based analysis and scale-bridging methods.",
+    "keywords": [],
+    "mesh_terms": [
+      "Machine Learning",
+      "*Multiprotein Complexes",
+      "*Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sawade, Kevin",
+        "Peter, Christine"
+      ],
+      "short_names": [
+        "Sawade K",
+        "Peter C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, University of Konstanz, Universitatsstrasse 10, 78 457, Konstanz, Germany.",
+        "Department of Chemistry, University of Konstanz, Universitatsstrasse 10, 78 457, Konstanz, Germany. Electronic address: christine.peter@uni-konstanz.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sawade, Kevin",
+        "short_name": "Sawade K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Konstanz, Universitätsstraße 10, 78 457, Konstanz, Germany."
+        ]
+      },
+      {
+        "full_name": "Peter, Christine",
+        "short_name": "Peter C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Konstanz, Universitätsstraße 10, 78 457, Konstanz, Germany. Electronic address: christine.peter@uni-konstanz.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2022 Feb",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/26 06:00",
+    "fetched_at": "2026-09-20 07:16:34"
+  },
+  "links": {
+    "cites": [
+      "40834349",
+      "40663654",
+      "40628377",
+      "39131401",
+      "37122117",
+      "36809878",
+      "36070494",
+      "35204709"
+    ],
+    "refs": [],
+    "similar": [
+      "34953308",
+      "23912807",
+      "34534706",
+      "34399155",
+      "33327059",
+      "17395455",
+      "27496803",
+      "29605930",
+      "28418043",
+      "18062769",
+      "23671457",
+      "27865038",
+      "33577296",
+      "22277168",
+      "32591817",
+      "34499920",
+      "29042480",
+      "24924266",
+      "18083189",
+      "30109746",
+      "28668116",
+      "27672364",
+      "26194872",
+      "19396368",
+      "30156155",
+      "30898903",
+      "31870850",
+      "17383173",
+      "15837171",
+      "33798336",
+      "31147911",
+      "28057767",
+      "25950957",
+      "31383477",
+      "17276528",
+      "18406342",
+      "18603527",
+      "30562009",
+      "28918672",
+      "29906639",
+      "30439585",
+      "20127694",
+      "30761396",
+      "33721706",
+      "17523187",
+      "23642247",
+      "20734007",
+      "31914313",
+      "31375023",
+      "33568025",
+      "33443189",
+      "27327264",
+      "19100631",
+      "20614870",
+      "32036279",
+      "20558299",
+      "32880478",
+      "21468407",
+      "28668130",
+      "27424950",
+      "29036404",
+      "29490245",
+      "34939790",
+      "23274139",
+      "21419851",
+      "24648146",
+      "30371663",
+      "24564744",
+      "16955490",
+      "28691387",
+      "11525756",
+      "28701276",
+      "24273239",
+      "33036834",
+      "28317993"
+    ],
+    "review": [
+      "34953308",
+      "34534706",
+      "34399155",
+      "17395455",
+      "18062769",
+      "22277168",
+      "24924266",
+      "26194872",
+      "19396368",
+      "30156155",
+      "30898903",
+      "17383173",
+      "15837171",
+      "31383477",
+      "17276528",
+      "18406342",
+      "30562009",
+      "28918672",
+      "30439585",
+      "33721706",
+      "23642247",
+      "31375023",
+      "33568025",
+      "27327264",
+      "19100631",
+      "32036279",
+      "20558299",
+      "21419851"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959-440X(21)00159-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,668 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.06.22.449457",
+  "title": "ROPIUS0: A deep learning-based protocol for protein structure prediction and model selection and its performance in CASP14",
+  "doi": "10.1101/2021.06.22.449457",
+  "abstract": "Protein structure prediction has recently been revolutionized when AlphaFold2 [1] predicted protein structures with near-experimental accuracy in the latest CASP14 season of critical assessment of methods of protein structure prediction (CASP). Among numerous implications, this breakthrough has led to a rapidly growing number of high-quality structural models [2]. We present a protocol ROPIUS0 for protein structure prediction and model selection and discuss its benefits in the new era of structure prediction. At the core of the ROPIUS0 protocol is the deep learning module developed for the selection of protein structural models. It is shown that the direct use of predicted inter-residue distances may be sufficient to discriminate between correct and incorrect protein folds, considering only a small fraction of predicted distances. We extensively tested the protocol: In the latest CASP14 prediction season, a ROPIUS0 variant based on model selection ranked 13th in the category of tertiary structure prediction. Its performance is on par with top-performing automated prediction servers when tested on the CASP13 dataset, and it performs similarly on a CAMEO dataset. The results suggest ways to improve searching for structurally similar and homologous proteins without considerably increasing speed. Our new open-source threading tool based on comparing a subset of inter-residue distances demonstrates the effectiveness and application of the deep learning module of the ROPIUS0 protocol.",
+  "authors": [
+    "Mindaugas Margelevičius"
+  ],
+  "published_date": "2021-06-22",
+  "updated_date": "2021-06-22T19:01:21Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.06.22.449457",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.06.22.449457.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            27
+          ]
+        ],
+        "date-time": "2026-02-27T01:37:16Z",
+        "timestamp": 1772156236286,
+        "version": "3.50.1"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            22
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 78,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            1,
+            15
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Protein structure prediction has recently been revolutionized when AlphaFold2 [1] predicted protein structures with near-experimental accuracy in the latest CASP14 season of critical assessment of methods of protein structure prediction (CASP). Among numerous implications, this breakthrough has led to a rapidly growing number of high-quality structural models [2]. We present a protocol ROPIUS0 for protein structure prediction and model selection and discuss its benefits in the new era of structure prediction. At the core of the ROPIUS0 protocol is the deep learning module developed for the selection of protein structural models. It is shown that the direct use of predicted inter-residue distances may be sufficient to discriminate between correct and incorrect protein folds, considering only a small fraction of predicted distances. We extensively tested the protocol: In the latest CASP14 prediction season, a ROPIUS0 variant based on model selection ranked 13th in the category of tertiary structure prediction. Its performance is on par with top-performing automated prediction servers when tested on the CASP13 dataset, and it performs similarly on a CAMEO dataset. The results suggest ways to improve searching for structurally similar and homologous proteins without considerably increasing speed. Our new open-source threading tool based on comparing a subset of inter-residue distances demonstrates the effectiveness and application of the deep learning module of the ROPIUS0 protocol.</jats:p>",
+      "DOI": "10.1101/2021.06.22.449457",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            22
+          ]
+        ],
+        "date-time": "2021-06-22T19:01:21Z",
+        "timestamp": 1624388481000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "ROPIUS0: A deep learning-based protocol for protein structure prediction and model selection and its performance in CASP14"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Mindaugas",
+          "family": "Margelevičius",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.2",
+          "doi-asserted-by": "crossref",
+          "first-page": "590",
+          "DOI": "10.1038/s41586-021-03828-1",
+          "article-title": "Highly accurate protein structure prediction for the human proteome",
+          "volume": "596",
+          "year": "2021",
+          "journal-title": "Nature"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1004619"
+        },
+        {
+          "issue": "12",
+          "key": "2022011720201403000_2021.06.22.449457v2.4",
+          "doi-asserted-by": "crossref",
+          "first-page": "1100",
+          "DOI": "10.1002/prot.25787",
+          "article-title": "A further leap of improvement in tertiary structure prediction in CASP13 prompts new routes for future assessments",
+          "volume": "87",
+          "year": "2019",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.25800"
+        },
+        {
+          "issue": "11",
+          "key": "2022011720201403000_2021.06.22.449457v2.6",
+          "doi-asserted-by": "crossref",
+          "first-page": "3570",
+          "DOI": "10.1093/bioinformatics/btaa185",
+          "article-title": "COMER2: GPU-accelerated sensitive and specific homology searches",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-3019-7"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty278"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkz384"
+        },
+        {
+          "issue": "12",
+          "key": "2022011720201403000_2021.06.22.449457v2.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "1011",
+          "DOI": "10.1002/prot.25823",
+          "article-title": "Critical assessment of methods of protein structure prediction (CASP)—Round XIII",
+          "volume": "87",
+          "year": "2019",
+          "journal-title": "Proteins"
+        },
+        {
+          "issue": "7792",
+          "key": "2022011720201403000_2021.06.22.449457v2.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "706",
+          "DOI": "10.1038/s41586-019-1923-7",
+          "article-title": "Improved protein structure prediction using potentials from deep learning",
+          "volume": "577",
+          "year": "2020",
+          "journal-title": "Nature"
+        },
+        {
+          "issue": "12",
+          "key": "2022011720201403000_2021.06.22.449457v2.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "1149",
+          "DOI": "10.1002/prot.25792",
+          "article-title": "Deep-learning contact-map guided protein structure prediction in CASP13",
+          "volume": "87",
+          "year": "2019",
+          "journal-title": "Proteins"
+        },
+        {
+          "issue": "12",
+          "key": "2022011720201403000_2021.06.22.449457v2.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1165",
+          "DOI": "10.1002/prot.25697",
+          "article-title": "Protein tertiary structure modeling driven by deep learning and contact distance prediction in CASP13",
+          "volume": "87",
+          "year": "2019",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.14",
+          "doi-asserted-by": "crossref",
+          "unstructured": "K. He , X. Zhang , S. Ren , and J. Sun , “Deep residual learning for image recognition,” in 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016, pp. 770–778.",
+          "DOI": "10.1109/CVPR.2016.90"
+        },
+        {
+          "issue": "6",
+          "key": "2022011720201403000_2021.06.22.449457v2.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "1131",
+          "DOI": "10.1002/prot.25278",
+          "article-title": "VoroMQA: Assessment of protein structure quality using interatomic contact areas",
+          "volume": "85",
+          "year": "2017",
+          "journal-title": "Proteins"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz828"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.17",
+          "unstructured": "D. Hurtado , K. Uziela , and A. Elofsson , “Deep transfer learning in the assessment of the quality of protein models,” 2018."
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "i285",
+          "DOI": "10.1093/bioinformatics/btaa455",
+          "article-title": "QDeep: distance-based protein model quality estimation by residue-level ensemble error classifications using stacked deep residual neural networks",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.19",
+          "doi-asserted-by": "crossref",
+          "unstructured": "X. Jing and J. Xu , “Improved protein model quality assessment by integrating sequential and pairwise features using deep learning,” Bioinformatics, 2020.",
+          "DOI": "10.1101/2020.09.30.321661"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg571"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.21",
+          "unstructured": "Protein Structure Prediction Center, “CASP14: Group performance based on combined z-scores,” https://predictioncenter.org/casp14/zscores_final.cgi, 2020."
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.22",
+          "unstructured": "CASP, “Abstract book (fourteenth round),” https://predictioncenter.org/casp14/doc/CASP14_Abstracts.pdf, 2020."
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.23",
+          "unstructured": "Protein Structure Prediction Center, “CASP13: Group performance based on combined z-scores,” https://predictioncenter.org/casp13/zscores_final.cgi, 2018."
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002195"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "1340",
+          "DOI": "10.1038/s41467-021-21511-x",
+          "article-title": "Improved protein structure refinement guided by deep learning based accuracy estimation",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "issue": "12",
+          "key": "2022011720201403000_2021.06.22.449457v2.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "1351",
+          "DOI": "10.1002/prot.25804",
+          "article-title": "Assessment of protein model structure accuracy estimation in CASP13: Challenges in the era of deep learning",
+          "volume": "87",
+          "year": "2019",
+          "journal-title": "Proteins"
+        },
+        {
+          "issue": "10",
+          "key": "2022011720201403000_2021.06.22.449457v2.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "1578",
+          "DOI": "10.1093/bioinformatics/btw819",
+          "article-title": "ProQ3D: improved model quality assessments using deep learning",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1818"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "419",
+          "DOI": "10.1186/s12859-019-2913-3",
+          "article-title": "Estimating statistical significance of local protein profile-profile alignments",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "X. Robin , J. Haas , R. Gumienny , A. Smolinski , G. Tauriello , and T. Schwede , “Continuous Automated Model EvaluatiOn (CAMEO)—perspectives on the future of fully automated evaluation of structure prediction methods,” Proteins, vol. Aug 12, 2021.",
+          "DOI": "10.22541/au.162255861.14583323/v1"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.abj8754"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1914677117"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.34",
+          "unstructured": "J. Devlin , M.-W. Chang , K. Lee , and K. Toutanova , “BERT: Pre-training of deep bidirectional transformers for language understanding,” in Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers). Minneapolis, Minnesota: Association for Computational Linguistics, 2019, pp. 4171–4186. [Online]. Available: https://www.aclweb.org/anthology/N19-1423"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0437-4"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "530",
+          "DOI": "10.12688/f1000research.18776.2",
+          "article-title": "RVDB-prot, a reference viral protein database and its HMM profiles",
+          "volume": "8",
+          "year": "2020",
+          "journal-title": "F1000Res"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1030"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu739"
+        },
+        {
+          "issue": "D1",
+          "key": "2022011720201403000_2021.06.22.449457v2.39",
+          "first-page": "D570",
+          "article-title": "MGnify: the microbiome analysis resource in 2020",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.40",
+          "unstructured": "M. Margelevičius , “COMER2 profile databases version 2.2,” https://sourceforge.net/projects/comer2/files/comer2-profile-databases-2.02, 2020."
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btn507"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.23016"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2013.08.005"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.6b00819"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.2389"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1109/TPAMI.2016.2644615"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw213"
+        },
+        {
+          "issue": "12",
+          "key": "2022011720201403000_2021.06.22.449457v2.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "2037",
+          "DOI": "10.1093/bioinformatics/bty048",
+          "article-title": "A low-complexity add-on score for protein remote homology search with COMER",
+          "volume": "34",
+          "year": "2018",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1999.3091"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(94)90032-9"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.52",
+          "unstructured": "Abadi, M. , Barham, P. , Chen, J. , Chen, Z. , Davis, A. , Dean, J. , et al. (2016). TensorFlow: A system for large-scale machine learning. In 12th USENIX Symposium on Operating Systems Design and Implementation (OSDI16), pages 265–283, Savannah, GA. USENIX Association."
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1134"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1002195"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "1340",
+          "DOI": "10.1038/s41467-021-21511-x",
+          "article-title": "Improved protein structure refinement guided by deep learning based accuracy estimation",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nat. Commun"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1999.3091"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu352"
+        },
+        {
+          "issue": "11",
+          "key": "2022011720201403000_2021.06.22.449457v2.60",
+          "doi-asserted-by": "crossref",
+          "first-page": "3570",
+          "DOI": "10.1093/bioinformatics/btaa185",
+          "article-title": "COMER2: GPU-accelerated sensitive and specific homology searches",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt473"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pone.0028766"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "issue": "D1",
+          "key": "2022011720201403000_2021.06.22.449457v2.64",
+          "first-page": "D570",
+          "article-title": "MGnify: the microbiome analysis resource in 2020",
+          "volume": "48",
+          "year": "2020",
+          "journal-title": "Nucleic Acids Res"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.20084"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.66",
+          "unstructured": "Protein Structure Prediction Center (2020). CASP14: Parseable data. https://predictioncenter.org/download_area/CASP14."
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.1818"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.68",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Robin, X. , Haas, J. , Gumienny, R. , Smolinski, A. , Tauriello, G. , and Schwede, T. (2021). Continuous Automated Model EvaluatiOn (CAMEO)—perspectives on the future of fully automated evaluation of structure prediction methods. Proteins, Aug 12.",
+          "DOI": "10.22541/au.162255861.14583323/v1"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.69",
+          "unstructured": "Seif, G. (2019). Semantic segmentation suite in TensorFlow. https://github.com/GeorgeSeif/Semantic-Segmentation-Suite."
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2013.08.005"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-3019-7"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz828"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu739"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.74",
+          "first-page": "26",
+          "article-title": "Lecture 6.5—RMSProp: Divide the gradient by a running average of its recent magnitude",
+          "volume": "4",
+          "year": "2012",
+          "journal-title": "COURSERA: Neural Networks for Machine Learning"
+        },
+        {
+          "issue": "10",
+          "key": "2022011720201403000_2021.06.22.449457v2.75",
+          "doi-asserted-by": "crossref",
+          "first-page": "1578",
+          "DOI": "10.1093/bioinformatics/btw819",
+          "article-title": "ProQ3D: improved model quality assessments using deep learning",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.76",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1914677117"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.77",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg571"
+        },
+        {
+          "key": "2022011720201403000_2021.06.22.449457v2.78",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.20264"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.06.22.449457",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:52:44Z",
+        "timestamp": 1768441964000
+      },
+      "score": 59.549576,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.06.22.449457"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            22
+          ]
+        ]
+      },
+      "references-count": 78,
+      "URL": "https://doi.org/10.1101/2021.06.22.449457",
+      "relation": {
+        "has-review": [
+          {
+            "id-type": "doi",
+            "id": "10.32388/NMTOCB",
+            "asserted-by": "object"
+          },
+          {
+            "id-type": "doi",
+            "id": "10.32388/CGCJK8",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            22
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34522860",
+  "title": "Activation of gene expression by detergent-like protein domains.",
+  "authors": "Broyles, Bradley K; Gutierrez, Andrew T; Maris, Theodore P; Coil, Daniel A; Wagner, Thomas M; Wang, Xiao; Kihara, Daisuke; Class, Caleb A; Erkine, Alexandre M",
+  "journal": "iScience",
+  "published_date": "2021-09-16",
+  "window": {
+    "start": "2021-09-13",
+    "end": "2021-09-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用机器学习分析转录激活域(tAD)序列规则，揭示其去垢剂样无序特性并支持相分离模型，虽非直接PPI建模，但为IDR介导互作机制提供可迁移的序列-功能规则思路。",
+  "abstract": "The mechanisms by which transcriptional activation domains (tADs) initiate eukaryotic gene expression have been an enigma for decades because most tADs lack specificity in sequence, structure, and interactions with targets. Machine learning analysis of data sets of tAD sequences generated in vivo elucidated several functionality rules: the functional tAD sequences should (i) be devoid of or depleted with basic amino acid residues, (ii) be enriched with aromatic and acidic residues, (iii) be with aromatic residues localized mostly near the terminus of the sequence, and acidic residues localized more internally within a span of 20-30 amino acids, (iv) be with both aromatic and acidic residues preferably spread out in the sequence and not clustered, and (v) not be separated by occasional basic residues. These and other more subtle rules are not absolute, reflecting absence of a tAD consensus sequence, enormous variability, and consistent with surfactant-like tAD biochemical properties. The findings are compatible with the paradigm-shifting nucleosome detergent mechanism of gene expression activation, contributing to the development of the liquid-liquid phase separation model and the biochemistry of near-stochastic functional allosteric interactions.",
+  "abstract_zh": "转录激活结构域（tADs）启动真核基因表达的机制数十年来一直是个谜，因为大多数tADs在序列、结构及与靶标的相互作用方面缺乏特异性。对体内生成的tAD序列数据集进行机器学习分析，揭示了若干功能规则：功能性tAD序列应（i）不含或缺乏碱性氨基酸残基，（ii）富含芳香族和酸性残基，（iii）芳香族残基主要定位于序列末端附近，而酸性残基则更内部地分布在20-30个氨基酸的跨度内，（iv）芳香族和酸性残基均优选分散于序列中而非聚集，（v）不应被偶发的碱性残基所隔断。这些及其他更微妙的规则并非绝对，反映了tAD共识序列的缺失、巨大的变异性，并与表面活性剂样tAD生化特性一致。这些发现与基因表达激活的核小体去垢剂机制这一范式转变相符，有助于液-液相分离模型的发展及近随机功能变构相互作用的生物化学研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34522860/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34522860/",
+  "paper_page_path": "papers/pubmed/34522860/index.html"
+}

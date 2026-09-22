@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40583197",
+  "title": "Sequence- and Docking-Site-Dependent Contributions to Multi-Site Phosphorylation of an Intrinsically Disordered MAPK Substrate.",
+  "authors": "Orand, Thibault; Delaforge, Elise; Chenal, Marion; Tengo, Maud; Herrmann, Torsten; Cortes, Juan; Bernado, Pau; Jensen, Malene Ringkjobing",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2025-07-01",
+  "window": {
+    "start": "2025-06-30",
+    "end": "2025-07-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过NMR和肽阵列实验，定量解析了JNK1对无序底物JIP1多位点磷酸化的D/F对接基序与序列距离依赖贡献，虽无AI/物理模拟方法，但聚焦IDR底物与激酶互作机制，对无序蛋白PPI机制建模有参考价值。",
+  "abstract": "Protein kinases often rely on docking site motifs to enhance substrate interactions and facilitate phosphorylation. For example, mitogen-activated protein kinases (MAPKs) utilize D- and F-motifs, which frequently act in concert to enable bipartite substrate binding. While these motifs are known to modulate phosphorylation efficiency, their quantitative impact on target site phosphorylation within long intrinsically disordered substrates remains largely unexplored. Using NMR spectroscopy, JNK1-dependent phosphorylation of JIP1, a 450-amino acid disordered substrate, is investigated, identifying eleven phosphosites with distinct phosphorylation efficiencies. By selectively disrupting JNK1 binding to the D- and F-motifs of JIP1, the determinants of phosphorylation efficiency are uncovered. Specifically, it is found that the D-motif selectively enhances phosphorylation in the C-terminal direction in a length-dependent manner, impressively increasing the phosphorylation efficiencies of sites located at sequence distances exceeding 120 amino acids, while the F-motif primarily promotes phosphorylation of a site located immediately N-terminal to the F-motif. Additionally, docking-site-independent phosphorylation is observed, whose efficiency is dictated by the intrinsic sequence preference of JNK1, as inferred from motif scores derived from positional scanning peptide arrays. The work highlights how docking site motifs and sequence context synergistically regulate phosphorylation efficiency, emphasizing the critical role of substrate architecture in determining MAPK-mediated signaling outcomes.",
+  "abstract_zh": "蛋白激酶通常依赖对接位点基序来增强底物相互作用并促进磷酸化。例如，丝裂原活化蛋白激酶 (mitogen-activated protein kinases, MAPKs) 利用D-和F-基序，这些基序常协同作用以实现双部分底物结合。尽管已知这些基序可调节磷酸化效率，但其对长内在无序底物中靶位点磷酸化的定量影响仍 largely 未被探索。利用核磁共振波谱 (NMR spectroscopy)，研究了JNK1依赖的JIP1磷酸化，JIP1是一个450个氨基酸的无序底物，鉴定出十一个具有不同磷酸化效率的磷酸化位点。通过选择性破坏JNK1与JIP1的D-和F-基序结合，揭示了磷酸化效率的决定因素。具体而言，发现D-基序以长度依赖方式选择性增强C端方向的磷酸化，显著提高序列距离超过120个氨基酸的位点的磷酸化效率，而F-基序主要促进紧邻F-基序N端的一个位点的磷酸化。此外，观察到不依赖对接位点的磷酸化，其效率由JNK1的内在序列偏好决定，这从位置扫描肽阵列得出的基序评分中推断得出。该工作强调了对接位点基序和序列背景如何协同调节磷酸化效率，突出了底物结构在决定MAPK介导信号转导结果中的关键作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40583197/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40583197/",
+  "paper_page_path": "papers/pubmed/40583197/index.html"
+}

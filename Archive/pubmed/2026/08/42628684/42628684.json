@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "42628684",
+    "doi": "10.1016/j.jmb.2026.169994",
+    "title": "Expanding the Landscape of Disordered Flexible Linkers: A Structural and Computational Framework for DLD Dataset Assembly."
+  },
+  "content": {
+    "abstract": "Disordered flexible linkers (DFLs) are functional elements found within intrinsically disordered regions that carry out key functions by connecting domains and/or short linear motifs. Understanding the features of DFLs is limited by the lack of comprehensive datasets and accurate predictive models. In this study, we propose a classification for DFLs that includes linkers joining two domains (DLD), a domain and a motif or two short linear motifs. We developed a workflow that allows the systematic identification of DLD-type linkers from protein structures and created a comprehensive dataset known as the DLD dataset. The DLD dataset includes 1640 independent domain linkers (IDLs) which expands currently available linker datasets and annotates related regions such as dependent-domain linkers, intra-domain loops, and termini. Our data collection process integrates missing residue completion and smoothing of short secondary structure stretches enabling to capture a higher number of longer IDLs. We assessed the features of IDLs using t-SNE analysis and protein language model embedding with a CNN-based classifier as well as PCA analysis. IDLs can be distinguished from other disordered and folded protein regions, and their features highly overlap with DisProt Linkers, considered the gold standard for linker annotation. The DLD dataset offers a valuable resource for researchers seeking to investigate the features of disordered flexible linkers and to improve the accuracy and generalizability of DFL predictive models. The DLD dataset is available via an interactive web server at https://dld.chemeslab.org/ where linkers are annotated with sequence and structural features and can be visualized using a structure viewer.",
+    "keywords": [
+      "IDP",
+      "IDR",
+      "flexible linker",
+      "intrinsically disordered protein",
+      "intrinsically disordered regions"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meng, Di",
+        "Glavina, Juliana",
+        "Garcia Alvarez, Heli M",
+        "Leonetti, Cesar Osvaldo",
+        "Pollastri, Gianluca",
+        "Chemes, Lucia B"
+      ],
+      "short_names": [
+        "Meng D",
+        "Glavina J",
+        "Garcia Alvarez HM",
+        "Leonetti CO",
+        "Pollastri G",
+        "Chemes LB"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Science, University College Dublin, Belfield, Dublin 4, Ireland.",
+        "Instituto de Investigaciones Biotecnologicas, Universidad Nacional de San Martin (UNSAM) - Consejo Nacional de Investigaciones Cientificas y Tecnicas (CONICET), Argentina; Escuela de Bio y Nanotecnologias (EByN), Universidad Nacional de San Martin, Argentina.",
+        "Instituto de Investigaciones Biotecnologicas, Universidad Nacional de San Martin (UNSAM) - Consejo Nacional de Investigaciones Cientificas y Tecnicas (CONICET), Argentina; Escuela de Bio y Nanotecnologias (EByN), Universidad Nacional de San Martin, Argentina.",
+        "Universidad Abierta Interamericana, Facultad de Tecnologia Informatica, Buenos Aires, Argentina; Universidad Abierta Interamericana, Centro de Altos Estudios en Tecnologia Informatica, Buenos Aires, Argentina.",
+        "School of Computer Science, University College Dublin, Belfield, Dublin 4, Ireland.",
+        "Instituto de Investigaciones Biotecnologicas, Universidad Nacional de San Martin (UNSAM) - Consejo Nacional de Investigaciones Cientificas y Tecnicas (CONICET), Argentina; Escuela de Bio y Nanotecnologias (EByN), Universidad Nacional de San Martin, Argentina. Electronic address: lchemes@iib.unsam.edu.ar."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meng, Di",
+        "short_name": "Meng D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, University College Dublin, Belfield, Dublin 4, Ireland."
+        ]
+      },
+      {
+        "full_name": "Glavina, Juliana",
+        "short_name": "Glavina J",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Investigaciones Biotecnológicas, Universidad Nacional de San Martín (UNSAM) - Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Argentina; Escuela de Bio y Nanotecnologías (EByN), Universidad Nacional de San Martín, Argentina."
+        ]
+      },
+      {
+        "full_name": "Garcia Alvarez, Heli M",
+        "short_name": "Garcia Alvarez HM",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Investigaciones Biotecnológicas, Universidad Nacional de San Martín (UNSAM) - Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Argentina; Escuela de Bio y Nanotecnologías (EByN), Universidad Nacional de San Martín, Argentina."
+        ]
+      },
+      {
+        "full_name": "Leonetti, Cesar Osvaldo",
+        "short_name": "Leonetti CO",
+        "identifiers": [],
+        "affiliations": [
+          "Universidad Abierta Interamericana, Facultad de Tecnología Informática, Buenos Aires, Argentina; Universidad Abierta Interamericana, Centro de Altos Estudios en Tecnología Informática, Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Pollastri, Gianluca",
+        "short_name": "Pollastri G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, University College Dublin, Belfield, Dublin 4, Ireland."
+        ]
+      },
+      {
+        "full_name": "Chemes, Lucía B",
+        "short_name": "Chemes LB",
+        "identifiers": [],
+        "affiliations": [
+          "Instituto de Investigaciones Biotecnológicas, Universidad Nacional de San Martín (UNSAM) - Consejo Nacional de Investigaciones Científicas y Técnicas (CONICET), Argentina; Escuela de Bio y Nanotecnologías (EByN), Universidad Nacional de San Martín, Argentina. Electronic address: lchemes@iib.unsam.edu.ar."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2026 Aug 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/21 23:37",
+    "fetched_at": "2026-09-18 05:48:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42628684",
+      "36272675",
+      "27307636",
+      "42475469",
+      "33381830",
+      "41921197",
+      "42210062",
+      "42001978",
+      "32702119",
+      "34179096",
+      "39576584",
+      "23912807",
+      "36321557",
+      "40133791",
+      "40133775",
+      "37722056",
+      "40441416",
+      "31521235",
+      "30135358",
+      "41174305",
+      "40100159",
+      "37904585",
+      "31659043",
+      "16324711",
+      "37883249",
+      "38166858",
+      "32112084",
+      "31797595",
+      "41596588",
+      "41017131",
+      "40254833",
+      "23139804",
+      "15978619",
+      "19852836",
+      "36315580",
+      "38060268",
+      "32771522",
+      "18831774",
+      "41928988",
+      "40914305",
+      "42140310",
+      "42554470",
+      "41378882",
+      "23056474",
+      "29791766",
+      "22208280",
+      "31504193",
+      "41053545",
+      "30819075",
+      "39499823",
+      "17206849",
+      "30802457",
+      "40721150",
+      "34029402",
+      "29450126",
+      "40711919",
+      "29076577",
+      "36215254",
+      "42635213",
+      "37992088",
+      "37498545",
+      "26598238",
+      "20684774",
+      "40677912",
+      "38507044",
+      "42227953",
+      "26184172",
+      "32272894",
+      "16618368",
+      "42427316",
+      "42503799",
+      "35948766",
+      "26790343",
+      "33684619",
+      "22416277",
+      "37892124",
+      "24587103",
+      "28387819",
+      "23225024",
+      "42150060",
+      "32721629",
+      "26090958",
+      "34557680",
+      "41102979",
+      "31642121",
+      "25968230",
+      "35789137",
+      "31870849",
+      "24965847",
+      "35436286",
+      "24093637",
+      "33017101",
+      "39253485",
+      "28365882",
+      "30019371",
+      "38079339",
+      "34844028",
+      "42628918",
+      "41249866",
+      "21918774"
+    ],
+    "review": [
+      "42628684",
+      "36321557",
+      "31521235",
+      "23225024",
+      "34844028",
+      "21918774"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(26)00367-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3704",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

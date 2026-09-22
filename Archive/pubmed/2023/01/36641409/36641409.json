@@ -1,0 +1,283 @@
+{
+  "identity": {
+    "pmid": "36641409",
+    "doi": "10.1063/5.0128643",
+    "title": "Phase separation and dynamical arrest of protein solutions dominated by short-range attractions."
+  },
+  "content": {
+    "abstract": "The interplay of liquid-liquid phase separation (LLPS) and dynamical arrest can lead to the formation of gels and glasses, which is relevant for such diverse fields as condensed matter physics, materials science, food engineering, and the pharmaceutical industry. In this context, protein solutions exhibit remarkable equilibrium and non-equilibrium behaviors. In the regime where attractive and repulsive forces compete, it has been demonstrated, for example, that the location of the dynamical arrest line seems to be independent of ionic strength, so that the arrest lines at different ionic screening lengths overlap, in contrast to the LLPS coexistence curves, which strongly depend on the salt concentration. In this work, we show that the same phenomenology can also be observed when the electrostatic repulsions are largely screened, and the range and strength of the attractions are varied. In particular, using lysozyme in brine as a model system, the metastable gas-liquid binodal and the dynamical arrest line as well as the second virial coefficient have been determined for various solution conditions by cloud-point measurements, optical microscopy, centrifugation experiments, and light scattering. With the aim of understanding this new experimental phenomenology, we apply the non-equilibrium self-consistent generalized Langevin equation theory to a simple model system with only excluded volume plus short-range attractions, to study the dependence of the predicted arrest lines on the range of the attractive interaction. The theoretical predictions find a good qualitative agreement with experiments when the range of the attraction is not too small compared with the size of the protein.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Proteins",
+      "Gels",
+      "*Models, Biological",
+      "Osmolar Concentration",
+      "Static Electricity",
+      "Solutions"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hansen, Jan",
+        "Moll, Carolyn J",
+        "Lopez Flores, Leticia",
+        "Castaneda-Priego, Ramon",
+        "Medina-Noyola, Magdaleno",
+        "Egelhaaf, Stefan U",
+        "Platten, Florian"
+      ],
+      "short_names": [
+        "Hansen J",
+        "Moll CJ",
+        "Lopez Flores L",
+        "Castaneda-Priego R",
+        "Medina-Noyola M",
+        "Egelhaaf SU",
+        "Platten F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4819-4559",
+        "ORCID: 0000-0001-6041-5898",
+        "ORCID: 0000-0003-0980-5537",
+        "ORCID: 0000-0001-8115-9395",
+        "ORCID: 0000-0003-2905-3707",
+        "ORCID: 0000-0002-2574-3498",
+        "ORCID: 0000-0001-5912-1833"
+      ],
+      "affiliations": [
+        "Condensed Matter Physics Laboratory, Heinrich Heine University, Dusseldorf, Germany.",
+        "Condensed Matter Physics Laboratory, Heinrich Heine University, Dusseldorf, Germany.",
+        "Instituto de Fisica \"Manuel Sandoval Vallarta,\" Universidad Autonoma de San Luis Potosi, Alvaro Obregon 64, 78000 San Luis Potosi, Mexico.",
+        "Division of Sciences and Engineering, University of Guanajuato, 37150 Leon, Mexico.",
+        "Instituto de Fisica \"Manuel Sandoval Vallarta,\" Universidad Autonoma de San Luis Potosi, Alvaro Obregon 64, 78000 San Luis Potosi, Mexico.",
+        "Condensed Matter Physics Laboratory, Heinrich Heine University, Dusseldorf, Germany.",
+        "Condensed Matter Physics Laboratory, Heinrich Heine University, Dusseldorf, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hansen, Jan",
+        "short_name": "Hansen J",
+        "identifiers": [
+          "0000-0002-4819-4559"
+        ],
+        "affiliations": [
+          "Condensed Matter Physics Laboratory, Heinrich Heine University, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Moll, Carolyn J",
+        "short_name": "Moll CJ",
+        "identifiers": [
+          "0000-0001-6041-5898"
+        ],
+        "affiliations": [
+          "Condensed Matter Physics Laboratory, Heinrich Heine University, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "López Flores, Leticia",
+        "short_name": "López Flores L",
+        "identifiers": [
+          "0000-0003-0980-5537"
+        ],
+        "affiliations": [
+          "Instituto de Física \"Manuel Sandoval Vallarta,\" Universidad Autónoma de San Luis Potosí, Álvaro Obregón 64, 78000 San Luis Potosí, Mexico."
+        ]
+      },
+      {
+        "full_name": "Castañeda-Priego, Ramón",
+        "short_name": "Castañeda-Priego R",
+        "identifiers": [
+          "0000-0001-8115-9395"
+        ],
+        "affiliations": [
+          "Division of Sciences and Engineering, University of Guanajuato, 37150 León, Mexico."
+        ]
+      },
+      {
+        "full_name": "Medina-Noyola, Magdaleno",
+        "short_name": "Medina-Noyola M",
+        "identifiers": [
+          "0000-0003-2905-3707"
+        ],
+        "affiliations": [
+          "Instituto de Física \"Manuel Sandoval Vallarta,\" Universidad Autónoma de San Luis Potosí, Álvaro Obregón 64, 78000 San Luis Potosí, Mexico."
+        ]
+      },
+      {
+        "full_name": "Egelhaaf, Stefan U",
+        "short_name": "Egelhaaf SU",
+        "identifiers": [
+          "0000-0002-2574-3498"
+        ],
+        "affiliations": [
+          "Condensed Matter Physics Laboratory, Heinrich Heine University, Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Platten, Florian",
+        "short_name": "Platten F",
+        "identifiers": [
+          "0000-0001-5912-1833"
+        ],
+        "affiliations": [
+          "Condensed Matter Physics Laboratory, Heinrich Heine University, Düsseldorf, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2023 Jan 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/15 06:00",
+    "fetched_at": "2026-09-20 18:32:20"
+  },
+  "links": {
+    "cites": [
+      "39820268",
+      "39589726"
+    ],
+    "refs": [],
+    "similar": [
+      "36641409",
+      "23912807",
+      "36607608",
+      "19222281",
+      "36792503",
+      "24892385",
+      "20849134",
+      "22148874",
+      "37039349",
+      "31241333",
+      "34608908",
+      "17930475",
+      "35263718",
+      "27017836",
+      "35778071",
+      "36129361",
+      "28422503",
+      "28178791",
+      "9826592",
+      "27662500",
+      "27801925",
+      "31613625",
+      "25494398",
+      "23367954",
+      "17048949",
+      "29996057",
+      "15565151",
+      "29557476",
+      "24810917",
+      "18362340",
+      "19795191",
+      "17382457",
+      "25403822",
+      "21958073",
+      "33170708",
+      "18497820",
+      "9449343",
+      "39240214",
+      "26849155",
+      "29448794",
+      "32696384",
+      "34135122",
+      "34265335",
+      "17677435",
+      "38376695",
+      "31487466",
+      "10852309",
+      "20815577",
+      "11777377",
+      "20370145",
+      "32432453",
+      "26451401",
+      "20401522",
+      "30017887",
+      "27846698",
+      "12935139",
+      "31841889",
+      "15571660",
+      "28754261",
+      "26237070",
+      "32696386",
+      "23487798",
+      "10028229",
+      "29960302",
+      "36550026",
+      "32101441",
+      "29274822",
+      "21528887",
+      "22239802",
+      "32678089",
+      "22280782",
+      "23996891",
+      "26505877",
+      "16906874",
+      "12443202",
+      "15422102",
+      "35364545",
+      "23004332",
+      "37503851",
+      "15052425",
+      "26174381",
+      "15792969",
+      "18517439",
+      "20482066",
+      "25956118",
+      "30461282",
+      "17358160",
+      "38943248",
+      "32787309",
+      "25099892",
+      "36493445",
+      "15267409",
+      "30702291",
+      "9414232",
+      "22360258",
+      "1924377",
+      "18233846",
+      "24679215",
+      "16229520",
+      "2450657",
+      "24141326",
+      "31437398",
+      "22713580",
+      "11551435",
+      "16090292",
+      "36762915"
+    ],
+    "review": [
+      "36641409",
+      "27017836",
+      "26174381"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0128643",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

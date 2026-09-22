@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2401.17111v2",
+  "title": "Self-consistent sharp interface theory of active condensate dynamics",
+  "authors": "Andriy Goychuk; Leonardo Demarchi; Ivan Maryshev; Erwin Frey",
+  "journal": "Phys. Rev. Research 6, 033082 (2024)",
+  "published_date": "2024-01-30",
+  "window": {
+    "start": "2024-01-29",
+    "end": "2024-02-04"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出活性凝聚体动力学的自洽尖锐界面理论，以生物分子凝聚体为对象，但聚焦于酶-底物反应驱动的非平衡动力学与热力学一致性，而非无序蛋白介导的PPI机制建模，方法为理论推导而非AI或物理模拟。",
+  "abstract": "Biomolecular condensates help organize the cell cytoplasm and nucleoplasm into spatial compartments with different chemical compositions. A key feature of such compositional patterning is the local enrichment of enzymatically active biomolecules which, after transient binding via molecular interactions, catalyze reactions among their substrates. Thereby, biomolecular condensates provide a spatial template for non-uniform concentration profiles of substrates. In turn, the concentration profiles of substrates, and their molecular interactions with enzymes, drive enzyme fluxes which can enable novel non-equilibrium dynamics. To analyze this generic class of systems, with a current focus on self-propelled droplet motion, we here develop a self-consistent sharp interface theory. In our theory, we diverge from the usual bottom-up approach, which involves calculating the dynamics of concentration profiles based on a given chemical potential gradient. Instead, reminiscent of control theory, we take the reverse approach by deriving the chemical potential profile and enzyme fluxes required to maintain a desired condensate form and dynamics. The chemical potential profile and currents of enzymes come with a corresponding power dissipation rate, which allows us to derive a thermodynamic consistency criterion for the passive part of the system (here, reciprocal enzyme-enzyme interactions). As a first use case of our theory, we study the role of reciprocal interactions, where the transport of substrates due to reactions and diffusion is, in part, compensated by redistribution due to molecular interactions. More generally, our theory applies to mass-conserved active matter systems with moving phase boundaries.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）有助于将细胞质和核质组织成具有不同化学组成的空间区室。这种组成模式化的一个关键特征是酶活性生物分子的局部富集，这些分子通过分子相互作用的瞬时结合，催化其底物间的反应。由此，生物分子凝聚体为底物的非均匀浓度分布提供了空间模板。反过来，底物的浓度分布及其与酶的分子相互作用驱动酶通量，这可能促成新颖的非平衡动力学。为了分析这类一般性系统，并当前聚焦于自驱动液滴运动，我们在此发展了一种自洽的尖锐界面理论。在我们的理论中，我们偏离了通常的自下而上方法，即基于给定化学势梯度计算浓度分布的动力学。相反，类似于控制理论，我们采取逆向方法，推导维持所需凝聚体形态和动力学所需的化学势分布及酶通量。化学势分布和酶电流伴随相应的功率耗散率，这使我们能够为系统的被动部分（此处为互惠的酶-酶相互作用）推导出热力学一致性判据。作为我们理论的第一个应用案例，我们研究了互惠相互作用的作用，其中由反应和扩散引起的底物运输部分被分子相互作用导致的再分布所补偿。更一般地，我们的理论适用于具有移动相边界的质量守恒活性物质系统。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2401.17111v2",
+  "source_url": "https://arxiv.org/abs/2401.17111v2",
+  "paper_page_path": "papers/arxiv/2401.17111v2/index.html"
+}

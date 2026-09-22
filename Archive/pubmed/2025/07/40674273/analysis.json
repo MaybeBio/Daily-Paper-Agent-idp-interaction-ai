@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40674273",
+  "title": "Hidden protein disorder: Deciphering the structural organisation and dynamics of a non-canonical CP12 from the diatom Thalassiosira pseudonana.",
+  "authors": "Bonucci, Alessio; Wang, Tingting; Baroudi, Hakima; Etienne, Emilien; Gerbaud, Guillaume; Mileo, Elisabetta; Parsiegla, Goetz; Yamato, Takahisa; Gontero, Brigitte; Launay, Helene; Belle, Valerie; Receveur-Brechot, Veronique",
+  "journal": "The FEBS journal",
+  "published_date": "2025-07-17",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合AlphaFold、MD模拟与SAXS/DEAR实验，解析硅藻非典型CP12无序蛋白的二聚体结构与动态，虽未直接研究PPI，但无序蛋白构象建模方法对本课题有可迁移启发。",
+  "abstract": "The chloroplastic protein CP12 from the diatom Thalassiosira pseudonana exhibits atypical and enigmatic structural properties that have so far hindered our understanding of its functions. Here, we used AlphaFold to generate a three-dimensional (3D) model of the structure of the protein. However, this model did not accurately describe the small-angle X-ray scattering (SAXS) data previously obtained. We have therefore undertaken a study using site-directed spin labelling combined with electron paramagnetic resonance (SDSL-EPR) to characterise the structural dynamics of this atypical CP12 and to investigate its dimeric organisation using double electron-electron resonance (DEER). We then performed molecular dynamics (MD) simulations, constrained by SAXS and DEER data, to refine the AlphaFold model and take into account the flexibility and disordered propensities of this protein. The combination of the experimental techniques together with the in silico AlphaFold and MD simulations reveals that the dimer is organised in an antiparallel arrangement of each monomer and that the C-terminal regions are highly flexible and partly disordered. Additionally, this diatom CP12 contains four structured domains likely to bind phosphoribulokinase regardless of their redox state. Our structural data therefore provide insights into the function of this protein in the regulation of the Calvin cycle and of photosynthesis in diatoms, whereas its structural organisation is completely different from any of its homologous counterparts from Plantae and cyanobacteria.",
+  "abstract_zh": "来自硅藻 *Thalassiosira pseudonana* 的叶绿体蛋白CP12表现出非典型且令人费解的结构特性，这些特性迄今阻碍了对其功能的理解。在此，我们使用AlphaFold生成了该蛋白结构的三维（3D）模型。然而，该模型未能准确描述先前获得的小角X射线散射（SAXS）数据。因此，我们开展了一项研究，采用定点自旋标记结合电子顺磁共振（SDSL-EPR）来表征这一非典型CP12的结构动力学，并利用双电子-电子共振（DEER）探究其二聚体组织。随后，我们进行了分子动力学（MD）模拟，并以SAXS和DEER数据为约束，以优化AlphaFold模型并考虑该蛋白的柔性和无序倾向。实验技术与计算机模拟的AlphaFold及MD模拟相结合，揭示出二聚体以每个单体的反平行排列方式组织，且C端区域高度柔性并部分无序。此外，该硅藻CP12包含四个结构化结构域，可能无论其氧化还原状态如何都能结合磷酸核酮糖激酶。因此，我们的结构数据为理解该蛋白在硅藻卡尔文循环和光合作用调控中的功能提供了见解，而其结构组织与其在植物界和蓝藻中的任何同源对应物完全不同。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40674273/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40674273/",
+  "paper_page_path": "papers/pubmed/40674273/index.html"
+}

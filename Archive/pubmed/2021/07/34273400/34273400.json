@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "34273400",
+    "doi": "10.1016/j.jmb.2021.167152",
+    "title": "Transient Tertiary Structures of Disordered Dynein Intermediate Chain Regulate its Interactions with Multiple Partners."
+  },
+  "content": {
+    "abstract": "The N-terminal domain of dynein intermediate chain (N-IC) is central to the cytoplasmic dynein 'cargo attachment subcomplex' and regulation of motor activity. It is a prototypical intrinsically disordered protein (IDP), serving as a primarily disordered polybivalent molecular scaffold for numerous binding partners, including three dimeric dynein light chains and coiled coil domains of dynein partners dynactin p150(Glued) and NudE. At the very N-terminus, a 40 amino acid single alpha helix (SAH) forms the major binding site for both p150(Glued) and NudE, while a shorter nascent helix (H2) separated from SAH by a disordered linker, is necessary for tight binding to dynactin p150(Glued) but not to NudE. Here we demonstrate that transient tertiary interactions in this highly dynamic protein underlie the differences in its interactions with p150(Glued) and NudE. NMR paramagnetic relaxation enhancement experiments and restrained molecular dynamics simulations identify interactions between the two non-contiguous SAH and H2 helical regions, the extent of which correlates with the length and stability of H2, showing clearly that tertiary and secondary structure formation are coupled in IDPs. These interactions are significantly attenuated when N-IC is bound to NudE, suggesting that NudE binding shifts the conformational ensemble to one that is more extended and with less structure in H2. While the intrinsic disorder and flexibility in N-IC modulate its ability to serve as a binding platform for numerous partners, deviations of this protein from random-coil behavior provide a process for regulating these binding interactions and potentially the dynein motor.",
+    "keywords": [
+      "dynein",
+      "intrinsically disordered proteins",
+      "molecular dynamics",
+      "paramagnetic relaxation enhancement",
+      "transient tertiary contacts"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Binding Sites",
+      "Carrier Proteins/chemistry/*metabolism",
+      "Drosophila Proteins/*chemistry/*metabolism",
+      "Drosophila melanogaster/*metabolism",
+      "Dyneins/*chemistry/*metabolism",
+      "Molecular Dynamics Simulation",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Protein Structure, Secondary",
+      "*Protein Structure, Tertiary"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Morgan, Jessica L",
+        "Yeager, Andrew",
+        "Estelle, Aidan B",
+        "Gsponer, Jorg",
+        "Barbar, Elisar"
+      ],
+      "short_names": [
+        "Morgan JL",
+        "Yeager A",
+        "Estelle AB",
+        "Gsponer J",
+        "Barbar E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, United States.",
+        "Department of Biochemistry and Molecular Biology, University of British Columbia, Vancouver, BC V6T 1Z4, Canada.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, United States.",
+        "Department of Biochemistry and Molecular Biology, University of British Columbia, Vancouver, BC V6T 1Z4, Canada. Electronic address: gsponer@msl.ubc.ca.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, United States. Electronic address: barbare@oregonstate.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Morgan, Jessica L",
+        "short_name": "Morgan JL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, United States."
+        ]
+      },
+      {
+        "full_name": "Yeager, Andrew",
+        "short_name": "Yeager A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of British Columbia, Vancouver, BC V6T 1Z4, Canada."
+        ]
+      },
+      {
+        "full_name": "Estelle, Aidan B",
+        "short_name": "Estelle AB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, United States."
+        ]
+      },
+      {
+        "full_name": "Gsponer, Jörg",
+        "short_name": "Gsponer J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of British Columbia, Vancouver, BC V6T 1Z4, Canada. Electronic address: gsponer@msl.ubc.ca."
+        ]
+      },
+      {
+        "full_name": "Barbar, Elisar",
+        "short_name": "Barbar E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, United States. Electronic address: barbare@oregonstate.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2021 Sep 3",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/18 06:00",
+    "fetched_at": "2026-09-20 04:18:51"
+  },
+  "links": {
+    "cites": [
+      "42129207",
+      "40107617",
+      "38391943",
+      "37730751",
+      "36711700",
+      "36416224"
+    ],
+    "refs": [],
+    "similar": [
+      "34273400",
+      "36416224",
+      "21931160",
+      "22669947",
+      "20974845",
+      "32814057",
+      "26253171",
+      "28162951",
+      "16949604",
+      "17570393",
+      "32139510",
+      "19759397",
+      "20472935",
+      "15581372",
+      "11425872",
+      "25419851",
+      "30615611",
+      "23577064",
+      "17325206",
+      "17029413",
+      "29990433",
+      "11340075",
+      "11914076",
+      "23723415",
+      "31445682",
+      "11071907",
+      "16452477",
+      "25286318",
+      "17551010",
+      "17951712",
+      "36711700",
+      "36602690",
+      "37730751",
+      "12920307",
+      "25185702",
+      "20479466",
+      "11571270",
+      "7593168",
+      "22988856",
+      "25058684",
+      "25908857",
+      "23914803",
+      "16385004",
+      "12686593",
+      "30143531",
+      "15701632",
+      "23987511",
+      "25059720",
+      "31306018",
+      "15078108",
+      "12515539",
+      "27489054",
+      "10564267",
+      "17428790",
+      "12119357",
+      "16343429",
+      "10318847",
+      "18491033",
+      "18942858",
+      "11178896",
+      "15175652",
+      "29714690",
+      "19289209",
+      "16083906",
+      "18799620",
+      "23874158",
+      "11148215",
+      "10921911",
+      "11327818",
+      "7499404",
+      "32378283",
+      "17682047",
+      "32238103",
+      "20351100",
+      "14767079",
+      "24920673",
+      "22956769",
+      "12153036",
+      "21809817",
+      "11889140",
+      "12077152",
+      "11967380",
+      "11278908",
+      "21282465",
+      "18948118",
+      "29515126",
+      "9038206",
+      "8522607",
+      "22106867",
+      "33153474",
+      "15077115",
+      "12902405",
+      "27976861",
+      "14565986",
+      "33450249",
+      "18369190",
+      "34633390",
+      "25190813",
+      "38430911",
+      "36739945",
+      "33641207",
+      "34656330",
+      "22408419",
+      "25551399",
+      "37083599",
+      "39186607",
+      "36213119",
+      "30271940",
+      "34888535",
+      "35529627",
+      "37476506",
+      "35787023"
+    ],
+    "review": [
+      "34273400",
+      "22988856"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(21)00381-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=34273400",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

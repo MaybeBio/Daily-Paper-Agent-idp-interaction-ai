@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors propose that the N-terminal transactivation domain of HOXA9 is intrinsically disordered and inhibits DNA binding by the homeodomain via transient occlusion of the DNA-binding interface by a hexapeptide (197)AANWLH(202). They further propose a dual regulatory role for this region, where it inhibits DNA binding in the absence of TALE partners and facilitates cooperative DNA binding in their presence.
+- **Visible evidence base** Abstract text only; no experimental details, NMR spectra, simulation parameters, or statistical analyses were provided
+- **Missing materials affecting confidence** Full methods, NMR data and assignments, molecular dynamics simulation details, mutagenesis validation data, functional assays, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically interesting hypothesis regarding auto-inhibition of HOXA9 DNA binding by an intrinsically disordered region. However, the evidence base is limited to a summary of findings without access to the underlying data. The central claims regarding transient occlusion, the rigidity of the hexapeptide, and the functional consequences of mutation require careful scrutiny of the primary data, which are not available in this submission. The dual-role proposal is plausible but speculative in the absence of direct experimental support for the TALE-partner-dependent switch.
+- **Who would be interested in the results, and why** Researchers studying transcription factor regulation, intrinsically disordered proteins, homeodomain biology, and leukemia biology, particularly those interested in HOX protein function and protein-protein interactions that modulate DNA-binding specificity and affinity.
+- **Major strengths** The study addresses an underappreciated regulatory mechanism for HOXA9, namely auto-inhibition by an intrinsically disordered region. The identification of a specific hexapeptide that both mediates auto-inhibition and TALE partner interaction provides a compelling framework for understanding how HOXA9 function is context-dependent. The combination of NMR spectroscopy and molecular dynamics simulation is appropriate for characterizing conformational dynamics in disordered regions.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The claim that the hexapeptide (197)AANWLH(202) transiently occludes the DNA-binding interface is presented as a demonstrated finding.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that NMR spectroscopy and molecular dynamics simulation show transient occlusion, but no quantitative data are presented. It is unclear whether the simulations sampled sufficient conformational space to establish a statistically significant population of occluded states, and whether NMR chemical shift perturbations or relaxation data directly support the proposed interaction.  
+  - **Why it matters** The transient occlusion mechanism is the central mechanistic claim of the study. Without robust evidence that the hexapeptide physically contacts the DNA-binding interface with a meaningful occupancy, the proposed auto-inhibition model is not established.  
+  - **Resolution test** Provide quantitative population analysis from simulations, NMR chemical shift perturbation data for the homeodomain upon hexapeptide interaction, and a statistical comparison of occluded versus non-occluded states.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Functional validation  
+  - **Claim pointer** The claim that mutation of tryptophan to alanine in the hexapeptide abrogates DNA-binding auto-inhibition.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports that the W-to-A mutation abrogates auto-inhibition, but no functional data are described. It is not clear whether this was tested in vitro (e.g., electrophoretic mobility shift assay, fluorescence anisotropy) or in cell-based assays, nor whether the mutation affects protein stability or folding.  
+  - **Why it matters** The mutation experiment is the key functional test of the auto-inhibition model. If the mutation also disrupts the overall structure or stability of the transactivation domain, the observed loss of inhibition could be due to nonspecific effects rather than loss of the specific hexapeptide-mediated interaction.  
+  - **Resolution test** Provide data from DNA-binding assays comparing wild-type and mutant proteins, including controls for protein integrity and concentration, and ideally a rescue experiment with a complementary mutation.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Speculative extension  
+  - **Claim pointer** The proposal that the disordered transactivation region plays a dual role, inhibiting DNA binding in the absence of TALE partners and facilitating cooperative binding in their presence.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The dual-role model is presented as a proposal, but the abstract does not describe any experiments testing the TALE-partner-dependent switch. No data are shown for HOXA9-PBX1 interactions, cooperative DNA binding, or the effect of the hexapeptide mutation on these processes.  
+  - **Why it matters** The dual-role model is a significant conceptual advance, but it remains speculative without direct experimental support. If the hexapeptide is involved in both auto-inhibition and TALE interaction, it is critical to demonstrate that these functions are mutually exclusive and that TALE binding relieves auto-inhibition.  
+  - **Resolution test** Provide binding assays with TALE partners, competition experiments, or structural data showing that TALE binding displaces the hexapeptide from the homeodomain interface.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Rigidity claim  
+  - **Claim pointer** The claim that the hexapeptide forms a rigid segment in an otherwise flexible disordered region, as determined by NMR dynamics.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that the hexapeptide is rigid, but no NMR relaxation data, order parameters, or comparison with other regions of the disordered domain are provided. It is unclear whether the rigidity is intrinsic or induced by interactions.  
+  - **Why it matters** The rigidity of the hexapeptide is relevant to the proposed mechanism, as a pre-formed rigid element could facilitate both auto-inhibition and TALE binding. However, without quantitative dynamics data, this claim is not verifiable.  
+  - **Resolution test** Provide order parameters (S²) or relaxation-derived timescales for the hexapeptide and flanking regions, with appropriate error analysis.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "transactivation region" is used interchangeably with "transactivation domain," which may cause confusion regarding the boundaries of the region studied.  
+  - **Required correction** Define the exact residue boundaries of the transactivation region and use consistent terminology throughout.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Literature comparison  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not discuss how the proposed auto-inhibition mechanism relates to previously described regulatory mechanisms for HOX proteins or other homeodomain transcription factors.  
+  - **Required correction** Add a brief comparison with known regulatory mechanisms to contextualize the novelty of the findings.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Specificity  
+  - **Affected element** Mutation description  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states "mutation of tryptophan to alanine" but does not specify the residue number or the exact mutation (e.g., W199A).  
+  - **Required correction** Specify the residue number and the precise mutation in the abstract.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Quantitative reporting  
+  - **Affected element** Binding affinity  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** No quantitative measure of DNA-binding inhibition (e.g., IC50, Kd values) is reported.  
+  - **Required correction** Include quantitative binding parameters for wild-type and mutant proteins to support the claim of abrogated inhibition.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (transient occlusion evidence), R1-M2 (functional validation of mutation), R1-M4 (rigidity claim). These concerns must be resolved with primary data before the central mechanistic model can be considered established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of auto-inhibition by an intrinsically disordered region in a HOX transcription factor is novel and potentially significant. However, the abstract does not provide sufficient detail to assess whether this mechanism has been previously proposed for other transcription factors.  
+  - **Scientific importance** If fully validated, the findings could have implications for understanding HOXA9 regulation in normal hematopoiesis and leukemia. The dual-role model is conceptually important but requires experimental support.  
+  - **Interdisciplinary readership** The topic bridges structural biology, biophysics, and gene regulation, which could attract a broad readership. However, the abstract is written in a specialized manner that may limit accessibility.  
+  - **Technical soundness** The combination of NMR and simulation is appropriate, but the abstract does not provide enough detail to assess the rigor of the methods or the robustness of the conclusions.  
+  - **Readability for nonspecialists** The abstract is concise but assumes familiarity with NMR dynamics, molecular dynamics simulation, and HOX biology. A brief explanation of the functional significance would improve accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible and interesting hypothesis, but the absence of primary data prevents verification of the central claims. The authors should be encouraged to provide the full manuscript with detailed methods and results for a complete evaluation.
+
+## Risk / unsupported claims
+- The claim that the hexapeptide transiently occludes the DNA-binding interface is unsupported without quantitative simulation and NMR data.
+- The claim that the hexapeptide forms a rigid segment is unsupported without NMR dynamics data.
+- The claim that mutation of tryptophan to alanine abrogates auto-inhibition is unsupported without functional assay data.
+- The dual-role model for the transactivation region is speculative and not directly tested in the abstract.
+- The statement that the transactivation domain is intrinsically disordered is plausible but not verifiable without structural or biophysical data.

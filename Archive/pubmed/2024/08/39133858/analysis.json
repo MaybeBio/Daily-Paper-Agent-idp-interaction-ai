@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39133858",
+  "title": "AlphaFold2-based prediction of the co-condensation propensity of proteins.",
+  "authors": "Zhang, Shengyu; Lim, Christine M; Occhetta, Martina; Vendruscolo, Michele",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2024-08-12",
+  "window": {
+    "start": "2024-08-12",
+    "end": "2024-08-18"
+  },
+  "score": 9,
+  "one_liner_zh": "该文利用AlphaFold2预测蛋白构象特征，开发CoDropleT方法预测蛋白对共凝聚（相分离）倾向，直接针对无序蛋白介导的PPI与凝聚体机制建模，AI方法核心且应用明确。",
+  "abstract": "The process of protein phase separation into liquid condensates has been implicated in the formation of membraneless organelles (MLOs), which selectively concentrate biomolecules to perform essential cellular functions. Although the importance of this process in health and disease is increasingly recognized, the experimental identification of proteins forming MLOs remains a complex challenge. In this study, we addressed this problem by harnessing the power of AlphaFold2 to perform computational predictions of the conformational properties of proteins from their amino acid sequences. We thus developed the CoDropleT (co-condensation into droplet transformer) method of predicting the propensity of co-condensation of protein pairs. The method was trained by combining experimental datasets of co-condensing proteins from the CD-CODE database with curated negative datasets of non-co-condensing proteins. To illustrate the performance of the method, we applied it to estimate the propensity of proteins to co-condense into MLOs. Our results suggest that CoDropleT could facilitate functional and therapeutic studies on protein condensation by predicting the composition of protein condensates.",
+  "abstract_zh": "蛋白质相分离形成液滴状凝聚体的过程已被认为与无膜细胞器（MLOs）的形成有关，这些细胞器选择性地浓缩生物分子以执行关键的细胞功能。尽管这一过程在健康和疾病中的重要性日益受到认可，但实验上鉴定形成MLOs的蛋白质仍然是一个复杂的挑战。在本研究中，我们通过利用AlphaFold2的强大能力，从氨基酸序列出发对蛋白质的构象特性进行计算预测，从而解决了这一问题。我们因此开发了CoDropleT（共凝聚液滴转换器）方法，用于预测蛋白质对的共凝聚倾向。该方法通过结合来自CD-CODE数据库的共凝聚蛋白质实验数据集和精心构建的非共凝聚蛋白质阴性数据集进行训练。为展示该方法的性能，我们将其应用于估计蛋白质共凝聚进入MLOs的倾向。我们的结果表明，CoDropleT通过预测蛋白质凝聚体的组成，可能促进蛋白质凝聚相关的功能性和治疗性研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39133858/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39133858/",
+  "paper_page_path": "papers/pubmed/39133858/index.html"
+}

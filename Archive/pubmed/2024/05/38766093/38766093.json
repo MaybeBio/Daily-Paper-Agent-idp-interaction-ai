@@ -1,0 +1,280 @@
+{
+  "identity": {
+    "pmid": "38766093",
+    "doi": "10.1101/2024.05.08.593266",
+    "title": "Predicting transcriptional activation domain function using Graph Neural Networks."
+  },
+  "content": {
+    "abstract": "Analysis of factors that lead to the functionality of transcriptional activation domains remains a crucial and yet challenging task owing to the significant diversity in their sequences and their intrinsically disordered nature. Almost all existing methods that have aimed to predict activation domains have involved traditional machine learning approaches, such as logistic regression, that are unable to capture complex patterns in data or plain convolutional neural networks and have been limited in exploration of structural features. However, there is a tremendous potential in the inspection of the structural properties of activation domains, and an opportunity to investigate complex relationships between features of residues in the sequence. To address these, we have utilized the power of graph neural networks which can represent structural data in the form of nodes and edges, allowing nodes to exchange information among themselves. We have experimented with two kinds of graph formulations, one involving residues as nodes and the other assigning atoms to be the nodes. A logistic regression model was also developed to analyze feature importance. For all the models, several feature combinations were experimented with. The residue-level GNN model with amino acid type, residue position, acidic/basic/aromatic property and secondary structure feature combination gave the best performing model with accuracy, F1 score and AUROC of 97.9%, 71% and 97.1% respectively which outperformed other existing methods in the literature when applied on the dataset we used. Among the other structure-based features that were analyzed, the amphipathic property of helices also proved to be an important feature for classification. Logistic regression results showed that the most dominant feature that makes a sequence functional is the frequency of different types of amino acids in the sequence. Our results consistent have shown that functional sequences have more acidic and aromatic residues whereas basic residues are seen more in non-functional sequences.",
+    "keywords": [
+      "activation domains",
+      "graph neural networks",
+      "logistic regression",
+      "secondary structure"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Farheen, Farhanaz",
+        "Broyles, Bradley K",
+        "Zhang, Yuanyuan",
+        "Ibtehaz, Nabil",
+        "Erkine, Alexandre M",
+        "Kihara, Daisuke"
+      ],
+      "short_names": [
+        "Farheen F",
+        "Broyles BK",
+        "Zhang Y",
+        "Ibtehaz N",
+        "Erkine AM",
+        "Kihara D"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3625-5972"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Purdue University, West Lafayette, IN, USA.",
+        "Department of Biological Sciences, Purdue University, West Lafayette, IN, USA.",
+        "Department of Computer Science, Purdue University, West Lafayette, IN, USA.",
+        "Department of Computer Science, Purdue University, West Lafayette, IN, USA.",
+        "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN, USA.",
+        "Department of Computer Science, Purdue University, West Lafayette, IN, USA.",
+        "Department of Biological Sciences, Purdue University, West Lafayette, IN, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Farheen, Farhanaz",
+        "short_name": "Farheen F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Purdue University, West Lafayette, IN, USA."
+        ]
+      },
+      {
+        "full_name": "Broyles, Bradley K",
+        "short_name": "Broyles BK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Purdue University, West Lafayette, IN, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yuanyuan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Purdue University, West Lafayette, IN, USA."
+        ]
+      },
+      {
+        "full_name": "Ibtehaz, Nabil",
+        "short_name": "Ibtehaz N",
+        "identifiers": [
+          "0000-0003-3625-5972"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Purdue University, West Lafayette, IN, USA."
+        ]
+      },
+      {
+        "full_name": "Erkine, Alexandre M",
+        "short_name": "Erkine AM",
+        "identifiers": [],
+        "affiliations": [
+          "College of Pharmacy and Health Sciences, Butler University, Indianapolis, IN, USA."
+        ]
+      },
+      {
+        "full_name": "Kihara, Daisuke",
+        "short_name": "Kihara D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Purdue University, West Lafayette, IN, USA.",
+          "Department of Biological Sciences, Purdue University, West Lafayette, IN, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 May 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/20 11:42",
+    "fetched_at": "2026-09-21 07:20:54"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "36927031",
+      "36736305",
+      "34522860",
+      "34265844",
+      "34113650",
+      "33904398",
+      "32416068",
+      "32221609",
+      "32144844",
+      "30297207",
+      "29759983",
+      "25989233",
+      "19068426",
+      "11741530",
+      "11104519",
+      "7892171",
+      "6667333",
+      "3656427"
+    ],
+    "similar": [
+      "38766093",
+      "37807013",
+      "33052851",
+      "38698098",
+      "34113650",
+      "36805265",
+      "37982829",
+      "36041282",
+      "34706640",
+      "38676140",
+      "37582507",
+      "36845996",
+      "36850510",
+      "38365583",
+      "31288752",
+      "35171981",
+      "38487204",
+      "33982027",
+      "37256031",
+      "31208331",
+      "38408296",
+      "35696650",
+      "38862928",
+      "33817007",
+      "39347119",
+      "29982330",
+      "35750771",
+      "35313247",
+      "36100347",
+      "39223474",
+      "39237038",
+      "32144844",
+      "36545797",
+      "33673440",
+      "36241966",
+      "34773871",
+      "38225583",
+      "39223071",
+      "36845380",
+      "37581061",
+      "35872410",
+      "34099048",
+      "35615261",
+      "36625358",
+      "34294047",
+      "39123113",
+      "35128279",
+      "38303477",
+      "37486497",
+      "38269610",
+      "37396234",
+      "17608939",
+      "32265580",
+      "35536056",
+      "36462371",
+      "38000310",
+      "35589837",
+      "35066446",
+      "37915858",
+      "38250147",
+      "38833802",
+      "34116289",
+      "32766627",
+      "32163118",
+      "35120004",
+      "36434526",
+      "35475548",
+      "34073745",
+      "35927691",
+      "37317619",
+      "36554149",
+      "23912807",
+      "38430611",
+      "33493112",
+      "38954916",
+      "36399591",
+      "38083830",
+      "38935468",
+      "37018297",
+      "37022086",
+      "38361007",
+      "39433833",
+      "35898766",
+      "38876952",
+      "37005531",
+      "34714742",
+      "35713780",
+      "33588722",
+      "34604740",
+      "37399293",
+      "37759189",
+      "37200114",
+      "38756930",
+      "34516371",
+      "35911592",
+      "22720789",
+      "33993559",
+      "37960582",
+      "35077363",
+      "38382304"
+    ],
+    "review": [
+      "38766093"
+    ],
+    "pmc": [
+      "11100744"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38766093/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38766093",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.05.08.593266",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

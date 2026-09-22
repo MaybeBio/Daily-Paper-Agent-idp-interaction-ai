@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37921648",
+  "title": "Pathologic polyglutamine aggregation begins with a self-poisoning polymer crystal.",
+  "authors": "Kandola, Tej; Venkatesan, Shriram; Zhang, Jiahui; Lerbakken, Brooklyn T; Von Schulze, Alex; Blanck, Jillian F; Wu, Jianzheng; Unruh, Jay R; Berry, Paula; Lange, Jeffrey J; Box, Andrew C; Cook, Malcolm; Sagui, Celeste; Halfmann, Randal",
+  "journal": "eLife",
+  "published_date": "2023-11-03",
+  "window": {
+    "start": "2023-10-30",
+    "end": "2023-11-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合细胞内报告实验与分子模拟，揭示polyQ淀粉样成核通过三谷氨酸间隔模式形成四链steric zipper并自我毒化生长，虽对象为polyQ无序序列而非典型IDR/相分离，但聚焦无序蛋白聚集的成核机制建模，对IDP介导互作机制研究有方法学启发。",
+  "abstract": "A long-standing goal of amyloid research has been to characterize the structural basis of the rate-determining nucleating event. However, the ephemeral nature of nucleation has made this goal unachievable with existing biochemistry, structural biology, and computational approaches. Here, we addressed that limitation for polyglutamine (polyQ), a polypeptide sequence that causes Huntington's and other amyloid-associated neurodegenerative diseases when its length exceeds a characteristic threshold. To identify essential features of the polyQ amyloid nucleus, we used a direct intracellular reporter of self-association to quantify frequencies of amyloid appearance as a function of concentration, conformational templates, and rational polyQ sequence permutations. We found that nucleation of pathologically expanded polyQ involves segments of three glutamine (Q) residues at every other position. We demonstrate using molecular simulations that this pattern encodes a four-stranded steric zipper with interdigitated Q side chains. Once formed, the zipper poisoned its own growth by engaging naive polypeptides on orthogonal faces, in a fashion characteristic of polymer crystals with intramolecular nuclei. We further show that self-poisoning can be exploited to block amyloid formation, by genetically oligomerizing polyQ prior to nucleation. By uncovering the physical nature of the rate-limiting event for polyQ aggregation in cells, our findings elucidate the molecular etiology of polyQ diseases.",
+  "abstract_zh": "淀粉样蛋白研究的一个长期目标一直是表征限速成核事件的结构基础。然而，成核的瞬时性使得这一目标在现有的生物化学、结构生物学和计算方法下无法实现。在此，我们针对多聚谷氨酰胺（polyQ）这一多肽序列解决了这一限制，该序列在长度超过特征阈值时会导致亨廷顿病及其他淀粉样蛋白相关神经退行性疾病。为了识别polyQ淀粉样蛋白核的关键特征，我们使用了一种直接的细胞内自结合报告系统，以量化淀粉样蛋白出现频率作为浓度、构象模板和合理polyQ序列排列的函数。我们发现，病理扩展的polyQ的成核涉及每隔一个位置上的三个谷氨酰胺（Q）残基片段。我们通过分子模拟（molecular simulations）证明，这一模式编码了一个四股链的steric zipper结构，其中Q侧链相互交错。一旦形成，该zipper通过正交面上的naive多肽结合来毒害自身生长，这种方式具有分子内核的聚合物晶体的特征。我们进一步表明，通过遗传学手段在成核前将polyQ寡聚化，可以利用这种自毒害作用来阻断淀粉样蛋白形成。通过揭示细胞中polyQ聚集限速事件的物理本质，我们的发现阐明了polyQ疾病的分子病因学。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37921648/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37921648/",
+  "paper_page_path": "papers/pubmed/37921648/index.html"
+}

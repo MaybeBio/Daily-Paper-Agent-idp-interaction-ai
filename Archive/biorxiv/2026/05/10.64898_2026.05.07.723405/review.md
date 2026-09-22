@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or data are available for verification
+- **Shared manuscript claim summary** The authors propose that tyrosine-rich local structural regions in the intrinsically disordered protein Sup35NM encode temperature sensitivity of liquid–liquid phase separation (LLPS). Tyrosines mediate both intramolecular local structure stabilization and intermolecular interactions required for LLPS. Alanine substitution disrupts local structure and weakens intermolecular interactions, reducing temperature sensitivity. Phenylalanine substitution promotes rapid gelation, abolishes fluidity, suppresses amyloid formation, and confers resistance to temperature-induced dissolution. A model is proposed in which moderately weak aromatic interactions among tyrosines enable reversible, temperature-sensitive local compaction, generating sharp phase transitions.
+- **Visible evidence base** Abstract text only. No methods, figures, tables, statistical analyses, or experimental details are provided.
+- **Missing materials affecting confidence** Full manuscript, experimental methods, mutational constructs, quantitative phase diagrams, temperature-dependent measurements, microscopy data, rheology or fluidity assays, amyloid formation assays, and statistical analyses. Without these, the mechanistic claims cannot be independently evaluated.
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically focused study on sequence-encoded temperature sensitivity of LLPS in an intrinsically disordered protein. The proposed role of tyrosine-mediated aromatic interactions in coupling local structure, phase separation, and temperature responsiveness is conceptually appealing and could be of broad interest to the phase separation and protein biophysics communities. However, the abstract alone provides insufficient evidence to assess the validity of the central claims. Key mechanistic assertions, such as the distinction between intramolecular and intermolecular tyrosine interactions, the causal link between local structure and temperature sensitivity, and the differential effects of alanine versus phenylalanine substitutions, are stated without quantitative or methodological support. The study's significance and technical soundness cannot be established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying liquid–liquid phase separation, intrinsically disordered proteins, prion biology, and the biophysical basis of temperature sensing in cells. The proposed framework linking amino acid sequence to condensate environmental responsiveness could also interest synthetic biologists and protein engineers designing stimuli-responsive materials.
+- **Major strengths** The abstract identifies a specific, testable sequence-encoded mechanism for temperature sensitivity in LLPS. The use of systematic aromatic substitutions (tyrosine to alanine versus phenylalanine) provides a clear comparative design. The proposed model is conceptually coherent and connects local structural dynamics to macroscopic phase behavior.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that tyrosine residues mediate both intramolecular interactions that stabilize local structure and intermolecular interactions required for LLPS.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any experimental evidence distinguishing intramolecular from intermolecular tyrosine interactions. No methods such as NMR, mutagenesis mapping, crosslinking, or concentration-dependent analyses are described. The claim that the same residues mediate both types of interactions is mechanistically plausible but requires direct evidence.
+  - **Why it matters** The central mechanistic model depends on this dual role of tyrosines. Without evidence separating intramolecular structural stabilization from intermolecular interaction strength, the proposed model is not established.
+  - **Resolution test** Provide experimental data that directly assess intramolecular interactions (e.g., NMR chemical shift perturbations, local structure probes) and intermolecular interactions (e.g., concentration-dependent phase diagrams, sedimentation, or FRET-based assays) for wild-type and mutant proteins.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that alanine substitution diminishes temperature sensitivity, while phenylalanine substitution confers resistance to temperature-induced dissolution.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No quantitative temperature-dependent phase diagrams, cloud point measurements, or dissolution temperatures are provided. The terms "diminishes temperature sensitivity" and "resistance to temperature-induced dissolution" are qualitative and cannot be evaluated without numerical data and appropriate controls.
+  - **Why it matters** The title and central thesis focus on temperature sensitivity. Without quantitative measurements of phase boundaries as a function of temperature for wild-type and mutant proteins, the core claim is unsupported.
+  - **Resolution test** Provide phase diagrams (temperature versus protein concentration) for wild-type and each mutant, with replicate measurements and statistical analysis. Report transition temperatures and widths of coexistence regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that phenylalanine substitution promotes rapid droplet gelation, abolishes internal fluidity, suppresses amyloid formation, and confers resistance to temperature-induced dissolution.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** Multiple distinct biophysical properties are asserted for the phenylalanine mutant, but no methods or data are described. Fluidity assessments (e.g., FRAP, microrheology), gelation kinetics, amyloid assays (e.g., ThT fluorescence, electron microscopy), and dissolution measurements are all absent.
+  - **Why it matters** These claims are central to the proposed model that aromatic interaction strength tunes material properties and temperature responsiveness. Without data, the model remains speculative.
+  - **Resolution test** Provide FRAP recovery curves, rheological measurements, amyloid formation kinetics, and temperature-dependent dissolution assays for all variants, with appropriate statistical comparisons.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors propose that amino acid sequences encode not only phase separation propensity but also the sensitivity of condensates to environmental perturbations, providing a framework for understanding how intrinsically disordered proteins act as molecular sensors of cellular conditions.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The generalization from a single protein domain (Sup35NM) to a broad framework for IDPs as cellular sensors is a significant extrapolation. No evidence is provided that this mechanism operates in other proteins or in cellular contexts.
+  - **Why it matters** The broader significance claim extends beyond the presented system. Without comparative analysis or cellular validation, this generalization is not supported.
+  - **Resolution test** Provide evidence from at least one additional IDP system or cellular context demonstrating that similar aromatic interaction motifs confer temperature sensitivity, or temper the claim to the specific system studied.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Terms such as "local structural region," "reversible local compaction," and "sharp phase transition" are used without operational definitions. Nonspecialist readers may struggle to interpret these concepts.
+  - **Required correction** Define these terms briefly or provide context for their physical meaning in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Mutational design
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that tyrosines were substituted with alanine or phenylalanine but does not specify how many tyrosine residues were mutated, whether single or multiple substitutions were made, or whether all tyrosines in the local region were targeted.
+  - **Required correction** Specify the number and positions of tyrosine residues mutated in the full manuscript, and clarify the design rationale.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Temperature sensitivity quantification
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not define what constitutes "sharp" or "pronounced" temperature sensitivity in quantitative terms.
+  - **Required correction** Provide quantitative metrics for temperature sensitivity (e.g., change in saturation concentration per degree Celsius, transition width) in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central mechanistic claims regarding dual tyrosine roles, quantitative temperature sensitivity, and differential mutant material properties are not supported by the abstract alone. R1-M4 is a generalization concern that should be addressed but is not strictly technical.
+- **Assessment against Nature-style criteria** 
+  - Originality: The proposed mechanism linking specific aromatic interactions to temperature sensitivity of LLPS is conceptually novel and extends beyond generic descriptions of hydrophobic or pi–pi interactions in phase separation. However, originality cannot be fully assessed without seeing how this relates to existing literature in the full manuscript.
+  - Scientific importance: If the claims are substantiated, the work could provide a generalizable principle for sequence-encoded environmental responsiveness of condensates. However, the current evidence base is insufficient to establish importance beyond the specific system.
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and protein chemistry, and would likely appeal to a broad interdisciplinary audience if the mechanistic claims are well supported.
+  - Technical soundness: Not assessable from the abstract. No methods, controls, or quantitative data are provided. The technical soundness of the central claims is currently unverified.
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terminology without definition. With minor revisions, it could be accessible to a broad scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible experimental design, but the central mechanistic claims are unsupported by the supplied material. A supportive recommendation would require the full manuscript demonstrating quantitative temperature-dependent phase behavior, direct evidence for intramolecular versus intermolecular tyrosine interactions, and characterization of material properties for the mutants.
+
+## Risk / unsupported claims
+- The claim that tyrosine residues mediate both intramolecular and intermolecular interactions is unsupported by the abstract.
+- The claim that alanine substitution diminishes temperature sensitivity is unsupported without quantitative phase diagrams.
+- The claim that phenylalanine substitution promotes rapid gelation, abolishes fluidity, suppresses amyloid formation, and confers resistance to dissolution is unsupported without experimental data.
+- The generalization that amino acid sequences encode environmental sensitivity of condensates broadly is unsupported from a single protein domain.
+- The proposed molecular model of "finely tuned, moderately weak aromatic interactions" enabling reversible local compaction is speculative without structural or thermodynamic data.

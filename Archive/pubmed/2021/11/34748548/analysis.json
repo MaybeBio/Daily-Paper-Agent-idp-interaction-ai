@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34748548",
+  "title": "Multivalent polymers can control phase boundary, dynamics, and organization of liquid-liquid phase separation.",
+  "authors": "Zumbro, Emiko; Alexander-Katz, Alfredo",
+  "journal": "PloS one",
+  "published_date": "2021-11-09",
+  "window": {
+    "start": "2021-11-08",
+    "end": "2021-11-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化布朗动力学模拟研究多价聚合物（如RNA/模块蛋白）与结合蛋白的非特异/特异互作如何调控液-液相分离边界、液滴动力学与内部组织，直接聚焦IDR/凝聚体中的PPI机制建模，方法为物理模拟，高度契合本课题。",
+  "abstract": "Multivalent polymers are a key structural component of many biocondensates. When interacting with their cognate binding proteins, multivalent polymers such as RNA and modular proteins have been shown to influence the liquid-liquid phase separation (LLPS) boundary to both control condensate formation and to influence condensate dynamics after phase separation. Much is still unknown about the function and formation of these condensed droplets, but changes in their dynamics or phase separation are associated with neurodegenerative diseases such as amyotrophic lateral sclerosis (ALS) and Alzheimer's Disease. Therefore, investigation into how the structure of multivalent polymers relates to changes in biocondensate formation and maturation is essential to understanding and treating these diseases. Here, we use a coarse-grain, Brownian Dynamics simulation with reactive binding that mimics specific interactions in order to investigate the difference between non-specific and specific multivalent binding polymers. We show that non-specific binding interactions can lead to much larger changes in droplet formation at lower protein-polymer interaction energies than their specific, valence-limited counterparts. We also demonstrate the effects of solvent conditions and polymer length on phase separation, and we present how modulating binding energy to the polymer can change the organization of a droplet in a three component system of polymer, binding protein, and solvent. Finally, we compare the effects of surface tension and polymer binding on the condensed phase dynamics, and show that both lower protein solubilities and higher attraction/affinity of the protein to the polymer result in slower droplet dynamics. This research will help to better understand experimental systems and provides additional insight into how multivalent polymers can control LLPS.",
+  "abstract_zh": "多价聚合物是许多生物凝聚体的关键结构组分。在与同源结合蛋白相互作用时，多价聚合物（如RNA和模块化蛋白）已被证明能影响液-液相分离（liquid-liquid phase separation, LLPS）边界，从而既控制凝聚体的形成，也影响相分离后的凝聚体动力学。关于这些凝聚液滴的功能和形成机制仍有许多未知之处，但其动力学或相分离的变化与神经退行性疾病（如肌萎缩侧索硬化症（amyotrophic lateral sclerosis, ALS）和阿尔茨海默病）相关。因此，研究多价聚合物的结构如何与生物凝聚体的形成和成熟变化相关联，对于理解和治疗这些疾病至关重要。在此，我们使用一种带有反应性结合的粗粒化布朗动力学模拟，以模拟特定相互作用，从而研究非特异性和特异性多价结合聚合物之间的差异。我们表明，非特异性结合相互作用在较低的蛋白质-聚合物相互作用能量下，能比其特异性、价态受限的对应物导致更大的液滴形成变化。我们还展示了溶剂条件和聚合物长度对相分离的影响，并呈现了如何调节与聚合物的结合能量来改变聚合物、结合蛋白和溶剂三组分系统中液滴的组织结构。最后，我们比较了表面张力和聚合物结合对凝聚相动力学的影响，并表明较低的蛋白质溶解度和较高的蛋白质对聚合物的吸引力/亲和力均导致更慢的液滴动力学。这项研究将有助于更好地理解实验系统，并为多价聚合物如何控制LLPS提供额外见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34748548/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34748548/",
+  "paper_page_path": "papers/pubmed/34748548/index.html"
+}

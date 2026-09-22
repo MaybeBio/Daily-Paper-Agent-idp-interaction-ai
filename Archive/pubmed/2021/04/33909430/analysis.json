@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33909430",
+  "title": "Investigation of Phosphorylation-Induced Folding of an Intrinsically Disordered Protein by Coarse-Grained Molecular Dynamics.",
+  "authors": "Sieradzan, Adam K; Korneev, Anatolii; Begun, Alexander; Kachlishvili, Khatuna; Scheraga, Harold A; Molochkov, Alexander; Senet, Patrick; Niemi, Antti J; Maisuradze, Gia G",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2021-04-29",
+  "window": {
+    "start": "2021-04-26",
+    "end": "2021-05-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学研究磷酸化诱导无序蛋白4E-BP2折叠的机制，并辅以非线性薛定谔方程kink分析识别关键残基，虽未直接涉及PPI，但聚焦IDP构象转变机制建模，方法可迁移至IDR介导互作研究。",
+  "abstract": "Apart from being the most common mechanism of regulating protein function and transmitting signals throughout the cell, phosphorylation has an ability to induce disorder-to-order transition in an intrinsically disordered protein. In particular, it was shown that folding of the intrinsically disordered protein, eIF4E-binding protein isoform 2 (4E-BP2), can be induced by multisite phosphorylation. Here, the principles that govern the folding of phosphorylated 4E-BP2 (pT37pT46 4E-BP2(18-62)) are investigated by analyzing canonical and replica exchange molecular dynamics trajectories, generated with the coarse-grained united-residue force field, in terms of local and global motions and the time dependence of formation of contacts between C(alpha)s of selected pairs of residues. The key residues involved in the folding of the pT37pT46 4E-BP2(18-62) are elucidated by this analysis. The correlations between local and global motions are identified. Moreover, for a better understanding of the physics of the formation of the folded state, the experimental structure of the pT37pT46 4E-BP2(18-62) is analyzed in terms of a kink (heteroclinic standing wave solution) of a generalized discrete nonlinear Schrodinger equation. It is shown that without molecular dynamics simulations the kinks are able to identify not only the phosphorylated sites of protein, the key players in folding, but also the reasons for the weak stability of the pT37pT46 4E-BP2(18-62).",
+  "abstract_zh": "除了作为调控蛋白质功能和在整个细胞中传递信号的最常见机制外，磷酸化还具有在固有无序蛋白中诱导无序到有序转变的能力。特别地，研究表明，固有无序蛋白eIF4E结合蛋白异构体2（4E-BP2）的折叠可以通过多位点磷酸化诱导。本文通过分析规范及副本交换分子动力学轨迹，这些轨迹由粗粒化联合残基力场生成，并基于局部和全局运动以及选定残基对C(alpha)之间接触形成的时间依赖性，研究了调控磷酸化4E-BP2（pT37pT46 4E-BP2(18-62)）折叠的原理。通过该分析阐明了参与pT37pT46 4E-BP2(18-62)折叠的关键残基，并识别了局部与全局运动之间的相关性。此外，为了更深入地理解折叠态形成的物理机制，实验结构pT37pT46 4E-BP2(18-62)被分析为广义离散非线性薛定谔方程中的扭结（异宿驻波解）。结果表明，无需分子动力学模拟，扭结不仅能识别蛋白质的磷酸化位点（折叠中的关键角色），还能解释pT37pT46 4E-BP2(18-62)弱稳定性的原因。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33909430/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33909430/",
+  "paper_page_path": "papers/pubmed/33909430/index.html"
+}

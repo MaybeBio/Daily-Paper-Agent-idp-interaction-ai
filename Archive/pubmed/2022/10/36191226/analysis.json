@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36191226",
+  "title": "Mesoscale structure-function relationships in mitochondrial transcriptional condensates.",
+  "authors": "Feric, Marina; Sarfallah, Azadeh; Dar, Furqan; Temiakov, Dmitry; Pappu, Rohit V; Misteli, Tom",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2022-10-04",
+  "window": {
+    "start": "2022-10-03",
+    "end": "2022-10-09"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过体外重构线粒体转录凝聚体并结合粗粒化模拟，揭示RNA生成驱动的多相凝聚体结构与转录功能间的双向机制关系，属于相分离凝聚体中的功能互作机制建模，对无序蛋白介导的PPI与相分离研究有直接启发。",
+  "abstract": "In live cells, phase separation is thought to organize macromolecules into membraneless structures known as biomolecular condensates. Here, we reconstituted transcription in condensates from purified mitochondrial components using optimized in vitro reaction conditions to probe the structure-function relationships of biomolecular condensates. We find that the core components of the mt-transcription machinery form multiphasic, viscoelastic condensates in vitro. Strikingly, the rates of condensate-mediated transcription are substantially lower than in solution. The condensate-mediated decrease in transcriptional rates is associated with the formation of vesicle-like structures that are driven by the production and accumulation of RNA during transcription. The generation of RNA alters the global phase behavior and organization of transcription components within condensates. Coarse-grained simulations of mesoscale structures at equilibrium show that the components stably assemble into multiphasic condensates and that the vesicles formed in vitro are the result of dynamical arrest. Overall, our findings illustrate the complex phase behavior of transcribing, multicomponent condensates, and they highlight the intimate, bidirectional interplay of structure and function in transcriptional condensates.",
+  "abstract_zh": "在活细胞中，相分离（phase separation）被认为能将大分子组织成无膜结构，即生物分子凝聚体（biomolecular condensates）。在此，我们利用优化的体外反应条件，从纯化的线粒体组分中重构了凝聚体中的转录过程，以探究生物分子凝聚体的结构-功能关系。我们发现，线粒体转录机制的核心组分在体外形成多相、粘弹性凝聚体。引人注目的是，凝聚体介导的转录速率显著低于溶液中的速率。凝聚体介导的转录速率下降与囊泡样结构的形成相关，这些结构由转录过程中RNA的产生和积累驱动。RNA的生成改变了凝聚体内转录组分的整体相行为和组织方式。平衡态介观结构的粗粒化模拟表明，这些组分稳定组装成多相凝聚体，而体外形成的囊泡是动力学停滞的结果。总体而言，我们的发现阐明了转录多组分凝聚体的复杂相行为，并强调了转录凝聚体中结构与功能之间密切的双向相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36191226/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36191226/",
+  "paper_page_path": "papers/pubmed/36191226/index.html"
+}

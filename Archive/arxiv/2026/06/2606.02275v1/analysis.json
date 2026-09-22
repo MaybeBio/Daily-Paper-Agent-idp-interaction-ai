@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2606.02275v1",
+  "title": "Co-condensation and multivalency enable acetylation-sensitive, concentration-robust assembly of BRD4 condensates",
+  "authors": "Yury Polyachenko; Hans-Frederick Watanabe; Alexei Korolev; William M. Jacobs",
+  "journal": "",
+  "published_date": "2026-06-01",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用超粗粒化分子动力学模型研究BRD4与染色质共凝聚及多价结合对乙酰化修饰的敏感性和浓度鲁棒性，直接聚焦无序蛋白介导的相分离PPI机制建模，与课题高度契合。",
+  "abstract": "Biomolecular condensates must assemble at specific locations and times inside living cells to perform their biological functions. However, it remains unclear how condensate formation achieves high spatiotemporal precision, responding sensitively to local chemical modifications while remaining robust to fluctuations in protein concentration. Here we study chromatin-associated BRD4 condensates to identify a physical mechanism that enables this combination of sensitivity and robustness. Using an ultra-coarse-grained molecular-dynamics model, we show that co-condensation of BRD4 with chromatin enables rapid assembly below the bulk coexistence concentration, thereby suppressing off-chromatin condensation and enhancing spatial selectivity. Multivalent binding between BRD4 and acetylated histone tails sharpens the dependence of co-condensation on acetylation density through combinatorial effects, increasing contrast between highly acetylated regions and weakly acetylated background chromatin. This mechanism explains how co-condensation and multivalent binding jointly enable sensitive yet robust spatiotemporal targeting by chromatin-associated condensates.",
+  "abstract_zh": "生物分子凝聚体必须在活细胞内的特定位置和时间组装，以执行其生物学功能。然而，凝聚体形成如何实现高时空精度，对局部化学修饰敏感响应，同时对蛋白质浓度波动保持稳健，仍不清楚。在此，我们研究染色质相关的BRD4凝聚体，以识别一种能够实现这种敏感性与稳健性结合的物理机制。利用超粗粒化分子动力学 (molecular dynamics) 模型，我们表明BRD4与染色质的共凝聚 (co-condensation) 能够在体相共存浓度以下快速组装，从而抑制非染色质上的凝聚，并增强空间选择性。BRD4与乙酰化组蛋白尾部的多价结合通过组合效应锐化了共凝聚对乙酰化密度的依赖性，增加了高乙酰化区域与弱乙酰化背景染色质之间的对比度。这一机制解释了共凝聚和多价结合如何共同实现染色质相关凝聚体的敏感而稳健的时空靶向。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2606.02275v1",
+  "source_url": "https://arxiv.org/abs/2606.02275v1",
+  "paper_page_path": "papers/arxiv/2606.02275v1/index.html"
+}

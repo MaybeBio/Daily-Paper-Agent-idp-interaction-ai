@@ -1,0 +1,187 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2022-jz75v-v2",
+  "title": "Towards the development of machine learning models to predict protein-protein interaction modulators",
+  "doi": "10.26434/chemrxiv-2022-jz75v-v2",
+  "abstract": "Protein-protein interaction (PPI) inhibitors have a continued and increasing role in drug discovery. It is hypothesized that machine learning (ML) algorithms are able to classify or identify PPI inhibitors. In this work, we describe the performance of different algorithms broadly used in chemoinformatics to develop a classification model able to identify PPI inhibitors based on structural and physicochemical descriptors. We found that the classification algorithms have different performance according to different features employed in the training process: random forest (RF) models with the extended connectivity fingerprint radius 4 (ECFP4) had the best classification performance as compared to those models trained with ECFP6 o MACCS keys (166-bits). In general, logistic regression models had lower performance metrics than RF models, but ECFP4 was the representation most appropriate for linear regression. ECFP4 also yielded models with high performance metrics, in particular, with support vector machine (SVM). As part of this work, we constructed ensemble models based on the top-performing models. The pipeline code developed in this work and all results are freely available at https://github.com/BarbaraDiazE/PPI_ML.",
+  "authors": [
+    "Bárbara I. Díaz-Eufracio",
+    "José L. Medina-Franco"
+  ],
+  "published_date": "2022-05-20",
+  "updated_date": "2022-05-20T03:57:10Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2022-jz75v-v2",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-jz75v-v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "2",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T11:22:06Z",
+        "timestamp": 1778757726249,
+        "version": "3.51.4"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2022,
+                5,
+                20
+              ]
+            ],
+            "date-time": "2022-05-20T00:00:00Z",
+            "timestamp": 1653004800000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Protein-protein interaction (PPI) inhibitors have a continued and increasing role in drug discovery. It is hypothesized that machine learning (ML) algorithms are able to classify or identify PPI inhibitors. In this work, we describe the performance of different algorithms broadly used in chemoinformatics to develop a classification model able to identify PPI inhibitors based on structural and physicochemical descriptors. We found that the classification algorithms have different performance according to different features employed in the training process: random forest (RF) models with the extended connectivity fingerprint radius 4 (ECFP4) had the best classification performance as compared to those models trained with ECFP6 o MACCS keys (166-bits). In general, logistic regression models had lower performance metrics than RF models, but ECFP4 was the representation most appropriate for linear regression. ECFP4 also yielded models with high performance metrics, in particular, with support vector machine (SVM). As part of this work, we constructed ensemble models based on the top-performing models. The pipeline code developed in this work and all results are freely available at https://github.com/BarbaraDiazE/PPI_ML.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2022-jz75v-v2",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ],
+        "date-time": "2022-05-20T03:57:10Z",
+        "timestamp": 1653019030000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Towards the development of machine learning models to predict protein-protein interaction modulators"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Bárbara I.",
+          "family": "Díaz-Eufracio",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Universidad Nacional Autónoma de México"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4940-1107",
+          "authenticated-orcid": false,
+          "given": "José L.",
+          "family": "Medina-Franco",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Universidad Nacional Autónoma de México"
+            }
+          ],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2022-jz75v-v2",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:40:24Z",
+        "timestamp": 1778755224000
+      },
+      "score": 65.08545,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2022-jz75v-v2"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2022-jz75v-v2",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.3390/molecules27227986",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            5,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

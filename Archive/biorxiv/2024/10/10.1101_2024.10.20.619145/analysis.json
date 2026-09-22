@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.20.619145",
+  "title": "Controlling interfacial protein adsorption, desorption and aggregation in biomolecular condensates",
+  "authors": "Visser B; van Haren M; Lipiński W; van Leijenhorst-Groener K; Claessens M; Queiros M; Ramos C; Spruijt E",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-22",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究α-突触核蛋白在生物分子凝聚体界面的吸附/解吸/聚集机制，对象为IDP相关凝聚体且涉及PPI界面机制，但方法以实验为主、无AI或物理模拟建模，故综合评7分。",
+  "abstract": "The aggregation of amyloidogenic proteins is linked to age-related diseases. The presence of interfaces can affect their aggregation mechanism, often speeding up aggregation. α-Synuclein (αSyn) can adsorb to biomolecular condensates, leading to heterogenous nucleation and faster aggregation. Understanding the mechanism underlying localization of amyloidogenic proteins at condensate interfaces is crucial for developing strategies to prevent or reverse their binding. We show that αSyn localization to the surface of peptide-based heterotypic condensates is an adsorption process governed by the protein's condensate-amphiphilic nature. Adsorption occurs in multiple layers and levels off at micromolar concentrations. Based on these findings, we design three strategies to modulate αSyn accumulation: (i) addition of biomolecules that decrease the condensate ζ-potential, such as NTPs and RNA, (ii) competitive adsorption of proteins targeting the condensate interface, such as G3BP1, DDX4-YFP, EGFP-NPM1, Hsp70, Hsc70, and (iii) preferential adsorption of αSyn to membranes. Removing αSyn from the condensate interface slows aggregation, highlighting potential cellular control over protein adsorption and implications for therapeutic strategies.",
+  "abstract_zh": "淀粉样蛋白的聚集与年龄相关疾病有关。界面的存在可影响其聚集机制，通常加速聚集过程。α-突触核蛋白（αSyn）能够吸附至生物分子凝聚体，导致异质成核及更快的聚集。理解淀粉样蛋白在凝聚体界面定位的机制，对于制定预防或逆转其结合的策略至关重要。我们研究表明，αSyn在基于肽的异质性凝聚体表面的定位是一个吸附过程，受蛋白质的凝聚体-两亲性特性调控。吸附以多层形式发生，并在微摩尔浓度下趋于饱和。基于这些发现，我们设计了三种调节αSyn积累的策略：（i）添加降低凝聚体ζ电位的生物分子，如NTPs和RNA；（ii）竞争性吸附靶向凝聚体界面的蛋白质，如G3BP1、DDX4-YFP、EGFP-NPM1、Hsp70、Hsc70；（iii）αSyn优先吸附至膜上。从凝聚体界面移除αSyn可减缓聚集，这突显了细胞对蛋白质吸附的潜在控制及其对治疗策略的意义。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.20.619145",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.20.619145",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.20.619145/index.html"
+}

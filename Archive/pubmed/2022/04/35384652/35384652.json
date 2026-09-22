@@ -1,0 +1,224 @@
+{
+  "identity": {
+    "pmid": "35384652",
+    "doi": "10.1021/acs.jcim.2c00019",
+    "title": "Dynamic Heterogeneity at the Interface of an Intrinsically Disordered Peptide."
+  },
+  "content": {
+    "abstract": "It is believed that water around an intrinsically disordered protein or peptide (IDP) in an aqueous environment plays an important role in guiding its conformational properties and aggregation behavior. However, despite its importance, only a handful of studies exploring the correlation between the conformational motions of an IDP and the microscopic properties of water at its surface are reported. Attempts have been made in this work to study the dynamic properties of water present in the vicinity of alpha-synuclein, an IDP associated with Parkinson's disease (PD). Room temperature molecular dynamics (MD) simulations of eight alpha-synuclein(1-95) peptides with a wide range of initial conformations have been carried out in aqueous media. The calculations revealed that due to solid-like caging motions, the translational and rotational mobility of water molecules near the surfaces of the peptide repeat unit segments R1 to R7 are significantly restricted. A small degree of dynamic heterogeneity in the hydration environment around the repeat units has been observed with water near the hydrophobic R6 unit exhibiting relatively more restricted diffusivity. The time scales involving the overall structural relaxations of peptide-water and water-water hydrogen bonds near the peptide have been found to be correlated with the time scale of diffusion of the interfacial water molecules. We believe that the relatively more hindered dynamic environment near R6 can help create water-mediated contacts centered around R6 between peptide monomers at a higher concentration, thereby enhancing the early stages of peptide aggregation.",
+    "keywords": [],
+    "mesh_terms": [
+      "alpha-Synuclein",
+      "Hydrogen Bonding",
+      "*Intrinsically Disordered Proteins",
+      "Molecular Dynamics Simulation",
+      "Peptides/chemistry",
+      "Water/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mondal, Souvik",
+        "Ghanta, Krishna Prasad",
+        "Bandyopadhyay, Sanjoy"
+      ],
+      "short_names": [
+        "Mondal S",
+        "Ghanta KP",
+        "Bandyopadhyay S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3267-6326"
+      ],
+      "affiliations": [
+        "Molecular Modeling Laboratory, Department of Chemistry, Indian Institute of Technology, Kharagpur 721302, India.",
+        "Molecular Modeling Laboratory, Department of Chemistry, Indian Institute of Technology, Kharagpur 721302, India.",
+        "Molecular Modeling Laboratory, Department of Chemistry, Indian Institute of Technology, Kharagpur 721302, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mondal, Souvik",
+        "short_name": "Mondal S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Modeling Laboratory, Department of Chemistry, Indian Institute of Technology, Kharagpur 721302, India."
+        ]
+      },
+      {
+        "full_name": "Ghanta, Krishna Prasad",
+        "short_name": "Ghanta KP",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Modeling Laboratory, Department of Chemistry, Indian Institute of Technology, Kharagpur 721302, India."
+        ]
+      },
+      {
+        "full_name": "Bandyopadhyay, Sanjoy",
+        "short_name": "Bandyopadhyay S",
+        "identifiers": [
+          "0000-0002-3267-6326"
+        ],
+        "affiliations": [
+          "Molecular Modeling Laboratory, Department of Chemistry, Indian Institute of Technology, Kharagpur 721302, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2022 Apr 25",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/07 06:00",
+    "fetched_at": "2026-09-20 09:23:51"
+  },
+  "links": {
+    "cites": [
+      "38311577",
+      "37668318",
+      "36506131"
+    ],
+    "refs": [],
+    "similar": [
+      "35384652",
+      "34817184",
+      "35816665",
+      "26418258",
+      "25198420",
+      "31699336",
+      "37347702",
+      "25662668",
+      "20232827",
+      "29874605",
+      "35130691",
+      "30840442",
+      "22947936",
+      "31259246",
+      "25331250",
+      "29334736",
+      "21510684",
+      "30933517",
+      "35074392",
+      "21289072",
+      "26030674",
+      "35147426",
+      "23912807",
+      "30184304",
+      "23289748",
+      "29270108",
+      "32623047",
+      "37838830",
+      "35950933",
+      "25871264",
+      "14999724",
+      "29781021",
+      "36112533",
+      "31903719",
+      "22119893",
+      "30134733",
+      "25494773",
+      "25774711",
+      "28024449",
+      "23600990",
+      "29091442",
+      "29548979",
+      "26735936",
+      "23607785",
+      "21043481",
+      "26233169",
+      "34986640",
+      "30638529",
+      "32503167",
+      "16305255",
+      "30865832",
+      "37672685",
+      "34509724",
+      "31470695",
+      "32816485",
+      "27588692",
+      "31917569",
+      "24551051",
+      "37114769",
+      "30204435",
+      "22828339",
+      "18989911",
+      "35167083",
+      "28702592",
+      "20919750",
+      "29553735",
+      "36506131",
+      "30058229",
+      "18688541",
+      "36877869",
+      "23484883",
+      "25207671",
+      "26910732",
+      "19739659",
+      "30635607",
+      "33345970",
+      "37458354",
+      "29715424",
+      "26049528",
+      "27682194",
+      "33530506",
+      "26351734",
+      "33122085",
+      "32113145",
+      "34190269",
+      "33903234",
+      "33355572",
+      "28796507",
+      "35912724",
+      "30853581",
+      "32786705",
+      "33444020",
+      "25691742",
+      "31740740",
+      "32585849",
+      "19592713",
+      "24571104",
+      "22257114",
+      "28834051",
+      "30002265",
+      "39109535"
+    ],
+    "review": [
+      "35384652",
+      "30840442",
+      "30638529",
+      "36506131",
+      "33530506",
+      "33355572",
+      "30853581",
+      "19592713"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.2c00019",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

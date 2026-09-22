@@ -1,0 +1,246 @@
+{
+  "identity": {
+    "pmid": "41066820",
+    "doi": "10.1016/j.compbiomed.2025.111169",
+    "title": "SAPP: Structure Aware PTM Prediction."
+  },
+  "content": {
+    "abstract": "Post-translational modifications (PTMs) play critical roles in regulating cellular processes such as signal transduction, cell growth, and differentiation. Accurate identification of PTM sites is fundamental to understanding cellular mechanisms and developing therapeutic interventions. However, traditional computational models have predominantly relied on sequence data alone, neglecting important structural contexts such as intrinsically disordered regions and solvent accessibility. To address this gap, we introduce SAPP (Structure-Aware PTM Prediction), a pioneering model that integrates structural features derived from AlphaFold2 predictions with sequence information using a unified Transformer-based framework. Utilizing self-attention and cross-attention mechanisms, SAPP effectively captures complex interactions between sequences and their structural states, improving prediction accuracy and biological relevance over sequence-based models. Notably, SAPP is among the first structure-based PTM prediction frameworks, which allows for fine-tuning from a phosphorylation-pretrained model to other PTM types, achieving generalization performance in PTM types with limited training data. This supports the critical role of structural information in PTM prediction, deepening our understanding of their biological significance.",
+    "keywords": [
+      "Deep learning",
+      "Post-translational modification",
+      "Protein structure",
+      "Transfer learning",
+      "Transformer"
+    ],
+    "mesh_terms": [
+      "*Protein Processing, Post-Translational",
+      "*Proteins/chemistry/metabolism",
+      "Databases, Protein",
+      "*Computational Biology/methods",
+      "Humans",
+      "*Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Choo, Yujin",
+        "Na, Seungjin",
+        "Paek, Eunok"
+      ],
+      "short_names": [
+        "Choo Y",
+        "Na S",
+        "Paek E"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Artificial Intelligence, Hanyang University, Seoul, 04763, Republic of Korea. Electronic address: chooyu98@hanyang.ac.kr.",
+        "Digital Omics Research Center, Korea Basic Science Institute, Cheongju, 28119, Republic of Korea. Electronic address: s2na@kbsi.re.kr.",
+        "Department of Artificial Intelligence, Hanyang University, Seoul, 04763, Republic of Korea; Department of Computer Science, Hanyang University, Seoul, 04763, Republic of Korea. Electronic address: eunokpaek@hanyang.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Choo, Yujin",
+        "short_name": "Choo Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Artificial Intelligence, Hanyang University, Seoul, 04763, Republic of Korea. Electronic address: chooyu98@hanyang.ac.kr."
+        ]
+      },
+      {
+        "full_name": "Na, Seungjin",
+        "short_name": "Na S",
+        "identifiers": [],
+        "affiliations": [
+          "Digital Omics Research Center, Korea Basic Science Institute, Cheongju, 28119, Republic of Korea. Electronic address: s2na@kbsi.re.kr."
+        ]
+      },
+      {
+        "full_name": "Paek, Eunok",
+        "short_name": "Paek E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Artificial Intelligence, Hanyang University, Seoul, 04763, Republic of Korea; Department of Computer Science, Hanyang University, Seoul, 04763, Republic of Korea. Electronic address: eunokpaek@hanyang.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computers in biology and medicine"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Med"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/09 18:29",
+    "fetched_at": "2026-09-17 20:55:31"
+  },
+  "links": {
+    "cites": [
+      "42450039"
+    ],
+    "refs": [],
+    "similar": [
+      "41066820",
+      "40563483",
+      "40601266",
+      "41197438",
+      "24888500",
+      "39576587",
+      "30285084",
+      "31161204",
+      "39107330",
+      "40211004",
+      "39570595",
+      "29322920",
+      "29989096",
+      "40859022",
+      "41212592",
+      "24857970",
+      "39566793",
+      "31034103",
+      "39543034",
+      "17406417",
+      "37863385",
+      "26283093",
+      "41432299",
+      "32324217",
+      "28150252",
+      "26070665",
+      "35696073",
+      "26351162",
+      "30418626",
+      "38285683",
+      "33834199",
+      "38725156",
+      "41067407",
+      "26344496",
+      "35020020",
+      "33340540",
+      "26578568",
+      "30255739",
+      "16381945",
+      "21258065",
+      "25605461",
+      "19366988",
+      "23505349",
+      "35696087",
+      "27697855",
+      "41259418",
+      "40854916",
+      "30576418",
+      "29145615",
+      "31256369",
+      "28356000",
+      "39388212",
+      "29548294",
+      "38995534",
+      "28225828",
+      "35696086",
+      "40116777",
+      "31004550",
+      "28150245",
+      "40174317",
+      "40620770",
+      "28150246",
+      "26017462",
+      "39029431",
+      "32949607",
+      "40121710",
+      "31412138",
+      "36781207",
+      "34788852",
+      "40601249",
+      "26781824",
+      "37056379",
+      "35696079",
+      "30341374",
+      "23419374",
+      "40971691",
+      "38588617",
+      "29876573",
+      "39316944",
+      "20221930",
+      "35696083",
+      "38440918",
+      "35152280",
+      "41198716",
+      "30841845",
+      "30544729",
+      "40728608",
+      "38066710",
+      "29578715",
+      "30649184",
+      "26216596",
+      "35816597",
+      "39215231",
+      "38260432",
+      "39329270",
+      "33094321",
+      "23193284",
+      "30577541",
+      "27802577",
+      "28150238"
+    ],
+    "review": [
+      "41066820",
+      "40601266",
+      "30285084",
+      "37863385",
+      "35696073",
+      "26351162",
+      "33834199",
+      "41067407",
+      "35020020",
+      "30255739",
+      "30576418",
+      "28356000",
+      "35696086",
+      "40121710",
+      "39316944",
+      "20221930",
+      "38440918",
+      "26216596",
+      "35816597"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0010-4825(25)01522-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.clinicalkey.com/content/playBy/pii?v=S0010-4825(25)01522-7",
+        "provider": "ClinicalKey",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

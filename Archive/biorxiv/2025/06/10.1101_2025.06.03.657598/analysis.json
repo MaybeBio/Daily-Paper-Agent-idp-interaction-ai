@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.03.657598",
+  "title": "Assembly and phospho-regulatory mechanisms of the budding yeast outer kinetochore KMN complex",
+  "authors": "Turner NN; Zhang Z; Yang J; Muir KW; McLaughlin SH; Morgan T; Barford D",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-04",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用冷冻电镜解析酵母动粒KMN复合物组装及磷酸化调控机制，对象为折叠蛋白复合物而非无序蛋白/IDR，且无AI或物理模拟方法，仅结构生物学与生化实验，对无序蛋白PPI机制建模启发有限。",
+  "abstract": "During mitosis and meiosis kinetochores mediate interactions between chromosomes and spindle microtubules. Kinetochores are multi-megadalton protein complexes essential for chromosome segregation in all eukaryotes, however recent structural, functional, and evolutionary studies have revealed divergent mechanisms of kinetochore assembly. In this study, we use cryo-EM to understand the structural mechanisms by which the budding yeast microtubule-binding outer kinetochore KMN complex assembles, and how its interactions with the centromere-binding inner kinetochore are regulated. The ten-subunit KMN complex comprises three subcomplexes: Knl1c, Mis12c Mtw1c and Ndc80c. We show that α-helical motifs in the C-termini of the Mis12c Mtw1c subunits Dsn1, Mis12 Mtw1 and Nnf1 bind Knl1c and Ndc80c. At the opposite end of the Mis12c Mtw1c stalk, an N-terminal auto-inhibitory segment of Dsn1 (Dsn1 AI ) folds into two α-helices that engage the Mis12c Mtw1c head 1 domain, thereby occluding binding sites for the inner kinetochore subunits CENP-C Mif2 and CENP-U Ame1 , reducing their affinity for Mis12c Mtw1 . Our structure reveals how Aurora B Ipl1 phosphorylation of Dsn1 AI would release this auto-inhibition to substantially strengthen pre-existing connections between the inner and outer kinetochore. <h4>Summary</h4> Kinetochore-localised KMN complexes mediate chromosome segregation by attaching chromosomes to spindle microtubules. Cryo-EM, biochemical and genetic experiments reveal conserved underlying mechanisms of complex assembly, auto-inhibition and phospho-regulation that ensure precise control of KMN assembly onto centromeres to enable genome division.",
+  "abstract_zh": "在有丝分裂和减数分裂过程中，着丝粒（kinetochores）介导染色体与纺锤体微管之间的相互作用。着丝粒是多兆道尔顿（multi-megadalton）的蛋白质复合物，对所有真核生物的染色体分离至关重要，然而，最近的结构、功能和进化研究揭示了着丝粒组装的不同机制。在本研究中，我们使用冷冻电镜（cryo-EM）来理解出芽酵母微管结合外着丝粒KMN复合物组装的 structural mechanisms，以及其与着丝粒结合内着丝粒的相互作用如何被调控。十亚基KMN复合物包含三个亚复合物：Knl1c、Mis12c Mtw1c 和 Ndc80c。我们展示了 Mis12c Mtw1c 亚基 Dsn1、Mis12 Mtw1 和 Nnf1 的 C 端 α-螺旋基序结合 Knl1c 和 Ndc80c。在 Mis12c Mtw1c 柄的相对端，Dsn1 的 N 端自抑制片段（Dsn1 AI ）折叠成两个 α-螺旋，与 Mis12c Mtw1c 头部 1 结构域结合，从而封闭内着丝粒亚基 CENP-C Mif2 和 CENP-U Ame1 的结合位点，降低它们对 Mis12c Mtw1 的亲和力。我们的结构揭示了 Aurora B Ipl1 对 Dsn1 AI 的磷酸化将释放这种自抑制，从而显著增强内外着丝粒之间已有的连接。<h4>总结</h4> 着丝粒定位的KMN复合物通过将染色体附着到纺锤体微管上来介导染色体分离。冷冻电镜、生物化学和遗传学实验揭示了复合物组装、自抑制和磷酸化调控的保守潜在机制，确保KMN在着丝粒上的精确组装以实现基因组分裂。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657598",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657598",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.03.657598/index.html"
+}

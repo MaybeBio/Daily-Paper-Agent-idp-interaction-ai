@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40994307",
+  "title": "Zn(2+) Binding Shifts the Conformational Ensemble of alpha-Synuclein Monomers toward Accelerated Amyloid Formation.",
+  "authors": "Byrd, Emily J; Rowlinson, Benjamin; Crossley, Joel A; Brockwell, David J; Ross, James F; Radford, Sheena E; Sobott, Frank",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2025-09-25",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究结合离子淌度质谱、NMR和分子动力学模拟，揭示Zn2+结合如何压缩α-突触核蛋白单体的构象系综并加速淀粉样聚集，虽聚焦IDP构象变化而非直接PPI，但MD与实验联用的机制建模思路对无序蛋白互作研究有可迁移启发。",
+  "abstract": "Alpha-synuclein (alphaS) is an intrinsically disordered protein (IDP) that can self-assemble into amyloid fibrils, undergoing a transition from disordered monomers to ordered beta-sheet-rich fibrils. The amyloid state of alphaS is implicated in various synucleinopathies, most notably Parkinson's disease (PD), in which alphaS fibrils accumulate as insoluble Lewy body deposits. Colocalized with alphaS in Lewy bodies are elevated levels of metal ions including Zn(2+). We find in vitro that Zn(2+) accelerates aggregation of N-terminally acetylated alphaS, decreasing the t(50) ca. 5-fold, as measured by thioflavin T (ThT) fluorescence. Strikingly, the extent of Zn(2+) binding (native mass spectrometry; MS) and shifts of the monomeric alphaS conformational ensemble toward compaction, measured using ion mobility MS (IM-MS) at different alphaS:Zn(2+) ratios, mirror precisely the accelerated aggregation kinetics. Chemical shift perturbations in Nuclear Magnetic Resonance (NMR) spectroscopy were investigated together with molecular dynamics (MD) to map the Zn(2+) binding sites and subsequent effects on conformation under identical solution conditions to those used in IM-MS. Zn(2+) is found to predominantly interact with negative residues in the C-terminal region of alphaS but also His50 in the N-terminal region. This promiscuity in interactions potentially guides compaction of the protein chain by bridging residues between the N- and C-terminal regions through Zn(2+) ion co-ordination. This study provides insights into the early stages of amyloid assembly, correlating aggregation kinetics with structural compaction in monomeric alphaS and highlighting the capability of native IM-MS to resolve complex structural ensembles of a disordered protein.",
+  "abstract_zh": "α-突触核蛋白（alphaS）是一种 intrinsically disordered protein (IDP)，能够自组装成淀粉样纤维，经历从无序单体到有序β-折叠富集纤维的转变。alphaS的淀粉样状态与多种突触核蛋白病相关，尤其是帕金森病（Parkinson's disease, PD），其中alphaS纤维以不溶性路易体沉积物形式积累。与alphaS共定位在路易体中的还有包括Zn(2+)在内的金属离子水平升高。我们在体外发现，Zn(2+)加速N端乙酰化alphaS的聚集，使t(50)降低约5倍，这一结果通过硫黄素T（thioflavin T, ThT）荧光测量得出。显著的是，Zn(2+)结合程度（天然质谱；MS）以及单体alphaS构象集合向压缩状态的偏移（通过离子迁移质谱（ion mobility MS, IM-MS）在不同alphaS:Zn(2+)比例下测量）与加速的聚集动力学精确对应。核磁共振（Nuclear Magnetic Resonance, NMR）光谱中的化学位移扰动与分子动力学（molecular dynamics, MD）结合研究，以在与IM-MS相同的溶液条件下绘制Zn(2+)结合位点及其对构象的后续影响。发现Zn(2+)主要与alphaS C端区域的负电荷残基相互作用，但也与N端区域的His50相互作用。这种相互作用的混杂性可能通过Zn(2+)离子配位桥接N端和C端区域之间的残基，引导蛋白质链的压缩。本研究提供了对淀粉样组装早期阶段的见解，将聚集动力学与单体alphaS中的结构压缩相关联，并强调了天然IM-MS解析无序蛋白质复杂结构集合的能力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40994307/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40994307/",
+  "paper_page_path": "papers/pubmed/40994307/index.html"
+}

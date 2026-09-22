@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "41326719",
+    "doi": "10.1007/s00705-025-06473-5",
+    "title": "Structural characterization of plum pox virus by cryo-electron microscopy."
+  },
+  "content": {
+    "abstract": "Plum pox virus (PPV), a significant member of the genus Potyvirus, represents a global agricultural challenge, causing significant economic losses and threatening fruit farming due to its easy transmission to most Prunus species. Here, we present the high-resolution structural characterization of PPV using cryo-electron microscopy (cryo-EM). The reconstructed structure at 2.9 A reveals a filamentous virion with a helical assembly formed by the coat protein (CP), which encapsidates a single-stranded RNA (ssRNA) genome. The structure of the CP core shows remarkable conservation with other potyviruses, with an RNA binding site and inter-subunit interactions mediated in part by the N-terminal arm, which is confirmed here to have a disordered structure. Mass spectrometry analysis identified numerous post-translational modifications, mostly phosphorylation, primarily in the flexible N-terminal region. In silico predictions revealed intrinsically disordered regions, which is compatible with the amyloidogenic properties of the CP. These results provide new insights into the architecture and assembly of PPV, offering a basis for future studies and, possibly, antiviral strategies.",
+    "keywords": [
+      "AlphaFold",
+      "Mass spectrometry",
+      "Post-translational modification",
+      "Potyvirus",
+      "Structure prediction"
+    ],
+    "mesh_terms": [
+      "*Plum Pox Virus/chemistry/genetics/ultrastructure",
+      "*Cryoelectron Microscopy/methods",
+      "Crop Production",
+      "Prunus/virology",
+      "Capsid Proteins/chemistry/genetics/ultrastructure",
+      "Plant Diseases/virology",
+      "RNA, Viral/genetics",
+      "Protein Processing, Post-Translational",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bonnet, Diane Marie Valerie Jeanne",
+        "Chaves-Sanjuan, Antonio",
+        "Contaldo, Nicoletta",
+        "De Stradis, Angelo",
+        "Caliandro, Rosanna",
+        "Minafra, Angelantonio",
+        "Geuna, Filippo"
+      ],
+      "short_names": [
+        "Bonnet DMVJ",
+        "Chaves-Sanjuan A",
+        "Contaldo N",
+        "De Stradis A",
+        "Caliandro R",
+        "Minafra A",
+        "Geuna F"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3451-5761"
+      ],
+      "affiliations": [
+        "Unitech NOLIMITS, Imaging Facility, Universita degli Studi di Milano, Milan, Italy.",
+        "Department of Biosciences, Universita degli Studi di Milano, Milan, Italy.",
+        "Institute for Sustainable Plant Protection (IPSP) - Consiglio Nazionale delle Ricerche (CNR), Bari, Italy.",
+        "Institute for Sustainable Plant Protection (IPSP) - Consiglio Nazionale delle Ricerche (CNR), Bari, Italy.",
+        "Institute for Sustainable Plant Protection (IPSP) - Consiglio Nazionale delle Ricerche (CNR), Bari, Italy.",
+        "Institute for Sustainable Plant Protection (IPSP) - Consiglio Nazionale delle Ricerche (CNR), Bari, Italy.",
+        "Department of Agricultural and Environmental Sciences (DISAA), Universita degli Studi di Milano, Milan, Italy. filippo.geuna@unimi.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bonnet, Diane Marie Valérie Jeanne",
+        "short_name": "Bonnet DMVJ",
+        "identifiers": [],
+        "affiliations": [
+          "Unitech NOLIMITS, Imaging Facility, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Chaves-Sanjuan, Antonio",
+        "short_name": "Chaves-Sanjuan A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biosciences, Università degli Studi di Milano, Milan, Italy."
+        ]
+      },
+      {
+        "full_name": "Contaldo, Nicoletta",
+        "short_name": "Contaldo N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Sustainable Plant Protection (IPSP) - Consiglio Nazionale delle Ricerche (CNR), Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "De Stradis, Angelo",
+        "short_name": "De Stradis A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Sustainable Plant Protection (IPSP) - Consiglio Nazionale delle Ricerche (CNR), Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Caliandro, Rosanna",
+        "short_name": "Caliandro R",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Sustainable Plant Protection (IPSP) - Consiglio Nazionale delle Ricerche (CNR), Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Minafra, Angelantonio",
+        "short_name": "Minafra A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Sustainable Plant Protection (IPSP) - Consiglio Nazionale delle Ricerche (CNR), Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Geuna, Filippo",
+        "short_name": "Geuna F",
+        "identifiers": [
+          "0000-0002-3451-5761"
+        ],
+        "affiliations": [
+          "Department of Agricultural and Environmental Sciences (DISAA), Università degli Studi di Milano, Milan, Italy. filippo.geuna@unimi.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Archives of virology"
+    ],
+    "journal_abbrev": [
+      "Arch Virol"
+    ],
+    "pub_date": "2025 Dec 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/02 01:00",
+    "fetched_at": "2026-09-17 22:37:00"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40332289",
+      "39947281",
+      "39536513",
+      "39339640",
+      "39187718",
+      "38718835",
+      "38408488",
+      "37949999",
+      "37783197",
+      "37774136",
+      "37740110",
+      "37571979",
+      "37076658",
+      "36998202",
+      "36726678",
+      "35898309",
+      "34534463",
+      "34381483",
+      "34265844",
+      "33837716",
+      "32828463",
+      "32708998",
+      "32701952",
+      "32203412",
+      "32178365",
+      "31979056",
+      "31859600",
+      "31798606",
+      "31729283",
+      "31659175",
+      "31588918",
+      "31328164",
+      "31283443",
+      "30763345",
+      "30666247",
+      "30412051",
+      "29444942",
+      "29024291",
+      "28948231",
+      "28609214",
+      "28366187",
+      "28250466",
+      "28165473",
+      "27899601",
+      "27852853",
+      "26673077",
+      "26278980",
+      "26167882",
+      "25701887",
+      "24939692",
+      "24722679",
+      "23639873",
+      "23326595",
+      "23122854",
+      "23000701",
+      "22190692",
+      "20676902",
+      "20383002",
+      "20154150",
+      "18505725",
+      "17145717",
+      "17041024",
+      "11606576",
+      "10675394",
+      "9760502"
+    ],
+    "similar": [
+      "41326719",
+      "32178365",
+      "29444942",
+      "23639873",
+      "24102673",
+      "17014851",
+      "23745677",
+      "23581702",
+      "26530833",
+      "31859600",
+      "18052879",
+      "21198358",
+      "32938763",
+      "11137162",
+      "28948231",
+      "21171886",
+      "9634095",
+      "10906199",
+      "15587267",
+      "34071769",
+      "22521553",
+      "26278173",
+      "30142962",
+      "26962227",
+      "21261466",
+      "23382802",
+      "15993953",
+      "21970691",
+      "24200075",
+      "11437277",
+      "19082685",
+      "20422234",
+      "23404462",
+      "15302961",
+      "10073226",
+      "9856098",
+      "27614092",
+      "33858186",
+      "25010790",
+      "11376842",
+      "20676902",
+      "30321579",
+      "15681071",
+      "34293916",
+      "31640557",
+      "27565765",
+      "24959894",
+      "39772173",
+      "38372721",
+      "27671640",
+      "16134891",
+      "23672686",
+      "24020764",
+      "27561669",
+      "39537894",
+      "18071892",
+      "19737103",
+      "41327231",
+      "17027982",
+      "25296116",
+      "23813250",
+      "15845265",
+      "27334588",
+      "17900221",
+      "32203412",
+      "30084641",
+      "16732422",
+      "38614100",
+      "10073219",
+      "29024291",
+      "11958455",
+      "22720703",
+      "28006670",
+      "29374454",
+      "10073236",
+      "26453705",
+      "16777241",
+      "17849850",
+      "9469941",
+      "31454296",
+      "16334309",
+      "18556038",
+      "10073237",
+      "33952634",
+      "26167882",
+      "10656327",
+      "11226563",
+      "26047559",
+      "29521110",
+      "30782565",
+      "27992877",
+      "25495040",
+      "31694952",
+      "39796109",
+      "18667514",
+      "40179450",
+      "24989162",
+      "26673077",
+      "15234814",
+      "9504763"
+    ],
+    "review": [
+      "41326719",
+      "24102673",
+      "11137162",
+      "10073219",
+      "31454296",
+      "10656327",
+      "26047559"
+    ],
+    "pmc": [
+      "12669337"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/1201996",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41326719/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s00705-025-06473-5",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

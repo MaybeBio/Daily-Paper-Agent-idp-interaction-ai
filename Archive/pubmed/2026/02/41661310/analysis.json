@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41661310",
+  "title": "Terminal-Directed Supramolecular Liquid Crystal Formation by Designed Coiled-Coil Interparticle Stacking.",
+  "authors": "Zhang, Tianren; Shi, Yi; Schwartz, Jacob R; Zhang, Zihan; Liskey, Sabrina E; Kloxin, Christopher J; Saven, Jeffery G; Pochan, Darrin J",
+  "journal": "ACS nano",
+  "published_date": "2026-02-09",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过模拟指导实验，研究设计卷曲螺旋肽末端残基驱动的端到端堆叠形成液晶相，虽涉及肽组装界面机制建模，但对象为折叠卷曲螺旋而非无序蛋白/IDR，且无PPI或相分离/凝聚体背景，方法上模拟与实验结合但非AI/物理模拟核心。",
+  "abstract": "Elucidation of the sequence-level dynamics that direct the hierarchical assembly of peptides remains a challenge. Herein, a simulation-guided experimental framework demonstrates that computationally designed, single charge-type (SC), coiled-coil peptides exhibit multiple lyotropic liquid-crystalline (LC) phases via programmable, robust, nonionic, end-to-end stacking. This macroscopic phase behavior is encoded directly in the molecular interaction among terminal residues of the coiled-coil constituent peptides. Specifically, the conformational flexibility of the N-terminus and attractive interactions at the C-terminus promote end-to-end stacking between adjacent coiled coils, providing a lever for fine-tuning of interfacial interactions and, thus, the critical LC-forming concentration (CLC). The phase behavior of SC particles is presented with variation of added salt as well as peptide particle concentration, revealing a rich lyotropic behavior spanning nematic, hexagonal columnar, smectic A, and smectic B phases. Harnessing the molecular control over the stacked interface, tryptophan-mediated cross-linking at the terminal residues was performed, which significantly enhanced the mechanical properties of the liquid crystal system. These findings establish a clear strategy for encoding macroscopic material properties at the molecular level, offering a versatile blueprint for future de novo peptide design with coiled-coil building blocks.",
+  "abstract_zh": "阐明指导肽层级组装的序列水平动力学仍然是一个挑战。在此，一个模拟引导的实验框架证明，计算设计的单电荷型（SC）卷曲螺旋肽通过可编程、稳健、非离子的端到端堆叠表现出多种溶致液晶（LC）相。这种宏观相行为直接编码在卷曲螺旋组成肽末端残基之间的分子相互作用中。具体而言，N端的构象灵活性和C端的吸引性相互作用促进了相邻卷曲螺旋之间的端到端堆叠，为界面相互作用的微调提供了杠杆，从而调节临界液晶形成浓度（CLC）。SC颗粒的相行为随添加盐和肽颗粒浓度的变化而呈现，揭示了跨越向列相、六方柱状相、近晶A相和近晶B相的丰富溶致行为。利用对堆叠界面的分子控制，在末端残基处进行了色氨酸介导的交联，显著增强了液晶系统的机械性能。这些发现确立了在分子水平编码宏观材料性能的明确策略，为未来基于卷曲螺旋构建块的从头肽设计提供了多功能蓝图。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41661310/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41661310/",
+  "paper_page_path": "papers/pubmed/41661310/index.html"
+}

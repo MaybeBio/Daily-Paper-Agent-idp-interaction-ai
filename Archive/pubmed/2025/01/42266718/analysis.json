@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42266718",
+  "title": "Conformational Entropy of Intrinsically Disordered Proteins Bars Intruders from Biomolecular Condensates.",
+  "authors": "Grigorev, Vladimir; Wingreen, Ned S; Zhang, Yaojun",
+  "journal": "PRX life",
+  "published_date": "2025-01-01",
+  "window": {
+    "start": "2024-12-30",
+    "end": "2025-01-05"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合聚合物理论与sticker-spacer模拟，揭示IDR构象熵在生物分子凝聚体中排斥非特异蛋白的机制，直接聚焦IDR介导的互作选择性与相分离背景，方法上属物理模拟，对无序蛋白互作机制建模有高度启发。",
+  "abstract": "It was recently discovered that eukaryotic cells are host to a multiplicity of biomolecular condensates. These condensates typically contain protein and/or RNA components with intrinsically disordered regions (IDRs). While IDRs have been proposed and demonstrated to play many roles in condensate biology, we suggest here an additional crucial role of IDRs, which is to exclude unwanted \"intruders\" from condensates. This exclusion effect arises from the large conformational entropy of IDRs; i.e., there is a high free-energy cost to occupying space that would otherwise be available to the IDRs. By combining polymer theory with sticker-spacer simulations, we show that the relevant insertion free energy increases with the concentration of IDRs in the condensate as well as with intruder size, attaining a linear scaling with surface area for large intruders. We find that at realistic IDR concentrations, particles as small as the size of an average protein (4 nm in diameter) can be 97% excluded from condensates. To overcome this entropic barrier, molecules must interact favorably with condensate components to be recruited as clients. Application of the developed size-exclusion theory to biological condensates suggests that condensate IDRs may play a generic exclusionary role across organisms and types of condensates.",
+  "abstract_zh": "近期研究发现，真核细胞是多种生物分子凝聚体的宿主。这些凝聚体通常包含具有内在无序区域（IDRs）的蛋白质和/或RNA组分。尽管IDRs已被提出并证明在凝聚体生物学中扮演多种角色，我们在此提出IDRs的另一个关键作用，即从凝聚体中排除不想要的“入侵者”。这种排除效应源于IDRs的大构象熵；即，占据原本可供IDRs使用的空间具有较高的自由能代价。通过将聚合物理论与贴纸-间隔模拟相结合，我们表明相关的插入自由能随凝聚体中IDRs浓度及入侵者尺寸的增加而增加，对于大型入侵者，其与表面积呈线性比例关系。我们发现，在现实IDR浓度下，小至平均蛋白质大小（直径4纳米）的颗粒可从凝聚体中被排除97%。要克服这一熵屏障，分子必须与凝聚体组分发生有利相互作用，才能作为客户被招募。将所发展的尺寸排除理论应用于生物凝聚体，表明凝聚体IDRs可能在各种生物体和凝聚体类型中发挥普遍的排除作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42266718/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42266718/",
+  "paper_page_path": "papers/pubmed/42266718/index.html"
+}

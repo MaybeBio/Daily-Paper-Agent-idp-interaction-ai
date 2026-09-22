@@ -1,0 +1,213 @@
+{
+  "identity": {
+    "pmid": "38766111",
+    "doi": "10.1101/2024.05.10.593590",
+    "title": "The RNA-binding selectivity of the RGG/RG motifs of hnRNP U is abolished by elements within the intrinsically disordered region."
+  },
+  "content": {
+    "abstract": "The abundant nuclear protein hnRNP U interacts with a broad array of RNAs along with DNA and protein to regulate nuclear chromatin architecture. The RNA-binding activity is achieved via a disordered ~100 residue C-terminal RNA-binding domain (RBD) containing two distinct RGG/RG motifs. Although the RNA-binding capabilities of RGG/RG motifs have been widely reported, less is known about hnRNP U's RNA-binding selectivity. Furthermore, while it is well established that hnRNP U binds numerous nuclear RNAs, it remains unknown whether it selectively recognizes sequence or structural motifs in target RNAs. To address this question, we performed equilibrium binding assays using fluorescence anisotropy (FA) and electrophoretic mobility shift assays (EMSAs) to quantitatively assess the ability of human hnRNP U RBD to interact with segments of cellular RNAs identified from eCLIP data. These RNAs often, but not exclusively, contain poly-uridine or 5'-AGGGAG sequence motifs. Detailed binding analysis of several target RNAs reveal that the hnRNP U RBD binds RNA in a promiscuous manner with high affinity for a broad range of structured RNAs, but with little preference for any distinct sequence motif. In contrast, the isolated RGG/RG of hnRNP U motif exhibits a strong preference for G-quadruplexes, similar to that observed for other RGG motif bearing peptides. These data reveal that the hnRNP U RBD attenuates the RNA binding selectivity of its core RGG motifs to achieve an extensive RNA interactome. We propose that a critical role of RGG/RG motifs in RNA biology is to alter binding affinity or selectivity of adjacent RNA-binding domains.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kletzien, Otto A",
+        "Wuttke, Deborah S",
+        "Batey, Robert T"
+      ],
+      "short_names": [
+        "Kletzien OA",
+        "Wuttke DS",
+        "Batey RT"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4806-6757",
+        "ORCID: 0000-0002-8158-8795",
+        "ORCID: 0000-0002-1384-6625"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Kletzien, Otto A",
+        "short_name": "Kletzien OA",
+        "identifiers": [
+          "0000-0003-4806-6757"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Wuttke, Deborah S",
+        "short_name": "Wuttke DS",
+        "identifiers": [
+          "0000-0002-8158-8795"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Batey, Robert T",
+        "short_name": "Batey RT",
+        "identifiers": [
+          "0000-0002-1384-6625"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 May 11",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/20 06:42",
+    "fetched_at": "2026-09-21 07:20:54"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38766111",
+      "38996909",
+      "38329035",
+      "37786719",
+      "28575444",
+      "1628625",
+      "8083209",
+      "32385154",
+      "37540655",
+      "24530421",
+      "27979648",
+      "30247678",
+      "29913160",
+      "30951406",
+      "9421497",
+      "7673195",
+      "23747316",
+      "10620016",
+      "29625167",
+      "39222785",
+      "39847338",
+      "9786934",
+      "21561087",
+      "21327109",
+      "26051023",
+      "10496225",
+      "32813011",
+      "12574161",
+      "35491929",
+      "7512260",
+      "26795062",
+      "21212361",
+      "33991007",
+      "19578763",
+      "24692659",
+      "9115444",
+      "1380452",
+      "41053545",
+      "26374839",
+      "41888191",
+      "41862773",
+      "12419255",
+      "15096513",
+      "36833257",
+      "33684393",
+      "7518245",
+      "23782695",
+      "25216038",
+      "8892862",
+      "12123807",
+      "40209951",
+      "30517002",
+      "40877262",
+      "19783816",
+      "36329008",
+      "7474099",
+      "40693919",
+      "11113151",
+      "10772824",
+      "7510636",
+      "28380354",
+      "23746349",
+      "8903344",
+      "22879910",
+      "7518244",
+      "32128583",
+      "23275549",
+      "35661420",
+      "9353343",
+      "34591015",
+      "26370582",
+      "9204873",
+      "40654891",
+      "15134450",
+      "21244633",
+      "9488731",
+      "19808671",
+      "7730395",
+      "15302914",
+      "36334888",
+      "9000615",
+      "14704337",
+      "9918842",
+      "24251952",
+      "16885237",
+      "7607214",
+      "23247503",
+      "8445653",
+      "25584704",
+      "8883365",
+      "23811339",
+      "34631798",
+      "11162095",
+      "11531333",
+      "9826757",
+      "7876260",
+      "12096904",
+      "40666952",
+      "38866324",
+      "3110598"
+    ],
+    "review": [
+      "38766111",
+      "29913160",
+      "29625167",
+      "23746349"
+    ],
+    "pmc": [
+      "11100817"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38766111/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.05.10.593590",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

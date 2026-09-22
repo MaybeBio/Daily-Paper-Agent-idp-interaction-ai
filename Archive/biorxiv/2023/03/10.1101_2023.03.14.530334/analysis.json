@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.14.530334",
+  "title": "Identifying interaction interface between Pseudomonas major biofilm forming functional amyloid FapC and disordered chaperone FapA during fibrillation deceleration",
+  "authors": "Byeon C; Saricayir H; Hansen KH; Jeffrey J; Andreasen M; Akbey Ü",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-15",
+  "window": {
+    "start": "2023-03-13",
+    "end": "2023-03-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过NMR与AlphaFold结合，鉴定无序伴侣FapA与无序淀粉样蛋白FapC的互作界面及抑制纤维化机制，对象与互作轴契合，但方法以实验为主、AI/物理模拟为辅，机制建模深度有限。",
+  "abstract": "Functional bacterial amyloids (FuBA) play a crucial role in the formation of biofilms, which are mediating chronic infections and contribute to antimicrobial resistance. This study focuses on the FapC protein from Pseudomonas , a major contributor to biofilm formation. We investigate the initial steps of FapC amyloid formation and the impact of the chaperone-like protein FapA on this process. Using solution NMR spectroscopy, we show that both FapC and FapA, which are part of the same biofilm-forming protein operon, are intrinsically disordered proteins (IDPs) in their soluble monomeric state. These SSPs were determined and compared to the Alphafold models. We further demonstrate that the IDP chaperone FapA interacts with FapC and significantly slows down the formation of FapC fibrils, while maintaining the fibril morphology unchanged. Our NMR titration experiments reveal that ∼18% of the resonances show FapA induced chemical shift perturbations (CPSs) which has not been previously observed, the largest being for A82, N201, C237, C240, A241 and G245 residues. These sites may suggest a specific interaction site and/or hotspots of fibrillation inhibition/control interface at the R1/L2 and L2/R3 transition areas and at the C-terminus of FapC. Remarkably, ∼90% of FapA NMR signals exhibit substantial CSPs upon titration with FapC. A temperature dependent effect of FapA was observed on FapC by ThT and NMR experiments. This study provides a detailed understanding of the interaction between the chaperone/chaperone-like FapA and the functional amyloid protein FapC, shedding light on the regulation and slowing down of amyloid formation. Our findings have important implications for the development of therapeutic strategies targeting biofilms and associated infections, leveraging these structural and mechanistic insights.",
+  "abstract_zh": "功能性细菌淀粉样蛋白（FuBA）在生物膜形成中发挥关键作用，而生物膜介导慢性感染并促进抗菌素耐药性。本研究聚焦于来自假单胞菌（*Pseudomonas*）的FapC蛋白，该蛋白是生物膜形成的主要贡献者。我们研究了FapC淀粉样蛋白形成的初始步骤，以及类伴侣蛋白FapA对此过程的影响。利用溶液核磁共振波谱（NMR），我们表明FapC和FapA（两者属于同一生物膜形成蛋白操纵子）在其可溶性单体状态下均为固有无序蛋白（IDPs）。这些SSPs被确定并与Alphafold模型进行了比较。我们进一步证明，IDP伴侣FapA与FapC相互作用，显著减缓FapC原纤维的形成，同时保持原纤维形态不变。我们的NMR滴定实验揭示，约18%的共振信号显示出FapA诱导的化学位移扰动（CSPs），这一现象此前未被观察到，其中最大的扰动发生在A82、N201、C237、C240、A241和G245残基处。这些位点可能提示R1/L2和L2/R3过渡区域以及FapC C末端存在特异性相互作用位点和/或纤维化抑制/控制界面的热点。值得注意的是，在与FapC滴定后，约90%的FapA NMR信号表现出显著的CSPs。通过ThT和NMR实验，观察到FapA对FapC的温度依赖性效应。本研究提供了对伴侣/类伴侣FapA与功能性淀粉样蛋白FapC之间相互作用的详细理解，揭示了淀粉样蛋白形成的调控和减缓机制。我们的发现对开发针对生物膜及相关感染的治疗策略具有重要意义，利用这些结构和机制见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.14.530334",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.14.530334",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.14.530334/index.html"
+}

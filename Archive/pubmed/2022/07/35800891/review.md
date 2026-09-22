@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, materials and methods, results, discussion, data availability, author contributions, funding, conflict of interest, publisher's note, supplementary material description, acknowledgements)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript text. No external data, supplementary figures, or raw datasets were available for review.
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered C-terminal domain (CTD) of Y-box binding protein 1 (YB-1) mediates structure-specific binding to poly(ADP-ribose) (PAR) through clusters of positively charged residues, and that this interaction regulates PARP1 activity by modulating trans-PARylation of YB-1 and the overall rate of PAR synthesis.
+- **Visible evidence base** Main text figures referenced (Figures 1-10), supplementary figures referenced (Supplementary Figures S1-S4), methods descriptions for EMSA, fluorescence anisotropy, DLS, AFM, and radioactive PARP1 activity assays.
+- **Missing materials affecting confidence** Supplementary figures and raw data (gel images, anisotropy curves, DLS distributions, AFM images) were not provided. Statistical analysis details, replicate numbers, and error bar definitions are not described in the methods. No structural or biophysical data beyond binding affinity measurements are presented.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question regarding the molecular mechanism by which YB-1 regulates PARP1 activity, focusing on the role of its C-terminal domain in PAR binding. The experimental approach combining truncation mutants, PARP1 point mutants producing distinct PAR structures, and multiple biophysical assays is logical and generally well executed. However, the central claim of "structure-specific binding" is only partially supported by the data presented, as the authors demonstrate differential binding affinities but do not provide direct evidence for structural selectivity at the molecular level. The mechanistic model proposed in the Discussion extends beyond what the experimental data can rigorously support. The manuscript would benefit from additional quantitative analyses, clearer statistical reporting, and a more cautious interpretation of the structure-specificity claim.
+- **Who would be interested in the results, and why** Researchers studying PAR-binding proteins, PARP1 regulation, DNA damage response pathways, and intrinsically disordered protein domains. The work may also be of interest to those investigating YB-1 functions in cancer biology, given the established links between YB-1 expression and tumor progression. The concept of disordered domains with basic residue clusters acting as PAR "readers" has broader implications for understanding PAR-dependent cellular processes.
+- **Major strengths** 1) The study addresses a mechanistically important question about how PAR structure influences protein binding and PARP1 regulation. 2) The use of PARP1 point mutants that generate defined PAR structures (short, hyperbranched, hypobranched) is a clever experimental strategy. 3) The combination of EMSA, fluorescence anisotropy, DLS, and AFM provides complementary views of the interactions. 4) The truncation mutant series allows systematic dissection of the CTD contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The title and abstract claim "structure-specific binding" of the YB-1 CTD to PAR, and the Discussion states that "PAR structure, namely length and branching frequency, clearly affect YB-1's PAR-binding efficiency."
+  - **Evidence pointer** Figures 2, 8; Results section "The Affinity of YB-1 for PAR Depends on the Length and Frequency of Branching of the Polymer"
+  - **Concern** The data show differences in EC50 values for PAR polymers of different lengths and branching frequencies, but this demonstrates differential affinity, not structure-specific binding in the strict sense. The authors do not provide evidence that the CTD recognizes specific structural features (e.g., branch points, specific conformations) rather than simply exhibiting charge-density-dependent affinity. PAR polymers with different lengths and branching frequencies also differ in overall charge density and molecular size, which could explain the observed affinity differences without invoking structural specificity. The claim of "structure-specific" binding requires direct evidence such as competition experiments, structural studies, or binding assays with defined PAR oligomers of controlled structure.
+  - **Why it matters** The central novelty of the manuscript rests on the structure-specificity claim. If the observed differences are merely due to electrostatic effects related to charge density, the findings are less mechanistically distinctive. The title and abstract emphasize this claim, and it forms the basis for the proposed model of YB-1 as a PAR "reader" with selectivity for particular PAR structures.
+  - **Resolution test** Provide competition binding experiments where YB-1 is incubated with a fixed PAR substrate in the presence of increasing concentrations of competitor PAR of defined structure. Alternatively, use defined PAR oligomers (e.g., linear vs. branched, varying lengths) to demonstrate that binding affinity depends on specific structural features beyond charge density. If such experiments are not feasible, revise the claims to state that YB-1 binds PAR with affinity dependent on polymer length and branching frequency, without asserting structural specificity.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The manuscript reports EC50 values for YB-1-PAR interactions and states that "EC50 values of interactions YB-1(FL)-PAR and YB-1 (Δ1)-PAR were two-to four-fold lower (~500 nM) than those of YB-1 (Δ1-2)-PAR (1164 nM) and YB-1 (Δ1-2-3)-PAR (2081 nM)."
+  - **Evidence pointer** Figures 2, 8; Methods section "Evaluation of Half-Maximal Effective Concentrations (EC50) of YB-1-PAR Complexes"
+  - **Concern** The manuscript does not report the number of independent replicates, standard deviations, or confidence intervals for the EC50 values. The fitting equation is described, but no goodness-of-fit parameters are provided. Without error estimates, it is impossible to assess whether the reported differences between EC50 values are statistically significant. The two-to-four-fold differences could be within experimental variability. Additionally, the PAR concentration is described as "60 nM" in the methods, but the basis for this concentration and its relationship to the binding regime (e.g., whether it is below the Kd) is not discussed.
+  - **Why it matters** The quantitative comparison of binding affinities across different PAR structures and YB-1 mutants is central to the manuscript's conclusions. Without statistical rigor, the key comparative claims cannot be evaluated. This also affects the interpretation of whether the observed differences are biologically meaningful.
+  - **Resolution test** Provide replicate numbers, standard deviations or confidence intervals for all EC50 values, and statistical tests comparing the values across conditions. Report the PAR concentration used and justify that it is appropriate for the binding regime being measured. If the sample size is limited, acknowledge this limitation and temper the strength of the comparative claims.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The Discussion states: "PAR structure represents an important determinant for the stimulation of PARP1 activity with YB-1, because this parameter determines the level of YB-1 trans-PARylation, which plays a key role in the stimulation of PARP1 activity by increasing the overall PAR product yield."
+  - **Evidence pointer** Figures 5, 9; Results sections "Truncation of C-Terminal Domain of YB-1 Decreases the Level of Trans-PARylation of YB-1" and "YB-1 Stimulates the Activity of PARP1 Mutants Synthesizing Highly Branched or Short PAR Polymers"
+  - **Concern** The causal relationship between PAR structure, YB-1 trans-PARylation, and stimulation of PARP1 activity is asserted but not directly tested. The data show correlations: different PARP1 mutants produce different PAR structures, and YB-1 has different effects on their activity. However, the manuscript does not demonstrate that the PAR structure itself (rather than the PARP1 mutation) is the causal factor determining the level of YB-1 trans-PARylation. The PARP1 mutations could affect other properties (e.g., catalytic rate, processivity, interaction with DNA) that independently influence YB-1 trans-PARylation. A more direct test would involve adding exogenous PAR of defined structure to the reaction and measuring its effect on YB-1 trans-PARylation and PARP1 activity.
+  - **Why it matters** The proposed model in Figure 10 and the Discussion depends on this causal chain. If the PAR structure is not the direct determinant, the model would need substantial revision. The distinction between correlation and causation is critical for the mechanistic claims of the manuscript.
+  - **Resolution test** Perform experiments where defined PAR polymers (varying in length and branching) are added exogenously to PARP1 auto-PARylation reactions in the presence of YB-1, and measure the effects on YB-1 trans-PARylation and PARP1 activity. Alternatively, use PARP1 mutants that produce the same PAR structure but differ in other properties to isolate the effect of PAR structure. If such experiments are not feasible, revise the Discussion to present the relationship as correlative rather than causal.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of conclusions
+  - **Claim pointer** The Discussion states: "The observed patterns of PAR synthesis may be extrapolated to PARP1's protein partners containing PAR-binding disordered regions with clusters of positively charged amino acid residues."
+  - **Evidence pointer** Discussion section
+  - **Concern** This extrapolation is made without direct evidence from other proteins. The manuscript studies only YB-1 and its mutants. While the authors cite literature on other PAR-binding proteins, no experimental data are presented to support the claim that the mechanism identified for YB-1 applies broadly to other disordered basic regions. The sequence and structural features of YB-1's CTD may be unique in ways that affect its PAR-binding properties.
+  - **Why it matters** The broader significance of the work, as framed in the abstract and Discussion, depends on the generalizability of the findings. Overstating the implications without supporting evidence weakens the manuscript's scientific impact and may mislead readers about the applicability of the proposed mechanism.
+  - **Resolution test** Either provide experimental evidence from at least one additional protein containing a disordered basic region demonstrating similar PAR-binding and PARP1-regulatory properties, or temper the claim to state that the findings suggest a potential general mechanism that requires further investigation in other systems.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of reporting
+  - **Affected element** Methods section "A Radioactive Assay of PARP1 Activity and Protein Trans- and Auto-PARylation"
+  - **Evidence pointer** Methods section
+  - **Issue** The methods state that reactions contained "10 mM EDTA" in the buffer composition, which is unusual for a PARP activity assay since EDTA chelates Mg2+, a required cofactor for PARP1 activity. This may be a typographical error.
+  - **Required correction** Verify the buffer composition and correct any typographical errors. If EDTA was indeed present, explain how PARP1 activity was maintained under these conditions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 2, 8
+  - **Evidence pointer** Results sections describing EMSA experiments
+  - **Issue** The manuscript references "Supplementary Figure S1: Gel shift" but does not describe the quantification method for the EMSA data in sufficient detail. It is unclear how the bound versus unbound PAR fractions were quantified and how the EC50 values were derived from the gel images.
+  - **Required correction** Provide a clear description of the EMSA quantification procedure, including the software used, the normalization approach, and how the fraction bound was calculated. Consider including a representative gel image with the quantification curve in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figures 4, 5, 9
+  - **Evidence pointer** Results sections describing PARP1 activity assays
+  - **Issue** The manuscript reports rate enhancements and trans-PARylation levels but does not consistently report the number of independent experiments or error bars for all quantified data. Some figures are described qualitatively without quantitative support.
+  - **Required correction** Ensure all quantified data are presented with appropriate error bars, replicate numbers, and statistical tests. For any qualitative statements, either provide quantitative support or clearly label them as representative observations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Title and abstract
+  - **Evidence pointer** Title, Abstract
+  - **Issue** The term "structure-specific binding" is used in the title and abstract, but the data support affinity differences based on polymer length and branching frequency rather than demonstrating recognition of specific structural motifs. This terminology may overstate the findings.
+  - **Required correction** Consider revising to "length- and branching-dependent binding" or "structure-dependent binding" to more accurately reflect the experimental evidence. If "structure-specific" is retained, provide direct evidence for structural selectivity.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript cites relevant literature but does not discuss alternative models for YB-1-mediated regulation of PARP1 activity or compare the proposed mechanism with other PAR-binding proteins that regulate PARP1 (e.g., histones, HPF1). This limits the contextualization of the findings.
+  - **Required correction** Add a brief discussion of alternative or complementary mechanisms for PARP1 regulation by PAR-binding proteins, and explicitly state how the proposed model differs from or extends existing knowledge.
+
+## Risk / unsupported claims
+- The claim of "structure-specific binding" of YB-1 CTD to PAR is not fully supported by the presented data, which demonstrate differential affinity based on polymer length and branching frequency but do not establish structural specificity at the molecular level.
+- The causal relationship between PAR structure, YB-1 trans-PARylation, and stimulation of PARP1 activity is asserted but not directly tested; the data support correlation rather than causation.
+- The extrapolation of findings to other PARP1 protein partners containing disordered basic regions is made without direct experimental evidence from other proteins.
+- The statement that "YB-1 acts as an effective cofactor in the PAR synthesis catalyzed by the PARP1 point mutants" is supported by the data, but the mechanistic explanation for why YB-1 stimulates some mutants more than others is speculative.
+- The claim that "the CTD can be considered a specific PAR-interacting module" is partially supported by the truncation data, but the specificity relative to other PAR-binding domains is not established through comparative experiments.
+- The proposed model in Figure 10 extends beyond the experimental data and should be presented as a working hypothesis rather than a conclusion.

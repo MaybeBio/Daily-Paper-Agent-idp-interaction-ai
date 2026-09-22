@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.17.562595",
+  "title": "Measuring age-dependent viscoelastic properties of organelles, cells and organisms via Time-Shared Optical Tweezer Microrheology",
+  "authors": "Català-Castro F; Ortiz-Vásquez S; Martínez-Fernández C; Pezzano F; Garcia-Cabau C; Fernández-Campo M; Sanfeliu-Cerdán N; Jiménez-Delgado S; Salvatella X; Ruprecht V; Frigeri P; Krieg M",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-20",
+  "window": {
+    "start": "2023-10-16",
+    "end": "2023-10-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用时间共享光镊微流变学测量细胞器、细胞和线虫的年龄依赖性粘弹性，涉及生物分子凝聚体的相变，但对象非无序蛋白/IDR，无PPI互作机制，且方法为实验技术而非AI/物理模拟建模，仅对凝聚体物性测量有间接参考。",
+  "abstract": "Recording the mechanical response of biological samples, the cell’s interior and complex fluids in general, would enable deeper understanding of cellular differentiation, ageing and drug discovery. Here, we present a time-shared optical tweezer microrheology (TimSOM) pipeline to determine the frequency- and age-dependent viscoelastic properties of biological materials. Our approach consists in splitting a single laser beam into two near-instantaneous time-shared optical traps to carry out simultaneous force and displacement measurements with sub-nanometer and sub-picoNewton accuracy during sinusoidal perturbations. Leveraging numerical and analytical models, we find solutions to commonly encountered deviations, to build a practical and robust nanorheometer. We demonstrate the versatility of the technique by 1) measuring the phase transitions of an ageing biomolecular condensate, 2) quantifying the complex viscoelastic properties of three intracellular compartments of zebrafish progenitor cells, and, 3) using Caenorhabditis elegans , we uncover how mutations causing nuclear envelopathies soften the cytosol of intestinal cells during organismal age. Together, our advances afford rapid phenotyping of material properties inside cells and proteins blends, opening avenues for biomedical and drug screening applications.",
+  "abstract_zh": "记录生物样本、细胞内部及一般复杂流体的力学响应，将有助于更深入地理解细胞分化、衰老及药物发现。在此，我们提出一种时间共享光镊微流变学（TimSOM）流程，用于测定生物材料随频率和年龄变化的粘弹性特性。我们的方法是将单一激光束分为两个近乎瞬时的共享光阱，在正弦扰动期间进行亚纳米和亚皮牛顿精度的同步力和位移测量。利用数值和解析模型，我们找到了常见偏差的解决方案，构建了一个实用且稳健的纳米流变仪。我们通过以下方式展示该技术的多功能性：1）测量老化生物分子凝聚体的相变；2）量化斑马鱼祖细胞三个细胞内区室的复杂粘弹性特性；以及3）利用秀丽隐杆线虫，揭示导致核被膜病的突变如何在生物体衰老过程中软化肠细胞胞质。综合来看，我们的进展实现了对细胞内及蛋白质混合物材料特性的快速表型分析，为生物医学和药物筛选应用开辟了途径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.17.562595",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.17.562595",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.17.562595/index.html"
+}

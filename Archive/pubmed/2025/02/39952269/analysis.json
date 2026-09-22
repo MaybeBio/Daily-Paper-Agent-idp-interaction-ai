@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39952269",
+  "title": "Membrane Association of Intrinsically Disordered Proteins.",
+  "authors": "MacAinsh, Matthew; Muhammedkutty, Fidha Nazreen Kunnath; Prasad, Ramesh; Zhou, Huan-Xiang",
+  "journal": "Annual review of biophysics",
+  "published_date": "2025-02-15",
+  "window": {
+    "start": "2025-02-10",
+    "end": "2025-02-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述聚焦无序蛋白/IDR的膜结合机制，涵盖MD模拟与序列预测，并阐明膜结合通过降维促进PPI及与LLPS凝聚体形成的相似性，对理解IDR介导的互作机制建模有直接启发。",
+  "abstract": "It is now clear that membrane association of intrinsically disordered proteins or intrinsically disordered regions regulates many cellular processes, such as membrane targeting of Src family kinases and ion channel gating. Residue-specific characterization by nuclear magnetic resonance spectroscopy, molecular dynamics simulations, and other techniques has shown that polybasic motifs and amphipathic helices are the main drivers of membrane association; sequence-based prediction of residue-specific membrane association propensity has become possible. Membrane association facilitates protein-protein interactions and protein aggregation-these effects are due to reduced dimensionality but are similar to those afforded by condensate formation via liquid-liquid phase separation (LLPS). LLPS at the membrane surface provides a powerful means for recruiting and clustering proteins, as well as for membrane remodeling.",
+  "abstract_zh": "现已明确，固有无序蛋白或固有无序区域与膜的结合调控着许多细胞过程，如Src家族激酶的膜靶向和离子通道门控。通过核磁共振波谱、分子动力学模拟及其他技术进行的残基特异性表征表明，多碱基基序和两亲性螺旋是膜结合的主要驱动因素；基于序列的残基特异性膜结合倾向预测已成为可能。膜结合促进蛋白质-蛋白质相互作用和蛋白质聚集——这些效应源于维度降低，但与通过液-液相分离（LLPS）形成凝聚体所提供的效应相似。膜表面的LLPS为蛋白质的招募和聚集以及膜重塑提供了强大手段。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39952269/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39952269/",
+  "paper_page_path": "papers/pubmed/39952269/index.html"
+}

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Structured abstract only
+- **Assessment boundary** Claims and evidence presented within the supplied structured abstract
+- **Shared manuscript claim summary** The authors present LDRS, a module within the IDPConformerGenerator platform, for generating all-atom conformational ensembles of intrinsically disordered regions at termini and in loops or linkers of proteins with existing structures. The tool requires only a PDB structure with missing coordinates or low-confidence predictions and the full-length sequence. Claimed capabilities include modeling phosphorylation sites via enhanced Monte Carlo Side Chain Entropy, transmembrane proteins in an all-atom bilayer, and multi-chain complexes. The tool is described as modular, scriptable via Python API, usable via command line, and computationally fast.
+- **Visible evidence base** Structured abstract text only. No figures, tables, methods sections, validation data, or supplementary material were provided.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, methods details, validation benchmarks, performance comparisons, and supplementary information. The abstract references "figures of detailed methods, fractional secondary structure information, torsion angle sampling, and the time required" but none of these are accessible in the supplied material.
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful software tool for a recognized problem in structural biology, namely the modeling of disordered regions that are missing from experimental structures or poorly predicted. The concept is sound and the integration with an existing platform is sensible. However, the abstract provides no quantitative evidence of performance, accuracy, or validation. The claims of capability for phosphorylation site modeling, transmembrane proteins, and multi-chain complexes are stated without any supporting data. The scientific case for the tool's utility and reliability is therefore not established from the supplied material.
+- **Who would be interested in the results, and why** Structural biologists, computational biophysicists, and researchers working on intrinsically disordered proteins would be interested. Those who need to generate complete all-atom models of proteins with disordered regions for downstream simulations, docking, or functional studies would find such a tool valuable. The ability to model phosphorylation sites and transmembrane contexts broadens the potential user base to those studying post-translational modifications and membrane-associated processes.
+- **Major strengths** The tool addresses a clear and practical need in the field. The requirement of only a PDB structure and sequence is minimal and user-friendly. The integration with an established platform (IDPConformerGenerator) and provision of both Python API and command-line interfaces are sensible design choices. The modularity and computational speed are stated as design goals, which are appropriate for a tool intended for broad use.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The tool "will automatically generate physically meaningful conformational ensembles of the missing flexible regions"
+  - **Evidence pointer** Abstract text, "SUMMARY" section
+  - **Concern** The central claim that generated ensembles are "physically meaningful" is not supported by any validation data in the abstract. No benchmarks, comparisons to experimental data, or assessments of conformational sampling quality are provided.
+  - **Why it matters** The entire utility of the tool rests on the physical validity of the generated ensembles. Without evidence that the conformations are realistic, users cannot trust the output for downstream applications.
+  - **Resolution test** Provide validation results in the full manuscript, such as comparisons of generated ensembles to experimental observables (e.g., SAXS, FRET, NMR chemical shifts) for known IDR systems, and benchmarks against existing methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The capabilities of the LDRS tool include modeling phosphorylation sites using enhanced Monte Carlo Side Chain Entropy, transmembrane proteins within an all-atom bilayer, and multi-chain complexes"
+  - **Evidence pointer** Abstract text, "SUMMARY" section
+  - **Concern** Three distinct advanced capabilities are claimed, but no details, test cases, or performance metrics are given for any of them. It is unclear whether these are fully implemented, tested, or merely planned features.
+  - **Why it matters** These capabilities substantially extend the scope of the tool beyond simple IDR sampling. If they are not fully validated, users may rely on untested functionality, leading to incorrect models.
+  - **Resolution test** In the full manuscript, provide dedicated sections with test cases for each capability, including system descriptions, input requirements, and validation against known experimental or theoretical results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The tool "provides a method for generating all-atom conformations of intrinsically disordered regions at N- and C-termini of and in loops or linkers between folded regions"
+  - **Evidence pointer** Abstract text, "SUMMARY" section
+  - **Concern** The abstract does not explain how this tool differs from or improves upon existing methods for modeling disordered regions, such as flexible loop modeling tools, other IDP ensemble generators, or simple molecular dynamics approaches. The novelty and added value are not articulated.
+  - **Why it matters** Without a clear statement of what is new or better, the scientific contribution is unclear. The field already has multiple tools for IDP ensemble generation, and the authors must demonstrate why LDRS is needed.
+  - **Resolution test** In the full manuscript, include a comparative analysis against at least one or two existing methods, showing advantages in accuracy, speed, or scope of applicability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract "SUMMARY" section
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses the acronym LDRS with a pronunciation guide ("loaders") but does not explain the acronym expansion in the text. The term "IDPConformerGenerator" is referenced but not described for readers unfamiliar with the platform.
+  - **Required correction** Spell out "Local Disordered Region Sampling" at first use and provide a one-sentence description of IDPConformerGenerator's purpose.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract "AVAILABILITY AND IMPLEMENTATION" section
+  - **Evidence pointer** Abstract text
+  - **Issue** The statement that the tool "works on Linux, Microsoft Windows, and Mac OS versions that support DSSP" is vague. DSSP is a separate program, and it is unclear whether it is a dependency that users must install separately or whether it is bundled.
+  - **Required correction** Clarify the dependency status of DSSP and provide installation instructions or a link to DSSP in the documentation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Abstract "SUMMARY" section
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "enhanced Monte Carlo Side Chain Entropy (MC-SCE)" is introduced without context. Readers from outside computational chemistry may not understand what this method does or why it is relevant.
+  - **Required correction** Add a brief parenthetical explanation, such as "a method for sampling side-chain conformations based on entropy considerations."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central claim of generating physically meaningful ensembles and the three advanced capabilities require validation data that are not present in the abstract. Without these, the tool's reliability and scope cannot be assessed.
+- **Assessment against Nature-style criteria** Originality: The concept of sampling disordered regions within an existing structure is not entirely new, and the abstract does not clearly differentiate LDRS from existing approaches. Scientific importance: The problem is important, but the abstract does not demonstrate a significant advance. Interdisciplinary readership: The tool could appeal to structural biologists and computational chemists, but the abstract is too technical and lacks context for broader audiences. Technical soundness: Not assessable from the abstract due to absence of validation data. Readability for nonspecialists: The abstract is dense and assumes familiarity with IDP modeling, MC-SCE, and the IDPConformerGenerator platform.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible tool, but the scientific case for its validity and utility requires the full manuscript with validation data. A revised abstract that includes quantitative performance metrics and a clear statement of novelty would strengthen the submission.
+
+## Risk / unsupported claims
+- The claim that LDRS "will automatically generate physically meaningful conformational ensembles" is unsupported without validation data.
+- The three capabilities (phosphorylation site modeling, transmembrane proteins, multi-chain complexes) are stated without any evidence of implementation or testing.
+- The claim of "computational speed" is not quantified.
+- The statement that the tool "capitalizes on the modularity" of the platform is a design assertion, not a demonstrated outcome.
+- All performance-related claims are unverifiable from the supplied abstract.

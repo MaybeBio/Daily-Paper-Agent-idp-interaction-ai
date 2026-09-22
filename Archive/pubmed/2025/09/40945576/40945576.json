@@ -1,0 +1,305 @@
+{
+  "identity": {
+    "pmid": "40945576",
+    "doi": "10.1016/j.jmb.2025.169437",
+    "title": "Exploring the Role of Structural and Dynamic Complexity in SARS-CoV-2 Nucleocapsid Protein-Heparin Interactions by NMR."
+  },
+  "content": {
+    "abstract": "Among the structural proteins of SARS-CoV-2, the nucleocapsid (N) protein stands out for its pronounced structural heterogeneity and multifunctionality throughout the viral life cycle. Recent studies have demonstrated that the N protein localizes to the surface of infected and neighboring non-infected cells, by interacting with heparan sulfate in the extracellular matrix. The N protein (419 residues) comprises two folded domains ((44)NTD(180) and (249)CTD(361)) interspersed with three intrinsically disordered regions ((1)IDR1(43), (181)IDR2(248), (362)IDR3(419)). The coexistence of ordered and disordered elements raises a key question: how does this structural heterogeneity influence N's interactions with biological partners? Here we employ high-resolution NMR spectroscopy as the primary technique to characterize the interaction of three N protein constructs ((44)NTD(180), (1)NTR(248), and (1)N(419)) with heparin-based ligands of increasing complexity. NMR provides atomic level information on the structured NTD domain and on the otherwise difficult to investigate flexible regions. Molecular dynamics simulations further probe the interaction between NTD and short heparin oligosaccharides. Our data reveal a clear correlation between ligand size and binding affinity: longer saccharide chains promote stronger binding. Additionally, the inclusion of intrinsically disordered regions in the NTR construct significantly enhances the interaction compared to NTD, highlighting the functional relevance of structural disorder. Finally, the full-length protein exhibits distinct spectral behavior with the investigated heparin-based ligand, potentially reflecting additional binding contributions and altered dynamics arising from its complex structure. These findings underscore the utility of NMR spectroscopy in elucidating the dynamic, multivalent nature of protein-polyanion interactions, particularly in highly flexible proteins with a modular domain organization.",
+    "keywords": [
+      "SARS-CoV-2",
+      "heparin",
+      "molecular dynamics simulation",
+      "multidomain protein",
+      "nuclear magnetic resonance"
+    ],
+    "mesh_terms": [
+      "*SARS-CoV-2/metabolism/chemistry",
+      "*Heparin/metabolism/chemistry",
+      "Protein Binding",
+      "*Coronavirus Nucleocapsid Proteins/chemistry/metabolism",
+      "Magnetic Resonance Spectroscopy",
+      "Humans",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "COVID-19/virology/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Domains",
+      "Phosphoproteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bolognesi, Tessa",
+        "Schiavina, Marco",
+        "Ciabini, Cristina",
+        "Parafioriti, Michela",
+        "Gardini, Cristina",
+        "Elli, Stefano",
+        "Guerrini, Marco",
+        "Pierattelli, Roberta",
+        "Felli, Isabella C"
+      ],
+      "short_names": [
+        "Bolognesi T",
+        "Schiavina M",
+        "Ciabini C",
+        "Parafioriti M",
+        "Gardini C",
+        "Elli S",
+        "Guerrini M",
+        "Pierattelli R",
+        "Felli IC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Magnetic Resonance Center (CERM) and Department of Chemistry \"Ugo Schiff\", University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy.",
+        "Magnetic Resonance Center (CERM) and Department of Chemistry \"Ugo Schiff\", University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy.",
+        "Magnetic Resonance Center (CERM) and Department of Chemistry \"Ugo Schiff\", University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy.",
+        "Istituto di Ricerche Chimiche e Biochimiche G. Ronzoni, Via G. Colombo 81, 20133 Milano, Italy.",
+        "Istituto di Ricerche Chimiche e Biochimiche G. Ronzoni, Via G. Colombo 81, 20133 Milano, Italy.",
+        "Istituto di Ricerche Chimiche e Biochimiche G. Ronzoni, Via G. Colombo 81, 20133 Milano, Italy.",
+        "Istituto di Ricerche Chimiche e Biochimiche G. Ronzoni, Via G. Colombo 81, 20133 Milano, Italy.",
+        "Magnetic Resonance Center (CERM) and Department of Chemistry \"Ugo Schiff\", University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy. Electronic address: roberta.pierattelli@unifi.it.",
+        "Magnetic Resonance Center (CERM) and Department of Chemistry \"Ugo Schiff\", University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy. Electronic address: isabellacaterina.felli@unifi.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bolognesi, Tessa",
+        "short_name": "Bolognesi T",
+        "identifiers": [],
+        "affiliations": [
+          "Magnetic Resonance Center (CERM) and Department of Chemistry \"Ugo Schiff\", University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy."
+        ]
+      },
+      {
+        "full_name": "Schiavina, Marco",
+        "short_name": "Schiavina M",
+        "identifiers": [],
+        "affiliations": [
+          "Magnetic Resonance Center (CERM) and Department of Chemistry \"Ugo Schiff\", University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy."
+        ]
+      },
+      {
+        "full_name": "Ciabini, Cristina",
+        "short_name": "Ciabini C",
+        "identifiers": [],
+        "affiliations": [
+          "Magnetic Resonance Center (CERM) and Department of Chemistry \"Ugo Schiff\", University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy."
+        ]
+      },
+      {
+        "full_name": "Parafioriti, Michela",
+        "short_name": "Parafioriti M",
+        "identifiers": [],
+        "affiliations": [
+          "Istituto di Ricerche Chimiche e Biochimiche G. Ronzoni, Via G. Colombo 81, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Gardini, Cristina",
+        "short_name": "Gardini C",
+        "identifiers": [],
+        "affiliations": [
+          "Istituto di Ricerche Chimiche e Biochimiche G. Ronzoni, Via G. Colombo 81, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Elli, Stefano",
+        "short_name": "Elli S",
+        "identifiers": [],
+        "affiliations": [
+          "Istituto di Ricerche Chimiche e Biochimiche G. Ronzoni, Via G. Colombo 81, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Guerrini, Marco",
+        "short_name": "Guerrini M",
+        "identifiers": [],
+        "affiliations": [
+          "Istituto di Ricerche Chimiche e Biochimiche G. Ronzoni, Via G. Colombo 81, 20133 Milano, Italy."
+        ]
+      },
+      {
+        "full_name": "Pierattelli, Roberta",
+        "short_name": "Pierattelli R",
+        "identifiers": [],
+        "affiliations": [
+          "Magnetic Resonance Center (CERM) and Department of Chemistry \"Ugo Schiff\", University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy. Electronic address: roberta.pierattelli@unifi.it."
+        ]
+      },
+      {
+        "full_name": "Felli, Isabella C",
+        "short_name": "Felli IC",
+        "identifiers": [],
+        "affiliations": [
+          "Magnetic Resonance Center (CERM) and Department of Chemistry \"Ugo Schiff\", University of Florence, Via L. Sacconi 6, 50019 Sesto Fiorentino, Italy. Electronic address: isabellacaterina.felli@unifi.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2025 Dec 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/14 00:29",
+    "fetched_at": "2026-09-17 20:00:51"
+  },
+  "links": {
+    "cites": [
+      "42000821",
+      "41823641"
+    ],
+    "refs": [],
+    "similar": [
+      "40945576",
+      "40912879",
+      "33660218",
+      "39174826",
+      "39653699",
+      "33782395",
+      "35551296",
+      "33270159",
+      "39912211",
+      "40375582",
+      "36139141",
+      "39766245",
+      "38718862",
+      "38941236",
+      "39412257",
+      "38153183",
+      "33730325",
+      "33200826",
+      "38587193",
+      "35883485",
+      "36533523",
+      "40113149",
+      "39380503",
+      "33990585",
+      "40097964",
+      "33264373",
+      "33479198",
+      "39489230",
+      "33477032",
+      "39201466",
+      "34734665",
+      "33248025",
+      "34406867",
+      "34161778",
+      "39708056",
+      "40858555",
+      "38885868",
+      "36708355",
+      "33095454",
+      "37286558",
+      "38787915",
+      "41008650",
+      "36928389",
+      "32749662",
+      "39343000",
+      "33039147",
+      "37526269",
+      "40490992",
+      "40558039",
+      "40107650",
+      "35796388",
+      "39093972",
+      "33894414",
+      "40830575",
+      "34929169",
+      "39341499",
+      "36985506",
+      "40664703",
+      "40820302",
+      "40649197",
+      "40751130",
+      "32562316",
+      "39675446",
+      "34749200",
+      "39541975",
+      "34874953",
+      "40259455",
+      "32970989",
+      "33170884",
+      "34517025",
+      "33314794",
+      "39506849",
+      "38018991",
+      "34519429",
+      "39838019",
+      "26371375",
+      "40343796",
+      "34634033",
+      "33098476",
+      "33794152",
+      "39216563",
+      "38159696",
+      "32678978",
+      "39082816",
+      "35852351",
+      "34823028",
+      "32758876",
+      "33808721",
+      "41236412",
+      "33423172",
+      "33671255",
+      "40549905",
+      "23912807",
+      "32469265",
+      "34022485",
+      "40318379",
+      "36798118",
+      "35756710",
+      "38642280",
+      "19052082"
+    ],
+    "review": [
+      "40945576",
+      "40912879",
+      "39343000",
+      "39838019",
+      "33098476",
+      "39216563"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(25)00503-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/bloodthinners.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Blood Thinners"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

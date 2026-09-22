@@ -1,0 +1,115 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, main sections, conclusion, and standard statements)
+- **Assessment boundary** Scientific content, conceptual coherence, evidence quality, and alignment with stated aims; not copyediting or reference verification
+- **Shared manuscript claim summary** The review claims to provide a unified framework integrating molecular mechanisms of alternative splicing (spliceosome dynamics, RNA structure, phase separation) with biological functions, disease associations, and emerging therapeutic strategies, positioning AS as a central node for RNA-targeted precision medicine.
+- **Visible evidence base** Narrative synthesis of published literature; no original experimental data; figures and tables referenced but not provided; clinical trial identifiers cited in text
+- **Missing materials affecting confidence** Figures 1–3 and Tables 1–3 not provided; reference list not provided; no supplementary information; no methodological details for literature selection or synthesis
+
+## Reviewer
+- **Overall assessment** This manuscript presents a broad narrative review of alternative splicing, spanning molecular mechanisms, physiological functions, disease relevance, and therapeutic approaches. The scope is ambitious and the topic is timely. However, the manuscript suffers from significant structural disorganization, uneven depth across sections, and numerous instances of imprecise or grammatically incorrect writing that obscure meaning. The conceptual framework promised in the abstract, a unified model connecting mechanisms to therapies, is not clearly delivered. The review reads more as a catalogue of examples than as a critical synthesis. The absence of figures and tables in the provided material prevents assessment of their quality and utility. The therapeutic sections are informative but lack critical appraisal of efficacy, toxicity, and translational hurdles. Overall, the manuscript has potential but requires substantial revision to meet the standards of a high-impact review journal.
+- **Who would be interested in the results, and why** Researchers and clinicians in RNA biology, molecular medicine, cancer biology, and neurogenetics would find this review useful as an entry point to the alternative splicing field. The sections on splicing-targeted therapies, particularly ASOs and small molecule modulators, may interest translational scientists and pharmaceutical researchers. The disease-specific examples provide a quick reference for those seeking to understand splicing dysregulation in particular pathologies. However, the lack of depth and critical analysis limits its value for specialists already working in the field.
+- **Major strengths** The manuscript covers a wide range of topics relevant to alternative splicing, from core spliceosome biology to therapeutic applications. The inclusion of recent concepts such as phase separation and RNA G-quadruplexes is timely. The disease sections provide a useful survey of splicing defects across multiple pathologies. The therapeutic section, while not exhaustive, touches on the major modalities currently in development. The authors attempt to connect mechanistic understanding to clinical translation, which is a valuable framing.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Conceptual coherence
+  - **Claim pointer** The abstract states that the review provides "a unified framework connecting these mechanistic insights with emerging therapeutic strategies remains lacking" and that the review "systematically integrates current knowledge of AS regulation."
+  - **Evidence pointer** Abstract; Sections 2–5
+  - **Concern** The manuscript does not deliver the promised unified framework. The sections on mechanisms, biological functions, diseases, and therapeutics are presented as largely independent units with minimal cross-referencing. The concluding sections of each part do not synthesize how the mechanistic insights inform therapeutic development or how disease-specific splicing defects relate back to the core regulatory principles. The "Concluding Perspectives" subsections are brief summaries rather than integrative syntheses.
+  - **Why it matters** A review that promises a unified framework must provide a conceptual model that links the molecular basis of splicing regulation to disease mechanisms and therapeutic strategies. Without this integration, the manuscript is a collection of related but disconnected topics, reducing its value as a scholarly contribution.
+  - **Resolution test** The authors should add a dedicated synthesis section or substantially revise the concluding sections of each major part to explicitly connect mechanisms to functions, dysregulation to disease, and disease mechanisms to therapeutic approaches. A conceptual diagram illustrating the proposed framework would help.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript makes numerous specific mechanistic claims, for example, "SRSF9 undergoes aberrant LLPS... which drives pathogenic exon skipping in the SLC37A4 transcript" and "SF3B1 inhibitors... have strong antitumor effects by suppressing oncogenic isoforms like RON Δ160."
+  - **Evidence pointer** Sections 2.4, 4.2.1, 5.1
+  - **Concern** The manuscript frequently states mechanistic relationships as established facts without providing sufficient experimental context or acknowledging the strength of evidence. For example, the claim that SRSF9 phase separation drives specific exon skipping events in cancer is presented without discussing whether this has been demonstrated in vivo, in patient samples, or only in cell lines. Similarly, the therapeutic claims for SF3B1 inhibitors are stated without discussing the toxicity observed in clinical trials or the limited efficacy in solid tumors.
+  - **Why it matters** In a review intended for a broad audience, including nonspecialists, it is critical to distinguish between well-established mechanisms, correlative observations, and speculative models. Overstating the evidence can mislead readers and undermine the credibility of the review.
+  - **Resolution test** For each major mechanistic or therapeutic claim, the authors should indicate the level of evidence (e.g., in vitro, animal models, human studies) and, where appropriate, note controversies or alternative interpretations. This may require adding qualifying language or brief methodological context.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Readability for nonspecialists
+  - **Claim pointer** The manuscript aims to provide "a comprehensive overview of AS" for a broad audience.
+  - **Evidence pointer** Throughout; particularly Sections 2 and 4
+  - **Concern** The writing is frequently unclear due to grammatical errors, awkward phrasing, and imprecise terminology. Examples include "the simplistic concept that one gene encodes one protein has been fundamentally challenged" (Introduction), "the U6–U2 catalytic core aids in maintaining RNA integrity by preventing TUT1 from uridylation transcript" (Section 2.1), and "RNA structure acts as a dynamic and controllable framework that crucially directs AS" (Section 2.3). These issues impede comprehension and detract from the scientific message.
+  - **Why it matters** A review article must be accessible to its intended audience. Persistent language problems create a barrier to understanding and reduce the perceived quality of the work.
+  - **Resolution test** The manuscript should undergo thorough language editing by a native English speaker or professional editing service. Sentences should be checked for grammatical correctness, clarity, and precision. Technical terms should be defined at first use.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The review claims to cover "emerging therapeutic strategies" and "RNA-targeted precision medicine."
+  - **Evidence pointer** Section 5
+  - **Concern** The therapeutic section is largely descriptive, listing modalities and examples without critical analysis. For instance, the discussion of ASOs mentions approved drugs but does not critically evaluate their limitations, such as delivery challenges, off-target effects, or the reasons for the narrow range of approved indications. The discussion of CRISPR-based approaches is similarly superficial, not addressing the significant technical hurdles for in vivo delivery and editing efficiency. The section on immunotherapy and splicing is brief and does not adequately explore the complexity of the interplay between splicing and immune evasion.
+  - **Why it matters** For a review to be scientifically important, it must not only describe the state of the field but also critically evaluate the evidence, identify gaps, and propose future directions. The current treatment of therapeutics is too shallow to provide meaningful guidance to researchers or clinicians.
+  - **Resolution test** The authors should expand the therapeutic section to include a critical discussion of the challenges and limitations of each modality, with specific examples of failures or setbacks. They should also discuss the regulatory and manufacturing hurdles for these therapies. A table comparing the advantages and disadvantages of each approach would be helpful.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract is dense and attempts to cover too much ground in a single paragraph. The sentence "Nevertheless, a unified framework connecting these mechanistic insights with emerging therapeutic strategies remains lacking" is confusing because it appears to criticize the field, but the next sentence claims the review provides such a framework.
+  - **Required correction** Restructure the abstract to clearly state the problem, the scope of the review, and the main conclusions. Consider breaking it into a structured abstract with subheadings.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Section 2.1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The sentence "the U6–U2 catalytic core aids in maintaining RNA integrity by preventing TUT1 from uridylation transcript" is grammatically incorrect and scientifically unclear. The role of TUT1 in uridylation and its relationship to splicing is not explained.
+  - **Required correction** Rewrite the sentence for clarity and provide a brief explanation of the TUT1-mediated uridylation mechanism and its relevance to splicing.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.2.1
+  - **Evidence pointer** Section 4.2.1
+  - **Issue** The section on solid tumors lists many examples of splicing dysregulation but does not provide a coherent framework for understanding how these diverse events contribute to tumorigenesis. The connection between specific splicing events and cancer hallmarks is not always explicit.
+  - **Required correction** Consider organizing the section around cancer hallmarks (e.g., proliferation, apoptosis evasion, metastasis) and discussing how specific splicing events contribute to each.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section 5.2
+  - **Evidence pointer** Section 5.2
+  - **Issue** The section on ASOs mentions "NCT02844491" in the context of CD20 splicing and rituximab resistance, but the trial identifier is not described. It is unclear whether this is a completed trial, an ongoing trial, or a proposed trial.
+  - **Required correction** Provide a brief description of the trial, including its phase, patient population, and any available results.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The section on RNA structure is dense and uses jargon without adequate explanation. For example, "bistable switches" and "long-range interactions" are mentioned but not defined for the nonspecialist reader.
+  - **Required correction** Add brief definitions or explanations for key terms. Consider adding a figure that illustrates the different types of RNA structural elements that regulate splicing.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Accuracy
+  - **Affected element** Section 4.4
+  - **Evidence pointer** Section 4.4
+  - **Issue** The section on psychiatric disorders is very brief and relies on a small number of studies. The claim that "AS is important in psychiatric disorders" is supported by limited evidence, and the section does not discuss the challenges of studying splicing in the brain.
+  - **Required correction** Expand the section to include more examples and discuss the methodological challenges, such as tissue access and postmortem RNA quality.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 5.5
+  - **Evidence pointer** Section 5.5
+  - **Issue** The section on challenges and future perspectives is general and does not provide specific, actionable recommendations. The mention of "AI with multiomics datasets" is vague.
+  - **Required correction** Provide more specific examples of how AI and multiomics could be applied to splicing research, such as predicting splicing outcomes from genomic sequences or identifying patient subgroups based on splicing profiles.
+- **Technical failings that need to be addressed before the case is established** The manuscript does not present original data, so the technical failings relate to the quality of the synthesis. The primary issue is the lack of a clear, consistently applied framework for evaluating and presenting the evidence. The authors do not specify their literature search strategy, inclusion criteria, or methods for synthesizing findings across studies. This makes it difficult to assess the comprehensiveness and objectivity of the review. Additionally, the manuscript contains numerous factual claims without citations visible in the provided text, and the absence of the reference list prevents verification.
+- **Assessment against Nature-style criteria**  
+  *Originality*: The review covers well-trodden ground in the alternative splicing field. While it includes recent topics such as phase separation, the overall structure and content are not novel. The claimed "unified framework" is not delivered, so the originality of the conceptual contribution is limited.  
+  *Scientific importance*: The topic is of high importance, given the broad implications of splicing dysregulation in disease. However, the review does not provide new insights or a critical synthesis that would elevate its importance beyond a summary of existing literature.  
+  *Interdisciplinary readership*: The review has the potential to appeal to a broad audience, including molecular biologists, clinicians, and translational researchers. However, the writing quality and lack of clear explanations for nonspecialists will limit its accessibility.  
+  *Technical soundness*: The scientific content appears broadly accurate, but the lack of critical appraisal and the presence of unsupported or overstated claims reduce the technical soundness. The absence of figures and tables in the provided material prevents assessment of their quality.  
+  *Readability for nonspecialists*: The manuscript is not currently readable for nonspecialists due to grammatical errors, jargon, and a lack of clear explanations. Significant language editing and restructuring are required.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a timely and important topic, but it does not deliver the promised unified framework, lacks critical synthesis, and has significant writing quality issues. Major revisions are required to address the conceptual, structural, and language problems before the manuscript could be considered for publication.
+
+## Risk / unsupported claims
+- The claim that the review provides a "unified framework" is not supported by the content, which is a collection of loosely connected sections.
+- Specific mechanistic claims, such as the role of SRSF9 phase separation in driving specific exon skipping events in cancer, are presented without sufficient evidence or context.
+- The therapeutic claims, particularly regarding the efficacy and safety of splicing modulators, are stated without critical discussion of clinical trial results or limitations.
+- The statement that "approximately 15% of human transcripts being NMT targets" is presented without a citation, and the accuracy of this figure is uncertain.
+- The claim that "SRSF6 levels correlate with prognosis" in cancer is made without specifying the cancer type or the direction of correlation.
+- The manuscript states that "CRISPR strategies in DCM aim to restoring splicing of titin (TTN)" but does not provide details on the specific approach or its feasibility.
+- The section on psychiatric disorders relies on a limited number of studies and makes broad claims about the role of splicing that are not fully supported.

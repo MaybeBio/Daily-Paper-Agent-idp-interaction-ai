@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.05.31.596781",
+  "title": "Effective Inclusion of Electronic Polarization Improves the Description of Electrostatic Interactions: The prosECCo75 Biomolecular Force Field",
+  "authors": "Nencini R; Tempra C; Biriukov D; Riopedre-Fernandez M; Cruces Chamorro V; Polak J; Mason PE; Ondo D; Heyda J; Ollila OHS; Jungwirth P; Javanainen M; Martinez-Seara H",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-03",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出通过电荷标度有效引入电子极化的prosECCo75力场，改进非极化MD模拟中静电相互作用精度，虽涉及蛋白质等生物分子互作，但对象非IDP/相分离，且未聚焦PPI机制建模，方法上属物理模拟力场优化，对本课题的互作模拟方法有可迁移启发。",
+  "abstract": "prosECCo75 is an optimized force field effectively incorporating electronic polarization via charge scaling. It aims to enhance the accuracy of nominally nonpolarizable molecular dynamics (MD) simulations for interactions in biologically relevant systems involving water, ions, proteins, lipids, and saccharides. Recognizing the inherent limitations of nonpolarizable force fields in precisely modeling electrostatic interactions essential for various biological processes, we mitigate these shortcomings by accounting for electronic polarizability in a physical rigorous mean-field way that does not add to computational costs. With this scaling of (both integer and partial) charges within the CHARMM36 framework, prosECCo75 addresses overbinding artifacts. This improves agreement with experimental ion binding data across a broad spectrum of systems - lipid membranes, proteins (including peptides and amino acids), and saccharides - without compromising their biomolecular structures. prosECCo75 thus emerges as a computationally efficient tool providing enhanced accuracy and broader applicability in simulating the complex interplay of interactions between ions and biomolecules, pivotal for improving our understanding of many biological processes.",
+  "abstract_zh": "prosECCo75是一种通过电荷缩放有效纳入电子极化的优化力场。其旨在提升标称非极化分子动力学 (molecular dynamics, MD) 模拟在涉及水、离子、蛋白质、脂质和糖类的生物相关系统相互作用的准确性。鉴于非极化力场在精确模拟多种生物过程所必需的静电相互作用方面存在固有局限性，我们通过以物理上严谨的平均场方式考虑电子极化性来缓解这些不足，且不增加计算成本。通过在CHARMM36框架内对（整数和部分）电荷进行这种缩放，prosECCo75解决了过度结合伪影问题。这改善了与实验离子结合数据的一致性，涵盖广泛系统——脂质膜、蛋白质（包括肽和氨基酸）及糖类——同时不损害其生物分子结构。因此，prosECCo75作为一种计算高效的工具，在模拟离子与生物分子间复杂相互作用方面提供了增强的准确性和更广泛的适用性，这对于增进我们对许多生物过程的理解至关重要。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.05.31.596781",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.05.31.596781",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.05.31.596781/index.html"
+}

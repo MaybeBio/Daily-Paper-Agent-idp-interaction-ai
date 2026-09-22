@@ -1,0 +1,160 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.27.573415",
+  "title": "p23-FKBP51 chaperone complex regulates tau aggregation",
+  "doi": "10.1101/2023.12.27.573415",
+  "abstract": "The pathological deposition of tau into insoluble amyloid fibrils is a pathological hallmark of tauopathies. Molecular chaperones are important cellular factors contributing to the regulation of tau misfolding and aggregation. Here we reveal an Hsp90-independent modulation of tau aggregation by a molecular complex of the two Hsp90 co-chaperones p23 and FKBP51. Integrating NMR spectroscopy, SAXS, molecular docking, and site-directed mutagenesis we reveal the structural basis of the p23-FKBP51 complex. We show that p23 specifically recognizes the TPR domain of FKBP51 and interacts with tau through its C-terminal disordered tail. We further show that the p23-FKBP51 complex binds tau to form a dynamic p23-FKBP51-tau trimeric complex that inhibits tau aggregation and thus may counteract Hsp90-FKBP51 mediated toxicity. Taken together, our findings reveal a co-chaperone mediated Hsp90-independent chaperoning of tau protein.",
+  "authors": [
+    "Chakraborty P",
+    "Zweckstetter M"
+  ],
+  "published_date": "2023-12-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.27.573415",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.27.573415.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR779474",
+    "raw_record": {
+      "id": "PPR779474",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR779474"
+        ]
+      },
+      "doi": "10.1101/2023.12.27.573415",
+      "title": "p23-FKBP51 chaperone complex regulates tau aggregation",
+      "authorString": "Chakraborty P, Zweckstetter M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chakraborty P",
+            "lastName": "Chakraborty",
+            "firstName": "Pijush",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1749-5225"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department for NMR-based Structural Biology, Max Planck Institute for Multidisciplinary Sciences, Am Faßberg 11, 37077, Göttingen, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zweckstetter M",
+            "lastName": "Zweckstetter",
+            "firstName": "Markus",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department for NMR-based Structural Biology, Max Planck Institute for Multidisciplinary Sciences, Am Faßberg 11, 37077, Göttingen, Germany"
+                },
+                {
+                  "affiliation": "German Center for Neurodegenerative Diseases (DZNE), Von-Siebold-Str. 3a, 37075 Göttingen, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1749-5225"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The pathological deposition of tau into insoluble amyloid fibrils is a pathological hallmark of tauopathies. Molecular chaperones are important cellular factors contributing to the regulation of tau misfolding and aggregation. Here we reveal an Hsp90-independent modulation of tau aggregation by a molecular complex of the two Hsp90 co-chaperones p23 and FKBP51. Integrating NMR spectroscopy, SAXS, molecular docking, and site-directed mutagenesis we reveal the structural basis of the p23-FKBP51 complex. We show that p23 specifically recognizes the TPR domain of FKBP51 and interacts with tau through its C-terminal disordered tail. We further show that the p23-FKBP51 complex binds tau to form a dynamic p23-FKBP51-tau trimeric complex that inhibits tau aggregation and thus may counteract Hsp90-FKBP51 mediated toxicity. Taken together, our findings reveal a co-chaperone mediated Hsp90-independent chaperoning of tau protein.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2023.12.27.573415"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.12.27.573415"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR779474"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR779474&type=FILE&fileName=EMS193141-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS193141",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-12-29",
+      "firstPublicationDate": "2023-12-27",
+      "firstIndexDate": "2023-12-29",
+      "fullTextReceivedDate": "2024-01-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

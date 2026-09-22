@@ -1,0 +1,361 @@
+{
+  "identity": {
+    "pmid": "40725251",
+    "doi": "10.3390/ijms26147004",
+    "title": "Titin's Intrinsically Disordered PEVK Domain Modulates Actin Polymerization."
+  },
+  "content": {
+    "abstract": "The multi-domain muscle protein titin provides elasticity and mechanosensing functions to the sarcomere. Titin's PEVK domain is intrinsically disordered due to the presence of a large number of prolines and highly charged residues. Although PEVK does not have canonical actin-binding motifs, it has been shown to bind F-actin. Here, we explored whether the PEVK domain may also affect actin assembly. We cloned the middle, 733-residue-long segment (called PEVKII) of the full-length PEVK domain, expressed in E. coli and purified by using His- and Avi-tags engineered to the N- and C-termini, respectively. Actin assembly was monitored by the pyrene assay in the presence of varying PEVKII concentrations. The structural features of PEVKII-associated F-actin were studied with atomic force microscopy. The added PEVKII enhanced the initial and log-phase rates of actin assembly and the peak F-actin quantity in a concentration-dependent way. However, the critical concentration of actin polymerization was unaltered. Thus, PEVK accelerates actin polymerization by facilitating its nucleation. This effect was highlighted in the AFM images of F-actin-PEVKII adsorbed to the supported lipid bilayer. The sample was dominated by radially symmetric complexes of short actin filaments. PEVK's actin polymerization-modulating effect may, in principle, have a function in regulating sarcomeric actin length and turnover. Altogether, titin's PEVK domain is not only a non-canonical actin-binding protein that regulates sarcomeric shortening, but one that may modulate actin polymerization as well.",
+    "keywords": [
+      "AlphaFold",
+      "PEVK",
+      "actin paracrystal",
+      "atomic force microscopy",
+      "intrinsically unstructured protein domain",
+      "polymerization assay",
+      "pyrene actin",
+      "supported lipid bilayer",
+      "titin"
+    ],
+    "mesh_terms": [
+      "*Connectin/metabolism/chemistry/genetics",
+      "*Actins/metabolism/chemistry",
+      "Polymerization",
+      "Protein Domains",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry",
+      "Humans",
+      "Animals",
+      "Protein Binding",
+      "Microscopy, Atomic Force"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Altorjay, Aron Gellert",
+        "Tordai, Hedvig",
+        "Zolcsak, Adam",
+        "Kosa, Nikoletta",
+        "Hegedus, Tamas",
+        "Kellermayer, Miklos"
+      ],
+      "short_names": [
+        "Altorjay AG",
+        "Tordai H",
+        "Zolcsak A",
+        "Kosa N",
+        "Hegedus T",
+        "Kellermayer M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0288-4658",
+        "ORCID: 0009-0007-0043-377X",
+        "ORCID: 0000-0002-5195-749X",
+        "ORCID: 0000-0002-5553-6553"
+      ],
+      "affiliations": [
+        "Department of Biophysics and Radiaton Biology, Semmelweis University, 1085 Budapest, Hungary.",
+        "Department of Biophysics and Radiaton Biology, Semmelweis University, 1085 Budapest, Hungary.",
+        "Department of Biophysics and Radiaton Biology, Semmelweis University, 1085 Budapest, Hungary.",
+        "Department of Biophysics and Radiaton Biology, Semmelweis University, 1085 Budapest, Hungary.",
+        "Department of Biophysics and Radiaton Biology, Semmelweis University, 1085 Budapest, Hungary.",
+        "HUN-REN-SU Biophysical Virology Research Group, Semmelweis University, 1085 Budapest, Hungary.",
+        "Department of Biophysics and Radiaton Biology, Semmelweis University, 1085 Budapest, Hungary.",
+        "HUN-REN-SU Biophysical Virology Research Group, Semmelweis University, 1085 Budapest, Hungary."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Altorjay, Áron Gellért",
+        "short_name": "Altorjay ÁG",
+        "identifiers": [
+          "0000-0003-0288-4658"
+        ],
+        "affiliations": [
+          "Department of Biophysics and Radiaton Biology, Semmelweis University, 1085 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Tordai, Hedvig",
+        "short_name": "Tordai H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Radiaton Biology, Semmelweis University, 1085 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Zolcsák, Ádám",
+        "short_name": "Zolcsák Á",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Radiaton Biology, Semmelweis University, 1085 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Kósa, Nikoletta",
+        "short_name": "Kósa N",
+        "identifiers": [
+          "0009-0007-0043-377X"
+        ],
+        "affiliations": [
+          "Department of Biophysics and Radiaton Biology, Semmelweis University, 1085 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Hegedűs, Tamás",
+        "short_name": "Hegedűs T",
+        "identifiers": [
+          "0000-0002-5195-749X"
+        ],
+        "affiliations": [
+          "Department of Biophysics and Radiaton Biology, Semmelweis University, 1085 Budapest, Hungary.",
+          "HUN-REN-SU Biophysical Virology Research Group, Semmelweis University, 1085 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Kellermayer, Miklós",
+        "short_name": "Kellermayer M",
+        "identifiers": [
+          "0000-0002-5553-6553"
+        ],
+        "affiliations": [
+          "Department of Biophysics and Radiaton Biology, Semmelweis University, 1085 Budapest, Hungary.",
+          "HUN-REN-SU Biophysical Virology Research Group, Semmelweis University, 1085 Budapest, Hungary."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Jul 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/29 06:30",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39848862",
+      "39745989",
+      "38718835",
+      "37948068",
+      "37914935",
+      "37914933",
+      "36443454",
+      "35858327",
+      "35628117",
+      "33647290",
+      "33294637",
+      "31952119",
+      "30275509",
+      "29754461",
+      "29051486",
+      "26988969",
+      "26792330",
+      "25122914",
+      "21708170",
+      "20869367",
+      "19157855",
+      "17939058",
+      "17513381",
+      "17475230",
+      "15849252",
+      "15701920",
+      "15560799",
+      "15507486",
+      "15262226",
+      "14593205",
+      "12878225",
+      "12816538",
+      "12525176",
+      "11717390",
+      "11717165",
+      "11701614",
+      "11566799",
+      "11526214",
+      "11276084",
+      "11084039",
+      "10987066",
+      "9657390",
+      "9562033",
+      "9472037",
+      "9251807",
+      "9172076",
+      "9000621",
+      "8950375",
+      "8868577",
+      "8629989",
+      "8601441",
+      "8534821",
+      "7937847",
+      "7896840",
+      "7779083",
+      "7756523",
+      "7569978",
+      "7098993",
+      "7011802",
+      "6650826",
+      "3667550",
+      "2453516",
+      "1002676",
+      "291034"
+    ],
+    "similar": [
+      "40725251",
+      "17513381",
+      "11566799",
+      "15507486",
+      "12064946",
+      "29226977",
+      "20149875",
+      "11701614",
+      "34299183",
+      "19679835",
+      "11799131",
+      "9472037",
+      "33294637",
+      "10364572",
+      "10987079",
+      "34152365",
+      "32547410",
+      "19679839",
+      "10585940",
+      "11084039",
+      "24357719",
+      "22910563",
+      "15632200",
+      "34922195",
+      "11159428",
+      "24470489",
+      "41229035",
+      "25246556",
+      "21708170",
+      "22162634",
+      "10987066",
+      "15849252",
+      "41340596",
+      "16766517",
+      "17921211",
+      "8629989",
+      "39745989",
+      "15098695",
+      "11106626",
+      "8770219",
+      "21900329",
+      "32492876",
+      "20026128",
+      "9653138",
+      "29330363",
+      "34681770",
+      "22910434",
+      "35031281",
+      "35875854",
+      "20414336",
+      "8760502",
+      "30804022",
+      "14581214",
+      "16465472",
+      "27276390",
+      "23062340",
+      "26935301",
+      "40512239",
+      "21332356",
+      "40854385",
+      "15560799",
+      "10987081",
+      "10963124",
+      "11222304",
+      "23764881",
+      "20414364",
+      "9336199",
+      "11717165",
+      "32112607",
+      "36645127",
+      "11297408",
+      "25122914",
+      "10987073",
+      "31158359",
+      "40846493",
+      "7896840",
+      "12785097",
+      "30565562",
+      "16702235",
+      "39737810",
+      "19306884",
+      "40515930",
+      "9724620",
+      "12064950",
+      "10465743",
+      "29722136",
+      "33647290",
+      "31289970",
+      "16904093",
+      "9251807",
+      "23220127",
+      "28097712",
+      "30778519",
+      "20346955",
+      "12482578",
+      "20196616",
+      "14579303",
+      "11927605",
+      "40341854",
+      "26578512"
+    ],
+    "review": [
+      "40725251",
+      "34299183",
+      "10987066",
+      "39745989",
+      "32492876",
+      "22910434",
+      "21332356",
+      "10963124",
+      "10987073",
+      "12785097",
+      "29722136",
+      "31289970"
+    ],
+    "pmc": [
+      "12295887"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26147004",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40725251/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-649",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

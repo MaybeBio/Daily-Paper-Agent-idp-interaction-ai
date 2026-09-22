@@ -1,0 +1,383 @@
+{
+  "identity": {
+    "pmid": "41840143",
+    "doi": "10.1038/s42004-026-01977-w",
+    "title": "Allosteric regulation of enzymatic catalysis by molecular crowding."
+  },
+  "content": {
+    "abstract": "Enzymes within cells often function in crowded environments due to the high concentration of macromolecules and the formation of biomolecular condensates. However, most enzyme kinetics insights stem from dilute solution studies. In this study, we examined how molecular crowding impacts enzyme catalysis by constructing a residue-resolved dynamic energy landscape model that explicitly accounts for the crowding agent. By performing molecular simulations for the full enzymatic cycle of a model enzyme adenylate kinase, we revealed a crowding-induced allosteric regulation mechanism of enzymatic catalysis. The crowding agent modifies the conformational distribution of the enzyme, which in turn alters the enzymatic dynamics. Additional simulations of AdK variants with various intrinsic conformational propensities showed that the effect of molecular crowding depends on the rate-limiting step in the enzymatic cycle. Molecular crowding increases enzymatic activity if the rate-limiting step involves the formation of the catalytically competent enzyme-substrate complex and decreases the activity if the rate-limiting step involves the product release. The results revealed in this work not only shed insights into the general biophysical principle of protein dynamics under a crowded cellular environment but also provide a computational framework to understand the diversity of existing experimental observations of the molecular crowding effects on enzyme catalysis.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ren, Weitong",
+        "Lu, Jiajun",
+        "Huang, Hengyan",
+        "Zhang, Jian",
+        "Chen, Yuxin",
+        "Yan, Zhiqiang",
+        "Li, Wenfei",
+        "Wang, Wei"
+      ],
+      "short_names": [
+        "Ren W",
+        "Lu J",
+        "Huang H",
+        "Zhang J",
+        "Chen Y",
+        "Yan Z",
+        "Li W",
+        "Wang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8889-4587",
+        "ORCID: 0000-0003-3865-3229",
+        "ORCID: 0000-0003-2679-4075",
+        "ORCID: 0000-0001-5441-0302"
+      ],
+      "affiliations": [
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, PR China.",
+        "School of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China.",
+        "School of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China.",
+        "School of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China.",
+        "Department of Cardiology, Jiangsu Key Laboratory for Cardiovascular Information and Health Engineering Medicine, Nanjing Drum Tower Hospital, Medical School, Nanjing University, Nanjing, PR China.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, PR China. zqyan@ucas.ac.cn.",
+        "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, PR China. wfli@nju.edu.cn.",
+        "School of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China. wfli@nju.edu.cn.",
+        "Department of Cardiology, Jiangsu Key Laboratory for Cardiovascular Information and Health Engineering Medicine, Nanjing Drum Tower Hospital, Medical School, Nanjing University, Nanjing, PR China. wfli@nju.edu.cn.",
+        "School of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China. wangwei@nju.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ren, Weitong",
+        "short_name": "Ren W",
+        "identifiers": [
+          "0000-0001-8889-4587"
+        ],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, PR China."
+        ]
+      },
+      {
+        "full_name": "Lu, Jiajun",
+        "short_name": "Lu J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Huang, Hengyan",
+        "short_name": "Huang H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jian",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Chen, Yuxin",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cardiology, Jiangsu Key Laboratory for Cardiovascular Information and Health Engineering Medicine, Nanjing Drum Tower Hospital, Medical School, Nanjing University, Nanjing, PR China."
+        ]
+      },
+      {
+        "full_name": "Yan, Zhiqiang",
+        "short_name": "Yan Z",
+        "identifiers": [
+          "0000-0003-3865-3229"
+        ],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, PR China. zqyan@ucas.ac.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Wenfei",
+        "short_name": "Li W",
+        "identifiers": [
+          "0000-0003-2679-4075"
+        ],
+        "affiliations": [
+          "Wenzhou Key Laboratory of Biophysics, Wenzhou Institute, University of Chinese Academy of Sciences, Wenzhou, PR China. wfli@nju.edu.cn.",
+          "School of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China. wfli@nju.edu.cn.",
+          "Department of Cardiology, Jiangsu Key Laboratory for Cardiovascular Information and Health Engineering Medicine, Nanjing Drum Tower Hospital, Medical School, Nanjing University, Nanjing, PR China. wfli@nju.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Wang, Wei",
+        "short_name": "Wang W",
+        "identifiers": [
+          "0000-0001-5441-0302"
+        ],
+        "affiliations": [
+          "School of Physics, National Laboratory of Solid State Microstructure, Nanjing University, Nanjing, PR China. wangwei@nju.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications chemistry"
+    ],
+    "journal_abbrev": [
+      "Commun Chem"
+    ],
+    "pub_date": "2026 Mar 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/17 06:48",
+    "fetched_at": "2026-09-18 01:43:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39877815",
+      "39163334",
+      "38607288",
+      "37956700",
+      "37418731",
+      "36222098",
+      "36044985",
+      "35442681",
+      "35239418",
+      "34298166",
+      "34215742",
+      "33885078",
+      "33665382",
+      "31972079",
+      "31917571",
+      "31542226",
+      "31298900",
+      "30682370",
+      "30397128",
+      "30264990",
+      "29875414",
+      "29602697",
+      "29531052",
+      "29167503",
+      "28559350",
+      "28225081",
+      "27801646",
+      "27705762",
+      "27669651",
+      "27283046",
+      "27187005",
+      "26906294",
+      "26596457",
+      "26488642",
+      "26333028",
+      "25580578",
+      "25478785",
+      "25399908",
+      "25288112",
+      "25002491",
+      "24660904",
+      "24337582",
+      "24300113",
+      "23989722",
+      "23767688",
+      "22963267",
+      "22753508",
+      "21307307",
+      "21190355",
+      "20921368",
+      "20541943",
+      "20471396",
+      "20338853",
+      "20228897",
+      "19932772",
+      "19874030",
+      "19841628",
+      "19805169",
+      "19297622",
+      "18678900",
+      "18573087",
+      "18338887",
+      "18205357",
+      "18026087",
+      "18026086",
+      "17998210",
+      "16877541",
+      "16669648",
+      "15362103",
+      "15334070",
+      "15102452",
+      "14566052",
+      "11590012",
+      "8805521",
+      "7688609",
+      "7295652",
+      "3550799",
+      "1748995",
+      "1548697"
+    ],
+    "similar": [
+      "41840143",
+      "23912807",
+      "40261816",
+      "23571857",
+      "42475469",
+      "36044985",
+      "36594499",
+      "40501881",
+      "33885078",
+      "30565943",
+      "28559350",
+      "36802243",
+      "29851345",
+      "22476233",
+      "20665690",
+      "36222098",
+      "31298900",
+      "42556678",
+      "26244746",
+      "19757836",
+      "30464857",
+      "25591002",
+      "37086776",
+      "25574774",
+      "41244384",
+      "38607680",
+      "20553227",
+      "38395309",
+      "40389007",
+      "26147643",
+      "31459357",
+      "15362092",
+      "28295725",
+      "16892271",
+      "34250801",
+      "32308927",
+      "15095986",
+      "22885020",
+      "27861609",
+      "41806882",
+      "22761790",
+      "25218002",
+      "39660892",
+      "23189168",
+      "17848562",
+      "31869999",
+      "37263464",
+      "26160737",
+      "27283046",
+      "41004013",
+      "25539442",
+      "30778078",
+      "41562625",
+      "26465099",
+      "18798649",
+      "18026086",
+      "30817154",
+      "31463540",
+      "31542226",
+      "41863668",
+      "27723976",
+      "23767688",
+      "21549802",
+      "41105950",
+      "15334070",
+      "32216302",
+      "15663937",
+      "22947858",
+      "42586338",
+      "28666087",
+      "25399908",
+      "19932772",
+      "24095713",
+      "37681097",
+      "18085768",
+      "31818468",
+      "39374718",
+      "38425926",
+      "42441005",
+      "27410745",
+      "35658075",
+      "42309023",
+      "26589012",
+      "35981263",
+      "23914257",
+      "23468286",
+      "38405524",
+      "37782780",
+      "25539144",
+      "27810896",
+      "27497171",
+      "15979047",
+      "21823644",
+      "38231116",
+      "42012824",
+      "18281945",
+      "39224956",
+      "19691414",
+      "36342388",
+      "41003994"
+    ],
+    "review": [
+      "41840143",
+      "23571857",
+      "25574774",
+      "15362092",
+      "41806882",
+      "39660892",
+      "41004013",
+      "25539442",
+      "41562625",
+      "41863668",
+      "37681097",
+      "39374718",
+      "42309023",
+      "23468286",
+      "38405524",
+      "27497171",
+      "18281945"
+    ],
+    "pmc": [
+      "13139598"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42004-026-01977-w",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41840143/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-162",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

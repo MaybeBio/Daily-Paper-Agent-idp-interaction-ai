@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "34677513",
+    "doi": "10.3390/membranes11100747",
+    "title": "Plant Sterol Clustering Correlates with Membrane Microdomains as Revealed by Optical and Computational Microscopy."
+  },
+  "content": {
+    "abstract": "Local inhomogeneities in lipid composition play a crucial role in the regulation of signal transduction and membrane traffic. This is particularly the case for plant plasma membrane, which is enriched in specific lipids, such as free and conjugated forms of phytosterols and typical phytosphingolipids. Nevertheless, most evidence for microdomains in cells remains indirect, and the nature of membrane inhomogeneities has been difficult to characterize. We used a new push-pull pyrene probe and fluorescence lifetime imaging microscopy (FLIM) combined with all-atom multiscale molecular dynamics simulations to provide a detailed view on the interaction between phospholipids and phytosterol and the effect of modulating cellular phytosterols on membrane-associated microdomains and phase separation formation. Our understanding of the organization principles of biomembranes is limited mainly by the challenge to measure distributions and interactions of lipids and proteins within the complex environment of living cells. Comparing phospholipids/phytosterol compositions typical of liquid-disordered (Ld) and liquid-ordered (Lo) domains, we furthermore show that phytosterols play crucial roles in membrane homeostasis. The simulation work highlights how state-of-the-art modeling alleviates some of the prior concerns and how unrefuted discoveries can be made through a computational microscope. Altogether, our results support the role of phytosterols in the lateral structuring of the PM of plant cells and suggest that they are key compounds for the formation of plant PM microdomains and the lipid-ordered phase.",
+    "keywords": [
+      "FLIM",
+      "computational microscopy",
+      "microdomain",
+      "phase separation",
+      "phytosterol"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tang, Ling",
+        "Li, Yang",
+        "Zhong, Cheng",
+        "Deng, Xin",
+        "Wang, Xiaohua"
+      ],
+      "short_names": [
+        "Tang L",
+        "Li Y",
+        "Zhong C",
+        "Deng X",
+        "Wang X"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2320-4543"
+      ],
+      "affiliations": [
+        "Key Laboratory of Plant Resources, Institute of Botany, Chinese Academy of Sciences, Beijing 100093, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Key Laboratory of Plant Resources, Institute of Botany, Chinese Academy of Sciences, Beijing 100093, China.",
+        "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China.",
+        "Hubei Key Lab on Organic and Polymeric Optoelectronic Materials, Department of Chemistry, Wuhan University, Wuhan 430072, China.",
+        "Key Laboratory of Plant Resources, Institute of Botany, Chinese Academy of Sciences, Beijing 100093, China.",
+        "Key Laboratory of Plant Resources, Institute of Botany, Chinese Academy of Sciences, Beijing 100093, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tang, Ling",
+        "short_name": "Tang L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Plant Resources, Institute of Botany, Chinese Academy of Sciences, Beijing 100093, China.",
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Li, Yang",
+        "short_name": "Li Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Plant Resources, Institute of Botany, Chinese Academy of Sciences, Beijing 100093, China.",
+          "College of Life Sciences, University of Chinese Academy of Sciences, Beijing 100049, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Cheng",
+        "short_name": "Zhong C",
+        "identifiers": [],
+        "affiliations": [
+          "Hubei Key Lab on Organic and Polymeric Optoelectronic Materials, Department of Chemistry, Wuhan University, Wuhan 430072, China."
+        ]
+      },
+      {
+        "full_name": "Deng, Xin",
+        "short_name": "Deng X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Plant Resources, Institute of Botany, Chinese Academy of Sciences, Beijing 100093, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xiaohua",
+        "short_name": "Wang X",
+        "identifiers": [
+          "0000-0003-2320-4543"
+        ],
+        "affiliations": [
+          "Key Laboratory of Plant Resources, Institute of Botany, Chinese Academy of Sciences, Beijing 100093, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Membranes"
+    ],
+    "journal_abbrev": [
+      "Membranes (Basel)"
+    ],
+    "pub_date": "2021 Sep 29",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/10/23 06:00",
+    "fetched_at": "2026-09-20 06:04:51"
+  },
+  "links": {
+    "cites": [
+      "42539640",
+      "42287589",
+      "40872216",
+      "40519718",
+      "39062582",
+      "38123450",
+      "36144641",
+      "35567113",
+      "35207142"
+    ],
+    "refs": [
+      "34357166",
+      "34357157",
+      "33035050",
+      "32608036",
+      "32323533",
+      "32081744",
+      "31857424",
+      "31597687",
+      "31160792",
+      "30897814",
+      "30846600",
+      "30760596",
+      "30643212",
+      "30525595",
+      "30174194",
+      "30150727",
+      "30078712",
+      "29857189",
+      "29712849",
+      "29689384",
+      "29320683",
+      "28655618",
+      "28636905",
+      "28595398",
+      "28241097",
+      "28081290",
+      "28005066",
+      "27823927",
+      "27816695",
+      "26750324",
+      "26667583",
+      "26584445",
+      "26301405",
+      "26238484",
+      "26061794",
+      "25992730",
+      "25749153",
+      "25549979",
+      "25321392",
+      "24714763",
+      "24175728",
+      "23940626",
+      "23912893",
+      "23777791",
+      "23630285",
+      "23528083",
+      "23415670",
+      "23407358",
+      "23399521",
+      "23212385",
+      "22264529",
+      "22162017",
+      "22157973",
+      "22010034",
+      "21468650",
+      "20421456",
+      "20133878",
+      "20044567",
+      "19836330",
+      "19575467",
+      "19460965",
+      "19098897",
+      "17573424",
+      "17256940",
+      "16472555",
+      "14695250",
+      "12198485",
+      "11694269",
+      "9635733",
+      "8744570"
+    ],
+    "similar": [
+      "34677513",
+      "25575593",
+      "18676403",
+      "28027503",
+      "12851796",
+      "30465788",
+      "25299598",
+      "30457145",
+      "23121205",
+      "26904981",
+      "18708353",
+      "23792066",
+      "29221989",
+      "24634670",
+      "30096186",
+      "11698680",
+      "22026409",
+      "32432336",
+      "31964764",
+      "17317727",
+      "28267920",
+      "23912893",
+      "15190066",
+      "34080860",
+      "23912807",
+      "18163467",
+      "28356535",
+      "25561007",
+      "23805739",
+      "33142729",
+      "24896120",
+      "19805351",
+      "33619111",
+      "31386337",
+      "14985690",
+      "18178660",
+      "25484090",
+      "22450237",
+      "27043009",
+      "24456489",
+      "27730613",
+      "28088325",
+      "29722895",
+      "14673117",
+      "17319738",
+      "25710589",
+      "22841541",
+      "20056106",
+      "29380675",
+      "28972217",
+      "24866014",
+      "25549979",
+      "19566595",
+      "17632093",
+      "32871116",
+      "31207252",
+      "23094054",
+      "24835016",
+      "11310959",
+      "23440896",
+      "30605637",
+      "20020734",
+      "32432881",
+      "26147107",
+      "29972803",
+      "27677551",
+      "30174194",
+      "23797782",
+      "20955684",
+      "25340788",
+      "26468279",
+      "15513823",
+      "31457626",
+      "18723009",
+      "20181756",
+      "18234811",
+      "23685123",
+      "26036778",
+      "24463068",
+      "27103534",
+      "30709620",
+      "21840470",
+      "16415047",
+      "12885650",
+      "25772372",
+      "19036721",
+      "18301084",
+      "22264529",
+      "28666916"
+    ],
+    "review": [
+      "34677513",
+      "30465788",
+      "20056106",
+      "11310959",
+      "27677551",
+      "30174194",
+      "15513823",
+      "18723009",
+      "26036778",
+      "24463068",
+      "18301084",
+      "22264529"
+    ],
+    "pmc": [
+      "8539253"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=membranes11100747",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34677513/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34677513",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FOXC2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

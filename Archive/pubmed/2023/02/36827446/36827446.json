@@ -1,0 +1,276 @@
+{
+  "identity": {
+    "pmid": "36827446",
+    "doi": "10.1021/acs.jpcb.2c08945",
+    "title": "Simple and Effective Conformational Sampling Strategy for Intrinsically Disordered Proteins Using the UNRES Web Server."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) contain more charged amino acids than folded proteins, resulting in a lack of hydrophobic core(s) and a tendency to adopt rapidly interconverting structures rather than well-defined structures. The structural heterogeneity of IDPs, encoded by the amino acid sequence, is closely related to their unique roles in biological pathways, which require them to interact with different binding partners. Recently, Robustelli and co-workers have demonstrated that a balanced all-atom force field can be used to sample heterogeneous structures of disordered proteins ( Proc. Natl. Acad. Sci. U.S.A. 2018, 115, E4758-E4766). However, such a solution requires extensive computational resources, such as Anton supercomputers. Here, we propose a simple and effective solution to sample the conformational space of IDPs using a publicly available web server, namely, the UNited-RESidue (UNRES) web server. Our proposed solution requires no investment in computational resources and no prior knowledge of UNRES. UNRES Replica Exchange Molecular Dynamics (REMD) simulations were carried out on a set of eight disordered proteins at temperatures spanning from 270 to 430 K. Utilizing the latest UNRES force field designed for structured proteins, with proper selections of temperatures, we were able to produce comparable results to all-atom force fields as reported in work done by Robustelli and co-workers. In addition, NMR observables and the radius of gyration calculated from UNRES ensembles were directly compared with the experimental data to further evaluate the accuracy of the UNRES model at all temperatures. Our results suggest that carrying out the UNRES simulations at optimal temperatures using the UNRES web server can be a good alternative to sample heterogeneous structures of IDPs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Peptides/chemistry",
+      "Protein Conformation",
+      "Molecular Dynamics Simulation",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Tongtong",
+        "Hendrix, Emily",
+        "He, Yi"
+      ],
+      "short_names": [
+        "Li T",
+        "Hendrix E",
+        "He Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6884-5312"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Chemical Biology, University of New Mexico, Albuquerque, New Mexico 87131, United States.",
+        "Department of Chemistry and Chemical Biology, University of New Mexico, Albuquerque, New Mexico 87131, United States.",
+        "Department of Chemistry and Chemical Biology, University of New Mexico, Albuquerque, New Mexico 87131, United States.",
+        "Translational Informatics Division, Department of Internal Medicine, University of New Mexico, Albuquerque, New Mexico 87131, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Tongtong",
+        "short_name": "Li T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, University of New Mexico, Albuquerque, New Mexico 87131, United States."
+        ]
+      },
+      {
+        "full_name": "Hendrix, Emily",
+        "short_name": "Hendrix E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, University of New Mexico, Albuquerque, New Mexico 87131, United States."
+        ]
+      },
+      {
+        "full_name": "He, Yi",
+        "short_name": "He Y",
+        "identifiers": [
+          "0000-0002-6884-5312"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, University of New Mexico, Albuquerque, New Mexico 87131, United States.",
+          "Translational Informatics Division, Department of Internal Medicine, University of New Mexico, Albuquerque, New Mexico 87131, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2023 Mar 16",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/25 06:00",
+    "fetched_at": "2026-09-20 19:29:20"
+  },
+  "links": {
+    "cites": [
+      "39937972",
+      "38112495"
+    ],
+    "refs": [],
+    "similar": [
+      "36827446",
+      "30840442",
+      "30204435",
+      "31552948",
+      "29808548",
+      "31613621",
+      "36178373",
+      "33079977",
+      "33459730",
+      "29718313",
+      "17201450",
+      "32816485",
+      "32859072",
+      "34032235",
+      "30979035",
+      "31241933",
+      "26052838",
+      "37108059",
+      "36084124",
+      "36674958",
+      "25691834",
+      "38018910",
+      "36468450",
+      "31809054",
+      "33810353",
+      "28092832",
+      "26263302",
+      "33078950",
+      "30876367",
+      "28095698",
+      "32227937",
+      "38996889",
+      "28448138",
+      "35129612",
+      "34546059",
+      "33591749",
+      "37452752",
+      "30250773",
+      "32696367",
+      "34680048",
+      "28226222",
+      "34656328",
+      "31657215",
+      "33411518",
+      "26574339",
+      "29990433",
+      "31756456",
+      "30134733",
+      "27844185",
+      "33945530",
+      "27378298",
+      "32357776",
+      "24763499",
+      "31756104",
+      "34845623",
+      "32035448",
+      "38892222",
+      "27484738",
+      "36934808",
+      "27819658",
+      "36791464",
+      "28809487",
+      "33355572",
+      "31877033",
+      "28805390",
+      "36533639",
+      "36641212",
+      "26387099",
+      "30708285",
+      "32579908",
+      "24410358",
+      "36009034",
+      "27749055",
+      "20011673",
+      "25207671",
+      "25375525",
+      "36800279",
+      "30372613",
+      "38165099",
+      "34358545",
+      "30259679",
+      "24589355",
+      "30933517",
+      "34626492",
+      "30990694",
+      "36131545",
+      "34845619",
+      "33382616",
+      "30909517",
+      "31548393",
+      "26387101",
+      "35725761",
+      "29982297",
+      "31903719",
+      "31375817",
+      "30865832",
+      "30240067",
+      "30813315",
+      "28554553",
+      "39158517",
+      "29763584",
+      "31402649",
+      "35174713",
+      "24739176",
+      "27153636",
+      "33310020",
+      "36987865",
+      "35950933",
+      "24839411",
+      "37133846",
+      "31702919",
+      "36084347",
+      "37134270",
+      "28841239",
+      "39190324",
+      "37433228",
+      "37862761",
+      "36066390",
+      "38505224",
+      "30306573",
+      "34048569",
+      "34150843",
+      "29490246",
+      "38731411",
+      "39105804",
+      "37200094",
+      "37989551",
+      "36774359",
+      "37096579",
+      "38910419",
+      "36798393",
+      "38615193",
+      "27802394",
+      "39141804",
+      "25952623",
+      "34827596",
+      "37406151",
+      "38949117",
+      "39366599",
+      "38370653",
+      "37138579",
+      "38222029",
+      "37581491"
+    ],
+    "review": [
+      "36827446",
+      "30840442",
+      "30979035",
+      "35129612",
+      "33591749",
+      "34680048",
+      "28226222",
+      "33355572",
+      "26387099",
+      "34358545",
+      "30909517",
+      "26387101",
+      "29982297",
+      "28554553",
+      "38505224"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.2c08945",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.19.608620",
+  "title": "Prediction of Adeno-Associated Virus Fitness with a Protein Language Based Machine Learning Model",
+  "doi": "10.1101/2024.08.19.608620",
+  "abstract": "Adeno-associated viral (AAV)-based therapeutics have the potential to transform the lives of patients by delivering one-time treatments for a variety of diseases. However, a critical challenge to their widespread adoption and distribution is the high cost of goods (CoGS). Reducing manufacturing costs by developing AAV capsids with improved yield, or fitness, is key to making gene therapies more affordable. AAV fitness is largely determined by the amino acid sequence of the capsid, however, engineered AAVs are rarely optimized for manufacturability. Here, we report a state-of-the art machine learning (ML) model that predicts the fitness of AAV capsid mutants based on the amino acid sequence of the capsid monomer. By combining a protein language model (PLM) and classical ML techniques, our model achieved a significantly high prediction accuracy (Pearson correlation = 0.818) for capsid fitness. Importantly, tests on completely independent datasets showed robustness and generalizability of our model, even for multi-mutant AAV capsids. Our accurate ML-based model can be used as a surrogate for laborious in vitro experiments, thus saving time and resources, and can be deployed to increase fitness of clinical AAV capsids to make gene therapies economically viable for patients.",
+  "authors": [
+    "Jason Wu",
+    "Yu Qiu",
+    "Eugenia Lyashenko",
+    "Christian Mueller",
+    "Sourav R Choudhury"
+  ],
+  "published_date": "2024-08-19",
+  "updated_date": "2024-08-19T20:05:23Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.19.608620",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.19.608620.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            20
+          ]
+        ],
+        "date-time": "2026-01-20T08:11:34Z",
+        "timestamp": 1768896694441,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            19
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2024,
+                8,
+                19
+              ]
+            ],
+            "date-time": "2024-08-19T00:00:00Z",
+            "timestamp": 1724025600000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            11,
+            4
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Adeno-associated viral (AAV)-based therapeutics have the potential to transform the lives of patients by delivering one-time treatments for a variety of diseases. However, a critical challenge to their widespread adoption and distribution is the high cost of goods (CoGS). Reducing manufacturing costs by developing AAV capsids with improved yield, or fitness, is key to making gene therapies more affordable. AAV fitness is largely determined by the amino acid sequence of the capsid, however, engineered AAVs are rarely optimized for manufacturability. Here, we report a state-of-the art machine learning (ML) model that predicts the fitness of AAV capsid mutants based on the amino acid sequence of the capsid monomer. By combining a protein language model (PLM) and classical ML techniques, our model achieved a significantly high prediction accuracy (Pearson correlation = 0.818) for capsid fitness. Importantly, tests on completely independent datasets showed robustness and generalizability of our model, even for multi-mutant AAV capsids. Our accurate ML-based model can be used as a surrogate for laborious in vitro experiments, thus saving time and resources, and can be deployed to increase fitness of clinical AAV capsids to make gene therapies economically viable for patients.</jats:p>",
+      "DOI": "10.1101/2024.08.19.608620",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            19
+          ]
+        ],
+        "date-time": "2024-08-19T20:05:23Z",
+        "timestamp": 1724097923000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 3,
+      "title": [
+        "Prediction of Adeno-Associated Virus Fitness with a Protein Language Based Machine Learning Model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5550-7835",
+          "authenticated-orcid": false,
+          "given": "Jason",
+          "family": "Wu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yu",
+          "family": "Qiu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Eugenia",
+          "family": "Lyashenko",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Christian",
+          "family": "Mueller",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Sourav R",
+          "family": "Choudhury",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2024.08.19.608620",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T06:53:54Z",
+        "timestamp": 1768460034000
+      },
+      "score": 60.698273,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2024.08.19.608620"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            19
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.1101/2024.08.19.608620",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1089/hum.2024.227",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            8,
+            19
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

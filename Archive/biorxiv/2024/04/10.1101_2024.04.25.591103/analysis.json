@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.25.591103",
+  "title": "A complete map of specificity encoding enables reprogramming of a protein interaction",
+  "authors": "Zarin T; Hidalgo-Carcedo C; Lehner B",
+  "journal": "bioRxiv",
+  "published_date": "2024-04-25",
+  "window": {
+    "start": "2024-04-22",
+    "end": "2024-04-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过大规模突变能量测量绘制蛋白结合特异性的完整编码图谱，并实现结合重编程，虽对象非IDP，但其互作机制建模与可迁移的定量方法对本课题有启发。",
+  "abstract": "The human genome encodes the affinities and specificities of >half a million molecular interactions. Changes in specificity drive evolution, disease and therapeutic efficacy, but how specificity is encoded and reprogrammed is not well understood. Here we present a complete map of the encoding of specificity in a protein sequence and how mutations quantitatively interact to reprogram binding. By measuring >200,000 energetic interactions we identify 17 major sites that directly and allosterically encode the specificity for six sites in a ligand. Combining mutations allows specificity for all six sites to be simultaneously re-programmed. However, binding reprogramming is not fully independent, with energetic couplings within both the protein and ligand required to accurately predict binding. This approach of measuring the specificities of thousands of proteins in a single experiment will allow many different types of molecular interaction to be understood and interpretably reprogrammed. <h4>Highlights</h4> Massively parallel quantification of >200,000 energetic couplings between mutations in a protein and its ligand. Specificity is directly and allosterically encoded in 17 sites for six positions in the ligand. Specificity for all six sites can be simultaneously re-programmed with accurate binding scores for >150,000 intermediately reprogrammed variants. Accurate binding prediction requires energetic interactions between the protein and ligand and within both the protein and ligand.",
+  "abstract_zh": "人类基因组编码了超过五十万种分子相互作用的亲和力与特异性。特异性的变化驱动着进化、疾病及治疗效果，但特异性如何被编码和重编程尚不完全清楚。在此，我们呈现了蛋白质序列中特异性编码的完整图谱，以及突变如何定量地相互作用以重编程结合。通过测量超过200,000种能量相互作用，我们识别出17个主要位点，这些位点直接且变构地编码了配体中六个位点的特异性。组合突变使得对所有六个位点的特异性能够同时被重编程。然而，结合重编程并非完全独立，蛋白质和配体内部的能量耦合对于准确预测结合是必需的。这种在单一实验中测量数千种蛋白质特异性的方法，将使多种类型的分子相互作用得以理解并实现可解释的重编程。<h4>亮点</h4> 大规模并行量化了蛋白质与其配体间超过200,000种突变间的能量耦合。特异性直接且变构地编码于17个位点，对应配体中的六个位置。对所有六个位点的特异性可同时重编程，且对超过150,000种中间重编程变体具有准确的结合评分。准确的结合预测需要蛋白质与配体之间以及两者内部的能量相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.25.591103",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.25.591103",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.25.591103/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36203878",
+  "title": "Interplay of receptor-ligand binding and lipid domain formation during cell adhesion.",
+  "authors": "Li, Long; Hu, Jinglei; Rozycki, Bartosz; Ji, Jing; Song, Fan",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2022-10-08",
+  "window": {
+    "start": "2022-10-03",
+    "end": "2022-10-09"
+  },
+  "score": 5,
+  "one_liner_zh": "综述受体-配体结合与膜脂域形成在细胞黏附中的相互作用，涉及膜异质性和结合协同性，但对象非无序蛋白/IDR，且无AI或物理模拟方法贡献，仅对互作机制建模有间接启发。",
+  "abstract": "Cell adhesion involved in biological processes such as cell migration, immune responses, and cancer metastasis, is mediated by the specific binding of receptor and ligand proteins. Some of these proteins exhibit affinity for nanoscale lipid clusters in cell membranes. A key question is how these nanoscale lipid clusters influence and react to the receptor-ligand binding during cell adhesion. In this article, we review recent computational studies that shed new light on the interplay of the receptor-ligand binding and the formation of lipid domains in adhering membranes. These studies indicate that the receptor-ligand binding promotes coalescence of lipid clusters into mesoscale domains, which, in turn, enhances both the affinity and cooperativity of the receptor-ligand binding in cell-cell adhesion with mobile ligands. In contrast, in the case of cell-extracellular matrix adhesion with immobile ligands, the receptor-ligand binding and the lipid cluster coalescence can be correlated or anti-correlated, depending strongly on the ligand distribution. These findings deepen our understanding of correlations between cell adhesion and membrane heterogeneities.",
+  "abstract_zh": "细胞粘附涉及细胞迁移、免疫反应和癌症转移等生物过程，由受体和配体蛋白的特异性结合介导。其中一些蛋白对细胞膜中的纳米级脂质簇具有亲和力。一个关键问题是，在细胞粘附过程中，这些纳米级脂质簇如何影响受体-配体结合并对其作出反应。在本文中，我们回顾了最近的计算研究，这些研究为粘附膜中受体-配体结合与脂质域形成之间的相互作用提供了新见解。这些研究表明，受体-配体结合促进脂质簇聚集成中尺度域，这反过来增强了具有移动配体的细胞-细胞粘附中受体-配体结合的亲和力和协同性。相比之下，在具有固定配体的细胞-细胞外基质粘附情况下，受体-配体结合与脂质簇聚结可能相关或反相关，这强烈依赖于配体分布。这些发现加深了我们对细胞粘附与膜异质性之间相关性的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36203878/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36203878/",
+  "paper_page_path": "papers/pubmed/36203878/index.html"
+}

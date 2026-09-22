@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, significance statement, methods summary) without supplementary information or figures
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence consistency based solely on the provided text; figures and SI referenced but not directly examined
+- **Shared manuscript claim summary** The authors use atomistic enhanced-sampling simulations to show that a concentrated arginine-rich peptide environment mimicking biomolecular condensates destabilizes the GCAA RNA tetraloop secondary structure, promotes extended nonnative conformations, and that this effect is stronger for arginine-rich than lysine-rich peptides due to specific arginine–nucleobase interactions
+- **Visible evidence base** Main text descriptions of free-energy surfaces, base-pairing free energies, loop conformational analysis, hydrogen-bonding analysis, and comparison with experimental data; references to figures and SI
+- **Missing materials affecting confidence** Figures, SI Appendix, simulation parameter details, force field validation data, convergence criteria, and error analysis are not available for direct verification
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computationally intensive and potentially valuable investigation of how condensate-like environments modulate RNA conformational ensembles. The central claim that arginine-rich peptide environments destabilize RNA secondary structure through specific interactions with nucleobases is mechanistically plausible and consistent with existing experimental observations. However, the evidence as presented in the text alone is insufficient to fully establish the case. Key concerns include the lack of demonstrated convergence for the enhanced-sampling simulations, the absence of quantitative error analysis for reported free-energy differences, the limited scope of the model system, and the reliance on a single force field without cross-validation. The comparison between arginine- and lysine-rich environments is a strength, but the mechanistic interpretation requires more direct evidence. The manuscript is well-written and the significance is clearly articulated, but several technical aspects need to be addressed before the conclusions can be considered robust.
+- **Who would be interested in the results, and why** Researchers in RNA biology, phase separation, and biomolecular condensates would find these results relevant, as the study addresses a fundamental question about how condensate environments modulate RNA structure. Computational biophysicists interested in enhanced-sampling methods and force field development would also be interested. The findings could inform experimental studies on RNA regulation in condensates and have implications for understanding RNA-associated pathologies linked to condensate dysfunction.
+- **Major strengths** The study addresses an important and timely question about RNA behavior in condensate environments. The use of atomistic enhanced-sampling simulations is appropriate and technically demanding. The comparison between arginine- and lysine-rich peptides provides a controlled test of the role of specific side-chain chemistry. The validation against experimental thermodynamic data in water strengthens confidence in the simulation approach. The mechanistic hypothesis regarding arginine–nucleobase interactions is specific and testable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that the hybrid WTMetaD-REST2 protocol "exhaustively sampled" the conformational landscape of the GCAA tetraloop in both water and peptide-rich environments, and reports folding free energies with uncertainties of ±0.2 kJ/mol.
+  - **Evidence pointer** Results section "A Minimal System to Investigate RNA Structures in Biomolecular Condensates at the Atomistic Scale"; Results section "Extended RNA Conformations Are Favored in Biomolecular Condensed Phase"; Materials and Methods
+  - **Concern** The text does not provide any demonstration of simulation convergence. No information is given about the total simulation time per replica, the number of replica-exchange attempts, the convergence of the free-energy surfaces with respect to simulation length, or whether multiple independent simulations were performed. The reported statistical uncertainty of ±0.2 kJ/mol for the folding free energy in water is remarkably small and would require extensive sampling to be credible. Without convergence analysis, the reported free-energy surfaces and the derived conclusions about relative stability in different environments cannot be evaluated.
+  - **Why it matters** The central conclusion that the condensate environment destabilizes the native structure depends entirely on the reliability of the computed free-energy surfaces. If the simulations are not converged, the observed differences between water and peptide-rich environments could be artifacts of insufficient sampling rather than genuine physical effects. The quantitative claim of a specific folding free energy in water is used to validate the method against experiment, so its accuracy is critical.
+  - **Resolution test** Provide convergence metrics such as free-energy estimates as a function of simulation time, block error analysis, or comparison of independent runs. Show that the free-energy surfaces are stable over the final portion of the simulation. Report the total simulation time and the number of replica-exchange cycles. If possible, demonstrate that the computed folding free energy in water is robust to the choice of collective variables and bias parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim** The manuscript claims that the model condensate environment "destabilizes RNA secondary structures" and that this is due to favorable interactions between RNA bases and the mixed peptide/water solvent, with arginine side chains playing a distinctive role.
+  - **Evidence pointer** Results section "Destabilization of RNA Secondary Structures in Condensed Phases"; Results section "Influence of Condensate Composition on RNA Structural Perturbation"; Figures 3 and 5
+  - **Concern** The analysis of base-pairing stability relies on free energies of formation for individual Watson–Crick pairs and the number of native stem base pairs formed (Nc). However, the text does not describe how these quantities were computed from the simulations, what statistical uncertainties are associated with them, or how the free-energy profiles in Figure 3B were obtained. Similarly, the hydrogen-bonding analysis in Figure 5C is described qualitatively without error bars or statistical testing. The claim that arginine–nucleobase hydrogen bonds "significantly increase" upon unfolding is not supported by any quantitative measure of significance.
+  - **Why it matters** The mechanistic conclusion that arginine specifically interacts with nucleobases to drive unfolding is a key novel finding. If the underlying analyses are not statistically robust, the conclusion may not be reliable. The comparison between arginine and lysine is central to the claim that the effect is not simply due to electrostatics, so the evidence for differential hydrogen bonding must be solid.
+  - **Resolution test** Provide a detailed description of how base-pairing free energies and hydrogen-bond counts were computed, including definitions and thresholds. Report uncertainties for all reported quantities, either from block averaging or bootstrapping. Perform a statistical test (e.g., permutation test) to support the claim that arginine–nucleobase hydrogen bonds increase significantly upon unfolding. Show that the differences between arginine and lysine environments are statistically significant.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim** The manuscript claims that the findings "support the fascinating hypothesis that cellular condensates may induce alternative structurally relevant functional arrangements in larger RNA molecules" and that the work "shows that biomolecular condensates may play a central role in regulating the biological activity of RNA within the cell."
+  - **Evidence pointer** Discussion section
+  - **Concern** The study is limited to a single 12-nucleotide RNA tetraloop in a simplified peptide environment. The extrapolation to larger, more complex RNAs and to actual cellular condensates is speculative. The manuscript does not discuss how the timescales and concentrations used in the simulations relate to physiological conditions, nor does it address potential limitations of the model system in representing the complexity of real condensates, which contain diverse proteins and RNAs at varying concentrations.
+  - **Why it matters** The broader significance of the work depends on the extent to which the model system captures the essential features of real condensates. If the conclusions are highly system-specific, the impact on the field would be limited. The authors should be more careful in distinguishing between what is demonstrated by their simulations and what is speculative extrapolation.
+  - **Resolution test** Add a discussion of the limitations of the model system and the conditions under which the conclusions might be expected to hold. If possible, provide additional simulations or arguments showing that the observed effects are likely to be general. Alternatively, temper the claims in the Discussion to more accurately reflect the scope of the evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Significance statement
+  - **Evidence pointer** Significance section
+  - **Issue** The significance statement is clear but could benefit from a more explicit statement of the key finding. The phrase "our findings reveal that this environment destabilizes RNA secondary structures" is somewhat vague; it would be helpful to specify the magnitude of the effect and the proposed mechanism.
+  - **Required correction** Consider revising the significance statement to include a specific quantitative or mechanistic detail, such as "we show that arginine-rich environments destabilize RNA secondary structures by promoting favorable interactions with nucleobases, an effect not observed with lysine."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Force field choice
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The manuscript uses the DES-Amber force field but does not discuss why this particular force field was chosen or whether the results are sensitive to this choice. Given that RNA force fields are known to have limitations, a brief justification or a statement about the expected robustness of the findings would be useful.
+  - **Required correction** Add a sentence in the Materials and Methods or Discussion justifying the choice of DES-Amber and noting any known limitations or alternative force fields that could be used to test the robustness of the conclusions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Collective variables
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The choice of collective variables (eRMSD and radius of gyration of the backbone) is mentioned but not justified. It is unclear whether these variables are sufficient to capture the relevant conformational changes, particularly the base-pairing and stacking interactions that are central to the conclusions.
+  - **Required correction** Briefly explain why these collective variables were chosen and whether additional variables were considered. If possible, show that the free-energy surfaces are not sensitive to the choice of collective variables.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The comparison with experimental observations is somewhat brief. The authors mention FRET experiments and melting of nucleic acid duplexes in condensates, but do not provide specific quantitative comparisons or discuss potential discrepancies between simulation and experiment.
+  - **Required correction** Expand the comparison with experimental data, including specific numbers where available, and discuss any discrepancies or limitations in the comparison.
+
+## Risk / unsupported claims
+- The claim that the WTMetaD-REST2 protocol "exhaustively sampled" the conformational landscape is unsupported without convergence data.
+- The quantitative folding free energy in water (−14.1±0.2 kJ/mol) and its agreement with experiment cannot be fully evaluated without seeing the underlying data and error analysis.
+- The claim that arginine–nucleobase hydrogen bonds "significantly increase" upon unfolding is not supported by statistical evidence in the text.
+- The extrapolation from a single tetraloop to larger RNAs and to cellular condensates is speculative and not supported by the presented evidence.
+- The claim that the model condensate "represents a better solvent for the RNA molecule" is an interpretation that requires more direct evidence, such as solvent-separated interaction free energies or explicit solvation analysis.
+- The comparison between arginine- and lysine-rich environments is based on a single peptide sequence each, and the generality of the conclusion is not established.

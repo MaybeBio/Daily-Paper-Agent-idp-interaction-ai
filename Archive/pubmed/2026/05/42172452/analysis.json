@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42172452",
+  "title": "Modular Organization of Rba50 Reveals Distinct Domains for RNAPII Assembly and Interaction Network Formation.",
+  "authors": "Xie, Debao; Wang, Le; Sun, Xizhe; Yan, Yuanyuan; Li, Pan; Gao, Mengdi; Quintana, David G; Zeng, Fanli",
+  "journal": "FASEB journal : official publication of the Federation of American Societies for Experimental Biology",
+  "published_date": "2026-05-22",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合结构预测与功能实验，揭示RNAPII组装因子Rba50的模块化组织，其中无序N端模块作为多价互作枢纽介导蛋白互作网络，虽非相分离/凝聚体背景，但无序区域介导PPI的机制建模思路对本课题有启发。",
+  "abstract": "RNA polymerase II (RNAPII) is a conserved 12-subunit enzyme essential for eukaryotic transcription. Although the structure and biological functions of RNAPII are well-defined, the mechanisms by which its subunits are assembled into a functional complex remain only partially understood. Several RNAPII assembly factors have been identified, but the molecular principles by which they cooperate during polymerase biogenesis remain unclear. Rba50 is an essential, conserved RNAPII assembly factor implicated in multiple stages of polymerase biogenesis, yet its mode of action remains unknown. Here, we combine structural prediction, targeted interaction assays, and functional analyses to reveal a modular organization of Rba50 with separable activities. Rba50 comprises two functionally distinct but cooperative regions: a structured C-terminal module that provides RNAPII assembly-associated activity and an intrinsically disordered N-terminal module that functions as a multivalent interaction hub. We map a direct interaction between the assembly factor Npa3 and the first N-terminal disordered segment, residues 1-89, and show that the N-terminal module expands the Rba50 interaction network. Functional assays indicate that the C-terminal region rescues specific rba50-3 phenotypes and supports proliferative recovery under permissive plasmid-shuffle conditions, whereas robust Rba50 function also requires determinants outside the C-terminal region. We further identify a CRM1-dependent leucine-rich nuclear export signal within residues 239-249 that limits nuclear accumulation of Rba50 at steady state. Together, our results support a modular architecture in which distinct functional elements within Rba50 contribute to RNAPII biogenesis, interaction-network formation, and nucleocytoplasmic distribution.",
+  "abstract_zh": "RNA聚合酶II（RNAPII）是一种保守的12亚基酶，对真核生物转录至关重要。尽管RNAPII的结构和生物学功能已被明确界定，但其亚基组装成功能性复合物的机制仍仅部分被理解。已鉴定出若干RNAPII组装因子，但它们在聚合酶生物发生过程中协同作用的分子原理仍不清楚。Rba50是一种必需且保守的RNAPII组装因子，参与聚合酶生物发生的多个阶段，但其作用模式仍未知。在此，我们结合结构预测、靶向相互作用分析和功能分析，揭示了Rba50具有可分离活性的模块化组织。Rba50包含两个功能不同但协同作用的区域：一个提供RNAPII组装相关活性的结构化C端模块，以及一个作为多价相互作用枢纽的内在无序N端模块。我们定位了组装因子Npa3与第一个N端无序片段（残基1-89）之间的直接相互作用，并表明N端模块扩展了Rba50的相互作用网络。功能分析表明，C端区域能挽救特定的rba50-3表型，并在允许的质粒穿梭条件下支持增殖恢复，而Rba50的稳健功能还需要C端区域之外的 determinants。我们进一步鉴定了残基239-249内一个依赖CRM1的亮氨酸丰富核输出信号，该信号在稳态下限制Rba50的核积累。总之，我们的结果支持一种模块化架构，其中Rba50内的不同功能元件有助于RNAPII生物发生、相互作用网络形成和核质分布。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42172452/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42172452/",
+  "paper_page_path": "papers/pubmed/42172452/index.html"
+}

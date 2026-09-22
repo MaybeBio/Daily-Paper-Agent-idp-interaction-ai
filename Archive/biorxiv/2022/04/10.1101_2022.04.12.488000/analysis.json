@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.12.488000",
+  "title": "Supramolecular architecture of the ER-mitochondria encounter structure in its native environment",
+  "authors": "Wozny MR; Di Luca A; Morado DR; Picco A; Hoffmann PC; Miller EA; Vanni S; Kukulski W",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-12",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究通过整合结构生物学解析了ER-线粒体接触位点ERMES复合物的原位超分子结构，涉及PPI与分子建模，但对象非无序蛋白/相分离，机制建模可迁移性有限。",
+  "abstract": "The endoplasmic reticulum and mitochondria are main hubs of eukaryotic membrane biogenesis which rely on lipid exchange via membrane contact sites, but the underpinning mechanisms remain poorly understood. In yeast, tethering and lipid transfer between the two organelles is mediated by the ER-mitochondria encounter structure ERMES, a four-subunit complex of unclear stoichiometry and architecture. We determined the molecular organization of ERMES within cells using integrative structural biology, combining quantitative live-imaging, cryo-correlative microscopy, subtomogram averaging and molecular modeling. ERMES assembles into approximately 25 discrete bridge-like complexes distributed irregularly across a contact site. Each bridge consists of three lipid-binding SMP domains arranged in zig-zag fashion. Our molecular model of ERMES reveals an unconventional restrained pathway for lipids. These findings resolve a supramolecular architecture controlling interorganelle lipid fluxes.",
+  "abstract_zh": "内质网和线粒体是真核生物膜生物发生的主要枢纽，其依赖于通过膜接触位点的脂质交换，但支撑机制仍知之甚少。在酵母中，两种细胞器之间的拴系和脂质转移由内质网-线粒体接触结构ERMES介导，这是一个化学计量和结构尚不明确的四亚基复合物。我们利用整合结构生物学，结合定量活细胞成像、冷冻相关显微镜、亚断层图平均和分子建模，确定了细胞内ERMES的分子组织。ERMES组装成约25个离散的桥状复合物，不规则地分布在接触位点上。每个桥由三个以锯齿状排列的脂质结合SMP结构域组成。我们的ERMES分子模型揭示了一种非常规的受限脂质转运途径。这些发现解析了控制细胞器间脂质通量的超分子结构。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.12.488000",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.12.488000",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.12.488000/index.html"
+}

@@ -1,0 +1,305 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.06.01.729380",
+  "title": "Sequence charge decoration organizes salt response regimes in intrinsically disordered proteins: an interpretable machine-learning study",
+  "doi": "10.64898/2026.06.01.729380",
+  "abstract": "The conformational ensembles of intrinsically disordered proteins (IDPs) respond sensitively to ionic strength, with the direction and magnitude of response varying widely across sequence classes from polyelectrolyte contraction to polyampholyte swelling. Recent sequence-conditioned models provide rapid access to full ensembles or ensemble-averaged properties at specified solution conditions, but do not directly identify which low-dimensional polymer physics descriptors organize salt response behavior. Here, we construct a 511-sequence library spanning controlled κ -variants, NCPR series, IDRome-stratified natural IDRs, and low-FCR IDRome sequences, and perform 2,555 CALVADOS-2 simulations across five monovalent salt concentrations (50 mM to 500 mM). For each sequence, we extract the salt-response slope, d R g / d[salt], and assign one of four regimes: polyelectrolyte contraction, polyampholyte swelling, non-monotonic response, or salt-insensitive behavior. Using eight theory-motivated sequence descriptors, we find that sequence charge decoration weighted by chain length, SCD × N , is the dominant coordinate organizing salt response, accounting for ~40% of total SHAP attribution and exceeding the next feature by more than twice. Ridge regression explains substantial in-distribution variance ( R 2 = 0.83 under random cross-validation), whereas gradient-boosted trees improve in-distribution performance ( R 2 = 0.97) and retain predictive power under the more stringent leave-one-subset-out validation test ( R 2 = 0.60), indicating that salt response contains transferable but nonlinear sequence-encoded structure. Regime classification robustly recovers the direction of salt response, with no polyelectrolyte–polyampholyte confusion, whereas non-monotonic and salt-insensitive sequences remain harder to distinguish from static sequence features alone. Together, these results establish SCD × N as a compact, interpretable organizing coordinate for CALVADOS-2-derived IDP salt response and provide a polymer-physics, feature-level complement to ensemble-level generative models.",
+  "authors": [
+    "Mahesh Aryal"
+  ],
+  "published_date": "2026-06-04",
+  "updated_date": "2026-06-05T00:05:21Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.06.01.729380",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.01.729380.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            22
+          ]
+        ],
+        "date-time": "2026-07-22T15:05:57Z",
+        "timestamp": 1784732757389,
+        "version": "3.55.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 25,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                4
+              ]
+            ],
+            "date-time": "2026-06-04T00:00:00Z",
+            "timestamp": 1780531200000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The conformational ensembles of intrinsically disordered proteins (IDPs) respond sensitively to ionic strength, with the direction and magnitude of response varying widely across sequence classes from polyelectrolyte contraction to polyampholyte swelling. Recent sequence-conditioned models provide rapid access to full ensembles or ensemble-averaged properties at specified solution conditions, but do not directly identify which low-dimensional polymer physics descriptors organize salt response behavior. Here, we construct a 511-sequence library spanning controlled\n                  <jats:italic>κ</jats:italic>\n                  -variants, NCPR series, IDRome-stratified natural IDRs, and low-FCR IDRome sequences, and perform 2,555 CALVADOS-2 simulations across five monovalent salt concentrations (50 mM to 500 mM). For each sequence, we extract the salt-response slope, d\n                  <jats:italic>R</jats:italic>\n                  <jats:sub>g</jats:sub>\n                  <jats:italic>/</jats:italic>\n                  d[salt], and assign one of four regimes: polyelectrolyte contraction, polyampholyte swelling, non-monotonic response, or salt-insensitive behavior. Using eight theory-motivated sequence descriptors, we find that sequence charge decoration weighted by chain length, SCD ×\n                  <jats:italic>N</jats:italic>\n                  , is the dominant coordinate organizing salt response, accounting for ~40% of total SHAP attribution and exceeding the next feature by more than twice. Ridge regression explains substantial in-distribution variance (\n                  <jats:italic>R</jats:italic>\n                  <jats:sup>2</jats:sup>\n                  = 0.83 under random cross-validation), whereas gradient-boosted trees improve in-distribution performance (\n                  <jats:italic>R</jats:italic>\n                  <jats:sup>2</jats:sup>\n                  = 0.97) and retain predictive power under the more stringent leave-one-subset-out validation test (\n                  <jats:italic>R</jats:italic>\n                  <jats:sup>2</jats:sup>\n                  = 0.60), indicating that salt response contains transferable but nonlinear sequence-encoded structure. Regime classification robustly recovers the direction of salt response, with no polyelectrolyte–polyampholyte confusion, whereas non-monotonic and salt-insensitive sequences remain harder to distinguish from static sequence features alone. Together, these results establish SCD ×\n                  <jats:italic>N</jats:italic>\n                  as a compact, interpretable organizing coordinate for CALVADOS-2-derived IDP salt response and provide a polymer-physics, feature-level complement to ensemble-level generative models.\n                </jats:p>",
+      "DOI": "10.64898/2026.06.01.729380",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            5
+          ]
+        ],
+        "date-time": "2026-06-05T00:05:21Z",
+        "timestamp": 1780617921000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Sequence charge decoration organizes salt response regimes in intrinsically disordered proteins: an interpretable machine-learning study"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1640-2680",
+          "authenticated-orcid": false,
+          "given": "Mahesh",
+          "family": "Aryal",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Department of Physics, North Dakota State University, Fargo, ND, 58102"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.1740347"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.2",
+          "unstructured": "Pierre-Gilles de Gennes . Scaling Concepts in Polymer Physics. Cornell University Press, Ithaca, NY, 1979."
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.3",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Michael Rubinstein and Ralph H. Colby . Polymer Physics. Oxford University Press, New York, 2003.",
+          "DOI": "10.1093/oso/9780198520597.001.0001"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ma00110a021"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/5.0312584"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr400525m"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1001743107"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.4c00312"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/syst.202100051"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2018.01.011"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1103/PhysRevLett.117.178101"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1705105114"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2022.05.018"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.460012"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1304749110"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.4929391"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.5037727"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpclett.1c01607"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-07004-5"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-023-02159-5"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-026-10141-2"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2016.11.3200"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0022-2836(82)90515-0"
+        },
+        {
+          "key": "2026072207400670000_2026.06.01.729380v2.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.12688/openreseurope.14967.2"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.06.01.729380",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            22
+          ]
+        ],
+        "date-time": "2026-07-22T14:40:17Z",
+        "timestamp": 1784731217000
+      },
+      "score": 89.655136,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.06.01.729380"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ]
+      },
+      "references-count": 25,
+      "URL": "https://doi.org/10.64898/2026.06.01.729380",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            4
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

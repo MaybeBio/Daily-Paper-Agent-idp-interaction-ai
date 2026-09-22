@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that the RGG-box of hnRNPA1, a low-complexity domain, acts as a "catalyst" in UP1-induced destabilization of RNA and DNA telomeric G-quadruplexes, based on replica exchange simulations and binding studies
+- **Visible evidence base** Abstract text only; no experimental data, simulation details, or statistical analyses are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, experimental protocols, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents an interesting hypothesis regarding the role of the hnRNPA1 RGG-box in telomeric G-quadruplex destabilization, supported by computational and binding studies. However, the evidence base is severely limited by the absence of the full manuscript, making it impossible to evaluate the technical soundness of the simulations, the statistical significance of the findings, or the validity of the "catalyst" claim. The work has potential relevance to telomere biology and RNA metabolism, but the current abstract alone does not establish the case.
+- **Who would be interested in the results, and why** Researchers in telomere biology, RNA-binding protein function, G-quadruplex structure and dynamics, and intrinsically disordered protein behavior would find these results relevant. The proposed mechanism of RGG-box-mediated destabilization could inform therapeutic strategies targeting telomeres or G-quadruplex-associated diseases.
+- **Major strengths** The abstract addresses a biologically significant question about the functional role of a low-complexity domain in a key RNA-binding protein. The use of an in-house replica exchange technique to model the heterogeneous ensemble of the RGG-box is a novel methodological approach. The claim of consistency with experimental HSQC data provides a potential bridge between computation and experiment.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The abstract claims that the RGG-box "preferentially binds to the grooves and loops of GQs providing specificity towards certain GQ structures" and that "a minor population of the RGG-box can destabilize telomeric GQs"  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The abstract provides no quantitative details on the simulation methodology, force fields, sampling convergence, or binding free energies. The claim of preferential binding and destabilization is presented without any statistical measures or comparison to experimental binding affinities.  
+  - **Why it matters** Without evidence of simulation convergence and validation, the structural and dynamic conclusions cannot be assessed for reliability. The "catalyst" claim implies a kinetic or thermodynamic effect that requires quantitative support.  
+  - **Resolution test** Provide simulation convergence metrics, error bars on binding energies, and a direct comparison of predicted binding residues with experimental mutagenesis or HSQC data in the full manuscript.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The abstract states that the RGG-box "expedites the unfolding activities of hnRNPA1-UP1 at the telomeric end"  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The functional significance of the RGG-box in UP1-induced destabilization is asserted, but no experimental validation (e.g., activity assays, mutational studies) is described. The abstract does not clarify whether the "catalyst" role is demonstrated in vitro or only inferred from simulations.  
+  - **Why it matters** The central claim of the manuscript hinges on this functional assertion. Without experimental corroboration, the biological relevance remains speculative.  
+  - **Resolution test** Include experimental data showing that RGG-box deletion or mutation alters UP1-mediated GQ unfolding rates, with appropriate controls and statistical analysis.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interdisciplinary readership  
+  - **Claim pointer** The abstract introduces a "protocol to generate functionally significant IDP-nucleic acid complex structures"  
+  - **Evidence pointer** Abstract text; location not provided  
+  - **Concern** The protocol is mentioned but not described in sufficient detail for reproducibility or assessment. The abstract does not specify how this protocol differs from existing methods or what its limitations are.  
+  - **Why it matters** For a broad readership, the methodological novelty must be clearly articulated and validated. Without details, the claim of a new protocol cannot be evaluated.  
+  - **Resolution test** Provide a step-by-step description of the protocol, validation against known complex structures, and a discussion of its applicability and limitations in the full manuscript.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The term "catalyst" is used in quotes but not defined in the context of GQ destabilization. This could confuse readers unfamiliar with the mechanistic nuance.  
+  - **Required correction** Define "catalyst" explicitly in the abstract, clarifying whether it refers to a kinetic acceleration or a thermodynamic effect.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract mentions "single chain statistics and abundance of structural motifs" but does not specify which metrics were used or how they were compared to experimental data.  
+  - **Required correction** List the specific metrics and the experimental datasets used for validation in the abstract or refer to a figure that presents this comparison.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract does not state whether the findings apply to both RNA and DNA telomeric GQs, despite the title mentioning both.  
+  - **Required correction** Clarify whether the observed binding and destabilization effects are similar for RNA and DNA GQs or if there are differences.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of simulation validation and experimental corroboration for the central claims prevents the case from being established from the provided evidence.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The idea of an RGG-box acting as a "catalyst" in GQ destabilization is novel and could be of interest, but the abstract does not provide enough context to distinguish it from prior work on hnRNPA1 and GQs.  
+  - **Scientific importance** The potential implications for telomere maintenance and RNA metabolism are significant, but the importance is not fully demonstrated without experimental support.  
+  - **Interdisciplinary readership** The topic bridges biophysics, molecular biology, and computational biology, but the abstract is too technical in places and lacks clear explanations for a broad audience.  
+  - **Technical soundness** Not assessable from the abstract alone; the simulation methodology and binding studies require full scrutiny.  
+  - **Readability for nonspecialists** The abstract is dense and assumes familiarity with GQ structures, IDPs, and simulation techniques, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis and a novel computational approach, but the absence of the full manuscript and experimental validation means the central claims cannot be evaluated. I would be supportive if the technical concerns are resolved and experimental corroboration is provided.
+
+## Risk / unsupported claims
+- The claim that the RGG-box acts as a "catalyst" in UP1-induced destabilization is unsupported without kinetic or thermodynamic data.
+- The claim of preferential binding to specific GQ structures is unsupported without quantitative binding data or comparison to experimental affinities.
+- The claim that the RGG-box "expedites" UP1 unfolding activities is unsupported without experimental activity assays.
+- The consistency with HSQC data is mentioned but not verifiable from the abstract alone.
+- The novelty and validity of the "protocol to generate functionally significant IDP-nucleic acid complex structures" cannot be assessed without methodological details.

@@ -1,0 +1,512 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.10.28.685054",
+  "title": "Regulation of cell proliferation by a novel feedback system on Cdk function",
+  "doi": "10.1101/2025.10.28.685054",
+  "abstract": "The proliferation of eukaryotic cells is regulated by a complex network of regulatory systems that promotes efficient cell cycle progression and ensures proper responses to the environment. Despite this complexity, the core inputs that are necessary and sufficient for robust alternation of DNA replication and mitosis are surprisingly simpler than anticipated. Indeed, fission yeast cells operating with an engineered minimal cell cycle network that lacks the highly conserved Wee1+Cdc25 feedback loops on Cdk1 function are viable, although slow growing. This provides a unique entry for evaluating how such simplified cells can evolve and improve their proliferation potential while exploring unknown mechanisms modulating cell cycle progression. Taking advantage of this model, we applied laboratory evolution assays to minimal fission yeast backgrounds and selected for the emergence of faster growing populations. We found that loss of the small disordered protein Spo12 brings about enhanced population growth in cells lacking the Wee1+Cdc25 mitotic switch. Importantly, we demonstrate that Spo12 defines a new and conserved family of inhibitors of the Cdk-counteracting phosphatase PP2A that are directly regulated by Cdk-dependent phosphorylation. Our results also reveal a trade-off associated with Spo12-dependent regulation, which may have implications for our understanding of the principles underlying the evolution of cell cycle control. Finally, our study highlights how combining simplified circuits with experimental evolution allows for uncovering regulatory elements that may be obscured by network complexity.",
+  "authors": [
+    "Ryan JC",
+    "Leray B",
+    "Jain A",
+    "Coehlo N",
+    "Domingo-Sananes MR",
+    "Aspert T",
+    "Charvin G",
+    "Krockenberger MS",
+    "Chica Blaguera N",
+    "Lopez Aviles S",
+    "Takacs L",
+    "Uhlmann F",
+    "Yang L",
+    "Yue J",
+    "Liti G",
+    "Cochard V",
+    "Chevreux G",
+    "Sugiyama H",
+    "Goto Y",
+    "Aoki K",
+    "Wu PJ",
+    "Mackereth C",
+    "Tyson J",
+    "Novák B",
+    "Coudreuse D"
+  ],
+  "published_date": "2025-10-29",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.10.28.685054",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.10.28.685054.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1109732",
+    "raw_record": {
+      "id": "PPR1109732",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1109732"
+        ]
+      },
+      "doi": "10.1101/2025.10.28.685054",
+      "title": "Regulation of cell proliferation by a novel feedback system on Cdk function",
+      "authorString": "Ryan JC, Leray B, Jain A, Coehlo N, Domingo-Sananes MR, Aspert T, Charvin G, Krockenberger MS, Chica Blaguera N, Lopez Aviles S, Takacs L, Uhlmann F, Yang L, Yue J, Liti G, Cochard V, Chevreux G, Sugiyama H, Goto Y, Aoki K, Wu PJ, Mackereth C, Tyson J, Novák B, Coudreuse D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ryan JC",
+            "lastName": "Ryan",
+            "firstName": "Joseph",
+            "initials": "JC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Cellular Genetics, UMR 5095, ,"
+                },
+                {
+                  "affiliation": ", UMR 6290, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Leray B",
+            "lastName": "Leray",
+            "firstName": "Baptiste",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Cellular Genetics, UMR 5095, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jain A",
+            "lastName": "Jain",
+            "firstName": "Akanksha",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9299-1248"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Cellular Genetics, UMR 5095, ,"
+                },
+                {
+                  "affiliation": ", UMR 6290, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Coehlo N",
+            "lastName": "Coehlo",
+            "firstName": "Nelson",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", UMR 6290, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Domingo-Sananes MR",
+            "lastName": "Domingo-Sananes",
+            "firstName": "Maria Rosa",
+            "initials": "MR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", UMR 6290, ,"
+                },
+                {
+                  "affiliation": "Department of Biosciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aspert T",
+            "lastName": "Aspert",
+            "firstName": "Theo",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2957-0683"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UMR 7156, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Charvin G",
+            "lastName": "Charvin",
+            "firstName": "Gilles",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UMR 7156, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Krockenberger MS",
+            "lastName": "Krockenberger",
+            "firstName": "Matthias Simoes",
+            "initials": "MS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosciences, Faculty of Mathematics and Natural Sciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chica Blaguera N",
+            "lastName": "Chica Blaguera",
+            "firstName": "Nathalia",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosciences, Faculty of Mathematics and Natural Sciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lopez Aviles S",
+            "lastName": "Lopez Aviles",
+            "firstName": "Sandra",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biosciences, Faculty of Mathematics and Natural Sciences, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Takacs L",
+            "lastName": "Takacs",
+            "firstName": "Luca",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Chromosome Segregation Laboratory, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Uhlmann F",
+            "lastName": "Uhlmann",
+            "firstName": "Frank",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Chromosome Segregation Laboratory, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang L",
+            "lastName": "Yang",
+            "firstName": "Ludong",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Guangdong Key Laboratory of Nasopharyngeal Carcinoma Diagnosis and Therapy, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yue J",
+            "lastName": "Yue",
+            "firstName": "Jia-Xing",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Guangdong Key Laboratory of Nasopharyngeal Carcinoma Diagnosis and Therapy, Guangdong Provincial Clinical Research Center for Cancer, Sun Yat-sen University Cancer Center, ,"
+                },
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liti G",
+            "lastName": "Liti",
+            "firstName": "Gianni",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cochard V",
+            "lastName": "Cochard",
+            "firstName": "Victor",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chevreux G",
+            "lastName": "Chevreux",
+            "firstName": "Guillaume",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sugiyama H",
+            "lastName": "Sugiyama",
+            "firstName": "Hironori",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": ", Ookayama, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goto Y",
+            "lastName": "Goto",
+            "firstName": "Yuhei",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Graduate School of Biostudies, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aoki K",
+            "lastName": "Aoki",
+            "firstName": "Kazuhiro",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Graduate School of Biostudies, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu PJ",
+            "lastName": "Wu",
+            "firstName": "Pei-Yun Jenny",
+            "initials": "PJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Cellular Genetics, UMR 5095, ,"
+                },
+                {
+                  "affiliation": ", UMR 6290, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mackereth C",
+            "lastName": "Mackereth",
+            "firstName": "Cameron",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", U1212, UMR 5320, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tyson J",
+            "lastName": "Tyson",
+            "firstName": "John",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Novák B",
+            "lastName": "Novák",
+            "firstName": "Béla",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Coudreuse D",
+            "lastName": "Coudreuse",
+            "firstName": "Damien",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry and Cellular Genetics, UMR 5095, ,"
+                },
+                {
+                  "affiliation": ", UMR 6290, ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8331-5889"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9299-1248"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2957-0683"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The proliferation of eukaryotic cells is regulated by a complex network of regulatory systems that promotes efficient cell cycle progression and ensures proper responses to the environment. Despite this complexity, the core inputs that are necessary and sufficient for robust alternation of DNA replication and mitosis are surprisingly simpler than anticipated. Indeed, fission yeast cells operating with an engineered minimal cell cycle network that lacks the highly conserved Wee1+Cdc25 feedback loops on Cdk1 function are viable, although slow growing. This provides a unique entry for evaluating how such simplified cells can evolve and improve their proliferation potential while exploring unknown mechanisms modulating cell cycle progression. Taking advantage of this model, we applied laboratory evolution assays to minimal fission yeast backgrounds and selected for the emergence of faster growing populations. We found that loss of the small disordered protein Spo12 brings about enhanced population growth in cells lacking the Wee1+Cdc25 mitotic switch. Importantly, we demonstrate that Spo12 defines a new and conserved family of inhibitors of the Cdk-counteracting phosphatase PP2A that are directly regulated by Cdk-dependent phosphorylation. Our results also reveal a trade-off associated with Spo12-dependent regulation, which may have implications for our understanding of the principles underlying the evolution of cell cycle control. Finally, our study highlights how combining simplified circuits with experimental evolution allows for uncovering regulatory elements that may be obscured by network complexity.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.10.28.685054"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1109732"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1109732&type=FILE&fileName=EMS210168-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS210168",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "alphafold",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-10-30",
+      "firstPublicationDate": "2025-10-29",
+      "firstIndexDate": "2025-10-30",
+      "fullTextReceivedDate": "2025-11-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

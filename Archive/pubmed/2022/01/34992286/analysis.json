@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34992286",
+  "title": "Release of linker histone from the nucleosome driven by polyelectrolyte competition with a disordered protein.",
+  "authors": "Heidarsson, Petur O; Mercadante, Davide; Sottini, Andrea; Nettels, Daniel; Borgia, Madeleine B; Borgia, Alessandro; Kilic, Sinan; Fierz, Beat; Best, Robert B; Schuler, Benjamin",
+  "journal": "Nature chemistry",
+  "published_date": "2022-01-08",
+  "window": {
+    "start": "2022-01-03",
+    "end": "2022-01-09"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究通过实验与模拟结合，揭示无序组蛋白伴侣prothymosin alpha利用H1无序区域的大幅动态，以聚电解质竞争机制置换核小体上的H1，建立了无序蛋白介导PPI置换动力学的分子模型，高度契合无序蛋白互作机制建模主题。",
+  "abstract": "Highly charged intrinsically disordered proteins are essential regulators of chromatin structure and transcriptional activity. Here we identify a surprising mechanism of molecular competition that relies on the pronounced dynamical disorder present in these polyelectrolytes and their complexes. The highly positively charged human linker histone H1.0 (H1) binds to nucleosomes with ultrahigh affinity, implying residence times incompatible with efficient biological regulation. However, we show that the disordered regions of H1 retain their large-amplitude dynamics when bound to the nucleosome, which enables the highly negatively charged and disordered histone chaperone prothymosin alpha to efficiently invade the H1-nucleosome complex and displace H1 via a competitive substitution mechanism, vastly accelerating H1 dissociation. By integrating experiments and simulations, we establish a molecular model that rationalizes the remarkable kinetics of this process structurally and dynamically. Given the abundance of polyelectrolyte sequences in the nuclear proteome, this mechanism is likely to be widespread in cellular regulation.",
+  "abstract_zh": "高电荷的内在无序蛋白是染色质结构和转录活性的关键调控因子。在此，我们揭示了一种令人惊讶的分子竞争机制，该机制依赖于这些聚电解质及其复合物中显著的动态无序性。高度正电荷的人源连接组蛋白H1.0（H1）以超高亲和力结合核小体，这意味着其停留时间与高效生物调控不相容。然而，我们表明，H1的无序区域在结合核小体时仍保持其大幅度动态，这使得高度负电荷且无序的组蛋白伴侣前胸腺素α能够通过竞争性替换机制有效侵入H1-核小体复合物并置换H1，从而极大加速H1的解离。通过整合实验与模拟，我们建立了一个分子模型，从结构和动态角度合理化了这一过程的显著动力学特性。鉴于核蛋白质组中聚电解质序列的丰富性，这一机制可能在细胞调控中广泛存在。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34992286/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34992286/",
+  "paper_page_path": "papers/pubmed/34992286/index.html"
+}

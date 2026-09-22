@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report atomistic simulations of polyuracil and polylysine mixtures across varying stoichiometries and temperatures, identifying reentrant phase transitions driven by hydration, ion condensation, and RNA–polylysine hydrogen bonding. They report that reentrant transitions are accompanied by phosphate desolvation and increased phosphate–lysine contacts, that RNA-rich low-temperature systems exhibit pi-stacking and hydrogen bond percolation, and that the OPC water model outperforms TIP4P-2005 and TIP4P-D in capturing these phenomena.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or methodological descriptions provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, system sizes, equilibration procedures, phase diagram definitions, error analysis, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study of reentrant phase transitions in a model protein–RNA system. The topic is timely given the growing interest in biomolecular condensates. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the simulations, the robustness of the phase transition characterization, or the validity of the force field comparison. Several claims are stated without quantitative support, and the generalizability statement extends beyond what can be justified from the described scope.
+- **Who would be interested in the results, and why** Researchers studying biomolecular phase separation, particularly those focused on protein–RNA condensates, computational biophysicists interested in force field performance for intrinsically disordered systems, and experimentalists seeking molecular-level mechanisms for reentrant phase behavior in polyelectrolyte mixtures.
+- **Major strengths** The study addresses a mechanistically important and experimentally observed phenomenon, namely reentrant phase transitions in peptide–RNA mixtures. The use of atomistic simulations to probe microscopic driving forces is appropriate and potentially valuable. The systematic comparison of three water models is a useful contribution if properly executed. The identification of percolation in RNA-rich systems as a distinct structural feature is an interesting hypothesis.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that their simulations "reveal an intricate interplay between hydration, ion condensation, and specific RNA–polylysine hydrogen bonding, resulting in distinct stoichiometry-dependent phase equilibria governing stabilities and structures of the condensate phase."
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** The abstract provides no quantitative evidence for phase equilibria, such as density profiles, order parameters, free energy calculations, or finite-size scaling analyses. The claim of "distinct stoichiometry-dependent phase equilibria" requires demonstration that the observed states are true equilibrium phases rather than kinetically trapped or finite-size artifacts. No simulation timescales, system sizes, or convergence criteria are reported.
+  - **Why it matters** Phase transition characterization in simulations is notoriously sensitive to system size, sampling time, and initial conditions. Without evidence of equilibration and convergence, the central claim of reentrant phase transitions cannot be evaluated. This is the foundational claim of the paper.
+  - **Resolution test** Provide phase diagrams with clear definitions of phase boundaries, demonstrate equilibration through time series of relevant order parameters, and show system size dependence or use appropriate finite-size scaling methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "OPC provided a superior balance of interactions, enabling effective capture of reentrant transitions and accurate characterization of changes in solvent reorganization."
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** The abstract states a comparative assessment of three water models but provides no criteria for "superior balance" or "accurate characterization." No quantitative metrics, such as comparison to experimental phase boundaries, transferability across stoichiometries, or statistical measures of fit, are given. The claim of superiority is therefore unsupported.
+  - **Why it matters** Force field comparisons are only meaningful if the evaluation criteria are explicit and the comparison is fair, including identical simulation protocols and sufficient sampling for each model. Without this, the conclusion about OPC is not actionable for the community.
+  - **Resolution test** Define quantitative success metrics, such as reproduction of experimental critical temperatures or correct ordering of phase boundaries, and show that all models were tested under identical conditions with adequate sampling.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state, "We believe that our results are broadly applicable to larger classes of peptide–RNA mixtures exhibiting reentrant phase transitions."
+  - **Evidence pointer** Abstract, no specific section or figure provided
+  - **Concern** The study uses a single RNA homopolymer (polyuracil) and a single peptide (polylysine). The abstract provides no evidence that the mechanisms identified, such as phosphate desolvation or pi-stacking percolation, are general across different sequences, chain lengths, or salt conditions. The generalizability claim is speculative.
+  - **Why it matters** Overstating generalizability can mislead readers into assuming the mechanisms apply beyond the tested system. This is particularly important given the known sequence dependence of RNA–protein interactions.
+  - **Resolution test** Either temper the claim to the specific system studied or provide additional simulations with varied sequences or conditions to support generality.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract, terminology
+  - **Evidence pointer** Abstract, "reentrant phase transitions"
+  - **Issue** The term "reentrant" is used without definition. Nonspecialist readers may not be familiar with the concept of closed-loop phase diagrams with lower and upper critical solution temperatures.
+  - **Required correction** Add a brief parenthetical definition, such as "reentrant, meaning the system transitions from single-phase to two-phase and back to single-phase as a control parameter is varied."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract, simulation details
+  - **Evidence pointer** Abstract, "atomistic simulations"
+  - **Issue** The abstract does not specify the simulation method, such as molecular dynamics or Monte Carlo, nor the temperature range and salt concentration used. This limits the reader's ability to assess the relevance of the conditions to experimental systems.
+  - **Required correction** Include the simulation method, temperature range, and ionic conditions in the abstract or refer to a methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract, percolation claim
+  - **Evidence pointer** Abstract, "RNA molecules can form an extensive pi-stacking and hydrogen bond network, leading to percolation"
+  - **Issue** The term "percolation" is used without defining the threshold or the property that percolates, such as a connected cluster of RNA molecules. This is a technical term that may be ambiguous.
+  - **Required correction** Define percolation in this context, for example, "percolation, meaning the formation of a system-spanning network of RNA molecules."
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of phase equilibria and force field superiority cannot be evaluated from the abstract alone. R1-M3 is non-blocking but requires tempering or additional evidence.
+- **Assessment against Nature-style criteria** 
+  - Originality: The topic is of current interest, and the specific focus on reentrant transitions in RNA–peptide mixtures is not entirely novel given prior experimental work, but the atomistic simulation approach may offer new mechanistic insight. Originality cannot be fully assessed without the full manuscript.
+  - Scientific importance: The phenomenon of reentrant phase transitions in biomolecular condensates is important for understanding cellular organization. However, the abstract does not demonstrate that the findings extend beyond the specific model system, limiting the immediate importance.
+  - Interdisciplinary readership: The work bridges biophysics, physical chemistry, and cell biology. The abstract is accessible to these communities, though the lack of definitions for technical terms may hinder broader readership.
+  - Technical soundness: Not assessable from the abstract. The absence of simulation details, convergence criteria, and quantitative metrics is a major limitation.
+  - Readability for nonspecialists: The abstract is generally clear but uses technical terms without definition, which could be improved.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses but lacks the quantitative and methodological detail required to support the central claims. A full manuscript with rigorous simulation analysis and explicit force field comparison criteria would be needed to assess whether the case is made.
+
+## Risk / unsupported claims
+- The claim of "distinct stoichiometry-dependent phase equilibria" is unsupported without phase diagram data or equilibrium demonstration.
+- The claim that OPC is "superior" is unsupported without defined metrics or comparison to experimental data.
+- The claim of "broad applicability" to larger classes of peptide–RNA mixtures is speculative and not supported by the described scope.
+- The claim that reentrant transitions are "accompanied by desolvation around the phosphate groups" is plausible but not quantitatively supported in the abstract.
+- The claim of "percolation" in RNA-rich systems is not defined or evidenced.

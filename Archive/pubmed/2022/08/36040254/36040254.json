@@ -1,0 +1,378 @@
+{
+  "identity": {
+    "pmid": "36040254",
+    "doi": "10.1002/pro.4387",
+    "title": "Molecular architecture of nucleosome remodeling and deacetylase sub-complexes by integrative structure determination."
+  },
+  "content": {
+    "abstract": "The nucleosome remodeling and deacetylase (NuRD) complex is a chromatin-modifying assembly that regulates gene expression and DNA damage repair. Despite its importance, limited structural information describing the complete NuRD complex is available and a detailed understanding of its mechanism is therefore lacking. Drawing on information from SEC-MALLS, DIA-MS, XLMS, negative-stain EM, X-ray crystallography, NMR spectroscopy, secondary structure predictions, and homology models, we applied Bayesian integrative structure determination to investigate the molecular architecture of three NuRD sub-complexes: MTA1-HDAC1-RBBP4, MTA1(N) -HDAC1-MBD3(GATAD2CC) , and MTA1-HDAC1-RBBP4-MBD3-GATAD2A [nucleosome deacetylase (NuDe)]. The integrative structures were corroborated by examining independent crosslinks, cryo-EM maps, biochemical assays, known cancer-associated mutations, and structure predictions from AlphaFold. The robustness of the models was assessed by jack-knifing. Localization of the full-length MBD3, which connects the deacetylase and chromatin remodeling modules in NuRD, has not previously been possible; our models indicate two different locations for MBD3, suggesting a mechanism by which MBD3 in the presence of GATAD2A asymmetrically bridges the two modules in NuRD. Further, our models uncovered three previously unrecognized subunit interfaces in NuDe: HDAC1(C) -MTA1(BAH) , MTA1(BAH) -MBD3(MBD) , and HDAC1(60-100) -MBD3(MBD) . Our approach also allowed us to localize regions of unknown structure, such as HDAC1(C) and MBD3(IDR) , thereby resulting in the most complete and robustly cross-validated structural characterization of these NuRD sub-complexes so far.",
+    "keywords": [
+      "Bayesian integrative structure determination",
+      "XLMS",
+      "chromatin remodeling complexes",
+      "cryo-EM",
+      "histone modification",
+      "integrative modeling",
+      "nucleosome remodeling and deacetylase complex"
+    ],
+    "mesh_terms": [
+      "Bayes Theorem",
+      "Chromatin Assembly and Disassembly",
+      "Histone Deacetylases/chemistry",
+      "*Mi-2 Nucleosome Remodeling and Deacetylase Complex/genetics/metabolism",
+      "*Nucleosomes"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Arvindekar, Shreyas",
+        "Jackman, Matthew J",
+        "Low, Jason K K",
+        "Landsberg, Michael J",
+        "Mackay, Joel P",
+        "Viswanath, Shruthi"
+      ],
+      "short_names": [
+        "Arvindekar S",
+        "Jackman MJ",
+        "Low JKK",
+        "Landsberg MJ",
+        "Mackay JP",
+        "Viswanath S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9945-8534",
+        "ORCID: 0000-0001-7464-5694",
+        "ORCID: 0000-0003-0862-0012",
+        "ORCID: 0000-0002-2464-990X",
+        "ORCID: 0000-0001-7508-8033",
+        "ORCID: 0000-0002-9061-8407"
+      ],
+      "affiliations": [
+        "National Centre for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India.",
+        "School of Chemistry and Molecular Biosciences, University of Queensland, Brisbane, Queensland, Australia.",
+        "School of Life and Environmental Sciences, University of Sydney, Sydney, New South Wales, Australia.",
+        "School of Chemistry and Molecular Biosciences, University of Queensland, Brisbane, Queensland, Australia.",
+        "School of Life and Environmental Sciences, University of Sydney, Sydney, New South Wales, Australia.",
+        "National Centre for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Arvindekar, Shreyas",
+        "short_name": "Arvindekar S",
+        "identifiers": [
+          "0000-0002-9945-8534"
+        ],
+        "affiliations": [
+          "National Centre for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India."
+        ]
+      },
+      {
+        "full_name": "Jackman, Matthew J",
+        "short_name": "Jackman MJ",
+        "identifiers": [
+          "0000-0001-7464-5694"
+        ],
+        "affiliations": [
+          "School of Chemistry and Molecular Biosciences, University of Queensland, Brisbane, Queensland, Australia."
+        ]
+      },
+      {
+        "full_name": "Low, Jason K K",
+        "short_name": "Low JKK",
+        "identifiers": [
+          "0000-0003-0862-0012"
+        ],
+        "affiliations": [
+          "School of Life and Environmental Sciences, University of Sydney, Sydney, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Landsberg, Michael J",
+        "short_name": "Landsberg MJ",
+        "identifiers": [
+          "0000-0002-2464-990X"
+        ],
+        "affiliations": [
+          "School of Chemistry and Molecular Biosciences, University of Queensland, Brisbane, Queensland, Australia."
+        ]
+      },
+      {
+        "full_name": "Mackay, Joel P",
+        "short_name": "Mackay JP",
+        "identifiers": [
+          "0000-0001-7508-8033"
+        ],
+        "affiliations": [
+          "School of Life and Environmental Sciences, University of Sydney, Sydney, New South Wales, Australia."
+        ]
+      },
+      {
+        "full_name": "Viswanath, Shruthi",
+        "short_name": "Viswanath S",
+        "identifiers": [
+          "0000-0002-9061-8407"
+        ],
+        "affiliations": [
+          "National Centre for Biological Sciences, Tata Institute of Fundamental Research, Bangalore, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/31 06:00",
+    "fetched_at": "2026-09-20 12:57:36"
+  },
+  "links": {
+    "cites": [
+      "42539326",
+      "41890122",
+      "41559100",
+      "40350613",
+      "39944881",
+      "39763873",
+      "39674890",
+      "39607926",
+      "39553940",
+      "39548826",
+      "39116123",
+      "38391029",
+      "38168172",
+      "38078006",
+      "37552759",
+      "37398295"
+    ],
+    "refs": [
+      "34265844",
+      "34137435",
+      "33283408",
+      "33264611",
+      "33264408",
+      "33166013",
+      "32881101",
+      "32543371",
+      "32239688",
+      "32034103",
+      "31396911",
+      "31396263",
+      "31150619",
+      "31036553",
+      "30980593",
+      "30393052",
+      "30327463",
+      "30008319",
+      "29539637",
+      "29211988",
+      "28960548",
+      "28814505",
+      "28645917",
+      "28165473",
+      "28094816",
+      "27117189",
+      "27098840",
+      "25753662",
+      "25173450",
+      "25161197",
+      "25123934",
+      "24920672",
+      "24880148",
+      "24307175",
+      "23791785",
+      "23293282",
+      "23066101",
+      "22272186",
+      "21490301",
+      "21047798",
+      "20805320",
+      "20523938",
+      "20505336",
+      "19116762",
+      "18451107",
+      "18438403",
+      "18046405",
+      "17694084",
+      "16581798",
+      "16462733",
+      "16428440",
+      "16421597",
+      "16002620",
+      "15920470",
+      "15264254",
+      "11602581",
+      "11093259",
+      "10444591",
+      "9303001"
+    ],
+    "similar": [
+      "36040254",
+      "25123934",
+      "27098840",
+      "24920672",
+      "27117189",
+      "25796366",
+      "28179136",
+      "15701600",
+      "33264408",
+      "27144666",
+      "27235397",
+      "31519689",
+      "10444591",
+      "37552759",
+      "23352453",
+      "24385926",
+      "25601084",
+      "40966515",
+      "30122475",
+      "30668141",
+      "30327463",
+      "37385984",
+      "25934499",
+      "23014989",
+      "29635894",
+      "37190088",
+      "20585571",
+      "36722816",
+      "16428440",
+      "37938928",
+      "15456747",
+      "32543371",
+      "33264611",
+      "23658227",
+      "32501215",
+      "36861403",
+      "12124384",
+      "33283408",
+      "18644863",
+      "40715296",
+      "35915078",
+      "36037972",
+      "19686092",
+      "26411677",
+      "31004025",
+      "25825869",
+      "20505336",
+      "19810103",
+      "37488358",
+      "12920132",
+      "30228260",
+      "17708683",
+      "12596911",
+      "25352341",
+      "9885572",
+      "11410659",
+      "12354758",
+      "37181331",
+      "19864643",
+      "24835571",
+      "26714524",
+      "19198625",
+      "17287250",
+      "22575888",
+      "25447541",
+      "30045876",
+      "30980593",
+      "23340908",
+      "25190814",
+      "35323946",
+      "22196727",
+      "21278251",
+      "25123281",
+      "30828972",
+      "31626804",
+      "25205035",
+      "21196933",
+      "28528697",
+      "38790189",
+      "24880148",
+      "25753672",
+      "28899870",
+      "21617866",
+      "38676947",
+      "40733539",
+      "35362730",
+      "29063705",
+      "27105116",
+      "41499431",
+      "26981404",
+      "22302795",
+      "27732854",
+      "31123059",
+      "10840944",
+      "34231305",
+      "22570494",
+      "18500823",
+      "33946340",
+      "23533168",
+      "30409903"
+    ],
+    "review": [
+      "36040254",
+      "25123934",
+      "25796366",
+      "37190088",
+      "20505336",
+      "12596911",
+      "25352341",
+      "23340908",
+      "25123281",
+      "31626804",
+      "24880148",
+      "31123059"
+    ],
+    "pmc": [
+      "9413472"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36040254/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36040254",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4387",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1248",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

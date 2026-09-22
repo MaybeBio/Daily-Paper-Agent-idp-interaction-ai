@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37034755",
+  "title": "Mechanistic and evolutionary insights into isoform-specific 'supercharging' in DCLK family kinases.",
+  "authors": "Venkat, Aarya; Watterson, Grace; Byrne, Dominic P; O'Boyle, Brady; Shrestha, Safal; Gravel, Nathan; Fairweather, Emma E; Daly, Leonard A; Bunn, Claire; Yeung, Wayland; Aggarwal, Ishan; Katiyar, Samiksha; Eyers, Claire E; Eyers, Patrick A; Kannan, Natarajan",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-04-11",
+  "window": {
+    "start": "2023-04-10",
+    "end": "2023-04-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合统计序列分析、分子动力学模拟与突变实验，揭示DCLK激酶家族中无序C端尾部通过异构体特异性剪接'超充电'调控自身抑制的机制，属于IDR介导的蛋白内互作（自抑制）机制建模，对无序区域调控互作机制研究有直接启发。",
+  "abstract": "Catalytic signaling outputs of protein kinases are dynamically regulated by an array of structural mechanisms, including allosteric interactions mediated by intrinsically disordered segments flanking the conserved catalytic domain. The Doublecortin Like Kinases (DCLKs) are a family of microtubule-associated proteins characterized by a flexible C-terminal autoregulatory 'tail' segment that varies in length across the various human DCLK isoforms. However, the mechanism whereby these isoform-specific variations contribute to unique modes of autoregulation is not well understood. Here, we employ a combination of statistical sequence analysis, molecular dynamics simulations and in vitro mutational analysis to define hallmarks of DCLK family evolutionary divergence, including analysis of splice variants within the DCLK1 sub-family, which arise through alternative codon usage and serve to 'supercharge' the inhibitory potential of the DCLK1 C-tail. We identify co-conserved motifs that readily distinguish DCLKs from all other Calcium Calmodulin Kinases (CAMKs), and a 'Swiss-army' assembly of distinct motifs that tether the C-terminal tail to conserved ATP and substrate-binding regions of the catalytic domain to generate a scaffold for auto-regulation through C-tail dynamics. Consistently, deletions and mutations that alter C-terminal tail length or interfere with co-conserved interactions within the catalytic domain alter intrinsic protein stability, nucleotide/inhibitor-binding, and catalytic activity, suggesting isoform-specific regulation of activity through alternative splicing. Our studies provide a detailed framework for investigating kinome-wide regulation of catalytic output through cis-regulatory events mediated by intrinsically disordered segments, opening new avenues for the design of mechanistically-divergent DCLK1 modulators, stabilizers or degraders.",
+  "abstract_zh": "蛋白激酶的催化信号输出受到一系列结构机制的动态调控，包括由保守催化结构域两侧的内在无序片段介导的变构相互作用。双皮质素样激酶（DCLKs）是一类微管相关蛋白家族，其特征是灵活的C端自调控“尾部”片段，该片段在不同人类DCLK亚型中长度各异。然而，这些亚型特异性变异如何促成独特的自调控模式，其机制尚不清楚。在此，我们结合统计序列分析、分子动力学 (molecular dynamics) 模拟和体外突变分析，来定义DCLK家族进化分化的标志，包括对DCLK1亚家族内剪接变体的分析，这些变体通过替代密码子使用产生，并用于“超充电”DCLK1 C尾的抑制潜力。我们识别出能轻易将DCLKs与所有其他钙钙调蛋白激酶 (Calcium Calmodulin Kinases, CAMKs) 区分开的共保守基序，以及一个“瑞士军刀”式的不同基序组装，该组装将C端尾部锚定到催化结构域的保守ATP和底物结合区域，从而生成通过C尾动力学进行自调控的支架。一致地，改变C端尾部长度或干扰催化结构域内共保守相互作用的缺失和突变，会改变内在蛋白稳定性、核苷酸/抑制剂结合和催化活性，表明通过替代剪接实现亚型特异性活性调控。我们的研究为通过内在无序片段介导的顺式调控事件来研究激酶组范围的催化输出调控提供了详细框架，为设计机制分化的DCLK1调节剂、稳定剂或降解剂开辟了新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37034755/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37034755/",
+  "paper_page_path": "papers/pubmed/37034755/index.html"
+}

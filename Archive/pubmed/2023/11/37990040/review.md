@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and supplementary information references.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity of claims, and alignment with Nature-style criteria. Editorial and stylistic issues are noted only where they affect scientific comprehension.
+- **Shared manuscript claim summary** The authors propose a computational approach, termed the protein folding fingerprint, based on a protein folding variation matrix (PFVM), to predict and visualize folding patterns of intrinsically disordered proteins (IDPs) and intrinsically disordered regions (IDRs). The method assigns a protein folding shape code (PFSC) to each set of five consecutive amino acid residues, drawing on a database of possible folding shapes derived from PDB structures and molecular dynamics simulations. The authors claim that PFVM reveals disordered regions, degree of disorder, and possible folding patterns, and they compare their predictions with established tools (PrDOS, PONDR, MobiDB, AlphaFold) for three example proteins.
+- **Visible evidence base** Figures 1–10, tables (none), supplementary information (referenced but not provided), and cited prior publications (refs 56, 57) describing the underlying method.
+- **Missing materials affecting confidence** The 5AAPFSC database is not accessible or described in sufficient detail for independent evaluation. The supplementary information, including PFVM outputs for 20 neurodegenerative disease-related proteins, is not provided. No quantitative performance metrics, benchmark datasets, or statistical comparisons with existing predictors are presented. The manuscript does not include a formal validation of predicted folding patterns against experimental data beyond qualitative visual inspection.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting extension of a previously published protein folding shape code approach to the study of intrinsically disordered proteins. The idea of representing local folding variability in a matrix format is potentially useful for visualizing disorder and generating hypotheses about conformational ensembles. However, the current manuscript does not establish the scientific validity of the method. The claims are largely qualitative, the comparison with existing predictors is superficial, and the absence of quantitative validation or a clear description of the underlying database undermines confidence. The manuscript reads more as a perspective or software announcement than a rigorous scientific study. Major revisions, including quantitative benchmarking and access to the method, would be required before the claims can be assessed.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein folding, and conformational ensembles may find the PFVM representation conceptually appealing. Computational biologists developing or benchmarking disorder prediction tools may also be interested, provided the method is made accessible and validated. The potential application to protein design and mutation analysis could attract a broader structural biology audience, but only if the claims are substantiated.
+- **Major strengths** The manuscript addresses a genuine gap in the IDP field: most predictors identify disordered regions but do not provide information on possible folding patterns. The PFVM representation is visually intuitive and could facilitate hypothesis generation. The authors demonstrate the approach on well-known IDPs and highlight differences with existing tools, which is a useful starting point for discussion.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency and reproducibility
+  - **Claim pointer** The authors claim that the 5AAPFSC database contains all possible folding shapes for any combination of five amino acids, and that PFVM predictions are derived from this database.
+  - **Evidence pointer** Methods section, "PFSC database" subsection; Figure 2
+  - **Concern** The construction of the 5AAPFSC database is described only in general terms. The authors state that approximately 2,000,000 of 3,200,000 possible pentapeptide permutations were sourced from PDB and the remainder from molecular dynamics simulations, but no details are provided on simulation protocols, convergence criteria, selection of force field parameters, or how the discrete PFSC letters were assigned to continuous conformational space. The database itself is not publicly accessible, and the prior publications (refs 56, 57) are not sufficient to evaluate the current implementation. Without access to the database or a detailed methodological description, the core claim of complete folding space coverage cannot be verified.
+  - **Why it matters** The entire method rests on the completeness and accuracy of the 5AAPFSC database. If the database is incomplete or biased, all downstream predictions are compromised. Reproducibility is a fundamental requirement for any computational method.
+  - **Resolution test** The authors must provide a detailed description of database construction, including simulation parameters, validation of the folding space coverage, and a public link or downloadable file for the database. Alternatively, they should provide a clear statistical argument for completeness.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and quantitative benchmarking
+  - **Claim pointer** The authors claim that PFVM provides "more reliable prediction for intrinsic disorder" compared to PrDOS and PONDR, and that it reveals folding patterns that other methods cannot.
+  - **Evidence pointer** Results section, "SUMO1_HUMAN", "Aβ42", "PAGE4_HUMAN" subsections; Figures 7–9
+  - **Concern** The comparison with existing predictors is purely qualitative. No quantitative metrics (e.g., area under the ROC curve, Matthews correlation coefficient, precision-recall) are provided. The authors do not define a gold standard for disorder or folding pattern prediction. The claim of "more reliable" is unsupported by any statistical evidence. Furthermore, the disagreement between PFVM and other predictors for Aβ42 is presented as a strength, but no independent experimental validation is offered to adjudicate which prediction is correct.
+  - **Why it matters** Without quantitative benchmarking against established datasets (e.g., DisProt, MobiDB) and comparison with state-of-the-art predictors, the scientific contribution of the method cannot be assessed. Qualitative visual inspection is insufficient to support claims of superiority or reliability.
+  - **Resolution test** The authors should perform a systematic benchmark on a curated dataset of IDPs with known experimental disorder annotations, compute standard performance metrics, and compare with at least two established predictors. For folding pattern predictions, they should provide evidence that predicted patterns correlate with experimentally observed conformational ensembles (e.g., from NMR or SAXS).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Clarity and support of central claims
+  - **Claim pointer** The authors claim that PFVM can "predict an astronomical number of folding conformations" and that this is significant for the protein folding problem.
+  - **Evidence pointer** Discussion section, "PFVM advantage" and "Disorder and protein folding" subsections
+  - **Concern** The claim that PFVM predicts an astronomical number of conformations is not operationalized. The authors do not explain how the combinatorial product of PFSC letters across columns corresponds to physically meaningful conformations, nor do they address whether all such combinations are sterically or energetically feasible. The link to the protein folding problem is asserted but not developed. The manuscript does not provide any example of a predicted conformational ensemble or a comparison with experimentally determined ensembles.
+  - **Why it matters** The central novelty of the approach, relative to existing disorder predictors, is the claim to provide folding pattern information. If this claim is not clearly defined and validated, the manuscript reduces to a visualization tool for disorder, which is a more modest contribution.
+  - **Resolution test** The authors should provide a concrete example where PFVM-derived conformations are compared with experimental data (e.g., ensemble models from SAXS or FRET). They should also clarify the physical meaning of the combinatorial space and whether any filtering is applied.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Accessibility and usability
+  - **Claim pointer** The authors state that a PFVM server is available at http://www.micropht.com/.
+  - **Evidence pointer** Discussion section, "PFVM server" subsection
+  - **Concern** The server link is provided, but no details are given on input format, output interpretation, or usage limits. It is unclear whether the server is functional and whether it provides the full PFVM output described in the manuscript.
+  - **Why it matters** For a method to be adopted by the community, it must be accessible and documented. A non-functional or undocumented server would limit the impact of the work.
+  - **Resolution test** The authors should provide a user manual, example inputs and outputs, and confirm that the server is publicly accessible and stable.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Language and clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, first sentence; Introduction, first paragraph
+  - **Issue** The manuscript contains several grammatical errors and awkward phrasings (e.g., "The conformation flexibility of natural protein causes both complexity and difficulty", "the results are mainly limited to determine the locations"). These do not obscure the meaning but detract from readability.
+  - **Required correction** The manuscript should be carefully edited for grammar and clarity, ideally by a native English speaker.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality and labeling
+  - **Affected element** Figures 4–10
+  - **Evidence pointer** Figures 4–10
+  - **Issue** The figures are not referenced in the text in a consistent manner, and some figure labels are not fully explained in the captions. For example, the color coding in Figures 5 and 10 is described but the reader must infer the meaning of the matrix rows and columns.
+  - **Required correction** Figure captions should be expanded to fully explain all elements, and the text should explicitly reference each figure at the appropriate point.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** References
+  - **Affected element** Reference list
+  - **Evidence pointer** Reference list
+  - **Issue** The manuscript cites prior work (refs 56, 57) for the underlying method, but these references are not described in sufficient detail in the text. The reader is left to consult these papers to understand the method.
+  - **Required correction** The methods section should summarize the key aspects of the prior work so that the current manuscript is self-contained.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (database transparency), R1-M2 (quantitative validation), R1-M3 (operationalization of conformational predictions). These are blocking because the central claims of the manuscript cannot be evaluated without addressing them.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The concept of using a folding shape code to represent disorder is somewhat original, but it builds heavily on prior work by the same group. The incremental advance over the previously published method is not clearly articulated.  
+  - **Scientific importance** The problem of predicting folding patterns in IDPs is important, but the manuscript does not demonstrate that the method advances the field beyond existing tools. The lack of validation limits the potential impact.  
+  - **Interdisciplinary readership** The manuscript could appeal to structural biologists, computational biologists, and biophysicists, but the presentation is not sufficiently rigorous or accessible to attract a broad readership.  
+  - **Technical soundness** The technical foundation is not adequately described or validated. The absence of quantitative benchmarking and the lack of access to the database are serious deficiencies.  
+  - **Readability for nonspecialists** The manuscript is written in a way that assumes familiarity with IDP prediction tools and protein folding concepts. The abstract and introduction are not accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting idea but lacks the methodological transparency, quantitative validation, and clear articulation of claims required for publication in a Nature-family journal. The authors are encouraged to resubmit after addressing the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that PFVM provides "more reliable prediction for intrinsic disorder" than PrDOS and PONDR is unsupported by any quantitative comparison.
+- The claim that PFVM can predict "an astronomical number of folding conformations" is not operationalized or validated.
+- The claim that the 5AAPFSC database covers the complete folding space of five amino acid residues is not substantiated with evidence of completeness.
+- The claim that PFVM can assist in understanding disease mechanisms (e.g., Alzheimer's disease) is speculative and not supported by direct experimental evidence.
+- The claim that PFVM can be used for protein design and mutation analysis is presented without any proof-of-concept examples.

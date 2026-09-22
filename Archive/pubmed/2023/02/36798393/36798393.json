@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "36798393",
+    "doi": "10.1101/2023.02.09.527891",
+    "title": "Benchmarking Molecular Dynamics Force Fields for All-Atom Simulations of Biological Condensates."
+  },
+  "content": {
+    "abstract": "Proteins containing intrinsically disordered regions are integral components of the cellular signaling pathways and common components of biological condensates. Point mutations in the protein sequence, genetic at birth or acquired through aging, can alter the properties of the condensates, marking the onset of neurodegenerative diseases such as ALS and dementia. While the all-atom molecular dynamics method can, in principle, elucidate the conformational changes that arise from point mutations, the applications of this method to protein condensate systems is conditioned upon the availability of molecular force fields that can accurately describe both structured and disordered regions of such proteins. Using the special-purpose Anton 2 supercomputer, we benchmarked the efficacy of nine presently available molecular force fields in describing the structure and dynamics of a Fused in sarcoma (FUS) protein. Five-microsecond simulations of the full-length FUS protein characterized the effect of the force field on the global conformation of the protein, self-interactions among its side chains, solvent accessible surface area and the diffusion constant. Using the results of dynamic light scattering as a benchmark for the FUS radius of gyration, we identified several force fields that produced FUS conformations within the experimental range. Next, we used these force fields to perform ten-microsecond simulations of two structured RNA binding domains of FUS bound to their respective RNA targets, finding the choice of the force field to affect stability of the RNA-FUS complex. Taken together, our data suggest that a combination of protein and RNA force fields sharing a common four-point water model provides an optimal description of proteins containing both disordered and structured regions and RNA-protein interactions. To make simulations of such systems available beyond the Anton 2 machines, we describe and validate implementation of the best performing force fields in a publicly available molecular dynamics program NAMD. Our NAMD implementation enables simulations of large (tens of millions of atoms) biological condensate systems and makes such simulations accessible to a broader scientific community.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sarthak, Kumar",
+        "Winogradoff, David",
+        "Ge, Yingda",
+        "Myong, Sua",
+        "Aksimentiev, Aleksei"
+      ],
+      "short_names": [
+        "Sarthak K",
+        "Winogradoff D",
+        "Ge Y",
+        "Myong S",
+        "Aksimentiev A"
+      ],
+      "auids": [],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Sarthak, Kumar",
+        "short_name": "Sarthak K",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Winogradoff, David",
+        "short_name": "Winogradoff D",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Ge, Yingda",
+        "short_name": "Ge Y",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Myong, Sua",
+        "short_name": "Myong S",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Aksimentiev, Aleksei",
+        "short_name": "Aksimentiev A",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Apr 15",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/18 06:00",
+    "fetched_at": "2026-09-20 19:21:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "36798393",
+      "37134270",
+      "23912807",
+      "39486437",
+      "33382616",
+      "32859072",
+      "32816485",
+      "19754142",
+      "32367806",
+      "36348631",
+      "40060049",
+      "32426986",
+      "34487489",
+      "35297101",
+      "34598583",
+      "40291709",
+      "40321778",
+      "15959866",
+      "31560849",
+      "36883003",
+      "37399327",
+      "26020564",
+      "37890778",
+      "38029395",
+      "28773773",
+      "33515602",
+      "34862761",
+      "37961424",
+      "40128232",
+      "37648703",
+      "33078950",
+      "37646172",
+      "37155880",
+      "30840442",
+      "36827446",
+      "29735687",
+      "29677513",
+      "39495179",
+      "30990694",
+      "26575776",
+      "40172489",
+      "31552948",
+      "34152264",
+      "33307683",
+      "31509647",
+      "29864281",
+      "21721539",
+      "30933517",
+      "33302617",
+      "25952623",
+      "26765212",
+      "27300587",
+      "39937084",
+      "33184287",
+      "39499823",
+      "37735186",
+      "30250773",
+      "35950933",
+      "30514082",
+      "31241933",
+      "37549257",
+      "31903719",
+      "35130441",
+      "38157426",
+      "38550690",
+      "39250601",
+      "33444020",
+      "34762868",
+      "29378935",
+      "26138282",
+      "37194953",
+      "12116391",
+      "38176097",
+      "35594194",
+      "38492239",
+      "29080468",
+      "23197420",
+      "37426330",
+      "28805390",
+      "34576338",
+      "36758221",
+      "31188823",
+      "36993212",
+      "35283696",
+      "33159856",
+      "35686985",
+      "29235155",
+      "35174713",
+      "37695778",
+      "37131742",
+      "30204435",
+      "20825228",
+      "35930639",
+      "38056002",
+      "26784558",
+      "33459730",
+      "25811178",
+      "35709363",
+      "38877893",
+      "26574429"
+    ],
+    "review": [
+      "36798393",
+      "37399327",
+      "38029395",
+      "30840442",
+      "40172489"
+    ],
+    "pmc": [
+      "9934651"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36798393/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.02.09.527891",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or methods
+- **Shared manuscript claim summary** The authors report a structural and biophysical characterization of the TSPYL5–USP7 interaction, showing that TSPYL5 is intrinsically disordered, binds USP7 with nanomolar affinity, retains binding after C-terminal truncation, contains three binding hotspots (residues 65–97, 210–262, 368–388), and forms trimers and hexamers. They propose these findings support development of inhibitors targeting ALT-dependent cancers.
+- **Visible evidence base** Abstract text only; no experimental details, figures, tables, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, statistical details, biophysical data (e.g., binding curves, SEC/MALS traces, NMR or CD spectra), construct details, and any validation experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting structural and biophysical characterization of a cancer-relevant protein interaction. The claim of identifying three binding hotspots and the observation of oligomeric states are notable. However, the abstract alone provides insufficient experimental detail to evaluate the rigor of the methods, the robustness of the binding data, or the validity of the structural conclusions. Several claims are presented without supporting quantitative or methodological context, and the link to therapeutic development is speculative at this stage.
+- **Who would be interested in the results, and why** Researchers studying the ALT pathway in cancer biology, structural biologists interested in intrinsically disordered proteins and their interactions with deubiquitinases, and drug discovery groups targeting protein–protein interactions involving USP7. The work may also interest those studying TSPYL family proteins and their cellular functions.
+- **Major strengths** The study addresses a clinically relevant target with a clear translational motivation. The combination of disorder prediction, binding affinity measurement, and identification of specific interaction regions provides a useful framework for future inhibitor design. The observation that the N-terminal region is the primary binding site despite C-terminal truncation is a useful and non-obvious finding.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "TSPYL5 binds USP7 with nanomolar affinity" and "the truncated form retained a similar binding affinity for USP7"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports nanomolar affinity without specifying the method (e.g., ITC, SPR, MST), the exact Kd value, the constructs used, or the number of replicates. The claim that the truncated form retains "similar" affinity is not quantified. Without these details, the affinity values and the conclusion that the N-terminal region is the primary binding site cannot be assessed.  
+  - **Why it matters** The central conclusion that the N-terminal region drives binding depends on a quantitative comparison between full-length and truncated constructs. If the affinity difference is within error or if the truncation affects oligomerization, the interpretation could change.  
+  - **Resolution test** Provide the method, Kd values with errors, replicate numbers, and a statistical comparison between full-length and truncated constructs. Show that the constructs are monomeric or account for oligomerization in the binding model.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "We identified three key binding hotspots within TSPYL5: residues 65–97, residues 210–262, and residues 368–388"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not describe the experimental approach used to identify these hotspots (e.g., mutagenesis, peptide arrays, crosslinking, HDX-MS, or computational prediction). Without this information, it is impossible to judge whether these regions are experimentally validated binding sites or merely predicted or suggestive.  
+  - **Why it matters** The three hotspots are presented as a key deliverable of the study and as a basis for inhibitor design. If they are not experimentally validated, the claim is premature and could mislead downstream efforts.  
+  - **Resolution test** Specify the method used, show data for each hotspot (e.g., binding loss or retention upon mutation), and provide controls demonstrating specificity.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "TSPYL5 forms trimers that further assemble into hexamers"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The oligomeric state is reported without any methodological context (e.g., SEC-MALS, AUC, native MS, crosslinking). It is also unclear whether the oligomerization is relevant to USP7 binding or is an artifact of the recombinant system.  
+  - **Why it matters** If TSPYL5 oligomerizes, the binding stoichiometry and affinity measurements could be affected. The claim also has implications for the structural model of the interaction.  
+  - **Resolution test** Provide the method and data supporting trimer and hexamer formation, and clarify whether the oligomeric state is concentration-dependent and whether it affects USP7 binding.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** "These findings lay the groundwork for the development of novel inhibitors targeting ALT-dependent cancers"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not provide any evidence that disrupting the TSPYL5–USP7 interaction is functionally relevant in cells or that the identified hotspots are druggable. The translational claim is speculative without cellular or in vivo validation.  
+  - **Why it matters** The stated motivation for the study is therapeutic. Without functional data linking the interaction to ALT-dependent cancer cell viability, the significance of the structural findings for drug development remains unsubstantiated.  
+  - **Resolution test** Provide cellular or in vivo data showing that disrupting the interaction, or mutating the identified hotspots, affects ALT-dependent phenotypes. Alternatively, temper the claim to reflect that the findings are a structural basis for future functional studies.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract uses terms such as "MATH domain" and "intrinsically disordered" without brief explanation, which may limit accessibility for readers outside structural biology.  
+  - **Required correction** Add a brief parenthetical explanation for these terms or rephrase for broader audience.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Clarity of reporting  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "partial structure in the C-terminal half" is vague. It is unclear whether this refers to a folded domain, transient secondary structure, or a stable but dynamic region.  
+  - **Required correction** Specify the type and extent of structure observed and the method used to detect it.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness of reporting  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state the species or isoform of TSPYL5 used, nor the exact USP7 construct (full-length or MATH domain only).  
+  - **Required correction** Specify the constructs and species in the abstract or methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The affinity measurements, hotspot identification, and oligomerization claims are all presented without sufficient methodological detail to be evaluated. These are central to the paper's conclusions and must be substantiated with full experimental data.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The abstract suggests a first structural and quantitative analysis of the TSPYL5–USP7 interaction, which is a novel contribution if the data are robust. However, the abstract alone does not demonstrate conceptual novelty beyond the specific interaction.  
+  - **Scientific importance** The topic is relevant to ALT-dependent cancers, which are an important clinical subset. The importance is moderate to high, but the abstract does not establish functional relevance, limiting the immediate impact.  
+  - **Interdisciplinary readership** The work bridges structural biology, cancer biology, and drug discovery. The abstract is likely to interest readers in these fields, though the technical language may limit broader appeal.  
+  - **Technical soundness** Cannot be assessed from the abstract. The lack of methodological detail for the key claims is a significant concern.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but includes jargon that could be better explained. The logical flow is acceptable.  
+  Overall, the study has potential but does not meet the standard of a Nature-style paper based on the abstract alone, primarily due to insufficient evidence for the central claims.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting findings, but the lack of methodological detail and the speculative translational claim prevent a supportive recommendation. A full manuscript with complete experimental data would be required to assess whether the claims are substantiated.
+
+## Risk / unsupported claims
+- The claim of nanomolar binding affinity is unsupported without method and quantitative values.
+- The identification of three binding hotspots is unsupported without description of the experimental approach.
+- The claim of trimer and hexamer formation is unsupported without method and data.
+- The statement that TSPYL5 is "intrinsically disordered" is presented as a finding but lacks supporting data in the abstract.
+- The translational claim regarding inhibitor development is speculative and not supported by functional data.

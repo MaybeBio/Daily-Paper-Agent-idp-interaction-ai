@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.05.11.443443",
+  "title": "SARS-CoV-2 Beta Variant Substitutions Alter Spike Glycoprotein Receptor Binding Domain Structure and Stability",
+  "authors": "Moss DL; Rappaport J",
+  "journal": "bioRxiv",
+  "published_date": "2021-05-14",
+  "window": {
+    "start": "2021-05-10",
+    "end": "2021-05-16"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究SARS-CoV-2刺突蛋白RBD突变对ACE2结合及结构稳定性的影响，虽涉及蛋白-蛋白互作和结构模拟，但对象非无序蛋白/相分离，且方法侧重实验与常规结构分析，对IDP互作机制建模启发有限。",
+  "abstract": "The emergence of severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2) and the subsequent COVID-19 pandemic has visited a terrible cost on the world in the forms of disease, death, and economic turmoil. The rapid development and deployment of extremely effective vaccines against SARS-CoV-2 have seemingly brought within reach the end of the pandemic. However, the virus has acquired mutations; and emerging variants of concern (VOC) are more infectious and reduce the efficacy of existing vaccines. While promising efforts to combat these variants are underway, the evolutionary pressures leading to these variants are poorly understood. To that end, here we have studied the effects on the structure and function of the SARS-CoV-2 spike glycoprotein receptor-binding domain of three amino-acid substitutions found in several variants of concern, including alpha (B.1.1.7), beta (B.1.351), and gamma (P.1). We found that these substitutions alter the RBD structure, stability, and ability to bind to ACE2, in such a way as to possibly have opposing and compensatory effects. These findings provide new insights into how these VOC may have been selected for infectivity while maintaining the structure and stability of the receptor binding domain.",
+  "abstract_zh": "严重急性呼吸综合征相关冠状病毒2（SARS-CoV-2）的出现及随后的COVID-19大流行，以疾病、死亡和经济动荡的形式给世界带来了惨重代价。针对SARS-CoV-2的高效疫苗的快速研发和部署，似乎使大流行的终结近在咫尺。然而，该病毒已发生突变；新出现的关切变异株（VOC）更具传染性，并降低了现有疫苗的有效性。尽管对抗这些变异株的努力正在进行且前景可期，但导致这些变异株出现的进化压力仍知之甚少。为此，我们研究了在多种关切变异株（包括alpha（B.1.1.7）、beta（B.1.351）和gamma（P.1））中发现的三个氨基酸替换对SARS-CoV-2刺突糖蛋白受体结合域结构和功能的影响。我们发现，这些替换改变了RBD的结构、稳定性以及与ACE2结合的能力，其方式可能具有相反和补偿性效应。这些发现为这些VOC如何在维持受体结合域结构和稳定性的同时，可能被选择以增强传染性提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.05.11.443443",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.05.11.443443",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.05.11.443443/index.html"
+}

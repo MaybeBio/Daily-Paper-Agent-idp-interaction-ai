@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, conclusions, and methods
+- **Assessment boundary** Scientific claims, methodological soundness, evidence quality, and internal consistency based solely on the provided manuscript content
+- **Shared manuscript claim summary** The authors present an adaptive sampling molecular dynamics approach (AdaptiveBandit) to reconstruct the coupled binding and folding process between the intrinsically disordered protein c-Myb and the KIX domain of CREB-binding protein. They report a mixed mechanism involving both conformational selection and induced fit, with Leu298-Leu302 playing a key role in initial contacts.
+- **Visible evidence base** Abstract, full text of introduction, results, discussion, conclusions, methods, and references to supplementary figures and tables
+- **Missing materials affecting confidence** Supplementary figures (S1-S9), supplementary tables (S1), supporting videos, and the referenced algorithm paper (ref 32) are not provided, limiting verification of convergence claims, error estimates, and methodological novelty
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and challenging problem in the field of intrinsically disordered proteins, namely the atomistic characterization of coupled binding and folding. The application of a reinforcement learning-based adaptive sampling method to this system is timely and potentially impactful. However, the evidence presented in the main text is insufficient to fully establish the central mechanistic claims. Key quantitative results, convergence analyses, and validation details are relegated to supplementary materials that were not available for review. The kinetic comparisons with experimental data show partial agreement but with notable discrepancies that are not fully resolved. The mechanistic interpretation, while plausible, relies on flux analyses that require more detailed presentation to be convincing. The manuscript would benefit from clearer presentation of the methodological novelty and more robust evidence for the claimed mixed mechanism.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, specifically those studying intrinsically disordered proteins, protein-protein interactions, and enhanced sampling methods. The work is also relevant to experimentalists studying IDP binding mechanisms who seek atomistic models to interpret their kinetic and structural data. The methodological advance in adaptive sampling may interest method developers in the molecular simulation community.
+- **Major strengths** The study tackles a biologically important and computationally challenging system that has resisted previous simulation efforts. The use of unbiased atomistic simulations with a novel adaptive sampling strategy is commendable. The comparison with experimental kinetic data provides a valuable benchmark. The identification of a mixed binding mechanism with residue-level detail offers a nuanced view that goes beyond simple binary classifications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that AdaptiveBandit provides "converged estimates of kinetics and thermodynamics after just 150 μs of sampling" and that the full 450 μs dataset was used for mechanistic analysis
+  - **Evidence pointer** Figure S5, Figure S1, location not provided in main text
+  - **Concern** The convergence analysis and error estimation are only presented in supplementary figures that were not provided. The main text states convergence at 150 μs but does not show the convergence criteria, the evolution of key observables across epochs, or the statistical uncertainties in the reported kinetic and thermodynamic values. Without this information, the reliability of the quantitative claims cannot be assessed.
+  - **Why it matters** The central quantitative results, including rate constants and free energies, depend critically on the convergence of the MSM. If convergence is not adequately demonstrated, all subsequent mechanistic interpretations are built on potentially unstable foundations.
+  - **Resolution test** Provide the convergence plots in the main text or ensure supplementary figures are available for review. Show the uncertainty estimates for all reported kinetic and thermodynamic values and demonstrate that the conclusions are robust to the choice of analysis parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The claim that the mechanism is a "mixture of conformational selection on the N-terminal region with an induced fit of the C-terminal"
+  - **Evidence pointer** Figure 3, Figure 4, Figure S7
+  - **Concern** The flux analysis supporting the mixed mechanism is described only briefly. The manuscript states that "almost half of the flux goes through N-term to N-term helical conformations" and that "the flux almost never goes through Folded to Folded transitions," but the quantitative basis for these statements is not presented in the main text. The definition of the four conformational states used for the intramacrostate flux analysis is unclear, and the statistical significance of the flux differences is not established.
+  - **Why it matters** The mixed mechanism is the primary scientific conclusion of the paper. If the flux analysis is not presented with sufficient detail and statistical rigor, the mechanistic claim is not adequately supported.
+  - **Resolution test** Present the flux values and their uncertainties for all relevant transitions in the main text or a clearly referenced supplementary figure. Provide a clear definition of the conformational states used in the analysis and demonstrate that the conclusions are robust to the choice of state definitions and analysis parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Validation completeness
+  - **Claim pointer** The claim that the model is validated by comparison with experimental kinetic parameters, with kon in agreement and koff overestimated by an order of magnitude
+  - **Evidence pointer** Figure S4, Figure S6
+  - **Concern** The comparison with experimental data shows a significant discrepancy in koff values, which the authors attribute to "normal discretization errors in the MSM projection" or incomplete binding. However, the additional simulations starting from bound structures only "marginally improved" the free energy estimates, and the authors conclude that these simulations "do not add additional information." This is a concerning conclusion that suggests the model may not be capturing the full bound state ensemble. The manuscript does not provide a satisfactory explanation for the koff discrepancy.
+  - **Why it matters** The validation of the model against experimental data is a key strength of the paper, but the order-of-magnitude discrepancy in koff raises questions about the accuracy of the kinetic model and the completeness of the sampled bound state.
+  - **Resolution test** Provide a more detailed analysis of the sources of the koff discrepancy, including a comparison of the structural ensembles from the adaptive sampling and the bound-state simulations. Discuss whether the discrepancy reflects limitations of the force field, the MSM construction, or the experimental comparison.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological novelty
+  - **Claim pointer** The claim that AdaptiveBandit is a "novel algorithm" that frames MD sampling from a reinforcement learning perspective
+  - **Evidence pointer** Methods section, ref 32
+  - **Concern** The manuscript refers to a separate publication (ref 32) for the formal description of AdaptiveBandit. The methods section provides only a brief summary of the algorithm. The novelty relative to existing adaptive sampling methods, particularly those using related bandit formulations or other exploration-exploitation strategies, is not clearly established in this manuscript.
+  - **Why it matters** The methodological contribution is a key aspect of the paper's significance. If the novelty is not clearly articulated, the contribution to the methods literature is unclear.
+  - **Resolution test** Provide a more detailed description of the algorithm in the main text or supplementary material, including a clear statement of what is new relative to existing methods. If the algorithm is fully described in ref 32, clarify the specific contribution of this manuscript beyond the application to a new system.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, AdaptiveBandit Sampling
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The description of the reward function is incomplete. The text states that the reward is "minus the free energy of each configuration visited in the trajectory spawn from a given action" but does not specify how the free energy is estimated at each epoch or how the average over the trajectory is computed.
+  - **Required correction** Provide a more explicit mathematical definition of the reward function, including how the free energy is estimated and how the average is computed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section, Molecular Dynamics Simulations
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The manuscript states that 200 systems were built with c-Myb and KIX in opposite corners of a cubic box, but does not specify the initial distance between the proteins or the criteria for selecting the initial conformations.
+  - **Required correction** Provide additional details on the system setup, including the initial separation between the proteins and the selection criteria for the initial c-Myb conformations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results and Discussion, Model Validation
+  - **Evidence pointer** Results and Discussion, Model Validation section
+  - **Issue** The manuscript states that the bulk state was defined by a distance threshold and that results are "practically stable after a minimum separation distance of just 4 Å." However, the range of thresholds tested and the sensitivity of the results to this choice are not presented in the main text.
+  - **Required correction** Provide a brief description of the threshold sensitivity analysis in the main text or refer more explicitly to the supplementary figure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results and Discussion, Secondary Binding Mode
+  - **Evidence pointer** Results and Discussion, Secondary Binding Mode section
+  - **Issue** The manuscript describes a secondary binding mode but does not discuss its potential biological relevance or whether it has been observed experimentally.
+  - **Required correction** Add a brief discussion of the potential significance of the secondary binding mode and any experimental evidence that may support or contradict its existence.
+- **Technical failings that need to be addressed before the case is established** The convergence of the MSM and the statistical uncertainties of the reported kinetic and thermodynamic values are not presented in the main text. The flux analysis supporting the central mechanistic claim is described only qualitatively. The comparison with experimental data shows a significant discrepancy in koff that is not fully explained. The novelty of the AdaptiveBandit method relative to existing approaches is not clearly established.
+- **Assessment against Nature-style criteria** Originality: The application of a reinforcement learning-based adaptive sampling method to a challenging IDP binding system is original, though the method itself is described in a separate publication. Scientific importance: The system is biologically significant, and the mechanistic insights could inform understanding of IDP binding. However, the importance is somewhat limited by the focus on a single system. Interdisciplinary readership: The work is primarily of interest to computational biophysicists and may have limited appeal to a broader biological audience. Technical soundness: The simulation methodology is sound in principle, but the evidence for convergence and the statistical rigor of the analysis are not adequately presented in the main text. Readability for nonspecialists: The manuscript is written for a specialized audience and assumes familiarity with MSM, adaptive sampling, and IDP concepts. The main text is generally clear but would benefit from more explicit definitions of key terms and concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important problem and presents a potentially valuable approach, but the evidence presented in the main text is insufficient to fully establish the central claims. The authors should provide more detailed convergence analysis, clearer presentation of the flux analysis, and a more thorough discussion of the discrepancies with experimental data.
+
+## Risk / unsupported claims
+- The claim of "converged estimates of kinetics and thermodynamics after just 150 μs" is not verifiable without the supplementary convergence data
+- The quantitative flux analysis supporting the mixed mechanism is not presented in sufficient detail
+- The statement that the secondary binding mode is "novel" is not supported by comparison with prior experimental or computational observations
+- The claim that AdaptiveBandit was "key" to the success is not fully substantiated, as no direct comparison with other adaptive sampling methods is provided
+- The extrapolation of experimental kinetic parameters to 310 K is described but the details and assumptions are not fully presented

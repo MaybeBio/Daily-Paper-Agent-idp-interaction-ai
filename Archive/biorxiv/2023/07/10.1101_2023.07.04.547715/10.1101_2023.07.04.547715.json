@@ -1,0 +1,172 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.04.547715",
+  "title": "Mapping interactions between disordered regions reveals promiscuity in biomolecular condensate formation",
+  "doi": "10.1101/2023.07.04.547715",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically-disordered regions (IDRs) promote intracellular phase separation and the formation of biomolecular condensates through interactions encoded in their primary sequence. While these condensates form spatially distinct assemblies in cells, it is unclear whether such specificity can be conferred by IDRs alone. Indeed, IDRs exhibit high conformational flexibility whereas specificity in protein recognition is generally associated with well-defined 3D structures. To characterize IDR-IDR interactions and assess their ability to mediate self-specific partitioning, we developed a synthetic system of Multivalent IDRs forming Constitutive DROPlets ( micDROP ). We investigated ten natural IDRs that underwent phase separation in micDROP . These IDRs exhibited a wide range of saturation concentrations in vivo , which correlated well with their total sequence stickiness. We then probed IDR-IDR specificity by co-expressing pairs of IDRs fused to homologous scaffolds that did not co-assemble. We observed a high degree of promiscuity, particularly among IDRs from the proteins Ddx4, DYRK3, ERα, FUS, hnRNPA1, HspB8, RBM14 and TAF15, whereas TDP43 and UBQ2 formed spatially distinct condensates regardless of their partner. Further investigation revealed the short and conserved α-helical segment of TDP43’s IDR was governing its specific self-recognition. Our findings imply that IDRs can tune their phase separation propensity through sequence composition, while their formation of discrete condensates likely requires additional cellular or structural determinants. <h4>Abstract Figure</h4>",
+  "authors": [
+    "Gilat A",
+    "Dubrueil B",
+    "Levy ED"
+  ],
+  "published_date": "2023-07-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.04.547715",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.04.547715.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR686660",
+    "raw_record": {
+      "id": "PPR686660",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR686660"
+        ]
+      },
+      "doi": "10.1101/2023.07.04.547715",
+      "title": "Mapping interactions between disordered regions reveals promiscuity in biomolecular condensate formation",
+      "authorString": "Gilat A, Dubrueil B, Levy ED.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Gilat A",
+            "lastName": "Gilat",
+            "firstName": "Atar",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, Israel"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dubrueil B",
+            "lastName": "Dubrueil",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, Israel"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Levy ED",
+            "lastName": "Levy",
+            "firstName": "Emmanuel",
+            "initials": "ED",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot, Israel"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>ABSTRACT</h4>  Intrinsically-disordered regions (IDRs) promote intracellular phase separation and the formation of biomolecular condensates through interactions encoded in their primary sequence. While these condensates form spatially distinct assemblies in cells, it is unclear whether such specificity can be conferred by IDRs alone. Indeed, IDRs exhibit high conformational flexibility whereas specificity in protein recognition is generally associated with well-defined 3D structures. To characterize IDR-IDR interactions and assess their ability to mediate self-specific partitioning, we developed a synthetic system of Multivalent IDRs forming Constitutive DROPlets (  micDROP ). We investigated ten natural IDRs that underwent phase separation in  micDROP . These IDRs exhibited a wide range of saturation concentrations  in vivo , which correlated well with their total sequence stickiness. We then probed IDR-IDR specificity by co-expressing pairs of IDRs fused to homologous scaffolds that did not co-assemble. We observed a high degree of promiscuity, particularly among IDRs from the proteins Ddx4, DYRK3, ERα, FUS, hnRNPA1, HspB8, RBM14 and TAF15, whereas TDP43 and UBQ2 formed spatially distinct condensates regardless of their partner. Further investigation revealed the short and conserved α-helical segment of TDP43’s IDR was governing its specific self-recognition. Our findings imply that IDRs can tune their phase separation propensity through sequence composition, while their formation of discrete condensates likely requires additional cellular or structural determinants.  <h4>Abstract Figure</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/07/04/2023.07.04.547715.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.07.04.547715"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR686660"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR686660&type=FILE&fileName=EMS178608-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42230638",
+            "reference": "Nature communications. \n    2026 Jun;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS178608",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-07-07",
+      "firstPublicationDate": "2023-07-04",
+      "firstIndexDate": "2023-07-07",
+      "fullTextReceivedDate": "2023-10-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

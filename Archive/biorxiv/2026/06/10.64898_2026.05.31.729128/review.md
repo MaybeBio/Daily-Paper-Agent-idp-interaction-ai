@@ -1,0 +1,113 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, conclusion, data availability) as provided
+- **Assessment boundary** Scientific and technical evaluation of the described method, experimental design, reported results, and claims; no assessment of code functionality or data reproducibility beyond what is stated
+- **Shared manuscript claim summary** The authors present ORIGAMI, an orientation-aware graph neural network that uses scalar and 3D vector node representations with SO(3)-equivariant operations to estimate interface Local Distance Difference Test (iLDDT) scores for multimeric protein complex structures. They claim superior performance over existing methods on CASP15 and CASP16 benchmarks, robust cross-metric generalization to DockQ, and sensitivity to dynamic interface rearrangements in a molecular dynamics trajectory.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods (Sections 2.1–2.7), Results (Sections 3.1–3.4), Conclusion, Data and Software Availability, Acknowledgements
+- **Missing materials affecting confidence** Figures 1–6 and Tables 1–5 are referenced but not provided; Supplementary Materials (Sections 1.2–1.6, 2.1, Tables 2.1 and 4) are referenced but not provided; no statistical significance tests are reported; no confidence intervals or error bars are described; no comparison of computational cost or inference time is provided
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational structural biology, namely the quality assessment of predicted multimeric protein interfaces. The proposed method, ORIGAMI, introduces a technically plausible extension of orientation-aware graph neural networks to the interface quality assessment task, and the reported results on CASP benchmarks are promising. However, the manuscript as provided has several critical gaps that prevent full evaluation of the claims. The absence of all figures and tables makes it impossible to verify the quantitative results, the statistical significance of improvements is not established, and several methodological details are either incomplete or presented in a way that obscures reproducibility. The claim of cross-metric generalization to DockQ is interesting but requires more rigorous analysis to rule out trivial correlation. The molecular dynamics case study is underdeveloped and does not clearly establish the claimed sensitivity. Overall, the core idea has merit, but the evidence base as presented is insufficient to fully support the strong claims made.
+- **Who would be interested in the results, and why** Researchers in computational structural biology, particularly those working on protein structure prediction, model quality assessment, and protein-protein interaction modeling. The work is also relevant to developers of geometric deep learning methods for biomolecular applications, as it demonstrates an application of equivariant neural networks to a practical problem. The potential for selecting high-quality models from structure prediction pipelines is of interest to the broader structural biology community, including experimentalists who use predicted models for hypothesis generation.
+- **Major strengths** The problem addressed is timely and important, given the rapid advances in protein structure prediction and the need for reliable quality assessment. The methodological direction, namely the use of orientation-aware equivariant operations for interface assessment, is well motivated and represents a sensible extension of existing work. The evaluation across multiple CASP challenges, including the recent CASP16, is appropriate and provides a realistic benchmark. The inclusion of a cross-metric evaluation against DockQ is a useful addition that tests generalization beyond the training target. The open-source availability of the code and data is commendable and supports reproducibility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims superior performance across multiple interface quality assessment benchmarks, with specific quantitative results reported in Tables 2–4 and Figures 3–5.
+  - **Evidence pointer** Tables 2–4, Figures 3–5, location not provided
+  - **Concern** All figures and tables referenced in the Results section are absent from the provided manuscript. The quantitative claims of superior performance, including specific correlation coefficients, MAE values, hit rates, and AUC values, cannot be verified without the actual data. The reader cannot assess the magnitude of improvements, the variability across targets, or the practical significance of the reported differences.
+  - **Why it matters** The central claims of the manuscript rest entirely on these quantitative results. Without the figures and tables, the evidence base is incomplete and the claims are unverifiable. This is a blocking issue for any meaningful evaluation of the work.
+  - **Resolution test** Provide all figures and tables with clear captions, including error bars or confidence intervals where applicable, and ensure that all values referenced in the text are present and consistent.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The manuscript claims that ORIGAMI "achieves superior performance" and "substantially outperforms" baseline methods across multiple benchmarks.
+  - **Evidence pointer** Section 3.1, Tables 2–4, location not provided
+  - **Concern** No statistical significance testing is reported for any of the performance comparisons. The manuscript does not state whether the observed differences between ORIGAMI and baseline methods are statistically significant, nor does it report confidence intervals for the correlation coefficients, MAE values, hit rates, or AUC values. Without this information, the claimed superiority could be within the range of random variation, particularly given the limited number of CASP targets.
+  - **Why it matters** The claim of superior performance is a central contribution of the work. Without statistical support, the claim is not established. The number of CASP targets is relatively small (39 for CASP16, 24 for CASP15), and performance differences could be driven by a few outliers.
+  - **Resolution test** Report confidence intervals for all metrics, perform appropriate statistical tests (e.g., bootstrap or permutation tests) for the differences between ORIGAMI and each baseline, and state the significance level. If the number of targets is too small for meaningful tests, acknowledge this limitation explicitly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** The manuscript describes the Directed Weight Perceptron (DWP) module and its four geometric operators, and claims that the architecture maintains strict SE(3)-equivariance.
+  - **Evidence pointer** Section 2.3, location not provided
+  - **Concern** The mathematical definitions of the four geometric operators are missing. The text states "The module applies four geometric operators to (s, V)" but the actual equations are not provided. The descriptions of the operators are qualitative (e.g., "measures alignment", "generates vectors perpendicular") without the corresponding mathematical formulations. This makes it impossible to understand the exact architecture or to reproduce it.
+  - **Why it matters** The methodological novelty of the work lies in the specific design of the DWP module. Without the precise mathematical definitions, the contribution cannot be evaluated, and the method cannot be reproduced by other researchers.
+  - **Resolution test** Provide the complete mathematical formulation of all four operators, including the exact equations for the directed linear module, the non-linear modulation, and the scalar-vector interaction. Ensure that the equivariance proof or argument is complete and explicit.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim support
+  - **Claim pointer** The manuscript claims that ORIGAMI "demonstrates robust cross-metric generalization by reproducing superposition-based DockQ scores with high fidelity, despite being trained only to estimate the superposition-free iLDDT score."
+  - **Evidence pointer** Section 3.1, Figure 4, location not provided
+  - **Concern** The claim of cross-metric generalization is based on correlations between predicted iLDDT scores and ground-truth DockQ scores. However, iLDDT and DockQ are both measures of structural similarity to a reference, and they are likely to be correlated with each other by construction. The manuscript does not address the possibility that the observed correlation with DockQ is a trivial consequence of the inherent correlation between the two metrics, rather than evidence of meaningful cross-metric generalization.
+  - **Why it matters** The claim of cross-metric generalization is presented as a notable strength of the method. If the correlation with DockQ is largely explained by the intrinsic relationship between iLDDT and DockQ, the claim is overstated.
+  - **Resolution test** Provide a quantitative analysis of the relationship between iLDDT and DockQ on the evaluation set, and compare ORIGAMI's DockQ correlation with the correlation that would be expected from a perfect iLDDT predictor. Alternatively, demonstrate that the DockQ correlation is significantly better than what would be achieved by a model trained directly on iLDDT with no additional information.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental design
+  - **Claim pointer** The manuscript claims that evaluation on a 300 ns molecular dynamics trajectory of the 1BRS barnase-barstar complex shows that ORIGAMI "follows the reported interface substate transition and correlates with interface contact preservation over time."
+  - **Evidence pointer** Section 3.3, Figure 6, location not provided
+  - **Concern** The molecular dynamics case study is described in very limited detail. The manuscript does not specify how the trajectory was generated, what force field was used, how many frames were analyzed, or how the reported substate transition was determined. The comparison with "contact preservation" is described qualitatively, and the reported Spearman correlation of 0.64 is presented without context or significance testing. The case study appears to be a single trajectory of a single complex, which limits its generalizability.
+  - **Why it matters** The case study is used to support the claim that ORIGIAM is sensitive to dynamic interface rearrangements. If the analysis is not rigorous or the result is not statistically robust, this claim is not supported.
+  - **Resolution test** Provide full details of the molecular dynamics simulation and analysis protocol. Report the number of frames, the statistical significance of the correlation, and ideally include multiple independent trajectories or additional complexes to demonstrate generalizability.
+  - **Concern ID** R1-M6
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison fairness
+  - **Claim pointer** The manuscript claims superior performance against "non-equivariant and equivariant graph neural network baselines" in controlled comparisons.
+  - **Evidence pointer** Section 3.1, Section 3.4, location not provided
+  - **Concern** The manuscript does not describe the training protocol for the baseline methods. It is unclear whether the baselines were trained with the same data, the same hyperparameter tuning effort, and the same computational budget as ORIGAMI. The ablation study in Section 3.4 compares ORIGAMI with SE(3)-Transformer, EGNN, and Equiformer, but the details of how these baselines were configured and trained are not provided. Without this information, the comparison may not be fair.
+  - **Why it matters** The claim of superiority over baselines is only meaningful if the comparison is fair. If the baselines were not given the same tuning effort or training budget, the results could reflect implementation differences rather than architectural advantages.
+  - **Resolution test** Describe the training protocol for all baselines, including hyperparameter search, training epochs, and computational budget. Ideally, use published baseline implementations with their recommended settings, and state this explicitly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.2, graph construction
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The manuscript states that the 24 Å cutoff for identifying interfacial residues "reflects the optimal balance observed in our ablation experiments" and that k = 40 "preserved over 97% of true interfacial contacts." However, the ablation results are only referenced in the Supplementary Materials, and the specific evidence for these choices is not presented in the main text.
+  - **Required correction** Briefly summarize the ablation results in the main text or provide a clear reference to the specific supplementary table or figure that supports these choices.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.6, training details
+  - **Evidence pointer** Section 2.6, location not provided
+  - **Issue** The manuscript states that training used "8 NVIDIA A100 GPUs with 80 GB memory" for 200 epochs but does not report the training time, batch size, or the size of the training dataset in terms of number of complexes or residues.
+  - **Required correction** Report the training time, batch size, and dataset size to give readers a sense of the computational requirements and to support reproducibility.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 3.1, per-target analysis
+  - **Evidence pointer** Section 3.1, location not provided
+  - **Issue** The manuscript reports mean Spearman correlations with standard deviations (e.g., 0.356 ± 0.266) for per-target analyses, but does not report the number of targets included in each calculation or the distribution of target-level correlations.
+  - **Required correction** Report the number of targets and consider showing the full distribution of per-target correlations, for example as a box plot or violin plot, to provide a more complete picture of performance variability.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.1, comparison with top CASP16 predictors
+  - **Evidence pointer** Section 3.1, Table 4, location not provided
+  - **Issue** The comparison with top CASP16 predictors is limited to 12 dimeric targets. The manuscript does not discuss whether this subset is representative of the full CASP16 target set or whether the conclusions would hold for higher-order oligomers.
+  - **Required correction** Acknowledge the limited scope of this comparison and discuss potential implications for generalizing the findings to a broader range of complex types.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 2.1, architecture overview
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The manuscript states that "Architectural specifications are provided in Supplementary Material 1.4" but the specific hyperparameters (e.g., hidden dimensions, number of attention heads, dropout rates) are not summarized in the main text.
+  - **Required correction** Provide a brief summary of the key architectural hyperparameters in the main text to give readers an immediate sense of the model size and complexity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing figures and tables), R1-M2 (lack of statistical significance testing), R1-M3 (incomplete mathematical formulation of the core method), R1-M4 (unaddressed trivial correlation explanation for cross-metric generalization), R1-M5 (underdeveloped molecular dynamics case study), R1-M6 (unclear fairness of baseline comparisons)
+- **Assessment against Nature-style criteria** Originality: The idea of applying orientation-aware equivariant graph neural networks to multimeric interface quality assessment is a reasonable extension of existing work, but the manuscript does not clearly articulate what is fundamentally new compared to prior equivariant architectures applied to protein problems. The use of iLDDT as a training target is sensible but not novel in itself. Scientific importance: The problem of assessing multimeric interface quality is important and timely, and a reliable method would be valuable to the community. However, the manuscript does not demonstrate that the improvements over existing methods are practically significant, and the limited scope of the validation (CASP targets only) leaves open questions about generalizability. Interdisciplinary readership: The work is primarily of interest to computational structural biologists and machine learning researchers working on biomolecular applications. The manuscript is written in a way that is accessible to this audience, but the incomplete methodological details would limit its accessibility to a broader readership. Technical soundness: The overall approach is technically plausible, but the missing mathematical details of the core DWP module and the absence of statistical rigor in the evaluation prevent a full assessment of technical soundness. Readability for nonspecialists: The manuscript is generally well-written and the motivation is clear, but the incomplete figures and tables and the missing mathematical formulations make it difficult for a nonspecialist to follow the technical contributions.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is promising and the problem is relevant, but the manuscript as provided has critical gaps in evidence presentation, statistical rigor, and methodological detail that prevent a full evaluation of the claims. The authors should be encouraged to resubmit a revised version that addresses these concerns, particularly the missing figures and tables, the statistical analysis, and the complete mathematical formulation of the method.
+
+## Risk / unsupported claims
+- The claim of "superior performance" across benchmarks is unsupported without the actual results tables and figures.
+- The claim of "robust cross-metric generalization" to DockQ is not established because the manuscript does not rule out trivial correlation between iLDDT and DockQ.
+- The claim that ORIGIAM "is quite sensitive to dynamic interface rearrangements" is based on a single molecular dynamics trajectory with limited methodological detail and no statistical significance testing.
+- The claim that the 24 Å cutoff and k = 40 are optimal is not verifiable without the referenced ablation results.
+- The claim of strict SE(3)-equivariance cannot be fully evaluated without the complete mathematical formulation of the DWP module.
+- The claim of computational efficiency is not supported by any reported runtime or resource usage data.

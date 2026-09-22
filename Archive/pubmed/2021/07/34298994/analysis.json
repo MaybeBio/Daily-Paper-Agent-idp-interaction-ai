@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34298994",
+  "title": "Folding and Intrinsic Disorder of the Receptor Tyrosine Kinase KIT Insert Domain Seen by Conventional Molecular Dynamics Simulations.",
+  "authors": "Ledoux, Julie; Trouve, Alain; Tchertanov, Luba",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2021-07-25",
+  "window": {
+    "start": "2021-07-19",
+    "end": "2021-07-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用常规分子动力学模拟研究受体酪氨酸激酶KIT激酶插入域(KID)的无序构象与折叠，聚焦单蛋白构象系综而非PPI，但无序蛋白构象建模与自由能景观方法对本课题的IDR机制建模有可迁移启发。",
+  "abstract": "The kinase insert domain (KID) of RTK KIT is the key recruitment region for downstream signalling proteins. KID, studied by molecular dynamics simulations as a cleaved polypeptide and as a native domain fused to KIT, showed intrinsic disorder represented by a set of heterogeneous conformations. The accurate atomistic models showed that the helical fold of KID is mainly sequence dependent. However, the reduced fold of the native KID suggests that its folding is allosterically controlled by the kinase domain. The tertiary structure of KID represents a compact array of highly variable alpha- and 3(10)-helices linked by flexible loops playing a principal role in the conformational diversity. The helically folded KID retains a collapsed globule-like shape due to non-covalent interactions associated in a ternary hydrophobic core. The free energy landscapes constructed from first principles-the size, the measure of the average distance between the conformations, the amount of helices and the solvent-accessible surface area-describe the KID disorder through a collection of minima (wells), providing a direct evaluation of conformational ensembles. We found that the cleaved KID simulated with restricted N- and C-ends better reproduces the native KID than the isolated polypeptide. We suggest that a cyclic, generic KID would be best suited for future studies of KID f post-transduction effects.",
+  "abstract_zh": "激酶插入结构域（KID）是RTK KIT下游信号蛋白的关键招募区域。通过分子动力学模拟，KID作为切割多肽和融合至KIT的天然结构域进行研究，显示出由一组异质构象所代表的内在无序性。精确的原子模型表明，KID的螺旋折叠主要依赖于序列。然而，天然KID的折叠减少提示其折叠受激酶结构域别构调控。KID的三级结构代表一个紧凑排列的高度可变α-螺旋和3(10)-螺旋阵列，由柔性环连接，这些环在构象多样性中起主要作用。螺旋折叠的KID由于与三元疏水核心相关的非共价相互作用而保持塌缩的球状形状。基于第一原理构建的自由能景观——包括尺寸、构象间平均距离的度量、螺旋数量及溶剂可及表面积——通过一系列极小值（井）描述KID的无序性，提供构象集合的直接评估。我们发现，在N端和C端受限条件下模拟的切割KID比分离多肽更能再现天然KID。我们建议，环状通用KID最适合未来研究KID的转导后效应。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34298994/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34298994/",
+  "paper_page_path": "papers/pubmed/34298994/index.html"
+}

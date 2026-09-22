@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "34998327",
+    "doi": "10.1063/5.0070412",
+    "title": "Limitations of field-theory simulation for exploring phase separation: The role of repulsion in a lattice protein model."
+  },
+  "content": {
+    "abstract": "Field-theory simulation by the complex Langevin method offers an alternative to conventional sampling techniques for exploring the forces driving biomolecular liquid-liquid phase separation. Such simulations have recently been used to study several polyampholyte systems. Here, we formulate a field theory corresponding to the hydrophobic/polar (HP) lattice protein model, with finite same-site repulsion and nearest-neighbor attraction between HH bead pairs. By direct comparison with particle-based Monte Carlo simulations, we show that complex Langevin sampling of the field theory reproduces the thermodynamic properties of the HP model only if the same-site repulsion is not too strong. Unfortunately, the repulsion has to be taken weaker than what is needed to prevent condensed droplets from assuming an artificially compact shape. Analysis of a minimal and analytically solvable toy model hints that the sampling problems caused by repulsive interaction may stem from loss of ergodicity.",
+    "keywords": [],
+    "mesh_terms": [
+      "Computer Simulation",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Monte Carlo Method",
+      "Proteins/*chemistry",
+      "Thermodynamics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nilsson, Daniel",
+        "Bozorg, Behruz",
+        "Mohanty, Sandipan",
+        "Soderberg, Bo",
+        "Irback, Anders"
+      ],
+      "short_names": [
+        "Nilsson D",
+        "Bozorg B",
+        "Mohanty S",
+        "Soderberg B",
+        "Irback A"
+      ],
+      "auids": [
+        "ORCID: s0000000203548130",
+        "ORCID: s0000000315331390",
+        "ORCID: s000000019822427X",
+        "ORCID: s0000000267989779",
+        "ORCID: s0000000313840626"
+      ],
+      "affiliations": [
+        "Computational Biology and Biological Physics, Department of Astronomy and Theoretical Physics, Lund University, Solvegatan 14A, SE-22362 Lund, Sweden.",
+        "Computational Biology and Biological Physics, Department of Astronomy and Theoretical Physics, Lund University, Solvegatan 14A, SE-22362 Lund, Sweden.",
+        "Institute for Advanced Simulation, Julich Supercomputing Centre, Forschungszentrum Julich, D-52425 Julich, Germany.",
+        "Computational Biology and Biological Physics, Department of Astronomy and Theoretical Physics, Lund University, Solvegatan 14A, SE-22362 Lund, Sweden.",
+        "Computational Biology and Biological Physics, Department of Astronomy and Theoretical Physics, Lund University, Solvegatan 14A, SE-22362 Lund, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nilsson, Daniel",
+        "short_name": "Nilsson D",
+        "identifiers": [
+          "s0000000203548130"
+        ],
+        "affiliations": [
+          "Computational Biology and Biological Physics, Department of Astronomy and Theoretical Physics, Lund University, Sölvegatan 14A, SE-22362 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Bozorg, Behruz",
+        "short_name": "Bozorg B",
+        "identifiers": [
+          "s0000000315331390"
+        ],
+        "affiliations": [
+          "Computational Biology and Biological Physics, Department of Astronomy and Theoretical Physics, Lund University, Sölvegatan 14A, SE-22362 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Mohanty, Sandipan",
+        "short_name": "Mohanty S",
+        "identifiers": [
+          "s000000019822427X"
+        ],
+        "affiliations": [
+          "Institute for Advanced Simulation, Jülich Supercomputing Centre, Forschungszentrum Jülich, D-52425 Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Söderberg, Bo",
+        "short_name": "Söderberg B",
+        "identifiers": [
+          "s0000000267989779"
+        ],
+        "affiliations": [
+          "Computational Biology and Biological Physics, Department of Astronomy and Theoretical Physics, Lund University, Sölvegatan 14A, SE-22362 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Irbäck, Anders",
+        "short_name": "Irbäck A",
+        "identifiers": [
+          "s0000000313840626"
+        ],
+        "affiliations": [
+          "Computational Biology and Biological Physics, Department of Astronomy and Theoretical Physics, Lund University, Sölvegatan 14A, SE-22362 Lund, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2022 Jan 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/10 06:00",
+    "fetched_at": "2026-09-20 07:38:50"
+  },
+  "links": {
+    "cites": [
+      "35471906"
+    ],
+    "refs": [],
+    "similar": [
+      "34998327",
+      "23912807",
+      "25375531",
+      "24784300",
+      "31498431",
+      "22897307",
+      "23862923",
+      "7703376",
+      "17979394",
+      "15974798",
+      "15600673",
+      "19518836",
+      "15260747",
+      "21112274",
+      "24981545",
+      "23410459",
+      "15530044",
+      "1920430",
+      "17929863",
+      "18478584",
+      "20672817",
+      "25215748",
+      "33286983",
+      "29397728",
+      "24880268",
+      "26374063",
+      "23030946",
+      "20079964",
+      "23005883",
+      "15752604",
+      "7893719",
+      "27967143",
+      "20174845",
+      "27498593",
+      "17155776",
+      "16942109",
+      "20364957",
+      "15099838",
+      "28177752",
+      "24588096",
+      "17166038",
+      "17930278",
+      "26194626",
+      "16134169",
+      "22411636",
+      "26233107",
+      "23767652",
+      "16906874",
+      "33639740",
+      "16689690",
+      "18335920",
+      "25702025",
+      "18315086",
+      "12898668",
+      "25215846",
+      "21322731",
+      "17581081",
+      "22025687",
+      "20941735",
+      "23410358",
+      "19275421",
+      "34241264",
+      "17042648",
+      "24716898",
+      "27901606",
+      "32168715",
+      "15533446",
+      "10421520",
+      "20849189",
+      "29323684",
+      "10737929",
+      "14683403",
+      "16361344",
+      "32145952",
+      "14739322",
+      "24697460",
+      "12669774",
+      "24702657",
+      "22885729",
+      "25635563",
+      "34965250",
+      "8061184",
+      "19905345",
+      "16323162",
+      "16383641",
+      "15260521",
+      "17142295",
+      "7568238",
+      "17290360",
+      "11461293",
+      "25233133",
+      "23343284",
+      "25362323",
+      "37849187",
+      "37849159",
+      "37329105",
+      "38611792",
+      "37198847",
+      "36110007",
+      "38905695"
+    ],
+    "review": [
+      "34998327",
+      "1920430",
+      "26194626",
+      "12898668"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-DLC1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-671",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0070412",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

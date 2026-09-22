@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.22.666223",
+  "title": "Machine Learning and Network Analysis to Predict Hypothetical Protein Functions of Aeromonas <i>hydrophila</i>",
+  "authors": "Harun Pirim; Zaidur Rahman; Saviz Saei; Sangam Gyawali; Mohammad Marufuzzaman; Nazanin Tajik; Hasan Tekedar",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-29",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用机器学习与网络分析预测嗜水气单胞菌假设蛋白功能，对象为细菌蛋白且无无序蛋白、PPI机制或AI/物理建模方法，与本课题无关。",
+  "abstract": "Aeromonas hydrophila , antibiotic resistant gram negative bacteria, is a major fish pathogen. Moreover, A. hydrophila is considered to cause 13% of gastroenteritis cases in the United States. Therefore, it is important to identify groups of proteins that are effective in antibiotic resistance and causing mortality in aquaculture. We train machine learning models on existing A. hydrophila genomes to predict functions of 83 carefully filtered hypothetical proteins. Network analysis is conducted to cluster these proteins based on their similarities. Both ML and network analysis inform about possible roles of these proteins in vaccine candidacy and fish mortality.",
+  "abstract_zh": "嗜水气单胞菌（Aeromonas hydrophila），一种耐抗生素的革兰氏阴性细菌，是主要的鱼类病原体。此外，嗜水气单胞菌被认为在美国导致13%的胃肠炎病例。因此，识别在抗生素耐药性和水产养殖中导致死亡率方面有效的蛋白质群组至关重要。我们基于现有的嗜水气单胞菌基因组训练机器学习模型，以预测83个经过仔细筛选的假设蛋白质的功能。进行网络分析以根据这些蛋白质的相似性对其进行聚类。机器学习与网络分析均揭示了这些蛋白质在疫苗候选性和鱼类死亡率中的潜在作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.22.666223",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.22.666223",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.22.666223/index.html"
+}

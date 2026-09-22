@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and acknowledgments. Supplementary figures and tables are referenced but not provided.
+- **Assessment boundary** The review assesses the scientific claims, experimental design, data interpretation, and overall contribution of the manuscript as presented. It does not evaluate the editorial or formatting standards of the journal.
+- **Shared manuscript claim summary** The manuscript proposes that HROB, a known binding partner and activator of the Mcm8/9 helicase involved in interstrand crosslink (ICL) repair, is also implicated in DNA replication. The authors support this via co-expression analyses, cell cycle studies, structural predictions, FRET-based association assays with replication proteins, and overexpression studies showing inhibition of DNA replication.
+- **Visible evidence base** The evidence base includes the full text of the manuscript, including all figures and figure legends as described in the text, and references to supplementary materials. No raw data, supplementary files, or original image files were available for direct inspection.
+- **Missing materials affecting confidence** Supplementary figures (S1–S14) and tables (S1–S6) are referenced but not provided. These include key controls, gating schemes, Western blot images, and statistical details. Without these, the robustness of several claims cannot be fully verified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a well-structured and hypothesis-driven investigation into the role of HROB in DNA replication. The authors combine bioinformatics, cell biology, and biophysical approaches to provide evidence that HROB is a proliferation-associated, chromatin-bound protein that associates with replisome components and whose overexpression strongly inhibits DNA replication. The findings are potentially interesting and align with emerging roles of HROB in replication-coupled repair. However, the study is largely descriptive and correlative, and the mechanistic link between HROB and DNA replication remains speculative. Several technical aspects, particularly the FRET assay and overexpression experiments, require additional validation and controls to firmly establish the claims. The manuscript would benefit from more direct functional experiments, such as replication fork analysis or rescue experiments, to strengthen the proposed model.
+- **Who would be interested in the results, and why** Researchers in the fields of DNA replication, genome stability, DNA repair, and cancer biology would be interested. The study provides new insights into a less-characterized protein, HROB, and its potential role in replication fork dynamics and ICL repair, which are relevant to understanding how cells maintain genomic integrity and how these processes are dysregulated in cancer.
+- **Major strengths** The study addresses a timely and relevant topic with a clear hypothesis. The use of multiple complementary approaches, including bioinformatics, cell synchronization, and FRET-based assays, is commendable. The identification of HROB as a co-regulated gene with replication factors and its S-phase-specific expression is a solid contribution. The structural predictions and evolutionary analysis add value. The overexpression phenotype is striking and suggests a functional role in replication.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that HROB associates with DNA replication proteins (Cdc45, Mcm2, Mcm5, RPA) is based on a flow cytometry FRET assay.
+  - **Evidence pointer** Section 3.4, Figure 4, Supplementary Figures S7–S11
+  - **Concern** The FRET assay is used to infer protein-protein associations, but the manuscript does not provide sufficient details on the validation of the FRET signal. Specifically, the authors do not show that the FRET signal is specific to the interaction of interest and not due to overexpression artifacts or non-specific proximity. The controls described (FRET-positive and negative) are mentioned, but the actual data are in supplementary figures that were not provided. Furthermore, the authors note that FRET efficiency depends on fluorophore orientation, which can lead to false negatives, but they do not address the possibility of false positives. The lack of a positive control for a known interaction in the same experimental setup (beyond Cdc45-Mcm5) and the absence of a competition or mutation experiment to demonstrate specificity weaken the claim.
+  - **Why it matters** The association of HROB with replisome components is a central piece of evidence supporting the proposed role in DNA replication. If the FRET data are not robust, the entire premise of the study is weakened.
+  - **Resolution test** Provide the supplementary figures showing the FRET controls and gating. Include a titration experiment to show that FRET is not dependent on expression level. Perform a competition assay with an unlabeled protein or use a mutant HROB that cannot bind to the proposed partners to show loss of FRET. Alternatively, validate the interaction with an orthogonal method such as co-immunoprecipitation or proximity ligation assay.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that HROB overexpression leads to a "rapid and dramatic reduction in replicative DNA synthesis" and that this is due to a block in replication initiation.
+  - **Evidence pointer** Section 3.5, Figures 5 and 6, Supplementary Figure S14
+  - **Concern** The overexpression experiments show a loss of fluorescent cells and a reduction in EdU incorporation, but the mechanism is not clearly established. The authors argue that the effect is not due to apoptosis or DNA damage, but they do not provide a detailed cell cycle analysis to rule out a G1 or G2 arrest. The statement that "neither a clear accumulation of G1 nor G2 phase cells could be observed" is based on a single time point and may not be conclusive. Furthermore, the authors do not show that the effect is specific to HROB overexpression, as a control with an unrelated protein or a mutant HROB is not shown. The long-term EdU labeling experiment (Figure 6) is informative but does not distinguish between a block in initiation and a block in elongation.
+  - **Why it matters** The overexpression phenotype is a key functional result. Without a clear mechanistic understanding and appropriate controls, the conclusion that HROB is involved in replication initiation is not fully supported.
+  - **Resolution test** Perform a detailed cell cycle analysis with markers for G1, S, and G2 phases at multiple time points after transfection. Include a control with a mutant HROB that cannot interact with replication proteins or an unrelated protein to show specificity. Use DNA fiber analysis to directly measure replication fork initiation and elongation rates in HROB-overexpressing cells.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that HROB is implicated in DNA replication across barriers such as ICLs, based on the presented data and previous reports.
+  - **Evidence pointer** Section 4 (Discussion), Figure 7
+  - **Concern** The proposed model is speculative and goes beyond the data presented. While the authors discuss the possibility that HROB-Mcm8/9 is involved in ICL traverse, they do not provide direct experimental evidence for this in the current study. The connection between the observed FRET associations and the proposed function in ICL repair is not directly tested. The model is plausible but not sufficiently supported by the experimental data.
+  - **Why it matters** The study's significance is partly based on the proposed role in ICL repair, which is a clinically relevant process. If the model is not well-supported, the impact of the study is reduced.
+  - **Resolution test** Provide direct evidence for the role of HROB in ICL traverse, such as by measuring replication fork progression in the presence of ICL-inducing agents in HROB-depleted or overexpressing cells. Alternatively, test the proposed model by examining the localization of HROB and Mcm8/9 at ICL sites.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section 1
+  - **Issue** The abstract and introduction are dense and assume a high level of familiarity with DNA replication and repair terminology. Terms like "Mcm8/9 helicase," "ICL repair," and "FRET" are used without brief explanations, which may limit accessibility to a broader audience.
+  - **Required correction** Provide brief definitions or context for key terms in the abstract and introduction to make the study more accessible to nonspecialists.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.2, Figure 1C
+  - **Evidence pointer** Section 3.2, Figure 1C
+  - **Issue** The structural predictions are based on bioinformatics tools, but the authors do not discuss the limitations of these predictions. The claim that HROB is "largely intrinsically disordered" is based on prediction algorithms, which may not always be accurate.
+  - **Required correction** Acknowledge the limitations of computational predictions and, if possible, provide experimental validation, such as circular dichroism or limited proteolysis, to support the structural claims.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Section 3.3, Figure 3
+  - **Evidence pointer** Section 3.3, Figure 3
+  - **Issue** The cell cycle synchronization experiments show a correlation between HROB expression and S phase, but the authors do not discuss the potential cell-to-cell variability in HROB expression within the synchronized population.
+  - **Required correction** Discuss the potential heterogeneity in HROB expression and its implications for the interpretation of the cell cycle data.
+- **Technical failings that need to be addressed before the case is established** The FRET assay requires more rigorous validation and controls. The overexpression experiments need a more detailed mechanistic analysis and appropriate controls. The proposed model for ICL traverse needs direct experimental support.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The study is original in its focus on HROB's role in DNA replication, which is a relatively unexplored area. The use of a FRET-based approach to study protein associations in live cells is a methodological strength.
+  - **Scientific importance** The findings are potentially important for understanding replication fork dynamics and ICL repair, which are relevant to genome stability and cancer. However, the study is largely descriptive and the mechanistic insights are limited.
+  - **Interdisciplinary readership** The topic is of interest to researchers in DNA replication, repair, and cancer biology, but the technical nature of the study may limit its appeal to a broader interdisciplinary audience.
+  - **Technical soundness** The study uses a range of techniques, but the FRET assay and overexpression experiments have significant technical limitations that need to be addressed. The lack of direct functional assays weakens the conclusions.
+  - **Readability for nonspecialists** The manuscript is well-written but assumes a high level of expertise. The abstract and introduction could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The study addresses a relevant and timely topic with a clear hypothesis and provides some interesting observations. However, the central claims regarding HROB's association with the replisome and its role in replication initiation require stronger experimental support. The proposed model for ICL traverse is speculative and needs direct evidence. If the authors can address these concerns with additional experiments and provide the missing supplementary data, the manuscript could make a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that HROB associates with Cdc45, Mcm2, Mcm5, and RPA is not fully supported without the supplementary FRET data and controls.
+- The claim that HROB overexpression leads to a block in replication initiation is not fully supported without a detailed cell cycle analysis and appropriate controls.
+- The proposed model for HROB's role in ICL traverse is speculative and not directly tested in this study.
+- The structural predictions of HROB as a largely intrinsically disordered protein are based solely on computational tools and lack experimental validation.

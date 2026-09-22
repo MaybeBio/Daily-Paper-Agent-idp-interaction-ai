@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36544481",
+  "title": "In silico and in vitro approaches allow the identification of the Prosystemin molecular network.",
+  "authors": "Natale, Roberto; Coppola, Mariangela; D'Agostino, Nunzio; Zhang, Youjun; Fernie, Alisdair Robert; Castaldi, Valeria; Rao, Rosa",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2022-12-23",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合计算预测与体外实验鉴定番茄Prosystemin（无序蛋白）的蛋白互作网络，虽以实验验证为主、AI/物理模拟方法较浅，但聚焦IDP介导的PPI机制，对本课题有参考价值。",
+  "abstract": "Tomato Prosystemin (ProSys), the precursor of Systemin, a small peptidic hormone, is produced at very low concentration in unchallenged plants, while its expression greatly increases in response to several different stressors triggering an array of defence responses. The molecular mechanisms that underpin such a wide array of defence barriers are not fully understood and are likely correlated with the intrinsically disordered (ID) structure of the protein. ID proteins interact with different protein partners forming complexes involved in the modulation of different biological mechanisms. Here we describe the ProSys-protein network that shed light on the molecular mechanisms underpinning ProSys associated defence responses. Three different approaches were used. In silico prediction resulted in 98 direct interactors, most clustering in phytohormone biosynthesis, transcription factors and signal transduction gene classes. The network shows the central role of ProSys during defence responses, that reflects its role as central hub. In vitro ProSys interactors, identified by Affinity Purification-Mass Spectrometry (AP-MS), revealed over three hundred protein partners, while Bimolecular Fluorescent Complementation (BiFC) experiments validated in vivo some interactors predicted in silico and in vitro. Our results demonstrate that ProSys interacts with several proteins and reveal new key molecular events in the ProSys-dependent defence response of tomato plant.",
+  "abstract_zh": "番茄Prosystemin（ProSys）是Systemin（一种小肽激素）的前体，在未受胁迫的植物中以极低浓度产生，而其表达在响应多种不同胁迫因子时显著增加，触发一系列防御反应。支撑如此广泛防御屏障的分子机制尚未完全阐明，且可能与该蛋白的内在无序（ID）结构相关。ID蛋白与不同蛋白伙伴相互作用，形成参与多种生物机制调节的复合物。本文描述了ProSys-蛋白网络，揭示了支撑ProSys相关防御反应的分子机制。采用了三种不同方法。计算机模拟预测得到98个直接互作因子，大多数聚集在植物激素生物合成、转录因子和信号转导基因类别中。该网络显示ProSys在防御反应中的核心作用，反映其作为中心枢纽的角色。通过亲和纯化-质谱（AP-MS）鉴定的体外ProSys互作因子揭示了超过三百个蛋白伙伴，而双分子荧光互补（BiFC）实验在体内验证了部分计算机模拟和体外预测的互作因子。我们的结果表明，ProSys与多种蛋白相互作用，并揭示了番茄植物ProSys依赖性防御反应中新的关键分子事件。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36544481/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36544481/",
+  "paper_page_path": "papers/pubmed/36544481/index.html"
+}

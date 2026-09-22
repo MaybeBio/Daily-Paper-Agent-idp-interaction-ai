@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41332682",
+  "title": "Impact of N-terminal dimerization on formin homology 1 domain polymer dynamics and actin assembly.",
+  "authors": "Bogue, Katharine; Christian, Bryan; Quinlan, Margot; Allard, Jun",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-12-03",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用粗粒化聚合物模型模拟含IDR的formin FH1域动力学，研究N端二聚化对肌动蛋白组装中PPI结合位点可及性与局部浓度的影响，虽对象为IDR且涉及互作机制建模，但方法为动力学模型而非AI/物理模拟，故评7分。",
+  "abstract": "Many proteins contain intrinsically disordered regions (IDRs) that lack stable 3-dimensional structure. IDR behavior is poorly understood, leading to challenges for biochemical and computational analysis of IDR-containing proteins. Formins are a diverse set of homodimers containing an IDR - the FH1 domain - that facilitates polymerization of the cytoskeletal protein actin by increasing the local concentration of actin monomers at the actin assembly site. A commonly accepted model of formin-based actin polymerization involves a capture-and-deliver process: one or more binding sites (proline-rich motifs, PRMs) \"capture\" actin monomers and then \"deliver\" actin to the actin assembly site. There is evidence that formin FH1 domains are dimerized on both ends, but much research has been performed with formin constructs lacking the N-terminal dimerization site. Here, we ask: What happens when N-terminal dimerization is added to the standard model of formin-mediated actin assembly? We extend the kinetic model of FH1-mediated actin polymerization by incorporating a coarse-grain polymer model of FH1 domain dynamics, modeling the FH1 domain as a freely-jointed chain. We find that N-terminal dimerization can impact polymerization rates by modifying binding site accessibility and/or local concentration of binding sites (PRMs) at the actin assembly site (FH2 domain). Which effect dominates depends on kinetic parameters and formin properties such as FH1 domain length and binding site location. Additionally, we demonstrate that our model can be fit to experimental data and used to make predictions for the effects of N-terminal dimerization on a variety of formin family members.",
+  "abstract_zh": "许多蛋白质含有 intrinsically disordered regions (IDRs)，这些区域缺乏稳定的三维结构。IDR 的行为尚未被充分理解，这给含 IDR 蛋白质的生化和计算分析带来了挑战。Formins 是一类多样的同源二聚体，包含一个 IDR——FH1 结构域——它通过增加肌动蛋白组装位点处肌动蛋白单体的局部浓度，促进细胞骨架蛋白肌动蛋白的聚合。基于 formin 的肌动蛋白聚合的一个普遍接受模型涉及捕获-递送过程：一个或多个结合位点（proline-rich motifs, PRMs）“捕获”肌动蛋白单体，然后将肌动蛋白“递送”到肌动蛋白组装位点。有证据表明，formin FH1 结构域在两端均发生二聚化，但许多研究使用的是缺乏 N 端二聚化位点的 formin 构建体。在此，我们提出疑问：当 N 端二聚化被添加到 formin 介导的肌动蛋白组装的 standard model 中时，会发生什么？我们通过引入 FH1 结构域动力学的粗粒化聚合物模型，将 FH1 结构域建模为 freely-jointed chain，扩展了 FH1 介导的肌动蛋白聚合的动力学模型。我们发现，N 端二聚化可以通过改变结合位点的可及性和/或肌动蛋白组装位点（FH2 结构域）处结合位点（PRMs）的局部浓度来影响聚合速率。哪种效应占主导地位取决于动力学参数和 formin 特性，如 FH1 结构域长度和结合位点位置。此外，我们证明我们的模型可以拟合实验数据，并用于预测 N 端二聚化对多种 formin 家族成员的影响。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41332682/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41332682/",
+  "paper_page_path": "papers/pubmed/41332682/index.html"
+}

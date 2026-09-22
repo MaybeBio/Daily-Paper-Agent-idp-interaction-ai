@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Method, Results, Conclusion, Data/Software availability)
+- **Assessment boundary** Scientific and technical evaluation of the proposed method, experimental design, and reported results. No line numbers were provided; all pointers refer to section or figure names.
+- **Shared manuscript claim summary** The authors propose TriGraphQA, a triple graph neural network framework for model quality assessment of protein complexes. The method explicitly decouples intra-chain folding stability from inter-chain binding specificity by constructing two residue-node graphs for individual monomers and a contact-node graph for the binding interface. An interface context aggregation module projects monomeric embeddings onto interface contacts. The authors report superior performance over existing methods on three benchmark datasets.
+- **Visible evidence base** Abstract, Introduction, Method sections 1-5, Results sections for Dimer50, DBM55-AF2, HAF2, Ablation Study, Conclusion, Data/Software availability statements. Figures 1-3 and Table 1 are referenced but not visible.
+- **Missing materials affecting confidence** Figures 1-3 and Table 1 are referenced but not provided. Training details (hyperparameters, loss function, training time) are absent. Statistical significance testing is not reported. The Dimer50 dataset is not fully described in terms of target diversity. No comparison with consensus-based methods is provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting approach to a relevant problem in structural biology. The triple graph architecture with explicit decoupling of monomeric and interfacial representations is a reasonable design choice, and the proposed interface context aggregation module is novel. However, the current evidence base is insufficient to fully evaluate the method's claims. Key figures and tables are missing, training details are absent, and the experimental comparisons lack statistical rigor. The method section contains a mathematical notation error that needs correction. The claims of superiority over state-of-the-art methods are only partially supported by the reported numbers.
+- **Who would be interested in the results, and why** Computational structural biologists working on protein-protein docking and model quality assessment would be the primary audience. Researchers developing deep learning methods for protein structure prediction and those using AlphaFold or similar tools for complex prediction would also find this work relevant. The method could be of interest to the broader bioinformatics community focused on scoring functions and structure validation.
+- **Major strengths** The conceptual separation of intra-chain and inter-chain features is well motivated and addresses a real limitation of existing graph-based methods. The interface context aggregation module is a thoughtful design that leverages long-range tertiary contacts to inform interface assessment. The authors evaluate on multiple challenging benchmarks including antibody-antigen systems. The ablation study is well designed to isolate the contributions of the proposed components.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method section describes the gated graph convolution mechanism with a specific message-passing formula, but the mathematical expression is incomplete or incorrectly formatted.
+  - **Evidence pointer** Method section 4, Network architecture
+  - **Concern** The gating weight formula is presented as "Where ⨁ denotes element-wise addition, and σ represents the sigmoid function" but the actual mathematical expression is missing. The text jumps from "to produce an attention-like gating weight:" directly to the explanation of symbols without showing the equation. Similarly, the aggregation weighting function in section 5 is described but the formula is not displayed.
+  - **Why it matters** The core technical contribution of the paper cannot be evaluated or reproduced without the precise mathematical formulations. This is a fundamental issue that prevents assessment of the method's validity.
+  - **Resolution test** Provide complete, correctly formatted mathematical expressions for the gating mechanism and the aggregation weighting function. Ensure all symbols are defined and the equations are self-contained.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The results sections report performance metrics and comparisons with state-of-the-art methods, but the supporting figures and tables are not visible in the provided material.
+  - **Evidence pointer** Figures 1-3, Table 1
+  - **Concern** All key results are presented through figures and tables that are not included in the provided manuscript text. The scatter plots, ROC curves, violin plots, and the ablation table are referenced but their content cannot be verified. The numerical values mentioned in the text (e.g., Pearson correlation of 0.534 on Dimer50) cannot be cross-checked against visualizations or error bars.
+  - **Why it matters** The central claims of superior performance rest entirely on these visualizations and tables. Without access to them, the results cannot be independently assessed, and potential issues such as outlier effects, distribution shapes, or overfitting cannot be identified.
+  - **Resolution test** Provide all figures and tables with full captions. Include error bars or confidence intervals where applicable. Ensure axis labels and legends are clear and consistent with the text.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The method is described as a deep learning framework, but essential training details are not provided.
+  - **Evidence pointer** Method sections 1-5
+  - **Concern** The manuscript does not specify the number of training epochs, learning rate, optimizer, batch size, loss function, or any regularization strategies. The train-validation-test split is described but the exact number of training samples after filtering is not stated. Hardware requirements and training time are not mentioned.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without these details, other researchers cannot train or fine-tune the model, and the reported performance cannot be independently verified.
+  - **Resolution test** Add a training details subsection specifying all hyperparameters, optimization settings, and computational resources. State the final training set size and the distribution of quality bins.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor
+  - **Claim pointer** The results claim that TriGraphQA "significantly outperforms" state-of-the-art methods, but no statistical significance testing is reported.
+  - **Evidence pointer** Results sections for Dimer50, DBM55-AF2, HAF2
+  - **Concern** The performance differences between methods are reported as point estimates without any measure of variance or statistical testing. The Dimer50 dataset contains only 50 targets, which is a relatively small sample size. The HAF2 dataset has only 12 targets. No confidence intervals, standard deviations, or p-values are provided for any comparison.
+  - **Why it matters** The claim of "significant" improvement requires statistical support. With small sample sizes, observed differences could be due to chance. The absence of significance testing weakens the central claim of the paper.
+  - **Resolution test** Perform and report statistical significance tests (e.g., paired t-test or Wilcoxon signed-rank test) for all pairwise comparisons. Report confidence intervals for all correlation coefficients and ranking losses.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparison completeness
+  - **Claim pointer** The introduction discusses consensus-based methods as an alternative approach, but no consensus methods are included in the experimental comparison.
+  - **Evidence pointer** Introduction, Results sections
+  - **Concern** The authors acknowledge that consensus-based methods are "gaining increasing attention" and note their advantages in certain scenarios. However, the experimental evaluation only compares against single-model methods (MViewEMA, TopoQA, ComplexQA, DProQA). No consensus-based or quasi-single-model methods are included as baselines.
+  - **Why it matters** A fair evaluation of a new method should include all relevant categories of existing approaches. The omission of consensus methods leaves a gap in the comparative assessment and limits the generalizability of the claimed superiority.
+  - **Resolution test** Include at least one consensus-based method in the comparison, or provide a clear justification for their exclusion based on dataset compatibility or other objective criteria.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Method section 2, Dataset Construction
+  - **Evidence pointer** Method section 2
+  - **Issue** The text states "we removed all complexes with more than 40% sequence identity to the three test datasets" but the direction of filtering is ambiguous. It is unclear whether complexes with greater than 40% identity to any test target were removed from training, or whether test targets with greater than 40% identity to training complexes were removed.
+  - **Required correction** Clarify the direction of redundancy filtering. State explicitly that training complexes with more than 40% sequence identity to any test target were removed, or vice versa.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results section, HAF2 dataset
+  - **Evidence pointer** Results section, Performance Evaluation on the HAF2 Dataset
+  - **Issue** The text refers to "Figures 3A-C" for ROC curves and "Figures 3D-F" for ranking errors and correlations. However, the DBM55-AF2 section refers to "Figure 3A" and "Figure 3B" for different content. This suggests inconsistent figure numbering across sections.
+  - **Required correction** Ensure figure numbering is consistent throughout the manuscript. Re-number figures if necessary and verify all in-text references.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Data availability
+  - **Evidence pointer** Data availability section
+  - **Issue** Only the Dimer50 dataset is made publicly available. The DBM55-AF2 and HAF2 datasets are referenced but no access information is provided for these benchmarks.
+  - **Required correction** Provide access information for all three benchmark datasets, or state clearly where the other datasets can be obtained (e.g., original publications).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Method section 5, Interface context aggregation module
+  - **Evidence pointer** Method section 5
+  - **Issue** The text states the final embedding dimension is "256-dimensional (128±64±64)". The use of "±" is unconventional for describing concatenation and could be misinterpreted as addition or subtraction.
+  - **Required correction** Replace "±" with "+" or explicitly state "concatenation of 128, 64, and 64 dimensional vectors".
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section, Dimer50 dataset
+  - **Evidence pointer** Results section, Performance Evaluation on the Dimer50 Dataset
+  - **Issue** The text mentions "a model pool containing 55 decoys" for each target. It is unclear whether this pool size is consistent across all datasets and whether the pool composition (e.g., distribution of quality bins) is balanced.
+  - **Required correction** State the decoy pool size for each dataset and describe the quality distribution of decoys in each pool.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing mathematical formulations) and R1-M2 (missing figures and tables) are the most critical. Without the equations, the method cannot be evaluated. Without the figures and tables, the results cannot be verified. These must be addressed before the case for the method's effectiveness can be established.
+
+## Risk / unsupported claims
+- The claim that TriGraphQA "significantly outperforms" state-of-the-art methods is unsupported without statistical significance testing.
+- The claim that the interface context aggregation module effectively "fuses multi-scale structural features" cannot be fully evaluated without the mathematical formulation.
+- The claim that the method "provides a powerful evaluation tool for protein-protein docking" is an extrapolation beyond the presented evidence, as the method is only tested on three benchmarks and not in an actual docking pipeline context.
+- The performance on DBM55-AF2 and HAF2 datasets is reported without visible figures, making these results unverifiable from the provided material.
+- The ablation study conclusions are based on Table 1, which is not visible, making the claims about component contributions unverifiable.

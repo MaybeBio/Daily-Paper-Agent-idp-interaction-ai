@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that phosphorylation of the Tau protein at specific residues within and near the BIN1 SH3 binding motif differentially modulates binding affinity, and that phosphorylation outside the binding region can reduce affinity through phosphorylation-induced conformational compaction of the Tau peptide, as supported by NMR spectroscopy and molecular dynamics simulations
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, spectra, or simulation parameters are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, NMR data and analysis details, MD simulation protocols and validation metrics, binding assay methods and replicates, statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically interesting hypothesis that phosphorylation can modulate protein-protein interactions not only through direct electrostatic or steric effects at the binding interface but also through long-range conformational changes in an intrinsically disordered protein. The finding that phosphorylation at T231 and S235, which lie outside the BIN1 SH3-bound region, reduces affinity is potentially novel and could have implications for understanding how post-translational modifications regulate disordered protein interactions. However, the abstract alone provides insufficient detail to evaluate the rigor of the experimental approach, the quality of the NMR and MD data, or the statistical robustness of the affinity measurements. The claim that conformational compaction is the causal mechanism for reduced binding is plausible but not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying Tau protein biology and Alzheimer's disease mechanisms, particularly those interested in post-translational modification effects on intrinsically disordered proteins. The work also has relevance for the broader community investigating how phosphorylation regulates protein-protein interactions beyond simple electrostatic effects, and for structural biologists using NMR and MD to study disordered protein conformations.
+- **Major strengths** The study addresses a significant and unresolved question in AD research, namely the molecular mechanism by which Tau phosphorylation affects its interactions. The combination of binding affinity measurements, NMR spectroscopy, and MD simulations provides a multi-pronged approach. The observation that phosphorylation outside the binding site can modulate affinity through conformational changes is conceptually interesting and could shift thinking about how disordered proteins are regulated.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that combined phosphorylation of T231 and S235 leads to a 3-fold reduction in affinity for BIN1 SH3 binding, and that this is due to compaction of the phosphorylated peptide from increased salt bridge formation, which decreases accessibility of the binding site
+  - **Evidence pointer** Abstract text; specific figures and tables not provided
+  - **Concern** The causal link between phosphorylation-induced conformational compaction and reduced binding affinity is asserted but not rigorously demonstrated. The abstract states that MD simulations showed compaction and that this "might indirectly impact" binding, yet the conclusion is presented as a mechanistic explanation. No quantitative correlation between the degree of compaction and the affinity change is provided, and alternative explanations such as phosphorylation-induced changes in the conformational ensemble that reduce the population of binding-competent states are not excluded.
+  - **Why it matters** The central novelty of the work rests on establishing that long-range conformational effects, rather than local electrostatic or steric effects, mediate the affinity reduction. Without direct evidence linking the conformational change to the binding defect, the mechanistic claim remains speculative.
+  - **Resolution test** Provide quantitative analysis showing that the extent of compaction correlates with the magnitude of affinity reduction across the different phosphorylation states, or demonstrate through mutagenesis or other perturbations that disrupting the salt bridges that drive compaction abolishes the phosphorylation-dependent affinity change.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that NMR spectroscopy showed the phosphorylations affect local secondary structure and dynamics of the Tau(210-240) peptide
+  - **Evidence pointer** Abstract text; NMR data not provided
+  - **Concern** No details are given regarding which NMR observables were measured, how secondary structure propensities were quantified, or how dynamics were characterized. For an intrinsically disordered peptide, NMR chemical shift perturbations and relaxation measurements can be subtle, and the interpretation of "local secondary structure" changes requires careful analysis. Without these details, the robustness of the structural conclusions cannot be assessed.
+  - **Why it matters** The NMR data constitute the experimental foundation for the conformational claims. If the NMR analysis is not rigorous, the entire structural interpretation is weakened.
+  - **Resolution test** Provide the specific NMR parameters measured, the analysis methods used to derive secondary structure propensities and dynamics, and show representative spectra or derived quantities for the unphosphorylated and phosphorylated peptides.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract reports that single phosphorylation at T217 led to a 6-fold reduction in affinity, while phosphorylation at T212, T231, or S235 had no effect, and combined T231/S235 phosphorylation led to a 3-fold reduction
+  - **Evidence pointer** Abstract text; binding assay details not provided
+  - **Concern** The affinity measurements are reported as fold changes without any indication of the assay method, the number of replicates, the error bars, or the statistical significance of the differences. A 3-fold change is modest and could be within experimental variability depending on the assay.
+  - **Why it matters** The differential effects of the phosphorylation sites are a key part of the story. If the affinity measurements are not statistically robust, the conclusion that T231/S235 phosphorylation has a genuine effect while single T231 or S235 phosphorylation does not could be unreliable.
+  - **Resolution test** Provide the assay details, replicate numbers, error estimates, and statistical tests demonstrating that the reported fold changes are significant and reproducible.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses the term "proline-rich motif" and defines it as (216)PTPP(219) but does not explain the significance of this motif for readers unfamiliar with SH3 domain recognition.
+  - **Required correction** Briefly state that SH3 domains typically recognize proline-rich sequences, which would help contextualize why this specific motif is relevant.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not discuss the potential physiological relevance of the T231/S235 phosphorylation effect, such as whether these phosphorylation events occur in disease contexts or are regulated by specific kinases.
+  - **Required correction** Add a sentence noting whether T231 and S235 phosphorylation have been observed in AD or related conditions, which would strengthen the significance of the finding.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that MD simulations were "validated by experimental data" but does not specify which experimental data were used for validation or how the validation was performed.
+  - **Required correction** Specify the experimental observables used for validation and the criteria for agreement between simulation and experiment.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic claim and the structural evidence base cannot be evaluated from the abstract alone. R1-M3 is also important because the affinity measurements underpin the differential phosphorylation effects.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept that phosphorylation outside a binding site can modulate affinity through conformational changes in a disordered protein is not entirely new but is applied here to a specific and biologically important system. The work is moderately original.
+  - Scientific importance: The Tau-BIN1 interaction is relevant to AD, and understanding how phosphorylation regulates this interaction could have implications for disease mechanisms. The importance is significant but not exceptional.
+  - Interdisciplinary readership: The work bridges biochemistry, structural biology, and computational simulation, which could appeal to a broad audience. However, the abstract is written in a specialized manner that may limit accessibility.
+  - Technical soundness: Cannot be fully assessed from the abstract. The multi-method approach is appropriate, but the lack of detail on NMR analysis, MD validation, and binding assay statistics prevents a definitive evaluation.
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with Tau biology, SH3 domains, and NMR methods. It is not readily accessible to a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a reasonable experimental strategy, but the lack of methodological detail and the speculative causal link between conformational compaction and affinity reduction prevent a supportive recommendation. The authors should be encouraged to provide the full data and analysis to substantiate their claims.
+
+## Risk / unsupported claims
+- The claim that phosphorylation-induced compaction of the Tau peptide decreases accessibility of the BIN1 SH3 binding site is presented as a mechanistic conclusion but is only supported by a correlation from MD simulations and is explicitly hedged in the abstract with "might indirectly impact." This is an unsupported causal claim.
+- The claim that NMR spectroscopy showed effects on "local secondary structure and dynamics" is unverifiable without the underlying data and analysis.
+- The reported affinity fold changes (6-fold and 3-fold) are presented without statistical context, making their reliability unassessable.
+- The statement that MD simulations were "validated by experimental data" is vague and cannot be evaluated without specifying the validation approach.

@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, references cited in text)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and internal consistency of the provided manuscript. No external data or unpublished references were consulted.
+- **Shared manuscript claim summary** The authors modulate hydrophobicity and charge of the pluripotency transcription factors SOX2 and ESRRB, and combine single-molecule imaging with genomic analyses to dissect target search dynamics. They report that increased hydrophobicity impairs specific binding while promoting confined intranuclear interactions, that additional negative charges decrease sampling of weak binding sites, and that SOX2 facilitates ESRRB target search by restricting its diffusion and promoting stable binding.
+- **Visible evidence base** Results sections on variant characterization, single-molecule tracking, ChIP-seq, and cooperative binding analyses; methods sections on cell culture, plasmid construction, imaging, and data analysis. Figures referenced but not fully visible in the provided text.
+- **Missing materials affecting confidence** Figure panels and supplementary figures are referenced but not provided in full; specific numerical values for key measurements (e.g., diffusion coefficients, residence times, ChIP-seq enrichment scores) are not fully reported in the text; statistical details for several comparisons are incomplete.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in transcription factor biology: how intrinsic biophysical properties and cooperative interactions shape target search. The combination of engineered TF variants with single-molecule imaging and genomics is a powerful and timely approach. The central finding that SOX2 facilitates ESRRB search through diffusion restriction and stabilization of binding is potentially significant. However, several technical concerns and interpretive gaps need to be addressed before the conclusions are fully supported. The distinction between specific and non-specific binding, the quantitative basis for the search time calculations, and the generalizability of the findings to endogenous protein levels require clarification.
+- **Who would be interested in the results, and why** Researchers in transcription factor dynamics, single-molecule biophysics, chromatin biology, and stem cell biology would find these results of interest. The work speaks to fundamental mechanisms of target search in the nucleus and has implications for understanding how TF cooperativity and physicochemical properties shape gene regulatory networks. The methodological framework combining engineered variants with imaging and genomics could be adopted by others in the field.
+- **Major strengths** The study uses a well-designed approach to perturb specific physicochemical properties without altering the native DNA-binding domain. The combination of single-molecule tracking with ChIP-seq provides complementary views of search dynamics and genomic occupancy. The comparison of two TFs with different intrinsic properties is informative. The use of spike-in normalization for ChIP-seq and careful control of expression levels are commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the three-component Brownian diffusion model with bound, slow, and fast populations is the best fit for their data, and that the bound fraction includes both specific and transient binding events.
+  - **Evidence pointer** Results section "TF hydrophobicity promotes slow and constrained diffusion"; Methods section "Single molecule data analysis"; Supplementary Tables 2-3
+  - **Concern** The manuscript does not provide sufficient detail on how the three-component model was validated against alternative models (e.g., two-component or anomalous diffusion models). The assignment of the bound fraction to both specific and transient events is ambiguous, and the manuscript does not clearly separate these two populations in the subsequent analysis. The criteria for distinguishing bound from slow-diffusing molecules are not fully described.
+  - **Why it matters** The interpretation of all subsequent results, including residence times, search times, and the effects of hydrophobicity and charge, depends critically on the correct assignment of molecules to these diffusive states. If the model is misspecified, the quantitative conclusions about binding stability and search efficiency could be substantially affected.
+  - **Resolution test** Provide model comparison statistics (e.g., AIC or BIC) for the three-component model versus alternatives. Clearly define the physical basis for each diffusive state and provide validation that the bound state corresponds to DNA binding (e.g., colocalization with chromatin or competition with unlabeled ligand). Show how the bound fraction is partitioned into specific and transient events.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors calculate target search times using an equilibrium binding model and report that SOX2wt and ESRRBwt require the same time to find a specific target, while hydrophobic variants show reduced search times.
+  - **Evidence pointer** Results section "TF hydrophobicity promotes slow and constrained diffusion"; Methods section "Single molecule data analysis"; Supplementary Tables 3-4
+  - **Concern** The search time calculation relies on assumptions about the number of non-specific binding events and the duration of these events. The manuscript does not provide the raw values for these parameters, nor does it explain how the equilibrium binding model was parameterized for each variant. The distinction between specific and non-specific binding sites in the model is not clearly defined, and the manuscript does not address how the model accounts for the complexity of chromatinized DNA.
+  - **Why it matters** The search time is a central quantitative output of the study. If the model parameters are not well constrained or the assumptions are not justified, the reported differences in search efficiency between variants and conditions may not be reliable.
+  - **Resolution test** Provide the full set of model parameters for each condition, including the number of non-specific binding events, the residence times of these events, and the assumed concentration of specific binding sites. Perform sensitivity analysis to show how search time estimates change with reasonable variations in these parameters. Validate the model against an independent measure of search efficiency if possible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that ESRRB binding depends more on SOX2 than vice versa, based on the observation that 60% of ESRRB targets lose binding upon SOX2 depletion, while only 38% of SOX2 targets lose binding upon ESRRB depletion.
+  - **Evidence pointer** Results section "Cooperative binding of SOX2 and ESRRB at shared target regions"; Figure 6
+  - **Concern** The comparison of the two depletion experiments may not be directly quantitative, as the efficiency of SOX2 depletion versus ESRRB depletion, the time course of depletion, and the potential for indirect effects on cell state or chromatin accessibility are not fully controlled. The manuscript does not report the extent of protein depletion achieved in each condition, nor does it address whether the observed changes in binding are direct or indirect.
+  - **Why it matters** The conclusion of asymmetric dependence is a key biological finding. If the depletion efficiencies or kinetics differ between the two conditions, the apparent asymmetry could be an artifact of the experimental system rather than a true biological property.
+  - **Resolution test** Report the extent and kinetics of SOX2 and ESRRB depletion in each condition. Include control experiments showing that the observed changes in binding are not due to indirect effects on cell identity or chromatin state. Consider using an orthogonal approach, such as degron tags, to achieve more controlled and comparable depletion.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the hydrophobic and charged variants do not alter the folding or DNA binding specificity of SOX2 and ESRRB, based on AlphaFold 3 predictions.
+  - **Evidence pointer** Results section "Characterization of SOX2 and ESRRB charge and hydrophobicity variants"; Figure S1C-G
+  - **Concern** AlphaFold 3 predictions are computational and do not provide experimental validation of protein folding, stability, or DNA binding specificity. The manuscript does not include experimental evidence, such as electrophoretic mobility shift assays, DNA pulldowns, or structural studies, to support the claim that the variants retain native function.
+  - **Why it matters** The interpretation of the imaging and genomics data depends on the assumption that the observed changes in behavior are due to the intended physicochemical perturbations and not to misfolding or altered DNA specificity. Without experimental validation, this assumption is not secure.
+  - **Resolution test** Provide experimental evidence that the variants retain DNA binding specificity and overall folding, such as EMSA with known target sequences, limited proteolysis, or circular dichroism. At minimum, show that the variants can bind to known target loci in cells.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, paragraph 2
+  - **Issue** The introduction cites several studies without full references (e.g., "Shin et al., 2016", "Zhang et al., 2024", "Williams et al., 2025"). This makes it difficult for readers to locate the primary literature.
+  - **Required correction** Provide full citations for all referenced studies, including those cited parenthetically in the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Single molecule data analysis"
+  - **Evidence pointer** Methods section "Single molecule data analysis"
+  - **Issue** The description of the HMM-based classification of bound versus free segments is brief. The manuscript does not specify the number of states used in the HMM, the criteria for state assignment, or how the residual bound fraction was estimated.
+  - **Required correction** Provide a more detailed description of the HMM analysis, including the number of states, the parameters used, and the validation of the classification approach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The discussion of the physiological relevance of the findings could be expanded. The authors note that the perturbations may push properties beyond the physiological range, but do not discuss how the observed effects might scale to endogenous protein levels and modifications.
+  - **Required correction** Add a paragraph discussing the potential physiological relevance of the findings, including how the magnitude of the observed effects might relate to natural variation in TF properties and post-translational modifications.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Characterization of SOX2 and ESRRB charge and hydrophobicity variants"
+  - **Evidence pointer** Results section "Characterization of SOX2 and ESRRB charge and hydrophobicity variants"
+  - **Issue** The text states that the ESRRBneg variant could not be expressed at detectable levels, but does not discuss the potential implications of this failure for the interpretation of the charge-related results.
+  - **Required correction** Briefly discuss why the ESRRBneg variant may have failed to express and how this limitation affects the interpretation of the charge-related findings.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model validation for diffusion states), R1-M2 (parameterization and validation of search time model), R1-M4 (experimental validation of variant folding and specificity). These are the primary technical issues that must be resolved.
+- **Assessment against Nature-style criteria** Originality: The approach of systematically perturbing physicochemical properties and linking them to search dynamics is novel and timely. Scientific importance: The question of how TF properties and cooperativity shape target search is of broad significance. Interdisciplinary readership: The work bridges biophysics, genomics, and stem cell biology, and should appeal to a broad audience. Technical soundness: The experimental design is generally sound, but the concerns above regarding model validation and variant characterization need to be addressed. Readability for nonspecialists: The manuscript is generally well-written, but some sections, particularly the methods, assume significant expertise in single-molecule imaging and modeling.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially significant, but the current evidence does not fully establish the quantitative conclusions about search times and the asymmetric dependence of ESRRB on SOX2. Addressing the technical concerns would substantially strengthen the manuscript.
+
+## Risk / unsupported claims
+- The claim that hydrophobic variants show reduced target search times is not fully supported without detailed model parameterization and sensitivity analysis.
+- The claim that ESRRB binding depends more on SOX2 than vice versa is not fully supported without controlling for depletion efficiency and kinetics.
+- The claim that the variants retain native folding and DNA binding specificity is not experimentally validated.
+- The claim that increased hydrophobicity promotes confined intranuclear interactions is supported by the imaging data, but the mechanistic basis for this effect is not fully explored.
+- The generalizability of the findings to endogenous protein levels and to other TF families is not established.

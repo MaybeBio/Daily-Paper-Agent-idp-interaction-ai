@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract, without access to full methods, figures, or statistical details
+- **Shared manuscript claim summary** The authors report identification of novel, unannotated RAPGEF1 (C3G) transcripts arising from cassette exon inclusion at two splicing hotspots, with tissue-specific and differentiation-dependent expression in mouse. They further predict that these cassette exons encode intrinsically disordered, phosphorylatable serine-rich segments that alter intra-molecular interactions and RAP1A binding, suggesting a regulatory role.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, quantification and statistical analyses, validation data for transcript detection, phosphorylation evidence, and structural prediction details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding regarding alternative splicing of RAPGEF1 with tissue-specific and developmental regulation. However, the evidence base is limited to a summary, and several key claims, particularly regarding functional predictions, are not verifiable from the supplied material. The work may be of interest to researchers studying C3G signaling and splicing regulation, but the current abstract does not provide sufficient detail to assess technical rigor or the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers in cell signaling, particularly those studying guanine nucleotide exchange factors and RAP1 signaling, as well as investigators interested in alternative splicing and intrinsically disordered protein regions. The tissue-specific and differentiation-dependent expression patterns may also appeal to developmental biologists.
+- **Major strengths** The abstract addresses a gap in knowledge regarding RAPGEF1 isoform expression in mouse tissues. The identification of unannotated transcripts and the focus on cassette exons encoding disordered regions is a novel angle. The use of multiple approaches, including experimental differentiation assays and in silico structural predictions, suggests a multifaceted investigation.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We detected the presence of unannotated, and unpredicted transcripts with incorporation of cassette exons in various combinations, specifically in the heart, brain, testis and skeletal muscle."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims detection of novel transcripts but provides no information on the methods used, such as RNA-seq, RT-PCR, or isoform-specific validation. Without details on primer design, sequencing depth, or confirmation of transcript identity, the reliability of these detections cannot be assessed.
+  - **Why it matters** False-positive detection of splicing variants is a common issue, and unannotated transcripts require rigorous validation to rule out artifacts. The core novelty of the paper rests on these detections.
+  - **Resolution test** Provide details on detection methodology, including validation by independent methods, and show representative evidence for each novel transcript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The cassette exons encode a serine-rich polypeptide chain, which is intrinsically disordered, and undergoes phosphorylation."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim that the cassette exons encode a phosphorylated protein is stated without any experimental evidence. It is unclear whether phosphorylation was demonstrated biochemically or inferred from sequence analysis.
+  - **Why it matters** Phosphorylation is a functional claim that requires direct evidence, such as mass spectrometry or phospho-specific antibodies. If inferred, the claim is overstated.
+  - **Resolution test** Show experimental data demonstrating phosphorylation of the isoform-specific region, or revise the claim to indicate prediction only.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "In silico structural analysis using AlphaFold indicated that the presence of cassette exons alters intra-molecular interactions, important for regulating catalytic activity. LZerD based docking studies predicted that the isoforms with one or more cassette exons differ in interaction with their target GTPase, RAP1A."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The functional predictions from AlphaFold and LZerD are presented as if they support a regulatory role, but no details on the models, confidence scores, or validation are provided. These are computational predictions and should be clearly framed as hypotheses, not conclusions.
+  - **Why it matters** Overinterpretation of in silico results can mislead readers and overstate the significance of the findings. The abstract's conclusion that cassette exon inclusion is "an additional means of regulating RAPGEF1 activity" is not supported by the evidence described.
+  - **Resolution test** Clearly distinguish predictions from experimental findings, and provide model confidence metrics or experimental validation of altered activity or binding.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The background states RAPGEF1 is "essential for early development" but does not explain why this is relevant to the splicing findings.
+  - **Required correction** Add a sentence linking the developmental importance to the potential significance of isoform switching during differentiation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Conclusions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The conclusion that cassette exon inclusion regulates RAPGEF1 activity is speculative given the lack of functional assays.
+  - **Required correction** Soften the conclusion to state that the findings "suggest a potential regulatory role" and note that functional validation is needed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "isoform switching" during differentiation but does not specify how this was quantified or whether it was statistically significant.
+  - **Required correction** Include a brief description of quantification methods and significance criteria in the abstract or refer to figures.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The detection of novel transcripts, the phosphorylation claim, and the functional predictions all require additional evidence or clearer framing as hypotheses.
+- **Assessment against Nature-style criteria** 
+  - Originality: The focus on cassette exons encoding disordered regions in RAPGEF1 is a novel contribution, but the abstract does not demonstrate how this advances beyond existing splicing studies.
+  - Scientific importance: The findings could be important for understanding RAPGEF1 regulation, but the lack of functional validation limits the current impact.
+  - Interdisciplinary readership: The topic may appeal to signaling and splicing researchers, but the abstract is too specialized for a broad audience.
+  - Technical soundness: Not assessable from the abstract; key claims lack methodological detail and validation.
+  - Readability for nonspecialists: The abstract is dense and assumes familiarity with RAPGEF1 and splicing terminology, which may hinder accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting observations, but the lack of methodological detail and the overinterpretation of computational predictions prevent a supportive recommendation. The authors should provide full experimental evidence and temper functional claims.
+
+## Risk / unsupported claims
+- The detection of "unannotated, and unpredicted transcripts" is unsupported without methodological details.
+- The claim that cassette exons "undergo phosphorylation" is unsupported without experimental evidence.
+- The prediction that cassette exons "alter intra-molecular interactions, important for regulating catalytic activity" is unsupported and presented as fact.
+- The conclusion that cassette exon inclusion is "an additional means of regulating RAPGEF1 activity" is not supported by the evidence described in the abstract.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33982350",
+  "title": "Arginine multivalency stabilizes protein/RNA condensates.",
+  "authors": "Paloni, Matteo; Bussi, Giovanni; Barducci, Alessandro",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2021-05-14",
+  "window": {
+    "start": "2021-05-10",
+    "end": "2021-05-16"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用显式溶剂原子级分子动力学模拟揭示精氨酸多价性稳定蛋白/RNA凝聚体的微观机制，直接聚焦IDR/相分离中的PPI机制建模，方法为物理模拟，高度契合课题。",
+  "abstract": "Biomolecular condensates assembled through liquid-liquid phase separation (LLPS) of proteins and RNAs are currently recognized to play an important role in cellular organization. Their assembly depends on the formation of a network of transient, multivalent interactions between flexible scaffold biomolecules. Understanding how protein and RNA sequences determine these interactions and ultimately regulate the phase separation is an open key challenge. Recent in vitro studies have revealed that arginine and lysine residues, which are enriched in most cellular condensates, have markedly distinct propensities to drive the LLPS of protein/RNA mixtures. Here, we employ explicit-solvent atomistic molecular dynamics simulations to shed light on the microscopic origin of this difference by investigating mixtures of polyU oligonucleotides with either polyR/polyK peptides. In agreement with experiments, our simulations indicate that arginine has a higher affinity for polyU than lysine both in highly diluted conditions and in concentrated solutions with a biomolecular density comparable to cellular condensate. The analysis of intermolecular contacts suggests that this differential behavior is due to the propensity of arginine side chains to simultaneously form a higher number of specific interactions with oligonucleotides, including hydrogen bonds and stacking interactions. Our results provide a molecular description of how the multivalency of the guanidinium group enables the coordination of multiple RNA groups by a single arginine residue, thus ultimately stabilizing protein/RNA condensates.",
+  "abstract_zh": "通过蛋白质和RNA的液-液相分离（liquid-liquid phase separation, LLPS）组装的生物分子凝聚体，目前被认为在细胞组织中发挥重要作用。它们的组装依赖于柔性支架生物分子之间瞬时、多价相互作用的网络形成。理解蛋白质和RNA序列如何决定这些相互作用并最终调控相分离，是一个开放的关键挑战。最近的体外研究表明，大多数细胞凝聚体中富集的精氨酸和赖氨酸残基，在驱动蛋白质/RNA混合物的LLPS方面具有显著不同的倾向。在此，我们采用显式溶剂原子级分子动力学（molecular dynamics）模拟，通过研究polyU寡核苷酸与polyR/polyK肽的混合物，揭示这种差异的微观起源。与实验一致，我们的模拟表明，在高度稀释条件下以及在生物分子密度与细胞凝聚体相当的浓缩溶液中，精氨酸对polyU的亲和力高于赖氨酸。分子间接触分析表明，这种差异行为源于精氨酸侧链倾向于同时与寡核苷酸形成更多特异性相互作用，包括氢键和堆叠相互作用。我们的结果提供了分子层面的描述，说明胍基的多价性使单个精氨酸残基能够协调多个RNA基团，从而最终稳定蛋白质/RNA凝聚体。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33982350/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33982350/",
+  "paper_page_path": "papers/pubmed/33982350/index.html"
+}

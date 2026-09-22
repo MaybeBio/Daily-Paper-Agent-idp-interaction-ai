@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34680137",
+  "title": "DIPEND: An Open-Source Pipeline to Generate Ensembles of Disordered Segments Using Neighbor-Dependent Backbone Preferences.",
+  "authors": "Harmat, Zita; Dudola, Daniel; Gaspari, Zoltan",
+  "journal": "Biomolecules",
+  "published_date": "2021-10-24",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出一个开源流水线DIPEND，利用邻依赖骨架偏好生成无序蛋白片段的构象池，用于基于实验数据选择集合模型，虽未直接建模PPI，但为IDR构象采样和后续互作机制建模提供了可迁移的物理模拟方法。",
+  "abstract": "Ensemble-based structural modeling of flexible protein segments such as intrinsically disordered regions is a complex task often solved by selection of conformers from an initial pool based on their conformity to experimental data. However, the properties of the conformational pool are crucial, as the sampling of the conformational space should be sufficient and, in the optimal case, relatively uniform. In other words, the ideal sampling is both efficient and exhaustive. To achieve this, specialized tools are usually necessary, which might not be maintained in the long term, available on all platforms or flexible enough to be tweaked to individual needs. Here, we present an open-source and extendable pipeline to generate initial protein structure pools for use with selection-based tools to obtain ensemble models of flexible protein segments. Our method is implemented in Python and uses ChimeraX, Scwrl4, Gromacs and neighbor-dependent backbone distributions compiled and published previously by the Dunbrack lab. All these tools and data are publicly available and maintained. Our basic premise is that by using residue-specific, neighbor-dependent Ramachandran distributions, we can enhance the efficient exploration of the relevant region of the conformational space. We have also provided a straightforward way to bias the sampling towards specific conformations for selected residues by combining different conformational distributions. This allows the consideration of a priori known conformational preferences such as in the case of preformed structural elements. The open-source and modular nature of the pipeline allows easy adaptation for specific problems. We tested the pipeline on an intrinsically disordered segment of the protein Cd3ϵ and also a single-alpha helical (SAH) region by generating conformational pools and selecting ensembles matching experimental data using the CoNSEnsX+ server.",
+  "abstract_zh": "基于集合的柔性蛋白质片段（如 intrinsically disordered regions）结构建模是一项复杂任务，通常通过根据实验数据的一致性从初始构象池中选择构象来解决。然而，构象池的性质至关重要，因为构象空间的采样应充分且，在理想情况下，相对均匀。换言之，理想采样既高效又全面。为实现这一点，通常需要专门工具，但这些工具可能长期未维护、并非在所有平台上可用，或不够灵活以适应个体需求。在此，我们提出一个开源且可扩展的流程，用于生成初始蛋白质结构池，以供基于选择的工具使用，从而获得柔性蛋白质片段的集合模型。我们的方法以Python实现，并使用ChimeraX、Scwrl4、Gromacs以及Dunbrack实验室先前编译和发布的邻位依赖性骨架分布。所有这些工具和数据均公开可用且持续维护。我们的基本前提是，通过使用残基特异性、邻位依赖性的Ramachandran分布，我们可以增强对构象空间相关区域的高效探索。我们还提供了一种直接的方法，通过组合不同构象分布，对选定残基的采样偏向特定构象。这允许考虑先验已知的构象偏好，例如在预形成结构元件的情况下。该流程的开源和模块化特性使其易于针对特定问题进行适应。我们在蛋白质Cd3ϵ的 intrinsically disordered segment 和单α螺旋（SAH）区域上测试了该流程，通过生成构象池并使用CoNSEnsX+服务器选择与实验数据匹配的集合。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34680137/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34680137/",
+  "paper_page_path": "papers/pubmed/34680137/index.html"
+}

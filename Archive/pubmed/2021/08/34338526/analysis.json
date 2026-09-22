@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34338526",
+  "title": "Effects of Weak Nonspecific Interactions with ATP on Proteins.",
+  "authors": "Nishizawa, Mayu; Walinda, Erik; Morimoto, Daichi; Kohn, Benjamin; Scheler, Ulrich; Shirakawa, Masahiro; Sugase, Kenji",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2021-08-03",
+  "window": {
+    "start": "2021-08-02",
+    "end": "2021-08-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合NMR与MD模拟研究ATP与多种蛋白（含α-突触核蛋白等IDP）的弱非特异性互作及其对蛋白表面水合的影响，虽非PPI机制建模，但无序蛋白对象与MD方法对本课题有启发。",
+  "abstract": "Adenosine triphosphate (ATP) is an immensely well-studied metabolite serving multiple key biochemical roles as the major chemical energy currency in living systems, a building block of ribonucleic acids, and a phosphoryl group donor in kinase-mediated signaling. Intriguingly, ATP has been recently proposed to act as a hydrotrope that inhibits aggregation of amyloidogenic proteins; however, the underlying mechanism and the general physicochemical effect that coexistence with ATP exerts on proteins remain unclear. By combining NMR spectroscopy and MD simulations, here we observed weak but unambiguously measurable and concentration-dependent noncovalent interactions between ATP and various proteins. The interactions were most pronounced for an intrinsically disordered protein (alpha-synuclein) and for residues in flexible regions (e.g., loops or termini) of two representative folded proteins (ubiquitin and the dimeric ubiquitin-binding domain of p62). As shown by solution NMR, a consequence of the ATP-protein interaction was altered hydration of solvent-exposed residues in the protein. The observation that ATP interacted with all three proteins suggests that ATP is a general nonspecific binder of proteins. Several complementary biophysical methods further confirmed that, at physiological concentrations of  approximately 5-10 mM, ATP starts to form oligomeric states via magnesium-chelating and chelation-independent mechanisms, in agreement with previous studies. Although the observed ATP-protein interaction was relatively weak overall, the high ratio of ATP (monomeric free ATP, mono- and divalent ion-bound ATP, oligomeric and chelated ATP) to proteins in cells suggests that most proteins are likely to encounter transient interactions with ATP (and chemically similar metabolites) that confer metabolite-mediated protein surface protection.",
+  "abstract_zh": "三磷酸腺苷（ATP）是一种被广泛研究的代谢物，在生命系统中扮演多种关键生化角色，包括作为主要化学能量货币、核糖核酸的构建模块，以及激酶介导信号传导中的磷酸基供体。有趣的是，近期有研究提出ATP可作为水溶助剂，抑制淀粉样蛋白的聚集；然而，其潜在机制以及与ATP共存对蛋白质产生的普遍物理化学效应仍不清楚。通过结合核磁共振波谱（NMR spectroscopy）和分子动力学（MD simulations）模拟，我们在此观察到ATP与多种蛋白质之间存在微弱但明确可测且浓度依赖的非共价相互作用。这些相互作用在 intrinsically disordered protein（alpha-synuclein）以及两个代表性折叠蛋白（ubiquitin 和 p62 的二聚泛素结合域）的柔性区域（如环区或末端）残基中最为显著。如溶液核磁共振所示，ATP-蛋白质相互作用的一个后果是蛋白质中溶剂暴露残基的水合作用发生改变。ATP与所有三种蛋白质相互作用的观察结果表明，ATP是一种通用的非特异性蛋白质结合剂。多种互补的生物物理方法进一步证实，在约5-10 mM的生理浓度下，ATP通过镁螯合和非螯合依赖机制开始形成寡聚状态，这与先前研究一致。尽管观察到的ATP-蛋白质相互作用总体相对较弱，但细胞中ATP（单体游离ATP、单价和二价离子结合ATP、寡聚及螯合ATP）与蛋白质的高比例表明，大多数蛋白质可能经历与ATP（及化学性质相似的代谢物）的瞬时相互作用，从而赋予代谢物介导的蛋白质表面保护。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34338526/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34338526/",
+  "paper_page_path": "papers/pubmed/34338526/index.html"
+}

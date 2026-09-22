@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42620098",
+  "title": "Competing Molecular Interactions Govern the Dynamical Arrest of G3BP1 Condensates.",
+  "authors": "Singh, Anurag; Liu, Vicky; Mahendran, Tharun Selvam; Rizvi, Aoon; Gindra, Bhargavi; Freibaum, Brian; Kim, Hong Joo; Taylor, J Paul; Pappu, Rohit V; Banerjee, Priya R",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-08-20",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合原子与粗粒化模拟及流变学实验，揭示G3BP1无序区域间静电竞争性互作驱动应激颗粒凝聚体动态老化与玻璃化转变，直接聚焦IDR介导的PPI机制建模，高度契合本课题。",
+  "abstract": "G3BP1 is a central scaffold of stress granules (SGs). Upon cellular stress, G3BP1 forms complex coacervates with translationally repressed mRNAs and recruits multiple RNA-binding proteins to form reversible biomolecular condensates. Persistent SGs are linked to age-dependent dynamical arrest and impaired disassembly. Here, we employ active and passive nanoscale rheology with optical tweezers to show that G3BP1 condensates evolve from being dominantly viscous fluids to dynamically arrested network glasses characterized by nanoscale caging and elastic memory. Integrating atomistic and coarse-grained simulations with experiments, we find that electrostatic interactions between the oppositely charged intrinsically disordered regions drive condensate ageing. RNA modulates these interactions in a length-and structure-dependent manner, delaying dynamic arrest, whereas Caprin-1 binding to the NTF2L domain has little effect. Together, these findings reveal how competing inter-IDR and IDR-RNA interactions govern condensate ageing and material-state transitions. The findings have broader implications for the regulation of SG dynamics in cells.",
+  "abstract_zh": "G3BP1是应激颗粒（SGs）的核心支架蛋白。在细胞应激状态下，G3BP1与翻译抑制的mRNA形成复合凝聚体，并招募多种RNA结合蛋白，形成可逆的生物分子凝聚体。持续的应激颗粒与年龄依赖的动态停滞及解聚障碍相关。在此，我们利用光镊进行主动和被动纳米尺度流变学测量，表明G3BP1凝聚体从以粘性流体为主的状态演变为动态停滞的网络玻璃态，其特征为纳米尺度的笼蔽效应和弹性记忆。通过将原子级和粗粒化模拟与实验相结合，我们发现带相反电荷的内在无序区域之间的静电相互作用驱动凝聚体老化。RNA以长度和结构依赖的方式调节这些相互作用，延缓动态停滞，而Caprin-1与NTF2L结构域的结合影响甚微。综合来看，这些发现揭示了竞争性的IDR间及IDR-RNA相互作用如何调控凝聚体老化和物质状态转变，对细胞中应激颗粒动力学的调控具有更广泛的意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42620098/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42620098/",
+  "paper_page_path": "papers/pubmed/42620098/index.html"
+}

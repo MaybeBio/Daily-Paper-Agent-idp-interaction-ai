@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "35863661",
+    "doi": "10.1016/j.ijbiomac.2022.07.102",
+    "title": "Structural characterisation of amyloidogenic intrinsically disordered zinc finger protein isoforms DPF3b and DPF3a."
+  },
+  "content": {
+    "abstract": "Double PHD fingers 3 (DPF3) is a zinc finger protein, found in the BAF chromatin remodelling complex, and is involved in the regulation of gene expression. Two DPF3 isoforms have been identified, respectively named DPF3b and DPF3a. Very limited structural information is available for these isoforms, and their specific functionality still remains poorly studied. In a previous work, we have demonstrated the first evidence of DPF3a being a disordered protein sensitive to amyloid fibrillation. Intrinsically disordered proteins (IDPs) lack a defined tertiary structure, existing as a dynamic conformational ensemble, allowing them to act as hubs in protein-protein interaction networks. In the present study, we have more thoroughly characterised DPF3a in vitro behaviour, as well as unravelled and compared the structural properties of the DPF3b isoform, using an array of predictors and biophysical techniques. Predictions, spectroscopy, and dynamic light scattering have revealed a high content in disorder: prevalence of random coil, aromatic residues partially to fully exposed to the solvent, and large hydrodynamic diameters. DPF3a appears to be more disordered than DPF3b, and exhibits more expanded conformations. Furthermore, we have shown that they both time-dependently aggregate into amyloid fibrils, as revealed by typical circular dichroism, deep-blue autofluorescence, and amyloid-dye binding assay fingerprints. Although spectroscopic and microscopic analyses have unveiled that they share a similar aggregation pathway, DPF3a fibrillates at a faster rate, likely through reordering of its C-terminal domain.",
+    "keywords": [
+      "Amyloid fibril",
+      "Double PHD finger 3 (DPF3)",
+      "Intrinsically disordered protein",
+      "Protein aggregation",
+      "Spectroscopy"
+    ],
+    "mesh_terms": [
+      "Amyloid/chemistry",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Isoforms/metabolism",
+      "Transcription Factors/metabolism",
+      "Zinc Fingers"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mignon, Julien",
+        "Mottet, Denis",
+        "Leyder, Tanguy",
+        "Uversky, Vladimir N",
+        "Perpete, Eric A",
+        "Michaux, Catherine"
+      ],
+      "short_names": [
+        "Mignon J",
+        "Mottet D",
+        "Leyder T",
+        "Uversky VN",
+        "Perpete EA",
+        "Michaux C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, Namur, Belgium. Electronic address: julien.mignon@unamur.be.",
+        "University of Liege, GIGA-Molecular Biology of Diseases, Gene Expression and Cancer Laboratory, B34, Avenue de l'Hopital, 4000 Liege, Belgium. Electronic address: dmottet@uliege.be.",
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium. Electronic address: tanguy.leyder@student.unamur.be.",
+        "Department of Molecular Medicine, USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, United States. Electronic address: vuversky@usf.edu.",
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, Namur, Belgium; Institute of Life, Earth and Environment (ILEE), University of Namur, Namur, Belgium. Electronic address: eric.perpete@unamur.be.",
+        "Laboratoire de Chimie Physique des Biomolecules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, Namur, Belgium. Electronic address: catherine.michaux@unamur.be."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mignon, Julien",
+        "short_name": "Mignon J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, Namur, Belgium. Electronic address: julien.mignon@unamur.be."
+        ]
+      },
+      {
+        "full_name": "Mottet, Denis",
+        "short_name": "Mottet D",
+        "identifiers": [],
+        "affiliations": [
+          "University of Liège, GIGA-Molecular Biology of Diseases, Gene Expression and Cancer Laboratory, B34, Avenue de l'Hôpital, 4000 Liège, Belgium. Electronic address: dmottet@uliege.be."
+        ]
+      },
+      {
+        "full_name": "Leyder, Tanguy",
+        "short_name": "Leyder T",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium. Electronic address: tanguy.leyder@student.unamur.be."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine, USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL, United States. Electronic address: vuversky@usf.edu."
+        ]
+      },
+      {
+        "full_name": "Perpète, Eric A",
+        "short_name": "Perpète EA",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, Namur, Belgium; Institute of Life, Earth and Environment (ILEE), University of Namur, Namur, Belgium. Electronic address: eric.perpete@unamur.be."
+        ]
+      },
+      {
+        "full_name": "Michaux, Catherine",
+        "short_name": "Michaux C",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Chimie Physique des Biomolécules, UCPTS, University of Namur, 61 rue de Bruxelles, 5000 Namur, Belgium; Namur Institute of Structured Matter (NISM), University of Namur, Namur, Belgium; Namur Research Institute for Life Sciences (NARILIS), University of Namur, Namur, Belgium. Electronic address: catherine.michaux@unamur.be."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2022 Oct 1",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/22 06:00",
+    "fetched_at": "2026-09-20 12:05:04"
+  },
+  "links": {
+    "cites": [
+      "41009799",
+      "39684492",
+      "39576585",
+      "38707546",
+      "38661008",
+      "37530227",
+      "37176084",
+      "36499617"
+    ],
+    "refs": [],
+    "similar": [
+      "35863661",
+      "34337219",
+      "36499617",
+      "40250658",
+      "41330221",
+      "38508075",
+      "22334708",
+      "26582913",
+      "30443712",
+      "20613843",
+      "33108190",
+      "29621630",
+      "35034725",
+      "36310204",
+      "24594841",
+      "32007275",
+      "36206480",
+      "33903234",
+      "24871565",
+      "32459350",
+      "39769157",
+      "25131953",
+      "32707418",
+      "40149012",
+      "38661034",
+      "30003969",
+      "39561991",
+      "34986640",
+      "35658951",
+      "24739176",
+      "32822731",
+      "31181290",
+      "23723000",
+      "29022880",
+      "28970487",
+      "29364151",
+      "25284680",
+      "29493036",
+      "31756456",
+      "21686180",
+      "30865832",
+      "26195786",
+      "15351653",
+      "29945970",
+      "35945219",
+      "30600181",
+      "26387101",
+      "34839162",
+      "34537237",
+      "26735936",
+      "11297418",
+      "39180270",
+      "35055108",
+      "24150971",
+      "35417609",
+      "27082063",
+      "35167081",
+      "30554840",
+      "35144022",
+      "25963536",
+      "34358545",
+      "32933064",
+      "27844185",
+      "29605501",
+      "36368411",
+      "35988647",
+      "23912807",
+      "33068637",
+      "30935958",
+      "39947750",
+      "30216674",
+      "26453205",
+      "31425549",
+      "30979035",
+      "31034892",
+      "27288992",
+      "27936491",
+      "33310020",
+      "36087849",
+      "26282197",
+      "26387104",
+      "35934194",
+      "34626492",
+      "24008243",
+      "26618856",
+      "27046249",
+      "33871257",
+      "34748745",
+      "30811210",
+      "36674958",
+      "23821606",
+      "31297688",
+      "32316569",
+      "34474016",
+      "39537071",
+      "35898309",
+      "32859072",
+      "28207895",
+      "26918762",
+      "38928405"
+    ],
+    "review": [
+      "35863661",
+      "29364151",
+      "29493036",
+      "21686180",
+      "26387101",
+      "35144022",
+      "34358545",
+      "39947750",
+      "30216674",
+      "30979035",
+      "26282197",
+      "26387104"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(22)01534-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://hdl.handle.net/2268/297290",
+        "provider": "ORBi (University of Liege)",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Free full Text at ORBi"
+      }
+    ],
+    "text_mined": []
+  }
+}

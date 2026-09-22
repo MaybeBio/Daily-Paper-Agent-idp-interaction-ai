@@ -1,0 +1,304 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.03.04.583202",
+  "title": "The structure of an Amyloid Precursor Protein/talin complex indicates a mechanical basis of Alzheimer's Disease.",
+  "doi": "10.1101/2024.03.04.583202",
+  "abstract": "Misprocessing of Amyloid Precursor Protein (APP) is one of the major causes of Alzheimer's disease. APP is a transmembrane protein comprising a large extracellular region, a single transmembrane helix and a short cytoplasmic tail containing an NPxY motif (normally referred to as the YENPTY motif). Talins are synaptic scaffold proteins that connect the cytoskeletal machinery to the plasma membrane via binding to one of two highly conserved NPxY motifs in the cytoplasmic tail of integrin transmembrane receptors. Here we report the crystal structure of an APP/talin1 complex identifying a new way to couple the cytoskeletal machinery to synaptic sites via APP. Proximity Ligation Assay (PLA) confirmed the close proximity of talin1 and APP in primary neurons, and we show that talin1 depletion has a dramatic effect on APP processing in cells. Structural modelling indicates that APP has the capacity to form an extracellular meshwork that mechanically couples the cytoskeletal meshworks of both the pre-, and post-synaptic compartments. In this context, we propose APP processing as a mechanical signalling pathway with similarities to Notch signalling, whereby the cleavage sites in APP represent mechanical sensors, with varying accessibility to cleavage by secretases. During synaptogenesis in healthy neurons, the APP/talin linkage would provide an exquisite mechanical coupling between synapses, with tightly controlled APP processing providing instructions to maintain this synchrony. Furthermore, APP directly coupling to the binary switches in talin indicates a role for APP in mechanical memory storage as postulated by the MeshCODE theory. The implication that APP is a regulator of mechanical signalling leads to a new hypothesis for Alzheimer's disease, where mis-regulation of APP dynamics results in loss of mechanical integrity of the synapse, corruption and loss of mechanical binary data, and excessive generation of the toxic plaque-forming Aβ42 peptide. Much needs to be done to experimentally validate this idea, but we present here a novel theory of Alzheimer's Disease with a role for APP in the mechanically coded binary information storage in the synapse, which identifies a potential novel therapeutic strategy for treating Alzheimer's Disease.",
+  "authors": [
+    "Ellis C",
+    "Ward NL",
+    "Rice M",
+    "Ball NJ",
+    "Walle P",
+    "Najdek C",
+    "Kilinc D",
+    "Lambert J",
+    "Chapuis J",
+    "Goult BT"
+  ],
+  "published_date": "2024-03-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.03.04.583202",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.03.04.583202.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR815484",
+    "raw_record": {
+      "id": "PPR815484",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR815484"
+        ]
+      },
+      "doi": "10.1101/2024.03.04.583202",
+      "title": "The structure of an Amyloid Precursor Protein/talin complex indicates a mechanical basis of Alzheimer's Disease.",
+      "authorString": "Ellis C, Ward NL, Rice M, Ball NJ, Walle P, Najdek C, Kilinc D, Lambert J, Chapuis J, Goult BT.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ellis C",
+            "lastName": "Ellis",
+            "firstName": "Charles",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9638-8032"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ward NL",
+            "lastName": "Ward",
+            "firstName": "Natasha",
+            "initials": "NL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rice M",
+            "lastName": "Rice",
+            "firstName": "Matthew",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ball NJ",
+            "lastName": "Ball",
+            "firstName": "Neil",
+            "initials": "NJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences, , , , ,"
+                },
+                {
+                  "affiliation": "Department of Biochemistry, Cell & Systems Biology, Institute of Systems, Molecular & Integrative Biology, , Crown Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Walle P",
+            "lastName": "Walle",
+            "firstName": "Pauline",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Inserm, CHU Lille, , U1167 - RID-AGE - , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Najdek C",
+            "lastName": "Najdek",
+            "firstName": "Chloé",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Inserm, CHU Lille, , U1167 - RID-AGE - , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kilinc D",
+            "lastName": "Kilinc",
+            "firstName": "Devrim",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3438-2807"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Inserm, CHU Lille, , U1167 - RID-AGE - , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lambert J",
+            "lastName": "Lambert",
+            "firstName": "Jean-Charles",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Inserm, CHU Lille, , U1167 - RID-AGE - , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chapuis J",
+            "lastName": "Chapuis",
+            "firstName": "Julien",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Inserm, CHU Lille, , U1167 - RID-AGE - , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goult BT",
+            "lastName": "Goult",
+            "firstName": "Benjamin Thomas",
+            "initials": "BT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences, , , , ,"
+                },
+                {
+                  "affiliation": "Department of Biochemistry, Cell & Systems Biology, Institute of Systems, Molecular & Integrative Biology, , Crown Street , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3438-2807"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9638-8032"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Misprocessing of Amyloid Precursor Protein (APP) is one of the major causes of Alzheimer's disease. APP is a transmembrane protein comprising a large extracellular region, a single transmembrane helix and a short cytoplasmic tail containing an NPxY motif (normally referred to as the YENPTY motif). Talins are synaptic scaffold proteins that connect the cytoskeletal machinery to the plasma membrane via binding to one of two highly conserved NPxY motifs in the cytoplasmic tail of integrin transmembrane receptors. Here we report the crystal structure of an APP/talin1 complex identifying a new way to couple the cytoskeletal machinery to synaptic sites via APP. Proximity Ligation Assay (PLA) confirmed the close proximity of talin1 and APP in primary neurons, and we show that talin1 depletion has a dramatic effect on APP processing in cells. Structural modelling indicates that APP has the capacity to form an extracellular meshwork that mechanically couples the cytoskeletal meshworks of both the pre-, and post-synaptic compartments. In this context, we propose APP processing as a mechanical signalling pathway with similarities to Notch signalling, whereby the cleavage sites in APP represent mechanical sensors, with varying accessibility to cleavage by secretases. During synaptogenesis in healthy neurons, the APP/talin linkage would provide an exquisite mechanical coupling between synapses, with tightly controlled APP processing providing instructions to maintain this synchrony. Furthermore, APP directly coupling to the binary switches in talin indicates a role for APP in mechanical memory storage as postulated by the MeshCODE theory. The implication that APP is a regulator of mechanical signalling leads to a new hypothesis for Alzheimer's disease, where mis-regulation of APP dynamics results in loss of mechanical integrity of the synapse, corruption and loss of mechanical binary data, and excessive generation of the toxic plaque-forming Aβ42 peptide. Much needs to be done to experimentally validate this idea, but we present here a novel theory of Alzheimer's Disease with a role for APP in the mechanically coded binary information storage in the synapse, which identifies a potential novel therapeutic strategy for treating Alzheimer's Disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T008768/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/05/2024.03.04.583202.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.03.04.583202"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR815484"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR815484&type=FILE&fileName=EMS194596-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39591990",
+            "reference": "Open biology. 2024 Nov;14(11):240185",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS194596",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-03-07",
+      "firstPublicationDate": "2024-03-06",
+      "firstIndexDate": "2024-03-07",
+      "fullTextReceivedDate": "2024-07-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

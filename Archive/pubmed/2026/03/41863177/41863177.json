@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "41863177",
+    "doi": "10.2174/0109298673399575251122111729",
+    "title": "AlphaFold3: A Transformer in Life Sciences."
+  },
+  "content": {
+    "abstract": "The development of AlphaFold2 (AF2) marked a revolutionary milestone in the field of life sciences, such as structural and computational biology, offering highly accurate atomic-level predictions of individual protein structures using deep learning techniques. Its unprecedented performance has transformed structural biology by providing insights that were previously dependent on time-consuming experimental methods. However, despite its success, AF2 has notable limitations. It struggles with accurately modeling protein-protein interactions and fails to reliably predict the presence and positioning of non-protein components, such as nucleic acids, metal ions, ligands, and posttranslational modifications, which are critical for understanding full biological functionality. In response to these shortcomings, AlphaFold3 (AF3) has emerged as a more comprehensive solution by integrating sequence, structural, and chemical context to predict a broader range of biomolecular structures and their interactions. However, AF3 is not without limitations. It still struggles with intrinsically disordered regions, low-homology sequences, and RNA structures, particularly long or unvalidated ones. Moreover, antibody- antigen docking and flexible binding site modeling remain challenging. Addressing these gaps may require hybrid approaches that combine AF3 with experimental data, molecular dynamics simulations, or network-based models. This review explores the technical innovations underlying AF3, evaluates its current performance across different biological contexts, and presents its transformative potential in fields, such as antibodies and vaccine development for infectious diseases, cancer, and other diseases, as well as basic biological research. Finally, we highlight the remaining challenges and propose future research directions to further improve the prediction of protein complexes and other biomolecular structures.",
+    "keywords": [
+      "AlphaFold3",
+      "X-ray crystallography",
+      "antibody-antigen",
+      "drug development",
+      "protein structure prediction",
+      "protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Proteins/chemistry/metabolism",
+      "*Computational Biology/methods",
+      "*Biological Science Disciplines",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhu, Rui",
+        "Wen, Zehua",
+        "Wang, Lei",
+        "Zhao, Pengyi",
+        "Fan, Hua-Jun Shawn",
+        "Jathan, Danielle",
+        "Lee, Ho-Jin"
+      ],
+      "short_names": [
+        "Zhu R",
+        "Wen Z",
+        "Wang L",
+        "Zhao P",
+        "Fan HS",
+        "Jathan D",
+        "Lee HJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3251-4984"
+      ],
+      "affiliations": [
+        "College of Chemical Engineering, Sichuan University of Science and Engineering, Zigong City, 64300, Sichuan Province, P.R. China.",
+        "College of Chemical Engineering, Sichuan University of Science and Engineering, Zigong City, 64300, Sichuan Province, P.R. China.",
+        "College of Chemical Engineering, Sichuan University of Science and Engineering, Zigong City, 64300, Sichuan Province, P.R. China.",
+        "College of Chemical Engineering, Sichuan University of Science and Engineering, Zigong City, 64300, Sichuan Province, P.R. China.",
+        "College of Chemical Engineering, Sichuan University of Science and Engineering, Zigong City, 64300, Sichuan Province, P.R. China.",
+        "Division of Natural & Mathematical Sciences, LeMoyne-Owen College, Memphis, TN, 38126, USA.",
+        "Division of Natural & Mathematical Sciences, LeMoyne-Owen College, Memphis, TN, 38126, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhu, Rui",
+        "short_name": "Zhu R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemical Engineering, Sichuan University of Science and Engineering, Zigong City, 64300, Sichuan Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wen, Zehua",
+        "short_name": "Wen Z",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemical Engineering, Sichuan University of Science and Engineering, Zigong City, 64300, Sichuan Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Lei",
+        "short_name": "Wang L",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemical Engineering, Sichuan University of Science and Engineering, Zigong City, 64300, Sichuan Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Pengyi",
+        "short_name": "Zhao P",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemical Engineering, Sichuan University of Science and Engineering, Zigong City, 64300, Sichuan Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Fan, Hua-Jun Shawn",
+        "short_name": "Fan HS",
+        "identifiers": [],
+        "affiliations": [
+          "College of Chemical Engineering, Sichuan University of Science and Engineering, Zigong City, 64300, Sichuan Province, P.R. China."
+        ]
+      },
+      {
+        "full_name": "Jathan, Danielle",
+        "short_name": "Jathan D",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Natural & Mathematical Sciences, LeMoyne-Owen College, Memphis, TN, 38126, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Ho-Jin",
+        "short_name": "Lee HJ",
+        "identifiers": [
+          "0000-0002-3251-4984"
+        ],
+        "affiliations": [
+          "Division of Natural & Mathematical Sciences, LeMoyne-Owen College, Memphis, TN, 38126, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current medicinal chemistry"
+    ],
+    "journal_abbrev": [
+      "Curr Med Chem"
+    ],
+    "pub_date": "2026",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/21 06:30",
+    "fetched_at": "2026-09-18 01:43:03"
+  },
+  "links": {
+    "cites": [
+      "42206050"
+    ],
+    "refs": [
+      "40630182",
+      "40572562",
+      "40269157",
+      "39818188",
+      "39719497",
+      "39664426",
+      "39643640",
+      "39594618",
+      "39585047",
+      "39509371",
+      "39456865",
+      "39406347",
+      "39404409",
+      "39384035",
+      "39373898",
+      "39362060",
+      "39361522",
+      "39339828",
+      "39305096",
+      "39216471",
+      "39189360",
+      "39146039",
+      "39125995",
+      "39116039",
+      "38996889",
+      "38994454",
+      "38986982",
+      "38870937",
+      "38850662",
+      "38761500",
+      "38718835",
+      "38216921",
+      "38073135",
+      "37996444",
+      "37686415",
+      "37169929",
+      "36376561",
+      "36351374",
+      "36276647",
+      "35892342",
+      "35132063",
+      "35017724",
+      "34867208",
+      "34511939",
+      "34504076",
+      "34415310",
+      "34293799",
+      "34282049",
+      "34265844",
+      "33858437",
+      "33746978",
+      "33336200",
+      "33087927",
+      "32937956",
+      "32916818",
+      "32907809",
+      "32735779",
+      "31894001",
+      "31521180",
+      "30158151",
+      "29650952",
+      "29459982",
+      "28629361",
+      "28114630",
+      "27806260",
+      "27381686",
+      "24851673",
+      "23984731",
+      "22568620",
+      "22142805",
+      "21095591",
+      "20404851",
+      "20193020",
+      "20061127",
+      "17017791",
+      "16683746",
+      "16497593",
+      "16008568",
+      "11685234",
+      "9283757",
+      "5978599",
+      "5891407"
+    ],
+    "similar": [
+      "41863177",
+      "42475469",
+      "23912807",
+      "40121710",
+      "40332289",
+      "41313605",
+      "39970826",
+      "39936575",
+      "41478913",
+      "40661027",
+      "40820259",
+      "41170922",
+      "39862760",
+      "18831774",
+      "39510344",
+      "19754142",
+      "40851426",
+      "36769074",
+      "40398752",
+      "38761500",
+      "41345395",
+      "41084281",
+      "38124369",
+      "40062613",
+      "41088961",
+      "38987471",
+      "36344848",
+      "41432299",
+      "41903187",
+      "39484820",
+      "39456178",
+      "41065010",
+      "41910880",
+      "42310771",
+      "41261173",
+      "31693276",
+      "41526649",
+      "36641210",
+      "41642195",
+      "34904892",
+      "39576578",
+      "41166421",
+      "41274550",
+      "37257257",
+      "40195117",
+      "39995900",
+      "26269925",
+      "41652158",
+      "41548135",
+      "40966105",
+      "38955920",
+      "41147497",
+      "41174317",
+      "39337622",
+      "39848362",
+      "39941016",
+      "41839238",
+      "38986287",
+      "40410405",
+      "41896666",
+      "39125995",
+      "40501681",
+      "28026062",
+      "40762404",
+      "36918529",
+      "34050498",
+      "36807079",
+      "40166350",
+      "19003998",
+      "42395432",
+      "41099770",
+      "41644540",
+      "42300078",
+      "41142756",
+      "39643640",
+      "42511621",
+      "41053181",
+      "35383272",
+      "38795564",
+      "42093884",
+      "41454828",
+      "42509551",
+      "39858535",
+      "42201327",
+      "20433957",
+      "38987470",
+      "40900115",
+      "27914049",
+      "40973394",
+      "40985612",
+      "42018649",
+      "40961942",
+      "40987097",
+      "41559231",
+      "41174305",
+      "41639320",
+      "40905273",
+      "42048356",
+      "37633550",
+      "31294859"
+    ],
+    "review": [
+      "41863177",
+      "40121710",
+      "40332289",
+      "39970826",
+      "39936575",
+      "39862760",
+      "40398752",
+      "38761500",
+      "38124369",
+      "41088961",
+      "39456178",
+      "41910880",
+      "42310771",
+      "39576578",
+      "40195117",
+      "39995900",
+      "41652158",
+      "38955920",
+      "41839238",
+      "38986287",
+      "39125995",
+      "36918529",
+      "34050498",
+      "36807079",
+      "41099770",
+      "38795564",
+      "39858535",
+      "20433957",
+      "40900115",
+      "40973394",
+      "42018649",
+      "40987097"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

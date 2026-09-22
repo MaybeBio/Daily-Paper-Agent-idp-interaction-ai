@@ -1,0 +1,451 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.06.03.446973",
+  "title": "Protein Interaction Network-based Deep Learning Framework for Identifying Disease-Associated Human Proteins",
+  "doi": "10.1101/2021.06.03.446973",
+  "abstract": "Infectious diseases in humans appear to be one of the most primary public health issues. Identification of novel disease-associated proteins will furnish an efficient recognition of the novel therapeutic targets. Here, we develop a Graph Convolutional Network (GCN)-based model called PINDeL to identify the disease-associated host proteins by integrating the human Protein Locality Graph and its corresponding topological features. Because of the amalgamation of GCN with the protein interaction network, PINDeL achieves the highest accuracy of 83.45% while AUROC and AUPRC values are 0.90 and 0.88, respectively. With high accuracy, recall, F1-score, specificity, AUROC, and AUPRC, PINDeL outperforms other existing machine-learning and deep-learning techniques for disease gene/protein identification in humans. Application of PINDeL on an independent dataset of 24320 proteins, which are not used for training, validation, or testing purposes, predicts 6448 new disease-protein associations of which we verify 3196 disease-proteins through experimental evidence like disease ontology, Gene Ontology, and KEGG pathway enrichment analyses. Our investigation informs that experimentally-verified 748 proteins are indeed responsible for pathogen-host protein interactions of which 22 disease-proteins share their association with multiple diseases such as cancer, aging, chem-dependency, pharmacogenomics, normal variation, infection, and immune-related diseases. This unique Graph Convolution Network-based prediction model is of utmost use in large-scale disease-protein association prediction and hence, will provide crucial insights on disease pathogenesis and will further aid in developing novel therapeutics.",
+  "authors": [
+    "Barnali Das",
+    "Pralay Mitra"
+  ],
+  "published_date": "2021-06-03",
+  "updated_date": "2021-06-03T20:07:15Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.06.03.446973",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.06.03.446973.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T16:14:40Z",
+        "timestamp": 1768493680853,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            3
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 43,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            3
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Infectious diseases in humans appear to be one of the most primary public health issues. Identification of novel disease-associated proteins will furnish an efficient recognition of the novel therapeutic targets. Here, we develop a Graph Convolutional Network (GCN)-based model called PINDeL to identify the disease-associated host proteins by integrating the human Protein Locality Graph and its corresponding topological features. Because of the amalgamation of GCN with the protein interaction network, PINDeL achieves the highest accuracy of 83.45% while AUROC and AUPRC values are 0.90 and 0.88, respectively. With high accuracy, recall, F1-score, specificity, AUROC, and AUPRC, PINDeL outperforms other existing machine-learning and deep-learning techniques for disease gene/protein identification in humans. Application of PINDeL on an independent dataset of 24320 proteins, which are not used for training, validation, or testing purposes, predicts 6448 new disease-protein associations of which we verify 3196 disease-proteins through experimental evidence like disease ontology, Gene Ontology, and KEGG pathway enrichment analyses. Our investigation informs that experimentally-verified 748 proteins are indeed responsible for pathogen-host protein interactions of which 22 disease-proteins share their association with multiple diseases such as cancer, aging, chem-dependency, pharmacogenomics, normal variation, infection, and immune-related diseases. This unique Graph Convolution Network-based prediction model is of utmost use in large-scale disease-protein association prediction and hence, will provide crucial insights on disease pathogenesis and will further aid in developing novel therapeutics.</jats:p>",
+      "DOI": "10.1101/2021.06.03.446973",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            3
+          ]
+        ],
+        "date-time": "2021-06-03T20:07:15Z",
+        "timestamp": 1622750835000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Protein Interaction Network-based Deep Learning Framework for Identifying Disease-Associated Human Proteins"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Barnali",
+          "family": "Das",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Pralay",
+          "family": "Mitra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1205"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg056"
+        },
+        {
+          "issue": "1",
+          "key": "2021060510350867000_2021.06.03.446973v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "736",
+          "DOI": "10.1186/s12859-019-3317-0",
+          "article-title": "Identification of infectious disease-associated host genes using machine learning techniques",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng0504-431"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-015-0472-9"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti273"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2007-8-9-r183"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2105-9-207"
+        },
+        {
+          "issue": "15",
+          "key": "2021060510350867000_2021.06.03.446973v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "2016",
+          "DOI": "10.1039/C9AY02333J",
+          "article-title": "A deep learning approach to identify association of disease–gene using information of disease symptoms and protein sequences",
+          "volume": "12",
+          "year": "2020",
+          "journal-title": "Analytical Methods"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1055"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1049"
+        },
+        {
+          "issue": "1",
+          "key": "2021060510350867000_2021.06.03.446973v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "88",
+          "DOI": "10.1093/bioinformatics/bty530",
+          "article-title": "A network-based zoning for parallel whole-cell simulation",
+          "volume": "35",
+          "year": "2019",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku935"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/gb-2003-4-2-p1"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btt137"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku967"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/ng1747"
+        },
+        {
+          "issue": "8",
+          "key": "2021060510350867000_2021.06.03.446973v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "2628",
+          "DOI": "10.1093/bioinformatics/btz931",
+          "article-title": "ShinyGO: a graphical gene-set enrichment tool for animals and plants",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.0701361104"
+        },
+        {
+          "issue": "12",
+          "key": "2021060510350867000_2021.06.03.446973v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "e1002819",
+          "DOI": "10.1371/journal.pcbi.1002819",
+          "article-title": "Protein interactions and disease",
+          "volume": "8",
+          "year": "2012",
+          "journal-title": "PLoS Computational Biology"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn923"
+        },
+        {
+          "issue": "1",
+          "key": "2021060510350867000_2021.06.03.446973v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "807",
+          "DOI": "10.1186/s12864-016-3108-1",
+          "article-title": "Integrating network, sequence and functional features using machine learning approaches towards identification of novel Alzheimer genes",
+          "volume": "17",
+          "year": "2016",
+          "journal-title": "BMC Genomics"
+        },
+        {
+          "issue": "D1",
+          "key": "2021060510350867000_2021.06.03.446973v1.23",
+          "first-page": "D353",
+          "article-title": "KEGG: new perspectives on genomes, pathways, diseases and drugs",
+          "volume": "45",
+          "year": "2016",
+          "journal-title": "Nucleic Acids Research"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkn892"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.25",
+          "article-title": "Semi-supervised classification with graph convolutional networks",
+          "year": "2016",
+          "journal-title": "arXiv preprint"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkv1222"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkr930"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.28",
+          "unstructured": "M Mohamed Divan Masood , D Manjula , and Vijayan Sugumaran . Identification of new disease genes from protein–protein interaction network. Journal of Ambient Intelligence and Humanized Computing, pages 1–9, 2018."
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1115"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gky1079"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1524/auto.2011.0951"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Janet Piñero , Àlex Bravo , Núria Queralt-Rosinach , Alba Gutiérrez-Sacristán , Jordi Deu-Pons , Emilio Centeno , Javier García-García , Ferran Sanz , and Laura I Furlong . DisGeNET: a comprehensive platform integrating information on human disease-associated genes and variants. Nucleic Acids Research, page gkw943, 2016.",
+          "DOI": "10.1093/nar/gkw943"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/humu.22078"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nature04209"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkh086"
+        },
+        {
+          "issue": "1",
+          "key": "2021060510350867000_2021.06.03.446973v1.36",
+          "doi-asserted-by": "crossref",
+          "first-page": "44",
+          "DOI": "10.1038/nprot.2008.211",
+          "article-title": "Systematic and integrative analysis of large gene lists using DAVID Bioinformatics Resources",
+          "volume": "4",
+          "year": "2009",
+          "journal-title": "Nature Protocols"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1026"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2005.08.029"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.39",
+          "doi-asserted-by": "crossref",
+          "first-page": "421",
+          "DOI": "10.3389/fgene.2019.00421",
+          "article-title": "DiVenn: an interactive and integrated web-based visualization tool for comparing gene lists",
+          "volume": "10",
+          "year": "2019",
+          "journal-title": "Frontiers in Genetics"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1471-2164-7-31"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt1229"
+        },
+        {
+          "key": "2021060510350867000_2021.06.03.446973v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl467"
+        },
+        {
+          "issue": "8",
+          "key": "2021060510350867000_2021.06.03.446973v1.43",
+          "doi-asserted-by": "crossref",
+          "first-page": "1378",
+          "DOI": "10.1093/hmg/ddaa065",
+          "article-title": "Protein–protein interaction network with machine learning models and multiomics data reveal potential neurodegenerative disease-related proteins",
+          "volume": "29",
+          "year": "2020",
+          "journal-title": "Human Molecular Genetics"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2021.06.03.446973",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T01:48:19Z",
+        "timestamp": 1768441699000
+      },
+      "score": 70.75305,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2021.06.03.446973"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            3
+          ]
+        ]
+      },
+      "references-count": 43,
+      "URL": "https://doi.org/10.1101/2021.06.03.446973",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.jmb.2021.167149",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            6,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

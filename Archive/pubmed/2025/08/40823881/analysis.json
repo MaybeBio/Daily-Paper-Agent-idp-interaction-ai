@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40823881",
+  "title": "Employing Artificial Neural Networks for Optimal Storage and Facile Sharing of Molecular Dynamics Simulation Trajectories.",
+  "authors": "Wasim, Abdul; Schafer, Lars V; Mondal, Jagannath",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-08-18",
+  "window": {
+    "start": "2025-08-18",
+    "end": "2025-08-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用自编码器压缩MD轨迹，虽涉及IDP系统但聚焦数据存储而非PPI互作机制建模，方法可迁移但对象与互作轴较弱。",
+  "abstract": "With the remarkable stride in computing power and advances in Molecular Dynamics (MD) simulation programs, the crucial challenge of storing and sharing large biomolecular simulation data sets has emerged. By leveraging AutoEncoders, a type of artificial neural network, we developed a method to compress MD trajectories into significantly smaller latent spaces. Our method can save up to 98% in disk space compared to xtc, a highly compressed trajectory format from the widely used MD program package GROMACS, thus facilitating storage and sharing of simulation trajectories. Atom coordinates are very accurately reconstructed from compressed data. The method was tested across a diverse sets of biomolecular systems, including folded proteins, intrinsically disordered proteins, phospholipid bilayers, protein-ligand complexes, large protein complexes and membrane-bound protein systems. The reconstructed trajectories demonstrated consistent accuracy in recovering key biophysically relevant properties for proteins, lipids and composite systems. The compression efficiency was particularly beneficial for larger systems. This approach enables the scientific community to efficiently store and share large-scale biomolecular simulation data, potentially enhancing collaborative research efforts. The workflow, termed \"compresstraj\", is implemented in PyTorch and is publicly available at https://github.com/SerpentByte/compresstraj, offering a practical solution for handling the increasing volumes of data generated in biomolecular simulation studies.",
+  "abstract_zh": "随着计算能力的显著提升和分子动力学（Molecular Dynamics, MD）模拟程序的发展，存储和共享大规模生物分子模拟数据集的关键挑战应运而生。通过利用自编码器（AutoEncoders），一种人工神经网络类型，我们开发了一种将MD轨迹压缩至显著更小潜空间的方法。与广泛使用的MD程序包GROMACS中高度压缩的轨迹格式xtc相比，我们的方法可节省高达98%的磁盘空间，从而促进模拟轨迹的存储与共享。原子坐标可从压缩数据中非常精确地重建。该方法已在多种生物分子系统上进行了测试，包括折叠蛋白、 intrinsically disordered proteins（固有无序蛋白）、磷脂双层、蛋白-配体复合物、大型蛋白复合物及膜结合蛋白系统。重建的轨迹在恢复蛋白质、脂质及复合系统的关键生物物理相关性质方面表现出一致的准确性。压缩效率对较大系统尤为有利。该方法使科学界能够高效存储和共享大规模生物分子模拟数据，可能增强协作研究努力。该工作流程名为“compresstraj”，已在PyTorch中实现，并公开于https://github.com/SerpentByte/compresstraj，为处理生物分子模拟研究中日益增长的数据量提供了实用解决方案。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40823881/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40823881/",
+  "paper_page_path": "papers/pubmed/40823881/index.html"
+}

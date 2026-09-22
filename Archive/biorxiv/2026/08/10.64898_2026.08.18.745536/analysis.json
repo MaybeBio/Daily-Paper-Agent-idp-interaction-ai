@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.18.745536",
+  "title": "The human papillomavirus L2 protein in the capsid is an ensemble of related structures poised to exit the virus particle",
+  "authors": "Oh C; Yu H; Buckley PM; Horrigan FL; Mehmood K; Choi J; Liu J; DiMaio D",
+  "journal": "bioRxiv",
+  "published_date": "2026-08-19",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合冷冻电镜、AlphaFold3与分子动力学模拟，揭示HPV L2无序蛋白在衣壳内以多种相关构象存在并伸出孔道以启动病毒进入的互作机制，为IDP在复合物中的构象集合与功能建模提供了可迁移范例。",
+  "abstract": "<h4>ABSTRACT</h4> The human papillomavirus (HPV) capsid contains 360 molecules of the L1 protein, which assembles into pentamers that form the capsid shell, and up to 72 molecules of the L2 protein. The C-terminus of the L2 protein must emerge from the capsid, insert into the endosome membrane, and protrude into the cytoplasm to bind to cellular proteins that mediate trafficking of the virus to the nucleus during virus entry. Computational analysis predicts that much of L2 is disordered, but the stoichiometry, structure and location of L2 in the capsid remain elusive. Here, we use cryo-EM single particle analysis of HPV16 pseudovirus capsids with and without the L2 protein combined with AlphaFold3 predictions and molecular dynamics simulations to develop a structural model of L2 within the capsid. Our results revealed that a single molecule of L2 associates with the inner surface of most L1 pentamers. The relatively rigid structure of the pentamer forces the long intrinsically disordered segments of L2 to adopt numerous related, compact, stable conformations in the capsid, whereas the structured elements of L2 remain folded but adopt varied positions in space largely beneath the pentamer. A finger-like projection of L2 extends into the central pore of the pentamer, but many different segments of the disordered domains of L2 can form fingers. In some models the C-terminus of L2 extends through the pore to the exterior surface of the capsid positioned to insert into the endosomal membrane. Consistent with these models, analysis of purified pseudoviruses showed that the C-terminus of multiple L2 molecules is exposed on the surface of each capsid. These findings provide a structural basis for understanding how L2 is organized in the capsid poised to initiate its action during virus entry.",
+  "abstract_zh": "<h4>摘要</h4> 人乳头瘤病毒（HPV）衣壳包含360个L1蛋白分子，这些分子组装成五聚体，形成衣壳外壳，以及多达72个L2蛋白分子。L2蛋白的C末端必须从衣壳中露出，插入内体膜，并伸入细胞质中，以结合在病毒进入过程中介导病毒向细胞核运输的细胞蛋白。计算分析预测L2的大部分区域是无序的，但L2在衣壳中的化学计量、结构和位置仍不清楚。在此，我们利用HPV16假病毒衣壳（含或不含L2蛋白）的冷冻电镜单颗粒分析，结合AlphaFold3预测和分子动力学模拟，开发了衣壳内L2的结构模型。我们的结果显示，单个L2分子与大多数L1五聚体的内表面相关联。五聚体相对刚性的结构迫使L2的长内在无序片段在衣壳中采用多种相关、紧凑且稳定的构象，而L2的结构化元件保持折叠状态，但在空间中主要位于五聚体下方采取不同位置。L2的指状突起延伸至五聚体的中央孔中，但L2无序结构域的许多不同片段可形成指状结构。在某些模型中，L2的C末端通过孔延伸至衣壳外表面，定位为插入内体膜。与这些模型一致，对纯化假病毒的分析显示，每个衣壳表面暴露有多个L2分子的C末端。这些发现为理解L2在衣壳中的组织方式提供了结构基础，该组织方式使其在病毒进入过程中准备启动其作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745536",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745536",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.18.745536/index.html"
+}

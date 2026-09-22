@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "pmid": "40882540",
+    "doi": "10.1016/j.jcis.2025.138802",
+    "title": "Hydrophilicity and topology interplay determines positioning of guest molecules in lipid cubic phases."
+  },
+  "content": {
+    "abstract": "Lipid nanostructures with inverse bicontinuous cubic symmetries are of paramount importance as delivery structures of active compounds in the pharmaceutical, cosmetic and food science fields. By atomistic molecular dynamics, here we study the internalization of three molecules of varying hydrophilicity, fructose, caffeine and vitamin D, within a cubic phase with primitive symmetry, allowing us to assess how the incorporation of the guest molecule is affected by the interplay between its hydrophilicity and the topology of the host membrane. For lipophilic molecules our results reveal the details of molecular localization and orientation, which allow estimating the bending modulus of the membrane by means of a phenomenological model based on the physics of liquid crystals. For more hydrophilic molecules, we show that the unique topological and geometrical features of bicontinuous cubic phases (BCPs) lead to non-trivial effects on the lipid-water interface, primarily controlled by their curvature, resulting in an enthalpically driven distancing of the guest molecule from the interface. In particular, we detect a preference of hydrophilic molecules to migrate towards the flat points of the lipid-water interface, from which we may infer a preferred onset of nucleation in phase separation processes, such as in membrane-protein crystallization.",
+    "keywords": [
+      "Atomistic molecular dynamics",
+      "Bending modulus membrane",
+      "Bicontinuous cubic lipid mesophase",
+      "Flat points",
+      "Gaussian curvature",
+      "Hydrophilicity",
+      "Lyotropic liquid crystal"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zunzunegui-Bru, Eva",
+        "Assenza, Salvatore",
+        "Mezzenga, Raffaele"
+      ],
+      "short_names": [
+        "Zunzunegui-Bru E",
+        "Assenza S",
+        "Mezzenga R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Health Sciences and Technology, ETH Zurich, Zurich 8092, Switzerland.",
+        "Condensed Matter Physics Center (IFIMAC), Universidad Autonoma de Madrid, 28049 Madrid, Spain; Departamento de Fisica Teorica de la Materia Condensada, Universidad Autonoma de Madrid, 28049 Madrid, Spain; Instituto Nicolas Cabrera, Universidad Autonoma de Madrid, 28049 Madrid, Spain. Electronic address: salvatore.assenza@uam.es.",
+        "Department of Health Sciences and Technology, ETH Zurich, Zurich 8092, Switzerland; Department of Materials, ETH Zurich, Zurich 8092, Switzerland. Electronic address: raffaele.mezzenga@hest.ethz.ch."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zunzunegui-Bru, Eva",
+        "short_name": "Zunzunegui-Bru E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Sciences and Technology, ETH Zurich, Zurich 8092, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Assenza, Salvatore",
+        "short_name": "Assenza S",
+        "identifiers": [],
+        "affiliations": [
+          "Condensed Matter Physics Center (IFIMAC), Universidad Autónoma de Madrid, 28049 Madrid, Spain; Departamento de Física Teórica de la Materia Condensada, Universidad Autónoma de Madrid, 28049 Madrid, Spain; Instituto Nicolás Cabrera, Universidad Autónoma de Madrid, 28049 Madrid, Spain. Electronic address: salvatore.assenza@uam.es."
+        ]
+      },
+      {
+        "full_name": "Mezzenga, Raffaele",
+        "short_name": "Mezzenga R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Health Sciences and Technology, ETH Zurich, Zurich 8092, Switzerland; Department of Materials, ETH Zurich, Zurich 8092, Switzerland. Electronic address: raffaele.mezzenga@hest.ethz.ch."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of colloid and interface science"
+    ],
+    "journal_abbrev": [
+      "J Colloid Interface Sci"
+    ],
+    "pub_date": "2026 Jan 15",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/30 00:44",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40882540",
+      "21506575",
+      "31920073",
+      "23677679",
+      "31009569",
+      "29421907",
+      "29172522",
+      "37631245",
+      "17503862",
+      "3399497",
+      "29869308",
+      "30849886",
+      "21189042",
+      "31222858",
+      "28973884",
+      "30462135",
+      "27183393",
+      "25744826",
+      "27315326",
+      "28630668",
+      "16605794",
+      "25815701",
+      "29809009",
+      "26488819",
+      "27987999",
+      "24910192",
+      "27517794",
+      "15982017",
+      "23912807",
+      "18781793",
+      "30427193",
+      "25806598",
+      "23116138",
+      "8145820",
+      "24098848",
+      "16973480",
+      "15807602",
+      "27326898",
+      "38189602",
+      "32649210",
+      "28191966",
+      "41045895",
+      "17011783",
+      "23805745",
+      "21749073",
+      "33644002",
+      "16618195",
+      "21963475",
+      "24605989",
+      "15807570",
+      "18547072",
+      "19787960",
+      "25719417",
+      "3801439",
+      "10970532",
+      "23705681",
+      "17929809",
+      "24995330",
+      "16089965",
+      "35016341",
+      "17696371",
+      "12496106",
+      "23837868",
+      "21555546",
+      "41043057",
+      "30950540",
+      "18805927",
+      "18774852",
+      "35455426",
+      "35540315",
+      "8431537",
+      "12686193",
+      "16330264",
+      "40422219",
+      "8962086",
+      "25790335",
+      "15835134",
+      "18279886",
+      "21690832",
+      "28137471",
+      "20059100",
+      "15937487",
+      "23933989",
+      "32148842",
+      "25740100",
+      "8429562",
+      "33356288",
+      "25479099",
+      "26573367",
+      "34748744",
+      "23928485",
+      "36565618",
+      "27973815",
+      "26513537",
+      "9247174",
+      "26425878",
+      "36417348",
+      "32219007",
+      "11969532",
+      "37884213"
+    ],
+    "review": [
+      "40882540",
+      "29869308",
+      "21189042",
+      "31222858",
+      "24910192",
+      "24995330",
+      "35455426",
+      "35540315",
+      "40422219",
+      "28137471",
+      "25479099",
+      "32219007"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0021-9797(25)02193-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

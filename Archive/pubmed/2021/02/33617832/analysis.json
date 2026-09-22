@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33617832",
+  "title": "CRISPR-based DNA and RNA detection with liquid-liquid phase separation.",
+  "authors": "Spoelstra, Willem Kasper; Jacques, Jeroen M; Gonzalez-Linares, Rodrigo; Nobrega, Franklin L; Haagsma, Anna C; Dogterom, Marileen; Meijer, Dimphna H; Idema, Timon; Brouns, Stan J J; Reese, Louis",
+  "journal": "Biophysical journal",
+  "published_date": "2021-02-23",
+  "window": {
+    "start": "2021-02-22",
+    "end": "2021-02-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用CRISPR核酸酶切割触发多核苷酸与聚阳离子的液-液相分离(LLPS)产生浊度，实现无标记核酸检测，虽涉及LLPS但对象为核酸而非无序蛋白PPI，且方法以实验和理论模型为主，无AI/分子动力学模拟，与本课题关联较弱。",
+  "abstract": "The ability to detect specific nucleic acid sequences allows for a wide range of applications such as the identification of pathogens, clinical diagnostics, and genotyping. CRISPR-Cas proteins Cas12a and Cas13a are RNA-guided endonucleases that bind and cleave specific DNA and RNA sequences, respectively. After recognition of a target sequence, both enzymes activate indiscriminate nucleic acid cleavage, which has been exploited for sequence-specific molecular diagnostics of nucleic acids. Here, we present a label-free detection approach that uses a readout based on solution turbidity caused by liquid-liquid phase separation (LLPS). Our approach relies on the fact that the LLPS of oppositely charged polymers requires polymers to be longer than a critical length. This length dependence is predicted by the Voorn-Overbeek model, which we describe in detail and validate experimentally in mixtures of polynucleotides and polycations. We show that the turbidity resulting from LLPS can be used to detect the presence of specific nucleic acid sequences by employing the programmable CRISPR-nucleases Cas12a and Cas13a. Because LLPS of polynucleotides and polycations causes solutions to become turbid, the detection of specific nucleic acid sequences can be observed with the naked eye. We furthermore demonstrate that there is an optimal polynucleotide concentration for detection. Finally, we provide a theoretical prediction that hints towards possible improvements of an LLPS-based detection assay. The deployment of LLPS complements CRISPR-based molecular diagnostic applications and facilitates easy and low-cost nucleotide sequence detection.",
+  "abstract_zh": "检测特定核酸序列的能力使得众多应用成为可能，例如病原体鉴定、临床诊断和基因分型。CRISPR-Cas蛋白Cas12a和Cas13a是RNA引导的内切酶，分别结合并切割特定的DNA和RNA序列。在识别靶序列后，这两种酶都会激活无差别的核酸切割，这一特性已被用于核酸的序列特异性分子诊断。在此，我们提出一种无标记检测方法，其读数基于液-液相分离 (liquid-liquid phase separation, LLPS) 引起的溶液浊度。我们的方法依赖于以下事实：带相反电荷聚合物的LLPS要求聚合物长度超过临界长度。这种长度依赖性由Voorn-Overbeek模型预测，我们对该模型进行了详细描述，并在多核苷酸和聚阳离子混合物中进行了实验验证。我们表明，通过利用可编程的CRISPR核酸酶Cas12a和Cas13a，LLPS产生的浊度可用于检测特定核酸序列的存在。由于多核苷酸和聚阳离子的LLPS使溶液变浑浊，因此特定核酸序列的检测可用肉眼观察。我们还进一步证明，存在一个最佳的多核苷酸浓度用于检测。最后，我们提供了一项理论预测，暗示了基于LLPS的检测方法可能的改进方向。LLPS的应用补充了基于CRISPR的分子诊断应用，并促进了简便、低成本的核苷酸序列检测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33617832/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33617832/",
+  "paper_page_path": "papers/pubmed/33617832/index.html"
+}

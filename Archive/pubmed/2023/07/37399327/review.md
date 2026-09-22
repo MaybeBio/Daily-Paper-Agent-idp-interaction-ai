@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusion) as provided.
+- **Assessment boundary** Scientific content, internal logic, and support for claims based solely on the supplied text. No external literature, figures, or supplementary materials were available for verification.
+- **Shared manuscript claim summary** The authors argue that the ground state of FUS-LC and its truncation variants behaves as a random coil in a good solvent; that fibril morphology is length-dependent; that sparsely populated excited states (N*) in monomer ensembles resemble fibril structures; that core-1 is thermodynamically favored over core-2; that phosphorylation effects are site-specific; and that these findings rationalize experimental observations and point to unresolved puzzles in condensate biology.
+- **Visible evidence base** Text descriptions of simulation results (MCE, P(x), I(q), χ distributions, ΔG estimates), references to figures (Fig. 1B, 1C, 2, 3, 4, 5, 6), and citations to experimental studies (solid-state NMR, cryo-EM, X-ray crystallography).
+- **Missing materials affecting confidence** Figures and tables referenced but not provided; simulation parameters and methodological details for SOP-IDP model not described; numerical data for P(χ) and ΔG presented without full statistical context; experimental protocols and conditions for cited studies not available for cross-checking.
+
+## Reviewer
+- **Overall assessment** This perspective-style manuscript offers a coherent and thoughtful synthesis of simulation and experimental data on FUS-LC, with several testable predictions. The central claims are plausible and internally consistent, but the evidence base as presented is incomplete. Key quantitative results are stated without full methodological transparency, and the manuscript would benefit from clearer articulation of how simulation outcomes map onto experimental observables. The discussion of open questions is valuable but somewhat diffuse. Overall, the manuscript is of interest to the biophysics and phase-separation communities, but the case for several strong claims is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, intrinsically disordered proteins, amyloid fibril formation, and the molecular determinants of condensate aging. The manuscript connects monomer-level conformational ensembles to fibril morphology and phosphorylation effects, which is directly relevant to those investigating FUS biology, ALS/FTD pathology, and the general physics of biomolecular condensates.
+- **Major strengths** The manuscript provides a clear conceptual framework linking monomer excited states to fibril polymorphism. The emphasis on length-dependent morphology and site-specific phosphorylation is well motivated. The use of Ostwald's rule of stages to rationalize kinetic versus thermodynamic preferences is an interesting and potentially generalizable idea. The writing is accessible and the perspective format allows for useful speculation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the ground states of FUS-LC, FUS-LC-N, and FUS-LC-C behave as polymers in a good solvent, supported by P(x) distributions and I(q) calculations.
+  - **Evidence pointer** Fig. 1B, Fig. 1C; text in "The ground states of FUS-LC and FUS-LC-C are random coils"
+  - **Concern** The manuscript states that P(x) distributions "show little deviation from Eq. 1" and that I(q) "has the characteristic behavior of random coils," but no quantitative measures of deviation (e.g., chi-squared values, residuals, or confidence intervals) are provided. The figure is not available for inspection. Without quantitative support, the claim of random-coil behavior is asserted rather than demonstrated.
+  - **Why it matters** The random-coil ground state is foundational to the manuscript's subsequent arguments about excited states and fibril formation. If the ground state is not rigorously established as a good-solvent random coil, the interpretation of N* states and their relationship to fibril structures is weakened.
+  - **Resolution test** Provide quantitative goodness-of-fit metrics for P(x) against Eq. 1, and for I(q) against expected random-coil scattering, including error estimates. Show the data in a figure with clear statistical comparison.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that N* states in the monomer ensemble bear "striking resemblances" to core-1 and core-2 fibril structures, validated by χ overlap calculations.
+  - **Evidence pointer** Fig. 2 and Fig. 3; text in "Excited (N*) states of monomer ensembles have fibril-like structures"
+  - **Concern** The χ parameter is defined, but the threshold for considering a conformation an N* state is not specified. The population of core-1 is stated to be "marginally higher" than core-2, but no numerical values or statistical significance are given. The claim of "striking resemblance" is based on visual inspection of Fig. 3, which is not available.
+  - **Why it matters** The existence and characterization of N* states is a central prediction of the manuscript. Without a clear threshold and quantitative population estimates, the claim that these states are populated and resemble fibril structures is not rigorously supported.
+  - **Resolution test** Define the χ threshold used to classify N* states. Report population fractions with error bars for core-1 and core-2 in FUS-LC and variants. Provide quantitative structural comparison (e.g., RMSD or contact maps) between N* states and experimental fibril structures.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that free energy of core-1 is lower than core-2, with ΔG = −1.47 ± 0.005 kcal/mol, and that this rationalizes the absence of core-2 in FUS-LC.
+  - **Evidence pointer** Text in "Free energy of core-1 is lower than core-2"
+  - **Concern** The ΔG value is derived from population counts (P_core−1/P_core−2) from simulations, but the error estimate (±0.005 kcal/mol) seems implausibly small given the population uncertainties (±103 and ±29). The manuscript also notes that solubility measurements give a smaller ΔG (≈0.35 ± 0.19 kcal/mol), but does not reconcile this discrepancy. The claim that ΔG ≈ 2.5 kBT is "sufficient to completely eliminate" core-2 formation is not justified quantitatively.
+  - **Why it matters** The relative stability of core-1 versus core-2 is used to explain experimental observations of fibril polymorphism. If the free energy difference is not robustly estimated, the explanation is speculative.
+  - **Resolution test** Recalculate ΔG with proper error propagation from population counts. Discuss the discrepancy with solubility-based estimates. Provide a sensitivity analysis showing how ΔG varies with simulation parameters or analysis choices.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that Ostwald's rule of stages explains the inverse correlation between stability and formation rate of fibril cores.
+  - **Evidence pointer** Text in "Ostwald rule of stages"
+  - **Concern** The application of Ostwald's rule is presented as a prediction, but no kinetic simulations or experimental kinetic data are provided to support it. The manuscript cites a previous study on Aβ42, but does not show that the same logic applies to FUS-LC.
+  - **Why it matters** This is a potentially interesting and generalizable idea, but as presented it is an assertion without direct evidence. If the authors wish to make this a central claim, they need to provide supporting data or clearly frame it as a hypothesis.
+  - **Resolution test** Provide kinetic simulations of fibril formation from monomer ensembles, or cite experimental kinetic data for FUS-LC fibril formation that shows the predicted order of appearance. Alternatively, clearly label this as a hypothesis requiring testing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Text in "Introduction"
+  - **Issue** The introduction moves rapidly from historical polymer theory to modern condensate biology without a clear roadmap for the reader. The connection between Flory-Huggins theory and the specific questions about FUS-LC could be made more explicit.
+  - **Required correction** Add a brief paragraph at the end of the introduction that states the specific questions addressed and the organization of the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** "Effect of phosphorylation - location matters"
+  - **Evidence pointer** Text in "Effect of phosphorylation - location matters"
+  - **Issue** The manuscript states that phosphorylation was modeled by replacing Ser/Thr with Glu, but does not justify this choice or discuss its limitations. Glu is a common phosphomimetic but does not fully replicate the effects of phosphorylation.
+  - **Required correction** Acknowledge the approximation and discuss potential differences between Glu substitution and actual phosphorylation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** "Tyrosine ladder"
+  - **Evidence pointer** Text in "Tyrosine ladder"
+  - **Issue** The manuscript states that π−π interactions stabilize the fibril cores, but does not quantify their contribution relative to other interactions (e.g., hydrogen bonding, hydrophobic effects).
+  - **Required correction** Provide a qualitative or quantitative estimate of the relative contributions of different interaction types to core stability.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** "Discussion"
+  - **Evidence pointer** Text in "Discussion"
+  - **Issue** The open questions listed in the Discussion are interesting but are presented without clear prioritization or connection to the manuscript's main findings.
+  - **Required correction** Prioritize the questions and explicitly state which ones are most directly addressable with current methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative support for random-coil behavior), R1-M2 (quantitative characterization of N* states), R1-M3 (robustness of ΔG estimate).
+- **Assessment against Nature-style criteria** Originality: The manuscript offers a useful synthesis and some novel predictions, particularly the application of Ostwald's rule to FUS-LC fibril polymorphism. However, the core ideas (random-coil ground state, excited states resembling fibrils) are not entirely new. Scientific importance: The topic is of high importance to the condensate biology and IDP fields, and the manuscript addresses questions with broad relevance. Interdisciplinary readership: The manuscript is likely to appeal to biophysicists, biochemists, and cell biologists, but the technical detail may limit accessibility. Technical soundness: The simulation methods are not described in sufficient detail, and several quantitative claims lack statistical support. Readability for nonspecialists: The writing is generally clear, but the introduction and discussion could be better structured for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript has the potential to make a valuable contribution, but the quantitative support for several central claims must be strengthened and the methodological details clarified.
+
+## Risk / unsupported claims
+- The claim that N* states are "sparsely populated" and "bear striking resemblances" to fibril structures is not quantitatively supported.
+- The claim that ΔG ≈ 2.5 kBT is sufficient to eliminate core-2 formation is not justified.
+- The application of Ostwald's rule to FUS-LC fibril formation is presented as a prediction without direct evidence.
+- The statement that "the ground states of the three constructs behave as polymers in a good solvent" is not quantitatively demonstrated.
+- The claim that phosphorylation effects are site-specific is supported by simulation and cited experiments, but the modeling choice (Glu substitution) is a simplification that is not discussed in detail.

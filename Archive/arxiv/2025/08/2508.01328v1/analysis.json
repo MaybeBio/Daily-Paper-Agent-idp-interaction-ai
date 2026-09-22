@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2508.01328v1",
+  "title": "Electrostatic Depletion Force in Complex Coacervates",
+  "authors": "Zongpei Wu; Shensheng Chen",
+  "journal": "",
+  "published_date": "2025-08-02",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过MD模拟揭示复杂凝聚体中静电耗尽力驱动IDP等客体大分子聚集的普适机制，直接关联无序蛋白在相分离凝聚体中的互作行为，机制建模深度高。",
+  "abstract": "The functionalities and applications of complex coacervates -- liquid condensates resulting from liquid-liquid phase separation of charged polymers -- are significantly influenced by the dispersion and aggregation states of guest macromolecules. Intriguingly, guest macromolecules exhibit a strong tendency to aggregate within coacervates even in the absence of apparent chemical incompatibility, indicating a universal aggregation mechanism at play in these environments. Using extensive MD simulations, we identify electrostatic depletion -- a strong force arising from electrostatic correlations within the host polyelectrolyte network that drives guest aggregations. Due to electrostatic depletion, neutral polymers, low-charge-density polyelectrolytes, and intrinsically disordered proteins (IDPs) exhibit effective attractions in coacervates, in stark contrast to their behavior in dilute solutions. Unlike traditional depletion effect that requires mismatched length scale and morphology, electrostatic depletion is relevant in fluid systems where solute and solvent are both polymers with comparable size. Our discovery bridges a critical knowledge gap in the molecular physics of densely charged, crowded liquids and holds significant implications for the design of synthetic protocells and advanced drug delivery systems.",
+  "abstract_zh": "复合凝聚层（complex coacervates）——由带电聚合物液-液相分离产生的液体凝聚体——的功能和应用，显著受到客体大分子分散与聚集状态的影响。有趣的是，即使在无明显化学不相容性的情况下，客体大分子在凝聚层内也表现出强烈的聚集倾向，表明这些环境中存在一种普遍的聚集机制。通过广泛的分子动力学（MD）模拟，我们识别出静电耗竭（electrostatic depletion）——一种由宿主聚电解质网络内静电关联产生的强作用力，驱动客体聚集。由于静电耗竭，中性聚合物、低电荷密度聚电解质及 intrinsically disordered proteins (IDPs) 在凝聚层中表现出有效吸引，这与它们在稀溶液中的行为形成鲜明对比。与传统耗竭效应需依赖尺度及形态不匹配不同，静电耗竭在溶质与溶剂均为尺寸相近的聚合物的流体系统中具有相关性。我们的发现填补了高密度带电、拥挤液体分子物理学中的关键知识空白，并对合成原始细胞及先进药物递送系统的设计具有重要启示。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2508.01328v1",
+  "source_url": "https://arxiv.org/abs/2508.01328v1",
+  "paper_page_path": "papers/arxiv/2508.01328v1/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35030868",
+  "title": "Interactive patches over amyloid-beta oligomers mediate fractal self-assembly.",
+  "authors": "Singh, Anurag; Khatun, Suparna; Pawar, Nisha; Gupta, Amar Nath",
+  "journal": "Physical review. E",
+  "published_date": "2022-01-16",
+  "window": {
+    "start": "2022-01-10",
+    "end": "2022-01-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过实验和分子对接揭示Aβ寡聚体表面静电/疏水补丁介导其分形自组装，虽涉及IDP寡聚体互作机制，但方法以实验为主、AI/物理模拟较弱，对无序蛋白PPI机制建模有部分启发。",
+  "abstract": "The monomeric units of intrinsically disordered proteins self-assemble into oligomers, protofilaments, and eventually fibrils which may turn into amyloid. The aggregation of these proteins is primarily studied in bulk with no restriction on their degrees of freedom. Herein we experimentally demonstrate that amyloid-beta (Abeta) aggregation under diffusion-limited conditions leads to its fractal self-assembly. Confocal microscopy and scanning electron microscopy with energy dispersion x-ray analysis were used to confirm that the fractal self-assemblies were formed from Abeta rather than the salt present in the two supporting media: deionized water and phosphate buffered saline. The results from the molecular docking experiments implicated that electrostatic and hydrophobic patches on the solvent-accessible surface area of the Abeta oligomers mediate the fractal self-assembly. These implications were tested with laser light scattering experiments on the oligomers formed by breaking mature fibrils of Abeta through sonication, which were observed to self-assemble into fractals when sonicated solutions were drop casted. The electrostatic interactions modulate the fractal morphologies with pH of the solution, which leads to a morphological phase transition observed through the variation in their fractal dimension. These transitions provide experimental evidence for the existing theoretical framework in terms of different kinetic models. The higher surface-to-volume ratio of these fractal self-assemblies may have applications in drug delivery, biosensing, and other biomedical applications.",
+  "abstract_zh": "intrinsically disordered proteins（固有无序蛋白）的单体单元自组装成寡聚体、原纤维，并最终形成可能转变为淀粉样蛋白的纤维。这些蛋白质的聚集主要在体相中研究，对其自由度没有限制。在此，我们通过实验证明，在扩散限制条件下，淀粉样蛋白-β（Abeta）的聚集导致其分形自组装。使用共聚焦显微镜和带能量色散X射线分析的扫描电子显微镜确认，分形自组装结构由Abeta形成，而非来自两种支持介质（去离子水和磷酸盐缓冲盐水）中的盐。分子对接实验结果表明，Abeta寡聚体溶剂可及表面积上的静电和疏水斑块介导了分形自组装。这些推论通过激光光散射实验进行了测试，实验使用通过超声破碎成熟Abeta纤维形成的寡聚体，观察到当超声溶液滴铸时，这些寡聚体自组装成分形结构。静电相互作用通过溶液pH调节分形形态，导致通过分形维数变化观察到的形态相变。这些转变为现有理论框架提供了实验证据，涉及不同的动力学模型。这些分形自组装结构更高的表面积与体积比可能在药物递送、生物传感及其他生物医学应用中具有潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35030868/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35030868/",
+  "paper_page_path": "papers/pubmed/35030868/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.05.15.444318",
+  "title": "The Unconventional Self-Cleavage of Selenoprotein K",
+  "authors": "Cheng R; Liu J; Forstner MB; Woodward G; Heppard E; Hoffmann PR; Rozovsky S",
+  "journal": "bioRxiv",
+  "published_date": "2021-05-16",
+  "window": {
+    "start": "2021-05-10",
+    "end": "2021-05-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究硒蛋白K在无序区域内的自切割及其对蛋白互作位点的调控，涉及IDR与PPI机制，但方法为实验为主，无AI或物理模拟建模，故评6分。",
+  "abstract": "Through known association with other proteins, human selenoprotein K (selenok) is currently implicated in the palmitoylation of proteins, degradation of misfolded proteins, innate immune response, and the life cycle of SARS-CoV-2 virus. However, neither the catalytic function of selenok’s selenocysteine (Sec), which, curiously, resides in an intrinsically disordered protein segment nor selenok’s specific role in these pathways are known to date. This report casts these questions in a new light as it describes that selenok is able -both in vitro and in vivo- to cleave some of its own peptide bonds. The cleavages not only release selenok segments that contain its reactive Sec, but as the specific cleavage sites were identified, they proved to cluster tightly near sites through which selenok interacts with protein partners. Furthermore, it is shown that selenok’s cleavage activity is neither restricted to itself nor promiscuous but selectively extends to at least one of its protein partners. Together, selenok’s cleavage ability and its features have all hallmarks of a regulatory mechanism that could play a central role in selenok’s associations with other proteins and its cellular functions overall.",
+  "abstract_zh": "通过已知的与其他蛋白质的关联，人类硒蛋白K（selenok）目前被认为参与蛋白质的棕榈酰化、错误折叠蛋白质的降解、先天免疫反应以及SARS-CoV-2病毒的生命周期。然而，迄今为止，既不清楚selenok的硒代半胱氨酸（Sec）的催化功能——令人好奇的是，该残基位于一个 intrinsically disordered 蛋白质片段中——也不清楚selenok在这些通路中的具体作用。本报告为这些问题提供了新的视角，因为它描述了selenok能够在体外和体内切割其自身的一些肽键。这些切割不仅释放出含有其反应性Sec的selenok片段，而且随着特定切割位点的鉴定，它们被证明紧密聚集在selenok与蛋白质伙伴相互作用的位点附近。此外，研究表明，selenok的切割活性既不限于自身，也不具有混杂性，而是选择性地延伸至其至少一个蛋白质伙伴。总体而言，selenok的切割能力及其特征具备调控机制的所有标志，这可能在其与其他蛋白质的关联及整体细胞功能中发挥核心作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.05.15.444318",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.05.15.444318",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.05.15.444318/index.html"
+}

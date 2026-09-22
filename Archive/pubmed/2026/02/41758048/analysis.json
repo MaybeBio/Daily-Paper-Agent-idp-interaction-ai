@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41758048",
+  "title": "Advances in the construction and biological applications of DNA condensates.",
+  "authors": "Dai, Mei; Li, Xiaoqing; Jia, Xuemei; Dou, Hongjing; Guo, Xiaocui; Yao, Chi; Yang, Dayong",
+  "journal": "Nanoscale",
+  "published_date": "2026-02-27",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 5,
+  "one_liner_zh": "综述DNA凝聚体的构建策略与生物应用，涉及LLPS和相分离机制，但对象为DNA而非无序蛋白，且无PPI或AI/物理模拟方法实质贡献，仅提及机器学习展望，故为中档。",
+  "abstract": "Intracellular biomolecular condensates are membraneless liquid droplets formed by liquid-liquid phase separation (LLPS), which play essential roles in transcriptional control, stress responses, and cellular signaling. Inspired by these natural systems, DNA has emerged as the preferred molecule for constructing artificial condensates due to its sequence programmability, diverse interaction modes, and ease of chemical modification. This review provides a comprehensive overview of strategies for constructing DNA condensates through LLPS, including sequence-driven self-assembly, polymer- or protein-mediated coacervation, and precise environmental tuning such as DNA concentration, ionic strength, pH, and temperature. We highlight their multi-stimuli responsiveness and ability to create programmable biochemical microenvironments, which underpin notable progress in mimicking membraneless organelles, biosensing, cell regulation, and drug delivery. Finally, we discuss prevailing challenges, including limited spatiotemporal control, nuclease degradation, and immunogenicity, which must be addressed to advance their translation into living systems. Future progress is anticipated to arise from intelligent multicomponent systems, integration with optogenetics and single-molecule techniques, and machine learning-aided sequence design, ultimately paving the way for adaptive \"active DNA materials\" with far-reaching implications for synthetic biology and precision medicine.",
+  "abstract_zh": "细胞内生物分子凝聚体是由液-液相分离（liquid-liquid phase separation, LLPS）形成的无膜液滴，在转录调控、应激反应和细胞信号传导中发挥重要作用。受这些自然系统的启发，DNA因其序列可编程性、多样的相互作用模式以及易于化学修饰的特点，已成为构建人工凝聚体的首选分子。本综述全面概述了通过LLPS构建DNA凝聚体的策略，包括序列驱动的自组装、聚合物或蛋白质介导的共凝聚，以及精确的环境调控，如DNA浓度、离子强度、pH值和温度。我们强调了它们的多刺激响应性以及创建可编程生化微环境的能力，这些特性支撑了在模拟无膜细胞器、生物传感、细胞调控和药物递送方面的显著进展。最后，我们讨论了当前面临的挑战，包括时空控制有限、核酸酶降解和免疫原性，这些必须加以解决以推动其在活体系统中的转化应用。未来进展预计将源于智能多组分系统、与光遗传学和单分子技术的整合，以及机器学习辅助的序列设计，最终为适应性“活性DNA材料”铺平道路，并对合成生物学和精准医学产生深远影响。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41758048/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41758048/",
+  "paper_page_path": "papers/pubmed/41758048/index.html"
+}

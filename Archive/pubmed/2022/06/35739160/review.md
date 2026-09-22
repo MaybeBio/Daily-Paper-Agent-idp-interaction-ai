@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusions, and supplementary information references.
+- **Assessment boundary** Scientific validity of the claim that AF2 models encode protein dynamics via pLDDT and PAE, as supported by comparisons with MD simulations across the presented protein set.
+- **Shared manuscript claim summary** The authors assert that AF2 predictions, specifically pLDDT scores and PAE maps, correlate with residue flexibility (RMSF) and distance variation (DV) from MD simulations, indicating that protein sequence determines both structure and dynamics.
+- **Visible evidence base** Main text figures (Figures 1–7), Table 1, and referenced supplementary figures (Figures S1–S6, Table S1) as described in the text.
+- **Missing materials affecting confidence** Supplementary figures and tables (S1–S6, Table S1), MD simulation parameters beyond those stated, raw correlation coefficients for all models, PAE and DV maps for all models, and details on the randomized protein construction.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a plausible and potentially useful observation that AF2 confidence metrics correlate with MD-derived flexibility for a set of globular proteins and complexes. However, the evidence provided is insufficient to fully establish the broad claim that AF2 predicts dynamics generally, particularly for IDPs and randomized sequences where correlations fail. The analysis is descriptive and lacks rigorous statistical treatment or validation against experimental dynamics data. The manuscript would benefit from a more focused claim, additional quantitative comparisons, and discussion of limitations.
+- **Who would be interested in the results, and why** Computational biologists and structural bioinformaticians interested in extracting dynamic information from static structure predictions. Researchers using AF2 for functional annotation or protein engineering may find the correlation between pLDDT and flexibility useful as a heuristic. The work could also appeal to those studying protein dynamics and the limits of AI-based structure prediction.
+- **Major strengths** The study addresses a timely and relevant question about the information content of AF2 outputs beyond static structure. The inclusion of diverse protein types, including a multi-domain protein, a homodimer, and an IDP, is commendable. The comparison of PAE and DV maps is a creative approach to link AF2 predictions with MD dynamics. The manuscript is clearly written and the figures are generally informative.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that "AF2 also decodes protein sequences into residue flexibilities via both the predicted local distance difference test (pLDDT) scores of the models, and the predicted aligned error (PAE) maps" and that "for most protein models, including large proteins and protein complexes, the AF2-scores are highly correlated with the root mean square fluctuations (RMSF) calculated from MD simulations."
+  - **Evidence pointer** Figures 2–5, Table 1
+  - **Concern** The correlation between AF2-scores and RMSF is reported for only four proteins in Figure 2, with Pearson correlation coefficients ranging from 0.63 to 0.97. The claim of "high correlation" for "most" models is not supported by a systematic quantitative summary across all 21 models listed in Tables 1 and S1. The text mentions correlations for some models but does not provide a comprehensive table or statistical analysis. Furthermore, the authors acknowledge that correlations fail for the IDP and randomized protein, which are critical negative cases that undermine the generality of the claim.
+  - **Why it matters** The central thesis of the paper rests on the generality of the correlation between AF2 scores and MD flexibility. Without a complete and quantitative assessment across all models, including failures, the claim remains anecdotal. The negative results for IDPs and randomized proteins suggest that the relationship is not universal and may depend on sequence features or MSA depth, which is not adequately discussed.
+  - **Resolution test** Provide a supplementary table listing Pearson (or Spearman) correlation coefficients, p-values, and confidence intervals for AF2-score vs. RMSF for every model in Tables 1 and S1. Include a scatter plot of all models combined, with different colors for protein types. Discuss the statistical significance and practical relevance of the correlations, and explicitly address why the IDP and randomized protein fail to correlate.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** The authors state that "the DV matrix from MD is highly consistent with the PAE matrix from AF2, indicating that the PAE matrix originates from protein dynamics."
+  - **Evidence pointer** Figure 3c, Figure 4c, Figure 4d, Figure 6c, Figure 6d
+  - **Concern** The comparison between PAE and DV maps is qualitative, based on visual inspection of heatmaps. The authors report a Pearson correlation coefficient of 0.732 for the GNE protein (Figure 3c) but do not provide quantitative comparisons for other models. The DV is defined as the interquartile range of Cα-Cα distances, which is a crude 1D simplification of PAE, and the authors acknowledge this limitation. However, the claim that PAE "originates from protein dynamics" is a strong causal statement that cannot be supported by correlation alone. Alternative explanations, such as PAE reflecting structural uncertainty or alignment errors, are not ruled out.
+  - **Why it matters** The causal interpretation of the PAE-DV relationship is central to the paper's conclusion that AF2 captures dynamics. Correlation does not imply causation, and the authors do not provide a mechanistic model or control analyses to support their interpretation. Without quantitative comparisons across all models and a discussion of alternative explanations, the claim is overstated.
+  - **Resolution test** Provide a quantitative comparison of PAE and DV matrices for all models, using a suitable metric such as the Pearson correlation coefficient on the upper triangular elements of the matrices. Include a scatter plot of PAE vs. DV values for all residue pairs for at least one representative protein. Discuss potential confounding factors, such as the effect of MSA depth or secondary structure, and perform a control analysis using randomized or shuffled PAE maps to demonstrate specificity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "for an IDP and a randomized protein, the AF2-scores do not correlate with the RMSF from MD, especially for the IDP."
+  - **Evidence pointer** Figure 6a, Figure 6b, Table 1
+  - **Concern** The behavior of IDPs and randomized proteins is presented as a negative result, but the analysis is superficial. For the IDP NVJP-1, the authors note that the RMSF profile does not correlate with AF2 scores but shows moderate correlation with IUPRED2 scores. However, the MD simulation of a fully disordered protein may be challenging due to sampling limitations, and the choice of simulation length and force field could affect the RMSF calculation. The randomized protein is described as containing folded regions, but the construction method is only referenced, not detailed. The implications of these negative results for the main claim are not fully explored.
+  - **Why it matters** The negative results for IDPs and randomized proteins are important boundary conditions for the claim that AF2 predicts dynamics. If the correlation fails for these cases, the claim must be qualified. The authors should provide a more detailed analysis of why the correlation fails, including potential reasons such as lack of evolutionary constraints, insufficient MSA depth, or limitations of the MD simulations.
+  - **Resolution test** Provide additional analysis of the IDP and randomized protein, including the MSA depth, the distribution of pLDDT scores, and the convergence of MD simulations. Discuss whether the lack of correlation is due to the absence of co-evolutionary information or to the inherent limitations of AF2 for disordered proteins. Consider performing longer MD simulations or using enhanced sampling methods to verify the RMSF calculations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of AF2-score
+  - **Evidence pointer** Methods section, Equation 3
+  - **Issue** The AF2-score is defined as a normalized reversed pLDDT score, but the normalization procedure is not fully described. It is unclear whether the normalization is performed per protein or globally across all proteins.
+  - **Required correction** Clarify the normalization procedure for the AF2-score, including the exact formula and whether it is applied per protein or globally.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Correlation coefficients
+  - **Evidence pointer** Table 1, Figures 2–5
+  - **Issue** The Pearson correlation coefficients are reported without confidence intervals or p-values. Given the small number of proteins, the uncertainty in these estimates is likely large.
+  - **Required correction** Report 95% confidence intervals and p-values for all correlation coefficients, or provide a bootstrap analysis to assess the stability of the estimates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** MD simulation details
+  - **Evidence pointer** Methods section
+  - **Issue** The MD simulation protocol is described briefly. Details such as the force field version, water model, salt concentration, temperature coupling, and pressure coupling are not fully specified.
+  - **Required correction** Provide a complete description of the MD simulation parameters, including software version, force field, water model, and any restraints or constraints applied.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** IUIPRED2 comparisons
+  - **Evidence pointer** Figures 2, 4, 6
+  - **Issue** The authors compare AF2 scores with IUPRED2 predictions, but the relationship between these two metrics is not systematically analyzed. It would be informative to know whether AF2 scores add predictive power beyond IUPRED2 for flexibility.
+  - **Required correction** Add a quantitative comparison of AF2 scores and IUPRED2 scores in predicting RMSF, such as a multiple regression or a comparison of correlation coefficients.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 3c
+  - **Evidence pointer** Figure 3c
+  - **Issue** The color scales for the PAE and DV heatmaps in Figure 3c appear different, which may make visual comparison difficult.
+  - **Required correction** Use the same color scale for PAE and DV heatmaps in all figures, or clearly indicate the scale for each panel.
+- **Technical failings that need to be addressed before the case is established** The lack of a systematic quantitative analysis of correlations across all models (R1-M1) and the qualitative nature of the PAE-DV comparison (R1-M2) are the primary technical shortcomings. The manuscript would be substantially strengthened by providing a comprehensive statistical analysis and by tempering the causal language.
+- **Assessment against Nature-style criteria**  
+  - Originality: Moderate. The observation that AF2 confidence metrics correlate with MD flexibility is not entirely novel, as similar observations have been reported for pLDDT and B-factors. The use of DV maps as a comparison is somewhat creative but not a major conceptual advance.  
+  - Scientific importance: Moderate. If the correlation is robust, it could provide a fast way to estimate flexibility from AF2 models, which is useful for many applications. However, the negative results for IDPs limit the scope.  
+  - Interdisciplinary readership: Limited. The work is primarily of interest to computational structural biologists and bioinformaticians. The connection to experimental dynamics is not explored, which would broaden the appeal.  
+  - Technical soundness: The MD simulations appear to be performed reasonably, but the analysis is largely descriptive. The lack of statistical rigor and the qualitative PAE-DV comparison are weaknesses.  
+  - Readability for nonspecialists: The manuscript is generally well-written and accessible, but the methods section assumes familiarity with AF2 and MD concepts. The figures are helpful but could be better annotated.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation is potentially useful, but the current evidence does not fully establish the broad claim. A revised manuscript with a comprehensive quantitative analysis, a more nuanced discussion of the negative results, and a tempered conclusion would be a valuable contribution.
+
+## Risk / unsupported claims
+- The claim that "AF2 also decodes protein sequences into residue flexibilities" is not fully supported for IDPs and randomized proteins, as the authors acknowledge the correlation fails in these cases.
+- The statement that "the PAE matrix originates from protein dynamics" is a causal claim not supported by the correlational evidence presented.
+- The assertion that "for most protein models, including large proteins and protein complexes, the AF2-scores are highly correlated with the RMSF" is not quantitatively substantiated for all models listed in Tables 1 and S1.
+- The claim that "the AF2-scores are highly correlated with the RMSF" for the PAS-kinase (Figure 4a) is based on visual inspection, and the correlation coefficient is not reported in the text.

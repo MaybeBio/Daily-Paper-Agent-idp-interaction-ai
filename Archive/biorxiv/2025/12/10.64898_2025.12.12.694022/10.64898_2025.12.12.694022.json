@@ -1,0 +1,91 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.12.694022",
+  "title": "Quantifying (de)Mixing of Disordered Proteins in Molecular Dynamics Simulations",
+  "doi": "10.64898/2025.12.12.694022",
+  "abstract": "Biomolecular condensates underpin the spatial and temporal organization of cellular biochemistry in the cell. Their architectures often arises from complex, multicomponent mixtures whose behavior is governed by weak, multivalent interactions, frequently mediated by intrinsically disordered regions (IDRs) of proteins. However, current approaches lack generalizable metrics to determine whether IDRs will mix or segregate within condensates. Here, we show that our domain decomposition method can both accurately determine concentrations in the dense/dilute phases, and provide a continuous metric for characterizing IDR mixing in molecular dynamics simulations. Applying this methodology to 1,963 binary mixtures, we find that mixing at equimolar ratios is rare. Most condensate-forming pairs favoring one dominant scaffold and minority client molecules. We found that hydrophobic IDRs mix promiscuously with most sequences, while the mixing of charged sequences is sensitive to the charge and complementarity of the partner. When applied to experimental protein interaction networks, our simulations successfully distinguish IDR-mediated partitioning from those requiring additional factors such as RNA or site specific binding. Our results provide a foundation for determining condensate composition in complex cellular environments and for designing synthetic IDRs that can infiltrate or modulate biomolecular condensates.",
+  "authors": [
+    "Morton W",
+    "Vácha R"
+  ],
+  "published_date": "2025-12-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.12.694022",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.12.694022.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1231552",
+    "raw_record": {
+      "id": "PPR1231552",
+      "source": "PPR",
+      "doi": "10.64898/2025.12.12.694022",
+      "title": "Quantifying (de)Mixing of Disordered Proteins in Molecular Dynamics Simulations",
+      "authorString": "Morton W, Vácha R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Morton W",
+            "lastName": "Morton",
+            "firstName": "William",
+            "initials": "W"
+          },
+          {
+            "fullName": "Vácha R",
+            "lastName": "Vácha",
+            "firstName": "Robert",
+            "initials": "R"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Biomolecular condensates underpin the spatial and temporal organization of cellular biochemistry in the cell. Their architectures often arises from complex, multicomponent mixtures whose behavior is governed by weak, multivalent interactions, frequently mediated by intrinsically disordered regions (IDRs) of proteins. However, current approaches lack generalizable metrics to determine whether IDRs will mix or segregate within condensates. Here, we show that our domain decomposition method can both accurately determine concentrations in the dense/dilute phases, and provide a continuous metric for characterizing IDR mixing in molecular dynamics simulations. Applying this methodology to 1,963 binary mixtures, we find that mixing at equimolar ratios is rare. Most condensate-forming pairs favoring one dominant scaffold and minority client molecules. We found that hydrophobic IDRs mix promiscuously with most sequences, while the mixing of charged sequences is sensitive to the charge and complementarity of the partner. When applied to experimental protein interaction networks, our simulations successfully distinguish IDR-mediated partitioning from those requiring additional factors such as RNA or site specific binding. Our results provide a foundation for determining condensate composition in complex cellular environments and for designing synthetic IDRs that can infiltrate or modulate biomolecular condensates.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.12.694022"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-15",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, acknowledgments) as provided.
+- **Assessment boundary** Scientific validity, methodological soundness, clarity, and reproducibility of the claims as presented in the provided text. No external data or code was accessed.
+- **Shared manuscript claim summary** The authors propose a hybrid machine learning framework that integrates sequence-based models (RNN, LSTM, GRU, biLSTM, biGRU, Transformer) with 23 physics-based features derived from a coarse-grained model to predict the radius of gyration of intrinsically disordered proteins. They report that the hybrid biGRU model achieves the best predictive performance (MAPE 1.98% ± 0.09%) on a test set of 31 IDPs, outperforming sequence-only and feature-only baselines. They also report feature importance analyses using SHAP and Integrated Gradients, identifying Length, SCD, SHD, and f* as key predictors.
+- **Visible evidence base** Abstract; Sections I–VII; Tables I–IV (referenced, not shown); Figures 1–7 (referenced, not shown); equations for the coarse-grained model and neural network components.
+- **Missing materials affecting confidence** Tables I–IV and Figures 1–7 are referenced but not provided. Details of the MobiDB dataset filtering, the exact 23 physical features, hyperparameter tuning, and the test set composition (31 IDPs) are not fully described. The supplementary section is referenced but not included. No code or data availability statement is provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant problem: predicting conformational properties of intrinsically disordered proteins using machine learning. The hybrid architecture that combines sequence information with physics-based features is a reasonable and potentially useful idea. However, the current manuscript has several significant gaps in methodological detail and validation that prevent a full assessment of the claims. The reported performance improvements are modest, and the lack of comparison to existing state-of-the-art predictors (e.g., Alphafold-based or other IDP-specific predictors) weakens the case for novelty and practical impact. The manuscript would benefit from clearer descriptions of the dataset, features, and experimental setup, as well as additional validation on independent datasets.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, protein biophysics, and machine learning applied to biology. The work may also be of interest to experimentalists studying IDPs who seek fast predictive tools for initial screening. The hybrid architecture and feature importance analysis could inform future model development in this area.
+- **Major strengths** The problem is well-motivated and relevant. The hybrid architecture is a sensible design that integrates complementary information. The use of multiple ML architectures and ablation studies is commendable. The attention mechanism and feature importance analyses provide some interpretability. The authors acknowledge limitations and suggest future work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological clarity
+  - **Claim pointer** The authors claim that the hybrid biGRU model achieves the best predictive performance (MAPE 1.98% ± 0.09%) and that the framework is "fast, interpretable, and scalable."
+  - **Evidence pointer** Section IV (Neural Network Architectures), Section V (Results), Tables II–IV, Figures 4–5 (location not provided)
+  - **Concern** The manuscript does not provide sufficient detail to reproduce the experiments. The exact list of 23 physical features is not fully specified (Table I is referenced but not shown). The dataset filtering criteria (e.g., how the 7,000 IDPs were selected from MobiDB, the disorder score threshold, sequence length distribution) are not described. Hyperparameter choices (e.g., learning rate, hidden sizes, number of layers, dropout rates) are only partially given. The test set of 31 IDPs is mentioned but its composition and selection criteria are not described. Without these details, the results cannot be reproduced or independently verified.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. The lack of methodological detail undermines confidence in the reported results and limits the utility of the framework for other researchers.
+  - **Resolution test** Provide a complete description of the dataset, all 23 features, hyperparameter settings, and the test set composition. Make code and data publicly available.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and comparison to existing methods
+  - **Claim pointer** The authors claim that the hybrid model improves predictive accuracy and outperforms sequence-only and feature-only baselines.
+  - **Evidence pointer** Section V (Results), Tables II–III, Figures 4–5 (location not provided)
+  - **Concern** The manuscript does not compare the proposed method to existing state-of-the-art predictors of IDP properties, such as those based on Alphafold, or other published ML models for Rg prediction. The reported MAPE values (1.98–3.18%) are on a small test set of 31 IDPs, and it is unclear how these compare to existing benchmarks. Without such comparisons, the practical significance of the proposed method is not established.
+  - **Why it matters** The field of IDP property prediction is active, and new methods must demonstrate advantages over existing approaches to justify their adoption. The lack of comparison limits the impact of the work.
+  - **Resolution test** Benchmark the proposed method against at least one or two existing predictors on a common dataset. Report performance metrics and discuss advantages and limitations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and uncertainty quantification
+  - **Claim pointer** The authors report performance metrics (MAPE, MSE, R²) and claim consistent improvements across trials.
+  - **Evidence pointer** Section V (Results), Tables II–III, Figure 5 (location not provided)
+  - **Concern** The manuscript reports mean and standard deviation for some metrics (e.g., MAPE 1.98% ± 0.09%) but does not provide details on the number of trials, the variance across different random seeds, or statistical significance tests for the observed improvements. The test set of 31 IDPs is small, and the authors do not report confidence intervals or error bars for the predictions. The claim of "consistent performance gains across trials" is not supported by statistical evidence.
+  - **Why it matters** Without uncertainty quantification, it is difficult to assess whether the reported improvements are statistically meaningful or within the noise of the experiments.
+  - **Resolution test** Report the number of independent runs, the distribution of results, and perform statistical tests (e.g., paired t-test or Wilcoxon signed-rank test) to compare models. Provide confidence intervals for the reported metrics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability and overfitting
+  - **Claim pointer** The authors claim that the framework is "scalable" and that using a reduced feature set improves generalization.
+  - **Evidence pointer** Section V (Results), Section VI (Summary and Outlook)
+  - **Concern** The model is trained and evaluated on IDPs from MobiDB with >99% predicted disorder. It is unclear how well the model generalizes to IDPs with lower disorder scores, to IDRs within folded proteins, or to sequences of different length ranges. The claim of improved generalization with reduced features is based on a single dataset and a small test set. The authors do not discuss potential biases in the training data or the risk of overfitting to the specific distribution of the MobiDB subset.
+  - **Why it matters** For practical use, the model must generalize beyond the training distribution. The current evidence is insufficient to support the claim of scalability and generalizability.
+  - **Resolution test** Validate the model on independent datasets (e.g., IDPs from other databases or experimentally characterized IDPs). Test on sequences with varying disorder scores and length ranges. Discuss potential limitations and biases.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Section II (Coarse-Grained Model)
+  - **Evidence pointer** Equations 1–6 (location not provided)
+  - **Issue** The equations for the coarse-grained model are not fully explained. The symbols and their definitions are not all introduced clearly. For example, the definition of the hydropathy factor λ_ij and the parameters ϵ_ij are not fully described in the text.
+  - **Required correction** Provide a clear definition of all symbols and parameters in the equations. Consider adding a table summarizing the model parameters and their values.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Section III (Physical Characteristics)
+  - **Evidence pointer** Table I (location not provided)
+  - **Issue** The 23 physical features are listed in Table I, but the table is not shown. The text mentions "further details of the input parameters are provided in the supplementary section," but the supplementary section is not included.
+  - **Required correction** Include the table in the main text or provide a clear list of all 23 features with their definitions. Ensure the supplementary material is accessible.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Section V (Results)
+  - **Evidence pointer** Figures 4–7 (location not provided)
+  - **Issue** The figures are referenced but not shown. The text describes trends and comparisons, but without the figures, it is difficult to fully interpret the results.
+  - **Required correction** Ensure all figures are included and clearly labeled. Consider adding a brief description of each figure in the text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Language and style
+  - **Affected element** Throughout the manuscript
+  - **Evidence pointer** Location not provided
+  - **Issue** There are several instances of awkward phrasing and grammatical errors (e.g., "the the electrostatic interactions" in Section II, "proteins such as OPN and ProtaN" in Section VI). These do not affect the scientific content but reduce readability.
+  - **Required correction** Proofread the manuscript for grammatical errors and improve sentence flow.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (reproducibility), R1-M2 (comparison to existing methods), R1-M3 (statistical rigor), R1-M4 (generalizability).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The hybrid architecture is a reasonable combination of existing ideas, but the novelty is incremental. The use of physics-based features with sequence models is not entirely new, and the manuscript does not clearly articulate what is fundamentally novel compared to prior work.
+  - **Scientific importance** The problem is important, and the potential for fast, interpretable prediction of IDP properties is valuable. However, the current evidence does not demonstrate a significant advance over existing methods.
+  - **Interdisciplinary readership** The work bridges machine learning and biophysics, which could appeal to a broad audience. However, the manuscript assumes familiarity with both fields, and the lack of clear explanations of the ML and biophysical concepts may limit accessibility.
+  - **Technical soundness** The technical approach is plausible, but the lack of methodological detail and statistical rigor prevents a full assessment. The small test set and lack of comparison to existing methods are significant weaknesses.
+  - **Readability for nonspecialists** The manuscript is generally readable but contains technical jargon and references to figures and tables that are not provided. The abstract is clear, but the main text could be improved for a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and proposes a reasonable approach, but the lack of methodological detail, validation on independent datasets, and comparison to existing methods prevents a full assessment of the claims. The authors should address the major concerns before the case is established.
+
+## Risk / unsupported claims
+- The claim that the hybrid biGRU model achieves the best overall predictive performance is not fully supported without details on the test set composition and statistical significance.
+- The claim that the framework is "fast, interpretable, and scalable" is not quantitatively supported.
+- The claim that using a reduced feature set improves generalization is based on a single dataset and small test set.
+- The claim that the coarse-grained model is "validated by experimental data" is not supported by specific references or comparisons in the provided text.
+- The claim that the attention mechanism provides interpretability is not demonstrated with concrete examples or analysis.

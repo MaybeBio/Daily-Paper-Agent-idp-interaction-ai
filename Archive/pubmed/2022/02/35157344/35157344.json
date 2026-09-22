@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "35157344",
+    "doi": "10.1002/prot.26321",
+    "title": "Can the jigsaw puzzle model of protein folding re-assemble a hydrophobic core?"
+  },
+  "content": {
+    "abstract": "According to the \"jigsaw puzzle\" model of protein folding, the isomorphism between sequence and structure is substantially determined by the specific geometry of side-chain interactions, within the protein interior. In this work, we have attempted to predict the hydrophobic core of cyclophilin (LdCyp) from Leishmania donovani, utilizing a surface complementarity function, which selects for high goodness of fit between hydrophobic side-chain surfaces, rather in the manner of assembling a three-dimensional jigsaw puzzle. The computational core prediction method implemented here has been tried on two distinct scenarios, on the LdCyp polypeptide chain with native non-core residues and all core residues initially set to alanine, on a poly-glycine polypeptide chain. Molecular dynamics simulations appeared to indicate partial destabilization of the two designed sequences. However, experimental characterization of the designed sequences by circular dichroism (CD) spectroscopy and denaturant (GdmCl) induced unfolding, demonstrated disordered proteins. Stepwise reconstruction of the designed cores by cumulative sequential mutations identified the specific mutation (M122L) as primarily responsible for fold collapse and all design objectives were achieved upon rectifying this mutation. In summary, the study demonstrates regions of the core to contain highly specific (jigsaw puzzle-like) interactions sensitive to any perturbations and a predictive algorithm to identify such regions. A mutation within the core has been identified which exercises an inordinate influence on the global fold, reminiscent of metamorphic proteins. In addition, the computational procedure could predict substantial regions of the core (given main-chain coordinates) without any reference to non-core residues.",
+    "keywords": [
+      "Cyclophilin",
+      "hydrophobic core",
+      "jigsaw puzzle model",
+      "protein design",
+      "protein stability"
+    ],
+    "mesh_terms": [
+      "Circular Dichroism",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Molecular Dynamics Simulation",
+      "Peptides",
+      "*Protein Folding",
+      "*Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Biswas, Gargi",
+        "Ghosh, Semanti",
+        "Basu, Sankar",
+        "Bhattacharyya, Dhananjay",
+        "Datta, Alok Kumar",
+        "Banerjee, Rahul"
+      ],
+      "short_names": [
+        "Biswas G",
+        "Ghosh S",
+        "Basu S",
+        "Bhattacharyya D",
+        "Datta AK",
+        "Banerjee R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1393-1982"
+      ],
+      "affiliations": [
+        "Saha Institute of Nuclear Physics, Kolkata, India.",
+        "Homi Bhabha National Institute, Mumbai, India.",
+        "Saha Institute of Nuclear Physics, Kolkata, India.",
+        "Saha Institute of Nuclear Physics, Kolkata, India.",
+        "Saha Institute of Nuclear Physics, Kolkata, India.",
+        "Homi Bhabha National Institute, Mumbai, India.",
+        "Indian Institute of Chemical Biology, Kolkata, India.",
+        "Saha Institute of Nuclear Physics, Kolkata, India.",
+        "Homi Bhabha National Institute, Mumbai, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Biswas, Gargi",
+        "short_name": "Biswas G",
+        "identifiers": [],
+        "affiliations": [
+          "Saha Institute of Nuclear Physics, Kolkata, India.",
+          "Homi Bhabha National Institute, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Semanti",
+        "short_name": "Ghosh S",
+        "identifiers": [],
+        "affiliations": [
+          "Saha Institute of Nuclear Physics, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Basu, Sankar",
+        "short_name": "Basu S",
+        "identifiers": [
+          "0000-0003-1393-1982"
+        ],
+        "affiliations": [
+          "Saha Institute of Nuclear Physics, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Bhattacharyya, Dhananjay",
+        "short_name": "Bhattacharyya D",
+        "identifiers": [],
+        "affiliations": [
+          "Saha Institute of Nuclear Physics, Kolkata, India.",
+          "Homi Bhabha National Institute, Mumbai, India."
+        ]
+      },
+      {
+        "full_name": "Datta, Alok Kumar",
+        "short_name": "Datta AK",
+        "identifiers": [],
+        "affiliations": [
+          "Indian Institute of Chemical Biology, Kolkata, India."
+        ]
+      },
+      {
+        "full_name": "Banerjee, Rahul",
+        "short_name": "Banerjee R",
+        "identifiers": [],
+        "affiliations": [
+          "Saha Institute of Nuclear Physics, Kolkata, India.",
+          "Homi Bhabha National Institute, Mumbai, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2022 Jul",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/15 06:00",
+    "fetched_at": "2026-09-20 08:21:54"
+  },
+  "links": {
+    "cites": [
+      "37423912",
+      "36814642",
+      "35214759"
+    ],
+    "refs": [],
+    "similar": [
+      "35157344",
+      "26545107",
+      "14516754",
+      "8901549",
+      "23912807",
+      "20053361",
+      "14978309",
+      "12139928",
+      "25244701",
+      "10970747",
+      "22136248",
+      "7770488",
+      "14556750",
+      "20816077",
+      "20494507",
+      "24887548",
+      "16005892",
+      "24563686",
+      "9194177",
+      "10512702",
+      "2034665",
+      "19336038",
+      "15722442",
+      "34151480",
+      "8656430",
+      "10686106",
+      "12842878",
+      "18656953",
+      "15641805",
+      "15520391",
+      "19354264",
+      "11866531",
+      "9735420",
+      "11093260",
+      "23349821",
+      "18305200",
+      "20095049",
+      "9080201",
+      "22747188",
+      "11071813",
+      "22137897",
+      "9300492",
+      "11007269",
+      "10873472",
+      "15312774",
+      "20544969",
+      "28193869",
+      "8130346",
+      "32423068",
+      "22070323",
+      "15322277",
+      "11513583",
+      "22118044",
+      "26700266",
+      "8392867",
+      "7500364",
+      "14984569",
+      "22414027",
+      "11786916",
+      "11119648",
+      "9761689",
+      "20536133",
+      "20098498",
+      "8535237",
+      "9893981",
+      "33076540",
+      "30704856",
+      "19758984",
+      "11340652",
+      "28684415",
+      "11827490",
+      "8637910",
+      "23085151",
+      "17188712",
+      "33229587",
+      "9236001",
+      "21947063",
+      "24050152",
+      "9398297",
+      "28155647",
+      "9887278",
+      "19933333",
+      "20571679",
+      "16461405",
+      "10625462",
+      "19463092",
+      "14529489",
+      "7477269",
+      "22292954",
+      "29985619",
+      "20804769",
+      "10731429",
+      "20607854",
+      "9565752",
+      "35832734",
+      "27795660",
+      "37571693",
+      "37118534",
+      "36940906",
+      "37586829",
+      "37607399",
+      "38963270",
+      "36023360",
+      "33612300",
+      "36008862",
+      "37825171",
+      "37985336"
+    ],
+    "review": [
+      "35157344",
+      "20494507",
+      "2034665"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/prot.26321",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

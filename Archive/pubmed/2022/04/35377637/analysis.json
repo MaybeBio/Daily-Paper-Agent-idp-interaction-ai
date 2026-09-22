@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35377637",
+  "title": "Improving Martini 3 for Disordered and Multidomain Proteins.",
+  "authors": "Thomasen, F Emil; Pesce, Francesco; Roesgaard, Mette Ahrensback; Tesei, Giulio; Lindorff-Larsen, Kresten",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2022-04-05",
+  "window": {
+    "start": "2022-04-04",
+    "end": "2022-04-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文改进Martini 3粗粒化力场以更准确模拟无序蛋白和多域蛋白的构象系综，虽未直接研究PPI，但通过增强蛋白-水相互作用修正IDP构象并改善自聚集描述，为IDP互作机制建模提供了关键物理模拟方法基础。",
+  "abstract": "Coarse-grained molecular dynamics simulations are a useful tool to determine conformational ensembles of proteins. Here, we show that the coarse-grained force field Martini 3 underestimates the global dimensions of intrinsically disordered proteins (IDPs) and multidomain proteins when compared with small-angle X-ray scattering (SAXS) data and that increasing the strength of protein-water interactions favors more expanded conformations. We find that increasing the strength of interactions between protein and water by ca. 10% results in improved agreement with the SAXS data for IDPs and multidomain proteins. We also show that this correction results in a more accurate description of self-association of IDPs and folded proteins and better agreement with paramagnetic relaxation enhancement data for most IDPs. While simulations with this revised force field still show deviations to experiments for some systems, our results suggest that it is overall a substantial improvement for coarse-grained simulations of soluble proteins.",
+  "abstract_zh": "粗粒度分子动力学（coarse-grained molecular dynamics）模拟是确定蛋白质构象系综的有用工具。在此，我们表明，与小型角X射线散射（SAXS）数据相比，粗粒度力场Martini 3低估了 intrinsically disordered proteins (IDPs) 和多结构域蛋白质的整体尺寸，并且增强蛋白质-水相互作用的强度有利于更扩展的构象。我们发现，将蛋白质与水之间的相互作用强度增加约10%，可改善IDPs和多结构域蛋白质与SAXS数据的一致性。我们还表明，这一修正导致对IDPs和折叠蛋白质自缔合的更准确描述，并且对大多数IDPs与顺磁弛豫增强数据的吻合度更好。尽管使用此修正力场的模拟在某些系统中仍显示出与实验的偏差，但我们的结果表明，总体而言，这是对可溶性蛋白质粗粒度模拟的实质性改进。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35377637/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35377637/",
+  "paper_page_path": "papers/pubmed/35377637/index.html"
+}

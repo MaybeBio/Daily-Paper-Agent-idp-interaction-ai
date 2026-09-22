@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2603.12534v1",
+  "title": "Polymer-Residue Accessibility Shapes Sequence Dependence of Critical Temperatures for Phase Separation",
+  "authors": "J. Pedro de Souza; Benjamin Sorkin; Amala Akkiraju; Athanassios Z. Panagiotopoulos; Howard A. Stone",
+  "journal": "",
+  "published_date": "2026-03-13",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过解析微扰理论和残基可及性参数(RAP)解释无序蛋白序列如何决定相分离临界温度，虽未直接研究特定PPI，但为IDP介导的凝聚体互作机制提供了可迁移的物理建模框架。",
+  "abstract": "Biological polymers, such as intrinsically disordered proteins, play a central role in cellular biology, including mediating phase separation and controlling activity of biological condensates. The physical properties and functions of biopolymers are determined by their residue sequence. Recently, significant computational and theoretical efforts have been devoted to characterizing the combinatorially complex sequence dependence of biopolymer phase diagrams. Here, we quantitatively show that monomer accessibility is central to determining the strength of pair interactions. We formulate an analytical perturbative approach, phenomenologically precluding two polymers' centers of mass from overlapping within a correlation hole. This theory yields the correction to the strength of mean-field interactions in terms of a residue-accessibility parameter (RAP), which accounts for the limited availability of inner monomers to interactions. Despite the simplicity of the approach, RAP rationalizes the variations in critical temperatures found in extensive Monte-Carlo simulations for thousands of two-letter polymer solutions of varying length and sequence. RAP may thus be effective for deciphering the polymer-sequence dependence of phase diagrams given any polymer length, set of monomer types, and polymer mixtures.",
+  "abstract_zh": "生物聚合物，如固有无序蛋白，在细胞生物学中扮演核心角色，包括介导相分离 (phase separation) 和控制生物凝聚体的活性。生物聚合物的物理性质和功能由其残基序列决定。近期，大量计算和理论工作致力于表征生物聚合物相图的组合复杂性序列依赖性。在此，我们定量表明，单体可及性对于决定对相互作用的强度至关重要。我们提出一种解析微扰方法，现象学上阻止两个聚合物的质心在关联孔内重叠。该理论以残基可及性参数 (RAP) 的形式给出平均场相互作用强度的修正，该参数考虑了内部单体对相互作用的有限可用性。尽管方法简单，RAP 能合理解释数千种不同长度和序列的两字母聚合物溶液在广泛蒙特卡洛模拟中观察到的临界温度变化。因此，对于任何聚合物长度、单体类型集合和聚合物混合物，RAP 可能有效用于解析相图的聚合物序列依赖性。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2603.12534v1",
+  "source_url": "https://arxiv.org/abs/2603.12534v1",
+  "paper_page_path": "papers/arxiv/2603.12534v1/index.html"
+}

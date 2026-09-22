@@ -1,0 +1,249 @@
+{
+  "identity": {
+    "pmid": "40818051",
+    "doi": "10.1080/07391102.2025.2543362",
+    "title": "Amino acid osmolytes disrupting intradomain interactions reduce the amyloidogenicity of alpha-synuclein: studies with charged l-amino acids and their derivatives."
+  },
+  "content": {
+    "abstract": "Aggregation of alpha-synuclein (alpha-syn) is a hallmark of Parkinson's and dementia with Lewy bodies pathogenesis. The high plasticity and lack of stable tertiary structure make alpha-syn more susceptible to its surrounding environment. Under stress conditions, small organic molecules known as osmolytes accumulate inside the cells. They affect the conformational states and fibrillation pathways of proteins. Here, the effects of eight different amino acid osmolytes (charged: l-glutamate, l-aspartate, l-lysine, l-arginine; amide side chains: l-glutamine, l-asparagine; and N-acetylated: N-acetyl-l-glutamic acid, N-acetyl-l-lysine) on the fibrillation of human alpha-synuclein were examined. Arginine and N-acetyl-l-lysine inhibited the fibrillation at concentrations above 0.2 and 0.4 M, respectively. Lysine, asparagine, and glutamate accelerated the fibrillation by reducing lag time. N-acetyl-l-glutamic acid induced lag-independent fibrillation, whereas glutamine and asparagine showed concentration-dependent effects on the fibrillation with reduced lag time at higher concentrations. Molecular dynamics simulations revealed that interdomain contacts facilitated the fibrillation. The amino acids interacting predominantly through van der Waals interactions reduced the lag time of alpha-syn. However, the amino acids having strong electrostatic interactions with the protein disrupted intradomain contacts, favored extended conformation, and inhibited the fibril formation.",
+    "keywords": [
+      "amino acids",
+      "fibril formation",
+      "fibril inhibition",
+      "intrinsically disordered protein",
+      "molecular dynamics simulation",
+      "organic osmolytes",
+      "alpha-Synuclein"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "*Amino Acids/chemistry",
+      "*Amyloid/chemistry",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saurabh, Archi",
+        "Chauhan, Suraj",
+        "Prakash, Jogadhenu S S",
+        "Prabhu, N Prakash"
+      ],
+      "short_names": [
+        "Saurabh A",
+        "Chauhan S",
+        "Prakash JSS",
+        "Prabhu NP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3024-1142"
+      ],
+      "affiliations": [
+        "Department of Biotechnology & Bioinformatics, School of Life Sciences, University of Hyderabad, Hyderabad, India.",
+        "Department of Biotechnology & Bioinformatics, School of Life Sciences, University of Hyderabad, Hyderabad, India.",
+        "Department of Biotechnology & Bioinformatics, School of Life Sciences, University of Hyderabad, Hyderabad, India.",
+        "Department of Biotechnology & Bioinformatics, School of Life Sciences, University of Hyderabad, Hyderabad, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saurabh, Archi",
+        "short_name": "Saurabh A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology & Bioinformatics, School of Life Sciences, University of Hyderabad, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Chauhan, Suraj",
+        "short_name": "Chauhan S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology & Bioinformatics, School of Life Sciences, University of Hyderabad, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Prakash, Jogadhenu S S",
+        "short_name": "Prakash JSS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology & Bioinformatics, School of Life Sciences, University of Hyderabad, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Prabhu, N Prakash",
+        "short_name": "Prabhu NP",
+        "identifiers": [
+          "0000-0002-3024-1142"
+        ],
+        "affiliations": [
+          "Department of Biotechnology & Bioinformatics, School of Life Sciences, University of Hyderabad, Hyderabad, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2026 Jul",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/16 12:30",
+    "fetched_at": "2026-09-21 22:26:03"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40818051",
+      "29853639",
+      "37433401",
+      "28460628",
+      "39306670",
+      "30769283",
+      "30917654",
+      "39947752",
+      "24058647",
+      "29851342",
+      "40268916",
+      "29364151",
+      "18261982",
+      "31417259",
+      "29704492",
+      "17381514",
+      "28710275",
+      "31575115",
+      "19655784",
+      "25869255",
+      "39708393",
+      "30003969",
+      "18692132",
+      "39947754",
+      "40259622",
+      "40882443",
+      "26601760",
+      "31685848",
+      "32699326",
+      "35690099",
+      "39046235",
+      "17537399",
+      "29715424",
+      "28373279",
+      "32457390",
+      "41134940",
+      "32737160",
+      "32291284",
+      "31092553",
+      "36379279",
+      "36500474",
+      "39875340",
+      "38801346",
+      "28007442",
+      "30810027",
+      "34684701",
+      "29286644",
+      "27934063",
+      "20026206",
+      "32707418",
+      "32982240",
+      "41882374",
+      "37198991",
+      "37823961",
+      "27742838",
+      "26119103",
+      "22274962",
+      "39693815",
+      "41874470",
+      "41556436",
+      "36877087",
+      "31799519",
+      "42093278",
+      "38637513",
+      "23607785",
+      "33333378",
+      "19538146",
+      "42027070",
+      "19576220",
+      "33649211",
+      "28330339",
+      "40020199",
+      "31699336",
+      "30102984",
+      "39150724",
+      "40994307",
+      "39232485",
+      "19596443",
+      "38321955",
+      "39584804",
+      "28918091",
+      "18423664",
+      "37189428",
+      "31181290",
+      "19137068",
+      "25461276",
+      "24397337",
+      "28075555",
+      "22573613",
+      "24010662",
+      "38358134",
+      "18329380",
+      "40819250",
+      "40490169",
+      "40605637",
+      "41410608",
+      "32013170",
+      "16162499",
+      "30277753",
+      "25659910"
+    ],
+    "review": [
+      "40818051",
+      "39947752",
+      "29364151",
+      "39947754",
+      "37198991",
+      "19538146",
+      "39150724"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2025.2543362?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/07391102.2025.2543362",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

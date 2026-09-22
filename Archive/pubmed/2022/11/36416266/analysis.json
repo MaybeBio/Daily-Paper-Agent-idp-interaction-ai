@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36416266",
+  "title": "MobiDB: 10 years of intrinsically disordered proteins.",
+  "authors": "Piovesan, Damiano; Del Conte, Alessio; Clementel, Damiano; Monzon, Alexander Miguel; Bevilacqua, Martina; Aspromonte, Maria Cristina; Iserte, Javier A; Orti, Fernando E; Marino-Buslje, Cristina; Tosatto, Silvio C E",
+  "journal": "Nucleic acids research",
+  "published_date": "2022-11-24",
+  "window": {
+    "start": "2022-11-21",
+    "end": "2022-11-27"
+  },
+  "score": 5,
+  "one_liner_zh": "MobiDB数据库整合无序蛋白注释与AlphaFold预测，提供结构无序和结合模式功能视图，但作为资源库缺乏对PPI机制或AI/物理模拟方法的实质建模贡献。",
+  "abstract": "The MobiDB database (URL: https://mobidb.org/) is a knowledge base of intrinsically disordered proteins. MobiDB aggregates disorder annotations derived from the literature and from experimental evidence along with predictions for all known protein sequences. MobiDB generates new knowledge and captures the functional significance of disordered regions by processing and combining complementary sources of information. Since its first release 10 years ago, the MobiDB database has evolved in order to improve the quality and coverage of protein disorder annotations and its accessibility. MobiDB has now reached its maturity in terms of data standardization and visualization. Here, we present a new release which focuses on the optimization of user experience and database content. The major advances compared to the previous version are the integration of AlphaFoldDB predictions and the re-implementation of the homology transfer pipeline, which expands manually curated annotations by two orders of magnitude. Finally, the entry page has been restyled in order to provide an overview of the available annotations along with two separate views that highlight structural disorder evidence and functions associated with different binding modes.",
+  "abstract_zh": "MobiDB数据库（网址：https://mobidb.org/）是一个关于固有无序蛋白的知识库。MobiDB整合了来自文献和实验证据的无序注释，以及所有已知蛋白质序列的预测。通过处理和整合互补的信息来源，MobiDB生成新知识并捕捉无序区域的功能意义。自10年前首次发布以来，MobiDB数据库不断演进，以提高蛋白质无序注释的质量、覆盖率和可访问性。目前，MobiDB在数据标准化和可视化方面已达到成熟阶段。在此，我们介绍一个新版本，其重点在于优化用户体验和数据库内容。与前一版本相比，主要进展包括整合AlphaFoldDB预测和重新实现同源转移流程，这将人工精选注释扩展了两个数量级。最后，条目页面已重新设计，以提供可用注释的概览，并包含两个独立视图，分别突出结构无序证据和与不同结合模式相关的功能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36416266/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36416266/",
+  "paper_page_path": "papers/pubmed/36416266/index.html"
+}

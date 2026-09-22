@@ -1,0 +1,308 @@
+{
+  "identity": {
+    "pmid": "41190617",
+    "doi": "10.1021/acs.jpcb.5c05522",
+    "title": "Using Multiple Isotope-Labeled Infrared Spectra for the Structural Characterization of an Intrinsically Disordered Peptide."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) rapidly interconvert between conformers, requiring an ensemble description. This complicates their experimental characterization, and force field limitations pose challenges for their simulation. Here, we use isotope-labeled and unlabeled infrared (IR) spectra to reweight simulated ensembles of the elastin-like peptide GVGVPGVG, a paradigmatic disordered peptide. By comparing the results obtained with different spectra, we explicitly show that the weights are underdetermined by the ensemble averaged data. We identify which labels and frequency regions maximize structural information while minimizing sensitivity to simulation error and show that these regions report on whether the peptide makes specific interactions. Our work shows the importance of incorporating simulations and simulated spectra at the planning stages of isotope-labeled IR experiments and more generally provides a framework for interpreting IR data for IDPs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Spectrophotometry, Infrared",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Isotope Labeling",
+      "*Peptides/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bongalonta, Ian J A",
+        "Dinner, Aaron R",
+        "Tokmakoff, Andrei"
+      ],
+      "short_names": [
+        "Bongalonta IJA",
+        "Dinner AR",
+        "Tokmakoff A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8328-6427",
+        "ORCID: 0000-0002-2434-8744"
+      ],
+      "affiliations": [
+        "Department of Chemistry and James Franck Institute, University of Chicago, Chicago, Illinois 60637, United States.",
+        "Department of Chemistry and James Franck Institute, University of Chicago, Chicago, Illinois 60637, United States.",
+        "Department of Chemistry and James Franck Institute, University of Chicago, Chicago, Illinois 60637, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bongalonta, Ian J A",
+        "short_name": "Bongalonta IJA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and James Franck Institute, University of Chicago, Chicago, Illinois 60637, United States."
+        ]
+      },
+      {
+        "full_name": "Dinner, Aaron R",
+        "short_name": "Dinner AR",
+        "identifiers": [
+          "0000-0001-8328-6427"
+        ],
+        "affiliations": [
+          "Department of Chemistry and James Franck Institute, University of Chicago, Chicago, Illinois 60637, United States."
+        ]
+      },
+      {
+        "full_name": "Tokmakoff, Andrei",
+        "short_name": "Tokmakoff A",
+        "identifiers": [
+          "0000-0002-2434-8744"
+        ],
+        "affiliations": [
+          "Department of Chemistry and James Franck Institute, University of Chicago, Chicago, Illinois 60637, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Nov 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/05 12:33",
+    "fetched_at": "2026-09-17 21:46:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38888161",
+      "38707546",
+      "38154096",
+      "37272569",
+      "36671509",
+      "36430530",
+      "36387274",
+      "35129612",
+      "33591749",
+      "33355572",
+      "32955887",
+      "32840111",
+      "32816485",
+      "32343908",
+      "31356778",
+      "31117592",
+      "30979035",
+      "30067028",
+      "29925019",
+      "29808548",
+      "29080468",
+      "28259050",
+      "28226222",
+      "27819658",
+      "27736076",
+      "27557051",
+      "27023758",
+      "26967199",
+      "26958875",
+      "26723635",
+      "26574339",
+      "26325592",
+      "26277120",
+      "26049457",
+      "25863066",
+      "25004990",
+      "24932380",
+      "24889800",
+      "24639500",
+      "24606139",
+      "24187427",
+      "24008243",
+      "23832629",
+      "23574217",
+      "23382249",
+      "22989858",
+      "22556167",
+      "21530234",
+      "21514144",
+      "20925316",
+      "20408171",
+      "19346479",
+      "19053670",
+      "18952168",
+      "17687489",
+      "17411046",
+      "16942147",
+      "16833288",
+      "16599451",
+      "16548505",
+      "16460180",
+      "16176990",
+      "15185334"
+    ],
+    "similar": [
+      "41190617",
+      "27736076",
+      "37646172",
+      "29925019",
+      "29808548",
+      "30840442",
+      "31552948",
+      "36178373",
+      "32859072",
+      "31402649",
+      "27844185",
+      "25207671",
+      "28448138",
+      "31613621",
+      "35129612",
+      "28877484",
+      "31809054",
+      "33810353",
+      "33411518",
+      "41082321",
+      "28734076",
+      "38275091",
+      "35934194",
+      "33623120",
+      "30433786",
+      "22760335",
+      "33355572",
+      "31375817",
+      "26387101",
+      "30372613",
+      "25447530",
+      "30876367",
+      "39340152",
+      "39851064",
+      "31425549",
+      "34545666",
+      "26574339",
+      "36917561",
+      "31241933",
+      "38511646",
+      "36468450",
+      "30979035",
+      "24656084",
+      "32145192",
+      "33530506",
+      "26387102",
+      "30365227",
+      "28226222",
+      "34576338",
+      "26548662",
+      "34680048",
+      "33310020",
+      "32840111",
+      "24589355",
+      "34656328",
+      "25919886",
+      "32816485",
+      "36930141",
+      "33078950",
+      "34152264",
+      "28095698",
+      "28805390",
+      "23794453",
+      "25502193",
+      "31548393",
+      "33459730",
+      "30250773",
+      "24410358",
+      "14982437",
+      "38987470",
+      "26325592",
+      "26727467",
+      "27159632",
+      "39499823",
+      "41644540",
+      "26967199",
+      "26618856",
+      "34716273",
+      "30554840",
+      "32696391",
+      "40907012",
+      "34032235",
+      "33574233",
+      "33122085",
+      "29548755",
+      "26030189",
+      "26387110",
+      "32403216",
+      "26453204",
+      "35174713",
+      "20690697",
+      "30204435",
+      "34390736",
+      "29573987",
+      "32623047",
+      "29705209",
+      "31139867",
+      "24098099",
+      "30939006",
+      "36934808"
+    ],
+    "review": [
+      "41190617",
+      "30840442",
+      "35129612",
+      "22760335",
+      "33355572",
+      "26387101",
+      "34545666",
+      "30979035",
+      "24656084",
+      "33530506",
+      "26387102",
+      "30365227",
+      "28226222",
+      "34680048",
+      "23794453",
+      "25502193",
+      "26325592",
+      "26387110",
+      "32403216",
+      "34390736",
+      "29705209"
+    ],
+    "pmc": [
+      "12768576"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41190617/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c05522",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

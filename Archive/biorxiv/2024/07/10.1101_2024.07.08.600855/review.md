@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Methods, Supplementary Figure and Video legends)
+- **Assessment boundary** Scientific claims, experimental logic, methodological adequacy, and interpretation as presented in the provided text. Figures, tables, and supplementary data files were not available for direct inspection.
+- **Shared manuscript claim summary** The authors propose that the WAVE complex, an actin nucleation promoting factor, self-organizes into solid-like, multilayered linear arrays at the plasma membrane. They report that these arrays are associated with negative membrane curvature, and that such curvature is both necessary and sufficient for WAVE complex membrane association. They propose this mechanism as a template for lamellipodia formation.
+- **Visible evidence base** Text descriptions of results from TIRF-SIM imaging, single-molecule tracking, fluorescence intensity scaling analysis, molecular counting using fluorescent standard candles, FRAP, bead-induced curvature experiments, nanopattern experiments, and cell compression experiments. Supplementary figure and video legends are described but the corresponding data files were not provided.
+- **Missing materials affecting confidence** All figures, supplementary figures, videos, and the associated analysis code repository. Without these, quantitative claims, image quality, statistical rigor, and the robustness of the single-molecule and counting analyses cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental and timely question in cell biology: how the WAVE complex self-organizes to generate lamellipodia. The authors combine an impressive array of advanced imaging techniques to propose a novel model in which WAVE complexes form solid-like, multilayered linear arrays templated by negative membrane curvature. The conceptual advance is significant and will be of broad interest. However, the manuscript as presented has several major technical and interpretive concerns that must be resolved before the central claims are fully established. The reliance on in vivo biochemistry is a strength, but the lack of direct molecular-level evidence for the proposed array architecture, the indirect nature of the curvature experiments, and the absence of key controls and quantitative details in the text limit the current strength of the conclusions.
+- **Who would be interested in the results, and why** Cell biologists studying actin dynamics, membrane curvature sensing, cell migration, and cytoskeletal self-organization. The work is also relevant to biophysicists interested in protein self-assembly at membranes and to researchers studying the molecular mechanisms of morphogenesis. The proposed link between NPF self-organization and membrane curvature provides a new framework for understanding how cells generate diverse protrusive structures.
+- **Major strengths** The study addresses a long-standing question using state-of-the-art quantitative imaging in a physiologically relevant context. The combination of single-molecule tracking, molecular counting, FRAP, and curvature manipulation is powerful and appropriate. The finding that WAVE complexes form solid-like, multilayered linear arrays is novel and conceptually important. The demonstration that negative curvature is sufficient and necessary for WAVE complex association, using multiple independent approaches, is compelling. The manuscript is clearly written and the model is well articulated.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of molecular counting
+  - **Claim pointer** The authors claim that molecular counting yields a mode of 670 WAVE complexes per micron at lamellipodial tips, implying a multilayered array at least 5-14 layers thick.
+  - **Evidence pointer** Results section "The WAVE complex linear array exhibits a multilayered organization", Figure 4, Supplementary Figure S3
+  - **Concern** The molecular counting method relies on fluorescent standard candles with 12, 60, or 120 eGFP copies. The accuracy of this approach depends critically on the assumption that the fluorescence intensity per eGFP molecule is identical in the standards and in the WAVE complex arrays. Factors such as protein folding efficiency, fluorophore maturation, local environment, and labeling stoichiometry (for the HaloTag-based single-molecule experiments) can introduce significant errors. The manuscript text does not provide details on how these factors were controlled or corrected for. Furthermore, the estimate of 670 copies per micron is a mode value; the distribution and its spread are not described. The conclusion that the array is 5-14 layers thick depends on assumptions about the dimensions and packing of the WAVE complex that are not stated or justified.
+  - **Why it matters** The multilayered architecture is a central claim of the paper. If the counting method is inaccurate, the conclusion that WAVE complexes form multilayered arrays is not supported. This would fundamentally alter the proposed model.
+  - **Resolution test** Provide a detailed description of the calibration and validation of the counting method, including controls for fluorophore maturation and labeling efficiency. Show the full distribution of the counting data, not just the mode. Justify the assumptions used to convert copy number per micron to number of layers, with reference to the known dimensions of the WAVE complex.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal sufficiency of negative curvature
+  - **Claim pointer** The authors claim that negative membrane curvature is both sufficient and necessary for WAVE complex membrane association.
+  - **Evidence pointer** Results section "Negative membrane curvature is both sufficient and necessary for WAVE complex membrane association", Figure 5, Supplementary Figure S4
+  - **Concern** The sufficiency experiment uses 200 nm beads to induce negative curvature. While WAVE complexes accumulate at these beads, it is not clear that this accumulation is due to curvature alone. The beads may also present a surface that promotes protein adsorption or may alter local membrane dynamics in ways unrelated to curvature. The necessity experiment relies on cell compression to eliminate membrane invaginations. The authors state that WAVE complexes disappear from these sites, but it is not shown that compression does not globally disrupt WAVE complex signaling or membrane organization. The persistence of WAVE complexes at the cell rim under compression is presented as a control, but the rim may have different properties than the ventral surface.
+  - **Why it matters** The central thesis is that curvature is a key physical determinant of WAVE complex organization. If the experiments do not cleanly isolate curvature from other factors, the causal link is weakened.
+  - **Resolution test** Provide additional controls, such as beads of different sizes (to vary curvature) and beads with surface coatings that prevent nonspecific protein adsorption. For the compression experiments, show that upstream signaling (e.g., Rac activity) is unaffected and that other membrane-associated proteins are not globally displaced. Consider using alternative methods to manipulate curvature, such as membrane nanotubes or micropipette aspiration.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive ambiguity of FRAP data
+  - **Claim pointer** The authors use FRAP to distinguish between a single multilayered array and a bundled array of short polymers.
+  - **Evidence pointer** Results section "The WAVE complex linear array exhibits a multilayered organization", Figure 4E-H, Supplementary Figure S3E
+  - **Concern** The FRAP data show partial recovery with a uniform pattern along the bleached region. The authors interpret this as consistent with two possible models. However, the text does not provide quantitative details of the FRAP analysis, such as the mobile fraction, the recovery half-time, or how these values compare between the two models. The distinction between the two proposed models (single multilayered array vs. bundled short polymers) may not be resolvable by FRAP alone, as both could produce similar recovery kinetics depending on the exchange rates and the geometry of the array.
+  - **Why it matters** The manuscript leaves the architecture of the array ambiguous. While this is acknowledged, the FRAP data are presented as supporting evidence for the general model. A more rigorous analysis could strengthen or refine the model.
+  - **Resolution test** Provide a more detailed FRAP analysis, including the mobile fraction and recovery kinetics. If possible, perform FRAP experiments with different bleach region sizes to distinguish between models. Alternatively, use super-resolution imaging or electron microscopy to directly visualize the array architecture.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the model
+  - **Claim pointer** The authors propose that the WAVE complex forms linear arrays at negative membrane curvature to instruct lamellipodia formation.
+  - **Evidence pointer** Discussion section
+  - **Concern** The experiments are performed in neutrophil-like HL-60 cells. It is unclear whether the proposed mechanism is general to other cell types that form lamellipodia. The authors discuss the potential relevance to other processes, but no data are presented to support this. The curvature values reported (65 nm radius) are specific to the contexts examined.
+  - **Why it matters** The title and abstract make a general claim about lamellipodia formation. If the mechanism is cell-type specific, the claim is overstated.
+  - **Resolution test** Perform similar experiments in at least one other cell type, such as fibroblasts or epithelial cells. Alternatively, temper the claims in the title and abstract to reflect the specific cellular context.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of model presentation
+  - **Affected element** Figure 6A
+  - **Evidence pointer** Discussion section
+  - **Issue** The model figure is described in the text but was not available for review. The description of the model in the Discussion is somewhat brief.
+  - **Required correction** Ensure the model figure clearly depicts the proposed multilayered linear array, its relationship to the membrane, and the direction of curvature. Expand the model description in the text to clarify the proposed mechanism of assembly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Quantifications in Figures 2, 4, and 5
+  - **Evidence pointer** Results sections
+  - **Issue** The text reports "modes" and "invariant" intensities but does not describe the number of cells, the number of independent experiments, or the statistical tests used.
+  - **Required correction** Add details on sample sizes, biological replicates, and statistical methods to the figure legends and methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Control for HaloTag labeling
+  - **Affected element** Single-molecule tracking experiments
+  - **Evidence pointer** Methods section "Single Molecular Tracking"
+  - **Issue** The text states that cells were labeled with two HaloTag dyes, but it is not clear how the specificity of the sparse labeling was verified.
+  - **Required correction** Describe controls for HaloTag labeling specificity, such as competition with unlabeled ligand or labeling in cells lacking the HaloTag fusion.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Negative membrane curvature"
+  - **Evidence pointer** Throughout
+  - **Issue** The definition of negative curvature is not explicitly stated. The convention can vary.
+  - **Required correction** Define the sign convention for membrane curvature early in the manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (molecular counting accuracy) and R1-M2 (causal sufficiency of curvature) are the most critical. The molecular counting is the primary evidence for the multilayered architecture, and the curvature experiments are the primary evidence for the causal role of curvature. Both need to be substantially strengthened with additional controls and quantitative detail.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The proposed mechanism of WAVE complex self-organization into solid-like, multilayered arrays templated by negative membrane curvature is novel and distinct from the phase-separation model proposed for N-WASP.
+  - **Scientific importance** High. The work addresses a fundamental question in cell biology and provides a new framework for understanding how cells generate diverse protrusive structures. The link between NPF self-organization and membrane curvature is likely to have broad implications.
+  - **Interdisciplinary readership** Moderate to high. The work will be of interest to cell biologists, biophysicists, and biochemists. The use of advanced imaging techniques and the conceptual link to membrane physics will appeal to a broad audience.
+  - **Technical soundness** Currently not fully established. The advanced imaging techniques are appropriate, but the quantitative accuracy of the molecular counting and the specificity of the curvature manipulations are not sufficiently demonstrated in the text.
+  - **Readability for nonspecialists** Good. The manuscript is clearly written and the concepts are explained well. The abstract and introduction are accessible. The results section is dense but understandable.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the experimental approach is powerful. However, the key claims of multilayered architecture and the causal role of negative curvature are not fully established from the provided evidence. The authors should be encouraged to address the major concerns with additional experiments and analyses.
+
+## Risk / unsupported claims
+- The claim that WAVE complexes form multilayered arrays at least 5-14 layers thick is not fully supported without a validated molecular counting method and a clear justification of the assumptions used to convert copy number to layer number.
+- The claim that negative membrane curvature is sufficient for WAVE complex association is weakened by the lack of controls for nonspecific protein adsorption on beads.
+- The claim that negative membrane curvature is necessary for WAVE complex association is weakened by the lack of evidence that compression does not globally disrupt WAVE complex signaling.
+- The generalizability of the model to other cell types is not supported by the data presented.
+- The distinction between the two proposed models for the array architecture (single multilayered array vs. bundled short polymers) is not resolved by the FRAP data as presented.

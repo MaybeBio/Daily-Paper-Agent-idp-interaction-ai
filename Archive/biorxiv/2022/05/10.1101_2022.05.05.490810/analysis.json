@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.05.490810",
+  "title": "Condensation of the fusion focus by the intrinsically disordered region of the formin Fus1 is essential for cell-cell fusion",
+  "authors": "Billault-Chaumartin I; Muriel O; Michon L; Martin SG",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-06",
+  "window": {
+    "start": "2022-05-02",
+    "end": "2022-05-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究裂殖酵母formin Fus1的IDR介导凝聚体形成，调控肌动蛋白融合焦点与分泌囊泡聚集，揭示IDR凝聚在细胞融合PPI机制中的核心作用，机制建模思路对IDR介导互作与相分离研究有直接启发。",
+  "abstract": "<h4>Summary</h4> Spatial accumulation of secretory vesicles underlies various cellular processes, such as neurotransmitter release at neuronal synapses [1], hyphal steering in filamentous fungi [2, 3], and local cell wall digestion preceding the fusion of yeast gametes [4]. Secretory vesicles transported on actin filaments by myosin V motors form clusters that serve as pool for local content release. During fission yeast Schizosaccharomyces pombe gamete fusion, the actin fusion focus assembled by the formin Fus1 concentrates secretory vesicles carrying cell wall digestive enzymes [5-7]. Focus position and coalescence are controlled by local signalling and actin-binding proteins to prevent inappropriate cell wall digestion that would cause lysis [6, 8-10], but the mechanisms of focusing have been elusive. Here, we show that the regulatory N-terminus of Fus1 contains an intrinsically disordered region (IDR) that mediates Fus1 condensation in vivo and forms dense assemblies that exclude other macromolecules. Fus1 lacking its IDR fails to condense in a tight focus and causes cell lysis during attempted cell fusion. Remarkably, replacement of Fus1 IDR with a heterologous low-complexity region that forms liquid condensates fully restores Fus1 condensation and function. By contrast, replacement of Fus1 IDR with a domain that forms more stable oligomers restores condensation but poorly supports cell fusion, suggesting that condensation is tuned to yield a structure selectively permeable for secretory vesicles. We propose that condensation of actin structures by an intrinsically disordered region may be a general mechanism for actin network organisation and the selective local concentration of secretory vesicles.",
+  "abstract_zh": "<h4>摘要</h4> 分泌囊泡的空间积累是多种细胞过程的基础，例如神经元突触中的神经递质释放[1]、丝状真菌中的菌丝导向[2, 3]，以及酵母配子融合前局部细胞壁消化[4]。由肌球蛋白V马达在肌动蛋白丝上运输的分泌囊泡形成簇，作为局部内容物释放的库。在裂殖酵母（*Schizosaccharomyces pombe*）配子融合过程中，由formin Fus1组装的肌动蛋白融合焦点浓缩携带细胞壁消化酶的分泌囊泡[5-7]。焦点位置和凝聚受局部信号传导和肌动蛋白结合蛋白调控，以防止不当的细胞壁消化导致裂解[6, 8-10]，但聚焦机制一直难以捉摸。在此，我们展示了Fus1的调控性N端包含一个内在无序区域（intrinsically disordered region, IDR），该区域介导Fus1在体内的凝聚，并形成排除其他大分子的致密组装体。缺乏其IDR的Fus1无法在紧密焦点中凝聚，并在尝试细胞融合过程中导致细胞裂解。值得注意的是，将Fus1 IDR替换为形成液体凝聚体的异源低复杂度区域，可完全恢复Fus1的凝聚和功能。相比之下，将Fus1 IDR替换为形成更稳定寡聚体的结构域可恢复凝聚，但对细胞融合支持不佳，表明凝聚被调控以产生对分泌囊泡选择性渗透的结构。我们提出，由内在无序区域介导的肌动蛋白结构凝聚可能是肌动蛋白网络组织和分泌囊泡选择性局部浓缩的一般机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.05.490810",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.05.490810",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.05.490810/index.html"
+}

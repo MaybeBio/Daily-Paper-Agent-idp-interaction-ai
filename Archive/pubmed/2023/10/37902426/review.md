@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the supplied abstract
+- **Shared manuscript claim summary** The authors propose that Arabidopsis cryptochromes (CRY1 and CRY2) act through two distinct mechanisms, termed "Lock-and-Key" and "Liquid-Liquid Phase Separation (LLPS)", to explain the structural and functional diversity of CRY-interacting proteins and downstream blue-light responses.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or reference list provided
+- **Missing materials affecting confidence** Full text, figures, tables, methods, statistical analyses, and reference list; no primary data or detailed mechanistic evidence
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible conceptual framework for cryptochrome action, but the evidence base is insufficient to evaluate the validity or novelty of the proposed dual mechanisms. The claims are largely descriptive and rely on prior literature without providing critical analysis or quantitative support. The manuscript may be of interest to plant photobiology researchers, but the current abstract does not establish the case for the proposed mechanisms.
+- **Who would be interested in the results, and why** Researchers in plant photobiology, signal transduction, and phase separation biology would be interested because the abstract proposes a unifying framework for cryptochrome function that connects protein interaction diversity with biophysical mechanisms. Those studying light-regulated gene expression and developmental plasticity may also find the conceptual model useful.
+- **Major strengths** The abstract addresses a significant question in plant signaling, namely how a single photoreceptor family achieves functional diversity. The proposal of two distinct mechanisms is conceptually clear and potentially testable. The authors draw on a substantial body of prior interaction data, which lends some empirical grounding to the framework.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the dual mechanisms "explain, at least partially, the structural diversity of CRY-interacting proteins and the functional diversity of the CRY photoreceptors."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The claim that the two mechanisms explain observed diversity is not supported by any presented evidence. The abstract lists interaction data from prior reports but does not show how the Lock-and-Key or LLPS mechanisms account for specific cases. No mechanistic experiments, quantitative analyses, or comparative evaluations are described.
+  - **Why it matters** Without evidence linking the proposed mechanisms to specific CRY-interacting proteins or functional outcomes, the explanatory claim is speculative. The abstract does not demonstrate that the dual mechanisms are necessary or sufficient to explain the observed diversity, nor does it rule out alternative explanations.
+  - **Resolution test** Provide specific examples where each mechanism is experimentally demonstrated to govern a particular CRY interaction or downstream response, with appropriate controls and quantitative data. Show that the mechanisms are distinct and non-redundant in their contributions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Novelty and distinction
+  - **Claim pointer** The abstract implies that the "dual mechanisms of action" represent a new conceptual contribution.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not clarify how the proposed dual mechanisms differ from previously published models of cryptochrome action. The Lock-and-Key concept and LLPS are both established in the broader signaling literature, and the abstract does not specify what is novel about their application to CRYs or how they integrate with existing knowledge.
+  - **Why it matters** For a review or perspective, the contribution must be clearly positioned relative to prior work. Without explicit differentiation, the proposed framework may be seen as a restatement of known concepts rather than a new synthesis.
+  - **Resolution test** State explicitly what is new about the dual mechanism proposal, compare it with prior models, and identify specific predictions that distinguish it from alternatives.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and depth
+  - **Claim pointer** The abstract states that the authors "analyzed recent studies of the photoregulatory mechanisms of Arabidopsis CRY complexes."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not indicate the criteria for selecting the 84 interacting proteins or the 47 light-regulated and 41 condensation-related proteins. It is unclear whether these numbers are exhaustive, representative, or biased by detection methods. The analysis appears to be a listing rather than a critical synthesis.
+  - **Why it matters** A review should provide a structured analysis that identifies patterns, gaps, or inconsistencies in the literature. The abstract does not convey such analysis, and the reader cannot assess the rigor of the literature survey.
+  - **Resolution test** Describe the literature search and inclusion criteria, and present a thematic or quantitative analysis that supports the proposed dual mechanisms.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The terms "Lock-and-Key" and "Liquid-Liquid Phase Separation" are introduced without definition or context. Readers unfamiliar with these concepts may not understand the mechanistic distinction.
+  - **Required correction** Provide brief definitions and a schematic or textual explanation of how each mechanism operates in the CRY context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Quantitative claims
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The numbers 84, 47, and 41 are presented without sources or confidence intervals. It is unclear whether these are exact counts or approximations.
+  - **Required correction** Cite the original sources for each number and state whether the counts are complete or representative.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract focuses exclusively on Arabidopsis CRYs. It is unclear whether the proposed dual mechanisms are intended to apply to cryptochromes in other species.
+  - **Required correction** State the intended scope of the proposal and, if applicable, discuss potential conservation or divergence across species.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core explanatory claim and the novelty claim cannot be evaluated from the supplied material. The abstract does not provide sufficient evidence or positioning to establish the proposed dual mechanisms as a valid contribution.
+- **Assessment against Nature-style criteria** 
+  - Originality: The conceptual combination of Lock-and-Key and LLPS for CRY action may be novel, but the abstract does not demonstrate this clearly. The idea is not sufficiently differentiated from prior models.
+  - Scientific importance: The question of how a single photoreceptor family achieves functional diversity is important for plant biology and signaling. However, the abstract does not show how the proposed mechanisms advance understanding beyond existing knowledge.
+  - Interdisciplinary readership: The topic may appeal to plant biologists, biophysicists, and cell biologists interested in phase separation. The abstract is accessible but lacks depth to engage specialists.
+  - Technical soundness: Not assessable from the abstract. No methods, data, or analyses are presented.
+  - Readability for nonspecialists: The abstract is generally readable but introduces specialized terms without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is interesting, but the abstract does not provide sufficient evidence or critical analysis to support the claims. A revised version with explicit novelty positioning, mechanistic evidence, and a structured literature analysis could be supportive.
+
+## Risk / unsupported claims
+- The claim that the dual mechanisms "explain, at least partially, the structural diversity of CRY-interacting proteins and the functional diversity of the CRY photoreceptors" is unsupported by the abstract.
+- The implication that the dual mechanism proposal is a novel contribution is not substantiated.
+- The counts of 84, 47, and 41 interacting proteins are presented without sources or context, making them unverifiable from the supplied material.
+- The generalizability of the proposed mechanisms beyond Arabidopsis is not addressed and cannot be assessed.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.24.581708",
+  "title": "Exploring the conformational ensembles of protein-protein complex with transformer-based generative model",
+  "authors": "Jianmin Wang; Xun Wang; Yanyi Chu; Chunyan Li; Xue Li; Xiangyu Meng; Yitian Fang; Kyoung Tai No; Jiashun Mao; Xiangxiang Zeng",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-26",
+  "window": {
+    "start": "2024-02-26",
+    "end": "2024-03-03"
+  },
+  "score": 7,
+  "one_liner_zh": "用Transformer生成模型从MD模拟中学习蛋白复合物构象系综并生成新构象，聚焦PPI构象采样与机制探索，虽未直接针对IDP，但方法可迁移至无序蛋白互作建模。",
+  "abstract": "Protein-protein interactions are the basis of many protein functions, and understanding the contact and conformational changes of protein-protein interactions is crucial for linking protein structure to biological function. Although difficult to detect experimentally, molecular dynamics (MD) simulations are widely used to study the conformational ensembles and dynamics of protein-protein complexes, but there are significant limitations in sampling efficiency and computational costs. In this study, a generative neural network was trained on protein-protein complex conformations obtained from molecular simulations to directly generate novel conformations with physical realism. We demonstrated the use of a deep learning model based on the transformer architecture to explore the conformational ensembles of protein-protein complexes through MD simulations. The results showed that the learned latent space can be used to generate unsampled conformations of protein-protein complexes for obtaining new conformations complementing pre-existing ones, which can be used as an exploratory tool for the analysis and enhancement of molecular simulations of protein-protein complexes.",
+  "abstract_zh": "蛋白质-蛋白质相互作用是许多蛋白质功能的基础，理解蛋白质-蛋白质相互作用的接触和构象变化对于将蛋白质结构与生物功能联系起来至关重要。尽管实验检测困难，分子动力学 (molecular dynamics) 模拟被广泛用于研究蛋白质-蛋白质复合物的构象系综和动力学，但在采样效率和计算成本方面存在显著限制。在本研究中，一个生成神经网络在从分子模拟获得的蛋白质-蛋白质复合物构象上进行了训练，以直接生成具有物理真实性的新构象。我们展示了基于transformer架构的深度学习模型通过MD模拟探索蛋白质-蛋白质复合物构象系综的应用。结果表明，学习到的潜在空间可用于生成未采样的蛋白质-蛋白质复合物构象，以获得补充已有构象的新构象，这可用作分析和增强蛋白质-蛋白质复合物分子模拟的探索性工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.24.581708",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.24.581708",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.24.581708/index.html"
+}

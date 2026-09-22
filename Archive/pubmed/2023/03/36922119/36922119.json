@@ -1,0 +1,191 @@
+{
+  "identity": {
+    "pmid": "36922119",
+    "doi": "10.1063/5.0138189",
+    "title": "Relaxation dynamics measure the aggregation propensity of amyloid-beta and its mutants."
+  },
+  "content": {
+    "abstract": "Atomistic molecular dynamics simulations are employed to investigate the global and segmental relaxation dynamics of the amyloid-beta protein and its causative and protective mutants. Amyloid-beta exhibits significant global/local dynamics that span a broad range of length and time scales due to its intrinsically disordered nature. The relaxation dynamics of the amyloid-beta protein and its mutants is quantitatively correlated with its experimentally measured aggregation propensity. The protective mutant has slower relaxation dynamics, whereas the causative mutants exhibit faster global dynamics compared with that of the wild-type amyloid-beta. The local dynamics of the amyloid-beta protein or its mutants is governed by a complex interplay of the charge, hydrophobicity, and change in the molecular mass of the mutated residue.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Amyloid beta-Peptides/chemistry",
+      "*Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dey, Priya",
+        "Biswas, Parbati"
+      ],
+      "short_names": [
+        "Dey P",
+        "Biswas P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5050-5865",
+        "ORCID: 0000-0001-7709-2263"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Delhi, Delhi 110007, India.",
+        "Department of Chemistry, University of Delhi, Delhi 110007, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dey, Priya",
+        "short_name": "Dey P",
+        "identifiers": [
+          "0000-0001-5050-5865"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Delhi, Delhi 110007, India."
+        ]
+      },
+      {
+        "full_name": "Biswas, Parbati",
+        "short_name": "Biswas P",
+        "identifiers": [
+          "0000-0001-7709-2263"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Delhi, Delhi 110007, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2023 Mar 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/16 06:00",
+    "fetched_at": "2026-09-20 20:21:09"
+  },
+  "links": {
+    "cites": [
+      "41560530",
+      "41441335"
+    ],
+    "refs": [],
+    "similar": [
+      "36922119",
+      "32352786",
+      "32130011",
+      "24817476",
+      "33580600",
+      "33727072",
+      "26453216",
+      "30737281",
+      "23679641",
+      "31342431",
+      "35167081",
+      "22339868",
+      "26130191",
+      "34491058",
+      "31020417",
+      "30933519",
+      "30381893",
+      "30170005",
+      "31202253",
+      "33438527",
+      "23421682",
+      "36179370",
+      "35458686",
+      "36542916",
+      "21413795",
+      "28054501",
+      "21871847",
+      "26153709",
+      "33174726",
+      "20709081",
+      "30821624",
+      "24471163",
+      "23606599",
+      "30708285",
+      "33375086",
+      "23951128",
+      "31566950",
+      "25050788",
+      "33440932",
+      "28641562",
+      "25422897",
+      "30225490",
+      "29957993",
+      "23640306",
+      "24418316",
+      "29362733",
+      "35933209",
+      "36493347",
+      "20513411",
+      "20734314",
+      "29186195",
+      "34292711",
+      "34152264",
+      "23358498",
+      "20338850",
+      "21957446",
+      "29023579",
+      "36756755",
+      "33480728",
+      "34509724",
+      "29490247",
+      "24410358",
+      "22674434",
+      "32623047",
+      "31181936",
+      "25137638",
+      "27091578",
+      "30722990",
+      "33668406",
+      "21625904",
+      "30730736",
+      "28292185",
+      "27914799",
+      "24028075",
+      "26757617",
+      "25330398",
+      "29465978",
+      "30901988",
+      "21408230",
+      "21174134",
+      "35073692",
+      "30865832",
+      "26275931",
+      "28474890",
+      "28129689",
+      "27454036",
+      "31474736"
+    ],
+    "review": [
+      "36922119",
+      "30933519",
+      "35458686",
+      "30225490"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0138189",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

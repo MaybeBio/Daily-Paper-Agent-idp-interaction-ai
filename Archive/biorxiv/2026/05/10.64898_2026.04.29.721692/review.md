@@ -1,0 +1,118 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, related works, method, experiments, conclusion) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, methodological soundness, experimental design, and evidence quality as presented in the provided text
+- **Shared manuscript claim summary** The authors introduce DPLM, a protein language model that aligns sequence embeddings with molecular dynamics trajectory embeddings via contrastive learning, using a frozen pretrained ViViT video model as the MD encoder. They claim that DPLM captures residue-level flexibility, improves functional clustering, outperforms ESM2 in zero-shot mutation effect prediction on 8 of 9 DMS datasets, and achieves top-tier performance in protein stability prediction and intrinsic disorder region identification with lightweight task-specific heads.
+- **Visible evidence base** Text descriptions of results in Sections 4.1, 4.2, and 4.3, referencing Figures 2, 3, 4 and Tables 1, 2, 3, 4. No actual figures, tables, or numerical data are visible in the provided material.
+- **Missing materials affecting confidence** All figures and tables are absent. Dataset construction details for downstream tasks (S8754, S669, CAID) are partially described but numerical results are not visible. Training hyperparameters, batch sizes, temperature parameter values, and computational resources are not reported. Ablation studies are mentioned only qualitatively in the conclusion.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important problem: incorporating protein dynamics into language model representations. The core idea of using a pretrained video model to encode MD trajectories as contact map videos and aligning them with sequence embeddings via contrastive learning is creative and potentially impactful. However, the provided text alone does not contain sufficient quantitative evidence to fully evaluate the strength of the claims. The methodological description is incomplete in several critical areas, particularly regarding the contrastive loss formulation, the handling of variable-length proteins, and the details of the downstream task setups. The claims of superiority over baselines are plausible but cannot be verified from the visible material.
+- **Who would be interested in the results, and why** Computational biologists and machine learning researchers working on protein representation learning, protein engineering, and function prediction would be interested. The work is also relevant to researchers studying protein dynamics and those developing multimodal learning approaches for biomolecular data. The potential to obtain dynamics-aware representations without requiring MD simulations at inference time is practically appealing for high-throughput applications.
+- **Major strengths** The problem is well-motivated and important. The use of a pretrained video model to encode MD trajectories is a novel and elegant transfer of ideas from computer vision. The contrastive alignment approach is unsupervised, avoiding the need for hand-engineered dynamic features. The evaluation spans multiple downstream tasks including zero-shot and fine-tuned settings, which is appropriate for a representation learning paper. The authors also address computational efficiency, which is a practical concern for real-world deployment.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that DPLM aligns sequence embeddings with MD trajectory embeddings via a contrastive objective, and that this alignment enriches sequence representations with implicit dynamic awareness.
+  - **Evidence pointer** Section 3.4, location not provided
+  - **Concern** The contrastive loss formulation is described only in prose. The actual equation is referenced but not shown in the provided text. Critical details are missing: how are positive and negative pairs constructed within a batch? Is the loss symmetric between modalities? How is the temperature parameter tau chosen and tuned? The modification of NT-Xent loss as introduced in X-CLIP is mentioned but the specific adaptation to this two-encoder setting is not described. Without these details, the training objective cannot be reproduced or fully evaluated.
+  - **Why it matters** The contrastive learning framework is the central methodological contribution. If the loss formulation or the pair construction strategy is flawed, the entire pretraining procedure could be compromised. Reproducibility is a core requirement for a methods paper.
+  - **Resolution test** Provide the full loss equation, describe the batch construction strategy including how negative pairs are sampled, specify the temperature parameter value and whether it was tuned, and clarify whether the loss is computed symmetrically across both modalities.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that DPLM learns sequence representations that correlate with residue-level flexibility and improve protein-level functional clustering.
+  - **Evidence pointer** Section 4.1, Figure 2, location not provided
+  - **Concern** The evaluation of dynamic features captured in DPLM representations is described only qualitatively. The text states that DPLM exhibits stronger correlations with RMSF than baselines, but no correlation coefficients, confidence intervals, or statistical significance tests are reported. Similarly, the functional clustering results using CATH and enzyme datasets are described in terms of CHI and ARI scores, but the actual values are not visible. Without quantitative results, the strength of these claims cannot be assessed.
+  - **Why it matters** These analyses are intended to demonstrate that DPLM genuinely captures dynamic information rather than merely improving on downstream metrics. If the correlations are weak or not statistically significant, the central premise of the paper is weakened.
+  - **Resolution test** Report the actual correlation coefficients with confidence intervals and p-values for the RMSF analysis. Provide the CHI and ARI values for all models compared, along with appropriate statistical tests where applicable.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that DPLM outperforms ESM2-based representations in zero-shot mutation effect prediction on multiple DMS datasets, and achieves top-tier performance on stability prediction and IDR identification.
+  - **Evidence pointer** Section 4.2, Section 4.3, Tables 1, 2, 3, 4, location not provided
+  - **Concern** The downstream evaluation results are summarized in tables that are not visible in the provided material. The text states that DPLM outperforms ESM2 in 8 of 9 DMS datasets, but the magnitude of improvement, the specific datasets, and the baseline configurations are not described. For the stability prediction task, the comparison in Table 2 references previously reported results, but the specific methods, their configurations, and the statistical significance of differences are not discussed. For IDR prediction, the comparison with PUNCH2 in Table 3 and the CAID rankings in Table 4 are mentioned, but the actual scores are absent.
+  - **Why it matters** The downstream task performance is the primary evidence for the utility of DPLM representations. Without visible numerical results, the claims of superiority cannot be verified. The choice of baselines and the fairness of comparison are also critical factors that cannot be assessed.
+  - **Resolution test** Provide the full tables with all numerical values, describe the baseline configurations in detail, and report statistical significance tests where applicable. Clarify whether the same training and evaluation protocols were used across all compared methods.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that DPLM directly embeds raw MD trajectories, capturing both spatial and temporal information, rather than relying on generated conformational ensembles or predefined dynamic features.
+  - **Evidence pointer** Section 3.2, location not provided
+  - **Concern** The MD encoding pipeline has several potential issues that are not addressed. First, proteins are split into 224-residue fragments with 30-residue overlap, but it is unclear how the resulting fragment-level representations are aggregated to produce a protein-level representation. Second, the ViViT model is pretrained on Kinetics-400 video data, which is a natural video dataset. The domain shift between natural videos and contact map videos is not discussed. Third, the MD trajectories are subsampled to 32-frame segments from 10,001 conformations, but the sampling strategy is not described. Fourth, the contact maps are normalized to [0, 1] based on C-alpha distances, but the specific normalization scheme is not detailed.
+  - **Why it matters** These details affect the quality and interpretability of the MD representations. If the fragment aggregation is naive or the domain shift is not addressed, the MD encoder may not capture meaningful dynamic information. The subsampling strategy could also introduce biases.
+  - **Resolution test** Describe the fragment aggregation strategy, discuss the domain shift issue and any fine-tuning or adaptation performed, specify the frame sampling strategy, and provide the exact normalization formula for contact maps.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The manuscript claims that DPLM addresses a key limitation of existing static and dynamics-adjacent PLMs by injecting implicit dynamic information without relying on predefined dynamic features or generated conformational ensembles.
+  - **Evidence pointer** Section 2.2, Section 5, location not provided
+  - **Concern** The comparison with existing dynamics-aware methods is limited. The related work section mentions SeqDance and Kalifa et al. but does not provide a detailed comparison of their approaches with DPLM. The manuscript does not discuss how DPLM compares with methods that predict dynamic properties directly, such as those based on elastic network models or normal mode analysis. The claim that DPLM is the first to use contrastive learning between sequences and MD trajectories is not explicitly stated, and the novelty relative to prior contrastive learning approaches in protein representation learning is not clearly delineated.
+  - **Why it matters** The scientific contribution of the paper depends on clearly positioning DPLM relative to existing work. If similar approaches have been proposed, the novelty claim is weakened.
+  - **Resolution test** Expand the related work section to include a more thorough comparison with existing dynamics-aware representation learning methods. Explicitly state the novelty of the approach relative to prior contrastive learning methods for proteins.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 3.4
+  - **Evidence pointer** location not provided
+  - **Issue** The contrastive loss equation is referenced but not shown in the text. The sentence "the loss is defined as: where tau is a temperature parameter" is incomplete.
+  - **Required correction** Include the full equation in the text or as a numbered display equation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 3.1
+  - **Evidence pointer** location not provided
+  - **Issue** The dataset split into training, validation, and test sets is described, but the exact number of proteins in each split is not stated. The text mentions 1,472 proteins in the training set, but the validation and test set sizes are not given.
+  - **Required correction** Report the number of proteins in the training, validation, and test sets.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.2
+  - **Evidence pointer** location not provided
+  - **Issue** The ViViT model is described as pretrained on Kinetics-400, but the specific checkpoint and the number of parameters are not stated. The text mentions "ViViT-b-16x2" but does not provide the parameter count.
+  - **Required correction** Report the parameter count of the ViViT model and the exact checkpoint used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.2
+  - **Evidence pointer** location not provided
+  - **Issue** The DMS datasets are described as compiled by Risselman et al., but the specific datasets used are not listed. The text mentions "nine DMS datasets" but does not name them.
+  - **Required correction** List the nine DMS datasets used and provide references for each.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 4.3
+  - **Evidence pointer** location not provided
+  - **Issue** The text states "under physiological conditions40" with a superscript reference that appears to be a citation, but the reference list is not provided in the visible material.
+  - **Required correction** Ensure all citations are properly formatted and included in the reference list.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 4.3
+  - **Evidence pointer** location not provided
+  - **Issue** The comparison with PUNCH2 in Table 3 is described as using "identical training and testing datasets," but the text does not specify whether the same hyperparameters and training procedures were used for both models.
+  - **Required correction** Clarify whether the same training protocol was used for both DPLM and PUNCH2, or describe any differences.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 3.3
+  - **Evidence pointer** location not provided
+  - **Issue** The sequence encoder is based on ESM2 with 650M parameters, but the text does not specify whether the ESM2 weights are frozen or fine-tuned during pretraining. The adapter tuning method is mentioned, but the exact training procedure is not described.
+  - **Required correction** Clarify whether the ESM2 backbone is frozen or fine-tuned, and describe the adapter tuning procedure in detail.
+- **Technical failings that need to be addressed before the case is established** The contrastive loss equation is missing. The quantitative results for all experiments are not visible. The MD encoding pipeline has unresolved details regarding fragment aggregation, domain shift, and frame sampling. The comparison with existing dynamics-aware methods is insufficient. The downstream task setups are not fully described.
+- **Assessment against Nature-style criteria** Originality: The idea of using a pretrained video model to encode MD trajectories and aligning them with sequence embeddings via contrastive learning is original and creative. Scientific importance: The problem of incorporating dynamics into protein representations is important and timely. Interdisciplinary readership: The work bridges computer vision, protein biophysics, and machine learning, which could appeal to a broad audience. Technical soundness: The technical details are incomplete in the provided material, and the quantitative evidence is not visible, so technical soundness cannot be fully assessed. Readability for nonspecialists: The text is generally clear, but the incomplete equation and missing results make it difficult for nonspecialists to follow the key contributions.
+- **Recommendation posture** Currently not established from the provided evidence. The core idea is promising and the problem is important, but the missing quantitative results and incomplete methodological details prevent a full assessment. The authors should provide the complete figures, tables, and equations, and address the technical concerns raised above before the claims can be evaluated.
+
+## Risk / unsupported claims
+- The claim that DPLM outperforms ESM2 in 8 of 9 DMS datasets is unsupported because the actual results are not visible.
+- The claim that DPLM achieves top-tier performance on stability prediction and IDR identification is unsupported because the comparison tables are not visible.
+- The claim that DPLM captures residue-level flexibility better than baselines is unsupported because correlation coefficients are not reported.
+- The claim that DPLM improves functional clustering is unsupported because CHI and ARI values are not reported.
+- The claim that the contrastive learning approach mitigates catastrophic forgetting is not directly tested or evidenced in the provided text.
+- The claim that freezing the ViViT encoder yielded the best performance is mentioned only qualitatively in the conclusion without supporting data.

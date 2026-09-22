@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusions. No supplementary materials, figures, or tables were provided beyond those referenced in the text.
+- **Assessment boundary** The review is limited to the scientific claims, methodology, and evidence presented in the provided manuscript text. No external validation of computational results was performed.
+- **Shared manuscript claim summary** The authors claim that the Delta variant (B.1.617.2) of SARS-CoV-2 exhibits extensive structural changes in the Spike protein compared to the Wuhan lineage, including increased stability, altered immunogenicity, enhanced ACE2 binding affinity, improved Furin cleavage, and reduced targetability by small molecule drugs. They further claim to have designed improved Bamlanivimab antibody variants with enhanced affinity and stability against the Delta Spike.
+- **Visible evidence base** The manuscript reports computational analyses including immunoinformatics (IEDB, Bepipred, ElliPro, DiscoTope), molecular dynamics simulations (GROMACS, 200 ns and 30 ns), free energy calculations (G_mmpbsa), Rosetta docking and antibody design, residue scanning (Schrodinger), and topology analysis (CAVER). Results are presented in Tables 1–13 and Figures 1–19, none of which were available for direct inspection.
+- **Missing materials affecting confidence** Figures 1–19, all tables (1–13), supplementary data, simulation parameter files, force field details, convergence criteria, and raw numerical outputs were not provided. The absence of these materials severely limits the ability to verify the quantitative claims and the robustness of the computational results.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important topic, namely the structural and functional consequences of mutations in the Delta variant Spike protein. The authors employ a broad range of computational tools, which is commendable in scope. However, the manuscript suffers from several critical weaknesses. The claims are largely qualitative and descriptive, with no statistical validation, no error estimates, and no comparison to experimental data. The computational methods are described at a level that is insufficient for reproducibility, and the results are presented without the necessary quantitative detail. The antibody design section, in particular, lacks experimental validation and the reported improvements are not placed in a meaningful biological context. While the topic is of interest to the COVID-19 research community, the current evidence base does not establish the central claims with the rigor expected for a high-impact journal.
+- **Who would be interested in the results, and why** Structural biologists, virologists, and computational biologists studying SARS-CoV-2 evolution and antibody escape would find the topic relevant. Researchers working on therapeutic antibody engineering and small molecule inhibitor design against emerging variants may also be interested. The potential practical implications for vaccine and therapeutic design make the topic broadly relevant to the infectious disease community.
+- **Major strengths** The manuscript covers a wide range of computational techniques, which is a strength in terms of comprehensiveness. The focus on the Delta variant, a clinically significant variant of concern, is timely. The attempt to integrate multiple levels of analysis, from immunogenicity to protein dynamics to drug targetability, is ambitious and could provide a holistic view if executed rigorously. The inclusion of antibody redesign using Rosetta is a potentially valuable contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the Delta Spike protein is "more stable" and binds ACE2 with "higher affinity" compared to the Wuhan lineage, based on MD simulations and free energy calculations.
+  - **Evidence pointer** Section "MD simulation and IDRs evaluation", Section "Pattern of Spike-ACE2 interaction", Tables 5, 6, 9, 11; Figures 3–5, 8–10. Location not provided for specific data points.
+  - **Concern** The claims of increased stability and binding affinity are based on single, unreplicated simulations. No error bars, standard deviations (beyond a single value for RMSD), or statistical tests are reported. The free energy differences (e.g., total energy of −16,082.5 vs −16,613.6 kJ/mol) are presented without any measure of uncertainty, making it impossible to assess whether these differences are significant. Furthermore, the G_mmpbsa method is known to be sensitive to parameter choices and system setup, and no validation against experimental binding affinities is provided.
+  - **Why it matters** The central conclusion of the paper, that Delta Spike is more stable and binds ACE2 more strongly, rests entirely on these computational estimates. Without statistical rigor and validation, these claims are not established. Overinterpretation of unvalidated computational results can mislead the field and has direct implications for understanding viral transmissibility and therapeutic design.
+  - **Resolution test** The authors must provide: (i) multiple independent MD replicates (at least 3) with error estimates for all reported metrics; (ii) convergence analysis for all simulations; (iii) validation of the computational binding affinities against experimental data (e.g., surface plasmon resonance or similar) or at least against published experimental values for the Wuhan and Delta Spike-ACE2 interactions; (iv) a clear statement of the statistical significance of the reported differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and methodological transparency
+  - **Claim pointer** The authors state that they used "a wide range of computational biology approaches" and describe the general workflow, but the level of detail is insufficient for reproduction.
+  - **Evidence pointer** Section "Materials and methods", subsections on MD simulation, docking, and antibody design. Location not provided for specific parameters.
+  - **Concern** The methods section lacks critical details required for reproducibility. For example: (a) the exact MD simulation parameters (e.g., integrator, time step, thermostat/barostat coupling constants, constraints) are not specified; (b) the protonation states of titratable residues are not discussed; (c) the setup for the Rosetta docking protocol (e.g., the specific score function, the number of docking decoys, the selection criteria for the best model) is not described; (d) the criteria for selecting the 27 heavy chain and 11 light chain residues for antibody redesign are not given; (e) the Schrodinger residue scanning protocol is not described in sufficient detail. Without these details, the results cannot be independently verified.
+  - **Why it matters** Reproducibility is a cornerstone of scientific research. The lack of methodological detail prevents other researchers from repeating the simulations and verifying the conclusions. This is particularly important in computational biology, where results can be highly sensitive to parameter choices.
+  - **Resolution test** The authors must provide a complete and detailed description of all computational protocols, including all input parameters, software versions, and analysis scripts. Ideally, the simulation input files and analysis scripts should be made available as supplementary materials or in a public repository.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for claims
+  - **Claim pointer** The authors claim that the redesigned Bamlanivimab antibodies show "stability and affinity improvement" against the Delta Spike.
+  - **Evidence pointer** Section "Antibody stability-affinity improvement", Table 12, Figure 18. Location not provided for specific data.
+  - **Concern** The antibody redesign results are presented as a list of seven designed antibodies with Rosetta scores. However, no information is provided on: (a) the baseline score of the native Bamlanivimab against the Delta Spike (the reference score of −1304.2 REU is mentioned, but the scores of the designed antibodies are only marginally better, e.g., −1315.52 REU); (b) the structural basis for the improved binding; (c) whether the designed mutations are experimentally testable and whether they have been tested; (d) the specificity of the designed antibodies for the Delta Spike versus other variants or the native Spike. The claim of "improvement" is based on a computational score that has not been validated experimentally.
+  - **Why it matters** The clinical relevance of the antibody design is a key selling point of the paper. Without experimental validation, the claim of "improvement" is speculative. The marginal improvement in the Rosetta score (a few REU) may not translate to a meaningful improvement in binding affinity in vitro or in vivo. Overstating the significance of computational predictions can mislead the therapeutic development community.
+  - **Resolution test** The authors must either provide experimental validation of the designed antibodies (e.g., binding assays, neutralization assays) or clearly state that the results are purely computational predictions that require experimental testing. The discussion should be tempered to reflect the speculative nature of the claims.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance and novelty
+  - **Claim pointer** The authors claim that their study provides a "reliable paradigm for predicting and mitigating the effects of SARS-CoV-2 mutations on vaccinations and antibody treatments."
+  - **Evidence pointer** Section "Introduction", Section "Conclusions". Location not provided.
+  - **Concern** The novelty of the study is not clearly established. Many computational studies have already analyzed the structural and functional effects of Delta variant mutations on the Spike protein, including its interaction with ACE2 and antibodies. The authors do not clearly articulate what new insights their study provides beyond what is already known. The claim of a "reliable paradigm" is an overstatement, as the study is purely computational and lacks experimental validation.
+  - **Why it matters** For a high-impact journal, the work must offer a significant advance over existing knowledge. If the findings are largely confirmatory of previous computational and experimental studies, the contribution is incremental. The authors need to clearly state what is novel about their approach or findings.
+  - **Resolution test** The authors must provide a more thorough comparison with existing literature and clearly highlight the novel contributions of their work. They should also temper the claims of a "reliable paradigm" and acknowledge the limitations of a purely computational study.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section "Introduction". Location not provided.
+  - **Issue** The abstract and introduction contain several grammatical errors and awkward phrasings (e.g., "the B1.617.2 variant of concern" should be "B.1.617.2"; "the Spike of the B1.617.2 variant of concern can cause extensive structural changes" is unclear). The writing would benefit from professional editing.
+  - **Required correction** The authors should carefully proofread the manuscript and correct all grammatical and typographical errors. The abstract should be rewritten for clarity and precision.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Tables and Figures
+  - **Evidence pointer** Tables 1–13, Figures 1–19. Location not provided.
+  - **Issue** The tables and figures are referenced in the text but were not provided for review. The table captions are present but the data itself is missing. This makes it impossible to assess the validity of the results.
+  - **Required correction** The authors must ensure that all tables and figures are included in the manuscript and are of high quality. The data should be presented clearly and consistently.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Section "Results and discussion". Location not provided.
+  - **Issue** The discussion of the results in the context of existing literature is limited. The authors cite a few studies but do not provide a comprehensive comparison of their findings with previous computational and experimental work on the Delta variant.
+  - **Required correction** The authors should expand the discussion to include a more thorough comparison with existing studies, highlighting both agreements and discrepancies.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data availability statement
+  - **Evidence pointer** Section "Data availability". Location not provided.
+  - **Issue** The data availability statement is vague ("Data will be made available on request"). For a computational study, it is standard practice to make simulation inputs, outputs, and analysis scripts publicly available.
+  - **Required correction** The authors should provide a clear data availability statement, including a link to a public repository (e.g., GitHub, Zenodo) where all relevant data and scripts can be accessed.
+- **Technical failings that need to be addressed before the case is established** The lack of statistical rigor in the MD and free energy calculations (R1-M1), the insufficient methodological detail (R1-M2), and the absence of experimental validation for the antibody design claims (R1-M3) are the primary technical failings. These issues must be resolved before the central claims of the manuscript can be considered established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The study is not highly original. The structural and functional effects of Delta variant mutations on the Spike protein have been extensively studied. The use of a combination of computational methods is not novel in itself. The antibody redesign approach is a standard application of Rosetta. The authors do not present a new method or a new conceptual framework.  
+  - **Scientific importance** The topic is important, but the study does not provide a significant advance in understanding. The conclusions are largely confirmatory of existing knowledge. The lack of experimental validation limits the practical impact of the findings.  
+  - **Interdisciplinary readership** The topic is of interest to a broad readership, including virologists, immunologists, structural biologists, and computational biologists. However, the presentation is heavily technical and may not be accessible to a general scientific audience. The authors should provide more context and explanation of the computational methods for non-specialists.  
+  - **Technical soundness** The technical soundness is currently inadequate. The lack of statistical rigor, the absence of validation, and the insufficient methodological detail are major concerns. The results cannot be considered reliable without addressing these issues.  
+  - **Readability for nonspecialists** The manuscript is written in a technical style that assumes a high level of familiarity with computational biology. The abstract and introduction are not accessible to a general scientific audience. The authors should provide a clearer and more accessible summary of their findings and their significance.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant topic and employs a comprehensive set of computational tools, but the central claims are not supported by the evidence as presented. The lack of statistical rigor, methodological transparency, and experimental validation are critical issues that must be addressed. The authors should be encouraged to revise the manuscript substantially, providing the necessary details and validation, and to temper their claims to match the level of evidence.
+
+## Risk / unsupported claims
+- The claim that the Delta Spike is "more stable" than the Wuhan Spike is unsupported due to the lack of statistical analysis and error estimates in the MD simulations and free energy calculations.
+- The claim that the Delta Spike binds ACE2 with "higher affinity" is unsupported for the same reasons and lacks validation against experimental data.
+- The claim that the redesigned Bamlanivimab antibodies show "stability and affinity improvement" is unsupported without experimental validation. The reported improvements in Rosetta scores are marginal and may not be biologically meaningful.
+- The claim that the study provides a "reliable paradigm for predicting and mitigating the effects of SARS-CoV-2 mutations" is an overstatement and is not supported by the evidence.
+- The claim that the observed changes "may justify the greater prevalence and infectivity of the Delta lineage" is speculative and not directly tested in this study.

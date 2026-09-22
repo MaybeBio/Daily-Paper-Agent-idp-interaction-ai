@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40121710",
+  "title": "A critical address to advancements and challenges in computational strategies for structural prediction of protein in recent past.",
+  "authors": "Fatima Ali, Nida; Khan, Shumaila; Zahid, Saadia",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2025-03-24",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该综述回顾了计算蛋白质结构预测（含AlphaFold2等AI方法）的进展与挑战，提及IDR和PPI建模难点，但缺乏具体机制建模深度，对本课题有背景参考价值。",
+  "abstract": "Protein structure prediction has undergone significant advancements, driven by the limitations of experimental techniques like X-ray crystallography, NMR, and cryo-EM, which are costly and time-consuming. To bridge the gap between protein sequences and their structures, computational methods have emerged as essential tools. Traditional approaches such as homology modeling, threading, and ab initio folding made progress but often lacked atomic-level precision. The field has been revolutionized by deep learning-based models such as AlphaFold2, RoseTTAFold, and OpenFold, which have demonstrated unprecedented accuracy in predicting protein structures. These AI-driven models leverage vast datasets and neural networks to generate highly reliable structural predictions, sometimes rivaling experimental methods. This review explores the historical evolution of computational protein structure prediction, analyzing the strengths and weaknesses of state-of-the-art models. These models have broad applications in fields such as drug discovery, enzyme engineering, and disease-related protein modeling. However, challenges remain, including the need for extensive training data, computational resource requirements, and difficulties in modeling protein dynamics, intrinsically disordered regions, and protein-protein interactions. Future directions in the field include improving AI models to address current limitations, better integration with experimental techniques, and extending predictions to protein complexes and post-translational modifications. By continuing to refine these methods, computational protein structure prediction will further enhance biomedical research and therapeutic design, reshaping the landscape of structural biology and computational biophysics.",
+  "abstract_zh": "蛋白质结构预测已取得显著进展，这得益于实验技术（如X射线晶体学、核磁共振和冷冻电镜）的局限性，这些技术成本高昂且耗时。为弥合蛋白质序列与其结构之间的差距，计算方法已成为必不可少的工具。同源建模、线程法和从头折叠等传统方法取得了一定进展，但往往缺乏原子级精度。基于深度学习的模型，如AlphaFold2、RoseTTAFold和OpenFold，彻底改变了该领域，这些模型在预测蛋白质结构方面展现了前所未有的准确性。这些AI驱动的模型利用海量数据集和神经网络生成高度可靠的结构预测，有时甚至能与实验方法相媲美。本综述探讨了计算蛋白质结构预测的历史演变，分析了最先进模型的优缺点。这些模型在药物发现、酶工程和疾病相关蛋白质建模等领域具有广泛应用。然而，挑战依然存在，包括对大量训练数据的需求、计算资源要求，以及在建模蛋白质动态、内在无序区域和蛋白质-蛋白质相互作用方面的困难。该领域的未来方向包括改进AI模型以解决当前局限性、与实验技术更好地整合，以及将预测扩展到蛋白质复合物和翻译后修饰。通过不断完善这些方法，计算蛋白质结构预测将进一步促进生物医学研究和治疗设计，重塑结构生物学和计算生物物理学的格局。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40121710/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40121710/",
+  "paper_page_path": "papers/pubmed/40121710/index.html"
+}

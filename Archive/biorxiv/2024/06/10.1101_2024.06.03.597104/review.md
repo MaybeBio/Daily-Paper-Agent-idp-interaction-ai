@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose a new computational approach, repurposing chemical physics from molecular simulations, to predict intermolecular interactions between intrinsically disordered regions (IDRs) and partner proteins. The method is claimed to enable direct prediction of phase diagrams, identification of chemically specific interaction hotspots on IDRs, and generation of mechanistic hypotheses about IDR function in molecular recognition. The authors apply the approach to multiple systems to demonstrate versatility.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, and any quantitative performance metrics are absent. The abstract provides no specific results, benchmarks, or comparisons to existing methods.
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting idea, namely the adaptation of simulation-derived chemical physics for sequence-based prediction of IDR interactions. However, the current submission, as represented by the abstract alone, does not provide sufficient evidence to evaluate the validity, novelty, or utility of the proposed approach. The claims are broad and lack quantitative support. The manuscript cannot be assessed for technical soundness without access to the methods and results.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, molecular recognition, biophysics, and computational biology would be interested. The approach could be relevant to those studying phase separation, IDR-mediated signaling, and drug discovery targeting disordered regions. The potential to predict interaction hotspots from sequence alone would appeal to a broad community seeking mechanistic insights into IDR function.
+- **Major strengths** The abstract addresses a timely and important gap in the field, namely the lack of tools for predicting structurally heterogeneous IDR interactions. The conceptual framing, which emphasizes chemically complementary interactions over sequence-specific binding, is well aligned with emerging paradigms. The proposed versatility, including phase diagram prediction and hotspot identification, suggests a potentially broad applicability.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The approach enables direct prediction of phase diagrams and identification of chemically specific interaction hotspots on IDRs.
+  - **Evidence pointer** Abstract only; no methods or results provided
+  - **Concern** The abstract claims predictive capabilities but provides no description of the underlying methodology, no validation against experimental data, and no quantitative performance metrics. It is impossible to assess whether the approach is accurate, robust, or generalizable.
+  - **Why it matters** Without evidence of predictive accuracy or benchmarking, the core claims of the paper cannot be substantiated. The scientific community requires demonstrated performance to evaluate the utility of any new computational method.
+  - **Resolution test** Provide a detailed methods section, validation against known IDR interaction datasets, and quantitative comparisons to existing prediction tools. Show that predicted phase diagrams and hotspots match experimental observations in at least several test cases.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The approach enables the development and testing of mechanistic hypotheses regarding IDR function in the context of molecular recognition.
+  - **Evidence pointer** Abstract only; no examples or case studies provided
+  - **Concern** The abstract states that the approach is used to examine a range of systems and questions, but no specific examples, findings, or insights are presented. The claim of mechanistic hypothesis generation is unsupported without illustrative results.
+  - **Why it matters** The broader significance of the work depends on demonstrating that the approach yields biologically meaningful insights, not just computational predictions. Without concrete examples, the importance to the IDR community remains unclear.
+  - **Resolution test** Include at least one detailed case study showing how the approach generates a testable mechanistic hypothesis and how that hypothesis is supported or refuted by experimental or literature evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The approach repurposes chemical physics developed originally for molecular simulations to predict intermolecular interactions between IDRs and partner proteins.
+  - **Evidence pointer** Abstract only; no comparison to prior work
+  - **Concern** The abstract does not situate the approach within the existing literature. It is unclear how this method differs from or advances beyond current sequence-based predictors or simulation-based approaches for IDR interactions.
+  - **Why it matters** Originality is a key criterion for a high-impact publication. Without a clear statement of novelty relative to existing tools, the contribution cannot be properly evaluated.
+  - **Resolution test** In the full manuscript, provide a thorough literature review and explicitly state the conceptual and technical advances over prior methods, with comparative benchmarks where possible.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses terms such as "chemical physics" and "disordered bound-state complexes" without brief definitions, which may limit accessibility for readers outside the immediate field.
+  - **Required correction** Add brief clarifying phrases, such as specifying the type of chemical physics (e.g., statistical mechanics or coarse-grained models) and defining disordered bound-state complexes in plain language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "direct prediction of phase diagrams" is ambiguous. It is unclear whether this refers to phase diagrams of IDR solutions, IDR-partner mixtures, or something else.
+  - **Required correction** Specify the type of phase diagram and the conditions under which prediction is made, such as temperature, concentration, or ionic strength.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "a range of systems and questions" but does not enumerate them, leaving the reader without a sense of the scope of validation.
+  - **Required correction** List the types of systems examined, such as specific IDR families or partner classes, to give a clearer picture of the applicability.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of methodological detail, validation, and comparative analysis means the core claims are currently unsubstantiated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The conceptual idea appears potentially novel, but the abstract does not demonstrate how the approach differs from existing methods. Not assessable without literature context.
+  - Scientific importance: The problem addressed is important, but the significance of the solution is not established without concrete results.
+  - Interdisciplinary readership: The topic has broad appeal across biophysics, computational biology, and cell biology, but the abstract is too technical and vague to engage a wide audience.
+  - Technical soundness: Not assessable from the abstract alone. No methods, data, or validation are provided.
+  - Readability for nonspecialists: The abstract is moderately accessible but uses jargon without explanation, limiting broader comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone is insufficient to support the claims. A full manuscript with detailed methods, validation, and case studies is required for a meaningful evaluation.
+
+## Risk / unsupported claims
+- The claim that the approach enables direct prediction of phase diagrams is unsupported, as no results are shown.
+- The claim that the approach identifies chemically specific interaction hotspots is unsupported, as no examples or validation are provided.
+- The claim that the approach enables development and testing of mechanistic hypotheses is unsupported, as no case studies are described.
+- The general applicability and versatility of the approach are asserted but not demonstrated with specific systems or outcomes.
+- The novelty of the approach relative to existing methods is not assessable from the abstract.

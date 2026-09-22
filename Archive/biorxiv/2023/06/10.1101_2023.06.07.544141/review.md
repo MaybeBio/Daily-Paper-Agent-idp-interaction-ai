@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of methods, data, or figures beyond what is stated
+- **Shared manuscript claim summary** The authors report that Nsp1-dependent host shutoff is conserved across coronaviruses, but only β-CoV Nsp1 inhibits translation via ribosome binding. They propose that the C-terminal domain (CTD) of β-CoV Nsp1s mediates high-affinity ribosome binding despite low sequence conservation, that this domain is an inefficient translation inhibitor on its own, and that it functions by recruiting an N-terminal effector domain. They further claim that a viral cis-acting RNA element co-evolved to fine-tune SARS-CoV-2 Nsp1 function but does not protect against Nsp1 from related viruses.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, structural models, binding assays, functional data, sequence alignments, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially important advance in understanding the conserved and divergent functions of coronavirus Nsp1, particularly the separation of ribosome-binding and translation-inhibition activities. The claim that the CTD is a high-affinity ribosome binder but an inefficient inhibitor, with the N-terminal domain acting as the effector, challenges prior models and could have broad relevance. However, the abstract alone provides insufficient evidence to evaluate the robustness of the structural modeling, the functional assays, or the evolutionary inferences. The conclusions are plausible but not yet established from the supplied material.
+- **Who would be interested in the results, and why** Virologists studying coronavirus host shutoff and pathogenesis; structural biologists interested in ribosome-protein interactions; evolutionary biologists examining functional conservation across divergent viral proteins; and researchers developing antiviral strategies targeting Nsp1. The proposed mechanistic separation of binding and inhibition could inform drug design and broaden understanding of viral immune evasion.
+- **Major strengths** The abstract addresses a significant and timely question with potential therapeutic relevance. The comparative approach across diverse coronaviruses is a strength, as it may reveal conserved features that are not apparent from single-virus studies. The claim that ribosome binding and translation inhibition are separable functions is conceptually novel and could reframe the field. The mention of a co-evolved cis-acting RNA element adds a layer of regulatory complexity that is intriguing.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that the C-terminal domain of all β-CoV Nsp1s confers high-affinity ribosome binding despite low sequence conservation, and that this domain is an inefficient translation inhibitor.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states these findings but provides no quantitative data, such as binding affinities, inhibition efficiencies, or comparative measurements across the four Nsp1s modeled. Without such data, the central mechanistic distinction between binding and inhibition cannot be assessed.  
+  - **Why it matters** The core novelty of the paper rests on this separation of functions. If the evidence is indirect or based on limited assays, the conclusion may be overstated.  
+  - **Resolution test** Provide binding constants (e.g., Kd values) and translation inhibition measurements for multiple β-CoV Nsp1 CTDs, with appropriate controls, to demonstrate that high-affinity binding does not correlate with inhibition potency.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Model validation  
+  - **Claim pointer** The authors state that modeling of interactions of four Nsp1s to the ribosome identified few absolutely conserved amino acids that, together with surface charge conservation, form the β-CoV Nsp1 ribosome-binding domain.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe the modeling approach, the criteria for identifying conserved residues, or any experimental validation (e.g., mutagenesis) of the predicted binding interface. Without such details, the reliability of the structural model is unknown.  
+  - **Why it matters** Structural predictions are only as strong as their validation. If the model is not tested experimentally, the claim of a conserved binding domain remains speculative.  
+  - **Resolution test** Include experimental mutagenesis data showing that mutation of the predicted conserved residues or charge features disrupts ribosome binding, and describe the modeling method and its limitations.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Functional evidence  
+  - **Claim pointer** The authors claim that the Nsp1-CTD likely functions by recruiting Nsp1’s N-terminal “effector” domain, and that a viral cis-acting RNA element has co-evolved to fine-tune SARS-CoV-2 Nsp1 function.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no experimental evidence for the recruitment mechanism or for the functional role of the cis-acting RNA element. The term “likely” indicates uncertainty, but the abstract does not specify what experiments were performed to support this model.  
+  - **Why it matters** These claims are central to the proposed mechanism of Nsp1 function. Without direct evidence, such as domain-swap experiments, truncation analyses, or RNA-binding assays, the conclusions are not established.  
+  - **Resolution test** Provide domain-swap or truncation experiments showing that the N-terminal domain is required for translation inhibition when recruited by the CTD, and RNA element mutagenesis or binding assays demonstrating its regulatory role.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract uses “host shutoff” and “translation inhibition” without defining the relationship between these terms. It is unclear whether host shutoff is entirely due to translation inhibition or includes mRNA degradation as a separate mechanism.  
+  - **Required correction** Clarify the definitions and the relationship between host shutoff, translation inhibition, and mRNA degradation in the abstract.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Specificity  
+  - **Affected element** Claim about conservation  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that Nsp1-dependent host shutoff is conserved in diverse coronaviruses, but it does not specify which genera or species were tested. This limits the interpretability of the claim.  
+  - **Required correction** Specify the range of coronaviruses examined and the criteria for “conserved” host shutoff.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Statement on RNA element  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The claim that the cis-acting RNA element “does not provide similar protection against Nsp1 from related viruses” is vague. It is unclear what “protection” means functionally and which related viruses were tested.  
+  - **Required correction** Define the protective mechanism and list the viruses tested for comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient experimental or methodological detail to support the central mechanistic claims. Without binding data, model validation, and functional assays, the conclusions remain unsupported.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The proposed separation of ribosome binding from translation inhibition is a novel conceptual contribution that could shift current understanding of Nsp1 function.  
+  - **Scientific importance** The topic is of high importance given the role of Nsp1 in SARS-CoV-2 pathogenesis and the potential for therapeutic targeting.  
+  - **Interdisciplinary readership** The findings would appeal to virologists, structural biologists, and evolutionary biologists, but the abstract does not yet make the case accessible to a broader audience due to missing context.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The lack of methodological detail and data prevents evaluation of the robustness of the claims.  
+  - **Readability for nonspecialists** The abstract is reasonably clear but uses field-specific terms without sufficient explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an intriguing hypothesis, but the claims require substantial experimental and methodological support. I would be supportive if the full manuscript provides rigorous binding data, validated structural models, and functional experiments that confirm the proposed mechanism.
+
+## Risk / unsupported claims
+- The claim that the CTD of all β-CoV Nsp1s confers high-affinity ribosome binding is unsupported without quantitative binding data.
+- The claim that the CTD is an inefficient translation inhibitor is unsupported without comparative functional assays.
+- The claim that the CTD recruits the N-terminal effector domain is speculative and not evidenced in the abstract.
+- The claim that a cis-acting RNA element co-evolved to fine-tune SARS-CoV-2 Nsp1 function is unsupported without functional RNA assays.
+- The claim that the RNA element does not protect against Nsp1 from related viruses is unsubstantiated without comparative data.

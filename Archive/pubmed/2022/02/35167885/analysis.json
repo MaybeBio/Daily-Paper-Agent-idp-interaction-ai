@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35167885",
+  "title": "Exploring the Formation Mechanism of Coamorphous Andrographolide-Oxymatrine Based on Molecular Dynamics and Spectroscopy.",
+  "authors": "Fang, Xiaoping; Hu, Yi; Huang, Zhuang; Han, Lintao; Li, Bin; Lu, Shan; Cao, Yan",
+  "journal": "Journal of pharmaceutical sciences",
+  "published_date": "2022-02-16",
+  "window": {
+    "start": "2022-02-14",
+    "end": "2022-02-20"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究用分子动力学和光谱探究共无定形药物小分子AP-OMT的形成机制，对象为小分子药物而非无序蛋白/IDR，且无蛋白互作或相分离背景，仅方法上MD可迁移但关联弱。",
+  "abstract": "Coamorphous drug delivery systems have shown great potential in improving the solubility and bioavailability of poorly water-soluble drugs. However, the coamorphous formation mechanism remains unclear. In this study, coamorphous andrographolide (AP) - oxymatrine (OMT) was successfully prepared by solvent evaporation and characterized by PXRD and DSC. The potential groups of intermolecular interactions in coamorphous binary systems were predicted by the molecular electrostatic potential (ESP) in the density functional theory (DFT) and the HOMO and LUMO in the molecular frontier orbitals, which had been confirmed by FTIR, FT-NIR, and Raman spectroscopy. Molecular dynamics (MD) was used to explore the mechanism of coamorphous formation. The results of the solvent-state radial distribution function (RDF) showed that the hydrogen bonds between AP and OMT molecules were irregular and intermittent in the solvent system of AP-OMT-methanol (MeOH) until MeOH was completely volatilized to form a stable coamorphous AP-OMT system, which has been preliminarily verified by solvent-state FT-NIR and solvent-state Raman spectroscopy. In addition, the solubility of coamorphous AP-OMT was significantly higher than that of crystalline AP. The results of intrinsic dissolution experiments showed that the intrinsic dissolution rate (IDR) of coamorphous AP-OMT was 2.5 times that of crystalline AP, although recrystallization occurred during dissolution. In conclusion, the results of the experimental solvent-state RDF, solvent-state FT-NIR, and solvent-state Raman spectroscopy can be used to better understand the coamorphous formation process and to guide the preparation of coamorphous AP-OMT.",
+  "abstract_zh": "共无定形药物递送系统在改善难溶性药物的溶解度和生物利用度方面显示出巨大潜力。然而，共无定形形成机制仍不清楚。本研究通过溶剂蒸发法成功制备了共无定形穿心莲内酯（AP）-氧化苦参碱（OMT），并利用PXRD和DSC进行了表征。通过密度泛函理论（DFT）中的分子静电势（ESP）和分子前沿轨道中的HOMO与LUMO预测了共无定形二元系统中分子间相互作用的潜在基团，并通过FTIR、FT-NIR和拉曼光谱进行了确认。采用分子动力学（molecular dynamics）探讨了共无定形形成的机制。溶剂态径向分布函数（RDF）的结果表明，在AP-OMT-甲醇（MeOH）溶剂系统中，AP与OMT分子间的氢键不规则且间歇性存在，直至MeOH完全挥发形成稳定的共无定形AP-OMT系统，这一现象已通过溶剂态FT-NIR和溶剂态拉曼光谱初步验证。此外，共无定形AP-OMT的溶解度显著高于结晶态AP。固有溶出实验结果表明，尽管在溶出过程中发生重结晶，共无定形AP-OMT的固有溶出速率（IDR）是结晶态AP的2.5倍。总之，实验中的溶剂态RDF、溶剂态FT-NIR和溶剂态拉曼光谱结果可用于更好地理解共无定形形成过程，并指导共无定形AP-OMT的制备。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35167885/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35167885/",
+  "paper_page_path": "papers/pubmed/35167885/index.html"
+}

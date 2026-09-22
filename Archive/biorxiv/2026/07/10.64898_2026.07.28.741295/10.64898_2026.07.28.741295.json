@@ -1,0 +1,174 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.07.28.741295",
+  "title": "Structure-free, site-resolved contrastive learning extends small-molecule discovery beyond the reach of structure-based modeling",
+  "doi": "10.64898/2026.07.28.741295",
+  "abstract": "Virtual screening asks which molecules, among an enormous space of drug-like chemistry, are worth synthesizing and testing against a protein target. Most modern methods answer this question by building and scoring an explicit three-dimensional pose through molecular docking, or the co-folding models that now approach experimental accuracy. Building these poses presumes a well-defined pocket. However, the non-orthosteric, cryptic, and intrinsically disordered sites where unexplored ligandability lies offer no such pocket to explore. Here we present Ptarmigan-1, a contrastive model that co-embeds the residues of a protein with candidate small molecules in a shared latent space, from sequence and two-dimensional chemistry alone, and without ever constructing a pose. Freed from the requirement for protein structures, Ptarmigan-1 trains directly on chemoproteomic and bioactivity data of mixed resolution, scores a compound in ten milliseconds rather than the tens of seconds a co-folding model demands, and resolves each prediction to the residues a compound engages. On well-folded, orthosteric targets it performs comparably to a collection of co-folding and docking models, and on covalent, cryptic, and disordered sites it matches or exceeds them. Ptarmigan-1 localizes reversible and covalent inhibitors to the pockets they engage, even for targets withheld from training, and screens the entire human proteome against a library of 3.4 billion compounds in under a day. By decoupling molecular recognition from structure, Ptarmigan-1 recasts virtual screening as a nearest-neighbor query in a rich latent space shared by protein residues and the compounds that bind them.",
+  "authors": [
+    "Fondrie WE",
+    "Canzani D",
+    "Tatka L",
+    "Paez JS",
+    "Prymolenna A",
+    "Gutierrez A",
+    "Robbins J",
+    "McEllin B",
+    "Hubbard E",
+    "Siebenthall K",
+    "Pino LK",
+    "Federation AJ"
+  ],
+  "published_date": "2026-07-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.07.28.741295",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.07.28.741295.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1288758",
+    "raw_record": {
+      "id": "PPR1288758",
+      "source": "PPR",
+      "doi": "10.64898/2026.07.28.741295",
+      "title": "Structure-free, site-resolved contrastive learning extends small-molecule discovery beyond the reach of structure-based modeling",
+      "authorString": "Fondrie WE, Canzani D, Tatka L, Paez JS, Prymolenna A, Gutierrez A, Robbins J, McEllin B, Hubbard E, Siebenthall K, Pino LK, Federation AJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Fondrie WE",
+            "lastName": "Fondrie",
+            "firstName": "William",
+            "initials": "WE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1554-3716"
+            }
+          },
+          {
+            "fullName": "Canzani D",
+            "lastName": "Canzani",
+            "firstName": "Daniele",
+            "initials": "D"
+          },
+          {
+            "fullName": "Tatka L",
+            "lastName": "Tatka",
+            "firstName": "Lillian",
+            "initials": "L"
+          },
+          {
+            "fullName": "Paez JS",
+            "lastName": "Paez",
+            "firstName": "Sebastian",
+            "initials": "JS"
+          },
+          {
+            "fullName": "Prymolenna A",
+            "lastName": "Prymolenna",
+            "firstName": "Anastasiya",
+            "initials": "A"
+          },
+          {
+            "fullName": "Gutierrez A",
+            "lastName": "Gutierrez",
+            "firstName": "Andrea",
+            "initials": "A"
+          },
+          {
+            "fullName": "Robbins J",
+            "lastName": "Robbins",
+            "firstName": "Julia",
+            "initials": "J"
+          },
+          {
+            "fullName": "McEllin B",
+            "lastName": "McEllin",
+            "firstName": "Brian",
+            "initials": "B"
+          },
+          {
+            "fullName": "Hubbard E",
+            "lastName": "Hubbard",
+            "firstName": "Evan",
+            "initials": "E"
+          },
+          {
+            "fullName": "Siebenthall K",
+            "lastName": "Siebenthall",
+            "firstName": "Kyle",
+            "initials": "K"
+          },
+          {
+            "fullName": "Pino LK",
+            "lastName": "Pino",
+            "firstName": "Lindsay",
+            "initials": "LK"
+          },
+          {
+            "fullName": "Federation AJ",
+            "lastName": "Federation",
+            "firstName": "Alexander",
+            "initials": "AJ"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1554-3716"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Virtual screening asks which molecules, among an enormous space of drug-like chemistry, are worth synthesizing and testing against a protein target. Most modern methods answer this question by building and scoring an explicit three-dimensional pose through molecular docking, or the co-folding models that now approach experimental accuracy. Building these poses presumes a well-defined pocket. However, the non-orthosteric, cryptic, and intrinsically disordered sites where unexplored ligandability lies offer no such pocket to explore. Here we present Ptarmigan-1, a contrastive model that co-embeds the residues of a protein with candidate small molecules in a shared latent space, from sequence and two-dimensional chemistry alone, and without ever constructing a pose. Freed from the requirement for protein structures, Ptarmigan-1 trains directly on chemoproteomic and bioactivity data of mixed resolution, scores a compound in ten milliseconds rather than the tens of seconds a co-folding model demands, and resolves each prediction to the residues a compound engages. On well-folded, orthosteric targets it performs comparably to a collection of co-folding and docking models, and on covalent, cryptic, and disordered sites it matches or exceeds them. Ptarmigan-1 localizes reversible and covalent inhibitors to the pockets they engage, even for targets withheld from training, and screens the entire human proteome against a library of 3.4 billion compounds in under a day. By decoupling molecular recognition from structure, Ptarmigan-1 recasts virtual screening as a nearest-neighbor query in a rich latent space shared by protein residues and the compounds that bind them.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.07.28.741295"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-07-31",
+      "firstPublicationDate": "2026-07-30",
+      "firstIndexDate": "2026-07-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.21.554222",
+  "title": "hnRNPA1 RGG-box acts a ”catalyst” in UP1-induced destabilization of RNA and DNA telomeric G-Quadruplexes",
+  "authors": "Balasubramanian S; Roy I; Appadurai R; Srivastava A",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-22",
+  "window": {
+    "start": "2023-08-21",
+    "end": "2023-08-27"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用增强采样模拟生成hnRNPA1无序RGG结构域构象系综，并建模其与端粒G-四链体的结合机制，揭示RGG-box作为催化剂促进UP1解折叠GQ的互作机制，对象、互作与方法三者齐备且具机制深度。",
+  "abstract": "hnRNPA1, a protein from the heterogeneous-nuclear ribonucleoprotein fam-ily, mediates cellular processes such as RNA metabolism and DNA telomere maintenance. Besides the folded RNA recognition motifs, hnRNPA1 has a ∼ 135 amino-acids long low-complexity domain (LCD) consisting of an RGG-rich region and a prion-like domain (PrLD). Biochemical data suggest that RGG-rich region modulates recognition of G-quadruplexes (GQs) in the telomeric repeats. Here, we utilize an in-house developed replica exchange technique (REHT) to generate the heterogeneous conformation ensemble of hnRNPA1-RGG and explore its functional significance in telomere maintenance. Single chain statistics and abundance of structural motifs, as well as consistency with experimentally reported struc-tural data, suggest faithful recapitulation of local interactions. We also introduce a protocol to generate functionally significant IDP-nucleic acid complex structures that corroborate well with the experimental knowledge of their binding. We find that RGG-box preferentially binds to the grooves and loops of GQs providing specificity towards certain GQ structures with its Phe, Tyr, and Asn residues forming essential hydrogen bonds and electrostatic interactions. Several of these residues were also identified as important by the reported HSQC chemical shift data. Our binding and simulations studies also revealed that a minor population of the RGG-box can destabilize telomeric GQs, thereby expediting the unfolding activities of hnRNPA1-UP1 at the telomeric end.",
+  "abstract_zh": "hnRNPA1，一种来自异质核核糖核蛋白家族的蛋白质，介导RNA代谢和DNA端粒维持等细胞过程。除了折叠的RNA识别基序外，hnRNPA1还具有一个约135个氨基酸长的低复杂度结构域（LCD），由富含RGG的区域和朊病毒样结构域（PrLD）组成。生化数据表明，富含RGG的区域调节端粒重复序列中G-四链体（GQs）的识别。在此，我们利用内部开发的副本交换技术（REHT）生成hnRNPA1-RGG的异质构象集合，并探讨其在端粒维持中的功能意义。单链统计和结构基序的丰度，以及与实验报道的结构数据的一致性，表明局部相互作用的忠实再现。我们还引入了一种协议，用于生成功能显著的IDP-核酸复合物结构，这些结构与实验上对其结合的知识相吻合。我们发现RGG-box优先结合GQs的沟和环，通过其Phe、Tyr和Asn残基形成必需的氢键和静电相互作用，从而对特定GQ结构提供特异性。据报道的HSQC化学位移数据也识别出其中几个残基为重要残基。我们的结合和模拟研究还揭示，RGG-box的少数群体可以 destabilize 端粒GQs，从而加速hnRNPA1-UP1在端粒末端的解折叠活性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.21.554222",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.21.554222",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.21.554222/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39815265",
+  "title": "Recent advances in recombinant production of soluble proteins in E. coli.",
+  "authors": "de Marco, Ario",
+  "journal": "Microbial cell factories",
+  "published_date": "2025-01-16",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 2,
+  "one_liner_zh": "综述大肠杆菌重组可溶性蛋白生产的最新进展，聚焦表达优化与代谢负担，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "BACKGROUND: E. coli still remains the most commonly used organism to produce recombinant proteins in research labs. This condition is mirrored by the attention that researchers dedicate to understanding the biology behind protein expression, which is then exploited to improve the effectiveness of the technology. This effort is witnessed by an impressive number of publications, and this review aims to organize the most relevant novelties proposed in recent years. RESULTS: The examined contributions address several of the known bottlenecks related to recombinant expression in E. coli, such as improved glycosylation pathways, more reliable production of proteins whose folding depends on the formation of disulfide bonds, the possibility of controlling and even benefiting from the formation of aggregates or the need to overcome the dependence of bacteria on antibiotics during bacterial culture. Nevertheless, the majority of the published papers aimed at identifying the conditions for optimal control of the translation process to achieve maximal yields of functional exogenous proteins. CONCLUSIONS: Despite community commitment, the critical question of what really is the metabolic burden and how it affects both host metabolism and recombinant protein production remains elusive because some experimental results are contradictory. This contribution aims to offer researchers a tool to orient themselves in this complexity. The new capacities offered by artificial intelligence tools could help clarifying this issue, but the training phase will probably require more systematic experimental approaches to collect sufficiently uniform data.",
+  "abstract_zh": "背景：大肠杆菌（E. coli）仍是研究实验室中最常用于生产重组蛋白的微生物。这一现状与研究人员对蛋白质表达背后生物学机制的关注相呼应，而这种关注又被用于提升该技术的有效性。这一努力体现在大量发表的研究成果中，本综述旨在梳理近年来提出的最重要创新点。结果：所检视的研究涉及与大肠杆菌中重组表达相关的多个已知瓶颈，例如改进的糖基化途径、更可靠地生产依赖二硫键形成而折叠的蛋白质、控制和甚至利用聚集体形成的可能性，以及克服细菌培养过程中对抗生素依赖的需求。然而，大多数已发表论文旨在确定翻译过程最优控制的条件，以实现功能性外源蛋白的最大产量。结论：尽管学界投入巨大，但关于代谢负担究竟为何物以及它如何影响宿主代谢和重组蛋白生产这一关键问题仍难以解答，因为部分实验结果相互矛盾。本贡献旨在为研究人员提供一种工具，以在复杂性中导航。人工智能工具提供的新能力可能有助于澄清这一问题，但训练阶段可能需要更系统的实验方法，以收集足够统一的数据。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39815265/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39815265/",
+  "paper_page_path": "papers/pubmed/39815265/index.html"
+}

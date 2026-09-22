@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.08.531698",
+  "title": "Histone variants shape chromatin states in Arabidopsis",
+  "authors": "Jamge B; Lorković ZJ; Axelsson E; Osakabe A; Shukla V; Yelagandula R; Akimcheva S; Kuehn AL; Berger F",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-10",
+  "window": {
+    "start": "2023-03-06",
+    "end": "2023-03-12"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究拟南芥组蛋白变体与染色质状态的组织，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "<h4>Summary</h4> How different intrinsic sequence variation or regulatory modifications of histones regulate nucleosome interactions with transcription remain unclear. By contrast with H3 and H2B variants, H2A variants occupy specific domains of chromatin in Arabidopsis thaliana. Broad domains of chromatin are affected by the loss of remodelers that affect the deposition or the exchange of H2A variants. Notably, the chromatin remodeler DECREASED IN DNA METHYLATION (DDM1) is required to maintain enrichment in all markers of constitutive heterochromatin including DNA methylation, H3K9me1/2 and the variant H2A.W. To test the importance of histone variants in the organization of chromatin we investigated how histone variants and histone modifications assemble in the Arabidopsis thaliana genome and showed that a limited number of chromatin states divide euchromatin and heterochromatin into several subdomains. We found that histone variants are as significant as histone modifications in determining the composition of chromatin states. Particularly strong associations were observed between H2A variants and specific combinations of histone modifications. To study the role of H2A variants in organizing chromatin states we determined the role the chromatin remodeler DECREASED IN DNA METHYLATION (DDM1) in the organization of chromatin states. We showed that the loss of DDM1 prevented the exchange of the histone variant H2A.Z to H2A.W in constitutive heterochromatin, resulting in significant effects on the definition and distribution of chromatin states in and outside of heterochromatin. We thus propose that dynamic exchanges of histone variants control the organization of histone modifications into chromatin states, acting as molecular landmarks.",
+  "abstract_zh": "<h4>摘要</h4> 组蛋白的内在序列变异或调控修饰如何调节核小体与转录的相互作用仍不清楚。与H3和H2B变体相比，H2A变体在拟南芥中占据特定的染色质区域。影响H2A变体沉积或交换的重塑因子缺失会影响广泛的染色质区域。值得注意的是，染色质重塑因子DECREASED IN DNA METHYLATION (DDM1) 对于维持组成型异染色质所有标记的富集是必需的，包括DNA甲基化、H3K9me1/2和H2A.W变体。为了测试组蛋白变体在染色质组织中的重要性，我们研究了组蛋白变体和组蛋白修饰如何在拟南芥基因组中组装，并表明有限数量的染色质状态将常染色质和异染色质划分为多个亚区域。我们发现，在决定染色质状态的组成方面，组蛋白变体与组蛋白修饰同样重要。在H2A变体与特定组蛋白修饰组合之间观察到特别强的关联。为了研究H2A变体在组织染色质状态中的作用，我们确定了染色质重塑因子DECREASED IN DNA METHYLATION (DDM1) 在染色质状态组织中的作用。我们表明，DDM1的缺失阻止了组蛋白变体H2A.Z向H2A.W在组成型异染色质中的交换，从而对异染色质内外染色质状态的定义和分布产生显著影响。因此，我们提出组蛋白变体的动态交换控制组蛋白修饰组织成染色质状态，充当分子标记。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531698",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.08.531698",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.08.531698/index.html"
+}

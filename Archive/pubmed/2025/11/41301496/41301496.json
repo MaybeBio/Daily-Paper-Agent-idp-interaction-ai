@@ -1,0 +1,336 @@
+{
+  "identity": {
+    "pmid": "41301496",
+    "doi": "10.3390/biom15111577",
+    "title": "Molecular Dynamics Study of alpha-Synuclein Domain Deletion Mutant Monomers."
+  },
+  "content": {
+    "abstract": "Aggregates of misfolded alpha-synuclein proteins are key markers of Parkinson's disease. The protein alpha-synuclein (aSyn) is an intrinsically disordered protein (IDP) and therefore lacks a single stable 3D structure, instead sampling multiple conformations in solution. It is primarily located in presynaptic terminals and is thought to help regulate synaptic vesicle trafficking and neurotransmitter release. ASyn proteins have three domains: an N-terminal domain, a hydrophobic non-amyloid-beta component (NAC) core implicated in aggregation, and a proline-rich C-terminal domain. Asyn proteins with truncated C-terminal domains are known to be prone to aggregation and suggest that understanding domain-domain interactions in aSyn monomers could help elucidate the role of the flanking domains in modulating protein structure. To this end, we used Gaussian accelerated molecular dynamics (GAMD) to simulate wild-type (WT), N-terminal truncated (DeltaN), C-terminal truncated (DeltaC), and isolated NAC domain (isoNAC) aSyn protein variants. Using clustering and contact analysis, we found that removal of the N-terminal domain led to increased contacts between NAC and C-terminal domains and the formation of inter-domain beta-sheets. Removal of either flanking domain also resulted in increased compactness of every domain. We also found that the contacts between flanking domains in the WT protein result in an electrostatic potential (ESP) that may lead to favorable interactions with anionic lipid membranes. Removal of the C-terminal domain disrupts the ESP in a way that could result in over-stabilized protein-membrane interactions. These results suggest that cooperation between the flanking domains may modulate the protein's structure in a way that helps maintain elongation and creates an ESP that may aid favorable interactions with the membrane.",
+    "keywords": [
+      "inter-domain contacts",
+      "intrinsically disordered proteins",
+      "molecular dynamics",
+      "monomer",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "Protein Domains",
+      "*alpha-Synuclein/chemistry/genetics",
+      "*Intrinsically Disordered Proteins/chemistry/genetics",
+      "Sequence Deletion",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Protein Structure, Secondary",
+      "Static Electricity"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Onishi, Noriyo",
+        "Mazzaferro, Nicodemo",
+        "Kunstelj, Spela",
+        "Alvarado, Daisy A",
+        "Muller, Anna M",
+        "Vazquez, Frank X"
+      ],
+      "short_names": [
+        "Onishi N",
+        "Mazzaferro N",
+        "Kunstelj S",
+        "Alvarado DA",
+        "Muller AM",
+        "Vazquez FX"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-3921-8249",
+        "ORCID: 0000-0002-2157-3823"
+      ],
+      "affiliations": [
+        "Department of Chemistry, St. John's University, Queens, NY 11439, USA.",
+        "Department of Chemistry, St. John's University, Queens, NY 11439, USA.",
+        "Department of Chemistry, St. John's University, Queens, NY 11439, USA.",
+        "Department of Chemistry, St. John's University, Queens, NY 11439, USA.",
+        "Department of Chemistry, St. John's University, Queens, NY 11439, USA.",
+        "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Onishi, Noriyo",
+        "short_name": "Onishi N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+        ]
+      },
+      {
+        "full_name": "Mazzaferro, Nicodemo",
+        "short_name": "Mazzaferro N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+        ]
+      },
+      {
+        "full_name": "Kunstelj, Špela",
+        "short_name": "Kunstelj Š",
+        "identifiers": [
+          "0009-0008-3921-8249"
+        ],
+        "affiliations": [
+          "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+        ]
+      },
+      {
+        "full_name": "Alvarado, Daisy A",
+        "short_name": "Alvarado DA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+        ]
+      },
+      {
+        "full_name": "Muller, Anna M",
+        "short_name": "Muller AM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+        ]
+      },
+      {
+        "full_name": "Vázquez, Frank X",
+        "short_name": "Vázquez FX",
+        "identifiers": [
+          "0000-0002-2157-3823"
+        ],
+        "affiliations": [
+          "Department of Chemistry, St. John's University, Queens, NY 11439, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2025 Nov 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/27 06:28",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [
+      "41303689"
+    ],
+    "refs": [
+      "39552041",
+      "38324572",
+      "35945337",
+      "34454615",
+      "34452994",
+      "33649211",
+      "32939066",
+      "32497661",
+      "32424039",
+      "32078298",
+      "32015543",
+      "32015135",
+      "31331359",
+      "31295458",
+      "30381408",
+      "30061982",
+      "28968082",
+      "28671665",
+      "28239748",
+      "27819658",
+      "27018801",
+      "26808899",
+      "26636222",
+      "26574392",
+      "26488642",
+      "26300708",
+      "25135664",
+      "25061441",
+      "24960410",
+      "24374342",
+      "23254192",
+      "22452578",
+      "22211521",
+      "22029383",
+      "21330368",
+      "20923645",
+      "20500090",
+      "20152114",
+      "19126542",
+      "18562315",
+      "17949218",
+      "17708336",
+      "16581836",
+      "16455667",
+      "16366524",
+      "15764651",
+      "15671169",
+      "15643843",
+      "15268227",
+      "15144854",
+      "14755719",
+      "12534279",
+      "12388586",
+      "11286556",
+      "11152691",
+      "11100151",
+      "10777786",
+      "10707987",
+      "9545270",
+      "9462735",
+      "8744570",
+      "8248242",
+      "6667333"
+    ],
+    "similar": [
+      "41301496",
+      "38586052",
+      "40819250",
+      "40853068",
+      "30591215",
+      "33903234",
+      "23607785",
+      "23374072",
+      "39980393",
+      "23374074",
+      "35836937",
+      "40882443",
+      "29364151",
+      "25869255",
+      "36278939",
+      "38239037",
+      "32019169",
+      "19475665",
+      "41560530",
+      "38321955",
+      "32497661",
+      "29874605",
+      "40305656",
+      "39504036",
+      "30527975",
+      "25931201",
+      "30184304",
+      "32900375",
+      "31676453",
+      "30933517",
+      "33345970",
+      "30352158",
+      "29715424",
+      "37823961",
+      "24374342",
+      "29782835",
+      "32499486",
+      "26321599",
+      "25207671",
+      "32709107",
+      "26723627",
+      "19576220",
+      "38458997",
+      "39232485",
+      "28069058",
+      "31903719",
+      "32623047",
+      "34830391",
+      "24211251",
+      "39651184",
+      "33333378",
+      "40207671",
+      "16519533",
+      "41345992",
+      "37407505",
+      "40490407",
+      "30917651",
+      "27482083",
+      "29548979",
+      "31776941",
+      "22274962",
+      "38663121",
+      "40605637",
+      "29704492",
+      "31699336",
+      "23583776",
+      "39046235",
+      "18692132",
+      "29273335",
+      "37060757",
+      "38358134",
+      "29604892",
+      "25389903",
+      "39306670",
+      "39947752",
+      "29286644",
+      "39561991",
+      "33581430",
+      "37782491",
+      "40453094",
+      "33454008",
+      "41820812",
+      "35912724",
+      "18082181",
+      "40847259",
+      "37489886",
+      "33771571",
+      "41081322",
+      "30142698",
+      "25058424",
+      "39693815",
+      "26601760",
+      "23823878",
+      "27082063",
+      "31096049",
+      "21280118",
+      "26479553",
+      "39087984",
+      "26119565",
+      "32393642"
+    ],
+    "review": [
+      "41301496",
+      "29364151",
+      "30527975",
+      "37060757",
+      "39947752",
+      "30142698"
+    ],
+    "pmc": [
+      "12650653"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom15111577",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41301496/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

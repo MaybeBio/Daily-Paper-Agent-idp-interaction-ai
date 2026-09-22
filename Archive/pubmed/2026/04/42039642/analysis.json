@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42039642",
+  "title": "The Effects of Phosphorylation on the Structure and Function of Motif A, an Intrinsically Disordered Region within SIRT1.",
+  "authors": "Richter, Sabrina M; Bui, Hoang-Long; Chen, Addison; Tannous, Chloe; Butler, Benjamin R; Bennett, Sophia D; Nguyen, Samson Quang-Anh; Prado, Justin; Mohamed, Ayan; DuBois, Isaac A; Tadros, Emile; Thai, Nhu Tam; Guan, Selina Lima; Peralta, Carla Marie; Kwong, Andy; Hawk, Laura M L; Grazioli, Gianmarc; Wang, Ningkun",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-04-27",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合实验与分子动力学模拟，揭示SIRT1无序区域motif A的磷酸化修饰如何诱导其折叠并调控与底物的互作激活，直接聚焦IDR构象变化与功能机制，方法上采用MD模拟，高度契合本课题。",
+  "abstract": "The NAD(+) dependent deacetylase sirtuin-1 (SIRT1) is known to elicit cellular defenses against aging, cancer, and other aberrant pathologies. Previous studies have identified an intrinsically disordered region of SIRT1 comprised of N-terminal residues 1-52, herein referred to as motif A, which activates SIRT1 activity, likely through intramolecular interactions. Additionally, phosphorylation of N-terminal residues Ser27 and Ser47 has been shown to be important for regulating SIRT1 activity and stability. The lack of in vitro characterization of these effects hampers our further understanding of the role of motif A in SIRT1 regulation. In this study, we elucidate the role phosphorylation plays in motif A's structure as well as its regulatory effects on SIRT1 activity against Ac-p65. We find that phosphomimetic mutation at Ser27 significantly increases the activation effect of motif A towards SIRT1. This result is supported by molecular dynamics simulations of the phosphomimetics, which reveal stabilization of different transient structures for motif A depending on whether Ser27 and Ser47 have been modified. A key finding suggested by this study is that phosphorylation of S27 appears to activate SIRT1 by causing motif A, which is intrinsically disordered in the WT, to fold into an ordered structure. This conclusion is based on both the experimental findings and simulation results. These findings contribute to our understanding of SIRT1 regulation, specifically the role played by phosphorylation within the N-terminal disordered region.",
+  "abstract_zh": "NAD(+)依赖性去乙酰化酶sirtuin-1（SIRT1）已知能引发细胞对抗衰老、癌症及其他异常病理的防御机制。先前的研究已识别出SIRT1的一个内在无序区域，由N端残基1-52组成，本文中称为基序A，该基序可能通过分子内相互作用激活SIRT1活性。此外，N端残基Ser27和Ser47的磷酸化已被证明对调节SIRT1活性和稳定性至关重要。缺乏对这些效应的体外表征阻碍了我们进一步理解基序A在SIRT1调控中的作用。在本研究中，我们阐明了磷酸化在基序A结构中的作用及其对SIRT1针对Ac-p65活性的调节效应。我们发现，Ser27的磷酸化模拟突变显著增强了基序A对SIRT1的激活作用。这一结果得到了磷酸化模拟物分子动力学模拟的支持，模拟显示根据Ser27和Ser47是否被修饰，基序A的不同瞬态结构得以稳定。本研究的一个关键发现是，S27的磷酸化似乎通过促使在野生型（WT）中内在无序的基序A折叠成有序结构来激活SIRT1。这一结论基于实验发现和模拟结果。这些发现有助于我们理解SIRT1的调控机制，特别是N端无序区域内磷酸化所扮演的角色。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42039642/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42039642/",
+  "paper_page_path": "papers/pubmed/42039642/index.html"
+}

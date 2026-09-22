@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39256186",
+  "title": "Factors Affecting Liquid-Liquid Phase Separation of RGG Peptides with DNA G-Quadruplex.",
+  "authors": "Shil, Sumit; Tsuruta, Mitsuki; Kawauchi, Keiko; Miyoshi, Daisuke",
+  "journal": "ChemMedChem",
+  "published_date": "2024-09-11",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文系统研究FMRP来源RGG肽与DNA G-四链体互作驱动的液-液相分离，揭示精氨酸残基和结合亲和力阈值对LLPS的机制性作用，直接契合无序蛋白介导PPI及相分离机制建模主题。",
+  "abstract": "Liquid-liquid phase separation (LLPS), mediated by G-quadruplexes (G4 s) and intrinsically disordered proteins, particularly those containing RGG domains, plays a critical role in cellular processes and diseases. However, the molecular mechanism and the role of individual amino acid residues of the protein in LLPS with G4 (G4-LLPS) are still unknown. Here, we systematically designed peptides and investigated the roles of arginine residues in G4-LLPS. It was found that the FMRP-derived RGG peptide induced LLPS with G4-forming Myc-DNA, whereas a point-mutated peptide, in which all arginine residues were replaced with lysine, was unable to undergo LLPS, indicating the importance of arginine residues. Moreover, systematically truncated peptides showed that at least five positive net charges of peptide are required to induce G4-LLPS. Furthermore, quantitative investigation demonstrated that the higher binding affinity of peptides with G4 led to a higher LLPS ability, whereas threshold of the binding affinity for undergoing LLPS was identified. These insights elucidate the pivotal role of arginine in G4-LLPS and the specific requirement for multiple arginine residues, contributing to a deeper understanding of the complex interplay between intrinsically disordered proteins and nucleic acids.",
+  "abstract_zh": "由G-四链体（G-quadruplexes, G4s）和 intrinsically disordered proteins（内在无序蛋白）介导的液-液相分离（liquid-liquid phase separation, LLPS），特别是含有RGG结构域的蛋白，在细胞过程和疾病中发挥关键作用。然而，蛋白质中单个氨基酸残基在G4-LLPS中的分子机制及其作用仍不清楚。在此，我们系统设计了多肽，并研究了精氨酸残基在G4-LLPS中的作用。研究发现，源自FMRP的RGG多肽能诱导与G4形成Myc-DNA的LLPS，而将所有精氨酸残基替换为赖氨酸的点突变多肽则无法进行LLPS，表明精氨酸残基的重要性。此外，系统截短的多肽显示，至少需要五个正净电荷的多肽才能诱导G4-LLPS。进一步，定量研究表明，多肽与G4更高的结合亲和力导致更高的LLPS能力，同时确定了进行LLPS所需的结合亲和力阈值。这些见解阐明了精氨酸在G4-LLPS中的关键作用以及多个精氨酸残基的特定需求，有助于更深入理解内在无序蛋白与核酸之间的复杂相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39256186/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39256186/",
+  "paper_page_path": "papers/pubmed/39256186/index.html"
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors compare two sequence charge pattern descriptors, blockiness (kappa) and nonlocality-weighted sequence charge decoration (SCD), for predicting conformational dimensions (Rg) and phase separation propensity (UCST) of polyampholyte model IDPs. They report that SCD outperforms kappa for Rg prediction due to contact order effects, while kappa and SCD are comparably good but nonideal predictors of UCST, with kappa correlating better with condensed-phase interaction energy.
+- **Visible evidence base** Abstract text only; no numerical data, methodological details, or figures provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, statistical analyses, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting comparison of two sequence descriptors for IDP behavior, with a mechanistically plausible rationale for their differential performance. However, the abstract alone provides insufficient quantitative evidence to evaluate the robustness of the claims. The distinction between intrachain and interchain contact sensitivity is a valuable hypothesis, but the supporting data are not visible in the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, polymer physics, and biomolecular phase separation. The work addresses a practical need for improved sequence-based predictors of IDP conformational properties and phase behavior, which is relevant for understanding biological functions and disease mechanisms involving IDPs.
+- **Major strengths** The study addresses a timely and important question in IDP research, namely which sequence features best predict conformational and phase behavior. The mechanistic explanation for why SCD outperforms kappa for Rg but not for UCST is physically reasonable and provides a testable framework. The use of multiple theoretical methods (RPA, field-theoretic simulation, coarse-grained MD) suggests methodological breadth.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that SCD is superior to kappa in predicting Rg and that kappa and SCD are comparably good predictors of UCST
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports qualitative comparative statements without any quantitative measures of predictive performance, such as correlation coefficients, error metrics, or statistical significance tests. Without these, the strength of the claimed differences cannot be assessed.
+  - **Why it matters** The central conclusion rests on the relative predictive power of kappa versus SCD. If the differences are marginal or within statistical noise, the mechanistic interpretation would be overstated. Quantitative evidence is essential to establish the claimed superiority and comparability.
+  - **Resolution test** Provide correlation coefficients (e.g., Pearson or Spearman) with confidence intervals or p-values for kappa and SCD against Rg and UCST across the full sequence set, and demonstrate that the difference between descriptors is statistically significant for Rg and not significant for UCST.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The claim that the findings apply to polyampholytes as model IDPs
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the range of sequence lengths, charge fractions, or sequence diversity used in the simulations. Without this information, it is unclear whether the conclusions generalize across the sequence space relevant to real IDPs or are limited to a narrow parameter regime.
+  - **Why it matters** IDPs exhibit enormous sequence diversity. If the tested sequences are not representative, the practical utility of the proposed descriptor comparison for real IDP prediction is uncertain.
+  - **Resolution test** State the sequence length range, charge fraction range, and number of distinct sequences studied, and show that the conclusions hold across these variations or identify the applicable regime.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The claim that kappa correlates better with condensed-phase interaction energy than SCD because interchain contact frequencies are less sensitive to sequence positions
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The mechanistic explanation is plausible but the abstract does not provide direct evidence linking contact frequency sensitivity to the observed correlation patterns. The connection between contact order effects and the descriptor performance is inferred rather than demonstrated.
+  - **Why it matters** The proposed mechanism is the main conceptual contribution. If the mechanism is not directly supported by data, the interpretation remains speculative and the broader significance is diminished.
+  - **Resolution test** Provide direct measurements or analyses of intrachain versus interchain contact frequencies as a function of sequence position, and show that the sensitivity differences quantitatively explain the descriptor performance patterns.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of kappa and SCD
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract assumes familiarity with the definitions of kappa and SCD. For a broad readership, a brief operational definition or a reference to the original definitions would improve accessibility.
+  - **Required correction** Add a one-sentence description of each parameter or cite the original definitions explicitly in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "nonideal" predictors
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "nonideal" is vague. It is unclear whether it means the predictors are imperfect, biased, or have systematic deviations. This ambiguity weakens the precision of the claim.
+  - **Required correction** Replace "nonideal" with a specific description, such as "moderate correlation" or "systematic overprediction for certain sequence types," or provide quantitative performance metrics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison with experimental data
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention any comparison with experimental IDP data. Such comparison would strengthen the practical relevance of the findings.
+  - **Required correction** If available, add a statement on whether the simulation predictions align with experimental Rg or phase behavior data for known IDPs.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract lacks quantitative evidence and parameter space information necessary to evaluate the central claims. R1-M3 is important but not strictly blocking if the mechanistic interpretation is framed as a hypothesis.
+- **Assessment against Nature-style criteria** 
+  - Originality: The comparison of kappa and SCD with a mechanistic rationale based on contact order is a useful contribution, though not unprecedented given existing literature on sequence descriptors for IDPs.
+  - Scientific importance: The question of which sequence features best predict IDP behavior is of high importance for the field, and the potential differential performance for single-chain versus multi-chain properties is conceptually significant.
+  - Interdisciplinary readership: The topic bridges polymer physics, biophysics, and computational chemistry, and would interest researchers across these areas.
+  - Technical soundness: Cannot be fully assessed from the abstract alone. The use of multiple methods is encouraging, but the absence of quantitative validation and parameter details prevents a definitive evaluation.
+  - Readability for nonspecialists: The abstract is reasonably clear for experts but assumes familiarity with the specific descriptors. A brief definition would improve accessibility.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising, but the abstract as provided does not contain sufficient quantitative evidence to establish the claims. Full manuscript review would be required to assess whether the data support the conclusions.
+
+## Risk / unsupported claims
+- The claim that SCD is superior to kappa for Rg prediction is unsupported without quantitative correlation metrics.
+- The claim that kappa and SCD are comparably good predictors of UCST is unsupported without quantitative comparison.
+- The claim that kappa correlates better with condensed-phase interaction energy is unsupported without numerical data.
+- The mechanistic explanation based on contact order and interchain contact frequency sensitivity is plausible but not directly evidenced in the abstract.
+- The generalizability of the findings to real IDPs is not assessable without sequence parameter details.

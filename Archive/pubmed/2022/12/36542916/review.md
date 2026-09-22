@@ -1,0 +1,61 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report all-atom molecular dynamics simulations of the amyloid beta(42) monomer in an aqueous deep eutectic solvent composed of tetrabutylammonium chloride and ethylene glycol (3:1). They claim that the DES screens interactions between four zones of the monomer and water, modulates local protein-solvent interactions, conserves secondary structure by increasing intramolecular hydrogen bonding and D23-K28 salt-bridge interactions relative to pure water, and envisage hindered aggregation in DES due to screening of hydrophobic intramolecular interactions.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, trajectory analyses, or quantitative results are visible
+- **Missing materials affecting confidence** Full manuscript, simulation methodology, force field choices, system composition, simulation length, equilibration protocol, convergence criteria, structural analyses (e.g., secondary structure assignment, salt-bridge definitions, solvation shell calculations), and any comparative data with pure water controls
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study on the effect of an aqueous DES on the conformational behavior of an IDP. However, the claims are broad and largely qualitative, and the abstract alone provides insufficient evidence to evaluate the technical soundness or robustness of the findings. The central assertions regarding screening effects, secondary structure conservation, and aggregation propensity are not quantitatively supported in the provided material. The study may be of interest to the computational biophysics and solvent engineering communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in computational chemistry and biophysics studying intrinsically disordered proteins, amyloid aggregation, and protein-solvent interactions. Also, investigators exploring deep eutectic solvents as biocompatible media for protein stabilization or as potential modulators of aggregation, given the relevance to neurodegenerative disease research and solvent design.
+- **Major strengths** The topic is timely and relevant, addressing a gap in understanding how aqueous DESs affect IDP conformation. The choice of amyloid beta(42) monomer is biologically meaningful. The abstract clearly states the system composition and simulation approach, and the focus on molecular-level mechanisms (solvation shell, hydrogen bonding, salt bridges) is appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "DES is found to effectively screen the interaction of four zones of the amyloid beta monomer with water" and that "the aqueous DES medium conserves the secondary structure of the Abeta(42) monomer by increasing the intramolecular hydrogen bonding and D23-K28 salt-bridge interactions when compared to the pure water medium"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative data, statistical measures, or error estimates to support these claims. No simulation parameters (e.g., force field, water model, DES concentration, simulation time, number of replicates) are given. Without these, the reliability and reproducibility of the results cannot be assessed.
+  - **Why it matters** Molecular dynamics results are highly sensitive to force field choice, system preparation, and sampling adequacy. Claims about structural conservation and interaction screening require robust statistical comparison with a pure water control, including convergence checks and replicate simulations. The absence of such details undermines confidence in the conclusions.
+  - **Resolution test** Provide full methods with force field parameters, system composition, simulation length, equilibration protocol, and replicate numbers. Include quantitative comparisons (e.g., hydrogen bond counts, salt-bridge occupancy, secondary structure percentages) with error bars and statistical significance tests against pure water controls.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The statement "We envisage the hindered aggregation of the amyloid beta structures in DES medium over the pure water medium due to the screening of hydrophobic intramolecular interactions"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This is a speculative projection about aggregation behavior, but the study only examines a monomer. No aggregation simulations, oligomer formation data, or free energy calculations are presented. The link between monomer conformational changes and aggregation propensity is not established.
+  - **Why it matters** The abstract implies a functional outcome (hindered aggregation) that is not directly tested. Overinterpreting monomer simulations to predict aggregation behavior can mislead readers and overstate the study's implications.
+  - **Resolution test** Either remove the aggregation claim or support it with additional simulations (e.g., multi-chain systems, enhanced sampling) or free energy calculations that directly address aggregation propensity. Alternatively, reframe the statement as a hypothesis for future work.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** "four zones of the amyloid beta monomer"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "four zones" is undefined. It is unclear whether these refer to specific residue ranges, structural domains, or hydrophobicity-based segments. This ambiguity hampers interpretation.
+  - **Required correction** Define the four zones explicitly (e.g., residue ranges or structural features) in the abstract or refer to a figure or table in the full text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** DES composition and simulation conditions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "hydrated DES composed of tetrabutylammonium chloride and ethylene glycol in a 3:1 ratio" but does not specify the water content or the final DES concentration in the simulation box. This is critical for reproducing the system.
+  - **Required Correction** Specify the molar ratio of DES to water, the total number of molecules, and the simulation box dimensions in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** "conserves the secondary structure"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim of secondary structure conservation is vague. It is unclear which secondary structure elements are conserved, to what extent, and over what timescale.
+  - **Required Correction** Provide quantitative secondary structure content (e.g., percentage of helix, sheet, coil) for both DES and pure water conditions, with temporal evolution if possible.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of methodological detail and quantitative evidence prevents evaluation of the central claims. The speculative aggregation statement must be either removed or substantiated.
+- **Assessment against Nature-style criteria** Originality: The application of aqueous DES to IDP conformational studies is relatively novel, but the abstract does not clearly differentiate this work from prior DES-protein simulation studies. Scientific importance: The potential relevance to amyloid aggregation and solvent design is significant, but the current evidence is too preliminary to establish importance. Interdisciplinary readership: The topic bridges chemistry, biophysics, and materials science, but the abstract is too technical and lacks context for a broad audience. Technical soundness: Not assessable from the abstract; critical details are missing. Readability for nonspecialists: The abstract is concise but uses jargon (e.g., "screening effect," "solvation shell") without sufficient explanation, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The study may have merit, but the abstract alone does not provide sufficient methodological or quantitative support. A revised manuscript with full methods, robust statistical analysis, and tempered claims could be reconsidered.
+
+## Risk / unsupported claims
+- The claim of effective screening of water interactions by DES is unsupported without quantitative solvation shell data.
+- The claim of secondary structure conservation via increased intramolecular hydrogen bonding and D23-K28 salt-bridge interactions is unsupported without occupancy and count data.
+- The projection of hindered aggregation in DES is unsupported and speculative, as no aggregation simulations or free energy calculations are presented.
+- The general statement that DES "stabilizes" the IDP is not defined or quantified.

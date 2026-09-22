@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41422841",
+  "title": "Multivalency in Tau-Microtubule Interactions: Heterogeneous Association and Functional Implications.",
+  "authors": "Naveh-Tassa, Segev; Levy, Yaakov",
+  "journal": "Journal of molecular biology",
+  "published_date": "2025-12-22",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究无序蛋白Tau与微管蛋白的多价互作机制，揭示亚区域静电调控及磷酸化破坏互作，虽非典型PPI但聚焦IDP介导的多价结合机制建模，对本课题有直接启发。",
+  "abstract": "Tau is a dynamic microtubule-associated protein essential for maintaining microtubule (MT) stability and neuronal function. Its intrinsically disordered nature, combined with its multivalent binding capacity, makes it challenging to characterize structurally. Governed largely by electrostatic interactions, both in solution and when bound to MTs, Tau exhibits highly transient and heterogeneous behavior. Here, we apply coarse-grained molecular dynamics simulations to investigate tau-MT interactions and uncover how multivalent binding is regulated at the sub-regional level. Our simulations capture interactions both with the flexible, disordered C-terminal tails of tubulin and with the structured tubulin surface. We show that distinct tau sub-regions contribute differentially to binding. Isoform variation, defined by the presence or absence of specific sub-regions, further modulates tau's interaction with tubulin, influencing both MT stability and dimer polymerization rates through electrostatic tuning. Our simulations also reveal how Alzheimer's disease-associated phosphorylation disrupts tau-MT interactions by weakening multivalent engagement. Together, our findings provide new mechanistic insight into how electrostatics and sub-regional composition regulate the dynamic, multivalent nature of tau-MT interactions, with implications for neuronal integrity and tauopathy-related dysfunction.",
+  "abstract_zh": "Tau是一种动态的微管相关蛋白，对维持微管（MT）稳定性和神经元功能至关重要。其本质无序的特性，加上多价结合能力，使其在结构表征上颇具挑战。主要受静电相互作用调控，无论是在溶液中还是与微管结合时，Tau均表现出高度瞬态和异质性的行为。在此，我们应用粗粒化分子动力学模拟来研究tau-微管相互作用，并揭示多价结合如何在亚区域水平上被调控。我们的模拟捕捉了与微管蛋白柔性、无序的C末端尾部以及结构化微管蛋白表面的相互作用。我们表明，不同的tau亚区域对结合贡献各异。由特定亚区域的存在或缺失所定义的异构体变异，进一步调节tau与微管蛋白的相互作用，通过静电调节影响微管稳定性和二聚体聚合速率。我们的模拟还揭示了阿尔茨海默病相关的磷酸化如何通过削弱多价结合来破坏tau-微管相互作用。综合来看，我们的发现为静电作用和亚区域组成如何调节tau-微管相互作用的动态、多价特性提供了新的机制性见解，对神经元完整性和tau蛋白病相关功能障碍具有重要意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41422841/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41422841/",
+  "paper_page_path": "papers/pubmed/41422841/index.html"
+}

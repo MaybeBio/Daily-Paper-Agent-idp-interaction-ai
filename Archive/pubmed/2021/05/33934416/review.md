@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose an improved coarse-grained (CG) model, HPS-Urry, for simulating sequence-dependent phase separation of intrinsically disordered proteins (IDPs). They replace the Kapcha-Rossky (KR) hydropathy scale with the Urry scale, introduce two free parameters (shift Δ and scale µ) to tune interaction strengths, and optimize these parameters against experimental radius of gyration data for diverse IDPs. They report that multiple parameter combinations reproduce typical IDP behavior, but only one combination accurately describes the phase behavior of the low-complexity protein FUS, emphasizing the need for multi-protein validation.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or experimental comparisons are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, parameter optimization details, simulation protocols, experimental datasets for radius of gyration, and phase behavior data for FUS
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually reasonable refinement of an existing CG model for IDP phase separation, addressing a known limitation of the prior KR-based approach. The motivation is clear and the proposed validation strategy is sensible. However, the abstract alone provides insufficient quantitative evidence to assess the model's performance, the robustness of the parameter optimization, or the claimed superiority over the previous model. The central claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and molecular simulation, particularly those studying intrinsically disordered proteins, liquid-liquid phase separation, and sequence-encoded biomolecular condensate behavior. The work may also interest experimentalists seeking improved simulation tools to interpret or predict mutation effects on phase separation.
+- **Major strengths** The abstract identifies a specific, well-documented limitation of the prior model (failure to capture R-to-K and Y-to-F mutation trends) and proposes a targeted fix via a different hydropathy scale. The emphasis on validating against multiple proteins, including a low-complexity sequence, is methodologically sound and addresses a common pitfall in CG model calibration.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that the HPS-Urry model "should enable accurate simulations of protein LLPS" and that only one parameter combination describes FUS phase behavior.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no quantitative results, such as comparison of simulated versus experimental radius of gyration values, phase diagrams, or mutation trend predictions. The claim of accuracy is therefore unsupported by the visible evidence.  
+  - **Why it matters** Without quantitative data, the reader cannot evaluate whether the model improvement is meaningful or whether the parameter optimization is overfit to the chosen test set. The central assertion of improved predictive capability remains unsubstantiated.  
+  - **Resolution test** Provide in the full manuscript quantitative comparisons (e.g., simulated vs. experimental Rg values with error metrics, phase separation propensities for wild-type and mutant sequences) and demonstrate that HPS-Urry outperforms the KR-based model on the stated test cases.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Parameter degeneracy and validation  
+  - **Claim pointer** The authors state that "many possible (Δ, µ) combinations can be used for typical IDPs, but the phase behavior of FUS is only well described by one of these models."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports a degeneracy in parameter space for typical IDPs but does not explain how this degeneracy is resolved or why FUS is the discriminating test. The choice of FUS as the sole arbiter for parameter selection is not justified, and the abstract does not indicate whether other low-complexity or phase-separating proteins were considered.  
+  - **Why it matters** Parameter degeneracy is a known challenge in CG model calibration. If the model is only validated against one phase-separating protein, the generalizability of the parameter set to other IDPs is uncertain, and the claim of broad applicability is weakened.  
+  - **Resolution test** In the full manuscript, show the parameter landscape for multiple IDPs and multiple phase-separating proteins, and provide a clear criterion for selecting the optimal (Δ, µ) pair. Demonstrate that the chosen parameters perform well across a diverse test set.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility and methodological detail  
+  - **Claim pointer** The abstract describes the model as "improved" and based on the Urry hydropathy scale with two free parameters.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract lacks essential methodological details, such as the functional form of the interaction potential, the range of the shift and scale parameters, the simulation conditions (e.g., temperature, salt concentration, force field), and the criteria for matching experimental radius of gyration.  
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these details, other groups cannot implement or test the HPS-Urry model, limiting its utility to the community.  
+  - **Resolution test** Provide a complete description of the model, parameter ranges, and simulation protocols in the full manuscript, ideally with open-source code or pseudocode.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "many possible (Δ, µ) combinations can be used" is vague; it is unclear whether this refers to a continuum of acceptable values or a discrete set.  
+  - **Required correction** Specify the nature of the degeneracy (e.g., a line or region in parameter space) and the tolerance criteria used to define "acceptable" performance.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope  
+  - **Affected element** Validation set  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions "a diverse group of IDPs" for radius of gyration validation but does not list the proteins or their sequence properties.  
+  - **Required correction** In the full manuscript, list the IDPs used, their sequence lengths, charge distributions, and any relevant experimental sources.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Model naming  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "HPS-Urry" is introduced without explaining the acronym "HPS" in the abstract, which may confuse nonspecialist readers.  
+  - **Required correction** Define "HPS" (presumably hydropathy scale or similar) at first use in the abstract or full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient quantitative evidence to support the central claims of model accuracy and parameter selection. R1-M3 is non-blocking but essential for reproducibility.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The use of the Urry hydropathy scale in a CG model is a reasonable incremental innovation, but the approach is not conceptually novel.  
+  - **Scientific importance** Potentially high for the IDP and phase separation community, given the need for accurate sequence-dependent models. However, the importance is not fully established from the abstract alone.  
+  - **Interdisciplinary readership** The topic bridges biophysics, computational chemistry, and cell biology, but the abstract is written for a specialized audience and may not be accessible to nonspecialists without additional context.  
+  - **Technical soundness** Cannot be fully assessed from the abstract. The parameter optimization strategy is sensible, but the lack of quantitative results precludes a definitive evaluation.  
+  - **Readability for nonspecialists** The abstract is concise but assumes familiarity with CG models, hydropathy scales, and LLPS terminology. It is readable for experts but not for a broad audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The proposed model addresses a real limitation and the validation strategy is thoughtful, but the abstract alone does not establish the case. The full manuscript must provide quantitative evidence of improved performance and robust parameter selection.
+
+## Risk / unsupported claims
+- The claim that HPS-Urry "should enable accurate simulations of protein LLPS" is unsupported by the abstract, as no simulation results or comparisons are shown.
+- The claim that only one (Δ, µ) combination describes FUS phase behavior is unverifiable without phase diagram data or quantitative fitting results.
+- The assertion that the previous KR-based model "is not able to capture" R-to-K and Y-to-F trends is stated without showing the specific failures or the new model's corrections.
+- The generalizability of the optimized parameters to IDPs beyond the test set is not assessable from the abstract.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38163950",
+  "title": "Phase separation of multicomponent peptide mixtures into dehydrated clusters with hydrophilic cores.",
+  "authors": "Brown, William H; Potoyan, Davit A",
+  "journal": "Biophysical journal",
+  "published_date": "2024-01-02",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用长时程原子模拟研究多组分三肽混合物的相分离成簇机制，揭示逆疏水序和水分子的介导作用，虽对象为短肽而非全长IDP，但聚焦凝聚体形成机制且方法为物理模拟，对本课题的IDR介导PPI与相分离机制建模有直接启发。",
+  "abstract": "Phase separation of biomolecules underlies the formation and regulation of various membraneless condensates in cells. How condensates function reliably while surrounded by heterogeneous and dynamic mixtures of biomolecular components with specific and nonspecific interactions is yet to be understood. Studying multicomponent biomolecular mixtures with designer peptides has recently become an attractive avenue for learning about physicochemical principles governing cellular condensates. In this work, we employed long-timescale atomistic simulations of multicomponent tripeptide mixtures with all residue substitutions to illuminate the nature of direct and water-mediated interactions in a prototypical cellular condensate environment. We find that peptide mixtures form clusters with inverse hydrophobic order. Most multivalent and charged residues are localized in the cluster's core, with a large fraction of nonaromatic hydrophobic residues remaining on the surface. This inverse hydrophobic order in peptide clusters is partly driven by the expulsion of nonspecifically bound water molecules following peptide cluster growth. The growth of clusters is also accompanied by the formation of increasing numbers of specific water-mediated interactions between polar and charged residues. While the present study focused on the condensation of short peptide motifs, the general findings and analysis techniques should be helpful for future studies on larger peptides and protein condensation.",
+  "abstract_zh": "生物分子的相分离（phase separation）是细胞中多种无膜凝聚体形成和调控的基础。在充满异质性、动态混合且具有特异性和非特异性相互作用的生物分子组分环境中，凝聚体如何可靠地发挥功能尚待阐明。利用设计肽研究多组分生物分子混合物，近来已成为探索细胞凝聚体物理化学原理的有吸引力的途径。在本工作中，我们采用长时间尺度的原子模拟，对具有所有残基替换的多组分三肽混合物进行研究，以揭示典型细胞凝聚体环境中直接相互作用和水介导相互作用的本质。我们发现，肽混合物形成具有反疏水序的簇。大多数多价和带电残基位于簇核心，而大量非芳香族疏水残基保留在表面。肽簇中的这种反疏水序部分由肽簇生长后非特异性结合水分子的排出所驱动。簇的生长还伴随着极性和带电残基之间特异性水介导相互作用的数量增加。尽管本研究聚焦于短肽基序的凝聚，但一般性发现和分析技术应有助于未来对更大肽和蛋白质凝聚的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38163950/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38163950/",
+  "paper_page_path": "papers/pubmed/38163950/index.html"
+}

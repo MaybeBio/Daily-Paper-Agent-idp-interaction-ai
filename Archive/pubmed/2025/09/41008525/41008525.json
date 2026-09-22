@@ -1,0 +1,391 @@
+{
+  "identity": {
+    "pmid": "41008525",
+    "doi": "10.3390/biom15091218",
+    "title": "Implicit Solvent Models and Their Applications in Biophysics."
+  },
+  "content": {
+    "abstract": "Solvents represent the quiet majority in biomolecular systems, yet modeling their influence with both speed and ri:gor remains a central challenge. This study maps the state of the art in implicit solvent theory and practice, spanning classical continuum electrostatics (PB/GB; DelPhi, APBS), modern nonpolar and cavity/dispersion treatments, and quantum-continuum models (PCM, COSMO/COSMO-RS, SMx/SMD). We highlight where these methods excel and where they falter, namely, around ion specificity, heterogeneous interfaces, entropic effects, and parameter sensitivity. We then spotlight two fast-moving frontiers that raise both accuracy and throughput: machine learning-augmented approaches that serve as PB-accurate surrogates, learn solvent-averaged potentials for MD, or supply residual corrections to GB/PB baselines, and quantum-centric workflows that couple continuum solvation methods, such as IEF-PCM, to sampling on real quantum hardware, pointing toward realistic solution-phase electronic structures at emerging scales. Applications across protein-ligand binding, nucleic acids, and intrinsically disordered proteins illustrate how implicit models enable rapid hypothesis testing, large design sweeps, and long-time sampling. Our perspective argues for hybridization as a best practice, meaning continuum cores refined by improved physics, such as multipolar water, ML correctors with uncertainty quantification and active learning, and quantum-continuum modules for chemically demanding steps.",
+    "keywords": [
+      "Generalized Born model",
+      "Poisson-Boltzmann equation",
+      "biomolecular simulations",
+      "implicit solvent models",
+      "protein-ligand binding"
+    ],
+    "mesh_terms": [
+      "*Solvents/chemistry",
+      "*Biophysics/methods",
+      "Proteins/chemistry",
+      "Static Electricity",
+      "Machine Learning",
+      "Molecular Dynamics Simulation",
+      "Quantum Theory"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Severoglu, Yusuf Bugra",
+        "Yuksel, Betul",
+        "Sucu, Cagatay",
+        "Aral, Nese",
+        "Uversky, Vladimir N",
+        "Coskuner-Weber, Orkid"
+      ],
+      "short_names": [
+        "Severoglu YB",
+        "Yuksel B",
+        "Sucu C",
+        "Aral N",
+        "Uversky VN",
+        "Coskuner-Weber O"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5458-1053",
+        "ORCID: 0000-0002-4037-5857"
+      ],
+      "affiliations": [
+        "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi No. 106, Beykoz 34820, Istanbul, Turkey.",
+        "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi No. 106, Beykoz 34820, Istanbul, Turkey.",
+        "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi No. 106, Beykoz 34820, Istanbul, Turkey.",
+        "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi No. 106, Beykoz 34820, Istanbul, Turkey.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA.",
+        "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi No. 106, Beykoz 34820, Istanbul, Turkey."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Severoglu, Yusuf Bugra",
+        "short_name": "Severoglu YB",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi No. 106, Beykoz 34820, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Yuksel, Betul",
+        "short_name": "Yuksel B",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi No. 106, Beykoz 34820, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Sucu, Cagatay",
+        "short_name": "Sucu C",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi No. 106, Beykoz 34820, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Aral, Nese",
+        "short_name": "Aral N",
+        "identifiers": [
+          "0000-0002-5458-1053"
+        ],
+        "affiliations": [
+          "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi No. 106, Beykoz 34820, Istanbul, Turkey."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [
+          "0000-0002-4037-5857"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA."
+        ]
+      },
+      {
+        "full_name": "Coskuner-Weber, Orkid",
+        "short_name": "Coskuner-Weber O",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biotechnology, Turkish-German University, Sahinkaya Caddesi No. 106, Beykoz 34820, Istanbul, Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2025 Aug 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/27 06:34",
+    "fetched_at": "2026-09-17 20:24:10"
+  },
+  "links": {
+    "cites": [
+      "42559237",
+      "42513172",
+      "42015584",
+      "41904234",
+      "41900027"
+    ],
+    "refs": [
+      "40377433",
+      "38860842",
+      "38356263",
+      "38149593",
+      "37923304",
+      "37805934",
+      "37526158",
+      "36760282",
+      "35968960",
+      "35883475",
+      "34525302",
+      "34470360",
+      "34191508",
+      "34096718",
+      "33988995",
+      "33739846",
+      "33651608",
+      "32040317",
+      "31972086",
+      "31903719",
+      "31860292",
+      "31837687",
+      "31809054",
+      "31774674",
+      "31525962",
+      "31382743",
+      "31237360",
+      "30857399",
+      "30821969",
+      "30329012",
+      "30250773",
+      "30219007",
+      "29056756",
+      "28836357",
+      "28523638",
+      "28482664",
+      "28245118",
+      "28211071",
+      "28195473",
+      "28076807",
+      "28064081",
+      "27557051",
+      "26747797",
+      "26589074",
+      "26584231",
+      "26583419",
+      "26575935",
+      "26575917",
+      "26303185",
+      "25941465",
+      "25660403",
+      "25630692",
+      "25193298",
+      "24841242",
+      "24752461",
+      "24748852",
+      "24037708",
+      "24006967",
+      "23745011",
+      "23630190",
+      "23519863",
+      "23217364",
+      "23212974",
+      "23180979",
+      "22734466",
+      "22496841",
+      "22432575",
+      "22048564",
+      "21920327",
+      "21735452",
+      "21366926",
+      "20419084",
+      "19833351",
+      "19809581",
+      "19366259",
+      "19253989",
+      "18582013",
+      "18512970",
+      "18506808",
+      "18074338",
+      "17918880",
+      "17591718",
+      "17388417",
+      "17388416",
+      "17030302",
+      "16970499",
+      "16928023",
+      "16689642",
+      "16512740",
+      "16466261",
+      "16193038",
+      "16092826",
+      "15836154",
+      "15116359",
+      "14735568",
+      "12964188",
+      "12889983",
+      "12824328",
+      "12501158",
+      "12418107",
+      "12214312",
+      "11913378",
+      "11031278",
+      "10223287",
+      "8906967",
+      "7761829",
+      "5551392",
+      "4760134",
+      "3945310",
+      "3472198",
+      "2194479"
+    ],
+    "similar": [
+      "41008525",
+      "28064081",
+      "30857399",
+      "33769814",
+      "23600402",
+      "25220475",
+      "25193298",
+      "15264256",
+      "15959866",
+      "15377512",
+      "17614538",
+      "35678272",
+      "23217364",
+      "29737546",
+      "16671749",
+      "26609601",
+      "18386862",
+      "12596268",
+      "40397856",
+      "28397268",
+      "35024043",
+      "31030299",
+      "16709675",
+      "22328970",
+      "27748599",
+      "21279359",
+      "19366259",
+      "15837170",
+      "26574454",
+      "17969016",
+      "14581194",
+      "28245118",
+      "29558137",
+      "15382247",
+      "15048829",
+      "20094685",
+      "18304802",
+      "17256983",
+      "37889479",
+      "15053606",
+      "20030307",
+      "20640794",
+      "27600554",
+      "26616615",
+      "18688533",
+      "25430617",
+      "20355699",
+      "41441749",
+      "23912807",
+      "15267926",
+      "26575750",
+      "40377433",
+      "24063251",
+      "26723595",
+      "14517967",
+      "32155062",
+      "14646067",
+      "17918282",
+      "16606226",
+      "19425558",
+      "16540310",
+      "14735568",
+      "28211071",
+      "24010668",
+      "23147243",
+      "29378399",
+      "26285618",
+      "26575935",
+      "24320250",
+      "21599052",
+      "18183310",
+      "23347181",
+      "17508411",
+      "37526158",
+      "21920327",
+      "19132415",
+      "28786669",
+      "38356263",
+      "24851673",
+      "15268342",
+      "17348031",
+      "12964188",
+      "30225724",
+      "36117287",
+      "28836357",
+      "28297603",
+      "17690926",
+      "29946610",
+      "26574209",
+      "17411115",
+      "28498675",
+      "18820239",
+      "16928023",
+      "22274991",
+      "26605552",
+      "36300819",
+      "26636198",
+      "21728337",
+      "21117705",
+      "19678651"
+    ],
+    "review": [
+      "41008525",
+      "30857399",
+      "25193298",
+      "23217364",
+      "15837170",
+      "17969016",
+      "18304802",
+      "16540310",
+      "18183310",
+      "21920327"
+    ],
+    "pmc": [
+      "12468003"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom15091218",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41008525/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

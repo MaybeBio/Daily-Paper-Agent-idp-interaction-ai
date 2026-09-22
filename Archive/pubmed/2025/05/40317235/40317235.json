@@ -1,0 +1,317 @@
+{
+  "identity": {
+    "pmid": "40317235",
+    "doi": "10.1021/acs.jpcb.5c01260",
+    "title": "Noncovalent Lasso Entanglements are Common in Experimentally Derived Intrinsically Disordered Protein Ensembles and Strongly Influenced by Protein Length and Charge."
+  },
+  "content": {
+    "abstract": "Noncovalent lasso entanglements are conformations in which a protein backbone segment forms a loop closed by noncovalent interactions and that loop is threaded one or more times by either the N- or C-terminal segment of the backbone or both. While these entanglements are common in globular proteins, their presence in intrinsically disordered proteins or regions (IDPs/IDRs) remains largely unexplored. Here, we examine whether IDPs/IDRs in their monomeric form populate these conformations and how sequence length and charge composition influence entanglement prevalence. Using experimentally derived IDP/IDR ensembles from the Protein Ensemble Database, we find that 48% (199 of 416) of its entries contain subpopulations with entangled conformations, with 25% of entries having conformational ensembles in which 50% or more are entangled. This includes IDPs such as nuclear pore complex protein Nup153, nonstructural protein V of Hendra virus, and Eukaryotic initiation factor 4F subunit p150. Using molecular simulations, we find that (i) entanglements are most prevalent in weak polyampholytes and polyelectrolytes, and strong polyampholytes but rare in strong polyelectrolytes; (ii) entanglement populations increase with IDP length; (iii) entanglement probability positively correlates with chain compaction; and (iv) most IDPs/IDRs in the human proteome exhibit entangled conformations. A GO enrichment analysis reveals that the entanglement probability correlates with IDP/IDR function and subcellular localization. Thus, these findings indicate that noncovalent lasso entanglements are a widespread structural feature of IDPs/IDRs and have the potential to be biologically relevant.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Protein Conformation",
+      "Databases, Protein",
+      "Humans",
+      "Nuclear Pore Complex Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vu, Quyen V",
+        "Sitarik, Ian",
+        "Li, Mai Suan",
+        "O'Brien, Edward P"
+      ],
+      "short_names": [
+        "Vu QV",
+        "Sitarik I",
+        "Li MS",
+        "O'Brien EP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9863-0486",
+        "ORCID: 0000-0001-7021-7916",
+        "ORCID: 0000-0001-9809-3273"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Pennsylvania State University, University Park, Pennsylvania 16802, United States.",
+        "Department of Chemistry, Pennsylvania State University, University Park, Pennsylvania 16802, United States.",
+        "Institute of Physics, Polish Academy of Sciences, Al. Lotnikow 32/46, 02-668 Warsaw, Poland.",
+        "Institute for Computational Sciences and Technology, Quang Trung Software City, Tan Chanh Hiep Ward, District 12, Ho Chi Minh City 510000, Vietnam.",
+        "Department of Chemistry, Pennsylvania State University, University Park, Pennsylvania 16802, United States.",
+        "Institute for Computational and Data Sciences, Pennsylvania State University, University Park, Pennsylvania 16802, United States.",
+        "Bioinformatics and Genomics Graduate Program, The Huck Institutes of the Life Sciences, Pennsylvania State University, University Park, Pennsylvania 16802, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vu, Quyen V",
+        "short_name": "Vu QV",
+        "identifiers": [
+          "0000-0002-9863-0486"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Pennsylvania State University, University Park, Pennsylvania 16802, United States."
+        ]
+      },
+      {
+        "full_name": "Sitarik, Ian",
+        "short_name": "Sitarik I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Pennsylvania State University, University Park, Pennsylvania 16802, United States."
+        ]
+      },
+      {
+        "full_name": "Li, Mai Suan",
+        "short_name": "Li MS",
+        "identifiers": [
+          "0000-0001-7021-7916"
+        ],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Al. Lotnikow 32/46, 02-668 Warsaw, Poland.",
+          "Institute for Computational Sciences and Technology, Quang Trung Software City, Tan Chanh Hiep Ward, District 12, Ho Chi Minh City 510000, Vietnam."
+        ]
+      },
+      {
+        "full_name": "O'Brien, Edward P",
+        "short_name": "O'Brien EP",
+        "identifiers": [
+          "0000-0001-9809-3273"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Pennsylvania State University, University Park, Pennsylvania 16802, United States.",
+          "Institute for Computational and Data Sciences, Pennsylvania State University, University Park, Pennsylvania 16802, United States.",
+          "Bioinformatics and Genomics Graduate Program, The Huck Institutes of the Life Sciences, Pennsylvania State University, University Park, Pennsylvania 16802, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 May 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/03 22:25",
+    "fetched_at": "2026-09-21 18:28:22"
+  },
+  "links": {
+    "cites": [
+      "42338018",
+      "42039501",
+      "42039498",
+      "41929039"
+    ],
+    "refs": [
+      "39552041",
+      "38341172",
+      "38297118",
+      "38296158",
+      "38294935",
+      "38177684",
+      "38039868",
+      "37904608",
+      "37344452",
+      "37200094",
+      "37181245",
+      "36471044",
+      "35948766",
+      "35654797",
+      "35177069",
+      "34439869",
+      "33934416",
+      "33305318",
+      "33237329",
+      "32938999",
+      "32817491",
+      "32451376",
+      "29602697",
+      "29321677",
+      "29078291",
+      "28935776",
+      "28746339",
+      "28516010",
+      "27636733",
+      "27583570",
+      "25863585",
+      "25562210",
+      "25531225",
+      "24773235",
+      "23901099",
+      "23316124",
+      "23222640",
+      "21514144",
+      "20639465",
+      "20404210",
+      "17145717",
+      "16287116",
+      "16218947",
+      "12810920",
+      "10550212"
+    ],
+    "similar": [
+      "40317235",
+      "42338018",
+      "31441158",
+      "39093570",
+      "36674958",
+      "38177684",
+      "31756456",
+      "38297118",
+      "41929039",
+      "30204435",
+      "32696395",
+      "38296158",
+      "26618856",
+      "37155239",
+      "28805390",
+      "34626492",
+      "40095314",
+      "33719450",
+      "33945530",
+      "27844185",
+      "37634152",
+      "35882686",
+      "30840442",
+      "27936491",
+      "40727229",
+      "29763584",
+      "41137856",
+      "41432303",
+      "30909517",
+      "39253485",
+      "35454150",
+      "38296708",
+      "35094056",
+      "33587794",
+      "23901099",
+      "37442414",
+      "42140310",
+      "33581430",
+      "33076213",
+      "35034725",
+      "42370415",
+      "35436286",
+      "29539394",
+      "38275091",
+      "35139468",
+      "23794453",
+      "32696367",
+      "32579908",
+      "31425549",
+      "31797594",
+      "33310020",
+      "35944496",
+      "36917561",
+      "37338049",
+      "29626537",
+      "41082321",
+      "32867340",
+      "25611056",
+      "38713459",
+      "32824743",
+      "25496281",
+      "38987470",
+      "36131545",
+      "24898547",
+      "26387104",
+      "24174539",
+      "38018910",
+      "40574713",
+      "42273644",
+      "35275927",
+      "30865832",
+      "31809054",
+      "32840111",
+      "33036302",
+      "39205298",
+      "37646172",
+      "33337879",
+      "30979035",
+      "33530506",
+      "36291695",
+      "25502193",
+      "23142703",
+      "33567297",
+      "42309023",
+      "31999450",
+      "35129612",
+      "34390736",
+      "32696365",
+      "32357776",
+      "30025858",
+      "34680048",
+      "40739343",
+      "33810353",
+      "33087759",
+      "30913885",
+      "42332380",
+      "38220424",
+      "35454181",
+      "37108059",
+      "30058229"
+    ],
+    "review": [
+      "40317235",
+      "31441158",
+      "39093570",
+      "35882686",
+      "30840442",
+      "30909517",
+      "38296708",
+      "35139468",
+      "23794453",
+      "32867340",
+      "26387104",
+      "39205298",
+      "30979035",
+      "33530506",
+      "25502193",
+      "33567297",
+      "42309023",
+      "35129612",
+      "34390736",
+      "34680048"
+    ],
+    "pmc": [
+      "13154406"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40317235/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c01260",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

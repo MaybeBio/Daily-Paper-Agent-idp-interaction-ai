@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors state that existing structure-based molecular generative models are not tailored to PPI interfaces, which have distinct physicochemical properties. They constructed a dataset of PPI interfaces with active and inactive compound pairs, and propose GENiPPI, a generative framework that captures implicit relationships between interfaces and active molecules, generates novel and structurally diverse compounds, and represents the first structure-based generative model focused on PPI interfaces.
+- **Visible evidence base** Abstract text only; no quantitative results, dataset details, or methodological specifics are provided
+- **Missing materials affecting confidence** Full manuscript, dataset description, model architecture, evaluation metrics, baseline comparisons, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to computational drug design, specifically addressing a gap in PPI-targeted molecular generation. However, the evidence provided is insufficient to evaluate the technical soundness, novelty, or practical utility of GENiPPI. Key claims about performance, diversity, and novelty are made without quantitative support. The work may be of interest to the computational chemistry and drug discovery communities, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Computational chemists, medicinal chemists, and researchers in AI-driven drug discovery would be interested because the work targets a challenging and underexplored problem, namely generating modulators for PPI interfaces, which are relevant to many therapeutic areas. The proposed framework could offer a new tool for designing chemical probes or lead compounds.
+- **Major strengths** The problem is well-motivated, as PPI interfaces differ from conventional pockets and are clinically relevant. The idea of constructing a dedicated dataset of PPI interfaces with active and inactive pairs is a sensible foundation. The claim of being the first structure-based generative model for PPI interfaces, if true, would represent a meaningful advance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that GENiPPI "captures the implicit relationships between the PPI interfaces and the active molecules" and "can generate novel compounds that target these interfaces."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No quantitative results are presented. There are no metrics for generation validity, binding affinity prediction, docking scores, or comparison to baseline generative models. The claim of capturing relationships is not supported by any data.  
+  - **Why it matters** Without quantitative evaluation, the reader cannot assess whether GENiPPI performs better than existing methods or even produces chemically plausible molecules. The core value proposition of the framework is unverified.  
+  - **Resolution test** Provide evaluation metrics such as validity, uniqueness, novelty, binding affinity estimates, and comparison to at least one baseline model, ideally with statistical significance.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Novelty substantiation  
+  - **Claim pointer** The abstract claims "to the best of our knowledge, this is the first exploration of a structure-based molecular generative model focused on PPI interfaces."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The claim of being first is not supported by a literature review or comparison to prior work. No references are provided in the abstract, and it is unclear how the authors established this novelty.  
+  - **Why it matters** Novelty is a central claim for the significance of the work. If prior structure-based generative models have been applied to PPI interfaces, the contribution is incremental rather than foundational.  
+  - **Resolution test** Include a brief literature survey in the full text and explicitly state how GENiPPI differs from any prior PPI-focused generative approaches.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Dataset quality and representativeness  
+  - **Claim pointer** The abstract states that "we constructed a comprehensive dataset of PPI interfaces with active and inactive compound pairs."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No details are given on dataset size, source, curation criteria, or how active and inactive pairs were defined. The term "comprehensive" is subjective and unverifiable.  
+  - **Why it matters** The dataset is the foundation for training and evaluation. If it is biased, small, or poorly curated, the model's performance and generalizability are questionable.  
+  - **Resolution test** Describe dataset construction in the full text, including sources, filtering steps, and statistics, and ideally make it publicly available.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Methodological clarity  
+  - **Claim pointer** The abstract introduces "a novel molecular generative framework tailored to PPI interfaces, named GENiPPI" but does not describe the method.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The architecture, training procedure, and how the interface information is incorporated are not described. The reader cannot understand how GENiPPI works or what makes it interface-aware.  
+  - **Why it matters** Reproducibility and scientific assessment require a clear description of the method. Without it, the work cannot be evaluated or built upon.  
+  - **Resolution test** Provide a detailed method section in the full text, including model architecture, input features, and training details.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "structurally diverse novel compounds with limited PPI interface modulators" is ambiguous. It is unclear whether "limited" refers to the number of known modulators or a constraint in the generation process.  
+  - **Required correction** Rephrase to clarify the intended meaning, for example, "can generate structurally diverse novel compounds even when only a limited number of known PPI interface modulators are available."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "implicit relationships" is vague and not defined. It is unclear what kind of relationship is being captured and how it is measured.  
+  - **Required correction** Define the term or replace it with a more specific description, such as "learns a mapping from interface features to active compound properties."  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** No mention of validation on external datasets or experimental confirmation of generated compounds.  
+  - **Required correction** State whether any generated compounds were tested experimentally or validated against external benchmarks, or note this as future work.
+
+## Risk / unsupported claims
+- The claim that GENiPPI "captures the implicit relationships" is unsupported without quantitative evidence.
+- The claim of being the "first" structure-based generative model for PPI interfaces is unverifiable from the abstract alone.
+- The claim of generating "novel compounds that target these interfaces" is unsupported without binding or activity data.
+- The claim of "structurally diverse novel compounds" is unsupported without diversity metrics.
+- The dataset's "comprehensive" nature is unverifiable without details on size and curation.

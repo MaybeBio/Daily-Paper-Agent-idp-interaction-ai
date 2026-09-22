@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.05.434000",
+  "title": "Inhibition of amyloid formation of the Nucleoprotein of SARS-CoV-2",
+  "authors": "Tayeb-Fligelman E; Cheng X; Tai C; Bowler JT; Griner S; Sawaya MR; Seidler PM; Jiang YX; Lu J; Rosenberg GM; Salwinski L; Abskharon R; Zee C; Hou K; Li Y; Boyer DR; Murray KA; Falcon G; Anderson DH; Cascio D; Saelices L; Damoiseaux R; Guo F; Eisenberg DS",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-05",
+  "window": {
+    "start": "2021-03-01",
+    "end": "2021-03-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究SARS-CoV-2核蛋白低复杂度域在液-液相分离中形成淀粉样纤维的机制，并基于原子结构设计肽抑制剂，涉及IDR介导的互作与相分离，但方法以实验结构解析为主，AI/物理模拟建模较弱。",
+  "abstract": "The SARS-CoV-2 Nucleoprotein (NCAP) functions in RNA packaging during viral replication and assembly. Computational analysis of its amino acid sequence reveals a central low-complexity domain (LCD) having sequence features akin to LCDs in other proteins known to function in liquid–liquid phase separation. Here we show that in the presence of viral RNA, NCAP, and also its LCD segment alone, form amyloid-like fibrils when undergoing liquid–liquid phase separation. Within the LCD we identified three 6-residue segments that drive amyloid fibril formation. We determined atomic structures for fibrils formed by each of the three identified segments. These structures informed our design of peptide inhibitors of NCAP fibril formation and liquid–liquid phase separation, suggesting a therapeutic route for Covid-19. <h4>One Sentence Summary</h4> Atomic structures of amyloid-driving peptide segments from SARS-CoV-2 Nucleoprotein inform the development of Covid-19 therapeutics.",
+  "abstract_zh": "SARS-CoV-2核蛋白（NCAP）在病毒复制和组装过程中参与RNA包装。对其氨基酸序列的计算分析揭示了一个中央低复杂度结构域（LCD），其序列特征类似于已知在液-液相分离中发挥作用的其他蛋白质中的LCD。在此，我们表明，在病毒RNA存在的情况下，NCAP及其单独的LCD片段在经历液-液相分离时会形成淀粉样纤维。在LCD内，我们识别出三个6残基片段，它们驱动淀粉样纤维的形成。我们确定了由这三个识别片段各自形成的纤维的原子结构。这些结构指导了我们设计NCAP纤维形成和液-液相分离的肽抑制剂，为Covid-19提供了一种治疗途径。<h4>一句话摘要</h4>来自SARS-CoV-2核蛋白的淀粉样驱动肽片段的原子结构为Covid-19疗法的开发提供了信息。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.05.434000",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.05.434000",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.05.434000/index.html"
+}

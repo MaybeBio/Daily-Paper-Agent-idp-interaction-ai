@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41867850",
+  "title": "Tubulin C-terminal tails are pH sensors that regulate microtubule function.",
+  "authors": "Whited, A M; DeLear, Patrick; Thomas, Ezekiel C; Allen, Jeffre; Ferrer-Imbert, Genesis; Acharya, Nirbhik; Castaneda, Carlos A; Sept, David; Moore, Jeffrey K; Hough, Loren E",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-03-23",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究微管蛋白无序C末端尾部酸性簇的pH传感机制，并通过NMR、模拟及结合实验揭示pH调控马达蛋白与微管的互作，对象为IDR且涉及PPI机制，但方法以实验为主、计算模拟为辅，AI/物理建模深度有限。",
+  "abstract": "Changes in intracellular pH are critical for maintaining homeostasis, mediating signaling pathways, and enabling cellular responses to stress, injury, and disease. There is increasing evidence that clusters of acidic residues, primarily glutamates, are both highly prevalent and conserved in disordered regions of proteins and can play an important role in cellular pH response. Tubulin C-terminal tails (CTTs) are glutamate rich regions which protrude from the microtubule surface. These tails are a primary site of for both posttranslational modifications and binding of microtubule-associated proteins. Motivated by these observations, we measured the pH response of tubulin CTTs using NMR spectroscopy, circular dichroism, and computational simulations. We find that glutamate residues in CTTs taken from organisms across eukaryotes exhibit a robust upshift in their pK (a) values, that the sequential context of glutamate residues creates hot spots for protonation, and that hydrogen bonding between side chains stabilizes interactions that alter the conformation of the CTT. To determine whether the CTT pH response plays a potentially important role in microtubule interactions, we measured the pH dependence of the binding of the yeast kinesin-5, Cin8, to microtubules. We find that Cin8 binding is modulated by pH in a CTT-dependent manner. Our results demonstrate that acidic clusters are important mediators of cellular pH response and establish that pH can regulate interactions at the microtubule surface.",
+  "abstract_zh": "细胞内pH值的变化对于维持稳态、介导信号通路以及使细胞能够应对应激、损伤和疾病至关重要。越来越多的证据表明，酸性残基簇，主要是谷氨酸，在蛋白质的无序区域中既高度普遍又保守，并可能在细胞pH响应中发挥重要作用。微管蛋白C末端尾部（CTTs）是富含谷氨酸的区域，从微管表面突出。这些尾部是翻译后修饰和微管相关蛋白结合的主要位点。基于这些观察，我们使用核磁共振波谱、圆二色性和计算模拟测量了微管蛋白CTTs的pH响应。我们发现，来自真核生物各物种的CTTs中的谷氨酸残基表现出其pK (a)值的显著上移，谷氨酸残基的序列背景创造了质子化的热点，并且侧链之间的氢键稳定了改变CTT构象的相互作用。为了确定CTT的pH响应是否在微管相互作用中发挥潜在重要作用，我们测量了酵母kinesin-5 Cin8与微管结合的pH依赖性。我们发现Cin8的结合以CTT依赖的方式受pH调节。我们的结果表明，酸性簇是细胞pH响应的重要介导者，并确立了pH可以调节微管表面的相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41867850/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41867850/",
+  "paper_page_path": "papers/pubmed/41867850/index.html"
+}

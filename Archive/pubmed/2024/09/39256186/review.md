@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or methods
+- **Shared manuscript claim summary** The authors report that FMRP-derived RGG peptides undergo liquid-liquid phase separation (LLPS) with G-quadruplex (G4) forming Myc-DNA. They claim that arginine residues are essential for this process, that a minimum of five positive net charges on the peptide is required, and that higher peptide-G4 binding affinity correlates with higher LLPS propensity, with a threshold affinity identified for LLPS induction.
+- **Visible evidence base** Abstract text only; no experimental data, figures, tables, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, quantitative binding data, LLPS assay details, peptide sequences, control experiments, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting contribution to the understanding of LLPS mediated by RGG peptides and G4 nucleic acids. The systematic peptide design approach is commendable. However, the abstract alone provides insufficient evidence to evaluate the robustness of the claims. Key quantitative data, experimental controls, and methodological details are absent, limiting the ability to assess technical soundness and the strength of the conclusions.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, intrinsically disordered proteins, nucleic acid biology, and neurodegenerative disease mechanisms would find these results relevant. The work addresses fundamental questions about sequence determinants of LLPS, which has broad implications for understanding cellular organization and disease pathology.
+- **Major strengths** The systematic design of peptides with point mutations and truncations is a logical approach to dissect the roles of specific residues. The identification of a minimum charge requirement and a binding affinity threshold provides potentially quantitative and testable parameters for G4-LLPS. The focus on arginine residues addresses a specific and mechanistically important question.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "at least five positive net charges of peptide are required to induce G4-LLPS" is presented as a definitive finding.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the net charge threshold was determined, whether other peptide properties (e.g., hydrophobicity, aromatic content, sequence length) were controlled for, or whether the threshold is specific to the tested peptide family or generalizable.
+  - **Why it matters** Without controlling for confounding variables and without details on the peptide series used, the charge threshold claim may be an artifact of the specific sequences tested rather than a general principle.
+  - **Resolution test** Provide the full peptide series with sequences, net charges, and LLPS outcomes; demonstrate that charge is the sole varying parameter across the threshold; show that the threshold holds for multiple independent peptide designs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that "higher binding affinity of peptides with G4 led to a higher LLPS ability, whereas threshold of the binding affinity for undergoing LLPS was identified" implies a quantitative relationship.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative data are presented. The abstract does not specify the range of binding affinities measured, the method used (e.g., ITC, SPR, fluorescence), the number of peptide variants tested, or how the affinity threshold was defined statistically.
+  - **Why it matters** A threshold claim requires robust quantitative analysis with appropriate error assessment and statistical significance. Without these details, the relationship between affinity and LLPS cannot be evaluated.
+  - **Resolution test** Present binding affinity values with errors for all peptide variants, show the correlation analysis with LLPS propensity, and define the threshold with statistical justification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and completeness
+  - **Claim pointer** The claim that arginine residues are essential for G4-LLPS is based on a single point-mutated peptide where all arginines were replaced with lysine.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports only one mutant (all arginine to lysine). It is unclear whether individual arginine residues were mutated to assess positional effects, whether other basic residues were tested, or whether the loss of LLPS could be due to altered folding, solubility, or other sequence-specific effects unrelated to arginine chemistry.
+  - **Why it matters** The conclusion that arginine is specifically required, rather than merely positive charge, needs additional controls. Lysine and arginine differ in hydrogen bonding capacity, cation-pi interactions, and hydrophobicity, so the claim requires more than a single comparison.
+  - **Resolution test** Include additional mutants (e.g., individual arginine to lysine or alanine substitutions, arginine to citrulline to test charge versus hydrogen bonding) and show that the effect is specific to arginine.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "G4-LLPS" is used without definition. While likely clear to specialists, the abbreviation should be defined at first use.
+  - **Required correction** Define "G4-LLPS" as "G-quadruplex-mediated liquid-liquid phase separation" at first mention.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions only Myc-DNA as the G4-forming nucleic acid. It is unclear whether the findings are specific to this sequence or generalizable to other G4-forming sequences.
+  - **Required correction** State whether multiple G4-forming sequences were tested or acknowledge the limitation of using a single sequence.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Mechanistic claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that insights "elucidate the pivotal role of arginine" but does not propose a molecular mechanism for why arginine is important (e.g., cation-pi interactions, hydrogen bonding with G4 grooves).
+  - **Required correction** Add a brief mechanistic interpretation or explicitly state that the mechanism remains to be determined.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks sufficient quantitative data, controls, and methodological detail to establish the central claims regarding charge threshold, affinity threshold, and arginine specificity.
+- **Assessment against Nature-style criteria** 
+  - Originality: The work addresses a specific and underexplored question about the role of arginine in G4-mediated LLPS. The systematic peptide design approach is a reasonable strategy. However, the conceptual advance over existing literature on arginine-rich motifs and LLPS is not fully clear from the abstract.
+  - Scientific importance: The topic is of interest to the condensate and nucleic acid biology communities. The identification of quantitative thresholds could be valuable, but the significance depends on the robustness and generalizability of the findings, which cannot be assessed from the abstract.
+  - Interdisciplinary readership: The work bridges biophysics, nucleic acid chemistry, and cell biology. The abstract is written in a way that is accessible to specialists but may be less clear to a broader readership due to undefined abbreviations and lack of context.
+  - Technical soundness: Cannot be evaluated from the abstract. The absence of methods, data, and controls prevents assessment of experimental rigor.
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with LLPS and G4 biology. The key findings are stated clearly, but the lack of quantitative context limits comprehension for nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses and a reasonable experimental strategy, but the claims regarding charge threshold, affinity threshold, and arginine specificity require full experimental details and quantitative data to be verified. A supportive recommendation would be contingent on the full manuscript addressing the concerns raised.
+
+## Risk / unsupported claims
+- The claim that "at least five positive net charges of peptide are required to induce G4-LLPS" is unsupported without full peptide series data and controls.
+- The claim that "higher binding affinity of peptides with G4 led to a higher LLPS ability" is unsupported without quantitative binding and LLPS data.
+- The claim that "threshold of the binding affinity for undergoing LLPS was identified" is unsupported without statistical analysis and defined threshold criteria.
+- The claim that arginine residues are specifically essential (versus general positive charge) is unsupported based on a single mutant comparison.
+- The generalizability of findings beyond Myc-DNA is not assessable from the abstract.

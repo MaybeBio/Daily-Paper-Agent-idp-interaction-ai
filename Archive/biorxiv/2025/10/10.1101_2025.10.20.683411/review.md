@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report that DNAJB6, a J-domain chaperone, surveils phase transitions of multiple FG-Nucleoporins (FG-Nups), an activity shared with DNAJB2 and DNAJB8. They propose that this surveillance is encoded in a highly conserved intrinsically disordered region (IDR) of DNAJB6 that promotes formation of stable, gel-like assemblies, which outcompete homotypic FG-Nup interactions in favor of multivalent heterotypic chaperone:FG-Nup interactions. Evolutionary conservation, mutant analyses, and multiscale molecular dynamics simulations are cited as evidence that the sequence space for such assemblies is narrow and optimized to avoid self-aggregation while maintaining anti-amyloidogenic potency.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials were provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, quantitative data, simulation parameters, statistical analyses, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting extension of the authors' prior work on DNAJB6 in FG-Nup surveillance, with a mechanistic proposal centered on a conserved IDR and gel-like assembly formation. However, the evidence base available for this review is limited to the abstract, which precludes verification of the central claims. The mechanistic model is plausible but rests on several inferences that require direct experimental and computational support not visible here. The claim of a "narrow" sequence space for encoding gel-like assemblies is particularly strong and would need substantial comparative and mutational evidence to be convincing.
+- **Who would be interested in the results, and why** Researchers studying molecular chaperones, phase separation and condensate biology, nuclear pore complex assembly and function, and protein aggregation diseases. The work may also interest those exploring the functional roles of intrinsically disordered regions in chaperone biology and the evolutionary constraints on disordered sequences.
+- **Major strengths** The abstract identifies a potentially novel functional role for a conserved IDR in a chaperone, linking chaperone self-assembly to client surveillance. The proposed mechanism is mechanistically interesting and testable. The combination of evolutionary analysis, mutants, and simulations suggests a multi-pronged approach.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the surveillance mechanism is "encoded in an unusually highly conserved IDR that promotes the formation of stable, gel-like assemblies of the chaperone itself."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract asserts a causal link between the conserved IDR and gel-like assembly formation, but no direct evidence (e.g., biophysical characterization of the IDR, assembly kinetics, or structural data) is presented in the abstract. The claim that the IDR "promotes" assembly is an interpretation that requires experimental demonstration.
+  - **Why it matters** The central mechanistic proposal depends on this causal link. Without direct evidence that the IDR drives assembly and that this assembly is required for FG-Nup surveillance, the model remains speculative.
+  - **Resolution test** Provide biophysical data (e.g., turbidity, sedimentation, microscopy) showing that the IDR is necessary and sufficient for gel-like assembly, and that mutants disrupting assembly also disrupt FG-Nup surveillance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the assemblies "outcompete stable homotypic FG-Nup interactions and instead favors multivalent heterotypic chaperone:FG-Nup interactions."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** This competitive mechanism is stated as a conclusion, but no quantitative binding or competition data are described in the abstract. The relative affinities, stoichiometries, and kinetic parameters of homotypic versus heterotypic interactions are not provided.
+  - **Why it matters** The proposed mechanism hinges on a thermodynamic or kinetic competition that is not demonstrated. Without such data, alternative explanations (e.g., simple sequestration, kinetic trapping) remain possible.
+  - **Resolution test** Provide quantitative interaction data (e.g., ITC, SPR, or FRAP) comparing homotypic FG-Nup and heterotypic chaperone:FG-Nup interactions, and show that the chaperone assemblies can outcompete FG-Nup self-association under relevant conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that "the sequence space for encoding stable gel-like assemblies is narrow and optimized to avoid self-aggregation while providing potent anti-amyloidogenic capacity."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** This is a strong evolutionary and biophysical claim. The abstract mentions "evolutionary conservation" and "mutant analyses" but does not describe the scope of the sequence analysis, the number of mutants tested, or the functional readouts. The claim of a "narrow" sequence space requires systematic mutagenesis and comparative analysis across species or paralogs.
+  - **Why it matters** This claim elevates the work from a mechanistic study to an evolutionary principle. If not rigorously supported, it overstates the generality of the findings.
+  - **Resolution test** Provide systematic mutagenesis data (e.g., alanine scanning or deep mutational scanning) and a comparative analysis of IDR sequences across species, with quantitative readouts of assembly propensity and anti-amyloidogenic activity.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "surveillance" is used without a precise operational definition. It is unclear whether this refers to prevention of aberrant phase transitions, dissolution of existing condensates, or both.
+  - **Required correction** Define "surveillance" operationally in the abstract or introduction, specifying the exact activities measured.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Shared activity claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that the activity is "shared with the closely related DNAJB2 and DNAJB8" but does not indicate whether this sharing is qualitative or quantitative, or whether the IDR conservation extends to these paralogs.
+  - **Required correction** Clarify the degree of functional overlap and whether the conserved IDR is present and functional in DNAJB2 and DNAJB8.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Simulation claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract cites "multiscale molecular dynamics simulations" as supporting evidence but does not specify what was simulated, at what resolution, or which observables were compared to experiments.
+  - **Required correction** Briefly describe the simulation approach and the specific predictions that were validated experimentally.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient evidence to establish the causal role of the IDR in assembly formation, the competitive mechanism against FG-Nup homotypic interactions, or the claim of a narrow sequence space. These are central to the paper's thesis and require direct experimental and computational support.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of a chaperone IDR driving self-assembly to surveil client condensates is potentially original, but the abstract does not clearly distinguish this from prior work on chaperone phase behavior or from the authors' own earlier publication on FG-Nup surveillance.
+  - Scientific importance: If fully substantiated, the work could inform understanding of chaperone function in condensate biology and nuclear pore assembly, which is of broad interest. However, the importance is not fully established from the abstract alone.
+  - Interdisciplinary readership: The topic bridges chaperone biology, phase separation, and nuclear pore biology, which could attract a broad readership. The abstract is written in a way that is accessible to specialists in these areas.
+  - Technical soundness: Cannot be assessed from the abstract. No methods, controls, or quantitative data are visible.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms (e.g., FG-Nups, IDR, anti-amyloidogenic) without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but does not provide sufficient evidence to support the central mechanistic claims. A full review of the manuscript would be required to assess whether the data substantiate the model.
+
+## Risk / unsupported claims
+- The claim that the IDR "promotes" gel-like assembly is unsupported in the abstract.
+- The claim that assemblies "outcompete" homotypic FG-Nup interactions is unsupported.
+- The claim that the sequence space is "narrow" is unsupported.
+- The claim that the surveillance activity is "shared" with DNAJB2 and DNAJB8 is unquantified and unverified from the abstract.
+- The relevance of "evolutionary conservation" to the functional claims is asserted but not demonstrated.

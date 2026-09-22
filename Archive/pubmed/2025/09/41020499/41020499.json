@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "41020499",
+    "doi": "10.1093/nar/gkaf944",
+    "title": "The ParB-CTP cycle activates phase separation in bacterial DNA segregation."
+  },
+  "content": {
+    "abstract": "Cell function relies on liquid-like membraneless organelles formed through phase transitions, yet the mechanisms ensuring their specificity and rapid assembly remain poorly understood. In bacterial chromosome segregation via the ParABS system, hundreds of ParB proteins are recruited around the centromere-like parS sequence, forming the partition complex. Recent studies have shown that ParB binds CTP and undergoes cycles of loading and unloading near parS; however, this accounts for the recruitment of only a small fraction of ParB molecules, leaving its role unclear. Separately, a lattice gas model with fixed interaction energy has been proposed to describe ParB phase separation, but it fails to explain key experimental observations, including the absence of droplets in ParB variants. We reconcile these two perspectives by proposing that the ParB-CTP cycle acts as a molecular switch that enhances ParB-ParB interactions, triggering phase transition from vapor to liquid-like condensates. Our hypothesis is supported by numerical simulations of droplet formation and experiments showing that ParB variants disrupting the CTP cycle fail to undergo phase separation. These findings establish a mechanistic framework for ParB-CTP-mediated phase transitions and may have broader implications for understanding the spatial control of intracellular condensate formation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA, Bacterial/metabolism/genetics",
+      "*Chromosome Segregation/genetics",
+      "*Bacterial Proteins/metabolism/genetics/chemistry",
+      "*Cytidine Triphosphate/metabolism",
+      "Chromosomes, Bacterial/genetics/metabolism",
+      "*Escherichia coli Proteins/metabolism/genetics",
+      "Phase Transition",
+      "Escherichia coli/genetics/metabolism",
+      "Protein Binding",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Delimi, Linda",
+        "Revoil, Perrine",
+        "Alaoui, Hicham Sekkouri",
+        "Rech, Jerome",
+        "Bouet, Jean-Yves",
+        "Walter, Jean-Charles"
+      ],
+      "short_names": [
+        "Delimi L",
+        "Revoil P",
+        "Alaoui HS",
+        "Rech J",
+        "Bouet JY",
+        "Walter JC"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1488-5455",
+        "ORCID: 0000-0002-7313-0100"
+      ],
+      "affiliations": [
+        "Laboratoire Charles Coulomb (L2C), Univ. Montpellier, CNRS, Montpellier, 34090, France.",
+        "Laboratoire de Microbiologie et de Genetique Moleculaires (LMGM), CBI, CNRS, Univ. Toulouse, UPS, Toulouse, 31062, France.",
+        "Laboratoire de Microbiologie et de Genetique Moleculaires (LMGM), CBI, CNRS, Univ. Toulouse, UPS, Toulouse, 31062, France.",
+        "Laboratoire de Microbiologie et de Genetique Moleculaires (LMGM), CBI, CNRS, Univ. Toulouse, UPS, Toulouse, 31062, France.",
+        "Laboratoire de Microbiologie et de Genetique Moleculaires (LMGM), CBI, CNRS, Univ. Toulouse, UPS, Toulouse, 31062, France.",
+        "Laboratoire Charles Coulomb (L2C), Univ. Montpellier, CNRS, Montpellier, 34090, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Delimi, Linda",
+        "short_name": "Delimi L",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire Charles Coulomb (L2C), Univ. Montpellier, CNRS, Montpellier, 34090, France."
+        ]
+      },
+      {
+        "full_name": "Revoil, Perrine",
+        "short_name": "Revoil P",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Microbiologie et de Génétique Moléculaires (LMGM), CBI, CNRS, Univ. Toulouse, UPS, Toulouse, 31062, France."
+        ]
+      },
+      {
+        "full_name": "Alaoui, Hicham Sekkouri",
+        "short_name": "Alaoui HS",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Microbiologie et de Génétique Moléculaires (LMGM), CBI, CNRS, Univ. Toulouse, UPS, Toulouse, 31062, France."
+        ]
+      },
+      {
+        "full_name": "Rech, Jérôme",
+        "short_name": "Rech J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Microbiologie et de Génétique Moléculaires (LMGM), CBI, CNRS, Univ. Toulouse, UPS, Toulouse, 31062, France."
+        ]
+      },
+      {
+        "full_name": "Bouet, Jean-Yves",
+        "short_name": "Bouet JY",
+        "identifiers": [
+          "0000-0003-1488-5455"
+        ],
+        "affiliations": [
+          "Laboratoire de Microbiologie et de Génétique Moléculaires (LMGM), CBI, CNRS, Univ. Toulouse, UPS, Toulouse, 31062, France."
+        ]
+      },
+      {
+        "full_name": "Walter, Jean-Charles",
+        "short_name": "Walter JC",
+        "identifiers": [
+          "0000-0002-7313-0100"
+        ],
+        "affiliations": [
+          "Laboratoire Charles Coulomb (L2C), Univ. Montpellier, CNRS, Montpellier, 34090, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2025 Sep 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/29 13:17",
+    "fetched_at": "2026-09-17 20:40:26"
+  },
+  "links": {
+    "cites": [
+      "42573070",
+      "42258539",
+      "42112440"
+    ],
+    "refs": [
+      "39109686",
+      "38908027",
+      "37850647",
+      "37516778",
+      "37220081",
+      "35767606",
+      "34902429",
+      "34562373",
+      "34525598",
+      "34397383",
+      "34286695",
+      "33861734",
+      "33319179",
+      "33186556",
+      "32679076",
+      "32077854",
+      "31835030",
+      "31649139",
+      "31187729",
+      "30446599",
+      "28842876",
+      "28392184",
+      "27377966",
+      "27135801",
+      "25889267",
+      "25572315",
+      "23345617",
+      "21653553",
+      "20236989",
+      "19740757",
+      "19460965",
+      "19001378",
+      "17905987",
+      "11846553",
+      "10611311",
+      "9529520",
+      "9506522",
+      "1534133"
+    ],
+    "similar": [
+      "41020499",
+      "39109686",
+      "40586307",
+      "42573070",
+      "34902429",
+      "34286695",
+      "36871427",
+      "34250901",
+      "34562373",
+      "31835030",
+      "39441069",
+      "37850647",
+      "38908027",
+      "34397383",
+      "25964325",
+      "28407103",
+      "36622167",
+      "41343662",
+      "34613769",
+      "33861734",
+      "35904809",
+      "42523405",
+      "41448349",
+      "35767606",
+      "38842933",
+      "32543349",
+      "40601632",
+      "38142222",
+      "32679076",
+      "32077854",
+      "31649139",
+      "36044845",
+      "40998818",
+      "22018490",
+      "41068141",
+      "31318889",
+      "29186514",
+      "25807382",
+      "38652748",
+      "1860842",
+      "24927534",
+      "16306995",
+      "21651626",
+      "32379828",
+      "28373206",
+      "33055234",
+      "18048919",
+      "32313947",
+      "25572315",
+      "32198399",
+      "36301085",
+      "17308337",
+      "26126852",
+      "24829297",
+      "21924286",
+      "37569892",
+      "17635186",
+      "16452432",
+      "37733798",
+      "24068967",
+      "24466283",
+      "27332137",
+      "12207703",
+      "39660932",
+      "21142182",
+      "11150297",
+      "23345617",
+      "21839743",
+      "8429038",
+      "27135801",
+      "27377966",
+      "29180656",
+      "25691587",
+      "24859756",
+      "25794281",
+      "16306264",
+      "17020576",
+      "12603730",
+      "16359334",
+      "9915704",
+      "30446599",
+      "11359568",
+      "40842242",
+      "10064607",
+      "7748936",
+      "29648658",
+      "32698006",
+      "30544248",
+      "18978061",
+      "22934648",
+      "19450517",
+      "40174834",
+      "24022004",
+      "26055701",
+      "25682183",
+      "15466051",
+      "26904953",
+      "34256020",
+      "36206370",
+      "23683072"
+    ],
+    "review": [
+      "41020499",
+      "36871427",
+      "32543349",
+      "38142222",
+      "21924286",
+      "22934648"
+    ],
+    "pmc": [
+      "12477601"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41020499/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-71",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkaf944",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

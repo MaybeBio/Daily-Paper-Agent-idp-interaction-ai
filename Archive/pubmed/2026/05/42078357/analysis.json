@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42078357",
+  "title": "THRB splice site variants lead to exon 4 skipping and TRbeta1 gain-of-function syndrome.",
+  "authors": "Hones, Georg Sebastian; Liao, Xiao-Hui; Mahler, Elisa Annabelle; Herrmann, Philipp; Eckstein, Anja; Fuhrer, Dagmar; Castillo, Jesus Moreno; Chiang, John; Vincent, Andrea Louise; Weiss, Roy E; Dumitrescu, Alexandra Mihaela; Refetoff, Samuel; Moeller, Lars Christian",
+  "journal": "medRxiv : the preprint server for health sciences",
+  "published_date": "2026-05-04",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究探讨THRB基因剪接变异导致TRbeta1功能获得性综合征的临床与分子机制，对象为甲状腺激素受体，不涉及无序蛋白、PPI或AI/物理模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Heterozygous c.283+1G>A and c.283G>A variants in the THRB gene, encoding for thyroid hormone receptor (TR)beta1 and beta2, lead to autosomal dominant macular dystrophy (ADMD). We report the detailed clinical characterization of two first-degree relatives with ADMD, heterozygous for THRB c.283+1G>A, and an unrelated ADMD patient with a novel variant, c.283G>C. The genomic and molecular consequences of both variants were studied. METHODS: gDNA and mRNA were obtained from leukocytes. Clinical characterization included biochemistry, bone density and body composition, ECG, echocardiography, ultrasound, audiometry and color-vision. In vitro assays investigated TR function and DNA binding. RESULTS: The patients manifested no resistance to thyroid hormone beta (RTHbeta) and had normal FT4 and TSH. Detailed studies in two patients showed no goiter, tachycardia, hypercholesterinemia or hepatic steatosis. Hearing was not impaired. Both had impaired color vision and reduced bone density. RT-PCR from all three patients revealed skipping of exon 4 exclusive to TRbeta1, producing a deletion of 87 amino acids in the N-terminal domain (TRbeta1(DeltaNTD)). In vitro, DNA-binding affinity of TRbeta1(DeltaNTD) to DR4-TRE with or without RXRalpha was comparable to TRbeta1(WT). Surprisingly, TRbeta1(DeltaNTD) was transcriptionally twice more active than TRbeta1(WT) with a similar EC(50) for T3, demonstrating gain-of-function of TRbeta1(DeltaNTD). THRA expression in leukocytes was increased by 3-fold compared to unrelated controls and different from RTHbeta patients. CONCLUSION: These THRB splice site variants produce TRbeta1 exon 4 skipping, resulting in a gain-of-function mutant, TRbeta1(DeltaNTD). This explains the dominant ADMD phenotype devoid of RTHbeta and suggests a TRbeta1 gain-of-function syndrome.",
+  "abstract_zh": "背景：THRB基因编码甲状腺激素受体（TR）β1和β2，其杂合c.283+1G>A和c.283G>A变异导致常染色体显性遗传性黄斑营养不良（ADMD）。我们报告了两名携带THRB c.283+1G>A杂合变异的一级亲属ADMD患者的详细临床特征，以及一名携带新变异c.283G>C的无亲缘关系ADMD患者。研究了两种变异的基因组和分子后果。方法：从白细胞中获取gDNA和mRNA。临床特征评估包括生化指标、骨密度和身体成分、心电图、超声心动图、超声检查、听力学和色觉。体外实验研究了TR功能和DNA结合。结果：患者未表现出甲状腺激素β抵抗（RTHbeta），且FT4和TSH正常。对两名患者的详细研究显示无甲状腺肿、心动过速、高胆固醇血症或肝脂肪变性。听力未受损。两者均有色觉受损和骨密度降低。对所有三名患者的RT-PCR显示，外显子4跳跃仅发生在TRbeta1中，导致N端结构域缺失87个氨基酸（TRbeta1(DeltaNTD)）。体外实验中，TRbeta1(DeltaNTD)与DR4-TRE的DNA结合亲和力，无论有无RXRalpha，均与TRbeta1(WT)相当。令人惊讶的是，TRbeta1(DeltaNTD)的转录活性是TRbeta1(WT)的两倍，且对T3的EC(50)相似，表明TRbeta1(DeltaNTD)具有功能获得性。与无关对照组相比，白细胞中THRA表达增加了3倍，且不同于RTHbeta患者。结论：这些THRB剪接位点变异导致TRbeta1外显子4跳跃，产生功能获得性突变体TRbeta1(DeltaNTD)。这解释了无RTHbeta的显性ADMD表型，并提示存在TRbeta1功能获得性综合征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42078357/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42078357/",
+  "paper_page_path": "papers/pubmed/42078357/index.html"
+}

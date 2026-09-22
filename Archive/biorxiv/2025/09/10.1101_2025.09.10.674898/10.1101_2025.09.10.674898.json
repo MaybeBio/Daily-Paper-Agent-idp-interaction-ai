@@ -1,0 +1,203 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.09.10.674898",
+  "title": "Condensate-based shells and scaffolds via interfacial liquid-to-solid transition of disordered peptides",
+  "doi": "10.1101/2025.09.10.674898",
+  "abstract": "Living organisms use biomolecular condensates to respond to dynamic environments and create functional materials with complex architectures. Exploring such phase-separated systems beyond the naturally occurring scenarios may offer valuable insights for emergent synthetic biosystems. Here, we report the self-assembly behavior of a short, disordered peptide sequence (termed CT45) derived from a protein present in the bioad-hesive system of tick ectoparasites. We show that CT45 spontaneously accumulates at polar-nonpolar interfaces, and further undergoes liquid-liquid and liquid-to-solid phase transitions to create mechanically stable structures. When encapsulated within vesicles and presented with a stable oil-water interface, CT45 rapidly forms solid shells, which can be reinforced by up-concentrating the material through osmotic imbalance. Unex-pectedly, when presented with a transient acetone-water interface, CT45 condenses at the evaporating interface and forms interconnected, porous mesoscopic scaffolds. The underlying mechanism is found to be the amphiphilic nature of CT45 leading to in-terfacial accumulation, enhancing intermolecular π -based interactions to trigger phase transitions. The micron-sized shells exhibit appreciable mechanical strength and the porous scaffolds present a highly stable platform capable of retaining molecules. In conclusion, the presented condensate-based microscopic and mesoscopic scaffolds hold significance in customizable condensate architectures, with potential applications in biomedical engineering and synthetic biology.",
+  "authors": [
+    "Chen C",
+    "Wang Q",
+    "Jarnot N",
+    "Dijkgraaf I",
+    "Deshpande S"
+  ],
+  "published_date": "2025-09-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.09.10.674898",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.09.10.674898.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1085963",
+    "raw_record": {
+      "id": "PPR1085963",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1085963"
+        ]
+      },
+      "doi": "10.1101/2025.09.10.674898",
+      "title": "Condensate-based shells and scaffolds via interfacial liquid-to-solid transition of disordered peptides",
+      "authorString": "Chen C, Wang Q, Jarnot N, Dijkgraaf I, Deshpande S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chen C",
+            "lastName": "Chen",
+            "firstName": "Chang",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5040-8547"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Physical Chemistry and Soft Matter, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang Q",
+            "lastName": "Wang",
+            "firstName": "Qimeng",
+            "initials": "Q",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Physical Chemistry and Soft Matter, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jarnot N",
+            "lastName": "Jarnot",
+            "firstName": "Nele",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Physical Chemistry and Soft Matter, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dijkgraaf I",
+            "lastName": "Dijkgraaf",
+            "firstName": "Ingrid",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cardiovascular Research Institute Maastricht (CARIM), , ,"
+                },
+                {
+                  "affiliation": "Department of Radiology and Nuclear Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Deshpande S",
+            "lastName": "Deshpande",
+            "firstName": "Siddharth",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7137-8962"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Physical Chemistry and Soft Matter, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5040-8547"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7137-8962"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Living organisms use biomolecular condensates to respond to dynamic environments and create functional materials with complex architectures. Exploring such phase-separated systems beyond the naturally occurring scenarios may offer valuable insights for emergent synthetic biosystems. Here, we report the self-assembly behavior of a short, disordered peptide sequence (termed CT45) derived from a protein present in the bioad-hesive system of tick ectoparasites. We show that CT45 spontaneously accumulates at polar-nonpolar interfaces, and further undergoes liquid-liquid and liquid-to-solid phase transitions to create mechanically stable structures. When encapsulated within vesicles and presented with a stable oil-water interface, CT45 rapidly forms solid shells, which can be reinforced by up-concentrating the material through osmotic imbalance. Unex-pectedly, when presented with a transient acetone-water interface, CT45 condenses at the evaporating interface and forms interconnected, porous mesoscopic scaffolds. The underlying mechanism is found to be the amphiphilic nature of CT45 leading to in-terfacial accumulation, enhancing intermolecular  π -based interactions to trigger phase transitions. The micron-sized shells exhibit appreciable mechanical strength and the porous scaffolds present a highly stable platform capable of retaining molecules. In conclusion, the presented condensate-based microscopic and mesoscopic scaffolds hold significance in customizable condensate architectures, with potential applications in biomedical engineering and synthetic biology.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.09.10.674898"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1085963"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1085963&type=FILE&fileName=EMS208984-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208984",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot"
+        ]
+      },
+      "dateOfCreation": "2025-09-19",
+      "firstPublicationDate": "2025-09-16",
+      "firstIndexDate": "2025-09-19",
+      "fullTextReceivedDate": "2025-09-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "41278538",
+    "doi": "10.1093/nargab/lqaf154",
+    "title": "Seq2Bind webserver for binding site prediction from sequences using fine-tuned protein language models."
+  },
+  "content": {
+    "abstract": "Decoding protein-protein interactions at the residue level is crucial for understanding cellular mechanisms and developing targeted therapeutics. We present Seq2Bind webserver, a computational framework that leverages fine-tuned protein language models (PLMs) to determine binding affinity between proteins and identify critical binding residues directly from sequences, eliminating the structural requirements that limit affinity prediction tools. We fine-tuned four architectures, including ProtBERT, ProtT5, Evolutionary Scale Modeling 2 (ESM2), and Bidirectional Long Short-Term Memory on the SKEMPI 2.0 dataset. Through systematic alanine mutagenesis on each residue for 6063 dimer proteins from Protein Data Bank, we evaluated each model's ability to identify interface residues. Performance was assessed using N-factor metrics, where N-factor = 3 evaluates whether true residues appear within 3n top predictions for n-interface residues. ESM2 achieved 67.4% and ProtBERT 68.2% interface-residue recovery at N-factor = 3. On an independent panel of 14 human health-relevant protein complexes, Seq2Bind outperformed docking and mutation-based baselines, with ESM2 (37.2%) and ProtBERT (35.1%) exceeding the structural docking HADDOCK3 (32.1%) at N-factor = 2. Our sequence-based approach enables rapid screening, handles disordered proteins, and provides comparable accuracy, making Seq2Bind a valuable prior to steer blind docking protocols to identify putative binding residues from each protein for therapeutic targets. Seq2Bind webserver is freely accessible at https://agrivax.onrender.com/seq2bind/scan under StructF-suite.",
+    "keywords": [],
+    "mesh_terms": [
+      "Binding Sites",
+      "Humans",
+      "*Software",
+      "Internet",
+      "*Proteins/chemistry/metabolism/genetics",
+      "Protein Binding",
+      "Databases, Protein",
+      "Molecular Docking Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ma, Xiang",
+        "Dey, Supantha",
+        "Sr, Vaishnavey",
+        "Zelinski, Casey",
+        "Li, Qi",
+        "Chowdhury, Ratul"
+      ],
+      "short_names": [
+        "Ma X",
+        "Dey S",
+        "Sr V",
+        "Zelinski C",
+        "Li Q",
+        "Chowdhury R"
+      ],
+      "auids": [
+        "ORCID: 0009-0003-7857-4688",
+        "ORCID: 0000-0003-4522-6911"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Iowa State University, Ames, IA 50011, United States.",
+        "Department of Chemistry, Grand View University, Des Moines, IA 50316, United States.",
+        "Department of Chemical and Biological Engineering, Iowa State University, Ames, IA 50011, United States.",
+        "Department of Chemical and Biological Engineering, Iowa State University, Ames, IA 50011, United States.",
+        "Department of Chemical and Biological Engineering, Iowa State University, Ames, IA 50011, United States.",
+        "Department of Computer Science, Iowa State University, Ames, IA 50011, United States.",
+        "Department of Chemical and Biological Engineering, Iowa State University, Ames, IA 50011, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ma, Xiang",
+        "short_name": "Ma X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Iowa State University, Ames, IA 50011, United States.",
+          "Department of Chemistry, Grand View University, Des Moines, IA 50316, United States."
+        ]
+      },
+      {
+        "full_name": "Dey, Supantha",
+        "short_name": "Dey S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Iowa State University, Ames, IA 50011, United States."
+        ]
+      },
+      {
+        "full_name": "Sr, Vaishnavey",
+        "short_name": "Sr V",
+        "identifiers": [
+          "0009-0003-7857-4688"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Iowa State University, Ames, IA 50011, United States."
+        ]
+      },
+      {
+        "full_name": "Zelinski, Casey",
+        "short_name": "Zelinski C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Iowa State University, Ames, IA 50011, United States."
+        ]
+      },
+      {
+        "full_name": "Li, Qi",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Iowa State University, Ames, IA 50011, United States."
+        ]
+      },
+      {
+        "full_name": "Chowdhury, Ratul",
+        "short_name": "Chowdhury R",
+        "identifiers": [
+          "0000-0003-4522-6911"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Iowa State University, Ames, IA 50011, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "NAR genomics and bioinformatics"
+    ],
+    "journal_abbrev": [
+      "NAR Genom Bioinform"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/24 12:38",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [
+      "42489519"
+    ],
+    "refs": [],
+    "similar": [
+      "41278538",
+      "39576586",
+      "31746034",
+      "40343467",
+      "27914049",
+      "38842509",
+      "40421660",
+      "22194998",
+      "41088767",
+      "39660955",
+      "27122118",
+      "38987476",
+      "33963854",
+      "27108770",
+      "25902779",
+      "23761453",
+      "40158838",
+      "31994759",
+      "40678486",
+      "40455005",
+      "39693053",
+      "39121938",
+      "40601254",
+      "26509288",
+      "29092940",
+      "21575183",
+      "29741647",
+      "25797794",
+      "24753427",
+      "28236233",
+      "40826564",
+      "40742755",
+      "33693482",
+      "32323374",
+      "28334258",
+      "41051642",
+      "40806259",
+      "37140058",
+      "29746661",
+      "41319044",
+      "27131368",
+      "40728618",
+      "40874821",
+      "30329012",
+      "40919912",
+      "41018952",
+      "27654025",
+      "38078680",
+      "28541224",
+      "20839234",
+      "39237735",
+      "31270654",
+      "20858292",
+      "27914057",
+      "34415020",
+      "31510679",
+      "19102736",
+      "26776208",
+      "40811181",
+      "39456153",
+      "38871095",
+      "40662779",
+      "27976886",
+      "31106357",
+      "31808797",
+      "20522253",
+      "27172383",
+      "22233443",
+      "38662579",
+      "32170770",
+      "38987464",
+      "40662794",
+      "30536635",
+      "39478454",
+      "31263275",
+      "40441416",
+      "39237205",
+      "32144844",
+      "25969449",
+      "19356223",
+      "39304807",
+      "38987467",
+      "21861881",
+      "40337922",
+      "27802576",
+      "19165315",
+      "22958278",
+      "28132027",
+      "38686803",
+      "40601266",
+      "40795239",
+      "24763918",
+      "39198457",
+      "40077987",
+      "31114883",
+      "24058518",
+      "32621227",
+      "26824420",
+      "32483825",
+      "20377884"
+    ],
+    "review": [
+      "41278538",
+      "25797794",
+      "28334258"
+    ],
+    "pmc": [
+      "12639246"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41278538/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nargab/article-lookup/doi/10.1093/nargab/lqaf154",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

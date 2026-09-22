@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and conclusions as presented in the manuscript
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations with an IDP-specific force field (ff14IDPSFF) to show that the N-terminus of VDAC is intrinsically disordered, and that its disordered properties are critical for the channel's gating mechanism, specifically through partial unfolding and rearrangement leading to steric pore blockage in subconducting states.
+- **Visible evidence base** Abstract, Introduction, Results, Discussion, Materials and Methods, figure captions referenced in text, supporting information references
+- **Missing materials affecting confidence** Figures, tables, and supporting information files (S1-S10 Figs, S1-S3 Tables, S1-S7 Videos) are referenced but not provided; experimental data from cited references (e.g., Teijido et al., De Pinto et al.) are not directly accessible
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question regarding the role of the intrinsically disordered N-terminus of VDAC in channel gating. The authors combine multiple simulation approaches (standard MD, aMD, GCMC/BD) with a force field specifically designed for disordered proteins, and they attempt to connect their findings to existing experimental data. The work is potentially significant, as it offers a molecular-level mechanism for VDAC closure that does not require large-scale conformational changes of the N-terminus. However, the manuscript has several technical and conceptual issues that need to be addressed before the conclusions can be considered fully supported. The reliance on a single trajectory per condition for the aMD simulations, the lack of convergence analysis for the biased simulations, and the indirect connection between simulated subconducting states and experimentally observed closed states are major concerns. The comparison between force fields for the free peptide is well-executed and provides a clear demonstration of the importance of using IDP-specific parameters, but the extension to the full channel system requires more rigorous validation.
+- **Who would be interested in the results, and why** Researchers in the fields of membrane protein biophysics, mitochondrial biology, and intrinsically disordered proteins would find this work of interest. The study provides a potential mechanism for VDAC gating that could inform understanding of mitochondrial physiology and pathology. Additionally, the methodological comparison between force fields for disordered peptides is relevant to the computational biophysics community. The findings may also be of interest to those studying apoptosis and mitochondrial dysfunction in disease contexts.
+- **Major strengths** The manuscript addresses a significant and unresolved question in VDAC biology. The use of an IDP-specific force field is well-justified and the comparison with a standard force field for the free peptide is a clear and convincing demonstration of the importance of force field choice. The authors make a good effort to connect their simulations to experimental observations, including chemical shifts and conductance measurements. The identification of specific metastable subconducting states with structural correlates is a valuable contribution. The writing is generally clear and the logical flow from peptide to full channel is well-structured.
+- **Major Concerns**
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Technical soundness
+- **Claim pointer** The claim that aMD simulations at +40 mV and −40 mV reveal metastable low-conducting states representative of experimentally observed closed states.
+- **Evidence pointer** Results section "The N-terminus in VDAC", "Closed state(s)", Figures 5-7, S5-S6 Figs, S2 Table
+- **Concern** The aMD simulations were performed with only one trajectory per voltage condition (0 mV, +40 mV, −40 mV). This is a severe limitation for a method that is inherently stochastic and designed to explore rare events. The observation of a subconducting state at +40 mV but not at −40 mV could be due to sampling variability rather than a genuine voltage-dependent effect. The authors do not provide any measure of run-to-run variability or statistical confidence in their results. Furthermore, the reweighting procedure for aMD (Eqs 4-5) is known to be sensitive to the order of the Maclaurin expansion, and the authors do not demonstrate convergence of their reweighted averages with respect to this parameter.
+- **Why it matters** The central conclusion of the paper, that the disordered N-terminus is critical for gating, rests on the identification of these metastable states. Without multiple independent trajectories or some form of error analysis, it is impossible to determine whether the observed behavior is robust or a stochastic artifact of a single trajectory. The lack of convergence analysis for the aMD reweighting further undermines confidence in the quantitative estimates of conductance and ion selectivity.
+- **Resolution test** The authors should perform multiple independent aMD simulations (at least 3-5) for each voltage condition and demonstrate that the observed subconducting states are reproducibly sampled. They should also provide a convergence analysis of the reweighted averages, e.g., by plotting the running average of conductance as a function of simulation time and by testing different orders of the Maclaurin expansion in Eq 5.
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Technical soundness
+- **Claim pointer** The claim that the GCMC/BD simulations performed on aMD-generated structures provide reliable estimates of conductance and ion selectivity for the subconducting states.
+- **Evidence pointer** Results section "Closed state(s)", Materials and Methods "GCMC/BD", Figures 5-6, S6 Fig
+- **Concern** The GCMC/BD method, as implemented here, treats the protein and membrane as fixed dielectric continua and only simulates ions explicitly. This is a significant approximation that may not capture the dynamic and electrostatic complexity of the VDAC pore, particularly in the presence of a partially unfolded, highly charged N-terminus. The authors do not validate their GCMC/BD protocol against the known conductance of the open state (they report 0.918 nS vs. experimental 0.81 nS, a ~13% error) and do not discuss the limitations of this approach for the subconducting states. Furthermore, the choice of a single voltage for each GCMC/BD run (+40 mV for frames from +40 mV and 0 mV trajectories, −40 mV for frames from −40 mV trajectory) is not justified and may introduce bias.
+- **Why it matters** The quantitative estimates of conductance and ion selectivity are used to support the claim that the identified states are indeed subconducting and representative of closed states. If the GCMC/BD method is not reliable for these systems, the entire argument is weakened. The lack of validation and the known approximations of the method make the quantitative results questionable.
+- **Resolution test** The authors should validate their GCMC/BD protocol more thoroughly, e.g., by comparing predicted conductance of the open state across a range of voltages and ion concentrations with experimental data. They should also test the sensitivity of their results to the choice of dielectric constants and other parameters. Ideally, they should perform at least one all-atom MD simulation with explicit ions to directly compute conductance for a representative subconducting state and compare with the GCMC/BD prediction.
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** No
+- **Axis** Scientific importance
+- **Claim pointer** The claim that the disordered properties of the N-terminus are "critical" to account for the gating mechanism of VDAC.
+- **Evidence pointer** Abstract, Discussion
+- **Concern** While the authors demonstrate that the N-terminus can adopt disordered conformations that lead to pore obstruction, they do not provide direct evidence that this is the primary or essential mechanism of gating in vivo. The experiments by Teijido et al. showed that locking the N-terminus via a disulfide bond does not abolish gating, which the authors interpret as consistent with their model. However, this does not exclude other mechanisms, such as voltage-induced changes in the β-barrel itself or interactions with other mitochondrial proteins. The authors' statement that the disordered properties are "critical" is an overstatement based on the evidence presented.
+- **Why it matters** The significance of the work depends on the claim that the disordered N-terminus is essential for gating. If other mechanisms are equally or more important, the impact of the study is reduced. The authors should temper their conclusions and acknowledge alternative possibilities.
+- **Resolution test** The authors should either provide additional evidence that the disordered N-terminus is necessary and sufficient for gating (e.g., by simulating a mutant with a more rigid N-terminus and showing loss of gating) or revise their conclusions to be more cautious, stating that the disordered properties contribute to gating rather than being critical.
+- **Concern ID** R1-M4
+- **Severity** Major
+- **Blocking** No
+- **Axis** Technical soundness
+- **Claim pointer** The claim that the IDP-specific force field (ff14IDPSFF) is necessary to properly sample the conformational landscape of the N-terminus, based on the comparison with ff14SB for the free peptide.
+- **Evidence pointer** Results section "The N-terminus in VDAC", Figure 2, S1-S3 Figs
+- **Concern** The comparison between ff14SB and ff14IDPSFF for the free peptide is convincing, but the authors do not address the potential limitations of applying ff14IDPSFF to the full VDAC system, where the N-terminus is in a confined, membrane-embedded environment. The force field was parameterized for isolated disordered proteins and may not accurately capture interactions with lipids or the β-barrel. The authors also do not compare their results with other IDP-specific force fields (e.g., CHARMM36m) to demonstrate that their findings are not force-field-specific.
+- **Why it matters** The conclusions about the disordered nature of the N-terminus and its role in gating depend on the accuracy of the force field. If ff14IDPSFF is not appropriate for the full channel system, the results may be artifacts. The lack of comparison with other force fields makes it difficult to assess the robustness of the findings.
+- **Resolution test** The authors should perform at least one additional simulation of the full VDAC system with a different IDP-capable force field (e.g., CHARMM36m) and show that the key findings (e.g., unfolding of the 310-helix, formation of subconducting states) are reproduced. They should also discuss the potential limitations of applying ff14IDPSFF to membrane proteins.
+- **Minor Comments**
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Readability for nonspecialists
+- **Affected element** Introduction, Discussion
+- **Evidence pointer** Introduction, Discussion
+- **Issue** The manuscript assumes a high level of familiarity with VDAC biophysics and simulation techniques. Terms like "aMD," "GCMC/BD," and "310-helix" are used without sufficient explanation for a general reader.
+- **Required correction** Provide brief definitions or explanations of these terms when first introduced, and consider adding a short paragraph in the Introduction explaining the basics of VDAC gating and the relevance of disordered proteins.
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Technical soundness
+- **Affected element** Materials and Methods, Results
+- **Evidence pointer** Materials and Methods "Production MD (channel)", Results "Closed state(s)"
+- **Issue** The manuscript states that "standard MD tends to overestimate the diffusion coefficient of ions in explicit solvent" and applies a multiplicative correction factor. However, the derivation and validation of this factor are not described in detail, and it is unclear how sensitive the results are to this correction.
+- **Required correction** Provide more detail on how the correction factor was derived and validated, and include a sensitivity analysis showing how the predicted currents change if the factor is varied within a reasonable range.
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Scientific importance
+- **Affected element** Discussion
+- **Evidence pointer** Discussion
+- **Issue** The authors mention that the exact role of the membrane potential in channel closure is "still to be determined," but they do not discuss how their findings might inform future experimental studies to address this question.
+- **Required correction** Add a brief paragraph in the Discussion suggesting specific experimental tests of their model, such as mutations that would alter the disorder propensity of the N-terminus or FRET-based assays to monitor N-terminal dynamics during gating.
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Technical soundness
+- **Affected element** Results, Materials and Methods
+- **Evidence pointer** Results "The N-terminus in VDAC", Materials and Methods "Structure preparation (channel)"
+- **Issue** The authors state that the E73 residue was kept in its unprotonated form, but the pKa of this residue in the membrane environment is not discussed. The protonation state of ionizable residues can significantly affect electrostatic interactions and ion permeation.
+- **Required correction** Justify the choice of protonation state for E73 and other ionizable residues in the pore, possibly by performing constant-pH MD or pKa calculations.
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Readability for nonspecialists
+- **Affected element** Abstract, Results
+- **Evidence pointer** Abstract, Results "The N-terminus in VDAC"
+- **Issue** The abstract states that the N-terminus is "intrinsically disordered" but does not define what this means in the context of a membrane protein. The Results section also uses terms like "310-helix" without explanation.
+- **Required correction** Briefly define "intrinsically disordered region" and "310-helix" in the abstract or introduction, and ensure all technical terms are defined at first use.
+
+## Risk / unsupported claims
+- The claim that the N-terminus of VDAC is intrinsically disordered is supported by the simulation of the free peptide with ff14IDPSFF and the comparison with experimental chemical shifts, but the extension of this claim to the full channel is based on a single 650-ns MD simulation and requires more evidence.
+- The claim that the identified subconducting states are representative of experimentally observed closed states is not fully supported, as the GCMC/BD method has known limitations and the aMD simulations lack statistical rigor.
+- The claim that the disordered properties of the N-terminus are "critical" for gating is an overstatement; the evidence supports a contributory role but does not exclude other mechanisms.
+- The quantitative estimates of conductance and ion selectivity for the subconducting states are based on a method (GCMC/BD) that has not been fully validated for this system and may be subject to significant errors.
+- The role of the membrane potential in the gating mechanism is acknowledged as unresolved, but the authors do not provide a clear framework for how their model could be tested experimentally to address this question.

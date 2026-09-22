@@ -1,0 +1,365 @@
+{
+  "identity": {
+    "pmid": "42098939",
+    "doi": "10.1093/molbev/msag119",
+    "title": "Orthologs of an essential orphan gene vary in their capacities for function and subcellular localization in Drosophila melanogaster."
+  },
+  "content": {
+    "abstract": "Orphan genes evolve rapidly, raising questions about whether their functions remain conserved or diverge across species. To address this, we investigated goddard (gdrd), an orphan gene essential for spermatogenesis in Drosophila melanogaster. Within the Drosophila genus, Gdrd proteins retain a conserved core structure but display substantial variation in length and primary sequence. Here we perform cross-species gene swap assays in D. melanogaster testes to examine how these lineage-specific changes affect Gdrd function. Strikingly, the highly divergent D. mojavensis ortholog fully rescues fertility in gdrd null flies, suggesting that ancestral Gdrd acted within a conserved spermatogenesis pathway. By contrast, several orthologs, including one from a more closely related species, cannot substitute for the melanogaster gene. Cytological analysis shows that all divergent Gdrd orthologs retain some ability to interact with axonemes and ring centrioles, consistent with the protein's structural conservation, but many noncomplementing orthologs display weaker axonemal binding. Furthermore, all tested orthologs exhibit divergent localizations to organellar structures. Using computational analyses and molecular dynamics simulations, we identified intrinsic protein qualities that may account for several observations made in the gene swap assays. Rescuing orthologs bear motifs with shared physicochemical properties in their intrinsically disordered regions, while nonrescuing variants exhibit structural instabilities. Taken together, these findings show that while Gdrd's ancestral structure and interactions are conserved, several orthologs have undergone lineage-specific evolutionary changes.",
+    "keywords": [
+      "Drosophila",
+      "new gene evolution",
+      "orphan gene",
+      "spermatogenesis"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Drosophila melanogaster/genetics/metabolism",
+      "*Drosophila Proteins/genetics/metabolism",
+      "Male",
+      "Spermatogenesis/genetics",
+      "Evolution, Molecular",
+      "Testis/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Patel, Prajal H",
+        "Eicholt, Lars A",
+        "Lange, Andreas",
+        "McDermott, Kerry L",
+        "Bornberg-Bauer, Erich",
+        "Findlay, Geoffrey D"
+      ],
+      "short_names": [
+        "Patel PH",
+        "Eicholt LA",
+        "Lange A",
+        "McDermott KL",
+        "Bornberg-Bauer E",
+        "Findlay GD"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-9368-4751",
+        "ORCID: 0000-0002-3985-3698",
+        "ORCID: 0000-0003-3871-1986",
+        "ORCID: 0009-0000-3628-1746",
+        "ORCID: 0000-0002-1826-3576",
+        "ORCID: 0000-0001-8052-2017"
+      ],
+      "affiliations": [
+        "Department of Biology, College of the Holy Cross, Worcester, MA 01610, USA.",
+        "Institute for Evolution and Biodiversity, University of Muenster, Huefferstrasse 1, Muenster, NRW 48149, Germany.",
+        "Institute for Evolution and Biodiversity, University of Muenster, Huefferstrasse 1, Muenster, NRW 48149, Germany.",
+        "Department of Biology, College of the Holy Cross, Worcester, MA 01610, USA.",
+        "Institute for Evolution and Biodiversity, University of Muenster, Huefferstrasse 1, Muenster, NRW 48149, Germany.",
+        "Department of Protein Evolution, Max-Planck Institute for Biology, Max-Planck-Ring 5, Tuebingen, BW 72076, Germany.",
+        "Department of Biology, College of the Holy Cross, Worcester, MA 01610, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Patel, Prajal H",
+        "short_name": "Patel PH",
+        "identifiers": [
+          "0009-0004-9368-4751"
+        ],
+        "affiliations": [
+          "Department of Biology, College of the Holy Cross, Worcester, MA 01610, USA."
+        ]
+      },
+      {
+        "full_name": "Eicholt, Lars A",
+        "short_name": "Eicholt LA",
+        "identifiers": [
+          "0000-0002-3985-3698"
+        ],
+        "affiliations": [
+          "Institute for Evolution and Biodiversity, University of Muenster, Huefferstrasse 1, Muenster, NRW 48149, Germany."
+        ]
+      },
+      {
+        "full_name": "Lange, Andreas",
+        "short_name": "Lange A",
+        "identifiers": [
+          "0000-0003-3871-1986"
+        ],
+        "affiliations": [
+          "Institute for Evolution and Biodiversity, University of Muenster, Huefferstrasse 1, Muenster, NRW 48149, Germany."
+        ]
+      },
+      {
+        "full_name": "McDermott, Kerry L",
+        "short_name": "McDermott KL",
+        "identifiers": [
+          "0009-0000-3628-1746"
+        ],
+        "affiliations": [
+          "Department of Biology, College of the Holy Cross, Worcester, MA 01610, USA."
+        ]
+      },
+      {
+        "full_name": "Bornberg-Bauer, Erich",
+        "short_name": "Bornberg-Bauer E",
+        "identifiers": [
+          "0000-0002-1826-3576"
+        ],
+        "affiliations": [
+          "Institute for Evolution and Biodiversity, University of Muenster, Huefferstrasse 1, Muenster, NRW 48149, Germany.",
+          "Department of Protein Evolution, Max-Planck Institute for Biology, Max-Planck-Ring 5, Tuebingen, BW 72076, Germany."
+        ]
+      },
+      {
+        "full_name": "Findlay, Geoffrey D",
+        "short_name": "Findlay GD",
+        "identifiers": [
+          "0000-0001-8052-2017"
+        ],
+        "affiliations": [
+          "Department of Biology, College of the Holy Cross, Worcester, MA 01610, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biology and evolution"
+    ],
+    "journal_abbrev": [
+      "Mol Biol Evol"
+    ],
+    "pub_date": "2026 May 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/08 06:32",
+    "fetched_at": "2026-09-18 03:06:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41606234",
+      "41051215",
+      "41042101",
+      "40394196",
+      "40100159",
+      "39952269",
+      "39903197",
+      "39817990",
+      "39491810",
+      "39383002",
+      "39212966",
+      "39088850",
+      "38934893",
+      "38753069",
+      "38597156",
+      "38478605",
+      "38280868",
+      "38226524",
+      "38000384",
+      "37367481",
+      "37113259",
+      "37092778",
+      "37078652",
+      "37035752",
+      "37024625",
+      "37011142",
+      "35900020",
+      "35714266",
+      "35671504",
+      "35643081",
+      "34478447",
+      "34265844",
+      "33712569",
+      "33616531",
+      "33567396",
+      "33350936",
+      "33299178",
+      "33210146",
+      "33069007",
+      "33032406",
+      "32939066",
+      "32881101",
+      "32253450",
+      "32034123",
+      "32015543",
+      "31411026",
+      "30484924",
+      "30250771",
+      "30201962",
+      "29133927",
+      "28515211",
+      "28387841",
+      "28355220",
+      "28104747",
+      "27245157",
+      "27225128",
+      "26615687",
+      "25795211",
+      "24554240",
+      "24473184",
+      "23348040",
+      "23087837",
+      "22743772",
+      "22728433",
+      "22722833",
+      "21988835",
+      "21878963",
+      "21698757",
+      "21482101",
+      "20798392",
+      "19933102",
+      "19716618",
+      "18477397",
+      "16079329",
+      "15226257",
+      "14525923",
+      "11606536",
+      "10195279",
+      "9254694",
+      "7739381",
+      "2279698"
+    ],
+    "similar": [
+      "42098939",
+      "28104747",
+      "39903197",
+      "17616977",
+      "24321690",
+      "20442204",
+      "31269894",
+      "14525923",
+      "24098788",
+      "21912646",
+      "41042101",
+      "39566185",
+      "40802929",
+      "39903807",
+      "36763410",
+      "39480878",
+      "24221639",
+      "41781751",
+      "23850633",
+      "37465843",
+      "19893611",
+      "42411604",
+      "35714266",
+      "26621383",
+      "42475469",
+      "33734578",
+      "31482645",
+      "21366928",
+      "24416303",
+      "29934734",
+      "30679029",
+      "20694743",
+      "9666090",
+      "15693940",
+      "22429626",
+      "31991034",
+      "39149251",
+      "34181646",
+      "8070663",
+      "42353202",
+      "18505872",
+      "28539513",
+      "35327978",
+      "16385159",
+      "21570388",
+      "39991973",
+      "22457639",
+      "24055424",
+      "21203494",
+      "38703942",
+      "36595500",
+      "25251222",
+      "17989258",
+      "16409380",
+      "34877887",
+      "20015359",
+      "31187122",
+      "20637846",
+      "17452244",
+      "12574866",
+      "21339509",
+      "38341921",
+      "32421706",
+      "22984601",
+      "15330865",
+      "42475638",
+      "30249207",
+      "37259670",
+      "16357040",
+      "38280868",
+      "9111363",
+      "31188709",
+      "22199351",
+      "31687931",
+      "39187660",
+      "15554877",
+      "40275032",
+      "24556521",
+      "33184220",
+      "8389031",
+      "12756170",
+      "26349247",
+      "39920336",
+      "18715504",
+      "16762337",
+      "33712569",
+      "15632085",
+      "24942624",
+      "11319264",
+      "18752680",
+      "25405891",
+      "28094344",
+      "26691840",
+      "19309003",
+      "39739532",
+      "24407548",
+      "19638420",
+      "8111973",
+      "11814692",
+      "23229314"
+    ],
+    "review": [
+      "42098939",
+      "40802929"
+    ],
+    "pmc": [
+      "13195035"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=42098939",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42098939/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msag119",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

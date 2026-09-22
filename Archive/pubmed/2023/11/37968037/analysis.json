@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37968037",
+  "title": "Computational modeling of protein-carbohydrate interactions: Current trends and future challenges.",
+  "authors": "Perez, Serge",
+  "journal": "Advances in carbohydrate chemistry and biochemistry",
+  "published_date": "2023-11-16",
+  "window": {
+    "start": "2023-11-13",
+    "end": "2023-11-19"
+  },
+  "score": 5,
+  "one_liner_zh": "综述计算建模在蛋白-糖类互作中的现状与趋势，提及深度学习等方法和IDP-糖类互作探索，但非聚焦IDP-PPI机制建模。",
+  "abstract": "The article leads the reader through an up-to-date presentation of the concepts, developments, and main applications of computational modeling to study protein-carbohydrate interactions. It follows with the presentation of some current issues and perspectives arising from the expected evolution of generic methodological developments in deep learning, immersive analytics, and virtual reality for molecular visualization and data management. Such methodological developments for macromolecular interactions would greatly benefit a wide range of scientific endeavors in the field of carbohydrate chemistry and biochemistry, including the following interrelated efforts dealing with highly crowded media, with examples concerning glycoside transferases, the extracellular matrix, and the exploration of interactions between complex carbohydrates and intrinsically disordered proteins.",
+  "abstract_zh": "本文引导读者了解计算建模研究蛋白质-碳水化合物相互作用的概念、进展及主要应用的最新呈现。随后，文章介绍了深度学习、沉浸式分析和虚拟现实在分子可视化与数据管理方面通用方法论发展的预期演进所引发的一些当前问题与展望。这些针对大分子相互作用的方法论发展将极大惠及碳水化合物化学与生物化学领域的广泛科学探索，包括以下相互关联的研究工作，涉及高度拥挤介质，并举例说明糖基转移酶、细胞外基质，以及复杂碳水化合物与 intrinsically disordered proteins（固有无序蛋白质）之间相互作用的探索。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37968037/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37968037/",
+  "paper_page_path": "papers/pubmed/37968037/index.html"
+}

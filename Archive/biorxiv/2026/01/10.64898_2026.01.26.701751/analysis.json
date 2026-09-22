@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.26.701751",
+  "title": "The sequence context of RG/RGG motifs determines condensate formation, transportin-1 binding and chaperoning",
+  "authors": "Usluer S; Khanna Y; Hutten S; Kolarić Đ; Bourgeois B; Pritišanac I; Dormann D; Madl T",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-26",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文系统研究无序RG/RGG基序的序列组成如何决定凝聚体形成、transportin-1结合及分子伴侣功能，对象为IDR且涉及PPI，但方法以生物信息学与实验为主，缺乏AI或物理模拟建模，故评7分。",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically disordered arginine-glycine-rich (RG/RGG) regions are highly abundant in the eukaryotic proteome. Proteins containing these motifs participate in fundamental cellular processes, including nuclear import, transcriptional regulation, biomolecular condensate formation, and apoptosis. Mutations or dysfunction of RG/RGG proteins have been implicated in neurodegenerative diseases and cancer. Although some RG/RGG proteins have been shown to drive condensate formation, localize to membrane-less organelles, interact with nuclear import receptors, or undergo arginine methylation, these properties are not shared uniformly across the proteome. The considerable diversity in RG/RGG motif length and amino acid composition raises the question of which sequence features determine their functional behaviour. To address this, we conducted a systematic bioinformatics and experimental analysis, combining synthetic and natural peptides with studies on the RNA-binding protein FUS as a model system. Our results reveal that the sequence composition of RG/RGG motifs is a key determinant of their capacity for RNA-mediated condensate formation, stress granule recruitment, and transportin-1–mediated chaperoning and nuclear import. These findings provide new insight into the sequence grammar of disordered RG/RGG regions and how it encodes the multifunctionality of these proteins in cellular regulation.",
+  "abstract_zh": "<h4>摘要</h4> 真核蛋白质组中富含 intrinsically disordered 的精氨酸-甘氨酸富集（RG/RGG）区域。含有这些基序的蛋白质参与基本细胞过程，包括核输入、转录调控、生物分子凝聚体形成和细胞凋亡。RG/RGG 蛋白的突变或功能障碍与神经退行性疾病和癌症相关。尽管已显示某些 RG/RGG 蛋白能驱动凝聚体形成、定位于无膜细胞器、与核输入受体相互作用或经历精氨酸甲基化，但这些特性并非在蛋白质组中均匀共享。RG/RGG 基序长度和氨基酸组成存在显著多样性，这引发了一个问题：哪些序列特征决定其功能行为。为解决此问题，我们进行了系统的生物信息学和实验分析，结合合成及天然肽段，并以 RNA 结合蛋白 FUS 作为模型系统进行研究。我们的结果表明，RG/RGG 基序的序列组成是决定其 RNA 介导凝聚体形成、应激颗粒募集以及 transportin-1 介导的分子伴侣作用和核输入能力的关键因素。这些发现为无序 RG/RGG 区域的序列语法及其如何编码这些蛋白在细胞调控中的多功能性提供了新见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.26.701751",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.26.701751",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.26.701751/index.html"
+}

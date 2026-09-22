@@ -1,0 +1,175 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.04.25.591103",
+  "title": "A complete map of specificity encoding enables reprogramming of a protein interaction",
+  "doi": "10.1101/2024.04.25.591103",
+  "abstract": "The human genome encodes the affinities and specificities of >half a million molecular interactions. Changes in specificity drive evolution, disease and therapeutic efficacy, but how specificity is encoded and reprogrammed is not well understood. Here we present a complete map of the encoding of specificity in a protein sequence and how mutations quantitatively interact to reprogram binding. By measuring >200,000 energetic interactions we identify 17 major sites that directly and allosterically encode the specificity for six sites in a ligand. Combining mutations allows specificity for all six sites to be simultaneously re-programmed. However, binding reprogramming is not fully independent, with energetic couplings within both the protein and ligand required to accurately predict binding. This approach of measuring the specificities of thousands of proteins in a single experiment will allow many different types of molecular interaction to be understood and interpretably reprogrammed. <h4>Highlights</h4> Massively parallel quantification of >200,000 energetic couplings between mutations in a protein and its ligand. Specificity is directly and allosterically encoded in 17 sites for six positions in the ligand. Specificity for all six sites can be simultaneously re-programmed with accurate binding scores for >150,000 intermediately reprogrammed variants. Accurate binding prediction requires energetic interactions between the protein and ligand and within both the protein and ligand.",
+  "authors": [
+    "Zarin T",
+    "Hidalgo-Carcedo C",
+    "Lehner B"
+  ],
+  "published_date": "2024-04-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.04.25.591103",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.04.25.591103.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR843158",
+    "raw_record": {
+      "id": "PPR843158",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR843158"
+        ]
+      },
+      "doi": "10.1101/2024.04.25.591103",
+      "title": "A complete map of specificity encoding enables reprogramming of a protein interaction",
+      "authorString": "Zarin T, Hidalgo-Carcedo C, Lehner B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zarin T",
+            "lastName": "Zarin",
+            "firstName": "Taraneh",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hidalgo-Carcedo C",
+            "lastName": "Hidalgo-Carcedo",
+            "firstName": "Cristina",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lehner B",
+            "lastName": "Lehner",
+            "firstName": "Ben",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The human genome encodes the affinities and specificities of >half a million molecular interactions. Changes in specificity drive evolution, disease and therapeutic efficacy, but how specificity is encoded and reprogrammed is not well understood. Here we present a complete map of the encoding of specificity in a protein sequence and how mutations quantitatively interact to reprogram binding. By measuring >200,000 energetic interactions we identify 17 major sites that directly and allosterically encode the specificity for six sites in a ligand. Combining mutations allows specificity for all six sites to be simultaneously re-programmed. However, binding reprogramming is not fully independent, with energetic couplings within both the protein and ligand required to accurately predict binding. This approach of measuring the specificities of thousands of proteins in a single experiment will allow many different types of molecular interaction to be understood and interpretably reprogrammed. <h4>Highlights</h4>  Massively parallel quantification of >200,000 energetic couplings between mutations in a protein and its ligand. Specificity is directly and allosterically encoded in 17 sites for six positions in the ligand. Specificity for all six sites can be simultaneously re-programmed with accurate binding scores for >150,000 intermediately reprogrammed variants. Accurate binding prediction requires energetic interactions between the protein and ligand and within both the protein and ligand.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "220540",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "883742",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.04.25.591103"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR843158"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR843158&type=FILE&fileName=EMS195772-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS195772",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-04-27",
+      "firstPublicationDate": "2024-04-25",
+      "firstIndexDate": "2024-04-27",
+      "fullTextReceivedDate": "2025-12-12",
+      "hasEvaluations": "Y"
+    }
+  }
+}

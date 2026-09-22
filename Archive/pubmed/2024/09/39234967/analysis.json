@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39234967",
+  "title": "Anisotropic coarse-grain Monte Carlo simulations of lysozyme, lactoferrin, and NISTmAb by precomputing atomistic models.",
+  "authors": "Hatch, Harold W; Bergonzo, Christina; Blanco, Marco A; Yuan, Guangcui; Grudinin, Sergei; Lund, Mikael; Curtis, Joseph E; Grishaev, Alexander V; Liu, Yun; Shen, Vincent K",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2024-09-05",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了基于预计算原子模型的多尺度各向异性粗粒化蒙特卡洛方法，模拟抗体等蛋白的高浓度相分离/聚集行为，虽对象非IDP，但其粗粒化互作建模思路对无序蛋白介导的PPI机制模拟有可迁移启发。",
+  "abstract": "We develop a multiscale coarse-grain model of the NIST Monoclonal Antibody Reference Material 8671 (NISTmAb) to enable systematic computational investigations of high-concentration physical instabilities such as phase separation, clustering, and aggregation. Our multiscale coarse-graining strategy captures atomic-resolution interactions with a computational approach that is orders of magnitude more efficient than atomistic models, assuming the biomolecule can be decomposed into one or more rigid bodies with known, fixed structures. This method reduces interactions between tens of thousands of atoms to a single anisotropic interaction site. The anisotropic interaction between unique pairs of rigid bodies is precomputed over a discrete set of relative orientations and stored, allowing interactions between arbitrarily oriented rigid bodies to be interpolated from the precomputed table during coarse-grained Monte Carlo simulations. We present this approach for lysozyme and lactoferrin as a single rigid body and for the NISTmAb as three rigid bodies bound by a flexible hinge with an implicit solvent model. This coarse-graining strategy predicts experimentally measured radius of gyration and second osmotic virial coefficient data, enabling routine Monte Carlo simulation of medically relevant concentrations of interacting proteins while retaining atomistic detail. All methodologies used in this work are available in the open-source software Free Energy and Advanced Sampling Simulation Toolkit.",
+  "abstract_zh": "我们开发了一种针对NIST单克隆抗体参考物质8671（NISTmAb）的多尺度粗粒化模型，以支持对高浓度物理不稳定性（如相分离 (phase separation)、聚集 (clustering) 和团聚 (aggregation)）的系统计算研究。我们的多尺度粗粒化策略捕捉原子级分辨率的相互作用，其计算效率比原子模型高出数个数量级，前提是假设生物分子可分解为一个或多个具有已知固定结构的刚体。该方法将数万个原子间的相互作用简化为单一的各向异性相互作用位点。独特刚体对之间的各向异性相互作用在离散的相对取向集合上预先计算并存储，从而在粗粒化蒙特卡洛 (Monte Carlo) 模拟过程中，可通过预计算表对任意取向的刚体间相互作用进行插值。我们以溶菌酶 (lysozyme) 和乳铁蛋白 (lactoferrin) 作为单一刚体，以及NISTmAb作为由柔性铰链连接、采用隐式溶剂模型的三个刚体，展示了这一方法。该粗粒化策略预测了实验测得的回转半径和第二渗透维里系数数据，使得在保留原子细节的同时，能够对医学相关浓度的相互作用蛋白进行常规蒙特卡洛模拟。本工作中使用的所有方法均可在开源软件自由能与高级采样模拟工具包 (Free Energy and Advanced Sampling Simulation Toolkit) 中获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39234967/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39234967/",
+  "paper_page_path": "papers/pubmed/39234967/index.html"
+}

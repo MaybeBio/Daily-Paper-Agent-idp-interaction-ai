@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39815790",
+  "title": "A Combined Approach to Extract Rotational Dynamics of Globular Proteins Undergoing Liquid-Liquid Phase Separation.",
+  "authors": "Gendreizig, Dominik; Kalarikkal, Abhishek; Holtbrugge, Simon L; Mukherjee, Saumyak; Galazzo, Laura; Kucher, Svetlana; Rosspeintner, Arnulf; Schafer, Lars V; Bordignon, Enrica",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-01-16",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文结合MD模拟与EPR/荧光实验，研究γD-晶状体蛋白在液-液相分离凝聚体中的旋转扩散动力学，虽对象为折叠蛋白而非无序蛋白，但聚焦LLPS凝聚体中的蛋白动态与相互作用环境，其MD-实验联用策略对IDR介导互作机制建模有可迁移启发。",
+  "abstract": "The formation of protein condensates (droplets) via liquid-liquid phase separation (LLPS) is a commonly observed phenomenon in vitro. Changing the environmental properties with cosolutes, molecular crowders, protein partners, temperature, pressure, etc. has been shown to favor or disfavor the formation of protein droplets by fine-tuning the water-water, water-protein, and protein-protein interactions. Therefore, these environmental properties and their spatiotemporal fine-tuning are likely to be important also in a cellular context at the existing protein expression levels. One of the key physicochemical properties of biomolecules impacted by molecular crowding is diffusion, which determines the viscoelastic behavior of the condensates. Here, we investigate the change in the rotational diffusion of gammaD-crystallin, undergoing LLPS in vitro in aqueous solutions in the absence and presence of cosolutes. We studied its rotational dynamics using molecular dynamics simulations (MD), electron paramagnetic resonance (EPR) spectroscopy, and fluorescence spectroscopy. MD simulations performed under dilute and crowded conditions show that the rotational diffusion of crystallin in water is retarded by 1 to 2 orders of magnitude in the condensed phase. To obtain the rotational dynamics in the dilute phase, we used fluorescence anisotropy and to extract the retardation factor in the condensed phase, we used spin-labeled gammaD-crystallin proteins as EPR viscosity nanoprobes. Aided by a viscosity nanoruler calibrated with solutions at increasing sucrose concentrations, we validated the rotational diffusion retardation predicted by MD simulations. This study underlines the predictive power of MD simulations and showcases the use of a sensitive EPR nanoprobe to extract the viscosity of biomolecular condensates.",
+  "abstract_zh": "通过液-液相分离（LLPS）形成蛋白质凝聚体（液滴）是体外实验中常见现象。研究表明，通过共溶质、分子拥挤剂、蛋白质伴侣、温度、压力等改变环境性质，可精细调控水-水、水-蛋白质及蛋白质-蛋白质相互作用，从而促进或抑制蛋白质液滴的形成。因此，这些环境性质及其时空精细调控在细胞环境中、在现有蛋白质表达水平下可能同样重要。分子拥挤影响的关键生物分子理化性质之一是扩散，它决定了凝聚体的粘弹性行为。在此，我们研究了γD-晶状体蛋白在体外水溶液中、有无共溶质条件下发生LLPS时旋转扩散的变化。我们利用分子动力学模拟（MD）、电子顺磁共振（EPR）光谱和荧光光谱研究了其旋转动力学。在稀溶液和拥挤条件下进行的MD模拟显示，晶状体蛋白在水中的旋转扩散在凝聚相中延迟了1至2个数量级。为获取稀相中的旋转动力学，我们使用了荧光各向异性；为提取凝聚相中的延迟因子，我们使用了自旋标记的γD-晶状体蛋白作为EPR粘度纳米探针。借助以递增蔗糖浓度溶液校准的粘度纳米标尺，我们验证了MD模拟预测的旋转扩散延迟。本研究强调了MD模拟的预测能力，并展示了使用灵敏的EPR纳米探针提取生物分子凝聚体粘度的应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39815790/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39815790/",
+  "paper_page_path": "papers/pubmed/39815790/index.html"
+}

@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, results, discussion, and methods sections
+- **Assessment boundary** Scientific validity, methodological rigor, and significance of the findings as presented in the manuscript
+- **Shared manuscript claim summary** The authors propose that data-driven scaling laws can quantitatively predict changes in the critical solution temperature of prion-like domain (PLD) phase separation as a function of amino acid sequence mutations. They use coarse-grained molecular dynamics simulations with the Mpipi model to compute phase diagrams for 140 PLD variants across six proteins and derive scaling relationships for different mutation types.
+- **Visible evidence base** Abstract, main text sections (Results, Discussion, Methods), figure references (Figures 1-7), table reference (Table 1), and appendix references
+- **Missing materials affecting confidence** Full figure data, appendix figures, supplementary tables, and the complete dataset are not available in the provided material. Specific numerical values for all scaling constants and statistical measures are only partially reported.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic computational study of how amino acid mutations affect the phase separation behavior of prion-like domains. The authors leverage a validated coarse-grained model to generate a large dataset of phase diagrams and derive scaling laws that relate mutation type and frequency to changes in critical solution temperature. The work addresses an important question in the field of biomolecular condensates and offers a potentially useful predictive framework. However, several technical concerns regarding the derivation and validation of the scaling laws, the interpretation of the results, and the generalizability of the findings need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, intrinsically disordered proteins, and protein aggregation would be interested. The work is also relevant to those developing computational models for predicting protein phase behavior and to experimentalists interested in designing mutations to modulate condensate stability. The scaling law framework could be useful for interpreting disease-associated mutations in PLD-containing proteins.
+- **Major strengths** The study addresses an important and timely question in the field of biomolecular condensates. The use of a validated coarse-grained model (Mpipi) that has been shown to reproduce experimental phase diagrams adds credibility to the approach. The generation of a large dataset (140 variants, ~2000 simulations) represents a significant computational effort and provides a valuable resource. The systematic exploration of different mutation types and the attempt to derive quantitative scaling laws is a novel and potentially impactful contribution. The authors also address important technical considerations such as finite-size effects and simulation convergence.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the scaling laws are "conserved across the family of PLDs we investigate" and can serve as "tools to predict changes in the stability of PLD condensates."
+  - **Evidence pointer** Results section, Figures 4-6, Table 1
+  - **Concern** The manuscript does not provide sufficient statistical analysis to support the claim that the scaling laws are conserved across the entire PLD family. The reported scaling constants (e.g., SY→F = -0.40 ± 0.04) are presented with standard errors, but it is unclear how many data points were used to derive these values, whether the fits were weighted, and what the goodness-of-fit metrics are (e.g., R², chi-squared). Additionally, the authors do not report whether the scaling laws were validated on a held-out set of PLDs or mutations not used in the fitting procedure. Without this information, it is difficult to assess the predictive power of the proposed scaling laws.
+  - **Why it matters** The central claim of the paper is that these scaling laws can be used predictively. If the statistical basis for the scaling laws is not rigorously established, the predictive utility of the framework is questionable. The lack of validation on independent data weakens the generalizability claim.
+  - **Resolution test** The authors should provide: (1) the number of data points used for each scaling law fit, (2) goodness-of-fit statistics, (3) a cross-validation analysis (e.g., leave-one-out or train/test split) to demonstrate predictive power, and (4) a clear statement of the range of validity of each scaling law (e.g., range of mutation fractions tested).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the addition of aromatic residues yields a positive linear correlation between mutation fraction and critical temperature changes" and that "protein length dictates scaling effects when aromatic residues are mutated into uncharged, non-aromatic amino acids."
+  - **Evidence pointer** Results section, Figures 4A-C, Equations 4-8
+  - **Concern** The manuscript does not clearly explain how the different scaling laws (Equations 1-3) were selected for each mutation type. The authors present three candidate scaling laws and then state which one "best" describes the data, but the model selection criteria are not described. For example, how was it determined that Equation 1 (linear in N) applies to Tyr-to-Phe mutations while Equation 3 (inverse square root of L) applies to aromatic deletions? Was model selection based on AIC, BIC, or some other criterion? Additionally, the authors do not report whether alternative models were statistically rejected or if multiple models were statistically indistinguishable.
+  - **Why it matters** The choice of scaling law fundamentally affects the interpretation of the results. If the model selection is not rigorous, the derived scaling constants and their physical interpretation may not be robust. This also affects the predictive utility of the framework.
+  - **Resolution test** The authors should describe their model selection procedure in detail, including the statistical criteria used to compare different scaling laws. They should also report the fits of all candidate models to the data, not just the selected one, to allow readers to assess the robustness of the model choice.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "removing arginines decreases the critical temperature of the condensate" and that the scaling law for Arg-to-Lys mutations has a value of -1300 ± 100.
+  - **Evidence pointer** Results section, Figure 5, Equation 7
+  - **Concern** The manuscript does not provide sufficient information about the range of mutation fractions tested for Arg mutations. The scaling constant of -1300 ± 100 for SR→K implies that a single Arg-to-Lys mutation in a 200-residue PLD would change Tc by 6.5 K. However, it is unclear how many Arg-to-Lys mutations were simulated and over what range of mutation fractions. If the scaling law was derived from only a few data points or a narrow range of mutation fractions, the extrapolation to single mutations may not be reliable. Additionally, the authors do not discuss potential nonlinear effects at very low or high mutation fractions.
+  - **Why it matters** The quantitative predictions of the scaling laws depend critically on the range and density of data used to derive them. If the data are sparse or cover a limited range, the scaling constants may not be reliable, and the predictions may not be accurate.
+  - **Resolution test** The authors should report the number of Arg mutations simulated, the range of mutation fractions covered, and the distribution of data points. They should also discuss the validity of extrapolating the scaling law to mutation fractions outside the tested range.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "our validation set, which expands the range of protein variants originally tested, highlights that the Mpipi potential can effectively capture the thermodynamic behavior of a wide range of hnRNPA1-PLD variants."
+  - **Evidence pointer** Results section, Figure 2A-D
+  - **Concern** The validation of the Mpipi model against experimental data is presented for hnRNPA1 variants only. The authors then apply the model to five other PLDs (TDP-43, FUS, EWSR1, RBM14, TIA1) without providing experimental validation for these systems. While the authors acknowledge this limitation in the Discussion, the manuscript would be strengthened by a more explicit discussion of how the lack of experimental validation for the other PLDs affects the confidence in the scaling laws derived for those systems.
+  - **Why it matters** The scaling laws are claimed to be conserved across the entire PLD family. If the model has only been validated for one member of the family, the confidence in the predictions for the other members is reduced. This is particularly important given that the scaling laws are proposed as predictive tools.
+  - **Resolution test** The authors should either provide additional experimental validation for at least one or two of the other PLDs or explicitly discuss the limitations of applying the model to systems without experimental validation. They should also discuss any potential sequence-specific effects that might not be captured by the model.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that "scaling laws represent useful predictors of the phase behavior of PLDs" and that "similar scaling behavior in other IDPs" may exist.
+  - **Evidence pointer** Discussion section
+  - **Concern** The manuscript does not provide a clear framework for how the scaling laws could be applied to predict the effects of mutations in PLDs not included in this study. The authors mention that the laws are "conserved across the family of PLDs we investigate," but it is unclear how a user would apply these laws to a new PLD sequence. For example, would the scaling constants be the same for all PLDs, or would they need to be recalibrated for each new sequence? The manuscript would benefit from a more explicit description of the predictive workflow.
+  - **Why it matters** The practical utility of the scaling laws depends on their applicability to new systems. If the framework is not clearly described, it may be difficult for other researchers to use it effectively.
+  - **Resolution test** The authors should provide a step-by-step description of how the scaling laws could be applied to predict the effect of mutations in a new PLD sequence. This could include a worked example or a clear algorithmic description.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that the scaling laws "extend across the entire family tested" but does not specify the range of mutation fractions or the number of mutations tested. This makes it difficult for readers to assess the scope of the claims.
+  - **Required correction** The abstract should include a brief statement about the range of mutation fractions tested and the number of variants studied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, "Design of the dataset"
+  - **Issue** The description of how mutations were designed states that "mutations were distributed homogeneously across the entire protein" but does not provide details on how this was achieved. For example, were mutations randomly distributed or evenly spaced? This information is important for reproducibility.
+  - **Required correction** The authors should provide a more detailed description of the mutation design procedure, including any randomization or spacing criteria used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results section
+  - **Evidence pointer** Results, "Aromatic mutations exhibit a linear correlation"
+  - **Issue** The text states that "the effect of mutations is stronger in shorter proteins" but does not provide a quantitative example to illustrate this point. A concrete example would help readers understand the practical implications of the scaling law.
+  - **Required correction** The authors should include a brief numerical example illustrating how the scaling law predicts different effects for proteins of different lengths.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The Discussion mentions that the Mpipi model "does not account for temperature-dependent solvent effects" but does not discuss how this limitation might affect the scaling laws derived in this study. A brief discussion of this point would be helpful.
+  - **Required correction** The authors should add a sentence or two discussing the potential impact of temperature-dependent solvent effects on the validity of the scaling laws.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1
+  - **Issue** The figure caption for Figure 1 is not provided in the manuscript text. This makes it difficult to interpret the figure without access to the full manuscript.
+  - **Required correction** The authors should ensure that all figure captions are included in the manuscript text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of scaling law derivation), R1-M2 (model selection criteria), R1-M3 (range of mutation fractions tested), R1-M4 (lack of experimental validation for most PLDs)
+- **Assessment against Nature-style criteria** Originality: The concept of deriving scaling laws for PLD phase separation is novel and represents a creative synthesis of simulation data and theoretical frameworks. The work goes beyond individual case studies to propose a generalizable framework. Scientific importance: The findings have potential implications for understanding how mutations in PLD-containing proteins might affect condensate formation, which is relevant to disease mechanisms. However, the importance is somewhat limited by the lack of experimental validation for most of the systems studied. Interdisciplinary readership: The work bridges computational biophysics, protein chemistry, and cell biology, and would be of interest to researchers in these fields. Technical soundness: The computational methodology is sound, and the use of a validated model is a strength. However, the statistical analysis of the scaling laws needs to be more rigorous. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., the derivation of the scaling laws) may be challenging for readers without a strong background in statistical mechanics.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a potentially valuable framework, but the statistical rigor of the scaling law derivation and the lack of experimental validation for most systems need to be addressed before the claims can be fully supported.
+
+## Risk / unsupported claims
+- The claim that scaling laws are "conserved across the family of PLDs we investigate" is not fully supported by the statistical analysis presented.
+- The claim that the scaling laws can be used as "tools to predict changes in the stability of PLD condensates" is not validated on independent data.
+- The extrapolation of scaling laws to single mutations (e.g., a single Arg-to-Lys mutation) may not be reliable given the range of mutation fractions tested.
+- The applicability of the scaling laws to PLDs not included in this study is speculative and not demonstrated.

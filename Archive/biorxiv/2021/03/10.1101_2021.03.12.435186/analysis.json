@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.12.435186",
+  "title": "SARS-CoV-2 Nsp8 N-terminal domain dimerizes and harbors autonomously folded elements",
+  "authors": "Treviño MÁ; Pantoja-Uceda D; Laurents DV; Mompeán M",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-15",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用NMR研究SARS-CoV-2 Nsp8 N端无序区域的自折叠与二聚化，虽非典型IDP-PPI机制建模，但涉及IDR构象动态与互作依赖性折叠，对无序蛋白互作机制有参考价值。",
+  "abstract": "The SARS-CoV-2 Nsp8 protein is a critical component of the RNA replicase, as its N-terminal domain (NTD) anchors Nsp12, the RNA, and Nsp13. Whereas its C-terminal domain (CTD) structure is well resolved, there is an open debate regarding the conformation adopted by the NTD as it is predicted as disordered but found in a variety of complex-dependent conformations or missing from many other structures. Using NMR spectroscopy, we show that the SARS CoV-2 Nsp8 NTD features both well folded secondary structure and disordered segments. Our results suggest that while part of this domain corresponding to two long α-helices forms autonomously, the folding of other segments would require interaction with other replicase components. When isolated, the α-helix population progressively declines towards the C-termini, and dynamics measurements indicate that the Nsp8 NTD behaves as a dimer under our conditions.",
+  "abstract_zh": "SARS-CoV-2 Nsp8蛋白是RNA复制酶的关键组成部分，其N端结构域（NTD）锚定Nsp12、RNA和Nsp13。尽管其C端结构域（CTD）结构已得到良好解析，但关于NTD所采用的构象仍存在公开争议，因为它被预测为无序，却在多种复合物依赖性构象中被发现，或在许多其他结构中缺失。利用核磁共振波谱（NMR spectroscopy），我们表明SARS-CoV-2 Nsp8 NTD同时具有良好折叠的二级结构和无序片段。我们的结果表明，虽然该结构域中对应于两条长α-螺旋的部分能自主形成，但其他片段的折叠则需要与其他复制酶组分相互作用。在分离状态下，α-螺旋的群体向C端方向逐渐减少，动力学测量表明，在我们的条件下，Nsp8 NTD表现为二聚体。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.12.435186",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.12.435186",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.12.435186/index.html"
+}

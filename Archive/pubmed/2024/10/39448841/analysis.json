@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39448841",
+  "title": "Formation, chemical evolution and solidification of the dense liquid phase of calcium (bi)carbonate.",
+  "authors": "Jin, Biao; Chen, Ying; Pyles, Harley; Baer, Marcel D; Legg, Benjamin A; Wang, Zheming; Washton, Nancy M; Mueller, Karl T; Baker, David; Schenter, Gregory K; Mundy, Christopher J; De Yoreo, James J",
+  "journal": "Nature materials",
+  "published_date": "2024-10-25",
+  "window": {
+    "start": "2024-10-21",
+    "end": "2024-10-27"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究碳酸钙致密液相(DLP)的形成与固化，涉及液-液相分离和分子模拟，但对象为无机碳酸盐而非无序蛋白/IDR，且无蛋白-蛋白互作，仅相分离机制建模思路可部分迁移。",
+  "abstract": "Metal carbonates, which are ubiquitous in the near-surface mineral record, are a major product of biomineralizing organisms and serve as important targets for capturing anthropogenic CO(2) emissions. However, pathways of carbonate mineralization typically diverge from classical predictions due to the involvement of disordered precursors, such as the dense liquid phase (DLP), yet little is known about DLP formation or solidification processes. Using in situ methods we report that a highly hydrated bicarbonate DLP forms via liquid-liquid phase separation and transforms into hollow hydrated amorphous CaCO(3) particles. Acidic proteins and polymers extend DLP lifetimes while leaving the pathway and chemistry unchanged. Molecular simulations suggest that the DLP forms via direct condensation of solvated Ca(2)(+)⋅(HCO(3)(-))(2) complexes that react due to proximity effects in the confined DLP droplets. Our findings provide insight into CaCO(3) nucleation that is mediated by liquid-liquid phase separation, advancing the ability to direct carbonate mineralization and elucidating an often-proposed complex pathway of biomineralization.",
+  "abstract_zh": "金属碳酸盐在近地表矿物记录中普遍存在，是生物矿化生物的主要产物，并作为捕获人为CO(2)排放的重要目标。然而，由于无序前驱体（如致密液相 (DLP)）的参与，碳酸盐矿化路径通常偏离经典预测，但关于DLP形成或固化过程的了解甚少。利用原位方法，我们报告了一种高度水化的碳酸氢盐DLP通过液-液相分离形成，并转化为中空水合无定形CaCO(3)颗粒。酸性蛋白质和聚合物延长了DLP的寿命，同时保持路径和化学性质不变。分子模拟表明，DLP通过溶剂化Ca(2)(+)⋅(HCO(3)(-))(2)复合物的直接凝聚形成，这些复合物在受限DLP液滴中因邻近效应而反应。我们的发现提供了对由液-液相分离介导的CaCO(3)成核的见解，推进了指导碳酸盐矿化的能力，并阐明了常被提出的复杂生物矿化路径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39448841/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39448841/",
+  "paper_page_path": "papers/pubmed/39448841/index.html"
+}

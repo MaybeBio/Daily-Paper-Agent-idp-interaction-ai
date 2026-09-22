@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40785029",
+  "title": "Exploring the impact of serine phosphorylation flanking the KxGS motif in the repeat 3 domain of human tau on tubulin detachment.",
+  "authors": "C, Selvaa Kumar; Yegnaswamy, Subha; Dasgupta, Debjani; Johari, Parul; Harish, Mahalakshmi",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2025-08-11",
+  "window": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过对接与模拟探讨tau无序蛋白磷酸化对微管蛋白结合/解离的影响，聚焦IDR磷酸化调控PPI的机制，但方法为常规对接与MD，机制深度有限。",
+  "abstract": "Tau, a highly disordered protein, comprises four repeat domains (R1-R4) essential for tubulin binding and structural stability. Post-translational modifications, such as the phosphorylation of serine residues within these repeat domains, regulate the tau protein's association and dissociation with tubulin protein. Notably, the detachment of tau from tubulin following phosphorylation contributes to neurofibrillary tangle formation within neurons, a hallmark of Alzheimer's disease. Despite its significance, the structural alterations induced by phosphorylation and their impact on these domains remain poorly understood. The present in silico study investigates the structural effects of phosphorylation at Ser305 (R2 domain), adjacent to the PGGG motif, and Ser320 (R3 domain), near the regulatory KxGS motif, through docking and simulation studies. The findings indicate that phosphorylation at Ser305 enhances tubulin binding more effectively than phosphorylation at Ser320. Alternatively, this finding was validated by binding the aggregator inducer, heparin, to tau. The results confirmed that Ser320-phosphorylated tau exhibited stronger binding than Ser305-phosphorylated tau protein. Altogether, these results suggest that Ser320-phosphorylated tau enhances the tau protein's propensity to aggregate more by strongly binding to heparin and activating the detachment process through weakly binding to tubulin. Thus, this study suggests that structural changes following phosphorylation at Ser305 might be non-pathogenic, whereas phosphorylation at Ser320 could be pathogenic, contributing to adverse effects. A deeper understanding of the role of phosphorylation in the tau-tubulin detachment mechanism could aid in the development of novel inhibitors to regulate tau aggregation and prevent neurofibrillary tangle formation.",
+  "abstract_zh": "Tau蛋白是一种高度无序的蛋白质，包含四个重复结构域（R1-R4），这些结构域对微管蛋白结合和结构稳定性至关重要。翻译后修饰，如这些重复结构域内丝氨酸残基的磷酸化，调节Tau蛋白与微管蛋白的结合和解离。值得注意的是，磷酸化后Tau蛋白从微管蛋白上脱离，有助于神经元内神经原纤维缠结的形成，这是阿尔茨海默病的一个标志性特征。尽管其重要性，磷酸化诱导的结构改变及其对这些结构域的影响仍知之甚少。本项计算机模拟研究通过对接和模拟研究，探讨了Ser305（R2结构域，邻近PGGG基序）和Ser320（R3结构域，邻近调控性KxGS基序）处磷酸化的结构效应。研究结果表明，Ser305处的磷酸化比Ser320处的磷酸化更有效地增强微管蛋白结合。另外，这一发现通过将聚集诱导剂肝素与Tau蛋白结合得到验证。结果证实，Ser320磷酸化的Tau蛋白比Ser305磷酸化的Tau蛋白表现出更强的结合力。总体而言，这些结果表明，Ser320磷酸化的Tau蛋白通过强结合肝素和弱结合微管蛋白激活脱离过程，从而增强Tau蛋白的聚集倾向。因此，本研究提示，Ser305磷酸化后的结构变化可能非致病性，而Ser320磷酸化可能具有致病性，导致不良效应。深入理解磷酸化在Tau-微管蛋白脱离机制中的作用，可能有助于开发新型抑制剂以调控Tau聚集并预防神经原纤维缠结形成。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40785029/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40785029/",
+  "paper_page_path": "papers/pubmed/40785029/index.html"
+}

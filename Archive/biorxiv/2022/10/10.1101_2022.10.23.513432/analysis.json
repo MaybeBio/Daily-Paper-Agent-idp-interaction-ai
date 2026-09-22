@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.10.23.513432",
+  "title": "The regulatory landscape of the yeast phosphoproteome",
+  "authors": "Leutert M; Barente AS; Fukuda NK; Rodriguez-Mias RA; Villén J",
+  "journal": "bioRxiv",
+  "published_date": "2022-10-24",
+  "window": {
+    "start": "2022-10-24",
+    "end": "2022-10-30"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究构建酵母磷酸化蛋白质组图谱，虽涉及信号网络和激酶-底物互作，但对象非无序蛋白/相分离，且无AI或物理模拟方法，仅高通量实验，与课题关联微弱。",
+  "abstract": "<h4>Summary</h4> The cellular ability to react to environmental fluctuations depends on signaling networks that are controlled by the dynamic activities of kinases and phosphatases. To gain insight into these stress-responsive phosphorylation networks, we generated a quantitative mass spectrometry-based atlas of early phosphoproteomic responses in Saccharomyces cerevisiae exposed to 101 environmental and chemical perturbations. We report phosphosites on 59% of the yeast proteome, with 18% of the proteome harboring a phosphosite that is regulated within 5 minutes of stress exposure. We identify shared and perturbation-specific stress response programs, uncover dephosphorylation as an integral early event, and dissect the interconnected regulatory landscape of kinase-substrate networks, as we exemplify with TOR signaling. We further reveal functional organization principles of the stress-responsive phosphoproteome based on phosphorylation site motifs, kinase activities, subcellular localizations, shared functions, and pathway intersections. This information-rich map of 25,000 regulated phosphosites advances our understanding of signaling networks. <h4>Highlights</h4> Ultra-deep reference yeast phosphoproteome covers 36,000 phosphorylation sites and reveals general principles of eukaryotic protein phosphorylation. High-dimensional quantitative atlas of early phosphoproteomic responses of yeast across 101 environmental and chemical perturbations identifies 25,000 regulated perturbation-phosphosite pairs. Identification of shared and perturbation-specific stress response phosphorylation programs reveals the importance of dephosphorylation as an early stress response. Dissection of the TOR signaling network uncovers subnetworks with differential stress responsiveness and points of pathway cross-talk Identification of functional organization of the phosphoproteome by dimensionality reduction and co-regulation analysis.",
+  "abstract_zh": "<h4>摘要</h4> 细胞对环境波动的反应能力依赖于由激酶和磷酸酶动态活性控制的信号网络。为了深入了解这些应激响应磷酸化网络，我们生成了基于定量质谱的早期磷酸化蛋白质组图谱，涵盖暴露于101种环境和化学扰动下的酿酒酵母（*Saccharomyces cerevisiae*）。我们报告了酵母蛋白质组中59%的磷酸化位点，其中18%的蛋白质组在应激暴露5分钟内含有受调控的磷酸化位点。我们识别了共享和扰动特异性的应激响应程序，揭示了去磷酸化作为早期事件的不可或缺性，并剖析了激酶-底物网络的相互关联调控景观，如以TOR信号为例。我们进一步基于磷酸化位点基序、激酶活性、亚细胞定位、共享功能和通路交叉点，揭示了应激响应磷酸化蛋白质组的功能组织原则。这张包含25,000个受调控磷酸化位点的信息丰富图谱推进了我们对信号网络的理解。<h4>亮点</h4> 超深层参考酵母磷酸化蛋白质组覆盖36,000个磷酸化位点，并揭示真核蛋白质磷酸化的一般原则。跨101种环境和化学扰动的高维定量早期磷酸化蛋白质组响应图谱识别出25,000个受调控的扰动-磷酸化位点对。共享和扰动特异性应激响应磷酸化程序的识别揭示了去磷酸化作为早期应激响应的重要性。TOR信号网络的剖析揭示了具有差异应激响应性的子网络及通路交叉点。通过降维和共调控分析识别磷酸化蛋白质组的功能组织。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.10.23.513432",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.10.23.513432",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.10.23.513432/index.html"
+}

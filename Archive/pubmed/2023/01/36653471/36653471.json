@@ -1,0 +1,362 @@
+{
+  "identity": {
+    "pmid": "36653471",
+    "doi": "10.1038/s42003-023-04445-6",
+    "title": "Evolutionary fine-tuning of residual helix structure in disordered proteins manifests in complex structure and lifetime."
+  },
+  "content": {
+    "abstract": "Transcription depends on complex networks, where folded hub proteins interact with intrinsically disordered transcription factors undergoing coupled folding and binding. For this, local residual structure, a prototypical feature of intrinsic disorder, is key. Here, we dissect the unexplored functional potential of residual structure by comparing structure, kinetics, and thermodynamics within the model system constituted of the DREB2A transcription factor interacting with the alphaalpha-hub RCD1-RST. To maintain biological relevance, we developed an orthogonal evolutionary approach for the design of variants with varying amounts of structure. Biophysical analysis revealed a correlation between the amount of residual helical structure and binding affinity, manifested in altered complex lifetime due to changed dissociation rate constants. It also showed a correlation between helical structure in free and bound DREB2A variants. Overall, this study demonstrated how evolution can balance and fine-tune residual structure to regulate complexes in coupled folding and binding, potentially affecting transcription factor competition.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Protein Folding",
+      "Protein Binding",
+      "*Transcription Factors/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Elkjaer, Steffie",
+        "Due, Amanda D",
+        "Christensen, Lise F",
+        "Theisen, Frederik F",
+        "Staby, Lasse",
+        "Kragelund, Birthe B",
+        "Skriver, Karen"
+      ],
+      "short_names": [
+        "Elkjaer S",
+        "Due AD",
+        "Christensen LF",
+        "Theisen FF",
+        "Staby L",
+        "Kragelund BB",
+        "Skriver K"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6405-6319",
+        "ORCID: 0000-0002-1905-4311",
+        "ORCID: 0000-0002-4103-2768",
+        "ORCID: 0000-0002-5588-5163",
+        "ORCID: 0000-0002-7454-1761",
+        "ORCID: 0000-0003-2225-4012"
+      ],
+      "affiliations": [
+        "The REPIN and The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark.",
+        "The REPIN and The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark.",
+        "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark.",
+        "The REPIN and The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark.",
+        "The REPIN and The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark.",
+        "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark.",
+        "The REPIN and The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark.",
+        "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark.",
+        "The REPIN and The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark. bbk@bio.ku.dk.",
+        "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark. bbk@bio.ku.dk.",
+        "The REPIN and The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark. kskriver@bio.ku.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Elkjær, Steffie",
+        "short_name": "Elkjær S",
+        "identifiers": [
+          "0000-0001-6405-6319"
+        ],
+        "affiliations": [
+          "The REPIN and The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Due, Amanda D",
+        "short_name": "Due AD",
+        "identifiers": [
+          "0000-0002-1905-4311"
+        ],
+        "affiliations": [
+          "The REPIN and The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark.",
+          "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Christensen, Lise F",
+        "short_name": "Christensen LF",
+        "identifiers": [
+          "0000-0002-4103-2768"
+        ],
+        "affiliations": [
+          "The REPIN and The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Theisen, Frederik F",
+        "short_name": "Theisen FF",
+        "identifiers": [],
+        "affiliations": [
+          "The REPIN and The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark.",
+          "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Staby, Lasse",
+        "short_name": "Staby L",
+        "identifiers": [
+          "0000-0002-5588-5163"
+        ],
+        "affiliations": [
+          "The REPIN and The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark.",
+          "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark."
+        ]
+      },
+      {
+        "full_name": "Kragelund, Birthe B",
+        "short_name": "Kragelund BB",
+        "identifiers": [
+          "0000-0002-7454-1761"
+        ],
+        "affiliations": [
+          "The REPIN and The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark. bbk@bio.ku.dk.",
+          "Structural Biology and NMR Laboratory, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark. bbk@bio.ku.dk."
+        ]
+      },
+      {
+        "full_name": "Skriver, Karen",
+        "short_name": "Skriver K",
+        "identifiers": [
+          "0000-0003-2225-4012"
+        ],
+        "affiliations": [
+          "The REPIN and The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, DK-2200, Denmark. kskriver@bio.ku.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Communications biology"
+    ],
+    "journal_abbrev": [
+      "Commun Biol"
+    ],
+    "pub_date": "2023 Jan 18",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/19 06:00",
+    "fetched_at": "2026-09-20 18:39:55"
+  },
+  "links": {
+    "cites": [
+      "41928988",
+      "40852883",
+      "40149990",
+      "39604735",
+      "37957331",
+      "37821532",
+      "37657994"
+    ],
+    "refs": [
+      "35762718",
+      "35452682",
+      "34687712",
+      "34504009",
+      "34473923",
+      "33454008",
+      "33407551",
+      "33361159",
+      "31831797",
+      "30767893",
+      "30528464",
+      "29657132",
+      "28914483",
+      "28425697",
+      "28273070",
+      "27881680",
+      "27122223",
+      "26851278",
+      "26851275",
+      "26195786",
+      "26153298",
+      "25362358",
+      "25352553",
+      "25348421",
+      "25324309",
+      "25313042",
+      "25092343",
+      "24739176",
+      "24654952",
+      "24449148",
+      "24317797",
+      "23980173",
+      "23875714",
+      "23555731",
+      "23203878",
+      "23026051",
+      "22819467",
+      "22360139",
+      "22150398",
+      "22129832",
+      "21920222",
+      "21737415",
+      "21604143",
+      "20117254",
+      "19666553",
+      "19548978",
+      "19196002",
+      "19157855",
+      "18260114",
+      "17846036",
+      "17522630",
+      "17088319",
+      "16734424",
+      "15815974",
+      "11839490",
+      "11457007",
+      "11381529",
+      "10908673",
+      "10550212",
+      "9214287",
+      "9079379",
+      "8520220",
+      "8019132",
+      "7664095",
+      "4348832",
+      "1668721"
+    ],
+    "similar": [
+      "36653471",
+      "27881680",
+      "33361159",
+      "29657132",
+      "34687712",
+      "35452682",
+      "34473923",
+      "31831797",
+      "30528464",
+      "29716994",
+      "28425697",
+      "23783631",
+      "25348421",
+      "26195786",
+      "31683980",
+      "28593560",
+      "21268115",
+      "30520528",
+      "29990433",
+      "22253588",
+      "23912807",
+      "19919153",
+      "25533957",
+      "28604862",
+      "29890118",
+      "27423742",
+      "24317797",
+      "19747922",
+      "30715849",
+      "31397874",
+      "32323533",
+      "32696381",
+      "17522630",
+      "33407551",
+      "21627111",
+      "27018856",
+      "20141756",
+      "15895990",
+      "9521744",
+      "22506277",
+      "9878405",
+      "33454008",
+      "9080196",
+      "26073260",
+      "29666277",
+      "26742101",
+      "22325280",
+      "21766125",
+      "20592818",
+      "19216110",
+      "31415767",
+      "31488718",
+      "21856750",
+      "25092343",
+      "15236581",
+      "23514521",
+      "28914483",
+      "29262363",
+      "19903882",
+      "25544254",
+      "33269926",
+      "26153298",
+      "30471695",
+      "24043820",
+      "31326517",
+      "35658083",
+      "24278008",
+      "29565070",
+      "29655986",
+      "23289531",
+      "25387963",
+      "32053358",
+      "32914959",
+      "33030907",
+      "8942664",
+      "33248428",
+      "23813758",
+      "15946684",
+      "9062118",
+      "30397651",
+      "20949632",
+      "29714690",
+      "34214536",
+      "23606624",
+      "34161732",
+      "11292350",
+      "28978440",
+      "21079758",
+      "25039985"
+    ],
+    "review": [
+      "36653471",
+      "33361159",
+      "31397874",
+      "26073260",
+      "25544254",
+      "31326517",
+      "29655986"
+    ],
+    "pmc": [
+      "9849366"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s42003-023-04445-6",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36653471/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36653471",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

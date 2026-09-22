@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40470224",
+  "title": "Biomolecular condensates control and are defined by RNA-RNA interactions that arise in viral replication.",
+  "authors": "Aierken, Dilimulati; Zhang, Vita; Sealfon, Rachel; Marecki, John C; Raney, Kevin D; Gladfelter, Amy S; Joseph, Jerelle A; Roden, Christine A",
+  "journal": "Research square",
+  "published_date": "2025-06-05",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究病毒复制中RNA-RNA互作与生物分子凝聚体的关系，涉及Nucleocapsid凝聚体及分子模拟，但对象为RNA而非无序蛋白介导的PPI，互作机制建模可迁移启发有限。",
+  "abstract": "Cells must limit RNA-RNA interactions to avoid irreversible RNA entanglement. Cells may prevent deleterious RNA-RNA interactions by genome organization to avoid complementarity however, RNA viruses generate long, perfectly complementary antisense RNA during replication. How do viral RNAs avoid irreversible entanglement? One possibility is RNA sequestration into biomolecular condensates. To test this, we reconstituted critical SARS-CoV-2 RNA-RNA interactions in Nucleocapsid condensates. We observed that RNAs with low propensity RNA-RNA interactions resulted in more round, liquid-like condensates while those with high sequence complementarity resulted in more heterogeneous networked morphology independent of RNA structure stability. Residue-resolution molecular simulations and direct sequencing-based detection of RNA-RNA interactions support that these properties arise from degree of trans RNA contacts. We propose that extensive RNA-RNA interactions in cell and viral replication are controlled via a combination of genome organization, timing, RNA sequence content, RNA production ratios, and emergent biomolecular condensate material properties.",
+  "abstract_zh": "细胞必须限制RNA-RNA相互作用，以避免不可逆的RNA缠结。细胞可能通过基因组组织来避免互补性，从而防止有害的RNA-RNA相互作用，然而，RNA病毒在复制过程中会产生长且完全互补的反义RNA。病毒RNA如何避免不可逆的缠结？一种可能性是将RNA隔离到生物分子凝聚体中。为了验证这一点，我们在核衣壳凝聚体中重建了关键的SARS-CoV-2 RNA-RNA相互作用。我们观察到，具有低倾向RNA-RNA相互作用的RNA形成更圆润、液态状的凝聚体，而具有高序列互补性的RNA则形成更异质的网络状形态，且这一现象与RNA结构稳定性无关。残基分辨率的分子模拟和基于测序的直接RNA-RNA相互作用检测支持这些特性源于反式RNA接触的程度。我们提出，细胞和病毒复制中广泛的RNA-RNA相互作用通过基因组组织、时序、RNA序列内容、RNA产生比例以及涌现的生物分子凝聚体材料特性的组合来控制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40470224/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40470224/",
+  "paper_page_path": "papers/pubmed/40470224/index.html"
+}

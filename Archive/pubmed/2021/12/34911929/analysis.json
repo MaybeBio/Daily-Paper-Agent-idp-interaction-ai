@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34911929",
+  "title": "Capillary flow experiments for thermodynamic and kinetic characterization of protein liquid-liquid phase separation.",
+  "authors": "Stender, Emil G P; Ray, Soumik; Norrild, Rasmus K; Larsen, Jacob Aunstrup; Petersen, Daniel; Farzadfard, Azad; Galvagnion, Celine; Jensen, Henrik; Buell, Alexander K",
+  "journal": "Nature communications",
+  "published_date": "2021-12-17",
+  "window": {
+    "start": "2021-12-13",
+    "end": "2021-12-19"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出毛细管流动实验方法Capflex，定量表征蛋白液-液相分离的热力学与动力学参数，并测定LLPS多肽与调控化合物的结合亲和力，但方法为实验技术，无AI或物理模拟建模，且未深入互作机制建模。",
+  "abstract": "Liquid-liquid phase separation or LLPS of proteins is a field of mounting importance and the value of quantitative kinetic and thermodynamic characterization of LLPS is increasingly recognized. We present a method, Capflex, which allows rapid and accurate quantification of key parameters for LLPS: Dilute phase concentration, relative droplet size distributions, and the kinetics of droplet formation and maturation into amyloid fibrils. The binding affinity between the polypeptide undergoing LLPS and LLPS-modulating compounds can also be determined. We apply Capflex to characterize the LLPS of Human DEAD-box helicase-4 and the coacervate system ssDNA/RP(3). Furthermore, we study LLPS and the aberrant liquid-to-solid phase transition of alpha-synuclein. We quantitatively measure the decrease in dilute phase concentration as the LLPS of alpha-synuclein is followed by the formation of Thioflavin-T positive amyloid aggregates. The high information content, throughput and the versatility of Capflex makes it a valuable tool for characterizing biomolecular LLPS.",
+  "abstract_zh": "蛋白质的液-液相分离（liquid-liquid phase separation, LLPS）是一个日益重要的领域，对LLPS进行定量动力学和热力学表征的价值正逐渐被认可。我们提出了一种名为Capflex的方法，能够快速且准确地量化LLPS的关键参数：稀相浓度、相对液滴尺寸分布，以及液滴形成和成熟为淀粉样纤维的动力学过程。此外，还可测定经历LLPS的多肽与LLPS调节化合物之间的结合亲和力。我们将Capflex应用于表征人类DEAD-box解旋酶4的LLPS以及ssDNA/RP(3)共acervate系统。进一步地，我们研究了α-突触核蛋白的LLPS及其异常液-固相转变。我们定量测量了在α-突触核蛋白LLPS过程中，随着硫黄素-T阳性淀粉样聚集体的形成，稀相浓度的下降。Capflex的高信息含量、高通量和多功能性使其成为表征生物分子LLPS的有力工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34911929/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34911929/",
+  "paper_page_path": "papers/pubmed/34911929/index.html"
+}

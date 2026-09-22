@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40650026",
+  "title": "FINCHES: A Computational Framework for Predicting Intermolecular Interactions in Intrinsically Disordered Proteins.",
+  "authors": "Niazi, Sarfaraz K",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2025-07-13",
+  "window": {
+    "start": "2025-07-07",
+    "end": "2025-07-13"
+  },
+  "score": 9,
+  "one_liner_zh": "该文综述了FINCHES框架，基于序列快速预测无序蛋白区域(IDR)的分子间相互作用，无需分子模拟，并对比了其他计算方法与界面预测工具，直接契合无序蛋白PPI机制建模主题。",
+  "abstract": "This comprehensive review examines FINCHES (Force field-based Interaction Network for Characterizing Heterotypic and Entropic Sequences). This groundbreaking computational framework enables the rapid, sequence-based prediction of intermolecular interactions in intrinsically disordered regions (IDRs) without the need for molecular simulations. The document provides detailed comparisons with other computational methods, including their mathematical foundations, specific applications, and experimental validations. We explore both the potential for advancing our understanding of disordered protein function and the inherent challenges in computationally modeling these dynamic biological systems. Additionally, we discuss computational assessment tools for interface prediction in molecular complexes, providing a comprehensive framework for evaluating IDR interaction predictions.",
+  "abstract_zh": "本综述全面考察了FINCHES（基于力场的异型与熵序列相互作用网络表征框架）。这一开创性的计算框架能够在不进行分子模拟的情况下，快速基于序列预测 intrinsically disordered regions (IDRs) 中的分子间相互作用。文档详细比较了其他计算方法，包括其数学基础、具体应用及实验验证。我们探讨了其在增进对无序蛋白质功能理解方面的潜力，以及在计算建模这些动态生物系统时固有的挑战。此外，我们讨论了用于分子复合物界面预测的计算评估工具，为评估IDR相互作用预测提供了一个全面的框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40650026/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40650026/",
+  "paper_page_path": "papers/pubmed/40650026/index.html"
+}

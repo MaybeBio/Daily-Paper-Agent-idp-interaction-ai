@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "39366599",
+    "doi": "10.1016/j.ijbiomac.2024.136256",
+    "title": "Drude2019IDPC polarizable force field reveals structure-function relationship of insulin."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) lack stable tertiary structures under physiological conditions, yet play key roles in biological processes and associated with human complex diseases. Their conformational characteristics and high content of charged residues make the use of polarizable force fields an advantageous for simulating IDPs. The Drude2019IDP polarizable force field, previously introduced, has demonstrated comprehensive enhancements and improvements in dipeptides, short peptides, and IDPs, achieving a balanced sampling between IDPs and structured proteins. However, the performance in simulating 5 dipeptides was found to be underestimate. Therefore, we individually performed reweighting and grid-based energy correction map (CMAP) optimization for these 5 dipeptides, resulting in the enhanced Drude2019IDPC force field. The performance of Drude2019IDPC was evaluated with 5 dipeptides, 5 disordered short peptides, and a representative IDP. The results demonstrated a marked improvement comparing with original Drude2019IDP. To further substantiate the capabilities of Drude2019IDPC, MD simulation and Markov state model (MSM) were applied to wild type and mutant for insulin, to elucidate the difference of conformational characteristics and transition path. The findings reveal that mutation can maintain the monomorphic characteristics, providing insights for engineered insulin development. These results indicate that Drude2019IDPC could be used to reveal the structure-function relationship for other proteins.",
+    "keywords": [
+      "Drude2019IDPC",
+      "Markov state model",
+      "Polarizable force field",
+      "Reweighting optimization"
+    ],
+    "mesh_terms": [
+      "*Insulin/chemistry",
+      "Structure-Activity Relationship",
+      "*Molecular Dynamics Simulation",
+      "Intrinsically Disordered Proteins/chemistry",
+      "Humans",
+      "Protein Conformation",
+      "Dipeptides/chemistry",
+      "Mutation",
+      "Markov Chains"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cui, Xiaochen",
+        "Zheng, Zhuoqi",
+        "Rahman, Mueed Ur",
+        "Hong, Xiaokun",
+        "Ji, Xiaoyue",
+        "Li, Zhengxin",
+        "Chen, Hai-Feng"
+      ],
+      "short_names": [
+        "Cui X",
+        "Zheng Z",
+        "Rahman MU",
+        "Hong X",
+        "Ji X",
+        "Li Z",
+        "Chen HF"
+      ],
+      "auids": [],
+      "affiliations": [
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "College of Biological Science and Engineering, Fuzhou University, Fuzhou, Fujian 350116, China.",
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China.",
+        "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China. Electronic address: haifengchen@sjtu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cui, Xiaochen",
+        "short_name": "Cui X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Zhuoqi",
+        "short_name": "Zheng Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Rahman, Mueed Ur",
+        "short_name": "Rahman MU",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Hong, Xiaokun",
+        "short_name": "Hong X",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biological Science and Engineering, Fuzhou University, Fuzhou, Fujian 350116, China."
+        ]
+      },
+      {
+        "full_name": "Ji, Xiaoyue",
+        "short_name": "Ji X",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhengxin",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Hai-Feng",
+        "short_name": "Chen HF",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Microbial metabolism, Joint International Research Laboratory of Metabolic & Developmental Sciences, Department of Bioinformatics and Biostatistics, National Experimental Teaching Center for Life Sciences and Biotechnology, School of Life Sciences and Biotechnology, Shanghai Jiao Tong University, Shanghai 200240, China. Electronic address: haifengchen@sjtu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/06 07:18",
+    "fetched_at": "2026-09-21 10:49:12"
+  },
+  "links": {
+    "cites": [
+      "41217569"
+    ],
+    "refs": [],
+    "similar": [
+      "39366599",
+      "36178373",
+      "33459730",
+      "36800279",
+      "28448138",
+      "33591749",
+      "29808548",
+      "32227937",
+      "36468450",
+      "30840442",
+      "37452752",
+      "25919886",
+      "30091924",
+      "34032235",
+      "36533639",
+      "31877033",
+      "27484738",
+      "34656328",
+      "28805390",
+      "31657215",
+      "37108059",
+      "31756104",
+      "33355572",
+      "24589355",
+      "38018910",
+      "31552948",
+      "34680048",
+      "32816485",
+      "32859072",
+      "33382616",
+      "34546059",
+      "29080468",
+      "29990433",
+      "25207671",
+      "36232586",
+      "30204435",
+      "31613621",
+      "26575776",
+      "33623120",
+      "30514082",
+      "30876367",
+      "36827446",
+      "31702919",
+      "32579908",
+      "15185334",
+      "31548393",
+      "33230318",
+      "33810353",
+      "30979035",
+      "34626492",
+      "33411518",
+      "31809054",
+      "38916177",
+      "36084124",
+      "26052838",
+      "29544285",
+      "28095698",
+      "31241933",
+      "31441158",
+      "38742922",
+      "30865832",
+      "38877893",
+      "34152264",
+      "39163306",
+      "28554553",
+      "35912724",
+      "27844185",
+      "31402649",
+      "29907037",
+      "29364151",
+      "28226222",
+      "26574339",
+      "30708285",
+      "33078950",
+      "33444020",
+      "35749260",
+      "35174713",
+      "33581430",
+      "30259679",
+      "33945530",
+      "30372613",
+      "38928405",
+      "37905972",
+      "24211251",
+      "39225535",
+      "32403216",
+      "30250773",
+      "27588692",
+      "30433786",
+      "34845619",
+      "37133846",
+      "34390736",
+      "31021441",
+      "36641212",
+      "29735687",
+      "35944496",
+      "26493154",
+      "37646172",
+      "30134671",
+      "28092832"
+    ],
+    "review": [
+      "39366599",
+      "33591749",
+      "30840442",
+      "33355572",
+      "34680048",
+      "29080468",
+      "30979035",
+      "31441158",
+      "28554553",
+      "29364151",
+      "28226222",
+      "32403216",
+      "34390736"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)07065-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/diabetesmedicines.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Diabetes Medicines"
+      }
+    ],
+    "text_mined": []
+  }
+}

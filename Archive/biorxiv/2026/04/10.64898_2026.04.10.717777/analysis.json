@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.10.717777",
+  "title": "Generative design of intrinsically disordered protein regions with IDiom",
+  "authors": "Jason Liu; Sebastian Ibarraran; Frank Hu; Abigail Park; Alexander Dunn; Grant Rotskoff",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-11",
+  "window": {
+    "start": "2026-04-06",
+    "end": "2026-04-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于蛋白质语言模型的IDR生成设计方法IDiom，虽未直接研究PPI机制，但为无序蛋白序列设计提供AI建模思路，可迁移至IDR介导互作的序列设计。",
+  "abstract": "Intrinsically disordered protein regions are ubiquitous across all kingdoms of life. These structurally heterogeneous regions play central roles in cellular processes such as transcriptional regulation, cellular signaling, and subcellular organization, yet they have remained largely inaccessible to rational design. Structure-based generative methods are not applicable to proteins that lack a stable fold, and existing sequence-based approaches for disordered regions rely on sampling methods that do not capture the evolutionary statistics of natural disordered regions. Here, we introduce IDiom, an autoregressive protein language model trained on 37 million intrinsically disordered region sequences curated from the AlphaFold Database. Trained using a fill-in-the-middle data augmentation, IDiom generates disordered region sequences conditioned on their surrounding structured context, as well as fully disordered proteins without any context. The model generates diverse sequences that recapitulate biologically relevant sequence features of natural disordered regions, and we demonstrate that post-training via reinforcement learning with a subcellular localization reward model produces sequences with features which are consistent with known sequence determinants of compartment-specific localization. These results establish IDiom as a general platform for the generative design of intrinsically disordered proteins and regions.",
+  "abstract_zh": "天然无序蛋白区域在生命的所有界中普遍存在。这些结构异质性区域在细胞过程如转录调控、细胞信号传导和亚细胞组织中发挥核心作用，然而它们在很大程度上仍难以通过理性设计来获取。基于结构的生成方法不适用于缺乏稳定折叠的蛋白质，而现有的针对无序区域的基于序列的方法依赖于采样方法，这些方法无法捕捉天然无序区域的进化统计特征。在此，我们介绍IDiom，一种自回归蛋白质语言模型，该模型基于从AlphaFold数据库精选的3700万条天然无序区域序列进行训练。通过使用填充中间数据增强进行训练，IDiom能够根据其周围的结构上下文生成无序区域序列，以及完全无序的蛋白质而无需任何上下文。该模型生成多样化的序列，这些序列重现了天然无序区域的生物学相关序列特征，并且我们证明，通过带有亚细胞定位奖励模型的强化学习进行后训练，能够产生具有与区室特异性定位已知序列决定因素一致的序列特征。这些结果确立了IDiom作为天然无序蛋白质和区域生成设计的通用平台。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717777",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.10.717777",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.10.717777/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.30.656608",
+  "title": "RNA binding regulation is a new dimension in the type I IFN response",
+  "authors": "Iselin L; Demyanenko Y; Palmalux N; Buh AE; Kamel W; Simmonds P; Mohammed S; Castello A",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-30",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 2,
+  "one_liner_zh": "该研究通过RNA互作组捕获技术揭示I型干扰素调控RNA结合蛋白的RNA结合与磷酸化，但对象非无序蛋白/相分离，无PPI机制建模，且无AI或物理模拟方法，与本课题关联微弱。",
+  "abstract": "<h4>ABSTRACT</h4> The type I interferon (IFN-I) response shapes the intracellular environment to supress virus infection. Historically, this remodelling has been linked to the transcriptional induction of interferon stimulated genes (ISGs). However, IFN-I-driven post-translational regulation of proteins already present in the cell remains relatively unexplored. Here, we profiled the activity of cellular RNA-binding proteins (RBPs), which are key players in antiviral immunity. Using RNA interactome capture (RIC), we identified hundreds of RBPs whose association with RNA is regulated by IFN-I (IR-RBPs). Among these IR-RBPs are both known antiviral proteins and novel candidates identified in this study through a knockdown screen. By modifying RIC to study IR-RBPs’ phosphorylation states, we identified several putative instances of IFN-I-driven phospho-regulation of RNA binding. We experimentally confirmed this phospho-driven regulation for MATR3. Altogether, our results reveal a new dimension of the cell’s antiviral programme, in which the cellular RNA-bound proteome is remodelled by IFN-I.",
+  "abstract_zh": "<h4>摘要</h4> I型干扰素（IFN-I）反应塑造细胞内环境以抑制病毒感染。历史上，这种重塑与干扰素刺激基因（ISGs）的转录诱导相关联。然而，IFN-I驱动的对细胞中已存在蛋白质的翻译后调控仍相对未被探索。在此，我们分析了细胞RNA结合蛋白（RBPs）的活性，这些蛋白是抗病毒免疫中的关键参与者。利用RNA相互作用组捕获（RIC），我们鉴定了数百种其与RNA的结合受IFN-I调控的RBPs（IR-RBPs）。在这些IR-RBPs中，既包括已知的抗病毒蛋白，也包括本研究通过敲低筛选识别出的新候选蛋白。通过修改RIC以研究IR-RBPs的磷酸化状态，我们鉴定了几个IFN-I驱动的RNA结合磷酸化调控的推定实例。我们通过实验证实了MATR3的这种磷酸化驱动调控。总体而言，我们的结果揭示了细胞抗病毒程序的一个新维度，其中细胞RNA结合蛋白质组被IFN-I重塑。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.30.656608",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.30.656608",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.30.656608/index.html"
+}

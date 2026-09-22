@@ -1,0 +1,574 @@
+{
+  "identity": {
+    "pmid": "35551296",
+    "doi": "10.1371/journal.pcbi.1010121",
+    "title": "Structural dynamics of SARS-CoV-2 nucleocapsid protein induced by RNA binding."
+  },
+  "content": {
+    "abstract": "The nucleocapsid (N) protein of the SARS-CoV-2 virus, the causal agent of COVID-19, is a multifunction phosphoprotein that plays critical roles in the virus life cycle, including transcription and packaging of the viral RNA. To play such diverse roles, the N protein has two globular RNA-binding modules, the N- (NTD) and C-terminal (CTD) domains, which are connected by an intrinsically disordered region. Despite the wealth of structural data available for the isolated NTD and CTD, how these domains are arranged in the full-length protein and how the oligomerization of N influences its RNA-binding activity remains largely unclear. Herein, using experimental data from electron microscopy and biochemical/biophysical techniques combined with molecular modeling and molecular dynamics simulations, we show that, in the absence of RNA, the N protein formed structurally dynamic dimers, with the NTD and CTD arranged in extended conformations. However, in the presence of RNA, the N protein assumed a more compact conformation where the NTD and CTD are packed together. We also provided an octameric model for the full-length N bound to RNA that is consistent with electron microscopy images of the N protein in the presence of RNA. Together, our results shed new light on the dynamics and higher-order oligomeric structure of this versatile protein.",
+    "keywords": [],
+    "mesh_terms": [
+      "COVID-19",
+      "*Coronavirus Nucleocapsid Proteins/chemistry/metabolism",
+      "Humans",
+      "Microscopy, Electron",
+      "Molecular Dynamics Simulation",
+      "Nucleocapsid Proteins/chemistry/metabolism",
+      "Phosphoproteins/metabolism",
+      "Protein Binding",
+      "RNA, Viral/genetics",
+      "*SARS-CoV-2/chemistry/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ribeiro-Filho, Helder Veras",
+        "Jara, Gabriel Ernesto",
+        "Batista, Fernanda Aparecida Heleno",
+        "Schleder, Gabriel Ravanhani",
+        "Costa Tonoli, Celisa Caldana",
+        "Soprano, Adriana Santos",
+        "Guimaraes, Samuel Leite",
+        "Borges, Antonio Carlos",
+        "Cassago, Alexandre",
+        "Bajgelman, Marcio Chaim",
+        "Marques, Rafael Elias",
+        "Trivella, Daniela Barretto Barbosa",
+        "Franchini, Kleber Gomes",
+        "Figueira, Ana Carolina Migliorini",
+        "Benedetti, Celso Eduardo",
+        "Lopes-de-Oliveira, Paulo Sergio"
+      ],
+      "short_names": [
+        "Ribeiro-Filho HV",
+        "Jara GE",
+        "Batista FAH",
+        "Schleder GR",
+        "Costa Tonoli CC",
+        "Soprano AS",
+        "Guimaraes SL",
+        "Borges AC",
+        "Cassago A",
+        "Bajgelman MC",
+        "Marques RE",
+        "Trivella DBB",
+        "Franchini KG",
+        "Figueira ACM",
+        "Benedetti CE",
+        "Lopes-de-Oliveira PS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8471-207X",
+        "ORCID: 0000-0002-5831-1392",
+        "ORCID: 0000-0003-0783-8378",
+        "ORCID: 0000-0003-3129-8682",
+        "ORCID: 0000-0002-3699-3927",
+        "ORCID: 0000-0003-0023-6403",
+        "ORCID: 0000-0003-1032-4749",
+        "ORCID: 0000-0003-3371-1143",
+        "ORCID: 0000-0002-6949-0947",
+        "ORCID: 0000-0002-7505-2345",
+        "ORCID: 0000-0002-7023-8490",
+        "ORCID: 0000-0002-4602-0256",
+        "ORCID: 0000-0002-1287-8019"
+      ],
+      "affiliations": [
+        "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Nanotechnology National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Nanotechnology National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Nanotechnology National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil.",
+        "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ribeiro-Filho, Helder Veras",
+        "short_name": "Ribeiro-Filho HV",
+        "identifiers": [
+          "0000-0001-8471-207X"
+        ],
+        "affiliations": [
+          "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Jara, Gabriel Ernesto",
+        "short_name": "Jara GE",
+        "identifiers": [
+          "0000-0002-5831-1392"
+        ],
+        "affiliations": [
+          "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Batista, Fernanda Aparecida Heleno",
+        "short_name": "Batista FAH",
+        "identifiers": [
+          "0000-0003-0783-8378"
+        ],
+        "affiliations": [
+          "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Schleder, Gabriel Ravanhani",
+        "short_name": "Schleder GR",
+        "identifiers": [
+          "0000-0003-3129-8682"
+        ],
+        "affiliations": [
+          "Brazilian Nanotechnology National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Costa Tonoli, Celisa Caldana",
+        "short_name": "Costa Tonoli CC",
+        "identifiers": [],
+        "affiliations": [
+          "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Soprano, Adriana Santos",
+        "short_name": "Soprano AS",
+        "identifiers": [],
+        "affiliations": [
+          "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Guimarães, Samuel Leite",
+        "short_name": "Guimarães SL",
+        "identifiers": [
+          "0000-0002-3699-3927"
+        ],
+        "affiliations": [
+          "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Borges, Antonio Carlos",
+        "short_name": "Borges AC",
+        "identifiers": [
+          "0000-0003-0023-6403"
+        ],
+        "affiliations": [
+          "Brazilian Nanotechnology National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Cassago, Alexandre",
+        "short_name": "Cassago A",
+        "identifiers": [
+          "0000-0003-1032-4749"
+        ],
+        "affiliations": [
+          "Brazilian Nanotechnology National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Bajgelman, Marcio Chaim",
+        "short_name": "Bajgelman MC",
+        "identifiers": [
+          "0000-0003-3371-1143"
+        ],
+        "affiliations": [
+          "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Marques, Rafael Elias",
+        "short_name": "Marques RE",
+        "identifiers": [
+          "0000-0002-6949-0947"
+        ],
+        "affiliations": [
+          "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Trivella, Daniela Barretto Barbosa",
+        "short_name": "Trivella DBB",
+        "identifiers": [
+          "0000-0002-7505-2345"
+        ],
+        "affiliations": [
+          "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Franchini, Kleber Gomes",
+        "short_name": "Franchini KG",
+        "identifiers": [],
+        "affiliations": [
+          "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Figueira, Ana Carolina Migliorini",
+        "short_name": "Figueira ACM",
+        "identifiers": [
+          "0000-0002-7023-8490"
+        ],
+        "affiliations": [
+          "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Benedetti, Celso Eduardo",
+        "short_name": "Benedetti CE",
+        "identifiers": [
+          "0000-0002-4602-0256"
+        ],
+        "affiliations": [
+          "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      },
+      {
+        "full_name": "Lopes-de-Oliveira, Paulo Sergio",
+        "short_name": "Lopes-de-Oliveira PS",
+        "identifiers": [
+          "0000-0002-1287-8019"
+        ],
+        "affiliations": [
+          "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2022 May",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/05/14 06:00",
+    "fetched_at": "2026-09-20 10:18:03"
+  },
+  "links": {
+    "cites": [
+      "41970879",
+      "41903808",
+      "41445958",
+      "41399519",
+      "41126529",
+      "41011200",
+      "40858555",
+      "40664703",
+      "40568634",
+      "40503686",
+      "40490992",
+      "40431734",
+      "40411406",
+      "40353409",
+      "40077853",
+      "39653699",
+      "39464032",
+      "39343000",
+      "39279844",
+      "39201466",
+      "39120134",
+      "38982108",
+      "38941236",
+      "38732328",
+      "38045241",
+      "37901441",
+      "37896953",
+      "37478333",
+      "37286558",
+      "37018390",
+      "36982856",
+      "36839515",
+      "36640305",
+      "36323732",
+      "36040256",
+      "35744971",
+      "35131265"
+    ],
+    "refs": [
+      "35077748",
+      "35044811",
+      "34822776",
+      "34634033",
+      "34095780",
+      "33997662",
+      "33950394",
+      "33479198",
+      "33315308",
+      "33264373",
+      "33248025",
+      "33247108",
+      "33208793",
+      "33200826",
+      "33116300",
+      "32979942",
+      "32914439",
+      "32752662",
+      "32696370",
+      "32654247",
+      "32416961",
+      "32363136",
+      "30976793",
+      "29258817",
+      "28793210",
+      "28044277",
+      "27377017",
+      "27108186",
+      "26596457",
+      "26592383",
+      "26574453",
+      "25939747",
+      "25105276",
+      "24996895",
+      "24501403",
+      "24418573",
+      "24075951",
+      "23798666",
+      "23717688",
+      "23341755",
+      "23178926",
+      "23000701",
+      "22930834",
+      "22803193",
+      "22582031",
+      "22365574",
+      "22241479",
+      "20798061",
+      "20739524",
+      "20660183",
+      "19955314",
+      "19782089",
+      "19398010",
+      "19229944",
+      "19124777",
+      "19052082",
+      "18631359",
+      "18561946",
+      "18196502",
+      "17379242",
+      "17002283",
+      "16940322",
+      "16859925",
+      "16627473",
+      "16285739",
+      "16254320",
+      "16228284",
+      "16139595",
+      "16125414",
+      "15890900",
+      "15759315",
+      "15564476",
+      "15507657",
+      "15323569",
+      "15264254",
+      "11566128",
+      "10493868",
+      "8744570",
+      "8676505",
+      "2845141",
+      "2252386",
+      "207820"
+    ],
+    "similar": [
+      "35551296",
+      "38587193",
+      "38941236",
+      "33264373",
+      "33782395",
+      "38718862",
+      "38153183",
+      "36533523",
+      "33479198",
+      "33039147",
+      "33270159",
+      "33200826",
+      "33990585",
+      "33248025",
+      "36748338",
+      "33095454",
+      "32749662",
+      "36708355",
+      "37526269",
+      "37286558",
+      "33660218",
+      "34734665",
+      "39201466",
+      "32914439",
+      "39082816",
+      "38885868",
+      "39093972",
+      "33794152",
+      "21203940",
+      "34634033",
+      "39216563",
+      "19782089",
+      "36985506",
+      "24501403",
+      "34022485",
+      "33894414",
+      "17229691",
+      "36040256",
+      "33477032",
+      "19052082",
+      "37863261",
+      "35796388",
+      "16775348",
+      "17379242",
+      "19781554",
+      "24418573",
+      "35696898",
+      "34823028",
+      "36807437",
+      "35842466",
+      "33290746",
+      "38515377",
+      "32826529",
+      "33730325",
+      "37018390",
+      "22241479",
+      "35077748",
+      "23501675",
+      "36806252",
+      "34642671",
+      "39412257",
+      "39339835",
+      "36681763",
+      "34671206",
+      "15020242",
+      "35883485",
+      "34665939",
+      "38018991",
+      "37211575",
+      "28331093",
+      "36139141",
+      "35131265",
+      "36928389",
+      "32654247",
+      "32562316",
+      "36323732",
+      "34200602",
+      "36202211",
+      "32416961",
+      "33557213",
+      "36317101",
+      "32703419",
+      "32640381",
+      "38483823",
+      "34197802",
+      "32621841",
+      "32323533",
+      "38787915",
+      "36610391",
+      "35638584",
+      "32758876",
+      "33801464",
+      "32512089",
+      "33556408",
+      "34064163",
+      "27105451",
+      "33618668",
+      "32964056",
+      "32321813",
+      "32266867",
+      "33511102",
+      "23178926",
+      "38941233",
+      "29237836",
+      "33407800",
+      "37704176",
+      "39174826",
+      "23717688",
+      "38045338",
+      "35871289",
+      "33934422",
+      "38883712",
+      "38467657",
+      "35781025",
+      "37665006",
+      "37609146",
+      "37348142",
+      "33889923",
+      "34246830",
+      "35756710",
+      "34371045",
+      "33730680",
+      "32766587",
+      "39380503",
+      "35517857",
+      "35931673",
+      "36427555",
+      "37901441",
+      "34095780",
+      "33269347",
+      "39180270"
+    ],
+    "review": [
+      "35551296",
+      "39216563",
+      "24418573",
+      "35131265",
+      "34200602",
+      "32512089",
+      "34064163"
+    ],
+    "pmc": [
+      "9129039"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1010121",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35551296/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35551296",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

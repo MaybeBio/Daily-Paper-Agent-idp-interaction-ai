@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.07.18.604075",
+  "title": "The evolutionary ancient MEIS transcription factors actuate lineage-specific transcription to establish cardiac fate",
+  "authors": "Darieva Z; Zarrineh P; Phillips N; Mallen J; Mora AG; Donaldson I; Bridoux L; Douglas M; Dias Henriques SF; Schulte D; Birket MJ; Bobola N",
+  "journal": "bioRxiv",
+  "published_date": "2024-07-19",
+  "window": {
+    "start": "2024-07-15",
+    "end": "2024-07-21"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究MEIS转录因子在心脏分化中的基因表达调控机制，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Control of gene expression is commonly mediated by distinct combinations of transcription factors (TFs). This cooperative action allows multiple biological signals to be integrated at specific regulatory elements, resulting in highly specific gene expression patterns in space and time. It is unclear whether combinatorial binding is also necessary to bring together TFs with distinct biochemical functions, which collaborate to effectively recruit and activate RNA polymerase II. Using a cardiac differentiation model, we find that the largely ubiquitous, evolutionary ancient homeodomain proteins MEIS are essential for activating a cardiac-specific gene expression program. MEIS TFs act as actuators , fully activating transcriptional programs selected by lineage-restricted TFs to drive the dynamic progression of cardiac differentiation. Combinatorial binding of MEIS with lineage-enriched TFs, GATA and HOX, provides selectivity, guiding MEIS to function at cardiac-specific enhancers. In turn, MEIS TFs promote accumulation of the methyltransferase KMT2D to initiate lineage-specific enhancer commissioning. MEIS combinatorial binding dynamics, dictated by the changing dosage of its partners, drive cells into progressive stages of cardiac differentiation. Our results uncover tissue-specific transcriptional activation as the result of ubiquitous actuator TFs harnessing general transcriptional coactivators at tissue-specific enhancers, to which they are directed by binding with lineage- and domain-specific TFs.",
+  "abstract_zh": "基因表达的控制通常由不同转录因子（TFs）的组合所介导。这种协同作用使得多种生物信号能够在特定调控元件处整合，从而在空间和时间上产生高度特异的基因表达模式。目前尚不清楚，组合结合是否也是将具有不同生化功能的转录因子聚集在一起所必需的，这些因子协同作用以有效招募并激活RNA聚合酶II。利用心脏分化模型，我们发现广泛存在且进化上古老的同源域蛋白MEIS对于激活心脏特异性基因表达程序至关重要。MEIS转录因子充当执行器，完全激活由谱系限制性转录因子选择的转录程序，以驱动心脏分化的动态进程。MEIS与谱系富集转录因子GATA和HOX的组合结合提供了选择性，引导MEIS在心脏特异性增强子处发挥作用。反过来，MEIS转录因子促进甲基转移酶KMT2D的积累，以启动谱系特异性增强子的启用。MEIS组合结合动力学由其伙伴剂量变化所决定，驱动细胞进入心脏分化的渐进阶段。我们的结果揭示，组织特异性转录激活是普遍存在的执行器转录因子在组织特异性增强子处利用通用转录共激活因子的结果，而这些因子通过与谱系和结构域特异性转录因子的结合被引导至该处。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.07.18.604075",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.07.18.604075",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.07.18.604075/index.html"
+}

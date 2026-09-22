@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38552579",
+  "title": "Freezing-mediated formation of supraproteins using depletion forces.",
+  "authors": "Song, Jiankang; Tas, Roderick P; Martens, Max C M; Ritten, Manon V M; Wu, Hanglong; Jones, Elizabeth R; Lebouille, Jerome G J L; Vis, Mark; Voets, Ilja K; Tuinier, Remco",
+  "journal": "Journal of colloid and interface science",
+  "published_date": "2024-03-30",
+  "window": {
+    "start": "2024-03-25",
+    "end": "2024-03-31"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究利用冷冻和耗尽力形成蛋白质微粒（supraproteins），对象为折叠蛋白（BSA、HRP、溶菌酶）的相分离聚集，非无序蛋白/IDR介导的PPI，且无AI或分子模拟方法，仅理论预测耗尽相互作用，与本课题关联微弱。",
+  "abstract": "Hypothesis Long-acting formulations such as microparticles, injectable depots and implantable devices can realize spatiotemporally controlled delivery of protein drugs to extend their therapeutic in vivo half-lives. To efficiently encapsulate the protein drugs into such drug delivery systems, (sub)micron-sized protein particles are needed. The formation of micronized supraproteins can be induced through the synergistic combination of attractive depletion forces and freezing. The size of the supraproteins can be fine-tuned from submicron to several microns by adjusting the ice crystallization rate through the freeze-quench depth, which is set by the target temperature. Methods Supraprotein micron structures were prepared from protein solutions under various conditions in the presence and absence of nonadsorbing polyethylene glycol. Scanning electron microscopy and dynamic light scattering were employed to determine the sizes of the supraproteins and real-time total internal reflection fluorescent microscopy was used to follow the supraprotein formation during freezing. The protein secondary structure was measured before and after micronization by circular dichroism. A phase diagram of a protein-polyethylene glycol mixture was theoretically predicted to investigate whether the depletion interaction can elucidate the phase behavior. Findings Micronized protein supraparticles could be prepared in a controlled manner by rapid freeze-drying of aqueous mixtures of bovine serum albumin, horseradish peroxidase and lysozyme mixed with polyethylene glycol. Upon freezing, the temperature quench initiates a phase separation process which is reminiscent of spinodal decomposition. This demixing is subsequently arrested during droplet phase separation to form protein-rich microstructures. The final size of the generated protein microparticles is determined by a competition between phase separation and cooling rate, which can be controlled by target temperature. The experimental phase diagram of the aqueous protein-polyethylene glycol dispersion aligns with predictions from depletion theory for charged colloids and nonadsorbing polymers.",
+  "abstract_zh": "假设长效制剂如微球、可注射储库和植入装置能够实现蛋白质药物的时空控制释放，以延长其体内治疗半衰期。为了高效地将蛋白质药物封装到此类药物递送系统中，需要（亚）微米级的蛋白质颗粒。通过吸引性耗尽力与冷冻的协同组合，可以诱导微粉化超蛋白质的形成。超蛋白质的尺寸可通过调节冰结晶速率（由目标温度设定的冷冻淬火深度控制）从亚微米精细调控至数微米。方法在存在和不存在非吸附性聚乙二醇的条件下，从蛋白质溶液中制备超蛋白质微结构。采用扫描电子显微镜和动态光散射测定超蛋白质的尺寸，并使用实时全内反射荧光显微镜跟踪冷冻过程中的超蛋白质形成。通过圆二色光谱在微粉化前后测量蛋白质二级结构。理论上预测了蛋白质-聚乙二醇混合物的相图，以研究耗尽相互作用是否能阐明相行为。发现通过快速冷冻干燥牛血清白蛋白、辣根过氧化物酶和溶菌酶与聚乙二醇混合的水溶液，可以可控方式制备微粉化蛋白质超颗粒。冷冻时，温度淬火引发类似于旋节线分解的相分离过程。这种去混合随后在液滴相分离过程中被抑制，形成富含蛋白质的微结构。生成的蛋白质微粒的最终尺寸由相分离与冷却速率之间的竞争决定，该竞争可通过目标温度控制。水性蛋白质-聚乙二醇分散体的实验相图与带电胶体和非吸附性聚合物的耗尽理论预测一致。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38552579/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38552579/",
+  "paper_page_path": "papers/pubmed/38552579/index.html"
+}

@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without supplementary information or figures
+- **Assessment boundary** Scientific validity, methodological soundness, interpretability of claims, and alignment with stated conclusions based on the provided text alone
+- **Shared manuscript claim summary** The authors present CoVAMPnet, a computational framework combining VAMPnet-based Markov state models with optimal transport alignment and gradient-based feature attribution, to compare conformational ensembles of disordered biomolecules with and without drug candidates. Applied to Aβ42 with tramiprosate (TMP) and its metabolite 3-sulfopropanoic acid (SPA), the framework predicts that SPA preserves α-helical conformations and suppresses β-strand formation, with partial experimental validation.
+- **Visible evidence base** Text descriptions of MD simulation protocols, secondary structure analyses, Markov state model construction, alignment methodology, gradient-based interpretation, interaction energy calculations, and experimental validation (CD, FTIR, NMR, ThT). No figures, tables, or supplementary material were available for inspection.
+- **Missing materials affecting confidence** All figures, tables, supplementary information, and supporting methods. Numerical values for key results (e.g., transition rates, alignment costs, gradient magnitudes) are only partially reported in text. Convergence and validation details for the VAMPnet models are referenced but not visible.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a methodologically ambitious framework that addresses a genuine gap in comparative analysis of Markov state models across different molecular systems. The combination of optimal transport-based alignment and gradient-based feature attribution is conceptually novel and potentially valuable. However, the evidence provided in the text alone is insufficient to fully assess the validity of the method or the robustness of the biological conclusions. The application to Aβ42 with TMP and SPA is well-motivated, but the discrepancy between computational predictions and experimental observations is substantial and warrants deeper discussion. The manuscript would benefit from clearer presentation of validation metrics and a more critical treatment of the limitations of the approach.
+- **Who would be interested in the results, and why** Computational biophysicists and cheminformaticians working on intrinsically disordered proteins, Markov state models, and deep learning approaches to molecular dynamics. Researchers studying Alzheimer's disease and Aβ aggregation mechanisms would also find the application relevant. The methodological contribution on aligning MSM ensembles across systems could interest method developers in the molecular simulation community.
+- **Major strengths** The manuscript addresses a real methodological gap in comparing MSMs across different systems. The two-step approach of alignment via optimal transport followed by gradient-based interpretation is conceptually elegant and leverages the differentiability of neural network-based MSMs. The application to a clinically relevant system (Aβ42 with phase 3 therapeutics) provides practical motivation. The authors are transparent about discrepancies between computational and experimental results, which is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the alignment method based on optimal transport provides a valid correspondence between states across different systems.
+  - **Evidence pointer** Section "Alignment of Learned States Across Systems with and without Ligands"; threshold Te = 6 described as "selected empirically"
+  - **Concern** The alignment method is central to the comparative analysis, but the text provides no validation that the optimal transport alignment produces biologically meaningful correspondences. The threshold Te = 6 is described as empirically selected, but no justification is given for this value, nor is there any sensitivity analysis. The Wasserstein distance between distributions of inter-residue distance matrices may not capture functionally relevant similarities between conformational states, particularly for disordered proteins where distinct states can have similar distance distributions.
+  - **Why it matters** If the alignment is incorrect or unstable, all subsequent comparative claims about state preservation, new state formation, and kinetic differences between systems are compromised. The entire biological interpretation rests on this alignment being meaningful.
+  - **Resolution test** Provide validation of the alignment method, e.g., by showing that aligned states have similar structural properties (secondary structure, contact maps) beyond the distance matrices used for alignment, or by demonstrating robustness of the alignment to the choice of threshold and to perturbations in the input data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that gradient-based analysis identifies residues important for state assignment, and that these residues correspond to experimentally observed interaction sites.
+  - **Evidence pointer** Section "Characterization of Learned Conformational States via Network Gradients"; comparison with NMR CSP data in "Experimental Validation"
+  - **Concern** The gradient-based feature attribution is presented as a key novelty, but the text does not describe how the gradients are aggregated across the ensemble of models, how statistical significance is assessed, or how the 10,000 randomly selected frames are chosen. The comparison with NMR CSP data is qualitative and the text does not provide a quantitative measure of agreement. The claim that gradient analysis "pinpointed similar conformational events as the ones captured by NMR" is not supported by any statistical test or correlation analysis.
+  - **Why it matters** The interpretability of the learned MSMs is a central contribution of the work. Without rigorous validation of the gradient-based attribution, the biological conclusions drawn from this analysis are not firmly established.
+  - **Resolution test** Provide a quantitative comparison between gradient-based importance scores and experimental measurements (e.g., NMR CSP magnitudes), including appropriate statistical tests. Describe how gradient aggregation is performed and how variability across models is accounted for.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that "SPA impacted Aβ42 more than TMP, protecting α-helices and suppressing the formation of aggregation-prone β-strands" and the broader suggestion that this may explain the therapeutic mechanism.
+  - **Evidence pointer** Section "Secondary Structure Content in Simulations of Free Aβ42 and Aβ42 with Ligands"; Figure 1B-D (described in text); "Experimental Validation" section
+  - **Concern** The computational prediction of strong α-helix stabilization by SPA is not confirmed by the experimental data presented. CD shows no significant changes in secondary structure with TMP or SPA. FTIR shows only subtle changes for TMP, not SPA. NMR shows CSPs for SPA but these are described as "not sufficient to indicate a shift in the global secondary structure." The ThT assay shows no effect on fibril formation. The authors acknowledge this discrepancy but do not adequately address what this means for the validity of the computational predictions. The claim that SPA "protects α-helices" is a strong statement that is not supported by the experimental evidence.
+  - **Why it matters** The biological significance of the work depends on the claim that the computational framework can predict the effects of drug candidates on disordered proteins. If the primary prediction is not experimentally validated, the practical utility of the method for drug discovery is questionable.
+  - **Resolution test** Either provide additional experimental evidence supporting the computational predictions, or substantially temper the claims about the biological effects of TMP/SPA on Aβ42. Discuss more thoroughly what the discrepancy between computation and experiment implies for the reliability of the method.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the VAMPnet models produce reliable Markov state models, as evidenced by implied time scales plots and Chapman-Kolmogorov tests.
+  - **Evidence pointer** Section "Construction of Variational Markov State Models"; Figures S13-S14 (referenced but not visible)
+  - **Concern** The text states that implied time scales plots and Chapman-Kolmogorov tests were used to select τ = 25 ns and 3 states, but the actual results are not described. The reader cannot assess whether the models pass these validation tests. The text also notes that conventional MSM construction failed, but does not explain why VAMPnet succeeds where conventional methods fail.
+  - **Why it matters** The reliability of the MSMs is foundational to all subsequent analysis. Without visible validation results, the reader cannot assess whether the models are trustworthy.
+  - **Resolution test** Describe the results of the implied time scales and Chapman-Kolmogorov tests in the main text, including the actual values and how they support the chosen parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and Methods
+  - **Evidence pointer** Section "Comparative Markov State Model Analysis (CoVAMPnet)"
+  - **Issue** The methods section assumes significant familiarity with VAMPnet, optimal transport, and Markov state models. The conceptual motivation for each step could be clearer for readers from the experimental biophysics community.
+  - **Required correction** Add brief conceptual explanations of why each methodological component is needed and what it contributes to the overall framework.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** MD simulation setup
+  - **Evidence pointer** Section "Molecular Dynamics (MD) Simulations"
+  - **Issue** The text states that 100 molecules of TMP or SPA were used per Aβ42 molecule, approximating the experimental 1000:1 ratio. The justification for this reduced ratio is computational cost, but the potential impact of this difference on the conclusions is not discussed.
+  - **Required correction** Add a brief discussion of how the reduced ligand concentration might affect the observed interactions and whether this could explain any discrepancies with experimental results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion of experimental validation
+  - **Evidence pointer** Section "Experimental Validation"
+  - **Issue** The text mentions that experimental results showed "only mild effects" of TMP/SPA on Aβ42, but does not discuss whether the experimental conditions (e.g., 1000:1 ratio, buffer conditions) are directly comparable to the simulation conditions.
+  - **Required correction** Add a paragraph discussing the comparability of experimental and computational conditions and how differences might affect the interpretation of the results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Free energy landscape estimation
+  - **Evidence pointer** Section "Estimation of the Free Energy Landscape"
+  - **Issue** The text mentions Gaussian kernel density estimation on 10% of the simulated frames but does not specify the bandwidth selection method or the number of frames used.
+  - **Required correction** Provide details on the kernel bandwidth selection and the total number of frames used for the free energy landscape estimation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (alignment validation), R1-M2 (gradient analysis validation), R1-M3 (experimental discrepancy), R1-M4 (MSM validation visibility)
+- **Assessment against Nature-style criteria** Originality: The combination of optimal transport alignment with gradient-based interpretation of VAMPnet models is genuinely novel and addresses a real gap in the field. Scientific importance: The application to drug candidate effects on disordered proteins is clinically relevant, but the lack of strong experimental validation limits the immediate impact. Interdisciplinary readership: The work bridges computational chemistry, machine learning, and biophysics, but the presentation may be too technical for a broad audience. Technical soundness: The methodological components are individually well-established, but the validation of the novel alignment and interpretation steps is insufficient in the provided text. Readability for nonspecialists: The manuscript is dense and assumes significant background knowledge; the conceptual framing could be improved.
+
+## Risk / unsupported claims
+- The claim that CoVAMPnet is "broadly applicable to study the effects of drug candidates on the conformational behavior of intrinsically disordered biomolecules" is not fully supported, as only a single application is demonstrated and the experimental validation is partial.
+- The claim that SPA "protects α-helices and suppresses the formation of aggregation-prone β-strands" is not supported by the experimental data presented in the text.
+- The claim that gradient-based analysis "pinpointed similar conformational events as the ones captured by NMR" is not quantitatively supported.
+- The alignment threshold Te = 6 is described as empirically selected but no justification or sensitivity analysis is provided.
+- The statement that "additional data did not significantly affect the estimated implied time scales" (referring to Figure S18) cannot be verified without the figure.

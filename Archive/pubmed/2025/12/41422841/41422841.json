@@ -1,0 +1,201 @@
+{
+  "identity": {
+    "pmid": "41422841",
+    "doi": "10.1016/j.jmb.2025.169600",
+    "title": "Multivalency in Tau-Microtubule Interactions: Heterogeneous Association and Functional Implications."
+  },
+  "content": {
+    "abstract": "Tau is a dynamic microtubule-associated protein essential for maintaining microtubule (MT) stability and neuronal function. Its intrinsically disordered nature, combined with its multivalent binding capacity, makes it challenging to characterize structurally. Governed largely by electrostatic interactions, both in solution and when bound to MTs, Tau exhibits highly transient and heterogeneous behavior. Here, we apply coarse-grained molecular dynamics simulations to investigate tau-MT interactions and uncover how multivalent binding is regulated at the sub-regional level. Our simulations capture interactions both with the flexible, disordered C-terminal tails of tubulin and with the structured tubulin surface. We show that distinct tau sub-regions contribute differentially to binding. Isoform variation, defined by the presence or absence of specific sub-regions, further modulates tau's interaction with tubulin, influencing both MT stability and dimer polymerization rates through electrostatic tuning. Our simulations also reveal how Alzheimer's disease-associated phosphorylation disrupts tau-MT interactions by weakening multivalent engagement. Together, our findings provide new mechanistic insight into how electrostatics and sub-regional composition regulate the dynamic, multivalent nature of tau-MT interactions, with implications for neuronal integrity and tauopathy-related dysfunction.",
+    "keywords": [],
+    "mesh_terms": [
+      "*tau Proteins/metabolism/chemistry",
+      "*Microtubules/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "Humans",
+      "Protein Binding",
+      "Tubulin/metabolism/chemistry",
+      "Static Electricity",
+      "Phosphorylation",
+      "Protein Multimerization",
+      "Alzheimer Disease/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Naveh-Tassa, Segev",
+        "Levy, Yaakov"
+      ],
+      "short_names": [
+        "Naveh-Tassa S",
+        "Levy Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel.",
+        "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel. Electronic address: koby.levy@weizmann.ac.il."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Naveh-Tassa, Segev",
+        "short_name": "Naveh-Tassa S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel."
+        ]
+      },
+      {
+        "full_name": "Levy, Yaakov",
+        "short_name": "Levy Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Structural Biology, Weizmann Institute of Science, Rehovot 76100, Israel. Electronic address: koby.levy@weizmann.ac.il."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2026 Mar 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/22 00:28",
+    "fetched_at": "2026-09-17 23:16:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41422841",
+      "31995742",
+      "31699899",
+      "39826549",
+      "27911791",
+      "32245812",
+      "31266806",
+      "40489183",
+      "28322917",
+      "25162583",
+      "26034266",
+      "36372288",
+      "23659998",
+      "26996940",
+      "26165802",
+      "19619466",
+      "30909607",
+      "8590813",
+      "28636913",
+      "28882299",
+      "7706316",
+      "8163474",
+      "24251416",
+      "31462746",
+      "10464280",
+      "26542680",
+      "29314492",
+      "25165145",
+      "24733915",
+      "25196605",
+      "23041345",
+      "33017094",
+      "29215007",
+      "30865715",
+      "39871444",
+      "40832283",
+      "10818091",
+      "27582388",
+      "27975244",
+      "29748322",
+      "33865866",
+      "31653695",
+      "30992364",
+      "23087208",
+      "19074508",
+      "37499261",
+      "30218010",
+      "9846894",
+      "30404654",
+      "32196663",
+      "39386529",
+      "12886013",
+      "37702417",
+      "34838590",
+      "38491006",
+      "30572013",
+      "32341125",
+      "40419040",
+      "7669769",
+      "34572521",
+      "31699369",
+      "10527895",
+      "23397429",
+      "40401986",
+      "31539262",
+      "15671021",
+      "36373666",
+      "38512690",
+      "8120098",
+      "24444746",
+      "9273897",
+      "7830071",
+      "29039655",
+      "10747907",
+      "17311412",
+      "26953146",
+      "15301550",
+      "21062741",
+      "26684364",
+      "33453943",
+      "10535944",
+      "23740819",
+      "36669127",
+      "18495933",
+      "8429017",
+      "22072628",
+      "8068626",
+      "11034902",
+      "14690523",
+      "28877466",
+      "37122097",
+      "8226779",
+      "40745206",
+      "38489841",
+      "34730359",
+      "31346240",
+      "29167405",
+      "40846995",
+      "38396035",
+      "10685605"
+    ],
+    "review": [
+      "41422841",
+      "31539262",
+      "26684364"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(25)00666-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40286477",
+  "title": "Amino acid sequence-based IDR classification using ensemble machine learning and quantum neural networks.",
+  "authors": "Kang, Seok-Jin; Shin, Hongchul",
+  "journal": "Computational biology and chemistry",
+  "published_date": "2025-04-27",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用集成机器学习、深度神经网络和量子神经网络基于氨基酸序列特征进行IDR分类，虽以无序蛋白为对象且含AI方法，但仅做分类预测、不涉及PPI或互作机制建模，故综合评分为5。",
+  "abstract": "Biologically traditional methods, such as the Uversky plot, which rely on hydrophobicity and net charge, have inherent limitations in accurately distinguishing intrinsically disordered regions (IDRs) from ordered protein regions. To overcome these constraints, we propose a novel ensemble framework integrating Machine Learning (ML), Deep Neural Networks (DNN), and Quantum Neural Networks (QNN) to enhance IDR classification accuracy. Notably, this study is the first to employ QNNs for IDR classification, leveraging quantum entanglement to model intricate feature interactions. Amino acid sequences were analyzed to extract biophysical features, including charge distribution, hydrophobicity, and structural properties, which served as inputs for the predictive models. ML was utilized for independent feature learning, DNN for hierarchical interaction modeling, and QNN for capturing high-order dependencies. Our meta-model demonstrated an accuracy of 0.85, surpassing individual classifiers and highlighting the importance of buried amino acids and feature interactions between scaled hydrophobicity and large, buried, and charged residues. This study advances computational protein science by demonstrating the applicability of QNNs in bioinformatics and establishing a robust framework for IDR classification.",
+  "abstract_zh": "生物学传统方法，如Uversky图，依赖于疏水性和净电荷，在准确区分 intrinsically disordered regions (IDRs) 与有序蛋白质区域方面存在固有局限性。为克服这些限制，我们提出了一种新颖的集成框架，整合了机器学习 (Machine Learning, ML)、深度神经网络 (Deep Neural Networks, DNN) 和量子神经网络 (Quantum Neural Networks, QNN)，以提高IDR分类准确性。值得注意的是，本研究首次将QNN应用于IDR分类，利用量子纠缠来建模复杂的特征交互。对氨基酸序列进行分析，提取生物物理特征，包括电荷分布、疏水性和结构特性，这些特征作为预测模型的输入。ML用于独立特征学习，DNN用于层次化交互建模，QNN用于捕捉高阶依赖性。我们的元模型准确率达到0.85，超越了单个分类器，并强调了埋藏氨基酸以及缩放疏水性与大型、埋藏和带电残基之间特征交互的重要性。本研究通过展示QNN在生物信息学中的适用性，并建立了一个稳健的IDR分类框架，推进了计算蛋白质科学的发展。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40286477/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40286477/",
+  "paper_page_path": "papers/pubmed/40286477/index.html"
+}

@@ -1,0 +1,137 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.03.04.641475",
+  "title": "Structural conformations of intrinsically disordered proteins of podocyte slit-diaphragm",
+  "doi": "10.1101/2025.03.04.641475",
+  "abstract": "The slit-diaphragm (SD), a specialized junction between the foot processes of neighboring podocytes, regulates the permselectivity of glomerular filtration. It functions as a size- and charge-selective molecular sieve, ensuing protein-free urine. SD comprises several proteins such as nephrin, NEPH1, podocin, CD2AP, and TRPC6. Nephrin and NEPH1 are extracellular proteins that bridge the gap between foot processes, whereas podocin and CD2AP are adapter proteins. The intrinsically disordered regions (IDRs) of SD proteins play a crucial role in assembling these proteins as a macromolecular complex. Mutations in these proteins disrupt SD integrity, leading to a nephrotic syndrome characterized by heavy proteinuria. The structural details of each protein of this macromolecular complex are poorly detailed. We employed molecular docking and molecular dynamics simulations to investigate the structural dynamics of SD proteins. Our findings reveal that SD proteins exhibit partner-specific conformational adaptations driven by short linear motifs and molecular recognition features. CD2AP interacts transiently with nephrin but forms a more stable complex with podocin. NEPH1 and nephrin interact via extracellular immunoglobulin domains while maintaining dynamic intracellular contacts. Podocin preferentially interacts with nephrin over NEPH1, and distinct subunit-sharing mechanisms emerge, where CD2AP and TRPC6 may simultaneously associate with a single podocin subunit. Mutational analysis reveals that disease-associated variants, including CD2AP (P532S), podocin (R138Q), and nephrin (G1161V), enhance local stability but restrict the flexibility of IDR and impair SD assembly. Our study provides evidence of dynamic subunit sharing within the SD complex, offering new insights into the assembly of SD in health and disease.",
+  "authors": [
+    "Padmanaban HK",
+    "Bheemireddy S",
+    "Mulukala SK",
+    "Dunna NR",
+    "Pasupulati AK"
+  ],
+  "published_date": "2025-03-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.03.04.641475",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.03.04.641475.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR987488",
+    "raw_record": {
+      "id": "PPR987488",
+      "source": "PPR",
+      "doi": "10.1101/2025.03.04.641475",
+      "title": "Structural conformations of intrinsically disordered proteins of podocyte slit-diaphragm",
+      "authorString": "Padmanaban HK, Bheemireddy S, Mulukala SK, Dunna NR, Pasupulati AK.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Padmanaban HK",
+            "lastName": "Padmanaban",
+            "firstName": "Hari Krishnan",
+            "initials": "HK"
+          },
+          {
+            "fullName": "Bheemireddy S",
+            "lastName": "Bheemireddy",
+            "firstName": "Sneha",
+            "initials": "S"
+          },
+          {
+            "fullName": "Mulukala SK",
+            "lastName": "Mulukala",
+            "firstName": "Sandeep KN",
+            "initials": "SK"
+          },
+          {
+            "fullName": "Dunna NR",
+            "lastName": "Dunna",
+            "firstName": "Nageswara Rao",
+            "initials": "NR"
+          },
+          {
+            "fullName": "Pasupulati AK",
+            "lastName": "Pasupulati",
+            "firstName": "Anil Kumar",
+            "initials": "AK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9467-7650"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9467-7650"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The slit-diaphragm (SD), a specialized junction between the foot processes of neighboring podocytes, regulates the permselectivity of glomerular filtration. It functions as a size- and charge-selective molecular sieve, ensuing protein-free urine. SD comprises several proteins such as nephrin, NEPH1, podocin, CD2AP, and TRPC6. Nephrin and NEPH1 are extracellular proteins that bridge the gap between foot processes, whereas podocin and CD2AP are adapter proteins. The intrinsically disordered regions (IDRs) of SD proteins play a crucial role in assembling these proteins as a macromolecular complex. Mutations in these proteins disrupt SD integrity, leading to a nephrotic syndrome characterized by heavy proteinuria. The structural details of each protein of this macromolecular complex are poorly detailed. We employed molecular docking and molecular dynamics simulations to investigate the structural dynamics of SD proteins. Our findings reveal that SD proteins exhibit partner-specific conformational adaptations driven by short linear motifs and molecular recognition features. CD2AP interacts transiently with nephrin but forms a more stable complex with podocin. NEPH1 and nephrin interact via extracellular immunoglobulin domains while maintaining dynamic intracellular contacts. Podocin preferentially interacts with nephrin over NEPH1, and distinct subunit-sharing mechanisms emerge, where CD2AP and TRPC6 may simultaneously associate with a single podocin subunit. Mutational analysis reveals that disease-associated variants, including CD2AP (P532S), podocin (R138Q), and nephrin (G1161V), enhance local stability but restrict the flexibility of IDR and impair SD assembly. Our study provides evidence of dynamic subunit sharing within the SD complex, offering new insights into the assembly of SD in health and disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.03.04.641475"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.03.04.641475"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-03-14",
+      "firstPublicationDate": "2025-03-11",
+      "firstIndexDate": "2025-03-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

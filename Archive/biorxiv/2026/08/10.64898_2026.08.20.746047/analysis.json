@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.20.746047",
+  "title": "BindCORE: Biophysical Ensemble Learning for Predicting Interaction Sites in Intrinsically Disordered Regions",
+  "authors": "Nicolas Buton; Luiz Felipe Piochi; Hamed Khakzad",
+  "journal": "bioRxiv",
+  "published_date": "2026-08-22",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 8,
+  "one_liner_zh": "BindCORE 提出集成构象系综生物物理描述符的深度学习框架，预测无序蛋白中线性互作肽和分子识别特征位点，揭示了系综级特征对互作位点预测的机制性贡献。",
+  "abstract": "Intrinsically disordered proteins and regions (IDPs/IDRs) mediate diverse cellular functions through binding segments whose functional properties are encoded in dynamic conformational ensembles rather than a single static state. Existing predictors of linear interacting peptides (LIPs) and molecular recognition features (MoRFs) rely primarily on sequence-derived features, leaving ensemble-level biophysical properties largely unexplored. Here, we introduce BindCORE, an ensemble-aware deep learning framework that integrates global, local, and pairwise biophysical descriptors to predict interaction sites within IDRs. These features are processed through a multi-scale architecture that enables information exchange between sequence- and ensemble-based global, local, and pairwise information. Across established LIP and MoRF benchmarks, BindCORE consistently improves performance over sequence-based baselines, demonstrating the predictive signals of ensemble-derived properties beyond sequence-based representations alone. Feature-attribution analyses reveal that pairwise descriptors are the dominant contributors to prediction, while solvent accessibility, backbone dihedral entropy, and global geometric properties provide complementary information. Feature-importance rankings vary substantially across ensemble flavours, indicating that different conformational generators encode distinct biophysical signatures of interaction-site propensity. Together, our results show that conformational ensembles contain interpretable determinants of LIP and MoRF binding residues and establish BindCORE as a general framework for incorporating biophysical information into the prediction of functional regions in intrinsically disordered proteins. BindCORE is freely available as a ready-to-use Google Colab notebook (BindCORE Colab notebook). Key Messages BindCORE integrates ensemble-derived biophysical descriptors to predict residue-level interaction sites in intrinsically disordered proteins. Ensemble-derived features improve prediction performance over state-of-the-art sequence-based methods on both LIP and MoRF benchmarks. Pairwise ensemble descriptors, especially contact and dynamic cross-correlation maps, provide the strongest signals for predicting interaction-site residues, while global chain geometry, solvent accessibility, and backbone dihedral preferences add complementary information.",
+  "abstract_zh": "固有无序蛋白及区域（IDPs/IDRs）通过结合片段介导多种细胞功能，这些功能特性编码在动态构象系综中，而非单一静态状态。现有的线性相互作用肽（LIPs）和分子识别特征（MoRFs）预测器主要依赖序列衍生特征，对系综层面的生物物理特性探索甚少。在此，我们引入BindCORE，一种系综感知的深度学习框架，整合全局、局部及成对生物物理描述符，以预测IDRs内的相互作用位点。这些特征通过多尺度架构处理，实现序列与系综基础的全局、局部及成对信息间的交换。在已建立的LIP和MoRF基准测试中，BindCORE持续优于基于序列的基线方法，展示了系综衍生特性超越仅序列表示之外的预测信号。特征归因分析揭示，成对描述符是预测的主要贡献者，而溶剂可及性、骨架二面角熵及全局几何特性提供补充信息。特征重要性排名在不同系综风味间差异显著，表明不同构象生成器编码了相互作用位点倾向性的独特生物物理特征。综合来看，我们的结果表明构象系综包含LIP和MoRF结合残基的可解释决定因素，并将BindCORE确立为将生物物理信息纳入固有无序蛋白功能区域预测的通用框架。BindCORE作为即用型Google Colab笔记本（BindCORE Colab notebook）免费提供。关键信息：BindCORE整合系综衍生的生物物理描述符，预测固有无序蛋白中的残基级相互作用位点。系综衍生特征在LIP和MoRF基准上均优于最先进的基于序列方法。成对系综描述符，尤其是接触图和动态交叉相关图，为预测相互作用位点残基提供最强信号，而全局链几何、溶剂可及性及骨架二面角偏好提供补充信息。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746047",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.20.746047",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.20.746047/index.html"
+}

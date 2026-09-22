@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39868549",
+  "title": "A study of alpha-synuclein and poly(N-isopropylacrylamide) complex formation through detailed atomistic simulations.",
+  "authors": "Ektirici, Sisem; Harmandaris, Vagelis",
+  "journal": "Soft matter",
+  "published_date": "2025-01-27",
+  "window": {
+    "start": "2025-01-27",
+    "end": "2025-02-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用原子级分子动力学模拟研究无序蛋白α-突触核蛋白与PNIPAM聚合物的复合物形成，揭示NAC区非极性互作及稳定机制，对象为IDP且聚焦互作机制建模，虽非PPI但方法可迁移，故评8分。",
+  "abstract": "This work presents an investigation of the influence of poly(N-isopropylacrylamide) (PNIPAM) polymer on the structural dynamics of intrinsically disordered alpha-synuclein (alpha-syn) protein, exploring the formation and intricate features of the resulting alpha-syn/PNIPAM complexes. Using atomistic molecular dynamics (MD) simulations, our study analyzes the impact of initial configuration, polymer molecular weight, and protein mutations on the alpha-syn and the alpha-syn/PNIPAM complex. Atomistic simulations, of a few mus, of the protein/polymer complex reveal crucial insights into molecular interactions within the complex, emphasizing a delicate balance of forces governing its stability and structural evolution. Our findings indicate that PNIPAM polymer engages in significant non-polar interactions with the non-amyloid component (NAC) region of alpha-syn, which plays a crucial role in fibril formation, under various conditions such as the mutations in the protein structure and polymer chain length. Especially the PNIPAM polymer with a 40mer monomer exhibits a stabilizing effect on the structural properties of the protein, reducing intramolecular interactions that contribute to misfolding. These findings, which delve into protein/polymer interactions, hold promise as potential guidance for therapeutic strategies in various neurodegenerative disorders.",
+  "abstract_zh": "本工作研究了聚(N-异丙基丙烯酰胺)（PNIPAM）聚合物对 intrinsically disordered α-突触核蛋白（alpha-syn）结构动力学的影响，探讨了由此形成的alpha-syn/PNIPAM复合物的形成及其复杂特征。利用原子级分子动力学（MD）模拟，我们的研究分析了初始构型、聚合物分子量和蛋白质突变对alpha-syn及alpha-syn/PNIPAM复合物的影响。对蛋白质/聚合物复合物进行的数微秒级原子模拟，揭示了复合物内分子相互作用的关键见解，强调了控制其稳定性和结构演变的力的微妙平衡。我们的研究结果表明，PNIPAM聚合物与alpha-syn的非淀粉样成分（NAC）区域在各种条件下（如蛋白质结构中的突变和聚合物链长）发生显著的非极性相互作用，而该区域在纤维形成中起着关键作用。特别是，40mer单体的PNIPAM聚合物对蛋白质的结构性质表现出稳定效应，减少了导致错误折叠的分子内相互作用。这些深入探讨蛋白质/聚合物相互作用的发现，有望为多种神经退行性疾病的治疗策略提供潜在指导。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39868549/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39868549/",
+  "paper_page_path": "papers/pubmed/39868549/index.html"
+}

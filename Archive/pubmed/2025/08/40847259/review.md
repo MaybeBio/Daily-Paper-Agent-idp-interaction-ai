@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary information
+- **Shared manuscript claim summary** The authors report that dispersing native alpha-synuclein in an aqueous solution of a PEG-based polymer surfactant, followed by lyophilization, produces a viscoelastic material at room temperature in which the protein adopts a stable and reversible alpha-helical conformation. Solid-state NMR implicates alanine, threonine, and valine residues in the N-terminal and NAC regions in helix formation. SAXS shows that the neat polymer surfactant matrix has a distorted lamellar mesophase that becomes ordered upon protein incorporation. All-atom MD simulations suggest that polymer surfactant hydrophobic domains form nematic-like assemblies that selectively interact with hydrophobic residues of alpha-synuclein. The authors propose polymer-driven strategies for long-term protein storage and stabilization.
+- **Visible evidence base** Abstract text only; no experimental methods, spectra, scattering data, simulation parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, NMR assignment details, SAXS fitting parameters, MD simulation force fields and trajectory analyses, replicate information, and any control experiments
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing and potentially useful observation that a polymer surfactant mesophase can stabilize alpha-synuclein in an alpha-helical conformation at room temperature. The combination of experimental and computational approaches is appropriate in principle. However, the abstract alone provides insufficient detail to evaluate the rigor of the structural assignments, the reversibility claim, the mesophase ordering interpretation, or the biological relevance of the observed conformation. The central claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in protein biophysics, particularly those studying intrinsically disordered proteins and amyloid aggregation, would find the conformational stabilization approach relevant. The broader community working on protein formulation, therapeutic protein storage, and polymer-based excipients would also be interested, given the practical implications for long-term protein stability without cold-chain requirements.
+- **Major strengths** The study addresses a practical problem, namely the cold-chain dependence of alpha-synuclein storage, with a potentially scalable polymer-based solution. The use of multiple orthogonal techniques, including solid-state NMR, SAXS, and MD simulations, is commendable. The observation that protein incorporation orders the polymer mesophase is a nontrivial finding that suggests specific protein-matrix interactions rather than passive encapsulation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural assignment
+  - **Claim pointer** The abstract claims that alpha-synuclein adopts a highly stable and reversible alpha-helical secondary structure in the polymer surfactant mesophase.
+  - **Evidence pointer** Solid-state NMR, location not provided
+  - **Concern** The abstract states that helix formation involves alanine, threonine, and valine residues in the N-terminal and NAC regions, but no quantitative information is provided on the fraction of helix, the length of the helical segment, or the confidence of the residue-specific assignment. Solid-state NMR chemical shift-based secondary structure predictions require careful referencing and assignment completeness, and the abstract does not indicate how these were established.
+  - **Why it matters** The central claim of the paper rests on the unambiguous demonstration that the protein is alpha-helical and not, for example, partially folded or aggregated in a different conformation. Without quantitative secondary structure content and assignment statistics, the claim cannot be evaluated.
+  - **Resolution test** Provide the fraction of residues in helical conformation, the chemical shift deviations from random coil values, and the assignment completeness percentage. Show that the helical assignment is supported by at least two independent NMR parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of reversibility claim
+  - **Claim pointer** The abstract claims that the alpha-helical conformation is reversible.
+  - **Evidence pointer** Location not provided
+  - **Concern** Reversibility is a strong thermodynamic statement. The abstract does not specify what conditions were changed to test reversibility, whether the protein returned to its native disordered state, or how this was measured. Reversibility could mean refolding upon dilution, upon temperature change, or upon extraction from the mesophase, and each interpretation requires different evidence.
+  - **Why it matters** The reversibility claim is central to the proposed storage application, as it implies that the protein can be recovered in its functional form. If reversibility is not rigorously demonstrated, the practical utility of the approach is undermined.
+  - **Resolution test** Describe the exact experimental protocol for reversing the conformational transition, show spectroscopic or chromatographic evidence that the recovered protein is indistinguishable from native alpha-synuclein, and report the yield of recovery.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of SAXS interpretation
+  - **Claim pointer** The abstract claims that the neat polymer surfactant matrix exhibits a distorted lamellar mesophase that becomes ordered upon alpha-synuclein incorporation.
+  - **Evidence pointer** SAXS, location not provided
+  - **Concern** The interpretation of a distorted lamellar phase and its ordering upon protein addition requires detailed scattering profile analysis, including peak indexing, correlation lengths, and domain spacing. The abstract provides no information on the number of observed reflections, the quality of the fit, or the length scale of the ordering transition.
+  - **Why it matters** The claim that the protein orders the mesophase is a key mechanistic insight. If the SAXS data are ambiguous or the phase assignment is not robust, the proposed interaction model loses support.
+  - **Resolution test** Show the SAXS profiles for the neat and protein-containing samples, index the observed peaks, provide the fitted lattice parameters, and demonstrate that the ordering transition is reproducible across multiple protein concentrations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of MD simulation relevance
+  - **Claim pointer** The abstract claims that all-atom MD simulations show polymer surfactant hydrophobic domains self-assemble into nematic-like structures that selectively interact with hydrophobic residues in alpha-synuclein.
+  - **Evidence pointer** MD simulations, location not provided
+  - **Concern** The abstract does not specify the simulation length, system size, force field, water model, or whether the simulations were equilibrated. The claim of nematic-like ordering is a strong statement that requires careful analysis of orientational order parameters and finite-size considerations. The selectivity of hydrophobic interactions must be quantified against a null model.
+  - **Why it matters** The MD simulations are used to propose a molecular mechanism for the experimental observations. If the simulations are not converged or the analysis is not rigorous, the mechanistic claim is speculative.
+  - **Resolution test** Provide simulation duration, system composition, force field parameters, and show that the nematic-like order parameter is converged and statistically significant relative to a control simulation without protein.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** The term "neat polymer surfactant mesophase" in the title
+  - **Evidence pointer** Title
+  - **Issue** The term "neat" is ambiguous in this context, as it could mean the pure polymer surfactant without protein or without solvent. The abstract clarifies that the mesophase is aqueous, but the title is potentially misleading.
+  - **Required correction** Clarify in the title or abstract whether "neat" refers to the absence of protein or the absence of additional solvent.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of stability claim
+  - **Affected element** The claim of "highly stable" alpha-helical structure
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not define the timescale over which stability was assessed, nor the temperature range tested. "Stable" could mean stable for hours, days, or months, and the claim is not quantifiable as stated.
+  - **Required Correction** Specify the storage duration and temperature range over which the helical conformation was maintained, and report any degradation or aggregation observed over that period.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability of the proposed strategy
+  - **Affected element** The claim that these findings establish polymer-driven strategies for various therapeutic proteins
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The study is performed with a single protein, alpha-synuclein. Generalizing to "various therapeutic proteins" is an extrapolation that is not supported by the presented data.
+  - **Required Correction** Soften the claim to indicate that the approach may be applicable to other proteins, or provide preliminary data with at least one additional protein.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4
+- **Assessment against Nature-style criteria** Originality is moderate, as polymer-based protein stabilization is an active field, though the specific use of a mesophase to induce and stabilize helical structure in alpha-synuclein is a novel angle. Scientific importance is potentially high for the protein formulation community, but the biological relevance of the helical conformation to alpha-synuclein function or pathology is not addressed. Interdisciplinary readership is plausible, spanning polymer science, biophysics, and formulation science. Technical soundness cannot be assessed from the abstract alone, and the identified gaps in structural assignment, reversibility, and simulation rigor are substantial. Readability for nonspecialists is adequate, though the abstract assumes familiarity with mesophase terminology and solid-state NMR methods.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and preliminary data, but the central claims of stable helix formation, reversibility, and mesophase ordering require the full manuscript to verify. I would be supportive if the technical concerns regarding quantitative structural assignment, reversibility demonstration, and simulation convergence are resolved in the full paper.
+
+## Risk / unsupported claims
+- The claim that alpha-synuclein adopts a "highly stable and reversible" alpha-helical structure is unsupported without quantitative secondary structure data and a defined reversibility protocol.
+- The claim that the polymer surfactant mesophase becomes "ordered" upon protein incorporation is unsupported without SAXS peak indexing and fitting details.
+- The claim that MD simulations show "nematic-like" structures is unsupported without simulation convergence criteria and order parameter analysis.
+- The generalization to "various therapeutic proteins" is unsupported by the single-protein study described.
+- The biological or functional significance of the alpha-helical conformation for alpha-synuclein is not addressed and cannot be evaluated from the abstract.

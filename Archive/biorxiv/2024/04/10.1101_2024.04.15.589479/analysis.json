@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.15.589479",
+  "title": "GōMartini 3: From large conformational changes in proteins to environmental bias corrections",
+  "authors": "Souza PCT; Borges-Araújo L; Brasnett C; Moreira RA; Grünewald F; Park P; Wang L; Razmazma H; Borges-Araújo AC; Cofas-Vargas LF; Monticelli L; Mera-Adasme R; Melo MN; Wu S; Marrink SJ; Poma AB; Thallmair S",
+  "journal": "bioRxiv",
+  "published_date": "2024-04-16",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍GōMartini 3粗粒化模型，结合结构基Gō模型与Martini 3，用于模拟蛋白质大尺度构象变化及环境偏差校正，虽非直接针对无序蛋白PPI，但其粗粒化建模方法对IDR介导互作的物理模拟具有可迁移启发。",
+  "abstract": "<h4>ABSTRACT</h4> Coarse-grained modeling has become an important tool to supplement experimental measurements, allowing access to spatio-temporal scales beyond all-atom based approaches. The GōMartini model combines structure- and physics-based coarse-grained approaches, balancing computational efficiency and accurate representation of protein dynamics with the capabilities of studying proteins in different biological environments. This paper introduces an enhanced GōMartini model, which combines a virtual-site implementation of Gō models with Martini 3. The implementation has been extensively tested by the community since the release of the new version of Martini. This work demonstrates the capabilities of the model in diverse case studies, ranging from protein-membrane binding to protein-ligand interactions and AFM force profile calculations. The model is also versatile, as it can address recent inaccuracies reported in the Martini protein model. Lastly, the paper discusses the advantages, limitations, and future perspectives of the Martini 3 protein model and its combination with Gō models.",
+  "abstract_zh": "<h4>摘要</h4> 粗粒化建模已成为补充实验测量的重要工具，能够触及超越全原子方法的时空尺度。GōMartini模型结合了基于结构和基于物理的粗粒化方法，在计算效率与蛋白质动力学准确表征之间取得平衡，并具备在不同生物环境中研究蛋白质的能力。本文介绍了一种增强型GōMartini模型，该模型将Gō模型的虚拟位点实现与Martini 3相结合。自Martini新版本发布以来，该实现已得到社区的广泛测试。本研究展示了该模型在多种案例研究中的能力，涵盖蛋白质-膜结合、蛋白质-配体相互作用以及AFM力谱计算。该模型还具有多功能性，能够解决Martini蛋白质模型中近期报道的不准确性问题。最后，本文讨论了Martini 3蛋白质模型及其与Gō模型结合的优势、局限性和未来展望。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.15.589479",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.15.589479",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.15.589479/index.html"
+}

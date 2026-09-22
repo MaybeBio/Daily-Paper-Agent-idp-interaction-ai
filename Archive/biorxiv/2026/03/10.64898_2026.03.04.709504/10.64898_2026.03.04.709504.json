@@ -1,0 +1,161 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.03.04.709504",
+  "title": "Reliable prediction of short linear motifs in the human proteome",
+  "doi": "10.64898/2026.03.04.709504",
+  "abstract": "Short linear motifs (SLiMs) are small interaction modules within intrinsically disordered regions of proteins that interact with specific domains, and thereby regulate numerous biological processes. Their limited sequence information leads to frequent false positive hits in computational and experimental SLiM identification methods. We present SLiMMine, a deep learning-based method to identify SLiMs in the human proteome. By refining the annotations of known motif classes, we created a high-quality training dataset. Using protein embeddings and neural networks, SLiMMine reliably predicts novel SLiM candidates in known classes, eliminates ~80% of the pattern matching-based hits as false-positives, furthermore, it also functions as a discovery tool to find uncharacterized SLiMs based on optimal sequence environment. Finally, narrowing the broad interactor-domain definitions of known SLiM classes to specific human proteins enables more precise linking of predicted SLiMs to known protein-protein interactions. SLiMMine is available as a user-friendly, multipurpose web server at https://slimmine.pbrg.hu/ .",
+  "authors": [
+    "Pancsa R",
+    "Fichó E",
+    "Kalman ZE",
+    "Gerdán C",
+    "Reményi I",
+    "Zeke A",
+    "Tusnády GE",
+    "Dobson L"
+  ],
+  "published_date": "2026-03-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.03.04.709504",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.03.04.709504.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1217373",
+    "raw_record": {
+      "id": "PPR1217373",
+      "source": "PPR",
+      "doi": "10.64898/2026.03.04.709504",
+      "title": "Reliable prediction of short linear motifs in the human proteome",
+      "authorString": "Pancsa R, Fichó E, Kalman ZE, Gerdán C, Reményi I, Zeke A, Tusnády GE, Dobson L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Pancsa R",
+            "lastName": "Pancsa",
+            "firstName": "Rita",
+            "initials": "R"
+          },
+          {
+            "fullName": "Fichó E",
+            "lastName": "Fichó",
+            "firstName": "Erzsébet",
+            "initials": "E"
+          },
+          {
+            "fullName": "Kalman ZE",
+            "lastName": "Kalman",
+            "firstName": "Zsofia",
+            "initials": "ZE"
+          },
+          {
+            "fullName": "Gerdán C",
+            "lastName": "Gerdán",
+            "firstName": "Csongor",
+            "initials": "C"
+          },
+          {
+            "fullName": "Reményi I",
+            "lastName": "Reményi",
+            "firstName": "István",
+            "initials": "I"
+          },
+          {
+            "fullName": "Zeke A",
+            "lastName": "Zeke",
+            "firstName": "András",
+            "initials": "A"
+          },
+          {
+            "fullName": "Tusnády GE",
+            "lastName": "Tusnády",
+            "firstName": "Gábor",
+            "initials": "GE"
+          },
+          {
+            "fullName": "Dobson L",
+            "lastName": "Dobson",
+            "firstName": "Laszlo",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2765-3872"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8105-0285"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3965-8438"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1726-0813"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2765-3872"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4670-2406"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Short linear motifs (SLiMs) are small interaction modules within intrinsically disordered regions of proteins that interact with specific domains, and thereby regulate numerous biological processes. Their limited sequence information leads to frequent false positive hits in computational and experimental SLiM identification methods. We present SLiMMine, a deep learning-based method to identify SLiMs in the human proteome. By refining the annotations of known motif classes, we created a high-quality training dataset. Using protein embeddings and neural networks, SLiMMine reliably predicts novel SLiM candidates in known classes, eliminates ~80% of the pattern matching-based hits as false-positives, furthermore, it also functions as a discovery tool to find uncharacterized SLiMs based on optimal sequence environment. Finally, narrowing the broad interactor-domain definitions of known SLiM classes to specific human proteins enables more precise linking of predicted SLiMs to known protein-protein interactions. SLiMMine is available as a user-friendly, multipurpose web server at  https://slimmine.pbrg.hu/ .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.03.04.709504"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-03-06",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

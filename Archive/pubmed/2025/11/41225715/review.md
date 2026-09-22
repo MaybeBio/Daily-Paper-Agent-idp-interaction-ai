@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a VAE-driven adaptive sampling framework combined with MSMs to study the 14-3-3sigma/alpha-synuclein assembly. They claim capture of over 90% of conformational variance from a 17 microsecond reference trajectory using about 3 microseconds of simulation, construction of an MSM from about 20 microseconds of combined data, identification of three metastable states, and characterization of a deep kinetic trap with dissociation time scale over 100 microseconds. The intermediate state is proposed as a primary steppingstone in dissociation.
+- **Visible evidence base** Abstract text only; no methodological details, convergence metrics, error bars, or validation data are provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force field details, VAE architecture and training details, MSM construction and validation (e.g., Chapman-Kolmogorov tests, implied timescales), state definitions and populations, transition path analysis, uncertainty quantification, and any comparison to experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable methodological advance and biologically relevant application. However, the evidence provided is insufficient to assess the technical soundness of the VAE-MSM pipeline or the robustness of the kinetic claims. Several quantitative assertions lack supporting detail, and the biological significance is stated rather than demonstrated. The work may be of interest to computational biophysicists, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Computational biophysicists and method developers working on enhanced sampling and dimensionality reduction for disordered protein systems would be interested in the VAE-MSM pipeline. Researchers studying Parkinson's disease and 14-3-3 or alpha-synuclein interactions may also find the atomistic insights relevant, though the abstract does not yet connect these insights to experimental observables.
+- **Major strengths** The combination of VAE-based adaptive sampling with MSMs is a timely and relevant methodological direction. The reported efficiency gain (over 90% variance captured in about 3 microseconds versus 17 microseconds) is striking if substantiated. The identification of a metastable intermediate and a deep kinetic trap provides a concrete mechanistic narrative that could be biologically meaningful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The VAE-driven approach captured over 90% of the conformational variance observed in a 17 microsecond reference trajectory using around 3 microseconds of simulation time.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The claim of variance capture is presented without any definition of how conformational variance is measured, how the 90% threshold was computed, or how the reference trajectory was generated and validated. No convergence criteria for the VAE latent space or the adaptive sampling procedure are described.
+  - **Why it matters** This efficiency claim is central to the methodological contribution. Without a clear metric and validation, the reader cannot assess whether the comparison is meaningful or whether the 3 microsecond trajectory truly represents the same conformational space as the 17 microsecond reference.
+  - **Resolution test** Provide a precise definition of conformational variance (e.g., fraction of explained variance in a defined feature space), show convergence plots for the VAE latent space, and demonstrate that the 3 microsecond adaptive run samples the same free energy basins as the reference with comparable populations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** An MSM constructed from approximately 20 microseconds of combined simulation data revealed three key metastable states and quantitatively characterized transition pathways, identifying the final bound state as a deep kinetic trap with a dissociation time scale of over 100 microseconds.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The MSM is described as quantitative, but no details are given on state definition, lag time selection, implied timescale analysis, Chapman-Kolmogorov validation, or statistical uncertainty in the dissociation time scale. The 100 microsecond value is presented without error bars or a description of how it was estimated from the model.
+  - **Why it matters** MSM-based kinetic predictions are only reliable if the model is validated and uncertainties are quantified. The dissociation time scale is a key quantitative output, and its reliability is essential for the claim of a deep kinetic trap.
+  - **Resolution test** Report the MSM lag time and validation results, show the distribution of dissociation time estimates (e.g., from bootstrapping), and provide a clear description of how the 100 microsecond value was derived from the model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The intermediate state is a primary steppingstone in the dissociation pathway, and the work provides valuable atomistic insight into a key interaction relevant to neurodegeneration.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The biological relevance is asserted but not demonstrated. No connection is made to experimental observations, mutational data, or functional consequences. The claim that the intermediate is a primary steppingstone is not supported by any quantitative flux analysis or comparison to alternative pathways.
+  - **Why it matters** For a broad readership, the significance of the work depends on whether the mechanistic insight can be linked to testable biological hypotheses. Without such a link, the relevance to Parkinson's disease remains speculative.
+  - **Resolution test** Provide flux analysis (e.g., transition path theory) showing the intermediate carries the dominant dissociation flux, and discuss how the identified states or transitions relate to known experimental or clinical observations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract uses technical terms such as "latent space" and "adaptive sampling framework" without brief contextual explanation, which may limit accessibility for readers outside computational biophysics.
+  - **Required correction** Add one sentence explaining the purpose of the VAE latent space and adaptive sampling in plain terms, e.g., that the method focuses simulation effort on unexplored conformations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation time reporting
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract reports "around 3 microseconds" and "approximately 20 microseconds" without specifying whether these are aggregate or per-replica times, or how many independent simulations were run.
+  - **Required correction** Clarify the total simulation effort, number of replicas, and whether the 20 microsecond figure includes the reference trajectory.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** State characterization
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The three metastable states are described qualitatively ("highly stable", "structurally distinct", "disordered"), but no structural descriptors or population estimates are given.
+  - **Required correction** Provide quantitative descriptors for each state, such as population fractions, key structural metrics, or representative conformations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The variance capture claim and the MSM kinetic predictions require detailed methodological validation and uncertainty quantification. Without these, the central technical and quantitative claims are not established.
+- **Assessment against Nature-style criteria** Originality: The VAE-MSM combination is not entirely new but its application to a disordered protein chaperone complex is a reasonable extension. Scientific importance: Potentially high for the protein interaction field, but the abstract does not yet demonstrate biological impact. Interdisciplinary readership: The topic bridges computational chemistry and neurobiology, but the abstract is written primarily for specialists. Technical soundness: Not assessable from the abstract; the key quantitative claims lack supporting detail. Readability for nonspecialists: The abstract is dense and assumes familiarity with advanced simulation methods.
+- **Recommendation posture** Currently not established from the provided evidence. The methodological and kinetic claims require substantial additional detail and validation. If the full manuscript provides the missing convergence analysis, MSM validation, and uncertainty quantification, the work could be supportive, but the abstract alone does not make the case.
+
+## Risk / unsupported claims
+- The claim of capturing over 90% of conformational variance in 3 microseconds versus 17 microseconds is unsupported without a defined metric and validation.
+- The dissociation time scale of over 100 microseconds is unsupported without error bars or a description of the estimation method.
+- The identification of the intermediate as a primary steppingstone is unsupported without flux analysis.
+- The biological relevance to Parkinson's disease is asserted but not demonstrated with any experimental or functional link.
+- The existence and stability of the three metastable states are not assessable without state definitions and populations.

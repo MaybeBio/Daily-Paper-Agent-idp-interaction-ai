@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "34436734",
+    "doi": "10.1007/s12104-021-10046-3",
+    "title": "The (1)H, (15)N and (13)C resonance assignments of the C-terminal domain of Serpine mRNA binding protein 1 (SERBP1)."
+  },
+  "content": {
+    "abstract": "SERBP1 is a multifunctional mRNA-binding protein that has been shown to play a regulatory role in a number of biological processes such as thrombosis, DNA damage repair, and the cellular response to nutrient deprivation. Additionally, SERBP1 is upregulated in glioblastoma, leukemia as well as liver, prostrate and ovarian cancers where it has been implicated in metastatic disease and poor patient outcomes. SERBP1 binds target mRNA, stabilizing and regulating the post-translational expression of the transcript. Since SERBP1 lacks canonical RNA-binding motifs such as RRM domains or zinc fingers, its target recognition and binding mechanisms are not well understood. Recent reports suggest that it is capable of recognizing both RNA sequence motifs and structured domains. Here we report the production and purification of the intrinsically disordered C-terminal domain of SERBP1, the assignment of the (1)H, (13)C, (15)N backbone resonances of the protein by solution-state NMR, and secondary structure predictions. We show that the protein is not entirely disordered and identify an alpha-helix that was stable under the experimental conditions. This work is the first step toward understanding the structural basis underpinning the molecular mechanisms of SERBP1 functions, particularly interactions with mRNA targets.",
+    "keywords": [
+      "Intrinsically disordered protein",
+      "NMR",
+      "SERBP1",
+      "mRNA binding"
+    ],
+    "mesh_terms": [
+      "*Nuclear Magnetic Resonance, Biomolecular",
+      "*Protein Domains",
+      "*RNA-Binding Proteins/chemistry/metabolism",
+      "Humans",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Baudin, Antoine",
+        "Xu, Xiaoping",
+        "Libich, David S"
+      ],
+      "short_names": [
+        "Baudin A",
+        "Xu X",
+        "Libich DS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1390-1196",
+        "ORCID: 0000-0001-6492-2803"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Structural Biology, and Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, 8403 Floyd Curl Dr., San Antonio, TX, 78229, USA.",
+        "Department of Biochemistry and Structural Biology, and Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, 8403 Floyd Curl Dr., San Antonio, TX, 78229, USA.",
+        "Department of Biochemistry and Structural Biology, and Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, 8403 Floyd Curl Dr., San Antonio, TX, 78229, USA. libich@uthscsa.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Baudin, Antoine",
+        "short_name": "Baudin A",
+        "identifiers": [
+          "0000-0002-1390-1196"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Structural Biology, and Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, 8403 Floyd Curl Dr., San Antonio, TX, 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaoping",
+        "short_name": "Xu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Structural Biology, and Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, 8403 Floyd Curl Dr., San Antonio, TX, 78229, USA."
+        ]
+      },
+      {
+        "full_name": "Libich, David S",
+        "short_name": "Libich DS",
+        "identifiers": [
+          "0000-0001-6492-2803"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Structural Biology, and Greehey Children's Cancer Research Institute, The University of Texas Health Science Center at San Antonio, 8403 Floyd Curl Dr., San Antonio, TX, 78229, USA. libich@uthscsa.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecular NMR assignments"
+    ],
+    "journal_abbrev": [
+      "Biomol NMR Assign"
+    ],
+    "pub_date": "2021 Oct",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/27 06:00",
+    "fetched_at": "2026-09-20 05:04:57"
+  },
+  "links": {
+    "cites": [
+      "41846982",
+      "41227349",
+      "40153110",
+      "34631798"
+    ],
+    "refs": [
+      "32762776",
+      "32201808",
+      "31768228",
+      "30517002",
+      "30355441",
+      "29606851",
+      "28369267",
+      "27866371",
+      "27663422",
+      "27449037",
+      "26068472",
+      "23636399",
+      "23236990",
+      "22819712",
+      "22442049",
+      "21604143",
+      "21244633",
+      "17698176",
+      "17088319",
+      "11001948",
+      "9873066",
+      "8520220",
+      "1490109"
+    ],
+    "similar": [
+      "34436734",
+      "34631798",
+      "26068472",
+      "27002326",
+      "24205981",
+      "15751947",
+      "32762776",
+      "25066254",
+      "30039520",
+      "28247282",
+      "30535889",
+      "10856256",
+      "33742389",
+      "23603827",
+      "34994941",
+      "26398198",
+      "33730325",
+      "34783967",
+      "38585848",
+      "22442049",
+      "28808919",
+      "30414042",
+      "28267599",
+      "26732902",
+      "9922136",
+      "29320165",
+      "24659459",
+      "34417717",
+      "18440126",
+      "29934867",
+      "17000901",
+      "35279790",
+      "16051273",
+      "22752847",
+      "23236990",
+      "15260482",
+      "30694439",
+      "35326503",
+      "29445910",
+      "25534245",
+      "14967035",
+      "11531333",
+      "29080206",
+      "22277931",
+      "27449037",
+      "30868366",
+      "25168721",
+      "25584704",
+      "33089372",
+      "28879561",
+      "28369267",
+      "17526645",
+      "35266803",
+      "34022128",
+      "30420502",
+      "32535836",
+      "11162094",
+      "19919093",
+      "9699634",
+      "23417794",
+      "34836941",
+      "23200923",
+      "33179208",
+      "18303858",
+      "37240062",
+      "29372458",
+      "11023788",
+      "29511089",
+      "23894536",
+      "20926394",
+      "12885229",
+      "19177353",
+      "28593560",
+      "19295135",
+      "36723824",
+      "21212361",
+      "23247503",
+      "30666492",
+      "27844185",
+      "36539586",
+      "29450990",
+      "18022637",
+      "22875687",
+      "28815448",
+      "20947024",
+      "11916385",
+      "10921779",
+      "30206185",
+      "11123902",
+      "33392924",
+      "26878852",
+      "35474152",
+      "28315749",
+      "26983939",
+      "11809873",
+      "31388821",
+      "19888685",
+      "31603583",
+      "9692981",
+      "27064654"
+    ],
+    "review": [
+      "34436734",
+      "34022128",
+      "30206185"
+    ],
+    "pmc": [
+      "9990118"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34436734/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.doi.org/10.1007/s12104-021-10046-3",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34436734",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/34436734",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

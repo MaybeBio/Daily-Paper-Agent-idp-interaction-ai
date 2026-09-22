@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** The abstract describes a computational protocol for identifying potential shape-shifting proteins from structural databases, but no methods, results, figures, or validation data are provided.
+- **Shared manuscript claim summary** The authors claim that a computational protocol integrating structural and sequence data can screen the Protein Data Bank (PDB) for proteins exhibiting significant conformational variability, thereby identifying potential shape-shifting proteins.
+- **Visible evidence base** Abstract text only; no methods section, results, figures, tables, or supplementary materials were supplied.
+- **Missing materials affecting confidence** Full manuscript, methods details, validation results, benchmark datasets, comparison with existing tools, and any quantitative performance metrics are absent. The abstract provides no data to support the claimed utility of the protocol.
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful idea, namely a computational protocol for identifying shape-shifting proteins from structural databases. However, the abstract is too brief to establish the scientific case. No methodological detail, validation, or results are provided, making it impossible to assess technical soundness, novelty relative to existing approaches, or practical utility. The claim that the protocol "enables" screening of the PDB is unsupported by any evidence in the supplied material.
+- **Who would be interested in the results, and why** Structural biologists, computational biologists, and researchers studying protein conformational dynamics and fold-switching phenomena would be interested. The protocol could aid in discovering new examples of shape-shifting proteins, which are underrepresented in current databases, and could inform studies on protein function prediction and drug design.
+- **Major strengths** The topic is timely and biologically significant, as shape-shifting proteins challenge the one structure-one function paradigm. The proposed integration of structural and sequence data is a reasonable conceptual direction. The abstract is clearly written and accessible to a broad audience.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the protocol "enables the screening of the Protein Data Bank (PDB) for proteins exhibiting significant conformational variability."
+  - **Evidence pointer** Abstract only; no methods or results provided
+  - **Concern** No methodological details are given, such as the specific structural and sequence features used, the criteria for defining "significant conformational variability," the computational algorithms employed, or the thresholds applied. Without this information, the technical validity of the protocol cannot be evaluated.
+  - **Why it matters** The core claim of the abstract rests on the existence of a working protocol. If the methods are not described or validated, the claim is unsubstantiated, and readers cannot assess whether the approach is reproducible or effective.
+  - **Resolution test** Provide a detailed methods section describing the protocol steps, including input data formats, feature extraction, scoring functions, and decision criteria. Include validation results on a benchmark set of known shape-shifting proteins and a comparison with existing prediction methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract implies that the protocol addresses the difficulty of identifying fold-switching proteins due to limited structural data and limitations of current prediction methods.
+  - **Evidence pointer** Abstract only; no results or comparisons provided
+  - **Concern** The abstract does not provide any evidence that the protocol outperforms or complements existing methods for identifying shape-shifting proteins. No benchmark results, case studies, or examples of newly identified candidates are shown.
+  - **Why it matters** The scientific importance of the work depends on demonstrating that the protocol adds value beyond current approaches. Without comparative data or at least illustrative examples, the contribution is unclear.
+  - **Resolution test** Include results from applying the protocol to a defined PDB subset, showing identified candidates, and compare performance against existing tools or databases of known shape-shifting proteins.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract describes a "computational protocol" that integrates structural and sequence data.
+  - **Evidence pointer** Abstract only; no code, parameters, or data availability statement provided
+  - **Concern** No information is provided on software availability, parameter settings, or data access. The protocol cannot be reproduced or tested by other researchers.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without access to the protocol details or implementation, the work has limited utility to the community.
+  - **Resolution test** Provide a detailed protocol description, including pseudocode or code availability, and specify all parameters and thresholds. State data availability for any datasets used.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The term "shape-shifting proteins" is used without a formal definition, which may confuse readers unfamiliar with the concept.
+  - **Required correction** Define "shape-shifting proteins" explicitly in the abstract, for example, as proteins that adopt multiple well-defined conformations with distinct functions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of scope
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract mentions "intrinsically disordered proteins (IDPs) that fold upon binding" but does not clarify whether the protocol targets these proteins or only those with multiple folded states.
+  - **Required correction** Clarify whether IDPs are included in the screening or excluded, and specify the relationship between the protocol and IDP identification.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract only
+  - **Issue** The abstract does not state the expected output of the protocol, such as a list of candidate proteins or a score for each PDB entry.
+  - **Required correction** Describe the output format and how users should interpret the results.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of methods, validation, and reproducibility details means the core claims cannot be assessed.
+- **Assessment against Nature-style criteria** 
+  - Originality: The concept of identifying shape-shifting proteins is not new, but the specific protocol may offer a novel integration of structural and sequence data. However, originality cannot be confirmed without a comparison to existing methods.
+  - Scientific importance: Potentially high, given the biological significance of shape-shifting proteins, but the importance is not demonstrated in the abstract.
+  - Interdisciplinary readership: The topic bridges structural biology, computational biology, and protein science, which could attract a broad audience. However, the abstract lacks sufficient detail to engage specialists.
+  - Technical soundness: Not assessable from the abstract alone. No methods or results are provided.
+  - Readability for nonspecialists: The abstract is generally clear, but key terms and scope need clarification.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a promising idea, but the absence of methods, validation, and reproducibility details prevents any assessment of the protocol's validity or utility. A full manuscript with detailed methods and results is required before the case can be considered.
+
+## Risk / unsupported claims
+- The claim that the protocol "enables" screening of the PDB is unsupported, as no results or validation are provided.
+- The implied improvement over current prediction methods is not supported by any comparative data.
+- The relationship between the protocol and IDP identification is unclear and not substantiated.
+- The abstract's statement that identifying fold-switching proteins is "difficult" is plausible but not quantified or contextualized with specific limitations of existing methods.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41372631",
+  "title": "Revealing site-specific molecular features mediating contacts of heterochromatin protein 1 alpha (HP1alpha) and the interactions with chromatin and DNA in LLPS environments.",
+  "authors": "Zhai, Ziwei; Soman, Aghil; Kuang, Jinglei; Guo, Jiayi; Chen, Yinglu; Zhao, Lei; Prasanna, Chinmayi; Putri, Dhira Anindya; Glukhov, Grigory S; Chng, Choon-Peng; Huang, Changjin; Nordenskiold, Lars; Xue, Kai; Shi, Xiangyan",
+  "journal": "Communications biology",
+  "published_date": "2025-12-11",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合NMR、共聚焦和分子动力学模拟，揭示磷酸化HP1alpha在LLPS环境中通过NTE-铰链区自缔合及CD-H3K9me3识别与核小体/DNA互作的原子级机制，直接契合无序蛋白介导PPI与相分离的机制建模主题。",
+  "abstract": "Serving as critical chromatin-binding effector proteins, the heterochromatin protein 1 (HP1) family possesses distinct biological functions, of which the mechanisms are unclear. Liquid-liquid phase separation (LLPS) of the HP1 family and their interaction with nucleosomes are crucial mechanisms governing chromatin activities. Here, we first investigate phosphorylated HP1alpha (pHP1alpha) LLPS by NMR spectroscopy, confocal microscopy, and molecular dynamics simulations. This reveals that the phosphorylated N-terminal extension (NTE) and hinge region are key determinants of pHP1alpha LLPS. We next explore the interactions between pHP1alpha and telomeric nucleosome arrays and a relatively more open Widom 601 nucleosome array under LLPS conditions. The results suggest that the interaction of pHP1alpha and nucleosomes is driven by the self-association of pHP1alpha mediated by intermolecular interaction between the NTE and hinge regions and the specific binding of the pHP1alpha chromo domain (CD) to the N-terminal histone tail of H3K9me3 in the nucleosomes. In addition, experiments elucidate that DNA can mediate the pHP1alpha LLPS by competing with the NTE to interact with hinge regions. Together, our findings provide atomic-level insights into the determinants of the molecular features driving the self-association of the pHP1alpha and the interactions with DNA and nucleosomes.",
+  "abstract_zh": "作为关键的染色质结合效应蛋白，异染色质蛋白1（HP1）家族具有独特的生物学功能，但其机制尚不清楚。HP1家族的液-液相分离（LLPS）及其与核小体的相互作用是调控染色质活性的关键机制。在此，我们首先通过核磁共振波谱、共聚焦显微镜和分子动力学模拟研究磷酸化HP1alpha（pHP1alpha）的LLPS。结果表明，磷酸化的N端延伸区（NTE）和铰链区是pHP1alpha LLPS的关键决定因素。接下来，我们探讨了在LLPS条件下pHP1alpha与端粒核小体阵列及相对更开放的Widom 601核小体阵列之间的相互作用。结果表明，pHP1alpha与核小体的相互作用由pHP1alpha的自缔合驱动，该自缔合由NTE与铰链区之间的分子间相互作用介导，并且pHP1alpha的染色质域（CD）特异性结合核小体中H3K9me3的N端组蛋白尾部。此外，实验阐明DNA可通过与NTE竞争结合铰链区来介导pHP1alpha的LLPS。总之，我们的发现为驱动pHP1alpha自缔合及与DNA和核小体相互作用的分子特征的确定提供了原子级见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41372631/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41372631/",
+  "paper_page_path": "papers/pubmed/41372631/index.html"
+}

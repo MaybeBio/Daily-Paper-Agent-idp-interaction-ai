@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.10.552629",
+  "title": "Dynamic modes of Notch transcription hubs conferring memory and stochastic activation revealed by live imaging the co-activator Mastermind",
+  "authors": "deHaro-Arbona FJ; Roussos C; Baloul S; Townson J; Gomez-Lamarca MJ; Bray S",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-11",
+  "window": {
+    "start": "2023-08-07",
+    "end": "2023-08-13"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究通过活体成像追踪Notch共激活因子Mastermind形成的转录枢纽动态，揭示其记忆与随机激活机制，虽涉及转录凝聚体样枢纽和互作动态，但对象非IDP且无AI/物理模拟方法，仅部分相关。",
+  "abstract": "<h4>Summary</h4> Developmental programming involves the accurate conversion of signaling levels and dynamics to transcriptional outputs. The transcriptional relay in the Notch pathway relies on nuclear complexes containing the coactivator Mastermind (Mam). By tracking these complexes in real time, we reveal that they promote formation of a dynamic transcription hub in Notch ON nuclei which concentrates key factors including the Mediator CDK module. The composition of the hub is labile and persists after Notch withdrawal conferring a memory that enables rapid reformation. Surprisingly, only a third of Notch ON hubs progress to a state with nascent transcription, that correlates with Polymerase II and core Mediator recruitment. This probability is increased by a second signal. The discovery that target-gene transcription is probabilistic has far-reaching implications because it implies that stochastic differences in Notch pathway output can arise downstream of receptor activation.",
+  "abstract_zh": "<h4>摘要</h4> 发育编程涉及将信号水平和动态精确转化为转录输出。Notch通路中的转录中继依赖于含有共激活因子Mastermind (Mam)的核复合物。通过实时追踪这些复合物，我们揭示它们促进Notch ON细胞核中动态转录枢纽的形成，该枢纽集中了包括Mediator CDK模块在内的关键因子。该枢纽的组成是不稳定的，并在Notch撤除后持续存在，赋予一种记忆，使其能够快速重新形成。令人惊讶的是，仅三分之一的Notch ON枢纽进展到具有新生转录的状态，这与聚合酶II和核心Mediator的招募相关。这一概率通过第二个信号而增加。靶基因转录是概率性的这一发现具有深远意义，因为它暗示Notch通路输出的随机差异可能出现在受体激活的下游。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.10.552629",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.10.552629",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.10.552629/index.html"
+}

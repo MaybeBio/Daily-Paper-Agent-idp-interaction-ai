@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35643628",
+  "title": "Simulating the chromatin-mediated phase separation of model proteins with multiple domains.",
+  "authors": "Ancona, Marco; Brackley, Chris A",
+  "journal": "Biophysical journal",
+  "published_date": "2022-06-02",
+  "window": {
+    "start": "2022-05-30",
+    "end": "2022-06-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化模拟研究多结构域模型蛋白与染色质聚合物的相分离凝聚体，揭示桥接诱导吸引机制及液滴尺寸缓冲行为，虽非AI方法但物理模拟深入探讨了IDR相关PPI与凝聚体机制，对无序蛋白介导互作建模有直接启发。",
+  "abstract": "We perform simulations of a system containing simple model proteins and a polymer representing chromatin. We study the interplay between protein-protein and protein-chromatin interactions, and the resulting condensates that arise due to liquid-liquid phase separation, or a via a \"bridging-induced attraction\" mechanism. For proteins that interact multivalently, we obtain a phase diagram which includes liquid-like droplets, droplets with absorbed polymer, and coated polymer regimes. Of particular interest is a regime where protein droplets only form due to interaction with the polymer; here, unlike a standard phase separating system, droplet density rather than size varies with the overall protein concentration. We also observe that protein dynamics within droplets slow down as chromatin is absorbed. If the protein-protein interactions have a strictly limited valence, fractal or gel-like condensates are instead observed. A specific example that inspired our model is heterochromatin protein 1, or HP1. Recent in vivo experiments have shown that HP1 exhibits similar droplet size buffering behavior as our simulations. Overall, our results provide biologically relevant insights into the general nature of protein-chromatin condensates in living cells.",
+  "abstract_zh": "我们对包含简单模型蛋白和代表染色质的聚合物的系统进行了模拟。我们研究了蛋白-蛋白与蛋白-染色质相互作用之间的相互影响，以及由此产生的凝聚体，这些凝聚体源于液-液相分离或通过“桥接诱导吸引”机制形成。对于多价相互作用的蛋白，我们获得了相图，其中包括液滴状液滴、吸收聚合物的液滴以及包覆聚合物的区域。特别值得关注的是，蛋白液滴仅通过与聚合物相互作用而形成的区域；在此，与标准相分离系统不同，液滴密度而非尺寸随总体蛋白浓度变化。我们还观察到，随着染色质被吸收，液滴内的蛋白动力学减慢。如果蛋白-蛋白相互作用具有严格限制的价态，则观察到分形或凝胶状凝聚体。启发我们模型的一个具体例子是异染色质蛋白1，即HP1。最近的体内实验表明，HP1表现出与我们模拟相似的液滴尺寸缓冲行为。总体而言，我们的结果为活细胞中蛋白-染色质凝聚体的一般性质提供了生物学相关的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35643628/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35643628/",
+  "paper_page_path": "papers/pubmed/35643628/index.html"
+}

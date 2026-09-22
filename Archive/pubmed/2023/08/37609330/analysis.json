@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37609330",
+  "title": "Conformational ensemble dependent lipid recognition and segregation by prenylated intrinsically disordered regions in small GTPases.",
+  "authors": "Araya, Mussie K; Gorfe, Alemayehu A",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2023-08-23",
+  "window": {
+    "start": "2023-08-21",
+    "end": "2023-08-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用长时间尺度原子模拟研究小GTP酶异戊二烯化无序区域(PIDR)的构象系综驱动脂质识别与分选，对象为IDR且用MD方法，但互作对象是膜脂而非蛋白，缺乏PPI机制，故综合评6分。",
+  "abstract": "We studied diverse prenylated intrinsically disordered regions (PIDRs) of Ras and Rho family small GTPases using long timescale atomistic molecular dynamics simulations in an asymmetric model membrane of phosphatidylcholine (PC) and phosphatidylserine (PS) lipids. We show that conformational plasticity is a key determinant of lipid sorting by polybasic PIDRs and provide evidence for lipid sorting based on both headgroup and acyl chain structures. We further show that conformational ensemble-based lipid recognition is generalizable to all polybasic PIDRs, and that the sequence outside the polybasic domain (PBD) modulates the conformational plasticity, bilayer adsorption, and interactions of PIDRs with membrane lipids. Specifically, we found that palmitoylation, the ratio of basic to acidic residues, and the hydrophobic content of the sequence outside the PBD significantly impact the diversity of conformational substates and hence the extent of conformation-dependent lipid interactions. We thus propose that the PBD is required but not sufficient for the full realization of lipid sorting by prenylated PBD-containing membrane anchors, and that the membrane anchor is not only responsible for high affinity membrane binding but also directs the protein to the right target membrane where it participates in lipid sorting.",
+  "abstract_zh": "我们利用长时间尺度的原子级分子动力学模拟，在由磷脂酰胆碱（PC）和磷脂酰丝氨酸（PS）脂质组成的不对称模型膜中，研究了Ras和Rho家族小GTP酶的多种异戊烯化 intrinsically disordered regions (PIDRs)。我们表明，构象可塑性是多碱性PIDRs进行脂质分选的关键决定因素，并提供了基于头部基团和酰基链结构的脂质分选证据。我们进一步表明，基于构象集合的脂质识别可推广至所有多碱性PIDRs，且多碱性结构域（PBD）外的序列调节PIDRs的构象可塑性、双层吸附及其与膜脂质的相互作用。具体而言，我们发现，PBD外序列的棕榈酰化、碱性残基与酸性残基的比例以及疏水含量显著影响构象亚态的多样性，从而影响构象依赖性脂质相互作用的程度。因此，我们提出，PBD对于含异戊烯化PBD的膜锚实现完全脂质分选是必要的但非充分的，且膜锚不仅负责高亲和力膜结合，还引导蛋白质至正确的靶膜，并在其中参与脂质分选。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37609330/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37609330/",
+  "paper_page_path": "papers/pubmed/37609330/index.html"
+}

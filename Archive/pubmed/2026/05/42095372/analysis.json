@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42095372",
+  "title": "Structuring Disorder via Supervised Molecular Dynamics: Uncovering Arginine-Glycine-Glycine-Mediated Ribonucleic Acid-Intrinsically Disordered Region Recognition Mechanisms.",
+  "authors": "Novello, Gianluca; Dodaro, Andrea; Strascia, Chiara Cavastracci; Menin, Silvia; Sturlese, Mattia; Salmaso, Veronica; Moro, Stefano",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2026-05-07",
+  "window": {
+    "start": "2026-05-04",
+    "end": "2026-05-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用监督分子动力学(SuMD)重建RNA与无序蛋白IDR的识别机制，聚焦RGG基序介导的PPI/RNA互作，虽对象为RNA-IDR而非纯PPI，但方法直接建模无序区结合机制，对IDR互作机制建模有高度可迁移启发。",
+  "abstract": "In recent years, RNA has emerged as a central player in gene regulation and cellular homeostasis, far beyond its canonical role as a mediator between DNA and proteins. Moreover, RNA-binding proteins orchestrate many of these processes not only through their folded domains but also via intrinsically disordered regions (IDRs). Particular attention has been given to arginine-glycine-rich motifs, which endow these regions with remarkable versatility, flexibility, and interaction adaptability. However, the dynamic nature of such regions represents a major challenge for both structural characterization and computational modeling of their interactions with RNA. In this study, we explore the applicability of supervised molecular dynamics (SuMD) to reconstruct, at atomic resolution, the recognition mechanisms between RNA and disordered protein regions while capturing the multistep nature of the binding process. By focusing on two experimentally resolved systems, SF3A1-UBL/U1-SL4 and FUS RRM/U1-SL3, we show that SuMD can reproduce association pathways involving both disordered and structured regions, capturing transient contacts and interaction hierarchies. We further extend the approach to a prospective system lacking an experimentally resolved complex structure, leading to a model that is consistent with experimental mutagenesis data. This approach provides new perspectives for understanding how IDRs recognize and modulate RNA and generating structural hypotheses for such complexes, paving the way for future applications in the rational design of RNA-protein-targeted therapeutics.",
+  "abstract_zh": "近年来，RNA已崭露头角，成为基因调控和细胞稳态中的核心角色，远超其作为DNA与蛋白质之间中介的传统功能。此外，RNA结合蛋白不仅通过其折叠结构域，还通过内在无序区域（IDRs）来协调许多这些过程。特别关注的是精氨酸-甘氨酸富集基序，这些基序赋予这些区域显著的多样性、灵活性和相互作用适应性。然而，这些区域的动态特性对结构表征及其与RNA相互作用的计算建模构成了重大挑战。在本研究中，我们探讨了监督式分子动力学（SuMD）在原子分辨率下重建RNA与无序蛋白区域之间识别机制的适用性，同时捕捉结合过程的多步骤性质。通过聚焦于两个实验解析的系统，即SF3A1-UBL/U1-SL4和FUS RRM/U1-SL3，我们展示了SuMD能够重现涉及无序和结构化区域的结合路径，捕捉瞬时接触和相互作用层级。我们进一步将该方法扩展至一个缺乏实验解析复合物结构的前瞻性系统，从而生成与实验突变数据一致的模型。该方法为理解IDRs如何识别和调节RNA提供了新视角，并为这类复合物生成结构假设，为未来在RNA-蛋白质靶向治疗药物的合理设计中的应用铺平了道路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42095372/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42095372/",
+  "paper_page_path": "papers/pubmed/42095372/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38213902",
+  "title": "Comparative evaluation of AlphaFold2 and disorder predictors for prediction of intrinsic disorder, disorder content and fully disordered proteins.",
+  "authors": "Zhao, Bi; Ghadermarzi, Sina; Kurgan, Lukasz",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2024-01-12",
+  "window": {
+    "start": "2024-01-08",
+    "end": "2024-01-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文系统比较AlphaFold2与20种无序预测器在无序蛋白预测上的性能，虽以无序蛋白为对象且涉及AI方法，但聚焦预测精度而非PPI互作机制建模，故综合评分为5。",
+  "abstract": "We expand studies of AlphaFold2 (AF2) in the context of intrinsic disorder prediction by comparing it against a broad selection of 20 accurate, popular and recently released disorder predictors. We use 25% larger benchmark dataset with 646 proteins and cover protein-level predictions of disorder content and fully disordered proteins. AF2-based disorder predictions secure a relatively high Area Under receiver operating characteristic Curve (AUC) of 0.77 and are statistically outperformed by several modern disorder predictors that secure AUCs around 0.8 with median runtime of about 20 s compared to 1200 s for AF2. Moreover, AF2 provides modestly accurate predictions of fully disordered proteins (F1 = 0.59 vs. 0.91 for the best disorder predictor) and disorder content (mean absolute error of 0.21 vs. 0.15). AF2 also generates statistically more accurate disorder predictions for about 20% of proteins that have relatively short sequences and a few disordered regions that tend to be located at the sequence termini, and which are absent of disordered protein-binding regions. Interestingly, AF2 and the most accurate disorder predictors rely on deep neural networks, suggesting that these models are useful for protein structure and disorder predictions.",
+  "abstract_zh": "我们扩展了AlphaFold2（AF2）在内在无序预测领域的研究，将其与20种准确、流行且近期发布的广泛无序预测器进行比较。我们使用了包含646种蛋白质的基准数据集，比原有数据大25%，并涵盖了蛋白质水平上的无序含量预测及完全无序蛋白质的预测。基于AF2的无序预测获得了相对较高的接收者操作特征曲线下面积（AUC）0.77，但在统计上被几种现代无序预测器超越，这些预测器的AUC约为0.8，中位运行时间约为20秒，而AF2为1200秒。此外，AF2在完全无序蛋白质预测上提供了中等准确度的结果（F1 = 0.59，而最佳无序预测器为0.91），无序含量预测的平均绝对误差为0.21，相比之下最佳预测器为0.15。AF2还对约20%的蛋白质生成了统计上更准确的无序预测，这些蛋白质具有相对较短的序列和少数倾向于位于序列末端的无序区域，并且缺乏无序蛋白质结合区域。有趣的是，AF2和最准确的无序预测器都依赖于深度神经网络，这表明这些模型对于蛋白质结构和无序预测是有用的。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38213902/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38213902/",
+  "paper_page_path": "papers/pubmed/38213902/index.html"
+}

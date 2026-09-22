@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.08.01.502196",
+  "title": "Quantitative real-time in-cell imaging reveals heterogeneous clusters of proteins prior to condensation",
+  "authors": "Lan C; Kim J; Ulferts S; Aprile-Garcia F; Anandamurugan A; Grosse R; Sawarkar R; Reinhardt A; Hugel T",
+  "journal": "bioRxiv",
+  "published_date": "2022-08-02",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用荧光显微与光漂白定量活细胞内NELF蛋白凝聚前的异质簇动态，虽涉及相分离与蛋白聚集，但方法为实验成像而非AI/物理模拟，且未深入PPI机制建模，故为中档。",
+  "abstract": "The formation of biomolecular condensates underpins many cellular processes; however, our current understanding of condensate formation within cells is largely based on observing the final near-equilibrium condensate state. It is less clear how proteins behave before condensates form or at concentrations at which condensation does not occur in cells. Here, we use a combination of fluorescence microscopy and photobleaching analysis to quantify phase separation of negative elongation factor (NELF) in living and stressed cells. We use the recently reported system of stress-induced condensation of NELF in human nuclei as a model to study the behaviour of proteins before condensation. We find that pre-condensate heterogeneous clusters both grow and shrink and are not freely diffusing. Unexpectedly, we also find such small dynamic clusters in unstressed cells in which condensates do not form. We provide a categorisation of small and large clusters based on their dynamics and their response to p38 kinase inhibition. Overall, our data are best explained as non-classical nucleation with a flat free-energy landscape for clusters of a range of sizes and an inhibition of condensation.",
+  "abstract_zh": "生物分子凝聚体的形成支撑着许多细胞过程；然而，我们目前对细胞内凝聚体形成的理解主要基于观察最终的近平衡凝聚态。在凝聚体形成之前，或在细胞内不发生凝聚的浓度下，蛋白质的行为尚不清楚。在此，我们结合荧光显微镜和光漂白分析，定量研究了活细胞和应激细胞中负延伸因子（NELF）的相分离。我们利用最近报道的人核内NELF应激诱导凝聚系统作为模型，研究凝聚前蛋白质的行为。我们发现，凝聚前异质簇既生长也收缩，且并非自由扩散。出乎意料的是，我们还在未应激细胞中发现了这种小的动态簇，尽管这些细胞中不形成凝聚体。我们根据小簇和大簇的动力学及其对p38激酶抑制的反应，对其进行了分类。总体而言，我们的数据最符合非经典成核机制，其特征是各种尺寸簇的自由能景观平坦，并存在凝聚抑制。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.08.01.502196",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.08.01.502196",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.08.01.502196/index.html"
+}

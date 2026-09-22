@@ -1,0 +1,1254 @@
+{
+  "identity": {
+    "pmid": "34850135",
+    "doi": "10.1093/nar/gkab1082",
+    "title": "DisProt in 2022: improved quality and accessibility of protein intrinsic disorder annotation."
+  },
+  "content": {
+    "abstract": "The Database of Intrinsically Disordered Proteins (DisProt, URL: https://disprot.org) is the major repository of manually curated annotations of intrinsically disordered proteins and regions from the literature. We report here recent updates of DisProt version 9, including a restyled web interface, refactored Intrinsically Disordered Proteins Ontology (IDPO), improvements in the curation process and significant content growth of around 30%. Higher quality and consistency of annotations is provided by a newly implemented reviewing process and training of curators. The increased curation capacity is fostered by the integration of DisProt with APICURON, a dedicated resource for the proper attribution and recognition of biocuration efforts. Better interoperability is provided through the adoption of the Minimum Information About Disorder (MIADE) standard, an active collaboration with the Gene Ontology (GO) and Evidence and Conclusion Ontology (ECO) consortia and the support of the ELIXIR infrastructure.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "DNA/genetics/metabolism",
+      "*Databases, Protein",
+      "Datasets as Topic",
+      "Gene Ontology",
+      "Humans",
+      "Internet",
+      "Intrinsically Disordered Proteins/chemistry/genetics/*metabolism",
+      "*Molecular Sequence Annotation",
+      "Protein Binding",
+      "RNA/genetics/metabolism",
+      "*Software"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Quaglia, Federica",
+        "Meszaros, Balint",
+        "Salladini, Edoardo",
+        "Hatos, Andras",
+        "Pancsa, Rita",
+        "Chemes, Lucia B",
+        "Pajkos, Matyas",
+        "Lazar, Tamas",
+        "Pena-Diaz, Samuel",
+        "Santos, Jaime",
+        "Acs, Veronika",
+        "Farahi, Nazanin",
+        "Ficho, Erzsebet",
+        "Aspromonte, Maria Cristina",
+        "Bassot, Claudio",
+        "Chasapi, Anastasia",
+        "Davey, Norman E",
+        "Davidovic, Radoslav",
+        "Dobson, Laszlo",
+        "Elofsson, Arne",
+        "Erdos, Gabor",
+        "Gaudet, Pascale",
+        "Giglio, Michelle",
+        "Glavina, Juliana",
+        "Iserte, Javier",
+        "Iglesias, Valentin",
+        "Kalman, Zsofia",
+        "Lambrughi, Matteo",
+        "Leonardi, Emanuela",
+        "Longhi, Sonia",
+        "Macedo-Ribeiro, Sandra",
+        "Maiani, Emiliano",
+        "Marchetti, Julia",
+        "Marino-Buslje, Cristina",
+        "Meszaros, Attila",
+        "Monzon, Alexander Miguel",
+        "Minervini, Giovanni",
+        "Nadendla, Suvarna",
+        "Nilsson, Juliet F",
+        "Novotny, Marian",
+        "Ouzounis, Christos A",
+        "Palopoli, Nicolas",
+        "Papaleo, Elena",
+        "Pereira, Pedro Jose Barbosa",
+        "Pozzati, Gabriele",
+        "Promponas, Vasilis J",
+        "Pujols, Jordi",
+        "Rocha, Alma Carolina Sanchez",
+        "Salas, Martin",
+        "Sawicki, Luciana Rodriguez",
+        "Schad, Eva",
+        "Shenoy, Aditi",
+        "Szaniszlo, Tamas",
+        "Tsirigos, Konstantinos D",
+        "Veljkovic, Nevena",
+        "Parisi, Gustavo",
+        "Ventura, Salvador",
+        "Dosztanyi, Zsuzsanna",
+        "Tompa, Peter",
+        "Tosatto, Silvio C E",
+        "Piovesan, Damiano"
+      ],
+      "short_names": [
+        "Quaglia F",
+        "Meszaros B",
+        "Salladini E",
+        "Hatos A",
+        "Pancsa R",
+        "Chemes LB",
+        "Pajkos M",
+        "Lazar T",
+        "Pena-Diaz S",
+        "Santos J",
+        "Acs V",
+        "Farahi N",
+        "Ficho E",
+        "Aspromonte MC",
+        "Bassot C",
+        "Chasapi A",
+        "Davey NE",
+        "Davidovic R",
+        "Dobson L",
+        "Elofsson A",
+        "Erdos G",
+        "Gaudet P",
+        "Giglio M",
+        "Glavina J",
+        "Iserte J",
+        "Iglesias V",
+        "Kalman Z",
+        "Lambrughi M",
+        "Leonardi E",
+        "Longhi S",
+        "Macedo-Ribeiro S",
+        "Maiani E",
+        "Marchetti J",
+        "Marino-Buslje C",
+        "Meszaros A",
+        "Monzon AM",
+        "Minervini G",
+        "Nadendla S",
+        "Nilsson JF",
+        "Novotny M",
+        "Ouzounis CA",
+        "Palopoli N",
+        "Papaleo E",
+        "Pereira PJB",
+        "Pozzati G",
+        "Promponas VJ",
+        "Pujols J",
+        "Rocha ACS",
+        "Salas M",
+        "Sawicki LR",
+        "Schad E",
+        "Shenoy A",
+        "Szaniszlo T",
+        "Tsirigos KD",
+        "Veljkovic N",
+        "Parisi G",
+        "Ventura S",
+        "Dosztanyi Z",
+        "Tompa P",
+        "Tosatto SCE",
+        "Piovesan D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0341-4888",
+        "ORCID: 0000-0003-0919-4449",
+        "ORCID: 0000-0002-5152-5953",
+        "ORCID: 0000-0001-9224-9820",
+        "ORCID: 0000-0003-0849-9312",
+        "ORCID: 0000-0003-0192-9906",
+        "ORCID: 0000-0001-5791-9825",
+        "ORCID: 0000-0001-7496-6711",
+        "ORCID: 0000-0002-2902-823X",
+        "ORCID: 0000-0001-9045-7765",
+        "ORCID: 0000-0001-6260-7287",
+        "ORCID: 0000-0002-6834-8578",
+        "ORCID: 0000-0002-3965-8438",
+        "ORCID: 0000-0002-4937-6952",
+        "ORCID: 0000-0001-7161-9028",
+        "ORCID: 0000-0003-1986-5007",
+        "ORCID: 0000-0001-6988-4850",
+        "ORCID: 0000-0002-6097-6203",
+        "ORCID: 0000-0003-2765-3872",
+        "ORCID: 0000-0002-7115-9751",
+        "ORCID: 0000-0001-6218-5192",
+        "ORCID: 0000-0003-1813-6857",
+        "ORCID: 0000-0001-7628-5565",
+        "ORCID: 0000-0001-6336-1290",
+        "ORCID: 0000-0003-0056-1177",
+        "ORCID: 0000-0002-6133-0869",
+        "ORCID: 0000-0003-4634-0433",
+        "ORCID: 0000-0002-0894-8627",
+        "ORCID: 0000-0001-8486-8461",
+        "ORCID: 0000-0002-6829-6771",
+        "ORCID: 0000-0002-7698-1170",
+        "ORCID: 0000-0003-1432-5394",
+        "ORCID: 0000-0002-2886-3647",
+        "ORCID: 0000-0002-6564-1920",
+        "ORCID: 0000-0002-4578-4879",
+        "ORCID: 0000-0003-0362-8218",
+        "ORCID: 0000-0001-7013-5785",
+        "ORCID: 0000-0003-3643-281X",
+        "ORCID: 0000-0003-4203-5263",
+        "ORCID: 0000-0001-8788-3202",
+        "ORCID: 0000-0002-0086-8657",
+        "ORCID: 0000-0001-7925-6436",
+        "ORCID: 0000-0002-7376-5894",
+        "ORCID: 0000-0003-0969-5438",
+        "ORCID: 0000-0002-4303-9939",
+        "ORCID: 0000-0003-3352-4831",
+        "ORCID: 0000-0001-9424-5866",
+        "ORCID: 0000-0001-7395-9173",
+        "ORCID: 0000-0001-6352-1282",
+        "ORCID: 0000-0001-5782-6573",
+        "ORCID: 0000-0002-3006-2910",
+        "ORCID: 0000-0001-7748-2501",
+        "ORCID: 0000-0002-3130-9284",
+        "ORCID: 0000-0001-5280-1107",
+        "ORCID: 0000-0001-6562-5800",
+        "ORCID: 0000-0001-7444-1624",
+        "ORCID: 0000-0002-9652-6351",
+        "ORCID: 0000-0002-3624-5937",
+        "ORCID: 0000-0001-8042-9939",
+        "ORCID: 0000-0003-4525-7793",
+        "ORCID: 0000-0001-8210-2390"
+      ],
+      "affiliations": [
+        "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg 69117, Germany.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Institute of Enzymology, Research Centre for Natural Sciences, Budapest 1117, Hungary.",
+        "Instituto de Investigaciones Biotecnologicas (IIBiO-CONICET), Universidad Nacional de San Martin, Av. 25 de Mayo y Francia, CP1650 Buenos Aires, Argentina.",
+        "Department of Biochemistry, Eotvos Lorand University, Pazmany Peter stny 1/c, Budapest H-1117, Hungary.",
+        "VIB-VUB Center for Structural Biology, Vlaams Instituut voor Biotechnology, Brussels, Belgium.",
+        "Structural Biology Brussels (SBB), Bioengineering Sciences Department, Vrije Universiteit Brussel (VUB), Brussels, Belgium.",
+        "Institut de Biotecnologia i Biomedicina, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Institut de Biotecnologia i Biomedicina, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Institute of Enzymology, Research Centre for Natural Sciences, Budapest 1117, Hungary.",
+        "VIB-VUB Center for Structural Biology, Vlaams Instituut voor Biotechnology, Brussels, Belgium.",
+        "Structural Biology Brussels (SBB), Bioengineering Sciences Department, Vrije Universiteit Brussel (VUB), Brussels, Belgium.",
+        "Institute of Enzymology, Research Centre for Natural Sciences, Budapest 1117, Hungary.",
+        "Cytocast Kft., Vecses, Hungary.",
+        "Department of Woman and Child Health, University of Padova, Padova, Italy.",
+        "Pediatric Research Institute, Citta della Speranza, Padova, Italy.",
+        "Science for Life Laboratory, Department of Biochemistry and Biophysics, Stockholm University, 171 21 Solna, Sweden.",
+        "Biological Computation & Process Laboratory, Chemical Process & Energy Resources Institute, Centre for Research & Technology Hellas, Thermi, Thessalonica 57001, Greece.",
+        "Institute of Cancer Research, Chester Beatty Laboratories, 237 Fulham Rd, Chelsea, London, UK.",
+        "Laboratory for Bioinformatics and Computational Chemistry, Vinca Institute of Nuclear Sciences, National Institute of the Republic of Serbia, University of Belgrade, 11000Belgrade, Serbia.",
+        "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg 69117, Germany.",
+        "Institute of Enzymology, Research Centre for Natural Sciences, Budapest 1117, Hungary.",
+        "Science for Life Laboratory, Department of Biochemistry and Biophysics, Stockholm University, 171 21 Solna, Sweden.",
+        "Department of Biochemistry, Eotvos Lorand University, Pazmany Peter stny 1/c, Budapest H-1117, Hungary.",
+        "Swiss-Prot group, SIB Swiss Institute of Bioinformatics, Geneva, Switzerland.",
+        "Institute for Genome Sciences, University of Maryland School of Medicine 670 W. Baltimore St., Baltimore, MD 21201, USA.",
+        "Instituto de Investigaciones Biotecnologicas (IIBiO-CONICET), Universidad Nacional de San Martin, Av. 25 de Mayo y Francia, CP1650 Buenos Aires, Argentina.",
+        "Bioinformatics Unit, Fundacion Instituto Leloir, Buenos Aires, C1405BWE, Argentina.",
+        "Institut de Biotecnologia i Biomedicina, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Faculty of Information Technology and Bionics, Pazmany Peter Catholic University, Prater u. 50/A, 1083 Budapest, Hungary.",
+        "Cancer Structural Biology, Danish Cancer Society Research Center, Strandboulevarden 49, 2100 Copenhagen, Denmark.",
+        "Department of Woman and Child Health, University of Padova, Padova, Italy.",
+        "Pediatric Research Institute, Citta della Speranza, Padova, Italy.",
+        "Lab. Architecture et Fonction des Macromolecules Biologiques (AFMB), UMR 7257, Aix Marseille University and Centre National de la Recherche Scientifique (CNRS), 163 Avenue de Luminy, Case 932, 13288, Marseille, France.",
+        "Instituto de Biologia Molecular e Celular (IBMC), Universidade do Porto, 4200-135 Porto, Portugal.",
+        "Instituto de Investigacao e Inovacao em Saude (i3S), Universidade do Porto, 4200-135 Porto, Portugal.",
+        "Cancer Structural Biology, Danish Cancer Society Research Center, Strandboulevarden 49, 2100 Copenhagen, Denmark.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes - CONICET, Bernal, Buenos Aires B1876BXD, Argentina.",
+        "Bioinformatics Unit, Fundacion Instituto Leloir, Buenos Aires, C1405BWE, Argentina.",
+        "VIB-VUB Center for Structural Biology, Vlaams Instituut voor Biotechnology, Brussels, Belgium.",
+        "Structural Biology Brussels (SBB), Bioengineering Sciences Department, Vrije Universiteit Brussel (VUB), Brussels, Belgium.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Institute for Genome Sciences, University of Maryland School of Medicine 670 W. Baltimore St., Baltimore, MD 21201, USA.",
+        "Lab. Architecture et Fonction des Macromolecules Biologiques (AFMB), UMR 7257, Aix Marseille University and Centre National de la Recherche Scientifique (CNRS), 163 Avenue de Luminy, Case 932, 13288, Marseille, France.",
+        "Dep. of Cell Biology, Faculty of Science, Vinicna 7, 128 43, Prague, Czech Republic.",
+        "Biological Computation & Process Laboratory, Chemical Process & Energy Resources Institute, Centre for Research & Technology Hellas, Thermi, Thessalonica 57001, Greece.",
+        "Biological Computation & Computational Biology Group, Artificial Intelligence & Information Analysis Lab, Department of Computer Science, Aristotle University of Thessalonica, Thessalonica 54124, Greece.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes - CONICET, Bernal, Buenos Aires B1876BXD, Argentina.",
+        "Cancer Structural Biology, Danish Cancer Society Research Center, Strandboulevarden 49, 2100 Copenhagen, Denmark.",
+        "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark.",
+        "Instituto de Biologia Molecular e Celular (IBMC), Universidade do Porto, 4200-135 Porto, Portugal.",
+        "Instituto de Investigacao e Inovacao em Saude (i3S), Universidade do Porto, 4200-135 Porto, Portugal.",
+        "Science for Life Laboratory, Department of Biochemistry and Biophysics, Stockholm University, 171 21 Solna, Sweden.",
+        "Bioinformatics Research Laboratory, Department of Biological Sciences, University of Cyprus, Nicosia, Cyprus.",
+        "Institut de Biotecnologia i Biomedicina, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Department of Cell Biology, Faculty of Science, Charles University, BIOCEV, Prague , Czech Republic.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes - CONICET, Bernal, Buenos Aires B1876BXD, Argentina.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes - CONICET, Bernal, Buenos Aires B1876BXD, Argentina.",
+        "Institute of Enzymology, Research Centre for Natural Sciences, Budapest 1117, Hungary.",
+        "Science for Life Laboratory, Department of Biochemistry and Biophysics, Stockholm University, 171 21 Solna, Sweden.",
+        "Department of Biochemistry, Eotvos Lorand University, Pazmany Peter stny 1/c, Budapest H-1117, Hungary.",
+        "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, UK.",
+        "Laboratory for Bioinformatics and Computational Chemistry, Vinca Institute of Nuclear Sciences, National Institute of the Republic of Serbia, University of Belgrade, 11000Belgrade, Serbia.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes - CONICET, Bernal, Buenos Aires B1876BXD, Argentina.",
+        "Institut de Biotecnologia i Biomedicina, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "Departament de Bioquimica i Biologia Molecular, Universitat Autonoma de Barcelona, Barcelona, Spain.",
+        "ICREA, Barcelona, Spain.",
+        "Department of Biochemistry, Eotvos Lorand University, Pazmany Peter stny 1/c, Budapest H-1117, Hungary.",
+        "Institute of Enzymology, Research Centre for Natural Sciences, Budapest 1117, Hungary.",
+        "VIB-VUB Center for Structural Biology, Vlaams Instituut voor Biotechnology, Brussels, Belgium.",
+        "Structural Biology Brussels (SBB), Bioengineering Sciences Department, Vrije Universiteit Brussel (VUB), Brussels, Belgium.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Quaglia, Federica",
+        "short_name": "Quaglia F",
+        "identifiers": [
+          "0000-0002-0341-4888"
+        ],
+        "affiliations": [
+          "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, Italy.",
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Mészáros, Bálint",
+        "short_name": "Mészáros B",
+        "identifiers": [
+          "0000-0003-0919-4449"
+        ],
+        "affiliations": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg 69117, Germany."
+        ]
+      },
+      {
+        "full_name": "Salladini, Edoardo",
+        "short_name": "Salladini E",
+        "identifiers": [
+          "0000-0002-5152-5953"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Hatos, András",
+        "short_name": "Hatos A",
+        "identifiers": [
+          "0000-0001-9224-9820"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Pancsa, Rita",
+        "short_name": "Pancsa R",
+        "identifiers": [
+          "0000-0003-0849-9312"
+        ],
+        "affiliations": [
+          "Institute of Enzymology, Research Centre for Natural Sciences, Budapest 1117, Hungary."
+        ]
+      },
+      {
+        "full_name": "Chemes, Lucía B",
+        "short_name": "Chemes LB",
+        "identifiers": [
+          "0000-0003-0192-9906"
+        ],
+        "affiliations": [
+          "Instituto de Investigaciones Biotecnológicas (IIBiO-CONICET), Universidad Nacional de San Martín, Av. 25 de Mayo y Francia, CP1650 Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Pajkos, Mátyás",
+        "short_name": "Pajkos M",
+        "identifiers": [
+          "0000-0001-5791-9825"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Eötvös Loránd University, Pázmány Péter stny 1/c, Budapest H-1117, Hungary."
+        ]
+      },
+      {
+        "full_name": "Lazar, Tamas",
+        "short_name": "Lazar T",
+        "identifiers": [
+          "0000-0001-7496-6711"
+        ],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology, Vlaams Instituut voor Biotechnology, Brussels, Belgium.",
+          "Structural Biology Brussels (SBB), Bioengineering Sciences Department, Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Peña-Díaz, Samuel",
+        "short_name": "Peña-Díaz S",
+        "identifiers": [
+          "0000-0002-2902-823X"
+        ],
+        "affiliations": [
+          "Institut de Biotecnologia i Biomedicina, Universitat Autònoma de Barcelona, Barcelona, Spain.",
+          "Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Santos, Jaime",
+        "short_name": "Santos J",
+        "identifiers": [
+          "0000-0001-9045-7765"
+        ],
+        "affiliations": [
+          "Institut de Biotecnologia i Biomedicina, Universitat Autònoma de Barcelona, Barcelona, Spain.",
+          "Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Ács, Veronika",
+        "short_name": "Ács V",
+        "identifiers": [
+          "0000-0001-6260-7287"
+        ],
+        "affiliations": [
+          "Institute of Enzymology, Research Centre for Natural Sciences, Budapest 1117, Hungary."
+        ]
+      },
+      {
+        "full_name": "Farahi, Nazanin",
+        "short_name": "Farahi N",
+        "identifiers": [
+          "0000-0002-6834-8578"
+        ],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology, Vlaams Instituut voor Biotechnology, Brussels, Belgium.",
+          "Structural Biology Brussels (SBB), Bioengineering Sciences Department, Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Fichó, Erzsébet",
+        "short_name": "Fichó E",
+        "identifiers": [
+          "0000-0002-3965-8438"
+        ],
+        "affiliations": [
+          "Institute of Enzymology, Research Centre for Natural Sciences, Budapest 1117, Hungary.",
+          "Cytocast Kft., Vecsés, Hungary."
+        ]
+      },
+      {
+        "full_name": "Aspromonte, Maria Cristina",
+        "short_name": "Aspromonte MC",
+        "identifiers": [
+          "0000-0002-4937-6952"
+        ],
+        "affiliations": [
+          "Department of Woman and Child Health, University of Padova, Padova, Italy.",
+          "Pediatric Research Institute, Città della Speranza, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Bassot, Claudio",
+        "short_name": "Bassot C",
+        "identifiers": [
+          "0000-0001-7161-9028"
+        ],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Biochemistry and Biophysics, Stockholm University, 171 21 Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Chasapi, Anastasia",
+        "short_name": "Chasapi A",
+        "identifiers": [
+          "0000-0003-1986-5007"
+        ],
+        "affiliations": [
+          "Biological Computation & Process Laboratory, Chemical Process & Energy Resources Institute, Centre for Research & Technology Hellas, Thermi, Thessalonica 57001, Greece."
+        ]
+      },
+      {
+        "full_name": "Davey, Norman E",
+        "short_name": "Davey NE",
+        "identifiers": [
+          "0000-0001-6988-4850"
+        ],
+        "affiliations": [
+          "Institute of Cancer Research, Chester Beatty Laboratories, 237 Fulham Rd, Chelsea, London, UK."
+        ]
+      },
+      {
+        "full_name": "Davidović, Radoslav",
+        "short_name": "Davidović R",
+        "identifiers": [
+          "0000-0002-6097-6203"
+        ],
+        "affiliations": [
+          "Laboratory for Bioinformatics and Computational Chemistry, Vinča Institute of Nuclear Sciences, National Institute of the Republic of Serbia, University of Belgrade, 11000Belgrade, Serbia."
+        ]
+      },
+      {
+        "full_name": "Dobson, Laszlo",
+        "short_name": "Dobson L",
+        "identifiers": [
+          "0000-0003-2765-3872"
+        ],
+        "affiliations": [
+          "Structural and Computational Biology Unit, European Molecular Biology Laboratory, Heidelberg 69117, Germany.",
+          "Institute of Enzymology, Research Centre for Natural Sciences, Budapest 1117, Hungary."
+        ]
+      },
+      {
+        "full_name": "Elofsson, Arne",
+        "short_name": "Elofsson A",
+        "identifiers": [
+          "0000-0002-7115-9751"
+        ],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Biochemistry and Biophysics, Stockholm University, 171 21 Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Erdős, Gábor",
+        "short_name": "Erdős G",
+        "identifiers": [
+          "0000-0001-6218-5192"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Eötvös Loránd University, Pázmány Péter stny 1/c, Budapest H-1117, Hungary."
+        ]
+      },
+      {
+        "full_name": "Gaudet, Pascale",
+        "short_name": "Gaudet P",
+        "identifiers": [
+          "0000-0003-1813-6857"
+        ],
+        "affiliations": [
+          "Swiss-Prot group, SIB Swiss Institute of Bioinformatics, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Giglio, Michelle",
+        "short_name": "Giglio M",
+        "identifiers": [
+          "0000-0001-7628-5565"
+        ],
+        "affiliations": [
+          "Institute for Genome Sciences, University of Maryland School of Medicine 670 W. Baltimore St., Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Glavina, Juliana",
+        "short_name": "Glavina J",
+        "identifiers": [
+          "0000-0001-6336-1290"
+        ],
+        "affiliations": [
+          "Instituto de Investigaciones Biotecnológicas (IIBiO-CONICET), Universidad Nacional de San Martín, Av. 25 de Mayo y Francia, CP1650 Buenos Aires, Argentina."
+        ]
+      },
+      {
+        "full_name": "Iserte, Javier",
+        "short_name": "Iserte J",
+        "identifiers": [
+          "0000-0003-0056-1177"
+        ],
+        "affiliations": [
+          "Bioinformatics Unit, Fundación Instituto Leloir, Buenos Aires, C1405BWE, Argentina."
+        ]
+      },
+      {
+        "full_name": "Iglesias, Valentín",
+        "short_name": "Iglesias V",
+        "identifiers": [
+          "0000-0002-6133-0869"
+        ],
+        "affiliations": [
+          "Institut de Biotecnologia i Biomedicina, Universitat Autònoma de Barcelona, Barcelona, Spain.",
+          "Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Kálmán, Zsófia",
+        "short_name": "Kálmán Z",
+        "identifiers": [
+          "0000-0003-4634-0433"
+        ],
+        "affiliations": [
+          "Faculty of Information Technology and Bionics, Pázmány Péter Catholic University, Práter u. 50/A, 1083 Budapest, Hungary."
+        ]
+      },
+      {
+        "full_name": "Lambrughi, Matteo",
+        "short_name": "Lambrughi M",
+        "identifiers": [
+          "0000-0002-0894-8627"
+        ],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Society Research Center, Strandboulevarden 49, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Leonardi, Emanuela",
+        "short_name": "Leonardi E",
+        "identifiers": [
+          "0000-0001-8486-8461"
+        ],
+        "affiliations": [
+          "Department of Woman and Child Health, University of Padova, Padova, Italy.",
+          "Pediatric Research Institute, Città della Speranza, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Longhi, Sonia",
+        "short_name": "Longhi S",
+        "identifiers": [
+          "0000-0002-6829-6771"
+        ],
+        "affiliations": [
+          "Lab. Architecture et Fonction des Macromolécules Biologiques (AFMB), UMR 7257, Aix Marseille University and Centre National de la Recherche Scientifique (CNRS), 163 Avenue de Luminy, Case 932, 13288, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Macedo-Ribeiro, Sandra",
+        "short_name": "Macedo-Ribeiro S",
+        "identifiers": [
+          "0000-0002-7698-1170"
+        ],
+        "affiliations": [
+          "Instituto de Biologia Molecular e Celular (IBMC), Universidade do Porto, 4200-135 Porto, Portugal.",
+          "Instituto de Investigação e Inovação em Saúde (i3S), Universidade do Porto, 4200-135 Porto, Portugal."
+        ]
+      },
+      {
+        "full_name": "Maiani, Emiliano",
+        "short_name": "Maiani E",
+        "identifiers": [
+          "0000-0003-1432-5394"
+        ],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Society Research Center, Strandboulevarden 49, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Marchetti, Julia",
+        "short_name": "Marchetti J",
+        "identifiers": [
+          "0000-0002-2886-3647"
+        ],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes - CONICET, Bernal, Buenos Aires B1876BXD, Argentina."
+        ]
+      },
+      {
+        "full_name": "Marino-Buslje, Cristina",
+        "short_name": "Marino-Buslje C",
+        "identifiers": [
+          "0000-0002-6564-1920"
+        ],
+        "affiliations": [
+          "Bioinformatics Unit, Fundación Instituto Leloir, Buenos Aires, C1405BWE, Argentina."
+        ]
+      },
+      {
+        "full_name": "Mészáros, Attila",
+        "short_name": "Mészáros A",
+        "identifiers": [
+          "0000-0002-4578-4879"
+        ],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology, Vlaams Instituut voor Biotechnology, Brussels, Belgium.",
+          "Structural Biology Brussels (SBB), Bioengineering Sciences Department, Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Monzon, Alexander Miguel",
+        "short_name": "Monzon AM",
+        "identifiers": [
+          "0000-0003-0362-8218"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Minervini, Giovanni",
+        "short_name": "Minervini G",
+        "identifiers": [
+          "0000-0001-7013-5785"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Nadendla, Suvarna",
+        "short_name": "Nadendla S",
+        "identifiers": [
+          "0000-0003-3643-281X"
+        ],
+        "affiliations": [
+          "Institute for Genome Sciences, University of Maryland School of Medicine 670 W. Baltimore St., Baltimore, MD 21201, USA."
+        ]
+      },
+      {
+        "full_name": "Nilsson, Juliet F",
+        "short_name": "Nilsson JF",
+        "identifiers": [
+          "0000-0003-4203-5263"
+        ],
+        "affiliations": [
+          "Lab. Architecture et Fonction des Macromolécules Biologiques (AFMB), UMR 7257, Aix Marseille University and Centre National de la Recherche Scientifique (CNRS), 163 Avenue de Luminy, Case 932, 13288, Marseille, France."
+        ]
+      },
+      {
+        "full_name": "Novotný, Marian",
+        "short_name": "Novotný M",
+        "identifiers": [
+          "0000-0001-8788-3202"
+        ],
+        "affiliations": [
+          "Dep. of Cell Biology, Faculty of Science, Vinicna 7, 128 43, Prague, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Ouzounis, Christos A",
+        "short_name": "Ouzounis CA",
+        "identifiers": [
+          "0000-0002-0086-8657"
+        ],
+        "affiliations": [
+          "Biological Computation & Process Laboratory, Chemical Process & Energy Resources Institute, Centre for Research & Technology Hellas, Thermi, Thessalonica 57001, Greece.",
+          "Biological Computation & Computational Biology Group, Artificial Intelligence & Information Analysis Lab, Department of Computer Science, Aristotle University of Thessalonica, Thessalonica 54124, Greece."
+        ]
+      },
+      {
+        "full_name": "Palopoli, Nicolás",
+        "short_name": "Palopoli N",
+        "identifiers": [
+          "0000-0001-7925-6436"
+        ],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes - CONICET, Bernal, Buenos Aires B1876BXD, Argentina."
+        ]
+      },
+      {
+        "full_name": "Papaleo, Elena",
+        "short_name": "Papaleo E",
+        "identifiers": [
+          "0000-0002-7376-5894"
+        ],
+        "affiliations": [
+          "Cancer Structural Biology, Danish Cancer Society Research Center, Strandboulevarden 49, 2100 Copenhagen, Denmark.",
+          "Cancer Systems Biology, Section for Bioinformatics, Department of Health and Technology, Technical University of Denmark, Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Pereira, Pedro José Barbosa",
+        "short_name": "Pereira PJB",
+        "identifiers": [
+          "0000-0003-0969-5438"
+        ],
+        "affiliations": [
+          "Instituto de Biologia Molecular e Celular (IBMC), Universidade do Porto, 4200-135 Porto, Portugal.",
+          "Instituto de Investigação e Inovação em Saúde (i3S), Universidade do Porto, 4200-135 Porto, Portugal."
+        ]
+      },
+      {
+        "full_name": "Pozzati, Gabriele",
+        "short_name": "Pozzati G",
+        "identifiers": [
+          "0000-0002-4303-9939"
+        ],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Biochemistry and Biophysics, Stockholm University, 171 21 Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Promponas, Vasilis J",
+        "short_name": "Promponas VJ",
+        "identifiers": [
+          "0000-0003-3352-4831"
+        ],
+        "affiliations": [
+          "Bioinformatics Research Laboratory, Department of Biological Sciences, University of Cyprus, Nicosia, Cyprus."
+        ]
+      },
+      {
+        "full_name": "Pujols, Jordi",
+        "short_name": "Pujols J",
+        "identifiers": [
+          "0000-0001-9424-5866"
+        ],
+        "affiliations": [
+          "Institut de Biotecnologia i Biomedicina, Universitat Autònoma de Barcelona, Barcelona, Spain.",
+          "Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Rocha, Alma Carolina Sanchez",
+        "short_name": "Rocha ACS",
+        "identifiers": [
+          "0000-0001-7395-9173"
+        ],
+        "affiliations": [
+          "Department of Cell Biology, Faculty of Science, Charles University, BIOCEV, Prague , Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Salas, Martin",
+        "short_name": "Salas M",
+        "identifiers": [
+          "0000-0001-6352-1282"
+        ],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes - CONICET, Bernal, Buenos Aires B1876BXD, Argentina."
+        ]
+      },
+      {
+        "full_name": "Sawicki, Luciana Rodriguez",
+        "short_name": "Sawicki LR",
+        "identifiers": [
+          "0000-0001-5782-6573"
+        ],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes - CONICET, Bernal, Buenos Aires B1876BXD, Argentina."
+        ]
+      },
+      {
+        "full_name": "Schad, Eva",
+        "short_name": "Schad E",
+        "identifiers": [
+          "0000-0002-3006-2910"
+        ],
+        "affiliations": [
+          "Institute of Enzymology, Research Centre for Natural Sciences, Budapest 1117, Hungary."
+        ]
+      },
+      {
+        "full_name": "Shenoy, Aditi",
+        "short_name": "Shenoy A",
+        "identifiers": [
+          "0000-0001-7748-2501"
+        ],
+        "affiliations": [
+          "Science for Life Laboratory, Department of Biochemistry and Biophysics, Stockholm University, 171 21 Solna, Sweden."
+        ]
+      },
+      {
+        "full_name": "Szaniszló, Tamás",
+        "short_name": "Szaniszló T",
+        "identifiers": [
+          "0000-0002-3130-9284"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Eötvös Loránd University, Pázmány Péter stny 1/c, Budapest H-1117, Hungary."
+        ]
+      },
+      {
+        "full_name": "Tsirigos, Konstantinos D",
+        "short_name": "Tsirigos KD",
+        "identifiers": [
+          "0000-0001-5280-1107"
+        ],
+        "affiliations": [
+          "European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, UK."
+        ]
+      },
+      {
+        "full_name": "Veljkovic, Nevena",
+        "short_name": "Veljkovic N",
+        "identifiers": [
+          "0000-0001-6562-5800"
+        ],
+        "affiliations": [
+          "Laboratory for Bioinformatics and Computational Chemistry, Vinča Institute of Nuclear Sciences, National Institute of the Republic of Serbia, University of Belgrade, 11000Belgrade, Serbia."
+        ]
+      },
+      {
+        "full_name": "Parisi, Gustavo",
+        "short_name": "Parisi G",
+        "identifiers": [
+          "0000-0001-7444-1624"
+        ],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes - CONICET, Bernal, Buenos Aires B1876BXD, Argentina."
+        ]
+      },
+      {
+        "full_name": "Ventura, Salvador",
+        "short_name": "Ventura S",
+        "identifiers": [
+          "0000-0002-9652-6351"
+        ],
+        "affiliations": [
+          "Institut de Biotecnologia i Biomedicina, Universitat Autònoma de Barcelona, Barcelona, Spain.",
+          "Departament de Bioquímica i Biologia Molecular, Universitat Autònoma de Barcelona, Barcelona, Spain.",
+          "ICREA, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Dosztányi, Zsuzsanna",
+        "short_name": "Dosztányi Z",
+        "identifiers": [
+          "0000-0002-3624-5937"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Eötvös Loránd University, Pázmány Péter stny 1/c, Budapest H-1117, Hungary."
+        ]
+      },
+      {
+        "full_name": "Tompa, Peter",
+        "short_name": "Tompa P",
+        "identifiers": [
+          "0000-0001-8042-9939"
+        ],
+        "affiliations": [
+          "Institute of Enzymology, Research Centre for Natural Sciences, Budapest 1117, Hungary.",
+          "VIB-VUB Center for Structural Biology, Vlaams Instituut voor Biotechnology, Brussels, Belgium.",
+          "Structural Biology Brussels (SBB), Bioengineering Sciences Department, Vrije Universiteit Brussel (VUB), Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [
+          "0000-0003-4525-7793"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Piovesan, Damiano",
+        "short_name": "Piovesan D",
+        "identifiers": [
+          "0000-0001-8210-2390"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2022 Jan 7",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/02 06:00",
+    "fetched_at": "2026-09-20 06:48:47"
+  },
+  "links": {
+    "cites": [
+      "42425985",
+      "42087786",
+      "41657093",
+      "41648466",
+      "41303502",
+      "41271784",
+      "41166416",
+      "41008639",
+      "40925983",
+      "40728619",
+      "40677912",
+      "40569578",
+      "40490488",
+      "40448683",
+      "40183636",
+      "39940886",
+      "39817437",
+      "39776173",
+      "39731018",
+      "39576584",
+      "39576583",
+      "39526403",
+      "39468056",
+      "39417089",
+      "39383002",
+      "39279844",
+      "39253293",
+      "38987470",
+      "38739759",
+      "38739602",
+      "38707546",
+      "38680556",
+      "38646777",
+      "38540707",
+      "38507044",
+      "38404711",
+      "38213902",
+      "38180828",
+      "38166858",
+      "38048333",
+      "37992088",
+      "37990040",
+      "37962385",
+      "37961597",
+      "37933852",
+      "37904585",
+      "37900964",
+      "37892124",
+      "37878721",
+      "37740110",
+      "37686347",
+      "37668974",
+      "37583961",
+      "37530436",
+      "37246642",
+      "37237566",
+      "37167423",
+      "37158276",
+      "37153862",
+      "37140058",
+      "36979465",
+      "36932089",
+      "36929723",
+      "36866529",
+      "36851914",
+      "36774359",
+      "36768473",
+      "36641214",
+      "36629262",
+      "36626722",
+      "36575582",
+      "36416266",
+      "36380380",
+      "36304335",
+      "36291634",
+      "36272675",
+      "36250006",
+      "36243971",
+      "36233301",
+      "36215254",
+      "36210722",
+      "35898309",
+      "35883530",
+      "35883444",
+      "35739160",
+      "35655760",
+      "35634782",
+      "35591946",
+      "35533203",
+      "35436286",
+      "35427897",
+      "35108439",
+      "34986604",
+      "34830151"
+    ],
+    "refs": [
+      "34298700",
+      "34293799",
+      "34290238",
+      "34265844",
+      "34218458",
+      "33882120",
+      "33875885",
+      "33579564",
+      "33325498",
+      "33305318",
+      "33290552",
+      "33237329",
+      "33087931",
+      "33017101",
+      "33004511",
+      "32966806",
+      "32535960",
+      "32173600",
+      "31824649",
+      "31740740",
+      "31713636",
+      "31680160",
+      "31667555",
+      "31584092",
+      "30576490",
+      "30407590",
+      "30395287",
+      "30278223",
+      "29860432",
+      "29466338",
+      "27794553",
+      "27387657",
+      "25531225",
+      "24773235",
+      "22496841",
+      "19744993",
+      "16949547",
+      "11381529",
+      "10802651",
+      "9697202"
+    ],
+    "similar": [
+      "34850135",
+      "37904585",
+      "31713636",
+      "38507044",
+      "33017101",
+      "39470701",
+      "29136219",
+      "37167423",
+      "35789137",
+      "36416266",
+      "25361972",
+      "33237329",
+      "34791357",
+      "28381244",
+      "39718444",
+      "33882120",
+      "30576490",
+      "32696355",
+      "25378336",
+      "27899601",
+      "28934129",
+      "39576584",
+      "17145717",
+      "27812948",
+      "28387819",
+      "31264965",
+      "31824649",
+      "24727949",
+      "40054813",
+      "33291838",
+      "23466039",
+      "33875885",
+      "27115638",
+      "30592560",
+      "15310560",
+      "27812934",
+      "39526405",
+      "40347452",
+      "24587103",
+      "37892124",
+      "33550666",
+      "31425549",
+      "33119751",
+      "31073595",
+      "28453683",
+      "39576585",
+      "39565202",
+      "34252246",
+      "33305318",
+      "30398656",
+      "22067451",
+      "34823464",
+      "22848383",
+      "29343218",
+      "30135358",
+      "22661649",
+      "31870849",
+      "34487791",
+      "37621223",
+      "27787828",
+      "40138319",
+      "27812941",
+      "25736992",
+      "24594841",
+      "24150944",
+      "32696395",
+      "38079339",
+      "34986598",
+      "29523070",
+      "28025345",
+      "22123736",
+      "37400558",
+      "23942625",
+      "25496281",
+      "28589442",
+      "32112804",
+      "31329574",
+      "32875947",
+      "25794277",
+      "25157073",
+      "24178034",
+      "30819075",
+      "23193261",
+      "33719450",
+      "26555596",
+      "22434836",
+      "23161678",
+      "31889261",
+      "32599863",
+      "24573480",
+      "25052702",
+      "34727037",
+      "35507260",
+      "28525284",
+      "27377881",
+      "25391399",
+      "34710081",
+      "34048569",
+      "39237195",
+      "38048333"
+    ],
+    "review": [
+      "34850135",
+      "33291838",
+      "23466039",
+      "37400558"
+    ],
+    "pmc": [
+      "8728214"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://hdl.handle.net/2318/1944387",
+        "provider": "University of Turin Instituional Repository AperTO - Free full text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full Text from"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34850135/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34850135",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://facultyopinions.com/pubmed/34850135",
+        "provider": "H1 Connect - Access expert opinions and insights on biomedical research.",
+        "category": "Other Literature Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "See the articles recommended by the Faculty of more than 8,000 leading experts in Biology and Medicine."
+      },
+      {
+        "url": "https://data.niaid.nih.gov/resources?id=biotools_disprot",
+        "provider": "NIAID Data Ecosystem - Find datasets on Infectious and Immune-mediated Diseases",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": "NIAID Data Ecosystem"
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkab1082",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

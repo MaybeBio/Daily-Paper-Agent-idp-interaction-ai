@@ -1,0 +1,209 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.09.693204",
+  "title": "O-GlcNAcylation and an importin-β radial gradient keep the FG barrier liquid in live-cell nuclear pores",
+  "doi": "10.64898/2025.12.09.693204",
+  "abstract": "The nuclear pore complex (NPC) regulates the molecular traffic between nucleus and cytoplasm. Its permeability barrier is formed by intrinsically disordered proteins (IDPs) known as FG-nucleoporins (FG-NUPs), whose physical state has long been debated. Deciphering how FG-NUPs behave inside living cells is crucial for understanding how the NPC achieves selective and rapid transport. Here, by combining site-specific labelling with picosecond time-resolved fluorescence anisotropy, we reveal that FG domains exhibit nanosecond-scale, liquid-like mobility in live cells, yet undergo a liquid-to-solid transition in vitro. Experiments and coarse-grained molecular dynamics simulations further show that importin-β, a major nuclear transport receptor, and O-linked β-N-acetylglucosamine (O-GlcNAc), a key post-translational modification of FG-NUPs together stabilise the dynamic FG network. Finely balanced FG-FG interactions modulated by O-GlcNAcylation, along with FG-importin-β interactions, maintain liquidity and enrich importin-β near the NPC periphery, while extended FG domains remain in the central channel to form the transport barrier. These findings reconcile conflicting models of FG-NUP organisation and explain the recent observations in high-resolution MINFLUX studies of importin-β depletion from the pore centre in mammalian cells. Beyond resolving debates over FG-NUP behaviour, our study underscores the importance of studying IDPs in their cellular context, with broader implications for understanding IDP-related diseases, including viral infections, cancer, and neurodegenerative disorders.",
+  "authors": [
+    "Yu M",
+    "Heidari M",
+    "Palacio-Rodriguez K",
+    "Ruan H",
+    "Mingu S",
+    "Hidayat AA",
+    "Bode M",
+    "Sikora M",
+    "Hummer G",
+    "Lemke EA"
+  ],
+  "published_date": "2025-12-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693204",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693204.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1232240",
+    "raw_record": {
+      "id": "PPR1232240",
+      "source": "PPR",
+      "doi": "10.64898/2025.12.09.693204",
+      "title": "O-GlcNAcylation and an importin-β radial gradient keep the FG barrier liquid in live-cell nuclear pores",
+      "authorString": "Yu M, Heidari M, Palacio-Rodriguez K, Ruan H, Mingu S, Hidayat AA, Bode M, Sikora M, Hummer G, Lemke EA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yu M",
+            "lastName": "Yu",
+            "firstName": "Miao",
+            "initials": "M"
+          },
+          {
+            "fullName": "Heidari M",
+            "lastName": "Heidari",
+            "firstName": "Maziar",
+            "initials": "M"
+          },
+          {
+            "fullName": "Palacio-Rodriguez K",
+            "lastName": "Palacio-Rodriguez",
+            "firstName": "Karen",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4327-8478"
+            }
+          },
+          {
+            "fullName": "Ruan H",
+            "lastName": "Ruan",
+            "firstName": "Hao",
+            "initials": "H"
+          },
+          {
+            "fullName": "Mingu S",
+            "lastName": "Mingu",
+            "firstName": "Sara",
+            "initials": "S"
+          },
+          {
+            "fullName": "Hidayat AA",
+            "lastName": "Hidayat",
+            "firstName": "Alam Ahmad",
+            "initials": "AA"
+          },
+          {
+            "fullName": "Bode M",
+            "lastName": "Bode",
+            "firstName": "Mathis",
+            "initials": "M"
+          },
+          {
+            "fullName": "Sikora M",
+            "lastName": "Sikora",
+            "firstName": "Mateusz",
+            "initials": "M"
+          },
+          {
+            "fullName": "Hummer G",
+            "lastName": "Hummer",
+            "firstName": "Gerhard",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7768-746X"
+            }
+          },
+          {
+            "fullName": "Lemke EA",
+            "lastName": "Lemke",
+            "firstName": "Edward",
+            "initials": "EA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0634-0503"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7768-746X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0634-0503"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4327-8478"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "The nuclear pore complex (NPC) regulates the molecular traffic between nucleus and cytoplasm. Its permeability barrier is formed by intrinsically disordered proteins (IDPs) known as FG-nucleoporins (FG-NUPs), whose physical state has long been debated. Deciphering how FG-NUPs behave inside living cells is crucial for understanding how the NPC achieves selective and rapid transport. Here, by combining site-specific labelling with picosecond time-resolved fluorescence anisotropy, we reveal that FG domains exhibit nanosecond-scale, liquid-like mobility in live cells, yet undergo a liquid-to-solid transition in vitro. Experiments and coarse-grained molecular dynamics simulations further show that importin-β, a major nuclear transport receptor, and O-linked β-N-acetylglucosamine (O-GlcNAc), a key post-translational modification of FG-NUPs together stabilise the dynamic FG network. Finely balanced FG-FG interactions modulated by O-GlcNAcylation, along with FG-importin-β interactions, maintain liquidity and enrich importin-β near the NPC periphery, while extended FG domains remain in the central channel to form the transport barrier. These findings reconcile conflicting models of FG-NUP organisation and explain the recent observations in high-resolution MINFLUX studies of importin-β depletion from the pore centre in mammalian cells. Beyond resolving debates over FG-NUP behaviour, our study underscores the importance of studying IDPs in their cellular context, with broader implications for understanding IDP-related diseases, including viral infections, cancer, and neurodegenerative disorders.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "MSCA Individual Fellowship",
+            "grantId": "TFNUP 89410",
+            "orderIn": 0
+          },
+          {
+            "agency": "ERC-ADG grant",
+            "grantId": "MultiOrganelleDesign",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "464588647",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Natural Science Foundation of China",
+            "grantId": "32471521",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deutsche Forschungsgemeinschaft",
+            "grantId": "450648163",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.09.693204"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-11",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

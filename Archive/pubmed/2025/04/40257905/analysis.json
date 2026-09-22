@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40257905",
+  "title": "Localizatome: a database for stress-dependent subcellular localization changes in proteins.",
+  "authors": "Matsushima, Takahide; Naito, Yuki; Chiba, Tomoki; Kurimoto, Ryota; Itano, Keiko; Ochiai, Koji; Takahashi, Koichi; Goshima, Naoki; Asahara, Hiroshi",
+  "journal": "Database : the journal of biological databases and curation",
+  "published_date": "2025-04-21",
+  "window": {
+    "start": "2025-04-21",
+    "end": "2025-04-27"
+  },
+  "score": 6,
+  "one_liner_zh": "该文构建了应激依赖的蛋白质亚细胞定位变化数据库，用机器学习分析高通量显微图像，并识别与应激诱导重分布相关的IDR，虽非直接研究PPI机制，但为IDR介导的应激凝聚体（如应激颗粒）互作提供了数据资源与可迁移思路。",
+  "abstract": "Understanding protein subcellular localization and its dynamic changes is crucial for elucidating cellular function and disease mechanisms, particularly under stress conditions, where protein localization changes can modulate cellular responses. Currently available databases provide insights into protein localization under steady-state conditions; however, stress-related dynamic localization changes remain poorly understood. Here, we present the Localizatome, a comprehensive database that captures stress-induced protein localization dynamics in living cells. Using an original high-throughput microscopy system and machine learning algorithms, we analysed the localization patterns of 10 287 fluorescent protein-fused human proteins in HeLa cells before and after exposure to oxidative stress. Our analysis revealed that 1910 proteins exhibited oxidative stress-dependent localization changes, particularly forming distinct foci. Among them, there were stress granule assembly factors and autophagy-related proteins, as well as components of various signalling pathways. Subsequent characterization identified some specific amino acid motifs and intrinsically disordered regions associated with stress-induced protein redistribution. The Localizatome provides open access to these data through a web-based interface, supporting a wide range of studies on cellular stress response and disease mechanisms. Database URL https://localizatome.embrys.jp/.",
+  "abstract_zh": "理解蛋白质亚细胞定位及其动态变化对于阐明细胞功能和疾病机制至关重要，尤其是在应激条件下，蛋白质定位变化可调节细胞反应。目前可用的数据库提供了稳态条件下蛋白质定位的见解；然而，应激相关的动态定位变化仍知之甚少。在此，我们介绍了Localizatome，一个全面捕获活细胞中应激诱导的蛋白质定位动态的数据库。利用原创的高通量显微镜系统和机器学习算法，我们分析了10 287种荧光蛋白融合人源蛋白在HeLa细胞中暴露于氧化应激前后的定位模式。我们的分析揭示，1910种蛋白质表现出氧化应激依赖性定位变化，特别是形成明显的病灶。其中包含应激颗粒组装因子和自噬相关蛋白，以及多种信号通路的组分。后续表征识别出一些与应激诱导的蛋白质再分布相关的特定氨基酸基序和内在无序区域。Localizatome通过基于网页的界面开放访问这些数据，支持细胞应激反应和疾病机制的广泛研究。数据库URL https://localizatome.embrys.jp/。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40257905/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40257905/",
+  "paper_page_path": "papers/pubmed/40257905/index.html"
+}

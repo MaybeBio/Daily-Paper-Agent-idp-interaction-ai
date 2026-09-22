@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "42233425",
+    "doi": "10.1080/19491034.2026.2680376",
+    "title": "Intrinsically disordered regions facilitate Mlp1-Nab2 recognition in mRNA quality control."
+  },
+  "content": {
+    "abstract": "Quality control of mRNAs ensures that only properly processed transcripts are exported from the nucleus. Myosin-like protein 1 (Mlp1), plays a central role in this process by interacting with RNA-binding proteins (RBPs), including Nab2. While previous studies identified Phe73 in Nab2 as critical for Mlp1 binding, the molecular mechanism remains unclear. Here, we employed a computational approach to develop a mechanistic model of Mlp1-Nab2 interaction. Our results suggest that Phe73 does not act through direct contacts with Mlp1, but instead stabilizes intramolecular interactions between Nab2 helices that promote a compact conformation. F73A disrupted this helix-helix stabilization and weakened binding, whereas F73W enhanced the interaction. Our findings support a binding mechanism in which the structural flexibility of Mlp1's disordered domain enables adaptive recognition of Nab2. This mechanism may represent a general strategy by which the nuclear basket inspects mRNPs, highlighting the importance of flexible protein-protein recognition in mRNA quality control.",
+    "keywords": [
+      "RNA-binding proteins (RBPs)",
+      "intrinsically disordered proteins",
+      "mRNA export",
+      "mRNA quality control",
+      "molecular dynamics simulations",
+      "nuclear basket",
+      "nuclear pore complex (NPC)"
+    ],
+    "mesh_terms": [
+      "*RNA, Messenger/metabolism/genetics",
+      "*RNA-Binding Proteins/metabolism/chemistry",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry",
+      "*Saccharomyces cerevisiae Proteins/metabolism/chemistry",
+      "Protein Binding",
+      "Nucleocytoplasmic Transport Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Soheilypour, Mohammad",
+        "Peyro, Mohaddeseh",
+        "Shams, Hengameh",
+        "Mofrad, Mohammad R K"
+      ],
+      "short_names": [
+        "Soheilypour M",
+        "Peyro M",
+        "Shams H",
+        "Mofrad MRK"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7004-4859"
+      ],
+      "affiliations": [
+        "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California, Berkeley, CA, USA.",
+        "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California, Berkeley, CA, USA.",
+        "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California, Berkeley, CA, USA.",
+        "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California, Berkeley, CA, USA.",
+        "Molecular Biophysics and Integrative Bioimaging Division, Lawrence Berkeley National Lab, Berkeley, CA, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Soheilypour, Mohammad",
+        "short_name": "Soheilypour M",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Peyro, Mohaddeseh",
+        "short_name": "Peyro M",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Shams, Hengameh",
+        "short_name": "Shams H",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California, Berkeley, CA, USA."
+        ]
+      },
+      {
+        "full_name": "Mofrad, Mohammad R K",
+        "short_name": "Mofrad MRK",
+        "identifiers": [
+          "0000-0001-7004-4859"
+        ],
+        "affiliations": [
+          "Molecular Cell Biomechanics Laboratory, Departments of Bioengineering and Mechanical Engineering, University of California, Berkeley, CA, USA.",
+          "Molecular Biophysics and Integrative Bioimaging Division, Lawrence Berkeley National Lab, Berkeley, CA, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleus (Austin, Tex.)"
+    ],
+    "journal_abbrev": [
+      "Nucleus"
+    ],
+    "pub_date": "2026 Dec",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/03 12:39",
+    "fetched_at": "2026-09-18 03:49:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40651991",
+      "39408571",
+      "39366354",
+      "39282864",
+      "38113140",
+      "36220102",
+      "34681934",
+      "34504007",
+      "33461637",
+      "33440169",
+      "33406982",
+      "31913454",
+      "31513326",
+      "30578643",
+      "29431587",
+      "27805000",
+      "26658558",
+      "26541386",
+      "25491031",
+      "25253717",
+      "24722547",
+      "24532726",
+      "24452287",
+      "24282617",
+      "23583578",
+      "23407358",
+      "21805636",
+      "21602906",
+      "20360767",
+      "19247286",
+      "18682389",
+      "18190927",
+      "17630287",
+      "17598144",
+      "16863197",
+      "15980490",
+      "15531603",
+      "14718167",
+      "12531921",
+      "12496292",
+      "11779864",
+      "10873801",
+      "10869041",
+      "10506153",
+      "10085285",
+      "8744570",
+      "8483450",
+      "7798308"
+    ],
+    "similar": [
+      "42233425",
+      "18682389",
+      "18190927",
+      "17636033",
+      "20823268",
+      "30578643",
+      "15208322",
+      "20463024",
+      "19840948",
+      "42324915",
+      "20554526",
+      "27805000",
+      "28180315",
+      "33002012",
+      "39617253",
+      "38113140",
+      "22560733",
+      "22484098",
+      "39353735",
+      "26694838",
+      "15713618",
+      "16162818",
+      "40846642",
+      "21526221",
+      "23636942",
+      "20810649",
+      "12496292",
+      "41574433",
+      "23535894",
+      "8474438",
+      "23721653",
+      "31753862",
+      "12531921",
+      "26220998",
+      "24931410",
+      "11779864",
+      "37963019",
+      "31680439",
+      "17630287",
+      "17475778",
+      "24705649",
+      "15703440",
+      "17875746",
+      "19328066",
+      "11927564",
+      "12498157",
+      "18082609",
+      "34487791",
+      "31375530",
+      "11104765",
+      "39138317",
+      "14504280",
+      "14718167",
+      "24071581",
+      "25618852",
+      "36220102",
+      "14676199",
+      "22343721",
+      "10668806",
+      "17724121",
+      "33938148",
+      "34604117",
+      "33406982",
+      "12181330",
+      "35098694",
+      "10786854",
+      "29374059",
+      "12101235",
+      "34146438",
+      "19369424",
+      "10209021",
+      "16307927",
+      "21680710",
+      "21576265",
+      "12631707",
+      "42095372",
+      "11739738",
+      "39408571",
+      "10444597",
+      "22893130",
+      "18343812",
+      "15143180",
+      "11073978",
+      "41714637",
+      "39384042",
+      "31807700",
+      "24452287",
+      "27229125",
+      "18959479",
+      "32925900",
+      "27385342",
+      "12524544",
+      "15692572",
+      "23396276",
+      "19244342",
+      "11412847",
+      "22008473",
+      "26944332",
+      "39899609",
+      "21441902"
+    ],
+    "review": [
+      "42233425",
+      "30578643",
+      "22484098",
+      "12498157",
+      "33938148",
+      "35098694",
+      "39408571",
+      "27229125",
+      "11412847"
+    ],
+    "pmc": [
+      "13240961"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/19491034.2026.2680376?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42233425/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://figshare.com/articles/by-resource-doi/10.1080/19491034.2026.2680376",
+        "provider": "figshare - Access datasets and other research materials.",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Supporting Data and Materials for the article"
+      }
+    ],
+    "text_mined": []
+  }
+}

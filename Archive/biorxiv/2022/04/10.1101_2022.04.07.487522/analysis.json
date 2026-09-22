@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.04.07.487522",
+  "title": "The impact of AlphaFold on experimental structure solution",
+  "authors": "Edich M; Briggs DC; Kippes O; Gao Y; Thorn A",
+  "journal": "bioRxiv",
+  "published_date": "2022-04-08",
+  "window": {
+    "start": "2022-04-04",
+    "end": "2022-04-10"
+  },
+  "score": 5,
+  "one_liner_zh": "该文综述AlphaFold2在实验结构解析中的应用与局限，虽涉及AI预测和蛋白结构，但未聚焦无序蛋白或PPI机制建模，仅部分方法思路可迁移。",
+  "abstract": "AlphaFold2 is a machine-learning based program that predicts a protein structure based on the amino acid sequence. In this article, we report on the current usages of this new tool and give examples from our work in the Coronavirus Structural Task Force. With its unprecedented accuracy, it can be utilized for the design of expression constructs, de novo protein design and the interpretation of Cryo-EM data with an atomic model. However, these methods are limited by their training data and are of limited use to predict conformational variability and fold flexibility; they also lack co-factors, posttranslational modifications and multimeric complexes with oligonucleotides. They also are not always perfect in terms of chemical geometry. Nevertheless, machine learning based fold prediction are a game changer for structural bioinformatics and experimentalists alike, with exciting developments ahead.",
+  "abstract_zh": "AlphaFold2是一种基于机器学习的程序，能够根据氨基酸序列预测蛋白质结构。在本文中，我们报告了这一新工具的当前应用情况，并提供了我们在冠状病毒结构工作组中的工作实例。凭借其前所未有的准确性，它可用于表达构建体的设计、从头蛋白质设计以及利用原子模型解释冷冻电镜数据。然而，这些方法受限于其训练数据，在预测构象变异性和折叠灵活性方面用途有限；它们也缺乏辅因子、翻译后修饰以及与寡核苷酸形成的多聚体复合物。此外，它们在化学几何方面并非总是完美。尽管如此，基于机器学习的折叠预测对结构生物信息学和实验学家而言都是一场变革，未来将有令人兴奋的发展。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.04.07.487522",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.04.07.487522",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.04.07.487522/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37094111",
+  "title": "Naringenin-Functionalized Gold Nanoparticles and Their Role in alpha-Synuclein Stabilization.",
+  "authors": "Maity, Anupam; Mondal, Animesh; Kundu, Shubham; Shome, Gourav; Misra, Rajdip; Singh, Aakriti; Pal, Uttam; Mandal, Atin Kumar; Bera, Kaushik; Maiti, Nakul C",
+  "journal": "Langmuir : the ACS journal of surfaces and colloids",
+  "published_date": "2023-04-24",
+  "window": {
+    "start": "2023-04-24",
+    "end": "2023-04-30"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究用柚皮素功能化金纳米颗粒抑制α-突触核蛋白（IDP）聚集，涉及蛋白-纳米颗粒互作与构象稳定，但对象为纳米材料而非PPI，且方法以实验表征为主，缺乏AI/物理模拟建模，仅部分可迁移启发。",
+  "abstract": "Misfolding and self-assembly of several intrinsically disordered proteins into ordered beta-sheet-rich amyloid aggregates emerged as hallmarks of several neurodegenerative disorders such as Alzheimer's and Parkinson's diseases. Here we show how the naringenin-embedded nanostructure effectively retards aggregation and fibril formation of alpha-synuclein, which is strongly associated with the pathology of Parkinson's-like diseases. Naringenin is a polyphenolic compound from a plant source, and in our current investigation, we reported the one-pot synthesis of naringenin-coated spherical and monophasic gold nanoparticles (NAR-AuNPs) under optimized conditions. The average hydrodynamic diameter of the produced nanoparticle was  approximately 24 nm and showed a distinct absorption band at 533 nm. The zeta potential of the nanocomposite was  approximately -22 mV and indicated the presence of naringenin on the surface of nanoparticles. Core-level XPS spectrum analysis showed prominent peaks at 84.02 and 87.68 eV, suggesting the zero oxidation state of metal in the nanostructure. Additionally, the peaks at 86.14 and 89.76 eV were due to the Au-O bond, induced by the hydroxyl groups of the naringenin molecule. The FT-IR analysis further confirmed strong interactions of the molecule with the gold nanosurface via the phenolic oxygen group. The composite surface was found to interact with monomeric alpha-synuclein and caused a red shift in the nanoparticle absorption band by  approximately 5 nm. The binding affinity of the composite nanostructure toward alpha-synuclein was in the micromolar range (K(a) approximately  5.02 x 10(6) M(-1)) and may produce a protein corona over the gold nanosurface. A circular dichroism study showed that the nanocomposite can arrest the conformational fluctuation of the protein and hindered its transformation into a compact cross-beta-sheet conformation, a prerequisite for amyloid fibril formation. Furthermore, it was found that naringenin and its nanocomplex did not perturb the viability of neuronal cells. It thus appeared that engineering of the nanosurface with naringenin could be an alternative strategy in developing treatment approaches for Parkinson's and other diseases linked to protein conformation.",
+  "abstract_zh": "几种 intrinsically disordered proteins（本质无序蛋白质）的错误折叠和自组装形成有序的富含β-折叠的淀粉样聚集体，已成为阿尔茨海默病和帕金森病等几种神经退行性疾病的重要标志。在此，我们展示了柚皮素嵌入的纳米结构如何有效延缓α-突触核蛋白（alpha-synuclein）的聚集和原纤维形成，该蛋白与帕金森样疾病的病理密切相关。柚皮素是一种来源于植物的多酚化合物，在我们当前的研究中，我们报道了在优化条件下一锅法合成柚皮素包被的球形单相金纳米颗粒（NAR-AuNPs）。所产生纳米颗粒的平均流体动力学直径约为24 nm，并在533 nm处显示出明显的吸收带。纳米复合物的zeta电位约为-22 mV，表明纳米颗粒表面存在柚皮素。核心能级XPS光谱分析显示在84.02和87.68 eV处有显著峰，表明纳米结构中金属的零氧化态。此外，86.14和89.76 eV处的峰归因于Au-O键，由柚皮素分子的羟基诱导产生。FT-IR分析进一步证实了分子通过酚氧基团与金纳米表面发生强相互作用。发现复合表面与单体α-突触核蛋白相互作用，并导致纳米颗粒吸收带红移约5 nm。复合纳米结构对α-突触核蛋白的结合亲和力处于微摩尔范围（K(a)约5.02 x 10(6) M(-1)），并可能在金纳米表面形成蛋白质冠。圆二色性研究表明，纳米复合物可以阻止蛋白质的构象波动，并阻碍其转变为紧凑的交叉β-折叠构象，这是淀粉样原纤维形成的先决条件。此外，发现柚皮素及其纳米复合物不干扰神经元细胞的活力。因此，用柚皮素工程化纳米表面可能成为开发帕金森病及其他与蛋白质构象相关疾病治疗方法的替代策略。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37094111/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37094111/",
+  "paper_page_path": "papers/pubmed/37094111/index.html"
+}

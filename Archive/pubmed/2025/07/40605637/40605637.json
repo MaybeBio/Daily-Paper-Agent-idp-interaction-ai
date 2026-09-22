@@ -1,0 +1,222 @@
+{
+  "identity": {
+    "pmid": "40605637",
+    "doi": "10.1080/07391102.2025.2528927",
+    "title": "Molecular dynamics simulation of the aggregation and folding mechanism of alpha-synuclein 47-56 in core peptide fragments induced by alpha-synuclein pentamer template."
+  },
+  "content": {
+    "abstract": "The misfolding of intrinsically disordered alpha-synuclein protein, which can form beta-sheet-rich fibrillar amyloid structures, is closely associated with Parkinson's disease (PD). The peptide alpha-synuclein 47-56 has been identified as the toxic core of alpha-synuclein and plays a pivotal role in the aggregation and misfolding processes of this protein. Investigating the template induction behavior of this peptide is crucial for elucidating the molecular mechanisms underlying alpha-synuclein misfolding and aggregation. To explore the molecular mechanism of the peptide alpha-synuclein 47-56, guided by the alpha-synuclein pentamer template, we conducted a 400 ns molecular dynamics simulation. In this simulation, the peptide alpha-synuclein 47-56 was positioned on both sides of the alpha-synuclein pentamers. Our results demonstrate distinct elongation characteristics of the peptide alpha-synuclein 47-56 on the two sides of the pentamer. The beta-sheet structure readily formed on the left side of the alpha-synuclein pentamer, facilitating template induction. In contrast, the formation of beta-sheet secondary structures was hindered on the right side of the alpha-synuclein pentamer. Furthermore, our analysis reveals that hydrogen bonding, electrostatic interactions, and van der Waals forces between the alpha-synuclein pentamer and monomer are crucial for beta-sheet extension. Notably, we identified the alpha-synuclein 49-53 region as a key peptide segment in this process.",
+    "keywords": [
+      "Molecular dynamics simulation",
+      "aggregation",
+      "mechanism",
+      "seeding",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "*Molecular Dynamics Simulation",
+      "*Protein Folding",
+      "*Protein Aggregates",
+      "*Peptide Fragments/chemistry",
+      "Hydrogen Bonding",
+      "Protein Conformation, beta-Strand",
+      "Humans",
+      "Protein Structure, Secondary",
+      "Parkinson Disease"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Ruijuan",
+        "Liu, Xuewei"
+      ],
+      "short_names": [
+        "Liu R",
+        "Liu X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "College of Physical Education, Northwest Normal University, Lanzhou, China.",
+        "Department of Pharamacy, Jiangsu Food & Pharmaceutical Science College, Huaian, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Ruijuan",
+        "short_name": "Liu R",
+        "identifiers": [],
+        "affiliations": [
+          "College of Physical Education, Northwest Normal University, Lanzhou, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xuewei",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharamacy, Jiangsu Food & Pharmaceutical Science College, Huaian, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of biomolecular structure & dynamics"
+    ],
+    "journal_abbrev": [
+      "J Biomol Struct Dyn"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/03 06:28",
+    "fetched_at": "2026-09-21 20:31:45"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40605637",
+      "31661961",
+      "33997868",
+      "37189428",
+      "28667699",
+      "34830391",
+      "29364151",
+      "36278939",
+      "32120928",
+      "31142553",
+      "22024360",
+      "40916915",
+      "19795910",
+      "31903719",
+      "25389903",
+      "39849723",
+      "23160934",
+      "23607785",
+      "29704492",
+      "25139280",
+      "39437152",
+      "39504036",
+      "28710275",
+      "26119103",
+      "37741548",
+      "31699336",
+      "40715768",
+      "31685848",
+      "29715424",
+      "26723627",
+      "39957201",
+      "32392276",
+      "33333378",
+      "38964522",
+      "28922400",
+      "30853581",
+      "28024449",
+      "26601760",
+      "39947752",
+      "37253119",
+      "34439733",
+      "23390095",
+      "12115139",
+      "29286644",
+      "26479553",
+      "12534279",
+      "26845568",
+      "39175373",
+      "19538146",
+      "25524885",
+      "39693815",
+      "28075555",
+      "30755483",
+      "30813720",
+      "30098337",
+      "18633713",
+      "35041853",
+      "27698130",
+      "40819250",
+      "24623599",
+      "33625841",
+      "40515635",
+      "39561991",
+      "40853068",
+      "22947936",
+      "32699326",
+      "29750499",
+      "31575115",
+      "36373662",
+      "32041489",
+      "27809690",
+      "27742838",
+      "29601727",
+      "37489886",
+      "23339399",
+      "34796404",
+      "25255476",
+      "16246058",
+      "34695381",
+      "40882443",
+      "32025029",
+      "32046006",
+      "30769283",
+      "25450392",
+      "40453094",
+      "28460628",
+      "39875340",
+      "32623047",
+      "37125909",
+      "23748003",
+      "27808107",
+      "28796507",
+      "17381514",
+      "38801346",
+      "32982240",
+      "34502242",
+      "35681426",
+      "22274962",
+      "40912022",
+      "33110167"
+    ],
+    "review": [
+      "40605637",
+      "29364151",
+      "22024360",
+      "25139280",
+      "30853581",
+      "39947752",
+      "23390095",
+      "19538146",
+      "36373662",
+      "23748003",
+      "35681426"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/07391102.2025.2528927?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

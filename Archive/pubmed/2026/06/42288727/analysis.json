@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42288727",
+  "title": "Predicting molecular recognition features in protein sequences with MoRFchibi 2.0.",
+  "authors": "Malhis, Nawar; Gsponer, Jorg",
+  "journal": "BMC bioinformatics",
+  "published_date": "2026-06-15",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出MoRFchibi 2.0，用集成逻辑回归卷积神经网络预测无序蛋白区域中的分子识别特征(MoRF)，即IDR介导PPI的结合位点，虽未直接建模互作机制，但方法上以AI预测IDR内结合位点，对无序蛋白互作预测有直接启发。",
+  "abstract": "Molecular Recognition Features (MoRFs) are segments within disordered protein regions (IDRs) that undergo a disorder-to-order transition upon binding to their partners. Identifying MoRFs remains a significant challenge. This paper introduces MoRFchibi 2.0, a specialized prediction tool designed to identify the locations of MoRFs within protein sequences. Our results show that MoRFchibi 2.0 outperforms all existing MoRF and general predictors of protein-binding sites within IDRs, including the top-performing models from the Critical Assessment of protein Intrinsic Disorder (CAID) rounds 1, 2, and 3. Remarkably, MoRFchibi 2.0 surpasses predictors that utilize AlphaFold data and state-of-the-art protein language models, achieving superior ROC and Precision-Recall curves and higher success rates. MoRFchibi 2.0 generates output scores using an ensemble of logistic regression convolutional neural network models normalized for the priors in the training data, making them individually interpretable and compatible with other tools utilizing the same scoring framework.",
+  "abstract_zh": "分子识别特征（Molecular Recognition Features, MoRFs）是位于无序蛋白区域（IDRs）内的片段，在与伙伴结合时会发生从无序到有序的转变。识别MoRFs仍是一项重大挑战。本文介绍了MoRFchibi 2.0，一种专门用于预测蛋白质序列中MoRFs位置的预测工具。我们的结果表明，MoRFchibi 2.0在所有现有MoRF预测器及IDRs内蛋白质结合位点的通用预测器中表现最佳，包括来自蛋白质固有无序关键评估（Critical Assessment of protein Intrinsic Disorder, CAID）第1、2和3轮中表现最优的模型。值得注意的是，MoRFchibi 2.0超越了利用AlphaFold数据和最先进蛋白质语言模型的预测器，实现了更优的ROC曲线和精确率-召回率曲线，并具有更高的成功率。MoRFchibi 2.0通过集成逻辑回归卷积神经网络模型生成输出分数，这些模型针对训练数据中的先验进行了归一化，使其各自可解释，并与其他使用相同评分框架的工具兼容。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42288727/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42288727/",
+  "paper_page_path": "papers/pubmed/42288727/index.html"
+}

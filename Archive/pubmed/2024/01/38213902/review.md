@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusions.
+- **Assessment boundary** Scientific content, methodological rigor, validity of claims relative to the presented evidence, and alignment with Nature-style criteria. Editorial and formatting issues are considered only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors compare AlphaFold2 (AF2) derived disorder predictions against 20 disorder predictors on a 646 protein benchmark, evaluating residue-level disorder, protein-level disorder content, and fully disordered protein prediction. They report that several disorder predictors outperform AF2, that AF2 is substantially slower, and that AF2 performs competitively for a subset of proteins characterized by short sequences, few disordered regions at termini, and absence of binding regions.
+- **Visible evidence base** Abstract, introduction, materials and methods, results and discussion sections, Tables 1 through 6, Figures 1 and 2, and supplementary dataset description.
+- **Missing materials affecting confidence** Supplementary Dataset S1 is referenced but not provided. The full CAID dataset details are not included. Statistical test outputs beyond p-values are not shown. The exact implementation details for AF2 model selection and ranking are not fully described.
+
+## Reviewer
+- **Overall assessment** This manuscript provides a useful and reasonably comprehensive comparative evaluation of AF2-based disorder predictions against a broad panel of dedicated disorder predictors. The expansion to protein-level predictions of disorder content and fully disordered proteins adds value beyond prior studies. The analysis is generally sound, and the conclusions are largely supported by the data presented. However, several methodological details require clarification, and some claims regarding the practical implications of the findings would benefit from more careful framing. The manuscript is of interest to the computational biology and protein science communities, though its novelty is incremental given prior related studies.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsic disorder prediction, protein structure prediction, and bioinformatics tool development would be the primary audience. The results are also relevant to biologists who use AF2 predictions and need guidance on when AF2-derived disorder scores are reliable versus when dedicated disorder predictors should be used. The practical runtime and coverage comparisons are useful for tool selection.
+- **Major strengths** The study uses a larger benchmark dataset than prior comparable work. The inclusion of 20 disorder predictors, spanning top performers, popular methods, and recent releases, provides a broad comparison. The extension to protein-level predictions of disorder content and fully disordered proteins addresses an important practical gap. The analysis of sequence-derived markers to identify proteins where AF2 is competitive is a valuable contribution. The statistical testing framework is appropriate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors claim that AF2-based disorder predictions were compared against 20 disorder predictors, including four methods published after CAID was completed.
+  - **Evidence pointer** Materials and methods, section "Disorder predictors"; Table 3
+  - **Concern** The manuscript does not specify the exact versions, parameter settings, or execution environments for the 20 disorder predictors. For predictors obtained from webservers, the date of access and any version information are not provided. For standalone tools, the specific commands and any non-default parameters are not described. This lack of detail compromises the reproducibility of the comparison.
+  - **Why it matters** Reproducibility is a core requirement for computational benchmarking studies. Without precise methodological details, other researchers cannot replicate the results or assess whether the comparison was fair across all tools.
+  - **Resolution test** The authors should provide a supplementary table listing each predictor, its version, the source (webserver or standalone), the access date for webservers, and the exact command or parameters used for standalone tools.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical rigor
+  - **Claim pointer** The authors state that several disorder predictors "statistically outperform" AF2-RSA and that AF2-RSA "statistically outperforms" AF2-pLDDT.
+  - **Evidence pointer** Results and discussion, sections "Comparative evaluation of the residue-level disorder predictions" and "Comparative evaluation of the protein-level disorder predictions for different types of disordered proteins"; Tables 3, 4, 5, 6
+  - **Concern** The statistical testing methodology is described only briefly. The authors mention paired t-tests and Wilcoxon rank tests, but do not specify how multiple testing was handled across the many comparisons performed (20 predictors, multiple metrics, multiple datasets). The p-value threshold of 0.05 is stated, but no correction for multiple comparisons is mentioned. This raises concerns about the reliability of the reported significant differences.
+  - **Why it matters** With a large number of pairwise comparisons, the probability of false positives increases substantially. Without appropriate multiple testing correction, some of the claimed significant differences may not be robust.
+  - **Resolution test** The authors should describe their multiple testing correction strategy, or justify why it was not applied. They should also report effect sizes or confidence intervals alongside p-values to provide a more complete picture of the magnitude of differences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim substantiation
+  - **Claim pointer** The authors conclude that "AF2 should be used to predict disorder for these proteins since these results can be produced as a byproduct of the structure predictions, incurring only a small additional computational cost."
+  - **Evidence pointer** Summary and conclusions; Results and discussion, section "Sequence-derived markers identify proteins for which AF2-RSA outperforms disorder predictors"
+  - **Concern** The recommendation to use AF2 for a subset of proteins is based on a post-hoc analysis where the subset is defined using the same data on which the comparison is made. The authors do not validate the identified markers on an independent dataset. The practical utility of these markers for prospective use is therefore unclear.
+  - **Why it matters** A post-hoc identification of a favorable subset without independent validation risks overfitting. The claim that AF2 should be used for these proteins is a practical recommendation that requires evidence that the markers generalize beyond the current dataset.
+  - **Resolution test** The authors should validate the identified markers on an independent benchmark dataset, or at minimum use a cross-validation approach within the current dataset to assess the stability of the identified subset.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of results
+  - **Claim pointer** The authors state that "the best disorder predictors outperform the AF2-based disorder predictions by a substantial margin."
+  - **Evidence pointer** Results and discussion, section "Comparative evaluation of the residue-level disorder predictions"; Table 3
+  - **Concern** The magnitude of the performance differences is not contextualized. The authors report AUC differences of approximately 0.03 to 0.05 between the top predictors and AF2-RSA. Whether this constitutes a "substantial margin" in practical terms is not discussed. The practical significance of these differences for real-world applications is not addressed.
+  - **Why it matters** Statistical significance does not necessarily imply practical significance. The claim of a "substantial margin" requires a discussion of what level of difference matters for downstream applications, such as functional annotation or drug target identification.
+  - **Resolution test** The authors should discuss the practical implications of the observed performance differences, possibly by referencing prior work that has established thresholds for meaningful differences in disorder prediction accuracy.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that AF2-based predictions secure an AUC of 0.77, but it is not clear whether this refers to the regular or optimized-rank version of AF2-RSA.
+  - **Required correction** Specify which AF2 variant is being referenced in the abstract, or state that the value refers to the default version.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Materials and methods, section "AlphaFold2 predictions"
+  - **Evidence pointer** Materials and methods, section "AlphaFold2 predictions"
+  - **Issue** The description of how the five ranked AF2 models were used is incomplete. The authors mention an "optimized-rank" scenario but do not explain how the optimal rank was determined or whether this was done per protein or globally.
+  - **Required correction** Provide a clear description of the optimized-rank procedure, including how the best model was selected and whether this selection was based on the test set labels.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Tables 3 through 6
+  - **Evidence pointer** Tables 3, 4, 5, 6
+  - **Issue** The tables use a complex notation (x|y|z) for statistical significance comparisons. This is not immediately intuitive and requires careful reading of the footnotes.
+  - **Required correction** Consider using a simpler notation, such as superscript letters or symbols, to indicate significant differences, or provide a clearer legend.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Results and discussion, section "Sequence-derived markers identify proteins for which AF2-RSA outperforms disorder predictors"
+  - **Evidence pointer** Results and discussion, section "Sequence-derived markers identify proteins for which AF2-RSA outperforms disorder predictors"
+  - **Issue** The term "competitive" is used to describe AF2-RSA performance, but the criterion for competitiveness is defined in a somewhat circular manner (AUC greater than the overall AUC of flDPnn).
+  - **Required correction** Clarify the definition of "competitive" and consider whether a more standard threshold, such as a statistical equivalence test, would be more appropriate.
+- **Technical failings that need to be addressed before the case is established** The lack of detailed predictor version and parameter information (R1-M1) and the absence of multiple testing correction (R1-M2) are the most significant technical issues. These need to be addressed before the comparative claims can be fully accepted.
+- **Assessment against Nature-style criteria** 
+  - **Originality** Moderate. The study extends prior work by using a larger dataset and including protein-level predictions, but the core question has been addressed in earlier publications. The analysis of sequence-derived markers is a novel contribution.
+  - **Scientific importance** Moderate. The results are useful for practitioners choosing between AF2 and dedicated disorder predictors, but the findings are largely confirmatory of prior studies. The practical recommendations are potentially valuable.
+  - **Interdisciplinary readership** Limited. The manuscript is primarily of interest to computational biologists and bioinformaticians. The methods and results are unlikely to attract a broad interdisciplinary audience.
+  - **Technical soundness** Generally sound, but with notable gaps in methodological detail and statistical rigor as described in the major concerns.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that is appropriate for the target audience. The abstract is accessible, but the methods and results sections assume familiarity with the field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and provides useful data, but the methodological details and statistical rigor need to be improved before the conclusions can be fully endorsed.
+
+## Risk / unsupported claims
+- The claim that AF2-RSA "outperforms disorder predictors" for a subset of approximately 20% of proteins is based on a post-hoc analysis without independent validation and should be considered preliminary.
+- The statement that AF2 predictions can be produced "as a byproduct of the structure predictions, incurring only a small additional computational cost" is not directly supported by the data presented, as the runtime comparison is only between AF2 and disorder predictors, not a cost-benefit analysis of the byproduct scenario.
+- The claim that the four post-CAID predictors perform "modestly well" is based on AUC values alone; the practical significance of their performance relative to other tools is not discussed.
+- The assertion that "deep networks are useful for both protein structure and intrinsic disorder predictions" is a general observation that is not directly tested in this study and should be framed as a hypothesis rather than a conclusion.

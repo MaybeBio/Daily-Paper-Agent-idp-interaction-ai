@@ -1,0 +1,386 @@
+{
+  "identity": {
+    "pmid": "35964158",
+    "doi": "10.1016/j.bpj.2022.08.007",
+    "title": "Polymyxins induce lipid scrambling and disrupt the homeostasis of Gram-negative bacteria membrane."
+  },
+  "content": {
+    "abstract": "Polymyxins are increasingly used as the last-line therapeutic option for the treatment of infections caused by multidrug-resistant Gram-negative bacteria. However, efforts to address the resistance in superbugs are compromised by a poor understanding of the bactericidal modes because high-resolution detection of the cell structure is still lacking. By performing molecular dynamics simulations at a coarse-grained level, here we show that polymyxin B (PmB) disrupts Gram-negative bacterial membranes by altering lipid homeostasis and asymmetry. We found that the binding of PmBs onto the asymmetric outer membrane (OM) loosens the packing of lipopolysaccharides (LPS) and induces unbalanced bending torque between the inner and outer leaflets, which in turn triggers phospholipids to flip from the inner leaflet to the outer leaflet to compensate for the stress deformation. Meanwhile, some LPSs may be detained on the inner membrane (IM). Then, the lipid-scrambled OM undergoes phase separation. Defects are created at the boundaries between LPS-rich domains and phospholipid-rich domains, which consequently facilitate the uptake of PmB across the OM. Finally, PmBs target LPSs detained on the IM and similarly perturb the IM. This lipid Scramble, membrane phase Separation, and peptide Translocation model depicts a novel mechanism by which polymyxins kill bacteria and sheds light on developing a new generation of polymyxins or antibiotic adjuvants with improved killing activities and higher therapeutic indices.",
+    "keywords": [],
+    "mesh_terms": [
+      "Anti-Bacterial Agents/metabolism/pharmacology",
+      "Cell Membrane/metabolism",
+      "Gram-Negative Bacteria/chemistry",
+      "Homeostasis",
+      "*Lipopolysaccharides/chemistry/pharmacology",
+      "Phospholipids/chemistry",
+      "Polymyxin B/pharmacology",
+      "*Polymyxins/analysis/metabolism/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fu, Lei",
+        "Li, Xiangyuan",
+        "Zhang, Shan",
+        "Dong, Yi",
+        "Fang, Weihai",
+        "Gao, Lianghui"
+      ],
+      "short_names": [
+        "Fu L",
+        "Li X",
+        "Zhang S",
+        "Dong Y",
+        "Fang W",
+        "Gao L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China.",
+        "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China.",
+        "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China.",
+        "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China.",
+        "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China.",
+        "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China. Electronic address: lhgao@bnu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fu, Lei",
+        "short_name": "Fu L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiangyuan",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shan",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Dong, Yi",
+        "short_name": "Dong Y",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Weihai",
+        "short_name": "Fang W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Lianghui",
+        "short_name": "Gao L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China. Electronic address: lhgao@bnu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2022 Sep 20",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/15 06:00",
+    "fetched_at": "2026-09-20 12:42:00"
+  },
+  "links": {
+    "cites": [
+      "42572787",
+      "41350394",
+      "41304284",
+      "40949265",
+      "40333180",
+      "39825802",
+      "39699690",
+      "38331392",
+      "38095821",
+      "37446138",
+      "36868316"
+    ],
+    "refs": [
+      "34942463",
+      "34817187",
+      "34716276",
+      "34059725",
+      "33821795",
+      "33627412",
+      "33601322",
+      "33577754",
+      "33199913",
+      "32911540",
+      "32883879",
+      "32871077",
+      "32788698",
+      "32775156",
+      "32738218",
+      "32653070",
+      "31812355",
+      "31408345",
+      "31114762",
+      "31098007",
+      "30777306",
+      "30672546",
+      "30613815",
+      "30139916",
+      "30087182",
+      "29890069",
+      "29781031",
+      "29412662",
+      "28805387",
+      "28263303",
+      "28248490",
+      "28083516",
+      "27712070",
+      "27525307",
+      "27503996",
+      "27276426",
+      "27160595",
+      "27075488",
+      "26929379",
+      "26734854",
+      "26621095",
+      "26620784",
+      "26615696",
+      "26603172",
+      "26589065",
+      "26574417",
+      "25885324",
+      "25724815",
+      "25662630",
+      "23959139",
+      "23407358",
+      "23389779",
+      "21925844",
+      "19257715",
+      "19252313",
+      "19244241",
+      "19227989",
+      "17803904",
+      "17682994",
+      "17325007",
+      "17228913",
+      "16931410",
+      "16552671",
+      "16211538",
+      "15526335",
+      "12045108",
+      "11036008",
+      "10631294",
+      "10579822",
+      "10348745",
+      "9033483",
+      "8639528",
+      "8555188",
+      "6093683",
+      "4319722",
+      "4303542",
+      "4015067",
+      "3097989",
+      "1695830",
+      "1624376",
+      "202585",
+      "201598",
+      "197881",
+      "187544",
+      "181357"
+    ],
+    "similar": [
+      "35964158",
+      "31812355",
+      "30037998",
+      "34942463",
+      "37446138",
+      "34584634",
+      "36159837",
+      "20843473",
+      "32871077",
+      "29038444",
+      "25640745",
+      "30562009",
+      "32157424",
+      "37268022",
+      "31364071",
+      "17228913",
+      "32911540",
+      "20869908",
+      "34781743",
+      "35384832",
+      "32253250",
+      "36960750",
+      "31844003",
+      "29182311",
+      "27793510",
+      "39022883",
+      "30053708",
+      "23412346",
+      "33797891",
+      "37148689",
+      "31846648",
+      "26343162",
+      "31420446",
+      "25489959",
+      "30793045",
+      "31364070",
+      "36701864",
+      "31330430",
+      "24601489",
+      "23701329",
+      "29288722",
+      "29559571",
+      "36519943",
+      "31364069",
+      "39260694",
+      "31239720",
+      "36271003",
+      "30641878",
+      "17237210",
+      "28054415",
+      "32217155",
+      "39373473",
+      "30541939",
+      "36126341",
+      "36039653",
+      "29101229",
+      "34550139",
+      "28248490",
+      "28821406",
+      "26314242",
+      "33627412",
+      "31870848",
+      "28416543",
+      "23806121",
+      "36289935",
+      "33005925",
+      "22196342",
+      "29114023",
+      "9538506",
+      "3023974",
+      "26869441",
+      "36745479",
+      "32619094",
+      "29996592",
+      "31566948",
+      "35960325",
+      "2988430",
+      "31332075",
+      "200827",
+      "33974796",
+      "38019899",
+      "28921990",
+      "30936102",
+      "28805387",
+      "3032093",
+      "31364068",
+      "35007136",
+      "19383799",
+      "28074057",
+      "38830951",
+      "199125",
+      "3028253",
+      "21810964",
+      "10816465",
+      "36768325",
+      "38578277",
+      "8830680",
+      "29109183",
+      "39270665",
+      "38457439",
+      "16672047",
+      "34667587",
+      "32775156",
+      "32156718",
+      "37760679",
+      "32766244"
+    ],
+    "review": [
+      "35964158",
+      "20843473",
+      "30562009",
+      "32157424",
+      "37268022",
+      "31364071",
+      "20869908",
+      "35384832",
+      "32253250",
+      "27793510",
+      "23412346",
+      "31420446",
+      "31364070",
+      "23701329",
+      "31364069",
+      "30641878",
+      "30541939",
+      "28821406",
+      "33627412",
+      "33005925",
+      "29996592",
+      "31364068",
+      "28074057",
+      "39270665"
+    ],
+    "pmc": [
+      "9515121"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(22)00667-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35964158/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35964158",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

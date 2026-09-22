@@ -1,0 +1,353 @@
+{
+  "identity": {
+    "pmid": "41289380",
+    "doi": "10.1073/pnas.2522772122",
+    "title": "A machine learning protocol for predicting structural distributions of amyloid-forming proteins from 2D IR spectra."
+  },
+  "content": {
+    "abstract": "Protein misfolding plays a central role in diseases such as Alzheimer's disease, Parkinson's disease, type 2 diabetes, and transthyretin amyloidosis (ATTR), often driven by specific aggregation-prone segments such as Abeta(17-23) and Abeta(37-42) of amyloid-beta42 (Abeta42), alpha-Syn(66-74) and alpha-Syn(71-82) of alpha-synuclein (alpha-syn), hIAPP(22-27) of human islet amyloid polypeptide (hIAPP), and TTR(105-115) of transthyretin (TTR). Capturing the atomic-level structural features of these transient and dynamically fluctuating regions remains challenging. Two-dimensional infrared (2DIR) spectroscopy provides rich vibrational fingerprints that are highly sensitive to protein conformational dynamics, but extracting atomic-resolution structural information from these complex signals is nontrivial. In this study, we present a machine learning framework that integrates 2DIR spectra with deep structural modeling to reconstruct the three-dimensional atomic structures of monomeric intrinsically disordered aggregation-prone segments of amyloidogenic proteins. Using this model, we were able to predict the conformational ensembles of aggregation-prone segments from amyloid-beta42, alpha-synuclein, human islet amyloid polypeptide, and transthyretin, as well as the structural evolution of Abeta42 bound to a small-molecule inhibitor, directly from computationally derived 2DIR spectra. An attention module highlights the most informative spectral features associated with local structural variations, providing interpretable links between spectra and structure. This generalizable strategy paves the way for interpreting time-resolved spectroscopic studies and offers a promising computational framework for probing misfolding-related structural dynamics and therapeutic mechanisms.",
+    "keywords": [
+      "amyloid-forming",
+      "machine learning",
+      "two-dimensional infrared spectroscopy"
+    ],
+    "mesh_terms": [
+      "*Machine Learning",
+      "Humans",
+      "alpha-Synuclein/chemistry",
+      "Amyloid beta-Peptides/chemistry",
+      "Islet Amyloid Polypeptide/chemistry",
+      "Spectrophotometry, Infrared/methods",
+      "*Amyloidogenic Proteins/chemistry",
+      "Prealbumin/chemistry",
+      "Protein Conformation",
+      "Protein Folding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ye, Sheng",
+        "Wang, BinBin",
+        "Li, Zhipeng",
+        "Zhu, Lvshuai",
+        "Yin Sun, Chang",
+        "Mukamel, Shaul",
+        "Jiang, Jun"
+      ],
+      "short_names": [
+        "Ye S",
+        "Wang B",
+        "Li Z",
+        "Zhu L",
+        "Yin Sun C",
+        "Mukamel S",
+        "Jiang J"
+      ],
+      "auids": [
+        "ORCID: 0009-0006-7726-3556",
+        "ORCID: 0000-0002-6015-3135",
+        "ORCID: 0000-0002-6116-5605"
+      ],
+      "affiliations": [
+        "Engineering Research Center of Autonomous Unmanned System Technology, Ministry of Education, Anhui Provincial Engineering Research Center for Unmanned System and Intelligent Technology, School of AI, Anhui University, Hefei 230601, China.",
+        "Engineering Research Center of Autonomous Unmanned System Technology, Ministry of Education, Anhui Provincial Engineering Research Center for Unmanned System and Intelligent Technology, School of AI, Anhui University, Hefei 230601, China.",
+        "Engineering Research Center of Autonomous Unmanned System Technology, Ministry of Education, Anhui Provincial Engineering Research Center for Unmanned System and Intelligent Technology, School of AI, Anhui University, Hefei 230601, China.",
+        "Engineering Research Center of Autonomous Unmanned System Technology, Ministry of Education, Anhui Provincial Engineering Research Center for Unmanned System and Intelligent Technology, School of AI, Anhui University, Hefei 230601, China.",
+        "Engineering Research Center of Autonomous Unmanned System Technology, Ministry of Education, Anhui Provincial Engineering Research Center for Unmanned System and Intelligent Technology, School of AI, Anhui University, Hefei 230601, China.",
+        "Department of Chemistry, University of California, Irvine, CA 92697.",
+        "Department of Physics and Astronomy, University of California, Irvine, CA 92697.",
+        "Key Laboratory of Precision and Intelligent Chemistry, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei, Anhui 230026, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ye, Sheng",
+        "short_name": "Ye S",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Autonomous Unmanned System Technology, Ministry of Education, Anhui Provincial Engineering Research Center for Unmanned System and Intelligent Technology, School of AI, Anhui University, Hefei 230601, China."
+        ]
+      },
+      {
+        "full_name": "Wang, BinBin",
+        "short_name": "Wang B",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Autonomous Unmanned System Technology, Ministry of Education, Anhui Provincial Engineering Research Center for Unmanned System and Intelligent Technology, School of AI, Anhui University, Hefei 230601, China."
+        ]
+      },
+      {
+        "full_name": "Li, Zhipeng",
+        "short_name": "Li Z",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Autonomous Unmanned System Technology, Ministry of Education, Anhui Provincial Engineering Research Center for Unmanned System and Intelligent Technology, School of AI, Anhui University, Hefei 230601, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, Lvshuai",
+        "short_name": "Zhu L",
+        "identifiers": [
+          "0009-0006-7726-3556"
+        ],
+        "affiliations": [
+          "Engineering Research Center of Autonomous Unmanned System Technology, Ministry of Education, Anhui Provincial Engineering Research Center for Unmanned System and Intelligent Technology, School of AI, Anhui University, Hefei 230601, China."
+        ]
+      },
+      {
+        "full_name": "Yin Sun, Chang",
+        "short_name": "Yin Sun C",
+        "identifiers": [],
+        "affiliations": [
+          "Engineering Research Center of Autonomous Unmanned System Technology, Ministry of Education, Anhui Provincial Engineering Research Center for Unmanned System and Intelligent Technology, School of AI, Anhui University, Hefei 230601, China."
+        ]
+      },
+      {
+        "full_name": "Mukamel, Shaul",
+        "short_name": "Mukamel S",
+        "identifiers": [
+          "0000-0002-6015-3135"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California, Irvine, CA 92697.",
+          "Department of Physics and Astronomy, University of California, Irvine, CA 92697."
+        ]
+      },
+      {
+        "full_name": "Jiang, Jun",
+        "short_name": "Jiang J",
+        "identifiers": [
+          "0000-0002-6116-5605"
+        ],
+        "affiliations": [
+          "Key Laboratory of Precision and Intelligent Chemistry, School of Chemistry and Materials Science, University of Science and Technology of China, Hefei, Anhui 230026, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Dec 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/25 18:30",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37758888",
+      "37667136",
+      "36163697",
+      "35737839",
+      "34588692",
+      "34534463",
+      "34282049",
+      "33968988",
+      "33148639",
+      "32598850",
+      "32202114",
+      "31942072",
+      "31894146",
+      "31602685",
+      "31331359",
+      "31209302",
+      "30621387",
+      "30046072",
+      "28830147",
+      "28345879",
+      "28060489",
+      "23679868",
+      "23448437",
+      "23267112",
+      "22424229",
+      "21405034",
+      "19391619",
+      "19323494",
+      "18288813",
+      "17692815",
+      "17619686",
+      "17551015",
+      "17245412",
+      "17092043",
+      "16733570",
+      "15974713",
+      "15630094",
+      "15630083",
+      "12904524",
+      "12560553",
+      "12511861",
+      "8744570"
+    ],
+    "similar": [
+      "41289380",
+      "29364151",
+      "28220836",
+      "25557164",
+      "21916515",
+      "20798063",
+      "34850985",
+      "21668413",
+      "38700150",
+      "31246039",
+      "41173868",
+      "23849959",
+      "26119103",
+      "19883093",
+      "36889961",
+      "27854243",
+      "27641459",
+      "29432676",
+      "32623047",
+      "22488522",
+      "12900507",
+      "38917009",
+      "38338914",
+      "25937088",
+      "31442763",
+      "26453212",
+      "38909653",
+      "33010227",
+      "35060728",
+      "37741548",
+      "30917651",
+      "26453205",
+      "33543942",
+      "30803034",
+      "39579816",
+      "35167081",
+      "33500517",
+      "39150403",
+      "35144022",
+      "26255739",
+      "27012425",
+      "39822034",
+      "8639594",
+      "30621325",
+      "18459774",
+      "29378116",
+      "33922648",
+      "33254009",
+      "29282295",
+      "37686208",
+      "30216674",
+      "10077645",
+      "36638829",
+      "33269918",
+      "25086037",
+      "30502402",
+      "28851219",
+      "28917147",
+      "32800950",
+      "39951500",
+      "33810433",
+      "31436406",
+      "27934063",
+      "28820582",
+      "26453203",
+      "25913357",
+      "19937650",
+      "32500705",
+      "36165351",
+      "30149632",
+      "32893436",
+      "32560229",
+      "35011320",
+      "21616080",
+      "38483181",
+      "40350118",
+      "23185553",
+      "27589730",
+      "32706257",
+      "30621387",
+      "29704492",
+      "32172082",
+      "21108951",
+      "30375231",
+      "26981744",
+      "25611039",
+      "28478513",
+      "38941872",
+      "9338081",
+      "35311274",
+      "36142176",
+      "24075940",
+      "27657874",
+      "21348834",
+      "36232847",
+      "31952691",
+      "30366153",
+      "39933599",
+      "30908844",
+      "29626847"
+    ],
+    "review": [
+      "41289380",
+      "29364151",
+      "23849959",
+      "33010227",
+      "33543942",
+      "35144022",
+      "30621325",
+      "33922648",
+      "33254009",
+      "30216674",
+      "36638829",
+      "30149632",
+      "32560229",
+      "35011320",
+      "32172082",
+      "38941872",
+      "9338081",
+      "21348834"
+    ],
+    "pmc": [
+      "12685097"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2522772122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41289380/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TTR-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1165",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

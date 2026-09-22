@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that steep rises or falls in average dihedral angle (varphi) values, plotted against residue index from atomistic Molecular Dynamics simulations of four proteins, identify interfaces between regions of varying degrees of order or disorder in intrinsically disordered proteins (IDPs). They further claim this method can identify probable conformers with higher disorder from MD ensembles and offers new insights into precisely identifying regions of varying disorder.
+- **Visible evidence base** Abstract text only; no numerical data, plots, simulation parameters, or statistical analyses are available
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation details (force field, water model, temperature, simulation length, convergence criteria), all figures and tables, residue-level dihedral angle data, and any validation or benchmarking against existing disorder predictors
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting idea, namely using dihedral angle shifts from MD simulations to demarcate order-disorder boundaries in IDPs. However, the evidence base is limited to a brief summary with no quantitative support. The central claim, that steep changes in average varphi values reflect interfaces between regions of varying disorder, is plausible but not established from the supplied material. The choice of only four proteins, with no systematic validation or comparison to existing predictors, weakens the generalizability claim. The manuscript may have merit, but the current abstract does not provide sufficient evidence to assess technical soundness or scientific impact.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein biophysics, and computational structural biology would be interested. The method could offer a structural, rather than sequence-based, approach to identifying disorder boundaries, which may be useful for understanding IDP function and for designing experiments targeting specific regions. Those working on MD simulation analysis and protein conformational ensembles might also find the approach relevant.
+- **Major strengths** The idea of using dihedral angles, a fundamental structural descriptor, to map disorder boundaries is conceptually simple and potentially accessible. The inclusion of four proteins spanning a range of disorder (ordered, partially disordered, fully disordered) is a reasonable design choice. The focus on MD ensembles rather than static structures is appropriate for IDPs, which are conformationally heterogeneous.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that steep rises or falls in average varphi values reflect the interface between regions of varying degrees of order or disorderness.
+  - **Evidence pointer** Abstract only; no figure or table referenced
+  - **Concern** The abstract provides no quantitative criteria for what constitutes a "steep" rise or fall. There is no threshold, statistical test, or comparison to a null model. Without such criteria, the identification of interfaces appears subjective and potentially irreproducible.
+  - **Why it matters** The central claim of the paper rests on the ability to objectively detect these shifts. If the detection method is not rigorously defined, the results cannot be validated or applied by other researchers.
+  - **Resolution test** Provide a clear, quantitative definition of a steep shift (e.g., a specific change in degrees per residue, a z-score threshold, or a change-point detection algorithm) and demonstrate that this criterion reliably identifies known disorder boundaries in a validation set.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that using this method, the probable conformer of a protein with a higher degree of disorder can be found among the ensembles of structures sampled during MD simulations.
+  - **Evidence pointer** Abstract only; no data on conformer selection or validation
+  - **Concern** The abstract does not explain how the dihedral angle analysis leads to conformer selection. No metric is described for ranking conformers by disorder degree, and no validation is shown that the selected conformers are indeed more disordered or functionally relevant.
+  - **Why it matters** This is a second major claim that appears to extend beyond the interface detection. Without a clear methodology and validation, this claim is unsupported and may overstate the utility of the approach.
+  - **Resolution test** Describe the conformer selection procedure in detail and provide evidence, such as comparison to experimental data or established disorder metrics, that the selected conformers are enriched in disordered regions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors imply the method offers new understandings on precisely identifying regions of various degrees of disorder in IDPs, suggesting broad applicability.
+  - **Evidence pointer** Abstract only; four proteins studied
+  - **Concern** Only four proteins are studied, with no systematic benchmarking against existing disorder predictors (e.g., IUPred, PONDR) or a larger dataset. The generalizability of the method to diverse IDPs is not demonstrated.
+  - **Why it matters** The claim of broad utility requires evidence that the method works across a range of sequence compositions, lengths, and disorder patterns. A four-protein sample is insufficient to support this.
+  - **Resolution test** Apply the method to a larger, diverse set of IDPs and compare performance against established predictors using standard metrics such as accuracy, precision, and recall.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "regions of varying degrees of order or disorderness" is vague. It is unclear whether the method distinguishes discrete states or a continuous spectrum.
+  - **Required correction** Define what is meant by "degrees of order or disorderness" and clarify whether the method produces categorical or continuous outputs.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract text
+  - **Issue** No simulation parameters are provided, such as force field, solvent model, temperature, simulation length, or number of replicates. This limits reproducibility assessment.
+  - **Required correction** Include key simulation parameters in the abstract or refer to a methods section where they are fully described.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Error analysis
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract reports average dihedral angles but does not mention error bars, standard deviations, or convergence checks. Averages without uncertainty measures are difficult to interpret.
+  - **Required correction** Report measures of variability and demonstrate that the averages are converged over the simulation time.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of a quantitative definition for interface detection and the absence of a described and validated conformer selection method mean the core claims are not currently established. R1-M3, while not blocking, requires additional data to support generalizability.
+- **Assessment against Nature-style criteria** Originality: The idea of using dihedral angle shifts from MD to map disorder boundaries is somewhat novel, though related concepts exist in the literature on protein backbone dynamics. Scientific importance: If validated, the method could complement sequence-based predictors, but the current evidence does not demonstrate a significant advance. Interdisciplinary readership: The topic is relevant to structural biology and computational biophysics, but the abstract is too technical and lacks context for a broader audience. Technical soundness: Not assessable from the abstract; the lack of quantitative criteria and validation is a major concern. Readability for nonspecialists: The abstract is concise but assumes familiarity with IDPs and MD simulations; the significance is not clearly framed for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The idea is promising, but the abstract does not provide sufficient methodological detail or validation to support the claims. I would be supportive if the technical concerns are resolved with a full manuscript that includes quantitative criteria, validation, and broader testing.
+
+## Risk / unsupported claims
+- The claim that steep varphi shifts reflect order-disorder interfaces is unsupported without a quantitative detection criterion.
+- The claim that the method can identify probable conformers with higher disorder is unsupported without a described selection procedure and validation.
+- The claim of offering "new understandings" and "precisely identifying" disorder regions is overstated given the limited sample size and lack of benchmarking.
+- The generalizability of the method to all IDPs is not assessable from the four proteins studied.

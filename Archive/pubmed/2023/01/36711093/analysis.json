@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36711093",
+  "title": "Sequence Tendency for the Interaction between Low-Complexity Intrinsically Disordered Proteins.",
+  "authors": "Zhang, Moxin; Xue, Bin; Li, Qingtai; Shi, Rui; Cao, Yi; Wang, Wei; Li, Jingyuan",
+  "journal": "JACS Au",
+  "published_date": "2023-01-31",
+  "window": {
+    "start": "2023-01-30",
+    "end": "2023-02-05"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用原子级MD模拟研究LAF-1 RGG无序结构域的可逆结合，揭示C端138-168区域主导互作并关联相分离，机制建模与实验验证兼备，高度契合课题。",
+  "abstract": "Reversible interaction between intrinsically disordered proteins (IDPs) is considered as the driving force for liquid-liquid phase separation (LLPS), while the detailed description of such a transient interaction process still remains a challenge. And the mechanisms underlying the behavior of IDP interaction, for example, the possible relationship with its inherent conformational fluctuations and sequence features, remain elusive. Here, we use atomistic molecular dynamics (MD) simulation to investigate the reversible association of the LAF-1 RGG domain, the IDP with ultra-low LLPS concentration (0.06 mM). We find that the duration of the association between two RGG domains is highly heterogeneous, and the sustained associations essentially dominate the IDP interaction. More interestingly, such sustained associations are mediated by a finite region, that is, the C-terminal region 138-168 (denoted as a contact-prone region). We noticed that such sequence tendency is attributed to the extended conformation of the RGG domain during its inherent conformational fluctuations. Hence, our results suggest that there is a certain region in this low-complexity IDP which can essentially dominate their interaction and should be also important to the LLPS. And the inherent conformational fluctuations are actually essential for the emergence of such a hot region of IDP interaction. The importance of this hot region to LLPS is verified by experiment.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 之间的可逆相互作用被视为液-液相分离 (liquid-liquid phase separation, LLPS) 的驱动力，而对此类瞬态相互作用过程的详细描述仍是一个挑战。此外，IDP 相互作用行为背后的机制，例如其与固有构象波动和序列特征的可能关联，仍不明确。在此，我们使用原子级分子动力学 (molecular dynamics, MD) 模拟研究 LAF-1 RGG 结构域的可逆结合，该 IDP 具有超低 LLPS 浓度（0.06 mM）。我们发现两个 RGG 结构域之间结合的持续时间高度异质，且持续结合本质上主导了 IDP 相互作用。更有趣的是，这种持续结合由有限区域介导，即 C 端区域 138-168（记为接触倾向区域）。我们注意到，这种序列倾向归因于 RGG 结构域在其固有构象波动过程中的伸展构象。因此，我们的结果表明，在这种低复杂性 IDP 中存在一个特定区域，该区域本质上可主导其相互作用，并可能对 LLPS 也至关重要。而固有构象波动实际上对于此类 IDP 相互作用热点区域的出现是必需的。该热点区域对 LLPS 的重要性已通过实验验证。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36711093/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36711093/",
+  "paper_page_path": "papers/pubmed/36711093/index.html"
+}

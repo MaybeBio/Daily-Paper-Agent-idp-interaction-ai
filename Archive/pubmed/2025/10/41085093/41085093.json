@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "41085093",
+    "doi": "10.1021/acs.jpclett.5c02098",
+    "title": "Electrostatic Collapse of Intrinsically Disordered Acid-Rich Protein Is Sensitive to Counterion Valency."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) respond sensitively to their ionic environment, yet the mechanisms driving ion-induced conformational changes remain incompletely understood. Here, we investigate how counterion valency modulates the dimensions of an extremely charged model IDP, the aspartic and glutamic acid-rich protein AGARP. Fluorescence correlation spectroscopy and size exclusion chromatography reveal a pronounced, valency-dependent reduction in its hydrodynamic radius, with divalent cations (Ca(2+), Mg(2+)) inducing collapse at much lower activities than monovalent cations (Na(+), K(+)). Molecular dynamics simulations, direct sampling, and polyampholyte theory quantitatively capture the Debye-Huckel screening by monovalent ions but not the enhanced compaction driven by divalent ion binding thereby suggesting that, beyond differences in screening strength, a valency-sensitive mode of interaction is at play. Circular dichroism spectroscopy shows that compaction occurs without secondary structure formation. Our results demonstrate a structure-free electrostatic collapse and suggest that specific chelation of divalent ions by disordered polyanionic protein chains is a key mechanism regulating IDP compaction, with implications for understanding their behavior in biologically relevant ionic environments.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Static Electricity",
+      "Molecular Dynamics Simulation",
+      "Circular Dichroism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Klepka, Barbara P",
+        "Waszkiewicz, Radost",
+        "Wojciechowski, Michal",
+        "Michas, Agnieszka",
+        "Niedzwiecka, Anna"
+      ],
+      "short_names": [
+        "Klepka BP",
+        "Waszkiewicz R",
+        "Wojciechowski M",
+        "Michas A",
+        "Niedzwiecka A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4496-8713",
+        "ORCID: 0000-0002-0376-1708",
+        "ORCID: 0000-0002-1966-9877",
+        "ORCID: 0000-0002-7005-4368",
+        "ORCID: 0000-0001-5208-0733"
+      ],
+      "affiliations": [
+        "Laboratory of Biological Physics, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland.",
+        "Laboratory of Biological Physics, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland.",
+        "Laboratory of Biological Physics, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland.",
+        "Laboratory of Biological Physics, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland.",
+        "Laboratory of Biological Physics, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Klepka, Barbara P",
+        "short_name": "Klepka BP",
+        "identifiers": [
+          "0000-0002-4496-8713"
+        ],
+        "affiliations": [
+          "Laboratory of Biological Physics, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Waszkiewicz, Radost",
+        "short_name": "Waszkiewicz R",
+        "identifiers": [
+          "0000-0002-0376-1708"
+        ],
+        "affiliations": [
+          "Laboratory of Biological Physics, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Wojciechowski, Michał",
+        "short_name": "Wojciechowski M",
+        "identifiers": [
+          "0000-0002-1966-9877"
+        ],
+        "affiliations": [
+          "Laboratory of Biological Physics, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Michaś, Agnieszka",
+        "short_name": "Michaś A",
+        "identifiers": [
+          "0000-0002-7005-4368"
+        ],
+        "affiliations": [
+          "Laboratory of Biological Physics, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Niedzwiecka, Anna",
+        "short_name": "Niedzwiecka A",
+        "identifiers": [
+          "0000-0001-5208-0733"
+        ],
+        "affiliations": [
+          "Laboratory of Biological Physics, Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2025 Oct 23",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/14 12:30",
+    "fetched_at": "2026-09-17 21:10:01"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40990046",
+      "39977663",
+      "39718971",
+      "39565202",
+      "39253398",
+      "38696815",
+      "37980572",
+      "37831084",
+      "36265487",
+      "35944496",
+      "35591946",
+      "35544232",
+      "35177069",
+      "34439840",
+      "34259536",
+      "33191750",
+      "32007034",
+      "31696576",
+      "31488718",
+      "31219243",
+      "31139718",
+      "30193467",
+      "29378969",
+      "29364893",
+      "29296029",
+      "28866388",
+      "28793210",
+      "28288117",
+      "27352249",
+      "26445027",
+      "25531225",
+      "24928493",
+      "24150971",
+      "23765379",
+      "23746634",
+      "23407358",
+      "22984159",
+      "21843480",
+      "20639465",
+      "20404210",
+      "19768526",
+      "19154053",
+      "16981205",
+      "15738986",
+      "15267872",
+      "15019783",
+      "12694917",
+      "11297547",
+      "11025552",
+      "10653785",
+      "10555983",
+      "9908546",
+      "3600760",
+      "2337607",
+      "134666"
+    ],
+    "similar": [
+      "41085093",
+      "30865820",
+      "30968464",
+      "29548979",
+      "27936491",
+      "34201262",
+      "35944496",
+      "30021108",
+      "30091924",
+      "33587794",
+      "34259536",
+      "30187212",
+      "32357776",
+      "24278008",
+      "28914483",
+      "25207671",
+      "32654182",
+      "33215185",
+      "24150971",
+      "28805390",
+      "28258312",
+      "30793144",
+      "28552960",
+      "33945530",
+      "36206480",
+      "30979035",
+      "30193467",
+      "39807013",
+      "25375525",
+      "39248414",
+      "38018910",
+      "31052346",
+      "38657047",
+      "25244701",
+      "39761364",
+      "33355572",
+      "23912807",
+      "41137856",
+      "41457474",
+      "36674958",
+      "33581430",
+      "34806740",
+      "36291634",
+      "32316569",
+      "32696370",
+      "34439840",
+      "32403216",
+      "32145192",
+      "30184304",
+      "37831084",
+      "37108059",
+      "31709918",
+      "35454150",
+      "28369057",
+      "20858435",
+      "28554535",
+      "27203736",
+      "40095314",
+      "29621630",
+      "30840442",
+      "34680048",
+      "39089542",
+      "38118365",
+      "32579908",
+      "39163306",
+      "34986640",
+      "29590589",
+      "28448138",
+      "37553525",
+      "28097742",
+      "27046343",
+      "22807669",
+      "29557644",
+      "32074499",
+      "33096105",
+      "32103094",
+      "34845619",
+      "31441158",
+      "32376479",
+      "31667345",
+      "30025858",
+      "29539394",
+      "24211251",
+      "32696365",
+      "31809054",
+      "30413699",
+      "30240067",
+      "37442414",
+      "31021441",
+      "30384718",
+      "30813315",
+      "30529747",
+      "29382046",
+      "27844185",
+      "26195786",
+      "30277791",
+      "34410041",
+      "26727467",
+      "32696367",
+      "33810353"
+    ],
+    "review": [
+      "41085093",
+      "30979035",
+      "33355572",
+      "32403216",
+      "31709918",
+      "30840442",
+      "34680048",
+      "38118365",
+      "31441158",
+      "31021441"
+    ],
+    "pmc": [
+      "12557392"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41085093/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-177",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.5c02098",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

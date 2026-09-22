@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35755809",
+  "title": "Investigating Intrinsically Disordered Proteins With Brownian Dynamics.",
+  "authors": "Ahn, Surl-Hee; Huber, Gary A; McCammon, J Andrew",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2022-06-28",
+  "window": {
+    "start": "2022-06-27",
+    "end": "2022-07-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用布朗动力学模拟粗粒化IDP，测量流体力学半径与链间纠缠指数以探究盐浓度对IDP关联的影响，虽涉及互作相关性质但未深入PPI机制建模，方法上属物理模拟且对象为IDP。",
+  "abstract": "Intrinsically disordered proteins (IDPs) have recently become systems of great interest due to their involvement in modulating many biological processes and their aggregation being implicated in many diseases. Since IDPs do not have a stable, folded structure, however, they cannot be easily studied with experimental techniques. Hence, conducting a computational study of these systems can be helpful and be complementary with experimental work to elucidate their mechanisms. Thus, we have implemented the coarse-grained force field for proteins (COFFDROP) in Browndye 2.0 to study IDPs using Brownian dynamics (BD) simulations, which are often used to study large-scale motions with longer time scales and diffusion-limited molecular associations. Specifically, we have checked our COFFDROP implementation with eight naturally occurring IDPs and have investigated five (Glu-Lys)(25) IDP sequence variants. From measuring the hydrodynamic radii of eight naturally occurring IDPs, we found the ideal scaling factor of 0.786 for non-bonded interactions. We have also measured the entanglement indices (average C (alpha) distances to the other chain) between two (Glu-Lys)(25) IDP sequence variants, a property related to molecular association. We found that entanglement indices decrease for all possible pairs at excess salt concentration, which is consistent with long-range interactions of these IDP sequence variants getting weaker at increasing salt concentration.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 最近因其在调控多种生物过程中的作用及其聚集与多种疾病相关而成为备受关注的系统。然而，由于IDPs没有稳定的折叠结构，它们难以通过实验技术进行研究。因此，对这些系统进行计算研究可能有助于补充实验工作，以阐明其机制。为此，我们在Browndye 2.0中实现了蛋白质粗粒化力场（COFFDROP），利用布朗动力学（BD）模拟研究IDPs，该方法常用于研究长时间尺度的大规模运动和扩散限制的分子结合。具体而言，我们使用八种天然存在的IDPs验证了COFFDROP实现，并研究了五种（Glu-Lys）(25) IDP序列变体。通过测量八种天然IDPs的水动力学半径，我们确定了非键相互作用的最佳缩放因子为0.786。我们还测量了两种（Glu-Lys）(25) IDP序列变体之间的纠缠指数（平均C (alpha) 距离到其他链），该性质与分子结合相关。我们发现，在过量盐浓度下，所有可能对的纠缠指数均下降，这与这些IDP序列变体的长程相互作用在盐浓度增加时减弱一致。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35755809/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35755809/",
+  "paper_page_path": "papers/pubmed/35755809/index.html"
+}

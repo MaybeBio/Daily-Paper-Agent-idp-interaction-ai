@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors generate force field parameters for Zn(II) cations in complexes of Abeta variants, combine them with the Amber99SB*-ILDN protein force field, run molecular dynamics simulations, refine ensembles against NMR data using a Bayesian/Maximum Entropy approach, and report that the resulting conformational ensembles are more heterogeneous than the NMR models in the Protein Data Bank.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameterization details, NMR data used for refinement, and any statistical or convergence analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and timely approach to a challenging problem, namely the generation of conformational ensembles for intrinsically disordered Abeta peptides in complex with Zn(II). The combination of state-of-the-art force field parameterization, molecular dynamics, and Bayesian/Maximum Entropy refinement against NMR data is methodologically sound in principle. However, the abstract provides insufficient detail to evaluate the technical execution, the accuracy of the resulting ensembles, or the robustness of the central claim regarding ensemble heterogeneity. The work is likely of interest to the computational biophysics and amyloid research communities, but the case is not established from the supplied material alone.
+- **Who would be interested in the results, and why** Computational biophysicists and cheminformaticians working on metal-protein interactions and force field development would be interested in the parameterization strategy. Researchers studying Alzheimer's disease and Abeta aggregation, particularly those focused on metal-induced conformational changes, would value the ensemble descriptions. Methodologists interested in Bayesian/Maximum Entropy refinement of molecular simulations against experimental data would also find the approach relevant.
+- **Major strengths** The abstract addresses a genuine gap in the field, namely the lack of accurate ensemble descriptions for metal-bound intrinsically disordered peptides. The methodological combination of custom metal parameterization, a well-established protein force field, and experimental data refinement is appropriate and current. The explicit comparison of simulation-derived ensembles with deposited NMR models is a useful and potentially impactful benchmark.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that "we provide an accurate description of the molecular ensembles for most Abeta-metal complexes" and that "the resulting conformational ensembles are more heterogeneous than the NMR models deposited in the Protein Data Bank."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no quantitative metrics for accuracy, such as agreement between back-calculated and experimental NMR observables, nor any statistical measure of ensemble heterogeneity. Without these, the central claims of accuracy and heterogeneity cannot be assessed.  
+  - **Why it matters** The claim of accuracy is the core contribution of the work. If the ensemble refinement does not demonstrably reproduce experimental data within uncertainty, the subsequent heterogeneity comparison is uninterpretable.  
+  - **Resolution test** Provide in the full manuscript a table or figure showing the agreement between simulated and experimental NMR observables (e.g., chemical shifts, NOEs, or J-couplings) before and after Bayesian/Maximum Entropy refinement, along with a statistical comparison of ensemble width (e.g., RMSD distributions or radius of gyration) against the PDB models.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that "we use state-of-the-art methods to generate force field parameters for the Zn(II) cations in a set of complexes formed by different Abeta variants."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** No details are given on the parameterization method, the validation of the metal parameters, or the treatment of coordination geometry and protonation states. The abstract does not specify which Abeta variants were studied, how many complexes were simulated, or the simulation length and sampling convergence.  
+  - **Why it matters** Metal parameterization is notoriously sensitive and can dominate the behavior of the complex. Without validation against known coordination geometries or experimental binding affinities, the reliability of the simulations is uncertain.  
+  - **Resolution test** In the full manuscript, describe the parameterization protocol (e.g., quantum mechanical calculations, fitting targets), validate the parameters against experimental structures or binding data, and report simulation lengths, replica counts, and convergence diagnostics.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors imply that the ensemble description is more appropriate than single structures for intrinsically disordered Abeta-metal complexes.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not discuss the biological or mechanistic implications of the increased heterogeneity. It is unclear whether the broader ensembles lead to new insights into metal-induced aggregation or toxicity.  
+  - **Why it matters** For a broad readership, the significance of the work depends on what the ensembles reveal about Abeta function or dysfunction, not just on the methodological improvement.  
+  - **Resolution test** In the full manuscript, discuss how the ensemble heterogeneity affects the interpretation of metal binding sites, fibril formation propensity, or interactions with cellular components, and relate these to existing experimental observations.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The phrase "Bayesian/Maximum entropy approach" is used without explanation, which may be opaque to readers outside computational biophysics.  
+  - **Required correction** Add a brief parenthetical explanation, such as "a method that adjusts simulation ensembles to maximize agreement with experimental data while preserving the least bias."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness of reporting  
+  - **Affected element** Abstract text  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The abstract does not specify the number of Abeta variants or complexes studied, nor the range of simulation timescales.  
+  - **Required correction** Include the number of systems and the total simulation time per system in the abstract or full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Force field choice  
+  - **Evidence pointer** Abstract only  
+  - **Issue** The choice of Amber99SB*-ILDN is stated but not justified relative to newer force fields that may better describe disordered proteins.  
+  - **Required correction** Briefly justify the force field choice in the full manuscript, citing benchmarks for disordered protein simulations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative validation of ensemble accuracy and the lack of detail on metal parameterization prevent the central claims from being evaluated. These must be resolved with explicit data and protocols in the full manuscript.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The approach is not entirely novel, as Bayesian/Maximum Entropy refinement and metal parameterization are established methods, but the application to a set of Abeta-Zn complexes is a useful and specific contribution.  
+  - **Scientific importance** The work addresses a relevant problem in amyloid biology, but the abstract does not yet demonstrate that the ensemble descriptions yield new biological insights beyond what is known from static structures.  
+  - **Interdisciplinary readership** The topic bridges computational chemistry, biophysics, and neurobiology, but the abstract is written in a way that may primarily appeal to specialists in molecular simulation.  
+  - **Technical soundness** Cannot be assessed from the abstract alone; the blocking concerns above must be resolved.  
+  - **Readability for nonspecialists** The abstract is concise but uses jargon without sufficient context, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The work is potentially valuable, and I would be supportive if the technical concerns regarding ensemble accuracy and metal parameterization are fully addressed with quantitative data in the full manuscript.
+
+## Risk / unsupported claims
+- The claim of "accurate description of the molecular ensembles" is unsupported without quantitative agreement metrics between simulated and experimental NMR data.
+- The claim that ensembles are "more heterogeneous than the NMR models" is unsupported without a defined measure of heterogeneity and a statistical comparison.
+- The statement that "state-of-the-art methods" were used for metal parameterization is unverifiable without methodological details.
+- The general applicability of the approach to "most Abeta-metal complexes" is unsubstantiated without specifying which complexes were studied and with what success.

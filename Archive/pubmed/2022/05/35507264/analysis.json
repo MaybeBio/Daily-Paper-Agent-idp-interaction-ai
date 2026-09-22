@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35507264",
+  "title": "Prediction of the Effect of pH on the Aggregation and Conditional Folding of Intrinsically Disordered Proteins with SolupHred and DispHred.",
+  "authors": "Iglesias, Valentin; Pintado-Grima, Carlos; Santos, Jaime; Fornt, Marc; Ventura, Salvador",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2022-05-05",
+  "window": {
+    "start": "2022-05-02",
+    "end": "2022-05-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍预测pH对IDP聚集和条件折叠的SolupHred与DispHred网络服务器，虽以IDP为对象并涉及聚集/折叠机制，但方法为基于序列特征的预测工具，缺乏PPI互作机制建模和AI/物理模拟深度。",
+  "abstract": "Proteins microenvironments modulate their structures. Binding partners, organic molecules, or dissolved ions can alter the protein's compaction, inducing aggregation or order-disorder conformational transitions. Surprisingly, bioinformatic platforms often disregard the protein context in their modeling. In a recent work, we proposed that modeling how pH affects protein net charge and hydrophobicity might allow us to forecast pH-dependent aggregation and conditional disorder in intrinsically disordered proteins (IDPs). As these approaches showed remarkable success in recapitulating the available bibliographical data, we made these prediction methods available for the scientific community as two user-friendly web servers. SolupHred is the first dedicated software to predict pH-dependent aggregation, and DispHred is the first pH-dependent predictor of protein disorder. Here we dissect the features of these two software applications to train and assist scientists in studying pH-dependent conformational changes in IDPs.",
+  "abstract_zh": "蛋白质微环境调节其结构。结合伙伴、有机分子或溶解离子可改变蛋白质的压实程度，诱导聚集或有序-无序构象转变。令人惊讶的是，生物信息学平台在建模时常常忽视蛋白质的上下文背景。在最近的一项工作中，我们提出，模拟pH值如何影响蛋白质净电荷和疏水性，可能使我们能够预测 intrinsically disordered proteins (IDPs) 中依赖pH的聚集和条件性无序。由于这些方法在重现现有文献数据方面表现出显著成功，我们将这些预测方法以两个用户友好的网络服务器形式提供给科学界。SolupHred是首个专门预测pH依赖性聚集的软件，而DispHred是首个pH依赖性蛋白质无序预测器。在此，我们剖析这两个软件应用的功能，以培训和协助科学家研究IDPs中pH依赖性构象变化。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35507264/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35507264/",
+  "paper_page_path": "papers/pubmed/35507264/index.html"
+}

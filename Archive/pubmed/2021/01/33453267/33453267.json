@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "33453267",
+    "doi": "10.1016/j.bpj.2020.12.026",
+    "title": "Short peptides as predictors for the structure of polyarginine sequences in disordered proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins and intrinsically disordered regions are frequently enriched in charged amino acids. Intrinsically disordered regions are regularly involved in important biological processes in which one or more charged residues is the driving force behind a protein-biomolecule interaction. Several lines of experimental and computational evidence suggest that polypeptides and proteins that carry high net charges have a high preference for extended conformations with average end-to-end distances exceeding expectations for self-avoiding random coils. Here, we show that charged arginine residues even in short glycine-capped model peptides (GRRG and GRRRG) significantly affect the conformational propensities of each other when compared with the intrinsic propensities of a mostly unperturbed arginine in the tripeptide GRG. A conformational analysis based on experimentally determined J-coupling constants from heteronuclear NMR spectroscopy and amide I' band profiles from vibrational spectroscopy reveals that nearest-neighbor interactions stabilize extended beta-strand conformations at the expense of polyproline II and turn conformations. The results from molecular dynamics simulations with a CHARMM36m force field and TIP3P water reproduce our results only to a limited extent. The use of the Ramachandran distribution of the central residue of GRRRG in a calculation of end-to-end distances of polyarginines of different length yielded the expected power law behavior. The scaling coefficient of 0.66 suggests that such peptides would be more extended than predicted by a self-avoiding random walk. Our findings thus support in principle theoretical predictions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acids",
+      "*Intrinsically Disordered Proteins",
+      "Molecular Conformation",
+      "*Peptides",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Milorey, Bridget",
+        "Schweitzer-Stenner, Reinhard",
+        "Andrews, Brian",
+        "Schwalbe, Harald",
+        "Urbanc, Brigita"
+      ],
+      "short_names": [
+        "Milorey B",
+        "Schweitzer-Stenner R",
+        "Andrews B",
+        "Schwalbe H",
+        "Urbanc B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Drexel University, Philadelphia, Pennsylvania.",
+        "Department of Chemistry, Drexel University, Philadelphia, Pennsylvania. Electronic address: rschweitzer-stenner@drexel.edu.",
+        "Department of Physics, Drexel University, Philadelphia, Pennsylvania.",
+        "Institut fur Organische Chemie und Chemische Biologie, Johann Wolfgang Goethe Universitat, Frankfurt, Germany.",
+        "Department of Physics, Drexel University, Philadelphia, Pennsylvania."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Milorey, Bridget",
+        "short_name": "Milorey B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Drexel University, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Schweitzer-Stenner, Reinhard",
+        "short_name": "Schweitzer-Stenner R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Drexel University, Philadelphia, Pennsylvania. Electronic address: rschweitzer-stenner@drexel.edu."
+        ]
+      },
+      {
+        "full_name": "Andrews, Brian",
+        "short_name": "Andrews B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Drexel University, Philadelphia, Pennsylvania."
+        ]
+      },
+      {
+        "full_name": "Schwalbe, Harald",
+        "short_name": "Schwalbe H",
+        "identifiers": [],
+        "affiliations": [
+          "Institut für Organische Chemie und Chemische Biologie, Johann Wolfgang Goethe Universität, Frankfurt, Germany."
+        ]
+      },
+      {
+        "full_name": "Urbanc, Brigita",
+        "short_name": "Urbanc B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Drexel University, Philadelphia, Pennsylvania."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2021 Feb 16",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/01/17 06:00",
+    "fetched_at": "2026-09-20 00:44:14"
+  },
+  "links": {
+    "cites": [
+      "42240685",
+      "41919199",
+      "40568634",
+      "39979079",
+      "39634645",
+      "38877893",
+      "36496998",
+      "35628453",
+      "35625612",
+      "35495117",
+      "34056442"
+    ],
+    "refs": [
+      "37127972",
+      "32751224",
+      "32207305",
+      "31751129",
+      "30865832",
+      "29539392",
+      "27819658",
+      "27545097",
+      "26620784",
+      "26606367",
+      "26574453",
+      "26418575",
+      "25905561",
+      "25728043",
+      "25679039",
+      "25227444",
+      "25062017",
+      "24889800",
+      "24725176",
+      "24361273",
+      "24089719",
+      "23901099",
+      "23448349",
+      "23229867",
+      "23229832",
+      "22984159",
+      "22977176",
+      "22928488",
+      "21547966",
+      "21539337",
+      "20700831",
+      "20639465",
+      "20442867",
+      "20404210",
+      "20014772",
+      "19243204",
+      "18456823",
+      "18260662",
+      "17263399",
+      "17212484",
+      "16857738",
+      "16845024",
+      "16366524",
+      "16218947",
+      "16211538",
+      "16094605",
+      "16008354",
+      "15943979",
+      "15254296",
+      "15149211",
+      "13990617",
+      "12899838",
+      "12709596",
+      "12452707",
+      "12080139",
+      "12061717",
+      "11910019",
+      "11872841",
+      "11256811",
+      "11072340",
+      "1867723",
+      "1793813",
+      "1249985"
+    ],
+    "similar": [
+      "33453267",
+      "20014772",
+      "27545097",
+      "35048087",
+      "21138254",
+      "23229832",
+      "35625612",
+      "22712805",
+      "26727467",
+      "22435395",
+      "23448349",
+      "37096579",
+      "34619031",
+      "35628453",
+      "33530506",
+      "21879108",
+      "33382616",
+      "19243204",
+      "23912807",
+      "34576338",
+      "27936491",
+      "21547966",
+      "34524800",
+      "38877893",
+      "17918837",
+      "23229867",
+      "7490751",
+      "29539392",
+      "32816485",
+      "25062017",
+      "27844185",
+      "32696367",
+      "17279623",
+      "24668165",
+      "35245815",
+      "37595285",
+      "36387274",
+      "35512095",
+      "11727705",
+      "23631686",
+      "20831224",
+      "31613621",
+      "24423055",
+      "30204435",
+      "16503636",
+      "30865832",
+      "25244701",
+      "24037535",
+      "33444020",
+      "33337879",
+      "36178373",
+      "26801222",
+      "26575776",
+      "35174713",
+      "9878373",
+      "14995194",
+      "16008354",
+      "36080494",
+      "25728043",
+      "28805390",
+      "30372613",
+      "32357776",
+      "32859072",
+      "17206849",
+      "32367806",
+      "27819658",
+      "31552948",
+      "36468450",
+      "37395034",
+      "23901099",
+      "34545666",
+      "33076213",
+      "20825228",
+      "38165099",
+      "21604143",
+      "23385383",
+      "18713857",
+      "35436286",
+      "33122085",
+      "28095698",
+      "32786705",
+      "8568893",
+      "32585849",
+      "30840442",
+      "36125334",
+      "10685340",
+      "31751129",
+      "28884933",
+      "30259679",
+      "32295482",
+      "29490247",
+      "37433228",
+      "26030674",
+      "29808548",
+      "26343224",
+      "24671380",
+      "29734867",
+      "30823702",
+      "38615193",
+      "39253398",
+      "38938816"
+    ],
+    "review": [
+      "33453267",
+      "37096579",
+      "35628453",
+      "33530506",
+      "21879108",
+      "25062017",
+      "11727705",
+      "34545666"
+    ],
+    "pmc": [
+      "7896027"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(21)00027-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33453267/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33453267",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33453267",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

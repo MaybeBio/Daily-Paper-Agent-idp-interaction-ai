@@ -1,0 +1,471 @@
+{
+  "identity": {
+    "pmid": "35373198",
+    "doi": "10.1021/jacsau.1c00536",
+    "title": "Global Structure of the Intrinsically Disordered Protein Tau Emerges from Its Local Structure."
+  },
+  "content": {
+    "abstract": "The paradigmatic disordered protein tau plays an important role in neuronal function and neurodegenerative diseases. To disentangle the factors controlling the balance between functional and disease-associated conformational states, we build a structural ensemble of the tau K18 fragment containing the four pseudorepeat domains involved in both microtubule binding and amyloid fibril formation. We assemble 129-residue-long tau K18 chains with atomic detail from an extensive fragment library constructed with molecular dynamics simulations. We introduce a reweighted hierarchical chain growth (RHCG) algorithm that integrates experimental data reporting on the local structure into the assembly process in a systematic manner. By combining Bayesian ensemble refinement with importance sampling, we obtain well-defined ensembles and overcome the problem of exponentially varying weights in the integrative modeling of long-chain polymeric molecules. The resulting tau K18 ensembles capture nuclear magnetic resonance (NMR) chemical shift and J-coupling measurements. Without further fitting, we achieve very good agreement with measurements of NMR residual dipolar couplings. The good agreement with experimental measures of global structure such as single-molecule Forster resonance energy transfer (FRET) efficiencies is improved further by ensemble refinement. By comparing wild-type and mutant ensembles, we show that pathogenic single-point P301L, P301S, and P301T mutations shift the population from the turn-like conformations of the functional microtubule-bound state to the extended conformations of disease-associated tau fibrils. RHCG thus provides us with an atomically detailed view of the population equilibrium between functional and aggregation-prone states of tau K18, and demonstrates that global structural characteristics of this intrinsically disordered protein emerge from its local structure.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Stelzl, Lukas S",
+        "Pietrek, Lisa M",
+        "Holla, Andrea",
+        "Oroz, Javier",
+        "Sikora, Mateusz",
+        "Kofinger, Jurgen",
+        "Schuler, Benjamin",
+        "Zweckstetter, Markus",
+        "Hummer, Gerhard"
+      ],
+      "short_names": [
+        "Stelzl LS",
+        "Pietrek LM",
+        "Holla A",
+        "Oroz J",
+        "Sikora M",
+        "Kofinger J",
+        "Schuler B",
+        "Zweckstetter M",
+        "Hummer G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5348-0277",
+        "ORCID: 0000-0002-4494-4041",
+        "ORCID: 0000-0003-1691-4045",
+        "ORCID: 0000-0001-8367-1077",
+        "ORCID: 0000-0002-5970-4251",
+        "ORCID: 0000-0002-2536-6581",
+        "ORCID: 0000-0001-7768-746X"
+      ],
+      "affiliations": [
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Strasse 3, 60438 Frankfurt am Main, Germany.",
+        "Faculty of Biology, Johannes Gutenberg University Mainz, Gresemundweg 2, 55128 Mainz, Germany.",
+        "KOMET 1, Institute of Physics, Johannes Gutenberg University Mainz, 55099 Mainz, Germany.",
+        "Institute of Molecular Biology (IMB), 55128 Mainz, Germany.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Strasse 3, 60438 Frankfurt am Main, Germany.",
+        "Department of Biochemistry, University of Zurich, 8057 Zurich, Switzerland.",
+        "German Center for Neurodegenerative Diseases (DZNE), von-Siebold-Str. 3a, 37075 Gottingen, Germany.",
+        "Rocasolano Institute for Physical Chemistry, CSIC, Serrano 119, 28006 Madrid, Spain.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Strasse 3, 60438 Frankfurt am Main, Germany.",
+        "Faculty of Physics, University of Vienna, Kolingasse 14-16, 1090 Vienna, Austria.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Strasse 3, 60438 Frankfurt am Main, Germany.",
+        "Department of Biochemistry, University of Zurich, 8057 Zurich, Switzerland.",
+        "Department of Physics, University of Zurich, 8057 Zurich, Switzerland.",
+        "German Center for Neurodegenerative Diseases (DZNE), von-Siebold-Str. 3a, 37075 Gottingen, Germany.",
+        "Department for NMR-based Structural Biology, Max Planck Institute for Multidisciplinary Sciences, Am Fassberg 11, 37077 Gottingen, Germany.",
+        "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Strasse 3, 60438 Frankfurt am Main, Germany.",
+        "Institute for Biophysics, Goethe University Frankfurt, Max-von-Laue-Strasse 9, 60438 Frankfurt am Main, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Stelzl, Lukas S",
+        "short_name": "Stelzl LS",
+        "identifiers": [
+          "0000-0002-5348-0277"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Straße 3, 60438 Frankfurt am Main, Germany.",
+          "Faculty of Biology, Johannes Gutenberg University Mainz, Gresemundweg 2, 55128 Mainz, Germany.",
+          "KOMET 1, Institute of Physics, Johannes Gutenberg University Mainz, 55099 Mainz, Germany.",
+          "Institute of Molecular Biology (IMB), 55128 Mainz, Germany."
+        ]
+      },
+      {
+        "full_name": "Pietrek, Lisa M",
+        "short_name": "Pietrek LM",
+        "identifiers": [
+          "0000-0002-4494-4041"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Straße 3, 60438 Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Holla, Andrea",
+        "short_name": "Holla A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, 8057 Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Oroz, Javier",
+        "short_name": "Oroz J",
+        "identifiers": [],
+        "affiliations": [
+          "German Center for Neurodegenerative Diseases (DZNE), von-Siebold-Str. 3a, 37075 Göttingen, Germany.",
+          "Rocasolano Institute for Physical Chemistry, CSIC, Serrano 119, 28006 Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Sikora, Mateusz",
+        "short_name": "Sikora M",
+        "identifiers": [
+          "0000-0003-1691-4045"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Straße 3, 60438 Frankfurt am Main, Germany.",
+          "Faculty of Physics, University of Vienna, Kolingasse 14-16, 1090 Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Köfinger, Jürgen",
+        "short_name": "Köfinger J",
+        "identifiers": [
+          "0000-0001-8367-1077"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Straße 3, 60438 Frankfurt am Main, Germany."
+        ]
+      },
+      {
+        "full_name": "Schuler, Benjamin",
+        "short_name": "Schuler B",
+        "identifiers": [
+          "0000-0002-5970-4251"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, 8057 Zurich, Switzerland.",
+          "Department of Physics, University of Zurich, 8057 Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Zweckstetter, Markus",
+        "short_name": "Zweckstetter M",
+        "identifiers": [
+          "0000-0002-2536-6581"
+        ],
+        "affiliations": [
+          "German Center for Neurodegenerative Diseases (DZNE), von-Siebold-Str. 3a, 37075 Göttingen, Germany.",
+          "Department for NMR-based Structural Biology, Max Planck Institute for Multidisciplinary Sciences, Am Faßberg 11, 37077 Göttingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Hummer, Gerhard",
+        "short_name": "Hummer G",
+        "identifiers": [
+          "0000-0001-7768-746X"
+        ],
+        "affiliations": [
+          "Department of Theoretical Biophysics, Max Planck Institute of Biophysics, Max-von-Laue-Straße 3, 60438 Frankfurt am Main, Germany.",
+          "Institute for Biophysics, Goethe University Frankfurt, Max-von-Laue-Straße 9, 60438 Frankfurt am Main, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2022 Mar 28",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/04/05 06:00",
+    "fetched_at": "2026-09-20 09:23:51"
+  },
+  "links": {
+    "cites": [
+      "42084231",
+      "41509380",
+      "41352343",
+      "41311076",
+      "41182881",
+      "41144666",
+      "41002362",
+      "40569578",
+      "40294272",
+      "40264794",
+      "40198698",
+      "39914051",
+      "39693390",
+      "39579121",
+      "39503309",
+      "38361440",
+      "38313287",
+      "38260441",
+      "38118365",
+      "37923304",
+      "37906368",
+      "37894559",
+      "37749095",
+      "37712018",
+      "37530227",
+      "37499445",
+      "37459524",
+      "37006777",
+      "36959205",
+      "36797278",
+      "36711822",
+      "36628457",
+      "36563129",
+      "36416865",
+      "36060052",
+      "36030416",
+      "35431773"
+    ],
+    "refs": [
+      "35112738",
+      "34963892",
+      "34374536",
+      "34001913",
+      "33481784",
+      "33307683",
+      "32840111",
+      "32817270",
+      "32775701",
+      "32732434",
+      "32436706",
+      "32345021",
+      "32339173",
+      "32050258",
+      "32032505",
+      "31809054",
+      "31260737",
+      "31175300",
+      "31048691",
+      "30939006",
+      "30913885",
+      "30894745",
+      "30554840",
+      "30471690",
+      "30285443",
+      "30276465",
+      "30212206",
+      "30184304",
+      "30158706",
+      "30091924",
+      "29735687",
+      "29604882",
+      "29472250",
+      "29466338",
+      "29399725",
+      "29359764",
+      "29259137",
+      "29051562",
+      "28877466",
+      "28819146",
+      "28808438",
+      "28793210",
+      "28683104",
+      "28678775",
+      "28456189",
+      "28259050",
+      "28063280",
+      "27583570",
+      "27566405",
+      "27300592",
+      "27151198",
+      "27145874",
+      "26940799",
+      "26844300",
+      "26723635",
+      "26631930",
+      "26488642",
+      "26094605",
+      "26034266",
+      "25926130",
+      "25192938",
+      "24976112",
+      "24432838",
+      "24361273",
+      "23233655",
+      "23142871",
+      "21629703",
+      "21500218",
+      "21387340",
+      "21220121",
+      "20925316",
+      "20639465",
+      "20628786",
+      "20063887",
+      "19908838",
+      "19594147",
+      "19514729",
+      "19226187",
+      "18771286",
+      "18512919",
+      "18506808",
+      "18388951",
+      "18326625",
+      "18266409",
+      "17608477",
+      "17535901",
+      "17468747",
+      "17385861",
+      "17297915",
+      "16366524",
+      "16002620",
+      "15855160",
+      "14664613",
+      "12047175",
+      "11606569",
+      "11462810",
+      "10737933",
+      "9836646",
+      "9220986"
+    ],
+    "similar": [
+      "35373198",
+      "30840442",
+      "32486218",
+      "27911791",
+      "34494046",
+      "32840111",
+      "39588651",
+      "35213160",
+      "23811057",
+      "40198698",
+      "25284680",
+      "23199922",
+      "29944336",
+      "25691742",
+      "27159632",
+      "32775701",
+      "27844185",
+      "35923464",
+      "21056574",
+      "36310204",
+      "25767879",
+      "30242125",
+      "35503811",
+      "30204435",
+      "34817999",
+      "33686854",
+      "30876367",
+      "18725924",
+      "20925316",
+      "34537237",
+      "38274251",
+      "38077065",
+      "22291015",
+      "22998648",
+      "29490247",
+      "38501645",
+      "30939006",
+      "23515417",
+      "23912807",
+      "20709081",
+      "37450599",
+      "22901047",
+      "28232883",
+      "30259679",
+      "36934808",
+      "31653529",
+      "27566405",
+      "30471690",
+      "29704492",
+      "39421885",
+      "31628033",
+      "30979035",
+      "25206938",
+      "25897952",
+      "17385861",
+      "33030907",
+      "31358628",
+      "32691116",
+      "11457289",
+      "35167081",
+      "22393063",
+      "38361440",
+      "32722166",
+      "31809054",
+      "32096026",
+      "27300592",
+      "33078207",
+      "32207466",
+      "35322890",
+      "38512658",
+      "33496017",
+      "31524157",
+      "38895430",
+      "37117483",
+      "37093489",
+      "37646172",
+      "32915536",
+      "23794453",
+      "40346074",
+      "39579121",
+      "26940799",
+      "26967199",
+      "32833429",
+      "26632648",
+      "40147456",
+      "31396909",
+      "23583776",
+      "37607621",
+      "32502383",
+      "32696363",
+      "32623047",
+      "24361273",
+      "34032430",
+      "26387101",
+      "26574339",
+      "39735932",
+      "28833749",
+      "30884818",
+      "16917941",
+      "32453948"
+    ],
+    "review": [
+      "35373198",
+      "30840442",
+      "30979035",
+      "32096026",
+      "33078207",
+      "23794453",
+      "26387101",
+      "28833749"
+    ],
+    "pmc": [
+      "8970000"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/jacsau.1c00536",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35373198/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35373198",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.1c00536",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

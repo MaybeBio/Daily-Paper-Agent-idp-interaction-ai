@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report a complementary analytical workflow combining trapped ion mobility spectrometry (TIMS), tandem electron capture dissociation (ECD) and ultraviolet photodissociation (UVPD) mass spectrometry, and molecular dynamics (MD) to map native noncovalent peptide-peptide interactions. Three complexes derived from the intrinsically disordered HMGA2 protein (AT-hook peptides ATHP1, ATHP2, ATHP3 with the C-terminal tail CTMP) were studied. The abstract claims a gas-phase stability order of ATHP1-CTMP > ATHP2-CTMP > ATHP3-CTMP, near-complete sequence coverage for single peptides (approximately 100%) and approximately 75% for complexes, at least three mobility-separated conformers per complex, and the possibility of forward and backward orientations for all three complexes.
+- **Visible evidence base** Abstract text only; no experimental details, spectra, mobility distributions, MD trajectories, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, data processing parameters, MD force fields and simulation protocols, replicate information, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of a multi-technique platform to a biologically relevant set of peptide-peptide complexes. However, the evidence base available for this review is limited to the abstract, which precludes verification of the central claims. The stability ordering, sequence coverage values, conformer counts, and orientation assignments are stated without supporting quantitative data or methodological detail. The work may be of interest to the structural mass spectrometry and intrinsically disordered protein communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in structural mass spectrometry, ion mobility spectrometry, and gas-phase protein chemistry would be interested in the combined TIMS-ECD-UVPD-MD workflow. The intrinsically disordered protein community, particularly those studying HMGA2 and AT-hook motifs, may find the peptide-peptide interaction mapping relevant. Methodologists developing native mass spectrometry approaches for noncovalent complexes would also be a target audience.
+- **Major strengths** The combination of complementary techniques (TIMS, ECD, UVPD, MD) is a sensible strategy for probing both conformational and sequence-level information. The choice of biologically relevant intrinsically disordered protein fragments as model systems adds potential significance. The reported high sequence coverage for single peptides is encouraging if reproducible.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims a specific gas-phase stability order for the three complexes (ATHP1-CTMP > ATHP2-CTMP > ATHP3-CTMP).
+  - **Evidence pointer** Abstract, stability statement; location not provided
+  - **Concern** The stability ordering is presented as a definitive result, but no quantitative metric (e.g., collision cross sections, dissociation thresholds, survival yields, or energetic data) is provided in the abstract. It is unclear whether this ordering is based on mobility shifts, fragmentation efficiency, MD energies, or another observable.
+  - **Why it matters** Without a defined stability metric and associated uncertainty, the ordering cannot be evaluated or compared with other systems. This is a central claim of the work and must be supported by explicit data and statistical treatment.
+  - **Resolution test** Provide the specific experimental or computational observable used to define stability, with replicate measurements and error estimates, and demonstrate that the ordering is statistically robust.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims approximately 100% sequence coverage for single peptides and approximately 75% for peptide-peptide complexes using ECD and UVPD.
+  - **Evidence pointer** Abstract, coverage statement; location not provided
+  - **Concern** Sequence coverage values are stated without specifying which fragmentation method produced which coverage, how coverage was calculated (e.g., number of cleavages divided by total possible bonds), or whether the values are averages across replicates. The basis for the approximately 75% figure for complexes is also unclear.
+  - **Why it matters** Sequence coverage is a key metric for the utility of the fragmentation approach. If the values are not reproducible or are method-dependent, the claim of complementary ECD and UVPD utility is weakened.
+  - **Resolution test** Report coverage per method per peptide and per complex, with replicate counts and the calculation formula, and clarify whether the values are maxima, means, or medians.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that at least three peptide-peptide structures were separated in the mobility domain for each ATHP-CTMP complex, and that all three complexes can align in forward and backward orientations.
+  - **Evidence pointer** Abstract, mobility and orientation statements; location not provided
+  - **Concern** The number of mobility-separated species and the orientation assignments are stated without supporting data. No collision cross section values, arrival time distributions, or MD-derived orientation criteria are given. The term "forward and backward orientations" is not defined in the abstract.
+  - **Why it matters** The structural diversity and orientation claims are central to the "mapping" objective of the work. Without defined criteria for what constitutes a distinct conformer or an orientation, these claims are not testable.
+  - **Resolution test** Provide arrival time distributions or collision cross section distributions showing at least three resolved features, define the orientation criteria used in MD, and show how experimental and computational data are correlated.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, "native" usage; location not provided
+  - **Issue** The term "native" is used to describe the peptide-peptide complexes, but no evidence is provided in the abstract that solution-phase conditions were preserved (e.g., native spray conditions, buffer composition, or comparison with solution measurements).
+  - **Required correction** Clarify the spray and solution conditions used, or qualify the term as "near-native" if conditions were not strictly native.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Method integration
+  - **Evidence pointer** Abstract, workflow description; location not provided
+  - **Issue** The abstract states that TIMS, ECD/UVPD, and MD were applied, but does not describe how these techniques were integrated (e.g., whether MD was used to interpret mobility data, or whether fragmentation was performed post-mobility separation).
+  - **Required correction** Briefly state the workflow order and how each technique informed the others.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Replicates
+  - **Evidence pointer** Abstract, all quantitative claims; location not provided
+  - **Issue** No mention of replicate measurements or statistical treatment is present in the abstract.
+  - **Required correction** State the number of replicates and any error metrics for the key quantitative claims.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The central quantitative and structural claims are not verifiable from the abstract alone. The stability ordering, coverage values, conformer counts, and orientation assignments require explicit data and methodological detail.
+- **Assessment against Nature-style criteria** Originality: The combination of TIMS with ECD and UVPD for peptide-peptide complexes is not entirely novel, but the application to HMGA2-derived intrinsically disordered fragments may offer a new context. Scientific importance: Potentially moderate, as the work could inform understanding of protein-protein interaction interfaces, but the significance is not established from the abstract. Interdisciplinary readership: The work would appeal primarily to mass spectrometry and structural biology specialists, with limited broader reach. Technical soundness: Cannot be assessed from the abstract; the absence of quantitative data and methodological detail prevents evaluation. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms (TIMS, ECD, UVPD) without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible workflow and interesting biological targets, but the central claims are unsupported in the supplied material. A supportive recommendation would require access to the full manuscript and verification of the quantitative and structural claims.
+
+## Risk / unsupported claims
+- The gas-phase stability ordering of the three complexes is unsupported in the abstract, as no stability metric or uncertainty is provided.
+- The sequence coverage values (approximately 100% and approximately 75%) are unsupported, as the calculation basis and replicate information are absent.
+- The claim of at least three mobility-separated conformers per complex is unsupported, as no mobility data are shown.
+- The forward and backward orientation assignments are unsupported, as the orientation criteria are not defined.
+- The use of the term "native" for the complexes is not substantiated by any solution or spray condition details.

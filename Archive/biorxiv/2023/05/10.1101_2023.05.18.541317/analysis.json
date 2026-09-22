@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.18.541317",
+  "title": "Identification of the bacteriophage nucleus protein interaction network",
+  "authors": "Eray Enustun; Amar Deep; Yajie Gu; Katrina T. Nguyen; Vorrapon Chaikeeratisak; Emily Armbruster; Majid Ghassemian; Elizabeth Villa; Joe Pogliano; Kevin D. Corbett",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-18",
+  "window": {
+    "start": "2023-05-15",
+    "end": "2023-05-21"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过邻近标记和定位图谱鉴定噬菌体核壳蛋白ChmA的互作网络，并解析ChmB的结构与PPI，但对象为折叠蛋白形成的核壳而非无序蛋白/IDR，且方法为实验为主、无AI或物理模拟建模，仅PPI网络鉴定对互作机制建模启发有限。",
+  "abstract": "In the arms race between bacteria and bacteriophages (phages), some large-genome jumbo phages have evolved a protein shell that encloses their replicating genome to protect it against DNA-targeting immune factors. By segregating the genome from the host cytoplasm, however, the “phage nucleus” introduces the need to specifically transport mRNA and proteins through the nuclear shell, and to dock capsids on the shell for genome packaging. Here, we use proximity labeling and localization mapping to systematically identify proteins associated with the major nuclear shell protein chimallin (ChmA) and other distinctive structures assembled by these phages. We identify six uncharacterized nuclear shell-associated proteins, one of which directly interacts with self-assembled ChmA. The structure and protein-protein interaction network of this protein, which we term ChmB, suggests that it forms pores in the ChmA lattice that serve as docking sites for capsid genome packaging, and may also participate in mRNA and/or protein transport.",
+  "abstract_zh": "在细菌与噬菌体（phages）之间的军备竞赛中，一些大基因组巨型噬菌体进化出了一种蛋白质外壳，包裹其复制中的基因组，以保护其免受靶向DNA的免疫因子的攻击。然而，通过将基因组与宿主细胞质分隔开来，“噬菌体核”（phage nucleus）引入了通过核壳特异性转运mRNA和蛋白质的需求，以及将衣壳对接在壳上进行基因组包装的需求。在此，我们使用邻近标记和定位图谱来系统性地识别与主要核壳蛋白chimallin（ChmA）及这些噬菌体组装的其他独特结构相关的蛋白质。我们鉴定了六个未表征的核壳相关蛋白，其中一个直接与自组装的ChmA相互作用。该蛋白（我们称之为ChmB）的结构和蛋白质-蛋白质相互作用网络表明，它在ChmA晶格中形成孔道，作为衣壳基因组包装的对接位点，并可能参与mRNA和/或蛋白质的转运。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.18.541317",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.18.541317",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.18.541317/index.html"
+}

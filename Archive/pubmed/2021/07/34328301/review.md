@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors use effective pair potential calculations and large-scale molecular dynamics simulations with an idealized model incorporating only electrostatic and steric interactions to show that DNA condensation can be reversibly controlled by varying the protamine-to-DNA ratio. Simulated microscopic states and condensate structures in semidilute short DNA solutions agree with experimental phase diagrams and cryoTEM observations. The authors propose that protamination modulation informs mechanistic understanding of early spermatogenesis and may improve protamine-based vaccine packaging and depackaging.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary information
+- **Missing materials affecting confidence** Full manuscript, simulation details, force field parameters, system sizes, equilibration protocols, experimental phase diagram source, cryoTEM image comparisons, quantitative agreement metrics, and any statistical analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that electrostatic and steric interactions alone may suffice to explain reversible DNA packaging by protamine. The claim of quantitative agreement with experimental data is potentially significant, but the abstract provides no quantitative details, no methodological transparency, and no direct evidence for the stated agreement. The biological and translational implications are speculative and not supported by the presented material. The core computational finding is plausible but cannot be evaluated for technical soundness from the abstract alone.
+- **Who would be interested in the results, and why** Researchers in biophysics of chromatin condensation, spermatogenesis and male fertility, and computational soft matter. Those working on protamine-based drug and vaccine delivery systems may also find the reversible packaging concept relevant. The idealized model approach could interest simulators seeking minimal models for DNA-protein phase behavior.
+- **Major strengths** The hypothesis that a minimal electrostatic and steric model can capture reversible DNA condensation is elegant and testable. The connection between protamine-to-DNA ratio and reversible condensate formation is a clear and mechanistically plausible framing. The potential link to liquid-liquid phase separation in spermatogenesis is timely and conceptually valuable.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "Effective pair potential calculations and large-scale molecular dynamics simulations using a simple idealized model incorporating solely electrostatic and steric interactions clearly demonstrate a reversible control on DNA condensates formation by varying the protamine-to-DNA ratio."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract asserts that the model "clearly demonstrates" reversible control, but no simulation details, parameter ranges, system sizes, or quantitative measures of reversibility are provided. The term "reversible" is not defined operationally, and no hysteresis or cycling data are mentioned.  
+  - **Why it matters** Reversibility is the central claim. Without evidence that condensation and redispersion can be cycled multiple times and that the process is path-independent, the claim of reversible control is not established.  
+  - **Resolution test** Provide simulation data showing at least two full cycles of condensation and redispersion with quantitative order parameters, and demonstrate that final states are independent of the path taken.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** "Microscopic states and condensate structures occurring in semidilute solutions of short DNA fragments are in good agreement with experimental phase diagram and cryoTEM observations."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The claim of "good agreement" is made without any quantitative comparison. No correlation coefficients, root-mean-square deviations, or statistical tests are reported. The experimental phase diagram and cryoTEM data are not described, and the criteria for agreement are undefined.  
+  - **Why it matters** Agreement with experiment is a key validation of the idealized model. Without quantitative metrics, the claim is unfalsifiable from the provided material.  
+  - **Resolution test** Provide a figure overlaying simulated and experimental phase boundaries with error bars, and show side-by-side cryoTEM images with quantitative structural descriptors (e.g., radius of gyration, fractal dimension) and statistical comparison.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** "The reversible microscopic mechanisms induced by protamination modulation should provide valuable information to improve a mechanistic understanding of early and intermediate stages of spermatogenesis where an interplay between condensation and liquid-liquid phase separation triggered by protamine expression and post-translational regulation might occur."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The link to spermatogenesis is speculative. The abstract does not present any data connecting the simulated system to in vivo protamine concentrations, post-translational modifications, or the specific stages of spermatogenesis. The phrase "might occur" is appropriately hedged, but the claim that the results "should provide valuable information" is not supported by any biological validation.  
+  - **Why it matters** The biological relevance is a major motivation for the work. Without any experimental or in vivo context, the significance for spermatogenesis remains an untested extrapolation.  
+  - **Resolution test** Add a discussion section that maps simulated protamine-to-DNA ratios to physiological ranges and, if possible, include a comparison with in vivo or ex vivo data on protamine expression levels during spermatogenesis.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** "Recent vaccines to prevent virus infections and cancers using protamine as a packaging and depackaging agent might be fine-tuned for improved efficiency using a protamination control."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The translational claim is speculative and not connected to any vaccine formulation data. No information is provided on how the simulation results would translate to vaccine design, what parameters would be tuned, or what efficiency improvements are expected.  
+  - **Why it matters** This claim broadens the audience but risks overreach. Without a concrete mechanistic link to vaccine systems, it reads as an unsupported promotional statement.  
+  - **Resolution test** Either remove the claim or add a paragraph in the discussion that explicitly connects the simulated protamine-to-DNA ratio to the formulation parameters used in protamine-based vaccine delivery, with citations to specific vaccine studies.
+
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract opening  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The statement "10(6)-fold compaction" and "10-20 times higher compaction than in somatic cells" is dense and may confuse readers unfamiliar with the scale of DNA packaging in sperm.  
+  - **Required correction** Rephrase to clarify that the compaction is relative to the volume of the sperm nucleus and provide a brief context for why this is remarkable.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Model description  
+  - **Evidence pointer** Abstract, "simple idealized model incorporating solely electrostatic and steric interactions"  
+  - **Issue** The model is described as "idealized" but no details are given on how DNA and protamine are represented (e.g., bead-spring, coarse-grained, continuum).  
+  - **Required correction** Add one sentence in the abstract or methods specifying the level of coarse-graining and the key parameters (e.g., charge spacing, persistence length).  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interdisciplinary readership  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, "protamination modulation"  
+  - **Issue** The term "protamination" is not standard and may be unclear to readers outside the immediate field.  
+  - **Required correction** Define "protamination" at first use, for example as "the degree of protamine binding to DNA."  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract conclusion  
+  - **Evidence pointer** Abstract, final sentence  
+  - **Issue** The sentence on vaccines is long and combines two distinct ideas (viral infections and cancers) without specifying the mechanism of packaging and depackaging.  
+  - **Required correction** Split into two sentences and briefly state how protamine packaging and depackaging is used in vaccine delivery.
+
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central claims of reversible control and quantitative agreement with experiment are not supported by the abstract alone. The model details and comparison metrics must be provided in the full manuscript for the case to be evaluated.
+
+- **Assessment against Nature-style criteria**  
+  - **Originality** The idea that a minimal electrostatic and steric model can explain reversible DNA packaging is not entirely new, but the specific focus on protamine-to-DNA ratio as a control parameter and the link to phase separation is a fresh angle. The originality is moderate and depends on the full simulation results.  
+  - **Scientific importance** The potential relevance to spermatogenesis and vaccine delivery is high, but the abstract does not establish biological significance. The importance is currently speculative.  
+  - **Interdisciplinary readership** The topic bridges biophysics, reproductive biology, and nanomedicine, which could attract a broad audience. However, the abstract is written in a way that assumes familiarity with both simulation and spermatogenesis terminology.  
+  - **Technical soundness** Cannot be assessed from the abstract. The lack of methodological detail and quantitative validation is a major gap.  
+  - **Readability for nonspecialists** The abstract is dense and uses field-specific terms without definition. It would benefit from clearer framing of the problem and the significance of the findings.
+
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible hypothesis but lacks the quantitative and methodological detail required to assess the core claims. If the full manuscript provides rigorous simulation data, quantitative comparison with experiments, and a clear definition of reversibility, the work could become supportive. As presented, the case is not made.

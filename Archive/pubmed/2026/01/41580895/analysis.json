@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41580895",
+  "title": "Intrinsically disordered region facilitating lipoprotein transport: Trade time for force reduction.",
+  "authors": "Dong, Wenjing; Li, Xiangyuan; Zhang, Shan; Gao, Lianghui",
+  "journal": "Biophysical journal",
+  "published_date": "2026-01-25",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全原子/粗粒化MD与增强采样研究细菌脂蛋白N端IDR在跨膜转运中通过瞬时互作降低能量壁垒、促进蛋白从IM解离并锚定OM的机制，对象为IDR介导的蛋白-膜/蛋白互作，方法为物理模拟，虽非典型PPI但机制建模思路对IDR介导互作有直接启发。",
+  "abstract": "A significant number of lipoproteins destined to the outer membrane (OM) of Gram-negative bacteria possess an intrinsically disordered region (IDR) at their N-termini. Research has indicated that the deletion of the IDR markedly enhances the retention of OM lipoproteins in the inner membrane (IM). Nevertheless, the molecular mechanisms underlying the regulatory effects of the IDR remain poorly understood. This study takes full-length and IDR-truncated variants of peptidoglycan-associated lipoprotein (Pal) as example models to investigate the role of the IDR in lipoprotein transport at a molecular level by employing all-atom and coarse-grained molecular dynamics simulations in conjunction with enhanced sampling techniques. The findings demonstrate that the N-terminal IDR has a minimal impact on the conformation of the ordered C-terminal domain (CTD), yet it significantly influences the energetics associated with lipoprotein transport. Specifically, whether the CTD of Pal adopts an ordered native conformation or remains entirely disordered, the full-length Pal requires greater energy to approach the OM. Conversely, when the CTD partially folds into an intermediate state characterized by localized secondary structures, the transport of full-length Pal becomes less energetically demanding, aligning with experimental observation. Interaction contact analyses reveal that, in this latter scenario, the IDR transiently interacts with both the CTD and the membrane, exhibiting flexibility and lower resistance to conformational changes, thereby facilitating its detachment from the IM. In contrast, the IDR-truncated variant maintains a more stable interaction with the membrane, making it more challenging to detach directly from the IM. Once the N-terminus of the full-length Pal approaches the OM and anchors via its triacylated tails, the transient interactions between the IDR, CTD, and membrane can effectively drive the entire protein to adhere to the OM. This IDR-mediated transport process, while time-consuming, is energetically favorable.",
+  "abstract_zh": "大量定向至革兰氏阴性菌外膜（OM）的脂蛋白在其N端含有一个内在无序区域（IDR）。研究表明，删除IDR显著增强了OM脂蛋白在内膜（IM）中的滞留。然而，IDR调控效应的分子机制仍知之甚少。本研究以肽聚糖相关脂蛋白（Pal）的全长和IDR截短变体为模型，通过全原子和粗粒化分子动力学模拟结合增强采样技术，在分子水平上探究IDR在脂蛋白转运中的作用。结果表明，N端IDR对有序C端结构域（CTD）的构象影响极小，但显著影响与脂蛋白转运相关的能量学。具体而言，无论Pal的CTD采用有序天然构象还是完全无序，全长Pal接近OM所需能量更大。相反，当CTD部分折叠为具有局部二级结构的中间状态时，全长Pal的转运能量需求降低，这与实验观察一致。相互作用接触分析揭示，在后一种情况下，IDR与CTD及膜发生瞬时相互作用，表现出灵活性和较低的构象变化阻力，从而促进其从IM脱离。相比之下，IDR截短变体与膜保持更稳定的相互作用，使其更难直接从IM脱离。一旦全长Pal的N端接近OM并通过其三酰基尾部锚定，IDR、CTD和膜之间的瞬时相互作用可有效驱动整个蛋白附着于OM。这种IDR介导的转运过程虽耗时，但在能量上有利。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41580895/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41580895/",
+  "paper_page_path": "papers/pubmed/41580895/index.html"
+}

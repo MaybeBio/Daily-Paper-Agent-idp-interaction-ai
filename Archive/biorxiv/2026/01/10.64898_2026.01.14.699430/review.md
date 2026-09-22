@@ -1,0 +1,72 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors propose that the cytosolic domain of Tom22, previously considered a structured receptor, is largely disordered and contains a conserved short linear motif that transiently forms an α-helix. This helix binds to the canonical precursor-binding sites of Tom20 and Tom70, acting as a precursor protein displacement element (PPDE) that facilitates release of preproteins above the import pore and drives translocation across the outer mitochondrial membrane.
+- **Visible evidence base** Abstract text only; no experimental details, structural data, in vivo datasets, or statistical analyses were provided
+- **Missing materials affecting confidence** Full manuscript, methods, all figures and tables, structural coordinates, experimental protocols, statistical details, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially significant revision of the current model of mitochondrial protein import, specifically regarding the role of Tom22. The proposal that a disordered segment with a transient helical element acts as a displacement factor is mechanistically plausible and could have broader implications for other receptor systems. However, the abstract alone provides insufficient evidence to evaluate the robustness of the structural, biochemical, and in vivo claims. The central conclusions rest on data that are not visible in the provided material, and several claims are stated without quantitative or methodological support. The work is likely to interest the mitochondrial biology and protein translocation communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Mitochondrial biologists studying protein import and TOM complex function; cell biologists interested in organelle biogenesis; biochemists and structural biologists working on intrinsically disordered proteins and transient helical elements; researchers studying molecular chaperones and receptor-ligand displacement mechanisms, as the proposed PPDE concept may generalize to other systems that must balance binding affinity with release efficiency.
+- **Major strengths** The conceptual shift from a rigid scaffold model to a dynamic, disordered mechanism for Tom22 is intellectually compelling and could resolve longstanding questions about how precursor proteins are handed off from receptors to the pore. The identification of a conserved short linear motif with a transient helical structure provides a specific and testable molecular hypothesis. The proposed competitive displacement mechanism is elegant and potentially generalizable beyond mitochondria.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the cytosolic domain of Tom22 is "largely disordered" and that a conserved short linear motif forms a "transient α-helical element" within this domain.
+  - **Evidence pointer** "Atomic-level structural techniques" mentioned in abstract; specific methods and data not provided
+  - **Concern** The abstract states that atomic-level structural techniques were used, but no specific methods, sample conditions, or quantitative metrics (e.g., order parameters, helical population fractions, confidence intervals) are provided. The claim of "largely disordered" and "transient α-helical" requires rigorous biophysical evidence, such as NMR relaxation dispersion, circular dichroism, or molecular dynamics simulations with appropriate force fields and sampling.
+  - **Why it matters** The entire mechanistic model rests on the structural characterization of the Tom22 cytosolic domain. Without visible data demonstrating the degree of disorder and the transient nature of the helical element, the foundational claim cannot be assessed. Overinterpretation of disorder from limited techniques is a known risk in the field of intrinsically disordered proteins.
+  - **Resolution test** Provide the structural data, including experimental conditions, controls, and quantitative analysis showing the population and lifetime of the helical state, as well as evidence that the disorder is physiologically relevant rather than an artifact of isolated domain constructs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic validation
+  - **Claim pointer** The authors claim that the α-helical segment binds to the canonical precursor binding sites of Tom20 and Tom70 and acts as a precursor protein displacement element (PPDE), facilitating release of preproteins above the import pore.
+  - **Evidence pointer** "in vivo experiments" mentioned in abstract; specific assays, mutants, and phenotypes not provided
+  - **Concern** The competitive displacement mechanism is stated as established, but no binding affinities, competition assays, mutagenesis data, or in vivo functional readouts are shown. It is unclear whether the proposed PPDE interaction was tested directly (e.g., by crosslinking, pull-downs, or fluorescence assays) or only inferred from structural or computational data. The in vivo experiments are mentioned but not described in terms of strains, growth conditions, import assays, or phenotypic outcomes.
+  - **Why it matters** The displacement mechanism is the central functional claim of the paper. Without direct evidence that the Tom22 helix competes with precursor proteins for receptor binding and that this competition is required for import, the model remains speculative. The distinction between a genuine displacement mechanism and a simple tethering or local concentration effect is critical.
+  - **Resolution test** Show direct binding and competition data with purified components, including affinities and stoichiometries, and demonstrate in vivo that mutation of the PPDE motif impairs precursor transfer without affecting other Tom22 functions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance
+  - **Claim pointer** The authors claim that the PPDE-driven displacement "drives translocation across the outer mitochondrial membrane" and that flexibility "underlies the central transfer step."
+  - **Evidence pointer** "in vivo experiments" mentioned in abstract; translocation assays and quantitative import data not provided
+  - **Concern** The causal link between the proposed displacement mechanism and actual protein translocation across the membrane is asserted but not demonstrated in the visible material. No import kinetics, membrane potential dependence, or stepwise translocation data are presented. The claim that this is the "central transfer step" requires evidence that other proposed mechanisms (e.g., passive diffusion, channel gating) are insufficient.
+  - **Why it matters** The physiological significance of the proposed mechanism depends on demonstrating that the PPDE is rate-limiting or essential for import under relevant conditions. Without quantitative import assays and mutant comparisons, the claim of centrality is not supported.
+  - **Resolution test** Provide in organello or in vivo import assays comparing wild-type Tom22 with PPDE mutants, including kinetic measurements and substrate-specific effects, to establish the functional requirement for the displacement element.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and terminology
+  - **Affected element** Definition of PPDE
+  - **Evidence pointer** Abstract, first mention of "precursor protein displacement element (PPDE)"
+  - **Issue** The term PPDE is introduced without a clear operational definition. It is not specified whether this is a sequence motif, a structural element, or a functional state, and whether it is unique to Tom22 or shared across species beyond the stated conservation.
+  - **Required correction** Provide a precise definition of PPDE, including sequence boundaries, conservation criteria, and the functional assay used to define it.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Final claim about "versatile mechanism for ligand displacement in chaperone, receptor, and transport systems"
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The generalization to other systems is stated without comparative analysis or discussion of known displacement mechanisms in other proteins. This claim is speculative and not supported by data in the abstract.
+  - **Required Correction** Either temper the claim to a hypothesis or provide comparative examples and references in the full manuscript that support the proposed generality.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Experimental detail
+  - **Affected element** "Atomic-level structural techniques"
+  - **Evidence pointer** Abstract, methods description
+  - **Issue** The phrase is vague and does not specify which techniques were used (e.g., NMR, cryo-EM, X-ray crystallography, MD simulations). This limits the reader's ability to judge the resolution and reliability of the structural claims.
+  - **Required Correction** Specify the techniques used and, in the full manuscript, provide appropriate validation statistics and controls.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (structural evidence for disorder and transient helix), R1-M2 (direct evidence for competitive displacement), R1-M3 (functional demonstration that PPDE drives translocation)
+- **Assessment against Nature-style criteria** Originality: The proposed dynamic displacement mechanism is conceptually novel and challenges the static receptor model, which is a strength. Scientific importance: If substantiated, the findings would significantly advance understanding of mitochondrial protein import and could inform studies of other translocation systems. Interdisciplinary readership: The topic is of interest to cell biologists, biochemists, and structural biologists, but the abstract does not currently frame the work in a way that would attract a broader readership. Technical soundness: Cannot be assessed from the abstract alone; the structural and functional claims require rigorous validation that is not visible. Readability for nonspecialists: The abstract is reasonably clear but relies on domain-specific terminology (e.g., TOM, Tom22, PPDE) without sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the work could be suitable for a high-impact venue if the full data substantiate the claims. However, the abstract alone does not provide sufficient evidence to support the central mechanistic conclusions. A supportive recommendation would require access to the full manuscript and verification of the structural, biochemical, and in vivo data.
+
+## Risk / unsupported claims
+- The claim that Tom22 is "largely disordered" is unsupported without visible structural data.
+- The existence and functional role of a "transient α-helical element" is unsupported without kinetic or population data.
+- The competitive displacement mechanism (PPDE) is unsupported without direct binding or competition assays.
+- The claim that the PPDE "drives translocation" is unsupported without functional import data.
+- The generalization to "chaperone, receptor, and transport systems" is speculative and not supported by the abstract.
+- The statement that flexibility "underlies the central transfer step" is an overreach given the absence of comparative or quantitative evidence.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.04.692288",
+  "title": "Native Mass Spectrometry Analysis of Cullin RING Ubiquitin E3 Ligase Complexes in the Context of Targeted Protein Degradation",
+  "authors": "Sternicki LM; Crowe C; Wieske LHE; Ciulli A; Poulsen S",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-04",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 5,
+  "one_liner_zh": "用天然质谱表征CRL2VHL E3连接酶及其PROTAC介导的多蛋白复合物，涉及含IDR的柔性体系，但方法为实验质谱而非AI/物理模拟，互作机制建模深度有限。",
+  "abstract": "The binding of PROTACs to their partner ubiquitin E3 ligase (E3) and a protein of interest (POI) is critical for PROTAC development and validation. Characterisation of PROTAC complexes by cryo-electron microscopy and X-ray crystallography is not always feasible, especially where species may be transient and protein structures may not resolve due to flexible domains or intrinsically disordered regions. More routine biophysical methods with broader applicability to varied samples is desirable to support the rapidly expanding targeted protein degradation field. The majority of PROTACs in development and in the clinic act through a Cullin RING E3 Ligase (CRL) of which the pentameric von Hippel-Lindau (VHL) Cullin 2 RING E3 complex (CRL2 VHL ) is the foundational example. Native mass spectrometry (nMS) can be used to characterise protein complexes but has not previously been used to characterise a full E3 or any E3-E2 interactions. Here, we show that CRL2 VHL is amenable to characterisation by nMS and its interactions with the other protein components integral to the targeted protein degradation mechanism can be observed. Specifically, we characterise binary, ternary and higher order complexes that comprise CRL2 VHL , including the multiprotein systems of POI-PROTAC-CRL2 VHL , CRL2 VHL -E2-Ub, and POI-PROTAC-CRL2 VHL -E2-Ub, all of which are essential in facilitating productive POI ubiquitination and degradation. We benchmarked the nMS with two POI examples (BRD4 BD2 and KRAS) with their respective PROTACs (MZ1 and ACBI3) and were able to observe all relevant complexes across both systems. We anticipate that our findings will open avenues for nMS to integrate as an alternative experimental method enabling scalable characterisation of the intricate high mass multiprotein interactions central to the PROTAC mechanism of action.",
+  "abstract_zh": "PROTACs与其伴侣泛素E3连接酶（E3）及目标蛋白（POI）的结合对于PROTAC的开发与验证至关重要。通过冷冻电子显微镜和X射线晶体学对PROTAC复合物进行表征并非总是可行，尤其是在物种可能瞬时存在且蛋白质结构因柔性结构域或固有无序区域而无法解析的情况下。更常规且适用于多样本品的生物物理方法对于支持快速扩展的靶向蛋白降解领域是可取的。大多数在开发中及临床上的PROTACs通过Cullin RING E3连接酶（CRL）发挥作用，其中五聚体von Hippel-Lindau（VHL）Cullin 2 RING E3复合物（CRL2 VHL）是基础范例。天然质谱（nMS）可用于表征蛋白质复合物，但此前尚未用于表征完整的E3或任何E3-E2相互作用。在此，我们展示CRL2 VHL适用于nMS表征，并且其与靶向蛋白降解机制中不可或缺的其他蛋白质组分的相互作用可以被观察到。具体而言，我们表征了包含CRL2 VHL的二元、三元及高阶复合物，包括POI-PROTAC-CRL2 VHL、CRL2 VHL-E2-Ub和POI-PROTAC-CRL2 VHL-E2-Ub的多蛋白系统，所有这些系统对于促进有效的POI泛素化和降解至关重要。我们以两个POI示例（BRD4 BD2和KRAS）及其相应的PROTACs（MZ1和ACBI3）对nMS进行了基准测试，并能够在两个系统中观察到所有相关复合物。我们预期我们的发现将为nMS作为替代实验方法整合开辟途径，从而实现对PROTAC作用机制核心的复杂高质量多蛋白相互作用进行可扩展表征。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.04.692288",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.04.692288",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.04.692288/index.html"
+}

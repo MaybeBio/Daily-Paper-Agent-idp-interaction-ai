@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "40420812",
+    "doi": "10.1021/acs.jctc.5c00147",
+    "title": "IPAMD: A Plugin-Based Software for Biomolecular Condensate Simulations."
+  },
+  "content": {
+    "abstract": "The study of intrinsically disordered proteins (IDPs) and their role in biomolecular condensate formation has become a critical area of research, offering insights into fundamental biological processes and therapeutic development. Here, we present IPAMD (Intrinsically disordered Protein Aggregation Molecular Dynamics), a plugin-based software designed to simulate the formation dynamics of biomolecular condensates of IDPs. IPAMD provides a modular, efficient, and customizable simulation platform specifically designed for biomolecular condensate studies. It incorporates advanced force fields, such as HPS-based and Mpipi models, and employs optimization techniques for large-scale simulations. The software features a user-friendly interface and supports batch processing, making it accessible to researchers with varying computational expertise. Benchmarking and case studies demonstrate the ability of IPAMD to accurately simulate and analyze condensate structures and properties.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Software",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Biomolecular Condensates/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liu, Xiao-Yang",
+        "Zhu, You-Liang",
+        "Jiang, Yu-Ze",
+        "Shi, Shao-Kang",
+        "Zhao, Li",
+        "Lu, Zhong-Yuan"
+      ],
+      "short_names": [
+        "Liu XY",
+        "Zhu YL",
+        "Jiang YZ",
+        "Shi SK",
+        "Zhao L",
+        "Lu ZY"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9561-0770",
+        "ORCID: 0000-0001-7884-0091"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China.",
+        "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China.",
+        "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China.",
+        "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China.",
+        "School of Life Science, Jilin University, Changchun 130012, China.",
+        "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liu, Xiao-Yang",
+        "short_name": "Liu XY",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Zhu, You-Liang",
+        "short_name": "Zhu YL",
+        "identifiers": [
+          "0000-0002-9561-0770"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Yu-Ze",
+        "short_name": "Jiang YZ",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Shi, Shao-Kang",
+        "short_name": "Shi SK",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Li",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Jilin University, Changchun 130012, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Zhong-Yuan",
+        "short_name": "Lu ZY",
+        "identifiers": [
+          "0000-0001-7884-0091"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun 130012, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2025 Jun 10",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/27 06:27",
+    "fetched_at": "2026-09-21 19:21:24"
+  },
+  "links": {
+    "cites": [
+      "42376920"
+    ],
+    "refs": [],
+    "similar": [
+      "40420812",
+      "41481439",
+      "40172489",
+      "38383656",
+      "39804953",
+      "39486437",
+      "40521608",
+      "38832749",
+      "35179885",
+      "34716273",
+      "39947751",
+      "39987501",
+      "37468629",
+      "38824391",
+      "40325419",
+      "39271032",
+      "34090478",
+      "39826710",
+      "40009520",
+      "40136009",
+      "40748104",
+      "32696368",
+      "41166416",
+      "34598583",
+      "29080468",
+      "37470705",
+      "39510346",
+      "37695778",
+      "38348795",
+      "40848932",
+      "39390911",
+      "40128232",
+      "39042834",
+      "34916288",
+      "39232584",
+      "39663388",
+      "41337585",
+      "28095698",
+      "37134270",
+      "34390736",
+      "41325268",
+      "39356108",
+      "39929988",
+      "33355572",
+      "39537752",
+      "32859072",
+      "40970906",
+      "39725032",
+      "40455990",
+      "40028898",
+      "41342450",
+      "40229261",
+      "36524527",
+      "40082181",
+      "38275091",
+      "29808548",
+      "36350032",
+      "40791470",
+      "25814479",
+      "40690668",
+      "40588121",
+      "37735186",
+      "37020020",
+      "36163138",
+      "30840442",
+      "40094245",
+      "34032235",
+      "32227937",
+      "37452752",
+      "31552948",
+      "40954121",
+      "34865286",
+      "34588591",
+      "34680048",
+      "40441156",
+      "40907012",
+      "32456986",
+      "36883003",
+      "36004748",
+      "39225535",
+      "33459730",
+      "23912807",
+      "34890409",
+      "39908323",
+      "40985078",
+      "36463772",
+      "33623120",
+      "40069234",
+      "40172236",
+      "24589355",
+      "27727496",
+      "31657215",
+      "33411518",
+      "32020911",
+      "35174713",
+      "37791635",
+      "40195042",
+      "28226222",
+      "33945530",
+      "41279444"
+    ],
+    "review": [
+      "40420812",
+      "40172489",
+      "35179885",
+      "39947751",
+      "40325419",
+      "39271032",
+      "29080468",
+      "38348795",
+      "34390736",
+      "33355572",
+      "36524527",
+      "36350032",
+      "25814479",
+      "30840442",
+      "34865286",
+      "34680048",
+      "32456986",
+      "36463772",
+      "32020911",
+      "40195042",
+      "28226222"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.5c00147",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

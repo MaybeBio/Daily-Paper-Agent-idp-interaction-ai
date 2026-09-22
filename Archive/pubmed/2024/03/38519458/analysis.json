@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38519458",
+  "title": "Predicting nuclear G-quadruplex RNA-binding proteins with roles in transcription and phase separation.",
+  "authors": "Luige, Johanna; Armaos, Alexandros; Tartaglia, Gian Gaetano; Orom, Ulf Andersson Vang",
+  "journal": "Nature communications",
+  "published_date": "2024-03-23",
+  "window": {
+    "start": "2024-03-18",
+    "end": "2024-03-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文结合计算预测与实验，开发工具预测核RNA G-四链体结合蛋白，发现其富含无序性并关联转录与相分离，虽涉及IDP和相分离但非直接研究PPI机制建模，方法以预测工具为主。",
+  "abstract": "RNA-binding proteins are central for many biological processes and their characterization has demonstrated a broad range of functions as well as a wide spectrum of target structures. RNA G-quadruplexes are important regulatory elements occurring in both coding and non-coding transcripts, yet our knowledge of their structure-based interactions is at present limited. Here, using theoretical predictions and experimental approaches, we show that many chromatin-binding proteins bind to RNA G-quadruplexes, and we classify them based on their RNA G-quadruplex-binding potential. Combining experimental identification of nuclear RNA G-quadruplex-binding proteins with computational approaches, we build a prediction tool that assigns probability score for a nuclear protein to bind RNA G-quadruplexes. We show that predicted G-quadruplex RNA-binding proteins exhibit a high degree of protein disorder and hydrophilicity and suggest involvement in both transcription and phase-separation into membrane-less organelles. Finally, we present the G4-Folded/UNfolded Nuclear Interaction Explorer System (G4-FUNNIES) for estimating RNA G4-binding propensities at http://service.tartaglialab.com/new_submission/G4FUNNIES .",
+  "abstract_zh": "RNA结合蛋白在许多生物过程中至关重要，对其表征已显示出广泛的功能范围以及多样的靶标结构。RNA G-四链体（RNA G-quadruplexes）是重要的调控元件，存在于编码和非编码转录本中，然而我们目前对其基于结构的相互作用了解有限。在此，通过理论预测和实验方法，我们展示了多种染色质结合蛋白与RNA G-四链体结合，并根据其RNA G-四链体结合潜力对其进行分类。结合核RNA G-四链体结合蛋白的实验鉴定与计算方法，我们构建了一个预测工具，为核蛋白结合RNA G-四链体分配概率评分。我们表明，预测的G-四链体RNA结合蛋白表现出高度的蛋白质无序性和亲水性，并提示其参与转录及相分离（phase separation）形成无膜细胞器。最后，我们提供了G4-Folded/UNfolded Nuclear Interaction Explorer System (G4-FUNNIES) 系统，用于估算RNA G4结合倾向性，访问地址为 http://service.tartaglialab.com/new_submission/G4FUNNIES 。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38519458/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38519458/",
+  "paper_page_path": "papers/pubmed/38519458/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.22.563461",
+  "title": "Design of intrinsically disordered protein variants with diverse structural properties",
+  "authors": "Francesco Pesce; Anne Bremer; Giulio Tesei; Jesse B. Hopkins; Christy R. Grace; Tanja Mittag; Kresten Lindorff-Larsen",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-24",
+  "window": {
+    "start": "2023-10-23",
+    "end": "2023-10-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用基于物理的模型设计具有特定构象性质（如压实度和相分离倾向）的无序蛋白变体，虽未直接研究PPI机制，但聚焦IDP构象与相分离设计，方法可迁移至IDP介导互作的建模。",
+  "abstract": "Intrinsically disordered proteins (IDPs) perform a wide range of functions in biology, suggesting that the ability to design IDPs could help expand the repertoire of proteins with novel functions. Designing IDPs with specific structural or functional properties has, however, been diffcult, in part because determining accurate conformational ensembles of IDPs generally requires a combination of computational modelling and experiments. Motivated by recent advancements in effcient physics-based models for simulations of IDPs, we have developed a general algorithm for designing IDPs with specific structural properties. We demonstrate the power of the algorithm by generating variants of naturally occurring IDPs with different levels of compaction and that vary more than 100 fold in their propensity to undergo phase separation, even while keeping a fixed amino acid composition. We experimentally tested designs of variants of the low-complexity domain of hnRNPA1 and find high accuracy in our computational predictions, both in terms of single-chain compaction and propensity to undergo phase separation. We analyze the sequence features that determine changes in compaction and propensity to phase separate and find an overall good agreement with previous findings for naturally occurring sequences. Our general, physics-based method enables the design of disordered sequences with specified conformational properties. Our algorithm thus expands the toolbox for protein design to include also the most flexible proteins and will enable the design of proteins whose functions exploit the many properties afforded by protein disorder.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在生物学中执行多种功能，这表明设计IDPs的能力可能有助于扩展具有新功能的蛋白质库。然而，设计具有特定结构或功能特性的IDPs一直较为困难，部分原因在于确定IDPs的准确构象集合通常需要结合计算建模和实验。受近期用于IDPs模拟的高效基于物理模型进展的启发，我们开发了一种通用算法，用于设计具有特定结构特性的IDPs。我们通过生成天然IDPs的变体来展示该算法的能力，这些变体具有不同的压缩程度，并且其发生相分离的倾向性变化超过100倍，即使保持固定的氨基酸组成。我们实验测试了hnRNPA1低复杂度结构域变体的设计，发现我们的计算预测在单链压缩和相分离倾向性方面均具有高准确性。我们分析了决定压缩程度和相分离倾向性变化的序列特征，并发现与先前对天然序列的研究结果总体一致。我们基于物理的通用方法能够设计具有指定构象特性的无序序列。因此，我们的算法扩展了蛋白质设计的工具箱，使其也包括最灵活的蛋白质，并将促进设计其功能利用蛋白质无序性所提供多种特性的蛋白质。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.22.563461",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.22.563461",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.22.563461/index.html"
+}

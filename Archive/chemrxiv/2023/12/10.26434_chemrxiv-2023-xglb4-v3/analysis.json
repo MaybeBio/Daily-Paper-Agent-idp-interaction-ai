@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2023-xglb4-v3",
+  "title": "Understanding β-strand mediated protein-protein interactions using peptidomimetics: tuning binding affinity of intrinsically disordered sequences by covalent backbone modification",
+  "authors": "Emma Cawood; Emily Baker; Thomas Edwards; Derek Woolfson; Theodoros Karamanos; Wilson Andrew",
+  "journal": "ChemRxiv",
+  "published_date": "2023-12-03",
+  "window": {
+    "start": "2023-11-27",
+    "end": "2023-12-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过肽骨架N-甲基化修饰调控无序SIM肽与SUMO的β-strand介导PPI结合亲和力，结合实验与计算分析揭示未结合态能量升高和熵贡献降低的机制，虽对象为IDR且涉及PPI机制，但方法以实验为主、计算为辅，AI/物理模拟深度有限。",
+  "abstract": "A significant challenge in chemical biology is to understand and modulate protein-protein interactions (PPIs). Given that many PPIs involve a folded protein domain and a peptide sequence that is intrinsically disordered in isolation, peptides represent powerful tools to understand PPIs and templates for PPI modulator development. Using the interaction between small ubiquitin-like modifiers (SUMO) and SUMO-interacting motifs (SIMs), here we show that N-methylation of the peptide backbone can effectively restrict accessible peptide conformations, predisposing them for protein recognition. Backbone N-methylation in appropriate locations results in faster target binding, and thus higher affinity, as shown by fluorescence anisotropy, relaxation-based NMR experiments, and computational analysis. We show that such higher affinities occur as a consequence of an increase in the energy of the unbound state, and a reduction in the entropic contribution to the binding and activation energies. Thus, backbone N-Methylation may represent a useful modification within the peptidomimetic toolbox to probe β-strand mediated coupled binding and folding interactions.",
+  "abstract_zh": "化学生物学中的一个重大挑战是理解并调节蛋白质-蛋白质相互作用（PPIs）。鉴于许多PPIs涉及一个折叠的蛋白质结构域和一个在孤立状态下 intrinsically disordered 的肽序列，肽类成为理解PPIs的有力工具，也是PPI调节剂开发的模板。利用小泛素样修饰物（SUMO）与SUMO相互作用基序（SIMs）之间的相互作用，我们在此展示，肽骨架的N-甲基化能有效限制可及的肽构象，使其倾向于蛋白质识别。在适当位置进行骨架N-甲基化可导致更快的靶标结合，从而获得更高的亲和力，这一点通过荧光各向异性、基于弛豫的NMR实验和计算分析得到证实。我们表明，这种更高的亲和力源于未结合态能量的增加，以及结合和活化能中熵贡献的减少。因此，骨架N-甲基化可能在拟肽工具箱中代表一种有用的修饰，用于探测β-折叠介导的偶联结合与折叠相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2023-xglb4-v3",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2023-xglb4-v3",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2023-xglb4-v3/index.html"
+}

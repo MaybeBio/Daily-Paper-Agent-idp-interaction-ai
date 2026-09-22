@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41053403",
+  "title": "Generalized design of sequence-ensemble-function relationships for intrinsically disordered proteins.",
+  "authors": "Krueger, Ryan K; Brenner, Michael P; Shrinivas, Krishna",
+  "journal": "Nature computational science",
+  "published_date": "2025-10-07",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出通过分子模拟反演来从头设计无序蛋白序列-构象ensemble-功能关系的通用计算框架，并设计了针对无序底物的结合物，直接涉及IDP对象、PPI结合机制与物理模拟方法，与本课题高度相关。",
+  "abstract": "The design of folded proteins has advanced substantially in recent years. However, many proteins and protein regions are intrinsically disordered and lack a stable fold, that is, the sequence of an intrinsically disordered protein (IDP) encodes a vast ensemble of spatial conformations that specify its biological function. This conformational plasticity and heterogeneity makes IDP design challenging. Here we introduce a computational framework for de novo design of IDPs through rational and efficient inversion of molecular simulations that approximate the underlying sequence-ensemble relationship. We highlight the versatility of this approach by designing IDPs with diverse properties and arbitrary sequence constraints. These include IDPs with target ensemble dimensions, loops and linkers, highly sensitive sensors of physicochemical stimuli, and binders to target disordered substrates with distinct conformational biases. Overall, our method provides a general framework for designing sequence-ensemble-function relationships of biological macromolecules.",
+  "abstract_zh": "近年来，折叠蛋白的设计取得了显著进展。然而，许多蛋白质及蛋白质区域本质上是无序的，缺乏稳定的折叠结构，即内在无序蛋白（IDP）的序列编码了决定其生物功能的大量空间构象集合。这种构象可塑性和异质性使得IDP的设计颇具挑战。在此，我们引入了一个计算框架，通过合理且高效地反转近似于序列-集合关系的分子模拟，实现IDP的从头设计。我们通过设计具有多样特性和任意序列约束的IDP，展示了该方法的广泛适用性。这些包括具有目标集合尺寸的IDP、环和连接子、对理化刺激高度敏感的传感器，以及结合具有不同构象偏好的目标无序底物的结合剂。总体而言，我们的方法为设计生物大分子的序列-集合-功能关系提供了一个通用框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41053403/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41053403/",
+  "paper_page_path": "papers/pubmed/41053403/index.html"
+}

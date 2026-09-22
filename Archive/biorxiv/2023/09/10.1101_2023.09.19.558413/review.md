@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific and technical evaluation of the claims, methods, and evidence as presented in the provided text; no external data or code verification performed
+- **Shared manuscript claim summary** The authors present SENSE-PPI, a sequence-based deep learning model combining the ESM2 protein language model with gated recurrent units, which reconstructs protein-protein interaction networks across various complexities, including within-species, cross-species, and human-virus interactions, and claims state-of-the-art performance over existing methods
+- **Visible evidence base** Tables 1, 2, SI 1-4; Figures 1-3; methodological descriptions in Section 4
+- **Missing materials affecting confidence** Full figures and supplementary tables not provided; training/validation split details for several datasets not fully specified; hyperparameter tuning details incomplete; statistical significance testing not reported; code not independently verified
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in computational biology, namely the ab initio reconstruction of protein-protein interaction networks from sequence data alone. The proposed architecture is sensible and leverages recent advances in protein language models. The authors evaluate their method across a broad range of datasets and complexities, which is commendable. However, several technical concerns regarding evaluation methodology, comparison fairness, and statistical rigor need to be addressed before the central claims can be fully established. The claim of state-of-the-art performance requires more careful benchmarking, particularly regarding the fairness of training data comparisons and the handling of potential data leakage.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein interaction prediction, researchers studying interactomes of non-model organisms, and virologists interested in host-pathogen interactions would find this work relevant. The demonstration of cross-species generalization and the practical speed advantages could make this a useful tool for genome-wide screening applications.
+- **Major strengths** The breadth of evaluation across multiple species and interaction types is a clear strength. The construction of a new human dataset with a stringent neighboring-exclusion condition for negative sampling is a thoughtful contribution. The analysis of performance as a function of sequence identity to training data provides useful insights into model generalization. The practical speed advantages are well documented and relevant for real-world applications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of evaluation methodology
+  - **Claim pointer** The authors claim SENSE-PPI outperforms all existing methods on cross-species tests
+  - **Evidence pointer** Table 1, Section 2.2
+  - **Concern** The comparison with D-SCRIPT and Topsy-Turvy on cross-species tests may not be entirely fair. The authors state that all models were trained on the D-SCRIPT human dataset, but it is unclear whether the same training/validation splits were used for all models. Additionally, the D-SCRIPT model was originally trained with a specific protocol that may not transfer directly to the authors' training setup. The authors should clarify whether the comparison models were retrained by the authors or used as pretrained models, and whether any hyperparameter optimization was performed for the comparison models.
+  - **Why it matters** Unfair comparisons undermine the claim of state-of-the-art performance. If comparison models were not given the same opportunity for hyperparameter tuning, the performance gap may reflect suboptimal baselines rather than genuine architectural advantages.
+  - **Resolution test** The authors should provide details on the training protocol for all comparison models, including whether the same data splits, early stopping criteria, and hyperparameter search budgets were used. Ideally, they should report results with multiple random seeds and confidence intervals.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of dataset construction
+  - **Claim pointer** The authors claim the SENSE-PPI human dataset, constructed with a neighboring-exclusion condition, leads to better performance
+  - **Evidence pointer** Section 2.2, Table 2
+  - **Concern** The neighboring-exclusion condition for negative sampling is described, but the precise algorithm is only partially specified in the main text. The authors state that a second round of clustering is performed and that negative pairs are excluded if they share clusters with known interactors, but the exact thresholds and procedures are not fully detailed. More critically, the evaluation of this dataset is performed on D-SCRIPT test sets, which may not be appropriate for assessing the benefits of the new dataset construction. The authors should evaluate the SENSE-PPI dataset on held-out test sets constructed with the same protocol to avoid circular evaluation.
+  - **Why it matters** If the evaluation protocol does not match the dataset construction protocol, the reported performance improvements may be an artifact of the evaluation setup rather than a genuine property of the dataset.
+  - **Resolution test** The authors should construct held-out test sets using the same neighboring-exclusion protocol and report performance on those, in addition to the D-SCRIPT test sets. They should also provide a complete algorithmic description of the dataset construction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of network reconstruction evaluation
+  - **Claim pointer** The authors claim SENSE-PPI can reconstruct complete specialized subnetworks for model and non-model organisms
+  - **Evidence pointer** Section 2.5, Figures 2 and 3
+  - **Concern** The network reconstruction evaluation is qualitative and based on visual inspection of heatmaps. No quantitative metrics are provided to assess the quality of the reconstructed networks, such as precision-recall curves at the network level, comparison with known network properties, or enrichment analysis of predicted interactions. The selection of seed proteins and the criteria for choosing the four partners for each seed are not described.
+  - **Why it matters** Without quantitative evaluation, the claim of successful network reconstruction cannot be properly assessed. Visual inspection is subjective and may not generalize to larger or more complex networks.
+  - **Resolution test** The authors should provide quantitative metrics for network reconstruction, such as area under the precision-recall curve for the predicted subnetworks, comparison with random subnetworks, or enrichment of known functional annotations among predicted interactions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness of IDP evaluation
+  - **Claim pointer** The authors claim SENSE-PPI can predict interactions involving intrinsically disordered proteins with accuracy comparable to a dedicated model
+  - **Evidence pointer** Section 2.3, Table SI 2
+  - **Concern** The comparison with IDPpi is described as showing "the same performances" but no statistical analysis is provided. The IDPpi model was trained on a dataset that included the test IDPs, while SENSE-PPI was trained on a dataset with no IDP information. This is a meaningful difference, but the authors do not discuss the potential implications of this training discrepancy for the interpretation of the results. The sample sizes for the IDP test sets are not reported.
+  - **Why it matters** Without statistical testing and clear reporting of sample sizes, the claim of comparable performance cannot be rigorously evaluated. The training discrepancy could either inflate or deflate the apparent performance of SENSE-PPI.
+  - **Resolution test** The authors should report the number of test pairs in each IDP subset, provide confidence intervals or statistical tests for the performance comparison, and discuss the implications of the training data differences.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and reproducibility
+  - **Affected element** Section 4.1, dataset descriptions
+  - **Evidence pointer** Section 4.1
+  - **Issue** The description of the Guo dataset states that negative samples were generated by random pairing followed by filtering based on subcellular localization, but the exact filtering criteria are not specified. The description of the human-virus dataset construction is also incomplete, particularly regarding the negative sampling protocol.
+  - **Required correction** Provide complete details on the negative sampling procedures for all datasets, including any filtering criteria and the exact algorithm used.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** All performance comparisons
+  - **Evidence pointer** Tables 1, 2, SI 1-4
+  - **Issue** No confidence intervals or statistical significance tests are reported for any of the performance comparisons. Given the relatively small test sets for some species, this is a notable omission.
+  - **Required correction** Report confidence intervals or perform statistical tests (e.g., bootstrap or McNemar's test) for the key performance comparisons.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity of claims
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Section 3
+  - **Issue** The claim that SENSE-PPI can "reconstruct genome-wide proteomes" is stated in the abstract but the evaluation only covers subnetworks of a few dozen proteins. The Discussion also states that results were "not conceivable a few years ago" without specific comparison points.
+  - **Required correction** Soften the genome-wide claim to reflect the scale of actual evaluation, and provide specific comparative context for the performance claims.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 4.2, architecture description
+  - **Evidence pointer** Section 4.2
+  - **Issue** The description of the GRU layer states that "the final layer produces a vector of shape 256" but it is unclear whether this refers to the concatenation of forward and backward hidden states or a single direction. The Hadamard product combination is described but the rationale for this choice over other combination methods is not discussed.
+  - **Required correction** Clarify the GRU output dimensionality and provide a brief justification for the Hadamard product combination.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section 4.4, implementation details
+  - **Evidence pointer** Section 4.4
+  - **Issue** The authors state that the ESM2 module is not retrained, but the exact version of ESM2 (e.g., esm2_t36_3B_UR50D) is not specified. The learning rate schedule and number of training epochs are not reported.
+  - **Required correction** Specify the exact ESM2 model version and provide complete training hyperparameters.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (comparison fairness), R1-M2 (dataset evaluation circularity), R1-M3 (lack of quantitative network evaluation)
+- **Assessment against Nature-style criteria** Originality: The combination of ESM2 with GRU in a Siamese architecture for PPI prediction is a reasonable incremental contribution, though the individual components are well established. The neighboring-exclusion condition for negative sampling is a useful methodological contribution. Scientific importance: The problem of PPI prediction for non-model organisms is important and timely. Interdisciplinary readership: The work bridges machine learning and molecular biology, and the cross-species generalization results would interest a broad readership. Technical soundness: The evaluation methodology has several weaknesses as detailed above, particularly regarding comparison fairness and lack of statistical rigor. Readability for nonspecialists: The manuscript is generally well written and accessible, though some methodological details could be clearer.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is sound and the breadth of evaluation is commendable, but the claims of state-of-the-art performance and successful network reconstruction require more rigorous and fair evaluation before they can be fully established.
+
+## Risk / unsupported claims
+- The claim that SENSE-PPI can reconstruct "genome-wide proteomes" is not supported by the evaluation, which covers subnetworks of a few dozen proteins
+- The claim of outperforming "all existing methods" is not fully supported given the potential unfairness in comparison protocols
+- The claim of comparable performance to IDPpi on IDP interactions lacks statistical support
+- The claim that the SENSE-PPI human dataset leads to better performance is not rigorously established due to potential circularity in evaluation
+- The statement that ESM2 with 3B parameters "highly improves" predictions compared to the smaller version is based on a single comparison without statistical testing

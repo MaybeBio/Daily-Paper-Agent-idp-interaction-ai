@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36112647",
+  "title": "ALS mutations in the TIA-1 prion-like domain trigger highly condensed pathogenic structures.",
+  "authors": "Sekiyama, Naotaka; Takaba, Kiyofumi; Maki-Yonekura, Saori; Akagi, Ken-Ichi; Ohtani, Yasuko; Imamura, Kayo; Terakawa, Tsuyoshi; Yamashita, Keitaro; Inaoka, Daigo; Yonekura, Koji; Kodama, Takashi S; Tochio, Hidehito",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2022-09-17",
+  "window": {
+    "start": "2022-09-12",
+    "end": "2022-09-18"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究结合NMR、MD模拟与三维电子晶体学，揭示ALS突变通过增强TIA-1朊病毒样结构域的β-折叠自组装与高度凝聚结构，促进相分离后不可逆淀粉样纤维化，直接聚焦IDR介导的PPI机制建模。",
+  "abstract": "T cell intracellular antigen-1 (TIA-1) plays a central role in stress granule (SG) formation by self-assembly via the prion-like domain (PLD). In the TIA-1 PLD, amino acid mutations associated with neurodegenerative diseases, such as amyotrophic lateral sclerosis (ALS) or Welander distal myopathy (WDM), have been identified. However, how these mutations affect PLD self-assembly properties has remained elusive. In this study, we uncovered the implicit pathogenic structures caused by the mutations. NMR analysis indicated that the dynamic structures of the PLD are synergistically determined by the physicochemical properties of amino acids in units of five residues. Molecular dynamics simulations and three-dimensional electron crystallography, together with biochemical assays, revealed that the WDM mutation E384K attenuated the sticky properties, whereas the ALS mutations P362L and A381T enhanced the self-assembly by inducing beta-sheet interactions and highly condensed assembly, respectively. These results suggest that the P362L and A381T mutations increase the likelihood of irreversible amyloid fibrillization after phase-separated droplet formation, and this process may lead to pathogenicity.",
+  "abstract_zh": "T细胞胞内抗原-1（TIA-1）通过朊病毒样结构域（PLD）的自组装在应激颗粒（SG）形成中发挥核心作用。在TIA-1 PLD中，已鉴定出与神经退行性疾病相关的氨基酸突变，如肌萎缩侧索硬化症（ALS）或韦兰德远端肌病（WDM）。然而，这些突变如何影响PLD的自组装特性仍不清楚。在本研究中，我们揭示了由这些突变引起的隐性致病结构。核磁共振分析表明，PLD的动态结构由五个残基为单位的氨基酸理化性质协同决定。分子动力学模拟和三维电子晶体学，结合生化实验，揭示WDM突变E384K减弱了粘性特性，而ALS突变P362L和A381T分别通过诱导β-折叠相互作用和高度凝聚组装增强了自组装。这些结果表明，P362L和A381T突变增加了相分离液滴形成后不可逆淀粉样纤维化的可能性，这一过程可能导致致病性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36112647/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36112647/",
+  "paper_page_path": "papers/pubmed/36112647/index.html"
+}

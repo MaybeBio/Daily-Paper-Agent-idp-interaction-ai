@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.12.14.472560",
+  "title": "Structural dissection of the first events following membrane binding of the islet amyloid polypeptide",
+  "authors": "Khemtemourian L; Fatafta H; Davion B; Lecomte S; Castano S; Strodel B",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-14",
+  "window": {
+    "start": "2021-12-13",
+    "end": "2021-12-19"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合MD模拟与实验，解析胰岛淀粉样多肽（IAPP，一种IDP）结合膜后的早期结构事件，聚焦膜诱导的α-螺旋中间态及残基18电荷对聚集路径的影响，虽非直接PPI建模，但为IDP-膜互作机制提供了可迁移的物理模拟思路。",
+  "abstract": "<h4>ABSTRACT</h4> Amyloid forming proteins are involved in many pathologies and often belong to the class of intrinsically disordered proteins. One of these proteins is the islet amyloid polypeptide (IAPP), which is the main constituent of the amyloid fibrils found in the pancreas of type 2 diabetes patients. The molecular mechanism of IAPP-induced cell death is not yet understood, however it is known that cell membrane plays a dual role, being a catalyst of IAPP aggregation and the target of IAPP toxicity. Using FTIR spectroscopy, transmission electron microscopy, and molecular dynamics simulations we investigate the very first molecular steps following IAPP binding to a lipid membrane. In particular, we assess the combined effects of the charge state of amino-acid residue 18 and the IAPP-membrane interactions on the structures of monomeric and aggregated IAPP. Both our experiments and simulations reveal distinct IAPP-membrane interaction modes for the various IAPP variants. Membrane binding causes IAPP to fold into an amphipathic helix, which in the case of H18K- and H18R-IAPP can easily insert into the membrane. For all IAPP variants but H18E-IAPP, the membrane-bound α -helical structure is an intermediate on the way to IAPP amyloid aggregation, while H18E-IAPP remains in a stable helical conformation. The fibrillar aggregates of wild-type IAPP and H18K-IAPP are dominated by an antiparallel β -sheet conformation, while H18R- and H18A-IAPP exhibit both antiparallel and parallel β -sheets as well as amorphous aggregates. In summary, our results emphasize the importance of residue 18 for the structure and membrane interaction of IAPP. This residue is thus a good target for destabilizing amyloid fibrils of IAPP and inhibit its toxic actions by possible therapeutic molecules.",
+  "abstract_zh": "<h4>摘要</h4> 淀粉样蛋白形成蛋白涉及多种病理过程，且通常属于 intrinsically disordered proteins（内在无序蛋白）类别。其中一种蛋白是胰岛淀粉样多肽（islet amyloid polypeptide, IAPP），它是2型糖尿病患者胰腺中发现的淀粉样纤维的主要成分。IAPP诱导细胞死亡的分子机制尚未完全明了，但已知细胞膜扮演双重角色，既是IAPP聚集的催化剂，又是IAPP毒性的靶标。利用傅里叶变换红外光谱（FTIR spectroscopy）、透射电子显微镜（transmission electron microscopy）和分子动力学模拟（molecular dynamics simulations），我们研究了IAPP结合到脂质膜后最初的分子步骤。特别地，我们评估了氨基酸残基18的电荷状态和IAPP-膜相互作用的联合效应，对单体和聚集态IAPP结构的影响。我们的实验和模拟均揭示了不同IAPP变体与膜相互作用的独特模式。膜结合导致IAPP折叠成两亲性螺旋，在H18K-和H18R-IAPP的情况下，这种螺旋能轻易插入膜中。对于除H18E-IAPP外的所有IAPP变体，膜结合的α-螺旋结构是IAPP淀粉样聚集过程中的中间体，而H18E-IAPP则保持稳定的螺旋构象。野生型IAPP和H18K-IAPP的纤维状聚集体主要由反平行β-折叠构象主导，而H18R-和H18A-IAPP则表现出反平行和平行β-折叠以及无定形聚集体。总之，我们的结果强调了残基18对IAPP结构和膜相互作用的重要性。因此，该残基是 destabilizing（去稳定化）IAPP淀粉样纤维并通过可能的治疗分子抑制其毒性作用的良好靶点。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.12.14.472560",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.12.14.472560",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.12.14.472560/index.html"
+}

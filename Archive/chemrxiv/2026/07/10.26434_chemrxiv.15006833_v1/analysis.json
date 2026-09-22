@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv.15006833/v1",
+  "title": "Force-Field Dependence in Molecular Dynamics Simulations of the Intrinsically Disordered N-Terminal Region of the Human Prion Protein",
+  "authors": "Brenton S. Laviolette; Estefania Alvarado-Torres; Gururaj Kudur Jayaprakash; Jorge Nochebuena",
+  "journal": "ChemRxiv",
+  "published_date": "2026-07-30",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用AMBER99SB-ILDN与CHARMM36m力场对含无序N端的人朊蛋白进行全原子MD模拟，比较力场对无序蛋白构象及结构域间互作ensemble的影响，虽聚焦IDP与PPI机制建模，但方法为传统MD而非AI，且未深入结合预测，故评7分。",
+  "abstract": "The human cellular prion protein (PrP C ) exhibits a characteristic structural organization, comprising a stable C-terminal domain (CTD) and an intrinsically disordered, highly flexible N-terminal domain (NTD). This structural heterogeneity poses a significant challenge for atomistic molecular modeling, given that the predicted conformational ensemble can be strongly influenced by the choice of force field. Here, we compare all-atom molecular dynamics (MD) simulations of full-length human PrP C (23–230) performed with the AMBER99SB-ILDN and CHARMM36m force fields against available experimental data, and examine whether agreement with commonly used validation observables is accompanied by convergence of the interdomain interaction ensemble. Both force fields reproduce the experimental backbone chemical shifts of human PrP C (BMRB entry 4402) within the reported accuracy of the chemical-shift predictor and describe the N-terminal domain as predominantly random-coil-like, although CHARMM36m shows closer agreement with experiment. Nevertheless, both force fields generate conformational ensembles that are substantially more compact than the experimental SAXS radius of gyration, consistent with the well-documented tendency of the TIP3P water model to over-compact intrinsically disordered proteins. Despite the overall agreement with experimental information, independent replicas generated with the same force field do not converge to similar ensemble-averaged interdomain contact patterns. These findings highlight the importance of explicitly assessing the convergence of interdomain interaction ensembles in simulations of multidomain proteins containing intrinsically disordered regions, rather than inferring their reliability solely from agreement with global or local validation observables.",
+  "abstract_zh": "人类细胞朊蛋白（PrP C）展现出特征性的结构组织，包含一个稳定的C端结构域（CTD）和一个本质上无序、高度柔性的N端结构域（NTD）。这种结构异质性对原子级分子建模构成了重大挑战，因为预测的构象集合可能受到力场选择的强烈影响。在此，我们将使用AMBER99SB-ILDN和CHARMM36m力场对全长人类PrP C（23–230）进行的全原子分子动力学（MD）模拟与现有实验数据进行比较，并检验与常用验证观测值的一致性是否伴随着结构域间相互作用集合的收敛。两种力场均能在化学位移预测器报告的精度范围内重现人类PrP C（BMRB条目4402）的实验骨架化学位移，并将N端结构域描述为以随机卷曲为主，尽管CHARMM36m与实验更为接近。然而，两种力场生成的构象集合均比实验SAXS回转半径显著更紧凑，这与TIP3P水模型倾向于过度压缩本质上无序蛋白的已知趋势一致。尽管与实验信息总体一致，但使用相同力场生成的独立副本并未收敛到相似的集合平均结构域间接触模式。这些发现强调了在多结构域蛋白（含本质上无序区域）的模拟中，明确评估结构域间相互作用集合收敛性的重要性，而非仅依据与全局或局部验证观测值的一致性来推断其可靠性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv.15006833/v1",
+  "source_url": "https://doi.org/10.26434/chemrxiv.15006833/v1",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv.15006833_v1/index.html"
+}

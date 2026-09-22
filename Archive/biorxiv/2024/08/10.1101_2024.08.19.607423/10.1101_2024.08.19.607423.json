@@ -1,0 +1,246 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.19.607423",
+  "title": "Integrative structural analysis of NF45-NF90 heterodimers reveals architectural rearrangements and oligomerisation on binding dsRNA",
+  "doi": "10.1101/2024.08.19.607423",
+  "abstract": "Complexes of nuclear factors 45 and 90 (NF45-NF90) play a multitude of roles in co- and post-transcriptional RNA processing, including regulating adenosine-to-inosine editing, cassette exon and back splicing, and splicing fidelity. NF45-NF90 complexes recognise dsRNA and, in human cells, primarily interact with inverted Alu repeats (AluIRs) that are commonly inserted into introns and other non-coding RNA regions. Intronic AluIRs of ∼300 bp can regulate splicing outcomes, such as generation of circRNAs. We examined domain reorganisation of NF45-NF90 domains on dsRNAs exceeding 50 bp to gain insight into its RNA recognition properties on longer dsRNAs. Using a combination of phylogenetic analysis, solution methods (including small angle X-ray scattering and quantitative cross-linking mass spectrometry), machine learning and negative stain electron microscopy, we generated a model of NF45-NF90 complex formation on dsRNA. Our data reveal that different interactions of NF45-NF90 complexes allow these proteins to coat long stretches of dsRNA. This property of the NF45-NF90 complex has important implications for how long, nuclear dsRNAs are recognised in the nucleus and how this might promote (co)-regulation of specific RNA splicing and editing events that shape the mammalian transcriptome.",
+  "authors": [
+    "Winterbourne S",
+    "Jayachandran U",
+    "Zou J",
+    "Rappsilber J",
+    "Granneman S",
+    "Cook AG"
+  ],
+  "published_date": "2024-08-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.19.607423",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.19.607423.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR897740",
+    "raw_record": {
+      "id": "PPR897740",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR897740"
+        ]
+      },
+      "doi": "10.1101/2024.08.19.607423",
+      "title": "Integrative structural analysis of NF45-NF90 heterodimers reveals architectural rearrangements and oligomerisation on binding dsRNA",
+      "authorString": "Winterbourne S, Jayachandran U, Zou J, Rappsilber J, Granneman S, Cook AG.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Winterbourne S",
+            "lastName": "Winterbourne",
+            "firstName": "Sophie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Quantitative Biology, Biochemistry and Biotechnology, Max Born Crescent, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jayachandran U",
+            "lastName": "Jayachandran",
+            "firstName": "Uma",
+            "initials": "U",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7910-9695"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Quantitative Biology, Biochemistry and Biotechnology, Max Born Crescent, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zou J",
+            "lastName": "Zou",
+            "firstName": "Juan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Cell Biology, Max Born Crescent, Edinburgh EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rappsilber J",
+            "lastName": "Rappsilber",
+            "firstName": "Juri",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5999-1310"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Cell Biology, Max Born Crescent, Edinburgh EH9 3BF, UK"
+                },
+                {
+                  "affiliation": "Bioanalytics, Institute of Biotechnology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Granneman S",
+            "lastName": "Granneman",
+            "firstName": "Sander",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4387-1271"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Quantitative Biology, Biochemistry and Biotechnology, Max Born Crescent, , , ,"
+                },
+                {
+                  "affiliation": "Centre for Engineering Biology, Max Born Crescent, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cook AG",
+            "lastName": "Cook",
+            "firstName": "Atlanta",
+            "initials": "AG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2087-9772"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Quantitative Biology, Biochemistry and Biotechnology, Max Born Crescent, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5999-1310"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7910-9695"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2087-9772"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4387-1271"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Complexes of nuclear factors 45 and 90 (NF45-NF90) play a multitude of roles in co- and post-transcriptional RNA processing, including regulating adenosine-to-inosine editing, cassette exon and back splicing, and splicing fidelity. NF45-NF90 complexes recognise dsRNA and, in human cells, primarily interact with inverted Alu repeats (AluIRs) that are commonly inserted into introns and other non-coding RNA regions. Intronic AluIRs of ∼300 bp can regulate splicing outcomes, such as generation of circRNAs. We examined domain reorganisation of NF45-NF90 domains on dsRNAs exceeding 50 bp to gain insight into its RNA recognition properties on longer dsRNAs. Using a combination of phylogenetic analysis, solution methods (including small angle X-ray scattering and quantitative cross-linking mass spectrometry), machine learning and negative stain electron microscopy, we generated a model of NF45-NF90 complex formation on dsRNA. Our data reveal that different interactions of NF45-NF90 complexes allow these proteins to coat long stretches of dsRNA. This property of the NF45-NF90 complex has important implications for how long, nuclear dsRNAs are recognised in the nucleus and how this might promote (co)-regulation of specific RNA splicing and editing events that shape the mammalian transcriptome.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.08.19.607423"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.08.19.607423"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR897740"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR897740&type=FILE&fileName=EMS198206-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS198206",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "alphafold",
+          "pxd",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-08-22",
+      "firstPublicationDate": "2024-08-19",
+      "firstIndexDate": "2024-08-22",
+      "fullTextReceivedDate": "2024-08-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

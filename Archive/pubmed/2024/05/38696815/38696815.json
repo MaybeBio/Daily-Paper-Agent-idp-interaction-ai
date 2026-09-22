@@ -1,0 +1,419 @@
+{
+  "identity": {
+    "pmid": "38696815",
+    "doi": "10.1021/acs.jpclett.4c00312",
+    "title": "Hydrodynamic Radii of Intrinsically Disordered Proteins: Fast Prediction by Minimum Dissipation Approximation and Experimental Validation."
+  },
+  "content": {
+    "abstract": "The diffusion coefficients of globular and fully unfolded proteins can be predicted with high accuracy solely from their mass or chain length. However, this approach fails for intrinsically disordered proteins (IDPs) containing structural domains. We propose a rapid predictive methodology for estimating the diffusion coefficients of IDPs. The methodology uses accelerated conformational sampling based on self-avoiding random walks and includes hydrodynamic interactions between coarse-grained protein subunits, modeled using the generalized Rotne-Prager-Yamakawa approximation. To estimate the hydrodynamic radius, we rely on the minimum dissipation approximation recently introduced by Cichocki et al. Using a large set of experimentally measured hydrodynamic radii of IDPs over a wide range of chain lengths and domain contributions, we demonstrate that our predictions are more accurate than the Kirkwood approximation and phenomenological approaches. Our technique may prove to be valuable in predicting the hydrodynamic properties of both fully unstructured and multidomain disordered proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Hydrodynamics",
+      "Diffusion",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Waszkiewicz, Radost",
+        "Michas, Agnieszka",
+        "Bialobrzewski, Michal K",
+        "Klepka, Barbara P",
+        "Cieplak-Rotowska, Maja K",
+        "Staszalek, Zuzanna",
+        "Cichocki, Bogdan",
+        "Lisicki, Maciej",
+        "Szymczak, Piotr",
+        "Niedzwiecka, Anna"
+      ],
+      "short_names": [
+        "Waszkiewicz R",
+        "Michas A",
+        "Bialobrzewski MK",
+        "Klepka BP",
+        "Cieplak-Rotowska MK",
+        "Staszalek Z",
+        "Cichocki B",
+        "Lisicki M",
+        "Szymczak P",
+        "Niedzwiecka A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0376-1708",
+        "ORCID: 0000-0002-3369-5780",
+        "ORCID: 0000-0003-3059-4172",
+        "ORCID: 0000-0001-5208-0733"
+      ],
+      "affiliations": [
+        "Institute of Theoretical Physics, Faculty of Physics, University of Warsaw, L. Pasteura 5, 02-093 Warsaw, Poland.",
+        "Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland.",
+        "Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland.",
+        "Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland.",
+        "Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland.",
+        "Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland.",
+        "Institute of Theoretical Physics, Faculty of Physics, University of Warsaw, L. Pasteura 5, 02-093 Warsaw, Poland.",
+        "Institute of Theoretical Physics, Faculty of Physics, University of Warsaw, L. Pasteura 5, 02-093 Warsaw, Poland.",
+        "Institute of Theoretical Physics, Faculty of Physics, University of Warsaw, L. Pasteura 5, 02-093 Warsaw, Poland.",
+        "Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Waszkiewicz, Radost",
+        "short_name": "Waszkiewicz R",
+        "identifiers": [
+          "0000-0002-0376-1708"
+        ],
+        "affiliations": [
+          "Institute of Theoretical Physics, Faculty of Physics, University of Warsaw, L. Pasteura 5, 02-093 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Michaś, Agnieszka",
+        "short_name": "Michaś A",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Białobrzewski, Michał K",
+        "short_name": "Białobrzewski MK",
+        "identifiers": [
+          "0000-0002-3369-5780"
+        ],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Klepka, Barbara P",
+        "short_name": "Klepka BP",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Cieplak-Rotowska, Maja K",
+        "short_name": "Cieplak-Rotowska MK",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Staszałek, Zuzanna",
+        "short_name": "Staszałek Z",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Cichocki, Bogdan",
+        "short_name": "Cichocki B",
+        "identifiers": [
+          "0000-0003-3059-4172"
+        ],
+        "affiliations": [
+          "Institute of Theoretical Physics, Faculty of Physics, University of Warsaw, L. Pasteura 5, 02-093 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Lisicki, Maciej",
+        "short_name": "Lisicki M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Theoretical Physics, Faculty of Physics, University of Warsaw, L. Pasteura 5, 02-093 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Szymczak, Piotr",
+        "short_name": "Szymczak P",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Theoretical Physics, Faculty of Physics, University of Warsaw, L. Pasteura 5, 02-093 Warsaw, Poland."
+        ]
+      },
+      {
+        "full_name": "Niedzwiecka, Anna",
+        "short_name": "Niedzwiecka A",
+        "identifiers": [
+          "0000-0001-5208-0733"
+        ],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Aleja Lotnikow 32/46, PL-02668 Warsaw, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2024 May 16",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/02 18:46",
+    "fetched_at": "2026-09-21 06:52:04"
+  },
+  "links": {
+    "cites": [
+      "41316704",
+      "41134940",
+      "41085093",
+      "40891708",
+      "40149012"
+    ],
+    "refs": [
+      "38297184",
+      "38297118",
+      "37904608",
+      "37831084",
+      "37684425",
+      "37604044",
+      "36792822",
+      "36674958",
+      "36518077",
+      "36116370",
+      "34772786",
+      "34716273",
+      "34418423",
+      "34265844",
+      "34259536",
+      "34115515",
+      "33545530",
+      "33191750",
+      "32840111",
+      "32831102",
+      "31877325",
+      "31488718",
+      "31219243",
+      "30913885",
+      "30554840",
+      "30420502",
+      "30243841",
+      "30144937",
+      "29805999",
+      "29763584",
+      "29576456",
+      "29466338",
+      "29080206",
+      "28866388",
+      "28793210",
+      "28483149",
+      "27936491",
+      "27890783",
+      "27634243",
+      "27466593",
+      "27374333",
+      "26727467",
+      "26566073",
+      "25863585",
+      "25533957",
+      "25531225",
+      "25391399",
+      "25244701",
+      "24673507",
+      "24606139",
+      "24150971",
+      "23638343",
+      "23239268",
+      "23205890",
+      "23185649",
+      "22613562",
+      "22561545",
+      "22360229",
+      "21481779",
+      "21406855",
+      "21220121",
+      "20657787",
+      "20639465",
+      "20483348",
+      "20404210",
+      "19768526",
+      "19008353",
+      "18456828",
+      "18440022",
+      "17676886",
+      "16004876",
+      "15929994",
+      "15629713",
+      "15019783",
+      "12621042",
+      "12069524",
+      "11691836",
+      "11101311",
+      "11093259",
+      "10677223",
+      "10600103",
+      "9684899",
+      "9565755",
+      "9453748",
+      "2215695"
+    ],
+    "similar": [
+      "38696815",
+      "27936491",
+      "37831084",
+      "36674958",
+      "26727467",
+      "36518077",
+      "31869980",
+      "32696363",
+      "37409946",
+      "28793210",
+      "31521238",
+      "40095314",
+      "24150971",
+      "32696370",
+      "32696367",
+      "39499823",
+      "25244701",
+      "30913885",
+      "29573987",
+      "37162930",
+      "25375525",
+      "36083825",
+      "29490246",
+      "23912807",
+      "30144937",
+      "30968464",
+      "40072940",
+      "26387104",
+      "34716273",
+      "39105804",
+      "34680048",
+      "35944496",
+      "41082321",
+      "30865832",
+      "33566618",
+      "30909517",
+      "20483348",
+      "24832249",
+      "23794453",
+      "38165099",
+      "41137856",
+      "31756456",
+      "35129612",
+      "30978975",
+      "29621630",
+      "26387099",
+      "35512095",
+      "32859072",
+      "27015749",
+      "26387101",
+      "30066087",
+      "33411518",
+      "34817999",
+      "35377637",
+      "36641212",
+      "31425549",
+      "31441158",
+      "29571687",
+      "31297688",
+      "34390736",
+      "32579908",
+      "25611056",
+      "35053175",
+      "28894006",
+      "33337879",
+      "35213160",
+      "41174305",
+      "31356778",
+      "30091924",
+      "30230839",
+      "39340154",
+      "37442414",
+      "34626492",
+      "33355572",
+      "31756104",
+      "30527137",
+      "36917561",
+      "26052838",
+      "40128232",
+      "31424463",
+      "35436286",
+      "33087759",
+      "27844185",
+      "33810690",
+      "39248414",
+      "31657566",
+      "24758710",
+      "25771525",
+      "24863370",
+      "39740355",
+      "40574501",
+      "41259435",
+      "32345021",
+      "26562397",
+      "37219402",
+      "30471690",
+      "39665260",
+      "41159867",
+      "28369666",
+      "35755809"
+    ],
+    "review": [
+      "38696815",
+      "31521238",
+      "26387104",
+      "34680048",
+      "30909517",
+      "23794453",
+      "35129612",
+      "26387099",
+      "26387101",
+      "30066087",
+      "31441158",
+      "34390736",
+      "35053175",
+      "31356778",
+      "33355572",
+      "30527137",
+      "39740355",
+      "37219402"
+    ],
+    "pmc": [
+      "11103702"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38696815/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38696815",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.4c00312",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

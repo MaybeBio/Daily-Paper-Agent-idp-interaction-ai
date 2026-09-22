@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41015114",
+  "title": "Linker Length and Composition within Disordered Binding Motifs Modulates the Avidity and Reversibility of a Multivalent Protein Interaction Switch.",
+  "authors": "Chatterjee, Kiran Sankar; Martinez-Yamout, Maria A; Dyson, H Jane; Wright, Peter E",
+  "journal": "Journal of molecular biology",
+  "published_date": "2025-09-28",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过突变HIF-1α无序激活域中的连接子长度与组成，结合实验与热力学耦合分析，揭示无序结合基序间连接子如何调节多价PPI的亲和力与可逆性，为无序蛋白介导的互作开关机制建模提供关键思路。",
+  "abstract": "Intrinsically disordered proteins that mediate the cellular transcriptional response to hypoxia play important roles in regulating oxygen stress genes. The feedback inhibitor CITED2 operates a unidirectional switch that efficiently terminates the hypoxic response by displacing the C-terminal activation domain of the hypoxia-inducible factor HIF-1alpha from its complex with the TAZ1 domain of the transcriptional coactivators CBP and p300. Unidirectionality of the switch arises from subtle allosteric conformational changes in TAZ1 and from differences in the strength of thermodynamic coupling between the TAZ1-binding motifs in the multivalent HIF-1alpha and CITED2 activation domains. To investigate the role of binding cooperativity, we mutated a linker sequence in the HIF-1alpha activation domain to alter the thermodynamic coupling between its TAZ1-binding motifs. Linker mutations that enhance the affinity of HIF-1alpha for TAZ1 enable the HIF-1alpha activation domain to compete more effectively with bound CITED2. The wide range of mutants, which include insertion, deletion, substitution, and scrambling of residues in the linker, provide insights into the molecular basis for the exquisite tuning of the hypoxic switch. The TAZ1 binding affinity and consequent CITED2 competition enhancement depends both on the flexibility of the linker sequence (particularly the presence of glycine residues) and the unfavorable electrostatic interactions of a highly conserved arginine side chain in the center of the linker with an electropositive surface of TAZ1. The conservation of the linker length and sequence in all vertebrates suggests strong evolutionary pressure to tune HIF-1alpha binding affinity to be sub-optimal, to ensure unidirectionality of the hypoxic switch.",
+  "abstract_zh": "介导细胞转录响应低氧的固有无序蛋白在调控氧应激基因中发挥重要作用。反馈抑制剂CITED2通过将缺氧诱导因子HIF-1α的C端激活域从其与转录共激活因子CBP和p300的TAZ1域复合物中置换出来，运行一个单向开关，有效终止低氧响应。开关的单向性源于TAZ1中微妙的变构构象变化，以及多价HIF-1α和CITED2激活域中TAZ1结合基序之间热力学耦合强度的差异。为了研究结合协同性的作用，我们突变了HIF-1α激活域中的连接序列，以改变其TAZ1结合基序之间的热力学耦合。增强HIF-1α对TAZ1亲和力的连接突变使HIF-1α激活域能更有效地与结合的CITED2竞争。广泛的突变体，包括连接中残基的插入、缺失、替换和打乱，为低氧开关精细调谐的分子基础提供了见解。TAZ1结合亲和力及随之而来的CITED2竞争增强，既取决于连接序列的灵活性（特别是甘氨酸残基的存在），也取决于连接中心高度保守的精氨酸侧链与TAZ1电正性表面之间的不利静电相互作用。所有脊椎动物中连接长度和序列的保守性表明，存在强大的进化压力将HIF-1α结合亲和力调至次优状态，以确保低氧开关的单向性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41015114/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41015114/",
+  "paper_page_path": "papers/pubmed/41015114/index.html"
+}

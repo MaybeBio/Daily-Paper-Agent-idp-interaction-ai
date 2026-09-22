@@ -1,0 +1,333 @@
+{
+  "identity": {
+    "pmid": "39231207",
+    "doi": "10.1073/pnas.2408104121",
+    "title": "Time-resolved NMR detection of prolyl-hydroxylation in intrinsically disordered region of HIF-1alpha."
+  },
+  "content": {
+    "abstract": "Prolyl-hydroxylation is an oxygen-dependent posttranslational modification (PTM) that is known to regulate fibril formation of collagenous proteins and modulate cellular expression of hypoxia-inducible factor (HIF) alpha subunits. However, our understanding of this important but relatively rare PTM has remained incomplete due to the lack of biophysical methodologies that can directly measure multiple prolyl-hydroxylation events within intrinsically disordered proteins. Here, we describe a real-time (13)C-direct detection NMR-based assay for studying the hydroxylation of two evolutionarily conserved prolines (P402 and P564) simultaneously in the intrinsically disordered oxygen-dependent degradation domain of hypoxic-inducible factor 1alpha by exploiting the \"proton-less\" nature of prolines. We show unambiguously that P564 is rapidly hydroxylated in a time-resolved manner while P402 hydroxylation lags significantly behind that of P564. The differential hydroxylation rate was negligibly influenced by the binding affinity to prolyl-hydroxylase enzyme, but rather by the surrounding amino acid composition, particularly the conserved tyrosine residue at the +1 position to P564. These findings support the unanticipated notion that the evolutionarily conserved P402 seemingly has a minimal impact in normal oxygen-sensing pathway.",
+    "keywords": [
+      "13C-direct detection NMR",
+      "hypoxia-inducible factor",
+      "intrinsically disordered protein",
+      "prolyl-hydroxylation"
+    ],
+    "mesh_terms": [
+      "Hydroxylation",
+      "*Hypoxia-Inducible Factor 1, alpha Subunit/metabolism/chemistry",
+      "*Proline/metabolism",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry",
+      "Humans",
+      "Protein Processing, Post-Translational",
+      "Magnetic Resonance Spectroscopy/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "He, Wenguang",
+        "Gasmi-Seabrook, Genevieve M C",
+        "Ikura, Mitsuhiko",
+        "Lee, Jeffrey E",
+        "Ohh, Michael"
+      ],
+      "short_names": [
+        "He W",
+        "Gasmi-Seabrook GMC",
+        "Ikura M",
+        "Lee JE",
+        "Ohh M"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-1628-0534",
+        "ORCID: 0000-0002-2172-6586",
+        "ORCID: 0000-0001-7600-4751"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, Temerty Faculty of Medicine, University of Toronto, Toronto, ON M5G 1M1, Canada.",
+        "Princess Margaret Cancer Centre, University Health Network, Toronto, ON M5G 1L7, Canada.",
+        "Princess Margaret Cancer Centre, University Health Network, Toronto, ON M5G 1L7, Canada.",
+        "Department of Medical Biophysics, Temerty Faculty of Medicine, University of Toronto, Toronto, ON M5G 1L7, Canada.",
+        "Department of Laboratory Medicine and Pathobiology, Temerty Faculty of Medicine, University of Toronto, Toronto, ON M5S 1A8, Canada.",
+        "Department of Biochemistry, Temerty Faculty of Medicine, University of Toronto, Toronto, ON M5G 1M1, Canada.",
+        "Department of Laboratory Medicine and Pathobiology, Temerty Faculty of Medicine, University of Toronto, Toronto, ON M5S 1A8, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "He, Wenguang",
+        "short_name": "He W",
+        "identifiers": [
+          "0009-0004-1628-0534"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Temerty Faculty of Medicine, University of Toronto, Toronto, ON M5G 1M1, Canada."
+        ]
+      },
+      {
+        "full_name": "Gasmi-Seabrook, Geneviève M C",
+        "short_name": "Gasmi-Seabrook GMC",
+        "identifiers": [],
+        "affiliations": [
+          "Princess Margaret Cancer Centre, University Health Network, Toronto, ON M5G 1L7, Canada."
+        ]
+      },
+      {
+        "full_name": "Ikura, Mitsuhiko",
+        "short_name": "Ikura M",
+        "identifiers": [],
+        "affiliations": [
+          "Princess Margaret Cancer Centre, University Health Network, Toronto, ON M5G 1L7, Canada.",
+          "Department of Medical Biophysics, Temerty Faculty of Medicine, University of Toronto, Toronto, ON M5G 1L7, Canada."
+        ]
+      },
+      {
+        "full_name": "Lee, Jeffrey E",
+        "short_name": "Lee JE",
+        "identifiers": [
+          "0000-0002-2172-6586"
+        ],
+        "affiliations": [
+          "Department of Laboratory Medicine and Pathobiology, Temerty Faculty of Medicine, University of Toronto, Toronto, ON M5S 1A8, Canada."
+        ]
+      },
+      {
+        "full_name": "Ohh, Michael",
+        "short_name": "Ohh M",
+        "identifiers": [
+          "0000-0001-7600-4751"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Temerty Faculty of Medicine, University of Toronto, Toronto, ON M5G 1M1, Canada.",
+          "Department of Laboratory Medicine and Pathobiology, Temerty Faculty of Medicine, University of Toronto, Toronto, ON M5S 1A8, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2024 Sep 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/04 18:42",
+    "fetched_at": "2026-09-21 10:01:38"
+  },
+  "links": {
+    "cites": [
+      "42146408",
+      "41114716"
+    ],
+    "refs": [
+      "37904768",
+      "34791371",
+      "34537235",
+      "31794728",
+      "31682116",
+      "31500697",
+      "31317299",
+      "30519597",
+      "30135421",
+      "27774468",
+      "27663422",
+      "26286791",
+      "25728928",
+      "25320964",
+      "25031324",
+      "24550462",
+      "23744817",
+      "23148796",
+      "23011410",
+      "22796964",
+      "22519908",
+      "21672523",
+      "21447827",
+      "21335549",
+      "21302972",
+      "20889502",
+      "19604478",
+      "19390832",
+      "19151095",
+      "17325032",
+      "17088319",
+      "17069766",
+      "16153644",
+      "16024780",
+      "15465032",
+      "15311922",
+      "15229879",
+      "15121720",
+      "14701857",
+      "12788921",
+      "12050673",
+      "12039559",
+      "12004076",
+      "11566883",
+      "11504942",
+      "11454738",
+      "11292862",
+      "11292861",
+      "10973499",
+      "10944113",
+      "10878807",
+      "10823831",
+      "10353251",
+      "9559057",
+      "8520220",
+      "7531244",
+      "6210830",
+      "5965224",
+      "1693856",
+      "1448077",
+      "940354"
+    ],
+    "similar": [
+      "39231207",
+      "34537235",
+      "28273070",
+      "12181324",
+      "15104534",
+      "16024780",
+      "41114716",
+      "20840591",
+      "15084514",
+      "14521712",
+      "35012986",
+      "15199099",
+      "21335603",
+      "20574527",
+      "22946054",
+      "24563687",
+      "29961792",
+      "12186875",
+      "33550096",
+      "14701857",
+      "21628883",
+      "23886708",
+      "11292861",
+      "30796332",
+      "20695530",
+      "12586829",
+      "27581016",
+      "17726031",
+      "17998047",
+      "11795592",
+      "21410436",
+      "17942596",
+      "29522057",
+      "24607784",
+      "31035491",
+      "12124396",
+      "11566883",
+      "25421965",
+      "30144273",
+      "20581113",
+      "25197067",
+      "23542169",
+      "20055761",
+      "41015114",
+      "15492505",
+      "21335549",
+      "23413029",
+      "40760493",
+      "12432100",
+      "31500697",
+      "11595184",
+      "17101781",
+      "26949511",
+      "16815840",
+      "16157596",
+      "17925579",
+      "16182243",
+      "17003112",
+      "17370314",
+      "20955552",
+      "19604478",
+      "15448722",
+      "21723853",
+      "11504942",
+      "12606543",
+      "28341633",
+      "14734545",
+      "16973622",
+      "12912907",
+      "15721254",
+      "21421125",
+      "27297870",
+      "24211325",
+      "27561929",
+      "32934009",
+      "19401150",
+      "23787140",
+      "20705044",
+      "16139409",
+      "16761101",
+      "16760477",
+      "17002676",
+      "20675386",
+      "17382325",
+      "28506759",
+      "31521236",
+      "18259202",
+      "15032687",
+      "18651560",
+      "18440561",
+      "22424133",
+      "37923141",
+      "16579968",
+      "12876291",
+      "24681946",
+      "27393459",
+      "11598268",
+      "15134335",
+      "18426857",
+      "35499237"
+    ],
+    "review": [
+      "39231207",
+      "11795592",
+      "31035491",
+      "17925579",
+      "15448722",
+      "17002676",
+      "31521236",
+      "18259202",
+      "15032687",
+      "22424133"
+    ],
+    "pmc": [
+      "11406255"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2408104121?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39231207/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34527190",
+  "title": "MedProDB: A database of Mediator proteins.",
+  "authors": "Bhardwaj, Rohan; Thakur, Jitendra Kumar; Kumar, Shailesh",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2021-09-17",
+  "window": {
+    "start": "2021-09-13",
+    "end": "2021-09-19"
+  },
+  "score": 5,
+  "one_liner_zh": "构建了Mediator蛋白数据库MedProDB，收录序列并注释IDR、MoRF及互作信息，但缺乏PPI机制建模或AI/物理模拟方法，仅作为资源库对无序蛋白互作研究有参考价值。",
+  "abstract": "In the last three decades, the multi-subunit Mediator complex has emerged as the key component of transcriptional regulation of eukaryotic gene expression. Although there were initial hiccups, recent advancements in bioinformatics tools contributed significantly to in-silico prediction and characterization of Mediator subunits from several organisms belonging to different eukaryotic kingdoms. In this study, we have developed the first database of Mediator proteins named MedProDB with 33,971 Mediator protein entries. Out of those, 12531, 11545, and 9895 sequences belong to metazoans, plants, and fungi, respectively. Apart from the core information consisting of sequence, length, position, organism, molecular weight, and taxonomic lineage, additional information of each Mediator sequence like aromaticity, hydropathy, instability index, isoelectric point, functions, interactions, repeat regions, diseases, sequence alignment to Mediator subunit family, Intrinsically Disordered Regions (IDRs), Post-translation modifications (PTMs), and Molecular Recognition Features (MoRFs) may be of high utility to the users. Furthermore, different types of search and browse options with four different tools namely BLAST, Smith-Waterman Align, IUPred, and MoRF-Chibi_Light are provided at MedProDB to perform different types of analysis. Being a critical component of the transcriptional machinery and regulating almost all the aspects of transcription, it generated lots of interest in structural and functional studies of Mediator functioning. So, we think that the MedProDB database will be very useful for researchers studying the process of transcription. This database is freely available at www.nipgr.ac.in/MedProDB.",
+  "abstract_zh": "在过去的三十年中，多亚基中介体复合物已成为真核基因表达转录调控的关键组成部分。尽管初期遇到了一些障碍，但生物信息学工具的最新进展显著促进了来自不同真核生物界的多个生物体中中介体亚基的计算机模拟预测与表征。在本研究中，我们开发了首个中介体蛋白数据库，命名为MedProDB，包含33,971条中介体蛋白条目。其中，12,531条、11,545条和9,895条序列分别属于后生动物、植物和真菌。除了包含序列、长度、位置、生物体、分子量和分类谱系的核心信息外，每条中介体序列的附加信息，如芳香性、亲水性、不稳定指数、等电点、功能、相互作用、重复区域、疾病关联、与中介体亚基家族的序列比对、内在无序区域（IDRs）、翻译后修饰（PTMs）和分子识别特征（MoRFs），可能对用户具有高度实用性。此外，MedProDB提供了不同类型的搜索和浏览选项，并配备四种工具，即BLAST、Smith-Waterman Align、IUPred和MoRF-Chibi_Light，以执行不同类型的分析。作为转录机制的关键组成部分，并调控转录的几乎所有方面，这引起了人们对中介体功能的结构和功能研究的广泛兴趣。因此，我们认为MedProDB数据库将对研究转录过程的研究人员非常有用。该数据库可在www.nipgr.ac.in/MedProDB免费获取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34527190/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34527190/",
+  "paper_page_path": "papers/pubmed/34527190/index.html"
+}

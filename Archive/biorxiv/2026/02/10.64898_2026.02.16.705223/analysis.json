@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.02.16.705223",
+  "title": "Aging associated RNA loss impairs the dynamics of RNA and protein condensates",
+  "authors": "Rajappa A; Patel T; Raju SS; Baliga N; Parihar R; Chodankar A; Singh A; Dastidar PG; Iyer KV; Ganesh S; Maharana S",
+  "journal": "bioRxiv",
+  "published_date": "2026-02-17",
+  "window": {
+    "start": "2026-02-16",
+    "end": "2026-02-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究衰老细胞中RNA减少导致应激颗粒凝聚体蛋白/RNA比例升高、动态性下降的机制，涉及相分离凝聚体组成与功能调控，但未采用AI或物理模拟方法，且互作机制聚焦于凝聚体而非具体PPI界面。",
+  "abstract": "<h4>Summary</h4> Altered biomolecular condensate dynamics are increasingly implicated in age-associated neurodegenerative disorders, yet the molecular principles governing these changes remain incompletely understood. Here, we demonstrate that aged cells across diverse cellular and organismal models harbor pre-formed, viscous, and persistent stress granules (SGs), which we term alt-SGs. These persistent condensates confer protection to senescent cells under fluctuating stress conditions. Comparative analyses reveal that alt-SGs exhibit elevated RNA-binding protein (RBP)-to-RNA ratios, underscoring a shift in condensate stoichiometry. By quantifying SG composition and dynamics in live cells and in vitro, we establish that RNA concentration is a key determinant of condensate material properties, molecular composition, and dissolution capacity. Importantly, aging cells display diminished absolute RNA concentrations due to reduced RNA metabolic activity. Reactivation of RNA metabolism restores RNA/RBP ratios within SGs and alleviates aging-associated phenotypes. Together, our findings highlight RNA metabolism as a central regulator of condensate stoichiometry and function, linking metabolic decline to altered phase behavior and cellular aging. <h4>Key findings</h4> Aging and senescence have Alt-SGs with increased protein/RNA Ratio Alt-SGs are persistent after stress removal in aging Aging is associated with reduced total cellular RNA Reactivating RNA metabolism rescues SG phenotypes Alt-SGs are protective for senescent cell",
+  "abstract_zh": "<h4>摘要</h4> 生物分子凝聚体动力学的改变日益被认为与年龄相关的神经退行性疾病有关，然而调控这些变化的分子原理仍未完全阐明。在此，我们证明在多种细胞和生物体模型中，衰老细胞含有预先形成的、黏稠且持久的应激颗粒（stress granules, SGs），我们将其命名为alt-SGs。这些持久的凝聚体在波动应激条件下为衰老细胞提供保护。比较分析显示，alt-SGs表现出更高的RNA结合蛋白（RNA-binding protein, RBP）与RNA比例，凸显了凝聚体化学计量学的转变。通过定量活细胞和体外条件下SG的组成与动力学，我们确定RNA浓度是凝聚体材料性质、分子组成和溶解能力的关键决定因素。重要的是，衰老细胞因RNA代谢活性降低而表现出绝对RNA浓度下降。RNA代谢的再激活可恢复SG内的RNA/RBP比例，并缓解衰老相关表型。综上所述，我们的发现强调RNA代谢是凝聚体化学计量学和功能的核心调控因子，将代谢衰退与相行为改变及细胞衰老联系起来。 <h4>主要发现</h4> 衰老和细胞衰老具有蛋白/RNA比例升高的alt-SGs 衰老中alt-SGs在应激去除后持续存在 衰老与总细胞RNA减少相关 再激活RNA代谢可挽救SG表型 alt-SGs对衰老细胞具有保护作用",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.02.16.705223",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.16.705223",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.02.16.705223/index.html"
+}

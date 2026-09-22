@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report molecular dynamics simulations with enhanced sampling showing that ispinesib binding induces opposite conformational changes in pathogenic versus wildtype Huntingtin exon 1 (Htt-exon-1), with distinct binding site stability and interaction types explaining selective binding to the pathogenic form
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, convergence criteria, or quantitative results are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force field parameters, enhanced sampling method details, convergence and validation analyses, and any statistical error assessments
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic hypothesis for selective small-molecule binding to a pathogenic intrinsically disordered protein. However, the claims are broad and mechanistically specific, while the visible evidence is limited to a summary without quantitative support. The central claims of opposite conformational modulation and distinct binding interactions cannot be evaluated for robustness from the abstract alone. The work may be of interest to the IDP and drug discovery communities, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying Huntington's disease mechanisms, particularly those focused on Htt-exon-1 structure and aggregation; computational chemists and biophysicists working on intrinsically disordered proteins and their interactions with small molecules; drug discovery groups interested in selective targeting of pathogenic conformations of disease-associated proteins
+- **Major strengths** The study addresses a clinically relevant and mechanistically unresolved question, namely the molecular basis for selective small-molecule binding to pathogenic Htt-exon-1. The use of enhanced sampling molecular dynamics is appropriate for exploring conformational ensembles of intrinsically disordered proteins. The proposed distinction between specific hydrogen bond anchors in the pathogenic form and non-specific hydrophobic interactions in the wildtype form provides a testable mechanistic framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The simulations reveal that ispinesib binding induces opposite conformational changes in pathogenic and wildtype Htt-exon-1, specifically entropy collapse with reduction of beta-sheets versus entropy expansion with increase of alpha-helices
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract reports specific secondary structure changes and an entropy-based interpretation, but no quantitative data are provided. There is no indication of the magnitude of these changes, the statistical significance across independent simulations, or the uncertainty in the entropy estimates. For an intrinsically disordered protein, conformational ensembles are highly sensitive to force field choice and sampling convergence, and the abstract does not address these issues.
+  - **Why it matters** The central claim of opposite conformational modulation is the foundation of the proposed selectivity mechanism. Without evidence of convergence, reproducibility across simulation replicates, and robustness to force field parameters, the claim cannot be distinguished from simulation artifact.
+  - **Resolution test** Provide quantitative measures of secondary structure content changes with error bars across multiple independent simulations, demonstrate convergence of the enhanced sampling method, and show that the observed trends are consistent across at least two different force fields or with experimental validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Network analyses reveal two stable binding sites in pathogenic Htt-exon-1, while binding on wildtype Htt-exon-1 is highly dynamic and non-specific
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract claims identification of stable binding sites via network analyses, but the method is not described. It is unclear what network is constructed, what nodes and edges represent, how stability is defined, and how the distinction between stable and dynamic binding is quantified. The criteria for calling a binding site stable versus non-specific are not stated.
+  - **Why it matters** The selectivity mechanism rests on the difference in binding site stability between pathogenic and wildtype forms. Without a clear operational definition of stability and a quantitative comparison, the claim is not falsifiable from the provided information.
+  - **Resolution test** Describe the network construction and stability criteria, provide quantitative metrics such as residence times, occupancy fractions, or free energy differences for the identified binding sites, and show statistical comparison between pathogenic and wildtype systems.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** Stronger hydrogen bonds serve as specific binding anchors in pathogenic Htt-exon-1, while stronger hydrophobic interactions dominate in dynamic binding with wildtype Htt-exon-1
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract attributes the binding difference to specific interaction types, but no quantitative interaction energy decomposition is presented. The terms stronger hydrogen bonds and stronger hydrophobic interactions are relative and lack numerical context. It is also unclear whether these interaction differences are causative or merely correlated with the observed binding site stability.
+  - **Why it matters** The proposed mechanism of selective binding depends on identifying which interaction types drive specificity. Without quantitative energy decomposition and a demonstration that these interactions are necessary and sufficient for the observed selectivity, the mechanistic claim is speculative.
+  - **Resolution test** Provide per-residue or per-interaction energy decomposition with statistical uncertainties, show that hydrogen bond strength correlates with binding site stability in the pathogenic form, and ideally test the mechanism by mutating key residues in simulations or comparing with experimental binding data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The terms entropy collapse and entropy expansion are introduced without definition. These are not standard terms in the IDP literature and may confuse readers unfamiliar with the specific usage.
+  - **Required correction** Define these terms explicitly, for example by relating them to changes in conformational entropy or ensemble width, and place them in the context of established concepts such as compactness or disorder-to-order transitions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methodological transparency
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states extensive molecular dynamics simulations with an enhanced sampling method but does not name the method. This omission prevents assessment of the approach's suitability and limits reproducibility.
+  - **Required correction** Specify the enhanced sampling method used, such as replica exchange, metadynamics, or accelerated molecular dynamics, in the abstract or at minimum in the full text with appropriate citations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Generalization claim
+  - **Evidence pointer** Abstract
+  - **Issue** The final sentence claims the work sheds light on general mechanisms of small molecule modulation on intrinsically disordered proteins. This generalization is broad and may overreach from a single system and a single ligand.
+  - **Required correction** Soften the claim to indicate that the findings may inform understanding of IDP modulation, or provide comparative evidence from additional IDP systems to support the general statement.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative evidence for the central claims of opposite conformational changes, distinct binding site stability, and interaction type differences. Without these data, the mechanistic case is not established.
+- **Assessment against Nature-style criteria** Originality: The idea of selective small-molecule binding to pathogenic Htt-exon-1 via distinct interaction mechanisms has some novelty, but the abstract does not demonstrate how this advances beyond existing studies on ispinesib or IDP-ligand interactions. Scientific importance: The topic is relevant to Huntington's disease and IDP drug discovery, but the importance is not fully established without experimental validation or clear therapeutic implications. Interdisciplinary readership: The work bridges computational biophysics and drug discovery, which could attract a broad audience, but the abstract is written in a specialized manner that may limit accessibility. Technical soundness: Not assessable from the abstract alone; the absence of methodological detail and quantitative results prevents evaluation of simulation quality, convergence, and robustness. Readability for nonspecialists: The abstract is concise but uses undefined terms and assumes familiarity with IDP simulation concepts, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the claims are not supported by visible quantitative data. A supportive recommendation would require access to the full manuscript demonstrating simulation convergence, statistical robustness, and quantitative interaction analysis.
+
+## Risk / unsupported claims
+- The claim of opposite conformational modulation (entropy collapse versus entropy expansion) is unsupported by quantitative data in the abstract.
+- The claim of two stable binding sites in pathogenic Htt-exon-1 versus dynamic non-specific binding in wildtype is unsupported without defined stability criteria and quantitative metrics.
+- The claim that stronger hydrogen bonds versus stronger hydrophobic interactions drive selectivity is unsupported without energy decomposition data.
+- The generalization to general mechanisms of small molecule modulation on IDPs is not supported by the single system and ligand studied.
+- The therapeutic relevance implied by the reference to ispinesib as a potential drug is not evaluated in terms of functional outcomes or experimental correlation.

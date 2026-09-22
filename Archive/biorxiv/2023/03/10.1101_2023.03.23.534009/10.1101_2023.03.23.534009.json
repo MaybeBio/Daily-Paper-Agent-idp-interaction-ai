@@ -1,0 +1,129 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.23.534009",
+  "title": "Atomistic molecular simulations of A β -Zn conformational ensembles",
+  "doi": "10.1101/2023.03.23.534009",
+  "abstract": "The amyloid-forming A β peptide is able to interact with metal cations to form very stable complexes that influence fibril formation and contribute to the onset of Alzheimer’s disease. Multiple structures of peptides derived from A β in complex with different metals have been resolved experimentally to provide an atomic-level description of the metal-protein interactions. However, A β is intrinsically disordered, and hence more amenable to an ensemble description. Molecular dynamics simulations can now reach the timescales needed to generate ensembles for this type of complexes. However, this requires accurate force fields both for the protein and the protein-metal interactions. Here we use state-of-the-art methods to generate force field parameters for the Zn(II) cations in a set of A β complexes and combine them with the Amber99SB ⋆ -ILDN optimized force field. Upon comparison of NMR experiments with the simulation results, further optimized with a Bayesian/Maximum entropy approach, we provide an accurate description of the molecular ensembles for most A β -metal complexes. We find that the resulting conformational ensembles are more heterogeneous than the NMR models deposited in the Protein Data Bank.",
+  "authors": [
+    "Aduriz-Arrizabalaga J",
+    "Lopez X",
+    "De Sancho D"
+  ],
+  "published_date": "2023-03-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.23.534009",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.23.534009.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR635524",
+    "raw_record": {
+      "id": "PPR635524",
+      "source": "PPR",
+      "doi": "10.1101/2023.03.23.534009",
+      "title": "Atomistic molecular simulations of A  <i>β</i>  -Zn conformational ensembles",
+      "authorString": "Aduriz-Arrizabalaga J, Lopez X, De Sancho D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Aduriz-Arrizabalaga J",
+            "lastName": "Aduriz-Arrizabalaga",
+            "firstName": "Julen",
+            "initials": "J"
+          },
+          {
+            "fullName": "Lopez X",
+            "lastName": "Lopez",
+            "firstName": "Xabier",
+            "initials": "X",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2711-3588"
+            }
+          },
+          {
+            "fullName": "De Sancho D",
+            "lastName": "De Sancho",
+            "firstName": "David",
+            "initials": "D"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2711-3588"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The amyloid-forming A  β peptide is able to interact with metal cations to form very stable complexes that influence fibril formation and contribute to the onset of Alzheimer’s disease. Multiple structures of peptides derived from A  β in complex with different metals have been resolved experimentally to provide an atomic-level description of the metal-protein interactions. However, A  β is intrinsically disordered, and hence more amenable to an ensemble description. Molecular dynamics simulations can now reach the timescales needed to generate ensembles for this type of complexes. However, this requires accurate force fields both for the protein and the protein-metal interactions. Here we use state-of-the-art methods to generate force field parameters for the Zn(II) cations in a set of A  β complexes and combine them with the Amber99SB  ⋆ -ILDN optimized force field. Upon comparison of NMR experiments with the simulation results, further optimized with a Bayesian/Maximum entropy approach, we provide an accurate description of the molecular ensembles for most A  β -metal complexes. We find that the resulting conformational ensembles are more heterogeneous than the NMR models deposited in the Protein Data Bank.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/30/2023.03.23.534009.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.03.23.534009"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37746887",
+            "reference": "Proteins. 2024 Jan;92(1):134-144",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-03-27",
+      "firstPublicationDate": "2023-03-25",
+      "firstIndexDate": "2023-03-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

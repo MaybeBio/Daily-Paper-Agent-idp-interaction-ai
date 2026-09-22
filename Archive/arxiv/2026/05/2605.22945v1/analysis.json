@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2605.22945v1",
+  "title": "Non-reciprocal Coulomb drag in a ballistic quantum wire",
+  "authors": "Suyang Cai; Mingyang Zheng; Nathan Rao; Glen Gillia; Rebika Makaju; Sadhvikas J. Addamane; Dominique Laroche",
+  "journal": "",
+  "published_date": "2026-05-21",
+  "window": {
+    "start": "2026-05-18",
+    "end": "2026-05-24"
+  },
+  "score": 0,
+  "one_liner_zh": "该文研究一维弹道量子线中的非互易库仑拖拽效应，属于凝聚态物理输运现象，与无序蛋白/IDR介导的蛋白互作及AI/物理模拟方法完全无关。",
+  "abstract": "1D-Coulomb drag serves as a platform for probing electron-electron interactions in 1D systems. Under the charge fluctuation formalism, the non-reciprocal component of Coulomb drag signal in mesoscopic devices is predicted to rely on the breaking of translational invariance due to intrinsic disorder. In this work, we report the measurement of a Coulomb drag device with a ballistic drag wire, allowing us to study the drag signal in nearly pristine quantum wires. Surprisingly, a non-reciprocal component with strength comparable to that of the reciprocal component is still detected across the measured regime, despite the drag wire being ballistic. We suggest that the non-reciprocal signal arises from low energy disorder in the device, which is consistent with the evolution of the drag wire's conductance at low biases voltages and temperatures. Additionally, the non-reciprocal component of the drag signal shows a power-law temperature dependence that coincides with a diffusive model, while the reciprocal component's temperature dependence cannot be explained under the existing framework. The bias voltage dependence of the drag wire conductance is fitted into three models to extract the interaction parameter and disorder level within the wire, but none of the models provides a fully self-consistent explanation for the data.",
+  "abstract_zh": "一维库仑拖拽（1D-Coulomb drag）作为探测一维系统中电子-电子相互作用的平台。在电荷涨落形式下，介观器件中库仑拖拽信号的非互易分量被预测依赖于由内在无序引起的平移不变性破缺。在本工作中，我们报告了对具有弹道拖拽线的库仑拖拽器件的测量，使我们能够在近乎纯净的量子线中研究拖拽信号。令人惊讶的是，尽管拖拽线是弹道的，但在测量范围内仍检测到与互易分量强度相当的非互易分量。我们提出，非互易信号源于器件中的低能无序，这与拖拽线在低偏压和低温下电导的演化一致。此外，拖拽信号的非互易分量显示出与扩散模型吻合的幂律温度依赖性，而互易分量的温度依赖性在现有框架下无法解释。拖拽线电导的偏压依赖性被拟合到三个模型中，以提取线内的相互作用参数和无序水平，但没有任何模型能为数据提供完全自洽的解释。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://arxiv.org/abs/2605.22945v1",
+  "source_url": "https://arxiv.org/abs/2605.22945v1",
+  "paper_page_path": "papers/arxiv/2605.22945v1/index.html"
+}

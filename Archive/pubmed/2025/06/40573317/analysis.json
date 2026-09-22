@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40573317",
+  "title": "Prognostic Modeling of Deleterious IDUA Mutations L238Q and P385R in Hurler Syndrome Through Molecular Dynamics Simulations.",
+  "authors": "Priya Nanda Kumar, Madhana; Dharsini Selvamani, Esakki; Pai Panemangalore, Archana; Kumar Nanda Kumar, Sidharth; Vasudevan, Vasundra; Ramasamy, Magesh",
+  "journal": "Pharmaceuticals (Basel, Switzerland)",
+  "published_date": "2025-06-27",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过分子动力学模拟和对接分析IDUA酶突变对配体结合的影响，虽涉及蛋白-配体互作和物理模拟方法，但对象为折叠酶而非无序蛋白/IDR，且互作对象是配体而非蛋白，机制建模启发有限。",
+  "abstract": "MPS I (Mucopolysaccharidosis type I) is a rare lysosomal storage disease originating from the deficiency of the enzyme alpha-L-iduronidase, encoded by the IDUA gene, which impairs the degradation of glycosaminoglycans (GAGs) and diminishes biological functioning across several organs. Background: Out of the eleven MPS disorders, MPS I includes three syndromes, of which the first, named Hurler syndrome, affects the most. Methods: Several in silico tools were used, such as ConSurf (73 variants), Mutation Assessor (69 variants), PredictSNP, MAPP, PhDSNP, Polyphen-1, Polyphen-2, SIFT, SNAP, PANTHER, MetaSNP (24 variants); Missense 3D-DB (11 variants) and AlignGVGD (eight variants) for physicochemical properties; and I-Mutant, Mupro, CUPSAT, and INPS for stability predictions (four variants). Results: A molecular docking study was performed for the two variants: L238Q and P385R scored -7.22 and -7.05 kcal/mol, respectively, and the native scored -7.14 kcal/mol with IDR as the ligand. Molecular dynamics anticipated how these molecules fluctuate over a period of 100 nanoseconds. Conclusions: Alpha-L-iduronidase enzyme has a critical role in the lysosomal degradation of glycosaminoglycans. According to the comparative analysis of the three structures by MDS, P385R had the least stability in all aspects of the plots. Our study demonstrates that the mutation significantly alters protein stability and binding efficiency with the ligands.",
+  "abstract_zh": "MPS I（黏多糖贮积症I型）是一种罕见的溶酶体贮积病，源于由IDUA基因编码的α-L-艾杜糖苷酶缺乏，该酶缺乏损害糖胺聚糖（GAGs）的降解，并降低多个器官的生物学功能。背景：在11种MPS疾病中，MPS I包括三种综合征，其中第一种名为Hurler综合征，受影响最严重。方法：使用了多种计算机模拟工具，如ConSurf（73个变异）、Mutation Assessor（69个变异）、PredictSNP、MAPP、PhDSNP、Polyphen-1、Polyphen-2、SIFT、SNAP、PANTHER、MetaSNP（24个变异）；Missense 3D-DB（11个变异）和AlignGVGD（8个变异）用于理化性质分析；以及I-Mutant、Mupro、CUPSAT和INPS用于稳定性预测（4个变异）。结果：对两个变异进行了分子对接研究：L238Q和P385R的得分分别为-7.22和-7.05 kcal/mol，而天然型以IDR为配体得分为-7.14 kcal/mol。分子动力学预测了这些分子在100纳秒时间内的波动情况。结论：α-L-艾杜糖苷酶在糖胺聚糖的溶酶体降解中起关键作用。根据MDS对三种结构的比较分析，P385R在所有图谱方面稳定性最低。我们的研究表明，该突变显著改变蛋白质稳定性以及与配体的结合效率。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40573317/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40573317/",
+  "paper_page_path": "papers/pubmed/40573317/index.html"
+}

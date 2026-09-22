@@ -1,0 +1,107 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supporting information references.
+- **Assessment boundary** Scientific content, methodological rigor, validity of conclusions, and presentation quality. Editorial decisions on journal fit are outside the scope.
+- **Shared manuscript claim summary** The authors propose structural models for the full-length SARS-CoV-2 nucleocapsid (N) protein in the absence and presence of RNA, based on negative stain electron microscopy (NSEM), biophysical measurements, and molecular dynamics simulations. They report that RNA-free N forms extended, dynamic dimers, while RNA binding induces compaction, and they present an octameric model for N bound to RNA.
+- **Visible evidence base** NSEM images and 2D class averages, SEC-MALS, DLS, CD spectroscopy, coarse-grained (CG) and all-atom molecular dynamics simulations, and 3D density maps derived from NSEM particles.
+- **Missing materials affecting confidence** No supplementary figures (S1–S14) or tables were provided. No raw data, simulation parameters beyond those described, or validation metrics (e.g., FSC curves, particle counts for 3D reconstructions) were available. The manuscript text references these materials but they are not included in the provided scope.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question regarding the structural dynamics of the SARS-CoV-2 N protein, a key viral protein with multiple functions. The combination of experimental and computational approaches is commendable and the proposed models are plausible. However, the evidence presented has significant limitations. The NSEM analysis is largely qualitative, the 3D reconstructions are at low resolution, and the computational models rely on assumptions that are not fully validated. The link between the experimental observations and the proposed molecular models is not always direct, and several conclusions are drawn from indirect evidence. The manuscript is well-written and the topic is of broad interest, but the current evidence does not fully establish the central claims.
+- **Who would be interested in the results, and why** Structural biologists, virologists, and researchers studying RNA-protein interactions would be interested. The work provides a framework for understanding N protein dynamics and oligomerization, which is relevant to viral replication and assembly. The proposed models could inform studies on antiviral drug design targeting N protein function.
+- **Major strengths**
+  - The study tackles a challenging problem: the full-length N protein is dynamic and disordered, making structural characterization difficult.
+  - The integration of multiple techniques (NSEM, DLS, SEC-MALS, CD, CG and all-atom simulations) is a strength.
+  - The proposed models are consistent with existing biochemical data on N protein oligomerization and RNA binding.
+  - The identification of the LLPAA hydrophobic segment in the C-terminal tail as a key interface is a specific and testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The claim that NSEM images of urea-treated N protein show "various rounded particles with dimensions smaller than 5 nm" that represent individual NTD or CTD domains in an extended dimer conformation.
+  - **Evidence pointer** Results section, Fig 2A and 2B; location not provided for specific image annotations.
+  - **Concern** The interpretation of NSEM images is highly subjective. The particles are small and featureless, and the assignment of these particles to individual domains is not rigorously justified. The comparison of area distributions between class averages and simulated projections is qualitative and lacks statistical rigor. The authors do not provide quantitative metrics (e.g., correlation coefficients, goodness-of-fit) to support the claim that the observed particles match the simulated projections of an extended dimer.
+  - **Why it matters** This is a foundational claim of the paper. If the NSEM images do not reliably show an extended dimer conformation, the subsequent models and conclusions are weakened.
+  - **Resolution test** Provide quantitative comparison metrics between experimental class averages and simulated projections, including statistical tests. Show representative raw micrographs and class averages with clear annotations. Consider using a more objective method, such as cross-correlation or a scoring function, to match experimental and simulated images.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** The claim that the octameric model of N bound to RNA is "consistent with electron microscopy images" and represents a plausible higher-order structure.
+  - **Evidence pointer** Results section, Fig 6; location not provided for specific image annotations.
+  - **Concern** The 3D reconstruction of the square-like particles is at low resolution (26 Å), and the interpretation that each of the four globular units corresponds to an N dimer is speculative. The authors do not provide a detailed description of the reconstruction process, such as the number of particles used, the angular coverage, or the resolution assessment beyond a brief mention of FSC. The model building relies on placing pre-formed dimers into the density, which is a model-biased approach.
+  - **Why it matters** The octameric model is a major novel contribution of the paper. Without robust validation, the model remains a hypothesis rather than a well-supported structure.
+  - **Resolution test** Provide a detailed description of the 3D reconstruction, including particle numbers, FSC curves, and angular distribution. Validate the octameric model by testing alternative arrangements (e.g., tetramers, different dimer orientations) and showing that the proposed model fits the density better. Consider using cross-linking mass spectrometry or other experimental validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Computational methodology
+  - **Claim pointer** The claim that CG simulations show that RNA binding induces compaction of the N protein dimer, with a minimum Rg of 3.7 nm for 40–60 nt RNA.
+  - **Evidence pointer** Results section, Fig 4; location not provided for specific simulation details.
+  - **Concern** The CG model is a coarse-grained representation and the force field parameters are not described in detail. The authors state that protein-RNA contacts are "mostly driven by electrostatic forces," but the specific treatment of electrostatics in the CG model is not clear. The simulations are relatively short (1.5x10^7 steps) and the convergence is only assessed by RMSD, which may not be sufficient for a dynamic system. The choice of RNA sequences (scrambled) may not represent the natural viral RNA context.
+  - **Why it matters** The computational results are used to support the experimental observations and to provide a mechanistic explanation. If the simulations are not robust, the conclusions drawn from them are weakened.
+  - **Resolution test** Provide more details on the CG model parameters and validation. Show that the simulations are converged using multiple metrics (e.g., block averaging, multiple independent runs). Test the effect of RNA sequence and length on the compaction. Compare the CG results with all-atom simulations for a subset of systems.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental support
+  - **Claim pointer** The claim that DLS measurements show a significant reduction in Rh for N protein incubated with polyA15 (5.5 ± 0.4 nm) compared to RNA-free N (8.0 ± 1.3 nm), indicating compaction.
+  - **Evidence pointer** Results section, Fig 1D; location not provided for specific data points.
+  - **Concern** The DLS data are presented as mean ± standard deviation, but the number of replicates is not stated. The difference in Rh is significant, but the interpretation that this is due to compaction is not the only possibility. The binding of polyA15 could also induce a conformational change that increases the hydrodynamic radius, or the RNA could promote aggregation that affects the DLS measurement. The authors do not provide a control experiment with a non-binding RNA or a protein mutant.
+  - **Why it matters** The DLS data are a key experimental support for the compaction model. Without proper controls, the interpretation is not unique.
+  - **Resolution test** Provide the number of replicates and statistical analysis. Include a control with a non-binding RNA or a mutant N protein that cannot bind RNA. Perform size-exclusion chromatography with multi-angle light scattering (SEC-MALS) to confirm the compaction and rule out aggregation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided.
+  - **Issue** The abstract states that the N protein "formed structurally dynamic dimers" but does not specify the techniques used to reach this conclusion.
+  - **Required correction** Briefly mention the key methods (e.g., NSEM, DLS, simulations) in the abstract to set expectations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Fig 1
+  - **Evidence pointer** Results section, Fig 1; location not provided.
+  - **Issue** The CD spectra in Fig 1E are described as "comparable," but the figure is not shown in the provided text. It is unclear if the comparison is quantitative.
+  - **Required correction** Provide a quantitative comparison of the CD spectra (e.g., mean residue ellipticity at specific wavelengths) and state the statistical test used.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Methods, CG simulations
+  - **Evidence pointer** Methods section, "CG molecular dynamics simulations"; location not provided.
+  - **Issue** The description of the CG model is brief. The authors mention "AICG2+ and GO potentials" but do not explain how these were parameterized for the N protein and RNA.
+  - **Required correction** Provide a more detailed description of the CG model, including the force field parameters, the mapping of amino acids and nucleotides to CG beads, and the treatment of electrostatics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section, location not provided.
+  - **Issue** The authors suggest that the octameric model could represent "building blocks of the SARS-CoV-2 RNP structure," but this is speculative and not directly supported by the data.
+  - **Required correction** Soften this claim and clearly state that it is a hypothesis that requires further testing.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, all-atom simulations
+  - **Evidence pointer** Methods section, "All-atom molecular dynamics simulations"; location not provided.
+  - **Issue** The authors state that five replicates were run for the C-terminal tail dimer simulations, but the results are not shown in the main text or figures.
+  - **Required correction** Show the results of the replicates (e.g., in a supplementary figure) or state that they are available upon request.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The NSEM interpretation is not quantitatively validated.
+  - R1-M2: The octameric model is not robustly validated.
+  - R1-M3: The CG simulation methodology is not fully described or validated.
+  - R1-M4: The DLS data lack proper controls.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is original in its attempt to model the full-length N protein, which is a challenging target. The combination of NSEM and simulations is not entirely novel, but the specific models proposed are new.
+  - **Scientific importance** The N protein is essential for SARS-CoV-2 replication, and understanding its structure and dynamics is important. The proposed models could have implications for drug design and for understanding viral assembly.
+  - **Interdisciplinary readership** The topic is of interest to structural biologists, virologists, and computational biologists. The manuscript is written in a way that is accessible to a broad audience, but the technical details may be challenging for non-specialists.
+  - **Technical soundness** The technical soundness is mixed. The experimental data are limited and the computational models are not fully validated. The manuscript would benefit from more rigorous quantitative analysis and additional controls.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the figures are described clearly. However, the methods section is dense and may be difficult for non-specialists to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents interesting hypotheses, but the evidence is not sufficient to support the central claims. Major revisions are required to address the concerns raised, particularly regarding the validation of the NSEM interpretation and the octameric model.
+
+## Risk / unsupported claims
+- The claim that NSEM particles represent individual NTD/CTD domains in an extended dimer is not quantitatively supported.
+- The octameric model of N bound to RNA is not robustly validated and should be presented as a hypothesis.
+- The claim that RNA binding induces compaction is supported by DLS and simulations, but the DLS data lack controls and the simulations are not fully validated.
+- The claim that the C-terminal tail dimerization is driven by van der Waals interactions is based on a single simulation and requires experimental validation.
+- The claim that the SR-linker residues interact with RNA is based on CG simulations and is not experimentally confirmed.

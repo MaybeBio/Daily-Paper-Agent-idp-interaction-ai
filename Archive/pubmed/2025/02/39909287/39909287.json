@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "pmid": "39909287",
+    "doi": "10.1016/j.plantsci.2025.112413",
+    "title": "Mechanistic insights into DXO1 and XRN3: regulatory roles of RNA stability, transcription, and liquid-liquid phase separation in Arabidopsis thaliana (L.) Heynh."
+  },
+  "content": {
+    "abstract": "The regulation of RNA stability and transcription in eukaryotic organisms is a sophisticated process involving various complex mechanisms. This paper explores the regulatory functions of DXO1 and XRN3 proteins in RNA stability and transcription in the model plant Arabidopsis thaliana (L.) Heynh. DXO1 is noted for its roles in mRNA 5'-end quality control, removal of non-canonical NAD(+) caps, and activation of RNA guanosine-7 methyltransferase. In contrast, XRN3 ensures RNA integrity through precise degradation. While current studies have identified various termination regions across genes influenced by XRN3, advanced RNA sequencing techniques have revealed that XRN3-mediated changes in gene expression often result from siRNA production, leading to gene silencing rather than direct effects on transcription termination. This review emphasizes the need to further explore the DXO1-XRN3 axis, their interactive mechanisms, and their potential involvement in liquid-liquid phase separation (LLPS) during transcription. It further suggests evaluating XRN proteins like XRN4 to assess potential redundancies in RNA degradation pathways. The advent of PSPredictor, a tool for identifying LLPS proteins, along with protein function prediction techniques, promises to advance our understanding of DXO1 and XRN3 in maintaining RNA equilibrium and the dynamics of LLPS in plant biology. The review concludes by calling for more studies on the plant-specific roles of the DXO1 N-terminal extension (NTE), predictive tools for LLPS-forming proteins, and the interplay of RNA Pol II CTD code modulation by transcription factors to enhance knowledge of plant stress adaptation and improve agricultural productivity.",
+    "keywords": [
+      "Capping",
+      "NTE domain",
+      "RNA guanosine-7 methyltransferase",
+      "RNA polymerase II",
+      "mRNA"
+    ],
+    "mesh_terms": [
+      "*Arabidopsis/genetics/metabolism",
+      "*RNA Stability/genetics",
+      "*Arabidopsis Proteins/metabolism/genetics",
+      "*Transcription, Genetic",
+      "*Exoribonucleases/metabolism/genetics",
+      "Gene Expression Regulation, Plant",
+      "RNA, Plant/metabolism/genetics",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Shams, Mostafakamal",
+        "Khadivi, Ali"
+      ],
+      "short_names": [
+        "Shams M",
+        "Khadivi A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Plant Experimental Biology and Biotechnology, Faculty of Biology, University of Gdansk, Gdansk, Poland. Electronic address: mkamalsun@gmail.com.",
+        "Department of Horticultural Sciences, Faculty of Agriculture and Natural Resources, Arak University, Arak 38156-8-8349, Iran. Electronic address: a-khadivi@araku.ac.ir."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Shams, Mostafakamal",
+        "short_name": "Shams M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Plant Experimental Biology and Biotechnology, Faculty of Biology, University of Gdansk, Gdansk, Poland. Electronic address: mkamalsun@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Khadivi, Ali",
+        "short_name": "Khadivi A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Horticultural Sciences, Faculty of Agriculture and Natural Resources, Arak University, Arak 38156-8-8349, Iran. Electronic address: a-khadivi@araku.ac.ir."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Plant science : an international journal of experimental plant biology"
+    ],
+    "journal_abbrev": [
+      "Plant Sci"
+    ],
+    "pub_date": "2025 Apr",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/06 00:21",
+    "fetched_at": "2026-09-21 15:27:37"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39909287",
+      "29356198",
+      "17993620",
+      "36987558",
+      "30949699",
+      "39966730",
+      "33290723",
+      "27988817",
+      "39927756",
+      "31449356",
+      "21224377",
+      "27758893",
+      "27208312",
+      "28126845",
+      "23517755",
+      "22540040",
+      "26842463",
+      "40107731",
+      "24798377",
+      "36066193",
+      "18539108",
+      "22258223",
+      "39162855",
+      "31428786",
+      "22747664",
+      "22461611",
+      "22995833",
+      "30301775",
+      "29386391",
+      "22547781",
+      "36639378",
+      "22689894",
+      "18787168",
+      "34903670",
+      "38721772",
+      "21998686",
+      "22242006",
+      "31562313",
+      "26206233",
+      "20807376",
+      "25041272",
+      "30374093",
+      "33741984",
+      "29199514",
+      "15260969",
+      "20010803",
+      "15528448",
+      "38327052",
+      "29093215",
+      "24463519",
+      "32887800",
+      "18486559",
+      "38971466",
+      "21039560",
+      "35087200",
+      "17085683",
+      "17873091",
+      "33804866",
+      "21605714",
+      "24058624",
+      "21304819",
+      "23144187",
+      "39707902",
+      "31641075",
+      "24332370",
+      "21908688",
+      "21060858",
+      "22545099",
+      "37019716",
+      "25414514",
+      "27900551",
+      "24793761",
+      "40253589",
+      "32541063",
+      "28886274",
+      "34591015",
+      "21252857",
+      "20159589",
+      "17158604",
+      "22512782",
+      "23689372",
+      "26136597",
+      "30152752",
+      "38869231",
+      "31777937",
+      "19204117",
+      "28351991",
+      "22611176",
+      "31988264",
+      "23874224",
+      "28273088",
+      "19054356",
+      "23637343",
+      "21266657",
+      "23641115",
+      "25793418",
+      "38796517",
+      "23542151",
+      "17381327",
+      "18532978"
+    ],
+    "review": [
+      "39909287",
+      "27988817",
+      "23517755",
+      "33804866",
+      "21605714",
+      "37019716",
+      "27900551",
+      "24793761"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0168-9452(25)00030-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-NT5E-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-179",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

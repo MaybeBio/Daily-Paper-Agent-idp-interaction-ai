@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.02.24.432789",
+  "title": "Towards a systematic characterization of protein complex function: a natural language processing and machine-learning framework",
+  "authors": "Varun S. Sharma; Andrea Fossati; Rodolfo Ciuffa; Marija Buljan; Evan G. Williams; Zhen Chen; Wenguang Shao; Patrick G.A. Pedrioli; Anthony W. Purcell; María Rodríguez Martínez; Jiangning Song; Matteo Manica; Ruedi Aebersold; Chen Li",
+  "journal": "bioRxiv",
+  "published_date": "2021-02-25",
+  "window": {
+    "start": "2021-02-22",
+    "end": "2021-02-28"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用自然语言处理和机器学习框架PCfun对蛋白复合物进行GO功能注释，不涉及无序蛋白/IDR、PPI结合机制或AI/物理模拟建模，与本课题关联微弱。",
+  "abstract": "It is a general assumption of molecular biology that the ensemble of expressed molecules, their activities and interactions determine biological processes, cellular states and phenotypes. Quantitative abundance of transcripts, proteins and metabolites are now routinely measured with considerable depth via an array of “OMICS” technologies, and recently a number of methods have also been introduced for the parallel analysis of the abundance, subunit composition and cell state specific changes of protein complexes. In comparison to the measurement of the molecular entities in a cell, the determination of their function remains experimentally challenging and labor-intensive. This holds particularly true for determining the function of protein complexes, which constitute the core functional assemblies of the cell. Therefore, the tremendous progress in multi-layer molecular profiling has been slow to translate into increased functional understanding of biological processes, cellular states and phenotypes. In this study we describe PCfun, a computational framework for the systematic annotation of protein complex function using Gene Ontology (GO) terms. This work is built upon the use of word embedding— natural language text embedded into continuous vector space that preserves semantic relationships— generated from the machine reading of 1 million open access PubMed Central articles. PCfun leverages the embedding for rapid annotation of protein complex function by integrating two approaches: (1) an unsupervised approach that obtains the nearest neighbor (NN) GO term word vectors for a protein complex query vector, and (2) a supervised approach using Random Forest (RF) models trained specifically for recovering the GO terms of protein complex queries described in the CORUM protein complex database. PCfun consolidates both approaches by performing the statistical test for the enrichment of the top NN GO terms within the child terms of the predicted GO terms by RF models. Thus, PCfun amalgamates information learned from the gold-standard protein-complex database, CORUM, with the unbiased predictions obtained directly from the word embedding, thereby enabling PCfun to identify the potential functions of putative protein complexes. The documentation and examples of the PCfun package are available at https://github.com/sharmavaruns/PCfun . We anticipate that PCfun will serve as a useful tool and novel paradigm for the large-scale characterization of protein complex function.",
+  "abstract_zh": "分子生物学的一个普遍假设是，表达分子的集合、其活性及相互作用决定了生物过程、细胞状态和表型。转录本、蛋白质和代谢物的定量丰度现在通过一系列“组学”（OMICS）技术常规地以相当深度进行测量，并且最近也引入了多种方法用于并行分析蛋白质复合物的丰度、亚基组成及细胞状态特异性变化。与测量细胞中分子实体相比，确定其功能在实验上仍然具有挑战性且劳动密集。这一点尤其适用于确定蛋白质复合物的功能，这些复合物构成了细胞的核心功能组装体。因此，多层分子谱分析取得的巨大进展在转化为对生物过程、细胞状态和表型的功能理解方面进展缓慢。在本研究中，我们描述了PCfun，一个利用基因本体论（Gene Ontology, GO）术语对蛋白质复合物功能进行系统注释的计算框架。这项工作基于词嵌入（word embedding）——将自然语言文本嵌入到保留语义关系的连续向量空间中——该嵌入通过对100万篇开放获取的PubMed Central文章进行机器阅读生成。PCfun利用该嵌入通过整合两种方法实现蛋白质复合物功能的快速注释：（1）一种无监督方法，获取蛋白质复合物查询向量的最近邻（NN）GO术语词向量；（2）一种监督方法，使用专门为恢复CORUM蛋白质复合物数据库中描述的蛋白质复合物查询的GO术语而训练的随机森林（Random Forest, RF）模型。PCfun通过执行统计检验，在RF模型预测的GO术语的子术语中富集顶部NN GO术语，从而整合了这两种方法。因此，PCfun融合了从金标准蛋白质复合物数据库CORUM学到的信息与直接从词嵌入获得的无偏预测，使PCfun能够识别推定蛋白质复合物的潜在功能。PCfun包的文档和示例可在https://github.com/sharmavaruns/PCfun获取。我们预期PCfun将作为大规模表征蛋白质复合物功能的有用工具和新范式。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.02.24.432789",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.02.24.432789",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.02.24.432789/index.html"
+}

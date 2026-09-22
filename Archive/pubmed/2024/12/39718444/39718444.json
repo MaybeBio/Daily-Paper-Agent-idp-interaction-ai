@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "39718444",
+    "doi": "10.1002/cpz1.70077",
+    "title": "Searching and Using MobiDB Resource 6 to Explore Predictions and Annotations for Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) make up around 30% of eukaryotic proteomes and play a crucial role in cellular processes and in pathological conditions such as neurodegenerative disorders and cancers. However, IDPs exhibit dynamic conformational ensembles and are often involved in the formation of biomolecular condensates. Understanding the function of IDPs is critical to research in many areas of science. MobiDB is a unique resource that serves as a comprehensive knowledgebase of IDPs and intrinsically disordered regions (IDRs), combining disorder annotations from experimental evidence and predictions for a broad range of protein sequences. Over the past decade, MobiDB has evolved with a focus on expanding annotation coverage, standardizing annotation provenance, and enhancing database accessibility. The latest MobiDB, version 6, released in July 2024, includes significant improvements, such as the integration of AlphaFoldDB predictions and a new homology transfer pipeline that has substantially increased the number of entries with high-quality annotations. The user interface has also been updated, highlighting annotation features, clarifying the entry page, and providing an immediate overview of disorder, binding, and disorder functions information in the protein sequence. This protocol guides the user through applications of the MobiDB, including disorder prediction, curated data analysis, and exploration of interaction data. This guide covers how to perform a search in MobiDB annotations using the web interface and the MobiDB REST API for programmatic access. The protocols use a step-by-step walkthrough using the human growth hormone receptor to demonstrate MobiDB's functions for visualization and interpretation of protein disorder data. (c) 2024 The Author(s). Current Protocols published by Wiley Periodicals LLC. Basic Protocol 1: Searching MobiDB query formats Basic Protocol 2: Searching MobiDB selected datasets and selected proteomes Basic Protocol 3: Performing a search on the Statistics page in MobiDB Support Protocol: Programmatic access with MobiDB REST API Basic Protocol 4: Visualizing and interpreting a MobiDB Entry: The GHR use case.",
+    "keywords": [
+      "MobiDB",
+      "database",
+      "intrinsic disorder predictions",
+      "intrinsically disordered proteins"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Databases, Protein",
+      "Molecular Sequence Annotation",
+      "Humans",
+      "User-Computer Interface",
+      "Computational Biology/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aspromonte, Maria Cristina",
+        "Quaglia, Federica",
+        "Monzon, Alexander Miguel",
+        "Clementel, Damiano",
+        "Del Conte, Alessio",
+        "Piovesan, Damiano",
+        "Tosatto, Silvio C E"
+      ],
+      "short_names": [
+        "Aspromonte MC",
+        "Quaglia F",
+        "Monzon AM",
+        "Clementel D",
+        "Del Conte A",
+        "Piovesan D",
+        "Tosatto SCE"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4937-6952",
+        "ORCID: 0000-0002-0341-4888",
+        "ORCID: 0000-0003-0362-8218",
+        "ORCID: 0000-0002-8052-3519",
+        "ORCID: 0000-0003-4525-7793"
+      ],
+      "affiliations": [
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "These authors contributed equally to this work.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, Italy.",
+        "These authors contributed equally to this work.",
+        "Department of Information Engineering, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aspromonte, Maria Cristina",
+        "short_name": "Aspromonte MC",
+        "identifiers": [
+          "0000-0002-4937-6952"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+          "These authors contributed equally to this work."
+        ]
+      },
+      {
+        "full_name": "Quaglia, Federica",
+        "short_name": "Quaglia F",
+        "identifiers": [
+          "0000-0002-0341-4888"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy.",
+          "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, Italy.",
+          "These authors contributed equally to this work."
+        ]
+      },
+      {
+        "full_name": "Monzon, Alexander Miguel",
+        "short_name": "Monzon AM",
+        "identifiers": [
+          "0000-0003-0362-8218"
+        ],
+        "affiliations": [
+          "Department of Information Engineering, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Clementel, Damiano",
+        "short_name": "Clementel D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Del Conte, Alessio",
+        "short_name": "Del Conte A",
+        "identifiers": [
+          "0000-0002-8052-3519"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Piovesan, Damiano",
+        "short_name": "Piovesan D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [
+          "0000-0003-4525-7793"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padova, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current protocols"
+    ],
+    "journal_abbrev": [
+      "Curr Protoc"
+    ],
+    "pub_date": "2024 Dec",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/24 12:20",
+    "fetched_at": "2026-09-21 14:05:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39470701",
+      "39125972",
+      "38686797",
+      "37904585",
+      "37621223",
+      "36866529",
+      "36416266",
+      "36350672",
+      "34265844",
+      "33647288",
+      "33325498",
+      "32029630",
+      "31824649",
+      "31691821",
+      "31612960",
+      "28453683",
+      "24773235",
+      "22067451"
+    ],
+    "similar": [
+      "39718444",
+      "36416266",
+      "33237329",
+      "32696355",
+      "23815411",
+      "33017101",
+      "39470701",
+      "25361972",
+      "34252246",
+      "29136219",
+      "35789137",
+      "32696395",
+      "22661649",
+      "28381244",
+      "37904585",
+      "31713636",
+      "33305318",
+      "28369666",
+      "28453683",
+      "23946100",
+      "34850135",
+      "39651964",
+      "33719450",
+      "39576583",
+      "30135358",
+      "36458437",
+      "39576585",
+      "31425549",
+      "31756456",
+      "33325498",
+      "34390736",
+      "39475178",
+      "38987470",
+      "37167423",
+      "38166858",
+      "40325419",
+      "27787828",
+      "24573480",
+      "36833360",
+      "27899601",
+      "25496281",
+      "31521235",
+      "36452990",
+      "25502193",
+      "26307973",
+      "20522251",
+      "27115638",
+      "30576490",
+      "34626492",
+      "39576584",
+      "25246432",
+      "34048569",
+      "24150944",
+      "24939692",
+      "27037624",
+      "38079339",
+      "32599863",
+      "36674958",
+      "35436286",
+      "32020911",
+      "38507044",
+      "24178034",
+      "19594884",
+      "34418423",
+      "31441158",
+      "28934129",
+      "35275927",
+      "31207240",
+      "32503351",
+      "22067451",
+      "28365882",
+      "35139468",
+      "24532081",
+      "32159932",
+      "31616935",
+      "38275091",
+      "35034725",
+      "30554840",
+      "36912607",
+      "37892124",
+      "35882686",
+      "38857087",
+      "28076807",
+      "31326853",
+      "37740110",
+      "33036302",
+      "32696351",
+      "32237272",
+      "39401100",
+      "32696367",
+      "38220424",
+      "31797595",
+      "31870849",
+      "28765603",
+      "30717652",
+      "26198229",
+      "26109352",
+      "37634152",
+      "27326998",
+      "26376097"
+    ],
+    "review": [
+      "39718444",
+      "34390736",
+      "40325419",
+      "36833360",
+      "31521235",
+      "25502193",
+      "32020911",
+      "34418423",
+      "31441158",
+      "35139468",
+      "24532081",
+      "31616935",
+      "35882686",
+      "37740110"
+    ],
+    "pmc": [
+      "11668231"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39718444/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/cpz1.70077",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

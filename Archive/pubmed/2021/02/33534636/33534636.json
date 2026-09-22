@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "33534636",
+    "doi": "10.1089/nat.2020.0923",
+    "title": "Solid-Phase Separation of Toxic Phosphorothioate Antisense Oligonucleotide-Protein Nucleolar Aggregates Is Cytoprotective."
+  },
+  "content": {
+    "abstract": "Phosphorothioate antisense oligonucleotides (PS-ASOs) interact with proteins and can localize to or induce the formation of a variety of subcellular PS-ASO-protein or PS-ASO-ribonucleoprotein aggregates. In this study, we show that these different aggregates that form with varying compositions at various concentrations in the cytosol, nucleus, and nucleolus may undergo phase separations in cells. Some aggregates can form with both nontoxic and toxic PS-ASOs, such as PS bodies, paraspeckles, and nuclear filaments. However, toxic PS-ASOs have been shown to form unique nucleolar aggregates that result in nucleolar dysfunction and apoptosis. These include liquid-like aggregates that we labeled \"cloudy nucleoli\" and solid-like perinucleolar filaments. Toxic nucleolar aggregates may undergo solid-phase separation and in the solid phase, protein mobility in and out of the aggregates is limited. Other aggregates appear to undergo liquid-phase separation, including paraspeckles and perinucleolar caps, in which protein mobility is negatively correlated with the binding affinity of the proteins to PS-ASOs. However, PS bodies and nuclear filaments are solid-like aggregates. Importantly, in cells that survived treatment with toxic PS-ASOs, solid-like PS-ASO aggregates accumulated, especially Hsc70-containing nucleolus-like structures, in which modest pre-rRNA transcriptional activity was retained and appeared to mitigate the nucleolar toxicity. This is the first demonstration that exogenous drugs, PS-ASOs, can form aggregates that undergo phase separations and that solid-phase separation of toxic PS-ASO-induced nucleolar aggregates is cytoprotective.",
+    "keywords": [
+      "PS-ASO",
+      "filaments",
+      "nucleolus",
+      "paraspeckle",
+      "phase separation",
+      "protein"
+    ],
+    "mesh_terms": [
+      "Cell Nucleus/drug effects",
+      "Cell Proliferation/drug effects",
+      "Cytoprotection/*drug effects",
+      "HeLa Cells",
+      "Humans",
+      "Oligonucleotides, Antisense/chemistry/genetics/isolation & purification/*pharmacology",
+      "Phosphorothioate Oligonucleotides/chemistry/genetics/isolation & purification/*pharmacology",
+      "Protein Aggregates/genetics",
+      "Protein Binding/drug effects",
+      "Ribonucleoproteins/chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liang, Xue-Hai",
+        "De Hoyos, Cheryl Li",
+        "Shen, Wen",
+        "Zhang, Lingdi",
+        "Fazio, Michael",
+        "Crooke, Stanley T"
+      ],
+      "short_names": [
+        "Liang XH",
+        "De Hoyos CL",
+        "Shen W",
+        "Zhang L",
+        "Fazio M",
+        "Crooke ST"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Core Antisense Research and Ionis Pharmaceuticals, Inc., Carlsbad, California, USA.",
+        "Core Antisense Research and Ionis Pharmaceuticals, Inc., Carlsbad, California, USA.",
+        "Core Antisense Research and Ionis Pharmaceuticals, Inc., Carlsbad, California, USA.",
+        "Core Antisense Research and Ionis Pharmaceuticals, Inc., Carlsbad, California, USA.",
+        "Medicinal Chemistry, Ionis Pharmaceuticals, Inc., Carlsbad, California, USA.",
+        "Core Antisense Research and Ionis Pharmaceuticals, Inc., Carlsbad, California, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liang, Xue-Hai",
+        "short_name": "Liang XH",
+        "identifiers": [],
+        "affiliations": [
+          "Core Antisense Research and Ionis Pharmaceuticals, Inc., Carlsbad, California, USA."
+        ]
+      },
+      {
+        "full_name": "De Hoyos, Cheryl Li",
+        "short_name": "De Hoyos CL",
+        "identifiers": [],
+        "affiliations": [
+          "Core Antisense Research and Ionis Pharmaceuticals, Inc., Carlsbad, California, USA."
+        ]
+      },
+      {
+        "full_name": "Shen, Wen",
+        "short_name": "Shen W",
+        "identifiers": [],
+        "affiliations": [
+          "Core Antisense Research and Ionis Pharmaceuticals, Inc., Carlsbad, California, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Lingdi",
+        "short_name": "Zhang L",
+        "identifiers": [],
+        "affiliations": [
+          "Core Antisense Research and Ionis Pharmaceuticals, Inc., Carlsbad, California, USA."
+        ]
+      },
+      {
+        "full_name": "Fazio, Michael",
+        "short_name": "Fazio M",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry, Ionis Pharmaceuticals, Inc., Carlsbad, California, USA."
+        ]
+      },
+      {
+        "full_name": "Crooke, Stanley T",
+        "short_name": "Crooke ST",
+        "identifiers": [],
+        "affiliations": [
+          "Core Antisense Research and Ionis Pharmaceuticals, Inc., Carlsbad, California, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acid therapeutics"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acid Ther"
+    ],
+    "pub_date": "2021 Apr",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/02/04 06:00",
+    "fetched_at": "2026-09-20 01:14:56"
+  },
+  "links": {
+    "cites": [
+      "41467114",
+      "39554992",
+      "39376536",
+      "38895198",
+      "37804835",
+      "37430086",
+      "36875159",
+      "35852833",
+      "34893881",
+      "34445083"
+    ],
+    "refs": [],
+    "similar": [
+      "33534636",
+      "31429620",
+      "24861627",
+      "25013176",
+      "31036929",
+      "35852833",
+      "33577678",
+      "29514240",
+      "26945041",
+      "31158063",
+      "35861704",
+      "31034558",
+      "31495875",
+      "31009315",
+      "34244781",
+      "31980820",
+      "30927008",
+      "28977508",
+      "31840180",
+      "33567234",
+      "32356888",
+      "29390093",
+      "36749166",
+      "28379543",
+      "36576400",
+      "20673953",
+      "39062597",
+      "30239896",
+      "28663102",
+      "27966701",
+      "28158620",
+      "25398895",
+      "32202774",
+      "35848907",
+      "30570431",
+      "34797690",
+      "28829437",
+      "28641935",
+      "29437530",
+      "32246854",
+      "9571236",
+      "34698585",
+      "28448194",
+      "26546271",
+      "27378781",
+      "34878127",
+      "30508397",
+      "31861275",
+      "26908652",
+      "21028906",
+      "25712094",
+      "26855051",
+      "32589504",
+      "32786803",
+      "27536102",
+      "37099382",
+      "8287366",
+      "32374993",
+      "32043121",
+      "38042877",
+      "30508785",
+      "31165876",
+      "36124719",
+      "30566688",
+      "29069408",
+      "36801361",
+      "31556356",
+      "35238623",
+      "28244996",
+      "33567808",
+      "25654188",
+      "33540294",
+      "24211663",
+      "38648015",
+      "34908418",
+      "29425080",
+      "31863718",
+      "37575283",
+      "9303181",
+      "39190037",
+      "11876654",
+      "34417625",
+      "35801818",
+      "20946775",
+      "35664704",
+      "33544849",
+      "37145959",
+      "30342955",
+      "22634577",
+      "30062829",
+      "17942304",
+      "34994962",
+      "35423918",
+      "38981217",
+      "32233021",
+      "31311315",
+      "29165591",
+      "26774656",
+      "34928745",
+      "18776562",
+      "36355073",
+      "29654340",
+      "38979452",
+      "30871609",
+      "12384553",
+      "25911184",
+      "30660994",
+      "30138565",
+      "31815420",
+      "34064412",
+      "35263186",
+      "29708844",
+      "16690972",
+      "22859208",
+      "11469717",
+      "27500733",
+      "25555591",
+      "25791417",
+      "12683666",
+      "31184975",
+      "34141070",
+      "38660533",
+      "37096163",
+      "38501046",
+      "34242101",
+      "38800826",
+      "35830231",
+      "35214195",
+      "28374018",
+      "36700050",
+      "35042440",
+      "35780036",
+      "34824869",
+      "38895198"
+    ],
+    "review": [
+      "33534636",
+      "32786803",
+      "28244996",
+      "29425080",
+      "35801818",
+      "22634577",
+      "32233021",
+      "25911184"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.sagepub.com/doi/10.1089/nat.2020.0923?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-179",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33534636",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

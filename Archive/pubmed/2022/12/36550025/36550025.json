@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "36550025",
+    "doi": "10.1063/5.0128273",
+    "title": "Multilayered allosteric modulation of coupled folding and binding by phosphorylation, peptidyl-prolyl cis/trans isomerization, and diversity of interaction partners."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) play key roles in cellular regulation, including signal transduction, transcription, and cell-cycle control. Accordingly, IDPs can commonly interact with numerous different target proteins, and their interaction networks are expected to be highly regulated. However, many of the underlying regulatory mechanisms have remained unclear. Here, we examine the representative case of the nuclear coactivator binding domain (NCBD) of the large multidomain protein CBP, a hub in transcriptional regulation, and the interaction with several of its binding partners. Single-molecule Forster resonance energy transfer measurements show that phosphorylation of NCBD reduces its binding affinity, with effects that vary depending on the binding partner and the site and number of modifications. The complexity of the interaction is further increased by the dependence of the affinities on peptidyl-prolyl cis/trans isomerization in NCBD. Overall, our results reveal the potential for allosteric regulation on at least three levels: the different affinities of NCBD for its different binding partners, the differential modulation of these affinities by phosphorylation, and the effect of peptidyl-prolyl cis/trans isomerization on binding.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phosphorylation",
+      "Isomerism",
+      "*Proteins/metabolism",
+      "*Protein Folding",
+      "Protein Binding",
+      "Peptidylprolyl Isomerase/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Buholzer, Karin J",
+        "McIvor, Jordan",
+        "Zosel, Franziska",
+        "Teppich, Christian",
+        "Nettels, Daniel",
+        "Mercadante, Davide",
+        "Schuler, Benjamin"
+      ],
+      "short_names": [
+        "Buholzer KJ",
+        "McIvor J",
+        "Zosel F",
+        "Teppich C",
+        "Nettels D",
+        "Mercadante D",
+        "Schuler B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2324-5492",
+        "ORCID: 0000-0002-6558-994X",
+        "ORCID: 0000-0002-5137-6601",
+        "ORCID: 0000-0003-1794-8431",
+        "ORCID: 0000-0003-3872-4955",
+        "ORCID: 0000-0001-6792-7706",
+        "ORCID: 0000-0002-5970-4251"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "School of Chemical Sciences, The University of Auckland, Auckland, New Zealand.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Buholzer, Karin J",
+        "short_name": "Buholzer KJ",
+        "identifiers": [
+          "0000-0003-2324-5492"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "McIvor, Jordan",
+        "short_name": "McIvor J",
+        "identifiers": [
+          "0000-0002-6558-994X"
+        ],
+        "affiliations": [
+          "School of Chemical Sciences, The University of Auckland, Auckland, New Zealand."
+        ]
+      },
+      {
+        "full_name": "Zosel, Franziska",
+        "short_name": "Zosel F",
+        "identifiers": [
+          "0000-0002-5137-6601"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Teppich, Christian",
+        "short_name": "Teppich C",
+        "identifiers": [
+          "0000-0003-1794-8431"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Nettels, Daniel",
+        "short_name": "Nettels D",
+        "identifiers": [
+          "0000-0003-3872-4955"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Mercadante, Davide",
+        "short_name": "Mercadante D",
+        "identifiers": [
+          "0000-0001-6792-7706"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Schuler, Benjamin",
+        "short_name": "Schuler B",
+        "identifiers": [
+          "0000-0002-5970-4251"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The Journal of chemical physics"
+    ],
+    "journal_abbrev": [
+      "J Chem Phys"
+    ],
+    "pub_date": "2022 Dec 21",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/12/23 06:00",
+    "fetched_at": "2026-09-20 17:54:17"
+  },
+  "links": {
+    "cites": [
+      "42543922",
+      "40673718",
+      "39539017",
+      "38915510",
+      "38238333",
+      "37957331"
+    ],
+    "refs": [],
+    "similar": [
+      "36550025",
+      "30127362",
+      "17876319",
+      "23025283",
+      "25702031",
+      "25866209",
+      "27840395",
+      "30093407",
+      "23445547",
+      "25066180",
+      "36018855",
+      "9548941",
+      "21766125",
+      "10422840",
+      "25585011",
+      "11350175",
+      "10424896",
+      "15867923",
+      "14729669",
+      "22670809",
+      "25676311",
+      "11428902",
+      "32256312",
+      "12860119",
+      "12686540",
+      "12547205",
+      "11090625",
+      "20214639",
+      "16706410",
+      "1985948",
+      "23980573",
+      "30314361",
+      "26527152",
+      "15574377",
+      "12054805",
+      "25445709",
+      "22253588",
+      "24403063",
+      "24468661",
+      "25641576",
+      "18498364",
+      "14967043",
+      "9563833",
+      "34279937",
+      "22064478",
+      "21527244",
+      "16024016",
+      "9398241",
+      "17317620",
+      "35184231",
+      "10731431",
+      "10824113",
+      "14691750",
+      "32426354",
+      "23783631",
+      "32096737",
+      "25874604",
+      "25284755",
+      "11724963",
+      "12079389",
+      "16787258",
+      "16223489",
+      "11456485",
+      "12927209",
+      "25750190",
+      "16331962",
+      "11118482",
+      "19920179",
+      "26456073",
+      "20129060",
+      "21523562",
+      "9356262",
+      "9598969",
+      "21660049",
+      "25747528",
+      "9720925",
+      "15147846",
+      "23888048",
+      "39074869",
+      "27836548",
+      "21454638",
+      "19232524",
+      "23585180",
+      "10922466",
+      "12729748",
+      "19448664",
+      "2185035",
+      "24840168",
+      "25377120",
+      "24726894",
+      "26602185",
+      "21661729",
+      "10744752",
+      "19128175"
+    ],
+    "review": [
+      "36550025",
+      "17876319",
+      "25585011",
+      "10424896",
+      "15867923",
+      "25676311",
+      "30314361",
+      "15574377",
+      "25445709",
+      "25641576",
+      "14691750",
+      "32426354",
+      "25874604",
+      "16787258",
+      "25750190",
+      "21523562",
+      "9598969",
+      "23585180",
+      "25377120"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.5167/uzh-226442",
+        "provider": "Zurich Open Access Repository and Archive",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://pubs.aip.org/aip/jcp/article-lookup/doi/10.1063/5.0128273",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose that ensemble averaging over the vast conformational space of intrinsically disordered proteins (IDPs) simplifies the decomposition of ligand-binding affinity into two independent components, namely the ligandability of the IDP and the capacity of the ligand. They further claim this decomposition enables virtual screening for IDPs and provides insight into specificity differences between IDPs and ordered proteins, where specificity arises from deviation from baseline binding behavior.
+- **Visible evidence base** Abstract text only; no quantitative results, statistical measures, or methodological details are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, any computational or experimental validation data, and details of the virtual screening application
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing conceptual hypothesis that statistical mechanics principles applied to IDP conformational ensembles could yield a simple additive decomposition of binding affinity. However, the abstract alone provides no quantitative evidence, no formal derivation, and no validation of the proposed decomposition. The claim that this decomposition "can be reliably" applied to virtual screening is unsupported by any presented data. The conceptual framing is potentially interesting to the IDP and drug discovery communities, but the current evidence base is insufficient to assess technical soundness or establish the central claims.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those interested in protein-ligand interactions, binding thermodynamics, and drug discovery targeting IDPs. Computational biophysicists and statistical mechanicians may also find the conceptual link between ensemble averaging and affinity decomposition appealing. The potential practical application to virtual screening would interest medicinal chemists and structural biologists working on IDP targets.
+- **Major strengths** The conceptual idea is novel and potentially impactful, connecting well-established statistical mechanics principles to the emerging field of IDP drug discovery. The framing of specificity as deviation from baseline behavior offers a fresh perspective that could unify observations across IDP and ordered protein systems. The proposed decomposition, if validated, could simplify computational screening efforts for IDPs.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that ligand-binding affinity for IDPs "can be reliably decomposed into a sum of the ligandability of IDP and the capacity of the ligand."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative demonstration, no derivation, and no validation of the proposed additive decomposition. No data are shown to support the reliability of this decomposition across different IDP-ligand systems.
+  - **Why it matters** The central claim of the paper rests on this decomposition being both accurate and general. Without any supporting evidence, the claim is unsubstantiated and cannot be evaluated for correctness or scope of applicability.
+  - **Resolution test** Provide a formal derivation or computational validation showing that the decomposition holds across multiple IDP-ligand pairs, with quantitative error metrics and comparison to full binding affinity calculations or experimental data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors state that the decomposition "is applied to facilitate the virtual screening upon IDPs."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No results from any virtual screening application are presented. There is no indication of screening performance, enrichment factors, hit rates, or comparison to alternative screening methods.
+  - **Why it matters** The practical utility of the proposed approach is a key selling point of the work. Without demonstrated screening outcomes, the claim of facilitation is speculative and cannot be assessed.
+  - **Resolution test** Present virtual screening results, including benchmark performance metrics, comparison to standard screening tools, and ideally experimental validation of identified hits.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Conceptual clarity
+  - **Claim pointer** The authors claim that "specificity is caused by deviation from the baseline behavior of protein-ligand binding."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not define what constitutes "baseline behavior" or how deviations are quantified. The relationship between this deviation and specificity is stated without elaboration or supporting analysis.
+  - **Why it matters** This claim is presented as an "essential insight" but lacks the conceptual precision needed for readers to understand or test the hypothesis. Without a clear operational definition, the insight cannot be evaluated or applied.
+  - **Resolution test** Provide a precise definition of baseline behavior, a quantitative measure of deviation, and evidence linking this measure to experimentally observed specificity differences between IDPs and ordered proteins.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The phrase "More is simpler" is catchy but ambiguous. It is unclear whether it refers to more conformations, more degrees of freedom, or more ligands.
+  - **Required correction** Clarify the meaning in the title or abstract, for example by specifying "more conformations" or "more degrees of freedom."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The terms "ligandability of IDP" and "capacity of the ligand" are introduced without definition. These are not standard terms in the field and their meaning is unclear.
+  - **Required correction** Define both terms explicitly, ideally with mathematical expressions, in the abstract or introduction.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not specify the types of ligands considered (small molecules, peptides, nucleic acids) or the range of IDP systems studied.
+  - **Required correction** State the scope of ligand types and IDP systems covered in the study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The central decomposition claim and the virtual screening application claim both lack any supporting evidence in the provided material. Without quantitative validation and demonstrated screening utility, the core case is not established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The conceptual idea is original and potentially novel, linking statistical mechanics ensemble thinking to IDP binding affinity decomposition. This is a creative framing.
+  - Scientific importance: If validated, the work could have significant impact on IDP drug discovery and understanding of IDP binding thermodynamics. However, importance is contingent on the claims being substantiated.
+  - Interdisciplinary readership: The topic bridges statistical mechanics, biophysics, and drug discovery, which could attract a broad readership. The abstract is written in an accessible style for nonspecialists.
+  - Technical soundness: Cannot be assessed from the abstract alone. No methods, derivations, or validation data are provided.
+  - Readability for nonspecialists: The abstract is generally readable, though the undefined terms "ligandability" and "capacity" may confuse nonspecialists.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing is promising and warrants full evaluation, but the abstract alone does not provide sufficient evidence to support the central claims. A revised assessment would require the full manuscript with methods, validation data, and screening results.
+
+## Risk / unsupported claims
+- The claim that ligand-binding affinity for IDPs can be "reliably decomposed" into two additive components is unsupported by any presented evidence.
+- The claim that this decomposition "facilitates" virtual screening is unsupported, as no screening results are shown.
+- The claim that specificity differences between IDPs and ordered proteins are "caused by deviation from baseline behavior" is presented without definition or supporting analysis.
+- The general applicability of the decomposition across different IDP systems and ligand types is unassessable from the abstract.

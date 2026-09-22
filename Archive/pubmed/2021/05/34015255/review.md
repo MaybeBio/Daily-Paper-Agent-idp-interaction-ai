@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table references.
+- **Assessment boundary** Scientific validity, methodological rigor, interpretation of results, and alignment with claims made in the abstract and discussion. No assessment of grammar or formatting.
+- **Shared manuscript claim summary** The authors use time-resolved Förster resonance energy transfer (trFRET) distance distributions as restraints in discrete molecular dynamics (DMD) simulations to construct a conformational ensemble of monomeric α-synuclein. They validate this ensemble with far-UV circular dichroism (CD) and cross-linking mass spectrometry (XL-MS). Single-molecule protein-induced fluorescence enhancement (smPIFE) measurements suggest that some structural subpopulations interconvert on timescales slower than milliseconds. The authors propose that specific subpopulations resemble structures relevant to membrane binding, oligomerization, and fibril formation.
+- **Visible evidence base** Figures 1–7, Tables S1–S5, supplementary figures S1–S11, deposited data (Zenodo, PDBDEV_000082, PXD024671).
+- **Missing materials affecting confidence** Raw smPIFE burst data, detailed clustering parameters beyond those described, full XL-MS crosslink lists (only summarized in Table S4), and explicit error analysis for the DMD ensemble. The manuscript states that data are deposited, but the review is based on the text and figures as provided.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a technically ambitious integration of experimental distance restraints with DMD simulations to characterize the conformational landscape of monomeric α-synuclein. The validation against CD and XL-MS is a strength, and the smPIFE data provide a novel perspective on slow conformational dynamics. However, the central claim of millisecond interconversion times is supported by indirect evidence, and the link between specific clusters and functional states (membrane binding, oligomerization, fibrillization) is largely speculative. The computational methodology is sound but the interpretation of smPIFE data requires more rigorous justification. The manuscript is of interest to the structural biology and neurodegeneration communities, but the conclusions are not fully established from the evidence presented.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, α-synuclein structure and aggregation, and those developing integrative computational-experimental approaches to characterize conformational ensembles. The slow interconversion times reported could be relevant to understanding how α-synuclein samples functional and pathogenic states.
+- **Major strengths** 1) The use of trFRET distance distributions as restraints is a sophisticated approach that leverages information not commonly used in DMD. 2) The orthogonal validation with CD and XL-MS strengthens confidence in the simulated ensemble. 3) The smPIFE experiments are a creative application of a single-molecule technique to probe dynamics in an IDP. 4) The identification of specific clusters with structural features reminiscent of membrane-bound, tetrameric, and fibrillar states provides testable hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of smPIFE data
+  - **Claim pointer** The abstract and results state that smPIFE measurements show "some of the conformations of α-synuclein are surprisingly stable, exhibiting conformational transitions slower than milliseconds."
+  - **Evidence pointer** Figure 5, Figure 6, section "Single-molecule protein-induced fluorescence enhancement"
+  - **Concern** The smPIFE data are interpreted as evidence for distinct subpopulations with slow interconversion. However, the analysis relies on burst recurrence analysis, which is qualitative. The manuscript does not provide a quantitative model linking fluorescence lifetime changes to specific conformational transitions, nor does it rule out alternative explanations such as photophysical artifacts, dye interactions with the protein, or transient oligomerization at the low concentrations used. The distinction between "subpopulations" and a continuous distribution of lifetimes is not rigorously established.
+  - **Why it matters** The claim of millisecond interconversion is a central novelty of the paper. If the smPIFE data do not robustly support this, the main conclusion is weakened. The authors need to demonstrate that the observed lifetime subpopulations correspond to distinct conformational states and that the transitions between them are indeed conformational in origin.
+  - **Resolution test** Provide a quantitative analysis of the smPIFE data, including a model that accounts for the expected lifetime distributions for a given conformational ensemble. Show that the observed subpopulations are not artifacts of dye photophysics or protein concentration. Ideally, correlate smPIFE results with an independent method such as single-molecule FRET or NMR relaxation dispersion.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Ensemble validation and cluster assignment
+  - **Claim pointer** The manuscript claims that the DMD ensemble is validated by CD and XL-MS, and that eight distinct clusters represent structurally meaningful subpopulations.
+  - **Evidence pointer** Figure 3, section "Experimental validation of the predicted conformational ensemble", section "Structural properties of α-synuclein conformational ensemble"
+  - **Concern** The validation against CD and XL-MS is presented as agreement, but the criteria for agreement are not clearly defined. For CD, the secondary structure percentages are compared, but the error bars on the simulated values are not shown. For XL-MS, the statement that "all 125 constraints are satisfied by at least one of the eight clusters" is weak, as it does not indicate how many structures within a cluster satisfy a given constraint, nor whether the constraints are equally distributed across clusters. The clustering method is described, but the choice of the number of clusters (eight) is not justified beyond the criteria in the methods.
+  - **Why it matters** The identification of eight clusters is central to the subsequent analysis linking clusters to functional states. If the clusters are not robust or the validation is not quantitative, the assignment of specific clusters to membrane-bound, tetrameric, or fibrillar states is not well supported.
+  - **Resolution test** Provide a quantitative comparison between simulated and experimental CD spectra, including error estimates. For XL-MS, report the fraction of structures in each cluster that satisfy each crosslink, and show that the constraints are not trivially satisfied by all clusters. Justify the number of clusters using a more rigorous metric, such as the gap statistic or silhouette analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional relevance of identified clusters
+  - **Claim pointer** The discussion states that specific clusters "might represent the subpopulation of forming oligomers" and "might play a crucial role in fibril formation."
+  - **Evidence pointer** Figure 7, section "Discussion"
+  - **Concern** The assignment of functional relevance to specific clusters is based on visual similarity and secondary structure content. The manuscript does not provide quantitative measures of similarity to known structures (e.g., RMSD distributions to membrane-bound or fibrillar states are shown, but the significance of these values is not discussed). The claim that cluster 1 is most similar to fibrillar states is based on the lowest RMSD, but the absolute RMSD values (e.g., 11.1 Å) are high, and the p-values only indicate that the lowest RMSD is significantly different from the distribution, not that the structure is a good model for the fibrillar state.
+  - **Why it matters** The paper aims to link monomeric conformations to functional outcomes. If the structural similarity is not quantitatively robust, the proposed structure-function relationships are speculative.
+  - **Resolution test** Provide a more rigorous structural comparison, such as calculating the fraction of native contacts or using a shape-based similarity metric. Discuss the absolute RMSD values in the context of what is considered a meaningful structural match for IDPs. Consider whether the identified clusters are enriched in specific structural features that are known to be important for membrane binding or aggregation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** DMD simulation details
+  - **Evidence pointer** Section "Discrete molecular dynamics simulations of α-synuclein"
+  - **Issue** The description of the DMD simulation protocol is brief. The force field parameters, the length of the simulations, the number of independent runs, and the criteria for convergence are not fully described.
+  - **Required correction** Provide more details on the simulation protocol, including the number of independent simulations, the total simulation time, and how convergence was assessed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Comparison of simulated and experimental CD data
+  - **Evidence pointer** Figure 3B
+  - **Issue** The error bars for the simulated secondary structure content are not shown, making it difficult to assess the significance of the agreement with the CD data.
+  - **Required correction** Include error estimates for the simulated ensemble, either from multiple independent simulations or from bootstrapping.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of XL-MS data
+  - **Affected element** Section "Experimental validation of the predicted conformational ensemble"
+  - **Evidence pointer** Figure 3C
+  - **Issue** The statement that "the N-terminal segment is highly connected intra-segmentally" is based on the crosslinking data, but the figure does not clearly show the distribution of crosslinks across the protein sequence.
+  - **Required correction** Provide a more detailed representation of the crosslinks, such as a contact map or a linear diagram showing the crosslinked residue pairs.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Abstract and discussion
+  - **Evidence pointer** Abstract, Discussion
+  - **Issue** The term "subpopulations" is used to describe both the clusters from the DMD simulation and the lifetime populations from smPIFE. It is not always clear which is being referred to.
+  - **Required correction** Use distinct terminology for the computational clusters and the experimental lifetime populations to avoid confusion.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (smPIFE interpretation) is the primary technical failing. The link between the observed lifetime subpopulations and conformational states is not established. R1-M2 (ensemble validation) also needs to be addressed with more quantitative comparisons.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The combination of trFRET restraints with DMD and the application of smPIFE to α-synuclein is novel. The identification of specific clusters with functional relevance is a creative approach.
+  - **Scientific importance** The question of how monomeric α-synuclein structure relates to its function and dysfunction is of high importance. The finding of slow interconversion times, if confirmed, would have implications for understanding the early steps of aggregation.
+  - **Interdisciplinary readership** The work bridges computational biophysics, single-molecule spectroscopy, and structural biology. It would be of interest to a broad readership in these fields.
+  - **Technical soundness** The computational methodology is sound, but the interpretation of the smPIFE data is not sufficiently rigorous. The validation against CD and XL-MS is suggestive but not quantitative.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but the methods section is dense. The main findings are clearly stated in the abstract and discussion.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core computational approach is promising, and the validation strategy is thoughtful. However, the central claim of millisecond interconversion times is not currently established from the provided evidence. The authors must provide a more rigorous analysis of the smPIFE data and a more quantitative validation of the ensemble.
+
+## Risk / unsupported claims
+- The claim that "some of the conformations of α-synuclein are surprisingly stable, exhibiting conformational transitions slower than milliseconds" is not fully supported by the smPIFE data as presented.
+- The assignment of specific clusters to functional states (membrane binding, oligomerization, fibrillization) is speculative and not quantitatively justified.
+- The statement that the ensemble is "confirmed" by CD and XL-MS is overstated; the agreement is qualitative.
+- The claim that the structures in cluster 1 are "most similar" to fibrillar states is based on RMSD values that are high and may not be meaningful.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.25.509363",
+  "title": "Structural and Dynamical Properties of Elastin-Like Peptides near their Lower Critical Solution Temperature",
+  "authors": "Morozova TI; García NA; Matsarskaia O; Roosen-Runge F; Barrat J",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-26",
+  "window": {
+    "start": "2022-09-26",
+    "end": "2022-10-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用全原子分子动力学模拟研究弹性蛋白样无序肽(ELP)在LCST附近的构象与多链聚集动态，聚焦链间相互作用与温度依赖的聚集机制，虽非典型PPI复合物，但为IDP介导的互作与相分离机制建模提供了可迁移的物理模拟思路。",
+  "abstract": "Elastin-like peptides (ELPs) are artificially derived intrinsically disordered proteins (IDPs) mimicking the hydrophobic repeat unit in the protein elastin. ELPs are characterized by a lower critical solution temperature (LCST) in aqueous media. Here, we investigate the sequence GVG(VPGVG) 3 over a wide range of temperatures (below, around, and above the LCST) and peptide concentrations employing all-atom molecular dynamics simulations, where we focus on the role of intra- and inter-peptide interactions. We begin by investigating the structural properties of a single peptide that demonstrates a hydrophobic collapse with temperature, albeit moderate, as the sequence length is short. We observe a change in the interaction between two peptides from repulsive to attractive with temperature by evaluating the potential of mean force, indicating an LCST-like behaviour. Next, we explore dynamical and structural properties of peptides in multi-chain systems. We report the formation of dynamical aggregates with coil-like conformation, in which Val central residues play an important role. Moreover, the lifetime of contacts between chains strongly depends on the temperature and can be described by a power-law decay that is consistent with the LCST-like behaviour. Finally, the peptide translational and internal motion are slowed down by an increase in the peptide concentration and temperature.",
+  "abstract_zh": "弹性蛋白样肽（ELPs）是人工衍生的固有无序蛋白（IDPs），模拟弹性蛋白中的疏水重复单元。ELPs在水介质中具有较低临界溶解温度（LCST）的特征。在此，我们利用全原子分子动力学模拟，在广泛的温度范围（低于、接近和高于LCST）及肽浓度下研究序列GVG(VPGVG)₃，重点关注肽内和肽间相互作用的作用。我们首先研究单肽的结构性质，其表现出随温度升高而发生的疏水塌缩，尽管由于序列长度较短，这种塌缩程度适中。通过评估平均力势，我们观察到两条肽之间的相互作用随温度从排斥转变为吸引，表明具有类似LCST的行为。接下来，我们探索多链系统中肽的动力学和结构性质。我们报告了具有线圈状构象的动态聚集体的形成，其中Val中心残基发挥重要作用。此外，链间接触的寿命强烈依赖于温度，并可通过幂律衰减描述，这与类似LCST的行为一致。最后，肽的平移和内部运动因肽浓度和温度的增加而减慢。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.25.509363",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.25.509363",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.25.509363/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39579816",
+  "title": "Differential effects of SARS-CoV-2 amyloidogenic segments on the aggregation and toxicity of human islet amyloid polypeptide within membrane environments.",
+  "authors": "Zhang, Jianing; Mesias, Vince St Dollente; Chesney, Andrew D; Anand, Vignesh K; Feng, Xianzhen; Hsing, I-Ming; Hansmann, Ulrich H E; Huang, Jinqing",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2024-11-24",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合分子动力学模拟与多种生物物理实验，探究SARS-CoV-2淀粉样片段SK9/FI10在膜环境中对IDP hIAPP聚集及毒性的差异化影响，聚焦IDP聚集机制与互作，但PPI机制建模深度有限，故评7分。",
+  "abstract": "Human islet amyloid polypeptide (hIAPP), an intrinsically disordered protein (IDP), plays a significant role in the pathogenesis of type 2 diabetes through its aggregation. Recent studies have suggested that certain viral protein segments exhibit amyloidogenic potential and may influence its amyloid aggregations associated with pathogenesis. However, the potential link between recurrent SARS-CoV-2 infections and the exacerbation of type 2 diabetes remains poorly understood. In this study, we explore how the amyloidogenic segments of SARS-CoV-2, specifically SK9 and FI10, influence the aggregation of hIAPP and the toxicity of the resulting conformers in a membrane environment. To investigate this, we utilized a range of biophysical techniques, including circular dichroism, nuclear magnetic resonance, atomic force microscopy, dynamic light scattering, fluorescence assays, and cell cytotoxicity assays, complemented by molecular dynamics simulations. Our results indicate that SK9 and FI10 promote hIAPP aggregation in a membrane-mimicking environment, forming distinct aggregate structures. Specifically, SK9 accelerates rapid fibril formation due to inter-chain interactions, while FI10 stabilizes oligomeric aggregates primarily through intra-chain contacts. These results reveal the differential effects of viral protein segments on amyloid formation pathways and aggregate characteristics, providing new insights into the mechanisms of amyloid aggregation for developing better therapeutic strategies against amyloid-associated diseases, particularly diabetes.",
+  "abstract_zh": "人胰岛淀粉样多肽（hIAPP），一种 intrinsically disordered protein (IDP)，通过其聚集在2型糖尿病的发病机制中发挥重要作用。近期研究表明，某些病毒蛋白片段具有淀粉样变性潜力，并可能影响与发病机制相关的淀粉样聚集。然而，反复感染SARS-CoV-2与2型糖尿病恶化之间的潜在联系仍知之甚少。在本研究中，我们探讨了SARS-CoV-2的淀粉样变性片段，特别是SK9和FI10，如何在膜环境中影响hIAPP的聚集及所得构象体的毒性。为探究此问题，我们利用了一系列生物物理技术，包括圆二色谱、核磁共振、原子力显微镜、动态光散射、荧光分析和细胞毒性实验，并辅以分子动力学模拟。我们的结果表明，SK9和FI10在膜模拟环境中促进hIAPP聚集，形成不同的聚集体结构。具体而言，SK9通过链间相互作用加速快速原纤维形成，而FI10主要通过链内接触稳定寡聚体聚集体。这些结果揭示了病毒蛋白片段对淀粉样形成途径和聚集体特性的差异性影响，为理解淀粉样聚集机制提供了新见解，有助于开发针对淀粉样相关疾病（尤其是糖尿病）的更优治疗策略。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39579816/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39579816/",
+  "paper_page_path": "papers/pubmed/39579816/index.html"
+}

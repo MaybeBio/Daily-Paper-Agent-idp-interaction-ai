@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34461937",
+  "title": "On the roles of intrinsically disordered proteins and regions in cell communication and signaling.",
+  "authors": "Bondos, Sarah E; Dunker, A Keith; Uversky, Vladimir N",
+  "journal": "Cell communication and signaling : CCS",
+  "published_date": "2021-09-01",
+  "window": {
+    "start": "2021-08-30",
+    "end": "2021-09-05"
+  },
+  "score": 5,
+  "one_liner_zh": "该文是IDP/IDR在细胞通讯与信号传导中作用的主题合集综述，涵盖多种生物中的无序蛋白功能，但未涉及具体PPI机制建模或AI/物理模拟方法，仅提供背景框架。",
+  "abstract": "For proteins, the sequence --> structure --> function paradigm applies primarily to enzymes, transmembrane proteins, and signaling domains. This paradigm is not universal, but rather, in addition to structured proteins, intrinsically disordered proteins and regions (IDPs and IDRs) also carry out crucial biological functions. For these proteins, the sequence --> IDP/IDR ensemble --> function paradigm applies primarily to signaling and regulatory proteins and regions. Often, in order to carry out function, IDPs or IDRs cooperatively interact, either intra- or inter-molecularly, with structured proteins or other IDPs or intermolecularly with nucleic acids. In this IDP/IDR thematic collection published in Cell Communication and Signaling, thirteen articles are presented that describe IDP/IDR signaling molecules from a variety of organisms from humans to fruit flies and tardigrades (\"water bears\") and that describe how these proteins and regions contribute to the function and regulation of cell signaling. Collectively, these papers exhibit the diverse roles of disorder in responding to a wide range of signals as to orchestrate an array of organismal processes. They also show that disorder contributes to signaling in a broad spectrum of species, ranging from micro-organisms to plants and animals.",
+  "abstract_zh": "对于蛋白质而言，序列→结构→功能的范式主要适用于酶、跨膜蛋白和信号传导结构域。这一范式并非普遍适用，而是除了结构化蛋白质之外， intrinsically disordered proteins and regions (IDPs and IDRs)（内在无序蛋白和区域）也执行着关键的生物学功能。对于这些蛋白质，序列→IDP/IDR集合→功能的范式主要适用于信号传导和调控蛋白及区域。通常，为了执行功能，IDPs或IDRs会通过分子内或分子间的方式与结构化蛋白质或其他IDPs协同相互作用，或与核酸进行分子间相互作用。在本期《Cell Communication and Signaling》发表的IDP/IDR主题合集中，共收录了十三篇文章，这些文章描述了来自多种生物（从人类到果蝇及水熊虫（“水熊”））的IDP/IDR信号分子，并阐述了这些蛋白质和区域如何促进细胞信号传导的功能与调控。总体而言，这些论文展示了无序性在响应广泛信号以协调多种生物过程方面的多样作用，同时也表明无序性在从微生物到植物和动物的广泛物种谱系中对信号传导的贡献。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34461937/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34461937/",
+  "paper_page_path": "papers/pubmed/34461937/index.html"
+}

@@ -1,0 +1,289 @@
+{
+  "identity": {
+    "pmid": "36088077",
+    "doi": "10.1016/bs.apcsb.2022.06.002",
+    "title": "Intrinsically disordered proteins in viral pathogenesis and infections."
+  },
+  "content": {
+    "abstract": "Disordered proteins serve a crucial part in many biological processes that go beyond the capabilities of ordered proteins. A large number of virus-encoded proteins have extremely condensed proteomes and genomes, which results in highly disordered proteins. The presence of these IDPs allows them to rapidly adapt to changes in their biological environment and play a significant role in viral replication and down-regulation of host defense mechanisms. Since viruses undergo rapid evolution and have a high rate of mutation and accumulation in their proteome, IDPs' insights into viruses are critical for understanding how viruses hijack cells and cause disease. There are many conformational changes that IDPs can adopt in order to interact with different protein partners and thus stabilize the particular fold and withstand high mutation rates. This chapter explains the molecular mechanism behind viral IDPs, as well as the significance of recent research in the field of IDPs, with the goal of gaining a deeper comprehension of the essential roles and functions played by viral proteins.",
+    "keywords": [
+      "Disorder proteins",
+      "Flavivirus",
+      "HIV-1",
+      "IDP",
+      "IDP servers",
+      "IPDs",
+      "Molecular dynamics",
+      "PONDR",
+      "Proteins",
+      "SARS-CoV-2",
+      "Viral proteome",
+      "Virulence",
+      "Virus"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/metabolism",
+      "Protein Conformation",
+      "Proteome/genetics",
+      "Viral Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Selvaraj, Chandrabose",
+        "Pravin, Muthuraja Arun",
+        "Alhoqail, Wardah A",
+        "Nayarisseri, Anuraj",
+        "Singh, Sanjeev Kumar"
+      ],
+      "short_names": [
+        "Selvaraj C",
+        "Pravin MA",
+        "Alhoqail WA",
+        "Nayarisseri A",
+        "Singh SK"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computer Aided Drug Design and Molecular Modeling Lab, Department of Bioinformatics, Science Block, Alagappa University, Karaikudi, Tamil Nadu, India. Electronic address: drbioselva@gmail.com.",
+        "Computer Aided Drug Design and Molecular Modeling Lab, Department of Bioinformatics, Science Block, Alagappa University, Karaikudi, Tamil Nadu, India.",
+        "Department of Biology, College of Education, Majmaah University, Al Majma'ah, Saudi Arabia.",
+        "In Silico Research Laboratory, Eminent Biosciences, Indore, Madhya Pradesh, India.",
+        "Computer Aided Drug Design and Molecular Modeling Lab, Department of Bioinformatics, Science Block, Alagappa University, Karaikudi, Tamil Nadu, India. Electronic address: skysanjeev@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Selvaraj, Chandrabose",
+        "short_name": "Selvaraj C",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Aided Drug Design and Molecular Modeling Lab, Department of Bioinformatics, Science Block, Alagappa University, Karaikudi, Tamil Nadu, India. Electronic address: drbioselva@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Pravin, Muthuraja Arun",
+        "short_name": "Pravin MA",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Aided Drug Design and Molecular Modeling Lab, Department of Bioinformatics, Science Block, Alagappa University, Karaikudi, Tamil Nadu, India."
+        ]
+      },
+      {
+        "full_name": "Alhoqail, Wardah A",
+        "short_name": "Alhoqail WA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, College of Education, Majmaah University, Al Majma'ah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Nayarisseri, Anuraj",
+        "short_name": "Nayarisseri A",
+        "identifiers": [],
+        "affiliations": [
+          "In Silico Research Laboratory, Eminent Biosciences, Indore, Madhya Pradesh, India."
+        ]
+      },
+      {
+        "full_name": "Singh, Sanjeev Kumar",
+        "short_name": "Singh SK",
+        "identifiers": [],
+        "affiliations": [
+          "Computer Aided Drug Design and Molecular Modeling Lab, Department of Bioinformatics, Science Block, Alagappa University, Karaikudi, Tamil Nadu, India. Electronic address: skysanjeev@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advances in protein chemistry and structural biology"
+    ],
+    "journal_abbrev": [
+      "Adv Protein Chem Struct Biol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/09/11 06:00",
+    "fetched_at": "2026-09-20 14:51:43"
+  },
+  "links": {
+    "cites": [
+      "42008461"
+    ],
+    "refs": [],
+    "similar": [
+      "36088077",
+      "33719450",
+      "32828463",
+      "31425549",
+      "31739058",
+      "32696395",
+      "34168211",
+      "31441158",
+      "35196007",
+      "29080786",
+      "35034725",
+      "32045581",
+      "23170892",
+      "25496281",
+      "29643398",
+      "33355572",
+      "31521237",
+      "32020911",
+      "34656333",
+      "27867910",
+      "34656328",
+      "38987470",
+      "36420436",
+      "38220424",
+      "33260713",
+      "34626492",
+      "26387104",
+      "26376097",
+      "38039868",
+      "34347206",
+      "38096754",
+      "39025183",
+      "30066087",
+      "34504009",
+      "27062995",
+      "38296708",
+      "40383327",
+      "32103094",
+      "32579908",
+      "29982297",
+      "23713779",
+      "30813315",
+      "30218496",
+      "34452345",
+      "39560655",
+      "33230318",
+      "37634152",
+      "30471705",
+      "38338831",
+      "25974317",
+      "29306779",
+      "28525284",
+      "39807013",
+      "27844185",
+      "27212129",
+      "39163306",
+      "31521236",
+      "32859072",
+      "30352491",
+      "31894361",
+      "31136713",
+      "37992221",
+      "41174305",
+      "30527137",
+      "31756456",
+      "30979035",
+      "29394379",
+      "29364151",
+      "33945530",
+      "29413001",
+      "25287424",
+      "23794453",
+      "35762718",
+      "34960638",
+      "25031324",
+      "31809054",
+      "38368657",
+      "30875980",
+      "36674958",
+      "31382021",
+      "34845619",
+      "25863585",
+      "39537071",
+      "31767506",
+      "32253236",
+      "37452752",
+      "32227937",
+      "30002402",
+      "33866372",
+      "29699482",
+      "32712910",
+      "35119946",
+      "27004461",
+      "23269364",
+      "34439840",
+      "38569991",
+      "40244295",
+      "37108059",
+      "32112084",
+      "39642200"
+    ],
+    "review": [
+      "36088077",
+      "32828463",
+      "31441158",
+      "32045581",
+      "23170892",
+      "33355572",
+      "31521237",
+      "32020911",
+      "38220424",
+      "33260713",
+      "26387104",
+      "38039868",
+      "34347206",
+      "38096754",
+      "30066087",
+      "38296708",
+      "29982297",
+      "23713779",
+      "34452345",
+      "30471705",
+      "29306779",
+      "27212129",
+      "31521236",
+      "30352491",
+      "30527137",
+      "30979035",
+      "29394379",
+      "29364151",
+      "29413001",
+      "25287424",
+      "23794453",
+      "34960638",
+      "38368657",
+      "30875980",
+      "31382021",
+      "25863585",
+      "32253236",
+      "35119946",
+      "27004461"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1876-1623(22)00055-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

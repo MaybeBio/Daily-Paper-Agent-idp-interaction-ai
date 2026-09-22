@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42306853",
+  "title": "Decoding intrinsically disordered regions in chromatin dysfunction and cancer.",
+  "authors": "Hong, Audrey W; Hannon, Colleen E; Strom, Amy R",
+  "journal": "Journal of cell science",
+  "published_date": "2026-06-17",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该Perspective综述了染色质调控蛋白中IDR介导的互作与相分离在癌症中的功能，并探讨整合实验与预测框架来解读疾病突变，虽聚焦IDR与互作机制但方法轴偏概念性、缺乏具体AI/物理建模实现。",
+  "abstract": "Intrinsically disordered regions (IDRs) are pervasive in chromatin regulatory proteins, where their dynamic, multivalent interactions organize nuclear biochemistry, in some cases through biomolecular condensation. Because  approximately 20% of cancer-driver mutations map to disordered regions - for which traditional structure-function paradigms are often insufficient - there is a need for a mechanistically grounded, predictive framework to interpret their effects. In this Perspective, we first synthesize case-specific studies demonstrating how IDRs coordinate cancer-relevant nuclear functions. Second, we examine the underlying molecular 'grammar' and biophysical behavior of representative IDRs, including amino acid patterning, charge distribution and post-translational modifications. Third, we highlight the emergence of high-content experimental platforms that enable the field to move beyond individual anecdotes toward generalizable principles of IDR function. Finally, we discuss how these mechanistic and systematic perspectives can be integrated into predictive frameworks. By bridging individual functional insights with proteome-scale datasets, a unified approach could improve prediction of how disease-associated variants alter cellular states and help establish a foundation for the therapeutic targeting of the disordered proteome.",
+  "abstract_zh": "固有无序区域（IDRs）在染色质调控蛋白中普遍存在，其动态、多价的相互作用组织核内生物化学过程，在某些情况下通过生物分子凝聚实现。由于约20%的癌症驱动突变位于无序区域——而传统结构-功能范式往往不足以解释这些突变——因此需要一种基于机制的预测框架来解读其效应。在本展望中，我们首先综合案例特定研究，展示IDRs如何协调癌症相关的核功能。其次，我们考察代表性IDRs的潜在分子“语法”和生物物理行为，包括氨基酸模式、电荷分布及翻译后修饰。第三，我们强调高内涵实验平台的出现，使该领域能够超越个别案例，迈向IDR功能的普适性原则。最后，我们讨论如何将这些机制性和系统性视角整合进预测框架。通过将个体功能见解与蛋白质组规模数据集相连接，一种统一方法可改善对疾病相关变异如何改变细胞状态的预测，并有助于为无序蛋白质组的治疗靶向奠定基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42306853/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42306853/",
+  "paper_page_path": "papers/pubmed/42306853/index.html"
+}

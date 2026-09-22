@@ -1,0 +1,229 @@
+{
+  "identity": {
+    "pmid": "36379279",
+    "doi": "10.1016/j.ijbiomac.2022.11.079",
+    "title": "Concerted enhanced-sampling simulations to elucidate the helix-fibril transition pathway of intrinsically disordered alpha-Synuclein."
+  },
+  "content": {
+    "abstract": "Fibril formation of alpha-synuclein is linked with Parkinson's disease. The intrinsically disordered nature of alpha-syn provides extensive conformational plasticity and becomes difficult to characterize its transition pathway from native monomeric to disease-associated fibril form. We implemented different simulation methods such as steered dynamics-umbrella sampling, and replica-exchange and conventional MD simulations to access various conformational states of alpha-syn. Nineteen distinct intermediate structures were identified by free energy landscape and cluster analysis. They were then sorted based on secondary structure and solvent exposure of fibril-core residues to illustrate the fibril dissociation pathway. The analysis showed that following the initial dissociation of the polypeptide chain from the fibril, alpha-syn might form either compact-conformations by long-range interactions or extended-conformations stabilized by local interactions. This leads alpha-syn to adapt two different pathways. The secondary structure, solvation, contact distance, interaction energies and backbone dihedrals of thirty-two selected residues were analyzed for all the 19 intermediates. The results suggested that formation of beta-turns, reorganization of salt bridges, and dihedral changes in the hydrophobic regions are the major driving forces for helix-fibril transition. Structural features of the intermediates also correlated with the earlier experimental and computational studies. The study provides critical information on the fibrillation pathway of alpha-syn.",
+    "keywords": [
+      "Intrinsically disordered protein",
+      "Molecular dynamics simulation",
+      "alpha-Synuclein fibril pathway"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*alpha-Synuclein/chemistry",
+      "Protein Structure, Secondary",
+      "*Parkinson Disease/metabolism",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Entropy"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saurabh, Archi",
+        "Prabhu, N Prakash"
+      ],
+      "short_names": [
+        "Saurabh A",
+        "Prabhu NP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology & Bioinformatics, School of Life Sciences, University of Hyderabad, Hyderabad 500 046, India.",
+        "Department of Biotechnology & Bioinformatics, School of Life Sciences, University of Hyderabad, Hyderabad 500 046, India. Electronic address: nppsl@uohyd.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saurabh, Archi",
+        "short_name": "Saurabh A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology & Bioinformatics, School of Life Sciences, University of Hyderabad, Hyderabad 500 046, India."
+        ]
+      },
+      {
+        "full_name": "Prabhu, N Prakash",
+        "short_name": "Prabhu NP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology & Bioinformatics, School of Life Sciences, University of Hyderabad, Hyderabad 500 046, India. Electronic address: nppsl@uohyd.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2022 Dec 31",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/16 06:00",
+    "fetched_at": "2026-09-20 16:46:35"
+  },
+  "links": {
+    "cites": [
+      "42147780",
+      "38681860",
+      "37241811"
+    ],
+    "refs": [],
+    "similar": [
+      "36379279",
+      "30769283",
+      "29715424",
+      "23607785",
+      "39046235",
+      "33350818",
+      "38700150",
+      "30277753",
+      "37433401",
+      "37036430",
+      "32699326",
+      "37189428",
+      "33186020",
+      "28460628",
+      "31181290",
+      "36877087",
+      "33649211",
+      "25784353",
+      "28710275",
+      "33903234",
+      "26851933",
+      "24058647",
+      "23374074",
+      "28373279",
+      "23648364",
+      "32497661",
+      "33625841",
+      "37574034",
+      "30917654",
+      "36550041",
+      "29851342",
+      "31903719",
+      "26119103",
+      "21289072",
+      "24383916",
+      "22573613",
+      "28796507",
+      "28330339",
+      "25461276",
+      "18692132",
+      "36961209",
+      "33581430",
+      "26845568",
+      "35681426",
+      "36413494",
+      "25659910",
+      "23160934",
+      "27901101",
+      "30853581",
+      "36794997",
+      "29969391",
+      "28386933",
+      "38996889",
+      "23214618",
+      "17381514",
+      "30065316",
+      "36866721",
+      "29476328",
+      "23811057",
+      "29601727",
+      "36500474",
+      "34015255",
+      "35390347",
+      "36115020",
+      "17456743",
+      "28024449",
+      "33140640",
+      "25139280",
+      "30142698",
+      "26553504",
+      "24010662",
+      "34431665",
+      "30933517",
+      "39175373",
+      "29642031",
+      "19576220",
+      "32394304",
+      "30184304",
+      "30917651",
+      "35749730",
+      "17729279",
+      "27097022",
+      "35907572",
+      "31295458",
+      "29601177",
+      "33345970",
+      "27588692",
+      "29451381",
+      "26138444",
+      "34161822",
+      "25352253",
+      "25869255",
+      "29372732",
+      "32709107",
+      "16752390",
+      "20026206",
+      "27809690",
+      "26193124",
+      "37060757",
+      "37528959",
+      "29270108",
+      "38047768",
+      "35670576",
+      "23162382",
+      "20816072",
+      "37238996",
+      "37734054"
+    ],
+    "review": [
+      "36379279",
+      "23648364",
+      "35681426",
+      "30853581",
+      "25139280",
+      "30142698"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(22)02637-X",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

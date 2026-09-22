@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report coarse-grained molecular dynamics simulations of the coupled folding-binding process between the intrinsically disordered rRNase domain of colicin E3 and its immunity protein Im3. They observe salt-dependent backtracking of the N-terminal segment of E3 during binding, attribute this to topological frustration arising from misorientation of a central hairpin of E3 on Im3, and propose that topological frustration may generally regulate IDP binding pathways.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or methodological descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, free energy analysis details, transition path sampling methodology, all figures and tables, statistical error estimates, and any supporting information
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically interesting observation regarding backtracking in a coupled folding-binding process and proposes topological frustration as a regulatory factor. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The salt-dependent behavior and the proposed frustration mechanism are plausible but require detailed methodological and quantitative support that is not visible here. The broader generalization to IDP binding pathways is speculative at this stage.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein folding and binding kinetics, molecular simulation of biomolecular interactions, and biophysical chemistry would find these results relevant. The proposed role of topological frustration in regulating binding pathways could inform experimental and computational studies of IDP-target recognition, particularly for systems where coupled folding and binding occurs.
+- **Major strengths** The study addresses a mechanistically nuanced question about the order of binding events in a coupled folding-binding process, moving beyond simple two-state descriptions. The observation of backtracking as a salt-dependent phenomenon introduces an environmental variable that is often overlooked in such analyses. The connection between initial binding geometry and subsequent topological frustration provides a conceptually clear framework for interpreting the observed dynamics.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that backtracking of the N-terminal segment of E3 occurs during the binding process and that its occurrence depends on salt concentration.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that backtracking was observed and that its occurrence depends on salt concentration, but no quantitative data are provided. It is unclear how many simulation trajectories were analyzed, what the frequency of backtracking events was, how salt concentration was modeled in the coarse-grained framework, and whether the salt dependence was statistically robust across replicate simulations.
+  - **Why it matters** The central phenomenological claim of the paper rests on the existence and salt dependence of backtracking. Without quantitative evidence such as event frequencies, free energy profiles, or path ensemble statistics, the claim cannot be evaluated. Coarse-grained models often have limited accuracy in representing electrostatic screening effects, so the salt dependence requires careful validation.
+  - **Resolution test** Provide quantitative data on backtracking frequency or probability as a function of salt concentration, including error bars and statistical tests. Describe how salt concentration is represented in the coarse-grained model and justify that the observed salt dependence is not an artifact of the model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that initial binding of the N-terminal segment of E3 to Im3 leads to misorientation of a central hairpin of E3 on Im3, which generates topological frustration and results in backtracking.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The causal chain from initial N-terminal binding to hairpin misorientation to topological frustration to backtracking is presented as a definitive conclusion, but no structural or kinetic evidence is visible. It is unclear how "misorientation" was defined and quantified, how topological frustration was measured, and whether the proposed causal sequence was directly observed or inferred from correlations.
+  - **Why it matters** The proposed mechanism is the main conceptual contribution of the work. If the causal link is not directly demonstrated, the conclusion remains speculative. Alternative explanations for backtracking, such as non-specific electrostatic effects or transient trapping in local minima, are not addressed in the abstract.
+  - **Resolution test** Provide structural analysis showing the distribution of hairpin orientations following initial N-terminal binding, a quantitative definition of topological frustration with a measurable proxy, and evidence that frustration precedes and predicts backtracking events in individual trajectories.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that topological frustration could be present in the coupled folding-binding process of IDPs and play an important role in regulating binding transition pathways.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The generalization from a single protein pair to IDPs broadly is presented without comparative evidence from other systems or a theoretical argument for why this mechanism should be general. The abstract does not indicate whether the authors tested additional IDP systems or whether the frustration mechanism is specific to the E3/Im3 geometry.
+  - **Why it matters** The broader significance of the work depends on the generality of the proposed mechanism. If the claim is limited to E3/Im3, the impact is narrower. If the claim is meant to be general, supporting evidence or a compelling structural rationale is required.
+  - **Resolution test** Either temper the generalization to the specific system studied or provide additional simulations or analysis of other IDP complexes that exhibit similar frustration-driven backtracking.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "topological frustration" is used without definition. Nonspecialist readers may not be familiar with this concept in the context of protein binding.
+  - **Required correction** Provide a brief definition or intuitive explanation of topological frustration as applied to coupled folding-binding processes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation methodology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "coarse-grained molecular dynamics simulations" and "systematic free energy and transition path analysis" but provides no details on the model resolution, force field, or analysis methods.
+  - **Required correction** Include a brief description of the coarse-grained model and the specific free energy and transition path methods used, or refer to the Methods section for details.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextual framing
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that the N-terminal and central segments of E3 make comparable intermolecular contacts with Im3 in the bound state, but binding is dominantly triggered by the central segment. The relevance of this prior finding to the current backtracking observation is not explicitly connected.
+  - **Required correction** Clarify how the previously established binding mechanism relates to the newly observed backtracking and frustration, to strengthen the narrative continuity.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central phenomenological and mechanistic claims cannot be evaluated from the abstract alone. Quantitative evidence for backtracking frequency, salt dependence, and the causal role of topological frustration is required. R1-M3 is blocking because the generalization to IDPs broadly is not supported by the visible evidence.
+- **Assessment against Nature-style criteria** Originality: The concept of topological frustration as a regulator of binding pathways in IDP coupled folding-binding is a novel framing that could distinguish this work from prior kinetic studies. Scientific importance: The potential to explain non-monotonic or backtracking behavior in IDP binding is significant, but the importance is contingent on the generality of the mechanism, which is not established. Interdisciplinary readership: The topic bridges biophysics, computational chemistry, and protein science, and would appeal to a broad readership if the claims are well supported. Technical soundness: Cannot be assessed from the abstract; the coarse-grained model and analysis methods are not described, and no quantitative results are provided. Readability for nonspecialists: The abstract is generally clear but uses specialized terms without definition, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible mechanism, but the absence of quantitative data and methodological detail prevents verification of the central claims. A supportive stance would require access to the full manuscript and demonstration that the backtracking observation and frustration mechanism are robust and generalizable.
+
+## Risk / unsupported claims
+- The claim that backtracking occurs and depends on salt concentration is unsupported in the abstract due to lack of quantitative data.
+- The claim that initial N-terminal binding causes hairpin misorientation leading to topological frustration and backtracking is unsupported without structural and kinetic evidence.
+- The generalization that topological frustration could be present in IDP coupled folding-binding processes broadly is unsupported by the visible evidence.
+- The statement that "systematic free energy and transition path analysis" was performed is unverifiable without methodological details.

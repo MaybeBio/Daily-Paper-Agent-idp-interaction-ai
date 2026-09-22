@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39386612",
+  "title": "Decoding Biomolecular Condensate Dynamics: An Energy Landscape Approach.",
+  "authors": "Biswas, Subhadip; Potoyan, Davit A",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-10-10",
+  "window": {
+    "start": "2024-10-07",
+    "end": "2024-10-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用能量景观框架（贴纸-间隔区模型）解析低复杂度序列模式如何编码凝聚体材料性质，虽未直接建模PPI界面，但聚焦IDR/相分离机制，且方法可迁移至无序蛋白互作机制建模。",
+  "abstract": "A significant fraction of eukaryotic proteins contain low-complexity sequence elements with unknown functions. Many of these sequences are prone to form biomolecular condensates with unique material and dynamic properties. Mutations in low-complexity regions often result in abnormal phase transitions into pathological solid-like states. Therefore, understanding how the low-complexity sequence patterns encode the material properties of condensates is crucial for uncovering the cellular functions and evolutionary forces behind the emergence of low-complexity regions in proteins. In this work, we employ an alphabet-free energy landscape framework of the stickers and spacers to dissect how the low complexity patterns of proteins encode the material properties of condensates. We find a broad phase diagram of material properties determined by distinct energy landscape features, showing that periodic repeat motifs promote elastic-dominated while random sequences are viscous-dominated properties. We find that a certain degree of sticker periodicity is necessary to maintain the fluidity of condensates, preventing them from forming glassy or solid-like states. Finally, we show that the energy landscape framework captures viscoelastic trends seen in the recent experiments on prion domains and makes predictions for systematic variation of protein condensate viscoelasticity via altering the periodicity and strength of sticker motifs.",
+  "abstract_zh": "真核生物中相当一部分蛋白质含有功能未知的低复杂度序列元件。许多这类序列倾向于形成具有独特材料和动力学性质的生物分子凝聚体。低复杂度区域的突变常导致异常的相转变为病理性的固态样状态。因此，理解低复杂度序列模式如何编码凝聚体的材料性质，对于揭示蛋白质中低复杂度区域出现的细胞功能和进化驱动力至关重要。在本工作中，我们采用一种无字母表的“粘附子与间隔子 (stickers and spacers)”能量景观框架，来解析蛋白质的低复杂度模式如何编码凝聚体的材料性质。我们发现，由不同能量景观特征决定的材料性质呈现出广泛的相图，表明周期性重复基序促进弹性主导的性质，而随机序列则表现为黏性主导的性质。我们发现，一定程度的粘附子周期性对于维持凝聚体的流动性是必要的，可防止其形成玻璃态或固态样状态。最后，我们展示该能量景观框架能够捕捉近期关于朊病毒结构域实验中观察到的黏弹性趋势，并通过改变粘附子基序的周期性和强度，为蛋白质凝聚体黏弹性的系统性变化提供预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39386612/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39386612/",
+  "paper_page_path": "papers/pubmed/39386612/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37633550",
+  "title": "Improved prediction of protein-protein interactions by a modified strategy using three conventional docking software in combination.",
+  "authors": "Choi, Sungwoo; Son, Seung Han; Kim, Min Young; Na, Insung; Uversky, Vladimir N; Kim, Chul Geun",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2023-08-27",
+  "window": {
+    "start": "2023-08-21",
+    "end": "2023-08-27"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出结合三种对接软件的改进策略(3SD/3SD-RR)预测蛋白-肽互作构象，并专门处理无序区域(IDR)及AlphaFold2预测受体，属于IDR相关PPI的物理模拟方法，但机制建模深度有限。",
+  "abstract": "Proteins play a crucial role in many biological processes, where their interaction with other proteins are integral. Abnormal protein-protein interactions (PPIs) have been linked to various diseases including cancer, and thus targeting PPIs holds promise for drug development. However, experimental confirmation of the peculiarities of PPIs is challenging due to their dynamic and transient nature. As a complement to experimental technologies, multiple computational molecular docking (MD) methods have been developed to predict the structures of protein-protein complexes and their dynamics, still requiring further improvements in several issues. Here, we report an improved MD method, namely three-software docking (3SD), by employing three popular protein-peptide docking software (CABS-dock, HPEPDOCK, and HADDOCK) in combination to ensure constant quality for most targets. We validated our 3SD performance in known protein-peptide interactions (PpIs). We also enhanced MD performance in proteins having intrinsically disordered regions (IDRs) by applying the modified 3SD strategy, the three-software docking after removing random coiled IDR (3SD-RR), to the comparable crystal PpI structures. At the end, we applied 3SD-RR to the AlphaFold2-predicted receptors, yielding an efficient prediction of PpI pose with high relevance to the experimental data regardless of the presence of IDRs or the availability of receptor structures. Our study provides an improved solution to the challenges in studying PPIs through computational docking and has the potential to contribute to PPIs-targeted drug discovery. SIGNIFICANCE STATEMENT: Protein-protein interactions (PPIs) are integral to life, and abnormal PPIs are associated with diseases such as cancer. Studying protein-peptide interactions (PpIs) is challenging due to their dynamic and transient nature. Here we developed improved docking methods (3SD and 3SD-RR) to predict the PpI poses, ensuring constant quality in most targets and also addressing issues like intrinsically disordered regions (IDRs) and artificial intelligence-predicted structures. Our study provides an improved solution to the challenges in studying PpIs through computational docking and has the potential to contribute to PPIs-targeted drug discovery.",
+  "abstract_zh": "蛋白质在许多生物过程中扮演着关键角色，其中它们与其他蛋白质的相互作用是不可或缺的。异常的蛋白质-蛋白质相互作用（PPIs）与包括癌症在内的多种疾病相关联，因此靶向PPIs有望促进药物开发。然而，由于PPIs的动态性和瞬时性，实验确认其特性颇具挑战。作为实验技术的补充，多种计算分子对接（MD）方法已被开发用于预测蛋白质-蛋白质复合物的结构及其动态，但仍需在若干问题上进一步改进。在此，我们报告了一种改进的MD方法，即三软件对接（3SD），通过结合使用三种流行的蛋白质-肽对接软件（CABS-dock、HPEPDOCK和HADDOCK），以确保对大多数靶标保持稳定的质量。我们在已知的蛋白质-肽相互作用（PpIs）中验证了3SD的性能。我们还通过应用改进的3SD策略，即去除随机卷曲IDR后的三软件对接（3SD-RR），对具有内在无序区域（IDRs）的蛋白质增强了MD性能，并将其应用于可比较的晶体PpI结构。最后，我们将3SD-RR应用于AlphaFold2预测的受体，无论是否存在IDRs或受体结构的可用性，均能高效预测与实验数据高度相关的PpI姿态。我们的研究为通过计算对接研究PPIs所面临的挑战提供了改进的解决方案，并有可能促进针对PPIs的药物发现。意义声明：蛋白质-蛋白质相互作用（PPIs）对生命至关重要，异常PPIs与癌症等疾病相关。由于蛋白质-肽相互作用（PpIs）的动态性和瞬时性，研究它们颇具挑战。在此，我们开发了改进的对接方法（3SD和3SD-RR）来预测PpI姿态，确保大多数靶标的稳定质量，并解决诸如内在无序区域（IDRs）和人工智能预测结构等问题。我们的研究为通过计算对接研究PpIs所面临的挑战提供了改进的解决方案，并有可能促进针对PPIs的药物发现。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37633550/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37633550/",
+  "paper_page_path": "papers/pubmed/37633550/index.html"
+}

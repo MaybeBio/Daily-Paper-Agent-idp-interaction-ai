@@ -1,0 +1,127 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.06.515359",
+  "title": "Partial Mimicry of the Microtubule Binding of Tau by Its Membrane Binding",
+  "doi": "10.1101/2022.11.06.515359",
+  "abstract": "Tau, as typical of intrinsically disordered proteins (IDPs), binds to multiple targets including microtubules and acidic membranes. The latter two surfaces are both highly negatively charged, raising the prospect of mimicry in their binding by tau. The tau-microtubule complex was recently determined by cryo-EM. Here we used molecular dynamics simulations to characterize the dynamic binding of tau K19 to an acidic membrane. This IDP can be divided into three repeats, each containing an amphipathic helix. The three amphipathic helices, along with flanking residues, tether the protein to the membrane interface. The separation between and membrane positioning of the amphipathic helices in the simulations are validated by published EPR data. The membrane contact probabilities of individual residues in tau show both similarities to and distinctions from native contacts with microtubules. In particular, a Lys that is conserved among the repeats forms similar interactions with membranes and with microtubules, as does a conserved Val. This partial mimicry facilitates both the membrane anchoring of microtubules by tau and the transfer of tau from membranes to microtubules.",
+  "authors": [
+    "MacAinsh M",
+    "Zhou H"
+  ],
+  "published_date": "2022-11-06",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.06.515359",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.06.515359.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR567813",
+    "raw_record": {
+      "id": "PPR567813",
+      "source": "PPR",
+      "doi": "10.1101/2022.11.06.515359",
+      "title": "Partial Mimicry of the Microtubule Binding of Tau by Its Membrane Binding",
+      "authorString": "MacAinsh M, Zhou H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "MacAinsh M",
+            "lastName": "MacAinsh",
+            "firstName": "Matthew",
+            "initials": "M"
+          },
+          {
+            "fullName": "Zhou H",
+            "lastName": "Zhou",
+            "firstName": "Huan-Xiang",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9020-0302"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9020-0302"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Tau, as typical of intrinsically disordered proteins (IDPs), binds to multiple targets including microtubules and acidic membranes. The latter two surfaces are both highly negatively charged, raising the prospect of mimicry in their binding by tau. The tau-microtubule complex was recently determined by cryo-EM. Here we used molecular dynamics simulations to characterize the dynamic binding of tau K19 to an acidic membrane. This IDP can be divided into three repeats, each containing an amphipathic helix. The three amphipathic helices, along with flanking residues, tether the protein to the membrane interface. The separation between and membrane positioning of the amphipathic helices in the simulations are validated by published EPR data. The membrane contact probabilities of individual residues in tau show both similarities to and distinctions from native contacts with microtubules. In particular, a Lys that is conserved among the repeats forms similar interactions with membranes and with microtubules, as does a conserved Val. This partial mimicry facilitates both the membrane anchoring of microtubules by tau and the transfer of tau from membranes to microtubules.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/06/2022.11.06.515359.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.06.515359"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36710643",
+            "reference": "Protein science : a publication of the Protein Society. 2023 Mar;32(3):e4581",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-11-08",
+      "firstPublicationDate": "2022-11-06",
+      "firstIndexDate": "2022-11-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

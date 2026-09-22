@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41755632",
+  "title": "Multisite phosphorylation of the AML-linked C-terminal of nucleophosmin (NPM1) orchestrates protein stability, DNA binding and charge block-driven phase separation.",
+  "authors": "Rivero-Garcia, Pablo; Giner-Arroyo, Rafael L; Tamargo-Azpilicueta, Joaquin; Telfer, Abbey; Frezza, Elisa; Velazquez-Campoy, Adrian; Diaz-Moreno, Sofia; la Rosa, Miguel A De; Diaz-Moreno, Irene",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-02-27",
+  "window": {
+    "start": "2026-02-23",
+    "end": "2026-03-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过磷酸化模拟突变研究NPM1 C端结构域的结构动态、DNA结合及电荷块驱动的相分离，虽对象涉及IDR相关相分离和互作机制，但方法以实验为主，AI/物理模拟贡献有限。",
+  "abstract": "Nucleophosmin (NPM1) is a nucleolar protein commonly mutated in ~30% of newly diagnosed acute myeloid leukemia (AML) cases. These mutations occur in the terminal exon of the NPM1 gene, affecting the C-terminal DNA-binding domain of the protein and causing its delocalization to the cytoplasm-a hallmark of NPM1-mutated AML. NPM1 shuttling to the nucleoplasm is tightly regulated by posttranslational modifications, such as phosphorylation of Ser254, Ser260, and Tyr271 of the DNA-binding domain. However, the structural mechanisms underlying this process remain unclear. In this work, we show that Ser-to-Asp (S254D-S260D) and Tyr-to-pCMF (para-carboxymethyl phenylalanine) (Y271pCMF) phosphomimetic mutations induce significant structural and dynamical rearrangements, as well as drastic modifications in electrostatic surface potential. These changes compromise recognition of a G-quadruplex sequence from the c-MYC promoter by reducing DNA-binding affinity, reshape histone capturing dynamics, and fade charge segregation in the histone-binding domain. Combination of such substitutions in a triple phosphomimetic variant (S254D-S260D-Y271pCMF) further destabilizes the domain's structure and triggers protein aggregation. Altogether, these findings suggest that phosphorylation of Ser254, Ser260, and Tyr271 of the C-end DNA-binding domain weakens both DNA affinity and charge block-driven liquid-liquid phase separation, offering a molecular explanation for the delocalization of NPM1 outside of the nucleolus.",
+  "abstract_zh": "核磷蛋白（NPM1）是一种核仁蛋白，在大约30%的新诊断急性髓系白血病（AML）病例中常见突变。这些突变发生在NPM1基因的末端外显子中，影响蛋白质的C端DNA结合结构域，并导致其易位至细胞质——这是NPM1突变型AML的一个标志性特征。NPM1向核质中的穿梭受到翻译后修饰的严格调控，例如DNA结合结构域中Ser254、Ser260和Tyr271的磷酸化。然而，这一过程背后的结构机制仍不清楚。在本工作中，我们表明Ser-to-Asp（S254D-S260D）和Tyr-to-pCMF（对羧甲基苯丙氨酸）（Y271pCMF）磷酸模拟突变诱导显著的结构和动力学重排，以及静电表面电位的剧烈改变。这些变化通过降低DNA结合亲和力削弱了对c-MYC启动子中G-四链体序列的识别，重塑组蛋白捕获动力学，并减弱组蛋白结合结构域中的电荷分离。将这些替换组合在三重磷酸模拟变体（S254D-S260D-Y271pCMF）中进一步使结构域结构不稳定，并触发蛋白质聚集。总体而言，这些发现表明，C端DNA结合结构域中Ser254、Ser260和Tyr271的磷酸化削弱了DNA亲和力以及电荷块驱动的液-液相分离，为NPM1在核仁外易位提供了分子解释。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41755632/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41755632/",
+  "paper_page_path": "papers/pubmed/41755632/index.html"
+}

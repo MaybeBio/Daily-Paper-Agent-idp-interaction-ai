@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that SARS-CoV-2 nucleocapsid (N) protein forms structurally dynamic dimers in the absence of RNA, with N-terminal (NTD) and C-terminal (CTD) domains in extended conformations; in the presence of RNA, the protein adopts a more compact conformation with NTD and CTD packed together. They further propose an octameric model of full-length N bound to RNA, consistent with electron microscopy images.
+- **Visible evidence base** Electron microscopy, biochemical/biophysical techniques, molecular modeling, and molecular dynamics simulations, as cited in the abstract; specific data not available
+- **Missing materials affecting confidence** Full manuscript, all figures, tables, experimental protocols, simulation parameters, statistical analyses, and supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable structural model of SARS-CoV-2 N protein dynamics and oligomerization. However, the evidence base is not accessible from the supplied material, and several claims require detailed experimental and computational validation that cannot be assessed here. The work addresses an important gap in understanding N protein architecture, but the current evidence is insufficient to establish the central conclusions.
+- **Who would be interested in the results, and why** Structural biologists, virologists, and researchers studying RNA-protein interactions, particularly those focused on SARS-CoV-2 replication and assembly. The proposed conformational transition and octameric model could inform antiviral strategies targeting N protein oligomerization or RNA binding.
+- **Major strengths** The abstract addresses a significant unresolved question regarding full-length N protein architecture. The combination of experimental and computational approaches is appropriate for studying dynamic and heterogeneous protein-RNA complexes. The proposed RNA-induced compaction is a testable and biologically relevant hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "in the absence of RNA, the N protein formed structurally dynamic dimers, with the NTD and CTD arranged in extended conformations"
+  - **Evidence pointer** Electron microscopy and biochemical/biophysical techniques; location not provided
+  - **Concern** The abstract states that N protein forms dimers in the absence of RNA, but no quantitative data are provided to support the dimeric state, such as size exclusion chromatography, analytical ultracentrifugation, or mass spectrometry. The term "structurally dynamic" is not defined, and no metrics from molecular dynamics simulations are given to substantiate conformational flexibility.
+  - **Why it matters** The dimeric state and its conformational dynamics are foundational to the proposed model. Without clear experimental evidence for oligomeric state and dynamics, the subsequent structural interpretations are not reliable.
+  - **Resolution test** Provide explicit experimental data showing the oligomeric state in solution, including molecular weight determination and error estimates. Include simulation parameters and quantitative measures of conformational dynamics, such as root-mean-square fluctuation or principal component analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "in the presence of RNA, the N protein assumed a more compact conformation where the NTD and CTD are packed together"
+  - **Evidence pointer** Electron microscopy and biochemical/biophysical techniques; location not provided
+  - **Concern** The abstract claims a RNA-induced compaction, but no comparative data are shown to demonstrate a conformational change. It is unclear whether the compact state is observed directly or inferred from modeling. The stoichiometry of RNA binding and the specific RNA sequence or length used are not stated.
+  - **Why it matters** The RNA-induced conformational change is a central finding. Without direct evidence of compaction, such as small-angle X-ray scattering or Förster resonance energy transfer measurements, the claim remains speculative.
+  - **Resolution test** Provide direct biophysical measurements comparing N protein dimensions in the absence and presence of RNA, with appropriate controls. Specify the RNA construct used and demonstrate that the observed compaction is RNA-specific.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation
+  - **Claim pointer** "We also provided an octameric model for the full-length N bound to RNA that was consistent with electron microscopy images"
+  - **Evidence pointer** Electron microscopy images; location not provided
+  - **Concern** The abstract states that the octameric model is consistent with electron microscopy images, but no details are given on the resolution, number of particles, or validation of the model. It is unclear whether the octameric state is experimentally determined or computationally predicted and merely fitted to low-resolution data.
+  - **Why it matters** The octameric model is a major claim with implications for N protein function. Without rigorous validation, such as cross-linking mass spectrometry or mutagenesis, the model cannot be considered established.
+  - **Resolution test** Provide electron microscopy data with resolution estimates and particle counts. Validate the octameric model using independent methods, such as cross-linking or native mass spectrometry, and show that the model is uniquely supported by the data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "structurally dynamic dimers" is vague and could be interpreted in multiple ways.
+  - **Required correction** Define what is meant by "structurally dynamic" and provide specific evidence or metrics supporting this description.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not specify the RNA sequence or length used in the experiments, which is critical for reproducibility.
+  - **Required correction** State the RNA construct used and its relevance to the viral genome.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Model implications
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not discuss how the proposed octameric model relates to known N protein functions, such as RNA packaging or transcription.
+  - **Required correction** Add a brief statement on the functional implications of the octameric assembly.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3
+- **Assessment against Nature-style criteria** Originality: The work addresses a known gap in N protein structural biology, but the approach is not entirely novel. Scientific importance: High, given the relevance to SARS-CoV-2 biology. Interdisciplinary readership: The topic is of interest to structural biologists and virologists, but the abstract lacks sufficient detail for broader appeal. Technical soundness: Cannot be assessed from the abstract alone; the claims require rigorous validation. Readability for nonspecialists: The abstract is accessible but uses technical terms without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible but require access to the full data and additional validation before the case can be made.
+
+## Risk / unsupported claims
+- The dimeric state of N protein in the absence of RNA is stated without supporting quantitative data.
+- The RNA-induced compaction is claimed without direct comparative measurements.
+- The octameric model is presented as consistent with electron microscopy but lacks resolution and validation details.
+- The functional relevance of the proposed conformational changes and oligomeric states is not discussed.

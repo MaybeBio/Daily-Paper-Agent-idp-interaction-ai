@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.23.534032",
+  "title": "Karyopherin mimicry explains how the HIV capsid penetrates nuclear pores",
+  "authors": "Dickson C; Hertel S; Ruan J; Ariotti N; Tuckwell A; Li N; Al-Izzi S; Sierecki E; Gambin Y; Morris R; Towers G; Böcking T; Jacques D",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-24",
+  "window": {
+    "start": "2023-03-20",
+    "end": "2023-03-26"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过体外拆解核孔复合体，证明HIV衣壳表面口袋模拟核转运蛋白，与核孔内无序FG核孔蛋白发生多价互作以穿透相分离凝聚体屏障，直接以IDR/相分离凝聚体中的PPI机制建模为核心，虽方法偏实验但对无序蛋白介导的互作机制有高度启发。",
+  "abstract": "<h4>Summary Paragraph</h4> HIV can infect non-dividing cells because the viral capsid can overcome the selective barrier of the nuclear pore complex and deliver the genome directly into the nucleus. Remarkably, the intact HIV capsid is over one thousand times greater than the size-limit prescribed by the nuclear pore’s diffusion barrier. This barrier is a phase-separated condensate in the central channel of the nuclear pore and is comprised of intrinsically-disordered nucleoporin domains enriched in phenylalanine-glycine (FG) dipeptides. Through multivalent FG-interactions, cellular karyopherins and their bound cargoes solubilise in this phase to drive nucleocytoplasmic transport. By performing an in vitro dissection of the nuclear pore complex, we show that a pocket on the surface of the HIV capsid similarly interacts with FG-motifs from multiple nucleoporins and that this interaction licenses capsids to penetrate nucleoporin condensates. This karyopherin mimicry model resolves a key conceptual challenge for the role of the HIV capsid in nuclear entry, and explains how an exogenous entity much larger than any known cellular cargo can non-destructively breach the nuclear envelope.",
+  "abstract_zh": "<h4>摘要段落</h4> 人类免疫缺陷病毒（HIV）能感染非分裂细胞，因为病毒衣壳能克服核孔复合体的选择性屏障，将基因组直接递送入细胞核。值得注意的是，完整的HIV衣壳比核孔扩散屏障所规定的尺寸限制大一千多倍。该屏障是核孔中央通道中的相分离（phase separation）凝聚体，由富含苯丙氨酸-甘氨酸（FG）二肽的内在无序核孔蛋白结构域组成。通过多价FG相互作用，细胞核转运蛋白及其结合的货物在该相中溶解，从而驱动核质运输。通过对核孔复合体进行体外解剖，我们表明HIV衣壳表面的一个口袋类似地与来自多个核孔蛋白的FG基序相互作用，且这种相互作用使衣壳能够穿透核孔蛋白凝聚体。这种核转运蛋白模拟模型解决了HIV衣壳在核进入中作用的关键概念性挑战，并解释了为何一种比任何已知细胞货物大得多的外源实体能非破坏性地突破核膜。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.23.534032",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.23.534032",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.23.534032/index.html"
+}

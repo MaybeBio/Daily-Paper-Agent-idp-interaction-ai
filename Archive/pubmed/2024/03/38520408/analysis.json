@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38520408",
+  "title": "ARGLU1 enhances promoter-proximal pausing of RNA polymerase II and stimulates DNA damage repair.",
+  "authors": "Bachus, Scott; Akkerman, Nikolas; Fulham, Lauren; Graves, Drayson; Helwer, Rafe; Rempel, Jordan; Pelka, Peter",
+  "journal": "Nucleic acids research",
+  "published_date": "2024-03-23",
+  "window": {
+    "start": "2024-03-18",
+    "end": "2024-03-24"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究无序蛋白ARGLU1通过抑制JMJD6-BRD4互作增强RNA聚合酶II暂停并促进DNA损伤修复，涉及IDR与PPI机制，但无AI/物理模拟方法，机制深度有限。",
+  "abstract": "Arginine and glutamate rich 1 (ARGLU1) is a poorly understood cellular protein with functions in RNA splicing and transcription. Computational prediction suggests that ARGLU1 contains intrinsically disordered regions and lacks any known structural or functional domains. We used adenovirus Early protein 1A (E1A) to probe for critical regulators of important cellular pathways and identified ARGLU1 as a significant player in transcription and the DNA damage response pathway. Transcriptional effects induced by ARGLU1 occur via enhancement of promoter-proximal RNA polymerase II pausing, likely by inhibiting the interaction between JMJD6 and BRD4. When overexpressed, ARGLU1 increases the growth rate of cancer cells, while its knockdown leads to growth arrest. Significantly, overexpression of ARGLU1 increased cancer cell resistance to genotoxic drugs and promoted DNA damage repair. These results identify new roles for ARGLU1 in cancer cell survival and the DNA damage repair pathway, with potential clinical implications for chemotherapy resistance.",
+  "abstract_zh": "精氨酸和谷氨酸富集蛋白1（ARGLU1）是一种功能尚不明确的细胞蛋白，参与RNA剪接和转录过程。计算预测表明，ARGLU1含有内在无序区域，且缺乏任何已知的结构或功能域。我们利用腺病毒早期蛋白1A（E1A）来探测重要细胞通路的关键调控因子，并确定ARGLU1在转录和DNA损伤应答通路中扮演重要角色。ARGLU1诱导的转录效应通过增强启动子近端RNA聚合酶II的暂停实现，这可能是通过抑制JMJD6与BRD4之间的相互作用而发生的。当ARGLU1过表达时，会提高癌细胞的生长速率，而其敲低则导致生长停滞。值得注意的是，ARGLU1的过表达增强了癌细胞对基因毒性药物的耐药性，并促进了DNA损伤修复。这些结果揭示了ARGLU1在癌细胞存活和DNA损伤修复通路中的新作用，对化疗耐药性具有潜在的临床意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38520408/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38520408/",
+  "paper_page_path": "papers/pubmed/38520408/index.html"
+}

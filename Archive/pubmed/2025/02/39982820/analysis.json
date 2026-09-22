@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39982820",
+  "title": "Real-time visualization reveals Mycobacterium tuberculosis ESAT-6 disrupts phagosome-like compartment via fibril-mediated vesiculation.",
+  "authors": "Koiri, Debraj; Nandi, Mintu; Hameem P M, Abik; Aher, Jayesh Bhausaheb; Kumar, Akhil; Behura, Assirbad; Meher, Geetanjali; Choudhary, Vineet; Choubey, Sandeep; Saleem, Mohammed",
+  "journal": "Cell reports",
+  "published_date": "2025-02-21",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过体外重构、活细胞成像和数值模拟，揭示结核分枝杆菌ESAT-6蛋白通过纤维化聚合驱动膜重塑和囊泡化，破坏吞噬体膜；虽对象非IDP/相分离，但纤维介导的膜变形与囊泡化机制建模思路对无序蛋白介导的膜互作/凝聚体研究有可迁移启发。",
+  "abstract": "Mycobacterium tuberculosis (Mtb) evades host defense by hijacking and rupturing the phagosome. ESAT-6, a secreted virulence protein of Mtb, is known to be critical for phagosome rupture. However, the mechanism of ESAT-6-mediated disruption of the phagosomal membrane remains unknown. Using in vitro reconstitution, live-cell imaging, and numerical simulations, we discover that ESAT-6 polymerization forces remodeling and vesiculation of the phagosome-like compartment both in vitro and in vivo. Shallow insertion of ESAT-6 leads to tubular and bud-like deformations on the membrane facilitated by a reduction in membrane tension. Growing fibrils generate both radial and tangential forces causing local remodeling and shape transition of the membrane into buds. The ESAT-6-bound tensed membrane undergoes local changes in membrane curvature and lipid phase separation that assist the subsequent fission. Overall, the findings provide mechanistic insights into the long-standing question of phagosome disruption by Mtb for its escape.",
+  "abstract_zh": "结核分枝杆菌（Mycobacterium tuberculosis, Mtb）通过劫持并破裂吞噬体来逃避宿主防御。已知ESAT-6是Mtb分泌的毒力蛋白，对吞噬体破裂至关重要。然而，ESAT-6介导的吞噬体膜破坏机制仍不清楚。利用体外重构、活细胞成像和数值模拟，我们发现ESAT-6聚合作用在体外和体内均能驱动吞噬体样区室的膜重塑和囊泡化。ESAT-6的浅插入导致膜上形成管状和芽状变形，这一过程由膜张力降低所促进。生长的纤维产生径向和切向力，引起膜的局部重塑和形状转变为芽状。与ESAT-6结合的紧张膜经历局部膜曲率变化和脂质相分离（lipid phase separation），这有助于随后的分裂。总体而言，这些发现为Mtb逃逸过程中吞噬体破裂这一长期问题提供了机制性见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39982820/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39982820/",
+  "paper_page_path": "papers/pubmed/39982820/index.html"
+}

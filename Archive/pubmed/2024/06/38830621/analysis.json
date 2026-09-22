@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38830621",
+  "title": "Effects of Phosphorylation on Protein Backbone Dynamics and Conformational Preferences.",
+  "authors": "Bickel, David; Vranken, Wim",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2024-06-04",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用大规模MD模拟系统研究磷酸化对蛋白骨架动力学和构象倾向的影响，聚焦于无序区域中的磷酸化位点，虽未直接研究PPI，但为IDR磷酸化调控互作的机制建模提供了可迁移的物理模拟框架和数据资源。",
+  "abstract": "Phosphorylations are the most common and extensively studied post-translational modification (PTM) of proteins in eukaryotes. They constitute a major regulatory mechanism, modulating protein function, protein-protein interactions, as well as subcellular localization. Phosphorylation sites are preferably located in intrinsically disordered regions and have been shown to trigger structural rearrangements and order-to-disorder transitions. They can therefore have a significant effect on protein backbone dynamics or conformation, but only sparse experimental data are available. To obtain a more general description of how and when phosphorylations have a significant effect on protein behavior, molecular dynamics (MD) currently provides the only suitable framework to study these effects at a large scale in atomistic detail. This study develops a systematic MD simulation framework to explore the influence of phosphorylations on the local backbone dynamics and conformational propensities of proteins. Through a series of glycine-backbone peptides, we studied the effects of amino acid residues including the three most common phosphorylations (Ser, Thr, and Tyr), on local backbone dynamics and conformational propensities. We further extended our study to investigate the interactions of all such residues between position i to positions i + 1, i + 2, i + 3, and i + 4 in such peptides. The final data set comprises structural ensembles for 3393 sequences with more than 1 mus of sampling for each ensemble. To validate the relevance of the results, the structural and conformational properties extracted from the MD simulations are compared to NMR data from the Biological Magnetic Resonance Data Bank. The systematic nature of this study enables the projection of the gained knowledge onto any phosphorylation site in the proteome and provides a general framework for the study of further PTMs. The full data set is publicly available, as a training and reference set.",
+  "abstract_zh": "磷酸化是真核生物蛋白质中最常见且被广泛研究的翻译后修饰（post-translational modification, PTM）。它们构成一种主要的调控机制，调节蛋白质功能、蛋白质-蛋白质相互作用以及亚细胞定位。磷酸化位点优先位于 intrinsically disordered regions（内在无序区域），并已被证明能触发结构重排和有序-无序转变。因此，它们可能对蛋白质骨架动力学或构象产生显著影响，但可用的实验数据却很少。为了更普遍地描述磷酸化如何及何时对蛋白质行为产生显著影响，分子动力学（molecular dynamics, MD）目前提供了唯一适合在原子细节水平上大规模研究这些效应的框架。本研究开发了一个系统的MD模拟框架，以探索磷酸化对蛋白质局部骨架动力学和构象倾向性的影响。通过一系列甘氨酸骨架肽，我们研究了氨基酸残基（包括三种最常见的磷酸化形式：Ser、Thr和Tyr）对局部骨架动力学和构象倾向性的效应。我们进一步扩展研究，调查了此类肽中位置i到位置i+1、i+2、i+3和i+4之间所有此类残基的相互作用。最终数据集包含3393个序列的结构系综，每个系综的采样时间超过1微秒。为验证结果的相关性，从MD模拟中提取的结构和构象特性与来自生物磁共振数据库（Biological Magnetic Resonance Data Bank）的NMR数据进行了比较。本研究的系统性使得所获知识能够投射到蛋白质组中的任何磷酸化位点，并为研究其他PTM提供了一个通用框架。完整数据集作为训练和参考集公开可用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38830621/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38830621/",
+  "paper_page_path": "papers/pubmed/38830621/index.html"
+}

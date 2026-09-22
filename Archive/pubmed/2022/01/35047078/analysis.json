@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35047078",
+  "title": "Peptide stapling by late-stage Suzuki-Miyaura cross-coupling.",
+  "authors": "Gruss, Hendrik; Feiner, Rebecca C; Mseya, Ridhiwan; Schroder, David C; Jewginski, Michal; Muller, Kristian M; Latajka, Rafal; Marion, Antoine; Sewald, Norbert",
+  "journal": "Beilstein journal of organic chemistry",
+  "published_date": "2022-01-21",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用Suzuki-Miyaura偶联实现肽段装订以稳定α-螺旋，增强与β-catenin的结合亲和力，虽涉及PPI调节但对象为折叠肽而非无序蛋白，且方法为化学合成而非AI/物理模拟，机制建模启发有限。",
+  "abstract": "The development of peptide stapling techniques to stabilise alpha-helical secondary structure motifs of peptides led to the design of modulators of protein-protein interactions, which had been considered undruggable for a long time. We disclose a novel approach towards peptide stapling utilising macrocyclisation by late-stage Suzuki-Miyaura cross-coupling of bromotryptophan-containing peptides of the catenin-binding domain of axin. Optimisation of the linker length in order to find a compromise between both sufficient linker rigidity and flexibility resulted in a peptide with an increased alpha-helicity and enhanced binding affinity to its native binding partner beta-catenin. An increased proteolytic stability against proteinase K has been demonstrated.",
+  "abstract_zh": "肽段装订技术的发展旨在稳定肽的α-螺旋二级结构基序，从而设计出蛋白质-蛋白质相互作用的调节剂，这些相互作用长期以来被认为是不易成药的。我们公开了一种新颖的肽段装订方法，利用含溴色氨酸肽段（来自axin的catenin结合域）的晚期Suzuki-Miyaura交叉偶联进行大环化。通过优化连接链长度，在足够的连接链刚性与柔性之间寻求折衷，得到了一种α-螺旋性增强且对其天然结合伙伴β-catenin结合亲和力提高的肽段。同时，已证明该肽段对蛋白酶K的蛋白水解稳定性有所增加。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35047078/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35047078/",
+  "paper_page_path": "papers/pubmed/35047078/index.html"
+}

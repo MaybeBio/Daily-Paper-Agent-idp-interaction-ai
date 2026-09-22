@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.24.690258",
+  "title": "Mapping high resolution, multidimensional phase diagrams of physiological protein condensates",
+  "authors": "Agarwal T; Sneideris T; Svara F; Jermakovs K; Coyle H; Qamar S; Kava E; Scrutton R; Pleschka N; Peres P; Cereghetti G; Andrzejewska E; Diaz-Barreiro A; Palmer G; Costa-Filho AJ; Krainer G; Knowles TP; Nixon-Abell J",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-25",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用液滴微流控平台绘制生理性蛋白凝聚体的高分辨相图，并结合机器学习分析FUS突变对相分离景观的重塑，虽聚焦相分离而非直接PPI机制建模，但方法可迁移至IDR介导互作研究。",
+  "abstract": "Biomolecular condensates are membraneless compartments, crucial for organising and regulating diverse cellular processes. Current approaches to study condensate biology either use simplified recombinant protein systems with limited physiological relevance, or complex live-cell models with restricted experimental control and scalability. Here, we present ExVivo PhaseScan, a droplet microfluidics platform that couples mammalian lysate-based reconstitution with scalable analysis to generate high-resolution phase diagrams of physiological protein condensates. We apply this approach to study two complex multicomponent condensate systems, stress granules and nucleoli, and dissect the physicochemical interactions that influence their stability. We further developed a machine learning pipeline to analyse condensate morphology which we use to reveal how mutations in the ALS-linked protein FUS remodels condensate phase landscapes. We identify liquid-to-solid transitions of mutant FUS within stress granules and nucleoli, and show that these transitions can be reversed by RNA aptamer-based interventions. Together, these findings establish ExVivo PhaseScan as a versatile tool for dissecting the physicochemical and pathological regulation of condensates, with potential to inform therapeutic strategies for diseases driven by aberrant phase transitions.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）是无膜区室，对于组织和调控多种细胞过程至关重要。当前研究凝聚体生物学的方法要么使用简化重组蛋白系统，其生理相关性有限，要么使用复杂活细胞模型，其实验控制和可扩展性受限。在此，我们提出ExVivo PhaseScan，一种液滴微流控平台，将基于哺乳动物裂解物的重构与可扩展分析相结合，以生成生理性蛋白凝聚体的高分辨率相图。我们应用该方法研究两种复杂的多组分凝聚体系统，即应激颗粒和核仁，并剖析影响其稳定性的物理化学相互作用。我们进一步开发了一种机器学习流程来分析凝聚体形态，并利用其揭示ALS相关蛋白FUS的突变如何重塑凝聚体相景观。我们识别出突变FUS在应激颗粒和核仁内的液-固转变，并表明这些转变可通过基于RNA适配体的干预逆转。综上，这些发现确立了ExVivo PhaseScan作为剖析凝聚体物理化学及病理调控的多功能工具，具有为异常相变驱动疾病提供治疗策略信息的潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690258",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690258",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.24.690258/index.html"
+}

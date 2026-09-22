@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.30.679637",
+  "title": "Born to Condense: Polysomes Drive Co-Translational Condensation of Biomolecular Condensate Proteins",
+  "authors": "He Z; Chow CFW; Toth-Petroczy A; Sommer J; Harmon TS",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-02",
+  "window": {
+    "start": "2025-09-29",
+    "end": "2025-10-05"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出共翻译凝聚(CTC)理论框架，用粗粒化模拟和反应-扩散建模揭示多聚核糖体新生链与凝聚体互作的机制，虽非直接PPI预测，但聚焦IDR/相分离互作机制建模，方法可迁移。",
+  "abstract": "Biomolecular condensates formed by protein liquid-liquid phase separation (LLPS) are ubiquitous in cells and play crucial roles in cellular regulation. While the physics and functions of LLPS are well studied, its interplay with protein synthesis – translation – remains largely unexplored. Here we introduce a theoretical framework for Co-Translational Condensation (CTC), in which nascent protein chains of polysomes – multiple ribosomes on one mRNA – interact with condensates, localizing translation to condensate surfaces. Using coarse-grained simulations, we show that protein domain architecture dictates the thermodynamics of CTC, consistent with a Langmuir adsorption model. Bioinformatic analysis of more than 7,500 proteins reveals that most condensate-associated proteins have architectures favoring CTC, with strong interaction regions of nascent chains exposed on polysomes. At the dynamical level, simulation and reaction–diffusion modeling reveal that CTC is kinetically feasible within typical polysome lifetimes, either through large polysomes nucleating new condensates or via diffusion to pre-existing condensates. As a case study, we demonstrate that CTC enhances post-translational modifications by minimizing unmodified intermediates. More broadly, we anticipate CTC may also influence protein folding, misfolding, and signal-integration latency. Together, our results establish CTC as a general mechanism coupling translation with phase separation, with broad implications for protein evolution, cellular organization, and synthetic biology.",
+  "abstract_zh": "由蛋白质液-液相分离（LLPS）形成的生物分子凝聚体在细胞中普遍存在，并在细胞调控中发挥关键作用。尽管LLPS的物理特性和功能已被广泛研究，但其与蛋白质合成——翻译——之间的相互作用仍 largely 未被探索。在此，我们引入一个共翻译凝聚（CTC）的理论框架，其中多聚核糖体（一条mRNA上的多个核糖体）的新生蛋白链与凝聚体相互作用，将翻译定位到凝聚体表面。利用粗粒化模拟，我们表明蛋白质结构域架构决定了CTC的热力学特性，这与Langmuir吸附模型一致。对超过7,500种蛋白质的生物信息学分析揭示，大多数凝聚体相关蛋白具有有利于CTC的架构，新生链的强相互作用区域暴露于多聚核糖体上。在动力学层面，模拟和反应-扩散模型表明，CTC在典型多聚核糖体寿命内是动力学可行的，无论是通过大型多聚核糖体成核新凝聚体，还是通过扩散至预先存在的凝聚体。作为案例研究，我们证明CTC通过最小化未修饰中间体来增强翻译后修饰。更广泛地，我们预期CTC也可能影响蛋白质折叠、错误折叠和信号整合延迟。总之，我们的结果确立了CTC作为将翻译与相分离耦合的一般机制，对蛋白质进化、细胞组织和合成生物学具有广泛意义。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.30.679637",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.30.679637",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.30.679637/index.html"
+}

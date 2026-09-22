@@ -1,0 +1,657 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.09.19.556013",
+  "title": "Exploring Degradation of Intrinsically Disordered Protein YAP induced by PROTACs",
+  "doi": "10.1101/2023.09.19.556013",
+  "abstract": "Yes-associated protein (YAP), a potent oncogene and a key player in the Hippo tumor suppression pathway, has long been considered challenging to target due to its partially intrinsically disordered nature. However, recent advances in High-throughput Screening (HTS) have led to the discovery of a few YAP binders. Building upon this progress, a novel approach utilizing Proteolysis-Targeting Chimera (PROTAC) technology was employed to design and synthesize a series of YAP degraders. Here, our degraders were created by linking NSC682769, a previously reported YAP binder, with either VHL ligand 2 or pomalidomide using various linkers of different lengths and types. The most promising degrader YZ-6 recruits the E3 ligase VHL, inducing rapid and sustained YAP degradation leading to suppression of YAP/TEAD-led transcription in both YAP-dependent NCI-H226 and Huh7 cancer cell lines. In addition to its degradation capabilities, YZ-6 also exhibited potent antiproliferative activity in both cell lines. Importantly, YZ-6 efficiently suppresses tumor development in the Huh7 xenograft mouse model without adverse effects on the mice. These findings highlight the potential of PROTAC-mediated degradation as a viable strategy for reducing oncogenic YAP levels and attenuating downstream signaling in cancer cells. Moreover, the development of PROTACs based on NSC672869 holds promise for treating YAP-driven malignancies.",
+  "authors": [
+    "Chen Zhou",
+    "Chunbao Sun",
+    "Liya Pi",
+    "Chenglong Li"
+  ],
+  "published_date": "2023-09-22",
+  "updated_date": "2023-09-22T07:06:14Z",
+  "journal": "bioRxiv",
+  "category": "Cancer Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.09.19.556013",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.09.19.556013.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Cancer Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Cancer Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:25:29Z",
+        "timestamp": 1768508729665,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            22
+          ]
+        ]
+      },
+      "group-title": "Cancer Biology",
+      "reference-count": 59,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            22
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  Yes-associated protein (YAP), a potent oncogene and a key player in the Hippo tumor suppression pathway, has long been considered challenging to target due to its partially intrinsically disordered nature. However, recent advances in High-throughput Screening (HTS) have led to the discovery of a few YAP binders. Building upon this progress, a novel approach utilizing Proteolysis-Targeting Chimera (PROTAC) technology was employed to design and synthesize a series of YAP degraders. Here, our degraders were created by linking NSC682769, a previously reported YAP binder, with either VHL ligand 2 or pomalidomide using various linkers of different lengths and types. The most promising degrader\n                  <jats:bold>YZ-6</jats:bold>\n                  recruits the E3 ligase VHL, inducing rapid and sustained YAP degradation leading to suppression of YAP/TEAD-led transcription in both YAP-dependent NCI-H226 and Huh7 cancer cell lines. In addition to its degradation capabilities,\n                  <jats:bold>YZ-6</jats:bold>\n                  also exhibited potent antiproliferative activity in both cell lines. Importantly,\n                  <jats:bold>YZ-6</jats:bold>\n                  efficiently suppresses tumor development in the Huh7 xenograft mouse model without adverse effects on the mice. These findings highlight the potential of PROTAC-mediated degradation as a viable strategy for reducing oncogenic YAP levels and attenuating downstream signaling in cancer cells. Moreover, the development of PROTACs based on NSC672869 holds promise for treating YAP-driven malignancies.\n                </jats:p>",
+      "DOI": "10.1101/2023.09.19.556013",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            22
+          ]
+        ],
+        "date-time": "2023-09-22T07:06:14Z",
+        "timestamp": 1695366374000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 2,
+      "title": [
+        "Exploring Degradation of Intrinsically Disordered Protein YAP induced by PROTACs"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Chen",
+          "family": "Zhou",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chunbao",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Liya",
+          "family": "Pi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Chenglong",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1146/annurev-biochem-013118-111829"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.274027.115"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.210773.112"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.4",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Boopathy, G. T. K. ; Hong, W ., Role of Hippo Pathway-YAP/TAZ Signaling in Angiogenesis. Front Cell Dev Biol 2019, 7, 49.",
+          "DOI": "10.3389/fcell.2019.00049"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.5",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Bae, S. J. ; Luo, X ., Activation mechanisms of the Hippo kinase signaling cascade. Biosci Rep 2018, 38 (4).",
+          "DOI": "10.1042/BSR20171469"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.devcel.2010.09.011"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.7",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ramazani, Y. ; Knops, N. ; Elmonem, M. A. ; Nguyen, T. O. ; Arcolino, F. O. ; van den Heuvel, L. ; Levtchenko, E. ; Kuypers, D. ; Goldschmeding, R. , Connective tissue growth factor (CTGF) from basics to clinics. Matrix Biol 2018, 68-69, 44–66.",
+          "DOI": "10.1016/j.matbio.2018.03.007"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-011-0778-3"
+        },
+        {
+          "issue": "5",
+          "key": "2023092610450705000_2023.09.19.556013v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "297",
+          "DOI": "10.1016/j.trecan.2019.04.001",
+          "article-title": "Hippo Pathway in Cancer: Aberrant Regulation and Therapeutic Opportunities",
+          "volume": "5",
+          "year": "2019",
+          "journal-title": "Trends Cancer"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7150/thno.40889"
+        },
+        {
+          "issue": "7",
+          "key": "2023092610450705000_2023.09.19.556013v1.11",
+          "doi-asserted-by": "crossref",
+          "first-page": "480",
+          "DOI": "10.1038/s41573-020-0070-z",
+          "article-title": "Targeting the Hippo pathway in cancer, fibrosis, wound healing and regenerative medicine",
+          "volume": "19",
+          "year": "2020",
+          "journal-title": "Nat Rev Drug Discov"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jhep.2014.06.033"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrc3458"
+        },
+        {
+          "issue": "12",
+          "key": "2023092610450705000_2023.09.19.556013v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "1578",
+          "DOI": "10.1038/s41556-019-0433-z",
+          "article-title": "Phase separation of YAP reorganizes genome topology for long-term YAP target gene expression",
+          "volume": "21",
+          "year": "2019",
+          "journal-title": "Nat Cell Biol"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3493"
+        },
+        {
+          "issue": "3",
+          "key": "2023092610450705000_2023.09.19.556013v1.16",
+          "doi-asserted-by": "crossref",
+          "first-page": "197",
+          "DOI": "10.1042/CS20201474",
+          "article-title": "The Hippo pathway in cancer: YAP/TAZ and TEAD as therapeutic targets in cancer",
+          "volume": "136",
+          "year": "2022",
+          "journal-title": "Clin Sci"
+        },
+        {
+          "issue": "5",
+          "key": "2023092610450705000_2023.09.19.556013v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "551",
+          "DOI": "10.1080/17460441.2020.1732920",
+          "article-title": "Discovery of drugs that directly target the intrinsically disordered region of the androgen receptor",
+          "volume": "15",
+          "year": "2020",
+          "journal-title": "Expert Opin Drug Dis"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-019-03347-3"
+        },
+        {
+          "issue": "13",
+          "key": "2023092610450705000_2023.09.19.556013v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "1535",
+          "DOI": "10.2217/fon-2019-0035",
+          "article-title": "A brief review: some compounds targeting YAP against malignancies",
+          "volume": "15",
+          "year": "2019",
+          "journal-title": "Future Oncol"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1101/gad.192856.112"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhang, H. B. ; Ramakrishnan, S. K. ; Triner, D. ; Centofanti, B. ; Maitra, D. ; Gyorffy, B. ; Sebolt-Leopold, J. S. ; Dame, M. K. ; Varani, J. ; Brenner, D. E. ; Fearon, E. R. ; Omary, M. B. ; Shah, Y. M ., Tumor-selective proteotoxicity of verteporfin inhibits colon cancer progression independently of YAP1. Sci Signal 2015, 8 (397).",
+          "DOI": "10.1126/scisignal.aac5418"
+        },
+        {
+          "issue": "17",
+          "key": "2023092610450705000_2023.09.19.556013v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "28628",
+          "DOI": "10.18632/oncotarget.15614",
+          "article-title": "Verteporfin exhibits YAP-independent anti-proliferative and cytotoxic effects in endometrial cancer cells",
+          "volume": "8",
+          "year": "2017",
+          "journal-title": "Oncotarget"
+        },
+        {
+          "issue": "12",
+          "key": "2023092610450705000_2023.09.19.556013v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "954",
+          "DOI": "10.1002/cmdc.201700063",
+          "article-title": "Molecular Features of the YAP Inhibitor Verteporfin: Synthesis of Hexasubstituted Dipyrrins as Potential Inhibitors of YAP/TAZ, the Downstream Effectors of the Hippo Pathway",
+          "volume": "12",
+          "year": "2017",
+          "journal-title": "Chemmedchem"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.fob.2015.06.007"
+        },
+        {
+          "issue": "36",
+          "key": "2023092610450705000_2023.09.19.556013v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "38854",
+          "DOI": "10.18632/oncotarget.5749",
+          "article-title": "MDP, a database linking drug response data to genomic information, identifies dasatinib and statins as a combinatorial strategy to inhibit YAP/TAZ in cancer cells",
+          "volume": "6",
+          "year": "2015",
+          "journal-title": "Oncotarget"
+        },
+        {
+          "issue": "2",
+          "key": "2023092610450705000_2023.09.19.556013v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "217",
+          "DOI": "10.1007/s11060-021-03699-6",
+          "article-title": "Targeting the YAP-TEAD interaction interface for therapeutic intervention in glioblastoma",
+          "volume": "152",
+          "year": "2021",
+          "journal-title": "J Neuro-Oncol"
+        },
+        {
+          "issue": "1",
+          "key": "2023092610450705000_2023.09.19.556013v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "217",
+          "DOI": "10.1016/j.drudis.2018.09.017",
+          "article-title": "Targeting intrinsically disordered proteins at the edge of chaos",
+          "volume": "24",
+          "year": "2019",
+          "journal-title": "Drug Discov Today"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.28",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Wu, K. J. ; Bai, H. ; Chang, Y. T. ; Redler, R. ; McNally, K. E. ; Sheffler, W. ; Brunette, T. J. ; Hicks, D. R. ; Morgan, T. E. ; Stevens, T. J. ; Broerman, A. ; Goreshnik, I. ; DeWitt, M. ; Chow, C. M. ; Shen, Y. H. ; Stewart, L. ; Derivery, E. ; Silva, D. A. ; Bhabha, G. ; Ekiert, D. C. ; Baker, D ., De novo design of modular peptide-binding proteins by superhelical matching. Nature 2023.",
+          "DOI": "10.1101/2022.11.14.514089"
+        },
+        {
+          "issue": "15",
+          "key": "2023092610450705000_2023.09.19.556013v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "10183",
+          "DOI": "10.1021/acs.jmedchem.2c00691",
+          "article-title": "Targeting Undruggable Transcription Factors with PROTACs: Advances and Perspectives",
+          "volume": "65",
+          "year": "2022",
+          "journal-title": "J Med Chem"
+        },
+        {
+          "issue": "15",
+          "key": "2023092610450705000_2023.09.19.556013v1.30",
+          "doi-asserted-by": "crossref",
+          "first-page": "10680",
+          "DOI": "10.1021/acs.jmedchem.1c01126",
+          "article-title": "The Future of Medicinal Chemistry, PROTAC, and Undruggable Drug Targets",
+          "volume": "64",
+          "year": "2021",
+          "journal-title": "J Med Chem"
+        },
+        {
+          "issue": "13",
+          "key": "2023092610450705000_2023.09.19.556013v1.31",
+          "doi-asserted-by": "crossref",
+          "first-page": "7123",
+          "DOI": "10.1021/jacs.2c09387",
+          "article-title": "High Accuracy Prediction of PROTAC Complex Structures",
+          "volume": "145",
+          "year": "2023",
+          "journal-title": "J Am Chem Soc"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.pharmthera.2017.02.027"
+        },
+        {
+          "issue": "8",
+          "key": "2023092610450705000_2023.09.19.556013v1.33",
+          "doi-asserted-by": "crossref",
+          "first-page": "998",
+          "DOI": "10.1016/j.chembiol.2020.07.020",
+          "article-title": "PROTACs: An Emerging Therapeutic Modality in Precision Medicine",
+          "volume": "27",
+          "year": "2020",
+          "journal-title": "Cell Chem Biol"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/D2CS00193D"
+        },
+        {
+          "issue": "7",
+          "key": "2023092610450705000_2023.09.19.556013v1.35",
+          "doi-asserted-by": "crossref",
+          "first-page": "934",
+          "DOI": "10.1016/j.chembiol.2021.04.011",
+          "article-title": "Targeted protein degradation: A promise for undruggable proteins",
+          "volume": "28",
+          "year": "2021",
+          "journal-title": "Cell Chem Biol"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41573-019-0047-y"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrd.2016.211"
+        },
+        {
+          "issue": "6",
+          "key": "2023092610450705000_2023.09.19.556013v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "631",
+          "DOI": "10.1093/jb/mvac021",
+          "article-title": "Hybrid molecule between platanic acid and LCL-161 as a yes-associated protein degrader",
+          "volume": "171",
+          "year": "2022",
+          "journal-title": "J Biochem"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.39",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhu, Z. C. ; Johnson, R. L. ; Zhang, Z. G. ; Herring, L. E. ; Jiang, G. C. ; Damania, B. ; James, L. I. ; Liu, P. D ., Development of VHL-recruiting STING PROTACs that suppress innate immunity. Cell Mol Life Sci 2023, 80 (6).",
+          "DOI": "10.1007/s00018-023-04796-7"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.40",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cubillos-Rojas, M. ; Loren, G. ; Hakim, Y. Z. ; Verdaguer, X. ; Riera, A. ; Nebreda, A. R. , Synthesis and Biological Activity of a VHL-Based PROTAC Specific for p38 alpha. Cancers 2023, 15 (3).",
+          "DOI": "10.3390/cancers15030611"
+        },
+        {
+          "issue": "5",
+          "key": "2023092610450705000_2023.09.19.556013v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "3923",
+          "DOI": "10.1021/acs.jmedchem.1c01774",
+          "article-title": "Discovery of the First-in-Class Agonist-Based SOS1 PROTACs Effective in Human Cancer Cells Harboring Various KRAS Mutations",
+          "volume": "65",
+          "year": "2022",
+          "journal-title": "J Med Chem"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.42",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lv, D. ; Pal, P. ; Liu, X. G. ; Jia, Y. N. ; Thummuri, D. ; Zhang, P. Y. ; Hu, W. Y. ; Pei, J. ; Zhang, Q. ; Zhou, S. ; Khan, S. ; Zhang, X. ; Hua, N. ; Yang, Q. P. ; Arango, S. ; Zhang, W. Z. ; Nayak, D. ; Olsen, S. K. ; Weintraub, S. T. ; Hromas, R. ; Konopleva, M. ; Yuan, Y. X. ; Zheng, G. R. ; Zhou, D. H ., Development of a BCL-xL and BCL-2 dual degrader with improved anti-leukemic activity. Nat Commun 2021, 12 (1).",
+          "DOI": "10.1038/s41467-021-27210-x"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41591-019-0668-z"
+        },
+        {
+          "issue": "3",
+          "key": "2023092610450705000_2023.09.19.556013v1.44",
+          "doi-asserted-by": "crossref",
+          "first-page": "181",
+          "DOI": "10.1038/s41573-021-00371-6",
+          "article-title": "PROTAC targeted protein degraders: the past is prologue",
+          "volume": "21",
+          "year": "2022",
+          "journal-title": "Nat Rev Drug Discov"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Cieslak, M. ; Slowianek, M ., Cereblon-Recruiting PROTACs: Will New Drugs Have to Face Old Challenges? Pharmaceutics 2023, 15 (3).",
+          "DOI": "10.3390/pharmaceutics15030812"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.46",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Zhu, S. L. ; Liu, J. Y. ; Xiao, D. H. ; Wang, P. P. ; Ma, J. K. ; Hu, X. B. ; Fu, J. F. ; Zhou, Y. B. ; Jia, L. ; Lu, W ., Design, synthesis, and biological evaluation of Wee1 kinase degraders. Eur J Med Chem 2022, 243.",
+          "DOI": "10.1016/j.ejmech.2022.114786"
+        },
+        {
+          "issue": "12",
+          "key": "2023092610450705000_2023.09.19.556013v1.47",
+          "doi-asserted-by": "crossref",
+          "first-page": "1885",
+          "DOI": "10.1021/acsmedchemlett.2c00402",
+          "article-title": "Development of Gilteritinib-Based Chimeric Small Molecules that Potently Induce Degradation of FLT3-ITD Protein",
+          "volume": "13",
+          "year": "2022",
+          "journal-title": "Acs Med Chem Lett"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.48",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Sun, Z. Q. ; Deng, B. L. ; Yang, Z. C. ; Mai, R. Y. ; Huang, J. L. ; Ma, Z. L. ; Chen, T. ; Chen, J. J ., Discovery of pomalidomide-based PROTACs for selective degradation of histone deacetylase 8. Eur J Med Chem 2022, 239.",
+          "DOI": "10.1016/j.ejmech.2022.114544"
+        },
+        {
+          "issue": "2",
+          "key": "2023092610450705000_2023.09.19.556013v1.49",
+          "doi-asserted-by": "crossref",
+          "first-page": "171",
+          "DOI": "10.1080/13543776.2022.1999415",
+          "article-title": "Ligands for cereblon: 2017-2021 patent overview",
+          "volume": "32",
+          "year": "2022",
+          "journal-title": "Expert Opin Ther Pat"
+        },
+        {
+          "issue": "3",
+          "key": "2023092610450705000_2023.09.19.556013v1.50",
+          "doi-asserted-by": "crossref",
+          "first-page": "1626",
+          "DOI": "10.1021/acs.jmedchem.0c01897",
+          "article-title": "Discovery of a Napabucasin PROTAC as an Effective Degrader of the E3 Ligase ZFP91",
+          "volume": "64",
+          "year": "2021",
+          "journal-title": "J Med Chem"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.51",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Calvet, L. ; Dos-Santos, O. ; Spanakis, E. ; Jean-Baptiste, V. ; Le Bail, J. C. ; Buzy, A. ; Paul, P. ; Henry, C. ; Valence, S. ; Dib, C. ; Pollard, J. ; Sidhu, S. ; Moll, J. ; Debussche, L. ; Valtingojer, I ., YAP1 is essential for malignant mesothelioma tumor maintenance. Bmc Cancer 2022, 22 (1).",
+          "DOI": "10.1186/s12885-022-09686-y"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.52",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Gridnev, A. ; Maity, S. ; Misra, J. R ., Structure-based discovery of a novel small-molecule inhibitor of TEAD palmitoylation with anticancer activity. Front Oncol 2022, 12.",
+          "DOI": "10.3389/fonc.2022.1021823"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/1538-7445.AM2018-4902"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1158/0008-5472.CAN-06-0605"
+        },
+        {
+          "issue": "10",
+          "key": "2023092610450705000_2023.09.19.556013v1.55",
+          "doi-asserted-by": "crossref",
+          "first-page": "1563",
+          "DOI": "10.1517/13543784.2012.707192",
+          "article-title": "MLN4924: a novel first-in-class inhibitor of NEDD8-activating enzyme for cancer therapy",
+          "volume": "21",
+          "year": "2012",
+          "journal-title": "Expert Opin Inv Drug"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.56",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cbpa.2019.02.022"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.57",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Buckley, D. L. ; Van Molle, I. ; Gareiss, P. C. ; Gustafson, J. L. ; Roth, A. G. ; Tae, H. S. ; Michel, J. ; Jorgensen, W. L. ; Ciulli, A. ; Crews, C. M ., Targeting the von Hippel-Lindau E3 ubiquitin ligase using small molecules to disrupt the VHL/HIF-1a interaction. Abstr Pap Am Chem S 2012, 244.",
+          "DOI": "10.1021/ja209924v"
+        },
+        {
+          "issue": "8",
+          "key": "2023092610450705000_2023.09.19.556013v1.58",
+          "doi-asserted-by": "crossref",
+          "first-page": "1299",
+          "DOI": "10.1021/jm970675l",
+          "article-title": ", d-fused [1]benzazepines with selective in vitro antitumor activity: Synthesis and structure-activity relationships",
+          "volume": "41",
+          "year": "1998",
+          "journal-title": "J Med Chem"
+        },
+        {
+          "key": "2023092610450705000_2023.09.19.556013v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.jmr.2013.07.012"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.09.19.556013",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:16:03Z",
+        "timestamp": 1768454163000
+      },
+      "score": 101.01207,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.09.19.556013"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            22
+          ]
+        ]
+      },
+      "references-count": 59,
+      "URL": "https://doi.org/10.1101/2023.09.19.556013",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1021/acs.jmedchem.4c00815",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            22
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

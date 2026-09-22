@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41626689",
+  "title": "Fibrillarin/Nop1 perturbs RNA folding and assembly independently of liquid-liquid phase separation.",
+  "authors": "Sun, Yunsheng; Woodson, Sarah A",
+  "journal": "Nucleic acids research",
+  "published_date": "2026-02-02",
+  "window": {
+    "start": "2026-02-02",
+    "end": "2026-02-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用单分子荧光研究核仁蛋白Nop1/fibrillarin对rRNA折叠与组装的调控，虽涉及相分离凝聚体背景和RNA-蛋白互作机制，但对象为RNA而非无序蛋白，且方法为实验而非AI/物理模拟，故机制建模启发有限。",
+  "abstract": "The liquid-liquid phase-separated environment of the eukaryotic nucleolus is proposed to benefit ribosome assembly by chaperoning rRNA folding and spatially sorting ribosome assembly factors. Yet, how microscopic interactions within the condensed nucleolus affect rRNA folding and assembly is largely unknown. We used single-molecule fluorescence microscopy to monitor folding of the Tetrahymena ribozyme and an rRNA domain inside and outside droplets of Nop1/fibrillarin, a major constituent of the nucleolus. We found that Nop1 destabilizes tertiary docking of the ribozyme substrate helix equally in dilute and condensed phases, depending only on transient molecular interactions between Nop1 and the ribozyme. Nop1 binding also inhibits rRNA unwinding by a DEAD-box helicase and nonspecific binding of a ribosomal protein. Over time, nonspecific interactions with Nop1 are outcompeted by specific RNA-protein assembly. Our results illustrate how RNA-binding proteins residing in the nucleolus tune RNA folding stability while permitting assembly of native ribosomal complexes.",
+  "abstract_zh": "真核生物核仁中的液-液相分离环境被认为通过陪伴rRNA折叠和空间上分选核糖体组装因子来促进核糖体组装。然而，凝聚态核仁内的微观相互作用如何影响rRNA折叠和组装在很大程度上尚不清楚。我们使用单分子荧光显微镜监测了四膜虫核酶和一个rRNA结构域在Nop1/fibrillarin（核仁的主要成分）液滴内外部的折叠情况。我们发现，Nop1在稀相和凝聚相中同样地使核酶底物螺旋的三级对接不稳定，这仅取决于Nop1与核酶之间的瞬时分子相互作用。Nop1结合还抑制了DEAD-box解旋酶对rRNA的解旋以及核糖体蛋白的非特异性结合。随时间推移，与Nop1的非特异性相互作用被特异性RNA-蛋白质组装所超越。我们的结果阐明了核仁中驻留的RNA结合蛋白如何调节RNA折叠稳定性，同时允许天然核糖体复合物的组装。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41626689/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41626689/",
+  "paper_page_path": "papers/pubmed/41626689/index.html"
+}

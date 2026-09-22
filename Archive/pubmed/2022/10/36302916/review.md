@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary information descriptions.
+- **Assessment boundary** The scientific claims, methodology, data interpretation, and presentation quality of the provided manuscript. No external data or unpublished materials were consulted.
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to propose that two small molecules, EPI-002 and EPI-7170, bind to a disordered fragment of the androgen receptor transactivation domain (Tau-5R2_R3) at an interface between transiently helical regions, inducing collapsed helical states. They further claim that EPI-7170 binds with higher affinity than EPI-002, and that this difference is driven by enhanced aromatic stacking interactions from a dichlorinated phenyl ring, which also positions a reactive chlorohydrin group closer to Cys404.
+- **Visible evidence base** Simulation results including helical propensities, radius of gyration, contact probabilities, free energy surfaces, hydrogen bond populations, and calculated binding affinities (KD values). Comparisons to previously reported NMR chemical shifts and biological activity data are referenced.
+- **Missing materials affecting confidence** The manuscript does not provide experimental validation of the predicted binding modes or affinities. No NMR titrations, mutagenesis studies, or in vitro binding assays for EPI-7170 are presented. The force field parameters for the ligands are not described in detail. The statistical error analysis methodology is only briefly described.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computationally intensive and potentially valuable study addressing a clinically relevant question: how small molecules bind to a disordered protein domain. The simulations are extensive and the analysis is detailed. However, the central claims rest entirely on computational predictions without direct experimental validation. The mechanistic conclusions, while plausible, are not uniquely established by the data presented. The study is a useful contribution to the field of IDP drug design, but the strength of the claims exceeds what the evidence can support at this stage.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, drug discovery, and computational biophysics would find this study of interest. Specifically, those working on targeting transcription factors like the androgen receptor, and those developing methods for simulating ligand binding to disordered targets, would benefit from the methodological approach and the proposed binding model.
+- **Major strengths**
+  - The study addresses a significant and timely problem: the lack of structural and mechanistic understanding of drug binding to the androgen receptor N-terminal domain, a validated therapeutic target in prostate cancer.
+  - The use of long-timescale, enhanced-sampling MD simulations with a modern force field is appropriate and represents a state-of-the-art computational approach.
+  - The analysis is thorough, including convergence checks, statistical error estimates, and detailed characterization of binding modes and interactions.
+  - The comparison between two ligands with different potencies provides a useful framework for understanding structure-activity relationships.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The manuscript claims that EPI-002 and EPI-7170 "induce the formation of collapsed helical states" and that this is the mechanism of inhibition.
+  - **Evidence pointer** Results section, Figures 2 and 3, Table 2.
+  - **Concern** The central claim that ligand binding induces a specific conformational change (collapse into helical states) is based solely on simulations of a fragment. There is no experimental evidence, such as NMR or other biophysical data, demonstrating that these compounds alter the conformational ensemble of the full-length AR-NTD or the Tau-5 region in solution. The simulations show a correlation between binding and a more collapsed, helical ensemble, but this does not establish causation or that this is the operative mechanism in a cellular context.
+  - **Why it matters** The title and abstract make a strong mechanistic claim. If the proposed mechanism is not correct, the conclusions about how to design better inhibitors would be misleading. The field requires experimental validation of computational predictions, especially for such a bold claim about a disordered system.
+  - **Resolution test** The authors should provide experimental evidence, such as NMR-based conformational analysis (e.g., PRE, RDC, or paramagnetic relaxation enhancements) of the Tau-5 region in the presence and absence of the compounds, to demonstrate that the collapsed helical state is populated upon binding. Alternatively, they could soften the claim to state that the simulations predict this mechanism, pending experimental confirmation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript reports simulated KD values of 5.24 mM for EPI-002 and 1.92 mM for EPI-7170 and uses these to conclude that EPI-7170 binds more tightly.
+  - **Evidence pointer** Results section, Table 2, Figure S22.
+  - **Concern** The method used to calculate KD from the simulations is not rigorously justified. The definition of "bound" based on a single distance cutoff (6.0 Å) is simplistic and may not accurately reflect a true bound state, especially for a disordered protein where transient, non-specific contacts are common. The conversion of a fraction of bound frames to a KD value using a standard state concentration is a significant assumption that is not validated. The error bars are small, but they may not capture the systematic errors in the method.
+  - **Why it matters** The relative binding affinities are a key result used to explain the different potencies of the compounds. If the KD calculation is flawed, the conclusion that EPI-7170's higher affinity is due to specific interactions is weakened. The absolute KD values are likely not comparable to experimental values, and the authors themselves note this, but the relative ranking is still used to support a mechanistic argument.
+  - **Resolution test** The authors should validate their KD calculation method against a system with known experimental binding affinity, or use a more rigorous free energy method (e.g., umbrella sampling, metadynamics, or alchemical FEP) to estimate relative binding free energies. At minimum, they should demonstrate that the calculated KD is insensitive to the choice of contact definition and distance cutoff.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence strength
+  - **Claim pointer** The manuscript claims that the increased affinity of EPI-7170 is due to the dichlorinated phenyl ring forming more parallel stacking interactions with aromatic residues, and that this stabilizes the collapsed helical state.
+  - **Evidence pointer** Results section, Figures 4 and 5.
+  - **Concern** While the simulations show a correlation between the chlorinated ring and increased stacking, this is a correlation, not a proven causal mechanism. The authors do not perform any perturbation analysis, such as simulating a variant of EPI-7170 without the chlorine atoms, to directly test the role of the chlorine substituents. The claim that this specific interaction "drives" higher affinity is therefore not fully supported.
+  - **Why it matters** This is a specific, actionable claim for medicinal chemists. If the role of the chlorine atoms is not correctly identified, efforts to optimize this part of the molecule could be misguided. A more direct test of the hypothesis is needed.
+  - **Resolution test** The authors should perform additional simulations with a modified ligand (e.g., removing the chlorine atoms) to demonstrate that the predicted loss of stacking interactions leads to a lower predicted affinity and a less collapsed helical state. This would provide a much stronger test of the proposed mechanism.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction.
+  - **Issue** The abstract states that the compounds "induce the formation of partially folded collapsed helical states" without explicitly stating that this is a prediction from simulations. The introduction could more clearly distinguish between established experimental facts and the computational predictions that are the subject of this work.
+  - **Required correction** In the abstract, add a phrase such as "our simulations predict that..." to clarify the nature of the findings. In the introduction, explicitly state that the binding mechanism is unknown and that this study uses simulations to propose a model.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Ligand intermolecular interactions
+  - **Evidence pointer** Methods section.
+  - **Issue** The definition of hydrogen bonds uses a distance cutoff of 3.5 Å and an angle cutoff of 150 degrees. This is a standard definition, but the sensitivity of the results to these cutoffs is not discussed.
+  - **Required correction** Add a sentence in the Methods or Results stating that the qualitative conclusions are not sensitive to reasonable variations in these cutoffs, or provide a supplementary figure showing the results with different cutoffs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 5
+  - **Evidence pointer** Figure 5.
+  - **Issue** The free energy surfaces in Figure 5C are informative but could be more clearly labeled. The color scale is not intuitive, and the difference between the two ligands is not immediately obvious.
+  - **Required correction** Use a more intuitive color scale (e.g., blue to red for low to high free energy) and add contour lines to make the minima more apparent. Consider plotting the difference between the two ligands' free energy surfaces to highlight the key differences.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of experimental validation for the central mechanistic claim.
+  - R1-M2: The method for calculating KD values is not rigorously validated.
+  - R1-M3: The causal role of specific interactions (chlorinated ring stacking) is not directly tested.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is original in its specific application to the AR-NTD and its detailed comparison of two related ligands. The concept of targeting a disordered protein with small molecules is not new, but the atomic-level model for how these specific compounds work is a novel contribution.
+  - **Scientific importance** The problem is important. Understanding how to drug the AR-NTD could lead to better treatments for a lethal disease. However, the importance of this specific study is diminished by the lack of experimental validation. The conclusions are plausible but not proven, which limits their immediate impact.
+  - **Interdisciplinary readership** The topic is of interest to cancer biologists, medicinal chemists, and computational biophysicists. The writing is generally accessible, but the methods section is highly technical and may be challenging for non-specialists.
+  - **Technical soundness** The simulations appear to be well-executed and the analysis is careful. However, the key methodological choice of how to define binding and calculate KD is a weakness. The lack of experimental validation is a major technical shortcoming in the context of the strong claims made.
+  - **Readability for nonspecialists** The abstract and introduction are clear. The results are dense but understandable. The discussion is well-written and places the work in context. The manuscript is generally well-organized.
+- **Recommendation posture** Currently not established from the provided evidence. The computational work is of high quality and the model is interesting, but the central claims are not supported by experimental data. The manuscript would be much stronger if the authors could provide any experimental evidence to support the proposed mechanism, or if they significantly softened their claims to be explicitly predictive. I would be supportive of the manuscript if the authors can address the major concerns, particularly the lack of experimental validation and the questionable KD calculation method.

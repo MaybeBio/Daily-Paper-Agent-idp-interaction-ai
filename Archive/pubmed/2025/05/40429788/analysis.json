@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40429788",
+  "title": "Genome-Wide Identification and Expression Analysis of the YTH Domain-Containing Protein Gene Family in Salvia miltiorrhiza.",
+  "authors": "Wang, Chunling; Peng, Yunliang; Pan, Xian; Zhang, Sixuan; Xu, Yayun; Li, Caili; Zhu, Butuo; Niu, Lili; Lu, Shanfa",
+  "journal": "International journal of molecular sciences",
+  "published_date": "2025-05-28",
+  "window": {
+    "start": "2025-05-26",
+    "end": "2025-06-01"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究对丹参YTH结构域蛋白家族进行全基因组鉴定与表达分析，虽涉及相分离预测，但对象非无序蛋白介导的PPI，且无AI/物理模拟方法，与本课题关联较弱。",
+  "abstract": "YTH domain-containing proteins act as the primary readers of N(6)-methyladenosine (m(6)A), playing an important role in plant development and stress responses. However, little is known about the YTH proteins in medicinal plants. Genome-wide identification of the YTH gene family in the medicinal model plant, Salvia miltiorrhiza Bunge, identified a total of nineteen SmYTH genes from five chromosomes, with SmYTH8-SmYTH19 clustered on chromosome 8. Phylogenetic analysis showed that SmYTH proteins belong to the YTHDF category. No YTHDC members were identified. Conserved domain identification, amino acid sequence alignment, and phase separation prediction revealed that SmYTH1-SmYTH4 exhibited the characteristic m(6)A reader protein feature, containing conserved aromatic cages (WWW) capable of binding m(6)A residues. SmYTH5-SmYTH19 proteins contain a unique conserved F-box protein interaction domain that has not been reported previously. qRT-PCR analysis revealed tissue-specific patterns, with SmYTH1-SmYTH4 genes highly expressed in roots and leaves, whereas SmYTH8-SmYTH19 were mainly expressed in leaves. The results were consistent with RNA-seq data. The expression of various SmYTHs and the content of phenolic acid active ingredients were significantly altered under MeJA and SA treatments. The results provide useful information for further studies on the biological functions of m(6)A and YTH proteins in S. miltiorrhiza.",
+  "abstract_zh": "含有YTH结构域的蛋白作为N(6)-甲基腺苷（m(6)A）的主要识别因子，在植物发育和胁迫响应中发挥重要作用。然而，关于药用植物中YTH蛋白的研究知之甚少。在药用模式植物丹参（Salvia miltiorrhiza Bunge）中，对YTH基因家族进行全基因组鉴定，共从五条染色体上识别出十九个SmYTH基因，其中SmYTH8-SmYTH19聚集在8号染色体上。系统发育分析显示，SmYTH蛋白属于YTHDF类别，未鉴定到YTHDC成员。保守结构域鉴定、氨基酸序列比对和相分离预测揭示，SmYTH1-SmYTH4表现出典型的m(6)A识别蛋白特征，含有能够结合m(6)A残基的保守芳香笼（WWW）。SmYTH5-SmYTH19蛋白含有一个独特的保守F-box蛋白互作结构域，该结构域此前未见报道。qRT-PCR分析显示组织特异性表达模式，其中SmYTH1-SmYTH4基因在根和叶中高表达，而SmYTH8-SmYTH19主要在叶中表达。该结果与RNA-seq数据一致。在MeJA和SA处理下，多种SmYTH的表达水平及酚酸活性成分含量发生显著变化。这些结果为深入研究丹参中m(6)A和YTH蛋白的生物学功能提供了有用信息。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40429788/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40429788/",
+  "paper_page_path": "papers/pubmed/40429788/index.html"
+}

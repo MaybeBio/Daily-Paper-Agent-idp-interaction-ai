@@ -1,0 +1,88 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, and materials and methods.
+- **Assessment boundary** Scientific validity, technical soundness, and clarity of claims as presented in the provided manuscript. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors report identification of an alternatively spliced sortilin variant (Sort17b) in mouse 3T3L1 adipocytes, whose expression increases under insulin resistance. They show that exon 17b inclusion introduces an intrinsically disordered region (IDR), increases protein backbone flexibility in molecular dynamics simulations, and enhances binding to Glut4. Overexpression of Sort17b correlates with reduced Glut4 translocation and decreased glucose uptake.
+- **Visible evidence base** Figures 1–6 (described in text), methods sections 4.1–4.11, statistical analysis section.
+- **Missing materials affecting confidence** Raw western blot images, full qPCR standard curves, molecular dynamics simulation parameters and trajectories, docking scores and pose selection criteria, statistical details for each figure, and replicate-level data are not provided. Figure panels are referenced but not directly viewable in this submission.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a potentially interesting question regarding sortilin splice variants in adipocyte insulin resistance. The identification of Sort17b in adipocytes and its upregulation under insulin resistance is a novel observation. However, the evidence linking Sort17b to functional outcomes (reduced Glut4 translocation and glucose uptake) is correlative and incomplete. Several technical aspects, particularly the molecular dynamics and docking analyses, lack sufficient detail to assess robustness. The causal relationship between Sort17b expression and insulin resistance is not established.
+- **Who would be interested in the results, and why** Researchers studying Glut4 trafficking, insulin resistance, adipocyte biology, and alternative splicing in metabolic disease. The potential link between a novel sortilin splice variant and T2DM pathogenesis may interest those developing therapeutics targeting sortilin or its variants.
+- **Major strengths** Novel identification of Sort17b in adipocytes; combination of experimental and computational approaches; use of multiple insulin resistance induction methods; demonstration of increased Sort17b under insulin resistance; evidence for enhanced Glut4 binding to Sort17b.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** "Over-expression of Sort17b correlates with reduced Glut4 translocation and decreased glucose uptake in adipocytes."
+  - **Evidence pointer** Section 2.6, Figure 6d
+  - **Concern** The claim of reduced Glut4 translocation and decreased glucose uptake upon Sort17b overexpression is based on a single experiment (Figure 6d) with no quantification, no statistical analysis, and no comparison to SortWT overexpression. The text states "dramatically less uptake" but provides no numerical data or error bars. Additionally, the Glut4 translocation assay (fractionation) is described in methods but results are not shown or quantified.
+  - **Why it matters** This is the central functional claim linking Sort17b to insulin resistance. Without robust quantitative data and appropriate controls, the conclusion that Sort17b impairs glucose uptake is not supported.
+  - **Resolution test** Provide quantified glucose uptake data with at least three independent biological replicates, statistical analysis, and appropriate controls (e.g., SortWT overexpression, empty vector). Show fractionation data with quantification of plasma membrane versus cytoplasmic Glut4.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Computational methodology
+  - **Claim pointer** "Sort17b showed significantly higher RMSD than SortWT over the first 75 ns of the simulation, suggesting increased backbone flexibility."
+  - **Evidence pointer** Section 2.5, Figure 5c–f
+  - **Concern** The molecular dynamics simulation is described with minimal detail. No information is provided on the number of replicates, simulation temperature, pressure coupling, or convergence criteria. The RMSD comparison between SortWT and Sort17b is stated as "significantly higher" but no statistical test is described. The RMSF analysis samples only three time points (0, 10, 100 ns) with 5 ns windows, which may not capture the full dynamic behavior. The claim of an IDR is based solely on PONDR-Fit prediction and simulation, without experimental validation.
+  - **Why it matters** The computational claims about protein flexibility and IDR formation are used to support the mechanistic interpretation. Without rigorous simulation protocols and statistical analysis, these claims are not reliable.
+  - **Resolution test** Provide full simulation parameters, convergence analysis, replicate simulations, and statistical comparison of RMSD/RMSF between variants. Consider experimental validation of the IDR (e.g., limited proteolysis, circular dichroism).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental evidence
+  - **Claim pointer** "Using protein–protein docking and co-immunoprecipitation assays, we show robust binding of Glut4 to Sort17b."
+  - **Evidence pointer** Section 2.6, Figure 6b,c
+  - **Concern** The co-immunoprecipitation (co-IP) data are described but not quantified. The text states "significantly higher association of Sort17b with Glut4" but no statistical analysis is presented. The docking results are described qualitatively with no scoring metrics or comparison to SortWT. The choice of docking pose is not justified.
+  - **Why it matters** The claim of enhanced Glut4 binding to Sort17b is a key mechanistic finding. Without quantitative co-IP data and rigorous docking analysis, the strength of this interaction is not established.
+  - **Resolution test** Quantify co-IP results from at least three independent experiments with statistical analysis. Provide docking scores for both SortWT and Sort17b with Glut4, and justify pose selection criteria.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental evidence
+  - **Claim pointer** "All methods of insulin resistance promoted an increase in inclusion of sortilin exon 17b."
+  - **Evidence pointer** Section 2.3, Figure 3a
+  - **Concern** The PCR results in Figure 3a are shown as gel images without quantification. The text claims all methods increased exon 17b inclusion, but no statistical analysis is provided. The high serum method is stated to be "consistently and reproducibly" effective, but replicate numbers are not given.
+  - **Why it matters** This is the foundational observation linking insulin resistance to Sort17b expression. Without quantitative PCR data and statistical analysis, the claim is not supported.
+  - **Resolution test** Provide quantified PCR data (e.g., percent exon inclusion) with at least three independent experiments and statistical analysis for each insulin resistance method.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.4 title
+  - **Evidence pointer** Section 2.4
+  - **Issue** The title of Section 2.4 is identical to Section 2.3 ("Induction of Insulin Resistance by High Serum Promotes Sortilin Exon 17b Inclusion"). This appears to be a duplication error.
+  - **Required correction** Rename Section 2.4 to reflect its actual content (e.g., "Validation of Exon 17b Inclusion via Splicing Minigene").
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Section 4.7
+  - **Evidence pointer** Section 4.7
+  - **Issue** The glucose uptake assay description states cells were treated with "10 nM or 100 nM insulin" but the results section (Figure 6d) only mentions 100 nM. Clarify which concentration was used for the reported data.
+  - **Required correction** Specify the insulin concentration used in the experiments shown in Figure 6d.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5d
+  - **Evidence pointer** Section 2.5, Figure 5d
+  - **Issue** The text states "RMSD was plotted per residue for Sort17b" but RMSD is typically a global measure. This likely refers to per-residue RMSF. Clarify the metric used.
+  - **Required correction** Correct the terminology to RMSF if per-residue fluctuations are shown.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 4.11
+  - **Evidence pointer** Section 4.11
+  - **Issue** The statistical analysis section mentions "two-tailed Student's t-test, one-way or two-way ANOVA" but does not specify which test was used for which figure. This makes it difficult to assess the appropriateness of the analysis.
+  - **Required correction** Specify the statistical test used for each figure in the figure legends.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (functional data), R1-M2 (simulation rigor), R1-M3 (binding quantification), R1-M4 (PCR quantification).
+- **Assessment against Nature-style criteria** Originality: Moderate. The identification of Sort17b in adipocytes is novel, but the concept of alternative splicing in metabolic disease is well established. Scientific importance: Moderate. The findings may have implications for T2DM, but the causal link is not established. Interdisciplinary readership: Limited. The work is primarily of interest to specialists in adipocyte biology and Glut4 trafficking. Technical soundness: Weak. Several key experiments lack quantification, statistical analysis, and appropriate controls. Readability for nonspecialists: Adequate. The manuscript is generally clear, but some sections (e.g., molecular dynamics) may be difficult for non-experts.
+- **Recommendation posture** Currently not established from the provided evidence. The central functional claims require substantial additional experimental support, including quantitative data, statistical analysis, and appropriate controls. The computational analyses need more rigorous protocols and validation.
+
+## Risk / unsupported claims
+- The claim that Sort17b overexpression reduces Glut4 translocation and glucose uptake is not supported by quantitative data.
+- The claim of "significantly higher" RMSD for Sort17b is not supported by statistical analysis.
+- The claim of "robust binding" of Glut4 to Sort17b is not quantified.
+- The claim that all insulin resistance methods increase exon 17b inclusion is not quantified.
+- The statement in the Discussion regarding unpublished human data cannot be evaluated.
+- The claim of increased sortilin secretion with Sort17b overexpression is mentioned but not shown.

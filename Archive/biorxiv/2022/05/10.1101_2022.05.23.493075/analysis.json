@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.05.23.493075",
+  "title": "The interface of condensates of the hnRNPA1 low complexity domain promotes formation of amyloid fibrils",
+  "authors": "Linsenmeier M; Faltova L; Palmiero UC; Seiffert C; Küffner AM; Pinotsi D; Zhou J; Mezzenga R; Arosio P",
+  "journal": "bioRxiv",
+  "published_date": "2022-05-23",
+  "window": {
+    "start": "2022-05-23",
+    "end": "2022-05-29"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究hnRNPA1低复杂度结构域凝聚体界面促进淀粉样纤维形成的机制，直接涉及IDR相分离与PPI/聚集互作，虽以实验为主但机制建模思路对相分离介导互作研究有启发。",
+  "abstract": "The maturation of liquid-like protein condensates into amyloid fibrils has been associated with neurodegenerative diseases. Here, we analyze the amyloid formation mediated by condensation of the low-complexity domain of hnRNPA1, a protein involved in Amyotrophic Lateral Sclerosis (ALS). We show that phase separation and fibrillation are connected but distinct processes which are independently mediated by different regions of the protein sequence. By monitoring the spatial and temporal evolution of amyloid formation we demonstrate that the formation of fibrils does not occur homogeneously inside the droplets but is promoted at the interface of the condensates. Consistently, we further show that coating the interface of the droplets with surfactant molecules inhibits fibril formation. Our results indicate that the interface of biomolecular condensates can act as an important catalyst for fibril formation, and therefore could represent a possible therapeutic target against the formation of aberrant amyloids mediated by condensation.",
+  "abstract_zh": "液态蛋白凝聚体成熟为淀粉样纤维的过程与神经退行性疾病相关。在此，我们分析了hnRNPA1低复杂度结构域通过凝聚介导的淀粉样形成，该蛋白与肌萎缩侧索硬化症（ALS）相关。我们表明，相分离（phase separation）和纤维化是相互关联但截然不同的过程，它们分别由蛋白质序列的不同区域独立介导。通过监测淀粉样形成的时空演变，我们证明纤维的形成并非在液滴内部均匀发生，而是在凝聚体的界面处得到促进。一致地，我们进一步表明，用表面活性剂分子包覆液滴界面可抑制纤维形成。我们的结果表明，生物分子凝聚体的界面可作为纤维形成的重要催化剂，因此可能代表针对凝聚介导的异常淀粉样形成的潜在治疗靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.05.23.493075",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.05.23.493075",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.05.23.493075/index.html"
+}

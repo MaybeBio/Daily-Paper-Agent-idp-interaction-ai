@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37908230",
+  "title": "Structural properties of the HNF-1A transactivation domain.",
+  "authors": "Kind, Laura; Driver, Mark; Raasakka, Arne; Onck, Patrick R; Njolstad, Pal Rasmus; Arnesen, Thomas; Kursula, Petri",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2023-11-01",
+  "window": {
+    "start": "2023-10-30",
+    "end": "2023-11-05"
+  },
+  "score": 7,
+  "one_liner_zh": "该文表征了转录因子HNF-1A反式激活域的结构特性，证实其为无序蛋白并发现其发生液-液相分离，但未深入涉及与其他蛋白的互作机制建模，方法以实验为主、辅以生物信息学预测。",
+  "abstract": "Hepatocyte nuclear factor 1alpha (HNF-1A) is a transcription factor with important gene regulatory roles in pancreatic beta-cells. HNF1A gene variants are associated with a monogenic form of diabetes (HNF1A-MODY) or an increased risk for type 2 diabetes. While several pancreatic target genes of HNF-1A have been described, a lack of knowledge regarding the structure-function relationships in HNF-1A prohibits a detailed understanding of HNF-1A-mediated gene transcription, which is important for precision medicine and improved patient care. Therefore, we aimed to characterize the understudied transactivation domain (TAD) of HNF-1A in vitro. We present a bioinformatic approach to dissect the TAD sequence, analyzing protein structure, sequence composition, sequence conservation, and the existence of protein interaction motifs. Moreover, we developed the first protocol for the recombinant expression and purification of the HNF-1A TAD. Small-angle X-ray scattering and synchrotron radiation circular dichroism suggested a disordered conformation for the TAD. Furthermore, we present functional data on HNF-1A undergoing liquid-liquid phase separation, which is in line with in silico predictions and may be of biological relevance for gene transcriptional processes in pancreatic beta-cells.",
+  "abstract_zh": "肝细胞核因子1α（HNF-1A）是一种转录因子，在胰腺β细胞中具有重要的基因调控作用。HNF1A基因变异与单基因型糖尿病（HNF1A-MODY）或2型糖尿病风险增加相关。尽管已描述了HNF-1A的若干胰腺靶基因，但对HNF-1A结构-功能关系的认识不足，阻碍了对HNF-1A介导基因转录的详细理解，而这对于精准医学和改善患者护理至关重要。因此，我们旨在体外表征研究不足的HNF-1A反式激活域（TAD）。我们提出了一种生物信息学方法来解析TAD序列，分析蛋白质结构、序列组成、序列保守性以及蛋白质相互作用基序的存在。此外，我们开发了首个用于重组表达和纯化HNF-1A TAD的方案。小角X射线散射和同步辐射圆二色光谱表明TAD呈无序构象。进一步地，我们提供了HNF-1A发生液-液相分离的功能数据，这与计算机模拟预测一致，并可能对胰腺β细胞中的基因转录过程具有生物学意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37908230/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37908230/",
+  "paper_page_path": "papers/pubmed/37908230/index.html"
+}

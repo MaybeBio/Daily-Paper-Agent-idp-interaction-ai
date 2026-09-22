@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38703276",
+  "title": "Unveiling Promising Neuroimaging Biomarkers for Schizophrenia Through Clinical and Genetic Perspectives.",
+  "authors": "Guo, Jing; He, Changyi; Song, Huimiao; Gao, Huiwu; Yao, Shi; Dong, Shan-Shan; Yang, Tie-Lin",
+  "journal": "Neuroscience bulletin",
+  "published_date": "2024-05-05",
+  "window": {
+    "start": "2024-04-29",
+    "end": "2024-05-05"
+  },
+  "score": 0,
+  "one_liner_zh": "该综述讨论精神分裂症的神经影像生物标志物，与无序蛋白/IDR介导的蛋白互作及AI/物理模拟方法无关。",
+  "abstract": "Schizophrenia is a complex and serious brain disorder. Neuroscientists have become increasingly interested in using magnetic resonance-based brain imaging-derived phenotypes (IDPs) to investigate the etiology of psychiatric disorders. IDPs capture valuable clinical advantages and hold biological significance in identifying brain abnormalities. In this review, we aim to discuss current and prospective approaches to identify potential biomarkers for schizophrenia using clinical multimodal neuroimaging and imaging genetics. We first described IDPs through their phenotypic classification and neuroimaging genomics. Secondly, we discussed the applications of multimodal neuroimaging by clinical evidence in observational studies and randomized controlled trials. Thirdly, considering the genetic evidence of IDPs, we discussed how can utilize neuroimaging data as an intermediate phenotype to make association inferences by polygenic risk scores and Mendelian randomization. Finally, we discussed machine learning as an optimum approach for validating biomarkers. Together, future research efforts focused on neuroimaging biomarkers aim to enhance our understanding of schizophrenia.",
+  "abstract_zh": "精神分裂症是一种复杂且严重的脑部疾病。神经科学家越来越关注利用基于磁共振的脑影像衍生表型（IDPs）来探究精神疾病的病因学。IDPs在识别脑部异常方面具有宝贵的临床优势，并承载着生物学意义。本综述旨在探讨当前及未来利用临床多模态神经影像和影像遗传学识别精神分裂症潜在生物标志物的方法。我们首先通过表型分类和神经影像基因组学描述了IDPs。其次，我们讨论了多模态神经影像在观察性研究和随机对照试验中的临床应用证据。第三，考虑到IDPs的遗传证据，我们探讨了如何利用神经影像数据作为中间表型，通过多基因风险评分和孟德尔随机化进行关联推断。最后，我们讨论了机器学习作为验证生物标志物的最优方法。总体而言，未来聚焦于神经影像生物标志物的研究努力旨在加深我们对精神分裂症的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38703276/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38703276/",
+  "paper_page_path": "papers/pubmed/38703276/index.html"
+}

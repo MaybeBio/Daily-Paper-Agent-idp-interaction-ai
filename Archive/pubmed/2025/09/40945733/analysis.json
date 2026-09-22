@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40945733",
+  "title": "Asymmetric coevolution of the MEK-ERK binding interface.",
+  "authors": "Persikov, Anton V; Marmion, Robert A; Shvartsman, Stanislav Y",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2025-09-14",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合系统发育分析、AlphaFold2预测和分子动力学模拟，研究MEK无序N端D位点与ERK结合界面的不对称共进化及互作机制，对象为IDR介导的PPI且方法涵盖AI与物理模拟，高度契合本课题。",
+  "abstract": "The highly conserved extracellular signal-regulated kinase (ERK) regulates diverse cellular processes by phosphorylating a wide range of intracellular substrates. Its catalytic activity relies on phosphorylation by a single upstream kinase, mitogen-activated protein kinase kinase (MEK), which interacts with only a few binding partners. Here, we test whether the asymmetry in protein-protein interaction network architecture influences the coevolution of the MEK-ERK complex. Phylogenetic sequence analysis across metazoan species revealed accelerated divergence in MEK's intrinsically disordered N-terminal docking motif (docking site [D-site]), whereas ERK remained highly conserved. Structure prediction with AlphaFold2 and extensive molecular dynamics simulations showed that five conserved D-site residues form stable hydrophobic and electrostatic contacts with ERK's D-recruitment site. Functional assays in Drosophila melanogaster confirmed that these D-site interactions are essential for proper downstream signaling and support an allosteric role for this motif. Our results demonstrate that MEK uses a structurally simple yet evolutionarily adaptable motif to regulate MEK-ERK complex stability and binding dynamics. The D-site is strongly conserved within phylogenetic groups such as insects or terrestrial vertebrates, yet diverges across them, reflecting evolutionary pressures that balance functional conservation with signaling adaptability. The presented approach illustrates how the combined approach using sequencing data, molecular simulations, and targeted perturbations can be used to address fundamental questions about the evolution of protein-protein interaction networks.",
+  "abstract_zh": "高度保守的细胞外信号调节激酶（ERK）通过磷酸化多种细胞内底物来调控多样的细胞过程。其催化活性依赖于单一上游激酶——丝裂原活化蛋白激酶激酶（MEK）的磷酸化，而MEK仅与少数结合伙伴相互作用。在此，我们检验蛋白质-蛋白质相互作用网络架构中的不对称性是否影响MEK-ERK复合物的协同进化。跨后生动物物种的系统发育序列分析揭示了MEK内在无序的N端对接基序（对接位点 [D-site]）的加速分化，而ERK则保持高度保守。利用AlphaFold2进行的结构预测及广泛的分子动力学 (molecular dynamics) 模拟表明，五个保守的D位点残基与ERK的D招募位点形成稳定的疏水和静电接触。在果蝇 (Drosophila melanogaster) 中的功能实验证实，这些D位点相互作用对正确的下游信号传导至关重要，并支持该基序的变构作用。我们的结果表明，MEK利用一个结构简单但进化上适应性强的基序来调节MEK-ERK复合物的稳定性和结合动力学。D位点在系统发育群体（如昆虫或陆生脊椎动物）内部高度保守，但在它们之间却存在分化，反映了平衡功能保守性与信号传导适应性的进化压力。所提出的方法展示了如何利用测序数据、分子模拟和靶向扰动的联合策略来解决关于蛋白质-蛋白质相互作用网络进化的基本问题。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40945733/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40945733/",
+  "paper_page_path": "papers/pubmed/40945733/index.html"
+}

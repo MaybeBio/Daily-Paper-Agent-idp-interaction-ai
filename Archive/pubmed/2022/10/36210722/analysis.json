@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36210722",
+  "title": "Intrinsic protein disorder and conditional folding in AlphaFoldDB.",
+  "authors": "Piovesan, Damiano; Monzon, Alexander Miguel; Tosatto, Silvio C E",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2022-10-11",
+  "window": {
+    "start": "2022-10-10",
+    "end": "2022-10-16"
+  },
+  "score": 6,
+  "one_liner_zh": "该文利用AlphaFoldDB大规模结构预测评估无序区域及条件折叠结合区的预测能力，虽聚焦IDR预测而非PPI机制建模，但方法上对无序-折叠连续体的AI预测有启发。",
+  "abstract": "Intrinsically disordered regions (IDRs) defying the traditional protein structure-function paradigm have been difficult to analyze. The availability of accurate structure predictions on a large scale in AlphaFoldDB offers a fresh perspective on IDR prediction. Here, we establish three baselines for IDR prediction from AlphaFoldDB models based on the recent CAID dataset. Surprisingly, AlphaFoldDB is highly competitive for predicting both IDRs and conditionally folded binding regions, demonstrating the plasticity of the disorder to structure continuum.",
+  "abstract_zh": "内在无序区域（IDRs）挑战了传统蛋白质结构-功能范式，一直难以分析。AlphaFoldDB中大规模准确结构预测的可用性为IDR预测提供了新视角。在此，我们基于最近的CAID数据集，建立了从AlphaFoldDB模型预测IDR的三个基线。令人惊讶的是，AlphaFoldDB在预测IDRs和条件折叠结合区域方面极具竞争力，展示了无序到结构连续体的可塑性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36210722/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36210722/",
+  "paper_page_path": "papers/pubmed/36210722/index.html"
+}

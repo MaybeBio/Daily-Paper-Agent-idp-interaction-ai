@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38993084",
+  "title": "Translocation of Antimicrobial Peptides across Model Membranes: The Role of Peptide Chain Length.",
+  "authors": "Skog, Amanda E; Paracini, Nicolo; Gerelli, Yuri; Skepo, Marie",
+  "journal": "Molecular pharmaceutics",
+  "published_date": "2024-07-12",
+  "window": {
+    "start": "2024-07-08",
+    "end": "2024-07-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究结合粗粒化蒙特卡洛模拟与实验，探究不同链长无序唾液肽(组蛋白)跨膜及在支撑脂双层下形成软垫的机制，虽涉及IDP与膜互作及物理模拟，但互作对象为膜而非蛋白-蛋白互作(PPI)，机制建模思路对IDP-膜/界面互作有部分可迁移启发。",
+  "abstract": "Cushioned lipid bilayers are structures consisting of a lipid bilayer supported on a solid substrate with an intervening layer of soft material. They offer possibilities for studying the behavior and interactions of biological membranes more accurately under physiological conditions. In this work, we continue our studies of cushion formation induced by histatin 5 ((24)Hst5), focusing on the effect of the length of the peptide chain. (24)Hst5 is a short, positively charged, intrinsically disordered saliva peptide, and here, both a shorter ((14)Hst5) and a longer ((48)Hst5) peptide variant were evaluated. Experimental surface active techniques were combined with coarse-grained Monte Carlo simulations to obtain information about these peptides. Results show that at 10 mM NaCl, both the shorter and the longer peptide variants behave like (24)Hst5 and a cushion below the bilayer is formed. At 150 mM NaCl, however, no interaction is observed for (24)Hst5. On the contrary, a cushion is formed both in the case of (14)Hst5 and (48)Hst5, and in the latter, an additional thick, diffuse, and highly hydrated layer of peptide and lipid molecules is formed, on top of the bilayer. Similar trends were observed from the simulations, which allowed us to hypothesize that positively charged patches of the amino acids lysine and arginine in all three peptides are essential for them to interact with and translocate over the bilayer. We therefore hypothesize that electrostatic interactions are important for the interaction between the solid-supported lipid bilayers and the peptide depending on the linear charge density through the primary sequence and the positively charged patches in the sequence. The understanding of how, why, and when the cushion is formed opens up the possibility for this system to be used in the research and development of new drugs and pharmaceuticals.",
+  "abstract_zh": "缓冲脂质双层是由脂质双层支撑在固体基底上并夹有一层软材料构成的结构。它们为在生理条件下更准确地研究生物膜的行为和相互作用提供了可能性。在本工作中，我们继续研究由组蛋白5（(24)Hst5）诱导的缓冲层形成，重点关注肽链长度的影响。(24)Hst5是一种短链、带正电荷、 intrinsically disordered 的唾液肽，在此，我们评估了较短（(14)Hst5）和较长（(48)Hst5）两种肽变体。实验表面活性技术结合粗粒化蒙特卡洛模拟以获取关于这些肽的信息。结果表明，在10 mM NaCl条件下，较短和较长的肽变体均表现出与(24)Hst5相似的行为，并在双层下方形成缓冲层。然而，在150 mM NaCl条件下，未观察到(24)Hst5的相互作用。相反，在(14)Hst5和(48)Hst5的情况下均形成了缓冲层，且在后一种情况下，在双层顶部还形成了一层额外厚、弥散且高度水合的肽和脂质分子层。模拟中观察到类似趋势，这使我们推测，所有三种肽中赖氨酸和精氨酸的正电荷斑块对于它们与双层相互作用并跨膜转运至关重要。因此，我们推测静电相互作用对于固体支撑脂质双层与肽之间的相互作用至关重要，这取决于通过一级序列的线性电荷密度以及序列中的正电荷斑块。理解缓冲层如何、为何以及何时形成，为该系统在新药和药物研发中的应用开辟了可能性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38993084/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38993084/",
+  "paper_page_path": "papers/pubmed/38993084/index.html"
+}

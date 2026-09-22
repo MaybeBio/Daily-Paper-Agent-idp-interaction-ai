@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.06.03.597104",
+  "title": "Direct prediction of intermolecular interactions driven by disordered regions",
+  "authors": "Ginell GM; Emenecker RJ; Lotthammer JM; Usher ET; Holehouse AS",
+  "journal": "bioRxiv",
+  "published_date": "2024-06-03",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 9,
+  "one_liner_zh": "该文利用源自分子模拟的化学物理方法，直接从氨基酸序列预测无序区域(IDR)与伴侣蛋白间的相互作用，包括相图、化学特异性热点及机制假设，完美契合无序蛋白互作机制建模课题。",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically disordered regions (IDRs) are critical for a wide variety of cellular functions, many of which involve interactions with partner proteins. Molecular recognition is typically considered through the lens of sequence-specific binding events. However, a growing body of work has shown that IDRs often interact with partners in a manner that does not depend on the precise order of the amino acid order, instead driven by complementary chemical interactions leading to disordered bound-state complexes. Despite this emerging paradigm, we lack tools to describe, quantify, predict, and interpret these types of structurally heterogeneous interactions from the underlying amino acid sequences. Here, we repurpose the chemical physics developed originally for molecular simulations to develop an approach for predicting intermolecular interactions between IDRs and partner proteins. Our approach enables the direct prediction of phase diagrams, the identification of chemically-specific interaction hotspots on IDRs, and a route to develop and test mechanistic hypotheses regarding IDR function in the context of molecular recognition. We use our approach to examine a range of systems and questions to highlight its versatility and applicability.",
+  "abstract_zh": "<h4>摘要</h4> 内在无序区域（IDRs）对多种细胞功能至关重要，其中许多功能涉及与伴侣蛋白的相互作用。分子识别通常通过序列特异性结合事件的视角来考量。然而，越来越多的研究表明，IDRs 与伴侣的相互作用往往不依赖于氨基酸顺序的精确排列，而是由互补的化学相互作用驱动，形成无序的结合态复合物。尽管这一新兴范式已出现，我们仍缺乏从底层氨基酸序列描述、量化、预测和解释这些结构异质性相互作用的工具。在此，我们重新利用最初为分子模拟开发的化学物理学，提出了一种预测 IDRs 与伴侣蛋白之间分子间相互作用的方法。我们的方法能够直接预测相图，识别 IDRs 上化学特异性相互作用热点，并为在分子识别背景下开发和测试关于 IDR 功能的机制性假设提供途径。我们应用该方法考察了一系列系统和问题，以突出其多功能性和适用性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.06.03.597104",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.06.03.597104",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.06.03.597104/index.html"
+}

@@ -1,0 +1,253 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.03.23.534032",
+  "title": "Karyopherin mimicry explains how the HIV capsid penetrates nuclear pores",
+  "doi": "10.1101/2023.03.23.534032",
+  "abstract": "<h4>Summary Paragraph</h4> HIV can infect non-dividing cells because the viral capsid can overcome the selective barrier of the nuclear pore complex and deliver the genome directly into the nucleus. Remarkably, the intact HIV capsid is over one thousand times greater than the size-limit prescribed by the nuclear pore’s diffusion barrier. This barrier is a phase-separated condensate in the central channel of the nuclear pore and is comprised of intrinsically-disordered nucleoporin domains enriched in phenylalanine-glycine (FG) dipeptides. Through multivalent FG-interactions, cellular karyopherins and their bound cargoes solubilise in this phase to drive nucleocytoplasmic transport. By performing an in vitro dissection of the nuclear pore complex, we show that a pocket on the surface of the HIV capsid similarly interacts with FG-motifs from multiple nucleoporins and that this interaction licenses capsids to penetrate nucleoporin condensates. This karyopherin mimicry model resolves a key conceptual challenge for the role of the HIV capsid in nuclear entry, and explains how an exogenous entity much larger than any known cellular cargo can non-destructively breach the nuclear envelope.",
+  "authors": [
+    "Dickson C",
+    "Hertel S",
+    "Ruan J",
+    "Ariotti N",
+    "Tuckwell A",
+    "Li N",
+    "Al-Izzi S",
+    "Sierecki E",
+    "Gambin Y",
+    "Morris R",
+    "Towers G",
+    "Böcking T",
+    "Jacques D"
+  ],
+  "published_date": "2023-03-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.03.23.534032",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.03.23.534032.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR635620",
+    "raw_record": {
+      "id": "PPR635620",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR635620"
+        ]
+      },
+      "doi": "10.1101/2023.03.23.534032",
+      "title": "Karyopherin mimicry explains how the HIV capsid penetrates nuclear pores",
+      "authorString": "Dickson C, Hertel S, Ruan J, Ariotti N, Tuckwell A, Li N, Al-Izzi S, Sierecki E, Gambin Y, Morris R, Towers G, Böcking T, Jacques D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dickson C",
+            "lastName": "Dickson",
+            "firstName": "C.F.",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1972-4143"
+            }
+          },
+          {
+            "fullName": "Hertel S",
+            "lastName": "Hertel",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0003-3428-3352"
+            }
+          },
+          {
+            "fullName": "Ruan J",
+            "lastName": "Ruan",
+            "initials": "J"
+          },
+          {
+            "fullName": "Ariotti N",
+            "lastName": "Ariotti",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3901-0831"
+            }
+          },
+          {
+            "fullName": "Tuckwell A",
+            "lastName": "Tuckwell",
+            "initials": "A"
+          },
+          {
+            "fullName": "Li N",
+            "lastName": "Li",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0399-6715"
+            }
+          },
+          {
+            "fullName": "Al-Izzi S",
+            "lastName": "Al-Izzi",
+            "firstName": "S.C.",
+            "initials": "S"
+          },
+          {
+            "fullName": "Sierecki E",
+            "lastName": "Sierecki",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9970-868X"
+            }
+          },
+          {
+            "fullName": "Gambin Y",
+            "lastName": "Gambin",
+            "initials": "Y"
+          },
+          {
+            "fullName": "Morris R",
+            "lastName": "Morris",
+            "firstName": "R.G.",
+            "initials": "R"
+          },
+          {
+            "fullName": "Towers G",
+            "lastName": "Towers",
+            "firstName": "G.J.",
+            "initials": "G"
+          },
+          {
+            "fullName": "Böcking T",
+            "lastName": "Böcking",
+            "initials": "T"
+          },
+          {
+            "fullName": "Jacques D",
+            "lastName": "Jacques",
+            "firstName": "D.A.",
+            "initials": "D"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9970-868X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1972-4143"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0399-6715"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3901-0831"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-3428-3352"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Summary Paragraph</h4>  HIV can infect non-dividing cells because the viral capsid can overcome the selective barrier of the nuclear pore complex and deliver the genome directly into the nucleus. Remarkably, the intact HIV capsid is over one thousand times greater than the size-limit prescribed by the nuclear pore’s diffusion barrier. This barrier is a phase-separated condensate in the central channel of the nuclear pore and is comprised of intrinsically-disordered nucleoporin domains enriched in phenylalanine-glycine (FG) dipeptides. Through multivalent FG-interactions, cellular karyopherins and their bound cargoes solubilise in this phase to drive nucleocytoplasmic transport. By performing an  in vitro dissection of the nuclear pore complex, we show that a pocket on the surface of the HIV capsid similarly interacts with FG-motifs from multiple nucleoporins and that this interaction licenses capsids to penetrate nucleoporin condensates. This karyopherin mimicry model resolves a key conceptual challenge for the role of the HIV capsid in nuclear entry, and explains how an exogenous entity much larger than any known cellular cargo can non-destructively breach the nuclear envelope.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "214344/Z/18/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/03/24/2023.03.23.534032.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.03.23.534032"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR635620"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR635620&type=FILE&fileName=EMS173118-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS173118",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-03-27",
+      "firstPublicationDate": "2023-03-24",
+      "firstIndexDate": "2023-03-27",
+      "fullTextReceivedDate": "2023-04-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

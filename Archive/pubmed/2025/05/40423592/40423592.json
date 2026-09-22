@@ -1,0 +1,414 @@
+{
+  "identity": {
+    "pmid": "40423592",
+    "doi": "10.1021/acs.chemrev.4c00969",
+    "title": "Computer-Aided Drug Discovery for Undruggable Targets."
+  },
+  "content": {
+    "abstract": "Undruggable targets are those of therapeutical significance but challenging for conventional drug design approaches. Such targets often exhibit unique features, including highly dynamic structures, a lack of well-defined ligand-binding pockets, the presence of highly conserved active sites, and functional modulation by protein-protein interactions. Recent advances in computational simulations and artificial intelligence have revolutionized the drug design landscape, giving rise to innovative strategies for overcoming these obstacles. In this review, we highlight the latest progress in computational approaches for drug design against undruggable targets, present several successful case studies, and discuss remaining challenges and future directions. Special emphasis is placed on four primary target categories: intrinsically disordered proteins, protein allosteric regulation, protein-protein interactions, and protein degradation, along with discussion of emerging target types. We also examine how AI-driven methodologies have transformed the field, from applications in protein-ligand complex structure prediction and virtual screening to de novo ligand generation for undruggable targets. Integration of computational methods with experimental techniques is expected to bring further breakthroughs to overcome the hurdles of undruggable targets. As the field continues to evolve, these advancements hold great promise to expand the druggable space, offering new therapeutic opportunities for previously untreatable diseases.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Drug Discovery/methods",
+      "Humans",
+      "Ligands",
+      "*Computer-Aided Design",
+      "Drug Design",
+      "*Proteins/metabolism/chemistry",
+      "Artificial Intelligence",
+      "Intrinsically Disordered Proteins/metabolism/chemistry/antagonists & inhibitors",
+      "Allosteric Regulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Qi",
+        "Wang, Hanping",
+        "Xie, Juan",
+        "Wang, Liying",
+        "Mu, Junxi",
+        "Li, Junren",
+        "Ren, Yuhao",
+        "Lai, Luhua"
+      ],
+      "short_names": [
+        "Sun Q",
+        "Wang H",
+        "Xie J",
+        "Wang L",
+        "Mu J",
+        "Li J",
+        "Ren Y",
+        "Lai L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8519-657X",
+        "ORCID: 0009-0000-3986-5608",
+        "ORCID: 0000-0001-6975-0449",
+        "ORCID: 0000-0002-4966-3564",
+        "ORCID: 0000-0003-1192-2791",
+        "ORCID: 0000-0003-1411-7288",
+        "ORCID: 0000-0002-8343-7587"
+      ],
+      "affiliations": [
+        "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+        "Peking University Chengdu Academy for Advanced Interdisciplinary Biotechnologies, Chengdu, Sichuan 610213, China.",
+        "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+        "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+        "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+        "Peking-Tsinghua Center for Life Science, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+        "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+        "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+        "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+        "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+        "Peking-Tsinghua Center for Life Science, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+        "Peking University Chengdu Academy for Advanced Interdisciplinary Biotechnologies, Chengdu, Sichuan 610213, China.",
+        "Research Unit of Drug Design Method, Chinese Academy of Medical Sciences, Peking University, Beijing 100871, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Qi",
+        "short_name": "Sun Q",
+        "identifiers": [
+          "0000-0002-8519-657X"
+        ],
+        "affiliations": [
+          "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+          "Peking University Chengdu Academy for Advanced Interdisciplinary Biotechnologies, Chengdu, Sichuan 610213, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hanping",
+        "short_name": "Wang H",
+        "identifiers": [
+          "0009-0000-3986-5608"
+        ],
+        "affiliations": [
+          "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Xie, Juan",
+        "short_name": "Xie J",
+        "identifiers": [
+          "0000-0001-6975-0449"
+        ],
+        "affiliations": [
+          "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Liying",
+        "short_name": "Wang L",
+        "identifiers": [
+          "0000-0002-4966-3564"
+        ],
+        "affiliations": [
+          "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Mu, Junxi",
+        "short_name": "Mu J",
+        "identifiers": [
+          "0000-0003-1192-2791"
+        ],
+        "affiliations": [
+          "Peking-Tsinghua Center for Life Science, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Li, Junren",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0003-1411-7288"
+        ],
+        "affiliations": [
+          "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Ren, Yuhao",
+        "short_name": "Ren Y",
+        "identifiers": [],
+        "affiliations": [
+          "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China."
+        ]
+      },
+      {
+        "full_name": "Lai, Luhua",
+        "short_name": "Lai L",
+        "identifiers": [
+          "0000-0002-8343-7587"
+        ],
+        "affiliations": [
+          "BNLMS, College of Chemistry and Molecular Engineering, Peking University, Beijing 100871, China.",
+          "Center for Quantitative Biology, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+          "Peking-Tsinghua Center for Life Science, Academy for Advanced Interdisciplinary Studies, Peking University, Beijing 100871, China.",
+          "Peking University Chengdu Academy for Advanced Interdisciplinary Biotechnologies, Chengdu, Sichuan 610213, China.",
+          "Research Unit of Drug Design Method, Chinese Academy of Medical Sciences, Peking University, Beijing 100871, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical reviews"
+    ],
+    "journal_abbrev": [
+      "Chem Rev"
+    ],
+    "pub_date": "2025 Jul 9",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/27 12:43",
+    "fetched_at": "2026-09-21 19:21:24"
+  },
+  "links": {
+    "cites": [
+      "42609127",
+      "42591800",
+      "42515682",
+      "42509851",
+      "42436156",
+      "42356532",
+      "42313639",
+      "42253922",
+      "42189714",
+      "42185455",
+      "42153319",
+      "42125064",
+      "41985886",
+      "41889760",
+      "41839925",
+      "41836299",
+      "41766645",
+      "41683435",
+      "41675592",
+      "41596609",
+      "41584669",
+      "41509380",
+      "41495278",
+      "41470049",
+      "41454719",
+      "41177429",
+      "40967433"
+    ],
+    "refs": [],
+    "similar": [
+      "40423592",
+      "40665815",
+      "37496997",
+      "41774209",
+      "40528034",
+      "33376199",
+      "41360220",
+      "39819404",
+      "41604887",
+      "30278223",
+      "33733731",
+      "39999605",
+      "41774984",
+      "17935268",
+      "36827465",
+      "39778412",
+      "41582574",
+      "42377676",
+      "32013012",
+      "41910880",
+      "34933653",
+      "31556854",
+      "39772527",
+      "42546051",
+      "23912807",
+      "39917924",
+      "38031798",
+      "42475469",
+      "41901326",
+      "36715303",
+      "39931986",
+      "41470049",
+      "25940084",
+      "41887012",
+      "24245755",
+      "41135227",
+      "19041415",
+      "26201486",
+      "40414522",
+      "39828029",
+      "24098099",
+      "40571274",
+      "37669923",
+      "40784662",
+      "33844136",
+      "39480992",
+      "42448413",
+      "37175454",
+      "40490488",
+      "41996874",
+      "29030241",
+      "34455870",
+      "40853597",
+      "37778659",
+      "42515682",
+      "42562988",
+      "35076690",
+      "40859960",
+      "38368657",
+      "41729820",
+      "41051467",
+      "38466810",
+      "41758998",
+      "29594781",
+      "40465033",
+      "33812316",
+      "41544898",
+      "35863587",
+      "21320056",
+      "30390799",
+      "41022992",
+      "30242117",
+      "40973406",
+      "41209584",
+      "40464341",
+      "39407556",
+      "26549326",
+      "41117015",
+      "26208641",
+      "40132213",
+      "40195117",
+      "30084866",
+      "40286982",
+      "37100941",
+      "23253128",
+      "40725243",
+      "26296101",
+      "31667555",
+      "40149959",
+      "41318024",
+      "38294194",
+      "38335558",
+      "39510346",
+      "29800865",
+      "30663568",
+      "40398752",
+      "25496113",
+      "28482793",
+      "34906321",
+      "37014633"
+    ],
+    "review": [
+      "40423592",
+      "40665815",
+      "37496997",
+      "41774209",
+      "40528034",
+      "33376199",
+      "41360220",
+      "39819404",
+      "41604887",
+      "30278223",
+      "33733731",
+      "39999605",
+      "41774984",
+      "17935268",
+      "36827465",
+      "39778412",
+      "41582574",
+      "42377676",
+      "32013012",
+      "41910880",
+      "34933653",
+      "31556854",
+      "39772527",
+      "42546051",
+      "39917924",
+      "38031798",
+      "41901326",
+      "36715303",
+      "39931986",
+      "41470049",
+      "25940084",
+      "41887012",
+      "41135227",
+      "19041415",
+      "26201486",
+      "40414522",
+      "39828029",
+      "40571274",
+      "37669923",
+      "40784662",
+      "33844136",
+      "42448413",
+      "37175454",
+      "40490488",
+      "41996874",
+      "29030241",
+      "34455870",
+      "40853597",
+      "37778659",
+      "42515682",
+      "40859960",
+      "38368657",
+      "41729820",
+      "41051467",
+      "38466810",
+      "40465033",
+      "33812316",
+      "41544898",
+      "35863587",
+      "21320056",
+      "41022992",
+      "30242117",
+      "40973406",
+      "41209584",
+      "40464341",
+      "39407556",
+      "26549326",
+      "41117015",
+      "26208641",
+      "40132213",
+      "40195117",
+      "30084866",
+      "40286982",
+      "37100941",
+      "23253128",
+      "40725243",
+      "26296101",
+      "31667555",
+      "40149959",
+      "41318024",
+      "38294194",
+      "38335558",
+      "29800865",
+      "30663568",
+      "40398752",
+      "25496113",
+      "28482793",
+      "34906321",
+      "37014633"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/chreay/article-lookup/doi/10.1021/acs.chemrev.4c00969",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

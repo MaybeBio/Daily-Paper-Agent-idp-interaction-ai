@@ -1,0 +1,403 @@
+{
+  "identity": {
+    "pmid": "36375072",
+    "doi": "10.1073/pnas.2208780119",
+    "title": "Intrinsically disordered interaction network in an RNA chaperone revealed by native mass spectrometry."
+  },
+  "content": {
+    "abstract": "RNA-binding proteins contain intrinsically disordered regions whose functions in RNA recognition are poorly understood. The RNA chaperone Hfq is a homohexamer that contains six flexible C-terminal domains (CTDs). The effect of the CTDs on Hfq's integrity and RNA binding has been challenging to study because of their sequence identity and inherent disorder. We used native mass spectrometry coupled with surface-induced dissociation and molecular dynamics simulations to disentangle the arrangement of the CTDs and their impact on the stability of Escherichia coli Hfq with and without RNA. The results show that the CTDs stabilize the Hfq hexamer through multiple interactions with the core and between CTDs. RNA binding perturbs this network of CTD interactions, destabilizing the Hfq ring. This destabilization is partially compensated by binding of RNAs that contact multiple surfaces of Hfq. By contrast, binding of short RNAs that only contact one or two subunits results in net destabilization of the complex. Together, the results show that a network of intrinsically disordered interactions integrate RNA contacts with the six subunits of Hfq. We propose that this CTD network raises the selectivity of RNA binding.",
+    "keywords": [
+      "RNA chaperone",
+      "intrinsically disordered protein",
+      "ion mobility mass spectrometry",
+      "small RNA",
+      "surface-induced ion dissociation"
+    ],
+    "mesh_terms": [
+      "Escherichia coli/genetics/metabolism",
+      "*Escherichia coli Proteins/metabolism",
+      "*Host Factor 1 Protein/metabolism",
+      "Mass Spectrometry",
+      "RNA, Bacterial/genetics",
+      "*RNA, Small Untranslated/genetics",
+      "RNA-Binding Proteins/metabolism",
+      "*Intrinsically Disordered Proteins/genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sarni, Samantha H",
+        "Roca, Jorjethe",
+        "Du, Chen",
+        "Jia, Mengxuan",
+        "Li, Hantian",
+        "Damjanovic, Ana",
+        "Malecka, Ewelina M",
+        "Wysocki, Vicki H",
+        "Woodson, Sarah A"
+      ],
+      "short_names": [
+        "Sarni SH",
+        "Roca J",
+        "Du C",
+        "Jia M",
+        "Li H",
+        "Damjanovic A",
+        "Malecka EM",
+        "Wysocki VH",
+        "Woodson SA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3002-819X",
+        "ORCID: 0000-0002-9793-0110",
+        "ORCID: 0000-0001-6161-5525",
+        "ORCID: 0000-0003-1119-2792",
+        "ORCID: 0000-0001-7635-2705",
+        "ORCID: 0000-0003-0170-1987"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH 43210.",
+        "Resource for Native Mass Spectrometry Guided Structural Biology, The Ohio State University, Columbus, OH 43210.",
+        "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218.",
+        "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH 43210.",
+        "Resource for Native Mass Spectrometry Guided Structural Biology, The Ohio State University, Columbus, OH 43210.",
+        "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH 43210.",
+        "Resource for Native Mass Spectrometry Guided Structural Biology, The Ohio State University, Columbus, OH 43210.",
+        "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218.",
+        "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218.",
+        "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218.",
+        "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH 43210.",
+        "Resource for Native Mass Spectrometry Guided Structural Biology, The Ohio State University, Columbus, OH 43210.",
+        "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sarni, Samantha H",
+        "short_name": "Sarni SH",
+        "identifiers": [
+          "0000-0002-3002-819X"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH 43210.",
+          "Resource for Native Mass Spectrometry Guided Structural Biology, The Ohio State University, Columbus, OH 43210."
+        ]
+      },
+      {
+        "full_name": "Roca, Jorjethe",
+        "short_name": "Roca J",
+        "identifiers": [
+          "0000-0002-9793-0110"
+        ],
+        "affiliations": [
+          "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218."
+        ]
+      },
+      {
+        "full_name": "Du, Chen",
+        "short_name": "Du C",
+        "identifiers": [
+          "0000-0001-6161-5525"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH 43210.",
+          "Resource for Native Mass Spectrometry Guided Structural Biology, The Ohio State University, Columbus, OH 43210."
+        ]
+      },
+      {
+        "full_name": "Jia, Mengxuan",
+        "short_name": "Jia M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH 43210.",
+          "Resource for Native Mass Spectrometry Guided Structural Biology, The Ohio State University, Columbus, OH 43210."
+        ]
+      },
+      {
+        "full_name": "Li, Hantian",
+        "short_name": "Li H",
+        "identifiers": [
+          "0000-0003-1119-2792"
+        ],
+        "affiliations": [
+          "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218."
+        ]
+      },
+      {
+        "full_name": "Damjanovic, Ana",
+        "short_name": "Damjanovic A",
+        "identifiers": [
+          "0000-0001-7635-2705"
+        ],
+        "affiliations": [
+          "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218."
+        ]
+      },
+      {
+        "full_name": "Małecka, Ewelina M",
+        "short_name": "Małecka EM",
+        "identifiers": [],
+        "affiliations": [
+          "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218."
+        ]
+      },
+      {
+        "full_name": "Wysocki, Vicki H",
+        "short_name": "Wysocki VH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, The Ohio State University, Columbus, OH 43210.",
+          "Resource for Native Mass Spectrometry Guided Structural Biology, The Ohio State University, Columbus, OH 43210."
+        ]
+      },
+      {
+        "full_name": "Woodson, Sarah A",
+        "short_name": "Woodson SA",
+        "identifiers": [
+          "0000-0003-0170-1987"
+        ],
+        "affiliations": [
+          "Thomas C. Jenkins Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2022 Nov 22",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/11/15 06:00",
+    "fetched_at": "2026-09-20 16:46:35"
+  },
+  "links": {
+    "cites": [
+      "42533140",
+      "42478379",
+      "42089481",
+      "41950994",
+      "41367362",
+      "40820302",
+      "40724810",
+      "40638087",
+      "40333199",
+      "39854242",
+      "38329282",
+      "38297184",
+      "37942477",
+      "37865695",
+      "37380360",
+      "36851867"
+    ],
+    "refs": [
+      "35104863",
+      "34772787",
+      "33551235",
+      "33352065",
+      "31076551",
+      "30944216",
+      "30412666",
+      "29648537",
+      "29633565",
+      "28826489",
+      "28752165",
+      "28746339",
+      "28471653",
+      "27909974",
+      "27819658",
+      "27681631",
+      "27229125",
+      "26296935",
+      "25937312",
+      "25551292",
+      "24288369",
+      "24021816",
+      "23771143",
+      "23283730",
+      "22747517",
+      "22661574",
+      "22645344",
+      "22484176",
+      "22438323",
+      "22435753",
+      "21979921",
+      "21889623",
+      "21737752",
+      "21543856",
+      "21330354",
+      "20888338",
+      "20360609",
+      "19889981",
+      "18937104",
+      "18000007",
+      "17427289",
+      "17320507",
+      "15381101",
+      "15284216",
+      "15030475",
+      "12853626",
+      "12093755",
+      "11882724",
+      "11445539"
+    ],
+    "similar": [
+      "36375072",
+      "27681631",
+      "26196441",
+      "35934049",
+      "28826489",
+      "33616037",
+      "29633565",
+      "23466677",
+      "23535768",
+      "35104863",
+      "28752165",
+      "22040174",
+      "23771143",
+      "33883550",
+      "29125938",
+      "21205841",
+      "33500316",
+      "24223139",
+      "29484599",
+      "34827651",
+      "31104083",
+      "23226421",
+      "21889623",
+      "36577380",
+      "23318956",
+      "20619373",
+      "34624296",
+      "18000007",
+      "12634847",
+      "34411346",
+      "19118352",
+      "21134774",
+      "37942477",
+      "16605255",
+      "31329973",
+      "15531892",
+      "20888338",
+      "27049793",
+      "22326348",
+      "17660259",
+      "16574072",
+      "29484598",
+      "15030475",
+      "31085808",
+      "23392248",
+      "31540970",
+      "25772301",
+      "23104381",
+      "18658123",
+      "27588604",
+      "38453956",
+      "28189381",
+      "32356726",
+      "30051798",
+      "22761405",
+      "15381101",
+      "22484176",
+      "22435753",
+      "38011569",
+      "17526692",
+      "34107125",
+      "31761494",
+      "24051417",
+      "35508531",
+      "24922322",
+      "25404287",
+      "17901153",
+      "24448230",
+      "34157309",
+      "21357187",
+      "25582129",
+      "25372815",
+      "15872186",
+      "26609136",
+      "20348540",
+      "23392247",
+      "30833291",
+      "21123649",
+      "25001303",
+      "25147238",
+      "29484601",
+      "26373314",
+      "12554874",
+      "14622403",
+      "25649688",
+      "29669858",
+      "29484590",
+      "26261213",
+      "20815822",
+      "21330354",
+      "34748246",
+      "23707622",
+      "26531825",
+      "21189298",
+      "18826256",
+      "19969548",
+      "22661574",
+      "14617150"
+    ],
+    "review": [
+      "36375072",
+      "29633565",
+      "23466677",
+      "23535768",
+      "29125938",
+      "31104083",
+      "37942477",
+      "23392248",
+      "30051798",
+      "22435753",
+      "23392247",
+      "34748246"
+    ],
+    "pmc": [
+      "9704730"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2208780119?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36375072/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36375072",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

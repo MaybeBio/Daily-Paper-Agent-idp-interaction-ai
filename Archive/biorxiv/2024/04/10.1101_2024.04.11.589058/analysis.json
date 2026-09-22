@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.11.589058",
+  "title": "A defining member of the new cysteine-cradle family is an aECM protein signalling skin damage in C. elegans",
+  "authors": "Sonntag T; Omi S; Andreeva A; Eichelbrenner J; Chisholm AD; Ward JD; Pujol N",
+  "journal": "bioRxiv",
+  "published_date": "2024-04-12",
+  "window": {
+    "start": "2024-04-08",
+    "end": "2024-04-14"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究线虫表皮细胞外基质蛋白SPIA-1感知皮肤损伤并激活免疫，对象为折叠的aECM蛋白且无PPI机制或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Apical extracellular matrices (aECMs) act as crucial barriers, and communicate with the epidermis to trigger protective responses following injury or infection. In Caenorhabditis elegans, the skin aECM, the cuticle, is produced by the epidermis and decorated with circumferential furrows. We previously showed that mutants lacking cuticle furrows exhibit persistent immune activation (PIA). In a genetic suppressor screen, we identified spia-1 as a key gene downstream of furrow collagens and upstream of immune signalling. spia-1 expression oscillates during larval development, peaking between each moult together with patterning cuticular components. It encodes a secreted protein that localises to furrows. SPIA-1 shares a novel cysteine-cradle domain with other aECM proteins. SPIA-1 mediates immune activation in response to furrow loss and is proposed to act as a sensor of cuticle damage. This research provides the first molecular insight into an intricate interplay between cuticle integrity and epidermal immune activation in C. elegans.",
+  "abstract_zh": "顶端细胞外基质（aECMs）作为关键屏障，并与表皮沟通，在损伤或感染后触发保护性反应。在秀丽隐杆线虫（Caenorhabditis elegans）中，皮肤aECM，即角质层，由表皮产生，并装饰有环状沟纹。我们先前表明，缺乏角质层沟纹的突变体表现出持续性免疫激活（PIA）。在遗传抑制子筛选中，我们鉴定了spia-1作为沟纹胶原蛋白下游和免疫信号上游的关键基因。spia-1表达在幼虫发育期间振荡，在每次蜕皮之间与模式化角质层组分一同达到峰值。它编码一种分泌蛋白，定位于沟纹处。SPIA-1与其他aECM蛋白共享一个新颖的半胱氨酸摇篮结构域。SPIA-1介导响应于沟纹缺失的免疫激活，并被认为作为角质层损伤的传感器。这项研究首次提供了对C. elegans中角质层完整性与表皮免疫激活之间复杂相互作用的分子层面的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.11.589058",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.11.589058",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.11.589058/index.html"
+}

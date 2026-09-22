@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35892075",
+  "title": "Physics of the Nuclear Pore Complex: Theory, Modeling and Experiment.",
+  "authors": "Hoogenboom, Bart W; Hough, Loren E; Lemke, Edward A; Lim, Roderick Y H; Onck, Patrick R; Zilman, Anton",
+  "journal": "Physics reports",
+  "published_date": "2022-07-28",
+  "window": {
+    "start": "2022-07-25",
+    "end": "2022-07-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述从物理视角系统梳理核孔复合体(NPC)的结构与转运机制，涵盖理论、建模与实验，其中NPC内富含无序蛋白FG重复区域并介导选择性转运互作，虽非聚焦IDP-PPI机制建模，但为无序蛋白介导的互作与相分离机制提供了可迁移的物理建模框架。",
+  "abstract": "The hallmark of eukaryotic cells is the nucleus that contains the genome, enclosed by a physical barrier known as the nuclear envelope (NE). On the one hand, this compartmentalization endows the eukaryotic cells with high regulatory complexity and flexibility. On the other hand, it poses a tremendous logistic and energetic problem of transporting millions of molecules per second across the nuclear envelope, to facilitate their biological function in all compartments of the cell. Therefore, eukaryotes have evolved a molecular \"nanomachine\" known as the Nuclear Pore Complex (NPC). Embedded in the nuclear envelope, NPCs control and regulate all the bi-directional transport between the cell nucleus and the cytoplasm. NPCs combine high molecular specificity of transport with high throughput and speed, and are highly robust with respect to molecular noise and structural perturbations. Remarkably, the functional mechanisms of NPC transport are highly conserved among eukaryotes, from yeast to humans, despite significant differences in the molecular components among various species. The NPC is the largest macromolecular complex in the cell. Yet, despite its significant complexity, it has become clear that its principles of operation can be largely understood based on fundamental physical concepts, as have emerged from a combination of experimental methods of molecular cell biology, biophysics, nanoscience and theoretical and computational modeling. Indeed, many aspects of NPC function can be recapitulated in artificial mimics with a drastically reduced complexity compared to biological pores. We review the current physical understanding of the NPC architecture and function, with the focus on the critical analysis of experimental studies in cells and artificial NPC mimics through the lens of theoretical and computational models. We also discuss the connections between the emerging concepts of NPC operation and other areas of biophysics and bionanotechnology.",
+  "abstract_zh": "真核细胞的标志性特征是其细胞核，内含基因组，并由称为核膜（NE）的物理屏障所包围。一方面，这种区室化赋予真核细胞高度的调控复杂性和灵活性。另一方面，它带来了巨大的物流和能量问题，即每秒需跨核膜运输数百万个分子，以促进其在细胞各区室中的生物学功能。因此，真核生物进化出了一种称为核孔复合体（NPC）的分子“纳米机器”。嵌入核膜中的NPC控制并调节细胞核与细胞质之间的所有双向运输。NPC兼具运输的高分子特异性与高通量和高速度，并且对分子噪声和结构扰动具有高度稳健性。值得注意的是，尽管不同物种间分子组分存在显著差异，NPC运输的功能机制在从酵母到人类的真核生物中高度保守。NPC是细胞中最大的大分子复合体。然而，尽管其复杂性显著，但已明确其运作原理在很大程度上可基于基本物理概念来理解，这些概念源于分子细胞生物学、生物物理学、纳米科学以及理论和计算建模的实验方法结合。实际上，NPC功能的许多方面可在与生物孔相比复杂度大幅降低的人工模拟系统中重现。我们回顾了当前对NPC结构和功能的物理理解，重点是通过理论和计算模型的视角，对细胞及人工NPC模拟系统中的实验研究进行批判性分析。我们还讨论了NPC运作的新兴概念与其他生物物理学和生物纳米技术领域之间的联系。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35892075/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35892075/",
+  "paper_page_path": "papers/pubmed/35892075/index.html"
+}

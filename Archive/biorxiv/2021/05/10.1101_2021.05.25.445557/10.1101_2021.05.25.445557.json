@@ -1,0 +1,468 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.05.25.445557",
+  "title": "An Issue of Concern: Unique Truncated ORF8 Protein Variants of SARS-CoV-2",
+  "doi": "10.1101/2021.05.25.445557",
+  "abstract": "Open reading frame 8 (ORF8) protein is one of the most evolving accessory proteins in severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the causative agent of coronavirus disease 2019 (COVID-19). It was previously reported that the ORF8 protein inhibits presentation of viral antigens by the major histocompatibility complex class I (MHC-I) and interacts with host factors involved in pulmonary inflammation. The ORF8 protein assists SARS-CoV-2 to evade immunity and replication. Among many contributing mutations, Q27STOP, a mutation in the ORF8 protein defines the B.1.1.7 lineage of SARS-CoV-2, which is engendering the second wave of COVID-19. In the present study, 47 unique truncated ORF8 proteins (T-ORF8) due to the Q27STOP mutations were identified among 49055 available B.1.1.7 SARS-CoV-2 sequences. The results show that only one of the 47 T-ORF8 variants spread to over 57 geo-locations in North America, and other continents which includes Africa, Asia, Europe and South America. Based on various quantitative features such as amino acid homology, polar/non-polar sequence homology, Shannon entropy conservation, and other physicochemical properties of all specific 47 T-ORF8 protein variants, a collection of nine possible T-ORF8 unique variants were defined. The question of whether T-ORF8 variants work similarly to ORF8 has yet to be investigated. A positive response to the question could exacerbate future COVID-19 waves, necessitating severe containment measures.",
+  "authors": [
+    "Hassan SS",
+    "Kodakandla V",
+    "Redwan EM",
+    "Lundstrom K",
+    "Choudhury PP",
+    "El-Aziz TMA",
+    "Takayama K",
+    "Kandimalla R",
+    "Lal A",
+    "Serrano-Aroca Á",
+    "Azad GK",
+    "Aljabali AAA",
+    "Palu G",
+    "Chauhan G",
+    "Adadi P",
+    "Tambuwala M",
+    "Brufsky AM",
+    "Baetas-da-Cruz W",
+    "Barh D",
+    "Bazan NG",
+    "Uversky VN"
+  ],
+  "published_date": "2021-05-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.05.25.445557",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.05.25.445557.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR347987",
+    "raw_record": {
+      "id": "PPR347987",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR347987"
+        ]
+      },
+      "doi": "10.1101/2021.05.25.445557",
+      "title": "An Issue of Concern: Unique Truncated ORF8 Protein Variants of SARS-CoV-2",
+      "authorString": "Hassan SS, Kodakandla V, Redwan EM, Lundstrom K, Choudhury PP, El-Aziz TMA, Takayama K, Kandimalla R, Lal A, Serrano-Aroca Á, Azad GK, Aljabali AAA, Palu G, Chauhan G, Adadi P, Tambuwala M, Brufsky AM, Baetas-da-Cruz W, Barh D, Bazan NG, Uversky VN.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hassan SS",
+            "lastName": "Hassan",
+            "firstName": "Sk. Sarif",
+            "initials": "SS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4331-722X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mathematics, Pingla Thana Mahavidyalaya, Maligram, Paschim Medinipur, 721140, West Bengal, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kodakandla V",
+            "lastName": "Kodakandla",
+            "firstName": "Vaishnavi",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life sciences, Sophia College For Women, University of Mumbai, Bhulabhai Desai Road, Mumbai 400026, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Redwan EM",
+            "lastName": "Redwan",
+            "firstName": "Elrashdy",
+            "initials": "EM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8246-0075"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Faculty of Science, Department of Biological Science, King Abdulazizi University, Jeddah 21589, Saudi Arabia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lundstrom K",
+            "lastName": "Lundstrom",
+            "firstName": "Kenneth",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "PanTherapeutics, Rte de Lavaux 49, CH1095 Lutry, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Choudhury PP",
+            "lastName": "Choudhury",
+            "firstName": "Pabitra Pal",
+            "initials": "PP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Indian Statistical Institute, Applied Statistics Unit, 203 B T Road, Kolkata 700108, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "El-Aziz TMA",
+            "lastName": "El-Aziz",
+            "firstName": "Tarek Mohamed Abd",
+            "initials": "TMA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Cellular and Integrative Physiology, University of Texas Health Science Center at San Antonio, 7703 Floyd Curl Dr, San Antonio, TX 78229-3900, USA, & Zoology Department, Faculty of Science, Minia University, El-Minia 61519, Egypt"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Takayama K",
+            "lastName": "Takayama",
+            "firstName": "Kazuo",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for iPS Cell Research and Application, Kyoto University, Kyoto 6068507, Japan"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kandimalla R",
+            "lastName": "Kandimalla",
+            "firstName": "Ramesh",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Applied Biology, CSIR-Indian Institute of Chemical Technology, Uppal Road, Tarnaka, Hyderabad, 500007, Department of Biocemistry, Kakatiya Medical College, Warangal, Telangana, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lal A",
+            "lastName": "Lal",
+            "firstName": "Amos",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Pulmonary and Critical Care Medicine, Mayo Clinic, Rochester, Minnesota, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Serrano-Aroca Á",
+            "lastName": "Serrano-Aroca",
+            "firstName": "Ángel",
+            "initials": "Á",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9953-3848"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biomaterials and Bioengineering Lab, Centro de Investigación Traslacional San Alberto Magno, Universidad Católica de Valencia San Vicente Mártir, c/Guillem de Castro, 94, 46001 Valencia, Valencia, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Azad GK",
+            "lastName": "Azad",
+            "firstName": "Gajendra Kumar",
+            "initials": "GK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Zoology, Patna University, Patna, Bihar, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Aljabali AAA",
+            "lastName": "Aljabali",
+            "firstName": "Alaa",
+            "initials": "AAA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9519-6338"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmaceutics and Pharmaceutical Technology, Yarmouk University, Faculty of Pharmacy, Irbid 566, Jordon"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Palu G",
+            "lastName": "Palu",
+            "firstName": "Giorgio",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Medicine, University of Padova, Via Gabelli 63, 35121, Padova, Italy"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chauhan G",
+            "lastName": "Chauhan",
+            "firstName": "Gaurav",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Engineering and Sciences, Tecnologico de Monterrey, Av. Eugenio Garza Sada 2501 Sur, 64849 Monterrey, Nuevo León, Mexico"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Adadi P",
+            "lastName": "Adadi",
+            "firstName": "Parise",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Food Science, University of Otago, Faculty of Pharmacy, Dunedin 9054, New Zealand"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tambuwala M",
+            "lastName": "Tambuwala",
+            "firstName": "Murtaza",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8499-9891"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Pharmacy and Pharmaceutical Science, Ulster University, Coleraine BT52 1SA, Northern Ireland, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brufsky AM",
+            "lastName": "Brufsky",
+            "firstName": "Adam",
+            "initials": "AM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Pittsburgh School of Medicine, Department of Medicine, Division of Hematology/Oncology, UPMC Hillman Cancer Center, Pittsburgh, PA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baetas-da-Cruz W",
+            "lastName": "Baetas-da-Cruz",
+            "firstName": "Wagner",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Translational Laboratory in Molecular Physiology, Centre for Experimental Surgery, College of Medicine, Federal University of Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barh D",
+            "lastName": "Barh",
+            "firstName": "Debmalya",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Genomics and Applied Gene Technology, Institute of Integrative Omics and Applied Biotechnology (IIOAB), Nonakuri, Purba Medinipur, WB, India, & Departamento de Genética, Ecologia e Evolucao, Instituto de Ciências Biológicas, Universidade Federal de Minas Gerais, Belo Horizonte, Minas Gerais, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bazan NG",
+            "lastName": "Bazan",
+            "firstName": "Nicolas",
+            "initials": "NG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Neuroscience Center of Excellence, School of Medicine, LSU Health New Orleans, New Orleans, LA 70112, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Uversky VN",
+            "lastName": "Uversky",
+            "firstName": "Vladimir",
+            "initials": "VN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Medicine, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8246-0075"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8499-9891"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9519-6338"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9953-3848"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4331-722X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "Open reading frame 8 (ORF8) protein is one of the most evolving accessory proteins in severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), the causative agent of coronavirus disease 2019 (COVID-19). It was previously reported that the ORF8 protein inhibits presentation of viral antigens by the major histocompatibility complex class I (MHC-I) and interacts with host factors involved in pulmonary inflammation. The ORF8 protein assists SARS-CoV-2 to evade immunity and replication. Among many contributing mutations, Q27STOP, a mutation in the ORF8 protein defines the B.1.1.7 lineage of SARS-CoV-2, which is engendering the second wave of COVID-19. In the present study, 47 unique truncated ORF8 proteins (T-ORF8) due to the Q27STOP mutations were identified among 49055 available B.1.1.7 SARS-CoV-2 sequences. The results show that only one of the 47 T-ORF8 variants spread to over 57 geo-locations in North America, and other continents which includes Africa, Asia, Europe and South America. Based on various quantitative features such as amino acid homology, polar/non-polar sequence homology, Shannon entropy conservation, and other physicochemical properties of all specific 47 T-ORF8 protein variants, a collection of nine possible T-ORF8 unique variants were defined. The question of whether T-ORF8 variants work similarly to ORF8 has yet to be investigated. A positive response to the question could exacerbate future COVID-19 waves, necessitating severe containment measures.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/05/26/2021.05.25.445557.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.05.25.445557"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR347987"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR347987&type=FILE&fileName=EMS126457-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35341060",
+            "reference": "PeerJ. 2022 ;10:e13136",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS126457",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCreation": "2021-05-27",
+      "firstPublicationDate": "2021-05-25",
+      "firstIndexDate": "2021-05-27",
+      "fullTextReceivedDate": "2021-06-16",
+      "hasEvaluations": "Y"
+    }
+  }
+}

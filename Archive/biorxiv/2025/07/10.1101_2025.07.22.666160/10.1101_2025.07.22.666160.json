@@ -1,0 +1,232 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.22.666160",
+  "title": "Alphaherpesvirus pUL21 homologues use non-canonical motifs to compete with cellular adaptors for protein phosphatase 1 binding",
+  "doi": "10.1101/2025.07.22.666160",
+  "abstract": "Protein phosphatase 1 (PP1) is a key regulator of cellular phosphorylation and its activity is regulated via binding to cellular regulatory proteins via conserved short linear motifs (SLiMs). The herpes simplex virus (HSV)-1 protein pUL21 binds PP1 via the TROPPO motif, which lacks sequence similarity to canonical PP1-binding SLiMs. Here, we combine structure prediction, mutagenesis, and biophysical assays to elucidate the molecular basis of this interaction. AlphaFold2-Multimer structural models suggest that the TROPPO motifs of pUL21 and of pORF38, the varicella-zoster virus homologue of pUL21, bind the same hydrophobic groove on PP1 as RVxF and ϕϕ[xF] motifs, forming an extended β-sheet that bridges PP1 and the N-terminal domain of pUL21 or pORF38. Site-directed mutagenesis of both pUL21 and PP1 confirms key predicted interactions. Competition fluorescence polarisation confirms that pUL21 competes directly with cellular PP1 RvXF motifs for PP1 binding, albeit with lower affinity. Substituting key residues of the pUL21 TROPPO motif to resemble a canonical RVxF sequence increases PP1 binding, suggesting that alphaherpesviruses have evolved suboptimal motifs to fine-tune phosphatase recruitment that may balance viral kinase and phosphatase activities during infection. Our findings reveal a novel mechanism of PP1 recruitment by viral proteins and suggest that many other PP1 regulators may possess non-canonical binding motifs and thus remain undiscovered.",
+  "authors": [
+    "Monkhouse H",
+    "Carter-Lopez DS",
+    "Benedyk TH",
+    "Deane JE",
+    "Graham SC"
+  ],
+  "published_date": "2025-07-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.22.666160",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.22.666160.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1056026",
+    "raw_record": {
+      "id": "PPR1056026",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1056026"
+        ]
+      },
+      "doi": "10.1101/2025.07.22.666160",
+      "title": "Alphaherpesvirus pUL21 homologues use non-canonical motifs to compete with cellular adaptors for protein phosphatase 1 binding",
+      "authorString": "Monkhouse H, Carter-Lopez DS, Benedyk TH, Deane JE, Graham SC.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Monkhouse H",
+            "lastName": "Monkhouse",
+            "firstName": "Holly",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, , ,"
+                },
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, , Cambridge Biomedical Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Carter-Lopez DS",
+            "lastName": "Carter-Lopez",
+            "firstName": "Daniela",
+            "initials": "DS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Benedyk TH",
+            "lastName": "Benedyk",
+            "firstName": "Tomasz",
+            "initials": "TH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6420-3665"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Deane JE",
+            "lastName": "Deane",
+            "firstName": "Janet",
+            "initials": "JE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4863-0330"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cambridge Institute for Medical Research, , Cambridge Biomedical Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Graham SC",
+            "lastName": "Graham",
+            "firstName": "Stephen",
+            "initials": "SC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6420-3665"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4863-0330"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Protein phosphatase 1 (PP1) is a key regulator of cellular phosphorylation and its activity is regulated via binding to cellular regulatory proteins via conserved short linear motifs (SLiMs). The herpes simplex virus (HSV)-1 protein pUL21 binds PP1 via the TROPPO motif, which lacks sequence similarity to canonical PP1-binding SLiMs. Here, we combine structure prediction, mutagenesis, and biophysical assays to elucidate the molecular basis of this interaction. AlphaFold2-Multimer structural models suggest that the TROPPO motifs of pUL21 and of pORF38, the varicella-zoster virus homologue of pUL21, bind the same hydrophobic groove on PP1 as RVxF and ϕϕ[xF] motifs, forming an extended β-sheet that bridges PP1 and the N-terminal domain of pUL21 or pORF38. Site-directed mutagenesis of both pUL21 and PP1 confirms key predicted interactions. Competition fluorescence polarisation confirms that pUL21 competes directly with cellular PP1 RvXF motifs for PP1 binding, albeit with lower affinity. Substituting key residues of the pUL21 TROPPO motif to resemble a canonical RVxF sequence increases PP1 binding, suggesting that alphaherpesviruses have evolved suboptimal motifs to fine-tune phosphatase recruitment that may balance viral kinase and phosphatase activities during infection. Our findings reveal a novel mechanism of PP1 recruitment by viral proteins and suggest that many other PP1 regulators may possess non-canonical binding motifs and thus remain undiscovered.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "British Skin Foundation",
+            "grantId": "028/S/22",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "acronym": "WT",
+            "grantId": "098406/Z/12/B",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "acronym": "WT",
+            "grantId": "219447/Z/19/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/25/2025.07.22.666160.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.22.666160"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1056026"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1056026&type=FILE&fileName=EMS207603-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207603",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-07-28",
+      "firstPublicationDate": "2025-07-25",
+      "firstIndexDate": "2025-07-28",
+      "fullTextReceivedDate": "2025-08-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

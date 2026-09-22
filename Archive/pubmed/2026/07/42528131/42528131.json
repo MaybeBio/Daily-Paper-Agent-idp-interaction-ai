@@ -1,0 +1,237 @@
+{
+  "identity": {
+    "pmid": "42528131",
+    "doi": "10.1016/j.molp.2026.07.019",
+    "title": "From pan-life phase insights to PhaseHub: Analyzing protein condensate complexity."
+  },
+  "content": {
+    "abstract": "Intracellular biomolecular condensation forms multicomponent signaling hubs that regulate development, stress responses, and environmental adaptation. While the molecular grammar encoded within scaffold proteins defines the basal associative features driving condensation, heterotypic condensates are intrinsically dynamic, multicomponent, and far-from-equilibrium systems. Consequently, how condensates organize component composition, stoichiometry, and functional specificity in space and time under physiological conditions remains poorly understood. Addressing this challenge requires integrative frameworks that combine predictive biophysical features with experimental information on protein abundance, interaction networks, subcellular localization, and evolutionary conservation. In this study, we first analyzed phase separation (PS) proteins across the tree of life in 1106 species, revealing a stark contrast in computationally predicted PS propensity between eukaryotes and prokaryotes, with genome size as a key determinant. Through a broad analysis of amino acid homorepeat-containing proteins (HRPs) across all species, we uncovered how PS evolves via a balance between functional condensation and avoidance of harmful, aggregation-prone sequences. We further identified potential signaling hubs and components across kingdoms by integrating PS-positive proteins with experimentally derived abundance and interactome data from four model eukaryotic species. Using Arabidopsis as a model, we dissected the relationships among PS propensity, condensation hub prediction, HRPs, subcellular localization, and structural conservation. Finally, we developed PhaseHub, a user-friendly interface for exploring scaffold-client dynamics, PS components, sequence signatures within each PS protein, and hubs. Collectively, our work provides an evolutionary framework for understanding multicomponent PS hubs by integrating molecular grammar with physiological context, thereby facilitating hypothesis generation and rational design.",
+    "keywords": [
+      "MolPhase analysis",
+      "PhaseHub",
+      "molecular grammar",
+      "phase separation",
+      "protein homorepeat"
+    ],
+    "mesh_terms": [
+      "Phase Separation",
+      "*Biomolecular Condensates/metabolism",
+      "Arabidopsis/metabolism",
+      "*Proteins/metabolism/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Liang, Qiyu",
+        "Gao, Weibo",
+        "Miao, Yansong"
+      ],
+      "short_names": [
+        "Liang Q",
+        "Gao W",
+        "Miao Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore 637371, Singapore; School of Biological Sciences, Nanyang Technological University, Singapore 637551, Singapore.",
+        "School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore 637371, Singapore; School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore 639798, Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, Singapore 637551, Singapore; Institute for Digital Molecular Analytics and Science, Nanyang Technological University, Singapore 636921, Singapore. Electronic address: yansongm@ntu.edu.sg."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Liang, Qiyu",
+        "short_name": "Liang Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore 637371, Singapore; School of Biological Sciences, Nanyang Technological University, Singapore 637551, Singapore."
+        ]
+      },
+      {
+        "full_name": "Gao, Weibo",
+        "short_name": "Gao W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical and Mathematical Sciences, Nanyang Technological University, Singapore 637371, Singapore; School of Electrical and Electronic Engineering, Nanyang Technological University, Singapore 639798, Singapore."
+        ]
+      },
+      {
+        "full_name": "Miao, Yansong",
+        "short_name": "Miao Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, Singapore 637551, Singapore; Institute for Digital Molecular Analytics and Science, Nanyang Technological University, Singapore 636921, Singapore. Electronic address: yansongm@ntu.edu.sg."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular plant"
+    ],
+    "journal_abbrev": [
+      "Mol Plant"
+    ],
+    "pub_date": "2026 Sep 7",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/30 06:41",
+    "fetched_at": "2026-09-18 05:15:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42528131",
+      "42475469",
+      "23912807",
+      "42276972",
+      "38987300",
+      "42531022",
+      "40954121",
+      "38565952",
+      "40744081",
+      "41265448",
+      "42692763",
+      "42336922",
+      "36993212",
+      "38591689",
+      "33672806",
+      "41670285",
+      "41480717",
+      "40985078",
+      "39928699",
+      "34767801",
+      "41667449",
+      "42420726",
+      "38824391",
+      "42196497",
+      "42065721",
+      "34090478",
+      "40830100",
+      "32393642",
+      "35687670",
+      "39592156",
+      "39663388",
+      "41524628",
+      "42464491",
+      "40849651",
+      "42425985",
+      "41191214",
+      "39146259",
+      "37668016",
+      "39987501",
+      "40557772",
+      "38429263",
+      "41511470",
+      "39937084",
+      "39326881",
+      "42465321",
+      "41457474",
+      "40970906",
+      "42456205",
+      "40962203",
+      "41530973",
+      "42350353",
+      "40661423",
+      "39827079",
+      "40903498",
+      "37464880",
+      "38466837",
+      "40196628",
+      "39826710",
+      "33453268",
+      "35762716",
+      "41862773",
+      "34772789",
+      "41587927",
+      "38308651",
+      "37470705",
+      "41904915",
+      "40286852",
+      "33001599",
+      "41705673",
+      "41022842",
+      "18831774",
+      "40429758",
+      "41540001",
+      "41481439",
+      "42260147",
+      "42322777",
+      "42248878",
+      "41845050",
+      "23077539",
+      "40408482",
+      "40629388",
+      "41027866",
+      "41700935",
+      "41337585",
+      "39319382",
+      "42055532",
+      "24457447",
+      "42059155",
+      "34670847",
+      "37295429",
+      "40878008",
+      "37205474",
+      "42314385",
+      "39434494",
+      "42143038",
+      "40172489",
+      "42161866",
+      "40441156",
+      "37252985",
+      "42081454"
+    ],
+    "review": [
+      "42528131",
+      "42276972",
+      "40744081",
+      "41480717",
+      "34767801",
+      "42196497",
+      "42065721",
+      "39592156",
+      "40849651",
+      "41191214",
+      "39146259",
+      "40557772",
+      "39326881",
+      "42456205",
+      "40962203",
+      "39827079",
+      "37464880",
+      "34772789",
+      "41587927",
+      "41904915",
+      "40286852",
+      "40429758",
+      "42322777",
+      "42059155",
+      "34670847",
+      "40878008",
+      "40172489",
+      "42161866"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1674-2052(26)00238-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

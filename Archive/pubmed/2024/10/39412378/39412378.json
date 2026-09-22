@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "39412378",
+    "doi": "10.1002/pro.5172",
+    "title": "A coarse-grained model for disordered and multi-domain proteins."
+  },
+  "content": {
+    "abstract": "Many proteins contain more than one folded domain, and such modular multi-domain proteins help expand the functional repertoire of proteins. Because of their larger size and often substantial dynamics, it may be difficult to characterize the conformational ensembles of multi-domain proteins by simulations. Here, we present a coarse-grained model for multi-domain proteins that is both fast and provides an accurate description of the global conformational properties in solution. We show that the accuracy of a one-bead-per-residue coarse-grained model depends on how the interaction sites in the folded domains are represented. Specifically, we find excessive domain-domain interactions if the interaction sites are located at the position of the C(alpha) atoms. We also show that if the interaction sites are located at the center of mass of the residue, we obtain good agreement between simulations and experiments across a wide range of proteins. We then optimize our previously described CALVADOS model using this center-of-mass representation, and validate the resulting model using independent data. Finally, we use our revised model to simulate phase separation of both disordered and multi-domain proteins, and to examine how the stability of folded domains may differ between the dilute and dense phases. Our results provide a starting point for understanding interactions between folded and disordered regions in proteins, and how these regions affect the propensity of proteins to self-associate and undergo phase separation.",
+    "keywords": [
+      "coarse graining",
+      "condensates",
+      "molecular dynamics",
+      "multi-domain proteins",
+      "protein dynamics"
+    ],
+    "mesh_terms": [
+      "*Protein Domains",
+      "Models, Molecular",
+      "Intrinsically Disordered Proteins/chemistry",
+      "Protein Folding",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Cao, Fan",
+        "von Bulow, Soren",
+        "Tesei, Giulio",
+        "Lindorff-Larsen, Kresten"
+      ],
+      "short_names": [
+        "Cao F",
+        "von Bulow S",
+        "Tesei G",
+        "Lindorff-Larsen K"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4339-4460",
+        "ORCID: 0000-0002-4750-6039"
+      ],
+      "affiliations": [
+        "Structural Biology and NMR Laboratory & the Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory & the Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory & the Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory & the Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Cao, Fan",
+        "short_name": "Cao F",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory & the Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "von Bülow, Sören",
+        "short_name": "von Bülow S",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory & the Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Tesei, Giulio",
+        "short_name": "Tesei G",
+        "identifiers": [
+          "0000-0003-4339-4460"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory & the Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Lindorff-Larsen, Kresten",
+        "short_name": "Lindorff-Larsen K",
+        "identifiers": [
+          "0000-0002-4750-6039"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory & the Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/16 12:23",
+    "fetched_at": "2026-09-22 01:58:52"
+  },
+  "links": {
+    "cites": [
+      "42620391",
+      "42573943",
+      "42427316",
+      "42407334",
+      "42376920",
+      "42370432",
+      "42370264",
+      "42338018",
+      "42301231",
+      "42282589",
+      "42262899",
+      "42227953",
+      "42190015",
+      "42161313",
+      "42159250",
+      "42147780",
+      "42129207",
+      "41991555",
+      "41969219",
+      "41929039",
+      "41928976",
+      "41911046",
+      "41909144",
+      "41868013",
+      "41863073",
+      "41803440",
+      "41739654",
+      "41673446",
+      "41670285",
+      "41657248",
+      "41652163",
+      "41644540",
+      "41565673",
+      "41311063",
+      "41266615",
+      "41169547",
+      "41137856",
+      "41102979",
+      "41088757",
+      "41074457",
+      "40944421",
+      "40894760",
+      "40877270",
+      "40861395",
+      "40858555",
+      "40848932",
+      "40830340",
+      "40781776",
+      "40747072",
+      "40671581",
+      "40662195",
+      "40544328",
+      "40450039",
+      "40389455",
+      "40349675",
+      "40172489",
+      "40161686",
+      "40131954",
+      "40093099",
+      "40034137",
+      "40028356",
+      "39908323",
+      "39827079",
+      "39574638",
+      "39554101",
+      "39464032"
+    ],
+    "refs": [
+      "39172789",
+      "39103332",
+      "38513106",
+      "38297118",
+      "38177684",
+      "38114456",
+      "38112495",
+      "38000367",
+      "37989551",
+      "37788237",
+      "37645312",
+      "37155239",
+      "37006777",
+      "36961997",
+      "36607820",
+      "36537242",
+      "36343363",
+      "36112647",
+      "36083825",
+      "35944496",
+      "35853451",
+      "35795820",
+      "35377637",
+      "35129612",
+      "34845623",
+      "34791371",
+      "34716273",
+      "34557680",
+      "34461937",
+      "34265844",
+      "33934416",
+      "33876938",
+      "33782607",
+      "33597515",
+      "33577679",
+      "33481784",
+      "33307683",
+      "33302617",
+      "32132204",
+      "29961577",
+      "29763584",
+      "29364893",
+      "28746339",
+      "27679800",
+      "26621095",
+      "26406374",
+      "25747659",
+      "24773235",
+      "22753508",
+      "22516180",
+      "19967787",
+      "19548767",
+      "18576630",
+      "18083189",
+      "17827232",
+      "17356578",
+      "17098189",
+      "16384187",
+      "9726417",
+      "9164463",
+      "7937738"
+    ],
+    "similar": [
+      "39412378",
+      "42427316",
+      "39499823",
+      "39908323",
+      "40009520",
+      "23912807",
+      "35377637",
+      "34536913",
+      "38892222",
+      "40671581",
+      "32339173",
+      "34845619",
+      "29735687",
+      "40629690",
+      "33076213",
+      "36083825",
+      "39319382",
+      "34029402",
+      "39225535",
+      "36004748",
+      "25207671",
+      "41257331",
+      "28157327",
+      "42370432",
+      "33577679",
+      "31756104",
+      "41991555",
+      "34680048",
+      "37906711",
+      "32436706",
+      "34716273",
+      "32393642",
+      "26562397",
+      "29573987",
+      "39554101",
+      "26735936",
+      "33909430",
+      "42227953",
+      "31552948",
+      "39248414",
+      "38112495",
+      "22181202",
+      "25393408",
+      "40042172",
+      "29990433",
+      "35802394",
+      "39285530",
+      "33139563",
+      "39486437",
+      "33934416",
+      "30184304",
+      "41851975",
+      "32929427",
+      "33453922",
+      "40101966",
+      "33307683",
+      "36987865",
+      "29186229",
+      "35381009",
+      "33078950",
+      "41706900",
+      "27163669",
+      "26008791",
+      "27819658",
+      "38928405",
+      "26195786",
+      "37645312",
+      "40131954",
+      "32323533",
+      "42327097",
+      "37339604",
+      "41644540",
+      "23754493",
+      "40446154",
+      "25631540",
+      "30933517",
+      "24811666",
+      "32654182",
+      "36066390",
+      "33361159",
+      "38965780",
+      "35130441",
+      "39952928",
+      "23426892",
+      "33725442",
+      "22253588",
+      "32345021",
+      "32020911",
+      "18083189",
+      "26910732",
+      "25612731",
+      "31613621",
+      "32859072",
+      "40848932",
+      "40781776",
+      "26790343",
+      "24115081",
+      "29432415",
+      "37079924",
+      "30865832"
+    ],
+    "review": [
+      "39412378",
+      "34536913",
+      "34680048",
+      "35802394",
+      "25631540",
+      "33361159"
+    ],
+    "pmc": [
+      "11481261"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39412378/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.5172",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, methods, conclusions) for the article "Enhanced Condensation of RNA Repeats Induced by Terahertz Oscillatory Fields" by Zhang et al., published in Molecules (Basel, Switzerland), 2026.
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and alignment with Nature-style criteria. Editorial decisions and journal fit are outside scope.
+- **Shared manuscript claim summary** The authors use Martini 3 coarse-grained molecular dynamics (CGMD) simulations to show that terahertz (THz) oscillatory fields at 10 THz and 37.3 THz counteract salt-induced dissolution of G4C2 RNA condensates. They propose a dual mechanism: reduced Na+-RNA contacts at low ionic strength and accelerated water diffusion in the hydration layer at high salt, correlating with enhanced inter-chain contacts and condensate compactness.
+- **Visible evidence base** Main text figures (Figures 1–5), supplementary figure references (Figures S1–S3), supplementary table reference (Table S1), and one supplementary video reference (Video S1). No raw data, trajectory files, or analysis scripts were provided.
+- **Missing materials affecting confidence** Supplementary figures and table (S1–S3, Table S1) and Video S1 were not available for review. No simulation input files, force field parameters, or analysis code were provided. No experimental validation data were included.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a computational study exploring how THz oscillatory fields may influence RNA condensation, a topic of potential interest to the biophysics and biomolecular condensate communities. The work builds on a previously validated Martini 3 CG model and extends it to non-equilibrium conditions. The central claims are plausible but rest on a limited set of simulation observables, and several methodological details are insufficiently described to fully assess robustness. The mechanistic interpretation, while reasonable, is presented with correlational language that sometimes overreaches the evidence. The manuscript would benefit from clearer articulation of limitations and more rigorous statistical treatment. The topic is timely, but the current evidence base does not fully establish the case for a generalizable field-driven condensation mechanism.
+- **Who would be interested in the results, and why** Researchers studying biomolecular phase separation, particularly those interested in external field effects on condensates, will find this work relevant. The computational biophysics community using CGMD for nucleic acid systems may also be interested. The potential connection to THz bioeffects and non-invasive modulation of biomolecular assemblies could attract researchers in biophotonics and bioelectromagnetics. However, the lack of experimental validation limits the immediate appeal to a broader biomedical audience.
+- **Major strengths** The study addresses a novel question (THz field effects on RNA condensation) using a well-established simulation framework. The authors are transparent about the limitations of the CG model and the non-equilibrium approximation. The analysis includes multiple complementary observables (cluster count, SASA, compactness, contact numbers, hydration properties), which strengthens the internal consistency of the findings. The exclusion of an anomalous simulation condition is appropriately documented.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that THz oscillatory fields "counteract salt-induced condensate dissolution" and "promote condensation" is central to the manuscript.
+  - **Evidence pointer** Figure 1A, Section 2.1
+  - **Concern** The primary evidence for field-induced condensation is the reduced cluster count under THz fields at high salt concentrations. However, the statistical analysis is described only briefly in Section 3.4.5, and the effect sizes are not reported. The manuscript states that Welch's t-tests with Bonferroni correction were used, but the number of independent samples (three replicates) is small, and the variability across replicates is not shown in the main text. Without effect sizes, confidence intervals, or a more robust statistical framework (e.g., bootstrapping or Bayesian analysis), the significance of the observed differences is difficult to evaluate.
+  - **Why it matters** The central conclusion of the paper hinges on the statistical reliability of the cluster count differences. If the effect is not robust across replicates or is within the noise of the CG model, the entire mechanistic narrative is undermined.
+  - **Resolution test** Provide effect sizes with confidence intervals for all key comparisons, show individual replicate data points in figures, and consider additional replicates or a more sophisticated statistical approach to confirm the robustness of the observed differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that THz fields enhance condensation via "reduced phosphate–sodium contacts at low ionic strengths" and "faster water diffusion in the hydration layer at higher salt levels" is presented as a mechanistic explanation.
+  - **Evidence pointer** Figures 4, 5, S1, S3; Sections 2.3, 2.4
+  - **Concern** The manuscript reports correlations between field-induced changes in ion contacts, water diffusion, and condensation, but does not establish causality. The authors acknowledge this in places (e.g., "correlate with"), but the abstract and conclusions use stronger language ("suggesting a field-driven shift in the balance of interactions"). The mechanistic link between faster water diffusion and enhanced condensation is not physically obvious, and the manuscript does not provide a quantitative model or test of this relationship. Additionally, the water diffusion measurements are based on a CG water model that the authors themselves note lacks polarization and vibrational modes, raising questions about the physical meaning of the reported diffusion coefficients under oscillatory fields.
+  - **Why it matters** The proposed dual mechanism is the main scientific contribution. If the causal chain is not established, the manuscript offers only a phenomenological description without mechanistic insight.
+  - **Resolution test** Perform additional analyses to test causality, such as perturbing specific interactions (e.g., selectively removing Na+ or altering water diffusivity) and observing the effect on condensation. Alternatively, temper the mechanistic claims to explicitly state that the observed correlations are hypothesis-generating, not definitive.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The manuscript claims that the simulation protocol was "maintained exactly as previously established" (Section 3.4) and that the model was "previously validated" (Section 3.1).
+  - **Evidence pointer** Section 3.1, Section 3.4
+  - **Concern** The manuscript references prior work for model validation and protocol details, but the current manuscript does not provide sufficient information to reproduce the simulations independently. Key parameters such as the exact Martini 3 parameters for the RNA model, the method for applying the oscillatory field (e.g., coupling scheme, field direction, ramp-up procedure), and the equilibration protocol are not fully described. The anomalous simulation condition (139 mM NaCl + 83 mM MgCl2 + 37.3 THz) is excluded, but the criteria for identifying "non-physical anomalies" are subjective and not formalized.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without complete methodological details, other groups cannot verify or build upon these findings.
+  - **Resolution test** Provide full simulation input files, force field parameters, and analysis scripts as supplementary material. Describe the field application and anomaly detection criteria in sufficient detail for independent replication.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract states that the findings "provide a conceptual and mechanistic basis for understanding how oscillatory fields may influence biomolecular condensation."
+  - **Evidence pointer** Abstract, Section 2.4, Section 4
+  - **Concern** The study uses a single sequence (5×G4C2) and a single CG model. The generalizability of the findings to other RNA sequences, to proteins, or to more complex condensate compositions is not tested. The field strengths and frequencies used are not contextualized against experimentally achievable or biologically relevant conditions. The authors note the penetration depth limitation, but the broader relevance of the findings remains unclear.
+  - **Why it matters** For a Nature-style audience, the significance of the work depends on its implications beyond the specific system studied. Without broader contextualization or additional systems, the impact is limited.
+  - **Resolution test** Discuss the parameter space of field strengths and frequencies in relation to experimental feasibility. If possible, include preliminary data on a different sequence or system to demonstrate generalizability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, Figure 1
+  - **Evidence pointer** Figure 1A
+  - **Issue** The y-axis label for Figure 1A is not described in the text. It is unclear whether the "average number of clusters" is a time-averaged quantity or an ensemble average over replicates.
+  - **Required correction** Clarify the definition of the plotted quantity in the figure legend and text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.4.4
+  - **Evidence pointer** Section 3.4.4
+  - **Issue** The short-term diffusion coefficient is calculated from the first MSD data point (0–200 ps). This is a very short time window and may not be representative of the hydration layer dynamics. The choice of this window is not justified.
+  - **Required correction** Provide a justification for the time window or show the MSD curves to demonstrate linearity in the fitted region.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The text states that "THz oscillatory fields did not consistently alter Nb–Mg2+ interactions, except for a minor increase at the two lowest salt concentrations." The term "minor" is vague and not quantified.
+  - **Required correction** Provide the numerical values and statistical significance for these changes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.2
+  - **Evidence pointer** Section 3.2
+  - **Issue** The RNA concentration is stated as "about 800 μM," but the exact number of RNA molecules and the box size are given. The concentration calculation is not shown.
+  - **Required correction** Show the calculation or state the exact concentration used.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical robustness), R1-M2 (causal vs. correlational evidence), R1-M3 (reproducibility of methods). These are blocking concerns because they directly affect the validity and interpretability of the central claims.
+- **Assessment against Nature-style criteria**
+  - **Originality** The application of THz oscillatory fields to RNA condensation is a novel angle, and the study explores a non-equilibrium regime that is underexplored in the condensate field. However, the approach is incremental, building directly on prior CGMD work by the same group.
+  - **Scientific importance** The question of external field control over biomolecular condensates is timely and potentially important. However, the study is purely computational, uses a single model system, and does not provide experimental validation or a clear path to experimental testing. The importance is therefore moderate and conditional on future validation.
+  - **Interdisciplinary readership** The topic bridges biophysics, physical chemistry, and bioengineering. The writing is accessible to a broad scientific audience, but the technical details of CGMD may be challenging for non-specialists. The potential biomedical implications (ALS/FTD) are mentioned but not developed.
+  - **Technical soundness** The simulation methodology is based on a validated model, but the statistical analysis is underpowered (three replicates), the anomaly exclusion criteria are subjective, and the mechanistic interpretation overreaches the correlational evidence. The technical soundness is currently insufficient to support the strong claims made.
+  - **Readability for nonspecialists** The manuscript is generally well-written and logically structured. The abstract and introduction are accessible. However, the results section assumes familiarity with CGMD and condensate analysis methods, and some terms (e.g., CCR) are not defined for the general reader.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a novel and interesting question, and the computational framework is appropriate, but the statistical robustness, causal interpretation, and reproducibility need to be substantially improved before the claims can be considered established. I would be supportive if the technical concerns are resolved, particularly the statistical analysis and the causal framing of the mechanism.
+
+## Risk / unsupported claims
+- The claim that THz oscillatory fields "counteract salt-induced condensate dissolution" is supported by the data but requires stronger statistical evidence to be fully established.
+- The proposed dual mechanism (reduced Na+ contacts at low salt, faster water diffusion at high salt) is correlational and not causally established.
+- The statement that THz fields "may influence the condensation of pathogenic G4C2 RNA repeats" is appropriately hedged, but the abstract's implication of a generalizable mechanism is not supported by the single-sequence, single-model study.
+- The claim that the findings "provide a conceptual and mechanistic basis" is overstated given the lack of causal evidence and the acknowledged limitations of the CG model.
+- The relevance of the findings to experimental or therapeutic contexts is speculative and not supported by any data in the manuscript.

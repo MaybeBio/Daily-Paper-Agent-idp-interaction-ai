@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.11.24.690320",
+  "title": "Slab-PTM: A Coarse-Grained Force-Field Parameter Patch for Modeling Post-Translational Modification Effects on Biomolecular Condensates",
+  "authors": "Mu J; Lai L",
+  "journal": "bioRxiv",
+  "published_date": "2025-11-27",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 9,
+  "one_liner_zh": "该文为五种常见翻译后修饰开发粗粒化力场参数补丁(Slab-PTM)，通过全原子伞形采样计算PMF并集成到CALVADOS/Mpipi模型中，用于模拟PTM对IDP相分离/凝聚体行为的影响，直接命中无序蛋白、相分离互作机制与物理模拟方法三大核心。",
+  "abstract": "Intrinsically disordered proteins (IDPs) play crucial roles in biomolecular condensate formation. While molecular dynamics simulations employing coarse-grained models have emerged as useful tools for studying IDP phase behavior, current force-field parameterizations remain limited in their ability to simulate post-translational modifications (PTMs), which are the critical regulatory elements of IDP involved condensation with profound biological implications. To address this gap, we developed interaction parameters for five common PTM types: phosphorylated serine (pSer), threonine (pThr), and tyrosine (pTyr); acetylated lysine (AcLys); and asymmetric dimethylarginine (aDMA). Using all-atom umbrella sampling simulations, we computed residue-specific potentials of mean force (PMFs) between modified and canonical amino acids. These PMF-derived parameters were systematically integrated into the established slab-geometry coarse-grained models (CALVADOS and Mpipi) via an additive module termed as Slab-PTM. Benchmark simulations demonstrate that Slab-PTM accurately captures the effects of PTMs on IDP phase behavior while remaining fully compatible with existing LLPS simulation frameworks. In addition, Slab-PTM enables the identification of molecular grammar elements through which PTMs modulate IDP-driven phase separation.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在生物分子凝聚体形成中发挥关键作用。尽管采用粗粒化模型的分子动力学 (molecular dynamics) 模拟已成为研究IDP相行为的有用工具，但当前力场参数化在模拟翻译后修饰 (post-translational modifications, PTMs) 方面仍存在局限，而PTMs是IDP参与凝聚的关键调控元件，具有深远的生物学意义。为弥补这一空白，我们为五种常见PTM类型开发了相互作用参数：磷酸化丝氨酸 (pSer)、苏氨酸 (pThr) 和酪氨酸 (pTyr)；乙酰化赖氨酸 (AcLys)；以及不对称二甲基精氨酸 (aDMA)。利用全原子伞形采样模拟，我们计算了修饰氨基酸与经典氨基酸之间的残基特异性平均力势 (potentials of mean force, PMFs)。这些源自PMF的参数通过一个名为Slab-PTM的加性模块系统整合到已建立的平板几何粗粒化模型 (CALVADOS 和 Mpipi) 中。基准模拟表明，Slab-PTM准确捕捉了PTMs对IDP相行为的影响，同时与现有LLPS模拟框架完全兼容。此外，Slab-PTM能够识别PTMs调控IDP驱动相分离的分子语法元件。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690320",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690320",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.11.24.690320/index.html"
+}

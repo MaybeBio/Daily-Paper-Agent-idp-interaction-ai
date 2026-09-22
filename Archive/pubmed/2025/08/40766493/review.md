@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, methodological soundness, and claims as presented in the provided text. No supplementary figures or data files were available for inspection.
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations with enhanced sampling (WTM-REMD) to compare how two chromatin-binding proteins, HP1α and a truncated PHC3 construct (tPHC3), modulate the folding landscape of a tetra-nucleosome array. They report that HP1α promotes flexible, short-range bridging and transient α-tetrahedron-like intermediates, while tPHC3 stabilizes α-tetrahedron-like motifs that scaffold progression toward the compact β-rhombus configuration, particularly in dense-phase conditions. The authors propose that these differences arise from distinct multivalent interaction architectures and context-dependent reorganization of protein–protein and protein–DNA contacts.
+- **Visible evidence base** Main text figures referenced (Figures 1–7), supporting figures referenced (Figures S1–S11), methods section, discussion. No actual figure images, numerical data tables, or simulation parameter files were provided.
+- **Missing materials affecting confidence** Supplementary figures and data (S1–S11) are referenced but not provided. No quantitative error bars, convergence metrics beyond qualitative descriptions, or raw trajectory statistics are shown. No comparison to experimental data is presented. The force field parameters for the HPS-Urry model and the 2-bead DNA model are cited to prior work but not detailed here.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question: how different chromatin-binding proteins with distinct oligomeric architectures differentially shape the folding landscape of a minimal chromatin unit. The computational approach is sophisticated, combining sequence-specific coarse-grained models with enhanced sampling and dimensionality reduction. The central claim — that HP1α and tPHC3 direct distinct folding pathways via different interaction modalities — is plausible and mechanistically interesting. However, the evidence as presented is largely qualitative and descriptive. Key quantitative validations (e.g., free energy differences, statistical uncertainties, convergence checks) are not shown. The distinction between "transient" and "metastable" intermediates is not rigorously quantified. The biological relevance of the dense-phase simulations, which use 50 protein chains with a single tetra-nucleosome, requires clearer justification. Overall, the work has potential but the current manuscript does not fully establish the case from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in chromatin biophysics, computational biology, and phase separation. The work speaks to how protein multivalency and interaction geometry can encode distinct chromatin topologies, which is relevant for understanding heterochromatin vs. Polycomb domain organization. The methodological framework (coarse-grained simulations with enhanced sampling) will interest computational biophysicists studying nucleosome arrays and protein–nucleosome interactions.
+- **Major strengths** 1) The question is well-posed and mechanistically significant. 2) The computational methodology is state-of-the-art, combining WTM-REMD with diffusion map analysis. 3) The comparison between two proteins with distinct oligomeric architectures (dimeric HP1α vs. dimeric/monomeric tPHC3) is a clever design. 4) The analysis of reactive trajectories and sliding-window tri-nucleosome motifs provides a nuanced view of folding pathways. 5) The discussion of context-dependent interaction reorganization (linker-to-SAM switching) is insightful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / quantitative support
+  - **Claim pointer** The manuscript claims that HP1α and tPHC3 "direct distinct folding pathways" and that α-tetrahedron-like motifs are "metastable intermediates" whose prevalence and persistence depend on protein identity and phase context.
+  - **Evidence pointer** Figures 2–6, Supporting Figures S2–S6; location not provided
+  - **Concern** The central claims are supported primarily by qualitative descriptions of free energy surfaces and diffusion map projections. No quantitative measures of metastability (e.g., free energy barriers, residence times, or well depths) are provided. The terms "transient" and "metastable" are used without operational definitions or numerical thresholds. Without such quantification, the distinction between the two proteins' effects on folding pathways remains suggestive rather than demonstrated.
+  - **Why it matters** The core scientific message hinges on the claim that the two proteins direct *different* folding pathways with *different* intermediate states. If the differences are within statistical uncertainty or if the intermediates are not truly metastable, the conclusions would be substantially weakened. The reader cannot assess the robustness of these claims from the current evidence.
+  - **Resolution test** Provide quantitative free energy differences between key basins (with error bars from block averaging or bootstrapping), define metastability via a barrier height threshold (e.g., > 2 kT), and show that the identified intermediates persist for timescales significantly longer than the correlation time of the collective variables. Show that the qualitative differences between HP1α and tPHC3 systems are statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / simulation validation
+  - **Claim pointer** The manuscript states that the simulations are "well-equilibrated and have converged in the thermodynamically significant portions of the folding landscape."
+  - **Evidence pointer** Methods, Supporting Figure S10; location not provided
+  - **Concern** Convergence is asserted based on "broad fluctuations" and "no systematic drift" in Q and Rg. This is insufficient. No quantitative convergence metrics are provided, such as time-dependent free energy estimates, autocorrelation times of the collective variables, or comparison of independent runs. The WTM-REMD method can suffer from slow convergence if the bias deposition rate is not optimal or if replica exchange is inefficient. The number of replicas (16 for protein-free, 8 for protein-bound) and total simulation time (2 μs per replica) may or may not be sufficient, but this is not demonstrated.
+  - **Why it matters** If the simulations are not converged, the free energy surfaces and pathway analyses could be artifacts of insufficient sampling. This is a fundamental requirement for the validity of all subsequent conclusions.
+  - **Resolution test** Provide quantitative convergence diagnostics: e.g., time evolution of the free energy difference between the main basins, block-averaged uncertainties on Q and Rg distributions, and the number of round trips in replica space. Show that the qualitative features of the free energy surfaces are stable over the second half of the simulation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / biological relevance
+  - **Claim pointer** The manuscript claims that the dense-phase simulations reveal "how distinct multivalent architectures and interaction specificities shape nucleosome–nucleosome interactions" relevant to "heterochromatin and Polycomb-associated domains."
+  - **Evidence pointer** Figures 4–7, Methods; location not provided
+  - **Concern** The dense-phase simulations use 50 protein chains with a single tetra-nucleosome. This is a highly artificial setup. The protein:tetra-nucleosome ratio (50:1) is not justified. In a real condensate, the stoichiometry and spatial organization would be very different. The authors do not discuss how this ratio affects the observed behavior or whether the results are robust to changes in protein concentration. The relevance to actual heterochromatin or Polycomb domains, which contain many nucleosomes and a complex mixture of proteins, is not established.
+  - **Why it matters** The biological significance of the findings depends on whether the simulated dense-phase conditions are representative of real condensates. If the 50:1 ratio is arbitrary, the conclusions about "long-range chromatin compaction" may not transfer to physiological contexts.
+  - **Resolution test** Perform a concentration series (e.g., 10:1, 25:1, 50:1 protein:tetra-nucleosome) and show that the qualitative conclusions are robust. Alternatively, provide a rationale for the chosen stoichiometry based on experimental estimates of protein and nucleosome concentrations in condensates. Discuss how the single tetra-nucleosome limits the interpretation of "long-range" compaction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness / model validation
+  - **Claim pointer** The manuscript claims that the coarse-grained model captures "sequence-specific" interactions and that the results provide "mechanistic insight" into how HP1α and tPHC3 modulate chromatin folding.
+  - **Evidence pointer** Methods, Figure 1; location not provided
+  - **Concern** The coarse-grained model is a hybrid of HPS-Urry (a generic hydrophobic-polar model) and a structure-based Cα model. The "sequence-specific" claim is not substantiated. The model does not appear to include sequence-specific DNA–protein interactions beyond electrostatics. The tPHC3 construct is described as "truncated" but the exact residues included are not specified. The validation of the model against experimental data (e.g., known binding affinities, nucleosome positioning) is not presented.
+  - **Why it matters** The conclusions about "distinct molecular strategies" and "interaction reorganization" depend on the model's ability to capture the relevant physics. If the model is not validated or if the sequence specificity is not actually encoded, the mechanistic claims are weakened.
+  - **Resolution test** Provide a detailed description of the model parameters, including the exact sequences used for HP1α and tPHC3. Validate the model against experimental data (e.g., known DNA-binding preferences, oligomerization propensities). Show that the observed differences between HP1α and tPHC3 are not artifacts of the model's parameterization.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, "Model and simulation details"; location not provided
+  - **Issue** The Methods section lacks specific details on the force field parameters, including the exact functional forms and parameter values for the HPS-Urry model, the structure-based Cα model, and the 2-bead DNA model. The rigid body treatment is described but the specific atoms/groups included in each rigid body are not enumerated.
+  - **Required correction** Provide a complete parameter table or a reference to a repository where the parameters are available. Specify the exact residues included in the rigid body for each nucleosome core.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figures 2–6
+  - **Evidence pointer** Figures 2–6; location not provided
+  - **Issue** The free energy surfaces are shown without error bars or uncertainty estimates. It is unclear whether the differences between conditions (e.g., dilute vs. dense, HP1α vs. tPHC3) are statistically significant.
+  - **Required correction** Add error estimates to the free energy surfaces (e.g., from block averaging) or state that the differences are qualitative and not statistically quantified.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Biological interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion; location not provided
+  - **Issue** The discussion speculates about "transcriptional states" and "epigenetic inheritance" without direct evidence from the simulations. These connections are speculative and should be clearly labeled as such.
+  - **Required correction** Soften the language or add a paragraph explicitly stating which conclusions are directly supported by the simulations and which are speculative extensions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results section
+  - **Evidence pointer** Results, "Phase-dependent tetra-nucleosome folding"; location not provided
+  - **Issue** The Results section is dense and sometimes difficult to follow. The transition from global free energy surfaces to local tri-nucleosome motifs is abrupt. A summary figure or schematic of the proposed folding pathways would improve readability.
+  - **Required correction** Add a schematic figure summarizing the proposed folding pathways for HP1α vs. tPHC3 in dilute and dense phases. Use this figure to guide the reader through the Results section.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of quantitative metastability analysis), R1-M2 (insufficient convergence evidence), R1-M3 (unjustified dense-phase stoichiometry), R1-M4 (model validation and sequence specificity).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its specific comparison of two chromatin-binding proteins with distinct oligomeric architectures and its focus on folding pathways rather than just equilibrium structures. However, the general concept that multivalent proteins modulate chromatin folding is not new.
+  - **Scientific importance** The question is important for understanding how chromatin organization is regulated. The potential to link protein interaction geometry to chromatin topology is significant. However, the current evidence is largely computational and lacks experimental validation, which limits the immediate impact.
+  - **Interdisciplinary readership** The topic bridges biophysics, computational biology, and chromatin biology. The methods (coarse-grained simulations, enhanced sampling) will be of interest to a specialized audience. The broader cell biology community may find the conclusions relevant but may be deterred by the technical density.
+  - **Technical soundness** The methods are state-of-the-art, but the lack of quantitative validation and convergence analysis is a significant weakness. The model's ability to capture sequence-specific effects is not demonstrated.
+  - **Readability for nonspecialists** The manuscript is written for a specialist audience. The abstract is clear, but the Results section is dense and assumes familiarity with coarse-grained simulation techniques and chromatin structure. A schematic figure and a more accessible introduction to the methods would help.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core question is interesting and the methodological approach is sophisticated. However, the current manuscript does not fully establish the case from the provided evidence. The authors must provide quantitative support for the metastability claims, demonstrate convergence, justify the dense-phase setup, and validate the model before the conclusions can be considered robust.
+
+## Risk / unsupported claims
+- The claim that α-tetrahedron-like motifs are "metastable intermediates" is not quantitatively supported (no barrier heights or residence times).
+- The claim that tPHC3 "stabilizes" α-tetrahedron-like motifs is not supported by quantitative free energy differences.
+- The claim that the simulations are "converged" is not supported by quantitative diagnostics.
+- The claim that the model captures "sequence-specific" interactions is not substantiated.
+- The biological relevance of the dense-phase simulations (50:1 protein:tetra-nucleosome) is not justified.
+- The claim that HP1α and tPHC3 "direct distinct folding pathways" is suggestive but not rigorously demonstrated without statistical comparison of the free energy landscapes.

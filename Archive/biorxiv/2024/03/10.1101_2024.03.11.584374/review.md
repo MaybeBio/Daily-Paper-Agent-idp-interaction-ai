@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Materials and Methods, Author contributions, Competing interests, Acknowledgements, Footnotes) as provided in the submission. Supplementary figures and supplementary text are referenced but not provided.
+- **Assessment boundary** The review assesses the scientific claims, experimental design, data interpretation, and technical soundness based solely on the supplied manuscript text. The absence of figures, tables, and supplementary materials limits the depth of verification of the presented results.
+- **Shared manuscript claim summary** The manuscript claims that the Arabidopsis protein ENP possesses separable functional domains: its N-terminal and central core regions are sufficient for its own polar localization at the plasma membrane, while its C-terminal intrinsically disordered region (IDR) is essential for recruiting PIN1 to the plasma membrane and for ENP-dependent PIN activity. The authors further propose that phosphorylation of two serine residues (S514 and S553) in the IDR modulates ENP stability and function.
+- **Visible evidence base** The evidence base consists of the textual description of results, including qualitative descriptions of confocal microscopy, FLIM-FRET, FRAP, and genetic rescue experiments. Specific quantitative data, representative images, and statistical analyses are not available in the provided text.
+- **Missing materials affecting confidence** The absence of all figures, supplementary figures, and the supplementary text (including detailed Materials and Methods) significantly limits the ability to fully assess the validity of the presented data, the rigor of the statistical analyses, and the reproducibility of the experimental procedures.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in plant developmental biology, namely the molecular mechanism by which ENP contributes to PIN polarity and auxin transport. The proposed model, in which distinct domains of ENP mediate its own polarization versus its function in recruiting PIN1, is conceptually interesting and potentially important. However, the current version of the manuscript, as presented in the text-only format, has several major weaknesses. The most critical concerns are the lack of quantitative data and statistical analysis for the key imaging and rescue experiments, the absence of a direct demonstration of PIN1 recruitment by ENP, and the incomplete mechanistic link between phosphorylation and ENP function. The claims are often based on qualitative descriptions, and the distinction between "polarity" and "functionality" is not always clearly supported by the described data. The manuscript would be substantially strengthened by a more rigorous and quantitative presentation of the evidence.
+- **Who would be interested in the results, and why** Researchers in the fields of plant development, polar cell growth, auxin biology, and membrane protein trafficking would be the primary audience. The work is also relevant to those interested in the function of intrinsically disordered regions in signaling proteins and the evolution of plant-specific regulatory complexes. The potential identification of a PIN-interacting scaffold protein has broad implications for understanding how auxin transport maxima are established and maintained.
+- **Major strengths**
+    1.  The study addresses a clear and important gap in the understanding of PIN polarity, specifically the identity and mechanism of action of PID-independent factors.
+    2.  The conceptual separation of ENP's "polarity" and "functionality" domains provides a useful framework for dissecting its multifunctional role.
+    3.  The use of a genetic bio-assay in the enp pid double mutant background is a logical and powerful approach to assess the functional relevance of various ENP constructs.
+    4.  The identification of specific phosphorylation sites in the IDR that affect ENP function adds a layer of regulatory complexity that is likely to be of broad interest.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical Soundness
+    - **Claim pointer** The manuscript claims that the N-terminal and central core of ENP are sufficient for its polar localization, and that the C-terminus is dispensable for polarity.
+    - **Evidence pointer** Results section "ENPs central core region is required for polar localisation", Figure 3A-D.
+    - **Concern** The evidence for this central claim is presented as qualitative descriptions of GFP signal distribution. The text states that ENP-ΔNterm shows "predominantly cytosolic distribution" and that ENP-ΔNPH3_3 results in "irregular, distributed cytosolic signal". However, no quantitative data, such as the percentage of cells with a given polarity phenotype, the ratio of membrane to cytosolic fluorescence, or any statistical comparison between constructs, is provided. The "smile" analysis is mentioned but its results are not presented in the text. Without this quantitative rigor, it is difficult to assess the strength and reproducibility of the observed differences in polarity.
+    - **Why it matters** The central thesis of the paper rests on the differential localization of ENP deletion mutants. If the polarity differences are subtle or variable, the conclusion that the central core is the primary determinant of polarity is not robustly supported. A qualitative description is insufficient to establish this key point.
+    - **Resolution test** The authors must provide a quantitative analysis of the localization phenotypes for all constructs. This should include, at minimum, the proportion of cells or membranes showing apical, basal, or non-polar localization, and a statistical comparison (e.g., ANOVA or Kruskal-Wallis test) between the different genotypes and constructs. Representative images are necessary but not sufficient.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical Soundness
+    - **Claim pointer** The manuscript claims that the C-terminus of ENP is essential for its function in supporting PIN1, and that ENP interacts with PINs via this domain.
+    - **Evidence pointer** Results section "ENP interacts with PIN2 mainly with its C-terminus", Figure 4C, D.
+    - **Concern** The FLIM-FRET data are described by average lifetime values and a calculated FRET efficiency of 5.7% for the ENP-C-terminus with PIN2. However, the text does not provide the number of biological replicates, the number of cells or regions measured, the standard deviation or standard error of the mean, or the statistical significance of the difference between the N-terminal and C-terminal FRET efficiencies. The negative control (BRI) is mentioned, but the data are not shown. The conclusion that the C-terminus "significantly interacts" with PIN2 is not supported by any statistical evidence.
+    - **Why it matters** The interaction between ENP and PIN is a core mechanistic claim. A FRET efficiency of 5.7% is relatively low, and without statistical validation, it is impossible to determine if this represents a specific interaction or background noise. The claim that the C-terminus is the primary interaction interface is directly dependent on this analysis.
+    - **Resolution test** The authors must provide a full statistical analysis of the FLIM-FRET data, including the number of independent experiments, the number of cells analyzed, and the mean and standard deviation for each condition. A statistical test (e.g., Student's t-test or Mann-Whitney U test) must be used to compare the FRET efficiencies of the different constructs and the negative control. The data for the negative control must be shown.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical Soundness
+    - **Claim pointer** The manuscript claims that the phosphorylation status of S514 and S553 determines ENP's stability and its capability in supporting PIN1.
+    - **Evidence pointer** Results section "Phosphomimetics prove Ser 514 and Ser 553 in the C-terminal IDR to be critical for ENPs functional capability", Figure 2H, J.
+    - **Concern** The text describes the results of phosphomimetic (S to E) and phosphodead (S to A) mutations on the rescue of the enp pid phenotype. It states that S to A mutations lead to no rescue, while S to E mutations lead to at least partial rescue. However, the text does not provide the number of independent transgenic lines analyzed for each construct, the number of plants scored per line, or the criteria used to define "partial" vs. "full" rescue. The claim that the S to A mutants are "unstable" is not supported by any direct evidence of protein stability (e.g., western blot analysis).
+    - **Why it matters** The conclusion that phosphorylation at these specific sites is critical for ENP function is a major finding. However, the lack of quantitative data on the rescue efficiency and the absence of any direct measurement of protein stability make the claim premature. The "unstable" phenotype could be due to a variety of factors, including misfolding or mislocalization, not just increased degradation.
+    - **Resolution test** The authors must provide a quantitative assessment of the rescue phenotype for each construct, including the number of lines and plants scored, and a clear definition of the phenotypic classes. To support the claim of instability, they should perform and present western blot analysis to compare the steady-state protein levels of the wild-type and mutant ENP variants.
+    - **Concern ID** R1-M4
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific Importance
+    - **Claim pointer** The manuscript claims that ENP is an element in the assumed PIN-multiprotein complex.
+    - **Evidence pointer** Abstract, Discussion.
+    - **Concern** The evidence presented for ENP being part of a PIN-multiprotein complex is indirect, based on genetic interactions and FRET. While the FRET data suggest a close association, they do not demonstrate a stable complex. The claim is presented as a conclusion, but it is more of a hypothesis that is consistent with the data.
+    - **Why it matters** The existence of a PIN-multiprotein complex is a key concept in the field. Overstating the evidence for ENP's direct participation in such a complex could mislead future research directions.
+    - **Resolution test** The authors should temper this claim in the discussion, clearly stating that the data are consistent with a close association but that direct biochemical evidence (e.g., co-immunoprecipitation) is required to confirm the existence of a stable complex.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Readability for Nonspecialists
+    - **Affected element** Introduction
+    - **Evidence pointer** Introduction, first paragraph.
+    - **Issue** The introduction is dense and assumes significant prior knowledge of the field. The concept of "apical" vs. "basal" polarity in plant cells is not clearly defined for a general reader.
+    - **Required correction** Provide a brief, clear definition of these terms and a simple schematic or description of the plant cell types being discussed to make the work more accessible.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical Soundness
+    - **Affected element** Results section "ENP displays tissue dependent apical and ectopic basal polarity"
+    - **Evidence pointer** Results, first paragraph.
+    - **Issue** The text states that ENP expression "seemed not to be affected in cells with altered/interrupted auxin transport as given in enp pid double mutant embryos." This is a negative result that is not quantified or shown.
+    - **Required correction** If this is an important control, the data should be shown. If it is a minor observation, it should be moved to the supplementary materials or removed.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Technical Soundness
+    - **Affected element** Materials and Methods, "Measurement of polar GFP-signal distribution"
+    - **Evidence pointer** Materials and Methods.
+    - **Issue** The description of the "smile" analysis is incomplete. It is not clear what is being measured and how the "smile" is quantified.
+    - **Required correction** Provide a more detailed description of the image analysis algorithm, including how the apical membrane and total cell circumference are defined and measured.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Technical Soundness
+    - **Affected element** Results section "ENP interacts with PIN2 mainly with its C-terminus"
+    - **Evidence pointer** Results, Figure 4.
+    - **Issue** The text mentions a "borderline FRET" for the N-terminus of ENP with PIN2. The term "borderline" is vague and not a standard scientific descriptor.
+    - **Required correction** Provide the actual lifetime values and FRET efficiency for this interaction and state whether it is statistically different from the negative control.
+- **Technical failings that need to be addressed before the case is established**
+    - R1-M1: Lack of quantitative localization data and statistics for the central claim of domain-specific polarity.
+    - R1-M2: Lack of statistical analysis for the FLIM-FRET interaction data.
+    - R1-M3: Lack of quantitative rescue data and direct evidence for the proposed protein instability of phosphodead mutants.
+- **Assessment against Nature-style criteria**
+    - **Originality** The work is original in its attempt to functionally dissect the ENP protein into distinct domains responsible for its own polarity and its role in PIN function. This goes beyond previous genetic descriptions and offers a mechanistic framework.
+    - **Scientific importance** The topic is of high importance to the plant development community. Understanding the molecular basis of PIN polarity is a central question. The potential identification of a new component of the PIN polarity machinery is significant.
+    - **Interdisciplinary readership** The work is primarily of interest to plant biologists. The concepts of protein domain function and phosphorylation-dependent regulation are general, but the specific system and questions are specialized. The potential for broad interdisciplinary appeal is moderate.
+    - **Technical soundness** The technical soundness is currently not established from the provided text. The lack of quantitative data and statistical analysis for the key experiments is a major deficiency. The reliance on qualitative descriptions of imaging data is insufficient for a journal with the standards of Nature.
+    - **Readability for nonspecialists** The abstract is clear, but the introduction and results are written for a specialist audience. The manuscript would benefit from a more accessible introduction and clearer explanations of the experimental logic.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is interesting and the work has potential, but the key claims are not rigorously supported by the data as presented. The manuscript requires major revisions, including the addition of quantitative data, statistical analyses, and direct biochemical evidence, before the case for domain-separated functions of ENP can be considered established.
+
+## Risk / unsupported claims
+- The claim that the C-terminus of ENP "recruits PIN1 to the plasma membrane" is not directly supported by the data presented. The FRET data show a close association, but not recruitment.
+- The claim that the "modification status" of S514 and S553 determines ENP's "stability" is unsupported, as no direct protein stability data are presented.
+- The claim that ENP is an "element in the assumed PIN-multiprotein complex" is an interpretation that goes beyond the presented evidence.
+- The functional significance of the "smile" phenotype and its correlation with ENP function is not clearly established.
+- The statement that the "anterior part of ENP is subdivided into three structured domains" is based on AlphaFold predictions, which are not experimentally validated. The functional significance of these predicted domains is not directly tested.

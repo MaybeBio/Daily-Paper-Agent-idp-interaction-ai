@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, methodology, claims, and evidence as presented in the provided text; no supplementary materials, figures, or code were available for inspection
+- **Shared manuscript claim summary** The authors present SPPIDER-seq, a sequence-based, partner-aware deep learning framework for predicting protein-protein interaction (PPI) sites. The method combines ESM-2 embeddings with a cross-attention mechanism to condition residue-level predictions on the interaction partner. Two models are trained (receptor-centric and peptide-centric) on curated BioLiP-derived datasets. The authors report AUROC values up to 0.797 and MCC up to 0.269 on blind benchmarks, claim superiority over AlphaFold3 on peptide-mediated and disordered interfaces, and demonstrate application to TP53 interaction partners.
+- **Visible evidence base** Main text only, including Methods, Implementation, and Discussion sections; tables and figures referenced but not provided; supplementary materials referenced but not provided
+- **Missing materials affecting confidence** All figures, tables, supplementary materials (SD1-SD3), code repository, and Zenodo archive; these are essential for verifying dataset statistics, model architecture details, benchmark results, and the TP53 case study
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in PPI site prediction by introducing partner-awareness, a feature largely absent from existing sequence-based predictors. The conceptual motivation is sound, and the choice of ESM-2 embeddings with cross-attention is technically reasonable. However, the current text does not provide sufficient evidence to fully evaluate the claims. Key quantitative results are only summarized in text without access to the referenced tables and figures, and several methodological details are underspecified. The TP53 application is interesting but its interpretation is limited without the corresponding figure. The manuscript has potential, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-protein interaction prediction, intrinsically disordered proteins, and protein language model applications. Researchers studying hub proteins like p53 and their interaction networks may also find the partner-aware prediction approach useful for generating hypotheses about context-specific binding. The method's potential for variant impact modeling and drug target identification could appeal to a broader translational audience.
+- **Major strengths** 1) The partner-aware design is a genuine conceptual advance over isolation-based predictors, addressing a recognized limitation in the field. 2) The use of ESM-2 embeddings leverages state-of-the-art protein language models without requiring structural input. 3) The dual receptor-centric and peptide-centric model architecture appropriately reflects the structural asymmetry between globular receptors and short, often disordered, peptide ligands. 4) The TP53 case study demonstrates a practical application on a biologically important and clinically relevant protein. 5) The authors acknowledge limitations (PTM-dependence, probability calibration, stoichiometric diversity) candidly.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims AUROC up to 0.797 and MCC up to 0.269 on blind benchmarks, and superiority over AlphaFold3 on peptide-mediated and disordered interfaces.
+  - **Evidence pointer** Results section, Tables 3 and Figures 2A-D (not provided)
+  - **Concern** The central performance claims are presented as text summaries without the actual tables and figures. It is impossible to verify the reported metrics, assess statistical significance, or evaluate the comparison with AlphaFold3 without seeing the underlying data. The text mentions specific values (e.g., MCC=0.269 vs. 0.049 for scrambled partners) but provides no confidence intervals, error bars, or per-case breakdowns.
+  - **Why it matters** The core contribution of the paper is the claimed performance improvement. Without access to the actual benchmark results, the validity of the central claims cannot be assessed. The comparison with AlphaFold3 is particularly important given its status as a state-of-the-art structure prediction method.
+  - **Resolution test** Provide the referenced tables and figures with full metric distributions, including per-case results, error bars, and statistical tests for differences between SPPIDER-seq and AlphaFold3.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The manuscript describes a cross-attention architecture with 16 heads and 8.20 million parameters, and a chunk-wise training strategy for sequences longer than 1,022 residues.
+  - **Evidence pointer** Methods section, Table 2 (not provided)
+  - **Concern** The model architecture description is incomplete. Key details are missing: the exact structure of the cross-attention module (e.g., how queries, keys, and values are derived from ESM-2 embeddings), the MLP architecture (layer sizes, dropout rates), the training hyperparameters (learning rate, batch size, optimizer, regularization), and the handling of variable-length inputs. The chunk-wise strategy is mentioned but not fully specified, particularly how overlapping segments are aggregated and how predictions at segment boundaries are handled.
+  - **Why it matters** Reproducibility is a fundamental requirement for computational methods. Without complete architectural and training details, other researchers cannot implement or build upon SPPIDER-seq. The chunk-wise strategy is critical for practical application to full-length proteins.
+  - **Resolution test** Provide a complete specification of the model architecture, training procedure, and hyperparameters, either in the main text or supplementary materials.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset and benchmark validity
+  - **Claim pointer** The manuscript claims to have curated non-redundant protein-peptide interaction datasets from BioLiP and used them for training and benchmarking.
+  - **Evidence pointer** Methods section, Table 1 (not provided)
+  - **Concern** The dataset construction is described only at a high level. Critical details are missing: the exact number of complexes and unique proteins in each dataset, the clustering threshold and method for redundancy reduction, the criteria for defining interface residues (the RSA change threshold of 4% is mentioned but not justified), and the handling of proteins with multiple partners. The text states that 212 of 536 peptide-centric blind pairs contain disordered interfaces, but the definition of "disordered" in this context is not fully specified.
+  - **Why it matters** Dataset composition directly affects model performance and generalizability. Without knowing the dataset statistics and construction details, it is impossible to assess potential biases or compare with other benchmarks in the field.
+  - **Resolution test** Provide full dataset statistics, including the number of proteins, complexes, interface residues, and the distribution of disorder content. Justify the redundancy reduction threshold and the interface definition.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability of learned representations
+  - **Claim pointer** The manuscript claims that quantitative inspection of trained checkpoints reveals "consistent and biologically meaningful differences" between receptor- and peptide-centric models, and that the peptide-centric model develops "specialized attention heads" that "selectively amplify signals corresponding to longer contiguous motifs enriched in intrinsic disorder."
+  - **Evidence pointer** Implementation section, Table 2 (not provided)
+  - **Concern** The interpretation of attention head statistics (e.g., per-head L2 norms of projection matrices) as evidence of biological specialization is speculative. The text does not provide a rigorous analysis linking specific attention patterns to specific sequence motifs or structural features. The claim that higher projection norms in peptide-centric models correspond to "SLiM-mediated peptide interfaces" is not directly supported by any functional validation or ablation study.
+  - **Why it matters** The manuscript positions this as evidence of mechanistic interpretability. Over-interpreting weight statistics without functional validation could mislead readers about the model's internal representations.
+  - **Resolution test** Provide additional analyses, such as attention map visualization on specific examples, motif enrichment analysis of highly attended regions, or ablation studies removing specific attention heads, to support the claimed biological interpretation.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** TP53 case study validity
+  - **Claim pointer** The manuscript claims that application to 341 TP53 interaction partners reveals "coherent, partner-specific interface patterns" and that the recovered clusters "align closely with its known domain architecture."
+  - **Evidence pointer** Results section, Figure 3 (not provided)
+  - **Concern** The TP53 analysis is presented as a validation of the method's biological utility, but the text provides only qualitative descriptions of predicted hotspots. No quantitative comparison with known interaction sites, experimental data, or other predictors is provided. The claim that "PPI information from human p53 was effectively absent during both training and validation" is reassuring but does not by itself establish the accuracy of the predictions.
+  - **Why it matters** The TP53 case study is intended to demonstrate practical utility. Without quantitative validation against known interaction data or experimental evidence, the biological significance of the predicted patterns remains uncertain.
+  - **Resolution test** Provide quantitative comparisons of predicted hotspots with known p53 interaction sites from databases or literature, and ideally validate a subset of predictions experimentally or against orthogonal computational methods.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, Model Architecture
+  - **Evidence pointer** Methods section
+  - **Issue** The notation for the cross-attention mechanism is introduced but the relationship between the query and context sequences is not fully explained. Specifically, it is unclear whether the model is symmetric (both proteins attend to each other) or unidirectional (only the target protein attends to the partner).
+  - **Required correction** Clarify the directionality of the cross-attention and whether both proteins are processed simultaneously or sequentially.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmarking
+  - **Evidence pointer** Results section
+  - **Issue** The comparison with AlphaFold3 is described but the exact protocol is not specified. It is unclear whether AlphaFold3 was run with default settings, whether the same interface definition was used, and how the comparison was performed at the residue level.
+  - **Required correction** Provide a detailed description of the AlphaFold3 benchmarking protocol, including input formats, parameters, and the mapping of predicted structures to interface labels.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Results section
+  - **Issue** The reported metrics (AUROC, MCC) are presented as point estimates without confidence intervals or statistical significance testing. Given the relatively small number of blind test cases (359 and 536), the differences between models may not be statistically robust.
+  - **Required correction** Report confidence intervals for all metrics and perform appropriate statistical tests (e.g., bootstrap or permutation tests) for model comparisons.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Availability section
+  - **Issue** The manuscript states that code and data are available on GitHub and Zenodo, but no version or access details are provided beyond a URL and DOI. It is unclear whether the repository contains all necessary scripts, trained model weights, and processed datasets.
+  - **Required correction** Provide a detailed description of the repository contents, including file structure, dependencies, and instructions for reproducing the reported results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript cites several relevant reviews and methods but does not provide a systematic comparison with recent sequence-based PPI site predictors beyond AlphaFold3 and IUPred2A/ANCHOR2. The positioning of SPPIDER-seq relative to other deep learning methods (e.g., those using graph neural networks or other protein language models) is not fully articulated.
+  - **Required correction** Add a more comprehensive comparison with existing methods, including quantitative benchmarks where possible, to better contextualize the contribution.
+
+## Risk / unsupported claims
+- The claim of superiority over AlphaFold3 on peptide-mediated and disordered interfaces cannot be verified without the referenced tables and figures.
+- The claim that attention head statistics reveal "biologically meaningful differences" and "specialized attention heads" is not supported by functional validation.
+- The claim that TP53 predictions reveal "coherent, partner-specific interface patterns" is based on qualitative description without quantitative validation.
+- The claim that the chunk-wise training strategy "ensured that predictions remained consistent across sequence boundaries" is not supported by any analysis of boundary effects.
+- The claim that the models "cannot be attributed to memorization of structural templates or inadvertent data leakage" for TP53 is only partially supported, as the absence of p53 in training does not rule out indirect leakage through homologous proteins.
+- The performance comparison with IUPred2A/ANCHOR2 is presented without statistical context, and the interpretation of near-random MCC values may be sensitive to the choice of evaluation threshold.

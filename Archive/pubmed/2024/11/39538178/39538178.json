@@ -1,0 +1,331 @@
+{
+  "identity": {
+    "pmid": "39538178",
+    "doi": "10.1186/s10020-024-00896-7",
+    "title": "Myc 9aaTAD activation domain binds to mediator of transcription with superior high affinity."
+  },
+  "content": {
+    "abstract": "The overexpression of MYC genes is frequently found in many human cancers, including adult and pediatric malignant brain tumors. Targeting MYC genes continues to be challenging due to their undruggable nature. Using our prediction algorithm, the nine-amino-acid activation domain (9aaTAD) has been identified in all four Yamanaka factors, including c-Myc. The predicted activation function was experimentally demonstrated for all these short peptides in transactivation assay. We generated a set of c-Myc constructs (1-108, 69-108 and 98-108) in the N-terminal regions and tested their ability to initiate transcription in one hybrid assay. The presence and absence of 9aaTAD (region 100-108) in the constructs strongly correlated with their activation functions (5-, 3- and 67-times respectively). Surprisingly, we observed co-activation function of the myc region 69-103, called here acetyl-TAD, previously described by Faiola et al. (Mol Cell Biol 25:10220-10234, 2005) and characterized in this study as a new domain collaborating with the 9aaTAD. We discovered strong interactions on a nanomolar scale between the Myc-9aaTAD activation domains and the KIX domain of CBP coactivator. We showed conservation of the 9aaTADs in the MYC family. In summary for the c-Myc oncogene, the acetyl-TAD and the 9aaTAD domains jointly mediated activation function. The c-Myc protein is largely intrinsically disordered and therefore difficult to target with small-molecule inhibitors. For the c-Myc driven tumors, the strong c-Myc interaction with the KIX domain represents a promising druggable target.",
+    "keywords": [
+      "9aaTAD",
+      "CBP",
+      "KIX",
+      "Myc",
+      "MycN"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Proto-Oncogene Proteins c-myc/metabolism/genetics",
+      "*Protein Binding",
+      "Protein Domains",
+      "Transcriptional Activation",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Knight, Andrea",
+        "Houser, Josef",
+        "Otasevic, Tomas",
+        "Juran, Vilem",
+        "Vybihal, Vaclav",
+        "Smrcka, Martin",
+        "Piskacek, Martin"
+      ],
+      "short_names": [
+        "Knight A",
+        "Houser J",
+        "Otasevic T",
+        "Juran V",
+        "Vybihal V",
+        "Smrcka M",
+        "Piskacek M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7291-7975",
+        "ORCID: 0000-0002-6283-1542"
+      ],
+      "affiliations": [
+        "School of Life Science, Faculty of Science and Engineering, Anglia Ruskin University, East Road, Cambridge, CB1 1PT, UK. andrea.knight@aru.ac.uk.",
+        "Department of Pathological Physiology, Faculty of Medicine, Masaryk University Brno, Masaryk University, Kamenice 753/5, Brno, 625 00, Czech Republic. andrea.knight@aru.ac.uk.",
+        "Department of Neurosurgery, University Hospital Brno, and Faculty of Medicine, Masaryk University, Brno, Czech Republic. andrea.knight@aru.ac.uk.",
+        "Central European Institute of Technology (CEITEC), Masaryk University Brno, Brno, Czech Republic.",
+        "National Centre for Biomolecular Research (NCBR), Faculty of Science, Masaryk University Brno, Brno, Czech Republic.",
+        "Core Facility Biomolecular Interactions and Crystallization (CF BIC), Masaryk University Brno, Brno, Czech Republic.",
+        "Department of Pathological Physiology, Faculty of Medicine, Masaryk University Brno, Masaryk University, Kamenice 753/5, Brno, 625 00, Czech Republic.",
+        "Department of Neurosurgery, University Hospital Brno, and Faculty of Medicine, Masaryk University, Brno, Czech Republic.",
+        "Department of Neurosurgery, University Hospital Brno, and Faculty of Medicine, Masaryk University, Brno, Czech Republic.",
+        "Department of Neurosurgery, University Hospital Brno, and Faculty of Medicine, Masaryk University, Brno, Czech Republic.",
+        "Department of Pathological Physiology, Faculty of Medicine, Masaryk University Brno, Masaryk University, Kamenice 753/5, Brno, 625 00, Czech Republic. piskacek@med.muni.cz."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Knight, Andrea",
+        "short_name": "Knight A",
+        "identifiers": [
+          "0000-0001-7291-7975"
+        ],
+        "affiliations": [
+          "School of Life Science, Faculty of Science and Engineering, Anglia Ruskin University, East Road, Cambridge, CB1 1PT, UK. andrea.knight@aru.ac.uk.",
+          "Department of Pathological Physiology, Faculty of Medicine, Masaryk University Brno, Masaryk University, Kamenice 753/5, Brno, 625 00, Czech Republic. andrea.knight@aru.ac.uk.",
+          "Department of Neurosurgery, University Hospital Brno, and Faculty of Medicine, Masaryk University, Brno, Czech Republic. andrea.knight@aru.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Houser, Josef",
+        "short_name": "Houser J",
+        "identifiers": [],
+        "affiliations": [
+          "Central European Institute of Technology (CEITEC), Masaryk University Brno, Brno, Czech Republic.",
+          "National Centre for Biomolecular Research (NCBR), Faculty of Science, Masaryk University Brno, Brno, Czech Republic.",
+          "Core Facility Biomolecular Interactions and Crystallization (CF BIC), Masaryk University Brno, Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Otasevic, Tomas",
+        "short_name": "Otasevic T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathological Physiology, Faculty of Medicine, Masaryk University Brno, Masaryk University, Kamenice 753/5, Brno, 625 00, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Juran, Vilem",
+        "short_name": "Juran V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, University Hospital Brno, and Faculty of Medicine, Masaryk University, Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Vybihal, Vaclav",
+        "short_name": "Vybihal V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, University Hospital Brno, and Faculty of Medicine, Masaryk University, Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Smrcka, Martin",
+        "short_name": "Smrcka M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurosurgery, University Hospital Brno, and Faculty of Medicine, Masaryk University, Brno, Czech Republic."
+        ]
+      },
+      {
+        "full_name": "Piskacek, Martin",
+        "short_name": "Piskacek M",
+        "identifiers": [
+          "0000-0002-6283-1542"
+        ],
+        "affiliations": [
+          "Department of Pathological Physiology, Faculty of Medicine, Masaryk University Brno, Masaryk University, Kamenice 753/5, Brno, 625 00, Czech Republic. piskacek@med.muni.cz."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular medicine (Cambridge, Mass.)"
+    ],
+    "journal_abbrev": [
+      "Mol Med"
+    ],
+    "pub_date": "2024 Nov 13",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/14 17:35",
+    "fetched_at": "2026-09-22 02:11:43"
+  },
+  "links": {
+    "cites": [
+      "40289393",
+      "40027135"
+    ],
+    "refs": [
+      "35794848",
+      "35561946",
+      "35210568",
+      "34811519",
+      "34342803",
+      "34266888",
+      "34224597",
+      "33692331",
+      "33524794",
+      "33397405",
+      "32664335",
+      "31790487",
+      "31375868",
+      "30597997",
+      "30468856",
+      "29622725",
+      "29514782",
+      "29195074",
+      "28056036",
+      "27859590",
+      "27618436",
+      "27213815",
+      "26782714",
+      "26383138",
+      "25564305",
+      "25043018",
+      "23021216",
+      "23021215",
+      "22464321",
+      "22457068",
+      "21814200",
+      "21478273",
+      "20164920",
+      "17603017",
+      "17467953",
+      "17093053",
+      "16935524",
+      "16934487",
+      "16287840",
+      "15229481",
+      "12205094",
+      "11093259",
+      "9824157",
+      "3299053"
+    ],
+    "similar": [
+      "39538178",
+      "36825663",
+      "34224597",
+      "25564305",
+      "24705139",
+      "28056036",
+      "15663936",
+      "31515273",
+      "35561946",
+      "31375868",
+      "27618436",
+      "30468856",
+      "12205094",
+      "8755740",
+      "39370942",
+      "41755638",
+      "9797456",
+      "16287840",
+      "7623799",
+      "19220000",
+      "24859015",
+      "21497608",
+      "30232260",
+      "22474372",
+      "1620120",
+      "12437352",
+      "34019285",
+      "38424045",
+      "28786199",
+      "33904398",
+      "39855340",
+      "12167641",
+      "8423780",
+      "1990293",
+      "7862146",
+      "27002159",
+      "27926480",
+      "26559831",
+      "24067369",
+      "30139745",
+      "15796530",
+      "26195786",
+      "1748630",
+      "9696045",
+      "8076603",
+      "12660246",
+      "34491719",
+      "39820713",
+      "2233723",
+      "31944520",
+      "19357310",
+      "10391685",
+      "20008325",
+      "17242204",
+      "26522729",
+      "12133832",
+      "7729426",
+      "19821614",
+      "18851746",
+      "9632804",
+      "12776737",
+      "29695509",
+      "1730412",
+      "11017047",
+      "28620032",
+      "11844794",
+      "32098872",
+      "16964280",
+      "8621409",
+      "10380878",
+      "42520114",
+      "8290253",
+      "9032273",
+      "10744749",
+      "11094091",
+      "17467953",
+      "27835584",
+      "41381850",
+      "8378092",
+      "12196545",
+      "22815918",
+      "12177005",
+      "8146655",
+      "10319872",
+      "17189184",
+      "16893186",
+      "25071166",
+      "10378691",
+      "31501275",
+      "34342803",
+      "15003254",
+      "15507449",
+      "11713274",
+      "27080133",
+      "25452129",
+      "22438798",
+      "8600028",
+      "39315681",
+      "24006055",
+      "35058484"
+    ],
+    "review": [
+      "39538178",
+      "28620032"
+    ],
+    "pmc": [
+      "11558822"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://molmed.biomedcentral.com/articles/10.1186/s10020-024-00896-7",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39538178/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

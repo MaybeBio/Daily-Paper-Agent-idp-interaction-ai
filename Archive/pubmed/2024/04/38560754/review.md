@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and conclusions. Figures and tables are referenced but not directly provided.
+- **Assessment boundary** The scientific claims, methodology, and interpretation as presented in the manuscript text. No assessment of the underlying data files, trajectories, or raw experimental images is possible.
+- **Shared manuscript claim summary** The authors use extensive microsecond-scale MD simulations and cell culture experiments to show that the disordered C-terminal polybasic motif of LKB1 binds to anionic PA-containing membranes via electrostatic interactions, that the first three lysines are dispensable for binding, that binding induces nonmonotonous structural changes in the protein and agglomeration of PA lipids, and that a statistical fluctuation model can capture the thermodynamics of the protein–lipid interplay.
+- **Visible evidence base** Text descriptions of simulation systems (Table 2), sequence information (Table 1), simulation protocols, and results described in Figures 1–8 and Supplementary Figures S1–S7. Cell culture experiments described in Figure 3.
+- **Missing materials affecting confidence** The actual figures, tables, and supplementary information are not provided. This limits the ability to verify quantitative claims, statistical analyses, and the quality of the simulation convergence. The cell culture experimental details are minimal.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question: how disordered polybasic regions mediate protein–membrane interactions. The combination of extensive MD simulations with cell culture validation is a strength, and the authors present a plausible mechanistic picture involving dynamic PA clustering and nonmonotonous protein structural changes. However, the manuscript has several significant issues that need to be addressed. The claim that the first three lysines are dispensable is based on a single mutant and limited simulation sampling. The fluctuation model, while elegant, is presented with insufficient derivation and validation. The cell culture experiments are described too briefly to assess their rigor. The presentation is generally clear but some mechanistic claims outpace the evidence. Overall, the work is potentially interesting to the biophysics and cell biology communities, but the current version does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers studying protein–membrane interactions, particularly those involving intrinsically disordered regions and anionic lipids. The work is also relevant to those interested in the LKB1 signaling pathway, cell polarity, and the general biophysics of "fuzzy" protein–membrane associations. The methodological approach, combining MD with a statistical model, may interest computational biophysicists.
+- **Major strengths** The study addresses a challenging and understudied problem: the dynamic nature of disordered protein–membrane interactions. The use of multiple microsecond-scale simulations with multiple samples is a serious attempt to address sampling issues. The combination of MD with cell culture experiments provides complementary perspectives. The fluctuation model offers a potentially useful framework for extracting thermodynamic information from lipid binding fluctuations. The systematic analysis of individual amino acid contributions is valuable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that "the first three lysines turn out to be dispensable" for membrane binding.
+  - **Evidence pointer** Figure 2D, Figure 3C, Table 2
+  - **Concern** The conclusion that the first three lysines are dispensable is based on a single mutant (3KMT) and a limited number of simulations. The text states that 3KMT-10%PA shows stable binding, but the degree of binding compared to WT is not quantified. The cell culture experiment (Figure 3C) shows cortical localization, but this is qualitative. The claim of "dispensable" is too strong; the data may support "not essential for initial binding" but not a full characterization of the role of these residues.
+  - **Why it matters** This is a central claim of the paper. If the first three lysines are truly dispensable, it changes the understanding of the polybasic motif's function. Overstating this claim could mislead the field.
+  - **Resolution test** Provide quantitative comparison of binding affinity (e.g., number of contacts, residence times) between WT and 3KMT. Show that the 3KMT mutant binds with similar kinetics and steady-state occupancy. If possible, perform additional simulations with different initial conditions to ensure convergence. In cell culture, provide quantitative image analysis of membrane localization.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The fluctuation model is used to extract binding free energy (E1 = 2.33) and repulsion energy (E2 = 0.12) from the WT-5%PA system and then predict the behavior of other systems.
+  - **Evidence pointer** Table 3, Results section "Agglomeration of PAs"
+  - **Concern** The fluctuation model is presented with minimal derivation. The assumptions, particularly the mean-field quadratic repulsion term and the choice of nmax, are not justified. The model is fit to one system and then used to predict others, but the text does not report the uncertainty in the fitted parameters or the sensitivity of the predictions to these values. The agreement between model predictions and simulation data is stated as "very good" but no quantitative measure of agreement (e.g., chi-squared, R²) is provided.
+  - **Why it matters** The model is a key novel contribution. If the model is not rigorously derived and validated, its conclusions about binding energetics are not reliable.
+  - **Resolution test** Provide a full derivation of the model, including the rationale for the repulsion term. Report the fitting procedure, including error estimates for E1 and E2. Provide a quantitative comparison between model predictions and simulation data for all systems, including a statistical measure of fit quality. Discuss the limitations of the model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The cell culture experiments are used to validate the simulation predictions.
+  - **Evidence pointer** Figure 3, Materials and Methods "Cell Culture and Transfection"
+  - **Concern** The cell culture methods are described in only a few sentences. Details on cell line maintenance, transfection efficiency, fixation, imaging parameters, and the number of independent experiments are missing. The quantification of "cortical localization" is not described. Without these details, the reproducibility of the experiments is questionable.
+  - **Why it matters** The cell culture data are used to support the biological relevance of the simulations. If the experiments are not rigorously described, the validation is weakened.
+  - **Resolution test** Provide a full description of the cell culture methods, including all reagents, concentrations, timing, and imaging settings. Describe the quantification method for localization (e.g., line scans, colocalization coefficients). State the number of independent experiments and cells analyzed. Provide representative images with scale bars.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation
+  - **Claim pointer** The claim that the protein induces "agglomeration of PAs" and that this is a "dynamic clustering" process.
+  - **Evidence pointer** Figure 7, Figure 8A
+  - **Concern** The RDF analysis shows an increase in PA–PA correlation in the presence of the protein, but the interpretation of this as "agglomeration" or "clustering" may be too strong. The RDF is a static, averaged quantity. The text mentions "dynamic clustering" but no time-resolved analysis of cluster formation and dissolution is presented. The relationship between the observed RDF changes and the functional relevance of clustering is not established.
+  - **Why it matters** The dynamic clustering of anionic lipids is a potentially important biological mechanism. If the evidence only supports a static correlation, the claim of "dynamic" clustering is not supported.
+  - **Resolution test** Provide time-resolved analysis of PA cluster sizes and lifetimes. Show that the clustering is reversible and dynamic. Discuss the functional implications of the observed clustering, or temper the claims to match the evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "the first three lysines turn out to be dispensable" without mentioning the context of this finding (i.e., in simulations and cell culture). This could be misinterpreted as a general statement.
+  - **Required correction** Rephrase to specify the context, e.g., "in our simulations and cell culture experiments, mutation of the first three lysines did not prevent membrane binding."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods
+  - **Evidence pointer** Materials and Methods "Simulation Protocol"
+  - **Issue** The equilibration protocol is described as "initially NVT (2 ns) and then NPT (28 ns)" with restraints starting at 4000 kJ/mol–1·nm–2 and decreasing to 50 kJ/mol–1·nm–2. The number of steps in the decrease is not specified.
+  - **Required correction** Specify the number of steps and the decrement for the restraint force constant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, paragraph on "Binding strength"
+  - **Issue** The comparison of the extracted binding free energy (2.3 kBT) with values from the literature (1.6–8.5 kBT for PIP2) is useful, but the authors do not discuss the differences in system and methodology that could affect this comparison.
+  - **Required correction** Add a sentence acknowledging the different lipid types and methods used in the cited studies.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results
+  - **Evidence pointer** Results section "Protein's Structural Changes"
+  - **Issue** The description of the RDF analysis in the "Agglomeration of PAs" section is clear, but the connection to the structural changes of the protein (previous section) could be made more explicit.
+  - **Required correction** Add a sentence linking the protein flattening to the PA clustering, e.g., "This protein flattening may facilitate the observed PA clustering."
+- **Technical failings that need to be addressed before the case is established** R1-M1 (dispensability of first three lysines), R1-M2 (fluctuation model validation), R1-M3 (cell culture reproducibility).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its focus on the dynamic interplay between a disordered polybasic region and anionic lipids, and in the development of a fluctuation model to extract thermodynamic information. However, the general concept of electrostatic-driven membrane binding of polybasic regions is established.
+  - **Scientific importance** The findings are important for understanding LKB1 membrane recruitment and, more broadly, the mechanisms of fuzzy protein–membrane interactions. The potential transferability to other proteins is highlighted.
+  - **Interdisciplinary readership** The work bridges computational biophysics, lipid biology, and cell signaling. It should appeal to researchers in these fields.
+  - **Technical soundness** The MD simulations are extensive and use a modern force field. However, the fluctuation model and the cell culture experiments lack sufficient detail and validation. The analysis of the dispensability of the first three lysines is not fully quantitative.
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible. The concepts are explained clearly, although the fluctuation model section may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is interesting and the simulations are extensive, but the key claims about the dispensability of the first three lysines and the validity of the fluctuation model need to be strengthened. The cell culture methods need to be fully described.
+
+## Risk / unsupported claims
+- The claim that the first three lysines are "dispensable" is not fully supported by the presented evidence, as it is based on a single mutant and qualitative analysis.
+- The fluctuation model's predictions are stated to be in "very good agreement" with simulations, but no quantitative measure of agreement is provided.
+- The claim of "dynamic clustering" of PA lipids is not supported by time-resolved analysis.
+- The statement that the results "can likely be transferred to other proteins" is speculative and not directly tested.
+- The claim that the protein's structural changes are "nonmonotonous" is based on time-averaged quantities and may not capture the full dynamics.

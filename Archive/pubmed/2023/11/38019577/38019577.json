@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "38019577",
+    "doi": "10.1021/acs.biomac.3c00637",
+    "title": "Spidroins under the Influence of Alcohol: Effect of Ethanol on Secondary Structure and Molecular Level Solvation of Silk-Like Proteins."
+  },
+  "content": {
+    "abstract": "Future sustainable materials based on designer biomolecules require control of the solution assembly, but also interfacial interactions. Alcohol treatments of protein materials are an accessible means to this, making understanding of the process at the molecular level of seminal importance. We focus here on the influence of ethanol on spidroins, the main proteins of silk. By large-scale atomistically detailed molecular dynamics (MD) simulations and interconnected experiments, we characterize the protein aggregation, secondary structure changes, molecular level origins of them, and solvation environment changes for the proteins, as induced by ethanol as a solvation additive. The MD and circular dichoroism (CD) findings jointly show that ethanol promotes ordered structure in the protein molecules, leading to an increase of helix content and turns but also increased aggregation, as revealed by dynamic light scattering (DLS) and light microscopy. The structural changes correlate at the molecular level with increased intramolecular hydrogen bonding. The simulations reveal that polar amino acids, such as glutamine and serine, are most influenced by ethanol, whereas glycine residues are most prone to be involved in the ethanol-induced secondary structure changes. Furthermore, ethanol engages in interactions with the hydrophobic alanine-rich regions of the spidroin, significantly decreasing the hydrophobic interactions of the protein with itself and its surroundings. The protein solutes also change the microstructure of water/ethanol mixtures, essentially decreasing the level of larger local clustering. Overall, the work presents a systematic characterization of ethanol effects on a widely used, common protein type, spidroins, and generalizes the findings to other intrinsically disordered proteins by pinpointing the general features of the response. The results can aid in designing effective alcohol treatments for proteins, but also enable design and tuning of protein material properties by a relatively controllable solvation handle, the addition of ethanol.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Fibroins/chemistry",
+      "Silk/chemistry",
+      "Ethanol",
+      "Molecular Dynamics Simulation",
+      "Amino Acids/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tolmachev, Dmitry A",
+        "Malkamaki, Maaria",
+        "Linder, Markus B",
+        "Sammalkorpi, Maria"
+      ],
+      "short_names": [
+        "Tolmachev DA",
+        "Malkamaki M",
+        "Linder MB",
+        "Sammalkorpi M"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9699-100X",
+        "ORCID: 0000-0001-7165-304X",
+        "ORCID: 0000-0002-7271-6441",
+        "ORCID: 0000-0002-9248-430X"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Materials Science, Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland.",
+        "Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland.",
+        "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland.",
+        "Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland.",
+        "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland.",
+        "Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland.",
+        "Department of Chemistry and Materials Science, Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland.",
+        "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland.",
+        "Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tolmachev, Dmitry A",
+        "short_name": "Tolmachev DA",
+        "identifiers": [
+          "0000-0002-9699-100X"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Materials Science, Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland.",
+          "Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland."
+        ]
+      },
+      {
+        "full_name": "Malkamäki, Maaria",
+        "short_name": "Malkamäki M",
+        "identifiers": [
+          "0000-0001-7165-304X"
+        ],
+        "affiliations": [
+          "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland.",
+          "Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland."
+        ]
+      },
+      {
+        "full_name": "Linder, Markus B",
+        "short_name": "Linder MB",
+        "identifiers": [
+          "0000-0002-7271-6441"
+        ],
+        "affiliations": [
+          "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland.",
+          "Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland."
+        ]
+      },
+      {
+        "full_name": "Sammalkorpi, Maria",
+        "short_name": "Sammalkorpi M",
+        "identifiers": [
+          "0000-0002-9248-430X"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Materials Science, Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland.",
+          "Department of Bioproducts and Biosystems, Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland.",
+          "Academy of Finland Center of Excellence in Life-Inspired Hybrid Materials (LIBER), Aalto University, P.O. Box 16100, FI-00076 Aalto, Finland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2023 Dec 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/29 12:42",
+    "fetched_at": "2026-09-21 03:08:51"
+  },
+  "links": {
+    "cites": [
+      "41140607",
+      "39438248",
+      "39435633",
+      "39303223"
+    ],
+    "refs": [
+      "36135863",
+      "35902573",
+      "35838152",
+      "35796676",
+      "35493649",
+      "35492577",
+      "35121476",
+      "34927397",
+      "33746079",
+      "33406825",
+      "33356282",
+      "32937156",
+      "32900086",
+      "32860277",
+      "32654494",
+      "32040910",
+      "31924052",
+      "31683683",
+      "31548982",
+      "30865832",
+      "30375164",
+      "30320270",
+      "30271967",
+      "30258700",
+      "30238637",
+      "30236283",
+      "30082397",
+      "30047198",
+      "29893907",
+      "29425447",
+      "28649828",
+      "28470062",
+      "28010091",
+      "27347568",
+      "27312591",
+      "27243806",
+      "26862882",
+      "26835719",
+      "26743948",
+      "26619985",
+      "26478294",
+      "26211688",
+      "26038575",
+      "25400522",
+      "25352545",
+      "24702962",
+      "24168520",
+      "23832198",
+      "23685883",
+      "23477637",
+      "22824207",
+      "22443795",
+      "22388863",
+      "22243049",
+      "21882171",
+      "21695778",
+      "21609950",
+      "21574576",
+      "21558082",
+      "20875446",
+      "20598877",
+      "20574571",
+      "19468322",
+      "19332020",
+      "19221522",
+      "17658884",
+      "17429812",
+      "16784225",
+      "16545448",
+      "16392929",
+      "16004444",
+      "15491167",
+      "15132658",
+      "14607365",
+      "12149440",
+      "11737214",
+      "10777765",
+      "10562512",
+      "10384688",
+      "9895674",
+      "8922606",
+      "8918451",
+      "8539605",
+      "6667333",
+      "2194218"
+    ],
+    "similar": [
+      "38019577",
+      "22340682",
+      "26211688",
+      "33157141",
+      "27517909",
+      "37803828",
+      "23912807",
+      "30235223",
+      "26669270",
+      "36328175",
+      "20463740",
+      "32798722",
+      "29454054",
+      "35398358",
+      "16283749",
+      "28196414",
+      "34531321",
+      "20697759",
+      "35312302",
+      "30677520",
+      "28057598",
+      "10903873",
+      "15612562",
+      "31163680",
+      "18828841",
+      "15132658",
+      "31558722",
+      "23418525",
+      "20696068",
+      "33275979",
+      "32962298",
+      "29669211",
+      "26033527",
+      "25423761",
+      "24422432",
+      "32009279",
+      "27736062",
+      "33075850",
+      "35220089",
+      "36913547",
+      "30975702",
+      "28233980",
+      "21284181",
+      "33470789",
+      "31683683",
+      "17012325",
+      "25536875",
+      "26364925",
+      "33561241",
+      "35056868",
+      "15612546",
+      "18515724",
+      "30348773",
+      "31843611",
+      "22706024",
+      "25764227",
+      "37712205",
+      "26478294",
+      "17728281",
+      "25885958",
+      "27131567",
+      "28934550",
+      "33434983",
+      "25977795",
+      "34251190",
+      "37207525",
+      "17490908",
+      "20959449",
+      "27649139",
+      "31541123",
+      "36126911",
+      "38093650",
+      "36342510",
+      "16102807",
+      "25888206",
+      "30756524",
+      "24044634",
+      "31443129",
+      "23499097",
+      "24519787",
+      "27445329",
+      "37084706",
+      "16002994",
+      "34981640",
+      "36791420",
+      "24510122",
+      "31282471",
+      "20232827",
+      "28832627",
+      "28441910"
+    ],
+    "review": [
+      "38019577",
+      "25885958",
+      "36126911"
+    ],
+    "pmc": [
+      "10716855"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.biomac.3c00637",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38019577/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38019577",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.3c00637",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

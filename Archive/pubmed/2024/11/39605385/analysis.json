@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39605385",
+  "title": "Driving Forces of RNA Condensation Revealed through Coarse-Grained Modeling with Explicit Mg(2).",
+  "authors": "Li, Shanlong; Chen, Jianhan",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-11-28",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了含显式Mg2+的粗粒化RNA模型iConRNA，模拟RNA无蛋白相分离并揭示RNA折叠、离子与碱基堆叠等驱动力，虽对象为RNA而非蛋白IDR，但其相分离机制建模思路对无序蛋白介导的PPI相分离研究有可迁移启发。",
+  "abstract": "RNAs are major drivers of phase separation in the formation of biomolecular condensates, and can undergo protein-free phase separation in the presence of divalent ions or crowding agents. Much remains to be understood regarding how the complex interplay of base stacking, base pairing, electrostatics, ion interactions, and particularly structural propensities governs RNA phase behavior. Here we develop an intermediate resolution model for condensates of RNAs (iConRNA) that can capture key local and long-range structure features of dynamic RNAs and simulate their spontaneous phase transitions with Mg(2+). Representing each nucleotide using 6-7 beads, iConRNA accurately captures base stacking and pairing and includes explicit Mg(2+). The model does not only reproduce major conformational properties of poly(rA) and poly(rU), but also correctly folds small structured RNAs and predicts their melting temperatures. With an effective model of explicit Mg(2+), iConRNA successfully recapitulates experimentally observed lower critical solution temperature phase separation of poly(rA) and triplet repeats, and critically, the nontrivial dependence of phase transitions on RNA sequence, length, concentration, and Mg(2+) level. Further mechanistic analysis reveals a key role of RNA folding in modulating phase separation as well as its temperature and ion dependence, besides other driving forces such as Mg(2+)-phosphate interactions, base stacking, and base pairing. These studies also support iConRNA as a powerful tool for direct simulation of RNA-driven phase transitions, enabling molecular studies of how RNA conformational dynamics and its response to complex condensate environment control the phase behavior and condensate material properties. SIGNIFICANCE STATEMENT: Dynamic RNAs and proteins are major drivers of biomolecular phase separation that has been recently discovered to underlie numerous biological processes and be involved in many human diseases. Molecular simulation has an indispensable role to play in dissecting the driving forces and regulation of biomolecular phase separation. The current work describes a high-resolution coarse-grained RNA model that is capable of describing the structure dynamics and complex sequence, concentration, temperature and ion dependent phase transitions of flexible RNAs. The study further reveals a central role of RNA folding in coordinating Mg(2+)-phosphate interactions, base stacking, and base pairing to drive phase separation, paving the road for studies of RNA-mediated phase separation in relevant biological contexts.",
+  "abstract_zh": "RNA是生物分子凝聚体形成过程中相分离的主要驱动因子，并且可以在二价离子或拥挤剂存在的情况下进行无蛋白质的相分离。关于碱基堆叠、碱基配对、静电作用、离子相互作用，特别是结构倾向性如何复杂地共同调控RNA相行为，仍有许多待解之谜。在此，我们开发了一种用于RNA凝聚体的中等分辨率模型（iConRNA），该模型能够捕捉动态RNA的关键局部和长程结构特征，并模拟其在Mg(2+)存在下的自发相变。每个核苷酸用6-7个珠子表示，iConRNA准确捕捉碱基堆叠和配对，并包含显式Mg(2+)。该模型不仅再现了poly(rA)和poly(rU)的主要构象特性，还能正确折叠小型结构化RNA并预测其熔解温度。通过显式Mg(2+)的有效模型，iConRNA成功重现了实验观察到的poly(rA)和三核苷酸重复序列的下临界溶液温度相分离，以及关键地，相变对RNA序列、长度、浓度和Mg(2+)水平的非平凡依赖性。进一步的机制分析揭示了RNA折叠在调节相分离及其温度和离子依赖性中的关键作用，此外还有其他驱动力如Mg(2+)-磷酸盐相互作用、碱基堆叠和碱基配对。这些研究也支持iConRNA作为直接模拟RNA驱动相变的强大工具，使得分子水平研究RNA构象动力学及其对复杂凝聚体环境的响应如何控制相行为和凝聚体材料性质成为可能。  \n**意义声明：** 动态RNA和蛋白质是生物分子相分离的主要驱动因子，这种相分离最近被发现是许多生物过程的基础，并涉及多种人类疾病。分子模拟在解析生物分子相分离的驱动力和调控中发挥着不可或缺的作用。当前工作描述了一种高分辨率粗粒化RNA模型，能够描述柔性RNA的结构动力学以及复杂的序列、浓度、温度和离子依赖性相变。该研究进一步揭示了RNA折叠在协调Mg(2+)-磷酸盐相互作用、碱基堆叠和碱基配对以驱动相分离中的核心作用，为在相关生物学背景下研究RNA介导的相分离铺平了道路。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39605385/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39605385/",
+  "paper_page_path": "papers/pubmed/39605385/index.html"
+}

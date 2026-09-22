@@ -1,0 +1,476 @@
+{
+  "identity": {
+    "pmid": "41433062",
+    "doi": "10.1073/pnas.2523198122",
+    "title": "Arg-Tyr cation-pi interactions drive phase separation and beta-sheet assembly in native spider dragline silk."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is a fundamental principle of protein organization in intrinsically disordered proteins (IDPs) and biomaterials, yet the residue-level interactions that link condensation to structural ordering remain poorly defined. In spider dragline silk, LLPS is believed to initiate the transition from soluble spidroin dope into beta-sheet-rich fibers that provide exceptional toughness, yet how sequence-specific motifs govern this process has been unclear. Here, we combine isotope-edited solution NMR, dynamic nuclear polarization (DNP)-enhanced solid-state NMR, molecular dynamics simulations, and AlphaFold3 modeling to define the molecular role of arginine and tyrosine in Latrodectus hesperus dragline silk. Phosphate triggers LLPS while preserving intrinsic disorder, with arginine exhibiting the largest chemical shift perturbations. Simulations reveal that phosphate displaces hydration water to promote Arg-Tyr cation-pi interactions and weaken Arg-poly(Ala) contacts. Solid-state NMR directly detects Arg-Tyr contacts in spun fibers, demonstrating that arginine is partially incorporated into beta-sheet interfaces while tyrosine frequently adopts beta-turn conformations. AlphaFold3 models corroborate these interfacial geometries and reproduce experimental chemical shifts, supporting persistent Arg-Tyr interactions at structured-unstructured boundaries. Together, these results identify Arg-Tyr contacts as critical \"sticker\" interactions that mediate condensation, nucleate local order, and stabilize fiber architecture. More broadly, this work establishes a mechanistic link between residue-specific chemistry, LLPS, and hierarchical assembly in a structural protein. These insights highlight how weak multivalent interactions bridge disordered and ordered states, providing a general framework for condensate-driven assembly in biology and guiding biomimetic material design.",
+    "keywords": [
+      "cation-pi interactions",
+      "liquid-liquid phase separation (LLPS)",
+      "solid-state NMR",
+      "spider silk proteins",
+      "beta-sheet assembly"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Spiders/metabolism/chemistry",
+      "*Arginine/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Silk/chemistry/metabolism",
+      "*Tyrosine/chemistry/metabolism",
+      "Protein Conformation, beta-Strand",
+      "Cations/chemistry",
+      "*Fibroins/chemistry",
+      "Magnetic Resonance Spectroscopy",
+      "Intrinsically Disordered Proteins/chemistry",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Johnson, Hannah R",
+        "Chalek, Kevin",
+        "Elathram, Nesreen",
+        "Chau, Andy T",
+        "Domingo, Anikin Rae",
+        "Aldana, Julian E",
+        "Nguyen, Hieu",
+        "de Loera, Alexia",
+        "Duarte, Brianna A",
+        "Shapakidze, Lado",
+        "Onofrei, David",
+        "Debelouchina, Galia T",
+        "Lorenz, Christian D",
+        "Holland, Gregory P"
+      ],
+      "short_names": [
+        "Johnson HR",
+        "Chalek K",
+        "Elathram N",
+        "Chau AT",
+        "Domingo AR",
+        "Aldana JE",
+        "Nguyen H",
+        "de Loera A",
+        "Duarte BA",
+        "Shapakidze L",
+        "Onofrei D",
+        "Debelouchina GT",
+        "Lorenz CD",
+        "Holland GP"
+      ],
+      "auids": [
+        "ORCID: 0009-0009-0729-0788",
+        "ORCID: 0000-0002-6189-7769",
+        "ORCID: 0000-0001-7570-0616",
+        "ORCID: 0009-0007-4802-9434",
+        "ORCID: 0000-0002-6386-0716",
+        "ORCID: 0000-0001-6775-9415",
+        "ORCID: 0000-0003-1028-4804",
+        "ORCID: 0000-0003-3062-3391"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030.",
+        "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030.",
+        "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, CA 92093.",
+        "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030.",
+        "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030.",
+        "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030.",
+        "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030.",
+        "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030.",
+        "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030.",
+        "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030.",
+        "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030.",
+        "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, CA 92093.",
+        "Department of Engineering, King's College London, London WC2R 2LS, United Kingdom.",
+        "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Johnson, Hannah R",
+        "short_name": "Johnson HR",
+        "identifiers": [
+          "0009-0009-0729-0788"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030."
+        ]
+      },
+      {
+        "full_name": "Chalek, Kevin",
+        "short_name": "Chalek K",
+        "identifiers": [
+          "0000-0002-6189-7769"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030."
+        ]
+      },
+      {
+        "full_name": "Elathram, Nesreen",
+        "short_name": "Elathram N",
+        "identifiers": [
+          "0000-0001-7570-0616"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, CA 92093."
+        ]
+      },
+      {
+        "full_name": "Chau, Andy T",
+        "short_name": "Chau AT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030."
+        ]
+      },
+      {
+        "full_name": "Domingo, Anikin Rae",
+        "short_name": "Domingo AR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030."
+        ]
+      },
+      {
+        "full_name": "Aldana, Julian E",
+        "short_name": "Aldana JE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030."
+        ]
+      },
+      {
+        "full_name": "Nguyen, Hieu",
+        "short_name": "Nguyen H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030."
+        ]
+      },
+      {
+        "full_name": "de Loera, Alexia",
+        "short_name": "de Loera A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030."
+        ]
+      },
+      {
+        "full_name": "Duarte, Brianna A",
+        "short_name": "Duarte BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030."
+        ]
+      },
+      {
+        "full_name": "Shapakidze, Lado",
+        "short_name": "Shapakidze L",
+        "identifiers": [
+          "0009-0007-4802-9434"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030."
+        ]
+      },
+      {
+        "full_name": "Onofrei, David",
+        "short_name": "Onofrei D",
+        "identifiers": [
+          "0000-0002-6386-0716"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030."
+        ]
+      },
+      {
+        "full_name": "Debelouchina, Galia T",
+        "short_name": "Debelouchina GT",
+        "identifiers": [
+          "0000-0001-6775-9415"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, CA 92093."
+        ]
+      },
+      {
+        "full_name": "Lorenz, Christian D",
+        "short_name": "Lorenz CD",
+        "identifiers": [
+          "0000-0003-1028-4804"
+        ],
+        "affiliations": [
+          "Department of Engineering, King's College London, London WC2R 2LS, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Holland, Gregory P",
+        "short_name": "Holland GP",
+        "identifiers": [
+          "0000-0003-3062-3391"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, San Diego State University, San Diego, CA 92182-1030."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Dec 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/23 12:48",
+    "fetched_at": "2026-09-17 23:16:21"
+  },
+  "links": {
+    "cites": [
+      "42231907",
+      "42115198"
+    ],
+    "refs": [
+      "39533043",
+      "38718835",
+      "38315982",
+      "37937854",
+      "37234047",
+      "37084706",
+      "36791420",
+      "36182948",
+      "35637307",
+      "35561014",
+      "34694769",
+      "34251190",
+      "33957146",
+      "33465923",
+      "33148640",
+      "32824618",
+      "32393642",
+      "32029630",
+      "32004090",
+      "31784535",
+      "31670097",
+      "31355386",
+      "31270472",
+      "30975751",
+      "30938741",
+      "30348773",
+      "30045872",
+      "29961577",
+      "29913160",
+      "29677515",
+      "29602697",
+      "29424691",
+      "28942918",
+      "28894006",
+      "28782039",
+      "28507126",
+      "28225081",
+      "27918448",
+      "26727894",
+      "26455390",
+      "26362683",
+      "26123261",
+      "25885958",
+      "25747659",
+      "25689835",
+      "24838372",
+      "24024617",
+      "23625364",
+      "21448735",
+      "21071423",
+      "20733981",
+      "20593757",
+      "20449524",
+      "20045467",
+      "19894709",
+      "18593157",
+      "18461576",
+      "18266416",
+      "17565367",
+      "17397124",
+      "15546497",
+      "15491167",
+      "15132669",
+      "14517905",
+      "12175218",
+      "12149440",
+      "11910028",
+      "11763505",
+      "11480706",
+      "11279484",
+      "10828366",
+      "10449714",
+      "10055008",
+      "9139651",
+      "8968613",
+      "7881273",
+      "6667333",
+      "2690953",
+      "1960729",
+      "1737021"
+    ],
+    "similar": [
+      "41433062",
+      "36791420",
+      "40935304",
+      "38315982",
+      "19894709",
+      "24024617",
+      "37668860",
+      "34251190",
+      "25619304",
+      "41060761",
+      "35509216",
+      "38821983",
+      "14745806",
+      "27736062",
+      "38225234",
+      "33148640",
+      "20593757",
+      "16283749",
+      "29844575",
+      "35378031",
+      "18593157",
+      "38761906",
+      "19666476",
+      "27517909",
+      "38343096",
+      "23727559",
+      "16002994",
+      "30281286",
+      "40255032",
+      "27649139",
+      "37803828",
+      "22340682",
+      "39084421",
+      "37084706",
+      "26112753",
+      "15797873",
+      "1527052",
+      "11914089",
+      "41393168",
+      "15132654",
+      "30191228",
+      "11799236",
+      "10562512",
+      "20518518",
+      "28013005",
+      "32517041",
+      "39748448",
+      "36427684",
+      "15518557",
+      "30902719",
+      "26030517",
+      "25162624",
+      "21064058",
+      "12652118",
+      "31789330",
+      "36990448",
+      "27918448",
+      "30348773",
+      "23110450",
+      "20000730",
+      "33139563",
+      "18171016",
+      "26226457",
+      "31449407",
+      "23774714",
+      "38321642",
+      "39533043",
+      "34531321",
+      "30021926",
+      "33333091",
+      "22176138",
+      "31911439",
+      "31558722",
+      "28196414",
+      "34312234",
+      "36913547",
+      "29338201",
+      "26478322",
+      "36342510",
+      "20454537",
+      "18997954",
+      "15125679",
+      "30938741",
+      "24295234",
+      "30838327",
+      "39855521",
+      "21574576",
+      "20733981",
+      "27387592",
+      "22570231",
+      "26892754",
+      "27819339",
+      "15556872",
+      "18445655",
+      "28791761",
+      "36632028",
+      "21053953",
+      "28233980",
+      "23435452",
+      "32798722"
+    ],
+    "review": [
+      "41433062",
+      "35378031",
+      "10562512",
+      "32517041",
+      "39533043",
+      "31911439"
+    ],
+    "pmc": [
+      "12772222"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2523198122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41433062/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

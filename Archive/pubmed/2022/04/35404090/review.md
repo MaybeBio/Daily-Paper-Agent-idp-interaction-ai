@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and alignment with stated conclusions; no assessment of editorial fit or publication decision
+- **Shared manuscript claim summary** The authors identify 333 candidate RxLR effectors in *Phytophthora parasitica* strain INRA 310, of which 71 are conserved across 11 strains and designated "core" RxLR effectors (CREs). They report that CRE N-termini are enriched in intrinsically disordered regions, that SLiMs are predominantly found in C-terminal regions, and that one effector, PpRxLR1, carries a 6-amino-acid SLiM predicted to be a ubiquitin-associated motif. Through homology modeling, in silico mutation analysis, molecular docking, and molecular dynamics simulations, they propose that PpRxLR1 interacts with ubiquitin-associated host proteins (UBA and ATG8) via this SLiM, potentially contributing to virulence.
+- **Visible evidence base** Results sections on secretome prediction, orthology analysis, genomic architecture, disorder prediction, SLiM prediction and classification, amino acid composition, PPI network prediction, structural modeling, mutation analysis, docking, and molecular dynamics simulations; figures and tables referenced (Fig. 1–8, Fig. S1–S5, Tables S1–S5); materials and methods descriptions
+- **Missing materials affecting confidence** Figures and tables themselves were not provided; supplementary files (Tables S1–S5, Fig. S1–S5) were not accessible; no raw data, sequence alignments, or software parameter details beyond those described; no experimental validation data
+
+## Reviewer
+- **Overall assessment** This manuscript presents a bioinformatics-driven exploration of SLiMs in core RxLR effectors of *P. parasitica*, with a focused case study on PpRxLR1. The work addresses a relevant and under-explored area: the role of intrinsic disorder and short linear motifs in oomycete effector function. The identification of 71 CREs and the observation that disorder is enriched in N-termini while SLiMs are more common in C-termini are potentially useful contributions. However, the study is entirely computational, and several key claims—particularly regarding the functional relevance of the PpRxLR1 SLiM and its interaction with host proteins—rest on predictions that are not experimentally validated. The manuscript would benefit from clearer presentation of methods, more rigorous statistical treatment, and a more cautious interpretation of docking and simulation results. The case study on PpRxLR1 is interesting but the evidence presented does not yet establish a biological role for the identified SLiM.
+- **Who would be interested in the results, and why** Researchers studying oomycete effector biology, particularly those focused on *Phytophthora* host-pathogen interactions, would find the identification of CREs and the SLiM analysis of interest. The work may also appeal to computational biologists working on effector prediction, intrinsic disorder, and protein-protein interaction prediction in plant pathogens. Those interested in the ubiquitin-proteasome system as a target of pathogen effectors may find the PpRxLR1 case study relevant, though the lack of experimental validation limits its immediate impact.
+- **Major strengths**
+  - Addresses a timely and under-studied topic: SLiMs in oomycete RxLR effectors
+  - Uses a multi-step bioinformatics pipeline integrating orthology, disorder prediction, SLiM prediction, structural modeling, docking, and molecular dynamics
+  - Identifies a set of 71 core RxLR effectors, which could serve as a resource for the community
+  - The focus on PpRxLR1 provides a concrete example that links sequence features to potential functional interactions
+  - The discussion of two-speed genomes and effector evolution is well contextualized
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that PpRxLR1 "interacts with several host proteins that are implicated in defense" and that the SLiM "could be mediating the interaction between the effector and UBA/ATG8 molecules to perturb host immunity for disease development."
+  - **Evidence pointer** Results sections "PpRxLR1 has the potential to interact with various host proteins" and "In silico molecular docking and dynamic simulations"; Fig. 6, Fig. 8, Tables S3–S5
+  - **Concern** The claim of interaction is based solely on computational predictions from AraPathogen, docking, and molecular dynamics simulations. No experimental evidence (e.g., yeast two-hybrid, co-immunoprecipitation, pull-down) is provided to support physical interaction between PpRxLR1 and any host protein. The docking scores and simulation stability do not constitute proof of biological interaction. The authors themselves note that "experimental validation of these interactors using effector protein-specific methods like pairwise yeast two-hybrid and bimolecular fluorescence complementation (BiFC) is recommended," which undermines the strength of the claim as stated.
+  - **Why it matters** The central hypothesis of the paper—that the PpRxLR1 SLiM mediates host protein interactions to promote virulence—is not supported by the evidence presented. Without experimental validation, the functional significance of the identified SLiM remains speculative. This limits the impact of the study and the confidence readers can place in the conclusions.
+  - **Resolution test** Provide experimental evidence of interaction (e.g., Y2H, Co-IP, or BiFC) between PpRxLR1 and at least one predicted host partner, or substantially soften the claims to reflect the predictive nature of the findings.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological rigor
+  - **Claim pointer** The authors state that "homology modeling was not suitable since the percent similarity between the target (PpRxLR1) and template was <20%" and therefore used I-TASSER for ab initio structure prediction.
+  - **Evidence pointer** Materials and Methods, "Structural modeling and classification of PpRxLR1"; Results, "Structural modeling of PpRxLR1 effector protein"
+  - **Concern** The manuscript states that homology modeling was unsuitable due to low sequence similarity, yet I-TASSER itself relies heavily on template-based modeling and threading. If no suitable template exists, the resulting model is likely to be of low confidence. The authors do not report confidence scores (e.g., C-score, TM-score, RMSD to template) for the I-TASSER model, nor do they discuss the limitations of the model for downstream docking and mutation analysis. The validity of conclusions drawn from a low-quality model is questionable.
+  - **Why it matters** The structural model is the foundation for the docking, mutation, and simulation analyses. If the model is unreliable, the subsequent predictions of ligand binding, mutational effects, and interaction stability are also unreliable. This affects the credibility of the entire PpRxLR1 case study.
+  - **Resolution test** Report I-TASSER confidence metrics (C-score, estimated TM-score) and discuss model quality. Alternatively, use a template-based approach with a clearly identified template and validate the model using independent methods (e.g., molecular dynamics equilibration, Ramachandran analysis).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical and comparative rigor
+  - **Claim pointer** The authors state that "compared to those of nonconserved RxLR effector genes, the 71 core RxLR effector genes (CREs) identified in the genome of P. parasitica recorded significantly shorter intergenic distances (Fig. 2B)."
+  - **Evidence pointer** Results, "A subset of RxLR effectors in P. parasitica is conserved"; Fig. 2B
+  - **Concern** The claim of "significantly shorter" intergenic distances is not supported by any reported statistical test in the text. The Wilcoxon rank-sum test is mentioned in Materials and Methods, but no p-values or effect sizes are reported in the Results. Additionally, the biological interpretation of this difference is speculative: the authors suggest it could be due to TE insertion in non-CRE regions, but no direct evidence (e.g., TE density analysis) is provided.
+  - **Why it matters** The genomic context of CREs is presented as a notable finding, but without statistical support, the claim is unsubstantiated. This weakens the comparative analysis between CREs and non-CREs.
+  - **Resolution test** Report the p-value and effect size for the intergenic distance comparison. If the difference is not statistically significant, revise the claim accordingly. Consider adding TE density analysis to support the interpretation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scope and generalizability
+  - **Claim pointer** The authors state that "SLiMs are found in the C-terminal regions of CREs" and that "the majority of SLiMs in CREs belong to the ligand (LIG) class."
+  - **Evidence pointer** Results, "SLiMs are found in the C-terminal regions of CREs"; Fig. 4
+  - **Concern** The analysis of SLiM distribution is based on predictions from ANCHOR and ELM, which are computational tools with known false-positive rates. The authors do not provide any validation of these predictions (e.g., comparison with experimentally characterized SLiMs, conservation analysis across species, or structural context). The claim that SLiMs are predominantly in C-termini is presented as a general feature, but the analysis is limited to 71 CREs from a single species.
+  - **Why it matters** Overinterpretation of computational predictions without validation can mislead the field. The claim that SLiMs are enriched in C-termini of CREs may be an artifact of the prediction tools or the specific dataset used.
+  - **Resolution test** Validate a subset of predicted SLiMs using experimental approaches or at least provide additional computational support (e.g., conservation analysis, comparison with known SLiM databases). Soften the claim to reflect the predictive nature of the findings.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "PpRxLR1 is one of the 71 CREs identified in this study, and its genes encode a 6-amino acid (aa)-long SLiM at the C terminus."
+  - **Issue** The phrase "its genes encode" is imprecise; genes encode proteins, not SLiMs. The SLiM is a feature of the protein sequence.
+  - **Required correction** Revise to "the PpRxLR1 protein contains a 6-amino-acid-long SLiM at the C terminus."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Materials and Methods, "Data sets and identification of RxLR effectors"
+  - **Evidence pointer** Materials and Methods, "Data sets and identification of RxLR effectors"
+  - **Issue** The description of the bioinformatics pipeline is brief. Key parameters (e.g., thresholds for SignalP, TMHMM, HMMscan) are mentioned, but the criteria for defining a "core" RxLR effector beyond presence in all 11 strains are not fully specified. For example, were there minimum sequence identity or bit-score thresholds for orthology assignment?
+  - **Required correction** Provide more detail on the orthology assignment criteria and any additional filters used to define the final set of 333 RxLR effectors and 71 CREs.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results, "PpRxLR1 has the potential to interact with various host proteins"
+  - **Evidence pointer** Results, "PpRxLR1 has the potential to interact with various host proteins"; Fig. 6
+  - **Issue** The authors state that "PpRxLR1 effector interactors showed a high degree of host protein interaction" and highlight transcription factors and autophagy-related proteins. However, the selection of 12 proteins for visualization was described as "random," which is not a rigorous sampling method. The network properties discussed may not be representative.
+  - **Required correction** Clarify the selection criteria for the 12 proteins shown in Fig. 6A, or use a systematic approach (e.g., top-ranked by degree or betweenness) to avoid bias.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Materials and Methods, "Molecular dynamics simulations"
+  - **Evidence pointer** Materials and Methods, "Molecular dynamics simulations"
+  - **Issue** The simulation temperature is stated as 303 K, which is non-standard (typically 300 K or 310 K). The choice is not justified.
+  - **Required correction** Justify the temperature choice or use a standard temperature (300 K or 310 K) for physiological relevance.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results, "Structural modeling of PpRxLR1 effector protein"
+  - **Evidence pointer** Results, "Structural modeling of PpRxLR1 effector protein"; Fig. 7
+  - **Issue** The authors state that the model had "fold topology similar to that of 6W2V" but do not provide quantitative measures of similarity (e.g., RMSD, TM-score) or discuss the functional relevance of this similarity.
+  - **Required correction** Provide quantitative comparison metrics and explain why similarity to 6W2V is significant for the proposed function of PpRxLR1.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of experimental validation for the central claim of PpRxLR1-host protein interactions.
+  - R1-M2: Insufficient reporting of model quality metrics for the I-TASSER structure, which underpins downstream analyses.
+  - R1-M3: Missing statistical support for the claim of significantly different intergenic distances between CREs and non-CREs.
+- **Assessment against Nature-style criteria**
+  - **Originality** Moderate. The application of SLiM analysis to oomycete RxLR effectors is relatively novel, and the focus on core effectors is a useful angle. However, the conceptual framework (intrinsic disorder in effectors, SLiM-mediated interactions) is well established in other pathogen systems.
+  - **Scientific importance** Moderate. Understanding conserved effectors and their potential host targets is relevant for developing durable resistance. However, the purely computational nature of the study limits its immediate impact, and the lack of experimental validation means the findings are hypothesis-generating rather than conclusive.
+  - **Interdisciplinary readership** Limited. The work is primarily of interest to plant pathologists and computational biologists. The methods and findings are unlikely to attract a broad readership beyond these fields.
+  - **Technical soundness** Mixed. The bioinformatics pipeline is reasonable, but the lack of model quality metrics, statistical rigor in some comparisons, and absence of experimental validation are significant weaknesses. The docking and simulation results are presented without sufficient caveats about their predictive nature.
+  - **Readability for nonspecialists** Adequate. The manuscript is generally well written, but some sections (e.g., structural modeling, molecular dynamics) assume familiarity with specialized techniques. The abstract and introduction are accessible, but the results and discussion may be challenging for readers outside the field.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially interesting bioinformatics analysis, but the central claims regarding PpRxLR1 function and interaction with host proteins are not supported by experimental data. The technical concerns regarding model quality and statistical rigor must be addressed. The authors should either provide experimental validation or substantially reframe the manuscript as a purely predictive study with appropriate caveats.
+
+## Risk / unsupported claims
+- The claim that PpRxLR1 "interacts with several host proteins that are implicated in defense" is unsupported; only computational predictions are provided.
+- The claim that the SLiM in PpRxLR1 "could be mediating the interaction between the effector and UBA/ATG8 molecules to perturb host immunity" is speculative and not validated.
+- The claim that mutations L102A and Y106A "could interfere with function of PpRxLR1" is based solely on in silico predictions and is not experimentally verified.
+- The statement that "the N terminus exhibited enrichment in intrinsically disordered regions compared to the C terminus, suggesting a potential role of disorder in effector translocation" is presented as a finding, but the functional link to translocation is not tested.
+- The claim of "significantly shorter intergenic distances" for CREs is not supported by reported statistical tests.
+- The overall conclusion that "this work has advanced our comprehension of Phytophthora RxLR effector function" is overstated given the lack of experimental validation.

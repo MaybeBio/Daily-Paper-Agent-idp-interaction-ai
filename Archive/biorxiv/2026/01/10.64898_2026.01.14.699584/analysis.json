@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.01.14.699584",
+  "title": "Extending Conformational Ensemble Prediction to Multidomain Proteins and Protein Complex",
+  "authors": "Zhu J; Bülow Sv; Liu H; Lindorff-Larsen K; Chen H",
+  "journal": "bioRxiv",
+  "published_date": "2026-01-15",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出IDPFold2生成式框架，用混合专家流匹配预测多结构域蛋白及蛋白复合物的构象系综，并延伸至IDR在大型复合物中的结合模式，直接契合无序蛋白互作机制建模与AI方法。",
+  "abstract": "Proteins execute cellular functions through a structural continuum ranging from stable, folded domains to highly dynamic intrinsically disordered regions (IDRs). Conformational ensembles represent the set of three-dimensional structures a protein adopts under a specific set of conditions, and underlie essential processes from catalysis to complex signaling networks. While deep learning has revolutionized structure prediction, capturing the distinct conformational diversity of folded and disordered regions, especially within multidomain proteins and large assemblies, remains a fundamental challenge. Here we introduce IDPFold2, a generative framework that models the heterogenous protein thermodynamics by integrating a Mixture-of-Experts architecture into the flow matching framework. By routing residues from different regions to specialized expert networks, IDPFold2 accurately predicts conformational ensembles for folded domains, IDRs and multidomain proteins. IDPFold2 outperforms state-of-the-art methods in capturing key functional states and fitting the experimental observations across local and global scales. Furthermore, we describe an extension of IDPFold2 to protein assemblies, deciphering the complex binding modes of IDRs within large biomolecular complexes, providing a generalizable tool for exploring the dynamic proteome.",
+  "abstract_zh": "蛋白质通过从稳定折叠结构域到高度动态的内在无序区域（IDRs）的结构连续体执行细胞功能。构象集合代表蛋白质在特定条件下采用的一组三维结构，并支撑从催化到复杂信号网络的基本过程。尽管深度学习已革新了结构预测，但捕捉折叠区和无序区，特别是在多结构域蛋白和大型组装体中的不同构象多样性，仍是一个根本性挑战。在此，我们引入IDPFold2，一种生成框架，通过将混合专家（Mixture-of-Experts）架构集成到流匹配框架中，模拟异质性蛋白质热力学。通过将来自不同区域的残基路由到专门的专家网络，IDPFold2准确预测折叠结构域、IDRs和多结构域蛋白的构象集合。IDPFold2在捕捉关键功能状态和拟合局部及全局尺度的实验观察方面优于最先进方法。此外，我们描述了IDPFold2向蛋白质组装体的扩展，解读大型生物分子复合物中IDRs的复杂结合模式，为探索动态蛋白质组提供了一种通用工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.01.14.699584",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.01.14.699584",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.01.14.699584/index.html"
+}

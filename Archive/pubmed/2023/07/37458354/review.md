@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, tables, or supplementary material were available for evaluation
+- **Shared manuscript claim summary** The authors report that the choice of water model (TIP4P-D, OPC, TIP3P) in molecular dynamics simulations of ATP and the intrinsically disordered protein alpha-Synuclein (with fixed protein force field ff99SBildn) substantially alters ATP-ATP and ATP-protein interactions. TIP3P leads to over-aggregation of ATP and over-stabilized ATP-protein binding, while TIP4P-D and OPC produce monomeric/smaller ATP clusters and reversible binding consistent with NMR experiments. The adenine ring is identified as a key mediator of contacts, and replacing Mg2+ with Na+ enhances electrostatic interactions, promoting ATP oligomerization and protein binding. The authors conclude that water model selection is an effective strategy to improve ATP behavior at high concentration.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation protocols, convergence metrics, or experimental comparisons are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, simulation parameters, force field details, system setup, analysis definitions, statistical uncertainties, comparison with experimental data, and all figures/tables
+
+## Reviewer
+- **Overall assessment** The abstract addresses a timely and technically relevant question in molecular simulation of ATP and disordered proteins, namely the influence of water models on ATP behavior at high concentration. The qualitative findings are plausible and potentially useful to the simulation community. However, the abstract alone provides insufficient quantitative detail to assess the robustness of the conclusions. Key methodological aspects, such as simulation length, system size, ion concentrations, and analysis criteria for clustering and binding, are not described. The claim that TIP4P-D and OPC reproduce NMR-observed reversible binding is stated without supporting data or error analysis. The study is of interest to computational biophysicists and those studying ATP-mediated phase behavior, but the evidence base is too limited to establish the case from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and physical chemists working on molecular dynamics of intrinsically disordered proteins, ATP-related phenomena, and water model benchmarking. Researchers studying liquid-liquid phase separation and hydrotrope mechanisms would also find the results relevant, as the choice of water model could affect the interpretation of ATP-protein interactions in such systems.
+- **Major strengths** The study addresses a practical and under-explored issue in simulation practice, namely the transferability of water models optimized for disordered proteins to systems containing high concentrations of ATP. The comparison of three widely used water models under a fixed protein force field is a clean design that isolates the water model effect. The qualitative agreement with NMR observations for TIP4P-D and OPC, if substantiated, would provide a useful validation benchmark.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that TIP4P-D and OPC waters produce ATP monomers and smaller clusters, and that repeated binding/unbinding of ATP to alpha-Synuclein is observed in these models, in line with NMR experiments.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative metrics for cluster size distributions, binding lifetimes, or binding free energies. The statement "in line with the recent nuclear magnetic resonance experiment" is made without specifying which experimental observable is being compared, how the comparison was performed, or what level of agreement was achieved. Without these details, the claim of consistency with experiment cannot be evaluated.
+  - **Why it matters** The central conclusion that water model choice improves ATP behavior rests on the validity of this comparison. If the agreement with NMR is qualitative or based on a single observable, the conclusion may be overstated. The simulation community requires quantitative benchmarks to justify changing water models in practice.
+  - **Resolution test** Provide quantitative cluster size distributions with error bars, binding/unbinding rate constants or residence times, and a direct comparison with the specific NMR observable (e.g., chemical shift perturbations or relaxation rates) including a measure of agreement (e.g., RMSD or correlation coefficient).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that changing Mg2+ to Na+ strengthened electrostatic interactions and promoted ATP oligomerization and ATP-alpha-Synuclein binding.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify the ionic conditions, such as the concentrations of Mg2+ and Na+, the number of ions, or how the ion parameters were treated in each water model. The effect of ion substitution on electrostatic interactions is stated without any quantitative measure, such as interaction energies or radial distribution functions. The claim is therefore not assessable from the supplied material.
+  - **Why it matters** Ion-specific effects are highly sensitive to force field parameters and water model. If the ion parameters are not consistent across water models, the observed differences could be artifacts of parameter mismatch rather than a genuine physical effect. The conclusion that Na+ promotes oligomerization and binding requires verification that the effect is robust to parameter choices.
+  - **Resolution test** Specify ion concentrations and parameter sources, and provide quantitative interaction energies or potentials of mean force for ATP-ATP and ATP-protein contacts under both ionic conditions. Show that the effect is consistent across at least two water models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors conclude that changing the water model can be an effective approach to improve the properties of ATP in high concentration.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not report simulation lengths, system sizes, number of replicas, or convergence criteria. Without this information, it is unclear whether the observed differences between water models are statistically significant or within run-to-run variability. The conclusion that water model choice is "effective" implies a recommendation for practice, which requires evidence of reproducibility.
+  - **Why it matters** Molecular dynamics results for disordered proteins and concentrated solutes are known to be sensitive to sampling length and initial conditions. If the simulations are short or under-sampled, the reported differences may not be reliable. A recommendation to change water models should be based on converged and reproducible simulations.
+  - **Resolution test** Report simulation lengths, system compositions, number of independent runs, and convergence checks (e.g., block averaging or time evolution of cluster distributions). Provide error estimates for all reported quantities.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The phrase "ATP's role as a hydrotrope" is used without defining the term or providing context for readers outside the immediate field.
+  - **Required correction** Briefly define hydrotrope or provide a citation in the abstract to aid nonspecialist readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract scope
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract does not mention any limitations of the study, such as the use of a single protein force field or the absence of phosphorylation or other post-translational modifications of alpha-Synuclein.
+  - **Required correction** Add a sentence acknowledging the scope of the study, such as the fixed protein force field and the specific protein system, to avoid overgeneralization.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Ion comparison
+  - **Evidence pointer** Abstract, statement on Mg2+ to Na+ substitution
+  - **Issue** The abstract does not specify whether the comparison between Mg2+ and Na+ was performed under the same water model or across all three water models.
+  - **Required correction** Clarify whether the ion substitution effect was tested in all water models or only in a subset, as this affects the interpretation of the result.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of experimental agreement and ion-specific effects cannot be evaluated without quantitative data and methodological detail. R1-M3 is non-blocking but necessary for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of water model effects on ATP behavior is relatively novel and addresses a gap in the literature, but the approach is incremental rather than paradigm-shifting.
+  - Scientific importance: The findings could be useful for improving simulation practice in a niche area, but the broader impact on biology or chemistry is not established from the abstract.
+  - Interdisciplinary readership: The topic is primarily of interest to computational chemists and biophysicists; the abstract does not frame the work for a broader audience.
+  - Technical soundness: Not assessable from the abstract alone; the lack of quantitative detail and methodological reporting is a major limitation.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms without definition, which may hinder nonspecialist comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible qualitative findings, but the lack of quantitative data, methodological detail, and experimental comparison prevents a supportive recommendation. The authors should provide the full manuscript with detailed methods and results to allow proper evaluation.
+
+## Risk / unsupported claims
+- The claim that TIP4P-D and OPC produce ATP behavior "in line with" NMR experiments is unsupported without specifying the experimental observable and the quantitative comparison.
+- The claim that Na+ strengthens electrostatic interactions and promotes oligomerization and binding is unsupported without quantitative interaction data and consistent ion parameter treatment.
+- The general conclusion that water model choice is an "effective approach" to improve ATP properties is not supported by the abstract alone, as no convergence or reproducibility data are provided.
+- Any quantitative statements about cluster sizes, binding kinetics, or interaction strengths are not assessable from the supplied material.

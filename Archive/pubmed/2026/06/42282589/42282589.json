@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "42282589",
+    "doi": "10.64898/2026.05.29.728696",
+    "title": "Physics-guided design of intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered protein regions (IDPs) are found across the tree of life and characterized by the lack of a stable 3D fold, encoding function through a vast ensemble of conformations. This plasticity makes rational design of IDPs challenging. Physics-based approaches capturing distinct aspects of sequence composition, charge patterning, and molecular interactions have emerged as powerful predictors of ensemble-derived properties. Here, we present a machine learning framework for proteome-scale de novo IDP design by rationally inverting physics-based models. We first program IDPs to tunably sense and respond to diverse biophysical cues and show that IDP ensembles can directly encode complex signal processing, including threshold detection, bandpass filtering, and Boolean-type multi-input logic. We next engineer multicomponent IDP mixtures with tailored emergent condensate properties, including layering and number of phases, compositional specificity, and RNA-dependent remodeling of structure and composition. Finally, we demonstrate designed IDPs that selectively partition into or deplete from biological condensates in living cells. Together, our framework establishes a flexible and scalable strategy for design of ensemble-derived and collective properties in dynamic biomolecules.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tyagi, Neha",
+        "Boodry, Jackson",
+        "Chou, Vita",
+        "Snead, Wilton T",
+        "Shrinivas, Krishna"
+      ],
+      "short_names": [
+        "Tyagi N",
+        "Boodry J",
+        "Chou V",
+        "Snead WT",
+        "Shrinivas K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4167-9385"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, Northwestern University.",
+        "Center for Synthetic Biology, Northwestern University.",
+        "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago IL.",
+        "Department of Chemical and Biological Engineering, Northwestern University.",
+        "Center for Synthetic Biology, Northwestern University.",
+        "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago IL.",
+        "Department of Cell and Developmental Biology, Feinberg School of Medicine of Northwestern University.",
+        "Department of Cell and Developmental Biology, Feinberg School of Medicine of Northwestern University.",
+        "Department of Chemical and Biological Engineering, Northwestern University.",
+        "Center for Synthetic Biology, Northwestern University.",
+        "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago IL.",
+        "Department of Cell and Developmental Biology, Feinberg School of Medicine of Northwestern University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tyagi, Neha",
+        "short_name": "Tyagi N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Northwestern University.",
+          "Center for Synthetic Biology, Northwestern University.",
+          "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago IL."
+        ]
+      },
+      {
+        "full_name": "Boodry, Jackson",
+        "short_name": "Boodry J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Northwestern University.",
+          "Center for Synthetic Biology, Northwestern University.",
+          "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago IL."
+        ]
+      },
+      {
+        "full_name": "Chou, Vita",
+        "short_name": "Chou V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Feinberg School of Medicine of Northwestern University."
+        ]
+      },
+      {
+        "full_name": "Snead, Wilton T",
+        "short_name": "Snead WT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Feinberg School of Medicine of Northwestern University."
+        ]
+      },
+      {
+        "full_name": "Shrinivas, Krishna",
+        "short_name": "Shrinivas K",
+        "identifiers": [
+          "0000-0002-4167-9385"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Northwestern University.",
+          "Center for Synthetic Biology, Northwestern University.",
+          "NSF-Simons National Institute for Theory and Mathematics in Biology, Chicago IL.",
+          "Department of Cell and Developmental Biology, Feinberg School of Medicine of Northwestern University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jun 2",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/12 06:38",
+    "fetched_at": "2026-09-18 04:01:16"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "42150060",
+      "41232529",
+      "40866699",
+      "40801528",
+      "40723369",
+      "40638710",
+      "40403066",
+      "40286793",
+      "40279486",
+      "39818825",
+      "39446959",
+      "39412378",
+      "39232584",
+      "38718835",
+      "38297184",
+      "38297118",
+      "38038257",
+      "37977121",
+      "37957331",
+      "37657994",
+      "37645312",
+      "37433327",
+      "36927031",
+      "36755024",
+      "36302916",
+      "35795820",
+      "35711061",
+      "35675815",
+      "35177069",
+      "34716273",
+      "34608321",
+      "34537246",
+      "34480923",
+      "34282049",
+      "34265844",
+      "33848464",
+      "33597515",
+      "33558506",
+      "33503380",
+      "32848244",
+      "32805219",
+      "32747754",
+      "32632317",
+      "31467979",
+      "31439799",
+      "31270472",
+      "30217894",
+      "30099028",
+      "29949750",
+      "28483149",
+      "28283059",
+      "28225081",
+      "27824447",
+      "27212236",
+      "26412307",
+      "25382214",
+      "24773235",
+      "24740064",
+      "19841628",
+      "18462678",
+      "17510665",
+      "15006351",
+      "11839491"
+    ],
+    "similar": [
+      "42282589",
+      "41053403",
+      "42475469",
+      "42437078",
+      "41166416",
+      "23912807",
+      "36674958",
+      "32403216",
+      "40727229",
+      "40998749",
+      "30913885",
+      "38177684",
+      "38097100",
+      "35119946",
+      "39163306",
+      "39554085",
+      "31375817",
+      "30979035",
+      "27844185",
+      "34656328",
+      "38252962",
+      "39093570",
+      "41082321",
+      "41385825",
+      "28076807",
+      "41481439",
+      "34390736",
+      "39504303",
+      "42395354",
+      "30413085",
+      "40317235",
+      "42147780",
+      "39094909",
+      "40264953",
+      "41174305",
+      "34799573",
+      "41708867",
+      "40095314",
+      "41432303",
+      "37722056",
+      "41756940",
+      "38987470",
+      "37961106",
+      "33267368",
+      "42425985",
+      "26301226",
+      "31667555",
+      "42418518",
+      "38220424",
+      "28537592",
+      "41670285",
+      "41993480",
+      "35944496",
+      "33945530",
+      "33545530",
+      "22399317",
+      "26376097",
+      "38713459",
+      "35454150",
+      "38824391",
+      "42338018",
+      "25496281",
+      "31441158",
+      "32747754",
+      "31307006",
+      "41086136",
+      "35436286",
+      "28765603",
+      "30840442",
+      "42309023",
+      "33421906",
+      "35126984",
+      "37961110",
+      "38076908",
+      "41279444",
+      "35034725",
+      "33719450",
+      "32345021",
+      "36350035",
+      "37986812",
+      "37338049",
+      "38079339",
+      "38297184",
+      "35129612",
+      "21766125",
+      "39828029",
+      "41929039",
+      "40791470",
+      "39896485",
+      "38018910",
+      "37459524",
+      "39433443",
+      "32696367",
+      "26387104",
+      "32579908",
+      "41566033",
+      "30278223",
+      "38053335",
+      "20522251",
+      "36055623"
+    ],
+    "review": [
+      "42282589",
+      "42437078",
+      "32403216",
+      "38097100",
+      "35119946",
+      "30979035",
+      "39093570",
+      "41385825",
+      "34390736",
+      "30413085",
+      "39094909",
+      "40264953",
+      "26301226",
+      "31667555",
+      "38220424",
+      "33545530",
+      "22399317",
+      "31441158",
+      "30840442",
+      "42309023",
+      "33421906",
+      "35129612",
+      "39828029",
+      "26387104",
+      "30278223"
+    ],
+    "pmc": [
+      "13252364"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42282589/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.05.29.728696",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

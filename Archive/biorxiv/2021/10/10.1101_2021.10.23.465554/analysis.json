@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.10.23.465554",
+  "title": "Loss-of-function, gain-of-function and dominant-negative mutations have profoundly different effects on protein structure: implications for variant effect prediction",
+  "authors": "Gerasimavicius L; Livesey BJ; Marsh JA",
+  "journal": "bioRxiv",
+  "published_date": "2021-10-24",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究分析致病错义突变对蛋白结构的影响，发现显性非LOF突变富集于蛋白界面，并评估变异效应预测工具，但对象非无序蛋白/IDR，且未涉及PPI机制建模或AI/物理模拟方法，仅对结构特征进行统计分析，与本课题关联较弱。",
+  "abstract": "Most known pathogenic mutations occur in protein-coding regions of DNA and change the way proteins are made. Taking protein structure into account has therefore provided great insight into the molecular mechanisms underlying human genetic disease. While there has been much focus on how mutations can disrupt protein structure and thus cause a loss of function (LOF), alternative mechanisms, specifically dominant-negative (DN) and gain-of-function (GOF) effects, are less understood. Here, we have investigated the protein-level effects of pathogenic missense mutations associated with different molecular mechanisms. We observe striking differences between recessive vs dominant, and LOF vs non-LOF mutations, with dominant, non-LOF disease mutations having much milder effects on protein structure, and DN mutations being highly enriched at protein interfaces. We also find that nearly all computational variant effect predictors underperform on non-LOF mutations, even those based solely on sequence conservation. However, we do find that non-LOF mutations could potentially be identified by their tendency to cluster in three-dimensional space. Overall, our work suggests that many pathogenic mutations that act via DN and GOF mutations are likely being missed by current variant prioritisation strategies, but that there is considerable scope to improve computational predictions through consideration of molecular disease mechanisms.",
+  "abstract_zh": "大多数已知的致病突变发生在DNA的蛋白质编码区，并改变蛋白质的生成方式。因此，考虑蛋白质结构为理解人类遗传病背后的分子机制提供了深刻见解。尽管已有大量研究关注突变如何破坏蛋白质结构并导致功能丧失（LOF），但其他机制，特别是显性负效（DN）和功能获得（GOF）效应，了解较少。在此，我们研究了与不同分子机制相关的致病性错义突变在蛋白质水平上的效应。我们观察到隐性突变与显性突变、LOF突变与非LOF突变之间存在显著差异，其中显性非LOF疾病突变对蛋白质结构的影响更为温和，而DN突变在蛋白质界面处高度富集。我们还发现，几乎所有计算性变异效应预测器在非LOF突变上表现不佳，即使是那些仅基于序列保守性的预测器。然而，我们确实发现非LOF突变可能通过其在三维空间中的聚集倾向被识别。总体而言，我们的工作表明，许多通过DN和GOF机制作用的致病突变可能被当前的变异优先级排序策略遗漏，但通过考虑分子疾病机制，计算预测仍有相当大的改进空间。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.10.23.465554",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.10.23.465554",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.10.23.465554/index.html"
+}

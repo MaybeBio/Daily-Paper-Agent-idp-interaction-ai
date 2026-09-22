@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35420130",
+  "title": "Shaping the genome via lengthwise compaction, phase separation, and lamina adhesion.",
+  "authors": "Brahmachari, Sumitabha; Contessoto, Vinicius G; Di Pierro, Michele; Onuchic, Jose N",
+  "journal": "Nucleic acids research",
+  "published_date": "2022-04-15",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用粗粒化聚合物模型模拟基因组三维结构，涉及相分离和核纤层黏附，但对象为基因组而非无序蛋白/IDR，且未聚焦PPI机制，方法上无AI/深度学习，仅有物理模拟，故为中档。",
+  "abstract": "The link between genomic structure and biological function is yet to be consolidated, it is, however, clear that physical manipulation of the genome, driven by the activity of a variety of proteins, is a crucial step. To understand the consequences of the physical forces underlying genome organization, we build a coarse-grained polymer model of the genome, featuring three fundamentally distinct classes of interactions: lengthwise compaction, i.e., compaction of chromosomes along its contour, self-adhesion among epigenetically similar genomic segments, and adhesion of chromosome segments to the nuclear envelope or lamina. We postulate that these three types of interactions sufficiently represent the concerted action of the different proteins organizing the genome architecture and show that an interplay among these interactions can recapitulate the architectural variants observed across the tree of life. The model elucidates how an interplay of forces arising from the three classes of genomic interactions can drive drastic, yet predictable, changes in the global genome architecture, and makes testable predictions. We posit that precise control over these interactions in vivo is key to the regulation of genome architecture.",
+  "abstract_zh": "基因组结构与生物学功能之间的联系尚未得到确认，但显然，由多种蛋白质活性驱动的基因组物理操作是一个关键步骤。为了理解基因组组织背后物理力的后果，我们构建了一个粗粒化聚合物模型，该模型包含三类根本不同的相互作用：长度方向压缩，即染色体沿其轮廓的压缩；表观遗传相似基因组片段间的自粘附；以及染色体片段与核膜或核纤层的粘附。我们假设这三类相互作用足以代表组织基因组架构的不同蛋白质的协同作用，并表明这些相互作用之间的相互作用可以重现生命之树中观察到的架构变异。该模型阐明了来自三类基因组相互作用的力如何协同驱动全局基因组架构的剧烈但可预测的变化，并提出了可测试的预测。我们认为，在体内对这些相互作用的精确控制是基因组架构调控的关键。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35420130/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35420130/",
+  "paper_page_path": "papers/pubmed/35420130/index.html"
+}

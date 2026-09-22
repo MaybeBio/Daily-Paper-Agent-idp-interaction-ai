@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Theoretical analysis, Discussion) without supplementary information
+- **Assessment boundary** Scientific claims, methodological soundness, and internal consistency of the presented evidence; supplementary materials referenced but not independently verified
+- **Shared manuscript claim summary** The authors propose a mechanism for the double reentrant liquid-liquid phase separation (LLPS) of uncharged intrinsically disordered proteins (IDPs) as a function of ionic strength. They argue that at low salt concentrations, LLPS is driven by long-range effective attractions mediated by a highly correlated ionic plasma, while at high salt concentrations, a second LLPS transition is driven by entropy and ion exclusion. The claims are supported by coarse-grained molecular dynamics simulations and a mean-field analytical theory.
+- **Visible evidence base** Main text figures (Figs. 1–5), simulation descriptions, and analytical theory equations (Eqs. 2–5)
+- **Missing materials affecting confidence** Supplementary Information (Tables S1–S2, Figs. S2–S4, S6, S8, S10, S12, Section 5 on salt solubility, Section 7 on threshold concentration, Section 8 on polyampholyte comparison) is referenced but not provided; full-length FUS simulation details are only partially described
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and interesting question in the field of biomolecular condensates, namely the mechanism of salt-dependent reentrant LLPS in largely uncharged IDPs. The combination of explicit-solvent coarse-grained simulations and analytical theory is a strength, and the proposed mechanism, involving ion-correlated attractions at low salt and entropy-driven ion exclusion at high salt, is conceptually appealing. However, several technical and interpretive issues need to be resolved before the case is fully established. The reliance on a single protein model (FUS-LCD) with a limited number of charged residues, the use of a modified force field, and the lack of quantitative comparison with experimental data are notable limitations. The analytical theory, while useful, makes simplifying assumptions that may not capture the full complexity of the system. Overall, the work is promising but requires substantial revision to substantiate the claims.
+- **Who would be interested in the results, and why** Researchers in the fields of biophysics, soft matter physics, and molecular biology, particularly those studying liquid-liquid phase separation, intrinsically disordered proteins, and the role of ions in biomolecular condensation. The proposed mechanism may also be of interest to those working on the design of synthetic polymers or on understanding the physical chemistry of crowded cellular environments.
+- **Major strengths**
+  1. The study combines two complementary approaches, explicit-solvent CG simulations and analytical theory, which strengthens the conclusions when they agree.
+  2. The systematic control simulations (e.g., turning off charges on FUS or ions) are a rigorous way to isolate the key physical interactions.
+  3. The identification of a distinct mechanism for the high-salt LLPS transition, driven by entropy and ion exclusion, is a novel contribution that goes beyond simple electrostatic screening arguments.
+  4. The manuscript is generally well-written and accessible, with clear figures that illustrate the main findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the low-salt LLPS is driven by long-range effective attractions mediated by a highly correlated ionic plasma, supported by PMF calculations showing attractions extending to ~10 nm.
+  - **Evidence pointer** Fig. 2, Results section, Discussion section
+  - **Concern** The PMF calculations are performed between two FUS chains in a 30 nm box. The claim of a "long-range" attraction extending to ~10 nm is based on this two-body calculation. However, in a concentrated condensate, many-body effects and the finite size of the simulation box could significantly alter the effective interactions. The authors do not discuss how the PMF relates to the actual many-body interactions in the dense phase. Furthermore, the PMF is computed at a single salt concentration (0.15 M), and it is unclear how the range and depth of the attraction change with salt concentration, which is critical for understanding the reentrant behavior.
+  - **Why it matters** The proposed mechanism hinges on the existence of a long-range, salt-dependent attractive force. If the PMF is not representative of the interactions in the condensate, or if its salt dependence is not as described, the proposed mechanism may be incorrect.
+  - **Resolution test** The authors should perform PMF calculations at multiple salt concentrations (e.g., 0.05 M, 0.5 M, 1.0 M, 2.0 M, 3.0 M) to demonstrate the salt dependence of the interaction range and strength. They should also discuss the potential role of many-body effects in the condensate, possibly by comparing the two-body PMF with a more direct measure of the effective interaction in the dense phase (e.g., from the simulation of the full condensate).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the analytical theory, based on a modified Voorn-Overbeek approximation, predicts the same reentrant behavior as the simulations.
+  - **Evidence pointer** Fig. 5, Theoretical analysis section
+  - **Concern** The analytical theory models the protein as an uncharged homopolymer and treats ions in the Debye-Hückel approximation. The key parameter is the Flory-Huggins interaction parameter between the protein and ions (χ̃_FI). The authors state that the theory predicts reentrant behavior, but the choice of parameters (e.g., the value of χ̃_FI = -2kT in Fig. 5d) is not justified. It is unclear whether this is a physically reasonable value for a real protein like FUS. Moreover, the theory does not explicitly account for the specific chemical nature of the amino acid side chains, which may be important for ion-specific effects.
+  - **Why it matters** The analytical theory is presented as a key piece of evidence for the proposed mechanism. If the theory relies on unphysical or unjustified parameters, its predictive power is questionable. The theory should be validated against the simulation results more quantitatively, not just qualitatively.
+  - **Resolution test** The authors should provide a more detailed justification for the choice of parameters in the theory, perhaps by fitting them to the simulation data. They should also discuss the limitations of the homopolymer model and the Debye-Hückel approximation in capturing the behavior of a real IDP. A more direct comparison between the theory and simulation, such as a phase diagram in the temperature-salt concentration plane, would be helpful.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the proposed mechanism is general for uncharged IDPs and can explain the experimental observations of Krainer et al. (ref. 32).
+  - **Evidence pointer** Introduction, Discussion section
+  - **Concern** The simulations are performed on FUS-LCD, which has a small number of charged residues. The authors argue that the mechanism is general, but they do not test this claim on other IDPs with different sequences or charge distributions. The comparison with the experiments of Krainer et al. is only qualitative, and the authors note that their simulation concentrations are much higher than experimental ones. It is not clear that the mechanism proposed here is the one operating in the experiments, especially given the complexity of the full-length FUS protein used in the experiments.
+  - **Why it matters** The generality of the proposed mechanism is a central claim of the manuscript. Without testing on other sequences or a more quantitative comparison with experiments, the claim remains speculative.
+  - **Resolution test** The authors should either perform simulations on at least one other uncharged or weakly charged IDP to demonstrate generality, or they should provide a more detailed and quantitative comparison with the experimental data of Krainer et al., including a discussion of the differences in concentration and protein construct.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the force field used (MARTINI v3.0 with a scaling factor of λ=1.03 for protein-water interactions) is appropriate for studying LLPS at high salt concentrations.
+  - **Evidence pointer** Materials and Methods section
+  - **Concern** The authors mention in the Methods that they discuss the feasibility of simulating MARTINI at high salt concentrations in the Supporting Information (Section 5), but this section is not provided. The scaling of the protein-water interaction is a significant modification to the standard force field, and its effect on the phase behavior, particularly at high salt, is not fully discussed in the main text. The choice of λ=1.03 is justified by reference to a previous study, but the sensitivity of the results to this parameter is not explored.
+  - **Why it matters** The simulation results are the primary evidence for the proposed mechanism. If the force field is not reliable at high salt concentrations, the second reentrant transition may be an artifact.
+  - **Resolution test** The authors should provide the Supporting Information section on salt solubility and discuss the limitations of the force field. They should also perform a sensitivity analysis on the scaling factor λ to show that the qualitative results are robust to small changes in this parameter.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction is dense and assumes a high level of familiarity with polymer physics and LLSP terminology. Terms like "Voorn-Overbeek approximation" and "reentrant phase separation" are used without sufficient explanation for a general scientific audience.
+  - **Required correction** Consider adding a brief, accessible explanation of these key concepts, perhaps in a box or a glossary, to make the manuscript more accessible to readers outside the immediate field.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section
+  - **Evidence pointer** Fig. 1
+  - **Issue** The error bars in Fig. 1a are described as "standard deviations," but it is not clear how many independent simulations were performed to calculate these. The text mentions that the condensate is "more dynamic" at 0.15 M based on the spread of the data, but this is a qualitative statement.
+  - **Required correction** Please specify the number of independent simulation runs and how the standard deviations were calculated. A more quantitative measure of the dynamics, such as the diffusion constant of the chains, would strengthen the claim.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Theoretical analysis
+  - **Evidence pointer** Eq. (2)
+  - **Issue** The free energy functional in Eq. (2) is written in a somewhat confusing way, with the terms inside the square brackets not clearly separated. The notation for the Flory-Huggins parameters (χ̃) is not defined in the main text.
+  - **Required correction** Please clarify the notation and ensure the equation is formatted clearly. Define all symbols in the text or in a table.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The comparison with ψ-condensation of DNA is interesting but brief. A more detailed discussion of the similarities and differences between the two systems would be valuable for readers from different disciplines.
+  - **Required correction** Expand the discussion of ψ-condensation to clarify the conceptual link and the key differences (e.g., the role of the polymer vs. the salt).
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: The PMF calculations do not demonstrate the salt dependence of the interaction, which is central to the proposed mechanism.
+  - R1-M2: The analytical theory is not quantitatively validated against the simulations, and the choice of parameters is not justified.
+  - R1-M3: The generality of the mechanism is not tested on other IDP sequences.
+  - R1-M4: The reliability of the force field at high salt concentrations is not established in the main text.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work presents a novel mechanism for the reentrant LLPS of uncharged IDPs, which is distinct from the well-studied behavior of charged polyampholytes. The idea of ion-correlated attractions at low salt and entropy-driven ion exclusion at high salt is original and thought-provoking.
+  - **Scientific importance** The question of how salt modulates the phase behavior of IDPs is of significant importance for understanding cellular processes and disease. The proposed mechanism, if validated, could have broad implications. However, the current evidence is not sufficient to establish the mechanism with high confidence.
+  - **Interdisciplinary readership** The topic is of interest to biophysicists, soft matter physicists, and cell biologists. The manuscript is written in a way that is largely accessible, but some concepts may be challenging for nonspecialists.
+  - **Technical soundness** The combination of simulations and theory is a strength, but the technical issues outlined above (PMF salt dependence, parameter justification, force field reliability) need to be addressed. The lack of quantitative comparison with experiments is a significant weakness.
+  - **Readability for nonspecialists** The manuscript is generally well-written, but the introduction and theoretical sections could be made more accessible. The figures are clear and informative.
+- **Recommendation posture** Supportive if technical concerns are resolved. The proposed mechanism is interesting and potentially important, but the current evidence is not sufficient to fully establish it. The authors need to address the concerns regarding the PMF calculations, the analytical theory, and the force field reliability. If these issues are resolved, the work could be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the mechanism is general for uncharged IDPs is not supported by the evidence, as only FUS-LCD is studied.
+- The claim that the second reentrant transition is driven by entropy and ion exclusion is supported by the theory and simulations, but the lack of quantitative comparison with experiments makes it difficult to assess its validity for real systems.
+- The claim that the low-salt transition is driven by long-range attractions mediated by a highly correlated ionic plasma is supported by the PMF calculation, but the salt dependence of this interaction is not demonstrated.
+- The claim that the simulation results are comparable to experiments is only qualitative, and the differences in concentration and protein construct are not fully addressed.

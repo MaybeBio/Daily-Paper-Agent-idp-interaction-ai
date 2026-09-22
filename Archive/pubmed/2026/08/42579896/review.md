@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors compiled a dataset of 9628 alpha-synuclein binding compounds from ChEMBL and developed a deep learning framework combining Graph Attention Networks (GAT) with Graph Convolutional Networks (GCN), using 3D Euclidean interatomic distances as edge features, an atomic attention layer, and a composite loss function (MSE plus Pearson correlation). The model reportedly achieved an average MSE of 0.1751 and Pearson correlation of 0.5703 over 10 independent runs, outperforming baseline GNNs and a published alpha-syn specific predictor. Bootstrap-calibrated confidence intervals and a cluster-exclusion split were used to assess robustness and generalization.
+- **Visible evidence base** Abstract text only; no quantitative comparisons, dataset details, architecture specifications, or validation protocols are visible beyond the summary statements
+- **Missing materials affecting confidence** Full methods, dataset construction details, baseline definitions, hyperparameter settings, training/validation split procedures, bootstrap implementation, cluster-exclusion split criteria, all figures and tables, and any comparison with the previously published alpha-syn predictor
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful contribution to structure-based affinity prediction for alpha-synuclein. The motivation is clear and the technical choices are reasonable. However, the evidence base available for review is limited to the abstract, which prevents verification of the core claims. Several statements regarding performance, robustness, and generalization are made without sufficient detail to assess their validity. The work appears to be a solid incremental contribution to the field, but the case for its novelty and superiority over existing methods is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational drug discovery, particularly those working on protein aggregation inhibitors and intrinsically disordered protein targets, would find this work relevant. The methodological focus on 3D molecular graph representations with attention mechanisms may also interest the broader machine learning for chemistry community, as it addresses a known limitation of 2D graph-based models.
+- **Major strengths** The problem is well motivated and practically important. The use of 3D Euclidean distances as edge features is a sensible and potentially impactful design choice. The inclusion of a composite loss function and attention mechanism shows methodological awareness. The reported use of bootstrap calibration and cluster-exclusion splitting indicates attention to statistical rigor and generalization assessment.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The model achieved an average MSE of 0.1751 and Pearson correlation of 0.5703 over 10 independent runs, surpassing all baseline GNNs and a recently published alpha-syn-specific predictor.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The performance claim is presented without any comparative numbers, statistical significance testing, or details on the baseline architectures and the published predictor used for comparison. The abstract states superiority but does not show the magnitude of improvement or the conditions under which comparisons were made.
+  - **Why it matters** Without quantitative context, the reader cannot judge whether the improvement is meaningful or marginal. The claim of surpassing existing methods is central to the paper's contribution and must be substantiated with clear comparative data.
+  - **Resolution test** Provide a table or figure comparing MSE and Pearson correlation for the proposed model, each baseline GNN, and the published alpha-syn predictor, including standard deviations and, where appropriate, statistical significance tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The core innovation lies in using 3D Euclidean interatomic distances as edge features to capture spatial interaction patterns within molecular conformations.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how 3D conformations were generated, whether multiple conformers per molecule were used, how conformer quality was assessed, or how edge features were normalized and integrated into the GAT-GCN architecture. These details are essential for reproducibility.
+  - **Why it matters** The claimed innovation depends entirely on the 3D representation. Without a clear description of the conformational generation and feature engineering pipeline, other researchers cannot replicate or build upon the method.
+  - **Resolution test** Include a detailed methods section describing conformer generation (e.g., software, force field, number of conformers), edge feature construction, and the exact integration into the GAT-GCN layers.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalization claim
+  - **Claim pointer** Under a stringent cluster-exclusion split, GAT-GCN exhibited performance degradation comparable to other architectures while retaining the best overall metrics, demonstrating generalization to novel chemical scaffolds.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The statement that performance degradation was "comparable" while retaining "the best overall metrics" is ambiguous. It is unclear whether the model's advantage over baselines was maintained, reduced, or lost under the cluster-exclusion split. The term "comparable" could mean similar absolute degradation or similar relative degradation, which have different implications.
+  - **Why it matters** The generalization claim is a key selling point. If the model's advantage diminishes under scaffold-based splitting, the practical utility for screening novel compounds is weakened.
+  - **Resolution test** Report the exact MSE and Pearson correlation for all models under both random and cluster-exclusion splits, and explicitly state whether the performance gap between the proposed model and baselines changed significantly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Dataset description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states 9628 compounds were compiled from ChEMBL but does not specify the activity endpoint (e.g., IC50, Ki, Kd), the curation criteria, or how duplicates and assay inconsistencies were handled.
+  - **Required correction** Add a sentence in the abstract or methods describing the activity type, curation steps, and any standardization applied.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Claim of interpretability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract describes the tool as "interpretable" but does not explain what interpretability means in this context or how it was assessed. Attention weights alone do not guarantee interpretability.
+  - **Required correction** Clarify what interpretability refers to (e.g., attention weights, feature importance) and provide an example or analysis demonstrating it.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Bootstrap confidence intervals
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions bootstrap-calibrated confidence intervals but does not state what was bootstrapped (e.g., test set, training set, model weights) or how many bootstrap samples were used.
+  - **Required correction** Specify the bootstrap procedure and sample count in the methods.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The performance comparison must be quantified and the 3D representation pipeline must be fully described. Without these, the core claims of superiority and innovation cannot be verified.
+- **Assessment against Nature-style criteria** Originality: The use of 3D Euclidean distances as edge features in a GAT-GCN hybrid is a reasonable incremental contribution, but similar ideas have been explored in other 3D molecular representation works. Scientific importance: The application to alpha-synuclein is relevant, but the abstract does not demonstrate a major advance over existing methods. Interdisciplinary readership: The work may appeal to computational chemists and machine learning researchers, but the abstract is too technical for a broad audience. Technical soundness: Cannot be fully assessed from the abstract; the described methodology is plausible but unverified. Readability for nonspecialists: The abstract is dense and assumes familiarity with GNN terminology, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable approach, but the lack of quantitative comparisons and methodological detail prevents verification of the central claims. A full manuscript review would be needed to assess whether the technical concerns can be resolved.
+
+## Risk / unsupported claims
+- The claim of surpassing all baseline GNNs and a published alpha-syn-specific predictor is unsupported without comparative data.
+- The claim of robustness against noise and conformational perturbations is unsupported without details on the perturbation protocol and bootstrap implementation.
+- The claim of generalization to novel chemical scaffolds is weakly supported due to the ambiguous description of the cluster-exclusion split results.
+- The claim of interpretability is unsupported without a defined interpretability analysis.
+- The dataset quality and relevance cannot be assessed without curation details.

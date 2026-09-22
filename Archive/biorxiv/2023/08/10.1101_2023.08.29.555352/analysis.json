@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.29.555352",
+  "title": "Differentiable simulation to develop molecular dynamics force fields for disordered proteins",
+  "authors": "Greener JG",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-31",
+  "window": {
+    "start": "2023-08-28",
+    "end": "2023-09-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用可微分分子动力学模拟优化隐式溶剂力场以更好描述无序蛋白，虽未直接研究PPI，但针对IDP的力场开发与物理模拟方法对无序蛋白互作机制建模具有直接可迁移价值。",
+  "abstract": "Implicit solvent force fields are computationally efficient but can be unsuitable for running molecular dynamics on disordered proteins. Here I improve the a99SB- disp force field and the GBNeck2 implicit solvent model to better describe disordered proteins. Differentiable molecular simulations with 5 ns trajectories are used to jointly optimise 108 parameters to better match explicit solvent trajectories. Simulations with the improved force field better reproduce the radius of gyration and secondary structure content seen in experiments, whilst showing slightly degraded performance on folded proteins and protein complexes. The force field, called GB99dms, reproduces the results of a small molecule binding study and improves agreement to experiment for the aggregation of amyloid peptides. GB99dms, which can be used in OpenMM, is available at https://github.com/greener-group/GB99dms . This work is the first to show that gradients can be obtained directly from nanosecond-length differentiable simulations of biomolecules and highlights the effectiveness of this approach to training whole force fields to match desired properties.",
+  "abstract_zh": "隐式溶剂力场计算效率高，但可能不适合对无序蛋白质进行分子动力学模拟。在此，我改进了a99SB-disp力场和GBNeck2隐式溶剂模型，以更好地描述无序蛋白质。利用5 ns轨迹的可微分子模拟，联合优化了108个参数，以更好地匹配显式溶剂轨迹。改进后的力场模拟能更好地再现实验中观察到的回旋半径和二级结构含量，同时在折叠蛋白质和蛋白质复合物上的表现略有下降。该力场称为GB99dms，能重现小分子结合研究的结果，并提高对淀粉样肽聚集实验的吻合度。GB99dms可在OpenMM中使用，并可在https://github.com/greener-group/GB99dms获取。这项工作首次展示了从生物分子纳秒级可微模拟中直接获得梯度的可能性，并突显了该方法在训练整个力场以匹配所需性质方面的有效性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.29.555352",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.29.555352",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.29.555352/index.html"
+}

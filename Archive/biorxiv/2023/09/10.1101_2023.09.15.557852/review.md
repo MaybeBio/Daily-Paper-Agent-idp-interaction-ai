@@ -1,0 +1,103 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, data availability, abbreviations, acknowledgments) as provided by the user. Supplementary figures and tables are referenced but not provided.
+- **Assessment boundary** Assessment is limited to the scientific content, methodological soundness, and claims as presented in the supplied text. No assessment of the code, parameter files, or supplementary data is possible without those materials.
+- **Shared manuscript claim summary** The authors present an improved coarse-grained protein force field (SPICA FF version 2) that introduces secondary structure-dependent nonbonded parameters for backbone beads, re-optimizes amino acid interaction parameters, and expands the protein-lipid interaction library. They claim improved accuracy for intrinsically disordered proteins, peripheral membrane proteins, transmembrane helix dimerization, and peptide association in water, with applicability to a wide range of protein systems.
+- **Visible evidence base** Main text figures (Figures 1, 3, 4, 5) are referenced but not provided. Supplementary figures (S1–S10) and tables (S1–S3) are referenced but not provided. The manuscript text includes descriptions of methods, simulation protocols, and qualitative results.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are absent. This includes the primary quantitative results (dimerization free energies, radius of gyration values, bound fractions, free energy profiles), the parameter tables, and the DSSP-based secondary structure assignments. Without these, the quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely problem in coarse-grained molecular simulation, namely the limited accuracy of the SPICA force field for intrinsically disordered proteins and peripheral membrane proteins. The proposed solution, introducing secondary structure-dependent nonbonded parameters and re-optimizing amino acid interactions, is conceptually reasonable and follows established parameterization strategies. However, the manuscript as provided is essentially a summary of results without the actual data. The core quantitative evidence, including all figures and tables, is missing from the supplied material. The methodological descriptions are incomplete in key areas, particularly regarding the parameterization protocol, the validation criteria, and the treatment of secondary structure assignment during simulation. The claims of improved accuracy are plausible but cannot be assessed from the provided text alone. The work is likely of interest to the coarse-grained simulation community, but the current submission does not provide sufficient evidence to establish the case.
+- **Who would be interested in the results, and why** Researchers developing and applying coarse-grained force fields for biomolecular simulation, particularly those studying membrane proteins, intrinsically disordered proteins, and protein-lipid interactions. The expanded lipid library and the secondary structure-dependent parameterization strategy are of direct relevance to this community. The work may also interest experimentalists who use simulations to interpret biophysical data on protein-membrane systems.
+- **Major strengths** The manuscript identifies a clear limitation in the previous SPICA protein model and proposes a targeted solution. The strategy of using secondary structure-dependent backbone parameters is chemically intuitive and addresses a known weakness of pragmatic CG force fields. The validation set is diverse, including IDPs, transmembrane helices, peripheral proteins, and peptide association in water. The expansion of the protein-lipid interaction library to include multiple lipid species is a practical improvement. The authors also demonstrate a specific application, cholesterol binding to a GPCR, which adds biological relevance.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Evidence completeness  
+    - **Claim pointer** The manuscript claims that the improved force field "successfully reproduces the radius of gyration of various IDPs, the binding sensitivity of several peripheral membrane proteins, and the dimerization free energies of several transmembrane helices."  
+    - **Evidence pointer** Figures 1, 2, 3, 4, 5; Tables 1, S1, S2, S3; location not provided  
+    - **Concern** The primary quantitative results are presented only as figure and table references. None of the actual data, plots, or numerical values are available in the supplied material. The reader cannot evaluate the quality of agreement between simulation and experiment, the statistical uncertainties, or the significance of the improvements over the previous version.  
+    - **Why it matters** The central claim of the manuscript is that the new force field improves accuracy. Without the actual data, this claim is unverifiable. The manuscript cannot be evaluated on its merits.  
+    - **Resolution test** Provide all figures and tables with numerical values, error bars, and comparisons to experimental data and previous force field results.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Methodological completeness  
+    - **Claim pointer** The authors state that "we introduce protein secondary structure-dependent nonbonded interaction parameters to the backbone segments" and that "the LJ parameters of BB-water were set to reproduce the hydration free energy of the BB beads calculated using the previous SPICA protein FF version."  
+    - **Evidence pointer** Section 2.2; location not provided  
+    - **Concern** The parameterization protocol is described only qualitatively. The specific target data, the fitting procedure, the objective function, and the criteria for accepting or rejecting parameter sets are not described. The treatment of secondary structure assignment during simulation, particularly whether it is fixed or dynamic, is not specified. The relationship between the secondary structure types (helix, sheet, loop) and the actual conformational ensembles sampled in IDP simulations is unclear.  
+    - **Why it matters** The secondary structure-dependent parameterization is the central methodological innovation. Without a detailed description, the work cannot be reproduced or critically assessed. The validity of the approach depends on how secondary structure is assigned and how the parameters are optimized.  
+    - **Resolution test** Provide a detailed description of the parameterization workflow, including target data, fitting algorithms, and validation criteria. Specify how secondary structure is assigned during simulation and whether the parameters are updated dynamically.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Validation rigor  
+    - **Claim pointer** The authors claim that "the binding sensitivity of several peripheral membrane proteins" is reproduced, and that "the specific binding of cholesterol to a GPCR was reproduced."  
+    - **Evidence pointer** Section 3.2, Section 3.3, Figures 4, 5, Table 1; location not provided  
+    - **Concern** The validation of protein-membrane interactions relies on qualitative comparisons to experimental expectations. For example, the cholesterol binding result is described as "observed" and "reproduced," but no quantitative metric, such as binding free energy, occupancy, or residence time, is provided. The bound fraction values in Table 1 are referenced but not shown. The choice of validation systems and the criteria for "success" are not defined a priori.  
+    - **Why it matters** The claim of improved accuracy for peripheral protein binding is a key selling point of the new force field. Without quantitative validation metrics and a clear definition of success, the claim is not established.  
+    - **Resolution test** Provide quantitative comparisons to experimental data for each validation system, including binding free energies, bound fractions, and contact maps. Define success criteria before presenting results.  
+  - **R1-M4**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Scope of validation  
+    - **Claim pointer** The authors state that "the new SPICA FF (version 2) proposed herein is applicable with high accuracy for simulating a wide range of protein systems."  
+    - **Evidence pointer** Sections 3.1, 3.2, 3.3; location not provided  
+    - **Concern** The validation set, while diverse, is limited to a small number of systems. The claim of broad applicability is extrapolated from these cases. The manuscript does not discuss potential limitations, such as systems with mixed secondary structures, proteins with post-translational modifications, or crowded environments.  
+    - **Why it matters** The claim of wide applicability is strong and goes beyond the presented evidence. A more cautious statement, acknowledging the limited validation set, would be more appropriate.  
+    - **Resolution test** Either expand the validation set or temper the claim to reflect the actual scope of testing.  
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Section 2.1, description of potential functions  
+    - **Evidence pointer** Section 2.1; location not provided  
+    - **Issue** The text states that "LJ-type potential functions were employed" and refers to Eq. (1) and Eq. (2), but the equations themselves are not provided in the supplied text. The reader cannot follow the functional forms.  
+    - **Required correction** Include the equations or provide a clear reference to the original SPICA papers where they are defined.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Reproducibility  
+    - **Affected element** Section 2.3, simulation setup  
+    - **Evidence pointer** Section 2.3; location not provided  
+    - **Issue** The simulation protocol is described at a high level, but specific details such as the number of water molecules, box sizes, equilibration procedures, and the exact thermostat and barostat parameters are not given.  
+    - **Required correction** Provide a complete description of the simulation setup or reference a prior publication where the protocol is fully described.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Statistical rigor  
+    - **Affected element** Section 2.4, dimerization free energy calculations  
+    - **Evidence pointer** Section 2.4; location not provided  
+    - **Issue** The manuscript states that "averages and standard deviations of dimerization free energies were estimated from the block data obtained from each 1 μs of sampling," but the number of blocks, the convergence criteria, and the method for estimating standard deviations are not described.  
+    - **Required correction** Provide details on the block analysis, including block size, number of blocks, and convergence assessment.  
+  - **R1-m4**  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Section 3.2, free energy profiles  
+    - **Evidence pointer** Section 3.2, Figures 3, S3–S8; location not provided  
+    - **Issue** The text states that "a degraded match was detected for membranes containing cholesterol and SM" but does not provide a quantitative measure of the degradation or a discussion of its implications for the force field's applicability to such systems.  
+    - **Required correction** Provide a quantitative comparison for these systems and discuss the potential impact on simulations of cholesterol-rich membranes.  
+  - **R1-m5**  
+    - **Severity** Minor  
+    - **Axis** Language  
+    - **Affected element** Section 4, Conclusions  
+    - **Evidence pointer** Section 4; location not provided  
+    - **Issue** The sentence "These results shows that the nonbonded interactions involving proteins are well balanced" contains a subject-verb agreement error.  
+    - **Required correction** Change "shows" to "show".  
+- **Technical failings that need to be addressed before the case is established**  
+  - R1-M1 (missing quantitative evidence)  
+  - R1-M2 (incomplete parameterization description)  
+  - R1-M3 (lack of quantitative validation metrics)  
+- **Assessment against Nature-style criteria**  
+  - **Originality** The work is incremental rather than conceptually novel. The idea of secondary structure-dependent parameters in CG force fields has been explored in other contexts, and the re-optimization of interaction parameters is a standard practice. The specific application to the SPICA force field is new, but the approach is not groundbreaking.  
+  - **Scientific importance** The work addresses a real limitation in a widely used CG force field and could improve the accuracy of simulations for IDPs and peripheral proteins. This is of practical importance to the simulation community, but the impact is likely to be incremental rather than transformative.  
+  - **Interdisciplinary readership** The work is primarily of interest to computational biophysicists and force field developers. The potential readership beyond this group is limited, as the manuscript does not address broader biological questions or provide new biological insights.  
+  - **Technical soundness** The methodological approach is reasonable, but the manuscript as provided lacks the detail and evidence needed to assess technical soundness. The parameterization protocol is incompletely described, and the validation data are not shown.  
+  - **Readability for nonspecialists** The manuscript is written for a specialist audience familiar with CG force fields and molecular simulation. The abstract is accessible, but the methods and results sections assume significant background knowledge. The manuscript is not suitable for a general scientific audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem and the proposed approach is plausible, but the absence of all quantitative data and the incomplete methodological description prevent any assessment of the claims. The authors should be invited to resubmit with the full figures, tables, and a complete description of the parameterization and validation protocols.
+
+## Risk / unsupported claims
+- The claim that the force field "successfully reproduces the radius of gyration of various IDPs" is unsupported because the actual Rg values and comparisons are not provided.
+- The claim that "the binding sensitivity of several peripheral membrane proteins" is reproduced is unsupported because the bound fraction data are not shown.
+- The claim that "the dimerization free energies of several transmembrane helices" are reproduced is unsupported because the free energy values are not provided.
+- The claim that "the specific binding of cholesterol to a GPCR was reproduced" is unsupported because no quantitative binding data are presented.
+- The claim that the force field "is applicable with high accuracy for simulating a wide range of protein systems" is an overstatement given the limited validation set and the acknowledged degradation for cholesterol- and SM-containing membranes.
+- The statement that the new parameterization "overcomes known limitations of existing pragmatic FF without the need of specific ad-hoc rescaling or parameterization strategies" is not substantiated by a systematic comparison with other approaches.

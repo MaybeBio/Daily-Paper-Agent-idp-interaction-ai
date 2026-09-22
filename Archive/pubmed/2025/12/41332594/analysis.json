@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41332594",
+  "title": "How small molecules stabilize oligomers of a phase-separating disordered protein.",
+  "authors": "Zhu, Jiaqi; Sisk, Thomas R; Mateos, Borja; Bielskute-Garcia, Stase; Salvatella, Xavier; Robustelli, Paul",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2025-12-03",
+  "window": {
+    "start": "2025-12-01",
+    "end": "2025-12-07"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用全原子MD模拟与NMR揭示小分子稳定无序雄激素受体激活域寡聚界面的机制，直接针对IDP介导的PPI与相分离凝聚体，方法为物理模拟且具机制深度。",
+  "abstract": "Small molecule inhibitors of the intrinsically disordered androgen receptor activation domain have been tested in clinical trials for the treatment of castration-resistant prostate cancer. These compounds have been shown to stabilize oligomeric forms of the androgen receptor activation domain in solution and alter the properties of androgen receptor condensates. The molecular mechanisms by which small molecules modulate these processes have been poorly understood in atomic detail. Here, we use long-timescale all-atom molecular dynamics (MD) simulations and nuclear magnetic resonance (NMR) spectroscopy to determine how small molecules stabilize highly dynamic, heterogeneous intermolecular interfaces that mediate oligomerization of the androgen receptor activation domain. The mechanisms determined here explain the relative potencies of androgen receptor activation domain inhibitors and suggest general strategies for designing small molecules that target oligomeric and, potentially, condensed forms of intrinsically disordered proteins.",
+  "abstract_zh": "intrinsically disordered androgen receptor activation domain的小分子抑制剂已在治疗去势抵抗性前列腺癌的临床试验中接受测试。这些化合物已被证明能在溶液中稳定雄激素受体激活结构域的低聚形式，并改变雄激素受体凝聚体的性质。小分子调节这些过程的分子机制在原子细节上一直鲜为人知。在此，我们使用长时间尺度的全原子分子动力学 (molecular dynamics, MD) 模拟和核磁共振 (nuclear magnetic resonance, NMR) 波谱法，来确定小分子如何稳定介导雄激素受体激活结构域低聚化的高度动态、异质性分子间界面。此处确定的机制解释了雄激素受体激活结构域抑制剂的相对效力，并为设计靶向 intrinsically disordered proteins 低聚形式及潜在凝聚形式的小分子提供了通用策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41332594/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41332594/",
+  "paper_page_path": "papers/pubmed/41332594/index.html"
+}

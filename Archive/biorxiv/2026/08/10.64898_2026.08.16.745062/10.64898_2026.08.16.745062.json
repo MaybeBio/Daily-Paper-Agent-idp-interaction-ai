@@ -1,0 +1,162 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.08.16.745062",
+  "title": "Interaction-Range Control of Synapsin Aggregation in a Coarse-Grained Model",
+  "doi": "10.64898/2026.08.16.745062",
+  "abstract": "Synapsin-1 is a multidomain neuronal protein containing extensive intrinsically disordered regions and is a key component of synaptic-vesicle condensates. Direct residue-level simulation of the collective organization of thousands of synapsin molecules remains computationally demanding. Here, we develop a coarse-grained description that connects residue-level CALVADOS 3 simulations to a one-particle-per-protein model. A potential of mean force between two synapsin molecules is obtained by umbrella sampling and represented by an isotropic effective interaction containing a short-range attractive region and a weak outer repulsive contribution. We compare two treatments of this interaction that differ only in the retention of the outer tail. Langevin dynamics simulations of effective proteins show aggregation upon cooling and compression in both models, but with markedly different collective organization. The shorter-ranged model progressively coarsens toward a single dense domain, whereas retaining the outer repulsive contribution favors the persistence of multiple mesoscale aggregates. The two models also display distinct relationships between aggregate size and particle mobility at low temperature. These results show that weak features of an effective protein–protein interaction can have pronounced consequences for collective synapsin organization at mesoscopic scales. <h4>TOC Graphic</h4>",
+  "authors": [
+    "Krott LB",
+    "Puccinelli T",
+    "Oliveira Wd",
+    "Gomes MEN",
+    "Lomba E",
+    "Piazza F",
+    "Bordin JR"
+  ],
+  "published_date": "2026-08-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.08.16.745062",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.16.745062.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1301521",
+    "raw_record": {
+      "id": "PPR1301521",
+      "source": "PPR",
+      "doi": "10.64898/2026.08.16.745062",
+      "title": "Interaction-Range Control of Synapsin Aggregation in a Coarse-Grained Model",
+      "authorString": "Krott LB, Puccinelli T, Oliveira Wd, Gomes MEN, Lomba E, Piazza F, Bordin JR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Krott LB",
+            "lastName": "Krott",
+            "firstName": "Leandro",
+            "initials": "LB"
+          },
+          {
+            "fullName": "Puccinelli T",
+            "lastName": "Puccinelli",
+            "firstName": "Thiago",
+            "initials": "T"
+          },
+          {
+            "fullName": "Oliveira Wd",
+            "lastName": "Oliveira",
+            "firstName": "Walas de",
+            "initials": "Wd"
+          },
+          {
+            "fullName": "Gomes MEN",
+            "lastName": "Gomes",
+            "firstName": "Maria",
+            "initials": "MEN"
+          },
+          {
+            "fullName": "Lomba E",
+            "lastName": "Lomba",
+            "firstName": "Enrique",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4768-2040"
+            }
+          },
+          {
+            "fullName": "Piazza F",
+            "lastName": "Piazza",
+            "firstName": "Francesco",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0205-3790"
+            }
+          },
+          {
+            "fullName": "Bordin JR",
+            "lastName": "Bordin",
+            "firstName": "José Rafael",
+            "initials": "JR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8025-6529"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0688-9395"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3579-482X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4768-2040"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8025-6529"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0205-3790"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Synapsin-1 is a multidomain neuronal protein containing extensive intrinsically disordered regions and is a key component of synaptic-vesicle condensates. Direct residue-level simulation of the collective organization of thousands of synapsin molecules remains computationally demanding. Here, we develop a coarse-grained description that connects residue-level CALVADOS 3 simulations to a one-particle-per-protein model. A potential of mean force between two synapsin molecules is obtained by umbrella sampling and represented by an isotropic effective interaction containing a short-range attractive region and a weak outer repulsive contribution. We compare two treatments of this interaction that differ only in the retention of the outer tail. Langevin dynamics simulations of effective proteins show aggregation upon cooling and compression in both models, but with markedly different collective organization. The shorter-ranged model progressively coarsens toward a single dense domain, whereas retaining the outer repulsive contribution favors the persistence of multiple mesoscale aggregates. The two models also display distinct relationships between aggregate size and particle mobility at low temperature. These results show that weak features of an effective protein–protein interaction can have pronounced consequences for collective synapsin organization at mesoscopic scales. <h4>TOC Graphic</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.08.16.745062"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-08-20",
+      "firstPublicationDate": "2026-08-18",
+      "firstIndexDate": "2026-08-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

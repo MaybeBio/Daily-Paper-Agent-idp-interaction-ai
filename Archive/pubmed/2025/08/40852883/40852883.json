@@ -1,0 +1,363 @@
+{
+  "identity": {
+    "pmid": "40852883",
+    "doi": "10.1002/pro.70270",
+    "title": "Second-order allosteric control as a mechanism for compensatory mutations in B-cell translocation gene 2."
+  },
+  "content": {
+    "abstract": "The mechanism underlying the pathogenic impact of mutations within intrinsically disordered regions of proteins remains enigmatic, and the mechanisms behind compensatory responses to these perturbations lie within an even deeper veil of obscurity. This study focuses on the compensatory mechanisms of single nucleotide variants within the disordered C-terminal tail of the BTG2 protein, a crucial regulator in cell cycle control. Here, we develop a novel approach by combining molecular dynamics simulations with time-dependent linear response theory to accurately compute the long-distance coupling dynamics between the tail and the structured domain. Using this approach, we reveal how specific mutations can counteract the functional disruptions caused by a known disease-associated mutation, V141M. Our findings demonstrate that the disordered tail regulates critical binding sites allosterically, and a weakening of this modulation may contribute to disease manifestation. However, compensatory mutations restore lost interactions between the disordered region and binding sites, exerting long-distance dynamic control over both critical binding sites and the mutation site 141M. This secondhand allosteric control could be a general mechanism for compensatory mutations to rescue function. These insights not only illuminate the pathogenic mechanisms at play but also offer a framework for identifying potential therapeutic targets in diseases associated with disordered protein regions.",
+    "keywords": [
+      "allostery",
+      "intrinsically disordered regions",
+      "linear response theory",
+      "molecular dynamics simulations",
+      "protein dynamics"
+    ],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "Allosteric Regulation",
+      "Humans",
+      "*Immediate-Early Proteins/genetics/chemistry/metabolism",
+      "*Tumor Suppressor Proteins/genetics/chemistry/metabolism",
+      "Mutation",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ose, Nicholas J",
+        "Campitelli, Paul",
+        "Modi, Tushar",
+        "Ozkan, S Banu"
+      ],
+      "short_names": [
+        "Ose NJ",
+        "Campitelli P",
+        "Modi T",
+        "Ozkan SB"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2194-5199"
+      ],
+      "affiliations": [
+        "Department of Physics and Center for Biological Physics, Arizona State University, Tempe, Arizona, USA.",
+        "Department of Physics and Center for Biological Physics, Arizona State University, Tempe, Arizona, USA.",
+        "Department of Physics and Center for Biological Physics, Arizona State University, Tempe, Arizona, USA.",
+        "Department of Physics and Center for Biological Physics, Arizona State University, Tempe, Arizona, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ose, Nicholas J",
+        "short_name": "Ose NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Center for Biological Physics, Arizona State University, Tempe, Arizona, USA."
+        ]
+      },
+      {
+        "full_name": "Campitelli, Paul",
+        "short_name": "Campitelli P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Center for Biological Physics, Arizona State University, Tempe, Arizona, USA."
+        ]
+      },
+      {
+        "full_name": "Modi, Tushar",
+        "short_name": "Modi T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Center for Biological Physics, Arizona State University, Tempe, Arizona, USA."
+        ]
+      },
+      {
+        "full_name": "Ozkan, S Banu",
+        "short_name": "Ozkan SB",
+        "identifiers": [
+          "0000-0002-2194-5199"
+        ],
+        "affiliations": [
+          "Department of Physics and Center for Biological Physics, Arizona State University, Tempe, Arizona, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/28 04:49",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40513649",
+      "40043838",
+      "39110832",
+      "38713502",
+      "38168038",
+      "37716093",
+      "37313628",
+      "36653471",
+      "36472898",
+      "36170455",
+      "36136729",
+      "35640718",
+      "35638578",
+      "35459639",
+      "35389981",
+      "35300968",
+      "35218569",
+      "35119946",
+      "34922214",
+      "34908530",
+      "34751386",
+      "34720710",
+      "34520739",
+      "34181904",
+      "34060423",
+      "33951592",
+      "33951452",
+      "33809335",
+      "33767175",
+      "33286439",
+      "33094545",
+      "32780837",
+      "32320672",
+      "32123092",
+      "32075411",
+      "32069678",
+      "32020911",
+      "31984199",
+      "31896787",
+      "31639992",
+      "30901260",
+      "30827842",
+      "30768593",
+      "30530661",
+      "30501088",
+      "30404916",
+      "30350856",
+      "29735739",
+      "29735738",
+      "29735729",
+      "29634920",
+      "29615624",
+      "29239139",
+      "29078291",
+      "29022880",
+      "28874829",
+      "28398197",
+      "28340338",
+      "27870991",
+      "26939022",
+      "26765584",
+      "26592383",
+      "26574453",
+      "26255589",
+      "26123021",
+      "25784053",
+      "25531225",
+      "25405282",
+      "25229149",
+      "24889800",
+      "24740064",
+      "24606139",
+      "24265125",
+      "23783631",
+      "23410359",
+      "23340509",
+      "23233352",
+      "22989858",
+      "22577825",
+      "22433123",
+      "22388747",
+      "22176582",
+      "22174266",
+      "21998559",
+      "21514144",
+      "21491910",
+      "21339742",
+      "20702892",
+      "20603017",
+      "20080782",
+      "19746446",
+      "19722269",
+      "19276069",
+      "19117054",
+      "18974182",
+      "18573080",
+      "18347590",
+      "18337750",
+      "18177895",
+      "17494761",
+      "17122770",
+      "11470758",
+      "11381529",
+      "11377414",
+      "10523486",
+      "9712883",
+      "8891336",
+      "8876165",
+      "8254673"
+    ],
+    "similar": [
+      "40852883",
+      "42475469",
+      "30339916",
+      "35163572",
+      "26338442",
+      "33984364",
+      "40671268",
+      "40842437",
+      "40729101",
+      "25418105",
+      "42089576",
+      "23912807",
+      "34132193",
+      "40384021",
+      "40568771",
+      "40725138",
+      "31881526",
+      "38529923",
+      "30949773",
+      "31707710",
+      "41537193",
+      "31189701",
+      "33448856",
+      "35012986",
+      "37896786",
+      "41689234",
+      "31589795",
+      "40738203",
+      "41552434",
+      "38153169",
+      "28718281",
+      "38231868",
+      "29072601",
+      "41008647",
+      "33508318",
+      "38713502",
+      "28912275",
+      "23055912",
+      "35839100",
+      "41599722",
+      "41151708",
+      "33806614",
+      "37078611",
+      "41413356",
+      "38941236",
+      "40286867",
+      "30827842",
+      "31006514",
+      "41418394",
+      "23267836",
+      "23228330",
+      "38605029",
+      "26619280",
+      "35389981",
+      "30175666",
+      "40563391",
+      "41292192",
+      "29284740",
+      "35659507",
+      "36922138",
+      "26255589",
+      "37957479",
+      "31645439",
+      "9557715",
+      "40345282",
+      "41519346",
+      "26488662",
+      "22457068",
+      "17059830",
+      "34577121",
+      "29550429",
+      "31136713",
+      "39012208",
+      "39819199",
+      "37243229",
+      "41592181",
+      "31138781",
+      "41889773",
+      "30688063",
+      "28754691",
+      "23783631",
+      "39777470",
+      "24785005",
+      "29972810",
+      "23703573",
+      "31855381",
+      "34138559",
+      "34805715",
+      "29958424",
+      "41780056",
+      "25002472",
+      "35503682",
+      "29581285",
+      "33779503",
+      "40311745",
+      "30471699",
+      "19805185",
+      "41633276",
+      "41782249",
+      "29634920"
+    ],
+    "review": [
+      "40852883",
+      "40671268",
+      "31707710",
+      "40286867",
+      "37957479",
+      "41780056"
+    ],
+    "pmc": [
+      "12375984"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40852883.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40852883/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70270",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

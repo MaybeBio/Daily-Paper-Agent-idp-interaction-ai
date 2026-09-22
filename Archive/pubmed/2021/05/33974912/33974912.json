@@ -1,0 +1,523 @@
+{
+  "identity": {
+    "pmid": "33974912",
+    "doi": "10.1016/j.molcel.2021.04.014",
+    "title": "Intrinsically disordered Meningioma-1 stabilizes the BAF complex to cause AML."
+  },
+  "content": {
+    "abstract": "Meningioma-1 (MN1) overexpression in AML is associated with poor prognosis, and forced expression of MN1 induces leukemia in mice. We sought to determine how MN1 causes AML. We found that overexpression of MN1 can be induced by translocations that result in hijacking of a downstream enhancer. Structure predictions revealed that the entire MN1 coding frame is disordered. We identified the myeloid progenitor-specific BAF complex as the key interaction partner of MN1. MN1 over-stabilizes BAF on enhancer chromatin, a function directly linked to the presence of a long polyQ-stretch within MN1. BAF over-stabilization at binding sites of transcription factors regulating a hematopoietic stem/progenitor program prevents the developmentally appropriate decommissioning of these enhancers and results in impaired myeloid differentiation and leukemia. Beyond AML, our data detail how the overexpression of a polyQ protein, in the absence of any coding sequence mutation, can be sufficient to cause malignant transformation.",
+    "keywords": [
+      "AML",
+      "BAF",
+      "IDP",
+      "IDR",
+      "Meningioma-1",
+      "SWI/SNF",
+      "intrinsically disordered protein/region",
+      "leukemia",
+      "polyQ"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Base Sequence",
+      "Carcinogenesis/*genetics/metabolism/pathology",
+      "Cell Line, Tumor",
+      "Chromatin/genetics/metabolism/pathology",
+      "DNA Helicases/*genetics/metabolism",
+      "Enhancer Elements, Genetic",
+      "Female",
+      "Gene Expression Regulation, Leukemic",
+      "Gene Regulatory Networks",
+      "Humans",
+      "Intrinsically Disordered Proteins/*genetics/metabolism",
+      "Leukemia, Myeloid, Acute/*genetics/metabolism/mortality/pathology",
+      "Male",
+      "Mice",
+      "Mice, Inbred C57BL",
+      "Mice, Transgenic",
+      "Nuclear Proteins/*genetics/metabolism",
+      "Peptides/genetics/metabolism",
+      "Protein Interaction Mapping",
+      "Protein Stability",
+      "Protein Transport",
+      "Signal Transduction",
+      "Survival Analysis",
+      "Trans-Activators/*genetics/metabolism",
+      "Transcription Factors/*genetics/metabolism",
+      "Tumor Suppressor Proteins/*genetics/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Riedel, Simone S",
+        "Lu, Congcong",
+        "Xie, Hongbo M",
+        "Nestler, Kevin",
+        "Vermunt, Marit W",
+        "Lenard, Alexandra",
+        "Bennett, Laura",
+        "Speck, Nancy A",
+        "Hanamura, Ichiro",
+        "Lessard, Julie A",
+        "Blobel, Gerd A",
+        "Garcia, Benjamin A",
+        "Bernt, Kathrin M"
+      ],
+      "short_names": [
+        "Riedel SS",
+        "Lu C",
+        "Xie HM",
+        "Nestler K",
+        "Vermunt MW",
+        "Lenard A",
+        "Bennett L",
+        "Speck NA",
+        "Hanamura I",
+        "Lessard JA",
+        "Blobel GA",
+        "Garcia BA",
+        "Bernt KM"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Division of Pediatric Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, USA.",
+        "Department of Biochemistry and Biophysics, University of Pennsylvania, and the Epigenetics Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Department of Bioinformatics and Health Informatics (DBHI), Children's Hospital of Philadelphia, Philadelphia, PA, USA.",
+        "Division of Pediatric Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, USA.",
+        "Division of Hematology, Children's Hospital of Philadelphia, Philadelphia, PA, USA.",
+        "Division of Pediatric Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, USA.",
+        "Department of Cell and Developmental Biology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Department of Cell and Developmental Biology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA.",
+        "Division of Hematology, Department of Internal Medicine, Aichi Medical University, Nagakute, Japan.",
+        "Department of Pathology and Cell Biology, Faculty of Medicine, Universite de Montreal, Montreal, Quebec, Canada.",
+        "Division of Hematology, Children's Hospital of Philadelphia, Philadelphia, PA, USA; Department of Pediatrics, Perelman School of Medicine at the University of Pennsylvania and Abramson Cancer Center, Philadelphia, PA, USA.",
+        "Department of Biochemistry and Biophysics, University of Pennsylvania, and the Epigenetics Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA.",
+        "Division of Pediatric Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, USA; Department of Pediatrics, Perelman School of Medicine at the University of Pennsylvania and Abramson Cancer Center, Philadelphia, PA, USA. Electronic address: berntk@chop.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Riedel, Simone S",
+        "short_name": "Riedel SS",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Lu, Congcong",
+        "short_name": "Lu C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, University of Pennsylvania, and the Epigenetics Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Xie, Hongbo M",
+        "short_name": "Xie HM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioinformatics and Health Informatics (DBHI), Children's Hospital of Philadelphia, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Nestler, Kevin",
+        "short_name": "Nestler K",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Vermunt, Marit W",
+        "short_name": "Vermunt MW",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hematology, Children's Hospital of Philadelphia, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Lenard, Alexandra",
+        "short_name": "Lenard A",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Bennett, Laura",
+        "short_name": "Bennett L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Speck, Nancy A",
+        "short_name": "Speck NA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell and Developmental Biology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA 19104, USA."
+        ]
+      },
+      {
+        "full_name": "Hanamura, Ichiro",
+        "short_name": "Hanamura I",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hematology, Department of Internal Medicine, Aichi Medical University, Nagakute, Japan."
+        ]
+      },
+      {
+        "full_name": "Lessard, Julie A",
+        "short_name": "Lessard JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pathology and Cell Biology, Faculty of Medicine, Université de Montréal, Montréal, Québec, Canada."
+        ]
+      },
+      {
+        "full_name": "Blobel, Gerd A",
+        "short_name": "Blobel GA",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Hematology, Children's Hospital of Philadelphia, Philadelphia, PA, USA; Department of Pediatrics, Perelman School of Medicine at the University of Pennsylvania and Abramson Cancer Center, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Garcia, Benjamin A",
+        "short_name": "Garcia BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, University of Pennsylvania, and the Epigenetics Institute, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA."
+        ]
+      },
+      {
+        "full_name": "Bernt, Kathrin M",
+        "short_name": "Bernt KM",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Pediatric Oncology, Children's Hospital of Philadelphia, Philadelphia, PA, USA; Department of Pediatrics, Perelman School of Medicine at the University of Pennsylvania and Abramson Cancer Center, Philadelphia, PA, USA. Electronic address: berntk@chop.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2021 Jun 3",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/12 06:00",
+    "fetched_at": "2026-09-20 03:06:41"
+  },
+  "links": {
+    "cites": [
+      "42265005",
+      "41854887",
+      "40503962",
+      "40381034",
+      "40369078",
+      "40162972",
+      "39875604",
+      "39853740",
+      "39621149",
+      "39409964",
+      "39095374",
+      "39093124",
+      "39017849",
+      "38956580",
+      "38864848",
+      "38788489",
+      "38655899",
+      "38356460",
+      "37922899",
+      "37735617",
+      "37388925",
+      "37173979",
+      "35484036",
+      "35169893",
+      "34865701",
+      "34087176",
+      "34018649"
+    ],
+    "refs": [
+      "33575550",
+      "33558760",
+      "32817791",
+      "32303701",
+      "31902945",
+      "31821784",
+      "31606723",
+      "31427792",
+      "31413090",
+      "31351925",
+      "31249361",
+      "30940742",
+      "30463913",
+      "30361629",
+      "30343899",
+      "29930091",
+      "29930090",
+      "29800273",
+      "29425488",
+      "28994797",
+      "28844694",
+      "28442792",
+      "28408647",
+      "28391084",
+      "28369036",
+      "28369034",
+      "28340338",
+      "28262751",
+      "28241141",
+      "28174417",
+      "27941797",
+      "27931852",
+      "27203110",
+      "27043002",
+      "26927674",
+      "26919435",
+      "26690545",
+      "26660429",
+      "26571505",
+      "25982114",
+      "25516281",
+      "25401736",
+      "25103404",
+      "24735413",
+      "24596419",
+      "24478402",
+      "24285714",
+      "23626719",
+      "23582322",
+      "23515710",
+      "23018638",
+      "22961246",
+      "22929766",
+      "22488406",
+      "22412018",
+      "22286128",
+      "22072540",
+      "21965128",
+      "21741595",
+      "21221095",
+      "20887958",
+      "20869592",
+      "20869591",
+      "20513432",
+      "19752345",
+      "19561324",
+      "19451432",
+      "19451168",
+      "19056693",
+      "18798982",
+      "17984063",
+      "17698380",
+      "16912223",
+      "16769770",
+      "16199517",
+      "15890672",
+      "15870292",
+      "12569362",
+      "11094079",
+      "11081516",
+      "7731705"
+    ],
+    "similar": [
+      "33974912",
+      "31927137",
+      "16912223",
+      "33542482",
+      "17494859",
+      "19451432",
+      "28892045",
+      "16105979",
+      "32862286",
+      "33242229",
+      "39954676",
+      "39068559",
+      "23626719",
+      "24478402",
+      "23974202",
+      "31413090",
+      "33782403",
+      "26927674",
+      "17698380",
+      "22905229",
+      "25339361",
+      "22488406",
+      "24957708",
+      "19379599",
+      "24285714",
+      "23394438",
+      "30679800",
+      "23327922",
+      "21741595",
+      "27983532",
+      "32533098",
+      "25981841",
+      "19561324",
+      "22427636",
+      "31201281",
+      "21828125",
+      "33594072",
+      "18037989",
+      "30078722",
+      "34799403",
+      "34358447",
+      "33558760",
+      "20425451",
+      "23515710",
+      "11509180",
+      "24686170",
+      "34716243",
+      "29290617",
+      "32170627",
+      "27765915",
+      "22285184",
+      "24051379",
+      "24346698",
+      "23900238",
+      "19752345",
+      "26802049",
+      "38437498",
+      "19667399",
+      "27342536",
+      "16081688",
+      "26111797",
+      "31839203",
+      "34260936",
+      "28945229",
+      "28960191",
+      "33950983",
+      "34042280",
+      "33323379",
+      "32768438",
+      "34140644",
+      "27770540",
+      "25184385",
+      "31630044",
+      "31842997",
+      "29930091",
+      "29374058",
+      "33207205",
+      "21965128",
+      "25174404",
+      "28945250",
+      "19342595",
+      "26655900",
+      "15024077",
+      "24421395",
+      "31652801",
+      "29958106",
+      "34174329",
+      "33931647",
+      "25456127",
+      "32286143",
+      "20072157",
+      "28438527",
+      "31902945",
+      "24220271",
+      "15331439",
+      "18955569",
+      "31309149",
+      "34587164",
+      "36662812",
+      "27377881"
+    ],
+    "review": [
+      "33974912",
+      "17698380",
+      "19379599",
+      "25981841",
+      "27342536"
+    ],
+    "pmc": [
+      "8380056"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(21)00319-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://glygen.org/publication/PubMed/33974912/",
+        "provider": "GlyGen glycoinformatics resource",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/acutemyeloidleukemia.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Acute Myeloid Leukemia"
+      },
+      {
+        "url": "https://www.informatics.jax.org/reference/33974912",
+        "provider": "Mouse Genome Informatics (MGI)",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33974912/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33974912",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/33974912",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1367",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33974912",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

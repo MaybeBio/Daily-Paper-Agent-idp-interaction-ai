@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38162180",
+  "title": "Structural analysis and functional evaluation of the disordered ss-hexosyltransferase region from Hamamotoa (Sporobolomyces) singularis.",
+  "authors": "Dagher, Suzanne F; Vaishnav, Asmita; Stanley, Christopher B; Meilleur, Flora; Edwards, Brian F P; Bruno-Barcena, Jose M",
+  "journal": "Frontiers in bioengineering and biotechnology",
+  "published_date": "2024-01-02",
+  "window": {
+    "start": "2024-01-01",
+    "end": "2024-01-07"
+  },
+  "score": 5,
+  "one_liner_zh": "该文研究糖基转移酶BglA中无序N端区域对膜结合与分泌比例及酶活的影响，涉及IDR功能但非PPI机制建模，方法以实验删除分析为主，AI/物理模拟仅作辅助预测，故综合评分为5。",
+  "abstract": "Hamamotoa (Sporobolomyces) singularis codes for an industrially important membrane bound ss-hexosyltransferase (BHT), (BglA, UniprotKB: Q564N5) that has applications in the production of natural fibers such as galacto-oligosaccharides (GOS) and natural sugars found in human milk. When heterologously expressed by Komagataella phaffii GS115, BHT is found both membrane bound and soluble secreted into the culture medium. In silico structural predictions and crystal structures support a glycosylated homodimeric enzyme and the presence of an intrinsically disordered region (IDR) with membrane binding potential within its novel N-terminal region (1-110 amino acids). Additional in silico analysis showed that the IDR may not be essential for stable homodimerization. Thus, we performed progressive deletion analyses targeting segments within the suspected disordered region, to determine the N-terminal disorder region's impact on the ratio of membrane-bound to secreted soluble enzyme and its contribution to enzyme activity. The ratio of the soluble secreted to membrane-bound enzyme shifted from 40% to 53% after the disordered N-terminal region was completely removed, while the specific activity was unaffected. Furthermore, functional analysis of each glycosylation site found within the C-terminal domain revealed reduced total secreted protein activity by 58%-97% in both the presence and absence of the IDR, indicating that glycosylation at all four locations is required by the host for the secretion of active enzyme and independent of the removed disordered N-terminal region. Overall, the data provides evidence that the disordered region only partially influences the secretion and membrane localization of BHT.",
+  "abstract_zh": "Hamamotoa (Sporobolomyces) singularis 编码一种工业上重要的膜结合 ss-己糖基转移酶 (BHT)（BglA，UniprotKB: Q564N5），该酶在天然纤维（如半乳寡糖 (GOS)）及人乳中天然糖类的生产中具有应用价值。当由 Komagataella phaffii GS115 异源表达时，BHT 既以膜结合形式存在，也以可溶性分泌形式释放到培养基中。计算机结构预测和晶体结构支持一种糖基化同源二聚体酶，并表明其新颖的 N 端区域（1-110 氨基酸）内存在一个具有膜结合潜力的固有无序区域 (IDR)。进一步的计算机分析显示，该 IDR 可能并非稳定同源二聚化所必需。因此，我们针对疑似无序区域内的片段进行了渐进式删除分析，以确定 N 端无序区域对膜结合酶与分泌型可溶性酶比例的影响及其对酶活性的贡献。在完全移除无序 N 端区域后，可溶性分泌酶与膜结合酶的比例从 40% 升至 53%，而比活性未受影响。此外，对 C 端结构域内每个糖基化位点的功能分析显示，在存在和不存在 IDR 的情况下，总分泌蛋白活性均降低了 58%-97%，表明宿主分泌活性酶需要所有四个位点的糖基化，且这一需求与移除的无序 N 端区域无关。总体而言，数据表明该无序区域仅部分影响 BHT 的分泌和膜定位。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38162180/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38162180/",
+  "paper_page_path": "papers/pubmed/38162180/index.html"
+}

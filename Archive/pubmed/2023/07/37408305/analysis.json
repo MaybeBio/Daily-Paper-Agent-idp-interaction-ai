@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37408305",
+  "title": "Aromatic and arginine content drives multiphasic condensation of protein-RNA mixtures.",
+  "authors": "Chew, Pin Yu; Joseph, Jerelle A; Collepardo-Guevara, Rosana; Reinhardt, Aleks",
+  "journal": "Biophysical journal",
+  "published_date": "2023-07-06",
+  "window": {
+    "start": "2023-07-03",
+    "end": "2023-07-09"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用残基分辨粗粒化模拟研究蛋白-RNA混合物中多相凝聚体的形成机制，揭示芳香族残基和精氨酸含量差异驱动相分离，直接聚焦无序蛋白/凝聚体中的互作机制建模，方法为物理模拟，高度契合课题。",
+  "abstract": "Multiphasic architectures are found ubiquitously in biomolecular condensates and are thought to have important implications for the organization of multiple chemical reactions within the same compartment. Many of these multiphasic condensates contain RNA in addition to proteins. Here, we investigate the importance of different interactions in multiphasic condensates comprising two different proteins and RNA using computer simulations with a residue-resolution coarse-grained model of proteins and RNA. We find that in multilayered condensates containing RNA in both phases, protein-RNA interactions dominate, with aromatic residues and arginine forming the key stabilizing interactions. The total aromatic and arginine content of the two proteins must be appreciably different for distinct phases to form, and we show that this difference increases as the system is driven toward greater multiphasicity. Using the trends observed in the different interaction energies of this system, we demonstrate that we can also construct multilayered condensates with RNA preferentially concentrated in one phase. The \"rules\" identified can thus enable the design of synthetic multiphasic condensates to facilitate further study of their organization and function.",
+  "abstract_zh": "多相结构普遍存在于生物分子凝聚体中，并被认为对同一区室内多种化学反应的組織具有重要影响。许多这类多相凝聚体除蛋白质外还含有RNA。在此，我们利用蛋白质和RNA的残基分辨率粗粒化模型进行计算机模拟，研究由两种不同蛋白质和RNA组成的多相凝聚体中不同相互作用的重要性。我们发现，在两层均含RNA的多层凝聚体中，蛋白质-RNA相互作用占主导地位，其中芳香族残基和精氨酸构成关键的稳定相互作用。两种蛋白质的总芳香族和精氨酸含量必须显著不同才能形成不同相，并且我们表明，随着系统趋向更大的多相性，这种差异会增加。利用该系统中不同相互作用能观察到的趋势，我们证明还可以构建RNA优先富集于某一相的多层凝聚体。因此，所识别的“规则”能够指导合成多相凝聚体的设计，以促进对其组织和功能的进一步研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37408305/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37408305/",
+  "paper_page_path": "papers/pubmed/37408305/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38766093",
+  "title": "Predicting transcriptional activation domain function using Graph Neural Networks.",
+  "authors": "Farheen, Farhanaz; Broyles, Bradley K; Zhang, Yuanyuan; Ibtehaz, Nabil; Erkine, Alexandre M; Kihara, Daisuke",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-05-20",
+  "window": {
+    "start": "2024-05-20",
+    "end": "2024-05-26"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用图神经网络预测转录激活域功能，对象为无序蛋白（激活域），聚焦其功能预测而非直接PPI机制，但方法（GNN结合结构特征）对IDR功能与互作建模有可迁移启发。",
+  "abstract": "Analysis of factors that lead to the functionality of transcriptional activation domains remains a crucial and yet challenging task owing to the significant diversity in their sequences and their intrinsically disordered nature. Almost all existing methods that have aimed to predict activation domains have involved traditional machine learning approaches, such as logistic regression, that are unable to capture complex patterns in data or plain convolutional neural networks and have been limited in exploration of structural features. However, there is a tremendous potential in the inspection of the structural properties of activation domains, and an opportunity to investigate complex relationships between features of residues in the sequence. To address these, we have utilized the power of graph neural networks which can represent structural data in the form of nodes and edges, allowing nodes to exchange information among themselves. We have experimented with two kinds of graph formulations, one involving residues as nodes and the other assigning atoms to be the nodes. A logistic regression model was also developed to analyze feature importance. For all the models, several feature combinations were experimented with. The residue-level GNN model with amino acid type, residue position, acidic/basic/aromatic property and secondary structure feature combination gave the best performing model with accuracy, F1 score and AUROC of 97.9%, 71% and 97.1% respectively which outperformed other existing methods in the literature when applied on the dataset we used. Among the other structure-based features that were analyzed, the amphipathic property of helices also proved to be an important feature for classification. Logistic regression results showed that the most dominant feature that makes a sequence functional is the frequency of different types of amino acids in the sequence. Our results consistent have shown that functional sequences have more acidic and aromatic residues whereas basic residues are seen more in non-functional sequences.",
+  "abstract_zh": "分析导致转录激活域功能性的因素，仍然是一项关键且具有挑战性的任务，这归因于其序列的显著多样性和其内在无序性。几乎所有旨在预测激活域的现有方法都涉及传统机器学习方法，如逻辑回归，这些方法无法捕捉数据中的复杂模式，或使用简单的卷积神经网络，并且在结构特征的探索上受到限制。然而，检查激活域的结构特性具有巨大潜力，并且有机会研究序列中残基特征之间的复杂关系。为解决这些问题，我们利用了图神经网络的力量，该网络能够以节点和边的形式表示结构数据，允许节点之间交换信息。我们实验了两种图构建方式，一种以残基为节点，另一种将原子指定为节点。还开发了一个逻辑回归模型来分析特征重要性。对于所有模型，我们实验了多种特征组合。残基级GNN模型，结合氨基酸类型、残基位置、酸性/碱性/芳香性属性和二级结构特征组合，表现最佳，准确率、F1分数和AUROC分别为97.9%、71%和97.1%，在我们使用的数据集上优于文献中其他现有方法。在分析的其他基于结构的特征中，螺旋的两亲性也被证明是分类的重要特征。逻辑回归结果表明，使序列具有功能性的最主要特征是序列中不同类型氨基酸的频率。我们的结果一致显示，功能性序列含有更多酸性和芳香性残基，而碱性残基在非功能性序列中更为常见。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38766093/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38766093/",
+  "paper_page_path": "papers/pubmed/38766093/index.html"
+}

@@ -1,0 +1,56 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract
+- **Shared manuscript claim summary** The authors report that full-length CREB, a bZIP transcription factor with long disordered activation domains, dimerizes before binding DNA, and that its three intrinsically disordered activation domains collectively reduce general DNA affinity, thereby enhancing the efficiency of target search by limiting sequestration on non-target DNA.
+- **Visible evidence base** In-vitro stopped-flow kinetic and equilibrium binding experiments, as described in the abstract
+- **Missing materials affecting confidence** Full manuscript text, figures, tables, experimental protocols, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and mechanistically interesting hypothesis linking disordered activation domains to facilitated DNA target search via modulation of non-specific affinity. However, the evidence base described is insufficient to evaluate the rigor of the kinetic and equilibrium measurements, the quantitative support for the proposed mechanism, or the generality of the conclusion. The claim that reduced non-specific affinity "makes the target-search process more efficient" requires a more explicit quantitative framework than the abstract provides.
+- **Who would be interested in the results, and why** Researchers studying transcription factor dynamics, intrinsically disordered proteins, and the biophysical basis of gene regulation. The work could also interest those developing kinetic models of protein-DNA interactions, as it proposes a specific role for disordered domains in modulating search efficiency.
+- **Major strengths** The study addresses a timely and important question about the functional role of disordered activation domains beyond transcriptional activation. The use of full-length protein rather than isolated domains is a notable strength, as it captures the physiological context. The proposed mechanism, that disordered domains reduce non-specific affinity to avoid sequestration, is conceptually clear and testable.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that all three disordered activation domains contribute to decreased general DNA affinity, and that this decrease makes target search more efficient by limiting sequestration on non-target DNA.
+  - **Evidence pointer** In-vitro stopped-flow kinetic and equilibrium binding experiments, location not provided
+  - **Concern** The abstract does not provide quantitative data, such as measured dissociation constants, association rate constants, or target search times, that would substantiate the claim that the reduction in non-specific affinity translates into enhanced search efficiency. Without such numbers, the causal link between affinity modulation and search efficiency remains asserted rather than demonstrated.
+  - **Why it matters** The central conclusion of the paper rests on a quantitative relationship between non-specific binding affinity and search efficiency. If the kinetic data do not directly measure search efficiency or if the affinity changes are not shown to be functionally significant, the proposed mechanism is not established.
+  - **Resolution test** Provide quantitative values for non-specific and specific DNA binding affinities for full-length CREB versus variants lacking one or more activation domains, and show that the observed differences correlate with measured target search rates in a manner consistent with the proposed model.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "general affinity for DNA" is used without definition. It is unclear whether this refers to non-specific DNA binding, sequence-independent affinity, or a composite measure.
+  - **Required correction** Define "general affinity" explicitly, and specify how it was measured and distinguished from specific binding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to prior work
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that dimerization before DNA binding was "recently shown for the standalone CREB bZIP domain," but does not indicate whether the full-length protein behaves identically or whether the disordered domains alter dimerization kinetics or affinity.
+  - **Required correction** Clarify whether the dimerization properties of full-length CREB are quantitatively similar to those of the isolated bZIP domain, or note any differences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Scope of conclusion
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The conclusion that disordered activation domains modulate non-specific DNA binding affinity is presented as a general mechanism, but the abstract only reports data for CREB. It is unclear whether the authors intend this as a general principle or a specific finding.
+  - **Required correction** Either temper the general claim or provide evidence from additional transcription factors to support the broader statement.
+- **Technical failings that need to be addressed before the case is established** R1-M1, as the quantitative link between affinity reduction and search efficiency is not demonstrated in the abstract.
+- **Assessment against Nature-style criteria** 
+  - Originality: The idea that disordered activation domains modulate non-specific DNA affinity to improve target search is not entirely novel, as prior work has suggested roles for effector domains in search, but the specific mechanistic proposal is a useful contribution.
+  - Scientific importance: If substantiated, the finding would advance understanding of how disordered regions contribute to transcription factor function, which is of broad interest.
+  - Interdisciplinary readership: The topic bridges biophysics, molecular biology, and gene regulation, and could appeal to a wide audience if presented accessibly.
+  - Technical soundness: Cannot be assessed from the abstract alone. The described methods are appropriate in principle, but the absence of quantitative results prevents evaluation.
+  - Readability for nonspecialists: The abstract is concise and generally clear, though terms like "bZIP" and "stopped-flow" may require context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the experimental approach is reasonable, but the abstract does not provide sufficient quantitative support to validate the central mechanistic claim. A revised version with detailed kinetic and equilibrium data, and a clear demonstration that reduced non-specific affinity enhances search efficiency, would be needed to support publication.
+
+## Risk / unsupported claims
+- The claim that reduced non-specific DNA affinity "makes the target-search process more efficient" is unsupported by quantitative evidence in the abstract.
+- The claim that all three activation domains contribute to decreased general DNA affinity is stated without data showing individual or combinatorial effects.
+- The assertion that the mechanism proposed is "one of the ways" disordered domains affect target search is presented as a general statement without comparative evidence from other systems.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39093570",
+  "title": "Predicting Conformational Ensembles of Intrinsically Disordered Proteins: From Molecular Dynamics to Machine Learning.",
+  "authors": "Aupic, Jana; Pokorna, Pavlina; Ruthstein, Sharon; Magistrato, Alessandra",
+  "journal": "The journal of physical chemistry letters",
+  "published_date": "2024-08-02",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 7,
+  "one_liner_zh": "综述从分子动力学到机器学习的无序蛋白构象系综预测方法，并以人铜转运蛋白N端为测试案例评估，虽聚焦IDP构象而非直接PPI机制建模，但方法可迁移至IDP介导互作研究。",
+  "abstract": "Intrinsically disordered proteins and regions (IDP/IDRs) are ubiquitous across all domains of life. Characterized by a lack of a stable tertiary structure, IDP/IDRs populate a diverse set of transiently formed structural states that can promiscuously adapt upon binding with specific interaction partners and/or certain alterations in environmental conditions. This malleability is foundational for their role as tunable interaction hubs in core cellular processes such as signaling, transcription, and translation. Tracing the conformational ensemble of an IDP/IDR and its perturbation in response to regulatory cues is thus paramount for illuminating its function. However, the conformational heterogeneity of IDP/IDRs poses several challenges. Here, we review experimental and computational methods devised to disentangle the conformational landscape of IDP/IDRs, highlighting recent computational advances that permit proteome-wide scans of IDP/IDRs conformations. We briefly evaluate selected computational methods using the disordered N-terminal of the human copper transporter 1 as a test case and outline further challenges in IDP/IDRs ensemble prediction.",
+  "abstract_zh": "intrinsically disordered proteins and regions（IDP/IDRs）在所有生命领域中普遍存在。以缺乏稳定三级结构为特征，IDP/IDRs 填充了多种瞬时形成的结构状态，这些状态在与特定相互作用伙伴结合和/或环境条件发生某些变化时，可以混杂地适应。这种可塑性是它们作为核心细胞过程（如信号传导、转录和翻译）中可调相互作用枢纽的基础。因此，追踪 IDP/IDR 的构象集合及其对调控信号的响应扰动，对于阐明其功能至关重要。然而，IDP/IDRs 的构象异质性带来了若干挑战。在此，我们回顾了为解开 IDP/IDRs 构象景观而设计的实验和计算方法，重点介绍了近期允许对 IDP/IDRs 构象进行蛋白质组范围扫描的计算进展。我们以人类铜转运蛋白1的无序N端作为测试案例，简要评估了选定的计算方法，并概述了 IDP/IDRs 集合预测中的进一步挑战。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39093570/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39093570/",
+  "paper_page_path": "papers/pubmed/39093570/index.html"
+}

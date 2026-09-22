@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the review article as provided
+- **Shared manuscript claim summary** The authors review computational models of chromatin compartment dynamics from a liquid-state perspective, arguing that phase separation of proteins and nucleic acids into membraneless condensates is a key mechanism underlying chromatin organization and dynamics. They survey polymer-based models (forward and inverse approaches, MiChroM, SBS, Hip-Hop, Living Chromatin) and mesoscale field-theoretic models (MELON, spin-Hamiltonian approaches, mechanical models), and conclude with conceptual and methodological bottlenecks for future work.
+- **Visible evidence base** Full text including abstract, introduction, sections 2 and 3, conclusion, author contributions, funding, conflict of interest, and publisher's note. No figures or tables were provided in the submitted material.
+- **Missing materials affecting confidence** Figures and tables referenced in the text (Figures 1, 2A–D, 3A–D) were not provided. This limits assessment of how well the visual summaries support the textual claims. No supplementary material was provided.
+
+## Reviewer
+- **Overall assessment** This is a well-structured and readable review that covers a timely and important topic at the interface of soft matter physics, computational biology, and chromatin biology. The authors successfully synthesize a broad range of modeling approaches under a coherent liquid-state framework, and they are appropriately cautious about the limitations of phase separation as a universal explanatory mechanism. The main weaknesses are a lack of critical depth in comparing model predictions against experimental data, some imprecise statements about model capabilities, and an incomplete treatment of the relationship between equilibrium and non-equilibrium processes. The review will be of interest to researchers in chromatin biophysics and computational biology, but it does not yet provide the rigorous comparative assessment that would make it a definitive reference in the field.
+- **Who would be interested in the results, and why** Researchers in chromatin biophysics, genome organization, and computational biology will find this review useful as an entry point to the modeling literature. Soft matter physicists and polymer scientists interested in biological phase separation will also benefit from the survey of chromatin-specific applications. Experimentalists using super-resolution imaging or Hi-C may find the review helpful for interpreting their data in terms of liquid-state concepts. The interdisciplinary framing makes it accessible to a broad readership, though specialists may desire more technical depth.
+- **Major strengths** The review provides a clear and organized taxonomy of computational models, spanning polymer-based and field-theoretic approaches. The authors effectively contextualize the liquid-state perspective within recent experimental findings, particularly super-resolution imaging. The discussion of forward versus inverse modeling approaches is instructive and well-illustrated with concrete examples. The review is balanced in acknowledging the limitations of phase separation as a universal mechanism, and the concluding section identifies genuine open problems.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the MiChroM model "captures protein binding induced phase separation implicitly by learning energy landscapes of chromatin folding from Hi-C and Chip-seq data once" and that "the subdiffusive exponent originates from chromatin's effective energy landscape shaped by thermodynamics-driven phase separation of A/B epigenetic types and non-equilibrium motorized cross-linking."
+  - **Evidence pointer** Section 2, paragraph 6; location not provided
+  - **Concern** The claim that MiChroM captures phase separation "implicitly" is vague. The model's energy function includes interactions between chromatin types, but the mechanism by which these interactions produce phase-separated compartments is not explained. Furthermore, the attribution of the subdiffusive exponent to a combination of equilibrium phase separation and non-equilibrium motorized cross-linking is presented without derivation or citation to specific simulation results that isolate these contributions.
+  - **Why it matters** Readers need to understand what MiChroM actually does and does not include to assess its relevance for phase separation. If the model does not explicitly simulate non-equilibrium processes, the claim about motorized cross-linking is misleading. Precision here is essential for a review that aims to guide model selection.
+  - **Resolution test** Clarify the mechanistic basis of phase separation in MiChroM, specify which terms in the energy function drive compartment formation, and provide citations to simulation studies that directly test the role of non-equilibrium processes in producing the observed subdiffusive dynamics.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "the role of computational models is crucial for establishing a rigorous and quantitative foundation for the new concepts and disentangling the complex interplay of forces that contribute to the emergent patterns of chromatin dynamics and organization."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The review does not deliver on this promise. While it describes many models, it rarely compares their predictions against each other or against specific experimental measurements in a quantitative way. For example, the discussion of the Living Chromatin model mentions calibration from MSD measurements but does not state how well the model reproduces the data or how it compares to MiChroM or SBS on the same observables.
+  - **Why it matters** A review that claims computational models are crucial for quantitative understanding should demonstrate how models have actually advanced quantitative understanding. Without comparative assessment, the reader cannot judge which models are most reliable or what specific insights they have provided.
+  - **Resolution test** Add a comparative section or table that lists key experimental observables (e.g., subdiffusive exponent, compartment size, contact probabilities) and states which models reproduce them and with what accuracy. Alternatively, temper the claim to reflect the current state of the field.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the presence of non-equilibrium, motorized ATP-driven processes is also shown to modulate chromatin dynamics which manifests in the form of ATP-dependent flows, driven fluctuations, and anomalous diffusion coefficients of chromatin loci."
+  - **Evidence pointer** Section 1, paragraph 4; location not provided
+  - **Concern** This statement is presented as a general finding, but the cited phenomena (ATP-dependent flows, driven fluctuations) are not defined or explained in the context of the models reviewed. The review does not discuss how any of the models described in Sections 2 and 3 incorporate such non-equilibrium processes, nor does it explain how they would manifest in the observables.
+  - **Why it matters** Non-equilibrium activity is a central theme in the liquid-state perspective, and the review's claim that it modulates chromatin dynamics needs to be connected to the models being reviewed. Without this connection, the reader cannot assess whether the models capture this important aspect.
+  - **Resolution test** Provide a dedicated discussion of how non-equilibrium processes are or are not included in each model class, and specify which experimental observations require non-equilibrium explanations.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2, paragraph 2
+  - **Evidence pointer** Location not provided
+  - **Issue** The distinction between forward and inverse approaches is introduced but the terms "MaxEnt approach" and "least-biased choice of parameters" are used without definition. Nonspecialist readers may not be familiar with maximum entropy methods.
+  - **Required correction** Add a brief explanation of the MaxEnt approach and why it produces a least-biased parameter choice, or provide a citation to a review that explains this method.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3, paragraph 2
+  - **Evidence pointer** Location not provided
+  - **Issue** The statement that field-theoretic descriptions "manage to avoid the notorious glassy states encountered in the particle-based polymer simulations" is an oversimplification. Field-theoretic models can also exhibit slow dynamics and metastability, and the avoidance of glassy states depends on the specific formulation and parameters.
+  - **Required correction** Qualify this claim by noting that field-theoretic models can avoid certain glassy artifacts of particle-based simulations, but that they have their own limitations in capturing dynamic heterogeneity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Section 3, paragraph 4
+  - **Evidence pointer** Location not provided
+  - **Issue** The discussion of spin-Hamiltonian models for epigenetic dynamics assumes familiarity with magnetic models. The connection between spin states and epigenetic marks is not explained in sufficient detail for a biology-oriented reader.
+  - **Required correction** Provide a brief explanation of how spin variables map to epigenetic states and why this mapping is useful for modeling chromatin dynamics.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2, paragraph 7
+  - **Evidence pointer** Location not provided
+  - **Issue** The term "strings and binders" is used without explaining the physical picture behind the name. The reader is left to infer what the "strings" and "binders" refer to.
+  - **Required correction** Add a sentence explaining that "strings" refers to the chromatin polymer and "binders" to the protein molecules that cross-link or bridge distant sites along the polymer.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3, paragraph 5
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of the MELON model states that it describes the nucleus as a mixture of incompressible multiphase fluids, but the relationship between the fluid phases and chromatin types is not specified. It is unclear whether the phases correspond to euchromatin and heterochromatin or to finer subtypes.
+  - **Required correction** Clarify how many phases are included in the model and how they map to experimentally defined chromatin states.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the most significant. The review's central claim that computational models are crucial for quantitative understanding is not substantiated by comparative analysis. The imprecise description of MiChroM's treatment of phase separation and non-equilibrium processes needs correction. These issues do not invalidate the review's overall value, but they limit its usefulness as a guide for model selection and interpretation.
+
+## Assessment against Nature-style criteria
+- **Originality** The review does not present new data or a novel framework, but it does offer a useful synthesis of a rapidly evolving field. The liquid-state perspective is not new, and the review largely organizes existing work rather than offering a fresh conceptual angle. This is acceptable for a review, but it does not meet the threshold of originality expected for a primary research article.
+- **Scientific importance** The topic is of high importance, as chromatin compartment dynamics is central to gene regulation and nuclear organization. The review addresses a genuine need for a comparative overview of modeling approaches. However, the lack of critical comparison between models and their experimental validation weakens the scientific contribution.
+- **Interdisciplinary readership** The review is likely to appeal to researchers in biophysics, computational biology, and chromatin biology. The writing is generally accessible, but some sections assume familiarity with polymer physics and statistical mechanics. The interdisciplinary appeal is present but could be strengthened by more explicit explanations of key concepts.
+- **Technical soundness** The descriptions of individual models are mostly accurate, but there are imprecise statements about model capabilities and mechanisms, as noted in R1-M1 and R1-M3. The review would benefit from more careful wording and additional citations to primary simulation studies.
+- **Readability for nonspecialists** The review is well organized and the narrative flow is logical. However, several technical terms and model names are introduced without sufficient explanation, which may hinder nonspecialist readers. The minor comments above identify specific instances where clarity could be improved.
+
+## Risk / unsupported claims
+- The claim that MiChroM "captures protein binding induced phase separation implicitly" is not supported by a mechanistic explanation or citation to a specific analysis.
+- The attribution of the subdiffusive exponent in MiChroM to "non-equilibrium motorized cross-linking" is not supported by the model description provided.
+- The statement that field-theoretic models "manage to avoid the notorious glassy states" is an overgeneralization and is not supported by specific examples.
+- The claim that "the role of computational models is crucial for establishing a rigorous and quantitative foundation" is not substantiated by comparative quantitative assessments within the review.
+- The discussion of the Living Chromatin model's calibration from MSD measurements does not state the quality of the fit or the predictive success of the model, making the claim of reliability unassessable.

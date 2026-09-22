@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract
+- **Shared manuscript claim summary** The authors apply the Polymer Reference Interaction Site Model (PRISM) liquid state integral equation theory to a minimal sticker-spacer associating polymer model to study phase behavior and macromolecular scale structure of biomolecular condensates. They report prediction of conventional liquid-liquid phase separation (LLPS), a sequence-dependent strongly fluctuating polymeric microemulsion homogeneous state at high concentrations beyond a Lifshitz-like point, and new connections between local clustering, mesoscopic microdomain formation, attraction range, compressibility, and spatial correlations across scales.
+- **Visible evidence base** Abstract text only; no figures, tables, equations, or methodological details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, model parameter definitions, derivation of the Lifshitz-like point criterion, comparison with experimental or simulation data, and any quantitative results
+
+## Reviewer
+- **Overall assessment** The abstract presents a theoretically motivated study with potentially interesting predictions for the physics of biomolecular condensates, particularly the proposal of a polymeric microemulsion state. However, the abstract alone provides insufficient detail to evaluate the technical soundness of the theory, the robustness of the predictions, or the novelty relative to existing literature. The central claims are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biophysics and soft matter physics studying phase separation in biological systems, particularly those interested in the physical mechanisms underlying microstructured condensates and the role of sequence heterogeneity. The work may also appeal to polymer physicists working on associating polymers and microemulsion formation in synthetic systems.
+- **Major strengths** The work addresses a timely and important question regarding the diversity of organizational states in biomolecular condensates beyond simple LLPS. The use of a minimal sticker-spacer model within a liquid state theory framework offers a potentially tractable approach to a complex problem. The abstract explicitly connects predictions to experimentally observed phenomena, which enhances potential relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The theory predicts a sequence-dependent strongly fluctuating polymeric microemulsion homogeneous state at high concentrations beyond a Lifshitz-like point.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not provide any quantitative definition of the Lifshitz-like point, the criteria used to identify the microemulsion state, or the range of model parameters over which this prediction holds. Without these details, the reader cannot assess whether the prediction is robust or an artifact of the specific approximations in the PRISM theory.
+  - **Why it matters** The central novel claim of the abstract is the existence of this microemulsion state. If the prediction is not well grounded in the theory or is highly sensitive to model choices, the main contribution of the work is undermined.
+  - **Resolution test** The full manuscript must provide a clear definition of the Lifshitz-like point, show the phase diagram in relevant parameter space, and demonstrate that the microemulsion state is stable across a reasonable range of model parameters and not a numerical artifact.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance and validation
+  - **Claim pointer** The results are suggested to be relevant to the dense phase of microstructured biomolecular condensates and to understanding polymer physics of dense solutions of nonperiodic synthetic copolymers.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract makes claims of relevance to experimental systems and synthetic copolymers but provides no comparison to experimental data, simulation results, or existing theoretical predictions. The connection between the model predictions and real condensate behavior is asserted rather than demonstrated.
+  - **Why it matters** For a theory paper to be impactful, the predictions must be placed in context with existing knowledge. Without any validation or comparison, the relevance claims remain speculative and the scientific importance is difficult to gauge.
+  - **Resolution test** The full manuscript should include quantitative comparisons with available experimental or simulation data on condensate structure or phase behavior, or at minimum a detailed discussion of how the predictions could be tested and how they differ from existing models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** New connections are established between local clustering and the formation of mesoscopic microdomains, the influence of attraction range, compressibility, and the role of spatial correlations across scales.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract lists several physical quantities and their interrelations but does not specify the nature of these connections, the direction of causality, or the magnitude of the effects. The reader cannot determine whether these are qualitative observations or quantitative scaling laws.
+  - **Why it matters** The claim of establishing new connections is a key contribution, but without specificity it is not possible to evaluate the depth or novelty of the findings.
+  - **Resolution test** The full manuscript must present specific results, such as correlation functions, structure factors, or scaling relationships, that substantiate these connections and clarify their physical origin.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term "Lifshitz-like point" is used without definition or context, which may be unfamiliar to many readers in the biomolecular condensate field.
+  - **Required correction** Provide a brief explanation of the Lifshitz-like point in the abstract or define it clearly in the introduction of the full manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity of scope
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states the model is "minimal sticker-spacer" but does not specify the number of stickers, spacer length, or interaction potential form, which limits the reader's ability to assess generality.
+  - **Required correction** Include a brief description of the model parameters in the abstract or refer to a figure or table in the full manuscript that defines them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Relevance statement
+  - **Evidence pointer** Abstract
+  - **Issue** The final sentence on synthetic copolymers may distract from the biological focus and is not well integrated with the main narrative.
+  - **Required correction** Consider moving the synthetic copolymer implications to the discussion section of the full manuscript or integrating it more clearly with the biological relevance.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The definition and robustness of the microemulsion prediction must be established, and the relevance claims must be supported by comparison with existing data or a clear falsifiable prediction.
+- **Assessment against Nature-style criteria** 
+  - Originality: The abstract suggests a novel prediction of a microemulsion state in biomolecular condensates, which could be original, but the abstract does not provide enough context to establish novelty relative to prior theoretical work on microemulsions in polymer systems.
+  - Scientific importance: The topic is important, but the abstract does not demonstrate how the findings change current understanding or open new avenues, so importance is not yet established.
+  - Interdisciplinary readership: The work bridges biophysics and polymer physics, which is appealing, but the abstract is written in a way that may be more accessible to polymer theorists than to experimental biologists.
+  - Technical soundness: Cannot be assessed from the abstract alone; the blocking concerns must be resolved.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses jargon without definition, which limits accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting ideas, but the technical basis and validation are not visible. A supportive recommendation would require the full manuscript to resolve the blocking concerns.
+
+## Risk / unsupported claims
+- The prediction of a sequence-dependent strongly fluctuating polymeric microemulsion homogeneous state is unsupported without quantitative definitions and phase diagram evidence.
+- The claim of relevance to microstructured biomolecular condensates is unsupported without comparison to experimental or simulation data.
+- The claim of establishing new connections between local clustering, mesoscopic microdomains, attraction range, compressibility, and spatial correlations is unsupported without specific results.
+- The relevance to synthetic copolymer physics is asserted but not substantiated.

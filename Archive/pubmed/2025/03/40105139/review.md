@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract, without access to the full manuscript, figures, or methods
+- **Shared manuscript claim summary** The authors use the minimal chromatin model (MiChroM), inspired by energy landscape theory from protein folding, to study how two energy terms, one related to loci compartmentalization and one related to motor-driven activity, compete in chromatin folding. They report that increasing motor activity enhances lengthwise compaction and reduces polymer entanglement, while decreasing compartmentalization-related interactions reduces overall polymer collapse but preserves microphase-separated compartmentalization. In multi-chromosome simulations, increased motorization strengthens territory formation and reduced compartmentalization lowers inter-chain contact probabilities, approaching experimental inter-chromosomal contacts in human chromosomes. The authors conclude that both phase-separation and territory formation mechanisms must be properly implemented in data-driven chromosome modeling to recover genome architecture and dynamics.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, simulation parameters, or quantitative results are provided.
+- **Missing materials affecting confidence** Full manuscript, simulation details, parameter values, quantitative comparisons to experimental data, statistical analyses, and all figures and tables.
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis regarding the interplay between compartmentalization and motor-driven activity in chromatin organization, using a well-established modeling framework. However, the abstract alone provides insufficient quantitative detail to evaluate the robustness of the claims. The central conclusions, particularly the claim of agreement with experimental inter-chromosomal contacts, cannot be assessed without the underlying data and methods. The work is likely of interest to the computational biophysics and chromatin biology communities, but the evidence base provided here is too limited to establish the case.
+- **Who would be interested in the results, and why** Computational biophysicists and polymer physicists working on chromosome modeling would be interested in the extension of MiChroM to multi-chromosome systems and the explicit treatment of motor activity. Experimental chromatin biologists studying genome architecture, particularly those using Hi-C and related methods, would be interested in the predicted relationship between motorization, compartmentalization, and inter-chromosomal contacts. The work may also appeal to researchers studying phase separation and nuclear organization.
+- **Major strengths** The study addresses a timely and biologically relevant question, namely the relative roles of phase separation and active motor processes in chromatin folding. The use of a well-established model (MiChroM) provides continuity with prior work. The abstract clearly states a testable hypothesis and reports qualitative trends that could guide future experimental and computational studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that reduced compartmentalization strength lowered the probability of contact formation of different loci between multiple chains, approximating to the experimental inter-contacts of the human chromosomes.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The claim of agreement with experimental inter-chromosomal contacts is central to the paper's relevance, but no quantitative metric, statistical test, or comparison method is described. It is unclear how "approximating" was measured, what experimental dataset was used, and whether the agreement is within noise or statistically significant.
+  - **Why it matters** Without a quantitative and statistically grounded comparison, the claim of experimental relevance cannot be evaluated. This is the key translational statement of the abstract and directly supports the conclusion that the interplay between phase separation and territory formation must be implemented in modeling.
+  - **Resolution test** Provide a quantitative comparison, such as a correlation coefficient or distance metric, between simulated and experimental inter-chromosomal contact maps, including error bars and a statistical test for significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Parameter sensitivity and robustness
+  - **Claim pointer** The authors state that enhancing the motor activity energy baseline increased lengthwise compaction and reduced polymer entanglement, and that decreasing compartmentalization-related interactions reduced overall polymer collapse while preserving microphase separation.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract reports qualitative trends without any indication of the magnitude of parameter changes, the range explored, or whether the observed behaviors are robust across parameter values. It is unclear whether the reported effects are monotonic, saturating, or dependent on specific parameter combinations.
+  - **Why it matters** The conclusions depend on the claim that the two energy terms compete in a meaningful and reproducible way. Without parameter sensitivity analysis, the reader cannot judge whether the observed trends are general or artifacts of particular choices.
+  - **Resolution test** Include a parameter sweep or phase diagram showing the behavior of compaction, entanglement, and compartmentalization as a function of the two energy term magnitudes, with clear indication of the parameter ranges used.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validation and biological relevance
+  - **Claim pointer** The authors imply that the findings have direct implications for experimental data-driven chromosome modeling, especially involving multiple chromosomes.
+  - **Evidence pointer** Abstract only, location not provided
+  - **Concern** The abstract does not describe how the model was validated against known experimental features beyond the single inter-chromosomal contact comparison. It is unclear whether the model reproduces known intra-chromosomal features, such as TADs or compartmental domains, under the conditions tested, and whether the motor activity term has a known biological counterpart.
+  - **Why it matters** The translational claim depends on the model being a credible representation of chromatin. Without validation against multiple independent experimental observables, the implications for data-driven modeling remain speculative.
+  - **Resolution test** Provide validation of the model against at least one additional independent experimental dataset, such as intra-chromosomal contact maps or polymer compaction measurements, and discuss the biological interpretation of the motor activity term.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** "motorization" and "motor-driven activity"
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** The term "motorization" is used without definition. It is unclear whether this refers to ATP-dependent motor proteins, active loop extrusion, or a generic active process.
+  - **Required correction** Define the motor activity term explicitly in the abstract or refer to the methods section for a precise definition.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility of simulation conditions
+  - **Affected element** "multiple chromosome simulations"
+  - **Evidence pointer** Abstract, second paragraph
+  - **Issue** The abstract does not specify the number of chromosomes simulated, the chromosome length, or the genomic content represented. This limits the reader's ability to assess the biological relevance of the multi-chromosome results.
+  - **Required correction** State the number and type of chromosomes simulated, and the source of the genomic sequence or model parameters.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** "reduced the polymer entanglement" and "reduced the overall polymer collapse"
+  - **Evidence pointer** Abstract, first paragraph
+  - **Issue** These qualitative statements lack quantitative measures. It is unclear what metric was used for entanglement and collapse, and by how much these quantities changed.
+  - **Required correction** Report the specific metrics used and the numerical values or percentage changes observed.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient quantitative evidence to support the central claims of experimental agreement, parameter robustness, or model validation.
+- **Assessment against Nature-style criteria** Originality: The combination of motor activity and compartmentalization in a minimal chromatin model is a reasonable extension of prior work, but the abstract does not clearly distinguish the novelty from earlier MiChroM applications. Scientific importance: The question of how active processes and phase separation jointly shape genome architecture is important, but the abstract does not demonstrate a significant advance beyond qualitative trends. Interdisciplinary readership: The abstract is written in a way that is accessible to biophysicists and polymer physicists, but may be less accessible to experimental biologists due to undefined terms such as "motorization" and "microphase separation." Technical soundness: Cannot be assessed from the abstract alone. Readability for nonspecialists: The abstract is concise but relies on domain-specific jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and qualitative trends, but the lack of quantitative detail, parameter sensitivity analysis, and validation against multiple experimental datasets prevents a definitive assessment. The authors should provide the full manuscript with detailed methods and results to support the claims.
+
+## Risk / unsupported claims
+- The claim of agreement with experimental inter-chromosomal contacts is unsupported without quantitative comparison and statistical testing.
+- The claim that motorization reduces polymer entanglement is unsupported without a defined metric and numerical results.
+- The claim that compartmentalization-related interactions can be reduced while preserving microphase separation is unsupported without a phase diagram or parameter sweep.
+- The claim of direct implications for experimental data-driven chromosome modeling is speculative without validation against multiple experimental observables.
+- The biological interpretation of the motor activity term is not defined and cannot be evaluated.

@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific soundness, methodological rigor, claim-evidence alignment, and clarity of the reported findings based solely on the provided text
+- **Shared manuscript claim summary** The authors use all-atom explicit-solvent MD simulations to characterize the conformational ensemble of full-length FUS in dilute and condensed phases, comparing two force fields (ff03ws and ff99SBws-STQ), and report that folded domain stability modulates chain dimensions and that intramolecular interaction profiles in the monomer correlate strongly with intermolecular contacts in the condensed phase, with a dominant role for IDR interactions and a notable contribution from F-R π-π interactions.
+- **Visible evidence base** Text descriptions of simulation protocols, force field choices, analysis methods, and qualitative results; references to figures (Figure 1-6, Figure S1-S7) and tables (Supporting Tables 1-2) that are not provided
+- **Missing materials affecting confidence** All figures, tables, supplementary information, simulation trajectory details, convergence metrics, and quantitative data supporting the reported correlation coefficients and interaction analyses
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant and timely question: how folded domain stability and IDR interactions jointly govern the conformational ensemble and phase separation of full-length FUS. The use of atomistic simulations for a full-length multidomain protein in both dilute and condensed phases is ambitious and valuable. However, the current text provides insufficient quantitative evidence to fully support several central claims, particularly the strong correlation between dilute and condensed phase contacts, the mechanistic role of folded domain stability, and the identification of F-R π-π interactions. The manuscript would benefit from clearer presentation of quantitative results, explicit convergence assessments, and a more critical discussion of force field limitations.
+- **Who would be interested in the results, and why** Researchers studying biomolecular phase separation, particularly those focused on FUS and other FET family proteins; computational biophysicists developing and benchmarking force fields for intrinsically disordered proteins; experimentalists investigating FUS aggregation in ALS/FTD who seek molecular-level mechanistic hypotheses; and method developers interested in multiscale simulation approaches for multidomain proteins.
+- **Major strengths** The study tackles full-length FUS, which is technically challenging due to its size and low solubility; the comparison of two modern force fields is informative; the multiscale approach (coarse-grained to atomistic) is well-motivated; the focus on folded domain stability as a modulator of global conformation is a novel angle; and the extension to condensed phase simulations provides a direct link to LLPS.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "our comparative analysis of the dilute and condensed phase contacts revealed a strong positive correlation for pairwise residue-level contacts formed in these phases"
+  - **Evidence pointer** Results section, Figure 4D and Figure S7B,C; location not provided
+  - **Concern** The central claim of a strong correlation between dilute and condensed phase contact profiles is stated qualitatively without reporting the actual correlation coefficient, statistical significance, or the method used to compute the correlation. The text mentions "high correlations" but provides no numerical values. Without these data, the reader cannot assess the strength or robustness of this relationship, which is a key pillar of the paper's conclusion that single-chain simulations can recapitulate condensate behavior.
+  - **Why it matters** This correlation claim underpins the authors' central argument that monomer simulations are predictive of phase separation behavior. If the correlation is weak or driven by a small subset of residue pairs, the conclusion would be substantially weakened. The claim also extends a previously established principle from IDPs to multidomain proteins, which requires quantitative support.
+  - **Resolution test** Report the Pearson or Spearman correlation coefficient with confidence intervals for the pairwise contact maps, include a scatter plot of dilute vs. condensed contact frequencies, and perform a sensitivity analysis (e.g., excluding self-contacts or using different contact definitions) to demonstrate robustness.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "the ff99SBws-STQ coupled with parameters adopted from the Zinc Amber force field (ZAFF) maintained stable folded domains and improved estimates of the chain dimensions"
+  - **Evidence pointer** Results section, Figures 2 and 3, Figure S4; location not provided
+  - **Concern** The manuscript reports that ff03ws leads to partial unfolding of both folded domains and that ff99SBws-STQ+ZAFF stabilizes them, but the quantitative metrics (RMSD distributions, fraction of native contacts, time evolution) are not presented in the text. More critically, the authors apply additional restraints to RRM in ff03ws and use ZAFF for ZnF, but the text does not clearly separate the effects of force field choice from the effects of added restraints. The statement that ff99SBws-STQ+ZAFF "improved estimates of chain dimensions" is not supported by a quantitative comparison to experimental Rg or Rh values beyond a single mean Rh comparison.
+  - **Why it matters** The manuscript's central mechanistic claim is that folded domain stability modulates the global conformational ensemble. If the stabilization is achieved through imposed restraints rather than intrinsic force field behavior, the biological interpretation is different. The reader needs to understand what fraction of the observed effect is due to the force field versus the restraints.
+  - **Resolution test** Provide a clear decomposition of simulation conditions (force field, restraints, zinc model) and report quantitative stability metrics (e.g., RMSD distributions, fraction of native contacts) for each condition. Compare simulated Rg and Rh distributions directly to experimental values with uncertainty estimates, and discuss whether the residual discrepancies are within acceptable force field accuracy.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "we identified previously hypothesized but unverified phenylalanine-arginine (F-R) interactions in FUS involving π-π stacking, confirmed through sp2/π plane angle-distance distribution analysis"
+  - **Evidence pointer** Results section, Figure 4E; location not provided
+  - **Concern** The identification of F-R π-π interactions is presented as a notable finding, but the text provides no quantitative details: no angle-distance distribution plots, no enrichment statistics relative to a null model, no comparison with other aromatic-cation pairs, and no assessment of whether these interactions are specific or merely reflect the high abundance of arginine and phenylalanine in the sequence. The claim of "confirmation" is too strong given the absence of statistical testing.
+  - **Why it matters** F-R π-π interactions have been hypothesized to contribute to FUS phase separation, and the authors claim to provide the first atomistic confirmation. This is a potentially important contribution, but the current evidence is insufficient to distinguish a specific interaction from a generic contact preference. Overstating this finding could mislead subsequent studies.
+  - **Resolution test** Provide the angle-distance distribution with appropriate normalization, compute an enrichment score relative to a randomized or shuffled-sequence control, and report the fraction of F-R contacts that adopt π-π stacking geometry. Discuss whether the interaction is sequence-specific or a general property of arginine-phenylalanine pairs.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "a microsecond-time scale simulation of FL FUS condensate (comprising of 25 chains for 2.5 μs)"
+  - **Evidence pointer** Methods section, Supporting Table 2; location not provided
+  - **Concern** The condensed phase simulation is described as a single 2.5 μs trajectory of 25 chains. The text does not report the system size, box dimensions, total number of atoms, or the equilibration protocol in sufficient detail. More importantly, the convergence of the condensed phase simulation is not demonstrated: no block-averaging analysis, no assessment of whether the system reached a steady state, and no comparison of properties across independent trajectories. For a system of this complexity, a single trajectory is unlikely to provide statistically robust contact maps.
+  - **Why it matters** The condensed phase results are used to draw conclusions about the interaction network stabilizing FUS LLPS. If the simulation is not converged, the contact maps and derived conclusions may reflect transient states rather than equilibrium properties. This is particularly concerning given the slow dynamics expected in dense protein phases.
+  - **Resolution test** Report system size and composition, provide time series of key observables (Rg, contact number, density) showing plateau behavior, perform block averaging to estimate statistical uncertainties, and ideally run at least one additional independent trajectory to assess reproducibility.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, force field description
+  - **Evidence pointer** Methods section, "Force Field Choice and Simulation Protocol"; location not provided
+  - **Issue** The text states that "both incorporating improved NaCl parameters" but does not specify which NaCl parameters were used or how they were validated. The choice of ion parameters can significantly affect IDP simulations.
+  - **Required correction** Specify the NaCl parameter set (e.g., Joung-Cheatham, Smith-Dang) and provide a citation or validation reference.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, simulation protocol
+  - **Evidence pointer** Methods section, "Force Field Choice and Simulation Protocol"; location not provided
+  - **Issue** The production simulation lengths for the single-chain simulations are not stated in the text. The reader cannot assess whether the sampling is sufficient for convergence of the reported observables.
+  - **Required correction** Report the production simulation length for each single-chain condition, and state the total aggregate simulation time.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results, chain dimension comparison
+  - **Evidence pointer** Results section, "Conformational Ensembles of FL FUS Monomers..."; location not provided
+  - **Issue** The comparison to experimental Rg and Rh values is presented qualitatively ("improved estimates", "underestimated by ~7%") without a systematic table or figure showing the comparison across all conditions.
+  - **Required correction** Provide a table or figure comparing simulated and experimental Rg and Rh values for all force field conditions, with uncertainties.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, folded domain role
+  - **Evidence pointer** Discussion and Conclusions; location not provided
+  - **Issue** The authors conclude that folded domains act as "passive structural scaffolds" but also note that their stability affects global conformation. These two statements are in some tension; a scaffold that modulates conformation is not entirely passive.
+  - **Required correction** Clarify the intended meaning of "passive" and reconcile it with the demonstrated conformational effects.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, analysis
+  - **Evidence pointer** Methods section, "MD Trajectory Analysis"; location not provided
+  - **Issue** The contact definition (4.5 Å heavy atom cutoff) is stated, but the authors do not specify how contacts were normalized for residue size or sequence separation, which could affect the reported interaction profiles.
+  - **Required correction** Describe the normalization scheme used for contact maps or justify the raw contact counting approach.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (correlation coefficient not reported), R1-M2 (restraint effects not separated from force field effects), R1-M4 (condensed phase convergence not demonstrated)
+- **Assessment against Nature-style criteria** Originality: The study is original in its focus on full-length FUS with atomistic resolution in both dilute and condensed phases, and the emphasis on folded domain stability as a modulator is a fresh angle. Scientific importance: The findings are relevant to understanding FUS phase separation and its disease associations, but the importance is somewhat incremental given prior work on FUS fragments and other IDPs. Interdisciplinary readership: The topic bridges biophysics, computational chemistry, and cell biology, but the presentation is heavily simulation-focused and may not fully engage experimental or cellular audiences. Technical soundness: The simulation protocols are generally reasonable, but the lack of quantitative convergence assessments and the incomplete separation of restraint effects from force field effects undermine confidence. Readability for nonspecialists: The text is dense and assumes familiarity with MD simulation terminology; the abstract is accessible but the main text would benefit from clearer framing of key findings and their implications.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important problem and the overall approach is sound, but the central claims require quantitative support and clearer methodological separation of variables. The authors should provide correlation coefficients with uncertainties, decompose the effects of restraints versus force field choice, and demonstrate convergence of the condensed phase simulation. If these issues are addressed, the manuscript could make a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim of a "strong positive correlation" between dilute and condensed phase contacts is unsupported without reporting the correlation coefficient and statistical significance.
+- The claim that ff99SBws-STQ+ZAAP "improved estimates of the chain dimensions" is not quantitatively substantiated with a systematic comparison to experimental data.
+- The identification of F-R π-π interactions as "confirmed" is overstated given the absence of statistical enrichment analysis or comparison to null models.
+- The statement that folded domains act as "passive structural scaffolds" is not fully supported by the presented evidence, which shows they modulate conformation.
+- The claim that the condensate simulation reached a steady state is not verifiable without convergence metrics or time series analysis.
+- The assertion that "the overall interaction profile remained remarkably consistent" between dilute and condensed phases is qualitative and requires quantitative backing.

@@ -1,0 +1,144 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.21.665906",
+  "title": "multiSMD – a Python toolset for multidirectional Steered Molecular Dynamics",
+  "doi": "10.1101/2025.07.21.665906",
+  "abstract": "Understanding the direction-dependence of molecular interactions is critical for elucidating biological processes such as protein-protein binding, ligand dissociation, and mechanotransduction. While steered molecular dynamics (SMD) simulations enable the study of force-induced transitions, conventional single-direction approaches may overlook anisotropic responses inherent to biomolecular systems. Here, we present multiSMD, a Python-based tool that automates the setup and analysis of multi-directional SMD simulations in NAMD and GROMACS. By systematically probing forces along multiple spatial vectors, multiSMD captures direction-dependent phenomena—such as varying energy barriers or structural resilience—that remain hidden in traditional SMD. We demonstrate the utility of our approach through three distinct applications: (i) anisotropic unbinding in a protein-protein interaction, (ii) ligand dissociation pathways dependent on pulling direction, and (iii) force-induced remodeling of intrinsically disordered regions. multiSMD streamlines the exploration of mechanical anisotropy in biomolecules, offering a computational framework to guide experiments (e.g., AFM or optical tweezers) and uncover mechanistic insights inaccessible to single-axis methods. Availability and implementation: multiSMD is freely available at https://github.com/kszewc/multiSMD",
+  "authors": [
+    "Walczewska-Szewc K",
+    "Niklas B",
+    "Nowak W"
+  ],
+  "published_date": "2025-07-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.21.665906",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.21.665906.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1055916",
+    "raw_record": {
+      "id": "PPR1055916",
+      "source": "PPR",
+      "doi": "10.1101/2025.07.21.665906",
+      "title": "multiSMD – a Python toolset for multidirectional Steered Molecular Dynamics",
+      "authorString": "Walczewska-Szewc K, Niklas B, Nowak W.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Walczewska-Szewc K",
+            "lastName": "Walczewska-Szewc",
+            "firstName": "Katarzyna",
+            "initials": "K",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6422-6138"
+            }
+          },
+          {
+            "fullName": "Niklas B",
+            "lastName": "Niklas",
+            "firstName": "Beata",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7728-1830"
+            }
+          },
+          {
+            "fullName": "Nowak W",
+            "lastName": "Nowak",
+            "firstName": "Wiesław",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2584-1327"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6422-6138"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7728-1830"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2584-1327"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Understanding the direction-dependence of molecular interactions is critical for elucidating biological processes such as protein-protein binding, ligand dissociation, and mechanotransduction. While steered molecular dynamics (SMD) simulations enable the study of force-induced transitions, conventional single-direction approaches may overlook anisotropic responses inherent to biomolecular systems. Here, we present multiSMD, a Python-based tool that automates the setup and analysis of multi-directional SMD simulations in NAMD and GROMACS. By systematically probing forces along multiple spatial vectors, multiSMD captures direction-dependent phenomena—such as varying energy barriers or structural resilience—that remain hidden in traditional SMD. We demonstrate the utility of our approach through three distinct applications: (i) anisotropic unbinding in a protein-protein interaction, (ii) ligand dissociation pathways dependent on pulling direction, and (iii) force-induced remodeling of intrinsically disordered regions. multiSMD streamlines the exploration of mechanical anisotropy in biomolecules, offering a computational framework to guide experiments (e.g., AFM or optical tweezers) and uncover mechanistic insights inaccessible to single-axis methods. Availability and implementation: multiSMD is freely available at  https://github.com/kszewc/multiSMD",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.21.665906"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41037437",
+            "reference": "Journal of chemical information and modeling. 2025 Oct;65(20):10803-10807",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-07-28",
+      "firstPublicationDate": "2025-07-24",
+      "firstIndexDate": "2025-07-28",
+      "hasEvaluations": "N"
+    }
+  }
+}

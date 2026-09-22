@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39539017",
+  "title": "Phosphorylation of disordered proteins tunes local and global intramolecular interactions.",
+  "authors": "Usher, Emery T; Fossat, Martin J; Holehouse, Alex S",
+  "journal": "Biophysical journal",
+  "published_date": "2024-11-14",
+  "window": {
+    "start": "2024-11-11",
+    "end": "2024-11-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用全原子蒙特卡洛模拟研究磷酸化对无序蛋白IDR构象ensemble的局部与全局调控，聚焦IDR对象与物理模拟方法，但未直接涉及PPI互作机制，故评7分。",
+  "abstract": "Protein post-translational modifications, such as phosphorylation, are important regulatory signals for diverse cellular functions. In particular, intrinsically disordered protein regions (IDRs) are subject to phosphorylation as a means to modulate their interactions and functions. Toward understanding the relationship between phosphorylation in IDRs and specific functional outcomes, we must consider how phosphorylation affects the IDR conformational ensemble. Various experimental techniques are suited to interrogate the features of IDR ensembles; molecular simulations can provide complementary insights and even illuminate ensemble features that may be experimentally inaccessible. Therefore, we sought to expand the tools available to study phosphorylated IDRs by all-atom Monte Carlo simulations. To this end, we implemented parameters for phosphoserine (pSer) and phosphothreonine (pThr) into the OPLS version of the continuum solvent model, ABSINTH, and assessed their performance in all-atom simulations compared with published findings. We simulated short (<20 residues) and long (>80 residues) phospho-IDRs that, collectively, survey both local and global phosphorylation-induced changes to the ensemble. Our simulations of four well-studied phospho-IDRs show near-quantitative agreement with published findings for these systems via metrics including changes to radius of gyration, transient helicity, and persistence length. We also leveraged the inherent advantage of sequence control in molecular simulations to explore the conformational effects of diverse combinations of phospho-sites in two multiphosphorylated IDRs. Our results support and expand on previous observations that connect phosphorylation to changes in the IDR conformational ensemble. Herein, we describe phosphorylation as a means to alter sequence chemistry, net charge and charge patterning, and intramolecular interactions, which can collectively modulate the local and global IDR ensemble features.",
+  "abstract_zh": "蛋白质翻译后修饰，如磷酸化，是多种细胞功能的重要调控信号。特别是，固有无序蛋白区域（IDRs）易受磷酸化影响，以此调节其相互作用和功能。为理解IDRs中磷酸化与特定功能结果之间的关系，我们必须考虑磷酸化如何影响IDR构象集合。多种实验技术适用于探究IDR集合的特征；分子模拟 (molecular simulations) 可提供互补性见解，甚至揭示实验上可能难以获取的集合特征。因此，我们旨在通过全原子蒙特卡洛模拟 (all-atom Monte Carlo simulations) 扩展研究磷酸化IDRs的工具。为此，我们在连续溶剂模型ABSINTH的OPLS版本中实现了磷酸丝氨酸 (pSer) 和磷酸苏氨酸 (pThr) 的参数，并评估了其在全原子模拟中的性能，与已发表结果进行比较。我们模拟了短（<20个残基）和长（>80个残基）的磷酸化IDRs，这些模拟共同考察了磷酸化诱导的局部和全局集合变化。我们对四个研究充分的磷酸化IDRs的模拟显示，通过回转半径变化、瞬时螺旋性和持久长度等指标，与这些系统的已发表结果接近定量一致。我们还利用分子模拟中序列控制的固有优势，探索了两个多磷酸化IDRs中不同磷酸化位点组合的构象效应。我们的结果支持并扩展了先前将磷酸化与IDR构象集合变化联系起来的观察。在此，我们将磷酸化描述为改变序列化学性质、净电荷和电荷分布模式以及分子内相互作用的一种手段，这些因素可共同调节IDR的局部和全局集合特征。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39539017/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39539017/",
+  "paper_page_path": "papers/pubmed/39539017/index.html"
+}

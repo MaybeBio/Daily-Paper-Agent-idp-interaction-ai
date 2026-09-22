@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "42132112",
+    "doi": "10.1093/nar/gkag479",
+    "title": "APE1 coordinates its disordered region and metal cofactors to drive genome surveillance."
+  },
+  "content": {
+    "abstract": "Efficient recognition of DNA lesions such as apurinic/apyrimidinic (AP) sites is essential for maintaining genome stability. Apurinic/apyrimidinic endonuclease 1 (APE1) is the primary eukaryotic AP endonuclease, yet how it identifies rare lesions among vast stretches of undamaged DNA remains incompletely understood. Using single-molecule imaging combined with molecular dynamics simulations, we reveal that APE1 employs a distinctive dual mechanism to search DNA damage. First, Mg2+ coordination at the active site neutralizes clustered negative charges, stabilizing electrostatic contacts during scanning. Second, its N-terminal intrinsically disordered region (IDR)-a feature conserved only in eukaryotic homologs but absent in prokaryotic ExoIII-not only interacts with DNA through transient IDR contacts but also engages continuous interactions via the unprecedented Arg177 residue within the structured nuclease domain, thereby prolonging residence time and enabling long-range diffusion. Together, these two modules synergize to promote a sliding-based search strategy tailored to the complexity of eukaryotic genomes. Consistent with this model, IDR deletion restricts APE1 to 3D collisions, whereas IDR duplication enhances 1D scanning. Thus, APE1 exemplifies how structural disorder and metal-ion coordination integrate to enable long-range lesion recognition, highlighting an evolutionary innovation in eukaryotic DNA repair.",
+    "keywords": [],
+    "mesh_terms": [
+      "*DNA-(Apurinic or Apyrimidinic Site) Lyase/chemistry/metabolism/genetics",
+      "*Magnesium/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "Catalytic Domain",
+      "DNA/metabolism/chemistry/genetics",
+      "DNA Damage",
+      "Humans",
+      "Excision Repair"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Donghun",
+        "Kim, Subin",
+        "Jo, Gyeongpil",
+        "Kim, Juwon",
+        "Yoo, Jungmin",
+        "Yoo, Jejoong",
+        "Lee, Ja Yil",
+        "Lee, Gwangrog"
+      ],
+      "short_names": [
+        "Lee D",
+        "Kim S",
+        "Jo G",
+        "Kim J",
+        "Yoo J",
+        "Yoo J",
+        "Lee JY",
+        "Lee G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5726-9022",
+        "ORCID: 0000-0002-1720-8524"
+      ],
+      "affiliations": [
+        "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Protein-Engineering & Mechano-ImmunoTherapy Lab, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Department of Biological Sciences, Ulsan National Institute of Science and Technology, UNIST-gil 50, Ulsan 44919, Republic of Korea.",
+        "Department of Physics, Sungkyunkwan University, Suwon 41944, Republic of Korea.",
+        "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Protein-Engineering & Mechano-ImmunoTherapy Lab, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Protein-Engineering & Mechano-ImmunoTherapy Lab, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Department of Physics, Sungkyunkwan University, Suwon 41944, Republic of Korea.",
+        "School of Computational Sciences, Korea Institute for Advanced Study, Seoul 02455, Republic of Korea.",
+        "Department of Biological Sciences, Ulsan National Institute of Science and Technology, UNIST-gil 50, Ulsan 44919, Republic of Korea.",
+        "Center for Genomic Integrity, Institute for Basic Science (IBS), Ulsan 44919, Republic of Korea.",
+        "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+        "Protein-Engineering & Mechano-ImmunoTherapy Lab, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Donghun",
+        "short_name": "Lee D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+          "Protein-Engineering & Mechano-ImmunoTherapy Lab, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Subin",
+        "short_name": "Kim S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Ulsan National Institute of Science and Technology, UNIST-gil 50, Ulsan 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Jo, Gyeongpil",
+        "short_name": "Jo G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Sungkyunkwan University, Suwon 41944, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Juwon",
+        "short_name": "Kim J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+          "Protein-Engineering & Mechano-ImmunoTherapy Lab, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yoo, Jungmin",
+        "short_name": "Yoo J",
+        "identifiers": [],
+        "affiliations": [
+          "Protein-Engineering & Mechano-ImmunoTherapy Lab, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yoo, Jejoong",
+        "short_name": "Yoo J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Sungkyunkwan University, Suwon 41944, Republic of Korea.",
+          "School of Computational Sciences, Korea Institute for Advanced Study, Seoul 02455, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Ja Yil",
+        "short_name": "Lee JY",
+        "identifiers": [
+          "0000-0002-5726-9022"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Ulsan National Institute of Science and Technology, UNIST-gil 50, Ulsan 44919, Republic of Korea.",
+          "Center for Genomic Integrity, Institute for Basic Science (IBS), Ulsan 44919, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Gwangrog",
+        "short_name": "Lee G",
+        "identifiers": [
+          "0000-0002-1720-8524"
+        ],
+        "affiliations": [
+          "Department of Biological Sciences, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea.",
+          "Protein-Engineering & Mechano-ImmunoTherapy Lab, Korea Advanced Institute of Science and Technology, Daejeon 34141, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nucleic acids research"
+    ],
+    "journal_abbrev": [
+      "Nucleic Acids Res"
+    ],
+    "pub_date": "2026 May 5",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/14 14:49",
+    "fetched_at": "2026-09-18 03:16:48"
+  },
+  "links": {
+    "cites": [
+      "42216761"
+    ],
+    "refs": [
+      "40403877",
+      "40103231",
+      "39293742",
+      "38718835",
+      "38514771",
+      "38436697",
+      "38128155",
+      "37994723",
+      "37957331",
+      "37264933",
+      "36774964",
+      "36750250",
+      "36265487",
+      "36200829",
+      "36104361",
+      "34208390",
+      "33604523",
+      "33313823",
+      "33020489",
+      "33020481",
+      "32962386",
+      "32543861",
+      "31372632",
+      "30541127",
+      "30379068",
+      "30032232",
+      "29547221",
+      "29374164",
+      "28199214",
+      "28071730",
+      "27668217",
+      "27535970",
+      "26488642",
+      "26458045",
+      "25251148",
+      "24974030",
+      "24463371",
+      "24311596",
+      "24079850",
+      "23989674",
+      "23355472",
+      "21918774",
+      "20699270",
+      "20657586",
+      "20408171",
+      "20227373",
+      "20201599",
+      "19958775",
+      "19898474",
+      "19847258",
+      "19812404",
+      "18976116",
+      "18511918",
+      "18321088",
+      "17724035",
+      "17406245",
+      "17351000",
+      "17212484",
+      "17210571",
+      "16981200",
+      "16199212",
+      "15189136",
+      "12537985",
+      "11832948",
+      "11585362",
+      "11286553",
+      "10871413",
+      "10667800",
+      "10600117",
+      "10583946",
+      "9585546",
+      "9108029",
+      "1380454"
+    ],
+    "similar": [
+      "42132112",
+      "42216761",
+      "29475157",
+      "40902980",
+      "23355472",
+      "24311596",
+      "32872297",
+      "10772862",
+      "25251148",
+      "28065385",
+      "25038572",
+      "27994014",
+      "29374164",
+      "32998246",
+      "24209961",
+      "32858086",
+      "30329131",
+      "29730300",
+      "32542366",
+      "34445579",
+      "26458045",
+      "20377204",
+      "21762700",
+      "39596352",
+      "29344998",
+      "26134573",
+      "29959063",
+      "31150756",
+      "31518879",
+      "38718860",
+      "18576638",
+      "30170830",
+      "39796192",
+      "17427952",
+      "27343627",
+      "31668992",
+      "31816044",
+      "32454397",
+      "32354179",
+      "31633353",
+      "41895371",
+      "28345889",
+      "15644200",
+      "20701268",
+      "31329919",
+      "21912662",
+      "16540594",
+      "41928333",
+      "36963489",
+      "27612215",
+      "33450252",
+      "27682167",
+      "33743509",
+      "30110394",
+      "32817342",
+      "17166779",
+      "24667595",
+      "21568846",
+      "24079850",
+      "24127576",
+      "38963041",
+      "35044663",
+      "38791183",
+      "20575528",
+      "22243137",
+      "25086253",
+      "19181704",
+      "15084314",
+      "39701025",
+      "39684445",
+      "27655688",
+      "17259346",
+      "35388752",
+      "17922646",
+      "17724035",
+      "27262192",
+      "18436236",
+      "37511233",
+      "34208390",
+      "25847267",
+      "29486702",
+      "30134601",
+      "11160897",
+      "17126083",
+      "16356936",
+      "24180454",
+      "14704345",
+      "27722620",
+      "17870086",
+      "37806619",
+      "23382073",
+      "20808930",
+      "28161249",
+      "35887361",
+      "16960376",
+      "33504804",
+      "15330152",
+      "25108836",
+      "36689867",
+      "42417194"
+    ],
+    "review": [
+      "42132112",
+      "30170830",
+      "31816044",
+      "27682167",
+      "39701025",
+      "35388752",
+      "34208390"
+    ],
+    "pmc": [
+      "13173290"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42132112/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-APEX1-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-23",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkag479",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

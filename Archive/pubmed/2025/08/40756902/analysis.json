@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40756902",
+  "title": "IDRdecoder: a machine learning approach for rational drug discovery toward intrinsically disordered regions.",
+  "authors": "Shionyu-Mitusyama, Clara; Ohmori, Satoshi; Hirata, Subaru; Ishida, Hirokazu; Shirai, Tsuyoshi",
+  "journal": "Frontiers in bioinformatics",
+  "published_date": "2025-08-04",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用机器学习(IDRdecoder)预测无序蛋白区域的药物结合位点与配体类型，虽聚焦药物而非PPI机制，但对象为IDR且方法可迁移至IDR介导互作建模。",
+  "abstract": "INTRODUCTION: Intrinsically disordered regions (IDRs) of proteins have traditionally been overlooked as drug targets. However, with growing recognition of their crucial role in biological activity and their involvement in various diseases, IDRs have emerged as promising targets for drug discovery. Despite this potential, rational methodologies for IDR-targeted drug discovery remain underdeveloped, primarily due to a lack of reference experimental data. METHODS: This study explores a machine learning approach to predict IDR functions, drug interaction sites, and interacting molecular substructures within IDR sequences. To address the data gap, stepwise transfer learning was employed. IDRdecoder sequentially generate predictions for IDR classification, interaction sites, and interacting ligand substructures. In the first step, the neural net was trained as autoencoder by using 26,480,862 predicted IDR sequences. Then it was trained against 57,692 ligand-binding PDB sequences with higher IDR tendency via transfer learning for predict ligand interacting sites and ligand types. RESULTS: IDRdecoder was evaluated against 9 IDR sequences, which were experimentally detailed as drug targets. In the encoding space, specific GO terms related to the hypothesized functions of the evaluation IDR sequences were highly enriched. The model's prediction performance for drug interacting sites and ligand types demonstrated the area under the curve (AUC) of 0.616 and 0.702, respectively. The performance was compared with existing methods including ProteinBERT, and IDRdecoder demonstrated moderately improved performance. DISCUSSION: IDRdecoder is the first application for predicting drug interaction sites and ligands in IDR sequences. Analysis of the prediction results revealed characteristics beneficial for IDR-drug design; for instance, Tyr and Ala are preferred target sites, while flexible substructures, such as alkyl groups, are favored in ligand molecules.",
+  "abstract_zh": "引言：蛋白质的内在无序区域（IDRs）传统上一直被忽视作为药物靶点。然而，随着对其在生物活性中关键作用及其与多种疾病关联的认识不断加深，IDRs已成为药物发现中具有前景的靶点。尽管具有这一潜力，针对IDR的药物发现理性方法仍发展不足，主要原因是缺乏参考实验数据。方法：本研究探索了一种机器学习方法，用于预测IDR功能、药物相互作用位点以及IDR序列内的相互作用分子亚结构。为弥补数据缺口，采用了逐步迁移学习。IDRdecoder依次生成IDR分类、相互作用位点和相互作用配体亚结构的预测。第一步，使用26,480,862条预测的IDR序列将神经网络训练为自编码器。随后，通过迁移学习，针对57,692条具有较高IDR倾向的配体结合PDB序列进行训练，以预测配体相互作用位点和配体类型。结果：IDRdecoder针对9条经实验详细验证为药物靶点的IDR序列进行了评估。在编码空间中，与评估IDR序列假设功能相关的特定GO术语高度富集。模型对药物相互作用位点和配体类型的预测性能分别显示曲线下面积（AUC）为0.616和0.702。该性能与现有方法（包括ProteinBERT）进行了比较，IDRdecoder表现出适度改进的性能。讨论：IDRdecoder是首个用于预测IDR序列中药物相互作用位点和配体的应用。对预测结果的分析揭示了有利于IDR药物设计的特征；例如，Tyr和Ala是优先靶点位点，而柔性亚结构（如烷基）在配体分子中受到青睐。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40756902/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40756902/",
+  "paper_page_path": "papers/pubmed/40756902/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42508155",
+  "title": "AI-derived-intrinsically disordered proteins from antarctic nematode stabilize human cells under freezing stress.",
+  "authors": "Wang, Haoyu; Zheng, Tianyu; Liu, Chang; Liu, Simeng; Sun, Xiangdong; Li, Ya; Xue, Xia",
+  "journal": "Biomaterials advances",
+  "published_date": "2026-07-27",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用AI预测南极线虫IDP并通过分子对接研究其与Plin4蛋白的结合及低温保护功能，涉及IDP-PPI预测但机制建模较浅，偏应用验证。",
+  "abstract": "Cryopreservation and low-temperature stress pose a significant threat to cellular integrity due to ice crystal formation, dehydration, and apoptosis. Extremophiles such as the Antarctic nematode, Plectus murrayi, are a unique biological animal model of novel protective molecules to address this challenge. Here, we investigated the cryoprotective potential of Intrinsically Disordered Proteins (IDPs) derived from P. murray predicted by the \"in-house\" bioinformatic tool. Transcriptomic analysis of P. murray identified dur-1, a gene responsible for its freezing tolerance and homologous to the gene plin4 in humans. Functional validation studies in human 293T cells confirmed that overexpression of plin4 reduced apoptosis and enhanced proliferation significantly under low temperature stress at both 4  degrees C and -20  degrees C, indicating a cross-species conservation of its protective role. Furthermore, the molecular docking predicted strong binding affinities between Plin4 and P. murray-derived IDPs (1, 2, and 3), with IDP2 showing particular promise. Further validation in human skin cell lines (HaCaT, BJ) confirmed that IDP1 and IDP2 significantly enhanced cell viability under both 4  degrees C and freeze-dehydration (-20  degrees C) stresses, while IDP3 was effective specifically at 4  degrees C. However, the protective effect of IDP individually performed not stably along with the duration of low-temperature stress exposure of cells, while the mixture of three IDPs showed more efficient cellular uptake and perinuclear localization. Our findings identify a novel type of biomimetic cryoprotectants with significant potential for applications in cryobiology, biobanking, and the development of therapies for cold-induced cellular damage.",
+  "abstract_zh": "低温保存和低温应激因冰晶形成、脱水和细胞凋亡而对细胞完整性构成重大威胁。极端微生物，如南极线虫 *Plectus murrayi*，是应对这一挑战的新型保护分子的独特生物动物模型。在此，我们研究了由“内部”生物信息学工具预测的源自 *P. murrayi* 的内在无序蛋白 (IDPs) 的冷冻保护潜力。对 *P. murrayi* 的转录组分析鉴定出 *dur-1* 基因，该基因负责其耐冻性，并与人类 *plin4* 基因同源。在人类 293T 细胞中的功能验证研究表明，过表达 *plin4* 在 4 摄氏度和 -20 摄氏度的低温应激下显著减少细胞凋亡并增强增殖，表明其保护作用的跨物种保守性。此外，分子对接预测 Plin4 与源自 *P. murrayi* 的 IDPs（1、2 和 3）之间存在强结合亲和力，其中 IDP2 显示出特别的前景。在人类皮肤细胞系（HaCaT、BJ）中的进一步验证证实，IDP1 和 IDP2 在 4 摄氏度和冷冻脱水（-20 摄氏度）应激下均显著增强细胞活力，而 IDP3 仅在 4 摄氏度下有效。然而，单个 IDP 的保护效果随细胞低温应激暴露时间的延长而不稳定，而三种 IDP 的混合物显示出更高效的细胞摄取和核周定位。我们的发现鉴定了一类新型仿生冷冻保护剂，在低温生物学、生物样本库以及开发针对冷诱导细胞损伤的疗法方面具有显著应用潜力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42508155/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42508155/",
+  "paper_page_path": "papers/pubmed/42508155/index.html"
+}

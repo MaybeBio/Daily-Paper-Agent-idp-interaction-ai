@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42556635",
+  "title": "Terbutaline selectively reduces non-fibrillar alpha-synuclein aggregates and oxidative stress without affecting liquid-liquid phase separation or fibrillogenesis.",
+  "authors": "Biswas, Soumojit; Mavlankar, Nimisha A; Pal, Asish; Roy, Ipsita",
+  "journal": "European journal of pharmacology",
+  "published_date": "2026-08-06",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-09"
+  },
+  "score": 5,
+  "one_liner_zh": "研究特布他林对α-突触核蛋白液-液相分离和聚集的调控，涉及LLPS和PPI但无AI/物理模拟方法，机制深度有限。",
+  "abstract": "Aggregation of alpha-synuclein is intricately linked to Parkinson's disease (PD), progressing through liquid-liquid phase separation (LLPS) to toxic protofibrils and mature amyloid fibrils. Identifying compounds that selectively modulate toxic aggregation intermediates without interfering with normal cellular phase separation is a critical therapeutic goal. This study investigated the impact of terbutaline, a beta(2)-adrenergic agonist, on the liquid-liquid phase separation, aggregation behaviour, cytotoxicity and oxidative stress induced by WT alpha-SYN and its variants. Terbutaline did not affect the size or physical properties of alpha-SYN condensates or alter fibril formation, as evidenced by unchanged Th T fluorescence and fluorescence polarization values. However, it significantly reduced the number of condensates and total aggregates, particularly amorphous moiety, in a concentration-dependent manner. This selective inhibition did not influence survival of SH-SY5Y cells but significantly reduced alpha-SYN-induced superoxide generation in rat RBCs-by up to 26% for WT and 53% for CT alpha-SYN aggregates. Distinct changes were observed in the oligomers formed by WT alpha-SYN and CT alpha-SYN. Direct interaction of terbutaline with both WT alpha-SYN and CT alpha-SYN was confirmed by isothermal titration calorimetry, with a stronger binding affinity observed for the CT alpha-SYN. Transmission electron microscopy showed discrete morphological changes in aggregate structure with terbutaline, supporting a shift away from toxic polymorphs. These findings highlight terbutaline's role as a potential modulator of early aggregation toxicity, warranting further exploration into structurally related compounds for therapeutic development in synucleinopathies.",
+  "abstract_zh": "α-突触核蛋白（alpha-synuclein）的聚集与帕金森病（Parkinson's disease, PD）密切相关，其过程通过液-液相分离（liquid-liquid phase separation, LLPS）进展为毒性原纤维和成熟淀粉样纤维。识别能够选择性调节毒性聚集中间体而不干扰正常细胞相分离的化合物，是一个关键的治疗目标。本研究探讨了特布他林（terbutaline），一种β2-肾上腺素能激动剂，对野生型α-SYN及其变体诱导的液-液相分离、聚集行为、细胞毒性和氧化应激的影响。特布他林不影响α-SYN凝聚体的尺寸或物理性质，也未改变纤维形成，这通过不变的Th T荧光和荧光偏振值得以证实。然而，它显著减少了凝聚体和总聚集体的数量，尤其是无定形部分，且呈浓度依赖性。这种选择性抑制不影响SH-SY5Y细胞的存活，但显著降低了α-SYN诱导的大鼠红细胞中超氧化物生成——对WT和CT α-SYN聚集体分别减少高达26%和53%。在WT α-SYN和CT α-SYN形成的寡聚体中观察到明显差异。等温滴定量热法（isothermal titration calorimetry）确认了特布他林与WT α-SYN和CT α-SYN的直接相互作用，且对CT α-SYN表现出更强的结合亲和力。透射电子显微镜显示，特布他林作用下聚集体的结构出现离散形态变化，支持其促使毒性多态性转变。这些发现突显了特布他林作为早期聚集毒性潜在调节剂的作用，值得进一步探索结构相关化合物在突触核蛋白病治疗开发中的应用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42556635/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42556635/",
+  "paper_page_path": "papers/pubmed/42556635/index.html"
+}

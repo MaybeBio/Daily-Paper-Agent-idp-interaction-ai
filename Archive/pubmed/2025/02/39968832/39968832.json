@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "39968832",
+    "doi": "10.1002/pro.5235",
+    "title": "PEG-mCherry interactions beyond classical macromolecular crowding."
+  },
+  "content": {
+    "abstract": "The dense cellular environment influences bio-macromolecular structure, dynamics, interactions, and function. Despite advancements in understanding protein-crowder interactions, predicting their precise effects on protein structure and function remains challenging. Here, we elucidate the effects of PEG-induced crowding on the fluorescent protein mCherry using molecular dynamics simulations and fluorescence-based experiments. We identify and characterize specific PEG-induced structural and dynamical changes in mCherry. Importantly, we find interactions in which PEG molecules wrap around specific surface-exposed residues in a binding mode previously observed in protein crystal structures. Fluorescence correlation spectroscopy experiments capture PEG-induced changes, including aggregation, suggesting a potential role for the specific PEG-mCherry interactions identified in simulations. Additionally, mCherry fluorescence lifetimes are influenced by PEG and not by the bulkier crowder dextran or by another linear polymer, polyvinyl alcohol, highlighting the importance of crowder-protein soft interactions. This work augments our understanding of macromolecular crowding effects on protein structure and dynamics.",
+    "keywords": [
+      "crowding",
+      "fluorescence correlation spectroscopy",
+      "fluorescent proteins",
+      "intrinsically disordered regions",
+      "molecular dynamics",
+      "phase separation"
+    ],
+    "mesh_terms": [
+      "*Polyethylene Glycols/chemistry",
+      "Molecular Dynamics Simulation",
+      "Red Fluorescent Protein",
+      "*Luminescent Proteins/chemistry",
+      "Spectrometry, Fluorescence",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Haas-Neill, Liam",
+        "Joron, Khalil",
+        "Lerner, Eitan",
+        "Rauscher, Sarah"
+      ],
+      "short_names": [
+        "Haas-Neill L",
+        "Joron K",
+        "Lerner E",
+        "Rauscher S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3852-8786",
+        "ORCID: 0000-0002-5969-0718",
+        "ORCID: 0000-0002-3791-5277",
+        "ORCID: 0000-0001-9860-3237"
+      ],
+      "affiliations": [
+        "Department of Physics, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada.",
+        "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem, Israel.",
+        "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem, Israel.",
+        "The Center for Nanoscience and Nanotechnology, The Hebrew University of Jerusalem, Jerusalem, Israel.",
+        "Department of Physics, University of Toronto, Toronto, Ontario, Canada.",
+        "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada.",
+        "Department of Chemistry, University of Toronto, Toronto, Ontario, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Haas-Neill, Liam",
+        "short_name": "Haas-Neill L",
+        "identifiers": [
+          "0000-0003-3852-8786"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Toronto, Toronto, Ontario, Canada.",
+          "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada."
+        ]
+      },
+      {
+        "full_name": "Joron, Khalil",
+        "short_name": "Joron K",
+        "identifiers": [
+          "0000-0002-5969-0718"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Lerner, Eitan",
+        "short_name": "Lerner E",
+        "identifiers": [
+          "0000-0002-3791-5277"
+        ],
+        "affiliations": [
+          "Department of Biological Chemistry, The Alexander Silberman Institute of Life Sciences, Faculty of Mathematics & Science, The Edmond J. Safra Campus, The Hebrew University of Jerusalem, Jerusalem, Israel.",
+          "The Center for Nanoscience and Nanotechnology, The Hebrew University of Jerusalem, Jerusalem, Israel."
+        ]
+      },
+      {
+        "full_name": "Rauscher, Sarah",
+        "short_name": "Rauscher S",
+        "identifiers": [
+          "0000-0001-9860-3237"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Toronto, Toronto, Ontario, Canada.",
+          "Department of Chemical and Physical Sciences, University of Toronto Mississauga, Mississauga, Ontario, Canada.",
+          "Department of Chemistry, University of Toronto, Toronto, Ontario, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Mar",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/19 12:24",
+    "fetched_at": "2026-09-21 15:50:43"
+  },
+  "links": {
+    "cites": [
+      "42094484",
+      "41565776",
+      "39827079"
+    ],
+    "refs": [
+      "39745157",
+      "39549813",
+      "38622111",
+      "38505224",
+      "38479985",
+      "38252018",
+      "37794023",
+      "37573411",
+      "37348142",
+      "37108116",
+      "37098073",
+      "36703348",
+      "36574626",
+      "36542701",
+      "36330320",
+      "36157590",
+      "36040252",
+      "36028485",
+      "35796609",
+      "35709514",
+      "35672949",
+      "35571795",
+      "35239418",
+      "35219215",
+      "34562299",
+      "34270995",
+      "34215742",
+      "33273123",
+      "32717410",
+      "32566850",
+      "32514159",
+      "32487732",
+      "31907057",
+      "31572730",
+      "31342431",
+      "31247720",
+      "31151739",
+      "30753785",
+      "30590739",
+      "30560249",
+      "30481009",
+      "30230839",
+      "29924885",
+      "29539394",
+      "29151345",
+      "28714684",
+      "28666087",
+      "28630286",
+      "28510157",
+      "28425679",
+      "27869816",
+      "27819658",
+      "27801646",
+      "27471851",
+      "27410731",
+      "26488642",
+      "26020120",
+      "25962980",
+      "25927668",
+      "24911290",
+      "24889800",
+      "24639500",
+      "24036504",
+      "23929526",
+      "23561534",
+      "23442920",
+      "23402619",
+      "23363049",
+      "23351712",
+      "23185649",
+      "22191901",
+      "22001847",
+      "21506571",
+      "21500218",
+      "20921368",
+      "20617196",
+      "19771333",
+      "19771332",
+      "19072020",
+      "18573087",
+      "18351591",
+      "18234819",
+      "18234806",
+      "18024596",
+      "17212484",
+      "17075131",
+      "16893165",
+      "16178626",
+      "15781864",
+      "15264254",
+      "12601146",
+      "12543073",
+      "11279227",
+      "10679465",
+      "9895674",
+      "9237988",
+      "8744570",
+      "8703075",
+      "8254673",
+      "6667333",
+      "6633513",
+      "4760134",
+      "24419"
+    ],
+    "similar": [
+      "39968832",
+      "23912807",
+      "42012824",
+      "42284179",
+      "34013591",
+      "42316432",
+      "37348142",
+      "40671581",
+      "41756960",
+      "38525957",
+      "38607680",
+      "30230839",
+      "36463407",
+      "41516040",
+      "36691735",
+      "14691228",
+      "28425717",
+      "35408509",
+      "39648588",
+      "26086855",
+      "42068554",
+      "25302571",
+      "37815312",
+      "31667164",
+      "33388290",
+      "31059260",
+      "28178192",
+      "33742055",
+      "25919930",
+      "41169547",
+      "39622558",
+      "27960328",
+      "18234806",
+      "30880059",
+      "26452170",
+      "38808573",
+      "34726117",
+      "42475469",
+      "41273252",
+      "40651157",
+      "19289064",
+      "30939013",
+      "42619019",
+      "42535650",
+      "34068693",
+      "33770701",
+      "25616385",
+      "26119620",
+      "39385522",
+      "34206440",
+      "30043677",
+      "41593006",
+      "40726410",
+      "23179281",
+      "41162868",
+      "26613859",
+      "40095390",
+      "26430778",
+      "22735492",
+      "24654888",
+      "31720639",
+      "25712220",
+      "34270995",
+      "34562299",
+      "23363049",
+      "28650657",
+      "24341684",
+      "40056131",
+      "42315359",
+      "31945437",
+      "37796726",
+      "21742471",
+      "24915485",
+      "22546359",
+      "34509724",
+      "41838933",
+      "30066087",
+      "23402619",
+      "28494963",
+      "29851345",
+      "25692601",
+      "34241219",
+      "28714684",
+      "39600093",
+      "37108116",
+      "22988813",
+      "30993043",
+      "38343324",
+      "21647365",
+      "41877588",
+      "29847099",
+      "27108869",
+      "30264990",
+      "29339733",
+      "21133453",
+      "40815393",
+      "28391052",
+      "33587794",
+      "36542701",
+      "30379153"
+    ],
+    "review": [
+      "39968832",
+      "30066087"
+    ],
+    "pmc": [
+      "11836898"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39968832.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39968832/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.5235",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39968832",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

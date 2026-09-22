@@ -1,0 +1,332 @@
+{
+  "identity": {
+    "pmid": "37626310",
+    "doi": "10.1186/s12964-023-01197-y",
+    "title": "Intrinsic disorder in PRAME and its role in uveal melanoma."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: The PReferentially expressed Antigen in MElanoma (PRAME) protein has been shown to be an independent biomarker for increased risk of metastasis in Class 1 uveal melanomas (UM). Intrinsically disordered proteins and regions of proteins (IDPs/IDPRs) are proteins that do not have a well-defined three-dimensional structure and have been linked to neoplastic development. Our study aimed to evaluate the presence of intrinsic disorder in PRAME and the role these structureless regions have in PRAME( +) Class 1 UM. METHODS: A bioinformatics study to characterize PRAME's propensity for the intrinsic disorder. We first used the AlphaFold tool to qualitatively assess the protein structure of PRAME. Then we used the Compositional Profiler and a set of per-residue intrinsic disorder predictors to quantify the intrinsic disorder. The Database of Disordered Protein Prediction (D(2)P(2)) platform, IUPred, FuzDrop, fIDPnn, AUCpred, SPOT-Disorder2, and metapredict V2 allowed us to evaluate the potential functional disorder of PRAME. Additionally, we used the Search Tool for the Retrieval of Interacting Genes (STRING) to analyze PRAME's potential interactions with other proteins. RESULTS: Our structural analysis showed that PRAME contains intrinsically disordered protein regions (IDPRs), which are structureless and flexible. We found that PRAME is significantly enriched with serine (p-value < 0.05), a disorder-promoting amino acid. PRAME was found to have an average disorder score of 16.49% (i.e., moderately disordered) across six per-residue intrinsic disorder predictors. Our IUPred analysis revealed the presence of disorder-to-order transition (DOT) regions in PRAME near the C-terminus of the protein (residues 475-509). The D(2)P(2) platform predicted a region from approximately 140 and 175 to be highly concentrated with post-translational modifications (PTMs). FuzDrop predicted the PTM hot spot of PRAME to be a droplet-promoting region and an aggregation hotspot. Finally, our analysis using the STRING tool revealed that PRAME has significantly more interactions with other proteins than expected for randomly selected proteins of the same size, with the ability to interact with 84 different partners (STRING analysis result: p-value < 1.0 x 10(-16); model confidence: 0.400). CONCLUSION: Our study revealed that PRAME has IDPRs that are possibly linked to its functionality in the context of Class 1 UM. The regions of functionality (i.e., DOT regions, PTM sites, droplet-promoting regions, and aggregation hotspots) are localized to regions of high levels of disorder. PRAME has a complex protein-protein interaction (PPI) network that may be secondary to the structureless features of the polypeptide. Our findings contribute to our understanding of UM and suggest that IDPRs and DOT regions in PRAME may be targeted in developing new therapies for this aggressive cancer. Video Abstract.",
+    "keywords": [
+      "Disorder-to-order-transition",
+      "Intrinsically disordered protein",
+      "PRAME",
+      "PReferentially expressed Antigen in Melanoma",
+      "Uveal melanoma"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Melanoma",
+      "*Uveal Neoplasms",
+      "Transcription Factors",
+      "*Intrinsically Disordered Proteins",
+      "Antigens, Neoplasm",
+      "Uveal Melanoma"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Video-Audio Media"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Antonietti, Michael",
+        "Gonzalez, David J Taylor",
+        "Djulbegovic, Mak",
+        "Dayhoff, Guy W 2nd",
+        "Uversky, Vladimir N",
+        "Shields, Carol L",
+        "Karp, Carol L"
+      ],
+      "short_names": [
+        "Antonietti M",
+        "Gonzalez DJT",
+        "Djulbegovic M",
+        "Dayhoff GW 2nd",
+        "Uversky VN",
+        "Shields CL",
+        "Karp CL"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL, 33136, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL, 33136, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL, 33136, USA.",
+        "Department of Chemistry, College of Art and Sciences, University of South Florida, FL, 33612, Tampa, USA.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, FL, 33612, Tampa, USA.",
+        "Ocular Oncology Service, Wills Eye Hospital, Thomas Jefferson University, PA, Philadelphia, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL, 33136, USA. ckarp@med.miami.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Antonietti, Michael",
+        "short_name": "Antonietti M",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL, 33136, USA."
+        ]
+      },
+      {
+        "full_name": "Gonzalez, David J Taylor",
+        "short_name": "Gonzalez DJT",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL, 33136, USA."
+        ]
+      },
+      {
+        "full_name": "Djulbegovic, Mak",
+        "short_name": "Djulbegovic M",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL, 33136, USA."
+        ]
+      },
+      {
+        "full_name": "Dayhoff, Guy W",
+        "short_name": "Dayhoff GW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Art and Sciences, University of South Florida, FL, 33612, Tampa, USA."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, FL, 33612, Tampa, USA."
+        ]
+      },
+      {
+        "full_name": "Shields, Carol L",
+        "short_name": "Shields CL",
+        "identifiers": [],
+        "affiliations": [
+          "Ocular Oncology Service, Wills Eye Hospital, Thomas Jefferson University, PA, Philadelphia, USA."
+        ]
+      },
+      {
+        "full_name": "Karp, Carol L",
+        "short_name": "Karp CL",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, 900 NW 17th Street, Miami, FL, 33136, USA. ckarp@med.miami.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell communication and signaling : CCS"
+    ],
+    "journal_abbrev": [
+      "Cell Commun Signal"
+    ],
+    "pub_date": "2023 Aug 25",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S.",
+      "Video-Audio Media"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/26 05:41",
+    "fetched_at": "2026-09-21 00:43:07"
+  },
+  "links": {
+    "cites": [
+      "42421755",
+      "41815139",
+      "41147952",
+      "39979561",
+      "38338862",
+      "37828519"
+    ],
+    "refs": [],
+    "similar": [
+      "37626310",
+      "37506796",
+      "36292588",
+      "28448663",
+      "31065847",
+      "26933176",
+      "39167579",
+      "27486988",
+      "35959159",
+      "36788079",
+      "34681018",
+      "37863710",
+      "38149971",
+      "35325330",
+      "37210771",
+      "35858230",
+      "36282437",
+      "36334049",
+      "31521236",
+      "37561450",
+      "30092184",
+      "39052972",
+      "32696395",
+      "37734766",
+      "39326690",
+      "36420436",
+      "31504193",
+      "38338862",
+      "25110178",
+      "29080786",
+      "28516008",
+      "26683124",
+      "29780404",
+      "25287424",
+      "31425549",
+      "36929465",
+      "28365882",
+      "33548309",
+      "37982498",
+      "31175900",
+      "31375769",
+      "29413001",
+      "28257297",
+      "28232888",
+      "29982297",
+      "26073257",
+      "37708024",
+      "32828468",
+      "38097100",
+      "37955612",
+      "28934129",
+      "34922214",
+      "34545666",
+      "36200756",
+      "31460093",
+      "28634046",
+      "38030788",
+      "36292630",
+      "27548131",
+      "31894361",
+      "18831774",
+      "26090958",
+      "37430414",
+      "37913637",
+      "31743721",
+      "36804828",
+      "16707612",
+      "32173600",
+      "17391016",
+      "21528128",
+      "37047361",
+      "34353217",
+      "38932209",
+      "31756456",
+      "37856737",
+      "29257115",
+      "23170892",
+      "34023098",
+      "33804612",
+      "30066087",
+      "37114299",
+      "37892124",
+      "31139867",
+      "36257361",
+      "24879155",
+      "33989214",
+      "35512215",
+      "36912431",
+      "33719450",
+      "26549326",
+      "28381244",
+      "26851286",
+      "35987723",
+      "30602372",
+      "17206849",
+      "29843482",
+      "30045064",
+      "25496281",
+      "31739058",
+      "30308971",
+      "31755428",
+      "29076577",
+      "39412342"
+    ],
+    "review": [
+      "37626310",
+      "31521236",
+      "39326690",
+      "38338862",
+      "28516008",
+      "29780404",
+      "25287424",
+      "37982498",
+      "31175900",
+      "29413001",
+      "28257297",
+      "28232888",
+      "29982297",
+      "26073257",
+      "32828468",
+      "38097100",
+      "34922214",
+      "34545666",
+      "27548131",
+      "31743721",
+      "23170892",
+      "34023098",
+      "30066087",
+      "31139867",
+      "36257361",
+      "26549326",
+      "26851286",
+      "31755428"
+    ],
+    "pmc": [
+      "10463658"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://biosignaling.biomedcentral.com/articles/10.1186/s12964-023-01197-y",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/melanoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Melanoma"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37626310/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37626310",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

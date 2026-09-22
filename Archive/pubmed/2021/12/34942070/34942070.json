@@ -1,0 +1,234 @@
+{
+  "identity": {
+    "pmid": "34942070",
+    "doi": "10.1021/acs.jcim.1c00808",
+    "title": "Impact of Deamidation on the Structure and Function of Antiapoptotic Bcl-x(L)."
+  },
+  "content": {
+    "abstract": "Bcl-x(L) is an antiapoptotic mitochondrial trans-membrane protein, which is known to play a crucial role in the survival of tumor cells. The deamidation of Bcl-x(L) is a pivotal switch that regulates its biological function. The potential impact of deamidation on the structure and dynamics of Bcl-x(L) is directly linked to the intrinsically disordered region (IDR), which is the main site for post-translational modifications (PTMs). In this study, we explored deamidation-induced conformational changes in Bcl-x(L) to gain insight into its loss of function by performing microsecond-long molecular dynamics (MD) simulations. MD simulation outcomes showed that the IDR motion and interaction patterns have changed notably upon deamidation. Principal component analysis (PCA) demonstrates significant differences between wild-type and deamidated Bcl-x(L) and suggests that deamidation affects the structure and dynamics of Bcl-x(L). The combination of clustering analysis, H-bond analysis, and PCA revealed changes in conformation, interaction, and dynamics upon deamidation. Differences in contact patterns and essential dynamics that lead to a narrowing in the binding groove (BG) are clear indications of deamidation-induced allosteric effects. In line with previous studies, we show that the IDR plays a very important role in the loss of apoptotic functions of Bcl-x(L) while providing a unique perspective on the underlying mechanism of Bcl-x(L) deamidation-induced cell death.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Apoptosis",
+      "Membrane Proteins/metabolism",
+      "*Protein Processing, Post-Translational",
+      "bcl-X Protein/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Tanriver, Gamze",
+        "Monard, Gerald",
+        "Catak, Saron"
+      ],
+      "short_names": [
+        "Tanriver G",
+        "Monard G",
+        "Catak S"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8710-2170",
+        "ORCID: 0000-0002-3378-3481",
+        "ORCID: 0000-0002-4396-8375"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Bogazici University, Bebek, 34342 Istanbul, Turkey.",
+        "Universite de Lorraine, LPCT UMR 7019 CNRS, Boulevard des Aiguillettes B.P. 70239, 54506 Vandoeuvre-les-Nancy, France.",
+        "Universite de Lorraine, LPCT UMR 7019 CNRS, Boulevard des Aiguillettes B.P. 70239, 54506 Vandoeuvre-les-Nancy, France.",
+        "Department of Chemistry, Bogazici University, Bebek, 34342 Istanbul, Turkey."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Tanriver, Gamze",
+        "short_name": "Tanriver G",
+        "identifiers": [
+          "0000-0001-8710-2170"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Bogazici University, Bebek, 34342 Istanbul, Turkey.",
+          "Université de Lorraine, LPCT UMR 7019 CNRS, Boulevard des Aiguillettes B.P. 70239, 54506 Vandœuvre-les-Nancy, France."
+        ]
+      },
+      {
+        "full_name": "Monard, Gerald",
+        "short_name": "Monard G",
+        "identifiers": [
+          "0000-0002-3378-3481"
+        ],
+        "affiliations": [
+          "Université de Lorraine, LPCT UMR 7019 CNRS, Boulevard des Aiguillettes B.P. 70239, 54506 Vandœuvre-les-Nancy, France."
+        ]
+      },
+      {
+        "full_name": "Catak, Saron",
+        "short_name": "Catak S",
+        "identifiers": [
+          "0000-0002-4396-8375"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Bogazici University, Bebek, 34342 Istanbul, Turkey."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2022 Jan 10",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/24 06:00",
+    "fetched_at": "2026-09-20 07:16:34"
+  },
+  "links": {
+    "cites": [
+      "41025909",
+      "40559997",
+      "39416716"
+    ],
+    "refs": [],
+    "similar": [
+      "34942070",
+      "12810626",
+      "29694915",
+      "28645514",
+      "29507390",
+      "26958941",
+      "18636161",
+      "31717257",
+      "18806875",
+      "23823868",
+      "34502299",
+      "17177603",
+      "28903561",
+      "17209561",
+      "26331262",
+      "12372300",
+      "24616095",
+      "25907960",
+      "17369848",
+      "22589539",
+      "9346936",
+      "20206602",
+      "36997643",
+      "26923059",
+      "24116174",
+      "32111007",
+      "26215742",
+      "23340338",
+      "19670908",
+      "16331250",
+      "22609401",
+      "12198137",
+      "17519046",
+      "32888404",
+      "18302959",
+      "28793831",
+      "32001105",
+      "28486788",
+      "34835028",
+      "16133871",
+      "23445492",
+      "17011577",
+      "31587505",
+      "19293158",
+      "29175327",
+      "23968395",
+      "26022120",
+      "17659302",
+      "34953212",
+      "30429221",
+      "33220504",
+      "26813996",
+      "31004798",
+      "11756235",
+      "24901320",
+      "21415308",
+      "21856303",
+      "24556425",
+      "15342906",
+      "25875481",
+      "29193479",
+      "31905614",
+      "31367011",
+      "20885444",
+      "16301318",
+      "16368533",
+      "32987875",
+      "21854985",
+      "19820711",
+      "26245900",
+      "25156145",
+      "20580954",
+      "28025159",
+      "31439373",
+      "23680104",
+      "19109573",
+      "10946304",
+      "15205359",
+      "24443581",
+      "20619636",
+      "21203533",
+      "14966800",
+      "19427863",
+      "16928273",
+      "18452209",
+      "19169818",
+      "28682312",
+      "9468507",
+      "9699642",
+      "19231824",
+      "16455050",
+      "27194326",
+      "33828360",
+      "35914331",
+      "24900309",
+      "33711436",
+      "35782738"
+    ],
+    "review": [
+      "34942070",
+      "28645514"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-BCL2L1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1532",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.1c00808",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

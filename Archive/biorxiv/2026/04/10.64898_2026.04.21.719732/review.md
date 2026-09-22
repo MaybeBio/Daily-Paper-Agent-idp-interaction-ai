@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors present SPIN, a bioinformatics pipeline that integrates preprocessing tools (SignalP6.0, OrthoFinder, CD-HIT) with AlphaFold3 (AF3) to predict host-pathogen protein interactions at scale. They report that derivative interface metrics (ipSAE, pDockQ) outperform global confidence scores (pTM, ipTM) for plant systems, and that a multi-metric scoring framework improves reliability. They apply SPIN to two citrus pathogens and report conserved and disease-specific interaction patterns.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark datasets, or figures are available for inspection
+- **Missing materials affecting confidence** Full manuscript, methods section, benchmark datasets, statistical analyses, figure panels, supplementary tables, and code availability information
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful pipeline that addresses a real need in plant pathology, namely scalable prediction of host-pathogen interactions for non-model systems. The benchmarking claim regarding derivative metrics versus global confidence scores is interesting and, if rigorously supported, would be a valuable contribution. However, the abstract alone does not provide sufficient quantitative evidence to evaluate the performance of SPIN, the statistical significance of the benchmarking results, or the biological validity of the citrus interactome predictions. The claim that AF3 has "near-experimental accuracy" is overstated in the context of complex prediction, and the abstract does not disclose known limitations of AF3 for disordered or flexible regions beyond a brief mention. The proof-of-concept results are described qualitatively, and no metrics are given to support the assertion of "conserved host colonization strategies" or "disease-specific molecular mechanisms." The pipeline's scalability is claimed but not quantified. Overall, the work is potentially relevant to the plant-microbe interaction community, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Plant pathologists studying effector biology, particularly those working on phloem-limited pathogens or non-model systems where experimental PPI data are scarce. Computational biologists developing or applying structure prediction pipelines for interaction screening. Researchers interested in benchmarking AF3 performance outside mammalian systems. The citrus greening and witches' broom applications would interest the citrus research community specifically.
+- **Major strengths** The pipeline addresses a clear gap in plant pathology, where effector-target identification remains a bottleneck. The explicit evaluation of AF3 transferability to plant systems is a necessary and commendable step. The multi-metric scoring framework is a sensible approach to mitigate known weaknesses of individual confidence scores. The choice of two economically important pathogens with distinct symptoms provides a meaningful comparative framework.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Benchmarking against experimentally validated plant PPIs revealed that derivative metrics emphasizing interfacial geometry and residue-level contact (ipSAE and pDockQ) provide superior discrimination compared to native global confidence measures (pTM and ipTM)"
+  - **Evidence pointer** Abstract, benchmarking section; location not provided
+  - **Concern** The abstract states that ipSAE and pDockQ outperform pTM and ipTM but provides no quantitative data, such as AUC values, precision-recall curves, or effect sizes. No benchmark dataset size, composition, or diversity is described. The claim of "superior discrimination" cannot be evaluated without these details.
+  - **Why it matters** This is the central methodological contribution of the pipeline. If the benchmarking is underpowered, biased toward certain protein classes, or based on a small dataset, the conclusion may not generalize. The choice of metrics directly affects the reliability of all downstream predictions.
+  - **Resolution test** Provide benchmark dataset size and composition, report discrimination metrics (e.g., AUC, F1, precision at recall thresholds) for each metric individually and in combination, and include confidence intervals or statistical tests comparing metric performance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "A multi-metric confidence scoring framework combining pLDDT, PAE, ipSAE, and pDockQ, improved prediction reliability by enhancing recall and reduced false positives"
+  - **Evidence pointer** Abstract, multi-metric framework section; location not provided
+  - **Concern** The abstract claims improved recall and reduced false positives but does not report baseline values, improvement magnitudes, or the thresholding strategy used. It is unclear how the metrics are combined (e.g., weighted sum, decision tree, cutoffs) and whether the framework was validated on an independent test set or only on the same benchmark used for metric selection.
+  - **Why it matters** Without quantitative performance comparisons and a clear description of the combination method, the framework cannot be reproduced or assessed for overfitting. The claim of "improved reliability" is central to the pipeline's utility.
+  - **Resolution test** Report recall and false positive rates for the multi-metric framework versus each individual metric, describe the combination algorithm and threshold selection procedure, and validate on a held-out or independent dataset.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "AF3-predicted interactome data revealed conserved host colonization strategies alongside disease-specific molecular mechanisms"
+  - **Evidence pointer** Abstract, proof-of-concept section; location not provided
+  - **Concern** The abstract provides no quantitative or qualitative evidence for this claim. No interaction counts, network properties, enrichment analyses, or specific examples of conserved or disease-specific interactions are given. The biological interpretation is presented as a conclusion without supporting data.
+  - **Why it matters** The proof-of-concept is intended to demonstrate the pipeline's utility for generating biologically meaningful hypotheses. Without evidence, the claim is unsupported and the utility of SPIN for mechanistic studies is not established.
+  - **Resolution test** Provide interaction network statistics, enrichment analyses, or specific validated examples of conserved and disease-specific interactions, with appropriate statistical support.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "SPIN is a scalable bioinformatics pipeline" and "large-scale prediction"
+  - **Evidence pointer** Abstract, pipeline description; location not provided
+  - **Concern** The abstract claims scalability and large-scale capability but provides no runtime, resource usage, or throughput data. The number of host and pathogen proteins processed, computational cost per interaction, and hardware requirements are not described.
+  - **Why it matters** Scalability is a key selling point for a screening pipeline. If the computational cost is prohibitive for typical plant pathogen proteomes, the practical utility is limited. The claim of "large-scale" is currently unverifiable.
+  - **Resolution test** Report runtime and resource usage for a defined proteome pair, describe hardware specifications, and discuss feasibility for typical use cases.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Accuracy of claims
+  - **Affected element** Statement that AF3 achieves "near-experimental accuracy"
+  - **Evidence pointer** Abstract, first paragraph; location not provided
+  - **Issue** This claim is overly broad. AF3 performance varies by complex type and protein class, and the abstract itself acknowledges training bias toward mammalian proteins. The phrase overstates general accuracy.
+  - **Required correction** Qualify the statement, for example by referencing accuracy on specific benchmark classes or noting variability across protein types.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Pipeline description
+  - **Evidence pointer** Abstract, pipeline description; location not provided
+  - **Issue** The abstract does not mention code availability, containerization, or dependency management. Reproducibility of bioinformatics pipelines is a common concern.
+  - **Required correction** State where the pipeline code, configuration files, and documentation will be made available.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Benchmarking description
+  - **Evidence pointer** Abstract, benchmarking section; location not provided
+  - **Issue** The abstract does not specify what "experimentally validated plant PPIs" were used, how many were included, or whether they represent diverse interaction types (e.g., stable complexes versus transient interactions).
+  - **Required correction** Briefly describe the benchmark dataset composition and size in the abstract or refer to a table in the full manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Proof-of-concept description
+  - **Evidence pointer** Abstract, proof-of-concept section; location not provided
+  - **Issue** The abstract does not state how many interactions were predicted for each pathogen, how many were considered high confidence, or whether any predictions were experimentally validated.
+  - **Required correction** Include interaction counts and confidence thresholds, and state whether any experimental validation was performed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (benchmarking evidence missing), R1-M2 (multi-metric framework performance not quantified), R1-M3 (biological claims unsupported by data). R1-M4 is important but not strictly blocking if the full manuscript provides scalability data.
+- **Assessment against Nature-style criteria** Originality: The application of AF3 to plant-pathogen interaction screening with a focus on metric evaluation is a useful contribution, though the general approach of using AF3 for interaction prediction is not novel. Scientific importance: The work addresses a significant bottleneck in plant pathology and could accelerate effector-target identification for important diseases. Interdisciplinary readership: The work bridges structural biology, bioinformatics, and plant pathology, and would interest readers across these fields. Technical soundness: Cannot be fully assessed from the abstract; the benchmarking and validation claims require quantitative evidence. Readability for nonspecialists: The abstract is generally clear, though terms such as ipSAE and pDockQ are introduced without definition, which may hinder nonspecialist readers.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a plausible and potentially valuable pipeline, but the central claims regarding metric performance, framework improvement, and biological findings are not supported by quantitative data in the abstract. A full review of the manuscript with methods, figures, and supplementary materials would be required to assess whether the case can be established.
+
+## Risk / unsupported claims
+- The claim that ipSAE and pDockQ provide "superior discrimination" compared to pTM and ipTM is unsupported without quantitative benchmark results.
+- The claim that the multi-metric framework "improved prediction reliability by enhancing recall and reduced false positives" is unsupported without baseline and improvement values.
+- The claim that the interactome data "revealed conserved host colonization strategies alongside disease-specific molecular mechanisms" is unsupported without network or enrichment evidence.
+- The claim of "large-scale" and "scalable" is unverifiable without runtime or throughput data.
+- The statement that AF3 achieves "near-experimental accuracy" is an overgeneralization that is not supported by the abstract and is partially contradicted by the acknowledged training bias.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35174713",
+  "title": "Modeling the Structure and Interactions of Intrinsically Disordered Peptides with Multiple Replica, Metadynamics-Based Sampling Methods and Force-Field Combinations.",
+  "authors": "Li, Lunna; Casalini, Tommaso; Arosio, Paolo; Salvalaglio, Matteo",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2022-02-18",
+  "window": {
+    "start": "2022-02-14",
+    "end": "2022-02-20"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用多种副本元动力学采样与力场组合建模无序肽构象系综，并关联其低自聚集倾向，虽未直接研究PPI，但为IDP互作机制建模提供了可迁移的物理模拟方法论。",
+  "abstract": "Intrinsically disordered proteins play a key role in many biological processes, including the formation of biomolecular condensates within cells. A detailed characterization of their configurational ensemble and structure-function paradigm is crucial for understanding their biological activity and for exploiting them as building blocks in material sciences. In this work, we incorporate bias-exchange metadynamics and parallel-tempering well-tempered metadynamics with CHARMM36m and CHARMM22* to explore the structural and thermodynamic characteristics of a short archetypal disordered sequence derived from a DEAD-box protein. The conformational landscapes emerging from our simulations are largely congruent across methods and force fields. Nevertheless, differences in fine details emerge from varying combinations of force-fields and sampling methods. For this protein, our analysis identifies features that help to explain the low propensity of this sequence to undergo self-association in vitro, which are common to all force-field/sampling method combinations. Overall, our work demonstrates the importance of using multiple force-field and sampling method combinations for accurate structural and thermodynamic information in the study of disordered proteins.",
+  "abstract_zh": "intrinsically disordered proteins（内在无序蛋白）在许多生物过程中发挥关键作用，包括细胞内生物分子凝聚体的形成。对其构象系综和结构-功能范式的详细表征，对于理解其生物活性以及将其用作材料科学中的构建模块至关重要。在本工作中，我们结合偏置交换元动力学 (bias-exchange metadynamics) 和并行回火良态元动力学 (parallel-tempering well-tempered metadynamics) 与 CHARMM36m 和 CHARMM22* 力场，探索源自 DEAD-box 蛋白的短原型无序序列的结构和热力学特性。我们的模拟产生的构象景观在不同方法和力场间大体一致。然而，力场与采样方法的不同组合在细节上出现差异。对于该蛋白，我们的分析识别出有助于解释该序列在体外低自缔合倾向的特征，这些特征在所有力场/采样方法组合中普遍存在。总体而言，我们的工作证明了在无序蛋白研究中，使用多种力场和采样方法组合对于获取准确的结构和热力学信息的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35174713/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35174713/",
+  "paper_page_path": "papers/pubmed/35174713/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40207671",
+  "title": "Local Ionic Conditions Modulate the Aggregation Propensity and Influence the Structural Polymorphism of alpha-Synuclein.",
+  "authors": "Zacharopoulou, Maria; Seetaloo, Neeleema; Ross, James; Stephens, Amberley D; Fusco, Giuliana; McCoy, Thomas M; Dai, Wenyue; Mela, Ioanna; Fernandez-Villegas, Ana; Martel, Anne; Routh, Alexander F; De Simone, Alfonso; Phillips, Jonathan J; Kaminski Schierle, Gabriele S",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2025-04-10",
+  "window": {
+    "start": "2025-04-07",
+    "end": "2025-04-13"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合MD模拟与多种实验，揭示Ca2+/Na+通过调控α-突触核蛋白（IDP）单体构象和溶剂动力学影响其聚集倾向及纤维多态性，聚焦无序蛋白构象-聚集机制，虽非直接PPI但机制建模思路可迁移。",
+  "abstract": "Parkinson's disease (PD) is linked to the aggregation of the intrinsically disordered protein alpha-synuclein (aSyn), but the precise triggers and mechanisms driving this process remain unclear. Local environmental factors, such as ion concentrations, can influence aSyn's conformational ensemble and its tendency to aggregate. In this study, we explore how physiologically relevant ions, mainly Ca(2+) and Na(+), affect aSyn aggregation, monomer structural dynamics, and fibril polymorphism. ThT fluorescence assays show that all ions speed up aggregation, with Ca(2+) having the strongest effect. Using heteronuclear single quantum correlation nuclear magnetic resonance ((1)H-(15)N HSQC NMR) spectroscopy, we validate that Ca(2+) binds at the C-terminus while Na(+) interacts nonspecifically across the sequence. Small-angle neutron scattering (SANS) and hydrogen-deuterium exchange mass spectrometry (HDX-MS) show that Na(+) leads to more extended aSyn structures, while Ca(2+) results in moderate extension. Molecular dynamics (MD) simulations support this, showing Na(+) increases extension between the NAC region and C-terminus, whereas Ca(2+) biases the ensemble toward a moderately elongated structure. MD also shows that Ca(2+) increases water persistence times in the hydration shell, indicating that aSyn aggregation propensity is due to a combination of conformational bias of the monomer and solvent mobility. Atomic force microscopy (AFM) points toward the formation of distinct fibril polymorphs under different ionic conditions, suggesting ion-induced monomer changes contribute to the diversity of fibril structures. These findings underscore the pivotal influence of the local ionic milieu in shaping the structure and aggregation propensity of aSyn, offering insights into the molecular underpinnings of PD and potential therapeutic strategies targeting aSyn dynamics.",
+  "abstract_zh": "帕金森病（Parkinson's disease, PD）与 intrinsically disordered protein alpha-synuclein (aSyn) 的聚集相关，但驱动这一过程的确切触发因素和机制仍不清楚。局部环境因素，如离子浓度，可影响 aSyn 的构象集合及其聚集倾向。在本研究中，我们探讨了生理相关离子，主要是 Ca(2+) 和 Na(+)，如何影响 aSyn 聚集、单体结构动力学以及纤维多态性。ThT 荧光测定显示，所有离子均加速聚集，其中 Ca(2+) 的作用最强。通过异核单量子相关核磁共振（(1)H-(15)N HSQC NMR）光谱，我们验证了 Ca(2+) 结合于 C 端，而 Na(+) 则沿序列非特异性相互作用。小角中子散射（SANS）和氢-氘交换质谱（HDX-MS）显示，Na(+) 导致 aSyn 结构更伸展，而 Ca(2+) 则导致适度伸展。分子动力学（MD）模拟支持这一结果，显示 Na(+) 增加 NAC 区域与 C 端之间的伸展，而 Ca(2+) 则使构象集合偏向于中等延长的结构。MD 还显示，Ca(2+) 增加水化壳层中水的持久时间，表明 aSyn 聚集倾向源于单体构象偏向和溶剂流动性的组合效应。原子力显微镜（AFM）表明，在不同离子条件下形成不同的纤维多态，提示离子诱导的单体变化有助于纤维结构的多样性。这些发现强调了局部离子环境在塑造 aSyn 结构和聚集倾向中的关键作用，为 PD 的分子机制及靶向 aSyn 动力学的潜在治疗策略提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40207671/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40207671/",
+  "paper_page_path": "papers/pubmed/40207671/index.html"
+}

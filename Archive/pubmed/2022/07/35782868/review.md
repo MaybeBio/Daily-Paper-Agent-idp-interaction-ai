@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) for Navarro-Paya et al., "Plasticity of Membrane Binding by the Central Region of alpha-Synuclein," published in Frontiers in Molecular Biosciences, 2022.
+- **Assessment boundary** Scientific content, methodological soundness, and internal consistency of the reported computational study. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors use coarse-grained (CG) molecular dynamics simulations with a modified Martini 3 force field to investigate the conformational dependence of membrane binding by residues 65–97 of α-synuclein (αS65–97). They report that the disordered-tethered conformation binds membranes more favorably in this region than in the N-terminal region (residues 1–30), that the helical-locked conformation is less stable for αS65–97 than for αS1–30, and that residues 87–97 bind membranes in a conformation-independent manner. They propose implications for the double-anchor mechanism of synaptic vesicle clustering.
+- **Visible evidence base** Main text figures (Figures 1–3), supplementary figures (S1–S4), methods descriptions for CG simulations, umbrella sampling, and force field modifications.
+- **Missing materials affecting confidence** Supplementary figures and methods were referenced but not provided in the submitted material. Specific numerical data (e.g., contact index values, melting temperatures, PMF profiles) are only partially reported in the text. No raw simulation trajectories or analysis scripts were provided.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a focused computational study on the conformational dependence of membrane binding by the central region of α-synuclein. The work addresses a relevant question in the field of α-synuclein membrane interactions and the double-anchor mechanism. The methodological approach is reasonable, and the findings are potentially interesting. However, the manuscript has several weaknesses that limit the strength of the conclusions. The comparison between αS65–97 and αS1–30 relies on data from a previous study, and the present work does not include direct simulations of αS1–30 under identical conditions. The claim of conformation-independent binding for residues 87–97 is based on a single supplementary figure that was not available for review. The umbrella sampling simulations are described briefly, and the reported binding free energies (11 and 7.5 kcal/mol for helical and extended-disordered conformations, respectively) appear inconsistent with the text, which states that the helical conformation has higher affinity. The manuscript would benefit from clearer presentation of quantitative results and a more thorough discussion of limitations.
+- **Who would be interested in the results, and why** Researchers studying α-synuclein membrane interactions, the double-anchor mechanism, synaptic vesicle trafficking, and the molecular basis of Parkinson's disease. The work may also interest computational biophysicists developing and applying coarse-grained simulation methods to intrinsically disordered proteins and membrane systems.
+- **Major strengths** The study addresses a specific and mechanistically important question about the conformational dependence of membrane binding in a key region of α-synuclein. The use of a modified Martini 3 force field with restrained backbone conformations is a creative approach to isolate conformational effects. The connection to the double-anchor mechanism provides biological context and potential relevance to synaptic vesicle clustering.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "the competition between tethered versus helical conformations has distinctive properties in this region" and that "for segments 87–97, we observed no difference between the melting curves calculated in the simulations of the extended-disordered and helical states."
+  - **Evidence pointer** Results section, Figure 3, Supplementary Figure S3 (not provided)
+  - **Concern** The claim of conformation-independent binding for residues 87–97 is based on a supplementary figure that was not included in the submitted material. Without access to this figure, the claim cannot be evaluated. Additionally, the main text does not provide quantitative data (e.g., contact index values, melting temperatures) to support the qualitative description of "no difference."
+  - **Why it matters** This is a central finding of the manuscript and underpins the proposed implications for the double-anchor mechanism. If the evidence is not available or is insufficient, the main conclusion is not supported.
+  - **Resolution test** Provide Supplementary Figure S3 and the associated quantitative analysis. Show that the melting curves for residues 87–97 in the extended-disordered and helical states are statistically indistinguishable, with appropriate error estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological consistency
+  - **Claim pointer** The authors state that "full atomic simulations of umbrella sampling... indicating binding free energies of 11 and 7.5 kcal/mol for helical and extended-disordered conformations, respectively."
+  - **Evidence pointer** Results section, Methods section (Umbrella Sampling Full Atomic Simulations), Supplementary Figure S1 (not provided)
+  - **Concern** The reported binding free energies appear inconsistent with the main finding that the helical conformation has higher membrane affinity. A higher binding free energy (11 kcal/mol) for the helical conformation compared to the extended-disordered conformation (7.5 kcal/mol) would suggest that the extended-disordered conformation binds more strongly, which contradicts the CG simulation results and the text. This discrepancy is not addressed.
+  - **Why it matters** The umbrella sampling results are used to support the CG simulation findings. If the free energy values are misinterpreted or incorrect, the validation of the CG approach is compromised.
+  - **Resolution test** Clarify the sign convention and interpretation of the reported free energies. Provide the PMF profiles and ensure that the values are consistent with the qualitative conclusion that the helical conformation has higher affinity. If the values are correct, explain the apparent contradiction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Comparative validity
+  - **Claim pointer** The authors compare the melting temperatures of αS65–97 (372 K for extended-disordered, 393 K for helical) with those of αS1–30 (352 K for extended-disordered, 413 K for helical) from a previous study (Navarro-Paya et al., 2020).
+  - **Evidence pointer** Results section, Figure 2
+  - **Concern** The comparison between αS65–97 and αS1–30 is central to the conclusion that the central region has distinct membrane-binding properties. However, the αS1–30 data are from a previous study and may have been generated under different simulation conditions (e.g., system size, lipid composition, force field parameters). The manuscript does not state whether the simulations for αS1–30 and αS65–97 were performed under identical conditions.
+  - **Why it matters** If the simulation conditions differ, the comparison of melting temperatures may not be valid, and the conclusion that the central region has a smaller difference between conformational states could be an artifact of different setups.
+  - **Resolution test** State explicitly whether the αS1–30 simulations were performed under identical conditions to those in the present study. If not, discuss the potential impact on the comparison or perform new simulations of αS1–30 under the same conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the study "enabled clarifying the conformational dependencies of the membrane affinity by this protein region" but does not specify the key quantitative findings or the main conclusion about conformation-independent binding for residues 87–97.
+  - **Required correction** Include a brief statement of the main quantitative result (e.g., melting temperatures or free energy differences) and the key conclusion about residues 87–97.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section (Simulation Setup)
+  - **Evidence pointer** Methods section, location not provided
+  - **Issue** The manuscript states that "the convergence of the simulations was assessed by dividing each run into three consecutive and equal segments and checking the convergence of the membrane contacts." However, no details are provided on the criteria used to determine convergence or the results of this analysis.
+  - **Required correction** Provide a brief description of the convergence criteria and report the results, either in the main text or in the supplementary material.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The authors state that "the identified modes of binding might have functional implications for the second anchor in the double-anchor mechanism to facilitate vesicle clustering by αS." This is speculative and not directly supported by the simulation data, which only address the conformational dependence of membrane binding.
+  - **Required correction** Soften the language to clearly indicate that this is a hypothesis, and consider discussing alternative interpretations or limitations of the computational approach.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section
+  - **Evidence pointer** Results, location not provided
+  - **Issue** The manuscript does not report the statistical uncertainty of the melting temperatures or contact indices. Given that the simulations are stochastic, error estimates are necessary to support claims of differences or similarities between conditions.
+  - **Required correction** Provide error estimates (e.g., standard deviation or confidence intervals) for the reported quantities, or state that the analysis is based on a single trajectory per condition and discuss the limitations.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing evidence for the key claim about residues 87–97), R1-M2 (inconsistent free energy values), R1-M3 (unclear comparability of αS1–30 and αS65–97 simulations).
+- **Assessment against Nature-style criteria** Originality: The work addresses a specific question about conformational dependence of membrane binding in αS65–97, which is a relatively narrow but relevant topic. The approach of using restrained CG simulations is not entirely novel, as it builds on previous work by the same group. Scientific importance: The findings have potential implications for understanding the double-anchor mechanism and α-synuclein function, but the significance is limited by the computational nature of the study and the lack of direct experimental validation. Interdisciplinary readership: The work is primarily of interest to biophysicists and computational biologists studying protein-membrane interactions; it may not attract a broad interdisciplinary audience. Technical soundness: The methods are generally appropriate, but the manuscript has issues with data presentation and consistency (e.g., free energy values, missing supplementary figures) that need to be addressed. Readability for nonspecialists: The manuscript is written in a technical style that assumes familiarity with molecular dynamics simulations and membrane biophysics; the abstract and introduction are accessible, but the results and methods sections may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and uses a reasonable computational approach, but the key claims are not fully supported by the available evidence. The authors should provide the missing supplementary data, clarify the free energy results, and address the comparability of the αS1–30 and αS65–97 simulations.
+
+## Risk / unsupported claims
+- The claim that residues 87–97 bind membranes in a conformation-independent manner is unsupported because Supplementary Figure S3 was not provided.
+- The reported binding free energies (11 and 7.5 kcal/mol) are inconsistent with the qualitative conclusion that the helical conformation has higher affinity, and this discrepancy is not explained.
+- The comparison of melting temperatures between αS65–97 and αS1–30 may be invalid if the simulations were not performed under identical conditions, which is not stated.
+- The speculation about functional implications for the double-anchor mechanism is not directly supported by the simulation data.

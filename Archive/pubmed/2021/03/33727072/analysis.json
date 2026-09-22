@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33727072",
+  "title": "Hybrid resolution molecular dynamics simulations of amyloid proteins interacting with membranes.",
+  "authors": "Hashemi, Mohtadin; Lyubchenko, Yuri L",
+  "journal": "Methods (San Diego, Calif.)",
+  "published_date": "2021-03-18",
+  "window": {
+    "start": "2021-03-15",
+    "end": "2021-03-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用混合分辨率分子动力学模拟淀粉样蛋白（α-突触核蛋白）与脂膜互作，对象为IDP但互作对象是膜而非蛋白，方法为物理模拟，机制建模有启发但非PPI。",
+  "abstract": "A broad range of human diseases, including Alzheimer's and Parkinson's diseases, arise from or have as key players intrinsically disordered proteins. The aggregation of these amyloid proteins into fibrillar aggregates are the key events of such diseases. Characterizing the conformation dynamics of the proteins involved is crucial for understanding the molecular mechanisms of aggregation, which in turn is important for drug development efforts against these diseases. Computational approaches have provided extensive detail about some steps of the aggregation process, however the biologically relevant elements responsible for the aggregation and or aggregation propagation have not been fully characterized. Here we describe a hybrid resolution molecular dynamics simulation method that can be employed to investigate the interaction of amyloid proteins with lipid membranes, shown to dramatically accelerate the aggregation propensity of amyloid proteins. The hybrid resolution method enables routine and accurate simulation of multi-protein and complex membrane systems, mimicking biologically relevant lipid membranes, on microsecond time scales. The hybrid resolution method was applied to computer modeling of the interactions of alpha -synuclein protein with a mixed lipid bilayer.",
+  "abstract_zh": "多种人类疾病，包括阿尔茨海默病和帕金森病，源于或关键涉及固有无序蛋白。这些淀粉样蛋白聚集成纤维状聚集体是此类疾病的关键事件。表征所涉蛋白的构象动力学对于理解聚集的分子机制至关重要，而这反过来对针对这些疾病的药物开发工作具有重要意义。计算方法已提供了聚集过程某些步骤的广泛细节，然而负责聚集及/或聚集传播的生物学相关元素尚未被完全表征。在此，我们描述了一种混合分辨率分子动力学 (molecular dynamics) 模拟方法，可用于研究淀粉样蛋白与脂质膜的相互作用，已显示这种相互作用能显著加速淀粉样蛋白的聚集倾向。该混合分辨率方法能够在微秒时间尺度上对多蛋白和复杂膜系统进行常规且准确的模拟，模拟生物学相关的脂质膜。该混合分辨率方法被应用于α-突触核蛋白 (alpha-synuclein) 与混合脂质双层相互作用的计算机建模。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33727072/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33727072/",
+  "paper_page_path": "papers/pubmed/33727072/index.html"
+}

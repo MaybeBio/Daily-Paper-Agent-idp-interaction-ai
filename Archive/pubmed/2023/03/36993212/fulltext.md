@@ -1,0 +1,5 @@
+# Phase Separation in Mixtures of Prion-Like Low Complexity Domains is Driven by the Interplay of Homotypic and Heterotypic Interactions
+
+
+## Significance Statement
+  Biomolecular condensates are mixtures of different protein and nucleic acid molecules that organize biochemical reactions in cells. Much of what we know about how condensates form comes from studies of phase transitions of individual components of condensates. Here, we report results from studies of phase transitions of mixtures of archetypal protein domains that feature in distinct condensates. Our investigations, aided by a blend of computations and experiments, show that the phase transitions of mixtures are governed by a complex interplay of homotypic and heterotypic interactions. The results point to how expression levels of different protein components can be tuned in cells to modulate internal structures, compositions, and interfaces of condensates, thus affording distinct ways to control the functions of condensates.

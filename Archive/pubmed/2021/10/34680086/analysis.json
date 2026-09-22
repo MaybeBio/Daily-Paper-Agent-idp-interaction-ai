@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34680086",
+  "title": "Design of Inhibitors of the Intrinsically Disordered Protein NUPR1: Balance between Drug Affinity and Target Function.",
+  "authors": "Rizzuti, Bruno; Lan, Wenjun; Santofimia-Castano, Patricia; Zhou, Zhengwei; Velazquez-Campoy, Adrian; Abian, Olga; Peng, Ling; Neira, Jose L; Xia, Yi; Iovanna, Juan L",
+  "journal": "Biomolecules",
+  "published_date": "2021-10-24",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究以无序蛋白NUPR1为靶点，通过配体设计优化小分子药物亲和力并评估其抑制功能，涉及IDP-药物互作机制，但方法为实验为主、无AI/物理模拟建模，故评6分。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are emerging as attractive drug targets by virtue of their physiological ubiquity and their prevalence in various diseases, including cancer. NUPR1 is an IDP that localizes throughout the whole cell, and is involved in the development and progression of several tumors. We have previously repurposed trifluoperazine (TFP) as a drug targeting NUPR1 and, by using a ligand-based approach, designed the drug ZZW-115 starting from the TFP scaffold. Such derivative compound hinders the development of pancreatic ductal adenocarcinoma (PDAC) in mice, by hampering nuclear translocation of NUPR1. Aiming to further improve the activity of ZZW-115, here we have used an indirect drug design approach to modify its chemical features, by changing the substituent attached to the piperazine ring. As a result, we have synthesized a series of compounds based on the same chemical scaffold. Isothermal titration calorimetry (ITC) showed that, with the exception of the compound preserving the same chemical moiety at the end of the alkyl chain as ZZW-115, an increase of the length by a single methylene group (i.e., ethyl to propyl) significantly decreased the affinity towards NUPR1 measured in vitro, whereas maintaining the same length of the alkyl chain and adding heterocycles favored the binding affinity. However, small improvements of the compound affinity towards NUPR1, as measured by ITC, did not result in a corresponding improvement in their inhibitory properties and in cellulo functions, as proved by measuring three different biological effects: hindrance of the nuclear translocation of the protein, sensitization of cells against DNA damage mediated by NUPR1, and prevention of cancer cell growth. Our findings suggest that a delicate compromise between favoring ligand affinity and controlling protein function may be required to successfully design drugs against NUPR1, and likely other IDPs.",
+  "abstract_zh": "固有无序蛋白（IDPs）因其在生理上的普遍性及在包括癌症在内的多种疾病中的广泛存在，正逐渐成为有吸引力的药物靶点。NUPR1是一种分布于整个细胞的IDP，参与多种肿瘤的发生与发展。我们此前已将三氟拉嗪（TFP）重新定位为靶向NUPR1的药物，并采用基于配体的方法，从TFP骨架出发设计了药物ZZW-115。该衍生物通过阻碍NUPR1的核转位，抑制了小鼠胰腺导管腺癌（PDAC）的发展。为进一步提高ZZW-115的活性，本研究采用间接药物设计方法，通过改变哌嗪环上的取代基来修饰其化学特性。据此，我们合成了一系列基于相同化学骨架的化合物。等温滴定量热法（ITC）显示，除保留与ZZW-115相同烷基链末端化学基团的化合物外，增加一个亚甲基的长度（即从乙基到丙基）显著降低了体外测得的对NUPR1的亲和力，而保持烷基链长度不变并添加杂环则有利于结合亲和力。然而，通过ITC测得的化合物对NUPR1亲和力的微小提升，并未相应改善其抑制特性和细胞内功能，这一点通过测量三种不同的生物效应得到证实：阻碍蛋白质核转位、增强细胞对NUPR1介导的DNA损伤的敏感性，以及抑制癌细胞生长。我们的研究结果表明，成功设计针对NUPR1（可能也包括其他IDPs）的药物，可能需要在增强配体亲和力与控制蛋白质功能之间取得微妙的平衡。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34680086/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34680086/",
+  "paper_page_path": "papers/pubmed/34680086/index.html"
+}

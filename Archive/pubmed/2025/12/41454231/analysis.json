@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41454231",
+  "title": "Genome-wide identification and analysis of YTH gene family and its response to MeJA and salt treatment in Panax ginseng C. A. Meyer.",
+  "authors": "Yang, Ting; Sun, Yiming; Yang, Wanqing; Zhuang, Yadong; Qin, Tengfei; Hao, Wei",
+  "journal": "BMC plant biology",
+  "published_date": "2025-12-27",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 3,
+  "one_liner_zh": "该文对人参YTH基因家族进行全基因组鉴定与表达分析，虽涉及含无序PrLD的m6A阅读蛋白和相分离预测，但无PPI互作机制研究，也无AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "YTH domain-containing RNA-binding proteins function as m6A readers that specifically bind to m6A-modified RNAs. YTH domain-containing proteins participate in various biological processes, such as hormone signaling pathways, regulation of stress responses, RNA stability, and cellular differentiation. Despite these important roles, the characteristics and functions of YTH family genes in ginseng (Panax ginseng C. A. Meyer), a traditional medicinal herb, particularly regarding their response to MeJA (Methyl Jasmonate) treatment and salt stress on a genome-wide scale, have not yet been studied. In this study, 18 YTH genes were identified based on telomere-to-telomere reference genome of ginseng. These PgYTH genes were grouped into four subgroups by phylogenetic analysis. Moreover, the chromosomal distribution, synteny analysis, gene structures and cis-elements of PgYTH genes, and the motifs of YTH proteins were analyzed. Conserved domain analysis, multiple sequence alignment, and phase separation prediction collectively showed that PgYTH proteins exhibited typical m6A reader protein characteristics, including conserved aromatic cages (WWW/WWY) that specifically bind m6A residues, and prion-like domains (PrLDs). The PgYTH gene family showed expression differences across different growth years, tissues, and stress conditions. Among them, PgYTH12 consistently maintained the highest expression levels in ginseng roots, the main root cortex, and most cultivated varieties. PgYTH12 exhibited specific upregulation or downregulation patterns under different stresses, and showed downregulation under MeJA treatment. Correlation analysis further revealed that some PgYTH genes were significantly negatively correlated with genes involved in the ginsenoside biosynthetic pathway. qPCR results confirmed that the expression of most PgYTH genes was downregulated under MeJA treatment, whereas the expression of PgYTH8-12 was upregulated under salt stress conditions. Additionally, PgYTH12 was localized to the endoplasmic reticulum. Overall, these results lay the groundwork for future functional investigations of PgYTH genes, advancing our understanding of their role in the regulation of the ginsenoside biosynthesis pathway and stress resistance in ginseng.",
+  "abstract_zh": "含YTH结构域的RNA结合蛋白作为m6A读取器，特异性结合m6A修饰的RNA。含YTH结构域的蛋白参与多种生物过程，如激素信号通路、胁迫响应调控、RNA稳定性和细胞分化。尽管具有这些重要作用，但人参（Panax ginseng C. A. Meyer）这一传统药用植物中YTH家族基因的特征和功能，特别是在全基因组水平上对MeJA（茉莉酸甲酯）处理和盐胁迫的响应，尚未被研究。本研究基于人参的端粒到端粒参考基因组，鉴定出18个YTH基因。通过系统发育分析，这些PgYTH基因被分为四个亚组。此外，分析了PgYTH基因的染色体分布、共线性分析、基因结构和顺式元件，以及YTH蛋白的基序。保守结构域分析、多序列比对和相分离预测共同表明，PgYTH蛋白表现出典型的m6A读取器蛋白特征，包括特异性结合m6A残基的保守芳香笼（WWW/WWY）和朊病毒样结构域（PrLDs）。PgYTH基因家族在不同生长年限、组织和胁迫条件下表现出表达差异。其中，PgYTH12在人参根、主根皮层和大多数栽培品种中始终保持最高表达水平。PgYTH12在不同胁迫下表现出特异性上调或下调模式，并在MeJA处理下表现出下调。相关性分析进一步揭示，部分PgYTH基因与参与人参皂苷生物合成途径的基因显著负相关。qPCR结果证实，在MeJA处理下，大多数PgYTH基因的表达下调，而在盐胁迫条件下，PgYTH8-12的表达上调。此外，PgYTH12定位于内质网。总体而言，这些结果为未来PgYTH基因的功能研究奠定了基础，增进了我们对其在人参皂苷生物合成途径调控和人参抗逆性中作用的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41454231/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41454231/",
+  "paper_page_path": "papers/pubmed/41454231/index.html"
+}

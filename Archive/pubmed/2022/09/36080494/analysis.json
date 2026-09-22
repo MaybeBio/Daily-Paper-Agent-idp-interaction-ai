@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36080494",
+  "title": "Modified Protein-Water Interactions in CHARMM36m for Thermodynamics and Kinetics of Proteins in Dilute and Crowded Solutions.",
+  "authors": "Matsubara, Daiki; Kasahara, Kento; Dokainish, Hisham M; Oshima, Hiraku; Sugita, Yuji",
+  "journal": "Molecules (Basel, Switzerland)",
+  "published_date": "2022-09-10",
+  "window": {
+    "start": "2022-09-05",
+    "end": "2022-09-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过增强采样MD优化CHARMM36m中蛋白-水LJ相互作用参数，改善IDP构象和拥挤环境下蛋白扩散，虽聚焦力场修正而非直接PPI机制建模，但为IDP互作模拟提供了关键方法学基础。",
+  "abstract": "Proper balance between protein-protein and protein-water interactions is vital for atomistic molecular dynamics (MD) simulations of globular proteins as well as intrinsically disordered proteins (IDPs). The overestimation of protein-protein interactions tends to make IDPs more compact than those in experiments. Likewise, multiple proteins in crowded solutions are aggregated with each other too strongly. To optimize the balance, Lennard-Jones (LJ) interactions between protein and water are often increased about 10% (with a scaling parameter, lambda = 1.1) from the existing force fields. Here, we explore the optimal scaling parameter of protein-water LJ interactions for CHARMM36m in conjunction with the modified TIP3P water model, by performing enhanced sampling MD simulations of several peptides in dilute solutions and conventional MD simulations of globular proteins in dilute and crowded solutions. In our simulations, 10% increase of protein-water LJ interaction for the CHARMM36m cannot maintain stability of a small helical peptide, (AAQAA)(3) in a dilute solution and only a small modification of protein-water LJ interaction up to the 3% increase (lambda = 1.03) is allowed. The modified protein-water interactions are applicable to other peptides and globular proteins in dilute solutions without changing thermodynamic properties from the original CHARMM36m. However, it has a great impact on the diffusive properties of proteins in crowded solutions, avoiding the formation of too sticky protein-protein interactions.",
+  "abstract_zh": "蛋白质-蛋白质与蛋白质-水相互作用的适当平衡对于球状蛋白质及 intrinsically disordered proteins (IDPs) 的原子级分子动力学 (molecular dynamics) 模拟至关重要。蛋白质-蛋白质相互作用的过度估计往往会使 IDPs 比实验中的更紧凑。同样，拥挤溶液中的多个蛋白质也会彼此过度聚集。为优化这一平衡，通常将蛋白质与水之间的 Lennard-Jones (LJ) 相互作用从现有力场增加约 10%（使用缩放参数，lambda = 1.1）。在此，我们通过增强采样分子动力学模拟稀溶液中的几种肽，以及常规分子动力学模拟稀溶液和拥挤溶液中的球状蛋白质，探索了 CHARMM36m 与改良 TIP3P 水模型结合时蛋白质-水 LJ 相互作用的最优缩放参数。在我们的模拟中，将 CHARMM36m 的蛋白质-水 LJ 相互作用增加 10% 无法维持稀溶液中一个小螺旋肽 (AAQAA)(3) 的稳定性，仅允许蛋白质-水 LJ 相互作用的小幅修改，即增加至 3%（lambda = 1.03）。修改后的蛋白质-水相互作用适用于稀溶液中的其他肽和球状蛋白质，且不改变原始 CHARMM36m 的热力学性质。然而，它对拥挤溶液中蛋白质的扩散性质有显著影响，避免了过于粘性的蛋白质-蛋白质相互作用的形成。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36080494/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36080494/",
+  "paper_page_path": "papers/pubmed/36080494/index.html"
+}

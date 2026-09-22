@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33996007",
+  "title": "Molecular mechanism of secreted amyloid-beta precursor protein in binding and modulating GABA(B)R1a.",
+  "authors": "Feng, Mei; Song, Yi; Chen, Serena H; Zhang, Yuanzhao; Zhou, Ruhong",
+  "journal": "Chemical science",
+  "published_date": "2021-05-18",
+  "window": {
+    "start": "2021-05-17",
+    "end": "2021-05-23"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全原子MD和自由能微扰(FEP)模拟研究分泌型APP肽段与GABA(B)R1a的无序sushi 1结构域的动态结合机制，并预测增强结合的双突变，直接命中无序蛋白介导的PPI机制建模，方法为物理模拟，对象、互作、方法三者齐备。",
+  "abstract": "A recent phenomenal study discovered that the extension domain of secreted amyloid-beta precursor protein (sAPP) can bind to the intrinsically disordered sushi 1 domain of the gamma-aminobutyric acid type B receptor subunit 1a (GABA(B)R1a) and modulate its synaptic transmission. The work provided an important structural foundation for the modulation of GABA(B)R1a; however, the detailed molecular interaction mechanism, crucial for future drug design, remains elusive. Here, we further investigated the dynamical interactions between sAPP peptides and the natively unstructured sushi 1 domain using all-atom molecular dynamics simulations, for both the 17-residue sAPP peptide (APP 17-mer) and its minimally active 9 residue segment (APP 9-mer). We then explored mutations of the APP 9-mer with rigorous free energy perturbation (FEP) calculations. Our in silico mutagenesis studies revealed key residues (D4, W6, and W7) responsible for the binding with the sushi 1 domain. More importantly, one double mutation based on different vertebrate APP sequences from evolution exhibited a stronger binding (DeltaDeltaG = -1.91 +/- 0.66 kcal mol(-1)), indicating a potentially enhanced GABA(B)R1a modulator. These large-scale simulations may provide new insights into the binding mechanism between sAPP and the sushi 1 domain, which could open new avenues in the development of future GABA(B)R1a-specific therapeutics.",
+  "abstract_zh": "一项近期现象级研究发现，分泌型淀粉样前体蛋白（sAPP）的延伸结构域能够与γ-氨基丁酸B型受体亚基1a（GABA(B)R1a）的内在无序sushi 1结构域结合，并调节其突触传递。该工作为GABA(B)R1a的调节提供了重要的结构基础；然而，对于未来药物设计至关重要的详细分子相互作用机制仍不清楚。在此，我们利用全原子分子动力学模拟，进一步研究了sAPP肽段与天然无序sushi 1结构域之间的动态相互作用，涵盖17残基sAPP肽段（APP 17-mer）及其最小活性9残基片段（APP 9-mer）。随后，我们通过严格的自由能微扰（FEP）计算探索了APP 9-mer的突变。我们的计算机模拟突变研究揭示了与sAPP与sushi 1结构域结合相关的关键残基（D4、W6和W7）。更重要的是，基于不同脊椎动物APP序列进化的一种双突变表现出更强的结合力（DeltaDeltaG = -1.91 ± 0.66 kcal mol(-1)），表明其可能成为增强的GABA(B)R1a调节剂。这些大规模模拟可能为sAPP与sushi 1结构域之间的结合机制提供新见解，从而为未来开发GABA(B)R1a特异性治疗药物开辟新途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33996007/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33996007/",
+  "paper_page_path": "papers/pubmed/33996007/index.html"
+}

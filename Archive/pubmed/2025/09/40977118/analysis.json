@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40977118",
+  "title": "Metal-Coordination Specificity and Structural Dynamics of C. elegans Metallothionein I: Insights From 3D Modeling and MD Simulations.",
+  "authors": "de Oliveira, Nilvea Ramalho; Siqueira, Andrei Santos; Bueno, Paulo Sergio Alves; Goncalves, Evonnildo Costa; Zanette, Juliano",
+  "journal": "Proteins",
+  "published_date": "2025-09-22",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用AlphaFold建模和MD模拟研究线虫金属硫蛋白（IDP）与不同金属离子的结合稳定性和构象动态，虽非PPI但涉及IDP-配体互作机制建模，方法可迁移至无序蛋白互作研究。",
+  "abstract": "Metallothioneins (MTLs) are small, cysteine-rich proteins known for their ability to bind metal ions and exhibit flexible, disordered structures. The structural and functional characteristics of metallothionein I (MTL-1) from Caenorhabditis elegans were investigated, focusing on its behavior in both metal free (MTL-1 Apo) and metal-bond states with Zn(2+), Cd(2+), Cu(2+), Hg(2+), and Pb(2+) divalent metal ions. Using molecular dynamics simulations and 3D modeling via AlphaFold, we characterized the flexibility and stability of MTL. The MTL-1 Apo form displayed high flexibility, aligning with its intrinsically disordered protein (IDP) nature, with 89.3% of its structure composed of coils, bends, and turns. Metal binding significantly enhanced the protein's stability, particularly with Zn(2+), Cd(2+), Cu(2+), and Hg(2+), reducing root mean square deviation (RMSD), root mean square fluctuation (RMSF), accessible surface area (SASA) and radius of gyration (R (g)) values, indicating structural compaction. Conversely, Pb(2+) showed a weaker stabilizing effect, with a more dynamic and less stable structure. Structural analysis revealed that conserved cysteine residues coordinate the metal through strong thiolate interactions, with additional contributions from non-cysteine residues, such as Glu and Lys. The study underscores the importance of incorporating intrinsically disordered protein models in MD simulations to provide deeper insights into how metallothionein's flexibility and stability vary in response to different metal ions, offering a structural perspective on their biological interactions and behavior under diverse environmental conditions. While thermodynamic aspects were not directly assessed, the results reveal consistent conformation trends across different metal coordination states.",
+  "abstract_zh": "金属硫蛋白（MTLs）是一类富含半胱氨酸的小型蛋白质，以其结合金属离子并展现柔性无序结构的能力而著称。本研究探讨了秀丽隐杆线虫（Caenorhabditis elegans）金属硫蛋白I（MTL-1）的结构与功能特征，重点关注其在无金属状态（MTL-1 Apo）及与Zn(2+)、Cd(2+)、Cu(2+)、Hg(2+)和Pb(2+)二价金属离子结合状态下的行为。通过分子动力学（molecular dynamics）模拟和AlphaFold三维建模，我们表征了MTL的柔性与稳定性。MTL-1 Apo形式表现出高柔性，与其固有无序蛋白（intrinsically disordered protein, IDP）特性一致，其结构中89.3%由卷曲、弯曲和转角组成。金属结合显著增强了蛋白质的稳定性，尤其是Zn(2+)、Cd(2+)、Cu(2+)和Hg(2+)，降低了均方根偏差（RMSD）、均方根波动（RMSF）、可及表面积（SASA）和回转半径（R(g)）值，表明结构发生压缩。相反，Pb(2+)显示出较弱的稳定效应，结构更具动态性且稳定性较低。结构分析揭示，保守的半胱氨酸残基通过强硫醇盐相互作用协调金属，同时非半胱氨酸残基（如Glu和Lys）也作出额外贡献。本研究强调了在分子动力学模拟中纳入固有无序蛋白模型的重要性，以更深入地理解金属硫蛋白的柔性和稳定性如何随不同金属离子而变化，从而为它们在不同环境条件下的生物相互作用和行为提供结构视角。尽管未直接评估热力学方面，但结果揭示了不同金属配位状态下的一致构象趋势。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40977118/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40977118/",
+  "paper_page_path": "papers/pubmed/40977118/index.html"
+}

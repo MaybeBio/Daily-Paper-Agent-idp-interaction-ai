@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "42290021",
+    "doi": "10.1002/jcb.70098",
+    "title": "Intrinsic Disorder Status in Human Proteins Interacting With SARS-CoV-2 Proteins: Insights From Five Years of Translational Research."
+  },
+  "content": {
+    "abstract": "SARS-CoV-2 infection is driven by extensive interactions between viral proteins and host cellular factors, yet the structural properties of host proteins within these interaction networks remain incompletely understood. Intrinsically disordered proteins and regions are key contributors to protein-protein interaction networks due to their conformational flexibility and associated with it multifunctionality, binding promiscuity, and regulatory versatility. In this study, we performed a systematic, proteome-wide analysis of intrinsic disorder in human proteins interacting with SARS-CoV-2 by integrating five experimentally validated interaction datasets comprising 2055 unique host proteins. Using disorder prediction, structural confidence assessment, functional and domain annotation, protein-protein interaction network analysis, phase-separation propensity estimation, and independent validation with the D(2)P(2) platform on a selected set of proteins, we characterized the structural organization of the SARS-CoV-2 human interactome. Our results reveal a balanced distribution of ordered and disordered host proteins, distinct functional and domain signatures across disorder classes, consistent inverse relationships between disorder and structural confidence, and increased network connectivity and phase-separation propensity among highly disordered interactors. These findings indicate that SARS-CoV-2 exploits structural diversity within the host proteome rather than preferentially targeting a single disorder class and highlight intrinsic disorder as a key contributor to interaction plasticity and network organization at the systems level.",
+    "keywords": [
+      "SARS-CoV-2 interactome",
+      "intrinsic disorder",
+      "intrinsically disordered proteins",
+      "phase separation",
+      "protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*SARS-CoV-2/metabolism",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry",
+      "Protein Interaction Maps",
+      "COVID-19/metabolism/virology",
+      "*Viral Proteins/metabolism/chemistry",
+      "Protein Binding",
+      "Proteome/metabolism",
+      "Host-Pathogen Interactions",
+      "Protein Interaction Mapping"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Adilovic, Muhamed",
+        "Akcesme, Betul",
+        "Hromic-Jahjefendic, Altijana",
+        "Uversky, Vladimir N"
+      ],
+      "short_names": [
+        "Adilovic M",
+        "Akcesme B",
+        "Hromic-Jahjefendic A",
+        "Uversky VN"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4037-5857"
+      ],
+      "affiliations": [
+        "Genetics and Bioengineering Study Program, Faculty of Engineering and Natural Sciences, International University of Sarajevo, Sarajevo, Bosnia and Herzegovina.",
+        "Department of Medical Biology, Hamidiye Faculty of Medicine, University of Health Sciences, Uskudar/Istanbul, Turkiye.",
+        "Genetics and Bioengineering Study Program, Faculty of Engineering and Natural Sciences, International University of Sarajevo, Sarajevo, Bosnia and Herzegovina.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, Florida, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Adilović, Muhamed",
+        "short_name": "Adilović M",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Bioengineering Study Program, Faculty of Engineering and Natural Sciences, International University of Sarajevo, Sarajevo, Bosnia and Herzegovina."
+        ]
+      },
+      {
+        "full_name": "Akcesme, Betul",
+        "short_name": "Akcesme B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biology, Hamidiye Faculty of Medicine, University of Health Sciences, Üsküdar/İstanbul, Türkiye."
+        ]
+      },
+      {
+        "full_name": "Hromić-Jahjefendić, Altijana",
+        "short_name": "Hromić-Jahjefendić A",
+        "identifiers": [],
+        "affiliations": [
+          "Genetics and Bioengineering Study Program, Faculty of Engineering and Natural Sciences, International University of Sarajevo, Sarajevo, Bosnia and Herzegovina."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [
+          "0000-0002-4037-5857"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, Florida, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of cellular biochemistry"
+    ],
+    "journal_abbrev": [
+      "J Cell Biochem"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/15 11:37",
+    "fetched_at": "2026-09-18 04:11:17"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42290021",
+      "37992221",
+      "32712910",
+      "40244295",
+      "35196007",
+      "40703672",
+      "33103435",
+      "42276495",
+      "29080786",
+      "34385425",
+      "38941236",
+      "29257115",
+      "40706494",
+      "33845483",
+      "33464917",
+      "34960638",
+      "41837652",
+      "28934129",
+      "40140549",
+      "30443749",
+      "40383327",
+      "33349665",
+      "40945576",
+      "24752801",
+      "32522207",
+      "42302372",
+      "40751130",
+      "33719450",
+      "18831774",
+      "40997149",
+      "33263384",
+      "37626310",
+      "40319601",
+      "40799657",
+      "42475469",
+      "31521236",
+      "33860983",
+      "34232536",
+      "33284827",
+      "25424537",
+      "42149692",
+      "32642770",
+      "19660471",
+      "42585785",
+      "39979561",
+      "42450289",
+      "34519429",
+      "39066279",
+      "42000821",
+      "36217030",
+      "32587094",
+      "42448413",
+      "33744846",
+      "34168211",
+      "32473054",
+      "40544703",
+      "39766256",
+      "39823405",
+      "34143202",
+      "34004362",
+      "37211047",
+      "34402426",
+      "24339775",
+      "33469663",
+      "34118193",
+      "40939689",
+      "40593736",
+      "42450302",
+      "31521232",
+      "38365632",
+      "22371486",
+      "38932209",
+      "34597346",
+      "40407495",
+      "32353859",
+      "32811513",
+      "34186245",
+      "33671602",
+      "33707363",
+      "38785948",
+      "40819539",
+      "33006287",
+      "38569991",
+      "38902252",
+      "41570036",
+      "41276815",
+      "27062995",
+      "25039985",
+      "32466138",
+      "39125972",
+      "40231383",
+      "33590968",
+      "41615754",
+      "26790343",
+      "30002402",
+      "37561450",
+      "42134328",
+      "40568634",
+      "35211823",
+      "33893649"
+    ],
+    "review": [
+      "42290021",
+      "34960638",
+      "31521236",
+      "33860983",
+      "42149692",
+      "42448413",
+      "40544703",
+      "42450302",
+      "31521232",
+      "32811513",
+      "33707363",
+      "33006287",
+      "40568634"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/jcb.70098",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

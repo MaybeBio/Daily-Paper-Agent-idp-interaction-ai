@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "36714997",
+    "doi": "10.1002/pro.4580",
+    "title": "Mutational scan inferred binding energetics and structure in intrinsically disordered protein CcdA."
+  },
+  "content": {
+    "abstract": "Unlike globular proteins, mutational effects on the function of Intrinsically Disordered Proteins (IDPs) are not well-studied. Deep Mutational Scanning of a yeast surface displayed mutant library yields insights into sequence-function relationships in the CcdA IDP. The approach enables facile prediction of interface residues and local structural signatures of the bound conformation. In contrast to previous titration-based approaches which use a number of ligand concentrations, we show that use of a single rationally chosen ligand concentration can provide quantitative estimates of relative binding constants for large numbers of protein variants. This is because the extended interface of IDP ensures that energetic effects of point mutations are spread over a much smaller range than for globular proteins. Our data also provides insights into the much-debated role of helicity and disorder in partner binding of IDPs. Based on this exhaustive mutational sensitivity dataset, a rudimentary model was developed in an attempt to predict mutational effects on binding affinity of IDPs that form alpha-helical structures upon binding.",
+    "keywords": [
+      "affinity prediction",
+      "protein-protein interaction",
+      "saturation mutagenesis",
+      "secondary structure prediction",
+      "single-site mutations",
+      "alpha-helix"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Ligands",
+      "Mutation",
+      "Protein Conformation, alpha-Helical",
+      "Protein Conformation",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chandra, Soumyanetra",
+        "Manjunath, Kavyashree",
+        "Asok, Aparna",
+        "Varadarajan, Raghavan"
+      ],
+      "short_names": [
+        "Chandra S",
+        "Manjunath K",
+        "Asok A",
+        "Varadarajan R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0823-7577"
+      ],
+      "affiliations": [
+        "Molecular Biophysics Unit, Indian Institute of Science, Bangalore, India.",
+        "Institute for Stem Cell Science and Regenerative Medicine, Bangalore, India.",
+        "Molecular Biophysics Unit, Indian Institute of Science, Bangalore, India.",
+        "Molecular Biophysics Unit, Indian Institute of Science, Bangalore, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chandra, Soumyanetra",
+        "short_name": "Chandra S",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science, Bangalore, India."
+        ]
+      },
+      {
+        "full_name": "Manjunath, Kavyashree",
+        "short_name": "Manjunath K",
+        "identifiers": [],
+        "affiliations": [
+          "Institute for Stem Cell Science and Regenerative Medicine, Bangalore, India."
+        ]
+      },
+      {
+        "full_name": "Asok, Aparna",
+        "short_name": "Asok A",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science, Bangalore, India."
+        ]
+      },
+      {
+        "full_name": "Varadarajan, Raghavan",
+        "short_name": "Varadarajan R",
+        "identifiers": [
+          "0000-0002-0823-7577"
+        ],
+        "affiliations": [
+          "Molecular Biophysics Unit, Indian Institute of Science, Bangalore, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2023 Mar",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/01/31 06:00",
+    "fetched_at": "2026-09-20 18:57:53"
+  },
+  "links": {
+    "cites": [
+      "41174305",
+      "40955200",
+      "40135898",
+      "36069948"
+    ],
+    "refs": [
+      "36069948",
+      "35637307",
+      "35634782",
+      "35127820",
+      "34795695",
+      "34418423",
+      "34358545",
+      "34282049",
+      "34265844",
+      "33778004",
+      "33168755",
+      "32817217",
+      "32786323",
+      "32294467",
+      "32152544",
+      "31941882",
+      "31794728",
+      "31114883",
+      "30674983",
+      "30322927",
+      "30093409",
+      "29860432",
+      "29777197",
+      "29525204",
+      "28334797",
+      "28132782",
+      "28035901",
+      "27563054",
+      "27150810",
+      "27094295",
+      "26296891",
+      "25451031",
+      "25311858",
+      "25284753",
+      "25075907",
+      "24654952",
+      "24389181",
+      "24064791",
+      "23980173",
+      "23825969",
+      "23799450",
+      "23765106",
+      "23723246",
+      "23509263",
+      "23500657",
+      "23376099",
+      "23159556",
+      "23103372",
+      "23064642",
+      "23041932",
+      "22634563",
+      "22617328",
+      "22325784",
+      "21576233",
+      "21482101",
+      "21464309",
+      "20714644",
+      "20711194",
+      "20117254",
+      "19647513",
+      "19585546",
+      "18573080",
+      "18069886",
+      "17406305",
+      "17401334",
+      "17382960",
+      "17007877",
+      "16537642",
+      "16131663",
+      "15854646",
+      "15738986",
+      "14978223",
+      "12165847",
+      "12136164",
+      "11741897",
+      "11454201",
+      "10694887",
+      "10425675",
+      "10422838",
+      "9811549",
+      "9367775",
+      "9181578",
+      "8910366",
+      "8604132",
+      "7664054",
+      "6383201",
+      "6327993",
+      "5551392",
+      "2471267",
+      "2268322",
+      "2034222",
+      "1324324"
+    ],
+    "similar": [
+      "36714997",
+      "35762718",
+      "29197511",
+      "34504009",
+      "28425697",
+      "35609776",
+      "30058229",
+      "31441158",
+      "32771522",
+      "24211251",
+      "27936491",
+      "27844185",
+      "37338049",
+      "30865832",
+      "32696350",
+      "37722056",
+      "27503953",
+      "36305763",
+      "28425679",
+      "26195786",
+      "32696395",
+      "29716994",
+      "32933064",
+      "31702919",
+      "32323533",
+      "34626492",
+      "29276882",
+      "23170892",
+      "24098099",
+      "36291634",
+      "31425549",
+      "25287424",
+      "33087759",
+      "32253236",
+      "30909517",
+      "25611056",
+      "35658083",
+      "30003969",
+      "36069948",
+      "32696381",
+      "35139468",
+      "23289531",
+      "29550429",
+      "34610267",
+      "34532345",
+      "26618856",
+      "23794453",
+      "30528464",
+      "28365882",
+      "32103094",
+      "30352491",
+      "26387104",
+      "24532081",
+      "23758617",
+      "24329095",
+      "31756456",
+      "24604825",
+      "29733855",
+      "35762723",
+      "32429036",
+      "32621228",
+      "29228892",
+      "26931396",
+      "28097742",
+      "31624293",
+      "33810353",
+      "28493424",
+      "32579908",
+      "30366362",
+      "23606624",
+      "33355572",
+      "31021441",
+      "25496281",
+      "30514761",
+      "37511544",
+      "34656328",
+      "29621630",
+      "33382616",
+      "29614221",
+      "25863585",
+      "37379390",
+      "37838830",
+      "26879470",
+      "37553525",
+      "34101805",
+      "30240067",
+      "26742101",
+      "24317797",
+      "32696367",
+      "35053175",
+      "24671380",
+      "33230318",
+      "32426975",
+      "36217309",
+      "30715849",
+      "38861600",
+      "38114424",
+      "36250006",
+      "31906016",
+      "38712134"
+    ],
+    "review": [
+      "36714997",
+      "31441158",
+      "23170892",
+      "25287424",
+      "32253236",
+      "30909517",
+      "35139468",
+      "34610267",
+      "23794453",
+      "30352491",
+      "26387104",
+      "24532081",
+      "32429036",
+      "33355572",
+      "31021441",
+      "25863585",
+      "34101805",
+      "35053175",
+      "36217309"
+    ],
+    "pmc": [
+      "9951195"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/36714997.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36714997/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36714997",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4580",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/36714997",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

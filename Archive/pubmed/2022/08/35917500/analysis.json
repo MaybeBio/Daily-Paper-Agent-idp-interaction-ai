@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35917500",
+  "title": "Quantitative Interpretation of Protein Diffusion Coefficients in Mixed Protiated-Deuteriated Aqueous Solvents.",
+  "authors": "Tang, Bridget; Chong, Katie; Massefski, Walter; Evans, Robert",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2022-08-03",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 3,
+  "one_liner_zh": "该文用NMR扩散系数和SEGWE方法区分球状与无序蛋白，但无PPI、无AI/物理模拟机制建模，仅涉及无序蛋白对象，与本课题关联较弱。",
+  "abstract": "Diffusion-ordered nuclear magnetic resonance (NMR) spectroscopy is widely used for the analysis of mixtures, dispersing the signals of different species in a two-dimensional spectrum according to their diffusion coefficients. However, interpretation of these diffusion coefficients is typically purely qualitative, for example, to deduce which species are bigger or smaller. In studies of proteins in solution, important questions concern the molecular weight of the proteins, the presence or absence of aggregation, and the degree of folding. The Stokes-Einstein Gierer-Wirtz estimation (SEGWE) method has been previously developed to simplify the complex relationship between diffusion coefficient and molecular mass, allowing the prediction of a species' diffusion coefficient in a pure solvent based on its molecular weight. Here, we show that SEGWE can be extended to successfully predict both peptide and protein diffusion coefficients in mixed protiated-deuteriated water samples and, hence, distinguish effectively between globular and disordered proteins.",
+  "abstract_zh": "扩散有序核磁共振（NMR）波谱法广泛用于混合物分析，根据扩散系数将不同物种的信号分散在二维谱图中。然而，对这些扩散系数的解释通常纯粹是定性的，例如，用于推断哪些物种更大或更小。在溶液中蛋白质的研究中，重要问题涉及蛋白质的分子量、聚集是否存在以及折叠程度。Stokes-Einstein Gierer-Wirtz估算（SEGWE）方法先前已被开发，以简化扩散系数与分子质量之间的复杂关系，从而能够根据分子量预测物种在纯溶剂中的扩散系数。在此，我们表明SEGWE可扩展至成功预测混合质子化-氘化水样品中肽和蛋白质的扩散系数，并因此有效区分球状蛋白与无序蛋白。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35917500/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35917500/",
+  "paper_page_path": "papers/pubmed/35917500/index.html"
+}

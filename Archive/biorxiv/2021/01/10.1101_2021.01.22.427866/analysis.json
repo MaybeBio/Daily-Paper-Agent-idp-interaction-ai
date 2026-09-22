@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.22.427866",
+  "title": "Sequence-based prediction of protein-protein interactions: a structure-aware interpretable deep learning model",
+  "authors": "Samuel Sledzieski; Rohit Singh; Lenore Cowen; Bonnie Berger",
+  "journal": "bioRxiv",
+  "published_date": "2021-01-25",
+  "window": {
+    "start": "2021-01-25",
+    "end": "2021-01-31"
+  },
+  "score": 6,
+  "one_liner_zh": "提出基于序列的结构感知深度学习模型D-SCRIPT预测蛋白互作，通过中间层估计接触图实现可解释性，虽非针对无序蛋白，但其互作接触图建模思路对IDR介导的PPI机制建模有迁移启发。",
+  "abstract": "Protein-protein interaction (PPI) networks have proven to be a valuable tool in systems biology to facilitate the discovery and understanding of protein function. Unfortunately, experimental PPI data remains sparse in most model organisms and even more so in other species. Existing methods for computational prediction of PPIs seek to address this limitation, and while they perform well when sufficient within-species training data is available, they generalize poorly to new species or often require specific types and sizes of training data that may not be available in the species of interest. We therefore present D-SCRIPT, a deep learning method for predicting a physical interaction between two proteins given just their sequences. Compared to existing methods, D-SCRIPT generalizes better to new species and is robust to limitations in training data size. Our approach encodes the intuition that for two proteins to physically interact, a subset of amino acids from each protein should be in contact with the other. The intermediate stages of D-SCRIPT directly implement this intuition; the penultimate stage in D-SCRIPT is a rough estimate of the inter-protein contact map of the protein dimer. This structurally-motivated design enables interpretability of our model and, since structure is more conserved evolutionarily than sequence, improves generalizability across species. We show that a D-SCRIPT model trained on 38,345 human PPIs enables significantly improved functional characterization of fly proteins compared to the state-of-the-art approach. Evaluating the same D-SCRIPT model on protein complexes with known 3-D structure, we find that the inter-protein contact map output by D-SCRIPT has significant overlap with the ground truth. Our work suggests that recent advances in deep learning language modeling of protein structure can be leveraged for protein interaction prediction from sequence. D-SCRIPT is available at http://dscript.csail.mit.edu .",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPI）网络已被证明是系统生物学中促进蛋白质功能发现和理解的有价值工具。不幸的是，在大多数模式生物中，实验性PPI数据仍然稀少，在其他物种中则更为有限。现有的计算预测PPI方法旨在解决这一局限性，尽管当有足够的种内训练数据时它们表现良好，但它们对新物种的泛化能力较差，或者通常需要特定类型和规模的训练数据，而这些数据在目标物种中可能不可用。因此，我们提出了D-SCRIPT，一种仅根据两条蛋白质序列预测它们之间物理相互作用的深度学习方法。与现有方法相比，D-SCRIPT对新物种具有更好的泛化能力，并且对训练数据规模的限制具有鲁棒性。我们的方法编码了这样的直觉：对于两种蛋白质发生物理相互作用，每种蛋白质中的一部分氨基酸应与另一种蛋白质接触。D-SCRIPT的中间阶段直接实现了这一直觉；D-SCRIPT的倒数第二阶段是蛋白质二聚体间接触图的粗略估计。这种结构驱动的设计使我们的模型具有可解释性，并且由于结构在进化上比序列更保守，因此提高了跨物种的泛化能力。我们展示了在38,345个人类PPI上训练的D-SCRIPT模型，与最先进的方法相比，显著改善了果蝇蛋白质的功能表征。在具有已知三维结构的蛋白质复合物上评估同一D-SCRIPT模型时，我们发现D-SCRIPT输出的蛋白质间接触图与真实值有显著重叠。我们的工作表明，深度学习语言建模在蛋白质结构方面的最新进展可用于从序列预测蛋白质相互作用。D-SCRIPT可在http://dscript.csail.mit.edu获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.22.427866",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.22.427866",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.22.427866/index.html"
+}

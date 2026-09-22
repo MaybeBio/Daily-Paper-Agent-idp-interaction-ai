@@ -1,0 +1,428 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.02.27.708199",
+  "title": "Large-scale simulations reveal evolutionary constraints on intrinsically disordered regions imposed by full-length protein architecture",
+  "doi": "10.64898/2026.02.27.708199",
+  "abstract": "Intrinsically disordered regions (IDRs) are pervasive in eukaryotic proteomes and play central roles in regulatory complexity and evolutionary innovation. While their conformational ensembles have been extensively characterized in isolation, most long IDRs function within multidomain proteins, where domain architecture may impose structural and evolutionary constraints. Here, we perform proteome-scale molecular dynamics simulations of 14,283 human proteins containing IDRs, integrating the Calvados coarse-grained force field with an elastic network representation of structured domains to model full-length architectures. Focusing on 8,988 long IDRs (≥100 residues), we systematically compare conformational properties in isolated versus full-length contexts. We find that 2,733 IDRs (over 30%) undergo significant conformational shifts when embedded within their native protein architecture, revealing pervasive structural coupling between ordered and disordered regions. Notably, IDRs positioned centrally within proteins are evolutionarily biased toward compact and rigid conformations, whereas those with strong charge clustering preferentially adopt extended and flexible states in full-length contexts. Functional enrichment analyses further demonstrate that compact-rigid IDRs are overrepresented in DNA-binding proteins, while extended-flexible IDRs are enriched in RNA-binding functions, suggesting coordinated structural-functional specialization. Together, these findings support a model in which long IDRs do not evolve as independent polymeric segments, but instead co-evolve with structured domains as integrated architectural modules. Our results provide quantitative evidence that full-length protein organization imposes systematic conformational constraints on IDRs, revealing a previously underappreciated dimension of protein structural evolution and offering a new framework for understanding domain-disorder co-evolution across complex proteomes.",
+  "authors": [
+    "Yang Jiang",
+    "Xiaoyang Liu",
+    "Li Zhao",
+    "Zhong-Yuan Lu"
+  ],
+  "published_date": "2026-02-28",
+  "updated_date": "2026-03-01T03:10:11Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708199",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.02.27.708199.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            25
+          ]
+        ],
+        "date-time": "2026-08-25T01:44:13Z",
+        "timestamp": 1787622253324,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            28
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 28,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                28
+              ]
+            ],
+            "date-time": "2026-02-28T00:00:00Z",
+            "timestamp": 1772236800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "22473048"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "22473048"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100001809",
+          "name": "National Natural Science Foundation of China",
+          "doi-asserted-by": "crossref",
+          "award": [
+            "22133002"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "22133002"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100001809",
+              "id-type": "DOI",
+              "asserted-by": "crossref"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            28
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>Intrinsically disordered regions (IDRs) are pervasive in eukaryotic proteomes and play central roles in regulatory complexity and evolutionary innovation. While their conformational ensembles have been extensively characterized in isolation, most long IDRs function within multidomain proteins, where domain architecture may impose structural and evolutionary constraints. Here, we perform proteome-scale molecular dynamics simulations of 14,283 human proteins containing IDRs, integrating the Calvados coarse-grained force field with an elastic network representation of structured domains to model full-length architectures. Focusing on 8,988 long IDRs (≥100 residues), we systematically compare conformational properties in isolated versus full-length contexts. We find that 2,733 IDRs (over 30%) undergo significant conformational shifts when embedded within their native protein architecture, revealing pervasive structural coupling between ordered and disordered regions. Notably, IDRs positioned centrally within proteins are evolutionarily biased toward compact and rigid conformations, whereas those with strong charge clustering preferentially adopt extended and flexible states in full-length contexts. Functional enrichment analyses further demonstrate that compact-rigid IDRs are overrepresented in DNA-binding proteins, while extended-flexible IDRs are enriched in RNA-binding functions, suggesting coordinated structural-functional specialization. Together, these findings support a model in which long IDRs do not evolve as independent polymeric segments, but instead co-evolve with structured domains as integrated architectural modules. Our results provide quantitative evidence that full-length protein organization imposes systematic conformational constraints on IDRs, revealing a previously underappreciated dimension of protein structural evolution and offering a new framework for understanding domain-disorder co-evolution across complex proteomes.</jats:p>",
+      "DOI": "10.64898/2026.02.27.708199",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            1
+          ]
+        ],
+        "date-time": "2026-03-01T03:10:11Z",
+        "timestamp": 1772334611000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Large-scale simulations reveal evolutionary constraints on intrinsically disordered regions imposed by full-length protein architecture"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0001-3515-7951",
+          "authenticated-orcid": false,
+          "given": "Yang",
+          "family": "Jiang",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiaoyang",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Li",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Life Sciences, Jilin University, Changchun, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhong-Yuan",
+          "family": "Lu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "State Key Laboratory of Supramolecular Structure and Materials, College of Chemistry, Jilin University, Changchun, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "553",
+          "DOI": "10.3390/genes9110553",
+          "article-title": "Large-Scale Analyses of Site-Specific Evolutionary Rates across Eukaryote Proteomes Reveal Confounding Interactions between Intrinsic Disorder, Secondary Structure, and Functional Domains",
+          "volume": "9",
+          "year": "2018",
+          "journal-title": "Genes (Basel)"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-018-0112-y"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.5172"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2022.12.046"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.5",
+          "unstructured": "Hall BG . 1983. Evolution of new metabolic functions in laboratory organisms. In: Nei M , Koehn RK , editors. Evolution of genes and proteins. Sunderland (MA): Sinauer Associates. p. 234–257."
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.6",
+          "unstructured": "Ingram VM . 1963. The hemoglobins in genetics and evolution. New York: Columbia University Press."
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2012.04.017"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2019.07.012"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.biochem.2c00210"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1030"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41594-021-00677-4"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1371/journal.pcbi.1000376"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/sciadv.adm9926"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.15",
+          "first-page": "189",
+          "article-title": "Glutamine synthetase gene evolution in bacteria",
+          "volume": "12",
+          "year": "1995",
+          "journal-title": "Mol Biol Evol"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2011.03.014"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msaa096"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1079"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/molbev/msq291"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cell.2024.07.034"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-023-07004-5"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-021-03828-1"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr400525m"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.7554/eLife.18413"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/368032a0"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1905013116"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.molcel.2021.01.02459"
+        },
+        {
+          "key": "2026030308250903000_2026.02.27.708199v1.28",
+          "doi-asserted-by": "crossref",
+          "first-page": "5746",
+          "DOI": "10.1021/acs.jctc.5c00147",
+          "article-title": "IPAMD: A Plugin-Based Software for Biomolecular Condensate Simulations",
+          "volume": "21",
+          "year": "2025",
+          "journal-title": "J Chem Theory Comput"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.02.27.708199",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            3
+          ]
+        ],
+        "date-time": "2026-03-03T16:25:24Z",
+        "timestamp": 1772555124000
+      },
+      "score": 92.59466,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.02.27.708199"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            28
+          ]
+        ]
+      },
+      "references-count": 28,
+      "URL": "https://doi.org/10.64898/2026.02.27.708199",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            2,
+            28
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

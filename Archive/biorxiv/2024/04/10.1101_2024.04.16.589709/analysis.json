@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.04.16.589709",
+  "title": "Tandem-repeat proteins introduce tuneable properties to engineered biomolecular condensates",
+  "authors": "Chris Ng TL; Hoare MP; Maristany MJ; Wilde EJ; Sneideris T; Huertas J; Agbetiameh BK; Furukawa M; Joseph JA; Knowles TP; Collepardo-Guevara R; Itzhaki LS; Kumita JR",
+  "journal": "bioRxiv",
+  "published_date": "2024-04-20",
+  "window": {
+    "start": "2024-04-15",
+    "end": "2024-04-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文将串联重复蛋白CTPR与无序结构域融合构建可调控的合成凝聚体，结合计算建模揭示结构属性对凝聚倾向的影响，并利用结合基序实现靶蛋白招募，虽聚焦合成系统而非天然IDR-PPI机制，但其设计思路与建模方法对无序蛋白介导互作及相分离研究有可迁移启发。",
+  "abstract": "The cell’s ability to rapidly partition biomolecules into biomolecular condensates is linked to a diverse range of cellular functions. Understanding how the structural attributes of biomolecular condensates are linked with their biological roles can be facilitated by the development synthetic condensate systems that can be manipulated in a controllable and predictable way. Here, we design and characterise a tuneable synthetic biomolecular condensate platform fusing modular consensus-designed tetratricopeptide repeat (CTPR) proteins to intrinsically-disordered domains. Trends between the CTPR structural attributes and condensate propensity were recapitulated across different experimental conditions and by in silico modelling, demonstrating that the CTPR domain can systematically affect the condensates in a predictable manner. Moreover, we show that incorporating short binding motifs into the CTPR domain results in specific target-protein recruitment into the condensates. Our model system can be rationally designed in a versatile manner to both tune condensate propensity and endow the condensates with new functions.",
+  "abstract_zh": "细胞将生物分子快速分隔为生物分子凝聚体的能力与多种细胞功能相关。理解生物分子凝聚体的结构属性与其生物学作用之间的联系，可通过开发能够以可控且可预测方式操纵的合成凝聚体系统来促进。在此，我们设计并表征了一个可调谐的合成生物分子凝聚体平台，该平台将模块化共有序列设计的四肽重复（CTPR）蛋白与内在无序结构域融合。CTPR结构属性与凝聚体倾向之间的趋势在不同实验条件下及通过计算机模拟均得到重现，表明CTPR结构域能够以可预测的方式系统性地影响凝聚体。此外，我们展示了将短结合基序纳入CTPR结构域可实现目标蛋白特异性招募至凝聚体中。我们的模型系统可以以多功能方式合理设计，既能调节凝聚体倾向，又能赋予凝聚体新功能。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.04.16.589709",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.04.16.589709",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.04.16.589709/index.html"
+}

@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract
+- **Shared manuscript claim summary** The authors propose a bioinformatics workflow integrating amino acid sequence, protein structure, and cellular localization to predict phase-separated proteins, and report identification of SRSF2 as a novel cell cycle-related phase-separated protein.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary data provided
+- **Missing materials affecting confidence** Full manuscript, methods details, validation data, prediction tool specifications, benchmark results, and experimental confirmation of SRSF2 phase separation
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful integrative approach for predicting phase-separated proteins, but the evidence provided is insufficient to evaluate the technical validity, predictive performance, or biological significance of the claimed findings. The novelty of the workflow relative to existing predictors is unclear, and the identification of SRSF2 as a novel phase-separated protein lacks supporting experimental or computational validation in the supplied material.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, membraneless organelle biology, and computational predictors of protein behavior. The workflow could be of interest to those seeking multi-feature prediction tools, and the SRSF2 finding may attract cell cycle and RNA splicing researchers.
+- **Major strengths** The integration of three distinct feature types (sequence, structure, localization) is a reasonable and potentially more comprehensive approach than single-feature predictors. The focus on identifying novel phase-separated proteins with biological relevance (cell cycle) adds translational value.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The workflow "integrated the amino acid sequence, protein structure, and cellular localization" and was used to "screen" phase-separated proteins.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are provided on how the three feature types were integrated, what specific prediction tools were used, how weights or thresholds were determined, or how the workflow was validated against known phase-separated proteins.
+  - **Why it matters** Without methodological transparency and benchmark validation, the predictive reliability of the workflow cannot be assessed, and the claim of a "useful resource" is unsupported.
+  - **Resolution test** Provide a detailed methods section describing feature encoding, integration algorithm, training and test datasets, and performance metrics (e.g., AUC, precision, recall) compared to existing predictors.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** SRSF2 is identified as "a novel cell cycle-related phase separation protein."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no experimental or orthogonal computational evidence that SRSF2 undergoes phase separation, nor any data linking it to cell cycle regulation. The term "novel" is not justified without demonstrating that this finding is not previously reported.
+  - **Why it matters** The central biological claim of the study rests on this identification, and without validation the conclusion is speculative.
+  - **Resolution test** Include experimental validation (e.g., in vitro droplet assays, cellular imaging) or cite robust prior evidence, and perform a literature search to substantiate novelty.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Originality
+  - **Claim pointer** The workflow is presented as a new resource for predicting phase-separated proteins.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not compare the proposed workflow to existing phase-separation predictors (e.g., catGRANULE, PLAAC, FuzDrop), so the incremental contribution is unclear.
+  - **Why it matters** Without comparative analysis, the claim of novelty and utility cannot be established.
+  - **Resolution test** Add a comparative benchmark section showing performance against established predictors on standard datasets.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The opening analogy of cells as a "highly industrialized and urbanized city" is informal and detracts from scientific precision.
+  - **Required correction** Replace with a concise, direct description of the cellular crowding context.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Workflow description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "multi-prediction tool" is vague and does not specify what is being predicted or how.
+  - **Required correction** Specify the exact tools and prediction targets (e.g., phase separation propensity, disorder, localization).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Language quality
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** Grammatical errors and awkward phrasing appear, such as "platforms exploring phase-separated proteins by high-throughput methods is lacking" and "We integrated" with inconsistent capitalization.
+  - **Required correction** Perform thorough language editing for grammar and consistency.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The workflow lacks methodological detail and validation, and the SRSF2 claim lacks evidence. These must be resolved before the predictive utility and biological finding can be accepted.
+- **Assessment against Nature-style criteria** Originality: Not established due to lack of comparison with existing tools. Scientific importance: Potentially relevant but not demonstrated from the abstract. Interdisciplinary readership: The topic bridges computational biology and cell biology, but the abstract does not clearly articulate broader significance. Technical soundness: Cannot be assessed without methods and validation data. Readability for nonspecialists: The abstract is partially accessible but contains jargon and informal language that reduce clarity.
+- **Recommendation posture** Currently not established from the provided evidence. Supportive if technical concerns are resolved, specifically if the authors provide full methodological details, benchmark validation, and experimental or strong computational evidence for SRSF2 phase separation and novelty.
+
+## Risk / unsupported claims
+- The claim that the workflow is a "useful resource" is unsupported without performance benchmarks.
+- The identification of SRSF2 as a "novel cell cycle-related phase separation protein" is unsupported without experimental validation or literature confirmation.
+- The statement that the workflow "has an important contribution to the further identification of phase-separated proteins and the development strategies for treating disease" is speculative and not evidenced in the abstract.

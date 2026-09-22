@@ -1,0 +1,343 @@
+{
+  "identity": {
+    "pmid": "41319238",
+    "doi": "10.1021/acs.jpcb.5c04085",
+    "title": "MnM-W-MMGBSA: A Computational Strategy to Improve Relative Binding Free Energies of Protein-Protein Interaction Systems."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions (PPIs) have become increasingly attractive as therapeutic targets due to their central role in regulating cellular functions. Despite computational advancements, accurately estimating binding free energies for PPIs remains challenging due to the dynamic and critically solvent-exposed nature of their interfaces. In this study, we present MnM-W-MMGBSA (i.e., MM-GBSA with Mix-and-Match sampling and water inclusion), a method that addresses these challenges by incorporating both conformational flexibility and interfacial solvation effects. We thoroughly demonstrated the applicability of MnM-W-MMGBSA across a diverse set of 20 PPI systems and validated its robustness using two distinct and rigorous simulation schemes. We demonstrate that our protocol improves correlation with experimental binding affinities horizontal line from 47% to 70% with MnM sampling alone for standard MM-GBSA, and up to 89% when interfacial water molecules are included. Our approach underscores the pivotal role of individual protein dynamics in validating the concept of \"destabilization of individual proteins in the unbound form.\" Specifically, we show that in explicit solvent, such destabilization leads to a loss of native structure, suggesting that excessive conformational sampling may compromise the accuracy of binding affinity predictions. Furthermore, the critical role of intrinsically disordered regions in the interface of PPIs, as well as the impact of the MnM approach in the pairwise per-residue energy decomposition, were also investigated. Finally, our implementation overcomes the limitations of the gmx_MMPBSA tool for incorporating explicit solvent molecules from MD simulation trajectories into the complex/receptor during MM-GBSA calculation, providing an automated and reproducible workflow using GROMACS with AmberTools to enable efficient high-throughput screening of protein-protein complexes. The protocol is robust, computationally efficient, and applicable to a broad range of PPIs. Overall, our protocol offers a practical and physically meaningful alternative for estimating the binding affinities of PPIs and provides a valuable tool for advancing peptide-based drug discovery.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Thermodynamics",
+      "Protein Binding",
+      "*Molecular Dynamics Simulation",
+      "*Proteins/chemistry/metabolism",
+      "Water/chemistry",
+      "Solvents/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hasan, Md Nazmul",
+        "Sharma, Shilpa",
+        "Mallen, Justice Josiah",
+        "Saha, Arjun"
+      ],
+      "short_names": [
+        "Hasan MN",
+        "Sharma S",
+        "Mallen JJ",
+        "Saha A"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7403-1772",
+        "ORCID: 0000-0002-3202-3536",
+        "ORCID: 0000-0003-1198-1820"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin 53211, United States.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin 53211, United States.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin 53211, United States.",
+        "Department of Chemistry and Biochemistry, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin 53211, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hasan, Md Nazmul",
+        "short_name": "Hasan MN",
+        "identifiers": [
+          "0000-0001-7403-1772"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin 53211, United States."
+        ]
+      },
+      {
+        "full_name": "Sharma, Shilpa",
+        "short_name": "Sharma S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin 53211, United States."
+        ]
+      },
+      {
+        "full_name": "Mallen, Justice Josiah",
+        "short_name": "Mallen JJ",
+        "identifiers": [
+          "0000-0002-3202-3536"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin 53211, United States."
+        ]
+      },
+      {
+        "full_name": "Saha, Arjun",
+        "short_name": "Saha A",
+        "identifiers": [
+          "0000-0003-1198-1820"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Wisconsin-Milwaukee, Milwaukee, Wisconsin 53211, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Dec 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/30 13:39",
+    "fetched_at": "2026-09-17 22:18:14"
+  },
+  "links": {
+    "cites": [
+      "42276995",
+      "42263250",
+      "41639193"
+    ],
+    "refs": [
+      "40308178",
+      "39638817",
+      "39002136",
+      "38501198",
+      "38385444",
+      "37805934",
+      "37794680",
+      "37042961",
+      "36923913",
+      "36006501",
+      "35658008",
+      "35656714",
+      "35458759",
+      "35277695",
+      "35132139",
+      "35049312",
+      "34265844",
+      "33744783",
+      "33206520",
+      "33106741",
+      "32968059",
+      "32893632",
+      "32306822",
+      "31781990",
+      "31735972",
+      "31301019",
+      "29556494",
+      "28892078",
+      "28802714",
+      "28710774",
+      "27500550",
+      "27476956",
+      "27444142",
+      "26583988",
+      "26583864",
+      "26574453",
+      "26574391",
+      "25835573",
+      "25788871",
+      "25662442",
+      "25237857",
+      "24999761",
+      "24869780",
+      "24683369",
+      "24554921",
+      "24076743",
+      "23291630",
+      "23268595",
+      "23267463",
+      "23121465",
+      "22915442",
+      "22650257",
+      "22347892",
+      "21491494",
+      "21448160",
+      "21426071",
+      "21117705",
+      "20949517",
+      "20836565",
+      "19712106",
+      "19368883",
+      "18556554",
+      "18495919",
+      "18474861",
+      "18364713",
+      "17679095",
+      "17502099",
+      "17391695",
+      "17212484",
+      "16914447",
+      "16867992",
+      "16864794",
+      "16615910",
+      "16354836",
+      "15932939",
+      "15651050",
+      "15264254",
+      "12888355",
+      "12770880",
+      "12209154",
+      "11591346",
+      "11585447",
+      "11123888",
+      "10966813",
+      "10567268",
+      "10024015",
+      "9925793",
+      "9757110",
+      "9466914",
+      "8794736",
+      "8744570",
+      "8552589",
+      "8430315",
+      "7897663",
+      "6414511",
+      "3064813",
+      "2204619",
+      "1920411",
+      "1583684"
+    ],
+    "similar": [
+      "41319238",
+      "31062799",
+      "27500550",
+      "38501198",
+      "27936711",
+      "39480515",
+      "22497310",
+      "28318252",
+      "28064081",
+      "24850022",
+      "21870864",
+      "29726604",
+      "22916168",
+      "34798378",
+      "21728337",
+      "27061672",
+      "30218199",
+      "26236174",
+      "21117705",
+      "38147689",
+      "40734552",
+      "14648622",
+      "27510546",
+      "22852591",
+      "27696239",
+      "19643976",
+      "27638809",
+      "30225724",
+      "26575935",
+      "27444142",
+      "23625455",
+      "9514726",
+      "24320250",
+      "30979914",
+      "29556494",
+      "27565797",
+      "24032517",
+      "37633550",
+      "27600554",
+      "34586825",
+      "33206520",
+      "40832906",
+      "19569205",
+      "18479705",
+      "28024402",
+      "37668972",
+      "29930024",
+      "33150463",
+      "23595060",
+      "31342430",
+      "29617116",
+      "40466244",
+      "35679169",
+      "26457994",
+      "41850151",
+      "31960254",
+      "42043606",
+      "23912807",
+      "35099970",
+      "29800260",
+      "29756561",
+      "41325725",
+      "29785435",
+      "33797902",
+      "29243483",
+      "23231264",
+      "12596268",
+      "26642995",
+      "39576659",
+      "28766941",
+      "38568961",
+      "32419254",
+      "21920327",
+      "24479827",
+      "31853494",
+      "31265293",
+      "31790223",
+      "12850155",
+      "33164832",
+      "11924735",
+      "33764050",
+      "35920605",
+      "20552986",
+      "37450482",
+      "17870536",
+      "41427532",
+      "31356073",
+      "22183544",
+      "21279359",
+      "26723595",
+      "41428857",
+      "31453590",
+      "37094087",
+      "42065684",
+      "9726412",
+      "24446368",
+      "26574429",
+      "32897071",
+      "28940242",
+      "25160060"
+    ],
+    "review": [
+      "41319238",
+      "29756561"
+    ],
+    "pmc": [
+      "12703734"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41319238/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c04085",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

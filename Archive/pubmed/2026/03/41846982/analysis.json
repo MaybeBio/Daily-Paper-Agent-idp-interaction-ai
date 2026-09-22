@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41846982",
+  "title": "Intrinsically disordered SERBP1 regulates translation through topology-driven G-quadruplex recognition.",
+  "authors": "Baudin, Antoine; Dinh, Hoang H; Breunig, Kira; Lei, Xuifen; Xu, Xiaoping; Penalva, Luiz O; Libich, David S",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-03-18",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过MD模拟和对接揭示无序蛋白SERBP1的RGG盒以拓扑驱动方式环绕识别G-四链体，并阐明磷酸化调控机制，虽对象为IDP与核酸而非PPI，但无序域识别机制建模思路对IDR介导互作研究有迁移启发。",
+  "abstract": "Serpine mRNA-binding protein 1 (SERBP1) is an intrinsically disordered RNA-binding protein that regulates translation and ribosome biogenesis through interactions with ribosomes and other molecular complexes. Despite its regulatory importance and implication in cancer development, the molecular basis of SERBP1 RNA recognition remains poorly understood. Here, we characterize the G-quadruplex (G4)-binding properties of SERBP1. Using NMR spectroscopy and biophysical assays, we show that SERBP1 binds parallel G4s, both RNA and DNA, with low micromolar affinity through a conserved mechanism. Molecular dynamics and docking simulations reveal an encircling mechanism in which the RGG box wraps around the G4 while downstream C-terminal serine residues stabilize the complex through hydrogen bonding. Phosphomimetic mutations of key serines disrupt this stabilization and reduce binding affinity, identifying phosphorylation as a regulatory switch for SERBP1 activity. Recognition is driven by G4 topology rather than nucleotide sequence, establishing SERBP1 as a broad-specificity G4-binding protein. We further demonstrate that SERBP1 regulates mTOR expression in glioblastoma cell lines through G4 elements in the mTOR 5' UTR, and that SERBP1 depletion synergizes with mTOR inhibition to reduce cell growth. These results establish SERBP1 as a G4 adaptor protein and represent, to our knowledge, the first detailed characterization of G4 recognition by a fully disordered domain, providing a molecular framework for targeting SERBP1-G4 interactions in cancer.",
+  "abstract_zh": "Serpine mRNA结合蛋白1（SERBP1）是一种 intrinsically disordered RNA结合蛋白，通过与核糖体及其他分子复合物的相互作用调控翻译和核糖体生物发生。尽管其在调控中的重要性及在癌症发展中的关联已被证实，SERBP1 RNA识别的分子基础仍知之甚少。在此，我们表征了SERBP1的G-四链体（G4）结合特性。利用核磁共振波谱（NMR spectroscopy）和生物物理实验，我们显示SERBP1以低微摩尔亲和力通过保守机制结合平行型G4，包括RNA和DNA。分子动力学和对接模拟揭示了一种环绕机制，其中RGG盒包裹G4，而下游C端丝氨酸残基通过氢键稳定复合物。关键丝氨酸的磷酸化模拟突变破坏了这种稳定化并降低结合亲和力，将磷酸化鉴定为SERBP1活性的调控开关。识别由G4拓扑结构而非核苷酸序列驱动，确立了SERBP1作为广谱特异性G4结合蛋白。我们进一步证明，SERBP1通过mTOR 5' UTR中的G4元件调控胶质母细胞瘤细胞系中的mTOR表达，且SERBP1缺失与mTOR抑制协同作用以减少细胞生长。这些结果确立了SERBP1作为G4适配蛋白，并据我们所知，代表了对完全无序结构域识别G4的首次详细表征，为靶向癌症中SERBP1-G4相互作用提供了分子框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41846982/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41846982/",
+  "paper_page_path": "papers/pubmed/41846982/index.html"
+}

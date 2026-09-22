@@ -1,0 +1,289 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.30.656608",
+  "title": "RNA binding regulation is a new dimension in the type I IFN response",
+  "doi": "10.1101/2025.05.30.656608",
+  "abstract": "<h4>ABSTRACT</h4> The type I interferon (IFN-I) response shapes the intracellular environment to supress virus infection. Historically, this remodelling has been linked to the transcriptional induction of interferon stimulated genes (ISGs). However, IFN-I-driven post-translational regulation of proteins already present in the cell remains relatively unexplored. Here, we profiled the activity of cellular RNA-binding proteins (RBPs), which are key players in antiviral immunity. Using RNA interactome capture (RIC), we identified hundreds of RBPs whose association with RNA is regulated by IFN-I (IR-RBPs). Among these IR-RBPs are both known antiviral proteins and novel candidates identified in this study through a knockdown screen. By modifying RIC to study IR-RBPs’ phosphorylation states, we identified several putative instances of IFN-I-driven phospho-regulation of RNA binding. We experimentally confirmed this phospho-driven regulation for MATR3. Altogether, our results reveal a new dimension of the cell’s antiviral programme, in which the cellular RNA-bound proteome is remodelled by IFN-I.",
+  "authors": [
+    "Iselin L",
+    "Demyanenko Y",
+    "Palmalux N",
+    "Buh AE",
+    "Kamel W",
+    "Simmonds P",
+    "Mohammed S",
+    "Castello A"
+  ],
+  "published_date": "2025-05-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.30.656608",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.30.656608.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1028646",
+    "raw_record": {
+      "id": "PPR1028646",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1028646"
+        ]
+      },
+      "doi": "10.1101/2025.05.30.656608",
+      "title": "RNA binding regulation is a new dimension in the type I IFN response",
+      "authorString": "Iselin L, Demyanenko Y, Palmalux N, Buh AE, Kamel W, Simmonds P, Mohammed S, Castello A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Iselin L",
+            "lastName": "Iselin",
+            "firstName": "Louisa",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Demyanenko Y",
+            "lastName": "Demyanenko",
+            "firstName": "Yana",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6628-1912"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Palmalux N",
+            "lastName": "Palmalux",
+            "firstName": "Natasha",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Buh AE",
+            "lastName": "Buh",
+            "firstName": "Azman Embarc",
+            "initials": "AE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kamel W",
+            "lastName": "Kamel",
+            "firstName": "Wael",
+            "initials": "W",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7625-2648"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Simmonds P",
+            "lastName": "Simmonds",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7964-4700"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Nuffield Department of Medicine, Peter Medawar Building for Pathogen Research, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mohammed S",
+            "lastName": "Mohammed",
+            "firstName": "Shabaz",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2640-9560"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Department of Chemistry, , Mansfield Road , , ,16 17"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Castello A",
+            "lastName": "Castello",
+            "firstName": "Alfredo",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1499-4662"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1980-942X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6628-1912"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7625-2648"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7964-4700"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2640-9560"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  The type I interferon (IFN-I) response shapes the intracellular environment to supress virus infection. Historically, this remodelling has been linked to the transcriptional induction of interferon stimulated genes (ISGs). However, IFN-I-driven post-translational regulation of proteins already present in the cell remains relatively unexplored. Here, we profiled the activity of cellular RNA-binding proteins (RBPs), which are key players in antiviral immunity. Using RNA interactome capture (RIC), we identified hundreds of RBPs whose association with RNA is regulated by IFN-I (IR-RBPs). Among these IR-RBPs are both known antiviral proteins and novel candidates identified in this study through a knockdown screen. By modifying RIC to study IR-RBPs’ phosphorylation states, we identified several putative instances of IFN-I-driven phospho-regulation of RNA binding. We experimentally confirmed this phospho-driven regulation for MATR3. Altogether, our results reveal a new dimension of the cell’s antiviral programme, in which the cellular RNA-bound proteome is remodelled by IFN-I.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/M011224/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101001634",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/05/30/2025.05.30.656608.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.05.30.656608"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1028646"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1028646&type=FILE&fileName=EMS206070-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 3,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS206070",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-06-01",
+      "firstPublicationDate": "2025-05-30",
+      "firstIndexDate": "2025-06-01",
+      "fullTextReceivedDate": "2025-06-03",
+      "hasEvaluations": "N"
+    }
+  }
+}

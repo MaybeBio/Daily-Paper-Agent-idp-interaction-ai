@@ -1,0 +1,291 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.08.27.672337",
+  "title": "Cyclin-dependent kinase-like 5 (CDKL5) binds to talin and is anchored at the postsynaptic density via direct interaction with PDZ domains",
+  "doi": "10.1101/2025.08.27.672337",
+  "abstract": "Cyclin-dependent kinase-like 5 (CDKL5) is a serine/threonine kinase essential for brain development and function. Mutations in the CDKL5 gene cause CDKL5 deficiency disorder (CDD), a severe early-onset epileptic encephalopathy characterised by defects in synapse formation and function. Despite extensive research, the molecular mechanisms by which CDKL5 mutations disrupt synaptic function and lead to epilepsy remain unclear. Here, we report that the major neuronal isoform of CDKL5 contains a C-terminal PDZ domain-binding motif. We demonstrate that this motif mediates interactions with the PDZ domains of PSD-95 and SHANK proteins, facilitating the recruitment of CDKL5 to the postsynaptic density. Disruption of CDKL5’s PDZ-binding motif results in its mislocalisation and impaired spine formation. Additionally, we show that CDKL5 directly interacts with the mechanosensitive synaptic scaffold protein talin, via the N-terminal kinase domain of CDKL5 and the R8 rod domain of talin. Our findings establish how CDKL5 is targeted to synapses and suggest that its activity may be spatially regulated through talin-mediated mechanical signalling. We propose that the spatial positioning of the CDKL5 kinase domain might be mechanically-operated and regulated by talin domain unfolding. As talin undergoes structural transitions in its force-dependent binary switch domains, the kinase domain bound to R8 would be moved up and down within the synaptic compartment as a function of the changing talin conformation. These insights enhance our understanding of the pathogenic mechanisms underlying CDKL5 variants with premature stop codons and highlight the need to re-evaluate studies that have used C-terminally tagged or the non-PDZ-binding isoform of CDKL5 to assess its neuronal function. <h4>Abstract Figure</h4> Graphical Abstract <h4>Cyclin-dependent kinase-like 5 (CDKL5) is a mechanically regulated enzyme.</h4> The C-terminal PDZ-binding motif in CDKL5 anchors CDKL5 at the postsynaptic density (PSD). (A) The large unstructured region serves to tether the CDKL5 kinase domain at the synapse. i) The kinase domain is restricted to the blue semi-circle, giving CDKL5 a zone of activity, with radius the length of the tether (>200 nm). ii) Epilepsy-causing mutations that introduce premature stop codons untether CDKL5. (B) The mechanosensitive synaptic scaffold protein talin is also tethered to the membrane by interaction with integrins and/or amyloid precursor protein (APP). The CDKL5-binding domain, R8 is shown in dark green. The force-dependent binary switch domains in the talin rod region open and close in response to force and change the length of the molecule and the location of the CDKL5-binding site. (C) As talin changes its conformation, the CDKL5-binding site on R8 is moved up and down within the synapse, as a result the kinase activity of CDKL5 is targeted to discrete locations within the synapse. Loss of this localisation or incorrect positioning of the kinase within the synapse would result in loss of synchronisation of the synapse in the context of the circuit it is part of and, we propose, result in re-entry circuits and epilepsy. See also Supplementary Movie 1 .",
+  "authors": [
+    "Otani Y",
+    "Goodall E",
+    "Srinivasan V",
+    "Ball NJ",
+    "Barnett SFH",
+    "Zech T",
+    "Saarikangas J",
+    "Goult BT"
+  ],
+  "published_date": "2025-08-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.08.27.672337",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.08.27.672337.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1073820",
+    "raw_record": {
+      "id": "PPR1073820",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1073820"
+        ]
+      },
+      "doi": "10.1101/2025.08.27.672337",
+      "title": "Cyclin-dependent kinase-like 5 (CDKL5) binds to talin and is anchored at the postsynaptic density via direct interaction with PDZ domains",
+      "authorString": "Otani Y, Goodall E, Srinivasan V, Ball NJ, Barnett SFH, Zech T, Saarikangas J, Goult BT.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Otani Y",
+            "lastName": "Otani",
+            "firstName": "Yasumi",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-6049-1135"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell & Systems Biology, Institute of Systems, Molecular & Integrative Biology, , Crown Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goodall E",
+            "lastName": "Goodall",
+            "firstName": "Emily",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular & Clinical Cancer Medicine, Institute of Systems, Molecular & Integrative Biology, , Crown Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Srinivasan V",
+            "lastName": "Srinivasan",
+            "firstName": "Vignesh",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , P.O. Box56 , , ,"
+                },
+                {
+                  "affiliation": "Faculty of Biological and Environmental Sciences, , P.O. Box56 , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ball NJ",
+            "lastName": "Ball",
+            "firstName": "Neil",
+            "initials": "NJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell & Systems Biology, Institute of Systems, Molecular & Integrative Biology, , Crown Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barnett SFH",
+            "lastName": "Barnett",
+            "firstName": "Samuel",
+            "initials": "SFH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ","
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zech T",
+            "lastName": "Zech",
+            "firstName": "Tobias",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8394-088X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular & Clinical Cancer Medicine, Institute of Systems, Molecular & Integrative Biology, , Crown Street , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saarikangas J",
+            "lastName": "Saarikangas",
+            "firstName": "Juha",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , , P.O. Box56 , , ,"
+                },
+                {
+                  "affiliation": "Faculty of Biological and Environmental Sciences, , P.O. Box56 , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goult BT",
+            "lastName": "Goult",
+            "firstName": "Benjamin",
+            "initials": "BT",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3438-2807"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biochemistry, Cell & Systems Biology, Institute of Systems, Molecular & Integrative Biology, , Crown Street , ,"
+                },
+                {
+                  "affiliation": "Liverpool Interdisciplinary Neuroscience Centre, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8394-088X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3438-2807"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-6049-1135"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Cyclin-dependent kinase-like 5 (CDKL5) is a serine/threonine kinase essential for brain development and function. Mutations in the  CDKL5 gene cause CDKL5 deficiency disorder (CDD), a severe early-onset epileptic encephalopathy characterised by defects in synapse formation and function. Despite extensive research, the molecular mechanisms by which CDKL5 mutations disrupt synaptic function and lead to epilepsy remain unclear. Here, we report that the major neuronal isoform of CDKL5 contains a C-terminal PDZ domain-binding motif. We demonstrate that this motif mediates interactions with the PDZ domains of PSD-95 and SHANK proteins, facilitating the recruitment of CDKL5 to the postsynaptic density. Disruption of CDKL5’s PDZ-binding motif results in its mislocalisation and impaired spine formation. Additionally, we show that CDKL5 directly interacts with the mechanosensitive synaptic scaffold protein talin, via the N-terminal kinase domain of CDKL5 and the R8 rod domain of talin. Our findings establish how CDKL5 is targeted to synapses and suggest that its activity may be spatially regulated through talin-mediated mechanical signalling. We propose that the spatial positioning of the CDKL5 kinase domain might be mechanically-operated and regulated by talin domain unfolding. As talin undergoes structural transitions in its force-dependent binary switch domains, the kinase domain bound to R8 would be moved up and down within the synaptic compartment as a function of the changing talin conformation. These insights enhance our understanding of the pathogenic mechanisms underlying CDKL5 variants with premature stop codons and highlight the need to re-evaluate studies that have used C-terminally tagged or the non-PDZ-binding isoform of CDKL5 to assess its neuronal function.  <h4>Abstract Figure</h4>  Graphical Abstract <h4>Cyclin-dependent kinase-like 5 (CDKL5) is a mechanically regulated enzyme.</h4>  The C-terminal PDZ-binding motif in CDKL5 anchors CDKL5 at the postsynaptic density (PSD).  (A) The large unstructured region serves to tether the CDKL5 kinase domain at the synapse.  i) The kinase domain is restricted to the blue semi-circle, giving CDKL5 a zone of activity, with radius the length of the tether (>200 nm).  ii) Epilepsy-causing mutations that introduce premature stop codons untether CDKL5.  (B) The mechanosensitive synaptic scaffold protein talin is also tethered to the membrane by interaction with integrins and/or amyloid precursor protein (APP). The CDKL5-binding domain, R8 is shown in dark green. The force-dependent binary switch domains in the talin rod region open and close in response to force and change the length of the molecule and the location of the CDKL5-binding site.  (C) As talin changes its conformation, the CDKL5-binding site on R8 is moved up and down within the synapse, as a result the kinase activity of CDKL5 is targeted to discrete locations within the synapse. Loss of this localisation or incorrect positioning of the kinase within the synapse would result in loss of synchronisation of the synapse in the context of the circuit it is part of and, we propose, result in re-entry circuits and epilepsy. See also  Supplementary Movie 1 .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Jane and Aatos Erkko Foundation",
+            "grantId": "240046",
+            "orderIn": 0
+          },
+          {
+            "agency": "Sigrid Jusélius Foundation",
+            "grantId": "8029",
+            "orderIn": 0
+          },
+          {
+            "agency": "Cancer Research UK",
+            "acronym": "CRUK_",
+            "grantId": "CRUK-A21671",
+            "orderIn": 0
+          },
+          {
+            "agency": "Magnus Ehrnrooth Foundation,",
+            "grantId": "363743",
+            "orderIn": 0
+          },
+          {
+            "agency": "British Heart Foundation",
+            "acronym": "BHF_",
+            "grantId": "SP/F/23/150045",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.08.27.672337"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1073820"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1073820&type=FILE&fileName=EMS208407-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS208407",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-09-02",
+      "firstPublicationDate": "2025-08-28",
+      "firstIndexDate": "2025-09-02",
+      "fullTextReceivedDate": "2025-09-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

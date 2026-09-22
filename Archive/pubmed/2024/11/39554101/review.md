@@ -1,0 +1,116 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific content, methodology, validation, and claims as presented in the provided manuscript text. No supplementary files, figures, or tables were available for inspection beyond what is referenced in the text.
+- **Shared manuscript claim summary** The authors present COCOMO2, an updated residue-based coarse-grained model that extends the original COCOMO framework from intrinsically disordered proteins (IDPs) to folded and multi-domain proteins (MDPs). The key innovation is a surface exposure scaling factor (λ) that modulates interaction strengths based on solvent accessibility. The model is parameterized directly against experimental solubility and phase separation data, and is claimed to improve predictions of both critical concentrations (csat) and radii of gyration (Rg) compared to the original COCOMO.
+- **Visible evidence base** Main text including Abstract, Introduction, Methods, Results, Discussion, and Conclusion sections. References to Figures 1–7, Tables 1 and S1–S8, and Supplementary Material are made but the actual figures, tables, and supplementary data were not provided.
+- **Missing materials affecting confidence** All figures (1–7), all tables (1, S1–S8), and all supplementary material. Experimental datasets used for parameterization and validation are referenced but not shown. Simulation details for individual systems (e.g., box sizes, folded domain definitions) are only available in supplementary tables. The absence of these materials prevents independent verification of quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a useful and timely extension of a coarse-grained model for biomolecular phase separation, addressing a genuine gap in the field. The conceptual approach of using surface exposure scaling is reasonable and the parameterization strategy against phase separation data is a notable improvement over prior IDP-focused models. However, the provided text alone does not allow verification of the central quantitative claims. Several methodological details are ambiguous or incomplete, and the validation appears to rely heavily on comparisons with the original COCOMO rather than against a broader set of experimental benchmarks. The manuscript is promising but requires substantial additional evidence and clarification before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, specifically those studying biomolecular condensates, phase separation, and coarse-grained simulation methodology. The work is also relevant to experimentalists studying liquid-liquid phase separation who seek computational tools to interpret or predict their observations. The potential extension to multi-scale modeling approaches broadens the appeal to the molecular simulation community.
+- **Major strengths**  
+  1. Addresses a clear and important limitation of the original COCOMO model by extending applicability to folded and multi-domain proteins.  
+  2. The surface exposure scaling factor (λ) is a conceptually simple and computationally efficient solution to a known problem.  
+  3. Parameterization directly against experimental phase separation and solubility data is a methodological improvement over reliance on single-chain properties alone.  
+  4. The mixed-phase starting condition for estimating csat is a thoughtful approach to mitigate hysteresis and kinetic trapping.  
+  5. The model retains the computational efficiency of the original COCOMO, making it practical for large-scale simulations.
+- **Major Concerns**  
+  - **R1-M1**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The manuscript claims that COCOMO2 "demonstrates significant improvements in accuracy for both phase separation behavior and single-molecule properties compared to the original COCOMO model."  
+    - **Evidence pointer** Results section, Figures 2, 4, 6 (figures not provided)  
+    - **Concern** The quantitative evidence for this central claim is not verifiable from the provided text. The figures that would show the comparisons are not included, and the numerical values (e.g., RMSD, χ²) are only mentioned in passing without context or error estimates.  
+    - **Why it matters** The core value proposition of the manuscript rests on demonstrating that COCOMO2 outperforms its predecessor. Without the actual data, the claim cannot be assessed.  
+    - **Resolution test** Provide the figures and tables with full quantitative comparisons, including error bars or statistical significance tests where appropriate.  
+  - **R1-M2**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The parameterization approach relies on a linear relationship between potential energy (U) and log10(csat), as described in Equations 8 and 9.  
+    - **Evidence pointer** Methods section, "Parameter optimization process"; Figure 5 (not provided)  
+    - **Concern** The validity of the linear relationship between U and log10(csat) is asserted based on theory, but the practical demonstration of this relationship across the training systems is not shown. The manuscript mentions "outliers" and the use of RANSAC, but the extent of the scatter and the robustness of the fit are not quantified.  
+    - **Why it matters** The entire parameterization strategy depends on this relationship being sufficiently accurate. If the scatter is large, the optimized parameters may be poorly constrained.  
+    - **Resolution test** Show the U vs. log10(csat) plots for all training systems, with the fitted lines, RANSAC inlier/outlier identification, and correlation coefficients.  
+  - **R1-M3**  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The manuscript states that "COCOMO2 agrees qualitatively with the experiment for three out of the four systems" for RNA-IDP phase separation.  
+    - **Evidence pointer** Results section, "Further evaluation of COCOMO2"  
+    - **Concern** The one failure case (polyAde-500/(RGRGG)₅) is mentioned but not discussed in any detail. The authors attribute the discrepancy to potential need for further optimization of protein-RNA interactions, but no analysis is provided to support this interpretation.  
+    - **Why it matters** A 75% success rate on a small test set is not a strong validation, and the lack of analysis of the failure case weakens the claim that the model is broadly applicable.  
+    - **Resolution test** Provide a detailed analysis of why the polyAde-500/(RGRGG)₅ system fails, including possible reasons (e.g., RNA length effects, stoichiometry, interaction strength) and whether any model adjustments could address it.  
+  - **R1-M4**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Scientific importance  
+    - **Claim pointer** The manuscript claims that COCOMO2 "provides an expanded foundation for the development of multi-scale approaches for modeling biomolecular interactions that span from residue-level to atomistic resolution."  
+    - **Evidence pointer** Discussion and Conclusion  
+    - **Concern** This claim is speculative and not supported by any demonstration or even a concrete proposal for how such multi-scale coupling would be achieved.  
+    - **Why it matters** While forward-looking statements are acceptable, this claim is presented as a feature of the model without any evidence of feasibility.  
+    - **Resolution test** Either remove or soften this claim, or provide a specific outline of how multi-scale coupling would be implemented.  
+  - **R1-M5**  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The manuscript states that "the introduction of surface scaling (λ=0.7) already provided a substantial improvement by decreasing the interactions of buried residues, reducing the χ² from 0.75 to 0.55" for MDP Rg predictions.  
+    - **Evidence pointer** Results section, "Further evaluation of COCOMO2"; Figure 6 (not provided)  
+    - **Concern** The improvement in χ² from 0.75 to 0.55 is presented as "substantial," but without knowing the number of data points, the degrees of freedom, or the distribution of residuals, it is impossible to judge whether this improvement is statistically meaningful.  
+    - **Why it matters** The claim of improvement needs to be placed in statistical context to be convincing.  
+    - **Resolution test** Provide the number of systems, the individual residuals, and a statistical test (e.g., F-test or similar) to assess the significance of the improvement.  
+- **Minor Comments**  
+  - **R1-m1**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Methods, "Coarse-Grained Model"  
+    - **Evidence pointer** Equation 2  
+    - **Issue** The bond constant kbond is written as "·4184 kJ/(mol·nm2)" with a leading dot, which appears to be a typographical error. The same issue appears for kangle in Equation 4.  
+    - **Required correction** Remove the leading dot and state the numerical values explicitly.  
+  - **R1-m2**  
+    - **Severity** Minor  
+    - **Axis** Reproducibility  
+    - **Affected element** Methods, "Molecular Dynamics simulations"  
+    - **Evidence pointer** Methods section  
+    - **Issue** The manuscript states that simulations were performed with OpenMM 8.0.0 but does not provide the exact simulation protocol (e.g., barostat settings, thermostat coupling, cutoff scheme beyond a 3 nm truncation).  
+    - **Required correction** Provide a complete description of the simulation protocol, including any additional parameters needed for reproducibility.  
+  - **R1-m3**  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Results, "Further evaluation of COCOMO2"  
+    - **Evidence pointer** Results section  
+    - **Issue** The manuscript mentions "14 IDPs from the original COCOMO dataset" used for testing Rg predictions, but does not list these systems or show the results.  
+    - **Required correction** Include a table or figure listing these systems and the corresponding predicted versus experimental Rg values.  
+  - **R1-m4**  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Discussion and Conclusion  
+    - **Evidence pointer** Discussion section  
+    - **Issue** The comparison with CALVADOS3 is brief and qualitative. The statement that CALVADOS3 "may implicitly capture increased interactions of surface-exposed residues" is speculative.  
+    - **Required correction** Either provide a more detailed comparison with CALVADOS3, including quantitative benchmarks where possible, or clearly label this as a hypothesis.  
+  - **R1-m5**  
+    - **Severity** Minor  
+    - **Axis** Accessibility  
+    - **Affected element** Abstract  
+    - **Evidence pointer** Abstract  
+    - **Issue** The abstract does not mention the limitations of the model, particularly the need for elastic network restraints for folded domains and the qualitative nature of some validations.  
+    - **Required correction** Add a sentence acknowledging the main limitations to set appropriate expectations for readers.  
+- **Technical failings that need to be addressed before the case is established**  
+  - R1-M1 (quantitative evidence for improved performance not verifiable)  
+  - R1-M2 (validity of the U vs. log10(csat) linear relationship not demonstrated)  
+  - R1-M3 (failure case in RNA-IDP validation not analyzed)  
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The surface exposure scaling concept is a reasonable incremental innovation, but similar ideas have been explored in other coarse-grained models. The parameterization strategy against phase separation data is more distinctive.  
+  - **Scientific importance** Moderate to high. The ability to model interactions between folded and disordered proteins is relevant to many biological processes, and a validated model would be useful. However, the importance is not yet fully established given the incomplete validation.  
+  - **Interdisciplinary readership** Moderate. The work will appeal primarily to computational biophysicists and those studying phase separation. The broader cell biology community may find it relevant but the presentation is quite technical.  
+  - **Technical soundness** Currently not fully assessable. The methodological approach is plausible, but the missing figures and tables prevent verification of the central claims. Some methodological details are also incomplete.  
+  - **Readability for nonspecialists** Acceptable. The manuscript is generally well-written and the concepts are explained clearly, though some sections assume familiarity with coarse-grained modeling terminology.  
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a real need and the approach is promising, but the current evidence base is insufficient to fully establish the claims. The authors should provide the missing data, clarify methodological details, and strengthen the validation before the work can be considered for publication in a high-impact venue.
+
+## Risk / unsupported claims
+- The claim of "significant improvements in accuracy" for phase separation and single-molecule properties is not verifiable without the figures and tables.
+- The linear relationship between U and log10(csat) is asserted but not demonstrated with data.
+- The statement that COCOMO2 "agrees qualitatively with the experiment for three out of the four systems" for RNA-IDP systems is not supported by shown data.
+- The claim that COCOMO2 "provides an expanded foundation for the development of multi-scale approaches" is speculative and not supported by any demonstration.
+- The comparison with CALVADOS3 is qualitative and not backed by quantitative benchmarks in the provided text.

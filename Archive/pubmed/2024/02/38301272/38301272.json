@@ -1,0 +1,382 @@
+{
+  "identity": {
+    "pmid": "38301272",
+    "doi": "10.1093/molbev/msae018",
+    "title": "Conservation of Affinity Rather Than Sequence Underlies a Dynamic Evolution of the Motif-Mediated p53/MDM2 Interaction in Ray-Finned Fishes."
+  },
+  "content": {
+    "abstract": "The transcription factor and cell cycle regulator p53 is marked for degradation by the ubiquitin ligase MDM2. The interaction between these 2 proteins is mediated by a conserved binding motif in the disordered p53 transactivation domain (p53TAD) and the folded SWIB domain in MDM2. The conserved motif in p53TAD from zebrafish displays a 20-fold weaker interaction with MDM2, compared to the interaction in human and chicken. To investigate this apparent difference, we tracked the molecular evolution of the p53TAD/MDM2 interaction among ray-finned fishes (Actinopterygii), the largest vertebrate clade. Intriguingly, phylogenetic analyses, ancestral sequence reconstructions, and binding experiments showed that different loss-of-affinity changes in the canonical binding motif within p53TAD have occurred repeatedly and convergently in different fish lineages, resulting in relatively low extant affinities (KD = 0.5 to 5 muM). However, for 11 different fish p53TAD/MDM2 interactions, nonconserved regions flanking the canonical motif increased the affinity 4- to 73-fold to be on par with the human interaction. Our findings suggest that compensating changes at conserved and nonconserved positions within the motif, as well as in flanking regions of low conservation, underlie a stabilizing selection of \"functional affinity\" in the p53TAD/MDM2 interaction. Such interplay complicates bioinformatic prediction of binding and calls for experimental validation. Motif-mediated protein-protein interactions involving short binding motifs and folded interaction domains are very common across multicellular life. It is likely that the evolution of affinity in motif-mediated interactions often involves an interplay between specific interactions made by conserved motif residues and nonspecific interactions by nonconserved disordered regions.",
+    "keywords": [
+      "affinity",
+      "intrinsically disordered regions",
+      "protein evolution",
+      "sequence evolution"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Tumor Suppressor Protein p53/genetics/chemistry/metabolism",
+      "*Zebrafish",
+      "Phylogeny",
+      "Protein Structure, Tertiary",
+      "Protein Binding",
+      "Proto-Oncogene Proteins c-mdm2/genetics/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mihalic, Filip",
+        "Arcila, Dahiana",
+        "Pettersson, Mats E",
+        "Farkhondehkish, Pouria",
+        "Andersson, Eva",
+        "Andersson, Leif",
+        "Betancur-R, Ricardo",
+        "Jemth, Per"
+      ],
+      "short_names": [
+        "Mihalic F",
+        "Arcila D",
+        "Pettersson ME",
+        "Farkhondehkish P",
+        "Andersson E",
+        "Andersson L",
+        "Betancur-R R",
+        "Jemth P"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-6840-2319",
+        "ORCID: 0000-0002-7372-9076",
+        "ORCID: 0000-0002-4085-6968"
+      ],
+      "affiliations": [
+        "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC, Uppsala SE-75123, Sweden.",
+        "Scripps Institution of Oceanography, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC, Uppsala SE-75123, Sweden.",
+        "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC, Uppsala SE-75123, Sweden.",
+        "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC, Uppsala SE-75123, Sweden.",
+        "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC, Uppsala SE-75123, Sweden.",
+        "Department of Veterinary Integrative Biosciences, Texas A&M University, College Station, TX 77483, USA.",
+        "Scripps Institution of Oceanography, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC, Uppsala SE-75123, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mihalič, Filip",
+        "short_name": "Mihalič F",
+        "identifiers": [
+          "0000-0002-6840-2319"
+        ],
+        "affiliations": [
+          "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC, Uppsala SE-75123, Sweden."
+        ]
+      },
+      {
+        "full_name": "Arcila, Dahiana",
+        "short_name": "Arcila D",
+        "identifiers": [],
+        "affiliations": [
+          "Scripps Institution of Oceanography, University of California San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Pettersson, Mats E",
+        "short_name": "Pettersson ME",
+        "identifiers": [
+          "0000-0002-7372-9076"
+        ],
+        "affiliations": [
+          "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC, Uppsala SE-75123, Sweden."
+        ]
+      },
+      {
+        "full_name": "Farkhondehkish, Pouria",
+        "short_name": "Farkhondehkish P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC, Uppsala SE-75123, Sweden."
+        ]
+      },
+      {
+        "full_name": "Andersson, Eva",
+        "short_name": "Andersson E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC, Uppsala SE-75123, Sweden."
+        ]
+      },
+      {
+        "full_name": "Andersson, Leif",
+        "short_name": "Andersson L",
+        "identifiers": [
+          "0000-0002-4085-6968"
+        ],
+        "affiliations": [
+          "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC, Uppsala SE-75123, Sweden.",
+          "Department of Veterinary Integrative Biosciences, Texas A&M University, College Station, TX 77483, USA."
+        ]
+      },
+      {
+        "full_name": "Betancur-R, Ricardo",
+        "short_name": "Betancur-R R",
+        "identifiers": [],
+        "affiliations": [
+          "Scripps Institution of Oceanography, University of California San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Jemth, Per",
+        "short_name": "Jemth P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Biochemistry and Microbiology, Uppsala University, BMC, Uppsala SE-75123, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular biology and evolution"
+    ],
+    "journal_abbrev": [
+      "Mol Biol Evol"
+    ],
+    "pub_date": "2024 Feb 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/02/01 18:41",
+    "fetched_at": "2026-09-21 04:42:51"
+  },
+  "links": {
+    "cites": [
+      "41629626",
+      "41083871",
+      "40667294",
+      "40411416",
+      "38895487",
+      "37957331"
+    ],
+    "refs": [
+      "37647499",
+      "37211711",
+      "35948766",
+      "35637307",
+      "35605677",
+      "35256607",
+      "35120642",
+      "34687712",
+      "34473923",
+      "34301898",
+      "33904398",
+      "32929026",
+      "32613009",
+      "32404993",
+      "31134302",
+      "29973726",
+      "29878773",
+      "29760103",
+      "29722887",
+      "29370437",
+      "28774266",
+      "28683774",
+      "28167781",
+      "27795231",
+      "27678309",
+      "27088604",
+      "25746004",
+      "25092473",
+      "25038412",
+      "23435085",
+      "23150765",
+      "22710296",
+      "21988835",
+      "20962272",
+      "20081368",
+      "19584925",
+      "19410540",
+      "19363523",
+      "19357310",
+      "19151095",
+      "17002294",
+      "16128622",
+      "15325294",
+      "14757817",
+      "12032567",
+      "10734067",
+      "8875929"
+    ],
+    "similar": [
+      "38301272",
+      "37211711",
+      "23609977",
+      "30832340",
+      "17002294",
+      "22807444",
+      "26976603",
+      "24491548",
+      "33450248",
+      "19916559",
+      "25591003",
+      "26823446",
+      "29878773",
+      "23316052",
+      "41548730",
+      "25543083",
+      "28774266",
+      "24842904",
+      "16159876",
+      "23606624",
+      "33579943",
+      "24342622",
+      "26742101",
+      "30679555",
+      "11925449",
+      "28000315",
+      "16857591",
+      "20436290",
+      "30735716",
+      "16402859",
+      "22666487",
+      "20160485",
+      "21084285",
+      "16866370",
+      "19255450",
+      "11697899",
+      "16474402",
+      "21088494",
+      "17957142",
+      "38916177",
+      "31502598",
+      "24127580",
+      "22337874",
+      "17938582",
+      "20591429",
+      "19305137",
+      "21210687",
+      "22333590",
+      "31421630",
+      "25362358",
+      "11328884",
+      "19160491",
+      "32497081",
+      "25825738",
+      "26798135",
+      "18775730",
+      "22815859",
+      "17429071",
+      "17335006",
+      "31473433",
+      "19910468",
+      "17116689",
+      "29671327",
+      "20081368",
+      "20479273",
+      "41230869",
+      "12552135",
+      "23324352",
+      "31089613",
+      "21762762",
+      "35792674",
+      "27905468",
+      "15358376",
+      "18541670",
+      "35944929",
+      "8875929",
+      "25840370",
+      "25185827",
+      "19656744",
+      "29696695",
+      "20333547",
+      "17438265",
+      "19713735",
+      "19166313",
+      "25417702",
+      "22819825",
+      "25584963",
+      "18219319",
+      "19357310",
+      "15824059",
+      "37647499",
+      "19303885",
+      "10721693",
+      "19363523",
+      "29581299",
+      "27038437",
+      "24755078",
+      "12381304",
+      "26701330",
+      "18548200"
+    ],
+    "review": [
+      "38301272",
+      "10721693"
+    ],
+    "pmc": [
+      "10901556"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38301272/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38301272",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://zfin.org/action/publication/view?accession=38301272",
+        "provider": "ZFIN",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TP53-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-951",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt72r4k9tr",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://academic.oup.com/mbe/article-lookup/doi/10.1093/molbev/msae018",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

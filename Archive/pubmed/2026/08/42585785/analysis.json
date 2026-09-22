@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42585785",
+  "title": "Conditionally folded disordered regions contribute to adaptation and regulation in Schistosomamansoni.",
+  "authors": "Devi, Bhaswati; Tripathi, Timir",
+  "journal": "Biochemical and biophysical research communications",
+  "published_date": "2026-08-12",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文对曼氏血吸虫全蛋白质组进行无序区域及条件折叠IDR(CF-IDR)的系统鉴定，结合AlphaFold、LLPS倾向和AIUPred结合预测，揭示CF-IDR在转录/RNA加工等调控中的互作潜力，虽未深入PPI机制建模，但对象与AI预测方法契合本课题。",
+  "abstract": "Schistosoma mansoni, a causative agent of schistosomiasis, has a complex life cycle that requires extensive molecular adaptation to diverse host environments. Intrinsically disordered proteins (IDPs) and regions (IDRs) are highly flexible protein segments that play key roles in cellular regulation, signaling, and host-pathogen interactions. In this study, we conducted a proteome-wide analysis of IDRs and conditionally folded intrinsically disordered regions (CF-IDRs) in the S. mansoni proteome. 10,749 protein sequences were retrieved from UniProt and reduced to 9638 non-redundant proteins. Intrinsic disorder prediction identified 7662 IDRs, with 36.95% of proteins containing at least one long disordered region. AlphaFold structural confidence scores were integrated with disorder predictions to identify CF-IDRs, defined as disordered regions containing local high-confidence structural segments. Approximately 12.7% of IDR-containing proteins possessed at least one CF-IDR. CF-IDRs were enriched for both disorder-promoting and selected order-promoting residues, suggesting a balance between flexibility and transient structure formation. Prediction of liquid-liquid phase separation (LLPS) propensity revealed that many CF-IDRs may participate in biomolecular condensation. AIUPred-binding prediction indicated that most CF-IDRs contained a strong binding segment, supporting interaction-driven disorder-to-order transitions. Functional enrichment analysis showed that CF-IDR-containing proteins are primarily associated with transcription, RNA processing, chromatin organization, and cytoskeletal regulation. This study is the first to systematically identify and characterize CF-IDRs across the entire proteome of any helminth. Overall, it underscores the importance of structural plasticity in S. mansoni biology and suggests that CF-IDRs may contribute to parasite adaptation, regulation, and host interactions.",
+  "abstract_zh": "曼氏血吸虫（Schistosoma mansoni）是血吸虫病的病原体，其复杂的生活史要求其进行广泛的分子适应以应对多样的宿主环境。固有无序蛋白（IDPs）和固有无序区域（IDRs）是高度柔性的蛋白质片段，在细胞调控、信号传导及宿主-病原体相互作用中发挥关键作用。在本研究中，我们对曼氏血吸虫蛋白质组中的IDRs和条件折叠固有无序区域（CF-IDRs）进行了全蛋白质组水平分析。从UniProt获取了10,749条蛋白质序列，并缩减至9,638个非冗余蛋白质。固有无序预测识别出7,662个IDRs，其中36.95%的蛋白质含有至少一个长无序区域。将AlphaFold结构置信度评分与无序预测相结合，以识别CF-IDRs，其定义为包含局部高置信度结构片段的固有无序区域。约12.7%的含IDR蛋白质拥有至少一个CF-IDR。CF-IDRs富集了促进无序和特定促进有序的残基，表明其在柔性与瞬时结构形成之间存在平衡。液-液相分离（LLPS）倾向性预测显示，许多CF-IDRs可能参与生物分子凝聚。AIUPred结合预测表明，大多数CF-IDRs包含一个强结合片段，支持相互作用驱动的无序到有序转变。功能富集分析显示，含CF-IDR的蛋白质主要与转录、RNA加工、染色质组织和细胞骨架调控相关。本研究是首次对任何蠕虫整个蛋白质组中的CF-IDRs进行系统性识别和表征。总体而言，它强调了结构可塑性在曼氏血吸虫生物学中的重要性，并提示CF-IDRs可能有助于寄生虫的适应、调控及宿主相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42585785/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42585785/",
+  "paper_page_path": "papers/pubmed/42585785/index.html"
+}

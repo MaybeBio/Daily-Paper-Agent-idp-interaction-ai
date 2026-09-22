@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, experimental section, results, discussion, conclusion) from preprint server bioRxiv, dated 2023-07-18.
+- **Assessment boundary** Scientific content, methodological rigor, internal consistency, and support of claims by presented data. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors propose that proteins adsorbed to polystyrene nanoparticles (PSNPs) form a disordered, well-solvated corona anchored at a limited number of enthalpically driven attachment sites. They report that binding affinity decreases with increasing nanoparticle size, that protein destabilization is more pronounced on smaller, higher-curvature particles, and that these trends extend to flat polystyrene surfaces. They further propose a model to explain prior observations of amyloid fibrillation and immune recognition.
+- **Visible evidence base** ITC thermograms and fitted parameters (Fig. 1, Tables S4–S5), DLS hydrodynamic diameters (Table 1), GdmCl unfolding transitions monitored by tryptophan fluorescence (Fig. 2, Table S7), far-UV CD spectra (Fig. 3A–B), ANS fluorescence data (Fig. 3C–D, Fig. 4), TEM images (Fig. S1), zeta potential measurements (Table S3), and plate-based ANS experiments (Fig. 4).
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided in the submitted text (Figs. S1–S5, Tables S1–S7). Raw ITC data, individual replicate values, and statistical analysis details are not fully visible. No information on protein purity or sample quality controls beyond prior references.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in nanobiointerfaces: the conformational state of proteins in the nanoparticle corona. The authors combine calorimetric, spectroscopic, and hydrodynamic measurements across a range of PSNP sizes to build a coherent model of a disordered, solvated corona. The work is conceptually interesting and the data are largely internally consistent. However, several technical concerns, particularly regarding the interpretation of ITC stoichiometry, the quantitative treatment of DLS data, and the extrapolation to flat surfaces, require careful attention before the proposed model can be considered fully established.
+- **Who would be interested in the results, and why** Researchers in nanomedicine, protein biophysics, and bionanoscience. The findings have implications for understanding how nanoparticle size and curvature influence protein structure, which is relevant for drug delivery, nanotoxicology, and the design of nanoparticle-based therapeutics. The proposed "adsorbotope" model may also interest those studying protein-surface interactions and amyloid aggregation.
+- **Major strengths** The study uses a multi-technique approach combining thermodynamics (ITC), hydrodynamics (DLS), and structural probes (CD, fluorescence) to characterize the corona. The systematic variation of nanoparticle size while controlling total surface area is a thoughtful experimental design. The authors are appropriately cautious in some interpretations, acknowledging model simplifications. The connection to prior fibrillation studies provides a useful framework for understanding the biological implications of corona disorder.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data interpretation and model support
+  - **Claim pointer** The claim that the corona consists of "well-solvated, disordered polymers" anchored at a small number of sites is central to the manuscript.
+  - **Evidence pointer** Results section "GB3 and R2ab are Well-Solvated, Disordered Polymers when Adsorbed to PSNPs"; Fig. 1F; Table S6
+  - **Concern** The interpretation of ITC stoichiometry (N) relies on a single-site binding model, which the authors acknowledge is a simplification. The observed N values are much lower than geometric predictions, but the authors do not adequately address alternative explanations, such as partial surface coverage, protein aggregation in solution, or the presence of multiple binding modes with different affinities. The ratio analysis (N_GB3/N_R2ab) is suggestive but not conclusive, as it depends on assumptions about the hydrodynamic radius of the disordered state that are not directly measured. The DLS data showing large ΔdH are also difficult to reconcile with a low N unless the protein extends far from the surface, which is not directly demonstrated.
+  - **Why it matters** The central model of the manuscript rests on the interpretation of these data. If the low N values reflect incomplete surface saturation or experimental artifacts rather than a disordered, extended conformation, the proposed model would be substantially weakened.
+  - **Resolution test** Provide direct evidence of the conformational state of adsorbed proteins, for example, using small-angle neutron scattering, hydrogen-deuterium exchange mass spectrometry, or single-molecule FRET. Alternatively, perform ITC experiments at multiple protein concentrations and surface coverages to rule out incomplete saturation. A more detailed analysis of the DLS data, including the distribution of hydrodynamic diameters and the contribution of free protein, would also strengthen the interpretation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor and statistical support
+  - **Claim pointer** The claim that "binding affinity decreases as nanoparticle size increases" is a key quantitative finding.
+  - **Evidence pointer** Results section "As Nanoparticle Curvature Decreases, the Apparent Binding Affinity Decreases..."; Fig. 1C–E; Table S4
+  - **Concern** The statistical significance of the differences in binding affinity across nanoparticle sizes is not reported. The authors state that uncertainties are standard errors of the mean from replicates, but no p-values or confidence intervals are provided. Given that the differences in ΔbindGo appear modest (e.g., between 100 and 200 nm particles), it is unclear whether these differences are statistically robust. Additionally, the use of different binding models (single-site vs. two-site) for different systems complicates direct comparison of the reported parameters.
+  - **Why it matters** The size-dependent trend in binding affinity is a central finding that supports the curvature-dependent model. Without statistical validation, the reader cannot assess the reliability of this trend.
+  - **Resolution test** Provide statistical comparisons (e.g., ANOVA or t-tests with appropriate corrections) for the binding parameters across nanoparticle sizes. Report confidence intervals for all fitted parameters. If different binding models are used, justify this choice and discuss how it affects comparability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Extrapolation to macroscopic surfaces
+  - **Claim pointer** The claim that trends observed for PSNPs can be extrapolated to flat polystyrene surfaces.
+  - **Evidence pointer** Results section "Trends in Protein Structural Changes Can Be Extrapolated to Macroscopic Surfaces on Treated Polystyrene Plates"; Fig. 4
+  - **Concern** The comparison between PSNPs and flat plates is qualitative and based on ANS fluorescence alone. The authors acknowledge challenges in quantitative interpretation, but the conclusion that "adsorption on flatter surfaces appears to be less disruptive" is not strongly supported. The plate experiments use different protein concentrations and surface areas, and the reference subtraction is not fully described. The possibility that lower ANS fluorescence on plates reflects lower protein adsorption rather than less structural disruption is not adequately addressed.
+  - **Why it matters** The extrapolation to flat surfaces is presented as a validation of the model and has implications for understanding protein behavior on macroscopic biomaterials. If this comparison is not robust, the generalizability of the model is less certain.
+  - **Resolution test** Quantify the amount of adsorbed protein on plates (e.g., using radiolabeling or quartz crystal microbalance) to normalize ANS fluorescence. Perform a titration of protein concentration on plates to assess whether the ANS signal saturates. Alternatively, use a surface-sensitive technique such as total internal reflection fluorescence to directly probe adsorbed protein conformation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Experimental Section, "Isothermal titration calorimetry (ITC)"
+  - **Evidence pointer** Location not provided
+  - **Issue** The ITC data analysis section does not specify how the concentration of active protein was determined, nor does it describe the fitting procedure in sufficient detail (e.g., whether the stoichiometry was floated or fixed, and how the two-site model was applied).
+  - **Required correction** Provide a more detailed description of the ITC fitting procedure, including the model equations, initial guesses, and any constraints. State how protein concentration was verified (e.g., by absorbance at 280 nm with appropriate extinction coefficients).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Results section "A Sizeable Protein Corona Forms on Highly Curved Polystyrene Nanoparticle Surfaces"; Table 1
+  - **Evidence pointer** Table 1
+  - **Issue** The DLS data in Table 1 report hydrodynamic diameters with uncertainties, but the polydispersity index (PDI) values are not shown in the main text. The authors mention PDI in the text but do not provide the values.
+  - **Required correction** Include PDI values in Table 1 or in the supplementary information to allow readers to assess the size distribution of the nanoparticles.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of ANS data
+  - **Affected element** Results section "PSNPs Destabilize the Folded State of R2ab and GB3..."
+  - **Evidence pointer** Fig. 3C–D
+  - **Issue** The ANS fluorescence data are presented as raw spectra, but the authors do not report the wavelength of maximum emission or the integrated intensity, which are more quantitative measures of hydrophobic exposure.
+  - **Required correction** Report the peak wavelength and integrated intensity for each condition, along with appropriate controls (e.g., ANS alone, protein alone).
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of limitations
+  - **Affected element** Discussion section
+  - **Evidence pointer** Location not provided
+  - **Issue** The authors do not discuss the potential influence of protein-protein interactions on the surface, which could affect the interpretation of both ITC and DLS data.
+  - **Required correction** Add a brief discussion of how protein-protein interactions on the surface might influence the observed stoichiometry and hydrodynamic diameters, and whether the model accounts for these effects.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking concerns. The central model of a disordered, solvated corona and the size-dependent trend in binding affinity require stronger experimental support and statistical validation. The extrapolation to flat surfaces (R1-M3) is a significant claim that needs more rigorous evidence.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The concept of a disordered, solvated corona is not entirely new, but the systematic thermodynamic and structural characterization across a range of PSNP sizes, combined with the proposed "adsorbotope" model, offers a fresh perspective. The work is original in its integrative approach.
+  - **Scientific importance** The findings have clear implications for understanding protein-nanoparticle interactions, which are central to nanomedicine and nanotoxicology. The proposed model could inform the design of nanoparticle-based therapeutics and the interpretation of corona-mediated biological responses.
+  - **Interdisciplinary readership** The topic bridges materials science, biophysics, and cell biology. The manuscript is likely to appeal to researchers in these fields, though the technical depth may limit accessibility to a broader audience.
+  - **Technical soundness** The experimental design is generally sound, but the blocking concerns regarding data interpretation and statistical support undermine the current level of technical rigor. The multi-technique approach is a strength, but the quantitative analysis needs refinement.
+  - **Readability for nonspecialists** The manuscript is clearly written and the logical flow is easy to follow. However, some sections, particularly the ITC analysis, assume familiarity with thermodynamic concepts. The figures are informative, but the lack of statistical annotations reduces clarity for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a plausible model, but the current evidence does not fully establish the central claims. Addressing the blocking concerns with additional experiments and statistical analysis would substantially strengthen the case.
+
+## Risk / unsupported claims
+- The claim that the corona is "well-solvated" is inferred from indirect measurements (DLS, ITC, ANS) and is not directly demonstrated.
+- The extrapolation of PSNP results to flat polystyrene surfaces is based on a single qualitative ANS experiment and is not quantitatively supported.
+- The proposed "adsorbotope" model is speculative and not directly tested.
+- The statement that "protein destabilization that occurs from adsorption is variable over this range of curvatures" is based on a limited number of PSNP sizes and may not capture the full curvature dependence.
+- The interpretation of the endothermic ITC signal for GB3 on 50 nm PSNPs is not fully explained, and its origin remains unclear.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.13.557459",
+  "title": "Transient structural properties of the Rho GDP-dissociation inhibitor",
+  "authors": "Gomez SM; Visco I; Merino F; Bieling P; Linser R",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-13",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过NMR与分子动力学模拟研究RhoGDI N端无序区域在与Cdc42结合前后的瞬态结构特性，揭示其并非无序到有序转变，而是预形成结构介导互作，对IDR介导PPI的机制建模有直接启发。",
+  "abstract": "Rho GTPases are master spatial regulators of the cytoskeleton that control a wide range of cellular processes. Their inactivation by removal from cellular membranes involves the stepwise formation of a stable complex with guanine nucleotide dissociation inhibitors (RhoGDIs), for which process the RhoGDI N-terminus is indispensable. The formation of this interface has been thought to emerge from an intrinsically disordered state of RhoGDI in its free, apo form. Here we use tailored solution NMR analyses, molecular dynamics simulations, and biochemical essays to pinpoint the site-specific structural features of full-length RhoGDI1 before and after binding its GTPase client Cdc42. In contrast to the current mechanistic understanding, a diverse set of NMR data unequivocally shows that the structural properties of the GDI N-terminus seen in crystal structures of the complex with GTPases already exist as largely preformed features in free, apo GDI. Even more interestingly, the required structural properties are imposed onto the terminus context-specifically by modulating interactions with the surface of the folded C-terminal domain. Lastly, upon Cdc42 binding, the flexibility of the N-terminus and its secondary-structural propensities are not largely abrogated. These observations change the textbook picture of the mechanism of membrane extraction of the GTPase. Rather than a disorder-to-order transition upon binding, an active role of the N-terminus with differentially preformed structural properties, suitably modulated by the specific surrounding along the multi-step process, seems required to leverage the intricate and highly selective extraction process.",
+  "abstract_zh": "Rho GTPases是细胞骨架的主空间调节因子，控制着广泛的细胞过程。它们通过从细胞膜上移除而失活，涉及与鸟嘌呤核苷酸解离抑制剂（RhoGDIs）逐步形成稳定复合物，此过程中RhoGDI的N端是不可或缺的。这一界面的形成曾被认为源于RhoGDI在游离、脱辅基状态下的内在无序结构。在此，我们利用定制化的溶液NMR分析、分子动力学模拟和生化实验，精确确定了全长RhoGDI1在与GTPase客户蛋白Cdc42结合前后的位点特异性结构特征。与当前机制理解相反，一系列NMR数据明确显示，在与GTPases复合物晶体结构中观察到的GDI N端结构特性，在游离、脱辅基GDI中已作为大体预形成的特征存在。更有趣的是，所需的结构特性是通过与折叠C端结构域表面的调节性相互作用，以上下文特异性的方式施加于N端的。最后，在Cdc42结合后，N端的灵活性及其二级结构倾向并未大幅丧失。这些观察结果改变了教科书上关于GTPase膜提取机制的描述。与其说是结合时的无序到有序转变，不如说N端在具有差异预形成结构特性的情况下，通过多步过程中特定周围环境的适当调节，发挥积极作用，似乎是利用复杂且高度选择性的提取过程所必需的。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.13.557459",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.13.557459",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.13.557459/index.html"
+}

@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that small CAG repeat (sCAG) RNAs of six to seven repeats, implicated in Huntington's disease, undergo phase transition in vitro and in cells. Using solution NMR and coarse-grained molecular dynamics simulations, they propose that sCAG RNAs form duplex structures with 3'-sticky ends, where GC stickers drive intermolecular crosslinking and promote RNA condensation. They further report cellular condensates within nuclear speckles and suggest that specific structural motifs can promote RNA phase transition independent of sequence length and multivalence.
+- **Visible evidence base** Abstract text only; no experimental details, NMR spectra, simulation parameters, or imaging data provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, simulation protocols, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation that short CAG repeat RNAs can undergo phase separation, which would challenge prevailing assumptions about the need for long sequences or high multivalence. However, the evidence as summarized is insufficient to evaluate the mechanistic claims. The central structural model, the functional role of GC stickers, and the cellular relevance are asserted without sufficient detail. The work may be of interest to the RNA biology and biomolecular condensate communities, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, RNA phase transitions, repeat expansion disorders such as Huntington's disease, and those interested in RNA-based biomaterials. The claim that short RNAs can drive condensation via specific structural motifs would be relevant to understanding disease mechanisms and to designing RNA-based synthetic condensates.
+- **Major strengths** The topic is timely and of broad interest. The combination of NMR and coarse-grained simulations is appropriate for studying RNA structure and dynamics. The focus on short CAG repeats addresses a clinically relevant sequence. The suggestion that structural motifs can compensate for low valency is conceptually interesting.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that sCAG RNAs form duplex structures with 3'-sticky ends and that GC stickers initiate intermolecular crosslinking and promote RNA condensation.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract states that NMR and simulations reveal the duplex structure with sticky ends, but no data are shown. It is unclear how the 3'-sticky ends are defined, what the structural resolution is, and how the GC stickers are identified as the initiating motif. The causal link between GC stickers and condensation is asserted without supporting data.
+  - **Why it matters** The structural model is the central mechanistic claim of the work. Without evidence, the claim that specific motifs drive condensation cannot be evaluated. If the model is incorrect, the entire conceptual advance is undermined.
+  - **Resolution test** Provide NMR spectra with assignments showing the duplex and sticky end features, simulation snapshots or contact maps identifying GC sticker interactions, and mutagenesis or variant experiments showing that altering GC stickers disrupts condensation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that sCAG RNAs undergo phase transition in vitro and in cells, and that cellular condensates form within nuclear speckles.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract reports phase transition in vitro and in cells but provides no experimental details. It is unclear what assays were used, what concentrations were required, whether the in vitro condensates are RNA-only or protein-dependent, and how cellular condensates were identified and localized to nuclear speckles.
+  - **Why it matters** The biological relevance of the finding depends on demonstrating that the observed condensation occurs under physiologically plausible conditions and that the cellular structures are bona fide condensates. Without these details, the in vivo claim is not established.
+  - **Resolution test** Provide turbidity or microscopy data for in vitro condensation with concentration dependence, and confocal or super-resolution images with co-staining for nuclear speckle markers and RNA in cells.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors suggest that RNA phase transition can be promoted by specific structural motifs, reducing reliance on sequence length and multivalence.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract only reports data for six to seven CAG repeats. It is unclear whether the proposed mechanism applies to other repeat lengths, other repeat sequences, or other structural motifs. The generalization to a broader principle is not supported by the presented scope.
+  - **Why it matters** The broader significance of the work depends on the generality of the proposed mechanism. If the effect is specific to CAG repeats of a narrow length range, the conceptual impact is limited.
+  - **Resolution test** Provide data on additional repeat lengths, control sequences with disrupted GC stickers, and ideally other repeat motifs to test the generality of the proposed mechanism.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of sCAG
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "small CAG repeat (sCAG) RNAs" is introduced but the size range is only given as six to seven repeats. It is unclear whether this is a defined class or an arbitrary cutoff.
+  - **Required correction** Define the term clearly and justify the chosen repeat length range.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Sticky ends"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "sticky ends" is borrowed from DNA duplex literature and may be ambiguous in the RNA context. It is unclear whether these are overhangs, unpaired nucleotides, or dynamic fraying ends.
+  - **Required correction** Provide a precise structural definition of the sticky ends as determined by NMR or simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "advanced coarse-grained molecular dynamic simulations" but does not specify the model, force field, or system size.
+  - **Required correction** Provide simulation details in the full manuscript and summarize key parameters in the abstract if space permits.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The structural model and the in vitro and cellular condensation claims require direct evidence. R1-M3 is non-blocking but important for the broader significance.
+- **Assessment against Nature-style criteria** 
+  - Originality: The claim that short repeat RNAs can drive condensation via specific structural motifs is conceptually novel and would be of interest if established.
+  - Scientific importance: The potential link to Huntington's disease and the general principle of motif-driven RNA condensation are important if supported.
+  - Interdisciplinary readership: The work would appeal to RNA biologists, biophysicists, and researchers in neurodegeneration, but the abstract does not yet make the case accessible to a broad audience.
+  - Technical soundness: Cannot be assessed from the abstract. The combination of NMR and simulations is appropriate, but the evidence is not shown.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses specialized terms without sufficient definition.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but does not provide sufficient data to support the central claims. Supportive if the technical concerns are resolved with full evidence.
+
+## Risk / unsupported claims
+- The claim that sCAG RNAs form duplex structures with 3'-sticky ends is unsupported in the abstract.
+- The claim that GC stickers initiate intermolecular crosslinking and promote condensation is unsupported.
+- The claim that sCAG RNAs undergo phase transition in vitro and in cells is unsupported.
+- The claim that cellular condensates form within nuclear speckles is unsupported.
+- The generalization that RNA phase transition can be promoted by specific structural motifs independent of length and multivalence is not supported by the presented scope.

@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure references
+- **Assessment boundary** Scientific content, methodological rigor, logical coherence, and support of claims by presented evidence; not copyediting or formatting
+- **Shared manuscript claim summary** The authors propose that chromatin binding through a DNA-binding domain (DBD) regulates the phase behavior, morphology, and dynamics of condensates formed by prion-like domains (PLDs). Using engineered fusions of SS18 PLD with the FOXA1 forkhead (FKH) DBD, they show that chromatin affinity alters condensate shape from spherical to aspherical, wetting-like morphologies, restricts coarsening, and induces subdiffusive dynamics. Coarse-grained simulations support a mechanistic model where PLD-PLD and DBD-chromatin interaction strengths jointly determine condensate structure and dynamics.
+- **Visible evidence base** Live-cell fluorescence imaging of HEK293T cells expressing GFP-tagged constructs; quantitative image analysis of condensate size, number, eccentricity; colocalization analysis with H2B chromatin marker; FRAP measurements; sequence-resolved coarse-grained simulations (HPS model); mesoscale simulations of condensates in chromatin networks
+- **Missing materials affecting confidence** Supplementary figures (S1–S13) and movies referenced but not provided; full amino acid sequences of constructs only in Table S1 (not provided); no raw data or statistical analysis details beyond mean ± SD; no information on replicate numbers for imaging experiments; no negative controls for transfection or imaging artifacts; no validation of the image analysis pipeline against ground truth
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question in the field of biomolecular condensates: how chromatin interactions modulate the phase behavior of transcription factor condensates in cells. The experimental design using engineered PLD-DBD fusions is elegant and systematic, and the combination of live-cell imaging with multiscale simulations provides complementary perspectives. The central claim that chromatin binding affinity regulates condensate morphology and dynamics is plausible and supported by the qualitative trends presented. However, several technical concerns regarding quantification rigor, statistical treatment, and the interpretation of FRAP data need to be addressed before the conclusions are fully established. The simulation models, while informative, rely on parameters that may not faithfully represent the in vivo system, and the connection between simulation and experiment could be strengthened.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, transcription factor biology, chromatin organization, and gene regulation. The findings have implications for understanding how transcriptional condensates form and function in the nucleus, and for designing synthetic condensate systems. The work bridges biophysics and cell biology, appealing to both experimental and computational communities.
+- **Major strengths** 1) Systematic engineering approach isolating the role of DBD-chromatin interactions in condensate behavior. 2) Combination of quantitative live-cell imaging with multiscale simulations. 3) Clear demonstration that chromatin binding affinity correlates with condensate morphology and dynamics. 4) The study addresses a key discrepancy between in vitro and in vivo condensate behavior. 5) The physical framework proposed is broadly applicable to other chromatin-binding proteins.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The authors claim quantitative differences in eccentricity, area, and number of condensates between SS18PLD, SS18PLD-FKH, and SS18PLD-FKHNHRR (Figure 1D–F).
+  - **Evidence pointer** Figure 1D–F; Methods: Image analysis
+  - **Concern** The quantitative comparisons rely on mean ± SD values, but no information is provided on the number of cells analyzed, number of independent transfections, or statistical tests used. The claim that "cells were selected where the mean nuclear intensity of the population for each variant is not statistically different" (Figure S5) requires details on how this selection was performed and whether it introduced bias. Without proper statistical reporting, the quantitative differences claimed cannot be evaluated.
+  - **Why it matters** The central conclusion that chromatin binding alters condensate morphology and coarsening depends on these quantitative comparisons. If the differences are not statistically robust, the main claim is weakened.
+  - **Resolution test** Provide the number of cells (n) per condition, number of independent biological replicates, and the specific statistical tests used (e.g., ANOVA with post-hoc tests). Report effect sizes and confidence intervals. Clarify the cell selection criteria and whether the analysis was blinded.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** FRAP interpretation
+  - **Claim pointer** The authors state that SS18PLD-FKH exhibits substantially slower recovery (τ1/2 = 7.88 ± 4.39) compared to SS18PLD (τ1/2 = 2.92 ± 1.004), and interpret this as evidence of chromatin binding restricting diffusion (Figure 2C).
+  - **Evidence pointer** Figure 2C; Figure S7; Methods: FRAP measurements
+  - **Concern** The FRAP recovery half-times are reported with large standard deviations, and the fitting equation I(t)=a(1−exp(−t/τ)) assumes a single exponential recovery, which may not be appropriate for condensates with complex internal dynamics. The authors do not report mobile fractions, diffusion coefficients, or whether the recovery curves were normalized correctly. The comparison between constructs may be confounded by differences in condensate size, density, or the fraction of molecules that are immobile. Additionally, the bleach area was kept constant, but the condensate sizes differ between constructs, which could affect recovery kinetics.
+  - **Why it matters** The claim that chromatin binding leads to spatially restricted subdiffusive behavior is a key mechanistic conclusion. If the FRAP analysis is not robust, this conclusion is not supported.
+  - **Resolution test** Report full FRAP recovery curves with error bars, mobile and immobile fractions, and the number of measurements. Justify the single-exponential fit or use a more appropriate model. Discuss how differences in condensate size and density between constructs affect the interpretation. Consider complementary approaches (e.g., fluorescence correlation spectroscopy) to validate the diffusion measurements.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation-experiment connection
+  - **Claim pointer** The authors state that coarse-grained simulations "recapitulate these observations" and reveal a "finely balanced interplay between PLD-PLD and DBD-DNA interactions" (Abstract; Results).
+  - **Evidence pointer** Figure 3; Figure 4; Methods: Sequence-resolved simulations; Mesoscale simulations
+  - **Concern** The simulation parameters (e.g., salt concentration, temperature, interaction strengths) are chosen to match experimental conditions, but the connection between simulation observables (e.g., cluster size, eccentricity, colocalization) and experimental measurements is not quantitatively established. The simulations use simplified models (HPS, patchy particles) that may not capture the full complexity of chromatin structure and protein-chromatin interactions. The claim that simulations "recapitulate" experiments would be strengthened by direct quantitative comparison (e.g., predicted vs. measured eccentricity distributions, cluster sizes).
+  - **Why it matters** The simulations are presented as supporting evidence for the mechanistic model. Without a clear quantitative link, the simulations remain illustrative rather than confirmatory.
+  - **Resolution test** Provide quantitative comparisons between simulation predictions and experimental measurements (e.g., eccentricity distributions, cluster size scaling). Discuss the limitations of the coarse-grained models and how parameter choices affect the conclusions. Consider sensitivity analyses for key parameters.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors conclude that "chromatin binding is a critical modulator of transcriptional condensate behavior in vivo" (Abstract) and propose a "broadly applicable physical framework" (Conclusion).
+  - **Evidence pointer** Abstract; Conclusion
+  - **Concern** The study uses a single PLD (SS18) and a single DBD (FOXA1 FKH). While the authors discuss other systems (FUS-DDIT3, EWS-FLI1, FOXA1), these are only shown in supplementary figures and not quantitatively analyzed. The claim of broad applicability is not directly tested. The physiological relevance of the overexpression system is acknowledged as a limitation, but the implications for endogenous condensate behavior remain speculative.
+  - **Why it matters** The broader significance of the work depends on whether the findings generalize beyond the specific constructs tested. Without additional systems or conditions, the framework remains a hypothesis.
+  - **Resolution test** Include quantitative analysis of additional PLD-DBD combinations or discuss how the framework would apply to other systems. Acknowledge the limitations of the overexpression system more explicitly and discuss how endogenous conditions might alter the conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A–B
+  - **Evidence pointer** Figure 1A–B
+  - **Issue** The schematic in Figure 1A–B is not described in the text. It is unclear what the different colors and shapes represent.
+  - **Required correction** Add a figure legend that explains all elements of the schematic, including the PLD, FKH domain, chromatin, and the mutations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 1D–G
+  - **Evidence pointer** Figure 1D–G
+  - **Issue** The error bars in Figure 1D–G are not defined. It is unclear whether they represent standard deviation, standard error, or confidence intervals.
+  - **Required correction** Define error bars in the figure legend and specify the number of measurements.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Methods: Cell culture
+  - **Evidence pointer** Methods: Cell culture
+  - **Issue** The transfection efficiency is not reported. Differences in transfection efficiency between constructs could affect the comparison of condensate properties.
+  - **Required correction** Report transfection efficiency or discuss why it is not expected to affect the conclusions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results: "SS18PLD-FKH condensates binding to chromatin leads to spatially restricted sub-diffusive behavior"
+  - **Evidence pointer** Figure 2C
+  - **Issue** The authors interpret the slower FRAP recovery of SS18PLD-FKH as evidence of chromatin binding, but the FKH domain alone also shows rapid recovery. It would be helpful to discuss whether the slower recovery is due to the condensate environment or specifically to chromatin interactions.
+  - **Required correction** Add a sentence discussing the contribution of the condensate environment versus chromatin binding to the observed FRAP recovery.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods: Sequence-resolved simulations
+  - **Evidence pointer** Methods: Sequence-resolved simulations
+  - **Issue** The simulation protocol mentions "elastic network model" and "alphaFold2 colab" but does not provide details on how the folded domain structure was obtained or validated.
+  - **Required correction** Provide details on the alphaFold2 prediction and how the elastic network was parameterized.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (statistical rigor of quantitative comparisons), R1-M2 (FRAP analysis robustness), R1-M3 (quantitative simulation-experiment connection)
+- **Assessment against Nature-style criteria** Originality: The work addresses a fundamental question about how chromatin interactions modulate condensate behavior, which is a relatively underexplored area compared to the extensive literature on PLD-driven phase separation. The engineered fusion approach is creative and provides a clean experimental system. Scientific importance: The findings have implications for understanding transcriptional regulation, gene expression, and the role of condensates in nuclear organization. The proposed framework could inform future studies on other chromatin-binding proteins. Interdisciplinary readership: The work bridges biophysics, cell biology, and computational biology, making it relevant to a broad audience. Technical soundness: The experimental design is sound, but the quantitative analysis and statistical reporting need improvement. The simulations are informative but require stronger validation and connection to experiments. Readability for nonspecialists: The manuscript is generally well-written and accessible, but some sections (e.g., simulation methods) may be challenging for readers without a computational background. The figures are clear, but the lack of supplementary material limits full evaluation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is compelling and the experimental system is well-designed, but the quantitative evidence needs strengthening. Specifically, the authors must provide proper statistical analysis, more robust FRAP data, and a clearer quantitative link between simulations and experiments. If these issues are addressed, the manuscript would make a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that "chromatin binding is a critical modulator of transcriptional condensate behavior in vivo" is supported by the data but only for the specific constructs tested; generalizability to other systems is not demonstrated.
+- The claim that simulations "recapitulate" experimental observations is not quantitatively validated; the connection is qualitative.
+- The interpretation of FRAP data as evidence of chromatin binding restricting diffusion is plausible but not fully supported due to potential confounding factors.
+- The statement that SS18PLD-FKHNHRR has "residual DNA binding affinity contributed by SW residues" is speculative and not directly tested.
+- The physiological relevance of the overexpression system is acknowledged as a limitation, but the implications for endogenous condensate behavior are not discussed in detail.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41433016",
+  "title": "Prevalence and Functional Roles of Intrinsic Disorder in the [F-actin]-monooxygenase MICAL Family Members and their Interactors.",
+  "authors": "Ashraf, Hafiza Nimra; Uversky, Vladimir N",
+  "journal": "Cell biochemistry and biophysics",
+  "published_date": "2025-12-23",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用生物信息学工具分析MICAL家族及其互作蛋白的无序区域特征，虽涉及IDP和PPI，但以描述性分析为主，缺乏AI/物理模拟的机制建模深度。",
+  "abstract": "Members of the family of molecule interacting with CASL protein (MICAL) proteins play crucial roles in the cytoskeleton rearrangements by promoting depolymerization of F-actin via oxidation of the specific methionine residues to methionine-sulfoxides. These proteins also have multiple other functions and are related to the pathogenesis of various maladies. However, not much is known about the prevalence and functionality of intrinsically disordered regions in MICALs. To fill this gap, we conducted a comprehensive bioinformatics analysis of five human MICAL protein family members, MICAL1, MICAL2, MICAL3, MICAL-L1, and MICAL-L2, to assess their intrinsic disorder characteristics. We also focused on the top most disordered interactors of these proteins. We utilized a set of bioinformatics tools, FuzDrop, RIDAO, InterPro, IuPred, STRING, AlphaFold, and UniProt, for the extensive analysis of these proteins. This analysis revealed that all five MICALs are highly disordered; they take part in myriad of cellular functions, and are also involved in pathogenesis of various diseases, such as neurodegeneration, cancer, and muscle dystrophy. Our study focused on the intrinsic disorder of these proteins to highlight important implications of disorder in protein functionality. These insights may help to find out potential therapeutic targets in biological processes controlled by MICAL proteins.",
+  "abstract_zh": "与CASL蛋白相互作用的分子家族（MICAL）蛋白通过将特定甲硫氨酸残基氧化为甲硫氨酸亚砜，促进F-肌动蛋白解聚，在细胞骨架重排中发挥关键作用。这些蛋白还具有多种其他功能，并与多种疾病的发病机制相关。然而，关于MICALs中固有无序区域的普遍性和功能性的了解尚不充分。为填补这一空白，我们对五个人类MICAL蛋白家族成员——MICAL1、MICAL2、MICAL3、MICAL-L1和MICAL-L2——进行了全面的生物信息学分析，以评估其固有无序特征。我们还重点关注了这些蛋白中无序程度最高的相互作用因子。我们利用一系列生物信息学工具，包括FuzDrop、RIDAO、InterPro、IuPred、STRING、AlphaFold和UniProt，对这些蛋白进行了广泛分析。分析结果显示，所有五种MICAL蛋白均高度无序；它们参与多种细胞功能，并涉及多种疾病的发病机制，如神经退行性疾病、癌症和肌肉营养不良。我们的研究聚焦于这些蛋白的固有无序性，以强调无序性在蛋白功能中的重要意义。这些见解可能有助于发现MICAL蛋白调控的生物过程中的潜在治疗靶点。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41433016/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41433016/",
+  "paper_page_path": "papers/pubmed/41433016/index.html"
+}

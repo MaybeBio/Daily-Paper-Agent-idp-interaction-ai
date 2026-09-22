@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33684117",
+  "title": "Thermodynamic and sequential characteristics of phase separation and droplet formation for an intrinsically disordered region/protein ensemble.",
+  "authors": "Chu, Wen-Ting; Wang, Jin",
+  "journal": "PLoS computational biology",
+  "published_date": "2021-03-09",
+  "window": {
+    "start": "2021-03-08",
+    "end": "2021-03-14"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过残基级聚合物板模型和分子动力学模拟，研究Swc5无序区域片段的相分离热力学与序列特征，直接聚焦IDR介导的LLPS机制建模，与本课题高度契合。",
+  "abstract": "Liquid-liquid phase separation (LLPS) of some IDPs/IDRs can lead to the formation of the membraneless organelles in vitro and in vivo, which are essential for many biological processes in the cell. Here we select three different IDR segments of chaperon Swc5 and develop a polymeric slab model at the residue-level. By performing the molecular dynamics simulations, LLPS can be observed at low temperatures even without charge interactions and disappear at high temperatures. Both the sequence length and the charge pattern of the Swc5 segments can influence the critical temperature of LLPS. The results suggest that the effects of the electrostatic interactions on the LLPS behaviors can change significantly with the ratios and distributions of the charged residues, especially the sequence charge decoration (SCD) values. In addition, three different forms of swc conformation can be distinguished on the phase diagram, which is different from the conventional behavior of the free IDP/IDR. Both the packed form (the condensed-phase) and the dispersed form (the dilute-phase) of swc chains are found to be coexisted when LLPS occurs. They change to the fully-spread form at high temperatures. These findings will be helpful for the investigation of the IDP/IDR ensemble behaviors as well as the fundamental mechanism of the LLPS process in bio-systems.",
+  "abstract_zh": "某些IDPs/IDRs的液-液相分离（LLPS）可在体外和体内导致无膜细胞器的形成，这些细胞器对细胞中的许多生物过程至关重要。在此，我们选取了伴侣蛋白Swc5的三个不同IDR片段，并在残基水平上构建了一个聚合物板模型。通过分子动力学模拟，即使在无电荷相互作用的情况下，低温下也能观察到LLPS，而高温下则消失。Swc5片段的序列长度和电荷模式均能影响LLPS的临界温度。结果表明，静电相互作用对LLPS行为的影响可随带电残基的比例和分布，尤其是序列电荷装饰（SCD）值的变化而显著改变。此外，在相图上可区分出三种不同形式的swc构象，这与自由IDP/IDR的常规行为不同。当LLPS发生时，swc链的紧密形式（凝聚相）和分散形式（稀相）共存。在高温下，它们转变为完全伸展形式。这些发现将有助于研究IDP/IDR的集合行为以及生物系统中LLPS过程的基本机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33684117/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33684117/",
+  "paper_page_path": "papers/pubmed/33684117/index.html"
+}

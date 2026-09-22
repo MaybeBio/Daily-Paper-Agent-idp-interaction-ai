@@ -1,0 +1,323 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.12.02.626355",
+  "title": "Structural polymorphism of α-synuclein fibrils alters pathway of Hsc70 mediated disaggregation",
+  "doi": "10.1101/2024.12.02.626355",
+  "abstract": "The pathological aggregation of α -synuclein into amyloid fibrils is a hallmark of synucleinopathies including Parkinson’s disease. Despite this commonality, synucleinopathies display divergent disease phenotypes that have been attributed to disease specific three-dimensional structures of α -synuclein fibrils, each with a unique toxic gain-of-function profile. The Hsc70 chaperone is remarkable in its ability to disassemble pre-existing amyloid fibrils of different proteins in an ATP and co-chaperone dependent manner. We find however, using six well-defined conformational polymorphs of α -synuclein fibrils, that the activity of the Hsc70 disaggregase machinery is sensitive to differences in the amyloid conformation, confirming that fibril polymorphism directly affects interactions with the proteostasis network. Amyloid conformation influences not only how efficiently fibrils are cleared by the Hsc70 machinery but also the preferred pathway of disaggregation. We further show that, in vitro , the active processing of fibrils by the Hsc70 machinery inadvertently produces seeding competent species that further promote protein aggregation. Amyloid conformation thus is an important feature that can tilt the balance between beneficial or detrimental protein quality control activities in the context of disease.",
+  "authors": [
+    "Jäger S",
+    "Tittelmeier J",
+    "Dang TL",
+    "Bellande T",
+    "Redeker V",
+    "Buell AK",
+    "Melki R",
+    "Nussbaum-Krammer C",
+    "Bukau B",
+    "Wentink AS"
+  ],
+  "published_date": "2024-12-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.12.02.626355",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.12.02.626355.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR949949",
+    "raw_record": {
+      "id": "PPR949949",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR949949"
+        ]
+      },
+      "doi": "10.1101/2024.12.02.626355",
+      "title": "Structural polymorphism of α-synuclein fibrils alters pathway of Hsc70 mediated disaggregation",
+      "authorString": "Jäger S, Tittelmeier J, Dang TL, Bellande T, Redeker V, Buell AK, Melki R, Nussbaum-Krammer C, Bukau B, Wentink AS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Jäger S",
+            "lastName": "Jäger",
+            "firstName": "Svenja",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Molecular Biology of (ZMBH), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tittelmeier J",
+            "lastName": "Tittelmeier",
+            "firstName": "Jessica",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Molecular Biology of (ZMBH), , ,"
+                },
+                {
+                  "affiliation": "Chair of Neuroanatomy, Institute of Anatomy, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dang TL",
+            "lastName": "Dang",
+            "firstName": "Thi Lieu",
+            "initials": "TL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Molecular Biology of (ZMBH), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bellande T",
+            "lastName": "Bellande",
+            "firstName": "Tracy",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute Francois Jacob (MIRCen), CEA, and Laboratory of Neurodegenerative Diseases, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Redeker V",
+            "lastName": "Redeker",
+            "firstName": "Virginie",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute Francois Jacob (MIRCen), CEA, and Laboratory of Neurodegenerative Diseases, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Buell AK",
+            "lastName": "Buell",
+            "firstName": "Alexander",
+            "initials": "AK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1161-3622"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biotechnology and Biomedicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Melki R",
+            "lastName": "Melki",
+            "firstName": "Ronald",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0000-7096"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute Francois Jacob (MIRCen), CEA, and Laboratory of Neurodegenerative Diseases, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nussbaum-Krammer C",
+            "lastName": "Nussbaum-Krammer",
+            "firstName": "Carmen",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8689-1363"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Molecular Biology of (ZMBH), , ,"
+                },
+                {
+                  "affiliation": "Chair of Neuroanatomy, Institute of Anatomy, Faculty of Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bukau B",
+            "lastName": "Bukau",
+            "firstName": "Bernd",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Molecular Biology of (ZMBH), , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wentink AS",
+            "lastName": "Wentink",
+            "firstName": "Anne",
+            "initials": "AS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4420-2427"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Center for Molecular Biology of (ZMBH), , ,"
+                },
+                {
+                  "affiliation": "Leiden Institute of Chemistry (LIC), , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4420-2427"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8689-1363"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0000-7096"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1161-3622"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The pathological aggregation of  α -synuclein into amyloid fibrils is a hallmark of synucleinopathies including Parkinson’s disease. Despite this commonality, synucleinopathies display divergent disease phenotypes that have been attributed to disease specific three-dimensional structures of  α -synuclein fibrils, each with a unique toxic gain-of-function profile. The Hsc70 chaperone is remarkable in its ability to disassemble pre-existing amyloid fibrils of different proteins in an ATP and co-chaperone dependent manner. We find however, using six well-defined conformational polymorphs of  α -synuclein fibrils, that the activity of the Hsc70 disaggregase machinery is sensitive to differences in the amyloid conformation, confirming that fibril polymorphism directly affects interactions with the proteostasis network. Amyloid conformation influences not only how efficiently fibrils are cleared by the Hsc70 machinery but also the preferred pathway of disaggregation. We further show that,  in vitro , the active processing of fibrils by the Hsc70 machinery inadvertently produces seeding competent species that further promote protein aggregation. Amyloid conformation thus is an important feature that can tilt the balance between beneficial or detrimental protein quality control activities in the context of disease.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "VI.Vidi.223.172",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.12.02.626355"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.12.02.626355"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR949949"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR949949&type=FILE&fileName=EMS201710-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41053261",
+            "reference": "The EMBO journal. 2025 Nov;44(22):6499-6526",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS201710",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-12-06",
+      "firstPublicationDate": "2024-12-04",
+      "firstIndexDate": "2024-12-06",
+      "fullTextReceivedDate": "2025-08-13",
+      "hasEvaluations": "N"
+    }
+  }
+}

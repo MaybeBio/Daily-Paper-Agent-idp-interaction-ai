@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42227953",
+  "title": "Intramolecular Interactions between Folded and Disordered Regions Shape Ubiquilin Structure and Function.",
+  "authors": "Niblo, Jessica K; Acharya, Nirbhik; Watkins, Maxwell B; Castaneda, Carlos A; Sukenik, Shahar",
+  "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+  "published_date": "2026-06-02",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合生物物理与计算模拟，研究泛素蛋白中折叠域与无序区间的分子内互作如何调控整体构象，虽聚焦单蛋白而非PPI，但其无序-折叠互作机制建模思路对IDR介导互作研究有迁移启发。",
+  "abstract": "Multidomain proteins consist of folded domains connected by intrinsically disordered regions. The flexibility afforded by the disordered regions, coupled to the structure and surface chemistry of folded regions, allows for unique structural and functional features in these proteins. Yet, how intramolecular interactions between disordered regions and folded domains affect multidomain protein structure and function remains poorly understood. Here, we use a range of biophysical and computational approaches to measure the intramolecular interactions between the folded domains and disordered regions of ubiquilins (UBQLNs), essential components of protein quality control that shuttle poly-ubiquitinated client proteins to proteasomal degradation or autophagy. Starting with the yeast UBQLN homolog Dsk2, we find that interactions between two folded domains located at the opposite ends of UBQLN bring about a closed topology. The prevalence of this closed topology, however, is modulated by intramolecular interactions involving the disordered regions and folded STI1 domain at the center of the protein. Simulations and analysis of UBQLN homologs across multiple eukaryotic lineages reveal that these disordered:folded domain interactions exist in some UBQLN homologs but are absent in others, indicating possible fundamental differences in function among proteins with the same multidomain architecture.",
+  "abstract_zh": "多结构域蛋白由通过固有无序区域连接的折叠结构域组成。无序区域提供的灵活性，结合折叠区域的结构和表面化学特性，赋予这些蛋白质独特的结构和功能特征。然而，无序区域与折叠结构域之间的分子内相互作用如何影响多结构域蛋白的结构和功能仍知之甚少。在此，我们利用一系列生物物理和计算方法，测量了泛醌蛋白（UBQLNs）中折叠结构域与无序区域之间的分子内相互作用，UBQLNs是蛋白质质量控制的关键组分，负责将多聚泛素化客户蛋白穿梭至蛋白酶体降解或自噬途径。从酵母UBQLN同源物Dsk2开始，我们发现位于UBQLN两端的两个折叠结构域之间的相互作用促成了闭合拓扑结构。然而，这种闭合拓扑结构的普遍性受到涉及无序区域和蛋白质中心折叠STI1结构域的分子内相互作用的调节。对多个真核谱系中UBQLN同源物的模拟和分析揭示，这些无序：折叠结构域相互作用存在于某些UBQLN同源物中，但在其他同源物中缺失，表明具有相同多结构域架构的蛋白质之间可能存在根本性的功能差异。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42227953/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42227953/",
+  "paper_page_path": "papers/pubmed/42227953/index.html"
+}

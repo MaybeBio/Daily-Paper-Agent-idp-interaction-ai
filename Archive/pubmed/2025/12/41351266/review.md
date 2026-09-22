@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, significance, introduction, methods, results, discussion, conclusion) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific claims, methodology, internal consistency, and interpretation as presented in the text; figures, tables, and supplementary data referenced but not directly assessable
+- **Shared manuscript claim summary** The authors propose that hydration free energy computed from static protein structures can predict the partitioning of globular GFP variants into FG nucleoporin condensates, and they evaluate several computational models for this purpose while identifying limitations of the approach
+- **Visible evidence base** Text descriptions of correlations (R2 values), thermodynamic derivations, and qualitative statements about model performance; numerical data for R2 values in Table 1 are provided in text
+- **Missing materials affecting confidence** Figures 1-4, Tables S1-S5, Figures S1-S8, and the deposited data at Zenodo are not available for direct inspection; experimental partition coefficient values are not listed in the text; structural details of GFP variants are not provided
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant question in the field of biomolecular condensates, namely whether a simple physicochemical descriptor such as hydration free energy can predict client protein partitioning. The thermodynamic framework is clearly presented and the comparison of multiple computational methods is useful. However, the central claim that hydration free energy is a strong predictor rests on correlation analyses whose quality cannot be fully verified from the text alone, and the authors themselves identify systematic deviations that suggest the descriptor is incomplete. The manuscript would benefit from more quantitative detail in the text and a more critical framing of the predictive power of the approach.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, particularly those interested in predicting client partitioning and condensate composition; computational biophysicists developing solvation models; experimentalists seeking simple predictive tools for protein behavior in phase-separated systems. The comparison of hydration models is also relevant to the broader community interested in solvation free energy calculations.
+- **Major strengths** The thermodynamic cycle connecting hydration free energy to transfer free energy is clearly derived and provides a sound conceptual framework. The systematic comparison of multiple hydration models, from static to dynamic approaches, is valuable and addresses a practical need in the field. The authors honestly discuss limitations and identify specific physicochemical factors that are not captured by hydration free energy alone. The use of a well-defined experimental dataset with controlled surface mutations is a good design choice.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that hydration free energy is a strong predictor of partitioning behavior, with the hi-patch method providing the best agreement with experimental data
+  - **Evidence pointer** Results and discussion, Table 1, Figure 3
+  - **Concern** The R2 values reported for the hi-patch method are 0.6334 and 0.5752 for the two scaffolds. These values indicate that a substantial fraction of the variance in partitioning behavior is not explained by hydration free energy. The authors describe this as a strong correlation, but the text does not provide confidence intervals, statistical significance tests, or a discussion of what fraction of unexplained variance is acceptable for a predictive tool. The claim of strong predictive power is not fully supported by the reported correlation coefficients.
+  - **Why it matters** The central thesis of the manuscript is that hydration free energy is a useful predictor. If the correlation is moderate rather than strong, the practical utility of the approach for predicting partitioning of unknown proteins is limited. The authors should either temper their claims or provide additional statistical evidence that the correlation is robust and meaningful.
+  - **Resolution test** Provide confidence intervals for R2 values, perform cross-validation or permutation tests, and discuss the practical implications of the unexplained variance. If the correlation is not robust, revise the claims accordingly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that the hi-patch method was adapted to report hydration free energy of the full protein surface, whereas the original implementation reports only hydrophobicity of hydrophobic patches
+  - **Evidence pointer** Materials and methods, Results and discussion
+  - **Concern** The modification of the hi-patch method is described only briefly. The original method is designed to identify hydrophobic patches, and the authors state they adapted it to report hydration of the full protein surface. The text does not specify how this adaptation was implemented, what parameters were changed, or how the output was validated. Without this information, the reader cannot assess whether the modified method is reliable or whether the results are an artifact of the adaptation.
+  - **Why it matters** The hi-patch method is the best-performing model in the comparison. If the adaptation is not clearly described and validated, the central result of the manuscript cannot be reproduced or independently verified.
+  - **Resolution test** Provide a detailed description of the modified hi-patch algorithm, including any new parameters, validation against known systems, and a comparison of the modified output with the original method on the same proteins.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of deviations
+  - **Claim pointer** The authors attribute systematic underprediction of tyrosine, tryptophan, and arginine variants to specific interactions such as pi-pi and cation-pi interactions with the scaffold
+  - **Evidence pointer** Results and discussion, Figure 4
+  - **Concern** The interpretation of deviations is plausible but speculative. The authors do not provide direct evidence for the proposed specific interactions, such as mutational analysis, binding measurements, or simulations that explicitly test these interactions. Alternative explanations, such as differences in protein stability, aggregation propensity, or conformational changes upon partitioning, are not discussed.
+  - **Why it matters** The manuscript aims to identify limitations of hydration free energy as a predictor. If the proposed explanations for deviations are not tested, the conclusions about what additional factors need to be considered remain speculative and do not provide clear guidance for future model development.
+  - **Resolution test** Perform additional analyses to test the proposed mechanisms, such as alanine scanning of the mutated residues, simulations with modified interaction potentials, or experiments with scaffolds of varying aromatic content. Alternatively, temper the claims and present the explanations as hypotheses requiring further testing.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Equation 2
+  - **Evidence pointer** Results and discussion
+  - **Issue** The equation ΔFtr = ΔFsolv - ΔFhyd is presented without a clear derivation of how the solvation free energy in the condensate phase is defined. The text states that ΔFsolv is challenging to obtain directly but does not clarify whether this term refers to the free energy of transferring the protein from vacuum to the condensate environment, which would include both protein-condensate interactions and the altered solvent environment.
+  - **Required correction** Provide a more explicit definition of ΔFsolv and clarify the thermodynamic cycle in Figure 2, including the reference states used for each free energy term.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model comparison
+  - **Evidence pointer** Table 1
+  - **Issue** The comparison of hydration models includes only R2 values. The authors do not report other metrics such as root mean square error, mean absolute error, or the slope and intercept of the regression lines. These additional metrics would provide a more complete picture of model performance.
+  - **Required correction** Add additional error metrics to Table 1 or the main text to allow a more nuanced comparison of the models.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Conclusions
+  - **Evidence pointer** Conclusion
+  - **Issue** The authors state that the approach can be applied to generate quick estimates of partitioning for different globular proteins, but the dataset is limited to GFP variants with mutations at eight specific surface sites. The generalizability to other globular proteins with different folds, sizes, and surface chemistries is not demonstrated.
+  - **Required correction** Acknowledge the limited scope of the current dataset and discuss what additional validation would be needed to establish generalizability.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Materials and methods
+  - **Evidence pointer** Materials and methods
+  - **Issue** The simulation parameters are described briefly. The text states that Amber ff14SB was used with the GBNeck implicit solvent model and TIP3P water for explicit simulations, but details such as the number of water molecules, box size, salt concentration treatment, and simulation software versions are not provided.
+  - **Required correction** Provide complete simulation parameters in the methods or supplementary material to ensure reproducibility.
+
+## Risk / unsupported claims
+- The claim that hydration free energy is a strong predictor of partitioning is not fully supported by the reported R2 values, which indicate moderate correlation at best
+- The attribution of prediction deviations to specific interactions (pi-pi, cation-pi) is speculative and not directly tested
+- The claim that the modified hi-patch method provides the best agreement is difficult to evaluate without a detailed description of the modification
+- The generalizability of the approach to globular proteins beyond the tested GFP variants is asserted but not demonstrated
+- The statement that the condensate interior behaves more hydrophobic than expected is presented as a possible explanation without direct evidence
+- The thermodynamic cycle derivation assumes that hydration free energy is the dominant contributor to transfer free energy, but the authors do not quantify the magnitude of other contributions

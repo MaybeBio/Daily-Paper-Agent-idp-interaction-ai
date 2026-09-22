@@ -1,0 +1,274 @@
+{
+  "identity": {
+    "pmid": "36195115",
+    "doi": "10.1098/rsif.2022.0172",
+    "title": "Surfactancy in a tadpole model of proteins."
+  },
+  "content": {
+    "abstract": "We model the environment of eukaryotic nuclei by representing macromolecules by only their entropic properties, with globular molecules represented by spherical colloids and flexible molecules by polymers. We put particular focus on proteins with both globular and intrinsically disordered regions, which we represent with 'tadpole' constructed by grafting single polymers and colloids together. In Monte Carlo simulations, we find these tadpoles support phase separation via depletion flocculation, and demonstrate several surfactant behaviours, including being found preferentially at interfaces and forming micelles in single phase solution. Furthermore, the model parameters can be tuned to give a tadpole a preference for either bulk phase. However, we find entropy too weak to drive these behaviours by itself at likely biological concentrations.",
+    "keywords": [
+      "depletion flocculation",
+      "intrinsically disordered region",
+      "liquid-liquid phase separation",
+      "surfactant"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Colloids",
+      "Larva",
+      "*Micelles",
+      "Polymers",
+      "Proteins",
+      "*Surface-Active Agents"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dyer, O T",
+        "Ball, R C"
+      ],
+      "short_names": [
+        "Dyer OT",
+        "Ball RC"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2773-6731",
+        "ORCID: 0000-0001-8850-8332"
+      ],
+      "affiliations": [
+        "Department of Physics, University of Warwick, Coventry CV4 7AL, UK.",
+        "Department of Physics, University of Warwick, Coventry CV4 7AL, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dyer, O T",
+        "short_name": "Dyer OT",
+        "identifiers": [
+          "0000-0003-2773-6731"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Warwick, Coventry CV4 7AL, UK."
+        ]
+      },
+      {
+        "full_name": "Ball, R C",
+        "short_name": "Ball RC",
+        "identifiers": [
+          "0000-0001-8850-8332"
+        ],
+        "affiliations": [
+          "Department of Physics, University of Warwick, Coventry CV4 7AL, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the Royal Society, Interface"
+    ],
+    "journal_abbrev": [
+      "J R Soc Interface"
+    ],
+    "pub_date": "2022 Oct",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/10/05 06:00",
+    "fetched_at": "2026-09-20 15:36:01"
+  },
+  "links": {
+    "cites": [
+      "36465129"
+    ],
+    "refs": [
+      "36703474",
+      "35098921",
+      "34928291",
+      "32824618",
+      "31721405",
+      "31373499",
+      "30791483",
+      "30640588",
+      "30608810",
+      "30449618",
+      "30362243",
+      "30239812",
+      "30127355",
+      "29615710",
+      "29477337",
+      "28935776",
+      "28808090",
+      "28711055",
+      "27414502",
+      "26191045",
+      "26155309",
+      "25288112",
+      "24739179",
+      "24003126",
+      "23394119",
+      "22947858",
+      "22160672",
+      "21081098",
+      "18681673",
+      "17145959",
+      "16207026",
+      "12633336",
+      "12191485",
+      "9962777"
+    ],
+    "similar": [
+      "36195115",
+      "24697460",
+      "23912807",
+      "2465884",
+      "19601573",
+      "22715288",
+      "20949141",
+      "22950666",
+      "19045123",
+      "16021342",
+      "34431582",
+      "17040987",
+      "11338591",
+      "3009460",
+      "11089089",
+      "31342047",
+      "20174845",
+      "38856071",
+      "26433265",
+      "19437694",
+      "19928758",
+      "12526675",
+      "35612295",
+      "17256345",
+      "15803678",
+      "10506412",
+      "35502879",
+      "38103089",
+      "21932919",
+      "27025949",
+      "17279664",
+      "23187453",
+      "11130017",
+      "37686359",
+      "16401106",
+      "16970466",
+      "20180589",
+      "26459003",
+      "23247337",
+      "35815989",
+      "23964990",
+      "19177645",
+      "18163708",
+      "34839769",
+      "25028041",
+      "3611286",
+      "2590672",
+      "19673127",
+      "2806246",
+      "21054067",
+      "19584566",
+      "21397738",
+      "20542257",
+      "34303165",
+      "16042429",
+      "22484166",
+      "7194112",
+      "6871206",
+      "3333134",
+      "22740596",
+      "32786536",
+      "6479865",
+      "27181112",
+      "27595803",
+      "10469928",
+      "16862270",
+      "16229514",
+      "17728938",
+      "6209542",
+      "21322728",
+      "9923674",
+      "4032221",
+      "833885",
+      "25649445",
+      "26583431",
+      "37871235",
+      "469051",
+      "31477728",
+      "14672840",
+      "38546977",
+      "30395831",
+      "88232",
+      "16907417",
+      "19485469",
+      "22197735",
+      "24924906",
+      "15306435",
+      "15342016",
+      "25019804",
+      "22026457",
+      "8804224",
+      "3075466",
+      "18418820",
+      "32640823",
+      "17106974",
+      "38252962",
+      "35630708",
+      "38394718",
+      "20628780"
+    ],
+    "review": [
+      "36195115",
+      "11130017",
+      "26459003",
+      "23247337",
+      "35815989",
+      "34839769",
+      "21397738",
+      "20542257",
+      "34303165",
+      "3333134",
+      "10469928",
+      "16862270",
+      "3075466"
+    ],
+    "pmc": [
+      "9532023"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36195115/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36195115",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://royalsocietypublishing.org/rsif/article-lookup/doi/10.1098/rsif.2022.0172",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

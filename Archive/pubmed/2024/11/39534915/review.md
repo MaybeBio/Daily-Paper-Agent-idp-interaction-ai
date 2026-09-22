@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, conclusions, methods) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretational validity based solely on the provided text; no assessment of figures, tables, or supplementary data that were not supplied
+- **Shared manuscript claim summary** The authors use multiscale simulations (MOFF coarse-grained, MARTINI, and CHARMM36m all-atom) to study small molecule binding to three protein condensates (HP1α, NPM1, MED1). They introduce interaction fingerprints to characterize binding poses, find that condensates offer heterogeneous but similar chemical environments dominated by nonspecific hydrophobic interactions, and propose that differential population of shared chemical environments drives ligand selectivity across condensates.
+- **Visible evidence base** Text descriptions of simulation protocols, definitions of interaction fingerprints and similarity metrics, UMAP analysis descriptions, and qualitative references to Figures 1–6 and Supplementary Figures S1–S20; no actual numerical data, figure content, or statistical outputs are visible
+- **Missing materials affecting confidence** All figures, tables, supplementary figures, numerical values (e.g., R² values, partition coefficients, log P values), simulation convergence data, and experimental screening data from Kilgore et al. (2024) are not provided; the manuscript text alone is insufficient to verify quantitative claims
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question: how small molecules interact with biomolecular condensates at the atomic level. The multiscale simulation approach is ambitious and the introduction of interaction fingerprints for condensate-ligand systems is a potentially useful conceptual tool. However, the text as provided does not contain sufficient quantitative evidence to evaluate the central claims. The key conclusions about population shifts driving selectivity rest on analyses (UMAP clustering, fingerprint distributions) that are only described qualitatively. The comparison with experimental screening data is intriguing but the details of the statistical analysis are not visible. The work is potentially significant for the condensate biology and drug discovery communities, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, particularly those interested in the molecular mechanisms of small molecule partitioning; computational chemists developing methods for simulating disordered protein assemblies; drug discovery scientists exploring condensates as therapeutic targets; experimentalists performing high-throughput screens for condensate-modulating compounds who would benefit from mechanistic predictions.
+- **Major strengths** 1) The multiscale simulation strategy is well-motivated and addresses a real technical challenge (equilibrating condensate structures while retaining atomistic detail for ligand interactions). 2) The interaction fingerprint concept is a sensible adaptation of established methods to a new context and could be broadly useful. 3) The study covers three distinct condensate systems and multiple ligands, providing a comparative framework. 4) The attempt to connect simulation predictions to experimental screening data is valuable and forward-looking.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "condensates can form diverse and heterogeneous chemical environments" and that "different condensates share similar sets of chemical environments but at different populations," which drives ligand selectivity.
+  - **Evidence pointer** Figures 2, 3, 4, 6; Supplementary Figures S5–S20; location not provided for numerical values
+  - **Concern** The central claims about the nature and distribution of chemical environments are supported only by qualitative descriptions of UMAP embeddings and fingerprint analyses. No quantitative metrics (e.g., cluster sizes, overlap measures, statistical significance of population differences) are provided in the text. The claim that population shifts drive selectivity requires a quantitative comparison of fingerprint distributions across condensates, which is not visible.
+  - **Why it matters** The core novelty of the paper is the claim that selectivity arises from differential population of shared environments rather than unique environments. Without quantitative evidence, this claim cannot be distinguished from a null model where all condensates offer similar environments and selectivity is driven by other factors (e.g., overall hydrophobicity).
+  - **Resolution test** Provide quantitative measures of fingerprint distribution differences across condensates (e.g., statistical tests comparing cluster occupancies, effect sizes, confidence intervals). Show that the population shift is statistically significant and correlates with experimentally measured partition coefficients.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation of simulation approach
+  - **Claim pointer** The authors claim that the multiscale approach "produce[s] consistent protein interactions across resolutions" with R² values above 0.75 between coarse-grained and all-atom contact patterns.
+  - **Evidence pointer** Figures 1B, S1–S4; location not provided for R² values
+  - **Concern** The R² values are mentioned but the actual numbers, the specific contact types compared, and the statistical significance of the agreement are not provided. More critically, the validation compares contact patterns between resolutions but does not validate that the all-atom condensate structures are representative of physiological condensates. The choice to simulate only the dense phase without the dilute phase may bias the results.
+  - **Why it matters** The entire downstream analysis depends on the quality of the all-atom condensate configurations. If the multiscale approach produces structures that are not equilibrated or are biased by the initial coarse-grained sampling, all subsequent claims about ligand binding are compromised.
+  - **Resolution test** Provide the actual R² values with confidence intervals, show that contact pattern agreement is consistent across all residue types, and demonstrate that the dense-phase-only simulation does not introduce artifacts (e.g., by comparing to simulations with explicit dilute phase or experimental structural data).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of experimental comparison
+  - **Claim pointer** The authors claim that "analysis of the screening data in Kilgore et al. revealed that several interaction fragments derived from Mitoxantrone, Daunorubicin, and Proflavine were identifiable in certain chemical probes" and that "partitioning behavior was influenced by its presence."
+  - **Evidence pointer** Figure 5B; Kilgore et al. (2024) reference; location not provided for statistical details
+  - **Concern** The comparison with experimental screening data is presented as supporting evidence, but no statistical details are given. It is unclear how many probes were compared, what the effect sizes were, whether the comparisons were corrected for multiple testing, and whether the fragment analysis was pre-registered or exploratory. The statement that some fragments "were equally incorporated and weakly associated with partitioning" suggests null results that are not quantified.
+  - **Why it matters** The experimental comparison is the only external validation of the simulation predictions. If the statistical analysis is underpowered or the fragment definitions are circular (derived from the same molecules used in the simulations), the validation is weakened.
+  - **Resolution test** Provide the full statistical analysis of the screening data comparison, including sample sizes, effect sizes, p-values or confidence intervals, and a clear statement of whether the fragment analysis was hypothesis-driven or exploratory.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of findings
+  - **Claim pointer** The authors suggest that their findings "may inform the future development of small molecules that selectively partition into specific condensates" and propose multivalent interactions as a design strategy.
+  - **Evidence pointer** Conclusions and Discussion section; no direct evidence provided
+  - **Concern** The study examines only three condensate systems and four ligands, all of which are relatively hydrophobic. The claim that the identified principles (shared environments, population shifts) apply broadly to other condensates and ligands is an extrapolation. The proposed design strategy for multivalent ligands is speculative and not tested.
+  - **Why it matters** The translational relevance of the work depends on the generality of the findings. If the observed patterns are specific to the limited set of systems studied, the practical utility is limited.
+  - **Resolution test** Acknowledge the limited scope explicitly and either provide additional simulations with diverse condensate types and ligand chemistries or temper the claims about generalizability and design implications.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Simulation protocol description
+  - **Evidence pointer** Methods section, Multiscale simulations
+  - **Issue** The description of the multiscale approach is brief and lacks key parameters (e.g., number of replicas, equilibration criteria, system size after each resolution change, temperature coupling details for the MARTINI and all-atom stages).
+  - **Required correction** Provide a more detailed protocol, including all relevant simulation parameters, or refer clearly to a prior publication where the full protocol is described.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Definition of terms
+  - **Affected element** Interaction fingerprints
+  - **Evidence pointer** Methods section, Construction of condensate-ligand interaction fingerprints
+  - **Issue** The definition of the interaction fingerprint is clear, but the choice of six interaction types (Hydrophobic, HBDonor, HBAcceptor, PiCation, PiStacking, VdWContact) is not justified. It is unclear whether these are exhaustive or whether other interaction types (e.g., halogen bonds, salt bridges) were considered.
+  - **Required correction** Justify the selection of interaction types or state that they follow established conventions from the SIFt methodology.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Simulation convergence
+  - **Evidence pointer** Results section, Multiscale simulations; Supplementary Figures S7, S8
+  - **Issue** The text states that "the statistical similarity between the first and second halves of the trajectories supports the convergence of the simulations," but no quantitative measure of this similarity is provided.
+  - **Required correction** Report the actual similarity values (e.g., average Tanimoto similarity between halves) and state the threshold used to define convergence.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data availability
+  - **Evidence pointer** Data and materials availability section
+  - **Issue** The statement that "data presented in this study is available upon reasonable request" is vague and does not specify what data (trajectories, analysis scripts, input files) would be shared.
+  - **Required correction** Specify the types of data and code that will be shared and consider depositing them in a public repository to enhance reproducibility.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Title and abstract
+  - **Evidence pointer** Title; Abstract
+  - **Issue** The phrase "Nonspecific Yet Selective Interactions" is somewhat paradoxical and could be clarified. The abstract explains the concept, but the title alone may confuse readers unfamiliar with the distinction between interaction specificity and population-level selectivity.
+  - **Required correction** Consider adding a brief clarifying phrase in the title or ensure the abstract immediately resolves the apparent contradiction.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for population shift claims), R1-M2 (validation of multiscale approach with actual numbers), R1-M3 (statistical rigor of experimental comparison)
+
+## Risk / unsupported claims
+- The claim that "different condensates share similar sets of chemical environments but at different populations" is unsupported without quantitative distribution data.
+- The claim that the multiscale approach produces "consistent protein interactions across resolutions" is unverifiable without the actual R² values and comparison details.
+- The claim that "simulations identify small molecule fragments contributing to condensate partitioning" is only qualitatively supported; the statistical link between fragment presence and partitioning is not quantified.
+- The claim that "population shift in chemical environments contributes to differential ligand partitioning" is presented as a conclusion but the causal relationship is not established.
+- The generalizability claims about the design of selective small molecules for condensates are speculative and not supported by the limited system set.
+- The convergence of simulations is asserted but not quantitatively demonstrated.
+- The choice of 80 ligand copies per simulation and the concentration of approximately 40 mM is not justified in the text; the physiological relevance of this concentration is unclear.

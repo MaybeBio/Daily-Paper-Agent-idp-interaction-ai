@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35335203",
+  "title": "Modeling the Dynamics of Protein-Protein Interfaces, How and Why?",
+  "authors": "Karaca, Ezgi; Prevost, Chantal; Sacquin-Mora, Sophie",
+  "journal": "Molecules (Basel, Switzerland)",
+  "published_date": "2022-03-27",
+  "window": {
+    "start": "2022-03-21",
+    "end": "2022-03-27"
+  },
+  "score": 8,
+  "one_liner_zh": "综述聚焦蛋白-蛋白界面动态建模的计算策略（增强采样、多尺度、实验数据整合），并涵盖含无序蛋白的模糊复合物中界面动力学与功能的关系，对无序蛋白互作机制建模有直接启发。",
+  "abstract": "Protein-protein assemblies act as a key component in numerous cellular processes. Their accurate modeling at the atomic level remains a challenge for structural biology. To address this challenge, several docking and a handful of deep learning methodologies focus on modeling protein-protein interfaces. Although the outcome of these methods has been assessed using static reference structures, more and more data point to the fact that the interaction stability and specificity is encoded in the dynamics of these interfaces. Therefore, this dynamics information must be taken into account when modeling and assessing protein interactions at the atomistic scale. Expanding on this, our review initially focuses on the recent computational strategies aiming at investigating protein-protein interfaces in a dynamic fashion using enhanced sampling, multi-scale modeling, and experimental data integration. Then, we discuss how interface dynamics report on the function of protein assemblies in globular complexes, in fuzzy complexes containing intrinsically disordered proteins, as well as in active complexes, where chemical reactions take place across the protein-protein interface.",
+  "abstract_zh": "蛋白质-蛋白质组装体在众多细胞过程中扮演关键角色。在原子层面精确建模这些组装体仍是结构生物学的一项挑战。为应对此挑战，若干对接方法和少数深度学习技术专注于建模蛋白质-蛋白质界面。尽管这些方法的结果已通过静态参考结构进行评估，但越来越多的数据表明，相互作用的稳定性和特异性编码于这些界面的动力学中。因此，在原子尺度建模和评估蛋白质相互作用时，必须考虑这种动力学信息。在此基础上，我们的综述首先聚焦于近期计算策略，这些策略旨在利用增强采样、多尺度建模和实验数据整合，以动态方式研究蛋白质-蛋白质界面。随后，我们讨论界面动力学如何反映蛋白质组装体在球状复合物、含有固有无序蛋白质的模糊复合物，以及跨蛋白质-蛋白质界面发生化学反应的活性复合物中的功能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35335203/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35335203/",
+  "paper_page_path": "papers/pubmed/35335203/index.html"
+}

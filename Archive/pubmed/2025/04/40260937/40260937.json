@@ -1,0 +1,457 @@
+{
+  "identity": {
+    "pmid": "40260937",
+    "doi": "10.1002/pro.70116",
+    "title": "Structural insights into the interaction between testis-specific Y-encoded-like protein 5 and ubiquitin-specific protease 7."
+  },
+  "content": {
+    "abstract": "The Alternative Lengthening of Telomeres (ALT) mechanism enables telomere maintenance, contributing to the immortality of certain cancer cells. Disrupting the interaction between testis-specific Y-encoded-like protein 5 (TSPYL5) and ubiquitin-specific protease 7 (USP7) has emerged as a promising strategy to target ALT-dependent cancers. While the N-terminal MATH domain of USP7 mediates the protein interaction, the regions of TSPYL5 involved in binding remain unclear. Here, we present a structural analysis of the TSPYL5-USP7 interaction to guide targeted therapeutic strategies. We showed that TSPYL5 is intrinsically disordered, with an unfolded N-terminal region and partial structure in the C-terminal half. In vitro, recombinantly expressed TSPYL5 binds USP7 with nanomolar affinity and is prone to C-terminal truncation. However, the truncated form retained a similar binding affinity for USP7, suggesting the primary interaction site resides in the N-terminal region of TSPYL5. We identified three key binding hotspots within TSPYL5: residues 65-97, residues 210-262, and residues 368-388. Moreover, TSPYL5 forms trimers that further assemble into hexamers. This study provides the first structural and quantitative analysis of the TSPYL5-USP7 interaction, highlighting these three binding sites. These findings lay the groundwork for the development of novel inhibitors targeting ALT-dependent cancers.",
+    "keywords": [
+      "ALT mechanism",
+      "AlphaFold",
+      "biolayer interferometry",
+      "cancer",
+      "co-immunoprecipitation",
+      "electron microscopy",
+      "hydrogen-deuterium exchange mass spectrometry",
+      "mass photometry",
+      "microscale thermophoresis",
+      "peptides screening"
+    ],
+    "mesh_terms": [
+      "*Ubiquitin-Specific Peptidase 7/chemistry/metabolism/genetics",
+      "Humans",
+      "Protein Binding",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ancia, Marine",
+        "Wahni, Khadija",
+        "Chakrowf, Joudy",
+        "El Aakchioui, Asia",
+        "Claude, Eloise",
+        "de Lhoneux, Guillaume",
+        "Liberelle, Maxime",
+        "Janvier, Steven",
+        "Baranova, Ekaterina",
+        "Malo Pueyo, Julia",
+        "Jijon Vergara, Ariana",
+        "Papadopoulos, Nicolas",
+        "Balty, Clemence",
+        "Dejeu, Jerome",
+        "Decottignies, Anabelle",
+        "Messens, Joris",
+        "Frederick, Raphael"
+      ],
+      "short_names": [
+        "Ancia M",
+        "Wahni K",
+        "Chakrowf J",
+        "El Aakchioui A",
+        "Claude E",
+        "de Lhoneux G",
+        "Liberelle M",
+        "Janvier S",
+        "Baranova E",
+        "Malo Pueyo J",
+        "Jijon Vergara A",
+        "Papadopoulos N",
+        "Balty C",
+        "Dejeu J",
+        "Decottignies A",
+        "Messens J",
+        "Frederick R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8119-1272"
+      ],
+      "affiliations": [
+        "Medicinal Chemistry Research Group, Louvain Drug Research Institute, Universite catholique de Louvain, Brussels, Belgium.",
+        "Genetic and Epigenetic Alterations of Genomes, de Duve Institute, Faculty of Pharmacy and Biomedical Sciences, Universite catholique de Louvain, Brussels, Belgium.",
+        "VIB-VUB Center for Structural Biology, Vlaams Instituut Voor Biotechnologie, Brussels, Belgium.",
+        "Brussels Center for Redox Biology, Vrije Universiteit Brussel, Brussels, Belgium.",
+        "Structural Biology Brussels, Vrije Universiteit Brussel, Brussels, Belgium.",
+        "Medicinal Chemistry Research Group, Louvain Drug Research Institute, Universite catholique de Louvain, Brussels, Belgium.",
+        "Medicinal Chemistry Research Group, Louvain Drug Research Institute, Universite catholique de Louvain, Brussels, Belgium.",
+        "Genetic and Epigenetic Alterations of Genomes, de Duve Institute, Faculty of Pharmacy and Biomedical Sciences, Universite catholique de Louvain, Brussels, Belgium.",
+        "Genetic and Epigenetic Alterations of Genomes, de Duve Institute, Faculty of Pharmacy and Biomedical Sciences, Universite catholique de Louvain, Brussels, Belgium.",
+        "Medicinal Chemistry Research Group, Louvain Drug Research Institute, Universite catholique de Louvain, Brussels, Belgium.",
+        "VIB-VUB Center for Structural Biology, Vlaams Instituut Voor Biotechnologie, Brussels, Belgium.",
+        "Structural Biology Brussels, Vrije Universiteit Brussel, Brussels, Belgium.",
+        "VIB-VUB Center for Structural Biology, Vlaams Instituut Voor Biotechnologie, Brussels, Belgium.",
+        "Brussels Center for Redox Biology, Vrije Universiteit Brussel, Brussels, Belgium.",
+        "Structural Biology Brussels, Vrije Universiteit Brussel, Brussels, Belgium.",
+        "VIB-VUB Center for Structural Biology, Vlaams Instituut Voor Biotechnologie, Brussels, Belgium.",
+        "Brussels Center for Redox Biology, Vrije Universiteit Brussel, Brussels, Belgium.",
+        "Structural Biology Brussels, Vrije Universiteit Brussel, Brussels, Belgium.",
+        "Medicinal Chemistry Research Group, Louvain Drug Research Institute, Universite catholique de Louvain, Brussels, Belgium.",
+        "de Duve Institute, Universite catholique de Louvain, Brussels, Belgium.",
+        "Ludwig Institute for Cancer Research, Brussels, Belgium.",
+        "de Duve Institute, Universite catholique de Louvain, Brussels, Belgium.",
+        "IONS/NEUR, Universite catholique de Louvain, Brussels, Belgium.",
+        "Universite Marie et Louis Pasteur, SUPMICROTECH, CNRS, Institut FEMTO-ST, Besancon, France.",
+        "Genetic and Epigenetic Alterations of Genomes, de Duve Institute, Faculty of Pharmacy and Biomedical Sciences, Universite catholique de Louvain, Brussels, Belgium.",
+        "VIB-VUB Center for Structural Biology, Vlaams Instituut Voor Biotechnologie, Brussels, Belgium.",
+        "Brussels Center for Redox Biology, Vrije Universiteit Brussel, Brussels, Belgium.",
+        "Structural Biology Brussels, Vrije Universiteit Brussel, Brussels, Belgium.",
+        "Medicinal Chemistry Research Group, Louvain Drug Research Institute, Universite catholique de Louvain, Brussels, Belgium."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ancia, Marine",
+        "short_name": "Ancia M",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry Research Group, Louvain Drug Research Institute, Université catholique de Louvain, Brussels, Belgium.",
+          "Genetic and Epigenetic Alterations of Genomes, de Duve Institute, Faculty of Pharmacy and Biomedical Sciences, Université catholique de Louvain, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Wahni, Khadija",
+        "short_name": "Wahni K",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology, Vlaams Instituut Voor Biotechnologie, Brussels, Belgium.",
+          "Brussels Center for Redox Biology, Vrije Universiteit Brussel, Brussels, Belgium.",
+          "Structural Biology Brussels, Vrije Universiteit Brussel, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Chakrowf, Joudy",
+        "short_name": "Chakrowf J",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry Research Group, Louvain Drug Research Institute, Université catholique de Louvain, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "El Aakchioui, Asia",
+        "short_name": "El Aakchioui A",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry Research Group, Louvain Drug Research Institute, Université catholique de Louvain, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Claude, Eloïse",
+        "short_name": "Claude E",
+        "identifiers": [],
+        "affiliations": [
+          "Genetic and Epigenetic Alterations of Genomes, de Duve Institute, Faculty of Pharmacy and Biomedical Sciences, Université catholique de Louvain, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "de Lhoneux, Guillaume",
+        "short_name": "de Lhoneux G",
+        "identifiers": [],
+        "affiliations": [
+          "Genetic and Epigenetic Alterations of Genomes, de Duve Institute, Faculty of Pharmacy and Biomedical Sciences, Université catholique de Louvain, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Liberelle, Maxime",
+        "short_name": "Liberelle M",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry Research Group, Louvain Drug Research Institute, Université catholique de Louvain, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Janvier, Steven",
+        "short_name": "Janvier S",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology, Vlaams Instituut Voor Biotechnologie, Brussels, Belgium.",
+          "Structural Biology Brussels, Vrije Universiteit Brussel, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Baranova, Ekaterina",
+        "short_name": "Baranova E",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology, Vlaams Instituut Voor Biotechnologie, Brussels, Belgium.",
+          "Brussels Center for Redox Biology, Vrije Universiteit Brussel, Brussels, Belgium.",
+          "Structural Biology Brussels, Vrije Universiteit Brussel, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Malo Pueyo, Julia",
+        "short_name": "Malo Pueyo J",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology, Vlaams Instituut Voor Biotechnologie, Brussels, Belgium.",
+          "Brussels Center for Redox Biology, Vrije Universiteit Brussel, Brussels, Belgium.",
+          "Structural Biology Brussels, Vrije Universiteit Brussel, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Jijon Vergara, Ariana",
+        "short_name": "Jijon Vergara A",
+        "identifiers": [],
+        "affiliations": [
+          "Medicinal Chemistry Research Group, Louvain Drug Research Institute, Université catholique de Louvain, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Papadopoulos, Nicolas",
+        "short_name": "Papadopoulos N",
+        "identifiers": [],
+        "affiliations": [
+          "de Duve Institute, Université catholique de Louvain, Brussels, Belgium.",
+          "Ludwig Institute for Cancer Research, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Balty, Clémence",
+        "short_name": "Balty C",
+        "identifiers": [],
+        "affiliations": [
+          "de Duve Institute, Université catholique de Louvain, Brussels, Belgium.",
+          "IONS/NEUR, Université catholique de Louvain, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Dejeu, Jérôme",
+        "short_name": "Dejeu J",
+        "identifiers": [],
+        "affiliations": [
+          "Université Marie et Louis Pasteur, SUPMICROTECH, CNRS, Institut FEMTO-ST, Besançon, France."
+        ]
+      },
+      {
+        "full_name": "Decottignies, Anabelle",
+        "short_name": "Decottignies A",
+        "identifiers": [],
+        "affiliations": [
+          "Genetic and Epigenetic Alterations of Genomes, de Duve Institute, Faculty of Pharmacy and Biomedical Sciences, Université catholique de Louvain, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Messens, Joris",
+        "short_name": "Messens J",
+        "identifiers": [],
+        "affiliations": [
+          "VIB-VUB Center for Structural Biology, Vlaams Instituut Voor Biotechnologie, Brussels, Belgium.",
+          "Brussels Center for Redox Biology, Vrije Universiteit Brussel, Brussels, Belgium.",
+          "Structural Biology Brussels, Vrije Universiteit Brussel, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Frédérick, Raphaël",
+        "short_name": "Frédérick R",
+        "identifiers": [
+          "0000-0001-8119-1272"
+        ],
+        "affiliations": [
+          "Medicinal Chemistry Research Group, Louvain Drug Research Institute, Université catholique de Louvain, Brussels, Belgium."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/04/22 16:27",
+    "fetched_at": "2026-09-21 18:15:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38203210",
+      "37933859",
+      "35772497",
+      "35340861",
+      "35013284",
+      "34265844",
+      "33070389",
+      "32722756",
+      "32175073",
+      "32114293",
+      "31278054",
+      "29748603",
+      "29189430",
+      "28591556",
+      "23032862",
+      "21376230",
+      "21170034",
+      "20816748"
+    ],
+    "similar": [
+      "40260937",
+      "31278054",
+      "35772497",
+      "40532929",
+      "21170034",
+      "14506283",
+      "31692925",
+      "33279577",
+      "26046769",
+      "41736368",
+      "41520442",
+      "31666375",
+      "40563391",
+      "26224631",
+      "29748603",
+      "29045385",
+      "40645181",
+      "38382779",
+      "31801860",
+      "38752725",
+      "38555840",
+      "32587091",
+      "17651432",
+      "39298085",
+      "42123684",
+      "31866294",
+      "39505147",
+      "38703206",
+      "29343584",
+      "16474402",
+      "38361286",
+      "28716051",
+      "29056420",
+      "20885946",
+      "40192453",
+      "40289327",
+      "39983720",
+      "37789645",
+      "30367141",
+      "27082063",
+      "37062218",
+      "31730000",
+      "30651545",
+      "35343357",
+      "39193909",
+      "40237780",
+      "29482658",
+      "42475469",
+      "30842349",
+      "40087304",
+      "32929379",
+      "29240449",
+      "26678539",
+      "26299963",
+      "21981925",
+      "36812797",
+      "42302908",
+      "41157055",
+      "15247261",
+      "42671335",
+      "40544656",
+      "38203210",
+      "27452404",
+      "32282203",
+      "23603909",
+      "29249604",
+      "27780924",
+      "25694600",
+      "37290391",
+      "39522755",
+      "40446734",
+      "42670798",
+      "32115872",
+      "22514345",
+      "32440780",
+      "42520638",
+      "20816748",
+      "33095475",
+      "32092586",
+      "26175158",
+      "33157193",
+      "39715932",
+      "32468271",
+      "32774788",
+      "39999290",
+      "34655613",
+      "42001546",
+      "41192116",
+      "40263111",
+      "32210275",
+      "39190377",
+      "40165995",
+      "33544460",
+      "25118285",
+      "35852517",
+      "40397674",
+      "12783858",
+      "33777676",
+      "31597768",
+      "38589688"
+    ],
+    "review": [
+      "40260937",
+      "38382779",
+      "37789645",
+      "35343357",
+      "40237780",
+      "41157055",
+      "40544656",
+      "32092586",
+      "33157193",
+      "32774788"
+    ],
+    "pmc": [
+      "12012732"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://hal.science/hal-05221470",
+        "provider": "HAL archives ouvertes - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      },
+      {
+        "url": "https://www.ovid.com/40260937.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40260937/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.70116",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

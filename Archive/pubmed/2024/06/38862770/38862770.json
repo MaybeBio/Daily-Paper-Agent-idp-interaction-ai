@@ -1,0 +1,285 @@
+{
+  "identity": {
+    "pmid": "38862770",
+    "doi": "10.1038/s41598-024-64327-7",
+    "title": "Molecular dynamics simulation on regulation of liquid-liquid phase separation of repetitive peptides."
+  },
+  "content": {
+    "abstract": "Understanding the intricate interactions governing protein and peptide behavior in liquid-liquid phase separation (LLPS) is crucial for unraveling biological functions and dysfunctions. This study employs a residue-leveled coarse-grained molecular dynamics approach to simulate the phase separation of repetitive polyproline and polyarginine peptides (poly PR) with varying lengths and sequences in solution, considering different concentrations and temperatures. Our findings highlight the crucial role of sequence order in promoting LLPS in peptides with identical lengths of repetitive sequences. Interestingly, repetitive peptides containing fewer than 10 polyarginine repeats exhibit no LLPS, even at salt concentrations up to 3 M. Notably, our simulations align with experimental observations, pinpointing a salt concentration of 2.7 M for PR25-induced LLPS. Utilizing the same methodology, we predict the required salt concentrations for LLPS induction as 1.2 M, 1.5 M, and 2.7 M for PR12, PR15, and PR35, respectively. These predictions demonstrate good agreement with experimental results. Extending our investigation to include the peptide glutamine and arginine (GR15) in DNA solution, our simulations mirror experimental observations of phase separation. To unveil the molecular forces steering peptide phase separation, we introduce a dielectric constant modifier and hydrophobicity disruptor into poly PR systems. Our coarse-grained analysis includes an examination of temperature effects, leading to the inference that both hydrophobic and electrostatic interactions drive phase separation in peptide systems.",
+    "keywords": [
+      "Electrostatic interaction",
+      "GENESIS",
+      "Hydrophobicity",
+      "Liquid-liquid phase separation",
+      "Molecular dynamics",
+      "Polypeptides"
+    ],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Peptides/chemistry",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Temperature",
+      "Phase Transition",
+      "DNA/chemistry/metabolism",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Xiaojun",
+        "Wang, Yanwei",
+        "Yang, Guangcan"
+      ],
+      "short_names": [
+        "Yang X",
+        "Wang Y",
+        "Yang G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, Wenzhou University, Wenzhou, 325035, China.",
+        "Department of Physics, Wenzhou University, Wenzhou, 325035, China. wangyw@wzu.edu.cn.",
+        "Department of Physics, Wenzhou University, Wenzhou, 325035, China. yanggc@wzu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Xiaojun",
+        "short_name": "Yang X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Wenzhou University, Wenzhou, 325035, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Yanwei",
+        "short_name": "Wang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Wenzhou University, Wenzhou, 325035, China. wangyw@wzu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Yang, Guangcan",
+        "short_name": "Yang G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Wenzhou University, Wenzhou, 325035, China. yanggc@wzu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2024 Jun 11",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/12 00:42",
+    "fetched_at": "2026-09-21 07:48:27"
+  },
+  "links": {
+    "cites": [
+      "42204980",
+      "40195119",
+      "39924792"
+    ],
+    "refs": [
+      "37764485",
+      "36711093",
+      "34910602",
+      "34716273",
+      "34584634",
+      "33934416",
+      "33876938",
+      "33597515",
+      "33582133",
+      "33307683",
+      "30682370",
+      "30397688",
+      "29364893",
+      "28377462",
+      "28340338",
+      "26317470",
+      "26286827",
+      "24132570",
+      "23393093",
+      "21944779",
+      "21944778",
+      "21173221",
+      "18160663"
+    ],
+    "similar": [
+      "38862770",
+      "37764485",
+      "37480340",
+      "37815389",
+      "39302099",
+      "33139563",
+      "39342654",
+      "36443315",
+      "33876938",
+      "38979955",
+      "33356290",
+      "39148776",
+      "38855848",
+      "38553587",
+      "30715857",
+      "38811080",
+      "38512104",
+      "35962177",
+      "34428231",
+      "37662293",
+      "33076213",
+      "33453922",
+      "31270472",
+      "38446061",
+      "34431665",
+      "37794023",
+      "36640113",
+      "39256186",
+      "33934416",
+      "34001913",
+      "37668019",
+      "33629837",
+      "31025120",
+      "37988476",
+      "37189373",
+      "38322526",
+      "33971237",
+      "34156864",
+      "26451401",
+      "25804723",
+      "33684117",
+      "38960272",
+      "31784535",
+      "32393642",
+      "35501484",
+      "34106723",
+      "38526948",
+      "29364893",
+      "36227468",
+      "38592759",
+      "34816836",
+      "31097543",
+      "32961238",
+      "37325682",
+      "38597222",
+      "39421885",
+      "33279579",
+      "33149109",
+      "36343363",
+      "38767457",
+      "33302617",
+      "38547652",
+      "33982350",
+      "27216316",
+      "26237070",
+      "38252962",
+      "33597515",
+      "36444977",
+      "35943083",
+      "34716273",
+      "26849155",
+      "23964693",
+      "30950394",
+      "34598580",
+      "34911929",
+      "26756795",
+      "33917983",
+      "24506060",
+      "35721931",
+      "33809541",
+      "34352244",
+      "34787433",
+      "32087632",
+      "37292850",
+      "37398035",
+      "30913985",
+      "36762833",
+      "38167731",
+      "36378745",
+      "38413010",
+      "37840355",
+      "38262205",
+      "35543798",
+      "30217894",
+      "24506488",
+      "36745512",
+      "37287828",
+      "36537242",
+      "30702291",
+      "37001915",
+      "39066731",
+      "35795820",
+      "39000089",
+      "38923199",
+      "38943248",
+      "39387162",
+      "39328748",
+      "36607820",
+      "39021038",
+      "36998664",
+      "38565952"
+    ],
+    "review": [
+      "38862770",
+      "38979955",
+      "38855848",
+      "38811080",
+      "34816836",
+      "38597222",
+      "38547652",
+      "38167731",
+      "38413010",
+      "38262205"
+    ],
+    "pmc": [
+      "11167010"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41598-024-64327-7",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38862770/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38862770",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PGR-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

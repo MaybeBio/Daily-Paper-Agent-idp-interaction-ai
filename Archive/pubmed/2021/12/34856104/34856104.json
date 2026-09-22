@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "34856104",
+    "doi": "10.1021/acs.langmuir.1c02231",
+    "title": "Understanding How Coacervates Drive Reversible Small Molecule Reactions to Promote Molecular Complexity."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase-separated coacervate droplets give rise to membraneless compartments that play an important role in the spatial organization and reactivity in cells. Due to their molecularly crowded nature and ability to sequester biomolecules, coacervate droplets create distinct environments for enzymatic reaction kinetics and reaction mechanisms that markedly differ from bulk solution. In this work, we use a combination of experiments and quantitative modeling to understand how coacervate droplets promote reversible small molecule reaction chemistry. In particular, we study a model condensation reaction generating an unstable fluorescent imine in polyacrylic acid-polyethylene glycol coacervate droplets over a range of conditions. At equilibrium, the concentration of the imine product in coacervate droplets is approximately 140-fold larger than that in bulk solution, which arises due to preferential partitioning of reactants and products into coacervate droplets and a reaction equilibrium constant that is roughly threefold larger in coacervate droplets than in solution. A reaction-diffusion model is developed to quantitatively describe how competing reaction and partitioning equilibria govern the spatial distribution of the imine product inside coacervate droplets. Overall, our results show that compartmentalization stabilizes kinetically labile reaction products, which enables larger reactant concentrations in coacervate droplets compared to bulk solution. Broadly, these results provide an improved understanding of how biomolecular condensates promote multistep reaction pathways involving unstable reaction intermediates and suggest how coacervates provide a potential abiotic mechanism to promote molecular complexity.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biomolecular Condensates",
+      "*Polyethylene Glycols"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jacobs, Michael I",
+        "Jira, Edward R",
+        "Schroeder, Charles M"
+      ],
+      "short_names": [
+        "Jacobs MI",
+        "Jira ER",
+        "Schroeder CM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6023-2274"
+      ],
+      "affiliations": [
+        "Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States.",
+        "Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States.",
+        "Department of Chemical and Biomolecular Engineering, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States.",
+        "Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States.",
+        "Department of Chemical and Biomolecular Engineering, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States.",
+        "Department of Materials Science and Engineering, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jacobs, Michael I",
+        "short_name": "Jacobs MI",
+        "identifiers": [],
+        "affiliations": [
+          "Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States."
+        ]
+      },
+      {
+        "full_name": "Jira, Edward R",
+        "short_name": "Jira ER",
+        "identifiers": [],
+        "affiliations": [
+          "Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States.",
+          "Department of Chemical and Biomolecular Engineering, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States."
+        ]
+      },
+      {
+        "full_name": "Schroeder, Charles M",
+        "short_name": "Schroeder CM",
+        "identifiers": [
+          "0000-0001-6023-2274"
+        ],
+        "affiliations": [
+          "Beckman Institute for Advanced Science and Technology, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States.",
+          "Department of Chemical and Biomolecular Engineering, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States.",
+          "Department of Materials Science and Engineering, University of Illinois at Urbana-Champaign, Urbana, Illinois 61801, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Langmuir : the ACS journal of surfaces and colloids"
+    ],
+    "journal_abbrev": [
+      "Langmuir"
+    ],
+    "pub_date": "2021 Dec 14",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/03 06:00",
+    "fetched_at": "2026-09-20 06:48:47"
+  },
+  "links": {
+    "cites": [
+      "41758407",
+      "41703914",
+      "41667852",
+      "41469832",
+      "41034201",
+      "40708879",
+      "40679070",
+      "40481689",
+      "38968602",
+      "38370910",
+      "37574757",
+      "36771888",
+      "36737456",
+      "36528065",
+      "36128910"
+    ],
+    "refs": [],
+    "similar": [
+      "34856104",
+      "38968602",
+      "30179001",
+      "31001538",
+      "37462244",
+      "26844692",
+      "34164043",
+      "29265152",
+      "37815312",
+      "23912807",
+      "35792669",
+      "35796384",
+      "34155210",
+      "33453932",
+      "29642033",
+      "36594499",
+      "34398617",
+      "34645986",
+      "39402790",
+      "33616129",
+      "35773489",
+      "37181760",
+      "34221333",
+      "31943629",
+      "31091880",
+      "32922586",
+      "38169470",
+      "33110067",
+      "36067054",
+      "37350455",
+      "34664748",
+      "37009061",
+      "33453931",
+      "37549224",
+      "36756326",
+      "31958956",
+      "35176203",
+      "31995710",
+      "35657164",
+      "29689157",
+      "19852482",
+      "35138820",
+      "37579082",
+      "33056997",
+      "35925890",
+      "31034692",
+      "34123122",
+      "38129391",
+      "39119638",
+      "32207864",
+      "36951305",
+      "37992873",
+      "32852935",
+      "31460745",
+      "36006377",
+      "34636323",
+      "29199758",
+      "24577897",
+      "32119509",
+      "35551426",
+      "34346669",
+      "27265150",
+      "30384702",
+      "19873433",
+      "35191449",
+      "39167649",
+      "33506543",
+      "34882160",
+      "38693272",
+      "37160869",
+      "34873298",
+      "37218010",
+      "37603820",
+      "31743027",
+      "38670952",
+      "33453930",
+      "20814445",
+      "35549188",
+      "24515342",
+      "16827592",
+      "34241502",
+      "35724598",
+      "31408263",
+      "37947798",
+      "38618006",
+      "34186016",
+      "34049872",
+      "28901673",
+      "37354057",
+      "27599198",
+      "28631793",
+      "15248727",
+      "39405087",
+      "38321061",
+      "30700721",
+      "36601867",
+      "26965053",
+      "37339359",
+      "26012895",
+      "28370381",
+      "35090078",
+      "23194173",
+      "29459301",
+      "34877509",
+      "32078224",
+      "31769971",
+      "30374662",
+      "35089709",
+      "21410239",
+      "25099892",
+      "38424154",
+      "15244462",
+      "30639576",
+      "33566601",
+      "28658517",
+      "37562059",
+      "27401136",
+      "27499328",
+      "36771888",
+      "2867137",
+      "27708286",
+      "31004960",
+      "31584062",
+      "34163700",
+      "30996302",
+      "29806157",
+      "38875706",
+      "26881998",
+      "39232074",
+      "32954548",
+      "26477852",
+      "39214144",
+      "28718883",
+      "34240870",
+      "27231264",
+      "8105049",
+      "35786870",
+      "37387245",
+      "34035521",
+      "36755726",
+      "37350836",
+      "38725320",
+      "37577000",
+      "34361854",
+      "35694339",
+      "37648812",
+      "36121813",
+      "30034729",
+      "36909509",
+      "35619345",
+      "33523170",
+      "34641683",
+      "35651258",
+      "30090225"
+    ],
+    "review": [
+      "34856104",
+      "31001538",
+      "37462244",
+      "33616129",
+      "35724598",
+      "37354057",
+      "37339359",
+      "27401136",
+      "27499328",
+      "32954548",
+      "37577000"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/langd5/article-lookup/doi/10.1021/acs.langmuir.1c02231",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

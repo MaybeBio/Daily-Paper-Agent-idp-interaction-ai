@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and conclusions.
+- **Assessment boundary** Scientific validity of claims, experimental support, technical soundness, and alignment with Nature-style criteria. No assessment of editorial fit or publication decision.
+- **Shared manuscript claim summary** The authors report that the N-terminal region (amino acids 46–86) of the Drosophila CLAMP protein forms homodimers, that this region is intrinsically disordered based on NMR and SAXS data despite bioinformatic predictions of beta-sheet structure, that the domain is conserved across most insects except Hymenopterans, and that its deletion is lethal in vivo, indicating functional essentiality. They position CLAMP as the second architectural protein, after CTCF, with an unstructured N-terminal dimerization domain.
+- **Visible evidence base** Y2H interaction assays, chemical crosslinking, size-exclusion chromatography, pull-down assays, NMR spectroscopy (15N-HSQC, R2 relaxation), SAXS with molecular weight estimation and Kratky plots, ab initio modeling, transgenic fly complementation assays, polytene chromosome staining, and sequence conservation analysis.
+- **Missing materials affecting confidence** Raw NMR spectra and assignments for the 41–86 region are not fully shown; SAXS data quality metrics (e.g., Guinier fits, Rg values, error bars) are not reported; quantification of crosslinking efficiency is qualitative; details of transgenic construct design and expression level verification are incomplete; no statistical analysis is provided for in vivo viability data.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a focused and generally well-executed study identifying and characterizing a dimerization domain in the N-terminal region of CLAMP. The combination of Y2H, biochemical, biophysical, and in vivo approaches is appropriate and largely supports the main claims. However, several technical details and data presentations are incomplete, particularly regarding SAXS analysis, NMR evidence for disorder, and quantitative in vivo data. The claim that CLAMP is the second architectural protein with an unstructured dimerization domain, after CTCF, is suggestive but not fully established from the provided evidence, as direct architectural function is not demonstrated here. The study is of interest to researchers in transcription factor biology, chromatin architecture, and intrinsically disordered proteins, but its broader significance is somewhat limited by the descriptive nature of the findings.
+- **Who would be interested in the results, and why** Researchers studying Drosophila transcription factors, dosage compensation, chromatin architecture, and intrinsically disordered protein domains. The finding that a disordered region can mediate homodimerization and is functionally essential adds to the growing appreciation of IDRs in regulatory protein function. Those working on CLAMP or related zinc-finger proteins may find the mapping and biophysical characterization useful.
+- **Major strengths** 1. The study addresses a clear and relevant question regarding the presence of a dimerization domain in CLAMP. 2. The use of multiple complementary techniques (Y2H, crosslinking, SEC, pull-down, NMR, SAXS) strengthens the conclusion that the 46–86 region mediates dimerization. 3. The in vivo complementation experiment provides functional relevance for the dimerization domain. 4. The comparison with the honey bee ortholog adds an evolutionary perspective. 5. The identification of a disordered dimerization domain is conceptually interesting and aligns with emerging themes in the field.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of biophysical evidence
+  - **Claim pointer** The authors claim that the N-terminal domain (41–86) is intrinsically disordered based on NMR and SAXS data.
+  - **Evidence pointer** Section 2.2, Figures 3a–c, Section 4.5, Section 4.7
+  - **Concern** The NMR evidence for disorder relies primarily on the observation that 1H-15N HSQC chemical shifts fall within a narrow range (7.6–8.6 ppm) and on R2 relaxation rates. However, no resonance assignments for the 41–86 region are provided, and the comparison to the assigned 87–153 region is only qualitative. The R2 values are reported as averages without error estimates or per-residue plots, making it difficult to assess whether the differences are statistically significant. The SAXS data are presented as Kratky plots and molecular weight estimates, but key quality metrics such as Guinier fits, Rg values, and concentration-dependent aggregation checks are not reported. The molecular weight estimate for CLAMP1–153 at high concentration suggests tetramerization, which is attributed to non-specific association, but this is not rigorously tested. Without these details, the claim of intrinsic disorder is not fully supported.
+  - **Why it matters** The central novelty of the manuscript is the identification of a disordered dimerization domain. If the biophysical evidence is not robust, the claim that this domain is intrinsically disordered rather than merely lacking a stable fold under the conditions tested is weakened. This affects the comparison to CTCF and the broader significance of the work.
+  - **Resolution test** Provide per-residue or at least segmental R2 values with error bars for the 41–86 region compared to folded and unfolded controls. Show representative HSQC spectra with assignments or at least a clear demonstration of spectral crowding and lack of dispersion. For SAXS, report Guinier fits, Rg values, and molecular weight estimates with uncertainties, and include a concentration series to rule out aggregation artifacts.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional essentiality claim
+  - **Claim pointer** The authors claim that the dimerization domain is essential for CLAMP function in vivo because deletion of residues 41–91 results in lethality in clamp2 mutant flies.
+  - **Evidence pointer** Section 2.4, Figure 4c, Section 4.3
+  - **Concern** The complementation experiment shows that CLAMPWT rescues viability of clamp2 mutants, while CLAMPΔ41–91 does not. However, the data are presented without quantitative details: the number of progeny scored, the number of independent transgenic lines tested, and statistical analysis are not provided. It is also unclear whether the mutant protein is expressed at levels comparable to the wild-type protein; the authors state that "no significant differences in binding to polytene chromosomes" were observed, but this is not a direct measure of protein expression level. The possibility that the deletion affects protein stability or folding rather than specifically disrupting dimerization is not addressed. Without these controls, the conclusion that the dimerization activity per se is essential is not fully established.
+  - **Why it matters** The in vivo data are used to argue for the functional importance of the dimerization domain. If the observed lethality is due to protein instability or other non-specific effects of the deletion, the claim that dimerization is essential is not supported. This is critical for the overall message of the manuscript.
+  - **Resolution test** Provide quantitative viability data with numbers of flies scored and statistical tests. Include Western blot analysis to confirm equal expression of CLAMPWT and CLAMPΔ41–91 in transgenic flies. Ideally, test a point mutant that disrupts dimerization without deleting a large region, or provide evidence that the deletion does not affect protein folding or stability.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary and comparative claim
+  - **Claim pointer** The authors state that the N-terminal dimerization domain is conserved in most insects except Hymenopterans, and that the honey bee CLAMP lacks this domain and does not dimerize.
+  - **Evidence pointer** Section 2.3, Figure 1b, Figure 4a–b
+  - **Concern** The sequence alignment shown in Figure 1b is not described in detail, and the criteria for "conservation" are not defined. The Y2H and crosslinking experiments for the honey bee CLAMP are presented, but the constructs used are not fully described (e.g., which regions were included). The conclusion that Hymenopteran CLAMP lacks a dimerization domain is based on a single species (Apis mellifera) and a limited set of experiments. The evolutionary interpretation is speculative and not rigorously supported.
+  - **Why it matters** The comparison to honey bee CLAMP is used to support the idea that the dimerization domain is specific to certain insect lineages and may be related to dosage compensation function. If the evidence is not robust, this comparative claim is weakened, and the broader evolutionary narrative is less convincing.
+  - **Resolution test** Provide a more detailed sequence alignment with conservation scores and define the boundaries of the conserved region. Test additional Hymenopteran species or provide a more thorough phylogenetic analysis. Describe the honey bee constructs used in Y2H and crosslinking experiments in detail.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1a
+  - **Evidence pointer** Section 2.1, Figure 1a
+  - **Issue** The schematic of CLAMP deletion constructs is not clearly labeled with amino acid boundaries for all constructs. Some constructs are mentioned in the text but not shown in the figure.
+  - **Required correction** Add clear amino acid boundaries to all constructs in Figure 1a and ensure all constructs mentioned in the text are represented.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** NMR data
+  - **Evidence pointer** Section 4.5
+  - **Issue** The authors reference a BMRB entry for the 87–153 region but do not provide a deposition number for the new data on the 41–86 region.
+  - **Required correction** Deposit the NMR data for the 41–86 region in a public repository and provide the accession number.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** In vivo viability data
+  - **Evidence pointer** Section 2.4, Figure 4c
+  - **Issue** The viability data are presented without error bars or statistical analysis.
+  - **Required correction** Provide mean and standard deviation or standard error for viability measurements, and perform a statistical test (e.g., chi-square or Fisher's exact test) to compare genotypes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of crosslinking data
+  - **Affected element** Figure 2a, 2c
+  - **Evidence pointer** Section 2.1
+  - **Issue** The crosslinking efficiency is described qualitatively as "weakly reduced" for some constructs. The authors do not quantify the extent of crosslinking or provide a loading control for the gels.
+  - **Required correction** Quantify crosslinking efficiency (e.g., densitometry) and include a loading control (e.g., Coomassie stain or Western blot for the tag) to ensure equal protein amounts.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Discussion
+  - **Evidence pointer** Abstract, Section 3
+  - **Issue** The term "architectural protein" is used to describe CLAMP, but the manuscript does not directly demonstrate architectural function (e.g., chromatin looping or long-range interactions). The claim is based on prior work and inference.
+  - **Required correction** Soften the language to indicate that CLAMP has been implicated in architectural functions, rather than stating it as an established fact, or provide direct evidence for architectural activity.
+- **Technical failings that need to be addressed before the case is established** 1. Incomplete NMR evidence for disorder (R1-M1). 2. Lack of quantitative and controlled in vivo data (R1-M2). 3. Insufficient detail in SAXS data analysis and quality metrics (R1-M1). 4. Unclear evolutionary comparison with honey bee CLAMP (R1-M3).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The finding of a disordered dimerization domain in CLAMP is novel and adds to the limited examples of such domains in transcription factors. However, the concept of disordered regions mediating protein-protein interactions is not new, and the study is largely descriptive.
+  - **Scientific importance** The work is of moderate importance. It provides a detailed characterization of a specific domain in a Drosophila protein, but the broader implications for chromatin architecture or dosage compensation are not directly tested. The significance would be enhanced by functional experiments linking dimerization to architectural activity.
+  - **Interdisciplinary readership** The manuscript will appeal primarily to researchers in Drosophila genetics, transcription factor biology, and biophysics of IDRs. The interdisciplinary appeal is limited, as the methods and findings are specialized.
+  - **Technical soundness** The study uses appropriate techniques, but the incomplete presentation of biophysical data and lack of quantitative controls reduce the technical rigor. The conclusions are generally supported but not fully established.
+  - **Readability for nonspecialists** The manuscript is clearly written and accessible to a broad scientific audience, with adequate background and context. However, some technical details in the results and methods may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding of a dimerization domain in the disordered N-terminus of CLAMP is plausible and of interest, but the evidence for disorder and functional essentiality needs to be strengthened with additional data and analysis. The manuscript would benefit from more rigorous biophysical characterization and quantitative in vivo experiments.
+
+## Risk / unsupported claims
+- The claim that CLAMP is the second architectural protein after CTCF with an unstructured N-terminal dimerization domain is not directly supported by the data presented, as architectural function is not demonstrated in this study.
+- The statement that the dimerization domain is "essential for CLAMP functions in vivo" is not fully supported due to lack of controls for protein expression and stability.
+- The evolutionary interpretation that the absence of dimerization in honey bee CLAMP is related to the lack of dosage compensation is speculative and not tested.
+- The assertion that the domain is intrinsically disordered is based on limited NMR and SAXS data without full quality metrics or controls.

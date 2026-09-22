@@ -1,0 +1,345 @@
+{
+  "identity": {
+    "pmid": "40713020",
+    "doi": "10.1021/acs.biomac.5c00066",
+    "title": "Functional Design and Biophysical Characterization of Analyte-Responsive Polymers."
+  },
+  "content": {
+    "abstract": "As a proof-of-concept for analyte-responsive polymers (ARPs) for biosensing, this study investigates how ligand binding changes the temperature-dependent dynamics and self-assembly of an elastin-like polymer (ELP) fused with a peptide recognition element for the small globular protein domain SH3. Using isothermal titration calorimetry, we characterized the apparent binding thermodynamics when one binding partner is fused with an ELP. Circular dichroism, dynamic light scattering, and temperature-dependent UV-vis spectroscopy were used to examine how ligand binding influences ARP conformational dynamics and phase behavior. SH3 binding was associated with an increase in transition temperature that reproduced in a complex medium and was consistent with predictions from a published model for ELP fusions. Addition of SH3 destabilized ARP assemblies, demonstrating that an ARP response can be specifically triggered by ligand binding. This work advances our understanding of how ligand binding and phase behavior are interdependent in systems involving intrinsically disordered proteins and their assemblies.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Elastin/chemistry",
+      "*Polymers/chemistry",
+      "Thermodynamics",
+      "src Homology Domains",
+      "Ligands",
+      "Peptides/chemistry",
+      "Biosensing Techniques",
+      "Circular Dichroism",
+      "Calorimetry",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Curley, Carolyn E",
+        "Jovic Dold, Katarina",
+        "Torres, Jazmine A",
+        "Richard, A Clay",
+        "Sanders, Eleenah",
+        "Halpern, Jeffrey M",
+        "Pantazes, Robert J",
+        "Balog, Eva Rose M"
+      ],
+      "short_names": [
+        "Curley CE",
+        "Jovic Dold K",
+        "Torres JA",
+        "Richard AC",
+        "Sanders E",
+        "Halpern JM",
+        "Pantazes RJ",
+        "Balog ERM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8749-0935",
+        "ORCID: 0000-0003-0814-1986",
+        "ORCID: 0000-0001-6792-6914"
+      ],
+      "affiliations": [
+        "School of Molecular and Physical Sciences, University of New England, Biddeford, Maine 04005, United States.",
+        "Department of Chemical Engineering and Bioengineering, University of New Hampshire, Durham, New Hampshire 03824, United States.",
+        "Department of Chemical Engineering, Auburn University, Auburn, Alabama 36849, United States.",
+        "Department of Chemical Engineering, Auburn University, Auburn, Alabama 36849, United States.",
+        "School of Molecular and Physical Sciences, University of New England, Biddeford, Maine 04005, United States.",
+        "Department of Chemical Engineering and Bioengineering, University of New Hampshire, Durham, New Hampshire 03824, United States.",
+        "Department of Chemical Engineering, Auburn University, Auburn, Alabama 36849, United States.",
+        "School of Molecular and Physical Sciences, University of New England, Biddeford, Maine 04005, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Curley, Carolyn E",
+        "short_name": "Curley CE",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular and Physical Sciences, University of New England, Biddeford, Maine 04005, United States."
+        ]
+      },
+      {
+        "full_name": "Jovic Dold, Katarina",
+        "short_name": "Jovic Dold K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering and Bioengineering, University of New Hampshire, Durham, New Hampshire 03824, United States."
+        ]
+      },
+      {
+        "full_name": "Torres, Jazmine A",
+        "short_name": "Torres JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, Auburn University, Auburn, Alabama 36849, United States."
+        ]
+      },
+      {
+        "full_name": "Richard, A Clay",
+        "short_name": "Richard AC",
+        "identifiers": [
+          "0000-0001-8749-0935"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, Auburn University, Auburn, Alabama 36849, United States."
+        ]
+      },
+      {
+        "full_name": "Sanders, Eleenah",
+        "short_name": "Sanders E",
+        "identifiers": [],
+        "affiliations": [
+          "School of Molecular and Physical Sciences, University of New England, Biddeford, Maine 04005, United States."
+        ]
+      },
+      {
+        "full_name": "Halpern, Jeffrey M",
+        "short_name": "Halpern JM",
+        "identifiers": [
+          "0000-0003-0814-1986"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering and Bioengineering, University of New Hampshire, Durham, New Hampshire 03824, United States."
+        ]
+      },
+      {
+        "full_name": "Pantazes, Robert J",
+        "short_name": "Pantazes RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical Engineering, Auburn University, Auburn, Alabama 36849, United States."
+        ]
+      },
+      {
+        "full_name": "Balog, Eva Rose M",
+        "short_name": "Balog ERM",
+        "identifiers": [
+          "0000-0001-6792-6914"
+        ],
+        "affiliations": [
+          "School of Molecular and Physical Sciences, University of New England, Biddeford, Maine 04005, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomacromolecules"
+    ],
+    "journal_abbrev": [
+      "Biomacromolecules"
+    ],
+    "pub_date": "2025 Aug 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/28 08:44",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39623522",
+      "39601343",
+      "39310205",
+      "37889566",
+      "37883504",
+      "37877162",
+      "37830919",
+      "37774136",
+      "37590357",
+      "36936990",
+      "36058141",
+      "35411765",
+      "34282049",
+      "33503651",
+      "33242085",
+      "32339455",
+      "31842538",
+      "31670364",
+      "31074995",
+      "28510178",
+      "28430426",
+      "28376297",
+      "26476135",
+      "23832629",
+      "23825049",
+      "23705904",
+      "23565607",
+      "22710157",
+      "22683951",
+      "21293463",
+      "20820687",
+      "20627702",
+      "20232866",
+      "20060708",
+      "19590096",
+      "19225609",
+      "19055326",
+      "19023120",
+      "18234212",
+      "17960341",
+      "17291058",
+      "15196021",
+      "14985538",
+      "11668184",
+      "11504940",
+      "10592235",
+      "9761688",
+      "5551392",
+      "4760134",
+      "3076450"
+    ],
+    "similar": [
+      "40713020",
+      "18234212",
+      "27457699",
+      "30292393",
+      "19921743",
+      "16752908",
+      "23565607",
+      "27353011",
+      "29791150",
+      "14757063",
+      "27627061",
+      "19055326",
+      "17407569",
+      "15196021",
+      "18085778",
+      "11697910",
+      "38511646",
+      "15313630",
+      "22515311",
+      "28092039",
+      "19267471",
+      "34114596",
+      "23359490",
+      "14572645",
+      "28754059",
+      "28111343",
+      "31874207",
+      "28236790",
+      "30458105",
+      "38624000",
+      "10752619",
+      "21699930",
+      "9778343",
+      "23406497",
+      "25122758",
+      "14985538",
+      "10861385",
+      "27443979",
+      "18067320",
+      "36739945",
+      "30715857",
+      "9636054",
+      "34806270",
+      "16335985",
+      "26633746",
+      "27268056",
+      "35390274",
+      "18206907",
+      "9126384",
+      "21290828",
+      "8643668",
+      "7479908",
+      "9761688",
+      "18721137",
+      "38147468",
+      "24021866",
+      "19906645",
+      "21947444",
+      "29978250",
+      "26325592",
+      "14978303",
+      "16140252",
+      "11851340",
+      "40707009",
+      "37357544",
+      "38281625",
+      "39370408",
+      "39609315",
+      "30368133",
+      "27213566",
+      "40911017",
+      "28639381",
+      "20334355",
+      "30659095",
+      "29980598",
+      "30929235",
+      "34389773",
+      "34545666",
+      "28380689",
+      "23251481",
+      "18536014",
+      "17260965",
+      "21887699",
+      "21972921",
+      "19049004",
+      "38980747",
+      "10869177",
+      "7588629",
+      "21620970",
+      "29388768",
+      "12453410",
+      "18644376",
+      "24712906",
+      "29934674",
+      "11727705",
+      "35943848",
+      "29109782",
+      "16396493",
+      "23097230",
+      "39737696"
+    ],
+    "review": [
+      "40713020",
+      "26325592",
+      "38281625",
+      "34545666"
+    ],
+    "pmc": [
+      "12344695"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40713020/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-403",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/bomaf6/article-lookup/doi/10.1021/acs.biomac.5c00066",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

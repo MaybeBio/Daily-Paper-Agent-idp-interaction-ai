@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors use coarse-grained molecular dynamics simulations to investigate how increasing the mass of beads representing residues of two FUS-derived intrinsically disordered segments (PLD and RGG) affects liquid-liquid phase separation (LLPS). They report that increased mass (via uniform bead mass changes or insertion of non-interacting glycine peptides) promotes LLPS stability, as measured by increased density differences, reduced z-motion rates, and reduced flux across the condensed-phase boundary. They propose that mass effects, relevant to isotope labeling in NMR, modulate LLPS stability.
+- **Visible evidence base** Main text figures (Figures 2, 3, 4, 5, 6, 7, 8, 9, 10), supplementary figures (Figures S1-S30), equations (1)-(7), and methods descriptions
+- **Missing materials affecting confidence** Simulation parameter files, force field details, initial structure generation protocols, convergence criteria, error bars or replicate analysis, and raw trajectory data are not provided. The manuscript does not include a detailed phase diagram construction method or uncertainty quantification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and potentially important question: whether molecular mass changes, such as those arising from isotope labeling, can influence LLPS behavior of IDPs. The authors present a systematic coarse-grained simulation study across two FUS segments, multiple mass values, and two modes of mass increase. The central claim that increased mass promotes LLPS stability is supported by the presented trends in density difference, z-motion rate, and flux. However, the study has significant limitations in terms of model validation, statistical rigor, and mechanistic depth. The connection to experimental observations is anecdotal, and the generalizability of the findings to full-length FUS or other IDPs is not established. The manuscript would benefit from clearer articulation of the model's limitations and a more quantitative analysis of uncertainties.
+- **Who would be interested in the results, and why** Researchers studying LLPS of IDPs, particularly those using NMR spectroscopy where isotope labeling is routine, would find this work relevant. The study also speaks to the broader community interested in the physical chemistry of biomolecular condensates and the role of molecular properties (mass, dynamics) in phase behavior. Computational biophysicists developing coarse-grained models for LLPS may also be interested in the methodological approach.
+- **Major strengths** The study addresses a novel and under-explored question regarding the role of molecular mass in LLPS. The use of two distinct FUS segments and two modes of mass increase (uniform mass scaling and peptide insertion) provides a comparative framework. The slab simulation method is appropriate for studying phase coexistence. The authors connect their findings to a practical experimental context (isotope labeling in NMR), which increases the potential impact.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the mass increase promotes the LLPS stability" based on simulation results.
+  - **Evidence pointer** Figures 3, 4, 5, 6; Section 3.1 and 3.2
+  - **Concern** The central claim relies on comparisons of PH-PL, z-motion rate, and flux across different mass values. However, no error bars, standard deviations, or replicate simulations are reported. It is unclear whether the observed differences (e.g., PLD 1.0 vs PLD 1.2) are statistically significant or within the noise of a single trajectory. The manuscript states that systems reached equilibrium after 3000 τ, but no convergence analysis (e.g., block averaging, multiple independent runs) is presented. Without uncertainty quantification, the robustness of the central claim cannot be assessed.
+  - **Why it matters** The primary conclusion of the paper depends on the reliability of the reported differences. If the differences are within statistical noise, the conclusion is unsupported. The lack of error analysis is a fundamental issue for a simulation study.
+  - **Resolution test** Provide at least 3-5 independent replicate simulations per condition and report mean ± standard deviation (or standard error) for all reported quantities (PH-PL, z-motion rate, flux). Perform a statistical test (e.g., t-test or ANOVA) to confirm that differences between mass conditions are significant. Show convergence plots for key observables.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the z motion rate is strongly correlated with the stability extent of the LLPS" and that "lower rate of z motion favors the formation and stability of LLPS."
+  - **Evidence pointer** Figure 5C,D; Section 3.2
+  - **Concern** The correlation between z-motion rate and PH-PL is presented as a mechanistic explanation. However, the z-motion rate is a dynamic property, while PH-PL is a static equilibrium property. The causal relationship is not established. It is possible that both quantities are independently affected by mass, and the correlation is coincidental. The manuscript does not provide a theoretical framework or additional analysis (e.g., autocorrelation functions, diffusion coefficients in each phase) to support the proposed mechanism.
+  - **Why it matters** The proposed mechanism is a key part of the paper's contribution. Without a clear causal link, the mechanistic claim is speculative.
+  - **Resolution test** Perform additional analyses to support the mechanism, such as calculating diffusion coefficients separately in condensed and dilute phases, computing velocity autocorrelation functions, or varying mass in a controlled manner while keeping other parameters fixed. Discuss alternative explanations for the observed correlation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that their findings "may provide enlightenment towards understanding the roles of isotope-labeling effects in modulating LLPS" and that this "paves the way for ameliorating phase-separation-related pathologies."
+  - **Evidence pointer** Section 4 (Conclusions)
+  - **Concern** The connection between the simulation results and experimental isotope labeling is only anecdotal (a single observation during NMR sample preparation). The mass changes studied (1.0 to 1.5 in atomic units) may not correspond quantitatively to the mass changes from isotope labeling (e.g., 15N, 13C, 2H), which are relatively small. The relevance to disease is speculative and not supported by any data in the manuscript.
+  - **Why it matters** The broader significance of the work depends on the relevance to experimental systems and disease. Overstating the implications without evidence weakens the paper's impact.
+  - **Resolution test** Provide a quantitative comparison between the mass changes studied and those from isotope labeling. Discuss the limitations of the model in capturing experimental conditions. Either provide experimental data supporting the simulation predictions or temper the claims about disease relevance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the inserted peptide is non-interacting" based on setting ε-insert to 0.00001 kJ/mol.
+  - **Evidence pointer** Section 2.1, Figure 2, Figures S2-S3
+  - **Concern** The claim that the inserted glycine peptide is non-interacting is based on a single parameter choice. The authors tested three ε-insert values (0.0001, 0.00001, 0.000001) and found similar results, which supports the claim. However, the interaction between the inserted glycines and the FUS segment is not explicitly characterized (e.g., radial distribution functions, contact maps). It is possible that the glycines affect the local solvation or chain packing in ways not captured by the chosen observables.
+  - **Why it matters** The interpretation of the glycine-insertion results as purely a mass effect depends on the inserted peptide being truly non-interacting. If the glycines have unintended interactions, the conclusions about mass effects are confounded.
+  - **Resolution test** Provide additional characterization of the inserted glycine's environment, such as contact probabilities with FUS residues, solvent accessibility, or local density profiles. Confirm that the glycines do not form specific interactions with the FUS segment.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Section 1
+  - **Issue** The introduction is dense and covers a wide range of topics (LLPS biology, IDP properties, simulation methods) without a clear logical flow. The connection between the mass change perspective and the broader LLPS field could be stated more explicitly.
+  - **Required correction** Restructure the introduction to first establish the importance of LLPS, then introduce the mass change question, and finally state the specific aims of the study.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Section 2.1
+  - **Issue** The choice of temperature range and the specific temperatures used in the simulations are not clearly stated. The authors mention "multiple temperatures" but do not list them in the main text.
+  - **Required correction** Provide a table or list of all simulation temperatures used, and justify the range based on expected phase behavior.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Section 2.1
+  - **Issue** The equilibration protocol is described briefly (10 ns NVT and 10 ns NPT), but the criteria for determining equilibrium are not stated. The authors later claim equilibrium after 3000 τ, but the relationship between the initial equilibration and the production run is unclear.
+  - **Required correction** Describe the equilibration criteria (e.g., stable energy, density) and how the 3000 τ equilibration time was determined.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 3.3
+  - **Concern** The discussion of electrostatic contacts is brief and does not fully explore the implications of the observed differences between PLD and RGG segments.
+  - **Required correction** Expand the discussion of electrostatic effects, including the role of charge distribution and the potential implications for sequence-dependent LLPS behavior.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Figures
+  - **Evidence pointer** Figures 3, 5, 6
+  - **Issue** The figures are not self-explanatory. The axes labels and legends are not fully descriptive, and the differences between panels (e.g., with/without charge interaction) are not immediately clear.
+  - **Required correction** Improve figure captions to clearly explain each panel, the conditions shown, and the key takeaway.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of error analysis and statistical significance), R1-M2 (causal mechanism not established), R1-M4 (non-interacting peptide claim not fully verified)
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of mass effects on LLPS is relatively novel, particularly in the context of isotope labeling. However, the approach is a straightforward application of existing coarse-grained models, and the mechanistic insight (slower dynamics) is not deeply original.
+  - Scientific importance: The potential relevance to NMR-based studies of IDPs is interesting, but the study does not provide experimental validation or a clear path to testable predictions. The disease connection is speculative.
+  - Interdisciplinary readership: The topic bridges biophysics, computational biology, and cell biology. However, the presentation is heavily simulation-focused and may not be accessible to experimentalists without additional context.
+  - Technical soundness: The simulation methodology is standard, but the lack of error analysis and limited validation of the model against experimental data are significant weaknesses.
+  - Readability for nonspecialists: The manuscript is written in a technical style that assumes familiarity with coarse-grained simulations and LLPS concepts. The introduction and conclusions could be more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central question is interesting and the study provides a useful starting point, but the lack of statistical rigor and the unverified mechanistic claims prevent the conclusions from being fully established. The authors should address the error analysis, provide additional support for the proposed mechanism, and temper the claims about experimental and disease relevance.
+
+## Risk / unsupported claims
+- The claim that "the mass increase promotes the LLPS stability" is not supported by statistical analysis (no error bars or replicates).
+- The claim that "lower rate of z motion favors the formation and stability of LLPS" is presented as a causal mechanism without direct evidence.
+- The claim that the inserted glycine peptide is "non-interacting" is based on limited parameter testing and is not fully verified.
+- The connection between the simulation results and experimental isotope labeling is anecdotal and not quantitatively supported.
+- The statement that the findings "pave the way for ameliorating phase-related pathologies" is speculative and not supported by data in the manuscript.

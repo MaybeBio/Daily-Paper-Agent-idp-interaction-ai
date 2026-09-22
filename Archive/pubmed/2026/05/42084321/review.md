@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, equations, figures, tables, or supplementary material were available for inspection
+- **Shared manuscript claim summary** The authors propose a variational method to estimate diffusion coefficients and free-energy profiles along collective variables from projected molecular dynamics trajectories under equilibrium and non-equilibrium conditions. The method assumes a Gaussian form for the short-time transition probability density, defines a loss function based on the sum of Kullback-Leibler divergences between analytical short-time propagators of an overdamped Langevin model and those estimated from trajectories, and minimizes this loss via an adaptive Monte Carlo scheme. A robust alternative is claimed for cases where the Gaussian approximation fails. The method is applied to two model systems and to water diffusion across a biomolecular condensate interface, with claims of robustness and accuracy.
+- **Visible evidence base** Abstract text only; no figures, tables, equations, or numerical results provided
+- **Missing materials affecting confidence** Full manuscript, all equations, derivations, simulation details, error metrics, convergence criteria, and quantitative results for the three applications
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting variational approach to a well-recognized challenge in molecular dynamics analysis, namely the simultaneous estimation of position-dependent diffusion and free-energy profiles from projected trajectories. The core idea, using Kullback-Leibler divergence between analytical and empirical short-time propagators within an overdamped Langevin framework, is plausible and potentially valuable. However, the abstract alone provides insufficient detail to assess the mathematical rigor, the validity of the Gaussian assumption, the behavior of the proposed alternative, the convergence properties of the Monte Carlo minimization, or the quantitative performance on the test systems. The claims of robustness and accuracy are not substantiated by any numerical evidence in the supplied material.
+- **Who would be interested in the results, and why** Researchers in computational chemistry, biophysics, and statistical mechanics who use molecular dynamics simulations to study rare events, barrier crossing, and transport phenomena. The method could be of interest to those working on enhanced sampling, Markov state models, and the analysis of collective-variable dynamics in complex systems such as biomolecular condensates, membranes, and ion channels. The potential to estimate both diffusion and free-energy profiles from a single framework under non-equilibrium conditions would appeal to practitioners seeking practical tools for trajectory analysis.
+- **Major strengths** The variational formulation is conceptually elegant and addresses a genuine methodological gap. The use of Kullback-Leibler divergence as a loss function is theoretically well motivated. The explicit consideration of non-equilibrium conditions broadens the applicability beyond standard equilibrium analyses. The inclusion of a fallback for cases where the Gaussian approximation fails indicates awareness of the method's limitations. The application to a biomolecular condensate system suggests practical relevance to current research areas.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method "allows for its analytic evaluation" of the loss function and "efficiently minimize[s] this loss function by varying diffusion and free-energy profiles" using an adaptive Monte Carlo scheme.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims analytic evaluation of the loss function and efficient minimization, but provides no details on the functional forms, the nature of the variational parameters, the dimensionality of the optimization, or the convergence guarantees of the adaptive Monte Carlo scheme. Without this information, the computational efficiency and practical feasibility of the method cannot be assessed.
+  - **Why it matters** The central selling point of the method is efficiency. If the optimization is prone to local minima, requires extensive tuning, or scales poorly with the number of collective variables, the practical utility would be severely limited. The claim of efficiency is unverifiable from the abstract alone.
+  - **Resolution test** Provide the explicit form of the loss function, the parametrization of the diffusion and free-energy profiles, the update rules of the adaptive Monte Carlo scheme, and benchmarks showing convergence behavior and computational cost relative to existing methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method is "based on the assumption that the short-time transition probability density of the coordinate moves can be approximated by a Gaussian form" and "for cases where the Gaussian approximation is insufficient, we present a robust alternative."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify the conditions under which the Gaussian approximation is expected to hold, nor does it describe the nature of the "robust alternative." Without this information, it is impossible to judge the scope of applicability of the method or the reliability of the alternative in regimes where the Gaussian assumption breaks down.
+  - **Why it matters** The validity of the Gaussian approximation is the foundational assumption of the method. If the alternative is not rigorously derived or tested, the method's applicability to realistic systems with strong position-dependent friction or non-Markovian effects remains unclear.
+  - **Resolution test** State the mathematical conditions for the Gaussian approximation to be valid, describe the alternative approach in sufficient detail to assess its theoretical basis, and provide numerical tests on systems where the Gaussian assumption is known to fail.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The method "is applied to two model systems exhibiting diffusive dynamics, as well as to water diffusion across the interface of a biomolecular condensate, demonstrating its robustness and accuracy."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative results are presented. The claims of robustness and accuracy are unsupported by any numerical data, error estimates, or comparisons with reference methods. The choice of test systems and the criteria for assessing accuracy are not described.
+  - **Why it matters** The demonstration of robustness and accuracy is the primary evidence for the method's validity. Without quantitative metrics, the reader cannot evaluate whether the method performs adequately, whether the errors are acceptable, or whether the method offers advantages over existing approaches.
+  - **Resolution test** Provide figures or tables showing estimated versus reference profiles, error metrics (e.g., mean squared error, relative error), and comparisons with established methods for each test system.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses specialized terminology such as "overdamped Langevin model" and "Kullback-Leibler divergences" without brief contextual explanation, which may limit accessibility for readers outside the immediate field.
+  - **Required correction** Add a brief parenthetical explanation of these terms or rephrase to make the core idea understandable to a broader physical chemistry audience.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Method scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the dimensionality of the collective variables considered or whether the method scales to multidimensional cases, which is a common practical concern.
+  - **Required correction** Mention whether the method is demonstrated for one-dimensional or multidimensional collective variables and comment on scalability.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No information is given about the molecular dynamics simulation parameters, force fields, or system sizes for the condensate application, which are essential for reproducibility.
+  - **Required correction** Include simulation details in the full manuscript and summarize key parameters in the abstract or a methods summary.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract does not provide sufficient mathematical detail, validity conditions, or quantitative evidence to establish the technical soundness and practical utility of the method.
+- **Assessment against Nature-style criteria** 
+  - Originality: The variational formulation using Kullback-Leibler divergence for joint estimation of diffusion and free-energy profiles appears novel, though the abstract does not clearly differentiate it from existing approaches such as maximum-likelihood estimators or Bayesian inference methods for Langevin dynamics.
+  - Scientific importance: The problem addressed is of significant importance to the molecular dynamics community, and a robust, efficient method would be valuable. However, the abstract does not demonstrate that the method offers a substantial advance over existing techniques.
+  - Interdisciplinary readership: The method is relevant to computational chemistry, biophysics, and statistical physics, but the abstract is written in a specialized style that may limit broader appeal.
+  - Technical soundness: Cannot be assessed from the abstract alone. The mathematical derivations, assumptions, and numerical implementation are not visible.
+  - Readability for nonspecialists: The abstract is concise but uses field-specific jargon without sufficient context, making it moderately accessible only to specialists.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual idea is promising, but the abstract alone does not provide sufficient mathematical detail, validity conditions, or quantitative results to support the claims of robustness and accuracy. A full review of the manuscript would be required to assess technical soundness. The recommendation would be supportive if the technical concerns are resolved with detailed derivations, convergence analysis, and quantitative benchmarks.
+
+## Risk / unsupported claims
+- The claim that the loss function "allows for its analytic evaluation" is unsupported without the explicit functional form.
+- The claim of "efficiently minimize[ing]" via an adaptive Monte Carlo scheme is unsupported without convergence analysis or computational benchmarks.
+- The claim of a "robust alternative" for cases where the Gaussian approximation is insufficient is unsupported without a description of the alternative and tests of its performance.
+- The claims of "robustness and accuracy" in the applications are unsupported without quantitative results or comparisons with reference methods.
+- The general applicability of the method to "both equilibrium and non-equilibrium conditions" is stated but not substantiated with specific examples or theoretical justification in the abstract.

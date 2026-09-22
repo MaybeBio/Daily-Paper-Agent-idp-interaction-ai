@@ -1,0 +1,232 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.07.07.499201",
+  "title": "Deciphering the conformations and dynamics of FG-nucleoporins in situ",
+  "doi": "10.1101/2022.07.07.499201",
+  "abstract": "The ∼120 MDa nuclear pore complex (NPC) acts as a gatekeeper for the molecular traffic between the nucleus and the cytosol. Small cargo readily passes through the transport channel, yet large cargo requires specialized nuclear transport receptors. While the scaffold structure that anchors the NPC in the double-layered nuclear envelope has been resolved to remarkable details, the spatial organization of intrinsically disordered nucleoporins (NUPs) within the central channel remains enigmatic. These so-called FG-NUPs account for about one-third of the total mass of the NPC and form the actual transport barrier. Here we combined site-specific fluorescent labeling in non-fixed cells and fluorescent lifetime imaging microscopy (FLIM) to directly decipher the conformations of an essential constituent of the permeability barrier, NUP98, inside the functioning NPCs using Fluorescence resonance energy transfer (FRET). With detailed measurements of the distance distribution of eighteen NUP98 segments combined with coarse-grained modeling, we mapped the uncharted biochemical environment inside the nanosized transport channel. We found that ‘good-solvent’ conditions for a polymer dominate the inside of the nanosized NPC, expand the FG-domain in situ and facilitate nuclear transport, in sharp contrast to the collapsed NUP98 FG-chain in aqueous solution. The combination of fluorescence microscopy, high-resolution electron tomography, and molecular simulation opens a window into the so-far unresolved organization of the FG-NUPs at the center of NPC function, allowing us to reconcile scientific models of nuclear transport.",
+  "authors": [
+    "Yu M",
+    "Heidari M",
+    "Mikhaleva S",
+    "Tan P",
+    "Mingu S",
+    "Ruan H",
+    "Reinkermeier C",
+    "Obarska-Kosinska A",
+    "Siggel M",
+    "Beck M",
+    "Hummer G",
+    "Lemke E"
+  ],
+  "published_date": "2022-07-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.07.07.499201",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.07.07.499201.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR515826",
+    "raw_record": {
+      "id": "PPR515826",
+      "source": "PPR",
+      "doi": "10.1101/2022.07.07.499201",
+      "title": "Deciphering the conformations and dynamics of FG-nucleoporins  <i>in situ</i>",
+      "authorString": "Yu M, Heidari M, Mikhaleva S, Tan P, Mingu S, Ruan H, Reinkermeier C, Obarska-Kosinska A, Siggel M, Beck M, Hummer G, Lemke E.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Yu M",
+            "lastName": "Yu",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5890-9204"
+            }
+          },
+          {
+            "fullName": "Heidari M",
+            "lastName": "Heidari",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8081-6602"
+            }
+          },
+          {
+            "fullName": "Mikhaleva S",
+            "lastName": "Mikhaleva",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8427-2211"
+            }
+          },
+          {
+            "fullName": "Tan P",
+            "lastName": "Tan",
+            "firstName": "P.S.",
+            "initials": "P"
+          },
+          {
+            "fullName": "Mingu S",
+            "lastName": "Mingu",
+            "initials": "S"
+          },
+          {
+            "fullName": "Ruan H",
+            "lastName": "Ruan",
+            "initials": "H"
+          },
+          {
+            "fullName": "Reinkermeier C",
+            "lastName": "Reinkermeier",
+            "firstName": "C.D.",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2821-218X"
+            }
+          },
+          {
+            "fullName": "Obarska-Kosinska A",
+            "lastName": "Obarska-Kosinska",
+            "initials": "A"
+          },
+          {
+            "fullName": "Siggel M",
+            "lastName": "Siggel",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3393-4988"
+            }
+          },
+          {
+            "fullName": "Beck M",
+            "lastName": "Beck",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7397-1321"
+            }
+          },
+          {
+            "fullName": "Hummer G",
+            "lastName": "Hummer",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7768-746X"
+            }
+          },
+          {
+            "fullName": "Lemke E",
+            "lastName": "Lemke",
+            "firstName": "E.A.",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0634-0503"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7768-746X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8427-2211"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0634-0503"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5890-9204"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7397-1321"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8081-6602"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2821-218X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3393-4988"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The ∼120 MDa nuclear pore complex (NPC) acts as a gatekeeper for the molecular traffic between the nucleus and the cytosol. Small cargo readily passes through the transport channel, yet large cargo requires specialized nuclear transport receptors. While the scaffold structure that anchors the NPC in the double-layered nuclear envelope has been resolved to remarkable details, the spatial organization of intrinsically disordered nucleoporins (NUPs) within the central channel remains enigmatic. These so-called FG-NUPs account for about one-third of the total mass of the NPC and form the actual transport barrier. Here we combined site-specific fluorescent labeling in non-fixed cells and fluorescent lifetime imaging microscopy (FLIM) to directly decipher the conformations of an essential constituent of the permeability barrier, NUP98, inside the functioning NPCs using Fluorescence resonance energy transfer (FRET). With detailed measurements of the distance distribution of eighteen NUP98 segments combined with coarse-grained modeling, we mapped the uncharted biochemical environment inside the nanosized transport channel. We found that ‘good-solvent’ conditions for a polymer dominate the inside of the nanosized NPC, expand the FG-domain  in situ and facilitate nuclear transport, in sharp contrast to the collapsed NUP98 FG-chain in aqueous solution. The combination of fluorescence microscopy, high-resolution electron tomography, and molecular simulation opens a window into the so-far unresolved organization of the FG-NUPs at the center of NPC function, allowing us to reconcile scientific models of nuclear transport.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/08/2022.07.07.499201.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.07.07.499201"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-07-10",
+      "firstPublicationDate": "2022-07-08",
+      "firstIndexDate": "2022-07-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

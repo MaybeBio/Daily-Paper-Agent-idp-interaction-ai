@@ -1,0 +1,24 @@
+{
+  "source": "chemrxiv",
+  "id": "10.26434/chemrxiv-2025-m5m0p/v3",
+  "title": "NMR spin relaxation enables rigorous selection of realistic intrinsically disordered protein ensembles from molecular dynamics simulations",
+  "authors": "Cajsa Malm; Mykhailo Girych; Tobias Rindfleisch; Julianne Hoeflich; Batuhan Kav; O. H. Samuli Ollila",
+  "journal": "ChemRxiv",
+  "published_date": "2026-03-20",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用MD模拟结合NMR自旋弛豫数据筛选IDP构象系综，虽未直接研究PPI，但为无序蛋白构象建模提供了高质量基准，对后续IDP互作机制建模有方法学启发。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are prevalent in eukaryotic proteomes and play a crucial role in biological processes, despite lacking a well-defined three-dimensional structure. However, characterizing their conformational ensembles remains challenging due to limitations of traditional structural biology techniques. Here, we present an automated Quality Evaluation Based Simulation Selection (QEBSS) protocol that integrates molecular dynamics simulations with NMR spin relaxation data to determine experimentally validated conformational ensembles of IDPs. We demonstrate that spin relaxation measurements provide more stringent discrimination between distinct IDP ensembles than chemical shift or small-angle X-ray scattering (SAXS) data. Applying QEBSS to four biologically diverse IDPs—alpha-synuclein, KRS1-72, ChiZ1-64, and ICL2—we reveal a spectrum of conformational behaviors ranging from near-random coil structures to compact, transiently ordered states. Alpha-synuclein exhibits minimal backbone correlations consistent with a random coil ensemble, KRS1-72 displays charge-driven transient looping, ChiZ1-64 shows moderate backbone ordering, while ICL2 adopts a relatively compact conformation with extensive intrachain contacts despite remaining intrinsically disordered. These experimentally validated ensembles provide insights into how conformational properties relate to biological function and establish high-resolution benchmark datasets for developing improved force fields and machine learning models for IDP prediction.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在真核生物蛋白质组中普遍存在，尽管缺乏明确的三维结构，但在生物过程中扮演关键角色。然而，由于传统结构生物学技术的局限性，表征其构象系综仍具挑战性。在此，我们提出一种自动化质量评估模拟选择 (QEBSS) 协议，该协议整合分子动力学模拟与NMR自旋弛豫数据，以确定经实验验证的IDP构象系综。我们证明，与化学位移或小角X射线散射 (SAXS) 数据相比，自旋弛豫测量能更严格地区分不同的IDP系综。将QEBSS应用于四种生物学多样的IDP——α-突触核蛋白、KRS1-72、ChiZ1-64和ICL2——我们揭示了从近随机卷曲结构到紧凑、瞬时有序状态的构象行为谱系。α-突触核蛋白表现出与随机卷曲系综一致的最小骨架相关性，KRS1-72显示电荷驱动的瞬时环化，ChiZ1-64表现出中等程度的骨架有序性，而ICL2则采用相对紧凑的构象，具有广泛的链内接触，尽管仍保持内在无序。这些经实验验证的系综提供了关于构象特性与生物功能关系的见解，并为开发改进的力场和机器学习模型用于IDP预测建立了高分辨率基准数据集。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://doi.org/10.26434/chemrxiv-2025-m5m0p/v3",
+  "source_url": "https://doi.org/10.26434/chemrxiv-2025-m5m0p/v3",
+  "paper_page_path": "papers/chemrxiv/10.26434_chemrxiv-2025-m5m0p_v3/index.html"
+}

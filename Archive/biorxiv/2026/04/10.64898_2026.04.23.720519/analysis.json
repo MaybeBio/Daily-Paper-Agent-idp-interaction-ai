@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.23.720519",
+  "title": "Graph Neural Networks (GNNs) for Protein-Ligand Interaction Prediction",
+  "authors": "Subhasankar Khilar; Elamathi Natarajan",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-24",
+  "window": {
+    "start": "2026-04-20",
+    "end": "2026-04-26"
+  },
+  "score": 4,
+  "one_liner_zh": "该文综述GNN在蛋白-配体相互作用预测中的应用，对象为折叠蛋白与小分子配体，非无序蛋白/IDR/相分离，且无具体互作机制建模，仅方法综述，对本课题启发有限。",
+  "abstract": "Predicting protein-ligand interactions in the modern drug discovery has revolved from the involvement of artificial intelligence and structural bioinformatics using Graph Neural Networks (GNNs). The limited explainability of GNN models presents an important encumbrance in biomedical research, but it has achieved a high degree of accuracy in determining and identifying binding affinity and active compounds, as evidenced by [1] [2] [3] [4]. Here this research focuses on the interpretation of protein-ligand interactions at a molecular level, a rapidly developing area within Graph Neural Networks (GNNs). Now days modern study handling techniques such as visualization techniques, attention mechanism and model-based feature ascription by model to boost, and make robust and decrease false predictions on binding. Along with some approaches include like graph pooling strategies, message-passing optimization, self-supervised learning, transfer learning and contrastive learning are rapidly utilized to enhance the representative learnings. Furthermore, integration of molecular docking simulations, hybrid deep learning architectures and protein language model gives more reliable & biological predictions of protein-ligand interactions. That focuses on given process that identifies key ligand atoms and binding residues, as well as physicochemical factors influencing affinity, through chemical thought processes. Here this research work identified the challenges of developing biologically significant explanations, transparency, and the corollary dataset biases on interpretability. The research work conducted an in-depth investigation into the consolidation of protein language models to establish more reliable pathways for future research, examining hybrid architectures, transparent and energy-efficient GNNs, and scientifically grounded AI models for drug discovery. My research work highlights that XGNNs establishes a connection between Deep Learning and Biochemical expertise with increased confidence, which will enhance the accuracy of predictive models and computational models.",
+  "abstract_zh": "在现代药物发现中，预测蛋白质-配体相互作用已转向利用人工智能和结构生物信息学，特别是通过图神经网络（Graph Neural Networks, GNNs）。尽管GNN模型在确定和识别结合亲和力及活性化合物方面已达到高精度，如文献[1][2][3][4]所示，但其有限的可解释性在生物医学研究中构成重要障碍。本研究聚焦于分子水平上蛋白质-配体相互作用的解释，这是图神经网络（GNNs）中一个快速发展的领域。当前，现代研究技术如可视化方法、注意力机制和基于模型的特征归因被用于增强模型，使其更稳健并减少结合预测中的错误。此外，包括图池化策略、消息传递优化、自监督学习、迁移学习和对比学习在内的方法正被迅速采用，以提升表征学习能力。进一步地，分子对接模拟、混合深度学习架构和蛋白质语言模型的整合，为蛋白质-配体相互作用提供了更可靠且具有生物学意义的预测。本研究通过化学思维过程，识别关键配体原子和结合残基，以及影响亲和力的物理化学因素。本研究工作指出了开发具有生物学意义的解释、透明性以及由此产生的数据集偏差对可解释性所带来的挑战。研究深入探讨了蛋白质语言模型的整合，以建立更可靠的未来研究路径，考察了混合架构、透明且能效高的GNNs，以及基于科学依据的AI药物发现模型。我的研究工作强调，XGNNs以更高的置信度建立了深度学习与生物化学专业知识之间的联系，这将提升预测模型和计算模型的准确性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.23.720519",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.23.720519",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.23.720519/index.html"
+}

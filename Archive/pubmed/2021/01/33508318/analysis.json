@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33508318",
+  "title": "Kinase inhibitors allosterically disrupt a regulatory interaction to enhance PKCalpha membrane translocation.",
+  "authors": "Lippert, Lisa G; Ma, Ning; Ritt, Michael; Jain, Abhinandan; Vaidehi, Nagarajan; Sivaramakrishnan, Sivaraj",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2021-01-29",
+  "window": {
+    "start": "2021-01-25",
+    "end": "2021-01-31"
+  },
+  "score": 7,
+  "one_liner_zh": "该文整合多尺度分子动力学模拟与FRET实验，揭示激酶抑制剂通过变构调控无序G-loop释放C1a结构域并增强PKCalpha膜转位的机制，虽对象非典型IDP-PPI，但无序区域构象变化驱动蛋白-膜/蛋白互作的机制建模思路对本课题有可迁移启发。",
+  "abstract": "The eukaryotic kinase domain has multiple intrinsically disordered regions whose conformation dictates kinase activity. Small molecule kinase inhibitors (SMKIs) rely on disrupting the active conformations of these disordered regions to inactivate the kinase. While SMKIs are selected for their ability to cause this disruption, the allosteric effects of conformational changes in disordered regions is limited by a lack of dynamic information provided by traditional structural techniques. In this study, we integrated multiscale molecular dynamics simulations with FRET sensors to characterize a novel allosteric mechanism that is selectively triggered by SMKI binding to the protein kinase Calpha domain. The indole maleimide inhibitors BimI and sotrastaurin were found to displace the Gly-rich loop (G-loop) that normally shields the ATP-binding site. Displacement of the G-loop interferes with a newly identified, structurally conserved binding pocket for the C1a domain on the N lobe of the kinase domain. This binding pocket, in conjunction with the N-terminal regulatory sequence, masks a diacylglycerol (DAG) binding site on the C1a domain. SMKI-mediated displacement of the G-loop released C1a and exposed the DAG binding site, enhancing protein kinase Calpha translocation both to synthetic lipid bilayers and to live cell membranes in the presence of DAG. Inhibitor chemotype determined the extent of the observed allosteric effects on the kinase domain and correlated with the extent of membrane recruitment. Our findings demonstrate the allosteric effects of SMKIs beyond the confines of kinase catalytic conformation and provide an integrated computational-experimental paradigm to investigate parallel mechanisms in other kinases.",
+  "abstract_zh": "真核激酶结构域包含多个内在无序区域，其构象决定激酶活性。小分子激酶抑制剂（SMKIs）依赖于破坏这些无序区域的活性构象来使激酶失活。尽管SMKIs因其能够引发这种破坏而被选择，但无序区域构象变化的变构效应受限于传统结构技术缺乏动态信息。在本研究中，我们整合了多尺度分子动力学 (molecular dynamics) 模拟与FRET传感器，以表征一种由SMKI结合蛋白激酶Cα结构域选择性触发的新型变构机制。发现吲哚马来酰亚胺抑制剂BimI和sotrastaurin能够移位通常保护ATP结合位点的甘氨酸富集环（G-loop）。G-loop的移位干扰了一个新识别的、结构保守的激酶结构域N叶上C1a结构域结合口袋。该结合口袋与N端调控序列协同作用，掩盖了C1a结构域上的二酰甘油（DAG）结合位点。SMKI介导的G-loop移位释放了C1a并暴露了DAG结合位点，在DAG存在下增强了蛋白激酶Cα向合成脂质双层和活细胞膜的转位。抑制剂化学型决定了观察到的激酶结构域变构效应的程度，并与膜招募程度相关。我们的发现证明了SMKIs在激酶催化构象范围之外的变构效应，并提供了一种整合计算-实验范式，以研究其他激酶中的平行机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33508318/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33508318/",
+  "paper_page_path": "papers/pubmed/33508318/index.html"
+}

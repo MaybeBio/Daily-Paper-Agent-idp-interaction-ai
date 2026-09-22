@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusion. Supplementary figures are referenced but not provided.
+- **Assessment boundary** Scientific content, methodological soundness, and interpretation of results as presented in the manuscript. No assessment of editorial fit or journal-specific policy.
+- **Shared manuscript claim summary** The authors use atomistic discrete molecular dynamics (DMD) simulations to show that Aβ and medin monomers are aggregation-prone, form β-sheet-rich homo- and hetero-dimers, that co-aggregation does not hinder further recruitment of peptides into larger aggregates, that β-barrel oligomer intermediates form during co-aggregation, and that preformed Aβ fibrils can cross-seed medin monomers into elongated β-sheets. The authors conclude that cross-talk between Aβ and medin may contribute to pathological aggregation and that targeting medin could be a therapeutic strategy for Alzheimer's disease.
+- **Visible evidence base** Main text figures 1–7, supplementary figures S1–S16 (referenced but not provided), Table 1 (referenced but not provided), methods section describing DMD simulation protocols and analysis methods.
+- **Missing materials affecting confidence** Supplementary figures S1–S16, Table 1, simulation input parameters, force field details, convergence criteria details, and raw trajectory data. These are essential for verifying the claims but are not available in the provided material.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a computational study of the cross-interaction between medin and Aβ using DMD simulations. The topic is timely and relevant given the emerging interest in medin as a vascular risk factor in Alzheimer's disease. The simulation design is reasonable, and the authors address an important gap in understanding the molecular basis of medin-Aβ co-aggregation. However, several technical concerns limit the strength of the conclusions. The lack of quantitative validation against experimental data, the absence of key methodological details, and the reliance on qualitative descriptions of simulation outcomes weaken the case. The claim that β-barrel oligomers form during co-aggregation is particularly under-supported given the small system sizes and the absence of structural validation. The therapeutic implication is speculative and not directly supported by the simulation data.
+- **Who would be interested in the results, and why** Researchers studying amyloid aggregation, particularly those interested in heterologous cross-interactions between amyloidogenic proteins. The work may also appeal to investigators focused on vascular contributions to Alzheimer's disease and to computational biologists using coarse-grained or discrete molecular dynamics methods. The potential link between medin and Aβ pathology is clinically relevant, and the study could inform future experimental designs.
+- **Major strengths** The study addresses a clinically relevant and understudied interaction. The use of DMD allows for extended simulation timescales, which is appropriate for studying conformational transitions in intrinsically disordered proteins. The authors systematically investigate monomer dynamics, dimerization, tetramer formation, and cross-seeding, providing a comprehensive computational picture. The comparison of secondary structure propensities with experimental data (NMR, CD) adds credibility. The identification of specific β-sheet regions in both proteins and their overlap with known amyloidogenic segments is a useful contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "both Aβ and medin were aggregation prone and their mixture tended to form β-sheet-rich hetero-aggregates" and that "the formation of Aβ-medin hetero-aggregates did not hinder Aβ and medin from recruiting additional Aβ and medin peptides to grow into larger β-sheet-rich aggregates."
+  - **Evidence pointer** Results section, Figures 2, 4, 5; Supplementary Figures S5–S16 (not provided)
+  - **Concern** The simulations use only two or four peptides in a cubic box. This system size is far too small to draw conclusions about aggregation propensity or the ability to recruit additional peptides into larger aggregates. The claim that "the formation of Aβ-medin hetero-aggregates did not hinder the capability of Aβ and medin to recruit additional Aβ and medin peptides" is based on a tetramer system, which cannot represent the growth of larger aggregates. The authors do not provide any quantitative measure of aggregation propensity, such as free energy of association, contact lifetimes, or comparison with control systems. The conclusion that these peptides are "aggregation prone" is qualitative and not supported by statistical analysis across independent simulations.
+  - **Why it matters** The central claims of the manuscript rest on the behavior of small oligomers. Without larger systems or quantitative metrics, the conclusions about aggregation propensity and the lack of hindrance to further recruitment are not established. This undermines the relevance of the findings to the pathological aggregation process, which involves much larger assemblies.
+  - **Resolution test** The authors should either (a) perform simulations with larger numbers of peptides (e.g., 8–16) to demonstrate that hetero-aggregates can grow, or (b) provide quantitative measures such as potential of mean force, association free energies, or dimerization rates, and compare these with appropriate controls. They should also provide a statistical analysis of the frequency of aggregation events across independent simulations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "the potentially toxic β-barrel oligomers observed in the individual aggregations of Aβ and medin were also present in their co-aggregated hetero-complexes."
+  - **Evidence pointer** Results section, Figure 6
+  - **Concern** The identification of β-barrel oligomers is based on visual inspection of simulation snapshots. No quantitative structural criteria are provided for what constitutes a β-barrel. The authors do not report the frequency of β-barrel formation across the 50 independent simulations, nor do they compare the structural features of these putative β-barrels with known β-barrel structures from prior studies. The system sizes (2–4 peptides) are too small to form a canonical β-barrel, which typically requires at least 6–8 β-strands. The claim that these are "potentially toxic" is speculative and not supported by any functional or biophysical data.
+  - **Why it matters** The β-barrel claim is a significant part of the paper's novelty and its link to the amyloid-pore toxicity hypothesis. If the identification is not rigorous, this claim is not established. The small system size makes the observation of β-barrels physically implausible, and the authors do not address this discrepancy.
+  - **Resolution test** The authors should provide a quantitative definition of β-barrel (e.g., hydrogen bonding patterns, geometry, number of strands) and report the frequency of such structures across all simulations. They should also discuss how a β-barrel can form with only 2–4 peptides, or perform simulations with larger systems to demonstrate β-barrel formation. If β-barrels are not reproducibly observed, the claim should be removed or substantially weakened.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "targeting medin, therefore, could offer a novel therapeutic approach to preserving brain function during aging and AD by improving vascular health."
+  - **Evidence pointer** Abstract, Introduction, Conclusion
+  - **Concern** The therapeutic implication is presented as a direct outcome of the simulation results, but the simulations only show that medin and Aβ can co-aggregate in silico. There is no evidence that disrupting medin-Aβ interactions would be beneficial, nor is there any consideration of the physiological context (e.g., concentrations, cellular environment, clearance mechanisms). The leap from molecular simulations to therapeutic recommendations is not justified by the data presented.
+  - **Why it matters** Overstating therapeutic implications can mislead readers and dilute the scientific message. The manuscript would be stronger if the therapeutic suggestion were framed as a speculative hypothesis requiring experimental validation.
+  - **Resolution test** The authors should either remove or substantially soften the therapeutic claim, or add a clear statement that this is a speculative implication that requires experimental testing. They should also discuss the limitations of using in silico data to infer therapeutic targets.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the representative centroid structures of the top 10 most populated conformations of the medin monomer, accounting for approximately 45.7% of the saturated conformations, were employed as the initial medin structures for the subsequent homo- and hetero-oligomerization, as well as cross-seeding simulations."
+  - **Evidence pointer** Methods section, Molecular systems
+  - **Concern** The choice of initial structures from monomer simulations may introduce bias into the oligomerization simulations. The authors do not demonstrate that the selected 10 conformations are representative of the full conformational ensemble, nor do they test whether the results are sensitive to the choice of initial structures. The 45.7% coverage is not a measure of representativeness but of population fraction, and the authors do not explain why this is sufficient.
+  - **Why it matters** If the initial structures are not representative, the oligomerization and cross-seeding results could be artifacts of the starting conformations. This would undermine the validity of the conclusions.
+  - **Resolution test** The authors should perform a sensitivity analysis by repeating key simulations with different sets of initial structures (e.g., randomly selected from the full ensemble) and show that the results are consistent. They should also provide a more rigorous justification for the choice of initial structures.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** Location not provided
+  - **Issue** The introduction assumes familiarity with the amyloid-pore hypothesis and the details of medin biology. A brief explanation of why β-barrel oligomers are considered toxic would help nonspecialist readers.
+  - **Required correction** Add one or two sentences explaining the amyloid-pore hypothesis and its relevance to neurodegeneration.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, DMD simulations
+  - **Evidence pointer** Location not provided
+  - **Issue** The authors state that the DMD software is accessible through Molecules In Action, LLC, but do not provide a version number or specific citation for the software. This makes it difficult for readers to reproduce the simulations.
+  - **Required correction** Provide a specific citation for the DMD software version used, or include a reference to a published description of the method.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Conformational dynamics of Aβ and medin monomers
+  - **Evidence pointer** Figure 1
+  - **Issue** The authors report that medin monomers have more stable β-sheet conformations than Aβ, but they do not provide a quantitative measure of stability (e.g., lifetime of β-sheet states, free energy differences). The claim is based on visual inspection of trajectories.
+  - **Required correction** Provide quantitative metrics for β-sheet stability, such as the fraction of time spent in β-sheet conformations or the free energy difference between β-sheet and non-β-sheet states.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion, Cross-seeding section
+  - **Evidence pointer** Figure 7
+  - **Issue** The discussion of cross-seeding would benefit from a clearer explanation of why the observation of medin binding to the Aβ fibril elongation end is significant. The authors mention the hypothesis by Xi et al. but do not explain it in sufficient detail for readers outside the amyloid field.
+  - **Required correction** Expand the discussion of the Xi et al. hypothesis and its implications for understanding cross-seeding between different amyloid proteins.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (system size and lack of quantitative aggregation metrics), R1-M2 (unsubstantiated β-barrel identification), R1-M4 (potential bias from initial structure selection). These concerns directly affect the validity of the central claims and must be resolved before the conclusions can be accepted.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a relatively unexplored interaction between medin and Aβ. The use of DMD to study heterologous cross-interactions is not entirely novel, but the specific focus on medin-Aβ is a new contribution. However, the originality is tempered by the lack of new methodological approaches or unexpected findings.
+  - Scientific importance: The topic is clinically relevant, given the link between vascular factors and Alzheimer's disease. If the findings were robust, they could inform future experimental studies. However, the current evidence is insufficient to establish the importance of the specific claims.
+  - Interdisciplinary readership: The work may appeal to computational biologists, amyloid researchers, and those interested in vascular contributions to neurodegeneration. The writing is generally accessible, though some sections assume specialized knowledge.
+  - Technical soundness: The DMD methodology is appropriate for the questions asked, but the analysis is largely qualitative. The lack of quantitative metrics, sensitivity analyses, and validation against experimental data weakens the technical foundation.
+  - Readability for nonspecialists: The manuscript is generally well-written, but the introduction and discussion could be improved to make the significance of the findings clearer to a broader audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an interesting and timely question, but the technical concerns, particularly regarding system size, β-barrel identification, and lack of quantitative analysis, prevent the conclusions from being supported. The authors should address these issues and provide additional validation before the case is made.
+
+## Risk / unsupported claims
+- The claim that β-barrel oligomers form during co-aggregation is unsupported due to the small system size and lack of quantitative structural criteria.
+- The claim that "targeting medin could offer a novel therapeutic approach" is speculative and not directly supported by the simulation data.
+- The claim that "the formation of Aβ-medin hetero-aggregates did not hinder the capability of Aβ and medin to recruit additional peptides" is not established from tetramer simulations.
+- The assertion that the simulation results "shed light on the co-occurrence of AMA and AD" is an overreach, as the simulations do not model the physiological context of co-occurrence.
+- The statement that medin's β-sheet conformations are "notably more stable" than Aβ's is not quantitatively supported.

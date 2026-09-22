@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "35062867",
+    "doi": "10.1186/s12859-022-04577-2",
+    "title": "Intelligent fluorescence image analysis of giant unilamellar vesicles using convolutional neural network."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Fluorescence image analysis in biochemical science often involves the complex tasks of identifying samples for analysis and calculating the desired information from the intensity traces. Analyzing giant unilamellar vesicles (GUVs) is one of these tasks. Researchers need to identify many vesicles to statistically analyze the degree of molecular interaction or state of molecular organization on the membranes. This analysis is complicated, requiring a careful manual examination by researchers, so automating the analysis can significantly aid in improving its efficiency and reliability. RESULTS: We developed a convolutional neural network (CNN) assisted intelligent analysis routine based on the whole 3D z-stack images. The programs identify the vesicles with desired morphology and analyzes the data automatically. The programs can perform protein binding analysis on the membranes or state decision analysis of domain phase separation. We also show that the method can easily be applied to similar problems, such as intensity analysis of phase-separated protein droplets. CNN-based classification approach enables the identification of vesicles even from relatively complex samples. We demonstrate that the proposed artificial intelligence-assisted classification can further enhance the accuracy of the analysis close to the performance of manual examination in vesicle selection and vesicle state determination analysis. CONCLUSIONS: We developed a MATLAB based software capable of efficiently analyzing confocal fluorescence image data of giant unilamellar vesicles. The program can automatically identify GUVs with desired morphology and perform intensity-based calculation and state decision for each vesicle. We expect our method of CNN implementation can be expanded and applied to many similar problems in image data analysis.",
+    "keywords": [
+      "Cognitive neural network",
+      "Deep learning",
+      "Fluorescence imaging",
+      "Image analysis",
+      "Lipid membrane",
+      "Membrane reconstitution",
+      "Phase separation",
+      "Protein droplet",
+      "Vesicle analysis"
+    ],
+    "mesh_terms": [
+      "*Artificial Intelligence",
+      "Image Processing, Computer-Assisted",
+      "Neural Networks, Computer",
+      "Reproducibility of Results",
+      "*Unilamellar Liposomes"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Il-Hyung",
+        "Passaro, Sam",
+        "Ozturk, Selin",
+        "Urena, Juan",
+        "Wang, Weitian"
+      ],
+      "short_names": [
+        "Lee IH",
+        "Passaro S",
+        "Ozturk S",
+        "Urena J",
+        "Wang W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6755-3257"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, Montclair State University, Montclair, NJ, 07043, USA. leei@montclair.edu.",
+        "Department of Chemistry and Biochemistry, Montclair State University, Montclair, NJ, 07043, USA.",
+        "Department of Chemistry and Biochemistry, Montclair State University, Montclair, NJ, 07043, USA.",
+        "Department of Chemistry and Biochemistry, Montclair State University, Montclair, NJ, 07043, USA.",
+        "Department of Computer Science, Montclair State University, Montclair, NJ, 07043, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Il-Hyung",
+        "short_name": "Lee IH",
+        "identifiers": [
+          "0000-0001-6755-3257"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Montclair State University, Montclair, NJ, 07043, USA. leei@montclair.edu."
+        ]
+      },
+      {
+        "full_name": "Passaro, Sam",
+        "short_name": "Passaro S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Montclair State University, Montclair, NJ, 07043, USA."
+        ]
+      },
+      {
+        "full_name": "Ozturk, Selin",
+        "short_name": "Ozturk S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Montclair State University, Montclair, NJ, 07043, USA."
+        ]
+      },
+      {
+        "full_name": "Ureña, Juan",
+        "short_name": "Ureña J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, Montclair State University, Montclair, NJ, 07043, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Weitian",
+        "short_name": "Wang W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Montclair State University, Montclair, NJ, 07043, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2022 Jan 21",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/23 06:00",
+    "fetched_at": "2026-09-20 07:47:03"
+  },
+  "links": {
+    "cites": [
+      "37175944"
+    ],
+    "refs": [
+      "32716843",
+      "32407774",
+      "32302570",
+      "32025036",
+      "31476122",
+      "31179407",
+      "30665697",
+      "30573630",
+      "30475993",
+      "29472250",
+      "29432021",
+      "29142222",
+      "28935776",
+      "28420678",
+      "28225081",
+      "27500610",
+      "27374333",
+      "27370798",
+      "27343348",
+      "27212236",
+      "25747659",
+      "25426933",
+      "25321392",
+      "25318069",
+      "24554630",
+      "23442964",
+      "23321000",
+      "23083725",
+      "19460965",
+      "19348750",
+      "17976391",
+      "17677743",
+      "17360623",
+      "15574707",
+      "14581208",
+      "11959994",
+      "70454"
+    ],
+    "similar": [
+      "35062867",
+      "19703410",
+      "37175944",
+      "36508359",
+      "31760248",
+      "20013417",
+      "31042361",
+      "30475993",
+      "24554630",
+      "34925485",
+      "28432958",
+      "32602696",
+      "34889607",
+      "20493165",
+      "22444482",
+      "31156187",
+      "31958928",
+      "22750641",
+      "25650630",
+      "32028133",
+      "31426516",
+      "21524642",
+      "36136754",
+      "26342678",
+      "32641477",
+      "34618108",
+      "22026409",
+      "18819090",
+      "29705574",
+      "32444590",
+      "25556546",
+      "26417657",
+      "17209626",
+      "19287805",
+      "34294090",
+      "33712188",
+      "28203779",
+      "25997355",
+      "33667121",
+      "15491182",
+      "31691975",
+      "34343743",
+      "34283094",
+      "23589883",
+      "29597298",
+      "30977675",
+      "30298337",
+      "22951512",
+      "33855974",
+      "25413588",
+      "32324588",
+      "30852421",
+      "33770561",
+      "29335825",
+      "21702488",
+      "32681536",
+      "33670112",
+      "35548093",
+      "32494845",
+      "29428072",
+      "21320442",
+      "22155692",
+      "18353990",
+      "26920999",
+      "32416194",
+      "27409245",
+      "20413284",
+      "23823234",
+      "29963995",
+      "28205307",
+      "31220353",
+      "37100509",
+      "33428062",
+      "29930377",
+      "27420912",
+      "32468728",
+      "19342768",
+      "36461188",
+      "30070077",
+      "32488659",
+      "28703789",
+      "26756162",
+      "28549410",
+      "31838610",
+      "23328131",
+      "39347415",
+      "38516622",
+      "36700098",
+      "34402037",
+      "35707188",
+      "35635694",
+      "34853671",
+      "33961865",
+      "35257580",
+      "35971190",
+      "35150109",
+      "35801471",
+      "27477522",
+      "37414881",
+      "32966528",
+      "35464723",
+      "34765089",
+      "36976257",
+      "36226142"
+    ],
+    "review": [
+      "35062867",
+      "19287805",
+      "33667121",
+      "30298337"
+    ],
+    "pmc": [
+      "8783447"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04577-2",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35062867/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35062867",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/35062867",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

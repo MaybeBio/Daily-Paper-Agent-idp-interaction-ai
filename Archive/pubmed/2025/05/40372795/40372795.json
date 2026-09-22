@@ -1,0 +1,329 @@
+{
+  "identity": {
+    "pmid": "40372795",
+    "doi": "10.1021/acs.jpcb.4c08635",
+    "title": "Morin Interacts with alpha-Synuclein and Retards Its Fibrillation."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein is a small (14 kDa) intrinsically disordered water-soluble protein, and its unwanted aggregation and fibrillation are believed to play a critical role in the pathogenesis of Parkinson's disease. Our current investigation uniquely utilized intrinsic tyrosine fluorescence of alpha-synuclein and showed that morin hydrate (MOR), a polyhydroxyflavonol, in aqueous solution formed a 1:1 complex with a sub-micromolar range of binding affinity and stabilized the protein structure at an ambient solution condition. Steady-state fluorescence of the protein, in the presence of MOR, was quenched; however, the fluorescence lifetime ( approximately 1.28 ns) was not significantly perturbed; it indicated formation of ground-state association of the flavonol with the protein. The estimated binding constant was  approximately 4.5 x 10(4) M(-1) and indicated a weak binding interaction at room temperature ( approximately 25  degrees C). However, the presence of the MOR stabilizes the protein residues in their alpha-helical space; circular dichroism spectroscopic analysis revealed reduction in disordered content and an elevation of the protein conformation more toward the folded structure. A tandem use of atomic force microscopy and thioflavin T-based fluorescence measurement of the incubated samples in the presence of flavonol showed retardation of aggregation and associated fibrillation. Computational analysis also showed that the presence of the molecule rendered alpha-synuclein to be more compacted, and a greater number of amino acid residues were found to be in alpha-helical conformational space. Residues Val40, Glu126, Gln134, and Tyr136 were involved mainly in hydrogen bond interaction, and residues Gly41, Lys43, and Asp135 enhanced conformational stability via water bridges. The results confirmed that the weak but ample interaction of morin hydrate provided structural stability to otherwise highly fluctuating alpha-synuclein via hydrophobic and hydrogen bond interaction. It caused retardation in the processes of hydrophobic zipping (among the amyloidogenic regions), which is believed to be a key event in the processes of cross-beta-sheet-rich amyloid fibril formation, the event that is highly implicated in the pathology of Parkinson and other neurodegenerative diseases.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "*Flavonoids/chemistry/metabolism",
+      "Humans",
+      "Spectrometry, Fluorescence",
+      "Protein Binding",
+      "Protein Aggregates/drug effects",
+      "Flavones"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kundu, Shubham",
+        "Maity, Anupam",
+        "Misra, Rajdip",
+        "Bhunia, Mrinmay",
+        "Nanda, Banadipa",
+        "Adhikary, Ananya",
+        "Sahoo, Anik",
+        "Baitalik, Sujoy",
+        "Pal, Uttam",
+        "Saha, Saumen",
+        "Maiti, Nakul C"
+      ],
+      "short_names": [
+        "Kundu S",
+        "Maity A",
+        "Misra R",
+        "Bhunia M",
+        "Nanda B",
+        "Adhikary A",
+        "Sahoo A",
+        "Baitalik S",
+        "Pal U",
+        "Saha S",
+        "Maiti NC"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4409-462X",
+        "ORCID: 0000-0003-4698-3922",
+        "ORCID: 0000-0001-9720-6889",
+        "ORCID: 0000-0003-2110-4610",
+        "ORCID: 0000-0002-8498-6502"
+      ],
+      "affiliations": [
+        "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India.",
+        "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), CSIR-Human Resource Development Centre (CSIR-HRDC) Campus, Postal Staff College Area, Sector 19, Kamla Nehru Nagar, Ghaziabad, Uttar Pradesh 201 002, India.",
+        "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India.",
+        "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), CSIR-Human Resource Development Centre (CSIR-HRDC) Campus, Postal Staff College Area, Sector 19, Kamla Nehru Nagar, Ghaziabad, Uttar Pradesh 201 002, India.",
+        "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India.",
+        "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India.",
+        "Department of Chemistry, Jadavpur University, 188, Raja S.C. Mallick Rd., Kolkata 700032, India.",
+        "Department of Chemistry, Jadavpur University, 188, Raja S.C. Mallick Rd., Kolkata 700032, India.",
+        "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India.",
+        "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India.",
+        "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India.",
+        "Academy of Scientific and Innovative Research (AcSIR), CSIR-Human Resource Development Centre (CSIR-HRDC) Campus, Postal Staff College Area, Sector 19, Kamla Nehru Nagar, Ghaziabad, Uttar Pradesh 201 002, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kundu, Shubham",
+        "short_name": "Kundu S",
+        "identifiers": [
+          "0000-0003-4409-462X"
+        ],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Maity, Anupam",
+        "short_name": "Maity A",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), CSIR-Human Resource Development Centre (CSIR-HRDC) Campus, Postal Staff College Area, Sector 19, Kamla Nehru Nagar, Ghaziabad, Uttar Pradesh 201 002, India."
+        ]
+      },
+      {
+        "full_name": "Misra, Rajdip",
+        "short_name": "Misra R",
+        "identifiers": [
+          "0000-0003-4698-3922"
+        ],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Bhunia, Mrinmay",
+        "short_name": "Bhunia M",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), CSIR-Human Resource Development Centre (CSIR-HRDC) Campus, Postal Staff College Area, Sector 19, Kamla Nehru Nagar, Ghaziabad, Uttar Pradesh 201 002, India."
+        ]
+      },
+      {
+        "full_name": "Nanda, Banadipa",
+        "short_name": "Nanda B",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Adhikary, Ananya",
+        "short_name": "Adhikary A",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Sahoo, Anik",
+        "short_name": "Sahoo A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Jadavpur University, 188, Raja S.C. Mallick Rd., Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Baitalik, Sujoy",
+        "short_name": "Baitalik S",
+        "identifiers": [
+          "0000-0001-9720-6889"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Jadavpur University, 188, Raja S.C. Mallick Rd., Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Pal, Uttam",
+        "short_name": "Pal U",
+        "identifiers": [
+          "0000-0003-2110-4610"
+        ],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Saha, Saumen",
+        "short_name": "Saha S",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India."
+        ]
+      },
+      {
+        "full_name": "Maiti, Nakul C",
+        "short_name": "Maiti NC",
+        "identifiers": [
+          "0000-0002-8498-6502"
+        ],
+        "affiliations": [
+          "Structural Biology and Bioinformatics Division, Indian Institute of Chemical Biology, Council of Scientific and Industrial Research, 4, Raja S.C. Mallick Road, Kolkata 700032, India.",
+          "Academy of Scientific and Innovative Research (AcSIR), CSIR-Human Resource Development Centre (CSIR-HRDC) Campus, Postal Staff College Area, Sector 19, Kamla Nehru Nagar, Ghaziabad, Uttar Pradesh 201 002, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 May 29",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/15 18:37",
+    "fetched_at": "2026-09-21 18:54:29"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40372795",
+      "28330770",
+      "40490169",
+      "41882374",
+      "37094111",
+      "37304685",
+      "29197568",
+      "18692132",
+      "29364151",
+      "20540950",
+      "29704492",
+      "19538146",
+      "40081302",
+      "40345607",
+      "31417259",
+      "29853639",
+      "25830974",
+      "19655784",
+      "39150403",
+      "29577851",
+      "23607785",
+      "26601760",
+      "37666396",
+      "15096521",
+      "31903719",
+      "27982082",
+      "30769283",
+      "29663556",
+      "39875340",
+      "39756747",
+      "20620148",
+      "34439733",
+      "40289529",
+      "11812782",
+      "36880185",
+      "31809698",
+      "23272053",
+      "39947752",
+      "28760825",
+      "31142553",
+      "20858207",
+      "25461276",
+      "31505208",
+      "22274962",
+      "31096048",
+      "29715424",
+      "30755483",
+      "31939603",
+      "16162499",
+      "28460628",
+      "27353564",
+      "12217698",
+      "41381387",
+      "20423081",
+      "42014377",
+      "34161822",
+      "28007442",
+      "19289061",
+      "30142878",
+      "21382406",
+      "31699336",
+      "27365127",
+      "31917569",
+      "27808107",
+      "23374074",
+      "26028294",
+      "30486688",
+      "40001517",
+      "37686208",
+      "30917654",
+      "25784353",
+      "36314062",
+      "31185031",
+      "41723982",
+      "16489768",
+      "29886528",
+      "18433772",
+      "25255476",
+      "32120928",
+      "12885775",
+      "25075858",
+      "40819250",
+      "24397337",
+      "32824376",
+      "29782835",
+      "20140223",
+      "30917651",
+      "16981679",
+      "28710275",
+      "18550842",
+      "22573613",
+      "29866153",
+      "24058647",
+      "15966733",
+      "36500474",
+      "29633780",
+      "37741548",
+      "25659910",
+      "38637513",
+      "30102984"
+    ],
+    "review": [
+      "40372795",
+      "29364151",
+      "19538146",
+      "39947752"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-76",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.4c08635",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

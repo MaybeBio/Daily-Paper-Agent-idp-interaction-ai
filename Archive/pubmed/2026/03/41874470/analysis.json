@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41874470",
+  "title": "Molecular Interplay of Small Molecules and Calcium Ions with alpha-Synuclein Revealed by NMR and Molecular Dynamics Simulations.",
+  "authors": "Turchi, Filippo; Turan, Haydar Taylan; Schiavina, Marco; Brancato, Giuseppe; Felli, Isabella C; Pierattelli, Roberta",
+  "journal": "ACS chemical neuroscience",
+  "published_date": "2026-03-24",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过NMR和MD模拟揭示α-突触核蛋白IDR与小分子及钙离子的动态互作机制，虽非PPI但聚焦IDR结合机制建模，方法可迁移。",
+  "abstract": "Human alpha-synuclein is an intrinsically disordered protein concentrated at presynaptic terminals and strongly linked to Parkinson's disease and other synucleinopathies. Its dynamic C-terminal region mediates interactions with small molecules and metal ions. Here, we used high-resolution nuclear magnetic resonance spectroscopy (NMR) and molecular dynamics (MD) simulations to characterize interactions between the C-terminal alpha-synuclein construct, the small molecule fasudil, and calcium ions. NMR data show that fasudil and Ca(2+) bind preferentially to overlapping regions enriched in alternating tyrosine and acidic residues while preserving the protein's disordered nature. Side-chain-resolved spectra indicate distinct driving forces for fasudil and calcium binding. MD simulations reveal that Ca(2+) modifies the local electrostatic environment, decreasing fasudil interaction frequency through electrostatic screening and steric effects. Despite this, fasudil retains dynamic, reversible contacts with key tyrosine residues. Overall, exposed alpha-synuclein conformations allow simultaneous, ligand-specific interactions, highlighting side-chain hotspots governing binding in Ca(2+)-rich conditions.",
+  "abstract_zh": "人源α-突触核蛋白（alpha-synuclein）是一种 intrinsically disordered protein（固有无序蛋白），富集于突触前末梢，并与帕金森病及其他突触核蛋白病密切相关。其动态C末端区域介导与小分子和金属离子的相互作用。在本研究中，我们利用高分辨率核磁共振波谱（nuclear magnetic resonance spectroscopy, NMR）和分子动力学（molecular dynamics, MD）模拟，表征了C末端α-突触核蛋白构建体、小分子法舒地尔（fasudil）及钙离子之间的相互作用。NMR数据显示，法舒地尔和Ca(2+)优先结合于富含交替酪氨酸和酸性残基的重叠区域，同时保持蛋白质的无序特性。侧链分辨谱表明，法舒地尔和钙结合具有不同的驱动力。MD模拟揭示，Ca(2+)改变局部静电环境，通过静电屏蔽和空间效应降低法舒地尔的相互作用频率。尽管如此，法舒地尔仍与关键酪氨酸残基保持动态、可逆的接触。总体而言，暴露的α-突触核蛋白构象允许同时进行配体特异性相互作用，突显了在富含Ca(2+)条件下调控结合的侧链热点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41874470/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41874470/",
+  "paper_page_path": "papers/pubmed/41874470/index.html"
+}

@@ -1,0 +1,244 @@
+{
+  "identity": {
+    "pmid": "39084146",
+    "doi": "10.1016/j.compbiolchem.2024.108155",
+    "title": "The antiviral drug Ribavirin effectively modulates the amyloid transformation of alpha-Synuclein protein."
+  },
+  "content": {
+    "abstract": "alpha-Synuclein (alpha-syn) is an intrinsically disordered protein, linked genetically and neuropathologically to Parkinson's disease where this protein aggregates within the brain. Hence, identifying compounds capable of impeding alpha-syn aggregation puts forward a promising approach for the development of disease-modifying therapies. Herein, we investigated the efficacy of Ribavirin, an FDA-approved compound, in curtailing alpha-syn amyloid transformation, employing an array of bioinformatic tools and systematic analysis using biophysical techniques. Ribavirin shows a dose dependent anti-aggregation propensity where it effectively subdued the formation of mature fibrillar aggregates of alpha-syn, where even at the lowest concentration there was a 69 % reduction in the ThT maxima. Ribavirin averts the formation of mature fibrillar aggregates by interacting with the NAC domain of alpha-syn. Ribavirin redirects the amyloid transformation of alpha-syn by emanating aggregates of lower order with reduced cross beta-sheet signature and revokes the formation of on-pathway amyloids. Collectively, our study puts forward the novel potency of Ribavirin as a promising molecule for therapeutic intervention in Parkinson's disease.",
+    "keywords": [
+      "Biophysical assay",
+      "Molecular docking",
+      "Parkinson disease",
+      "REMD simulation",
+      "Ribavirin",
+      "alpha-Synuclein"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/metabolism/antagonists & inhibitors/chemistry",
+      "*Antiviral Agents/pharmacology/chemistry",
+      "*Ribavirin/pharmacology/chemistry",
+      "Humans",
+      "*Amyloid/metabolism/chemistry/antagonists & inhibitors/drug effects",
+      "Protein Aggregates/drug effects",
+      "Dose-Response Relationship, Drug"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Payal",
+        "Akhtar, Almas",
+        "Admane, Nikita",
+        "Grover, Abhinav"
+      ],
+      "short_names": [
+        "Singh P",
+        "Akhtar A",
+        "Admane N",
+        "Grover A"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India.",
+        "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India.",
+        "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India.",
+        "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India. Electronic address: abhinavgr@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Payal",
+        "short_name": "Singh P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Akhtar, Almas",
+        "short_name": "Akhtar A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Admane, Nikita",
+        "short_name": "Admane N",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Grover, Abhinav",
+        "short_name": "Grover A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biotechnology, Jawaharlal Nehru University, New Delhi 110067, India. Electronic address: abhinavgr@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2024 Oct",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/01 00:41",
+    "fetched_at": "2026-09-21 09:09:32"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39084146",
+      "40345607",
+      "39693815",
+      "40882443",
+      "37741548",
+      "41882374",
+      "31939603",
+      "40763859",
+      "30917654",
+      "26119103",
+      "29286644",
+      "38637513",
+      "36373662",
+      "39550891",
+      "23339399",
+      "28872299",
+      "29959225",
+      "22575665",
+      "31142553",
+      "36314062",
+      "30769283",
+      "42014377",
+      "36966976",
+      "41830769",
+      "40189174",
+      "41162400",
+      "30098337",
+      "41723982",
+      "31575115",
+      "34624824",
+      "32277934",
+      "40020199",
+      "25937088",
+      "32291284",
+      "40610077",
+      "36961221",
+      "23637226",
+      "31111370",
+      "40022877",
+      "37198991",
+      "31505208",
+      "32924648",
+      "32982240",
+      "39947752",
+      "33138150",
+      "31945397",
+      "29866153",
+      "40954133",
+      "32365408",
+      "39936279",
+      "30853581",
+      "29853639",
+      "38808534",
+      "32961434",
+      "40490169",
+      "41309197",
+      "33610557",
+      "37431676",
+      "38663121",
+      "34684701",
+      "34830264",
+      "29364151",
+      "35681426",
+      "40339505",
+      "31096048",
+      "32868414",
+      "41067404",
+      "32870550",
+      "32971232",
+      "33649211",
+      "27934063",
+      "35390347",
+      "17927212",
+      "31140178",
+      "27101974",
+      "29704492",
+      "30290273",
+      "22274962",
+      "37466885",
+      "32170541",
+      "37011370",
+      "42003184",
+      "38272228",
+      "31185031",
+      "40819250",
+      "27539220",
+      "32650066",
+      "28238838",
+      "39327912",
+      "39150403",
+      "26601760",
+      "39756747",
+      "40560620",
+      "33352154",
+      "20132485",
+      "31416122",
+      "39462681",
+      "31196755",
+      "33415971",
+      "26152159"
+    ],
+    "review": [
+      "39084146",
+      "36373662",
+      "36966976",
+      "32277934",
+      "40610077",
+      "37198991",
+      "39947752",
+      "30853581",
+      "38808534",
+      "41309197",
+      "29364151",
+      "35681426",
+      "41067404"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(24)00143-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3949",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

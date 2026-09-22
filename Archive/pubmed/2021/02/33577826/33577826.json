@@ -1,0 +1,304 @@
+{
+  "identity": {
+    "pmid": "33577826",
+    "doi": "10.1016/j.xphs.2021.02.005",
+    "title": "Coamorphous System of Florfenicol-Oxymatrine for Improving the Solubility and Dissolution Rate of Florfenicol: Preparation, Characterization and Molecular Dynamics Simulation."
+  },
+  "content": {
+    "abstract": "Coamorphous system has proved to be an effective approach to improve the solubility of BCSⅡ drugs. Florfenicol (FF) is a widely used veterinary antibiotic but has poor aqueous solubility. Therefore, the coamorphous system of florfenicol and oxymatrine (OMT) formulated at 1:1 and 1:2 M ratios were prepared by using solvent evaporation, followed by a series of characterization in terms of PXRD, DSC, FTIR and Raman spectroscopy. It was found that FF and OMT are miscible according to Hansen solubility parameters. The molecular electrostatic potential (MEP) and radial distribution function (RDF) analysis demonstrated the possible hydrogen bond interaction in coamorphous system, which was confirmed by FTIR and Raman spectra. The coamorphous FF-OMT (1:1) maintained stability for 60 days at 25  degrees C/0% RH and 30 days at 40  degrees C/75% RH, which may be attributed to better molecular miscibility of FF and OMT and the strong hydrogen bond of O-H (FF)cdots, three dots, centeredO-N (OMT) and N-H (FF)cdots, three dots, centeredO-N (OMT). In addition, the apparent solubility and permeability, dissolution and intrinsic dissolution rate (IDR) of the acquired coamorphous solids were obviously increased compared with crystalline FF. In conclusion, a drug-drug coamorphous formulation can be applied to improve the solubility and dissolution of crystalline FF.",
+    "keywords": [
+      "Coamorphous system",
+      "Dissolution",
+      "Florfenicol",
+      "Hydrogen bond",
+      "Molecular dynamics",
+      "Solubility"
+    ],
+    "mesh_terms": [
+      "*Alkaloids",
+      "Calorimetry, Differential Scanning",
+      "*Molecular Dynamics Simulation",
+      "Quinolizines",
+      "Solubility",
+      "Thiamphenicol/analogs & derivatives",
+      "Matrines"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Bin",
+        "Hu, Yi",
+        "Guo, Yujie",
+        "Xu, Renjie",
+        "Fang, Xiaoping",
+        "Xiao, Xuecheng",
+        "Jiang, Cuiping",
+        "Lu, Shan"
+      ],
+      "short_names": [
+        "Li B",
+        "Hu Y",
+        "Guo Y",
+        "Xu R",
+        "Fang X",
+        "Xiao X",
+        "Jiang C",
+        "Lu S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China. Electronic address: xiaoxuecheng1968@163.com.",
+        "School of Traditional Chinese Medicine, Southern Medical University, Guangzhou 510515, PR China. Electronic address: cuipingjiangcpu@163.com.",
+        "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China. Electronic address: lushan9805@163.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Bin",
+        "short_name": "Li B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China."
+        ]
+      },
+      {
+        "full_name": "Hu, Yi",
+        "short_name": "Hu Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China."
+        ]
+      },
+      {
+        "full_name": "Guo, Yujie",
+        "short_name": "Guo Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China."
+        ]
+      },
+      {
+        "full_name": "Xu, Renjie",
+        "short_name": "Xu R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China."
+        ]
+      },
+      {
+        "full_name": "Fang, Xiaoping",
+        "short_name": "Fang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China."
+        ]
+      },
+      {
+        "full_name": "Xiao, Xuecheng",
+        "short_name": "Xiao X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China. Electronic address: xiaoxuecheng1968@163.com."
+        ]
+      },
+      {
+        "full_name": "Jiang, Cuiping",
+        "short_name": "Jiang C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Traditional Chinese Medicine, Southern Medical University, Guangzhou 510515, PR China. Electronic address: cuipingjiangcpu@163.com."
+        ]
+      },
+      {
+        "full_name": "Lu, Shan",
+        "short_name": "Lu S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Hubei University of Chinese Medicine, Wuhan 430065, PR China. Electronic address: lushan9805@163.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of pharmaceutical sciences"
+    ],
+    "journal_abbrev": [
+      "J Pharm Sci"
+    ],
+    "pub_date": "2021 Jun",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/02/13 06:00",
+    "fetched_at": "2026-09-20 01:21:12"
+  },
+  "links": {
+    "cites": [
+      "42086959",
+      "40852262",
+      "40733059",
+      "40045016",
+      "39732994",
+      "39482918",
+      "37765145",
+      "36123515",
+      "35335977"
+    ],
+    "refs": [],
+    "similar": [
+      "33577826",
+      "35167885",
+      "32926628",
+      "35492562",
+      "28224393",
+      "38361428",
+      "31794225",
+      "38095592",
+      "21815614",
+      "32827676",
+      "24210065",
+      "34740050",
+      "23612357",
+      "20005937",
+      "36646287",
+      "33744448",
+      "31898765",
+      "30766775",
+      "30590119",
+      "39159855",
+      "33609724",
+      "31067482",
+      "31723173",
+      "33553927",
+      "35687125",
+      "24075980",
+      "34147517",
+      "29500829",
+      "28989014",
+      "35316068",
+      "31814493",
+      "36283631",
+      "37498232",
+      "28208662",
+      "26708555",
+      "36150469",
+      "34313449",
+      "21544720",
+      "34743960",
+      "33217426",
+      "36478061",
+      "26951566",
+      "29107615",
+      "34719541",
+      "31192771",
+      "28042494",
+      "38299571",
+      "34353260",
+      "30723877",
+      "28068097",
+      "17828444",
+      "24188445",
+      "24824610",
+      "24878386",
+      "27915584",
+      "28625724",
+      "29892973",
+      "31774685",
+      "31769938",
+      "29986403",
+      "37115657",
+      "23859793",
+      "29528656",
+      "18930795",
+      "17240129",
+      "36839951",
+      "17147454",
+      "36369854",
+      "23749768",
+      "26918512",
+      "26046484",
+      "22873131",
+      "26664367",
+      "31111732",
+      "32607628",
+      "32422561",
+      "19798757",
+      "32243965",
+      "29501140",
+      "33492999",
+      "29671467",
+      "17703346",
+      "28575936",
+      "28043915",
+      "23627137",
+      "22616879",
+      "25998701",
+      "27053017",
+      "28322162",
+      "32243966",
+      "24074306",
+      "26057950",
+      "32119557",
+      "30242846",
+      "25108049",
+      "29121573",
+      "22491164",
+      "33748914",
+      "27502011",
+      "31691990",
+      "30825586",
+      "31546459",
+      "30020794",
+      "29557714",
+      "26686139",
+      "29426975",
+      "21742564",
+      "30657654",
+      "28248111",
+      "21812325",
+      "17484141",
+      "37375729",
+      "37031754",
+      "35730408",
+      "36116547",
+      "34733909",
+      "37238125"
+    ],
+    "review": [
+      "33577826",
+      "34719541"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-3549(21)00082-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33577826",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

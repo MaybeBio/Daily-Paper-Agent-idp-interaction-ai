@@ -1,0 +1,326 @@
+{
+  "identity": {
+    "pmid": "41016010",
+    "doi": "10.1093/bib/bbaf501",
+    "title": "A simple workflow to identify novel small linear motif (SLiM)-mediated interactions with AlphaFold."
+  },
+  "content": {
+    "abstract": "Short linear motifs (SLiMs) are highly compact interaction modules embedded within disordered protein regions and are increasingly recognized for their central role in maintaining cellular homeostasis. Due to their small size, degeneracy and transient binding, SLiMs remain difficult to detect both experimentally and computationally. Here, we show that AlphaFold (AF), used via ColabFold, offers a practical and accessible alternative for in-silico screening of new SLiMs targeting a protein of interest. Unlike previous studies that evaluated AlphaFold2 (AF2) using structure-derived benchmarks, we extend this by assessing both AF2 and AF3, using a structure-independent benchmark of 26 interactions absent from PDB homology, and showing that MiniPAE is the most suited AlphaFold metric for SLiM screening. We also generated an unbalanced dataset with a large excess of non-binders mimicking real-world blind screening, revealing a critical limitation in AlphaFold's specificity for SLiM detection. To circumvent this constraint, we propose both a SLiM screening strategy and an adaptative scoring threshold. For greater accessibility, we provide a streamlined and cost-effective AF analysis workflow requiring no local installation or computation. To overcome challenges associated with SLiM validation, we also introduce a highly sensitive detection method based on proximity labeling in living cells. This workflow was used to identify and experimentally validate 13 new SLiMs that mediate binding to ribosomal protein S6 kinase A3 (RPS6KA3 or RSK2). By leveraging ColabFold and MiniPAE available through Colab notebooks, our approach provides a scalable and widely accessible strategy for identifying functional SLiMs in proteins of interest. MiniPAE can be accessed at https://github.com/martinovein/MiniPAE.",
+    "keywords": [
+      "AlphaFold",
+      "RSK",
+      "SLiM",
+      "intrinsically disordered protein",
+      "p90 ribosomal S6 kinase",
+      "protein-protein interactions",
+      "small linear motif"
+    ],
+    "mesh_terms": [
+      "Amino Acid Motifs",
+      "Workflow",
+      "*Computational Biology/methods",
+      "Humans",
+      "*Proteins/chemistry/metabolism",
+      "Protein Binding",
+      "Software",
+      "Protein Folding",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Veinstein, Martin",
+        "Janssens, Victor",
+        "Iorga, Bogdan I",
+        "Helaers, Raphael",
+        "Michiels, Thomas",
+        "Sorgeloos, Frederic"
+      ],
+      "short_names": [
+        "Veinstein M",
+        "Janssens V",
+        "Iorga BI",
+        "Helaers R",
+        "Michiels T",
+        "Sorgeloos F"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0392-1350",
+        "ORCID: 0000-0001-9615-8053"
+      ],
+      "affiliations": [
+        "Universite Catholique de Louvain, de Duve Institute, Brussels, Belgium.",
+        "Universite Catholique de Louvain, de Duve Institute, Brussels, Belgium.",
+        "Universite Paris-Saclay, CNRS, Institut de Chimie des Substances Naturelles (ICSN) , Gif-sur-Yvette, France.",
+        "Universite Catholique de Louvain, de Duve Institute, Brussels, Belgium.",
+        "Universite Catholique de Louvain, de Duve Institute, Brussels, Belgium.",
+        "INRS-Centre Armand-Frappier Sante Biotechnologie, Laval, Quebec, Canada."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Veinstein, Martin",
+        "short_name": "Veinstein M",
+        "identifiers": [],
+        "affiliations": [
+          "Université Catholique de Louvain, de Duve Institute, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Janssens, Victor",
+        "short_name": "Janssens V",
+        "identifiers": [],
+        "affiliations": [
+          "Université Catholique de Louvain, de Duve Institute, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Iorga, Bogdan I",
+        "short_name": "Iorga BI",
+        "identifiers": [
+          "0000-0003-0392-1350"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, CNRS, Institut de Chimie des Substances Naturelles (ICSN) , Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Helaers, Raphaël",
+        "short_name": "Helaers R",
+        "identifiers": [],
+        "affiliations": [
+          "Université Catholique de Louvain, de Duve Institute, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Michiels, Thomas",
+        "short_name": "Michiels T",
+        "identifiers": [
+          "0000-0001-9615-8053"
+        ],
+        "affiliations": [
+          "Université Catholique de Louvain, de Duve Institute, Brussels, Belgium."
+        ]
+      },
+      {
+        "full_name": "Sorgeloos, Frederic",
+        "short_name": "Sorgeloos F",
+        "identifiers": [],
+        "affiliations": [
+          "INRS-Centre Armand-Frappier Santé Biotechnologie, Laval, Québec, Canada."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Aug 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/28 15:30",
+    "fetched_at": "2026-09-17 20:24:10"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40153681",
+      "40133781",
+      "40015271",
+      "39740355",
+      "39446390",
+      "38718835",
+      "38507200",
+      "38342435",
+      "38238291",
+      "38225382",
+      "37962385",
+      "36508477",
+      "35091472",
+      "35078976",
+      "35044719",
+      "34761267",
+      "33950214",
+      "33911136",
+      "33070389",
+      "28387819",
+      "27174932",
+      "26912792",
+      "25514926",
+      "22607209",
+      "22187936",
+      "18813292",
+      "16879200",
+      "10835641",
+      "3031469"
+    ],
+    "similar": [
+      "41016010",
+      "40928249",
+      "22004555",
+      "25555723",
+      "20167627",
+      "32696352",
+      "26387106",
+      "40758722",
+      "21879107",
+      "35404090",
+      "28002650",
+      "22328783",
+      "39720898",
+      "40153681",
+      "38783158",
+      "23192537",
+      "40320752",
+      "18831792",
+      "27881680",
+      "40387957",
+      "17912346",
+      "28460141",
+      "38995545",
+      "28387819",
+      "28654726",
+      "39471470",
+      "37099901",
+      "36468648",
+      "26589632",
+      "30402352",
+      "21909575",
+      "39864625",
+      "32345597",
+      "40212988",
+      "35134457",
+      "25057855",
+      "26674271",
+      "23550212",
+      "39091826",
+      "39510344",
+      "32696353",
+      "22715401",
+      "19852836",
+      "34391889",
+      "32696376",
+      "35642445",
+      "34960638",
+      "27998540",
+      "35697294",
+      "32645368",
+      "41463297",
+      "18828911",
+      "24678734",
+      "20515727",
+      "40424178",
+      "36623987",
+      "17576682",
+      "40080667",
+      "39553988",
+      "39135888",
+      "39379372",
+      "37100772",
+      "29136216",
+      "39313455",
+      "25207816",
+      "40985612",
+      "39970826",
+      "41088961",
+      "21622654",
+      "39941016",
+      "25791288",
+      "23056474",
+      "30453876",
+      "36496998",
+      "21785140",
+      "20055997",
+      "19136552",
+      "40062613",
+      "41075093",
+      "40661027",
+      "41100562",
+      "40835742",
+      "38995544",
+      "17107624",
+      "29370437",
+      "38908024",
+      "40851426",
+      "39990437",
+      "40874652",
+      "40144455",
+      "38018991",
+      "22827524",
+      "41326937",
+      "40976968",
+      "41088767",
+      "38236582",
+      "41085491",
+      "36753519",
+      "30611608",
+      "22638578"
+    ],
+    "review": [
+      "41016010",
+      "25555723",
+      "26387106",
+      "40387957",
+      "37099901",
+      "36468648",
+      "26589632",
+      "32345597",
+      "34960638",
+      "20515727",
+      "36623987",
+      "39313455",
+      "39970826",
+      "41088961",
+      "36496998",
+      "22827524",
+      "41326937"
+    ],
+    "pmc": [
+      "12476836"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41016010.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41016010/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FHL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf501",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.16.659844",
+  "title": "UFMylation orchestrates chromatin engagement of core NHEJ components to promote DNA double-strand break repair",
+  "authors": "Wang Z; Foster BM; da Costa IC; Wu Y; Behera D; Conte F; Trotter EW; Cabello-Lobato MJ; Choudhary S; Wiener R; Beli P; Smith DL; Banks WH; Bagley S; McKee S; Minnis M; Meyer S; Chaplin AK; Dörner W; Mootz HD; Hagan IM; Galanty Y; Larrosa I; Cliff MJ; Schmidt CK",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-17",
+  "window": {
+    "start": "2025-06-16",
+    "end": "2025-06-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究UFMylation修饰调控NHEJ修复因子在染色质上的组装，涉及XRCC4与Ku70的蛋白互作，但对象为折叠蛋白且无AI/物理模拟方法，仅机制实验，与本课题的IDP/相分离及建模方法关联较弱。",
+  "abstract": "<h4>SUMMARY</h4> DNA double-strand breaks (DSBs) are highly cytotoxic lesions whose misrepair can lead to genomic instability, cancer and developmental disorders. Through systematic screening of understudied ubiquitin-like modifiers (UBLs), we identify UFM1 as a previously unrecognised regulator of non-homologous end-joining (NHEJ). Using a structure-guided chemical biology strategy, we develop a photo-crosslinkable UFM1 probe and, together with high-resolution NMR, uncover non-canonical UFM1-binding regions in core NHEJ components, including XRCC4. Mechanistically, proximity-dependent proteomics reveals Ku70 as a key UFMylation substrate, establishing a functional axis in which XRCC4 engages UFMylated Ku70 to promote the chromatin assembly of NHEJ factors. Perturbation of UFM1 signalling, via UFSP2 depletion or a hypomorphic UBA5 allele in patient-derived fibroblasts, impairs these processes, linking UFMylation defects to altered regulation of DSB repair. Our findings define a complete UFM1 signalling module in genome maintenance and uncover a molecular connection between hereditary UFMylation disorders and dysregulated DSB repair pathways.",
+  "abstract_zh": "<h4>摘要</h4> DNA双链断裂（DSBs）是高度细胞毒性的损伤，其错误修复可导致基因组不稳定、癌症和发育障碍。通过对未充分研究的泛素样修饰因子（UBLs）进行系统性筛选，我们鉴定出UFM1为非同源末端连接（NHEJ）的一个先前未被识别的调控因子。利用结构引导的化学生物学策略，我们开发了一种光交联UFM1探针，并结合高分辨率核磁共振（NMR），揭示了核心NHEJ组分（包括XRCC4）中非经典UFM1结合区域。机制上，邻近依赖性蛋白质组学揭示Ku70为关键的UFMylation底物，建立了一个功能轴，其中XRCC4与UFMylated Ku70结合以促进NHEJ因子的染色质组装。通过UFSP2缺失或患者来源成纤维细胞中的亚效UBA5等位基因扰动UFM1信号，会损害这些过程，将UFMylation缺陷与DSB修复的异常调控联系起来。我们的发现定义了基因组维护中一个完整的UFM1信号模块，并揭示了遗传性UFMylation疾病与失调的DSB修复通路之间的分子联系。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.16.659844",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.16.659844",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.16.659844/index.html"
+}

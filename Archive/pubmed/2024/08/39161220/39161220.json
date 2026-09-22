@@ -1,0 +1,370 @@
+{
+  "identity": {
+    "pmid": "39161220",
+    "doi": "10.7554/eLife.97487",
+    "title": "Target-specific requirements for RNA interference can arise through restricted RNA amplification despite the lack of specialized pathways."
+  },
+  "content": {
+    "abstract": "Since double-stranded RNA (dsRNA) is effective for silencing a wide variety of genes, all genes are typically considered equivalent targets for such RNA interference (RNAi). Yet, loss of some regulators of RNAi in the nematode Caenorhabditis elegans can selectively impair the silencing of some genes. Here, we show that such selective requirements can be explained by an intersecting network of regulators acting on genes with differences in their RNA metabolism. In this network, the Maelstrom domain-containing protein RDE-10, the intrinsically disordered protein MUT-16, and the Argonaute protein NRDE-3 work together so that any two are required for silencing one somatic gene, but each is singly required for silencing another somatic gene, where only the requirement for NRDE-3 can be overcome by enhanced dsRNA processing. Quantitative models and their exploratory simulations led us to find that (1) changing cis-regulatory elements of the target gene can reduce the dependence on NRDE-3, (2) animals can recover from silencing in non-dividing cells, and (3) cleavage and tailing of mRNAs with UG dinucleotides, which makes them templates for amplifying small RNAs, are enriched within 'pUG zones' matching the dsRNA. Similar crosstalk between pathways and restricted amplification could result in apparently selective silencing by endogenous RNAs.",
+    "keywords": [
+      "C. elegans",
+      "RNA interference",
+      "chromosomes",
+      "epigenetics",
+      "gene expression",
+      "pUG RNA",
+      "regulation of gene expression"
+    ],
+    "mesh_terms": [
+      "*Caenorhabditis elegans/genetics/metabolism",
+      "Animals",
+      "*Caenorhabditis elegans Proteins/metabolism/genetics",
+      "*RNA Interference",
+      "*RNA, Double-Stranded/metabolism/genetics",
+      "RNA-Binding Proteins"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Knudsen-Palmer, Daphne R",
+        "Raman, Pravrutha",
+        "Ettefa, Farida",
+        "De Ravin, Laura",
+        "Jose, Antony M"
+      ],
+      "short_names": [
+        "Knudsen-Palmer DR",
+        "Raman P",
+        "Ettefa F",
+        "De Ravin L",
+        "Jose AM"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5745-1185",
+        "ORCID: 0000-0003-1405-0618"
+      ],
+      "affiliations": [
+        "Department of Cell Biology and Molecular Genetics, Biological Sciences Graduate Program, University of Maryland, College Park, United States.",
+        "Department of Cell Biology and Molecular Genetics, Biological Sciences Graduate Program, University of Maryland, College Park, United States.",
+        "Department of Cell Biology and Molecular Genetics, Biological Sciences Graduate Program, University of Maryland, College Park, United States.",
+        "Department of Cell Biology and Molecular Genetics, Biological Sciences Graduate Program, University of Maryland, College Park, United States.",
+        "Department of Cell Biology and Molecular Genetics, Biological Sciences Graduate Program, University of Maryland, College Park, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Knudsen-Palmer, Daphne R",
+        "short_name": "Knudsen-Palmer DR",
+        "identifiers": [
+          "0000-0001-5745-1185"
+        ],
+        "affiliations": [
+          "Department of Cell Biology and Molecular Genetics, Biological Sciences Graduate Program, University of Maryland, College Park, United States."
+        ]
+      },
+      {
+        "full_name": "Raman, Pravrutha",
+        "short_name": "Raman P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology and Molecular Genetics, Biological Sciences Graduate Program, University of Maryland, College Park, United States."
+        ]
+      },
+      {
+        "full_name": "Ettefa, Farida",
+        "short_name": "Ettefa F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology and Molecular Genetics, Biological Sciences Graduate Program, University of Maryland, College Park, United States."
+        ]
+      },
+      {
+        "full_name": "De Ravin, Laura",
+        "short_name": "De Ravin L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology and Molecular Genetics, Biological Sciences Graduate Program, University of Maryland, College Park, United States."
+        ]
+      },
+      {
+        "full_name": "Jose, Antony M",
+        "short_name": "Jose AM",
+        "identifiers": [
+          "0000-0003-1405-0618"
+        ],
+        "affiliations": [
+          "Department of Cell Biology and Molecular Genetics, Biological Sciences Graduate Program, University of Maryland, College Park, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2024 Aug 20",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/20 06:42",
+    "fetched_at": "2026-09-21 09:42:46"
+  },
+  "links": {
+    "cites": [
+      "42518316",
+      "40789965",
+      "40753171",
+      "40661503",
+      "39788543",
+      "38746304",
+      "38746289"
+    ],
+    "refs": [
+      "36508664",
+      "35871216",
+      "35669519",
+      "35239965",
+      "34876343",
+      "34791371",
+      "34265844",
+      "34244495",
+      "33737942",
+      "33378643",
+      "32670336",
+      "32499657",
+      "30988468",
+      "30779744",
+      "30687124",
+      "30213854",
+      "30181559",
+      "30036386",
+      "28541563",
+      "27791108",
+      "26647462",
+      "26187123",
+      "26187122",
+      "25865890",
+      "25811365",
+      "25635455",
+      "25161212",
+      "23801436",
+      "23141544",
+      "22713602",
+      "22542102",
+      "22508728",
+      "22290181",
+      "21988835",
+      "21385728",
+      "21245313",
+      "19800275",
+      "19151723",
+      "19032786",
+      "18653886",
+      "18438419",
+      "18007599",
+      "17174894",
+      "17124291",
+      "17110334",
+      "16603715",
+      "16489184",
+      "16439208",
+      "16116795",
+      "15849316",
+      "15723801",
+      "14961122",
+      "12972639",
+      "12970568",
+      "12529635",
+      "12110183",
+      "11834782",
+      "11680844",
+      "11486053",
+      "10535731",
+      "9804418",
+      "9486653",
+      "4366476",
+      "3996896"
+    ],
+    "similar": [
+      "39161220",
+      "36798330",
+      "23457236",
+      "22542102",
+      "21984186",
+      "23885080",
+      "12110183",
+      "34428467",
+      "28541563",
+      "19151723",
+      "32348780",
+      "25635455",
+      "26365259",
+      "22858672",
+      "19112503",
+      "28228846",
+      "18245353",
+      "20386745",
+      "15653635",
+      "24532782",
+      "29950414",
+      "33055090",
+      "16603715",
+      "18653886",
+      "20543824",
+      "30389807",
+      "21519199",
+      "32338603",
+      "24475317",
+      "26729904",
+      "22106253",
+      "37865119",
+      "27974622",
+      "32123111",
+      "15790806",
+      "30838421",
+      "11809977",
+      "22412382",
+      "36165710",
+      "14628056",
+      "15800213",
+      "23890211",
+      "29483152",
+      "28751423",
+      "17563372",
+      "24684930",
+      "21474576",
+      "30787374",
+      "19168628",
+      "12419225",
+      "28325765",
+      "10741970",
+      "25646479",
+      "29025917",
+      "18948111",
+      "11680844",
+      "22981770",
+      "31501873",
+      "10535731",
+      "15723801",
+      "26067272",
+      "33086057",
+      "22548001",
+      "12225671",
+      "22810588",
+      "32499657",
+      "22293577",
+      "15221853",
+      "33111632",
+      "17445269",
+      "27791108",
+      "18028931",
+      "16162338",
+      "32943454",
+      "15741313",
+      "16107851",
+      "24684931",
+      "33183236",
+      "38531838",
+      "22508728",
+      "37984536",
+      "17124291",
+      "19155320",
+      "30878478",
+      "32610013",
+      "16723499",
+      "11904378",
+      "22102828",
+      "35998582",
+      "38664565",
+      "21901112",
+      "30759082",
+      "24352423",
+      "22829772",
+      "33044912",
+      "23141544",
+      "23618398",
+      "22412383",
+      "17110334",
+      "35984862",
+      "25811365",
+      "38967024",
+      "35739318",
+      "39358240",
+      "39386440",
+      "38743783",
+      "39055986",
+      "33290523",
+      "39220141",
+      "38768358",
+      "37298215",
+      "12673363",
+      "36446522",
+      "35424193",
+      "37173064",
+      "36993640",
+      "39339263",
+      "30687124",
+      "34351494",
+      "39373474",
+      "35800098",
+      "32391029",
+      "39427983",
+      "35547161",
+      "35924891",
+      "28959421",
+      "32869022",
+      "38260477",
+      "39229158"
+    ],
+    "review": [
+      "39161220",
+      "23890211",
+      "16162338",
+      "30878478",
+      "23618398",
+      "39358240",
+      "12673363",
+      "35424193",
+      "37173064",
+      "30687124"
+    ],
+    "pmc": [
+      "11335349"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39161220/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.97487",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://rrc.nbrp.jp/references/list?pubmed=39161220",
+        "provider": "National BioResource Project",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": "NBRP resources"
+      }
+    ],
+    "text_mined": []
+  }
+}

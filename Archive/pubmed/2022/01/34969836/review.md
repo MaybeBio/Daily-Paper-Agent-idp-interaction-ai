@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, methods, figure legends not provided)
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the provided manuscript text
+- **Shared manuscript claim summary** The authors investigate the denatured state ensemble (DSE) of the helical-bundle membrane protein GlpG in lipid bilayers using steric trapping, limited proteolysis, DEER spectroscopy, and coarse-grained simulations. They report that the DSE is partially collapsed in bilayers, with some TM helices undergoing unfolding or topological changes, and that the degree of expansion depends on the local protein sequence, helical/loop lengths, and lipid composition. They propose that lipid bilayers act as solvents of variable quality for membrane protein DSEs.
+- **Visible evidence base** Main text figures referenced (Figs. 1–6), SI Appendix figures and tables referenced (Figs. S1–S14, Tables S2–S9), methods descriptions
+- **Missing materials affecting confidence** Figure panels and actual data plots not visible; SI Appendix content not provided; detailed simulation parameters and validation metrics not shown; raw DEER data and fit quality metrics not shown; proteolysis quantification details not shown
+
+## Reviewer
+- **Overall assessment** This manuscript presents a technically sophisticated and conceptually important investigation of the denatured state ensemble of a helical membrane protein in lipid bilayers. The combination of experimental (steric trapping, proteolysis, DEER) and computational (Upside simulations) approaches is powerful and appropriate. The central claim that the DSE is partially collapsed in bilayers, with regional variability in expansion, is well supported by the DEER-simulation comparison. The study challenges simplistic views of membrane protein denatured states and has broad implications for folding, chaperone action, and membrane protein biogenesis. However, several technical concerns regarding the interpretation of proteolysis data, the validity of the simulation reference states, and the generalizability of the conclusions need to be addressed before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in membrane protein folding, biogenesis, and quality control; computational biophysicists studying protein-lipid interactions; experimentalists using EPR/DEER or proteomics to characterize conformational ensembles; those interested in the physical chemistry of lipid bilayers as solvents for proteins.
+- **Major Strengths** (1) The use of steric trapping to populate and characterize the DSE under native-like conditions is innovative and well-validated. (2) The combination of multiple orthogonal techniques (proteolysis, DEER, simulation) provides complementary views of the DSE. (3) The comparison between micelles, bicelles, and liposomes allows systematic assessment of environmental effects. (4) The simulation framework (Upside with membrane potential) is a valuable tool for interpreting experimental data. (5) The study provides a nuanced view of the DSE that goes beyond simple two-state or random-coil models.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of proteolysis interpretation
+  - **Claim pointer** The authors claim that differential proteolysis patterns between micelles/bicelles and liposomes indicate that the DSE is "less structured, contracted, or buried in liposomes than in micelles and bicelles" (Results, Limited Proteolysis section).
+  - **Evidence pointer** Fig. 2D, Fig. 3A, SI Appendix Figs. S7–S9
+  - **Concern** The interpretation of proteolysis data as reflecting DSE conformational properties is complicated by several factors. First, the authors acknowledge "double hit" effects but do not quantify their contribution. Second, the presence of mSA bound to GlpG may sterically protect certain regions from proteolysis, confounding the comparison between constructs. Third, the lipid-to-protein ratio was increased sixfold for DEER experiments compared to proteolysis experiments, but it is unclear whether the proteolysis experiments in liposomes were performed at the same high ratio; if not, the comparison between DEER and proteolysis data may be inconsistent. Fourth, the claim that extensive proteolysis in liposomes indicates a "less structured" DSE is not directly supported by the data, as proteolysis susceptibility depends on both accessibility and dynamics, which are not necessarily correlated with overall compactness.
+  - **Why it matters** The proteolysis data are used to support the conclusion that the DSE is more expanded in liposomes than in bicelles, which is a key finding of the study. If the proteolysis interpretation is flawed, this conclusion is weakened.
+  - **Resolution test** Provide quantitative analysis of proteolysis kinetics (e.g., fraction digested over time) for each construct and environment. Control for mSA steric effects by comparing proteolysis of singly vs doubly labeled GlpG. Ensure consistent lipid-to-protein ratios across all experiments. Correlate proteolysis susceptibility with DEER-derived distances for the same constructs and conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of simulation reference states
+  - **Claim pointer** The authors use simulations of "native-like274K," "collapsed308K," "partially expandedDSE343K," and "fully expandedDSEOFF" as references to interpret DEER data and calculate RExpansion (Eq. 1).
+  - **Evidence pointer** Fig. 5, Fig. 6, SI Appendix Fig. S13, Table S9
+  - **Concern** The selection of simulation states as references for collapsed and expanded DSEs is not fully justified. The "collapsed308K" state is defined by simulations at 308 K, but the experimental DEER measurements are performed at 50 K (cryogenic). The relationship between the simulated ensemble at 308 K and the experimentally trapped ensemble at 50 K is not established. Additionally, the "fully expandedDSEOFF" state is generated by turning off attractive side-chain interactions, which may not represent a physically realistic expanded state. The RExpansion metric depends critically on the choice of these reference states, and the reported values may be sensitive to simulation parameters.
+  - **Why it matters** The RExpansion values are used to quantify the degree of DSE contraction/expansion and to compare different constructs and environments. If the reference states are not appropriate, the quantitative conclusions are not reliable.
+  - **Resolution test** Validate the simulation reference states against experimental data (e.g., comparing simulated distance distributions to DEER data for the native state). Perform sensitivity analysis of RExpansion to simulation parameters (e.g., temperature, interaction strengths). Justify the use of 308 K as the collapsed state reference and 240 K with attractive terms off as the expanded state reference.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of conclusions
+  - **Claim pointer** The authors state that "the lipid bilayer generally facilitates contraction of DSEs and promotes intraprotein interactions" (Discussion, Broader Implications).
+  - **Evidence pointer** Figs. 4–6, Discussion
+  - **Concern** The study is performed on a single membrane protein (GlpG) with a specific topology and sequence. The authors extrapolate their findings to membrane proteins in general, but the DSE properties are likely to be highly dependent on the specific protein, lipid composition, and experimental conditions. The claim of generality is not supported by the data presented.
+  - **Why it matters** The broader implications section makes claims about membrane protein folding and chaperone action that go beyond the specific system studied. Overgeneralization could mislead the field.
+  - **Resolution test** Acknowledge the limitations of studying a single protein and temper the general claims. Alternatively, provide additional data on other membrane proteins or discuss how the findings might be expected to vary based on sequence and structural features.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** DEER data analysis
+  - **Evidence pointer** Materials and Methods, DEER Spectroscopy
+  - **Issue** The description of DEER data analysis is brief. The Tikhonov regularization algorithm is mentioned, but the choice of regularization parameter, the validation of the fits, and the uncertainty estimation are not described.
+  - **Required correction** Provide more details on the DEER data analysis, including the regularization parameter selection, fit quality metrics, and how uncertainties in the distance distributions were estimated.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** RExpansion values
+  - **Evidence pointer** Fig. 6B, Table S8
+  - **Issue** The RExpansion values are reported with uncertainties, but it is unclear how these uncertainties were propagated from the DEER distance distributions and simulation data. The number of independent measurements (n) is not stated.
+  - **Required correction** Clearly state the number of independent replicates for each DEER measurement and describe how uncertainties in RExpansion were calculated.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Figure clarity
+  - **Affected element** Fig. 3A
+  - **Evidence pointer** Fig. 3A
+  - **Issue** The mapping of proteolysis-sensitive regions onto the GlpG structure is described in the text, but the figure itself is not visible in the provided manuscript. It is unclear how the color coding or annotations indicate the degree of susceptibility.
+  - **Required correction** Ensure the figure clearly indicates the relative proteolysis susceptibility of different regions, with a legend explaining the color scale or annotation scheme.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Solvent quality" terminology
+  - **Evidence pointer** Discussion, Challenges in Quantifying the Solvent Quality of Lipid Bilayers
+  - **Issue** The term "solvent quality" is borrowed from polymer physics and applied to lipid bilayers. While the analogy is useful, it may be misleading, as lipid bilayers are not isotropic solvents and the interactions are highly anisotropic and heterogeneous.
+  - **Required correction** Clarify the limitations of the solvent quality analogy and consider using alternative terminology, such as "effective solvent quality" or "conformational bias."
+- **Technical failings that need to be addressed before the case is established** (1) The proteolysis interpretation needs to be strengthened with quantitative kinetics and appropriate controls (R1-M1). (2) The simulation reference states need to be validated and their sensitivity to parameters assessed (R1-M2). (3) The generalizability claims need to be tempered or supported with additional data (R1-M3).
+- **Assessment against Nature-style criteria** Originality: High. The study provides a novel molecular-level description of a membrane protein DSE in bilayers, challenging the classic two-stage model. Scientific importance: High. The findings have implications for understanding membrane protein folding, chaperone action, and quality control. Interdisciplinary readership: Moderate to high. The work bridges biophysics, biochemistry, and computational biology, and should appeal to researchers in these fields. Technical soundness: Generally strong, but with concerns about proteolysis interpretation and simulation reference states as detailed above. Readability for nonspecialists: The manuscript is well-written and the concepts are explained clearly, but the technical details of DEER and simulations may be challenging for non-experts. The Significance statement is accessible and effectively summarizes the key findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding that the DSE of GlpG is partially collapsed in bilayers, with regional variability, is likely to be correct and important. However, the quantitative interpretation (RExpansion values) and the generalizability claims need to be addressed before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that "the lipid bilayer generally facilitates contraction of DSEs and promotes intraprotein interactions" (Discussion, Broader Implications) is not supported by the data, as only one protein and a limited set of lipid conditions were studied.
+- The claim that "bicelles and liposomes can qualitatively behave as solvents somewhere between poor and good solvent limits" (Results, Comparison between DEER and Simulations) is an interpretation that depends on the validity of the simulation reference states, which is not fully established.
+- The statement that "the DSE involves various modes of membrane-topology changes including the unfolding of TM segments due to their low hydrophobicity" (Results, Limited Proteolysis) is supported by the proteolysis data, but the quantitative contribution of unfolding versus other conformational changes is not determined.
+- The assertion that "the N-subdomain has a higher thermodynamic stability than the C-subdomain by ΔΔGoD-N = 1.1 kcal/mol in micelles" (Results, DSE Simulations) is based on previous work (ref. 36) and is not directly tested in this study.

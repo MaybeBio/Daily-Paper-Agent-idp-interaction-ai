@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2102.12547v1",
+  "title": "Self-assembly of biomolecular condensates with shared components",
+  "authors": "William M. Jacobs",
+  "journal": "Phys. Rev. Lett. 126, 258101 (2021)",
+  "published_date": "2021-02-24",
+  "window": {
+    "start": "2021-02-22",
+    "end": "2021-02-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过最小模型和模拟研究共享组分的生物分子凝聚体自组装，预测可形成的凝聚体数量，虽未聚焦具体IDR-PPI机制，但为无序蛋白介导的相分离互作网络提供了可迁移的物理建模框架。",
+  "abstract": "Biomolecular condensates self-assemble when proteins and nucleic acids spontaneously demix to form droplets within the crowded intracellular milieu. This simple mechanism underlies the formation of a wide variety of membraneless compartments in living cells. To understand how multiple condensates with distinct compositions can self-assemble in such a heterogeneous system, we study a minimal model in which we can \"program\" the pairwise interactions among hundreds of species. We show that the number of distinct condensates that can be reliably assembled grows superlinearly with the number of species in the mixture when the condensates are allowed to share components. Furthermore, we show that we can predict the maximum number of distinct condensates in a mixture without knowing the details of the pairwise interactions. Simulations of condensate growth confirm these predictions and suggest that the physical rules governing the achievable complexity of condensate-mediated spatial organization are broadly applicable to biomolecular mixtures.",
+  "abstract_zh": "生物分子凝聚体在蛋白质和核酸自发去混合形成液滴于拥挤的细胞内环境中时自组装。这一简单机制支撑了活细胞中多种无膜区室的生成。为理解在如此异质系统中，具有不同组成的多种凝聚体如何自组装，我们研究了一个最小模型，其中我们可以“编程”数百种物种间的成对相互作用。我们表明，当允许凝聚体共享组分时，可可靠组装的不同凝聚体数量随混合物中物种数量超线性增长。此外，我们证明，无需了解成对相互作用的细节，即可预测混合物中不同凝聚体的最大数量。凝聚体生长的模拟证实了这些预测，并表明支配凝聚体介导空间组织可实现复杂性的物理规则广泛适用于生物分子混合物。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2102.12547v1",
+  "source_url": "https://arxiv.org/abs/2102.12547v1",
+  "paper_page_path": "papers/arxiv/2102.12547v1/index.html"
+}

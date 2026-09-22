@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose that Gly-rich segments in intrinsically disordered proteins, exemplified by the third RGG region of FUS, adopt polyproline II (PPII) helices. Using NMR, CD, FTIR, and molecular dynamics simulations on a FUS-derived polypeptide and a model peptide, they report significant PPII populations (approximately 40% by CD) and inter-residue NOE contacts consistent with a bent PPII helix. They conclude that such helices may stabilize biomolecular condensates.
+- **Visible evidence base** Abstract text only; specific experimental details, spectra, simulation parameters, and statistical analyses are not provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, simulation protocols, quantitative error estimates, control experiments, and any statistical treatment of data
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting hypothesis linking PPII helices in Gly-rich regions to condensate formation. However, the evidence summarized is insufficient to establish the central claims with confidence. Key quantitative results (e.g., 40% PPII population) are stated without error margins or methodological context, and the connection to condensate stability is speculative. The work may be of interest to the biophysics and condensate communities, but the case is not fully made from the provided material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, protein phase separation, biomolecular condensates, and structural biology of Gly-rich motifs. The proposed PPII helix formation in RGG regions could inform models of condensate assembly and stability, appealing to both experimental and computational groups in these fields.
+- **Major strengths** The hypothesis is clearly articulated and builds on prior work. The use of multiple complementary techniques (NMR, CD, FTIR, MD simulations) is commendable. The model peptide design appears targeted to test the hypothesis directly.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative evidence
+  - **Claim pointer** "Its intensity suggests a polyproline II population of 40%"
+  - **Evidence pointer** Abstract, CD spectroscopy description; location not provided
+  - **Concern** The 40% PPII population is presented as a single value without any indication of uncertainty, fitting methodology, or baseline corrections. CD-based secondary structure estimation is notoriously sensitive to reference spectra and fitting assumptions.
+  - **Why it matters** Without error estimates or methodological details, the reader cannot assess whether 40% is meaningfully different from, for example, 20% or 60%, which would change the interpretation substantially.
+  - **Resolution test** Provide the full CD fitting procedure, including reference set, error bars, and a sensitivity analysis. State whether the 40% value is robust across different fitting approaches.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural interpretation
+  - **Claim pointer** "NOE correlations are observed between the Tyr and Arg, and Arg and Trp side chain hydrogens, confirming that side chains spaced three residues apart are close in space"
+  - **Evidence pointer** Abstract, NMR spectroscopy description; location not provided
+  - **Concern** The abstract states that NOEs "confirm" side chain proximity, but does not specify which NOEs correspond to which residue pairs, how many NOEs were observed, or whether alternative conformations (e.g., compact coils) could also explain these contacts. The word "confirm" is too strong for a single set of NOEs without structural refinement.
+  - **Why it matters** The claim of a bent PPII helix relies on these specific side chain contacts. If the NOEs are also consistent with a statistical coil ensemble, the structural conclusion is weakened.
+  - **Resolution test** List the specific NOE assignments, show that they are uniquely consistent with a PPII helix (e.g., via ensemble simulations), and provide quantitative comparison with coil models.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Relevance to condensates
+  - **Claim pointer** "These results lend credence to the hypothesis that Gly-rich segments of disordered proteins may form polyproline II helices which help stabilize biomolecular condensates"
+  - **Evidence pointer** Abstract, concluding statement; location not provided
+  - **Concern** The abstract provides no direct experimental link between PPII helix formation and condensate formation or stability. No condensate assays, mutagenesis studies, or thermodynamic measurements are mentioned.
+  - **Why it matters** The title and conclusion emphasize implications for condensates, but the evidence presented is purely structural on isolated peptides. Without functional data, the connection is speculative.
+  - **Resolution test** Include condensate formation assays (e.g., turbidity, FRAP, or microscopy) comparing wild-type and PPII-disrupting mutants, or clearly reframe the conclusion as a hypothesis-generating observation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, first sentence
+  - **Evidence pointer** Abstract, opening statement; location not provided
+  - **Issue** "Many intrinsically disordered proteins contain Gly-rich regions which are generally assumed to be disordered" is slightly redundant and could be sharpened to specify the assumption is about lack of persistent structure.
+  - **Required correction** Rephrase to "Gly-rich regions in intrinsically disordered proteins are often assumed to lack persistent secondary structure."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Abstract, MD simulations
+  - **Evidence pointer** Abstract, "molecular dynamics simulations suggest"; location not provided
+  - **Issue** The abstract does not state the simulation length, force field, or whether the simulations were used to estimate PPII populations or just to visualize conformations.
+  - **Required correction** Add one sentence specifying simulation conditions and the quantitative metric used to assess PPII content.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract, "bent to optimize interactions"
+  - **Evidence pointer** Abstract, structural description; location not provided
+  - **Issue** The term "bent" is vague and could be misinterpreted as a kink or a curvature. Clarify the geometric meaning.
+  - **Required correction** Define the bend angle or describe the curvature in terms of backbone dihedral angles.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative CD analysis), R1-M2 (NOE interpretation), R1-M3 (lack of condensate link)
+- **Assessment against Nature-style criteria** Originality is moderate; the PPII hypothesis for Gly-rich regions is not entirely new but the specific application to RGG motifs is a useful extension. Scientific importance is potentially high for condensate biology, but the current evidence does not yet demonstrate functional relevance. Interdisciplinary readership is plausible, spanning structural biology, biophysics, and cell biology, but the abstract is too technical for nonspecialists without more context. Technical soundness cannot be fully assessed from the abstract; the methods are appropriate in principle, but quantitative rigor is lacking. Readability for nonspecialists is limited by dense terminology and missing explanations of why PPII helices matter for condensates.
+- **Recommendation posture** Currently not established from the provided evidence. The structural observations are suggestive, but the quantitative basis and the link to condensate function require substantial additional evidence. Supportive if technical concerns are resolved and functional data are added.
+
+## Risk / unsupported claims
+- The 40% PPII population is unsupported without error analysis or fitting details.
+- The claim that NOEs "confirm" a bent PPII helix is unsupported without explicit assignments and alternative model testing.
+- The conclusion that PPII helices "help stabilize biomolecular condensates" is unsupported by any direct experimental evidence in the abstract.
+- The generalizability from the snow flea antifreeze protein to FUS RGG regions is asserted but not demonstrated with comparative data.

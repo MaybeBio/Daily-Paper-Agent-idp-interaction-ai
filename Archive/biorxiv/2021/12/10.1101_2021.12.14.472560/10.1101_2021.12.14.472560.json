@@ -1,0 +1,158 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.12.14.472560",
+  "title": "Structural dissection of the first events following membrane binding of the islet amyloid polypeptide",
+  "doi": "10.1101/2021.12.14.472560",
+  "abstract": "<h4>ABSTRACT</h4> Amyloid forming proteins are involved in many pathologies and often belong to the class of intrinsically disordered proteins. One of these proteins is the islet amyloid polypeptide (IAPP), which is the main constituent of the amyloid fibrils found in the pancreas of type 2 diabetes patients. The molecular mechanism of IAPP-induced cell death is not yet understood, however it is known that cell membrane plays a dual role, being a catalyst of IAPP aggregation and the target of IAPP toxicity. Using FTIR spectroscopy, transmission electron microscopy, and molecular dynamics simulations we investigate the very first molecular steps following IAPP binding to a lipid membrane. In particular, we assess the combined effects of the charge state of amino-acid residue 18 and the IAPP-membrane interactions on the structures of monomeric and aggregated IAPP. Both our experiments and simulations reveal distinct IAPP-membrane interaction modes for the various IAPP variants. Membrane binding causes IAPP to fold into an amphipathic helix, which in the case of H18K- and H18R-IAPP can easily insert into the membrane. For all IAPP variants but H18E-IAPP, the membrane-bound α -helical structure is an intermediate on the way to IAPP amyloid aggregation, while H18E-IAPP remains in a stable helical conformation. The fibrillar aggregates of wild-type IAPP and H18K-IAPP are dominated by an antiparallel β -sheet conformation, while H18R- and H18A-IAPP exhibit both antiparallel and parallel β -sheets as well as amorphous aggregates. In summary, our results emphasize the importance of residue 18 for the structure and membrane interaction of IAPP. This residue is thus a good target for destabilizing amyloid fibrils of IAPP and inhibit its toxic actions by possible therapeutic molecules.",
+  "authors": [
+    "Khemtemourian L",
+    "Fatafta H",
+    "Davion B",
+    "Lecomte S",
+    "Castano S",
+    "Strodel B"
+  ],
+  "published_date": "2021-12-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.12.14.472560",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.12.14.472560.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR432492",
+    "raw_record": {
+      "id": "PPR432492",
+      "source": "PPR",
+      "doi": "10.1101/2021.12.14.472560",
+      "title": "Structural dissection of the first events following membrane binding of the islet amyloid polypeptide",
+      "authorString": "Khemtemourian L, Fatafta H, Davion B, Lecomte S, Castano S, Strodel B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Khemtemourian L",
+            "lastName": "Khemtemourian",
+            "firstName": "Lucie",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6754-5724"
+            }
+          },
+          {
+            "fullName": "Fatafta H",
+            "lastName": "Fatafta",
+            "firstName": "Hebah",
+            "initials": "H"
+          },
+          {
+            "fullName": "Davion B",
+            "lastName": "Davion",
+            "firstName": "Benoit",
+            "initials": "B"
+          },
+          {
+            "fullName": "Lecomte S",
+            "lastName": "Lecomte",
+            "firstName": "Sophie",
+            "initials": "S"
+          },
+          {
+            "fullName": "Castano S",
+            "lastName": "Castano",
+            "firstName": "Sabine",
+            "initials": "S"
+          },
+          {
+            "fullName": "Strodel B",
+            "lastName": "Strodel",
+            "firstName": "Birgit",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8734-7765"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6754-5724"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8734-7765"
+          }
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "<h4>ABSTRACT</h4>  Amyloid forming proteins are involved in many pathologies and often belong to the class of intrinsically disordered proteins. One of these proteins is the islet amyloid polypeptide (IAPP), which is the main constituent of the amyloid fibrils found in the pancreas of type 2 diabetes patients. The molecular mechanism of IAPP-induced cell death is not yet understood, however it is known that cell membrane plays a dual role, being a catalyst of IAPP aggregation and the target of IAPP toxicity. Using FTIR spectroscopy, transmission electron microscopy, and molecular dynamics simulations we investigate the very first molecular steps following IAPP binding to a lipid membrane. In particular, we assess the combined effects of the charge state of amino-acid residue 18 and the IAPP-membrane interactions on the structures of monomeric and aggregated IAPP. Both our experiments and simulations reveal distinct IAPP-membrane interaction modes for the various IAPP variants. Membrane binding causes IAPP to fold into an amphipathic helix, which in the case of H18K- and H18R-IAPP can easily insert into the membrane. For all IAPP variants but H18E-IAPP, the membrane-bound  α -helical structure is an intermediate on the way to IAPP amyloid aggregation, while H18E-IAPP remains in a stable helical conformation. The fibrillar aggregates of wild-type IAPP and H18K-IAPP are dominated by an antiparallel  β -sheet conformation, while H18R- and H18A-IAPP exhibit both antiparallel and parallel  β -sheets as well as amorphous aggregates. In summary, our results emphasize the importance of residue 18 for the structure and membrane interaction of IAPP. This residue is thus a good target for destabilizing amyloid fibrils of IAPP and inhibit its toxic actions by possible therapeutic molecules.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/12/14/2021.12.14.472560.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.12.14.472560"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35372496",
+            "reference": "Frontiers in molecular biosciences. 2022 ;9:849979",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-12-16",
+      "firstPublicationDate": "2021-12-14",
+      "firstIndexDate": "2021-12-16",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.04.15.589479",
+  "title": "GōMartini 3: From large conformational changes in proteins to environmental bias corrections",
+  "doi": "10.1101/2024.04.15.589479",
+  "abstract": "<h4>ABSTRACT</h4> Coarse-grained modeling has become an important tool to supplement experimental measurements, allowing access to spatio-temporal scales beyond all-atom based approaches. The GōMartini model combines structure- and physics-based coarse-grained approaches, balancing computational efficiency and accurate representation of protein dynamics with the capabilities of studying proteins in different biological environments. This paper introduces an enhanced GōMartini model, which combines a virtual-site implementation of Gō models with Martini 3. The implementation has been extensively tested by the community since the release of the new version of Martini. This work demonstrates the capabilities of the model in diverse case studies, ranging from protein-membrane binding to protein-ligand interactions and AFM force profile calculations. The model is also versatile, as it can address recent inaccuracies reported in the Martini protein model. Lastly, the paper discusses the advantages, limitations, and future perspectives of the Martini 3 protein model and its combination with Gō models.",
+  "authors": [
+    "Souza PCT",
+    "Borges-Araújo L",
+    "Brasnett C",
+    "Moreira RA",
+    "Grünewald F",
+    "Park P",
+    "Wang L",
+    "Razmazma H",
+    "Borges-Araújo AC",
+    "Cofas-Vargas LF",
+    "Monticelli L",
+    "Mera-Adasme R",
+    "Melo MN",
+    "Wu S",
+    "Marrink SJ",
+    "Poma AB",
+    "Thallmair S"
+  ],
+  "published_date": "2024-04-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.04.15.589479",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.04.15.589479.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR838512",
+    "raw_record": {
+      "id": "PPR838512",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR838512"
+        ]
+      },
+      "doi": "10.1101/2024.04.15.589479",
+      "title": "GōMartini 3: From large conformational changes in proteins to environmental bias corrections",
+      "authorString": "Souza PCT, Borges-Araújo L, Brasnett C, Moreira RA, Grünewald F, Park P, Wang L, Razmazma H, Borges-Araújo AC, Cofas-Vargas LF, Monticelli L, Mera-Adasme R, Melo MN, Wu S, Marrink SJ, Poma AB, Thallmair S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Souza PCT",
+            "lastName": "Souza",
+            "firstName": "Paulo",
+            "initials": "PCT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratoire de Biologie et Modélisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Université Claude Bernard Lyon 1, Ecole Normale Supérieure de Lyon, 46 Allée d’Italie, 69364, Lyon, France"
+                },
+                {
+                  "affiliation": "Centre Blaise Pascal de Simulation et de Modélisation Numérique, Ecole Normale Supérieure de Lyon, 46 Allée d’Italie, 69364, Lyon, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Borges-Araújo L",
+            "lastName": "Borges-Araújo",
+            "firstName": "Luís",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratoire de Biologie et Modélisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Université Claude Bernard Lyon 1, Ecole Normale Supérieure de Lyon, 46 Allée d’Italie, 69364, Lyon, France"
+                },
+                {
+                  "affiliation": "Centre Blaise Pascal de Simulation et de Modélisation Numérique, Ecole Normale Supérieure de Lyon, 46 Allée d’Italie, 69364, Lyon, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Brasnett C",
+            "lastName": "Brasnett",
+            "firstName": "Chris",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Nijenborgh 7, 9747 AG Groningen, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Moreira RA",
+            "lastName": "Moreira",
+            "firstName": "Rodrigo",
+            "initials": "RA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "BCAM, Basque Center for Applied Mathematics, Mazarredo 14, 48009 Bilbao, Bizkaia, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Grünewald F",
+            "lastName": "Grünewald",
+            "firstName": "Fabian",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Heidelberg Institute for Theoretical Studies (HITS), Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Park P",
+            "lastName": "Park",
+            "firstName": "Peter",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5671-9354"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Nijenborgh 7, 9747 AG Groningen, The Netherlands"
+                },
+                {
+                  "affiliation": "Departamento de Bioquímica, Instituto de Química, Universidade de São Paulo, São Paulo, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang L",
+            "lastName": "Wang",
+            "firstName": "Liguo",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0001-2953-3973"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Nijenborgh 7, 9747 AG Groningen, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Razmazma H",
+            "lastName": "Razmazma",
+            "firstName": "Hafez",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3534-3068"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Microbiology and Structural Biochemistry, CNRS UMR 5086 and Université Claude Bernard Lyon 1, 7 Passage du Vercors, 69007, Lyon, France"
+                },
+                {
+                  "affiliation": "Institut des Biomolecules Max Mousseron, UMR5247, CNRS, Université De Montpellier, ENSCM, 1919 Route de Mende, Montpellier, Cedex 0534095, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Borges-Araújo AC",
+            "lastName": "Borges-Araújo",
+            "firstName": "Ana",
+            "initials": "AC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Instituto de Tecnologia Química e Biológica António Xavier, Universidade Nova de Lisboa, Av. da República, 2780-157 Oeiras, Portugal"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cofas-Vargas LF",
+            "lastName": "Cofas-Vargas",
+            "firstName": "Luis Fernando",
+            "initials": "LF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5603-1437"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biosystems and Soft Matter Division, Institute of Fundamental Technological Research, Polish Academy of Sciences, ul. Pawińskiego 5B, 02-106 Warsaw, Poland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Monticelli L",
+            "lastName": "Monticelli",
+            "firstName": "Luca",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6352-4595"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Molecular Microbiology and Structural Biochemistry, CNRS UMR 5086 and Université Claude Bernard Lyon 1, 7 Passage du Vercors, 69007, Lyon, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mera-Adasme R",
+            "lastName": "Mera-Adasme",
+            "firstName": "Raúl",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departmento de Química, Facultad de Ciencias, Universidad de Tarapacá, Chile"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Melo MN",
+            "lastName": "Melo",
+            "firstName": "Manuel",
+            "initials": "MN",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Instituto de Tecnologia Química e Biológica António Xavier, Universidade Nova de Lisboa, Av. da República, 2780-157 Oeiras, Portugal"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu S",
+            "lastName": "Wu",
+            "firstName": "Sangwook",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "PharmCADD, Busan, 48792, Republic of Korea"
+                },
+                {
+                  "affiliation": "Department of Physics, Pukyong National University, Busan, 48513, Republic of Korea"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marrink SJ",
+            "lastName": "Marrink",
+            "firstName": "Siewert",
+            "initials": "SJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Nijenborgh 7, 9747 AG Groningen, The Netherlands"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Poma AB",
+            "lastName": "Poma",
+            "firstName": "Adolfo",
+            "initials": "AB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biosystems and Soft Matter Division, Institute of Fundamental Technological Research, Polish Academy of Sciences, ul. Pawińskiego 5B, 02-106 Warsaw, Poland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thallmair S",
+            "lastName": "Thallmair",
+            "firstName": "Sebastian",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Frankfurt Institute for Advanced Studies, Ruth-Moufang-Straße 1, 60438 Frankfurt am Main, Germany"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5603-1437"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5671-9354"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6979-1363"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3534-3068"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6352-4595"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7605-8722"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9949-9125"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3004-7750"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0001-2953-3973"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Coarse-grained modeling has become an important tool to supplement experimental measurements, allowing access to spatio-temporal scales beyond all-atom based approaches. The GōMartini model combines structure- and physics-based coarse-grained approaches, balancing computational efficiency and accurate representation of protein dynamics with the capabilities of studying proteins in different biological environments. This paper introduces an enhanced GōMartini model, which combines a virtual-site implementation of Gō models with Martini 3. The implementation has been extensively tested by the community since the release of the new version of Martini. This work demonstrates the capabilities of the model in diverse case studies, ranging from protein-membrane binding to protein-ligand interactions and AFM force profile calculations. The model is also versatile, as it can address recent inaccuracies reported in the Martini protein model. Lastly, the paper discusses the advantages, limitations, and future perspectives of the Martini 3 protein model and its combination with Gō models.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/16/2024.04.15.589479.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.04.15.589479"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR838512"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR838512&type=FILE&fileName=EMS195601-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40307210",
+            "reference": "Nature communications. 2025 Apr;16(1):4051",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 14,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS195601",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-04-19",
+      "firstPublicationDate": "2024-04-16",
+      "firstIndexDate": "2024-04-19",
+      "fullTextReceivedDate": "2024-05-08",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42627689",
+  "title": "AI Structural Biology in Nephrology: Powerful Scaffolds, Fragile Certainties.",
+  "authors": "Zoccali, Carmine; Petretto, Enrico; Capasso, Giovambattista; Gesualdo, Loreto; Mallamaci, Francesca; Cheungpasitporn, Wisit; Pesce, Francesco",
+  "journal": "Journal of the American Society of Nephrology : JASN",
+  "published_date": "2026-08-21",
+  "window": {
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文综述AI结构预测在肾脏病学中的应用，强调IDR/无序支架蛋白的建模局限与动态互作机制，虽非聚焦PPI建模，但对无序蛋白互作机制的可迁移思考有启发。",
+  "abstract": "Artificial intelligence (AI)-based protein structure prediction has rapidly entered nephrology, providing plausible atomic models for channels, transporters, receptors and scaffolds that previously lacked structural information. AlphaFold and RoseTTAFold now underpin mechanistic interpretations of inherited kidney diseases, including autosomal-dominant polycystic kidney disease, cystinosis and Alport syndrome, and support experimental design in cryo-electron microscopy and cryo-electron tomography. For nephrologists, this means that renal proteins no longer need to be treated as black boxes: genetic, biochemical and physiological data can now be mapped onto concrete three-dimensional scaffolds. However, the apparent precision of AI models can be misleading. Renal proteins frequently fall within underrepresented classes, including multipass membrane proteins, intrinsically disordered scaffolds, and human-specific isoforms with shallow multiple sequence alignments, where confidence scores may not accurately reflect model reliability. Current predictors typically deliver static snapshots, whereas transporters, channels and slit-diaphragm complexes function as dynamic ensembles embedded in specific lipid and macromolecular environments. Attempts to use AlphaFold directly for variant classification or to estimate changes in thermodynamic stability or function show only modest agreement with mutagenesis data, particularly for gain-of-function and dominant-negative alleles that depend on subtle conformational and interaction changes. Common pitfalls include overinterpreting oligomeric stoichiometry inferred from AlphaFold Multimer, reading too much into domain orientations with high predicted aligned error, and dismissing low-confidence regions as modelling failures rather than recognising intrinsically disordered, potentially regulatory segments. Integrative approaches combining cryo-electron tomography, crosslinking mass spectrometry and molecular dynamics can mitigate these limitations but remain labour-intensive and low-throughput. An explainable, hypothesis-driven use of AI that treats predicted structures as working scaffolds to be cross-validated against imaging, biophysics and functional assays offers the most reliable path towards a genuinely mechanistic nephrology and responsible clinical translation of AI-based structural insights.",
+  "abstract_zh": "基于人工智能（AI）的蛋白质结构预测已迅速进入肾脏病学领域，为先前缺乏结构信息的通道、转运体、受体和支架蛋白提供了合理的原子模型。AlphaFold和RoseTTAFold现已成为遗传性肾脏疾病（包括常染色体显性多囊肾病、胱氨酸病和Alport综合征）机制解释的基础，并支持冷冻电子显微镜和冷冻电子断层扫描中的实验设计。对肾脏病学家而言，这意味着肾脏蛋白不再需要被视为黑箱：遗传、生化和生理数据现在可以映射到具体的三维支架上。然而，AI模型的表面精确性可能具有误导性。肾脏蛋白常属于代表性不足的类别，包括多次跨膜蛋白、内在无序支架蛋白，以及具有浅层多序列比对的人类特异性异构体，在这些情况下，置信度分数可能无法准确反映模型可靠性。当前预测器通常提供静态快照，而转运体、通道和裂孔隔膜复合体则作为嵌入特定脂质和大分子环境中的动态集合体发挥作用。直接使用AlphaFold进行变异分类或估计热力学稳定性及功能变化的尝试，与突变数据仅显示中等程度的一致性，特别是对于依赖微妙构象和相互作用变化的功能获得型和显性负性等位基因。常见陷阱包括过度解读从AlphaFold Multimer推断的寡聚体化学计量比，对具有高预测对齐误差的结构域取向过度解读，以及将低置信度区域视为建模失败，而非识别为内在无序、可能具有调控功能的片段。结合冷冻电子断层扫描、交联质谱和分子动力学的整合方法可以缓解这些局限性，但仍属劳动密集型且通量较低。一种可解释的、假设驱动的AI使用方式，将预测结构视为工作支架，并通过成像、生物物理和功能分析进行交叉验证，为迈向真正机制性肾脏病学及基于AI结构见解的负责任临床转化提供了最可靠的路径。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42627689/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42627689/",
+  "paper_page_path": "papers/pubmed/42627689/index.html"
+}

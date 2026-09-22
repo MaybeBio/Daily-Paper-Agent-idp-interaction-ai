@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text, including Summary, Introduction, Results, Discussion, Methods, and figure legends. No figures, tables, or supplementary data were provided.
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and technical rigor as presented in the text. Statistical details, raw data, and bioinformatic analyses could not be independently verified.
+- **Shared manuscript claim summary** The authors report that a negatively charged region (NCR) within the carboxy-terminal domain (CTD) of CTCF maintains proper DNA binding. CRISPR deletion of the entire CTD decreases CTCF binding, while deletion of the C-terminal 116 amino acids increases binding and causes aberrant gene regulation. The NCR is proposed to act as an autoinhibitory DNA mimic based on AlphaFold3 predictions.
+- **Visible evidence base** ChIP-seq, RNA-seq, ATAC-seq, QHR-4C, EMSA, western blot, and AlphaFold3 structural predictions. All data are referenced in figure legends but the actual figures, tables, and supplementary materials were not provided.
+- **Missing materials affecting confidence** All figures, tables, supplementary figures, and supplementary tables. Statistical test details, replicate numbers, and bioinformatic analysis parameters. The GEO accession numbers are listed but the data were not accessible for review.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important question in CTCF biology, namely how the intrinsically disordered CTD modulates DNA binding. The genetic deletion strategy is systematic and the combination of ChIP-seq, RNA-seq, ATAC-seq, and 4C provides a multi-dimensional view of the consequences of CTD perturbation. The identification of an NCR that suppresses DNA binding is potentially interesting. However, the manuscript has several significant weaknesses. The central claim of autoinhibition rests heavily on AlphaFold3 predictions that are not experimentally validated. The EMSA experiments are described but the results are not shown in the provided text. The mechanistic distinction between the effects of full CTD deletion versus NCR deletion is not clearly resolved. The genome-wide analyses are presented with minimal statistical detail. The causal relationship between increased CTCF binding, chromatin accessibility, and gene expression changes is correlative rather than demonstrated. The manuscript would benefit from direct biochemical evidence of the proposed autoinhibitory interaction and from a clearer articulation of how the NCR specifically modulates binding without affecting specificity.
+- **Who would be interested in the results, and why** Researchers studying CTCF function, chromatin architecture, 3D genome organization, and gene regulation would be the primary audience. The work is also relevant to those interested in intrinsically disordered regions and their regulatory roles in DNA-binding proteins. The proposed autoinhibitory mechanism, if validated, could have implications for understanding how post-translational modifications or alternative splicing within the CTD might modulate CTCF activity.
+- **Major strengths** The genetic dissection of the CTCF CTD using CRISPR is thorough and includes multiple independent clones. The combination of chromatin, transcriptomic, and architectural assays provides a broad phenotypic characterization. The identification of a specific region within the CTD that suppresses DNA binding is a novel finding. The use of AlphaFold3 to generate a mechanistic hypothesis is forward-looking. The authors acknowledge limitations regarding generalizability beyond the cPCDH locus.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength
+  - **Claim pointer** The manuscript claims that the NCR acts as an autoinhibitory domain that competes with DNA for binding to the positively charged surface of the zinc finger array.
+  - **Evidence pointer** Figure 5F-5J, described in the text as AlphaFold3 predictions. Location not provided for the actual model coordinates.
+  - **Concern** The central mechanistic claim of autoinhibition is based entirely on AlphaFold3 structural predictions. No experimental validation is provided to demonstrate that the NCR physically interacts with the zinc finger domain in the absence of DNA, that this interaction is competitive with DNA binding, or that disruption of the predicted electrostatic interactions abolishes the inhibitory effect. The EMSA experiments described in the text compare full-length, ΔNCR, and ΔCT116 proteins, but the results are not shown in the provided material. Without direct biochemical evidence, the autoinhibitory model remains speculative.
+  - **Why it matters** The proposed mechanism is the central conceptual advance of the manuscript. If the autoinhibitory model is not experimentally supported, the manuscript reduces to a descriptive account of CTD deletion phenotypes, which is of more limited interest.
+  - **Resolution test** Provide EMSA data showing that purified NCR peptide competes with DNA for binding to the zinc finger domain. Alternatively, mutate the predicted electrostatic interaction residues within the NCR and demonstrate loss of inhibition. Crosslinking or pull-down experiments showing direct NCR-zinc finger interaction would also strengthen the claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal inference
+  - **Claim pointer** The manuscript states that increased CTCF binding upon NCR deletion leads to increased chromatin accessibility and gene expression changes.
+  - **Evidence pointer** Figures 4A-4G, S6, S7, S8. Location not provided.
+  - **Concern** The manuscript demonstrates correlations between increased CTCF binding, increased chromatin accessibility, and increased expression of specific genes. However, a causal relationship is not established. It is possible that increased accessibility is a consequence of other chromatin changes, or that the gene expression changes are indirect. The text does not describe experiments that perturb CTCF binding independently of the NCR deletion to test whether the observed phenotypes are specifically due to increased CTCF occupancy. The claim that NCR deletion "causes" the observed changes is therefore not fully supported.
+  - **Why it matters** The manuscript aims to establish a functional role for the NCR in maintaining proper CTCF binding and downstream effects. Without causal evidence, the interpretation remains correlative.
+  - **Resolution test** Perform CTCF depletion or degron experiments in the ΔNCR background to show that the observed gene expression and accessibility changes are dependent on CTCF. Alternatively, use a CTCF mutant that cannot bind DNA but retains the NCR to demonstrate that the NCR effects are mediated through DNA binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor
+  - **Claim pointer** The manuscript reports significant changes in CTCF binding, chromatin accessibility, and gene expression based on ChIP-seq, ATAC-seq, and RNA-seq analyses.
+  - **Evidence pointer** Figures 1G-1J, 2B-2E, 4B-4E, S2, S4, S6, S8. Location not provided.
+  - **Concern** The text reports p-values from Student's t-tests but does not provide effect sizes, confidence intervals, or details on multiple testing corrections. For ChIP-seq and ATAC-seq, the number of biological replicates is stated as at least two, but the variability between replicates is not described. For RNA-seq, the DESeq2 analysis is mentioned but the number of differentially expressed genes passing the significance threshold is not stated. The manuscript does not describe how the significance thresholds were chosen or whether the results are robust to different analysis parameters.
+  - **Why it matters** The conclusions depend on the reliability of the quantitative comparisons. Without adequate statistical detail, the reader cannot assess the strength of the evidence.
+  - **Resolution test** Provide detailed statistical reporting, including effect sizes, confidence intervals, and the number of replicates. Describe the multiple testing correction method used for ChIP-seq and ATAC-seq analyses. Show the distribution of p-values and the number of significant peaks or genes at different thresholds.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The manuscript suggests that the NCR maintains proper CTCF binding throughout the genome.
+  - **Evidence pointer** Figures 2D, 2E, 4D, 4E, S4, S6. Location not provided.
+  - **Concern** The detailed analyses focus on the cPCDH locus, which is a specialized genomic region with clustered CTCF sites. The genome-wide analyses are presented as heatmaps and aggregate plots, but the text does not describe whether the increased binding is uniform across all CTCF sites or enriched at specific classes of sites. The manuscript does not address whether the NCR effect is dependent on the local chromatin context, the spacing between CTCF sites, or the presence of cofactors. The claim of genome-wide relevance is therefore not fully substantiated.
+  - **Why it matters** The manuscript aims to establish a general principle of CTCF regulation. If the NCR effect is specific to certain genomic contexts, the conclusions would need to be qualified.
+  - **Resolution test** Classify CTCF sites by genomic context, chromatin state, or motif orientation and test whether the NCR deletion effect is uniform across these classes. Perform motif analysis to determine whether the increased binding is associated with specific sequence features.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical validation
+  - **Claim pointer** The manuscript states that deletion of the NCR increases CTCF binding and that this is validated by ChIP-qPCR.
+  - **Evidence pointer** Figure S6J. Location not provided.
+  - **Concern** The text mentions ChIP-qPCR validation but does not provide the primers used, the genomic locations tested, or the magnitude of the changes. The number of biological replicates for the ChIP-qPCR is not stated. The manuscript does not describe how the ChIP-qPCR results compare quantitatively to the ChIP-seq results.
+  - **Why it matters** ChIP-qPCR is a standard validation method, but the lack of detail prevents assessment of the robustness of the validation.
+  - **Resolution test** Provide the ChIP-qPCR primer sequences, the genomic coordinates of the tested regions, the number of replicates, and the fold changes with error bars.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1A schematic
+  - **Evidence pointer** Figure 1A. Location not provided.
+  - **Issue** The schematic of CTCF domain structure does not clearly indicate the boundaries of the NCR relative to the RNA-binding region and the rest of the CTD. The text describes the NCR as residues 612-637, but the figure legend does not specify this.
+  - **Required correction** Add residue numbers to the schematic and clearly label the NCR, RBR, and other relevant regions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** EMSA description
+  - **Evidence pointer** Figure 5B-5E. Location not provided.
+  - **Issue** The EMSA experiments are described as using three different CTCF proteins, but the text does not state whether these are full-length proteins or truncated constructs. The protein concentrations used, the DNA probe sequences, and the binding conditions are not described.
+  - **Required correction** Provide full experimental details for the EMSA, including protein construct descriptions, concentrations, probe sequences, and binding buffer composition.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** AlphaFold3 predictions
+  - **Evidence pointer** Figure 5F-5J. Location not provided.
+  - **Issue** The text states that AlphaFold3 predicts an autoinhibitory conformation, but the confidence metrics of the prediction are not discussed. AlphaFold3 predictions of disordered regions are often unreliable, and the manuscript does not address this limitation.
+  - **Required correction** Discuss the confidence of the AlphaFold3 prediction and acknowledge the limitations of structural predictions for intrinsically disordered regions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Gene expression analysis
+  - **Evidence pointer** Figure 4H, 4I. Location not provided.
+  - **Concern** The text reports that up-regulated genes are closer to increased CTCF peaks, but the analysis is described only briefly. The manuscript does not state whether this proximity is statistically significant compared to a random expectation.
+  - **Required correction** Provide the statistical test used to assess the significance of the proximity between up-regulated genes and increased CTCF peaks.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "DNA mimic domain"
+  - **Evidence pointer** Discussion section. Location not provided.
+  - **Issue** The term "DNA mimic domain" is used in the Discussion, but the evidence for this designation is based on AlphaFold3 predictions and electrostatic considerations. The term implies a functional mechanism that is not experimentally demonstrated.
+  - **Required correction** Use more cautious language, such as "proposed DNA mimic" or "putative DNA mimic," until direct evidence is provided.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (autoinhibitory mechanism not experimentally validated), R1-M2 (causal relationship not established), R1-M3 (insufficient statistical detail).
+- **Assessment against Nature-style criteria** 
+  - Originality: The identification of a specific negatively charged region within the CTCF CTD that suppresses DNA binding is a novel observation. The proposed autoinhibitory mechanism, if validated, would be an original contribution. However, the concept of autoinhibition in DNA-binding proteins is not new, and the manuscript does not fully distinguish its findings from prior work on other proteins.
+  - Scientific importance: CTCF is a central regulator of genome architecture, and understanding how its activity is modulated is of broad significance. The manuscript addresses an important gap in knowledge regarding the role of the CTD. However, the importance is tempered by the lack of mechanistic depth and the focus on a single cell line and locus.
+  - Interdisciplinary readership: The work is primarily of interest to molecular biologists, chromatin biologists, and genomicists. The use of AlphaFold3 may attract structural biologists, but the lack of experimental structural validation limits this appeal. The clinical relevance to CTCF-related disorders is mentioned but not developed.
+  - Technical soundness: The genetic deletion strategy is sound and includes multiple clones. The use of ChIP-seq, RNA-seq, ATAC-seq, and 4C is appropriate. However, the lack of experimental validation for the central mechanistic claim, the limited statistical detail, and the absence of key experimental details (e.g., EMSA conditions) undermine the technical rigor.
+  - Readability for nonspecialists: The manuscript is generally well-written and the logic is clear. However, the heavy reliance on genomic assays and the lack of a clear mechanistic model that is experimentally tested may make it difficult for nonspecialists to appreciate the significance of the findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents a potentially interesting observation, but the central mechanistic claim is not experimentally supported, and the quantitative rigor is insufficient. The authors should be encouraged to provide direct biochemical evidence for the autoinhibitory interaction, strengthen the causal analysis, and improve the statistical reporting.
+
+## Risk / unsupported claims
+- The claim that the NCR acts as a DNA mimic that competes with DNA for binding to the zinc finger array is unsupported by direct experimental evidence. This is based solely on AlphaFold3 predictions.
+- The claim that NCR deletion "causes" increased chromatin accessibility and gene expression changes is not supported by causal experiments.
+- The claim that the NCR maintains proper CTCF binding "throughout the genome" is not fully supported, as the detailed analysis focuses on the cPCDH locus and the genome-wide analysis lacks sufficient detail.
+- The statement that "CTD deletion does not alter the DNA binding specificity" is based on motif analysis, but the details of this analysis are not provided.
+- The claim that the NCR is "highly conserved" is based on sequence alignment, but the statistical significance of this conservation is not assessed.
+- The functional significance of the increased CTCF binding for the observed gene expression changes is not established, as the manuscript does not demonstrate that the affected genes are direct CTCF targets.

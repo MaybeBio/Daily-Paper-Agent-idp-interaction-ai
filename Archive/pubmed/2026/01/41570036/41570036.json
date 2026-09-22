@@ -1,0 +1,311 @@
+{
+  "identity": {
+    "pmid": "41570036",
+    "doi": "10.1371/journal.pcbi.1013899",
+    "title": "A predicted structural interactome reveals binding interference from intrinsically disordered regions."
+  },
+  "content": {
+    "abstract": "Proteins function through dynamic interactions with other proteins in cells, forming complex networks fundamental to cellular processes. While high-resolution and high-throughput methods have significantly advanced our understanding of how proteins interact with each other, the molecular details of many important protein-protein interactions are still poorly characterized, especially in non-mammalian species, including Drosophila. Recent advancements in deep learning techniques have enabled the prediction of molecular details in various cellular pathways at the network level. In this study, we used AlphaFold2 Multimer to examine and predict protein-protein interactions from both physical and functional datasets in Drosophila. We found that functional associations contribute significantly to high-confidence predictions. Through detailed structural analysis, we also found the importance of intrinsically disordered regions in the predicted high-confidence interactions. Our study highlights the importance of disordered regions in protein-protein interactions and demonstrates the importance of incorporating functional interactions in predicting physical interactions between proteins. We further compiled an interactive web interface to present these predictions, facilitating functional exploration, comparative analysis, and the generation of mechanistic hypotheses for future studies.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Protein Interaction Mapping/methods",
+      "Protein Binding",
+      "*Drosophila Proteins/chemistry/metabolism",
+      "Computational Biology/methods",
+      "Drosophila",
+      "Protein Interaction Maps",
+      "Databases, Protein",
+      "Protein Conformation",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Peng, Junhui",
+        "Zhao, Li"
+      ],
+      "short_names": [
+        "Peng J",
+        "Zhao L"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2855-2299",
+        "ORCID: 0000-0001-6776-1996"
+      ],
+      "affiliations": [
+        "Laboratory of Evolutionary Genetics and Genomics, The Rockefeller University, New York, New York, United States of America.",
+        "Laboratory of Evolutionary Genetics and Genomics, The Rockefeller University, New York, New York, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Peng, Junhui",
+        "short_name": "Peng J",
+        "identifiers": [
+          "0000-0003-2855-2299"
+        ],
+        "affiliations": [
+          "Laboratory of Evolutionary Genetics and Genomics, The Rockefeller University, New York, New York, United States of America."
+        ]
+      },
+      {
+        "full_name": "Zhao, Li",
+        "short_name": "Zhao L",
+        "identifiers": [
+          "0000-0001-6776-1996"
+        ],
+        "affiliations": [
+          "Laboratory of Evolutionary Genetics and Genomics, The Rockefeller University, New York, New York, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/22 19:24",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [
+      "42537002",
+      "42039469",
+      "41881768"
+    ],
+    "refs": [
+      "41279736",
+      "40568179",
+      "40015271",
+      "39938238",
+      "39910251",
+      "39740355",
+      "39547210",
+      "39446390",
+      "39115813",
+      "38518286",
+      "38325366",
+      "38297184",
+      "38297118",
+      "38225382",
+      "37904585",
+      "37878721",
+      "37758696",
+      "37405868",
+      "36753519",
+      "36690744",
+      "36210722",
+      "36038728",
+      "35679405",
+      "35273146",
+      "35219399",
+      "35139468",
+      "34791371",
+      "34610267",
+      "34265844",
+      "33237311",
+      "33070389",
+      "30357364",
+      "30125270",
+      "29035372",
+      "27668217",
+      "27175018",
+      "26922996",
+      "25275790",
+      "24773235",
+      "23339871",
+      "23329690",
+      "23170892",
+      "22453911",
+      "22412018",
+      "22036573",
+      "20947012",
+      "19660471",
+      "19585546",
+      "19403463",
+      "18840285",
+      "18414481",
+      "18218650",
+      "18054235",
+      "17177203",
+      "16169070",
+      "15540166",
+      "15264254",
+      "14597658",
+      "14579347",
+      "14564010",
+      "12853464",
+      "11522820",
+      "9632837",
+      "6667333",
+      "2547163",
+      "2231712"
+    ],
+    "similar": [
+      "41570036",
+      "40894573",
+      "25286318",
+      "23912807",
+      "39446390",
+      "38226524",
+      "41534519",
+      "40944448",
+      "40133781",
+      "32708183",
+      "36908253",
+      "28934129",
+      "40650026",
+      "19660471",
+      "39740355",
+      "30002402",
+      "41053908",
+      "25913176",
+      "40133791",
+      "20947012",
+      "42290021",
+      "41512952",
+      "41174305",
+      "29080786",
+      "38987470",
+      "33548309",
+      "40195117",
+      "33291838",
+      "20438650",
+      "41965370",
+      "31207240",
+      "26720267",
+      "38226900",
+      "32696395",
+      "25736992",
+      "39510344",
+      "27377881",
+      "38701796",
+      "25974317",
+      "26109352",
+      "40403066",
+      "28398197",
+      "27787828",
+      "28394890",
+      "39163306",
+      "28589442",
+      "25424537",
+      "34905768",
+      "33417598",
+      "34830151",
+      "38238291",
+      "30866736",
+      "40259744",
+      "40728621",
+      "26790343",
+      "27115638",
+      "21572181",
+      "39576583",
+      "39952928",
+      "23466039",
+      "30802457",
+      "23942625",
+      "23990768",
+      "34610267",
+      "30878482",
+      "28365882",
+      "36576775",
+      "17647236",
+      "27450808",
+      "18831774",
+      "28150242",
+      "33153474",
+      "18329319",
+      "32139510",
+      "40441416",
+      "34418423",
+      "29257115",
+      "19503817",
+      "24668165",
+      "30135358",
+      "34390736",
+      "30886144",
+      "29990433",
+      "28098335",
+      "24510594",
+      "33355572",
+      "28369666",
+      "20502673",
+      "23222005",
+      "38781245",
+      "33875885",
+      "39718444",
+      "30657889",
+      "38866950",
+      "32722039",
+      "38166858",
+      "38986166",
+      "40349675",
+      "40319601",
+      "34075638"
+    ],
+    "review": [
+      "41570036",
+      "32708183",
+      "40650026",
+      "39740355",
+      "25913176",
+      "20947012",
+      "40195117",
+      "33291838",
+      "26720267",
+      "28589442",
+      "23466039",
+      "34610267",
+      "18329319",
+      "34418423",
+      "34390736",
+      "33355572",
+      "30657889",
+      "38986166"
+    ],
+    "pmc": [
+      "12854418"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=41570036",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1013899",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41570036/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

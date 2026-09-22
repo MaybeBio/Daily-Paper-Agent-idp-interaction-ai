@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39089542",
+  "title": "Intrinsic disorder and salt-dependent conformational changes of the N-terminal region of TFIP11 splicing factor.",
+  "authors": "Juniku, Blinera; Mignon, Julien; Careme, Rachel; Genco, Alexia; Obeid, Anna Maria; Mottet, Denis; Monari, Antonio; Michaux, Catherine",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2024-08-02",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合无序预测、分子动力学与光谱学，揭示剪接因子TFIP11 N端为多聚两性IDP，其盐依赖的构象双态性（有序/无序共存）与凝聚体形成及蛋白-RNA互作相关，直接契合无序蛋白互作机制建模主题。",
+  "abstract": "Tuftelin Interacting Protein 11 (TFIP11) was identified as a critical human spliceosome assembly regulator, interacting with multiple proteins and localising in membrane-less organelles. However, a lack of structural information on TFIP11 limits the rationalisation of its biological role. TFIP11 is predicted as an intrinsically disordered protein (IDP), and more specifically concerning its N-terminal (N-TER) region. IDPs lack a defined tertiary structure, existing as a dynamic conformational ensemble, favouring protein-protein and protein-RNA interactions. IDPs are involved in liquid-liquid phase separation (LLPS), driving the formation of subnuclear compartments. Combining disorder prediction, molecular dynamics, and spectroscopy methods, this contribution shows the first evidence TFIP11 N-TER is a polyampholytic IDP, exhibiting a structural duality with the coexistence of ordered and disordered assemblies, depending on the ionic strength. Increasing the salt concentration enhances the protein conformational flexibility, presenting a more globule-like shape, and a fuzzier unstructured arrangement that could favour LLPS and protein-RNA interaction. The most charged and hydrophilic regions are the most impacted, including the G-Patch domain essential to TFIP11 function. This study gives a better understanding of the salt-dependent conformational behaviour of the N-TER TFIP11, supporting the hypothesis of the formation of different types of protein assembly, in line with its multiple biological roles.",
+  "abstract_zh": "Tuftelin相互作用蛋白11（TFIP11）被鉴定为关键的人类剪接体组装调控因子，与多种蛋白质相互作用并定位于无膜细胞器中。然而，缺乏TFIP11的结构信息限制了对其生物学作用的合理化解释。TFIP11被预测为一种固有无序蛋白（IDP），尤其涉及其N端（N-TER）区域。IDP缺乏明确的三级结构，以动态构象集合体形式存在，有利于蛋白质-蛋白质和蛋白质-RNA相互作用。IDP参与液-液相分离（LLPS），驱动亚核区室的形成。结合无序预测、分子动力学和光谱学方法，本研究提供了首个证据表明TFIP11 N-TER是一种多聚两性电解质IDP，表现出结构二元性，即有序和无序组装共存，具体取决于离子强度。增加盐浓度增强了蛋白质的构象灵活性，呈现更接近球状的外形，以及更模糊的无序排列，这可能有利于LLPS和蛋白质-RNA相互作用。带电性和亲水性最强的区域受影响最大，包括对TFIP11功能至关重要的G-Patch结构域。本研究更深入地理解了N-TER TFIP11的盐依赖性构象行为，支持了不同类型蛋白质组装形成的假说，与其多种生物学作用相一致。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39089542/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39089542/",
+  "paper_page_path": "papers/pubmed/39089542/index.html"
+}

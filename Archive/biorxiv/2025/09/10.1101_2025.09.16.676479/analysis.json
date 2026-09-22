@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.16.676479",
+  "title": "Endocytic clathrin-coated vesicles are targeted for selective autophagy during osmotic stress",
+  "authors": "Dragwidge JM; Buridan M; Kraus J; Kosuth T; Chambaud C; Brocard L; Yperman K; Mylle E; Vandorpe M; Eeckhout D; De Jaeger G; Pleskot R; Bernard A; Van Damme D",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-17",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究植物渗透胁迫下网格蛋白包被囊泡经选择性自噬降解的机制，涉及膜张力维持，但对象非无序蛋白/IDR/相分离，且无AI或物理模拟方法，与本课题关联微弱。",
+  "abstract": "Plants frequently encounter hyperosmotic stress due to drought and salinity, leading to rapid water loss, reduced turgor pressure, and decreased cell volume. This contraction drastically alters plasma membrane tension, a physical parameter that must be strictly maintained to support mechanosignaling and cell expansion. However, the mechanisms by which plants adjust their membrane surface area to match a shrinking cell volume remain poorly understood. Here, we identify selective autophagy dependent degradation of plasma membrane-derived clathrin-coated vesicles (CCVs) in response to hyperosmotic shock. This pathway involves the recruitment of the endocytic TPLATE complex (TPC) to autophagosomes in an osmotic-stress dependent manner. Through correlative light and electron microscopy (CLEM) and electron tomography (ET), we provide ultrastructural evidence of the physical association of CCVs with autophagosome membranes. These autophagosomes contain endocytic machinery, including TPC and clathrin, and are targeted to the vacuole. Mechanistically, we show that the conserved ATG8-interacting motifs (AIMs) in the AtEH1/Pan1 and AtEH2/Pan1 TPC subunits interact with ATG8, suggesting that they facilitate the recruitment of CCVs to autophagosomes. Using time-lapse imaging, we demonstrate that the acute induction of autophagy is precisely coupled to the reduction in cell volume under hyperosmolar conditions. Our results suggest that endocytic removal of excess plasma membrane to maintain membrane tension and cellular integrity is coupled to TPC-mediated CCV-phagy. These findings reveal a homeostatic mechanism that enables plants to adapt to the challenges of drought and salinity. <h4>Significance Statement</h4> All living cells must maintain the physical integrity of their outer membrane. How cells can adapt their surface area to respond to rapid changes in cell volume, such as those caused by drought or salt stress, remains a fundamental question in biology. We identify a mechanism in plants involving autophagy – a cellular recycling pathway – where plasma membrane-derived vesicles are targeted for degradation following salt or osmotic stress. This pathway involves the TPLATE complex, an evolutionary ancient and essential endocytic complex in plants, which directly interacts with the autophagy protein ATG8. This discovery reveals how plants adapt to osmotic stress by modulating their membrane properties, supporting a framework for future improvement of crop resilience in response to salinity and drought.",
+  "abstract_zh": "植物常因干旱和盐分而遭遇高渗胁迫，导致快速失水、膨压降低及细胞体积减小。这种收缩显著改变质膜张力，而该物理参数必须严格维持以支持机械信号传导和细胞扩张。然而，植物如何调整其膜表面积以适应缩小的细胞体积，其机制仍知之甚少。在此，我们鉴定了响应高渗休克的选择性自噬依赖性降解质膜来源的网格蛋白包被囊泡（clathrin-coated vesicles, CCVs）途径。该途径涉及内吞TPLATE复合体（TPC）以渗透胁迫依赖性方式招募至自噬体。通过相关光和电子显微镜（CLEM）及电子断层扫描（ET），我们提供了CCVs与自噬体膜物理关联的超微结构证据。这些自噬体包含内吞机制，包括TPC和网格蛋白，并被靶向至液泡。在机制上，我们展示了AtEH1/Pan1和AtEH2/Pan1 TPC亚基中保守的ATG8相互作用基序（AIMs）与ATG8相互作用，提示它们促进CCVs向自噬体的招募。利用延时成像，我们证明在高渗条件下，自噬的急性诱导与细胞体积减少精确耦合。我们的结果表明，通过内吞去除多余质膜以维持膜张力和细胞完整性，与TPC介导的CCV-自噬（CCV-phagy）相耦合。这些发现揭示了一种稳态机制，使植物能够适应干旱和盐分的挑战。\n\n<h4>意义声明</h4> 所有活细胞必须维持其外膜的物理完整性。细胞如何调整其表面积以响应细胞体积的快速变化（如干旱或盐胁迫引起的那些变化），仍是生物学中的基本问题。我们在植物中鉴定了一种涉及自噬（一种细胞回收途径）的机制，其中质膜来源的囊泡在盐或渗透胁迫后被靶向降解。该途径涉及TPLATE复合体，这是植物中进化上古老且必需的内吞复合体，其直接与自噬蛋白ATG8相互作用。这一发现揭示了植物如何通过调节膜特性来适应渗透胁迫，为未来提高作物对盐分和干旱的耐受性提供了框架。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.16.676479",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.16.676479",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.16.676479/index.html"
+}

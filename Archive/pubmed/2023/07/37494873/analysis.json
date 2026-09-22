@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37494873",
+  "title": "Structural dynamics of moonlighting intrinsically disordered proteins - A black box in multiple sclerosis.",
+  "authors": "Ramya, L; Helina Hilda, S",
+  "journal": "Journal of molecular graphics & modelling",
+  "published_date": "2023-07-27",
+  "window": {
+    "start": "2023-07-24",
+    "end": "2023-07-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过分子动力学模拟研究多发性硬化相关无序蛋白MBP/MOBP的IDR构象动态及其与髓鞘的互作，对象与互作机制相关，但方法仅为常规MD且无AI/增强采样，机制深度有限。",
+  "abstract": "Multiple Sclerosis (MS) is a demyelinating disease of the central nervous system that disturbs the flow of brain signals to other parts of the body. The actual cause of the disease is still not apparent. The intrinsically disordered proteins (IDP) play a crucial role in neurodegenerative diseases like Alzheimer's, Lewy bodies, Parkinson's, Amyotrophic Lateral Sclerosis, Multiple Sclerosis, etc. In MS, it was known that the immune system attacks the proteins like Myelin Basic Protein (MBP), Myelin-associated Oligodendrocyte Basic protein (MOBP), Myelin-Associated Protein (MAG), and Myelin Proteolipid Protein (PLP) and this leads to demyelination causing MS. Here the proteins MBP and MOBP are both moonlighting intrinsically disordered proteins and exist between the myelin sheath, unlike MAG which is a transmembrane protein. The main focus of the article was to examine the significant role of proteins intrinsically disordered regions (IDR) in maintaining their function. Molecular dynamics simulation studies were performed to study the conformational dynamics of these protein IDRs both in water and near the myelin sheath. The results suggest that the IDR dominates the structural dynamics of these proteins and IDR in both proteins was responsible for their interaction with the myelin sheath. Interestingly, it was noted that the known epitopes MBP(83-96) and MOBP(65-87) in the IDR have no interaction with the myelin sheath. Thus when the protein remains intrinsically disordered it maintains the proper function and myelin integrity and if it adopts folds the region was identified as an epitope by the immune system leading to demyelination causing MS.",
+  "abstract_zh": "多发性硬化症（Multiple Sclerosis, MS）是一种中枢神经系统的脱髓鞘疾病，干扰大脑向身体其他部位传递信号。该疾病的实际病因尚不明确。 intrinsically disordered proteins (IDP) 在神经退行性疾病如阿尔茨海默病、路易体病、帕金森病、肌萎缩侧索硬化症、多发性硬化症等中扮演关键角色。在MS中，已知免疫系统攻击如髓鞘碱性蛋白（Myelin Basic Protein, MBP）、髓鞘相关少突胶质细胞碱性蛋白（Myelin-associated Oligodendrocyte Basic protein, MOBP）、髓鞘相关蛋白（Myelin-Associated Protein, MAG）和髓鞘蛋白脂质蛋白（Myelin Proteolipid Protein, PLP）等蛋白质，这导致脱髓鞘并引发MS。在此，MBP和MOBP均为兼性 intrinsically disordered proteins，并存在于髓鞘之间，不同于作为跨膜蛋白的MAG。本文主要聚焦于探讨蛋白质 intrinsically disordered regions (IDR) 在维持其功能中的重要作用。进行了分子动力学 (molecular dynamics) 模拟研究，以探究这些蛋白质IDR在水环境中及髓鞘附近的构象动力学。结果表明，IDR主导了这些蛋白质的结构动力学，且两种蛋白质中的IDR均负责其与髓鞘的相互作用。有趣的是，注意到IDR中已知的表位MBP(83-96)和MOBP(65-87)与髓鞘无相互作用。因此，当蛋白质保持 intrinsically disordered 状态时，它维持正常功能和髓鞘完整性；若其折叠，则该区域被免疫系统识别为表位，导致脱髓鞘，进而引发MS。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37494873/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37494873/",
+  "paper_page_path": "papers/pubmed/37494873/index.html"
+}

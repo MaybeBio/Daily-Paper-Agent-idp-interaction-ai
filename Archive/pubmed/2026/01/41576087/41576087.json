@@ -1,0 +1,338 @@
+{
+  "identity": {
+    "pmid": "41576087",
+    "doi": "10.1073/pnas.2519135123",
+    "title": "Droplet growth, Ostwald's rule, and emergence of order in Fused in Sarcoma."
+  },
+  "content": {
+    "abstract": "The low-complexity domain of Fused in Sarcoma (FUS-LC) undergoes phase separation, forming a dense, liquid-like phase that gradually matures into an ordered, gel-like state over long-time scales. During the maturation process, specific regions of the FUS-LC sequence-core-1, core-2, and core-3-become structured, giving rise to nonpolymorphic fibrils. Coarse-grained simulations predict that kinetically the least stable fibril-like core-3 forms first while the most stable core-1 appears last, in accord with Ostwald's rule of stages. The fibril structure of the C-terminal core-3, predicted using AlphaFold, shows that a [Formula: see text]-strand appears in this region early during droplet formation and triggers FUS-LC assembly. Multichain simulations, which ensure the equality of the chemical potentials between the phases, show that the dense phase forms through nucleation and coarsening, resembling Ostwald ripening. The approaches developed here are broadly applicable and could help uncover assembly mechanisms in other intrinsically disordered proteins like TDP-43, which shares key features with FUS-LC.",
+    "keywords": [
+      "Ostwald's rule",
+      "intrinsically disordered proteins",
+      "low-complexity sequences",
+      "phase separation",
+      "rates of fibril formation"
+    ],
+    "mesh_terms": [
+      "*RNA-Binding Protein FUS/chemistry/metabolism/genetics",
+      "Phase Separation",
+      "Humans",
+      "Protein Domains",
+      "Models, Molecular",
+      "Kinetics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Maksudov, Farkhad",
+        "Mugnai, Mauro L",
+        "Dominguez, Laura",
+        "Makarov, Dmitrii E",
+        "Thirumalai, D"
+      ],
+      "short_names": [
+        "Maksudov F",
+        "Mugnai ML",
+        "Dominguez L",
+        "Makarov DE",
+        "Thirumalai D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3321-9899",
+        "ORCID: 0000-0002-0267-2279",
+        "ORCID: 0000-0003-3666-2789",
+        "ORCID: 0000-0002-8421-1846",
+        "ORCID: 0000-0003-1801-5924"
+      ],
+      "affiliations": [
+        "Department of Chemistry, The University of Texas at Austin, Austin, TX 78712.",
+        "Institute for Soft Matter Synthesis and Metrology, Georgetown University, Washington, DC 20057.",
+        "Department of Chemistry, The University of Texas at Austin, Austin, TX 78712.",
+        "Departamento de Fisicoquimica, Facultad de Quimica, Universidad Nacional Autonoma de Mexico, Coyoacan, Ciudad de Mexico (CDMX) 04510, Mexico.",
+        "Department of Chemistry, The University of Texas at Austin, Austin, TX 78712.",
+        "Oden Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, TX 78712.",
+        "Department of Chemistry, The University of Texas at Austin, Austin, TX 78712."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Maksudov, Farkhad",
+        "short_name": "Maksudov F",
+        "identifiers": [
+          "0000-0002-3321-9899"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, TX 78712."
+        ]
+      },
+      {
+        "full_name": "Mugnai, Mauro L",
+        "short_name": "Mugnai ML",
+        "identifiers": [
+          "0000-0002-0267-2279"
+        ],
+        "affiliations": [
+          "Institute for Soft Matter Synthesis and Metrology, Georgetown University, Washington, DC 20057."
+        ]
+      },
+      {
+        "full_name": "Dominguez, Laura",
+        "short_name": "Dominguez L",
+        "identifiers": [
+          "0000-0003-3666-2789"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, TX 78712.",
+          "Departamento de Fisicoquímica, Facultad de Química, Universidad Nacional Autónoma de México, Coyoacán, Ciudad de México (CDMX) 04510, Mexico."
+        ]
+      },
+      {
+        "full_name": "Makarov, Dmitrii E",
+        "short_name": "Makarov DE",
+        "identifiers": [
+          "0000-0002-8421-1846"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, TX 78712.",
+          "Oden Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, TX 78712."
+        ]
+      },
+      {
+        "full_name": "Thirumalai, D",
+        "short_name": "Thirumalai D",
+        "identifiers": [
+          "0000-0003-1801-5924"
+        ],
+        "affiliations": [
+          "Department of Chemistry, The University of Texas at Austin, Austin, TX 78712."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 Jan 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/23 18:35",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [
+      "42206050"
+    ],
+    "refs": [
+      "40903498",
+      "40749051",
+      "40629499",
+      "40128232",
+      "40095314",
+      "39497416",
+      "39181864",
+      "39153989",
+      "38943248",
+      "38718835",
+      "38467846",
+      "38279531",
+      "38059562",
+      "37957147",
+      "37855235",
+      "37399327",
+      "37231298",
+      "37221174",
+      "37179431",
+      "37155880",
+      "36947617",
+      "35858329",
+      "35795820",
+      "35709358",
+      "35702028",
+      "34716273",
+      "34670847",
+      "34654750",
+      "34516126",
+      "34265844",
+      "34127447",
+      "34023402",
+      "33896178",
+      "33607084",
+      "33545530",
+      "33510441",
+      "33184287",
+      "32632317",
+      "32464092",
+      "32312191",
+      "32004090",
+      "31270472",
+      "30913885",
+      "30682370",
+      "28942918",
+      "28225081",
+      "26574453",
+      "26455390",
+      "26317470",
+      "25391268",
+      "24995959",
+      "24846645",
+      "22517863",
+      "21231356",
+      "21219143",
+      "20287819",
+      "19460965",
+      "19045373",
+      "17783020",
+      "17190811",
+      "17070840",
+      "13449108",
+      "11909059",
+      "10048329"
+    ],
+    "similar": [
+      "41576087",
+      "28942918",
+      "37399327",
+      "34516126",
+      "33184287",
+      "35297101",
+      "35709363",
+      "31895552",
+      "33547841",
+      "37211763",
+      "26455390",
+      "34654750",
+      "31805282",
+      "34862761",
+      "38029395",
+      "39495179",
+      "36945688",
+      "42475469",
+      "31270472",
+      "29610493",
+      "34787417",
+      "36947617",
+      "37231298",
+      "33307683",
+      "33607084",
+      "32231288",
+      "28924037",
+      "34648275",
+      "32732434",
+      "28432364",
+      "38462838",
+      "28790177",
+      "41415473",
+      "29677513",
+      "29677515",
+      "35943083",
+      "26317470",
+      "39486437",
+      "38971830",
+      "37890778",
+      "40516596",
+      "39372747",
+      "40693919",
+      "41512823",
+      "39920231",
+      "23912807",
+      "31188823",
+      "39497416",
+      "40842365",
+      "34018649",
+      "38347806",
+      "34156864",
+      "22917192",
+      "36690069",
+      "33022038",
+      "33200826",
+      "35036880",
+      "41224766",
+      "38070499",
+      "31479821",
+      "21956718",
+      "38546977",
+      "34759379",
+      "42363764",
+      "33262375",
+      "37155880",
+      "35727989",
+      "40792356",
+      "40285687",
+      "34487489",
+      "38467846",
+      "38492239",
+      "29511089",
+      "29961577",
+      "29364893",
+      "28389532",
+      "36453011",
+      "21327870",
+      "29755516",
+      "41535729",
+      "33110735",
+      "23048034",
+      "41085196",
+      "22563080",
+      "37158592",
+      "31022909",
+      "21856723",
+      "42169406",
+      "42335378",
+      "38632300",
+      "33758287",
+      "27033831",
+      "41404967",
+      "38105257",
+      "39737526",
+      "41756850",
+      "40281357",
+      "26526393",
+      "36754828",
+      "24267890"
+    ],
+    "review": [
+      "41576087",
+      "37399327",
+      "38029395",
+      "31479821",
+      "21956718",
+      "28389532",
+      "29755516",
+      "33110735",
+      "31022909"
+    ],
+    "pmc": [
+      "12846778"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2519135123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41576087/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

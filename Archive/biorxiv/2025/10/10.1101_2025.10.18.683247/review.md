@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were available for evaluation
+- **Shared manuscript claim summary** The authors report that GW/WG dipeptides in the intrinsically disordered region (IDR) of SGS3 and hydrophobic tryptophan-binding pockets in Arabidopsis AGO1 are required for fully functional RDR6-dependent siRNA amplification. They further report that this mechanism depends on AGO1-specific structural elements, including positively charged residues surrounding the binding pockets, and a conserved negatively charged patch in the SGS3 IDR. They conclude that the GW/WG-mediated interaction between SGS3 and AGO1 facilitates siRNA amplification via RDR6 in plants, analogous to but functionally distinct from the TNRC6-Ago2 interaction in metazoan miRNA-guided silencing.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental methods, statistical analyses, strain and construct details, quantification data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and mechanistically significant finding that links a conserved protein-protein interaction module to a plant-specific RNA silencing amplification pathway. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The conclusions are plausible and align with prior knowledge of AGO1 and SGS3 biology, but the strength of the genetic, biochemical, and structural support cannot be assessed from the supplied material. The claim of functional conservation and divergence between plant and metazoan systems is conceptually appealing but requires direct experimental evidence that is not visible here.
+- **Who would be interested in the results, and why** Plant molecular biologists studying small RNA biogenesis and RNA silencing, researchers interested in ARGONAUTE protein function and protein-protein interaction modules, and comparative biologists examining the evolution of RNA interference pathways across eukaryotes. The work may also appeal to structural biologists studying tryptophan-binding pockets and IDR-mediated interactions.
+- **Major strengths** The abstract identifies a specific molecular interface, the GW/WG-SGS3 interaction with AGO1 hydrophobic pockets, as a requirement for siRNA amplification, which is a clear and testable hypothesis. The proposed parallel with the metazoan TNRC6-Ago2 system provides a conceptual framework that could unify understanding of AGO cofactor interactions across kingdoms. The mention of AGO1-specific structural elements and a conserved negatively charged patch in SGS3 suggests a level of mechanistic detail that goes beyond simple phenotyping.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that GW/WG dipeptides in the SGS3 IDR and hydrophobic pockets in AGO1 are required for fully functional RDR6-dependent siRNA amplification.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states these elements are "required" but provides no visible data, such as mutant phenotypes, rescue experiments, or quantitative silencing assays, to support this claim. Without access to the underlying experiments, the requirement cannot be evaluated.
+  - **Why it matters** The central conclusion of the manuscript rests on this claim. If the evidence is correlative or incomplete, the conclusion would be overstated. The term "required" implies a necessity that must be demonstrated through loss-of-function and complementation approaches.
+  - **Resolution test** Provide the relevant figures and methods showing that mutations in GW/WG motifs or AGO1 pocket residues impair siRNA amplification, with appropriate controls and statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic specificity
+  - **Claim pointer** The abstract claims that AGO1-specific structural elements, including positively charged residues surrounding the binding pockets, and a conserved negatively charged patch in the SGS3 IDR are required for the mechanism.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract introduces these specific structural features but does not indicate how they were identified or tested. It is unclear whether these are based on mutagenesis, structural modeling, or comparative sequence analysis. The claim of specificity implies that other AGOs cannot substitute, but no comparative data are visible.
+  - **Why it matters** The claim of AGO1-specificity is important for distinguishing this mechanism from other AGO functions and for supporting the evolutionary argument. Without evidence that these features are both necessary and sufficient, the mechanistic model remains speculative.
+  - **Resolution test** Show experiments where AGO1-specific residues are swapped or mutated and where the SGS3 negatively charged patch is altered, with functional readouts for siRNA amplification.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Comparative claim support
+  - **Claim pointer** The abstract concludes that the GW/WG-mediated SGS3-AGO1 interaction facilitates siRNA amplification via RDR6 in plants, distinct from the TNRC6-Ago2 interaction in metazoans.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The comparative statement is presented as a conclusion, but no direct comparative experiments or structural alignments are described. The claim that the same interaction site is "used for different purposes" requires evidence that the plant interaction does not also support miRNA-guided silencing and that the metazoan interaction cannot support amplification.
+  - **Why it matters** This evolutionary claim is a key part of the abstract's significance. If not directly tested, it should be framed as a hypothesis rather than a conclusion.
+  - **Resolution test** Provide experiments or analyses that directly compare the functional outcomes of GW/WG-mediated interactions in plant and metazoan systems, or clearly rephrase the claim as a hypothesis in the abstract.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The abstract opens with a general description of AGO proteins and RISC, which is useful but could be shortened to focus more on the novel findings.
+  - **Required correction** Consider condensing the introductory background to allow more space for the specific results and their implications.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "amplified RNA interference"
+  - **Evidence pointer** Abstract title and text
+  - **Issue** The phrase "amplified RNA interference" is not standard terminology. The process described is siRNA amplification via RDR6, which is a specific form of RNA silencing amplification.
+  - **Required correction** Use a more precise term such as "RDR6-dependent siRNA amplification" or "RNA silencing amplification" to avoid ambiguity.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract content
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The abstract does not mention any quantitative outcomes, such as the degree of amplification reduction or the phenotypic consequences, which would help readers gauge the biological impact.
+  - **Required correction** Add a brief statement of the magnitude or phenotypic relevance of the observed effects, if available.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic claims cannot be verified from the abstract alone. R1-M3 is also blocking because the comparative conclusion is presented without visible supporting evidence. The manuscript must provide the full experimental dataset, including mutagenesis, functional assays, and any structural or modeling data, to establish the case.
+- **Assessment against Nature-style criteria** Originality: The idea that a conserved GW/WG interaction module is repurposed for siRNA amplification in plants is original and potentially significant. Scientific importance: If fully supported, the work would advance understanding of plant RNA silencing and provide a comparative framework across kingdoms. Interdisciplinary readership: The topic is likely to appeal to plant biologists, RNA biologists, and evolutionary cell biologists, but the abstract does not currently make the broader relevance explicit. Technical soundness: Cannot be assessed from the abstract; the lack of visible methods and data is a major limitation. Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms without explanation, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The claims are plausible and potentially important, but the abstract alone does not provide sufficient data to support the mechanistic and comparative conclusions. A full review of the manuscript would be required to determine whether the evidence meets the standard for publication.
+
+## Risk / unsupported claims
+- The claim that GW/WG dipeptides in SGS3 and hydrophobic pockets in AGO1 are "required" for siRNA amplification is unsupported in the abstract.
+- The claim that AGO1-specific structural elements and a conserved negatively charged patch in SGS3 are required is unsupported.
+- The comparative conclusion that the same interaction site is used for different purposes in plants and metazoans is presented as fact but is not supported by visible evidence.
+- The functional distinction between the SGS3-AGO1 interaction and the TNRC6-Ago2 interaction is asserted without direct comparative data.

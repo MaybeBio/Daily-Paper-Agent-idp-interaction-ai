@@ -1,0 +1,216 @@
+{
+  "identity": {
+    "pmid": "38187552",
+    "doi": "10.1101/2023.12.22.573113",
+    "title": "A computational procedure for predicting excipient effects on protein-protein affinities."
+  },
+  "content": {
+    "abstract": "Protein-protein interactions lie at the center of much biology and are a challenge in formulating biological drugs such as antibodies. A key to mitigating protein association is to use small molecule additives, i.e. excipients that can weaken protein-protein interactions. Here, we develop a computationally efficient model for predicting the viscosity-reducing effect of different excipient molecules by combining atomic-resolution MD simulations, binding polynomials and a thermodynamic perturbation theory. In a proof of principle, this method successfully rank orders four types of excipients known to reduce the viscosity of solutions of a particular monoclonal antibody. This approach appears useful for predicting effects of excipients on protein association and phase separation, as well as the effects of buffers on protein solutions.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dignon, Gregory L",
+        "Dill, Ken A"
+      ],
+      "short_names": [
+        "Dignon GL",
+        "Dill KA"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8016-8652"
+      ],
+      "affiliations": [
+        "Laufer Center for Physical and Quantitative Biology, Stony Brook University.",
+        "Current address: Department of Chemical and Biochemical Engineering, Rutgers University.",
+        "Laufer Center for Physical and Quantitative Biology, Stony Brook University.",
+        "Department of Chemistry, Stony Brook University.",
+        "Department of Physics and Astronomy, Stony Brook University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dignon, Gregory L",
+        "short_name": "Dignon GL",
+        "identifiers": [
+          "0000-0001-8016-8652"
+        ],
+        "affiliations": [
+          "Laufer Center for Physical and Quantitative Biology, Stony Brook University.",
+          "Current address: Department of Chemical and Biochemical Engineering, Rutgers University."
+        ]
+      },
+      {
+        "full_name": "Dill, Ken A",
+        "short_name": "Dill KA",
+        "identifiers": [],
+        "affiliations": [
+          "Laufer Center for Physical and Quantitative Biology, Stony Brook University.",
+          "Department of Chemistry, Stony Brook University.",
+          "Department of Physics and Astronomy, Stony Brook University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Dec 23",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/08 06:43",
+    "fetched_at": "2026-09-21 04:10:57"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "38187552",
+      "38294777",
+      "32965126",
+      "31487466",
+      "31201906",
+      "31276620",
+      "37218059",
+      "31195015",
+      "34181992",
+      "37089876",
+      "36116691",
+      "24708235",
+      "33555888",
+      "33340533",
+      "28495581",
+      "32794710",
+      "17705028",
+      "33711473",
+      "32283214",
+      "29339134",
+      "27258262",
+      "28668340",
+      "26493586",
+      "29135256",
+      "32938318",
+      "28401430",
+      "19569193",
+      "37285658",
+      "34699237",
+      "30009985",
+      "28754261",
+      "34622265",
+      "26528726",
+      "31415881",
+      "24081468",
+      "25832501",
+      "33296719",
+      "33137420",
+      "35605688",
+      "36212536",
+      "32006625",
+      "36308923",
+      "9277127",
+      "21246510",
+      "27836754",
+      "25746946",
+      "36539064",
+      "26918655",
+      "34747330",
+      "37757589",
+      "38240032",
+      "29328661",
+      "32681966",
+      "34664208",
+      "16052543",
+      "35997345",
+      "36940838",
+      "21855584",
+      "18577435",
+      "11532578",
+      "30267438",
+      "16109624",
+      "26455339",
+      "28581833",
+      "37307224",
+      "28758834",
+      "37549226",
+      "35735359",
+      "31034909",
+      "36705325",
+      "22692671",
+      "29059588",
+      "7120099",
+      "38425712",
+      "32185869",
+      "17613889",
+      "32072317",
+      "32048079",
+      "29269271",
+      "33137372",
+      "29423596",
+      "31095911",
+      "23912807",
+      "24832730",
+      "32101441",
+      "35142529",
+      "29863908",
+      "2813489",
+      "3287089",
+      "36442683",
+      "33789155",
+      "33340567",
+      "32013386",
+      "25244002",
+      "27367258"
+    ],
+    "review": [
+      "38187552",
+      "36308923",
+      "21855584",
+      "37307224",
+      "29863908",
+      "3287089"
+    ],
+    "pmc": [
+      "10769426"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38187552/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38187552",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.12.22.573113",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

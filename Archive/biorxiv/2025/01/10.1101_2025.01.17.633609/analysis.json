@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.01.17.633609",
+  "title": "Multi-scale structure of chromatin condensates rationalizes phase separation and material properties",
+  "authors": "Zhou H; Huertas J; Maristany MJ; Russell K; Hwang JH; Yao R; Hutchings J; Shiozaki M; Zhao X; Doolittle LK; Gibson BA; Riggi M; Espinosa JR; Yu Z; Villa E; Collepardo-Guevara R; Rosen MK",
+  "journal": "bioRxiv",
+  "published_date": "2025-01-22",
+  "window": {
+    "start": "2025-01-20",
+    "end": "2025-01-26"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合冷冻电镜断层扫描与分子动力学模拟，揭示染色质凝聚体中核小体排列与组蛋白尾互作的多尺度结构，阐明相分离与材料性质的结构机制，虽对象为染色质而非典型IDP，但无序组蛋白尾介导的互作与相分离机制建模对本课题有直接启发。",
+  "abstract": "Biomolecular condensates, compartments that concentrate molecules without surrounding membranes, are integral to numerous cellular processes. The structure and interaction networks of molecules within condensates remain poorly understood. Using cryo-electron tomography and molecular dynamics simulations we elucidated the structure of phase separated chromatin condensates across scales, from individual amino acids to network architecture. We found that internucleosomal DNA linker length controls nucleosome arrangement and histone tail interactions, shaping the structure of individual chromatin molecules both within and outside condensates. This structural modulation determines the balance between intra- and intermolecular interactions, which in turn governs the molecular network, thermodynamic stability, and material properties of chromatin condensates. Mammalian nuclei contain dense clusters of nucleosomes whose non-random organization is mirrored by the reconstituted condensates. Our work explains how the structure of individual chromatin molecules ultimately determines physical properties of chromatin condensates, with implications for cellular chromatin organization.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）是无膜包围却能浓缩分子的区室，在众多细胞过程中不可或缺。凝聚体内分子的结构和相互作用网络仍知之甚少。利用冷冻电子断层扫描（cryo-electron tomography）和分子动力学（molecular dynamics）模拟，我们阐明了相分离（phase separated）染色质凝聚体从单个氨基酸到网络架构的多尺度结构。我们发现，核小体间DNA连接片段的长度控制核小体排列和组蛋白尾部相互作用，从而塑造凝聚体内外单个染色质分子的结构。这种结构调节决定了分子内与分子间相互作用的平衡，进而调控染色质凝聚体的分子网络、热力学稳定性和材料性质。哺乳动物细胞核含有密集的核小体簇，其非随机组织与重构凝聚体的结构相呼应。我们的工作解释了单个染色质分子的结构如何最终决定染色质凝聚体的物理性质，这对细胞染色质组织具有启示意义。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.01.17.633609",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.17.633609",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.01.17.633609/index.html"
+}

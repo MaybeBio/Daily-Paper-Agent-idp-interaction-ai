@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.16.711670",
+  "title": "C9ORF72-derived polyGR polypeptides disrupt passive nucleocytoplasmic transport by tuning protein affinity for the nuclear pore barrier",
+  "authors": "Solomon DA; Emenecker RJ; Salcher-Konrad M; Konstantinidou SM; Houghton OH; Wycherley E; Lee S; O’Brien NL; Alcalde J; Cabaço IL; Ruepp M; Schmidt HB; Holehouse AS; Mizielinska S",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-17",
+  "window": {
+    "start": "2026-03-16",
+    "end": "2026-03-22"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究通过粗粒化模拟、体外FG相重建和细胞实验，揭示C9ORF72来源的polyGR多肽如何通过调节蛋白对核孔FG屏障的亲和力，以双相方式重调被动核质运输，为疾病相关无序多肽介导的核孔互作机制提供了物理建模，与无序蛋白介导的PPI机制建模高度相关。",
+  "abstract": "Nucleocytoplasmic partitioning is an essential determinant of eukaryotic cellular function, governed by the nuclear pore complex, a molecular portal filled by a disordered phenylalanine-glycine (FG)-rich phase that governs selective entry and exit. Disruption of nucleocytoplasmic partitioning is seen across many different diseases, including viral infection, cancer, and neurodegeneration. However, what determines whether a given protein mislocalises when nucleocytoplasmic transport is disrupted remains unknown. This question is central to amyotrophic lateral sclerosis and frontotemporal dementia (ALS/FTD), where cytosolic mislocalisation of the nuclear RNA-binding protein TDP-43 is a defining pathological feature. The most common genetic cause of these diseases is a G 4 C 2 repeat expansion in the gene C9ORF72 , which produces aberrant neurotoxic polypeptides that induce nucleocytoplasmic transport defects. Here, we show how the highly toxic poly(glycine-arginine/GR) polypeptide engages the nuclear pore FG-rich selectivity barrier and retunes passive nucleocytoplasmic transport according to client surface chemistry. Using coarse-grained simulations, in vitro FG-phase reconstitution and human cell lines and neurons, we find that polyGR produces a non-linear, biphasic modulation of nuclear pore passage. Proteins with low affinity for the FG phase are unaffected, whereas proteins with higher affinity due to solvent-exposed hydrophobic residues exhibit enhanced transport up to a critical threshold, beyond which highly hydrophobic proteins experience transport suppression, cytoplasmic accumulation and aggregation. Together, these findings establish how disease-associated polypeptides retune the physicochemical rules governing passive nuclear pore transport, leading to biphasic outcomes determined by protein surface chemistry that alter protein compartmentalisation and aggregation. This provides a biophysical mechanism by which polyGR drives selective protein vulnerability to nuclear pore dysfunction in C9ORF72 -associated ALS/FTD.",
+  "abstract_zh": "核质分配是真核细胞功能的关键决定因素，由核孔复合体调控，这是一个充满无序苯丙氨酸-甘氨酸（FG）富集相的分子门户，控制选择性进出。核质分配的破坏见于多种疾病，包括病毒感染、癌症和神经退行性疾病。然而，当核质运输被破坏时，决定特定蛋白质是否错误定位的因素仍属未知。这一问题对肌萎缩侧索硬化症和额颞叶痴呆（ALS/FTD）至关重要，其中核RNA结合蛋白TDP-43的胞质错误定位是定义性病理特征。这些疾病最常见的遗传原因是基因C9ORF72中的G 4 C 2重复扩增，其产生异常神经毒性多肽，诱导核质运输缺陷。在此，我们展示了高毒性聚（甘氨酸-精氨酸/GR）多肽如何与核孔FG富集选择性屏障相互作用，并根据客户表面化学重新调谐被动核质运输。通过粗粒化模拟、体外FG相重构以及人类细胞系和神经元，我们发现polyGR对核孔通过产生非线性、双相调节。对FG相低亲和力的蛋白质不受影响，而因溶剂暴露的疏水残基具有较高亲和力的蛋白质表现出增强的运输，直至临界阈值，超过该阈值后，高疏水性蛋白质经历运输抑制、胞质积累和聚集。综合这些发现，确立了疾病相关多肽如何重新调谐控制被动核孔运输的物理化学规则，导致由蛋白质表面化学决定的双相结果，从而改变蛋白质区室化和聚集。这提供了一种生物物理机制，通过该机制，polyGR在C9ORF72相关ALS/FTD中驱动蛋白质对核孔功能障碍的选择性易感性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.16.711670",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.16.711670",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.16.711670/index.html"
+}

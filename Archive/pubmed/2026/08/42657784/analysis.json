@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42657784",
+  "title": "Ligand-induced stability studies at the TSH receptor show the linker region to be a chameleon.",
+  "authors": "Mezei, Mihaly; Latif, Rauf; Xiang, Pingping; Davies, Terry F",
+  "journal": "Endocrinology",
+  "published_date": "2026-08-27",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用分子动力学模拟研究TSH受体中无序连接区(LR)在不同配体结合下的构象变化，揭示其‘变色龙’式柔性机制，虽对象非典型IDP-PPI但聚焦IDR介导的配体-受体互作机制建模，方法为物理模拟，对本课题有直接启发。",
+  "abstract": "Glycoprotein hormone receptors share a conserved architecture, but the TSH receptor (TSHR) is unique in possessing a large 141-amino-acid region called the hinge or linker region (LR) that contains a 50-amino-acid posttranslational cleavage site. Our previous computational modeling of the full-length TSHR identified this LR as an intrinsically disordered protein that appears to serve as a critical bridge transmitting structural changes from the leucine-rich domain (LRD) to the transmembrane domain of the receptor during its activation. However, the behavior of the LR in response to different ligands that bind the LRD and its influence on receptor structure as a whole has not been systematically explored. Using molecular dynamics simulations of full-length TSHR complexes with various ligands, we have examined the influence of ligand on TSHR structural changes with a particular emphasis on those adopted by the LR upon ligand binding. Our analyses revealed that the LR did not maintain a stable secondary or tertiary structure in isolation but exhibited high conformational flexibility, adopting distinct structures depending on the bound ligand (ie, it is a chameleon). Notably, a beta-sheet structure was absent only in the complex with a TSHR blocking antibody (K1-70) and not with stimulating (M22) or LR-specific (MC1) antibodies. Furthermore, using a TSHR fragment (V1.3), absent the LR, when subjected to protein thermal shift analyses, we showed that TSH ligand was able to influence the entire TSHR structure and, therefore, not just the LR.",
+  "abstract_zh": "糖蛋白激素受体共享保守的结构架构，但促甲状腺激素受体（TSHR）独特地含有一个大的141个氨基酸区域，称为铰链区或连接区（LR），其中包含一个50个氨基酸的翻译后切割位点。我们先前对全长TSHR的计算建模将该LR识别为一种内在无序蛋白，似乎在其激活过程中充当关键桥梁，将富含亮氨酸结构域（LRD）的结构变化传递至受体的跨膜结构域。然而，LR对不同结合LRD的配体的响应行为及其对整体受体结构的影响尚未被系统探索。通过对全长TSHR与多种配体复合物进行分子动力学模拟，我们研究了配体对TSHR结构变化的影响，特别关注LR在配体结合后所采用的结构。我们的分析揭示，LR在孤立状态下并未维持稳定的二级或三级结构，而是表现出高度的构象灵活性，根据所结合的配体采用不同的结构（即，它是一种变色龙）。值得注意的是，β-折叠结构仅在TSHR阻断抗体（K1-70）复合物中缺失，而在刺激性（M22）或LR特异性（MC1）抗体复合物中并未缺失。此外，使用缺乏LR的TSHR片段（V1.3）进行蛋白质热位移分析，我们表明TSH配体能够影响整个TSHR结构，而不仅仅是LR。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42657784/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42657784/",
+  "paper_page_path": "papers/pubmed/42657784/index.html"
+}

@@ -1,0 +1,340 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.04.616694",
+  "title": "Tag with Caution — How protein tagging influences the formation of condensates",
+  "doi": "10.1101/2024.10.04.616694",
+  "abstract": "<h4>Summary</h4> Fluorescent proteins and peptide tags are essential tools in cellular biology, but can alter the biochemical properties of target proteins. Biomolecular condensates, which have emerged as key principles of cellular organization, are suggested to provide robustness to cells, yet they can also respond sensitively to small changes in environmental conditions—or tagging of their components, as our findings suggest. Here, we investigated the effects of sixteen widely used tags on condensate formation in various model organisms, in vitro , in cells and by computational modelling. We find that tagging strongly influenced condensation for some proteins, while others remained unaffected. Effects varied, with some tags enhancing and others decreasing condensation, and depended on the protein being tagged. Coarse-grained simulations suggest that the charge of the fluorescent protein tags is a critical factor modulating condensation behavior. Together, our results underscore the importance of rigorous experimental design and interpretation in condensate experiments.",
+  "authors": [
+    "Dörner K",
+    "Gut M",
+    "Overwijn D",
+    "Cao F",
+    "Siketanc M",
+    "Heinrich S",
+    "Beuret N",
+    "Sharpe T",
+    "Lindorff-Larsen K",
+    "Maria H"
+  ],
+  "published_date": "2024-10-05",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.04.616694",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.04.616694.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR920469",
+    "raw_record": {
+      "id": "PPR920469",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR920469"
+        ]
+      },
+      "doi": "10.1101/2024.10.04.616694",
+      "title": "Tag with Caution — How protein tagging influences the formation of condensates",
+      "authorString": "Dörner K, Gut M, Overwijn D, Cao F, Siketanc M, Heinrich S, Beuret N, Sharpe T, Lindorff-Larsen K, Maria H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dörner K",
+            "lastName": "Dörner",
+            "firstName": "Kerstin",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gut M",
+            "lastName": "Gut",
+            "firstName": "Michelle",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8921-8529"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Overwijn D",
+            "lastName": "Overwijn",
+            "firstName": "Daan",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7457-518X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cao F",
+            "lastName": "Cao",
+            "firstName": "Fan",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5711-4899"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biology and NMR Laboratory & the Linderstrøm-Lang Centre for Protein Science, Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Siketanc M",
+            "lastName": "Siketanc",
+            "firstName": "Matej",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heinrich S",
+            "lastName": "Heinrich",
+            "firstName": "Stephanie",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1607-4525"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beuret N",
+            "lastName": "Beuret",
+            "firstName": "Nicole",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sharpe T",
+            "lastName": "Sharpe",
+            "firstName": "Timothy",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4980-1330"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lindorff-Larsen K",
+            "lastName": "Lindorff-Larsen",
+            "firstName": "Kresten",
+            "initials": "K",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Structural Biology and NMR Laboratory & the Linderstrøm-Lang Centre for Protein Science, Department of Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maria H",
+            "lastName": "Maria",
+            "firstName": "Hondele",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2733-2561"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biozentrum, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7457-518X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2733-2561"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4980-1330"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5711-4899"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8921-8529"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1607-4525"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2541-0930"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Summary</h4>  Fluorescent proteins and peptide tags are essential tools in cellular biology, but can alter the biochemical properties of target proteins. Biomolecular condensates, which have emerged as key principles of cellular organization, are suggested to provide robustness to cells, yet they can also respond sensitively to small changes in environmental conditions—or tagging of their components, as our findings suggest. Here, we investigated the effects of sixteen widely used tags on condensate formation in various model organisms,  in vitro , in cells and by computational modelling. We find that tagging strongly influenced condensation for some proteins, while others remained unaffected. Effects varied, with some tags enhancing and others decreasing condensation, and depended on the protein being tagged. Coarse-grained simulations suggest that the charge of the fluorescent protein tags is a critical factor modulating condensation behavior. Together, our results underscore the importance of rigorous experimental design and interpretation in condensate experiments.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "950262",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "187052",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.10.04.616694"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.04.616694"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR920469"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR920469&type=FILE&fileName=EMS199248-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41266615",
+            "reference": "EMBO reports. 2026 Jan;27(1):89-121",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 7,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199248",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "cellosaurus",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-10-07",
+      "firstPublicationDate": "2024-10-05",
+      "firstIndexDate": "2024-10-07",
+      "fullTextReceivedDate": "2024-10-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

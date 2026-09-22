@@ -1,0 +1,218 @@
+{
+  "identity": {
+    "pmid": "42632579",
+    "doi": "10.1016/j.ijpharm.2026.127342",
+    "title": "The investigation of the effects of agitation, buffer composition, temperature, and micelle concentration on the intrinsic dissolution rate (IDR) of acalabrutinib."
+  },
+  "content": {
+    "abstract": "Several studies have measured and rationalised how dissolution medium pH alters the drug crystal surface pH and dissolution rates for ionisable compounds, with predictive models proposed. However, mechanistic understanding of buffer species effects remains limited and existing models are often complex. Other extrinsic parameters including temperature, agitation, and micelles, have received comparatively little attention. This study investigated the impact of parameters on the intrinsic dissolution rate (IDR) of acalabrutinib drug substance, using the rotating disk apparatus. Experiments spanned agitation rates (25, 50, and 100 RPM); temperatures (25 and 37  degrees C), buffers (sodium acetate, sodium citrate, potassium hydrogen phthalate, sodium phosphate); and micelle-containing media, including FaSSIF-V2, FeSSIF, and sodium dodecyl sulfate (SDS) in pH 6.8 phosphate buffer at varying concentrations. A simple mathematical model, that combines the estimation of surface solubilities (through the surface pH), and a direct calculation of the IDR has been employed to rationalise the experimental findings and to achieve a better mechanistic understanding of the impact of the buffer media and surfactant effects. The model confirmed the importance of explicitly including surface pH in the estimation of surface solubilities, however, lacked predictive capability and generalisability for a quantitative prediction of the IDR in buffered media. The requirement for the fitting of system-dependent diffusivities suggests that a detailed description of transport phenomena for charged species is needed to capture the impact on the IDR per buffer. The transfer of the mechanistic understanding to inform a physiologically based biopharmaceutics model (PBBM) is also discussed.",
+    "keywords": [
+      "Dissolution modelling",
+      "Intrinsic dissolution rate",
+      "Ionisable compounds",
+      "Surface pH",
+      "Transport phenomena"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hindle, Alexandra",
+        "Casalini, Tommaso",
+        "Sanderson, Natalie J",
+        "Mann, James C"
+      ],
+      "short_names": [
+        "Hindle A",
+        "Casalini T",
+        "Sanderson NJ",
+        "Mann JC"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Chemical Development, Pharmaceutical Technology & Development, Operations, AstraZeneca, Macclesfield SK10 2NA, UK. Electronic address: alexandra.hindle1@astrazeneca.com.",
+        "Sustainable Innovation & Transformational Excellence, Pharmaceutical Technology and Development, Operations, AstraZeneca, Molndal 43183, Sweden.",
+        "Chemical Development, Pharmaceutical Technology & Development, Operations, AstraZeneca, Macclesfield SK10 2NA, UK.",
+        "Global Product Development, Pharmaceutical Technology & Development, Operations, AstraZeneca, Macclesfield SK10 2NA, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hindle, Alexandra",
+        "short_name": "Hindle A",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Development, Pharmaceutical Technology & Development, Operations, AstraZeneca, Macclesfield SK10 2NA, UK. Electronic address: alexandra.hindle1@astrazeneca.com."
+        ]
+      },
+      {
+        "full_name": "Casalini, Tommaso",
+        "short_name": "Casalini T",
+        "identifiers": [],
+        "affiliations": [
+          "Sustainable Innovation & Transformational Excellence, Pharmaceutical Technology and Development, Operations, AstraZeneca, Mölndal 43183, Sweden."
+        ]
+      },
+      {
+        "full_name": "Sanderson, Natalie J",
+        "short_name": "Sanderson NJ",
+        "identifiers": [],
+        "affiliations": [
+          "Chemical Development, Pharmaceutical Technology & Development, Operations, AstraZeneca, Macclesfield SK10 2NA, UK."
+        ]
+      },
+      {
+        "full_name": "Mann, James C",
+        "short_name": "Mann JC",
+        "identifiers": [],
+        "affiliations": [
+          "Global Product Development, Pharmaceutical Technology & Development, Operations, AstraZeneca, Macclesfield SK10 2NA, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of pharmaceutics"
+    ],
+    "journal_abbrev": [
+      "Int J Pharm"
+    ],
+    "pub_date": "2026 Aug 22",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/22 23:43",
+    "fetched_at": "2026-09-18 05:48:31"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42632579",
+      "18648912",
+      "38499112",
+      "19543816",
+      "32886520",
+      "34666045",
+      "32061919",
+      "14620520",
+      "35839980",
+      "40527497",
+      "31989343",
+      "16982177",
+      "10688756",
+      "22495539",
+      "34904892",
+      "25577881",
+      "29104060",
+      "26032292",
+      "31306750",
+      "14603516",
+      "24095865",
+      "27032508",
+      "9344170",
+      "34428047",
+      "2884286",
+      "19183104",
+      "31306753",
+      "18000821",
+      "3171931",
+      "28783595",
+      "36251838",
+      "25212721",
+      "31195131",
+      "40925492",
+      "38501605",
+      "16306004",
+      "28620887",
+      "32481718",
+      "12532392",
+      "37917181",
+      "32435989",
+      "15742820",
+      "3244637",
+      "21329757",
+      "8003543",
+      "20507160",
+      "35944878",
+      "35300193",
+      "26906172",
+      "29427367",
+      "35882674",
+      "25980464",
+      "26202065",
+      "7229926",
+      "22495538",
+      "11775954",
+      "23727464",
+      "26017286",
+      "8234164",
+      "28029341",
+      "34931285",
+      "38698196",
+      "19941944",
+      "12885387",
+      "25665011",
+      "24594297",
+      "35478298",
+      "15236455",
+      "18956403",
+      "21328581",
+      "30389564",
+      "34896344",
+      "9109050",
+      "40804335",
+      "35577180",
+      "39059554",
+      "20358263",
+      "27112289",
+      "8926588",
+      "10878327",
+      "32035969",
+      "26373205",
+      "40790392",
+      "27025293",
+      "36839843",
+      "42704568",
+      "18560996",
+      "4087177",
+      "22188158",
+      "10675691",
+      "42086958",
+      "7115856",
+      "21732157",
+      "14570310",
+      "4087198",
+      "27940083",
+      "3247318",
+      "37751517",
+      "26845251",
+      "3691510"
+    ],
+    "review": [
+      "42632579",
+      "26032292",
+      "31195131"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0378-5173(26)00790-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34262938",
+  "title": "Ubiquitin Interacting Motifs: Duality Between Structured and Disordered Motifs.",
+  "authors": "Lambrughi, Matteo; Maiani, Emiliano; Aykac Fas, Burcu; Shaw, Gary S; Kragelund, Birthe B; Lindorff-Larsen, Kresten; Teilum, Kaare; Invernizzi, Gaetano; Papaleo, Elena",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2021-07-16",
+  "window": {
+    "start": "2021-07-12",
+    "end": "2021-07-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文通过分子动力学模拟和NMR化学位移研究泛素互作基序(UIM)的螺旋与无序构象双重性，揭示无序UIM可介导与泛素及其他蛋白的互作，直接契合无序蛋白介导PPI的机制建模主题。",
+  "abstract": "Ubiquitin is a small protein at the heart of many cellular processes, and several different protein domains are known to recognize and bind ubiquitin. A common motif for interaction with ubiquitin is the Ubiquitin Interacting Motif (UIM), characterized by a conserved sequence signature and often found in multi-domain proteins. Multi-domain proteins with intrinsically disordered regions mediate interactions with multiple partners, orchestrating diverse pathways. Short linear motifs for binding are often embedded in these disordered regions and play crucial roles in modulating protein function. In this work, we investigated the structural propensities of UIMs using molecular dynamics simulations and NMR chemical shifts. Despite the structural portrait depicted by X-crystallography of stable helical structures, we show that UIMs feature both helical and intrinsically disordered conformations. Our results shed light on a new class of disordered UIMs. This group is here exemplified by the C-terminal domain of one isoform of ataxin-3 and a group of ubiquitin-specific proteases. Intriguingly, UIMs not only bind ubiquitin. They can be a recruitment point for other interactors, such as parkin and the heat shock protein Hsc70-4. Disordered UIMs can provide versatility and new functions to the client proteins, opening new directions for research on their interactome.",
+  "abstract_zh": "泛素是一种小蛋白，处于许多细胞过程的核心，已知有几种不同的蛋白质结构域能够识别并结合泛素。与泛素相互作用的常见基序是泛素相互作用基序 (UIM)，其特征是保守的序列签名，通常存在于多结构域蛋白质中。具有内在无序区域的多结构域蛋白质介导与多个伙伴的相互作用，协调多种通路。用于结合的短线性基序通常嵌入这些无序区域，并在调节蛋白质功能中发挥关键作用。在本工作中，我们利用分子动力学 (molecular dynamics) 模拟和NMR化学位移研究了UIM的结构倾向性。尽管X射线晶体学描绘了稳定螺旋结构的结构图景，我们表明UIM同时具有螺旋构象和内在无序构象。我们的结果揭示了一类新的无序UIM。该组在此以ataxin-3一种异构体的C端结构域和一组泛素特异性蛋白酶为例。有趣的是，UIM不仅结合泛素，它们还可以作为其他相互作用因子的招募点，如parkin和热休克蛋白Hsc70-4。无序UIM可为客户蛋白质提供多功能性和新功能，为其相互作用组研究开辟新方向。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34262938/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34262938/",
+  "paper_page_path": "papers/pubmed/34262938/index.html"
+}

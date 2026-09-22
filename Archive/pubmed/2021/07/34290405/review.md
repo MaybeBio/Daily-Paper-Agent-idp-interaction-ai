@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, main text, methods, and supplementary figure legends
+- **Assessment boundary** Structural and biochemical characterization of human separase regulation by securin and CDK1-cyclin B1, including cryo-EM structures and functional validation
+- **Shared manuscript claim summary** The authors present cryo-EM structures of human separase bound to securin and to CDK1-cyclin B1-Cks1, revealing distinct pseudosubstrate-based inhibition mechanisms. Securin inhibits separase through its own pseudosubstrate motifs, while CDK1-cyclin B1 activates autoinhibitory loops within separase itself. A novel phosphate-binding pocket in cyclin B1 recognizes phosphoserine 1126 of separase, and the study proposes a stepwise model for separase regulation during mitotic exit.
+- **Visible evidence base** Cryo-EM density maps and atomic models for two complexes, in vitro cleavage assays with separase mutants, pull-down assays, mass spectrometry phosphorylation analysis, sequence conservation analysis
+- **Missing materials affecting confidence** Extended Data figures and tables referenced but not fully provided; Supplementary Videos not accessible; specific numerical validation statistics (e.g., MolProbity scores, map-model FSC values) not included in the provided text; full experimental details for some biochemical assays are abbreviated
+
+## Reviewer
+- **Overall assessment** This manuscript presents a significant structural advance in understanding separase regulation, a critical control point in chromosome segregation. The cryo-EM structures are of high quality and reveal unexpected mechanisms, particularly the autoinhibitory function of separase loops induced by CDK1-cyclin B1 binding. The identification of a phosphate-binding pocket in cyclin B1 is novel and provides molecular insight into substrate specificity. The biochemical validation experiments support the structural conclusions, though some functional claims would benefit from additional quantitative analysis. The work is likely to be of broad interest to cell biologists and structural biologists, and the findings have implications for understanding mitotic regulation and potentially for cancer biology given the role of separase in genome stability.
+- **Who would be interested in the results, and why** Cell biologists studying mitosis and chromosome segregation, structural biologists interested in large multi-domain protease complexes, biochemists studying pseudosubstrate inhibition mechanisms, and cancer researchers interested in separase as a therapeutic target. The structural insights into how CDK1-cyclin B1 can act as both kinase and inhibitor scaffold will interest the broader cell cycle community.
+- **Major strengths** 1) High-resolution cryo-EM structures of two biologically important complexes that have been refractory to structural analysis. 2) The discovery that CDK1-cyclin B1 activates autoinhibitory loops in separase is conceptually novel and unexpected. 3) Identification and characterization of a new phosphate-binding pocket in cyclin B1 with functional validation. 4) The combination of structural, biochemical, and functional data provides a coherent model for separase regulation. 5) The work resolves apparent contradictions in the field regarding the role of securin in separase inhibition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Functional validation
+  - **Claim pointer** The authors claim that "deletion of the pseudosubstrate motifs in AIL1 or AIL3 resulted in increased Scc1 cleavage rates, suggesting that these motifs have some inhibitory effect even in the absence of the CCC complex" and that these deletions "displayed resistance to inhibition by the CCC complex."
+  - **Evidence pointer** Figure 2g, Extended Data Figure 10a-c
+  - **Concern** The cleavage assays are described qualitatively without quantitative kinetic parameters. The authors report increased cleavage rates and resistance to inhibition but do not provide quantitative measures such as kcat/Km values, IC50 values for inhibition, or statistical analysis of replicate experiments. The assay appears to be a single time-point or endpoint assay, which may not capture the full kinetic behavior of the mutants.
+  - **Why it matters** The functional significance of the autoinhibitory loops is a central claim of the paper. Without quantitative kinetic analysis, it is difficult to assess the magnitude of the effects and whether the observed differences are biologically meaningful. The claim that these loops contribute to inhibition "even in the absence of the CCC complex" requires careful quantitative comparison of cleavage rates.
+  - **Resolution test** Provide quantitative kinetic parameters (e.g., kcat/Km) for wild-type and mutant separase with and without CCC complex, with appropriate statistical analysis. Alternatively, provide time-course experiments showing cleavage at multiple time points with calculated initial rates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural interpretation
+  - **Claim pointer** The authors state that "AIL3 harbors an NFS sequence (residues 1394-1396) that, when compared to securin and Scc1, binds to separase in an inverse orientation, with Ser1396 and Asn1394 binding to the P6 and P4 positions, respectively."
+  - **Evidence pointer** Figure 2c, Extended Data Figure 7a
+  - **Concern** The inverse orientation binding of AIL3 is a key structural finding, but the manuscript does not provide sufficient detail on how this was determined. Specifically, the sequence alignment and structural superposition used to establish the register of the pseudosubstrate motif relative to securin and Scc1 are not described in detail. The assignment of specific residues to P6 and P4 positions requires careful structural comparison.
+  - **Why it matters** The inverse orientation is unusual and has implications for understanding how separase recognizes diverse substrates and inhibitors. If the register assignment is incorrect, the mechanistic conclusions about pseudosubstrate mimicry would be affected.
+  - **Resolution test** Provide a detailed description of the structural superposition and sequence alignment used to assign the register of AIL3 relative to securin and Scc1. Include a figure showing the superposition with labeled residues and the corresponding sequence alignment.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model completeness
+  - **Claim pointer** The authors propose a stepwise model for separase regulation where "binding of Cdk1-cyclin B1 to separase occurs in a series of distinct steps" involving phosphorylation at Ser1126, phosphate recognition by cyclin B1, and subsequent stabilization of autoinhibitory loop conformations.
+  - **Evidence pointer** Discussion section, Figure 3a
+  - **Concern** The proposed stepwise model is presented as a coherent narrative, but the experimental evidence for the order of events is limited. The structure of the separase-CCC complex is a single snapshot, and the authors do not provide time-resolved or mutational analysis that would distinguish between sequential and concerted binding mechanisms. The claim that phosphoserine 1126 "initiates complex formation" is not directly tested.
+  - **Why it matters** The stepwise model has implications for understanding how separase activity is regulated during the cell cycle and how phosphorylation events are coordinated. If the model is incorrect, it could mislead future studies on separase regulation.
+  - **Resolution test** Perform mutational analysis of the phosphate-binding pocket (e.g., R307A, H320A, K324A) and test whether these mutations affect complex formation, phosphorylation-dependent binding, and inhibition. Alternatively, use surface plasmon resonance or isothermal titration calorimetry to measure binding kinetics and determine whether phosphorylation is required for initial binding or for stabilization of the complex.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors state that "detailed comparison of separase sequences from multiple species reveals that the docking sequence in AIL1 is well conserved only in vertebrates and has co-evolved with the presence of the cyclin B-binding loop and the Cdc3-like domain, suggesting that regulation of separase activity by the CCC complex might be specific for vertebrates."
+  - **Evidence pointer** Discussion section, Extended Data Figure 6a
+  - **Concern** The evolutionary analysis is presented briefly without showing the actual sequence alignment or phylogenetic analysis. The claim of co-evolution is based on correlation of presence/absence of specific sequence features, but the statistical significance of this correlation is not assessed. The authors do not discuss potential alternative mechanisms in non-vertebrate organisms.
+  - **Why it matters** The claim of vertebrate-specific regulation has implications for the generality of the proposed mechanism and for the choice of model systems in future studies. If the analysis is not rigorous, the conclusion may be overstated.
+  - **Resolution test** Provide the full sequence alignment and phylogenetic analysis in the supplementary material. Perform a statistical test for co-evolution (e.g., phylogenetic independent contrasts) and discuss alternative regulatory mechanisms in non-vertebrate species.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, "In contrast, Cdk1-cyclin B1 inhibits separase by deploying pseudosubstrate motifs from intrinsically disordered loops in separase itself."
+  - **Issue** The abstract states that CDK1-cyclin B1 inhibits separase by deploying pseudosubstrate motifs from separase itself, but this is not immediately clear to readers unfamiliar with the field. The distinction between securin providing its own pseudosubstrate motifs versus CDK1-cyclin B1 activating pre-existing motifs in separase could be stated more explicitly.
+  - **Required correction** Consider rephrasing to clarify that CDK1-cyclin B1 binding induces or stabilizes autoinhibitory conformations of separase loops, which then act as pseudosubstrates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods, cryo-EM data collection
+  - **Evidence pointer** Methods, "Data collection of dataset I of the separase-securin complex was described in ref.7."
+  - **Issue** The manuscript relies on a previous publication for dataset I, but it is unclear whether the data processing and refinement for the combined dataset are fully described. The resolution of the final maps is reported, but the number of particles used in the final refinement is not stated.
+  - **Required correction** Provide the number of particles used in the final refinement for each structure and clarify the processing steps for combining datasets I and II.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion, phosphate-binding pocket
+  - **Evidence pointer** Discussion, "We suspect that this phosphate-binding pocket is employed by B-type cyclins to mediate interactions with phosphorylated regulators or substrates."
+  - **Issue** The speculation about the general role of the phosphate-binding pocket in B-type cyclins is interesting but not supported by direct experimental evidence. The authors mention mutations in this region inhibit interactions with Cdc25C, but this is not shown or referenced in detail.
+  - **Required correction** Either provide the experimental data supporting this claim or clearly label it as speculation and suggest future experiments to test it.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1a
+  - **Issue** The domain architecture diagram in Figure 1a is not described in the text. It would be helpful to have a brief description of the domain boundaries and the positions of the intrinsically disordered inserts relative to the structured domains.
+  - **Required correction** Add a sentence in the text describing the domain architecture and the locations of the disordered inserts.
+- **Technical failings that need to be addressed before the case is established** None identified from the supplied material. The structural determinations appear technically sound, and the biochemical validation is appropriate, though quantitative details would strengthen the functional claims.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The structures of human separase in complex with its two major regulators are novel and provide the first atomic-level view of how CDK1-cyclin B1 can act as a direct inhibitor of separase through activation of autoinhibitory loops. The identification of a phosphate-binding pocket in cyclin B1 is a new finding.
+  - **Scientific importance** High. Separase is a critical enzyme for chromosome segregation, and understanding its regulation is fundamental to cell biology. The findings have implications for understanding how errors in chromosome segregation arise and for potential therapeutic targeting in cancer.
+  - **Interdisciplinary readership** Moderate to high. The work will appeal primarily to structural biologists and cell cycle researchers, but the conceptual advance regarding pseudosubstrate inhibition and phosphate-dependent protein-protein interactions may attract a broader readership in biochemistry and molecular biology.
+  - **Technical soundness** Generally strong. The cryo-EM structures are determined at good resolution, and the biochemical experiments support the structural conclusions. However, the quantitative aspects of the functional assays could be strengthened.
+  - **Readability for nonspecialists** Moderate. The manuscript is clearly written but assumes familiarity with cell cycle terminology and structural biology concepts. The abstract is accessible, but the main text may be challenging for readers outside the field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The structural findings are significant and likely to be of broad interest. The major concerns regarding quantitative functional validation and the stepwise model should be addressed through additional experiments or more careful presentation of existing data. The manuscript would be suitable for Nature if these issues are resolved.
+
+## Risk / unsupported claims
+- The claim that the stepwise binding model for CDK1-cyclin B1 to separase is supported by the data is not fully established; the structural data provide a snapshot, and the order of events is inferred rather than directly tested.
+- The speculation that the phosphate-binding pocket in cyclin B1 is generally used for interactions with phosphorylated regulators or substrates is not supported by direct experimental evidence in this manuscript.
+- The evolutionary claim of vertebrate-specific regulation by CDK1-cyclin B1 is based on limited analysis and would benefit from more rigorous phylogenetic testing.
+- The statement that "efficient cleavage requires the segment containing the NHLEYE motif" is supported by deletion analysis, but the quantitative contribution of this motif relative to other binding determinants is not fully characterized.

@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "39357707",
+    "doi": "10.1016/j.ijbiomac.2024.136077",
+    "title": "Saloplastics based on protein-peptides complexes immobilizing organic molecules in gastrointestinal drug delivery for ulcerative colitis treatment."
+  },
+  "content": {
+    "abstract": "Ulcerative colitis (UC) stands as a chronic inflammatory intestinal disease. This study aimed to explore a sustained-release strategy to alleviate DSS-induced colitis in mice using polyelectrolyte complexes (PECs) encapsulating an alkaloid, isoliensinine (ISO). The drug delivery platform, termed \"Saloplastics (SAL)\", was prepared by fabrication of PECs through the solid-liquid phase separation of sodium caseinate (SC) and epsilon-polylysine (EPL), followed by centrifugation to yield compact structures. Coarse-grained molecular dynamics simulations demonstrated that SAL had a nanorod-like structure formation between EPL and SC, which implied that the self-assembly of SAL is driven by hydrophobic aggregation and strong electrostatic attractions. A comprehensive evaluation of SAL was conducted, including characterizations of its physicochemical and biological properties. The results showed SAL had thermal plasticization properties and excellent swelling capacity as well as susceptibility to hydrolysis by pH and proteinase in simulated gastric fluid. Moreover, SAL displayed a porous morphology with high surface area for immobilizing organic molecules. ISO@SAL, formulated by ISO encapsulated in SAL, not only demonstrated high potency in alleviating DSS-induced colitis in mice, but also increased the dosing intervals from one day to three days. In conclusion, SAL is a biocompatible sustained-release oral drug delivery platform for gastrointestinal applications.",
+    "keywords": [
+      "Isoliensinine",
+      "Polyelectrolyte complexes",
+      "Saloplastics",
+      "Sodium caseinate",
+      "Ulcerative colitis",
+      "epsilon-Polylysine"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Colitis, Ulcerative/drug therapy",
+      "Mice",
+      "*Drug Delivery Systems",
+      "Dextran Sulfate/chemistry",
+      "Male",
+      "Drug Carriers/chemistry",
+      "Peptides/chemistry/pharmacology",
+      "Caseins/chemistry/pharmacology",
+      "Polylysine/chemistry",
+      "Drug Liberation",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Liang",
+        "Zheng, Ge-Ge",
+        "Li, Rong-Yi",
+        "Fu, Cheng-Yu",
+        "Chen, Jie",
+        "Meng, Yue-Cheng",
+        "Pan, Yang",
+        "Hu, Po"
+      ],
+      "short_names": [
+        "Guo L",
+        "Zheng GG",
+        "Li RY",
+        "Fu CY",
+        "Chen J",
+        "Meng YC",
+        "Pan Y",
+        "Hu P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Avenue, Nanjing 210023, China.",
+        "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Avenue, Nanjing 210023, China.",
+        "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Avenue, Nanjing 210023, China.",
+        "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, St. John's University, 8000 Utopia Parkway, Queens, NY 11439, USA.",
+        "School of Food Science and Biotechnology, Zhejiang Gongshang University, No. 18 Xuezheng Street, Qiantang District, Hangzhou, 310018, China.",
+        "School of Food Science and Biotechnology, Zhejiang Gongshang University, No. 18 Xuezheng Street, Qiantang District, Hangzhou, 310018, China. Electronic address: myczjgsu@gmail.com.",
+        "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Avenue, Nanjing 210023, China.",
+        "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Avenue, Nanjing 210023, China. Electronic address: hupo_cpu@foxmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Liang",
+        "short_name": "Guo L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Avenue, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Ge-Ge",
+        "short_name": "Zheng GG",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Avenue, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Li, Rong-Yi",
+        "short_name": "Li RY",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Avenue, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Fu, Cheng-Yu",
+        "short_name": "Fu CY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmaceutical Sciences, College of Pharmacy and Health Sciences, St. John's University, 8000 Utopia Parkway, Queens, NY 11439, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Jie",
+        "short_name": "Chen J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Food Science and Biotechnology, Zhejiang Gongshang University, No. 18 Xuezheng Street, Qiantang District, Hangzhou, 310018, China."
+        ]
+      },
+      {
+        "full_name": "Meng, Yue-Cheng",
+        "short_name": "Meng YC",
+        "identifiers": [],
+        "affiliations": [
+          "School of Food Science and Biotechnology, Zhejiang Gongshang University, No. 18 Xuezheng Street, Qiantang District, Hangzhou, 310018, China. Electronic address: myczjgsu@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Pan, Yang",
+        "short_name": "Pan Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Avenue, Nanjing 210023, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Po",
+        "short_name": "Hu P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmacy, Nanjing University of Chinese Medicine, 138 Xianlin Avenue, Nanjing 210023, China. Electronic address: hupo_cpu@foxmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/03 00:42",
+    "fetched_at": "2026-09-21 10:49:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39357707",
+      "35178163",
+      "29751345",
+      "30779888",
+      "32169449",
+      "38892524",
+      "32581538",
+      "34121560",
+      "38971294",
+      "28961808",
+      "30071482",
+      "34261306",
+      "38528541",
+      "37127609",
+      "9680176",
+      "38901529",
+      "33537095",
+      "32777486",
+      "31904988",
+      "32937207",
+      "38676524",
+      "39084441",
+      "38608475",
+      "29078713",
+      "33658780",
+      "37548631",
+      "30332962",
+      "37952331",
+      "32891820",
+      "33652919",
+      "39185345",
+      "31940656",
+      "24491122",
+      "39443177",
+      "38944169",
+      "28119098",
+      "33761623",
+      "36070663",
+      "38280336",
+      "39008936",
+      "31849652",
+      "38156770",
+      "33839199",
+      "29017953",
+      "28275298",
+      "31923541",
+      "29314587",
+      "32810615",
+      "38710246",
+      "36287004",
+      "38577919",
+      "26275840",
+      "29850666",
+      "37173037",
+      "38004208",
+      "37282934",
+      "38648921",
+      "30393231",
+      "32058214",
+      "35099925",
+      "38554854",
+      "38323719",
+      "28802904",
+      "26969793",
+      "34296588",
+      "38064857",
+      "33812202",
+      "37187359",
+      "27557503",
+      "23625874",
+      "34784538",
+      "37446938",
+      "38528736",
+      "38218008",
+      "30779979",
+      "39079890",
+      "39032279",
+      "38474831",
+      "33022343",
+      "34331468",
+      "38667792",
+      "34968462",
+      "38104876",
+      "33744379",
+      "38592519",
+      "39128305",
+      "39393557",
+      "39117021",
+      "34116185",
+      "33884622",
+      "37570753",
+      "35777121",
+      "37284442",
+      "33754258",
+      "32891717",
+      "38527677",
+      "38731431",
+      "38732614",
+      "31731793",
+      "35868549"
+    ],
+    "review": [
+      "39357707"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)06886-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/ulcerativecolitis.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Ulcerative Colitis"
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:39357707",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

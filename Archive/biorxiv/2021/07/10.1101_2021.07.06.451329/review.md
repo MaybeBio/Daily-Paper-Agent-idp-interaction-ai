@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report that SARS-CoV-2 NSP6 is a transmembrane protein with regions outside the membrane, specifically residues 1-11, 91-112, and 231-290, based on TMHMM predictions. They use molecular dynamics simulations to show that NSP6 adopts helical structures, that the 91-112 region is partially helical and becomes disordered after 1.5 microseconds, and that the 231-290 region loses beta sheet content but retains helicity over 200 nanoseconds. They further characterize the 91-112 peptide in isolation, finding it disordered but gaining helical conformation in biological mimic environments. The authors suggest these findings may inform studies of NSP6 interactions with host proteins.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, simulation parameters, force fields, system setup, convergence criteria, replica details, experimental validation data, structural models, and all figures and tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a preliminary computational study of SARS-CoV-2 NSP6 conformational dynamics, focusing on two non-transmembrane regions. While the topic is of potential interest given the limited structural information on NSP6, the abstract lacks sufficient methodological detail and quantitative results to assess the validity of the claims. The simulation timescales, force field choices, and analysis methods are not described, and no error estimates or reproducibility measures are provided. The claim that the 91-112 region becomes disordered after 1.5 microseconds is particularly difficult to evaluate without convergence data. The study may offer a useful starting point for further investigation, but the current evidence base is insufficient to establish the stated conclusions.
+- **Who would be interested in the results, and why** Researchers studying SARS-CoV-2 protein structure and function, particularly those interested in non-structural proteins and their roles in viral replication and host interactions. Computational biophysicists working on membrane protein dynamics and intrinsically disordered regions may also find the approach relevant. The potential implications for host protein interactions could interest virologists studying pathogenesis mechanisms.
+- **Major strengths** The study addresses a protein with limited structural characterization, which is a relevant gap. The focus on non-transmembrane regions that may mediate protein interactions is a reasonable hypothesis-driven approach. The use of reductionist peptide studies to complement full-length simulations is a sensible strategy for isolating region-specific behavior.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that MD simulations showed NSP6 consists of helical structures and that the 91-112 region showed partial helicity, which became disordered after 1.5 microseconds.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no information on the simulation methodology, including force field, water model, temperature coupling, pressure coupling, salt concentration, or system size. No convergence criteria are described, and it is unclear whether the 1.5 microsecond trajectory was replicated or whether the observed disorder transition is statistically robust. The absence of any quantitative metrics such as root-mean-square deviation, radius of gyration, or secondary structure fraction over time prevents assessment of the structural claims.
+  - **Why it matters** Molecular dynamics results are highly sensitive to simulation parameters and force field choices. Without methodological details and convergence analysis, the reported conformational transitions cannot be distinguished from artifacts or insufficient sampling. The central claim of disorder acquisition after 1.5 microseconds requires evidence of equilibration and statistical reliability.
+  - **Resolution test** Provide full simulation parameters, force field validation, convergence metrics, replica information, and time series of structural observables. Show that the disorder transition is reproducible across independent simulations and not dependent on initial conditions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that residues 231-290 have both helical and beta sheet conformations in the structural model, and that a 200ns simulation resulted in loss of beta sheet structures while helical regions remained intact.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The structural model for the 231-290 region is not described. It is unclear whether this model was generated by homology modeling, ab initio prediction, or experimental determination. The 200 nanosecond simulation time is short for assessing conformational stability of a membrane-associated region, and no details are given on how secondary structure was assigned or how the loss of beta sheet content was quantified.
+  - **Why it matters** The claim that beta sheet structures are lost while helices remain intact implies a specific conformational transition that could have functional relevance. Without details on the starting model and the secondary structure analysis method, this claim cannot be evaluated. The short simulation time raises concerns about whether the observed loss is a genuine equilibrium property or an artifact of incomplete relaxation.
+  - **Resolution test** Describe the model generation method, provide validation of the starting structure, specify the secondary structure assignment algorithm, and show time-dependent secondary structure populations with error estimates. Consider longer simulations or enhanced sampling to confirm the stability of the observed transitions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract states that the 91-112 region was found disordered in isolation but gained helical conformation in different biological mimic environmental conditions, and that these studies can be helpful to study NSP6 (91-112) interactions with host proteins.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The biological relevance of the peptide studies is asserted but not demonstrated. The abstract does not specify which biological mimic conditions were tested, how the helical conformation was characterized, or whether the observed conformational change has any demonstrated functional consequence. The link between conformational dynamics and host protein interactions is speculative.
+  - **Why it matters** The stated significance of the work rests on the assumption that conformational plasticity of the 91-112 region influences host interactions. Without experimental evidence of binding or functional assays, this connection remains hypothetical. The abstract does not establish why the observed conformational behavior would be relevant to pathogenesis.
+  - **Resolution test** Provide experimental validation of NSP6 91-112 interactions with host proteins, or clearly frame the study as hypothesis-generating without overstating functional implications. Specify the biological mimic conditions and show that the helical conformation is functionally distinct from the disordered state.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract structure and terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses technical terms such as "reductionist approaches" and "biological mimic environmental conditions" without explanation. The transition from full-length simulations to isolated peptide studies is not clearly motivated.
+  - **Required correction** Define or rephrase technical terms, and briefly explain why the isolated peptide approach was chosen to complement the full-length simulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** TMHMM prediction claim
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that TMHMM predictions show residues 1-11, 91-112, and 231-290 lie outside the membrane, but no confidence scores or comparison with other prediction tools are provided. The graphical abstract mentions experimental evidence from Oostra et al. 2008 for cytoplasmic localization, but this is not integrated into the main text claims.
+  - **Required correction** Provide TMHMM prediction scores and consider comparing with at least one additional topology prediction method. Clarify how the experimental evidence from Oostra et al. supports or conflicts with the TMHMM predictions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Contextualization
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions a "brief role of NSP6 in autophagosome formation" but does not explain how the current findings relate to this known function or to other reported NSP6 activities.
+  - **Required correction** Add one or two sentences connecting the conformational findings to the known or proposed functions of NSP6, to strengthen the rationale for the study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the simulation methodology and structural models are not described, making the central conformational claims unevaluable. R1-M3 is blocking because the stated significance relies on an unsubstantiated link to host interactions.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a relatively understudied protein, but the approach of using MD simulations to characterize conformational dynamics is not novel in itself. The specific focus on non-transmembrane regions is somewhat original but does not introduce new methods or concepts.
+  - Scientific importance: The potential importance is moderate. NSP6 is a relevant viral protein, but the abstract does not demonstrate functional consequences of the observed conformational behavior. The study appears to be descriptive rather than mechanistically insightful.
+  - Interdisciplinary readership: The work may appeal to computational biologists and virologists, but the abstract is too technical and lacks sufficient context to attract a broad interdisciplinary audience.
+  - Technical soundness: Not assessable from the abstract alone. The absence of methodological details and quantitative results prevents evaluation of the technical quality.
+  - Readability for nonspecialists: The abstract is written in a condensed style with undefined technical terms, making it difficult for nonspecialists to follow the logic and significance.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract lacks the methodological detail and quantitative support needed to evaluate the central claims. A full manuscript with complete simulation parameters, convergence analysis, and structural validation would be required to assess whether the conclusions are supported.
+
+## Risk / unsupported claims
+- The claim that NSP6 consists of helical structures based on MD simulations is unsupported without simulation details and structural analysis metrics.
+- The claim that the 91-112 region becomes disordered after 1.5 microseconds is unsupported without convergence analysis or replica information.
+- The claim that the 231-290 region loses beta sheet structures while retaining helices over 200 nanoseconds is unsupported without details on the starting model and secondary structure assignment.
+- The claim that the 91-112 peptide gains helical conformation in biological mimic conditions is unsupported without specification of the conditions and characterization methods.
+- The assertion that these studies can help understand NSP6 interactions with host proteins is speculative and not supported by any binding or functional data.
+- The TMHMM-based topology assignment is presented without confidence scores or validation against experimental data, making it only weakly supported.

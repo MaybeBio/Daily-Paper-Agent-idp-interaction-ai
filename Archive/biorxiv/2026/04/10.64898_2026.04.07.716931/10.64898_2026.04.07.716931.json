@@ -1,0 +1,505 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.04.07.716931",
+  "title": "Prion Protein Deficiency Results in Synaptic, Neural Network and Behavioral Alterations",
+  "doi": "10.64898/2026.04.07.716931",
+  "abstract": "The cellular form of the prion protein (PrP C ) is known for its involvement in the pathogenesis of prion diseases. Recent research implicates the physiological isoform of PrP in neuronal development, excitability, and synaptic plasticity, as well as in other biological processes. However, its precise function in the development and function of neurons remains poorly understood. Here, we investigated its role during different developmental stages, both in vitro and in vivo, using different PrP knock-out (KO) mouse lines ( Prnp -/- ). Prion protein KO neurons cultured on microelectrode arrays (MEAs) displayed altered network dynamics compared to wild type cultures, comprising reduced burst frequency, and abnormal spike patterns, indicative of impaired maturation of the synaptic circuitry. These functional alterations were associated with a reduced expression of key presynaptic and postsynaptic proteins, including elements of the SNARE complex and regulators of excitation-inhibition balance. Similar molecular changes were also confirmed in a second Prnp -/- model, suggesting that PrP C is directly involved in these mechanisms regardless of genetic backgrounds. Alterations in neuronal networks were traceable into adulthood: in vivo recordings in adult Prnp -/- mice revealed increased neuronal responses to visual danger stimuli, which correlated with behaviorally increased fear responses to those stimuli. Together, our findings support a critical role for PrP C in the establishment and maintenance of functional neuronal networks, from early developmental stages in vitro to behaviorally mature relevant circuits in vivo, beyond genomic background. These results indicate that PrP C acts as a key regulator of synaptic development and function both in physiological and pathological conditions.",
+  "authors": [
+    "Anna Burato",
+    "Alessio Di Clemente",
+    "Camilla Lodetti",
+    "Valentino Panico",
+    "Giulio Pistorio",
+    "Beatriz Pimentel Mizusaki",
+    "Beatrice Pastore",
+    "Marco Zattoni",
+    "Luigi Celauro",
+    "Lucia Zanetti",
+    "Lorenca Sadiraj",
+    "Eugenio Piasini",
+    "Michele Giugliano",
+    "Katja Reinhard",
+    "Giuseppe Legname"
+  ],
+  "published_date": "2026-04-09",
+  "updated_date": "2026-04-10T05:50:19Z",
+  "journal": "bioRxiv",
+  "category": "Molecular Biology",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.04.07.716931",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.04.07.716931.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Molecular Biology"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Molecular Biology",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            9,
+            2
+          ]
+        ],
+        "date-time": "2026-09-02T12:26:21Z",
+        "timestamp": 1788351981174,
+        "version": "build-2803163510"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            9
+          ]
+        ]
+      },
+      "group-title": "Molecular Biology",
+      "reference-count": 0,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                9
+              ]
+            ],
+            "date-time": "2026-04-09T00:00:00Z",
+            "timestamp": 1775692800000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "https://www.biorxiv.org/about/FAQ#license"
+        }
+      ],
+      "funder": [
+        {
+          "award": [
+            "101075848"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "101075848"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/0472cxd90",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "name": "European Innovation Council",
+          "award": [
+            "101070908"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "101070908"
+              ]
+            }
+          ]
+        },
+        {
+          "award": [
+            "IR0000011"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "IR0000011"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/0166hxq48",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "BM-2022-C3-L2"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "BM-2022-C3-L2"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/03fsqvg68",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "award": [
+            "G93C22001070006"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "G93C22001070006"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "https://ror.org/019w4f821",
+              "id-type": "ROR",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            9
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n                  The cellular form of the prion protein (PrP\n                  <jats:sup>C</jats:sup>\n                  ) is known for its involvement in the pathogenesis of prion diseases. Recent research implicates the physiological isoform of PrP in neuronal development, excitability, and synaptic plasticity, as well as in other biological processes. However, its precise function in the development and function of neurons remains poorly understood. Here, we investigated its role during different developmental stages, both in vitro and in vivo, using different PrP knock-out (KO) mouse lines (\n                  <jats:italic>Prnp</jats:italic>\n                  <jats:sup>-/-</jats:sup>\n                  ). Prion protein KO neurons cultured on microelectrode arrays (MEAs) displayed altered network dynamics compared to wild type cultures, comprising reduced burst frequency, and abnormal spike patterns, indicative of impaired maturation of the synaptic circuitry. These functional alterations were associated with a reduced expression of key presynaptic and postsynaptic proteins, including elements of the SNARE complex and regulators of excitation-inhibition balance. Similar molecular changes  were also confirmed in a second\n                  <jats:italic>Prnp</jats:italic>\n                  <jats:sup>-/-</jats:sup>\n                  model, suggesting that PrP\n                  <jats:sup>C</jats:sup>\n                  is directly involved in these mechanisms regardless of genetic backgrounds. Alterations in neuronal networks were traceable into adulthood: in vivo recordings in adult Prnp\n                  <jats:sup>-/-</jats:sup>\n                  mice revealed increased neuronal responses to visual danger stimuli, which correlated with behaviorally increased fear responses to those stimuli. Together, our findings support a critical role for PrP\n                  <jats:sup>C</jats:sup>\n                  in the establishment and maintenance of functional neuronal networks, from early developmental stages in vitro to behaviorally mature relevant circuits in vivo, beyond genomic background. These results indicate that PrP\n                  <jats:sup>C</jats:sup>\n                  acts as a key regulator of synaptic development and function both in physiological and pathological conditions.\n                </jats:p>",
+      "DOI": "10.64898/2026.04.07.716931",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            10
+          ]
+        ],
+        "date-time": "2026-04-10T05:50:19Z",
+        "timestamp": 1775800219000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Prion Protein Deficiency Results in Synaptic, Neural Network and Behavioral Alterations"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Anna",
+          "family": "Burato",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "International School for Advanced Studies;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alessio",
+          "family": "Di Clemente",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International School for Advanced Studies;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Camilla",
+          "family": "Lodetti",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International School for Advanced Studies;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Valentino",
+          "family": "Panico",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International School for Advanced Studies;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Giulio",
+          "family": "Pistorio",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International School for Advanced Studies;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Beatriz Pimentel",
+          "family": "Mizusaki",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International School for Advanced Studies;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Beatrice",
+          "family": "Pastore",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International School for Advanced Studies;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Marco",
+          "family": "Zattoni",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Paracelsus Medical Private University;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luigi",
+          "family": "Celauro",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Oxford;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lucia",
+          "family": "Zanetti",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International School for Advanced Studies;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lorenca",
+          "family": "Sadiraj",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "ETH Zurich"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Eugenio",
+          "family": "Piasini",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International School for Advanced Studies;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michele",
+          "family": "Giugliano",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International School for Advanced Studies;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Katja",
+          "family": "Reinhard",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International School for Advanced Studies;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Giuseppe",
+          "family": "Legname",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "International School for Advanced Studies;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.64898/2026.04.07.716931",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            10
+          ]
+        ],
+        "date-time": "2026-04-10T05:50:19Z",
+        "timestamp": 1775800219000
+      },
+      "score": 42.12338,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.64898/2026.04.07.716931"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            9
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.64898/2026.04.07.716931",
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            4,
+            9
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

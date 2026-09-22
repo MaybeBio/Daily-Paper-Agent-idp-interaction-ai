@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41535729",
+  "title": "Tuning the Liquid-Liquid Phase Separation of FUS by Phosphorylation: A Role of Domain-Specific Compensation.",
+  "authors": "Tong, Si-Cheng; Zhang, Jin; Diao, Chen-Jiao; Zhao, Li; Lu, Zhong-Yuan",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2026-01-15",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究通过分子动力学模拟揭示磷酸化对FUS蛋白及其低复杂度结构域液-液相分离的差异化调控机制，并开发凝聚体黏弹性分析模型，直接聚焦无序蛋白介导的相分离互作机制建模，与本课题高度契合。",
+  "abstract": "Biomolecular condensates, a type of subcellular or membraneless organelle, form through liquid-liquid phase separation (LLPS) driven by multivalent interactions. As an RNA-binding protein, FUS participates in biological processes by forming dynamic liquid condensates via LLPS, with its abnormal fibrous aggregation associated with neurodegenerative disorders such as amyotrophic lateral sclerosis (ALS). Experiments show that phosphorylation inhibits LLPS of the FUS low-complexity domain (LCD) under low salt conditions, whereas for full-length FUS, phosphorylation does not block initial LLPS but inhibits the conversion of liquid droplets to toxic aggregates. The molecular mechanism underlying the difference between the two remains unknown. In this molecular dynamics simulation study, we examined condensate structural characteristics and compared wild-type (WT) versus phosphorylated condensates, revealing the molecular details of how full-length FUS avoids LLPS impairment through synergistic compensatory regulation among various domains. As for the FUS-LCD system, the extent to which their LLPS is reduced by phosphorylation is associated with the number of phosphorylation sites. Moreover, we have developed a model for analyzing the viscoelasticity of the condensates, which revealed that altered interaction patterns impact condensate viscoelasticity. This study characterizes the postphosphorylation architecture of FUS condensates and elucidates the molecular mechanisms by which phosphorylation regulates condensate formation and properties.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）是一种亚细胞或无膜细胞器，通过多价相互作用驱动的液-液相分离（liquid-liquid phase separation, LLPS）形成。作为RNA结合蛋白，FUS通过LLPS形成动态液体凝聚体参与生物过程，其异常纤维聚集与肌萎缩侧索硬化（amyotrophic lateral sclerosis, ALS）等神经退行性疾病相关。实验表明，在低盐条件下，磷酸化抑制FUS低复杂度结构域（low-complexity domain, LCD）的LLPS，而对于全长FUS，磷酸化并不阻断初始LLPS，但抑制液滴向毒性聚集体的转化。两者差异背后的分子机制尚不清楚。在本分子动力学（molecular dynamics）模拟研究中，我们考察了凝聚体结构特征，并比较了野生型（wild-type, WT）与磷酸化凝聚体，揭示了全长FUS通过各结构域间的协同补偿调控避免LLPS受损的分子细节。对于FUS-LCD系统，其LLPS因磷酸化而降低的程度与磷酸化位点数量相关。此外，我们开发了一个分析凝聚体粘弹性的模型，该模型揭示改变的相互作用模式影响凝聚体粘弹性。本研究表征了FUS凝聚体磷酸化后的结构，并阐明了磷酸化调控凝聚体形成及性质的分子机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41535729/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41535729/",
+  "paper_page_path": "papers/pubmed/41535729/index.html"
+}

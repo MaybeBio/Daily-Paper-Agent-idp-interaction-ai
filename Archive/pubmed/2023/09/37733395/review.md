@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and figure legends.
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided manuscript. No external data or unpublished information was consulted.
+- **Shared manuscript claim summary** The authors propose that Ksp1, previously known as a casein kinase II-like kinase that suppresses autophagy in nutrient-rich conditions, also functions as an autophagic receptor protein for the selective degradation of the transcriptional regulator Ssn2/Med13 via Snx4-assisted autophagy. This receptor function is reported to be kinase-independent, involves direct interaction with Atg8 through a C-terminal canonical AIM, and is required for cell survival under prolonged nitrogen starvation.
+- **Visible evidence base** Co-immunoprecipitation, yeast two-hybrid assays, fluorescence microscopy, quantitative western blot degradation kinetics, computational modeling (ClusPro, AlphaFold, IUPred3), and survival assays.
+- **Missing materials affecting confidence** Supplementary figures and tables (Figures S1–S9, Tables S1–S2) are referenced but not provided. Full uncropped western blots are not shown. No in vitro binding assay (e.g., pull-down with purified proteins) is presented to directly demonstrate a physical interaction between Ksp1 and Atg8. No structural data (e.g., NMR or crystallography) is provided to validate the modeled Ksp1-AIM/Atg8 interaction. The manuscript does not include a direct test of whether Ksp1 is required for Ssn2/Med13 degradation in a reconstituted or minimal system.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting finding that a known kinase with a negative regulatory role in autophagy can also act as a positive, kinase-independent autophagy receptor. The data are largely correlative and rely heavily on yeast two-hybrid and microscopy, with limited biochemical validation. The central claim that Ksp1 is a bona fide autophagic receptor for Ssn2/Med13 is plausible but not fully established from the provided evidence. The lack of direct binding data, the absence of a clear demonstration that the Ksp1-Atg8 interaction is required for Ssn2/Med13 degradation in vivo, and the incomplete presentation of supplementary data reduce confidence in the conclusions. The work is of interest to the autophagy and yeast cell biology communities, but the mechanistic depth is currently insufficient for a high-impact general journal.
+- **Who would be interested in the results, and why** Researchers studying selective autophagy, autophagy receptor proteins, the Atg8/LC3 interaction network, and the regulation of transcriptional complexes by degradation. The work may also interest those studying the Cdk8 kinase module and Mediator complex biology, as well as groups focused on the dual functions of kinases in stress responses.
+- **Major strengths** The study addresses a timely and important question: how selective autophagy receptors are identified and how they interface with the core autophagy machinery. The identification of Ksp1 as a potential receptor for a specific transcriptional regulator adds to the growing list of autophagy cargo receptors. The use of multiple orthogonal approaches (co-IP, Y2H, microscopy, degradation kinetics, modeling) is commendable. The finding that Ksp1's receptor function is kinase-independent is conceptually interesting and adds a new layer to its known biology.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency for central claim
+  - **Claim pointer** The manuscript claims that Ksp1 is an autophagic receptor protein for Ssn2/Med13, mediating its degradation via direct interaction with Atg8.
+  - **Evidence pointer** Figures 1–7; Results sections "Ksp1 and Ssn2/Med13 interact following nitrogen starvation", "Ksp1, but not its kinase activity, is required for the autophagic degradation of Ssn2/Med13", "Ksp1 and Atg8 colocalize following nitrogen starvation", "Ksp1 contains a canonical Atg8-family interacting motif"
+  - **Concern** The central claim requires direct evidence of a physical, stoichiometric interaction between Ksp1 and Atg8, and that this interaction is necessary for Ssn2/Med13 degradation. The manuscript relies on Y2H and colocalization, which are indirect. No in vitro binding assay (e.g., pull-down with recombinant proteins, isothermal titration calorimetry, or surface plasmon resonance) is presented. The Y2H data show interaction but do not demonstrate that this interaction is direct or occurs in the context of the phagophore. The modeling data are speculative and not experimentally validated. Furthermore, the manuscript does not show that mutating the Ksp1 AIM (or the Atg8 LDS) abolishes Ssn2/Med13 degradation in a clean genetic background; the ksp1[AIM∆1] mutant still allows Ssn2/Med13 degradation, which the authors attribute to non-canonical AIMs, but this is not directly tested.
+  - **Why it matters** Without direct binding data and a clear loss-of-function experiment linking the Ksp1-Atg8 interaction to Ssn2/Med13 degradation, the receptor role of Ksp1 remains a hypothesis rather than an established mechanism. The field of autophagy receptors requires rigorous biochemical evidence to distinguish true receptors from proteins that merely colocalize with autophagy machinery.
+  - **Resolution test** Provide in vitro binding data (e.g., pull-down or MST) showing direct interaction between Ksp1 (or its DD2 domain) and Atg8, and demonstrate that this interaction is dependent on the LDS. In addition, show that a Ksp1 mutant lacking all functional AIMs (including non-canonical ones) fails to rescue Ssn2/Med13 degradation in a ksp1∆ background.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional requirement of Ksp1 for Ssn2/Med13 degradation
+  - **Claim pointer** The manuscript claims that Ksp1 is required for the autophagic degradation of Ssn2/Med13, and that this is important for cell survival under nitrogen starvation.
+  - **Evidence pointer** Figures 3, 5, 9; Results sections "Ksp1, but not its kinase activity, is required for the autophagic degradation of Ssn2/Med13", "Ksp1 is degraded by autophagy following nitrogen starvation", "Ksp1 is required for survival, but this is not dependent upon the autophagic degradation of Rim15 and Msn2"
+  - **Concern** The degradation kinetics of Ssn2/Med13 in ksp1∆ are shown, but the manuscript does not demonstrate that the effect is specific to autophagy. It is possible that Ksp1 loss affects Ssn2/Med13 stability through other pathways (e.g., proteasomal degradation, changes in transcription). The survival assay (Figure 9B) shows that ksp1∆ and ssn2/med13∆ mutants have reduced survival, but this does not establish a causal link between Ksp1-mediated autophagy of Ssn2/Med13 and survival. The authors do not test whether expression of a Ksp1 variant that cannot bind Atg8 (but retains kinase activity) can rescue survival.
+  - **Why it matters** The physiological relevance of the proposed receptor function is a key part of the story. Without demonstrating that the autophagy-dependent degradation of Ssn2/Med13 via Ksp1 is the cause of the survival phenotype, the significance of the finding is weakened.
+  - **Resolution test** Perform a rescue experiment in ksp1∆ cells with a Ksp1 allele that cannot interact with Atg8 (e.g., lacking all AIMs) and show that Ssn2/Med13 degradation and survival are not restored. Also, use a autophagy-deficient background (e.g., atg1∆) to confirm that the effect on Ssn2/Med13 stability is autophagy-dependent.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic model of Ksp1 recruitment and cargo delivery
+  - **Claim pointer** The manuscript proposes a model in which Ksp1 is recruited to the PAS via Atg29, binds Atg8, and receives Ssn2/Med13 from Snx4-Atg20 for engulfment.
+  - **Evidence pointer** Figures 8, 9C; Results section "The Atg17-Atg31-Atg29 complex interacts with Ksp1"
+  - **Concern** The Y2H data show that Ksp1 DD2 interacts with Atg29 and Atg31, and colocalization studies support this. However, the order of events and the stoichiometry of the proposed complex are not tested. It is unclear whether Ksp1 binds Atg29 and Atg8 simultaneously or sequentially. The model also implies that Snx4-Atg20 delivers Ssn2/Med13 to Ksp1, but no data directly show a ternary complex or a hand-off mechanism. The authors do not test whether Ksp1 and Snx4 compete for Ssn2/Med13 binding or act cooperatively.
+  - **Why it matters** A detailed mechanistic model is a strength, but it must be supported by evidence. The current data are consistent with several alternative models (e.g., Ksp1 and Snx4 acting independently to recruit Ssn2/Med13 to the PAS).
+  - **Resolution test** Perform co-immunoprecipitation experiments to test for a ternary complex of Ksp1, Ssn2/Med13, and Atg29/Atg8. Use in vitro reconstitution with purified components to test the order of assembly. Alternatively, use genetic epistasis to determine if Ksp1 and Snx4 act in the same or parallel pathways.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 5E, F
+  - **Evidence pointer** Figure 5E, F
+  - **Issue** The fluorescence microscopy images in Figure 5E and F are of low resolution and the quantification is not shown. It is difficult to assess the extent of Ksp1-GFP vacuolar localization.
+  - **Required correction** Provide higher-magnification images and quantification of vacuolar Ksp1-GFP fluorescence across time points and genotypes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Figure 9B
+  - **Evidence pointer** Figure 9B
+  - **Issue** The survival assay appears to be presented as a single representative experiment. The statistical analysis is not described in the figure legend.
+  - **Required correction** Clarify the number of biological replicates and the statistical test used. Show all data points or a representative experiment with error bars.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of Y2H data
+  - **Affected element** Figure 4D, 7C, 8A
+  - **Evidence pointer** Figure 4D, 7C, 8A
+  - **Issue** Y2H assays are prone to false positives, especially with highly disordered proteins. The authors do not include a quantitative assay (e.g., beta-galactosidase activity) to support the Y2H results.
+  - **Required correction** Include a quantitative Y2H assay or an orthogonal binding assay (e.g., co-IP with endogenous proteins) to confirm the key interactions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Model figure
+  - **Affected element** Figure 9C
+  - **Evidence pointer** Figure 9C
+  - **Issue** The model figure is schematic and does not indicate which interactions are directly demonstrated versus inferred.
+  - **Required correction** Modify the figure to clearly distinguish experimentally supported interactions (solid lines) from speculative ones (dashed lines).
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Abstract and text
+  - **Evidence pointer** Abstract
+  - **Issue** The term "Snx4-assisted autophagy of Ssn2/Med13" is used, but the pathway is not formally defined as a distinct autophagy subtype. This could be confusing.
+  - **Required correction** Clarify that this is a selective autophagy pathway that requires Snx4, and consider using more standard terminology such as "Snx4-dependent selective autophagy."
+
+## Risk / unsupported claims
+- The claim that Ksp1 directly interacts with Atg8 is not supported by direct biochemical evidence; Y2H and colocalization are suggestive but not conclusive.
+- The claim that Ksp1 is required for Ssn2/Med13 degradation is supported by degradation kinetics, but the specificity for autophagy (vs. other degradation pathways) is not fully established.
+- The claim that Ksp1 is recruited to the PAS by Atg29 is supported by Y2H and colocalization, but the functional significance of this interaction is not tested.
+- The claim that Ksp1 contains a single canonical AIM that is functionally important is weakened by the observation that deletion of this AIM does not affect Ssn2/Med13 degradation.
+- The survival phenotype (Figure 9B) is not mechanistically linked to Ksp1-mediated autophagy of Ssn2/Med13.
+- The computational modeling (Figure 7A, B) is presented as supportive but is not experimentally validated and should be treated as speculative.

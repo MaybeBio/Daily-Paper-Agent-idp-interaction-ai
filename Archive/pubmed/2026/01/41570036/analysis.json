@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41570036",
+  "title": "A predicted structural interactome reveals binding interference from intrinsically disordered regions.",
+  "authors": "Peng, Junhui; Zhao, Li",
+  "journal": "PLoS computational biology",
+  "published_date": "2026-01-22",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究用AlphaFold2 Multimer预测果蝇蛋白互作组，发现无序区域在预测的高置信度PPI中起关键作用，并构建了交互式网络界面，直接契合无序蛋白介导互作机制建模的主题。",
+  "abstract": "Proteins function through dynamic interactions with other proteins in cells, forming complex networks fundamental to cellular processes. While high-resolution and high-throughput methods have significantly advanced our understanding of how proteins interact with each other, the molecular details of many important protein-protein interactions are still poorly characterized, especially in non-mammalian species, including Drosophila. Recent advancements in deep learning techniques have enabled the prediction of molecular details in various cellular pathways at the network level. In this study, we used AlphaFold2 Multimer to examine and predict protein-protein interactions from both physical and functional datasets in Drosophila. We found that functional associations contribute significantly to high-confidence predictions. Through detailed structural analysis, we also found the importance of intrinsically disordered regions in the predicted high-confidence interactions. Our study highlights the importance of disordered regions in protein-protein interactions and demonstrates the importance of incorporating functional interactions in predicting physical interactions between proteins. We further compiled an interactive web interface to present these predictions, facilitating functional exploration, comparative analysis, and the generation of mechanistic hypotheses for future studies.",
+  "abstract_zh": "蛋白质通过与其他蛋白质在细胞内的动态相互作用发挥功能，形成对细胞过程至关重要的复杂网络。尽管高分辨率和高通量方法显著增进了我们对蛋白质如何相互作用的了解，但许多重要蛋白质-蛋白质相互作用的分子细节仍未被充分表征，尤其是在非哺乳动物物种中，包括果蝇（Drosophila）。深度学习技术的最新进展使得在网络水平上预测多种细胞通路中的分子细节成为可能。在本研究中，我们使用AlphaFold2 Multimer来检查和预测果蝇中来自物理和功能数据集的蛋白质-蛋白质相互作用。我们发现功能关联对高置信度预测有显著贡献。通过详细的结构分析，我们还发现内在无序区域（intrinsically disordered regions）在预测的高置信度相互作用中的重要性。我们的研究强调了无序区域在蛋白质-蛋白质相互作用中的重要性，并展示了将功能相互作用纳入预测蛋白质间物理相互作用的重要性。我们进一步构建了一个交互式网络界面来展示这些预测，以促进功能探索、比较分析以及为未来研究生成机制性假设。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41570036/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41570036/",
+  "paper_page_path": "papers/pubmed/41570036/index.html"
+}

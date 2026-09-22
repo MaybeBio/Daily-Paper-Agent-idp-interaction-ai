@@ -1,0 +1,98 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends as provided)
+- **Assessment boundary** Scientific content, experimental design, data interpretation, and claims as presented in the provided text; no external data or supplementary materials were assessed beyond what is described
+- **Shared manuscript claim summary** The authors present a proteome-scale peptide-phage display approach (GenVar_HD2) to systematically identify how disease-associated missense mutations in intrinsically disordered regions (IDRs) alter short linear motif (SLiM)-mediated protein-protein interactions. They report 366 mutation-modulated domain-mutation pairs from screening 80 bait proteins, with roughly equal proportions of interaction-enhancing and -diminishing effects, and validate selected cases by affinity measurements and cellular assays, including a CDC45-KPNA7 interaction disrupted by a Meier-Gorlin syndrome-associated mutation.
+- **Visible evidence base** Abstract, Introduction, Results (sections on library design, bait selection, screening outcomes, validation, and disease context), Discussion, and Methods (peptide synthesis, protein expression, phage display, ELISA, NGS, FP, ITC, co-IP, motif mapping). Figure legends and table descriptions are referenced but not fully visible.
+- **Missing materials affecting confidence** Full figure panels and supplementary figures (Appendix Figures S1-S11) are not provided in detail; specific numerical data for all 366 pairs, complete lists of bait proteins and prey proteins, and raw NGS counts are not fully accessible; details of statistical thresholds and software parameters are partially described but not fully reproducible from the text.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and under-explored question: how disease-associated mutations in disordered regions rewire SLiM-based interaction networks. The experimental approach is technically ambitious and the scale of screening is impressive. The authors provide a valuable resource and several well-validated examples. However, the manuscript would benefit from clearer presentation of the screening statistics, more rigorous demonstration that the identified mutations are not simply reflecting general binding preferences, and stronger evidence for the physiological relevance of the neo-interactions. The cellular validation is limited and the failure to confirm several predicted effects in full-length protein contexts is not fully reconciled with the screening results.
+- **Who would be interested in the results, and why** Researchers in the fields of interactomics, intrinsically disordered proteins, SLiM biology, and disease genomics would find this resource valuable. The dataset could inform studies on mutation interpretation, particularly for variants of uncertain significance in disordered regions. Clinicians and geneticists interested in the mechanistic basis of Mendelian disorders and cancer mutations may also benefit from the specific examples highlighted, such as the CDC45-KPRA7 interaction.
+- **Major strengths** The study fills a clear gap by systematically addressing mutation effects on SLiM-mediated interactions at scale. The library design is thoughtful, incorporating both wild-type and mutant peptides in a single screen. The validation strategy combining affinity measurements and cellular assays strengthens the credibility of key findings. The identification of both loss- and gain-of-interaction mutations, including neo-interactions, provides a balanced view of mutation consequences. The authors also contextualise their findings within disease categories and discuss therapeutic implications.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that 366 domain-mutation pairs are "mutation-modulated" based on the Mann-Whitney p-value and mutation enrichment score thresholds.
+  - **Evidence pointer** Results section "GenVar_HD2 selections reveal binding-enhancing and -diminishing mutations"; Figure 2D; Dataset EV6
+  - **Concern** The statistical framework for defining "mutation-modulated" interactions is not fully described. The authors state a p-value threshold of ≤0.001 but do not specify the effect size threshold for the mutation enrichment score, nor how multiple testing was addressed across the large number of comparisons. Given the scale of the screen (thousands of peptide pairs), false discovery rates could be substantial. The manuscript does not report whether the distribution of enrichment scores for known non-interacting peptides was used to calibrate thresholds.
+  - **Why it matters** Without a clear and rigorous statistical framework, the central claim of 366 modulated interactions may be inflated by false positives. This affects the reliability of the dataset as a resource and the conclusions drawn about the balance of enhancing versus diminishing mutations.
+  - **Resolution test** Provide a detailed description of the statistical thresholds, including the enrichment score cutoff, and demonstrate that the chosen cutoffs control the false discovery rate (e.g., using permutation-based or empirical null approaches). Report the number of significant pairs at different thresholds to show robustness.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "half of the mutations diminishing binding, and half enhancing binding or creating novel interaction interfaces" and later that "approximately half of the mutations disrupting and half enhancing the interactions."
+  - **Evidence pointer** Abstract; Results section "GenVar_HD2 selections reveal binding-enhancing and -diminishing mutations"; Figure 2A, D
+  - **Concern** The near-equal split between enhancing and diminishing mutations is surprising given that random mutations in functional motifs would be expected to predominantly disrupt binding. The authors do not discuss potential biases in the screening system that could favour the detection of gain-of-interaction events, such as the use of a single concentration of bait protein, avidity effects in phage display, or the possibility that the mutant peptide library is enriched for sequences that create artificial binding surfaces.
+  - **Why it matters** If the balance is an artefact of the assay, the biological interpretation that disease mutations frequently rewire interactions by creating new binding sites would be overstated. This is a central claim of the paper and needs to be robustly supported.
+  - **Resolution test** Discuss and, if possible, control for potential biases. For example, compare the distribution of enrichment scores for mutations in known functional motifs versus random positions, or perform control selections with a scrambled peptide library. Provide a rationale for why the observed balance is biologically plausible.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "the study provides insights into how disease-associated mutations may perturb and rewire the motif-based interactome" and highlight specific examples such as the CDC45-KPNA7 interaction.
+  - **Evidence pointer** Abstract; Results section "Validating the binding-disabling effect of mutations in the context of full-length proteins"; Figure 5
+  - **Concern** The physiological relevance of the validated interactions is not fully established. For the CDC45-KPNA7 interaction, the authors show that the R157C mutation disrupts binding and alters nuclear localisation, but the functional consequence of this mislocalisation for DNA replication or the Meier-Gorlin syndrome phenotype is not demonstrated. Similarly, for the neo-interactions (e.g., CTNNB1 S33F with G3BP1), the authors do not show that these interactions occur endogenously or that they contribute to disease pathology.
+  - **Why it matters** The paper aims to link mutations to disease mechanisms. Without functional evidence that the identified interaction changes have phenotypic consequences, the significance of the findings for understanding disease remains speculative.
+  - **Resolution test** Provide additional cellular or in vivo data showing that the disrupted or gained interactions affect relevant downstream processes. For example, for CDC45, assess DNA replication efficiency or cell proliferation in cells expressing the mutant. For CTNNB1 S33F, test whether the G3BP1 interaction alters Wnt signalling or stress granule dynamics.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report that "we were unable to confirm the binding effect of the enabling mutations in context of the full-length proteins in HeLa (and/or HEK293T) cells" for three tested neo-interactions.
+  - **Evidence pointer** Results section "Validating the binding-disabling effect of mutations in the context of full-length proteins"; Appendix Figure S7A
+  - **Concern** The failure to validate the enabling mutations in full-length protein contexts is a significant limitation that is not adequately addressed. The authors suggest that the interactions may not be strong enough to compete with endogenous interactors, but this explanation is speculative. It is also possible that the peptide-level results do not reflect the behaviour of the full-length proteins due to conformational or steric effects.
+  - **Why it matters** The inability to confirm the most novel and interesting class of findings (neo-interactions) in a cellular context weakens the overall claim that disease mutations commonly rewire the interactome by creating new binding sites.
+  - **Resolution test** Explore alternative experimental conditions (e.g., different cell lines, overexpression of binding partners, or use of proximity ligation assays) to detect the neo-interactions. Alternatively, acknowledge this limitation more prominently and temper the conclusions about the prevalence of neo-interactions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract uses terms such as "motif-based interactome rewiring" and "peptide-phage display library" without brief definitions, which may be challenging for readers outside the immediate field.
+  - **Required correction** Add a brief explanatory phrase, e.g., "short linear motifs (SLiMs), which are compact interaction modules in disordered protein regions," and "phage display, a method to identify protein-peptide interactions."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "GenVar_HD2 library design"
+  - **Evidence pointer** Methods section "GenVar_HD2 library design"
+  - **Issue** The description of the library design states that "almost all mutations were single nucleotide variants (SNV) with two exceptions," but the criteria for selecting which SNVs to include (e.g., allele frequency, pathogenicity score) are not fully specified.
+  - **Required correction** Clarify the inclusion criteria for mutations, including the source databases and any filtering steps applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, "Bait protein collection and phage selection"
+  - **Evidence pointer** Results section "Bait protein collection and phage selection"
+  - **Issue** The authors state that 91 bait proteins were expressed and purified, but the selection criteria for these baits (beyond the described categories) are not detailed. It is unclear how representative this set is of the human SLiM-binding domain repertoire.
+  - **Required correction** Provide a more detailed description of how the bait set was compiled, including the domain families represented and any biases.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Validating the binding-disabling effect of mutations in the context of full-length proteins"
+  - **Evidence pointer** Results section "Validating the binding-disabling effect of mutations in the context of full-length proteins"
+  - **Issue** The description of the co-immunoprecipitation experiments is dense and assumes familiarity with the specific tags and cell lines used.
+  - **Required correction** Briefly explain the rationale for using co-immunoprecipitation and the choice of cell lines in a sentence or two.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of therapeutic implications is brief and does not fully explore how the identified neo-interactions could be targeted, given the challenges of inhibiting protein-protein interactions involving disordered regions.
+  - **Required correction** Expand the discussion of therapeutic strategies, acknowledging the difficulties and potential approaches (e.g., stabilising or disrupting specific interactions with small molecules or peptides).
+- **Technical failings that need to be addressed before the case is established** The statistical framework for identifying mutation-modulated interactions (R1-M1) and the lack of cellular validation for neo-interactions (R1-M4) are the most critical technical issues. Without addressing these, the central claims of the paper are not fully supported.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The work is original in its systematic application of mutational phage display to IDR-encoded SLiM interactions at proteome scale. While previous studies have examined mutation effects on individual motifs, this is a notable step forward in scale and scope.  
+  - **Scientific importance** The question of how disease mutations in disordered regions affect protein interactions is important and timely. The resource generated could be valuable for the community. However, the importance is somewhat diminished by the lack of functional validation for many of the predicted effects.  
+  - **Interdisciplinary readership** The findings are relevant to molecular biology, genomics, and clinical genetics. The methods and results should be accessible to these communities, though some technical details may be challenging for non-specialists.  
+  - **Technical soundness** The experimental approach is generally sound, but the statistical analysis and validation strategy have gaps that need to be addressed (see R1-M1, R1-M4).  
+  - **Readability for nonspecialists** The manuscript is generally well-written but could benefit from clearer explanations of key concepts and methods for a broader audience.
+
+## Risk / unsupported claims
+- The claim that 366 domain-mutation pairs are "mutation-modulated" is not fully supported without a more rigorous statistical framework.
+- The claim that "half of the mutations diminishing binding, and half enhancing binding" is presented as a general finding but may be influenced by assay biases.
+- The statement that "the study provides insights into how disease-associated mutations may perturb and rewire the motif-based interactome" is only partially supported, as the functional consequences of most identified changes are not demonstrated.
+- The neo-interactions identified at the peptide level are not confirmed in full-length protein contexts, so their physiological relevance is unproven.
+- The suggestion that the CDC45-KPNA7 interaction is relevant to Meier-Gorlin syndrome is speculative without functional data linking the mislocalisation to the disease phenotype.

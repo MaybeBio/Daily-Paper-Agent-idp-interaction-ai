@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39126896",
+  "title": "PQBP3/NOL7 is an intrinsically disordered protein.",
+  "authors": "Homma, Hidenori; Ngo, Kien Xuan; Yoshioka, Yuki; Tanaka, Hikari; Inotsume, Maiko; Fujita, Kyota; Ando, Toshio; Okazawa, Hitoshi",
+  "journal": "Biochemical and biophysical research communications",
+  "published_date": "2024-08-11",
+  "window": {
+    "start": "2024-08-05",
+    "end": "2024-08-11"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过生物信息学预测和高速原子力显微镜证实PQBP3为无序蛋白，但未涉及PPI机制或AI/物理模拟方法，仅提供IDP对象基础，对无序蛋白互作建模启发有限。",
+  "abstract": "PQBP3 is a protein binding to polyglutamine tract sequences that are expanded in a group of neurodegenerative diseases called polyglutamine diseases. The function of PQBP3 was revealed recently as an inhibitor protein of proteasome-dependent degradation of Lamin B1 that is shifted from nucleolus to peripheral region of nucleus to keep nuclear membrane stability. Here, we address whether PQBP3 is an intrinsically disordered protein (IDP) like other polyglutamine binding proteins including PQBP1, PQBP5 and VCP. Multiple bioinformatics analyses predict that N-terminal region of PQBP3 is unstructured. High-speed atomic force microscopy (HS-AFM) reveals that N-terminal region of PQBP3 is dynamically changed in the structure consistently with the predictions of the bioinformatics analyses. These data support that PQBP3 is also an IDP.",
+  "abstract_zh": "PQBP3是一种与多聚谷氨酰胺束序列结合的蛋白质，这些序列在一组称为多聚谷氨酰胺疾病的神经退行性疾病中发生扩增。PQBP3的功能最近被揭示为蛋白酶体依赖性Lamin B1降解的抑制蛋白，Lamin B1从核仁移位至细胞核外周区域以维持核膜稳定性。在此，我们探讨PQBP3是否像其他多聚谷氨酰胺结合蛋白（包括PQBP1、PQBP5和VCP）一样，是一种固有无序蛋白 (intrinsically disordered protein, IDP)。多项生物信息学分析预测PQBP3的N端区域是无结构的。高速原子力显微镜 (high-speed atomic force microscopy, HS-AFM) 揭示，PQBP3的N端区域在结构上动态变化，这与生物信息学分析的预测一致。这些数据支持PQBP3也是一种IDP。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39126896/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39126896/",
+  "paper_page_path": "papers/pubmed/39126896/index.html"
+}

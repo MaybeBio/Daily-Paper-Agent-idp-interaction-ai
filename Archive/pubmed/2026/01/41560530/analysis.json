@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41560530",
+  "title": "Water Accelerates in the Hydration Shell of the N- and C-Terminal Domains of alpha-Synuclein in the Presence of NaCl.",
+  "authors": "Koehler, Stephen J; Vaissier Welborn, Valerie",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2026-01-21",
+  "window": {
+    "start": "2026-01-19",
+    "end": "2026-01-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用极化分子动力学模拟研究NaCl对α-突触核蛋白IDP水化层水动力学的影响，揭示盐诱导N/C端脱水与聚集关联，虽聚焦单蛋白水化而非直接PPI，但为IDP互作机制建模提供可迁移的物理模拟思路。",
+  "abstract": "alpha-Synuclein (alpha-Syn) is an intrinsically disordered protein (IDP) whose aggregation into fibrils is implicated in Parkinson's disease (PD). While benign alpha-Syn aggregation frequently occurs, off-target aggregates are implicated in disease progression. Although most mechanisms of toxic alpha-Syn aggregate formation are unknown, high concentrations of salt ions have been shown to systematically result in faster aggregation. Previous work suggests that salt slows water in the hydration shell of alpha-Syn, promoting intermolecular interactions. Here, we use polarizable molecular dynamics (MD) to investigate the interactions between alpha-Syn and water in response to an increased NaCl concentration. While we also find that the water in the hydration shell of the nonamyloid-beta component (NAC) domain slows down with increasing salt concentration, the water in the hydration shell of the N- and C-terminal domains accelerates. The segments of the N- and C-terminal domains that show faster water diffusion kinetics corroborate with truncation experiment results. Overall, our work suggests that alpha-Syn aggregation is related to partial salt-induced dehydration of the N- and C-terminal domains.",
+  "abstract_zh": "α-突触核蛋白（alpha-Syn）是一种 intrinsically disordered protein (IDP)，其聚集成纤维与帕金森病（Parkinson's disease, PD）相关。尽管良性alpha-Syn聚集频繁发生，但脱靶聚集体与疾病进展有关。虽然大多数毒性alpha-Syn聚集体形成的机制尚不清楚，但高浓度盐离子已被证明会系统性地导致更快的聚集。先前的工作表明，盐会减缓alpha-Syn水化层中的水，促进分子间相互作用。在此，我们使用极化分子动力学（molecular dynamics, MD）研究在增加NaCl浓度时alpha-Syn与水之间的相互作用。虽然我们也发现非淀粉样β组分（nonamyloid-beta component, NAC）结构域水化层中的水随盐浓度增加而减慢，但N端和C端结构域水化层中的水则加速。N端和C端结构域中显示更快水扩散动力学的片段与截断实验结果一致。总体而言，我们的工作表明alpha-Syn聚集与N端和C端结构域的部分盐诱导脱水有关。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41560530/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41560530/",
+  "paper_page_path": "papers/pubmed/41560530/index.html"
+}

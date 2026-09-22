@@ -1,0 +1,397 @@
+{
+  "identity": {
+    "pmid": "41928988",
+    "doi": "10.1101/2025.08.08.669391",
+    "title": "Integrative Structural Modeling of Intrinsically Disordered Regions in a Human HDAC2 Chromatin Remodeling Complex."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) and intrinsically disordered proteins (IDPs) play pivotal roles in cellular signaling, molecular recognition, and the regulation of various biological processes. These flexible and conformationally dynamic protein segments are difficult to study using structural analysis methods and computational approaches including AlphaFold. Therefore a critical challenge arises when attempting to understand the structural basis of protein-protein interactions involving IDRs. Here we demonstrate that the poorly characterized C16orf87 protein, which we rename as MHAP1, forms a stable complex with HDAC2 and MIER1. These three proteins all contain IDRs whose structure is unknown. We implemented an integrative approach combining experimental crosslinking data with computational modeling techniques (I-TASSER, HADDOCK, AlphaFold) to probe the IDR-driven assembly of the HDAC1:MIER2:MHAP1 complex and build an integrative structural model of this complex. The C-terminal domain of HDAC2, a poorly characterized IDR, promotes interactions between the ELM2 domain of MIER1 as well as the N- and C-termini of MHAP1. These results contrast with most current literature, including the results from AlphaFold alone that are missing structural information on HDAC C-domain. The approach herein can be generalized to study other complexes, emphasizing the need for integrative approaches in determining the 3D structures of IDR/IDP-driven complexes.",
+    "keywords": [
+      "AlphaFold",
+      "Chromatin",
+      "DSSO",
+      "Histone Deacetylase",
+      "Integrative Structural Modeling",
+      "Intrinsically Disordered Region"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Nde, Jules",
+        "Kempf, Cassandra G",
+        "Zimmermann, Rosalyn C",
+        "Cesare, Joseph",
+        "Zhang, Ying",
+        "Workman, Jerry L",
+        "Florens, Laurence",
+        "Washburn, Michael P"
+      ],
+      "short_names": [
+        "Nde J",
+        "Kempf CG",
+        "Zimmermann RC",
+        "Cesare J",
+        "Zhang Y",
+        "Workman JL",
+        "Florens L",
+        "Washburn MP"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1571-5637",
+        "ORCID: 0000-0002-4891-0113",
+        "ORCID: 0000-0001-8611-2545",
+        "ORCID: 0000-0002-5569-1422",
+        "ORCID: 0000-0001-8163-1952",
+        "ORCID: 0000-0002-9310-6650",
+        "ORCID: 0000-0001-7568-2585"
+      ],
+      "affiliations": [
+        "Department of Cancer Biology, University of Kansas Medical Center, Kansas City, KS, 66160, USA.",
+        "Stowers Institute for Medical Research, Kansas City, Missouri 64110, USA.",
+        "Current address: The Center of Mass Spectrometry and Metabolic Tracing, Department of Chemistry, Washington University St. Louis, St. Louis, MO.",
+        "Department of Cancer Biology, University of Kansas Medical Center, Kansas City, KS, 66160, USA.",
+        "Department of Cancer Biology, University of Kansas Medical Center, Kansas City, KS, 66160, USA.",
+        "Stowers Institute for Medical Research, Kansas City, Missouri 64110, USA.",
+        "Stowers Institute for Medical Research, Kansas City, Missouri 64110, USA.",
+        "Stowers Institute for Medical Research, Kansas City, Missouri 64110, USA.",
+        "Stowers Institute for Medical Research, Kansas City, Missouri 64110, USA.",
+        "Department of Cancer Biology, University of Kansas Medical Center, Kansas City, KS, 66160, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Nde, Jules",
+        "short_name": "Nde J",
+        "identifiers": [
+          "0000-0002-1571-5637"
+        ],
+        "affiliations": [
+          "Department of Cancer Biology, University of Kansas Medical Center, Kansas City, KS, 66160, USA."
+        ]
+      },
+      {
+        "full_name": "Kempf, Cassandra G",
+        "short_name": "Kempf CG",
+        "identifiers": [
+          "0000-0002-4891-0113"
+        ],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, Missouri 64110, USA.",
+          "Current address: The Center of Mass Spectrometry and Metabolic Tracing, Department of Chemistry, Washington University St. Louis, St. Louis, MO."
+        ]
+      },
+      {
+        "full_name": "Zimmermann, Rosalyn C",
+        "short_name": "Zimmermann RC",
+        "identifiers": [
+          "0000-0001-8611-2545"
+        ],
+        "affiliations": [
+          "Department of Cancer Biology, University of Kansas Medical Center, Kansas City, KS, 66160, USA."
+        ]
+      },
+      {
+        "full_name": "Cesare, Joseph",
+        "short_name": "Cesare J",
+        "identifiers": [
+          "0000-0002-5569-1422"
+        ],
+        "affiliations": [
+          "Department of Cancer Biology, University of Kansas Medical Center, Kansas City, KS, 66160, USA.",
+          "Stowers Institute for Medical Research, Kansas City, Missouri 64110, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, Missouri 64110, USA."
+        ]
+      },
+      {
+        "full_name": "Workman, Jerry L",
+        "short_name": "Workman JL",
+        "identifiers": [
+          "0000-0001-8163-1952"
+        ],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, Missouri 64110, USA."
+        ]
+      },
+      {
+        "full_name": "Florens, Laurence",
+        "short_name": "Florens L",
+        "identifiers": [
+          "0000-0002-9310-6650"
+        ],
+        "affiliations": [
+          "Stowers Institute for Medical Research, Kansas City, Missouri 64110, USA."
+        ]
+      },
+      {
+        "full_name": "Washburn, Michael P",
+        "short_name": "Washburn MP",
+        "identifiers": [
+          "0000-0001-7568-2585"
+        ],
+        "affiliations": [
+          "Department of Cancer Biology, University of Kansas Medical Center, Kansas City, KS, 66160, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Mar 25",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/03 06:30",
+    "fetched_at": "2026-09-18 02:10:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39939763",
+      "39446390",
+      "39116123",
+      "38718835",
+      "38707538",
+      "37957331",
+      "37850517",
+      "37099381",
+      "36926275",
+      "36653471",
+      "36262388",
+      "35931779",
+      "35177069",
+      "34797068",
+      "34656329",
+      "34265844",
+      "33439619",
+      "33257578",
+      "33128762",
+      "32929271",
+      "32881101",
+      "32467258",
+      "32294434",
+      "32101746",
+      "31783069",
+      "31441158",
+      "31359340",
+      "30850613",
+      "30209338",
+      "29419816",
+      "29307002",
+      "28524877",
+      "28046085",
+      "27082454",
+      "26410586",
+      "26254008",
+      "26195786",
+      "26171723",
+      "25531225",
+      "25352341",
+      "25338722",
+      "24532081",
+      "24376786",
+      "23791785",
+      "23752268",
+      "23093611",
+      "22044264",
+      "21666267",
+      "21464987",
+      "20969720",
+      "20392638",
+      "20360767",
+      "18824292",
+      "17973494",
+      "17522630",
+      "17428495",
+      "16785648",
+      "16381952",
+      "16156658",
+      "12643522",
+      "12573699",
+      "12482978",
+      "11738039",
+      "10884915",
+      "8744570"
+    ],
+    "similar": [
+      "41928988",
+      "41890122",
+      "42475469",
+      "42585785",
+      "31441158",
+      "31709918",
+      "42140310",
+      "39446390",
+      "42437078",
+      "31756456",
+      "37722056",
+      "39072126",
+      "39763873",
+      "34179096",
+      "23142703",
+      "38220424",
+      "36040254",
+      "41534519",
+      "38275091",
+      "23912807",
+      "33243935",
+      "34390736",
+      "39093570",
+      "36648282",
+      "40574713",
+      "38987470",
+      "40133775",
+      "40034137",
+      "28046085",
+      "38712287",
+      "34285781",
+      "35139468",
+      "36062318",
+      "35310482",
+      "41928976",
+      "36671509",
+      "32743159",
+      "37634152",
+      "32824743",
+      "35609776",
+      "35098694",
+      "35051665",
+      "42273644",
+      "36833360",
+      "39453744",
+      "38942776",
+      "40645561",
+      "35882686",
+      "19594884",
+      "40349675",
+      "24027208",
+      "40106150",
+      "36821650",
+      "41365991",
+      "26922996",
+      "41366455",
+      "39933697",
+      "37878721",
+      "40372282",
+      "39944881",
+      "37657994",
+      "28780862",
+      "37875529",
+      "30878482",
+      "39740355",
+      "38512660",
+      "33627133",
+      "37595014",
+      "37231156",
+      "31475155",
+      "24115198",
+      "36908253",
+      "26661739",
+      "29945970",
+      "41454828",
+      "29791766",
+      "40782957",
+      "36008992",
+      "38296708",
+      "41174305",
+      "29066345",
+      "34418423",
+      "22399317",
+      "37552759",
+      "39279844",
+      "41326937",
+      "37736816",
+      "32628956",
+      "26149687",
+      "41378882",
+      "39253485",
+      "36272675",
+      "20522251",
+      "29626537",
+      "40317235",
+      "32294434",
+      "34825861",
+      "41644540",
+      "33087759",
+      "36116541"
+    ],
+    "review": [
+      "41928988",
+      "31441158",
+      "31709918",
+      "42437078",
+      "38220424",
+      "33243935",
+      "34390736",
+      "39093570",
+      "36648282",
+      "34285781",
+      "35139468",
+      "36671509",
+      "35098694",
+      "36833360",
+      "40645561",
+      "35882686",
+      "40349675",
+      "24027208",
+      "36821650",
+      "26922996",
+      "39944881",
+      "37657994",
+      "39740355",
+      "38296708",
+      "34418423",
+      "22399317",
+      "41326937"
+    ],
+    "pmc": [
+      "13041959"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41928988/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1248",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2025.08.08.669391",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "identity": {
+    "pmid": "37746887",
+    "doi": "10.1002/prot.26590",
+    "title": "Atomistic molecular simulations of Abeta-Zn conformational ensembles."
+  },
+  "content": {
+    "abstract": "The amyloid-forming Abeta peptide is able to interact with metal cations to form very stable complexes that influence fibril formation and contribute to the onset of Alzheimer's disease. Multiple structures of peptides derived from Abeta in complex with different metals have been resolved experimentally to provide an atomic-level description of the metal-protein interactions. However, Abeta is intrinsically disordered, and hence more amenable to an ensemble description. Molecular dynamics simulations can now reach the timescales needed to generate ensembles for these type of complexes. However, this requires accurate force fields both for the protein and the protein-metal interactions. Here we use state-of-the-art methods to generate force field parameters for the Zn(II) cations in a set of complexes formed by different Abeta variants and combine them with the Amber99SB*-ILDN optimized force field. Upon comparison of NMR experiments with the simulation results, further optimized with a Bayesian/Maximum entropy approach, we provide an accurate description of the molecular ensembles for most Abeta-metal complexes. We find that the resulting conformational ensembles are more heterogeneous than the NMR models deposited in the Protein Data Bank.",
+    "keywords": [
+      "amyloid",
+      "force field",
+      "intrinsically disordered proteins",
+      "molecular dynamics"
+    ],
+    "mesh_terms": [
+      "*Amyloid beta-Peptides/chemistry",
+      "Bayes Theorem",
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Zinc",
+      "Cations"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aduriz-Arrizabalaga, Julen",
+        "Lopez, Xabier",
+        "De Sancho, David"
+      ],
+      "short_names": [
+        "Aduriz-Arrizabalaga J",
+        "Lopez X",
+        "De Sancho D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8985-2685"
+      ],
+      "affiliations": [
+        "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Donostia-San Sebastian, Euskadi, Spain.",
+        "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Donostia-San Sebastian, Euskadi, Spain.",
+        "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Donostia-San Sebastian, Euskadi, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aduriz-Arrizabalaga, Julen",
+        "short_name": "Aduriz-Arrizabalaga J",
+        "identifiers": [],
+        "affiliations": [
+          "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Donostia-San Sebastian, Euskadi, Spain."
+        ]
+      },
+      {
+        "full_name": "Lopez, Xabier",
+        "short_name": "Lopez X",
+        "identifiers": [],
+        "affiliations": [
+          "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Donostia-San Sebastian, Euskadi, Spain."
+        ]
+      },
+      {
+        "full_name": "De Sancho, David",
+        "short_name": "De Sancho D",
+        "identifiers": [
+          "0000-0002-8985-2685"
+        ],
+        "affiliations": [
+          "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Donostia-San Sebastian, Euskadi, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/09/25 12:42",
+    "fetched_at": "2026-09-21 01:42:22"
+  },
+  "links": {
+    "cites": [
+      "42189893"
+    ],
+    "refs": [],
+    "similar": [
+      "37746887",
+      "23811057",
+      "26562747",
+      "29235155",
+      "27727496",
+      "18412346",
+      "28538095",
+      "30840442",
+      "21056574",
+      "31566950",
+      "25137638",
+      "20709081",
+      "32816485",
+      "24871565",
+      "41073429",
+      "29364151",
+      "34152264",
+      "24037720",
+      "22829296",
+      "23640306",
+      "24086248",
+      "30876367",
+      "23947440",
+      "31365254",
+      "21761818",
+      "22674434",
+      "38241093",
+      "24028075",
+      "33580600",
+      "28085875",
+      "38811408",
+      "25908410",
+      "32419254",
+      "39588651",
+      "40509337",
+      "30637529",
+      "38949117",
+      "28095698",
+      "26256268",
+      "37733746",
+      "33174726",
+      "20888834",
+      "26513486",
+      "16565054",
+      "21769359",
+      "20858441",
+      "19125574",
+      "41644540",
+      "39651234",
+      "39635892",
+      "23912807",
+      "30013831",
+      "31877033",
+      "24368046",
+      "30737281",
+      "29490247",
+      "27933940",
+      "17012754",
+      "41851975",
+      "26263302",
+      "30605312",
+      "38436541",
+      "22509291",
+      "34491058",
+      "30335383",
+      "30708285",
+      "40598757",
+      "24566672",
+      "15454432",
+      "27940377",
+      "21687730",
+      "31402649",
+      "24410358",
+      "32241918",
+      "31470695",
+      "23951128",
+      "25739352",
+      "31138770",
+      "16213524",
+      "35458686",
+      "36387274",
+      "22339868",
+      "34968059",
+      "31271401",
+      "23790381",
+      "32285004",
+      "36934808",
+      "32623047",
+      "22138653",
+      "34524800",
+      "30933519",
+      "27214008",
+      "25825723",
+      "23904252",
+      "22468636",
+      "25687761",
+      "26447342",
+      "23358498",
+      "28844735",
+      "27091578"
+    ],
+    "review": [
+      "37746887",
+      "30840442",
+      "29364151",
+      "25908410",
+      "24368046",
+      "24566672",
+      "27940377",
+      "35458686"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/prot.26590",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

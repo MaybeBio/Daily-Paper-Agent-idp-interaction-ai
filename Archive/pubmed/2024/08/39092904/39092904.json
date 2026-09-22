@@ -1,0 +1,228 @@
+{
+  "identity": {
+    "pmid": "39092904",
+    "doi": "10.1021/acs.jcim.4c00742",
+    "title": "nP-Collabs: Investigating Counterion-Mediated Bridges in the Multiply Phosphorylated Tau-R2 Repeat."
+  },
+  "content": {
+    "abstract": "Tau is an intrinsically disordered (IDP) microtubule-associated protein (MAP) that plays a key part in microtubule assembly and organization. The function of tau can be regulated by multiple phosphorylation sites. These post-translational modifications are known to decrease the binding affinity of tau for microtubules, and abnormal tau phosphorylation patterns are involved in Alzheimer's disease. Using all-atom molecular dynamics simulations, we compared the conformational landscapes explored by the tau R2 repeat domain (which comprises a strong tubulin binding site) in its native state and with multiple phosphorylations on the S285, S289, and S293 residues, with four different standard force field (FF)/water model combinations. We find that the different parameters used for the phosphate groups (which can be more or less flexible) in these FFs and the specific interactions between bulk cations and water lead to the formation of a specific type of counterion bridge, termed nP-collab (for nphosphate collaboration, with n being an integer), where counterions form stable structures binding with two or three phosphate groups simultaneously. The resulting effect of nP-collabs on the tau-R2 conformational space differs when using sodium or potassium cations and is likely to impact the peptide overall dynamics and how this MAP interacts with tubulins. We also investigated the effect of phosphoresidue spacing and ionic concentration by modeling polyalanine peptides containing two phosphoserines located one-six residues apart. Three new metrics specifically tailored for IDPs (proteic Menger curvature, local curvature, and local flexibility) were introduced, which allow us to fully characterize the impact of nP-collabs on the dynamics of disordered peptides at the residue level.",
+    "keywords": [],
+    "mesh_terms": [
+      "*tau Proteins/chemistry/metabolism",
+      "Phosphorylation",
+      "*Molecular Dynamics Simulation",
+      "Protein Conformation",
+      "Repetitive Sequences, Amino Acid",
+      "Humans"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Marien, Jules",
+        "Prevost, Chantal",
+        "Sacquin-Mora, Sophie"
+      ],
+      "short_names": [
+        "Marien J",
+        "Prevost C",
+        "Sacquin-Mora S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3516-6687",
+        "ORCID: 0000-0002-2781-4333"
+      ],
+      "affiliations": [
+        "Laboratoire de Biochimie Theorique, Universite Paris-Cite, CNRS, 13 Rue Pierre et Marie Curie, 75005 Paris, France.",
+        "Laboratoire de Biochimie Theorique, Universite Paris-Cite, CNRS, 13 Rue Pierre et Marie Curie, 75005 Paris, France.",
+        "Laboratoire de Biochimie Theorique, Universite Paris-Cite, CNRS, 13 Rue Pierre et Marie Curie, 75005 Paris, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Marien, Jules",
+        "short_name": "Marien J",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique, Université Paris-Cité, CNRS, 13 Rue Pierre et Marie Curie, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Prévost, Chantal",
+        "short_name": "Prévost C",
+        "identifiers": [
+          "0000-0003-3516-6687"
+        ],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique, Université Paris-Cité, CNRS, 13 Rue Pierre et Marie Curie, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sacquin-Mora, Sophie",
+        "short_name": "Sacquin-Mora S",
+        "identifiers": [
+          "0000-0002-2781-4333"
+        ],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique, Université Paris-Cité, CNRS, 13 Rue Pierre et Marie Curie, 75005 Paris, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2024 Aug 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/02 12:42",
+    "fetched_at": "2026-09-21 09:09:32"
+  },
+  "links": {
+    "cites": [
+      "42374736",
+      "39395159"
+    ],
+    "refs": [],
+    "similar": [
+      "39092904",
+      "9273897",
+      "36669127",
+      "17725643",
+      "33017094",
+      "37499261",
+      "25691742",
+      "12123840",
+      "8120098",
+      "15963990",
+      "36372288",
+      "30259679",
+      "38489841",
+      "27975243",
+      "19769346",
+      "34681718",
+      "20665688",
+      "30471859",
+      "8590813",
+      "24577753",
+      "9190213",
+      "38512658",
+      "18312411",
+      "1429606",
+      "1599956",
+      "37167199",
+      "36786552",
+      "22659094",
+      "7669769",
+      "22072628",
+      "12505985",
+      "36710643",
+      "24733915",
+      "16889747",
+      "22304362",
+      "10984497",
+      "32341125",
+      "18671940",
+      "31863676",
+      "24448233",
+      "26165593",
+      "34032430",
+      "38512660",
+      "32065850",
+      "30992364",
+      "30062477",
+      "19897570",
+      "17081491",
+      "24251416",
+      "32979285",
+      "15869817",
+      "28218850",
+      "25440728",
+      "27911791",
+      "16272135",
+      "7566345",
+      "28258221",
+      "10069814",
+      "15652175",
+      "21327254",
+      "35135879",
+      "10913317",
+      "7706316",
+      "38100856",
+      "31346240",
+      "32453948",
+      "25229151",
+      "27989667",
+      "10818091",
+      "11034902",
+      "33663205",
+      "2120490",
+      "16634634",
+      "34838590",
+      "32096026",
+      "31539262",
+      "9846894",
+      "33945530",
+      "25623359",
+      "11181841",
+      "17456500",
+      "9922135",
+      "30909607",
+      "1726645",
+      "26953146",
+      "11463346",
+      "30884818",
+      "27070645",
+      "8163474",
+      "25775228",
+      "8068626",
+      "7664757",
+      "32623047",
+      "29748322",
+      "26034266",
+      "33982037",
+      "25284680",
+      "16225961",
+      "8393323",
+      "31470053"
+    ],
+    "review": [
+      "39092904",
+      "7566345",
+      "2120490",
+      "32096026",
+      "31539262",
+      "1726645"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/CPTAC-570",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.4c00742",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

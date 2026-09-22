@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38753069",
+  "title": "The Rapid Evolution of De Novo Proteins in Structure and Complex.",
+  "authors": "Chen, Jianhai; Li, Qingrong; Xia, Shengqian; Arsala, Deanna; Sosa, Dylan; Wang, Dong; Long, Manyuan",
+  "journal": "Genome biology and evolution",
+  "published_date": "2024-05-16",
+  "window": {
+    "start": "2024-05-13",
+    "end": "2024-05-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究分析水稻从头基因编码蛋白的结构演化，发现其无序区域快速衰减并更易与其他蛋白形成低能复合物，虽对象为无序蛋白且涉及PPI机制，但方法以比较基因组和结构预测为主，缺乏AI/物理模拟深度建模，故评6分。",
+  "abstract": "Recent studies in the rice genome-wide have established that de novo genes, evolving from noncoding sequences, enhance protein diversity through a stepwise process. However, the pattern and rate of their evolution in protein structure over time remain unclear. Here, we addressed these issues within a surprisingly short evolutionary timescale (<1 million years for 97% of Oryza de novo genes) with comparative approaches to gene duplicates. We found that de novo genes evolve faster than gene duplicates in the intrinsically disordered regions (such as random coils), secondary structure elements (such as alpha helix and beta strand), hydrophobicity, and molecular recognition features. In de novo proteins, specifically, we observed an 8% to 14% decay in random coils and intrinsically disordered region lengths and a 2.3% to 6.5% increase in structured elements, hydrophobicity, and molecular recognition features, per million years on average. These patterns of structural evolution align with changes in amino acid composition over time as well. We also revealed higher positive charges but smaller molecular weights for de novo proteins than duplicates. Tertiary structure predictions showed that most de novo proteins, though not typically well folded on their own, readily form low-energy and compact complexes with other proteins facilitated by extensive residue contacts and conformational flexibility, suggesting a faster-binding scenario in de novo proteins to promote interaction. These analyses illuminate a rapid evolution of protein structure in de novo genes in rice genomes, originating from noncoding sequences, highlighting their quick transformation into active, protein complex-forming components within a remarkably short evolutionary timeframe.",
+  "abstract_zh": "近期水稻全基因组研究表明，从头基因（de novo genes）从非编码序列演化而来，通过逐步过程增强蛋白质多样性。然而，其蛋白质结构随时间演化的模式和速率仍不清楚。在此，我们利用基因重复的比较方法，在极短的进化时间尺度内（97%的水稻从头基因小于100万年）解决了这些问题。我们发现，从头基因在内在无序区域（如随机卷曲）、二级结构元件（如α螺旋和β链）、疏水性及分子识别特征方面，比基因重复演化得更快。具体而言，在从头蛋白质中，我们观察到随机卷曲和内在无序区域长度平均每百万年衰减8%至14%，而结构元件、疏水性和分子识别特征则平均增加2.3%至6.5%。这些结构演化模式也与氨基酸组成随时间的变化相一致。我们还揭示，从头蛋白质相比重复蛋白质具有更高的正电荷，但分子量更小。三级结构预测显示，大多数从头蛋白质虽然通常自身折叠不佳，但易于通过广泛的残基接触和构象灵活性与其他蛋白质形成低能且紧凑的复合物，表明从头蛋白质中促进相互作用的更快结合场景。这些分析阐明了水稻基因组中从头基因（源自非编码序列）蛋白质结构的快速演化，突显了它们在极短进化时间框架内迅速转化为活跃的、形成蛋白质复合物的组分。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38753069/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38753069/",
+  "paper_page_path": "papers/pubmed/38753069/index.html"
+}

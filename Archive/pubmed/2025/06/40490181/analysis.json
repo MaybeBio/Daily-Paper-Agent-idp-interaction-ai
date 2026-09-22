@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40490181",
+  "title": "Biopolymer hydrogels in biomedicine: Bridging chemistry, biology, and clinical translation.",
+  "authors": "Li, Bailei; Song, Suxian; Zhou, Yu; Chen, Xinjiani; Zhang, Zhen; Liu, Xiaojun; Zhang, Rongqing",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2025-06-10",
+  "window": {
+    "start": "2025-06-09",
+    "end": "2025-06-15"
+  },
+  "score": 3,
+  "one_liner_zh": "综述生物聚合物水凝胶在生物医学中的应用，涉及蛋白-多糖网络和相分离挑战，但对象非IDP/IDR，无PPI机制建模，AI/物理方法仅提及机器学习方向，与本课题关联弱。",
+  "abstract": "Biopolymer hydrogels are revolutionizing biomedicine by synergizing ecological sustainability with dynamic biofunctionality, offering transformative solutions for tissue regeneration and precision therapeutics. Derived from polysaccharides (e.g., chitosan, hyaluronic acid), proteins (e.g., collagen, silk fibroin), and nucleic acids, these hydrogels recapitulate critical extracellular matrix (ECM) features through tunable viscoelasticity (elastic modulus: 1-100 kPa), multi-stimuli responsiveness (enzyme/pH/ROS), and spatiotemporal bioactivity. Recent innovations leverage their structure-function relationships: protein-polysaccharide interpenetrating networks (e.g., gelatin-oxidized alginate) enable stage-specific cytokine release (e.g., IL-10/TGF-beta dual delivery) and interfacial tissue regeneration, while glycosaminoglycan-mimetic hydrogels direct stem cell differentiation via stiffness-mediated YAP/TAZ mechanotransduction. However, clinical translation faces critical barriers: reconciling injectability with load-bearing resilience, synchronizing degradation kinetics with tissue remodeling phases, and modulating immune-microenvironment crosstalk to balance biointegration and fibrosis (e.g., M1-to-M2 macrophage polarization). Emerging strategies address these through covalent-noncovalent dual crosslinking, zwitterionic immunomodulatory interfaces, and 4D-bioprinted architectures with anisotropic bioactivity. Challenges persist in preventing phase separation in hybrid systems and matching metabolic kinetics in vivo. Future directions demand molecular-scale engineering of dynamic networks, machine learning-guided multi-omics customization, and standardized validation frameworks. This review delineates a roadmap for transforming natural hydrogels from bioactive scaffolds to intelligent, clinically viable systems for active tissue repair and disease modulation.",
+  "abstract_zh": "生物聚合物水凝胶通过将生态可持续性与动态生物功能性协同结合，正在革新生物医学领域，为组织再生和精准治疗提供变革性解决方案。这些水凝胶源自多糖（如壳聚糖、透明质酸）、蛋白质（如胶原蛋白、丝素蛋白）和核酸，通过可调粘弹性（弹性模量：1-100 kPa）、多刺激响应性（酶/pH/ROS）和时空生物活性，重现关键的细胞外基质（ECM）特征。近期创新利用其结构-功能关系：蛋白质-多糖互穿网络（如明胶-氧化海藻酸盐）实现阶段特异性细胞因子释放（如IL-10/TGF-β双重递送）和界面组织再生，而糖胺聚糖模拟水凝胶通过刚度介导的YAP/TAZ机械转导引导干细胞分化。然而，临床转化面临关键障碍：协调可注射性与承重韧性、同步降解动力学与组织重塑阶段，以及调节免疫微环境串扰以平衡生物整合与纤维化（如M1至M2巨噬细胞极化）。新兴策略通过共价-非共价双重交联、两性离子免疫调节界面和具有各向异性生物活性的4D生物打印结构来解决这些问题。挑战依然存在于防止混合系统中的相分离（phase separation）以及匹配体内代谢动力学。未来方向要求动态网络的分子尺度工程、机器学习引导的多组学定制以及标准化验证框架。本综述描绘了一条路线图，将天然水凝胶从生物活性支架转变为智能、临床可行的系统，用于主动组织修复和疾病调控。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40490181/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40490181/",
+  "paper_page_path": "papers/pubmed/40490181/index.html"
+}

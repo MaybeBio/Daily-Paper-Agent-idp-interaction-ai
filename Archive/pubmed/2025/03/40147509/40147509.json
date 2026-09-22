@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "40147509",
+    "doi": "10.1016/j.virusres.2025.199564",
+    "title": "Identification of host specificity determinants in brome mosaic virus for rice infection."
+  },
+  "content": {
+    "abstract": "Brome mosaic virus (BMV) is a tripartite positive-stranded RNA plant virus. The genomic RNA2 encodes the 2a protein, which has conserved RNA-dependent RNA polymerase motifs and is required for viral RNA replication. In this study, we have used two BMV strains, F and KU5, and identified two key amino acid residues, 776R and 784T, in the C-terminal non-conserved region of the 2a protein that are critical for systemic infection of BMV-F in rice. While KU5 strain was not able to systemically infect rice, the KU5 mutant strain with two codon changes for 776R and 784T in the 2a gene gained the ability to establish systemic infection in rice, which affects long-distance movement, but not replication or cell-to-cell movement. Through infection assays of KU5 synonymous mutant strains, we demonstrated that amino acids, rather than RNA sequences or secondary structures, are responsible for viral infectivity in rice. Computer predictions and yeast two-hybrid screening revealed that the C-terminal region of 2a functions as an intrinsically disordered region, capable of interacting with host proteins. These results provide molecular insights into the host specificity of BMV and advance our understanding of RNA virus evolution and host-pathogen interactions.",
+    "keywords": [
+      "Brome mosaic virus",
+      "Host specificity",
+      "Intrinsic disordered region",
+      "RNA polymerase",
+      "Rice",
+      "Systemic infection"
+    ],
+    "mesh_terms": [
+      "*Oryza/virology",
+      "*Plant Diseases/virology",
+      "*Host Specificity",
+      "*Bromovirus/genetics/physiology/pathogenicity",
+      "*Viral Proteins/genetics/metabolism/chemistry",
+      "Virus Replication",
+      "RNA, Viral/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yifan",
+        "Kaido, Masanori",
+        "Mine, Akira",
+        "Takano, Yoshitaka",
+        "Mise, Kazuyuki"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Kaido M",
+        "Mine A",
+        "Takano Y",
+        "Mise K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Plant Pathology, Graduate School of Agriculture, Kyoto University, Kyoto 606-8502, Japan.",
+        "Laboratory of Plant Pathology, Graduate School of Agriculture, Kyoto University, Kyoto 606-8502, Japan.",
+        "Laboratory of Plant Pathology, Graduate School of Agriculture, Kyoto University, Kyoto 606-8502, Japan.",
+        "Laboratory of Plant Pathology, Graduate School of Agriculture, Kyoto University, Kyoto 606-8502, Japan.",
+        "Laboratory of Plant Pathology, Graduate School of Agriculture, Kyoto University, Kyoto 606-8502, Japan. Electronic address: mise.kazuyuki.3x@kyoto-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yifan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Plant Pathology, Graduate School of Agriculture, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Kaido, Masanori",
+        "short_name": "Kaido M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Plant Pathology, Graduate School of Agriculture, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Mine, Akira",
+        "short_name": "Mine A",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Plant Pathology, Graduate School of Agriculture, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Takano, Yoshitaka",
+        "short_name": "Takano Y",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Plant Pathology, Graduate School of Agriculture, Kyoto University, Kyoto 606-8502, Japan."
+        ]
+      },
+      {
+        "full_name": "Mise, Kazuyuki",
+        "short_name": "Mise K",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Plant Pathology, Graduate School of Agriculture, Kyoto University, Kyoto 606-8502, Japan. Electronic address: mise.kazuyuki.3x@kyoto-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Virus research"
+    ],
+    "journal_abbrev": [
+      "Virus Res"
+    ],
+    "pub_date": "2025 May",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/28 00:24",
+    "fetched_at": "2026-09-21 17:08:33"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38718835",
+      "36323720",
+      "35577789",
+      "34671333",
+      "34355210",
+      "34048569",
+      "33432242",
+      "31012820",
+      "25467278",
+      "24947516",
+      "24823319",
+      "24402564",
+      "24335283",
+      "23745125",
+      "19062293",
+      "18644564",
+      "17416731",
+      "17360619",
+      "17172752",
+      "17073305",
+      "16593527",
+      "16380417",
+      "16364748",
+      "15770356",
+      "11931759",
+      "11352066",
+      "10756046",
+      "10501508",
+      "9311832",
+      "8533088",
+      "7831782",
+      "7791788",
+      "6694215",
+      "6207485",
+      "3838107",
+      "2795712",
+      "2308940",
+      "2033655"
+    ],
+    "similar": [
+      "40147509",
+      "26024443",
+      "11069307",
+      "12771403",
+      "8806564",
+      "9032362",
+      "15784914",
+      "22318148",
+      "9391109",
+      "7853481",
+      "14972517",
+      "8676500",
+      "11601925",
+      "17073305",
+      "11238847",
+      "15166461",
+      "8553548",
+      "30586378",
+      "12551995",
+      "21915247",
+      "16352549",
+      "8955049",
+      "14978339",
+      "2293671",
+      "11720293",
+      "10759565",
+      "15047816",
+      "9400617",
+      "15906103",
+      "7761419",
+      "2033655",
+      "19059442",
+      "10559348",
+      "21936664",
+      "10756046",
+      "7682628",
+      "16254357",
+      "9696810",
+      "11017800",
+      "10600595",
+      "10074107",
+      "14671320",
+      "7595390",
+      "27334588",
+      "15827188",
+      "10982322",
+      "8971020",
+      "7772801",
+      "18160434",
+      "12651962",
+      "24036424",
+      "25046269",
+      "2243389",
+      "8230440",
+      "12719563",
+      "19237464",
+      "19325881",
+      "9311832",
+      "11931759",
+      "12536302",
+      "25687214",
+      "11160714",
+      "36314818",
+      "16912283",
+      "29140480",
+      "18066637",
+      "15650170",
+      "7645235",
+      "11333922",
+      "12941908",
+      "19131084",
+      "12584324",
+      "22090102",
+      "17555275",
+      "14592759",
+      "29649282",
+      "26092942",
+      "15936794",
+      "17108036",
+      "11145888",
+      "21453435",
+      "15564452",
+      "21138375",
+      "9878626",
+      "24672042",
+      "7884924",
+      "2041076",
+      "12744464",
+      "31411546",
+      "34132946",
+      "24769254",
+      "22357282",
+      "8091683",
+      "3418781",
+      "12702814",
+      "12773554",
+      "29543718",
+      "9482867",
+      "10707350",
+      "17609284"
+    ],
+    "review": [
+      "40147509",
+      "12651962",
+      "25687214",
+      "21453435"
+    ],
+    "pmc": [
+      "11997414"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0168-1702(25)00041-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40147509/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "http://hdl.handle.net/2433/294456",
+        "provider": "Kyoto University Research Information Repository - Articles",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from"
+      }
+    ],
+    "text_mined": []
+  }
+}

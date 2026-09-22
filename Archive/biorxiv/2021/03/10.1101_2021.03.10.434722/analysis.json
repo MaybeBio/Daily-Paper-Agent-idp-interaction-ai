@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.03.10.434722",
+  "title": "Structure and dynamics of the SARS-CoV-2 envelope protein monomer",
+  "authors": "Kuzmin A; Orekhov P; Astashkin R; Gordeliy V; Gushchin I",
+  "journal": "bioRxiv",
+  "published_date": "2021-03-10",
+  "window": {
+    "start": "2021-03-08",
+    "end": "2021-03-14"
+  },
+  "score": 4,
+  "one_liner_zh": "用MD模拟研究SARS-CoV-2包膜蛋白单体的结构动态与膜曲率感知，对象非IDP且无PPI互作机制，仅方法可部分迁移。",
+  "abstract": "Coronaviruses, especially SARS-CoV-2, present an ongoing threat for human wellbeing. Consequently, elucidation of molecular determinants of their function and interaction with host is an important task. Whereas some of the coronaviral proteins are extensively characterized, others remain understudied. Here, we use molecular dynamics simulations to analyze the structure and dynamics of the SARS-CoV-2 envelope (E) protein (a viroporin) in the monomeric form. The protein consists of the hydrophobic α-helical transmembrane domain (TMD) and amphiphilic α-helices H2 and H3, connected by flexible linkers. We show that TMD has a preferable orientation in the membrane, while H2 and H3 reside at the membrane surface. Orientation of H2 is strongly influenced by palmitoylation of cysteines Cys40, Cys43 and Cys44. Glycosylation of Asn66 affects the orientation of H3. We also observe that the E protein both generates and senses the membrane curvature, preferably localizing with the C-terminus at the convex regions of the membrane. This may be favorable for assembly of the E protein oligomers, whereas induction of curvature may facilitate budding of the viral particles. The presented results may be helpful for better understanding of the function of coronaviral E protein and viroporins in general, and for overcoming the ongoing SARS-CoV-2 pandemic.",
+  "abstract_zh": "冠状病毒，尤其是SARS-CoV-2，对人类健康构成持续威胁。因此，阐明其功能及与宿主相互作用的分子决定因素是一项重要任务。尽管一些冠状病毒蛋白已被广泛表征，但其他蛋白仍研究不足。在此，我们利用分子动力学 (molecular dynamics) 模拟分析SARS-CoV-2包膜（E）蛋白（一种病毒孔蛋白 (viroporin)）单体形式的结构和动力学。该蛋白由疏水性α-螺旋跨膜结构域（TMD）和两亲性α-螺旋H2和H3组成，它们通过柔性连接区相连。我们表明，TMD在膜中具有优选取向，而H2和H3位于膜表面。H2的取向受半胱氨酸Cys40、Cys43和Cys44的棕榈酰化强烈影响。Asn66的糖基化影响H3的取向。我们还观察到，E蛋白既产生又感知膜曲率，优先将其C端定位于膜的凸区域。这可能有利于E蛋白寡聚体的组装，而曲率的诱导可能促进病毒颗粒的出芽。所呈现的结果可能有助于更好地理解冠状病毒E蛋白及病毒孔蛋白的功能，并有助于应对持续的SARS-CoV-2大流行。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.03.10.434722",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.03.10.434722",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.03.10.434722/index.html"
+}

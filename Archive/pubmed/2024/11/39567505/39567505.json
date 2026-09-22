@@ -1,0 +1,408 @@
+{
+  "identity": {
+    "pmid": "39567505",
+    "doi": "10.1038/s41467-024-54398-5",
+    "title": "Cryo-EM structures of apo-APC/C and APC/C(CDH1:EMI1) complexes provide insights into APC/C regulation."
+  },
+  "content": {
+    "abstract": "APC/C is a multi-subunit complex that functions as a master regulator of cell division. It controls progression through the cell cycle by timely marking mitotic cyclins and other cell cycle regulatory proteins for degradation. The APC/C itself is regulated by the sequential action of its coactivator subunits CDC20 and CDH1, post-translational modifications, and its inhibitory binding partners EMI1 and the mitotic checkpoint complex. In this study, we took advantage of developments in cryo-electron microscopy to determine the structures of human APC/C(CDH1:EMI1) and apo-APC/C at 2.9 A and 3.2 A resolution, respectively, providing insights into the regulation of APC/C activity. The high-resolution maps allow the unambiguous assignment of an alpha-helix to the N-terminus of CDH1 (CDH1(alpha1)) in the APC/C(CDH1:EMI1) ternary complex. We also identify a zinc-binding module in APC2 that confers structural stability to the complex, and we confirm the presence of zinc ions experimentally. Finally, due to the higher resolution and well defined density of these maps, we are able to build, aided by AlphaFold predictions, several intrinsically disordered regions in different APC/C subunits that likely play a role in proper APC/C assembly and regulation of its activity.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Cryoelectron Microscopy",
+      "Humans",
+      "*Anaphase-Promoting Complex-Cyclosome/metabolism/chemistry/ultrastructure",
+      "Zinc/metabolism/chemistry",
+      "Protein Binding",
+      "Cell Cycle Proteins/metabolism/chemistry/ultrastructure",
+      "Cdh1 Proteins/metabolism/genetics/chemistry",
+      "Models, Molecular",
+      "Cadherins/metabolism/chemistry/ultrastructure",
+      "Cdc20 Proteins/metabolism/chemistry/ultrastructure",
+      "Antigens, CD"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hofler, Anna",
+        "Yu, Jun",
+        "Yang, Jing",
+        "Zhang, Ziguo",
+        "Chang, Leifu",
+        "McLaughlin, Stephen H",
+        "Grime, Geoffrey W",
+        "Garman, Elspeth F",
+        "Boland, Andreas",
+        "Barford, David"
+      ],
+      "short_names": [
+        "Hofler A",
+        "Yu J",
+        "Yang J",
+        "Zhang Z",
+        "Chang L",
+        "McLaughlin SH",
+        "Grime GW",
+        "Garman EF",
+        "Boland A",
+        "Barford D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7126-2935",
+        "ORCID: 0000-0001-5642-3991",
+        "ORCID: 0000-0002-7268-9631",
+        "ORCID: 0000-0002-6107-5271",
+        "ORCID: 0000-0001-9135-6253",
+        "ORCID: 0000-0002-4957-8175",
+        "ORCID: 0000-0001-8329-5665",
+        "ORCID: 0000-0003-1218-6714",
+        "ORCID: 0000-0001-8810-950X"
+      ],
+      "affiliations": [
+        "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland.",
+        "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland.",
+        "MRC Laboratory of Molecular Biology, Cambridge, CB2 0QH, UK.",
+        "MRC Laboratory of Molecular Biology, Cambridge, CB2 0QH, UK.",
+        "MRC Laboratory of Molecular Biology, Cambridge, CB2 0QH, UK.",
+        "MRC Laboratory of Molecular Biology, Cambridge, CB2 0QH, UK.",
+        "Ion Beam Centre, Advanced Technology Institute, University of Surrey, Guildford, Surrey, GU2 7XH, UK.",
+        "Department of Biochemistry, University of Oxford, Dorothy Crowfoot Hodgkin Building, South Parks Road, Oxford, OX1 3QU, UK.",
+        "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland. Andreas.Boland@unige.ch.",
+        "MRC Laboratory of Molecular Biology, Cambridge, CB2 0QH, UK. dbarford@mrc-lmb.cam.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Höfler, Anna",
+        "short_name": "Höfler A",
+        "identifiers": [
+          "0000-0002-7126-2935"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Yu, Jun",
+        "short_name": "Yu J",
+        "identifiers": [
+          "0000-0001-5642-3991"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Yang, Jing",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Cambridge, CB2 0QH, UK."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ziguo",
+        "short_name": "Zhang Z",
+        "identifiers": [
+          "0000-0002-7268-9631"
+        ],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Cambridge, CB2 0QH, UK."
+        ]
+      },
+      {
+        "full_name": "Chang, Leifu",
+        "short_name": "Chang L",
+        "identifiers": [
+          "0000-0002-6107-5271"
+        ],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Cambridge, CB2 0QH, UK."
+        ]
+      },
+      {
+        "full_name": "McLaughlin, Stephen H",
+        "short_name": "McLaughlin SH",
+        "identifiers": [
+          "0000-0001-9135-6253"
+        ],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Cambridge, CB2 0QH, UK."
+        ]
+      },
+      {
+        "full_name": "Grime, Geoffrey W",
+        "short_name": "Grime GW",
+        "identifiers": [
+          "0000-0002-4957-8175"
+        ],
+        "affiliations": [
+          "Ion Beam Centre, Advanced Technology Institute, University of Surrey, Guildford, Surrey, GU2 7XH, UK."
+        ]
+      },
+      {
+        "full_name": "Garman, Elspeth F",
+        "short_name": "Garman EF",
+        "identifiers": [
+          "0000-0001-8329-5665"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Oxford, Dorothy Crowfoot Hodgkin Building, South Parks Road, Oxford, OX1 3QU, UK."
+        ]
+      },
+      {
+        "full_name": "Boland, Andreas",
+        "short_name": "Boland A",
+        "identifiers": [
+          "0000-0003-1218-6714"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cellular Biology, University of Geneva, Geneva, Switzerland. Andreas.Boland@unige.ch."
+        ]
+      },
+      {
+        "full_name": "Barford, David",
+        "short_name": "Barford D",
+        "identifiers": [
+          "0000-0001-8810-950X"
+        ],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Cambridge, CB2 0QH, UK. dbarford@mrc-lmb.cam.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2024 Nov 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/21 00:22",
+    "fetched_at": "2026-09-21 12:46:35"
+  },
+  "links": {
+    "cites": [
+      "42500992",
+      "41866505",
+      "41864206",
+      "41075087",
+      "41075086",
+      "41075085",
+      "40888475",
+      "39982850"
+    ],
+    "refs": [
+      "39401078",
+      "34293799",
+      "34282049",
+      "34267316",
+      "34265844",
+      "34109183",
+      "33789095",
+      "32307883",
+      "31864160",
+      "31794207",
+      "31591578",
+      "31455778",
+      "31350353",
+      "30482618",
+      "30412051",
+      "29875408",
+      "29167309",
+      "29067766",
+      "28710774",
+      "28250466",
+      "28165473",
+      "27522463",
+      "27509861",
+      "27259151",
+      "27120157",
+      "27114510",
+      "27103671",
+      "26454197",
+      "26083744",
+      "25825779",
+      "25669885",
+      "25306923",
+      "25306918",
+      "25043029",
+      "24813613",
+      "24675944",
+      "23708605",
+      "23708001",
+      "23707760",
+      "23078409",
+      "22067460",
+      "21963794",
+      "20733051",
+      "20124702",
+      "19151095",
+      "19026787",
+      "18420821",
+      "17341463",
+      "16921029",
+      "16462746",
+      "15572765",
+      "14657031",
+      "14568533",
+      "12956947",
+      "12574115",
+      "11751633",
+      "11566880",
+      "11389834",
+      "10733526",
+      "1846030"
+    ],
+    "similar": [
+      "39567505",
+      "27120157",
+      "26083744",
+      "21107322",
+      "23708605",
+      "39401078",
+      "25043029",
+      "27509861",
+      "32165320",
+      "12956947",
+      "27522463",
+      "25540434",
+      "21186364",
+      "24100295",
+      "11751633",
+      "29875408",
+      "29700288",
+      "20053638",
+      "18976910",
+      "10500174",
+      "27601667",
+      "16921029",
+      "25025567",
+      "9651679",
+      "34244565",
+      "31000600",
+      "28502659",
+      "16138013",
+      "10793135",
+      "31455778",
+      "31036696",
+      "22426463",
+      "23933137",
+      "30396569",
+      "24163370",
+      "9637688",
+      "11448992",
+      "35634770",
+      "16364912",
+      "20729194",
+      "27410035",
+      "33310066",
+      "16113654",
+      "27114510",
+      "33789095",
+      "27368103",
+      "29883473",
+      "22580460",
+      "27991546",
+      "20074037",
+      "20937767",
+      "11562349",
+      "29167309",
+      "16481473",
+      "25825779",
+      "23091007",
+      "26252546",
+      "19286556",
+      "11459825",
+      "38776225",
+      "22437499",
+      "26650195",
+      "39231204",
+      "11389834",
+      "29084807",
+      "15220530",
+      "27080259",
+      "29973720",
+      "18321983",
+      "22995332",
+      "32251461",
+      "31420536",
+      "25072887",
+      "26882548",
+      "20054826",
+      "15916961",
+      "38206091",
+      "10733526",
+      "23583778",
+      "25959309",
+      "31175280",
+      "11553328",
+      "21439391",
+      "20686030",
+      "11003657",
+      "26254932",
+      "23775192",
+      "23984442",
+      "22539978",
+      "23007861",
+      "23643811",
+      "36691744",
+      "29432156",
+      "22152476",
+      "20436289",
+      "25156254",
+      "21454540",
+      "10799291",
+      "24301314",
+      "17158872"
+    ],
+    "review": [
+      "39567505",
+      "32165320",
+      "20074037",
+      "29167309",
+      "26650195"
+    ],
+    "pmc": [
+      "11579458"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-024-54398-5",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39567505/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1084",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

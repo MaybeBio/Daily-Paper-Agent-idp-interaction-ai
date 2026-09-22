@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors introduce PepCNN, a deep learning model for predicting protein-peptide binding. The model integrates half-sphere exposure (HSE), position specific scoring matrices (PSSM), and a pre-trained transformer language model. The authors claim PepCNN outperforms state-of-the-art methods in specificity, precision, and AUC. Software and datasets are publicly available.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, or methodological specifics are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset descriptions, benchmark protocols, baseline method definitions, statistical significance tests, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially useful contribution to computational protein-peptide interaction prediction. The combination of structural features (HSE), evolutionary information (PSSM), and language model embeddings is a reasonable and contemporary approach. However, the abstract lacks quantitative details, clear benchmark definitions, and statistical validation, making it impossible to assess the strength of the claimed improvements. The work may be of interest to the computational biology community, but the evidence base provided is insufficient to evaluate the core claims.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein-protein and protein-peptide interaction prediction, drug discovery researchers seeking improved in silico screening tools, and developers of deep learning methods for biological sequence analysis. The integration of language model features with classical structural descriptors is a timely topic that may attract readers interested in feature engineering for biological prediction tasks.
+- **Major strengths** The proposed feature combination is conceptually sound and reflects current trends in the field. The inclusion of structural information (HSE) alongside evolutionary and language model features is a thoughtful design choice. Public availability of software and datasets is commendable and supports reproducibility.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "PepCNN outperforms state-of-the-art methods in terms of specificity, precision, and AUC"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative results, no comparison table, no effect sizes, and no statistical significance measures. The claim of outperformance is stated without any supporting numbers or confidence intervals.
+  - **Why it matters** Without quantitative evidence, the central claim of the manuscript cannot be evaluated. The reader cannot determine whether the reported improvements are meaningful, marginal, or within noise. This is the core contribution of the work, and its absence prevents any assessment of the method's value.
+  - **Resolution test** Provide a benchmark table with AUC, specificity, precision, and recall values for PepCNN and all compared methods, along with standard deviations and statistical tests (e.g., DeLong test for AUC differences) across multiple independent test sets.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** "incorporates structural and sequence-based information from primary protein sequences" and "combination of half-sphere exposure, position specific scoring matrices, and pre-trained transformer language model"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not describe how the three feature types are integrated, what the model architecture is, how the language model is applied, or how structural information is derived from primary sequences. The phrase "structural and sequence-based information from primary protein sequences" is ambiguous, as HSE typically requires structural coordinates.
+  - **Why it matters** Reproducibility and scientific evaluation depend on a clear description of the method. The current abstract leaves critical questions unanswered, such as whether HSE is predicted from sequence or derived from predicted structures, and how the language model embeddings are combined with the other features.
+  - **Resolution test** Provide a detailed methods section describing the model architecture, feature extraction procedures, training protocol, and the exact role of each feature type. Clarify how HSE is obtained from primary sequences.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Benchmark validity
+  - **Claim pointer** "outperforms state-of-the-art methods"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not specify which state-of-the-art methods were compared, what datasets were used, how train/test splits were constructed, or whether the comparison was fair (e.g., same data splits, same evaluation protocol).
+  - **Why it matters** Performance claims are only meaningful in the context of a well-defined benchmark. Without this information, the reader cannot assess whether the comparison is fair, whether the datasets are representative, or whether the results generalize.
+  - **Resolution test** Describe the benchmark datasets, the list of compared methods, the evaluation protocol, and the criteria for method selection. Provide evidence that the comparison is apples-to-apples.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Title
+  - **Evidence pointer** Title
+  - **Issue** The title lists three feature types but does not mention the model name (PepCNN), which is the main contribution.
+  - **Required correction** Consider revising the title to include the model name, e.g., "PepCNN: A Deep Learning Approach for Protein-Peptide Binding Prediction Using Sequence, Structural, and Language Model Features."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not mention the size of the datasets, the number of positive and negative samples, or the evaluation metrics beyond specificity, precision, and AUC. Recall and F1-score are not mentioned.
+  - **Required correction** Add dataset statistics and report a fuller set of evaluation metrics, including recall and F1-score, to give a more complete picture of model performance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Software availability
+  - **Evidence pointer** Abstract; GitHub URL provided
+  - **Issue** The abstract states that software and datasets are publicly available, but it is not clear whether the repository includes trained models, inference scripts, and documentation.
+  - **Required correction** Clarify in the abstract or repository description what is included (e.g., training code, inference code, pre-trained weights, and usage examples).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence), R1-M2 (methodological ambiguity), R1-M3 (benchmark validity). These three concerns collectively prevent the central claims from being evaluated.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of HSE, PSSM, and language model features is not entirely novel, as each component has been used in prior work, but the specific integration may offer a new contribution. This cannot be fully assessed from the abstract.
+  - Scientific importance: Protein-peptide interaction prediction is a relevant problem with applications in drug discovery. The potential importance is moderate to high, but the abstract does not demonstrate a significant advance over existing methods.
+  - Interdisciplinary readership: The topic bridges computational biology, machine learning, and structural biology. The abstract is written in a way that is accessible to a broad audience, but the lack of technical detail limits its appeal to specialists.
+  - Technical soundness: Cannot be assessed from the abstract. The absence of methodological details and quantitative results prevents any evaluation of technical rigor.
+  - Readability for nonspecialists: The abstract is clear and concise, but the lack of context on the significance of the reported metrics and the methods may leave nonspecialists without a clear sense of the contribution.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible approach, but the absence of quantitative results, methodological details, and benchmark descriptions means the core claims cannot be verified. The authors should provide the full manuscript with detailed methods, results, and comparisons before the work can be properly evaluated.
+
+## Risk / unsupported claims
+- The claim that PepCNN "outperforms state-of-the-art methods" is unsupported by any quantitative data in the abstract.
+- The claim that the model "incorporates structural and sequence-based information from primary protein sequences" is ambiguous and potentially misleading, as HSE typically requires structural information that may not be directly available from primary sequences.
+- The general statement that "computational methods often fall short in terms of prediction accuracy" is presented without supporting references or context.
+- The significance of the reported improvements (specificity, precision, AUC) cannot be assessed without effect sizes, confidence intervals, or statistical tests.

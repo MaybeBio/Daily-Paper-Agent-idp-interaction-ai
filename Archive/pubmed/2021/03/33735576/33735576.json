@@ -1,0 +1,221 @@
+{
+  "identity": {
+    "pmid": "33735576",
+    "doi": "10.1021/acs.jpcb.0c07349",
+    "title": "Liquid-Liquid Phase Separation As the Second Step of Complex Coacervation."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) between tyrosine- and arginine-rich peptides are of biological importance. To understand the interactions between proteins in the condensed phase in close analogy to complex coacervation, we run multiple umbrella calculations between oligomers containing tyrosine (pY) and arginine (pR). We find pR-pY complexation to be energetically driven. Metadynamics simulations on monomers suggest that this energy of complexation is correlated with the number of pi-cation bonds. Free energy calculations for the binding between pairs of poly glutamate-pR dimers show striking similarities between this process and LLPS. These calculations suggest that proteins containing arginine and tyrosine residues do not undergo complexation followed by coacervation. The mechanism, rather, is akin to phase separation of neutral polyion pairs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Physical Phenomena",
+      "*Polymers"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Singh, Aditya N",
+        "Yethiraj, Arun"
+      ],
+      "short_names": [
+        "Singh AN",
+        "Yethiraj A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8579-449X"
+      ],
+      "affiliations": [
+        "Theoretical Chemistry Institute and Department of Chemistry, 1101 University Avenue, University of Wisconsin-Madison, Madison, Wisconsin 53703, United States.",
+        "Theoretical Chemistry Institute and Department of Chemistry, 1101 University Avenue, University of Wisconsin-Madison, Madison, Wisconsin 53703, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Singh, Aditya N",
+        "short_name": "Singh AN",
+        "identifiers": [],
+        "affiliations": [
+          "Theoretical Chemistry Institute and Department of Chemistry, 1101 University Avenue, University of Wisconsin-Madison, Madison, Wisconsin 53703, United States."
+        ]
+      },
+      {
+        "full_name": "Yethiraj, Arun",
+        "short_name": "Yethiraj A",
+        "identifiers": [
+          "0000-0002-8579-449X"
+        ],
+        "affiliations": [
+          "Theoretical Chemistry Institute and Department of Chemistry, 1101 University Avenue, University of Wisconsin-Madison, Madison, Wisconsin 53703, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2021 Apr 1",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/03/19 06:00",
+    "fetched_at": "2026-09-20 02:06:52"
+  },
+  "links": {
+    "cites": [
+      "41061706",
+      "40643956",
+      "40453460",
+      "38491042",
+      "38332176",
+      "37159929",
+      "36686257",
+      "36037377",
+      "35904499"
+    ],
+    "refs": [],
+    "similar": [
+      "33735576",
+      "21820643",
+      "34496937",
+      "36443315",
+      "39066731",
+      "31990555",
+      "21377640",
+      "31971365",
+      "37480340",
+      "21230139",
+      "30970637",
+      "36703474",
+      "28869254",
+      "36227467",
+      "27161661",
+      "30996987",
+      "34106723",
+      "37764485",
+      "31270472",
+      "25565379",
+      "30948640",
+      "29511089",
+      "33478213",
+      "32615218",
+      "30414964",
+      "30913985",
+      "33299652",
+      "28614662",
+      "23775068",
+      "30986043",
+      "34232047",
+      "36310209",
+      "28924037",
+      "36640113",
+      "29738068",
+      "29210575",
+      "31941785",
+      "32096048",
+      "28683104",
+      "28614666",
+      "32096047",
+      "38465595",
+      "29128042",
+      "32134099",
+      "26756795",
+      "29677513",
+      "16530214",
+      "31430708",
+      "33110735",
+      "28689408",
+      "27260407",
+      "32824618",
+      "31188388",
+      "27336461",
+      "33967699",
+      "33230101",
+      "31237369",
+      "29544326",
+      "23083137",
+      "29580524",
+      "31097543",
+      "18851071",
+      "26791895",
+      "23518303",
+      "26849155",
+      "26451401",
+      "26036200",
+      "38334990",
+      "30227204",
+      "24705959",
+      "28159365",
+      "30292393",
+      "24679215",
+      "29961577",
+      "20144475",
+      "33809541",
+      "10970741",
+      "16967571",
+      "27378068",
+      "31617663",
+      "32432453",
+      "39092941"
+    ],
+    "review": [
+      "33735576",
+      "21820643",
+      "21377640",
+      "27161661",
+      "32096048",
+      "32096047",
+      "29128042",
+      "33110735",
+      "27260407",
+      "32824618",
+      "31237369",
+      "38334990"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-SERPINA1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-651",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33735576",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.0c07349",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

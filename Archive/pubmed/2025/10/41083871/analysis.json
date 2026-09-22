@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41083871",
+  "title": "Sequence-based prediction of condensate composition reveals that specificity can emerge from multivalent interactions among disordered regions.",
+  "authors": "Wessen, Jonas; De La Cruz, Nancy; Lyons, Heankel; Chan, Hue Sun; Sabari, Benjamin R",
+  "journal": "Communications chemistry",
+  "published_date": "2025-10-14",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用基于聚合物物理的统计模型预测凝聚体组成，证明无序区域间的多价相互作用可产生特异性，直接聚焦IDR介导的PPI机制建模，并获实验验证。",
+  "abstract": "While specificity of biomolecular interactions is typically understood to require interactions involving ordered structures, several biomolecular condensates exhibit specificity in the absence of apparent structural order. We have previously shown that condensates composed of the disordered region of MED1 partition specific proteins, mediated by sequence patterns of charged amino acids on the disordered regions of both MED1 and the interacting partner. Whether this specificity is due to an unknown ordered-structure-mediated interaction or from the dynamic multivalent interactions between the patterned charged amino acids in the disordered regions was unresolved. Here we show that a polymer physics-based model that only accounts for multivalent interactions among polymers in a statistical manner can largely explain published data on selective partitioning and make predictions that are subsequently experimentally validated. These results suggest that the specificity of condensate composition is underpinned to a substantial extent by multivalent interactions in the context of conformational disorder.",
+  "abstract_zh": "尽管生物分子相互作用的特异性通常被认为需要涉及有序结构的相互作用，但若干生物分子凝聚体在缺乏明显结构有序性的情况下仍表现出特异性。我们此前已表明，由MED1无序区组成的凝聚体可分配特定蛋白质，这一过程由MED1及相互作用伙伴无序区上带电氨基酸的序列模式所介导。这种特异性究竟源于未知的有序结构介导的相互作用，还是源于无序区中模式化带电氨基酸之间的动态多价相互作用，此前尚未明确。在此，我们展示了一种仅以统计方式考虑聚合物间多价相互作用的基于聚合物物理的模型，该模型能大致解释已发表的关于选择性分配的数据，并做出随后经实验验证的预测。这些结果表明，凝聚体组成的特异性在很大程度上由构象无序背景下的多价相互作用所支撑。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41083871/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41083871/",
+  "paper_page_path": "papers/pubmed/41083871/index.html"
+}

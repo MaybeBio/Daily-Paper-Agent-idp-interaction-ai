@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "41580895",
+    "doi": "10.1016/j.bpj.2026.01.039",
+    "title": "Intrinsically disordered region facilitating lipoprotein transport: Trade time for force reduction."
+  },
+  "content": {
+    "abstract": "A significant number of lipoproteins destined to the outer membrane (OM) of Gram-negative bacteria possess an intrinsically disordered region (IDR) at their N-termini. Research has indicated that the deletion of the IDR markedly enhances the retention of OM lipoproteins in the inner membrane (IM). Nevertheless, the molecular mechanisms underlying the regulatory effects of the IDR remain poorly understood. This study takes full-length and IDR-truncated variants of peptidoglycan-associated lipoprotein (Pal) as example models to investigate the role of the IDR in lipoprotein transport at a molecular level by employing all-atom and coarse-grained molecular dynamics simulations in conjunction with enhanced sampling techniques. The findings demonstrate that the N-terminal IDR has a minimal impact on the conformation of the ordered C-terminal domain (CTD), yet it significantly influences the energetics associated with lipoprotein transport. Specifically, whether the CTD of Pal adopts an ordered native conformation or remains entirely disordered, the full-length Pal requires greater energy to approach the OM. Conversely, when the CTD partially folds into an intermediate state characterized by localized secondary structures, the transport of full-length Pal becomes less energetically demanding, aligning with experimental observation. Interaction contact analyses reveal that, in this latter scenario, the IDR transiently interacts with both the CTD and the membrane, exhibiting flexibility and lower resistance to conformational changes, thereby facilitating its detachment from the IM. In contrast, the IDR-truncated variant maintains a more stable interaction with the membrane, making it more challenging to detach directly from the IM. Once the N-terminus of the full-length Pal approaches the OM and anchors via its triacylated tails, the transient interactions between the IDR, CTD, and membrane can effectively drive the entire protein to adhere to the OM. This IDR-mediated transport process, while time-consuming, is energetically favorable.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Lipoproteins/metabolism/chemistry",
+      "Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Domains",
+      "Biological Transport",
+      "Protein Transport",
+      "Time Factors"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dong, Wenjing",
+        "Li, Xiangyuan",
+        "Zhang, Shan",
+        "Gao, Lianghui"
+      ],
+      "short_names": [
+        "Dong W",
+        "Li X",
+        "Zhang S",
+        "Gao L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China.",
+        "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China.",
+        "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China.",
+        "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China. Electronic address: lhgao@bnu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dong, Wenjing",
+        "short_name": "Dong W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Li, Xiangyuan",
+        "short_name": "Li X",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Shan",
+        "short_name": "Zhang S",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Gao, Lianghui",
+        "short_name": "Gao L",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Theoretical and Computational Photochemistry, Ministry of Education, College of Chemistry, Beijing Normal University, Beijing, China. Electronic address: lhgao@bnu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Mar 3",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/25 08:56",
+    "fetched_at": "2026-09-18 00:06:34"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41580895",
+      "41432637",
+      "42475469",
+      "23912807",
+      "34326538",
+      "41524628",
+      "33577583",
+      "30992347",
+      "28597880",
+      "39993015",
+      "33030249",
+      "28780862",
+      "34243065",
+      "42400486",
+      "41571222",
+      "32936831",
+      "32519353",
+      "40467883",
+      "29791766",
+      "41557797",
+      "40726410",
+      "17375930",
+      "32184088",
+      "40574713",
+      "42511729",
+      "34883116",
+      "31138744",
+      "38942776",
+      "39453744",
+      "29550429",
+      "39725716",
+      "37125110",
+      "23760157",
+      "42235792",
+      "14731286",
+      "38193657",
+      "39779918",
+      "33125082",
+      "30823702",
+      "35914331",
+      "34571015",
+      "29414700",
+      "21589901",
+      "32544231",
+      "26787763",
+      "31932309",
+      "30900542",
+      "25207671",
+      "39446390",
+      "40042172",
+      "40853068",
+      "38985766",
+      "24780125",
+      "35240126",
+      "28708841",
+      "39499823",
+      "32929427",
+      "31153904",
+      "40923761",
+      "22132103",
+      "30840442",
+      "19519769",
+      "26370942",
+      "39093570",
+      "17233825",
+      "41972736",
+      "39089542",
+      "37494873",
+      "24106084",
+      "26735936",
+      "35130441",
+      "32783888",
+      "37269287",
+      "28325841",
+      "40693919",
+      "32722039",
+      "26195786",
+      "35658951",
+      "25017730",
+      "31441158",
+      "34845619",
+      "31724233",
+      "28493424",
+      "41301496",
+      "30878482",
+      "34710113",
+      "31804089",
+      "40101966",
+      "26354441",
+      "37870995",
+      "26854614",
+      "26910732",
+      "40788873",
+      "34681718",
+      "33139883",
+      "37463458",
+      "33436890",
+      "40183636",
+      "27246575",
+      "29844400"
+    ],
+    "review": [
+      "41580895",
+      "26787763",
+      "30900542",
+      "24780125",
+      "30840442",
+      "19519769",
+      "26370942",
+      "39093570"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(26)00054-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

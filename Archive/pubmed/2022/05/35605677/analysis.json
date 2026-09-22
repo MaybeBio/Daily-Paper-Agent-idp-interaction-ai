@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35605677",
+  "title": "Disordered Regions Flanking the Binding Interface Modulate Affinity between CBP and NCOA.",
+  "authors": "Karlsson, Elin; Schnatwinkel, Jan; Paissoni, Cristina; Andersson, Eva; Herrmann, Christian; Camilloni, Carlo; Jemth, Per",
+  "journal": "Journal of molecular biology",
+  "published_date": "2022-05-24",
+  "window": {
+    "start": "2022-05-23",
+    "end": "2022-05-29"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过实验与分子动力学模拟揭示CBP-NCOA互作中结合界面侧翼无序区通过非特异性疏水接触调节亲和力的模糊结合机制，直接契合无序蛋白介导PPI的机制建模核心。",
+  "abstract": "Recognition motifs that mediate protein-protein interactions are usually embedded within longer intrinsically disordered regions. While binding interfaces involving the recognition motif in such interactions are well studied, less is known about the role of disordered regions flanking the motifs. The interaction between the transcriptional co-activators NCOA3 (ACTR) and CBP is mediated by coupled binding and folding of the two domains CID and NCBD. Here, we used circular dichroism and kinetics to directly quantify the contribution of the adjacent flanking regions of CID to its interaction with NCBD. Using N- and C-terminal combinatorial variants we found that the flanking regions promote binding in an additive fashion while retaining a large degree of disorder in the complex. Experiments at different ionic strengths demonstrated that the increase in affinity is not mediated by electrostatic interactions from the flanking regions. Instead, site-directed mutagenesis and molecular dynamics simulations suggest that binding is promoted by short-lived non-specific hydrophobic contacts between the flanking regions and NCBD. Our findings are consistent with highly frustrated interactions outside of the canonical binding interface resulting in a slightly energetically favorable fuzzy binding. Modulation of affinity via flanking regions could represent a general mechanism for functional regulation by intrinsically disordered protein regions.",
+  "abstract_zh": "介导蛋白质-蛋白质相互作用的识别基序通常嵌入在更长的内在无序区域内。尽管涉及此类相互作用中识别基序的结合界面已被充分研究，但对于侧翼无序区域的作用知之甚少。转录共激活因子NCOA3 (ACTR)与CBP之间的相互作用由两个结构域CID和NCBD的偶联结合与折叠介导。在此，我们使用圆二色光谱和动力学直接量化了CID相邻侧翼区域对其与NCBD相互作用的贡献。通过N端和C端组合变体，我们发现侧翼区域以加性方式促进结合，同时在复合物中保留较大程度的无序性。不同离子强度下的实验表明，亲和力的增加并非由侧翼区域的静电相互作用介导。相反，定点突变和分子动力学 (molecular dynamics) 模拟提示，结合是由侧翼区域与NCBD之间的短暂非特异性疏水接触促进的。我们的发现与规范结合界面之外的高度挫败相互作用一致，导致略微能量有利的模糊结合。通过侧翼区域调节亲和力可能代表内在无序蛋白区域功能调控的一般机制。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35605677/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35605677/",
+  "paper_page_path": "papers/pubmed/35605677/index.html"
+}

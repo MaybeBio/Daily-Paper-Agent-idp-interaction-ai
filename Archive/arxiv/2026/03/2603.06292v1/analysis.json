@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2603.06292v1",
+  "title": "Enhanced Protein Intrinsic Disorder Prediction Through Dual-View Multiscale Features and Multi-objective Evolutionary Algorithm",
+  "authors": "Shaokuan Wang; Pengshan Cui; Yining Qian; An-Yang Lu; Xianpeng Wang",
+  "journal": "",
+  "published_date": "2026-03-06",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 5,
+  "one_liner_zh": "提出D2MOE方法，用双视图多尺度特征与多目标进化算法提升无序蛋白残基级预测精度，但聚焦于无序预测而非PPI互作机制建模，方法可迁移但对象轴与互作轴较弱。",
+  "abstract": "Intrinsically disordered regions of proteins play a crucial role in cell signaling and drug discovery. However, their high structural flexibility makes accurate residue-level prediction challenging. Existing methods often rely on single-view representations or rigid manual fusion strategies, which fail to effectively balance the complex interplay between local amino acid preferences and long-range sequence patterns. To address these limitations, we propose D2MOE, a Dual-View Multiscale Features and Multi-objective Evolutionary Algorithm, which consists of two stages. First, a dual-view multiscale feature extraction method is introduced. This method integrates evolutionary views with deep semantic views and employs multiscale extractors to capture structural information across diverse receptive fields. Second, a multi-objective evolutionary algorithm is designed to adaptively discover optimal fusion architectures. By co-evolving discrete feature selection and continuous fusion weights, the algorithm adaptively explores optimal cross-feature architectures to enhance predictive accuracy while maintaining model compactness. Experimental results across three benchmark datasets demonstrate that D2MOE consistently outperforms state-of-the-art methods. D2MOE combines the feature extraction capabilities of deep learning with the global search advantages of evolutionary algorithms, enabling efficient feature integration without manual design, and providing a robust computational tool for protein disorder prediction.",
+  "abstract_zh": "蛋白质的内在无序区域在细胞信号传导和药物发现中扮演着关键角色。然而，其高度结构灵活性使得残基级别的精确预测充满挑战。现有方法通常依赖单视图表示或刚性手动融合策略，未能有效平衡局部氨基酸偏好与长程序列模式之间的复杂相互作用。为解决这些局限性，我们提出D2MOE，一种双视图多尺度特征与多目标进化算法，其包含两个阶段。首先，引入双视图多尺度特征提取方法。该方法整合进化视图与深度语义视图，并采用多尺度提取器在不同感受野下捕获结构信息。其次，设计多目标进化算法以自适应发现最优融合架构。通过协同进化离散特征选择与连续融合权重，该算法自适应探索最优跨特征架构，以提升预测准确性同时保持模型紧凑性。在三个基准数据集上的实验结果表明，D2MOE始终优于最先进方法。D2MOE结合了深度学习的特征提取能力与进化算法的全局搜索优势，无需手动设计即可实现高效特征整合，为蛋白质无序预测提供了稳健的计算工具。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2603.06292v1",
+  "source_url": "https://arxiv.org/abs/2603.06292v1",
+  "paper_page_path": "papers/arxiv/2603.06292v1/index.html"
+}

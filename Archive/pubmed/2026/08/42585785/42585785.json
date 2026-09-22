@@ -1,0 +1,231 @@
+{
+  "identity": {
+    "pmid": "42585785",
+    "doi": "10.1016/j.bbrc.2026.154412",
+    "title": "Conditionally folded disordered regions contribute to adaptation and regulation in Schistosomamansoni."
+  },
+  "content": {
+    "abstract": "Schistosoma mansoni, a causative agent of schistosomiasis, has a complex life cycle that requires extensive molecular adaptation to diverse host environments. Intrinsically disordered proteins (IDPs) and regions (IDRs) are highly flexible protein segments that play key roles in cellular regulation, signaling, and host-pathogen interactions. In this study, we conducted a proteome-wide analysis of IDRs and conditionally folded intrinsically disordered regions (CF-IDRs) in the S. mansoni proteome. 10,749 protein sequences were retrieved from UniProt and reduced to 9638 non-redundant proteins. Intrinsic disorder prediction identified 7662 IDRs, with 36.95% of proteins containing at least one long disordered region. AlphaFold structural confidence scores were integrated with disorder predictions to identify CF-IDRs, defined as disordered regions containing local high-confidence structural segments. Approximately 12.7% of IDR-containing proteins possessed at least one CF-IDR. CF-IDRs were enriched for both disorder-promoting and selected order-promoting residues, suggesting a balance between flexibility and transient structure formation. Prediction of liquid-liquid phase separation (LLPS) propensity revealed that many CF-IDRs may participate in biomolecular condensation. AIUPred-binding prediction indicated that most CF-IDRs contained a strong binding segment, supporting interaction-driven disorder-to-order transitions. Functional enrichment analysis showed that CF-IDR-containing proteins are primarily associated with transcription, RNA processing, chromatin organization, and cytoskeletal regulation. This study is the first to systematically identify and characterize CF-IDRs across the entire proteome of any helminth. Overall, it underscores the importance of structural plasticity in S. mansoni biology and suggests that CF-IDRs may contribute to parasite adaptation, regulation, and host interactions.",
+    "keywords": [
+      "AlphaFold",
+      "Conditionally folded regions",
+      "Intrinsically disordered proteins",
+      "Intrinsically disordered regions",
+      "Liquid-liquid phase separation",
+      "Structural plasticity"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Schistosoma mansoni/physiology/metabolism/chemistry/genetics",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Folding",
+      "*Adaptation, Physiological",
+      "*Helminth Proteins/chemistry/metabolism/genetics",
+      "Proteome/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Devi, Bhaswati",
+        "Tripathi, Timir"
+      ],
+      "short_names": [
+        "Devi B",
+        "Tripathi T"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Molecular and Structural Biophysics Laboratory, Department of Zoology, School of Life Sciences, North-Eastern Hill University, Shillong, 793022, India.",
+        "Molecular and Structural Biophysics Laboratory, Department of Zoology, School of Life Sciences, North-Eastern Hill University, Shillong, 793022, India. Electronic address: timir.tripathi@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Devi, Bhaswati",
+        "short_name": "Devi B",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Structural Biophysics Laboratory, Department of Zoology, School of Life Sciences, North-Eastern Hill University, Shillong, 793022, India."
+        ]
+      },
+      {
+        "full_name": "Tripathi, Timir",
+        "short_name": "Tripathi T",
+        "identifiers": [],
+        "affiliations": [
+          "Molecular and Structural Biophysics Laboratory, Department of Zoology, School of Life Sciences, North-Eastern Hill University, Shillong, 793022, India. Electronic address: timir.tripathi@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemical and biophysical research communications"
+    ],
+    "journal_abbrev": [
+      "Biochem Biophys Res Commun"
+    ],
+    "pub_date": "2026 Oct 1",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/12 23:34",
+    "fetched_at": "2026-09-18 05:36:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42585785",
+      "37878721",
+      "42150060",
+      "34179096",
+      "40383327",
+      "36291695",
+      "41378882",
+      "38220424",
+      "37634152",
+      "30878482",
+      "31441158",
+      "39446390",
+      "31756456",
+      "38588835",
+      "40574713",
+      "34418423",
+      "40530859",
+      "32225071",
+      "39979561",
+      "35481633",
+      "33719450",
+      "33076213",
+      "39205298",
+      "28924037",
+      "35290420",
+      "24027208",
+      "31709918",
+      "35139468",
+      "33866372",
+      "36575582",
+      "42538434",
+      "41337585",
+      "29080786",
+      "42290021",
+      "42057657",
+      "36210722",
+      "33248138",
+      "18831774",
+      "33260713",
+      "38941236",
+      "42190015",
+      "41232529",
+      "41534519",
+      "31425549",
+      "38296708",
+      "40133781",
+      "35094056",
+      "41394673",
+      "30841624",
+      "28612216",
+      "33567297",
+      "23148687",
+      "32503351",
+      "41276815",
+      "38297118",
+      "36908253",
+      "36754681",
+      "34626492",
+      "33243935",
+      "33357399",
+      "39142260",
+      "32696395",
+      "39589885",
+      "34390736",
+      "40944448",
+      "19594884",
+      "42276495",
+      "33627133",
+      "26699268",
+      "40799657",
+      "36008992",
+      "20522251",
+      "39248370",
+      "41053545",
+      "40244295",
+      "35883444",
+      "42437078",
+      "40631955",
+      "39933697",
+      "29763584",
+      "27062995",
+      "35196007",
+      "33810353",
+      "28365882",
+      "41454828",
+      "37992221",
+      "24532081",
+      "42306853",
+      "30940742",
+      "36821650",
+      "31521236",
+      "34871434",
+      "42230638",
+      "40828855",
+      "40133775",
+      "32034199",
+      "34452345",
+      "37626310",
+      "40645561",
+      "26922996"
+    ],
+    "review": [
+      "42585785",
+      "38220424",
+      "31441158",
+      "38588835",
+      "34418423",
+      "39205298",
+      "24027208",
+      "31709918",
+      "35139468",
+      "42057657",
+      "33248138",
+      "33260713",
+      "38296708",
+      "28612216",
+      "33567297",
+      "36754681",
+      "33243935",
+      "33357399",
+      "39142260",
+      "34390736",
+      "42437078",
+      "24532081",
+      "42306853",
+      "30940742",
+      "36821650",
+      "31521236",
+      "32034199",
+      "34452345",
+      "40645561"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-291X(26)01176-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

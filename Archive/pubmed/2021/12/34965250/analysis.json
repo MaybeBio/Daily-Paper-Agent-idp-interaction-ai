@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34965250",
+  "title": "Motif-pattern dependence of biomolecular phase separation driven by specific interactions.",
+  "authors": "Weiner, Benjamin G; Pyo, Andrew G T; Meir, Yigal; Wingreen, Ned S",
+  "journal": "PLoS computational biology",
+  "published_date": "2021-12-30",
+  "window": {
+    "start": "2021-12-27",
+    "end": "2022-01-02"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过蒙特卡洛模拟与平均场理论，系统研究异型结合基序序列如何通过构象熵调控无序蛋白的相分离与凝聚体性质，为IDR介导的PPI机制建模提供了熵驱动的可迁移理论框架。",
+  "abstract": "Eukaryotic cells partition a wide variety of important materials and processes into biomolecular condensates-phase-separated droplets that lack a membrane. In addition to nonspecific electrostatic or hydrophobic interactions, phase separation also depends on specific binding motifs that link together constituent molecules. Nevertheless, few rules have been established for how these ubiquitous specific, saturating, motif-motif interactions drive phase separation. By integrating Monte Carlo simulations of lattice-polymers with mean-field theory, we show that the sequence of heterotypic binding motifs strongly affects a polymer's ability to phase separate, influencing both phase boundaries and condensate properties (e.g. viscosity and polymer diffusion). We find that sequences with large blocks of single motifs typically form more inter-polymer bonds, which promotes phase separation. Notably, the sequence of binding motifs influences phase separation primarily by determining the conformational entropy of self-bonding by single polymers. This contrasts with systems where the molecular architecture primarily affects the energy of the dense phase, providing a new entropy-based mechanism for the biological control of phase separation.",
+  "abstract_zh": "真核细胞将多种重要的物质和过程分隔到生物分子凝聚体（biomolecular condensates）中——这些是无膜包裹的相分离液滴。除了非特异性的静电或疏水相互作用外，相分离还依赖于连接组成分子的特异性结合基序。然而，关于这些普遍存在的特异性、饱和性基序-基序相互作用如何驱动相分离，目前建立的规则很少。通过将晶格聚合物的蒙特卡洛模拟与平均场理论相结合，我们表明异型结合基序的序列强烈影响聚合物的相分离能力，既影响相边界，也影响凝聚体性质（如粘度和聚合物扩散）。我们发现，具有大块单一基序的序列通常形成更多的聚合物间键，从而促进相分离。值得注意的是，结合基序的序列主要通过决定单聚合物自结合的构象熵来影响相分离。这与分子架构主要影响致密相能量的系统形成对比，为相分离的生物学调控提供了一种基于熵的新机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34965250/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34965250/",
+  "paper_page_path": "papers/pubmed/34965250/index.html"
+}

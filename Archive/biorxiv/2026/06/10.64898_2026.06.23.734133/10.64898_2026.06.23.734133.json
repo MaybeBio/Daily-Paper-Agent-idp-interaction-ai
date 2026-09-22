@@ -1,0 +1,108 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.06.23.734133",
+  "title": "HyRes: Accurate Physics-Based Simulation of Dynamic Protein Structures and Interactions in Complex Environments at Scale",
+  "doi": "10.64898/2026.06.23.734133",
+  "abstract": "Intrinsically disordered proteins and regions (IDPs) are ubiquitous cellular regulators. Uncovering how their transient, multivalent interactions organize and fine-tune cellular processes requires transferable methods capable of deriving dynamic conformational ensembles across diverse environments at scale. Here, we present HyRes, a physics-based, hybrid-resolution protein model with atomistic backbones and intermediate-resolution sidechains that bridges the gap between atomistic accuracy and computational efficiency. Evaluated across ∼100 IDPs, HyRes generates atomistic ensembles that match or outperform state-of-the-art all-atom force fields in reproducing experimental chain dimensions, transient tertiary contacts, and local secondary structures. Demonstrating exceptional transferability, HyRes accurately captures dynamic IDP interactions in dilute phases, condensed phases, and amyloid fibril fuzzy coats. Finally, we leverage HyRes’ scalability to generate disordered ensembles for ∼30,000 IDPs from the human proteome and DisProt, revealing strong correlation between residual structures and cellular function and localization. HyRes and this open-access database provide unprecedented resources for IDP biology and deep learning.",
+  "authors": [
+    "Li S",
+    "Barethiya S",
+    "Chen J"
+  ],
+  "published_date": "2026-06-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.06.23.734133",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.06.23.734133.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1259889",
+    "raw_record": {
+      "id": "PPR1259889",
+      "source": "PPR",
+      "doi": "10.64898/2026.06.23.734133",
+      "title": "HyRes: Accurate Physics-Based Simulation of Dynamic Protein Structures and Interactions in Complex Environments at Scale",
+      "authorString": "Li S, Barethiya S, Chen J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Li S",
+            "lastName": "Li",
+            "firstName": "Shanlong",
+            "initials": "S"
+          },
+          {
+            "fullName": "Barethiya S",
+            "lastName": "Barethiya",
+            "firstName": "Shrishti",
+            "initials": "S"
+          },
+          {
+            "fullName": "Chen J",
+            "lastName": "Chen",
+            "firstName": "Jianhan",
+            "initials": "J"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Intrinsically disordered proteins and regions (IDPs) are ubiquitous cellular regulators. Uncovering how their transient, multivalent interactions organize and fine-tune cellular processes requires transferable methods capable of deriving dynamic conformational ensembles across diverse environments at scale. Here, we present HyRes, a physics-based, hybrid-resolution protein model with atomistic backbones and intermediate-resolution sidechains that bridges the gap between atomistic accuracy and computational efficiency. Evaluated across ∼100 IDPs, HyRes generates atomistic ensembles that match or outperform state-of-the-art all-atom force fields in reproducing experimental chain dimensions, transient tertiary contacts, and local secondary structures. Demonstrating exceptional transferability, HyRes accurately captures dynamic IDP interactions in dilute phases, condensed phases, and amyloid fibril fuzzy coats. Finally, we leverage HyRes’ scalability to generate disordered ensembles for ∼30,000 IDPs from the human proteome and DisProt, revealing strong correlation between residual structures and cellular function and localization. HyRes and this open-access database provide unprecedented resources for IDP biology and deep learning.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Institutes of Health",
+            "grantId": "R35 GM144045",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.06.23.734133"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-06-26",
+      "firstPublicationDate": "2026-06-24",
+      "firstIndexDate": "2026-06-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

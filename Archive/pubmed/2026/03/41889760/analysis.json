@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41889760",
+  "title": "Residue-Specific Modulation of Aggregation-Associated Interactions by Spermine in Tau, alpha‑Synuclein, and Abeta40.",
+  "authors": "Saha, Debasis; Sun, Xun; Yang, Wangfei; Luo, Jinghui; Zheng, Wenwei",
+  "journal": "JACS Au",
+  "published_date": "2026-03-27",
+  "window": {
+    "start": "2026-03-23",
+    "end": "2026-03-29"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用全原子MD模拟结合ThT实验，在残基水平揭示精胺对Tau、α-突触核蛋白和Aβ40三种无序蛋白聚集相关接触的序列特异性调控机制，直接聚焦IDP互作机制建模，方法为物理模拟，高度契合课题。",
+  "abstract": "Preventing neurodegenerative diseases associated with intrinsically disordered proteins (IDPs) remains a major challenge due to the lack of a detailed, sequence-level picture of disease-relevant structure formation and the influence of cellular factors that modulate these transitions. Here, we probe spermine (Spm), a +4 charged polyamine abundant in cells, to determine how it reshapes the conformational ensembles and fibril-associated contact propensities of three disease-linked IDPs: the K18 domain of Tau, alpha-synuclein (alphaS), and amyloid-beta40 (Abeta40). Using long all-atom molecular dynamics simulations across a range of Spm concentrations, we quantify residue-level changes in intrachain contacts relative to native contacts observed in fibrils and corroborate computational predictions with ThT fluorescence assays for Tau constructs. Spm acts in a sequence- and region-specific manner, not simply through the overall net charge. In K18, Spm binds near the fourth microtubule-binding repeat, disrupting intrachain contacts associated with Alzheimer's fibril structures and thereby inhibiting aggregation. In alphaS, Spm binds mainly to acidic residues in the C-terminal half of the sequence and redistributes intramolecular contacts to enhance aggregation-prone interactions in the central region, providing a residue-level mechanistic basis for previously reported Spm-enhanced alphaS aggregation. For Abeta40, Spm neutralizes acidic residues near positions 22-24 and shifts intrachain interactions toward its aggregation-prone core, resulting in a net promotion of fibril-like conformations. These divergent effects show that net charge alone cannot predict the polyamine influence on IDPs. Instead, residue-specific binding hotspots and local reweighting of aggregation-linked contacts determine whether Spm promotes or suppresses fibril-like conformations. This combined simulation-experimental framework provides a mechanistic basis for how small molecules reprogram IDP conformational ensembles and suggests principles for designing ligands that exploit similar residue-level modulation.",
+  "abstract_zh": "预防与固有无序蛋白（IDPs）相关的神经退行性疾病仍是一项重大挑战，原因在于缺乏对疾病相关结构形成的详细序列级图像，以及调节这些转变的细胞因子的影响。在此，我们探究了精胺（Spm），一种在细胞中丰富的+4电荷多胺，以确定它如何重塑三种疾病相关IDPs的构象集合和纤维相关接触倾向：Tau的K18结构域、α-突触核蛋白（alphaS）和淀粉样β-40（Abeta40）。利用跨越一系列Spm浓度的长时程全原子分子动力学模拟，我们量化了相对于纤维中观察到的天然接触的残基级链内接触变化，并通过Tau构建体的ThT荧光实验验证了计算预测。Spm以序列和区域特异性的方式作用，而非仅仅通过整体净电荷。在K18中，Spm结合在第四个微管结合重复序列附近，破坏与阿尔茨海默病纤维结构相关的链内接触，从而抑制聚集。在alphaS中，Spm主要结合序列C端半部分的酸性残基，并重新分布分子内接触以增强中心区域的聚集倾向相互作用，为先前报道的Spm增强alphaS聚集提供了残基级机制基础。对于Abeta40，Spm中和了位置22-24附近的酸性残基，并将链内相互作用转向其聚集倾向核心，导致纤维样构象的净促进。这些不同的效应表明，仅凭净电荷无法预测多胺对IDPs的影响。相反，残基特异性结合热点和聚集相关接触的局部重新加权决定了Spm是促进还是抑制纤维样构象。这种结合模拟与实验的框架为小分子如何重编程IDP构象集合提供了机制基础，并提出了设计利用类似残基级调节的配体的原则。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41889760/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41889760/",
+  "paper_page_path": "papers/pubmed/41889760/index.html"
+}

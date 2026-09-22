@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38838629",
+  "title": "Unlocking roles of cationic and aromatic residues in peptide amphiphiles in treating drug-resistant gram-positive pathogens.",
+  "authors": "Liao, Mingrui; Gong, Haoning; Shen, Kangcheng; Wang, Ziwei; Li, Renzhi; Campana, Mario; Hu, Xuzhi; Lu, Jian R",
+  "journal": "Journal of colloid and interface science",
+  "published_date": "2024-06-06",
+  "window": {
+    "start": "2024-06-03",
+    "end": "2024-06-09"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究通过实验与MD模拟探讨抗菌肽与细菌膜互作及膜相分离机制，对象为折叠肽而非无序蛋白/IDR，虽涉及膜互作机制建模，但与本课题IDP介导PPI方向关联较弱。",
+  "abstract": "Multidrug resistance (MDR) is a rising threat to global health because the number of essential antibiotics used for treating MDR infections is increasingly compromised. In this work we report a group of new amphiphilic peptides (AMPs) derived from the well-studied G(3) (G(IIKK)(3)I-NH(2)) to fight infections from Gram-positive bacteria including susceptible Staphylococcus aureus and methicillin-resistant Staphylococcus aureus (MRSA), focusing on membrane interactions. Time-dependent killing experiments revealed that substitutions of II by WW (GWK), II by FF (GFK) and KK by RR (GIR) resulted in improved bactericidal efficiencies compared to G(3) (GIK) on both S. aureus and MRSA, with the order of GWK > GIR > GFK > GIK. Electronic microscopy imaging revealed structural disruptions of AMP binding to bacterial cell walls. Fluorescence assays including AMP binding to anionic lipoteichoic acids (LTA) in cell-free and cell systems indicated concentration and time-dependent membrane destabilization associated with bacterial killing. Furthermore, AMP's binding to anionic plasma membrane via similar fluorescence assays revealed a different extent of membrane depolarization and leakage. These observations were supported by the penetration of AMPs into the LTA barrier and the subsequent structural compromise to the cytoplasmic membrane as revealed from SANS (small angle neutron scattering). Both experiments and molecular dynamics (MD) simulations revealed that GWK and GIR could make the membrane more rigid but less effective in diffusive efficiency than GIK and GFK through forming intramembrane peptide nanoaggregates associated with hydrophobic mismatch and formation of fluidic and rigid patches. The reported peptide-aggregate-induced phase-separation emerged as a crucial factor in accelerated membrane disintegration and fast bacterial killing. This work has demonstrated the importance of membrane interactions to the development of more effective AMPs and the relevance of the approaches as reported in assisting this area of research.",
+  "abstract_zh": "多药耐药（MDR）对全球健康构成日益严重的威胁，因为用于治疗MDR感染的基本抗生素数量正不断减少。本研究报道了一组源自经充分研究的G(3)（G(IIKK)(3)I-NH(2)）的新型两亲性肽（AMPs），用于对抗革兰氏阳性菌感染，包括敏感的金黄色葡萄球菌和耐甲氧西林金黄色葡萄球菌（MRSA），重点关注膜相互作用。时间依赖性杀菌实验表明，与G(3)（GIK）相比，将II替换为WW（GWK）、II替换为FF（GFK）以及KK替换为RR（GIR）在S. aureus和MRSA上均提高了杀菌效率，其顺序为GWK > GIR > GFK > GIK。电子显微镜成像揭示了AMP结合细菌细胞壁引起的结构破坏。荧光分析（包括AMP在无细胞和细胞系统中与阴离子脂磷壁酸（LTA）的结合）表明，膜失稳呈浓度和时间依赖性，并与细菌杀伤相关。此外，通过类似荧光分析，AMP与阴离子质膜的结合揭示了不同程度的膜去极化和泄漏。这些观察结果得到了AMP穿透LTA屏障及随后对细胞质膜结构损害的证实，如小角中子散射（SANS）所示。实验和分子动力学（MD）模拟均表明，GWK和GIR通过形成膜内肽纳米聚集体，与疏水错配及流体和刚性斑块的形成相关，使膜变得更刚性，但扩散效率低于GIK和GFK。所报道的肽聚集体诱导的相分离成为加速膜崩解和快速杀菌的关键因素。本工作证明了膜相互作用对开发更有效AMP的重要性，以及所报道方法在辅助该研究领域中的相关性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38838629/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38838629/",
+  "paper_page_path": "papers/pubmed/38838629/index.html"
+}

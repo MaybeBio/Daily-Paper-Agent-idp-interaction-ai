@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and methods as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors propose a new method based on the SPACEBALL algorithm and cluster size monitoring to construct phase diagrams (binodal and spinodal lines) for a van der Waals fluid using molecular dynamics simulations, with potential applicability to protein solutions lacking a validated equation of state.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or validation data provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, quantitative phase diagram data, comparison with known van der Waals results, statistical analysis, and any validation against established equations of state
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful methodological idea, namely using clustering behavior from molecular dynamics trajectories to infer phase boundaries. However, the current abstract provides insufficient technical detail to evaluate the validity, novelty, or generalizability of the approach. The central claims are plausible but not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation in biological systems, particularly those working on membraneless organelles, and computational biophysicists developing methods for phase diagram construction when equations of state are unavailable. The approach could also interest the broader soft matter and molecular simulation community.
+- **Major strengths** The problem addressed is relevant and timely, given the importance of phase diagrams in understanding membraneless organelle formation. The proposed method, if validated, would offer a practical alternative to traditional approaches that require a known equation of state. The use of clustering analysis from simulation trajectories is conceptually straightforward and potentially accessible to nonspecialists.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The method "enables the determination of binodal and spinodal line positions by analyzing system clustering during molecular dynamics simulations."
+  - **Evidence pointer** Abstract, Methods and Results sections; location not provided
+  - **Concern** The abstract does not provide any quantitative evidence that the clustering-based approach correctly identifies binodal and spinodal lines. No comparison with known analytical results for the van der Waals fluid is presented, nor are any error estimates or validation metrics given.
+  - **Why it matters** Without validation against a system with a known phase diagram, the accuracy and reliability of the proposed method cannot be assessed. The van der Waals fluid is an ideal test case precisely because its equation of state is known, so the absence of such comparison is a critical omission.
+  - **Resolution test** Provide a direct comparison of the computed binodal and spinodal lines with analytical predictions for the van der Waals fluid, including quantitative agreement metrics (e.g., root-mean-square deviation) and demonstration that the method converges with simulation length and system size.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The method is "based on the SPACEBALL algorithm and cluster size monitoring."
+  - **Evidence pointer** Abstract, Methods section; location not provided
+  - **Concern** No details are given on the SPACEBALL algorithm parameters, cluster definition criteria (e.g., cutoff distance, minimum cluster size), or how cluster size monitoring is translated into phase boundary determination. The abstract does not specify simulation ensemble, thermostat, system size, or number of replicates.
+  - **Why it matters** Reproducibility is a fundamental requirement for any methodological contribution. Without these details, other researchers cannot implement or test the method, and the robustness of the approach remains unknown.
+  - **Resolution test** Include a full description of the algorithm, simulation parameters, and cluster analysis criteria in the main text or supplementary materials, with sufficient detail for independent implementation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The approach "enables the creation of phase diagrams using pure trajectories obtained from molecular dynamics simulations" and is applicable to "protein solutions, where the absence of a validated equation of state necessitates innovative approaches."
+  - **Evidence pointer** Abstract, Discussion and Conclusion sections; location not provided
+  - **Concern** The abstract only demonstrates the method on a monoatomic van der Waals fluid. The leap to protein solutions is asserted without any evidence that the method handles the complexity of macromolecular systems, such as anisotropic interactions, multiple components, or finite-size effects.
+  - **Why it matters** The stated motivation is biological phase separation, but the demonstration is on a simple model system. Without evidence of transferability, the practical utility for the target application remains speculative.
+  - **Resolution test** Provide a proof-of-concept application to a simple protein or coarse-grained model with known phase behavior, or clearly state the limitations and conditions under which the method is expected to apply to protein systems.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, Results section
+  - **Evidence pointer** Abstract, Results section; location not provided
+  - **Issue** The statement that "uniformly distributed van der Waals beads aggregate, causing changes in the system's density" is vague. It is unclear whether the density change is a cause or consequence of aggregation, and how this observation is used quantitatively.
+  - **Required correction** Clarify the relationship between clustering and density fluctuations, and specify the quantitative metric used to identify phase transitions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract, Discussion section
+  - **Evidence pointer** Abstract, Discussion section; location not provided
+  - **Issue** The phrase "how a fitting function can be used to determine the binodal line location" is underspecified. It is not clear what functional form is proposed or how fitting is performed.
+  - **Required correction** Briefly describe the fitting function and the fitting procedure, or refer to a specific equation in the main text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, Conclusion section
+  - **Evidence pointer** Abstract, Conclusion section; location not provided
+  - **Issue** The abstract does not mention any limitations of the method, such as sensitivity to simulation parameters, computational cost, or applicability range.
+  - **Required correction** Add a sentence acknowledging limitations or conditions for reliable application.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of validation against known van der Waals phase diagram) and R1-M2 (insufficient methodological detail for reproducibility) are the primary technical failings. Without addressing these, the core claims of the method's utility cannot be assessed.
+- **Assessment against Nature-style criteria** Originality: The idea of using clustering analysis for phase boundary determination is moderately original, though related concepts exist in the literature on phase transition detection. Scientific importance: Potentially high for the biological phase separation community, but not demonstrated from the abstract. Interdisciplinary readership: The abstract is written in a way that is accessible to both biophysicists and computational chemists, but the lack of quantitative detail limits broader appeal. Technical soundness: Not assessable from the abstract; the absence of validation and methodological detail is a major concern. Readability for nonspecialists: The abstract is generally clear, but the technical claims are underspecified, which may confuse readers unfamiliar with clustering algorithms or phase diagram construction.
+- **Recommendation posture** Currently not established from the provided evidence. The idea is promising, but the abstract alone does not provide sufficient validation or methodological detail to support the claims. A revised manuscript with full methods, quantitative validation, and a clear demonstration of generalizability would be needed to make the case.
+
+## Risk / unsupported claims
+- The claim that the method "enables the determination of binodal and spinodal line positions" is unsupported without quantitative validation against known results.
+- The claim that the approach is applicable to protein solutions is unsupported, as no evidence for transferability to macromolecular systems is provided.
+- The claim that the method works "using pure trajectories" is not assessable, as the abstract does not specify what post-processing beyond clustering is required.
+- The statement that the method is an "alternative" to traditional approaches is not substantiated by comparison with existing methods.

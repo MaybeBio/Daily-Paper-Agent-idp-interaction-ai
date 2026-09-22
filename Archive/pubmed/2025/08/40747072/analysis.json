@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40747072",
+  "title": "Prediction of Small-Molecule Partitioning into Biomolecular Condensates from Simulation.",
+  "authors": "Emelianova, Alina; Garcia, Pablo L; Tan, Daniel; Joseph, Jerelle A",
+  "journal": "JACS Au",
+  "published_date": "2025-08-01",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用原子级MD模拟和最小模型(MAPPS)预测小分子在生物分子凝聚体中的分配，虽对象为小分子而非蛋白PPI，但聚焦IDR凝聚体环境中的分子机制建模，对无序蛋白介导互作机制研究有方法迁移价值。",
+  "abstract": "Predicting small-molecule partitioning into biomolecular condensates is the key to developing drugs that selectively target aberrant condensates. However, the molecular mechanisms underlying small-molecule partitioning remain largely unknown. Here, we first exploit atomistic molecular dynamics simulations of model condensates to elucidate the physicochemical rules governing small-molecule partitioning. We find that while hydrophobicity is a key factor in determining partitioning into condensates enriched in hydrophobic residues, partitioning into more polar condensates is driven by specific interactions that can offset the associated entropic cost of localization. The observed selectivity of condensates toward certain compounds suggests that condensate-specific therapeutics can be engineered. Building on these insights, we develop minimal models (MAPPS) for the efficient prediction of small-molecule partitioning into biologically relevant condensates. We demonstrate that this approach reproduces atomistic partition coefficients in both model systems and condensates composed of the low-complexity domain (LCD) of FUS. Applying MAPPS to various LCD-based condensates shows that the protein sequence can exert a selective pressure, thereby influencing small-molecule partitioning. Collectively, our findings reveal that partitioning is driven by both small molecule-protein affinity and the complex interplay between the physicochemical properties of the compounds and the condensate environment.",
+  "abstract_zh": "预测小分子在生物分子凝聚体中的分配是开发选择性靶向异常凝聚体的药物的关键。然而，小分子分配背后的分子机制在很大程度上仍属未知。在此，我们首先利用模型凝聚体的原子级分子动力学模拟，阐明控制小分子分配的物理化学规则。我们发现，虽然疏水性是决定小分子分配到富含疏水性残基的凝聚体中的关键因素，但分配到更极性凝聚体中则由特定相互作用驱动，这些相互作用可以抵消定位相关的熵成本。凝聚体对某些化合物表现出的选择性表明，可以设计凝聚体特异性治疗药物。基于这些见解，我们开发了最小模型（MAPPS），用于高效预测小分子分配到生物相关凝聚体中。我们证明，该方法在模型系统和由FUS低复杂度结构域（LCD）组成的凝聚体中均能重现原子级分配系数。将MAPPS应用于各种基于LCD的凝聚体显示，蛋白质序列可以施加选择性压力，从而影响小分子分配。总体而言，我们的发现揭示，分配由小分子-蛋白质亲和力以及化合物物理化学性质与凝聚体环境之间复杂相互作用共同驱动。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40747072/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40747072/",
+  "paper_page_path": "papers/pubmed/40747072/index.html"
+}

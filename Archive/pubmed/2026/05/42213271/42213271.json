@@ -1,0 +1,233 @@
+{
+  "identity": {
+    "pmid": "42213271",
+    "doi": "10.1007/s12104-026-10269-2",
+    "title": "Backbone resonance assignments of CPEB3 [1-120], CPEB3 [186-315], and CPEB3 [400-459]."
+  },
+  "content": {
+    "abstract": "Cytoplasmic polyadenylation element-binding protein 3 (CPEB3) is an RNA-binding protein that is essential for long-term memory formation. Its N-terminal intrinsically disordered region (residues 1-459) exhibits high aggregation propensity and regulates the translation of specific mRNAs, including those encoding AMPA receptor subunits, through processes such as liquid-liquid phase separation and the formation of fibrillar structures. However, the molecular basis of these regulatory mechanisms remains poorly understood. In this study, we present the backbone resonance assignments of three segments within the intrinsically disordered region of CPEB3 (residues 1-120, 186-315, and 400-459). In agreement with sequence-based secondary structure predictions, the three segments were predominantly disordered overall. However, short regions with partial helical propensity were identified at residues 3-7 in the 1-120 segment and residues 226-239 in the 186-315 segment.",
+    "keywords": [
+      "CPEB3",
+      "IDR",
+      "Long-term memory",
+      "Protein aggregation"
+    ],
+    "mesh_terms": [
+      "*RNA-Binding Proteins/chemistry",
+      "*Nuclear Magnetic Resonance, Biomolecular",
+      "Protein Structure, Secondary",
+      "Amino Acid Sequence"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Yujin",
+        "Saito, Harunobu",
+        "So, Masatomo",
+        "Furukawa, Ayako",
+        "Sugase, Kenji"
+      ],
+      "short_names": [
+        "Lee Y",
+        "Saito H",
+        "So M",
+        "Furukawa A",
+        "Sugase K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Graduate school of agriculture, Kyoto University, Kyoto, Japan.",
+        "Graduate school of agriculture, Kyoto University, Kyoto, Japan.",
+        "Graduate school of agriculture, Kyoto University, Kyoto, Japan.",
+        "Graduate school of agriculture, Kyoto University, Kyoto, Japan.",
+        "Graduate school of agriculture, Kyoto University, Kyoto, Japan. sugase.kenji.8c@kyoto-u.ac.jp."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Yujin",
+        "short_name": "Lee Y",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate school of agriculture, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Saito, Harunobu",
+        "short_name": "Saito H",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate school of agriculture, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "So, Masatomo",
+        "short_name": "So M",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate school of agriculture, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Furukawa, Ayako",
+        "short_name": "Furukawa A",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate school of agriculture, Kyoto University, Kyoto, Japan."
+        ]
+      },
+      {
+        "full_name": "Sugase, Kenji",
+        "short_name": "Sugase K",
+        "identifiers": [],
+        "affiliations": [
+          "Graduate school of agriculture, Kyoto University, Kyoto, Japan. sugase.kenji.8c@kyoto-u.ac.jp."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecular NMR assignments"
+    ],
+    "journal_abbrev": [
+      "Biomol NMR Assign"
+    ],
+    "pub_date": "2026 May 29",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/29 15:44",
+    "fetched_at": "2026-09-18 03:38:09"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42213271",
+      "40156755",
+      "35658951",
+      "40916649",
+      "38319152",
+      "25066254",
+      "37898314",
+      "40525527",
+      "22711986",
+      "40153110",
+      "36716374",
+      "32848053",
+      "34081983",
+      "26074071",
+      "29511089",
+      "22875687",
+      "17024188",
+      "36723824",
+      "34436734",
+      "22752847",
+      "40762714",
+      "26074072",
+      "33742389",
+      "24155305",
+      "15260482",
+      "31416913",
+      "30471686",
+      "32619199",
+      "33730325",
+      "20020227",
+      "41191219",
+      "12392550",
+      "35474152",
+      "9692981",
+      "22153079",
+      "22836948",
+      "38466543",
+      "29320165",
+      "35713792",
+      "41524628",
+      "8289306",
+      "30443712",
+      "9922136",
+      "37333407",
+      "40480223",
+      "7524663",
+      "22730302",
+      "18440022",
+      "41629626",
+      "27844185",
+      "38786074",
+      "32225071",
+      "18423664",
+      "36719842",
+      "38526839",
+      "17676872",
+      "9691278",
+      "20524672",
+      "20003455",
+      "21336257",
+      "11916385",
+      "11531333",
+      "18319626",
+      "25577242",
+      "34415548",
+      "26074003",
+      "26732902",
+      "10742179",
+      "11297422",
+      "11575936",
+      "42102650",
+      "37368134",
+      "26133941",
+      "15811367",
+      "24333248",
+      "28258549",
+      "9063893",
+      "35481633",
+      "39908090",
+      "22392337",
+      "28355271",
+      "7972061",
+      "42159288",
+      "27726526",
+      "10231532",
+      "30802457",
+      "31805282",
+      "15099070",
+      "39259470",
+      "10080887",
+      "24960591",
+      "40877262",
+      "16202240",
+      "23417794",
+      "39174826",
+      "22618864",
+      "26915043",
+      "39617253",
+      "12560085",
+      "36346822"
+    ],
+    "review": [
+      "42213271",
+      "40916649",
+      "32619199"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s12104-026-10269-2",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

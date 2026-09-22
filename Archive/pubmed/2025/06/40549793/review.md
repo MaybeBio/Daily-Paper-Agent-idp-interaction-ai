@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods) as provided
+- **Assessment boundary** Scientific content, experimental logic, data interpretation, and claims as presented in the provided text; no access to figures, tables, or supplementary data beyond what is described
+- **Shared manuscript claim summary** The authors propose that the Arabidopsis protein ENP has separable modular functions: its N-terminal/central core region directs its own polar localization, while its C-terminal intrinsically disordered region (IDR) is essential for supporting PIN1-mediated auxin transport and cotyledon/flower development. They further propose that phosphorylation at Ser514 and Ser553 in the IDR modulates ENP stability and function, and that ENP physically associates with the plasma membrane and interacts with PIN proteins via its C-terminus.
+- **Visible evidence base** Descriptions of transgenic constructs, phenotypic rescue assays in enp pid double mutants, confocal microscopy, FRAP, FLIM-FRET, in situ hybridization, and immunocytochemistry; quantitative data referenced as figures and supplementary tables but not directly viewable
+- **Missing materials affecting confidence** All figures, supplementary figures, supplementary tables, and supplementary data files; detailed statistical outputs; raw microscopy images; construct schematics; phylogenetic alignments; experimental protocols beyond brief summaries
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant question in plant developmental biology: how a membrane-associated protein with no obvious catalytic domains contributes to PIN-dependent auxin transport. The modular dissection of ENP is conceptually valuable and the use of AlphaFold predictions to guide experimental design is timely. However, the evidence as presented has several gaps that prevent full confidence in the central claims. The distinction between "polarity" and "functionality" is useful but the mechanistic link between the two remains correlative. The FLIM-FRET data are described in a way that suggests close association but the controls and quantifications are not fully visible. The phospho-site mutagenesis results are intriguing but the interpretation that phosphorylation status directly controls function is not fully supported by the data shown. The manuscript would benefit from clearer presentation of quantitative data and stronger controls for the interaction studies.
+- **Who would be interested in the results, and why** Plant developmental biologists studying auxin transport and PIN polarity; researchers interested in intrinsically disordered regions and their role in protein function; cell biologists studying membrane-associated protein complexes; the broader community interested in how protein modularity maps to functional specialization.
+- **Major strengths** The genetic system for assessing ENP function in enp pid double mutants is well conceived and allows clear phenotypic readouts. The use of AlphaFold predictions to define domain boundaries is a modern and effective approach. The separation of polarity information from functional information within a single protein is a conceptually important finding. The inclusion of FRAP and FLIM-FRET adds biophysical depth to the cellular localization data. The comparison with MEL4 provides evolutionary context.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence strength for physical interaction
+  - **Claim pointer** The authors claim that ENP interacts with PIN2 mainly via its C-terminus, based on FLIM-FRET.
+  - **Evidence pointer** Results section "ENP interacts with PIN2 mainly with its C-terminus"; Figure 8
+  - **Concern** The FLIM-FRET data are described with lifetime differences of 140 psec (E=5.7%) for the C-terminal fusion and 52 psec (E=2.1%) for the N-terminal fusion. These are small differences and the latter is described as "borderline." The authors do not report the number of biological replicates, the number of cells measured, or the statistical significance of these differences. The control with BRI1-GFP and PIN2-mCherry shows a negligible difference, which is good, but the positive control (a known interacting pair) is not shown. Without these details, the claim of a specific C-terminal interaction is not robustly supported.
+  - **Why it matters** The physical interaction between ENP and PINs is a central claim of the paper and underpins the model that ENP directly supports PIN function. If the interaction is weak or non-specific, the mechanistic interpretation changes substantially.
+  - **Resolution test** Provide full statistical analysis of lifetime measurements, including number of cells, replicates, and significance testing. Include a positive control for FRET under the same conditions. Show that the C-terminal interaction is significantly stronger than the N-terminal interaction and that the effect is reproducible across independent experiments.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal link between phosphorylation and function
+  - **Claim pointer** The authors claim that phosphorylation at Ser514 and Ser553 is critical for ENP function, based on phospho-dead and phospho-mimic mutants.
+  - **Evidence pointer** Results section "Phosphorylation of Ser514 and Ser553"; Figure 4
+  - **Concern** The phospho-dead mutants (S514A, S553A) show loss of polarity and function, while phospho-mimics (S514E, S553E) restore polarity. However, the double phospho-mimic (S514E/S553E) shows only partial rescue, and the double phospho-dead (S514A/S553A) shows full polarity but only partial function. This is a complex pattern that is not fully explained. The authors suggest that charge at these sites is important, but the data show that charge alone is not sufficient for full function. The interpretation that phosphorylation status directly controls ENP stability and function is not fully supported without direct measurement of phosphorylation states of the mutant proteins in planta.
+  - **Why it matters** The phosphorylation sites are presented as key regulatory elements. If the mutants affect protein stability or folding rather than phosphorylation-dependent regulation, the conclusions would be different. The partial rescue phenotypes suggest additional factors are involved.
+  - **Resolution test** Directly measure phosphorylation of the mutant proteins by mass spectrometry or phospho-specific antibodies. Show that the phospho-mimic mutants are stable and properly localized. Provide a more detailed model of how phosphorylation at these two sites controls function, accounting for the partial rescue phenotypes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the MEL4 comparison
+  - **Claim pointer** The authors use MEL4 as a comparison to show that the C-terminus is the key functional difference between ENP and MEL4.
+  - **Evidence pointer** Results section "MEL4 cannot replace ENP function"; Figure 6
+  - **Concern** The MEL4 domain swap experiments show that adding the ENP C-terminus to MEL4 does not confer ENP function. The authors interpret this as evidence that the N-terminal/central core also contributes to function. However, the number of lines tested is small (n=14 and n=34), and the expression levels of the chimeric proteins are not reported. It is possible that the chimeric proteins are unstable or mislocalized, which would explain the lack of function.
+  - **Why it matters** The MEL4 comparison is used to argue that the C-terminus is necessary but not sufficient for ENP function. If the chimeric proteins are not properly expressed, this conclusion is weakened.
+  - **Resolution test** Show expression levels and localization of the chimeric proteins. Test additional domain swap constructs with different boundaries. Include a positive control where a known functional domain is swapped.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of terminology
+  - **Affected element** Use of "polarity" vs. "functionality"
+  - **Evidence pointer** Throughout the manuscript
+  - **Issue** The terms "polarity" and "functionality" are used as technical terms but are not formally defined at first use. The distinction is clear from context but a formal definition would help.
+  - **Required correction** Define "polarity" as the ability of the protein to localize asymmetrically at the plasma membrane, and "functionality" as the ability to support PIN1-mediated auxin transport and organ development, at first use.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Phenotypic rescue data
+  - **Evidence pointer** Figure 4A and S2 Data
+  - **Issue** The rescue data are described as "partial" or "full" but the criteria for these categories are not explicitly stated. The number of plants scored per line is not given in the text.
+  - **Required correction** Provide clear criteria for partial vs. full rescue and report the number of plants scored for each construct.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Control for FRAP experiments
+  - **Affected element** FRAP analysis
+  - **Evidence pointer** Results section "FRAP analysis"; Figure 3L
+  - **Issue** The FRAP experiments compare the mobility of different ENP constructs, but a control with a freely diffusing membrane protein is not mentioned.
+  - **Required correction** Include a control protein with known mobility to validate the FRAP measurements.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** In situ hybridization quantification
+  - **Affected element** ENP expression pattern
+  - **Evidence pointer** Results section "ENP expression"; Figure S7
+  - **Issue** The in situ hybridization data are described qualitatively. Quantification of signal intensity across developmental stages would strengthen the claim that ENP expression is not affected in the mutants.
+  - **Required correction** Provide quantitative analysis of in situ signal intensity or state clearly that the analysis is qualitative.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (FLIM-FRET interaction evidence), R1-M2 (phosphorylation mechanism), R1-M3 (MEL4 domain swap controls)
+- **Assessment against Nature-style criteria** Originality: The modular dissection of ENP is a novel contribution, though the concept of separable polarity and function domains is not entirely unprecedented. Scientific importance: The work addresses a key gap in understanding how auxin transport is regulated, which is of broad significance. Interdisciplinary readership: The work will appeal primarily to plant developmental biologists and cell biologists; the biophysical methods (FRAP, FLIM-FRET) broaden the appeal but the overall topic is specialized. Technical soundness: The genetic approach is sound, but the biophysical evidence for interaction and the mechanistic interpretation of phosphorylation data need strengthening. Readability for nonspecialists: The manuscript is generally well written but the distinction between polarity and functionality could be introduced more clearly for readers outside the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is valuable and the genetic data are compelling, but the interaction evidence and the phosphorylation mechanism require additional experimental support before the central claims can be fully accepted.
+
+## Risk / unsupported claims
+- The claim that ENP interacts with PIN2 mainly via its C-terminus is not fully supported by the FLIM-FRET data as presented, due to small effect sizes and missing statistical details.
+- The claim that phosphorylation at Ser514 and Ser553 directly controls ENP function is not fully supported, as direct phosphorylation measurements are not provided.
+- The claim that the C-terminus is essential for ENP function is supported by deletion data, but the mechanism (interaction with PINs) is inferred rather than directly demonstrated.
+- The claim that MEL4 cannot replace ENP function is supported, but the domain swap experiments lack expression controls, making the interpretation uncertain.
+- The claim that ENP is closely associated with the plasma membrane is supported by FLIM-FRET with FM4-64, but the specificity of this association is not fully addressed.

@@ -1,0 +1,372 @@
+{
+  "identity": {
+    "pmid": "36979339",
+    "doi": "10.3390/biom13030404",
+    "title": "Linker Length Drives Heterogeneity of Multivalent Complexes of Hub Protein LC8 and Transcription Factor ASCIZ."
+  },
+  "content": {
+    "abstract": "LC8, a ubiquitous and highly conserved hub protein, binds over 100 proteins involved in numerous cellular functions, including cell death, signaling, tumor suppression, and viral infection. LC8 binds intrinsically disordered proteins (IDPs), and although several of these contain multiple LC8 binding motifs, the effects of multivalency on complex formation are unclear. Drosophila ASCIZ has seven motifs that vary in sequence and inter-motif linker lengths, especially within subdomain QT2-4 containing the second, third, and fourth LC8 motifs. Using isothermal-titration calorimetry, analytical-ultracentrifugation, and native mass-spectrometry of QT2-4 variants, with methodically deactivated motifs, we show that inter-motif spacing and specific motif sequences combine to control binding affinity and compositional heterogeneity of multivalent duplexes. A short linker separating strong and weak motifs results in stable duplexes but forms off-register structures at high LC8 concentrations. Contrastingly, long linkers engender lower cooperativity and heterogeneous complexation at low LC8 concentrations. Accordingly, two-mers, rather than the expected three-mers, dominate negative-stain electron-microscopy images of QT2-4. Comparing variants containing weak-strong and strong-strong motif combinations demonstrates sequence also regulates IDP/LC8 assembly. The observed trends persist for trivalent ASCIZ subdomains: QT2-4, with long and short linkers, forms heterogeneous complexes, whereas QT4-6, with similar mid-length linkers, forms homogeneous complexes. Implications of linker length variations for function are discussed.",
+    "keywords": [
+      "dimers",
+      "duplexes",
+      "heterogeneity",
+      "hub proteins",
+      "intrinsic disorder",
+      "linker length",
+      "multivalency",
+      "transcription factor"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Drosophila melanogaster",
+      "*Gene Expression Regulation",
+      "Protein Binding",
+      "Signal Transduction",
+      "*Transcription Factors/metabolism",
+      "Dyneins",
+      "Drosophila Proteins"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Walker, Douglas R",
+        "Jara, Kayla A",
+        "Rolland, Amber D",
+        "Brooks, Coban",
+        "Hare, Wendy",
+        "Swansiger, Andrew K",
+        "Reardon, Patrick N",
+        "Prell, James S",
+        "Barbar, Elisar J"
+      ],
+      "short_names": [
+        "Walker DR",
+        "Jara KA",
+        "Rolland AD",
+        "Brooks C",
+        "Hare W",
+        "Swansiger AK",
+        "Reardon PN",
+        "Prell JS",
+        "Barbar EJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9323-3158",
+        "ORCID: 0000-0002-7905-8250",
+        "ORCID: 0000-0002-7320-5491",
+        "ORCID: 0000-0002-6858-0086"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, USA.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, USA.",
+        "Department of Chemistry and Biochemistry, University of Oregon, Eugene, OR 97403, USA.",
+        "Institute of Molecular Biology, University of Oregon, Eugene, OR 97403, USA.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, USA.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, USA.",
+        "Department of Chemistry and Biochemistry, University of Oregon, Eugene, OR 97403, USA.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, USA.",
+        "NMR Facility, Oregon State University, Corvallis, OR 97331, USA.",
+        "Department of Chemistry and Biochemistry, University of Oregon, Eugene, OR 97403, USA.",
+        "Materials Science Institute, University of Oregon, Eugene, OR 97403, USA.",
+        "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Walker, Douglas R",
+        "short_name": "Walker DR",
+        "identifiers": [
+          "0000-0002-9323-3158"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, USA."
+        ]
+      },
+      {
+        "full_name": "Jara, Kayla A",
+        "short_name": "Jara KA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, USA."
+        ]
+      },
+      {
+        "full_name": "Rolland, Amber D",
+        "short_name": "Rolland AD",
+        "identifiers": [
+          "0000-0002-7905-8250"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Oregon, Eugene, OR 97403, USA.",
+          "Institute of Molecular Biology, University of Oregon, Eugene, OR 97403, USA."
+        ]
+      },
+      {
+        "full_name": "Brooks, Coban",
+        "short_name": "Brooks C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, USA."
+        ]
+      },
+      {
+        "full_name": "Hare, Wendy",
+        "short_name": "Hare W",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, USA."
+        ]
+      },
+      {
+        "full_name": "Swansiger, Andrew K",
+        "short_name": "Swansiger AK",
+        "identifiers": [
+          "0000-0002-7320-5491"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Oregon, Eugene, OR 97403, USA."
+        ]
+      },
+      {
+        "full_name": "Reardon, Patrick N",
+        "short_name": "Reardon PN",
+        "identifiers": [
+          "0000-0002-6858-0086"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, USA.",
+          "NMR Facility, Oregon State University, Corvallis, OR 97331, USA."
+        ]
+      },
+      {
+        "full_name": "Prell, James S",
+        "short_name": "Prell JS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Oregon, Eugene, OR 97403, USA.",
+          "Materials Science Institute, University of Oregon, Eugene, OR 97403, USA."
+        ]
+      },
+      {
+        "full_name": "Barbar, Elisar J",
+        "short_name": "Barbar EJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Biophysics, Oregon State University, Corvallis, OR 97331, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2023 Feb 21",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/03/30 06:00",
+    "fetched_at": "2026-09-20 20:44:12"
+  },
+  "links": {
+    "cites": [
+      "42146451",
+      "41542604",
+      "41194529",
+      "41191219",
+      "40843979",
+      "40337642",
+      "40298087",
+      "40107617",
+      "37371595"
+    ],
+    "refs": [
+      "36335430",
+      "34827601",
+      "34656330",
+      "33538693",
+      "32311332",
+      "32139510",
+      "31634467",
+      "31266884",
+      "31009951",
+      "30091878",
+      "27864381",
+      "26652654",
+      "26481351",
+      "26226419",
+      "25263009",
+      "24773235",
+      "24336747",
+      "23892546",
+      "23747363",
+      "23223634",
+      "22965910",
+      "22891272",
+      "22753897",
+      "22167198",
+      "21971545",
+      "21533121",
+      "20975950",
+      "20974845",
+      "19759397",
+      "19641106",
+      "19548978",
+      "19380881",
+      "18175310",
+      "18092820",
+      "16317077",
+      "16218947",
+      "15581372",
+      "11914076",
+      "11513870",
+      "11333967",
+      "11024151",
+      "10869041",
+      "10692345"
+    ],
+    "similar": [
+      "36979339",
+      "32139510",
+      "29714690",
+      "35245498",
+      "26652654",
+      "25263009",
+      "34656330",
+      "24920673",
+      "23223634",
+      "26226419",
+      "31266884",
+      "26253171",
+      "36335430",
+      "37083599",
+      "28792212",
+      "29240760",
+      "33630249",
+      "31634467",
+      "21621319",
+      "17570393",
+      "11327818",
+      "23914803",
+      "26972460",
+      "21454704",
+      "36114230",
+      "23482567",
+      "26459761",
+      "21777386",
+      "22167198",
+      "17274669",
+      "31505170",
+      "17438267",
+      "18942858",
+      "15581372",
+      "19759397",
+      "12920307",
+      "24336747",
+      "21971545",
+      "22753897",
+      "23038268",
+      "24757501",
+      "33383033",
+      "21533121",
+      "18948118",
+      "11914076",
+      "14760703",
+      "15078108",
+      "15611139",
+      "31518611",
+      "22891272",
+      "15701632",
+      "11602781",
+      "29306779",
+      "19696030",
+      "18092820",
+      "19641106",
+      "9155030",
+      "27881680",
+      "26553976",
+      "22399317",
+      "32311332",
+      "25312846",
+      "11689631",
+      "11746667",
+      "12782328",
+      "8216894",
+      "23293355",
+      "34075638",
+      "26832406",
+      "35012986",
+      "10656784",
+      "26376097",
+      "26344835",
+      "24186981",
+      "30232260",
+      "18635601",
+      "15462411",
+      "16107705",
+      "9774480",
+      "17428790",
+      "22399320",
+      "19557173",
+      "35697294",
+      "31597702"
+    ],
+    "review": [
+      "36979339",
+      "25263009",
+      "26226419",
+      "21777386",
+      "24757501",
+      "29306779",
+      "22399317",
+      "32311332"
+    ],
+    "pmc": [
+      "10046861"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=36979339",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom13030404",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36979339/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36979339",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

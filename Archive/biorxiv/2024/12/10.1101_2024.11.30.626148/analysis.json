@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.11.30.626148",
+  "title": "Unbiased learning of protein conformational representation via unsupervised random forest",
+  "authors": "Sahil M; Ahalawat N; Mondal J",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-01",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 7,
+  "one_liner_zh": "提出无监督随机森林(URF)方法，无需标签即可学习蛋白质构象表征并识别功能关键残基特征，在折叠与无序蛋白体系上验证，可结合马尔可夫模型解析构象景观，虽非直接研究PPI，但其无监督特征学习方法对无序蛋白互作机制建模具有可迁移启发。",
+  "abstract": "Accurate data representation is paramount in biophysics to capture the functionally relevant motions of biomolecules. Traditional feature selection methods, while effective, often rely on labeled data based on prior knowledge and user-supervision, limiting their applicability to novel systems. Here, we present unsupervised random forest (URF), a self-supervised adaptation of traditional random forests that identifies functionally critical features of biomolecules without requiring prior labels. By devising a memory-efficient implementation, we first demonstrate URF’s capability to learn important sets of inter-residue features of a protein and subsequently to resolve its complex conformational landscape, performing at par or surpassing its traditional supervised counterpart and 15 other leading baseline methods. Crucially, URF is supplemented by an internal metric, the learning coefficient , which automates the process of hyper-parameter optimization, making the method robust and user-friendly. URF’s remarkable ability to learn important protein features in an unbiased fashion was validated against 10 independent protein systems including both both folded and intrinsically disordered states. In particular, benchmarking investigations showed that the protein representations identified by URF are functionally meaningful in comparison to current state-of-the-art deep learning methods. As an application, we show that URF can be seamlessly integrated with downstream analyses pipeline such as Markov state models to attain better resolved outputs. The investigation presented here establishes URF as a leading tool for unsupervised representation learning in protein biophysics.",
+  "abstract_zh": "在生物物理学中，准确的数据表示对于捕捉生物分子的功能相关运动至关重要。传统的特征选择方法虽然有效，但往往依赖于基于先验知识和用户监督的标记数据，限制了其在新系统上的适用性。在此，我们提出无监督随机森林（unsupervised random forest, URF），这是传统随机森林的一种自监督改编，无需先验标签即可识别生物分子的功能关键特征。通过设计一种内存高效的实现，我们首先展示了URF学习蛋白质重要残基间特征集的能力，并随后解析其复杂的构象景观，其性能与传统的监督对应方法及15种其他领先基线方法相当或更优。关键的是，URF辅以内部度量——学习系数，该系数自动化了超参数优化过程，使方法既稳健又用户友好。URF以无偏方式学习重要蛋白质特征的显著能力，已在10个独立蛋白质系统上得到验证，包括折叠态和内在无序态。特别是，基准测试研究表明，与当前最先进的深度学习方法相比，URF识别的蛋白质表示具有功能意义。作为应用，我们展示了URF可无缝集成到下游分析流程中，如马尔可夫状态模型，以获得更优分辨率的输出。本研究所呈现的结果确立了URF作为蛋白质生物物理学中无监督表示学习的领先工具。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.11.30.626148",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.11.30.626148",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.11.30.626148/index.html"
+}

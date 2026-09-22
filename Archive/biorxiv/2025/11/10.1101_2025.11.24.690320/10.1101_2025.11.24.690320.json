@@ -1,0 +1,106 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.11.24.690320",
+  "title": "Slab-PTM: A Coarse-Grained Force-Field Parameter Patch for Modeling Post-Translational Modification Effects on Biomolecular Condensates",
+  "doi": "10.1101/2025.11.24.690320",
+  "abstract": "Intrinsically disordered proteins (IDPs) play crucial roles in biomolecular condensate formation. While molecular dynamics simulations employing coarse-grained models have emerged as useful tools for studying IDP phase behavior, current force-field parameterizations remain limited in their ability to simulate post-translational modifications (PTMs), which are the critical regulatory elements of IDP involved condensation with profound biological implications. To address this gap, we developed interaction parameters for five common PTM types: phosphorylated serine (pSer), threonine (pThr), and tyrosine (pTyr); acetylated lysine (AcLys); and asymmetric dimethylarginine (aDMA). Using all-atom umbrella sampling simulations, we computed residue-specific potentials of mean force (PMFs) between modified and canonical amino acids. These PMF-derived parameters were systematically integrated into the established slab-geometry coarse-grained models (CALVADOS and Mpipi) via an additive module termed as Slab-PTM. Benchmark simulations demonstrate that Slab-PTM accurately captures the effects of PTMs on IDP phase behavior while remaining fully compatible with existing LLPS simulation frameworks. In addition, Slab-PTM enables the identification of molecular grammar elements through which PTMs modulate IDP-driven phase separation.",
+  "authors": [
+    "Mu J",
+    "Lai L"
+  ],
+  "published_date": "2025-11-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690320",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.11.24.690320.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1127313",
+    "raw_record": {
+      "id": "PPR1127313",
+      "source": "PPR",
+      "doi": "10.1101/2025.11.24.690320",
+      "title": "Slab-PTM: A Coarse-Grained Force-Field Parameter Patch for Modeling Post-Translational Modification Effects on Biomolecular Condensates",
+      "authorString": "Mu J, Lai L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mu J",
+            "lastName": "Mu",
+            "firstName": "Junxi",
+            "initials": "J"
+          },
+          {
+            "fullName": "Lai L",
+            "lastName": "Lai",
+            "firstName": "Luhua",
+            "initials": "L"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Intrinsically disordered proteins (IDPs) play crucial roles in biomolecular condensate formation. While molecular dynamics simulations employing coarse-grained models have emerged as useful tools for studying IDP phase behavior, current force-field parameterizations remain limited in their ability to simulate post-translational modifications (PTMs), which are the critical regulatory elements of IDP involved condensation with profound biological implications. To address this gap, we developed interaction parameters for five common PTM types: phosphorylated serine (pSer), threonine (pThr), and tyrosine (pTyr); acetylated lysine (AcLys); and asymmetric dimethylarginine (aDMA). Using all-atom umbrella sampling simulations, we computed residue-specific potentials of mean force (PMFs) between modified and canonical amino acids. These PMF-derived parameters were systematically integrated into the established slab-geometry coarse-grained models (CALVADOS and Mpipi) via an additive module termed as Slab-PTM. Benchmark simulations demonstrate that Slab-PTM accurately captures the effects of PTMs on IDP phase behavior while remaining fully compatible with existing LLPS simulation frameworks. In addition, Slab-PTM enables the identification of molecular grammar elements through which PTMs modulate IDP-driven phase separation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Natural Science Foundation of China",
+            "grantId": "22237002",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Natural Science Foundation of China",
+            "grantId": "T2321001",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.11.24.690320"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-11-29",
+      "firstPublicationDate": "2025-11-27",
+      "firstIndexDate": "2025-11-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

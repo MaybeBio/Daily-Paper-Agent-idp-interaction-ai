@@ -1,0 +1,456 @@
+{
+  "identity": {
+    "pmid": "41755863",
+    "doi": "10.1021/jacsau.5c01403",
+    "title": "Diterpene Molecular Glue Stabilizes Protein-Protein Interactions of a Disordered Phosphoprotein that Controls Translational Repression."
+  },
+  "content": {
+    "abstract": "Chemical stabilization of protein-protein interactions involving intrinsically disordered phosphoproteins is an emerging yet challenging problem. Synthetic agents capable of achieving this goal are desirable for advancing understanding of the biological roles of these transient interactions and for developing new therapeutics. 12-Deoxyfusicoccin (12-dFC), a semisynthetic derivative of the phytotoxin fusicoccin A, exhibits significant antitumor activity in animal models while its parent compound and 12-hydroxyfusicoccin (12-hFC) are inactive, although the molecular mechanism underlying this differential activity has remained unclear. Here, through tandem-affinity proteomics, we identified GRB10-interacting GYF protein 2 (GIGYF2), a largely disordered scaffold protein in mRNA translational repression complexes as a 14-3-3 binding partner selectively stabilized by 12-dFC but not 12-hFC. Biochemical analyses revealed that 12-dFC promotes cooperative binding of 14-3-3 to the mode-1 consensus motif KGVpS(546)IP in GIGYF2, enhancing binding affinity by approximately 50-fold. This stabilization enhanced GIGYF2's translational repressor function, suppressing protein synthesis and inhibiting cell proliferation. We further demonstrated that activation of AMP-activated protein kinase (AMPK), the cellular energy sensor kinase, enhanced 14-3-3 binding to wild-type GIGYF2 but not the S546A mutant, indicating that AMPK mediates S(546) phosphorylation. Importantly, S(546) phosphorylation increased significantly under starvation conditions, suggesting a GIGYF2-regulated stress-responsive pathway that suppresses protein synthesis to conserve ATP through reversible 14-3-3 binding. These findings demonstrate that 12-dFC is a potent molecular glue stabilizer of 14-3-3 interactions with intrinsically disordered phosphoproteins and offers a robust chemical basis for developing synthetic agents that target 14-3-3-mediated control of metabolic homeostasis.",
+    "keywords": [
+      "14-3-3",
+      "AMPK",
+      "GIGYF2",
+      "intrinsically disordered phosphoproteins",
+      "molecular glue",
+      "protein-protein interactions",
+      "stress responses",
+      "translational repression"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ogino, Nanami",
+        "Masuda, Ryoma",
+        "Igaue, Shota",
+        "Arita, Mei",
+        "Matsumura, Ami",
+        "Ieda, Yumi",
+        "Muroi, Makoto",
+        "Matsumoto, Ken",
+        "Nakagawa, Reiko",
+        "Higuchi, Yusuke",
+        "Osada, Hiroyuki",
+        "Yoshida, Minoru",
+        "Kii, Isao",
+        "Ohkanda, Junko"
+      ],
+      "short_names": [
+        "Ogino N",
+        "Masuda R",
+        "Igaue S",
+        "Arita M",
+        "Matsumura A",
+        "Ieda Y",
+        "Muroi M",
+        "Matsumoto K",
+        "Nakagawa R",
+        "Higuchi Y",
+        "Osada H",
+        "Yoshida M",
+        "Kii I",
+        "Ohkanda J"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4323-9527",
+        "ORCID: 0000-0002-7864-3394",
+        "ORCID: 0000-0002-6178-2945",
+        "ORCID: 0000-0002-5982-9660",
+        "ORCID: 0000-0002-3606-4925",
+        "ORCID: 0000-0002-6153-6250",
+        "ORCID: 0000-0001-9663-5104"
+      ],
+      "affiliations": [
+        "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan.",
+        "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan.",
+        "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan.",
+        "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan.",
+        "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan.",
+        "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan.",
+        "RIKEN Center for Sustainable Resource Science, 2-1 Hirosawa, Wako, Saitama 351-0198, Japan.",
+        "RIKEN Center for Sustainable Resource Science, 2-1 Hirosawa, Wako, Saitama 351-0198, Japan.",
+        "Laboratory for Cell-Free Protein Synthesis, RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Hyogo, Japan.",
+        "Institute of Scientific and Industrial Research, Osaka University, 8-1 Mihogaoka, Osaka 567-0047, Ibaraki, Japan.",
+        "Beckman Research Institute, City of Hope, 1710 Flower Ave, Duarte, California 91010, United States.",
+        "RIKEN Center for Sustainable Resource Science, 2-1 Hirosawa, Wako, Saitama 351-0198, Japan.",
+        "Institute of Microbial Chemistry (BIKAKEN), Kamiosaki, Shinagawa-ku, Tokyo 141-0021, Japan.",
+        "RIKEN Center for Sustainable Resource Science, 2-1 Hirosawa, Wako, Saitama 351-0198, Japan.",
+        "Office of University Professors, The University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-8657, Japan.",
+        "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan.",
+        "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ogino, Nanami",
+        "short_name": "Ogino N",
+        "identifiers": [],
+        "affiliations": [
+          "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan."
+        ]
+      },
+      {
+        "full_name": "Masuda, Ryoma",
+        "short_name": "Masuda R",
+        "identifiers": [],
+        "affiliations": [
+          "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan."
+        ]
+      },
+      {
+        "full_name": "Igaue, Shota",
+        "short_name": "Igaue S",
+        "identifiers": [],
+        "affiliations": [
+          "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan."
+        ]
+      },
+      {
+        "full_name": "Arita, Mei",
+        "short_name": "Arita M",
+        "identifiers": [],
+        "affiliations": [
+          "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan."
+        ]
+      },
+      {
+        "full_name": "Matsumura, Ami",
+        "short_name": "Matsumura A",
+        "identifiers": [],
+        "affiliations": [
+          "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan."
+        ]
+      },
+      {
+        "full_name": "Ieda, Yumi",
+        "short_name": "Ieda Y",
+        "identifiers": [],
+        "affiliations": [
+          "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan."
+        ]
+      },
+      {
+        "full_name": "Muroi, Makoto",
+        "short_name": "Muroi M",
+        "identifiers": [
+          "0000-0002-4323-9527"
+        ],
+        "affiliations": [
+          "RIKEN Center for Sustainable Resource Science, 2-1 Hirosawa, Wako, Saitama 351-0198, Japan."
+        ]
+      },
+      {
+        "full_name": "Matsumoto, Ken",
+        "short_name": "Matsumoto K",
+        "identifiers": [
+          "0000-0002-7864-3394"
+        ],
+        "affiliations": [
+          "RIKEN Center for Sustainable Resource Science, 2-1 Hirosawa, Wako, Saitama 351-0198, Japan."
+        ]
+      },
+      {
+        "full_name": "Nakagawa, Reiko",
+        "short_name": "Nakagawa R",
+        "identifiers": [
+          "0000-0002-6178-2945"
+        ],
+        "affiliations": [
+          "Laboratory for Cell-Free Protein Synthesis, RIKEN Center for Biosystems Dynamics Research, Kobe 650-0047, Hyogo, Japan."
+        ]
+      },
+      {
+        "full_name": "Higuchi, Yusuke",
+        "short_name": "Higuchi Y",
+        "identifiers": [
+          "0000-0002-5982-9660"
+        ],
+        "affiliations": [
+          "Institute of Scientific and Industrial Research, Osaka University, 8-1 Mihogaoka, Osaka 567-0047, Ibaraki, Japan.",
+          "Beckman Research Institute, City of Hope, 1710 Flower Ave, Duarte, California 91010, United States."
+        ]
+      },
+      {
+        "full_name": "Osada, Hiroyuki",
+        "short_name": "Osada H",
+        "identifiers": [
+          "0000-0002-3606-4925"
+        ],
+        "affiliations": [
+          "RIKEN Center for Sustainable Resource Science, 2-1 Hirosawa, Wako, Saitama 351-0198, Japan.",
+          "Institute of Microbial Chemistry (BIKAKEN), Kamiosaki, Shinagawa-ku, Tokyo 141-0021, Japan."
+        ]
+      },
+      {
+        "full_name": "Yoshida, Minoru",
+        "short_name": "Yoshida M",
+        "identifiers": [],
+        "affiliations": [
+          "RIKEN Center for Sustainable Resource Science, 2-1 Hirosawa, Wako, Saitama 351-0198, Japan.",
+          "Office of University Professors, The University of Tokyo, 1-1-1 Yayoi, Bunkyo-ku, Tokyo 113-8657, Japan."
+        ]
+      },
+      {
+        "full_name": "Kii, Isao",
+        "short_name": "Kii I",
+        "identifiers": [
+          "0000-0002-6153-6250"
+        ],
+        "affiliations": [
+          "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan."
+        ]
+      },
+      {
+        "full_name": "Ohkanda, Junko",
+        "short_name": "Ohkanda J",
+        "identifiers": [
+          "0000-0001-9663-5104"
+        ],
+        "affiliations": [
+          "Academic Assembly, Institute of Agriculture, Shinshu University, 8304 Minami-Minowa, Kami-Ina, Nagano 399-4598, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2026 Feb 23",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/27 06:31",
+    "fetched_at": "2026-09-18 01:08:58"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39902774",
+      "37676236",
+      "37585660",
+      "37327777",
+      "37170712",
+      "37130519",
+      "36631611",
+      "35739107",
+      "35662398",
+      "35359567",
+      "35325185",
+      "35142991",
+      "34502507",
+      "33592144",
+      "33450720",
+      "33417864",
+      "32770072",
+      "32559498",
+      "32501683",
+      "32302572",
+      "32302571",
+      "32220335",
+      "31439631",
+      "31114929",
+      "30917308",
+      "30476227",
+      "30238524",
+      "29915393",
+      "29883687",
+      "29590011",
+      "28698298",
+      "28585547",
+      "28279353",
+      "27922079",
+      "27220464",
+      "26763119",
+      "26632868",
+      "26472760",
+      "26456817",
+      "26238356",
+      "25862939",
+      "25735772",
+      "25514926",
+      "24501395",
+      "23544164",
+      "23354001",
+      "23102217",
+      "22758917",
+      "22751931",
+      "22263802",
+      "22105970",
+      "20141511",
+      "19962963",
+      "19541609",
+      "19131956",
+      "16769897",
+      "16494877",
+      "16403428",
+      "16123035",
+      "15014438",
+      "14737123",
+      "12839956",
+      "12771153",
+      "12606564",
+      "11886850",
+      "9724721",
+      "9428519",
+      "9325163",
+      "8601312",
+      "7925968",
+      "7846161",
+      "7827499",
+      "7744080",
+      "1379518"
+    ],
+    "similar": [
+      "41755863",
+      "42475469",
+      "23912807",
+      "29554310",
+      "41130307",
+      "42246097",
+      "25533957",
+      "40643551",
+      "17082196",
+      "22207502",
+      "20670374",
+      "22353783",
+      "17307971",
+      "17519230",
+      "28502587",
+      "40523800",
+      "37127064",
+      "40910885",
+      "22751931",
+      "28468873",
+      "25268761",
+      "22972179",
+      "16844684",
+      "20231899",
+      "41778053",
+      "25761126",
+      "23548904",
+      "24627160",
+      "21853163",
+      "42050705",
+      "33225984",
+      "41840525",
+      "39617253",
+      "26086452",
+      "25792737",
+      "29382046",
+      "11997383",
+      "25065674",
+      "17522630",
+      "41609095",
+      "19125418",
+      "39138413",
+      "28550180",
+      "22158625",
+      "14985505",
+      "26220965",
+      "16760336",
+      "22174045",
+      "26212549",
+      "19245654",
+      "28008135",
+      "31566435",
+      "29168431",
+      "15465812",
+      "41363845",
+      "28615457",
+      "12900407",
+      "21399626",
+      "17018841",
+      "24043427",
+      "24382180",
+      "40766587",
+      "16880506",
+      "31795790",
+      "37380024",
+      "37517320",
+      "37068230",
+      "37293096",
+      "25890336",
+      "19332549",
+      "21265739",
+      "31983282",
+      "41889773",
+      "32417494",
+      "25286318",
+      "15509864",
+      "34206070",
+      "28698298",
+      "16597407",
+      "25829262",
+      "29694866",
+      "15677757",
+      "18801732",
+      "12153572",
+      "41612594",
+      "23436397",
+      "33109619",
+      "30924649",
+      "17409402",
+      "33191271",
+      "32708183",
+      "18805810",
+      "38953310",
+      "26742101",
+      "8939604",
+      "18187610",
+      "28786199",
+      "25846811",
+      "17919121",
+      "31676471"
+    ],
+    "review": [
+      "41755863",
+      "40643551",
+      "17307971",
+      "37127064",
+      "21853163",
+      "29382046",
+      "19245654",
+      "15509864",
+      "16597407"
+    ],
+    "pmc": [
+      "12933339"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41755863/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1247",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.5c01403",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

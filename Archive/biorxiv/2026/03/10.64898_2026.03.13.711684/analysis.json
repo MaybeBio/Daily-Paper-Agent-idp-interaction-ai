@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.13.711684",
+  "title": "Photocrosslinking Activity-Based Probes to Capture the Dynamics of Ubiquitin RING E3 Ligase Interactions",
+  "authors": "Chandler SF; Tatham MH; Branigan E; Nakasone MA; Makukhin N; Ciulli A; Hay RT",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-15",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用光交联活性探针捕获泛素RING E3连接酶互作动态，对象为折叠酶复合物而非无序蛋白，虽涉及PPI机制但无AI/物理模拟方法，对IDR互作建模启发有限。",
+  "abstract": "<h4>SUMMARY</h4> Almost all cellular processes are influenced by ubiquitination. A large family of enzymes known as E3 ligases provide the specificity for ubiquitination, with the largest class among them, the RING E3s, comprising over 600 members in humans. RING E3s facilitate transfer of ubiquitin to substrates by constraining the highly dynamic E2-Ub thioester linkage to be primed for attack from the substrate nucleophile. We have established a workflow that uses a modified ubiquitin carrying a photoactivatable crosslinker that once stably linked to the active site of an E2, creates an activity based probe (ABP) to monitor interactions with E3 ligases. Using this, regions of interaction between ubiquitin and a selection of different RING E3 were determined, which not only confirmed existing structures of E2-Ub-RING-E3 complexes but was also used to assess new Ub-E2-E3 models generated in absence of existing structures.",
+  "abstract_zh": "<h4>摘要</h4> 几乎所有细胞过程都受到泛素化（ubiquitination）的影响。一个被称为E3连接酶（E3 ligases）的大型酶家族为泛素化提供特异性，其中最大的类别是RING E3s，在人类中包含超过600个成员。RING E3s通过将高度动态的E2-Ub硫酯键（thioester linkage）约束为准备接受底物亲核试剂攻击的状态，促进泛素向底物的转移。我们建立了一个工作流程，该流程使用携带光活化交联剂的修饰泛素，一旦其稳定连接到E2的活性位点，就会产生一种基于活性的探针（activity based probe, ABP），用于监测与E3连接酶的相互作用。利用此方法，我们确定了泛素与一系列不同RING E3之间的相互作用区域，这不仅确认了现有的E2-Ub-RING-E3复合物结构，还用于评估在缺乏现有结构情况下生成的新Ub-E2-E3模型。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.13.711684",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.13.711684",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.13.711684/index.html"
+}

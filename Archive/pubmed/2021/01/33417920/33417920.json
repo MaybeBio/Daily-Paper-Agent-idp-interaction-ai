@@ -1,0 +1,356 @@
+{
+  "identity": {
+    "pmid": "33417920",
+    "doi": "10.1016/j.bpj.2020.12.019",
+    "title": "Hsp70 Inhibits Aggregation of IAPP by Binding to the Heterogeneous Prenucleation Oligomers."
+  },
+  "content": {
+    "abstract": "Molecular chaperone Hsp70 plays important roles in the pathology of amyloid diseases by inhibiting aberrant aggregation of proteins. However, the biophysical mechanism of the interaction of Hsp70 with the intrinsically disordered proteins (IDPs) is unclear. Here, we report that Hsp70 inhibits aggregation of islet amyloid polypeptide (IAPP) at substoichiometric concentrations under diverse solution conditions, including in the absence of ATP. The inhibitory effect is strongest if Hsp70 is added in the beginning of aggregation but progressively less if added later, indicating a role for Hsp70 in preventing nucleation of IAPP. However, ensemble measurement of the binding affinity suggests poor interactions between Hsp70 and IAPP. Therefore, we hypothesize that the interaction must involve a rare species (e.g., the oligomeric intermediates of IAPP). Size exclusion chromatography and field flow fractionation are then used to fractionate the constituent species. Multiangle light scattering and fluorescence correlation spectroscopy measurements indicate that the dominant fraction in size exclusion chromatography contains a few nanomolar Hsp70-IAPP complexes amid several mumoles of free Hsp70. Using single-particle two-color coincidence detection measurements, we detected a minor fraction that exhibits fluorescence bursts arising from heterogeneous oligomeric complexes of IAPP and Hsp70. Taken together, our results indicate that Hsp70 interacts poorly with the monomers but strongly with oligomers of IAPP. This is likely a generic feature of the interactions of Hsp70 chaperones with the amyloidogenic IDPs. Whereas high-affinity interactions with the oligomers prevent aberrant aggregation, poor interaction with the monomers averts interference with the physiological functions of the IDPs.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amyloid",
+      "*HSP70 Heat-Shock Proteins",
+      "*Islet Amyloid Polypeptide"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chilukoti, Neeraja",
+        "Sil, Timir Baran",
+        "Sahoo, Bankanidhi",
+        "Deepa, S",
+        "Cherakara, Sreelakshmi",
+        "Maddheshiya, Mithun",
+        "Garai, Kanchan"
+      ],
+      "short_names": [
+        "Chilukoti N",
+        "Sil TB",
+        "Sahoo B",
+        "Deepa S",
+        "Cherakara S",
+        "Maddheshiya M",
+        "Garai K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India.",
+        "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India.",
+        "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India.",
+        "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India.",
+        "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India.",
+        "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India.",
+        "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India. Electronic address: kanchan@tifrh.res.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chilukoti, Neeraja",
+        "short_name": "Chilukoti N",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Sil, Timir Baran",
+        "short_name": "Sil TB",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Sahoo, Bankanidhi",
+        "short_name": "Sahoo B",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Deepa, S",
+        "short_name": "Deepa S",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Cherakara, Sreelakshmi",
+        "short_name": "Cherakara S",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Maddheshiya, Mithun",
+        "short_name": "Maddheshiya M",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India."
+        ]
+      },
+      {
+        "full_name": "Garai, Kanchan",
+        "short_name": "Garai K",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research, Serilingampally, Hyderabad, India. Electronic address: kanchan@tifrh.res.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2021 Feb 2",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/01/09 06:00",
+    "fetched_at": "2026-09-20 00:35:30"
+  },
+  "links": {
+    "cites": [
+      "41719407",
+      "37175554",
+      "36589244",
+      "35811869",
+      "35597552",
+      "35475576",
+      "35455074"
+    ],
+    "refs": [
+      "33798554",
+      "32541895",
+      "32350108",
+      "32198203",
+      "31887113",
+      "31806707",
+      "31600047",
+      "31287614",
+      "31058310",
+      "30089243",
+      "29924993",
+      "29757200",
+      "29706537",
+      "29580826",
+      "29490242",
+      "29300447",
+      "29298892",
+      "28870813",
+      "28708484",
+      "28424588",
+      "28220454",
+      "27607147",
+      "27531960",
+      "27474204",
+      "26960140",
+      "26604727",
+      "26300264",
+      "25921532",
+      "25814786",
+      "25686738",
+      "25683596",
+      "25609918",
+      "25165400",
+      "23840795",
+      "23401512",
+      "22802614",
+      "22022600",
+      "21325107",
+      "20965420",
+      "20931985",
+      "20864533",
+      "20735358",
+      "20651708",
+      "20302520",
+      "19696878",
+      "19491934",
+      "19275675",
+      "18975920",
+      "18780782",
+      "18710262",
+      "18276881",
+      "18223156",
+      "17353506",
+      "16973602",
+      "16849627",
+      "16415353",
+      "16306327",
+      "16275641",
+      "16006679",
+      "15543156",
+      "15044495",
+      "10859365",
+      "10388780",
+      "10230646",
+      "10078548",
+      "10024459",
+      "8620890",
+      "8152488",
+      "7982963",
+      "7900997",
+      "7836448",
+      "2756425"
+    ],
+    "similar": [
+      "33417920",
+      "27641459",
+      "21942864",
+      "35704461",
+      "28004495",
+      "29626442",
+      "29757200",
+      "26604727",
+      "31456396",
+      "21215287",
+      "33887213",
+      "23526456",
+      "25645610",
+      "29378116",
+      "37948788",
+      "24928165",
+      "28684415",
+      "31155148",
+      "28500395",
+      "29300447",
+      "29577153",
+      "22792130",
+      "26763863",
+      "31947546",
+      "23713771",
+      "20698575",
+      "32105649",
+      "29035554",
+      "25649462",
+      "23707907",
+      "23331123",
+      "24892388",
+      "35216095",
+      "32860895",
+      "34365921",
+      "24338965",
+      "22936797",
+      "27791129",
+      "30975901",
+      "28778718",
+      "26786104",
+      "9492286",
+      "29373018",
+      "29989407",
+      "23339420",
+      "24703313",
+      "19405534",
+      "26893614",
+      "34790701",
+      "30737030",
+      "28550295",
+      "35093643",
+      "24009497",
+      "20452363",
+      "25826050",
+      "17353506",
+      "35538665",
+      "25036708",
+      "2195544",
+      "1999270",
+      "10191146",
+      "10078548",
+      "19278224",
+      "27213520",
+      "29499190",
+      "28078343",
+      "16204373",
+      "21148563",
+      "30405276",
+      "20707388",
+      "31295403",
+      "35587203",
+      "26603575",
+      "12234175",
+      "29507232",
+      "8212454",
+      "1541233",
+      "19146426",
+      "20735358",
+      "34964624",
+      "21633500",
+      "21630409",
+      "33013747",
+      "28811318",
+      "22238175",
+      "25638571",
+      "29303519",
+      "30803034",
+      "33269918",
+      "17192466",
+      "35093145",
+      "16804197",
+      "11145957",
+      "30458241",
+      "16973602",
+      "20153100",
+      "35372496"
+    ],
+    "review": [
+      "33417920",
+      "26604727",
+      "21215287",
+      "35093643",
+      "1999270",
+      "8212454",
+      "28811318"
+    ],
+    "pmc": [
+      "7895988"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(20)33244-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33417920/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33417920",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33417920",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

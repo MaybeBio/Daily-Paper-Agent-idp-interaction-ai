@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "40869137",
+    "doi": "10.3390/ijms26167818",
+    "title": "Importin alpha3 Is Tolerant to Nuclear Localization Signal Chirality."
+  },
+  "content": {
+    "abstract": "Several carrier proteins are involved in nuclear translocation from the cytoplasm to the nucleus in eukaryotic cells. We have previously demonstrated the binding of several intact folded and disordered proteins to the human isoform importin alpha3 (Impalpha3); furthermore, disordered peptides, corresponding to their nuclear localization signals (NLSs), also interact with Impalpha3. These proteins and their isolated NLSs also bind to the truncated importin species ∆Impalpha3, which does not contain the N-terminal disordered importin binding domain (IBB). In this work, we added a further 'layer' of conformational disorder to our studies, testing whether the isolated D-enantiomers of NLSs of selected proteins, either folded or unfolded, were capable of binding to both Impalpha3 and ∆Impalpha3. The D-enantiomers, like their L-form counterparts, were monomeric and disordered in isolation, as shown by nuclear magnetic resonance (NMR). We measured the ability of such D-enantiomeric NLSs to interact with both importin species by using fluorescence, biolayer interferometry (BLI), isothermal titration calorimetry (ITC), and molecular simulations. In all cases, the binding affinities were within the same range as those measured for their L-isomer counterparts for either Impalpha3 or ∆Impalpha3, and the binding locations corresponded to the major NLS binding site of the protein. Thus, the stereoisomeric nature is not important in defining the binding of proteins to the main component of classical cellular translocation machinery, although the primary structure of the hot-spot site for NLS binding of importin is well defined.",
+    "keywords": [
+      "D-enantiomers",
+      "binding",
+      "calorimetry",
+      "disordered peptides",
+      "fluorescence",
+      "molecular simulations",
+      "nuclear localization signal"
+    ],
+    "mesh_terms": [
+      "*alpha Karyopherins/chemistry/metabolism",
+      "*Nuclear Localization Signals/chemistry/metabolism",
+      "Humans",
+      "Protein Binding",
+      "Stereoisomerism",
+      "Molecular Dynamics Simulation",
+      "Cell Nucleus/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hornos, Felipe",
+        "Rizzuti, Bruno",
+        "Neira, Jose L"
+      ],
+      "short_names": [
+        "Hornos F",
+        "Rizzuti B",
+        "Neira JL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9360-4086",
+        "ORCID: 0000-0003-1110-764X",
+        "ORCID: 0000-0002-4933-0428"
+      ],
+      "affiliations": [
+        "IDIBE, Instituto de investigacion, Desarrollo e Innovacion en Biotecnologia Sanitaria de Elche, Universidad Miguel Hernandez, 03202 Elche, Alicante, Spain.",
+        "CNR-NANOTEC, Institute of Nanotechnology of Consiglio Nazionale delle Ricerche, SS Rende (CS), Department of Physics, University of Calabria, 87036 Rende, Italy.",
+        "Instituto de Biocomputacion y Fisica de Sistemas Complejos, Universidad de Zaragoza, 50018 Zaragoza, Spain.",
+        "IDIBE, Instituto de investigacion, Desarrollo e Innovacion en Biotecnologia Sanitaria de Elche, Universidad Miguel Hernandez, 03202 Elche, Alicante, Spain.",
+        "Instituto de Biocomputacion y Fisica de Sistemas Complejos, Universidad de Zaragoza, 50018 Zaragoza, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hornos, Felipe",
+        "short_name": "Hornos F",
+        "identifiers": [
+          "0000-0002-9360-4086"
+        ],
+        "affiliations": [
+          "IDIBE, Instituto de investigación, Desarrollo e Innovación en Biotecnologia Sanitaria de Elche, Universidad Miguel Hernández, 03202 Elche, Alicante, Spain."
+        ]
+      },
+      {
+        "full_name": "Rizzuti, Bruno",
+        "short_name": "Rizzuti B",
+        "identifiers": [
+          "0000-0003-1110-764X"
+        ],
+        "affiliations": [
+          "CNR-NANOTEC, Institute of Nanotechnology of Consiglio Nazionale delle Ricerche, SS Rende (CS), Department of Physics, University of Calabria, 87036 Rende, Italy.",
+          "Instituto de Biocomputación y Física de Sistemas Complejos, Universidad de Zaragoza, 50018 Zaragoza, Spain."
+        ]
+      },
+      {
+        "full_name": "Neira, José L",
+        "short_name": "Neira JL",
+        "identifiers": [
+          "0000-0002-4933-0428"
+        ],
+        "affiliations": [
+          "IDIBE, Instituto de investigación, Desarrollo e Innovación en Biotecnologia Sanitaria de Elche, Universidad Miguel Hernández, 03202 Elche, Alicante, Spain.",
+          "Instituto de Biocomputación y Física de Sistemas Complejos, Universidad de Zaragoza, 50018 Zaragoza, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2025 Aug 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/30 04:50",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [
+      "41772808"
+    ],
+    "refs": [
+      "40316501",
+      "39817990",
+      "39715735",
+      "39604735",
+      "39215136",
+      "36499669",
+      "35883608",
+      "35081374",
+      "35051666",
+      "34577592",
+      "34278794",
+      "33945888",
+      "33050086",
+      "32933064",
+      "32780723",
+      "32624581",
+      "32320654",
+      "32234409",
+      "31268623",
+      "30209309",
+      "28760339",
+      "27232663",
+      "27224548",
+      "27113410",
+      "26970212",
+      "26085167",
+      "25476752",
+      "25229647",
+      "24963272",
+      "23253135",
+      "22830348",
+      "21604143",
+      "21234644",
+      "21195222",
+      "20564568",
+      "19520826",
+      "19499576",
+      "19152857",
+      "19001369",
+      "17287812",
+      "16115468",
+      "15264254",
+      "12656985",
+      "10600103",
+      "10201409",
+      "9792690",
+      "9750135",
+      "9367496",
+      "8744570",
+      "8660505",
+      "7417242",
+      "6625170",
+      "6307308",
+      "2610349",
+      "1490109"
+    ],
+    "similar": [
+      "40869137",
+      "33050086",
+      "33945888",
+      "32933064",
+      "36499669",
+      "35883608",
+      "32234409",
+      "23856623",
+      "23910026",
+      "34195786",
+      "23250448",
+      "26812207",
+      "40852899",
+      "29042532",
+      "24609064",
+      "24270630",
+      "21763491",
+      "12610148",
+      "12740372",
+      "28760339",
+      "21690087",
+      "10567565",
+      "21665952",
+      "16375861",
+      "19001369",
+      "17000757",
+      "37001021",
+      "9891056",
+      "35260573",
+      "12186919",
+      "24339986",
+      "23383277",
+      "38108201",
+      "12695505",
+      "17604136",
+      "28383161",
+      "18420738",
+      "15677444",
+      "28166455",
+      "20406804",
+      "15878698",
+      "20643137",
+      "25599645",
+      "17661348",
+      "38869471",
+      "18644123",
+      "20701745",
+      "37284905",
+      "32951146",
+      "20554775",
+      "11796712",
+      "21780770",
+      "28835592",
+      "15611084",
+      "12852786",
+      "16875678",
+      "38369616",
+      "34954861",
+      "32776146",
+      "26456934",
+      "16785238",
+      "26304019",
+      "38065227",
+      "21964294",
+      "24699749",
+      "40141456",
+      "22751659",
+      "9727027",
+      "35767952",
+      "40542147",
+      "33837597",
+      "17640102",
+      "18319300",
+      "36175369",
+      "24042087",
+      "16403019",
+      "18773967",
+      "18462924",
+      "28900157",
+      "32036017",
+      "15591057",
+      "20965181",
+      "11448961",
+      "40030016",
+      "30685087",
+      "12048190",
+      "10930427",
+      "21806995",
+      "28991411",
+      "16439554",
+      "18716025",
+      "9501980",
+      "25960296",
+      "21388519",
+      "31996719",
+      "11283257",
+      "31642884",
+      "40961160",
+      "19117945",
+      "16298512"
+    ],
+    "review": [
+      "40869137"
+    ],
+    "pmc": [
+      "12386367"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms26167818",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40869137/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

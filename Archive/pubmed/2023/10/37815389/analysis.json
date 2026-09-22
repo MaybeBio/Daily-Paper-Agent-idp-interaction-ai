@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37815389",
+  "title": "Multi-scale molecular simulation of random peptide phase separation and its extended-to-compact structure transition driven by hydrophobic interactions.",
+  "authors": "Kang, Wen Bin; Bao, Lei; Zhang, Kai; Guo, Jia; Zhu, Ben Chao; Tang, Qian-Yuan; Ren, Wei Tong; Zhu, Gen",
+  "journal": "Soft matter",
+  "published_date": "2023-10-10",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全原子与粗粒化多尺度模拟研究随机多肽（含IDP特征）的相分离，揭示疏水/静电相互作用如何调控单链构象与相行为，属于IDP相分离互作机制建模，方法为物理模拟，与本课题高度契合。",
+  "abstract": "Intrinsically disordered proteins (IDPs) often undergo liquid-liquid phase separation (LLPS) and form membraneless organelles or protein condensates. One of the core problems is how do electrostatic repulsion and hydrophobic interactions in peptides regulate the phase separation process? To answer this question, this study uses random peptides composed of positively charged arginine (Arg, R) and hydrophobic isoleucine (Ile, I) as the model systems, and conduct large-scale simulations using all atom and coarse-grained model multi-scale simulation methods. In this article, we investigate the phase separation of different sequences using a coarse-grained model. It is found that the stronger the electrostatic repulsion in the system, the more extended the single-chain structure, and the more likely the system forms a low-density homogeneous phase. In contrast, the stronger the hydrophobic effect of the system, the more compact the single-chain structure, the easier phase separation, and the higher the critical temperature of phase separation. Overall, by taking the random polypeptides composed of two types of amino acid residues as model systems, this study discusses the relationship between the protein sequence and phase behaviour, and provides theoretical insights into the interactions within or between proteins. It is expected to provide essential physical information for the sequence design of functional IDPs, as well as data to support the diagnosis and treatment of the LLPS-associated diseases.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 常经历液-液相分离 (liquid-liquid phase separation, LLPS)，形成无膜细胞器或蛋白质凝聚体。核心问题之一在于，肽段中的静电排斥与疏水相互作用如何调控相分离过程？为解答此问题，本研究以由正电荷精氨酸 (arginine, Arg, R) 和疏水性异亮氨酸 (isoleucine, Ile, I) 组成的随机肽作为模型系统，并采用全原子与粗粒化模型的多尺度模拟方法进行大规模模拟。本文中，我们利用粗粒化模型探究不同序列的相分离行为。研究发现，系统中静电排斥越强，单链结构越伸展，系统更倾向于形成低密度均相；相反，系统疏水效应越强，单链结构越紧凑，相分离越易发生，且相分离临界温度越高。总体而言，本研究以两类氨基酸残基组成的随机多肽为模型系统，探讨了蛋白质序列与相行为之间的关系，为蛋白质内部或蛋白质间的相互作用提供了理论见解。预期能为功能性IDPs的序列设计提供基础物理信息，并为LLPS相关疾病的诊断与治疗提供数据支持。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37815389/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37815389/",
+  "paper_page_path": "papers/pubmed/37815389/index.html"
+}

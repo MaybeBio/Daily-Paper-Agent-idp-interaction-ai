@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36179193",
+  "title": "Affinity and Valence Impact the Extent and Symmetry of Phase Separation of Multivalent Proteins.",
+  "authors": "Nandi, Saroj Kumar; Osterle, Daniel; Heidenreich, Meta; Levy, Emmanuel D; Safran, Samuel A",
+  "journal": "Physical review letters",
+  "published_date": "2022-10-01",
+  "window": {
+    "start": "2022-09-26",
+    "end": "2022-10-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用多体晶格模型研究多价蛋白的亲和力与价数如何决定相分离程度和相图对称性，虽未直接涉及IDP，但为无序蛋白介导的凝聚体PPI机制建模提供了可迁移的理论框架。",
+  "abstract": "Biomolecular self-assembly spatially segregates proteins with a limited number of binding sites (valence) into condensates that coexist with a dilute phase. We develop a many-body lattice model for a three-component system of proteins with fixed valence in a solvent. We compare the predictions of the model to experimental phase diagrams that we measure in vivo, which allows us to vary specifically a binding site's affinity and valency. We find that the extent of phase separation varies exponentially with affinity and increases with valency. Valency alone determines the symmetry of the phase diagram.",
+  "abstract_zh": "生物分子自组装将具有有限结合位点（价态）的蛋白质在空间上分隔成与稀相共存的凝聚体。我们为溶剂中具有固定价态的三组分蛋白质系统开发了一个多体晶格模型。我们将模型的预测与我们在体内测量的实验相图进行比较，这使我们能够特异性地改变结合位点的亲和力和价态。我们发现相分离的程度随亲和力呈指数变化，并随价态增加而增大。价态单独决定相图的对称性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36179193/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36179193/",
+  "paper_page_path": "papers/pubmed/36179193/index.html"
+}

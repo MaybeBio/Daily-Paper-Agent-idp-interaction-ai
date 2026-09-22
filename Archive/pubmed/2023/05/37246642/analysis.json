@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37246642",
+  "title": "CAID prediction portal: a comprehensive service for predicting intrinsic disorder and binding regions in proteins.",
+  "authors": "Del Conte, Alessio; Bouhraoua, Adel; Mehdiabadi, Mahta; Clementel, Damiano; Monzon, Alexander Miguel; Tosatto, Silvio C E; Piovesan, Damiano",
+  "journal": "Nucleic acids research",
+  "published_date": "2023-05-29",
+  "window": {
+    "start": "2023-05-29",
+    "end": "2023-06-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍CAID预测门户网站，提供无序蛋白和结合区域预测的标准化服务与共识结果，虽涉及IDR和结合区域预测，但无PPI机制建模或AI/物理方法深度，属于工具资源类。",
+  "abstract": "Intrinsic disorder (ID) in proteins is well-established in structural biology, with increasing evidence for its involvement in essential biological processes. As measuring dynamic ID behavior experimentally on a large scale remains difficult, scores of published ID predictors have tried to fill this gap. Unfortunately, their heterogeneity makes it difficult to compare performance, confounding biologists wanting to make an informed choice. To address this issue, the Critical Assessment of protein Intrinsic Disorder (CAID) benchmarks predictors for ID and binding regions as a community blind-test in a standardized computing environment. Here we present the CAID Prediction Portal, a web server executing all CAID methods on user-defined sequences. The server generates standardized output and facilitates comparison between methods, producing a consensus prediction highlighting high-confidence ID regions. The website contains extensive documentation explaining the meaning of different CAID statistics and providing a brief description of all methods. Predictor output is visualized in an interactive feature viewer and made available for download in a single table, with the option to recover previous sessions via a private dashboard. The CAID Prediction Portal is a valuable resource for researchers interested in studying ID in proteins. The server is available at the URL: https://caid.idpcentral.org.",
+  "abstract_zh": "蛋白质中的内在无序性（intrinsic disorder, ID）在结构生物学中已得到充分确立，越来越多的证据表明其在关键生物过程中发挥作用。由于在大规模上实验测量动态ID行为仍然困难，众多已发表的ID预测器试图填补这一空白。不幸的是，它们的异质性使得性能比较变得困难，使希望做出明智选择的生物学家感到困惑。为解决此问题，蛋白质内在无序性关键评估（Critical Assessment of protein Intrinsic Disorder, CAID）在标准化计算环境中作为社区盲测基准，对ID及结合区域预测器进行评估。在此，我们介绍CAID预测门户（CAID Prediction Portal），这是一个在用户定义序列上执行所有CAID方法的网络服务器。该服务器生成标准化输出，促进方法间比较，并产生突出高置信度ID区域的共识预测。网站包含详尽的文档，解释不同CAID统计数据的含义，并提供所有方法的简要描述。预测器输出在交互式特征查看器中可视化，并可下载为单一表格，同时提供通过私人仪表板恢复先前会话的选项。CAID预测门户是研究蛋白质内在无序性研究人员的重要资源。服务器可通过URL访问：https://caid.idpcentral.org。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37246642/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37246642/",
+  "paper_page_path": "papers/pubmed/37246642/index.html"
+}

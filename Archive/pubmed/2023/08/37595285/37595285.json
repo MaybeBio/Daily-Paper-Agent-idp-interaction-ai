@@ -1,0 +1,267 @@
+{
+  "identity": {
+    "pmid": "37595285",
+    "doi": "10.1021/acs.biochem.3c00212",
+    "title": "Conformational Manifold Sampled by Two Short Linear Motif Segments Probed by Circular Dichroism, Vibrational, and Nuclear Magnetic Resonance Spectroscopy."
+  },
+  "content": {
+    "abstract": "Disordered protein segments called short linear motifs (SLiM) serve as recognition sites for a variety of biological processes and act as targeting signals, modification, and ligand binding sites. While SLiMs do not adopt one of the known regular secondary structures, the conformational distribution might still reflect the structural propensities of their amino acid residues and possible interactions between them. In the past, conformational analyses of short peptides provided compelling evidence for the notion that individual residues are less conformationally flexible than locally expected for a random coil. Here, we combined various spectroscopies (NMR, IR, vibrational, and UV circular dichroism) to determine the Ramachandran plots of two SLiM motifs, i.e., GRRDSG and GRRTSG. They are two representatives of RxxS motifs that are capable of being phosphorylated by protein kinase A, an enzyme that plays a fundamental role in a variety of biological processes. Our results reveal that the nearest and non-nearest interactions between residues cause redistributions between polyproline II and beta-strand basins while concomitantly stabilizing extended relative to turn-forming and helical structures. They also cause shifts in basin positions. With increasing temperature, beta-strand populations become more populated at the expense of polyproline II. While molecular dynamics simulations with Amber ff14SB and CHARMM 36m force fields indicate residue-residue interactions, they do not account for the observed structural changes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Circular Dichroism",
+      "*Amino Acids",
+      "Binding Sites",
+      "*Cyclic AMP-Dependent Protein Kinases",
+      "Magnetic Resonance Spectroscopy"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schweitzer-Stenner, Reinhard",
+        "Kurbaj, Raghed",
+        "O'Neill, Nichole",
+        "Andrews, Brian",
+        "Shah, Riya",
+        "Urbanc, Brigita"
+      ],
+      "short_names": [
+        "Schweitzer-Stenner R",
+        "Kurbaj R",
+        "O'Neill N",
+        "Andrews B",
+        "Shah R",
+        "Urbanc B"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5616-0722",
+        "ORCID: 0000-0003-4469-3147",
+        "ORCID: 0000-0001-9159-7698"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Drexel University, Philadelphia, PA19104Pennsylvania,United States.",
+        "Department of Chemistry, Drexel University, Philadelphia, PA19104Pennsylvania,United States.",
+        "Department of Chemistry, Drexel University, Philadelphia, PA19104Pennsylvania,United States.",
+        "Department of Physics, Drexel University, Philadelphia,PA19104Pennsylvania,United States.",
+        "Department of Physics, Drexel University, Philadelphia,PA19104Pennsylvania,United States.",
+        "Department of Physics, Drexel University, Philadelphia,PA19104Pennsylvania,United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schweitzer-Stenner, Reinhard",
+        "short_name": "Schweitzer-Stenner R",
+        "identifiers": [
+          "0000-0001-5616-0722"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Drexel University, Philadelphia, PA19104Pennsylvania,United States."
+        ]
+      },
+      {
+        "full_name": "Kurbaj, Raghed",
+        "short_name": "Kurbaj R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Drexel University, Philadelphia, PA19104Pennsylvania,United States."
+        ]
+      },
+      {
+        "full_name": "O'Neill, Nichole",
+        "short_name": "O'Neill N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Drexel University, Philadelphia, PA19104Pennsylvania,United States."
+        ]
+      },
+      {
+        "full_name": "Andrews, Brian",
+        "short_name": "Andrews B",
+        "identifiers": [
+          "0000-0003-4469-3147"
+        ],
+        "affiliations": [
+          "Department of Physics, Drexel University, Philadelphia,PA19104Pennsylvania,United States."
+        ]
+      },
+      {
+        "full_name": "Shah, Riya",
+        "short_name": "Shah R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Drexel University, Philadelphia,PA19104Pennsylvania,United States."
+        ]
+      },
+      {
+        "full_name": "Urbanc, Brigita",
+        "short_name": "Urbanc B",
+        "identifiers": [
+          "0000-0001-9159-7698"
+        ],
+        "affiliations": [
+          "Department of Physics, Drexel University, Philadelphia,PA19104Pennsylvania,United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biochemistry"
+    ],
+    "journal_abbrev": [
+      "Biochemistry"
+    ],
+    "pub_date": "2023 Sep 5",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/08/18 18:41",
+    "fetched_at": "2026-09-21 00:25:33"
+  },
+  "links": {
+    "cites": [
+      "41919199",
+      "39979079",
+      "38877893",
+      "38447080"
+    ],
+    "refs": [],
+    "similar": [
+      "37595285",
+      "22435395",
+      "22712805",
+      "17918837",
+      "20014772",
+      "17279623",
+      "21879108",
+      "23448349",
+      "21138254",
+      "11727705",
+      "23631686",
+      "12837087",
+      "33453267",
+      "29235155",
+      "35048087",
+      "35625612",
+      "24423055",
+      "21997956",
+      "34619031",
+      "1643268",
+      "20825228",
+      "33794191",
+      "27545097",
+      "34524800",
+      "14579303",
+      "11297408",
+      "12069609",
+      "21728315",
+      "9007989",
+      "22223291",
+      "10517158",
+      "18767125",
+      "12324465",
+      "20184301",
+      "17656579",
+      "22465068",
+      "15895435",
+      "8442659",
+      "28278764",
+      "19049417",
+      "14995194",
+      "10625440",
+      "25495558",
+      "32579367",
+      "11732691",
+      "11101312",
+      "2085389",
+      "8269922",
+      "8568894",
+      "25728043",
+      "7490751",
+      "9558319",
+      "19243204",
+      "15751971",
+      "27881680",
+      "9745898",
+      "25262612",
+      "12395395",
+      "10100122",
+      "23925889",
+      "15718283",
+      "23934782",
+      "16503636",
+      "1868097",
+      "16091285",
+      "21547966",
+      "14499601",
+      "15134460",
+      "12091708",
+      "10899163",
+      "29539392",
+      "20623571",
+      "26387106",
+      "11683627",
+      "1507227",
+      "17600445",
+      "12202354",
+      "23229832",
+      "16571011",
+      "20418937",
+      "15657879",
+      "9878373",
+      "11575936",
+      "8662719",
+      "34152264",
+      "1583683",
+      "15568682",
+      "19123778",
+      "12767128",
+      "16854433",
+      "10563815",
+      "9806936",
+      "9295304"
+    ],
+    "review": [
+      "37595285",
+      "21879108",
+      "11727705",
+      "10517158",
+      "12395395",
+      "23934782"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FHL1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/bichaw/article-lookup/doi/10.1021/acs.biochem.3c00212",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

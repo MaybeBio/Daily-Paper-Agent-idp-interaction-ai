@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.15.520545",
+  "title": "Cryo-EM structures of chronic traumatic encephalopathy tau filaments with PET ligand flortaucipir",
+  "authors": "Shi Y; Ghetti B; Goedert M; Scheres SH",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-15",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用冷冻电镜解析tau纤维与PET配体flortaucipir的结合结构，对象为tau淀粉样纤维而非无序蛋白/IDR，且关注小分子配体而非蛋白-蛋白互作，虽涉及纤维结构机制但与本课题的IDP-PPI建模关联较弱。",
+  "abstract": "Positron emission tomography (PET) imaging allows monitoring the progression of amyloid aggregation in the living brain. [ 18 F]-Flortaucipir is the only approved PET tracer compound for the visualisation of tau aggregation. Here, we describe cryo-EM experiments on tau filaments in the presence and absence of flortaucipir. We used tau filaments isolated from the brain of an individual with Alzheimer’s disease (AD), and from the brain of an individual with primary age-related tauopathy (PART) with a co-pathology of chronic traumatic encephalopathy (CTE). Unexpectedly, we were unable to visualise additional cryo-EM density for flortaucipir for AD paired helical or straight filaments (PHFs or SFs), but we did observe density for flortaucipir binding to CTE Type I filaments from the case with PART. In the latter, flortaucipir binds in a 1:1 molecular stoichiometry with tau, adjacent to lysine 353 and aspartate 358. By adopting a tilted geometry with respect to the helical axis, the 4.7 Å distance between neighbouring tau monomers is reconciled with the 3.5 Å distance consistent with π-π-stacking between neighbouring molecules of flortaucipir.",
+  "abstract_zh": "正电子发射断层扫描（PET）成像能够监测活体大脑中淀粉样蛋白聚集的进展。[18F]-Flortaucipir是唯一获批用于可视化tau蛋白聚集的PET示踪剂化合物。在此，我们描述了在存在和不存在flortaucipir的情况下对tau蛋白丝进行的冷冻电镜实验。我们使用了从一名阿尔茨海默病（AD）患者大脑中分离的tau蛋白丝，以及从一名患有原发性年龄相关tau蛋白病（PART）并伴有慢性创伤性脑病（CTE）共病理的个体大脑中分离的tau蛋白丝。出乎意料的是，我们无法观察到flortaucipir在AD配对螺旋丝或直丝（PHFs或SFs）上的额外冷冻电镜密度，但确实观察到flortaucipir与来自PART病例的CTE I型丝结合的密度。在后一种情况下，flortaucipir以1:1的分子化学计量比与tau蛋白结合，位于赖氨酸353和天冬氨酸358附近。通过相对于螺旋轴采用倾斜几何构型，相邻tau单体之间4.7 Å的距离与相邻flortaucipir分子间π-π堆积所对应的3.5 Å距离得以协调。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.15.520545",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.15.520545",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.15.520545/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39582894",
+  "title": "Impact of water models on the structure and dynamics of enzyme tunnels.",
+  "authors": "Sethi, Aaftaab; Agrawal, Nikhil; Brezovsky, Jan",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2024-11-25",
+  "window": {
+    "start": "2024-11-25",
+    "end": "2024-12-01"
+  },
+  "score": 3,
+  "one_liner_zh": "该文研究水模型对酶隧道结构动力学的影响，对象为折叠酶而非无序蛋白，无PPI或AI/物理建模机制，仅间接涉及MD方法，与本课题关联微弱。",
+  "abstract": "Protein hydration plays a vital role in many biological functions, and molecular dynamics simulations are frequently used to study it. However, the accuracy of these simulations is often sensitive to the water model used, a phenomenon particularly evident in intrinsically disordered proteins. Here, we investigated the extent to which the choice of water model alters the behavior of complex networks of tunnels within proteins. Tunnels are essential because they allow the exchange of substrates and products between buried enzyme active sites and the bulk solvent, directly affecting enzyme efficiency and selectivity, making the study of tunnels crucial for a holistic understanding of enzyme function at the molecular level. By performing simulations of haloalkane dehalogenase LinB and its two variants with engineered tunnels using TIP3P and OPC models, we investigated their effects on the overall tunnel topology. We also analyzed the properties of the primary tunnels, including their conformation, bottleneck dimensions, sampling efficiency, and the duration of tunnel openings. Our data demonstrate that all three proteins exhibited similar conformational behavior in both models but differed in the geometrical characteristics of their auxiliary tunnels, consistent with experimental observations. Interestingly, the results indicate that the stability of the open tunnels might be sensitive to the water model used. Because TIP3P can provide comparable data on the overall tunnel network, it is a valid choice when computational resources are limited or compatibility issues impede the use of OPC. However, OPC seems preferable for calculations requiring an accurate description of transport kinetics.",
+  "abstract_zh": "蛋白质水合在许多生物功能中扮演着至关重要的角色，分子动力学 (molecular dynamics) 模拟常被用于研究这一过程。然而，这些模拟的准确性往往对所用的水模型敏感，这一现象在固有无序蛋白质中尤为明显。在此，我们研究了水模型的选择在多大程度上改变蛋白质内复杂隧道网络的行为。隧道至关重要，因为它们允许底物和产物在埋藏的酶活性位点与本体溶剂之间交换，直接影响酶的效率和选择性，使得隧道研究对于在分子水平上全面理解酶功能至关重要。通过对卤代烷脱卤酶LinB及其两个具有工程化隧道的变体使用TIP3P和OPC模型进行模拟，我们研究了它们对整体隧道拓扑结构的影响。我们还分析了主要隧道的性质，包括其构象、瓶颈尺寸、采样效率以及隧道开放持续时间。我们的数据表明，所有三种蛋白质在两种模型下均表现出相似的构象行为，但在辅助隧道的几何特征上存在差异，这与实验观察一致。有趣的是，结果表明开放隧道的稳定性可能对所用的水模型敏感。由于TIP3P能提供关于整体隧道网络的可比数据，在计算资源有限或兼容性问题阻碍OPC使用时，它是一个有效的选择。然而，对于需要精确描述传输动力学的计算，OPC似乎更为可取。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39582894/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39582894/",
+  "paper_page_path": "papers/pubmed/39582894/index.html"
+}

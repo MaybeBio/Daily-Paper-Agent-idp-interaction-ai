@@ -1,0 +1,165 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.04.486905",
+  "title": "Multistate structures of the MLL1-WRAD complex bound to H2B-ubiquitinated nucleosome",
+  "doi": "10.1101/2022.04.04.486905",
+  "abstract": "The human Mixed Lineage Leukemia-1 (MLL1) complex orchestrates methylation of histone H3K4 to promote transcription and is stimulated by monoubiquitination of histone H2B. Recent structures of the MLL1-WRAD core complex, which comprises the MLL1 methyltransferase, W DR5, R bBp5, A sh2L, and D PY-30, have revealed variation in the docking of MLL1-WRAD on nucleosomes and left ambiguous portions of Ash2L and the position of DPY30. We used an integrated approach combining cryo-electron microscopy and mass spectrometry-crosslinking to determine structures of the MLL1-WRAD complex bound to ubiquitinated nucleosomes containing the Ash2L intrinsically disordered region (IDR), SPRY insertion region, Sdc1-DPY30 interacting region (SDI-motif), and the DPY30 dimer. We resolved three additional states of MLL1-WRAD lacking one or more subunits, which may reflect different steps in the assembly of MLL1-WRAD. The subunits in all four states are positioned on the nucleosome in manner that is similar to a previous structure of MLL1-WRAD bound to ubiquitinated nucleosome, but that differs from structures with unmodified nucleosomes, suggesting that H2B-ubiquitin favors assembly of the active complex. Our results provide a more complete picture of MLL1-WRAD and the role of ubiquitin in promoting formation of the active methyltransferase complex. <h4>Significance</h4> The Mixed Lineage Leukemia-1 (MLL1) complex plays a role in activating transcription by methylating lysine 4 in histone H3, a reaction that is stimulated by the presence of ubiquitin conjugated to histone H2B. Recent structures of the core MLL1 complex, termed MLL1-WRAD, have revealed the existence of multiple docking states and have also left ambiguous portions of the structure. Here we combine mass spectrometry-cross linking with cryo-EM to model additional regions of the MLL1-WRAD complex and identify a series of states that light on complex assembly and the role that ubiquitin plays in orienting MLL1-WRAD on nucleosomes.",
+  "authors": [
+    "Hoffmann NA",
+    "Rahman S",
+    "Worden EJ",
+    "Smith ML",
+    "Namitz KE",
+    "Knutson BA",
+    "Cosgrove MS",
+    "Wolberger C"
+  ],
+  "published_date": "2022-04-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.04.486905",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.04.486905.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR477508",
+    "raw_record": {
+      "id": "PPR477508",
+      "source": "PPR",
+      "doi": "10.1101/2022.04.04.486905",
+      "title": "Multistate structures of the MLL1-WRAD complex bound to H2B-ubiquitinated nucleosome",
+      "authorString": "Hoffmann NA, Rahman S, Worden EJ, Smith ML, Namitz KE, Knutson BA, Cosgrove MS, Wolberger C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hoffmann NA",
+            "lastName": "Hoffmann",
+            "firstName": "Niklas",
+            "initials": "NA"
+          },
+          {
+            "fullName": "Rahman S",
+            "lastName": "Rahman",
+            "firstName": "Sanim",
+            "initials": "S"
+          },
+          {
+            "fullName": "Worden EJ",
+            "lastName": "Worden",
+            "firstName": "Evan",
+            "initials": "EJ"
+          },
+          {
+            "fullName": "Smith ML",
+            "lastName": "Smith",
+            "firstName": "Marissa",
+            "initials": "ML"
+          },
+          {
+            "fullName": "Namitz KE",
+            "lastName": "Namitz",
+            "firstName": "Kevin E.W.",
+            "initials": "KE"
+          },
+          {
+            "fullName": "Knutson BA",
+            "lastName": "Knutson",
+            "firstName": "Bruce",
+            "initials": "BA"
+          },
+          {
+            "fullName": "Cosgrove MS",
+            "lastName": "Cosgrove",
+            "firstName": "Michael",
+            "initials": "MS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6818-6716"
+            }
+          },
+          {
+            "fullName": "Wolberger C",
+            "lastName": "Wolberger",
+            "firstName": "Cynthia",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8578-2969"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8578-2969"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6818-6716"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "The human Mixed Lineage Leukemia-1 (MLL1) complex orchestrates methylation of histone H3K4 to promote transcription and is stimulated by monoubiquitination of histone H2B. Recent structures of the MLL1-WRAD core complex, which comprises the MLL1 methyltransferase,  W DR5,  R bBp5,  A sh2L, and  D PY-30, have revealed variation in the docking of MLL1-WRAD on nucleosomes and left ambiguous portions of Ash2L and the position of DPY30. We used an integrated approach combining cryo-electron microscopy and mass spectrometry-crosslinking to determine structures of the MLL1-WRAD complex bound to ubiquitinated nucleosomes containing the Ash2L intrinsically disordered region (IDR), SPRY insertion region, Sdc1-DPY30 interacting region (SDI-motif), and the DPY30 dimer. We resolved three additional states of MLL1-WRAD lacking one or more subunits, which may reflect different steps in the assembly of MLL1-WRAD. The subunits in all four states are positioned on the nucleosome in manner that is similar to a previous structure of MLL1-WRAD bound to ubiquitinated nucleosome, but that differs from structures with unmodified nucleosomes, suggesting that H2B-ubiquitin favors assembly of the active complex. Our results provide a more complete picture of MLL1-WRAD and the role of ubiquitin in promoting formation of the active methyltransferase complex.  <h4>Significance</h4>  The Mixed Lineage Leukemia-1 (MLL1) complex plays a role in activating transcription by methylating lysine 4 in histone H3, a reaction that is stimulated by the presence of ubiquitin conjugated to histone H2B. Recent structures of the core MLL1 complex, termed MLL1-WRAD, have revealed the existence of multiple docking states and have also left ambiguous portions of the structure. Here we combine mass spectrometry-cross linking with cryo-EM to model additional regions of the MLL1-WRAD complex and identify a series of states that light on complex assembly and the role that ubiquitin plays in orienting MLL1-WRAD on nucleosomes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2022.04.04.486905"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.04.04.486905"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-04-06",
+      "firstPublicationDate": "2022-04-04",
+      "firstIndexDate": "2022-04-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

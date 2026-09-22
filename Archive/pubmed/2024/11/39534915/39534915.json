@@ -1,0 +1,349 @@
+{
+  "identity": {
+    "pmid": "39534915",
+    "doi": "10.1021/acs.jctc.4c01024",
+    "title": "Nonspecific Yet Selective Interactions Contribute to Small Molecule Condensate Binding."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are essential in various cellular processes, and their misregulation has been demonstrated to underlie disease. Small molecules that modulate condensate stability and material properties offer promising therapeutic approaches, but mechanistic insights into their interactions with condensates remain largely lacking. We employ a multiscale approach to enable long-time, equilibrated all-atom simulations of various condensate-ligand systems. Systematic characterization of the ligand binding poses reveals that condensates can form diverse and heterogeneous chemical environments with one or multiple chains to bind small molecules. Unlike traditional protein-ligand interactions, these chemical environments are dominated by nonspecific hydrophobic interactions. Nevertheless, the chemical environments feature unique amino acid compositions and physicochemical properties that favor certain small molecules over others, resulting in varied ligand partitioning coefficients within condensates. Notably, different condensates share similar sets of chemical environments but at different populations. This population shift drives ligand selectivity toward specific condensates. Our approach can enhance the interpretation of experimental screening data and may assist in the rational design of small molecules targeting specific condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "Ligands",
+      "*Small Molecule Libraries/chemistry/pharmacology",
+      "Molecular Dynamics Simulation",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Binding Sites",
+      "Thermodynamics",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Cong",
+        "Kilgore, Henry R",
+        "Latham, Andrew P",
+        "Zhang, Bin"
+      ],
+      "short_names": [
+        "Wang C",
+        "Kilgore HR",
+        "Latham AP",
+        "Zhang B"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5998-3740",
+        "ORCID: 0000-0002-9338-7253",
+        "ORCID: 0000-0002-3685-7503"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States.",
+        "Whitehead Institute for Biomedical Research, Cambridge, Massachusetts 02142, United States.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States.",
+        "Department of Bioengineering and Therapeutic Sciences, Department of Pharmaceutical Chemistry, Quantitative Biosciences Institute, University of California San Francisco, San Francisco, California 94143, United States.",
+        "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Cong",
+        "short_name": "Wang C",
+        "identifiers": [
+          "0000-0001-5998-3740"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States."
+        ]
+      },
+      {
+        "full_name": "Kilgore, Henry R",
+        "short_name": "Kilgore HR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States.",
+          "Whitehead Institute for Biomedical Research, Cambridge, Massachusetts 02142, United States."
+        ]
+      },
+      {
+        "full_name": "Latham, Andrew P",
+        "short_name": "Latham AP",
+        "identifiers": [
+          "0000-0002-9338-7253"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States.",
+          "Department of Bioengineering and Therapeutic Sciences, Department of Pharmaceutical Chemistry, Quantitative Biosciences Institute, University of California San Francisco, San Francisco, California 94143, United States."
+        ]
+      },
+      {
+        "full_name": "Zhang, Bin",
+        "short_name": "Zhang B",
+        "identifiers": [
+          "0000-0002-3685-7503"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2024 Nov 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/13 13:53",
+    "fetched_at": "2026-09-22 02:11:43"
+  },
+  "links": {
+    "cites": [
+      "42620391",
+      "41997364",
+      "41868013",
+      "41137856",
+      "40877270",
+      "40747072",
+      "40614690",
+      "40172489",
+      "40093099"
+    ],
+    "refs": [
+      "39271915",
+      "37973891",
+      "37973889",
+      "37853696",
+      "37770698",
+      "37695778",
+      "37294104",
+      "37171907",
+      "37134270",
+      "37065433",
+      "36755093",
+      "35974095",
+      "35809564",
+      "35761089",
+      "35675815",
+      "35364104",
+      "34563256",
+      "33956157",
+      "33826337",
+      "33782607",
+      "33704061",
+      "33558506",
+      "33510441",
+      "33417833",
+      "33395293",
+      "33357399",
+      "33307683",
+      "33302617",
+      "33069007",
+      "33049211",
+      "32851637",
+      "32684431",
+      "32554597",
+      "32484438",
+      "32482873",
+      "32405004",
+      "32312191",
+      "32227880",
+      "32087632",
+      "31819266",
+      "31756104",
+      "31430179",
+      "31292544",
+      "30926670",
+      "30397688",
+      "29961577",
+      "29930091",
+      "29650703",
+      "29602697",
+      "29483575",
+      "29091028",
+      "28935776",
+      "28636604",
+      "28636597",
+      "28340338",
+      "28225081",
+      "27838525",
+      "27819658",
+      "27374333",
+      "26821017",
+      "26580045",
+      "26574392",
+      "26488642",
+      "26455390",
+      "25288112",
+      "23146088",
+      "23145473",
+      "21500218",
+      "19364101",
+      "19274737",
+      "17238265",
+      "17201676",
+      "16862531",
+      "14711306",
+      "12197663",
+      "12069620"
+    ],
+    "similar": [
+      "39534915",
+      "39184067",
+      "39271915",
+      "36883003",
+      "40093099",
+      "37770698",
+      "33653957",
+      "35761089",
+      "34179888",
+      "38987300",
+      "28802844",
+      "29481075",
+      "25614222",
+      "39071308",
+      "22480344",
+      "37013374",
+      "29594774",
+      "35727989",
+      "36603846",
+      "37904914",
+      "35881789",
+      "37546704",
+      "31701793",
+      "33632029",
+      "39937084",
+      "40172489",
+      "24245913",
+      "25941465",
+      "27782307",
+      "30099028",
+      "37470705",
+      "38405951",
+      "39002136",
+      "39182547",
+      "24039991",
+      "25709034",
+      "28766941",
+      "38181073",
+      "40229261",
+      "39059491",
+      "40321778",
+      "40291709",
+      "40136009",
+      "23951139",
+      "34772789",
+      "25264937",
+      "22458364",
+      "27916639",
+      "37156794",
+      "33302617",
+      "39868336",
+      "38781207",
+      "37468629",
+      "33201954",
+      "36993212",
+      "23432662",
+      "18571508",
+      "39232584",
+      "26633245",
+      "34271478",
+      "26724452",
+      "34767801",
+      "36269080",
+      "29132080",
+      "33672806",
+      "36227474",
+      "28960868",
+      "35130691",
+      "38637545",
+      "36993708",
+      "37824531",
+      "37980572",
+      "26298810",
+      "37194953",
+      "37131735",
+      "36483537",
+      "26722761",
+      "35293386",
+      "31661621",
+      "30768902",
+      "35809564",
+      "36227477",
+      "40196628",
+      "31351319",
+      "31841862",
+      "39888349",
+      "25541527",
+      "31473433",
+      "19927322",
+      "40290937",
+      "31042354",
+      "27981421",
+      "35164081",
+      "38147404",
+      "38445729",
+      "40327693",
+      "24032517",
+      "22397751",
+      "38832749",
+      "39260373"
+    ],
+    "review": [
+      "39534915",
+      "35761089",
+      "34179888",
+      "25614222",
+      "33632029",
+      "40172489",
+      "30099028",
+      "34772789",
+      "27916639",
+      "18571508",
+      "34767801",
+      "36269080",
+      "29132080",
+      "36483537",
+      "31042354"
+    ],
+    "pmc": [
+      "11665859"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39534915/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt3988f6d7",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.4c01024",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

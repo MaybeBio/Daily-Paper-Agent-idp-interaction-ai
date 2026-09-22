@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "35297101",
+    "doi": "10.1002/prot.26335",
+    "title": "The role of ATP in solubilizing RNA-binding protein fused in sarcoma."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered protein (IDP) plays an important role in liquid-liquid phase separation (LLPS). RNA-binding protein fused in sarcoma (FUS) is a well-studied IDP that induces LLPS since its low-complexity core region (FUS-LC-core) is essential for droplet formation through contacts between FUS-LC-cores. Several experimental studies have reported that adenosine triphosphate (ATP) concentrations modulate LLPS-driven droplet formation through the dissolution of FUS. To elucidate the role of ATP in this dissolution, microsecond-order all-atom molecular dynamics (MD) simulations were performed for a crowded system of FUS-LC-cores in the presence of multiple ATP molecules. Our analysis revealed that the adenine group of ATP frequently contacted the FUS-LC-core, and the phosphoric acid group of ATP was exposed to the external solvent, which promoted both hydration and solubilization of FUS.",
+    "keywords": [
+      "RNA-binding protein fused in sarcoma",
+      "adenosine triphosphate crowding",
+      "dissolution",
+      "intrinsically disordered protein",
+      "solubilization"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Adenosine Triphosphate",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "RNA-Binding Protein FUS/chemistry/metabolism",
+      "RNA-Binding Proteins",
+      "*Sarcoma"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aida, Hayato",
+        "Shigeta, Yasuteru",
+        "Harada, Ryuhei"
+      ],
+      "short_names": [
+        "Aida H",
+        "Shigeta Y",
+        "Harada R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7987-0540"
+      ],
+      "affiliations": [
+        "College of Biological Sciences, University of Tsukuba, Tsukuba, Ibaraki, Japan.",
+        "Center for Computational Sciences, University of Tsukuba, Tsukuba, Ibaraki, Japan.",
+        "Center for Computational Sciences, University of Tsukuba, Tsukuba, Ibaraki, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aida, Hayato",
+        "short_name": "Aida H",
+        "identifiers": [],
+        "affiliations": [
+          "College of Biological Sciences, University of Tsukuba, Tsukuba, Ibaraki, Japan."
+        ]
+      },
+      {
+        "full_name": "Shigeta, Yasuteru",
+        "short_name": "Shigeta Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Sciences, University of Tsukuba, Tsukuba, Ibaraki, Japan."
+        ]
+      },
+      {
+        "full_name": "Harada, Ryuhei",
+        "short_name": "Harada R",
+        "identifiers": [
+          "0000-0001-7987-0540"
+        ],
+        "affiliations": [
+          "Center for Computational Sciences, University of Tsukuba, Tsukuba, Ibaraki, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2022 Aug",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/03/18 06:00",
+    "fetched_at": "2026-09-20 08:54:41"
+  },
+  "links": {
+    "cites": [
+      "42608397",
+      "42521655",
+      "42394500",
+      "40314620",
+      "39475790",
+      "39290787",
+      "37772172",
+      "37189373",
+      "36982909",
+      "36452451",
+      "36103543",
+      "35897696",
+      "35629965"
+    ],
+    "refs": [],
+    "similar": [
+      "35297101",
+      "31188823",
+      "28924037",
+      "31270472",
+      "37399327",
+      "30205960",
+      "35943083",
+      "26455390",
+      "33547841",
+      "29677513",
+      "37158592",
+      "35709363",
+      "37211763",
+      "37189373",
+      "34156864",
+      "28942918",
+      "34787417",
+      "35445401",
+      "32643734",
+      "34654750",
+      "34233002",
+      "38672516",
+      "34516126",
+      "36453011",
+      "38157426",
+      "28575444",
+      "34624313",
+      "28790177",
+      "33829608",
+      "34862761",
+      "31240261",
+      "38546977",
+      "37890778",
+      "21856723",
+      "39372747",
+      "35481633",
+      "33607084",
+      "33110735",
+      "34681673",
+      "25192599",
+      "33307683",
+      "31022909",
+      "37204199",
+      "33991007",
+      "38462838",
+      "30442662",
+      "31805282",
+      "32231288",
+      "33262375",
+      "33515602",
+      "33758287",
+      "31290213",
+      "34487489",
+      "35902591",
+      "38971830",
+      "20541619",
+      "34648275",
+      "32426986",
+      "33302617",
+      "23048034",
+      "36945688",
+      "29610493",
+      "34759379",
+      "33704371",
+      "35930639",
+      "37735186",
+      "24013423",
+      "36361989",
+      "37231298",
+      "37134270",
+      "35134572",
+      "31479821",
+      "32687767",
+      "35858576",
+      "37648703",
+      "33022038",
+      "35501371",
+      "28432364",
+      "29364893",
+      "22563080",
+      "38070499",
+      "35320731",
+      "26317470",
+      "32824618",
+      "23833192",
+      "28298410",
+      "30581145",
+      "29511089",
+      "31895552",
+      "27731383",
+      "37155880",
+      "36798393",
+      "39129227",
+      "27381509",
+      "22778397",
+      "32976566",
+      "30488693",
+      "26123490",
+      "33982369",
+      "34428231",
+      "33684117",
+      "30455313",
+      "33477032",
+      "35883530",
+      "36268634",
+      "29140459",
+      "33857479",
+      "21810174",
+      "33269497",
+      "37458354",
+      "38467846",
+      "33686294",
+      "38279531",
+      "36103543",
+      "36496075",
+      "38056002",
+      "37145883",
+      "38996511",
+      "32577653",
+      "39354680",
+      "36711093",
+      "38512104",
+      "38566033",
+      "38174879",
+      "37967197",
+      "36450893",
+      "39211498",
+      "39403745",
+      "37656203"
+    ],
+    "review": [
+      "35297101",
+      "37399327",
+      "38672516",
+      "33829608",
+      "33110735",
+      "31022909",
+      "31479821",
+      "32824618",
+      "32976566",
+      "36268634",
+      "21810174"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/softtissuesarcoma.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Soft Tissue Sarcoma"
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.26335",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

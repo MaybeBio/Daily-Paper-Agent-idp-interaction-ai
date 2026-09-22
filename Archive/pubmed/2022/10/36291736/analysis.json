@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36291736",
+  "title": "The Epigenetic Dimension of Protein Structure Is an Intrinsic Weakness of the AlphaFold Program.",
+  "authors": "Azzaz, Fodil; Yahi, Nouara; Chahinian, Henri; Fantini, Jacques",
+  "journal": "Biomolecules",
+  "published_date": "2022-10-28",
+  "window": {
+    "start": "2022-10-24",
+    "end": "2022-10-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文讨论AlphaFold等AI预测工具对无序蛋白/膜蛋白结构预测的固有弱点，提出表观遗传维度(EDPS)概念，虽涉及IDP但未聚焦PPI机制建模，方法上以批判性分析为主。",
+  "abstract": "One of the most important lessons we have learned from sequencing the human genome is that not all proteins have a 3D structure. In fact, a large part of the human proteome is made up of intrinsically disordered proteins (IDPs) which can adopt multiple structures, and therefore, multiple functions, depending on the ligands with which they interact. Under these conditions, one can wonder about the value of algorithms developed for predicting the structure of proteins, in particular AlphaFold, an AI which claims to have solved the problem of protein structure. In a recent study, we highlighted a particular weakness of AlphaFold for membrane proteins. Based on this observation, we have proposed a paradigm, referred to as \"Epigenetic Dimension of Protein Structure\" (EDPS), which takes into account all environmental parameters that control the structure of a protein beyond the amino acid sequence (hence \"epigenetic\"). In this new study, we compare the reliability of the AlphaFold and Robetta algorithms' predictions for a new set of membrane proteins involved in human pathologies. We found that Robetta was generally more accurate than AlphaFold for ascribing a membrane-compatible topology. Raft lipids (e.g., gangliosides), which control the structural dynamics of membrane protein structure through chaperone effects, were identified as major actors of the EDPS paradigm. We conclude that the epigenetic dimension of a protein structure is an intrinsic weakness of AI-based protein structure prediction, especially AlphaFold, which warrants further development.",
+  "abstract_zh": "我们从人类基因组测序中汲取的最重要教训之一是，并非所有蛋白质都具有三维结构。事实上，人类蛋白质组中很大一部分由 intrinsically disordered proteins (IDPs)（固有无序蛋白）组成，它们能根据所相互作用的配体，采用多种结构，从而发挥多种功能。在此情况下，人们不禁质疑为预测蛋白质结构而开发的算法的价值，尤其是 AlphaFold，这一人工智能声称已解决蛋白质结构问题。在最近一项研究中，我们指出了 AlphaFold 在膜蛋白方面的特定弱点。基于此观察，我们提出了一种范式，称为“蛋白质结构的表观遗传维度”（Epigenetic Dimension of Protein Structure, EDPS），该范式考虑了除氨基酸序列之外控制蛋白质结构的所有环境参数（因此称为“表观遗传”）。在本项新研究中，我们比较了 AlphaFold 和 Robetta 算法对一组涉及人类病理的新型膜蛋白预测的可靠性。我们发现，在赋予膜兼容拓扑结构方面，Robetta 通常比 AlphaFold 更准确。筏脂质（如神经节苷脂）通过伴侣效应控制膜蛋白结构的结构动力学，被确定为 EDPS 范式的主要参与者。我们得出结论，蛋白质结构的表观遗传维度是基于人工智能的蛋白质结构预测（尤其是 AlphaFold）的内在弱点，这值得进一步开发。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36291736/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36291736/",
+  "paper_page_path": "papers/pubmed/36291736/index.html"
+}

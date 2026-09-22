@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "40747072",
+    "doi": "10.1021/jacsau.5c00291",
+    "title": "Prediction of Small-Molecule Partitioning into Biomolecular Condensates from Simulation."
+  },
+  "content": {
+    "abstract": "Predicting small-molecule partitioning into biomolecular condensates is the key to developing drugs that selectively target aberrant condensates. However, the molecular mechanisms underlying small-molecule partitioning remain largely unknown. Here, we first exploit atomistic molecular dynamics simulations of model condensates to elucidate the physicochemical rules governing small-molecule partitioning. We find that while hydrophobicity is a key factor in determining partitioning into condensates enriched in hydrophobic residues, partitioning into more polar condensates is driven by specific interactions that can offset the associated entropic cost of localization. The observed selectivity of condensates toward certain compounds suggests that condensate-specific therapeutics can be engineered. Building on these insights, we develop minimal models (MAPPS) for the efficient prediction of small-molecule partitioning into biologically relevant condensates. We demonstrate that this approach reproduces atomistic partition coefficients in both model systems and condensates composed of the low-complexity domain (LCD) of FUS. Applying MAPPS to various LCD-based condensates shows that the protein sequence can exert a selective pressure, thereby influencing small-molecule partitioning. Collectively, our findings reveal that partitioning is driven by both small molecule-protein affinity and the complex interplay between the physicochemical properties of the compounds and the condensate environment.",
+    "keywords": [
+      "biomolecular condensates",
+      "coarse-grained model",
+      "molecular dynamics",
+      "partitioning",
+      "small molecules"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Emelianova, Alina",
+        "Garcia, Pablo L",
+        "Tan, Daniel",
+        "Joseph, Jerelle A"
+      ],
+      "short_names": [
+        "Emelianova A",
+        "Garcia PL",
+        "Tan D",
+        "Joseph JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3528-5478",
+        "ORCID: 0009-0009-5768-4945",
+        "ORCID: 0009-0005-4021-2176",
+        "ORCID: 0000-0003-4525-180X"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States. RINGGOLD: 6740",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States. RINGGOLD: 6740",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States. RINGGOLD: 6740",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States. RINGGOLD: 6740",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey 08544, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Emelianova, Alina",
+        "short_name": "Emelianova A",
+        "identifiers": [
+          "0000-0002-3528-5478"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States."
+        ]
+      },
+      {
+        "full_name": "Garcia, Pablo L",
+        "short_name": "Garcia PL",
+        "identifiers": [
+          "0009-0009-5768-4945"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States."
+        ]
+      },
+      {
+        "full_name": "Tan, Daniel",
+        "short_name": "Tan D",
+        "identifiers": [
+          "0009-0005-4021-2176"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States."
+        ]
+      },
+      {
+        "full_name": "Joseph, Jerelle A",
+        "short_name": "Joseph JA",
+        "identifiers": [
+          "0000-0003-4525-180X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey 08544, United States.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey 08544, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "JACS Au"
+    ],
+    "journal_abbrev": [
+      "JACS Au"
+    ],
+    "pub_date": "2025 Jul 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/01 11:33",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [
+      "42232026",
+      "42192191",
+      "42182309",
+      "41997364",
+      "41648378",
+      "41629872",
+      "41342450",
+      "41083871",
+      "40667294"
+    ],
+    "refs": [
+      "40925983",
+      "40024444",
+      "39827079",
+      "39824169",
+      "39534915",
+      "39510346",
+      "39412378",
+      "39271915",
+      "39134696",
+      "38251829",
+      "37973889",
+      "37805934",
+      "37770698",
+      "37645312",
+      "37546704",
+      "36690068",
+      "36471564",
+      "36302916",
+      "36181270",
+      "36061735",
+      "36028355",
+      "35974095",
+      "35795820",
+      "35675815",
+      "35657723",
+      "35483357",
+      "35320624",
+      "35001622",
+      "34452345",
+      "33934416",
+      "33876938",
+      "33812316",
+      "33619090",
+      "33597515",
+      "33307683",
+      "33004511",
+      "32962378",
+      "32554597",
+      "31681941",
+      "31430179",
+      "31272829",
+      "29518158",
+      "29424691",
+      "29364893",
+      "29323488",
+      "28935776",
+      "28225081",
+      "27374333",
+      "27036458",
+      "26589065",
+      "26580045",
+      "26406374",
+      "26386959",
+      "26317470",
+      "25885484",
+      "25400522",
+      "25288112",
+      "22936764",
+      "22579281",
+      "18196502",
+      "17985865",
+      "16211538",
+      "6191210"
+    ],
+    "similar": [
+      "40747072",
+      "40093099",
+      "40985078",
+      "39271915",
+      "40196628",
+      "39071308",
+      "40229261",
+      "39534915",
+      "39184067",
+      "33307683",
+      "36993212",
+      "41279444",
+      "39937084",
+      "39804953",
+      "40672301",
+      "40009520",
+      "40172489",
+      "30926670",
+      "37770698",
+      "37194953",
+      "39636939",
+      "37205474",
+      "36883003",
+      "40028356",
+      "37695778",
+      "40286793",
+      "37006777",
+      "40626470",
+      "37961424",
+      "40954121",
+      "37546704",
+      "35727989",
+      "35761089",
+      "37684240",
+      "40661423",
+      "38181073",
+      "36758221",
+      "40468084",
+      "40848932",
+      "37735186",
+      "37013374",
+      "37470705",
+      "36175408",
+      "40614690",
+      "33302617",
+      "39486437",
+      "38987300",
+      "39232584",
+      "38832749",
+      "35293386",
+      "36847235",
+      "37782826",
+      "37252985",
+      "40455990",
+      "37131742",
+      "40616404",
+      "40877270",
+      "33672806",
+      "37386790",
+      "40661504",
+      "40857360",
+      "40881393",
+      "39356108",
+      "40782375",
+      "39386700",
+      "37977129",
+      "39866835",
+      "32554597",
+      "34767801",
+      "40305655",
+      "38383656",
+      "38328070",
+      "34862761",
+      "40721018",
+      "39496836",
+      "34636323",
+      "37503034",
+      "38649740",
+      "39005320",
+      "37156794",
+      "41342450",
+      "39134696",
+      "40664121",
+      "36819870",
+      "40502052",
+      "39896463",
+      "40518709",
+      "37408305",
+      "40291709",
+      "40321778",
+      "41191214",
+      "38429263",
+      "40704402",
+      "40751677",
+      "38363841",
+      "40203038",
+      "39610751",
+      "34487489",
+      "39185151",
+      "23406326"
+    ],
+    "review": [
+      "40747072",
+      "40172489",
+      "35761089",
+      "40614690",
+      "40616404",
+      "34767801",
+      "39134696",
+      "40664121"
+    ],
+    "pmc": [
+      "12308379"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40747072/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jaaucr/article-lookup/doi/10.1021/jacsau.5c00291",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

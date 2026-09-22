@@ -1,0 +1,400 @@
+{
+  "identity": {
+    "pmid": "35800891",
+    "doi": "10.3389/fcell.2022.831741",
+    "title": "The C-Terminal Domain of Y-Box Binding Protein 1 Exhibits Structure-Specific Binding to Poly(ADP-Ribose), Which Regulates PARP1 Activity."
+  },
+  "content": {
+    "abstract": "Y-box-binding protein 1 (YB-1) is a multifunctional protein involved in the regulation of gene expression. Recent studies showed that in addition to its role in the RNA and DNA metabolism, YB-1 is involved in the regulation of PARP1 activity, which catalyzes poly(ADP-ribose) [PAR] synthesis under genotoxic stress through auto-poly(ADP-ribosyl)ation or protein trans-poly(ADP-ribosyl)ation. Nonetheless, the exact mechanism by which YB-1 regulates PAR synthesis remains to be determined. YB-1 contains a disordered Ala/Pro-rich N-terminal domain, a cold shock domain, and an intrinsically disordered C-terminal domain (CTD) carrying four clusters of positively charged amino acid residues. Here, we examined the functional role of the disordered CTD of YB-1 in PAR binding and in the regulation of PARP1-driven PAR synthesis in vitro. We demonstrated that the rate of PARP1-dependent synthesis of PAR is higher in the presence of YB-1 and is tightly controlled by the interaction between YB-1 CTD and PAR. Moreover, YB-1 acts as an effective cofactor in the PAR synthesis catalyzed by the PARP1 point mutants that generate various PAR polymeric structures, namely, short hypo- or hyperbranched polymers. We showed that either a decrease in chain length or an increase in branching frequency of PAR affect its binding affinity for YB-1 and YB-1-mediated stimulation of PARP1 enzymatic activity. These results provide important insight into the mechanism underlying the regulation of PARP1 activity by PAR-binding proteins containing disordered regions with clusters of positively charged amino acid residues, suggesting that YB-1 CTD-like domains may be considered PAR \"readers\" just as other known PAR-binding modules.",
+    "keywords": [
+      "PARP1",
+      "Y-box binding protein 1",
+      "disordered C-terminal domain",
+      "poly(ADP-ribose)",
+      "trans-poly(ADP-ribosyl) ation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Naumenko, Konstantin N",
+        "Sukhanova, Mariya V",
+        "Hamon, Loic",
+        "Kurgina, Tatyana A",
+        "Anarbaev, Rashid O",
+        "Mangerich, Aswin",
+        "Pastre, David",
+        "Lavrik, Olga I"
+      ],
+      "short_names": [
+        "Naumenko KN",
+        "Sukhanova MV",
+        "Hamon L",
+        "Kurgina TA",
+        "Anarbaev RO",
+        "Mangerich A",
+        "Pastre D",
+        "Lavrik OI"
+      ],
+      "auids": [],
+      "affiliations": [
+        "LBCE, Institute Chemical Biology and Fundamental Medicine (ICBFM), Novosibirsk, Russia.",
+        "LBCE, Institute Chemical Biology and Fundamental Medicine (ICBFM), Novosibirsk, Russia.",
+        "SABNP, Univ Evry, INSERM U1204, Universite Paris-Saclay, Evry, France.",
+        "LBCE, Institute Chemical Biology and Fundamental Medicine (ICBFM), Novosibirsk, Russia.",
+        "Department of Natural Sciences, Novosibirsk State University, Novosibirsk, Russia.",
+        "LBCE, Institute Chemical Biology and Fundamental Medicine (ICBFM), Novosibirsk, Russia.",
+        "Department of Natural Sciences, Novosibirsk State University, Novosibirsk, Russia.",
+        "Department of Biology, Molecular Toxicology Group, University of Konstanz, Konstanz, Germany.",
+        "SABNP, Univ Evry, INSERM U1204, Universite Paris-Saclay, Evry, France.",
+        "LBCE, Institute Chemical Biology and Fundamental Medicine (ICBFM), Novosibirsk, Russia.",
+        "Department of Natural Sciences, Novosibirsk State University, Novosibirsk, Russia."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Naumenko, Konstantin N",
+        "short_name": "Naumenko KN",
+        "identifiers": [],
+        "affiliations": [
+          "LBCE, Institute Chemical Biology and Fundamental Medicine (ICBFM), Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Sukhanova, Mariya V",
+        "short_name": "Sukhanova MV",
+        "identifiers": [],
+        "affiliations": [
+          "LBCE, Institute Chemical Biology and Fundamental Medicine (ICBFM), Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Hamon, Loic",
+        "short_name": "Hamon L",
+        "identifiers": [],
+        "affiliations": [
+          "SABNP, Univ Evry, INSERM U1204, Université Paris-Saclay, Evry, France."
+        ]
+      },
+      {
+        "full_name": "Kurgina, Tatyana A",
+        "short_name": "Kurgina TA",
+        "identifiers": [],
+        "affiliations": [
+          "LBCE, Institute Chemical Biology and Fundamental Medicine (ICBFM), Novosibirsk, Russia.",
+          "Department of Natural Sciences, Novosibirsk State University, Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Anarbaev, Rashid O",
+        "short_name": "Anarbaev RO",
+        "identifiers": [],
+        "affiliations": [
+          "LBCE, Institute Chemical Biology and Fundamental Medicine (ICBFM), Novosibirsk, Russia.",
+          "Department of Natural Sciences, Novosibirsk State University, Novosibirsk, Russia."
+        ]
+      },
+      {
+        "full_name": "Mangerich, Aswin",
+        "short_name": "Mangerich A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Molecular Toxicology Group, University of Konstanz, Konstanz, Germany."
+        ]
+      },
+      {
+        "full_name": "Pastré, David",
+        "short_name": "Pastré D",
+        "identifiers": [],
+        "affiliations": [
+          "SABNP, Univ Evry, INSERM U1204, Université Paris-Saclay, Evry, France."
+        ]
+      },
+      {
+        "full_name": "Lavrik, Olga I",
+        "short_name": "Lavrik OI",
+        "identifiers": [],
+        "affiliations": [
+          "LBCE, Institute Chemical Biology and Fundamental Medicine (ICBFM), Novosibirsk, Russia.",
+          "Department of Natural Sciences, Novosibirsk State University, Novosibirsk, Russia."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in cell and developmental biology"
+    ],
+    "journal_abbrev": [
+      "Front Cell Dev Biol"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/09 06:00",
+    "fetched_at": "2026-09-20 11:48:06"
+  },
+  "links": {
+    "cites": [
+      "42087759",
+      "41773021",
+      "41557215",
+      "40911804",
+      "39331414",
+      "38019812",
+      "36672853",
+      "36361989"
+    ],
+    "refs": [
+      "34551281",
+      "34323016",
+      "34302489",
+      "33683197",
+      "33596067",
+      "33137182",
+      "33087277",
+      "33058958",
+      "32947956",
+      "32681926",
+      "32667640",
+      "32302549",
+      "32290447",
+      "32243832",
+      "32087051",
+      "31040352",
+      "30892621",
+      "30799503",
+      "30650352",
+      "30605522",
+      "30321662",
+      "30247868",
+      "30104678",
+      "29805738",
+      "29216372",
+      "29166620",
+      "28676700",
+      "27965414",
+      "27635653",
+      "27544639",
+      "27067600",
+      "26774478",
+      "26673700",
+      "26453809",
+      "26286827",
+      "26126888",
+      "26091344",
+      "25756536",
+      "24920161",
+      "24755000",
+      "24641686",
+      "24461929",
+      "24107631",
+      "24055347",
+      "23955771",
+      "22941645",
+      "22736760",
+      "22669911",
+      "22391446",
+      "22339596",
+      "20669926",
+      "19996271",
+      "19565008",
+      "18981049",
+      "17991682",
+      "17686777",
+      "17158748",
+      "16913221",
+      "16361573",
+      "16193061",
+      "15494450",
+      "15193131",
+      "12582179",
+      "11854282",
+      "11851341",
+      "11595709",
+      "11369762",
+      "10455009",
+      "9927044",
+      "9315851",
+      "9095180",
+      "7524668",
+      "7499328",
+      "6838598",
+      "5432063",
+      "4559796",
+      "3118181",
+      "3038179",
+      "1923758",
+      "1903793",
+      "1736995",
+      "1622930",
+      "1549180"
+    ],
+    "similar": [
+      "35800891",
+      "32947956",
+      "29805738",
+      "35501985",
+      "26453809",
+      "27544639",
+      "19372272",
+      "32667640",
+      "37462479",
+      "30799503",
+      "33168626",
+      "29216372",
+      "37000654",
+      "38029688",
+      "31782485",
+      "26170451",
+      "26391948",
+      "30291044",
+      "27686254",
+      "28977496",
+      "19703477",
+      "31426748",
+      "24953096",
+      "17214964",
+      "35124853",
+      "31668992",
+      "27090906",
+      "25477519",
+      "31616951",
+      "31842403",
+      "24865146",
+      "24726141",
+      "27668604",
+      "32111879",
+      "23631432",
+      "33324653",
+      "26673720",
+      "31129062",
+      "24970154",
+      "20669926",
+      "22267412",
+      "37000656",
+      "30050067",
+      "30097863",
+      "24356582",
+      "30830864",
+      "24705085",
+      "23711178",
+      "34095104",
+      "25950582",
+      "34094834",
+      "24920161",
+      "34377556",
+      "22053002",
+      "25940138",
+      "27979751",
+      "29968072",
+      "33925170",
+      "25257171",
+      "27635653",
+      "26040949",
+      "24043304",
+      "35986334",
+      "20439749",
+      "21870255",
+      "29326071",
+      "25486481",
+      "38391916",
+      "35887176",
+      "20219917",
+      "10455009",
+      "19346337",
+      "32439163",
+      "36286483",
+      "23493398",
+      "20038529",
+      "31085801",
+      "21825151",
+      "28740723",
+      "11593040",
+      "19666485",
+      "27694308",
+      "27664469",
+      "9822623",
+      "36515830",
+      "19531481",
+      "27440880",
+      "26673700",
+      "32789690",
+      "22969794",
+      "11494111",
+      "28695503",
+      "23082994",
+      "37246313",
+      "25215535",
+      "31408463",
+      "35219381",
+      "36074101",
+      "25517228",
+      "11385634",
+      "39226698"
+    ],
+    "review": [
+      "35800891",
+      "35501985",
+      "30799503",
+      "31782485",
+      "27090906",
+      "31842403",
+      "23711178",
+      "29968072",
+      "10455009",
+      "27664469",
+      "26673700"
+    ],
+    "pmc": [
+      "9253770"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35800891/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35800891",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-556",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fcell.2022.831741",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

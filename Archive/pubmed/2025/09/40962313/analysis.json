@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40962313",
+  "title": "CGBack: Diffusion Model for Backmapping Large-Scale and Complex Coarse-Grained Molecular Systems.",
+  "authors": "Ugarte La Torre, Diego; Sugita, Yuji",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2025-09-18",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于扩散模型的CGBack框架，用于从粗粒化表示重建全原子结构，并成功应用于致密堆积的无序蛋白凝聚体系统，虽聚焦于结构重建而非直接PPI机制建模，但为无序蛋白凝聚体中的多尺度模拟提供了关键方法支撑。",
+  "abstract": "Molecular dynamics simulations based on coarse-grained (CG) models are used to accelerate conformational dynamics of biomolecules and other chemical systems with reduced computational costs. CG models achieve this by discarding atomic information necessary for downstream structural analysis. Recovering the atomic detail from CG structures, i.e., backmapping, remains a fundamental challenge in multiscale modeling, especially for proteins and complex biomolecular assemblies. Recent machine learning methods have shown promise in reconstructing atomistic details, but most approaches only target simple systems at a small scale. In particular, conventional backmapping pipelines often fail to preserve stereochemistry, induce high-energy configurations, or require extensive minimization. Here we present CGBack, a backmapping framework that employs a denoising diffusion probabilistic model to reconstruct all-atom molecular structures from CG representations. CGBack consists of backmapping and refinement procedures and accurately recovers atomic coordinates across diverse protein systems from small to large scales. We show that CGBack is capable of accurately backmapping both single-chain and multichain molecular systems, including densely packed intrinsically disordered proteins in condensates. These results suggest that CGBack can be a powerful tool for multiscale molecular simulation pipelines. We anticipate that CGBack will enable more efficient workflows for protein modeling, as well as for other biomolecules across different CG models.",
+  "abstract_zh": "基于粗粒化（CG）模型的分子动力学模拟用于以降低的计算成本加速生物分子及其他化学系统的构象动力学。CG模型通过舍弃下游结构分析所需的原子信息来实现这一点。从CG结构恢复原子细节，即反向映射，仍然是多尺度建模中的基本挑战，尤其是对于蛋白质和复杂的生物分子组装体。最近的机器学习方法在重建原子细节方面显示出潜力，但大多数方法仅针对小规模的简单系统。特别是，传统的反向映射流程往往无法保持立体化学，诱导高能构象，或需要大量的最小化处理。在此，我们提出CGBack，一种采用去噪扩散概率模型从CG表示重建全原子分子结构的反向映射框架。CGBack包含反向映射和细化程序，并能准确恢复从小到大规模多种蛋白质系统中的原子坐标。我们展示了CGBack能够准确反向映射单链和多链分子系统，包括凝聚体中紧密堆积的内在无序蛋白质。这些结果表明，CGBack可成为多尺度分子模拟流程的强大工具。我们预期CGBack将为蛋白质建模以及其他不同CG模型下的生物分子提供更高效的工作流程。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40962313/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40962313/",
+  "paper_page_path": "papers/pubmed/40962313/index.html"
+}

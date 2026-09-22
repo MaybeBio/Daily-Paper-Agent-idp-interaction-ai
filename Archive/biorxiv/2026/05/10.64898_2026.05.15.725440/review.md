@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce FlexENN, an adaptive message passing graph neural network, that predicts binding energies for protein complexes spanning folded domains to those involving intrinsically disordered proteins (IDPs). The architecture constructs a local interface graph integrating relative geometry, dynamic descriptors, and sequence information, enabling inference of conformational fuzziness from a single structure. The model is benchmarked on folded complexes and IDP systems, including tubulin-tubulin interfaces within microtubules and microtubule-associated protein complexes, with reference binding affinities from the authors' own experiments. The authors claim the model retrieves physically meaningful energetic profiles where rigid-body methods fail, and more broadly delivers an accurate, structure-aware approach for disordered-mediated complexes.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, architecture specifications, or experimental methods are visible
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, dataset descriptions, experimental protocols for binding affinity measurements, baseline comparisons, and code availability
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially valuable contribution to the field of binding energy prediction for IDP-containing complexes, a recognized gap in current methodology. The conceptual framing is sound and the problem is well motivated. However, the abstract provides no quantitative evidence, no benchmark numbers, no comparison against existing methods, and no details on the experimental affinity measurements. The core claims of accuracy and physical meaningfulness are therefore not assessable from the supplied material. The work may be of interest to the computational biophysics and structural biology communities, but the case is currently not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biophysicists and structural biologists working on protein-protein interactions, particularly those studying IDPs and their binding mechanisms. Researchers developing machine learning methods for biophysical property prediction would also be interested in the architectural innovations. Additionally, experimentalists studying microtubule dynamics and MAP interactions may find the predicted energetic profiles useful for interpreting their own data.
+- **Major strengths** The problem addressed is well defined and of genuine importance, as IDP-mediated interactions are poorly handled by existing rigid-body-based prediction methods. The proposed architecture, with its integration of geometric, dynamic, and sequence features into a local interface graph, is conceptually reasonable and potentially novel. The inclusion of experimentally derived reference affinities for benchmarking, rather than relying solely on public databases, is a notable strength if the experimental quality is adequate.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The model "predicts binding energies across the full structural spectrum" and "retrieves physically meaningful energetic profiles" with accuracy
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No quantitative results are presented. There are no correlation coefficients, error metrics, or comparisons against baseline methods or experimental values. The claim of accurate prediction is entirely unsupported by visible data.
+  - **Why it matters** The central contribution of the work is predictive accuracy. Without any numerical evidence, the reader cannot evaluate whether the method performs adequately, let alone whether it outperforms existing approaches. The claim of physical meaningfulness is also subjective without quantitative validation.
+  - **Resolution test** Provide benchmark results including at minimum correlation coefficients, mean absolute errors, and comparisons against at least one established baseline method on the same test sets. Show that performance is statistically distinguishable from baselines.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental validation
+  - **Claim pointer** Reference binding affinity values were "extracted from our experiments" for benchmarking on tubulin-tubulin and MAP complexes
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The experimental measurements are mentioned but no details are given regarding the method (e.g., isothermal titration calorimetry, surface plasmon resonance, pull-down assays), the number of complexes measured, the error bars, or the reproducibility. Without this information, the reliability of the reference values used for benchmarking cannot be assessed.
+  - **Why it matters** If the experimental reference values are noisy or systematically biased, the benchmark results will be misleading. The credibility of the entire validation hinges on the quality of these measurements.
+  - **Resolution test** Describe the experimental method, provide error estimates for each measured affinity, and state how many independent replicates were performed. If possible, cross-validate a subset of measurements against published values.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The model predicts binding energies "across the full structural spectrum, from folded domains to complexes with one disordered partner"
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract mentions benchmarking on folded complexes and IDP systems, but the specific composition of the test sets is unclear. It is not stated how many complexes were used, how diverse they are, whether the folded complexes are truly representative, or whether the IDP complexes cover a range of disorder extent and binding modes. The claim of full structural spectrum coverage is therefore not substantiated.
+  - **Why it matters** A model that works on a narrow set of complexes may not generalize. The claim of broad applicability is a key selling point and must be backed by evidence of dataset diversity and size.
+  - **Resolution test** Report the number of complexes in each category, the range of binding affinities covered, the fraction of disordered residues in the IDP complexes, and the diversity of complex geometries. Show performance breakdowns by complex type.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Architecture description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "adaptive message passing" is not explained. It is unclear what aspect of the message passing is adaptive and how this differs from standard graph neural network message passing schemes.
+  - **Required correction** Briefly clarify what "adaptive" refers to in the context of message passing, or remove the term if it is not a substantive architectural distinction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Data and code availability
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No mention is made of code availability, trained model weights, or access to the datasets used for training and benchmarking.
+  - **Required correction** State in the abstract or elsewhere whether code and data will be made publicly available, and under what license.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "Conformational fuzziness"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "conformational fuzziness" is used without definition. It is a recognized concept in the IDP field, but the abstract does not clarify how the network infers it from a single structure, which is a non-trivial claim.
+  - **Required correction** Define what is meant by conformational fuzziness in this context and briefly indicate what structural or dynamic features the network uses to infer it.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative results, experimental validation details, and dataset composition information means the core claims cannot be evaluated.
+- **Assessment against Nature-style criteria** Originality: The approach of using a graph neural network with dynamic descriptors for IDP binding energy prediction appears conceptually novel, though the abstract does not allow a full assessment of novelty relative to existing IDP-specific prediction methods. Scientific importance: The problem is important, as IDP-mediated interactions are prevalent and poorly served by existing tools. Interdisciplinary readership: The work bridges machine learning, biophysics, and structural biology, and would appeal to a broad readership if the results are convincing. Technical soundness: Cannot be assessed from the abstract; no methodological details or validation metrics are provided. Readability for nonspecialists: The abstract is generally clear, though terms like "adaptive message passing" and "conformational fuzziness" could benefit from brief clarification.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing is promising and the problem is well chosen, but the abstract contains no quantitative support for the central claims. A full manuscript with benchmark results, experimental details, and dataset descriptions would be required to assess whether the case can be made.
+
+## Risk / unsupported claims
+- The claim of accurate binding energy prediction across the full structural spectrum is unsupported by any visible quantitative data.
+- The claim that the model "retrieves physically meaningful energetic profiles" is subjective and unsupported without comparison to experimental or theoretical expectations.
+- The claim that the model outperforms or succeeds where "rigid-body methods fail" is not substantiated by any comparative data.
+- The reliability of the experimental reference affinities is not assessable without methodological details.
+- The generalizability of the model beyond the specific test sets mentioned is not assessable from the abstract.

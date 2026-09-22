@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41319238",
+  "title": "MnM-W-MMGBSA: A Computational Strategy to Improve Relative Binding Free Energies of Protein-Protein Interaction Systems.",
+  "authors": "Hasan, Md Nazmul; Sharma, Shilpa; Mallen, Justice Josiah; Saha, Arjun",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-11-30",
+  "window": {
+    "start": "2025-11-24",
+    "end": "2025-11-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出MnM-W-MMGBSA计算策略，通过混合采样和显式界面水提升PPI结合自由能预测精度，并专门探讨了无序区域在PPI界面中的作用，属于物理模拟方法研究互作机制，与本课题高度相关。",
+  "abstract": "Protein-protein interactions (PPIs) have become increasingly attractive as therapeutic targets due to their central role in regulating cellular functions. Despite computational advancements, accurately estimating binding free energies for PPIs remains challenging due to the dynamic and critically solvent-exposed nature of their interfaces. In this study, we present MnM-W-MMGBSA (i.e., MM-GBSA with Mix-and-Match sampling and water inclusion), a method that addresses these challenges by incorporating both conformational flexibility and interfacial solvation effects. We thoroughly demonstrated the applicability of MnM-W-MMGBSA across a diverse set of 20 PPI systems and validated its robustness using two distinct and rigorous simulation schemes. We demonstrate that our protocol improves correlation with experimental binding affinities horizontal line from 47% to 70% with MnM sampling alone for standard MM-GBSA, and up to 89% when interfacial water molecules are included. Our approach underscores the pivotal role of individual protein dynamics in validating the concept of \"destabilization of individual proteins in the unbound form.\" Specifically, we show that in explicit solvent, such destabilization leads to a loss of native structure, suggesting that excessive conformational sampling may compromise the accuracy of binding affinity predictions. Furthermore, the critical role of intrinsically disordered regions in the interface of PPIs, as well as the impact of the MnM approach in the pairwise per-residue energy decomposition, were also investigated. Finally, our implementation overcomes the limitations of the gmx_MMPBSA tool for incorporating explicit solvent molecules from MD simulation trajectories into the complex/receptor during MM-GBSA calculation, providing an automated and reproducible workflow using GROMACS with AmberTools to enable efficient high-throughput screening of protein-protein complexes. The protocol is robust, computationally efficient, and applicable to a broad range of PPIs. Overall, our protocol offers a practical and physically meaningful alternative for estimating the binding affinities of PPIs and provides a valuable tool for advancing peptide-based drug discovery.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）因其在调控细胞功能中的核心作用，已成为日益具有吸引力的治疗靶点。尽管计算技术不断进步，但由于PPIs界面具有动态性和高度溶剂暴露的特性，准确估算其结合自由能仍具挑战性。在本研究中，我们提出了MnM-W-MMGBSA（即结合Mix-and-Match采样和水分子的MM-GBSA方法），该方法通过整合构象灵活性和界面溶剂化效应来应对这些挑战。我们在20个多样化的PPI系统上充分展示了MnM-W-MMGBSA的适用性，并采用两种不同且严格的模拟方案验证了其稳健性。我们证明，该方案提高了与实验结合亲和力的相关性——仅使用MnM采样时，标准MM-GBSA的相关性从47%提升至70%，而当纳入界面水分子时，相关性可高达89%。我们的方法强调了单个蛋白质动力学在验证“未结合形式下单个蛋白质的去稳定化”概念中的关键作用。具体而言，我们表明在显式溶剂中，这种去稳定化会导致天然结构的丧失，提示过度构象采样可能损害结合亲和力预测的准确性。此外，我们还研究了 intrinsically disordered regions（内在无序区域）在PPIs界面中的关键作用，以及MnM方法在成对残基能量分解中的影响。最后，我们的实现克服了gmx_MMPBSA工具在MM-GBSA计算中将分子动力学模拟轨迹中的显式溶剂分子纳入复合物/受体时的局限性，提供了一种使用GROMACS与AmberTools的自动化且可重复的工作流程，以实现蛋白质-蛋白质复合物的高效高通量筛选。该方案稳健、计算效率高，并适用于广泛的PPIs。总体而言，我们的方案为估算PPIs结合亲和力提供了一种实用且具有物理意义的替代方法，并为推进基于肽的药物发现提供了宝贵工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41319238/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41319238/",
+  "paper_page_path": "papers/pubmed/41319238/index.html"
+}

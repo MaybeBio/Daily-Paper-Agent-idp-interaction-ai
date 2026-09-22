@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to methods, figures, tables, or simulation details
+- **Shared manuscript claim summary** The authors report microsecond-scale molecular dynamics simulations of a trimeric model of the intrinsically disordered N-terminal domain of human copper transporter 1 (hCtr1), comparing glycosylated and non-glycosylated forms. They conclude that the domain remains disordered and that N- and O-glycosylation have no significant impact on its conformational properties.
+- **Visible evidence base** Abstract text only; no simulation parameters, force fields, system setup, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, simulation protocol details, force field selection, system construction and equilibration, convergence assessment, all figures and tables, statistical analyses, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The study addresses a relevant and under-explored question regarding the structural impact of glycosylation on an intrinsically disordered, functionally important domain of hCtr1. The use of microsecond-scale simulations for a trimeric model is appropriate in principle. However, the abstract provides insufficient detail to evaluate the technical quality of the simulations or the robustness of the central conclusion that glycosylation has no significant effect. The claim of "no significant impact" requires statistical and convergence evidence that is not visible in the supplied material. The work is potentially of interest to the copper biology and glycobiology communities, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Researchers studying copper homeostasis and hCtr1 function, particularly those interested in the role of post-translational modifications in metal transporter regulation. The work may also appeal to computational biophysicists focused on intrinsically disordered proteins and to glycobiologists examining how glycosylation modulates disordered protein conformations.
+- **Major strengths** The study targets a biologically relevant and previously uncharacterized system, namely the disordered N-terminal domain of hCtr1 in its trimeric form. The inclusion of both N- and O-glycosylation states is a thoughtful design. The use of microsecond-scale simulations is appropriate for sampling disordered conformational ensembles.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that glycosylation has "no significant impact" on the conformational properties of the domain.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The central conclusion of no significant impact is presented without any quantitative descriptors, statistical comparisons, or measures of uncertainty. The abstract reports "unimodal distributions across structural and dynamical descriptors" but does not specify which descriptors were used, how they were compared between glycosylated and non-glycosylated states, or what statistical threshold defined "no significant impact."
+  - **Why it matters** A null result of this type is only meaningful if the simulations are demonstrably converged and if the comparison has sufficient statistical power to detect biologically relevant differences. Without this information, the conclusion cannot be distinguished from insufficient sampling or insensitive descriptors.
+  - **Resolution test** Provide quantitative distributions of key structural and dynamical descriptors for both systems, with statistical comparison tests, convergence metrics (e.g., block averaging, replica convergence), and a power analysis or effect size estimate to justify the claim of no significant impact.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that they "built a trimeric model" of the hCtr1 N-terminal domain and performed simulations for glycosylated and non-glycosylated forms.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No information is provided about how the trimeric model was constructed, including the template used, the treatment of the transmembrane region, the initial conformations of the disordered tails, the force field parameters for glycosidic linkages, or the equilibration protocol. These choices can substantially affect the resulting ensembles for disordered proteins.
+  - **Why it matters** For intrinsically disordered proteins, simulation outcomes are highly sensitive to force field selection and system preparation. Without this information, the reliability of the conformational ensembles cannot be assessed, and the null result may reflect model artifacts rather than biological reality.
+  - **Resolution test** Describe the model construction in detail, including the source of the trimer geometry, force field versions for protein and glycans, water model, ionic conditions, temperature and pressure coupling, simulation length per replica, and the number of independent replicates.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that glycosylation at Thr27 "potentially influencing its physiological function" and that their findings "provide a foundation for future studies into its structure, function and regulation."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not connect the simulation results to any functional consequence or experimental observation. If glycosylation has no structural impact, the physiological relevance of the modification remains unclear, and the significance of the study for understanding hCtr1 regulation is not articulated.
+  - **Why it matters** The broader impact of the work depends on whether the null structural result can be reconciled with existing experimental evidence on the functional role of glycosylation. Without this contextualization, the study risks being a purely descriptive computational exercise.
+  - **Resolution test** Discuss how the simulation results relate to known experimental data on hCtr1 glycosylation and function, and state explicitly what new biological insight the null result provides.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Background and motivation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract assumes familiarity with copper homeostasis and hCtr1 biology without briefly explaining why the N-terminal domain is functionally critical or why glycosylation is expected to matter.
+  - **Required correction** Add one or two sentences clarifying the functional role of the N-terminal copper-binding motifs and the biological rationale for studying glycosylation effects.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation length justification
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states "microsecond-scale" simulations but does not specify the exact length or whether multiple replicates were performed. For disordered proteins, a single microsecond trajectory is often insufficient for converged ensembles.
+  - **Required correction** Specify the total simulation time per system, the number of replicates, and any convergence assessment performed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Glycosylation site coverage
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions N-glycosylation at Asn15 and O-glycosylation at Thr27 but does not state whether both modifications were present simultaneously in the glycosylated system or whether they were studied separately.
+  - **Required correction** Clarify the glycosylation states simulated, including whether combined and individual modifications were compared.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central null conclusion and the reliability of the simulations cannot be evaluated from the supplied material. R1-M3 is important for establishing the significance of the work but is not strictly blocking.
+- **Assessment against Nature-style criteria** Originality: the question is timely and the system is under-studied, but the approach is standard for the field. Scientific importance: potentially relevant to copper biology and glycobiology, but the significance is not established without functional contextualization. Interdisciplinary readership: the topic could appeal to structural biologists, computational chemists, and cell biologists, but the abstract is too specialized in its current form. Technical soundness: not assessable from the abstract; the blocking concerns above must be resolved. Readability for nonspecialists: the abstract is reasonably clear but could benefit from brief biological context.
+- **Recommendation posture** Currently not established from the provided evidence. The study addresses a worthwhile question and the simulation strategy is reasonable, but the abstract does not provide sufficient technical detail to support the central null conclusion. I would be supportive if the full manuscript resolves the blocking concerns regarding model construction, simulation convergence, and statistical comparison.
+
+## Risk / unsupported claims
+- The claim that glycosylation has "no significant impact" on conformational properties is unsupported without quantitative data and statistical analysis.
+- The claim that the simulations reveal "unimodal distributions" is unverifiable without figures or numerical descriptors.
+- The statement that the findings "enhance our understanding of the structural flexibility of hCtr1" is a reasonable interpretation but is not substantiated by specific results in the abstract.
+- The suggestion that glycosylation at Thr27 "potentially influencing its physiological function" is presented without experimental or computational evidence linking structure to function.

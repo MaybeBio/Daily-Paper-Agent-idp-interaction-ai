@@ -1,0 +1,290 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-58ft6",
+  "title": "Mapping the Conformational Landscape of the Cold-Regulated Intrinsically Disordered Protein COR15A",
+  "doi": "10.26434/chemrxiv-2025-58ft6",
+  "abstract": "Cold regulated protein 15A (COR15A) is a late embryogenesis abundant (LEA) protein from Arabidopsis thaliana which is expressed in response to low temperatures and dehydration. Here we use a combination of ion mobility-mass spectrometry (IM-MS) and molecular dynamics (MD) simulations with elevated temperature for enhanced sampling to explore the conformational landscape of COR15A. The IM-MS data displays charge states from +5 to+12 and collision cross section (CCS) distributions indicative of two dominant coexisting conformational families centered on approximately 1200 and 1800 Å2 with sub conformers evident. The structures sampled with MD are histogrammed which provides a pseudo-CCS distribution (pCCS) highly similar to experimental IM-MS data, allowing us to compare with SAXS derived structures of COR15A in functional conditions. This approach gives compelling evidence that the experimental gas-phase data corresponds to natively accessible states. In contrast to commonly used biophysical approaches, IM-MS permits simultaneous observation of disordered forms as well as conformers populated upon dehydration, allowing insights to dehydration-responsive LEA proteins.",
+  "authors": [
+    "Charles Eldrid",
+    "Dale Stuchfield",
+    "Ana Bath Alén",
+    "Anja Thalhammer",
+    "Perdita Barran"
+  ],
+  "published_date": "2025-08-28",
+  "updated_date": "2025-08-28T11:09:51Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-58ft6",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-58ft6",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T13:17:45Z",
+        "timestamp": 1785417465650,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            28
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                28
+              ]
+            ],
+            "date-time": "2025-08-28T00:00:00Z",
+            "timestamp": 1756339200000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Cold regulated protein 15A (COR15A) is a late embryogenesis abundant (LEA) protein from Arabidopsis thaliana which is expressed in response to low temperatures and dehydration. Here we use a combination of ion mobility-mass spectrometry (IM-MS) and molecular dynamics (MD) simulations with elevated temperature for enhanced sampling to explore the conformational landscape of COR15A. The IM-MS data displays charge states from +5 to+12 and collision cross section (CCS) distributions indicative of two dominant coexisting conformational families centered on approximately 1200 and 1800 Å2 with sub conformers evident. The structures sampled with MD are histogrammed which provides a pseudo-CCS distribution (pCCS) highly similar to experimental IM-MS data, allowing us to compare with SAXS derived structures of COR15A in functional conditions. This approach gives compelling evidence that the experimental gas-phase data corresponds to natively accessible states. In contrast to commonly used biophysical approaches, IM-MS permits simultaneous observation of disordered forms as well as conformers populated upon dehydration, allowing insights to dehydration-responsive LEA proteins.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-58ft6",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            28
+          ]
+        ],
+        "date-time": "2025-08-28T11:09:51Z",
+        "timestamp": 1756379391000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Mapping the Conformational Landscape of the Cold-Regulated Intrinsically Disordered Protein COR15A"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-5306-3644",
+          "authenticated-orcid": false,
+          "given": "Charles",
+          "family": "Eldrid",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/027m9bs27",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Manchester",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dale",
+          "family": "Stuchfield",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/027m9bs27",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Manchester",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ana",
+          "family": "Bath Alén",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/027m9bs27",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Manchester",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6480-0993",
+          "authenticated-orcid": false,
+          "given": "Anja",
+          "family": "Thalhammer",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/03bnmw459",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Potsdam",
+              "place": [
+                "Germany"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Perdita",
+          "family": "Barran",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/027m9bs27",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Manchester",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-58ft6",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T08:32:02Z",
+        "timestamp": 1778747522000
+      },
+      "score": 95.58105,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-58ft6"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            28
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-58ft6",
+      "relation": {
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.26434/chemrxiv-2025-58ft6-v2",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            8,
+            28
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

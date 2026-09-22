@@ -1,0 +1,358 @@
+{
+  "identity": {
+    "pmid": "40481689",
+    "doi": "10.1002/prca.70012",
+    "title": "Bioinformatics-Based Comparative Analysis of the Human Retina Proteome."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: The human retina relies on a complex network of proteins, many of which exhibit intrinsic disorder and liquid-liquid phase separation (LLPS), enabling dynamic interactions for retinal function. Disruptions in these properties, along with missense mutations, have been linked to retinal diseases. This study aims to characterize and compare retinal proteins categorized by their expression specificity and tissue distribution using bioinformatics tools to explore relationships between intrinsic protein disorder, phase separation potential, and mutation pathogenicity. METHODS: We analyzed retinal proteins classified by the Human Protein Atlas (HPA) into two major groups based on gene expression specificity (degree of unique retinal expression) and gene expression distribution (extent of expression across tissues). We analyzed nine retinal proteomes categorized by gene expression specificity and distribution. Intrinsic protein disorder was assessed using per-residue and global disorder predictors from the Rapid Intrinsic Disorder Analysis Online (RIDAO) platform, LLPS potential was evaluated with ParSe v2, and missense mutation pathogenicity was predicted using AlphaMissense. RESULTS: Significant differences in per-residue intrinsic protein disorder were found within the specificity and distribution subgroups (p < 0.0001). In addition, global disorder predictions from the RIDAO platform demonstrated non-random distributions of protein species across the proteomes analyzed in both subgroups (p < 0.0001). Furthermore, proteins specifically elevated in the retina exhibited higher intrinsic disorder and greater phase separation propensity (ParSe v2, AUC up to 0.650), compared to those more broadly expressed. Lastly, AlphaMissense analysis showed significant variations in the average pathogenicity scores of missense mutations within subgroups (p < 0.0001). CONCLUSION: Our results show that intrinsic disorder, LLPS, and mutational tendencies are not evenly distributed among retinal proteomes. Our study demonstrates a link between intrinsic disorder, LLPS potential, and pathogenic vulnerability among retinal proteins, underscoring the unique structural and functional landscape of retinal proteomes. Proteins with higher specificity to the retina exhibit greater disorder and phase separation potential, highlighting their potential role in dynamic cellular processes that support retinal function. Conversely, proteins widely distributed across multiple tissues tend to be more ordered, suggesting a need for structural stability in their broader functional roles.",
+    "keywords": [
+      "AlphaMissense",
+      "Human Protein Atlas",
+      "deep learning",
+      "intrinsic disorder",
+      "phase separation",
+      "proteome",
+      "retina"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Retina/metabolism",
+      "*Proteome/metabolism/genetics",
+      "*Computational Biology/methods",
+      "*Eye Proteins/genetics/metabolism",
+      "Mutation, Missense",
+      "Retinal Diseases/metabolism/genetics"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kim, Colin K",
+        "Djulbegovic, Mak B",
+        "Broytman, David",
+        "Hadzijahic, Nedym",
+        "Antonietti, Michael",
+        "Gonzalez, David J Taylor",
+        "Uversky, Vladimir N",
+        "Yannuzzi, Nicolas A",
+        "Karp, Carol L"
+      ],
+      "short_names": [
+        "Kim CK",
+        "Djulbegovic MB",
+        "Broytman D",
+        "Hadzijahic N",
+        "Antonietti M",
+        "Gonzalez DJT",
+        "Uversky VN",
+        "Yannuzzi NA",
+        "Karp CL"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3729-413X",
+        "ORCID: 0000-0002-4037-5857"
+      ],
+      "affiliations": [
+        "Bascom Palmer Eye Institute, University of Miami, Miami, Florida, USA.",
+        "Wills Eye Hospital, Thomas Jefferson University, Philadelphia, Pennsylvania, USA.",
+        "Cooper Medical School of Rowan University, Camden, New Jersey, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, Miami, Florida, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, Miami, Florida, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, Miami, Florida, USA.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, Florida, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, Miami, Florida, USA.",
+        "Bascom Palmer Eye Institute, University of Miami, Miami, Florida, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kim, Colin K",
+        "short_name": "Kim CK",
+        "identifiers": [
+          "0000-0003-3729-413X"
+        ],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, Miami, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Djulbegovic, Mak B",
+        "short_name": "Djulbegovic MB",
+        "identifiers": [],
+        "affiliations": [
+          "Wills Eye Hospital, Thomas Jefferson University, Philadelphia, Pennsylvania, USA."
+        ]
+      },
+      {
+        "full_name": "Broytman, David",
+        "short_name": "Broytman D",
+        "identifiers": [],
+        "affiliations": [
+          "Cooper Medical School of Rowan University, Camden, New Jersey, USA."
+        ]
+      },
+      {
+        "full_name": "Hadzijahic, Nedym",
+        "short_name": "Hadzijahic N",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, Miami, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Antonietti, Michael",
+        "short_name": "Antonietti M",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, Miami, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Gonzalez, David J Taylor",
+        "short_name": "Gonzalez DJT",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, Miami, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [
+          "0000-0002-4037-5857"
+        ],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Yannuzzi, Nicolas A",
+        "short_name": "Yannuzzi NA",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, Miami, Florida, USA."
+        ]
+      },
+      {
+        "full_name": "Karp, Carol L",
+        "short_name": "Karp CL",
+        "identifiers": [],
+        "affiliations": [
+          "Bascom Palmer Eye Institute, University of Miami, Miami, Florida, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteomics. Clinical applications"
+    ],
+    "journal_abbrev": [
+      "Proteomics Clin Appl"
+    ],
+    "pub_date": "2025 Jul",
+    "pub_year": "2025",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/08 03:35",
+    "fetched_at": "2026-09-21 19:31:26"
+  },
+  "links": {
+    "cites": [
+      "42051690"
+    ],
+    "refs": [
+      "37963072",
+      "37733863",
+      "37664947",
+      "37628652",
+      "37574757",
+      "37561450",
+      "36674574",
+      "36528065",
+      "36430530",
+      "36408920",
+      "36334049",
+      "36292588",
+      "36084347",
+      "35139468",
+      "35129612",
+      "35128080",
+      "34856104",
+      "34334791",
+      "34265844",
+      "33875885",
+      "33806614",
+      "33542394",
+      "33357399",
+      "33049211",
+      "32840111",
+      "32007034",
+      "31430179",
+      "30513998",
+      "30217894",
+      "29306779",
+      "29068531",
+      "28940711",
+      "28483149",
+      "26727894",
+      "25784874",
+      "25613900",
+      "25531225",
+      "25436423",
+      "25407473",
+      "25004990",
+      "24803870",
+      "24309898",
+      "23553817",
+      "22577471",
+      "22174269",
+      "22044151",
+      "21549338",
+      "19351533",
+      "16453022",
+      "15751111",
+      "15608167"
+    ],
+    "similar": [
+      "40481689",
+      "40799657",
+      "39979561",
+      "40407495",
+      "30713425",
+      "36334049",
+      "18831774",
+      "25058583",
+      "33719450",
+      "40706494",
+      "42190015",
+      "41235230",
+      "39117985",
+      "29259393",
+      "39383473",
+      "30198635",
+      "41077201",
+      "39322243",
+      "15064678",
+      "41419200",
+      "34445296",
+      "40821877",
+      "23912807",
+      "9815288",
+      "38569991",
+      "28583373",
+      "37561450",
+      "37626310",
+      "15326156",
+      "20107910",
+      "37191732",
+      "36321557",
+      "18803304",
+      "23979708",
+      "26348630",
+      "40565264",
+      "18079679",
+      "40833643",
+      "25780855",
+      "40319601",
+      "19955120",
+      "15283859",
+      "40693713",
+      "36430801",
+      "28398465",
+      "41096698",
+      "15555528",
+      "41033554",
+      "37446185",
+      "31820049",
+      "15163632",
+      "37287138",
+      "10484772",
+      "23039900",
+      "38914302",
+      "27748892",
+      "39067723",
+      "37796176",
+      "40114711",
+      "42199731",
+      "38220424",
+      "40570257",
+      "38997894",
+      "30377383",
+      "40120803",
+      "26096987",
+      "37628652",
+      "36161854",
+      "16254552",
+      "31351056",
+      "39952508",
+      "16936083",
+      "16602683",
+      "21498618",
+      "39125972",
+      "31294618",
+      "22009114",
+      "40233742",
+      "41567198",
+      "26139345",
+      "12097864",
+      "19122831",
+      "12939286",
+      "24752801",
+      "38147698",
+      "28515229",
+      "33946922",
+      "28934129",
+      "19594884",
+      "28536832",
+      "26376097",
+      "16889404",
+      "40869965",
+      "42184109",
+      "21917936",
+      "29069390",
+      "38526948",
+      "37634152",
+      "20069063",
+      "22772592"
+    ],
+    "review": [
+      "40481689",
+      "36321557",
+      "15283859",
+      "15555528",
+      "38220424",
+      "37628652"
+    ],
+    "pmc": [
+      "12278036"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40481689/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prca.70012",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

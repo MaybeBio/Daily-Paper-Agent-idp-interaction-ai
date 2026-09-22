@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35629783",
+  "title": "Theater in the Self-Cleaning Cell: Intrinsically Disordered Proteins or Protein Regions Acting with Membranes in Autophagy.",
+  "authors": "Popelka, Hana; Uversky, Vladimir N",
+  "journal": "Membranes",
+  "published_date": "2022-05-29",
+  "window": {
+    "start": "2022-05-23",
+    "end": "2022-05-29"
+  },
+  "score": 6,
+  "one_liner_zh": "综述无序蛋白/IDR在自噬中与膜互作及膜重塑的分子机制，涉及IDP-膜互作但非典型PPI且无AI/物理模拟方法，机制建模启发有限。",
+  "abstract": "Intrinsically disordered proteins and protein regions (IDPs/IDPRs) are mainly involved in signaling pathways, where fast regulation, temporal interactions, promiscuous interactions, and assemblies of structurally diverse components including membranes are essential. The autophagy pathway builds, de novo, a membrane organelle, the autophagosome, using carefully orchestrated interactions between proteins and lipid bilayers. Here, we discuss molecular mechanisms related to the protein disorder-based interactions of the autophagy machinery with membranes. We describe not only membrane binding phenomenon, but also examples of membrane remodeling processes including membrane tethering, bending, curvature sensing, and/or fragmentation of membrane organelles such as the endoplasmic reticulum, which is an important membrane source as well as cargo for autophagy. Summary of the current state of knowledge presented here will hopefully inspire new studies. A profound understanding of the autophagic protein-membrane interface is essential for advancements in therapeutic interventions against major human diseases, in which autophagy is involved including neurodegeneration, cancer as well as cardiovascular, metabolic, infectious, musculoskeletal, and other disorders.",
+  "abstract_zh": "intrinsically disordered proteins and protein regions（IDPs/IDPRs）主要参与信号传导通路，在这些通路中，快速调节、瞬时相互作用、混杂相互作用以及包括膜在内的结构多样组件的组装至关重要。自噬通路通过蛋白质与脂质双层之间精心协调的相互作用，从头构建一种膜细胞器——自噬体。在此，我们讨论与基于蛋白质无序性的自噬机制与膜相互作用相关的分子机制。我们不仅描述膜结合现象，还描述膜重塑过程的实例，包括膜拴系、弯曲、曲率感知和/或膜细胞器（如内质网）的碎片化，内质网既是自噬的重要膜来源，也是自噬的货物。本文所呈现的当前知识状态总结有望激发新的研究。对自噬蛋白-膜界面的深入理解对于针对涉及自噬的重大人类疾病（包括神经退行性疾病、癌症以及心血管、代谢、感染性、肌肉骨骼及其他疾病）的治疗干预进展至关重要。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35629783/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35629783/",
+  "paper_page_path": "papers/pubmed/35629783/index.html"
+}

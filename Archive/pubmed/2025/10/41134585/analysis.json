@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41134585",
+  "title": "Nucleation Landscape of Biomolecular Condensates in the Grand Canonical Ensemble via Monte Carlo Simulations.",
+  "authors": "Sepehri, Aliasghar; Zerze, Gul H",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-10-24",
+  "window": {
+    "start": "2025-10-20",
+    "end": "2025-10-26"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用巨正则系综蒙特卡洛模拟研究FUS-LC和NDDX4等无序蛋白的凝聚体成核自由能景观，揭示经典与非经典成核机制及力场依赖的序列效应，直接聚焦IDP相分离中的互作机制建模，方法新颖且机制深度强。",
+  "abstract": "We present a Monte Carlo framework for simulating the nucleation of biomolecular condensates in the grand canonical ensemble, which overcomes the limitations of fixed particle number and allows direct control of the dilute-phase concentration. Our approach combines conformation sampling with bias-enhanced cluster size sampling, enabling accurate sampling of individual cluster sizes in various conformations. Our method resolves nucleation free energy surfaces and is capable of capturing both classical and nonclassical nucleation mechanisms. We validated our method by reproducing structural properties of disordered proteins across a diverse benchmark set and by applying it to study nucleation in two phase-separating proteins, FUS-LC and NDDX4, using both HPS and MPIPI coarse-grained force fields. While both proteins exhibit classical nucleation behavior under the HPS model, only FUS-LC remains classical with MPIPI. In contrast, NDDX4 follows a nonclassical nucleation pathway under the MPIPI force field: the free-energy profile versus cluster size is convex and exhibits a local minimum, indicating the presence of metastable prenucleation clusters. Morphologically, larger clusters of NDDX4 (with MPIPI) frequently adopt a curved, horseshoe-like geometry. Although this work marks the adaptation of this Monte Carlo sampling framework, results from our initial test systems underscore the critical role of sequence composition and force-field parametrization in shaping nucleation pathways and demonstrate the utility of our framework for uncovering complex, mechanism-rich free energy landscapes in biomolecular condensation.",
+  "abstract_zh": "我们提出了一种蒙特卡洛框架，用于在巨正则系综中模拟生物分子凝聚体的成核过程，该框架克服了固定粒子数的限制，并允许直接控制稀相浓度。我们的方法将构象采样与偏置增强的团簇尺寸采样相结合，从而能够准确采样不同构象中的单个团簇尺寸。该方法解析了成核自由能面，并能捕捉经典和非经典的成核机制。我们通过在一组多样化的基准集上重现无序蛋白的结构特性，并应用该方法研究两种相分离蛋白FUS-LC和NDDX4在HPS和MPIPI粗粒化力场下的成核过程，验证了我们的方法。虽然这两种蛋白在HPS模型下均表现出经典成核行为，但在MPIPI下仅FUS-LC保持经典行为。相比之下，NDDX4在MPIPI力场下遵循非经典成核路径：自由能曲线相对于团簇尺寸呈凸形，并存在局部最小值，表明存在亚稳态的预成核团簇。在形态上，NDDX4（使用MPIPI）的较大团簇常呈现弯曲的马蹄形几何结构。尽管这项工作标志着该蒙特卡洛采样框架的初步应用，但我们初始测试系统的结果强调了序列组成和力场参数化在塑造成核路径中的关键作用，并展示了该框架在揭示生物分子凝聚中复杂且富含机制的自由能景观方面的实用性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41134585/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41134585/",
+  "paper_page_path": "papers/pubmed/41134585/index.html"
+}

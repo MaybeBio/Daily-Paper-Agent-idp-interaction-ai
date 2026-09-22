@@ -1,0 +1,484 @@
+{
+  "identity": {
+    "pmid": "37883155",
+    "doi": "10.7554/eLife.87958",
+    "title": "Mechanistic and evolutionary insights into isoform-specific 'supercharging' in DCLK family kinases."
+  },
+  "content": {
+    "abstract": "Catalytic signaling outputs of protein kinases are dynamically regulated by an array of structural mechanisms, including allosteric interactions mediated by intrinsically disordered segments flanking the conserved catalytic domain. The doublecortin-like kinases (DCLKs) are a family of microtubule-associated proteins characterized by a flexible C-terminal autoregulatory 'tail' segment that varies in length across the various human DCLK isoforms. However, the mechanism whereby these isoform-specific variations contribute to unique modes of autoregulation is not well understood. Here, we employ a combination of statistical sequence analysis, molecular dynamics simulations, and in vitro mutational analysis to define hallmarks of DCLK family evolutionary divergence, including analysis of splice variants within the DCLK1 sub-family, which arise through alternative codon usage and serve to 'supercharge' the inhibitory potential of the DCLK1 C-tail. We identify co-conserved motifs that readily distinguish DCLKs from all other calcium calmodulin kinases (CAMKs), and a 'Swiss Army' assembly of distinct motifs that tether the C-terminal tail to conserved ATP and substrate-binding regions of the catalytic domain to generate a scaffold for autoregulation through C-tail dynamics. Consistently, deletions and mutations that alter C-terminal tail length or interfere with co-conserved interactions within the catalytic domain alter intrinsic protein stability, nucleotide/inhibitor binding, and catalytic activity, suggesting isoform-specific regulation of activity through alternative splicing. Our studies provide a detailed framework for investigating kinome-wide regulation of catalytic output through cis-regulatory events mediated by intrinsically disordered segments, opening new avenues for the design of mechanistically divergent DCLK1 modulators, stabilizers, or degraders.",
+    "keywords": [
+      "E. coli",
+      "allostery",
+      "bioinformatics",
+      "catalytic activity",
+      "computational biology",
+      "evolution",
+      "evolutionary biology",
+      "molecular biology",
+      "protein kinase",
+      "systems biology"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Protein Isoforms/genetics",
+      "*Protein Serine-Threonine Kinases/genetics",
+      "*Biological Evolution",
+      "Alternative Splicing",
+      "Calcium, Dietary",
+      "Doublecortin-Like Kinases"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Venkat, Aarya",
+        "Watterson, Grace",
+        "Byrne, Dominic P",
+        "O'Boyle, Brady",
+        "Shrestha, Safal",
+        "Gravel, Nathan",
+        "Fairweather, Emma E",
+        "Daly, Leonard A",
+        "Bunn, Claire",
+        "Yeung, Wayland",
+        "Aggarwal, Ishan",
+        "Katiyar, Samiksha",
+        "Eyers, Claire E",
+        "Eyers, Patrick A",
+        "Kannan, Natarajan"
+      ],
+      "short_names": [
+        "Venkat A",
+        "Watterson G",
+        "Byrne DP",
+        "O'Boyle B",
+        "Shrestha S",
+        "Gravel N",
+        "Fairweather EE",
+        "Daly LA",
+        "Bunn C",
+        "Yeung W",
+        "Aggarwal I",
+        "Katiyar S",
+        "Eyers CE",
+        "Eyers PA",
+        "Kannan N"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8793-4097",
+        "ORCID: 0000-0002-3223-5926",
+        "ORCID: 0000-0002-9220-2966",
+        "ORCID: 0000-0002-2833-8375"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, University of Georgia, Athens, United States.",
+        "Department of Biochemistry and Molecular Biology, University of Georgia, Athens, United States.",
+        "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom.",
+        "Department of Biochemistry and Molecular Biology, University of Georgia, Athens, United States.",
+        "Institute of Bioinformatics, University of Georgia, Athens, United States.",
+        "Institute of Bioinformatics, University of Georgia, Athens, United States.",
+        "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom.",
+        "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom.",
+        "Centre for Proteome Research, Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom.",
+        "Department of Biochemistry and Molecular Biology, University of Georgia, Athens, United States.",
+        "Institute of Bioinformatics, University of Georgia, Athens, United States.",
+        "Department of Biochemistry and Molecular Biology, University of Georgia, Athens, United States.",
+        "Department of Biochemistry and Molecular Biology, University of Georgia, Athens, United States.",
+        "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom.",
+        "Centre for Proteome Research, Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom.",
+        "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom.",
+        "Institute of Bioinformatics, University of Georgia, Athens, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Venkat, Aarya",
+        "short_name": "Venkat A",
+        "identifiers": [
+          "0000-0002-8793-4097"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Georgia, Athens, United States."
+        ]
+      },
+      {
+        "full_name": "Watterson, Grace",
+        "short_name": "Watterson G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Georgia, Athens, United States."
+        ]
+      },
+      {
+        "full_name": "Byrne, Dominic P",
+        "short_name": "Byrne DP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "O'Boyle, Brady",
+        "short_name": "O'Boyle B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Georgia, Athens, United States."
+        ]
+      },
+      {
+        "full_name": "Shrestha, Safal",
+        "short_name": "Shrestha S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics, University of Georgia, Athens, United States."
+        ]
+      },
+      {
+        "full_name": "Gravel, Nathan",
+        "short_name": "Gravel N",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics, University of Georgia, Athens, United States."
+        ]
+      },
+      {
+        "full_name": "Fairweather, Emma E",
+        "short_name": "Fairweather EE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Daly, Leonard A",
+        "short_name": "Daly LA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom.",
+          "Centre for Proteome Research, Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Bunn, Claire",
+        "short_name": "Bunn C",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Georgia, Athens, United States."
+        ]
+      },
+      {
+        "full_name": "Yeung, Wayland",
+        "short_name": "Yeung W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Bioinformatics, University of Georgia, Athens, United States."
+        ]
+      },
+      {
+        "full_name": "Aggarwal, Ishan",
+        "short_name": "Aggarwal I",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Georgia, Athens, United States."
+        ]
+      },
+      {
+        "full_name": "Katiyar, Samiksha",
+        "short_name": "Katiyar S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, University of Georgia, Athens, United States."
+        ]
+      },
+      {
+        "full_name": "Eyers, Claire E",
+        "short_name": "Eyers CE",
+        "identifiers": [
+          "0000-0002-3223-5926"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom.",
+          "Centre for Proteome Research, Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Eyers, Patrick A",
+        "short_name": "Eyers PA",
+        "identifiers": [
+          "0000-0002-9220-2966"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Cell and Systems Biology, Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Kannan, Natarajan",
+        "short_name": "Kannan N",
+        "identifiers": [
+          "0000-0002-2833-8375"
+        ],
+        "affiliations": [
+          "Institute of Bioinformatics, University of Georgia, Athens, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2023 Oct 26",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/26 12:42",
+    "fetched_at": "2026-09-21 02:18:19"
+  },
+  "links": {
+    "cites": [
+      "42330084",
+      "41087459",
+      "40902973",
+      "40580813",
+      "40563698",
+      "40327749",
+      "40172959",
+      "40162222",
+      "38984616",
+      "38909268",
+      "38586025"
+    ],
+    "refs": [
+      "37306403",
+      "35525562",
+      "34977835",
+      "34830884",
+      "34791404",
+      "34545159",
+      "34537014",
+      "34515793",
+      "34310279",
+      "34285132",
+      "34254905",
+      "34155089",
+      "33237286",
+      "33079988",
+      "32636306",
+      "32501498",
+      "32251410",
+      "32149607",
+      "31467540",
+      "31394063",
+      "30611608",
+      "30254057",
+      "29534157",
+      "29432127",
+      "29077904",
+      "28741359",
+      "28481363",
+      "27908682",
+      "27766851",
+      "27731453",
+      "27520310",
+      "27458755",
+      "27444646",
+      "27135163",
+      "26921390",
+      "26536379",
+      "26455797",
+      "25799139",
+      "25371430",
+      "24494927",
+      "23832629",
+      "23407358",
+      "21500218",
+      "21073878",
+      "20971646",
+      "20805362",
+      "20668654",
+      "19644455",
+      "19530248",
+      "19505947",
+      "18817731",
+      "18554390",
+      "18367465",
+      "17227859",
+      "16684769",
+      "16325579",
+      "16219938",
+      "15654838",
+      "15299527",
+      "12471243",
+      "12136088",
+      "12015977",
+      "11931644",
+      "11884394",
+      "10473573",
+      "10441322",
+      "10051403",
+      "10036192",
+      "9747029",
+      "8744570",
+      "8601311",
+      "7659011",
+      "7559563",
+      "6667333",
+      "3156274"
+    ],
+    "similar": [
+      "37883155",
+      "37034755",
+      "21179209",
+      "34310279",
+      "11884394",
+      "38003596",
+      "14741399",
+      "25799139",
+      "33485913",
+      "30208879",
+      "18075264",
+      "34545159",
+      "11473121",
+      "26925779",
+      "12590608",
+      "38062554",
+      "34254905",
+      "20228126",
+      "27545623",
+      "37762326",
+      "17227859",
+      "15896703",
+      "17498644",
+      "20418180",
+      "16302968",
+      "15614772",
+      "12692530",
+      "10976872",
+      "12595708",
+      "34958000",
+      "21408167",
+      "34330820",
+      "32371580",
+      "35685361",
+      "28842480",
+      "17313568",
+      "34032269",
+      "20938978",
+      "25427151",
+      "12065620",
+      "23912807",
+      "26207888",
+      "18831736",
+      "21278387",
+      "18843117",
+      "10491192",
+      "35522902",
+      "26032409",
+      "36369000",
+      "32470859",
+      "21543316",
+      "11083916",
+      "33253205",
+      "25099472",
+      "25529026",
+      "23706950",
+      "37462016",
+      "28784162",
+      "19242103",
+      "24074032",
+      "29577277",
+      "18096186",
+      "25404735",
+      "28414327",
+      "35910805",
+      "27010561",
+      "16803889",
+      "11027274",
+      "10486211",
+      "29802995",
+      "29432127",
+      "12633499",
+      "21609427",
+      "8777433",
+      "17977811",
+      "27048986",
+      "9079650",
+      "34132193",
+      "16387638",
+      "8973207",
+      "20701803",
+      "36148883",
+      "22638587",
+      "34537014",
+      "12151521",
+      "16123126",
+      "24582561",
+      "31697410",
+      "11152753",
+      "11838236",
+      "17321610",
+      "29342249",
+      "16351747",
+      "39366918"
+    ],
+    "review": [
+      "37883155",
+      "38003596",
+      "34254905",
+      "34330820",
+      "26207888",
+      "23706950",
+      "17977811",
+      "36148883",
+      "11152753"
+    ],
+    "pmc": [
+      "10602587"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37883155/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37883155",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://datadryad.org/discover?query=10.7554/eLife.87958",
+        "provider": "Dryad Digital Repository",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.87958",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

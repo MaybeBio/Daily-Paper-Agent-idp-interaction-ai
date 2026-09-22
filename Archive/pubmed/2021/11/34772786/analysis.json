@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34772786",
+  "title": "What are the distinguishing features and size requirements of biomolecular condensates and their implications for RNA-containing condensates?",
+  "authors": "Forman-Kay, Julie D; Ditlev, Jonathon A; Nosella, Michael L; Lee, Hyun O",
+  "journal": "RNA (New York, N.Y.)",
+  "published_date": "2021-11-14",
+  "window": {
+    "start": "2021-11-08",
+    "end": "2021-11-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文综述了生物分子凝聚体的定义特征与尺寸要求，聚焦RNA凝聚体，涉及相分离机制但无AI/物理模拟方法，对象相关而互作机制建模较弱。",
+  "abstract": "Exciting recent work has highlighted that numerous cellular compartments lack encapsulating lipid bilayers (often called \"membraneless organelles\"), and that their structure and function are central to the regulation of key biological processes, including transcription, RNA splicing, translation, and more. These structures have been described as \"biomolecular condensates\" to underscore that biomolecules can be significantly concentrated in them. Many condensates, including RNA granules and processing bodies, are enriched in proteins and nucleic acids. Biomolecular condensates exhibit a range of material states from liquid- to gel-like, with the physical process of liquid-liquid phase separation implicated in driving or contributing to their formation. To date, in vitro studies of phase separation have provided mechanistic insights into the formation and function of condensates. However, the link between the often micron-sized in vitro condensates with nanometer-sized cellular correlates has not been well established. Consequently, questions have arisen as to whether cellular structures below the optical resolution limit can be considered biomolecular condensates. Similarly, the distinction between condensates and discrete dynamic hub complexes is debated. Here we discuss the key features that define biomolecular condensates to help understand behaviors of structures containing and generating RNA.",
+  "abstract_zh": "近期令人振奋的研究强调，许多细胞区室缺乏包裹性脂质双层（常称为“无膜细胞器”），其结构与功能对关键生物过程的调控至关重要，包括转录、RNA剪接、翻译等。这些结构被描述为“生物分子凝聚体 (biomolecular condensates)”，以强调生物分子可在其中显著富集。许多凝聚体，如RNA颗粒 (RNA granules) 和处理体 (processing bodies)，富含蛋白质和核酸。生物分子凝聚体表现出从液态到凝胶状的多种物质状态，其中液-液相分离 (liquid-liquid phase separation) 的物理过程被认为驱动或促成了它们的形成。迄今为止，相分离的体外研究为凝聚体的形成和功能提供了机制性见解。然而，通常微米级的体外凝聚体与纳米级细胞对应结构之间的联系尚未充分建立。因此，出现了关于低于光学分辨率极限的细胞结构是否可被视为生物分子凝聚体的疑问。同样，凝聚体与离散动态枢纽复合物之间的区别也存在争议。在此，我们讨论定义生物分子凝聚体的关键特征，以帮助理解含有并生成RNA的结构的行为。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34772786/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34772786/",
+  "paper_page_path": "papers/pubmed/34772786/index.html"
+}

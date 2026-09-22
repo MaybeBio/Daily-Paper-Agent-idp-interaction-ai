@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2512.16405v2",
+  "title": "A single-chain nanoparticle-based mean-field theory for associative polymers",
+  "doi": "10.1021/acs.macromol.5c03522",
+  "abstract": "Associative polymers are a class of polymers containing attractive stickers that can reversibly bind to each other. Their fully-bonded state gives rise, in dilute conditions, to a fluid phase of so-called single-chain nanoparticles (SCNPs). These constructs have been used in a wide range of applications, from the design of new materials (e.g. biomolecular condensates) to drug-delivery vectors. The thermodynamic properties of SCNPs sensitively depend on the number of different sticker types, since numerical simulations show that a continuous transition to a network of chains upon increase of polymer concentration in the single sticker-type case can be replaced by an abrupt network formation (via a first-order phase transition) in the multiple sticker-type case. We present here a theory that, using the SCNP fluid as the reference system, quantifies the free energy change associated with transferring an intra-molecular bond to an inter-molecular bond, elucidating the impact on the phase separation process of the sticker topology. Despite its simplicity, the theory highlights which microscopic assumptions (loop statistics, chain-level excluded volume) are most relevant for accurately capturing the thermodynamics of these systems. Our results match available numerical predictions obtained via coarse grained simulations of these systems, highlighting in particular the sensitivity of the phase behaviour on the sequence of the stickers along the chain.",
+  "authors": [
+    "Marco Cappa",
+    "Stefano Chiani",
+    "Francesco Sciortino",
+    "Lorenzo Rovigatti"
+  ],
+  "published_date": "2025-12-18T11:04:28Z",
+  "updated_date": "2026-06-15T10:34:49Z",
+  "journal": "",
+  "category": "cond-mat.soft",
+  "landing_url": "https://arxiv.org/abs/2512.16405v2",
+  "pdf_url": "https://arxiv.org/pdf/2512.16405v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2512.16405v2",
+    "raw_categories": [
+      "cond-mat.soft"
+    ],
+    "journal_ref": ""
+  }
+}

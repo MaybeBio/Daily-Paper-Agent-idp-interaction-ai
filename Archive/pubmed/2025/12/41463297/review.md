@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, evidence quality, and internal consistency of the claims as presented in the provided text
+- **Shared manuscript claim summary** The authors define a novel short linear motif (SLiM) for tandem SH3 domain binding in the p47phox-related protein family, propose a consensus sequence [PAVIL]PPR[PR][^DE][^DE], identify candidate motif instances in known interaction partners, and use structure prediction to suggest a possible reverse binding mode for certain motifs
+- **Visible evidence base** Literature citations, sequence alignments (Figure S1), crystal structures (PDB: 1NG2, 1UEC, 1OVC3, 7YXW), AlphaFold2/3 predictions, BioEmu ensemble simulations, MMGBSA calculations, proteome-wide motif scanning
+- **Missing materials affecting confidence** Figures and supplementary tables (Figures 1-6, S1-S8; Tables 1-2, S1-S7) are referenced but not provided; detailed numerical results of MMGBSA calculations are not shown; specific AlphaFold confidence scores are not reported; the full list of 324 proteome hits is not available for inspection
+
+## Reviewer
+- **Overall assessment** This manuscript presents a comprehensive bioinformatics-driven analysis of a specialized SH3 domain binding mode within the NCF1 protein family. The authors have collected scattered literature evidence, defined a consensus motif, and applied modern structure prediction tools to propose novel interaction candidates. The work is timely and addresses a genuine gap in understanding cooperative SH3 domain function. However, the evidence base is heavily dependent on computational predictions, and the central claims regarding novel motif candidates and the reverse binding mode require experimental validation that is not provided. The manuscript is well-structured and clearly written, but the strength of the conclusions currently exceeds what the presented evidence can support.
+- **Who would be interested in the results, and why** Researchers studying SH3 domain biology, short linear motif (SLiM) function, NADPH oxidase regulation, and protein-protein interaction prediction. The work is also relevant to those interested in the application of AlphaFold-based methods to intrinsically disordered regions and motif-mediated interactions, as well as to cancer biologists studying TKS4/TKS5 function in metastasis.
+- **Major strengths** The authors address a genuinely understudied aspect of SH3 domain biology, namely cooperative tandem domain binding. The integration of multiple evidence types (literature, sequence conservation, structure, prediction) is thoughtful. The definition of a consensus motif following ELM database conventions is methodologically appropriate. The use of actifpTM as a domain-peptide interaction confidence metric is a sensible adaptation. The manuscript is clearly written and logically organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the proposed novel motif candidates (e.g., NCF1 365-VPPRP-369, TKS4 757-VPPRR-761, TKS5 400-PPPRR-404) represent likely functional autoregulatory or partner-binding sites.
+  - **Evidence pointer** Section 3.3, Table 1 (rows 8-10), Table 2
+  - **Concern** The central novelty of this manuscript lies in the proposal of new functional motif instances. However, none of these candidates have been experimentally tested. The evidence for their functionality rests entirely on sequence similarity to validated motifs, conservation patterns, and AlphaFold predictions. For the TKS4 757-VPPRR-761 candidate, the authors note that the AlphaFold2 model predicts binding to this site, but this contradicts the experimentally characterized site from Merő et al. The authors do not resolve this discrepancy or provide any experimental data to adjudicate between the two proposed sites. For the NCF1 365-VPPRP-369 candidate, the authors acknowledge they are "not aware of an alternative intramolecular interaction" and merely propose that such an interaction "might exist." This is speculative and does not meet the standard of evidence required to establish new functional motifs.
+  - **Why it matters** The manuscript's primary contribution is the identification of new motif instances. Without experimental validation, these remain computational predictions. The field of SLiM biology is plagued by false positives from motif scanning, and the authors themselves acknowledge this challenge. The manuscript would be substantially strengthened by even minimal experimental validation, such as mutagenesis or binding assays for at least one or two of the highest-confidence candidates.
+  - **Resolution test** Provide experimental evidence (e.g., co-immunoprecipitation, pull-down, ITC, or mutagenesis) for at least one novel motif candidate, or substantially temper the claims to clearly frame these as untested predictions requiring validation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors propose a novel reverse binding mode for the TKS4 and TKS5 autoregulatory motifs based on AlphaFold predictions.
+  - **Evidence pointer** Section 3.2, Figure 3C-D, Figure S4
+  - **Concern** The claim of a reverse binding mode is based entirely on AlphaFold2 and AlphaFold3 predictions. The authors state that "the validity of the predicted reverse binding mode cannot be judged based on the currently available data." This is an honest admission, but it means that a significant portion of the manuscript's novelty rests on an unvalidated computational prediction. The authors do not provide any biophysical or biochemical evidence to support this claim. Furthermore, the authors note that the TKS4 motif has a negatively charged residue at position 6, which they previously argued weakens binding in the forward orientation. The reverse binding mode is presented as an explanation for how these motifs could still bind, but this is post-hoc reasoning without independent support.
+  - **Why it matters** The reverse binding mode is presented as a significant finding of the manuscript. If incorrect, it could mislead future research on TKS4/TKS5 regulation. The authors should either provide experimental validation or clearly present this as a hypothesis requiring testing, not as an established finding.
+  - **Resolution test** Provide experimental evidence for the reverse binding mode (e.g., structure determination, crosslinking, or mutagenesis that distinguishes forward from reverse binding), or reframe this as a testable hypothesis with appropriate caveats.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors conclude that "tandem SH3-binding mode is likely to be specific for the four members of the NCF1 protein family" based on a proteome-wide screen.
+  - **Evidence pointer** Section 3.5, Table S6
+  - **Concern** The conclusion that this binding mode is specific to the NCF1 family is based on a screen that identified only one candidate (CIN85) outside the family, which was then rejected based on computational predictions. However, the screen relied on the presence of the GWW signature and linker length criteria. The authors acknowledge that CIN85 has the GWW signature but reject it based on structure prediction. This is a single negative result from which to draw a strong conclusion about family specificity. The authors also note that CD4AP has the GWW signature but with a longer linker, and they do not test whether this could still form a tandem under certain conditions. The conclusion of family specificity may be premature.
+  - **Why it matters** The claim of family specificity is a key conclusion of the manuscript. If other proteins can form tandem SH3 domains under different conditions or with different linker lengths, this conclusion would be incorrect. The evidence base for this strong claim is thin.
+  - **Resolution test** Expand the analysis to include a broader set of criteria for tandem formation, or soften the conclusion to acknowledge that the screen may not capture all possible tandem SH3 configurations.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors use MMGBSA calculations to estimate residue-wise contributions to binding free energy and state that the results "confirmed that the absolutely conserved positions have the largest energetic contribution to binding."
+  - **Evidence pointer** Section 2.5, Figure 2, Table S4
+  - **Concern** MMGBSA is a well-established but approximate method for estimating binding free energies. The authors do not provide the actual numerical results of these calculations, nor do they compare them to experimental data. The statement that the results "confirmed" the importance of conserved positions is circular, as the motif definition was partly based on these same positions. Without quantitative results or comparison to experimental mutagenesis data, the MMGBSA analysis adds limited independent support.
+  - **Why it matters** The MMGBSA results are presented as supporting evidence for the motif definition. If the calculations are not robust or are not compared to experimental data, they provide weak support. The authors should either provide the numerical results and a more rigorous analysis, or de-emphasize this evidence.
+  - **Resolution test** Provide the numerical MMGBSA results and compare them to available experimental mutagenesis data, or remove this as a supporting line of evidence.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.1, Figure 1
+  - **Evidence pointer** Figure 1 (not provided)
+  - **Issue** The text states that "four have multiple SH3 domains, of which the first two are in proximity in sequence, connected only by a relatively short linker." It is unclear whether all four family members have the same linker length and whether the linker length is a critical determinant of tandem formation.
+  - **Required correction** Provide a table or figure showing the linker lengths for all family members and clarify whether linker length is a conserved feature.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 2.4
+  - **Evidence pointer** Table S2 (not provided)
+  - **Issue** The authors state that they selected the model with the highest actifpTM score but do not report the range of scores or how they interpret them. It is unclear what threshold, if any, was used to consider a prediction reliable.
+  - **Required correction** Report the actifpTM scores for all predictions and state the threshold used to consider a prediction reliable.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.3, Table 2
+  - **Evidence pointer** Table 2 (not provided)
+  - **Issue** The authors list several candidate motif instances in known interaction partners but do not clearly indicate which of these are in proteins with known biological relevance to the NCF1 family. The discussion of each candidate is brief.
+  - **Required correction** Provide a more detailed assessment of each candidate, including the strength of evidence for the interaction and the potential biological context.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Section 2.6
+  - **Issue** The BioEMU ensemble generation parameters are described, but the rationale for choosing these specific parameters is not given. It is unclear whether the results are sensitive to parameter choices.
+  - **Required correction** Provide a brief justification for the parameter choices or a sensitivity analysis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.4, Figure 4
+  - **Evidence pointer** Figure 4 (not provided)
+  - **Issue** The authors describe conserved sequence signatures in the SH3 domains but do not provide a quantitative measure of conservation or a statistical test to support the claim that these signatures are specific to the NCF1 family.
+  - **Required correction** Provide a quantitative conservation analysis or a statistical comparison to other SH3 domains.
+
+## Risk / unsupported claims
+- The claim that the reverse binding mode is a genuine phenomenon for TKS4/TKS5 motifs is unsupported by experimental evidence and rests entirely on computational prediction
+- The claim that the NCF1 365-VPPRP-369 motif represents a functional autoregulatory site is speculative, as the authors acknowledge no evidence for such an interaction
+- The claim that the TKS4 757-VPPRR-761 motif is a stronger candidate than the experimentally characterized site is not supported by any experimental data
+- The conclusion that tandem SH3 binding is specific to the NCF1 family is based on a single negative result and may be premature
+- The MMGBSA results are presented as confirmatory evidence but are not shown numerically and are not compared to experimental data
+- The functional significance of the proposed novel motif candidates is not experimentally validated, and the therapeutic relevance claims are speculative

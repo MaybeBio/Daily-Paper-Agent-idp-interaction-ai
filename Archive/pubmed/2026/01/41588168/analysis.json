@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41588168",
+  "title": "Two-in-one protein tag enables the soluble expression and calcium-dependent purification of single-chain antibody fragments.",
+  "authors": "Lee, Jonghwan; Park, Heesun; Jeong, Suhyeon; Im, KyuHyuk; Park, Seho; Jon, Sangyong; Byun, Sanguine; Kim, Sunghyun",
+  "journal": "Communications biology",
+  "published_date": "2026-01-27",
+  "window": {
+    "start": "2026-01-26",
+    "end": "2026-02-01"
+  },
+  "score": 4,
+  "one_liner_zh": "该文利用无序蛋白CSQ-tag促进单链抗体可溶表达与钙依赖性纯化，虽涉及IDP性质但非PPI机制建模，方法为实验表征，与课题关联有限。",
+  "abstract": "Single-chain variable fragments (scFvs) antibodies are used in diagnostic and therapeutic biopharmaceuticals. However, its production is limited due to insoluble expression and lack of a universal purification ligand. Here, we report a novel two-in-one protein tag, termed CSQ-tag, utilizing a calsequestrin (CSQ) protein to enable the soluble expression and calcium-dependent purification for scFvs. The CSQ-tag enhanced the solubility of four different therapeutic scFvs with an average solubility of 83.8 +/- 4.6% in the BL21(DE3) strain, despite its reducing cytoplasmic environment. Compared to other tags, CSQ-tag showed superior solubility, with 1.8-fold higher solubility than MBP-tag across four scFvs. The solubility enhancement of the CSQ-tag is attributed to two main characteristics: highly acidic sequences with a low isoelectric point of 3.95, and intrinsically disordered protein properties. Furthermore, CSQ-tag can cost-effectively purify therapeutic scFvs with high purity over 95% using the calcium-dependent phase transition properties. Importantly, the anti-VEGF-scFv produced with the CSQ-tag showed a binding affinity of 25.8 pM, similar to that of the existing therapeutic brolucizumab. Therefore, CSQ-tag can significantly improve productivity and simultaneously maintain scFvs' functional integrity, thereby serving as a promising tool for universal expression and purification of therapeutic scFvs.",
+  "abstract_zh": "单链可变片段（scFvs）抗体用于诊断和治疗性生物制药中。然而，由于其不可溶表达及缺乏通用纯化配体，其生产受到限制。在此，我们报告了一种新型双功能蛋白标签，称为CSQ-tag，利用钙网蛋白（calsequestrin, CSQ）实现scFvs的可溶表达和钙依赖性纯化。CSQ-tag增强了四种不同治疗性scFvs的溶解度，在BL21(DE3)菌株中平均溶解度为83.8 ± 4.6%，尽管其细胞质环境具有还原性。与其他标签相比，CSQ-tag表现出优越的溶解度，在四种scFvs中比MBP-tag的溶解度高出1.8倍。CSQ-tag的溶解度增强归因于两个主要特性：高度酸性序列，其等电点低至3.95，以及内在无序蛋白特性。此外，CSQ-tag利用钙依赖性相变特性，可以经济高效地纯化治疗性scFvs，纯度超过95%。重要的是，使用CSQ-tag生产的抗VEGF-scFv显示出25.8 pM的结合亲和力，与现有治疗性brolucizumab相似。因此，CSQ-tag可以显著提高生产率，同时保持scFvs的功能完整性，从而作为治疗性scFvs通用表达和纯化的有前景工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41588168/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41588168/",
+  "paper_page_path": "papers/pubmed/41588168/index.html"
+}

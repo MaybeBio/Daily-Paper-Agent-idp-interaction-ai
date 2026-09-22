@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full manuscript, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use atomistic molecular dynamics simulations to show that fasudil reduces intermolecular contact propensity between alpha-synuclein chains during early dimerization, predominantly interacting with the negatively charged C-terminal region, but with transient interactions in the N-terminal and NAC regions that are proposed to be the effective blockers of dimer formation
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, sampling lengths, convergence metrics, or quantitative results are visible
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation methodology, force field and water model specifications, system size and composition, simulation timescales, replica or repeat information, analysis protocols, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study on the molecular mechanism of fasudil action against alpha-synuclein dimerization. The central claim, that transient interactions with N-terminal and NAC residues are functionally more important than the more prominent C-terminal interactions, is mechanistically intriguing and could have implications for drug design. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the simulations or the robustness of the conclusions. The claim that transient interactions "effectively block" dimerization requires quantitative support that is not visible in the supplied material. The study is within scope for a biophysical chemistry audience, but the strength of the case cannot be assessed without the full methodology and results.
+- **Who would be interested in the results, and why** Researchers in the fields of protein misfolding and aggregation, computational biophysics, and drug discovery for Parkinson's disease and other synucleinopathies would be interested. The proposed mechanism, distinguishing between dominant binding sites and functionally relevant transient sites, could inform structure-based drug design strategies targeting early aggregation intermediates. The work also speaks to the broader question of how small molecules modulate intrinsically disordered protein interactions.
+- **Major strengths** The study addresses a clinically relevant target, the earliest toxic oligomer species, rather than mature fibrils. The mechanistic distinction between prominent but functionally inert interactions and transient but functionally decisive interactions is a conceptually valuable framing. The use of atomistic molecular dynamics is appropriate for studying early dimerization events at molecular resolution.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that transient interactions with N-terminal and NAC residues "effectively block the formation of intermolecular contacts between protein chains and prevent early dimerization"  
+  - **Evidence pointer** Abstract, results section; location not provided  
+  - **Concern** The abstract provides no quantitative data on the extent of dimerization suppression, the frequency or lifetime of the transient interactions, or the statistical significance of the observed differences between conditions with and without fasudil. Without such data, the claim that transient interactions are the effective blocking mechanism is not established.  
+  - **Why it matters** The central mechanistic conclusion rests on distinguishing the functional role of transient versus persistent interactions. If the simulations are under-sampled, the transient interactions may be artifacts of limited sampling, and the apparent lack of effect from C-terminal interactions could be a false negative.  
+  - **Resolution test** Provide quantitative measures such as intermolecular contact probabilities over time, dimerization free energy profiles, residence times of fasudil at each binding site, and replicate simulations with error bars demonstrating that the observed effects are reproducible and statistically robust.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The study uses atomistic molecular dynamics simulations to demonstrate the effect of fasudil on dimerization  
+  - **Evidence pointer** Abstract, methods; location not provided  
+  - **Concern** No simulation details are provided, including force field, water model, ion concentration, temperature, pressure coupling, simulation length, number of replicas, initial configurations, or equilibration protocol. For intrinsically disordered proteins, sampling convergence is a critical issue, and the absence of any convergence assessment makes the results impossible to evaluate.  
+  - **Why it matters** Alpha-synuclein is a disordered protein with a rugged energy landscape. Short or under-sampled simulations can produce misleading conclusions about interaction preferences and dimerization propensity. Without evidence of convergence, the reported effects could be simulation artifacts.  
+  - **Resolution test** Provide full simulation parameters, demonstrate convergence through block averaging or replica comparisons, and show that the key conclusions are stable across multiple independent simulations.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors state that their results are "consistent with previous reports" regarding fasudil interaction with the C-terminal region  
+  - **Evidence pointer** Abstract, discussion; location not provided  
+  - **Concern** The abstract does not specify which previous reports are referenced or how the current simulations compare with those findings. The novelty of the present work, relative to prior computational or experimental studies on fasudil and alpha-synuclein, is therefore unclear.  
+  - **Why it matters** The scientific importance of the study depends on what new information it adds beyond existing knowledge. If the C-terminal interaction is already known, the key novelty must be the proposed functional role of transient N-terminal and NAC interactions, and this needs to be positioned against prior work.  
+  - **Resolution test** In the full manuscript, clearly cite and discuss prior studies on fasudil and alpha-synuclein, and explicitly state what new mechanistic insight the current simulations provide.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract, background  
+  - **Evidence pointer** Abstract, first two sentences; location not provided  
+  - **Issue** The abstract assumes familiarity with the distinction between oligomers, dimers, and fibrils, and the significance of the C-terminal, N-terminal, and NAC regions is not explained for readers outside the alpha-synuclein field.  
+  - **Required correction** Briefly define the NAC region and explain why the C-terminal region is negatively charged and why this matters for drug binding, to make the abstract accessible to a broader biophysical audience.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Abstract, results  
+  - **Evidence pointer** Abstract, results; location not provided  
+  - **Issue** The phrase "reduces the propensity for intermolecular contact formation" is vague. It is unclear whether this refers to the frequency, duration, or stability of contacts, and by what margin.  
+  - **Required correction** Provide a specific quantitative metric, such as a percentage reduction in contact probability or a change in the dimerization free energy, in the abstract.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Abstract, conclusion  
+  - **Evidence pointer** Abstract, final sentence; location not provided  
+  - **Issue** The abstract does not state the potential therapeutic implications of the finding, such as whether the transient interaction sites could be targeted by modified drug designs.  
+  - **Required correction** Add one sentence on the potential implications for drug design or for understanding the mechanism of action of fasudil in vivo.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative results and simulation methodology means the central mechanistic claim cannot be evaluated. The study may be technically sound, but the supplied material does not allow verification.
+
+## Risk / unsupported claims
+- The claim that transient N-terminal and NAC interactions "effectively block" dimerization is unsupported by the visible evidence, as no quantitative data are provided.
+- The claim that the simulations "demonstrate" the effect of fasudil is not assessable without methodology and convergence evidence.
+- The statement that results are "consistent with previous reports" is unverifiable from the abstract alone, as no specific prior work is cited.
+- The overall conclusion that fasudil prevents early dimerization through transient interactions is not established from the supplied material.

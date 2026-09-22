@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35298864",
+  "title": "Integrative structure determination of histones H3 and H4 using genetic interactions.",
+  "authors": "Echeverria, Ignacia; Braberg, Hannes; Krogan, Nevan J; Sali, Andrej",
+  "journal": "The FEBS journal",
+  "published_date": "2022-03-18",
+  "window": {
+    "start": "2022-03-14",
+    "end": "2022-03-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用遗传互作数据转化为空间约束，整合建模组蛋白H3-H4复合物结构，虽对象非IDP，但方法可迁移至无序蛋白复合物，且明确提及无序蛋白应用前景。",
+  "abstract": "Integrative structure modeling is increasingly used for determining the architectures of biological assemblies, especially those that are structurally heterogeneous. Recently, we reported on how to convert in vivo genetic interaction measurements into spatial restraints for structural modeling: first, phenotypic profiles are generated for each point mutation and thousands of gene deletions or environmental perturbations. Following, the phenotypic profile similarities are converted into distance restraints on the pairs of mutated residues. We illustrate the approach by determining the structure of the histone H3-H4 complex. The method is implemented in our open-source IMP program, expanding the structural biology toolbox by allowing structural characterization based on in vivo data without the need to purify the target system. We compare genetic interaction measurements to other sources of structural information, such as residue coevolution and deep-learning structure prediction of complex subunits. We also suggest that determining genetic interactions could benefit from new technologies, such as CRISPR-Cas9 approaches to gene editing, especially for mammalian cells. Finally, we highlight the opportunity for using genetic interactions to determine recalcitrant biomolecular structures, such as those of disordered proteins, transient protein assemblies, and host-pathogen protein complexes.",
+  "abstract_zh": "整合结构建模越来越多地用于确定生物组装体的结构，尤其是那些结构异质性的组装体。近期，我们报道了如何将体内遗传相互作用测量转化为结构建模的空间约束：首先，为每个点突变及数千个基因缺失或环境扰动生成表型谱。随后，将表型谱相似性转化为突变残基对之间的距离约束。我们通过确定组蛋白H3-H4复合物的结构来展示该方法。该方法已在我们开源的IMP程序中实现，通过允许基于体内数据进行结构表征而无需纯化目标系统，扩展了结构生物学工具箱。我们将遗传相互作用测量与其他结构信息来源进行比较，如残基共进化及复合物亚基的深度学习结构预测。我们还建议，遗传相互作用的测定可能受益于新技术，如CRISPR-Cas9基因编辑方法，尤其是在哺乳动物细胞中。最后，我们强调利用遗传相互作用来确定难以处理的生物分子结构的机遇，例如无序蛋白、瞬时蛋白组装体及宿主-病原体蛋白复合物的结构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35298864/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35298864/",
+  "paper_page_path": "papers/pubmed/35298864/index.html"
+}

@@ -1,0 +1,66 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no access to figures, tables, or full text
+- **Shared manuscript claim summary** The authors present a graphical review of structural and mechanistic principles of chemokine receptor recognition, emphasizing the role of the receptor N-terminal domain (CRS1 site), its dynamic behavior upon ligand binding, the existence of multiple interaction sites (CRS1, CRS1.5, CRS2), and the proposal of a mixed binding model combining conformational selection and induced fit signatures based on computational studies.
+- **Visible evidence base** Abstract text only; no figures, tables, or references are provided in the supplied material
+- **Missing materials affecting confidence** Full text, all figures, figure legends, references, and any supplementary information; without these, the specific structural models, simulation details, and experimental comparisons cannot be independently evaluated
+
+## Reviewer
+- **Overall assessment** The abstract describes a timely and potentially useful graphical review on chemokine receptor binding mechanisms. The topic is of interest to structural biologists and pharmacologists. However, the abstract alone provides insufficient detail to assess the depth, accuracy, or novelty of the review content. The central mechanistic claim regarding a mixed binding model is presented without supporting evidence in the abstract, and the relationship between computational findings and experimental data is asserted rather than demonstrated. The manuscript may be suitable for a specialized journal audience, but the current evidence base does not allow verification of the scientific claims.
+- **Who would be interested in the results, and why** Structural biologists studying G protein coupled receptors, computational biochemists interested in protein protein interaction dynamics, and pharmacologists involved in chemokine receptor targeted drug design would find this review relevant. The graphical format and focus on dynamic interfaces may also appeal to educators in molecular biology.
+- **Major strengths** The abstract identifies a clear and focused topic with significant biological relevance. The mention of integrative experimental and computational approaches is appropriate for the field. The explicit discussion of multiple interaction sites and the proposed mixed binding model provides a conceptual framework that could be useful for organizing current knowledge.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that computational studies highlight a dynamic protein protein interface at the CRS1 site that resolves differences between NMR and mutagenesis studies, and that differential dynamics suggest a mixed model of binding with signatures of both conformational selection and induced fit.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract asserts that computational studies resolve experimental discrepancies and support a mixed binding model, but no specific data, simulation methods, or comparative analyses are described. The claim is presented as a conclusion without visible supporting evidence.
+  - **Why it matters** The central mechanistic conclusion of the review depends on this claim. Without details on which computational studies were performed, how they were validated against experimental data, and what specific signatures were observed, the claim cannot be assessed for accuracy or generalizability.
+  - **Resolution test** Provide in the full text specific simulation results, comparison with NMR and mutagenesis data, and a clear description of the dynamic signatures that distinguish conformational selection from induced fit. The abstract should reference these findings explicitly.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scope and completeness
+  - **Claim pointer** The abstract states that structural models of chemokine receptor co-complexes with endogenous chemokines, viral chemokines, and therapeutics have been resolved, highlighting multiple interaction sites.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract lists resolved structures but does not indicate how many structures are covered, which receptors and ligands are included, or whether the review systematically covers the field or selectively highlights examples. The scope of the graphical review is unclear.
+  - **Why it matters** A review must define its coverage to be useful. Without a statement of inclusion criteria or a summary of the structural landscape, readers cannot judge whether the review is comprehensive or biased toward specific systems.
+  - **Resolution test** In the full text, specify the number and types of structures reviewed, the selection criteria, and a table or figure summarizing the coverage. The abstract should state the scope explicitly.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "CRS1.5" is introduced without definition or context. Nonspecialist readers may not understand what this site represents.
+  - **Required correction** Define CRS1.5 in the abstract or provide a brief explanation of the numbering scheme for chemokine recognition sites.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Precision
+  - **Affected element** Statement on N terminal domain dynamics
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that the N terminal domain shows "constricted dynamics" upon chemokine binding and "opens up to interact" with the chemokine. These terms are vague and could be interpreted in multiple ways.
+  - **Required correction** Use more precise language, such as describing specific changes in conformational entropy, root mean square fluctuations, or contact area, and reference the relevant studies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Final sentence
+  - **Evidence pointer** Abstract text
+  - **Issue** The concluding sentence about therapeutic design is generic and does not follow directly from the preceding content.
+  - **Required correction** Either remove the sentence or connect it to a specific insight from the review, such as how the mixed binding model could inform the design of biased agonists or allosteric modulators.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the abstract does not provide sufficient evidence to support the central mechanistic claim or to define the review scope. The full text must include detailed computational and experimental comparisons and a clear statement of structural coverage.
+- **Assessment against Nature-style criteria** 
+  - Originality: The topic is not new, but the proposed mixed binding model may offer a fresh perspective. The abstract does not demonstrate novelty beyond existing reviews.
+  - Scientific importance: Chemokine receptor signaling is biologically significant, and understanding binding mechanisms has therapeutic relevance. The importance is moderate and field specific.
+  - Interdisciplinary readership: The abstract is likely to appeal mainly to structural biologists and computational chemists. The lack of context for terms like CRS1.5 limits broader accessibility.
+  - Technical soundness: Cannot be assessed from the abstract alone. The claims require verification against the full text.
+  - Readability for nonspecialists: The abstract is concise but assumes familiarity with chemokine receptor nomenclature and structural biology concepts. It is not written for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not allow verification of the scientific claims or the review scope. A decision would require access to the full text and figures. If the full text provides the necessary evidence and addresses the minor comments, the manuscript could be considered for publication in a specialized journal.
+
+## Risk / unsupported claims
+- The claim that computational studies resolve differences between NMR and mutagenesis studies is unsupported in the abstract.
+- The claim of a mixed binding model with conformational selection and induced fit signatures is unsupported in the abstract.
+- The statement that the N terminal domain shows "constricted dynamics" and "opens up" is vague and not verifiable from the abstract.
+- The assertion that integrative approaches could open new therapeutic avenues is speculative and not tied to specific findings.

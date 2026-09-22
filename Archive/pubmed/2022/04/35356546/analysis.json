@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35356546",
+  "title": "Deep learning in prediction of intrinsic disorder in proteins.",
+  "authors": "Zhao, Bi; Kurgan, Lukasz",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2022-04-01",
+  "window": {
+    "start": "2022-03-28",
+    "end": "2022-04-03"
+  },
+  "score": 5,
+  "one_liner_zh": "该文综述了深度学习在无序蛋白预测中的应用，虽涉及IDP和AI方法，但聚焦于无序区域预测而非PPI互作机制建模，仅提及无序结合区预测的不足，缺乏互作机制深度。",
+  "abstract": "Intrinsic disorder prediction is an active area that has developed over 100 predictors. We identify and investigate a recent trend towards the development of deep neural network (DNN)-based methods. The first DNN-based method was released in 2013 and since 2019 deep learners account for majority of the new disorder predictors. We find that the 13 currently available DNN-based predictors are diverse in their topologies, sizes of their networks and the inputs that they utilize. We empirically show that the deep learners are statistically more accurate than other types of disorder predictors using the blind test dataset from the recent community assessment of intrinsic disorder predictions (CAID). We also identify several well-rounded DNN-based predictors that are accurate, fast and/or conveniently available. The popularity, favorable predictive performance and architectural flexibility suggest that deep networks are likely to fuel the development of future disordered predictors. Novel hybrid designs of deep networks could be used to adequately accommodate for diversity of types and flavors of intrinsic disorder. We also discuss scarcity of the DNN-based methods for the prediction of disordered binding regions and the need to develop more accurate methods for this prediction.",
+  "abstract_zh": "内在无序预测是一个活跃领域，已开发出超过100种预测器。我们识别并研究了一个近期趋势，即基于深度神经网络（DNN）的方法的发展。首个基于DNN的方法于2013年发布，自2019年起，深度学习模型占据了新无序预测器的大多数。我们发现，目前可用的13种基于DNN的预测器在拓扑结构、网络规模及所用输入方面各不相同。我们通过近期社区内在无序预测评估（CAID）的盲测数据集，实证表明深度学习模型在统计上比其他类型的无序预测器更为准确。我们还识别出几种全面优秀的基于DNN的预测器，它们准确、快速且/或便于使用。其普及性、良好的预测性能及架构灵活性表明，深度网络很可能推动未来无序预测器的发展。新颖的深度网络混合设计可用于充分适应内在无序类型和特征的多样性。我们还讨论了基于DNN的方法在预测无序结合区域方面的稀缺性，以及开发更准确方法以满足此预测需求的必要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35356546/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35356546/",
+  "paper_page_path": "papers/pubmed/35356546/index.html"
+}

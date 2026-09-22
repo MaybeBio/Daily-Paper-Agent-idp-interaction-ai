@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract and author summary only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract and author summary
+- **Shared manuscript claim summary** The authors propose ProtAttn-QuadNet, an attention-based deep learning framework using ProtBERT embeddings for protein–protein interaction (PPI) prediction. The model uses a quad-stream attention mechanism with multi-level self- and cross-attention layers to model individual protein features, synergistic interactions, and complementary differences. Evaluated on a large-scale UniProt dataset, the model reportedly achieves 97.16% accuracy (AUC-ROC 99.00%) on balanced data and 99.19% accuracy (AUC-ROC 99.76%) on oversampled data, outperforming several recent state-of-the-art methods. Statistical validation via Chi-square and Wilcoxon signed-rank tests is claimed to confirm predictive significance and reliability.
+- **Visible evidence base** Abstract text and author summary only; no figures, tables, methods details, dataset specifications, or baseline descriptions are provided
+- **Missing materials affecting confidence** Full manuscript, dataset construction details, train/test split methodology, baseline method descriptions, hyperparameter settings, cross-validation strategy, statistical test implementation details, and any code or reproducibility information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of attention mechanisms to PPI prediction, but the supplied material is insufficient to evaluate the technical soundness, novelty, or validity of the reported results. The performance figures are stated without methodological context, and the statistical claims are not verifiable from the provided text. The work may be of interest to the computational biology community, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, interaction network inference, and applications of protein language models. Researchers developing deep learning methods for biological sequence analysis may also find the quad-stream attention architecture of interest if the full manuscript provides sufficient technical detail.
+- **Major strengths** The proposed architecture addresses a relevant problem, namely PPI prediction from sequence alone, and the use of ProtBERT embeddings is consistent with current trends in protein language models. The reported performance figures are high, and the inclusion of statistical tests suggests an intention to go beyond simple accuracy reporting. The author summary is clearly written and accessible to nonspecialists.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model achieves 97.16% accuracy (AUC-ROC 99.00%) on balanced data and 99.19% accuracy (AUC-ROC 99.76%) on oversampled datasets, surpassing several recent state-of-the-art PPI prediction methods.
+  - **Evidence pointer** Abstract, performance results section; location not provided
+  - **Concern** The abstract reports accuracy and AUC-ROC values but provides no information on the dataset size, the number of positive and negative pairs, the train/test split, whether evaluation was performed on held-out proteins or held-out pairs, or the identity and configuration of the baseline methods. Without this context, the reported performance cannot be interpreted or compared meaningfully.
+  - **Why it matters** PPI prediction benchmarks are highly sensitive to dataset construction and evaluation protocol. For example, evaluating on pairs involving proteins seen during training can inflate performance due to memorization. The lack of methodological detail prevents assessment of whether the reported results reflect genuine generalization or artifacts of the evaluation setup.
+  - **Resolution test** The full manuscript must provide a detailed description of the dataset, including source, filtering criteria, positive and negative pair construction, and the exact train/validation/test split. The evaluation protocol must be specified, including whether the split is at the protein or pair level. Baseline methods must be identified with their configurations and the source of their reported performance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** Statistical validation using the Chi-square and Wilcoxon signed-rank tests confirms the model's predictive significance and reliability.
+  - **Evidence pointer** Abstract, statistical validation statement; location not provided
+  - **Concern** The abstract states that Chi-square and Wilcoxon signed-rank tests were used but does not specify what was tested, against which null hypothesis, on which data, or with what results. The Chi-square test is typically used for categorical data, and its application in this context is unclear. The Wilcoxon signed-rank test is a paired test, but the pairing structure is not described.
+  - **Why it matters** Statistical tests are only meaningful when their assumptions, hypotheses, and application context are clearly stated. Without this information, the claim of statistical confirmation is unverifiable and potentially misleading.
+  - **Resolution test** The full manuscript must describe the exact statistical procedures, including the null hypotheses, the data used for each test, the test statistics, p-values, and the rationale for choosing these tests. The authors should clarify how the Chi-square test is applied in the context of PPI prediction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The proposed model employs a quad-stream attention mechanism that integrates individual protein features, synergistic interactions, and complementary differences through multi-level self- and cross-attention layers.
+  - **Evidence pointer** Abstract, model description; location not provided
+  - **Concern** The abstract describes the architecture at a high level but does not provide enough detail to assess its novelty relative to existing attention-based PPI prediction methods. Several prior works have used self-attention and cross-attention for PPI prediction, and the specific contribution of the quad-stream design is not clear from the abstract.
+  - **Why it matters** For a methods paper, the novelty of the architecture is a central claim. Without a clear description of how the quad-stream mechanism differs from existing approaches, the contribution cannot be evaluated.
+  - **Resolution test** The full manuscript must include a detailed architectural description, a comparison with prior attention-based PPI methods, and an explicit statement of the novel components. Ablation studies demonstrating the contribution of each stream would strengthen the case.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Author summary
+  - **Evidence pointer** Author summary; location not provided
+  - **Issue** The author summary is clear but could benefit from a brief explanation of what attention layers are and why they are useful for protein sequence analysis.
+  - **Required correction** Add one or two sentences in the author summary explaining the concept of attention in plain language.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, performance results; location not provided
+  - **Issue** The abstract does not mention whether the code or trained models will be made publicly available.
+  - **Required correction** Include a data and code availability statement in the abstract or the full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, dataset description; location not provided
+  - **Issue** The abstract states the model was evaluated on a large-scale dataset from UniProt but does not specify the UniProt version or the exact organism or protein set used.
+  - **Required correction** Specify the UniProt release, organism, and any filtering criteria in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The evaluation protocol and statistical validation must be fully described and justified before the reported performance can be considered credible.
+- **Assessment against Nature-style criteria** Originality: Not assessable from the abstract; the quad-stream attention design may be novel, but the description is too high-level to determine. Scientific importance: The problem of PPI prediction is important, and improved methods would be of value, but the incremental contribution over existing methods is unclear. Interdisciplinary readership: The work is likely to interest computational biologists and bioinformaticians, but the abstract does not clearly articulate broader implications for experimental biology or medicine. Technical soundness: Not assessable from the abstract; the evaluation protocol and statistical methods are not described in sufficient detail. Readability for nonspecialists: The author summary is accessible, but the abstract uses technical terms without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract alone does not provide sufficient methodological detail to assess the validity of the reported results. A full review would require the complete manuscript, including dataset details, evaluation protocol, baseline comparisons, and statistical analysis.
+
+## Risk / unsupported claims
+- The reported accuracy and AUC-ROC values are unsupported because the evaluation protocol and dataset construction are not described.
+- The claim of outperforming several recent state-of-the-art methods is unsupported because the baseline methods and their configurations are not identified.
+- The claim that Chi-square and Wilcoxon signed-rank tests confirm predictive significance and reliability is unsupported because the application of these tests is not described.
+- The novelty of the quad-stream attention mechanism is not assessable from the abstract.

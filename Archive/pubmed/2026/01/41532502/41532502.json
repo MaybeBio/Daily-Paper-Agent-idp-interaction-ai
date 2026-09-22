@@ -1,0 +1,387 @@
+{
+  "identity": {
+    "pmid": "41532502",
+    "doi": "10.1002/advs.202517615",
+    "title": "A Mini-Spidroin Forms High-Performance Artificial Spider Silk via Edge-Cysteine-Locked beta-Sheet Assembly."
+  },
+  "content": {
+    "abstract": "Spider silk's remarkable mechanical properties arise from its hierarchical organization, where beta-sheet nanocrystals confer strength and amorphous chains impart extensibility. However, replicating this performance in synthetic fibers has been hindered by the challenges of expressing high-molecular-weight spidroins and processing them into fibers. Here, we overcome these limitations by engineering a mini-spidroin ( approximately 33 kDa) that is both easily expressible and spinnable, yet yields fibers with exceptional strength and toughness. Our strategy introduces cysteine residues at the termini of polyalanine (polyA) segments, enabling inter-strand disulfide bonds that enhance molecular cohesion during liquid-liquid phase separation (LLPS). This \"edge-cysteine locking\" promotes directional beta-sheet assembly under extensional flow, resulting in fibers with an ultimate tensile strength of 531 +/- 33 MPa and toughness of 182 +/- 6 MJ/m(3), surpassing many bulkier (>100 kDa) recombinant spidroins. Molecular dynamics simulations indicate that disulfide bonds reinforce inter-strand interactions and prevent chain slippage under shear. By demonstrating that a small, easily produced protein can outperform larger, harder-to-process analogs, this work establishes a scalable and efficient route to high-performance biomimetic fibers, advancing both scientific understanding and practical applications of artificial spider silk.",
+    "keywords": [
+      "disulfide crosslinking",
+      "liquid-liquid phase separation",
+      "molecular alignment",
+      "recombinant spider silk",
+      "beta-sheet assembly"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Cysteine/chemistry",
+      "*Fibroins/chemistry/genetics",
+      "*Spiders/chemistry",
+      "*Silk/chemistry",
+      "Protein Conformation, beta-Strand",
+      "Tensile Strength",
+      "Peptides/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Li, Min",
+        "Chen, Huan",
+        "Zhang, Qi",
+        "Xu, Xiaoyun",
+        "Zheng, Yini",
+        "Lyu, Chunyu",
+        "Jia, Weibin",
+        "Fan, Jun",
+        "Chen, Fu-Rong",
+        "Liu, Wei",
+        "Hu, Jinlian"
+      ],
+      "short_names": [
+        "Li M",
+        "Chen H",
+        "Zhang Q",
+        "Xu X",
+        "Zheng Y",
+        "Lyu C",
+        "Jia W",
+        "Fan J",
+        "Chen FR",
+        "Liu W",
+        "Hu J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9388-8835",
+        "ORCID: 0009-0003-0076-2718",
+        "ORCID: 0000-0003-3418-1121",
+        "ORCID: 0000-0001-5122-0431",
+        "ORCID: 0000-0002-4220-9449",
+        "ORCID: 0000-0002-9234-5107",
+        "ORCID: 0000-0001-5532-7199",
+        "ORCID: 0000-0001-8227-9671",
+        "ORCID: 0000-0003-4707-6590",
+        "ORCID: 0000-0001-8250-2562",
+        "ORCID: 0000-0001-8914-5473"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, the City University of Hong Kong, Hong Kong, P. R. China.",
+        "Department of Materials Science and Engineering, the City University of Hong Kong, Hong Kong, P. R. China.",
+        "Department of Biomedical Engineering, the City University of Hong Kong, Hong Kong, P. R. China.",
+        "Department of Biomedical Engineering, the City University of Hong Kong, Hong Kong, P. R. China.",
+        "Department of Materials Science and Engineering, the City University of Hong Kong, Hong Kong, P. R. China.",
+        "Shenzhen Key Laboratory For Neuronal Structural Biology, Biomedical Research Institute, Shenzhen Peking University-The Hong Kong University of Science and Technology Medical Center, Shenzhen, P. R. China.",
+        "Department of Biomedical Engineering, the City University of Hong Kong, Hong Kong, P. R. China.",
+        "State Key Laboratory of Transvascular Implantation Devices, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, P. R. China.",
+        "Department of Materials Science and Engineering, the City University of Hong Kong, Hong Kong, P. R. China.",
+        "Department of Materials Science and Engineering, the City University of Hong Kong, Hong Kong, P. R. China.",
+        "Shenzhen Key Laboratory For Neuronal Structural Biology, Biomedical Research Institute, Shenzhen Peking University-The Hong Kong University of Science and Technology Medical Center, Shenzhen, P. R. China.",
+        "Institute of Geriatric Medicine, Peking University Shenzhen Hospital, Shenzhen Peking University-The Hong Kong University of Science and Technology Medical Center, Shenzhen, P. R. China.",
+        "Department of Biomedical Engineering, the City University of Hong Kong, Hong Kong, P. R. China.",
+        "Department of Materials Science and Engineering, the City University of Hong Kong, Hong Kong, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Li, Min",
+        "short_name": "Li M",
+        "identifiers": [
+          "0000-0001-9388-8835"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, the City University of Hong Kong, Hong Kong, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Huan",
+        "short_name": "Chen H",
+        "identifiers": [
+          "0009-0003-0076-2718"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, the City University of Hong Kong, Hong Kong, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Qi",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0000-0003-3418-1121"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, the City University of Hong Kong, Hong Kong, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Xu, Xiaoyun",
+        "short_name": "Xu X",
+        "identifiers": [
+          "0000-0001-5122-0431"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, the City University of Hong Kong, Hong Kong, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zheng, Yini",
+        "short_name": "Zheng Y",
+        "identifiers": [
+          "0000-0002-4220-9449"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, the City University of Hong Kong, Hong Kong, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Lyu, Chunyu",
+        "short_name": "Lyu C",
+        "identifiers": [
+          "0000-0002-9234-5107"
+        ],
+        "affiliations": [
+          "Shenzhen Key Laboratory For Neuronal Structural Biology, Biomedical Research Institute, Shenzhen Peking University-The Hong Kong University of Science and Technology Medical Center, Shenzhen, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Jia, Weibin",
+        "short_name": "Jia W",
+        "identifiers": [
+          "0000-0001-5532-7199"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, the City University of Hong Kong, Hong Kong, P. R. China.",
+          "State Key Laboratory of Transvascular Implantation Devices, The Second Affiliated Hospital, Zhejiang University School of Medicine, Hangzhou, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Fan, Jun",
+        "short_name": "Fan J",
+        "identifiers": [
+          "0000-0001-8227-9671"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, the City University of Hong Kong, Hong Kong, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Chen, Fu-Rong",
+        "short_name": "Chen FR",
+        "identifiers": [
+          "0000-0003-4707-6590"
+        ],
+        "affiliations": [
+          "Department of Materials Science and Engineering, the City University of Hong Kong, Hong Kong, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wei",
+        "short_name": "Liu W",
+        "identifiers": [
+          "0000-0001-8250-2562"
+        ],
+        "affiliations": [
+          "Shenzhen Key Laboratory For Neuronal Structural Biology, Biomedical Research Institute, Shenzhen Peking University-The Hong Kong University of Science and Technology Medical Center, Shenzhen, P. R. China.",
+          "Institute of Geriatric Medicine, Peking University Shenzhen Hospital, Shenzhen Peking University-The Hong Kong University of Science and Technology Medical Center, Shenzhen, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Hu, Jinlian",
+        "short_name": "Hu J",
+        "identifiers": [
+          "0000-0001-8914-5473"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, the City University of Hong Kong, Hong Kong, P. R. China.",
+          "Department of Materials Science and Engineering, the City University of Hong Kong, Hong Kong, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Advanced science (Weinheim, Baden-Wurttemberg, Germany)"
+    ],
+    "journal_abbrev": [
+      "Adv Sci (Weinh)"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/14 12:31",
+    "fetched_at": "2026-09-17 23:51:24"
+  },
+  "links": {
+    "cites": [
+      "42418489",
+      "41893752"
+    ],
+    "refs": [
+      "40490569",
+      "39614109",
+      "39533043",
+      "39355086",
+      "39196681",
+      "38821983",
+      "38761906",
+      "38225234",
+      "38199426",
+      "37084706",
+      "37059716",
+      "36791420",
+      "36505976",
+      "33435001",
+      "33148640",
+      "30348773",
+      "28068309",
+      "24510122",
+      "23172740",
+      "22352290",
+      "20660779",
+      "20463741",
+      "20463740",
+      "20133726",
+      "19388023",
+      "18461576",
+      "12944968",
+      "11279484"
+    ],
+    "similar": [
+      "41532502",
+      "38321642",
+      "41433062",
+      "41489420",
+      "42418489",
+      "40255032",
+      "38587986",
+      "36913547",
+      "38199426",
+      "41609333",
+      "22176138",
+      "39503397",
+      "40935304",
+      "38225234",
+      "39501419",
+      "35509216",
+      "36505976",
+      "20518518",
+      "30080972",
+      "32798722",
+      "36791420",
+      "34251182",
+      "30348773",
+      "39855521",
+      "41692205",
+      "31490597",
+      "22012252",
+      "41556522",
+      "32708777",
+      "33075850",
+      "32417459",
+      "39748448",
+      "20696068",
+      "40099646",
+      "22340682",
+      "34591455",
+      "40722237",
+      "39084421",
+      "41318655",
+      "39400397",
+      "38542528",
+      "34927397",
+      "39486782",
+      "21574576",
+      "37448593",
+      "34259496",
+      "37549763",
+      "28196414",
+      "39222009",
+      "28233980",
+      "38520721",
+      "34151552",
+      "34908395",
+      "38664427",
+      "32169447",
+      "29844575",
+      "16819558",
+      "31783091",
+      "40343205",
+      "19388023",
+      "38821983",
+      "38916967",
+      "29483536",
+      "27517909",
+      "15797873",
+      "33470789",
+      "41060761",
+      "27736062",
+      "38035957",
+      "32242004",
+      "38545971",
+      "34312234",
+      "35820196",
+      "20463740",
+      "27819339",
+      "27387592",
+      "25689835",
+      "20564008",
+      "37803828",
+      "16002994",
+      "25764227",
+      "42413077",
+      "36342510",
+      "20228820",
+      "21837334",
+      "26669270",
+      "23209681",
+      "40716053",
+      "38343096",
+      "22020792",
+      "32895035",
+      "25162624",
+      "39431068",
+      "36427684",
+      "29454054",
+      "28954189",
+      "37207525",
+      "16950851",
+      "22628213",
+      "40525959"
+    ],
+    "review": [
+      "41532502",
+      "40722237",
+      "34927397",
+      "16819558",
+      "38545971"
+    ],
+    "pmc": [
+      "12915095"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41532502/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-C17orf70-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

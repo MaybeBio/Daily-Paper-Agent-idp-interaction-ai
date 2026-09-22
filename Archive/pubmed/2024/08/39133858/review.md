@@ -1,0 +1,105 @@
+## Review setup
+- **Input scope** Full manuscript text including Significance, Results, Discussion, Materials and Methods, and supplementary figure/table references
+- **Assessment boundary** Technical soundness, methodological validity, evidence sufficiency, and claims-to-evidence alignment of the CoDropleT predictive model as presented
+- **Shared manuscript claim summary** The authors present CoDropleT, a deep learning method that uses AlphaFold2-derived protein representations to predict the propensity of protein pairs to co-condense into biomolecular condensates. The model is trained on positive and negative protein pair datasets derived from the CD-CODE database, achieves reported performance metrics (accuracy 0.884, AUC 0.923 after expanded training), and is applied to predict co-condensation in three membraneless organelles (stress granules, P-bodies, nucleoli), to differentiate scaffold-client relationships for four stress granule scaffolds, and to characterize co-condensation propensities across the cytosolic human proteome.
+- **Visible evidence base** Main text figures 1-4 (referenced), Dataset S1 and S2 (referenced), SI Appendix Table S2 (referenced), Materials and Methods descriptions of datasets, model architecture, training procedures, and evaluation metrics
+- **Missing materials affecting confidence** Actual figure images and data values, Dataset S1 and S2 contents, SI Appendix Table S2 contents, hyperparameter values, loss curves, cross-validation results, baseline comparisons, and code availability details
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful computational tool for predicting protein co-condensation propensity, addressing a relevant gap in the phase separation field. The core idea of leveraging AlphaFold2 representations for this task is reasonable and timely. However, the evidence provided in the manuscript text is insufficient to fully evaluate the method's validity, robustness, and generalizability. Several critical details regarding dataset construction, model training, evaluation methodology, and statistical significance testing are either missing or underdescribed. The claims of predictive performance and biological utility are not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, membraneless organelles, and protein phase separation, particularly those interested in computational prediction of condensate composition. Also relevant to computational biologists developing deep learning approaches for protein function prediction using structural models, and to cell biologists studying stress granules, P-bodies, and nucleoli composition.
+- **Major strengths** The problem addressed is important and timely. The use of AlphaFold2 representations is a novel and potentially powerful approach for this application. The authors explicitly address the issue of training-test overlap through condensate-based splitting, which is methodologically sound. The application to multiple biological contexts (MLO composition, scaffold-client relationships, proteome-wide predictions) demonstrates the potential utility of the tool. The discussion honestly acknowledges limitations including dataset quality issues and the absence of extrinsic factors.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "CoDropleT achieved an accuracy of 0.833, precision of 0.669, recall of 0.820, F1 score of 0.737, area under the curve (AUC) of 0.874, and Matthews correlation coefficient (MCC) of 0.623" and improved performance after expanded training
+  - **Evidence pointer** Results section "Assessment of the Quality of the CoDropleT Predictions", Figure 2
+  - **Concern** The reported performance metrics are presented without confidence intervals, statistical significance testing, or comparison to baseline methods. It is unclear whether the reported performance is significantly better than simpler sequence-based or composition-based predictors. The manuscript does not describe how the test set was constructed beyond the condensate-based split, and no details are given on the number of test pairs, class balance, or whether performance metrics are stable across different random seeds or cross-validation folds.
+  - **Why it matters** Without statistical rigor and baseline comparisons, the reported metrics cannot be interpreted as evidence that the method performs well. The field has seen many sequence-based predictors with apparently strong performance that fail to generalize, and the authors need to demonstrate that CoDropleT adds value beyond simpler approaches.
+  - **Resolution test** Provide confidence intervals for all metrics, compare against at least one baseline (e.g., amino acid composition-based logistic regression, sequence-based features), report the number of test pairs and class distribution, and show performance stability across multiple training runs or cross-validation folds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "CoDropleT is consistently able to predict relevant cocondensing protein pairs across all three MLOs" (Figure 3A)
+  - **Evidence pointer** Results section "Prediction of Protein Co-condensation in MLOs", Figure 3A, Materials and Methods "Comparing Co-condensation of MLO Proteins against Random Distributions"
+  - **Concern** The comparison against "five random samples of the same size as the tested MLO" is statistically weak. Five random samples are insufficient to establish a reliable null distribution, and no statistical test (e.g., permutation test, Mann-Whitney U) is described. The manuscript does not report effect sizes, p-values, or confidence intervals for these comparisons. Additionally, the selection of MLOs with ">50 positive confidence scoring proteins within CD-CODE" introduces potential selection bias, and it is unclear whether these MLOs were truly held out from training.
+  - **Why it matters** The claim that CoDropleT predicts MLO composition is central to the paper's biological utility. If the statistical comparison is inadequate, the claim is not supported. The small number of random samples makes the null distribution poorly estimated, and the lack of formal statistical testing means the results could be due to chance.
+  - **Resolution test** Use a permutation test with at least 1000 random samples, report p-values and effect sizes, and clarify whether the MLO proteins were excluded from training. Alternatively, provide a more rigorous held-out validation approach.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We found that the scaffolds tend to have higher co-condensation scores with the SG protein set as compared to non-SG proteins" (Figure 3B)
+  - **Evidence pointer** Results section "CoDropleT Differentiates Relevant Sets of Potential Client Proteins", Figure 3B, Materials and Methods "Comparing Pairwise CoDropleT Scores of SG Scaffolds"
+  - **Concern** The comparison between SG and non-SG protein sets is described only qualitatively ("tend to have higher"). No statistical test is reported, no effect sizes are given, and the number of proteins in each set is not stated. The definition of "high-confidence SG components" and "non-SG components" relies on CD-CODE annotations, but the manuscript does not describe how these annotations were validated or whether the sets are balanced in terms of protein properties (e.g., length, disorder propensity) that could confound the analysis.
+  - **Why it matters** The scaffold-client analysis is presented as evidence that CoDropleT captures biologically meaningful relationships. Without statistical support and proper controls, this claim is anecdotal. Confounding variables could drive the observed differences.
+  - **Resolution test** Report the number of proteins in each set, perform a formal statistical test (e.g., Mann-Whitney U), provide effect sizes, and control for potential confounders such as protein length and intrinsic disorder.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "approximately 25% of the cytosolic human protein pairs are predicted to have a co-condensation score above 0.8" (Figure 4A)
+  - **Evidence pointer** Results section "Prediction of Co-condensating Proteins in the Cytosolic Human Proteome", Figure 4A, Dataset S1
+  - **Concern** The proteome-wide prediction is presented without any experimental validation or benchmarking. The claim that 25% of cytosolic protein pairs have high co-condensation scores seems implausibly high given that only a small fraction of proteins are known to phase separate. The manuscript does not discuss the false positive rate, the sensitivity of this percentage to the score threshold, or whether the predictions have been compared to any experimental datasets beyond the training data. The analysis of amino acid composition differences between high- and low-connectivity proteins is descriptive and lacks statistical testing.
+  - **Why it matters** The proteome-wide application is a key claimed contribution. If the predictions are not validated or benchmarked, the biological interpretation is speculative. The high percentage of predicted co-condensing pairs raises concerns about the model's specificity.
+  - **Resolution test** Validate a subset of predictions experimentally or against independent datasets, report the distribution of scores and the effect of threshold choice, and provide statistical analysis of the composition differences.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The overall architecture and training procedure as described in Materials and Methods
+  - **Evidence pointer** Materials and Methods sections "Training and Testing of CoDropleT", "Model Algorithm and Pseudocode", "AlphaFold2-generated protein representations"
+  - **Concern** The description of the model architecture and training procedure is incomplete. The pseudocode sections are referenced but not fully provided in the visible text. Key details are missing: the number of parameters, the learning rate schedule, the optimizer used, the batch size rationale, the number of training steps, the early stopping criteria, and the exact split between training and validation sets. The use of AlphaFold2 representations is described but the manuscript does not clarify whether the AlphaFold2 model is fine-tuned or frozen, and how the three representation types (fmsa, fpair, fstruc) are combined. The L2 regularization coefficient is not specified.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without complete architectural and training details, other researchers cannot implement or evaluate the method. The lack of detail also prevents assessment of potential overfitting or implementation issues.
+  - **Resolution test** Provide complete pseudocode, all hyperparameter values, optimizer details, and clarify whether AlphaFold2 is frozen or fine-tuned. Make code publicly available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model name consistency
+  - **Evidence pointer** Throughout manuscript
+  - **Issue** The model is referred to as both "CoDropleT" and "CoDropletT" in different sections. This inconsistency is confusing.
+  - **Required correction** Standardize the model name to a single spelling throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Dataset description
+  - **Evidence pointer** Materials and Methods "Datasets of Protein Condensates for the Training and Testing of CoDropleT"
+  - **Issue** The manuscript states that CD-CODE was used to generate positive and negative pairs but does not describe the total number of condensates used, the distribution of condensate sizes, or the criteria for including condensates beyond the n=50 and m=12 cutoffs. The filtering by 50% sequence identity is mentioned but the resulting number of unique proteins is not stated.
+  - **Required correction** Provide a more complete description of the dataset including the number of condensates, the number of unique proteins, and the distribution of positive and negative pairs after filtering.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 2 performance metrics
+  - **Evidence pointer** Results section "Assessment of the Quality of the CoDropleT Predictions"
+  - **Issue** The performance metrics are reported as point estimates without any measure of variability. It is unclear whether the model was trained multiple times with different seeds or whether the reported metrics come from a single run.
+  - **Required correction** Report the mean and standard deviation across multiple training runs, or at minimum state that metrics are from a single run.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 4C amino acid composition analysis
+  - **Evidence pointer** Results section "Prediction of Co-condensating Proteins in the Cytosolic Human Proteome"
+  - **Issue** The description of the amino acid composition analysis is brief and does not specify which statistical test was used, whether multiple testing correction was applied, or how the high and low connectivity groups were defined beyond the >1,908 and <233 thresholds.
+  - **Required correction** Provide details on the statistical methods used and the rationale for the chosen thresholds.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Code and data availability
+  - **Evidence pointer** Data, Materials, and Software Availability section
+  - **Issue** The statement "All study data are included in the article and/or supporting information" is insufficient for a computational method. No code repository, model weights, or trained model access is mentioned.
+  - **Required correction** Provide a link to a public code repository and state whether model weights are available.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of statistical rigor and baselines for performance claims), R1-M2 (inadequate statistical comparison for MLO predictions), R1-M3 (lack of statistical testing for scaffold-client analysis), R1-M4 (unvalidated proteome-wide predictions), R1-M5 (incomplete methodological description preventing reproducibility)
+- **Assessment against Nature-style criteria** Originality: The application of AlphaFold2 representations to co-condensation prediction is novel and potentially original. However, the approach of using deep learning on protein representations for phase separation prediction is not entirely new, and the manuscript does not clearly differentiate from existing predictors. Scientific importance: The problem of predicting co-condensation propensity is important for understanding condensate biology and disease mechanisms. If validated, the tool could be valuable. However, the current evidence does not establish that the method works reliably. Interdisciplinary readership: The topic bridges computational biology, biophysics, and cell biology, and would interest readers across these fields. Technical soundness: The technical description is incomplete, and the evaluation lacks statistical rigor. The method cannot be fully assessed from the supplied material. Readability for nonspecialists: The manuscript is generally readable, but the pseudocode sections and some methodological details assume specialist knowledge. The significance statement is accessible.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem with a potentially useful approach, but the evidence provided is insufficient to support the claims. Major revisions addressing the statistical rigor, baseline comparisons, validation, and methodological completeness are required before the case for CoDropleT's utility is established.
+
+## Risk / unsupported claims
+- The claim that CoDropleT "consistently" predicts co-condensing protein pairs across MLOs is unsupported due to inadequate statistical comparison (only five random samples, no formal test).
+- The claim that scaffold proteins "tend to have higher" co-condensation scores with SG proteins is unsupported without statistical testing and effect sizes.
+- The proteome-wide prediction that approximately 25% of cytosolic protein pairs have co-condensation scores above 0.8 is presented without validation or benchmarking, making the biological interpretation speculative.
+- The reported performance metrics (accuracy, precision, recall, F1, AUC, MCC) are not interpretable without confidence intervals, baseline comparisons, or details on test set composition.
+- The claim that the expanded training improved performance is not supported by any statistical comparison between the two models.
+- The statement that CoDropleT "could be used" for finding proteins involved in phase separation is speculative and not directly supported by the presented validation.
+- The amino acid composition differences between high and low connectivity proteins are described without statistical testing, making the claims about compositional determinants unsupported.

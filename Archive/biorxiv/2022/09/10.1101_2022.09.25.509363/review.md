@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions, footnotes) as provided
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by presented evidence; no line-by-line editorial review
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations with AMBER99SB-ILDN and TIP4P-D water to study the ELP GVG(VPGVG)₃ across temperatures below, near, and above its LCST. They report a moderate hydrophobic collapse of single chains with temperature, a temperature-dependent repulsive-to-attractive transition in the two-chain potential of mean force, formation of dynamic aggregates with coil-like conformations driven by central valine residues, power-law distributed contact lifetimes, and concentration- and temperature-dependent slowing of translational and internal dynamics.
+- **Visible evidence base** Main text figures 1–7 as referenced; supplementary figures S1–S6 as referenced; methods section describing simulation protocols
+- **Missing materials affecting confidence** Full figure data and captions not provided; supplementary information not provided; simulation convergence and reproducibility details (e.g., force field validation, system size effects, finite-size analysis) not fully described; no experimental comparison data included
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant and timely question in the biophysics of intrinsically disordered proteins and thermoresponsive polymers. The combination of single-chain, two-chain, and multi-chain simulations with a modern water model is a strength. However, several claims, particularly regarding the LCST-like behavior inferred from the potential of mean force and the interpretation of the Flory exponent from structure factor fits, require additional scrutiny and supporting evidence. The power-law analysis of contact lifetimes and the trap model interpretation are interesting but not fully justified. Overall, the work is potentially valuable but currently not fully established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, elastin-like polypeptide engineering, biomaterials, and polymer physics. The study provides molecular-level insights into the temperature-dependent interactions and dynamics of a short ELP, which is relevant for understanding LCST behavior and for designing thermoresponsive materials. The methodological approach combining multiple simulation techniques may also interest computational biophysicists.
+- **Major strengths**  
+  - Use of a water model (TIP4P-D) known to better capture disordered protein behavior than older models.  
+  - Systematic investigation across single-chain, two-chain, and multi-chain systems.  
+  - Combination of structural (Rg, hydrogen bonds, secondary structure) and dynamical (MSD, contact lifetimes) analyses.  
+  - Sequence modification studies to probe the role of valine residues in aggregation.  
+  - Attempt to connect simulation results to experimentally accessible quantities (structure factor, diffusion).
+- **Major Concerns**
+  - **Concern ID** R1-M1  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Claim support  
+    - **Claim pointer** The authors claim that the change in the potential of mean force between two peptides from repulsive to attractive with temperature "indicates an LCST-like behaviour."  
+    - **Evidence pointer** Figure 3, Results section "Multi-chain systems"  
+    - **Concern** The PMF is computed for a single pair of peptides in dilute conditions. The connection between a two-body PMF and macroscopic LCST phase behavior is not straightforward. The authors do not demonstrate that the PMF change is sufficient or necessary for phase separation, nor do they compare with any experimental phase boundary. The claim that this "indicates" LCST behavior is an overinterpretation of a two-body observable.  
+    - **Why it matters** The central claim of the paper is that the system exhibits LCST-like behavior. If the PMF interpretation is not rigorously connected to phase behavior, the main conclusion is weakened.  
+    - **Resolution test** Provide a quantitative link between the PMF and a phase boundary (e.g., via a second virial coefficient or a coarse-grained model), or temper the claim to state that the PMF is consistent with, but not proof of, LCST behavior.
+  - **Concern ID** R1-M2  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The authors state that "the lifetime of contacts between chains strongly depends on the temperature and can be described by a power-law decay that is consistent with the LCST-like behaviour."  
+    - **Evidence pointer** Figure 4(d)–(g), Results section "Multi-chain systems"  
+    - **Concern** The power-law fit and the extraction of the exponent are not described in sufficient detail. The authors do not specify the fitting range, the statistical uncertainty, or how the power-law model was selected over alternative models (e.g., stretched exponential). The trap model interpretation is introduced but not derived or validated for this specific system. The claim that the exponent decreases with temperature is based on a small number of temperatures (three) and may not be robust.  
+    - **Why it matters** The power-law behavior is used to support the trap model and the temperature-dependent interaction picture. If the analysis is not rigorous, this supporting evidence is unreliable.  
+    - **Resolution test** Provide a detailed description of the fitting procedure, including the range of Δt_cont used, the uncertainty in the exponent, and a comparison with alternative models. Justify the applicability of the trap model to this system.
+  - **Concern ID** R1-M3  
+    - **Severity** Major  
+    - **Blocking** Yes  
+    - **Axis** Technical soundness  
+    - **Claim pointer** The authors report that "peptide translational and internal motion are slowed down by an increase in the peptide concentration and temperature."  
+    - **Evidence pointer** Figure 7, Results section "Multi-chain systems"  
+    - **Concern** The diffusion coefficients are extracted from MSD fits, but the fitting range and the validity of the diffusive regime are not discussed. The authors use the Stokes-Einstein relation with a temperature-dependent viscosity and hydrodynamic radius, but the hydrodynamic radius is estimated from internal distances, which may not be accurate for a short, flexible peptide. The non-Gaussian parameter is computed for a single time window (Δt = 0.1 ns), which may not capture the relevant dynamics.  
+    - **Why it matters** The dynamical claims are a key part of the paper. If the analysis is not robust, the conclusions about temperature- and concentration-dependent dynamics are not well supported.  
+    - **Resolution test** Provide details on the MSD fitting range, the validity of the diffusive regime, and the sensitivity of the results to the choice of hydrodynamic radius and time window.
+  - **Concern ID** R1-M4  
+    - **Severity** Major  
+    - **Blocking** No  
+    - **Axis** Claim support  
+    - **Claim pointer** The authors state that "the most commonly found amino acid pairs which form interpeptide contacts are: Val12-Val12, Val7-Val7, Val9-Val9, and Val7-Pro10" and that valine residues "drive inter-peptide contact formation."  
+    - **Evidence pointer** Figure 4(a)–(c), Results section "Multi-chain systems"  
+    - **Concern** The contact maps are normalized by the number of snapshots in which at least one aggregate is formed. This normalization may bias the results toward systems with fewer aggregates. The authors do not report the statistical significance of the contact preferences or whether the valine contacts are overrepresented relative to what would be expected by random contact formation. The sequence modification studies show reduced contact probability, but the authors do not quantify the effect size or its statistical significance.  
+    - **Why it matters** The identification of specific residues driving aggregation is a key mechanistic claim. If the analysis is not statistically robust, the claim is not well supported.  
+    - **Resolution test** Provide statistical analysis of contact preferences (e.g., enrichment relative to random expectation) and report confidence intervals for the contact probabilities.
+- **Minor Comments**
+  - **Concern ID** R1-m1  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Abstract  
+    - **Evidence pointer** Abstract, "we report the formation of dynamical aggregates with coil-like conformation"  
+    - **Issue** The term "dynamical aggregates" is not defined. It is unclear whether this refers to aggregates with short lifetimes, aggregates that exchange members, or something else.  
+    - **Required correction** Define "dynamical aggregates" in the text, e.g., by specifying the timescale of aggregate persistence relative to the simulation time.
+  - **Concern ID** R1-m2  
+    - **Severity** Minor  
+    - **Axis** Reproducibility  
+    - **Affected element** Methods  
+    - **Evidence pointer** Methods section, "Simulation Model and Methods"  
+    - **Issue** The authors state that "the initial peptide configuration is assembled using the Avogadro molecular builder" but do not specify the initial conformation (e.g., extended, random coil). The choice of initial configuration may affect the equilibration and sampling.  
+    - **Required correction** Specify the initial conformation and any equilibration criteria used to ensure that the simulations are independent of the starting structure.
+  - **Concern ID** R1-m3  
+    - **Severity** Minor  
+    - **Axis** Interpretation  
+    - **Affected element** Results, "LCST-like behavior at the single chain level"  
+    - **Evidence pointer** Figure 1(a)  
+    - **Issue** The authors describe the Rg distribution as "broad" at low temperature and shifting to "more compact" at high temperature. However, the magnitude of the shift is not quantified, and it is unclear whether the change is statistically significant given the simulation length.  
+    - **Required correction** Report the mean and standard deviation of Rg at each temperature and perform a statistical test (e.g., bootstrap) to assess the significance of the shift.
+  - **Concern ID** R1-m4  
+    - **Severity** Minor  
+    - **Axis** Completeness  
+    - **Affected element** Results, "Markov state model for a single peptide"  
+    - **Evidence pointer** Figure 2, Supplementary Figure S1  
+    - **Issue** The Markov state model is used to identify two states, but the authors do not report the populations of these states as a function of temperature. It is unclear whether the state populations change with temperature, which would be relevant to the LCST behavior.  
+    - **Required correction** Report the state populations at each temperature and discuss whether the temperature dependence is consistent with the observed Rg changes.
+  - **Concern ID** R1-m4  
+    - **Severity** Minor  
+    - **Axis** Clarity  
+    - **Affected element** Results, "Multi-chain systems"  
+    - **Evidence pointer** Figure 6(c)–(e)  
+    - **Issue** The comparison between the structure factor fit and the direct calculation of Rg and ν is interesting, but the authors do not discuss the implications of the discrepancy in detail. It is unclear whether the discrepancy is due to the fitting model or to genuine many-body effects.  
+    - **Required correction** Expand the discussion of the discrepancy and its implications for interpreting scattering data from ELP solutions.
+- **Technical failings that need to be addressed before the case is established**  
+  - R1-M1: Overinterpretation of the two-chain PMF as evidence for LCST behavior.  
+  - R1-M2: Insufficient detail on the power-law fitting and trap model justification.  
+  - R1-M3: Lack of detail on MSF fitting and diffusion coefficient extraction.  
+  - R1-M4: Lack of statistical analysis for contact preferences.
+- **Assessment against Nature-style criteria**  
+  - **Originality** Moderate. The study applies established simulation techniques to a specific ELP sequence. The combination of PMF, contact lifetime analysis, and structure factor fitting is not entirely novel but is applied in a coherent manner.  
+  - **Scientific importance** Moderate. The results are relevant to understanding LCST behavior in ELPs, but the conclusions are largely confirmatory of existing knowledge (e.g., hydrophobic collapse, valine-driven aggregation). The study does not provide a fundamentally new mechanistic insight.  
+  - **Interdisciplinary readership** Moderate. The work will appeal to biophysicists, polymer physicists, and biomaterials researchers, but the technical nature of the simulations may limit broader appeal.  
+  - **Technical soundness** The simulation methodology is generally sound, but several analyses (PMF interpretation, power-law fitting, diffusion extraction) lack sufficient rigor or detail to fully support the claims.  
+  - **Readability for nonspecialists** The manuscript is generally well-written but assumes familiarity with simulation techniques and polymer physics concepts. Some terms (e.g., "trap model," "non-Gaussian parameter") are introduced without sufficient explanation for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant question and uses appropriate methods, but several key claims are not sufficiently supported by the presented analyses. The authors should address the major concerns, particularly the PMF interpretation, the power-law analysis, and the statistical robustness of the contact preferences, before the case for LCST-like behavior is fully established.
+
+## Risk / unsupported claims
+- The claim that the PMF change "indicates an LCST-like behaviour" is not fully supported, as the connection between a two-body PMF and macroscopic phase behavior is not established.
+- The claim that contact lifetimes follow a power-law distribution is not rigorously justified, as the fitting procedure and model selection are not described in sufficient detail.
+- The claim that the trap model explains the temperature dependence of contact lifetimes is speculative and not validated for this system.
+- The claim that the Flory exponent from structure factor fits suggests a globular conformation is presented without sufficient discussion of the limitations of the fitting model for multi-chain systems.
+- The claim that the sequence modifications "strongly suppress contact formation" is not supported by statistical analysis or effect size quantification.

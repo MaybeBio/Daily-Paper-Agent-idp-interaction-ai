@@ -1,0 +1,324 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.06.24.546370",
+  "title": "Intrinsically disordered CsoS2 acts as a general molecular thread for α-carboxysome shell assembly",
+  "doi": "10.1101/2023.06.24.546370",
+  "abstract": "Carboxysomes are a paradigm of self-assembling proteinaceous organelles found in nature, offering compartmentalisation of enzymes and pathways to enhance carbon fixation. In α-carboxysomes, the disordered linker protein CsoS2 plays an essential role in carboxysome assembly and Rubisco encapsulation. Its mechanism of action, however, is not fully understood. Here we synthetically engineered α-carboxysome shells using minimal shell components and determined cryoEM structures of these to decipher the principle of shell assembly and encapsulation. The structures reveal that the intrinsically disordered CsoS2 C-terminus is well-structured and acts as a universal “molecular thread” stitching through multiple shell protein interfaces. We further uncovered in CsoS2 a remarkable highly conserved repetitive key interaction motif, [IV]TG, which is critical to the shell assembly and architecture. Our study provides a general mechanism for the CsoS2-govern carboxysome shell assembly and cargo encapsulation and further advances synthetic engineering of carboxysomes for diverse biotechnological applications.",
+  "authors": [
+    "Ni T",
+    "Jiang Q",
+    "Ng PC",
+    "Shen J",
+    "Dou H",
+    "Zhu Y",
+    "Radecke J",
+    "Dykes GF",
+    "Huang F",
+    "Liu L",
+    "Zhang P"
+  ],
+  "published_date": "2023-06-24",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.06.24.546370",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.06.24.546370.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR680599",
+    "raw_record": {
+      "id": "PPR680599",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR680599"
+        ]
+      },
+      "doi": "10.1101/2023.06.24.546370",
+      "title": "Intrinsically disordered CsoS2 acts as a general molecular thread for α-carboxysome shell assembly",
+      "authorString": "Ni T, Jiang Q, Ng PC, Shen J, Dou H, Zhu Y, Radecke J, Dykes GF, Huang F, Liu L, Zhang P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ni T",
+            "lastName": "Ni",
+            "firstName": "Tao",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Structural Biology, Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, OX3 7BN, UK"
+                },
+                {
+                  "affiliation": "School of Biomedical Sciences, LKS Faculty of Medicine, The University of Hong Kong, Pokfulam, Hong Kong SAR, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jiang Q",
+            "lastName": "Jiang",
+            "firstName": "Qiuyao",
+            "initials": "Q",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, L69 7ZB, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ng PC",
+            "lastName": "Ng",
+            "firstName": "Pei Cing",
+            "initials": "PC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, L69 7ZB, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shen J",
+            "lastName": "Shen",
+            "firstName": "Juan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Structural Biology, Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, OX3 7BN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dou H",
+            "lastName": "Dou",
+            "firstName": "Hao",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Structural Biology, Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, OX3 7BN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhu Y",
+            "lastName": "Zhu",
+            "firstName": "Yanan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Structural Biology, Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, OX3 7BN, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Radecke J",
+            "lastName": "Radecke",
+            "firstName": "Julika",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Diamond Light Source, Harwell Science and Innovation Campus, Didcot OX11 0DE, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dykes GF",
+            "lastName": "Dykes",
+            "firstName": "Gregory",
+            "initials": "GF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, L69 7ZB, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huang F",
+            "lastName": "Huang",
+            "firstName": "Fang",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, L69 7ZB, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Liu L",
+            "lastName": "Liu",
+            "firstName": "Lu-Ning",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Systems, Molecular and Integrative Biology, University of Liverpool, Liverpool, L69 7ZB, UK"
+                },
+                {
+                  "affiliation": "College of Marine Life Sciences, and Frontiers Science Center for Deep Ocean Multispheres and Earth System, Ocean University of China, Qingdao, 266003, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang P",
+            "lastName": "Zhang",
+            "firstName": "Peijun",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Structural Biology, Wellcome Trust Centre for Human Genetics, University of Oxford, Oxford, OX3 7BN, UK"
+                },
+                {
+                  "affiliation": "Diamond Light Source, Harwell Science and Innovation Campus, Didcot OX11 0DE, UK"
+                },
+                {
+                  "affiliation": "Chinese Academy of Medical Sciences Oxford Institute, University of Oxford, Oxford, OX3 7BN, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Carboxysomes are a paradigm of self-assembling proteinaceous organelles found in nature, offering compartmentalisation of enzymes and pathways to enhance carbon fixation. In α-carboxysomes, the disordered linker protein CsoS2 plays an essential role in carboxysome assembly and Rubisco encapsulation. Its mechanism of action, however, is not fully understood. Here we synthetically engineered α-carboxysome shells using minimal shell components and determined cryoEM structures of these to decipher the principle of shell assembly and encapsulation. The structures reveal that the intrinsically disordered CsoS2 C-terminus is well-structured and acts as a universal “molecular thread” stitching through multiple shell protein interfaces. We further uncovered in CsoS2 a remarkable highly conserved repetitive key interaction motif, [IV]TG, which is critical to the shell assembly and architecture. Our study provides a general mechanism for the CsoS2-govern carboxysome shell assembly and cargo encapsulation and further advances synthetic engineering of carboxysomes for diverse biotechnological applications.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/V009729/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "101021133",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "206422/Z/17/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "203141/Z/16/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/S003339/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/06/24/2023.06.24.546370.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.06.24.546370"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR680599"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR680599&type=FILE&fileName=EMS178063-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37679318",
+            "reference": "Nature communications. 2023 Sep;14(1):5512",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS178063",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-06-27",
+      "firstPublicationDate": "2023-06-24",
+      "firstIndexDate": "2023-06-27",
+      "fullTextReceivedDate": "2023-09-04",
+      "hasEvaluations": "N"
+    }
+  }
+}

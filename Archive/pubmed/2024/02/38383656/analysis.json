@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38383656",
+  "title": "Asymmetric oligomerization state and sequence patterning can tune multiphase condensate miscibility.",
+  "authors": "Rana, Ushnish; Xu, Ke; Narayanan, Amal; Walls, Mackenzie T; Panagiotopoulos, Athanassios Z; Avalos, Jose L; Brangwynne, Clifford P",
+  "journal": "Nature chemistry",
+  "published_date": "2024-02-22",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合体内重构实验与粗粒化分子模拟，揭示无序蛋白寡聚化状态和序列模式可非对称调控多相凝聚体的不混溶性，直接聚焦IDR介导的相分离互作机制建模，高度契合本课题。",
+  "abstract": "Endogenous biomolecular condensates, composed of a multitude of proteins and RNAs, can organize into multiphasic structures with compositionally distinct phases. This multiphasic organization is generally understood to be critical for facilitating their proper biological function. However, the biophysical principles driving multiphase formation are not completely understood. Here we use in vivo condensate reconstitution experiments and coarse-grained molecular simulations to investigate how oligomerization and sequence interactions modulate multiphase organization in biomolecular condensates. We demonstrate that increasing the oligomerization state of an intrinsically disordered protein results in enhanced immiscibility and multiphase formation. Interestingly, we find that oligomerization tunes the miscibility of intrinsically disordered proteins in an asymmetric manner, with the effect being more pronounced when the intrinsically disordered protein, exhibiting stronger homotypic interactions, is oligomerized. Our findings suggest that oligomerization is a flexible biophysical mechanism that cells can exploit to tune the internal organization of biomolecular condensates and their associated biological functions.",
+  "abstract_zh": "由多种蛋白质和RNA组成的内源性生物分子凝聚体，可以组织成具有组成上不同相的多相结构。这种多相组织通常被认为对其正常生物学功能的发挥至关重要。然而，驱动多相形成的生物物理原理尚未完全理解。在此，我们利用体内凝聚体重构实验和粗粒化分子模拟，研究寡聚化和序列相互作用如何调节生物分子凝聚体中的多相组织。我们证明，增加 intrinsically disordered protein（内在无序蛋白）的寡聚化状态会导致增强的不混溶性和多相形成。有趣的是，我们发现寡聚化以不对称方式调节内在无序蛋白的混溶性，当表现出更强同型相互作用的 intrinsically disordered protein（内在无序蛋白）被寡聚化时，这种效应更为显著。我们的发现表明，寡聚化是一种灵活的生物物理机制，细胞可利用它来调节生物分子凝聚体的内部组织及其相关的生物学功能。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38383656/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38383656/",
+  "paper_page_path": "papers/pubmed/38383656/index.html"
+}

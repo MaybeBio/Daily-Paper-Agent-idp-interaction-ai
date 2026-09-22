@@ -1,0 +1,471 @@
+{
+  "identity": {
+    "pmid": "38124369",
+    "doi": "10.1021/acs.jcim.3c01361",
+    "title": "A Perspective on the Prospective Use of AI in Protein Structure Prediction."
+  },
+  "content": {
+    "abstract": "AlphaFold2 (AF2) and RoseTTaFold (RF) have revolutionized structural biology, serving as highly reliable and effective methods for predicting protein structures. This article explores their impact and limitations, focusing on their integration into experimental pipelines and their application in diverse protein classes, including membrane proteins, intrinsically disordered proteins (IDPs), and oligomers. In experimental pipelines, AF2 models help X-ray crystallography in resolving the phase problem, while complementarity with mass spectrometry and NMR data enhances structure determination and protein flexibility prediction. Predicting the structure of membrane proteins remains challenging for both AF2 and RF due to difficulties in capturing conformational ensembles and interactions with the membrane. Improvements in incorporating membrane-specific features and predicting the structural effect of mutations are crucial. For intrinsically disordered proteins, AF2's confidence score (pLDDT) serves as a competitive disorder predictor, but integrative approaches including molecular dynamics (MD) simulations or hydrophobic cluster analyses are advocated for accurate dynamics representation. AF2 and RF show promising results for oligomeric models, outperforming traditional docking methods, with AlphaFold-Multimer showing improved performance. However, some caveats remain in particular for membrane proteins. Real-life examples demonstrate AF2's predictive capabilities in unknown protein structures, but models should be evaluated for their agreement with experimental data. Furthermore, AF2 models can be used complementarily with MD simulations. In this Perspective, we propose a \"wish list\" for improving deep-learning-based protein folding prediction models, including using experimental data as constraints and modifying models with binding partners or post-translational modifications. Additionally, a meta-tool for ranking and suggesting composite models is suggested, driving future advancements in this rapidly evolving field.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Furylfuramide",
+      "Protein Folding",
+      "Molecular Dynamics Simulation",
+      "Membrane Proteins",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Versini, Raphaelle",
+        "Sritharan, Sujith",
+        "Aykac Fas, Burcu",
+        "Tubiana, Thibault",
+        "Aimeur, Sana Zineb",
+        "Henri, Julien",
+        "Erard, Marie",
+        "Nusse, Oliver",
+        "Andreani, Jessica",
+        "Baaden, Marc",
+        "Fuchs, Patrick",
+        "Galochkina, Tatiana",
+        "Chatzigoulas, Alexios",
+        "Cournia, Zoe",
+        "Santuz, Hubert",
+        "Sacquin-Mora, Sophie",
+        "Taly, Antoine"
+      ],
+      "short_names": [
+        "Versini R",
+        "Sritharan S",
+        "Aykac Fas B",
+        "Tubiana T",
+        "Aimeur SZ",
+        "Henri J",
+        "Erard M",
+        "Nusse O",
+        "Andreani J",
+        "Baaden M",
+        "Fuchs P",
+        "Galochkina T",
+        "Chatzigoulas A",
+        "Cournia Z",
+        "Santuz H",
+        "Sacquin-Mora S",
+        "Taly A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3842-731X",
+        "ORCID: 0000-0002-6490-4602",
+        "ORCID: 0000-0003-0772-8881",
+        "ORCID: 0000-0002-4063-365X",
+        "ORCID: 0000-0003-0068-8346",
+        "ORCID: 0000-0003-4435-9093",
+        "ORCID: 0000-0001-6472-0486",
+        "ORCID: 0000-0002-3608-5208",
+        "ORCID: 0000-0001-5891-8154",
+        "ORCID: 0000-0001-9287-364X",
+        "ORCID: 0000-0002-2781-4333",
+        "ORCID: 0000-0001-5109-0091"
+      ],
+      "affiliations": [
+        "Laboratoire de Biochimie Theorique, CNRS (UPR9080), Universite Paris Cite, F-75005 Paris, France.",
+        "Laboratoire de Biochimie Theorique, CNRS (UPR9080), Universite Paris Cite, F-75005 Paris, France.",
+        "Laboratoire de Biochimie Theorique, CNRS (UPR9080), Universite Paris Cite, F-75005 Paris, France.",
+        "Universite Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), 91198 Gif-sur-Yvette, France.",
+        "Universite Paris-Saclay, CNRS, Institut de Chimie Physique, 91405 Orsay, France.",
+        "Sorbonne Universite, CNRS, Laboratoire de Biologie, Computationnelle et Quantitative UMR 7238, Institut de Biologie Paris-Seine, 4 Place Jussieu, F-75005 Paris, France.",
+        "Universite Paris-Saclay, CNRS, Institut de Chimie Physique, 91405 Orsay, France.",
+        "Universite Paris-Saclay, CNRS, Institut de Chimie Physique, 91405 Orsay, France.",
+        "Universite Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), 91198 Gif-sur-Yvette, France.",
+        "Laboratoire de Biochimie Theorique, CNRS (UPR9080), Universite Paris Cite, F-75005 Paris, France.",
+        "Sorbonne Universite, Ecole Normale Superieure, PSL University, CNRS, Laboratoire des Biomolecules, LBM, 75005 Paris, France.",
+        "Universite de Paris, UFR Sciences du Vivant, 75013 Paris, France.",
+        "Universite Paris Cite and Universite des Antilles and Universite de la Reunion, INSERM, BIGR, F-75014 Paris, France.",
+        "Biomedical Research Foundation, Academy of Athens, 11527 Athens, Greece.",
+        "Department of Informatics and Telecommunications, National and Kapodistrian University of Athens, 15784 Athens, Greece.",
+        "Biomedical Research Foundation, Academy of Athens, 11527 Athens, Greece.",
+        "Department of Informatics and Telecommunications, National and Kapodistrian University of Athens, 15784 Athens, Greece.",
+        "Laboratoire de Biochimie Theorique, CNRS (UPR9080), Universite Paris Cite, F-75005 Paris, France.",
+        "Laboratoire de Biochimie Theorique, CNRS (UPR9080), Universite Paris Cite, F-75005 Paris, France.",
+        "Laboratoire de Biochimie Theorique, CNRS (UPR9080), Universite Paris Cite, F-75005 Paris, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Versini, Raphaelle",
+        "short_name": "Versini R",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique, CNRS (UPR9080), Université Paris Cité, F-75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sritharan, Sujith",
+        "short_name": "Sritharan S",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique, CNRS (UPR9080), Université Paris Cité, F-75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Aykac Fas, Burcu",
+        "short_name": "Aykac Fas B",
+        "identifiers": [
+          "0000-0003-3842-731X"
+        ],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique, CNRS (UPR9080), Université Paris Cité, F-75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Tubiana, Thibault",
+        "short_name": "Tubiana T",
+        "identifiers": [
+          "0000-0002-6490-4602"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), 91198 Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Aimeur, Sana Zineb",
+        "short_name": "Aimeur SZ",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, CNRS, Institut de Chimie Physique, 91405 Orsay, France."
+        ]
+      },
+      {
+        "full_name": "Henri, Julien",
+        "short_name": "Henri J",
+        "identifiers": [
+          "0000-0003-0772-8881"
+        ],
+        "affiliations": [
+          "Sorbonne Université, CNRS, Laboratoire de Biologie, Computationnelle et Quantitative UMR 7238, Institut de Biologie Paris-Seine, 4 Place Jussieu, F-75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Erard, Marie",
+        "short_name": "Erard M",
+        "identifiers": [
+          "0000-0002-4063-365X"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, CNRS, Institut de Chimie Physique, 91405 Orsay, France."
+        ]
+      },
+      {
+        "full_name": "Nüsse, Oliver",
+        "short_name": "Nüsse O",
+        "identifiers": [
+          "0000-0003-0068-8346"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, CNRS, Institut de Chimie Physique, 91405 Orsay, France."
+        ]
+      },
+      {
+        "full_name": "Andreani, Jessica",
+        "short_name": "Andreani J",
+        "identifiers": [
+          "0000-0003-4435-9093"
+        ],
+        "affiliations": [
+          "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), 91198 Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Baaden, Marc",
+        "short_name": "Baaden M",
+        "identifiers": [
+          "0000-0001-6472-0486"
+        ],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique, CNRS (UPR9080), Université Paris Cité, F-75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Fuchs, Patrick",
+        "short_name": "Fuchs P",
+        "identifiers": [],
+        "affiliations": [
+          "Sorbonne Université, École Normale Supérieure, PSL University, CNRS, Laboratoire des Biomolécules, LBM, 75005 Paris, France.",
+          "Université de Paris, UFR Sciences du Vivant, 75013 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Galochkina, Tatiana",
+        "short_name": "Galochkina T",
+        "identifiers": [
+          "0000-0002-3608-5208"
+        ],
+        "affiliations": [
+          "Université Paris Cité and Université des Antilles and Université de la Réunion, INSERM, BIGR, F-75014 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Chatzigoulas, Alexios",
+        "short_name": "Chatzigoulas A",
+        "identifiers": [
+          "0000-0001-5891-8154"
+        ],
+        "affiliations": [
+          "Biomedical Research Foundation, Academy of Athens, 11527 Athens, Greece.",
+          "Department of Informatics and Telecommunications, National and Kapodistrian University of Athens, 15784 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Cournia, Zoe",
+        "short_name": "Cournia Z",
+        "identifiers": [
+          "0000-0001-9287-364X"
+        ],
+        "affiliations": [
+          "Biomedical Research Foundation, Academy of Athens, 11527 Athens, Greece.",
+          "Department of Informatics and Telecommunications, National and Kapodistrian University of Athens, 15784 Athens, Greece."
+        ]
+      },
+      {
+        "full_name": "Santuz, Hubert",
+        "short_name": "Santuz H",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique, CNRS (UPR9080), Université Paris Cité, F-75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sacquin-Mora, Sophie",
+        "short_name": "Sacquin-Mora S",
+        "identifiers": [
+          "0000-0002-2781-4333"
+        ],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique, CNRS (UPR9080), Université Paris Cité, F-75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Taly, Antoine",
+        "short_name": "Taly A",
+        "identifiers": [
+          "0000-0001-5109-0091"
+        ],
+        "affiliations": [
+          "Laboratoire de Biochimie Théorique, CNRS (UPR9080), Université Paris Cité, F-75005 Paris, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2024 Jan 8",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/21 06:42",
+    "fetched_at": "2026-09-21 03:36:09"
+  },
+  "links": {
+    "cites": [
+      "42565866",
+      "42302011",
+      "41563485",
+      "41168475",
+      "41141754",
+      "41028845",
+      "40982567",
+      "39684679",
+      "39485490",
+      "39408946",
+      "39337567",
+      "39237205",
+      "38606286"
+    ],
+    "refs": [],
+    "similar": [
+      "38124369",
+      "36769074",
+      "35739160",
+      "38739602",
+      "37257257",
+      "39332396",
+      "37892124",
+      "35785970",
+      "30840442",
+      "35562983",
+      "39337622",
+      "39253449",
+      "38266916",
+      "38226524",
+      "35976160",
+      "38996889",
+      "38761500",
+      "37704686",
+      "39066727",
+      "35238773",
+      "34845619",
+      "36291675",
+      "37861057",
+      "32859072",
+      "35129612",
+      "36533639",
+      "23912807",
+      "37465978",
+      "36012140",
+      "37165539",
+      "37722056",
+      "25207671",
+      "31552948",
+      "36712039",
+      "33355572",
+      "31809054",
+      "37693436",
+      "36918529",
+      "31613621",
+      "32579908",
+      "37548092",
+      "38018910",
+      "30527137",
+      "36906658",
+      "37565699",
+      "38168383",
+      "27387657",
+      "35634779",
+      "28448138",
+      "31756104",
+      "34358545",
+      "36829461",
+      "37108059",
+      "39046952",
+      "26387099",
+      "24763499",
+      "31441158",
+      "34418423",
+      "36352786",
+      "38131311",
+      "37985809",
+      "29990433",
+      "31756456",
+      "31402649",
+      "28095698",
+      "37777474",
+      "38987470",
+      "38979209",
+      "38995544",
+      "26742101",
+      "38253327",
+      "29982297",
+      "36934808",
+      "29364151",
+      "37516933",
+      "33421906",
+      "33623120",
+      "38275091",
+      "36897766",
+      "39345459",
+      "32525675",
+      "23794453",
+      "31617035",
+      "24656082",
+      "28780862",
+      "26735936",
+      "27819658",
+      "32227937",
+      "31548393",
+      "36084124",
+      "27004461",
+      "36344848",
+      "32840111",
+      "36468450",
+      "33591749",
+      "32623047",
+      "24410358",
+      "26387110",
+      "31241933",
+      "28226222",
+      "39181864",
+      "39163334",
+      "39090739",
+      "38917639",
+      "39402428",
+      "38177398",
+      "38907110",
+      "35383272",
+      "39115813",
+      "37503072",
+      "36504138",
+      "37388680",
+      "38222029",
+      "37546760",
+      "38603560",
+      "36555682",
+      "35365655",
+      "36876042",
+      "39313455",
+      "36275629",
+      "37293053",
+      "38559274"
+    ],
+    "review": [
+      "38124369",
+      "30840442",
+      "35976160",
+      "38761500",
+      "35129612",
+      "33355572",
+      "36918529",
+      "30527137",
+      "34358545",
+      "26387099",
+      "31441158",
+      "34418423",
+      "29982297",
+      "29364151",
+      "33421906",
+      "23794453",
+      "31617035",
+      "24656082",
+      "27004461",
+      "33591749",
+      "26387110",
+      "28226222",
+      "39090739",
+      "39402428",
+      "38177398",
+      "38907110",
+      "36504138",
+      "37388680",
+      "38603560"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.3c01361",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

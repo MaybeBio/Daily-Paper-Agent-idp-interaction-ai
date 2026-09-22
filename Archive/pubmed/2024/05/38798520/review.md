@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that calcimembrin/C16orf74 (CLMB), an intrinsically disordered microprotein, associates with membranes via N-myristoylation and reversible S-acylation. They identify a composite 'LxVPxIxIT' motif in CLMB that binds the PxIxIT-docking site on calcineurin with extraordinarily high affinity when phosphorylated (sequence 33 LDVPDIIITPP(p)T 44). Calcineurin dephosphorylates CLMB to reduce this affinity, but Thr44 is protected from dephosphorylation when PxIxIT-bound. The authors propose a multimeric dephosphorylation model in which one PxIxIT-bound CLMB recruits calcineurin to membranes, allowing a second CLMB to engage via its LxVP motif for dephosphorylation. They cite in vivo and in vitro data, including NMR analyses, as support.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, NMR spectra and assignments, mutagenesis details, binding affinity measurements, in vivo experimental protocols, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting model for calcineurin regulation by a membrane-associated microprotein. The proposed composite motif and the multimeric dephosphorylation mechanism are novel and potentially significant for understanding calcineurin signaling in cancer contexts. However, the abstract alone provides insufficient evidence to evaluate the robustness of the key claims. The extraordinary affinity claim, the protection mechanism for Thr44, and the multimeric model all require detailed experimental support that is not visible in the supplied material. The work is likely to interest researchers in calcium signaling, phosphatase biology, and cancer biology, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers studying calcineurin signaling, calcium-dependent cellular processes, intrinsically disordered proteins, protein lipidation, and cancer biology would find these results relevant. The proposed mechanism of membrane-targeted, ratio-sensitive dephosphorylation could have broad implications for understanding how calcineurin achieves substrate specificity in different cellular contexts. The identification of a composite motif may also inform bioinformatic searches for similar regulatory elements in other proteins.
+- **Major strengths** The abstract identifies a novel composite motif that combines two known calcineurin-binding elements into a single functional unit. The proposed model is mechanistically specific and testable, offering a clear framework for how CLMB could shape calcineurin signaling at membranes. The combination of lipidation and phosphorylation as regulatory layers suggests a sophisticated control mechanism. The use of NMR to study the CLMB-calcineurin complex indicates a structural approach that could provide high-confidence mechanistic insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the phosphorylated composite motif binds the PxIxIT-docking site on calcineurin with "extraordinarily high affinity."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The term "extraordinarily high affinity" is a strong quantitative claim, but no binding constants, comparison values, or experimental conditions are provided in the abstract. Without specific affinity measurements (e.g., Kd values) and appropriate comparators (e.g., known PxIxIT motif affinities), this claim cannot be evaluated.
+  - **Why it matters** The affinity claim is central to the proposed model, as it underpins the idea that phosphorylated CLMB can effectively recruit calcineurin to membranes. If the affinity is not genuinely exceptional, the biological significance of the phosphorylation-dependent regulation would be weakened.
+  - **Resolution test** Provide quantitative binding data (e.g., Kd values from ITC, SPR, or NMR titration) for both phosphorylated and non-phosphorylated CLMB peptides against calcineurin, with appropriate controls and statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The abstract claims that Thr44 is protected from dephosphorylation when CLMB is PxIxIT-bound, and that this protection enables a multimeric dephosphorylation mechanism.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The protection mechanism and the multimeric model are presented as conclusions, but the abstract does not describe the experimental design that distinguishes between alternative explanations. For example, it is unclear whether the protection is due to steric occlusion, conformational changes, or altered substrate presentation. The multimeric model requires evidence that two CLMB molecules can simultaneously engage calcineurin, which is not described.
+  - **Why it matters** The multimeric dephosphorylation model is the central novel proposal of the work. If the protection mechanism is not rigorously established, the model remains speculative. The model also has implications for how CLMB:calcineurin ratios affect signaling, which is a key claim.
+  - **Resolution test** Provide mutagenesis data (e.g., LxVP or PxIxIT mutants), kinetic dephosphorylation assays with varying CLMB concentrations, and structural or biophysical evidence (e.g., NMR or crosslinking) demonstrating simultaneous engagement of two CLMB molecules by calcineurin.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** In vivo relevance
+  - **Claim pointer** The abstract states that "in vivo and in vitro data" support the proposed model.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No specific in vivo experiments are described. It is unclear whether the in vivo data demonstrate the proposed mechanism in a cellular context or merely show correlative effects of CLMB expression or mutation. The abstract does not specify the cell types, readouts, or genetic manipulations used.
+  - **Why it matters** The biological relevance of the model depends on in vivo validation. Without details on how the model was tested in living cells, the physiological significance of the proposed mechanism cannot be assessed.
+  - **Resolution test** Describe the in vivo experiments, including cell lines, CLMB variants (e.g., lipidation-deficient, phosphorylation-deficient, or motif mutants), and functional readouts (e.g., calcineurin activity, downstream signaling, or phenotypic outcomes).
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "multimeric dephosphorylation" is used without definition. It is unclear whether this refers to a complex containing multiple CLMB molecules, multiple calcineurin molecules, or both.
+  - **Required correction** Define the term explicitly in the abstract or use a more descriptive phrase such as "dephosphorylation in a complex containing two CLMB molecules."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Sequence context
+  - **Evidence pointer** Abstract text
+  - **Issue** The sequence 33 LDVPDIIITPP(p)T 44 is presented, but the numbering and the phosphorylation site (Thr44) are not placed in the context of the full CLMB sequence or its conservation across species.
+  - **Required correction** Provide the full CLMB sequence or a sequence alignment showing conservation of the composite motif, and clarify the numbering scheme.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Functional implications
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that CLMB expression correlates with poor cancer outcomes and that it "may promote oncogenesis," but the connection between the proposed dephosphorylation mechanism and oncogenic signaling is not explained.
+  - **Required correction** Briefly state how the proposed mechanism could affect known calcineurin-dependent pathways relevant to cancer, or explicitly defer this to the full text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (affinity quantification), R1-M2 (mechanistic evidence for protection and multimeric engagement), R1-M3 (in vivo validation details)
+- **Assessment against Nature-style criteria** Originality: The composite LxVPxIxIT motif and the multimeric dephosphorylation model appear conceptually novel and distinct from prior descriptions of calcineurin-substrate interactions. Scientific importance: If validated, the work could advance understanding of calcineurin regulation at membranes and its role in cancer, which is a significant area. Interdisciplinary readership: The topic bridges cell signaling, structural biology, and cancer biology, and the findings could appeal to a broad audience if the mechanistic claims are well supported. Technical soundness: Cannot be assessed from the abstract alone; the NMR and binding data are not visible. Readability for nonspecialists: The abstract is reasonably clear but uses specialized terminology (e.g., PxIxIT, LxVP, S-acylation) without brief definitions, which may limit accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual model is intriguing and warrants full evaluation, but the abstract alone does not provide sufficient quantitative or mechanistic detail to support the central claims. A revised assessment would require access to the full manuscript, including binding data, mutagenesis experiments, NMR analyses, and in vivo validation.
+
+## Risk / unsupported claims
+- The claim of "extraordinarily high affinity" for the phosphorylated composite motif is unsupported without quantitative binding data.
+- The protection of Thr44 from dephosphorylation when PxIxIT-bound is stated without mechanistic evidence.
+- The multimeric dephosphorylation model is presented as supported but the abstract does not describe experiments that directly test simultaneous engagement of two CLMB molecules.
+- The in vivo relevance is asserted but no specific in vivo experiments or results are described.
+- The connection between the proposed mechanism and oncogenesis is speculative and not substantiated in the abstract.

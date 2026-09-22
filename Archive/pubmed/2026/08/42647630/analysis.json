@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42647630",
+  "title": "The molecular basis of mitochondrial crista formation by the MIC10 complex.",
+  "authors": "Brown, Chelsea M; Wassenaar, Tsjerk A; Freyberg, Zachary; Marrink, Siewert J",
+  "journal": "Science advances",
+  "published_date": "2026-08-26",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用结构预测与多尺度模拟研究MIC10复合物介导线粒体嵴膜弯曲的机制，涉及IDR形成渗透屏障，但对象为膜蛋白复合物而非典型无序蛋白PPI，互作机制建模可迁移启发有限。",
+  "abstract": "Mitochondrial cristae are essential for respiration, yet the molecular basis of how the high curvature of these membrane folds is maintained remains unclear. Using structure prediction tools and multiscale simulations, we examined the role of the MIC10 subcomplex of the mitochondrial contact site and cristae organizing system (MICOS). We found that the MIC10 proteins Mic10, Mic26, and Mic27 strongly recruit cardiolipin at conserved positive loop motifs, driving oligomerization of these subunits and resulting in the stabilization of curvature in model membranes. Reconstruction of the full MIC10 complex in a realistic crista junction setup shows its capability to maintain membrane bending, while intrinsically disordered regions may form a permeability barrier between cristae and the intermembrane space. These findings provide a mechanistic model for cristae curvature formation and suggest how MICOS components cooperate with cardiolipins to maintain mitochondrial architecture.",
+  "abstract_zh": "线粒体嵴对呼吸作用至关重要，然而这些膜折叠的高曲率如何维持的分子基础仍不清楚。利用结构预测工具和多尺度模拟，我们研究了线粒体接触位点和嵴组织系统（MICOS）的MIC10亚复合物的作用。我们发现MIC10蛋白Mic10、Mic26和Mic27在保守的正电荷环基序处强烈招募心磷脂，驱动这些亚基的寡聚化，并在模型膜中稳定曲率。在真实的嵴连接设置中重建完整的MIC10复合物显示其维持膜弯曲的能力，而内在无序区域可能在嵴和膜间隙之间形成通透性屏障。这些发现为嵴曲率形成提供了机制模型，并提示MICOS组分如何与心磷脂协同维持线粒体结构。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42647630/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42647630/",
+  "paper_page_path": "papers/pubmed/42647630/index.html"
+}

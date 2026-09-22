@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and supplementary material descriptions
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and presentation quality. No assessment of editorial fit or journal-specific policy matters.
+- **Shared manuscript claim summary** The authors curate 19 experimentally validated short linear motifs (SLiMs) in Toxoplasma gondii secreted proteins, develop a computational pipeline to predict SLiM instances in 314 proteins from secretory organelles, filter these predictions using structural and phosphorylation evidence, and experimentally test four predicted TRAF6-binding motifs using microscale thermophoresis, finding that peptides from RON10 and GRA15 bind the TRAF6 MATH domain with micromolar affinity.
+- **Visible evidence base** Full text with results, methods, figure legends (referenced but not shown), tables (referenced but not shown), and supplementary material descriptions. Figures, tables, and supplementary files themselves were not provided.
+- **Missing materials affecting confidence** Figures 1-4, Tables 1 and S1-S3, Data S1, and all supplementary files were not available for inspection. This limits verification of quantitative results, experimental raw data, and the full prediction dataset.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and underexplored topic: the role of short linear motifs in Toxoplasma gondii host infection. The authors combine literature curation, computational prediction, and experimental validation in a logical workflow. The curation of 19 known SLiMs provides a useful reference, and the prediction pipeline is a reasonable first step toward a systematic SLiM resource for apicomplexan parasites. The experimental validation of two TRAF6-binding motifs is a valuable contribution, as it provides the first evidence that RON10 may interact with TRAF6. However, several concerns limit the strength of the conclusions as currently presented. The prediction pipeline yields a very large number of candidate motifs (24,097) with limited functional prioritization, and the filtering strategy relies on assumptions that are not fully validated. The experimental section is narrow, testing only four peptides from a large candidate set, and the physiological relevance of the observed binding is not established. The manuscript would benefit from clearer presentation of the prediction statistics, a more rigorous approach to false-positive estimation, and additional discussion of how the resource can be used to generate testable hypotheses.
+- **Who would be interested in the results, and why** Researchers studying host-pathogen interactions, particularly those focused on apicomplexan parasites such as Toxoplasma gondii, Plasmodium, and Cryptosporidium. The SLiM prediction resource will be of interest to computational biologists working on motif discovery and to experimental parasitologists seeking to identify new host interaction interfaces. The TRAF6-binding data may also interest immunologists studying innate immune modulation by intracellular pathogens.
+- **Major strengths** The manuscript addresses a genuinely underexplored area, as SLiMs in apicomplexan parasites have received far less attention than in viruses and bacteria. The combination of curation, prediction, and experimental validation is a strong workflow. The authors are transparent about the limitations of their prediction approach and provide multiple filtering strategies for users. The experimental validation, while limited in scope, is well executed and provides clear positive and negative results. The resource is made publicly available, which will facilitate further studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that their pipeline predicts 24,097 motif matches in 295 proteins from secretory organelles, and that these represent a useful resource for identifying functional SLiMs.
+  - **Evidence pointer** Results section "Prediction of motif instances in Toxoplasma-secreted proteins", Figures 2 and 3, Table S1
+  - **Concern** The prediction pipeline yields an extremely large number of candidate motifs, with an average of approximately 82 motifs per protein. This raises the question of false-positive rate. The authors acknowledge that many matches are likely non-functional, but they do not provide a quantitative estimate of the expected false-positive rate for their regular expression searches. For highly degenerate motifs such as the GSK phosphorylation site ([ST]...[ST]), the number of expected random matches in a proteome of this size should be estimated. Without such a background model, it is difficult to assess whether the filtering steps meaningfully enrich for functional motifs or simply reduce the number of matches by arbitrary criteria.
+  - **Why it matters** The central claim of the manuscript is that this prediction resource will be useful for identifying functional SLiMs in Toxoplasma. If the false-positive rate is very high, the resource may mislead users into spending time on non-functional candidates. A quantitative assessment of enrichment over random expectation is needed to support the utility of the resource.
+  - **Resolution test** Provide a background model or permutation-based analysis that estimates the expected number of motif matches in random sequences with similar amino acid composition. Report the fold-enrichment of the filtered set over the background expectation. If possible, compare the proportion of known functional motifs retained by the pipeline to the proportion of random matches retained.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim** The authors state that the filtering strategy using IUPred3, pLDDT, and RSA values selects for motifs that are "more likely to correspond to functional motif matches."
+  - **Evidence pointer** Results section "Prediction of motif instances in Toxoplasma-secreted proteins", Figure 2, Materials and Methods "Motif prediction and structural assessments"
+  - **Concern** The thresholds used for filtering (IUPred3 score above 0.4, pLDDT below or equal to 80, RSA above or equal to 0.25) are presented without justification. It is not clear whether these thresholds were chosen based on prior literature, on the distribution of scores in the dataset, or on some other criterion. The authors cite reference 83 for the IUPred3 threshold, but the other thresholds appear arbitrary. Furthermore, the relationship between these structural metrics and actual motif functionality is not established. For example, a motif in a disordered region with high RSA may still not be functional if it is not accessible in the context of the folded protein or if the binding partner is not present in the same cellular compartment.
+  - **Why it matters** The filtering strategy is a key component of the pipeline, and the thresholds directly determine the size and composition of the final dataset. If the thresholds are not well justified, the resulting resource may be biased in unknown ways. Users need to understand the rationale for the filtering to interpret the predictions correctly.
+  - **Resolution test** Provide a justification for each threshold, either from prior literature or from an analysis of the score distributions in the dataset. Ideally, show that the filtered set is enriched for known functional motifs compared to the unfiltered set. If possible, test the sensitivity of the results to the choice of thresholds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim** The authors state that the experimental validation of RON10 and GRA15 TRAF6-binding motifs "might have relevance in the regulation of the innate immune response" and that RON10 could play a role in this process.
+  - **Evidence pointer** Results section "Experimental validation of predicted TRAF6-binding motifs", Figure 4, Discussion
+  - **Concern** The experimental validation demonstrates in vitro binding of peptides to the TRAF6 MATH domain, but the physiological relevance of this interaction is not established. The authors do not show that RON10 or GRA15 are secreted into the host cytoplasm during infection, that they colocalize with TRAF6 in infected cells, or that the interaction has any functional consequence for the host immune response. The discussion speculates about a role in innate immune regulation, but no experimental evidence is provided to support this speculation.
+  - **Why it matters** The title and framing of the manuscript emphasize the role of SLiMs in driving Toxoplasma infection. The experimental validation is the strongest evidence for this claim, but as presented, it only shows that peptides can bind TRAF6 in vitro. Without cellular or in vivo evidence, the relevance to infection remains speculative.
+  - **Resolution test** Provide evidence that RON10 and GRA15 are secreted into the host cytoplasm during infection, and that the TRAF6-binding motifs are accessible for interaction. Ideally, show that the interaction occurs in infected cells and that it has a functional consequence, such as modulation of NF-kB activation or cytokine production.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim** The authors state that their pipeline captured 14 of the 19 curated motif instances, and that the five missed instances were due to low IUPred scores or sequence mismatches with ELM regular expressions.
+  - **Evidence pointer** Results section "Prediction of motif instances in Toxoplasma-secreted proteins"
+  - **Concern** The sensitivity of the pipeline (14 of 19, or 74%) is reported, but the specificity is not assessed. The authors do not report how many of the 24,097 predicted motifs are known to be functional, nor do they provide an estimate of the false discovery rate. The five missed instances are explained, but the analysis does not address whether the pipeline is biased toward certain types of motifs or proteins.
+  - **Why it matters** A resource for hypothesis generation should have known limitations. Users need to understand the sensitivity and specificity of the pipeline to interpret predictions appropriately. The current analysis provides sensitivity but not specificity, which limits the ability to assess the overall utility of the resource.
+  - **Resolution test** Provide an assessment of the false discovery rate, either by using a set of known non-functional motifs or by comparing predictions to experimentally validated interactions from other sources. Discuss the types of motifs that are likely to be missed by the pipeline and the types that are likely to be false positives.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction assumes familiarity with SLiM terminology and concepts. Terms such as "ELM resource," "regular expressions," and "intrinsically disordered regions" are used without definition or brief explanation.
+  - **Required correction** Provide brief definitions or explanations for these terms when first used, or add a short glossary for nonspecialist readers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "Binding assays"
+  - **Evidence pointer** Materials and Methods, "Binding assays"
+  - **Issue** The MST measurements are described as performed in triplicate, but the error bars in Figure 4 are not described. It is unclear whether the reported Kd values are means with standard deviations or standard errors, and whether the triplicates are technical or biological replicates.
+  - **Required correction** Clarify the nature of the replicates and report the error bars and statistical analysis in the figure legend or text.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Experimental validation of predicted TRAF6-binding motifs"
+  - **Evidence pointer** Results section "Experimental validation of predicted TRAF6-binding motifs", Figure 4
+  - **Issue** The authors state that the RON6 peptide did not show binding, but it is not clear whether this is due to a true lack of interaction or to experimental issues such as peptide solubility or aggregation. The GRA7 peptide also did not show binding, despite GRA7 being known to interact with TRAF6.
+  - **Required correction** Discuss potential reasons for the lack of binding, such as peptide solubility, the need for longer flanking regions, or the possibility that the interaction requires additional factors. This would strengthen the interpretation of the negative results.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion, paragraph 2
+  - **Evidence pointer** Discussion, paragraph 2
+  - **Issue** The discussion of "multivalency" and "SPOP degrons" may be difficult for readers unfamiliar with SLiM biology or ubiquitin signaling.
+  - **Required correction** Briefly explain these concepts in accessible language, or provide a short background section for readers new to the field.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Materials and Methods, "AlphaFold modeling"
+  - **Evidence pointer** Materials and Methods, "AlphaFold modeling"
+  - **Issue** The description of the AlphaFold modeling parameters is incomplete. The authors state that they used AlphaFold Multimer version 2.3.219, but the version number appears inconsistent with the command line parameters shown, which reference version 2.3.2.
+  - **Required correction** Clarify the exact version of AlphaFold Multimer used and ensure that the command line parameters are consistent with the stated version.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results section "Prediction of motif instances in Toxoplasma-secreted proteins"
+  - **Evidence pointer** Results section "Prediction of motif instances in Toxoplasma-secreted proteins", Figure 3
+  - **Issue** The authors report that 6% of predicted phosphorylation sites have evidence of phosphorylation from phosphoproteomics data. This is a low proportion, and it is not clear whether this is expected for the filtering approach used or whether it indicates a high false-positive rate for phosphorylation site predictions.
+  - **Required correction** Discuss whether the 6% validation rate is consistent with expectations for phosphoproteomics coverage in Toxoplasma, and consider whether additional filtering criteria could improve the precision of phosphorylation site predictions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (false-positive rate estimation) and R1-M2 (justification of filtering thresholds) must be addressed to establish the utility of the prediction resource. R1-M3 (physiological relevance of TRAF6 binding) should be addressed to support the claim that the identified motifs play a role in infection.
+- **Assessment against Nature-style criteria** Originality: The manuscript addresses an underexplored area, as SLiM analysis in apicomplexan parasites is in its early stages. The combination of curation, prediction, and experimental validation is a novel contribution. Scientific importance: The topic is important, as Toxoplasma is a widespread pathogen and understanding host-pathogen interactions at the molecular level could inform therapeutic strategies. However, the importance is somewhat limited by the narrow experimental validation and the lack of demonstrated physiological relevance. Interdisciplinary readership: The manuscript will appeal to parasitologists, cell biologists, and computational biologists, but the presentation is somewhat technical and may not be accessible to a broader readership. Technical soundness: The computational pipeline is reasonable, but the lack of false-positive estimation and the arbitrary filtering thresholds weaken the technical foundation. The experimental work is well executed but limited in scope. Readability for nonspecialists: The manuscript assumes familiarity with SLiM concepts and would benefit from additional background explanation for readers outside the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a valuable topic and provides a useful resource, but the concerns about false-positive rates, filtering thresholds, and physiological relevance must be addressed before the claims are fully supported.

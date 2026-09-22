@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34079903",
+  "title": "Heterogeneous Charged Complexes of Random Copolymers for the Segregation of Organic Molecules.",
+  "authors": "Wang, Jeremy; Waltmann, Curt; Umana-Kossio, Han; Olvera de la Cruz, Monica; Torkelson, John M",
+  "journal": "ACS central science",
+  "published_date": "2021-06-04",
+  "window": {
+    "start": "2021-05-31",
+    "end": "2021-06-06"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用粗粒化MD模拟研究随机共聚物聚电解质复合物对有机分子的分离功能，虽以合成共聚物模拟IDP并涉及凝聚体，但对象非真实IDP且互作轴聚焦小分子吸收而非PPI机制，方法有模拟但机制建模深度有限。",
+  "abstract": "Nature harnesses the disorder of intrinsically disordered proteins to organize enzymes and biopolymers into membraneless organelles. The heterogeneous nature of synthetic random copolymers with charged, polar, and hydrophobic groups has been exploited to mimic intrinsically disordered proteins, forming complexes with enzymatically active proteins and delivering them into nonbiological environments. Here, the properties of polyelectrolyte complexes composed of two random copolymer polyelectrolytes are studied experimentally and via simulation with the aim of exploiting such complexes for segregating organic molecules from water. The anionic polyelectrolyte contains hydrophilic and hydrophobic side chains and forms self-assembled hydrophobic domains. The cationic polymer is a high-molecular-weight copolymer of hydrophilic and charged side groups and acts as a flocculant. We find that the polyelectrolyte complexes obtained with this anionic and cationic random copolymer system are capable of absorbing small cationic, anionic, and hydrophobic organic molecules, including perfluorooctanoic acid, a compound of great environmental and toxicologic concern. Importantly, these macroscopic complexes can be easily removed from water, thereby providing a simple approach for organic contaminant removal in aqueous media. MARTINI and coarse-grained molecular dynamics simulations explore how the microscale heterogeneity of these random copolymer complexes relates to their segregation functionality.",
+  "abstract_zh": "自然界利用固有无序蛋白的无序性，将酶和生物聚合物组织成无膜细胞器。合成无规共聚物中带有电荷、极性和疏水基团的异质性已被用于模拟固有无序蛋白，与具有酶活性的蛋白质形成复合物，并将其递送至非生物环境中。本文通过实验和模拟研究了由两种无规共聚物聚电解质组成的聚电解质复合物的性质，旨在利用此类复合物将有机分子从水中分离。阴离子聚电解质含有亲水和疏水侧链，并形成自组装疏水域。阳离子聚合物是一种高分子量的亲水和带电侧基共聚物，起絮凝剂作用。我们发现，使用这种阴离子和阳离子无规共聚物体系获得的聚电解质复合物能够吸收小分子阳离子、阴离子和疏水性有机分子，包括全氟辛酸——一种具有重大环境和毒理学关注的化合物。重要的是，这些宏观复合物可以轻松从水中去除，从而为水介质中有机污染物去除提供了一种简便方法。MARTINI和粗粒化分子动力学模拟探讨了这些无规共聚物复合物的微尺度异质性如何与其分离功能相关联。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34079903/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34079903/",
+  "paper_page_path": "papers/pubmed/34079903/index.html"
+}

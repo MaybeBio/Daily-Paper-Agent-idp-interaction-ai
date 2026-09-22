@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "40445763",
+    "doi": "10.1073/pnas.2422787122",
+    "title": "Proofreading and single-molecule sensitivity in T cell receptor signaling by condensate nucleation."
+  },
+  "content": {
+    "abstract": "T cells display the remarkable ability to detect single foreign peptides displayed on target cells, while ignoring highly abundant self-peptides. This selectivity has been explained by kinetic proofreading in the T cell receptor (TCR) signaling pathway, which prevents responses to short-lived binding events regardless of their abundance. However, the biochemical mechanisms that drive kinetic proofreading have remained unclear. Here, using computational modeling, we show that these key signaling properties of the TCR pathway can emerge from the dynamics of linker for activation of T cells (LAT) phosphorylation, diffusion, and condensation following TCR-peptide major histocompatibility complex (pMHC) binding. In this model, time delays in LAT condensate nucleation underlie kinetic proofreading, enabling selective signaling responses to high-affinity pMHC ligands. The cooperativity in the nucleation and growth of LAT condensates also provides a mechanism to amplify weak signals from single high-affinity peptides and for condensates to grow with increasing antigen numbers. In contrast to other models, condensate-nucleation proofreading predicts a dependence of signal strength on pMHC spacing at fixed number, a prediction we validated experimentally using a protein scaffold to present pMHCs at defined intervals. Our results suggest that nucleation-condensation proofreading underlies the remarkable antigen detection capabilities of the TCR signaling pathway.",
+    "keywords": [
+      "T cell receptor signaling",
+      "kinetic proofreading",
+      "nucleation-condensation",
+      "phase separation",
+      "stochastic computational modeling"
+    ],
+    "mesh_terms": [
+      "*Receptors, Antigen, T-Cell/metabolism/immunology",
+      "*Signal Transduction/immunology",
+      "Phosphorylation",
+      "Humans",
+      "Kinetics",
+      "*T-Lymphocytes/immunology/metabolism",
+      "Peptides/metabolism/immunology",
+      "Adaptor Proteins, Signal Transducing/metabolism",
+      "Membrane Proteins/metabolism",
+      "Lymphocyte Activation",
+      "Major Histocompatibility Complex",
+      "Computer Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "White, William L",
+        "Yirdaw, Hailemikael K",
+        "Ben-Sasson, Ariel J",
+        "Groves, Jay T",
+        "Baker, David",
+        "Kueh, Hao Yuan"
+      ],
+      "short_names": [
+        "White WL",
+        "Yirdaw HK",
+        "Ben-Sasson AJ",
+        "Groves JT",
+        "Baker D",
+        "Kueh HY"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-0041-2125",
+        "ORCID: 0000-0003-3395-6327",
+        "ORCID: 0000-0002-3037-5220",
+        "ORCID: 0000-0001-7896-6217",
+        "ORCID: 0000-0001-6272-6673"
+      ],
+      "affiliations": [
+        "Department of Bioengineering, University of Washington, Seattle, WA 98195.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98195.",
+        "Department of Bioengineering, University of Washington, Seattle, WA 98195.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98195.",
+        "Department of Chemistry, University of California Berkeley, Berkeley, CA 94720.",
+        "Institute for Digital Molecular Analytics and Science, Nanyang Technological University, Singapore 636921, Singapore.",
+        "Institute for Protein Design, University of Washington, Seattle, WA 98195.",
+        "Department of Biochemistry, University of Washington, Seattle, WA 98195.",
+        "HHMI, Seattle, WA 98195.",
+        "Department of Bioengineering, University of Washington, Seattle, WA 98195.",
+        "Institute for Stem Cell and Regenerative Medicine, University of Washington, Seattle, WA 98109."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "White, William L",
+        "short_name": "White WL",
+        "identifiers": [
+          "0009-0004-0041-2125"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of Washington, Seattle, WA 98195.",
+          "Institute for Protein Design, University of Washington, Seattle, WA 98195."
+        ]
+      },
+      {
+        "full_name": "Yirdaw, Hailemikael K",
+        "short_name": "Yirdaw HK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioengineering, University of Washington, Seattle, WA 98195."
+        ]
+      },
+      {
+        "full_name": "Ben-Sasson, Ariel J",
+        "short_name": "Ben-Sasson AJ",
+        "identifiers": [
+          "0000-0003-3395-6327"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98195."
+        ]
+      },
+      {
+        "full_name": "Groves, Jay T",
+        "short_name": "Groves JT",
+        "identifiers": [
+          "0000-0002-3037-5220"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of California Berkeley, Berkeley, CA 94720.",
+          "Institute for Digital Molecular Analytics and Science, Nanyang Technological University, Singapore 636921, Singapore."
+        ]
+      },
+      {
+        "full_name": "Baker, David",
+        "short_name": "Baker D",
+        "identifiers": [
+          "0000-0001-7896-6217"
+        ],
+        "affiliations": [
+          "Institute for Protein Design, University of Washington, Seattle, WA 98195.",
+          "Department of Biochemistry, University of Washington, Seattle, WA 98195.",
+          "HHMI, Seattle, WA 98195."
+        ]
+      },
+      {
+        "full_name": "Kueh, Hao Yuan",
+        "short_name": "Kueh HY",
+        "identifiers": [
+          "0000-0001-6272-6673"
+        ],
+        "affiliations": [
+          "Department of Bioengineering, University of Washington, Seattle, WA 98195.",
+          "Institute for Stem Cell and Regenerative Medicine, University of Washington, Seattle, WA 98109."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Jun 3",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/30 18:52",
+    "fetched_at": "2026-09-21 19:21:24"
+  },
+  "links": {
+    "cites": [
+      "41021801",
+      "40642070"
+    ],
+    "refs": [
+      "38113261",
+      "37192165",
+      "36914891",
+      "36460640",
+      "36322659",
+      "36125261",
+      "36037369",
+      "34588308",
+      "34453921",
+      "33929486",
+      "33468643",
+      "33408408",
+      "33020303",
+      "31641081",
+      "31611699",
+      "30951647",
+      "30947808",
+      "30947807",
+      "30846600",
+      "30655520",
+      "30647147",
+      "30129204",
+      "30013148",
+      "29713075",
+      "29269020",
+      "27702900",
+      "27700984",
+      "27309817",
+      "27056844",
+      "25288112",
+      "25137454",
+      "23524462",
+      "23431198",
+      "22763440",
+      "22366317",
+      "22223661",
+      "21127503",
+      "19348745",
+      "19167334",
+      "18556025",
+      "16231973",
+      "15029250",
+      "12065840",
+      "10811803",
+      "10037717",
+      "9151707",
+      "7761445",
+      "2961577"
+    ],
+    "similar": [
+      "40445763",
+      "33936119",
+      "33020303",
+      "30647147",
+      "41021801",
+      "12244312",
+      "31611699",
+      "39298491",
+      "36914891",
+      "29087297",
+      "21152094",
+      "16231973",
+      "31221762",
+      "11752630",
+      "20421471",
+      "41292751",
+      "20460646",
+      "10593514",
+      "22973450",
+      "19833137",
+      "21642986",
+      "30745330",
+      "16049493",
+      "17339448",
+      "14615524",
+      "36460640",
+      "10358766",
+      "16446170",
+      "22101157",
+      "34030769",
+      "29976994",
+      "24636916",
+      "30053426",
+      "25944482",
+      "41422159",
+      "25782169",
+      "21606483",
+      "10617620",
+      "29042512",
+      "31611700",
+      "33562083",
+      "36499057",
+      "40501785",
+      "40362315",
+      "30129204",
+      "35135295",
+      "23666293",
+      "20164930",
+      "24412752",
+      "22802418",
+      "12216421",
+      "30655520",
+      "23840928",
+      "21904389",
+      "11015445",
+      "39520055",
+      "22055681",
+      "28340336",
+      "11313388",
+      "27370798",
+      "12093866",
+      "36125261",
+      "40378554",
+      "32899840",
+      "23046121",
+      "33689297",
+      "10438919",
+      "27702900",
+      "20357766",
+      "20010844",
+      "14512504",
+      "11395491",
+      "30886616",
+      "21189249",
+      "12486104",
+      "40694042",
+      "19915061",
+      "23500145",
+      "10427998",
+      "40342420",
+      "20207997",
+      "20940326",
+      "33929486",
+      "18480017",
+      "9200439",
+      "39211144",
+      "17984179",
+      "11756537",
+      "21966541",
+      "25145757",
+      "32727906",
+      "10657671",
+      "18981125",
+      "31402911",
+      "17938199",
+      "28634816",
+      "38617215",
+      "8305133",
+      "12496416",
+      "22683645"
+    ],
+    "review": [
+      "40445763",
+      "33936119",
+      "11752630",
+      "20460646",
+      "30745330",
+      "10358766",
+      "16446170",
+      "24636916",
+      "36499057",
+      "30129204",
+      "21904389",
+      "23046121",
+      "40342420",
+      "25145757",
+      "31402911",
+      "8305133"
+    ],
+    "pmc": [
+      "12146730"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2422787122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40445763/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-LAT-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

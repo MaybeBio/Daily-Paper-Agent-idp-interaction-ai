@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, and sections on mutation, posttranslational modification, truncation, toxic oligomerization, biomolecular condensation, and conclusions)
+- **Assessment boundary** Scientific content, logical coherence, evidence quality, and alignment with stated review aims; no assessment of formatting, figures, or supplementary materials not provided
+- **Shared manuscript claim summary** The review argues that mutations, posttranslational modifications, and truncations drive misfolding and aggregation of four intrinsically disordered proteins (Aβ, tau, α-syn, TDP-43) associated with neurodegeneration, and that these proteins also form biomolecular condensates with both protective and pathological roles
+- **Visible evidence base** Cited literature references (numbered), Figure 1 and Figure 2 descriptions, Tables 1-3 referenced but not provided
+- **Missing materials affecting confidence** Figures 1 and 2, Tables 1-3, full reference list, and any supplementary information were not provided; this limits verification of specific claims tied to these elements
+
+## Reviewer
+- **Overall assessment** This is a competent narrative review summarizing established knowledge on protein misfolding and aggregation in neurodegeneration. The organization around four molecular mechanisms (mutation, PTM, truncation) and two structural states (oligomerization, condensation) is logical and provides a useful framework. However, the review offers limited new synthesis or critical evaluation of conflicting evidence, and several claims are presented without adequate citation support or acknowledgment of controversy. The scope is broad but the depth is uneven, with some sections reading as catalogs of examples rather than integrated analyses. The manuscript would benefit from clearer articulation of how these mechanisms interconnect and from more explicit discussion of unresolved questions.
+- **Who would be interested in the results, and why** Researchers in neurodegeneration, protein biochemistry, and biophysics would find this a useful introductory overview. Early-career scientists or those entering the IDP field may appreciate the consolidated summary of key mechanisms. Clinicians with an interest in molecular pathology of AD, PD, and ALS could also benefit. The review does not present novel data, so its value lies primarily in synthesis and accessibility rather than advancing new hypotheses.
+- **Major strengths** The review covers a timely and important topic with clear relevance to understanding neurodegeneration. The structure around specific molecular mechanisms is intuitive and helps organize a complex literature. The inclusion of biomolecular condensation as a distinct section reflects current research trends. The authors make an effort to note where evidence is limited, such as for α-syn oligomer toxicity and TDP-43 oligomerization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** The review states that "Mutations, posttranslational modifications, and truncations are common molecular underpinnings in the formation of aberrant protein conformations that seed aggregation" and applies this framework uniformly to all four proteins
+  - **Evidence pointer** Abstract; Sections 2-4; location not provided
+  - **Concern** The review treats mutations, PTMs, and truncations as parallel mechanisms across all four proteins, but the evidence base is highly uneven. For example, the authors note that no MAPT mutations are associated with AD, yet tau is discussed extensively in the mutation section. Similarly, the truncation section relies heavily on Aβ and tau, with limited discussion of α-syn and TDP-43 truncation evidence. The uniform framework may overstate the equivalence of these mechanisms across proteins.
+  - **Why it matters** If the framework is not critically evaluated, readers may infer that all four mechanisms are equally established for all four proteins, which could mislead those new to the field. A more nuanced treatment acknowledging differential evidence strength would improve accuracy.
+  - **Resolution test** Revise the relevant sections to explicitly compare and contrast the strength of evidence for each mechanism across the four proteins, and adjust the abstract and conclusions to reflect this nuance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The review claims that "the pathway from functional to pathological is not straightforward, rather winding with multiple avenues for regulation and therapy" and implies that understanding these mechanisms provides insights into common underlying molecular pathology
+  - **Evidence pointer** Section 7 Conclusions; location not provided
+  - **Concern** The conclusion that these mechanisms converge on a "common underlying molecular pathology" is asserted without critical discussion of how the four proteins differ in their aggregation pathways, structural properties, and disease contexts. The review does not address whether the similarities are superficial or mechanistically meaningful. Additionally, the therapeutic implications are mentioned but not developed, leaving the significance claim under-supported.
+  - **Why it matters** The stated importance of the review rests on the claim of commonality across diseases. Without critical evaluation, this claim remains an assertion rather than an evidence-based synthesis, reducing the review's impact.
+  - **Resolution test** Add a discussion section that critically compares the four proteins, identifying shared versus distinct mechanisms, and explicitly state what is and is not known about common pathology. Develop the therapeutic implications with specific examples or acknowledge them as speculative.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The review states that "Aβ-42 exists as a mixture of random coils, α-helixes, and β-sheets, and specific conformations are favored based on environmental conditions" and that "AlphaFold predicts Aβ-42 to be a primarily disordered peptide with a small helical region, whereas IUPred assigned a low disorder score"
+  - **Evidence pointer** Section 1 Introduction; location not provided
+  - **Concern** The description of computational predictions is confusing. The authors state that AlphaFold predicts a primarily disordered peptide with a small helical region, but IUPred assigned a low disorder score, which would suggest the opposite (i.e., ordered). This apparent contradiction is not explained. The text may contain an error in reporting the IUPred result, or the authors need to clarify what "low disorder score" means in this context.
+  - **Why it matters** Computational predictions are used to support the classification of these proteins as intrinsically disordered. If the reporting is inaccurate or unclear, it undermines the foundational claim of the review.
+  - **Resolution test** Clarify the IUPred result and reconcile it with the AlphaFold prediction. If the original source reports a high disorder score, correct the text. Alternatively, explain why a low disorder score is consistent with the overall disordered classification.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 2 Mutation, paragraph on tau
+  - **Evidence pointer** Section 2; location not provided
+  - **Issue** The sentence "No MAPT mutations have been associated with AD so far, suggesting that mechanisms underlying tau aggregation in AD may be different from those involved in other tauopathies caused by MAPT mutations" is an important caveat but is placed at the end of the tau paragraph without further discussion. This point deserves more emphasis given its implications for the review's framework.
+  - **Required correction** Move this caveat to a more prominent position or expand on it briefly to explain why tau aggregation in AD differs from familial tauopathies.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 5 Toxic Oligomerization, α-syn discussion
+  - **Evidence pointer** Section 5; location not provided
+  - **Issue** The statement "Direct in vivo data supporting the toxic protofibril hypothesis are still relatively limited, and most of the evidence is circumstantial" is appropriately cautious, but the preceding discussion does not clearly distinguish between in vitro, cell-based, and in vivo evidence for other proteins. A consistent approach to evidence grading would strengthen the section.
+  - **Required correction** Briefly indicate the type of evidence (in vitro, cellular, animal, human) for key claims about oligomer toxicity across all four proteins.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section 6 Biomolecular Condensation
+  - **Evidence pointer** Section 6; location not provided
+  - **Issue** The section on biomolecular condensation is relatively brief compared to the depth of the topic. The protective role of Aβ sequestration in condensates is presented as a single study, and the transition from condensation to aggregation is not fully explained mechanistically.
+  - **Required correction** Expand the discussion to include more studies on condensate-mediated aggregation and clarify the proposed mechanisms linking LLPS to fibril formation.
+- **Technical failings that need to be addressed before the case is established** The apparent inconsistency in reporting computational disorder predictions for Aβ-42 (R1-M3) must be resolved. The review's central framework of common mechanisms across four proteins requires more critical evaluation of differential evidence strength (R1-M1). The significance claim of common pathology needs explicit support or qualification (R1-M2).
+- **Assessment against Nature-style criteria** Originality: Low to moderate. The review synthesizes existing literature but does not offer a novel framework or new insights. Scientific importance: Moderate. The topic is important, but the review does not advance the field beyond current understanding. Interdisciplinary readership: Moderate. The content is accessible to biochemists and neuroscientists but may not engage researchers outside these fields. Technical soundness: Adequate with one notable issue in computational prediction reporting. Readability for nonspecialists: Good overall, with clear organization, but some sections assume background knowledge of protein biophysics.
+
+## Risk / unsupported claims
+- The claim that "the pathway from functional to pathological is not straightforward, rather winding with multiple avenues for regulation and therapy" is presented as a conclusion but is not developed with specific evidence or examples
+- The statement that "these trends can be observed in other IDPs associated with neurodegenerative diseases such as TIA-1, hnRNP, FUS, ataxin, and SOD1" is made without citation or discussion, making it unverifiable from the provided material
+- The apparent contradiction between AlphaFold and IUPred predictions for Aβ-42 disorder is unresolved and may represent an error
+- Claims referencing Figures 1 and 2 and Tables 1-3 cannot be fully evaluated as these elements were not provided

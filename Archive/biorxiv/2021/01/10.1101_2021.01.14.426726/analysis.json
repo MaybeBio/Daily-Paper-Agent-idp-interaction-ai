@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.01.14.426726",
+  "title": "Impacts of 203/204: RG>KR mutation in the N protein of SARS-CoV-2",
+  "authors": "Vahed M; Calcagno TM; Quinonez E; Mirsaeidi M",
+  "journal": "bioRxiv",
+  "published_date": "2021-01-14",
+  "window": {
+    "start": "2021-01-11",
+    "end": "2021-01-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用基于结构的模型研究SARS-CoV-2核衣壳蛋白磷酸化依赖的结合与隔离，并分析RG>KR突变对HLA抗原呈递的影响，涉及蛋白互作建模但对象非典型IDP且方法偏应用，与本课题的IDR-PPI机制建模有部分可迁移性。",
+  "abstract": "We present a structure-based model of phosphorylation-dependent binding and sequestration of SARS-CoV-2 nucleocapsid protein and the impact of two consecutive amino acid changes R203K and G204R. Additionally, we studied how mutant strains affect HLA-specific antigen presentation and correlated these findings with HLA allelic population frequencies. We discovered RG>KR mutated SARS-CoV-2 expands the ability for differential expression of the N protein epitope on Major Histocompatibility Complexes (MHC) of varying Human Leukocyte Antigen (HLA) origin. The N protein LKR region K203, R204 of wild type (SARS-CoVs) and (SARS-CoV-2) observed HLA-A*30:01 and HLA-A*30:21, but mutant SARS-CoV-2 observed HLA-A*31:01 and HLA-A*68:01. Expression of HLA-A genotypes associated with the mutant strain occurred more frequently in all populations studied. <h4>Importance</h4> The novel coronavirus known as SARS-CoV-2 causes a disease renowned as 2019-nCoV (or COVID-19). HLA allele frequencies worldwide could positively correlate with the severity of coronavirus cases and a high number of deaths.",
+  "abstract_zh": "我们提出了一种基于结构的模型，用于描述SARS-CoV-2核衣壳蛋白的磷酸化依赖性结合与隔离，以及两个连续氨基酸变化R203K和G204R的影响。此外，我们研究了突变株如何影响HLA特异性抗原呈递，并将这些发现与HLA等位基因群体频率相关联。我们发现，RG>KR突变的SARS-CoV-2扩展了在具有不同人类白细胞抗原（HLA）来源的主要组织相容性复合体（MHC）上差异表达N蛋白表位的能力。野生型（SARS-CoVs）和（SARS-CoV-2）的N蛋白LKR区域K203、R204观察到HLA-A*30:01和HLA-A*30:21，但突变型SARS-CoV-2观察到HLA-A*31:01和HLA-A*68:01。与突变株相关的HLA-A基因型表达在所有研究人群中更为频繁。<h4>重要性</h4> 被称为SARS-CoV-2的新型冠状病毒引起一种名为2019-nCoV（或COVID-19）的疾病。全球范围内的HLA等位基因频率可能与冠状病毒病例的严重程度和高死亡人数呈正相关。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.01.14.426726",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.01.14.426726",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.01.14.426726/index.html"
+}

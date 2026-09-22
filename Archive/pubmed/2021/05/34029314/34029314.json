@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "34029314",
+    "doi": "10.1371/journal.pcbi.1009027",
+    "title": "Evaluation of residue-residue contact prediction methods: From retrospective to prospective."
+  },
+  "content": {
+    "abstract": "Sequence-based residue contact prediction plays a crucial role in protein structure reconstruction. In recent years, the combination of evolutionary coupling analysis (ECA) and deep learning (DL) techniques has made tremendous progress for residue contact prediction, thus a comprehensive assessment of current methods based on a large-scale benchmark data set is very needed. In this study, we evaluate 18 contact predictors on 610 non-redundant proteins and 32 CASP13 targets according to a wide range of perspectives. The results show that different methods have different application scenarios: (1) DL methods based on multi-categories of inputs and large training sets are the best choices for low-contact-density proteins such as the intrinsically disordered ones and proteins with shallow multi-sequence alignments (MSAs). (2) With at least 5L (L is sequence length) effective sequences in the MSA, all the methods show the best performance, and methods that rely only on MSA as input can reach comparable achievements as methods that adopt multi-source inputs. (3) For top L/5 and L/2 predictions, DL methods can predict more hydrophobic interactions while ECA methods predict more salt bridges and disulfide bonds. (4) ECA methods can detect more secondary structure interactions, while DL methods can accurately excavate more contact patterns and prune isolated false positives. In general, multi-input DL methods with large training sets dominate current approaches with the best overall performance. Despite the great success of current DL methods must be stated the fact that there is still much room left for further improvement: (1) With shallow MSAs, the performance will be greatly affected. (2) Current methods show lower precisions for inter-domain compared with intra-domain contact predictions, as well as very high imbalances in precisions between intra-domains. (3) Strong prediction similarities between DL methods indicating more feature types and diversified models need to be developed. (4) The runtime of most methods can be further optimized.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Computational Biology/*methods",
+      "Datasets as Topic",
+      "Deep Learning",
+      "Prospective Studies",
+      "Proteins/*chemistry",
+      "Retrospective Studies"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Huiling",
+        "Bei, Zhendong",
+        "Xi, Wenhui",
+        "Hao, Min",
+        "Ju, Zhen",
+        "Saravanan, Konda Mani",
+        "Zhang, Haiping",
+        "Guo, Ning",
+        "Wei, Yanjie"
+      ],
+      "short_names": [
+        "Zhang H",
+        "Bei Z",
+        "Xi W",
+        "Hao M",
+        "Ju Z",
+        "Saravanan KM",
+        "Zhang H",
+        "Guo N",
+        "Wei Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7856-2703",
+        "ORCID: 0000-0003-4272-7518",
+        "ORCID: 0000-0001-5696-7745",
+        "ORCID: 0000-0001-7720-1570",
+        "ORCID: 0000-0002-5541-234X",
+        "ORCID: 0000-0003-2133-1768",
+        "ORCID: 0000-0003-3434-3717"
+      ],
+      "affiliations": [
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+        "Cloud Computing Department, Alibaba Group, Hangzhou, China.",
+        "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+        "College of Electronic and Information Engineering, Southwest University, Chongqing, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+        "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+        "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+        "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China.",
+        "University of Chinese Academy of Sciences, Beijing, China.",
+        "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Huiling",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0000-0002-7856-2703"
+        ],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Bei, Zhendong",
+        "short_name": "Bei Z",
+        "identifiers": [],
+        "affiliations": [
+          "Cloud Computing Department, Alibaba Group, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Xi, Wenhui",
+        "short_name": "Xi W",
+        "identifiers": [
+          "0000-0003-4272-7518"
+        ],
+        "affiliations": [
+          "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Hao, Min",
+        "short_name": "Hao M",
+        "identifiers": [
+          "0000-0001-5696-7745"
+        ],
+        "affiliations": [
+          "College of Electronic and Information Engineering, Southwest University, Chongqing, China."
+        ]
+      },
+      {
+        "full_name": "Ju, Zhen",
+        "short_name": "Ju Z",
+        "identifiers": [
+          "0000-0001-7720-1570"
+        ],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Saravanan, Konda Mani",
+        "short_name": "Saravanan KM",
+        "identifiers": [
+          "0000-0002-5541-234X"
+        ],
+        "affiliations": [
+          "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Haiping",
+        "short_name": "Zhang H",
+        "identifiers": [
+          "0000-0003-2133-1768"
+        ],
+        "affiliations": [
+          "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Guo, Ning",
+        "short_name": "Guo N",
+        "identifiers": [
+          "0000-0003-3434-3717"
+        ],
+        "affiliations": [
+          "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Wei, Yanjie",
+        "short_name": "Wei Y",
+        "identifiers": [],
+        "affiliations": [
+          "University of Chinese Academy of Sciences, Beijing, China.",
+          "Centre for High Performance Computing, Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2021 May",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/25 06:00",
+    "fetched_at": "2026-09-20 03:27:23"
+  },
+  "links": {
+    "cites": [
+      "42053777",
+      "38791287",
+      "38498284",
+      "38110247",
+      "37961476",
+      "37375246",
+      "36851914",
+      "36377772",
+      "36142227",
+      "35651930",
+      "35571866",
+      "34209399"
+    ],
+    "refs": [
+      "33876751",
+      "33035205",
+      "31942072",
+      "31896580",
+      "31860059",
+      "31845383",
+      "31587357",
+      "31504181",
+      "31407406",
+      "31399549",
+      "31359036",
+      "31296772",
+      "31173061",
+      "31070716",
+      "31063641",
+      "31037754",
+      "30837676",
+      "30620738",
+      "30590407",
+      "30505403",
+      "29949980",
+      "29931279",
+      "29790960",
+      "29718112",
+      "29370750",
+      "29275173",
+      "29228185",
+      "29082672",
+      "29071738",
+      "28901583",
+      "28369334",
+      "28171606",
+      "28056090",
+      "27802931",
+      "27282356",
+      "27112569",
+      "26920058",
+      "26756402",
+      "26266489",
+      "26193119",
+      "25974172",
+      "25549265",
+      "25431331",
+      "25375897",
+      "25161237",
+      "25064567",
+      "24669753",
+      "24663061",
+      "24637808",
+      "24009338",
+      "23812992",
+      "23658418",
+      "23410359",
+      "23138306",
+      "22942020",
+      "22670053",
+      "22645369",
+      "22106262",
+      "22102360",
+      "22101153",
+      "20718988",
+      "20225257",
+      "19420062",
+      "19137600",
+      "19116270",
+      "18767158",
+      "18379715",
+      "18296462",
+      "17407573",
+      "8604144"
+    ],
+    "similar": [
+      "34029314",
+      "29790960",
+      "31918654",
+      "31365149",
+      "31583631",
+      "31415569",
+      "33961009",
+      "30871477",
+      "34209399",
+      "31504181",
+      "34112907",
+      "29047157",
+      "31407406",
+      "24267585",
+      "33494711",
+      "30620738",
+      "30985027",
+      "33828153",
+      "31471916",
+      "28056090",
+      "34035363",
+      "31587357",
+      "27559156",
+      "28166227",
+      "31344267",
+      "28093407",
+      "28845538",
+      "30837676",
+      "33035205",
+      "22016406",
+      "26371555",
+      "28472263",
+      "28623886",
+      "26205532",
+      "18847492",
+      "27802931",
+      "31436360",
+      "38091726",
+      "29931279",
+      "29673311",
+      "25524593",
+      "19714769",
+      "27978812",
+      "28541224",
+      "26713437",
+      "31070716",
+      "34788800",
+      "33770072",
+      "27115648",
+      "35039537",
+      "37321965",
+      "37748220",
+      "30530227",
+      "36440949",
+      "29082551",
+      "31173061",
+      "35317722",
+      "29228185",
+      "35665657",
+      "31298436",
+      "25375897",
+      "36355462",
+      "34448830",
+      "38540707",
+      "11031119",
+      "34595772",
+      "31622328",
+      "25431331",
+      "36759333",
+      "28865433",
+      "30657889",
+      "30395601",
+      "31942072",
+      "22101153",
+      "21355503",
+      "36379943",
+      "30939415",
+      "27153618",
+      "31513916",
+      "31396912",
+      "26198229",
+      "27307636",
+      "35651930",
+      "35663033",
+      "36734597",
+      "38167654",
+      "35653713",
+      "39048590",
+      "19656385",
+      "35609601",
+      "35037015",
+      "36519304",
+      "37425754",
+      "34967936",
+      "36304335",
+      "38739759",
+      "33042750",
+      "34941538",
+      "20802820",
+      "36551168",
+      "32750875",
+      "35365602",
+      "37503235",
+      "38261649",
+      "21892227",
+      "36420898",
+      "35634116",
+      "37608940",
+      "24646119"
+    ],
+    "review": [
+      "34029314",
+      "30657889",
+      "38739759"
+    ],
+    "pmc": [
+      "8177648"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1009027",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34029314/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34029314",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/34029314",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

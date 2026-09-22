@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42309597",
+  "title": "Structural and immunogenic evaluation of silk proteins from Bombyx mori using advanced bioinformatics and deep learning for biomaterials applications.",
+  "authors": "Puerta-Gonzalez, Andres; Soto-Ospina, Alejandro; Montoya Osorio, Yuliet; Bustamante-Osorno, John; Salazar-Pelaez, Lina Maria",
+  "journal": "Journal, genetic engineering & biotechnology",
+  "published_date": "2026-06-18",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用AlphaFold3和免疫信息学工具分析蚕丝蛋白的结构与免疫原性，涉及FibH/丝胶的无序状态及无序-有序转变机制，但核心是免疫原性评估而非PPI机制建模，方法以预测应用为主，缺乏互作机制深度。",
+  "abstract": "Silk from Bombyx mori is a premier biomaterial. Yet, comprehensive structural and immunoinformatic characterization of its protein components-fibroin subunits (FibH, FibL, P25) and five sericin isoforms-remains incomplete, hindering rational design of biocompatible medical devices. We integrated AlphaFold3 structural prediction with multi-algorithm immunoinformatic profiling (VaxiJen, NetMHCpan, BepiPred, AllerTOP, ToxinPred) to establish structure-immunogenicity relationships across the silk proteome. Structural modeling revealed that FibL and P25 adopt well-defined architectures (pTM = 0.85), whereas FibH exhibited low confidence (ipTM/pTM = 0.28), reflecting its intrinsically disordered pre-assembly state. Sericins displayed predominantly disordered conformations that undergo partial ordering upon complexing with FibL-P25-Cu(2+), supporting a disorder-to-order templating mechanism for fiber assembly. Immunoinformatic analysis revealed striking antigenic heterogeneity: P25 emerged as uniquely hypoimmunogenic, with subthreshold antigenicity (VaxiJen: 0.395), a single strong MHC-I binder for a single HLA allele, and minimal MHC-II reactivity. Conversely, FibL and FibH showed the highest potential for inducing CD8+ and CD4+ cell responses among the fibroin subunits, respectively. Ser-4 and Ser-1 exhibited a broad MHC coverage, presenting >/= 10 strong binders in 81% and 30% of MHC-I alleles, respectively, as well as >/= 4 high-priority peptides across all 27 and 6 tested MHC-II alleles, respectively. Allergenicity prediction classified FibH, FibL, Ser-2, and Ser-5 as probable allergens. All proteins were non-toxic. These findings challenge the paradigm that sericins exclusively drive silk immunogenicity, revealing instead an HLA-dependent risk profile dominated by FibL, FibH, Ser-4, and Ser-1. This computational framework provides a rational foundation for engineering hypoimmunogenic silk variants through P25 enrichment, epitope deletion, or HLA-matched biomaterial selection.",
+  "abstract_zh": "家蚕（Bombyx mori）丝是一种优质生物材料。然而，对其蛋白组分——丝素亚基（FibH、FibL、P25）及五种丝胶异构体——的全面结构与免疫信息学表征仍不完整，阻碍了生物相容性医疗设备的合理设计。我们整合了AlphaFold3结构预测与多算法免疫信息学分析（VaxiJen、NetMHCpan、BepiPred、AllerTOP、ToxinPred），以建立丝蛋白组中的结构-免疫原性关系。结构建模显示，FibL和P25采用明确的结构构象（pTM = 0.85），而FibH表现出低置信度（ipTM/pTM = 0.28），反映其本质上无序的预组装状态。丝胶主要呈现无序构象，在与FibL-P25-Cu(2+)复合后部分有序化，支持纤维组装的无序到有序模板机制。免疫信息学分析揭示了显著抗原异质性：P25表现为独特低免疫原性，具有亚阈值抗原性（VaxiJen: 0.395）、针对单一HLA等位基因的单一强MHC-I结合物，以及最小MHC-II反应性。相反，FibL和FibH分别展现出在丝素亚基中诱导CD8+和CD4+细胞反应的最高潜力。Ser-4和Ser-1表现出广泛的MHC覆盖，分别在81%和30%的MHC-I等位基因中呈现≥10个强结合物，并在所有27个和6个测试的MHC-II等位基因中分别呈现≥4个高优先级肽段。过敏原性预测将FibH、FibL、Ser-2和Ser-5归类为可能过敏原。所有蛋白均无毒性。这些发现挑战了丝胶单独驱动丝免疫原性的范式，反而揭示了一种由FibL、FibH、Ser-4和Ser-1主导的HLA依赖性风险谱。该计算框架为通过P25富集、表位删除或HLA匹配生物材料选择来工程化低免疫原性丝变体提供了理性基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42309597/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42309597/",
+  "paper_page_path": "papers/pubmed/42309597/index.html"
+}

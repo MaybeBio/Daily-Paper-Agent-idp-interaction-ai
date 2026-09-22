@@ -1,0 +1,287 @@
+{
+  "identity": {
+    "pmid": "41887012",
+    "doi": "10.1016/j.sbi.2026.103256",
+    "title": "Frontiers and challenges in the design of binders for intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) lack a stable tertiary structure but are fundamental to cellular function and disease, making them a compelling yet challenging class of drug targets. While their inherent flexibility poses a significant hurdle to conventional structure-based design methods, recent breakthroughs in computational protein design have enabled the creation of specific binders for these dynamic targets. In this review, we dissect the principles, advantages, and limitations of the design strategies, from those based on physical principles to those driven by deep learning. We then survey current applications of IDP binders and conclude by exploring the key challenges and future directions in this rapidly advancing field.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Binding",
+      "*Drug Design",
+      "Humans",
+      "Protein Conformation",
+      "*Protein Engineering/methods",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Chentong",
+        "Zhang, Yanzhe",
+        "Fang, Minchao",
+        "Peng, Zhangzhi",
+        "Cao, Longxing"
+      ],
+      "short_names": [
+        "Wang C",
+        "Zhang Y",
+        "Fang M",
+        "Peng Z",
+        "Cao L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Life Science, Westlake University, Hangzhou, China; Intelligence Drug Design Core Laboratory, Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China.",
+        "School of Life Science, Westlake University, Hangzhou, China; Intelligence Drug Design Core Laboratory, Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China.",
+        "School of Life Science, Westlake University, Hangzhou, China; Intelligence Drug Design Core Laboratory, Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China.",
+        "Duke University, Durham, NC, USA.",
+        "School of Life Science, Westlake University, Hangzhou, China; Intelligence Drug Design Core Laboratory, Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China. Electronic address: caolongxing@westlake.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Chentong",
+        "short_name": "Wang C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Westlake University, Hangzhou, China; Intelligence Drug Design Core Laboratory, Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yanzhe",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Westlake University, Hangzhou, China; Intelligence Drug Design Core Laboratory, Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Fang, Minchao",
+        "short_name": "Fang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Westlake University, Hangzhou, China; Intelligence Drug Design Core Laboratory, Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China."
+        ]
+      },
+      {
+        "full_name": "Peng, Zhangzhi",
+        "short_name": "Peng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Duke University, Durham, NC, USA."
+        ]
+      },
+      {
+        "full_name": "Cao, Longxing",
+        "short_name": "Cao L",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Science, Westlake University, Hangzhou, China; Intelligence Drug Design Core Laboratory, Westlake Laboratory of Life Sciences and Biomedicine, Hangzhou, China. Electronic address: caolongxing@westlake.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current opinion in structural biology"
+    ],
+    "journal_abbrev": [
+      "Curr Opin Struct Biol"
+    ],
+    "pub_date": "2026 Jun",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/27 01:10",
+    "fetched_at": "2026-09-18 01:57:41"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41887012",
+      "38987470",
+      "38097100",
+      "41174305",
+      "40674483",
+      "30278223",
+      "31441158",
+      "41579411",
+      "39522439",
+      "39163306",
+      "24656082",
+      "39093570",
+      "41053403",
+      "26549326",
+      "34610267",
+      "24532081",
+      "33355572",
+      "39196930",
+      "39555603",
+      "24606139",
+      "25611056",
+      "39740355",
+      "24329095",
+      "32403216",
+      "40423592",
+      "30979035",
+      "28394890",
+      "38018910",
+      "27844185",
+      "32020911",
+      "26201486",
+      "41385825",
+      "32696392",
+      "34845619",
+      "25287424",
+      "38368657",
+      "41022992",
+      "40198840",
+      "33167839",
+      "40532196",
+      "40325419",
+      "40739343",
+      "30992509",
+      "24098099",
+      "41534519",
+      "25863585",
+      "26195786",
+      "34922214",
+      "29990433",
+      "41774984",
+      "32429036",
+      "34197833",
+      "34902817",
+      "28259050",
+      "26387110",
+      "36257361",
+      "29364151",
+      "34626492",
+      "34390736",
+      "32859072",
+      "29634920",
+      "35436286",
+      "26387102",
+      "26931396",
+      "29808548",
+      "38118365",
+      "30471705",
+      "26226419",
+      "24008243",
+      "32621228",
+      "38296708",
+      "37722056",
+      "33310020",
+      "29716994",
+      "38194282",
+      "33591749",
+      "30002402",
+      "41570036",
+      "26126425",
+      "39740709",
+      "35609776",
+      "33917117",
+      "40349675",
+      "23794453",
+      "30527137",
+      "30066087",
+      "26742101",
+      "35762718",
+      "41644540",
+      "29982297",
+      "28448138",
+      "33087759",
+      "39828029",
+      "40650026",
+      "35129612",
+      "23531173",
+      "31356778",
+      "34358545",
+      "31667555",
+      "41082321"
+    ],
+    "review": [
+      "41887012",
+      "38097100",
+      "30278223",
+      "31441158",
+      "41579411",
+      "39522439",
+      "24656082",
+      "39093570",
+      "26549326",
+      "34610267",
+      "24532081",
+      "33355572",
+      "39555603",
+      "24606139",
+      "39740355",
+      "32403216",
+      "40423592",
+      "30979035",
+      "32020911",
+      "26201486",
+      "41385825",
+      "25287424",
+      "38368657",
+      "41022992",
+      "33167839",
+      "40325419",
+      "25863585",
+      "34922214",
+      "41774984",
+      "32429036",
+      "34902817",
+      "28259050",
+      "26387110",
+      "36257361",
+      "29364151",
+      "34390736",
+      "29634920",
+      "26387102",
+      "38118365",
+      "30471705",
+      "26226419",
+      "24008243",
+      "38296708",
+      "33591749",
+      "26126425",
+      "39740709",
+      "33917117",
+      "40349675",
+      "23794453",
+      "30527137",
+      "30066087",
+      "29982297",
+      "39828029",
+      "40650026",
+      "35129612",
+      "31356778",
+      "34358545"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0959-440X(26)00038-2",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

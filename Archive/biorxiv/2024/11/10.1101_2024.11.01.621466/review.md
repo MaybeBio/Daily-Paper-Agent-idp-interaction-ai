@@ -1,0 +1,81 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to methods, figures, tables, or supplementary material
+- **Shared manuscript claim summary** The authors propose AlloPool, a graph neural network that iteratively prunes residue interactions to predict time-dependent allosteric networks from molecular dynamics and steered molecular dynamics simulations. They report validation on Pin-1, ADGRG1, and B1AR, claim accurate trajectory reconstruction, identification of allosteric pathways and critical sites, force-dependent GAIN domain changes, and superior performance over existing models.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation metrics are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, model architecture details, training and validation protocols, baseline comparisons, and any statistical analyses
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of graph neural networks to allosteric communication in proteins, with a novel emphasis on time-dependent interaction pruning. However, the current evidence base is insufficient to evaluate the technical soundness, validity of the claims, or the significance of the contribution. The abstract makes strong performance claims without providing any quantitative support, and the methodological novelty relative to existing GNN-based approaches is not clearly established. The work may be of interest to computational biophysicists and protein engineers, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists studying allostery and protein dynamics would be interested in a new framework for inferring communication pathways from simulation data. Researchers developing machine learning methods for molecular systems would be interested in the adaptive graph pruning approach. Drug discovery scientists and protein engineers could find value in a tool that identifies critical allosteric sites and force-dependent structural changes, though this interest would depend on demonstrated accuracy and generalizability.
+- **Major strengths** The conceptual framing of allostery as a time-dependent, state-dependent phenomenon rather than a static property is appropriate and addresses a recognized limitation in the field. The idea of iteratively pruning residue interactions to identify minimal networks is a reasonable and potentially powerful approach. The application to both MD and SMD simulations, including mechanical force scenarios, suggests a broader scope than many existing allostery prediction methods.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that AlloPool "accurately recapitulate[s] protein motions" and "outperforms existing models in MD and SMD trajectory reconstruction."
+  - **Evidence pointer** Abstract only; no quantitative metrics, baseline comparisons, or statistical analyses are provided
+  - **Concern** The central performance claims are made without any numerical support. No error metrics, correlation coefficients, or comparison values are given. The reader cannot assess what "accurate" or "outperforms" means in this context.
+  - **Why it matters** Without quantitative evidence, the core value proposition of the method cannot be evaluated. Trajectory reconstruction is a well-defined task with established metrics, and the absence of any such numbers prevents assessment of whether the method is competitive or merely functional.
+  - **Resolution test** Provide quantitative reconstruction errors for each test system, compare against at least one established baseline with appropriate statistical testing, and report confidence intervals or error bars.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that AlloPool "identifies minimal, time-dependent interaction networks" and "infers allosteric communication pathways."
+  - **Evidence pointer** Abstract only; no validation of predicted pathways against experimental or independent computational data is described
+  - **Concern** The abstract does not describe how predicted allosteric pathways or critical sites are validated. Without ground truth comparison or experimental corroboration, the biological relevance of the identified networks is unsubstantiated.
+  - **Why it matters** Allosteric pathway prediction is prone to false positives, and the field has established standards for validation, including comparison with mutational studies, NMR chemical shift perturbations, or independent simulation analyses. The absence of any validation strategy weakens the biological claims.
+  - **Resolution test** Describe and present validation of predicted pathways against experimental data or independent computational methods for at least one test system.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** The abstract implies novelty in the adaptive graph pruning approach and its application to dynamic allosteric prediction.
+  - **Evidence pointer** Abstract only; no comparison with prior GNN-based allostery prediction methods is described
+  - **Concern** The abstract does not situate AlloPool relative to existing GNN methods for allostery or protein dynamics prediction. The claim of novelty cannot be assessed without knowing what prior models exist and how AlloPool differs from them.
+  - **Why it matters** The field has seen increasing use of graph neural networks for protein property prediction, including allostery. Without explicit differentiation from prior work, the contribution may be incremental rather than novel.
+  - **Resolution test** Provide a clear comparison with at least two prior GNN-based methods for allostery or dynamics prediction, including architectural differences and performance comparisons.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract describes the method as using "temporal attention and graph aggregation" to predict MD and SMD trajectories.
+  - **Evidence pointer** Abstract only; no architectural details, hyperparameters, training procedures, or data preprocessing steps are provided
+  - **Concern** The methodological description is too sparse to allow reproduction or even a meaningful technical evaluation. Key details such as input features, graph construction, pruning criteria, attention mechanism specifics, and loss functions are absent.
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without sufficient methodological detail, the work cannot be independently verified or built upon.
+  - **Resolution test** Provide a complete methods section with architectural specifications, training details, and data processing steps, or make code and trained models publicly available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The opening sentence is a general statement about allostery that does not add specific information about the method or its contribution.
+  - **Required correction** Consider condensing the background to one clause and moving directly to the specific problem addressed.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Claim of broad applicability
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The claim of "broad potential for applications in drug discovery, synthetic biology, and protein engineering" is speculative and not supported by the presented results.
+  - **Required correction** Either temper this claim or provide specific examples of how the method could be applied in these domains.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Test system selection
+  - **Evidence pointer** Abstract, validation section
+  - **Issue** The abstract does not explain why Pin-1, ADGRG1, and B1AR were chosen as test systems, or whether they represent diverse enough cases to support generalizability claims.
+  - **Required correction** Briefly justify system selection in terms of structural diversity, allosteric mechanism types, or functional relevance.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative results, validation strategy, comparison with prior work, and methodological detail collectively prevent any assessment of whether the claims are supported.
+- **Assessment against Nature-style criteria** Originality: The adaptive pruning concept has potential novelty, but this cannot be confirmed without comparison to prior GNN methods. Scientific importance: Allosteric prediction is an important problem, but the significance of this specific contribution is unclear without evidence of improved accuracy or new biological insights. Interdisciplinary readership: The work could appeal to both machine learning and biophysics audiences, but the abstract is written in a way that may not be accessible to nonspecialists in either field. Technical soundness: Not assessable from the abstract; no metrics, validation, or methodological detail is provided. Readability for nonspecialists: The abstract uses field-specific terminology without sufficient context, and the claims are too broad relative to the evidence presented.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract describes a potentially interesting approach, but the absence of quantitative results, validation, methodological detail, and comparison with prior work means that no claim can be evaluated. A full manuscript with complete methods and results would be required for any further assessment.
+
+## Risk / unsupported claims
+- The claim that AlloPool "accurately recapitulate[s] protein motions" is unsupported by any quantitative evidence.
+- The claim that AlloPool "outperforms existing models" is unsupported without baseline comparisons.
+- The claim that AlloPool "identifies critical allosteric sites" is unsupported without validation against experimental or independent data.
+- The claim that AlloPool "reconstructs directed information flow under mechanical load" is not assessable without methodological detail.
+- The claim of "broad potential for applications in drug discovery, synthetic biology, and protein engineering" is speculative and unsupported.
+- The generalizability of the method beyond the three test systems is not assessable from the abstract.

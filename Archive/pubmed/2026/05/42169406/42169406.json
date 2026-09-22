@@ -1,0 +1,251 @@
+{
+  "identity": {
+    "pmid": "42169406",
+    "doi": "10.1016/j.bpj.2026.05.031",
+    "title": "Charge characteristics of fluorescent proteins modulate FUS LCD condensation."
+  },
+  "content": {
+    "abstract": "Fluorescent proteins (FPs) have revolutionized cell imaging by visualizing protein localizations in the cellular native environment and in real time. Recently, FPs have been widely used for investigating protein liquid-liquid phase separation. Nevertheless, given that small charged biomolecules are a main driver in protein condensation, the charge state of FPs would affect protein condensation in cells. Many current studies have overlooked that the electrostatic properties of FPs can perturb delicate intermolecular interactions. In this study, we systematically evaluated the influence of FP net charge on in vivo protein condensation using the low-complexity domain (LCD) of the intrinsically disordered protein Fused in Sarcoma (FUS) as a model system. FUS LCD was fused to FPs exhibiting a wide range of net charges at physiological pH and expressed in Escherichia coli. Fluorescence imaging and molecular dynamics simulation revealed distinct condensation patterns that correlated with FP charge. The results demonstrated that FP net charge can affect protein condensation. We suggest that careful selection of FPs based on their electrostatic properties is necessary to achieve both the accuracy and reproducibility of biological experiments, ultimately leading to more reliable insights into the molecular mechanisms underlying protein condensation.",
+    "keywords": [
+      "IDPs",
+      "charge characteristics",
+      "fluorescent protein",
+      "intrinsically disordered proteins",
+      "protein condensation"
+    ],
+    "mesh_terms": [
+      "Static Electricity",
+      "*RNA-Binding Protein FUS/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Domains",
+      "*Luminescent Proteins/chemistry/metabolism",
+      "Escherichia coli",
+      "Hydrogen-Ion Concentration",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lee, Hyeryeong",
+        "Prapassornwattana, Pavinee",
+        "Kim, Yejin",
+        "Yoo, Jejoong",
+        "Lee, Sang Hak"
+      ],
+      "short_names": [
+        "Lee H",
+        "Prapassornwattana P",
+        "Kim Y",
+        "Yoo J",
+        "Lee SH"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Pusan National University, Busan 46241, Republic of Korea.",
+        "Department of Chemistry, Pusan National University, Busan 46241, Republic of Korea.",
+        "Department of Chemistry, Pusan National University, Busan 46241, Republic of Korea.",
+        "School of Computational Sciences, Korea Institute for Advanced Study, Seoul 02455, Republic of Korea.",
+        "Department of Chemistry, Pusan National University, Busan 46241, Republic of Korea. Electronic address: shlee@pusan.ac.kr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lee, Hyeryeong",
+        "short_name": "Lee H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Prapassornwattana, Pavinee",
+        "short_name": "Prapassornwattana P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Yejin",
+        "short_name": "Kim Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Yoo, Jejoong",
+        "short_name": "Yoo J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computational Sciences, Korea Institute for Advanced Study, Seoul 02455, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Sang Hak",
+        "short_name": "Lee SH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Pusan National University, Busan 46241, Republic of Korea. Electronic address: shlee@pusan.ac.kr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Jul 21",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/05/22 06:36",
+    "fetched_at": "2026-09-18 03:25:59"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42169406",
+      "39486437",
+      "23912807",
+      "28924037",
+      "39495179",
+      "26455390",
+      "33307683",
+      "40693919",
+      "28575444",
+      "41457474",
+      "35297101",
+      "33547841",
+      "31270472",
+      "37399327",
+      "37961424",
+      "39885825",
+      "38965780",
+      "40132517",
+      "40792356",
+      "39248414",
+      "41535729",
+      "28890401",
+      "41997317",
+      "37211763",
+      "29677515",
+      "39531035",
+      "24278008",
+      "40842365",
+      "32393642",
+      "41298246",
+      "24317797",
+      "31709918",
+      "32643734",
+      "38462838",
+      "27936491",
+      "38308651",
+      "35501371",
+      "38492239",
+      "34018649",
+      "40516596",
+      "29364893",
+      "40479713",
+      "34156864",
+      "32867340",
+      "40631955",
+      "39588871",
+      "34737230",
+      "32325001",
+      "40281357",
+      "33515602",
+      "29590589",
+      "28942918",
+      "38546977",
+      "29548979",
+      "32859072",
+      "38287572",
+      "32654182",
+      "40143738",
+      "37006777",
+      "33388290",
+      "32048997",
+      "40133210",
+      "27392146",
+      "42171195",
+      "29677513",
+      "39924827",
+      "39311028",
+      "28786199",
+      "37890778",
+      "34571015",
+      "40185744",
+      "38070499",
+      "34487489",
+      "26735936",
+      "35709363",
+      "38252962",
+      "39536029",
+      "32323533",
+      "30968464",
+      "35930639",
+      "33945530",
+      "28554553",
+      "31936201",
+      "29961577",
+      "28707474",
+      "33597515",
+      "25207671",
+      "39466031",
+      "31479821",
+      "39074869",
+      "40588121",
+      "39354680",
+      "39342654",
+      "34654750",
+      "33184287",
+      "23916968",
+      "33684117",
+      "42290014",
+      "30071273",
+      "34214536"
+    ],
+    "review": [
+      "42169406",
+      "37399327",
+      "31709918",
+      "32867340",
+      "28554553",
+      "31479821",
+      "42290014"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(26)00390-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1778",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

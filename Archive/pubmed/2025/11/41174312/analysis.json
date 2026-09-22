@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41174312",
+  "title": "Computational Identification of Potential Shape-Shifting Proteins from Structures.",
+  "authors": "Perez-Canales, Francisco M; Alanis-Dominguez, Enrique; Rojas, Ana M",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2025-11-01",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出从结构数据库筛选构象可变（shape-shifting）蛋白的计算流程，虽涉及无序蛋白折叠概念，但未聚焦PPI机制或AI/物理模拟方法，仅提供可迁移的筛选思路。",
+  "abstract": "The \"one structure-one function\" paradigm is central to most computational methods for predicting protein function. However, a subset of proteins known as shape-shifters can adopt multiple well-defined structures to perform distinct biological functions. These proteins, along with intrinsically disordered proteins (IDPs) that fold upon binding, challenge conventional views of protein functionality. Despite their biological significance, identifying fold-switching proteins remains difficult due to limited structural data and the limitations of current prediction methods.In this study, we present a computational protocol to identify potential shape-shifting proteins within structural databases. By integrating structural and sequence data, this approach enables the screening of the Protein Data Bank (PDB) for proteins exhibiting significant conformational variability.",
+  "abstract_zh": "“一种结构-一种功能”范式是大多数蛋白质功能预测计算方法的核心。然而，一类被称为形状转换蛋白（shape-shifters）的蛋白质亚群能够采用多种明确的结构来执行不同的生物学功能。这些蛋白质，连同在结合时折叠的固有无序蛋白（intrinsically disordered proteins, IDPs），挑战了关于蛋白质功能的传统观点。尽管它们具有生物学重要性，但由于结构数据有限和当前预测方法的局限性，识别折叠转换蛋白仍然困难。在本研究中，我们提出了一种计算协议，用于在结构数据库中识别潜在的形状转换蛋白。通过整合结构和序列数据，该方法能够筛选蛋白质数据银行（Protein Data Bank, PDB）中表现出显著构象变异的蛋白质。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41174312/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41174312/",
+  "paper_page_path": "papers/pubmed/41174312/index.html"
+}

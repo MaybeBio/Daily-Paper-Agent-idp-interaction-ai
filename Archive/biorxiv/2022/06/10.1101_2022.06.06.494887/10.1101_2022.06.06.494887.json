@@ -1,0 +1,133 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.06.06.494887",
+  "title": "Metapredict V2: An update to metapredict, a fast, accurate, and easy-to-use predictor of consensus disorder and structure",
+  "doi": "10.1101/2022.06.06.494887",
+  "abstract": "<h4>ABSTRACT</h4> Intrinsically disordered proteins and protein regions make up 20-40% of most eukaryotic proteomes and play essential roles in a wide gamut of cellular processes, from intracellular trafficking to epigenetic silencing. Given their importance, the ability to robustly, quickly, and easily identify IDRs within large proteins is critical. Here we present metapredict V2, an update to our deep-learning-based disorder predictor metapredict. Metapredict V2 has substantially improved accuracy, more features, and a more user-friendly interface via our web server ( https://metapredict.net/ ), Python package, and command-line tool. To illustrate V2’s improved performance we undertake a systematic analysis of human transcription factors, as well as illustrate that metapredict V2 works well for synthetic or non-natural proteins. <h4>KEY POINTS</h4> Metapredict is a fast and easy-to-use disorder predictor released in 2021. Metapredict V2 was released in March 2022 and includes improved accuracy and new features. Metapredict V2 is now the default metapredict implementation, although the original implementation is available as ‘legacy’ metapredict. This manuscript provides a summary of how we improved the accuracy of metapredict and compares the original version (legacy) to our improved version (V2) This manuscript will not be submitted to a journal; if you use metapredict V2 please cite the original paper and make reference to the fact that V2 is being used.",
+  "authors": [
+    "Emenecker RJ",
+    "Griffith D",
+    "Holehouse AS"
+  ],
+  "published_date": "2022-06-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.06.06.494887",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.06.06.494887.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR503727",
+    "raw_record": {
+      "id": "PPR503727",
+      "source": "PPR",
+      "doi": "10.1101/2022.06.06.494887",
+      "title": "Metapredict V2: An update to metapredict, a fast, accurate, and easy-to-use predictor of consensus disorder and structure",
+      "authorString": "Emenecker RJ, Griffith D, Holehouse AS.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Emenecker RJ",
+            "lastName": "Emenecker",
+            "firstName": "Ryan",
+            "initials": "RJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7055-2773"
+            }
+          },
+          {
+            "fullName": "Griffith D",
+            "lastName": "Griffith",
+            "firstName": "Daniel",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9633-9601"
+            }
+          },
+          {
+            "fullName": "Holehouse AS",
+            "lastName": "Holehouse",
+            "firstName": "Alex",
+            "initials": "AS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4155-5729"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7055-2773"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4155-5729"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9633-9601"
+          }
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>ABSTRACT</h4>  Intrinsically disordered proteins and protein regions make up 20-40% of most eukaryotic proteomes and play essential roles in a wide gamut of cellular processes, from intracellular trafficking to epigenetic silencing. Given their importance, the ability to robustly, quickly, and easily identify IDRs within large proteins is critical. Here we present metapredict V2, an update to our deep-learning-based disorder predictor metapredict. Metapredict V2 has substantially improved accuracy, more features, and a more user-friendly interface via our web server (  https://metapredict.net/ ), Python package, and command-line tool. To illustrate V2’s improved performance we undertake a systematic analysis of human transcription factors, as well as illustrate that metapredict V2 works well for synthetic or non-natural proteins.  <h4>KEY POINTS</h4>  Metapredict is a fast and easy-to-use disorder predictor released in 2021. Metapredict V2 was released in March 2022 and includes improved accuracy and new features. Metapredict V2 is now the default metapredict implementation, although the original implementation is available as ‘legacy’ metapredict. This manuscript provides a summary of how we improved the accuracy of metapredict and compares the original version (legacy) to our improved version (V2) This manuscript will not be submitted to a journal; if you use metapredict V2 please cite the original paper and make reference to the fact that V2 is being used.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/07/06/2022.06.06.494887.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.06.06.494887"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 21,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-06-10",
+      "firstPublicationDate": "2022-06-09",
+      "firstIndexDate": "2022-06-10",
+      "hasEvaluations": "N"
+    }
+  }
+}

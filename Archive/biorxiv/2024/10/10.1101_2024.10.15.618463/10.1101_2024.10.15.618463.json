@@ -1,0 +1,357 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.15.618463",
+  "title": "Structural organization of p62 filaments and the cellular ultrastructure of calcium-rich p62-enwrapped lipid droplet cargo",
+  "doi": "10.1101/2024.10.15.618463",
+  "abstract": "The selective autophagy receptor p62/SQSTM1 (from hereon p62) is known to form higher-order filaments in vitro and to undergo liquid-liquid phase separation when mixed with poly-ubiquitin. We determined the full-length cryo-EM structure of p62 and elucidated a structured double helical filament scaffold composed of the PB1-domain associated with the flexible C-terminal part residing in the lumen and the solvent-accessible major groove. At different pH values and upon binding to soluble LC3, LC3-conjugated membranes and poly-ubiquitin, we observed p62 filament re-arrangements in the form of structural unwinding, disassembly, lateral association and bundling, respectively. In the cellular environment, under conditions of ATG5 knockdown leading to stalled autophagy, we imaged high-contrast layers consisting of p62 oligomers enwrapping lipid droplets by cryogenic electron tomography in cellulo, which we identified as calcium phosphate by compositional spectroscopy analysis. Together, we visualized the cellular ultrastructure of p62 oligomers with high calcium content as a potential intermediate step of autophagy initiation.",
+  "authors": [
+    "Berkamp S",
+    "jungbluth L",
+    "Katranidis A",
+    "Mostafavi S",
+    "Korculanin O",
+    "Lu P",
+    "Sharma L",
+    "Thukral L",
+    "Fitter J",
+    "Dunin-Borkowski RE",
+    "Sachse C"
+  ],
+  "published_date": "2024-10-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.15.618463",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.15.618463.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR924578",
+    "raw_record": {
+      "id": "PPR924578",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR924578"
+        ]
+      },
+      "doi": "10.1101/2024.10.15.618463",
+      "title": "Structural organization of p62 filaments and the cellular ultrastructure of calcium-rich p62-enwrapped lipid droplet cargo",
+      "authorString": "Berkamp S, jungbluth L, Katranidis A, Mostafavi S, Korculanin O, Lu P, Sharma L, Thukral L, Fitter J, Dunin-Borkowski RE, Sachse C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Berkamp S",
+            "lastName": "Berkamp",
+            "firstName": "Sabrina",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9639-9698"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Forschungszentrum Jülich , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "jungbluth L",
+            "lastName": "jungbluth",
+            "firstName": "Lisa",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Forschungszentrum Jülich , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Katranidis A",
+            "lastName": "Katranidis",
+            "firstName": "Alexandros",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1785-1659"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Forschungszentrum Jülich , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mostafavi S",
+            "lastName": "Mostafavi",
+            "firstName": "Siavash",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Forschungszentrum Jülich , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Korculanin O",
+            "lastName": "Korculanin",
+            "firstName": "Olivera",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Forschungszentrum Jülich , ,"
+                },
+                {
+                  "affiliation": ", I.Physikalisches Institut (IA), ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lu P",
+            "lastName": "Lu",
+            "firstName": "Peng-Han",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Forschungszentrum Jülich , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sharma L",
+            "lastName": "Sharma",
+            "firstName": "Lokesh",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0005-5453-7414"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational Structural Biology Lab, , Mathura Road , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thukral L",
+            "lastName": "Thukral",
+            "firstName": "Lipi",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1961-039X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Computational Structural Biology Lab, , Mathura Road , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fitter J",
+            "lastName": "Fitter",
+            "firstName": "Jörg",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4503-2079"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Forschungszentrum Jülich , ,"
+                },
+                {
+                  "affiliation": ", I.Physikalisches Institut (IA), ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dunin-Borkowski RE",
+            "lastName": "Dunin-Borkowski",
+            "firstName": "Rafal",
+            "initials": "RE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8082-0647"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Forschungszentrum Jülich , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sachse C",
+            "lastName": "Sachse",
+            "firstName": "Carsten",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Forschungszentrum Jülich , ,"
+                },
+                {
+                  "affiliation": "Department of Biology, , Universitätsstr. ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8082-0647"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1785-1659"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1961-039X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4503-2079"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9639-9698"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0005-5453-7414"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The selective autophagy receptor p62/SQSTM1 (from hereon p62) is known to form higher-order filaments in vitro and to undergo liquid-liquid phase separation when mixed with poly-ubiquitin. We determined the full-length cryo-EM structure of p62 and elucidated a structured double helical filament scaffold composed of the PB1-domain associated with the flexible C-terminal part residing in the lumen and the solvent-accessible major groove. At different pH values and upon binding to soluble LC3, LC3-conjugated membranes and poly-ubiquitin, we observed p62 filament re-arrangements in the form of structural unwinding, disassembly, lateral association and bundling, respectively. In the cellular environment, under conditions of ATG5 knockdown leading to stalled autophagy, we imaged high-contrast layers consisting of p62 oligomers enwrapping lipid droplets by cryogenic electron tomography in cellulo, which we identified as calcium phosphate by compositional spectroscopy analysis. Together, we visualized the cellular ultrastructure of p62 oligomers with high calcium content as a potential intermediate step of autophagy initiation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "101118656",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.10.15.618463"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.15.618463"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR924578"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR924578&type=FILE&fileName=EMS199463-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41315362",
+            "reference": "Nature communications. 2025 Nov;16(1):10810",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199463",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-10-17",
+      "firstPublicationDate": "2024-10-15",
+      "firstIndexDate": "2024-10-17",
+      "fullTextReceivedDate": "2024-12-16",
+      "hasEvaluations": "N"
+    }
+  }
+}

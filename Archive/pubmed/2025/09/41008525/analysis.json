@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41008525",
+  "title": "Implicit Solvent Models and Their Applications in Biophysics.",
+  "authors": "Severoglu, Yusuf Bugra; Yuksel, Betul; Sucu, Cagatay; Aral, Nese; Uversky, Vladimir N; Coskuner-Weber, Orkid",
+  "journal": "Biomolecules",
+  "published_date": "2025-09-27",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文综述隐式溶剂模型在生物物理中的应用，涵盖AI增强与量子连续介质方法，并涉及无序蛋白应用，但缺乏对PPI互作机制建模的实质聚焦。",
+  "abstract": "Solvents represent the quiet majority in biomolecular systems, yet modeling their influence with both speed and ri:gor remains a central challenge. This study maps the state of the art in implicit solvent theory and practice, spanning classical continuum electrostatics (PB/GB; DelPhi, APBS), modern nonpolar and cavity/dispersion treatments, and quantum-continuum models (PCM, COSMO/COSMO-RS, SMx/SMD). We highlight where these methods excel and where they falter, namely, around ion specificity, heterogeneous interfaces, entropic effects, and parameter sensitivity. We then spotlight two fast-moving frontiers that raise both accuracy and throughput: machine learning-augmented approaches that serve as PB-accurate surrogates, learn solvent-averaged potentials for MD, or supply residual corrections to GB/PB baselines, and quantum-centric workflows that couple continuum solvation methods, such as IEF-PCM, to sampling on real quantum hardware, pointing toward realistic solution-phase electronic structures at emerging scales. Applications across protein-ligand binding, nucleic acids, and intrinsically disordered proteins illustrate how implicit models enable rapid hypothesis testing, large design sweeps, and long-time sampling. Our perspective argues for hybridization as a best practice, meaning continuum cores refined by improved physics, such as multipolar water, ML correctors with uncertainty quantification and active learning, and quantum-continuum modules for chemically demanding steps.",
+  "abstract_zh": "溶剂在生物分子系统中占据着静默的大多数，然而以速度和严谨性兼具的方式模拟其影响仍是一项核心挑战。本研究描绘了隐式溶剂理论与实践的现状，涵盖经典连续介质静电学（PB/GB；DelPhi、APBS）、现代非极性和空腔/色散处理，以及量子-连续介质模型（PCM、COSMO/COSMO-RS、SMx/SMD）。我们指出了这些方法的优势所在及其不足之处，即围绕离子特异性、异质界面、熵效应和参数敏感性。随后，我们聚焦于两个快速发展的前沿领域，它们同时提升了准确性和吞吐量：机器学习增强方法，作为PB精度的替代模型，为分子动力学学习溶剂平均势，或为GB/PB基线提供残差校正；以及量子中心工作流，将连续介质溶剂化方法（如IEF-PCM）与真实量子硬件上的采样相结合，指向新兴规模下现实溶液相电子结构。跨蛋白质-配体结合、核酸和 intrinsically disordered proteins（固有无序蛋白）的应用展示了隐式模型如何实现快速假设检验、大规模设计扫描和长时间采样。我们的观点主张将混合方法作为最佳实践，即通过改进物理机制（如多极水模型）、带有不确定性量化和主动学习的机器学习校正器，以及针对化学要求苛刻步骤的量子-连续介质模块来精炼连续介质核心。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41008525/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41008525/",
+  "paper_page_path": "papers/pubmed/41008525/index.html"
+}

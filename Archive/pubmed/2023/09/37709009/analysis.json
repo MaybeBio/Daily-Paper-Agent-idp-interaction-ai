@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37709009",
+  "title": "CoMemMoRFPred: Sequence-based Prediction of MemMoRFs by Combining Predictors of Intrinsic Disorder, MoRFs and Disordered Lipid-binding Regions.",
+  "authors": "Basu, Sushmita; Hegedus, Tamas; Kurgan, Lukasz",
+  "journal": "Journal of molecular biology",
+  "published_date": "2023-09-15",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发了基于序列的MemMoRF预测器，组合无序、MoRF和脂质结合预测工具，虽涉及IDR和结合区域预测，但聚焦膜结合而非PPI机制建模，方法为工具集成而非AI/物理模拟，故评6分。",
+  "abstract": "Molecular recognition features (MoRFs) are a commonly occurring type of intrinsically disordered regions (IDRs) that undergo disorder-to-order transition upon binding to partner molecules. We focus on recently characterized and functionally important membrane-binding MoRFs (MemMoRFs). Motivated by the lack of computational tools that predict MemMoRFs, we use a dataset of experimentally annotated MemMoRFs to conceptualize, design, evaluate and release an accurate sequence-based predictor. We rely on state-of-the-art tools that predict residues that possess key characteristics of MemMoRFs, such as intrinsic disorder, disorder-to-order transition and lipid-binding. We identify and combine results from three tools that include flDPnn for the disorder prediction, DisoLipPred for the prediction of disordered lipid-binding regions, and MoRFCHiBi(Light) for the prediction of disorder-to-order transitioning protein binding regions. Our empirical analysis demonstrates that combining results produced by these three methods generates accurate predictions of MemMoRFs. We also show that use of a smoothing operator produces predictions that closely mimic the number and sizes of the native MemMoRF regions. The resulting CoMemMoRFPred method is available as an easy-to-use webserver at http://biomine.cs.vcu.edu/servers/CoMemMoRFPred. This tool will aid future studies of MemMoRFs in the context of exploring their abundance, cellular functions, and roles in pathologic phenomena.",
+  "abstract_zh": "分子识别特征（MoRFs）是 intrinsically disordered regions (IDRs) 中常见的一种类型，在与伙伴分子结合时经历从无序到有序的转变。我们聚焦于近期表征且功能重要的膜结合MoRFs（MemMoRFs）。鉴于缺乏预测MemMoRFs的计算工具，我们利用实验注释的MemMoRFs数据集来构思、设计、评估并发布一个准确的基于序列的预测器。我们依赖最先进的工具来预测具有MemMoRFs关键特征的残基，如内在无序性、无序到有序转变及脂质结合。我们识别并整合了三种工具的结果，包括用于无序预测的flDPnn、用于预测无序脂质结合区域的DisoLipPred，以及用于预测无序到有序转变蛋白结合区域的MoRFCHiBi(Light)。我们的实证分析表明，结合这三种方法产生的结果能生成对MemMoRFs的准确预测。我们还展示了使用平滑算子能产生与天然MemMoRF区域数量和大小高度相似的预测。由此得到的CoMemMoRFPred方法可作为易于使用的网络服务器访问，网址为http://biomine.cs.vcu.edu/servers/CoMemMoRFPred。该工具将有助于未来在探索MemMoRFs丰度、细胞功能及病理现象作用方面的研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37709009/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37709009/",
+  "paper_page_path": "papers/pubmed/37709009/index.html"
+}

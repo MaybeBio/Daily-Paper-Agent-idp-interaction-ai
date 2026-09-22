@@ -1,0 +1,387 @@
+{
+  "identity": {
+    "pmid": "37984447",
+    "doi": "10.1002/pro.4835",
+    "title": "Exploring protein-protein interactions and oligomerization state of pulmonary surfactant protein C (SP-C) through FRET and fluorescence self-quenching."
+  },
+  "content": {
+    "abstract": "Pulmonary surfactant (PS) is a lipid-protein complex that forms films reducing surface tension at the alveolar air-liquid interface. Surfactant protein C (SP-C) plays a key role in rearranging the lipids at the PS surface layers during breathing. The N-terminal segment of SP-C, a lipopeptide of 35 amino acids, contains two palmitoylated cysteines, which affect the stability and structure of the molecule. The C-terminal region comprises a transmembrane alpha-helix that contains a ALLMG motif, supposedly analogous to a well-studied dimerization motif in glycophorin A. Previous studies have demonstrated the potential interaction between SP-C molecules using approaches such as Bimolecular Complementation assays or computational simulations. In this work, the oligomerization state of SP-C in membrane systems has been studied using fluorescence spectroscopy techniques. We have performed self-quenching and FRET assays to analyze dimerization of native palmitoylated SP-C and a non-palmitoylated recombinant version of SP-C (rSP-C) using fluorescently labeled versions of either protein reconstituted in different lipid systems mimicking pulmonary surfactant environments. Our results reveal that doubly palmitoylated native SP-C remains primarily monomeric. In contrast, non-palmitoylated recombinant SP-C exhibits dimerization, potentiated at high concentrations, especially in membranes with lipid phase separation. Therefore, palmitoylation could play a crucial role in stabilizing the monomeric alpha-helical conformation of SP-C. Depalmitoylation, high protein densities as a consequence of membrane compartmentalization, and other factors may all lead to the formation of protein dimers and higher-order oligomers, which could have functional implications under certain pathological conditions and contribute to membrane transformations associated with surfactant metabolism and alveolar homeostasis.",
+    "keywords": [
+      "FRET",
+      "oligomerization state",
+      "protein-protein interaction",
+      "pulmonary surfactant",
+      "self-quenching",
+      "surfactant protein C (SP-C)"
+    ],
+    "mesh_terms": [
+      "*Pulmonary Surfactant-Associated Protein C/chemistry/metabolism",
+      "*Pulmonary Surfactants/chemistry/metabolism",
+      "Fluorescence Resonance Energy Transfer",
+      "Lipids/chemistry",
+      "Surface-Active Agents"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Moran-Lalangui, Mishelle",
+        "Coutinho, Ana",
+        "Prieto, Manuel",
+        "Fedorov, Alexander",
+        "Perez-Gil, Jesus",
+        "Loura, Luis M S",
+        "Garcia-Alvarez, Begona"
+      ],
+      "short_names": [
+        "Moran-Lalangui M",
+        "Coutinho A",
+        "Prieto M",
+        "Fedorov A",
+        "Perez-Gil J",
+        "Loura LMS",
+        "Garcia-Alvarez B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3774-1999"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, Faculty of Biology, Complutense University, Madrid, Spain.",
+        "Research Institute \"Hospital 12 de Octubre (imas12)\", Madrid, Spain.",
+        "iBB Institute for Bioengineering and Bioscience, IST, Universidade de Lisboa, Lisbon, Portugal.",
+        "Associate Lab i4HB, Institute for Health and Bioeconomy at IST, Universidade de Lisboa, Lisbon, Portugal.",
+        "Department of Chemistry and Biochemistry, Faculty of Sciences, University of Lisbon, Lisbon, Portugal.",
+        "iBB Institute for Bioengineering and Bioscience, IST, Universidade de Lisboa, Lisbon, Portugal.",
+        "Associate Lab i4HB, Institute for Health and Bioeconomy at IST, Universidade de Lisboa, Lisbon, Portugal.",
+        "iBB Institute for Bioengineering and Bioscience, IST, Universidade de Lisboa, Lisbon, Portugal.",
+        "Associate Lab i4HB, Institute for Health and Bioeconomy at IST, Universidade de Lisboa, Lisbon, Portugal.",
+        "Department of Biochemistry and Molecular Biology, Faculty of Biology, Complutense University, Madrid, Spain.",
+        "Research Institute \"Hospital 12 de Octubre (imas12)\", Madrid, Spain.",
+        "Department of Chemistry, Coimbra Chemistry Centre, Institute of Molecular Sciences (CQC-IMS), University of Coimbra, Coimbra, Portugal.",
+        "CNC Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal.",
+        "Faculty of Pharmacy, University of Coimbra, Coimbra, Portugal.",
+        "Department of Biochemistry and Molecular Biology, Faculty of Biology, Complutense University, Madrid, Spain.",
+        "Research Institute \"Hospital 12 de Octubre (imas12)\", Madrid, Spain.",
+        "Department of Biochemistry and Molecular Biology, Faculty of Chemistry, Complutense University, Madrid, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Morán-Lalangui, Mishelle",
+        "short_name": "Morán-Lalangui M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Faculty of Biology, Complutense University, Madrid, Spain.",
+          "Research Institute \"Hospital 12 de Octubre (imas12)\", Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Coutinho, Ana",
+        "short_name": "Coutinho A",
+        "identifiers": [],
+        "affiliations": [
+          "iBB Institute for Bioengineering and Bioscience, IST, Universidade de Lisboa, Lisbon, Portugal.",
+          "Associate Lab i4HB, Institute for Health and Bioeconomy at IST, Universidade de Lisboa, Lisbon, Portugal.",
+          "Department of Chemistry and Biochemistry, Faculty of Sciences, University of Lisbon, Lisbon, Portugal."
+        ]
+      },
+      {
+        "full_name": "Prieto, Manuel",
+        "short_name": "Prieto M",
+        "identifiers": [],
+        "affiliations": [
+          "iBB Institute for Bioengineering and Bioscience, IST, Universidade de Lisboa, Lisbon, Portugal.",
+          "Associate Lab i4HB, Institute for Health and Bioeconomy at IST, Universidade de Lisboa, Lisbon, Portugal."
+        ]
+      },
+      {
+        "full_name": "Fedorov, Alexander",
+        "short_name": "Fedorov A",
+        "identifiers": [],
+        "affiliations": [
+          "iBB Institute for Bioengineering and Bioscience, IST, Universidade de Lisboa, Lisbon, Portugal.",
+          "Associate Lab i4HB, Institute for Health and Bioeconomy at IST, Universidade de Lisboa, Lisbon, Portugal."
+        ]
+      },
+      {
+        "full_name": "Pérez-Gil, Jesús",
+        "short_name": "Pérez-Gil J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Faculty of Biology, Complutense University, Madrid, Spain.",
+          "Research Institute \"Hospital 12 de Octubre (imas12)\", Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Loura, Luís M S",
+        "short_name": "Loura LMS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Coimbra Chemistry Centre, Institute of Molecular Sciences (CQC-IMS), University of Coimbra, Coimbra, Portugal.",
+          "CNC Centre for Neuroscience and Cell Biology, University of Coimbra, Coimbra, Portugal.",
+          "Faculty of Pharmacy, University of Coimbra, Coimbra, Portugal."
+        ]
+      },
+      {
+        "full_name": "García-Álvarez, Begoña",
+        "short_name": "García-Álvarez B",
+        "identifiers": [
+          "0000-0003-3774-1999"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Faculty of Biology, Complutense University, Madrid, Spain.",
+          "Research Institute \"Hospital 12 de Octubre (imas12)\", Madrid, Spain.",
+          "Department of Biochemistry and Molecular Biology, Faculty of Chemistry, Complutense University, Madrid, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2024 Jan",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/11/21 01:07",
+    "fetched_at": "2026-09-21 02:59:59"
+  },
+  "links": {
+    "cites": [
+      "41776090"
+    ],
+    "refs": [
+      "36219221",
+      "35476695",
+      "34331286",
+      "33548215",
+      "32431623",
+      "31709235",
+      "29700110",
+      "28803543",
+      "27773772",
+      "27760357",
+      "26063509",
+      "25306965",
+      "25260665",
+      "23988571",
+      "23562404",
+      "22675254",
+      "22206628",
+      "22201752",
+      "21081071",
+      "20551227",
+      "20054141",
+      "19472327",
+      "19201825",
+      "18586101",
+      "16631109",
+      "16600200",
+      "15923228",
+      "15709974",
+      "15153098",
+      "15153097",
+      "14770296",
+      "14747324",
+      "14514353",
+      "14507706",
+      "14507705",
+      "13671378",
+      "12869615",
+      "12773323",
+      "12609896",
+      "12496149",
+      "12176392",
+      "12114016",
+      "11980896",
+      "11907042",
+      "11802797",
+      "11672440",
+      "11557581",
+      "11498036",
+      "11453699",
+      "11445799",
+      "10968210",
+      "10445627",
+      "9865947",
+      "9813310",
+      "9813304",
+      "9813251",
+      "9688929",
+      "9357864",
+      "8889159",
+      "8702584",
+      "8373758",
+      "8180229",
+      "8172887",
+      "8163685",
+      "7893740",
+      "7857973",
+      "7644495",
+      "5483450",
+      "3931673",
+      "1730226",
+      "1486663",
+      "364941"
+    ],
+    "similar": [
+      "37984447",
+      "25306965",
+      "18339301",
+      "29700110",
+      "35476695",
+      "16600200",
+      "16002041",
+      "12081487",
+      "11369537",
+      "10825440",
+      "23805757",
+      "22530695",
+      "19464999",
+      "12609896",
+      "36917773",
+      "10821681",
+      "15153098",
+      "21081071",
+      "11453699",
+      "11672440",
+      "18502795",
+      "40848588",
+      "32135191",
+      "32067963",
+      "33309854",
+      "33548215",
+      "40925447",
+      "28834721",
+      "7767391",
+      "12324430",
+      "12176392",
+      "14507705",
+      "21679160",
+      "12015304",
+      "8373758",
+      "15153097",
+      "9346948",
+      "25083348",
+      "39716564",
+      "9889385",
+      "16631109",
+      "17575474",
+      "23912807",
+      "16443648",
+      "11699574",
+      "7961971",
+      "19917227",
+      "9108235",
+      "17051367",
+      "10866963",
+      "16709565",
+      "8897904",
+      "15645307",
+      "23332067",
+      "9168039",
+      "38255268",
+      "11802797",
+      "15231828",
+      "12524286",
+      "8253811",
+      "9813304",
+      "40214202",
+      "30075031",
+      "21555131",
+      "31357031",
+      "27155084",
+      "11695915",
+      "8804608",
+      "26041777",
+      "8481387",
+      "16478467",
+      "15189869",
+      "12496149",
+      "8844855",
+      "8038386",
+      "19398273",
+      "30321577",
+      "20441770",
+      "41032308",
+      "21081077",
+      "18834153",
+      "9649332",
+      "11501758",
+      "8702584",
+      "12433871",
+      "10224161",
+      "14514353",
+      "22465066",
+      "8652189",
+      "12373069",
+      "26022805",
+      "31992800",
+      "26397014",
+      "10191270",
+      "7744069",
+      "23983120",
+      "11504713",
+      "20858421",
+      "18212010",
+      "11923286"
+    ],
+    "review": [
+      "37984447",
+      "16600200",
+      "11369537",
+      "12176392",
+      "17575474",
+      "11699574",
+      "9108235",
+      "9813304"
+    ],
+    "pmc": [
+      "10731621"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/37984447.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37984447/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37984447",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4835",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

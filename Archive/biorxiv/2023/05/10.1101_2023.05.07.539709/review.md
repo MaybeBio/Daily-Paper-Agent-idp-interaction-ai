@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, supplemental figure/video legends, and acknowledgments
+- **Assessment boundary** Scientific content, experimental logic, data interpretation, and technical soundness as presented in the provided text; no access to actual figures, videos, or raw data
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered kinetochore protein Spc105 (KNL1 orthologue) coordinates mechanical regulation of chromosome segregation by linking to dynein via BubR1 and the RZZ complex. They use an optogenetic oligomerization assay to show that a minimal region (aa 266-384) containing KI motifs is sufficient to recruit BubR1 and RZZ, and that deletion of this region reduces kinetochore recruitment and causes chromosome mis-segregation. They further propose that higher-order oligomerization of Spc105 via "sticky" IDRs is required for full RZZ recruitment and function.
+- **Visible evidence base** Text descriptions of results from optogenetic oligomerization assays, RNAi depletion experiments, 1,6-hexanediol treatments, immunofluorescence quantifications, live-cell imaging, and sequence analyses; figure and video legends referenced but not directly viewable
+- **Missing materials affecting confidence** Actual figures, supplemental figures, videos, raw quantification data, statistical test details, and full experimental replicates are not available for direct inspection
+
+## Reviewer
+- **Overall assessment** This manuscript presents a potentially interesting model linking Spc105 oligomerization to RZZ recruitment and dynein-mediated regulation of kinetochore-microtubule attachments. The optogenetic approach is creative and the identification of a minimal region sufficient for RZZ recruitment is a useful advance. However, several technical concerns and interpretive gaps need to be addressed before the central claims are fully established. The distinction between "core" and "coronal" RZZ pools, the quantitative basis for the oligomerization requirement, and the mechanistic link between oligomerization and function require stronger experimental support.
+- **Who would be interested in the results, and why** Researchers studying kinetochore biology, chromosome segregation, spindle assembly checkpoint, and dynein function. The work also has relevance to those interested in intrinsically disordered proteins and phase separation in cell division. The optogenetic approach may interest cell biologists developing tools to study protein function in mitosis.
+- **Major strengths** The use of an optogenetic oligomerization assay to bypass technical challenges of studying kinetochore proteins is innovative. The identification of a minimal region (266-384) sufficient for RZZ recruitment provides a tractable system for further dissection. The combination of live-cell imaging, RNAi depletion, and pharmacological disruption (1,6-HD) provides multiple lines of evidence. The authors are appropriately cautious about distinguishing direct versus indirect effects and acknowledge limitations in distinguishing oligomerization from simple clustering.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "deletion of the minimal region from Spc105 reduces recruitment of its binding partners to bioriented kinetochores and causes chromosome mis-segregation" and that this is due to loss of higher-order oligomerization.
+  - **Evidence pointer** Figure 3, Figure 5, text in Results section
+  - **Concern** The Δ266-384 deletion removes both the KI motifs and the predicted phase-separation regions. The authors attempt to separate these functions using chimeras with human KI motifs and FUS IDR, but the interpretation is complicated. The FUS-HsKI chimera rescues localization and segregation, but it is unclear whether this is due to restored oligomerization per se or simply to increased local concentration of KI motifs. The authors do not provide a quantitative measure of oligomerization state or stoichiometry in the chimeras. Without this, the claim that "higher-order multimerization" is specifically required remains under-supported.
+  - **Why it matters** The central mechanistic claim of the paper is that oligomerization, not just the presence of KI motifs, is required for RZZ recruitment. If the FUS-HsKI chimera simply provides more binding sites without forming defined oligomers, the conclusion would be different.
+  - **Resolution test** Provide direct evidence of oligomerization state for WT Spc105, Δ266-384, HsKI, and FUS-HsKI constructs (e.g., FRAP, sedimentation, or single-molecule counting). Alternatively, use a non-oligomerizing but multivalent scaffold (e.g., a tandem array of KI motifs without IDR) to test whether valency alone is sufficient.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that "core pools of the checkpoint protein BubR1 and the adaptor complex RZZ mediate the connection of Spc105 to dynein" and that BubR1 bridges Spc105 to RZZ.
+  - **Evidence pointer** Figure 2, Figure 3, text in Results section
+  - **Concern** The evidence for the bridging model relies on co-localization in oligomerized clusters and on the observation that BubR1 depletion reduces RZZ at kinetochores. However, the authors do not demonstrate a direct physical interaction between Spc105, BubR1, and RZZ components. The co-localization in clusters could be indirect or due to shared localization in a common phase. The claim that BubR1 "bridges" implies a specific architecture that is not directly tested.
+  - **Why it matters** The proposed molecular architecture is central to the model. If the interaction is indirect or if RZZ binds Spc105 independently of BubR1, the model would need revision.
+  - **Resolution test** Perform biochemical binding assays (e.g., pull-downs or in vitro binding with purified components) to demonstrate direct interactions. Alternatively, use a rapamycin-induced heterodimerization system to test whether forced proximity of Spc105 and RZZ bypasses the BubR1 requirement.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive clarity
+  - **Claim pointer** The authors propose that "kMT attachment stability is also actively being modulated by a core pool of RZZ throughout mitosis - even at bioriented kinetochores" and that this is distinct from the coronal pool.
+  - **Evidence pointer** Figure 3, Figure 4, Discussion section
+  - **Concern** The distinction between "core" and "coronal" RZZ pools is not clearly defined experimentally. The authors show that 1,6-HD removes RZZ from kinetochores, but they do not demonstrate that this specifically affects a "core" pool versus the previously described coronal pool. The relationship between the RZZ pool described here and the well-characterized coronal RZZ is unclear.
+  - **Why it matters** The field has a substantial literature on RZZ function at unattached kinetochores. If the authors are proposing a new function at bioriented kinetochores, they need to clearly distinguish this from prior work and demonstrate that the pool they are studying is functionally distinct.
+  - **Resolution test** Directly compare the localization and dynamics of RZZ at bioriented versus unattached kinetochores. Use fluorescence recovery after photobleaching (FRAP) or single-molecule tracking to compare the behavior of the two pools. Test whether the 1,6-HD-sensitive pool is the same as the coronal pool by examining markers of the latter.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 2
+  - **Evidence pointer** Figure 2C, text in Results section
+  - **Issue** The authors note that N-terminally tagged Bub1 was not recruited to 266-384 oligomers, which they attribute to tag interference. This is plausible but should be verified with an alternative tagging strategy or a binding assay.
+  - **Required correction** Provide data with a C-terminal tag or an untagged version to confirm that the lack of recruitment is due to tag position and not to a genuine lack of interaction.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Figure 3, Figure 4
+  - **Evidence pointer** Figure legends, Statistical analyses section
+  - **Issue** The statistical methods are described only briefly. The authors mention Student's t-tests and a randomization method, but it is unclear which tests were used for which comparisons and whether multiple testing corrections were applied.
+  - **Required correction** Provide a detailed statistical analysis section specifying the test used for each comparison, the number of replicates, and whether corrections for multiple comparisons were applied.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Figure 4
+  - **Evidence pointer** Figure 4B, text in Results section
+  - **Issue** The authors report that oligomerization occurred more readily in cells expressing Spc105 fragments than in controls, and that expression levels differed. However, they do not report the range of expression levels tested or the threshold for oligomerization.
+  - **Required correction** Provide a plot of oligomerization frequency versus expression level for each construct, with the threshold for oligomerization clearly indicated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretive caution
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion, last paragraph
+  - **Issue** The speculation about tension sensing via Spc105 "unraveling" is interesting but not directly supported by data in this manuscript. It should be clearly labeled as speculation.
+  - **Required correction** Move this speculation to a clearly marked "future directions" or "speculation" paragraph, and avoid implying it is supported by the current data.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The lack of direct biochemical evidence for the proposed bridging mechanism and the inability to distinguish oligomerization from simple clustering are the most significant gaps. The distinction between core and coronal RZZ pools also needs experimental support.
+- **Assessment against Nature-style criteria** Originality: The optogenetic approach and the focus on IDP-mediated oligomerization in kinetochore function are original. Scientific importance: The work addresses a poorly understood pathway and could have implications for understanding chromosome segregation errors. Interdisciplinary readership: The topic is of interest to cell biologists, biochemists, and biophysicists, though the technical detail may limit broader appeal. Technical soundness: The experiments are generally well-designed, but the key mechanistic claims require additional support as noted above. Readability for nonspecialists: The manuscript is clearly written, but the specialized terminology and complex experimental logic may be challenging for readers outside the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observations are interesting and the approach is innovative, but the central mechanistic claims require additional experimental support before the case is fully established.

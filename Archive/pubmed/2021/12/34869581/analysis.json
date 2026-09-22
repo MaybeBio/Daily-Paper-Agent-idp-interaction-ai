@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34869581",
+  "title": "An Unbound Proline-Rich Signaling Peptide Frequently Samples Cis Conformations in Gaussian Accelerated Molecular Dynamics Simulations.",
+  "authors": "Alcantara, Juan; Stix, Robyn; Huang, Katherine; Connor, Acadia; East, Ray; Jaramillo-Martinez, Valeria; Stollar, Elliott J; Ball, K Aurelia",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2021-12-07",
+  "window": {
+    "start": "2021-12-06",
+    "end": "2021-12-12"
+  },
+  "score": 8,
+  "one_liner_zh": "用高斯加速分子动力学模拟富含脯氨酸的无序肽段中脯氨酸顺反异构化，揭示顺式构象对无序肽段构象系综及SH3结合能力的影响，为无序蛋白互作机制建模提供了可迁移的增强采样方法。",
+  "abstract": "Disordered proline-rich motifs are common across the proteomes of many species and are often involved in protein-protein interactions. Proline is a unique amino acid due to the covalent bond between the backbone nitrogen and the proline side chain. The resulting five-membered ring allows proline to sample the cis state about its peptide bond, which other residues cannot do as readily. Because proline-rich disordered sequences exist as ensembles that likely include structures with the proline peptide bond in cis, a robust methodology to accurately account for these conformations in the overall ensemble is crucial. Observing the cis conformations of proline in a disordered sequence is challenging both experimentally and computationally. Nitrogen-hydrogen NMR spectroscopy cannot directly observe proline residues, which lack an amide bond, and computational methods struggle to overcome the large kinetic barrier between the cis and trans states, since isomerization usually occurs on the order of seconds. In the current work, Gaussian accelerated molecular dynamics was used to overcome this free energy barrier and simulate proline isomerization in a tetrapeptide (KPTP) and in the 12-residue proline-rich SH3 binding peptide, ArkA. We found that Gaussian accelerated molecular dynamics, when combined with a lowered peptide bond dihedral angle potential energy barrier (15 kcal/mol), allowed sufficient sampling of the proline cis and trans states on a microsecond timescale. All ArkA prolines spend a significant fraction of time in cis, leading to a more compact ensemble with less polyproline II helix structure than an ArkA ensemble with all peptide bonds in trans. The ensemble containing cis prolines also matches more closely to in vitro circular dichroism data than the all-trans ensemble. The ability of the ArkA prolines to isomerize likely affects the peptide's ability to bind its partner SH3 domain, and should be studied further. This is the first molecular dynamics simulation study of proline isomerization in a biologically relevant proline-rich sequence that we know of, and a similar protocol could be applied to study multi-proline isomerization in other proline-containing proteins to improve conformational diversity and agreement with in vitro data.",
+  "abstract_zh": "无序的脯氨酸富集基序在许多物种的蛋白质组中普遍存在，并常参与蛋白质-蛋白质相互作用。脯氨酸是一种独特的氨基酸，因为其骨架氮与脯氨酸侧链之间存在共价键。由此形成的五元环使脯氨酸能够在其肽键处采样顺式状态，而其他残基则难以如此轻易地实现。由于富含脯氨酸的无序序列以构象集合形式存在，其中可能包含脯氨酸肽键处于顺式的结构，因此，一种能够准确考虑这些构象在整体集合中贡献的稳健方法至关重要。在无序序列中观察脯氨酸的顺式构象在实验和计算上均具挑战性。氮-氢核磁共振波谱无法直接观察缺乏酰胺键的脯氨酸残基，而计算方法则难以克服顺式和反式状态之间的大动力学能垒，因为异构化通常发生在秒量级。在本研究中，采用高斯加速分子动力学 (Gaussian accelerated molecular dynamics) 来克服这一自由能能垒，并在四肽 (KPTP) 及12残基富含脯氨酸的SH3结合肽ArkA中模拟脯氨酸异构化。我们发现，高斯加速分子动力学与降低的肽键二面角势能垒（15 kcal/mol）相结合，能够在微秒时间尺度上充分采样脯氨酸的顺式和反式状态。所有ArkA脯氨酸在顺式状态下花费了显著的时间比例，导致构象集合更紧凑，且多脯氨酸II螺旋结构少于所有肽键均为反式的ArkA集合。包含顺式脯氨酸的集合也比全反式集合更接近体外圆二色光谱数据。ArkA脯氨酸的异构化能力可能影响该肽与其伙伴SH3结构域结合的能力，应进一步研究。据我们所知，这是首次在生物学相关的富含脯氨酸序列中对脯氨酸异构化进行分子动力学模拟研究，类似方案可应用于其他含脯氨酸蛋白中的多脯氨酸异构化研究，以增强构象多样性并与体外数据更好吻合。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34869581/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34869581/",
+  "paper_page_path": "papers/pubmed/34869581/index.html"
+}

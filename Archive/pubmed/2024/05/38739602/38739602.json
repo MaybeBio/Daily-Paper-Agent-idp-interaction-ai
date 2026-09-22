@@ -1,0 +1,371 @@
+{
+  "identity": {
+    "pmid": "38739602",
+    "doi": "10.1371/journal.pone.0301866",
+    "title": "AlphaFold2 modeling and molecular dynamics simulations of an intrinsically disordered protein."
+  },
+  "content": {
+    "abstract": "We use AlphaFold2 (AF2) to model the monomer and dimer structures of an intrinsically disordered protein (IDP), Nvjp-1, assisted by molecular dynamics (MD) simulations. We observe relatively rigid dimeric structures of Nvjp-1 when compared with the monomer structures. We suggest that protein conformations from multiple AF2 models and those from MD trajectories exhibit a coherent trend: the conformations of an IDP are deviated from each other and the conformations of a well-folded protein are consistent with each other. We use a residue-residue interaction network (RIN) derived from the contact map which show that the residue-residue interactions in Nvjp-1 are mainly transient; however, those in a well-folded protein are mainly persistent. Despite the variation in 3D shapes, we show that the AF2 models of both disordered and ordered proteins exhibit highly consistent profiles of the pLDDT (predicted local distance difference test) scores. These results indicate a potential protocol to justify the IDPs based on multiple AF2 models and MD simulations.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Conformation",
+      "Protein Folding",
+      "Protein Multimerization"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Guo, Hao-Bo",
+        "Huntington, Baxter",
+        "Perminov, Alexander",
+        "Smith, Kenya",
+        "Hastings, Nicholas",
+        "Dennis, Patrick",
+        "Kelley-Loughnane, Nancy",
+        "Berry, Rajiv"
+      ],
+      "short_names": [
+        "Guo HB",
+        "Huntington B",
+        "Perminov A",
+        "Smith K",
+        "Hastings N",
+        "Dennis P",
+        "Kelley-Loughnane N",
+        "Berry R"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1321-1758",
+        "ORCID: 0009-0002-4234-9019"
+      ],
+      "affiliations": [
+        "Material and Manufacturing Directorate, Air Force Research Laboratory, WPAFB, Mason, OH, United States of America.",
+        "UES Inc., Dayton, OH, United States of America.",
+        "Material and Manufacturing Directorate, Air Force Research Laboratory, WPAFB, Mason, OH, United States of America.",
+        "Miami University, Oxford, OH, United States of America.",
+        "Material and Manufacturing Directorate, Air Force Research Laboratory, WPAFB, Mason, OH, United States of America.",
+        "Miami University, Oxford, OH, United States of America.",
+        "United States Air Force Academy, Colorado Springs, CO, United States of America.",
+        "United States Air Force Academy, Colorado Springs, CO, United States of America.",
+        "Material and Manufacturing Directorate, Air Force Research Laboratory, WPAFB, Mason, OH, United States of America.",
+        "Material and Manufacturing Directorate, Air Force Research Laboratory, WPAFB, Mason, OH, United States of America.",
+        "Material and Manufacturing Directorate, Air Force Research Laboratory, WPAFB, Mason, OH, United States of America."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Guo, Hao-Bo",
+        "short_name": "Guo HB",
+        "identifiers": [
+          "0000-0003-1321-1758"
+        ],
+        "affiliations": [
+          "Material and Manufacturing Directorate, Air Force Research Laboratory, WPAFB, Mason, OH, United States of America.",
+          "UES Inc., Dayton, OH, United States of America."
+        ]
+      },
+      {
+        "full_name": "Huntington, Baxter",
+        "short_name": "Huntington B",
+        "identifiers": [
+          "0009-0002-4234-9019"
+        ],
+        "affiliations": [
+          "Material and Manufacturing Directorate, Air Force Research Laboratory, WPAFB, Mason, OH, United States of America.",
+          "Miami University, Oxford, OH, United States of America."
+        ]
+      },
+      {
+        "full_name": "Perminov, Alexander",
+        "short_name": "Perminov A",
+        "identifiers": [],
+        "affiliations": [
+          "Material and Manufacturing Directorate, Air Force Research Laboratory, WPAFB, Mason, OH, United States of America.",
+          "Miami University, Oxford, OH, United States of America."
+        ]
+      },
+      {
+        "full_name": "Smith, Kenya",
+        "short_name": "Smith K",
+        "identifiers": [],
+        "affiliations": [
+          "United States Air Force Academy, Colorado Springs, CO, United States of America."
+        ]
+      },
+      {
+        "full_name": "Hastings, Nicholas",
+        "short_name": "Hastings N",
+        "identifiers": [],
+        "affiliations": [
+          "United States Air Force Academy, Colorado Springs, CO, United States of America."
+        ]
+      },
+      {
+        "full_name": "Dennis, Patrick",
+        "short_name": "Dennis P",
+        "identifiers": [],
+        "affiliations": [
+          "Material and Manufacturing Directorate, Air Force Research Laboratory, WPAFB, Mason, OH, United States of America."
+        ]
+      },
+      {
+        "full_name": "Kelley-Loughnane, Nancy",
+        "short_name": "Kelley-Loughnane N",
+        "identifiers": [],
+        "affiliations": [
+          "Material and Manufacturing Directorate, Air Force Research Laboratory, WPAFB, Mason, OH, United States of America."
+        ]
+      },
+      {
+        "full_name": "Berry, Rajiv",
+        "short_name": "Berry R",
+        "identifiers": [],
+        "affiliations": [
+          "Material and Manufacturing Directorate, Air Force Research Laboratory, WPAFB, Mason, OH, United States of America."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/05/13 18:46",
+    "fetched_at": "2026-09-21 07:11:04"
+  },
+  "links": {
+    "cites": [
+      "42074202",
+      "41557786",
+      "40872749",
+      "40753112",
+      "40512801",
+      "40496891",
+      "40131945",
+      "39697677"
+    ],
+    "refs": [
+      "37956700",
+      "36906658",
+      "36192636",
+      "36006408",
+      "35739160",
+      "35562983",
+      "35367597",
+      "35017726",
+      "34850135",
+      "34791371",
+      "34668287",
+      "34642488",
+      "34607199",
+      "34599769",
+      "34308370",
+      "34293799",
+      "34282049",
+      "34265844",
+      "34218458",
+      "34048569",
+      "33875888",
+      "33875885",
+      "33623120",
+      "33267305",
+      "33170209",
+      "32752662",
+      "32734663",
+      "31531901",
+      "31303975",
+      "30165014",
+      "29860432",
+      "29394379",
+      "28516007",
+      "28232895",
+      "28225081",
+      "28165707",
+      "27819658",
+      "26851286",
+      "26402567",
+      "25531225",
+      "24733918",
+      "23553817",
+      "23361309",
+      "21530234",
+      "20100603",
+      "19443443",
+      "18498188",
+      "16618368",
+      "16222654",
+      "15849316",
+      "15751111",
+      "15718131",
+      "15549884",
+      "14734327",
+      "11910019",
+      "11025552",
+      "10550212",
+      "8749853",
+      "8744570",
+      "4124164"
+    ],
+    "similar": [
+      "38739602",
+      "35739160",
+      "39163306",
+      "35562983",
+      "33355572",
+      "30865832",
+      "34845619",
+      "29990433",
+      "32227937",
+      "25207671",
+      "38124369",
+      "36533639",
+      "34509724",
+      "30840442",
+      "25387963",
+      "39499823",
+      "31552948",
+      "32323533",
+      "24589355",
+      "40068541",
+      "40128232",
+      "40558039",
+      "38018910",
+      "30366362",
+      "41053403",
+      "40172236",
+      "31441158",
+      "32816485",
+      "36084124",
+      "32859072",
+      "32357776",
+      "36084347",
+      "39555603",
+      "41454828",
+      "28448138",
+      "34358545",
+      "34032235",
+      "28493424",
+      "31136713",
+      "30813315",
+      "37133846",
+      "38275091",
+      "29735687",
+      "26575776",
+      "37108059",
+      "24278008",
+      "37722056",
+      "38118365",
+      "30727987",
+      "40360271",
+      "31877033",
+      "37452752",
+      "40907012",
+      "38996889",
+      "35725761",
+      "38928405",
+      "31613621",
+      "33945530",
+      "32525675",
+      "37892124",
+      "41053908",
+      "29716994",
+      "36674958",
+      "38116756",
+      "30528464",
+      "30066087",
+      "37838830",
+      "41644540",
+      "39807013",
+      "34504009",
+      "31809054",
+      "29808548",
+      "25544254",
+      "36468450",
+      "33587794",
+      "30204435",
+      "41174305",
+      "31548393",
+      "33030249",
+      "34546059",
+      "42168213",
+      "30184304",
+      "28554553",
+      "26735936",
+      "25871264",
+      "30514761",
+      "33623120",
+      "39285530",
+      "29276882",
+      "34201262",
+      "27819658",
+      "39647695",
+      "21268115",
+      "30933517",
+      "39983022",
+      "33444020",
+      "32074499",
+      "34656328",
+      "29907037",
+      "32623047"
+    ],
+    "review": [
+      "38739602",
+      "33355572",
+      "38124369",
+      "30840442",
+      "40068541",
+      "31441158",
+      "39555603",
+      "34358545",
+      "38118365",
+      "30066087",
+      "25544254"
+    ],
+    "pmc": [
+      "11090348"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0301866",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38739602/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38739602",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "identity": {
+    "pmid": "39890724",
+    "doi": "10.1007/978-1-0716-4326-6_6",
+    "title": "Fluorescence Loss After Photoactivation (FLAPh): A Pulse-Chase Cellular Assay for Understanding Kinetics and Dynamics of Viral Inclusions."
+  },
+  "content": {
+    "abstract": "Influenza A virus (IAV) relies on host cellular machinery for replication. Upon infection, the eight genomic segments, independently packed as viral ribonucleoproteins (vRNPs), are released into the cytosol before nuclear import for viral replication. After nucleocytoplasmic transport, the resulting progeny vRNPs reach the cytosol, accumulating in highly mobile and dynamic viral inclusions that display liquid properties. Being sites postulated to support IAV genome assembly, the biophysical properties of IAV inclusions may be critical for function. In agreement, imposing liquid-to-solid transitions was demonstrated to impact viral replication negatively. Therefore, screening for host factors or compounds able to alter the material properties may provide the molecular basis for how influenza genomic complex forms as well as identify novel antivirals. Conventional techniques employed to investigate biomolecular condensates' material properties include fluorescence correlation spectroscopy, raster image correlation spectroscopy, single molecule or microrheology particle tracking, and Fluorescence Recovery After Photobleaching (FRAP). These approaches allow measuring molecular dynamics in systems that do not move very much. However, the analysis of highly mobile intracellular condensates, such as IAV inclusions, poses significant challenges as these structures not only constantly move within the cell but also exchange material, fusing, and dividing, rendering the quantitation of internal rearrangements and diffusion coefficients of molecules within condensates inaccurate. As an alternative, we opted for measuring the kinetics and the exchange of material between IAV inclusions using the Fluorescence Loss After Photoactivation (FLAPh) technique. It involves pulse photoactivation of individual or pools of viral inclusions in the cell, and chasing over time in photoactivated and non-photoactivated regions. This approach is suitable for quantifying the movement and spatial distribution of components within inclusions over time, enabling the determination of both the distance and speed from a specific cellular location. As a result, this method allows the quantification of decay profiles, half-lives, decay constant rate, and mobile and immobile fractions in viral inclusions. It, therefore, enables high throughput screenings for compounds or host factors that affect this dynamism and indirectly allows assessing the material properties of IAV inclusions.",
+    "keywords": [
+      "Biomolecular condensates",
+      "Dynamics",
+      "Fluorescence loss after photoactivation",
+      "Movement",
+      "Quantitative biology",
+      "States of matter"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Kinetics",
+      "*Influenza A virus/physiology",
+      "*Fluorescence Recovery After Photobleaching/methods",
+      "*Inclusion Bodies, Viral/metabolism",
+      "Virus Replication",
+      "Animals",
+      "Ribonucleoproteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Etibor, Temitope Akhigbe",
+        "Paixao, Tiago",
+        "Amorim, Maria Joao"
+      ],
+      "short_names": [
+        "Etibor TA",
+        "Paixao T",
+        "Amorim MJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciencia (IGC) - Fundacao Calouste Gulbenkian, Oeiras, Portugal.",
+        "Molecular Medicine Lab, Institute of Pharmaceutical Chemistry (IPW), ETH Zurich, Zurich, Switzerland.",
+        "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciencia (IGC) - Fundacao Calouste Gulbenkian, Oeiras, Portugal.",
+        "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciencia (IGC) - Fundacao Calouste Gulbenkian, Oeiras, Portugal. mjamorim@ucp.pt.",
+        "Cell Biology of Viral Infection Lab (CBV), Catolica Biomedical Research Centre (CBR), Catolica Medical School - Universidade Catolica Portuguesa, Lisbon, Portugal. mjamorim@ucp.pt."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Etibor, Temitope Akhigbe",
+        "short_name": "Etibor TA",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciência (IGC) - Fundação Calouste Gulbenkian, Oeiras, Portugal.",
+          "Molecular Medicine Lab, Institute of Pharmaceutical Chemistry (IPW), ETH Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Paixão, Tiago",
+        "short_name": "Paixão T",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciência (IGC) - Fundação Calouste Gulbenkian, Oeiras, Portugal."
+        ]
+      },
+      {
+        "full_name": "Amorim, Maria João",
+        "short_name": "Amorim MJ",
+        "identifiers": [],
+        "affiliations": [
+          "Cell Biology of Viral Infection Lab (CBV), Instituto Gulbenkian de Ciência (IGC) - Fundação Calouste Gulbenkian, Oeiras, Portugal. mjamorim@ucp.pt.",
+          "Cell Biology of Viral Infection Lab (CBV), Católica Biomedical Research Centre (CBR), Católica Medical School - Universidade Católica Portuguesa, Lisbon, Portugal. mjamorim@ucp.pt."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/02/01 20:42",
+    "fetched_at": "2026-09-21 15:11:46"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38061626",
+      "37983294",
+      "37670331",
+      "37040799",
+      "36876423",
+      "36709795",
+      "36483537",
+      "36272892",
+      "36227473",
+      "36067308",
+      "35993811",
+      "35974095",
+      "34648608",
+      "34234347",
+      "33970958",
+      "33782395",
+      "32562316",
+      "31703803",
+      "31597598",
+      "31540706",
+      "30967547",
+      "29901776",
+      "29065286",
+      "28225081",
+      "27554449",
+      "26651288",
+      "25288112",
+      "22114331",
+      "21525351",
+      "21307188",
+      "21030952",
+      "20357086",
+      "19955561",
+      "19169259",
+      "12228718"
+    ],
+    "similar": [
+      "39890724",
+      "37013374",
+      "23912807",
+      "37983294",
+      "26750153",
+      "30626642",
+      "40291420",
+      "38743367",
+      "30867298",
+      "25589657",
+      "41247244",
+      "42475469",
+      "24549844",
+      "30209172",
+      "42126233",
+      "35357801",
+      "37894933",
+      "31375591",
+      "41288076",
+      "40910953",
+      "30541828",
+      "33087462",
+      "25031336",
+      "40431683",
+      "41735514",
+      "30352935",
+      "34448455",
+      "30967547",
+      "25031340",
+      "40267083",
+      "35019720",
+      "25810542",
+      "36823664",
+      "34636323",
+      "24194536",
+      "40145735",
+      "23148417",
+      "34578359",
+      "28724771",
+      "24829357",
+      "42363877",
+      "26423941",
+      "39890723",
+      "40668844",
+      "34550771",
+      "35593869",
+      "42035421",
+      "36227474",
+      "35471490",
+      "42505341",
+      "30973879",
+      "35019712",
+      "41705853",
+      "42580188",
+      "41061927",
+      "37830751",
+      "41294327",
+      "27322310",
+      "39205291",
+      "40434105",
+      "24027309",
+      "17547769",
+      "30181255",
+      "30651364",
+      "24899174",
+      "22114331",
+      "41060012",
+      "28768860",
+      "34311580",
+      "34319782",
+      "39194247",
+      "40919898",
+      "35908311",
+      "35808232",
+      "41848315",
+      "26519303",
+      "42496117",
+      "33658346",
+      "34200781",
+      "41303479",
+      "35604143",
+      "28683318",
+      "41378109",
+      "37193064",
+      "39890725",
+      "30429226",
+      "41036852",
+      "36121891",
+      "19229188",
+      "40284974",
+      "29316722",
+      "39887213",
+      "36098511",
+      "28219018",
+      "41576158",
+      "32848003",
+      "26196128",
+      "30151580",
+      "35240312",
+      "15454466"
+    ],
+    "review": [
+      "39890724",
+      "40267083",
+      "35471490",
+      "42580188",
+      "27322310",
+      "35908311",
+      "34200781",
+      "41378109"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/978-1-0716-4326-6_6",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1360",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

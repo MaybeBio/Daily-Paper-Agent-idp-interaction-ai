@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, materials and methods, and conclusions.
+- **Assessment boundary** The scientific claims, methodology, data interpretation, and clinical relevance presented in the manuscript. This review does not assess editorial quality or journal fit beyond Nature-style criteria.
+- **Shared manuscript claim summary** The authors report two siblings with a Rothmund-Thomson-like phenotype, negative for RECQL4 mutations, who carry homozygous NUP98 variants (c.83G>A, p.Gly28Asp; c.2624A>C, p.Glu875Ala). They propose these variants as the likely genetic cause of the observed disorder, supported by molecular dynamics simulations suggesting altered conformational dynamics of the NUP98 FG domain.
+- **Visible evidence base** Clinical descriptions, WES and Sanger sequencing data, bioinformatic pathogenicity predictions, molecular dynamics simulations (RMSD, F-F distances, SASA, network graphs), and expression analysis of NUP98/NUP96 transcripts.
+- **Missing materials affecting confidence** Raw sequencing data, variant frequency tables, detailed bioinformatic prediction scores (Table S1), RNA expression quantification data, and full simulation parameters are not provided in the supplied text. No functional validation (e.g., cellular assays, protein interaction studies) is presented.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel observation of germline NUP98 variants in a clinical context not previously associated with this gene. The clinical documentation is thorough, and the genetic analysis appears methodologically sound. However, the causal link between the identified variants and the phenotype is supported only by in silico predictions and molecular dynamics simulations, which are exploratory rather than confirmatory. The absence of functional validation and the limited statistical power (two siblings) weaken the claim of a new Mendelian disorder. The manuscript is of interest to the rare disease and nucleoporin research communities, but the evidence does not yet establish a definitive genotype-phenotype correlation.
+- **Who would be interested in the results, and why** Researchers in rare genetic disorders, particularly those studying Rothmund-Thomson syndrome and related conditions, will find the clinical and genetic data relevant. The nucleoporin and nuclear pore complex research community will be interested in the proposed non-canonical functions of NUP98 and its potential role in developmental and aging phenotypes. Clinicians involved in genetic counseling for consanguineous families may also find the segregation data useful.
+- **Major strengths** The clinical phenotyping is detailed and well-documented, providing a clear picture of the affected individuals. The genetic approach, including WES and segregation analysis, is appropriate for identifying candidate variants in a consanguineous family. The molecular dynamics simulations are a thoughtful attempt to explore the potential functional impact of the variants, and the focus on the FG domain is biologically plausible given NUP98's known interactions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal evidence
+  - **Claim pointer** The manuscript claims that the identified NUP98 variants are the likely cause of the observed Rothmund-Thomson-like phenotype.
+  - **Evidence pointer** Section 2.2, Section 2.6, Discussion
+  - **Concern** The causal link is based solely on in silico predictions and molecular dynamics simulations. There is no functional validation demonstrating that the variants alter NUP98 function in a way that would lead to the observed phenotype. The simulations suggest conformational changes, but these are not linked to any measurable biological outcome.
+  - **Why it matters** Without functional evidence, the claim of a new Mendelian disorder is not established. The phenotype could be coincidental, especially given the small number of affected individuals and the lack of a second family or independent replication.
+  - **Resolution test** Provide functional data, such as cellular assays showing altered NUP98 localization, protein-protein interactions, or RNA binding, or demonstrate a phenotype in a model organism (e.g., zebrafish, mouse) carrying the equivalent mutation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical and genetic evidence
+  - **Claim pointer** The manuscript implies that the homozygous variants are pathogenic based on their presence in two affected siblings and absence in healthy family members.
+  - **Evidence pointer** Section 2.2, Table S1
+  - **Concern** The evidence is limited to a single family. The variants are rare, but their pathogenicity is not supported by segregation data from additional families or by functional studies. The bioinformatic predictions are suggestive but not definitive, and the manuscript does not provide a comprehensive assessment of all potential candidate variants from the WES data.
+  - **Why it matters** In rare disease genetics, a single family is often insufficient to establish causality, especially when the phenotype is variable and the gene has not been previously linked to a Mendelian disorder. The possibility of a benign rare variant or a complex genetic etiology cannot be excluded.
+  - **Resolution test** Identify additional families with similar phenotypes and NUP98 variants, or provide functional evidence that the variants disrupt known NUP98 functions in a way that is consistent with the phenotype.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor of simulations
+  - **Claim pointer** The molecular dynamics simulations are used to support the claim that the G28D variant alters the conformational dynamics of the NUP98 FG domain.
+  - **Evidence pointer** Section 2.6, Figures 3-7, Section 4.10
+  - **Concern** The simulations were performed in gas phase, which is a significant limitation. The absence of a solvent model may not accurately reflect the behavior of an intrinsically disordered region in a physiological environment. Additionally, the choice of a fully extended starting conformation may bias the results.
+  - **Why it matters** The conclusions drawn from the simulations are central to the proposed mechanism of pathogenicity. If the simulations are not representative of the in vivo behavior of the protein, the interpretation of the variant's effect is unreliable.
+  - **Resolution test** Repeat simulations with explicit solvent and a more realistic starting ensemble (e.g., from a conformational sampling method). Validate the findings with experimental techniques such as circular dichroism or nuclear magnetic resonance spectroscopy on the recombinant FG domain.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Table S1
+  - **Evidence pointer** Section 2.2
+  - **Issue** The bioinformatic prediction scores are referenced but not shown in the main text. The reader cannot assess the strength of the predictions without this data.
+  - **Required correction** Include a summary of the prediction scores in the main text or ensure the supplementary table is accessible and clearly described.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clinical interpretation
+  - **Affected element** Section 2.1, Table 1
+  - **Evidence pointer** Section 2.1
+  - **Issue** The clinical features are described as reminiscent of Rothmund-Thomson syndrome, but the overlap is partial. The manuscript would benefit from a more explicit comparison of the siblings' features to the diagnostic criteria for RTS1 and RTS2.
+  - **Required correction** Add a table or paragraph systematically comparing the observed features to the typical presentations of RTS1 and RTS2, highlighting similarities and differences.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Section 3
+  - **Concern** The discussion of NUP98's role in aging and gene regulation is interesting but somewhat speculative. The link between the proposed conformational changes and the specific clinical features is not fully developed.
+  - **Required correction** Strengthen the discussion by citing more direct evidence for NUP98's involvement in the pathways mentioned (e.g., chromatin regulation, DNA repair) and how the variants might specifically disrupt these processes.
+- **Technical failings that need to be addressed before the case is established** The lack of functional validation is the primary technical failing. The molecular dynamics simulations, while informative, are not sufficient to establish pathogenicity. Additionally, the manuscript does not provide a comprehensive analysis of all WES variants, which is necessary to rule out other potential causes.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The observation of germline NUP98 variants in a Rothmund-Thomson-like phenotype is novel and adds to the expanding list of nucleoporin-associated disorders.  
+  - **Scientific importance** If confirmed, this finding would expand the phenotypic spectrum of NUP98-related diseases and highlight the role of nucleoporins in developmental and aging processes. However, the current evidence is insufficient to establish this with confidence.  
+  - **Interdisciplinary readership** The topic bridges clinical genetics, molecular biology, and computational biology, which could appeal to a broad audience.  
+  - **Technical soundness** The genetic analysis is sound, but the computational methods have limitations (gas-phase simulations) and lack experimental validation.  
+  - **Readability for nonspecialists** The manuscript is generally well-written and accessible, though some sections (e.g., molecular dynamics details) may be challenging for non-experts.  
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis but lacks the functional data needed to support the claim of a new Mendelian disorder. I would be supportive if the authors provide experimental validation of the variant's effect on NUP98 function and strengthen the genetic evidence.
+
+## Risk / unsupported claims
+- The claim that the NUP98 variants are the cause of the observed phenotype is unsupported by functional evidence.
+- The assertion that the G28D variant leads to a specific conformational change that impairs NUP98 function is based on simulations with limited methodological rigor and no experimental confirmation.
+- The suggestion that the clinical features are due to dysregulated gene networks is speculative and not directly tested.
+- The statement that the NUP98-related disorder is a distinct entity is not supported by data from additional families or independent replication.

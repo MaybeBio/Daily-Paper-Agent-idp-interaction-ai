@@ -1,0 +1,361 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.04.16.589709",
+  "title": "Tandem-repeat proteins introduce tuneable properties to engineered biomolecular condensates",
+  "doi": "10.1101/2024.04.16.589709",
+  "abstract": "The cell’s ability to rapidly partition biomolecules into biomolecular condensates is linked to a diverse range of cellular functions. Understanding how the structural attributes of biomolecular condensates are linked with their biological roles can be facilitated by the development synthetic condensate systems that can be manipulated in a controllable and predictable way. Here, we design and characterise a tuneable synthetic biomolecular condensate platform fusing modular consensus-designed tetratricopeptide repeat (CTPR) proteins to intrinsically-disordered domains. Trends between the CTPR structural attributes and condensate propensity were recapitulated across different experimental conditions and by in silico modelling, demonstrating that the CTPR domain can systematically affect the condensates in a predictable manner. Moreover, we show that incorporating short binding motifs into the CTPR domain results in specific target-protein recruitment into the condensates. Our model system can be rationally designed in a versatile manner to both tune condensate propensity and endow the condensates with new functions.",
+  "authors": [
+    "Chris Ng TL",
+    "Hoare MP",
+    "Maristany MJ",
+    "Wilde EJ",
+    "Sneideris T",
+    "Huertas J",
+    "Agbetiameh BK",
+    "Furukawa M",
+    "Joseph JA",
+    "Knowles TP",
+    "Collepardo-Guevara R",
+    "Itzhaki LS",
+    "Kumita JR"
+  ],
+  "published_date": "2024-04-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.04.16.589709",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.04.16.589709.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR841082",
+    "raw_record": {
+      "id": "PPR841082",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR841082"
+        ]
+      },
+      "doi": "10.1101/2024.04.16.589709",
+      "title": "Tandem-repeat proteins introduce tuneable properties to engineered biomolecular condensates",
+      "authorString": "Chris Ng TL, Hoare MP, Maristany MJ, Wilde EJ, Sneideris T, Huertas J, Agbetiameh BK, Furukawa M, Joseph JA, Knowles TP, Collepardo-Guevara R, Itzhaki LS, Kumita JR.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chris Ng TL",
+            "lastName": "Chris Ng",
+            "firstName": "Tin Long",
+            "initials": "TL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4779-7646"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hoare MP",
+            "lastName": "Hoare",
+            "firstName": "Mateo",
+            "initials": "MP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Maristany MJ",
+            "lastName": "Maristany",
+            "firstName": "Julia",
+            "initials": "MJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wilde EJ",
+            "lastName": "Wilde",
+            "firstName": "Ellis",
+            "initials": "EJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9640-5947"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sneideris T",
+            "lastName": "Sneideris",
+            "firstName": "Tomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Huertas J",
+            "lastName": "Huertas",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2607-5214"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road , , ,"
+                },
+                {
+                  "affiliation": "Department of Genetics, , Downing Pl , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Agbetiameh BK",
+            "lastName": "Agbetiameh",
+            "firstName": "Belinda",
+            "initials": "BK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Furukawa M",
+            "lastName": "Furukawa",
+            "firstName": "Mona",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Joseph JA",
+            "lastName": "Joseph",
+            "firstName": "Jerelle",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4525-180X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical and Biological Engineering, , , , ,"
+                },
+                {
+                  "affiliation": "Omenn–Darling Bioengineering Institute, , , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Knowles TP",
+            "lastName": "Knowles",
+            "firstName": "Tuomas P.J.",
+            "initials": "TP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7879-0140"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Collepardo-Guevara R",
+            "lastName": "Collepardo-Guevara",
+            "firstName": "Rosana",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Yusuf Hamied Department of Chemistry, , Lensfield Road , , ,"
+                },
+                {
+                  "affiliation": "Department of Physics, , Cavendish Laboratory, , ,"
+                },
+                {
+                  "affiliation": "Department of Genetics, , Downing Pl , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Itzhaki LS",
+            "lastName": "Itzhaki",
+            "firstName": "Laura",
+            "initials": "LS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kumita JR",
+            "lastName": "Kumita",
+            "firstName": "Janet",
+            "initials": "JR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pharmacology, , Tennis Court Road , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7879-0140"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9640-5947"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2607-5214"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4525-180X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4779-7646"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The cell’s ability to rapidly partition biomolecules into biomolecular condensates is linked to a diverse range of cellular functions. Understanding how the structural attributes of biomolecular condensates are linked with their biological roles can be facilitated by the development synthetic condensate systems that can be manipulated in a controllable and predictable way. Here, we design and characterise a tuneable synthetic biomolecular condensate platform fusing modular consensus-designed tetratricopeptide repeat (CTPR) proteins to intrinsically-disordered domains. Trends between the CTPR structural attributes and condensate propensity were recapitulated across different experimental conditions and by  in silico modelling, demonstrating that the CTPR domain can systematically affect the condensates in a predictable manner. Moreover, we show that incorporating short binding motifs into the CTPR domain results in specific target-protein recruitment into the condensates. Our model system can be rationally designed in a versatile manner to both tune condensate propensity and endow the condensates with new functions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/04/20/2024.04.16.589709.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.04.16.589709"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR841082"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR841082&type=FILE&fileName=EMS195698-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40375868",
+            "reference": "Chemical science. 2025 Jun;16(23):10532-10548",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS195698",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-04-23",
+      "firstPublicationDate": "2024-04-20",
+      "firstIndexDate": "2024-04-23",
+      "fullTextReceivedDate": "2024-11-07",
+      "hasEvaluations": "N"
+    }
+  }
+}

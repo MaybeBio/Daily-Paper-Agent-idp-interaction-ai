@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Results, Discussion, Methods) for the manuscript by Swain et al., DOI 10.1038/s41467-024-53136-1.
+- **Assessment boundary** Scientific content, technical soundness, and support of claims based solely on the provided text. No external literature, supplementary figures, or source data were consulted.
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered region (IDR) of human eIF4B, particularly the DRYG-rich subregion, drives a dynamic self-association landscape. They report that this IDR transitions from monomers to large, dynamic oligomers and then to phase-separated condensates, with the C-terminal region (CTR) modulating the process. They integrate single-molecule FRET, NMR, coarse-grained simulations, and phase separation assays to support this model.
+- **Visible evidence base** Abstract; Introduction; Results sections on phase separation, secondary structure, smFRET conformational analysis, FCS oligomerization, smFRET oligomerization, RASP kinetics, and CG simulations; Discussion; Methods for protein expression, labeling, phase separation assays, NMR, smFRET, FCS, RASP, and simulations. Figures referenced: Figs. 1–7 and Supplementary Figs. 1–18 (titles only, contents not visible).
+- **Missing materials affecting confidence** Figure panels and all supplementary figures, tables, and movies; detailed experimental parameters for NMR assignments; raw FCS/smFRET fitting parameters; simulation force field details beyond citations; source data files. These omissions limit verification of quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and technically sophisticated investigation of eIF4B IDR self-association, combining multiple orthogonal biophysical methods. The central claim that the DRYG-rich region drives formation of large, dynamic oligomers that precede phase separation is well-motivated and largely supported by the described experiments. The integration of experiments and simulations is a strength. However, several technical concerns, particularly regarding the interpretation of smFRET data in the context of heterogeneous oligomers, the quantitative link between oligomerization and phase separation, and the biological relevance of the observed ionic strength dependence, require clarification before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying translation initiation, particularly the role of eIF4B and other intrinsically disordered translation factors. The work will also appeal to the broader community investigating phase separation and biomolecular condensates, especially those focused on the molecular mechanisms by which IDRs drive oligomerization and condensation. Methodologically, the combination of smFRET, FCS, RASP, and CG simulations will interest biophysicists studying disordered proteins.
+- **Major strengths** 1) The use of multiple orthogonal techniques (NMR, smFRET, FCS, RASP, EM, simulations) to cross-validate findings is exemplary. 2) The identification of the DRYG-rich region as a central driver of both oligomerization and phase separation, with the CTR as a modulator, provides a clear and testable model. 3) The demonstration that oligomers are disordered and dynamic, rather than static, is an important conceptual advance. 4) The quantitative comparison between experiments and simulations (e.g., transfer efficiencies) strengthens the conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Data interpretation
+  - **Claim pointer** The authors claim that the decrease in mean transfer efficiency upon oligomerization reflects an expansion of the disordered ensemble throughout the IDR (Results, "DRYG-CTR oligomers are disordered and dynamic complexes"; Fig. 5).
+  - **Evidence pointer** Results section "DRYG-CTR oligomers are disordered and dynamic complexes"; Fig. 5a–e; Supplementary Fig. 10.
+  - **Concern** The interpretation of the smFRET data in the oligomeric state is complicated by the presence of multiple species (monomers, small oligomers, large oligomers) and the possibility of inter-molecular FRET. The authors note that for the DRYG-CTRP213C-P332C construct, dye sticking and quenching prevented quantitative interpretation. However, for the other constructs, the shift to lower transfer efficiency is interpreted as an expansion of the IDR. An alternative explanation is that the lower transfer efficiency peak arises from inter-molecular FRET between a labeled protein and an unlabeled protein within the same oligomer, which would not necessarily report on intra-molecular distance. The authors should rule out this possibility, for example by using a mixture of donor-only and acceptor-only labeled proteins in the oligomerization assay, or by explicitly modeling inter-molecular FRET in their analysis.
+  - **Why it matters** The claim that the IDR expands upon oligomerization is a key part of the proposed model. If the observed FRET change is due to inter-molecular artifacts, the model of conformational reshaping would be unsupported.
+  - **Resolution test** Provide control experiments with mixed donor-only and acceptor-only labeled proteins to assess inter-molecular FRET contributions. Alternatively, use a model that explicitly accounts for both intra- and inter-molecular distances to fit the observed transfer efficiency distributions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness / Quantitative analysis
+  - **Claim pointer** The authors estimate oligomer sizes from FCS data, reporting apparent sizes of >10-mers and up to ~15-mers at low ionic strength (Results, "eIF4B IDR self-associates into large-size oligomers..."; Fig. 4c).
+  - **Evidence pointer** Results section "eIF4B IDR self-associates into large-size oligomers..."; Fig. 4c; Methods section "Fluorescence correlation spectroscopy (FCS) measurements".
+  - **Concern** The conversion of diffusion times to oligomer sizes relies on the relationship D/D0 = 1/(N·c)^(1/3), where c is a factor accounting for a ~15% increase in the CTR radius of gyration upon oligomerization. This factor appears to be derived from simulations (Supplementary Fig. 18), but the text does not describe how this factor was validated against experimental data. The assumption that the DRYG-rich region does not change dimensions upon oligomerization is also stated without justification. Given that the DRYG-rich region is proposed to be the core of the oligomer, this assumption may not be valid. The estimated oligomer sizes are therefore model-dependent and may have large systematic uncertainties.
+  - **Why it matters** The quantitative claim of "large-size oligomers" (e.g., >10-mers) is a central finding. If the size estimates are not robust, the distinction between small oligomers and large oligomers, and the proposed pathway to phase separation, is weakened.
+  - **Resolution test** Provide a more detailed validation of the size estimation method, including error analysis and a discussion of the sensitivity of the results to the assumptions made. Ideally, use an orthogonal method (e.g., mass photometry or analytical ultracentrifugation) to confirm the oligomer sizes.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance / Biological relevance
+  - **Claim pointer** The authors suggest that the ionic strength dependence of oligomerization and phase separation may be relevant to cellular regulation, and that phosphorylation of the CTR could modulate self-association (Discussion).
+  - **Evidence pointer** Discussion section, paragraphs 3 and 4.
+  - **Concern** The connection between the in vitro observations and potential cellular relevance is speculative. While the authors note that the phase diagram is positioned near physiological conditions in the presence of a crowding agent (Fig. 7e), no experiments are performed to test the effect of phosphorylation or other post-translational modifications on the self-association landscape. The claim that "phosphorylation... may have a strong impact" is not directly supported by any data in this manuscript.
+  - **Why it matters** The broader significance of the work for understanding eIF4B function in cells depends on whether the observed self-association behavior is physiologically relevant. Without direct evidence, this remains an untested hypothesis.
+  - **Resolution test** Perform experiments with phosphomimetic or phosphodead mutants of the CTR to test the effect on oligomerization and phase separation. Alternatively, temper the claims in the Discussion to clearly distinguish speculation from experimentally supported conclusions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity / Reproducibility
+  - **Affected element** Methods, "Coarse-grained Langevin dynamics simulations"
+  - **Evidence pointer** Methods section "Coarse-grained Langevin dynamics simulations".
+  - **Issue** The description of the CG simulation model is brief. The text states that CALVADOS2 was used, but does not specify the exact parameters, the number of replicates beyond "triplicates," or the criteria for equilibration beyond discarding the first microsecond. This level of detail may be insufficient for reproduction.
+  - **Required correction** Provide a more detailed description of the simulation setup, including the specific CALVADOS2 parameters, the system size, the length of the simulations, and the convergence criteria.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Results, "DRYG-CTR undergoes homotypic phase separation"
+  - **Evidence pointer** Results section "DRYG-CTR undergoes homotypic phase separation"; Fig. 2c.
+  - **Issue** The phase diagram in Fig. 2c is described as showing "temperature-dependent phase separation," but the text does not clearly state the protein concentration range over which the measurements were made, nor the method used to determine the phase boundary (e.g., turbidity, microscopy). This information is critical for interpreting the phase diagram.
+  - **Required correction** Clarify the concentration range and the method used to construct the phase diagram in the Results or Methods section.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness / Data presentation
+  - **Affected element** Results, "DRYG-CTR oligomers are disordered and dynamic complexes"
+  - **Evidence pointer** Results section "DRYG-CTR oligomers are disordered and dynamic complexes"; Fig. 5f.
+  - **Issue** The RASP experiments are described as showing "relatively fast kinetics at a ms timescale," with kex ≈ 184 ± 18 s⁻¹. However, the text does not specify the protein concentration at which these measurements were made, nor how the rate constants were extracted from the recurrence analysis. This makes it difficult to assess the robustness of the kinetic parameters.
+  - **Required correction** Provide the experimental conditions for the RASP measurements and a more detailed description of the data fitting procedure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity / Presentation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section, paragraph 2.
+  - **Issue** The discussion of "micelle-like oligomeric clusters" and "microphase separation" is interesting but somewhat speculative. The authors do not provide direct evidence for a micellar structure, such as a core-shell organization.
+  - **Required correction** Soften the language or provide additional evidence (e.g., from simulations) to support the micelle analogy.
+
+## Risk / unsupported claims
+- The claim that the IDR expands upon oligomerization (based on smFRET) is at risk of being confounded by inter-molecular FRET artifacts (R1-M1).
+- The quantitative oligomer sizes derived from FCS are model-dependent and may not be robust (R1-M2).
+- The speculation regarding phosphorylation as a regulatory mechanism is not supported by any experimental data in this manuscript.
+- The biological relevance of the in vitro phase separation and oligomerization to cellular eIF4B function is not directly demonstrated.
+- The claim that the DRYG-rich region is the "core" of the oligomer is inferred from contact maps in simulations but is not directly validated experimentally.

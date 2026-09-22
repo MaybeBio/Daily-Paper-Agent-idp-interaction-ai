@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors use the ESM2 protein language model to map residue-level mutational tolerance in intrinsically disordered regions (IDRs), report that IDRs involved in phase separation contain conserved amino acids, identify conserved disordered residues that include both "stickers" and "spacers" forming continuous motifs, and propose that these motifs act as functional units under evolutionary selection to support stable membraneless organelle formation.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, supplementary information, statistical analyses, and any validation datasets
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of protein language models to evolutionary analysis of disordered regions in the context of phase separation. The central claim, that conserved disordered motifs enriched in "sticker" and "spacer" residues may serve as functional units under selection, is plausible and could be of interest to the phase separation community. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the approach, the robustness of the conservation analyses, or the strength of the proposed functional interpretation. The manuscript may merit consideration after full review, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying phase separation and membraneless organelle biology would be interested in the potential identification of conserved functional motifs within disordered regions. Computational biologists working on protein language model applications to evolutionary and functional genomics would also find the methodological angle relevant. Additionally, scientists interested in the molecular grammar of multivalent interactions and the evolutionary constraints on disordered regions would benefit from these findings if the claims are substantiated.
+- **Major strengths** The abstract addresses a timely and important question regarding the evolutionary constraints on intrinsically disordered regions and their relationship to phase separation. The use of a protein language model (ESM2) to infer mutational tolerance represents a modern computational approach that could complement traditional sequence alignment methods. The conceptual framing of conserved motifs as potential functional units under selection provides a clear and testable hypothesis that could advance understanding of phase separation's molecular grammar.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that ESM2 maps residue-level mutational tolerance landscapes of IDRs and that conservation is "evident through mutational constraints predicted by ESM2 and supported by direct analyses of multiple sequence alignments."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no details on how ESM2 predictions were calibrated or validated as a measure of evolutionary constraint. It is unclear whether the model's mutational tolerance scores were benchmarked against known functional data, whether confounding factors such as sequence context or structural propensity were controlled, and how the agreement between ESM2 predictions and multiple sequence alignment analyses was quantified.  
+  - **Why it matters** The central methodological premise is that ESM2-derived mutational tolerance reflects evolutionary conservation in IDRs. Without validation of this premise, the interpretation of conserved motifs as functionally significant under selection is not secure. Protein language models may capture biases unrelated to evolutionary constraint, and disordered regions present specific challenges due to low sequence complexity and alignment ambiguity.  
+  - **Resolution test** Provide benchmark results comparing ESM2 scores to established measures of evolutionary conservation in IDRs, demonstrate agreement with multiple sequence alignment analyses using appropriate statistical metrics, and show that the findings are robust to alignment parameters and sequence filtering thresholds.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for central claim  
+  - **Claim pointer** The authors claim that "IDRs, particularly those actively participating in phase separation, contain conserved amino acids" and that these conserved residues "frequently form continuous sequence motifs" that "may act as functional units under evolutionary selection to support stable MLO formation."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not present any quantitative evidence for the enrichment of conserved residues in phase-separating IDRs relative to appropriate controls, nor does it define the criteria for identifying "continuous sequence motifs" or the statistical significance of their enrichment. The link between conservation and functional relevance for phase separation is asserted rather than demonstrated.  
+  - **Why it matters** The central claim of the manuscript depends on demonstrating that conserved motifs are specifically associated with phase separation and not merely a general feature of all IDRs. Without appropriate controls and statistical testing, the observed conservation could reflect generic sequence properties unrelated to phase separation function.  
+  - **Resolution test** Provide enrichment analyses comparing phase-separating IDRs to non-phase-separating IDRs with matched sequence properties, define motif identification criteria, and report statistical significance of motif conservation and its association with phase separation.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Functional interpretation  
+  - **Claim pointer** The authors propose that conserved motifs "may act as functional units under evolutionary selection to support stable MLO formation."  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no experimental or computational evidence linking the identified conserved motifs to phase separation behavior. The claim that these motifs support stable MLO formation is speculative and not supported by any functional assays, mutagenesis experiments, or biophysical measurements presented in the abstract.  
+  - **Why it matters** Evolutionary conservation alone does not establish functional relevance for phase separation. Many conserved residues in IDRs may be maintained for reasons unrelated to phase behavior, such as protein-protein interactions, post-translational modification sites, or other molecular functions. The proposed functional role requires direct testing.  
+  - **Resolution test** Provide experimental validation such as mutational perturbation of identified motifs with assessment of phase separation behavior, or computational evidence linking motif conservation to known phase separation drivers with clear mechanistic rationale.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, first sentence of results description  
+  - **Issue** The phrase "mutational tolerance landscapes landscape" contains a typographical error with the duplicated word "landscape."  
+  - **Required correction** Remove the duplicated word to read "mutational tolerance landscapes."
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Scope definition  
+  - **Affected element** Definition of phase-separating IDRs  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not specify how IDRs "actively participating in phase separation" were identified or curated. This definition is critical for interpreting the enrichment claims.  
+  - **Required correction** Specify the source and criteria for the phase-separating IDR dataset in the abstract or indicate where this information is provided in the full manuscript.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "stickers" and "spacers"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The terms "stickers" and "spacers" are used without definition or citation. While these terms are established in the phase separation literature, their specific operational definition in this study is unclear.  
+  - **Required correction** Provide brief definitions or citations for these terms as used in the context of this study.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking concerns. The manuscript must demonstrate that ESM2-based conservation measures are valid for IDRs, that the enrichment of conserved motifs in phase-separating IDRs is statistically robust with appropriate controls, and that the proposed functional role of these motifs is supported by direct evidence.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The application of protein language models to evolutionary analysis of IDRs in the context of phase separation is a novel angle that has not been extensively explored. The conceptual framing of conserved disordered motifs as functional units is potentially original.  
+  - **Scientific importance** The question of how evolutionary constraints relate to phase separation is important for understanding the molecular basis of membraneless organelle formation and disease-associated mutations. If substantiated, the findings could provide a framework for predicting functional elements in disordered regions.  
+  - **Interdisciplinary readership** The topic bridges computational biology, evolutionary genomics, and biophysics of phase separation. The abstract is written in a way that could appeal to researchers across these fields, though the technical details would need to be accessible.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The lack of methodological detail and validation data prevents evaluation of the robustness of the computational approach.  
+  - **Readability for nonspecialists** The abstract is generally readable and avoids excessive jargon, though terms such as "multivalent interaction networks" and "molecular grammar" may require some background knowledge. The logical flow from method to finding to interpretation is clear.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a potentially valuable computational approach, but the absence of methodological details, quantitative results, and functional validation means the central claims cannot be evaluated. The manuscript may become suitable for consideration if the full text addresses the blocking concerns regarding validation of the ESM2-based approach, statistical robustness of the conservation enrichment, and evidence for functional relevance.
+
+## Risk / unsupported claims
+- The claim that ESM2-predicted mutational constraints reflect evolutionary conservation in IDRs is unsupported without validation data.
+- The claim that conserved residues are enriched in phase-separating IDRs is unsupported without quantitative comparisons and statistical testing.
+- The claim that conserved motifs "may act as functional units under evolutionary selection to support stable MLO formation" is speculative and unsupported by any functional evidence.
+- The general assertion that "conservation is evident" is not quantifiable from the abstract and cannot be assessed.

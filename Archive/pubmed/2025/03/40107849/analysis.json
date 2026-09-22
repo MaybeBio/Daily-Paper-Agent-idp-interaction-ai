@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40107849",
+  "title": "Phase Separation-Mediated Multienzyme Assembly In Vivo.",
+  "authors": "Chen, Yao; Shi, Yi; Li, Mengyu; Ming, Dengming; Liu, Wei; Xu, Xian; Jiang, Ling",
+  "journal": "Journal of agricultural and food chemistry",
+  "published_date": "2025-03-20",
+  "window": {
+    "start": "2025-03-17",
+    "end": "2025-03-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究利用粗粒化模拟和体内实验，将相分离蛋白RGGRGG与标签系统结合实现多酶组装，虽涉及相分离凝聚体与蛋白互作，但核心是酶催化应用而非无序蛋白介导的PPI机制建模，方法以粗粒化模拟为主，AI/物理模拟深度有限。",
+  "abstract": "Multienzyme assembly catalysis is a cornerstone of synthetic biology. In this study, we integrated the phase-separated protein RGGRGG with the ReverseTag/ReverseCatcher tagging system to investigate its potential for multienzyme complex formation. Initially, we utilized coarse-grained simulations to explore the interactions among RGGRGG domains, revealing their ability to form condensates and demonstrating how these condensates can interface with the ReverseTag/ReverseCatcher system for the assembly of multienzyme complexes. The ReverseTagged-proteins effectively self-assembled within ReverseCatcher_RGGRGG condensates. In cellular systems, we overexpressed six enzymes involved in lycopene biosynthesis and immobilized ReverseTag_Dxr, ReverseTag_Dxs, and ReverseTag_Idi by forming ester bonds with ReverseCatcher_RGGRGG. This approach resulted in a remarkable 5.4-fold enhancement in lycopene production compared to the control groups. This multienzyme assembly strategy holds significant promise for advancing the field of multienzyme catalysis, both in vivo and in vitro, and is expected to stimulate further research in this area.",
+  "abstract_zh": "多酶组装催化是合成生物学的基石。在本研究中，我们将相分离蛋白RGGRGG与ReverseTag/ReverseCatcher标记系统整合，以探究其在多酶复合物形成中的潜力。首先，我们利用粗粒化模拟探索了RGGRGG结构域之间的相互作用，揭示了它们形成凝聚体的能力，并展示了这些凝聚体如何与ReverseTag/ReverseCatcher系统接口，用于多酶复合物的组装。ReverseTagged蛋白在ReverseCatcher_RGGRGG凝聚体内有效自组装。在细胞系统中，我们过表达了参与番茄红素生物合成的六种酶，并通过与ReverseCatcher_RGGRGG形成酯键来固定ReverseTag_Dxr、ReverseTag_Dxs和ReverseTag_Idi。与对照组相比，该方法使番茄红素产量显著提高了5.4倍。这种多酶组装策略在体内和体外的多酶催化领域具有重要前景，预计将促进该领域的进一步研究。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40107849/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40107849/",
+  "paper_page_path": "papers/pubmed/40107849/index.html"
+}

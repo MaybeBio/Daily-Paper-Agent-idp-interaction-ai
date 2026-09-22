@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text, including Significance, Results, Discussion, Materials and Methods, and supplementary figure/table references.
+- **Assessment boundary** Scientific claims, methodological soundness, interpretation of simulation results, and alignment with stated conclusions. No assessment of experimental validation, as none is presented.
+- **Shared manuscript claim summary** The authors use atomistic Monte Carlo simulations with the ABSINTH force field to show that charge-rich polyampholytic intrinsically disordered proteins (IDPs) exhibit two-state behavior, with coexisting globular and self-avoiding walk (SAW) conformations, driven by competing interactions between favorable hydration of charged residues and electrostatic attractions. They propose that this bistability explains apparent Flory random coil (FRC) scaling in prior experiments, is modulated by side-chain chemistry (Arg vs. Lys, Glu vs. Asp), and has implications for switch-like transitions and regulation of effective concentrations.
+- **Visible evidence base** Free energy profiles and probability distributions from simulations (Fig. 1, Fig. 3, Fig. 4, Fig. 5, Fig. 6, SI Appendix Figs. S2–S17), Kratky profile calculations (Fig. 2C–D), and bioinformatics analysis of DisProt database (SI Appendix Fig. S18, Table S6). Methods describe umbrella sampling, replica exchange, and weighted histogram analysis.
+- **Missing materials affecting confidence** SI Appendix contents (detailed methods, force field parameters, additional figures, tables) are referenced but not provided. Experimental data for direct comparison are absent. Details on simulation convergence, error bars, and statistical uncertainties are not fully described in the main text.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and potentially significant computational study that challenges conventional interpretations of IDP conformational behavior. The central claim that charge-rich polyampholytes can exhibit two-state behavior, rather than continuous coil-to-globule transitions, is well-supported by the simulation data shown. The distinction between apparent FRC scaling arising from a mixture of states versus a true theta condition is an important conceptual advance. However, the strength of the conclusions depends heavily on the accuracy of the force field and the completeness of the SI details, which are not fully assessable from the provided material. The implications for biological function, while intriguing, remain speculative.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, protein biophysics, polymer physics, and computational chemistry. The work is directly relevant to those studying sequence-ensemble relationships, phase separation, and the role of IDRs in cellular regulation. The findings on Arg vs. Lys differences also connect to the broader "molecular grammar" of IDPs.
+- **Major strengths** 1) The identification of a clear, physically motivated mechanism (competing hydration and electrostatic interactions) for two-state behavior. 2) The use of multiple sequence variants to systematically probe the effects of side-chain chemistry. 3) The explicit connection to experimental observables (scaling exponents, Kratky profiles) and the proposal of testable predictions. 4) The discussion of biological implications, particularly for RD-repeat proteins and phase separation, is thoughtful and grounded in prior work.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that two-state behavior is a generic property of well-mixed polyampholytes, based on simulations of (GKESKE)7, (GRESRE)7, (GKDSKD)7, and (GRDSKD)7.
+  - **Evidence pointer** Fig. 1, Fig. 3, SI Appendix Fig. S6
+  - **Concern** The demonstration of two-state behavior relies entirely on simulations with a single force field (ABSINTH with recalibrated hydration free energies). The sensitivity of the results to force field parameters, particularly the hydration free energies, is not systematically explored. The authors note the recalibration is based on recent work, but the robustness of the bistability to reasonable variations in these parameters is unknown.
+  - **Why it matters** If the two-state behavior is an artifact of specific parameter choices, the central conclusion would be undermined. The field has seen examples where force field modifications qualitatively alter IDP conformational ensembles. Without a parameter sensitivity analysis, the generality of the claim cannot be established.
+  - **Resolution test** Perform additional simulations with perturbed hydration free energies (e.g., within the uncertainty of the experimental estimates) and demonstrate that two-state behavior persists. Alternatively, use a second, independent force field (e.g., a different implicit solvent model) to confirm the qualitative findings.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the apparent FRC behavior reported by Sørensen and Kjaergaard (ref 57) might derive from bistability at the specific solution conditions investigated.
+  - **Evidence pointer** Fig. 1, Discussion
+  - **Concern** This is a key interpretive claim that connects simulation to experiment. However, the simulations are performed at a range of temperatures, not at the specific solution conditions (e.g., salt concentration, pH) used in the experiments of Sørensen and Kjaergaard. The extrapolation from simulation temperature to experimental conditions is acknowledged as requiring calibration, but no such calibration is provided. The claim remains speculative without a direct mapping.
+  - **Why it matters** The manuscript's significance partly rests on explaining a puzzling experimental observation. If the connection is not rigorously established, the impact is reduced. The authors should either provide a more concrete link (e.g., by simulating at conditions closer to the experiments) or temper the claim.
+  - **Resolution test** Simulate (GKESKE)n at conditions mimicking the experimental buffer (e.g., specific salt concentration) and show that the ensemble average scaling exponent matches the experimental value, while the distribution is bimodal. Alternatively, clearly state this as a hypothesis requiring direct experimental testing.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that necklace-like conformations in Asp-containing sequences (e.g., (RD)25) are likely drivers of intermolecular associations and fibril formation, as observed for RD repeats in nuclear speckle proteins.
+  - **Evidence pointer** Fig. 4, Discussion
+  - **Concern** The connection between the simulated metastable necklace states and the experimentally observed fibril formation is highly speculative. The simulations are of single chains in isolation, while fibril formation is a multi-chain, intermolecular process. The leap from single-chain conformations to macroscopic assembly behavior is not justified by the data presented.
+  - **Why it matters** This is a potentially important biological implication, but overstating it could mislead readers. The authors should clearly delineate this as a hypothesis and discuss alternative explanations (e.g., intermolecular interactions, not single-chain conformations, may drive fibril formation).
+  - **Resolution test** Perform coarse-grained or multi-chain simulations to test whether necklace conformations promote intermolecular contacts. Alternatively, soften the claim to state that necklace conformations "may" contribute, and explicitly call for experimental testing.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Significance section
+  - **Evidence pointer** Significance
+  - **Issue** The Significance section is dense and assumes familiarity with polymer physics concepts (e.g., FRC, SAW, scaling exponents). A brief explanation of these terms would improve accessibility.
+  - **Required correction** Add one or two sentences defining key terms, or provide a schematic figure in the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, Free Energy Profiles
+  - **Evidence pointer** Materials and Methods
+  - **Issue** The description of the umbrella sampling and replica exchange methods is brief. Details on the number of windows, the range of the reaction coordinate, and the criteria for convergence are not provided in the main text.
+  - **Required correction** Move key methodological details (e.g., number of windows, simulation length, convergence criteria) from the SI to the main text, or at least summarize them.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, bioinformatics analysis
+  - **Evidence pointer** SI Appendix Fig. S18, Table S6
+  - **Issue** The bioinformatics analysis identifies IDRs with high FCR in DisProt, but the functional annotation is superficial. The claim that some may function as "flexible linkers regulated by multisite phosphorylation" is not developed.
+  - **Required correction** Expand this analysis or remove it, as it currently adds little to the main conclusions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (force field sensitivity) and R1-M2 (connection to experiments) are the primary technical issues. The lack of error bars or uncertainty quantification on the free energy profiles is also a concern, as it is unclear if the two minima are statistically significant.
+- **Assessment against Nature-style criteria** **Originality:** High. The concept of two-state behavior in polyampholytic IDPs, driven by competing interactions, is a novel contribution that challenges prevailing views of continuous transitions. **Scientific importance:** High. If confirmed, this work would reshape understanding of IDP conformational ensembles and their biological functions. **Interdisciplinary readership:** Moderate. The work will appeal to biophysicists, polymer physicists, and computational chemists, but may be less accessible to a broader biological audience. **Technical soundness:** Moderate. The simulation methodology is state-of-the-art, but the lack of parameter sensitivity analysis and uncertainty quantification weakens the case. **Readability for nonspecialists:** Moderate. The writing is clear but assumes significant background knowledge.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is novel and important, but the current evidence base is insufficient to fully establish the claims. The authors must address the force field sensitivity and provide a more rigorous link to experimental observations.
+
+## Risk / unsupported claims
+- The claim that apparent FRC behavior in experiments (ref 57) is due to bistability is unsupported without a direct mapping of simulation conditions to experimental conditions.
+- The claim that necklace conformations drive fibril formation in RD-repeat proteins is speculative and not supported by the single-chain simulations presented.
+- The assertion that two-state behavior is a "generic" property of well-mixed polyampholytes is not fully established, as only a limited set of sequences was tested.
+- The biological implications regarding switch-like transitions and regulation of effective concentrations are plausible but not directly demonstrated.

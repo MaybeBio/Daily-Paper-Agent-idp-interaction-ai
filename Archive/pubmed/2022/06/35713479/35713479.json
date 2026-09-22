@@ -1,0 +1,219 @@
+{
+  "identity": {
+    "pmid": "35713479",
+    "doi": "10.1021/acs.jpcb.2c01478",
+    "title": "Mechanistic Insight on General Protein-Binding Ability of ATP and the Impacts of Arginine Residues."
+  },
+  "content": {
+    "abstract": "Recent experiments suggested that adenosine triphosphate (ATP) can regulate liquid-liquid phase separation (LLPS) of various proteins and inhibit protein aggregations at its physiological concentration, which is highly correlated with the nonspecific interactions of ATP to a wide variety of proteins. However, the mechanism underlying the general binding capability of ATP largely remains unclear. In this work, we used molecular dynamics simulation to study the binding of ATPs to three proteins with distinct net charges: TDP-43 NTD (-7 e), TAF15-RRM (0 e), HWEL (+8 e). Negatively charged ATP exhibits a strong trend to accumulate around all of these proteins. While only a fraction of the accumulated ATPs directly binds to the limited regions of the protein surface, additional ATPs indirectly bind to proteins by aggregating into ATP clusters. Hence, the proportion of the directly bound ATPs in the clusters as well as their binding regions can be adjusted in response to different proteins, which makes ATP well adapted to a variety of proteins. Moreover, our results suggest that ATP tightly binds to Arg with high affinity, and Arg dominates the direct binding of ATP. Meanwhile, Arg also affects the self-association of accumulated ATPs. The size of the ATP cluster is effectively regulated by the distribution of Arg. Considering the ubiquity of Arg in proteins, our findings are helpful to understand the general binding capability of ATP.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Adenosine Triphosphate/metabolism",
+      "*Arginine/metabolism",
+      "Protein Binding",
+      "Protein Domains"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hu, Guorong",
+        "Ou, Xinwen",
+        "Li, Jingyuan"
+      ],
+      "short_names": [
+        "Hu G",
+        "Ou X",
+        "Li J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6694-7932",
+        "ORCID: 0000-0003-2926-1864"
+      ],
+      "affiliations": [
+        "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Zheda Road 38, Hangzhou 310027, China.",
+        "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Zheda Road 38, Hangzhou 310027, China.",
+        "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Zheda Road 38, Hangzhou 310027, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hu, Guorong",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Zheda Road 38, Hangzhou 310027, China."
+        ]
+      },
+      {
+        "full_name": "Ou, Xinwen",
+        "short_name": "Ou X",
+        "identifiers": [
+          "0000-0001-6694-7932"
+        ],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Zheda Road 38, Hangzhou 310027, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingyuan",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0003-2926-1864"
+        ],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Zheda Road 38, Hangzhou 310027, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2022 Jun 30",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/06/18 06:00",
+    "fetched_at": "2026-09-20 11:11:12"
+  },
+  "links": {
+    "cites": [
+      "42521655",
+      "40314620",
+      "39684527",
+      "38672516",
+      "37772172",
+      "37761804",
+      "36608272",
+      "36605018"
+    ],
+    "refs": [],
+    "similar": [
+      "35713479",
+      "34112944",
+      "31759630",
+      "31791586",
+      "31240261",
+      "37772172",
+      "31079926",
+      "8910542",
+      "34723279",
+      "33441818",
+      "33829608",
+      "33477032",
+      "10563798",
+      "36450893",
+      "30205960",
+      "33307701",
+      "29221399",
+      "23912807",
+      "20563625",
+      "29511089",
+      "15095988",
+      "32007267",
+      "12381730",
+      "36608272",
+      "25848002",
+      "11814337",
+      "25253689",
+      "10333486",
+      "24021237",
+      "11061970",
+      "11468288",
+      "9724541",
+      "10827197",
+      "32397647",
+      "20675375",
+      "28195155",
+      "12741957",
+      "2211649",
+      "15606359",
+      "17504757",
+      "31747275",
+      "32615218",
+      "27072556",
+      "10993737",
+      "16980295",
+      "21393072",
+      "19887446",
+      "34338526",
+      "15458651",
+      "31184653",
+      "16216872",
+      "21554542",
+      "30649354",
+      "26342690",
+      "29380674",
+      "33069831",
+      "21084280",
+      "15901724",
+      "11864969",
+      "24007457",
+      "20112895",
+      "22639079",
+      "15280366",
+      "8473294",
+      "2684960",
+      "11432856",
+      "29391496",
+      "11279142",
+      "15297450",
+      "10336423",
+      "29555476",
+      "11741902",
+      "14624536",
+      "31431556",
+      "15222743",
+      "15205462",
+      "1332676",
+      "11000246",
+      "12763781",
+      "25688103",
+      "3312197",
+      "15853944",
+      "10329141",
+      "30405239",
+      "18582897",
+      "10551822",
+      "29871922",
+      "34514982",
+      "3490471",
+      "21335235",
+      "12763806",
+      "19883127",
+      "11080481",
+      "15939739",
+      "31125144",
+      "36103543"
+    ],
+    "review": [
+      "35713479",
+      "33829608"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.2c01478",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

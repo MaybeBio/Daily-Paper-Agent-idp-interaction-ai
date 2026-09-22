@@ -1,0 +1,67 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors propose an end-to-end computational pipeline for de novo screening of antibody sequences with high affinity for the disordered C-terminal peptide of α-Synuclein, targeting the LAG3 receptor interaction implicated in Parkinson's disease. The pipeline combines structural bioinformatics-based in silico data generation with deep learning models using protein language model embeddings. Reported performance includes Spearman ρ = 0.86 for a feed-forward network when training and evaluation datasets share CDR overlap, and ρ = 0.18 for a transformer encoder on vastly different CDR sequences, with mean Precision@100 of 38 and 12, respectively.
+- **Visible evidence base** Abstract text only; no quantitative details on dataset construction, model architecture, training procedures, or evaluation protocols are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, figures, tables, supplementary data, model code, and dataset details are absent; these are essential for assessing the validity of the reported performance metrics and the generalizability of the pipeline
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful computational approach for antibody screening against a disordered protein target, a challenging and biologically relevant problem. However, the evidence provided is insufficient to establish the core claims. The reported performance metrics are presented without critical context, such as dataset sizes, sequence diversity measures, or baseline comparisons beyond a random process. The stark drop in correlation from ρ = 0.86 to ρ = 0.18 across CDR diversity conditions raises questions about the generalizability of the method, which is not adequately addressed in the abstract. The work may be of interest to computational biologists and antibody engineers, but the current evidence base does not support the claim of a robust de novo screening protocol.
+- **Who would be interested in the results, and why** Computational biologists working on protein language models and antibody design, structural bioinformaticians developing in silico affinity prediction methods, and researchers in neurodegenerative disease therapeutics seeking computational tools for antibody discovery against disordered targets. The approach could also interest those studying protein-protein interactions involving intrinsically disordered regions.
+- **Major strengths** The problem is well-motivated by a specific biological context (α-Synuclein and LAG3 in Parkinson's disease). The use of a de novo approach without known binder information is a notable ambition. The combination of structural bioinformatics for data generation with deep learning for affinity ranking is a reasonable methodological direction. The reported outperformance over a random process, if robust, suggests some predictive signal.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that the pipeline enables "rapid screening of antibody sequences that have a high-affinity for the disordered C-terminal peptide of α-Synuclein" with high accuracy.  
+  - **Evidence pointer** Abstract, performance metrics section; location not provided  
+  - **Concern** The reported Spearman ρ = 0.86 is conditional on "some overlap in the complementarity determining regions (CDRs)" between training and evaluation datasets. This condition substantially weakens the claim of de novo screening, as the model may be leveraging memorized or near-duplicate CDR patterns rather than learning generalizable sequence-affinity relationships. The ρ = 0.18 for vastly different CDR sequences indicates poor generalization, which is the more relevant scenario for true de novo discovery.  
+  - **Why it matters** The core value proposition is de novo screening for unknown binders. If the model only performs well on sequences similar to training data, it does not meet this objective. The abstract does not explain why the performance degrades so sharply or whether any mitigation was attempted.  
+  - **Resolution test** Provide full details on dataset construction, including CDR sequence diversity metrics, and demonstrate performance on a held-out set with no CDR overlap. If the ρ = 0.18 result is the realistic performance, the claim of high-accuracy screening must be revised or the method must be shown to be useful despite low rank correlation, for example through improved precision at higher cutoffs.
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that the in silico data generation pipeline produces a "high quality dataset of antibody-antigen complexes spanning a very large diversity in antibody sequences."  
+  - **Evidence pointer** Abstract, pipeline description; location not provided  
+  - **Concern** No details are given on how the structural bioinformatics pipeline generates antibody-antigen complexes, what scoring function is used for affinity estimation, or how structural accuracy is validated. The term "high quality" is unsupported without evidence of benchmarking against experimental structures or binding data.  
+  - **Why it matters** The entire deep learning model is trained on this generated data. If the in silico affinity labels are inaccurate or biased, the model's predictions will inherit these errors, undermining any downstream screening claims.  
+  - **Resolution test** Provide validation of the in silico affinity predictions against experimental binding measurements for a subset of antibodies, and describe the structural modeling approach with error estimates.
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The claim that the models "significantly outperforming a random process" with mean Precision@100 of 38 and 12.  
+  - **Evidence pointer** Abstract, performance metrics; location not provided  
+  - **Concern** Precision@100 values are reported without context on the total number of candidate antibodies screened, the distribution of true positives, or the variance across replicates. Without this information, it is impossible to assess whether these values are statistically significant or practically useful.  
+  - **Why it matters** A precision of 38 out of 100 could be excellent or poor depending on the baseline prevalence of high-affinity binders in the candidate pool. The abstract does not provide this baseline.  
+  - **Resolution test** Report the number of candidates, the true positive rate in the evaluation set, and confidence intervals for Precision@100. Compare against a more meaningful baseline than random, such as sequence similarity-based ranking or a simple hydrophobicity heuristic.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract, model description  
+  - **Evidence pointer** Abstract, methods summary; location not provided  
+  - **Issue** The abstract states "Our simple feed forward network model" and "a transformer encoder model" but does not specify input features beyond "sequence embeddings from a protein language model." It is unclear whether both models use the same embeddings or different ones.  
+  - **Required correction** Specify the exact protein language model used and whether the same embeddings were input to both architectures.
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract, performance reporting  
+  - **Evidence pointer** Abstract, performance metrics; location not provided  
+  - **Issue** The abstract reports Spearman ρ and Precision@100 but does not mention other relevant metrics such as recall, area under the ROC curve, or calibration of predicted ΔG values.  
+  - **Required correction** Add additional performance metrics or justify why the reported metrics are sufficient for the screening use case.
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Biological relevance  
+  - **Affected element** Abstract, target description  
+  - **Evidence pointer** Abstract, introduction; location not provided  
+  - **Issue** The abstract states the target is the "disordered C-terminal peptide of α-Synuclein" but does not specify the exact residue range or whether the peptide is free in solution or in a specific conformational state.  
+  - **Required correction** Provide the residue range and any conformational constraints used in the in silico modeling.
+
+## Risk / unsupported claims
+- The claim of "high accuracy" (ρ = 0.86) is unsupported as a general statement because it is conditional on CDR overlap and does not reflect the de novo scenario.
+- The claim of a "high quality dataset" is unsupported without validation against experimental data.
+- The claim of "significantly outperforming a random process" is not substantiated without baseline prevalence and statistical testing details.
+- The overall claim of a "computational protocol for generating a high quality dataset... followed by training of a deep learning model for prediction of high-affinity antibody sequences for a specific protein target with no known binders" is not established from the abstract alone, as the performance on truly novel sequences is poor (ρ = 0.18).

@@ -1,0 +1,423 @@
+{
+  "identity": {
+    "pmid": "34888535",
+    "doi": "10.1016/j.xcrp.2021.100616",
+    "title": "Integrative structural dynamics probing of the conformational heterogeneity in synaptosomal-associated protein 25."
+  },
+  "content": {
+    "abstract": "SNAP-25 (synaptosomal-associated protein of 25 kDa) is a prototypical intrinsically disordered protein (IDP) that is unstructured by itself but forms coiled-coil helices in the SNARE complex. With high conformational heterogeneity, detailed structural dynamics of unbound SNAP-25 remain elusive. Here, we report an integrative method to probe the structural dynamics of SNAP-25 by combining replica-exchange discrete molecular dynamics (rxDMD) simulations and label-based experiments at ensemble and single-molecule levels. The rxDMD simulations systematically characterize the coil-to-molten globular transition and reconstruct structural ensemble consistent with prior ensemble experiments. Label-based experiments using Forster resonance energy transfer and double electron-electron resonance further probe the conformational dynamics of SNAP-25. Agreements between simulations and experiments under both ensemble and single-molecule conditions allow us to assign specific helix-coil transitions in SNAP-25 that occur in submillisecond timescales and potentially play a vital role in forming the SNARE complex. We expect that this integrative approach may help further our understanding of IDPs.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Saikia, Nabanita",
+        "Yanez-Orozco, Inna S",
+        "Qiu, Ruoyi",
+        "Hao, Pengyu",
+        "Milikisiyants, Sergey",
+        "Ou, Erkang",
+        "Hamilton, George L",
+        "Weninger, Keith R",
+        "Smirnova, Tatyana I",
+        "Sanabria, Hugo",
+        "Ding, Feng"
+      ],
+      "short_names": [
+        "Saikia N",
+        "Yanez-Orozco IS",
+        "Qiu R",
+        "Hao P",
+        "Milikisiyants S",
+        "Ou E",
+        "Hamilton GL",
+        "Weninger KR",
+        "Smirnova TI",
+        "Sanabria H",
+        "Ding F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA.",
+        "Department of Chemistry, Navajo Technical University, Chinle, AZ 86503, USA.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA.",
+        "Department of Physics, North Carolina State University, Raleigh, NC 27695, USA.",
+        "Department of Physics, North Carolina State University, Raleigh, NC 27695, USA.",
+        "Department of Chemistry, North Carolina State University, Raleigh, NC 27695, USA.",
+        "Department of Chemistry, North Carolina State University, Raleigh, NC 27695, USA.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA.",
+        "Department of Physics, North Carolina State University, Raleigh, NC 27695, USA.",
+        "Department of Chemistry, North Carolina State University, Raleigh, NC 27695, USA.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA.",
+        "Lead contact."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Saikia, Nabanita",
+        "short_name": "Saikia N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA.",
+          "Department of Chemistry, Navajo Technical University, Chinle, AZ 86503, USA."
+        ]
+      },
+      {
+        "full_name": "Yanez-Orozco, Inna S",
+        "short_name": "Yanez-Orozco IS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA."
+        ]
+      },
+      {
+        "full_name": "Qiu, Ruoyi",
+        "short_name": "Qiu R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, North Carolina State University, Raleigh, NC 27695, USA."
+        ]
+      },
+      {
+        "full_name": "Hao, Pengyu",
+        "short_name": "Hao P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, North Carolina State University, Raleigh, NC 27695, USA."
+        ]
+      },
+      {
+        "full_name": "Milikisiyants, Sergey",
+        "short_name": "Milikisiyants S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, North Carolina State University, Raleigh, NC 27695, USA."
+        ]
+      },
+      {
+        "full_name": "Ou, Erkang",
+        "short_name": "Ou E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, North Carolina State University, Raleigh, NC 27695, USA."
+        ]
+      },
+      {
+        "full_name": "Hamilton, George L",
+        "short_name": "Hamilton GL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA."
+        ]
+      },
+      {
+        "full_name": "Weninger, Keith R",
+        "short_name": "Weninger KR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, North Carolina State University, Raleigh, NC 27695, USA."
+        ]
+      },
+      {
+        "full_name": "Smirnova, Tatyana I",
+        "short_name": "Smirnova TI",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, North Carolina State University, Raleigh, NC 27695, USA."
+        ]
+      },
+      {
+        "full_name": "Sanabria, Hugo",
+        "short_name": "Sanabria H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA."
+        ]
+      },
+      {
+        "full_name": "Ding, Feng",
+        "short_name": "Ding F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, SC 29634, USA.",
+          "Lead contact."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Cell reports. Physical science"
+    ],
+    "journal_abbrev": [
+      "Cell Rep Phys Sci"
+    ],
+    "pub_date": "2021 Nov 17",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/11 06:00",
+    "fetched_at": "2026-09-20 06:57:16"
+  },
+  "links": {
+    "cites": [
+      "39923128",
+      "38585429",
+      "37585091",
+      "37485372",
+      "37184020",
+      "36724494",
+      "36693159",
+      "36671509",
+      "36671389",
+      "36311016"
+    ],
+    "refs": [
+      "35868918",
+      "35428384",
+      "34015255",
+      "33863818",
+      "33388290",
+      "33267475",
+      "33106483",
+      "32735805",
+      "32268219",
+      "32144241",
+      "32088186",
+      "31805437",
+      "31617035",
+      "31591893",
+      "31259246",
+      "31054969",
+      "30909517",
+      "30700558",
+      "30413085",
+      "30214057",
+      "29966412",
+      "29573987",
+      "29318050",
+      "28696461",
+      "28695211",
+      "28570518",
+      "28502465",
+      "28262589",
+      "27939973",
+      "27936491",
+      "27911771",
+      "27566405",
+      "27391701",
+      "27255148",
+      "27079355",
+      "26967199",
+      "26727467",
+      "26575570",
+      "26387100",
+      "26151767",
+      "26073257",
+      "26042221",
+      "25764013",
+      "25762327",
+      "25686604",
+      "25625937",
+      "25531225",
+      "25482539",
+      "24830552",
+      "24725176",
+      "24586124",
+      "24432838",
+      "24115372",
+      "23850140",
+      "23267185",
+      "23142871",
+      "22984159",
+      "22962613",
+      "22821520",
+      "22760329",
+      "22760328",
+      "22498053",
+      "22492978",
+      "22404592",
+      "22280505",
+      "22125611",
+      "22078555",
+      "21843480",
+      "21826602",
+      "21596998",
+      "21481779",
+      "21080428",
+      "21059410",
+      "18456828",
+      "17956869",
+      "17419610",
+      "17368479",
+      "16939197",
+      "16683746",
+      "16129880",
+      "15738986",
+      "15303830",
+      "15230870",
+      "15012160",
+      "14685248",
+      "12388785",
+      "11832227",
+      "10966640",
+      "10698625",
+      "10648151",
+      "9020186"
+    ],
+    "similar": [
+      "34888535",
+      "32088186",
+      "34656328",
+      "21481779",
+      "30979035",
+      "30840442",
+      "36387274",
+      "38512660",
+      "28092832",
+      "22947936",
+      "39276130",
+      "34504009",
+      "32159932",
+      "24089719",
+      "33382616",
+      "32579908",
+      "32840111",
+      "26575570",
+      "24671380",
+      "35923464",
+      "33030907",
+      "27844185",
+      "12556468",
+      "10600650",
+      "32696368",
+      "23205890",
+      "38895430",
+      "37626077",
+      "36641212",
+      "35129612",
+      "9390521",
+      "30913885",
+      "36217309",
+      "16621800",
+      "23087210",
+      "24763499",
+      "30708285",
+      "26052838",
+      "34845619",
+      "31548393",
+      "29055320",
+      "35543707",
+      "26387104",
+      "20580965",
+      "29537020",
+      "30909517",
+      "35658083",
+      "28289210",
+      "22829760",
+      "30413085",
+      "34970909",
+      "34273400",
+      "32239382",
+      "34680048",
+      "25816771",
+      "22253588",
+      "23811057",
+      "38018910",
+      "21943426",
+      "22506277",
+      "21766125",
+      "31241933",
+      "31809054",
+      "36084124",
+      "36750251",
+      "33581430",
+      "23189168",
+      "37607621",
+      "35944496",
+      "33723285",
+      "35841142",
+      "35053175",
+      "24446368",
+      "27145874",
+      "29382046",
+      "23477537",
+      "22821515",
+      "28542243",
+      "37338049",
+      "23794453",
+      "33623120",
+      "37709541",
+      "26151767",
+      "24029407",
+      "30813315",
+      "30933517",
+      "30813629",
+      "34252246",
+      "30528464",
+      "30876367",
+      "31090275",
+      "28885015",
+      "31797597",
+      "12847087",
+      "25305580",
+      "39056166",
+      "32226846",
+      "20713006"
+    ],
+    "review": [
+      "34888535",
+      "30979035",
+      "30840442",
+      "35129612",
+      "36217309",
+      "26387104",
+      "30909517",
+      "30413085",
+      "34680048",
+      "36750251",
+      "35053175",
+      "27145874",
+      "29382046",
+      "23794453",
+      "30813629",
+      "31090275"
+    ],
+    "pmc": [
+      "8654206"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/100616",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34888535/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34888535",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

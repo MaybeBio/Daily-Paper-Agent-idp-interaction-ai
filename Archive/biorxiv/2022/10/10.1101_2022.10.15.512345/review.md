@@ -1,0 +1,108 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusion) as provided.
+- **Assessment boundary** Scientific and technical evaluation of the proposed method IDP-PLM for intrinsically disordered protein prediction, based solely on the supplied manuscript content.
+- **Shared manuscript claim summary** The authors propose IDP-PLM, a novel IDP/IDR prediction method based on a protein language model (ESM-1b) with stacked auxiliary predictors (secondary structure, linker, protein/DNA/RNA/lipid binding) and an ADD-MEAN module, claiming state-of-the-art accuracy without MSA-based profiles and high efficiency.
+- **Visible evidence base** Tables 1, 3, 4, 5, 6; Figures 1, 2, 3; Supplementary Tables S1, S2; Supplementary Figure S1; dataset descriptions in Section 2.1; training details in Sections 3.1-3.3.
+- **Missing materials affecting confidence** Full equations for evaluation metrics (Section 2.5, equations not shown); detailed downsampling strategy (referenced to Supplementary Information, not provided); exact hyperparameters for all predictors beyond those mentioned; code availability stated but not verified; CAID evaluation protocol details (e.g., which CAID subset, how predictions were submitted) not fully specified.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a reasonable engineering contribution combining a pre-trained protein language model with task-specific BiLSTM heads for IDP prediction. The core idea of leveraging PLM embeddings without MSA profiles is timely and relevant. However, the evidence provided is insufficient to fully substantiate the claim of state-of-the-art performance. Several comparisons are incomplete or lack statistical rigor, and the architectural novelty over existing PLM-based approaches is modest. The ablation study is informative but limited to a single dataset. The manuscript requires substantial revisions to clarify methodology, strengthen comparative analysis, and address potential overfitting and generalization concerns.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein structure and function prediction, particularly those interested in IDP/IDR prediction, protein language model applications, and methods that avoid computationally expensive MSA generation. The availability of separate predictors for binding and linker regions may also interest researchers studying protein-protein and protein-nucleic acid interactions.
+- **Major strengths** 1) Addresses a practical limitation of MSA-dependent methods by using PLM embeddings, potentially enabling faster large-scale predictions. 2) Provides a modular architecture with multiple task-specific predictors, which could be reused independently. 3) Includes an ablation study to assess component contributions. 4) Evaluates on multiple independent test sets including a recent CAID benchmark.
+- **Major Concerns**
+- **Concern ID** R1-M1
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Technical soundness
+- **Claim pointer** "IDP-PLM achieved state-of-the-art performance in terms of both efficiency and accuracy" (Abstract, Section 3.3)
+- **Evidence pointer** Tables 4, 5, 6; Section 3.3
+- **Concern** The claim of state-of-the-art performance is not fully supported by the presented comparisons. For DISORDER723 and MXD494, the authors compare against results "taken from" previous publications, but it is unclear whether these comparisons are apples-to-apples (same training data, same test protocol, same evaluation metrics). For CAID, the comparison is incomplete as AUC is not available for all predictors, and the authors resort to F1. No statistical significance testing (e.g., bootstrap or DeLong test for AUC) is provided for any comparison. The margin of improvement over the best baseline is often small and may not be significant.
+- **Why it matters** Without rigorous, fair, and statistically validated comparisons, the central claim of state-of-the-art performance cannot be established. This is critical for the paper's contribution and for readers' confidence in adopting the method.
+- **Resolution test** Provide a detailed comparison table with all methods evaluated under identical conditions (same test splits, same metrics, same post-processing). Include confidence intervals or p-values for metric differences. For CAID, clarify the exact evaluation protocol and report all metrics available from the CAID server. If possible, re-run baseline methods locally using their official implementations to ensure fairness.
+- **Concern ID** R1-M2
+- **Severity** Major
+- **Blocking** Yes
+- **Axis** Technical soundness
+- **Claim pointer** "The proposed IDP-PLM is composed of stacked predictors designed for several different protein-related tasks... All these are based on PLMs thus making IDP-PLM not rely on MSA-based profiles." (Abstract, Section 1)
+- **Evidence pointer** Section 2.4, Figure 1
+- **Concern** The architectural details of how the stacked predictors are combined are insufficiently described. Specifically, it is unclear how the outputs of the individual predictors (secondary structure, binding, linker) are integrated with the ADD-MEAN module and the final BiLSTM layer. The manuscript states "the ADD-MEAN module would produce the concatenated vectors" but does not specify the exact concatenation scheme, the dimensionality of intermediate representations, or how the final prediction is derived from the combined features. This lack of detail prevents reproducibility.
+- **Why it matters** Reproducibility is a cornerstone of computational method papers. Without a precise description of the model architecture, data flow, and feature combination, other researchers cannot implement or build upon the method.
+- **Resolution test** Provide a formal mathematical description of the model, including tensor shapes at each stage, the exact operation of the ADD-MEAN module, and the loss function used for the final IDP prediction. Include a pseudocode algorithm or a detailed diagram with tensor dimensions. Release the training and inference code with clear documentation.
+- **Concern ID** R1-M3
+- **Severity** Major
+- **Blocking** No
+- **Axis** Scientific importance
+- **Claim pointer** "To the best of our knowledge, there is currently no such work demonstrating how to combine the PLMs with conventional methods and further improve the performance of IDP prediction." (Section 1)
+- **Evidence pointer** Section 1, References
+- **Concern** The novelty claim is overstated. Several PLM-based IDP prediction methods have been published around or before this submission (e.g., flDPnn uses predicted features, and other works have explored PLM embeddings for disorder prediction). The authors mention ESM1-t6-85M (Papastratis, 2022) but do not discuss other concurrent or earlier PLM-based approaches in sufficient depth. The contribution of "stacking" task-specific predictors is incremental rather than fundamentally novel.
+- **Why it matters** Accurate positioning of the work within the existing literature is essential for assessing its scientific contribution. Overstating novelty can mislead readers and reviewers.
+- **Resolution test** Expand the related work section to comprehensively cover PLM-based IDP prediction methods, including those using ESM, ProtTrans, and other embeddings. Clearly articulate the specific architectural or methodological innovation of IDP-PLM relative to these works, and temper the novelty claim accordingly.
+- **Concern ID** R1-M4
+- **Severity** Major
+- **Blocking** No
+- **Axis** Technical soundness
+- **Claim pointer** "The ablation study reveals that all these stacked predictors contribute positively to the IDP prediction performance of IDP-PLM." (Abstract, Section 3.3)
+- **Evidence pointer** Figure 3, Supplementary Table S1
+- **Concern** The ablation study is performed only on the CAID dataset. While CAID is challenging, the generalizability of the ablation conclusions to other datasets is unknown. Moreover, the magnitude of performance drop when removing each module is not quantified numerically in the main text, and it is unclear whether the observed differences are statistically significant. The claim that "all modules contribute positively" requires a more rigorous analysis.
+- **Why it matters** The ablation study is used to justify the inclusion of each module. If the contributions are marginal or not statistically robust, the architectural complexity may not be justified.
+- **Resolution test** Report numerical values for all metrics in the ablation study, with confidence intervals or significance tests. Consider performing ablations on at least one additional dataset (e.g., DISORDER723 or MXD494) to demonstrate consistency.
+- **Concern ID** R1-M5
+- **Severity** Major
+- **Blocking** No
+- **Axis** Technical soundness
+- **Claim pointer** "The method does not rely on MSAs or MSA-based profiles but leverages only the protein sequences, thereby achieving state-of-the-art performance even compared with predictors using protein profiles." (Abstract)
+- **Evidence pointer** Section 2.1, Section 3.3
+- **Concern** The claim of not relying on MSA-based profiles is partially undermined by the use of ESM-1b, which is pre-trained on a large corpus of sequences (UniRef50). While ESM-1b does not require MSA generation at inference time, its representations are derived from evolutionary information captured during pre-training. The manuscript does not discuss this nuance, and the comparison with MSA-based methods may be confounded by the implicit evolutionary information in PLM embeddings.
+- **Why it matters** The distinction between "no MSA" and "no evolutionary information" is important for understanding the method's advantages and limitations. Overclaiming the absence of evolutionary information could mislead users.
+- **Resolution test** Clarify in the text that ESM-1b embeddings are pre-trained on evolutionary data and thus implicitly contain evolutionary information, but that inference does not require MSA search. Discuss the implications of this distinction for the method's speed and applicability.
+- **Minor Comments**
+- **Concern ID** R1-m1
+- **Severity** Minor
+- **Axis** Clarity
+- **Affected element** Section 2.5
+- **Evidence pointer** Section 2.5, equations not shown
+- **Issue** The equations for performance metrics (Sensitivity, Precision, F1, MCC, AUC) are referenced but not displayed in the provided text. This makes it difficult to verify the exact definitions used.
+- **Required correction** Include the full equations for all metrics in the main text or a clearly labeled appendix.
+- **Concern ID** R1-m2
+- **Severity** Minor
+- **Axis** Reproducibility
+- **Affected element** Section 2.1
+- **Evidence pointer** Section 2.1, Supplementary Table S1
+- **Issue** The dataset construction for the IDR predictor is described as combining three datasets and "removing redundancy and further processing," but the exact filtering criteria, sequence identity thresholds, and any negative sampling strategies are not detailed.
+- **Required correction** Provide a detailed description of the data preprocessing pipeline, including any sequence identity cutoffs, handling of overlapping regions, and construction of negative examples.
+- **Concern ID** R1-m3
+- **Severity** Minor
+- **Axis** Clarity
+- **Affected element** Section 3.2
+- **Evidence pointer** Section 3.2, Figure 2
+- **Concern** The discussion of the linker prediction results mentions that TransDFL achieved better AUC and Pre, but the authors do not explain why this might be the case or discuss the implications for the overall IDP-PLM performance.
+- **Required correction** Add a brief discussion of the trade-offs observed in the auxiliary predictors and how they might affect the final IDP prediction.
+- **Concern ID** R1-m4
+- **Severity** Minor
+- **Axis** Completeness
+- **Affected element** Section 3.3
+- **Evidence pointer** Section 3.3, Tables 4-6
+- **Issue** The manuscript does not report the computational cost (inference time per protein or per residue) of IDP-PLM, despite claiming efficiency as a key advantage.
+- **Required correction** Include a quantitative comparison of inference time (e.g., seconds per 100 residues) against MSA-based methods.
+- **Concern ID** R1-m5
+- **Severity** Minor
+- **Axis** Clarity
+- **Affected element** Section 2.4
+- **Evidence pointer** Section 2.4, Figure 1
+- **Issue** The description of the ADD-MEAN module is vague. It is unclear whether the "averaged representation" is computed over the entire protein or over a local window, and how this is concatenated with per-residue features.
+- **Required correction** Provide a precise mathematical formulation of the ADD-MEAN operation, including the dimension of the averaged vector and how it is tiled or broadcast for concatenation.
+- **Concern ID** R1-m6
+- **Severity** Minor
+- **Axis** Completeness
+- **Affected element** Section 3.1
+- **Evidence pointer** Section 3.1, Table 1
+- **Issue** The comparison in Table 1 for secondary structure prediction includes only PLM-based methods. It would be informative to also compare against traditional non-PLM state-of-the-art methods to contextualize the performance.
+- **Required correction** Add a column or a separate table with results from top-performing non-PLM methods (e.g., DeepCNF, SPIDER3) on the same CB513 benchmark.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art performance" is not fully supported due to incomplete and potentially unfair comparisons, and lack of statistical significance testing.
+- The claim that "all modules contribute positively" is based on a single dataset ablation without statistical validation.
+- The claim of "not relying on MSA-based profiles" is technically true but potentially misleading given the evolutionary information embedded in ESM-1b pre-training.
+- The efficiency advantage is asserted but not quantitatively demonstrated.
+- The novelty claim ("no such work") is overstated given the existing PLM-based IDP prediction literature.
+- The performance of the individual auxiliary predictors (binding, linker, lipid) is not compared against dedicated state-of-the-art methods for those specific tasks, only against general IDP predictors in some cases.

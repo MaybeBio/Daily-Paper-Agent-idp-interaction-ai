@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34784548",
+  "title": "Disorder-to-order transition of the amyloid-beta peptide upon lipid binding.",
+  "authors": "Fatafta, Hebah; Kav, Batuhan; Bundschuh, Bastian F; Loschwitz, Jennifer; Strodel, Birgit",
+  "journal": "Biophysical chemistry",
+  "published_date": "2021-11-17",
+  "window": {
+    "start": "2021-11-15",
+    "end": "2021-11-21"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用全原子MD模拟研究Aβ无序肽与脂质结合时的无序-有序转变及膜插入机制，对象为无序肽且涉及互作机制建模，但互作对象是脂质而非蛋白，故对象轴中档、互作轴偏弱。",
+  "abstract": "There is mounting evidence that Alzheimer's disease progression and severity are linked to neuronal membrane damage caused by aggregates of the amyloid-beta (Abeta) peptide. However, the detailed mechanism behind the membrane damage is not well understood yet. Recently, the lipid-chaperone hypothesis has been put forward, based on which the formation of complexes between Abeta and free lipids enables an easy insertion of Abeta into membranes. In order to test this hypothesis, we performed numerous all-atom molecular dynamics simulations. We studied the complex formation between individual lipids, considering both POPC and DPPC, and Abeta and examined whether the resulting complexes would be able to insert into lipid membranes. Complex formation at a one-to-one ratio was readily observed, yet with minimal effects on Abeta's characteristics. Most importantly, the peptide remains largely disordered in 1:1 complexes, and the complex does not insert into the membrane; instead, it is adsorbed to the membrane surface. The results change considerably once Abeta forms a complex with a POPC cluster composed of three lipid molecules. The hydrophobic interactions between Abeta and the lipid tails cause the peptide to fold into either a helical or a beta-sheet structure. These observations provide atomic insight into the disorder-to-order transition that is needed for membrane insertion or amyloid aggregation to proceed.",
+  "abstract_zh": "越来越多的证据表明，阿尔茨海默病的进展和严重程度与淀粉样β（Abeta）肽聚集体引起的神经元膜损伤有关。然而，膜损伤背后的详细机制尚未完全明了。近期，脂质伴侣假说被提出，基于此假说，Abeta与游离脂质之间形成复合物，使得Abeta能够轻易插入膜中。为验证此假说，我们进行了大量全原子分子动力学模拟。我们研究了单个脂质（包括POPC和DPPC）与Abeta之间的复合物形成，并考察了所得复合物是否能插入脂质膜。在1:1比例下，复合物的形成易于观察到，但对Abeta的特性影响甚微。最重要的是，在1:1复合物中，肽段基本保持无序状态，且该复合物不插入膜中，而是吸附于膜表面。当Abeta与由三个脂质分子组成的POPC簇形成复合物时，结果发生显著变化。Abeta与脂质尾部之间的疏水相互作用促使肽段折叠成螺旋或β-折叠结构。这些观察结果为膜插入或淀粉样聚集所需的从无序到有序的转变提供了原子层面的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34784548/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34784548/",
+  "paper_page_path": "papers/pubmed/34784548/index.html"
+}

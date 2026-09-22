@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, materials and methods, conclusions) as provided by the user. No figures, tables, or supplementary materials were available for inspection.
+- **Assessment boundary** This review evaluates the scientific claims, methodological soundness, and presentation quality of the manuscript as described in the provided text. It does not assess the journal's editorial policies or the appropriateness of the target journal.
+- **Shared manuscript claim summary** The authors claim that four deep learning-based disorder prediction tools (ADOPT, PONDR VLXT, PONDR VSL2, flDPnn) can predict intrinsically disordered regions in selected SARS-CoV-2 proteins, that these predictions align with experimentally validated disorder data from the literature, and that the identified IDRs are functionally important and represent promising targets for small-molecule drug development against COVID-19.
+- **Visible evidence base** The manuscript text includes descriptions of predicted disorder regions for NSP1, NSP6, NSP11, spike glycoprotein, ORF3a, and nucleocapsid protein, along with statistical analysis (chi-squared tests) and performance metrics (accuracy, AUC, MCC). References to Supplementary Tables S1-S3, Supplementary Figure S1, and Figures 2-7 are made but these materials were not provided.
+- **Missing materials affecting confidence** Figures 2-7, Supplementary Tables S1-S3, Supplementary Figure S1, Table 1, Table 2, Table 3, and Supplementary Data S1 were not available for review. Experimental validation data from the literature are referenced but not presented in detail. The specific sequences used and the exact statistical methodology are not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant topic in SARS-CoV-2 biology, namely the identification and functional analysis of intrinsically disordered regions using computational predictors. The comparative evaluation of four prediction tools against experimentally validated data is a useful contribution. However, the manuscript has significant methodological weaknesses, including a lack of clarity in the statistical analysis, potential circularity in the validation approach, and overinterpretation of computational predictions as drug targets without experimental validation. The functional claims, particularly regarding drug development potential, are not supported by the evidence presented. The manuscript would benefit from a more rigorous statistical framework, clearer presentation of the validation data, and a more cautious interpretation of the results.
+- **Who would be interested in the results, and why** Researchers in the fields of computational biology, virology, and structural biology may find the comparative assessment of disorder prediction tools on SARS-CoV-2 proteins of interest. Those studying intrinsically disordered proteins and their roles in viral pathogenesis may also find the functional annotations useful. However, the lack of experimental validation limits the impact for drug discovery audiences.
+- **Major strengths** The manuscript addresses a timely and relevant topic. The use of multiple prediction tools for comparative analysis is appropriate. The focus on experimentally validated regions as benchmarks is a good approach. The discussion of functional implications for each protein is comprehensive and well-organized.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity
+  - **Claim pointer** The authors claim that a significant positive correlation was observed between predicted disorder scores and experimentally validated disorder regions for all models, supported by chi-squared tests.
+  - **Evidence pointer** Section 2.10 Statistical Analysis; Supplementary Tables S2 and S3
+  - **Concern** The chi-squared test is used to assess the relationship between experimental data and predictions, but the methodology is not described in sufficient detail. It is unclear how the data were categorized for the chi-squared test, what the null hypothesis was, and how the expected frequencies were calculated. The chi-squared test is typically used for categorical data, but disorder predictions are continuous scores. The transformation of continuous predictions into categorical outcomes is not described.
+  - **Why it matters** Without a clear description of the statistical methodology, the reported p-values and chi-squared statistics cannot be interpreted. The claim that VSL2 is the "best and most accurate predictor" is based on this analysis, and if the statistical framework is flawed, the conclusion is unsupported.
+  - **Resolution test** The authors should provide a detailed description of the statistical methodology, including how predictions were dichotomized or categorized, how expected frequencies were computed, and whether any corrections for multiple testing were applied. The analysis should be reproducible from the description provided.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and circularity
+  - **Claim pointer** The authors state that experimentally validated intrinsic disordered regions from the literature were utilized to assess the prediction of intrinsic disorder across a selection of SARS-CoV-2 proteins.
+  - **Evidence pointer** Section 3.1 SARS-CoV-2 Protein Selection; Table 1
+  - **Concern** The validation approach may be circular. If the prediction tools were trained on datasets that include the same or similar proteins, or if the experimentally validated regions were used to select the proteins for analysis, the validation is not independent. The manuscript does not clarify whether the experimental data used for validation were part of the training sets of the prediction tools. Additionally, the specific experimental methods used to validate the disorder regions are not described in detail.
+  - **Why it matters** Independent validation is essential for assessing the predictive performance of computational tools. If the validation is circular, the reported accuracy metrics are inflated and the conclusions about model performance are not reliable.
+  - **Resolution test** The authors should clarify whether the experimentally validated regions were part of the training data for the prediction tools. They should also provide details on the experimental methods used to validate the disorder regions and ensure that the validation set is independent of the training set.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Overinterpretation of results
+  - **Claim pointer** The authors claim that the identified IDRs could serve as promising targets for small-molecule drug development to combat COVID-19.
+  - **Evidence pointer** Abstract; Section 2.12 Targeting IDRs in Drug Design
+  - **Concern** The manuscript presents computational predictions of disorder as potential drug targets without any experimental evidence that these regions are druggable. The examples of successful IDR-targeting drugs cited in Section 2.12 are from other proteins and diseases, not from SARS-CoV-2. The leap from computational prediction to therapeutic target is not justified by the data presented.
+  - **Why it matters** Drug development is a complex process that requires experimental validation of target engagement, efficacy, and safety. Presenting computational predictions as drug targets without experimental support is misleading and could lead to wasted research efforts.
+  - **Resolution test** The authors should temper their conclusions about drug development potential and clearly state that these are hypotheses that require experimental validation. They should also discuss the challenges and limitations of targeting IDRs with small molecules in the context of SARS-CoV-2.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** The authors state that sequences were retrieved from UniProt and that disorder predictions were made using four tools.
+  - **Evidence pointer** Section 3.1 SARS-CoV-2 Protein Selection; Section 3.2 Disorder Prediction Tools; Supplementary Data S1
+  - **Concern** The manuscript does not provide the specific UniProt accession numbers for the proteins analyzed, nor does it describe the exact versions of the prediction tools used. The parameters and thresholds for defining disorder are not fully specified. The supplementary data are referenced but were not available for review.
+  - **Why it matters** Reproducibility is a fundamental requirement for scientific research. Without detailed information on the sequences, tools, and parameters used, other researchers cannot replicate the analysis or verify the results.
+  - **Resolution test** The authors should provide UniProt accession numbers for all proteins, specify the versions of the prediction tools, describe the parameters and thresholds used, and make the supplementary data publicly available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Section 2.1 Replicase Polyprotein 1ab
+  - **Evidence pointer** Section 2.1, location not provided
+  - **Issue** The text states "The N-terminal domain (1-300) showed higher predicted disorder compared with the C-terminal domain (3705-4405) in the ADOPT model." This comparison is confusing because the N-terminal domain of NSP1 is not 1-300; NSP1 is a relatively small protein. The numbering appears to refer to the polyprotein, not NSP1, but this is not clearly stated.
+  - **Required correction** Clarify the residue numbering system used. If the numbering refers to the polyprotein, state this explicitly. If it refers to NSP1, the coordinates appear incorrect.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency of results reporting
+  - **Affected element** Section 2.7 Spike Glycoprotein
+  - **Evidence pointer** Section 2.7, location not provided
+  - **Issue** The text states "the S2 subunit exhibited higher predicted disorder compared with the S1 subunit across all models" but later states "whereas VLXT performed with good accuracy." This is contradictory. If VLXT performed well, it should also show higher disorder in S2. The relationship between model performance and the disorder predictions is unclear.
+  - **Required correction** Clarify the distinction between model performance (agreement with experimental data) and the disorder predictions themselves. If VLXT predicted higher disorder in S2 but with lower accuracy, this should be stated explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reference accuracy
+  - **Affected element** Section 2.12 Targeting IDRs in Drug Design
+  - **Evidence pointer** Section 2.12, location not provided
+  - **Issue** The text cites "AJM589" as a small-molecule inhibitor that disrupts the c-Myc/Max interaction. The correct name for this compound is generally reported as "AJM290" or "10058-F4" in the literature. The citation may be inaccurate.
+  - **Required correction** Verify the compound name and citation. If the compound name is incorrect, correct it or remove the specific example.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Figure quality
+  - **Affected element** Figures 2-6
+  - **Evidence pointer** Figures 2-6, not available for review
+  - **Issue** The figures are referenced throughout the text but were not available for review. The text descriptions suggest that the figures may be complex and difficult to interpret without clear labeling.
+  - **Required correction** Ensure that all figures are clearly labeled, include legends that explain all symbols and abbreviations, and are referenced appropriately in the text.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 3.3 Disorder Scoring and Data Analysis
+  - **Evidence pointer** Section 3.3, location not provided
+  - **Issue** The text states "Regions with Z-score below 3 were considered to be fully disordered. Regions with Z-scores between 3 and 8 were classified as partially disordered. Regions with Z-scores between 8 and 11 are considered to be flexible. Regions with Z-scores ≥ 11 were predicted to be structured." The term "fully disordered" is ambiguous. It is unclear whether this means completely unstructured or simply disordered according to the tool's threshold.
+  - **Required correction** Define the term "fully disordered" more precisely. Consider using more standard terminology such as "high confidence disorder" or "strong disorder propensity."
+
+## Risk / unsupported claims
+- The claim that the identified IDRs are "promising targets for small-molecule drug development" is unsupported by experimental evidence and is an overinterpretation of computational predictions.
+- The claim that "VSL2 was the best and most accurate predictor" is based on a statistical analysis that is not fully described and may be flawed.
+- The claim that "a significant positive correlation was observed between predicted disorder scores and experimentally validated disorder regions for all models" is not supported by the data presented, as the correlation analysis is not described in detail.
+- The functional significance claims for specific IDRs (e.g., NSP1 linker, ORF3a TRAF-binding motif, N-protein RNA binding) are based on literature citations but are not experimentally validated in this study.
+- The statement that "the S2 subunit of the spike protein displayed more predicted disorder than the S1 subunit across ADOPT, VSL2, and flDPnn" is presented as a finding, but the biological significance of this observation is not discussed in depth.
+- The claim that "these IDRs are essential for viral functions" is too strong given that the study only uses computational predictions and literature-based functional annotations.

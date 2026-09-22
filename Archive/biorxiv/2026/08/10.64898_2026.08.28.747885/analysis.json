@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.08.28.747885",
+  "title": "GNMCADS: Sampling For Protein Conformation Diversity With Gaussian Network Model Guided Condition Annealed Diffusion Sampler",
+  "authors": "Ahmed Selim Uzum; Turkan Haliloglu",
+  "journal": "bioRxiv",
+  "published_date": "2026-08-28",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出GNMCADS，利用高斯网络模型引导条件退火扩散采样器增强AlphaFold3的构象多样性采样，虽非直接针对无序蛋白PPI，但其基于蛋白内在动力学引导构象采样的方法对IDR介导互作的构象建模具有可迁移启发。",
+  "abstract": "Proteins are dynamic molecules existing in diverse conformational states underlying their biological functions. Although recent approaches have enabled diverse conformational sampling by emulating molecular dynamics simulations, perturbing evolutionary information, or steering internal mechanisms of structure prediction models, predicting conformations resulting from major domain motions or motions that occur over long timescales still remains a challenge. To this end, we introduce GNMCADS, a conformational sampling strategy that enhances the diversity of protein diffusion models by selectively annealing the conditioning signal guided by the intrinsic dynamical organization of the sampled protein. Further, we implement GNMCADS in the diffusion module of AlphaFold3, enabling the generation of diverse protein conformations. When benchmarked across 92 proteins that include 54 class A GPCRs, 15 transporters, and 23 proteins with major domain movements, GNMCADS exhibits improved sampling diversity compared to other current conformational sampling methods.",
+  "abstract_zh": "蛋白质是动态分子，存在于多种构象状态中，这些状态是其生物学功能的基础。尽管近期方法已通过模拟分子动力学 (molecular dynamics) 仿真、扰动进化信息或引导结构预测模型的内部机制，实现了多样化的构象采样，但预测由主要结构域运动或长时间尺度运动产生的构象仍是一项挑战。为此，我们引入了GNMCADS，一种构象采样策略，通过根据所采样蛋白质的内在动态组织选择性退火条件信号，增强蛋白质扩散模型的多样性。进一步，我们在AlphaFold3的扩散模块中实现了GNMCADS，从而能够生成多样化的蛋白质构象。在对92种蛋白质（包括54种A类GPCR、15种转运蛋白和23种具有主要结构域运动的蛋白质）进行基准测试时，与其他当前构象采样方法相比，GNMCADS表现出更高的采样多样性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747885",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.08.28.747885",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.08.28.747885/index.html"
+}

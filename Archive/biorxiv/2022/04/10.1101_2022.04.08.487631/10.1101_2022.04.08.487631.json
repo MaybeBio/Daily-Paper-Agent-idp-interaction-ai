@@ -1,0 +1,210 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.04.08.487631",
+  "title": "Structural and biophysical properties of FopA, a major outer membrane protein of Francisella tularensis",
+  "doi": "10.1101/2022.04.08.487631",
+  "abstract": "Francisella tularensis is an extremely infectious pathogen and a category A bioterrorism agent. It causes the highly contagious zoonosis, Tularemia. Currently, FDA approved vaccines against tularemia are unavailable. F. tularensis outer membrane protein A (FopA) is a well-studied virulence determinant and protective antigen against tularemia. It is a major outer membrane protein (Omp) of F. tularensis . However, FopA-based therapeutic intervention is hindered due to lack of complete structural information for membrane localized mature FopA. In our study, we established recombinant expression, monodisperse purification, crystallization and X-ray diffraction (∼6.5 Å) of membrane localized mature FopA. Further, we performed bioinformatics and biophysical experiments to unveil its structural organization in the outer membrane. FopA consists of 393 amino acids and has less than 40% sequence identity to known bacterial Omps. Using comprehensive sequence alignments and structure predictions together with existing partial structural information, we propose a two-domain organization for FopA. Circular dichroism spectroscopy and heat modifiability assay confirmed FopA has a β-barrel domain consistent with alphafold2’s prediction of an eight stranded β-barrel at the N-terminus. Small angle X-ray scattering (SAXS) and native-polyacrylamide gel electrophoresis revealed FopA purified in detergent micelles is predominantly dimeric. Molecular density derived from SAXS at 31 Å shows putative dimeric N-terminal β-barrels surrounded by detergent corona and connected to C-terminal domains via flexible linker. Disorder analysis predicts N- and C-terminal domains are interspersed by a long intrinsically disordered region and alphafold2 predicts this region to be largely unstructured. Taken together, we propose a dimeric, two-domain organization of FopA in the outer membrane: the N-terminal β-barrel is membrane embedded, provides dimerization interface and tethers to membrane extrinsic C-terminal domain via long flexible linker. Structure determination of membrane localized mature FopA is essential to understand its role in pathogenesis and develop anti-tularemia therapeutics. Our results pave the way towards it.",
+  "authors": [
+    "Nagaratnam N",
+    "Martin-Garcia JM",
+    "Yang J",
+    "Goode MR",
+    "Ketawala G",
+    "Craciunescu FM",
+    "Zook JD",
+    "Grant TD",
+    "Fromme R",
+    "Hansen DT",
+    "Fromme P"
+  ],
+  "published_date": "2022-04-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.04.08.487631",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.04.08.487631.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR479596",
+    "raw_record": {
+      "id": "PPR479596",
+      "source": "PPR",
+      "doi": "10.1101/2022.04.08.487631",
+      "title": "Structural and biophysical properties of FopA, a major outer membrane protein of  <i>Francisella tularensis</i>",
+      "authorString": "Nagaratnam N, Martin-Garcia JM, Yang J, Goode MR, Ketawala G, Craciunescu FM, Zook JD, Grant TD, Fromme R, Hansen DT, Fromme P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Nagaratnam N",
+            "lastName": "Nagaratnam",
+            "firstName": "Nirupa",
+            "initials": "N"
+          },
+          {
+            "fullName": "Martin-Garcia JM",
+            "lastName": "Martin-Garcia",
+            "firstName": "Jose",
+            "initials": "JM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4558-3858"
+            }
+          },
+          {
+            "fullName": "Yang J",
+            "lastName": "Yang",
+            "firstName": "Jay-How",
+            "initials": "J"
+          },
+          {
+            "fullName": "Goode MR",
+            "lastName": "Goode",
+            "firstName": "Matthew",
+            "initials": "MR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5923-6753"
+            }
+          },
+          {
+            "fullName": "Ketawala G",
+            "lastName": "Ketawala",
+            "firstName": "Gihan",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9436-3536"
+            }
+          },
+          {
+            "fullName": "Craciunescu FM",
+            "lastName": "Craciunescu",
+            "firstName": "Felicia",
+            "initials": "FM"
+          },
+          {
+            "fullName": "Zook JD",
+            "lastName": "Zook",
+            "firstName": "James",
+            "initials": "JD"
+          },
+          {
+            "fullName": "Grant TD",
+            "lastName": "Grant",
+            "firstName": "Thomas",
+            "initials": "TD"
+          },
+          {
+            "fullName": "Fromme R",
+            "lastName": "Fromme",
+            "firstName": "Raimund",
+            "initials": "R"
+          },
+          {
+            "fullName": "Hansen DT",
+            "lastName": "Hansen",
+            "firstName": "Debra",
+            "initials": "DT"
+          },
+          {
+            "fullName": "Fromme P",
+            "lastName": "Fromme",
+            "firstName": "Petra",
+            "initials": "P"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5923-6753"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4558-3858"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9436-3536"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0953-4909"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Francisella tularensis is an extremely infectious pathogen and a category A bioterrorism agent. It causes the highly contagious zoonosis, Tularemia. Currently, FDA approved vaccines against tularemia are unavailable.  F. tularensis outer membrane protein A (FopA) is a well-studied virulence determinant and protective antigen against tularemia. It is a major outer membrane protein (Omp) of  F. tularensis . However, FopA-based therapeutic intervention is hindered due to lack of complete structural information for membrane localized mature FopA. In our study, we established recombinant expression, monodisperse purification, crystallization and X-ray diffraction (∼6.5 Å) of membrane localized mature FopA. Further, we performed bioinformatics and biophysical experiments to unveil its structural organization in the outer membrane. FopA consists of 393 amino acids and has less than 40% sequence identity to known bacterial Omps. Using comprehensive sequence alignments and structure predictions together with existing partial structural information, we propose a two-domain organization for FopA. Circular dichroism spectroscopy and heat modifiability assay confirmed FopA has a β-barrel domain consistent with alphafold2’s prediction of an eight stranded β-barrel at the N-terminus. Small angle X-ray scattering (SAXS) and native-polyacrylamide gel electrophoresis revealed FopA purified in detergent micelles is predominantly dimeric. Molecular density derived from SAXS at 31 Å shows putative dimeric N-terminal β-barrels surrounded by detergent corona and connected to C-terminal domains via flexible linker. Disorder analysis predicts N- and C-terminal domains are interspersed by a long intrinsically disordered region and alphafold2 predicts this region to be largely unstructured. Taken together, we propose a dimeric, two-domain organization of FopA in the outer membrane: the N-terminal β-barrel is membrane embedded, provides dimerization interface and tethers to membrane extrinsic C-terminal domain via long flexible linker. Structure determination of membrane localized mature FopA is essential to understand its role in pathogenesis and develop anti-tularemia therapeutics. Our results pave the way towards it.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/04/09/2022.04.08.487631.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.04.08.487631"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "35913965",
+            "reference": "PloS one. 2022 ;17(8):e0267370",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-04-10",
+      "firstPublicationDate": "2022-04-09",
+      "firstIndexDate": "2022-04-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

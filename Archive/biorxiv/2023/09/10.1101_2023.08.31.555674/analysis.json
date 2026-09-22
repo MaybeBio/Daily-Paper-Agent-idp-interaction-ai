@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.31.555674",
+  "title": "New structural features of the APC/C from high-resolution cryo-EM structures of apo-APC/C and APC/C CDH1:EMI1 complexes",
+  "authors": "Höfler A; Yu J; Yang J; Zhang Z; Chang L; McLaughlin SH; Grime GW; Garman EF; Boland A; Barford D",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-01",
+  "window": {
+    "start": "2023-08-28",
+    "end": "2023-09-03"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究利用高分辨率冷冻电镜和AlphaFold预测解析APC/C复合物结构，涉及IDR建模与复合物组装机制，但对象非IDP介导的PPI且方法以结构解析为主，对无序蛋白互作机制建模有部分启发。",
+  "abstract": "The multi-subunit anaphase-promoting complex/cyclosome (APC/C) is a master regulator of cell division. It controls progression through the cell cycle by timely marking mitotic cyclins and other cell cycle regulatory proteins for degradation. The APC/C itself is regulated by the sequential action of its coactivator subunits CDC20 and CDH1, post-translational modifications, and its inhibitory binding partners EMI1 and the mitotic checkpoint complex (MCC). In this study, we took advantage of the latest developments in cryo-electron microscopy (cryo-EM) to determine the structures of human APC/C CDH1:EMI1 and apo-APC/C at 2.9 Å and 3.2 Å resolution, respectively, providing novel insights into the regulation of APC/C activity. The high-resolution maps allowed the unambiguous assignment of a previously unassigned α-helix to the N-terminus of CDH1 (CDH1 α1 ) in the APC/C CDH1:EMI1 ternary complex. We also identified a novel zinc-binding module in APC2 that confers structural stability to APC2, and we confirmed the presence of zinc ions experimentally. Finally, due to the higher resolution and well defined density of these maps, we were able to build, aided by AlphaFold predictions, several intrinsically disordered regions in different APC/C subunits that likely play a role in proper APC/C assembly and regulation of its activity.",
+  "abstract_zh": "多亚基后期促进复合物/环osome（APC/C）是细胞分裂的主要调控因子。它通过及时标记有丝分裂周期蛋白及其他细胞周期调控蛋白进行降解，来控制细胞周期的进程。APC/C本身受其共激活因子亚基CDC20和CDH1的依次作用、翻译后修饰及其抑制性结合伙伴EMI1和有丝分裂检查点复合物（MCC）的调控。在本研究中，我们利用冷冻电子显微镜（cryo-EM）的最新进展，分别以2.9 Å和3.2 Å的分辨率确定了人源APC/C CDH1:EMI1复合物及无配体APC/C的结构，为APC/C活性的调控提供了新的见解。高分辨率图谱使得在APC/C CDH1:EMI1三元复合物中，能够明确地将先前未分配的α-螺旋归属至CDH1的N端（CDH1 α1）。我们还识别出APC2中一个新型锌结合模块，该模块赋予APC2结构稳定性，并通过实验证实了锌离子的存在。最后，由于这些图谱具有更高的分辨率和清晰的密度，我们借助AlphaFold预测，构建了多个APC/C亚基中的内在无序区域，这些区域可能在APC/C的正确组装及其活性调控中发挥作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.31.555674",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.31.555674",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.31.555674/index.html"
+}

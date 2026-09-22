@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38131207",
+  "title": "Molecular dynamics simulations revealed topological frustration in the binding-wrapping process of eIF4G with eIF4E.",
+  "authors": "Gao, Meng; Huang, Yongqi",
+  "journal": "Physical chemistry chemical physics : PCCP",
+  "published_date": "2023-12-22",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟揭示无序蛋白eIF4G结合eIF4E时的拓扑挫败机制，直接命中无序蛋白PPI互作机制建模，方法为物理模拟，深度剖析结合路径与动力学。",
+  "abstract": "Interaction between the cap-binding protein eIF4E and the scaffolding protein eIF4G is essential for the cap-dependent translation initiation in eukaryotes. In the Saccharomyces cerevisiae eIF4G/eIF4E complex, the intrinsically disordered eIF4E-binding domain of eIF4G folds into a bracelet-like structure upon binding to eIF4E. Aiming to unveil the molecular mechanism underlying the binding-wrapping process of eIF4G with eIF4E, we performed extensive coarse-grained molecular dynamics simulations and transition path analysis in this work. The major transition pathway revealed from our simulations showed that docking of the eIF4E-binding motif of eIF4G to the folded core of eIF4E initiates the binding process and then the disordered eIF4G wraps around the N-terminal tail of eIF4E. Additionally, we identified a minor transition pathway which indicates the involvement of topological frustration in the binding process. By manipulating the interaction strength of the wrapping contacts and the latching contacts, we further dissected factors affecting the formation of topological frustration and the binding transition kinetics. Our findings provide new clues for experimental studies on the binding mechanism of eIF4G to eIF4E in the future and exemplify the involvement of topological frustration in the binding process of intrinsically disordered proteins.",
+  "abstract_zh": "帽结合蛋白eIF4E与支架蛋白eIF4G之间的相互作用对于真核生物中帽依赖性翻译起始至关重要。在酿酒酵母eIF4G/eIF4E复合物中，eIF4G的内在无序eIF4E结合域在与eIF4E结合时折叠成手镯状结构。为了揭示eIF4G与eIF4E结合-包裹过程的分子机制，本研究进行了广泛的粗粒化分子动力学模拟和过渡路径分析。模拟揭示的主要过渡路径表明，eIF4G的eIF4E结合基序与eIF4E折叠核心的对接启动了结合过程，随后无序的eIF4G包裹eIF4E的N端尾部。此外，我们识别出一条次要过渡路径，表明拓扑挫折在结合过程中的参与。通过调控包裹接触和闩锁接触的相互作用强度，我们进一步剖析了影响拓扑挫折形成和结合过渡动力学的因素。我们的发现为未来eIF4G与eIF4E结合机制的实验研究提供了新线索，并例证了拓扑挫折在内在无序蛋白结合过程中的参与。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38131207/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38131207/",
+  "paper_page_path": "papers/pubmed/38131207/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.23.684059",
+  "title": "Intrinsically Disordered Protein Coating for Oral Delivery of Peptide Drugs",
+  "authors": "Max Ney; Parul Sirohi; Yulia Shmidov; Anurag Singh; Gable Wadsworth; Xinghai Li; James Zheng; Erica Peng; Lixin Fan; Tharun Selvam Mahendran; Sonal Deshpande; Navya Tripathi; Jonathan C. Su; Joshua James Milligan; Yun-Xing Wang; Priya R. Banerjee; Ashutosh Chilkoti",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-24",
+  "window": {
+    "start": "2025-10-20",
+    "end": "2025-10-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文利用工程化无序蛋白(SynIDP)自组装成肠溶包衣，通过相变实现肽类药物口服递送，虽涉及IDP相分离和凝聚体机制，但核心是药物递送应用而非PPI互作机制建模，方法上无AI或物理模拟，故综合评分为5。",
+  "abstract": "Advancing oral delivery of peptide therapeutics requires innovative materials that overcome gastrointestinal barriers. We introduce the first engineered synthetic intrinsically disordered protein (SynIDP) that self-assembles into an enteric coating, encapsulating peptide drugs to enhance gastric acid resistance and intestinal targeting. This SynIDP recapitulates the molecular design principles and phase transitions of native IDPs to exhibit temperature-controlled condensation and pH-controlled solidification—both transitions being reversible and precisely tuned to intestinal cues. Through detailed analysis of the kinetics of the liquid-to-solid phase transition, we achieve control over the nano-to-microscale morphology of the protein coating, optimizing drug encapsulation and protection. The coating protects peptide-based weight loss drugs for over 60 minutes in simulated gastric conditions, then dissolves to release the active compound. Oral delivery to obese mice results in more consistent weight loss compared to the unencapsulated drug. This modular protein-based coating is a promising platform technology for enhancing oral peptide drug delivery and improving patient compliance.",
+  "abstract_zh": "推进肽类治疗药物的口服递送需要创新材料来克服胃肠道屏障。我们首次引入了一种工程化合成 intrinsically disordered protein (SynIDP)，其可自组装形成肠溶包衣，封装肽类药物以增强耐胃酸性和肠道靶向性。该 SynIDP 重现了天然 IDP 的分子设计原理和相变特性，表现出温度控制的凝聚和 pH 控制的固化——这两种转变均可逆，并精确调节以适应肠道信号。通过对液-固相变动力学的详细分析，我们实现了对蛋白质包衣纳米至微米尺度形态的控制，优化了药物封装和保护。该包衣在模拟胃液条件下保护肽类减肥药物超过60分钟，随后溶解以释放活性化合物。对肥胖小鼠的口服给药结果显示，与未封装药物相比，体重减轻更为一致。这种模块化蛋白质基包衣是增强口服肽类药物递送并提高患者依从性的有前景的平台技术。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.23.684059",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.23.684059",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.23.684059/index.html"
+}

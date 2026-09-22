@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "39146685",
+    "doi": "10.1016/j.foodchem.2024.140829",
+    "title": "Molecular investigation of soybean protein for improving the stability of quinoa (Chenopodium quinoa willd.) milk substitute."
+  },
+  "content": {
+    "abstract": "Soybean could greatly improve stability of quinoa milk substitute. However, the key compound and underlying mechanisms remained unclear. Here we showed that soybean protein was the key component for improving quinoa milk substitute stability but not oil or okara. Supplementary level of soybean protein at 0%, 2%, 4%, and 8% of quinoa (w/w) was optimized. Median level at 4% could effectively enhance physical stability, reduce particle size, narrow down particle size distribution, and decrease apparent viscosity of quinoa milk substitute. Microscopic observation further confirmed that soybean protein could prevent phase separation. Besides, soybean protein showed increased surface hydrophobicity. Molecular docking simulated that soybean protein but not quinoa protein, could provide over 10 anchoring points for the most abundant quinoa vanillic acid, through hydrogen bond and Van-der-Waals. These results contribute to improve stability of quinoa based milk substitute, and provide theoretical basis for the interaction of quinoa phenolics and soybean protein.",
+    "keywords": [
+      "Molecular docking",
+      "Quinoa milk substitute",
+      "Quinoa phenolic",
+      "Soybean protein",
+      "Stability"
+    ],
+    "mesh_terms": [
+      "*Chenopodium quinoa/chemistry",
+      "*Soybean Proteins/chemistry",
+      "*Molecular Docking Simulation",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Viscosity",
+      "Particle Size"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Sumei",
+        "Liu, Xinghao",
+        "Cui, Yajun",
+        "Chen, Siyi",
+        "Zhong, Fang",
+        "Lu, Jing",
+        "Kong, Chunli"
+      ],
+      "short_names": [
+        "Zhou S",
+        "Liu X",
+        "Cui Y",
+        "Chen S",
+        "Zhong F",
+        "Lu J",
+        "Kong C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Beijing Advanced Innovation Center for Food Nutrition and Human Health, Beijing Engineering and Technology Research Center of Food Additives, School of Food and health, Beijing Technology & Business University (BTBU), Beijing 100048, China.",
+        "Beijing Advanced Innovation Center for Food Nutrition and Human Health, Beijing Engineering and Technology Research Center of Food Additives, School of Food and health, Beijing Technology & Business University (BTBU), Beijing 100048, China.",
+        "Beijing Advanced Innovation Center for Food Nutrition and Human Health, Beijing Engineering and Technology Research Center of Food Additives, School of Food and health, Beijing Technology & Business University (BTBU), Beijing 100048, China.",
+        "Beijing Advanced Innovation Center for Food Nutrition and Human Health, Beijing Engineering and Technology Research Center of Food Additives, School of Food and health, Beijing Technology & Business University (BTBU), Beijing 100048, China.",
+        "Science Center for Future Food, Jiangnan University, Wuxi 214122, China.",
+        "Beijing Advanced Innovation Center for Food Nutrition and Human Health, Beijing Engineering and Technology Research Center of Food Additives, School of Food and health, Beijing Technology & Business University (BTBU), Beijing 100048, China.",
+        "Beijing Advanced Innovation Center for Food Nutrition and Human Health, Beijing Engineering and Technology Research Center of Food Additives, School of Food and health, Beijing Technology & Business University (BTBU), Beijing 100048, China. Electronic address: kongc0606@btbu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Sumei",
+        "short_name": "Zhou S",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Advanced Innovation Center for Food Nutrition and Human Health, Beijing Engineering and Technology Research Center of Food Additives, School of Food and health, Beijing Technology & Business University (BTBU), Beijing 100048, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinghao",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Advanced Innovation Center for Food Nutrition and Human Health, Beijing Engineering and Technology Research Center of Food Additives, School of Food and health, Beijing Technology & Business University (BTBU), Beijing 100048, China."
+        ]
+      },
+      {
+        "full_name": "Cui, Yajun",
+        "short_name": "Cui Y",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Advanced Innovation Center for Food Nutrition and Human Health, Beijing Engineering and Technology Research Center of Food Additives, School of Food and health, Beijing Technology & Business University (BTBU), Beijing 100048, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Siyi",
+        "short_name": "Chen S",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Advanced Innovation Center for Food Nutrition and Human Health, Beijing Engineering and Technology Research Center of Food Additives, School of Food and health, Beijing Technology & Business University (BTBU), Beijing 100048, China."
+        ]
+      },
+      {
+        "full_name": "Zhong, Fang",
+        "short_name": "Zhong F",
+        "identifiers": [],
+        "affiliations": [
+          "Science Center for Future Food, Jiangnan University, Wuxi 214122, China."
+        ]
+      },
+      {
+        "full_name": "Lu, Jing",
+        "short_name": "Lu J",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Advanced Innovation Center for Food Nutrition and Human Health, Beijing Engineering and Technology Research Center of Food Additives, School of Food and health, Beijing Technology & Business University (BTBU), Beijing 100048, China."
+        ]
+      },
+      {
+        "full_name": "Kong, Chunli",
+        "short_name": "Kong C",
+        "identifiers": [],
+        "affiliations": [
+          "Beijing Advanced Innovation Center for Food Nutrition and Human Health, Beijing Engineering and Technology Research Center of Food Additives, School of Food and health, Beijing Technology & Business University (BTBU), Beijing 100048, China. Electronic address: kongc0606@btbu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Food chemistry"
+    ],
+    "journal_abbrev": [
+      "Food Chem"
+    ],
+    "pub_date": "2024 Dec 15",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/16 01:19",
+    "fetched_at": "2026-09-21 09:32:18"
+  },
+  "links": {
+    "cites": [
+      "41599431",
+      "41160200",
+      "40491708"
+    ],
+    "refs": [],
+    "similar": [
+      "39146685",
+      "33582544",
+      "25053071",
+      "31771881",
+      "19878856",
+      "32363830",
+      "25863614",
+      "28562127",
+      "29603254",
+      "34500401",
+      "24679767",
+      "27173553",
+      "32829242",
+      "34481848",
+      "33745134",
+      "29808471",
+      "34364069",
+      "30548624",
+      "14745190",
+      "30016098",
+      "26433286",
+      "31282254",
+      "31357016",
+      "33068217",
+      "20814881",
+      "39094886",
+      "33125402",
+      "36431797",
+      "30642475",
+      "24958776",
+      "21905641",
+      "23057788",
+      "32028198",
+      "32036934",
+      "32597512",
+      "29664623",
+      "36080392",
+      "28831659",
+      "37210060",
+      "29892770",
+      "29248677",
+      "36870209",
+      "30372956",
+      "22318925",
+      "37971378",
+      "12701372",
+      "38327020",
+      "36966857",
+      "36348073",
+      "29239176",
+      "26744800",
+      "27458999",
+      "27979129",
+      "32120971",
+      "22512450",
+      "35365864",
+      "35042113",
+      "30716950",
+      "25087036",
+      "35963347",
+      "29316448",
+      "38542751",
+      "31324047",
+      "31842519",
+      "27173545",
+      "35811466",
+      "38350197",
+      "37530626",
+      "34610747",
+      "21480793",
+      "30559081",
+      "38422637",
+      "33233186",
+      "32947238",
+      "34083060",
+      "31323439",
+      "34581209",
+      "25983037",
+      "35627074",
+      "11829658",
+      "29433229",
+      "36539684",
+      "30655548",
+      "37379746",
+      "32475554",
+      "36608550",
+      "38876583",
+      "35458651",
+      "38820644",
+      "31858602",
+      "35276913",
+      "33709442",
+      "24912714",
+      "32977429",
+      "35955612",
+      "37402232",
+      "38611788",
+      "31617214",
+      "31261014",
+      "31765743",
+      "29551513"
+    ],
+    "review": [
+      "39146685",
+      "19878856",
+      "20814881",
+      "32120971",
+      "38542751",
+      "31324047",
+      "31323439",
+      "34581209",
+      "36608550"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0308-8146(24)02479-8",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

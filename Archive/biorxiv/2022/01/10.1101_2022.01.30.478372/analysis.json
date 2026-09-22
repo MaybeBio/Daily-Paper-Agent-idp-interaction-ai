@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.01.30.478372",
+  "title": "Glucose stress causes mRNA retention in nuclear Nab2 condensates",
+  "authors": "Heinrich S; Hondele M; Marchand D; Derrer CP; Zedan M; Oswald A; Malinovska L; Uliana F; Khawaja S; Mancini R; Grunwald D; Weis K",
+  "journal": "bioRxiv",
+  "published_date": "2022-01-30",
+  "window": {
+    "start": "2022-01-24",
+    "end": "2022-01-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过单RNA成像和体外液滴实验，揭示酵母核内Nab2蛋白在葡萄糖应激下形成RNA依赖的凝聚体并滞留mRNA，虽聚焦核内RNA滞留而非典型PPI，但涉及IDR与凝聚体机制，且方法上结合实验与体外重构，对无序蛋白介导的凝聚体互作机制建模有参考价值。",
+  "abstract": "<h4>Summary</h4> Nuclear mRNA export via nuclear pore complexes is an essential step in eukaryotic gene expression. Although factors involved in mRNA transport have been characterized, a comprehensive mechanistic understanding of this process and its regulation is lacking. Here, we use single-RNA imaging in yeast to show that cells use mRNA retention to control mRNA export during stress. We demonstrate that upon glucose withdrawal the essential RNA-binding factor Nab2 forms RNA-dependent condensate-like structures in the nucleus. This coincides with a reduced abundance of the DEAD-box ATPase Dbp5 at the nuclear pore. Depleting Dbp5, and consequently blocking mRNA export, is necessary and sufficient to trigger Nab2 condensation. The state of Nab2 condensation influences the extent of nuclear mRNA accumulation and can be recapitulated in vitro , where Nab2 forms RNA-dependent liquid droplets. We hypothesize that cells use condensation to regulate mRNA export and to control gene expression during stress. <h4>Highlights</h4> The nuclear poly(A)-binding protein Nab2 forms RNA-containing condensate-like structures upon glucose starvation and upon acute cellular depletion of the DEAD-box ATPase Dbp5 The Nab2 multimerization interface but not the intrinsically disordered regions (IDRs) are essential for condensation in vitro and in vivo Glucose stress leads to poly(A) RNA retention in the nucleus, which is affected by the state of the Nab2 condensate",
+  "abstract_zh": "<h4>摘要</h4> 通过核孔复合体的核mRNA输出是真核基因表达中的一个关键步骤。尽管参与mRNA运输的因子已被表征，但对该过程及其调控的全面机制理解仍然缺乏。在此，我们利用酵母中的单RNA成像技术表明，细胞在应激期间通过mRNA滞留来控制mRNA输出。我们证明，在葡萄糖剥夺后，必需的RNA结合因子Nab2在细胞核中形成RNA依赖的凝聚体样结构。这与DEAD-box ATP酶Dbp5在核孔处的丰度降低同时发生。耗尽Dbp5，从而阻断mRNA输出，是触发Nab2凝聚的必要且充分条件。Nab2凝聚的状态影响核mRNA积累的程度，并可在体外重现，其中Nab2形成RNA依赖的液滴。我们假设细胞利用凝聚来调节mRNA输出，并在应激期间控制基因表达。 <h4>亮点</h4> 核聚(A)结合蛋白Nab2在葡萄糖饥饿和DEAD-box ATP酶Dbp5急性细胞耗尽时形成含RNA的凝聚体样结构 Nab2的多聚化界面而非 intrinsically disordered regions (IDRs) 对体外和体内的凝聚至关重要 葡萄糖应激导致核内聚(A) RNA滞留，这受Nab2凝聚状态的影响",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.01.30.478372",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.01.30.478372",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.01.30.478372/index.html"
+}

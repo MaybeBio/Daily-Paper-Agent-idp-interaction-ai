@@ -1,0 +1,379 @@
+{
+  "identity": {
+    "pmid": "34869581",
+    "doi": "10.3389/fmolb.2021.734169",
+    "title": "An Unbound Proline-Rich Signaling Peptide Frequently Samples Cis Conformations in Gaussian Accelerated Molecular Dynamics Simulations."
+  },
+  "content": {
+    "abstract": "Disordered proline-rich motifs are common across the proteomes of many species and are often involved in protein-protein interactions. Proline is a unique amino acid due to the covalent bond between the backbone nitrogen and the proline side chain. The resulting five-membered ring allows proline to sample the cis state about its peptide bond, which other residues cannot do as readily. Because proline-rich disordered sequences exist as ensembles that likely include structures with the proline peptide bond in cis, a robust methodology to accurately account for these conformations in the overall ensemble is crucial. Observing the cis conformations of proline in a disordered sequence is challenging both experimentally and computationally. Nitrogen-hydrogen NMR spectroscopy cannot directly observe proline residues, which lack an amide bond, and computational methods struggle to overcome the large kinetic barrier between the cis and trans states, since isomerization usually occurs on the order of seconds. In the current work, Gaussian accelerated molecular dynamics was used to overcome this free energy barrier and simulate proline isomerization in a tetrapeptide (KPTP) and in the 12-residue proline-rich SH3 binding peptide, ArkA. We found that Gaussian accelerated molecular dynamics, when combined with a lowered peptide bond dihedral angle potential energy barrier (15 kcal/mol), allowed sufficient sampling of the proline cis and trans states on a microsecond timescale. All ArkA prolines spend a significant fraction of time in cis, leading to a more compact ensemble with less polyproline II helix structure than an ArkA ensemble with all peptide bonds in trans. The ensemble containing cis prolines also matches more closely to in vitro circular dichroism data than the all-trans ensemble. The ability of the ArkA prolines to isomerize likely affects the peptide's ability to bind its partner SH3 domain, and should be studied further. This is the first molecular dynamics simulation study of proline isomerization in a biologically relevant proline-rich sequence that we know of, and a similar protocol could be applied to study multi-proline isomerization in other proline-containing proteins to improve conformational diversity and agreement with in vitro data.",
+    "keywords": [
+      "circular dichroism",
+      "intrinsically disordered proteins",
+      "isomerization",
+      "molecular dynamics",
+      "proline"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Alcantara, Juan",
+        "Stix, Robyn",
+        "Huang, Katherine",
+        "Connor, Acadia",
+        "East, Ray",
+        "Jaramillo-Martinez, Valeria",
+        "Stollar, Elliott J",
+        "Ball, K Aurelia"
+      ],
+      "short_names": [
+        "Alcantara J",
+        "Stix R",
+        "Huang K",
+        "Connor A",
+        "East R",
+        "Jaramillo-Martinez V",
+        "Stollar EJ",
+        "Ball KA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Skidmore College, Saratoga Springs, NY, United States.",
+        "Department of Chemistry, Skidmore College, Saratoga Springs, NY, United States.",
+        "Department of Chemistry, Skidmore College, Saratoga Springs, NY, United States.",
+        "Department of Chemistry, Skidmore College, Saratoga Springs, NY, United States.",
+        "Department of Chemistry, Skidmore College, Saratoga Springs, NY, United States.",
+        "Department of Neuroscience and Pharmacology, Texas Teach University Health Science Center, Lubbock, TX, United States.",
+        "School of Life Sciences, University of Liverpool, Liverpool, United Kingdom.",
+        "Department of Chemistry, Skidmore College, Saratoga Springs, NY, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Alcantara, Juan",
+        "short_name": "Alcantara J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Skidmore College, Saratoga Springs, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Stix, Robyn",
+        "short_name": "Stix R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Skidmore College, Saratoga Springs, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Huang, Katherine",
+        "short_name": "Huang K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Skidmore College, Saratoga Springs, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Connor, Acadia",
+        "short_name": "Connor A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Skidmore College, Saratoga Springs, NY, United States."
+        ]
+      },
+      {
+        "full_name": "East, Ray",
+        "short_name": "East R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Skidmore College, Saratoga Springs, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Jaramillo-Martinez, Valeria",
+        "short_name": "Jaramillo-Martinez V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neuroscience and Pharmacology, Texas Teach University Health Science Center, Lubbock, TX, United States."
+        ]
+      },
+      {
+        "full_name": "Stollar, Elliott J",
+        "short_name": "Stollar EJ",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, University of Liverpool, Liverpool, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Ball, K Aurelia",
+        "short_name": "Ball KA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Skidmore College, Saratoga Springs, NY, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in molecular biosciences"
+    ],
+    "journal_abbrev": [
+      "Front Mol Biosci"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/07 06:00",
+    "fetched_at": "2026-09-20 06:57:16"
+  },
+  "links": {
+    "cites": [
+      "41832603",
+      "40984006",
+      "40264953",
+      "39340152",
+      "38250404",
+      "35441569"
+    ],
+    "refs": [
+      "32925900",
+      "31791173",
+      "31402660",
+      "30127362",
+      "27807972",
+      "26866899",
+      "26574453",
+      "26300708",
+      "26273869",
+      "26038575",
+      "25840370",
+      "25231121",
+      "25061441",
+      "24706888",
+      "23341186",
+      "22667692",
+      "22329658",
+      "22095872",
+      "21483785",
+      "19938868",
+      "19923435",
+      "19590096",
+      "18508559",
+      "18029448",
+      "17956989",
+      "17406548",
+      "16959570",
+      "16008354",
+      "15701032",
+      "14747311",
+      "12475212",
+      "11724549",
+      "11112270",
+      "10328265",
+      "8744570",
+      "8297327",
+      "7802869",
+      "2010917"
+    ],
+    "similar": [
+      "34869581",
+      "8645165",
+      "12071739",
+      "37657438",
+      "39340152",
+      "37442414",
+      "1868097",
+      "22770126",
+      "32925900",
+      "15321715",
+      "23148796",
+      "16942110",
+      "8880915",
+      "38465868",
+      "19885922",
+      "15701032",
+      "25840370",
+      "8555421",
+      "15381311",
+      "30127362",
+      "27097793",
+      "17048963",
+      "10757978",
+      "17439267",
+      "28547731",
+      "15609935",
+      "26866899",
+      "25075447",
+      "16471763",
+      "17388495",
+      "37395034",
+      "25702031",
+      "33769826",
+      "18302366",
+      "12767219",
+      "18067320",
+      "16358327",
+      "34736898",
+      "34851647",
+      "8393714",
+      "25066180",
+      "16208767",
+      "6441592",
+      "20355726",
+      "19267429",
+      "16478167",
+      "35617919",
+      "19262980",
+      "12741829",
+      "15704965",
+      "9530015",
+      "2350544",
+      "15617814",
+      "23030417",
+      "10644952",
+      "1449599",
+      "9548941",
+      "21320454",
+      "29104984",
+      "27995801",
+      "20384356",
+      "16706410",
+      "10397796",
+      "19354261",
+      "10869177",
+      "19725497",
+      "19373924",
+      "10728871",
+      "25524218",
+      "7613463",
+      "30093407",
+      "9931267",
+      "25261131",
+      "22435395",
+      "18586558",
+      "12559923",
+      "1917292",
+      "23925889",
+      "24211251",
+      "18234212",
+      "22969011",
+      "2372310",
+      "9642049",
+      "8515460",
+      "9922166",
+      "11597227",
+      "20499930",
+      "1472655",
+      "1457725",
+      "26192015",
+      "18988252",
+      "20136113",
+      "7752246",
+      "29064600",
+      "39028892",
+      "24115170",
+      "9174370",
+      "21301103",
+      "6354257",
+      "8138351",
+      "30212210",
+      "33247146",
+      "940354",
+      "23087598",
+      "21538331",
+      "30548564",
+      "27434776",
+      "20886854",
+      "34585830",
+      "37905223",
+      "34270248",
+      "31953795",
+      "36705662",
+      "22329658",
+      "37843061",
+      "17956989",
+      "22829760",
+      "35543334",
+      "21451735",
+      "38945948",
+      "31237705",
+      "38941181",
+      "36555132",
+      "37548612",
+      "38303943",
+      "37607344",
+      "33728248",
+      "34672629",
+      "27340450",
+      "28690684",
+      "34440568",
+      "37737533",
+      "32765799",
+      "37508437",
+      "38579233",
+      "37943023",
+      "37592980",
+      "31737642",
+      "38984065",
+      "22666276",
+      "36680400",
+      "38217162",
+      "23596359",
+      "34844409",
+      "36138781",
+      "35514567",
+      "38804552",
+      "38966365",
+      "36824859",
+      "37576297",
+      "25563293",
+      "33614705",
+      "37486059",
+      "37584166",
+      "35610933"
+    ],
+    "review": [
+      "34869581",
+      "31953795",
+      "38941181"
+    ],
+    "pmc": [
+      "8634643"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34869581/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34869581",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fmolb.2021.734169",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

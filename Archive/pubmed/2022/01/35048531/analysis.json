@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35048531",
+  "title": "MUL1-RING recruits the substrate, p53-TAD as a complex with UBE2D2-UB conjugate.",
+  "authors": "Lee, Min-Sung; Lee, Sang-Ok; Choi, Joonhyeok; Ryu, Minju; Lee, Mi-Kyung; Kim, Ji-Hun; Hwang, Eunha; Lee, Chong-Kil; Chi, Seung-Wook; Ryu, Kyoung-Seok",
+  "journal": "The FEBS journal",
+  "published_date": "2022-01-21",
+  "window": {
+    "start": "2022-01-17",
+    "end": "2022-01-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究通过结构生物学和生化实验揭示RING E3连接酶MUL1如何协同招募E2-泛素复合物与无序底物p53-TAD，阐明多价结合驱动无序蛋白泛素化的机制，虽无AI/物理模拟方法，但聚焦IDP介导的PPI机制，对无序蛋白互作建模有参考价值。",
+  "abstract": "The RING domain of MUL1 (RING(MUL1) ) alone mediates ubiquitylation of the p53-transactivation domain (TAD(p53) ). To elucidate the mechanism underlying the simultaneous recruitment of UBE2D2 and the substrate TAD(p53) by RING(MUL1) , we determined the complex structure of RING(MUL1) :UBE2D2 and studied the interaction between RING(MUL1) and TAD(p53) in the presence of UBE2D2-UB thioester (UBE2D2~UB) mimetics. The RING(MUL1) -binding induced the closed conformation of UBE2D2(S22R/C85S) -UB(K48R) oxyester (UBE2D2(RS) -UB(R) (OE) ), and strongly accelerated its hydrolysis, which was suppressed by the additional N77A-mutation of UBE2D2. Interestingly, UBE2D2(S22R/N77A/C85S) -UB(K48R) oxyester (UBE2D2(RAS) -UB(R) (OE) ) already formed a closed conformation in the absence of RING(MUL1) . Although TAD(p53) exhibited weak binding for RING(MUL1) or UBE2D2 alone, its binding affinity was enhanced and even further for RING(MUL1) :UBE2D2 and RING(MUL1) :UBE2D2(RAS) -UB(R) (OE) , respectively. The recognition of TAD(p53) by RING(MUL1) as a complex with UBE2D2~UB is related to the multivalency of the binding events and underlies the ability of RING(MUL1) to ubiquitylate the intrinsically disordered protein, TAD(p53) .",
+  "abstract_zh": "MUL1的RING结构域（RING(MUL1)）单独即可介导p53反式激活结构域（TAD(p53)）的泛素化。为阐明RING(MUL1)同时招募UBE2D2和底物TAD(p53)的机制，我们解析了RING(MUL1):UBE2D2的复合物结构，并在存在UBE2D2-UB硫酯（UBE2D2~UB）模拟物的条件下，研究了RING(MUL1)与TAD(p53)之间的相互作用。RING(MUL1)结合诱导了UBE2D2(S22R/C85S)-UB(K48R)氧酯（UBE2D2(RS)-UB(R)(OE)）的闭合构象，并强烈加速其水解，而UBE2D2的额外N77A突变则抑制了该水解。有趣的是，UBE2D2(S22R/N77A/C85S)-UB(K48R)氧酯（UBE2D2(RAS)-UB(R)(OE)）在无RING(MUL1)的情况下已形成闭合构象。尽管TAD(p53)单独对RING(MUL1)或UBE2D2表现出弱结合，但其结合亲和力在RING(MUL1):UBE2D2和RING(MUL1):UBE2D2(RAS)-UB(R)(OE)中分别增强，且后者进一步增强。RING(MUL1)作为与UBE2D2~UB复合物对TAD(p53)的识别与结合事件的多价性相关，并构成RING(MUL1)泛素化内在无序蛋白TAD(p53)能力的基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35048531/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35048531/",
+  "paper_page_path": "papers/pubmed/35048531/index.html"
+}

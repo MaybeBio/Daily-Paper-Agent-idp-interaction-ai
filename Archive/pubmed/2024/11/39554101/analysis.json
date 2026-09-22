@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39554101",
+  "title": "COCOMO2: A coarse-grained model for interacting folded and disordered proteins.",
+  "authors": "Jussupow, Alexander; Bartley, Divya; Lapidus, Lisa J; Feig, Michael",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-11-18",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该文提出COCOMO2粗粒化模型，扩展至折叠蛋白与无序蛋白的相互作用及相分离模拟，直接以互作机制建模为核心，方法为物理模拟，对象与互作轴均强相关。",
+  "abstract": "Biomolecular interactions are essential in many biological processes, including complex formation and phase separation processes. Coarse-grained computational models are especially valuable for studying such processes via simulation. Here, we present COCOMO2, an updated residue-based coarse-grained model that extends its applicability from intrinsically disordered peptides to folded proteins. This is accomplished with the introduction of a surface exposure scaling factor, which adjusts interaction strengths based on solvent accessibility, to enable the more realistic modeling of interactions involving folded domains without additional computational costs. COCOMO2 was parameterized directly with solubility and phase separation data to improve its performance on predicting concentration-dependent phase separation for a broader range of biomolecular systems compared to the original version. COCOMO2 enables new applications including the study of condensates that involve IDPs together with folded domains and the study of complex assembly processes. COCOMO2 also provides an expanded foundation for the development of multi-scale approaches for modeling biomolecular interactions that span from residue-level to atomistic resolution.",
+  "abstract_zh": "生物分子相互作用在许多生物过程中至关重要，包括复合物形成和相分离过程。粗粒化计算模型对于通过模拟研究此类过程尤为宝贵。在此，我们介绍COCOMO2，一个更新的基于残基的粗粒化模型，将其适用性从 intrinsically disordered peptides（内在无序肽）扩展到折叠蛋白。这是通过引入表面暴露缩放因子实现的，该因子根据溶剂可及性调整相互作用强度，从而在不增加额外计算成本的情况下，更真实地模拟涉及折叠结构域的相互作用。COCOMO2直接使用溶解性和相分离数据进行参数化，以提高其在预测更广泛生物分子系统浓度依赖性相分离方面的性能，相较于原始版本。COCOMO2支持新应用，包括研究涉及IDPs与折叠结构域共存的凝聚体，以及复杂组装过程的研究。COCOMO2还为开发跨越残基级到原子级分辨率的生物分子相互作用多尺度方法提供了扩展基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39554101/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39554101/",
+  "paper_page_path": "papers/pubmed/39554101/index.html"
+}

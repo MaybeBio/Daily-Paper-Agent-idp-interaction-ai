@@ -1,0 +1,106 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion) without figures, tables, or supplementary materials.
+- **Assessment boundary** Scientific validity, methodological soundness, benchmark design, interpretability claims, and reproducibility of the presented results. Editorial and stylistic issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors present ModVAR, a multimodal deep learning framework that integrates DNA sequence context, predicted protein tertiary structure, and cancer omics features to classify cancer driver variants. The model is evaluated on clinical (ClinVar) and experimental assay benchmarks, demonstrates capability for indel prediction, identifies theranostically relevant variants supported by molecular docking, and is applied at scale to score 3,971,946 COSMIC CMC variants. Interpretability analyses via SHAP and attention visualization are used to attribute predictions to modalities.
+- **Visible evidence base** Main text methods and results sections, including performance metrics (AUROC, F1, PRC), statistical tests (Mann–Whitney U), ablation studies, and case-level interpretability analyses. Figures and tables are referenced but not directly viewable.
+- **Missing materials affecting confidence** All figures, tables, supplementary figures, supplementary tables, and Supplementary Data 1 are referenced but not provided. This includes the full architecture diagram (Fig. 1), all benchmark performance plots (Figs. 2–6), interpretability heatmaps (Fig. 7), and the genome-wide score distributions (Fig. 8). Without these, quantitative claims cannot be independently verified. Additionally, details of hyperparameter tuning, training/validation splits, and code availability are not described in the visible text.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a technically ambitious and potentially useful framework for cancer driver variant prediction. The multimodal design, combining DNA sequence, protein structure, and cancer omics data, is conceptually well motivated and addresses a real gap in the field, particularly for variants that do not alter protein sequence. The inclusion of indel prediction and the large-scale public resource are valuable contributions. However, the visible text alone does not provide sufficient evidence to fully evaluate the claims. Key concerns include the absence of a clear baseline comparison against simpler fusion strategies, the lack of detail on how the cancer omics modality is constructed and preprocessed, the use of a single test set split for ClinVar 2023 without clear temporal or biological independence, and the reliance on AlphaFold3-predicted structures without experimental validation. The interpretability analyses are interesting but their biological validity is not established. The manuscript is likely to be of interest to the cancer genomics and computational biology communities, but the current evidence base is insufficient to fully support the strength of the claims made.
+- **Who would be interested in the results, and why** Cancer genomics researchers, computational biologists developing variant effect predictors, and clinicians interested in precision oncology. The large-scale public resource of 3.9 million variant scores would be a practical asset for the community. The multimodal approach and the focus on intrinsically disordered regions and indel variants address limitations of existing tools, which are predominantly sequence- or structure-based and often miss non-coding or synonymous variants.
+- **Major strengths**
+  1. The multimodal integration of DNA, protein structure, and cancer omics data is a novel and well-motivated design that goes beyond most existing tools, which typically rely on a single data type.
+  2. The model's ability to handle indel variants and variants in intrinsically disordered regions addresses important and underexplored areas in variant effect prediction.
+  3. The production of a large-scale public resource of variant scores is a valuable contribution to the field.
+  4. The use of interpretability methods (SHAP, attention visualization) to attribute predictions to modalities is a strength, as it moves beyond black-box prediction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ModVAR achieves "strong accuracy across benchmarks" and outperforms 14 state-of-the-art methods.
+  - **Evidence pointer** Results section, Figs. 2–6, Tables S1–S4 (not visible)
+  - **Concern** The visible text does not describe the statistical significance of the performance differences between ModVAR and the comparison methods. The Mann–Whitney U test is mentioned, but it is unclear whether this is applied to the distribution of scores or to the AUROC values across cross-validation folds. Without confidence intervals or significance testing on the AUROC differences, the claim of "outperforming" is not statistically supported.
+  - **Why it matters** The central claim of the manuscript is that ModVAR is superior to existing tools. If the performance differences are not statistically significant, the added complexity of the multimodal framework may not be justified.
+  - **Resolution test** Provide confidence intervals for AUROC/F1 across the three random splits, and perform a paired statistical test (e.g., DeLong test for AUROC) comparing ModVAR to each baseline on the same test folds.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the cancer omics modality is preprocessed using a self-supervised strategy and includes gene annotation, epigenetic data, and mutation data from TCGA.
+  - **Evidence pointer** Methods section, "Multimodal feature preprocessing" and "ModVAR" (not fully visible)
+  - **Concern** The description of the cancer omics modality is insufficiently detailed. It is unclear how the 225 dimensions are constructed, how missing values are handled (beyond mean imputation for the CMC application), how the self-supervised pretraining is performed, and how the modality is aligned with the DNA and protein modalities. The claim that this modality contributes 23% of predictive signal cannot be evaluated without a clear description of the features.
+  - **Why it matters** The cancer omics modality is a key differentiator of ModVAR. If the features are not well-defined or are redundant with the DNA modality, the multimodal claim is weakened.
+  - **Resolution test** Provide a detailed table of the 225 features, their sources, and the preprocessing steps. Describe the self-supervised pretraining objective and the alignment strategy. Show that the omics modality provides non-redundant information beyond DNA and protein features (e.g., via a redundancy analysis or conditional mutual information).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance / validity of benchmarks
+  - **Claim pointer** The authors claim that the ClinVar 2023 test set is "independent" from the training data.
+  - **Evidence pointer** Methods section, "Data preprocessing" and "Benchmarking"
+  - **Concern** The visible text states that the ClinVar 2023 data were "added in 2023" and that the training data were from "up to and including 2022." However, it is not clear whether the same variants could appear in both sets (e.g., a variant submitted in 2022 and reclassified in 2023). The authors do not describe how they ensured non-overlap at the variant level, nor do they describe the temporal or biological independence of the experimental assay datasets.
+  - **Why it matters** If the test set is not truly independent, the reported performance may be optimistically biased, and the generalizability of the model is not established.
+  - **Resolution test** Describe the exact procedure for removing overlapping variants between training and test sets. For the experimental assay datasets, clarify whether any of these variants were used in the training set (e.g., via ClinVar or OncoVar). Consider using a chromosome-based or time-based split as an additional validation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular docking confirms the "reliability of the drug interactions" for the identified targetable variants.
+  - **Evidence pointer** Results section, "ModVAR has the ability to identify cancer targetable variants", Fig. 4c–d
+  - **Concern** The docking scores (−7.3, −6.1, −6.4) are presented as evidence of reliability, but no threshold for "reliable" docking is provided, and no comparison is made to docking of known non-interacting or negative control compounds. The use of AlphaFold3-predicted structures without experimental validation further weakens this claim.
+  - **Why it matters** The claim that ModVAR identifies theranostically relevant variants is a key translational selling point. If the docking evidence is not rigorously benchmarked, this claim is overstated.
+  - **Resolution test** Provide a clear threshold for docking scores, include negative control docking experiments, and ideally validate at least one predicted interaction experimentally or against known binding data.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the inclusion of protein structure enables "effective modeling of variants in intrinsically disordered regions."
+  - **Evidence pointer** Results section, "Exploration of cancer variants in intrinsically disordered protein regions", Fig. 5
+  - **Concern** The mechanism by which predicted protein structures help for intrinsically disordered regions is not explained. If the region is disordered, the predicted structure is likely low-confidence, and it is unclear what structural features the model extracts. The claim that structure helps in this context is not mechanistically supported.
+  - **Why it matters** This is a specific and novel claim of the manuscript. If the mechanism is not clear, the claim is not credible.
+  - **Resolution test** Show that the model's performance on disordered regions is specifically driven by structure-derived features (e.g., via an ablation that removes structure features and shows a significant drop). Discuss how low-confidence structural predictions are handled.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction, paragraph 1
+  - **Evidence pointer** "location not provided"
+  - **Issue** The introduction is dense and lists many tools without a clear logical flow. The reader is not given a clear statement of the specific limitations of existing methods that ModVAR addresses.
+  - **Required correction** Restructure the introduction to clearly state the three specific gaps (e.g., lack of multimodal integration, poor handling of non-missense variants, limited interpretability) and how ModVAR addresses each.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, "ModVAR" section
+  - **Evidence pointer** "location not provided"
+  - **Issue** The manuscript does not state whether the code and trained models will be made publicly available, nor does it provide a link to a repository.
+  - **Required correction** Add a "Code and data availability" statement, including a link to the repository and the public variant score resource.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, "Benchmark methods setting"
+  - **Evidence pointer** "location not provided"
+  - **Issue** The choice of comparison methods is not justified. For example, newer tools such as AlphaMissense are included, but others like EVE are also present. It is unclear whether all tools were run with their recommended settings and whether the same variant set was used for all.
+  - **Required correction** Provide a table listing each tool, its version, the source of scores, and the exact procedure for obtaining scores for all variants in each benchmark.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Results, "ModVAR is effective in predicting cancer driver indels"
+  - **Evidence pointer** "location not provided"
+  - **Issue** The description of the indel prediction task is brief. It is unclear how the DNA and protein sequence windows are defined for indels of varying lengths, and how the model handles frameshift mutations.
+  - **Required correction** Add a brief description of how indels are encoded and how the model's architecture accommodates them.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion, paragraph 2
+  - **Evidence pointer** "location not provided"
+  - **Issue** The discussion of the clinical implications is somewhat generic. The authors state that ModVAR "supports hypothesis generation and target discovery" but do not provide concrete examples of novel biological insights or testable hypotheses generated by the model.
+  - **Required correction** Provide at least one concrete example of a novel prediction made by ModVAR that differs from existing tools and could be experimentally tested.
+
+## Risk / unsupported claims
+- The claim that ModVAR "outperforms" 14 state-of-the-art methods is not statistically supported in the visible text.
+- The claim that molecular docking "confirms the reliability of drug interactions" is not supported by a defined threshold or negative controls.
+- The claim that the model "effectively models variants in intrinsically disordered regions" is not mechanistically explained.
+- The claim that the cancer omics modality contributes 23% of predictive signal is not verifiable without a detailed feature description.
+- The claim that the ClinVar 2023 test set is "independent" is not fully established.
+- The claim that the model is "the first framework to synergistically integrate" the three modalities is a strong novelty claim that is not benchmarked against any prior multimodal attempt.
+- The generalizability of the model to non-coding variants is discussed as a limitation but not tested, despite the manuscript's stated goal of "comprehensive" driver variant prediction.

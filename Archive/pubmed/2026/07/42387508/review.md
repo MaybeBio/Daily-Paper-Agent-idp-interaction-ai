@@ -1,0 +1,96 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, and conclusions. Figures are referenced but not provided in full detail; figure legends are partially available within the text.
+- **Assessment boundary** The review is limited to the scientific content, methodology, data interpretation, and claims as presented in the supplied manuscript text. No external data, unpublished results, or supplementary materials beyond what is described in the text were assessed.
+- **Shared manuscript claim summary** The authors propose that calcium ions (Ca2+) and phosphorylation of amino acid residues coordinately stabilize protein complexes during HIV assembly via a previously unrecognized Ca2+-phosphate (PO43−) bridge mechanism. They support this with NMR, SPR, phosphoproteomics, AlphaFold predictions, molecular virology, and electron microscopy data, and further suggest this may represent a general regulatory principle in biology, particularly for intrinsically disordered protein regions.
+- **Visible evidence base** NMR chemical shift perturbation data (Fig. 1B, Fig. 6), AlphaFold3 structural predictions (Fig. 1C, Fig. 4A, Fig. 5A), phosphoproteomics identification of phosphorylation sites (Fig. 1F), SPR binding affinity measurements (Figs. 2, 3, 4, 5), infectivity assays in primary cells (Fig. 3F, Fig. 4F, Fig. 5D), Western blot analyses (Fig. 3G-H, Fig. 4D-E, Fig. 5E-G), and TEM imaging (Fig. 4G, Fig. 5H).
+- **Missing materials affecting confidence** Full figure images and detailed figure legends are not provided. Supplementary figures (S1-S7) are referenced but not available. Raw NMR spectra, SPR sensorgrams, mass spectrometry data files, and statistical analysis details are not accessible. The exact experimental conditions for some assays (e.g., cell types, multiplicity of infection, time points) are not fully described.
+
+## Reviewer
+- **Overall assessment** The manuscript presents an intriguing and potentially novel hypothesis that Ca2+ and phosphorylation act coordinately to stabilize protein complexes during HIV assembly. The combination of biophysical, structural, and virological approaches is commendable. However, the evidence provided is largely indirect and correlative. The direct demonstration of a Ca2+-PO43− bridge at atomic resolution is lacking, and the functional relevance of the identified phosphorylation sites is not fully established. The claim of a general biological principle is speculative and not sufficiently supported by the data presented. The manuscript requires substantial additional evidence and clarification before the proposed mechanism can be considered established.
+- **Who would be interested in the results, and why** Researchers in the fields of HIV biology, particularly those studying viral assembly, budding, and maturation, would be the primary audience. Additionally, scientists interested in calcium signaling, protein phosphorylation, intrinsically disordered proteins, and protein-protein interaction mechanisms would find the proposed cross-talk between these regulatory modalities of interest. The potential generality of the mechanism could attract a broader cell biology readership.
+- **Major strengths**
+  - The hypothesis is novel and integrates two well-studied but usually separate regulatory mechanisms (Ca2+ signaling and phosphorylation).
+  - The study employs a multidisciplinary approach, combining NMR, SPR, phosphoproteomics, structural prediction, and virology.
+  - The identification of novel phosphorylation sites in p6Gag and p6Pol via phosphoproteomics is a valuable contribution.
+  - The use of primary cells for infectivity assays strengthens the physiological relevance of the findings.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for direct mechanism
+  - **Claim pointer** The central claim is that Ca2+ and phosphorylated amino acids form a direct Ca2+-PO43− bridge to stabilize protein complexes.
+  - **Evidence pointer** Figs. 1B, 1C, 2, 3, 4, 5, 6
+  - **Concern** The manuscript does not provide direct evidence for a physical Ca2+-PO43− bridge. NMR data show chemical shift perturbations in the presence of Ca2+, but these are not assigned to specific coordination interactions. SPR data show binding affinities, but do not demonstrate the atomic nature of the interaction. AlphaFold predictions are computational and not validated experimentally. The claim of a "bridge" is an inference, not a demonstrated fact.
+  - **Why it matters** The proposed mechanism is the central novelty of the paper. Without direct structural or biophysical evidence (e.g., high-resolution structure, isothermal titration calorimetry with mutant controls, or site-specific crosslinking), the existence of a Ca2+-PO43− bridge remains speculative. This is a fundamental issue that undermines the core claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional relevance of phosphorylation sites
+  - **Claim pointer** The authors claim that the identified phosphorylation sites are functionally important for HIV assembly and infectivity.
+  - **Evidence pointer** Figs. 3F, 4F, 5D
+  - **Concern** The functional data are based on phosphomimetic (S/T to D) and phosphodead (S/T to A) mutations. While these are standard approaches, the results are not entirely consistent. For example, the S488A/S491A mutant shows reduced infectivity, but the mechanism is not clearly linked to a loss of Ca2+ binding. The authors do not demonstrate that the observed effects are specifically due to the loss of the proposed Ca2+-PO43− bridge, rather than other structural or functional perturbations caused by the mutations. Furthermore, the phosphoproteomics data show that these sites are only partially phosphorylated, and the functional significance of this partial occupancy is not explored.
+  - **Why it matters** The functional relevance of the phosphorylation sites is essential to support the claim that this mechanism operates during HIV assembly. If the mutations affect infectivity through unrelated mechanisms, the link to Ca2+-PO43− bridging is weakened. The manuscript needs to provide more direct evidence that the phosphorylation state of these specific residues modulates Ca2+-dependent complex formation in a way that is critical for function.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability of the proposed mechanism
+  - **Claim pointer** The authors claim that Ca2+-PO43− coordination is a "general regulatory principle in biology."
+  - **Evidence pointer** Discussion section
+  - **Concern** This claim is based on bioinformatic analysis of viral sequences and a few examples from the literature. The manuscript does not provide experimental evidence from other biological systems to support this generalization. The discussion is speculative and does not critically evaluate alternative explanations for the observed sequence conservation.
+  - **Why it matters** The claim of generality significantly elevates the impact of the work. However, without direct experimental evidence from non-HIV systems, this claim is not supported. Overstating the implications of the findings could mislead readers and reduce the credibility of the more specific and defensible claims about HIV assembly.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative data and statistical rigor
+  - **Claim pointer** The manuscript reports KD values and infectivity changes, but the statistical treatment and experimental replicates are not fully described.
+  - **Evidence pointer** Figs. 2, 3, 4, 5
+  - **Concern** The number of independent experiments, the error bars, and the statistical tests used are not consistently reported in the text. For example, the SPR data in Fig. 2 show error bars, but it is unclear how many replicates were performed. The infectivity assays in Figs. 3F, 4F, and 5D report statistical significance, but the exact p-values and the number of biological replicates are not stated. This lack of detail makes it difficult to assess the robustness of the findings.
+  - **Why it matters** Quantitative claims, such as changes in binding affinity or infectivity, require rigorous statistical analysis to be convincing. The current level of reporting is insufficient for a high-impact journal and needs to be improved.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The abstract and introduction contain some awkward phrasing and grammatical errors (e.g., "It is, however, not appreciated that a normal function of phospho-mimic amino acids...", "plus, how Ca2+ and PO43− amino acids could facilitate..."). These detract from the clarity of the message.
+  - **Required correction** The manuscript should be carefully edited for grammar and style to improve readability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure quality and accessibility
+  - **Affected element** All figures
+  - **Evidence pointer** Figs. 1-6
+  - **Issue** The figures are not provided in the manuscript text, and the legends are incomplete. It is impossible to fully evaluate the data without seeing the actual figures. Some figure legends are also confusing (e.g., Fig. 2 has panels labeled D, E, F, G, I, J, K but the text refers to panels that are not clearly described).
+  - **Required correction** The figures and their legends must be provided in full and should be self-explanatory. The panel labeling should be consistent between the text and the figures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Throughout
+  - **Evidence pointer** Throughout
+  - **Issue** The term "Ca2+-PO43− bridge" is used throughout, but the chemical nature of this interaction is not defined. Is it a salt bridge, a coordination complex, or something else? The authors should clarify the terminology.
+  - **Required correction** Define the proposed interaction more precisely and use consistent terminology.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion of the literature is somewhat limited. The authors mention a few examples but do not thoroughly engage with the existing literature on Ca2+ binding to phosphorylated residues or on the role of phosphorylation in HIV assembly.
+  - **Required correction** Expand the discussion to more comprehensively address the relevant literature and how the proposed mechanism fits into or challenges existing models.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Lack of direct evidence for the Ca2+-PO43− bridge.
+  - R1-M2: Incomplete functional validation of the phosphorylation sites.
+  - R1-M3: Overstated claim of generality.
+  - R1-M4: Insufficient reporting of quantitative data and statistics.
+- **Assessment against Nature-style criteria**
+  - **Originality** The concept of a coordinated Ca2+-phosphorylation mechanism for protein complex stabilization is original and not previously described. This is a strength.
+  - **Scientific importance** If the mechanism is proven, it would be of significant importance to HIV biology and potentially to broader cell biology. However, the current evidence is not sufficient to establish this importance.
+  - **Interdisciplinary readership** The topic is interdisciplinary, spanning virology, structural biology, biophysics, and cell biology. The findings could appeal to a broad audience if the evidence is strengthened.
+  - **Technical soundness** The technical approaches are generally sound, but the execution and interpretation have limitations as detailed above. The lack of direct structural evidence and incomplete functional data are significant weaknesses.
+  - **Readability for nonspecialists** The manuscript is written in a technical style that may be challenging for nonspecialists. The abstract and introduction are not fully accessible, and the results section is dense. The clarity needs improvement.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript presents an interesting hypothesis but lacks the direct evidence needed to support the central claim of a Ca2+-PO43− bridge. The functional relevance of the phosphorylation sites is not fully demonstrated, and the claim of generality is not supported. Major revisions and additional experiments are required before the case can be made.
+
+## Risk / unsupported claims
+- The existence of a direct Ca2+-PO43− bridge is not experimentally demonstrated and remains a hypothesis.
+- The claim that this mechanism is a "general regulatory principle in biology" is unsupported by the data presented.
+- The functional importance of the identified phosphorylation sites is not fully established, as the effects of mutations could be due to mechanisms other than loss of Ca2+ binding.
+- The statement that "the convergent enrichment of calcium-phosphorylation domains across a wide range of viral and cellular intrinsically disordered protein regions implies Ca2+-PO43− cooperation to be a general regulatory principle" is an overinterpretation of bioinformatic data without experimental validation.
+- The claim that "disrupting this process can lead to premature degradation of viral proteins via ubiquitation" is referenced to previous work but not directly tested here.

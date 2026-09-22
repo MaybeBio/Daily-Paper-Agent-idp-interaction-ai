@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific claims, methodological soundness, and evidence quality as presented in the supplied text. No external data or code was accessed.
+- **Shared manuscript claim summary** The authors present RGN2, an end-to-end differentiable recurrent geometric network that predicts protein structure from single amino acid sequences using a protein language model (AminoBERT) and a Frenet-Serret-based geometric module. They claim RGN2 outperforms AlphaFold2, RoseTTAFold, and trRosetta on orphan proteins, is competitive on de novo designed proteins, and achieves up to 10^6-fold speedup.
+- **Visible evidence base** Abstract, Introduction, Results (three subsections), Discussion, Methods (AminoBERT summary, architecture, training, geometry module, data preparation, comparison protocols, refinement), Competing interests, Author contributions, Acknowledgements. Figures and tables are referenced but not provided.
+- **Missing materials affecting confidence** Figures 1-5, Supplementary Figures 1-5, Table 1, and all numerical data supporting performance comparisons are not included. The ProteinNet12 and ASTRAL SCOPe dataset details are only partially described. No code or model weights are referenced.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant challenge in protein structure prediction: accurate prediction from single sequences without multiple sequence alignments. The conceptual advance of combining a protein language model with a geometric module is timely and of broad interest. However, the provided text lacks the quantitative evidence needed to evaluate the central performance claims. The description of the model architecture and training is incomplete, and the comparison methodology against AlphaFold2 and RoseTTAFold raises concerns about fairness. The speed advantage claim is plausible but not substantiated with the missing Table 1. The work is potentially important, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Computational biologists, protein engineers, and structural biologists would be interested. The potential for fast, single-sequence prediction is relevant for orphan proteins, de novo design, and high-throughput applications. The broader machine learning community may also be interested in the application of language models to 3D structure prediction.
+- **Major strengths** The problem addressed is important and timely. The use of a protein language model to replace MSAs is a conceptually novel and potentially transformative approach. The Frenet-Serret parameterization is an elegant and physically motivated choice for backbone geometry. The focus on orphan and designed proteins addresses a clear gap in current methods. The reported speed advantage, if substantiated, would be practically significant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence quality
+  - **Claim pointer** "RGN2 outperforms AlphaFold2 and RoseTTAFold (as well as trRosetta) on orphan proteins and is competitive with designed sequences"
+  - **Evidence pointer** Results section, Figures 2-5, Supplementary Figures 2-5, location not provided
+  - **Concern** The central performance claims are presented without any numerical data. The text states percentages of cases where RGN2 outperforms competitors and average differences in dRMSD and GDT_TS, but the actual distributions, error bars, statistical significance, and case-by-case results are not shown. The referenced figures are not available for inspection.
+  - **Why it matters** Without the underlying data, the reader cannot assess the magnitude, consistency, or statistical reliability of the reported improvements. The claim of outperforming AlphaFold2 on orphan proteins is extraordinary and requires robust evidence.
+  - **Resolution test** Provide the full numerical results, including per-target scores, distributions, and appropriate statistical tests. The figures must be included in the revised manuscript.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodology
+  - **Claim pointer** "AF2 and RF predictions did not require MSAs since our target proteins don't have homologs and so we made our predictions using their respective official Google Colab notebooks."
+  - **Evidence pointer** Methods, "Structure prediction with trRosetta, AF2, and RF", location not provided
+  - **Concern** The comparison methodology for AlphaFold2 and RoseTTAFold is inadequately described. Using Google Colab notebooks without specifying model versions, parameters, or whether the same refinement protocols were applied introduces potential uncontrolled variables. It is unclear if the comparison is fair, particularly regarding the use of templates or other auxiliary inputs.
+  - **Why it matters** Unfair or inconsistent comparisons undermine the validity of the central claims. The reader cannot determine whether the reported performance differences are due to the model architecture or to differences in the evaluation pipeline.
+  - **Resolution test** Provide a detailed description of the exact versions, settings, and any post-processing steps used for all methods. Ideally, use a standardized benchmark protocol with identical inputs and evaluation criteria.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "RGN2 is up to 10^6-fold faster" and "RGN2 scales linearly with protein length"
+  - **Evidence pointer** Results, "RGN2 prediction speed", Table 1, location not provided
+  - **Concern** The speed comparison is presented without the supporting data in Table 1. The claim of linear scaling is not derived or demonstrated in the text. The comparison of speed across methods with different hardware, implementations, and optimization levels is not controlled.
+  - **Why it matters** The speed advantage is a key selling point for practical applications. Without proper benchmarking data and a clear description of the computational environment, the claim is unverifiable.
+  - **Resolution test** Provide Table 1 with full details on hardware, software, and timing methodology. Include scaling plots and a discussion of potential confounds.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** "AminoBERT is a 12-layer Transformer... trained on ~260 million natural protein sequences"
+  - **Evidence pointer** Methods, "AminoBERT summary" and "AminoBERT training procedure", location not provided
+  - **Concern** The description of AminoBERT training is incomplete. The loss function is referenced but not fully specified. Hyperparameters such as learning rate schedule, warmup, and dropout are given, but details on data preprocessing, sequence length distribution, and handling of very long sequences are missing. The training time of one week on a 512-core TPU pod is stated but no information on convergence or validation is provided.
+  - **Why it matters** Reproducibility is a core requirement for scientific claims. The model cannot be re-implemented or the training verified from the provided description.
+  - **Resolution test** Provide a complete specification of the model architecture, training data, preprocessing, and hyperparameters. Consider releasing code and trained weights.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states "up to a 10^6-fold reduction in compute time" but does not specify the baseline or conditions for this comparison.
+  - **Required correction** Clarify the baseline and conditions in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodology
+  - **Affected element** Data filtering
+  - **Evidence pointer** Methods, "Data preparation for comparison with trRosetta", location not provided
+  - **Issue** The text states both datasets were filtered to avoid overlap with training sets, but the filtering criteria are not described.
+  - **Required correction** Describe the sequence identity threshold and method used for filtering.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, location not provided
+  - **Issue** The claim that RGN2 "behaves in a manner that is more similar to the actual folding process" is speculative and not directly supported by the data.
+  - **Required correction** Soften this claim or provide additional evidence linking the model's behavior to physical folding.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Model description
+  - **Evidence pointer** Methods, "Geometry module", location not provided
+  - **Issue** The geometry module description is incomplete. The equations for the Frenet-Serret formulas are referenced but not fully derived or explained.
+  - **Required correction** Provide a complete mathematical description of the geometric module and its integration with the language model.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing performance data), R1-M2 (inadequate comparison methodology), R1-M3 (unsubstantiated speed claims), R1-M4 (incomplete model description).
+- **Assessment against Nature-style criteria** Originality: High. The use of a protein language model for single-sequence structure prediction is a novel and timely contribution. Scientific importance: High. Addressing the orphan protein problem and enabling fast prediction has broad implications. Interdisciplinary readership: Moderate to high. The work bridges machine learning and structural biology, but the presentation may be too technical for a general audience. Technical soundness: Not established from the provided evidence. The missing data and incomplete methodology prevent a full assessment. Readability for nonspecialists: The introduction and discussion are accessible, but the methods section is dense and assumes significant background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual advance is promising and the work could be suitable for a high-impact venue, but the central claims require substantial additional evidence and methodological clarification. I would be supportive if the technical concerns are resolved with complete data, rigorous comparisons, and full methodological transparency.

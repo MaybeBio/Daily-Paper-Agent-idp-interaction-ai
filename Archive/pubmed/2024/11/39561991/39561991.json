@@ -1,0 +1,334 @@
+{
+  "identity": {
+    "pmid": "39561991",
+    "doi": "10.1021/acs.jpclett.4c02764",
+    "title": "Accelerated Amyloid Aggregation Dynamics of Intrinsically Disordered Proteins in Heavy Water."
+  },
+  "content": {
+    "abstract": "We explored the influence of D(2)O on the fibrillation kinetics and structural dynamics of amyloid intrinsically disordered proteins (IDPs), including alpha-synuclein, amyloid-beta 1-42, and K18. Our findings revealed that fibrillation of IDPs was accelerated in D(2)O compared to that in H(2)O, exhibiting faster kinetics in contrast to the structured protein, insulin. Structural investigations using electrospray ionization ion mobility mass spectrometry and small-angle X-ray scattering combined with molecular dynamics simulations demonstrated that IDPs did not show significant structural changes that could influence accelerated fibrillation in D(2)O. Umbrella sampling of protein protofibrils verified that an increased level of hydrogen bonding of D(2)O and enhanced hydrophobic interactions stabilized beta-sheet structured fibrils in D(2)O. These findings indicate that stabilizing beta-sheet fibrils and a more hydrophobic microenvironment in D(2)O result in enhanced and faster fibrillation of IDPs. The study highlights the importance of considering D(2)O's differential impact on protein interactions when conducting structural and kinetic analyses, particularly for native peptides and proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*Amyloid beta-Peptides/chemistry/metabolism",
+      "*Hydrophobic and Hydrophilic Interactions",
+      "*alpha-Synuclein/chemistry",
+      "Kinetics",
+      "*Amyloid/chemistry",
+      "Deuterium Oxide/chemistry",
+      "Hydrogen Bonding",
+      "Peptide Fragments/chemistry/metabolism",
+      "Protein Aggregates",
+      "Water/chemistry",
+      "Humans",
+      "Scattering, Small Angle"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Son, Myung Kook",
+        "Im, Dongjoon",
+        "Hyun, Da Gyeong",
+        "Kim, Soohyeong",
+        "Chun, So Yeon",
+        "Choi, Jeong-Mo",
+        "Choi, Tae Su",
+        "Cho, Minhaeng",
+        "Kwak, Kyungwon",
+        "Kim, Hugh I"
+      ],
+      "short_names": [
+        "Son MK",
+        "Im D",
+        "Hyun DG",
+        "Kim S",
+        "Chun SY",
+        "Choi JM",
+        "Choi TS",
+        "Cho M",
+        "Kwak K",
+        "Kim HI"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0343-3114",
+        "ORCID: 0000-0002-6206-657X",
+        "ORCID: 0000-0002-1137-9955",
+        "ORCID: 0000-0003-2656-4851",
+        "ORCID: 0000-0003-1618-1056",
+        "ORCID: 0000-0003-1680-0996",
+        "ORCID: 0000-0001-9205-1806"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+        "Center for Proteogenome Research, Korea University, Seoul 02841, Republic of Korea.",
+        "Department of Life Sciences, Korea University, Seoul 02841, Republic of Korea.",
+        "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+        "Center for Proteogenome Research, Korea University, Seoul 02841, Republic of Korea.",
+        "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+        "Center for Proteogenome Research, Korea University, Seoul 02841, Republic of Korea.",
+        "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+        "Center for Molecular Spectroscopy and Dynamics, Institute for Basic Science (IBS), Seoul 02841, Republic of Korea.",
+        "Department of Chemistry, Pusan National University, Busan 46241, Republic of Korea.",
+        "Chemistry Institute for Functional Materials, Pusan National University, Busan 46241, Republic of Korea.",
+        "Department of Life Sciences, Korea University, Seoul 02841, Republic of Korea.",
+        "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+        "Center for Molecular Spectroscopy and Dynamics, Institute for Basic Science (IBS), Seoul 02841, Republic of Korea.",
+        "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+        "Center for Molecular Spectroscopy and Dynamics, Institute for Basic Science (IBS), Seoul 02841, Republic of Korea.",
+        "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+        "Center for Proteogenome Research, Korea University, Seoul 02841, Republic of Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Son, Myung Kook",
+        "short_name": "Son MK",
+        "identifiers": [
+          "0000-0002-0343-3114"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+          "Center for Proteogenome Research, Korea University, Seoul 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Im, Dongjoon",
+        "short_name": "Im D",
+        "identifiers": [
+          "0000-0002-6206-657X"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, Korea University, Seoul 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Hyun, Da Gyeong",
+        "short_name": "Hyun DG",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+          "Center for Proteogenome Research, Korea University, Seoul 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Soohyeong",
+        "short_name": "Kim S",
+        "identifiers": [
+          "0000-0002-1137-9955"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+          "Center for Proteogenome Research, Korea University, Seoul 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Chun, So Yeon",
+        "short_name": "Chun SY",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+          "Center for Molecular Spectroscopy and Dynamics, Institute for Basic Science (IBS), Seoul 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Choi, Jeong-Mo",
+        "short_name": "Choi JM",
+        "identifiers": [
+          "0000-0003-2656-4851"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Pusan National University, Busan 46241, Republic of Korea.",
+          "Chemistry Institute for Functional Materials, Pusan National University, Busan 46241, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Choi, Tae Su",
+        "short_name": "Choi TS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, Korea University, Seoul 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Cho, Minhaeng",
+        "short_name": "Cho M",
+        "identifiers": [
+          "0000-0003-1618-1056"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+          "Center for Molecular Spectroscopy and Dynamics, Institute for Basic Science (IBS), Seoul 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kwak, Kyungwon",
+        "short_name": "Kwak K",
+        "identifiers": [
+          "0000-0003-1680-0996"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+          "Center for Molecular Spectroscopy and Dynamics, Institute for Basic Science (IBS), Seoul 02841, Republic of Korea."
+        ]
+      },
+      {
+        "full_name": "Kim, Hugh I",
+        "short_name": "Kim HI",
+        "identifiers": [
+          "0000-0001-9205-1806"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Korea University, Seoul 02841, Republic of Korea.",
+          "Center for Proteogenome Research, Korea University, Seoul 02841, Republic of Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2024 Nov 28",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/20 00:21",
+    "fetched_at": "2026-09-21 12:46:35"
+  },
+  "links": {
+    "cites": [
+      "40875600"
+    ],
+    "refs": [],
+    "similar": [
+      "39561991",
+      "29364151",
+      "32623047",
+      "34796404",
+      "29953467",
+      "29715424",
+      "29548979",
+      "35073692",
+      "32859072",
+      "25330398",
+      "38928405",
+      "24871565",
+      "24410358",
+      "21761818",
+      "21244841",
+      "31566950",
+      "30730736",
+      "38731878",
+      "38458997",
+      "36542916",
+      "31181290",
+      "30332530",
+      "26923286",
+      "23484883",
+      "30865832",
+      "25406316",
+      "39908957",
+      "31809054",
+      "31659041",
+      "32419254",
+      "30003969",
+      "35934194",
+      "25588987",
+      "32703978",
+      "36310204",
+      "31470695",
+      "33806726",
+      "29900443",
+      "31699336",
+      "33292065",
+      "38809059",
+      "22988855",
+      "32696387",
+      "29026044",
+      "28684415",
+      "32013170",
+      "28603985",
+      "33480728",
+      "16875699",
+      "27091578",
+      "33341693",
+      "24056531",
+      "32275992",
+      "29286644",
+      "24857343",
+      "33580600",
+      "27809690",
+      "31188372",
+      "31474736",
+      "35167081",
+      "21769359",
+      "28220836",
+      "30184304",
+      "29571707",
+      "30002265",
+      "22870885",
+      "39466031",
+      "34509724",
+      "23811057",
+      "33289734",
+      "34944399",
+      "31811850",
+      "30605312",
+      "31903719",
+      "29704492",
+      "34152264",
+      "38526443",
+      "39125038",
+      "39126645",
+      "32942739",
+      "26153709",
+      "25281743",
+      "27933940",
+      "38949117",
+      "27135646",
+      "35748616",
+      "29621630",
+      "28162045",
+      "23214618",
+      "22947936",
+      "29080468",
+      "35458686",
+      "29235155",
+      "29601177",
+      "23688073",
+      "24527756",
+      "24626742",
+      "40015369",
+      "30771375",
+      "29853641"
+    ],
+    "review": [
+      "39561991",
+      "29364151",
+      "22988855",
+      "29080468"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.4c02764",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

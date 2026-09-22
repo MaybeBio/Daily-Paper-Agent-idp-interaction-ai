@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present a united-atom model of gecko keratin to study adhesion on hydrophilic and hydrophobic surfaces with and without water. They report that pull-off forces increase with water content and decrease with surface water contact angle, matching experimental trends. They claim a water-mediating effect, surface-dependent folding of polar groups, and that electrostatic interactions contribute comparably to van der Waals interactions during pull-off, contrary to popular hypotheses.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, force field validation, statistical analyses, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, simulation setup and parameters, force field derivation and validation, system construction details, force probe MD protocol, convergence and sampling assessments, error bars, comparison data from AFM experiments, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study addressing a relevant question in gecko adhesion, namely the molecular origin of adhesion on surfaces of varying wettability and in the presence of water. The central claims, however, are supported only by qualitative statements without quantitative evidence. The most striking claim, that electrostatics contribute comparably to van der Waals interactions, is presented without numerical values or decomposition details. The model's assumptions, particularly the restriction of surface contact to intrinsically disordered regions, are stated but not justified. The abstract is readable and the research question is well framed, but the evidence base is insufficient to evaluate technical soundness or to establish the case.
+- **Who would be interested in the results, and why** Researchers in biophysics, surface science, and bioinspired materials would be interested. The work addresses a long-standing question about the molecular mechanisms of gecko adhesion, which has implications for designing synthetic adhesives. The specific focus on water effects and electrostatic contributions could inform debates about the relative roles of van der Waals and electrostatic forces in biological adhesion.
+- **Major strengths** The research question is clearly defined and relevant. The abstract explicitly connects simulation results to experimental trends, which is a good practice. The claim that the model reproduces experimental contact angle behavior provides a potential validation anchor. The focus on water-mediated effects addresses an environmentally relevant condition that is often overlooked.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "long-range electrostatic interactions determine much of the pull-off process" and that "the contribution of electrostatics to adhesion may be in the order of the van der Waals contributions."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative decomposition of energetic contributions. No values, percentages, or comparison metrics are given to support the claim that electrostatics are comparable to van der Waals. The phrase "may be in the order of" introduces uncertainty that is not resolved by any presented data.
+  - **Why it matters** This is the central mechanistic claim of the study and directly contradicts popular hypotheses. Without quantitative evidence, the claim cannot be evaluated or reproduced. The strength of the conclusion is not matched by the evidence presented.
+  - **Resolution test** Provide a table or figure showing the decomposed energy contributions (electrostatic, van der Waals, and possibly others) during pull-off for each condition, with error estimates. State the relative percentages or ratios explicitly and discuss statistical significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "pull-off force increases with increased water content and is inversely related to the water contact angle of the surface. This matches experimental trends."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not report any numerical pull-off forces, water content levels, or contact angle values. The claim of matching experimental trends is made without showing the experimental data or the comparison. No error bars or statistical measures are mentioned.
+  - **Why it matters** The validation of the model against experiments is a key selling point. Without quantitative comparison, the reader cannot assess whether the match is qualitative or quantitative, or whether the agreement is within reasonable uncertainty.
+  - **Resolution test** Provide a figure comparing simulated pull-off forces and experimental AFM data across the tested conditions, with error bars and a clear description of how the comparison was made.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validity
+  - **Claim pointer** The authors state that "the keratin model assumes that only intrinsically disordered regions directly contact the surface."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This is a strong structural assumption that is not justified in the abstract. No evidence is provided that this assumption is valid for gecko keratin or that it does not bias the results. The choice to exclude ordered regions from surface contact could significantly affect the computed adhesion forces and the relative contributions of different interaction types.
+  - **Why it matters** If the assumption is incorrect or overly restrictive, the conclusions about electrostatic versus van der Waals contributions may not be generalizable to real gecko adhesion. The model's predictive value depends on the realism of this assumption.
+  - **Resolution test** Provide a justification for this assumption based on experimental or structural evidence. Alternatively, show that including ordered regions in the contact does not change the qualitative conclusions, for example through a sensitivity analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors state that "we developed a united-atom model of gecko keratin" and "created two generic substrate surfaces."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** No details are given about the force field, the keratin sequence or structure used, the substrate construction, or the simulation protocol. The abstract does not mention system size, simulation time, number of replicates, or equilibration procedures.
+  - **Why it matters** Without these details, the work cannot be reproduced or independently verified. The reliability of the conclusions depends on the adequacy of the sampling and the accuracy of the model.
+  - **Resolution test** Provide full methodological details in the main text or supplementary information, including force field parameters, system construction, simulation length, and convergence checks.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Claim about "water-mediating effect"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "confirming a water-mediating effect" is vague. It is not clear what specific effect is being confirmed or how it was measured.
+  - **Required correction** Specify what the water-mediating effect is (for example, water bridging, screening, or restructuring) and state the observable that was used to confirm it.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Claim about "keratin folds polar groups to the hydrophilic surface"
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The phrase "folds polar groups to the surface" is ambiguous. It could mean conformational rearrangement, preferential orientation, or something else.
+  - **Required correction** Clarify the structural interpretation and provide a metric, such as a radial distribution function or orientation parameter, that was used to characterize this behavior.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Title and abstract scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The title asks about adhesion "in the presence and absence of water," but the abstract only states that pull-off force increases with water content. It does not explicitly describe the dry case or compare it to the wet case in a clear way.
+  - **Required correction** State the dry case results explicitly and describe how they compare to the wet case, to fully address the title's scope.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The central mechanistic claim, the experimental validation, the model assumption, and the reproducibility are all insufficiently supported by the abstract alone.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of electrostatic contributions in gecko adhesion is not entirely new, but the specific approach of using a united-atom keratin model with explicit water and surface wettability variation may offer a fresh angle. The originality cannot be fully assessed without the full manuscript.
+  - Scientific importance: The topic is of interest to the adhesion and bioinspired materials community. The potential to overturn a popular hypothesis about van der Waals dominance would be significant if well supported. However, the importance is diminished by the lack of quantitative evidence in the abstract.
+  - Interdisciplinary readership: The work bridges molecular simulation, biophysics, and surface science. The abstract is written in a way that is accessible to nonspecialists, but the lack of technical detail limits its usefulness to expert readers.
+  - Technical soundness: Cannot be evaluated from the abstract. The absence of methodological details and quantitative results prevents any assessment of the simulation quality, convergence, or statistical reliability.
+  - Readability for nonspecialists: The abstract is clear and well structured. The main claims are understandable, though some terms such as "united-atom model" and "force probe molecular dynamics" may require background knowledge.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and a plausible approach, but the lack of quantitative data, methodological detail, and validation makes it impossible to assess the technical soundness or the strength of the central claims. A full manuscript with detailed methods, results, and statistical analysis would be required to evaluate whether the case is made.
+
+## Risk / unsupported claims
+- The claim that electrostatic contributions are comparable to van der Waals contributions is unsupported by any quantitative data in the abstract.
+- The claim that simulation results "match experimental trends" is unsupported without showing the experimental data or the comparison method.
+- The claim of a "water-mediating effect" is vague and unsupported by specific observables.
+- The claim that "keratin folds polar groups to the hydrophilic surface" is unsupported without structural metrics.
+- The model assumption that only intrinsically disordered regions contact the surface is stated but not justified.
+- The generalizability of the results to real gecko adhesion is not assessable from the abstract.

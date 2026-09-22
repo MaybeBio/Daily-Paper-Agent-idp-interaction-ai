@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "37215004",
+    "doi": "10.1101/2023.05.09.540038",
+    "title": "Sequence-Dependent Material Properties of Biomolecular Codensates and their Relation to Dilute Phase Conformations."
+  },
+  "content": {
+    "abstract": "Material properties of phase-separated biomolecular assemblies, enriched with disordered proteins, dictate their ability to participate in many cellular functions. Despite the significant effort dedicated to understanding how the sequence of the disordered protein drives its phase separation to form condensates, little is known about the sequence determinants of condensate material properties. Here, we computationally decipher these relationships for charged disordered proteins using model sequences comprised of glutamic acid and lysine residues as well as naturally occurring sequences of LAF1's RGG domain and DDX4's N-terminal domain. We do so by delineating how the arrangement of oppositely charged residues within these sequences influences the dynamical, rheological, and interfacial properties of the condensed phase through equilibrium and non-equilibrium molecular simulations using the hydropathy scale and Martini models. Our computations yield material properties that are quantitatively comparable with experimentally characterized condensate systems. Interestingly, we find that the material properties of both the model and natural proteins respond similarly to the segregation of charges, despite their very different sequence compositions. Condensates of the highly charge-segregated sequences exhibit slower dynamics than the uniformly charge-patterned sequences, because of their comparatively long-lived molecular contacts between oppositely charged residues. Surprisingly, the molecular interactions within the condensate are highly similar to those within a single-chain for all sequences. Consequently, the condensate material properties of charged disordered proteins are strongly correlated with their dense phase contact dynamics and their single-chain structural properties. Our findings demonstrate the potential to harness the sequence characteristics of disordered proteins for predicting and engineering the material properties of functional condensates, with insights from the dilute phase properties.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Devarajan, Dinesh Sundaravadivelu",
+        "Wang, Jiahui",
+        "Szala-Mendyk, Beata",
+        "Rekhi, Shiv",
+        "Nikoubashman, Arash",
+        "Kim, Young C",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Devarajan DS",
+        "Wang J",
+        "Szala-Mendyk B",
+        "Rekhi S",
+        "Nikoubashman A",
+        "Kim YC",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7825-0999",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States.",
+        "Leibniz-Institut fur Polymerforschung Dresden e.V., Hohe Strasse 6, 01069 Dresden, Germany.",
+        "Institut fur Theoretische Physik, Technische Universitat Dresden, 01069 Dresden, Germany.",
+        "Cluster of Excellence Physics of Life, Technische Universitat Dresden, 01062 Dresden, Germany.",
+        "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, DC 20375, United States.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States.",
+        "Department of Chemistry, Texas A&M University, College Station, TX 77843, United States.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX 77843, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Devarajan, Dinesh Sundaravadivelu",
+        "short_name": "Devarajan DS",
+        "identifiers": [
+          "0000-0001-7825-0999"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Jiahui",
+        "short_name": "Wang J",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States."
+        ]
+      },
+      {
+        "full_name": "Szała-Mendyk, Beata",
+        "short_name": "Szała-Mendyk B",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States."
+        ]
+      },
+      {
+        "full_name": "Rekhi, Shiv",
+        "short_name": "Rekhi S",
+        "identifiers": [],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States."
+        ]
+      },
+      {
+        "full_name": "Nikoubashman, Arash",
+        "short_name": "Nikoubashman A",
+        "identifiers": [],
+        "affiliations": [
+          "Leibniz-Institut für Polymerforschung Dresden e.V., Hohe Straße 6, 01069 Dresden, Germany.",
+          "Institut für Theoretische Physik, Technische Universität Dresden, 01069 Dresden, Germany.",
+          "Cluster of Excellence Physics of Life, Technische Universität Dresden, 01062 Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, DC 20375, United States."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843, United States.",
+          "Department of Chemistry, Texas A&M University, College Station, TX 77843, United States.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX 77843, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jan 21",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/22 19:11",
+    "fetched_at": "2026-09-20 22:20:06"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38553587",
+      "38316988",
+      "38250712",
+      "38174879",
+      "37955602",
+      "37757589",
+      "37468629",
+      "37386790",
+      "37194953",
+      "37079924",
+      "36603581",
+      "36397514",
+      "36272811",
+      "36247368",
+      "36175408",
+      "36163138",
+      "35802394",
+      "35674796",
+      "35659505",
+      "35245500",
+      "35119946",
+      "35119898",
+      "34931046",
+      "34785657",
+      "34645832",
+      "34598580",
+      "33934416",
+      "33782607",
+      "33661634",
+      "33473217",
+      "33453268",
+      "33307683",
+      "33303613",
+      "33302617",
+      "33159856",
+      "32934220",
+      "32822449",
+      "32767698",
+      "32719551",
+      "32393642",
+      "32357776",
+      "32029630",
+      "31995729",
+      "31540706",
+      "31270472",
+      "30608810",
+      "30500535",
+      "30397688",
+      "30217894",
+      "29961577",
+      "29364893",
+      "29358076",
+      "29064502",
+      "28924037",
+      "28894006",
+      "28790177",
+      "28483149",
+      "26692293",
+      "26574417",
+      "26526393",
+      "26455390",
+      "26406374",
+      "26328871",
+      "26317470",
+      "26015579",
+      "25747659",
+      "25562883",
+      "24120937",
+      "23901099",
+      "23312353",
+      "21947276",
+      "21368180",
+      "21341860",
+      "20969366",
+      "18576630",
+      "17212484",
+      "17025630",
+      "16853395",
+      "1420991"
+    ],
+    "similar": [
+      "37215004",
+      "38429263",
+      "38260590",
+      "39568948",
+      "40985078",
+      "38250712",
+      "41566033",
+      "41481439",
+      "32393642",
+      "40196628",
+      "37468629",
+      "33302617",
+      "36004748",
+      "39319382",
+      "37194953",
+      "23912807",
+      "40791470",
+      "32822449",
+      "40455990",
+      "23901099",
+      "39763716",
+      "37079924",
+      "41457474",
+      "39225535",
+      "40690668",
+      "36272811",
+      "40534071",
+      "38181073",
+      "40102453",
+      "35126984",
+      "38252962",
+      "39568893",
+      "39398199",
+      "41700935",
+      "37668016",
+      "34090478",
+      "39677697",
+      "41027866",
+      "37043540",
+      "40136009",
+      "41662498",
+      "37577555",
+      "37961424",
+      "39271032",
+      "40441156",
+      "38308651",
+      "30823702",
+      "37856873",
+      "42517612",
+      "29509422",
+      "32936641",
+      "40009520",
+      "39826710",
+      "35333653",
+      "35053240",
+      "33139563",
+      "42531022",
+      "37961422",
+      "38363841",
+      "33629837",
+      "40291420",
+      "38287572",
+      "38798623",
+      "40172489",
+      "36819870",
+      "34221333",
+      "41524628",
+      "39044475",
+      "35512095",
+      "40236055",
+      "40867025",
+      "34785657",
+      "39928699",
+      "39937084",
+      "39513041",
+      "41933903",
+      "42260147",
+      "26735936",
+      "38492239",
+      "37034777",
+      "40666943",
+      "36163138",
+      "41648378",
+      "33307683",
+      "30217894",
+      "41169547",
+      "42497855",
+      "32087632",
+      "40954121",
+      "36524527",
+      "34102212",
+      "40631837",
+      "41342450",
+      "34784177",
+      "34598580",
+      "35974095",
+      "33864415",
+      "41645509",
+      "37470705",
+      "39610751"
+    ],
+    "review": [
+      "37215004",
+      "39271032",
+      "29509422",
+      "40172489",
+      "36524527"
+    ],
+    "pmc": [
+      "10197689"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37215004/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37215004",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.05.09.540038",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,57 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions presented in the abstract, as no full manuscript text, figures, or tables were provided
+- **Shared manuscript claim summary** The abstract asserts that recent advances in experimental techniques, physics-based simulations, coarse-grained models, and machine learning have transformed the ability to generate and interpret ensembles of intrinsically disordered proteins (IDPs); that integrative frameworks combining complementary data with computational approaches now refine ensembles at local and global levels; and that challenges remain in benchmarking, error estimation, and modeling assemblies involving protein-protein and protein-nucleic acid interactions. The authors highlight recent progress and outline emerging directions for next-generation ensemble determination methods.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, references, or supplementary materials were supplied.
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, methodological details, benchmark results, and reference list. Without these, the specific advances cited, the nature of the integrative frameworks described, and the evidence supporting the claimed transformations cannot be evaluated.
+
+## Reviewer
+- **Overall assessment** The abstract presents a high-level overview of a rapidly evolving field, with a reasonable framing of current capabilities and remaining challenges. However, as an abstract, it contains no specific data, methodological comparisons, or quantitative outcomes. The claims are general and largely descriptive, making it impossible to assess the technical soundness or originality of the underlying work. The abstract reads as a roadmap rather than a report of specific advances, which may be appropriate for a review article but limits the ability to evaluate the strength of the evidence base.
+- **Who would be interested in the results, and why** Structural biologists, computational biophysicists, and researchers studying protein conformational ensembles, particularly those focused on intrinsically disordered proteins and their roles in signaling, regulation, and phase separation. Method developers in integrative modeling and machine learning applied to biomolecular systems would also find the overview relevant, as would experimentalists seeking to combine complementary biophysical data with computational refinement.
+- **Major strengths** The abstract is clearly written and accessible to a broad readership. It correctly identifies the central challenge in the field, namely that IDPs cannot be represented by single conformations and require ensemble descriptions. The framing of integrative approaches as combining complementary data with computational methods is accurate and reflects current best practice. The explicit acknowledgment of remaining challenges in benchmarking, error estimation, and multi-component assemblies is honest and useful for setting research priorities.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that recent advances have "transformed our ability to generate and interpret IDP ensembles" and that "integrative frameworks now combine complementary data with computational approaches to refine ensembles at both local and global levels."
+  - **Evidence pointer** Abstract text only, location not provided
+  - **Concern** The abstract makes strong claims about transformative advances and the current state of integrative frameworks, but no specific examples, data, or comparisons are provided. There is no indication of which experimental techniques, which simulation methods, or which machine learning approaches are being referenced. The claim that ensembles are refined "at both local and global levels" is presented without any supporting demonstration or citation.
+  - **Why it matters** For a review article, the value lies in the specific synthesis of recent work and the critical evaluation of methods. Without concrete examples or a clear evidence trail, the abstract cannot substantiate the claimed transformation of the field, and readers cannot judge whether the overview is accurate, balanced, or current.
+  - **Resolution test** The full manuscript should provide specific examples of recent advances, with citations to primary literature, and should demonstrate how integrative frameworks achieve local and global refinement. The abstract should be revised to reflect the actual content and evidence presented in the full text.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and specificity
+  - **Affected element** The phrase "context-dependent function"
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The phrase is vague and does not specify what kind of context (cellular, biochemical, or environmental) or what functional outcomes are being referenced.
+  - **Required correction** Provide a brief clarification of what is meant by context-dependent function, or rephrase to be more specific about the relationship between ensemble properties and functional outcomes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope definition
+  - **Affected element** The scope of "recent advances"
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The abstract does not define the time window for "recent" nor the criteria for inclusion of specific methods or studies.
+  - **Required correction** Specify the period covered by the review and the criteria used to select the advances discussed.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** "coarse-grained models"
+  - **Evidence pointer** Abstract text, location not provided
+  - **Issue** The term is used without indicating the resolution level or the specific types of coarse-grained models being referenced, which vary widely in their treatment of IDPs.
+  - **Required correction** Clarify the range of coarse-grained approaches covered, or provide examples of the models discussed in the full text.
+- **Technical failings that need to be addressed before the case is established** The abstract alone does not provide sufficient evidence to establish the case for transformative advances. The full manuscript must supply specific examples, methodological details, and a critical comparison of approaches. Without these, the central claims remain unsubstantiated.
+- **Assessment against Nature-style criteria** 
+  - Originality: Not assessable from the abstract. The framing is standard for the field, but the specific contributions of the review cannot be evaluated without the full text.
+  - Scientific importance: The topic is of high importance given the central roles of IDPs in biology and the methodological challenges in characterizing their ensembles. The abstract correctly identifies key challenges.
+  - Interdisciplinary readership: The abstract is written in a way that should appeal to experimentalists, computational scientists, and method developers, though the lack of specifics may limit engagement from specialists seeking depth.
+  - Technical soundness: Not assessable from the abstract. No methods, data, or quantitative results are presented.
+  - Readability for nonspecialists: The abstract is clear and accessible, with minimal jargon, and should be understandable to a broad scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract is promising and the topic is important, but the claims of transformative advances and integrative refinement cannot be evaluated without the full manuscript. A revised abstract that more specifically reflects the content and evidence of the full text would strengthen the case.
+
+## Risk / unsupported claims
+- The claim that recent advances have "transformed" the ability to generate and interpret IDP ensembles is unsupported in the abstract, as no specific advances or evidence are cited.
+- The claim that integrative frameworks "now" refine ensembles at both local and global levels is presented as a current state of the art without supporting examples or citations.
+- The statement that challenges remain in benchmarking, error estimation, and modeling assemblies is plausible but not substantiated with specific examples of these challenges or their current status.
+- The "emerging directions" mentioned in the final sentence are not specified, making this claim unassessable.

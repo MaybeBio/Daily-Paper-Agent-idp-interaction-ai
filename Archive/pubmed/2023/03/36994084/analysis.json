@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36994084",
+  "title": "Statistical mechanics of biomolecular condensates via cavity methods.",
+  "authors": "Lauber, Nino; Tichacek, Ondrej; Bose, Rudrarup; Flamm, Christoph; Leuzzi, Luca; Tang, T-Y Dora; Ruiz-Mirazo, Kepa; De Martino, Daniele",
+  "journal": "iScience",
+  "published_date": "2023-03-31",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用腔方法从微观相互作用出发计算生物分子凝聚体的配分函数，建模相分离机制，虽未直接聚焦IDP/PPI，但为无序蛋白介导的凝聚体互作提供了可迁移的统计物理建模框架。",
+  "abstract": "Physical mechanisms of phase separation in living systems play key physiological roles and have recently been the focus of intensive studies. The strongly heterogeneous nature of such phenomena poses difficult modeling challenges that require going beyond mean-field approaches based on postulating a free energy landscape. The pathway we take here is to calculate the partition function starting from microscopic interactions by means of cavity methods, based on a tree approximation for the interaction graph. We illustrate them on the binary case and then apply them successfully to ternary systems, in which simpler one-factor approximations are proved inadequate. We demonstrate the agreement with lattice simulations and contrast our theory with coacervation experiments of associative de-mixing of nucleotides and poly-lysine. Different types of evidence are provided to support cavity methods as ideal tools for modeling biomolecular condensation, giving an optimal balance between the consideration of spatial aspects and fast computational results.",
+  "abstract_zh": "生命系统中相分离（phase separation）的物理机制发挥着关键的生理作用，并近期成为密集研究的焦点。此类现象的强异质性带来了困难的建模挑战，要求超越基于假设自由能景观的平均场方法。我们在此采取的路径是通过腔方法（cavity methods）从微观相互作用出发计算配分函数，基于相互作用图的树近似。我们在二元情形下进行说明，然后成功应用于三元系统，其中更简单的一因子近似被证明是不充分的。我们展示了与晶格模拟的一致性，并将我们的理论与核苷酸和聚赖氨酸的缔合去混合凝聚实验进行对比。提供了不同类型的证据，支持腔方法作为建模生物分子凝聚的理想工具，在考虑空间方面和快速计算结果之间达到最佳平衡。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36994084/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36994084/",
+  "paper_page_path": "papers/pubmed/36994084/index.html"
+}

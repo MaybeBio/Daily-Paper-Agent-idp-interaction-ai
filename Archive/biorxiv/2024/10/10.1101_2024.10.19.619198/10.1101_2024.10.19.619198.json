@@ -1,0 +1,319 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.10.19.619198",
+  "title": "Mechanism of Interaction Between the Transactivation Domain of N-MYC and the DNA-Binding Surface of TFIIIC5",
+  "doi": "10.1101/2024.10.19.619198",
+  "abstract": "<h4>ABSTRACT</h4> N-myc is a member of the myc family of transcription factors, which are powerful drivers of cellular growth and consequently, important oncoproteins. N-myc interacts with many factors and complexes to affect transcription. One such complex is the RNA Polymerase III assembly factor, TFIIIC, a six-member complex that is essential for the transcription of small, structured RNA. TFIIIC and N-myc mutually restrict each other’s chromatin association, and their complex contributes to quality control in mRNA transcription. We previously demonstrated that the largely intrinsically disordered transactivation domain of N-myc interacts directly with a sub-complex of TFIIIC, τA. Structural studies by others show that DNA binding of τA is largely mediated by TFIIIC3, which suggests that TFIIIC5 is at most a secondary binding site for DNA. Here we identified the DNA binding domain of TFIIIC5 as a key binding site for N-myc. We used an integrated approach combining NMR, HDX mass spectrometry, pull-downs and biophysical assays to elucidate the molecular basis of the interaction. Two sequences in the transactivation domain of N-myc bind to the DNA binding interface of TFIIIC5. AlphaFold modelling predicts a high-confidence binding mode for the higher affinity N-myc motif that overlaps with the predicted intramolecular binding site of the C-terminal acidic plug of TFIIIC5, removal of which enhances the binding of N-myc. The same two motifs in N-myc also interact with Aurora-A kinase, which competes with N-myc for TFIIIC binding during S-phase. This model elucidates how the N-myc:TFIIIC5 interaction competes with other interactions, providing a basis for their mutual censoring function and regulation. <h4>GRAPHICAL ABSTRACT</h4>",
+  "authors": [
+    "Leen E",
+    "Yeoh S",
+    "Sahak E",
+    "Mitchell E",
+    "Wildsmith G",
+    "Batchelor M",
+    "Calabrese AN",
+    "Büchel G",
+    "Bayliss R"
+  ],
+  "published_date": "2024-10-20",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.10.19.619198",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.10.19.619198.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR927842",
+    "raw_record": {
+      "id": "PPR927842",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR927842"
+        ]
+      },
+      "doi": "10.1101/2024.10.19.619198",
+      "title": "Mechanism of Interaction Between the Transactivation Domain of N-MYC and the DNA-Binding Surface of TFIIIC5",
+      "authorString": "Leen E, Yeoh S, Sahak E, Mitchell E, Wildsmith G, Batchelor M, Calabrese AN, Büchel G, Bayliss R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Leen E",
+            "lastName": "Leen",
+            "firstName": "Eoin",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1845-5949"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, Faculty of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yeoh S",
+            "lastName": "Yeoh",
+            "firstName": "Sharon",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, Faculty of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sahak E",
+            "lastName": "Sahak",
+            "firstName": "Eka",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, Faculty of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mitchell E",
+            "lastName": "Mitchell",
+            "firstName": "Ellie",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, Faculty of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wildsmith G",
+            "lastName": "Wildsmith",
+            "firstName": "Gemma",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, Faculty of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Batchelor M",
+            "lastName": "Batchelor",
+            "firstName": "Matthew",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6338-5698"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, Faculty of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Calabrese AN",
+            "lastName": "Calabrese",
+            "firstName": "Antonio",
+            "initials": "AN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2437-7761"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, Faculty of Biological Sciences, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Büchel G",
+            "lastName": "Büchel",
+            "firstName": "Gabriele",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Theodor Boveri Institute, Department of Biochemistry and Molecular Biology, Biocenter, ; , ,"
+                },
+                {
+                  "affiliation": "; Josef-Schneider-Str. 6 , ,"
+                },
+                {
+                  "affiliation": "Mildred Scheel Early Career Center, ; Josef-Schneider-Str. 6 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bayliss R",
+            "lastName": "Bayliss",
+            "firstName": "Richard",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Astbury Centre for Structural Molecular Biology, Faculty of Biological Sciences, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6338-5698"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7070-7341"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1845-5949"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2437-7761"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  N-myc is a member of the myc family of transcription factors, which are powerful drivers of cellular growth and consequently, important oncoproteins. N-myc interacts with many factors and complexes to affect transcription. One such complex is the RNA Polymerase III assembly factor, TFIIIC, a six-member complex that is essential for the transcription of small, structured RNA. TFIIIC and N-myc mutually restrict each other’s chromatin association, and their complex contributes to quality control in mRNA transcription. We previously demonstrated that the largely intrinsically disordered transactivation domain of N-myc interacts directly with a sub-complex of TFIIIC, τA. Structural studies by others show that DNA binding of τA is largely mediated by TFIIIC3, which suggests that TFIIIC5 is at most a secondary binding site for DNA. Here we identified the DNA binding domain of TFIIIC5 as a key binding site for N-myc. We used an integrated approach combining NMR, HDX mass spectrometry, pull-downs and biophysical assays to elucidate the molecular basis of the interaction. Two sequences in the transactivation domain of N-myc bind to the DNA binding interface of TFIIIC5. AlphaFold modelling predicts a high-confidence binding mode for the higher affinity N-myc motif that overlaps with the predicted intramolecular binding site of the C-terminal acidic plug of TFIIIC5, removal of which enhances the binding of N-myc. The same two motifs in N-myc also interact with Aurora-A kinase, which competes with N-myc for TFIIIC binding during S-phase. This model elucidates how the N-myc:TFIIIC5 interaction competes with other interactions, providing a basis for their mutual censoring function and regulation. <h4>GRAPHICAL ABSTRACT</h4>",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "220628/Z/20/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "094232/Z/10/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "104920/Z/14/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/V003577/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.10.19.619198"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.10.19.619198"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR927842"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR927842&type=FILE&fileName=EMS199575-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41755638",
+            "reference": "Nucleic acids research. 2026 Feb;54(5):gkag181",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS199575",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pxd",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-10-22",
+      "firstPublicationDate": "2024-10-20",
+      "firstIndexDate": "2024-10-22",
+      "fullTextReceivedDate": "2024-10-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

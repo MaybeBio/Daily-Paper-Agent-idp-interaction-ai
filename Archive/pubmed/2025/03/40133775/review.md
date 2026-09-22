@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present AFflecto, a web server that generates conformational ensembles of proteins containing both structured domains and intrinsically disordered regions (IDRs) starting from AlphaFold (AF) models. The tool identifies IDRs as tails, linkers, or loops based on structural context, includes a method to detect conditionally folded IDRs that AF may mispredict as folded, and uses stochastic sampling algorithms for global conformational exploration. A web interface allows user customization of ordered/disordered boundaries and sampling strategies.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, validation results, or performance benchmarks provided
+- **Missing materials affecting confidence** Full manuscript, algorithmic details, validation datasets, benchmark comparisons, case studies, web server implementation specifics, and any quantitative performance metrics
+
+## Reviewer
+- **Overall assessment** The abstract describes a potentially useful web server that addresses a real gap in the field, namely the poor representation of disordered regions in AlphaFold models. The concept of identifying IDRs by structural context and generating ensembles is sensible and timely. However, the abstract provides no quantitative evidence of performance, no validation against experimental data, no comparison with existing methods, and no details on the sampling algorithms or their efficiency. The scientific case is therefore not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins and regions, structural biologists working with AlphaFold models, and computational biologists developing or using conformational ensemble methods. The tool could be of practical use to those needing plausible ensembles of proteins with mixed ordered/disordered architecture for downstream functional or therapeutic studies.
+- **Major strengths** The tool addresses a clearly identified limitation of AlphaFold regarding disordered regions. The classification of IDRs into tails, linkers, and loops based on structural context is a reasonable and potentially useful design choice. The inclusion of a method to detect conditionally folded IDRs is an interesting addition that goes beyond simple disorder prediction. The web server format with user customization options enhances accessibility and practical utility.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that AFflecto generates "large conformational ensembles" and that the conformational space is "globally explored using efficient stochastic sampling algorithms."
+  - **Evidence pointer** Abstract only; no methods or results section provided
+  - **Concern** No details are provided on the stochastic sampling algorithms used, their theoretical basis, convergence criteria, or computational efficiency. The claim of "efficient" and "globally explored" is unsupported without any benchmarking data or comparison to existing ensemble generation methods.
+  - **Why it matters** The core value of the tool depends on the quality and representativeness of the generated ensembles. Without evidence that the sampling approach produces physically plausible and diverse conformations, the utility of the server cannot be assessed.
+  - **Resolution test** Provide details of the sampling algorithms, convergence assessment, and benchmarks comparing ensemble properties (e.g., radius of gyration, secondary structure content) against experimental data or established methods.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation and evidence
+  - **Claim pointer** The abstract implies that AFflecto correctly identifies IDRs and conditionally folded IDRs, and that the resulting ensembles are useful representations of protein conformational space.
+  - **Evidence pointer** Abstract only; no validation datasets or case studies provided
+  - **Concern** No validation results are presented. There is no evidence that the IDR identification method accurately distinguishes disordered from ordered regions, that the conditionally folded IDR detection works, or that the generated ensembles match experimental observations for any test case.
+  - **Why it matters** Without validation against known disordered proteins or experimental ensembles, the accuracy and reliability of the tool remain unsubstantiated. Users need confidence that the server produces biologically meaningful results.
+  - **Resolution test** Include validation on benchmark datasets with known disorder annotations, comparison to experimental ensembles (e.g., SAXS, NMR), and at least one detailed case study demonstrating biological insight.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality and differentiation
+  - **Claim pointer** The abstract positions AFflecto as a novel tool for generating ensembles from AF models, but does not clarify how it differs from existing methods.
+  - **Evidence pointer** Abstract only; no related work or comparison section provided
+  - **Concern** Several methods already exist for generating conformational ensembles of IDPs and for refining AlphaFold predictions. The abstract does not state what is new or improved compared to these approaches, nor does it provide any comparative analysis.
+  - **Why it matters** For a methods paper, establishing novelty and advantage over existing tools is essential. Without this, the contribution may be incremental or redundant.
+  - **Resolution test** Provide a clear statement of novelty and a comparison with at least one or two existing methods on common test cases, showing advantages in accuracy, speed, or usability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Description of IDR classification
+  - **Evidence pointer** Abstract, sentence on IDR identification
+  - **Issue** The abstract states that IDRs are identified as "tails, linkers or loops" but does not explain how this classification is determined or why it is biologically meaningful.
+  - **Required correction** Briefly clarify the criteria for this classification and its relevance to protein function or dynamics.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Accessibility and reproducibility
+  - **Affected element** Web server availability
+  - **Evidence pointer** Abstract, final sentence
+  - **Issue** The URL is provided, but there is no mention of whether the source code is open, whether there is a usage limit, or whether input data are retained.
+  - **Required correction** State the availability of source code, any usage restrictions, and data handling policies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope of application
+  - **Affected element** Generalizability claim
+  - **Evidence pointer** Abstract, first and second sentences
+  - **Issue** The abstract implies broad applicability to IDPs/IDRs, but does not discuss limitations such as protein size, sequence complexity, or cases where the method may fail.
+  - **Required correction** Add a sentence on known limitations or expected applicability boundaries.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of algorithmic details, validation data, and comparative analysis means the core claims of accuracy, efficiency, and novelty are currently unsupported.
+- **Assessment against Nature-style criteria** Originality: The concept is moderately original, but differentiation from existing tools is not demonstrated. Scientific importance: The problem addressed is important, and a reliable tool would be valuable, but importance alone does not establish the case. Interdisciplinary readership: The tool could appeal to structural biologists, computational chemists, and bioinformaticians, but the abstract does not make the case accessible to nonspecialists. Technical soundness: Not assessable from the abstract; no methods or validation are provided. Readability for nonspecialists: The abstract is reasonably clear but uses jargon without sufficient context.
+- **Recommendation posture** Currently not established from the provided evidence. The concept is promising and the tool may be useful, but the abstract alone does not provide sufficient technical detail or validation to support the claims. A revised submission with full methods, validation, and comparison would be needed for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that AFflecto generates "large conformational ensembles" is unsupported without details on ensemble size, diversity, or computational cost.
+- The claim that the conformational space is "globally explored" is unsupported without convergence analysis or comparison to exhaustive or reference sampling.
+- The claim that the method identifies "conditionally folded IDRs that AF may incorrectly predict as natively folded elements" is unsupported without validation against known cases.
+- The implied utility of the tool for understanding sequence-dynamics-function relationships is not demonstrated with any example or application.
+- The overall accuracy and biological relevance of the generated ensembles are not assessable from the abstract.

@@ -1,0 +1,220 @@
+{
+  "identity": {
+    "pmid": "40103106",
+    "doi": "10.1103/PhysRevE.111.L023403",
+    "title": "Microscopic and stochastic simulations of chemically active droplets."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates play a central role in the spatial organization of living matter. Their formation is now well understood as a form of liquid-liquid phase separation that occurs very far from equilibrium. For instance, they can be modeled as active droplets, where the combination of molecular interactions and chemical reactions result in microphase separation. However, so far, models of chemically active droplets are spatially continuous and deterministic. Therefore, the relationship between the microscopic parameters of the models and some crucial properties of active droplets (such as their polydispersity, their shape anisotropy, or their typical lifetime) is yet to be established. In this work, we address this question computationally, using Brownian dynamics simulations of chemically active droplets: the building blocks are represented explicitly as particles that interact with attractive or repulsive interactions, depending on whether they are in a droplet-forming state or not. Thanks to this microscopic and stochastic view of the problem, we reveal how driving the system away from equilibrium in a controlled way determines the fluctuations and dynamics of active emulsions.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Berthin, Roxanne",
+        "Fries, Jacques D",
+        "Jardat, Marie",
+        "Dahirel, Vincent",
+        "Illien, Pierre"
+      ],
+      "short_names": [
+        "Berthin R",
+        "Fries JD",
+        "Jardat M",
+        "Dahirel V",
+        "Illien P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Physico-Chimie des Electrolytes et Nanosystemes Interfaciaux (PHENIX), Sorbonne Universite, CNRS, 4 Place Jussieu, 75005 Paris, France. ROR: https://ror.org/02en5vm52. ROR: https://ror.org/046htjf88",
+        "Physico-Chimie des Electrolytes et Nanosystemes Interfaciaux (PHENIX), Sorbonne Universite, CNRS, 4 Place Jussieu, 75005 Paris, France. ROR: https://ror.org/02en5vm52. ROR: https://ror.org/046htjf88",
+        "Physico-Chimie des Electrolytes et Nanosystemes Interfaciaux (PHENIX), Sorbonne Universite, CNRS, 4 Place Jussieu, 75005 Paris, France. ROR: https://ror.org/02en5vm52. ROR: https://ror.org/046htjf88",
+        "Physico-Chimie des Electrolytes et Nanosystemes Interfaciaux (PHENIX), Sorbonne Universite, CNRS, 4 Place Jussieu, 75005 Paris, France. ROR: https://ror.org/02en5vm52. ROR: https://ror.org/046htjf88",
+        "Physico-Chimie des Electrolytes et Nanosystemes Interfaciaux (PHENIX), Sorbonne Universite, CNRS, 4 Place Jussieu, 75005 Paris, France. ROR: https://ror.org/02en5vm52. ROR: https://ror.org/046htjf88"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Berthin, Roxanne",
+        "short_name": "Berthin R",
+        "identifiers": [],
+        "affiliations": [
+          "Physico-Chimie des Électrolytes et Nanosystèmes Interfaciaux (PHENIX), Sorbonne Université, CNRS, 4 Place Jussieu, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Fries, Jacques D",
+        "short_name": "Fries JD",
+        "identifiers": [],
+        "affiliations": [
+          "Physico-Chimie des Électrolytes et Nanosystèmes Interfaciaux (PHENIX), Sorbonne Université, CNRS, 4 Place Jussieu, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Jardat, Marie",
+        "short_name": "Jardat M",
+        "identifiers": [],
+        "affiliations": [
+          "Physico-Chimie des Électrolytes et Nanosystèmes Interfaciaux (PHENIX), Sorbonne Université, CNRS, 4 Place Jussieu, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Dahirel, Vincent",
+        "short_name": "Dahirel V",
+        "identifiers": [],
+        "affiliations": [
+          "Physico-Chimie des Électrolytes et Nanosystèmes Interfaciaux (PHENIX), Sorbonne Université, CNRS, 4 Place Jussieu, 75005 Paris, France."
+        ]
+      },
+      {
+        "full_name": "Illien, Pierre",
+        "short_name": "Illien P",
+        "identifiers": [],
+        "affiliations": [
+          "Physico-Chimie des Électrolytes et Nanosystèmes Interfaciaux (PHENIX), Sorbonne Université, CNRS, 4 Place Jussieu, 75005 Paris, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Physical review. E"
+    ],
+    "journal_abbrev": [
+      "Phys Rev E"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/19 06:22",
+    "fetched_at": "2026-09-21 16:45:24"
+  },
+  "links": {
+    "cites": [
+      "41329728",
+      "40329837"
+    ],
+    "refs": [],
+    "similar": [
+      "40103106",
+      "23912807",
+      "39116001",
+      "39761433",
+      "40329837",
+      "33307683",
+      "36444977",
+      "37848445",
+      "34186016",
+      "34507991",
+      "38856073",
+      "35678216",
+      "35881789",
+      "35293386",
+      "30731446",
+      "35501484",
+      "33231755",
+      "29529021",
+      "37843057",
+      "26274171",
+      "34580768",
+      "40306295",
+      "39328748",
+      "38847600",
+      "21386593",
+      "20866227",
+      "22536956",
+      "20809591",
+      "31576897",
+      "39565729",
+      "38156821",
+      "33596294",
+      "25974494",
+      "37390433",
+      "30207448",
+      "39159108",
+      "29172534",
+      "35867825",
+      "33864415",
+      "37549224",
+      "38491665",
+      "16674162",
+      "38345308",
+      "11034205",
+      "35679341",
+      "28330367",
+      "38965780",
+      "37293933",
+      "38953449",
+      "36559489",
+      "38875706",
+      "36594499",
+      "37679525",
+      "28809962",
+      "37728515",
+      "25278032",
+      "40203039",
+      "19438277",
+      "35311835",
+      "36857712",
+      "34550150",
+      "11031597",
+      "38580324",
+      "35643628",
+      "35001622",
+      "37190858",
+      "24089732",
+      "33416329",
+      "22740596",
+      "34552246",
+      "37586706",
+      "38756056",
+      "29845128",
+      "40056129",
+      "31149828",
+      "33156654",
+      "38096579",
+      "40058249",
+      "31063371",
+      "31804839",
+      "39815790",
+      "37194953",
+      "37252985",
+      "39078082",
+      "30958490",
+      "34155210",
+      "37328453",
+      "39975453",
+      "23135402",
+      "39937084",
+      "40112030",
+      "34573116",
+      "39836078",
+      "32312191",
+      "25134573",
+      "34487930",
+      "36758221",
+      "34654286",
+      "34588591",
+      "37662377"
+    ],
+    "review": [
+      "40103106",
+      "40306295",
+      "40058249",
+      "34573116",
+      "32312191"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.01.30.635772",
+  "title": "Pathological mutation in SMN impairs modulation of GAR1 phase separation linking condensate dysfunction to Spinal Muscular Atrophy",
+  "doi": "10.1101/2025.01.30.635772",
+  "abstract": "<h4>Summary</h4> Pathological mutations in liquid-liquid phase separation (LLPS) scaffold proteins have been linked to biomolecular condensate dysfunction in neurodegenerative diseases, while the possible impact of client protein mutations remains unclear. In spinal muscular atrophy (SMA), the disease-associated E134K mutation in the Tudor domain (TD) of the survival motor neuron (SMN) protein disrupts its interaction with GAR1, an RGG-rich protein within the H/ACA small nucleolar ribonucleoprotein complex. The consequences of this impaired interaction have not been elucidated. Here, we identified GAR1 as an LLPS scaffold protein that is phase separated in nuclear compartments and forms gel-like condensates via complex coacervation with RNA in vitro . In cells, we reveal that SMN co-localizes with GAR1 in Cajal bodies and modulates its dynamics. Using confocal microscopy and NMR spectroscopy, we further show that SMN TD is a client protein that regulates the architecture and dynamics of GAR1 condensates through competitive RNA interactions, implicating GAR1 phase separation in RNA accumulation and release processes regulated by SMN. Notably, the SMA-associated E134K variant of SMN exhibits a reduced affinity for GAR1, impairing the modulation of GAR1 condensates and displacement RNA. Our findings suggest a mechanistic link between phase separation dysregulation and SMA, driven by disrupted scaffold-client interactions, that highlights the therapeutic potential of targeting SMN-dependent condensate regulation in SMA.",
+  "authors": [
+    "Félix SS",
+    "O’Toole P",
+    "Oliveira NAS",
+    "Pinho BR",
+    "Blacker TS",
+    "Fernandes F",
+    "Oliveira JMA",
+    "Oroz J",
+    "Laurents DV",
+    "Cabrita EJ"
+  ],
+  "published_date": "2025-01-31",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.01.30.635772",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.01.30.635772.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR972549",
+    "raw_record": {
+      "id": "PPR972549",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR972549"
+        ]
+      },
+      "doi": "10.1101/2025.01.30.635772",
+      "title": "Pathological mutation in SMN impairs modulation of GAR1 phase separation linking condensate dysfunction to Spinal Muscular Atrophy",
+      "authorString": "Félix SS, O’Toole P, Oliveira NAS, Pinho BR, Blacker TS, Fernandes F, Oliveira JMA, Oroz J, Laurents DV, Cabrita EJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Félix SS",
+            "lastName": "Félix",
+            "firstName": "Sara",
+            "initials": "SS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCIBIO, , Department of Chemistry, NOVA School of Science and Technology, , ,"
+                },
+                {
+                  "affiliation": "Associate Laboratory i4HB – Institute for Health and Bioeconomy, NOVA School of Science and Technology, , ,"
+                },
+                {
+                  "affiliation": "Associate Laboratory i4HB – Institute for Health and Bioeconomy, Instituto Superior Técnico, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "O’Toole P",
+            "lastName": "O’Toole",
+            "firstName": "Philip",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCIBIO, , Department of Chemistry, NOVA School of Science and Technology, , ,"
+                },
+                {
+                  "affiliation": "Associate Laboratory i4HB – Institute for Health and Bioeconomy, NOVA School of Science and Technology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oliveira NAS",
+            "lastName": "Oliveira",
+            "firstName": "Nuno",
+            "initials": "NAS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCIBIO, , Department of Drug Sciences, Pharmacology Lab, Faculty of Pharmacy, , ,"
+                },
+                {
+                  "affiliation": "Associate Laboratory i4HB – Institute for Health and Bioeconomy, Department of Drug Sciences, Pharmacology Lab, Faculty of Pharmacy, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pinho BR",
+            "lastName": "Pinho",
+            "firstName": "Brígida",
+            "initials": "BR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1627-6795"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCIBIO, , Department of Drug Sciences, Pharmacology Lab, Faculty of Pharmacy, , ,"
+                },
+                {
+                  "affiliation": "Associate Laboratory i4HB – Institute for Health and Bioeconomy, Department of Drug Sciences, Pharmacology Lab, Faculty of Pharmacy, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blacker TS",
+            "lastName": "Blacker",
+            "firstName": "Thomas",
+            "initials": "TS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8949-6238"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Research Department of Structural & Molecular Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fernandes F",
+            "lastName": "Fernandes",
+            "firstName": "Fábio",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9112-265X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Bioengineering and iBB-Institute of Bioengineering and Biosciences, Instituto Superior Técnico, , ,"
+                },
+                {
+                  "affiliation": "Associate Laboratory i4HB – Institute for Health and Bioeconomy, Instituto Superior Técnico, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oliveira JMA",
+            "lastName": "Oliveira",
+            "firstName": "Jorge",
+            "initials": "JMA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCIBIO, , Department of Drug Sciences, Pharmacology Lab, Faculty of Pharmacy, , ,"
+                },
+                {
+                  "affiliation": "Associate Laboratory i4HB – Institute for Health and Bioeconomy, Department of Drug Sciences, Pharmacology Lab, Faculty of Pharmacy, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oroz J",
+            "lastName": "Oroz",
+            "firstName": "Javier",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2687-3013"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", CSIC, E-28006 ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Laurents DV",
+            "lastName": "Laurents",
+            "firstName": "Douglas",
+            "initials": "DV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4187-165X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", CSIC, E-28006 ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cabrita EJ",
+            "lastName": "Cabrita",
+            "firstName": "Eurico",
+            "initials": "EJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0720-2751"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "UCIBIO, , Department of Chemistry, NOVA School of Science and Technology, , ,"
+                },
+                {
+                  "affiliation": "Associate Laboratory i4HB – Institute for Health and Bioeconomy, NOVA School of Science and Technology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9112-265X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0720-2751"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0735-8457"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1627-6795"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4187-165X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4995-7255"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6040-5355"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8949-6238"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2052-9828"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2687-3013"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>Summary</h4>  Pathological mutations in liquid-liquid phase separation (LLPS) scaffold proteins have been linked to biomolecular condensate dysfunction in neurodegenerative diseases, while the possible impact of client protein mutations remains unclear. In spinal muscular atrophy (SMA), the disease-associated E134K mutation in the Tudor domain (TD) of the survival motor neuron (SMN) protein disrupts its interaction with GAR1, an RGG-rich protein within the H/ACA small nucleolar ribonucleoprotein complex. The consequences of this impaired interaction have not been elucidated. Here, we identified GAR1 as an LLPS scaffold protein that is phase separated in nuclear compartments and forms gel-like condensates via complex coacervation with RNA  in vitro . In cells, we reveal that SMN co-localizes with GAR1 in Cajal bodies and modulates its dynamics. Using confocal microscopy and NMR spectroscopy, we further show that SMN TD is a client protein that regulates the architecture and dynamics of GAR1 condensates through competitive RNA interactions, implicating GAR1 phase separation in RNA accumulation and release processes regulated by SMN. Notably, the SMA-associated E134K variant of SMN exhibits a reduced affinity for GAR1, impairing the modulation of GAR1 condensates and displacement RNA. Our findings suggest a mechanistic link between phase separation dysregulation and SMA, driven by disrupted scaffold-client interactions, that highlights the therapeutic potential of targeting SMN-dependent condensate regulation in SMA.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2025.01.30.635772"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.01.30.635772"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR972549"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR972549&type=FILE&fileName=EMS203021-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS203021",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-02-02",
+      "firstPublicationDate": "2025-01-31",
+      "firstIndexDate": "2025-02-02",
+      "fullTextReceivedDate": "2025-02-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

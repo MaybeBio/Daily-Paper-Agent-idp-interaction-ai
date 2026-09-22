@@ -1,0 +1,348 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.02.10.579793",
+  "title": "Substrate recognition principles for the PP2A-B55 protein phosphatase",
+  "doi": "10.1101/2024.02.10.579793",
+  "abstract": "The PP2A-B55 phosphatase regulates a plethora of signaling pathways throughout eukaryotes. How PP2A-B55 selects its substrates presents a severe knowledge gap. By integrating AlphaFold modelling with comprehensive high resolution mutational scanning, we show that α-helices in substrates bind B55 through an evolutionary conserved mechanism. Despite a large diversity in sequence and composition, these α-helices share key amino acid determinants that engage discrete hydrophobic and electrostatic patches. Using deep learning protein design, we generate a specific and potent competitive peptide inhibitor of PP2A-B55 substrate interactions. With this inhibitor, we uncover that PP2A-B55 regulates the nuclear exosome targeting complex by binding to an α-helical recruitment module in RBM7. Collectively, our findings provide a framework for the understanding and interrogation of PP2A-B55 in health and disease. <h4>One sentence summary</h4> α-helices in PP2A-B55 substrates bind a conserved pocket on B55 through a common mechanism that is conserved in eukaryotes.",
+  "authors": [
+    "Kruse T",
+    "Garvanska DH",
+    "Varga J",
+    "Garland W",
+    "McEwan B",
+    "Hein JB",
+    "Weisser MB",
+    "Puy IB",
+    "Chan CB",
+    "Parrila PS",
+    "Mendez BL",
+    "Arulanandam J",
+    "Schueler-Furman O",
+    "Jensen TH",
+    "Kettenbach A",
+    "Nilsson J"
+  ],
+  "published_date": "2024-02-11",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.02.10.579793",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.02.10.579793.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR804603",
+    "raw_record": {
+      "id": "PPR804603",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR804603"
+        ]
+      },
+      "doi": "10.1101/2024.02.10.579793",
+      "title": "Substrate recognition principles for the PP2A-B55 protein phosphatase",
+      "authorString": "Kruse T, Garvanska DH, Varga J, Garland W, McEwan B, Hein JB, Weisser MB, Puy IB, Chan CB, Parrila PS, Mendez BL, Arulanandam J, Schueler-Furman O, Jensen TH, Kettenbach A, Nilsson J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kruse T",
+            "lastName": "Kruse",
+            "firstName": "Thomas",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, Blegdamsvej 3B, 2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garvanska DH",
+            "lastName": "Garvanska",
+            "firstName": "Dimitriya",
+            "initials": "DH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, Blegdamsvej 3B, 2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Varga J",
+            "lastName": "Varga",
+            "firstName": "Julia",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Molecular Genetics, Institute for Biomedical Research Israel-Canada, Faculty of Medicine, The Hebrew University of Jerusalem, Jerusalem, 9112001, Israel"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garland W",
+            "lastName": "Garland",
+            "firstName": "William",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, Universitetsbyen 81, Aarhus University, Aarhus, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McEwan B",
+            "lastName": "McEwan",
+            "firstName": "Brennan",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biochemistry and Cell Biology, Geisel School of Medicine at Dartmouth College, Hanover, NH, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hein JB",
+            "lastName": "Hein",
+            "firstName": "Jamin",
+            "initials": "JB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, Blegdamsvej 3B, 2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weisser MB",
+            "lastName": "Weisser",
+            "firstName": "Melanie Bianca",
+            "initials": "MB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, Blegdamsvej 3B, 2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Puy IB",
+            "lastName": "Puy",
+            "firstName": "Iker Benavides",
+            "initials": "IB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, Blegdamsvej 3B, 2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chan CB",
+            "lastName": "Chan",
+            "firstName": "Camilla Bachman",
+            "initials": "CB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, Blegdamsvej 3B, 2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parrila PS",
+            "lastName": "Parrila",
+            "firstName": "Paula Sotelo",
+            "initials": "PS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gene Center Munich, Ludwig-Maximilians- Universitat Munchen, Munich, 81377, Germany"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mendez BL",
+            "lastName": "Mendez",
+            "firstName": "Blanca Lopez",
+            "initials": "BL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, Blegdamsvej 3B, 2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Arulanandam J",
+            "lastName": "Arulanandam",
+            "firstName": "Jeyaprakash",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Gene Center Munich, Ludwig-Maximilians- Universitat Munchen, Munich, 81377, Germany"
+                },
+                {
+                  "affiliation": "Wellcome Centre for Cell Biology, University of Edinburg, Edinburgh, EH9 3BF, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schueler-Furman O",
+            "lastName": "Schueler-Furman",
+            "firstName": "Ora",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and Molecular Genetics, Institute for Biomedical Research Israel-Canada, Faculty of Medicine, The Hebrew University of Jerusalem, Jerusalem, 9112001, Israel"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jensen TH",
+            "lastName": "Jensen",
+            "firstName": "Torben Heick",
+            "initials": "TH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, Universitetsbyen 81, Aarhus University, Aarhus, Denmark"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kettenbach A",
+            "lastName": "Kettenbach",
+            "firstName": "Arminja",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Biochemistry and Cell Biology, Geisel School of Medicine at Dartmouth College, Hanover, NH, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nilsson J",
+            "lastName": "Nilsson",
+            "firstName": "Jakob",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, Blegdamsvej 3B, 2200 Copenhagen, Denmark"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The PP2A-B55 phosphatase regulates a plethora of signaling pathways throughout eukaryotes. How PP2A-B55 selects its substrates presents a severe knowledge gap. By integrating AlphaFold modelling with comprehensive high resolution mutational scanning, we show that α-helices in substrates bind B55 through an evolutionary conserved mechanism. Despite a large diversity in sequence and composition, these α-helices share key amino acid determinants that engage discrete hydrophobic and electrostatic patches. Using deep learning protein design, we generate a specific and potent competitive peptide inhibitor of PP2A-B55 substrate interactions. With this inhibitor, we uncover that PP2A-B55 regulates the nuclear exosome targeting complex by binding to an α-helical recruitment module in RBM7. Collectively, our findings provide a framework for the understanding and interrogation of PP2A-B55 in health and disease. <h4>One sentence summary</h4>  α-helices in PP2A-B55 substrates bind a conserved pocket on B55 through a common mechanism that is conserved in eukaryotes.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.02.10.579793"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR804603"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR804603&type=FILE&fileName=EMS194078-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39356758",
+            "reference": "Science advances. 2024 Oct;10(40):eadp5491",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS194078",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-02-13",
+      "firstPublicationDate": "2024-02-11",
+      "firstIndexDate": "2024-02-13",
+      "fullTextReceivedDate": "2024-03-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

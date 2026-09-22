@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "37071541",
+    "doi": "10.1002/anie.202303838",
+    "title": "Functional DNA Superstructures Exhibit Positive Homotropic Allostery in Ligand Binding."
+  },
+  "content": {
+    "abstract": "Inspired by intrinsically disordered proteins in nature, DNA aptamers can be engineered to display strongly homotropic allosteric (or cooperative) ligand binding, representing a unique feature that could be of great utility in applications such as biosensing, imaging and drug delivery. The use of an intrinsic disorder mechanism, however, comes with an inherent drawback of significantly reduced overall binding affinity. We hypothesize that it could be addressed via the design of multivalent supramolecular aptamers. We built functional DNA superstructures (denoted as 3D DNA), made of long-chain DNA containing tandem repeating DNA aptamers (or concatemeric aptamers). The 3D DNA systems exhibit highly cooperative binding to both small molecules and proteins, without loss of binding affinities of their parent aptamers. We further produced a highly responsive sensor for fluorescence imaging of glutamate stimulation-evoked adenosine triphosphate (ATP) release in neurons, as well as force stimulus-triggered ATP release in astrocytes.",
+    "keywords": [
+      "Allostery",
+      "Aptamer",
+      "Biosensor",
+      "Cooperativity",
+      "Structure-Switching"
+    ],
+    "mesh_terms": [
+      "*Aptamers, Nucleotide/chemistry",
+      "Ligands",
+      "DNA/chemistry",
+      "Adenosine Triphosphate/metabolism",
+      "*Biosensing Techniques/methods"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yin, Qingxin",
+        "Zhao, Dan",
+        "Chang, Yangyang",
+        "Liu, Bo",
+        "Liu, Yi",
+        "Liu, Meng"
+      ],
+      "short_names": [
+        "Yin Q",
+        "Zhao D",
+        "Chang Y",
+        "Liu B",
+        "Liu Y",
+        "Liu M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3114-9003"
+      ],
+      "affiliations": [
+        "School of Environmental Science and Technology, Key Laboratory of Industrial Ecology and Environmental Engineering (Ministry of Education), Dalian University of Technology, Dalian POCT Laboratory, Dalian, 116024, China.",
+        "School of Environmental Science and Technology, Key Laboratory of Industrial Ecology and Environmental Engineering (Ministry of Education), Dalian University of Technology, Dalian POCT Laboratory, Dalian, 116024, China.",
+        "School of Environmental Science and Technology, Key Laboratory of Industrial Ecology and Environmental Engineering (Ministry of Education), Dalian University of Technology, Dalian POCT Laboratory, Dalian, 116024, China.",
+        "School of Biomedical Engineering, Dalian University of Technology, Dalian, 116024, China.",
+        "Department of Neurology, Dalian Municipal Central Hospital Affiliated Hospital of Dalian Medical University, Dalian, 116033, China.",
+        "School of Environmental Science and Technology, Key Laboratory of Industrial Ecology and Environmental Engineering (Ministry of Education), Dalian University of Technology, Dalian POCT Laboratory, Dalian, 116024, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yin, Qingxin",
+        "short_name": "Yin Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Environmental Science and Technology, Key Laboratory of Industrial Ecology and Environmental Engineering (Ministry of Education), Dalian University of Technology, Dalian POCT Laboratory, Dalian, 116024, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Dan",
+        "short_name": "Zhao D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Environmental Science and Technology, Key Laboratory of Industrial Ecology and Environmental Engineering (Ministry of Education), Dalian University of Technology, Dalian POCT Laboratory, Dalian, 116024, China."
+        ]
+      },
+      {
+        "full_name": "Chang, Yangyang",
+        "short_name": "Chang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Environmental Science and Technology, Key Laboratory of Industrial Ecology and Environmental Engineering (Ministry of Education), Dalian University of Technology, Dalian POCT Laboratory, Dalian, 116024, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Bo",
+        "short_name": "Liu B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biomedical Engineering, Dalian University of Technology, Dalian, 116024, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yi",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Dalian Municipal Central Hospital Affiliated Hospital of Dalian Medical University, Dalian, 116033, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Meng",
+        "short_name": "Liu M",
+        "identifiers": [
+          "0000-0003-3114-9003"
+        ],
+        "affiliations": [
+          "School of Environmental Science and Technology, Key Laboratory of Industrial Ecology and Environmental Engineering (Ministry of Education), Dalian University of Technology, Dalian POCT Laboratory, Dalian, 116024, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Angewandte Chemie (International ed. in English)"
+    ],
+    "journal_abbrev": [
+      "Angew Chem Int Ed Engl"
+    ],
+    "pub_date": "2023 Jun 19",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/19 06:00",
+    "fetched_at": "2026-09-20 21:22:22"
+  },
+  "links": {
+    "cites": [
+      "39823346"
+    ],
+    "refs": [],
+    "similar": [
+      "37071541",
+      "30715777",
+      "33144644",
+      "21547431",
+      "16199173",
+      "35471959",
+      "30754968",
+      "36947745",
+      "25170558",
+      "35623250",
+      "30043544",
+      "24531570",
+      "28591844",
+      "29367662",
+      "22702719",
+      "19159108",
+      "25820300",
+      "21419618",
+      "30657477",
+      "23202351",
+      "31478647",
+      "12696895",
+      "30707214",
+      "23082315",
+      "30468073",
+      "24318900",
+      "28249387",
+      "25461154",
+      "19950958",
+      "18680291",
+      "32112111",
+      "15079825",
+      "21951178",
+      "16757168",
+      "20426747",
+      "23974161",
+      "21719270",
+      "36933442",
+      "32110008",
+      "30156834",
+      "21964786",
+      "28929744",
+      "30188731",
+      "22968197",
+      "26063007",
+      "33146988",
+      "20644915",
+      "28237255",
+      "22380526",
+      "24480015",
+      "26695229",
+      "29718419",
+      "22005829",
+      "35917502",
+      "27589406",
+      "32456943",
+      "23851586",
+      "19443209",
+      "16013839",
+      "17241049",
+      "31407049",
+      "27221644",
+      "25288724",
+      "18504560",
+      "26053894",
+      "25432760",
+      "22221798",
+      "30520292",
+      "22874970",
+      "14531655",
+      "21214191",
+      "17263380",
+      "28411826",
+      "26891088",
+      "24588754",
+      "25682429",
+      "26552812",
+      "33559947",
+      "18522435",
+      "21681303",
+      "32499557",
+      "22326894",
+      "29331900",
+      "33301293",
+      "20174715",
+      "25863365",
+      "32909556",
+      "26266334",
+      "31020784",
+      "16289104",
+      "34296595",
+      "19684896",
+      "26221631",
+      "24851721",
+      "32955243",
+      "27689920",
+      "23666257",
+      "17806095",
+      "35334728"
+    ],
+    "review": [
+      "37071541",
+      "16199173",
+      "30707214",
+      "32112111",
+      "20426747",
+      "32110008",
+      "33146988",
+      "20644915",
+      "33559947",
+      "22326894",
+      "32909556",
+      "19684896",
+      "23666257"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/anie.202303838",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

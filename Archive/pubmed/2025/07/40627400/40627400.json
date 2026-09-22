@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "40627400",
+    "doi": "10.1073/pnas.2425343122",
+    "title": "Resolving the structure and dynamics of the disordered C terminus of human cardiac troponin T and effects of cardiomyopathic mutations."
+  },
+  "content": {
+    "abstract": "The C-terminal tail of cardiac troponin T (C-cTnT) inhibits thin filament activation and is a hotspot for cardiomyopathic mutations and variants. The mechanism whereby this region limits activation is not well understood. The last 16 C-terminal residues form a highly flexible and disordered domain and thus have been poorly resolved in studies to date. Using Time-Resolved fluorescence resonance energy transfer (TR-FRET) we resolved the structure of the disordered C-cTnT and studied the structural and dynamic effects of cardiomyopathic mutations on the region. For wildtype (WT) thin filaments, our data revealed a repositioning of cTnT-274 closer to cTnC when bound with calcium and myosin, while cTnT-283 did not move relative to cTnC. Myosin binding decreased the flexibility of cTnT-274 while having no effect on cTnT-283. We found that hypertrophic cardiomyopathy mutation cTnT-K273E decreased flexibility and placed the C-cTnT in an activated position in the blocked and closed states, resulting in increased actomyosin interactions in the absence of calcium; while dilated cardiomyopathy mutation cTnT-D270N increased flexibility and decreased the ability of the C-cTnT to reach its activated position in the open state but had no effect on actomyosin interactions. Our results demonstrate the WT C-cTnT undergoes a disordered to ordered transition upon myosin binding that is directly altered in the presence of cardiomyopathic mutations. These data provide a structural framework for the coupling of TR-FRET with high-resolution molecular dynamics as a tool for interrogating intermolecular interactions of intrinsically disordered proteins and protein complexes.",
+    "keywords": [
+      "cardiac thin filament",
+      "dilated cardiomyopathy",
+      "hypertrophic cardiomyopathy",
+      "molecular dynamics",
+      "time-resolved fluorescence resonance energy transfer"
+    ],
+    "mesh_terms": [
+      "*Troponin T/genetics/chemistry/metabolism",
+      "Humans",
+      "*Mutation",
+      "*Cardiomyopathies/genetics/metabolism",
+      "Fluorescence Resonance Energy Transfer",
+      "Calcium/metabolism",
+      "Myosins/metabolism",
+      "Cardiomyopathy, Hypertrophic/genetics",
+      "Actomyosin/metabolism",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Crosby, Garrett S",
+        "Hei, Bai",
+        "Lynn, Melissa L",
+        "Chakraborti, Ananya",
+        "Schwartz, Steven D",
+        "Tardiff, Jil C"
+      ],
+      "short_names": [
+        "Crosby GS",
+        "Hei B",
+        "Lynn ML",
+        "Chakraborti A",
+        "Schwartz SD",
+        "Tardiff JC"
+      ],
+      "auids": [
+        "ORCID: 0009-0005-0258-8041",
+        "ORCID: 0009-0004-5577-4983",
+        "ORCID: 0000-0002-1107-4027",
+        "ORCID: 0009-0007-1275-9152",
+        "ORCID: 0000-0003-4291-4882"
+      ],
+      "affiliations": [
+        "Department of Physiological Sciences, University of Arizona, Tucson, AZ 85721.",
+        "Department of Chemistry and Biochemistry, University of Arizona, Tucson, AZ 85721.",
+        "Department of Biomedical Engineering, University of Arizona, Tucson, AZ 85721.",
+        "Department of Chemistry and Biochemistry, University of Arizona, Tucson, AZ 85721.",
+        "Department of Chemistry and Biochemistry, University of Arizona, Tucson, AZ 85721.",
+        "Department of Biomedical Engineering, University of Arizona, Tucson, AZ 85721."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Crosby, Garrett S",
+        "short_name": "Crosby GS",
+        "identifiers": [
+          "0009-0005-0258-8041"
+        ],
+        "affiliations": [
+          "Department of Physiological Sciences, University of Arizona, Tucson, AZ 85721."
+        ]
+      },
+      {
+        "full_name": "Hei, Bai",
+        "short_name": "Hei B",
+        "identifiers": [
+          "0009-0004-5577-4983"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Arizona, Tucson, AZ 85721."
+        ]
+      },
+      {
+        "full_name": "Lynn, Melissa L",
+        "short_name": "Lynn ML",
+        "identifiers": [
+          "0000-0002-1107-4027"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Arizona, Tucson, AZ 85721."
+        ]
+      },
+      {
+        "full_name": "Chakraborti, Ananya",
+        "short_name": "Chakraborti A",
+        "identifiers": [
+          "0009-0007-1275-9152"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Arizona, Tucson, AZ 85721."
+        ]
+      },
+      {
+        "full_name": "Schwartz, Steven D",
+        "short_name": "Schwartz SD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of Arizona, Tucson, AZ 85721."
+        ]
+      },
+      {
+        "full_name": "Tardiff, Jil C",
+        "short_name": "Tardiff JC",
+        "identifiers": [
+          "0000-0003-4291-4882"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, University of Arizona, Tucson, AZ 85721."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2025 Jul 15",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/08 12:55",
+    "fetched_at": "2026-09-21 20:44:43"
+  },
+  "links": {
+    "cites": [
+      "42173310"
+    ],
+    "refs": [
+      "39830118",
+      "39548812",
+      "38387550",
+      "37914933",
+      "37379571",
+      "35696530",
+      "35522994",
+      "34699384",
+      "33753506",
+      "32752662",
+      "31919429",
+      "31748410",
+      "31712308",
+      "30351057",
+      "30057009",
+      "29525644",
+      "28607071",
+      "28603979",
+      "28600229",
+      "28530094",
+      "26957598",
+      "26636222",
+      "24963656",
+      "24655499",
+      "24418317",
+      "23146088",
+      "22713569",
+      "21415410",
+      "21322033",
+      "21034069",
+      "20035081",
+      "19575467",
+      "17643520",
+      "15923195",
+      "15568820",
+      "15542288",
+      "15358028",
+      "12946263",
+      "12923187",
+      "12840750",
+      "11779518",
+      "11513585",
+      "11473120",
+      "11390948",
+      "11262409",
+      "11133230",
+      "10946062",
+      "10617660",
+      "10497196",
+      "10387074",
+      "10220335",
+      "9637714",
+      "9353310",
+      "8958207",
+      "8519752",
+      "8461307",
+      "8254035",
+      "8218897",
+      "8205619",
+      "7981753",
+      "7703843",
+      "1975517",
+      "1960733"
+    ],
+    "similar": [
+      "40627400",
+      "31387947",
+      "31748410",
+      "24480310",
+      "24367593",
+      "39328062",
+      "22579624",
+      "37252999",
+      "25450489",
+      "24418317",
+      "14654368",
+      "39548812",
+      "33901537",
+      "18063575",
+      "34161147",
+      "24708997",
+      "16326803",
+      "28603979",
+      "18349139",
+      "32083971",
+      "20004663",
+      "12409295",
+      "35696530",
+      "30732532",
+      "23897817",
+      "19799913",
+      "10850966",
+      "22334656",
+      "21797264",
+      "11724531",
+      "22815480",
+      "27074551",
+      "24221941",
+      "10093049",
+      "17676764",
+      "40068771",
+      "19439414",
+      "12097165",
+      "24043862",
+      "19502551",
+      "26342069",
+      "15201162",
+      "23434821",
+      "19586048",
+      "40412797",
+      "10529204",
+      "23246786",
+      "39456977",
+      "38853835",
+      "37503299",
+      "20566645",
+      "33492345",
+      "31712308",
+      "27769999",
+      "11600691",
+      "15358779",
+      "28973951",
+      "16644804",
+      "29626422",
+      "15165990",
+      "23425245",
+      "40073932",
+      "11773635",
+      "26851561",
+      "18032382",
+      "10497196",
+      "11262409",
+      "21502316",
+      "32690703",
+      "28876897",
+      "17932326",
+      "35177471",
+      "37569724",
+      "15736582",
+      "10329214",
+      "28700929",
+      "37261389",
+      "28533433",
+      "36555368",
+      "12952925",
+      "22489623",
+      "12900417",
+      "18612386",
+      "26232335",
+      "19808376",
+      "15147183",
+      "20035081",
+      "24740688",
+      "9201030",
+      "9714088",
+      "12952912",
+      "40672242",
+      "12832403",
+      "23207592",
+      "26957598",
+      "32618513",
+      "18820258",
+      "26341255",
+      "9202846",
+      "33148509"
+    ],
+    "review": [
+      "40627400",
+      "15201162",
+      "26851561",
+      "37569724",
+      "15736582",
+      "26232335",
+      "24740688"
+    ],
+    "pmc": [
+      "12280962"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2425343122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/cardiomyopathy.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Cardiomyopathy"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40627400/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-TNNT2-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

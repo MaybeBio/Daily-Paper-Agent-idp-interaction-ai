@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41971996",
+  "title": "hnRNPUL1 has a dead polynucleotide kinase domain that regulates RNA and protein interactions.",
+  "authors": "Apostol, Carmen V; Li, Ang; Daniels, Peter; Griffith, Llywelyn; Cooper-Knock, Johnathan; Aguilar-Martinez, Elisa; Yonchev, Ivaylo D; Whelan, Ashleigh G R; Shaw, Pamela J; Sudbery, Ian M; Wilson, Stuart A",
+  "journal": "iScience",
+  "published_date": "2026-04-13",
+  "window": {
+    "start": "2026-04-13",
+    "end": "2026-04-19"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用AlphaFold解析hnRNPUL1的折叠SPRY/dPNK结构域与IDR协同调控RNA及同/异源蛋白互作，虽非相分离但聚焦IDR介导的PPI机制建模，方法可迁移。",
+  "abstract": "hnRNPUL1 is a nuclear RNA-binding protein involved in both pre-mRNA splicing and DNA double-strand break repair. Using AlphaFold, we show that hnRNPUL1 has a central folded region consisting of tightly juxtaposed SPRY and dead polynucleotide kinase (dPNK) domains flanked by intrinsically disordered regions (IDRs). The dPNK domain binds both nucleotides and RNA. Remarkably, polynucleotide kinase activity can be reactivated with a single amino acid substitution. Mutations altering nucleotide binding also change the ability of the entire protein to bind RNA and regulate homotypic versus heterotypic protein interactions driven by the IDRs. A mutation that prevents nucleotide binding also destabilizes the protein. In a small number of amyotrophic lateral sclerosis patients, we identify rare coding variants in the HNRNPUL1 gene, which alter the ability of hnRNPUL1 to bind nucleotides, RNAs, and FUS. Together, these data establish that hnRNPUL1 utilizes its dPNK domain to regulate interactions with itself, RNA, and other proteins.",
+  "abstract_zh": "hnRNPUL1是一种核RNA结合蛋白，参与前体mRNA剪接和DNA双链断裂修复。利用AlphaFold，我们显示hnRNPUL1具有一个中央折叠区域，由紧密并列的SPRY和死亡多核苷酸激酶（dPNK）结构域组成，两侧为固有无序区域（IDRs）。dPNK结构域结合核苷酸和RNA。值得注意的是，多核苷酸激酶活性可通过单个氨基酸替换重新激活。改变核苷酸结合的突变也会改变整个蛋白质结合RNA的能力，并调节由IDRs驱动的同型与异型蛋白质相互作用。阻止核苷酸结合的突变还会使蛋白质不稳定。在一小部分肌萎缩侧索硬化患者中，我们识别出HNRNPUL1基因中的罕见编码变异，这些变异改变了hnRNPUL1结合核苷酸、RNA和FUS的能力。综合这些数据，我们确定hnRNPUL1利用其dPNK结构域调节与自身、RNA及其他蛋白质的相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41971996/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41971996/",
+  "paper_page_path": "papers/pubmed/41971996/index.html"
+}

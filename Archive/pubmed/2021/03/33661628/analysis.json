@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33661628",
+  "title": "Oligomannose N-Glycans 3D Architecture and Its Response to the FcgammaRIIIa Structural Landscape.",
+  "authors": "Fogarty, Carl A; Fadda, Elisa",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2021-03-05",
+  "window": {
+    "start": "2021-03-01",
+    "end": "2021-03-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用大规模MD模拟研究寡甘露糖N-聚糖（本质无序）在游离态与结合FcγRIIIa蛋白表面时的构象系综变化，揭示蛋白表面如何重塑无序糖链构象以介导PPI结合亲和力，虽对象为糖链而非IDP，但其无序构象-蛋白界面互作机制建模思路对本课题有直接迁移价值。",
+  "abstract": "Oligomannoses are evolutionarily the oldest class of N-glycans, where the arms of the common pentasaccharide unit, i.e., Manalpha(1-6)-[Manalpha(1-3)]-Manbeta(1-4)-GlcNAcbeta(1-4)-GlcNAcbeta1-Asn, are functionalized exclusively with branched arrangements of mannose (Man) monosaccharide units. In mammalian species oligomannose N-glycans can have up to 9 Man; meanwhile structures can grow to over 200 units in yeast mannan. The highly dynamic nature, branching complexity, and 3D structure of oligomannoses have been recently highlighted for their roles in immune escape and infectivity of enveloped viruses, such as HIV-1 and SARS-CoV2. The architectural features that allow these N-glycans to perform their functions are yet unclear, due to their intrinsically disordered nature that hinders their structural characterization. In this work we will discuss the results of over 54 mus of cumulative sampling by molecular dynamics (MD) simulations of differently processed, free (not protein-linked) oligomannose N-glycans common in vertebrates. We then discuss the effects of a protein surface on their structural equilibria based on over 4 mus cumulative MD sampling of the fully glycosylated CD16a Fc gamma receptor (FcgammaRIIIa), where the type of glycosylation is known to modulate its binding affinity for IgG1s, regulating the antibody-dependent cellular cytotoxicity (ADCC). Our results show that the protein's structural constraints shift the oligomannoses conformational ensemble to promote conformers that satisfy the steric requirements and hydrogen bonding networks demanded by the protein's surface landscape. More importantly, we find that the protein does not actively distort the N-glycans into structures not populated in the unlinked forms in solution. Ultimately, the highly populated conformations of the Man5 linked glycans support experimental evidence of high levels of hybrid complex forms at N45 and show a specific presentation of the arms at N162, which may be involved in mediating binding affinity to the IgG1 Fc.",
+  "abstract_zh": "寡甘露糖是进化上最古老的一类N-聚糖，其共同五糖核心单元，即Manalpha(1-6)-[Manalpha(1-3)]-Manbeta(1-4)-GlcNAcbeta(1-4)-GlcNAcbeta1-Asn的臂，仅由甘露糖（Man）单糖单元的分支排列进行功能化修饰。在哺乳动物物种中，寡甘露糖N-聚糖最多可含有9个Man；同时，在酵母甘露聚糖中，结构可增长至超过200个单元。寡甘露糖的高度动态特性、分支复杂性及三维结构，近期已被强调其在包膜病毒（如HIV-1和SARS-CoV2）的免疫逃逸和感染性中发挥作用。这些N-聚糖执行其功能所依赖的结构特征尚不清楚，这归因于其内在无序性阻碍了结构表征。在本工作中，我们将讨论通过分子动力学 (molecular dynamics) 模拟对脊椎动物中常见的、经不同加工处理的游离（非蛋白连接）寡甘露糖N-聚糖进行累计超过54微秒采样的结果。随后，我们基于对完全糖基化的CD16a Fc gamma受体（FcgammaRIIIa）进行累计超过4微秒的分子动力学采样，讨论蛋白表面对其结构平衡的影响，其中糖基化类型已知可调节其对IgG1的结合亲和力，从而调控抗体依赖性细胞毒性 (antibody-dependent cellular cytotoxicity, ADCC)。我们的结果表明，蛋白的结构约束将寡甘露糖的构象集合转移，以促进满足蛋白表面景观所要求的空间位阻和氢键网络的构象。更重要的是，我们发现蛋白并未主动将N-聚糖扭曲为溶液中未连接形式不存在的结构。最终，Man5连接聚糖的高占据构象支持了N45处高水平杂合复合形式的实验证据，并展示了N162处臂的特异性呈现，这可能参与介导对IgG1 Fc的结合亲和力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33661628/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33661628/",
+  "paper_page_path": "papers/pubmed/33661628/index.html"
+}

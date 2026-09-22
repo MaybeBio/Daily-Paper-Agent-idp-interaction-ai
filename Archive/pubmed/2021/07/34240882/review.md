@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or methods
+- **Shared manuscript claim summary** The authors use computer simulations of prototypical macromolecules in aqueous ATP solution to propose a molecular mechanism for ATP's hydrotropic activity, including chain unfolding, disruption of hydrophobic aggregation, charge-enhanced synergistic effects, preferential binding to polymer surfaces, and a role for ATP's self-aggregation propensity in its superiority over chemical hydrotropes such as NaXS.
+- **Visible evidence base** Abstract text only; no simulation details, system parameters, force fields, or quantitative results are provided
+- **Missing materials affecting confidence** Full methods, simulation protocols, system compositions, force field parameters, convergence criteria, quantitative data, figures, and comparison with experimental results
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially interesting computational study on the hydrotropic mechanism of ATP. However, the evidence base is limited to a summary of qualitative findings, and the absence of methodological details and quantitative results prevents a rigorous evaluation of the claims. The mechanistic proposal is coherent but not yet substantiated from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biophysical chemistry, soft matter, and molecular simulation, particularly those studying hydrotropes, protein condensates, and the multifunctional roles of ATP in cellular environments. The work may also appeal to experimentalists investigating liquid-liquid phase separation and protein aggregation, as it offers a molecular-level framework for interpreting ATP's effects.
+- **Major strengths** The study addresses a timely and biologically relevant question, namely the dual solubilizing and denaturing roles of ATP, which extends beyond its canonical energy currency function. The use of a bottom-up simulation approach to dissect molecular mechanisms is appropriate. The comparison with a chemical hydrotrope (NaXS) adds a useful reference point for assessing ATP's specificity.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The simulation demonstrates that ATP can unfold a single chain of hydrophobic macromolecule and disrupt the aggregation process of a hydrophobic assembly.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract claims specific simulation outcomes, but no details are given on the model system, simulation length, sampling methodology, or how unfolding and disaggregation were quantified. Without these, the reliability of the demonstrated effects cannot be assessed.
+  - **Why it matters** The core conclusion rests on the validity of the simulation results. If the simulations are under-sampled, use inappropriate force fields, or lack proper equilibration, the observed unfolding and disaggregation could be artifacts.
+  - **Resolution test** Provide full simulation methods, including system setup, force field parameters, simulation time, and convergence checks. Show quantitative measures of chain radius of gyration and aggregation size over time, with error bars and replicates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The introduction of charges in the macromolecule reinforces ATP's disaggregation effects in a synergistic fashion, reminiscent of experimental observations in intrinsically disordered proteins.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The claim of synergy between macromolecular charges and ATP's hydrotropic action is presented as a key finding, but the abstract does not specify how charges were introduced, their distribution, or the magnitude of the synergistic effect relative to the uncharged case.
+  - **Why it matters** The comparison with experimental observations on intrinsically disordered proteins requires a clear demonstration that the simulated charge effects are representative and not an artifact of the specific charge placement or density.
+  - **Resolution test** Detail the charged macromolecule models, including charge density and sequence. Provide quantitative comparisons of disaggregation efficiency between charged and uncharged systems, and discuss how these relate to experimental conditions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The key to ATP's superior hydrotropic role over NaXS may lie in its inherent self-aggregation propensity.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract suggests a mechanistic link between ATP's self-aggregation and its hydrotropic superiority, but no data are presented to support this correlation. It is unclear how self-aggregation propensity was measured or how it mechanistically enhances hydrotropic action.
+  - **Why it matters** This claim distinguishes ATP from conventional hydrotropes and is central to the proposed mechanism. Without evidence, the assertion remains speculative.
+  - **Resolution test** Provide simulation data on ATP clustering behavior, such as aggregation number or cluster size distributions, and correlate these with hydrotropic efficacy. Compare with NaXS under identical conditions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract introduction
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "hydrotrope" is defined, but the concept of "preferential binding" is introduced without explanation, which may confuse readers unfamiliar with solvation thermodynamics.
+  - **Required correction** Briefly define preferential binding in the context of solute-solvent interactions, or rephrase to make the concept accessible.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract conclusion
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract claims "fresh mechanistic insights" but does not specify how these insights advance beyond existing hydrotrope theories or what novel predictions arise.
+  - **Required correction** State explicitly what is new about the proposed mechanism and what testable predictions follow from the simulations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation scope
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract mentions "prototypical macromolecules" but does not clarify whether these are generic models or representative of specific biopolymers, which affects the generality of the conclusions.
+  - **Required correction** Specify the nature of the macromolecules and justify their choice as prototypes for biological systems.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of methodological detail and quantitative evidence for the central claims means the case is not currently established.
+- **Assessment against Nature-style criteria** Originality is moderate, as the application of hydrotrope concepts to ATP is relatively new, but the abstract does not demonstrate a conceptual breakthrough. Scientific importance is potentially high given the biological relevance, but the evidence is insufficient to confirm significance. Interdisciplinary readership is plausible, spanning chemistry, biology, and simulation, but the abstract lacks the detail needed to engage all groups. Technical soundness cannot be evaluated from the abstract alone. Readability for nonspecialists is adequate but could be improved with clearer definitions and context.
+- **Recommendation posture** Currently not established from the provided evidence. The study may be supportable if the full manuscript provides rigorous simulation details and quantitative results that substantiate the claims, but the abstract alone does not suffice.
+
+## Risk / unsupported claims
+- The claim that ATP unfolds a single hydrophobic chain is unsupported without simulation data.
+- The claim of synergistic charge effects is unsupported without quantitative comparisons.
+- The claim that ATP's self-aggregation propensity underlies its superiority over NaXS is speculative and unsupported.
+- The generalizability of the findings to intrinsically disordered proteins is not established from the abstract.

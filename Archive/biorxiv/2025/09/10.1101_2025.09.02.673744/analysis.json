@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.02.673744",
+  "title": "Cross-linking mass spectrometry for structure analysis of the intrinsically disordered Tau and phosphorylated Tau protein",
+  "authors": "Cristian Arsene; Alexander Gates; Anne-Katrin Römmert; André Märtens; Valentina Faustinelli; Luise Luckau; Gavin O’Connor",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-05",
+  "window": {
+    "start": "2025-09-01",
+    "end": "2025-09-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用交联质谱结合网络分析研究Tau及磷酸化Tau无序蛋白的构象折叠，虽涉及IDP构象但非PPI互作机制，且方法为实验质谱而非AI/物理模拟，故属中档。",
+  "abstract": "We present a novel method for analyzing the folding of intrinsically disordered proteins (IDPs), such as Tau and phosphorylated Tau (pTau), in solution. Using cross-linking mass spectrometry combined with a new downstream analysis framework, we construct weighted interaction networks from cross-link–derived residue pairs without relying on predefined secondary structure assumptions. Structural differences between protein conformations are quantified by comparing the organization of loop structures within their cross-link networks. Validation with bovine serum albumin (BSA) in native and denatured states shows that at least 500 cross-links—requiring 5–10 replicate measurements—are needed for reliable detection of structural divergence. Leave-one-out analysis confirms that structural transitions are global, highlighting the importance of comprehensive cross-link datasets. The coverage of unique cross-links was evaluated using accumulation curves from randomized permutations. Saturation levels were found to be 9.7%, 5.0%, and 6.2% of the total 528 and 10,731 possible cross-links after 30, 84, and 62 technical replicates, respectively, for myoglobin, native BSA, and denatured BSA. For Tau and pTau, coverage reached 10.8% and 5.5% of the upper limit (8,256). Finally, applying our structural analysis to Tau and pTau during arachidonic acid–induced aggregation revealed distinct patterns of structural evolution between the two proteins.",
+  "abstract_zh": "我们提出了一种新方法，用于分析溶液中 intrinsically disordered proteins (IDPs)（如 Tau 和 phosphorylated Tau (pTau)）的折叠。通过结合交联质谱法和一种新的下游分析框架，我们从交联衍生的残基对构建加权相互作用网络，而不依赖预定义的二级结构假设。通过比较其交联网络中环状结构的组织，量化蛋白质构象之间的结构差异。使用天然和变性状态的牛血清白蛋白 (BSA) 进行验证，结果表明，至少需要500个交联（需5–10次重复测量）才能可靠检测结构差异。留一分析确认结构转变是全局性的，强调了全面交联数据集的重要性。使用随机排列的累积曲线评估独特交联的覆盖率。对于肌红蛋白、天然BSA和变性BSA，在30、84和62次技术重复后，饱和度分别达到总可能交联数528和10,731的9.7%、5.0%和6.2%。对于Tau和pTau，覆盖率达到了上限（8,256）的10.8%和5.5%。最后，将我们的结构分析应用于花生四烯酸诱导聚集过程中的Tau和pTau，揭示了两种蛋白质之间结构演化的不同模式。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673744",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.02.673744",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.02.673744/index.html"
+}

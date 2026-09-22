@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the supplied abstract text
+- **Shared manuscript claim summary** The authors report synthesis of five sterol-modified elastin-like polypeptides (STaMPs) via genetically encoded post-translational modification, and claim that these conjugates self-assemble into spherical micelles, cylindrical micelles, and vesicles, that sterol hydrophobicity predictably modulates the lower critical solution temperature (LCST) behavior of the ELP, and that the materials may enable drug delivery applications including hydrophobic drug encapsulation, improved solubility and half-life of sterol-based chemotherapeutics, and thermosensitive drug depots.
+- **Visible evidence base** Abstract text only. No figures, tables, methods, or supporting data are provided in the supplied material.
+- **Missing materials affecting confidence** Full manuscript, experimental methods, characterization data (e.g., microscopy, scattering, calorimetry), quantification of self-assembly morphologies, LCST measurements, drug loading and release data, and any in vitro or in vivo validation.
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach to expand the chemical space of protein-based biomaterials through genetically encoded sterol modification. The idea of leveraging post-translational lipidation to modulate phase behavior and self-assembly of intrinsically disordered proteins is timely and potentially impactful. However, the claims as stated in the abstract are not supported by the evidence provided, which is limited to a brief narrative without quantitative data or methodological detail. The central assertions regarding self-assembly morphology, predictable LCST modulation, and drug delivery utility cannot be evaluated from the supplied material. The work may be of interest to the biomaterials and drug delivery communities, but the current evidence base is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers in protein engineering, biomaterials science, and drug delivery would be interested. The concept of genetically encoded sterol modification of intrinsically disordered proteins could offer a new route to tunable self-assembling nanostructures with potential therapeutic applications. Those working on elastin-like polypeptides and stimuli-responsive materials would also find the reported LCST modulation relevant.
+- **Major strengths** The conceptual novelty of using genetically encoded sterol modification to create hybrid lipid-protein biomaterials is a clear strength. The range of sterols tested, including cholesterol derivatives and a therapeutic agent (galeterone), suggests a deliberate design strategy. The potential to combine self-assembly with thermoresponsive behavior is an attractive feature for drug delivery applications.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that STaMPs form self-assembled nanostructures such as spherical and cylindrical micelles, and vesicles.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** No experimental data are presented to substantiate the formation of specific nanostructures. The abstract does not describe the techniques used (e.g., cryo-TEM, DLS, SAXS) or provide any quantitative characterization of size, morphology, or distribution.  
+  - **Why it matters** The central claim of the work is the diverse self-assembly behavior. Without direct structural evidence, the existence and identity of the reported morphologies cannot be verified. This is a foundational claim on which the drug delivery implications rest.  
+  - **Resolution test** Provide representative microscopy or scattering data with clear assignment of each morphology, including sample preparation conditions and statistical analysis of particle populations.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that sterols modify the typical LCST behavior of ELPs in a predictable fashion depending on the hydrophobicity of the sterol appended.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** No LCST data are shown. The claim of predictability requires a systematic comparison across the five sterols with quantitative transition temperatures and a defined relationship to hydrophobicity. The abstract does not specify how hydrophobicity was quantified or how the LCST was measured.  
+  - **Why it matters** The predictable modulation of LCST is a key mechanistic claim that distinguishes this work from simple empirical observation. Without data, the predictive framework cannot be assessed, and the utility for thermosensitive depots is unsupported.  
+  - **Resolution test** Present LCST values for each STaMP and the unmodified ELP control, with a clear correlation to a defined hydrophobicity parameter (e.g., logP or computed descriptor), including statistical significance.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Claim support  
+  - **Claim pointer** The abstract claims that STaMPs could expand possibilities for drug delivery by enabling physical encapsulation of hydrophobic drugs, increasing solubility and half-life of sterol-based chemotherapeutics, and forming thermosensitive drug depots.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** These are functional claims with no supporting data. No drug loading, release, solubility, or half-life experiments are described. The statement is speculative and presented as a potential application rather than a demonstrated outcome.  
+  - **Why it matters** The translational relevance of the work depends on these claims. Without evidence, the abstract overstates the readiness of the system for drug delivery applications.  
+  - **Resolution test** Provide at least one proof-of-concept experiment, such as encapsulation of a hydrophobic model drug with loading efficiency and release profile, or a solubility enhancement assay for a sterol-based therapeutic.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical validity  
+  - **Claim pointer** The abstract states that the sterol modification is genetically encoded.  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Concern** The abstract does not describe the genetic encoding strategy. It is unclear whether the modification is introduced co-translationally via non-canonical amino acid incorporation, post-translationally via an enzyme, or through a chemical conjugation step that is genetically directed. The term "genetically encoded" implies a specific biosynthetic route that must be validated.  
+  - **Why it matters** The novelty of the approach hinges on the genetic encodability. If the modification requires chemical conjugation, the claim is misleading. The method must be clearly described and demonstrated.  
+  - **Resolution test** Describe the biosynthetic or enzymatic strategy in the methods, and provide evidence (e.g., mass spectrometry) confirming the site-specific attachment of each sterol to the ELP.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The term "Sterol modified polypeptides (STaMPs)" is introduced, but the relationship to the broader class of lipid-modified proteins is not contextualized.  
+  - **Required correction** Briefly define the acronym at first use and clarify whether the sterol is covalently linked via an ester, ether, or other bond.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Sterol selection rationale  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The choice of five specific sterols is not justified. The inclusion of galeterone, a therapeutic agent, is intriguing but unexplained.  
+  - **Required correction** Provide a rationale for sterol selection, including structural diversity and expected hydrophobicity range.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** ELP description  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The ELP sequence, molecular weight, and number of repeats are not specified.  
+  - **Required correction** Include the ELP sequence or a reference to a previously published construct, and state the molecular weight.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Precision  
+  - **Affected element** Self-assembly conditions  
+  - **Evidence pointer** Abstract text, location not provided  
+  - **Issue** The conditions under which self-assembly occurs (e.g., temperature, concentration, solvent) are not stated.  
+  - **Required correction** Specify the assembly conditions for each morphology observed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (self-assembly evidence), R1-M2 (LCST predictability), R1-M3 (drug delivery claims), R1-M4 (genetic encodability validation). These are foundational and must be resolved with data before the central claims can be accepted.
+- **Assessment against Nature-style criteria**  
+  - Originality: The concept of genetically encoded sterol modification of an intrinsically disordered protein is original and distinct from prior chemical conjugation approaches. This is a potential strength.  
+  - Scientific importance: If validated, the work could provide a new platform for tunable biomaterials with applications in drug delivery. The importance is moderate to high, but currently speculative.  
+  - Interdisciplinary readership: The topic bridges protein engineering, materials science, and pharmacology, which could attract a broad audience. However, the abstract does not yet demonstrate the cross-disciplinary impact.  
+  - Technical soundness: Not assessable from the abstract. The absence of methods and data precludes evaluation of experimental rigor.  
+  - Readability for nonspecialists: The abstract is generally clear, but terms such as "coprostanol" and "epicoprostanol" are used without context. The writing is accessible but could benefit from a brief explanation of sterol chemistry.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising, but the abstract lacks the data required to support the central claims. A revised submission with full experimental details and quantitative characterization would be needed to assess the work fairly.
+
+## Risk / unsupported claims
+- The formation of spherical micelles, cylindrical micelles, and vesicles is unsupported by any data in the supplied material.
+- The claim of predictable LCST modulation based on sterol hydrophobicity is unsupported and not quantifiable.
+- The drug delivery applications (encapsulation, solubility enhancement, half-life improvement, thermosensitive depots) are speculative and not demonstrated.
+- The term "genetically encoded" is used without methodological support, and the biosynthetic route is not described.
+- The diversity of self-assembly behavior is asserted but not evidenced.

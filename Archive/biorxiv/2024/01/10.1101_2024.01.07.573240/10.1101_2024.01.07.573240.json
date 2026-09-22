@@ -1,0 +1,248 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.01.07.573240",
+  "title": "Repeated duplications and losses shaped SMC complex evolution from archaeal ancestors to modern eukaryotes",
+  "doi": "10.1101/2024.01.07.573240",
+  "abstract": "<h4>Summary</h4> Chromosome organization ensures accurate DNA replication, segregation, gene regulation and DNA damage repair. Across the tree of life, protein assemblages termed Structural Maintenance of Chromosomes (SMC) complexes determine chromosome organization. Eukaryotes usually have four SMC complex types (condensin I, condensin II, cohesin, and SMC5/6), whereas prokaryotes mostly have one. The expanded set is probably needed to accommodate the considerably larger eukaryotic genomes. Despite their essential functions, SMC complexes exhibit notable variation among model organisms, suggesting underexplored diversity across eukaryotes. Here, we provide a thorough reconstruction of the evolution of SMC complex subunits and accessory proteins across eukaryotes. We show that the last eukaryotic common ancestor (LECA) had all four complete SMC complexes, supporting the notion that LECA was already a sophisticated cell. At later timepoints, condensin II was lost at least thirty times, rendering it one of the most frequently lost eukaryotic cellular machineries. We identify multiple components (e.g., Sororin, Securin, Nse5, and Nse6) as much more ancient and widespread than previously appreciated. Finally, we traced the prokaryotic origins of these complexes and propose an ancient SMC complex was already duplicated in the ancestor of TACK and Asgard archaea, suggesting a sophisticated chromosome organization in the archaeal ancestor of eukaryotes. The eukaryotic SMC complex inventory was further expanded through gene duplications, highlighting the importance of these events in the emergence of eukaryotic complexity. Altogether, our results address questions and raise new ones about how SMC complex evolution affected the genome organizations of ancestral and contemporary organisms.",
+  "authors": [
+    "van Hooff JJ",
+    "Raas MW",
+    "Tromer EC",
+    "Eme L"
+  ],
+  "published_date": "2024-01-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.01.07.573240",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.01.07.573240.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR783427",
+    "raw_record": {
+      "id": "PPR783427",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR783427"
+        ]
+      },
+      "doi": "10.1101/2024.01.07.573240",
+      "title": "Repeated duplications and losses shaped SMC complex evolution from archaeal ancestors to modern eukaryotes",
+      "authorString": "van Hooff JJ, Raas MW, Tromer EC, Eme L.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "van Hooff JJ",
+            "lastName": "van Hooff",
+            "firstName": "Jolien J.E.",
+            "initials": "JJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8754-1894"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Unité d’Ecologie Systématique et Evolution, , , ,"
+                },
+                {
+                  "affiliation": "Laboratory of Microbiology, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Raas MW",
+            "lastName": "Raas",
+            "firstName": "Maximilian W.D.",
+            "initials": "MW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4986-2421"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Theoretical Biology and Bioinformatics, Faculty of Science, ,"
+                },
+                {
+                  "affiliation": "Hubrecht Institute, ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tromer EC",
+            "lastName": "Tromer",
+            "firstName": "Eelco",
+            "initials": "EC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3540-7727"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cell Biochemistry, Groningen Biomolecular Sciences & Biotechnology Institute, Faculty of Science and Engineering, ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Eme L",
+            "lastName": "Eme",
+            "firstName": "Laura",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0510-8868"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Unité d’Ecologie Systématique et Evolution, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8754-1894"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0510-8868"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3540-7727"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4986-2421"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>Summary</h4>  Chromosome organization ensures accurate DNA replication, segregation, gene regulation and DNA damage repair. Across the tree of life, protein assemblages termed Structural Maintenance of Chromosomes (SMC) complexes determine chromosome organization. Eukaryotes usually have four SMC complex types (condensin I, condensin II, cohesin, and SMC5/6), whereas prokaryotes mostly have one. The expanded set is probably needed to accommodate the considerably larger eukaryotic genomes. Despite their essential functions, SMC complexes exhibit notable variation among model organisms, suggesting underexplored diversity across eukaryotes. Here, we provide a thorough reconstruction of the evolution of SMC complex subunits and accessory proteins across eukaryotes. We show that the last eukaryotic common ancestor (LECA) had all four complete SMC complexes, supporting the notion that LECA was already a sophisticated cell. At later timepoints, condensin II was lost at least thirty times, rendering it one of the most frequently lost eukaryotic cellular machineries. We identify multiple components (e.g., Sororin, Securin, Nse5, and Nse6) as much more ancient and widespread than previously appreciated. Finally, we traced the prokaryotic origins of these complexes and propose an ancient SMC complex was already duplicated in the ancestor of TACK and Asgard archaea, suggesting a sophisticated chromosome organization in the archaeal ancestor of eukaryotes. The eukaryotic SMC complex inventory was further expanded through gene duplications, highlighting the importance of these events in the emergence of eukaryotic complexity. Altogether, our results address questions and raise new ones about how SMC complex evolution affected the genome organizations of ancestral and contemporary organisms.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "VI.Veni.212.099",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "803151",
+            "orderIn": 0
+          },
+          {
+            "agency": "Dutch Research Council (NWO)",
+            "grantId": "VI.Veni.202.223",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2024/01/08/2024.01.07.573240.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.01.07.573240"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR783427"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR783427&type=FILE&fileName=EMS193282-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40540396",
+            "reference": "Cell reports. 2025 Jul;44(7):115855",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS193282",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-01-09",
+      "firstPublicationDate": "2024-01-08",
+      "firstIndexDate": "2024-01-09",
+      "fullTextReceivedDate": "2025-05-31",
+      "hasEvaluations": "N"
+    }
+  }
+}

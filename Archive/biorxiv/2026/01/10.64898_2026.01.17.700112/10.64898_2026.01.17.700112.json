@@ -1,0 +1,150 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.01.17.700112",
+  "title": "Transient tertiary structure in intrinsically disordered proteins revealed by multithermal enhanced sampling",
+  "doi": "10.64898/2026.01.17.700112",
+  "abstract": "Intrinsically disordered proteins populate heterogeneous conformational ensembles that are challenging to characterise. While all-atom molecular dynamics simulations can provide highly detailed insights into dynamic ensembles, achieving sufficient sampling remains difficult. Here, we show that On-the-fly Probability Enhanced Sampling (OPES) in the multithermal ensemble enables efficient generation of atomistic ensembles for disordered peptides and proteins ranging from 15 to 71 residues in length. Using the potential energy as a collective variable, OPES achieves multithermal sampling within a single simulation replica, without replica exchange or extensive parameter tuning. Across multiple systems, OPES yields reweighted ensembles broadly consistent with replica-exchange with solute tempering (REST2) and unbiased simulations, while accelerating convergence and enabling broader exploration of low-population conformational states. Applied to the intrinsically disordered transcriptional coactivator ACTR, OPES reveals transiently structured states in which multiple α -helices involved in partner binding fold cooperatively and form tertiary contacts. These rare, partially structured conformations are reversibly sampled during the simulations, consistent with extensive NMR and SAXS data, and could facilitate folding-upon-binding through conformational selection. They may also represent viable targets for drug design or for engineering disordered proteins with customised conformational landscapes. More broadly, our results establish OPES multithermal sampling as a robust and accessible approach for uncovering rare, functionally relevant conformations in intrinsically disordered proteins.",
+  "authors": [
+    "Streit JO",
+    "Invernizzi M",
+    "Bottaro S",
+    "Tamiola K",
+    "Lindorff-Larsen K"
+  ],
+  "published_date": "2026-01-21",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.01.17.700112",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.01.17.700112.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1225665",
+    "raw_record": {
+      "id": "PPR1225665",
+      "source": "PPR",
+      "doi": "10.64898/2026.01.17.700112",
+      "title": "Transient tertiary structure in intrinsically disordered proteins revealed by multithermal enhanced sampling",
+      "authorString": "Streit JO, Invernizzi M, Bottaro S, Tamiola K, Lindorff-Larsen K.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Streit JO",
+            "lastName": "Streit",
+            "firstName": "Julian",
+            "initials": "JO",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6114-3636"
+            }
+          },
+          {
+            "fullName": "Invernizzi M",
+            "lastName": "Invernizzi",
+            "firstName": "Michele",
+            "initials": "M"
+          },
+          {
+            "fullName": "Bottaro S",
+            "lastName": "Bottaro",
+            "firstName": "Sandro",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1606-890X"
+            }
+          },
+          {
+            "fullName": "Tamiola K",
+            "lastName": "Tamiola",
+            "firstName": "Kamil",
+            "initials": "K"
+          },
+          {
+            "fullName": "Lindorff-Larsen K",
+            "lastName": "Lindorff-Larsen",
+            "firstName": "Kresten",
+            "initials": "K"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6114-3636"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1606-890X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "Intrinsically disordered proteins populate heterogeneous conformational ensembles that are challenging to characterise. While all-atom molecular dynamics simulations can provide highly detailed insights into dynamic ensembles, achieving sufficient sampling remains difficult. Here, we show that On-the-fly Probability Enhanced Sampling (OPES) in the multithermal ensemble enables efficient generation of atomistic ensembles for disordered peptides and proteins ranging from 15 to 71 residues in length. Using the potential energy as a collective variable, OPES achieves multithermal sampling within a single simulation replica, without replica exchange or extensive parameter tuning. Across multiple systems, OPES yields reweighted ensembles broadly consistent with replica-exchange with solute tempering (REST2) and unbiased simulations, while accelerating convergence and enabling broader exploration of low-population conformational states. Applied to the intrinsically disordered transcriptional coactivator ACTR, OPES reveals transiently structured states in which multiple  α -helices involved in partner binding fold cooperatively and form tertiary contacts. These rare, partially structured conformations are reversibly sampled during the simulations, consistent with extensive NMR and SAXS data, and could facilitate folding-upon-binding through conformational selection. They may also represent viable targets for drug design or for engineering disordered proteins with customised conformational landscapes. More broadly, our results establish OPES multithermal sampling as a robust and accessible approach for uncovering rare, functionally relevant conformations in intrinsically disordered proteins.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.01.17.700112"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42129207",
+            "reference": "Nature communications. 2026 May;17(1):5558",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2026-01-21",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

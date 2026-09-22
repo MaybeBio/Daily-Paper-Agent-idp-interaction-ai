@@ -1,0 +1,587 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.19.562942",
+  "title": "A Reference Data Set for Circular Dichroism Spectroscopy Comprised of Validated Intrinsically Disordered Protein Models",
+  "doi": "10.1101/2023.10.19.562942",
+  "abstract": "Circular Dichroism (CD) spectroscopy is an analytical technique that measures the wavelength-dependent differential absorbance of circularly polarized light, and is applicable to most biologically important macromolecules, such as proteins, nucleic acids, and carbohydrates. It serves to characterize the secondary structure composition of proteins, including intrinsically disordered proteins, by analyzing their recorded spectra. Several computational tools have been developed to interpret protein CD spectra. These methods have been calibrated and tested mostly on globular proteins with well-defined structures, mainly due to the lack of reliable reference structures for disordered proteins. It is therefore still largely unclear how accurately these computational methods can determine the secondary structure composition of disordered proteins. Here, we provide such a required reference data set consisting of model structural ensembles and matching CD spectra for eight intrinsically disordered proteins. Using this set of data, we have assessed the accuracy of several published CD prediction and secondary structure estimation tools, including our own CD analysis package SESCA. Our results show that for most of the tested methods, their accuracy for disordered proteins is generally lower than for globular proteins. In contrast, SESCA, which was developed using globular reference proteins, but was designed to be applicable to disordered proteins as well, performs similarly well for both classes of proteins. The new reference data set for disordered proteins should allow for further improvement of all published methods.",
+  "authors": [
+    "Gabor Nagy",
+    "Nykola C. Jones",
+    "Soren V Hoffmann",
+    "Helmut Grubmueller"
+  ],
+  "published_date": "2023-10-20",
+  "updated_date": "2023-10-20T06:45:15Z",
+  "journal": "bioRxiv",
+  "category": "Biophysics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.19.562942",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.19.562942.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Biophysics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Biophysics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T20:20:40Z",
+        "timestamp": 1768508440371,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ]
+      },
+      "group-title": "Biophysics",
+      "reference-count": 75,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2024,
+            2,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Circular Dichroism (CD) spectroscopy is an analytical technique that measures the wavelength-dependent differential absorbance of circularly polarized light, and is applicable to most biologically important macromolecules, such as proteins, nucleic acids, and carbohydrates. It serves to characterize the secondary structure composition of proteins, including intrinsically disordered proteins, by analyzing their recorded spectra. Several computational tools have been developed to interpret protein CD spectra. These methods have been calibrated and tested mostly on globular proteins with well-defined structures, mainly due to the lack of reliable reference structures for disordered proteins. It is therefore still largely unclear how accurately these computational methods can determine the secondary structure composition of disordered proteins. Here, we provide such a required reference data set consisting of model structural ensembles and matching CD spectra for eight intrinsically disordered proteins. Using this set of data, we have assessed the accuracy of several published CD prediction and secondary structure estimation tools, including our own CD analysis package SESCA. Our results show that for most of the tested methods, their accuracy for disordered proteins is generally lower than for globular proteins. In contrast, SESCA, which was developed using globular reference proteins, but was designed to be applicable to disordered proteins as well, performs similarly well for both classes of proteins. The new reference data set for disordered proteins should allow for further improvement of all published methods.</jats:p>",
+      "DOI": "10.1101/2023.10.19.562942",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ],
+        "date-time": "2023-10-20T06:45:15Z",
+        "timestamp": 1697784315000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "A Reference Data Set for Circular Dichroism Spectroscopy Comprised of Validated Intrinsically Disordered Protein Models"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-8607-9682",
+          "authenticated-orcid": false,
+          "given": "Gabor",
+          "family": "Nagy",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4081-6405",
+          "authenticated-orcid": false,
+          "given": "Nykola C.",
+          "family": "Jones",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8018-5433",
+          "authenticated-orcid": false,
+          "given": "Soren V",
+          "family": "Hoffmann",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3270-3144",
+          "authenticated-orcid": false,
+          "given": "Helmut",
+          "family": "Grubmueller",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/BF02703972"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.20853"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1017/S003358351000003X"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.4",
+          "unstructured": "Circular Dichroism and the Conformational Analysis of Biomolecules; Fasman, G. D. , Ed.; Springer US: Boston, MA, 1996."
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btp016"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.23188"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1500851112"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw554"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/abio.2000.4879"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/4.6.669"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.9b00203"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkq1026"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab1082"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/cr400525m"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nrm3920"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-020-71716-1"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac345"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/protein/5.3.191"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.340070302"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/chir.20264"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C4CP02668C"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btl327"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr234"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.exer.2007.01.016"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.25",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi0357006"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.26",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M112.399436"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.27",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S1097-2765(01)00333-1"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkp750"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1074/jbc.M111.333088"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.sbi.2011.04.001"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/C9CP03434J"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1800690115"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/prot.21123"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.5b00736"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bts172"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jpca.2c03726"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.8b01231"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ja101645g"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.bpj.2020.02.015"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.40",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkt960"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkac1050"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.42",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.cpc.2021.108022"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.43",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jf070337l"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.44",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acschembio.8b01055"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.45",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi0357006"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0909049509036681"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.47",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/bi800900d"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.48",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.str.2010.01.020"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jmr.1010"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.softx.2015.06.001"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.2408420"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.328693"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/08927028808080941"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct700200b"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1063/1.464397"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.56",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Allen, M. P. ; Tildesley, D. J. Computer Simulation of Liquids; Oxford University Press, USA, 1989.",
+          "DOI": "10.1063/1.2810937"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.57",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.csbj.2021.04.050"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jcim.1c00407"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.59",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcc.10349"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.60",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct500569b"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.61",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1800690115"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.62",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/acs.jctc.5b00255"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.63",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jz501780a"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.64",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/jp973084f"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.65",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ct900549r"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.66",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nmeth.4067"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.67",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/28.1.235"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.68",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-0716-0270-6_15"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.69",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10858-010-9433-9"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.70",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1107/S0021889895007047"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.71",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00249-020-01457-6"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.72",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1021/ci400541d"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.73",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/bip.360221211"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.74",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa296"
+        },
+        {
+          "key": "2023102501351191000_2023.10.19.562942v1.75",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1039/b615870f"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2023.10.19.562942",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T05:24:23Z",
+        "timestamp": 1768454663000
+      },
+      "score": 93.053635,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2023.10.19.562942"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ]
+      },
+      "references-count": 75,
+      "URL": "https://doi.org/10.1101/2023.10.19.562942",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1177/00037028241239977",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

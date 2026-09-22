@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42519490",
+  "title": "Integrative analysis of YTHDC1 phosphoproteome unveils its phosphomodulatory network linked to splicing and tumorigenesis.",
+  "authors": "Shaji, Megha; John, Levin; Subair, Suhail; Thomas, Jaytha; Sambreena, Alimath; Varghese, Susmi; Gopalakrishnan, Athira Perunelly; Gopalakrishnan, Vaishnavi; Krishna, Rajesh; Raju, Rajesh; Soman, Sowmya",
+  "journal": "Frontiers in bioinformatics",
+  "published_date": "2026-07-28",
+  "window": {
+    "start": "2026-07-27",
+    "end": "2026-08-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文整合磷酸化组学数据构建YTHDC1（含IDR内磷酸化位点）的磷酸调控网络，涉及蛋白互作与剪接/肿瘤关联，但无AI或物理模拟方法，机制建模深度有限。",
+  "abstract": "INTRODUCTION: YTH domain-containing protein 1 (YTHDC1) is a nuclear m6A reader with well-known roles in mRNA splicing, nuclear mRNA export, and DNA damage response. Although over 44 phosphosites, including those within the YTH domain, are detected in phosphoproteomic datasets, the phosphoregulatory mechanism that governs YTHDC1 function remains unknown. METHODS: To delineate the phosphoregulatory landscape of YTHDC1, we conducted an integrative analysis of large-scale human phosphoproteomic datasets. The phosphosites were ranked according to their frequency of occurrence, and most recurrent sites were considered predominant. To explore their biological significance, we combined co-phosphorylation analysis with upstream kinase prediction and protein-interaction network mapping. RESULT: Three phosphosites, S308 and S146 located in the intrinsically disordered regions and S424 in the YTH domain, were identified as predominantly perturbed across datasets. Functional enrichment analysis of phosphosites in other proteins (PsOPs) co-regulated with these YTHDC1 phosphosites revealed their potential association with mRNA processing and splicing. Considering that no kinases are validated for these sites, phosphomotif-based analysis identified upstream kinases such as MAPK14, CDK7, AKT1, and PAK1. Annotation of phosphosites in these kinases co-regulated with the predominant YTHDC1 phosphosites demonstrated their association with kinase activity, reiterating their potential role as upstream kinases. The PsOPs, including these kinases, as well as many validated binary interactors associated with splicing-related functions, were enriched in the YTHDC1 phosphoregulatory network. Notably, 30 of the co-regulated PsOPs were enriched in pathways that are linked to carcinogenesis, and 4 were in DNA repair inhibition, thereby corroborating their possible role in phosphorylation-dependent signaling associated with cancer. CONCLUSION: Considering that targeted molecular biology experiments to explore the role of multiple phosphosites are challenging, our approach provides a suitable framework to infer phospho-site centric regulatory networks. Current findings suggest a putative role of YTHDC1 and its predominant phosphosites in RNA splicing and highlight its regulatory potential in tumor-associated signaling networks.",
+  "abstract_zh": "引言：含YTH结构域蛋白1（YTHDC1）是一种核内m6A阅读蛋白，在mRNA剪接、核内mRNA输出及DNA损伤应答中具有公认的作用。尽管在磷酸化蛋白质组数据集中检测到超过44个磷酸化位点（包括YTH结构域内的位点），但调控YTHDC1功能的磷酸化调控机制仍未知。方法：为描绘YTHDC1的磷酸化调控图谱，我们对大规模人类磷酸化蛋白质组数据集进行了整合分析。根据磷酸化位点的出现频率对其进行排序，出现频率最高的位点被视为主要位点。为探索其生物学意义，我们将共磷酸化分析与上游激酶预测及蛋白质相互作用网络映射相结合。结果：三个磷酸化位点——位于 intrinsically disordered regions（内在无序区域）的S308和S146，以及位于YTH结构域的S424——被鉴定为跨数据集的主要扰动位点。对这些YTHDC1磷酸化位点共调控的其他蛋白质中磷酸化位点（PsOPs）进行功能富集分析，揭示其与mRNA加工和剪接的潜在关联。考虑到这些位点尚无已验证的激酶，基于磷酸化基序的分析鉴定了上游激酶，如MAPK14、CDK7、AKT1和PAK1。对这些与主要YTHDC1磷酸化位点共调控的激酶中磷酸化位点的注释表明，它们与激酶活性相关，重申了其作为上游激酶的潜在作用。包括这些激酶在内的PsOPs，以及许多与剪接相关功能相关的已验证二元相互作用因子，富集于YTHDC1磷酸化调控网络中。值得注意的是，共调控的PsOPs中有30个富集于与致癌相关的通路，4个富集于DNA修复抑制通路，从而证实了它们在癌症相关磷酸化依赖性信号传导中的可能作用。结论：考虑到探索多个磷酸化位点作用的靶向分子生物学实验具有挑战性，我们的方法为推断以磷酸化位点为中心的调控网络提供了合适的框架。当前发现提示YTHDC1及其主要磷酸化位点在RNA剪接中的潜在作用，并强调其在肿瘤相关信号网络中的调控潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42519490/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42519490/",
+  "paper_page_path": "papers/pubmed/42519490/index.html"
+}

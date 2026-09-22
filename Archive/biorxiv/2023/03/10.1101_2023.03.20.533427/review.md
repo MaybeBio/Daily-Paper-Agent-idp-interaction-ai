@@ -1,0 +1,68 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims made in the abstract regarding method design, feature sources, classifier choice, optimization strategy, and performance superiority
+- **Shared manuscript claim summary** The authors present DRPbind, a computational method that predicts DNA, RNA, and protein binding residues in intrinsically disordered protein sequences. The method integrates evolutionary (PSSM and HMM bigram profiles), physicochemical, and structural features, uses a Support Vector Machine classifier, and claims optimized performance for simultaneous prediction of all three binding types.
+- **Visible evidence base** Abstract text only; no figures, tables, methods details, or performance metrics provided
+- **Missing materials affecting confidence** Full manuscript, quantitative performance comparisons, dataset descriptions, cross-validation procedures, baseline methods, and implementation details
+
+## Reviewer
+- **Overall assessment** The abstract describes a plausible computational approach for predicting nucleic acid and protein binding residues in disordered proteins, a topic of potential interest. However, the claims of superior performance and optimization are presented without any quantitative evidence in the supplied material. The methodological novelty is unclear, and the relationship between the three component predictors and the integrated system is not specified. The abstract alone does not establish the scientific case.
+- **Who would be interested in the results, and why** Researchers in computational biology, specifically those working on protein function prediction, intrinsically disordered protein analysis, and binding site annotation. The method could be useful for functional annotation of disordered regions, which are often neglected in structure-based approaches.
+- **Major strengths** The focus on intrinsically disordered proteins addresses an important gap, as binding in these regions is functionally significant yet challenging to predict. The use of multiple feature types (evolutionary, physicochemical, structural) is a reasonable strategy for capturing diverse binding determinants.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims "superior performance in terms of simultaneously predicting the DNA-binding, RNA-binding and protein-binding residues."
+  - **Evidence pointer** Location not provided
+  - **Concern** No quantitative performance data, comparison against existing methods, or statistical significance measures are presented in the abstract. The claim of superiority is unsupported by any visible evidence.
+  - **Why it matters** Without performance metrics and baseline comparisons, readers cannot assess whether DRPbind offers any advantage over existing predictors. The central claim of the method's value rests on this unsupported assertion.
+  - **Resolution test** Provide performance metrics (e.g., Matthews correlation coefficient, area under the ROC curve, F1 score) for each binding type, with comparisons to at least two established baseline methods, including confidence intervals or statistical tests.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological clarity
+  - **Claim pointer** The abstract states that DRPbind "utilizes independent sources of information encoded for each component predictor" and is "optimized based on a specific binding type."
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract does not clarify how the three component predictors are integrated into a single prediction framework, nor what "optimized based on a specific binding type" means operationally. It is unclear whether separate models are trained and combined, or whether a single model handles all three tasks.
+  - **Why it matters** Reproducibility and interpretation depend on understanding the model architecture and optimization procedure. Ambiguity here prevents readers from evaluating the method's design rationale or adapting it to their own data.
+  - **Resolution test** Describe the model architecture explicitly, including how features are selected for each component, how predictions from components are combined, and what optimization criterion is used for each binding type.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty assessment
+  - **Claim pointer** The abstract implies a novel contribution by combining multiple feature types and predicting three binding types simultaneously.
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract does not state what is new relative to existing methods for binding residue prediction in disordered proteins. The feature types and classifier are standard in this field.
+  - **Why it matters** For a method paper, the contribution must be clearly differentiated from prior work. Without this, the scientific value is difficult to establish.
+  - **Resolution test** Explicitly state the novel aspects, such as new feature combinations, a new integration strategy, or a previously unaddressed prediction task, and cite relevant prior methods for comparison.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, first sentence
+  - **Issue** The term "deoxyribonucleic acid (DNA) binding" is redundant; DNA is already defined in the abbreviation.
+  - **Required correction** Use "DNA binding" directly after the first full definition, or remove the parenthetical expansion.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Feature description
+  - **Evidence pointer** Abstract, feature list
+  - **Issue** The abstract mentions "protein structural-based features" but does not specify whether these are predicted or experimentally derived structures, which is critical for applicability to query sequences.
+  - **Required correction** Clarify the source of structural features, e.g., predicted from sequence or derived from known structures.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Resource availability
+  - **Evidence pointer** Abstract, last sentence
+  - **Issue** The source code link is provided, but no information is given on dependencies, input format, or runtime, which limits immediate usability.
+  - **Required correction** Add a brief note on implementation requirements or refer to a methods section for these details.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of performance evidence and the lack of methodological specificity prevent the core claims from being evaluated. R1-M3, while not blocking, is necessary for establishing the contribution's context.
+
+## Risk / unsupported claims
+- The claim of "superior performance" is unsupported by any quantitative data in the supplied material.
+- The statement that DRPbind is "optimized based on a specific binding type" is ambiguous and not verifiable from the abstract.
+- The novelty of the method relative to existing predictors is not established.
+- The applicability of structural features to arbitrary query sequences is unclear, as the source of these features is not specified.

@@ -1,0 +1,278 @@
+{
+  "identity": {
+    "pmid": "41259939",
+    "doi": "10.1016/j.bpc.2025.107550",
+    "title": "Development of an EPR-based methodology to study protein-lipid interaction."
+  },
+  "content": {
+    "abstract": "The interaction of protein with other biomolecules is central to all cellular processes. In particular, protein-lipid interactions play an essential role in regulating soluble and membrane protein function, structure, and dynamics. However, probing these interactions remains challenging due to the complexity and heterogeneity of membranes. Various methods have been developed to characterize protein-membrane interaction, each presenting advantages and limitations. This study presents a robust methodology based on continuous-wave Electron Paramagnetic Resonance (CW-EPR) spectroscopy to characterize protein-membrane interactions. We focused on the protein Tau, an intrinsically disordered protein associated with neurodegenerative diseases. We show that the interaction of labelled Tau with lipids gives rise to a very distinct lineshape, which can be used to quantify the fraction of bound protein. This allows to obtain the apparent binding mode and affinity through titration experiments. In addition, we show that a single measurement provides the absolute concentration of free and bound protein. We argue that this information, which is rarely obtained by other methods providing relative signals, is very useful for mechanistic studies. Furthermore, we developed a minimal-data approach and demonstrated that a single EPR measurement can be used to estimate an apparent binding constant. The approach is applied to the Tau-membrane interaction occurring in different conditions affecting the binding behavior. The presented methodology is expected to be applicable to other proteins.",
+    "keywords": [
+      "Binding affinity",
+      "EPR spectroscopy",
+      "Protein-membrane interaction",
+      "Tau protein"
+    ],
+    "mesh_terms": [
+      "*Cell Membrane/chemistry",
+      "*Lipids/chemistry",
+      "Electron Spin Resonance Spectroscopy/methods",
+      "*tau Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Piersson, Clara",
+        "Prakash, Shikhar",
+        "Lublin, Victoria",
+        "Rossotti, Melanie",
+        "Fischer, Baptiste",
+        "Srivastava, Madhur",
+        "Fichou, Yann"
+      ],
+      "short_names": [
+        "Piersson C",
+        "Prakash S",
+        "Lublin V",
+        "Rossotti M",
+        "Fischer B",
+        "Srivastava M",
+        "Fichou Y"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600 Pessac, France.",
+        "Systems Engineering, Cornell University, Ithaca, NY 14853, USA; National Biomedical Resource for Advanced ESR Spectroscopy (ACERT), Ithaca, NY 14853, USA.",
+        "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600 Pessac, France.",
+        "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600 Pessac, France.",
+        "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600 Pessac, France.",
+        "Department of Chemistry and Chemical Biology, Cornell University, Ithaca, NY 14853, USA; National Biomedical Resource for Advanced ESR Spectroscopy (ACERT), Ithaca, NY 14853, USA.",
+        "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600 Pessac, France. Electronic address: y.fichou@iecb.u-bordeaux.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Piersson, Clara",
+        "short_name": "Piersson C",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600 Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Prakash, Shikhar",
+        "short_name": "Prakash S",
+        "identifiers": [],
+        "affiliations": [
+          "Systems Engineering, Cornell University, Ithaca, NY 14853, USA; National Biomedical Resource for Advanced ESR Spectroscopy (ACERT), Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Lublin, Victoria",
+        "short_name": "Lublin V",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600 Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Rossotti, Melanie",
+        "short_name": "Rossotti M",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600 Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Fischer, Baptiste",
+        "short_name": "Fischer B",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600 Pessac, France."
+        ]
+      },
+      {
+        "full_name": "Srivastava, Madhur",
+        "short_name": "Srivastava M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Chemical Biology, Cornell University, Ithaca, NY 14853, USA; National Biomedical Resource for Advanced ESR Spectroscopy (ACERT), Ithaca, NY 14853, USA."
+        ]
+      },
+      {
+        "full_name": "Fichou, Yann",
+        "short_name": "Fichou Y",
+        "identifiers": [],
+        "affiliations": [
+          "Univ. Bordeaux, CNRS, Bordeaux INP, CBMN, UMR 5248, IECB, F-33600 Pessac, France. Electronic address: y.fichou@iecb.u-bordeaux.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical chemistry"
+    ],
+    "journal_abbrev": [
+      "Biophys Chem"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/11/20 00:30",
+    "fetched_at": "2026-09-17 22:07:40"
+  },
+  "links": {
+    "cites": [
+      "42212095"
+    ],
+    "refs": [],
+    "similar": [
+      "41259939",
+      "38512660",
+      "42156691",
+      "19669751",
+      "31218632",
+      "23912807",
+      "23404282",
+      "42156692",
+      "42475469",
+      "26477248",
+      "26453213",
+      "41401506",
+      "32696377",
+      "12659966",
+      "32130007",
+      "10504050",
+      "20641553",
+      "28882313",
+      "37531799",
+      "24160760",
+      "18049817",
+      "26477253",
+      "11030596",
+      "40136808",
+      "26477254",
+      "20641530",
+      "22401494",
+      "12944284",
+      "22479423",
+      "20013404",
+      "28485937",
+      "33757896",
+      "33825681",
+      "1330029",
+      "8386549",
+      "33716012",
+      "31218631",
+      "42692766",
+      "9062118",
+      "33663214",
+      "8780514",
+      "22521809",
+      "25229151",
+      "20641525",
+      "26355804",
+      "42156690",
+      "21894979",
+      "8381664",
+      "21713632",
+      "22091896",
+      "18672066",
+      "33582999",
+      "33218036",
+      "19842617",
+      "10694403",
+      "30638529",
+      "23404283",
+      "28579098",
+      "15183364",
+      "2554990",
+      "36345280",
+      "37244538",
+      "33010205",
+      "42186140",
+      "26477255",
+      "28877443",
+      "30278157",
+      "31964841",
+      "11566792",
+      "30071193",
+      "40412742",
+      "6272850",
+      "24184423",
+      "19785170",
+      "12879162",
+      "34186033",
+      "15869384",
+      "36710643",
+      "2557135",
+      "20013402",
+      "36151493",
+      "32564617",
+      "36764474",
+      "18610985",
+      "28779841",
+      "26477257",
+      "30536012",
+      "22085212",
+      "32126206",
+      "26042221",
+      "20955681",
+      "25152957",
+      "15231827",
+      "38441791",
+      "25341190",
+      "11825894",
+      "39955064",
+      "26418890",
+      "33744256",
+      "26270729"
+    ],
+    "review": [
+      "41259939",
+      "19669751",
+      "41401506",
+      "10504050",
+      "24160760",
+      "33757896",
+      "33218036",
+      "30638529",
+      "28579098",
+      "36345280",
+      "15869384",
+      "36764474",
+      "32126206",
+      "26042221",
+      "25152957"
+    ],
+    "pmc": [
+      "13560192"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301-4622(25)00162-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41259939/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

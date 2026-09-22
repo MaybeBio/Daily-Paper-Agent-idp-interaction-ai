@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific validity, methodological rigor, claim support, and technical soundness of the presented analyses and conclusions
+- **Shared manuscript claim summary** The authors propose that intrinsically disordered regions driving liquid-liquid phase separation (PS IDRs) form a robustly distinct protein class separable from conventional IDRs and folded domains using simple amino acid property scales. They present ParSe v2, an updated predictor, and test its ability to identify PS IDRs and predict mutation effects on phase separation.
+- **Visible evidence base** Results sections on dataset construction, statistical comparisons across amino acid scales, PCA analyses, ParSe v2 algorithm description, and mutation effect predictions; figures referenced as Figures 1-5 and S1-S12; tables referenced as Tables 1-2 and S1-S7
+- **Missing materials affecting confidence** Figure files, table data files, and supplementary materials were not provided; exact numerical values for statistical tests, AUC calculations, and correlation coefficients are referenced but not visible; the ParSe v2 code and webtool are mentioned but not assessable from the manuscript text alone
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important question in the phase separation field: whether PS IDRs constitute a distinct protein class identifiable by simple sequence features. The authors present a systematic analysis of amino acid property scales and introduce ParSe v2 with promising performance claims. However, the evidence as presented in the text has several gaps that prevent full evaluation. The claim of a "robustly distinct protein class" is supported by statistical differences across many scales, but the biological significance of these differences and the practical utility of the predictor require stronger validation. The mutation prediction analysis is a valuable addition but is limited by the small number of studies and the need for more rigorous benchmarking. The manuscript is well-written and the approach is conceptually sound, but the current evidence does not fully establish the central claim as stated.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, intrinsically disordered proteins, and membraneless organelle biology would be the primary audience. Computational biologists developing sequence-based predictors for protein behavior would also find the methodological approach relevant. Additionally, experimentalists designing mutations to modulate phase separation for therapeutic or biotechnological purposes would benefit from improved prediction tools. The work has potential interdisciplinary appeal spanning biophysics, cell biology, and computational biology.
+- **Major Strengths** The systematic testing of a large number of amino acid property scales is comprehensive and provides a useful resource. The inclusion of a negative control set of non-phase-separating IDRs is methodologically important and addresses a gap in prior work. The PCA approach to identify complementary scales is elegant and provides insight into the redundancy of sequence features. The development of a fast, sequence-based predictor with whole-proteome scanning capability is practically valuable. The attempt to incorporate pairwise interaction terms for mutation prediction is a thoughtful extension.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The central claim that PS IDRs form a "robustly distinct protein class" is stated in the title and abstract, and the authors conclude that "numerous combinations of amino acid property scales can be used to make robust predictions of LLPS."
+  - **Evidence pointer** Results section "Most amino acids property scales find significant differences between folded, ID, and phase-separating protein regions"; Figures 2A-C
+  - **Concern** The statistical analysis showing that 81% of scales yield p-values <0.05 when comparing ID and PS ID sequences indicates significant differences in means, but this does not establish that the classes are "robustly distinct" in a practically meaningful sense. The authors do not report effect sizes, overlap coefficients, or classification accuracies for individual scales. A scale could show statistically significant mean differences with substantial distribution overlap, making the distinction weak in practice. The claim of robustness requires demonstration that the differences are large enough for reliable classification, not merely statistically detectable.
+  - **Why it matters** The title and abstract make a strong claim about class distinctness. If the distributions overlap substantially, the practical utility of the distinction for prediction is limited, and the claim would be overstated. The field needs predictors with demonstrated accuracy, not just statistically significant differences.
+  - **Resolution test** Report effect sizes (e.g., Cohen's d) for the top-performing scales, provide overlap coefficients or misclassification rates for individual scales, and show classification accuracy (e.g., cross-validated AUC) using single scales to demonstrate that the differences are practically sufficient for reliable class separation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that ParSe v2 "more accurately predicts these regions from the amino acid sequence than the original version" and that it performs "as or more accurate than other published predictors."
+  - **Evidence pointer** Results section "Predicting folded, ID, and phase-separating protein regions from sequence"; Figures 3C, 4C, S4, S5, S9
+  - **Concern** The performance comparison between ParSe v1 and v2 is described as showing "mostly identical" results with "slightly higher recall" for v2, yet the claim of improved accuracy is not quantified. The comparison to other predictors (PScore, PLAAC, catGranule) is presented in supplementary figures that were not provided. Without numerical AUC values, confidence intervals, or statistical tests of differences, the claim of superiority cannot be evaluated. Additionally, the training and test set overlap is a concern: the PS ID set was used for training, and the Vernon et al. set is described as a "significant fraction" of the training data, which could inflate performance estimates.
+  - **Why it matters** The central contribution of the paper is an improved predictor. If the performance improvement over existing methods is marginal or not statistically significant, the practical value of ParSe v2 is diminished. Overlapping training and test data would compromise the validity of performance claims.
+  - **Resolution test** Provide a clear table with AUC values (with confidence intervals) for ParSe v1, ParSe v2, and other predictors on independent test sets. Ensure the test set excludes any sequences used for training or parameter fitting. Perform statistical tests for differences in AUC (e.g., DeLong test) and report the results.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that including U_π and U_q terms allows ParSe to "accurately predict LLPS behavior of these mutants" with correct directional prediction in ~90% of cases when trained against Δh°.
+  - **Evidence pointer** Results section "Predicting the effects from mutation on phase separation behavior"; Figures 5, S10
+  - **Concern** The mutation prediction analysis has several methodological issues. First, the fitting parameters (a, b, c) are optimized on the same data used to evaluate performance, which constitutes circular analysis and will overestimate predictive accuracy. Second, the number of mutants is small (31 for c_sat, 27 for thermodynamic properties) and drawn from only a few proteins, limiting generalizability. Third, the choice to rank by Δh° rather than a more directly observable quantity is not fully justified. Fourth, the authors do not report prediction accuracy for mutations that decrease phase separation separately from those that increase it, which could mask systematic biases.
+  - **Why it matters** The ability to predict mutation effects is a key claimed advance of the work. If the evaluation is circular or based on limited data, the claim of predictive power is not established. This limits the utility of the tool for designing mutations in research or therapeutic contexts.
+  - **Resolution test** Use a held-out set of mutants for parameter fitting and evaluation (e.g., leave-one-out cross-validation). Report prediction accuracy separately for gain-of-function and loss-of-function mutations. Include a null model comparison to show that the U_π and U_q terms add predictive value beyond the base classifier.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The authors describe the curation of datasets for ID, PS ID, and folded sequences, including filtering criteria for the ID set using MetaPredict and seqatoms.
+  - **Evidence pointer** Experimental procedures section "Protein databases"; Tables S1, S4
+  - **Concern** The dataset curation process is described but the exact filtering thresholds and the number of sequences excluded at each step are not reported. The ID set is described as including sequences from BMRB and DisProt, but the criteria for "not thought to phase separate" are not operationalized beyond the absence of a specific ontology identifier. The potential for contamination of the ID set with sequences that do phase separate under some conditions is acknowledged but not quantitatively addressed.
+  - **Why it matters** The validity of the entire analysis depends on the quality of the training data. If the negative control set contains sequences that actually phase separate, the classifier will learn to distinguish PS IDRs from a contaminated set, potentially reducing its real-world accuracy. Reproducibility requires clear reporting of all filtering steps.
+  - **Resolution test** Provide a detailed flowchart of the curation process with exact numbers of sequences at each step. Report the thresholds used for MetaPredict scores and seqatoms homology filtering. Consider validating the ID set by checking for known phase-separating proteins that may have been inadvertently included.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1B description
+  - **Evidence pointer** Results section "Construction of Protein Sequence Datasets"; Figure 1B
+  - **Issue** The description of the homopolymer analysis in Figure 1B is brief. The authors state that homopolymer values are "consistent with previous characterizations" but do not explain how the β-turn propensity versus v_model plot is divided into regions corresponding to folded, ID, and PS ID behavior.
+  - **Required correction** Add a sentence explaining the boundaries of the three regions in the plot and how homopolymer positions relate to these boundaries.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Comparison to other predictors
+  - **Evidence pointer** Results section "Predicting folded, ID, and phase-separating protein regions from sequence"; Figure S9
+  - **Issue** The comparison to other predictors is only presented in supplementary figures. Given that this is a key claim of the paper, the main text should include at least a summary of the comparative performance.
+  - **Required correction** Add a sentence in the main text summarizing the AUC values for ParSe v2 and the best-performing alternative predictor on the same test set.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion of redundant mechanisms
+  - **Evidence pointer** Discussion section, first paragraph
+  - **Issue** The authors interpret the finding that many scales distinguish PS IDRs as evidence for "multiple, redundant mechanisms." This interpretation is reasonable but not the only possibility. The scales may be correlated with each other, and the redundancy may reflect a single underlying property captured by multiple correlated scales.
+  - **Required correction** Acknowledge the alternative interpretation and, if possible, report the correlation structure among the top-performing scales to assess whether they are truly independent.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** ParSe v2 algorithm description
+  - **Evidence pointer** Experimental procedures section "ParSe v2 algorithm"
+  - **Issue** The algorithm description is dense and may be difficult for non-specialist readers to follow. The equations are presented without derivation or intuitive explanation.
+  - **Required correction** Add a brief intuitive explanation of how v_model, α-helix propensity, and φ relate to the physical mechanisms proposed to drive phase separation.
+
+## Risk / unsupported claims
+- The claim that PS IDRs form a "robustly distinct protein class" is not fully supported without effect size or classification accuracy data.
+- The claim that ParSe v2 is "more accurate" than ParSe v1 is not quantified in the main text.
+- The claim of ~90% correct directional prediction for mutation effects is based on circular analysis (parameters fit on the same data used for evaluation).
+- The performance comparison to other predictors (PScore, PLAAC, catGranule) is not visible in the provided materials and cannot be evaluated.
+- The statement that the ID set is "not thought to phase separate" relies on absence of annotation rather than experimental evidence, which is a weak negative control.
+- The claim that the approach can identify "the 500 proteins with the highest summed classifier distance in the human proteome" as potential phase-separating proteins is presented without experimental validation of any of these predictions.

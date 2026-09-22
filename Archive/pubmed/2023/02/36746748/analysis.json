@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36746748",
+  "title": "Structural Insights into ATP-Sensitive Potassium Channel Mechanics: A Role of Intrinsically Disordered Regions.",
+  "authors": "Walczewska-Szewc, Katarzyna; Nowak, Wieslaw",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2023-02-07",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用全复合物MD模拟研究ATP敏感钾通道中IDR的动态及其在域间机械信号传递和配体结合中的作用，对象为IDR且涉及蛋白复合物互作机制，但非典型PPI界面建模，方法为物理模拟，整体相关且有机制深度。",
+  "abstract": "Commonly used techniques, such as CryoEM or X-ray, are not able to capture the structural reorganizations of disordered regions of proteins (IDR); therefore, it is difficult to assess their functions in proteins based exclusively on experiments. To fill this gap, we used computational molecular dynamics (MD) simulation methods to capture IDR dynamics and trace biological function-related interactions in the Kir6.2/SUR1 potassium channel. This ATP-sensitive octameric complex, one of the critical elements in the insulin secretion process in human pancreatic beta-cells, has four to five large, disordered fragments. Using unique MD simulations of the full Kir6.2/SUR1 channel complex, we present an in-depth analysis of the dynamics of the disordered regions and discuss the possible functions they could have in this system. Our MD results confirmed the crucial role of the N-terminus of the Kir6.2 fragment and the L0-loop of the SUR1 protein in the transfer of mechanical signals between domains that trigger insulin release. Moreover, we show that the presence of IDRs affects natural ligand binding. Our research takes us one step further toward understanding the action of this vital complex.",
+  "abstract_zh": "常用的技术，如冷冻电镜（CryoEM）或X射线，无法捕捉蛋白质无序区域（IDR）的结构重组；因此，仅基于实验难以评估它们在蛋白质中的功能。为填补这一空白，我们使用计算分子动力学（MD）模拟方法来捕捉Kir6.2/SUR1钾通道中IDR的动态，并追踪与生物功能相关的相互作用。该ATP敏感八聚体复合物是人类胰腺β细胞胰岛素分泌过程中的关键元件之一，具有四到五个大的无序片段。通过对完整Kir6.2/SUR1通道复合物进行独特的MD模拟，我们深入分析了无序区域的动态，并讨论了它们在此系统中可能具有的功能。我们的MD结果确认了Kir6.2片段N端和SUR1蛋白L0环在域间传递触发胰岛素释放的机械信号中的关键作用。此外，我们表明IDR的存在影响天然配体结合。我们的研究使我们在理解这一重要复合物的作用机制上更进一步。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36746748/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36746748/",
+  "paper_page_path": "papers/pubmed/36746748/index.html"
+}

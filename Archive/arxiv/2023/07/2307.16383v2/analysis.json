@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2307.16383v2",
+  "title": "Fine structures of Intrinsically Disordered Proteins",
+  "authors": "Swarnadeep Seth; Brandon Stine; Aniket Bhattacharya",
+  "journal": "",
+  "published_date": "2023-07-31",
+  "window": {
+    "start": "2023-07-31",
+    "end": "2023-08-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用粗粒化模拟研究33个无序蛋白的构象精细结构，虽聚焦单链IDP而非PPI，但方法（CG模拟+水合尺度）对IDP构象建模有参考价值，可迁移至互作机制研究。",
+  "abstract": "We report simulation studies of 33 single intrinsically disordered proteins (IDPs) using coarse-grained (CG) bead-spring models where interactions among different amino acids are introduced through a hydropathy matrix and additional screened Coulomb interaction for the charged amino acid beads. Our simulation studies of two different hydropathy scales (HPS1, HPS2) [Dignon et al., PLOS Comp. Biology, 14, 2018, Tesei et al. PNAS, 118, 2021] and the comparison with the existing experimental data indicates an optimal interaction parameter $ε= 0.1$ kcal/mol and $0.2$ kcal/mol for the HPS1 and HPS2 hydropathy scales. We use these best-fit parameters to investigate both the universal aspects as well as the fine structures of the individual IDPs by introducing additional characteristics.(i) First, we investigate the polymer specific scaling relations of the IDPs in comparison to the universal scaling relations [Bair et al., J. Chem. Phys. 158, 204902 (2023)] for the homopolymers and we demonstrate that IDPs are broadly characterized with a Flory exponent of 0.56 with the conclusion that conformations of the IDPs interpolate between Gaussian and 3DSAW chains. (ii) Then we introduce Wilson charge index W that captures the essential features of charge interactions and distribution in the sequence space, and (iii) a skewness parameter S that captures the finer shape variation of the gyration radii distribution related to the charge asymmetry. Finally, our study of the variation of <$R_g$> as a function of salt concentration provides another important metric to bring out finer characteristics of the IDPs which may carry relevant information for the origin of life.",
+  "abstract_zh": "我们报告了对33种天然无序蛋白质（IDPs）的模拟研究，采用粗粒化（CG）珠簧模型，其中不同氨基酸之间的相互作用通过疏水性矩阵和针对带电氨基酸珠的额外屏蔽库仑相互作用引入。我们对两种不同疏水性尺度（HPS1、HPS2）[Dignon等人，PLOS Comp. Biology, 14, 2018；Tesei等人，PNAS, 118, 2021]的模拟研究，并与现有实验数据比较，表明对于HPS1和HPS2疏水性尺度，最优相互作用参数分别为$ε= 0.1$ kcal/mol和$0.2$ kcal/mol。我们使用这些最佳拟合参数，通过引入额外特征来研究单个IDPs的普遍方面和精细结构。(i) 首先，我们研究了IDPs的聚合物特定标度关系，与均聚物的普遍标度关系[Bair等人，J. Chem. Phys. 158, 204902 (2023)]进行比较，并证明IDPs广泛以Flory指数0.56为特征，结论是IDPs的构象介于高斯链和三维自回避行走（3DSAW）链之间。(ii) 然后，我们引入Wilson电荷指数W，该指数捕捉序列空间中电荷相互作用和分布的基本特征，以及(iii) 偏度参数S，该参数捕捉与电荷不对称性相关的回转半径分布的更精细形状变化。最后，我们关于<$R_g$>随盐浓度变化的研究提供了另一个重要度量，以揭示IDPs的更精细特征，这可能携带与生命起源相关的信息。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2307.16383v2",
+  "source_url": "https://arxiv.org/abs/2307.16383v2",
+  "paper_page_path": "papers/arxiv/2307.16383v2/index.html"
+}

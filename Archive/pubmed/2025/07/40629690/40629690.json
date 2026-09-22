@@ -1,0 +1,225 @@
+{
+  "identity": {
+    "pmid": "40629690",
+    "doi": "10.1016/j.bpj.2025.07.001",
+    "title": "A coarse-grained model for simulations of phosphorylated disordered proteins."
+  },
+  "content": {
+    "abstract": "Protein phosphorylation is a common and essential post-translational modification that affects biochemical properties and regulates biological activities. Phosphorylation is particularly common for intrinsically disordered proteins and can significantly modulate their function and potential to interact with binding partners. To understand the biophysical origins of how phosphorylation of disordered proteins influences their function, it is valuable to investigate how the modifications lead to changes in their conformational ensembles. Here, we have used a top-down data-driven approach to develop a coarse-grained molecular dynamics model compatible with the CALVADOS protein simulation model to study the effects of serine and threonine phosphorylation on the global structural properties of disordered proteins. We parameterize the model using experimental data on the effects of phosphorylation on global dimensions. By comparing with baseline models and simulations using the phosphomimetics aspartate and glutamate, we show that the effect of phosphorylation on the global dimensions of disordered proteins is mostly driven by the additional charge. We envisage that our model can be applied to study the effects of phosphorylation of disordered proteins at the proteome scale as well as to study the important roles of protein phosphorylation on phase separation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phosphorylation",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "*Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Rauh, Arrien Symon",
+        "Hedemark, Gustav Stausboll",
+        "Tesei, Giulio",
+        "Lindorff-Larsen, Kresten"
+      ],
+      "short_names": [
+        "Rauh AS",
+        "Hedemark GS",
+        "Tesei G",
+        "Lindorff-Larsen K"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark. Electronic address: lindorff@bio.ku.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Rauh, Arriën Symon",
+        "short_name": "Rauh AS",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Hedemark, Gustav Stausbøll",
+        "short_name": "Hedemark GS",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Tesei, Giulio",
+        "short_name": "Tesei G",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Lindorff-Larsen, Kresten",
+        "short_name": "Lindorff-Larsen K",
+        "identifiers": [],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark. Electronic address: lindorff@bio.ku.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical journal"
+    ],
+    "journal_abbrev": [
+      "Biophys J"
+    ],
+    "pub_date": "2026 Jan 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/09 06:26",
+    "fetched_at": "2026-09-21 20:44:43"
+  },
+  "links": {
+    "cites": [
+      "42527527"
+    ],
+    "refs": [],
+    "similar": [
+      "40629690",
+      "42427316",
+      "34681718",
+      "34576338",
+      "40671581",
+      "40009520",
+      "42350353",
+      "40101966",
+      "40389455",
+      "29573987",
+      "39539017",
+      "39412378",
+      "26562397",
+      "33945530",
+      "34845619",
+      "33909430",
+      "23912807",
+      "26742101",
+      "25533957",
+      "39186607",
+      "41330221",
+      "34883116",
+      "33582133",
+      "38965780",
+      "32859072",
+      "41137856",
+      "40530859",
+      "36674958",
+      "36774964",
+      "38053335",
+      "26735936",
+      "29309620",
+      "35298814",
+      "28289210",
+      "36774359",
+      "30865820",
+      "25017730",
+      "34716273",
+      "30813315",
+      "30933517",
+      "35377637",
+      "40131954",
+      "39074869",
+      "30840442",
+      "33076213",
+      "32393642",
+      "41257331",
+      "25814479",
+      "25031324",
+      "32436706",
+      "39248414",
+      "33876640",
+      "39105804",
+      "28867216",
+      "36232586",
+      "41644540",
+      "32579908",
+      "42374736",
+      "32933064",
+      "29557644",
+      "38928405",
+      "39908323",
+      "38973087",
+      "41706900",
+      "42610734",
+      "28157327",
+      "37905972",
+      "22174274",
+      "38297118",
+      "41385825",
+      "40673718",
+      "42235792",
+      "38830621",
+      "26922996",
+      "31951234",
+      "27807972",
+      "38705823",
+      "26851279",
+      "36800279",
+      "30091924",
+      "39851064",
+      "34680048",
+      "29990433",
+      "33355572",
+      "31487161",
+      "38996889",
+      "36641212",
+      "39319382",
+      "41851975",
+      "41972736",
+      "30217894",
+      "31548393",
+      "37904608",
+      "24589355",
+      "27018856",
+      "38275091",
+      "29735687",
+      "29364151",
+      "39499823",
+      "31552948"
+    ],
+    "review": [
+      "40629690",
+      "30840442",
+      "25814479",
+      "41385825",
+      "26922996",
+      "38705823",
+      "26851279",
+      "34680048",
+      "33355572",
+      "29364151"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0006-3495(25)00420-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

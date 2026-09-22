@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40028898",
+  "title": "Electrostatics of salt-dependent reentrant phase behaviors highlights diverse roles of ATP in biomolecular condensates.",
+  "authors": "Lin, Yi-Hsuan; Kim, Tae Hun; Das, Suman; Pal, Tanmoy; Wessen, Jonas; Rangadurai, Atul Kaushik; Kay, Lewis E; Forman-Kay, Julie D; Chan, Hue Sun",
+  "journal": "eLife",
+  "published_date": "2025-03-03",
+  "window": {
+    "start": "2025-03-03",
+    "end": "2025-03-09"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过实验与理论（解析理论、MD、聚合物场论模拟）系统研究Caprin1 IDR及其磷酸化变体在盐/ATP依赖下的再入相行为，揭示静电与离子桥在IDR介导的凝聚体PPI/相分离机制中的核心作用，高度契合无序蛋白互作机制建模主题。",
+  "abstract": "Liquid-liquid phase separation (LLPS) involving intrinsically disordered protein regions (IDRs) is a major physical mechanism for biological membraneless compartmentalization. The multifaceted electrostatic effects in these biomolecular condensates are exemplified here by experimental and theoretical investigations of the different salt- and ATP-dependent LLPSs of an IDR of messenger RNA-regulating protein Caprin1 and its phosphorylated variant pY-Caprin1, exhibiting, for example, reentrant behaviors in some instances but not others. Experimental data are rationalized by physical modeling using analytical theory, molecular dynamics, and polymer field-theoretic simulations, indicating that interchain ion bridges enhance LLPS of polyelectrolytes such as Caprin1 and the high valency of ATP-magnesium is a significant factor for its colocalization with the condensed phases, as similar trends are observed for other IDRs. The electrostatic nature of these features complements ATP's involvement in pi-related interactions and as an amphiphilic hydrotrope, underscoring a general role of biomolecular condensates in modulating ion concentrations and its functional ramifications.",
+  "abstract_zh": "涉及固有无序蛋白区域（IDRs）的液-液相分离（LLPS）是生物无膜区室化的主要物理机制。这些生物分子凝聚体中的多面静电效应，在此通过对信使RNA调控蛋白Caprin1及其磷酸化变体pY-Caprin1的IDR在不同盐和ATP依赖性LLPS下的实验与理论研究得以例证，展现出例如在某些情况下出现回滞行为而在其他情况下则不出现的现象。实验数据通过使用解析理论、分子动力学和聚合物场论模拟的物理建模得到合理化解释，表明链间离子桥增强如Caprin1等多聚电解质的LLPS，且ATP-镁的高价态是其与凝聚相共定位的重要因素，因为其他IDRs也观察到类似趋势。这些特征的静电本质补充了ATP在π相关相互作用中的参与及其作为两亲性水溶助剂的作用，强调了生物分子凝聚体在调节离子浓度及其功能后果中的普遍角色。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40028898/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40028898/",
+  "paper_page_path": "papers/pubmed/40028898/index.html"
+}

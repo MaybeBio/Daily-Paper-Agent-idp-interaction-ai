@@ -1,0 +1,417 @@
+{
+  "identity": {
+    "pmid": "40470224",
+    "doi": "10.21203/rs.3.rs-6378534/v1",
+    "title": "Biomolecular condensates control and are defined by RNA-RNA interactions that arise in viral replication."
+  },
+  "content": {
+    "abstract": "Cells must limit RNA-RNA interactions to avoid irreversible RNA entanglement. Cells may prevent deleterious RNA-RNA interactions by genome organization to avoid complementarity however, RNA viruses generate long, perfectly complementary antisense RNA during replication. How do viral RNAs avoid irreversible entanglement? One possibility is RNA sequestration into biomolecular condensates. To test this, we reconstituted critical SARS-CoV-2 RNA-RNA interactions in Nucleocapsid condensates. We observed that RNAs with low propensity RNA-RNA interactions resulted in more round, liquid-like condensates while those with high sequence complementarity resulted in more heterogeneous networked morphology independent of RNA structure stability. Residue-resolution molecular simulations and direct sequencing-based detection of RNA-RNA interactions support that these properties arise from degree of trans RNA contacts. We propose that extensive RNA-RNA interactions in cell and viral replication are controlled via a combination of genome organization, timing, RNA sequence content, RNA production ratios, and emergent biomolecular condensate material properties.",
+    "keywords": [
+      "Molecular dynamics simulations",
+      "RNA",
+      "RNA granules",
+      "RNA viruses",
+      "RNA-RNA intermolecular interactions",
+      "RNA-binding proteins",
+      "SARS-CoV-2",
+      "biomolecular condensation"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Aierken, Dilimulati",
+        "Zhang, Vita",
+        "Sealfon, Rachel",
+        "Marecki, John C",
+        "Raney, Kevin D",
+        "Gladfelter, Amy S",
+        "Joseph, Jerelle A",
+        "Roden, Christine A"
+      ],
+      "short_names": [
+        "Aierken D",
+        "Zhang V",
+        "Sealfon R",
+        "Marecki JC",
+        "Raney KD",
+        "Gladfelter AS",
+        "Joseph JA",
+        "Roden CA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1727-5759",
+        "ORCID: 0000-0002-7290-0206",
+        "ORCID: 0000-0002-2490-6945"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey, USA.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey, USA.",
+        "Department of Cell Biology, Duke University, Durham, North Carolina, USA.",
+        "Department of Biochemistry, Duke University, Durham, North Carolina, USA.",
+        "Center for Computational Biology, Flatiron Institute, New York, NY, USA.",
+        "Department of Biochemistry, University of Arkansas for Medical Sciences, Little Rock, Arkansas, USA.",
+        "Department of Biochemistry, University of Arkansas for Medical Sciences, Little Rock, Arkansas, USA.",
+        "Department of Cell Biology, Duke University, Durham, North Carolina, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey, USA.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey, USA.",
+        "Department of Cell Biology, Duke University, Durham, North Carolina, USA.",
+        "Department of Biochemistry and Molecular Medicine, University of Montreal, Montreal, QC, Canada.",
+        "Lead contact."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Aierken, Dilimulati",
+        "short_name": "Aierken D",
+        "identifiers": [
+          "0000-0003-1727-5759"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey, USA.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Vita",
+        "short_name": "Zhang V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Duke University, Durham, North Carolina, USA.",
+          "Department of Biochemistry, Duke University, Durham, North Carolina, USA."
+        ]
+      },
+      {
+        "full_name": "Sealfon, Rachel",
+        "short_name": "Sealfon R",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Computational Biology, Flatiron Institute, New York, NY, USA."
+        ]
+      },
+      {
+        "full_name": "Marecki, John C",
+        "short_name": "Marecki JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Arkansas for Medical Sciences, Little Rock, Arkansas, USA."
+        ]
+      },
+      {
+        "full_name": "Raney, Kevin D",
+        "short_name": "Raney KD",
+        "identifiers": [
+          "0000-0002-7290-0206"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Arkansas for Medical Sciences, Little Rock, Arkansas, USA."
+        ]
+      },
+      {
+        "full_name": "Gladfelter, Amy S",
+        "short_name": "Gladfelter AS",
+        "identifiers": [
+          "0000-0002-2490-6945"
+        ],
+        "affiliations": [
+          "Department of Cell Biology, Duke University, Durham, North Carolina, USA."
+        ]
+      },
+      {
+        "full_name": "Joseph, Jerelle A",
+        "short_name": "Joseph JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, New Jersey, USA.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, New Jersey, USA."
+        ]
+      },
+      {
+        "full_name": "Roden, Christine A",
+        "short_name": "Roden CA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Cell Biology, Duke University, Durham, North Carolina, USA.",
+          "Department of Biochemistry and Molecular Medicine, University of Montreal, Montreal, QC, Canada.",
+          "Lead contact."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Research square"
+    ],
+    "journal_abbrev": [
+      "Res Sq"
+    ],
+    "pub_date": "2025 May 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/05 06:28",
+    "fetched_at": "2026-09-21 19:31:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39637853",
+      "39505326",
+      "39475243",
+      "39326881",
+      "39019044",
+      "38649410",
+      "38634805",
+      "37735903",
+      "37276412",
+      "37137281",
+      "37100798",
+      "36739951",
+      "36737456",
+      "36642156",
+      "36166000",
+      "36068208",
+      "35871289",
+      "35822715",
+      "35795820",
+      "35501484",
+      "35355287",
+      "35256818",
+      "35236847",
+      "34634033",
+      "34624313",
+      "34433821",
+      "34334791",
+      "34214535",
+      "33921764",
+      "33895773",
+      "33839192",
+      "33837182",
+      "33782395",
+      "33650968",
+      "33636127",
+      "33510385",
+      "33495715",
+      "33479219",
+      "33431826",
+      "33413979",
+      "33397941",
+      "33290746",
+      "33264373",
+      "33259809",
+      "33247108",
+      "33200826",
+      "33116300",
+      "33039147",
+      "33010236",
+      "32901111",
+      "32709887",
+      "32632317",
+      "32438371",
+      "32320662",
+      "32228860",
+      "32160541",
+      "30682370",
+      "30673536",
+      "30482837",
+      "30200855",
+      "30096311",
+      "29483269",
+      "28985316",
+      "28935776",
+      "28522535",
+      "27251421",
+      "26958916",
+      "26474065",
+      "26317470",
+      "25385129",
+      "25288112",
+      "24931042",
+      "24672040",
+      "23498906",
+      "22743772",
+      "22297523",
+      "22115189",
+      "21715502",
+      "21235792",
+      "20805472",
+      "20739415",
+      "19782089",
+      "16845096",
+      "16845047",
+      "16503362",
+      "15826910",
+      "15609507",
+      "14694129",
+      "8830530",
+      "2845141",
+      "2845140",
+      "2459146",
+      "1524417"
+    ],
+    "similar": [
+      "40470224",
+      "39763812",
+      "36883003",
+      "40521608",
+      "38446881",
+      "37013374",
+      "33081049",
+      "32562316",
+      "33650968",
+      "32995779",
+      "36272892",
+      "40102453",
+      "39464032",
+      "39070659",
+      "38915678",
+      "37131735",
+      "34634033",
+      "34524703",
+      "39326881",
+      "33247108",
+      "37194953",
+      "36993212",
+      "38177504",
+      "35632702",
+      "39201466",
+      "33558506",
+      "33982350",
+      "39804953",
+      "33200826",
+      "35727989",
+      "35364105",
+      "34200781",
+      "39861886",
+      "40954121",
+      "39705355",
+      "38832749",
+      "37029379",
+      "40195119",
+      "40603603",
+      "38824391",
+      "40985078",
+      "34159327",
+      "39324618",
+      "35982794",
+      "36001979",
+      "40203038",
+      "40172489",
+      "39591652",
+      "33578289",
+      "39637853",
+      "34772789",
+      "38363841",
+      "39366355",
+      "36795767",
+      "38987300",
+      "41191214",
+      "39345611",
+      "40527409",
+      "38778761",
+      "40411406",
+      "37408305",
+      "37252985",
+      "38175843",
+      "31484749",
+      "39636939",
+      "39894078",
+      "34767801",
+      "41481439",
+      "33453934",
+      "36106018",
+      "38621751",
+      "38421168",
+      "33934561",
+      "38515267",
+      "37040799",
+      "39605385",
+      "40782375",
+      "33248025",
+      "36227474",
+      "40768359",
+      "37205474",
+      "35001622",
+      "35108264",
+      "37480229",
+      "39684875",
+      "37401177",
+      "37963251",
+      "40196628",
+      "37385580",
+      "35871289",
+      "40848932",
+      "36642156",
+      "40972943",
+      "38061626",
+      "40381401",
+      "34090478",
+      "37293933",
+      "40588121",
+      "39807887",
+      "34129784"
+    ],
+    "review": [
+      "40470224",
+      "36272892",
+      "39326881",
+      "35632702",
+      "34200781",
+      "37029379",
+      "39324618",
+      "40172489",
+      "33578289",
+      "34772789",
+      "39366355",
+      "41191214",
+      "40527409",
+      "38778761",
+      "38175843",
+      "34767801",
+      "36106018",
+      "38621751",
+      "33934561",
+      "37040799",
+      "36642156",
+      "38061626",
+      "40381401"
+    ],
+    "pmc": [
+      "12136198"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40470224/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.21203/rs.3.rs-6378534/v1",
+        "provider": "Research Square",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

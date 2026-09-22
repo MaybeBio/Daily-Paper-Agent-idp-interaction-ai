@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "40859602",
+    "doi": "10.1002/prot.70045",
+    "title": "Critical Assessment of Protein Intrinsic Disorder Round 3 - Predicting Disorder in the Era of Protein Language Models."
+  },
+  "content": {
+    "abstract": "Intrinsic disorder (ID) in proteins is a complex phenomenon, encompassing a continuum from entirely disordered regions to structured domains with flexible segments. The absence of a ground truth for all forms of disorder, combined with the possibility of structural transitions between ordered and disordered states under specific conditions, makes accurate prediction of ID especially challenging. The Critical Assessment of Protein Intrinsic Disorder (CAID) evaluates ID prediction methods using diverse benchmarks derived from DisProt, a manually curated database of experimentally validated annotations. This paper presents findings from the third round (CAID3), in which 24 new methods were assessed along with the predictors from previous rounds. Compared to CAID2, the top-performing methods in CAID3 demonstrated significant gains in average precision: over 31% improvement in predicting linker regions, and 15% in disorder prediction. This round introduces a new binding sub-challenge focused on identifying binding regions within known IDR boundaries. The results indicate that this task remains challenging, highlighting the potential for improvement. The top-performing methods in CAID3 are mostly new and commonly used embeddings from protein language models (pLMs), underscoring the growing impact of pLMs in tackling the complexities of disordered proteins and advancing ID prediction.",
+    "keywords": [
+      "CAID",
+      "DisProt",
+      "critical assessment",
+      "intrinsic disorder prediction",
+      "intrinsically disordered proteins"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Databases, Protein",
+      "*Computational Biology/methods",
+      "Humans",
+      "Models, Molecular",
+      "Protein Conformation",
+      "Protein Binding",
+      "Software",
+      "Algorithms"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Mehdiabadi, Mahta",
+        "Del Conte, Alessio",
+        "Nugnes, Maria Victoria",
+        "Aspromonte, Maria Cristina",
+        "Tosatto, Silvio C E",
+        "Piovesan, Damiano"
+      ],
+      "short_names": [
+        "Mehdiabadi M",
+        "Del Conte A",
+        "Nugnes MV",
+        "Aspromonte MC",
+        "Tosatto SCE",
+        "Piovesan D"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8210-2390"
+      ],
+      "affiliations": [
+        "Department of Biomedical Sciences, University of Padova, Padua, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padua, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padua, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padua, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padua, Italy.",
+        "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, Italy.",
+        "Department of Biomedical Sciences, University of Padova, Padua, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Mehdiabadi, Mahta",
+        "short_name": "Mehdiabadi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Del Conte, Alessio",
+        "short_name": "Del Conte A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Nugnes, Maria Victoria",
+        "short_name": "Nugnes MV",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Aspromonte, Maria Cristina",
+        "short_name": "Aspromonte MC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padua, Italy."
+        ]
+      },
+      {
+        "full_name": "Tosatto, Silvio C E",
+        "short_name": "Tosatto SCE",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padua, Italy.",
+          "Institute of Biomembranes, Bioenergetics and Molecular Biotechnologies, National Research Council (CNR-IBIOM), Bari, Italy."
+        ]
+      },
+      {
+        "full_name": "Piovesan, Damiano",
+        "short_name": "Piovesan D",
+        "identifiers": [
+          "0000-0001-8210-2390"
+        ],
+        "affiliations": [
+          "Department of Biomedical Sciences, University of Padova, Padua, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2026 Jan",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/27 08:45",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [
+      "42380594",
+      "42288727",
+      "42045226",
+      "41921197",
+      "41689628",
+      "41249866"
+    ],
+    "refs": [
+      "41218076",
+      "40138319",
+      "40133781",
+      "40054813",
+      "39708500",
+      "39633723",
+      "39565202",
+      "39467119",
+      "39237195",
+      "38866950",
+      "38718835",
+      "38166858",
+      "37933859",
+      "37904585",
+      "37621223",
+      "37246642",
+      "37204193",
+      "36927031",
+      "36304335",
+      "36210722",
+      "35637307",
+      "35609601",
+      "34986598",
+      "34967936",
+      "34905768",
+      "34903827",
+      "34265844",
+      "34232869",
+      "34139171",
+      "33876751",
+      "33875885",
+      "33441905",
+      "33381830",
+      "32173600",
+      "31847804",
+      "31691821",
+      "31415569",
+      "28746339",
+      "28328918",
+      "28063280",
+      "27174932",
+      "26578815",
+      "26109352",
+      "24773235",
+      "24089719",
+      "19412530",
+      "15769473",
+      "14691223",
+      "11839490",
+      "3203132"
+    ],
+    "similar": [
+      "40859602",
+      "37621223",
+      "40054813",
+      "40138319",
+      "39571839",
+      "39576585",
+      "33875885",
+      "33017101",
+      "38701796",
+      "39237195",
+      "39576583",
+      "38166858",
+      "30576490",
+      "38079339",
+      "40133781",
+      "37246642",
+      "39708500",
+      "28369666",
+      "33291838",
+      "37892124",
+      "38540707",
+      "34850135",
+      "39576584",
+      "28968848",
+      "40662788",
+      "27115638",
+      "41454828",
+      "37883249",
+      "36210722",
+      "39246251",
+      "28589442",
+      "26287166",
+      "28365882",
+      "34290238",
+      "30135358",
+      "25361972",
+      "32696355",
+      "40133791",
+      "35789137",
+      "32599863",
+      "31713636",
+      "39158131",
+      "24939692",
+      "40944448",
+      "32112804",
+      "23946100",
+      "24573479",
+      "41218076",
+      "28381244",
+      "26090958",
+      "40347452",
+      "28934129",
+      "31616935",
+      "38866950",
+      "34830151",
+      "18831774",
+      "40650026",
+      "32696351",
+      "16618368",
+      "38507044",
+      "27899601",
+      "23466039",
+      "23990768",
+      "40867524",
+      "35507260",
+      "23942625",
+      "30657889",
+      "24573480",
+      "39718444",
+      "29595057",
+      "32901090",
+      "39470701",
+      "26198229",
+      "41500381",
+      "40728619",
+      "17680688",
+      "29042212",
+      "37904585",
+      "37992088",
+      "33417598",
+      "32696395",
+      "31521235",
+      "28453683",
+      "31329574",
+      "29080786",
+      "40244295",
+      "27787828",
+      "16187359",
+      "28098335",
+      "36458437",
+      "40728621",
+      "40031750",
+      "38812466",
+      "31411026",
+      "37740110",
+      "30554840",
+      "34894985",
+      "35356546",
+      "32173600",
+      "33719450"
+    ],
+    "review": [
+      "40859602",
+      "33291838",
+      "28589442",
+      "26287166",
+      "31616935",
+      "40650026",
+      "23466039",
+      "30657889",
+      "31521235",
+      "37740110"
+    ],
+    "pmc": [
+      "12750029"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40859602/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.70045",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

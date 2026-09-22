@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or quantitative data were available for evaluation
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to compare the ion atmospheres of three RNAs spanning a structural continuum (unstructured rU(30), semiflexible CAG repeat, tightly folded pseudoknot). They report that despite similar net charges, unstructured RNA attracts a more diffuse and extended Mg(2+) cloud, while folded RNAs favor compact outer-sphere binding; Ca(2+) forms inner-sphere contacts across all systems; ion exchange kinetics are decoupled from spatial distribution; and RNA structural flexibility tunes ionic screening with implications for recognition, phase separation, and condensate properties.
+- **Visible evidence base** Abstract text only; no simulation details, system preparation, force field parameters, ion concentration conditions, trajectory analyses, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation parameters, convergence criteria, error analysis, and any comparison with experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation regarding the relationship between RNA structural flexibility and ion atmosphere properties. The claim of decoupling between spatial distribution and exchange kinetics is conceptually novel and could be of interest to the biophysics community. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the simulations, the statistical robustness of the conclusions, or the generality of the findings. The central claims are plausible but currently not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in RNA biophysics, ion-RNA interactions, and biomolecular condensate biology would be interested. The potential link between RNA flexibility and electrostatic influence range bears on RNA recognition mechanisms, phase separation behavior, and the physical chemistry of RNA-rich cellular compartments. Computational biophysicists studying ion-nucleic acid interactions would also find the comparative approach across structural states relevant.
+- **Major strengths** The comparative design across a structural continuum is a sensible approach to isolate the role of flexibility. The distinction between Mg(2+) and Ca(2+) binding modes is a useful observation. The reported decoupling between spatial extent and exchange kinetics, if robust, would challenge simple assumptions that more extended ion clouds imply slower or faster turnover.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The claim that rU(30) attracts a diffuse Mg(2+) cloud extending beyond two hydration shells while folded RNAs favor compact outer-sphere binding  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No simulation details are provided. The abstract does not specify the ionic strength, Mg(2+) and Ca(2+) concentrations, force field parameters, water model, simulation length, or equilibration protocol. These factors critically determine ion distribution and binding modes. Without this information, the reported differences between RNAs cannot be assessed for artifacts arising from insufficient sampling or force field inaccuracies.  
+  - **Why it matters** Ion atmosphere properties are highly sensitive to simulation conditions. Force field artifacts in ion-RNA interactions are well documented, and conclusions about diffuse versus compact binding could be reversed under different parameter sets or concentration regimes.  
+  - **Resolution test** Provide full methods including force field versions, ion parameters, salt concentrations, simulation times, and convergence metrics. Show that the qualitative differences between RNAs are robust across at least two independent simulation protocols or force field variants.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical robustness  
+  - **Claim pointer** The claim that ion exchange kinetics remain virtually unchanged across the three RNAs despite different spatial distributions  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports a decoupling between spatial distribution and dynamical turnover without presenting any quantitative kinetic data. No residence times, exchange rates, or error estimates are given. The phrase "virtually unchanged" is ambiguous and could mask statistically significant but small differences.  
+  - **Why it matters** The decoupling claim is the most conceptually significant finding. If the kinetic differences are within noise, the claim is unsupported. If they are small but real, the interpretation changes. The current presentation does not allow discrimination.  
+  - **Resolution test** Provide residence time distributions, mean exchange times with confidence intervals, and a statistical comparison across the three RNAs. Demonstrate that the kinetic similarity holds under different analysis thresholds for ion binding.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The claim that RNA structural flexibility is a powerful lever for tuning ionic screening with implications for phase separation and condensate properties  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract studies three specific RNAs. The leap from these systems to general principles governing RNA-rich condensates is substantial. No connection is made to experimental condensate systems, and the relevance of single-molecule ion atmospheres to macroscopic phase behavior is not established.  
+  - **Why it matters** The stated implications extend beyond the direct simulation results. Without a bridging argument or experimental correlation, these implications remain speculative.  
+  - **Resolution test** Either temper the implications in the abstract or provide additional simulations or experimental comparisons that directly link ion atmosphere properties to condensate behavior.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of structural continuum  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract describes rU(30) as unstructured, the CAG repeat as semiflexible, and the pseudoknot as tightly folded, but no quantitative measures of flexibility are given.  
+  - **Required correction** Provide a quantitative metric such as persistence length or radius of gyration for each RNA to substantiate the structural classification.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Ion concentration conditions  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not state the ionic conditions used in the simulations.  
+  - **Required correction** Specify the bulk ion concentrations and whether they are within physiologically relevant ranges.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Significance of the Mg(2+) versus Ca(2+) difference  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract reports that Ca(2+) forms inner-sphere contacts across all three RNAs but does not discuss the mechanistic origin or consequence of this difference.  
+  - **Required correction** Add a brief explanation of why the Mg(2+) versus Ca(2+) distinction matters for RNA behavior.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of simulation methods and quantitative kinetic data means the central claims cannot be evaluated. R1-M3 is non-blocking but requires tempering or additional support.
+- **Assessment against Nature-style criteria**  
+  - Originality: The decoupling claim is potentially original, but the abstract does not situate it against prior work on ion atmosphere dynamics.  
+  - Scientific importance: The topic is relevant, but the importance hinges on the robustness of the decoupling finding, which is not yet established.  
+  - Interdisciplinary readership: The findings could appeal to biophysicists, physical chemists, and RNA biologists, but the abstract is written in a specialized manner that may limit broader accessibility.  
+  - Technical soundness: Not assessable from the abstract alone. The absence of methods and quantitative results is a critical gap.  
+  - Readability for nonspecialists: The abstract is reasonably clear but uses field-specific terms without definition.  
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing is promising, and the comparative approach is sound, but the abstract does not provide sufficient technical detail or quantitative support to validate the central claims. A revised version with full methods and statistical analysis could change this assessment.
+
+## Risk / unsupported claims
+- The decoupling between spatial distribution and ion exchange kinetics is unsupported without quantitative kinetic data.
+- The claim that rU(30) attracts a diffuse Mg(2+) cloud beyond two hydration shells is unverifiable without simulation parameters and radial distribution data.
+- The implication that structural flexibility tunes ionic screening with consequences for phase separation and condensate properties is speculative and not directly supported by the presented results.
+- The structural classification of the three RNAs as unstructured, semiflexible, and tightly folded is asserted without quantitative justification.

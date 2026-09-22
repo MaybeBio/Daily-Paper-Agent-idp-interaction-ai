@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.10.04.616694",
+  "title": "Tag with Caution — How protein tagging influences the formation of condensates",
+  "authors": "Dörner K; Gut M; Overwijn D; Cao F; Siketanc M; Heinrich S; Beuret N; Sharpe T; Lindorff-Larsen K; Maria H",
+  "journal": "bioRxiv",
+  "published_date": "2024-10-05",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过实验与粗粒化模拟系统考察16种蛋白标签对凝聚体形成的影响，揭示标签电荷是关键调控因素，虽非直接研究IDR介导的PPI机制，但其对无序蛋白凝聚体形成扰动及计算建模思路对本课题有直接借鉴价值。",
+  "abstract": "<h4>Summary</h4> Fluorescent proteins and peptide tags are essential tools in cellular biology, but can alter the biochemical properties of target proteins. Biomolecular condensates, which have emerged as key principles of cellular organization, are suggested to provide robustness to cells, yet they can also respond sensitively to small changes in environmental conditions—or tagging of their components, as our findings suggest. Here, we investigated the effects of sixteen widely used tags on condensate formation in various model organisms, in vitro , in cells and by computational modelling. We find that tagging strongly influenced condensation for some proteins, while others remained unaffected. Effects varied, with some tags enhancing and others decreasing condensation, and depended on the protein being tagged. Coarse-grained simulations suggest that the charge of the fluorescent protein tags is a critical factor modulating condensation behavior. Together, our results underscore the importance of rigorous experimental design and interpretation in condensate experiments.",
+  "abstract_zh": "<h4>摘要</h4> 荧光蛋白和肽标签是细胞生物学中的关键工具，但可能改变目标蛋白的生化特性。生物分子凝聚体（biomolecular condensates）已成为细胞组织的关键原则，被认为为细胞提供稳健性，然而它们也能对环境条件的微小变化——或如我们的发现所示，对其组分的标记——作出敏感响应。在此，我们研究了十六种广泛使用的标签对多种模式生物中凝聚体形成的影响，涵盖体外实验、细胞内及计算建模。我们发现，标记对某些蛋白质的凝聚作用影响显著，而其他蛋白质则不受影响。效应各异，有些标签增强凝聚，而另一些则减少凝聚，且取决于被标记的蛋白质。粗粒化模拟表明，荧光蛋白标签的电荷是调节凝聚行为的关键因素。综合来看，我们的结果强调了在凝聚体实验中严谨实验设计和解释的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.10.04.616694",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.10.04.616694",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.10.04.616694/index.html"
+}

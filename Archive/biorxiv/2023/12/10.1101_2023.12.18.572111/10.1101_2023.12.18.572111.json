@@ -1,0 +1,345 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.12.18.572111",
+  "title": "An approach to characterize mechanisms of action of anti-amyloidogenic compounds in vitro and in situ",
+  "doi": "10.1101/2023.12.18.572111",
+  "abstract": "Aggregation of amyloidogenic proteins is associated with neurodegenerative disease and its modulation is a focus of drug development efforts. However, the physicochemical properties and structural heterogeneity of amyloidogenic proteins hinder the mechanistic understanding of anti- amyloidogenic compounds. Further, modes of interaction with amyloidogenic proteins are often probed in vitro using purified protein samples, even though these models may not capture in vivo protein structures and do not enable identification of off-target effects. We have developed a modular structural proteomic pipeline based on limited proteolysis coupled to mass spectrometry (LiP-MS) with improved, amino acid level-resolution, to probe the mechanism of action of anti- amyloidogenic compounds. We demonstrate our approach by analysing the interactions of six known or putative anti-amyloidogenic compounds and the amyloid binder Thioflavin T (ThT) with different structural forms of the amyloidogenic Parkinson’s disease (PD) protein α-Synuclein. Our approach enables determination of putative interaction sites, identification of whether interactions are covalent or non-covalent, and crucially, can probe for interactions of compounds with physiological structures of α-Synuclein in complex cell and tissue extracts and identify off-targets. In vitro analyses with our pipeline showed that the green tea polyphenol EGCG induces an N- and C-terminus- dependent compaction of the unstructured α-Synuclein monomer, detected preferential interactions of ThT with the N-terminus of α-Synuclein fibrils compared to the amyloid core, and showed that the most potent inhibitors of aggregation in our study (EGCG, baicalein and AC Immune compound #2) induced similar non-fibrillar end structures despite different interactions with α-Synuclein monomers. Importantly, in mammalian cell lysates, α-Synuclein was either a low-affinity target (for EGCG and Baicalein) or did not show evidence of compound interaction (for ThT and doxycycline) in our experimental conditions, despite both monomeric and fibrillar forms interacting with these compounds in vitro . For EGCG, we validated this result in postmortem brain homogenates from PD patients. These in situ analyses identified many additional putative cellular targets of Doxycycline, EGCG, Baicalein and ThT, suggesting that their effects in cellular or animal models of neurodegeneration are likely due to interactions with proteins other than α-Synuclein and showing that anti-amyloidogenic compounds should be analyzed in situ as well as in vitro . Our modular pipeline will enable in situ screening of drugs and PET tracers for amyloid aggregates of interest as well as detailed mechanistic studies of compound action in vitro .",
+  "authors": [
+    "Stalder P",
+    "Serdiuk T",
+    "Ghosh D",
+    "Fleischmann Y",
+    "Malinovska L",
+    "Davranche A",
+    "Haenseler W",
+    "Boudou C",
+    "Tsika E",
+    "Ouared A",
+    "Stöhr J",
+    "Melki R",
+    "Riek R",
+    "de Souza N",
+    "Picotti P"
+  ],
+  "published_date": "2023-12-18",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.12.18.572111",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.12.18.572111.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR775650",
+    "raw_record": {
+      "id": "PPR775650",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR775650"
+        ]
+      },
+      "doi": "10.1101/2023.12.18.572111",
+      "title": "An approach to characterize mechanisms of action of anti-amyloidogenic compounds  <i>in vitro</i>  and  <i>in situ</i>",
+      "authorString": "Stalder P, Serdiuk T, Ghosh D, Fleischmann Y, Malinovska L, Davranche A, Haenseler W, Boudou C, Tsika E, Ouared A, Stöhr J, Melki R, Riek R, de Souza N, Picotti P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Stalder P",
+            "lastName": "Stalder",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Serdiuk T",
+            "lastName": "Serdiuk",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ghosh D",
+            "lastName": "Ghosh",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Applied Biosciences, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fleischmann Y",
+            "lastName": "Fleischmann",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Applied Biosciences, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Malinovska L",
+            "lastName": "Malinovska",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Davranche A",
+            "lastName": "Davranche",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "AC Immune SA, EPFL Innovation Park, Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Haenseler W",
+            "lastName": "Haenseler",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Medical Genetics, University of Zurich, Schlieren, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Boudou C",
+            "lastName": "Boudou",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "AC Immune SA, EPFL Innovation Park, Lausanne, Switzerland"
+                },
+                {
+                  "affiliation": "Department of Cell Physiology and Metabolism, Translational Research Centre in Oncohaematology, Faculty of Medicine, University of Geneva, 1206 Geneva, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tsika E",
+            "lastName": "Tsika",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "AC Immune SA, EPFL Innovation Park, Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ouared A",
+            "lastName": "Ouared",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "AC Immune SA, EPFL Innovation Park, Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stöhr J",
+            "lastName": "Stöhr",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "AC Immune SA, EPFL Innovation Park, Lausanne, Switzerland"
+                },
+                {
+                  "affiliation": "AbbVie Neuroscience Discovery, 200 Sidney Street, Cambridge, MA 0219, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Melki R",
+            "lastName": "Melki",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institut François Jacob, (MIRCen), CEA and Laboratory of Neurodegenerative Diseases, CNRS, 92260, Fontenay-Aux-Roses, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Riek R",
+            "lastName": "Riek",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6333-066X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemistry and Applied Biosciences, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Souza N",
+            "lastName": "de Souza",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, ETH Zurich, Switzerland"
+                },
+                {
+                  "affiliation": "Department of Quantitative Biomedicine, University of Zurich, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Picotti P",
+            "lastName": "Picotti",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Molecular Systems Biology, ETH Zurich, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6333-066X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "Aggregation of amyloidogenic proteins is associated with neurodegenerative disease and its modulation is a focus of drug development efforts. However, the physicochemical properties and structural heterogeneity of amyloidogenic proteins hinder the mechanistic understanding of anti- amyloidogenic compounds. Further, modes of interaction with amyloidogenic proteins are often probed  in vitro using purified protein samples, even though these models may not capture  in vivo protein structures and do not enable identification of off-target effects. We have developed a modular structural proteomic pipeline based on limited proteolysis coupled to mass spectrometry (LiP-MS) with improved, amino acid level-resolution, to probe the mechanism of action of anti- amyloidogenic compounds. We demonstrate our approach by analysing the interactions of six known or putative anti-amyloidogenic compounds and the amyloid binder Thioflavin T (ThT) with different structural forms of the amyloidogenic Parkinson’s disease (PD) protein α-Synuclein. Our approach enables determination of putative interaction sites, identification of whether interactions are covalent or non-covalent, and crucially, can probe for interactions of compounds with physiological structures of α-Synuclein in complex cell and tissue extracts and identify off-targets.  In vitro analyses with our pipeline showed that the green tea polyphenol EGCG induces an N- and C-terminus- dependent compaction of the unstructured α-Synuclein monomer, detected preferential interactions of ThT with the N-terminus of α-Synuclein fibrils compared to the amyloid core, and showed that the most potent inhibitors of aggregation in our study (EGCG, baicalein and AC Immune compound #2) induced similar non-fibrillar end structures despite different interactions with α-Synuclein monomers. Importantly, in mammalian cell lysates, α-Synuclein was either a low-affinity target (for EGCG and Baicalein) or did not show evidence of compound interaction (for ThT and doxycycline) in our experimental conditions, despite both monomeric and fibrillar forms interacting with these compounds  in vitro . For EGCG, we validated this result in postmortem brain homogenates from PD patients. These  in situ analyses identified many additional putative cellular targets of Doxycycline, EGCG, Baicalein and ThT, suggesting that their effects in cellular or animal models of neurodegeneration are likely due to interactions with proteins other than α-Synuclein and showing that anti-amyloidogenic compounds should be analyzed  in situ as well as  in vitro . Our modular pipeline will enable  in situ screening of drugs and PET tracers for amyloid aggregates of interest as well as detailed mechanistic studies of compound action  in vitro .",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "823839",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "grantId": "866004",
+            "orderIn": 0
+          },
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "177195",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.12.18.572111"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR775650"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR775650&type=FILE&fileName=EMS192907-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS192907",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-12-19",
+      "firstPublicationDate": "2023-12-18",
+      "firstIndexDate": "2023-12-19",
+      "fullTextReceivedDate": "2024-01-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

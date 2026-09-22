@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.07.24.666361",
+  "title": "Disruption of the SAGA CORE triggers collateral degradation of KAT2A",
+  "authors": "Batty P; Beneder H; Schätz C; Onea G; Zaczek M; Kutschat AP; Müller S; Superti-Furga G; Winter GE; Seruggia D",
+  "journal": "bioRxiv",
+  "published_date": "2025-07-25",
+  "window": {
+    "start": "2025-07-21",
+    "end": "2025-07-27"
+  },
+  "score": 2,
+  "one_liner_zh": "该文研究SAGA复合物CORE亚基缺失导致KAT2A蛋白降解的机制，对象为折叠蛋白复合物稳定性，不涉及无序蛋白/IDR、PPI结合机制或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "<h4>SUMMARY</h4> The SAGA transcriptional co-activator complex regulates gene expression through histone acetylation at promoters, mediated by its histone acetyl transferase, KAT2A. While its structure and function have been extensively investigated, how the stability of individual subunits of SAGA, including KAT2A, is regulated, remains unclear. Here, using a fluorescence-based KAT2A stability reporter, we systematically dissect the molecular dependencies controlling KAT2A protein abundance. We identify the non-enzymatic SAGA CORE module subunits—TADA1, TAF5L, and TAF6L— as necessary for KAT2A stability, with loss of these subunits disrupting the integrity of SAGA, leading to non-chromatin-bound KAT2A that is degraded by the proteasome, consequently leading to reduced H3K9 acetylation. Proteomic profiling reveals progressive loss of CORE and HAT components upon acute disruption of the SAGA CORE, indicating that an intact CORE is required for the stability of numerous components of SAGA. Finally, a focused CRISPR screen of ubiquitin-proteasome system genes identifies the E3 ligase UBR5, a known regulator of orphan protein degradation, and the deubiquitinase OTUD5, as regulators of KAT2A degradation when the SAGA CORE is perturbed. Together, these findings reveal a dependency of KAT2A protein stability on SAGA CORE integrity and define an orphan quality control mechanism targeting unassembled KAT2A, revealing a potential vulnerability in SAGA-driven malignancies.",
+  "abstract_zh": "<h4>摘要</h4> SAGA转录共激活因子复合物通过其组蛋白乙酰转移酶KAT2A在启动子处介导组蛋白乙酰化，从而调控基因表达。尽管其结构和功能已被广泛研究，但SAGA各亚基（包括KAT2A）的稳定性如何被调控仍不清楚。在此，我们利用基于荧光的KAT2A稳定性报告系统，系统解析了控制KAT2A蛋白丰度的分子依赖性。我们鉴定出非酶促SAGA CORE模块亚基——TADA1、TAF5L和TAF6L——为KAT2A稳定性所必需，这些亚基的缺失会破坏SAGA的完整性，导致未结合染色质的KAT2A被蛋白酶体降解，进而减少H3K9乙酰化。蛋白质组学分析显示，急性破坏SAGA CORE后，CORE和HAT组分逐渐丢失，表明完整的CORE对于SAGA众多组分的稳定性至关重要。最后，针对泛素-蛋白酶体系统基因的聚焦CRISPR筛选鉴定出E3连接酶UBR5（已知的孤儿蛋白降解调控因子）和去泛素化酶OTUD5，作为SAGA CORE受扰动时KAT2A降解的调控因子。综上所述，这些发现揭示了KAT2A蛋白稳定性对SAGA CORE完整性的依赖性，并定义了一种靶向未组装KAT2A的孤儿质量控制机制，揭示了SAGA驱动的恶性肿瘤中一个潜在的可攻击弱点。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.07.24.666361",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.07.24.666361",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.07.24.666361/index.html"
+}

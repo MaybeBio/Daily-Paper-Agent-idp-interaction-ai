@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36980286",
+  "title": "Identification of Myelin Basic Protein Proximity Interactome Using TurboID Labeling Proteomics.",
+  "authors": "Smirnova, Evgeniya V; Rakitina, Tatiana V; Ziganshin, Rustam H; Saratov, George A; Arapidi, Georgij P; Belogurov, Alexey A Jr; Kudriaeva, Anna A",
+  "journal": "Cells",
+  "published_date": "2023-03-30",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用TurboID邻近标记蛋白质组学鉴定MBP（天然无序蛋白）的互作组，虽以无序蛋白为对象并涉及PPI，但方法为实验邻近标记而非AI/物理模拟，且未深入互作机制建模，故综合评分为5。",
+  "abstract": "Myelin basic protein (MBP) is one of the key structural elements of the myelin sheath and has autoantigenic properties in multiple sclerosis (MS). Its intracellular interaction network is still partially deconvoluted due to the unfolded structure, abnormally basic charge, and specific cellular localization. Here we used the fusion protein of MBP with TurboID, an engineered biotin ligase that uses ATP to convert biotin to reactive biotin-AMP that covalently attaches to nearby proteins, to determine MBP interactome. Despite evident benefits, the proximity labeling proteomics technique generates high background noise, especially in the case of proteins tending to semi-specific interactions. In order to recognize unique MBP partners, we additionally mapped protein interaction networks for deaminated MBP variant and cyclin-dependent kinase inhibitor 1 (p21), mimicking MBP in terms of natively unfolded state, size and basic amino acid clusters. We found that in the plasma membrane region, MBP is colocalized with adhesion proteins occludin and myelin protein zero-like protein 1, solute carrier family transporters ZIP6 and SNAT1, Eph receptors ligand Ephrin-B1, and structural components of the vesicle transport machinery-synaptosomal-associated protein 23 (SNAP23), vesicle-associated membrane protein 3 (VAMP3), protein transport protein hSec23B and cytoplasmic dynein 1 heavy chain 1. We also detected that MBP potentially interacts with proteins involved in Fe(2+) and lipid metabolism, namely, ganglioside GM2 activator protein, long-chain-fatty-acid-CoA ligase 4 (ACSL4), NADH-cytochrome b5 reductase 1 (CYB5R1) and metalloreductase STEAP3. Assuming the emerging role of ferroptosis and vesicle cargo docking in the development of autoimmune neurodegeneration, MBP may recruit and regulate the activity of these processes, thus, having a more inclusive role in the integrity of the myelin sheath.",
+  "abstract_zh": "髓鞘碱性蛋白（MBP）是髓鞘的关键结构元件之一，并在多发性硬化（MS）中具有自身抗原特性。由于其未折叠结构、异常碱性电荷及特定细胞定位，其细胞内相互作用网络仍部分未被解析。在此，我们利用MBP与TurboID的融合蛋白——一种工程化生物素连接酶，利用ATP将生物素转化为反应性生物素-AMP，共价附着于邻近蛋白质——来确定MBP相互作用组。尽管邻近标记蛋白质组学技术具有明显优势，但会产生高背景噪声，尤其是在倾向于半特异性相互作用的蛋白质情况下。为识别独特的MBP伙伴，我们额外绘制了脱酰胺MBP变体和细胞周期蛋白依赖性激酶抑制剂1（p21）的蛋白质相互作用网络，这两者在天然未折叠状态、大小和碱性氨基酸簇方面模拟MBP。我们发现，在质膜区域，MBP与黏附蛋白occludin和髓鞘蛋白零样蛋白1、溶质载体家族转运蛋白ZIP6和SNAT1、Eph受体配体Ephrin-B1，以及囊泡运输机制的结构组分——突触体相关蛋白23（SNAP23）、囊泡相关膜蛋白3（VAMP3）、蛋白质转运蛋白hSec23B和细胞质动力蛋白1重链1共定位。我们还检测到MBP可能参与Fe(2+)和脂质代谢的蛋白质相互作用，即神经节苷脂GM2激活蛋白、长链脂肪酸-CoA连接酶4（ACSL4）、NADH-细胞色素b5还原酶1（CYB5R1）和金属还原酶STEAP3。鉴于铁死亡和囊泡货物停靠在自身免疫性神经退行性变发展中的新兴作用，MBP可能招募并调节这些过程的活性，从而在髓鞘完整性中发挥更广泛的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36980286/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36980286/",
+  "paper_page_path": "papers/pubmed/36980286/index.html"
+}

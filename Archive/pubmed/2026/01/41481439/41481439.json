@@ -1,0 +1,330 @@
+{
+  "identity": {
+    "pmid": "41481439",
+    "doi": "10.1073/pnas.2518384122",
+    "title": "Sticky interactions govern sequence-dependent dynamics in biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) play a central role in shaping the dynamics and material properties of biomolecular condensates. Understanding how sequence features determine these properties is critical for elucidating physiological function and guiding the rational design of synthetic condensates. Here, we use molecular dynamics simulations to investigate condensates formed by model IDPs with systematically varied chain length and charge patterning, two features characteristic of natural IDPs. Our results show that chain relaxation times, governed by sequence-dependent electrostatic interactions, quantitatively predict condensate viscosity and diffusivity. These condensates exhibit dynamics consistent with a crossover regime between Rouse and reptation behavior. While the Rouse model with idealized friction fails to capture sequence effects, a sticky Rouse-like framework, which incorporates transient interchain contact lifetimes, accurately predicts chain reconfiguration times and, consequently, macroscopic material properties. This work establishes a predictive, sequence-resolved framework that links molecular interactions to condensate dynamics across length and time scales.",
+    "keywords": [
+      "condensate material properties",
+      "molecular dynamics",
+      "phase separation",
+      "polymer physics"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Biomolecular Condensates/chemistry",
+      "Viscosity",
+      "Static Electricity"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Muthukumar, Keerthivasan",
+        "Sundaravadivelu Devarajan, Dinesh",
+        "Kim, Young C",
+        "Mittal, Jeetain"
+      ],
+      "short_names": [
+        "Muthukumar K",
+        "Sundaravadivelu Devarajan D",
+        "Kim YC",
+        "Mittal J"
+      ],
+      "auids": [
+        "ORCID: 0009-0000-0657-7319",
+        "ORCID: 0000-0001-7825-0999",
+        "ORCID: 0000-0002-9725-6402"
+      ],
+      "affiliations": [
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843.",
+        "High Performance Research Computing, Texas A&M University, College Station, TX 77843.",
+        "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, DC 20375.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843.",
+        "Department of Chemistry, Texas A&M University, College Station, TX 77843.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX 77843."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Muthukumar, Keerthivasan",
+        "short_name": "Muthukumar K",
+        "identifiers": [
+          "0009-0000-0657-7319"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Sundaravadivelu Devarajan, Dinesh",
+        "short_name": "Sundaravadivelu Devarajan D",
+        "identifiers": [
+          "0000-0001-7825-0999"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843.",
+          "High Performance Research Computing, Texas A&M University, College Station, TX 77843."
+        ]
+      },
+      {
+        "full_name": "Kim, Young C",
+        "short_name": "Kim YC",
+        "identifiers": [],
+        "affiliations": [
+          "Center for Materials Physics and Technology, Naval Research Laboratory, Washington, DC 20375."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, TX 77843.",
+          "Department of Chemistry, Texas A&M University, College Station, TX 77843.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, TX 77843."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 Jan 6",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/01/02 19:38",
+    "fetched_at": "2026-09-17 23:28:50"
+  },
+  "links": {
+    "cites": [
+      "41993480",
+      "41670285"
+    ],
+    "refs": [
+      "40877270",
+      "40455990",
+      "40335475",
+      "40028898",
+      "39866835",
+      "39663388",
+      "39610751",
+      "39568948",
+      "39464253",
+      "39105804",
+      "38553587",
+      "38492239",
+      "38429263",
+      "38297184",
+      "38297118",
+      "38250712",
+      "37856873",
+      "37757589",
+      "37468629",
+      "37194953",
+      "37079924",
+      "36565390",
+      "36397514",
+      "36175408",
+      "36163138",
+      "35802394",
+      "35659505",
+      "35638633",
+      "35119946",
+      "35119898",
+      "34598580",
+      "34374536",
+      "33934416",
+      "33782607",
+      "33767388",
+      "33640380",
+      "33597515",
+      "33139563",
+      "33094301",
+      "33078839",
+      "32934220",
+      "32822449",
+      "32719551",
+      "31927854",
+      "31595953",
+      "31437398",
+      "31399547",
+      "30682370",
+      "30500535",
+      "29961577",
+      "29364893",
+      "29319301",
+      "28790177",
+      "28483149",
+      "28343140",
+      "26574439",
+      "26574417",
+      "26328871",
+      "26317470",
+      "26015579",
+      "25939276",
+      "25747659",
+      "25328247",
+      "24347684",
+      "24120937",
+      "23901099",
+      "20969366",
+      "19905139",
+      "18576630",
+      "17212484"
+    ],
+    "similar": [
+      "41481439",
+      "40791470",
+      "40455990",
+      "41566033",
+      "41670285",
+      "40748104",
+      "40985078",
+      "37468629",
+      "38429263",
+      "40420812",
+      "37194953",
+      "35179885",
+      "39636939",
+      "40028898",
+      "41739144",
+      "39042834",
+      "39398199",
+      "34090478",
+      "39987501",
+      "41667469",
+      "34716273",
+      "36346711",
+      "32393642",
+      "42055532",
+      "38824391",
+      "41991555",
+      "39947751",
+      "39568893",
+      "37252985",
+      "41863073",
+      "38383656",
+      "42290133",
+      "39225535",
+      "37470705",
+      "40521608",
+      "38832749",
+      "40009520",
+      "42350353",
+      "36004748",
+      "33629837",
+      "42420726",
+      "39826710",
+      "41166416",
+      "41337585",
+      "41524628",
+      "39271032",
+      "40954121",
+      "39225536",
+      "37215004",
+      "41457474",
+      "39486437",
+      "38252962",
+      "39319382",
+      "39232584",
+      "41279444",
+      "40325419",
+      "38363841",
+      "39510346",
+      "40196628",
+      "36524527",
+      "34785657",
+      "41480717",
+      "40136009",
+      "39804953",
+      "31259246",
+      "40172489",
+      "41933903",
+      "30913885",
+      "40848932",
+      "38348795",
+      "38308651",
+      "41088757",
+      "39591652",
+      "36227468",
+      "40886156",
+      "39610751",
+      "42230638",
+      "39185151",
+      "39113361",
+      "40335475",
+      "34390736",
+      "38181073",
+      "41118627",
+      "29509422",
+      "40534071",
+      "36702825",
+      "23912807",
+      "39390911",
+      "42143038",
+      "40574501",
+      "36883003",
+      "30277791",
+      "42531022",
+      "36343363",
+      "35068142",
+      "42260147",
+      "42418518",
+      "33930220",
+      "41342450",
+      "38260590"
+    ],
+    "review": [
+      "41481439",
+      "35179885",
+      "39947751",
+      "39271032",
+      "40325419",
+      "36524527",
+      "41480717",
+      "40172489",
+      "38348795",
+      "34390736",
+      "29509422"
+    ],
+    "pmc": [
+      "12773751"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2518384122?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41481439/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

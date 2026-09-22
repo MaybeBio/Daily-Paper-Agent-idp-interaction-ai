@@ -1,0 +1,64 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors argue that intrinsically disordered proteins (IDPs) serve as a natural benchmark for next-generation AI systems in biology, including future AGI. They evaluate four ensemble generation pipelines (AlphaFlow, AlphaFlow-MD, AFflecto, Ensemblify) on alpha-synuclein using contact-probability maps, radii of gyration, and secondary-structure statistics. They report that structure-prediction-inspired models over-stabilize compact helical states, while ensemble-aware approaches recover expanded coil-rich conformations. They propose design principles for future AI systems that reason natively in terms of ensembles, dynamics, and experimental observables.
+- **Visible evidence base** Abstract text only; no quantitative results, methodological details, or validation data are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methodological details of the four pipelines, benchmark definitions, statistical analyses, comparison to experimental data, and any validation against known alpha-synuclein biophysics
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting premise, namely that IDPs can serve as a stress test for AI structure prediction methods, and applies this idea to alpha-synuclein with four ensemble generation pipelines. The framing is timely and the choice of system is well justified given the centrality of alpha-synuclein in Parkinson's disease research. However, the abstract provides no quantitative results, no methodological detail, and no validation against experimental observables. The core comparative claims are therefore not assessable from the supplied material. The manuscript may have merit, but the case is not established from the evidence provided.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein structure prediction and conformational ensembles would be the primary audience. Researchers studying intrinsically disordered proteins, particularly those focused on alpha-synuclein and neurodegeneration, would also find the comparative evaluation relevant. Additionally, developers of AI-based protein modelling tools and those interested in benchmarking AI systems against biologically challenging targets would benefit from this work.
+- **Major strengths** The conceptual framing is strong, positioning IDPs as a natural and rigorous test bed for AI systems trained predominantly on ordered proteins. The choice of alpha-synuclein is well motivated by its disease relevance and its well-documented disordered behaviour. The comparison of four distinct ensemble generation pipelines addresses a genuine gap in the literature, where head-to-head evaluations of such tools on disordered systems are scarce. The proposed direction toward ensemble-native AI design principles is forward-looking and potentially impactful.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that the analysis reveals systematic tendencies of structure-prediction-inspired models to over-stabilize compact helical states, while ensemble-aware approaches recover expanded coil-rich conformations.
+  - **Evidence pointer** Abstract only; no figures, tables, or quantitative metrics are provided
+  - **Concern** The central comparative claim is presented without any supporting numbers, statistical measures, or visualizations. No contact-probability maps, radius-of-gyration distributions, or secondary-structure percentages are shown. The reader cannot evaluate the magnitude of the reported differences, their statistical significance, or whether the observed tendencies are robust across the pipelines.
+  - **Why it matters** The claim that structure-prediction-inspired models systematically over-stabilize compact helical states is the core finding of the manuscript. Without quantitative evidence, this claim is unverifiable and could be an artefact of specific parameter choices, input representations, or analysis thresholds. The scientific value of the comparison depends entirely on the reliability and interpretability of these results.
+  - **Resolution test** Provide the actual contact-probability maps, radius-of-gyration distributions, and secondary-structure statistics for all four pipelines, along with appropriate statistical comparisons and, ideally, comparison to experimental data on alpha-synuclein conformational behaviour.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The abstract states that four ensemble generation pipelines, AlphaFlow, AlphaFlow-MD, AFflecto, and Ensemblify, were evaluated.
+  - **Evidence pointer** Abstract only; no methodological section is available
+  - **Concern** No details are provided on how these pipelines were configured, what input data they received, how many conformations were generated per pipeline, what force fields or simulation parameters were used where applicable, or how convergence and sampling adequacy were assessed. Without this information, the comparison cannot be reproduced or critically evaluated.
+  - **Why it matters** Ensemble generation methods are highly sensitive to input representations, sampling protocols, and post-processing choices. If the pipelines were not run under comparable conditions, the reported differences could reflect implementation artefacts rather than genuine methodological distinctions. Reproducibility is a fundamental requirement for a benchmarking study.
+  - **Resolution test** Include a detailed methods section describing pipeline versions, input features, sampling parameters, convergence criteria, and any post-processing steps. Provide code or configuration files to enable replication.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation against experiment
+  - **Claim pointer** The abstract implies that ensemble-aware approaches recover conformations characteristic of disorder, which is presented as a desirable outcome.
+  - **Evidence pointer** Abstract only; no experimental comparison is mentioned
+  - **Concern** The abstract does not state whether any of the generated ensembles were compared against experimental data for alpha-synuclein, such as NMR-derived chemical shifts, SAXS profiles, or FRET measurements. Without such validation, the claim that certain pipelines recover disorder-characteristic conformations is based on internal criteria only, which may not correspond to physical reality.
+  - **Why it matters** The entire premise of the manuscript is that IDPs provide a benchmark for AI systems. A benchmark requires ground truth. If the evaluation is purely self-referential, comparing pipelines against each other without reference to experimental observables, the conclusions about which approach is more accurate are not supported.
+  - **Resolution test** Compare the generated ensembles against at least one experimental dataset for alpha-synuclein, such as SAXS-derived radius of gyration or NMR-derived secondary structure propensities, and report quantitative agreement metrics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Scope clarity
+  - **Affected element** Title and framing
+  - **Evidence pointer** Abstract title and opening paragraph
+  - **Issue** The title asks how AI ensemble pipelines treat disorder, but the abstract also discusses AGI and broad design principles for future AI systems. The scope of the manuscript is unclear, as it appears to span a specific technical comparison and a much broader conceptual agenda.
+  - **Required correction** Clarify whether the primary contribution is the empirical comparison or the conceptual framework, and structure the abstract and manuscript accordingly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Use of the term AGI
+  - **Evidence pointer** Abstract opening paragraph
+  - **Issue** The mention of artificial general intelligence in biology is provocative but undefined. It is not clear what specific capabilities would constitute AGI in this context or how the presented work advances that goal beyond general statements.
+  - **Required correction** Either define what is meant by AGI in the context of protein science or remove the term to avoid overreach.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Metric justification
+  - **Affected element** Choice of evaluation metrics
+  - **Evidence pointer** Abstract description of contact-probability maps, radii of gyration, and secondary-structure statistics
+  - **Issue** The abstract does not explain why these three metrics are sufficient to characterize ensemble quality for a disordered protein. Other metrics, such as inter-residue distance distributions or solvent accessibility, might be equally or more informative.
+  - **Required correction** Justify the choice of metrics or acknowledge their limitations in the discussion.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are all blocking. The absence of quantitative results, methodological detail, and experimental validation means the central claims of the manuscript cannot be evaluated from the supplied material.
+- **Assessment against Nature-style criteria** Originality is moderate, as the application of ensemble generation pipelines to IDPs is relatively underexplored, though individual components of the work are not novel. Scientific importance is potentially high given the relevance to both AI benchmarking and Parkinson's disease research, but this importance is not demonstrated without quantitative evidence. Interdisciplinary readership is plausible, spanning AI, biophysics, and neurodegeneration, but the abstract does not currently make the work accessible to nonspecialists in all three fields. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is adequate at the conceptual level, though the lack of concrete results makes the abstract feel abstract in the colloquial sense.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framing is promising and the system choice is well motivated, but the absence of quantitative results, methodological transparency, and experimental validation prevents any assessment of the core claims. The manuscript may become publishable if the full text addresses these gaps, but the abstract alone does not support the stated conclusions.

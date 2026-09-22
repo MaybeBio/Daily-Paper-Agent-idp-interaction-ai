@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34358545",
+  "title": "Energy Landscapes of Protein Aggregation and Conformation Switching in Intrinsically Disordered Proteins.",
+  "authors": "Strodel, Birgit",
+  "journal": "Journal of molecular biology",
+  "published_date": "2021-08-07",
+  "window": {
+    "start": "2021-08-02",
+    "end": "2021-08-08"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述聚焦无序蛋白(IDP)的构象转换与聚集能量景观，以分子动力学模拟揭示多漏斗能量景观中的互作与聚集机制，虽未用AI方法，但对象与互作机制建模高度契合本课题。",
+  "abstract": "The protein folding problem was apparently solved recently by the advent of a deep learning method for protein structure prediction called AlphaFold. However, this program is not able to make predictions about the protein folding pathways. Moreover, it only treats about half of the human proteome, as the remaining proteins are intrinsically disordered or contain disordered regions. By definition these proteins differ from natively folded proteins and do not adopt a properly folded structure in solution. However these intrinsically disordered proteins (IDPs) also systematically differ in amino acid composition and uniquely often become folded upon binding to an interaction partner. These factors preclude solving IDP structures by current machine-learning methods like AlphaFold, which also cannot solve the protein aggregation problem, since this meta-folding process can give rise to different aggregate sizes and structures. An alternative computational method is provided by molecular dynamics simulations that already successfully explored the energy landscapes of IDP conformational switching and protein aggregation in multiple cases. These energy landscapes are very different from those of 'simple' protein folding, where one energy funnel leads to a unique protein structure. Instead, the energy landscapes of IDP conformational switching and protein aggregation feature a number of minima for different competing low-energy structures. In this review, I discuss the characteristics of these multifunneled energy landscapes in detail, illustrated by molecular dynamics simulations that elucidated the underlying conformational transitions and aggregation processes.",
+  "abstract_zh": "蛋白质折叠问题最近似乎通过一种名为AlphaFold的深度学习蛋白质结构预测方法的出现而得到了解决。然而，该程序无法对蛋白质折叠途径进行预测。此外，它仅能处理人类蛋白质组中约一半的蛋白质，因为其余蛋白质本质上是无序的或含有无序区域。根据定义，这些蛋白质不同于天然折叠的蛋白质，在溶液中不会采用正确折叠的结构。然而，这些本质无序蛋白质（IDPs）在氨基酸组成上也系统性不同，并且独特地，在与相互作用伙伴结合时常常变得折叠。这些因素阻碍了当前机器学习方法（如AlphaFold）解决IDP结构，该方法也无法解决蛋白质聚集问题，因为这一元折叠过程可能产生不同大小的聚集体和结构。另一种计算方法由分子动力学模拟提供，该方法已在多种情况下成功探索了IDP构象转换和蛋白质聚集的能量景观。这些能量景观与“简单”蛋白质折叠的能量景观截然不同，后者中一个能量漏斗导向独特的蛋白质结构。相反，IDP构象转换和蛋白质聚集的能量景观特征在于多个竞争性低能结构对应的多个极小值。在本综述中，我详细讨论了这些多漏斗能量景观的特征，并通过分子动力学模拟加以说明，这些模拟阐明了潜在的构象转换和聚集过程。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34358545/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34358545/",
+  "paper_page_path": "papers/pubmed/34358545/index.html"
+}

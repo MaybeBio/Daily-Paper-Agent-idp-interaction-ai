@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and figure legends
+- **Assessment boundary** Scientific validity, technical soundness, and significance of the claims presented; no assessment of editorial fit or publication venue appropriateness
+- **Shared manuscript claim summary** The authors propose that hnRNPUL1 contains a central folded SPRY-dead polynucleotide kinase (dPNK) domain that binds nucleotides and RNA, regulates RNA and protein interactions through intramolecular mechanisms, and can be reactivated as a kinase by a single amino acid substitution. They further identify rare coding variants in ALS patients that alter these regulatory functions.
+- **Visible evidence base** Figures 1-5, Supplemental Figures S1-S4, Supplemental Table S1, detailed methods section
+- **Missing materials affecting confidence** Raw quantification data for several experiments, individual replicate data points for some assays, full statistical analysis details, validation data for AlphaFold models beyond pLDDT scores, and information on whether experiments were blinded or randomized
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling structural and biochemical characterization of hnRNPUL1, revealing a previously unrecognized dead polynucleotide kinase domain that appears to function as a regulatory module. The work combines computational prediction with experimental validation in a generally rigorous manner. The finding that a single point mutation can reactivate kinase activity is striking and potentially significant. However, several technical concerns regarding experimental rigor, quantification methods, and the interpretation of certain results need to be addressed before the central claims can be fully accepted. The ALS variant analysis is preliminary and appropriately framed as such, but the functional characterization of these variants requires more thorough investigation.
+- **Who would be interested in the results, and why** Researchers studying RNA-binding proteins, particularly the hnRNP family, will find this work directly relevant to understanding how multi-domain proteins coordinate RNA and protein interactions. The demonstration of a "dead" enzyme domain that has been repurposed for regulatory functions will interest evolutionary biologists and biochemists studying pseudokinases and related phenomena. Given the links to ALS and the identification of patient-derived variants, the neurodegeneration community may also find this work relevant, though the authors appropriately avoid overstating disease implications.
+- **Major strengths** The combination of AlphaFold structural prediction with biochemical validation is timely and well-executed. The identification of a dead kinase domain that regulates RNA and protein interactions through conformational mechanisms is conceptually novel. The reactivation of kinase activity with a single mutation is a striking finding with potential broader implications. The use of multiple complementary assays (UV crosslinking, fluorescence, pulldown, co-IP) strengthens the conclusions. The authors are appropriately cautious in their interpretation of the ALS variant data.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of ATP binding measurements
+  - **Claim pointer** The authors claim that hnRNPUL1 binds ATP with a Kd of 164 ± 22 nM for WT and 19 ± 8.5 nM for WBm, and that WAm shows negligible binding.
+  - **Evidence pointer** Figure 1G, Methods section "Fluorescence spectroscopy"
+  - **Concern** The tryptophan fluorescence quenching assay used to measure ATP binding affinity relies on the assumption that ATP binding induces a conformational change that alters the local environment of tryptophan residues. However, the authors do not provide evidence that the observed fluorescence changes are specifically due to ATP binding rather than non-specific effects such as protein aggregation, photobleaching, or buffer effects. Additionally, the Kd values reported are extremely low for ATP binding (nanomolar range), which is unusual for nucleotide-binding proteins that typically bind ATP in the micromolar range. The authors do not report a control experiment with a non-binding protein or with a protein where the tryptophan residues have been mutated.
+  - **Why it matters** The ATP binding affinity is central to the model proposed in Figure 6, where ATP binding regulates the conformational state of the protein. If the measured Kd values are inaccurate, the physiological relevance of ATP binding becomes questionable, especially given the authors' own acknowledgment that intracellular ATP concentrations are very high (millimolar range). The claim that ATP binding regulates protein function requires accurate binding measurements.
+  - **Resolution test** The authors should validate the fluorescence quenching assay with an independent method such as isothermal titration calorimetry (ITC) or surface plasmon resonance (SPR). They should also include control experiments showing that the fluorescence change is specific to ATP binding, such as testing with a non-hydrolyzable ATP analog that does not bind, or with a mutant that lacks the tryptophan residues near the binding site. Additionally, the authors should discuss the physiological relevance of nanomolar ATP binding given millimolar intracellular ATP concentrations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of RNA binding data
+  - **Claim pointer** The authors claim that mutations in the dPNK domain (WAm, WBm) alter RNA binding of full-length hnRNPUL1, with WAm enhancing and WBm enhancing RNA binding.
+  - **Evidence pointer** Figure 4A-C, Methods section "RNA UV-crosslinking and competition"
+  - **Concern** The RNA binding experiments use a single non-specific RNA sequence, and the authors do not demonstrate that the observed differences in RNA binding between WT and mutants are specific to the dPNK domain rather than reflecting global changes in protein stability or folding. The WAm mutation is described as disrupting the hydrogen bonding network in the dPNK domain, which could lead to protein misfolding or aggregation rather than a specific regulatory effect. The authors do not assess protein stability or folding of the mutants (e.g., by circular dichroism, thermal stability assays, or size exclusion chromatography). Additionally, the ex vivo CLIP experiment (Figure 4C) shows enhanced RNA binding for both WAm and WBm, but the authors do not demonstrate that this reflects a specific regulatory mechanism rather than non-specific RNA binding due to protein destabilization.
+  - **Why it matters** The central claim of the paper is that the dPNK domain regulates RNA and protein interactions. If the observed effects are due to protein misfolding or aggregation rather than specific regulatory mechanisms, the conclusions would be substantially weakened. The distinction between specific regulation and non-specific destabilization is critical for the proposed model.
+  - **Resolution test** The authors should assess the folding and stability of the mutant proteins using biophysical methods (e.g., circular dichroism, thermal denaturation, or limited proteolysis). They should also test RNA binding with multiple RNA sequences, including structured RNAs and RNA with 5' modifications, to determine whether the dPNK domain has sequence or structure specificity. Additionally, they should perform competition experiments with unlabeled RNA to demonstrate specific binding.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reactivation of kinase activity
+  - **Claim pointer** The authors claim that the N456D mutation reactivates polynucleotide kinase activity in hnRNPUL1, as shown by phosphorylation of RNA and dsDNA substrates.
+  - **Evidence pointer** Figure 3B-C, Methods section "Kinase assays and thin-layer chromatography"
+  - **Concern** The kinase assay shown in Figure 3C demonstrates that N456D can phosphorylate RNA and dsDNA substrates, but the efficiency of this reaction appears to be very low compared to T4 PNK. The authors do not provide quantitative comparison of the specific activity of N456D versus T4 PNK, nor do they demonstrate that the phosphorylation is specific to the 5' hydroxyl group. The assay does not include a control with a kinase-dead mutant (e.g., N456D with additional mutations in the ATP binding site) to confirm that the observed phosphorylation is due to the reactivated kinase activity rather than a contaminating kinase activity from the purification system. The authors also do not show that the phosphorylation is dependent on the 5' hydroxyl group of the substrate, which would be expected for a polynucleotide kinase.
+  - **Why it matters** The reactivation of kinase activity is a striking finding that supports the structural predictions. However, if the observed activity is due to contamination or non-specific phosphorylation, this claim would be invalidated. The demonstration of specific, efficient kinase activity is essential for this claim.
+  - **Resolution test** The authors should perform a more detailed kinetic analysis of the N456D kinase activity, including determination of Km and kcat values. They should include controls with a kinase-dead mutant and with substrates lacking 5' hydroxyl groups. They should also demonstrate that the phosphorylation is dependent on the predicted catalytic residues and that the activity is not due to contaminating kinases by using inhibitors or by re-purifying the protein.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** ALS variant analysis
+  - **Claim pointer** The authors claim that rare coding variants in HNRNPUL1 identified in ALS patients alter the ability of the protein to bind nucleotides, RNAs, and FUS.
+  - **Evidence pointer** Figure 5D, Supplemental Table S1, Results section "The dPNK domain governs hnRNPUL1 homotypic versus heterotypic interactions"
+  - **Concern** The functional characterization of ALS-associated variants is limited to a single assay (FUS binding in the presence and absence of RNase) for a subset of variants. The authors do not provide a comprehensive analysis of all 21 identified variants, and the functional data for the variants tested is not quantitative. The authors appropriately acknowledge that they cannot establish a causal link between these variants and ALS, but the functional data presented is too preliminary to support even a suggestive role. The selection of which variants to test functionally is not clearly justified.
+  - **Why it matters** The ALS variant analysis is presented as a significant finding, but the data is too preliminary to draw meaningful conclusions. If the authors wish to include this analysis, they should provide a more comprehensive functional characterization of all identified variants, or they should clearly frame this as preliminary data requiring further investigation.
+  - **Resolution test** The authors should either provide functional data for all identified variants or clearly state that the functional characterization is incomplete. They should also provide quantitative measurements of the effects of variants on protein function, rather than qualitative assessments. If the sample size is insufficient for statistical analysis, this should be explicitly stated.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1A
+  - **Evidence pointer** Figure 1A
+  - **Issue** The domain schematic in Figure 1A is not clearly labeled with amino acid boundaries for each domain. The figure legend does not specify the exact residues corresponding to the SPRY, dPNK, IDR1, and CTD regions.
+  - **Required correction** Add amino acid boundaries to the domain schematic and specify these in the figure legend.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical analysis
+  - **Affected element** Figure 1E-F, Figure 2B, Figure 4A-C
+  - **Evidence pointer** Figure legends for Figures 1, 2, and 4
+  - **Issue** The figure legends state that p values were calculated using the unpaired t test, but do not specify the number of biological replicates for each experiment or whether the data met the assumptions of the t test (e.g., normality, equal variances).
+  - **Required correction** Specify the number of biological replicates for each experiment in the figure legends and state whether the data were tested for normality and equal variances.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** AlphaFold model validation
+  - **Evidence pointer** Figure 1B-D, Methods section
+  - **Issue** The authors use AlphaFold models to make structural predictions but do not provide any experimental validation of the predicted structure (e.g., by mutagenesis of predicted interface residues followed by functional assays, or by small-angle X-ray scattering).
+  - **Required correction** Provide additional validation of the predicted structure, or clearly state that the structural predictions are based solely on computational modeling and have not been experimentally validated.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Supplemental Table S1
+  - **Evidence pointer** Supplemental Table S1
+  - **Issue** The supplemental table listing ALS variants is not described in sufficient detail in the main text. The criteria for inclusion of variants, the population frequencies, and the bioinformatic predictions of pathogenicity are not clearly explained.
+  - **Required correction** Provide a more detailed description of the variant identification and filtering criteria in the main text or in the supplemental information.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors discuss the potential role of hnRNPUL1 in ALS but do not adequately address the limitations of their variant analysis, including the lack of segregation data, functional validation in patient-derived cells, or animal models.
+  - **Required correction** Add a more balanced discussion of the limitations of the ALS variant analysis and the evidence required to establish a causal role for HNRNPUL1 variants in ALS.
+
+## Risk / unsupported claims
+- The claim that the dPNK domain regulates RNA and protein interactions through a conformational change mechanism is plausible but not directly demonstrated; the authors infer this from indirect evidence (mutational effects on binding).
+- The claim that ATP binding stabilizes the dPNK fold and prevents excessive RNA/protein binding is speculative and not directly tested.
+- The functional significance of the ALS-associated variants is not established; the authors appropriately acknowledge this, but the inclusion of this data in the abstract and title may overstate its importance.
+- The claim that hnRNPUL1 is "one of the few RNA-binding proteins that can specifically recognize the free 5' end of an RNA" is not directly tested; the authors show RNA binding but do not demonstrate specificity for 5' ends versus internal RNA regions.
+- The reactivation of kinase activity by N456D is demonstrated but the efficiency and specificity of this activity are not fully characterized.
+- The physiological relevance of the observed ATP binding affinities (nanomolar range) is questionable given the millimolar intracellular ATP concentrations; the authors do not address this discrepancy.

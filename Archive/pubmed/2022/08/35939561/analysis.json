@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35939561",
+  "title": "Transcription factors perform a 2-step search of the nucleus.",
+  "authors": "Staller, Max Valentin",
+  "journal": "Genetics",
+  "published_date": "2022-08-09",
+  "window": {
+    "start": "2022-08-08",
+    "end": "2022-08-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文提出转录因子通过DNA结合和蛋白结合两步搜索核内靶点的假说，涉及PPI但对象非无序蛋白，且无AI/物理模拟方法，仅基于文献综述，对无序蛋白互作机制建模启发有限。",
+  "abstract": "Transcription factors regulate gene expression by binding to regulatory DNA and recruiting regulatory protein complexes. The DNA-binding and protein-binding functions of transcription factors are traditionally described as independent functions performed by modular protein domains. Here, I argue that genome binding can be a 2-part process with both DNA-binding and protein-binding steps, enabling transcription factors to perform a 2-step search of the nucleus to find their appropriate binding sites in a eukaryotic genome. I support this hypothesis with new and old results in the literature, discuss how this hypothesis parsimoniously resolves outstanding problems, and present testable predictions.",
+  "abstract_zh": "转录因子通过结合调控DNA并招募调控蛋白复合物来调节基因表达。转录因子的DNA结合和蛋白结合功能传统上被描述为由模块化蛋白结构域执行的独立功能。在此，我提出基因组结合可能是一个包含DNA结合和蛋白结合两个步骤的两部分过程，使转录因子能够在真核基因组中执行两步核搜索以找到其适当的结合位点。我用文献中的新旧结果支持这一假设，讨论该假设如何简洁地解决悬而未决的问题，并提出可检验的预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35939561/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35939561/",
+  "paper_page_path": "papers/pubmed/35939561/index.html"
+}

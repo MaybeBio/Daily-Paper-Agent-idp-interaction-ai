@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37001144",
+  "title": "Investigating Native Metal Ion Binding Sites in Mammalian Histidine-Rich Glycoprotein.",
+  "authors": "Ackermann, Katrin; Khazaipoul, Siavash; Wort, Joshua L; Sobczak, Amelie I S; Mkami, Hassane El; Stewart, Alan J; Bode, Bela E",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2023-04-01",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用EPR光谱结合结构预测研究富含组氨酸糖蛋白(HRG)中天然金属离子结合位点，对象涉及IDR但互作对象为金属离子而非蛋白，方法以实验为主、AI/物理模拟为辅，对无序蛋白结合位点表征有参考但非PPI机制建模。",
+  "abstract": "Mammalian histidine-rich glycoprotein (HRG) is a highly versatile and abundant blood plasma glycoprotein with a diverse range of ligands that is involved in regulating many essential biological processes, including coagulation, cell adhesion, and angiogenesis. Despite its biomedical importance, structural information on the multi-domain protein is sparse, not least due to intrinsically disordered regions that elude high-resolution structural characterization. Binding of divalent metal ions, particularly Zn(II), to multiple sites within the HRG protein is of critical functional importance and exerts a regulatory role. However, characterization of the Zn(II) binding sites of HRG is a challenge; their number and composition as well as their affinities and stoichiometries of binding are currently not fully understood. In this study, we explored modern electron paramagnetic resonance (EPR) spectroscopy methods supported by protein secondary and tertiary structure prediction to assemble a holistic picture of native HRG and its interaction with metal ions. To the best of our knowledge, this is the first time that this suite of EPR techniques has been applied to count and characterize endogenous metal ion binding sites in a native mammalian protein of unknown structure.",
+  "abstract_zh": "哺乳动物富含组氨酸糖蛋白（HRG）是一种高度多功能且丰富的血浆糖蛋白，具有多种配体，参与调控许多关键生物过程，包括凝血、细胞粘附和血管生成。尽管其具有生物医学重要性，但该多结构域蛋白的结构信息仍然稀少，尤其是由于内在无序区域难以通过高分辨率结构表征。二价金属离子，特别是Zn(II)，与HRG蛋白内多个位点的结合具有关键功能重要性，并发挥调控作用。然而，表征HRG的Zn(II)结合位点是一项挑战；其数量、组成以及结合亲和力和化学计量比目前尚未完全明了。在本研究中，我们探索了现代电子顺磁共振（EPR）光谱方法，并辅以蛋白质二级和三级结构预测，以构建天然HRG及其与金属离子相互作用的整体图景。据我们所知，这是首次应用这套EPR技术来计数和表征未知结构的天然哺乳动物蛋白中的内源性金属离子结合位点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37001144/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37001144/",
+  "paper_page_path": "papers/pubmed/37001144/index.html"
+}

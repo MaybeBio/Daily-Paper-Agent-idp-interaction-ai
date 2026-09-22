@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37224425",
+  "title": "Elucidation of Short Linear Motif-Based Interactions of the FERM Domains of Ezrin, Radixin, Moesin, and Merlin.",
+  "authors": "Ali, Muhammad; Khramushin, Alisa; Yadav, Vikash K; Schueler-Furman, Ora; Ivarsson, Ylva",
+  "journal": "Biochemistry",
+  "published_date": "2023-05-24",
+  "window": {
+    "start": "2023-05-22",
+    "end": "2023-05-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过噬菌体展示筛选无序蛋白质组中的短线性基序，结合Rosetta FlexPepDock对接与突变分析，阐明ERM/merlin FERM结构域与IDR肽段的结合机制，对象为IDR介导的PPI且含物理模拟方法，但未涉及相分离且机制深度有限。",
+  "abstract": "The ERM (ezrin, radixin, and moesin) family of proteins and the related protein merlin participate in scaffolding and signaling events at the cell cortex. The proteins share an N-terminal FERM [band four-point-one (4.1) ERM] domain composed of three subdomains (F1, F2, and F3) with binding sites for short linear peptide motifs. By screening the FERM domains of the ERMs and merlin against a phage library that displays peptides representing the intrinsically disordered regions of the human proteome, we identified a large number of novel ligands. We determined the affinities for the ERM and merlin FERM domains interacting with 18 peptides and validated interactions with full-length proteins through pull-down experiments. The majority of the peptides contained an apparent Yx[FILV] motif; others show alternative motifs. We defined distinct binding sites for two types of similar but distinct binding motifs (YxV and FYDF) using a combination of Rosetta FlexPepDock computational peptide docking protocols and mutational analysis. We provide a detailed molecular understanding of how the two types of peptides with distinct motifs bind to different sites on the moesin FERM phosphotyrosine binding-like subdomain and uncover interdependencies between the different types of ligands. The study expands the motif-based interactomes of the ERMs and merlin and suggests that the FERM domain acts as a switchable interaction hub.",
+  "abstract_zh": "ERM（ezrin、radixin和moesin）蛋白家族及相关蛋白merlin参与细胞皮层中的支架和信号传导事件。这些蛋白共享一个由三个亚结构域（F1、F2和F3）组成的N端FERM [band four-point-one (4.1) ERM] 结构域，该结构域具有短线性肽基序的结合位点。通过将ERMs和merlin的FERM结构域与展示代表人类蛋白质组中固有无序区域肽段的噬菌体文库进行筛选，我们鉴定出大量新型配体。我们测定了ERM和merlin FERM结构域与18种肽段相互作用的亲和力，并通过pull-down实验验证了与全长蛋白的相互作用。大多数肽段含有明显的Yx[FILV]基序；其他肽段则表现出替代基序。我们结合Rosetta FlexPepDock计算肽段对接方案和突变分析，定义了两种相似但不同结合基序（YxV和FYDF）的独特结合位点。我们提供了对两种不同基序肽段如何结合到moesin FERM磷酸酪氨酸结合样亚结构域上不同位点的详细分子理解，并揭示了不同类型配体之间的相互依赖性。该研究扩展了ERMs和merlin基于基序的相互作用组，并提示FERM结构域作为一个可切换的相互作用枢纽发挥作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37224425/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37224425/",
+  "paper_page_path": "papers/pubmed/37224425/index.html"
+}

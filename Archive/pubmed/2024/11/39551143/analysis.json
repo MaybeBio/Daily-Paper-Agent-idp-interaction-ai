@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39551143",
+  "title": "The Hsc70 system maintains the synaptic SNARE protein SNAP-25 in an assembly-competent state and delays its aggregation.",
+  "authors": "Bhasne, Karishma; Bogoian-Mullen, Antonia; Clerico, Eugenia M; Gierasch, Lila M",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2024-11-18",
+  "window": {
+    "start": "2024-11-18",
+    "end": "2024-11-24"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究Hsc70/CSPα分子伴侣系统与无序蛋白SNAP-25的互作，通过肽段筛选和生物物理方法定位结合位点并揭示其维持组装能力、延缓聚集的机制，对象为IDP且涉及PPI机制，但方法以实验为主，AI/物理模拟贡献有限。",
+  "abstract": "The complex mechanism of synaptic vesicle fusion with the plasma membrane for neurotransmitter release is initiated by the formation of the SNARE complex at the presynaptic terminal of the neuron. The SNARE complex is composed of four helices contributed by three proteins: one from syntaxin (localized at the plasma membrane), one from synaptobrevin (localized at the synaptic vesicle), and two from the intrinsically disordered and aggregation-prone synaptosomal-associated 25 kDa protein (SNAP-25), which is localized to the plasma membrane by virtue of palmitoylation of cysteine residues. The fusion process is tightly regulated and requires the constitutively expressed Hsp70 chaperone (Hsc70) and its J-protein co-chaperone CSPalpha. We hypothesize that Hsc70 and CSPalpha cooperate to chaperone SNAP-25, disfavoring its aggregation and keeping it in a folding state competent for SNARE complex formation. To test this hypothesis, we used a bottom-up approach and studied the interaction between Hsc70 and CSPalpha with SNAP-25 in vitro. We showed that the aggregation of SNAP-25 is delayed in the presence of Hsc70 and CSPalpha. Using a peptide array that spans the sequence of SNAP-25, we identified three potential Hsc70-interacting sequences and designed peptides containing these sequences to test binding in solution. We characterized the interaction of SNAP-25-derived peptides with Hsc70 and CSPalpha using a combination of biochemical and biophysical techniques, including native-PAGE, binding affinity by fluorescence anisotropy, ATPase-activity of Hsc70, and NMR. We have identified an Hsc70 binding site within SNAP-25 that is likely to represent the site used in the cell to facilitate SNARE complex formation.",
+  "abstract_zh": "突触囊泡与质膜融合以释放神经递质的复杂机制，始于神经元突触前末端SNARE复合物的形成。SNARE复合物由三种蛋白质贡献的四条螺旋组成：一条来自syntaxin（定位于质膜），一条来自synaptobrevin（定位于突触囊泡），以及两条来自 intrinsically disordered 且易于聚集的 synaptosomal-associated 25 kDa 蛋白（SNAP-25），后者通过半胱氨酸残基的棕榈酰化定位于质膜。融合过程受到严格调控，需要组成型表达的Hsp70伴侣蛋白（Hsc70）及其J蛋白共伴侣蛋白CSPalpha的参与。我们假设Hsc70和CSPalpha协同作用，对SNAP-25进行伴侣蛋白调控，抑制其聚集并使其保持在适合SNARE复合物形成的折叠状态。为验证此假设，我们采用自下而上的方法，在体外研究了Hsc70和CSPalpha与SNAP-25之间的相互作用。我们表明，在Hsc70和CSPalpha存在下，SNAP-25的聚集被延迟。利用覆盖SNAP-25序列的肽阵列，我们鉴定了三个潜在的Hsc70相互作用序列，并设计了包含这些序列的肽段以测试溶液中的结合。我们结合生化和生物物理技术，包括native-PAGE、通过荧光各向异性测定的结合亲和力、Hsc70的ATPase活性以及NMR，表征了SNAP-25衍生肽与Hsc70和CSPalpha的相互作用。我们已鉴定出SNAP-25内的一个Hsc70结合位点，该位点可能代表细胞中用于促进SNARE复合物形成的位点。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39551143/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39551143/",
+  "paper_page_path": "papers/pubmed/39551143/index.html"
+}

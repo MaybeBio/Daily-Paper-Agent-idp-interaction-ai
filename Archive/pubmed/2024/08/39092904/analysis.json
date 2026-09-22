@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39092904",
+  "title": "nP-Collabs: Investigating Counterion-Mediated Bridges in the Multiply Phosphorylated Tau-R2 Repeat.",
+  "authors": "Marien, Jules; Prevost, Chantal; Sacquin-Mora, Sophie",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2024-08-02",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用全原子MD模拟研究多磷酸化Tau-R2无序重复域中抗衡离子介导的桥接结构(nP-collabs)对构象动态的影响，并引入针对IDP的新度量，虽未直接建模PPI，但聚焦IDP构象机制且方法可迁移至IDP介导互作研究。",
+  "abstract": "Tau is an intrinsically disordered (IDP) microtubule-associated protein (MAP) that plays a key part in microtubule assembly and organization. The function of tau can be regulated by multiple phosphorylation sites. These post-translational modifications are known to decrease the binding affinity of tau for microtubules, and abnormal tau phosphorylation patterns are involved in Alzheimer's disease. Using all-atom molecular dynamics simulations, we compared the conformational landscapes explored by the tau R2 repeat domain (which comprises a strong tubulin binding site) in its native state and with multiple phosphorylations on the S285, S289, and S293 residues, with four different standard force field (FF)/water model combinations. We find that the different parameters used for the phosphate groups (which can be more or less flexible) in these FFs and the specific interactions between bulk cations and water lead to the formation of a specific type of counterion bridge, termed nP-collab (for nphosphate collaboration, with n being an integer), where counterions form stable structures binding with two or three phosphate groups simultaneously. The resulting effect of nP-collabs on the tau-R2 conformational space differs when using sodium or potassium cations and is likely to impact the peptide overall dynamics and how this MAP interacts with tubulins. We also investigated the effect of phosphoresidue spacing and ionic concentration by modeling polyalanine peptides containing two phosphoserines located one-six residues apart. Three new metrics specifically tailored for IDPs (proteic Menger curvature, local curvature, and local flexibility) were introduced, which allow us to fully characterize the impact of nP-collabs on the dynamics of disordered peptides at the residue level.",
+  "abstract_zh": "Tau是一种 intrinsically disordered (IDP) 微管相关蛋白 (MAP)，在微管组装和组织中发挥关键作用。Tau的功能可通过多个磷酸化位点进行调控。已知这些翻译后修饰会降低Tau对微管的结合亲和力，而异常的Tau磷酸化模式与阿尔茨海默病相关。利用全原子分子动力学 (molecular dynamics) 模拟，我们比较了Tau R2重复结构域（包含一个强微管结合位点）在其天然状态及S285、S289和S293残基多重磷酸化状态下所探索的构象景观，使用了四种不同的标准力场 (force field, FF)/水模型组合。我们发现，这些力场中用于磷酸基团的不同参数（其灵活性可能不同）以及体相阳离子与水之间的特定相互作用，导致形成一种特定类型的反离子桥，称为nP-collab（n个磷酸基团协作，其中n为整数），其中反离子与两个或三个磷酸基团同时结合形成稳定结构。nP-collab对Tau-R2构象空间的影响在使用钠或钾阳离子时有所不同，并可能影响肽的整体动力学以及该MAP与微管蛋白的相互作用方式。我们还通过建模含有两个磷酸丝氨酸（间隔一至六个残基）的多聚丙氨酸肽，研究了磷酸残基间距和离子浓度的影响。引入了三种专门针对IDP定制的新指标（蛋白质Menger曲率、局部曲率和局部灵活性），使我们能够在残基水平上全面表征nP-collab对无序肽动力学的影响。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39092904/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39092904/",
+  "paper_page_path": "papers/pubmed/39092904/index.html"
+}

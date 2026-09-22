@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "38222029",
+    "doi": "10.1039/D3ME00053B",
+    "title": "Data-Driven Models for Predicting Intrinsically Disordered Protein Polymer Physics Directly from Composition or Sequence."
+  },
+  "content": {
+    "abstract": "The molecular-level understanding of intrinsically disordered proteins is challenging due to experimental characterization difficulties. Computational understanding of IDPs also requires fundamental advances, as the leading tools for predicting protein folding (e.g., AlphaFold), typically fail to describe the structural ensembles of IDPs. The focus of this paper is to 1) develop new representations for intrinsically disordered proteins and 2) pair these representations with classical machine learning and deep learning models to predict the radius of gyration and derived scaling exponent of IDPs. Here, we build a new physically-motivated feature called the bag of amino acid interactions representation, which encodes pairwise interactions explicitly into the representation. This feature essentially counts and weights all possible non-bonded interactions in a sequence and thus is, in principle, compatible with arbitrary sequence lengths. To see how well this new feature performs, both categorical and physically-motivated featurization techniques are tested on a computational dataset containing 10,000 sequences simulated at the coarse-grained level. The results indicate that this new feature outperforms the other purely categorical and physically-motivated features and possesses solid extrapolation capabilities. For future use, this feature can potentially provide physical insights into amino acid interactions, including their temperature dependence, and be applied to other protein spaces.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chao, Tzu-Hsuan",
+        "Rekhi, Shiv",
+        "Mittal, Jeetain",
+        "Tabor, Daniel P"
+      ],
+      "short_names": [
+        "Chao TH",
+        "Rekhi S",
+        "Mittal J",
+        "Tabor DP"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Texas A&M University, PO Box 30012, College Station, TX 77842-3012, USA.",
+        "Department of Chemistry, Texas A&M University, PO Box 30012, College Station, TX 77842-3012, USA.",
+        "Department of Chemistry, Texas A&M University, PO Box 30012, College Station, TX 77842-3012, USA.",
+        "Department of Chemistry, Texas A&M University, PO Box 30012, College Station, TX 77842-3012, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chao, Tzu-Hsuan",
+        "short_name": "Chao TH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Texas A&M University, PO Box 30012, College Station, TX 77842-3012, USA."
+        ]
+      },
+      {
+        "full_name": "Rekhi, Shiv",
+        "short_name": "Rekhi S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Texas A&M University, PO Box 30012, College Station, TX 77842-3012, USA."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Texas A&M University, PO Box 30012, College Station, TX 77842-3012, USA."
+        ]
+      },
+      {
+        "full_name": "Tabor, Daniel P",
+        "short_name": "Tabor DP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Texas A&M University, PO Box 30012, College Station, TX 77842-3012, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular systems design & engineering"
+    ],
+    "journal_abbrev": [
+      "Mol Syst Des Eng"
+    ],
+    "pub_date": "2023 Sep 1",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/15 06:42",
+    "fetched_at": "2026-09-21 04:18:56"
+  },
+  "links": {
+    "cites": [
+      "41708867",
+      "39196930",
+      "38297118",
+      "38053335",
+      "37961110"
+    ],
+    "refs": [
+      "38250712",
+      "36463772",
+      "36192636",
+      "35748651",
+      "35446534",
+      "35129612",
+      "35039677",
+      "34627764",
+      "34265844",
+      "33871257",
+      "33865811",
+      "33831596",
+      "33191750",
+      "33087352",
+      "32840111",
+      "32345021",
+      "32321437",
+      "32250622",
+      "32227994",
+      "31942072",
+      "31344267",
+      "31139718",
+      "30915396",
+      "30217894",
+      "29604827",
+      "29364893",
+      "26943560",
+      "26113956",
+      "24773235",
+      "24725176",
+      "24706910",
+      "24432838",
+      "24019881",
+      "23901099",
+      "23240611",
+      "22984159",
+      "22400967",
+      "18799750",
+      "17709338",
+      "15215442",
+      "8356056",
+      "8345525",
+      "2775715",
+      "1281284"
+    ],
+    "similar": [
+      "38222029",
+      "36674958",
+      "23912807",
+      "38275091",
+      "30933517",
+      "37459524",
+      "32357776",
+      "32345021",
+      "30913885",
+      "37961110",
+      "28365882",
+      "34390736",
+      "30250773",
+      "31756456",
+      "38053335",
+      "36917561",
+      "24312701",
+      "38165099",
+      "25375525",
+      "32639157",
+      "31441158",
+      "38097100",
+      "27936491",
+      "36083825",
+      "33078950",
+      "32859072",
+      "34863777",
+      "30909517",
+      "38987470",
+      "36774359",
+      "30066087",
+      "32771522",
+      "33934416",
+      "38297184",
+      "32696367",
+      "34358545",
+      "31552948",
+      "38124369",
+      "36066390",
+      "31139718",
+      "22044150",
+      "32227994",
+      "33810353",
+      "34845619",
+      "37463458",
+      "31714774",
+      "36824878",
+      "29571687",
+      "29042212",
+      "21766125",
+      "27004461",
+      "35755809",
+      "28192291",
+      "38546977",
+      "34418423",
+      "30727987",
+      "24089737",
+      "34354764",
+      "34716273",
+      "26301226",
+      "31425549",
+      "33555894",
+      "33545530",
+      "35129612",
+      "30979035",
+      "29364893",
+      "32403216",
+      "28155710",
+      "28226222",
+      "26387110",
+      "34545666",
+      "34981860",
+      "39163306",
+      "31475155",
+      "38781245",
+      "36827446",
+      "39279844",
+      "34546059",
+      "30091924",
+      "25287424",
+      "22505141",
+      "30002402",
+      "25496281",
+      "32692541",
+      "36641212",
+      "34285781",
+      "37442414",
+      "37241789",
+      "21686180",
+      "32696370",
+      "32253236",
+      "30230839",
+      "38505224",
+      "23901099",
+      "34680048",
+      "37883249",
+      "39248414",
+      "37904608",
+      "25863585",
+      "33453922"
+    ],
+    "review": [
+      "38222029",
+      "34390736",
+      "31441158",
+      "38097100",
+      "30909517",
+      "30066087",
+      "34358545",
+      "38124369",
+      "22044150",
+      "27004461",
+      "28192291",
+      "34418423",
+      "26301226",
+      "33545530",
+      "35129612",
+      "30979035",
+      "32403216",
+      "28226222",
+      "26387110",
+      "34545666",
+      "25287424",
+      "22505141",
+      "34285781",
+      "37241789",
+      "21686180",
+      "32253236",
+      "38505224",
+      "34680048"
+    ],
+    "pmc": [
+      "10786636"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38222029/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34189489",
+  "title": "SARS-CoV-2 NSP1 C-terminal (residues 131-180) is an intrinsically disordered region in isolation.",
+  "authors": "Kumar, Amit; Kumar, Ankur; Kumar, Prateek; Garg, Neha; Giri, Rajanish",
+  "journal": "Current research in virological science",
+  "published_date": "2021-07-01",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 6,
+  "one_liner_zh": "该文研究SARS-CoV-2 NSP1 C端无序区域在分离状态下的构象及向有序转变的倾向，结合CD/荧光实验与MD模拟，虽对象为IDR且含物理模拟，但未涉及PPI或互作机制建模，故为中档。",
+  "abstract": "The NSP1- C terminal structure in complex with ribosome using cryo-EM is available now, and the N-terminal region structure in isolation is also deciphered in literature. However, as a reductionist approach, the conformation of NSP1- C terminal region (NSP1-CTR; amino acids 131-180) has not been studied in isolation. We found that NSP1-CTR conformation is disordered in an aqueous solution. Further, we examined the conformational propensity towards alpha-helical structure using trifluoroethanol, we observed induction of helical structure conformation using CD spectroscopy. Additionally, in SDS, NSP1-CTR shows a conformational change from disordered to ordered, possibly gaining alpha-helix in part. But in the presence of neutral lipid DOPC, a slight change in conformation is observed, which implies the possible role of hydrophobic interaction and electrostatic interaction on the conformational changes of NSP1. Fluorescence-based studies have shown a blue shift and fluorescence quenching in the presence of SDS, TFE, and lipid vesicles. In agreement with these results, fluorescence lifetime and fluorescence anisotropy decay suggest a change in conformational dynamics. The zeta potential studies further validated that the conformational dynamics are primarily because of hydrophobic interaction. These experimental studies were complemented through Molecular Dynamics (MD) simulations, which have shown a good correlation and testifies our experiments. We believe that the intrinsically disordered nature of the NSP1-CTR will have implications for enhanced molecular recognition feature properties of this IDR, which may add disorder to order transition and disorder-based binding promiscuity with its interacting proteins.",
+  "abstract_zh": "目前，利用冷冻电镜（cryo-EM）解析的NSP1-C末端结构与核糖体复合物的结构已可用，且N端区域在分离状态下的结构也已在文献中阐明。然而，作为一种还原论方法，NSP1-C末端区域（NSP1-CTR；氨基酸131-180）的构象尚未在分离状态下进行研究。我们发现，NSP1-CTR在水溶液中呈无序构象。进一步，我们使用三氟乙醇（trifluoroethanol）考察了其向α-螺旋结构构象的倾向性，并通过圆二色光谱（CD spectroscopy）观察到螺旋结构构象的诱导。此外，在SDS存在下，NSP1-CTR表现出从无序到有序的构象变化，可能部分获得α-螺旋结构。但在中性脂质DOPC存在下，观察到构象的轻微变化，这暗示疏水相互作用和静电相互作用可能在NSP1构象变化中发挥潜在作用。基于荧光的研究显示，在SDS、TFE和脂质囊泡存在下，出现蓝移和荧光猝灭。与这些结果一致，荧光寿命和荧光各向异性衰减表明构象动力学发生变化。Zeta电位研究进一步验证了构象动力学主要源于疏水相互作用。这些实验研究通过分子动力学（molecular dynamics, MD）模拟得到补充，模拟结果显示出良好的相关性，并验证了我们的实验。我们认为，NSP1-CTR的内在无序特性将对该IDR的增强分子识别特征属性产生影响，这可能增加无序到有序的转变，并促进与其相互作用蛋白的基于无序的结合混杂性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34189489/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34189489/",
+  "paper_page_path": "papers/pubmed/34189489/index.html"
+}

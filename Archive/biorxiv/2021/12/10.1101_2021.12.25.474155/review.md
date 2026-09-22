@@ -1,0 +1,80 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no figures, methods, or full-text data were provided for evaluation
+- **Shared manuscript claim summary** The authors report that SARS-CoV-2 nucleocapsid protein (NCAP) binds all tested RNAs but preferentially binds structured RNAs, long RNAs, and RNAs with multiple structured domains separated by single-stranded linkers. They further report that all three major regions of NCAP bind RNA, including the low complexity domain and dimerization domain, and propose a "recognition-by-packaging" mechanism linking NCAP-NCAP interactions to genomic RNA recognition.
+- **Visible evidence base** Abstract text only; no experimental data, figure legends, or methodological details were supplied
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting biochemical characterization of NCAP-RNA interactions, with a novel mechanistic proposal. However, the evidence base available for review is limited to the abstract, which precludes verification of the experimental design, data quality, and statistical support for the stated conclusions. The claims are plausible but cannot be rigorously evaluated without access to the underlying data.
+- **Who would be interested in the results, and why** Virologists studying SARS-CoV-2 replication and assembly, RNA biologists interested in protein-RNA recognition mechanisms, and structural biologists working on nucleocapsid proteins or liquid-liquid phase separation. The proposed "recognition-by-packaging" concept may also interest researchers studying viral genome packaging in other RNA viruses.
+- **Major strengths** The study addresses a fundamental and under-explored question regarding RNA selectivity by NCAP. The use of competition assays to compare binding across RNA categories (viral vs. non-viral, long vs. short, structured vs. unstructured) is a logical approach. The proposal of a unified mechanism linking oligomerization and RNA recognition is conceptually appealing and could have broad implications.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The abstract claims that NCAP "primarily binds structured RNAs, and their association suppresses strong interaction with single-stranded RNAs" and that "NCAP prefers long RNAs, especially those containing multiple structures separated by single-stranded linkers."  
+  - **Evidence pointer** Abstract only; no figures or tables provided  
+  - **Concern** The abstract reports qualitative preferences but provides no quantitative data, such as binding affinities, competition curves, or statistical comparisons. Without these, it is impossible to assess the magnitude of the reported preferences or whether they are biologically meaningful.  
+  - **Why it matters** The central claims of the paper rest on comparative binding preferences. If the differences are small or not statistically robust, the conclusions would be substantially weakened.  
+  - **Resolution test** Provide binding curves, dissociation constants, and statistical tests comparing RNA categories. Show that the observed preferences are reproducible and significant.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Mechanistic support  
+  - **Claim pointer** The abstract states that "all three major regions of NCAP bind RNA, including the low complexity domain and dimerization domain that promote formation of NCAP oligomers, amyloid fibrils and liquid-liquid phase separation" and proposes that "NCAP-NCAP interactions that mediate higher-order structures during packaging also drive recognition of the genomic RNA."  
+  - **Evidence pointer** Abstract only; no structural or biophysical data provided  
+  - **Concern** The mechanistic proposal linking NCAP-NCAP interactions to RNA recognition is presented as a conclusion, but the abstract does not describe experiments that directly test this link. For example, it is unclear whether the authors performed mutagenesis to disrupt oligomerization and then assessed RNA binding, or whether they visualized NCAP-RNA complexes under conditions favoring phase separation.  
+  - **Why it matters** The "recognition-by-packaging" model is the most novel aspect of the study. Without direct experimental support, it remains speculative.  
+  - **Resolution test** Include experiments that perturb NCAP-NCAP interactions (e.g., mutations in the dimerization domain or low complexity domain) and show corresponding changes in RNA binding specificity or affinity. Alternatively, provide imaging or biophysical data demonstrating that higher-order NCAP assemblies preferentially associate with structured long RNAs.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The abstract states that NCAP binds "all RNAs tested," implying broad RNA-binding capacity.  
+  - **Evidence pointer** Abstract only; RNA panel not described  
+  - **Concern** The abstract does not specify the number, sequence diversity, or biological relevance of the RNAs tested. If the panel is small or biased, the claim of broad binding may be overstated.  
+  - **Why it matters** The conclusion that NCAP is a general RNA-binding protein with preferences for certain features depends on the representativeness of the RNA panel.  
+  - **Resolution test** Describe the RNA panel in detail, including sequence lengths, structural predictions, and source (viral vs. host). Show that the panel covers a wide range of structural and length diversity.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, "recognition-by-packaging" definition  
+  - **Issue** The term "recognition-by-packaging" is introduced without a clear operational definition.  
+  - **Required correction** Define the term explicitly, ideally with a one-sentence mechanistic description.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Methods description  
+  - **Evidence pointer** Abstract, "electrophoresis mobility shift and competition assays"  
+  - **Issue** The abstract does not indicate whether the assays were performed with purified full-length NCAP or with truncated constructs, which could affect interpretation.  
+  - **Required correction** State the protein constructs used and whether full-length NCAP was the primary species tested.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** "Suppresses strong interaction" phrasing  
+  - **Evidence pointer** Abstract, first paragraph  
+  - **Issue** The phrase "their association suppresses strong interaction with single-stranded RNAs" is ambiguous. It is unclear whether structured RNA binding actively inhibits single-stranded RNA binding or whether the two binding modes are mutually exclusive.  
+  - **Required correction** Clarify whether this is a competitive or allosteric effect, and specify the experimental evidence supporting the interpretation.
+- **Technical failings that need to be addressed before the case is established**  
+  - R1-M1: Lack of quantitative binding data and statistical analysis  
+  - R1-M2: Absence of direct experimental tests of the proposed mechanism  
+  - R1-M3: Insufficient description of the RNA panel to support generalizability claims
+- **Assessment against Nature-style criteria**  
+  - **Originality** The proposed "recognition-by-packaging" mechanism is conceptually novel and could distinguish this work from prior studies on NCAP-RNA interactions. However, the abstract alone does not establish whether the concept is fully developed or merely speculative.  
+  - **Scientific importance** The question of how NCAP selects viral RNA among host RNAs is important for understanding SARS-CoV-2 biology and could inform therapeutic strategies. The potential relevance to other RNA viruses adds to the significance.  
+  - **Interdisciplinary readership** The topic bridges virology, RNA biology, and biophysics, which could attract a broad audience. The abstract is written in a way that is accessible to nonspecialists, though some terms (e.g., "low complexity domain") may require prior knowledge.  
+  - **Technical soundness** Cannot be assessed from the abstract alone. The described methods (EMSA and competition assays) are standard, but the quality of execution and data interpretation cannot be verified.  
+  - **Readability for nonspecialists** The abstract is generally clear and logically structured. The key findings are stated succinctly, and the mechanistic proposal is presented in accessible language.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and plausible preliminary data, but the absence of quantitative results, mechanistic tests, and methodological details prevents a rigorous evaluation. The authors should be encouraged to provide the full manuscript for a complete assessment. If the full data support the claims, the work could be of significant interest to the virology and RNA biology communities.
+
+## Risk / unsupported claims
+- The claim that NCAP "primarily binds structured RNAs" is unsupported without quantitative binding data.
+- The claim that structured RNA binding "suppresses strong interaction with single-stranded RNAs" is unsupported without competition data showing the mechanism.
+- The claim that NCAP "prefers long RNAs" is unsupported without a defined RNA length range and statistical comparison.
+- The claim that "all three major regions of NCAP bind RNA" is unsupported without domain-specific binding data.
+- The "recognition-by-packaging" mechanism is presented as a proposal but is not supported by direct experimental evidence in the abstract.
+- The generalizability of the findings to "a broad range of similar biological processes" is speculative and not supported by the abstract.

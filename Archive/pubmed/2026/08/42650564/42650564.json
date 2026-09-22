@@ -1,0 +1,275 @@
+{
+  "identity": {
+    "pmid": "42650564",
+    "doi": "10.3390/foods15162870",
+    "title": "Binding Mechanism and Taste-Masking Effect of Milk Proteins with Flavonoids from Pandan Revealed by Spectroscopic and Electronic Tongue Analysis."
+  },
+  "content": {
+    "abstract": "With the growing interest in pandan-based products, bitterness and astringency associated with flavonoids may limit their sensory acceptance. This study investigated the interactions and taste-modulating effects of two milk proteins, beta-casein (beta-CN) and beta-lactoglobulin (beta-LG), with two representative bitter flavonoids, catechin (C) and naringin (NAR), in aqueous model systems. Fluorescence spectroscopy showed that both flavonoids produced concentration-dependent quenching of the milk proteins. beta-CN exhibited more pronounced interaction-related spectroscopic responses than beta-LG, which may be associated with its flexible and intrinsically disordered structure. Molecular docking predicted hydrogen-bonding and hydrophobic interactions in all four protein-flavonoid systems, with catechin and naringin interacting mainly with the internal hydrophobic cavity of beta-LG and surface-exposed regions of the beta-CN model. Circular dichroism and Fourier-transform infrared spectroscopy indicated ligand-dependent structural changes. For beta-LG, catechin slightly decreased the estimated antiparallel and total beta-sheet fractions, whereas naringin produced a modest increase. For beta-CN, catechin produced a more apparent redistribution between the estimated alpha-helix and beta-sheet fractions, while naringin caused comparatively smaller changes. Electronic tongue measurements showed that the addition of the milk proteins reduced the bitterness- and astringency-related sensor responses of catechin and naringin. Under the tested conditions, beta-CN produced greater attenuation of these responses than beta-LG, while the umami-related response remained comparatively high. These findings support the potential application of milk proteins as taste-modulating components in flavonoid-containing dairy formulations, although validation in real food matrices is required.",
+    "keywords": [
+      "electronic tongue",
+      "flavonoids",
+      "molecular docking",
+      "taste masking",
+      "beta-casein",
+      "beta-lactoglobulin"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Junyi",
+        "Qin, Xiaowei",
+        "Feng, Zhen",
+        "He, Shuzhen",
+        "Lou, Guanhua",
+        "Cheng, Wei",
+        "Liu, Fei",
+        "Gu, Chunhe"
+      ],
+      "short_names": [
+        "Zhang J",
+        "Qin X",
+        "Feng Z",
+        "He S",
+        "Lou G",
+        "Cheng W",
+        "Liu F",
+        "Gu C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8827-4409"
+      ],
+      "affiliations": [
+        "Key Laboratory of Dairy Science, Ministry of Education, College of Food Science, Northeast Agricultural University, 600 Changjiang Road, Harbin 150030, China.",
+        "Spice and Beverage Research Institute, Chinese Academy of Tropical Agricultural Sciences, Wanning 571533, China.",
+        "Spice and Beverage Research Institute, Chinese Academy of Tropical Agricultural Sciences, Wanning 571533, China.",
+        "Spice and Beverage Research Institute, Chinese Academy of Tropical Agricultural Sciences, Wanning 571533, China.",
+        "Key Laboratory of Dairy Science, Ministry of Education, College of Food Science, Northeast Agricultural University, 600 Changjiang Road, Harbin 150030, China.",
+        "Key Laboratory of Dairy Science, Ministry of Education, College of Food Science, Northeast Agricultural University, 600 Changjiang Road, Harbin 150030, China.",
+        "Key Laboratory of Dairy Science, Ministry of Education, College of Food Science, Northeast Agricultural University, 600 Changjiang Road, Harbin 150030, China.",
+        "Spice and Beverage Research Institute, Chinese Academy of Tropical Agricultural Sciences, Wanning 571533, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Junyi",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Dairy Science, Ministry of Education, College of Food Science, Northeast Agricultural University, 600 Changjiang Road, Harbin 150030, China."
+        ]
+      },
+      {
+        "full_name": "Qin, Xiaowei",
+        "short_name": "Qin X",
+        "identifiers": [],
+        "affiliations": [
+          "Spice and Beverage Research Institute, Chinese Academy of Tropical Agricultural Sciences, Wanning 571533, China."
+        ]
+      },
+      {
+        "full_name": "Feng, Zhen",
+        "short_name": "Feng Z",
+        "identifiers": [],
+        "affiliations": [
+          "Spice and Beverage Research Institute, Chinese Academy of Tropical Agricultural Sciences, Wanning 571533, China."
+        ]
+      },
+      {
+        "full_name": "He, Shuzhen",
+        "short_name": "He S",
+        "identifiers": [],
+        "affiliations": [
+          "Spice and Beverage Research Institute, Chinese Academy of Tropical Agricultural Sciences, Wanning 571533, China."
+        ]
+      },
+      {
+        "full_name": "Lou, Guanhua",
+        "short_name": "Lou G",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Dairy Science, Ministry of Education, College of Food Science, Northeast Agricultural University, 600 Changjiang Road, Harbin 150030, China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Wei",
+        "short_name": "Cheng W",
+        "identifiers": [],
+        "affiliations": [
+          "Key Laboratory of Dairy Science, Ministry of Education, College of Food Science, Northeast Agricultural University, 600 Changjiang Road, Harbin 150030, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Fei",
+        "short_name": "Liu F",
+        "identifiers": [
+          "0000-0001-8827-4409"
+        ],
+        "affiliations": [
+          "Key Laboratory of Dairy Science, Ministry of Education, College of Food Science, Northeast Agricultural University, 600 Changjiang Road, Harbin 150030, China."
+        ]
+      },
+      {
+        "full_name": "Gu, Chunhe",
+        "short_name": "Gu C",
+        "identifiers": [],
+        "affiliations": [
+          "Spice and Beverage Research Institute, Chinese Academy of Tropical Agricultural Sciences, Wanning 571533, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Foods (Basel, Switzerland)"
+    ],
+    "journal_abbrev": [
+      "Foods"
+    ],
+    "pub_date": "2026 Aug 17",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/27 05:35",
+    "fetched_at": "2026-09-18 06:01:22"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42650564",
+      "29580500",
+      "40888119",
+      "32829156",
+      "32194324",
+      "36648058",
+      "41485670",
+      "29753236",
+      "33152886",
+      "25214095",
+      "38345131",
+      "33608884",
+      "35525618",
+      "21605784",
+      "33132125",
+      "20655450",
+      "34180492",
+      "27451201",
+      "23249100",
+      "31181617",
+      "26924214",
+      "24093533",
+      "40509044",
+      "25402748",
+      "26038095",
+      "38657930",
+      "33648275",
+      "40790668",
+      "24161866",
+      "25003597",
+      "33503831",
+      "25351630",
+      "28751048",
+      "33025647",
+      "39987803",
+      "32558864",
+      "17235134",
+      "28317707",
+      "42517408",
+      "21943768",
+      "27979181",
+      "31000237",
+      "39877688",
+      "35217462",
+      "41349817",
+      "29275203",
+      "37107433",
+      "36710177",
+      "29413699",
+      "42664881",
+      "42155616",
+      "39442849",
+      "39089562",
+      "39946928",
+      "39599598",
+      "37978103",
+      "32426776",
+      "31000234",
+      "10629828",
+      "22118068",
+      "31326163",
+      "41129879",
+      "28279925",
+      "22686570",
+      "16899662",
+      "28624276",
+      "25771044",
+      "15675819",
+      "9241590",
+      "16357268",
+      "30772026",
+      "42562529",
+      "25725333",
+      "23527100",
+      "39614541",
+      "37138542",
+      "34576939",
+      "34749259",
+      "41061908",
+      "40447003",
+      "28764011",
+      "32389478",
+      "41738367",
+      "39179519",
+      "29339282",
+      "31003454",
+      "38310962",
+      "33663837",
+      "42116500",
+      "19233813",
+      "39799867",
+      "37107357",
+      "42629037",
+      "41185285",
+      "21398173",
+      "42653988",
+      "24984025",
+      "23660296",
+      "33486366",
+      "29974110"
+    ],
+    "review": [
+      "42650564",
+      "23660296"
+    ],
+    "pmc": [
+      "13512247"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=foods15162870",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42650564/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

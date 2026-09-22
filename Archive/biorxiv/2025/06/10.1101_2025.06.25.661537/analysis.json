@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.06.25.661537",
+  "title": "Protein Dynamics at Different Timescales Unlock Access to Hidden Post-Translational Modification Sites",
+  "authors": "Lang B; Streit JO; Kriwacki RW; Christodoulou J; Babu MM",
+  "journal": "bioRxiv",
+  "published_date": "2025-06-27",
+  "window": {
+    "start": "2025-06-23",
+    "end": "2025-06-29"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用AlphaFold结构预测和全原子MD模拟研究折叠蛋白中隐蔽翻译后修饰位点的动态暴露机制，虽非IDP对象，但MD揭示构象波动调控位点可及性的机制建模思路对无序蛋白互作研究有迁移启发。",
+  "abstract": "<h4>Summary</h4> Post-translational modifications (PTMs) alter the proteome in response to intra- and extracellular signals, providing fundamental information processing in development, homeostasis and disease 1–5 . Here, we used proteome-wide structure predictions to investigate the structural context of protein modification sites and found nearly a fifth to be buried within proteins 6 . These cryptic sites within folded domains showed evolutionary conservation across species, as well as significantly less variability within the human population. We also found significantly more modification sites to be affected by recurrent cancer mutations and disease variants, with some variants appearing to mimic the modified or unmodified state, supporting their functionality and disease relevance. To understand how these buried sites become modified, we studied 23 phosphorylation sites across seven proteins using all-atom molecular dynamics simulations. The simulations revealed a range of mechanisms spanning broad timescales, ranging from picosecond fluctuations to seconds for proline isomerisation-gated phosphorylation sites. Notably, some sites remained fully buried in the native structure. Some conformational states with exposed cryptic sites resembled structures of co-translational protein folding intermediates formed on the ribosome 7 , indicating an interplay between protein biogenesis, folding, modifications, and signalling. We propose more broadly that protein conformational fluctuations may serve as structure-specific regulatory mechanisms by kinetically burying or exposing the unmodified, and in some cases even modified, sidechains, thereby expanding the functional versatility of proteins and enabling signal transduction across diverse timescales.",
+  "abstract_zh": "<h4>摘要</h4> 翻译后修饰（PTMs）响应细胞内和细胞外信号改变蛋白质组，在发育、稳态和疾病中提供基本信息处理1–5。在此，我们利用蛋白质组范围内的结构预测来研究蛋白质修饰位点的结构背景，发现近五分之一的位点埋藏在蛋白质内部6。这些折叠结构域内的隐蔽位点显示出跨物种的进化保守性，以及人类群体内显著较低的变异性。我们还发现，更多的修饰位点受到复发性癌症突变和疾病变异的影响，其中一些变异似乎模拟了修饰或未修饰状态，支持其功能性和疾病相关性。为了理解这些埋藏位点如何被修饰，我们使用全原子分子动力学模拟研究了七种蛋白质中的23个磷酸化位点。模拟揭示了跨越广泛时间尺度的多种机制，从皮秒级波动到脯氨酸异构化门控磷酸化位点的秒级过程。值得注意的是，一些位点在天然结构中仍完全埋藏。某些暴露隐蔽位点的构象状态类似于核糖体上形成的共翻译蛋白质折叠中间体的结构7，表明蛋白质生物发生、折叠、修饰和信号传导之间存在相互作用。我们更广泛地提出，蛋白质构象波动可能通过动力学上埋藏或暴露未修饰（在某些情况下甚至修饰）的侧链，作为结构特异性调控机制，从而扩展蛋白质的功能多样性，并实现跨不同时间尺度的信号转导。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661537",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.06.25.661537",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.06.25.661537/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39890724",
+  "title": "Fluorescence Loss After Photoactivation (FLAPh): A Pulse-Chase Cellular Assay for Understanding Kinetics and Dynamics of Viral Inclusions.",
+  "authors": "Etibor, Temitope Akhigbe; Paixao, Tiago; Amorim, Maria Joao",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2025-02-01",
+  "window": {
+    "start": "2025-01-27",
+    "end": "2025-02-02"
+  },
+  "score": 4,
+  "one_liner_zh": "该文介绍一种用于测量流感病毒包涵体（具液滴性质的凝聚体）内分子动力学与物质交换的活细胞光激活脉冲追踪方法(FLAPh)，对象涉及病毒包涵体/凝聚体，但非典型IDP/IDR，且无AI或物理模拟方法，仅实验技术，对互作机制建模启发有限。",
+  "abstract": "Influenza A virus (IAV) relies on host cellular machinery for replication. Upon infection, the eight genomic segments, independently packed as viral ribonucleoproteins (vRNPs), are released into the cytosol before nuclear import for viral replication. After nucleocytoplasmic transport, the resulting progeny vRNPs reach the cytosol, accumulating in highly mobile and dynamic viral inclusions that display liquid properties. Being sites postulated to support IAV genome assembly, the biophysical properties of IAV inclusions may be critical for function. In agreement, imposing liquid-to-solid transitions was demonstrated to impact viral replication negatively. Therefore, screening for host factors or compounds able to alter the material properties may provide the molecular basis for how influenza genomic complex forms as well as identify novel antivirals. Conventional techniques employed to investigate biomolecular condensates' material properties include fluorescence correlation spectroscopy, raster image correlation spectroscopy, single molecule or microrheology particle tracking, and Fluorescence Recovery After Photobleaching (FRAP). These approaches allow measuring molecular dynamics in systems that do not move very much. However, the analysis of highly mobile intracellular condensates, such as IAV inclusions, poses significant challenges as these structures not only constantly move within the cell but also exchange material, fusing, and dividing, rendering the quantitation of internal rearrangements and diffusion coefficients of molecules within condensates inaccurate. As an alternative, we opted for measuring the kinetics and the exchange of material between IAV inclusions using the Fluorescence Loss After Photoactivation (FLAPh) technique. It involves pulse photoactivation of individual or pools of viral inclusions in the cell, and chasing over time in photoactivated and non-photoactivated regions. This approach is suitable for quantifying the movement and spatial distribution of components within inclusions over time, enabling the determination of both the distance and speed from a specific cellular location. As a result, this method allows the quantification of decay profiles, half-lives, decay constant rate, and mobile and immobile fractions in viral inclusions. It, therefore, enables high throughput screenings for compounds or host factors that affect this dynamism and indirectly allows assessing the material properties of IAV inclusions.",
+  "abstract_zh": "甲型流感病毒（Influenza A virus, IAV）依赖宿主细胞机制进行复制。感染后，八个基因组片段独立包装为病毒核糖核蛋白复合体（viral ribonucleoproteins, vRNPs），在进入细胞核进行病毒复制前被释放到细胞质中。经过核质转运后，产生的子代vRNPs到达细胞质，聚集在高度移动且动态的病毒包涵体中，这些包涵体表现出液体特性。作为推测支持IAV基因组组装的位点，IAV包涵体的生物物理特性可能对其功能至关重要。与此一致，研究表明诱导液-固转变会对病毒复制产生负面影响。因此，筛选能够改变物质特性的宿主因子或化合物，可能为流感基因组复合体的形成提供分子基础，并识别新型抗病毒药物。用于研究生物分子凝聚体物质特性的常规技术包括荧光相关光谱（fluorescence correlation spectroscopy）、光栅图像相关光谱（raster image correlation spectroscopy）、单分子或微流变粒子追踪（single molecule or microrheology particle tracking）以及光漂白后荧光恢复（Fluorescence Recovery After Photobleaching, FRAP）。这些方法能够测量在移动不显著的系统中的分子动力学。然而，分析高度移动的细胞内凝聚体（如IAV包涵体）面临重大挑战，因为这些结构不仅在细胞内持续移动，还交换物质、融合和分裂，导致凝聚体内部分子重排和扩散系数的定量不准确。作为替代方案，我们选择使用光激活后荧光损失（Fluorescence Loss After Photoactivation, FLAPh）技术来测量IAV包涵体之间的动力学和物质交换。该方法涉及对细胞中单个或一组病毒包涵体进行脉冲光激活，并在光激活和非光激活区域随时间追踪。这种方法适用于量化包涵体内组分随时间的移动和空间分布，从而能够确定从特定细胞位置的距离和速度。因此，该方法能够量化病毒包涵体中的衰减曲线、半衰期、衰减常数速率以及移动和固定部分。这使其能够进行高通量筛选，以识别影响这种动态性的化合物或宿主因子，并间接评估IAV包涵体的物质特性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39890724/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39890724/",
+  "paper_page_path": "papers/pubmed/39890724/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38247186",
+  "title": "Protein Binding Leads to Reduced Stability and Solvated Disorder in the Polystyrene Nanoparticle Corona.",
+  "authors": "Somarathne, Radha P; Amarasekara, Dhanush L; Kariyawasam, Chathuri S; Robertson, Harley A; Mayatt, Railey; Gwaltney, Steven R; Fitzkee, Nicholas C",
+  "journal": "Small (Weinheim an der Bergstrasse, Germany)",
+  "published_date": "2024-01-22",
+  "window": {
+    "start": "2024-01-22",
+    "end": "2024-01-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过实验与模型结合，揭示蛋白质在聚苯乙烯纳米颗粒冠层中结合后呈现高度溶剂化的无序构象，并随颗粒尺寸变化影响结合亲和力与稳定性，虽对象为纳米颗粒冠层而非典型IDP-PPI，但其无序蛋白构象与结合机制建模思路对IDR介导互作研究有可迁移启发。",
+  "abstract": "Understanding the conformation of proteins in the nanoparticle corona has important implications in how organisms respond to nanoparticle-based drugs. These proteins coat the nanoparticle surface, and their properties will influence the nanoparticle's interaction with cell targets and the immune system. While some coronas are thought to be disordered, two key unanswered questions are the degree of disorder and solvent accessibility. Here, a model is developed for protein corona disorder in polystyrene nanoparticles of varying size. For two different proteins, it is found that binding affinity decreases as nanoparticle size increases. The stoichiometry of binding, along with changes in the hydrodynamic size, supports a highly solvated, disordered protein corona anchored at a small number of attachment sites. The scaling of the stoichiometry versus nanoparticle size is consistent with disordered polymer dimensions. Moreover, it is found that proteins are destabilized less in the presence of larger nanoparticles, and hydrophobic exposure decreases at lower curvatures. The observations hold for proteins on flat polystyrene surfaces, which have the lowest hydrophobic exposure. The model provides an explanation for previous observations of increased amyloid fibrillation rates in the presence of larger nanoparticles, and it may rationalize how cell receptors can recognize protein disorder in therapeutic nanoparticles.",
+  "abstract_zh": "理解纳米颗粒冠层中蛋白质的构象对于生物体如何响应基于纳米颗粒的药物具有重要意义。这些蛋白质包覆在纳米颗粒表面，其性质将影响纳米颗粒与细胞靶标及免疫系统的相互作用。尽管一些冠层被认为是无序的，但两个关键未解问题是无序程度和溶剂可及性。在此，针对不同尺寸的聚苯乙烯纳米颗粒，开发了一个蛋白质冠层无序模型。对于两种不同的蛋白质，发现结合亲和力随纳米颗粒尺寸增大而降低。结合化学计量比及流体动力学尺寸的变化，支持一个高度溶剂化、无序的蛋白质冠层，其锚定在少数附着位点上。化学计量比与纳米颗粒尺寸的标度关系与无序聚合物尺寸一致。此外，发现蛋白质在较大纳米颗粒存在下稳定性降低较少，且疏水暴露在较低曲率下减少。这些观察结果在平坦聚苯乙烯表面上也成立，该表面具有最低的疏水暴露。该模型为先前观察到的较大纳米颗粒存在下淀粉样纤维化速率增加提供了解释，并可能合理化细胞受体如何识别治疗性纳米颗粒中的蛋白质无序性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38247186/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38247186/",
+  "paper_page_path": "papers/pubmed/38247186/index.html"
+}

@@ -1,0 +1,434 @@
+{
+  "identity": {
+    "pmid": "34163874",
+    "doi": "10.1039/d0sc04482b",
+    "title": "Conformational editing of intrinsically disordered protein by alpha-methylation."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) constitute a large portion of \"Dark Proteome\" - difficult to characterize or yet to be discovered protein structures. Here we used conformationally constrained alpha-methylated amino acids to bias the conformational ensemble in the free unstructured activation domain of transcriptional coactivator ACTR. Different sites and patterns of substitutions were enabled by chemical protein synthesis and led to distinct populations of alpha-helices. A specific substitution pattern resulted in a substantially higher binding affinity to nuclear coactivator binding domain (NCBD) of CREB-binding protein, a natural binding partner of ACTR. The first X-ray structure of the modified ACTR domain - NCBD complex visualized a unique conformation of ACTR and confirmed that the key alpha-methylated amino acids are localized within alpha-helices in the bound state. This study demonstrates a strategy for characterization of individual conformational states of IDPs.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Bauer, Valentin",
+        "Schmidtgall, Boris",
+        "Gogl, Gergo",
+        "Dolenc, Jozica",
+        "Osz, Judit",
+        "Nomine, Yves",
+        "Kostmann, Camille",
+        "Cousido-Siah, Alexandra",
+        "Mitschler, Andre",
+        "Rochel, Natacha",
+        "Trave, Gilles",
+        "Kieffer, Bruno",
+        "Torbeev, Vladimir"
+      ],
+      "short_names": [
+        "Bauer V",
+        "Schmidtgall B",
+        "Gogl G",
+        "Dolenc J",
+        "Osz J",
+        "Nomine Y",
+        "Kostmann C",
+        "Cousido-Siah A",
+        "Mitschler A",
+        "Rochel N",
+        "Trave G",
+        "Kieffer B",
+        "Torbeev V"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0825-8973",
+        "ORCID: 0000-0002-1919-2837",
+        "ORCID: 0000-0002-8597-3711",
+        "ORCID: 0000-0001-5892-2700",
+        "ORCID: 0000-0002-2912-116X",
+        "ORCID: 0000-0002-2881-4909",
+        "ORCID: 0000-0002-3051-1560",
+        "ORCID: 0000-0002-3573-5889",
+        "ORCID: 0000-0002-4160-4121",
+        "ORCID: 0000-0002-2033-4679",
+        "ORCID: 0000-0002-7865-1044"
+      ],
+      "affiliations": [
+        "Institut de Science et d'Ingenierie Supramoleculaires (ISIS), International Center for Frontier Research in Chemistry (icFRC), University of Strasbourg, CNRS, UMR 7006 Strasbourg France torbeev@unistra.fr.",
+        "Institut de Science et d'Ingenierie Supramoleculaires (ISIS), International Center for Frontier Research in Chemistry (icFRC), University of Strasbourg, CNRS, UMR 7006 Strasbourg France torbeev@unistra.fr.",
+        "Department of Integrated Structural Biology, Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+        "Equipe Labellisee Ligue contre le cancer France.",
+        "Chemistry|Biology|Pharmacy Information Center, ETH Zurich Zurich Switzerland.",
+        "Department of Integrated Structural Biology, Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+        "Department of Integrated Structural Biology, Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+        "Equipe Labellisee Ligue contre le cancer France.",
+        "Department of Integrated Structural Biology, Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+        "Equipe Labellisee Ligue contre le cancer France.",
+        "Department of Integrated Structural Biology, Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+        "Equipe Labellisee Ligue contre le cancer France.",
+        "Department of Integrated Structural Biology, Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+        "Equipe Labellisee Ligue contre le cancer France.",
+        "Department of Integrated Structural Biology, Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+        "Department of Integrated Structural Biology, Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+        "Equipe Labellisee Ligue contre le cancer France.",
+        "Department of Integrated Structural Biology, Institut de Genetique et de Biologie Moleculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+        "Institut de Science et d'Ingenierie Supramoleculaires (ISIS), International Center for Frontier Research in Chemistry (icFRC), University of Strasbourg, CNRS, UMR 7006 Strasbourg France torbeev@unistra.fr."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Bauer, Valentin",
+        "short_name": "Bauer V",
+        "identifiers": [
+          "0000-0003-0825-8973"
+        ],
+        "affiliations": [
+          "Institut de Science et d'Ingénierie Supramoléculaires (ISIS), International Center for Frontier Research in Chemistry (icFRC), University of Strasbourg, CNRS, UMR 7006 Strasbourg France torbeev@unistra.fr."
+        ]
+      },
+      {
+        "full_name": "Schmidtgall, Boris",
+        "short_name": "Schmidtgall B",
+        "identifiers": [
+          "0000-0002-1919-2837"
+        ],
+        "affiliations": [
+          "Institut de Science et d'Ingénierie Supramoléculaires (ISIS), International Center for Frontier Research in Chemistry (icFRC), University of Strasbourg, CNRS, UMR 7006 Strasbourg France torbeev@unistra.fr."
+        ]
+      },
+      {
+        "full_name": "Gógl, Gergő",
+        "short_name": "Gógl G",
+        "identifiers": [
+          "0000-0002-8597-3711"
+        ],
+        "affiliations": [
+          "Department of Integrated Structural Biology, Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+          "Équipe Labellisée Ligue contre le cancer France."
+        ]
+      },
+      {
+        "full_name": "Dolenc, Jozica",
+        "short_name": "Dolenc J",
+        "identifiers": [
+          "0000-0001-5892-2700"
+        ],
+        "affiliations": [
+          "Chemistry|Biology|Pharmacy Information Center, ETH Zurich Zurich Switzerland."
+        ]
+      },
+      {
+        "full_name": "Osz, Judit",
+        "short_name": "Osz J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrated Structural Biology, Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France."
+        ]
+      },
+      {
+        "full_name": "Nominé, Yves",
+        "short_name": "Nominé Y",
+        "identifiers": [
+          "0000-0002-2912-116X"
+        ],
+        "affiliations": [
+          "Department of Integrated Structural Biology, Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+          "Équipe Labellisée Ligue contre le cancer France."
+        ]
+      },
+      {
+        "full_name": "Kostmann, Camille",
+        "short_name": "Kostmann C",
+        "identifiers": [
+          "0000-0002-2881-4909"
+        ],
+        "affiliations": [
+          "Department of Integrated Structural Biology, Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+          "Équipe Labellisée Ligue contre le cancer France."
+        ]
+      },
+      {
+        "full_name": "Cousido-Siah, Alexandra",
+        "short_name": "Cousido-Siah A",
+        "identifiers": [
+          "0000-0002-3051-1560"
+        ],
+        "affiliations": [
+          "Department of Integrated Structural Biology, Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+          "Équipe Labellisée Ligue contre le cancer France."
+        ]
+      },
+      {
+        "full_name": "Mitschler, André",
+        "short_name": "Mitschler A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Integrated Structural Biology, Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+          "Équipe Labellisée Ligue contre le cancer France."
+        ]
+      },
+      {
+        "full_name": "Rochel, Natacha",
+        "short_name": "Rochel N",
+        "identifiers": [
+          "0000-0002-3573-5889"
+        ],
+        "affiliations": [
+          "Department of Integrated Structural Biology, Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France."
+        ]
+      },
+      {
+        "full_name": "Travé, Gilles",
+        "short_name": "Travé G",
+        "identifiers": [
+          "0000-0002-4160-4121"
+        ],
+        "affiliations": [
+          "Department of Integrated Structural Biology, Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France.",
+          "Équipe Labellisée Ligue contre le cancer France."
+        ]
+      },
+      {
+        "full_name": "Kieffer, Bruno",
+        "short_name": "Kieffer B",
+        "identifiers": [
+          "0000-0002-2033-4679"
+        ],
+        "affiliations": [
+          "Department of Integrated Structural Biology, Institut de Génétique et de Biologie Moléculaire et Cellulaire (IGBMC), INSERM (U1258), University of Strasbourg, CNRS, UMR 7104 Illkirch France."
+        ]
+      },
+      {
+        "full_name": "Torbeev, Vladimir",
+        "short_name": "Torbeev V",
+        "identifiers": [
+          "0000-0002-7865-1044"
+        ],
+        "affiliations": [
+          "Institut de Science et d'Ingénierie Supramoléculaires (ISIS), International Center for Frontier Research in Chemistry (icFRC), University of Strasbourg, CNRS, UMR 7006 Strasbourg France torbeev@unistra.fr."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Chemical science"
+    ],
+    "journal_abbrev": [
+      "Chem Sci"
+    ],
+    "pub_date": "2020 Nov 4",
+    "pub_year": "2020",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/06/25 06:00",
+    "fetched_at": "2026-09-20 03:54:49"
+  },
+  "links": {
+    "cites": [
+      "42255143",
+      "41773780",
+      "41450753",
+      "40105797",
+      "39791987",
+      "38966365",
+      "38179541",
+      "36320921"
+    ],
+    "refs": [
+      "32029906",
+      "30397651",
+      "30092612",
+      "30025258",
+      "29466338",
+      "28980641",
+      "28970875",
+      "28953875",
+      "28643779",
+      "28604862",
+      "28225081",
+      "27934019",
+      "27654711",
+      "27387657",
+      "26851278",
+      "26205791",
+      "25531225",
+      "25363510",
+      "25313044",
+      "24930020",
+      "24773235",
+      "24606139",
+      "24601557",
+      "24449148",
+      "23799450",
+      "23393263",
+      "23269364",
+      "22496841",
+      "22399315",
+      "21128621",
+      "20889377",
+      "20616042",
+      "19701241",
+      "19008886",
+      "18177052",
+      "16734424",
+      "16540468",
+      "16446709",
+      "16218947",
+      "15957004",
+      "14691235",
+      "12516863",
+      "11823864",
+      "11279224",
+      "10199661",
+      "7731949",
+      "2237415",
+      "1569552"
+    ],
+    "similar": [
+      "34163874",
+      "22253588",
+      "21766125",
+      "23373423",
+      "20616042",
+      "30528464",
+      "28604862",
+      "24811666",
+      "30514761",
+      "22829760",
+      "24449148",
+      "26153298",
+      "27752679",
+      "23327569",
+      "26195786",
+      "23799450",
+      "35658083",
+      "22506277",
+      "37607621",
+      "18177052",
+      "14691235",
+      "21894929",
+      "30397651",
+      "28425679",
+      "29197511",
+      "29990433",
+      "27844185",
+      "22174264",
+      "40147456",
+      "28780862",
+      "33454008",
+      "20961098",
+      "33310020",
+      "27542287",
+      "35354917",
+      "14594809",
+      "27699893",
+      "39074869",
+      "37379390",
+      "40095314",
+      "28111343",
+      "30127362",
+      "23132854",
+      "23794453",
+      "22915588",
+      "42129207",
+      "30173887",
+      "11838236",
+      "24187139",
+      "25207671",
+      "29614221",
+      "37709541",
+      "27111521",
+      "41648556",
+      "29621630",
+      "9558319",
+      "32323533",
+      "31441158",
+      "39553926",
+      "37936402",
+      "35034725",
+      "29276882",
+      "24446368",
+      "31226791",
+      "36331868",
+      "33030907",
+      "41309611",
+      "26794929",
+      "41174305",
+      "33984364",
+      "32364648",
+      "34545666",
+      "33382616",
+      "20556825",
+      "26742101",
+      "24739176",
+      "37153862",
+      "30527137",
+      "28734076",
+      "30420606",
+      "41401139",
+      "32696383",
+      "33361159",
+      "22901047",
+      "38747396",
+      "23026051",
+      "30124042",
+      "31809054",
+      "22125611",
+      "31248328",
+      "15454423",
+      "26584388",
+      "31297688",
+      "24871565",
+      "15337744",
+      "21898648",
+      "22500763",
+      "42093278",
+      "24043820",
+      "31391291"
+    ],
+    "review": [
+      "34163874",
+      "23794453",
+      "11838236",
+      "31441158",
+      "34545666",
+      "30527137"
+    ],
+    "pmc": [
+      "8178997"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34163874/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1039/d0sc04482b",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34163874",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41825093",
+  "title": "Functions and regulated material states of cytoskeletal condensates.",
+  "authors": "Yaguchi, Kan; Woodruff, Jeffrey B",
+  "journal": "Current opinion in cell biology",
+  "published_date": "2026-03-14",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 6,
+  "one_liner_zh": "综述细胞骨架相关凝聚体的功能与物质状态调控，涉及IDR/相分离对象及凝聚体-纤维互作，但缺乏AI/物理模拟方法贡献，机制深度有限。",
+  "abstract": "Numerous biomolecular condensates associate with the cytoskeleton. Their membrane-less interface enables rapid collection of specific cytoskeleton components and polymerases to modulate cytoskeleton dynamics. To function properly, these cytoskeletal condensates must achieve seemingly contradictory properties: they must have an internally fluid environment to concentrate and polymerize cytoskeletal proteins, while also being rigid enough to resist fiber-generated forces. While many condensing proteins have been identified, very little is known about the regulatory factors that influence their functional molecular dynamics and material states. This review covers recently identified key factors that alter the physical characteristics of cytoskeletal condensates and highlights the influence that newly nucleated cytoskeletal fibers, in turn, have on the condensates.",
+  "abstract_zh": "众多生物分子凝聚体与细胞骨架相关联。其无膜界面能够快速收集特定的细胞骨架组分和聚合酶，以调节细胞骨架动力学。为了正常发挥功能，这些细胞骨架凝聚体必须实现看似矛盾的特性：它们内部需具备流体环境以浓缩和聚合细胞骨架蛋白，同时又要足够刚硬以抵抗纤维产生的力。尽管已鉴定出许多凝聚蛋白，但对其功能分子动力学和物质状态产生影响的调控因子知之甚少。本综述涵盖了近期发现的改变细胞骨架凝聚体物理特性的关键因子，并强调了新成核的细胞骨架纤维反过来对凝聚体产生的影响。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41825093/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41825093/",
+  "paper_page_path": "papers/pubmed/41825093/index.html"
+}

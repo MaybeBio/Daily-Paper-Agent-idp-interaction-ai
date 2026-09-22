@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "34189489",
+    "doi": "10.1016/j.crviro.2021.100007",
+    "title": "SARS-CoV-2 NSP1 C-terminal (residues 131-180) is an intrinsically disordered region in isolation."
+  },
+  "content": {
+    "abstract": "The NSP1- C terminal structure in complex with ribosome using cryo-EM is available now, and the N-terminal region structure in isolation is also deciphered in literature. However, as a reductionist approach, the conformation of NSP1- C terminal region (NSP1-CTR; amino acids 131-180) has not been studied in isolation. We found that NSP1-CTR conformation is disordered in an aqueous solution. Further, we examined the conformational propensity towards alpha-helical structure using trifluoroethanol, we observed induction of helical structure conformation using CD spectroscopy. Additionally, in SDS, NSP1-CTR shows a conformational change from disordered to ordered, possibly gaining alpha-helix in part. But in the presence of neutral lipid DOPC, a slight change in conformation is observed, which implies the possible role of hydrophobic interaction and electrostatic interaction on the conformational changes of NSP1. Fluorescence-based studies have shown a blue shift and fluorescence quenching in the presence of SDS, TFE, and lipid vesicles. In agreement with these results, fluorescence lifetime and fluorescence anisotropy decay suggest a change in conformational dynamics. The zeta potential studies further validated that the conformational dynamics are primarily because of hydrophobic interaction. These experimental studies were complemented through Molecular Dynamics (MD) simulations, which have shown a good correlation and testifies our experiments. We believe that the intrinsically disordered nature of the NSP1-CTR will have implications for enhanced molecular recognition feature properties of this IDR, which may add disorder to order transition and disorder-based binding promiscuity with its interacting proteins.",
+    "keywords": [
+      "Conformational dynamics",
+      "Hydrophobic interaction",
+      "NSP1",
+      "SARS-CoV-2"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Kumar, Amit",
+        "Kumar, Ankur",
+        "Kumar, Prateek",
+        "Garg, Neha",
+        "Giri, Rajanish"
+      ],
+      "short_names": [
+        "Kumar A",
+        "Kumar A",
+        "Kumar P",
+        "Garg N",
+        "Giri R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India.",
+        "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India.",
+        "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India.",
+        "Department of Medicinal Chemistry, Faculty of Ayurveda, Institute of Medical Sciences, Banaras Hindu University, Varanasi, Uttar Pradesh, 221005, India.",
+        "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Kumar, Amit",
+        "short_name": "Kumar A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Ankur",
+        "short_name": "Kumar A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India."
+        ]
+      },
+      {
+        "full_name": "Kumar, Prateek",
+        "short_name": "Kumar P",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India."
+        ]
+      },
+      {
+        "full_name": "Garg, Neha",
+        "short_name": "Garg N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicinal Chemistry, Faculty of Ayurveda, Institute of Medical Sciences, Banaras Hindu University, Varanasi, Uttar Pradesh, 221005, India."
+        ]
+      },
+      {
+        "full_name": "Giri, Rajanish",
+        "short_name": "Giri R",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Sciences, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh, 175005, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Current research in virological science"
+    ],
+    "journal_abbrev": [
+      "Curr Res Virol Sci"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/07/01 06:00",
+    "fetched_at": "2026-09-20 04:02:18"
+  },
+  "links": {
+    "cites": [
+      "40568634",
+      "39584680",
+      "38538957",
+      "38375361",
+      "38200146",
+      "36293303",
+      "35897696",
+      "35434785",
+      "35429230",
+      "35425590",
+      "35146445",
+      "35045069",
+      "34864296",
+      "34659188",
+      "34648928",
+      "34119626",
+      "33933885",
+      "33268501"
+    ],
+    "refs": [
+      "35539973",
+      "33319167",
+      "33234675",
+      "33082564",
+      "33080218",
+      "32871423",
+      "32783888",
+      "32733001",
+      "32712910",
+      "32680882",
+      "32592801",
+      "32473054",
+      "32455657",
+      "32443810",
+      "32184088",
+      "32081966",
+      "32029866",
+      "31739058",
+      "31350335",
+      "31251384",
+      "29080786",
+      "28226222",
+      "27867910",
+      "27558720",
+      "26786280",
+      "26588162",
+      "25883141",
+      "25514413",
+      "25432065",
+      "25412346",
+      "24753318",
+      "24706910",
+      "22702725",
+      "22581768",
+      "22174690",
+      "21183271",
+      "20739308",
+      "20556825",
+      "19921933",
+      "19838190",
+      "19768526",
+      "19264783",
+      "19157855",
+      "18351591",
+      "17892488",
+      "17263570",
+      "17202208",
+      "16187360",
+      "16156658",
+      "15615727",
+      "15264254",
+      "15019783",
+      "12071955",
+      "11943199",
+      "11590012",
+      "10550212",
+      "9697205",
+      "8919053"
+    ],
+    "similar": [
+      "34189489",
+      "34864296",
+      "35425590",
+      "38722808",
+      "34119626",
+      "36793215",
+      "35045069",
+      "9136885",
+      "34648928",
+      "35658408",
+      "32592801",
+      "32184088",
+      "33135884",
+      "11933094",
+      "25816771",
+      "33933885",
+      "23912807",
+      "33030907",
+      "35434785",
+      "36847528",
+      "32867854",
+      "11853678",
+      "9273896",
+      "22304430",
+      "38392672",
+      "36610391",
+      "30767740",
+      "32908316",
+      "34749522",
+      "29550429",
+      "16170802",
+      "28235466",
+      "27288992",
+      "34624207",
+      "32783888",
+      "29500415",
+      "28355271",
+      "12829502",
+      "37415298",
+      "34132580",
+      "7779806",
+      "37733586",
+      "9745898",
+      "24086265",
+      "33234675",
+      "37503833",
+      "27844185",
+      "31034208",
+      "8722230",
+      "20346955",
+      "25207671",
+      "26030674",
+      "9298973",
+      "15248758",
+      "7515684",
+      "10211825",
+      "8387821",
+      "11078886",
+      "22506277",
+      "18004752",
+      "10748149",
+      "37198000",
+      "33479166",
+      "1489918",
+      "20936829",
+      "33173873",
+      "34719824",
+      "37333070",
+      "36179370",
+      "36037701",
+      "26195786",
+      "36239696",
+      "32573229",
+      "35323109",
+      "27555285",
+      "30823702",
+      "24383916",
+      "21692466",
+      "11241221",
+      "35724498",
+      "12146960",
+      "34851631",
+      "7771774",
+      "8204614",
+      "37709541",
+      "22294343",
+      "34793288",
+      "7766824",
+      "27179590",
+      "23607785",
+      "34986640",
+      "8791162",
+      "28597880",
+      "34121768",
+      "36659992"
+    ],
+    "review": [
+      "34189489",
+      "30767740"
+    ],
+    "pmc": [
+      "8020630"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2666-478X(21)00001-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34189489/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34189489",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-438",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

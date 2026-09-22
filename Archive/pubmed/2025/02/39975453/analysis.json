@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39975453",
+  "title": "Condensate Size Control by Net Charge.",
+  "authors": "Luo, Chengjie; Hess, Nathaniel; Aierken, Dilimulati; Qiang, Yicheng; Joseph, Jerelle A; Zwicker, David",
+  "journal": "ArXiv",
+  "published_date": "2025-02-20",
+  "window": {
+    "start": "2025-02-17",
+    "end": "2025-02-23"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过分子动力学模拟和场理论，研究净电荷介导的长程排斥如何调控生物分子凝聚体的尺寸，虽未直接聚焦特定无序蛋白的PPI，但为IDR介导的相分离互作机制建模提供了可迁移的物理框架。",
+  "abstract": "Biomolecular condensates are complex droplets comprising diverse molecules that interact using various mechanisms. Condensation is often driven by short-ranged attraction, but net charges can also mediate long-ranged repulsion. Using molecular dynamics simulations and an equilibrium field theory, we show that such opposing interactions can suppress coarsening so that many droplets of equal size coexist at equilibrium. This size control depends strongly on the charge asymmetry between constituents, while the strength of the short-ranged attractions has a weak influence. Essentially, droplets expel ions, so they cannot screen electrostatics effectively, implying droplets acquire a net charge and cannot grow indefinitely. Our work reveals how electrostatic effects control droplet size, which is relevant for understanding biomolecular condensates and creating synthetic patterns in chemical engineering.",
+  "abstract_zh": "生物分子凝聚体是由多种分子组成的复杂液滴，这些分子通过不同机制相互作用。凝聚通常由短程吸引驱动，但净电荷也可能介导长程排斥。利用分子动力学模拟和平衡场论，我们表明这种对立的相互作用可以抑制粗化，使得许多等尺寸的液滴在平衡状态下共存。这种尺寸控制强烈依赖于组分间的电荷不对称性，而短程吸引的强度影响较弱。本质上，液滴排斥离子，因此无法有效屏蔽静电作用，这意味着液滴获得净电荷且不能无限增长。我们的工作揭示了静电效应如何控制液滴尺寸，这对于理解生物分子凝聚体以及在化学工程中创造合成图案具有重要意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39975453/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39975453/",
+  "paper_page_path": "papers/pubmed/39975453/index.html"
+}

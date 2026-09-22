@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the supplied abstract
+- **Shared manuscript claim summary** The authors report a joint computational and structural mass spectrometry platform to interrogate intrinsically disordered regions (IDPRs) in the cyanobacterial phycobilisome (PBS), specifically the PB-loop in the phycocyanobilin (PB) domain of ApcE. They claim that AlphaFold-generated models, justified in two rounds by cross-linking mass spectrometry data, reveal a full-length PB-loop structure free of spatial conflicts, with close associations to binding partners including ApcG, and discuss the PB-loop region in the context of photosystem II (PSII) binding and excitation energy transfer regulation.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, structural models, mass spectrometry data, cross-link identifications, validation metrics, and any experimental details
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting application of AlphaFold combined with structural mass spectrometry to address a challenging biological question regarding intrinsically disordered regions in a large pigment-protein complex. However, the evidence base is limited to the abstract, and the claims of structural determination and functional relevance cannot be adequately evaluated without access to the underlying data and methodological details. The approach is timely, but the current presentation does not establish the robustness of the two-round justification strategy or the validity of the final structural model.
+- **Who would be interested in the results, and why** Researchers in structural biology, particularly those studying membrane-associated protein complexes and intrinsically disordered proteins, would be interested. The work also appeals to the photosynthesis community, as it addresses the interface between light-harvesting antennae and reaction centers. Methodologists developing hybrid approaches combining computational prediction with mass spectrometry may find the platform relevant.
+- **Major strengths** The abstract addresses a significant gap in understanding IDPRs in photosynthetic complexes, which are typically refractory to conventional structural methods. The two-round progressive justification strategy is a logical and potentially rigorous framework for integrating in silico models with experimental cross-linking data. The focus on a biologically important system, the PBS, and its interaction with PSII, adds relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the AlphaFold-generated PB domain structure was "justified" and that the final ligand-receptor complex was "subjected to a second-round justification" using cross-links, implying a validated structural model.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not specify the criteria for "justification" in either round. It is unclear whether the cross-linking data were used to filter, refine, or merely validate the models, and what thresholds or statistical measures were applied to deem the models acceptable. Without this information, the claim of a justified structure is not assessable.
+  - **Why it matters** The core novelty of the platform rests on the rigor of the two-round justification. If the criteria are subjective or insufficiently stringent, the resulting structural model may be overinterpreted, undermining the central conclusion about the PB-loop conformation and its interactions.
+  - **Resolution test** The authors must provide explicit criteria for model acceptance in each round, including quantitative metrics (e.g., cross-link satisfaction rates, spatial violation thresholds, or scoring functions) and demonstrate that the final model is uniquely supported by the data rather than merely consistent with it.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that the full-length PB-loop structure is "free from any spatial conflicts against the other subunits in PBS."
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No details are provided on how spatial conflicts were assessed, such as the resolution of the PBS context model, the treatment of conformational flexibility, or the criteria for defining a conflict (e.g., steric clashes, van der Waals overlaps). The absence of this information makes the claim unverifiable.
+  - **Why it matters** The absence of spatial conflicts is a key structural claim that supports the plausibility of the modeled PB-loop. If the assessment is incomplete or based on a low-resolution context, the claim may be misleading.
+  - **Resolution test** The authors should describe the method for conflict detection, including the structural model of the PBS used, the clash criteria, and any flexibility considerations, and provide quantitative results showing no significant conflicts.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The abstract states that the PB-loop region involved in PSII binding is discussed "in the context of excitation energy transfer regulation," implying a functional role.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract does not provide any experimental or computational evidence linking the PB-loop structure to PSII binding or energy transfer regulation. The discussion is mentioned but not substantiated with data, such as binding assays, mutagenesis, or functional measurements.
+  - **Why it matters** The functional relevance of the PB-loop is a major motivation for the study. Without evidence, the claim remains speculative and does not advance understanding of the regulatory mechanism.
+  - **Resolution test** The authors should either provide direct experimental evidence for the PB-loop-PSII interaction and its effect on energy transfer, or clearly frame this as a hypothesis with supporting circumstantial evidence, rather than a conclusion.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract clarity
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract uses technical terms such as "PB-loop," "PB domain," and "ApcG" without sufficient context for readers outside the photosynthesis or structural biology fields.
+  - **Required correction** Provide brief definitions or contextual descriptions for these terms to improve accessibility.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methodological description
+  - **Evidence pointer** Abstract text
+  - **Issue** The phrase "two-round progressive justifications" is vague and does not convey the specific nature of each round or how they differ.
+  - **Required correction** Clarify the distinct purpose and outcome of each round, such as model refinement versus complex validation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Broader implications
+  - **Evidence pointer** Abstract text
+  - **Issue** The final sentence calls attention to the "interrogatable interface" but does not specify what new questions this enables or how the platform could be generalized.
+  - **Required correction** Expand on the broader applicability of the platform to other IDPR-containing complexes and the specific hypotheses it enables.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking. The lack of explicit validation criteria, conflict assessment details, and functional evidence prevents the structural and functional claims from being established.
+- **Assessment against Nature-style criteria** 
+  - Originality: The combination of AlphaFold with cross-linking mass spectrometry for IDPR interrogation is not entirely novel, but its application to the PBS system is a distinctive contribution. The originality is moderate and depends on the methodological rigor.
+  - Scientific importance: The study addresses a relevant problem in photosynthesis and IDPR biology, but the importance is not fully demonstrated without functional evidence linking structure to regulation.
+  - Interdisciplinary readership: The work bridges structural biology, computational biology, and photosynthesis, which could attract a broad audience, but the abstract is too specialized to engage nonspecialists effectively.
+  - Technical soundness: Not assessable from the abstract alone; the blocking concerns indicate that the technical foundation is not yet established.
+  - Readability for nonspecialists: The abstract is dense and assumes significant background knowledge, limiting its accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising approach, but the lack of methodological detail and functional validation means the core claims cannot be evaluated. I would be supportive if the technical concerns are resolved with full data and explicit criteria.
+
+## Risk / unsupported claims
+- The claim of a "justified" AlphaFold model is unsupported without defined criteria.
+- The claim of a PB-loop structure "free from any spatial conflicts" is unsupported without conflict assessment details.
+- The claim of PB-loop involvement in PSII binding and energy transfer regulation is unsupported without experimental evidence.
+- The general applicability of the platform to other IDPR-containing complexes is not assessable from the abstract.

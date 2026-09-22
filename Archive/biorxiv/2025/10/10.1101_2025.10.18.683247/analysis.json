@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.18.683247",
+  "title": "The tryptophan-binding pockets of Arabidopsis AGO1 facilitate amplified RNA interference via SGS3",
+  "authors": "López-Márquez D; Arribas-Hernández L; Poulsen C; Oksbjerg ED; Bouteiller N; Meier M; Blanke J; del Espino A; Vigh ML; Bressendorff S; Carbonell A; Daucke R; Schoof EM; Vaucheret H; Brodersen P",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-18",
+  "window": {
+    "start": "2025-10-13",
+    "end": "2025-10-19"
+  },
+  "score": 9,
+  "one_liner_zh": "该文研究拟南芥AGO1疏水口袋与SGS3无序区域(IDR)中GW/WG二肽的蛋白-蛋白互作，揭示其介导RDR6依赖的siRNA扩增机制，对象为IDR介导的PPI且涉及机制建模，虽无AI/物理模拟方法，但机制深度高，对本课题有直接启发。",
+  "abstract": "<h4>ABSTRACT</h4> ARGONAUTE (AGO) proteins associate with small RNAs to form RNA-induced silencing complexes (RISCs). Arabidopsis AGO1 effects post-transcriptional silencing by microRNAs (miRNAs) and small interfering RNAs (siRNAs) and is necessary for siRNA amplification through conversion of RISC target RNAs into double-stranded RNA by the RNA-dependent RNA Polymerase RDR6 and its mandatory cofactors SGS3 and SDE5. Many AGO proteins harbor hydrophobic pockets that interact with tryptophan residues, often surrounded by glycine (GW/WG), in intrinsically disordered regions (IDRs) of RISC cofactors. Here, we show that GW/WG dipeptides in the IDR of SGS3 and the hydrophobic pockets in AGO1 are required for fully functional RDR6-dependent siRNA amplification. We also show that this mechanism requires AGO1-specific structural elements, including positively charged residues surrounding the binding pockets, and a conserved, negatively charged patch in the IDR of SGS3. Thus, the same, conserved protein-protein interaction site is used for different purposes in distinct eukaryotic AGO proteins: the GW/WG-mediated TNRC6-Ago2 interaction is crucial for miRNA-guided silencing in metazoans whereas the GW/WG-mediated SGS3-AGO1 interaction facilitates siRNA amplification via RDR6 in plants.",
+  "abstract_zh": "<h4>摘要</h4> ARGONAUTE（AGO）蛋白与小RNA结合形成RNA诱导沉默复合体（RISCs）。拟南芥AGO1通过微小RNA（miRNAs）和小干扰RNA（siRNAs）实现转录后沉默，并通过RNA依赖性RNA聚合酶RDR6及其必需辅因子SGS3和SDE5将RISC靶标RNA转化为双链RNA，从而对siRNA扩增至关重要。许多AGO蛋白含有疏水口袋，这些口袋与内在无序区域（IDRs）中RISC辅因子的色氨酸残基（通常由甘氨酸包围，即GW/WG）相互作用。在此，我们表明SGS3的IDR中的GW/WG二肽和AGO1中的疏水口袋对于功能完整的RDR6依赖性siRNA扩增是必需的。我们还表明，该机制需要AGO1特异性结构元件，包括结合口袋周围的正电荷残基，以及SGS3的IDR中一个保守的负电荷斑块。因此，相同的保守蛋白-蛋白相互作用位点在真核生物不同的AGO蛋白中被用于不同目的：GW/WG介导的TNRC6-Ago2相互作用对后生动物中miRNA引导的沉默至关重要，而GW/WG介导的SGS3-AGO1相互作用则促进植物中通过RDR6进行的siRNA扩增。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.18.683247",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.18.683247",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.18.683247/index.html"
+}

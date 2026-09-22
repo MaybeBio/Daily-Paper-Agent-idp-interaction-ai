@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations to compare conformational landscapes of the tau R2 repeat domain in native and multiply phosphorylated states (S285, S289, S293) across four force field/water model combinations. They report a new class of counterion-mediated bridges, termed nP-collabs, where cations bind simultaneously to two or three phosphate groups. They claim these structures affect the conformational space of tau-R2 differently for sodium versus potassium, and that phosphoresidue spacing and ionic concentration modulate the effect, as tested on polyalanine peptides. Three new metrics for intrinsically disordered proteins (proteic Menger curvature, local curvature, local flexibility) are introduced to characterize residue-level dynamics.
+- **Visible evidence base** Abstract text only; no quantitative results, simulation details, or methodological validation are provided
+- **Missing materials affecting confidence** Full manuscript, simulation protocols, force field parameters, convergence criteria, statistical analyses, figures, tables, and any validation of the new metrics
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation regarding cation-mediated bridging in phosphorylated tau, but the evidence base is too limited to evaluate the validity, novelty, or significance of the claims. The central concept of nP-collabs is introduced without quantitative support, and the new metrics are mentioned without any demonstration of their utility or validation. The work may be of interest to computational biophysicists studying IDPs, but the current abstract does not establish the case.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular dynamics practitioners studying intrinsically disordered proteins, phosphorylation effects on conformational ensembles, and ion-protein interactions. Researchers working on tau biology and Alzheimer's disease mechanisms may also find the topic relevant, though the abstract does not yet connect the findings to functional outcomes.
+- **Major strengths** The study addresses a relevant and under-explored question about how counterions mediate interactions between multiple phosphate groups in disordered proteins. The systematic comparison across four force field/water model combinations is a sensible approach to assess parameter sensitivity. The introduction of new metrics tailored for IDPs suggests methodological ambition.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that nP-collabs form stable structures binding with two or three phosphate groups simultaneously, and that these structures affect the tau-R2 conformational space differently for sodium versus potassium.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No quantitative data are presented to support the existence, stability, or functional impact of nP-collabs. The abstract does not report any measures of bridge lifetime, occupancy, free energy, or conformational differences between conditions. The claim that sodium and potassium produce different effects is stated without any numerical comparison.
+  - **Why it matters** The central novelty of the manuscript rests on the nP-collab concept. Without quantitative evidence, the reader cannot assess whether these structures are statistically significant, force field artifacts, or biologically meaningful. The differential ion effect is a key claim that requires direct comparison of ensemble properties.
+  - **Resolution test** Provide quantitative metrics such as bridge occupancy distributions, residence times, free energy profiles, or conformational ensemble overlap measures (e.g., RMSD distributions, radius of gyration) comparing native versus phosphorylated states and sodium versus potassium conditions, with error estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validation
+  - **Claim pointer** The abstract introduces three new metrics (proteic Menger curvature, local curvature, local flexibility) and claims they allow full characterization of nP-collab impact on disordered peptide dynamics at the residue level.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The new metrics are named and described in one sentence, but no information is given about their mathematical definitions, computational implementation, sensitivity, or validation against existing metrics. No example results are shown to demonstrate that these metrics capture meaningful differences attributable to nP-collabs.
+  - **Why it matters** Introducing new analysis tools requires demonstrating that they are well-defined, numerically stable, and provide information beyond existing approaches. Without validation, the metrics cannot be assessed for reliability, and any conclusions drawn from them are unverifiable.
+  - **Resolution test** Provide formal definitions, validation on test systems with known properties, comparison to existing metrics (e.g., RMSF, dihedral angle distributions), and show that the metrics distinguish conditions in a statistically robust manner.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation rigor
+  - **Claim pointer** The abstract states that four different force field/water model combinations were used to compare conformational landscapes, and that differences in phosphate group parameters and cation-water interactions lead to nP-collab formation.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No simulation details are provided, including system setup, equilibration protocol, simulation length, number of replicas, temperature/pressure control, or convergence assessment. The claim that force field differences cause the observed effects requires evidence that simulations are converged and that observed differences are not due to insufficient sampling.
+  - **Why it matters** For intrinsically disordered proteins, conformational sampling is notoriously challenging. Without evidence of convergence and adequate sampling, any observed differences between force fields or ion conditions could be artifacts of insufficient simulation time or poor equilibration.
+  - **Resolution test** Report simulation lengths, number of independent runs, convergence metrics (e.g., block averaging, autocorrelation times), and demonstrate that ensemble properties are stable over time. Show that force field differences are statistically distinguishable from run-to-run variability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract text
+  - **Issue** The term "nP-collab" is introduced without a clear definition of the integer n in context. The parenthetical explanation is brief and may confuse readers unfamiliar with the notation.
+  - **Required correction** Define n explicitly with an example (e.g., 2P-collab for two phosphates) and state whether n is limited to 2 or 3 in the observed systems.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scope justification
+  - **Affected element** Polyalanine peptide experiments
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions modeling polyalanine peptides with phosphoserines spaced one to six residues apart, but does not state how these results relate to the tau-R2 findings or what specific hypothesis is tested.
+  - **Required correction** Clarify the purpose of the polyalanine experiments, whether they are meant to isolate spacing effects, and how they inform interpretation of the tau-R2 results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Biological relevance
+  - **Affected element** Functional implications
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract states that nP-collabs are "likely to impact" tau dynamics and tubulin interactions, but no direct evidence or mechanistic link is provided.
+  - **Required correction** Either provide preliminary data connecting nP-collabs to functional outcomes (e.g., binding affinity changes) or temper the claim to reflect that functional implications are speculative at this stage.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (no quantitative evidence for nP-collabs), R1-M2 (unvalidated new metrics), R1-M3 (insufficient simulation details and convergence evidence)
+- **Assessment against Nature-style criteria** Originality: The concept of counterion-mediated multi-phosphate bridges in IDPs is potentially novel, but the abstract does not demonstrate how this advances beyond existing knowledge of ion-protein interactions. Scientific importance: The topic is relevant to tau biology and IDP biophysics, but the abstract does not establish broader significance or mechanistic insight. Interdisciplinary readership: The work may appeal to computational chemists and biophysicists, but the abstract is too technical and lacks context for a general scientific audience. Technical soundness: Cannot be assessed from the abstract; simulation rigor and metric validation are unverified. Readability for nonspecialists: The abstract assumes familiarity with molecular dynamics and IDP concepts; the nP-collab terminology is introduced without sufficient explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis and methodological ambition, but the lack of quantitative results, simulation details, and metric validation prevents any assessment of validity. Supportive if technical concerns are resolved in the full manuscript.
+
+## Risk / unsupported claims
+- The existence and stability of nP-collabs as defined is unsupported by any quantitative data in the abstract.
+- The claim that sodium versus potassium produces different effects on tau-R2 conformational space is unsupported.
+- The claim that the three new metrics "fully characterize" the impact of nP-collabs is unsupported and likely overstated without validation.
+- The statement that nP-collabs are "likely to impact" tau-tubulin interactions is speculative and not backed by any functional data.
+- The relevance of polyalanine peptide results to tau-R2 behavior is not established.

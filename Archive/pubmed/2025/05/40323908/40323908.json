@@ -1,0 +1,320 @@
+{
+  "identity": {
+    "pmid": "40323908",
+    "doi": "10.1371/journal.pone.0321163",
+    "title": "Coevolution in human small Heat Shock Protein 1 is promoted by interactions between the Alpha-Crystallin domain and the disordered regions."
+  },
+  "content": {
+    "abstract": "Human small Heat Shock Protein 1 (HSPB1) belongs to the Small Heat Shock Protein (sHSP) superfamily, a group of ATP-independent molecular chaperones essential for cellular stress responses and protein quality control. These proteins share a conserved domain organization, with a structured Alpha-Crystallin domain (ACD) flanked by disordered N-terminal and C-terminal regions (NTR and CTR). While the prevailing evolutionary hypothesis for the sHSP family suggests that the disordered regions evolved independently and at a faster rate than the ACD, this study provides, for the first time, evidence of coevolution between these regions in human HSPB1, introducing new insights into the evolutionary mechanisms that sustain critical regulatory interactions. By integrating evolutionary and structural approaches, we estimated evolutionary rates per region and position, analyzed the composition of key interacting motifs, and employed structural modeling with AlphaFold 2 to assess the prevalence of these interactions. Our findings reveal that while the disordered regions globally evolve faster than the ACD, specific motifs involved in regulatory interactions exhibit lower-than-average evolutionary rates, reflecting evolutionary constraints imposed by their functional importance. This coevolutionary mechanism may also extend to other small Heat Shock Proteins featuring interacting motifs in the NTR, CTR, or both, offering a new perspective for studying their molecular evolution. Furthermore, the analysis presented in this work could be applied to assess coevolution in other proteins with intrinsically disordered regions.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*Evolution, Molecular",
+      "*alpha-Crystallins/metabolism/chemistry/genetics",
+      "Protein Domains",
+      "*Heat-Shock Proteins/genetics/chemistry/metabolism",
+      "Molecular Chaperones/genetics/chemistry",
+      "Models, Molecular",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Racigh, Vanesa",
+        "Rodriguez Sawicki, Luciana",
+        "Bravo, Facundo Nicolas Eric",
+        "Fornasari, Maria Silvina"
+      ],
+      "short_names": [
+        "Racigh V",
+        "Rodriguez Sawicki L",
+        "Bravo FNE",
+        "Fornasari MS"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5782-6573",
+        "ORCID: 0000-0003-2081-0222"
+      ],
+      "affiliations": [
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes, Bernal, Argentina.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes, Bernal, Argentina.",
+        "Instituto de Investigaciones Bioquimicas de La Plata, CONICET-UNLP, Facultad de Ciencias Medicas, La Plata, Argentina.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes, Bernal, Argentina.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes, Bernal, Argentina."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Racigh, Vanesa",
+        "short_name": "Racigh V",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Bernal, Argentina."
+        ]
+      },
+      {
+        "full_name": "Rodriguez Sawicki, Luciana",
+        "short_name": "Rodriguez Sawicki L",
+        "identifiers": [
+          "0000-0001-5782-6573"
+        ],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Bernal, Argentina.",
+          "Instituto de Investigaciones Bioquímicas de La Plata, CONICET-UNLP, Facultad de Ciencias Médicas, La Plata, Argentina."
+        ]
+      },
+      {
+        "full_name": "Bravo, Facundo Nicolas Eric",
+        "short_name": "Bravo FNE",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Bernal, Argentina."
+        ]
+      },
+      {
+        "full_name": "Fornasari, Maria Silvina",
+        "short_name": "Fornasari MS",
+        "identifiers": [
+          "0000-0003-2081-0222"
+        ],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Bernal, Argentina."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PloS one"
+    ],
+    "journal_abbrev": [
+      "PLoS One"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/05 18:34",
+    "fetched_at": "2026-09-22 02:37:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39851555",
+      "39271417",
+      "38686797",
+      "37878721",
+      "37805934",
+      "36233058",
+      "35637307",
+      "35481633",
+      "34795272",
+      "34563256",
+      "34293799",
+      "34265844",
+      "33644875",
+      "33310020",
+      "32270443",
+      "31974309",
+      "31845908",
+      "31767683",
+      "31573509",
+      "30833458",
+      "30731089",
+      "30385828",
+      "30385502",
+      "30036999",
+      "29298892",
+      "29031079",
+      "28144995",
+      "28089448",
+      "28077174",
+      "27816334",
+      "26589632",
+      "26243512",
+      "24926813",
+      "24711386",
+      "24382496",
+      "23728742",
+      "23188086",
+      "22368248",
+      "22198341",
+      "22177323",
+      "22106262",
+      "22057845",
+      "21690394",
+      "20718988",
+      "20501794",
+      "20003500",
+      "19593530",
+      "19304878",
+      "15581903",
+      "15448619",
+      "15033973",
+      "14681372",
+      "12169533",
+      "10092617",
+      "8744570"
+    ],
+    "similar": [
+      "40323908",
+      "31974309",
+      "31573509",
+      "16165157",
+      "20171228",
+      "19717454",
+      "26098708",
+      "9650074",
+      "22210597",
+      "32417755",
+      "14532291",
+      "17090542",
+      "24243469",
+      "30669930",
+      "36719917",
+      "10950306",
+      "31630804",
+      "39814164",
+      "32270443",
+      "12369933",
+      "15530406",
+      "32081587",
+      "28389817",
+      "38203641",
+      "28332148",
+      "20501794",
+      "35678958",
+      "9228089",
+      "12372593",
+      "30036999",
+      "15064984",
+      "22044147",
+      "27933579",
+      "10366513",
+      "28487364",
+      "16046399",
+      "22002515",
+      "12579383",
+      "29442498",
+      "40146081",
+      "21641913",
+      "11024455",
+      "12820654",
+      "24024660",
+      "8450753",
+      "12820655",
+      "12368478",
+      "12235146",
+      "30684363",
+      "16038412",
+      "28130664",
+      "22057845",
+      "12729765",
+      "19783089",
+      "23530263",
+      "37517700",
+      "16571370",
+      "21102656",
+      "10037719",
+      "33321054",
+      "16478475",
+      "29969581",
+      "35777462",
+      "24689782",
+      "8727962",
+      "28903537",
+      "11875128",
+      "20158612",
+      "22177323",
+      "38016530",
+      "9650070",
+      "28320295",
+      "23277356",
+      "11795473",
+      "20054128",
+      "14599592",
+      "15448619",
+      "21315085",
+      "15292216",
+      "15655895",
+      "38401625",
+      "30346990",
+      "10962105",
+      "18713743",
+      "28077174",
+      "16843901",
+      "25436758",
+      "36854646",
+      "34487489",
+      "16682772",
+      "19943197",
+      "26972563",
+      "22210387",
+      "36674601",
+      "20188088",
+      "25352169",
+      "30348902",
+      "15575808",
+      "23948568",
+      "17590381"
+    ],
+    "review": [
+      "40323908",
+      "10950306",
+      "32270443",
+      "12369933",
+      "15064984",
+      "22044147",
+      "29442498",
+      "8450753",
+      "33321054",
+      "11875128",
+      "9650070",
+      "28320295",
+      "25436758",
+      "25352169"
+    ],
+    "pmc": [
+      "12052118"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pone.0321163",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40323908/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HSPB1-5",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-702",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

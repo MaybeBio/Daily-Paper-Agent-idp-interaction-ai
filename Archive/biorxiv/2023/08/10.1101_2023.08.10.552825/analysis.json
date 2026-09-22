@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.08.10.552825",
+  "title": "Network shape intelligence outperforms AlphaFold2 intelligence in vanilla protein interaction prediction",
+  "authors": "Ilyes Abdelhamid; Alessandro Muscoloni; Danny Marc Rotscher; Matthias Lieber; Ulf Markwardt; Carlo Vittorio Cannistraci",
+  "journal": "bioRxiv",
+  "published_date": "2023-08-14",
+  "window": {
+    "start": "2023-08-14",
+    "end": "2023-08-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出网络形状智能(NSI)用于蛋白互作预测，并发现AlphaFold2误判的互作多涉及无序区域蛋白，虽对象涉及IDR但未深入机制建模，方法为网络拓扑而非AI/物理模拟，故为中档。",
+  "abstract": "For decades, scientists and engineers have been working to predict protein interactions, and network topology methods have emerged as extensively studied techniques. Recently, approaches based on AlphaFold2 intelligence, exploiting 3D molecular structural information, have been proposed for protein interaction prediction, they are promising as potential alternatives to traditional laboratory experiments, and their design and performance evaluation is compelling. Here, we introduce a new concept of intelligence termed Network Shape Intelligence (NSI). NSI is modelled via network automata rules which minimize external links in local communities according to a brain-inspired principle, as it draws upon the local topology and plasticity rationales initially devised in brain network science and then extended to any complex network. We show that by using only local network information and without the need for training, these network automata designed for modelling and predicting network connectivity can outperform AlphaFold2 intelligence in vanilla protein interactions prediction. We find that the set of interactions mispredicted by AlphaFold2 predominantly consists of proteins whose amino acids exhibit higher probability of being associated with intrinsically disordered regions. Finally, we suggest that the future advancements in AlphaFold intelligence could integrate principles of NSI to further enhance the modelling and structural prediction of protein interactions.",
+  "abstract_zh": "几十年来，科学家和工程师们一直致力于预测蛋白质相互作用，网络拓扑方法已成为广泛研究的技术。近期，基于AlphaFold2智能、利用三维分子结构信息的方法被提出用于蛋白质相互作用预测，这些方法有望成为传统实验室实验的潜在替代方案，其设计与性能评估引人注目。在此，我们引入了一个新的智能概念，称为网络形状智能（Network Shape Intelligence, NSI）。NSI通过网络自动机规则建模，这些规则根据大脑启发原则最小化局部社区中的外部连接，借鉴了最初在脑网络科学中设计并随后扩展到任何复杂网络的局部拓扑和可塑性原理。我们证明，仅利用局部网络信息且无需训练，这些为建模和预测网络连接性而设计的网络自动机在原始蛋白质相互作用预测中能够超越AlphaFold2智能。我们发现，AlphaFold2错误预测的相互作用集合主要由其氨基酸更可能与内在无序区域相关的蛋白质组成。最后，我们建议未来AlphaFold智能的进步可以整合NSI原则，以进一步增强蛋白质相互作用的建模和结构预测。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.08.10.552825",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.08.10.552825",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.08.10.552825/index.html"
+}

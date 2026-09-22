@@ -1,0 +1,355 @@
+{
+  "identity": {
+    "pmid": "39112699",
+    "doi": "10.1038/s41586-024-07726-0",
+    "title": "Membrane prewetting by condensates promotes tight-junction belt formation."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates enable cell compartmentalization by acting as membraneless organelles(1). How cells control the interactions of condensates with other cellular structures such as membranes to drive morphological transitions remains poorly understood. We discovered that formation of a tight-junction belt, which is essential for sealing epithelial tissues, is driven by a wetting phenomenon that promotes the growth of a condensed ZO-1 layer(2) around the apical membrane interface. Using temporal proximity proteomics in combination with imaging and thermodynamic theory, we found that the polarity protein PATJ mediates a transition of ZO-1 into a condensed surface layer that elongates around the apical interface. In line with the experimental observations, our theory of condensate growth shows that the speed of elongation depends on the binding affinity of ZO-1 to the apical interface and is constant. Here, using PATJ mutations, we show that ZO-1 interface binding is necessary and sufficient for tight-junction belt formation. Our results demonstrate how cells exploit the collective biophysical properties of protein condensates at membrane interfaces to shape mesoscale structures.",
+    "keywords": [],
+    "mesh_terms": [
+      "Animals",
+      "Dogs",
+      "Humans",
+      "*Biomolecular Condensates/metabolism/chemistry",
+      "Cell Compartmentation",
+      "*Cell Membrane/metabolism/chemistry",
+      "Epithelium",
+      "HEK293 Cells",
+      "Madin Darby Canine Kidney Cells",
+      "Mutation",
+      "Protein Binding",
+      "Thermodynamics",
+      "Tight Junction Proteins/metabolism",
+      "*Tight Junctions/metabolism/chemistry",
+      "*Wettability",
+      "Zonula Occludens-1 Protein/genetics/metabolism",
+      "Proteomics"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pombo-Garcia, Karina",
+        "Adame-Arana, Omar",
+        "Martin-Lemaitre, Cecilie",
+        "Julicher, Frank",
+        "Honigmann, Alf"
+      ],
+      "short_names": [
+        "Pombo-Garcia K",
+        "Adame-Arana O",
+        "Martin-Lemaitre C",
+        "Julicher F",
+        "Honigmann A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2077-5909",
+        "ORCID: 0000-0001-5828-0584",
+        "ORCID: 0000-0003-4731-9185",
+        "ORCID: 0000-0003-0475-3790"
+      ],
+      "affiliations": [
+        "Max Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany. Karina.pombo-garcia@mpi-cbg.de.",
+        "Rosalind Franklin Institute, Oxford, United Kingdom. Karina.pombo-garcia@mpi-cbg.de.",
+        "Max Planck Institute for the Physics of Complex Systems, Dresden, Germany.",
+        "Max Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany.",
+        "Max Planck Institute for the Physics of Complex Systems, Dresden, Germany.",
+        "Center for Systems Biology Dresden, Dresden, Germany.",
+        "Cluster of Excellence Physics of Life, TU Dresden, Dresden, Germany.",
+        "Max Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany. alf.honigmann@tu-dresden.de.",
+        "Cluster of Excellence Physics of Life, TU Dresden, Dresden, Germany. alf.honigmann@tu-dresden.de.",
+        "Technische Universitat Dresden, Biotechnologisches Zentrum, Center for Molecular and Cellular Bioengineering, Dresden, Germany. alf.honigmann@tu-dresden.de."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pombo-García, Karina",
+        "short_name": "Pombo-García K",
+        "identifiers": [
+          "0000-0002-2077-5909"
+        ],
+        "affiliations": [
+          "Max Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany. Karina.pombo-garcia@mpi-cbg.de.",
+          "Rosalind Franklin Institute, Oxford, United Kingdom. Karina.pombo-garcia@mpi-cbg.de."
+        ]
+      },
+      {
+        "full_name": "Adame-Arana, Omar",
+        "short_name": "Adame-Arana O",
+        "identifiers": [
+          "0000-0001-5828-0584"
+        ],
+        "affiliations": [
+          "Max Planck Institute for the Physics of Complex Systems, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Martin-Lemaitre, Cecilie",
+        "short_name": "Martin-Lemaitre C",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Jülicher, Frank",
+        "short_name": "Jülicher F",
+        "identifiers": [
+          "0000-0003-4731-9185"
+        ],
+        "affiliations": [
+          "Max Planck Institute for the Physics of Complex Systems, Dresden, Germany.",
+          "Center for Systems Biology Dresden, Dresden, Germany.",
+          "Cluster of Excellence Physics of Life, TU Dresden, Dresden, Germany."
+        ]
+      },
+      {
+        "full_name": "Honigmann, Alf",
+        "short_name": "Honigmann A",
+        "identifiers": [
+          "0000-0003-0475-3790"
+        ],
+        "affiliations": [
+          "Max Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany. alf.honigmann@tu-dresden.de.",
+          "Cluster of Excellence Physics of Life, TU Dresden, Dresden, Germany. alf.honigmann@tu-dresden.de.",
+          "Technische Universität Dresden, Biotechnologisches Zentrum, Center for Molecular and Cellular Bioengineering, Dresden, Germany. alf.honigmann@tu-dresden.de."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature"
+    ],
+    "journal_abbrev": [
+      "Nature"
+    ],
+    "pub_date": "2024 Aug",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/08 00:42",
+    "fetched_at": "2026-09-21 09:23:41"
+  },
+  "links": {
+    "cites": [
+      "42613378",
+      "42465451",
+      "42455669",
+      "42248878",
+      "42236999",
+      "41984772",
+      "41957206",
+      "41730871",
+      "41593415",
+      "41482580",
+      "41372463",
+      "41317562",
+      "41260683",
+      "41166416",
+      "41122968",
+      "41109347",
+      "41099653",
+      "40964346",
+      "40963550",
+      "40741726",
+      "40727669",
+      "40708200",
+      "40555753",
+      "40525694",
+      "40462925",
+      "40424940",
+      "40380298",
+      "40203039",
+      "40196562",
+      "40160200",
+      "39882731",
+      "39868176",
+      "39630867",
+      "39614182",
+      "39574742",
+      "39253471"
+    ],
+    "refs": [
+      "37770422",
+      "36341714",
+      "35411085",
+      "34723319",
+      "34599097",
+      "34516789",
+      "33473217",
+      "33318659",
+      "32891490",
+      "32531288",
+      "31675500",
+      "31675499",
+      "30464214",
+      "30242130",
+      "29373831",
+      "27729395",
+      "27565350",
+      "27362226",
+      "27353478",
+      "25385611",
+      "25288112",
+      "24579773",
+      "23553632",
+      "22337881",
+      "21166484",
+      "20814909",
+      "20182608",
+      "19255144",
+      "18474622",
+      "17235357",
+      "16923393",
+      "16129888",
+      "16129788",
+      "15738264",
+      "15723052",
+      "12771187",
+      "12545177",
+      "12354099",
+      "12021270",
+      "11964389",
+      "9442870",
+      "3511070"
+    ],
+    "similar": [
+      "39112699",
+      "31675499",
+      "23553632",
+      "39742662",
+      "16436508",
+      "32745606",
+      "23813953",
+      "10712504",
+      "31913699",
+      "28961272",
+      "40015268",
+      "26063734",
+      "9169849",
+      "40113768",
+      "32697990",
+      "26990309",
+      "28335665",
+      "24358952",
+      "10575001",
+      "30333370",
+      "12021270",
+      "29044161",
+      "25157572",
+      "15738264",
+      "29187366",
+      "38360555",
+      "36791108",
+      "16129888",
+      "11514615",
+      "12045219",
+      "18474622",
+      "32020905",
+      "31318316",
+      "22671591",
+      "25483301",
+      "39159387",
+      "40082413",
+      "38517380",
+      "23826934",
+      "22827574",
+      "20008323",
+      "41838899",
+      "22131233",
+      "35731553",
+      "19255144",
+      "28554775",
+      "20856225",
+      "30242130",
+      "22334078",
+      "23418357",
+      "10874042",
+      "15496416",
+      "16790439",
+      "35580994",
+      "37217523",
+      "32531288",
+      "23864776",
+      "31637713",
+      "10444075",
+      "8636221",
+      "23889324",
+      "39350674",
+      "34382375",
+      "12545177",
+      "30011834",
+      "23304432",
+      "40801571",
+      "33184034",
+      "10984430",
+      "38338705",
+      "15976445",
+      "16141229",
+      "31467165",
+      "9531559",
+      "22190737",
+      "24739645",
+      "12507281",
+      "32001212",
+      "25107366",
+      "41984772",
+      "2202736",
+      "24912853",
+      "34269802",
+      "28618099",
+      "36349591",
+      "26865645",
+      "30261614",
+      "28132078",
+      "2597123",
+      "32694756",
+      "28257821",
+      "16407410",
+      "27855213",
+      "32940450",
+      "25847234",
+      "39552289",
+      "16928777",
+      "11557048",
+      "27925688",
+      "17182847"
+    ],
+    "review": [
+      "39112699",
+      "38360555",
+      "25483301",
+      "35580994",
+      "30011834"
+    ],
+    "pmc": [
+      "11324514"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41586-024-07726-0",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39112699/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

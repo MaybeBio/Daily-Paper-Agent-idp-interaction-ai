@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39993015",
+  "title": "Studying the Signaling Mechanism of Neuropilin-1's Intracellular Disorder Region via Conformational Mining and Dynamic Interaction Characterization.",
+  "authors": "Yue, Congran; Shi, Sai; Li, Zhenlu; Ye, Sheng",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-02-24",
+  "window": {
+    "start": "2025-02-24",
+    "end": "2025-03-02"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究以神经纤毛蛋白-1胞内无序区域为对象，结合增强采样模拟、AI构象挖掘和AlphaFold3预测，系统探究其与GIPC-1/SNX-5等多伙伴的动态互作机制及膜环境/磷酸化调控，完美契合无序蛋白PPI机制建模主题。",
+  "abstract": "Many single-pass membrane proteins contain an intrinsically disordered region (IDR) within their intracellular domain, playing a key role in regulating cellular signaling. However, understanding the functional mechanisms of these disordered regions has remained a challenge. In this study, we focus on the cytoplasmic IDR of neuropilin-1 (NRP-1 IDR) and employ a combination of experimental and computational methods to investigate its dynamics and function. We compare several enhanced sampling molecular simulations, structural statistics-based methods, and AI-driven conformation mining techniques, emphasizing the strengths and limitations of each with respect to sampling diversity and energy landscape exploration. Subsequently, we investigate the broad array of potential binding partners for the NRP-1 IDR and employ AlphaFold3 for complex structure prediction, highlighting the promiscuous binding behavior of the NRP-1 IDR. Finally, we focus on high-confidence binding partners, GIPC-1 and SNX-5, validating the interaction of the NRP-1 IDR with these proteins and investigating the effects of membrane context and phosphorylation on these interactions. Our findings provide critical insights into how a flexible cytoplasmic region in signal-transmembrane proteins can modulate transmembrane signaling.",
+  "abstract_zh": "许多单次跨膜蛋白在其胞内结构域中包含一个固有无序区域（IDR），在调控细胞信号传导中发挥关键作用。然而，理解这些无序区域的功能机制仍然是一个挑战。在本研究中，我们聚焦于神经毡蛋白-1（NRP-1）的胞质IDR，并采用实验与计算相结合的方法来探究其动力学和功能。我们比较了几种增强采样分子模拟、基于结构统计的方法以及AI驱动的构象挖掘技术，强调了每种方法在采样多样性和能量景观探索方面的优势与局限性。随后，我们研究了NRP-1 IDR的广泛潜在结合伙伴，并利用AlphaFold3进行复合物结构预测，突出了NRP-1 IDR的混杂结合行为。最后，我们聚焦于高置信度结合伙伴GIPC-1和SNX-5，验证了NRP-1 IDR与这些蛋白的相互作用，并探讨了膜环境和磷酸化对这些相互作用的影响。我们的发现为信号跨膜蛋白中柔性胞质区域如何调节跨膜信号传导提供了关键见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39993015/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39993015/",
+  "paper_page_path": "papers/pubmed/39993015/index.html"
+}

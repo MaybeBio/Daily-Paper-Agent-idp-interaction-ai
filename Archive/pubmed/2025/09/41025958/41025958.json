@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "41025958",
+    "doi": "10.7554/eLife.104956",
+    "title": "Design principles of transcription factors with intrinsically disordered regions."
+  },
+  "content": {
+    "abstract": "Transcription factors (TFs) are proteins crucial for regulating gene expression. Effective regulation requires the TFs to rapidly bind to their correct target, enabling the cell to respond efficiently to stimuli such as nutrient availability or the presence of toxins. However, the search process is hindered by slow diffusive movement and the presence of 'false' targets - DNA segments that are similar to the true target. In eukaryotic cells, most TFs contain an intrinsically disordered region (IDR), which is commonly assumed to behave as a long, flexible polymeric tail composed of hundreds of amino acids. Recent experimental findings indicate that the IDR of certain TFs plays a pivotal role in the search process. However, the principles underlying the IDR's role remain unclear. Here, we reveal key design principles of the IDR related to TF binding affinity and search time. Our results demonstrate that the IDR significantly enhances both of these aspects. Furthermore, our model shows good agreement with experimental results, and we propose further experiments to validate the model's predictions.",
+    "keywords": [
+      "S. cerevisiae",
+      "intrinsically disordered regions",
+      "physics of living systems",
+      "polymer physics",
+      "statistical physics",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "*Transcription Factors/metabolism/chemistry/genetics",
+      "*Intrinsically Disordered Proteins/metabolism/chemistry/genetics",
+      "Protein Binding",
+      "Gene Expression Regulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ji, Wencheng",
+        "Hachmo, Ori",
+        "Barkai, Naama",
+        "Amir, Ariel"
+      ],
+      "short_names": [
+        "Ji W",
+        "Hachmo O",
+        "Barkai N",
+        "Amir A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1465-3953",
+        "ORCID: 0000-0002-2444-6061",
+        "ORCID: 0000-0003-2611-0139"
+      ],
+      "affiliations": [
+        "Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot, Israel.",
+        "John A Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, United States.",
+        "Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot, Israel.",
+        "Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot, Israel.",
+        "John A Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ji, Wencheng",
+        "short_name": "Ji W",
+        "identifiers": [
+          "0000-0003-1465-3953"
+        ],
+        "affiliations": [
+          "Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot, Israel.",
+          "John A Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, United States."
+        ]
+      },
+      {
+        "full_name": "Hachmo, Ori",
+        "short_name": "Hachmo O",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Barkai, Naama",
+        "short_name": "Barkai N",
+        "identifiers": [
+          "0000-0002-2444-6061"
+        ],
+        "affiliations": [
+          "Department of Molecular Genetics, Weizmann Institute of Science, Rehovot, Israel."
+        ]
+      },
+      {
+        "full_name": "Amir, Ariel",
+        "short_name": "Amir A",
+        "identifiers": [
+          "0000-0003-2611-0139"
+        ],
+        "affiliations": [
+          "Department of Physics of Complex Systems, Weizmann Institute of Science, Rehovot, Israel.",
+          "John A Paulson School of Engineering and Applied Sciences, Harvard University, Cambridge, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2025 Sep 30",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/30 14:15",
+    "fetched_at": "2026-09-17 20:40:26"
+  },
+  "links": {
+    "cites": [
+      "41372172"
+    ],
+    "refs": [
+      "39984675",
+      "38597680",
+      "38109289",
+      "37957331",
+      "37540844",
+      "37459525",
+      "37116493",
+      "36938874",
+      "36265487",
+      "35084952",
+      "33561389",
+      "33414013",
+      "33053359",
+      "32553192",
+      "31992709",
+      "31668801",
+      "31264965",
+      "31092938",
+      "30720315",
+      "30449618",
+      "29930091",
+      "29425488",
+      "28349863",
+      "27192961",
+      "26490019",
+      "25531225",
+      "25313048",
+      "23668488",
+      "22790348",
+      "22723426",
+      "22174267",
+      "21918774",
+      "21620710",
+      "21512033",
+      "21078959",
+      "19923193",
+      "18453629",
+      "17677092",
+      "17008406",
+      "16734424",
+      "16461402",
+      "15465864",
+      "15324279",
+      "13718526",
+      "10336412",
+      "9570129",
+      "9121580",
+      "7317363",
+      "4530290",
+      "3612791",
+      "2667136",
+      "911982"
+    ],
+    "similar": [
+      "41025958",
+      "39984675",
+      "32553192",
+      "41702402",
+      "40533454",
+      "40738115",
+      "41469692",
+      "33561389",
+      "38109289",
+      "38908024",
+      "38870936",
+      "39888268",
+      "39631290",
+      "36648282",
+      "34303077",
+      "38969762",
+      "31653121",
+      "29666277",
+      "23912807",
+      "23760157",
+      "36265487",
+      "40650976",
+      "34075638",
+      "35290420",
+      "41372172",
+      "29386103",
+      "38296708",
+      "25286318",
+      "36938874",
+      "34243065",
+      "16697407",
+      "33627133",
+      "42260147",
+      "41381493",
+      "28701416",
+      "30878482",
+      "39824163",
+      "40149012",
+      "26126425",
+      "41596588",
+      "36821650",
+      "26256058",
+      "33414013",
+      "33799876",
+      "29791766",
+      "29655986",
+      "42585785",
+      "39617253",
+      "30841624",
+      "33361159",
+      "33371315",
+      "30802457",
+      "40183636",
+      "42106138",
+      "29844400",
+      "36322456",
+      "31724233",
+      "29714690",
+      "40877262",
+      "39933697",
+      "39794553",
+      "40711919",
+      "42259285",
+      "40405832",
+      "40695292",
+      "40467883",
+      "34571015",
+      "41910388",
+      "32933064",
+      "39271725",
+      "29066345",
+      "38777743",
+      "33974912",
+      "38100543",
+      "33806614",
+      "40997106",
+      "28161714",
+      "37116493",
+      "36774964",
+      "42284071",
+      "40674483",
+      "39549898",
+      "41580895",
+      "41347878",
+      "34473923",
+      "41855276",
+      "40848932",
+      "38705823",
+      "39578215",
+      "39303678",
+      "22369666",
+      "41534519",
+      "29945970",
+      "34506483",
+      "42475469",
+      "31264965",
+      "38825283",
+      "27404361",
+      "39469753",
+      "36987884"
+    ],
+    "review": [
+      "41025958",
+      "39984675",
+      "39888268",
+      "39631290",
+      "36648282",
+      "34303077",
+      "31653121",
+      "36265487",
+      "38296708",
+      "28701416",
+      "26126425",
+      "36821650",
+      "29655986",
+      "33361159",
+      "33371315",
+      "38100543",
+      "38705823"
+    ],
+    "pmc": [
+      "12483512"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41025958/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1157",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.104956",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

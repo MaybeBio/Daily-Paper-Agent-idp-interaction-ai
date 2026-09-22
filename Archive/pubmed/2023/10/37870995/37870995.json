@@ -1,0 +1,335 @@
+{
+  "identity": {
+    "pmid": "37870995",
+    "doi": "10.1021/acs.jpcb.3c02655",
+    "title": "Complex Conformational Space of the RNA Polymerase II C-Terminal Domain upon Phosphorylation."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) have been closely studied during the past decade due to their importance in many biological processes. The disordered nature of this group of proteins makes it difficult to observe its full span of the conformational space using either experimental or computational studies. In this article, we explored the conformational space of the C-terminal domain (CTD) of RNA polymerase II (Pol II), which is also an intrinsically disordered low complexity domain, using enhanced sampling methods. We provided a detailed conformational analysis of model systems of CTD with different lengths; first with the last 44 residues of the human CTD sequence and finally the CTD model with 2-heptapeptide repeating units. We then investigated the effects of phosphorylation on CTD conformations by performing simulations at different phosphorylated states. We obtained broad conformational spaces in nonphosphorylated CTD models, and phosphorylation has complex effects on the conformations of the CTD. These complex effects depend on the length of the CTD, spacing between the multiple phosphorylation sites, ion coordination, and interactions with the nearby residues.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "Phosphorylation",
+      "*RNA Polymerase II/chemistry/genetics/metabolism",
+      "Molecular Conformation",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Transcription, Genetic"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Amith, Weththasinghage D",
+        "Dutagaci, Bercem"
+      ],
+      "short_names": [
+        "Amith WD",
+        "Dutagaci B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0333-5757"
+      ],
+      "affiliations": [
+        "Department of Molecular and Cell Biology, University of California, Merced, Merced, California 95343, United States.",
+        "Department of Molecular and Cell Biology, University of California, Merced, Merced, California 95343, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Amith, Weththasinghage D",
+        "short_name": "Amith WD",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Merced, Merced, California 95343, United States."
+        ]
+      },
+      {
+        "full_name": "Dutagaci, Bercem",
+        "short_name": "Dutagaci B",
+        "identifiers": [
+          "0000-0003-0333-5757"
+        ],
+        "affiliations": [
+          "Department of Molecular and Cell Biology, University of California, Merced, Merced, California 95343, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2023 Nov 2",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/10/23 18:41",
+    "fetched_at": "2026-09-21 02:18:19"
+  },
+  "links": {
+    "cites": [
+      "40273986",
+      "39462994",
+      "39395159"
+    ],
+    "refs": [
+      "36774359",
+      "36703366",
+      "36607820",
+      "36463772",
+      "36066390",
+      "36030416",
+      "35725761",
+      "35356546",
+      "35308859",
+      "35176629",
+      "35129612",
+      "35119946",
+      "35004845",
+      "34759379",
+      "34681718",
+      "34576338",
+      "33945530",
+      "33684220",
+      "33581430",
+      "33545530",
+      "33174726",
+      "33078950",
+      "32802734",
+      "32716185",
+      "32094914",
+      "32050065",
+      "31903719",
+      "31809054",
+      "31548393",
+      "31391587",
+      "30865820",
+      "30471686",
+      "30439585",
+      "30224053",
+      "30127355",
+      "29849146",
+      "29573987",
+      "28945358",
+      "28935776",
+      "28497798",
+      "28497792",
+      "28487210",
+      "28248323",
+      "27819658",
+      "26799765",
+      "26799764",
+      "26631602",
+      "26574339",
+      "26488642",
+      "25855872",
+      "25631161",
+      "25531225",
+      "25424660",
+      "24611769",
+      "24606139",
+      "23952966",
+      "23316124",
+      "22989858",
+      "22360139",
+      "21500218",
+      "21234644",
+      "20628786",
+      "20055668",
+      "19768526",
+      "19460965",
+      "19444816",
+      "18428767",
+      "18351591",
+      "17079683",
+      "16284250",
+      "16164759",
+      "15267872",
+      "15215436",
+      "15099834",
+      "10048330",
+      "8744570",
+      "6667333"
+    ],
+    "similar": [
+      "37870995",
+      "28497792",
+      "24611769",
+      "34216714",
+      "26515650",
+      "30971428",
+      "30127355",
+      "8106443",
+      "10392900",
+      "28248323",
+      "24473209",
+      "29849146",
+      "14704341",
+      "11387325",
+      "14595832",
+      "37748526",
+      "20457598",
+      "1989983",
+      "31092000",
+      "33555055",
+      "7711060",
+      "8910388",
+      "27622638",
+      "10704311",
+      "32184088",
+      "15964991",
+      "22982363",
+      "31054975",
+      "37749095",
+      "12011776",
+      "28497798",
+      "28945358",
+      "20558594",
+      "32544389",
+      "18550522",
+      "30139934",
+      "37331973",
+      "8668151",
+      "32439331",
+      "12358429",
+      "26799765",
+      "16107713",
+      "22622228",
+      "17405796",
+      "37424514",
+      "22778132",
+      "37141964",
+      "33684220",
+      "18079404",
+      "28771071",
+      "12666177",
+      "20231361",
+      "31680436",
+      "32568517",
+      "35176629",
+      "23844594",
+      "8954977",
+      "14511368",
+      "18482001",
+      "24842994",
+      "8134400",
+      "18388493",
+      "8497323",
+      "18079403",
+      "7797476",
+      "38955181",
+      "17079683",
+      "22231121",
+      "27099314",
+      "9057097",
+      "18457900",
+      "26742101",
+      "9228069",
+      "9153302",
+      "19136461",
+      "7498765",
+      "11113176",
+      "22137580",
+      "28468956",
+      "16410768",
+      "15241417",
+      "11807820",
+      "30502955",
+      "19450536",
+      "24196955",
+      "26807597",
+      "26735936",
+      "30765194",
+      "10825165",
+      "7504297",
+      "7826625",
+      "26566685",
+      "15665873",
+      "26876604",
+      "9110987",
+      "34681718",
+      "30684537",
+      "39395159",
+      "39303678"
+    ],
+    "review": [
+      "37870995",
+      "28248323",
+      "24473209",
+      "7711060",
+      "27622638",
+      "15964991",
+      "22982363",
+      "22622228",
+      "17405796",
+      "28771071",
+      "31680436",
+      "35176629",
+      "14511368",
+      "17079683",
+      "18457900",
+      "11807820",
+      "26876604"
+    ],
+    "pmc": [
+      "10626582"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1021/acs.jpcb.3c02655",
+        "provider": "American Chemical Society",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37870995/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37870995",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://escholarship.org/uc/item/qt59p6p60g",
+        "provider": "eScholarship, University of California - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from University of California eScholarship"
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.3c02655",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

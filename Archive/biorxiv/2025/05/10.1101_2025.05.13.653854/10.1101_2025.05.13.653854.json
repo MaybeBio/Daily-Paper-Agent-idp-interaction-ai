@@ -1,0 +1,349 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.05.13.653854",
+  "title": "ProtFun: A Protein Function Prediction Model Using Graph Attention Networks with a Protein Large Language Model",
+  "doi": "10.1101/2025.05.13.653854",
+  "abstract": "Understanding protein functions facilitates the identification of the underlying causes of many diseases and guides the research for discovering new therapeutic targets and medications. With the advancement of high throughput technologies, obtaining novel protein sequences has been a routine process. However, determining protein functions experimentally is cost- and labor-prohibitive. Therefore, it is crucial to develop computational methods for automatic protein function prediction. In this study, we propose a multi-modal deep learning architecture called ProtFun to predict protein functions. ProtFun integrates protein large language model (LLM) embeddings as node features in a protein family network. Employing graph attention networks (GAT) on this protein family network, ProtFun learns protein embeddings, which are integrated with protein signature representations from InterPro to train a protein function prediction model. We evaluated our architecture using three benchmark datasets. Our results showed that our proposed approach outperformed current state-of-the-art methods for most cases. An ablation study also highlighted the importance of different components of ProtFun. The data and source code of ProtFun is available at https://github.com/bozdaglab/ProtFun under Creative Commons Attribution Non Commercial 4.0 International Public License.",
+  "authors": [
+    "Muhammed Talo",
+    "Serdar Bozdag"
+  ],
+  "published_date": "2025-05-17",
+  "updated_date": "2025-05-17T13:30:11Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653854",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.05.13.653854.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            16
+          ]
+        ],
+        "date-time": "2026-01-16T00:22:33Z",
+        "timestamp": 1768522953312,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            17
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 32,
+      "publisher": "openRxiv",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                17
+              ]
+            ],
+            "date-time": "2025-05-17T00:00:00Z",
+            "timestamp": 1747440000000
+          },
+          "content-version": "vor",
+          "delay-in-days": 0,
+          "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            17
+          ]
+        ]
+      },
+      "abstract": "<jats:p>\n                  Understanding protein functions facilitates the identification of the underlying causes of many diseases and guides the research for discovering new therapeutic targets and medications. With the advancement of high throughput technologies, obtaining novel protein sequences has been a routine process. However, determining protein functions experimentally is cost- and labor-prohibitive. Therefore, it is crucial to develop computational methods for automatic protein function prediction. In this study, we propose a multi-modal deep learning architecture called ProtFun to predict protein functions. ProtFun integrates protein large language model (LLM) embeddings as node features in a protein family network. Employing graph attention networks (GAT) on this protein family network, ProtFun learns protein embeddings, which are integrated with protein signature representations from InterPro to train a protein function prediction model. We evaluated our architecture using three benchmark datasets. Our results showed that our proposed approach outperformed current state-of-the-art methods for most cases. An ablation study also highlighted the importance of different components of ProtFun. The data and source code of ProtFun is available at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://github.com/bozdaglab/ProtFun\">https://github.com/bozdaglab/ProtFun</jats:ext-link>\n                  under Creative Commons Attribution Non Commercial 4.0 International Public License.\n                </jats:p>",
+      "DOI": "10.1101/2025.05.13.653854",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            17
+          ]
+        ],
+        "date-time": "2025-05-17T13:30:11Z",
+        "timestamp": 1747488611000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "ProtFun: A Protein Function Prediction Model Using Graph Attention Networks with a Protein Large Language Model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-1595-5681",
+          "authenticated-orcid": false,
+          "given": "Muhammed",
+          "family": "Talo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4813-4310",
+          "authenticated-orcid": false,
+          "given": "Serdar",
+          "family": "Bozdag",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.patbio.2008.10.004"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/75556"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz595"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-021-23303-9"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkab398"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbad117"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/j.gpb.2023.04.001"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.8",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-021-01101-x"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa977"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu031"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-023-37896-w"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btac256"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab270"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pmic.200700131"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1126/science.ade2574"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.17",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s42256-024-00795-w"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btab198"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s13059-019-1727-y"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.20",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bty130"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.21",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC1052"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.22",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg095"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.23",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gku1113"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.24",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/NAR/GKAC993"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.25",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Ahmed Elnaggar , Hazem Essam , Wafaa Salah-Eldin , Walid Moustafa , Mohamed Elkerdawy , Charlotte Rochereau , and Burkhard Rost . Ankh: Optimized protein language model unlocks general-purpose modelling. arXiv preprint arXiv:2301.06568, 2023.",
+          "DOI": "10.1101/2023.01.16.524265"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.26",
+          "unstructured": "Kaiming He , Xiangyu Zhang , Shaoqing Ren , and Jian Sun . Deep residual learning for image recognition. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 770–778, 2016."
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.27",
+          "unstructured": "A Paszke . Pytorch: An imperative style, high-performance deep learning library. arXiv preprint arXiv:1912.01703, 2019."
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.28",
+          "unstructured": "Matthias Fey and Jan Eric Lenssen . Fast graph representation learning with pytorch geometric. arXiv preprint arXiv:1903.02428, 2019."
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioadv/vbae043"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-025-06059-7"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbae077"
+        },
+        {
+          "key": "2025052011300781000_2025.05.13.653854v1.32",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/1752-0509-3-1"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2025.05.13.653854",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T08:43:23Z",
+        "timestamp": 1768466603000
+      },
+      "score": 68.52787,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2025.05.13.653854"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            17
+          ]
+        ]
+      },
+      "references-count": 32,
+      "URL": "https://doi.org/10.1101/2025.05.13.653854",
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            17
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

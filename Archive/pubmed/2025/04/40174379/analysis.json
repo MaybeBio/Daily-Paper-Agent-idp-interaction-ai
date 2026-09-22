@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40174379",
+  "title": "Multispectral analysis and molecular simulation of quinoa protein-tannic acid interactions: Conformational changes and functional properties.",
+  "authors": "Qu, Guangfan; Yang, Feiyan; Liu, Fei; He, Xudong; Sun, Shuguo",
+  "journal": "Food chemistry",
+  "published_date": "2025-04-03",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究结合多光谱、分子对接与分子动力学模拟，解析藜麦蛋白与单宁酸的非共价互作机制及构象变化，虽对象为折叠蛋白而非IDP，但互作机制建模方法（对接+MD）对无序蛋白PPI研究有可迁移启发。",
+  "abstract": "This study used multispectral analysis and molecular simulation to investigate the mechanisms of non-covalent interactions between quinoa protein isolate (QPI) and tannic acid (TA), and its effects on protein conformation. The formation of the QPI-TA complex was confirmed by increased turbidity, polyphenol binding capacity, and UV-visible absorbance. The addition of TA decreased alpha-helices while increasing beta-sheets and random coils, resulting in a looser, more disordered protein structure of QPI. Thermodynamic analysis and molecular docking results indicated that the predominant interactions between QPI and TA are hydrophobic interactions and hydrogen bonds. Molecular dynamics simulations confirmed that the binding sites of TA and QPI were tightly associated, thereby maintaining conformational stability. Additionally, the non-covalent modification by TA significantly enhanced the emulsifying and foaming capacities of QPI. This study provides a theoretical foundation for the application of QPI-polyphenol complexes in the production of emulsified foods.",
+  "abstract_zh": "本研究采用多光谱分析和分子模拟技术，探讨了藜麦蛋白分离物（QPI）与单宁酸（TA）之间非共价相互作用的机制及其对蛋白质构象的影响。通过浊度、多酚结合能力和紫外-可见吸收度的增加，证实了QPI-TA复合物的形成。TA的添加减少了α-螺旋结构，同时增加了β-折叠和无规卷曲，导致QPI的蛋白质结构更加松散和无序。热力学分析和分子对接结果表明，QPI与TA之间的主要相互作用为疏水相互作用和氢键。分子动力学模拟证实，TA与QPI的结合位点紧密关联，从而维持了构象稳定性。此外，TA的非共价修饰显著增强了QPI的乳化和起泡能力。本研究为QPI-多酚复合物在乳化食品生产中的应用提供了理论基础。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40174379/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40174379/",
+  "paper_page_path": "papers/pubmed/40174379/index.html"
+}

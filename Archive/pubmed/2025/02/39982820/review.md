@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (Summary, Introduction, Results, Discussion, Methods, Figure legends as embedded in text)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no assessment of editorial fit or journal policy
+- **Shared manuscript claim summary** The authors propose that ESAT-6 disrupts phagosome-like compartments through a mechanism involving shallow membrane insertion, reduction of membrane tension, fibril formation, and fibril-mediated force generation that drives membrane remodeling, vesiculation, and eventual host cell death.
+- **Visible evidence base** In vitro reconstitution assays (GUVs, LUVs, monolayer), live-cell imaging in THP-1-derived macrophages, fluorescence spectroscopy (tryptophan quenching, Flipper-TR lifetime), ThT fibrillation assays, negative-stain EM, immunogold EM, dynamic light scattering, micropipette aspiration, numerical simulations, apoptosis assay
+- **Missing materials affecting confidence** Figure panels referenced but not fully described in text (e.g., exact quantification details for Figure 3J, Figure 4J); supplementary figures and videos not accessible; statistical details for several comparisons not provided; exact simulation parameters and convergence criteria not fully specified in main text
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a long-standing question in Mtb biology: the mechanism by which ESAT-6 disrupts the phagosomal membrane. The authors combine multiple biophysical and cell biological approaches to propose a novel mechanism involving ESAT-6 fibrillation and force generation. The work is potentially significant, but several technical concerns must be resolved before the central claims are fully established. The evidence for shallow insertion and membrane tension reduction is reasonable, but the causal link between fibrillation and vesiculation, the quantitative treatment of forces, and the physiological relevance of the concentrations used require further support.
+- **Who would be interested in the results, and why** Researchers studying Mtb pathogenesis, host-pathogen interactions, membrane biophysics, protein aggregation and amyloid biology, and intracellular trafficking. The work bridges bacterial virulence and biophysical mechanisms of membrane remodeling, which could interest a broad audience in infection biology and membrane science.
+- **Major strengths** The study addresses a mechanistically unresolved question with a multi-pronged approach. The combination of in vitro reconstitution, live-cell imaging, and numerical simulations is commendable. The observation that ESAT-6 fibrils exert forces on membranes and drive vesiculation is novel and potentially important. The use of a phagosome-mimetic lipid composition is a strength over simpler model systems. The inclusion of mutant controls (ΔN and ΔC terminal) strengthens the specificity of the fibrillation-vesiculation link.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Causal mechanism
+  - **Claim pointer** "ESAT-6 polymerization forces remodeling and vesiculation of the phagosome-like compartment" and "ESAT-6 fibrillation is essential for fission of the buds"
+  - **Evidence pointer** Figures 3A, 3J, 5K, 5L; text in Results sections "ESAT-6 fibrillation drives the rate of vesiculation" and "The shape transitions of phagosomal membrane deformations are driven by the polymerization forces of ESAT-6"
+  - **Concern** The causal link between ESAT-6 fibrillation and membrane fission is inferred primarily from correlative observations: ThT fluorescence increases over time, DLS shows vesicle size reduction at 24 h, and EM shows fibrils associated with vesicles. However, the manuscript does not provide direct evidence that fibril growth generates the forces required for fission. The mutant experiments (ΔN and ΔC) are informative but the text states the ΔN mutant "retards" polymerization and the ΔC mutant "does not induce any polymerization" without quantitative data on the extent of polymerization or fibril morphology for these mutants. The numerical simulations are used to support the force-generation hypothesis, but the model parameters (force magnitudes, fibril density, membrane properties) are not validated against experimental measurements. The claim that fibrillation is "essential" requires a more direct test, such as inhibiting fibrillation with a small molecule or using a mutant that binds membranes but cannot fibrillate.
+  - **Why it matters** The central novelty of the manuscript is the fibrillation-mediated force mechanism. If fibrillation is correlative rather than causal, the mechanistic claim is not established. The distinction between membrane remodeling driven by protein crowding/insertion versus active force generation by growing fibrils has different biophysical implications and physiological consequences.
+  - **Resolution test** Provide quantitative fibrillation kinetics for the ΔN and ΔC mutants under the same conditions as the vesiculation assays. Show that conditions that block fibrillation (e.g., a fibrillation inhibitor, or a mutant that binds but does not polymerize) also block vesiculation. Alternatively, directly measure forces generated by growing ESAT-6 fibrils on membranes (e.g., using optical tweezers or micropipette aspiration with controlled fibril growth) and compare to simulation predictions.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative rigor
+  - **Claim pointer** "ESAT-6 binding reduces the membrane tension and makes it more compressible" and "there is a 3-fold increase in the areal strain before the fission of the bud"
+  - **Evidence pointer** Figures 2A–2E, 6A–6D; text in Results sections "ESAT-6 binding reduces the membrane tension" and "ESAT-6 fibrils facilitate membrane fission"
+  - **Concern** The quantitative claims regarding membrane tension and areal strain are based on fluorescence lifetime measurements and micropipette aspiration, but the text does not provide sufficient detail on how these quantities were calibrated and calculated. For the Flipper-TR measurements, the relationship between fluorescence lifetime and absolute membrane tension is not established; the authors report a decrease from 4.2 to 3.4 ns but do not provide a calibration curve or reference values. For the micropipette aspiration experiments, the calculation of areal strain using Equation 4 requires knowledge of the vesicle radius, pipette radius, and tongue length, but the text does not report these values or the number of independent experiments. The claim of a "3-fold increase" in areal strain is presented without statistical analysis or error estimates. The statement that "the membrane tension increased up to the constriction point followed by relaxation" is based on a single representative trace (Video S6) without quantification across multiple experiments.
+  - **Why it matters** The quantitative biophysical claims are central to the proposed mechanism. If the tension and strain measurements are not rigorously calibrated and statistically supported, the mechanistic interpretation is weakened. The distinction between a 2-fold and 3-fold change may be important for the proposed model.
+  - **Resolution test** Provide calibration data for the Flipper-TR lifetime-to-tension conversion, including control experiments with known tension changes. Report the number of independent experiments, mean values, and error estimates for all tension and strain measurements. Show representative raw traces and the full dataset for the micropipette aspiration experiments, including the calculation of areal strain from measured geometric parameters.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance
+  - **Claim pointer** "ESAT-6 induced a high rate of apoptosis" and "vesiculation of the phagosome-like compartment occurs due to increased membrane areal strain, inducing apoptosis and host cell death"
+  - **Evidence pointer** Figure 7A–7C; text in Results section "ESAT-6 fibrils facilitate membrane fission"
+  - **Concern** The apoptosis experiments use recombinant ESAT-6 added exogenously to macrophages, which may not recapitulate the physiological context of ESAT-6 secretion from intracellular Mtb. The concentrations used (up to 20 μM) may be much higher than local concentrations achieved during infection. The text states that apoptosis correlates with fibrillation kinetics, but the correlation is not quantitatively established. The EM images in Figures 7B and 7C show "significant morphological changes" but the text does not provide quantification of these changes or a time course linking vesiculation to apoptosis. The claim that vesiculation "induces" apoptosis is not directly tested; alternative mechanisms (e.g., ESAT-6-mediated signaling) are not excluded.
+  - **Why it matters** The physiological relevance of the proposed mechanism depends on whether the concentrations and conditions used in vitro reflect the in vivo situation. If the apoptosis is an artifact of high ESAT-6 concentrations, the relevance to Mtb infection is unclear.
+  - **Resolution test** Measure ESAT-6 concentrations in the phagosome during Mtb infection, or use a range of concentrations that includes estimated physiological levels. Perform time-course experiments linking vesiculation to apoptosis with quantitative imaging. Test whether blocking vesiculation (e.g., with a fibrillation inhibitor) also blocks apoptosis. Compare the effects of ESAT-6 with a non-fibrillating mutant on apoptosis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Model validity
+  - **Claim pointer** "Numerical simulations demonstrate that growing fibrils generate both radial and tangential forces remodeling the membrane"
+  - **Evidence pointer** Figure 5A–5I; text in Results section "The shape transitions of phagosomal membrane deformations are driven by the polymerization forces of ESAT-6"
+  - **Concern** The numerical simulations are used to support the force-generation hypothesis, but the model parameters are not fully specified in the main text. The authors state that forces are "on the order of pN" but do not provide the range of values tested or the sensitivity of the results to parameter choices. The model assumes axis symmetry and a monolayered membrane, which may not capture the full complexity of the experimental system. The connection between the simulation results and the experimental observations is qualitative; the authors do not show that the simulated shapes quantitatively match the experimentally observed tubules and buds. The Methods section (Methods S2) is referenced but not provided in the text.
+  - **Why it matters** The simulations are a key pillar of the proposed mechanism. If the model is not validated against experimental data or if the parameters are not constrained by measurements, the simulation results are suggestive but not conclusive.
+  - **Resolution test** Provide the full model description, including parameter values, boundary conditions, and sensitivity analysis. Show quantitative comparisons between simulated and experimentally observed membrane shapes (e.g., tubule diameter, bud size, neck geometry). Test whether the model can reproduce the observed concentration dependence of vesiculation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1B
+  - **Evidence pointer** Figure 1B
+  - **Issue** The binding affinity (Kd ~400 μM) is reported but the fitting procedure and the number of independent experiments are not described. The text states "weak association" but does not provide a quantitative comparison to other membrane-binding proteins.
+  - **Required correction** Provide details of the fitting procedure, the number of replicates, and the error estimate for Kd. Consider discussing the physiological relevance of a Kd of 400 μM in the context of local ESAT-6 concentrations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Figure 1E
+  - **Evidence pointer** Figure 1E
+  - **Issue** The superresolution image is described as capturing "the onset of membrane shape transition," but the text does not specify which superresolution technique was used (e.g., STED, SIM, PALM) or the resolution achieved.
+  - **Required correction** Specify the superresolution method and its resolution. Clarify how the image was processed and whether the observed features are above the resolution limit.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 2F
+  - **Evidence pointer** Figure 2F
+  - **Issue** The control experiments with CFP-10 and BSA are described as showing "no deformations," but the text does not provide quantitative data or statistical comparison to the ESAT-6 condition.
+  - **Required correction** Provide quantitative measures of membrane deformation (e.g., number of tubules per GUV, fraction of GUVs with deformations) for all conditions, with statistical tests.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Figure 3D
+  - **Evidence pointer** Figure 3D
+  - **Issue** The decrease in phagosome-like compartment numbers is interpreted as "disruption and cytosolic access," but the text does not exclude the possibility that the compartments fuse with other membranes or that the fluorescence signal is quenched.
+  - **Required correction** Provide additional evidence for cytosolic access, such as a cytosolic fluorescence reporter or a release assay for a luminal marker.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Figure 4J
+  - **Evidence pointer** Figure 4J
+  - **Issue** The statement that "free-standing tubular necks without tension and strain did not undergo ESAT-6-mediated fission" is presented without details on how this condition was achieved and how fission was assessed.
+  - **Required correction** Describe the experimental setup for this control, including how tension was controlled and how fission was quantified.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods S1 and S2
+  - **Evidence pointer** Methods S1 and S2
+  - **Issue** The surface density calculation (Methods S1) and the simulation details (Methods S2) are referenced but not provided in the text. These are essential for evaluating the quantitative claims.
+  - **Required correction** Include the full content of Methods S1 and S2 in the supplementary material, or provide a summary in the main text with sufficient detail for evaluation.
+
+## Risk / unsupported claims
+- The claim that ESAT-6 fibrillation is "essential" for membrane fission is not fully supported; correlative evidence is provided but direct causal tests are lacking.
+- The quantitative claims about membrane tension reduction and areal strain increase are not supported by sufficient calibration and statistical detail.
+- The physiological relevance of the concentrations used (up to 20 μM) is not established; the text acknowledges the unknown physiological concentration but does not provide a range of concentrations that would bracket the estimated in vivo levels.
+- The claim that vesiculation "induces" apoptosis is not directly tested; alternative mechanisms are not excluded.
+- The numerical simulations are presented as supporting the force-generation hypothesis, but the model parameters and validation are not fully described.
+- The claim that ESAT-6 inserts "only until C5 of the acyl chain" is based on a single quenching experiment (Figure 1G) without independent verification (e.g., by neutron reflectometry or molecular dynamics simulations).

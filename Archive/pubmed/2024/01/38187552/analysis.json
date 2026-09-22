@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38187552",
+  "title": "A computational procedure for predicting excipient effects on protein-protein affinities.",
+  "authors": "Dignon, Gregory L; Dill, Ken A",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-01-08",
+  "window": {
+    "start": "2024-01-08",
+    "end": "2024-01-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用MD模拟与热力学扰动理论预测辅料对单克隆抗体蛋白-蛋白亲和力的影响，虽对象为折叠蛋白而非IDP，但PPI机制建模思路对无序蛋白互作调控有可迁移启发。",
+  "abstract": "Protein-protein interactions lie at the center of much biology and are a challenge in formulating biological drugs such as antibodies. A key to mitigating protein association is to use small molecule additives, i.e. excipients that can weaken protein-protein interactions. Here, we develop a computationally efficient model for predicting the viscosity-reducing effect of different excipient molecules by combining atomic-resolution MD simulations, binding polynomials and a thermodynamic perturbation theory. In a proof of principle, this method successfully rank orders four types of excipients known to reduce the viscosity of solutions of a particular monoclonal antibody. This approach appears useful for predicting effects of excipients on protein association and phase separation, as well as the effects of buffers on protein solutions.",
+  "abstract_zh": "蛋白质-蛋白质相互作用处于许多生物学的核心，并且在配制生物药物（如抗体）时构成挑战。缓解蛋白质聚集的关键在于使用小分子添加剂，即能够削弱蛋白质-蛋白质相互作用的赋形剂。在此，我们开发了一种计算高效的模型，通过结合原子分辨率的分子动力学（MD）模拟、结合多项式以及热力学微扰理论，来预测不同赋形剂分子降低粘度的效果。在原理验证中，该方法成功地对四种已知能降低特定单克隆抗体溶液粘度的赋形剂进行了排序。这种方法似乎对于预测赋形剂对蛋白质关联和相分离（phase separation）的影响，以及缓冲液对蛋白质溶液的影响，均具有实用价值。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38187552/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38187552/",
+  "paper_page_path": "papers/pubmed/38187552/index.html"
+}

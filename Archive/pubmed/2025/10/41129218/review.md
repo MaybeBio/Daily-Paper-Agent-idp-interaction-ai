@@ -1,0 +1,73 @@
+## Review setup
+- **Input scope** Full manuscript text (main text, figure legends not provided, SI Appendix referenced but not provided)
+- **Assessment boundary** Assessment is limited to the main text as provided. The SI Appendix, figures, and tables are referenced but were not supplied for review.
+- **Shared manuscript claim summary** The authors present iConRNA, an intermediate-resolution coarse-grained RNA model with explicit Mg2+ ions, designed to capture structure, dynamics, and phase transitions of flexible RNAs. They report that the model recapitulates sequence-, concentration-, temperature-, and ion-dependent phase behaviors of poly(rA), poly(rU), and trinucleotide repeat RNAs, and they use the model to dissect driving forces of RNA condensation, proposing that RNA folding coordinates Mg2+-phosphate interactions, base stacking, and base pairing to drive phase separation.
+- **Visible evidence base** Main text only. Figures are referenced (Figs. 1-8) but not provided. SI Appendix sections, tables, and equations are referenced but not provided.
+- **Missing materials affecting confidence** All figures, all SI Appendix content (including force field parameters, simulation protocols, additional validation data, and equations), and detailed numerical results are not available. This substantially limits the ability to verify quantitative claims, assess model performance, and evaluate the robustness of the conclusions.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely problem, namely the molecular driving forces of RNA phase separation, and proposes a new computational tool (iConRNA) with explicit treatment of Mg2+ ions. The conceptual framework, particularly the idea of calibrating Mg2+-phosphate interaction strength through excess Mg2+ binding and the emphasis on RNA folding as a central regulator of phase behavior, is interesting and potentially valuable. However, the provided material is insufficient to fully evaluate the technical soundness of the model, the quality of the validation, or the robustness of the conclusions. Several claims are made without sufficient detail in the main text, and the reliance on unpublished SI content makes it difficult to assess whether the evidence base supports the stated findings. The manuscript is likely of interest to the biomolecular phase separation and RNA biophysics communities, but the current evidence base does not fully establish the case.
+- **Who would be interested in the results, and why** Researchers studying biomolecular phase separation, RNA biology, computational biophysics, and coarse-grained modeling. The model could be of practical use for simulating RNA-containing condensates, and the proposed framework for treating Mg2+ effects may be of methodological interest. The findings on the role of RNA folding in phase separation could inform experimental studies of RNA condensates in disease contexts.
+- **Major strengths** The manuscript addresses a significant gap in coarse-grained RNA modeling, namely the explicit treatment of divalent ions in phase separation simulations. The proposed calibration strategy based on excess Mg2+ binding is pragmatic and potentially generalizable. The model is tested against a range of experimentally observed behaviors, including salt dependence, sequence effects, and temperature-dependent phase transitions. The emphasis on RNA folding as a key determinant of phase behavior is a conceptually useful contribution.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model "is capable of describing the structure dynamics and complex sequence, concentration, temperature, and ion-dependent phase transitions of flexible RNAs" and "successfully predicts the hairpin structures of (CAG)31 and (CUG)31 and the disordered single strand of (CUU)31."
+  - **Evidence pointer** Figures 2, 3, 4, 6, 7; SI Appendix Figs. S7, S9, S11, S12, S16; location not provided
+  - **Concern** The validation claims are presented without access to the actual figures or SI data. Quantitative measures of agreement (e.g., Rg values, melting temperatures, phase boundaries) are not reported in the main text. The statement that the model "successfully predicts" structures is not supported by any numerical comparison in the provided text. Without the figures and SI tables, it is impossible to assess whether the agreement is quantitative or merely qualitative, and whether the discrepancies noted (e.g., overestimation of Rg for rU30) are within acceptable bounds.
+  - **Why it matters** The core value of the manuscript rests on the demonstrated accuracy of the model. If the validation is not robust, the subsequent phase separation results and mechanistic conclusions are not trustworthy.
+  - **Resolution test** Provide the figures and SI data, and include explicit quantitative comparisons (e.g., Rg values, melting temperatures, phase boundary locations) between simulation and experiment in the main text or SI.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "A single Hill equation could be applied for both poly(rA) and poly(rU) to fit λP-Mg against ΔnMg" (Eq. 5), and this "could be a general rule to determine λP-Mg through ΔnMg without the need for recalibration for different RNAs."
+  - **Evidence pointer** Figure 4C; SI Appendix Fig. S12; location not provided
+  - **Concern** The claim of a universal relationship between λP-Mg and ΔnMg is based on only two RNA sequences (poly(rA) and poly(rU)). The authors then apply this relationship to trinucleotide repeats, using ΔnMg values derived from atomistic simulations of (CAG)31. The generality of Eq. 5 is asserted but not demonstrated. It is unclear whether the relationship holds for other sequences, structures, or ionic conditions. The manuscript does not provide error bars or statistical measures for the fit, nor does it discuss the sensitivity of the results to the choice of this functional form.
+  - **Why it matters** The transferability of the Mg2+ calibration is central to the model's utility. If Eq. 5 is not general, the phase diagrams for trinucleotide repeats could be systematically biased.
+  - **Resolution test** Test Eq. 5 on additional RNA sequences with different base compositions and structures. Provide statistical measures of the fit quality and discuss the range of validity.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for mechanistic conclusions
+  - **Claim pointer** "RNA folding has a central role in controlling the competition between intramolecular and intermolecular base pairing, which is also a key process underlying the complex temperature and Mg2+ dependence of the phase diagram and likely gelation and reversibility."
+  - **Evidence pointer** Figure 8; location not provided
+  - **Concern** The mechanistic conclusion that RNA folding is central to phase behavior is derived from analysis of intermolecular contacts and base-pairing patterns within condensates. However, the main text does not provide quantitative details of this analysis. The claim that "the apparent competition between hairpin and duplex formation suggests an important role in the intramolecular folding of RNA in phase separation" is presented as an interpretation, but the evidence for this competition is not shown. The observation that annealing leads to increased intermolecular base pairing and reduced Mg2+-mediated interactions is interesting, but the timescales and statistical significance are not reported.
+  - **Why it matters** The mechanistic insight is a key selling point of the manuscript. If the evidence is not robust, the conclusions are speculative.
+  - **Resolution test** Provide quantitative analysis of contact frequencies, base-pairing populations, and their temperature dependence. Include statistical measures and discuss the limitations of the analysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The model and simulation protocols are described, and data are stated to be available on GitHub.
+  - **Evidence pointer** Materials and Methods; Data, Materials, and Software Availability
+  - **Concern** The Materials and Methods section is brief and refers to the SI for details. The main text does not specify the simulation length, system size, number of replicates, or convergence criteria for the phase separation simulations. The statement that "the current simulation timescales are not always sufficient to reach well equilibrated phase coexistence in all conditions" is a significant caveat, but the extent of this limitation is not quantified. The GitHub repository is mentioned, but it is not clear whether it contains all necessary files and instructions for reproducing the results.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without sufficient detail, other groups cannot build on this work.
+  - **Resolution test** Provide full simulation details in the SI, including convergence analysis, and ensure the GitHub repository is complete and documented.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Eq. 6
+  - **Evidence pointer** Main text, Eq. 6
+  - **Issue** The text states "where T is the temperature in Kevin." This is a typo; it should be "Kelvin."
+  - **Required correction** Correct the typo.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of limitations
+  - **Evidence pointer** Discussion section
+  - **Issue** The Discussion mentions limitations of the model (e.g., only canonical base pairs, no noncanonical interactions, limitations of the Debye-Hückel treatment), but these are not discussed in depth. The authors could more thoroughly discuss the potential impact of these limitations on the conclusions.
+  - **Required correction** Expand the discussion of limitations and their potential impact on the findings.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Figure references
+  - **Evidence pointer** Main text
+  - **Issue** The main text refers to figures and SI figures extensively, but the figures are not provided in the manuscript text. This is normal for a journal submission, but it makes it difficult for a reviewer to assess the work without access to the figures.
+  - **Required correction** Ensure that figures and SI are available to reviewers.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation evidence not visible), R1-M2 (generality of Eq. 5 not established), R1-M3 (mechanistic analysis not quantified), R1-M4 (reproducibility details incomplete).
+- **Assessment against Nature-style criteria** Originality: The work is original in its specific combination of coarse-grained RNA modeling with explicit Mg2+ and its application to phase separation. The idea of calibrating Mg2+ interactions via excess binding is a useful contribution. Scientific importance: The topic is important, and the model could be a valuable tool, but the importance of the specific findings is not fully established from the provided material. Interdisciplinary readership: The work is likely to appeal to biophysicists, computational chemists, and RNA biologists, but the presentation is quite technical and may not be accessible to a broad interdisciplinary audience. Technical soundness: Cannot be fully assessed from the provided material; the validation and analysis details are in the SI and figures, which were not available. Readability for nonspecialists: The Significance statement is clear, but the main text is dense and assumes significant background knowledge. The manuscript would benefit from a more accessible introduction to the concepts of phase separation and coarse-grained modeling.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem and presents a potentially useful model, but the evidence base provided is insufficient to verify the technical soundness of the model, the robustness of the validation, or the strength of the mechanistic conclusions. The authors should be given the opportunity to provide the full manuscript, including figures and SI, for a complete review.

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.06.24.546370",
+  "title": "Intrinsically disordered CsoS2 acts as a general molecular thread for α-carboxysome shell assembly",
+  "authors": "Ni T; Jiang Q; Ng PC; Shen J; Dou H; Zhu Y; Radecke J; Dykes GF; Huang F; Liu L; Zhang P",
+  "journal": "bioRxiv",
+  "published_date": "2023-06-24",
+  "window": {
+    "start": "2023-06-19",
+    "end": "2023-06-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究通过冷冻电镜结构揭示无序蛋白CsoS2的C端作为通用分子线贯穿多个壳蛋白界面，驱动α-羧酶体壳组装，虽对象为无序蛋白且涉及PPI机制，但方法以实验结构为主，AI/物理模拟方法较弱。",
+  "abstract": "Carboxysomes are a paradigm of self-assembling proteinaceous organelles found in nature, offering compartmentalisation of enzymes and pathways to enhance carbon fixation. In α-carboxysomes, the disordered linker protein CsoS2 plays an essential role in carboxysome assembly and Rubisco encapsulation. Its mechanism of action, however, is not fully understood. Here we synthetically engineered α-carboxysome shells using minimal shell components and determined cryoEM structures of these to decipher the principle of shell assembly and encapsulation. The structures reveal that the intrinsically disordered CsoS2 C-terminus is well-structured and acts as a universal “molecular thread” stitching through multiple shell protein interfaces. We further uncovered in CsoS2 a remarkable highly conserved repetitive key interaction motif, [IV]TG, which is critical to the shell assembly and architecture. Our study provides a general mechanism for the CsoS2-govern carboxysome shell assembly and cargo encapsulation and further advances synthetic engineering of carboxysomes for diverse biotechnological applications.",
+  "abstract_zh": "羧基体（carboxysomes）是自然界中发现的自组装蛋白质细胞器的一个范例，通过分隔酶和代谢途径来增强碳固定。在α-羧基体中，无序连接蛋白CsoS2在羧基体组装和Rubisco封装中发挥关键作用。然而，其作用机制尚未完全阐明。在此，我们利用最小壳组分合成工程化α-羧基体壳，并通过冷冻电镜（cryoEM）结构解析来阐明壳组装和封装的原理。结构揭示， intrinsically disordered CsoS2 C末端具有良好结构，并作为通用“分子线”贯穿多个壳蛋白界面。我们进一步在CsoS2中发现了一个显著的高度保守重复关键相互作用基序[IV]TG，该基序对壳组装和结构至关重要。我们的研究提供了CsoS2调控羧基体壳组装和货物封装的通用机制，并进一步推进了羧基体在多种生物技术应用中的合成工程化。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.06.24.546370",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.06.24.546370",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.06.24.546370/index.html"
+}

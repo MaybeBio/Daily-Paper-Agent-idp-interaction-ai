@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41527849",
+  "title": "A short linear motif, conserved from yeast to human, binds to members of the Spa2 family of cortical scaffold proteins.",
+  "authors": "Bareis, Lara; Siewert, Annika; Grupp, Benjamin; Bergner, Tim; Read, Clarissa; Timmermann, Steffi; Schmid, Nicole; Johnsson, Nils",
+  "journal": "Journal of cell science",
+  "published_date": "2026-01-13",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文研究无序短线性基序(SLiM)与Spa2支架蛋白的PPI，结合AlphaFold预测无序到螺旋的折叠转变及突变验证，揭示互作机制并跨物种预测，高度契合无序蛋白互作机制建模主题。",
+  "abstract": "Tip growth is closely tied to fungal pathogenicity. Budding yeast Spa2 (the homolog of GIT1 and GIT2 in mammals), a multi-domain protein and member of the polarisome, orchestrates tip growth in yeasts and other fungi. We identified a conserved short linear motif in the Rab GTPase-activating proteins (RabGAPs) Msb3 and Msb4, and the MAP kinase kinases Ste7 and Mkk1, which mediates their interaction with Spa2. AlphaFold predictions suggest that these initially unstructured motifs adopt an alpha-helical conformation upon binding to the hydrophobic cleft in the N-terminal domain of Spa2. Altering the predicted key contact residues in either Spa2 or the motif reduces complex stability. Such mutations also cause mis-localization of Msb3, Msb4 and Ste7 within the cell. Deleting the motif in Msb3 or Msb4 abolishes tip-directed growth of the yeast bud. Protein assemblies that spatially confine secretion to specific membrane regions are a common feature of eukaryotic cells. Accordingly, complexes between proteins with this motif and Spa2 were predicted in orthologs and paralogs across selected Opisthokonta, including pathogenic fungi and humans. A search for functional motifs in conformationally flexible regions of all yeast proteins identified Dse3 as a novel Spa2-binding partner.",
+  "abstract_zh": "尖端生长与真菌致病性密切相关。出芽酵母中的Spa2（哺乳动物中GIT1和GIT2的同源物），一种多结构域蛋白且为极体（polarisome）成员，协调酵母及其他真菌的尖端生长。我们在Rab GTP酶激活蛋白（RabGAPs）Msb3和Msb4以及MAP激酶激酶Ste7和Mkk1中鉴定出一个保守的短线性基序，该基序介导它们与Spa2的相互作用。AlphaFold预测表明，这些初始无序的基序在与Spa2 N端结构域中的疏水裂隙结合时，会采用α-螺旋构象。改变Spa2或基序中预测的关键接触残基会降低复合物稳定性。此类突变还导致Msb3、Msb4和Ste7在细胞内的错误定位。删除Msb3或Msb4中的该基序会消除酵母芽的尖端定向生长。将分泌空间限制在特定膜区域的蛋白质组装是真核细胞的一个共同特征。因此，在选定的后鞭毛生物（Opisthokonta）中，包括致病真菌和人类，预测了含有该基序的蛋白质与Spa2之间的复合物。对所有酵母蛋白构象柔性区域中功能基序的搜索将Dse3鉴定为新的Spa2结合伙伴。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41527849/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41527849/",
+  "paper_page_path": "papers/pubmed/41527849/index.html"
+}

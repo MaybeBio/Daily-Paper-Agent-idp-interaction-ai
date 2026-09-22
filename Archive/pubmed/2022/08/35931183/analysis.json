@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35931183",
+  "title": "Review: Investigating the aggregation of amyloid beta with surface plasmon resonance: Do different approaches yield different results?",
+  "authors": "Young, Kimberly A; Mancera, Ricardo L",
+  "journal": "Analytical biochemistry",
+  "published_date": "2022-08-06",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 4,
+  "one_liner_zh": "综述表面等离子共振(SPR)表征淀粉样β聚集的不同方法及其对结合数据建模的影响，对象为淀粉样蛋白聚集而非无序蛋白PPI机制，方法为实验技术综述，无AI/物理模拟建模，与本课题关联较弱。",
+  "abstract": "Aggregation of amyloid beta into amyloid plaques in the brain is a hallmark characteristic of Alzheimer's disease. Therapeutics aimed at preventing or retarding amyloid formation often rely on detailed characterization of the underlying mechanism and kinetics of protein aggregation. Surface plasmon resonance (SPR) spectroscopy is a robust technique used to determine binding affinity and kinetics of biomolecular interactions. This approach has been used to characterize the mechanism of aggregation of amyloid beta but there are multiple pitfalls that need to be addressed when working with this and other amyloidogenic proteins. The choice of method for analyte preparation and ligand immobilization to a sensor chip can lead to different theoretical and practical implications in terms of the mathematical modelling of binding data, different mechanisms of binding and the presence of different interacting species. This review examines preparation methods for SPR characterisation of the aggregation of amyloid beta and their influence on the findings derived from such studies.",
+  "abstract_zh": "淀粉样β蛋白在大脑中聚集成淀粉样斑块是阿尔茨海默病的一个标志性特征。旨在预防或延缓淀粉样蛋白形成的治疗方法，往往依赖于对蛋白质聚集的潜在机制和动力学的详细表征。表面等离子体共振 (surface plasmon resonance, SPR) 光谱是一种用于确定生物分子相互作用的结合亲和力和动力学的稳健技术。该方法已被用于表征淀粉样β蛋白的聚集机制，但在处理该蛋白及其他淀粉样变性蛋白时，存在多个需要解决的陷阱。分析物制备方法及配体在传感器芯片上的固定化选择，会在结合数据的数学建模、不同的结合机制以及不同相互作用物种的存在方面，产生不同的理论和实践影响。本综述探讨了用于SPR表征淀粉样β蛋白聚集的制备方法，以及这些方法对此类研究所得结果的影响。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35931183/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35931183/",
+  "paper_page_path": "papers/pubmed/35931183/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37463458",
+  "title": "SOURSOP: A Python Package for the Analysis of Simulations of Intrinsically Disordered Proteins.",
+  "authors": "Lalmansingh, Jared M; Keeley, Alex T; Ruff, Kiersten M; Pappu, Rohit V; Holehouse, Alex S",
+  "journal": "Journal of chemical theory and computation",
+  "published_date": "2023-07-18",
+  "window": {
+    "start": "2023-07-17",
+    "end": "2023-07-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文介绍了一个用于分析无序蛋白模拟构象系综的Python工具包SOURSOP，虽聚焦IDR对象但缺乏PPI互作机制和AI/物理模拟方法贡献，属于工具性综述，对课题有间接参考价值。",
+  "abstract": "Conformational heterogeneity is a defining hallmark of intrinsically disordered proteins and protein regions (IDRs). The functions of IDRs and the emergent cellular phenotypes they control are associated with sequence-specific conformational ensembles. Simulations of conformational ensembles that are based on atomistic and coarse-grained models are routinely used to uncover the sequence-specific interactions that may contribute to IDR functions. These simulations are performed either independently or in conjunction with data from experiments. Functionally relevant features of IDRs can span a range of length scales. Extracting these features requires analysis routines that quantify a range of properties. Here, we describe a new analysis suite simulation analysis of unfolded regions of proteins (SOURSOP), an object-oriented and open-source toolkit designed for the analysis of simulated conformational ensembles of IDRs. SOURSOP implements several analysis routines motivated by principles in polymer physics, offering a unique collection of simple-to-use functions to characterize IDR ensembles. As an extendable framework, SOURSOP supports the development and implementation of new analysis routines that can be easily packaged and shared.",
+  "abstract_zh": "构象异质性（conformational heterogeneity）是固有无序蛋白及蛋白区域（IDRs）的定义性特征。IDRs的功能及其控制的涌现细胞表型与序列特异性构象集合相关。基于原子和粗粒化模型的构象集合模拟通常用于揭示可能贡献于IDR功能的序列特异性相互作用。这些模拟可独立进行，或与实验数据结合使用。IDRs的功能相关特征可跨越多种长度尺度。提取这些特征需要量化多种属性的分析程序。在此，我们描述了一个新的分析套件——蛋白未折叠区域模拟分析（SOURSOP），这是一个面向对象且开源的工具包，专为分析IDRs的模拟构象集合而设计。SOURSOP实现了多项受高分子物理学原理启发的分析程序，提供了一套独特的易用函数集合来表征IDR集合。作为一个可扩展框架，SOURSOP支持新分析程序的开发与实现，这些程序可轻松打包和共享。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37463458/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37463458/",
+  "paper_page_path": "papers/pubmed/37463458/index.html"
+}

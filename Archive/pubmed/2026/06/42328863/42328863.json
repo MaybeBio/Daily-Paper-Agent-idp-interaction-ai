@@ -1,0 +1,420 @@
+{
+  "identity": {
+    "pmid": "42328863",
+    "doi": "10.1128/mbio.01153-26",
+    "title": "Functional dissection of Corynebacterium glutamicum Wag31 domains for septal recruitment and polar distribution during the cell cycle."
+  },
+  "content": {
+    "abstract": "Bacterial cell morphogenesis is controlled by the synthesis and organization of peptidoglycan and driven by multi-protein complexes, such as the divisome and elongasome. Here, we investigate the role of the Corynebacterium glutamicum DivIVA homolog, Wag31, the elongasome scaffold that is required for polar growth in Corynebacteriales. Conditional depletion of Wag31 results in coccoid-shaped cells, able to divide over several generations, showing that Wag31 is essential for rod shape maintenance, but not for viability in the conditions tested. Wag31/DivIVA homologs are formed by two distinct coiled-coil domains, a highly conserved N-terminal domain (NtD, also referred to as the DivIVA domain), and a more variable C-terminal domain (CtD). Our structural phylogenetic analyses revealed that in Actinobacteria, unlike Firmicutes, an intrinsically disordered region spatially separates the NtD from the CtD. We show that the NtD is necessary and sufficient for septum localization, while the CtD mediates self-interaction and polar accumulation. Our findings suggest that Wag31 is recruited specifically to the septum through protein-protein interactions involving the NtD, priming the future pole, and allowing for a timely divisome-elongasome transition at cytokinesis. Once the pole is formed, the self-aggregative properties of the CtD dominate and form a stable structure that likely organizes the pole for cell wall biosynthesis. IMPORTANCE: Wag31, the elongasome scaffold in Corynebacteriales, is a cytoskeletal protein that remains poorly understood. In Firmicutes, the Wag31 homolog, DivIVA, has been largely studied, but its function differs from that of Actinobacteria. Using AlphaFold predictions and evolutionary analysis, we found a clear sequence and structure cutoff between Firmicutes and Actinobacteria, correlating with their different functions. An intrinsically disordered insertion in Wag31 appeared early in the actinobacterial tree, separating the membrane/septum binding function of the N-terminal DivIVA domain from the C-terminal coiled-coil domain's self-aggregation function. We analyzed each domain's role and assigned a dominant role in cellular distribution. The N-ter is necessary for septal recruitment, independent of membrane binding capacities. Timely recruitment is essential for correct cellular distribution, as interference with this domain leads to asymmetric Wag31 localization and septum misplacement. We propose that Wag31's early role at the septum is to prime the future pole, where it organizes polar growth upon cytokinesis.",
+    "keywords": [
+      "Actinobacteria",
+      "DivIVA",
+      "Wag31",
+      "cell cycle",
+      "coiled-coil domain",
+      "elongasome",
+      "morphogenesis",
+      "polar growth"
+    ],
+    "mesh_terms": [
+      "*Corynebacterium glutamicum/genetics/cytology/metabolism/physiology/growth & development",
+      "*Bacterial Proteins/genetics/metabolism/chemistry",
+      "*Cell Cycle Proteins/metabolism/genetics/chemistry",
+      "*Cell Cycle",
+      "Protein Domains",
+      "Phylogeny",
+      "Cell Division"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Petit, Julienne",
+        "Megrian, Daniela",
+        "Martinez, Mariano",
+        "Sogues, Adria",
+        "Brunk, Gabriel",
+        "de Sousa-d'Auria, Celia",
+        "Ben Assaya, Mathilde",
+        "Thouvenot, Catherine",
+        "Lesur, Emilie",
+        "Bourdreux, Yann",
+        "Bayan, Nicolas",
+        "Alzari, Pedro M",
+        "Wehenkel, Anne Marie"
+      ],
+      "short_names": [
+        "Petit J",
+        "Megrian D",
+        "Martinez M",
+        "Sogues A",
+        "Brunk G",
+        "de Sousa-d'Auria C",
+        "Ben Assaya M",
+        "Thouvenot C",
+        "Lesur E",
+        "Bourdreux Y",
+        "Bayan N",
+        "Alzari PM",
+        "Wehenkel AM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4233-1903",
+        "ORCID: 0000-0003-2327-6512"
+      ],
+      "affiliations": [
+        "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Paris, France. RINGGOLD: 27058. ROR: https://ror.org/0495fxg12",
+        "Structural Microbiology Unit, Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Paris, France. ROR: https://ror.org/0495fxg12",
+        "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Paris, France. RINGGOLD: 27058. ROR: https://ror.org/0495fxg12",
+        "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Paris, France. RINGGOLD: 27058. ROR: https://ror.org/0495fxg12",
+        "Structural Microbiology Unit, Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Paris, France. ROR: https://ror.org/0495fxg12",
+        "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Paris, France. RINGGOLD: 27058. ROR: https://ror.org/0495fxg12",
+        "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Paris, France. RINGGOLD: 27058. ROR: https://ror.org/0495fxg12",
+        "Universite Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France. ROR: https://ror.org/03xjwb503",
+        "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Paris, France. RINGGOLD: 27058. ROR: https://ror.org/0495fxg12",
+        "Ultrastructural BioImaging Unit, Institut Pasteur, Universite Paris Cite, Paris, France. ROR: https://ror.org/0495fxg12",
+        "Universite Paris-Saclay, CNRS UMR 8182, Institut de Chimie Moleculaire et des Materiaux d'Orsay, ICMMO, Orsay, France. ROR: https://ror.org/05wzh1m37",
+        "Universite Paris-Saclay, CNRS UMR 8182, Institut de Chimie Moleculaire et des Materiaux d'Orsay, ICMMO, Orsay, France. ROR: https://ror.org/05wzh1m37",
+        "Universite Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France. ROR: https://ror.org/03xjwb503",
+        "Structural Microbiology Unit, Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Paris, France. ROR: https://ror.org/0495fxg12",
+        "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Universite Paris Cite, CNRS UMR 3528, Paris, France. RINGGOLD: 27058. ROR: https://ror.org/0495fxg12"
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Petit, Julienne",
+        "short_name": "Petit J",
+        "identifiers": [],
+        "affiliations": [
+          "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Paris, France.",
+          "Structural Microbiology Unit, Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Megrian, Daniela",
+        "short_name": "Megrian D",
+        "identifiers": [],
+        "affiliations": [
+          "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Martinez, Mariano",
+        "short_name": "Martinez M",
+        "identifiers": [],
+        "affiliations": [
+          "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Paris, France.",
+          "Structural Microbiology Unit, Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Sogues, Adrià",
+        "short_name": "Sogues A",
+        "identifiers": [],
+        "affiliations": [
+          "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Brunk, Gabriel",
+        "short_name": "Brunk G",
+        "identifiers": [],
+        "affiliations": [
+          "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Paris, France."
+        ]
+      },
+      {
+        "full_name": "de Sousa-d'Auria, Célia",
+        "short_name": "de Sousa-d'Auria C",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Ben Assaya, Mathilde",
+        "short_name": "Ben Assaya M",
+        "identifiers": [],
+        "affiliations": [
+          "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Thouvenot, Catherine",
+        "short_name": "Thouvenot C",
+        "identifiers": [],
+        "affiliations": [
+          "Ultrastructural BioImaging Unit, Institut Pasteur, Université Paris Cité, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Lesur, Emilie",
+        "short_name": "Lesur E",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, CNRS UMR 8182, Institut de Chimie Moléculaire et des Matériaux d'Orsay, ICMMO, Orsay, France."
+        ]
+      },
+      {
+        "full_name": "Bourdreux, Yann",
+        "short_name": "Bourdreux Y",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, CNRS UMR 8182, Institut de Chimie Moléculaire et des Matériaux d'Orsay, ICMMO, Orsay, France."
+        ]
+      },
+      {
+        "full_name": "Bayan, Nicolas",
+        "short_name": "Bayan N",
+        "identifiers": [],
+        "affiliations": [
+          "Université Paris-Saclay, CEA, CNRS, Institute for Integrative Biology of the Cell (I2BC), Gif-sur-Yvette, France."
+        ]
+      },
+      {
+        "full_name": "Alzari, Pedro M",
+        "short_name": "Alzari PM",
+        "identifiers": [
+          "0000-0002-4233-1903"
+        ],
+        "affiliations": [
+          "Structural Microbiology Unit, Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Paris, France."
+        ]
+      },
+      {
+        "full_name": "Wehenkel, Anne Marie",
+        "short_name": "Wehenkel AM",
+        "identifiers": [
+          "0000-0003-2327-6512"
+        ],
+        "affiliations": [
+          "Bacterial Cell Cycle Mechanisms Unit, Institut Pasteur, Université Paris Cité, CNRS UMR 3528, Paris, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "mBio"
+    ],
+    "journal_abbrev": [
+      "mBio"
+    ],
+    "pub_date": "2026 Aug 12",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/22 13:42",
+    "fetched_at": "2026-09-18 04:23:13"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40402572",
+      "38639993",
+      "37679597",
+      "36713172",
+      "36411352",
+      "36253643",
+      "35205323",
+      "35179161",
+      "35081523",
+      "34850943",
+      "34361115",
+      "34351794",
+      "34265844",
+      "33977052",
+      "33544079",
+      "32881101",
+      "32424210",
+      "32242019",
+      "32167475",
+      "31405912",
+      "31226003",
+      "30664686",
+      "30651563",
+      "30160378",
+      "29135925",
+      "27572972",
+      "27551018",
+      "25709601",
+      "25664446",
+      "25049412",
+      "24998739",
+      "24843005",
+      "24792177",
+      "24377418",
+      "24118443",
+      "23405112",
+      "23329690",
+      "23264578",
+      "22869733",
+      "22743772",
+      "22340668",
+      "21903929",
+      "21636745",
+      "21636744",
+      "21190553",
+      "20718988",
+      "20502438",
+      "19666580",
+      "19552710",
+      "19552709",
+      "19505945",
+      "19478798",
+      "19379681",
+      "18805980",
+      "18310019",
+      "18296522",
+      "18047570",
+      "17766411",
+      "15985609",
+      "15915565",
+      "15165232",
+      "14695899",
+      "14663085",
+      "12950918",
+      "12657046",
+      "9219999",
+      "9045828",
+      "8366043",
+      "8045426"
+    ],
+    "similar": [
+      "42328863",
+      "40894588",
+      "19552709",
+      "18296522",
+      "39287436",
+      "37679597",
+      "40402572",
+      "41187904",
+      "32695423",
+      "18310019",
+      "31778770",
+      "30682467",
+      "36713172",
+      "35205323",
+      "23264578",
+      "39873485",
+      "36778425",
+      "34203111",
+      "22108385",
+      "34031039",
+      "34006657",
+      "24118443",
+      "27551018",
+      "39320104",
+      "25709601",
+      "32605980",
+      "29311277",
+      "31085632",
+      "18388125",
+      "34098735",
+      "19552710",
+      "30160378",
+      "20622015",
+      "31382874",
+      "42475469",
+      "28972021",
+      "30887576",
+      "32041796",
+      "18283557",
+      "16849811",
+      "38470120",
+      "23002219",
+      "30318635",
+      "23289458",
+      "20502438",
+      "32242019",
+      "33895137",
+      "40729392",
+      "23860769",
+      "31932314",
+      "31828448",
+      "38746181",
+      "29138309",
+      "38653035",
+      "39558276",
+      "30290265",
+      "33293384",
+      "22340668",
+      "27902442",
+      "37966202",
+      "18776011",
+      "30693575",
+      "24722178",
+      "23405112",
+      "36469781",
+      "41114597",
+      "28674273",
+      "27137498",
+      "32073722",
+      "42202076",
+      "21190553",
+      "34903053",
+      "15165232",
+      "10960100",
+      "28630123",
+      "24792177",
+      "30670544",
+      "17098892",
+      "28720084",
+      "15554965",
+      "28588128",
+      "27684385",
+      "23912807",
+      "11707343",
+      "36662698",
+      "28300142",
+      "19497327",
+      "33097670",
+      "35296142",
+      "31871036",
+      "23520975",
+      "27503875",
+      "12665577",
+      "25101664",
+      "40978520",
+      "29233891",
+      "18950194",
+      "37876871",
+      "42578761",
+      "34607462"
+    ],
+    "review": [
+      "42328863",
+      "30887576",
+      "18283557",
+      "38653035",
+      "37876871"
+    ],
+    "pmc": [
+      "13463852"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://journals.asm.org/doi/10.1128/mbio.01153-26?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/42328863/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

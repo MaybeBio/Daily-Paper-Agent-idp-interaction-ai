@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, conclusions) as provided
+- **Assessment boundary** Scientific content, methodological soundness, claims versus evidence, and alignment with Nature-style criteria based solely on the supplied material
+- **Shared manuscript claim summary** The authors use atomistic molecular dynamics simulations to characterize the membrane interactions, conformational dynamics, and lipid sorting of three intrinsically disordered membrane anchors from Rheb, RhoA, and DiRas3 small GTPases in model membranes of differing lipid composition. They report that sequence-lipid complementarity governs conformational plasticity, that electrostatic interactions with anionic lipids stabilize semistable substates, and that polybasic domains alter local lipid composition by segregating anionic lipids.
+- **Visible evidence base** Abstract, introduction, methods, results and discussion, conclusions, figure captions referenced in text, table 1 referenced, supplementary figure references, data availability statement
+- **Missing materials affecting confidence** Figures and supplementary figures not provided; table 1 not provided; simulation trajectory data not accessible; no error analysis or convergence metrics beyond those described in text; no experimental validation data beyond literature references
+
+## Reviewer
+- **Overall assessment** The manuscript presents a systematic computational study of three lipidated intrinsically disordered regions from small GTPases, addressing a relevant question about how IDR sequence and membrane lipid composition jointly determine conformational behavior and lipid sorting. The work is technically competent in its use of atomistic MD simulations and builds on prior work from the same group. However, the evidence base as provided is incomplete, with key figures and tables absent, which limits full evaluation. The central claims are plausible and partially supported by the described analyses, but several assertions extend beyond what the presented data can establish, particularly regarding functional implications and the generality of the proposed mechanisms. The manuscript would benefit from clearer presentation of convergence, statistical robustness, and direct comparisons across systems.
+- **Who would be interested in the results, and why** Researchers in computational biophysics and membrane biology, particularly those studying Ras superfamily GTPases, protein-lipid interactions, intrinsically disordered proteins, and membrane organization. The work also has relevance for those interested in the molecular basis of membrane targeting and nanocluster formation in cell signaling.
+- **Major strengths** The study addresses a timely and important question about how IDR sequence and membrane composition jointly determine conformational behavior. The choice of three GTPases with distinct sequences, lipid modifications, and target membranes provides a useful comparative framework. The use of atomistic simulations with microsecond timescales is appropriate for the questions asked. The authors connect their findings to prior experimental data on DiRas3, which strengthens the validity of their simulation results. The discussion of functional implications, while speculative, is thoughtful and grounded in the broader literature.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "complementarity between the lipidated IDR sequence and target membrane lipid composition is a determinant of conformational plasticity" and that "electrostatic interactions between anionic lipids and basic residues on IDRs are correlated with sampling of semistable conformational substates."
+  - **Evidence pointer** Results and Discussion, Figures 3, 4, 5, 6; location not provided for specific figure panels
+  - **Concern** The central claims about conformational plasticity and substate sampling rest on analyses of probability density distributions and principal component projections. However, the manuscript does not provide quantitative measures of statistical uncertainty, convergence of these distributions, or comparisons across independent simulations. The claim that specific substates are "semistable" requires demonstration of metastability, such as free energy barriers or residence times, which is not presented. Without these, it is difficult to assess whether the observed differences between Rheb, RhoA, and DiRas3 are robust or within statistical noise.
+  - **Why it matters** The core scientific contribution is the claim that sequence-lipid complementarity determines conformational behavior. If the evidence for distinct conformational ensembles is not statistically robust, the central thesis is weakened.
+  - **Resolution test** Provide convergence metrics for the probability density distributions (e.g., block averaging, split-half analysis), quantify uncertainties on the reported observables, and demonstrate metastability of the identified substates through free energy calculations or residence time analyses.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors state that "small GTPase IDRs with a polybasic domain alter local lipid composition by segregating anionic lipids and, in some cases, excluding other lipids from their immediate vicinity in favor of anionic lipids."
+  - **Evidence pointer** Results and Discussion, Figure 7; location not provided
+  - **Concern** The claim of lipid segregation and exclusion is based on 2D particle density calculations around the peptide center of mass. However, the manuscript does not provide quantitative measures of enrichment or depletion relative to bulk values, nor statistical significance testing. The statement that DiRas3 "segregated PS lipids to such a degree that other lipid species were far less present" is presented without a quantitative threshold or comparison. Additionally, the authors note that the small number of PI and Chol in the Rheb system makes number density analysis less reliable, which raises questions about the robustness of the reported clustering for those lipids.
+  - **Why it matters** Lipid sorting is a key functional claim with implications for nanocluster formation. If the evidence is not quantitatively robust, the functional conclusions are not supported.
+  - **Resolution test** Provide enrichment/depletion factors with confidence intervals, perform statistical tests comparing local to bulk lipid composition, and address the small-number issue for PI and Chol either through longer simulations or replicate runs.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The authors suggest that their findings "imply that these proteins may also be able to form signaling nanoclusters through a similar lipid sorting mechanism" and that "competitive interactions with anionic phospholipids may also contribute to the disruption of KRAS nanoclusters."
+  - **Evidence pointer** Conclusions and Implications for Function; location not provided
+  - **Concern** These functional implications are speculative and extend beyond the simulation data. While the authors appropriately use cautious language ("imply," "may"), the leap from in silico observations of lipid clustering to predictions about nanocluster formation and signaling is substantial. The manuscript does not provide a mechanistic model connecting the observed lipid sorting to nanocluster assembly or disruption, nor does it address the timescale and length scale gaps between the simulations and cellular phenomena.
+  - **Why it matters** Overinterpretation of computational results can mislead readers and overstate the functional relevance of the findings.
+  - **Resolution test** Either temper the functional claims to be explicitly hypothesis-generating, or provide a more detailed mechanistic argument supported by additional analyses or literature that bridges the gap from molecular simulations to cellular phenomena.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, MD simulations
+  - **Evidence pointer** Methods, MD Simulations; location not provided
+  - **Issue** The manuscript states that different equilibration protocols were used for different systems (NAMD for Rheb and RhoA, GROMACS for DiRas3) but does not discuss whether this could introduce systematic differences in the results.
+  - **Required correction** Add a brief statement addressing the comparability of results across systems despite the use of different simulation engines and equilibration protocols.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section, Trajectory Analysis
+  - **Evidence pointer** Methods, Trajectory Analysis; location not provided
+  - **Issue** The manuscript mentions that the entire DiRas3 trajectory was used for analysis but does not specify how much of the Rheb and RhoA trajectories were used beyond stating "last 1.5 μs." It is unclear whether the initial portions were discarded as equilibration and what criteria were used.
+  - **Required correction** Specify the equilibration period discarded for each system and the criteria used to determine when the systems reached equilibrium.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results and Discussion, Bilayer properties
+  - **Evidence pointer** Results and Discussion, Bilayer Structure and Dynamics; location not provided
+  - **Issue** The authors report bilayer thickness, area per lipid, and diffusion coefficients but do not compare these to experimental values or to previous simulation studies of similar membranes, which would help validate the model systems.
+  - **Required correction** Add a brief comparison of the bilayer properties to available experimental or computational benchmarks.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Results and Discussion, Lipid clustering
+  - **Evidence pointer** Results and Discussion, Figure 7; location not provided
+  - **Issue** The 2D particle density maps are described qualitatively. It would strengthen the analysis to provide quantitative measures of clustering, such as radial distribution function integrals or cluster size distributions.
+  - **Required correction** Provide quantitative metrics for lipid clustering with associated uncertainties.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion; location not provided
+  - **Issue** The manuscript references prior work on KRAS and other GTPase membrane anchors but does not systematically compare the current findings to those earlier studies, particularly regarding conformational substates and lipid sorting.
+  - **Required correction** Add a more explicit comparison to prior simulation and experimental studies to position the current work within the existing literature.
+
+## Risk / unsupported claims
+- The claim that "complementarity between the lipidated IDR sequence and target membrane lipid composition is a determinant of conformational plasticity" is plausible but not fully supported without convergence and uncertainty analyses.
+- The claim that "electrostatic interactions between anionic lipids and basic residues on IDRs are correlated with sampling of semistable conformational substates" requires demonstration of metastability, which is not provided.
+- The claim that "small GTPase IDRs with a polybasic domain alter local lipid composition by segregating anionic lipids" lacks quantitative statistical support.
+- The functional implications regarding nanocluster formation and disruption of KRAS nanoclusters are speculative and not directly supported by the simulation data.
+- The statement that DiRas3 "segregated PS lipids to such a degree that other lipid species were far less present" is not quantitatively substantiated.
+- The generalizability of findings from single simulations of each system to broader conclusions about IDR behavior is not established without replicate simulations or ensemble sampling.

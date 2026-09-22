@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supporting information references
+- **Assessment boundary** Scientific validity, methodological soundness, claims versus evidence, and alignment with Nature-style criteria
+- **Shared manuscript claim summary** The authors present Mpipi-T, a residue-resolution coarse-grained model for predicting LCST-type phase behavior in disordered proteins. The model integrates atomistic free energy of solvation data with experimental cloud point measurements, scales electrostatic interactions with temperature analytically, and tunes short-range non-bonded interactions via a combined top-down-bottom-up approach. The authors claim accurate prediction of LCST-type transitions for three biologically relevant proteins (hTau40, Pab1, ELF3) near physiological growth temperatures of their respective organisms.
+- **Visible evidence base** Results sections describing model design, electrostatic scaling, Wang-Frenkel potential modification, single-chain validation against experimental Rg data, ELP sequence validation, and phase diagram predictions for hTau40, Pab1, and ELF3. Methods sections for experimental and computational cloud point determination, direct coexistence simulations, and Flory exponent calculations. Figures referenced but not fully visible in the provided text.
+- **Missing materials affecting confidence** Figures 1-7 and supplementary figures S1-S8 are referenced but not provided. Tables S2-S21 with final parameters are not included. Detailed parameter values, simulation convergence criteria, and statistical uncertainties are not fully described. Experimental protocols for cloud point measurements are referenced but not detailed.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a significant gap in the field by extending coarse-grained modeling capabilities to LCST-type phase behavior in disordered proteins. The methodological approach is creative, combining bottom-up parameterization from atomistic simulations with top-down tuning against experimental data. The validation strategy is reasonable, and the biological applications are well chosen. However, several technical concerns need to be addressed to fully establish the model's predictive power and generalizability. The claim that LCSTs are encoded near physiological growth temperatures is intriguing but requires more rigorous statistical support given the small number of test cases.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, intrinsically disordered proteins, and computational biophysics would find this work valuable. The model offers a computationally efficient tool for predicting thermoresponsive behavior from sequence, which is relevant for understanding heat stress responses and for engineering thermoresponsive biomaterials. The CLOUD-FIT method for computing cloud points from simulations is also of methodological interest to the simulation community.
+- **Major strengths** The work addresses an important and understudied problem in the phase separation field. The model design is physically motivated, particularly the treatment of temperature-dependent electrostatics and the modification of the Wang-Frenkel potential to handle negative interaction energies. The validation against multiple experimental datasets, including single-chain properties and ELP phase behavior, strengthens confidence in the model. The application to three biologically relevant proteins across different kingdoms demonstrates broad utility. The computational efficiency of the model is a practical advantage for studying large systems.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The model predicts LCST-type phase behavior for hTau40, Pab1, and ELF3, with predicted LCSTs near physiological growth temperatures of respective organisms.
+  - **Evidence pointer** Results section "Generating phase diagrams for proteins postulated to exhibit LCST behavior", Figure 7
+  - **Concern** The manuscript reports predicted LCST values for three proteins (hTau40 K18: 305.9 K, full-length hTau40: 309.5 K, Pab1: 292.4 K, ELF3: 281.2 K) but does not provide direct experimental validation for these specific predictions. For hTau40, the authors reference experimental work demonstrating LCST behavior but do not compare their predicted transition temperature to experimental measurements. For Pab1, the predicted LCST is compared to a pH-temperature phase diagram, but the relationship between the experimental demixing temperature and the calculated critical temperature is not quantitatively established. For ELF3, the prediction is compared to speckle formation temperature, which is an indirect proxy for phase separation. The claim that these proteins "encode" LCSTs near physiological temperatures requires direct quantitative comparison between predicted and experimentally measured transition temperatures.
+  - **Why it matters** The central claim of the paper is that Mpipi-T can accurately predict LCST-type phase behavior. Without direct quantitative validation of predicted transition temperatures against experimental measurements for the three biological test cases, the predictive accuracy of the model for native proteins remains unestablished. The comparison to physiological growth temperatures is suggestive but does not constitute validation of the model's quantitative accuracy.
+  - **Resolution test** Provide quantitative comparison between predicted LCST values and experimentally measured cloud points or critical temperatures for the three proteins, including error bars and statistical significance. If direct experimental measurements are not available, clearly state this limitation and provide additional validation on systems where quantitative experimental data exist.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The CLOUD-FIT method is presented as a new approach for computing cloud point temperatures from simulations, exploiting finite-size effects to identify density changes as a function of temperature.
+  - **Evidence pointer** Methods section "CLOUD-FIT: a new method for computing cloud point in simulations", Figure 3a
+  - **Concern** The CLOUD-FIT method is described conceptually, but the manuscript lacks a rigorous validation of this method against established approaches for computing phase boundaries. The method identifies the cloud point as "the first temperature at which the density profile exhibited a sharp spike," but the criteria for defining a "sharp spike" are not quantified. The sensitivity of the predicted cloud point to system size, simulation length, and the specific density profile analysis is not discussed. The method is used to generate the training data for model optimization, creating a potential circularity concern if the same method is used for validation.
+  - **Why it matters** The reliability of the CLOUD-FIT method directly affects the quality of the training data and the validity of all subsequent predictions. If the method has systematic biases or large uncertainties, these would propagate through the model parameterization and affect all predictions. The lack of validation against independent methods or analytical solutions undermines confidence in the quantitative accuracy of the reported cloud points.
+  - **Resolution test** Validate CLOUD-FIT against known analytical solutions or established simulation methods for simple polymer systems. Provide quantitative criteria for identifying the cloud point from density profiles. Discuss the sensitivity of results to system size, simulation time, and analysis parameters. If possible, compare CLOUD-FIT predictions to experimental cloud points for a test set of sequences not used in training.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The model predicts that each of the three proteins (hTau40, Pab1, ELF3) encodes an LCST near the physiological growth temperature of its respective organism, suggesting a potential mechanism for stress resilience.
+  - **Evidence pointer** Results section "Generating phase diagrams for proteins postulated to exhibit LCST behavior", Discussion
+  - **Concern** The biological interpretation that LCSTs near physiological temperatures represent an adaptive mechanism for stress resilience is speculative. The manuscript does not provide experimental evidence linking the predicted LCST behavior to organismal fitness or stress responses. The evolutionary significance of LCSTs near growth temperatures is not tested, and alternative explanations (e.g., thermodynamic constraints, sequence conservation for other functions) are not considered. The leap from computational prediction to biological function requires additional evidence or at least a more nuanced discussion of alternative interpretations.
+  - **Why it matters** The broader significance of the work depends on the biological relevance of the predictions. If the LCST values are simply coincidental or arise from model artifacts, the biological conclusions would be overstated. The claim of "stress resilience encoded in proteins" is a strong statement that requires more than computational predictions to support.
+  - **Resolution test** Provide additional evidence supporting the biological significance of the predicted LCSTs, such as mutational analysis, comparison with non-adaptive controls, or discussion of evolutionary conservation patterns. Alternatively, temper the biological claims and present the predictions as hypotheses requiring experimental testing.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The model preserves the UCST predictive capabilities of its parent model Mpipi while extending its scope to LCST-type phase behavior.
+  - **Evidence pointer** Results section "Testing model accuracy in predicting single-chain properties of proteins", Figure 5
+  - **Concern** The manuscript demonstrates that Mpipi-T preserves UCST-type predictions through the Flory exponent analysis of A1-LCD variants, but this is an indirect test. The authors do not directly compare Mpipi-T predictions of UCST-type phase boundaries (e.g., cloud points or critical temperatures) to those from the original Mpipi model or to experimental measurements. The single-chain Rg comparison (Figure 5a) shows good correlation but does not directly test phase separation behavior.
+  - **Why it matters** The claim that Mpipi-T extends rather than compromises the parent model's capabilities is important for users who may adopt the new model. If the temperature-dependent modifications inadvertently affect UCST predictions in ways not captured by single-chain properties, this would be a significant limitation not addressed in the manuscript.
+  - **Resolution test** Directly compare Mpipi-T and Mpipi predictions of UCST-type phase boundaries for a set of known UCST proteins, including quantitative comparison to experimental data. If such data are not available, clearly state this limitation and provide additional indirect evidence that UCST behavior is preserved.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and model description
+  - **Evidence pointer** Introduction, Results section "Designing a coarse-grained model"
+  - **Issue** The distinction between UCST and LCST phase behavior is explained, but the physical origin of LCST behavior in proteins (hydrophobic effect, entropic driving forces) could be described more intuitively for readers unfamiliar with polymer physics.
+  - **Required correction** Add a brief, accessible explanation of why certain proteins phase separate upon heating, perhaps with a simple analogy or schematic description.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods section "Computing Flory scaling exponent"
+  - **Evidence pointer** Methods section "Computing Flory scaling exponent and coil-to-globule transition temperature"
+  - **Issue** The manuscript uses ν=0.5 as the criterion for coil-to-globule transition, but acknowledges that for finite-length heteropolymers, the transition occurs at ν<0.58. The choice of 0.5 is justified but the sensitivity of the results to this threshold is not discussed.
+  - **Required correction** Provide a brief sensitivity analysis or discussion of how the choice of ν threshold affects the interpretation of results.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model parameterization
+  - **Evidence pointer** Results section "Tuning functional forms using a top-down approach"
+  - **Issue** The optimization process is described as a "systematic scanning strategy" without clear convergence criteria or uncertainty quantification. The number of parameters and the size of the parameter space are not stated.
+  - **Required correction** Provide more detail on the optimization procedure, including the number of parameters, the range of values explored, and how the final model was selected among the three best-performing models.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion of biological implications
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of heat stress responses and stress resilience is brief and does not fully engage with the broader biological literature on heat shock responses, chaperones, and condensate biology.
+  - **Required correction** Expand the discussion to place the findings in the context of existing knowledge about heat stress responses and to acknowledge the complexity of cellular stress adaptation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of direct quantitative validation for biological predictions), R1-M2 (insufficient validation of CLOUD-FIT method)
+- **Assessment against Nature-style criteria** 
+  - Originality: The work is original in its specific approach to modeling LCST-type phase behavior, particularly the combination of temperature-dependent electrostatics and modified Wang-Frenkel potentials. The CLOUD-FIT method is a novel contribution. However, the overall concept of coarse-grained modeling of phase separation is well established.
+  - Scientific importance: The problem of predicting thermoresponsive behavior is important for understanding heat stress responses and for biomaterial design. The work addresses a genuine gap, as most existing models focus on UCST behavior. However, the biological significance of the predictions is not fully established.
+  - Interdisciplinary readership: The work bridges computational biophysics, polymer physics, and cell biology. The potential applications in synthetic biology and materials science broaden its appeal. However, the technical nature of the methods may limit accessibility to non-specialists.
+  - Technical soundness: The physical reasoning is sound, and the validation against ELP sequences is encouraging. However, the lack of direct quantitative validation for the biological predictions and the insufficient validation of CLOUD-FIT are significant technical concerns.
+  - Readability for nonspecialists: The manuscript is generally well written, but some sections assume familiarity with polymer physics and coarse-grained modeling. The biological motivation is clear, but the technical details may be challenging for readers outside the simulation community.
+- **Recommendation posture** Supportive if technical concerns are resolved. The model has clear potential value, and the methodological approach is creative. However, the central claims of predictive accuracy for biological proteins and the reliability of the CLOUD-FIT method need to be more rigorously established. The authors should provide direct quantitative validation of predicted LCSTs against experimental measurements, validate CLOUD-FIT against independent methods, and temper or better support the biological interpretations.
+
+## Risk / unsupported claims
+- The claim that Mpipi-T predicts LCSTs near physiological growth temperatures for hTau40, Pab1, and ELF3 is not directly validated against quantitative experimental measurements of transition temperatures for these specific proteins.
+- The claim that Mpipi-T preserves UCST predictive capabilities is only indirectly supported through single-chain property comparisons, not through direct comparison of phase boundaries.
+- The biological interpretation that LCST behavior near physiological temperatures represents an adaptive mechanism for stress resilience is speculative and not supported by experimental evidence.
+- The CLOUD-FIT method's reliability is not established through validation against independent computational or analytical methods.
+- The statement that "each protein encodes an LCST" implies a level of determinism that is not fully supported by the data, given the small number of test cases and the lack of mutational or evolutionary analysis.

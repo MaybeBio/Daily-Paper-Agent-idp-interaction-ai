@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42599200",
+  "title": "Hierarchical discrete representations for coarse-to-fine protein conformation generation.",
+  "authors": "On, SeokJun; Jeong, Yujin; Kim, Kang-Hyeon; Kang, Kyungheon; Kim, Eun-Sol",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2026-08-14",
+  "window": {
+    "start": "2026-08-10",
+    "end": "2026-08-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文提出基于VQ-VAE的分层离散表示方法，用于粗到细的蛋白质构象生成，可建模IDP构象异质性，但未直接聚焦PPI机制建模。",
+  "abstract": "MOTIVATION: Protein conformation generation remains a fundamental challenge in structural biology and machine learning. Proteins are highly dynamic macromolecules, and their functions are governed not only by static 3D structures but also by their conformational flexibility. Therefore, generating a diverse ensemble of physically plausible structures is crucial for modeling conformational heterogeneity, characterizing intrinsically disordered proteins (IDPs), and supporting structure-based drug discovery. However, existing generative models often operate in continuous coordinate space. This approach makes it difficult to impose structural priors or handle complex, long-range dependencies, frequently leading to a significant trade-off where models must sacrifice structural validity to ensure conformational diversity. RESULTS: To overcome these limitations, we propose a novel approach that learns hierarchical discrete representations of protein structures using vector quantization. Inspired by the success of VQ-VAE models in vision, we discretize residue-level structural contexts into learnable codebooks at multiple levels of granularity. Our framework first constructs a coarse-grained scaffold that captures global topology and secondary structures, and subsequently conditions on this scaffold to progressively refine the fine-grained local geometry. This coarse-to-fine generation mechanism enables both efficient sampling and highly accurate reconstruction. Through extensive experiments, we demonstrate that our method outperforms state-of-the-art models such as ESMDiff across challenging benchmark datasets, including BPTI MD trajectories and conformational-changing pairs (apo/holo and fold-switch). Our model mitigates the trade-off between conformational diversity and structural validity, generating realistic ensembles while providing interpretable and scalable representations of protein geometry. Ultimately, this work offers a powerful new paradigm for flexible biomolecular modeling. AVAILABILITY AND IMPLEMENTATION: The code is available at https://github.com/vanha9/hierarchical_conformation_generation. Archived at https://zenodo.org/records/21817083.",
+  "abstract_zh": "动机：蛋白质构象生成仍然是结构生物学和机器学习中的一个基本挑战。蛋白质是高度动态的大分子，其功能不仅受静态三维结构调控，还受其构象灵活性影响。因此，生成多样化的物理上合理的结构集合对于建模构象异质性、表征固有无序蛋白质 (intrinsically disordered proteins, IDPs) 以及支持基于结构的药物发现至关重要。然而，现有生成模型通常在连续坐标空间中操作。这种方法难以施加结构先验或处理复杂的长程依赖关系，常常导致模型必须在牺牲结构有效性的情况下确保构象多样性的显著权衡。结果：为克服这些限制，我们提出了一种新方法，利用向量量化学习蛋白质结构的层次化离散表示。受VQ-VAE模型在视觉领域成功的启发，我们将残基级结构上下文在多个粒度级别上离散化为可学习的码本。我们的框架首先构建一个捕获全局拓扑和二级结构的粗粒度骨架，随后基于该骨架逐步细化细粒度的局部几何结构。这种从粗到细的生成机制实现了高效采样和高精度重建。通过大量实验，我们证明我们的方法在具有挑战性的基准数据集（包括BPTI分子动力学轨迹和构象变化对（apo/holo和折叠切换））上优于ESMDiff等最先进模型。我们的模型缓解了构象多样性与结构有效性之间的权衡，生成了逼真的结构集合，同时提供了可解释且可扩展的蛋白质几何表示。最终，这项工作为灵活的生物分子建模提供了强大的新范式。可用性和实现：代码可在 https://github.com/vanha9/hierarchical_conformation_generation 获取。存档于 https://zenodo.org/records/21817083。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42599200/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42599200/",
+  "paper_page_path": "papers/pubmed/42599200/index.html"
+}

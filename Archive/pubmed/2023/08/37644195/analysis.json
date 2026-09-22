@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37644195",
+  "title": "Atomistic modeling of liquid-liquid phase equilibrium explains dependence of critical temperature on gamma-crystallin sequence.",
+  "authors": "Qin, Sanbo; Zhou, Huan-Xiang",
+  "journal": "Communications biology",
+  "published_date": "2023-08-30",
+  "window": {
+    "start": "2023-08-28",
+    "end": "2023-09-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用原子级建模（FMAP+布朗动力学）计算γ-晶状体蛋白的液-液相分离相图，定位单个氨基酸替换对临界温度的影响，虽对象非IDP但相分离机制建模思路可迁移至无序蛋白PPI研究。",
+  "abstract": "Liquid-liquid phase separation of protein solutions has regained heightened attention for its biological importance and pathogenic relevance. Coarse-grained models are limited when explaining residue-level effects on phase equilibrium. Here we report phase diagrams for gamma-crystallins using atomistic modeling. The calculations were made possible by combining our FMAP method for computing chemical potentials and Brownian dynamics simulations for configurational sampling of dense protein solutions, yielding the binodal and critic temperature (T(c)). We obtain a higher T(c) for a known high-T(c) gamma-crystallin, gammaF, than for a low-T(c) paralog, gammaB. The difference in T(c) is corroborated by a gap in second virial coefficient. Decomposition of inter-protein interactions reveals one amino-acid substitution between gammaB and gammaF, from Ser to Trp at position 130, as the major contributor to the difference in T(c). This type of analysis enables us to link phase equilibrium to amino-acid sequence and to design mutations for altering phase equilibrium.",
+  "abstract_zh": "蛋白质溶液的液-液相分离因其生物学重要性和致病相关性而重新受到高度关注。粗粒化模型在解释残基水平对相平衡的影响时存在局限。在此，我们利用原子建模报告了γ-晶状体蛋白的相图。这些计算通过结合我们用于计算化学势的FMAP方法和用于致密蛋白质溶液构象采样的布朗动力学模拟得以实现，从而得到双节线和临界温度（T(c)）。我们获得了一个已知高T(c)的γ-晶状体蛋白γF的T(c)高于低T(c)的旁系同源物γB。T(c)的差异通过第二维里系数的差距得到证实。对蛋白质间相互作用的分解揭示，γB和γF之间的一个氨基酸替换，即第130位从Ser到Trp，是导致T(c)差异的主要因素。这种分析使我们能够将相平衡与氨基酸序列联系起来，并设计突变以改变相平衡。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37644195/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37644195/",
+  "paper_page_path": "papers/pubmed/37644195/index.html"
+}

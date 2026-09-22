@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report that p53, a tumor suppressor and transcription factor, undergoes phase separation to form biomolecular condensates in the nucleus of cancer cells and in overexpressing cell lines. Wild-type p53 nuclear condensates remain liquid and bind DNA, whereas cancer-associated mutations promote misfolding and partial rigidification of condensates that lose DNA binding. Cytoplasmic partitioning of both WT and mutant p53 leads to condensate formation that rigidifies over time. In vitro, the WT p53 core domain forms condensates that rigidify with time, a process enhanced by cancer-associated mutations. RNA and non-specific DNA promote p53C liquid-liquid phase separation, while specific DNA dissolves p53C condensates. The authors conclude that the cellular microenvironment regulates p53 phase separation, material properties, and function.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or statistical details were supplied
+- **Missing materials affecting confidence** Full manuscript, experimental methods, quantitative data, statistical analyses, imaging data, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation linking p53 phase separation to cellular microenvironment and cancer-associated mutations. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The conclusions are broad and mechanistically ambitious relative to the information provided. The work may be of interest to the fields of phase separation, cancer biology, and transcriptional regulation, but the current evidence is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and liquid-liquid phase separation, particularly in the context of transcription factors and tumor suppressors. Cancer biologists interested in p53 misfolding and loss of function in tumorigenesis may also find the work relevant. The claim that the cellular environment modulates condensate material properties and DNA binding could attract investigators working on the biophysical basis of gene regulation.
+- **Major strengths** The abstract addresses a timely topic, namely the role of phase separation in transcription factor function and disease-associated mutations. The distinction between WT and mutant p53 condensate properties, and the differential effects of specific versus non-specific nucleic acids, are conceptually interesting. The suggestion that cytoplasmic and nuclear environments differentially influence condensate behavior adds a spatial dimension that is often underexplored.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that p53 phase separates and forms biomolecular condensates in the nucleus of cancer cells and in overexpressing cell lines, and that WT condensates remain liquid and bind DNA while mutant condensates are rigidified and lose DNA binding.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no experimental detail on how phase separation was demonstrated in cells, how liquidity versus rigidification was assessed, or how DNA binding was measured within condensates. Without methods, controls, or quantitative data, these claims cannot be evaluated.
+  - **Why it matters** The central distinction between WT and mutant p53 condensate behavior underpins the entire manuscript. If the assays used to define liquid state, rigidification, and DNA binding are not robust or are confounded by overexpression artifacts, the conclusions would be substantially weakened.
+  - **Resolution test** Provide detailed methods and representative data showing condensate formation in cells, rheological or fluorescence recovery after photobleaching measurements for material properties, and direct evidence of DNA binding within condensates for WT but not mutant p53.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The authors claim that RNA and non-specific DNA promote p53C liquid-liquid phase separation, while specific DNA promotes dissolution of p53C condensates.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract states these differential effects but provides no information on the concentrations, sequence contexts, or experimental conditions under which these effects were observed. The mechanistic basis for why specific DNA dissolves condensates while non-specific DNA promotes them is not explained.
+  - **Why it matters** This claim is central to the proposed model that the cellular microenvironment regulates p53 phase separation and function. Without understanding the conditions and specificity of nucleic acid effects, the physiological relevance of these observations remains unclear.
+  - **Resolution test** Provide titration experiments with defined nucleic acid sequences, show representative microscopy or turbidity data, and include a mechanistic explanation supported by additional experiments such as binding assays or structural studies.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The authors claim that the cellular microenvironment regulates p53 LLPS, material properties, and function.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract describes observations in cancer cells, overexpressing cell lines, and in vitro systems, but does not specify which cell types were used, whether endogenous p53 was examined, or how overexpression might affect condensate behavior. The claim that the microenvironment regulates p53 function is broad and not directly supported by the data described.
+  - **Why it matters** Overexpression systems can produce non-physiological phase separation. If the observations are primarily from overexpressed protein, the relevance to endogenous p53 behavior in native cellular contexts is uncertain.
+  - **Resolution test** Include experiments with endogenous p53, use multiple cell lines, and directly link condensate properties to p53 transcriptional activity or target gene expression.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses the terms "phase separation," "LLPS," and "biomolecular condensates" without defining the operational criteria used to distinguish these phenomena from aggregation or simple clustering.
+  - **Required correction** Define the criteria used to classify a structure as a condensate and to distinguish liquid-like from solid-like behavior.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Temporal aspect
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The title mentions "spatio-temporal" modulation, but the abstract provides limited information on the temporal dynamics of condensate formation and rigidification beyond stating that rigidification occurs "with time."
+  - **Required correction** Provide quantitative time course data for condensate formation, maturation, and rigidification in both nuclear and cytoplasmic compartments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Specificity
+  - **Affected element** Mutation description
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract refers to "cancer-associated mutations" without specifying which mutations were studied or whether different mutations had different effects.
+  - **Required correction** List the specific mutations examined and indicate whether the observed effects were consistent across all mutants or varied by mutation type.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract alone does not provide sufficient methodological or quantitative detail to verify the central claims regarding condensate formation, material properties, nucleic acid effects, or the role of the cellular microenvironment.
+- **Assessment against Nature-style criteria** Originality: The concept of p53 phase separation is not entirely novel, but the specific focus on spatio-temporal modulation by the cellular environment and differential nucleic acid effects may offer a fresh angle. Scientific importance: If substantiated, the findings could have implications for understanding p53 function and dysfunction in cancer, but the current evidence does not establish this importance. Interdisciplinary readership: The topic bridges biophysics, cell biology, and cancer research, which could attract a broad audience. Technical soundness: Cannot be assessed from the abstract alone; the lack of methodological detail is a major limitation. Readability for nonspecialists: The abstract is reasonably accessible, though some terms such as "rigidification" and "LLPS" may require context for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents interesting hypotheses, but the absence of methods, data, and controls prevents verification of the central claims. A full manuscript with detailed experimental evidence would be required to assess whether the conclusions are supported.
+
+## Risk / unsupported claims
+- The claim that p53 forms biomolecular condensates in the nucleus of cancer cells is unsupported without imaging or biochemical evidence.
+- The claim that WT p53 condensates bind DNA while mutant condensates do not is unsupported without direct binding assays.
+- The claim that cytoplasmic partitioning leads to condensate rigidification is unsupported without time course data.
+- The claim that RNA and non-specific DNA promote p53C LLPS while specific DNA dissolves condensates is unsupported without titration and specificity controls.
+- The broad conclusion that the cellular microenvironment regulates p53 phase separation, material properties, and function is not directly supported by the abstract.

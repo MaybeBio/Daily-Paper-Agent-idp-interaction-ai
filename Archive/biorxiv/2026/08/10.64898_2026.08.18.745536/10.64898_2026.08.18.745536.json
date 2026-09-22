@@ -1,0 +1,145 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2026.08.18.745536",
+  "title": "The human papillomavirus L2 protein in the capsid is an ensemble of related structures poised to exit the virus particle",
+  "doi": "10.64898/2026.08.18.745536",
+  "abstract": "<h4>ABSTRACT</h4> The human papillomavirus (HPV) capsid contains 360 molecules of the L1 protein, which assembles into pentamers that form the capsid shell, and up to 72 molecules of the L2 protein. The C-terminus of the L2 protein must emerge from the capsid, insert into the endosome membrane, and protrude into the cytoplasm to bind to cellular proteins that mediate trafficking of the virus to the nucleus during virus entry. Computational analysis predicts that much of L2 is disordered, but the stoichiometry, structure and location of L2 in the capsid remain elusive. Here, we use cryo-EM single particle analysis of HPV16 pseudovirus capsids with and without the L2 protein combined with AlphaFold3 predictions and molecular dynamics simulations to develop a structural model of L2 within the capsid. Our results revealed that a single molecule of L2 associates with the inner surface of most L1 pentamers. The relatively rigid structure of the pentamer forces the long intrinsically disordered segments of L2 to adopt numerous related, compact, stable conformations in the capsid, whereas the structured elements of L2 remain folded but adopt varied positions in space largely beneath the pentamer. A finger-like projection of L2 extends into the central pore of the pentamer, but many different segments of the disordered domains of L2 can form fingers. In some models the C-terminus of L2 extends through the pore to the exterior surface of the capsid positioned to insert into the endosomal membrane. Consistent with these models, analysis of purified pseudoviruses showed that the C-terminus of multiple L2 molecules is exposed on the surface of each capsid. These findings provide a structural basis for understanding how L2 is organized in the capsid poised to initiate its action during virus entry.",
+  "authors": [
+    "Oh C",
+    "Yu H",
+    "Buckley PM",
+    "Horrigan FL",
+    "Mehmood K",
+    "Choi J",
+    "Liu J",
+    "DiMaio D"
+  ],
+  "published_date": "2026-08-19",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745536",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2026.08.18.745536.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1302490",
+    "raw_record": {
+      "id": "PPR1302490",
+      "source": "PPR",
+      "doi": "10.64898/2026.08.18.745536",
+      "title": "The human papillomavirus L2 protein in the capsid is an ensemble of related structures poised to exit the virus particle",
+      "authorString": "Oh C, Yu H, Buckley PM, Horrigan FL, Mehmood K, Choi J, Liu J, DiMaio D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Oh C",
+            "lastName": "Oh",
+            "firstName": "Changin",
+            "initials": "C"
+          },
+          {
+            "fullName": "Yu H",
+            "lastName": "Yu",
+            "firstName": "Huaxin",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9375-1916"
+            }
+          },
+          {
+            "fullName": "Buckley PM",
+            "lastName": "Buckley",
+            "firstName": "Patrick",
+            "initials": "PM"
+          },
+          {
+            "fullName": "Horrigan FL",
+            "lastName": "Horrigan",
+            "firstName": "Frank",
+            "initials": "FL"
+          },
+          {
+            "fullName": "Mehmood K",
+            "lastName": "Mehmood",
+            "firstName": "Kashif",
+            "initials": "K"
+          },
+          {
+            "fullName": "Choi J",
+            "lastName": "Choi",
+            "firstName": "Jeongjoon",
+            "initials": "J"
+          },
+          {
+            "fullName": "Liu J",
+            "lastName": "Liu",
+            "firstName": "Jun",
+            "initials": "J"
+          },
+          {
+            "fullName": "DiMaio D",
+            "lastName": "DiMaio",
+            "firstName": "Daniel",
+            "initials": "D"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9375-1916"
+          }
+        ]
+      },
+      "pubYear": "2026",
+      "abstractText": "<h4>ABSTRACT</h4>  The human papillomavirus (HPV) capsid contains 360 molecules of the L1 protein, which assembles into pentamers that form the capsid shell, and up to 72 molecules of the L2 protein. The C-terminus of the L2 protein must emerge from the capsid, insert into the endosome membrane, and protrude into the cytoplasm to bind to cellular proteins that mediate trafficking of the virus to the nucleus during virus entry. Computational analysis predicts that much of L2 is disordered, but the stoichiometry, structure and location of L2 in the capsid remain elusive. Here, we use cryo-EM single particle analysis of HPV16 pseudovirus capsids with and without the L2 protein combined with AlphaFold3 predictions and molecular dynamics simulations to develop a structural model of L2 within the capsid. Our results revealed that a single molecule of L2 associates with the inner surface of most L1 pentamers. The relatively rigid structure of the pentamer forces the long intrinsically disordered segments of L2 to adopt numerous related, compact, stable conformations in the capsid, whereas the structured elements of L2 remain folded but adopt varied positions in space largely beneath the pentamer. A finger-like projection of L2 extends into the central pore of the pentamer, but many different segments of the disordered domains of L2 can form fingers. In some models the C-terminus of L2 extends through the pore to the exterior surface of the capsid positioned to insert into the endosomal membrane. Consistent with these models, analysis of purified pseudoviruses showed that the C-terminus of multiple L2 molecules is exposed on the surface of each capsid. These findings provide a structural basis for understanding how L2 is organized in the capsid poised to initiate its action during virus entry.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2026
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2026.08.18.745536"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-08-21",
+      "firstPublicationDate": "2026-08-19",
+      "firstIndexDate": "2026-08-22",
+      "hasEvaluations": "N"
+    }
+  }
+}

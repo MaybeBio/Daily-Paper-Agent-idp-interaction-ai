@@ -1,0 +1,255 @@
+{
+  "identity": {
+    "pmid": "34499920",
+    "doi": "10.1016/j.jmb.2021.167232",
+    "title": "New Frontiers for Machine Learning in Protein Science."
+  },
+  "content": {
+    "abstract": "Protein function is fundamentally reliant on inter-molecular interactions that underpin the ability of proteins to form complexes driving biological processes in living cells. Increasingly, such interactions are recognised as being formed between proteins that exist on a broad spectrum of dynamic conformational states and levels of intrinsic disorder. Additionally, the sizes of the structures formed can range from simple binary complexes to large dynamic biomolecular condensates measuring 100 nm or more. Understanding the parameters that govern such interactions, how they form, how they lead to function and what happens when they take place in unintended manners and lead to disease, represent some of the core questions for molecular biosciences. In light of recent advances made in solving the protein folding problem by machine learning methods, we discuss here the challenges and opportunities brought by these new data-driven approaches for the next frontiers of biomolecular science.",
+    "keywords": [
+      "data science",
+      "liquid-liquid phase separation",
+      "machine learning",
+      "protein aggregation",
+      "protein folding",
+      "protein-protein interactions"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "Humans",
+      "*Machine Learning",
+      "Phase Transition",
+      "Protein Aggregates",
+      "Protein Folding",
+      "Protein Interaction Maps",
+      "Proteins/*chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Morgunov, Alexey S",
+        "Saar, Kadi L",
+        "Vendruscolo, Michele",
+        "Knowles, Tuomas P J"
+      ],
+      "short_names": [
+        "Morgunov AS",
+        "Saar KL",
+        "Vendruscolo M",
+        "Knowles TPJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, CB2 1EW, United Kingdom; Fluidic Analytics Ltd, Cambridge, United Kingdom. Electronic address: https://twitter.com/AlexeyMorgunov.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, CB2 1EW, United Kingdom. Electronic address: https://twitter.com/KadiLiisSaar.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, CB2 1EW, United Kingdom. Electronic address: mv245@cam.ac.uk.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, CB2 1EW, United Kingdom; Cavendish Laboratory, University of Cambridge, CB3 0HE, United Kingdom. Electronic address: tpjk2@cam.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Morgunov, Alexey S",
+        "short_name": "Morgunov AS",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, CB2 1EW, United Kingdom; Fluidic Analytics Ltd, Cambridge, United Kingdom. Electronic address: https://twitter.com/AlexeyMorgunov."
+        ]
+      },
+      {
+        "full_name": "Saar, Kadi L",
+        "short_name": "Saar KL",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, CB2 1EW, United Kingdom. Electronic address: https://twitter.com/KadiLiisSaar."
+        ]
+      },
+      {
+        "full_name": "Vendruscolo, Michele",
+        "short_name": "Vendruscolo M",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, CB2 1EW, United Kingdom. Electronic address: mv245@cam.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Knowles, Tuomas P J",
+        "short_name": "Knowles TPJ",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, CB2 1EW, United Kingdom; Cavendish Laboratory, University of Cambridge, CB3 0HE, United Kingdom. Electronic address: tpjk2@cam.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2021 Oct 1",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/10 06:00",
+    "fetched_at": "2026-09-20 05:18:02"
+  },
+  "links": {
+    "cites": [
+      "40728621",
+      "39576584"
+    ],
+    "refs": [],
+    "similar": [
+      "34499920",
+      "23912807",
+      "31881449",
+      "37828669",
+      "34087198",
+      "34390736",
+      "27090200",
+      "34358545",
+      "28041848",
+      "33535034",
+      "26606303",
+      "29258725",
+      "31845799",
+      "30287797",
+      "33510441",
+      "31604601",
+      "31383477",
+      "28592179",
+      "24554472",
+      "12816607",
+      "29111979",
+      "30514188",
+      "32405004",
+      "36416856",
+      "33573048",
+      "31502581",
+      "32171238",
+      "28890370",
+      "29102305",
+      "32800925",
+      "30718393",
+      "26189090",
+      "30114421",
+      "28499419",
+      "21787301",
+      "19178912",
+      "28552172",
+      "31835059",
+      "31452110",
+      "20883829",
+      "31617345",
+      "30156155",
+      "32169484",
+      "31308553",
+      "29208558",
+      "22579883",
+      "29906639",
+      "31260696",
+      "26268369",
+      "25613833",
+      "27792167",
+      "14965229",
+      "33512148",
+      "19399253",
+      "28358210",
+      "29509422",
+      "27862345",
+      "33647275",
+      "32914959",
+      "26366526",
+      "29851345",
+      "33126795",
+      "30414964",
+      "33006667",
+      "25730499",
+      "15288760",
+      "34102212",
+      "27999256",
+      "18508545",
+      "32603410",
+      "32936641",
+      "31470712",
+      "15910070",
+      "28918672",
+      "31345145",
+      "32707349",
+      "34508726",
+      "36565819",
+      "31628659",
+      "24089737",
+      "31430179",
+      "28936749",
+      "35549066",
+      "34707232",
+      "34953308",
+      "34620553",
+      "37022441",
+      "35409045",
+      "29688122"
+    ],
+    "review": [
+      "34499920",
+      "31881449",
+      "37828669",
+      "34390736",
+      "34358545",
+      "29258725",
+      "30287797",
+      "33510441",
+      "31604601",
+      "31383477",
+      "28592179",
+      "24554472",
+      "30514188",
+      "28890370",
+      "29102305",
+      "32800925",
+      "26189090",
+      "21787301",
+      "28552172",
+      "31835059",
+      "20883829",
+      "30156155",
+      "32169484",
+      "31308553",
+      "22579883",
+      "31260696",
+      "14965229",
+      "29509422",
+      "33006667",
+      "15288760",
+      "27999256",
+      "18508545",
+      "32603410",
+      "28918672",
+      "31345145",
+      "36565819",
+      "31430179",
+      "28936749"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(21)00465-4",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

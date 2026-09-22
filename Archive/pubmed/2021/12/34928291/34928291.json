@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "34928291",
+    "doi": "10.1039/d1sm00730k",
+    "title": "Role of entropy in determining the phase behavior of protein solutions induced by multivalent ions."
+  },
+  "content": {
+    "abstract": "Recent experiments have reported lower critical solution temperature (LCST) phase behavior of aqueous solutions of proteins induced by multivalent ions, where the solution phase separates upon heating. This phenomenon is linked to complex hydration effects that result in a net entropy gain upon phase separation. To decipher the underlying molecular mechanism, we use all-atom molecular dynamics simulations along with the two-phase thermodynamic method for entropy calculation. Based on simulations of a single BSA protein in various salt solutions (NaCl, CaCl(2), MgCl(2), and YCl(3)) at temperatures (T) ranging 283-323 K, we find that the cation-protein binding affinity increases with T, reflecting its thermodynamic driving force to be entropic in origin. We show that in the cation binding process, many tightly bound water molecules from the solvation shells of a cation and the protein are released to the bulk, resulting in entropy gain. To rationalize the LCST behavior, we calculate the zeta-potential that shows charge inversion of the protein for solutions containing multivalent ions. The zeta-potential increases with T. Performing simulations of two BSA proteins, we demonstrate that the protein-protein binding is mediated by multiple cation bridges and involves similar dehydration effects that cause a large entropy gain which more than compensates for rotational and translational entropy losses of the proteins. Thus, the LCST behavior is entropy-driven, but the associated solvation effects are markedly different from hydrophobic hydration. Our findings have direct implications for tuning the phase behavior of biological and soft-matter systems, e.g., protein condensation and crystallization.",
+    "keywords": [],
+    "mesh_terms": [
+      "Cations",
+      "Entropy",
+      "*Proteins",
+      "Solutions",
+      "Thermodynamics",
+      "*Water"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sahoo, Anil Kumar",
+        "Schreiber, Frank",
+        "Netz, Roland R",
+        "Maiti, Prabal K"
+      ],
+      "short_names": [
+        "Sahoo AK",
+        "Schreiber F",
+        "Netz RR",
+        "Maiti PK"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7769-4774",
+        "ORCID: 0000-0003-3659-6718",
+        "ORCID: 0000-0003-0147-0162",
+        "ORCID: 0000-0002-9956-1136"
+      ],
+      "affiliations": [
+        "Center for Condensed Matter Theory, Department of Physics, Indian Institute of Science, Bangalore-560012, India. 201992kumarsahoo@gmail.com.",
+        "Max Planck Institute of Colloids and Interfaces, Am Muhlenberg 1, 14476 Potsdam, Germany.",
+        "Fachbereich Physik, Freie Universitat Berlin, Arnimallee 14, 14195 Berlin, Germany.",
+        "Institute for Applied Physics, University of Tubingen, 72076 Tubingen, Germany.",
+        "Fachbereich Physik, Freie Universitat Berlin, Arnimallee 14, 14195 Berlin, Germany.",
+        "Department of Physics, Indian Institute of Science, Bangalore-560012, India.",
+        "Center for Condensed Matter Theory, Department of Physics, Indian Institute of Science, Bangalore-560012, India. 201992kumarsahoo@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sahoo, Anil Kumar",
+        "short_name": "Sahoo AK",
+        "identifiers": [
+          "0000-0001-7769-4774"
+        ],
+        "affiliations": [
+          "Center for Condensed Matter Theory, Department of Physics, Indian Institute of Science, Bangalore-560012, India. 201992kumarsahoo@gmail.com.",
+          "Max Planck Institute of Colloids and Interfaces, Am Mühlenberg 1, 14476 Potsdam, Germany.",
+          "Fachbereich Physik, Freie Universität Berlin, Arnimallee 14, 14195 Berlin, Germany."
+        ]
+      },
+      {
+        "full_name": "Schreiber, Frank",
+        "short_name": "Schreiber F",
+        "identifiers": [
+          "0000-0003-3659-6718"
+        ],
+        "affiliations": [
+          "Institute for Applied Physics, University of Tübingen, 72076 Tübingen, Germany."
+        ]
+      },
+      {
+        "full_name": "Netz, Roland R",
+        "short_name": "Netz RR",
+        "identifiers": [
+          "0000-0003-0147-0162"
+        ],
+        "affiliations": [
+          "Fachbereich Physik, Freie Universität Berlin, Arnimallee 14, 14195 Berlin, Germany.",
+          "Department of Physics, Indian Institute of Science, Bangalore-560012, India."
+        ]
+      },
+      {
+        "full_name": "Maiti, Prabal K",
+        "short_name": "Maiti PK",
+        "identifiers": [
+          "0000-0002-9956-1136"
+        ],
+        "affiliations": [
+          "Center for Condensed Matter Theory, Department of Physics, Indian Institute of Science, Bangalore-560012, India. 201992kumarsahoo@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Soft matter"
+    ],
+    "journal_abbrev": [
+      "Soft Matter"
+    ],
+    "pub_date": "2022 Jan 19",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/21 06:00",
+    "fetched_at": "2026-09-20 07:16:34"
+  },
+  "links": {
+    "cites": [
+      "41187075",
+      "39886596",
+      "36195115"
+    ],
+    "refs": [],
+    "similar": [
+      "34928291",
+      "27414502",
+      "30351336",
+      "32016274",
+      "22998030",
+      "27404917",
+      "18447346",
+      "31595137",
+      "19351118",
+      "28191978",
+      "36049996",
+      "21399280",
+      "25844814",
+      "35801676",
+      "17581082",
+      "24506488",
+      "8889147",
+      "23586503",
+      "20872851",
+      "33286955",
+      "23293839",
+      "36148614",
+      "24835564",
+      "28662407",
+      "18681469",
+      "37921693",
+      "34570491",
+      "19334851",
+      "25302667",
+      "27783231",
+      "20127187",
+      "21542579",
+      "19040250",
+      "21744914",
+      "33393312",
+      "31124684",
+      "27334181",
+      "25133988",
+      "9410028",
+      "27442708",
+      "37840355",
+      "31009222",
+      "26454581",
+      "15901210",
+      "23330911",
+      "33639734",
+      "31822062",
+      "33092370",
+      "12351872",
+      "22571594",
+      "25388788",
+      "11509376",
+      "30702291",
+      "18582012",
+      "20379991",
+      "30461282",
+      "27276267",
+      "22779448",
+      "23001363",
+      "21054062",
+      "27250333",
+      "34806740",
+      "29289137",
+      "17378564",
+      "34583505",
+      "19894915",
+      "28221796",
+      "28956172",
+      "18368182",
+      "28278028",
+      "17136266",
+      "31009934",
+      "23875693",
+      "12804880",
+      "28956913",
+      "11970303",
+      "16078192",
+      "24792435",
+      "20218569",
+      "16848615",
+      "36450134",
+      "34659725",
+      "31016618",
+      "23127123",
+      "19924870",
+      "7691177",
+      "17201445",
+      "32289057",
+      "31302566",
+      "32877664",
+      "24640501",
+      "37167579",
+      "14999735",
+      "26593002",
+      "31788583",
+      "21090725",
+      "25796241",
+      "22162031",
+      "21481889",
+      "23763605",
+      "18710198",
+      "34984429",
+      "35543216",
+      "36791480",
+      "36745512",
+      "19564955",
+      "36448843",
+      "37483413",
+      "32406605",
+      "37416713",
+      "37154276",
+      "29123675",
+      "20844599",
+      "37843511",
+      "35312328",
+      "37895495",
+      "35753181",
+      "36882367",
+      "35529066"
+    ],
+    "review": [
+      "34928291",
+      "25844814",
+      "31016618",
+      "18710198",
+      "32406605"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d1sm00730k",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

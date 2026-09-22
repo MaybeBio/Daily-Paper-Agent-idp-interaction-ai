@@ -1,0 +1,360 @@
+{
+  "identity": {
+    "pmid": "41963367",
+    "doi": "10.1038/s41598-026-37744-z",
+    "title": "Computational identification of conserved dengue virus envelope protein epitopes for vaccine design and immunodiagnostic platform."
+  },
+  "content": {
+    "abstract": "Dengue virus (DENV) remains a major global health challenge, with its incidence increasing sharply over the past two decades. More than 390 million infections occur annually, affecting nearly half of the world's population. Despite progress in vaccine research, the coexistence of four antigenically distinct dengue virus serotypes (DENV1-4) complicates vaccine and diagnostic development, emphasizing the urgent need for improved preventive and diagnostic strategies. Immunoinformatics and computational vaccinology are powerful tools to elucidate host-pathogen interactions and accelerate vaccine and diagnostic discovery. As vaccination remains the most effective strategy to reduce the dengue burden and accurate diagnostics are essential for surveillance, this study identified conserved and serotype-specific dengue epitopes to support vaccine and diagnostic development. We conducted a comprehensive in silico analysis of the DENV envelope (E) protein across all four serotypes to identify conserved and serotype-specific T-cell and B-cell epitopes. Molecular docking was performed to evaluate HLA-binding affinity between predicted epitopes and their corresponding alleles, and intrinsically disordered regions of the dengue envelope protein were analyzed to identify flexible segments potentially involved in immune recognition. Finally, normal mode analysis was carried out to assess the structural flexibility and stability of the resulting epitope-HLA complexes. Our analysis revealed highly conserved CD8+ (CD4 +) epitopes, such as E57, E135, E175, E313 and E417 (E133, E134, and E234) that remain antigenic despite sequence variation, suggesting their potential use in a universal dengue vaccine. We also identified distinct serotype-specific epitopes, which could serve as molecular signatures for precise immunodiagnostic assays (DENV-2: E236, E267, and E424; DENV-3: E204, E229, E274, E350, and E410; and DENV-4: E402, E403, E65, and E446). Population coverage analysis predicted a global reach of 66.87%, with high representation in East Asia, Europe, and the Americas. Molecular docking and normal mode analyses confirmed stable peptide-HLA interactions with favorable binding energies, particularly for LTDYGALTL-HLA-A01:01 and DTAWDFGSI-HLA-A26:01 complexes. Collectively, this integrative in silico framework identifies epitope candidates that can inform next-generation multivalent dengue vaccines and enhance serotype-specific diagnostic platforms.",
+    "keywords": [
+      "B-cell epitopes",
+      "Dengue virus",
+      "Envelope protein",
+      "Immunodiagnostic",
+      "Immunoinformatics",
+      "T-cell epitopes",
+      "Vaccine design"
+    ],
+    "mesh_terms": [
+      "*Viral Envelope Proteins/immunology/chemistry",
+      "*Dengue Virus/immunology",
+      "*Dengue Vaccines/immunology",
+      "Immunoinformatics",
+      "*Epitopes, T-Lymphocyte/immunology/chemistry",
+      "Molecular Docking Simulation",
+      "Humans",
+      "*Epitopes, B-Lymphocyte/immunology/chemistry",
+      "*Dengue/immunology/prevention & control/diagnosis/virology",
+      "Vaccine Development",
+      "Computational Biology/methods",
+      "Conserved Sequence",
+      "Protein Subunit Vaccines"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "da Silva, Maria Karolaynne",
+        "Fulco, Umberto Laino",
+        "Alqahtani, Taha",
+        "Sindi, Emad Rashad",
+        "Oliveira, Jonas Ivan Nobre",
+        "Zerihun, Yayesew Amlaku",
+        "Zaki, Magdi E A",
+        "Akter, Shahina"
+      ],
+      "short_names": [
+        "da Silva MK",
+        "Fulco UL",
+        "Alqahtani T",
+        "Sindi ER",
+        "Oliveira JIN",
+        "Zerihun YA",
+        "Zaki MEA",
+        "Akter S"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biophysics and Pharmacology, Bioscience Center, Federal University of Rio Grande do Norte, Natal, RN, 59064-741, Brazil.",
+        "Department of Biophysics and Pharmacology, Bioscience Center, Federal University of Rio Grande do Norte, Natal, RN, 59064-741, Brazil.",
+        "Department of Pharmacology, College of Pharmacy, King Khalid University, 62529, Abha, Saudi Arabia.",
+        "Division of Clinical Biochemistry, Department of Basic Medical Sciences, College of Medicine, University of Jeddah, 23890, Jeddah, Saudi Arabia.",
+        "Department of Biophysics and Pharmacology, Bioscience Center, Federal University of Rio Grande do Norte, Natal, RN, 59064-741, Brazil.",
+        "Department of Chemistry, College of Science, Bahir Dar University, P. O. Box 79, Bahir Dar, Ethiopia. dryayesewamlakuzerihun@gmail.com.",
+        "Department of Chemistry, College of Science, Imam Mohammad Ibn Saud Islamic University, 11623, Riyadh, Saudi Arabia. mezaki@imamu.edu.sa.",
+        "Bangladesh Council of Scientific and Industrial Research, Dhaka, 1205, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "da Silva, Maria Karolaynne",
+        "short_name": "da Silva MK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Pharmacology, Bioscience Center, Federal University of Rio Grande do Norte, Natal, RN, 59064-741, Brazil."
+        ]
+      },
+      {
+        "full_name": "Fulco, Umberto Laino",
+        "short_name": "Fulco UL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Pharmacology, Bioscience Center, Federal University of Rio Grande do Norte, Natal, RN, 59064-741, Brazil."
+        ]
+      },
+      {
+        "full_name": "Alqahtani, Taha",
+        "short_name": "Alqahtani T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, College of Pharmacy, King Khalid University, 62529, Abha, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Sindi, Emad Rashad",
+        "short_name": "Sindi ER",
+        "identifiers": [],
+        "affiliations": [
+          "Division of Clinical Biochemistry, Department of Basic Medical Sciences, College of Medicine, University of Jeddah, 23890, Jeddah, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Oliveira, Jonas Ivan Nobre",
+        "short_name": "Oliveira JIN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics and Pharmacology, Bioscience Center, Federal University of Rio Grande do Norte, Natal, RN, 59064-741, Brazil."
+        ]
+      },
+      {
+        "full_name": "Zerihun, Yayesew Amlaku",
+        "short_name": "Zerihun YA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Science, Bahir Dar University, P. O. Box 79, Bahir Dar, Ethiopia. dryayesewamlakuzerihun@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Zaki, Magdi E A",
+        "short_name": "Zaki MEA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, College of Science, Imam Mohammad Ibn Saud Islamic University, 11623, Riyadh, Saudi Arabia. mezaki@imamu.edu.sa."
+        ]
+      },
+      {
+        "full_name": "Akter, Shahina",
+        "short_name": "Akter S",
+        "identifiers": [],
+        "affiliations": [
+          "Bangladesh Council of Scientific and Industrial Research, Dhaka, 1205, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Scientific reports"
+    ],
+    "journal_abbrev": [
+      "Sci Rep"
+    ],
+    "pub_date": "2026 Apr 10",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/11 00:32",
+    "fetched_at": "2026-09-18 02:21:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40072961",
+      "39866399",
+      "39830640",
+      "38718835",
+      "37539837",
+      "36493993",
+      "36419888",
+      "36037724",
+      "35887029",
+      "35285772",
+      "34980915",
+      "33961897",
+      "33895772",
+      "33781966",
+      "32681997",
+      "32493997",
+      "32161266",
+      "32134380",
+      "31735679",
+      "31570514",
+      "31527652",
+      "30738967",
+      "30555469",
+      "29963059",
+      "29315598",
+      "28472356",
+      "27131374",
+      "26515819",
+      "26410586",
+      "26270965",
+      "25300482",
+      "24878803",
+      "24771341",
+      "24204222",
+      "24058508",
+      "23758746",
+      "23580623",
+      "23300419",
+      "22823337",
+      "21988835",
+      "21305276",
+      "20817489",
+      "20100603",
+      "19151095",
+      "17973982",
+      "17897458",
+      "17207271",
+      "16545123",
+      "16493038",
+      "11152613",
+      "10027275",
+      "2231712"
+    ],
+    "similar": [
+      "41963367",
+      "42192530",
+      "34611250",
+      "41083417",
+      "41674438",
+      "22430357",
+      "40975348",
+      "41545417",
+      "38319049",
+      "26022067",
+      "41764225",
+      "39610038",
+      "41063484",
+      "41917113",
+      "40237498",
+      "30291844",
+      "31874646",
+      "28835708",
+      "39085250",
+      "26381649",
+      "32956362",
+      "26951013",
+      "38799422",
+      "34489965",
+      "31293584",
+      "42323433",
+      "33515283",
+      "34997041",
+      "33762420",
+      "24348242",
+      "34732126",
+      "19826631",
+      "25056881",
+      "34994279",
+      "30738967",
+      "31606417",
+      "32611757",
+      "23559476",
+      "38616437",
+      "29107145",
+      "39994132",
+      "41949632",
+      "42520062",
+      "25320311",
+      "41905024",
+      "41444309",
+      "42467983",
+      "41028278",
+      "27223692",
+      "39936152",
+      "36094198",
+      "41629588",
+      "30035699",
+      "31333657",
+      "40610881",
+      "41252394",
+      "33400987",
+      "42168870",
+      "42436212",
+      "41593501",
+      "31721709",
+      "40079004",
+      "40926371",
+      "39011043",
+      "42014972",
+      "32300346",
+      "42024908",
+      "39703502",
+      "41381008",
+      "40433366",
+      "41897006",
+      "41765043",
+      "25777343",
+      "40830404",
+      "38486475",
+      "40057939",
+      "28031369",
+      "40959094",
+      "27301568",
+      "41792674",
+      "34549976",
+      "41239337",
+      "20638434",
+      "29701995",
+      "37880982",
+      "17508277",
+      "42445188",
+      "30895307",
+      "26463165",
+      "42151414",
+      "18788905",
+      "26714037",
+      "24255124",
+      "29609659",
+      "32938504",
+      "29096381",
+      "35799781",
+      "21419774",
+      "33208445",
+      "30185598"
+    ],
+    "review": [
+      "41963367",
+      "33515283"
+    ],
+    "pmc": [
+      "13139383"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/dengue.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Dengue"
+      },
+      {
+        "url": "https://doi.org/10.1038/s41598-026-37744-z",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41963367/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HLA-DRA-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-68",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

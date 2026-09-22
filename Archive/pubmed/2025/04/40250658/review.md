@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors investigate how pH and ionic strength affect the conformational ensemble and amyloidogenic propensity of the intrinsically disordered protein DPF3a, using a combination of in vitro biophysical methods (spectroscopy, microscopy) and all-atom molecular dynamics simulations. They report that acidification abolishes fibrillation, alkaline pH delays aggregation, and high ionic strength slows beta-sheet conversion and fibril elongation, concluding that DPF3a amyloidogenicity is coupled to its conformational landscape.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, statistical analyses, or simulation parameters are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, simulation setup and validation, statistical treatment, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a coherent and potentially interesting study linking environmental physicochemical parameters to the conformational and aggregation behavior of an amyloidogenic IDP. The combination of experimental and computational approaches is appropriate and the reported consistency between them is encouraging. However, the abstract alone provides insufficient detail to evaluate the robustness of the methods, the quality of the data, or the strength of the conclusions. Several claims are made without quantitative support, and the mechanistic interpretations, while plausible, cannot be independently assessed from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of protein misfolding and amyloidosis, intrinsically disordered proteins, neurodegeneration, and biophysical chemistry would find these results relevant. The study addresses fundamental questions about how environmental conditions modulate IDP conformational ensembles and aggregation pathways, which has implications for understanding proteinopathies and for designing aggregation-modulating strategies.
+- **Major strengths** The study addresses a timely and biologically relevant question, namely how pH and ionic strength, both relevant to pathophysiological conditions, influence the aggregation of a newly identified amyloidogenic IDP. The combination of complementary in vitro and in silico approaches is a methodological strength, and the reported agreement between experiments and simulations lends credibility to the overall approach. The focus on a specific isoform (DPF3a) with known disease relevance adds translational value.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that "acidification unequivocally abrogated DPF3a fibrillation" and that "high ionic strength conditions shifted the conformational ensemble towards more swollen, heterogeneous, and less H-bonded structures, which were responsible for slowing down the conversion into beta-sheeted species and restricting the fibril elongation."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative data, such as aggregation kinetics, ThT fluorescence values, particle sizes, secondary structure percentages, or simulation-derived metrics (e.g., radius of gyration, RMSD, contact maps) to support these definitive statements. The term "unequivocally" is particularly strong and requires robust experimental evidence, including appropriate controls and replicates, which are not described.
+  - **Why it matters** Without quantitative support, the central conclusions regarding the effects of pH and ionic strength on DPF3a aggregation cannot be evaluated for statistical significance or biological relevance. The strength of the claims exceeds what can be verified from the abstract alone.
+  - **Resolution test** Provide quantitative data from representative experiments and simulations, including error bars, statistical tests, and appropriate controls, demonstrating the magnitude and reproducibility of the reported effects.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors state that "the protein amyloidogenicity intimately communicates with its conformational landscape, which is particularly sensitive to modification of its physicochemical environment."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The causal link between conformational ensemble properties and aggregation outcomes is asserted but not demonstrated. The abstract does not describe how the conformational data from simulations were correlated with experimental aggregation data, nor whether any direct mechanistic evidence (e.g., identification of aggregation-prone conformers or transition states) was obtained.
+  - **Why it matters** The central thesis of the paper, that conformational landscape governs amyloidogenicity, requires explicit demonstration of a mechanistic connection. Without such evidence, the conclusion remains speculative.
+  - **Resolution test** Present direct evidence linking specific conformational features (e.g., exposed hydrophobic patches, loss of intramolecular contacts) to aggregation kinetics or fibril morphology, ideally through correlation analyses or perturbation experiments.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that "very good consistency and complementary information were found between the experiments and the simulations."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not specify which experimental observables were compared with which simulation outputs, nor how the consistency was quantified. The criteria for "very good consistency" are undefined.
+  - **Why it matters** The claimed agreement between experiment and simulation is a key strength of the study, but without defined comparison metrics, this claim cannot be assessed. Overstated agreement can mask discrepancies that are scientifically informative.
+  - **Resolution test** Clearly define the experimental and computational observables that were compared, the method of comparison (e.g., direct overlay, correlation coefficient), and the criteria for agreement.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "highly hydrated and expanded conformers" is used without definition or quantitative context.
+  - **Required correction** Define what is meant by "highly hydrated" and "expanded" in terms of measurable parameters (e.g., solvent-accessible surface area, radius of gyration) and provide values.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental conditions
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The specific pH values and ionic strength conditions tested are only partially described (e.g., "300 and 500 mM NaCl" for ionic strength, but no pH values are given for the acidification and alkaline conditions).
+  - **Required Correction** Specify the exact pH values used in the acidification and alkaline experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Mechanistic claim
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The statement that "the compensation of negative charge by arginine side chains" partly reduced chain decompaction at alkaline pH is presented without supporting evidence.
+  - **Required Correction** Provide data (e.g., from simulations or mutagenesis) that directly implicate arginine side chains in charge compensation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of the study, namely the effects of pH and ionic strength on DPF3a aggregation and the mechanistic link between conformational landscape and amyloidogenicity, are not supported by quantitative evidence in the supplied material. R1-M3, while not blocking, requires clarification of the claimed experiment-simulation consistency.
+- **Assessment against Nature-style criteria** 
+  - Originality: The study addresses a relatively underexplored area, namely the environmental modulation of amyloidogenesis in a newly identified amyloidogenic IDP. This is a reasonable contribution to the field, though the conceptual framework (environmental factors influencing IDP aggregation) is not entirely novel.
+  - Scientific importance: The findings could have implications for understanding DPF3a-related proteinopathies and for designing aggregation-modulating strategies. However, the significance is not fully established from the abstract alone.
+  - Interdisciplinary readership: The topic bridges biophysics, computational chemistry, and neurobiology, which could attract a broad readership. The abstract is written in a way that is accessible to nonspecialists, though some terms (e.g., "conformational landscape") may require prior knowledge.
+  - Technical soundness: The combination of experimental and computational methods is appropriate, but the abstract does not provide enough detail to assess the technical rigor of either approach.
+  - Readability for nonspecialists: The abstract is generally clear and logically structured, but the mechanistic explanations are somewhat dense and would benefit from more explicit definitions of key terms.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential merit, but the abstract alone does not provide sufficient quantitative support for the central claims. A full assessment would require access to the complete manuscript, including experimental details, data, and simulation validation.
+
+## Risk / unsupported claims
+- The claim that acidification "unequivocally abrogated" DPF3a fibrillation is unsupported without quantitative aggregation data.
+- The claim that high ionic strength conditions are "responsible for" slowing beta-sheet conversion and restricting fibril elongation implies a causal mechanism that is not demonstrated.
+- The statement that "the protein amyloidogenicity intimately communicates with its conformational landscape" is a broad conclusion that is not directly supported by the abstract.
+- The claimed "very good consistency" between experiments and simulations is unverifiable without defined comparison metrics.
+- The mechanistic role of arginine side chains in charge compensation at alkaline pH is asserted without evidence.

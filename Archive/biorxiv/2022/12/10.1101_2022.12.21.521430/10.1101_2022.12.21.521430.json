@@ -1,0 +1,242 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.12.21.521430",
+  "title": "Crosstalk between regulatory elements in the disordered TRPV4 N-terminus modulates lipid-dependent channel activity",
+  "doi": "10.1101/2022.12.21.521430",
+  "abstract": "Intrinsically disordered regions (IDRs) are essential for membrane receptor regulation but often remain unresolved in structural studies. TRPV4, a member of the TRP vanilloid channel family involved in thermo- and osmosensation, has a large N-terminal IDR of approximately 150 amino acids. With an integrated structural biology approach, we analyze the structural ensemble of the TRPV4 IDR and identify a network of regulatory elements that modulate channel activity in a hierarchical lipid-dependent manner through transient long-range interactions. A highly conserved autoinhibitory patch acts as a master regulator by competing with PIP 2 binding to attenuate channel activity. Molecular dynamics simulations show that loss of the interaction between the PIP 2 -binding site and the membrane reduces the force exerted by the IDR on the structured core of TRPV4. This work demonstrates that IDR structural dynamics are coupled to TRPV4 activity and highlights the importance of IDRs for TRP channel function and regulation.",
+  "authors": [
+    "Goretzki B",
+    "Wiedemann C",
+    "McCray BA",
+    "Schäfer SL",
+    "Jansen J",
+    "Tebbe F",
+    "Mitrovic S",
+    "Nöth J",
+    "Donohue JK",
+    "Jeffries CM",
+    "Steinchen W",
+    "Stengel F",
+    "Sumner CJ",
+    "Hummer G",
+    "Hellmich UA"
+  ],
+  "published_date": "2022-12-22",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.12.21.521430",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.12.21.521430.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR587993",
+    "raw_record": {
+      "id": "PPR587993",
+      "source": "PPR",
+      "doi": "10.1101/2022.12.21.521430",
+      "title": "Crosstalk between regulatory elements in the disordered TRPV4 N-terminus modulates lipid-dependent channel activity",
+      "authorString": "Goretzki B, Wiedemann C, McCray BA, Schäfer SL, Jansen J, Tebbe F, Mitrovic S, Nöth J, Donohue JK, Jeffries CM, Steinchen W, Stengel F, Sumner CJ, Hummer G, Hellmich UA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Goretzki B",
+            "lastName": "Goretzki",
+            "firstName": "Benedikt",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7721-6657"
+            }
+          },
+          {
+            "fullName": "Wiedemann C",
+            "lastName": "Wiedemann",
+            "firstName": "Christoph",
+            "initials": "C"
+          },
+          {
+            "fullName": "McCray BA",
+            "lastName": "McCray",
+            "firstName": "Brett",
+            "initials": "BA"
+          },
+          {
+            "fullName": "Schäfer SL",
+            "lastName": "Schäfer",
+            "firstName": "Stefan",
+            "initials": "SL"
+          },
+          {
+            "fullName": "Jansen J",
+            "lastName": "Jansen",
+            "firstName": "Jasmin",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3545-7134"
+            }
+          },
+          {
+            "fullName": "Tebbe F",
+            "lastName": "Tebbe",
+            "firstName": "Frederike",
+            "initials": "F"
+          },
+          {
+            "fullName": "Mitrovic S",
+            "lastName": "Mitrovic",
+            "firstName": "Sarah-Ana",
+            "initials": "S"
+          },
+          {
+            "fullName": "Nöth J",
+            "lastName": "Nöth",
+            "firstName": "Julia",
+            "initials": "J"
+          },
+          {
+            "fullName": "Donohue JK",
+            "lastName": "Donohue",
+            "firstName": "Jack",
+            "initials": "JK"
+          },
+          {
+            "fullName": "Jeffries CM",
+            "lastName": "Jeffries",
+            "firstName": "Cy",
+            "initials": "CM"
+          },
+          {
+            "fullName": "Steinchen W",
+            "lastName": "Steinchen",
+            "firstName": "Wieland",
+            "initials": "W"
+          },
+          {
+            "fullName": "Stengel F",
+            "lastName": "Stengel",
+            "firstName": "Florian",
+            "initials": "F"
+          },
+          {
+            "fullName": "Sumner CJ",
+            "lastName": "Sumner",
+            "firstName": "Charlotte",
+            "initials": "CJ"
+          },
+          {
+            "fullName": "Hummer G",
+            "lastName": "Hummer",
+            "firstName": "Gerhard",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7768-746X"
+            }
+          },
+          {
+            "fullName": "Hellmich UA",
+            "lastName": "Hellmich",
+            "firstName": "Ute",
+            "initials": "UA"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7768-746X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7942-8701"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5695-2209"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7721-6657"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3545-7134"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Intrinsically disordered regions (IDRs) are essential for membrane receptor regulation but often remain unresolved in structural studies. TRPV4, a member of the TRP vanilloid channel family involved in thermo- and osmosensation, has a large N-terminal IDR of approximately 150 amino acids. With an integrated structural biology approach, we analyze the structural ensemble of the TRPV4 IDR and identify a network of regulatory elements that modulate channel activity in a hierarchical lipid-dependent manner through transient long-range interactions. A highly conserved autoinhibitory patch acts as a master regulator by competing with PIP  2 binding to attenuate channel activity. Molecular dynamics simulations show that loss of the interaction between the PIP  2 -binding site and the membrane reduces the force exerted by the IDR on the structured core of TRPV4. This work demonstrates that IDR structural dynamics are coupled to TRPV4 activity and highlights the importance of IDRs for TRP channel function and regulation.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/12/22/2022.12.21.521430.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.12.21.521430"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37443299",
+            "reference": "Nature communications. 2023 Jul;14(1):4165",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2022-12-23",
+      "firstPublicationDate": "2022-12-22",
+      "firstIndexDate": "2022-12-23",
+      "hasEvaluations": "N"
+    }
+  }
+}

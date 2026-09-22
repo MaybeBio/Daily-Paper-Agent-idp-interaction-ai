@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.08.08.503157",
+  "title": "Protein Geometry, Function and Mutation",
+  "authors": "Penner R",
+  "journal": "bioRxiv",
+  "published_date": "2022-08-08",
+  "window": {
+    "start": "2022-08-08",
+    "end": "2022-08-14"
+  },
+  "score": 3,
+  "one_liner_zh": "该文是面向数学家的蛋白质几何与功能综述，聚焦病毒糖蛋白与突变调控，未涉及无序蛋白、PPI机制或AI/物理模拟方法，与本课题关联微弱。",
+  "abstract": "<h4> A bstract </h4> This survey for mathematicians summarizes several works by the author on protein geometry and protein function with applications to viral glycoproteins in general and the spike glycoprotein of the SARS-CoV-2 virus in particular. Background biology and biophysics are sketched. This body of work culminates in a postulate that protein secondary structure regulates mutation, with backbone hydrogen bonds materializing in critical regions to avoid mutation, and disappearing from other regions to enable it.",
+  "abstract_zh": "<h4>摘要</h4> 本综述面向数学家，总结了作者在蛋白质几何与蛋白质功能方面的若干工作，这些工作应用于一般病毒糖蛋白，特别是SARS-CoV-2病毒的刺突糖蛋白。文中概述了相关生物学和生物物理学背景。这一系列研究最终提出一个假设：蛋白质二级结构调控突变，其中主链氢键在关键区域形成以避免突变，而在其他区域消失以促进突变。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.08.08.503157",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.08.08.503157",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.08.08.503157/index.html"
+}

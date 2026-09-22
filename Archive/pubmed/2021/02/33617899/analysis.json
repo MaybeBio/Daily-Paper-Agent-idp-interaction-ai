@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33617899",
+  "title": "Binding Dynamics of Disordered Linker Histone H1 with a Nucleosomal Particle.",
+  "authors": "Wu, Hao; Dalal, Yamini; Papoian, Garegin A",
+  "journal": "Journal of molecular biology",
+  "published_date": "2021-02-23",
+  "window": {
+    "start": "2021-02-22",
+    "end": "2021-02-28"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化模型AWSEM-DNA模拟无序组蛋白H1与核小体复合物的结合动态，揭示无序末端域如何限制核小体构象并增强结合，直接契合无序蛋白介导PPI的机制建模主题。",
+  "abstract": "Linker histone H1 is an essential regulatory protein for many critical biological processes, such as eukaryotic chromatin packaging and gene expression. Mis-regulation of H1s is commonly observed in tumor cells, where the balance between different H1 subtypes has been shown to alter the cancer phenotype. Consisting of a rigid globular domain and two highly charged terminal domains, H1 can bind to multiple sites on a nucleosomal particle to alter chromatin hierarchical condensation levels. In particular, the disordered H1 amino- and carboxyl-terminal domains (NTD/CTD) are believed to enhance this binding affinity, but their detailed dynamics and functions remain unclear. In this work, we used a coarse-grained computational model, AWSEM-DNA, to simulate the H1.0b-nucleosome complex, namely chromatosome. Our results demonstrate that H1 disordered domains restrict the dynamics and conformation of both globular H1 and linker DNA arms, resulting in a more compact and rigid chromatosome particle. Furthermore, we identified regions of H1 disordered domains that are tightly tethered to DNA near the entry-exit site. Overall, our study elucidates at near-atomic resolution the way the disordered linker histone H1 modulates nucleosome's structural preferences and conformational dynamics.",
+  "abstract_zh": "连接组蛋白H1是许多关键生物过程中的重要调控蛋白，例如真核染色质包装和基因表达。H1的失调在肿瘤细胞中常见，不同H1亚型之间的平衡已被证明能改变癌症表型。H1由一个刚性的球状结构域和两个高度带电的末端结构域组成，能够结合核小体颗粒上的多个位点，以改变染色质层级凝聚水平。特别是，无序的H1氨基和羧基末端结构域（NTD/CTD）被认为能增强这种结合亲和力，但其详细的动态和功能仍不清楚。在本工作中，我们使用粗粒化计算模型AWSEM-DNA模拟了H1.0b-核小体复合物，即染色质小体。我们的结果表明，H1无序结构域限制了球状H1和连接DNA臂的动态及构象，导致更紧凑和刚性的染色质小体颗粒。此外，我们识别了H1无序结构域中与入口-出口位点附近DNA紧密相连的区域。总体而言，我们的研究以近原子分辨率阐明了无序连接组蛋白H1如何调节核小体的结构偏好和构象动态。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33617899/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33617899/",
+  "paper_page_path": "papers/pubmed/33617899/index.html"
+}

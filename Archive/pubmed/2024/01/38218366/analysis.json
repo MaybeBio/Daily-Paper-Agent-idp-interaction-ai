@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38218366",
+  "title": "Leucine Motifs Stabilize Residual Helical Structure in Disordered Proteins.",
+  "authors": "Zavrtanik, Uros; Medved, Tadej; Puric, Samo; Vranken, Wim; Lah, Jurij; Hadzi, San",
+  "journal": "Journal of molecular biology",
+  "published_date": "2024-01-14",
+  "window": {
+    "start": "2024-01-08",
+    "end": "2024-01-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究无序蛋白中螺旋结合基序(HBM)的残基螺旋结构稳定机制，聚焦亮氨酸基序对螺旋稳定和靶标结合的作用，虽未用AI/物理模拟方法，但深入探讨了IDP结合前的构象机制，对无序蛋白互作机制建模有参考价值。",
+  "abstract": "Many examples are known of regions of intrinsically disordered proteins that fold into alpha-helices upon binding to their targets. These helical binding motifs (HBMs) can be partially helical also in the unbound state, and this so-called residual structure can affect binding affinity and kinetics. To investigate the underlying mechanisms governing the formation of residual helical structure, we assembled a dataset of experimental helix contents of 65 peptides containing HBM that fold-upon-binding. The average residual helicity is 17% and increases to 60% upon target binding. The helix contents of residual and target-bound structures do not correlate, however the relative location of helix elements in both states shows a strong overlap. Compared to the general disordered regions, HBMs are enriched in amino acids with high helix preference and these residues are typically involved in target binding, explaining the overlap in helix positions. In particular, we find that leucine residues and leucine motifs in HBMs are the major contributors to helix stabilization and target-binding. For the two model peptides, we show that substitution of leucine motifs to other hydrophobic residues (valine or isoleucine) leads to reduction of residual helicity, supporting the role of leucine as helix stabilizer. From the three hydrophobic residues only leucine can efficiently stabilize residual helical structure. We suggest that the high occurrence of leucine motifs and a general preference for leucine at binding interfaces in HBMs can be explained by its unique ability to stabilize helical elements.",
+  "abstract_zh": "已知许多例子表明，固有无序蛋白区域在与靶标结合时会折叠成α-螺旋。这些螺旋结合基序（HBMs）在未结合状态下也可能部分呈螺旋状，这种所谓的残余结构可影响结合亲和力与动力学。为探究控制残余螺旋结构形成的潜在机制，我们汇编了一个包含65个含折叠结合型HBM肽段的实验螺旋含量数据集。平均残余螺旋度为17%，靶标结合后增至60%。残余结构与靶标结合结构的螺旋含量不相关，但两种状态下螺旋元件的相对位置显示出强烈重叠。与一般无序区域相比，HBMs富含高螺旋偏好性的氨基酸，这些残基通常参与靶标结合，从而解释了螺旋位置的重叠。特别地，我们发现HBMs中的亮氨酸残基和亮氨酸基序是螺旋稳定化和靶标结合的主要贡献者。对于两个模型肽段，我们证明将亮氨酸基序替换为其他疏水残基（缬氨酸或异亮氨酸）会导致残余螺旋度降低，支持亮氨酸作为螺旋稳定剂的作用。在三种疏水残基中，仅亮氨酸能有效稳定残余螺旋结构。我们提出，HBMs中亮氨酸基序的高频出现及结合界面上对亮氨酸的普遍偏好，可归因于其独特的螺旋稳定能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38218366/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38218366/",
+  "paper_page_path": "papers/pubmed/38218366/index.html"
+}

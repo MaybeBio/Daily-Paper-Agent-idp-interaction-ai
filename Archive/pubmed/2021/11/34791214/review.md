@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that multivalency, defined as the presence of multiple interaction-mediating sequence motifs, varies substantially among orthologs of fungal Dcp2 and vertebrate FET family proteins over approximately 600 million years of evolution. They claim that the length scale of these motifs, quantified as the number of motifs per hundred amino acids, is higher and less variable than expected under neutral evolution. They further claim that a machine-learning-based conformation classifier shows disordered segments in these proteins tend to adopt compact conformations, which they state is necessary for phase separation. The overarching claim is that the length scale of multivalent interactions is evolutionarily conserved in these two protein classes.
+- **Visible evidence base** Abstract text only; no quantitative data, statistical analyses, methodological details, or figure/table references are provided
+- **Missing materials affecting confidence** Full manuscript text, all figures and tables, detailed methods for sequence analysis and neutral evolution models, machine-learning classifier architecture and validation, statistical test details, and any supplementary data
+
+## Reviewer
+- **Overall assessment** The abstract presents an intriguing evolutionary hypothesis with potentially broad relevance to the biophysics of phase-separating proteins. However, the evidence base available for review is limited to the abstract, which precludes verification of the central claims. The claim of evolutionary conservation of a length scale is plausible but requires robust statistical support and clear definition of the null model. The machine-learning component is mentioned but not described in sufficient detail to assess its validity. The statement that compact conformations are "necessary" for phase separation is a strong causal claim that appears unsupported by the abstract alone. Overall, the work addresses a timely and important question, but the case is not established from the provided material.
+- **Who would be interested in the results, and why** Researchers in evolutionary biology, biophysics of phase separation, and computational biology would find these results relevant. The study bridges molecular evolution and biophysical function, which could interest those studying how sequence features constrain protein behavior over deep evolutionary timescales. The potential link between conserved sequence features and phase-separation capacity may also appeal to cell biologists studying membraneless organelles.
+- **Major strengths** The question is well-framed and addresses a gap in understanding how multivalency evolves. The choice of two evolutionarily distant protein families (fungal Dcp2 and vertebrate FET) provides a comparative framework. The integration of evolutionary analysis with a machine-learning-based structural prediction is a modern and potentially powerful approach. The abstract clearly states the main finding and its possible functional implication.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Statistical support for conservation claim  
+  - **Claim pointer** The authors claim that the total number of interaction motifs per hundred amino acids is "higher and less variable than expected by neutral evolution."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract provides no quantitative details on how the neutral expectation was modeled, what statistical tests were used, or what effect sizes were observed. Without these, the claim of "higher and less variable" cannot be evaluated.  
+  - **Why it matters** The central conclusion of evolutionary conservation rests entirely on this statistical comparison. If the neutral model is misspecified or the variance reduction is marginal, the claim would be unsupported.  
+  - **Resolution test** Provide the full statistical analysis, including the neutral model definition, test statistics, confidence intervals, and a demonstration that the observed values are significantly different from neutral expectations across multiple independent simulations or analytical predictions.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Validity of machine-learning classifier  
+  - **Claim pointer** The authors state that a "conformation classifier using machine-learning algorithms" demonstrates that disordered segments tend to adopt compact conformations, which is "necessary for phase separation."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** No details are given on the training data, features, model architecture, validation procedure, or accuracy of the classifier. The claim that compact conformations are "necessary" for phase separation is a strong causal statement that is not supported by the abstract.  
+  - **Why it matters** The functional interpretation of the evolutionary conservation depends on the reliability of the classifier and the causal link to phase separation. If the classifier is poorly validated or the necessity claim is overstated, the biological significance of the conservation is weakened.  
+  - **Resolution test** Provide full methodological details of the classifier, including training and test datasets, performance metrics, and a clear justification for the "necessary" claim, ideally with experimental or structural evidence linking compact conformations to phase-separation capacity.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability of the conclusion  
+  - **Claim pointer** The authors conclude that "the length scale of multivalent interactions is an evolutionarily conserved feature of two classes of phase-separating proteins in fungi and vertebrates."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The study examines only two protein families, one fungal and one vertebrate. The abstract does not indicate whether the finding is expected to generalize to other phase-separating proteins or whether these families are representative.  
+  - **Why it matters** The title and abstract imply a broader evolutionary principle, but the evidence base is narrow. Overgeneralization could mislead readers about the universality of the finding.  
+  - **Resolution test** Clarify the scope of the claim in the abstract, or provide additional analyses on a broader set of phase-separating proteins to support generalizability.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of definition  
+  - **Affected element** Definition of multivalency  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract defines multivalency as "the presence of multiple sites that mediate interactions," but the operational definition used for counting motifs is not specified.  
+  - **Required correction** Provide a clear operational definition of what constitutes a motif and how multivalency is quantified in the full text.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Temporal scope  
+  - **Affected element** Evolutionary timescale  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states "approximately 600 million years" of evolution, but it is unclear how this timescale is calibrated for both fungal and vertebrate lineages, which have different divergence times.  
+  - **Required correction** Specify the calibration method and whether the timescale is consistent across both protein families.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology precision  
+  - **Affected element** Use of "length scale"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "length scale" is used to describe the number of motifs per hundred amino acids, which is a density measure rather than a spatial length. This could confuse readers.  
+  - **Required correction** Clarify the terminology, either by redefining "length scale" in the context of sequence density or by using a more precise term such as "motif density."  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of evolutionary conservation and functional necessity cannot be assessed without the missing statistical and methodological details. R1-M3 is non-blocking but should be addressed to avoid overgeneralization.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The question of evolutionary conservation of multivalency length scale is novel and not commonly addressed in the phase-separation literature. The abstract suggests a fresh perspective.  
+  - **Scientific importance** If substantiated, the finding could link sequence-level evolutionary constraints to a biophysical property with functional consequences, which is of broad interest. However, the importance is contingent on the robustness of the statistical and computational analyses.  
+  - **Interdisciplinary readership** The topic bridges evolutionary biology, biophysics, and computational biology, which could attract a diverse audience. The abstract is written in a way that is largely accessible, though some terms may require background knowledge.  
+  - **Technical soundness** Not assessable from the abstract alone. The lack of methodological detail prevents evaluation of the statistical models and machine-learning approach.  
+  - **Readability for nonspecialists** The abstract is generally clear, but the term "length scale" and the concept of multivalency may need more explanation for a general scientific audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising hypothesis, but the absence of quantitative results, statistical details, and methodological transparency means the central claims cannot be verified. I would be supportive if the full manuscript provides the necessary evidence to address the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that the number of motifs per hundred amino acids is "higher and less variable than expected by neutral evolution" is unsupported without statistical details.
+- The claim that compact conformations are "necessary" for phase separation is unsupported and appears to overstate the evidence.
+- The general conclusion that the length scale of multivalent interactions is evolutionarily conserved across "two classes" of proteins is not fully supported given the narrow sample of two families.
+- The evolutionary timescale of "approximately 600 million years" is stated without calibration details, making it unverifiable.

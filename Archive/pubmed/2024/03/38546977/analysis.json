@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38546977",
+  "title": "Multiscale Computational Framework for the Liquid-Liquid Phase Separation of Intrinsically Disordered Proteins.",
+  "authors": "Fernando, Kalindu S; Jahanmir, Ghodsiehsadat; Unarta, Ilona C; Chau, Ying",
+  "journal": "Langmuir : the ACS journal of surfaces and colloids",
+  "published_date": "2024-03-28",
+  "window": {
+    "start": "2024-03-25",
+    "end": "2024-03-31"
+  },
+  "score": 9,
+  "one_liner_zh": "该文构建了从分子对接/全原子MD到粗粒化蒙特卡洛的多尺度计算框架，以FUS蛋白为例预测无序蛋白液-液相分离行为，直接契合IDP互作机制建模与相分离主题。",
+  "abstract": "The reversible assembly of intrinsically disordered proteins (IDPs) to form membraneless organelles (MLOs) is a fundamental process involved in the spatiotemporal regulation in living cells. MLOs formed via liquid-liquid phase separation (LLPS) serve as molecule-enhancing hubs to regulate cell functions. Owing to the complexity and dynamic nature of the protein assembly via a network of weak inter- and intra-molecular interactions, it is challenging to describe and predict the LLPS behavior. We have developed a multiscale computational model for IDPs, using the fused in sarcoma (FUS) protein and its variants as illustrative examples. To simplify the description of protein, FUS is represented as a linear chain of stickers interspaced by spacers, as inspired by the associative polymer theory. Low-complexity aromatic-rich kinked segments (LARKS) available in FUS were identified using LARKSdb and represented as \"stickers\". The pairwise potential energies of each pair of stickers and their beta-sheet-forming propensity were estimated via molecular docking and all atomistic molecular dynamics (AA-MD) simulations. Subsequently, FUS chains were randomly positioned in a cubic lattice as coarse-grained (CG) beads, with the bead assignment based on the Kuhn length estimation of stickers and spacers. Stochastic FUS movements were modeled by Monte Carlo (MC) simulations. In addition to the Metropolis algorithm, discretized pair potential distributions between stickers were considered in the move acceptance criteria. The chosen pair potential represents one of the possible binding energy states, with its probability determined by the frequency of the binding energy distribution histogram. The fluctuations of averaged radial distribution functions (RDFs) in successive MC trial move intervals of equilibrated lattice MC simulations were used to indicate the dynamic nature of assembly/disassembly of the protein chains. This multiscale computational framework provides an economical and efficient way of predicting and describing the LLPS behavior of IDPs.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 的可逆组装形成无膜细胞器 (membraneless organelles, MLOs) 是活细胞时空调控中的基本过程。通过液-液相分离 (liquid-liquid phase separation, LLPS) 形成的 MLOs 作为分子增强枢纽，调节细胞功能。由于蛋白质通过弱分子间和分子内相互作用网络进行组装的复杂性和动态性，描述和预测 LLPS 行为具有挑战性。我们开发了一种针对 IDPs 的多尺度计算模型，以融合肉瘤 (fused in sarcoma, FUS) 蛋白及其变体作为示例。为简化蛋白质描述，受缔合聚合物理论启发，FUS 被表示为由间隔物隔开的粘附物线性链。使用 LARKSdb 识别 FUS 中可用的低复杂性芳香族富集扭结段 (low-complexity aromatic-rich kinked segments, LARKS)，并将其表示为“粘附物”。通过分子对接和全原子分子动力学 (all atomistic molecular dynamics, AA-MD) 模拟，估计每对粘附物的成对势能及其β-折叠形成倾向。随后，FUS 链被随机放置在立方晶格中作为粗粒化 (coarse-grained, CG) 珠，珠分配基于粘附物和间隔物的 Kuhn 长度估计。FUS 的随机运动通过蒙特卡洛 (Monte Carlo, MC) 模拟建模。除 Metropolis 算法外，在移动接受标准中考虑了粘附物之间的离散化对势分布。所选对势代表可能的结合能状态之一，其概率由结合能分布直方图的频率决定。在平衡晶格 MC 模拟的连续 MC 试验移动间隔中，平均径向分布函数 (radial distribution functions, RDFs) 的波动用于指示蛋白质链组装/解组装的动态性质。该多尺度计算框架提供了一种经济高效的方法来预测和描述 IDPs 的 LLPS 行为。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38546977/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38546977/",
+  "paper_page_path": "papers/pubmed/38546977/index.html"
+}

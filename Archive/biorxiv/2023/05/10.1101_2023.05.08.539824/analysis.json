@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.08.539824",
+  "title": "Direct Prediction of Intrinsically Disordered Protein Conformational Properties From Sequence",
+  "authors": "Jeffrey M. Lotthammer; Garrett M. Ginell; Daniel Griffith; Ryan J. Emenecker; Alex S. Holehouse",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-08",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习方法从序列直接预测无序蛋白构象系综性质，虽未直接研究PPI，但其序列-构象建模思路对IDR介导互作的机制建模有可迁移启发。",
+  "abstract": "Intrinsically disordered regions (IDRs) are ubiquitous across all domains of life and play a range of functional roles. While folded domains are generally well-described by a single 3D structure, IDRs exist in a collection of interconverting states known as an ensemble. This structural heterogeneity means IDRs are largely absent from the PDB, contributing to a lack of computational approaches to predict ensemble conformational properties from sequence. Here we combine rational sequence design, large-scale molecular simulations, and deep learning to develop ALBATROSS, a deep learning model for predicting IDR ensemble dimensions from sequence. ALBATROSS enables the instantaneous prediction of ensemble average properties at proteome-wide scale. ALBATROSS is lightweight, easy-to-use, and accessible as both a locally installable software package and a point-and-click style interface in the cloud. We first demonstrate the applicability of our predictors by examining the generalizability of sequence-ensemble relationships in IDRs. Then, we leverage the high-throughput nature of ALBATROSS to characterize emergent biophysical behavior of IDRs within and between proteomes. Update from previous version This preprint reports an updated version of the ALBATROSS network weights trained on simulations of over 42,000 sequences. In addition, we provide new colab notebooks that enable proteome-wide IDR prediction and annotation in minutes. All conclusions and observations made in versions 1 and 2 of this manuscript remain true and robust.",
+  "abstract_zh": "固有无序区域（IDRs）在生命的所有领域中普遍存在，并发挥一系列功能作用。虽然折叠结构域通常能通过单一三维结构得到良好描述，但IDRs以一组相互转换的状态存在，称为系综（ensemble）。这种结构异质性意味着IDRs在PDB中基本缺失，导致缺乏从序列预测系综构象性质的计算方法。在此，我们结合理性序列设计、大规模分子模拟和深度学习，开发了ALBATROSS，一种用于从序列预测IDR系综维度的深度学习模型。ALBATROSS能够实现蛋白质组规模下系综平均性质的即时预测。ALBATROSS轻量、易用，既可作为本地安装的软件包，也可通过云端点击式界面访问。我们首先通过检验IDRs中序列-系综关系的泛化性来展示我们预测器的适用性。然后，我们利用ALBATROSS的高通量特性来表征蛋白质组内部及之间的IDRs涌现生物物理行为。先前版本的更新 本预印本报告了ALBATROSS网络权重的更新版本，该版本基于超过42,000条序列的模拟进行训练。此外，我们提供了新的colab笔记本，可在几分钟内实现蛋白质组范围的IDR预测和注释。本手稿版本1和2中做出的所有结论和观察仍然有效且稳健。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.08.539824",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.08.539824",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.08.539824/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.06.03.729848",
+  "title": "Deciphering the role of intrinsically disordered regions of FUS in recognizing U1 snRNA",
+  "authors": "Mitra S; Mahto FK; Maity A; Bahadur RP",
+  "journal": "bioRxiv",
+  "published_date": "2026-06-04",
+  "window": {
+    "start": "2026-06-01",
+    "end": "2026-06-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用分子动力学模拟研究FUS蛋白两个IDR识别U1 snRNA的结构动态机制，对象为IDR且涉及RNA互作机制，但互作对象是RNA而非蛋白，方法为物理模拟，整体对IDP介导互作机制建模有启发。",
+  "abstract": "Fused in Sarcoma (FUS) is an RNA-binding protein associated with neurodegenerative disorders such as amyotrophic lateral sclerosis and frontotemporal dementia. Along with its structured RNA recognition motif, FUS contains two intrinsically disordered regions (IDRs) that play important roles in RNA recognition. However, structural mechanism and dynamics of these IDRs in recognizing RNA remain elusive. We have used molecular dynamics simulations to investigate the structure and dynamics of the two IDRs, flanking the RRM domain of human FUS, in both Apo and U1 snRNA-bound states. Comparison of structural parameters and molecular interactions reveals that RNA binding stabilizes the IDRs and reduces their conformational flexibility through reorganization of intra-protein contacts and correlated movements. RNA binding also causes rearrangement of backbone dihedral angles of the IDRs and limits the formation of secondary structures such as α-helices and 3 10 helices. Interestingly, the two IDRs exhibit distinct modes of RNA recognition. The N-terminal IDR interacts mainly with the nucleotides located near the terminal regions of the stem-loop snRNA. On the other hand, the C-terminal IDR preferentially associates with the central double-stranded region through extensive interactions with the minor groove of the snRNA. Even within IDRs, we identify specific residues that associate with the snRNA more frequently than others by forming persistent hydrogen bonds. Overall, our findings suggest that the flanking disordered regions of FUS are not merely flexible linkers, but actively participate in RNA recognition through distinct interaction mechanisms. These results provide molecular-level insights into the functional roles of IDRs in recognizing stem-loop RNA.",
+  "abstract_zh": "肉瘤融合蛋白（FUS）是一种RNA结合蛋白，与肌萎缩侧索硬化症和额颞叶痴呆等神经退行性疾病相关。除其结构化的RNA识别基序外，FUS还包含两个内在无序区域（IDRs），在RNA识别中发挥重要作用。然而，这些IDRs在识别RNA时的结构机制和动力学仍不清楚。我们利用分子动力学模拟研究了人类FUS的RRM结构域两侧的两个IDRs在Apo和U1 snRNA结合状态下的结构和动力学。结构参数和分子相互作用的比较表明，RNA结合稳定了IDRs，并通过重组蛋白质内部接触和关联运动降低了其构象灵活性。RNA结合还导致IDRs骨架二面角的重排，并限制了α-螺旋和3₁₀螺旋等二级结构的形成。有趣的是，这两个IDRs表现出不同的RNA识别模式。N端IDR主要与位于茎环snRNA末端区域附近的核苷酸相互作用。另一方面，C端IDR通过与snRNA小沟的广泛相互作用，优先与中央双链区域结合。即使在IDRs内部，我们也识别出一些特定残基，它们通过形成持久氢键，比其他残基更频繁地与snRNA关联。总体而言，我们的发现表明，FUS的侧翼无序区域不仅仅是柔性连接子，而是通过不同的相互作用机制积极参与RNA识别。这些结果为IDRs在识别茎环RNA中的功能作用提供了分子层面的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729848",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.06.03.729848",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.06.03.729848/index.html"
+}

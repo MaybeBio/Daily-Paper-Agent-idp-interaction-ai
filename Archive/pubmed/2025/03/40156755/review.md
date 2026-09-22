@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (title, authors, journal, date, DOI, URL, and main text as provided)
+- **Assessment boundary** The scientific content of the reported backbone resonance assignments, including the experimental findings, interpretation, and consistency with the stated claims
+- **Shared manuscript claim summary** The authors report backbone resonance assignments for two segments of the intrinsically disordered region (IDR) of CPEB3, namely residues 101-200 and 294-410. They state that CPEB3 [101-200] is disordered, consistent with sequence-based predictions, and that two partial alpha-helices are present within CPEB3 [294-410]
+- **Visible evidence base** The main text as provided, which includes the abstract-level description of the assignments and the secondary structure findings. No figures, tables, spectra, or experimental details are included in the supplied material
+- **Missing materials affecting confidence** Experimental details such as NMR acquisition parameters, sample conditions (buffer, temperature, pH, protein concentration), isotope labeling strategy, assignment completeness statistics, chemical shift tables, secondary structure prediction methodology, and validation metrics (e.g., TALOS-N or CSI output) are not provided. Figures showing assigned spectra or chemical shift deviations are absent
+
+## Reviewer
+- **Overall assessment** The manuscript reports backbone resonance assignments for two segments of the CPEB3 IDR, a protein region of significant neurobiological interest. The finding that CPEB3 [101-200] is disordered and that CPEB3 [294-410] contains two partial alpha-helices is plausible and consistent with the known behavior of IDRs. However, the supplied material is insufficient to evaluate the technical quality of the assignments, the completeness of the resonance assignment process, or the robustness of the secondary structure conclusions. The manuscript appears to be a standard assignment report appropriate for the target journal, but the evidence base provided here does not allow verification of the core claims
+- **Who would be interested in the results, and why** Researchers studying CPEB3 function in long-term memory formation, RNA-binding proteins, intrinsically disordered regions, and liquid-liquid phase separation. The assignments will enable future NMR-based studies of CPEB3 dynamics, interactions with RNA or binding partners, and the molecular mechanisms underlying LLPS and aggregation. The secondary structure information for CPEB3 [294-410] may also be of interest to structural biologists investigating the conformational behavior of IDRs
+- **Major strengths** The biological context is well described and the rationale for studying these specific segments is clear. The reported findings are consistent with sequence-based predictions, which lends internal credibility to the assignments. The manuscript addresses a gap in the field by providing resonance assignments for a functionally important but structurally uncharacterized region of CPEB3
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that backbone resonance assignments were obtained for residues 101-200 and 294-410 of the CPEB3 IDR
+  - **Evidence pointer** Main text, location not provided
+  - **Concern** The supplied material contains no experimental evidence to support the assignments. No chemical shift tables, assigned spectra, completeness statistics, or experimental conditions are provided. Without these data, the assignments cannot be verified or evaluated for quality
+  - **Why it matters** Resonance assignments are the primary data product of this manuscript. The scientific value of the work depends entirely on the reliability and completeness of these assignments. Unverifiable assignments cannot be used by the community for downstream studies
+  - **Resolution test** Provide the full assignment tables, including chemical shifts for backbone atoms (H, N, CA, CB, CO), completeness percentages per residue, and representative assigned spectra. Include experimental conditions and validation metrics
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that CPEB3 [101-200] is disordered and that two partial alpha-helices are present within CPEB3 [294-410]
+  - **Evidence pointer** Main text, location not provided
+  - **Concern** The secondary structure conclusions are stated without supporting data. No chemical shift index analysis, TALOS-N output, or other secondary structure prediction from experimental shifts is shown. The basis for identifying the two partial alpha-helices is not described
+  - **Why it matters** The secondary structure findings are a key result of the manuscript. Without transparent presentation of the analysis method and its output, the conclusions cannot be independently assessed or reproduced
+  - **Resolution test** Show the secondary structure prediction output (e.g., TALOS-N or CSI plots) derived from the assigned chemical shifts, and specify the residue ranges of the two partial alpha-helices
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of reporting
+  - **Claim pointer** The manuscript presents assignments for two segments of the CPEB3 IDR
+  - **Evidence pointer** Main text, location not provided
+  - **Concern** The completeness of the assignments is not stated. It is unclear what fraction of backbone resonances were assigned for each segment, which residues are missing, and whether any assignments are ambiguous or tentative
+  - **Why it matters** Assignment completeness directly affects the utility of the data. Partial assignments with unknown gaps limit the applicability of the results for dynamics studies or interaction mapping
+  - **Resolution test** Report assignment completeness as a percentage per residue type and per segment, and list any unassigned or ambiguously assigned residues
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Main text, location not provided
+  - **Issue** The abbreviation IDR is used without being defined at first mention in the main text
+  - **Required correction** Define IDR as intrinsically disordered region at first use
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods description
+  - **Evidence pointer** Main text, location not provided
+  - **Issue** No experimental details are provided for the NMR measurements, including spectrometer frequency, temperature, sample buffer, or protein concentration
+  - **Required correction** Add a methods section describing sample preparation, NMR experiments, and data processing parameters
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of reporting
+  - **Affected element** Results
+  - **Evidence pointer** Main text, location not provided
+  - **Issue** The residue ranges of the two partial alpha-helices in CPEB3 [294-410] are not specified
+  - **Required correction** State the exact residue ranges for the two partial alpha-helices
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of assignment tables, chemical shift data, and secondary structure analysis means the core claims of the manuscript cannot be evaluated from the supplied material
+- **Assessment against Nature-style criteria** 
+  - Originality: The work provides new resonance assignments for a previously uncharacterized region of CPEB3. This is a routine contribution in the field of biomolecular NMR and does not represent a conceptual advance
+  - Scientific importance: The biological context is significant given the role of CPEB3 in memory formation and LLPS. However, the assignments themselves are a resource rather than a mechanistic finding
+  - Interdisciplinary readership: The results will primarily interest NMR spectroscopists and researchers studying CPEB3 or IDRs. The broader neuroscience community may find the secondary structure information useful but the appeal is limited
+  - Technical soundness: Cannot be assessed from the supplied material. The absence of experimental data prevents evaluation of the assignment quality
+  - Readability for nonspecialists: The text is concise and accessible, but the lack of experimental detail limits its utility for readers unfamiliar with NMR assignment practices
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript may be suitable for publication in a specialized journal such as Biomolecular NMR Assignments, but the supplied material is insufficient to support the claims. The authors should provide the missing experimental data and analysis to allow proper evaluation
+
+## Risk / unsupported claims
+- The claim that CPEB3 [101-200] is disordered is unsupported in the supplied material, as no experimental evidence is shown
+- The claim that two partial alpha-helices are present within CPEB3 [294-410] is unsupported, as the secondary structure analysis is not described or shown
+- The overall statement that backbone resonance assignments were obtained for the two segments is unverifiable without assignment tables or spectra
+- The biological significance of the findings, while plausible, is presented as context rather than as a demonstrated result of this work

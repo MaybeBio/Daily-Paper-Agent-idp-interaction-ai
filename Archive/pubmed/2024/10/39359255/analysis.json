@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39359255",
+  "title": "N-terminal domain of androgen receptor is a major therapeutic barrier and potential pharmacological target for treating castration resistant prostate cancer: a comprehensive review.",
+  "authors": "Chen, Ye; Lan, Tian",
+  "journal": "Frontiers in pharmacology",
+  "published_date": "2024-10-03",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 6,
+  "one_liner_zh": "综述雄激素受体N端无序结构域(NTD)作为CRPC治疗靶点的序列-结构-功能关系及小分子抑制剂，涉及MD模拟但以药物发现综述为主，PPI机制深度有限。",
+  "abstract": "The incidence rate of prostate cancer (PCa) has risen by 3% per year from 2014 through 2019 in the United States. An estimated 34,700 people will die from PCa in 2023, corresponding to 95 deaths per day. Castration resistant prostate cancer (CRPC) is the leading cause of deaths among men with PCa. Androgen receptor (AR) plays a critical role in the development of CRPC. N-terminal domain (NTD) is the essential functional domain for AR transcriptional activation, in which modular activation function-1 (AF-1) is important for gene regulation and protein interactions. Over last 2 decades drug discovery against NTD has attracted interest for CRPC treatment. However, NTD is an intrinsically disordered domain without stable three-dimensional structure, which has so far hampered the development of drugs targeting this highly dynamic structure. Employing high throughput cell-based assays, small-molecule NTD inhibitors exhibit a variety of unexpected properties, ranging from specific binding to NTD, blocking AR transactivation, and suppressing oncogenic proliferation, which prompts its evaluation in clinical trials. Furthermore, molecular dynamics simulations reveal that compounds can induce the formation of collapsed helical states. Nevertheless, our knowledge of NTD structure has been limited to the primary sequence of amino acid chain and a few secondary structure motif, acting as a barrier for computational and pharmaceutical analysis to decipher dynamic conformation and drug-target interaction. In this review, we provide an overview on the sequence-structure-function relationships of NTD, including the polymorphism of mono-amino acid repeats, functional elements for transcription regulation, and modeled tertiary structure of NTD. Moreover, we summarize the activities and therapeutic potential of current NTD-targeting inhibitors and outline different experimental methods contributing to screening novel compounds. Finally, we discuss current directions for structure-based drug design and potential breakthroughs for exploring pharmacological motifs and pockets in NTD, which could contribute to the discovery of new NTD inhibitors.",
+  "abstract_zh": "2014年至2019年间，美国前列腺癌（PCa）的发病率每年上升3%。预计2023年将有约34,700人死于前列腺癌，相当于每天95例死亡。去势抵抗性前列腺癌（CRPC）是男性前列腺癌患者死亡的主要原因。雄激素受体（AR）在CRPC的发展中起着关键作用。N端结构域（NTD）是AR转录激活所必需的功能域，其中模块化激活功能-1（AF-1）对基因调控和蛋白质相互作用至关重要。在过去二十年中，针对NTD的药物研发引起了CRPC治疗领域的兴趣。然而，NTD是一个 intrinsically disordered domain（内在无序结构域），缺乏稳定的三维结构，这迄今阻碍了针对这种高度动态结构的药物开发。通过高通量细胞基检测，小分子NTD抑制剂展现出多种意想不到的特性，包括特异性结合NTD、阻断AR反式激活以及抑制致癌性增殖，这促使其进入临床试验评估。此外，分子动力学 (molecular dynamics) 模拟揭示，化合物能诱导形成塌缩螺旋状态。尽管如此，我们对NTD结构的了解仍局限于氨基酸链的一级序列和少数二级结构基序，这成为计算和药物分析解读动态构象及药物-靶点相互作用的障碍。在本综述中，我们概述了NTD的序列-结构-功能关系，包括单氨基酸重复序列的多态性、转录调控的功能元件以及NTD的建模三级结构。此外，我们总结了当前靶向NTD抑制剂的活性和治疗潜力，并概述了有助于筛选新化合物的不同实验方法。最后，我们讨论了基于结构的药物设计的当前方向，以及探索NTD中药理基序和口袋的潜在突破，这可能有助于发现新的NTD抑制剂。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39359255/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39359255/",
+  "paper_page_path": "papers/pubmed/39359255/index.html"
+}

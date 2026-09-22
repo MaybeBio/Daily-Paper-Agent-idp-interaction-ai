@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42428990",
+  "title": "Capturing the essence of liquid-liquid phase-separation at macroscopic scales via a continuum model.",
+  "authors": "Mukherjee, Nayana; Wasim, Abdul; Mondal, Jagannath; Ghosh, Pushpita",
+  "journal": "Physical chemistry chemical physics : PCCP",
+  "published_date": "2026-07-10",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出连续介质反应-扩散模型，从宏观尺度模拟液-液相分离的成核、生长与熟化机制，虽非直接针对无序蛋白PPI，但其多组分相互作用与相分离机制建模思路对IDR介导凝聚体研究有可迁移启发。",
+  "abstract": "Liquid-liquid phase separation (LLPS) drives the formation of membraneless biomolecular condensates central to cellular organization, but predictive models bridging molecular interactions and macroscopic phase behaviour remain elusive. Here we present a continuum reaction-diffusion model that captures key multiscale features of LLPS. The framework maps the phase space for condensate nucleation and growth, revealing a threshold in dilute-phase diffusivity above which droplet formation is enhanced. We find that stronger interconversion kinetics between the dilute and dense phases accelerate droplet coarsening and Ostwald ripening, consistent with faster growth of large droplets at the expense of smaller ones. Remarkably, our multi-component framework naturally produces ring-like dilute-phase shells around condensates. This phenomenon, observed experimentally, is inaccessible in classical single-field phase-separation models which lack explicit multi-component interactions. Incorporating stochastic fluctuations further accelerates phase separation, highlighting noise-sensitive regimes. By integrating molecular-level interactions into a continuum framework, the model achieves mechanistic transparency alongside computational efficiency. It offers predictive power to interpret and control LLPS across diverse biological and materials contexts.",
+  "abstract_zh": "液-液相分离（LLPS）驱动无膜生物分子凝聚体的形成，这些凝聚体对细胞组织至关重要，但连接分子相互作用与宏观相行为的预测模型仍然难以捉摸。在此，我们提出一个连续反应-扩散模型，捕捉LLPS的关键多尺度特征。该框架映射了凝聚体成核与生长的相空间，揭示了稀相扩散率的一个阈值，超过该阈值时液滴形成得到增强。我们发现，稀相与浓相之间更强的相互转化动力学加速了液滴粗化和奥斯特瓦尔德熟化，这与大液滴以牺牲小液滴为代价更快生长的现象一致。值得注意的是，我们的多组分框架自然产生了围绕凝聚体的环状稀相壳层。这一在实验中观察到的现象，在经典单场相分离模型中无法获得，因为这些模型缺乏明确的多组分相互作用。引入随机涨落进一步加速相分离，突显了对噪声敏感的区域。通过将分子水平相互作用整合到连续框架中，该模型在实现计算效率的同时保持了机制透明度。它为跨多种生物学和材料背景下解释和控制LLPS提供了预测能力。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42428990/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42428990/",
+  "paper_page_path": "papers/pubmed/42428990/index.html"
+}

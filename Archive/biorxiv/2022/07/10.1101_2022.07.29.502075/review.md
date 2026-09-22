@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (bioRxiv preprint)
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided text; no supplementary figures, methods, or data files were available for inspection
+- **Shared manuscript claim summary** The authors propose that HeLEA1, a tardigrade LEA protein, acts as a molecular chaperone for mitochondrial membranes. They report that HeLEA1 localizes to the mitochondrial matrix, undergoes a disorder-to-helical transition upon binding negatively charged lipids, increases membrane fluidity and potential in yeast, and confers hyperosmotic stress tolerance specifically under non-fermentative growth conditions. They further suggest this represents a general biophysical mechanism conserved across domains of life.
+- **Visible evidence base** Main text figures referenced (Fig. 1a-i, 2a-f, 3a-f, 4a-d, 5), Extended Data Figures 1-30 (referenced but not provided), Extended Data Tables 1-4 (referenced but not provided), computational predictions (IUPred, AlphaFold2, PSIPRED, MEME, Phyre2), biophysical data (CD, NMR, SAXS, DSC, Langmuir monolayer), cellular assays (yeast growth, fluorescence microscopy, TMRM), lipidomics
+- **Missing materials affecting confidence** All Extended Data figures and tables, detailed methods, NMR assignment tables, SAXS data and fitting parameters, DSC thermograms, Langmuir monolayer isotherms, lipidomics raw data, statistical analysis details, strain and plasmid construction details, antibody information, and any supplementary text
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and ambitious multi-scale characterization of a tardigrade LEA protein, HeLEA1, proposing a novel molecular function as a membrane chaperone. The combination of biophysical, structural, cellular, and evolutionary approaches is impressive and the central hypothesis is well-motivated. However, the current version has several technical concerns that need to be addressed, particularly regarding the quantitative interpretation of NMR relaxation data, the physiological relevance of the membrane-binding assays, and the strength of the evolutionary claims. The manuscript is potentially significant but requires substantial revision and access to the extended data to fully evaluate the claims.
+- **Who would be interested in the results, and why** Researchers in the fields of intrinsically disordered proteins, stress biology, membrane biophysics, and extremophile adaptation. The proposed mechanism of membrane chaperoning by IDPs could have broad implications for understanding how organisms survive environmental stress and for biotechnological applications in stress tolerance engineering. The work bridges protein biophysics and cell biology in a way that would appeal to a wide readership.
+- **Major strengths** 1) The study addresses a long-standing question about the molecular function of LEA proteins with a rigorous multi-technique approach. 2) The combination of NMR, SAXS, and computational ensemble modeling to characterize the disorder-to-helical transition is sophisticated and appropriate. 3) The cellular validation in yeast, including the use of non-fermentable carbon sources to link mitochondrial function to stress tolerance, is well-designed. 4) The evolutionary analysis across diverse species adds a valuable dimension. 5) The writing is clear and the logical flow from sequence analysis to biophysics to cellular function is effective.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that 15N R2 relaxation rates display a "dramatic increase" under 10% TFE conditions, and that this correlates with regions exhibiting increased helicity, supporting a model of local secondary structure population.
+  - **Evidence pointer** Figure 2e, Extended Data Figure 17, location not provided for specific residue-level data
+  - **Concern** The interpretation of 15N R2 relaxation data in intrinsically disordered proteins is notoriously complex. R2 rates are influenced by multiple timescale motions, including conformational exchange on the microsecond-to-millisecond timescale, which can dominate the observed increases. The authors attribute the R2 increase solely to the formation of transient secondary structure elements, but without reduced spectral density mapping, relaxation dispersion experiments, or analysis of R2/R1 ratios, this interpretation is not uniquely supported. Furthermore, the claim of a "dramatic" increase is qualitative; quantitative values and statistical significance are not provided in the main text.
+  - **Why it matters** The central mechanistic claim of a disorder-to-helical transition is partly based on this relaxation data. If the R2 increases are due to conformational exchange or aggregation effects rather than helix formation, the interpretation would be substantially weakened. The distinction between "segmental motions" and exchange contributions is critical for the validity of the proposed model.
+  - **Resolution test** Provide quantitative R2 values with error bars and statistical comparisons between 0% and 10% TFE conditions. Perform reduced spectral density mapping or relaxation dispersion experiments to separate exchange contributions from fast timescale motions. Alternatively, validate the helical population increases with an orthogonal technique such as paramagnetic relaxation enhancement or PRE-based distance measurements.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that HeLEA1 binding to negatively charged membranes "ameliorates excess surface tension, possibly by stabilizing lipid packing defects" and that this is the mechanism underlying membrane chaperoning.
+  - **Evidence pointer** Figure 3d-e, Extended Data Figures 21-23, location not provided for Langmuir monolayer methods
+  - **Concern** The Langmuir monolayer experiments measure changes in compression modulus (CS-1) of lipid monolayers, not bilayers. The extrapolation from monolayer behavior to bilayer properties, particularly regarding "surface tension" and "packing defects," is not straightforward. Monolayers lack the curvature, transbilayer coupling, and protein insertion geometry of bilayers. Additionally, the DSC experiments show suppression of phase transition at low temperatures, but the interpretation in terms of "stabilizing packing defects" is speculative without direct measurements of lipid packing (e.g., Laurdan generalized polarization or fluorescence recovery after photobleaching). The claim that this mechanism operates in vivo is not directly supported by the cellular data.
+  - **Why it matters** The proposed mechanism of "membrane chaperoning" is the central novel concept of the paper. If the biophysical basis is only demonstrated in simplified monolayer systems without direct evidence in bilayers or in vivo, the mechanistic claim is overextended. The physiological relevance of the observed effects at the stated protein-to-lipid ratios needs to be established.
+  - **Resolution test** Perform experiments with bilayers (e.g., giant unilamellar vesicles or supported lipid bilayers) to measure membrane fluidity, bending rigidity, or lipid packing in the presence of HeLEA1. Use fluorescent probes sensitive to lipid order (e.g., Laurdan, di-4-ANEPPDHQ) in the GUV system already established. Quantify the protein-to-lipid ratios used in the monolayer experiments and compare to estimated in vivo concentrations in the mitochondrial matrix.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that "membrane chaperoning by LEA proteins represents a general biophysical solution that can operate across the domains of life" based on the presence of homologs in diverse species and similar sequence features.
+  - **Evidence pointer** Extended Data Figure 2, Extended Data Table 2, Extended Data Figure 30, location not provided
+  - **Concern** The evolutionary analysis identifies homologs across bacteria, fungi, plants, and invertebrates, but the functional evidence for membrane chaperoning is only provided for HeLEA1 in yeast. The claim of generality is based on sequence conservation and predicted features, but no functional data from other homologs or organisms is presented. The trade-off analysis between basic residue fraction and hydrophobicity (Extended Data Fig. 30) is interesting but does not directly demonstrate conserved membrane chaperoning function. The statement "across the domains of life" is particularly strong given that no archaeal or vertebrate homologs are mentioned.
+  - **Why it matters** The generality of the proposed mechanism is a key selling point of the paper. If the claim is overstated relative to the evidence, it could mislead the field and reduce the impact of the work. The distinction between sequence conservation and functional conservation is critical.
+  - **Resolution test** Either temper the claim to reflect that the mechanism is demonstrated for HeLEA1 and proposed for other homologs based on sequence features, or provide functional data for at least one additional homolog from a different species or cellular compartment. If the latter is not feasible, clearly state the limitations of the evolutionary inference.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that HeLEA1 expression in yeast increases mitochondrial membrane potential (TMRM fluorescence) and that this is linked to the observed stress tolerance.
+  - **Evidence pointer** Figure 4d, location not provided for TMRM quantification methods
+  - **Concern** The TMRM data are presented as a single measurement of membrane potential. TMRM is a potentiometric dye that can be affected by multiple factors including mitochondrial mass, plasma membrane potential, and dye loading conditions. The normalization to TOM20-eGFP is appropriate but does not account for potential changes in mitochondrial morphology or cristae structure that could affect TMRM accumulation. Furthermore, the link between increased membrane potential and stress tolerance is correlative; no causal evidence is provided. The authors do not show whether the increased potential is due to improved electron transport chain function, reduced proton leak, or other mechanisms.
+  - **Why it matters** The cellular phenotype is the most physiologically relevant evidence for the proposed mechanism. If the membrane potential measurement is not rigorously controlled, the conclusion that HeLEA1 improves mitochondrial function is weakened. The mechanistic link between membrane fluidity and membrane potential needs to be clarified.
+  - **Resolution test** Provide additional mitochondrial functional assays such as oxygen consumption rate, ATP production, or activity of specific electron transport chain complexes. Include a time course of TMRM staining and validate with an uncoupler control (e.g., FCCP) to confirm that the TMRM signal is potential-dependent. If possible, measure mitochondrial morphology by electron microscopy to rule out structural changes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Location not provided
+  - **Issue** The introduction assumes familiarity with IDP terminology and the significance of LEA proteins. The opening sentence about environmental stress is generic, but the transition to IDPs and LEA proteins is abrupt for a general reader.
+  - **Required correction** Add a brief explanation of why IDPs are relevant to stress tolerance and what makes LEA proteins a notable family, perhaps with a concrete example of an organism that relies on them.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** NMR assignment completeness
+  - **Evidence pointer** Figure 1h, Extended Data Figure 8, location not provided
+  - **Issue** The authors state that backbone resonances for 191 out of 200 residues were assigned, but the assignment completeness for proline residues and the N-terminal region is not discussed. Prolines lack amide protons and are often challenging in IDP assignments.
+  - **Required correction** Clarify whether proline residues were assigned using 13C-detected experiments and whether the unassigned residues are concentrated in specific regions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** SAXS analysis
+  - **Evidence pointer** Extended Data Figure 14, Extended Data Table 4, location not provided
+  - **Issue** The SAXS-derived Rg values are compared to statistical random coil predictions, but the quality of the SAXS data (e.g., Guinier fits, Kratky plots, concentration dependence) is not described in the main text.
+  - **Required correction** Provide a brief description of SAXS data quality and the fitting procedure, or refer to the methods section with specific details.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Discussion of membrane biophysics
+  - **Evidence pointer** Figure 3d-e, location not provided
+  - **Issue** The DSC and Langmuir monolayer results are described with terminology that may be unfamiliar to cell biologists (e.g., "compression modulus," "isodichroic point"). The significance of these measurements for membrane function is not fully explained.
+  - **Required correction** Add a brief explanation of what these biophysical parameters mean for membrane behavior in a cellular context, perhaps with a simple analogy.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Statistical analysis
+  - **Evidence pointer** Figure 4b-d, location not provided
+  - **Issue** The number of biological replicates and the statistical tests used for the TMRM and growth assays are not stated in the main text.
+  - **Required correction** Specify the number of replicates and the statistical tests used, and include error bars and significance levels in the figures.
+- **Technical failings that need to be addressed before the case is established** 1) The interpretation of 15N R2 relaxation data requires additional analysis to separate conformational exchange from helix formation (R1-M1). 2) The monolayer experiments need to be complemented with bilayer-based measurements to support the membrane chaperoning mechanism (R1-M2). 3) The evolutionary claim of generality needs to be tempered or supported with additional functional data (R1-M3). 4) The TMRM data need additional controls and orthogonal validation (R1-M4).
+- **Assessment against Nature-style criteria** Originality: High. The concept of IDPs as membrane chaperones is novel and extends the current understanding of LEA protein function. Scientific importance: Potentially high, as it could provide a general mechanism for IDP-mediated stress tolerance with broad implications. Interdisciplinary readership: The work bridges protein biophysics, cell biology, and evolutionary biology, which would appeal to a broad audience, but the presentation of biophysical methods needs to be more accessible. Technical soundness: The multi-technique approach is impressive, but the concerns raised above about NMR interpretation and monolayer-to-bilayer extrapolation need to be resolved. Readability for nonspecialists: The manuscript is generally well-written, but some sections assume specialized knowledge. Overall, the manuscript has the potential to meet Nature-level standards if the technical concerns are adequately addressed.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is compelling and the multi-scale approach is appropriate, but the current evidence does not fully establish the proposed mechanism. The authors need to strengthen the biophysical interpretation, provide bilayer-based validation, and temper the evolutionary claims.
+
+## Risk / unsupported claims
+- The claim that HeLEA1 "ameliorates excess surface tension" is not directly supported by the data presented; the monolayer experiments measure compression modulus, not surface tension in bilayers.
+- The claim that the mechanism operates "across the domains of life" is unsupported by functional data from diverse organisms.
+- The statement that "membrane chaperoning by HeLEA1 promotes mitochondrial function" is correlative based on TMRM data; causal evidence is lacking.
+- The claim that "maintaining a high conformational-entropy state in the conserved regions may be important in the function of LEA proteins" is speculative and not directly tested.
+- The physiological relevance of the protein-to-lipid ratios used in the biophysical experiments is not established.

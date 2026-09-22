@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends.
+- **Assessment boundary** Scientific content, technical soundness, and support of claims by the presented data. Editorial or stylistic issues are noted only where they affect clarity or reproducibility.
+- **Shared manuscript claim summary** The authors report a solution NMR study of the interaction between the Arabidopsis VQ protein SIB1 and the C-terminal DNA-binding domain of the transcription factor WRKY33 (WRKY33_C). They identify a minimal SIB1 sequence (residues 46-69) required for binding, map the WRKY33_C binding site to the βN strand and βN-β1 loop, and present a structural model of the complex based on paramagnetic relaxation enhancement (PRE) data and mutagenesis. They further identify a cluster of lysine residues in the N-terminal region of SIB1 that is essential for enhancing WRKY33_C-DNA binding, as shown by electrophoretic mobility shift assays (EMSA).
+- **Visible evidence base** NMR chemical shift assignments, chemical shift perturbation (CSP) data, secondary structure propensity (SSP) analysis, PRE data from three spin-label sites, EMSA data, size-exclusion chromatography, chemical cross-linking, and a structural model from MD simulations guided by experimental restraints.
+- **Missing materials affecting confidence** Raw NMR spectra, assignment tables, PRE data tables with uncertainties, MD simulation parameters and convergence criteria, and uncropped gel images are not provided. The structural model coordinates are not deposited in a public database. These omissions limit independent verification of the quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant gap in the understanding of VQ-WRKY protein interactions, which are central to plant stress signaling. The identification of a minimal SIB1 binding sequence and the mapping of the WRKY33_C interaction surface are valuable contributions. However, the structural model is built on a limited number of restraints and the functional significance of the identified lysine cluster is supported only by qualitative EMSA data. The claims are plausible but not fully established from the evidence provided. The manuscript would benefit from additional quantitative data and clearer presentation of the model validation.
+- **Who would be interested in the results, and why** Researchers in plant molecular biology, particularly those studying WRKY transcription factors, VQ proteins, and plant innate immunity. The work also has relevance for the broader field of intrinsically disordered protein interactions and their role in transcriptional regulation. The methodological approach, combining NMR with MD simulations, may interest structural biologists working on dynamic protein complexes.
+- **Major strengths** The study addresses a previously unexplored structural question and provides the first model of a VQ-WRKY complex. The use of multiple complementary techniques, including NMR, mutagenesis, and EMSA, strengthens the conclusions. The identification of the βN strand and βN-β1 loop as the SIB1 binding site provides a mechanistic explanation for the selectivity of VQ proteins for certain WRKY domains. The finding that a region preceding the conserved VQ motif is required for binding is an important advance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the structural model
+  - **Claim pointer** The authors claim to have built a structural model of the SIB1-WRKY33_C complex based on PRE data and mutagenesis, and use this model to propose a mechanism for SIB1-enhanced DNA binding.
+  - **Evidence pointer** Results section "Building the structure model of the SIB1-WRKY33_C complex", Figure 6, Table 1
+  - **Concern** The structural model is based on only 17 PRE-derived distance restraints and one mutagenesis-derived restraint. This is a very small number of restraints for defining the relative orientation and packing of two proteins. The authors do not provide an assessment of the precision or accuracy of the model, such as a superposition of the 20 selected conformers or a plot of restraint violations. The correlation coefficient of 0.85 between calculated and experimental PRE data is reported, but the uncertainty in this value and the quality of the fit are not discussed. Without a more rigorous validation, the model must be considered a low-resolution docking proposal rather than a determined structure.
+  - **Why it matters** The structural model is central to the paper's conclusions about the binding mode and the mechanism of regulation. If the model is not reliable, the mechanistic interpretations derived from it are not well supported.
+  - **Resolution test** The authors should provide a quantitative analysis of the model quality, including the RMSD of the 20 conformers, a plot of PRE restraint violations, and a comparison of the model with the mutagenesis data. Ideally, the model coordinates should be deposited in a public database. If the model cannot be validated to a higher standard, the claims should be softened to reflect that it is a working model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the functional claim regarding the lysine cluster
+  - **Claim pointer** The authors claim that a cluster of lysine residues in the N-terminal region of SIB1 (cluster II) is essential for enhancing WRKY33_C-DNA binding and stabilizing the ternary complex.
+  - **Evidence pointer** Results section "A lysine cluster in the SIB1 N-terminus is essential for enhancing WRKY33_C-DNA binding", Figure 7
+  - **Concern** The conclusion that the cluster II lysines are essential for ternary complex formation is based on a single EMSA experiment showing a smeared band for the II-K2A mutant. The authors do not provide quantitative data, such as binding affinities or a densitometric analysis of the bands. The smearing could be due to protein aggregation or non-specific interactions rather than a specific loss of DNA binding. The authors also do not test whether the II-K2A mutant still binds WRKY33_C, which is important to rule out an indirect effect on the binary interaction.
+  - **Why it matters** The identification of a specific functional role for the lysine cluster is a key novel finding. If the evidence is not robust, this claim is not established.
+  - **Resolution test** The authors should provide quantitative EMSA data with error bars, or ideally a more quantitative binding assay such as fluorescence anisotropy or surface plasmon resonance. They should also demonstrate that the II-K2A mutant retains the ability to bind WRKY33_C, for example by NMR titration or pull-down.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Completeness of the NMR analysis
+  - **Claim pointer** The authors state that the 40-60 segment of SIB1 becomes unobservable upon binding, implying conformational exchange on an intermediate timescale.
+  - **Evidence pointer** Results section "Conformational changes of SIB1 upon binding to WRKY33_C", Figure 2
+  - **Concern** The disappearance of signals in the 40-60 segment is interpreted as evidence of conformational exchange. However, the authors do not provide a quantitative analysis of this line broadening, such as a comparison of peak intensities or linewidths between the free and bound states. It is also unclear whether the missing residues are truly unassignable or simply not detected. A more detailed analysis would strengthen the interpretation.
+  - **Why it matters** The dynamic behavior of the SIB1 N-terminal region is part of the proposed mechanism. A more rigorous analysis would support the claim that this region remains flexible and does not form a stable contact with WRKY33_C.
+  - **Resolution test** The authors should provide a quantitative comparison of peak intensities or linewidths for residues in the 40-60 segment in the free and bound states. They could also perform relaxation dispersion experiments to characterize the exchange process.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of writing
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The phrase "neccessary" in the abstract is a typographical error. The Introduction contains a sentence with a grammatical error: "Οnly the cDBD is able to bind VQ proteins" uses a Greek omicron instead of the Latin "O". The phrase "Αpart from the consensus" also uses a Greek alpha. These errors should be corrected.
+  - **Required correction** Correct the typographical and grammatical errors throughout the manuscript.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility of methods
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, "Structure modeling"
+  - **Issue** The description of the MD simulations lacks sufficient detail for reproduction. The authors do not specify the number of distance restraints derived from each spin-label site, the force constants used for the mutagenesis-derived restraint, or the criteria for selecting the 20 representative conformers.
+  - **Required correction** Provide a more detailed description of the simulation parameters and the selection criteria for the final conformers.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Data deposition
+  - **Evidence pointer** Not applicable
+  - **Issue** The chemical shift assignments and the structural model coordinates are not deposited in public databases. This limits the ability of other researchers to use or verify the data.
+  - **Required correction** Deposit the chemical shift assignments in the BMRB and the model coordinates in the PDB, and provide accession numbers in the manuscript.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of sequence conservation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion
+  - **Issue** The authors suggest that the V51 residue is conserved among VQ proteins and may be important for binding. However, they do not provide a sequence alignment or a statistical analysis to support this claim.
+  - **Required correction** Provide a sequence alignment of the relevant VQ proteins or a reference to a published alignment to support the conservation claim.
+- **Technical failings that need to be addressed before the case is established** The structural model is insufficiently validated (R1-M1). The functional claim regarding the lysine cluster is not quantitatively supported (R1-M2). The NMR analysis of the dynamic behavior of the 40-60 segment is incomplete (R1-M3).
+- **Assessment against Nature-style criteria** Originality: The work is original in addressing a previously uncharacterized protein-protein interaction. Scientific importance: The findings are of interest to the plant signaling community and contribute to understanding VQ-WRKY regulation. Interdisciplinary readership: The work will primarily appeal to plant biologists and structural biologists; the broader interdisciplinary impact is moderate. Technical soundness: The NMR work is generally sound, but the structural model and functional claims require stronger validation. Readability for nonspecialists: The manuscript is generally readable, but the significance of the findings could be better contextualized for a broader audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core findings are potentially significant, but the structural model and the functional claim regarding the lysine cluster need to be more rigorously supported. The authors should address the concerns raised above before the manuscript can be considered for publication.
+
+## Risk / unsupported claims
+- The structural model of the SIB1-WRKY33_C complex is not sufficiently validated and should be considered a working model.
+- The claim that the cluster II lysines are essential for ternary complex formation is not quantitatively supported.
+- The claim that the 40-60 segment of SIB1 undergoes conformational exchange upon binding is not quantitatively demonstrated.
+- The claim that V51 is conserved among VQ proteins is not supported by a sequence alignment.
+- The estimated Kd of ~150 nM for WRKY33_C-DNA binding is not derived from a rigorous binding assay and should be treated with caution.

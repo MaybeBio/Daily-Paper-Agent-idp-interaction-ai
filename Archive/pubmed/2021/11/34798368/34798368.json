@@ -1,0 +1,227 @@
+{
+  "identity": {
+    "pmid": "34798368",
+    "doi": "10.1016/j.jmgm.2021.108076",
+    "title": "Conformational insights into the C-terminal mutations of human rhodopsin in retinitispigmentosa."
+  },
+  "content": {
+    "abstract": "Rhodopsin is a light-sensitive transmembrane receptor involved in the visual transduction cascade. Among the several rhodopsin mutations related to retinitis pigmentosa (RP), those affecting the C-terminal VAPA-COOH motif that is implicated in rhodopsin trafficking from the Golgi to the rod outer segment are notably associated with more aggressive RP forms. However, molecular reasons for defective rhodopsin signaling due to VAPA-COOH mutations, which might include steric hindrance, physicochemical features and structural determinants, are yet unknown, thus limiting further drug design approaches. In this work, clinically relevant rhodopsin mutations at the P347 site within the VAPA-COOH motif were investigated by molecular dynamics (MD) simulations and compared to the wild-type (WT) system. In agreement with experimental evidence, conformational fluctuations of the intrinsically disordered C-terminal tail of WT and mutant rhodopsin were found not to affect the overall structure of the transmembrane domain, including binding to the retinal cofactor. The WT VAPA-COOH motif adopts a unique conformation that is not found in pathological mutants, suggesting that structural features could better explain the pathogenicity of P347 rhodopsin mutants than physicochemical or steric determinants. These results were confirmed by MD simulations in both membrane-embedded full-length opsin and membrane-free C-terminal deca-peptides, these latter becoming very useful and small-size model systems for further investigations of rhodopsin C-terminal mutations. Structural details elucidated in this work might facilitate the understanding of the pathological mechanisms of this class of rhodopsin mutants, which will be instrumental to the development of new therapeutic strategies.",
+    "keywords": [
+      "C-terminal",
+      "Molecular dynamics",
+      "P347 mutations",
+      "Retinitis pigmentosa",
+      "Rhodopsin",
+      "VAPA-COOH"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "Molecular Conformation",
+      "Molecular Dynamics Simulation",
+      "Mutation",
+      "*Retinitis Pigmentosa/genetics",
+      "*Rhodopsin/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Picarazzi, Francesca",
+        "Manetti, Fabrizio",
+        "Marigo, Valeria",
+        "Mori, Mattia"
+      ],
+      "short_names": [
+        "Picarazzi F",
+        "Manetti F",
+        "Marigo V",
+        "Mori M"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biotechnology, Chemistry and Pharmacy, \"Department of Excellence 2018-2022\", University of Siena, Via Aldo Moro 2, 53100 Siena, Italy.",
+        "Department of Biotechnology, Chemistry and Pharmacy, \"Department of Excellence 2018-2022\", University of Siena, Via Aldo Moro 2, 53100 Siena, Italy.",
+        "Department of Life Sciences, University of Modena and Reggio Emilia, Via G. Campi, 287, 41125 Modena, Italy.",
+        "Department of Biotechnology, Chemistry and Pharmacy, \"Department of Excellence 2018-2022\", University of Siena, Via Aldo Moro 2, 53100 Siena, Italy. Electronic address: mattia.mori@unisi.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Picarazzi, Francesca",
+        "short_name": "Picarazzi F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Chemistry and Pharmacy, \"Department of Excellence 2018-2022\", University of Siena, Via Aldo Moro 2, 53100 Siena, Italy."
+        ]
+      },
+      {
+        "full_name": "Manetti, Fabrizio",
+        "short_name": "Manetti F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Chemistry and Pharmacy, \"Department of Excellence 2018-2022\", University of Siena, Via Aldo Moro 2, 53100 Siena, Italy."
+        ]
+      },
+      {
+        "full_name": "Marigo, Valeria",
+        "short_name": "Marigo V",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Life Sciences, University of Modena and Reggio Emilia, Via G. Campi, 287, 41125 Modena, Italy."
+        ]
+      },
+      {
+        "full_name": "Mori, Mattia",
+        "short_name": "Mori M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Chemistry and Pharmacy, \"Department of Excellence 2018-2022\", University of Siena, Via Aldo Moro 2, 53100 Siena, Italy. Electronic address: mattia.mori@unisi.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular graphics & modelling"
+    ],
+    "journal_abbrev": [
+      "J Mol Graph Model"
+    ],
+    "pub_date": "2022 Jan",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/11/20 06:00",
+    "fetched_at": "2026-09-20 06:32:34"
+  },
+  "links": {
+    "cites": [
+      "40076272",
+      "39598735"
+    ],
+    "refs": [],
+    "similar": [
+      "34798368",
+      "34997336",
+      "33728518",
+      "20395457",
+      "15823756",
+      "20628051",
+      "12646201",
+      "22126625",
+      "25274813",
+      "32060349",
+      "8643443",
+      "24618321",
+      "12871954",
+      "21094163",
+      "11879142",
+      "23625926",
+      "25359768",
+      "9758235",
+      "34919893",
+      "11527933",
+      "34006992",
+      "7558711",
+      "12867022",
+      "15728366",
+      "28490005",
+      "17715341",
+      "34962636",
+      "8643442",
+      "8253795",
+      "11520753",
+      "7523628",
+      "28894166",
+      "8401533",
+      "23940033",
+      "26427449",
+      "1833777",
+      "21352497",
+      "17014888",
+      "34069614",
+      "19913029",
+      "27694816",
+      "26181234",
+      "12476415",
+      "2215617",
+      "15232620",
+      "8193125",
+      "24573320",
+      "11063754",
+      "15509574",
+      "12082151",
+      "15340926",
+      "9724753",
+      "20805032",
+      "9020854",
+      "34793169",
+      "1882937",
+      "11320236",
+      "16962629",
+      "21357407",
+      "21372525",
+      "28212859",
+      "8486634",
+      "8107847",
+      "9748691",
+      "7819178",
+      "16170112",
+      "1303237",
+      "8163341",
+      "30514708",
+      "9391065",
+      "7635666",
+      "8317502",
+      "30359287",
+      "17167409",
+      "22251557",
+      "10521250",
+      "16934219",
+      "24106275",
+      "21940625",
+      "8240107",
+      "24214395",
+      "8800472",
+      "24520188",
+      "25265376",
+      "30085663",
+      "7925677",
+      "8841304",
+      "11559857",
+      "29555765",
+      "34756884"
+    ],
+    "review": [
+      "34798368",
+      "33728518",
+      "15823756",
+      "12867022",
+      "34962636",
+      "8401533",
+      "26427449",
+      "21372525",
+      "22251557"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1093-3263(21)00247-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

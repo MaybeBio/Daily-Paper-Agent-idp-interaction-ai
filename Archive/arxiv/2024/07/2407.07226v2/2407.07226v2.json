@@ -1,0 +1,33 @@
+{
+  "source": "arxiv",
+  "source_id": "2407.07226v2",
+  "title": "Differential Effects of Sequence-Local versus Nonlocal Charge Patterns on Phase Separation and Conformational Dimensions of Polyampholytes as Model Intrinsically Disordered Proteins",
+  "doi": "10.1021/acs.jpclett.4c01973",
+  "abstract": "Conformational properties of intrinsically disordered proteins (IDPs) are governed by a sequence-ensemble relationship. To differentiate the impact of sequence-local versus sequence-nonlocal features of an IDP's charge pattern on its conformational dimensions and its phase-separation propensity, the charge \"blockiness'' $κ$ and the nonlocality-weighted sequence charge decoration (SCD) parameters are compared for their correlations with isolated-chain radii of gyration ($R_{\\rm g}$s) and upper critical solution temperatures (UCSTs) of polyampholytes modeled by random phase approximation, field-theoretic simulation, and coarse-grained molecular dynamics. SCD is superior to $κ$ in predicting $R_{\\rm g}$ because SCD accounts for effects of contact order, i.e., nonlocality, on dimensions of isolated chains. In contrast, $κ$ and SCD are comparably good, though nonideal, predictors of UCST because frequencies of interchain contacts in the multiple-chain condensed phase are less sensitive to sequence positions than frequencies of intrachain contacts of an isolated chain, as reflected by $κ$ correlating better with condensed-phase interaction energy than SCD.",
+  "authors": [
+    "Tanmoy Pal",
+    "Jonas Wessén",
+    "Suman Das",
+    "Hue Sun Chan"
+  ],
+  "published_date": "2024-07-09T20:46:49Z",
+  "updated_date": "2024-07-26T21:56:53Z",
+  "journal": "The Journal of Physical Chemistry Letters 15:8248-8256 (2024)",
+  "category": "q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2407.07226v2",
+  "pdf_url": "https://arxiv.org/pdf/2407.07226v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2407.07226v2",
+    "raw_categories": [
+      "q-bio.BM"
+    ],
+    "journal_ref": "The Journal of Physical Chemistry Letters 15:8248-8256 (2024)"
+  }
+}

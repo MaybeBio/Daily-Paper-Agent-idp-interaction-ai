@@ -1,0 +1,263 @@
+{
+  "identity": {
+    "pmid": "38047768",
+    "doi": "10.1021/acs.jpclett.3c02543",
+    "title": "Umbrella-like Helical Structure of alpha-Synuclein at the Air-Water Interface Observed with Experimental and Theoretical Sum Frequency Generation Spectroscopy."
+  },
+  "content": {
+    "abstract": "The misfolding of alpha-synuclein (alphaS) into amyloid aggregates is catalyzed by hydrophobic surfaces and associated with severe brain disorders, such as Parkinson's disease. Despite the important role of interfaces, the three-dimensional structure of alphaS at the interfaces is still not clear. We report interface-specific sum frequency generation (SFG) experiments of monomeric alphaS binding to the air-water interface, a model system for the important hydrophobic surfaces. We combine the SFG spectra with calculations of theoretical spectra based on molecular dynamics simulations to show that alphaS, which is an intrinsically disordered protein in solution, folds into a defined, mostly helical secondary structure at the air-water interface. The binding pose resembles an umbrella shape, where the C-terminus protrudes into the water phase, while the N-terminus and the NAC region span the canopy at the interface. In this binding pose, alphaS is prone to aggregate, which could explain the catalytic effect of hydrophobic interfaces and air bubbles on alphaS fibrillation.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*alpha-Synuclein/chemistry",
+      "Water",
+      "*Parkinson Disease/metabolism",
+      "Spectrum Analysis",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Strunge, Kris",
+        "Burgin, Tucker",
+        "Golbek, Thaddeus W",
+        "Roeters, Steven J",
+        "Pfaendtner, Jim",
+        "Weidner, Tobias"
+      ],
+      "short_names": [
+        "Strunge K",
+        "Burgin T",
+        "Golbek TW",
+        "Roeters SJ",
+        "Pfaendtner J",
+        "Weidner T"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4244-7583",
+        "ORCID: 0000-0002-3714-3537",
+        "ORCID: 0000-0002-3632-2701",
+        "ORCID: 0000-0003-3238-2181",
+        "ORCID: 0000-0001-6727-2957",
+        "ORCID: 0000-0002-7083-7004"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Aarhus University, Langelandsgade 140, 8000 Aarhus C, Denmark.",
+        "Department of Chemical Engineering, University of Washington, Benson Hall 1750, Seattle, Washington 98195-1750, United States.",
+        "Department of Chemistry, Aarhus University, Langelandsgade 140, 8000 Aarhus C, Denmark.",
+        "Department of Anatomy and Neurosciences, Vrije University, Boelelaan 1108, 1081 HZ Amsterdam, The Netherlands.",
+        "Department of Chemical Engineering, University of Washington, Benson Hall 1750, Seattle, Washington 98195-1750, United States.",
+        "Department of Chemistry, Aarhus University, Langelandsgade 140, 8000 Aarhus C, Denmark.",
+        "Department of Chemical Engineering, University of Washington, Benson Hall 1750, Seattle, Washington 98195-1750, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Strunge, Kris",
+        "short_name": "Strunge K",
+        "identifiers": [
+          "0000-0003-4244-7583"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Aarhus University, Langelandsgade 140, 8000 Aarhus C, Denmark."
+        ]
+      },
+      {
+        "full_name": "Burgin, Tucker",
+        "short_name": "Burgin T",
+        "identifiers": [
+          "0000-0002-3714-3537"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, University of Washington, Benson Hall 1750, Seattle, Washington 98195-1750, United States."
+        ]
+      },
+      {
+        "full_name": "Golbek, Thaddeus W",
+        "short_name": "Golbek TW",
+        "identifiers": [
+          "0000-0002-3632-2701"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Aarhus University, Langelandsgade 140, 8000 Aarhus C, Denmark."
+        ]
+      },
+      {
+        "full_name": "Roeters, Steven J",
+        "short_name": "Roeters SJ",
+        "identifiers": [
+          "0000-0003-3238-2181"
+        ],
+        "affiliations": [
+          "Department of Anatomy and Neurosciences, Vrije University, Boelelaan 1108, 1081 HZ Amsterdam, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Pfaendtner, Jim",
+        "short_name": "Pfaendtner J",
+        "identifiers": [
+          "0000-0001-6727-2957"
+        ],
+        "affiliations": [
+          "Department of Chemical Engineering, University of Washington, Benson Hall 1750, Seattle, Washington 98195-1750, United States."
+        ]
+      },
+      {
+        "full_name": "Weidner, Tobias",
+        "short_name": "Weidner T",
+        "identifiers": [
+          "0000-0002-7083-7004"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Aarhus University, Langelandsgade 140, 8000 Aarhus C, Denmark.",
+          "Department of Chemical Engineering, University of Washington, Benson Hall 1750, Seattle, Washington 98195-1750, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2023 Dec 14",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/04 12:43",
+    "fetched_at": "2026-09-21 03:16:20"
+  },
+  "links": {
+    "cites": [
+      "39180216",
+      "38899873"
+    ],
+    "refs": [],
+    "similar": [
+      "38047768",
+      "23607785",
+      "37723164",
+      "23374074",
+      "23583776",
+      "33903234",
+      "27809690",
+      "30917651",
+      "29451381",
+      "36053833",
+      "32865870",
+      "34439733",
+      "28820253",
+      "20041693",
+      "29372732",
+      "33719460",
+      "26950519",
+      "30315896",
+      "20714568",
+      "20947801",
+      "28667699",
+      "30384594",
+      "32699326",
+      "32709107",
+      "30318002",
+      "33345970",
+      "25494788",
+      "28968082",
+      "29233215",
+      "21044603",
+      "19475665",
+      "19554627",
+      "32141737",
+      "23978162",
+      "19481095",
+      "36625497",
+      "31799519",
+      "35041853",
+      "25075858",
+      "37019052",
+      "35926717",
+      "29364143",
+      "34147836",
+      "31903719",
+      "36584779",
+      "29704492",
+      "33122072",
+      "19837084",
+      "34695381",
+      "37964757",
+      "37407638",
+      "35167083",
+      "18692132",
+      "17681539",
+      "20337445",
+      "25524885",
+      "32078298",
+      "19576220",
+      "31854188",
+      "31382050",
+      "31776941",
+      "32371882",
+      "19745811",
+      "37542850",
+      "30251982",
+      "23831067",
+      "35380562",
+      "26016728",
+      "24984882",
+      "29246724",
+      "24983211",
+      "33771571",
+      "37027427",
+      "15096050",
+      "28112214",
+      "20923645",
+      "26703192",
+      "27273030",
+      "21684335",
+      "18031063",
+      "22552968",
+      "33497695",
+      "34254125",
+      "35229425",
+      "29874605",
+      "27398307",
+      "36379279",
+      "36278939",
+      "24739028",
+      "30771172",
+      "38470065",
+      "39377660"
+    ],
+    "review": [
+      "38047768",
+      "30315896"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://medlineplus.gov/parkinsonsdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Parkinson's Disease"
+      },
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.3c02543",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

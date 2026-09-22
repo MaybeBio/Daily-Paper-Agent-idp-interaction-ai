@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.11.29.569192",
+  "title": "DualNetGO: A Dual Network Model for Protein Function Prediction via Effective Feature Selection",
+  "authors": "Zhuoyang Chen; Qiong Luo",
+  "journal": "bioRxiv",
+  "published_date": "2023-11-29",
+  "window": {
+    "start": "2023-11-27",
+    "end": "2023-12-03"
+  },
+  "score": 4,
+  "one_liner_zh": "提出基于PPI网络图嵌入与特征选择的蛋白功能预测模型DualNetGO，虽涉及PPI和AI方法，但对象非无序蛋白/IDR，且不关注互作机制建模，仅作功能注释，启发有限。",
+  "abstract": "Motivation Protein-protein Interaction (PPI) networks are crucial for automatically annotating protein functions. As multiple PPI networks exist for the same set of proteins that capture properties from different aspects, it is a challenging task to effectively utilize these heterogeneous networks. Recently, several deep learning models have combined PPI networks from all evidence, or concatenated all graph embeddings for protein function prediction. However, the lack of a judicious selection procedure prevents the effective harness of information from different PPI networks, as these networks vary in densities, structures, and noise levels. Consequently, combining protein features indiscriminately could increase the noise level, leading to decreased model performance. Results We develop DualNetGO, a dual network model comprised of a classifier and a selector, to predict protein functions by effectively selecting features from different sources including graph embeddings of PPI networks, protein domain and subcellular location information. Evaluation of DualNetGO on human and mouse datasets in comparison with other network-based models show at least 4.5%, 6.2% and 14.2% improvement on Fmax in BP, MF and CC Gene Ontology categories respectively for human, and 3.3%, 10.6% and 7.7% improvement on Fmax for mouse. We demonstrate the generalization capability of our model by training and testing on the CAFA3 data, and show its versatility by incorporating Esm2 embeddings. We further show that our model is insensitive to the choice of graph embedding method and is time- and memory-saving. These results demonstrate that combining a subset of features including PPI networks and protein attributes selected by our model is more effective in utilizing PPI network information than only using one kind of or concatenating graph embeddings from all kinds of PPI networks. Availability and implementation The source code of DualNetGO and some of the experiment data are available at: https://github.com/georgedashen/DualNetGO . Contact luo@ust.hk , zchen190@connect.hkust-gz.edu.cn Supplementary Information Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "动机 蛋白质-蛋白质相互作用（Protein-Protein Interaction, PPI）网络对于自动注释蛋白质功能至关重要。由于同一组蛋白质存在多个从不同方面捕获属性的PPI网络，有效利用这些异质网络是一项具有挑战性的任务。近年来，几种深度学习模型已将所有证据的PPI网络结合，或连接所有图嵌入用于蛋白质功能预测。然而，缺乏明智的选择过程阻碍了从不同PPI网络中有效利用信息，因为这些网络在密度、结构和噪声水平上各不相同。因此，不加区分地组合蛋白质特征可能会增加噪声水平，导致模型性能下降。结果 我们开发了DualNetGO，一种由分类器和选择器组成的双网络模型，通过有效选择来自不同来源的特征（包括PPI网络的图嵌入、蛋白质结构域和亚细胞定位信息）来预测蛋白质功能。在人类和小鼠数据集上与其他基于网络的模型进行比较评估，DualNetGO在BP、MF和CC基因本体论类别中的Fmax分别至少提高4.5%、6.2%和14.2%（人类），以及3.3%、10.6%和7.7%（小鼠）。我们通过在CAFA3数据上训练和测试证明了模型的泛化能力，并通过整合Esm2嵌入展示了其多功能性。我们进一步表明，模型对图嵌入方法的选择不敏感，并且节省时间和内存。这些结果表明，结合由我们模型选择的包括PPI网络和蛋白质属性的特征子集，在利用PPI网络信息方面比仅使用一种或连接所有类型PPI网络的图嵌入更有效。可用性和实现 DualNetGO的源代码及部分实验数据可在以下网址获取：https://github.com/georgedashen/DualNetGO 。联系方式 luo@ust.hk ， zchen190@connect.hkust-gz.edu.cn 补充信息 补充数据可在Bioinformatics在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.11.29.569192",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.11.29.569192",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.11.29.569192/index.html"
+}

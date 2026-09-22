@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40987384",
+  "title": "Structural dynamics of the TPS/TPP complex in Saccharomyces cerevisiae: Insights from cross-linking mass spectrometry and computational modeling.",
+  "authors": "Santos, Renata M; Bastos, Viviane A; Bagatelli, Felipe F M; Valente, Richard H; Kurt, Louise U; Lima, Diogo B; Oliveira, Carla C; Nogueira, Fabio C S; Eleutherio, Elis C A; Carvalho, Paulo C; Gomes-Neto, Francisco",
+  "journal": "Journal of proteomics",
+  "published_date": "2025-09-24",
+  "window": {
+    "start": "2025-09-22",
+    "end": "2025-09-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合交联质谱与计算建模解析酵母TPS/TPP复合物结构动态，揭示无序区域在复合物组装与磷酸化调控中的作用，虽非典型IDP-PPI机制建模，但无序区介导互作与调控思路对本课题有启发。",
+  "abstract": "Trehalose, a ubiquitous disaccharide, plays a vital role in cell viability, including pathogenic fungi, making its synthetic pathway a key target for antifungal drug design. The structural details of the trehalose-phosphate synthase (TPS)/trehalose-phosphate phosphatase (TPP) complex, which is responsible for synthesizing trehalose, have remained elusive. Information on the structure and topology of the TPS/TPP complex remains scarce, significantly limiting the mechanistic understanding of trehalose synthesis. This study presents the first overview of the interactions within the Saccharomyces cerevisiae TPS/TPP complex following a 40  degrees C heat shock, analyzed by cross-linking mass spectrometry (XL-MS) and computational modeling. Our cross-linking data corroborate the UniProt-available AlphaFold models for isolated subunits. Intrinsically disordered regions are suggested for the regulatory subunits, while cross-linking analysis highlights the disordered N-terminus of Tsl1 as an important region in assembling the TPS/TPP complex. Finally, the phosphorylation prediction indicates that Tps3-disordered regions at the N-terminus and the phosphatase-like domains are preferentially phosphorylated, triggering the inhibition of Tps2 activity and halting T6P accumulation. These insights enhance our understanding of the structural dynamics and flexibility of the TPS/TPP complex, opening new avenues for potential therapeutic applications with diminished or no toxicity to humans. SIGNIFICANCE: This research contributes to a comprehensive structural understanding of the TPS/TPP complex in Saccharomyces cerevisiae, a key enzymatic system involved in trehalose synthesis. Trehalose is essential in cellular viability and stress adaptation, particularly in pathogenic fungi, making its biosynthetic pathway a promising target for antifungal drug development. By integrating cross-linking mass spectrometry (XL-MS) and computational modeling, this study uncovers critical interactions and dynamic features of the TPS/TPP complex, including the involvement of intrinsically disordered regions in its regulatory subunits possibly contributing to complex assembly and regulation under heat shock conditions. Furthermore, the phosphorylation predictions shed light on how disordered regions on Tps3 would participate in modulating Tps2 activity to regulate trehalose-phosphate levels, offering insights into the complex's functional dynamics. This work fills a crucial knowledge gap in understanding trehalose biosynthesis and paves the way for novel antifungal strategies with reduced toxicity to human cells.",
+  "abstract_zh": "海藻糖是一种普遍存在的二糖，在包括致病真菌在内的细胞生存能力中发挥着至关重要的作用，因此其合成途径成为抗真菌药物设计的关键靶点。负责合成海藻糖的海藻糖磷酸合酶（TPS）/海藻糖磷酸磷酸酶（TPP）复合物的结构细节至今仍不明确。关于TPS/TPP复合物的结构和拓扑信息仍然稀缺，这极大地限制了对海藻糖合成机制的理解。本研究首次概述了在40°C热休克后，酿酒酵母（Saccharomyces cerevisiae）TPS/TPP复合物内部的相互作用，通过交联质谱（XL-MS）和计算建模进行分析。我们的交联数据证实了UniProt上可用的AlphaFold模型对分离亚基的预测。调控亚基被建议具有内在无序区域，而交联分析强调Tsl1的无序N端是组装TPS/TPP复合物的重要区域。最后，磷酸化预测表明，Tps3的N端无序区域和磷酸酶样结构域优先被磷酸化，触发Tps2活性的抑制并阻止T6P积累。这些见解增强了我们对TPS/TPP复合物结构动态和灵活性的理解，为潜在的治疗应用开辟了新途径，且对人类毒性降低或无毒。意义：本研究有助于全面理解酿酒酵母中TPS/TPP复合物的结构，这是一个参与海藻糖合成的关键酶系统。海藻糖在细胞生存能力和应激适应中至关重要，尤其是在致病真菌中，使其生物合成途径成为抗真菌药物开发的有前景靶点。通过整合交联质谱（XL-MS）和计算建模，本研究揭示了TPS/TPP复合物的关键相互作用和动态特征，包括其调控亚基中内在无序区域的参与，这些区域可能在热休克条件下促进复合物组装和调控。此外，磷酸化预测阐明了Tps3上的无序区域如何参与调节Tps2活性以调控海藻糖磷酸水平，为复合物的功能动态提供了见解。这项工作填补了理解海藻糖生物合成的关键知识空白，并为减少对人类细胞毒性的新型抗真菌策略铺平了道路。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40987384/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40987384/",
+  "paper_page_path": "papers/pubmed/40987384/index.html"
+}

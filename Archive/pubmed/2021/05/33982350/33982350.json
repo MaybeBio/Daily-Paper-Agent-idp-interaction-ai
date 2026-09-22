@@ -1,0 +1,376 @@
+{
+  "identity": {
+    "pmid": "33982350",
+    "doi": "10.1002/pro.4109",
+    "title": "Arginine multivalency stabilizes protein/RNA condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates assembled through liquid-liquid phase separation (LLPS) of proteins and RNAs are currently recognized to play an important role in cellular organization. Their assembly depends on the formation of a network of transient, multivalent interactions between flexible scaffold biomolecules. Understanding how protein and RNA sequences determine these interactions and ultimately regulate the phase separation is an open key challenge. Recent in vitro studies have revealed that arginine and lysine residues, which are enriched in most cellular condensates, have markedly distinct propensities to drive the LLPS of protein/RNA mixtures. Here, we employ explicit-solvent atomistic molecular dynamics simulations to shed light on the microscopic origin of this difference by investigating mixtures of polyU oligonucleotides with either polyR/polyK peptides. In agreement with experiments, our simulations indicate that arginine has a higher affinity for polyU than lysine both in highly diluted conditions and in concentrated solutions with a biomolecular density comparable to cellular condensate. The analysis of intermolecular contacts suggests that this differential behavior is due to the propensity of arginine side chains to simultaneously form a higher number of specific interactions with oligonucleotides, including hydrogen bonds and stacking interactions. Our results provide a molecular description of how the multivalency of the guanidinium group enables the coordination of multiple RNA groups by a single arginine residue, thus ultimately stabilizing protein/RNA condensates.",
+    "keywords": [
+      "RNA/protein interaction",
+      "coacervates",
+      "liquid-liquid phase separation",
+      "molecular dynamics simulations"
+    ],
+    "mesh_terms": [
+      "Peptides/*chemistry",
+      "Poly U/*chemistry",
+      "Polylysine/chemistry",
+      "RNA/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Paloni, Matteo",
+        "Bussi, Giovanni",
+        "Barducci, Alessandro"
+      ],
+      "short_names": [
+        "Paloni M",
+        "Bussi G",
+        "Barducci A"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4841-9321",
+        "ORCID: 0000-0001-9216-5782",
+        "ORCID: 0000-0002-1911-8039"
+      ],
+      "affiliations": [
+        "Centre de Biochimie Structurale (CBS), INSERM, CNRS, Universite de Montpellier, Montpellier, France.",
+        "Molecular and Statistical Biophysics, Scuola Internazionale Superiore di Studi Avanzati, Trieste, Italy.",
+        "Centre de Biochimie Structurale (CBS), INSERM, CNRS, Universite de Montpellier, Montpellier, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Paloni, Matteo",
+        "short_name": "Paloni M",
+        "identifiers": [
+          "0000-0003-4841-9321"
+        ],
+        "affiliations": [
+          "Centre de Biochimie Structurale (CBS), INSERM, CNRS, Université de Montpellier, Montpellier, France."
+        ]
+      },
+      {
+        "full_name": "Bussi, Giovanni",
+        "short_name": "Bussi G",
+        "identifiers": [
+          "0000-0001-9216-5782"
+        ],
+        "affiliations": [
+          "Molecular and Statistical Biophysics, Scuola Internazionale Superiore di Studi Avanzati, Trieste, Italy."
+        ]
+      },
+      {
+        "full_name": "Barducci, Alessandro",
+        "short_name": "Barducci A",
+        "identifiers": [
+          "0000-0002-1911-8039"
+        ],
+        "affiliations": [
+          "Centre de Biochimie Structurale (CBS), INSERM, CNRS, Université de Montpellier, Montpellier, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2021 Jul",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/14 06:00",
+    "fetched_at": "2026-09-20 03:06:41"
+  },
+  "links": {
+    "cites": [
+      "42484672",
+      "42247584",
+      "42239067",
+      "41909144",
+      "41342450",
+      "41310643",
+      "41166733",
+      "41120293",
+      "41118627",
+      "40949254",
+      "40880224",
+      "40830340",
+      "40801528",
+      "40614690",
+      "40547321",
+      "40455990",
+      "40203038",
+      "40163528",
+      "39432826",
+      "39398199",
+      "38949285",
+      "38862431",
+      "38163950",
+      "37470705",
+      "37468629",
+      "37325682",
+      "36607820",
+      "36259663",
+      "36227470",
+      "36142374",
+      "35904499"
+    ],
+    "refs": [
+      "33571491",
+      "33264400",
+      "33170672",
+      "32936641",
+      "32934220",
+      "32668929",
+      "32571937",
+      "32214243",
+      "31324804",
+      "31270472",
+      "31266957",
+      "30926670",
+      "30765518",
+      "30045872",
+      "29961577",
+      "29913160",
+      "29735687",
+      "29602697",
+      "29378935",
+      "29364893",
+      "29358076",
+      "29297679",
+      "28935776",
+      "28894006",
+      "28225081",
+      "26979279",
+      "26619985",
+      "25747659",
+      "25361976",
+      "25288112",
+      "22682242",
+      "21714551",
+      "18464982",
+      "17212484",
+      "16200636",
+      "15264254"
+    ],
+    "similar": [
+      "33982350",
+      "38949285",
+      "38416758",
+      "38804888",
+      "33672806",
+      "37408305",
+      "32936641",
+      "38446881",
+      "34772789",
+      "31434954",
+      "36883003",
+      "32482873",
+      "33650968",
+      "34785657",
+      "19354258",
+      "33558506",
+      "36993212",
+      "31266957",
+      "35252623",
+      "35108264",
+      "29677513",
+      "35001622",
+      "35727989",
+      "35895272",
+      "24711170",
+      "38231854",
+      "38670952",
+      "39386696",
+      "36227472",
+      "36972455",
+      "39044475",
+      "38553587",
+      "37494702",
+      "33571491",
+      "38163950",
+      "36227470",
+      "33453930",
+      "38571310",
+      "32405004",
+      "33765580",
+      "36181270",
+      "35982794",
+      "29265152",
+      "35293386",
+      "35501484",
+      "35364105",
+      "28924037",
+      "35378855",
+      "33890467",
+      "36243979",
+      "34772786",
+      "37489654",
+      "35881789",
+      "32696384",
+      "24024591",
+      "37156794",
+      "23912807",
+      "38862770",
+      "37480340",
+      "32800925",
+      "37205474",
+      "33827920",
+      "30587571",
+      "30514760",
+      "34439914",
+      "33583140",
+      "33087563",
+      "32615218",
+      "33864415",
+      "31941785",
+      "35179885",
+      "31790873",
+      "34235141",
+      "32571937",
+      "29511089",
+      "34816836",
+      "37523989",
+      "34718734",
+      "20726540",
+      "38407041",
+      "34304571",
+      "10532236",
+      "35198873",
+      "33300985",
+      "38645044",
+      "39343003",
+      "34200781",
+      "33453934",
+      "36551199",
+      "34585805",
+      "35721931",
+      "36004782",
+      "1382582",
+      "29258725",
+      "31437398",
+      "11427046",
+      "37386790",
+      "31199001",
+      "31237369",
+      "34984429",
+      "34291921",
+      "32934220",
+      "27599198",
+      "36175408",
+      "35639776",
+      "36199253",
+      "38349628",
+      "38580324",
+      "35946870",
+      "33387533",
+      "37325682",
+      "39319382",
+      "34221333",
+      "34159327",
+      "37066290",
+      "37215004",
+      "38831645",
+      "35562330",
+      "37276062",
+      "39091847",
+      "36240277",
+      "39377398",
+      "39328748",
+      "36483537",
+      "36397514",
+      "37978605",
+      "37648812",
+      "36754843",
+      "34276791",
+      "37449795",
+      "35119898",
+      "36378781",
+      "36416856",
+      "36994084"
+    ],
+    "review": [
+      "33982350",
+      "34772789",
+      "33765580",
+      "36243979",
+      "34772786",
+      "32800925",
+      "30587571",
+      "34439914",
+      "33583140",
+      "35179885",
+      "31790873",
+      "34235141",
+      "34816836",
+      "37523989",
+      "33300985",
+      "34200781",
+      "34585805",
+      "29258725",
+      "31237369",
+      "34291921",
+      "33387533",
+      "37276062",
+      "36483537"
+    ],
+    "pmc": [
+      "8197427"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/33982350.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33982350/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33982350",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/pro.4109",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33982350",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

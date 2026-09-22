@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40323908",
+  "title": "Coevolution in human small Heat Shock Protein 1 is promoted by interactions between the Alpha-Crystallin domain and the disordered regions.",
+  "authors": "Racigh, Vanesa; Rodriguez Sawicki, Luciana; Bravo, Facundo Nicolas Eric; Fornasari, Maria Silvina",
+  "journal": "PloS one",
+  "published_date": "2025-05-05",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该研究结合进化分析与AlphaFold 2结构建模，揭示人HSPB1中无序NTR/CTR与α-晶状体结构域间的共进化及其调控互作约束，虽非直接PPI机制建模，但为IDR介导互作的进化与结构预测提供了可迁移思路。",
+  "abstract": "Human small Heat Shock Protein 1 (HSPB1) belongs to the Small Heat Shock Protein (sHSP) superfamily, a group of ATP-independent molecular chaperones essential for cellular stress responses and protein quality control. These proteins share a conserved domain organization, with a structured Alpha-Crystallin domain (ACD) flanked by disordered N-terminal and C-terminal regions (NTR and CTR). While the prevailing evolutionary hypothesis for the sHSP family suggests that the disordered regions evolved independently and at a faster rate than the ACD, this study provides, for the first time, evidence of coevolution between these regions in human HSPB1, introducing new insights into the evolutionary mechanisms that sustain critical regulatory interactions. By integrating evolutionary and structural approaches, we estimated evolutionary rates per region and position, analyzed the composition of key interacting motifs, and employed structural modeling with AlphaFold 2 to assess the prevalence of these interactions. Our findings reveal that while the disordered regions globally evolve faster than the ACD, specific motifs involved in regulatory interactions exhibit lower-than-average evolutionary rates, reflecting evolutionary constraints imposed by their functional importance. This coevolutionary mechanism may also extend to other small Heat Shock Proteins featuring interacting motifs in the NTR, CTR, or both, offering a new perspective for studying their molecular evolution. Furthermore, the analysis presented in this work could be applied to assess coevolution in other proteins with intrinsically disordered regions.",
+  "abstract_zh": "人源小热休克蛋白1（HSPB1）属于小热休克蛋白（sHSP）超家族，该家族是一类不依赖ATP的分子伴侣，对细胞应激反应和蛋白质质量控制至关重要。这些蛋白质共享保守的结构域组织，包含一个结构化的α-晶状体蛋白结构域（ACD），其两侧为无序的N端和C端区域（NTR和CTR）。尽管sHSP家族的主流进化假说认为无序区域独立进化且速率快于ACD，但本研究首次提供了人源HSPB1中这些区域间共进化的证据，为维持关键调控相互作用的进化机制引入了新见解。通过整合进化和结构方法，我们估算了各区域和位点的进化速率，分析了关键相互作用基序的组成，并利用AlphaFold 2进行结构建模以评估这些相互作用的普遍性。我们的发现表明，虽然无序区域整体上进化快于ACD，但参与调控相互作用的特定基序表现出低于平均水平的进化速率，反映了其功能重要性所施加的进化约束。这种共进化机制可能也延伸至其他在NTR、CTR或两者中具有相互作用基序的小热休克蛋白，为研究其分子进化提供了新视角。此外，本工作提出的分析可应用于评估其他含固有无序区域蛋白质的共进化。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40323908/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40323908/",
+  "paper_page_path": "papers/pubmed/40323908/index.html"
+}

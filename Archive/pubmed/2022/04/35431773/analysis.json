@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35431773",
+  "title": "Generating Ensembles of Dynamic Misfolding Proteins.",
+  "authors": "Karamanos, Theodoros K; Kalverda, Arnout P; Radford, Sheena E",
+  "journal": "Frontiers in neuroscience",
+  "published_date": "2022-04-19",
+  "window": {
+    "start": "2022-04-18",
+    "end": "2022-04-24"
+  },
+  "score": 8,
+  "one_liner_zh": "该文综述并示例了用机器学习从动态无序蛋白（α-突触核蛋白、β2-微球蛋白）构象系综中提取聚集相关亚系综及特定相互作用的方法，聚焦IDP动态构象与互作机制建模，与本课题高度相关。",
+  "abstract": "The early stages of protein misfolding and aggregation involve disordered and partially folded protein conformers that contain a high degree of dynamic disorder. These dynamic species may undergo large-scale intra-molecular motions of intrinsically disordered protein (IDP) precursors, or flexible, low affinity inter-molecular binding in oligomeric assemblies. In both cases, generating atomic level visualization of the interconverting species that captures the conformations explored and their physico-chemical properties remains hugely challenging. How specific sub-ensembles of conformers that are on-pathway to aggregation into amyloid can be identified from their aggregation-resilient counterparts within these large heterogenous pools of rapidly moving molecules represents an additional level of complexity. Here, we describe current experimental and computational approaches designed to capture the dynamic nature of the early stages of protein misfolding and aggregation, and discuss potential challenges in describing these species because of the ensemble averaging of experimental restraints that arise from motions on the millisecond timescale. We give a perspective of how machine learning methods can be used to extract aggregation-relevant sub-ensembles and provide two examples of such an approach in which specific interactions of defined species within the dynamic ensembles of alpha-synuclein (alphaSyn) and beta(2)-microgloblulin (beta(2)m) can be captured and investigated.",
+  "abstract_zh": "蛋白质错误折叠和聚集的早期阶段涉及含有高度动态无序性的无序和部分折叠的蛋白质构象体。这些动态物种可能经历 intrinsically disordered protein (IDP) 前体的分子内大规模运动，或在寡聚体组装中进行灵活、低亲和力的分子间结合。在这两种情况下，生成原子级分辨率的相互转化物种可视化，以捕捉所探索的构象及其物理化学性质，仍然极具挑战性。如何从这些快速移动分子的大型异质池中，识别出通往淀粉样聚集途径的特定构象子集合，并将其与抗聚集的对应物区分开来，是另一层复杂性。在此，我们描述了旨在捕捉蛋白质错误折叠和聚集早期阶段动态性质的当前实验和计算方法，并讨论了由于毫秒时间尺度上的运动引起的实验约束的系综平均，在描述这些物种时可能面临的挑战。我们展望了如何利用机器学习方法提取与聚集相关的子集合，并提供了两个此类方法的实例，其中可以捕捉并研究 alpha-synuclein (alphaSyn) 和 beta(2)-microglobulin (beta(2)m) 动态系综内特定物种的相互作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35431773/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35431773/",
+  "paper_page_path": "papers/pubmed/35431773/index.html"
+}

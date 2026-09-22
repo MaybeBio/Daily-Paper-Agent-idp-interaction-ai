@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific claims, methodology, and interpretation as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors compare the intrinsically disordered C-terminal domain 2 (CTD2) of the NMDA receptor subunits GluN2A and GluN2B using sequence analysis, discrete molecular dynamics (DMD) simulations, and single-molecule FRET (smFRET). They report that GluN2A CTD2 favors extended disordered states with secondary structure elements, lacks slow conformational dynamics observed in GluN2B, and fails to support liquid–liquid phase separation (LLPS) with PSD-95 and SynGAP, instead showing colloidal aggregation. The authors propose a developmental switch in LLPS propensity associated with the GluN2B-to-GluN2A transition.
+- **Visible evidence base** Abstract, Introduction, Materials and Methods, Results (Sections 3.1–3.4), Discussion, Figures 1–4 (referenced), Table 1 (referenced), Table 2 (referenced), Figure S1 (referenced)
+- **Missing materials affecting confidence** Raw smFRET data and analysis details, DMD simulation parameters and convergence criteria, full statistical analysis details, uncropped gel images, raw microscopy images, and supplementary figures beyond Figure S1 were not provided. The manuscript text references figures and tables but the actual figures and tables are not included in the provided material.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and interesting question regarding the relationship between the form of intrinsic disorder in NMDA receptor cytoplasmic domains and their propensity for condensate formation. The combination of sequence analysis, DMD simulations, and smFRET is appropriate and potentially powerful. However, the evidence presented has several gaps that prevent full confidence in the conclusions. The claim that GluN2A fails to support LLPS is based on a limited set of conditions, and the mechanistic link between the observed differences in disorder and the functional outcome remains speculative. The manuscript would benefit from additional experimental validation and more detailed presentation of the data.
+- **Who would be interested in the results, and why** Researchers studying NMDA receptor signaling, postsynaptic density organization, intrinsically disordered proteins, and biomolecular condensates. The developmental switch hypothesis connecting receptor subunit composition to phase separation behavior is of broad interest to neuroscientists and cell biologists.
+- **Major strengths** The study combines multiple complementary approaches (sequence analysis, simulation, single-molecule experiment) to characterize disordered protein domains. The comparison between GluN2A and GluN2B is biologically relevant given the known developmental switch. The observation that GluN2A shows colloidal aggregation rather than LLPS is a potentially important distinction. The authors are appropriately cautious in interpreting smFRET changes in terms of distance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental evidence
+  - **Claim pointer** The authors claim that "GluN2A failed to support LLPS and instead showed a propensity for colloidal aggregation" based on turbidity, sedimentation, and DIC microscopy.
+  - **Evidence pointer** Section 3.4, Figure 4
+  - **Concern** The conclusion that GluN2A does not support LLPS is based on a single set of conditions (20 µM each protein, 20 mM Tris, 150 mM NaCl, pH 7.4, 25 °C). LLPS is highly sensitive to protein concentration, salt concentration, pH, temperature, and the presence of crowding agents or other binding partners. The authors do not explore a range of conditions to establish that GluN2A is fundamentally incapable of LLPS rather than simply not phase-separating under these specific conditions.
+  - **Why it matters** The central claim of the paper is that GluN2A and GluN2B differ in their ability to undergo LLPS. If this conclusion is based on a narrow set of conditions, it may not reflect the behavior of these proteins in the cellular environment, where concentrations, post-translational modifications, and interacting partners differ substantially.
+  - **Resolution test** The authors should perform a systematic screen of conditions (e.g., varying protein concentration, salt, pH, temperature, and adding crowding agents or known binding partners) to demonstrate that GluN2A does not undergo LLPS under any physiologically relevant condition. Alternatively, they should temper their conclusion to state that GluN2A does not undergo LLPS under the conditions tested.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Simulation-experiment agreement
+  - **Claim pointer** The authors state that DMD simulations "revealed that GluN2A favors extended disordered states containing secondary structures while GluN2B favors disordered globular states" and that this is consistent with the smFRET results.
+  - **Evidence pointer** Sections 3.2 and 3.3, Figures 2 and 3
+  - **Concern** The agreement between DMD simulations and smFRET is not quantitatively established. The simulations show GluN2A favoring extended states, but the smFRET data show a high-FRET (collapsed) population that is not observed in the simulations. The authors acknowledge this discrepancy but do not resolve it. The claim of agreement between simulation and experiment is therefore overstated.
+  - **Why it matters** The paper's central thesis is that differences in the form of disorder are associated with differences in condensate formation. If the simulations and experiments do not agree on the conformational ensemble, the mechanistic link between sequence-encoded disorder and function is weakened.
+  - **Resolution test** The authors should provide a quantitative comparison between simulated and experimental FRET distributions, accounting for dye linker dynamics and photophysical effects. Alternatively, they should explicitly discuss the discrepancy and its implications for their conclusions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors propose that "the difference in LLPS arises from the sequence patterning we identified in CTD2B, which would be more favorable for cation–π interactions."
+  - **Evidence pointer** Sections 3.1 and 4, Figure 1D
+  - **Concern** The link between the observed sequence features (arginine and aromatic residue patterning) and the LLPS behavior is correlative. The authors do not provide direct evidence that cation–π interactions are responsible for the difference in LLPS between GluN2A and GluN2B. Mutational analysis or experiments with variant sequences would be needed to establish causality.
+  - **Why it matters** The proposed mechanism is plausible but not proven. Without direct evidence, the conclusion that specific sequence features drive the difference in LLPS remains speculative.
+  - **Resolution test** The authors should perform mutagenesis experiments, swapping the relevant sequence features between GluN2A and GluN2B, and test whether this alters LLPS behavior. Alternatively, they could use peptide-based assays to directly test the role of cation–π interactions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Biological relevance
+  - **Claim pointer** The authors state that "this would imply an associated switch in LLPS propensity at the synaptic membrane with a higher propensity for LLPS during early development and then decreasing LLPS propensity as GluN2A comes to predominate."
+  - **Evidence pointer** Section 4
+  - **Concern** The extrapolation from in vitro experiments with isolated CTD2 domains to the synaptic environment is a significant leap. The authors do not consider the effects of the full-length receptor, membrane tethering, post-translational modifications, or the presence of other synaptic proteins that could modulate LLPS behavior.
+  - **Why it matters** The developmental switch hypothesis is a key implication of the work. If the in vitro results do not translate to the cellular context, the broader significance of the study is diminished.
+  - **Resolution test** The authors should either temper their claims about the developmental switch or provide additional evidence, such as experiments with full-length receptors, membrane-anchored constructs, or cellular models.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1
+  - **Evidence pointer** "Protein Purification"
+  - **Issue** The description of the purification for CTD2A mentions that the protein was "maintained in a nondenaturing concentration of urea (2 M) to prevent aggregation." It is unclear whether the urea was present during the smFRET measurements or only during purification.
+  - **Required correction** Clarify whether urea was present during any of the measurements and, if so, how it was removed and whether its removal was verified.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 3.3
+  - **Evidence pointer** "smFRET"
+  - **Issue** The manuscript reports population histograms with percentages of molecules in each FRET state but does not provide the number of molecules analyzed or the statistical uncertainty in these percentages.
+  - **Required correction** Report the number of molecules analyzed and provide error estimates or confidence intervals for the population fractions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data availability
+  - **Affected element** Section 3.2
+  - **Evidence pointer** "Discrete Molecular Dynamics"
+  - **Issue** The DMD simulation details are described only briefly. The manuscript does not provide the force field parameters, simulation box size, or convergence criteria.
+  - **Required correction** Provide additional simulation details in the Methods or as supplementary material to allow reproducibility.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Section 3.1
+  - **Evidence pointer** "Primary Sequence Analysis"
+  - **Issue** The statement that "both CTDs contain two conserved cysteine clusters" is presented without supporting data or a reference to a figure.
+  - **Required correction** Provide a reference to the relevant figure or table, or add a citation to support this statement.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 3.4
+  - **Evidence pointer** "Condensate Formation"
+  - **Issue** The term "colloidal aggregation" is used to describe the behavior of CTD2A, but the distinction between colloidal aggregation and LLPS is not clearly defined in the manuscript.
+  - **Required correction** Provide a clear operational definition of the terms used to describe the different types of assemblies observed.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (limited conditions for LLPS assessment), R1-M2 (unresolved simulation-experiment discrepancy), R1-M3 (lack of causal evidence for sequence-patterning mechanism)
+- **Assessment against Nature-style criteria** Originality: The study addresses a novel question about the relationship between the form of disorder in NMDA receptor CTDs and their condensate-forming behavior. The comparison between GluN2A and GluN2B is original and timely. Scientific importance: The potential link between receptor subunit composition and phase separation behavior in the postsynaptic density is of significant interest to the neuroscience and cell biology communities. However, the importance is tempered by the limited experimental evidence and the speculative nature of the developmental switch hypothesis. Interdisciplinary readership: The work bridges neuroscience, biophysics, and protein chemistry, and would appeal to a broad readership. Technical soundness: The combination of sequence analysis, DMD, and smFRET is appropriate, but the technical execution has gaps, particularly in the quantitative comparison between simulation and experiment and the limited range of conditions tested for LLPS. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections (e.g., DMD methods) may be challenging for readers without a computational background.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core question is interesting and the approach is promising, but the current evidence does not fully establish the central claims. The authors should address the limited conditions for LLPS assessment, resolve or explicitly discuss the simulation-experiment discrepancy, and provide causal evidence for the proposed mechanism.
+
+## Risk / unsupported claims
+- The claim that GluN2A "failed to support LLPS" is unsupported because only a single set of conditions was tested.
+- The claim that the difference in LLPS arises from specific sequence patterning (arginine and aromatic residues) is unsupported without mutagenesis or direct interaction assays.
+- The extrapolation to a developmental switch in LLPS propensity at the synapse is unsupported by the in vitro data presented.
+- The statement that DMD simulations and smFRET are in agreement is not quantitatively supported.
+- The claim that CTD2A shows "static heterogeneity" based on smFRET is not fully supported without additional analysis of the time traces.

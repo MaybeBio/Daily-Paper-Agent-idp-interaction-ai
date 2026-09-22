@@ -1,0 +1,45 @@
+{
+  "source": "arxiv",
+  "source_id": "2503.22300v1",
+  "title": "Bond-dependent interactions and ill-ordered state in the honeycomb cobaltate BaCo$_2$(AsO$_4$)$_2$",
+  "doi": "10.1103/f9sk-zfqc",
+  "abstract": "The ground state and Hamiltonian of the honeycomb lattice material BaCo$_{2}$(AsO$_{4}$)$_{2}$ hosting magnetic Co$^{2+}$, have been debated for decades. The recent proposal for anisotropic bond-dependent interactions in such honeycomb cobaltates has raised the prospect of revisiting its Hamiltonian in the context of Kitaev physics. To test this hypothesis, we have combined magnetization, ac-susceptibility and neutron scattering measurements on a BaCo$_{2}$(AsO$_{4}$)$_{2}$ single-crystal, together with advanced modeling. Our experimental results highlight a collinear magnetic ground state with intrinsic disorder associated to an average incommensurate propagation vector. Monte Carlo simulations and linear spin wave calculations were performed to obtain a spin model compatible with this unusual ground state, the dispersion of magnetic excitations and a magnetization plateau under magnetic field. We thus show that bond-dependent anisotropic interactions, including Kitaev-like interactions, are necessary to account for the puzzling properties of this long-explored material, and are hence a general ingredient in the cobaltates.",
+  "authors": [
+    "A. Devillez",
+    "J. Robert",
+    "E. Lhotel",
+    "R. Ballou",
+    "C. Cavenel",
+    "F. Denis Romero",
+    "Q. Faure",
+    "H. Jacobsen",
+    "J. Lass",
+    "D. G. Mazzone",
+    "U. Bengaard Hansen",
+    "M. Enderle",
+    "S. Raymond",
+    "S. De Brion",
+    "V. Simonet",
+    "M. Songvilay"
+  ],
+  "published_date": "2025-03-28T10:24:51Z",
+  "updated_date": "2025-03-28T10:24:51Z",
+  "journal": "",
+  "category": "cond-mat.str-el",
+  "landing_url": "https://arxiv.org/abs/2503.22300v1",
+  "pdf_url": "https://arxiv.org/pdf/2503.22300v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.str-el"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2503.22300v1",
+    "raw_categories": [
+      "cond-mat.str-el"
+    ],
+    "journal_ref": ""
+  }
+}

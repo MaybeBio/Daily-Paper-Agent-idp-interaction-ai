@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36979462",
+  "title": "Comparison of Biomolecular Condensate Localization and Protein Phase Separation Predictors.",
+  "authors": "Kuechler, Erich R; Huang, Alex; Bui, Jennifer M; Mayor, Thibault; Gsponer, Jorg",
+  "journal": "Biomolecules",
+  "published_date": "2023-03-30",
+  "window": {
+    "start": "2023-03-27",
+    "end": "2023-04-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文系统比较了多种预测蛋白相分离和凝聚体定位的AI工具，聚焦无序蛋白相分离对象，但缺乏对PPI互作机制建模的深入探讨，方法上以预测器基准测试为主。",
+  "abstract": "Research in the field of biochemistry and cellular biology has entered a new phase due to the discovery of phase separation driving the formation of biomolecular condensates, or membraneless organelles, in cells. The implications of this novel principle of cellular organization are vast and can be applied at multiple scales, spawning exciting research questions in numerous directions. Of fundamental importance are the molecular mechanisms that underly biomolecular condensate formation within cells and whether insights gained into these mechanisms provide a gateway for accurate predictions of protein phase behavior. Within the last six years, a significant number of predictors for protein phase separation and condensate localization have emerged. Herein, we compare a collection of state-of-the-art predictors on different tasks related to protein phase behavior. We show that the tested methods achieve high AUCs in the identification of biomolecular condensate drivers and scaffolds, as well as in the identification of proteins able to phase separate in vitro. However, our benchmark tests reveal that their performance is poorer when used to predict protein segments that are involved in phase separation or to classify amino acid substitutions as phase-separation-promoting or -inhibiting mutations. Our results suggest that the phenomenological approach used by most predictors is insufficient to fully grasp the complexity of the phenomenon within biological contexts and make reliable predictions related to protein phase behavior at the residue level.",
+  "abstract_zh": "生物化学与细胞生物学领域的研究因相分离（phase separation）驱动细胞内生物分子凝聚体（biomolecular condensates）或无膜细胞器（membraneless organelles）形成的发现而进入了一个新阶段。这一细胞组织新原理的影响深远，可在多个尺度上应用，催生了众多方向上的激动人心的研究问题。其中根本重要的是细胞内生物分子凝聚体形成的分子机制，以及对这些机制的深入了解是否为蛋白质相行为的准确预测提供了途径。在过去六年中，涌现了大量用于预测蛋白质相分离和凝聚体定位的预测工具。在此，我们比较了一系列最先进的预测器在不同与蛋白质相行为相关任务上的表现。我们表明，所测试的方法在识别生物分子凝聚体驱动因子和支架蛋白，以及识别能够在体外进行相分离的蛋白质方面，达到了较高的AUC值。然而，我们的基准测试揭示，在用于预测参与相分离的蛋白质片段或将氨基酸替换分类为促进或抑制相分离的突变时，它们的性能较差。我们的结果表明，大多数预测器采用的现象学方法不足以完全理解生物背景下该现象的复杂性，并难以在残基水平上做出与蛋白质相行为相关的可靠预测。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36979462/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36979462/",
+  "paper_page_path": "papers/pubmed/36979462/index.html"
+}

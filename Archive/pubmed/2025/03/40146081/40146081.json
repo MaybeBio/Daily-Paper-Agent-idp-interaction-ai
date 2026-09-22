@@ -1,0 +1,388 @@
+{
+  "identity": {
+    "pmid": "40146081",
+    "doi": "10.1021/jacs.4c18668",
+    "title": "Capturing the Conformational Heterogeneity of HSPB1 Chaperone Oligomers at Atomic Resolution."
+  },
+  "content": {
+    "abstract": "Small heat shock proteins (sHSPs), including HSPB1, are essential regulators of cellular proteostasis that interact with unfolded and partially folded proteins to prevent aberrant misfolding and aggregation. These proteins fulfill a similar role in biological condensates, where they interact with intrinsically disordered proteins to modulate their liquid-liquid and liquid-to-solid phase transitions. Characterizing the sHSP structure, dynamics, and client interactions is challenging due to their partially disordered nature, their tendency to form polydisperse oligomers, and their diverse range of clients. In this work, we leverage various biophysical methods, including fast (1)H-based magic angle spinning (MAS) NMR spectroscopy, molecular dynamics (MD) simulations, and modeling, to shed new light on the structure and dynamics of HSPB1 oligomers. Using split-intein-mediated segmental labeling, we provide unambiguous evidence that in the oligomer context, the N-terminal domain (NTD) of HSPB1 is rigid and adopts an ensemble of heterogeneous conformations, the alpha-Crystallin domain (ACD) forms dimers and experiences multiple distinct local environments, while the C-terminal domain (CTD) remains highly dynamic. Our computational models suggest that the NTDs participate in extensive NTD-NTD and NTD-ACD interactions and are sequestered within the oligomer interior. We further demonstrate that HSPB1 higher order oligomers disassemble into smaller oligomeric species in the presence of a client protein and that an accessible NTD is essential for HSPB1 partitioning into condensates and interactions with client proteins. Our integrated approach provides a high-resolution view of the complex oligomeric landscape of HSPB1 and sheds light on the elusive network of interactions that underlies the function of HSPB1 in biological condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "Molecular Dynamics Simulation",
+      "*Molecular Chaperones/chemistry",
+      "Protein Conformation",
+      "*Heat-Shock Proteins/chemistry",
+      "Humans",
+      "Nuclear Magnetic Resonance, Biomolecular",
+      "Protein Multimerization"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Berkeley, Raymond F",
+        "Plonski, Alexander P",
+        "Phan, Tien M",
+        "Grohe, Kristof",
+        "Becker, Lukas",
+        "Wegner, Sebastian",
+        "Herzik, Mark A Jr",
+        "Mittal, Jeetain",
+        "Debelouchina, Galia T"
+      ],
+      "short_names": [
+        "Berkeley RF",
+        "Plonski AP",
+        "Phan TM",
+        "Grohe K",
+        "Becker L",
+        "Wegner S",
+        "Herzik MA Jr",
+        "Mittal J",
+        "Debelouchina GT"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8608-7359",
+        "ORCID: 0000-0002-9725-6402",
+        "ORCID: 0000-0001-6775-9415"
+      ],
+      "affiliations": [
+        "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California 92093, United States.",
+        "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California 92093, United States.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+        "Bruker BioSpin GmbH & Co. KG, Ettlingen 76275, Germany.",
+        "Bruker BioSpin GmbH & Co. KG, Ettlingen 76275, Germany.",
+        "Bruker BioSpin GmbH & Co. KG, Ettlingen 76275, Germany.",
+        "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California 92093, United States.",
+        "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+        "Department of Chemistry, Texas A&M University, College Station, Texas 77843, United States.",
+        "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas 77843, United States.",
+        "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California 92093, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Berkeley, Raymond F",
+        "short_name": "Berkeley RF",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California 92093, United States."
+        ]
+      },
+      {
+        "full_name": "Plonski, Alexander P",
+        "short_name": "Plonski AP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California 92093, United States."
+        ]
+      },
+      {
+        "full_name": "Phan, Tien M",
+        "short_name": "Phan TM",
+        "identifiers": [
+          "0000-0002-8608-7359"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States."
+        ]
+      },
+      {
+        "full_name": "Grohe, Kristof",
+        "short_name": "Grohe K",
+        "identifiers": [],
+        "affiliations": [
+          "Bruker BioSpin GmbH & Co. KG, Ettlingen 76275, Germany."
+        ]
+      },
+      {
+        "full_name": "Becker, Lukas",
+        "short_name": "Becker L",
+        "identifiers": [],
+        "affiliations": [
+          "Bruker BioSpin GmbH & Co. KG, Ettlingen 76275, Germany."
+        ]
+      },
+      {
+        "full_name": "Wegner, Sebastian",
+        "short_name": "Wegner S",
+        "identifiers": [],
+        "affiliations": [
+          "Bruker BioSpin GmbH & Co. KG, Ettlingen 76275, Germany."
+        ]
+      },
+      {
+        "full_name": "Herzik, Mark A",
+        "short_name": "Herzik MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California 92093, United States."
+        ]
+      },
+      {
+        "full_name": "Mittal, Jeetain",
+        "short_name": "Mittal J",
+        "identifiers": [
+          "0000-0002-9725-6402"
+        ],
+        "affiliations": [
+          "Artie McFerrin Department of Chemical Engineering, Texas A&M University, College Station, Texas 77843, United States.",
+          "Department of Chemistry, Texas A&M University, College Station, Texas 77843, United States.",
+          "Interdisciplinary Graduate Program in Genetics and Genomics, Texas A&M University, College Station, Texas 77843, United States."
+        ]
+      },
+      {
+        "full_name": "Debelouchina, Galia T",
+        "short_name": "Debelouchina GT",
+        "identifiers": [
+          "0000-0001-6775-9415"
+        ],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California San Diego, La Jolla, California 92093, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2025 May 7",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/27 13:16",
+    "fetched_at": "2026-09-21 17:08:33"
+  },
+  "links": {
+    "cites": [
+      "42599608",
+      "42465301",
+      "42065721",
+      "41868013",
+      "41659695",
+      "41495057",
+      "41298366",
+      "41253788",
+      "41091939"
+    ],
+    "refs": [
+      "38592759",
+      "38244331",
+      "37878721",
+      "37870432",
+      "36638831",
+      "36537242",
+      "36344848",
+      "36075972",
+      "36048712",
+      "35787038",
+      "35536915",
+      "35494416",
+      "35036880",
+      "34418423",
+      "34368784",
+      "34293799",
+      "34265844",
+      "34021140",
+      "33934416",
+      "33875885",
+      "32323160",
+      "32270443",
+      "32231288",
+      "32081587",
+      "31974309",
+      "31845908",
+      "31792453",
+      "31573509",
+      "30842409",
+      "30833458",
+      "30385828",
+      "30385502",
+      "29702226",
+      "29610493",
+      "29364893",
+      "28942918",
+      "28739907",
+      "28547731",
+      "27545621",
+      "27322406",
+      "26854538",
+      "26456111",
+      "26243512",
+      "25699602",
+      "24711386",
+      "24634716",
+      "24514166",
+      "23188086",
+      "22264079",
+      "22143763",
+      "21776078",
+      "21641913",
+      "21464278",
+      "20802487",
+      "19411251",
+      "16843901",
+      "8093612",
+      "1730670"
+    ],
+    "similar": [
+      "40146081",
+      "28130664",
+      "28487364",
+      "31974309",
+      "31573509",
+      "35777462",
+      "31767683",
+      "32081587",
+      "34639138",
+      "41854301",
+      "9650074",
+      "22264079",
+      "21315085",
+      "34271010",
+      "40241479",
+      "23532854",
+      "28547731",
+      "30036999",
+      "23912807",
+      "21464278",
+      "30684363",
+      "39851555",
+      "28325834",
+      "29983375",
+      "32301006",
+      "30348902",
+      "28389817",
+      "22210387",
+      "38203641",
+      "26098708",
+      "21670152",
+      "24043785",
+      "16165157",
+      "29969581",
+      "31097540",
+      "29442498",
+      "36719917",
+      "21641913",
+      "40323908",
+      "33321054",
+      "28332148",
+      "19041879",
+      "34429462",
+      "15448619",
+      "20133845",
+      "14532291",
+      "25754041",
+      "15769476",
+      "24940782",
+      "22916679",
+      "28337642",
+      "37146746",
+      "23188086",
+      "27717639",
+      "36674601",
+      "38401625",
+      "23416558",
+      "33549906",
+      "22057845",
+      "40565211",
+      "24382496",
+      "17979194",
+      "32417755",
+      "30611607",
+      "40955635",
+      "24898092",
+      "27643500",
+      "26621746",
+      "40945576",
+      "23948568",
+      "10366513",
+      "22090033",
+      "17090542",
+      "28077174",
+      "30076220",
+      "24282123",
+      "39677757",
+      "27053150",
+      "23811057",
+      "35202628",
+      "29298892",
+      "34487489",
+      "26439766",
+      "32929427",
+      "25965061",
+      "31792453",
+      "34369377",
+      "30669930",
+      "10950306",
+      "30842409",
+      "22531625",
+      "28138538",
+      "28391594",
+      "30840442",
+      "23950959",
+      "33147371",
+      "41659695",
+      "9990320",
+      "29082555",
+      "40545728"
+    ],
+    "review": [
+      "40146081",
+      "34271010",
+      "39851555",
+      "32301006",
+      "29442498",
+      "33321054",
+      "30611607",
+      "10950306"
+    ],
+    "pmc": [
+      "12063158"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40146081/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-HSPB1-6",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-702",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.4c18668",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

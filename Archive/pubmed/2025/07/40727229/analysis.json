@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40727229",
+  "title": "Structural and Functional Relevance of Charge-Based Transient Interactions inside Intrinsically Disordered Proteins.",
+  "authors": "Wohl, Samuel; Gilron, Yishai; Zheng, Wenwei",
+  "journal": "ACS physical chemistry Au",
+  "published_date": "2025-07-29",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究无序蛋白内电荷驱动的瞬时相互作用及其序列特征，并关联相分离凝聚体中的网络形成，虽聚焦单链内互作而非典型PPI，但机制建模思路对IDR介导互作与相分离研究有启发。",
+  "abstract": "Intrinsically disordered proteins (IDPs) perform diverse biological functions without adopting stable folded structures, instead existing as dynamic ensembles of flexible conformations. While these conformations were traditionally attributed to weak, nonspecific interactions, emerging evidence emphasizes the role of transient, specific interactions. Here, we investigate how charged amino acids within IDP sequences influence the prevalence of these interactions. Using model peptides, we establish an empirical relationship between the fraction of transient interactions and a novel sequence metric, the effective charge patch length. Extending this analysis to IDP ensembles with varying levels of transient interactions, we uncover heteropolymeric structural behaviors, including network formation in phase-separated condensates. A large-scale analysis reveals that approximately 20% of disordered regions in the human proteome exhibit charge-driven transient interactions, contributing to heteropolymeric conformational ensembles. Finally, we explore the functional enrichment of these interactions, underscoring their potential role in mediating diverse biological processes.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在未形成稳定折叠结构的情况下执行多种生物学功能，而是以动态的柔性构象集合体形式存在。尽管这些构象传统上归因于弱、非特异性相互作用，但新兴证据强调了瞬时、特异性相互作用的作用。在此，我们研究了IDP序列中带电氨基酸如何影响这些相互作用的普遍性。利用模型肽，我们建立了瞬时相互作用比例与一种新型序列指标——有效电荷斑块长度之间的经验关系。将这一分析扩展到具有不同水平瞬时相互作用的IDP集合体，我们揭示了异聚物结构行为，包括相分离凝聚体中的网络形成。大规模分析显示，人类蛋白质组中约20%的无序区域表现出电荷驱动的瞬时相互作用，促成异聚物构象集合体。最后，我们探讨了这些相互作用的功能富集，强调其在介导多种生物过程中的潜在作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40727229/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40727229/",
+  "paper_page_path": "papers/pubmed/40727229/index.html"
+}

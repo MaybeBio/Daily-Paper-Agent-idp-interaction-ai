@@ -1,0 +1,256 @@
+{
+  "identity": {
+    "pmid": "42579896",
+    "doi": "10.1016/j.compbiolchem.2026.109292",
+    "title": "Fused framework for predicting binding affinity to a-synuclein using three-dimensional molecular graphs and attention."
+  },
+  "content": {
+    "abstract": "The aberrant aggregation of alpha‑synuclein (alpha‑syn) is a pathological hallmark of synucleinopathies, driving the need for small‑molecule inhibitors that block its oligomerization and fibrillization. In computer‑aided drug discovery, accurate affinity prediction remains critical for early‑stage screening. However, current deep learning models predominantly rely on 1D sequences or 2D topological graphs, failing to exploit stereochemical and geometric cues from 3D space. Moreover, dedicated high‑precision predictors for intrinsically disordered targets such as alpha‑syn are scarce. To bridge this gap, we compiled a dataset of 9628 alpha‑syn‑binding compounds from ChEMBL and developed a deep learning framework that integrates Graph Attention Networks (GAT) with Graph Convolutional Networks (GCN). The core innovation lies in using 3D Euclidean interatomic distances as edge features to capture spatial interaction patterns within molecular conformations. We further incorporated an atomic attention layer and a composite loss function combining mean squared error (MSE) with Pearson correlation. The final model achieved an average MSE of 0.1751 and a Pearson correlation of 0.5703 over 10 independent runs, surpassing all baseline GNNs and a recently published alpha‑syn‑specific predictor. Bootstrap‑calibrated confidence intervals confirmed robustness against noise and conformational perturbations. Under a stringent cluster‑exclusion split, GAT‑GCN exhibited performance degradation comparable to other architectures while retaining the best overall metrics, demonstrating generalization to novel chemical scaffolds. This work provides an accurate, robust, and interpretable computational tool for alpha‑syn inhibitor screening, and offers methodological insights into 3D structure‑based molecular representation learning for drug discovery.",
+    "keywords": [
+      "Attention mechanism",
+      "Drug-target affinity prediction",
+      "Graph neural network",
+      "Protein aggregation inhibition",
+      "Three-Dimensional molecular graphs",
+      "alpha-synuclein"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism/antagonists & inhibitors",
+      "Humans",
+      "Graph Neural Networks",
+      "*Deep Learning",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wang, Xi",
+        "Shang, Wenhui",
+        "Ma, Fengze",
+        "Ma, Baoshan",
+        "Yang, Jialiang",
+        "Jia, Cangzhi"
+      ],
+      "short_names": [
+        "Wang X",
+        "Shang W",
+        "Ma F",
+        "Ma B",
+        "Yang J",
+        "Jia C"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Science, Dalian Maritime University, Dalian 116026, China.",
+        "School of Science, Dalian Maritime University, Dalian 116026, China.",
+        "School of Science, Dalian Maritime University, Dalian 116026, China.",
+        "School of Information Science and Technology, Dalian Maritime University, Dalian 116026, China.",
+        "Geneis Beijing Co., Ltd., Beijing 100102, China; Academician Workstation, Changsha Medical University, Changsha 410219, China. Electronic address: yangjl@geneis.cn.",
+        "School of Science, Dalian Maritime University, Dalian 116026, China. Electronic address: cangzhijia@dlmu.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wang, Xi",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, Dalian 116026, China."
+        ]
+      },
+      {
+        "full_name": "Shang, Wenhui",
+        "short_name": "Shang W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, Dalian 116026, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Fengze",
+        "short_name": "Ma F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, Dalian 116026, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Baoshan",
+        "short_name": "Ma B",
+        "identifiers": [],
+        "affiliations": [
+          "School of Information Science and Technology, Dalian Maritime University, Dalian 116026, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jialiang",
+        "short_name": "Yang J",
+        "identifiers": [],
+        "affiliations": [
+          "Geneis Beijing Co., Ltd., Beijing 100102, China; Academician Workstation, Changsha Medical University, Changsha 410219, China. Electronic address: yangjl@geneis.cn."
+        ]
+      },
+      {
+        "full_name": "Jia, Cangzhi",
+        "short_name": "Jia C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Science, Dalian Maritime University, Dalian 116026, China. Electronic address: cangzhijia@dlmu.edu.cn."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational biology and chemistry"
+    ],
+    "journal_abbrev": [
+      "Comput Biol Chem"
+    ],
+    "pub_date": "2026 Dec",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/08/11 23:35",
+    "fetched_at": "2026-09-18 05:36:43"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "42579896",
+      "41540516",
+      "41945943",
+      "41441912",
+      "42050415",
+      "42334640",
+      "41921096",
+      "41870129",
+      "42576503",
+      "41973256",
+      "42476249",
+      "40602636",
+      "41299450",
+      "42295634",
+      "38365583",
+      "39961610",
+      "41739380",
+      "41564724",
+      "42053777",
+      "39541085",
+      "42572360",
+      "42478599",
+      "35578674",
+      "37005531",
+      "41436386",
+      "40143108",
+      "42719132",
+      "40966797",
+      "40790157",
+      "41750401",
+      "40959983",
+      "41413775",
+      "38552281",
+      "42645778",
+      "40748800",
+      "35471889",
+      "42653201",
+      "41136863",
+      "39644133",
+      "41222841",
+      "42731537",
+      "42163596",
+      "40031740",
+      "42001823",
+      "41820521",
+      "40481301",
+      "40857188",
+      "40811270",
+      "42579672",
+      "39714563",
+      "41333850",
+      "41199760",
+      "39905318",
+      "42450132",
+      "40826117",
+      "41687302",
+      "41589601",
+      "38457109",
+      "41077294",
+      "41838774",
+      "40751775",
+      "40983850",
+      "37176031",
+      "39223071",
+      "42289754",
+      "39848362",
+      "39321746",
+      "42670852",
+      "37655493",
+      "37807013",
+      "41505730",
+      "38516950",
+      "42229773",
+      "38082648",
+      "38713612",
+      "42495185",
+      "42079733",
+      "29982330",
+      "42678111",
+      "41634737",
+      "41822751",
+      "40139623",
+      "41601476",
+      "41924282",
+      "41474730",
+      "39133595",
+      "42642697",
+      "40600339",
+      "38758624",
+      "41870652",
+      "39833138",
+      "38547658",
+      "40252145",
+      "41596767",
+      "41172602",
+      "41392472",
+      "42166265",
+      "41735233",
+      "39183297",
+      "42471206"
+    ],
+    "review": [
+      "42579896",
+      "42572360",
+      "41750401",
+      "40959983",
+      "42495185"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1476-9271(26)00419-6",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

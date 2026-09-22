@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41712756",
+  "title": "A deep learning framework for comprehensive prediction of human RNA G-quadruplex-binding proteins.",
+  "authors": "Rosignoli, Serena; Taraglio, Sophie; Di Luzio, Francesco; Lustrino, Elisa; Marzella, Dario; Elofsson, Arne; Panella, Massimo; Paiardini, Alessandro",
+  "journal": "Bioinformatics (Oxford, England)",
+  "published_date": "2026-02-19",
+  "window": {
+    "start": "2026-02-16",
+    "end": "2026-02-22"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用深度学习框架预测RNA G-四链体结合蛋白，发现候选蛋白富集IDR和应激颗粒，虽对象非IDP介导的PPI，但IDR与凝聚体关联及AI方法对本课题有启发。",
+  "abstract": "MOTIVATION: G-quadruplex-binding proteins (G4BPs) play key roles in RNA metabolism and stress response, yet their identification remains experimentally challenging. Here, we present a deep learning (DL) framework for the prediction of RNA G4BPs (RG4BPs), integrating diverse encoding strategies and neural architectures. Our best-performing model, which includes ESM-2 protein language model embeddings and consists of an LSTM architecture, achieved 86% accuracy in distinguishing RG4BPs from non-binder proteins. The application of this model to the human proteome uncovered 2160 high-confidence RG4BP candidates, many of which display intrinsically disordered regions (IDRs) and enrichment in stress granule organelles. These findings reveal a potential link between G-quadruplex recognition and cellular stress responses. To enable easy and broad access to the framework, we developed G4REP, a web server for RG4BP prediction and analysis. Overall, an effective approach to explore the RG4BPs landscape and uncover novel players in RNA regulation is provided. AVAILABILITY: Source code for the G4REP Model training and evaluation is available at: https://github.com/G4REP/G4REPmodel and at https://doi.org/10.5281/zenodo.17963046. G4REP Server is hosted at: https://schubert.bio.uniroma1.it/g4/.",
+  "abstract_zh": "动机：G-四链体结合蛋白（G4BPs）在RNA代谢和应激反应中发挥关键作用，然而其鉴定在实验上仍具挑战性。在此，我们提出一个用于预测RNA G4BPs（RG4BPs）的深度学习（DL）框架，整合多种编码策略和神经架构。我们表现最佳的模型，包含ESM-2蛋白质语言模型嵌入并采用LSTM架构，在区分RG4BPs与非结合蛋白方面达到了86%的准确率。将该模型应用于人类蛋白质组，发现了2160个高置信度的RG4BP候选蛋白，其中许多具有内在无序区域（IDRs）并在应激颗粒细胞器中富集。这些发现揭示了G-四链体识别与细胞应激反应之间的潜在联系。为便于广泛访问该框架，我们开发了G4REP，一个用于RG4BP预测和分析的网络服务器。总体而言，我们提供了一种有效的方法来探索RG4BPs景观并揭示RNA调控中的新参与者。可用性：G4REP模型训练和评估的源代码可在https://github.com/G4REP/G4REPmodel和https://doi.org/10.5281/zenodo.17963046获取。G4REP服务器托管于https://schubert.bio.uniroma1.it/g4/。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41712756/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41712756/",
+  "paper_page_path": "papers/pubmed/41712756/index.html"
+}

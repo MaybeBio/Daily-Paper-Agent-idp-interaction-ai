@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40867524",
+  "title": "Empirical Assessment of Sequence-Based Predictions of Intrinsically Disordered Regions Involved in Phase Separation.",
+  "authors": "Wu, Xuantai; Wang, Kui; Hu, Gang; Kurgan, Lukasz",
+  "journal": "Biomolecules",
+  "published_date": "2025-08-30",
+  "window": {
+    "start": "2025-08-25",
+    "end": "2025-08-31"
+  },
+  "score": 6,
+  "one_liner_zh": "该文系统评估了基于序列的相分离相关IDR预测工具，虽聚焦预测方法评测而非互作机制建模，但为无序蛋白参与相分离的序列预测提供了方法学参考。",
+  "abstract": "Phase separation processes facilitate the formation of membrane-less organelles and involve interactions within structured domains and intrinsically disordered regions (IDRs) in protein sequences. The literature suggests that the involvement of proteins in phase separation can be predicted from their sequences, leading to the development of over 30 computational predictors. We focused on intrinsic disorder due to its fundamental role in related diseases, and because recent analysis has shown that phase separation can be accurately predicted for structured proteins. We evaluated eight representative amino acid-level predictors of phase separation, capable of identifying phase-separating IDRs, using a well-annotated, low-similarity test dataset under two complementary evaluation scenarios. Several methods generate accurate predictions in the easier scenario that includes both structured and disordered sequences. However, we demonstrate that modern disorder predictors perform equally well in this scenario by effectively differentiating phase-separating IDRs from structured regions. In the second, more challenging scenario-considering only predictions in disordered regions-disorder predictors underperform, and most phase separation predictors produce only modestly accurate results. Moreover, some predictors are broadly biased to classify disordered residues as phase-separating, which results in low predictive performance in this scenario. Finally, we recommend PSPHunter as the most accurate tool for identifying phase-separating IDRs in both scenarios.",
+  "abstract_zh": "相分离过程促进无膜细胞器的形成，并涉及蛋白质序列中结构化结构域和 intrinsically disordered regions (IDRs) 内的相互作用。文献表明，蛋白质参与相分离可以从其序列中预测，这促使了超过30种计算预测工具的开发。我们聚焦于内在无序性，因为它在相关疾病中发挥基础作用，且近期分析显示，对于结构化蛋白质，相分离可以被准确预测。我们使用一个注释完善、低相似性的测试数据集，在两种互补的评估场景下，评估了八种具有代表性的氨基酸水平相分离预测工具，这些工具能够识别相分离型IDRs。在包含结构化序列和无序序列的较简单场景中，多种方法生成了准确的预测。然而，我们证明，现代无序性预测工具在此场景中表现同样出色，能有效区分相分离型IDRs与结构化区域。在第二种更具挑战性的场景中——仅考虑无序区域内的预测——无序性预测工具表现不佳，且大多数相分离预测工具仅产生中等准确度的结果。此外，一些预测工具存在广泛偏差，将无序残基分类为相分离型，导致在此场景中预测性能低下。最后，我们推荐PSPHunter作为在两种场景中识别相分离型IDRs最准确的工具。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40867524/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40867524/",
+  "paper_page_path": "papers/pubmed/40867524/index.html"
+}

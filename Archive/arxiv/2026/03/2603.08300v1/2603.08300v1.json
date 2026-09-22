@@ -1,0 +1,40 @@
+{
+  "source": "arxiv",
+  "source_id": "2603.08300v1",
+  "title": "A thermodynamic metric quantitatively predicts disordered protein partitioning and multicomponent phase behavior",
+  "doi": "",
+  "abstract": "Intrinsically disordered regions (IDRs) of proteins mediate sequence-specific interactions underlying diverse cellular processes, including the formation of biomolecular condensates. Although IDRs strongly influence condensate compositions, quantitative frameworks that predict and explain their phase behavior in complex mixtures remain lacking. Here we introduce a thermodynamic model that quantitatively predicts the behavior of arbitrary combinations of IDRs across a wide range of concentrations, with accuracy comparable to state-of-the-art simulations. The model learns low-dimensional, context-independent representations of IDR sequences that combine to form mixture representations, producing context-dependent interactions. These representations define a thermodynamic metric space in which distances between IDRs correspond directly to differences in their thermodynamic properties. We show that the model predicts multicomponent phase diagrams in quantitative agreement with molecular simulations without being trained on free-energy or phase-coexistence data. The metric space provides geometrically intuitive predictions of IDR partitioning, multicomponent condensation, and context-dependent mutational effects, addressing several central problems in IDR biophysics within a single model. Systematic interrogation of the learned representations reveals how amino-acid composition and sequence patterning jointly determine mixture thermodynamics. Together, our results establish a unified and interpretable framework for predicting and understanding the behavior of complex mixtures of IDRs and other sequence-dependent biomolecules.",
+  "authors": [
+    "Zhuang Liu",
+    "Beijia Yuan",
+    "Mihir Rao",
+    "Gautam Reddy",
+    "William M. Jacobs"
+  ],
+  "published_date": "2026-03-09T12:24:36Z",
+  "updated_date": "2026-03-09T12:24:36Z",
+  "journal": "",
+  "category": "cond-mat.soft, cond-mat.mtrl-sci, cond-mat.stat-mech, q-bio.BM",
+  "landing_url": "https://arxiv.org/abs/2603.08300v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.08300v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.soft",
+    "cond-mat.mtrl-sci",
+    "cond-mat.stat-mech",
+    "q-bio.BM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2603.08300v1",
+    "raw_categories": [
+      "cond-mat.soft",
+      "cond-mat.mtrl-sci",
+      "cond-mat.stat-mech",
+      "q-bio.BM"
+    ],
+    "journal_ref": ""
+  }
+}

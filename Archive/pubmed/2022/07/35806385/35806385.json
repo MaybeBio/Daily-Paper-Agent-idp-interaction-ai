@@ -1,0 +1,348 @@
+{
+  "identity": {
+    "pmid": "35806385",
+    "doi": "10.3390/ijms23137380",
+    "title": "The Multivalent Polyampholyte Domain of Nst1, a P-Body-Associated Saccharomyces cerevisiae Protein, Provides a Platform for Interacting with P-Body Components."
+  },
+  "content": {
+    "abstract": "The condensation of nuclear promyelocytic leukemia bodies, cytoplasmic P-granules, P-bodies (PBs), and stress granules is reversible and dynamic via liquid-liquid phase separation. Although each condensate comprises hundreds of proteins with promiscuous interactions, a few key scaffold proteins are required. Essential scaffold domain sequence elements, such as poly-Q, low-complexity regions, oligomerizing domains, and RNA-binding domains, have been evaluated to understand their roles in biomolecular condensation processes. However, the underlying mechanisms remain unclear. We analyzed Nst1, a PB-associated protein that can intrinsically induce PB component condensations when overexpressed. Various Nst1 domain deletion mutants with unique sequence distributions, including intrinsically disordered regions (IDRs) and aggregation-prone regions, were constructed based on structural predictions. The overexpression of Nst1 deletion mutants lacking the aggregation-prone domain (APD) significantly inhibited self-condensation, implicating APD as an oligomerizing domain promoting self-condensation. Remarkably, cells overexpressing the Nst1 deletion mutant of the polyampholyte domain (PD) in the IDR region (Nst1(∆PD)) rarely accumulate endogenous enhanced green fluorescent protein (EGFP)-tagged Dcp2. However, Nst1(∆PD) formed self-condensates, suggesting that Nst1 requires PD to interact with Dcp2, regardless of its self-condensation. In Nst1(∆PD)-overexpressing cells treated with cycloheximide (CHX), Dcp2, Xrn1, Dhh1, and Edc3 had significantly diminished condensation compared to those in CHX-treated Nst1-overexpressing cells. These observations suggest that the PD of the IDR in Nst1 functions as a hub domain interacting with other PB components.",
+    "keywords": [
+      "Nst1",
+      "P-body",
+      "Saccharomyces cerevisiae",
+      "aggregation-prone domain",
+      "liquid-liquid phase separation",
+      "polyampholyte domain"
+    ],
+    "mesh_terms": [
+      "Cycloheximide/pharmacology",
+      "Cytoplasmic Granules/metabolism",
+      "*Processing Bodies",
+      "Protein Domains",
+      "*Saccharomyces cerevisiae Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Choi, Yoon-Jeong",
+        "Lee, Yujin",
+        "Lin, Yuxi",
+        "Heo, Yunseok",
+        "Lee, Young-Ho",
+        "Song, Kiwon"
+      ],
+      "short_names": [
+        "Choi YJ",
+        "Lee Y",
+        "Lin Y",
+        "Heo Y",
+        "Lee YH",
+        "Song K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8565-0103",
+        "ORCID: 0000-0003-0013-4749",
+        "ORCID: 0000-0002-2233-4306"
+      ],
+      "affiliations": [
+        "Department of Biochemistry, College of Life Science and Biotechnology, Yonsei University, Seoul 03722, Korea.",
+        "Department of Biochemistry, College of Life Science and Biotechnology, Yonsei University, Seoul 03722, Korea.",
+        "Research Center for Bioconvergence Analysis, Korea Basic Science Institute (KBSI), Chungbuk 28119, Korea.",
+        "Research Center for Bioconvergence Analysis, Korea Basic Science Institute (KBSI), Chungbuk 28119, Korea.",
+        "Research Center for Bioconvergence Analysis, Korea Basic Science Institute (KBSI), Chungbuk 28119, Korea.",
+        "Department of Bio-Analytical Science, University of Science and Technology (UST), Daejeon 34113, Korea.",
+        "Graduate School of Analytical Science and Technology (GRAST), Chungnam National University (CNU), Daejeon 34134, Korea.",
+        "Department of Biochemistry, College of Life Science and Biotechnology, Yonsei University, Seoul 03722, Korea."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Choi, Yoon-Jeong",
+        "short_name": "Choi YJ",
+        "identifiers": [
+          "0000-0002-8565-0103"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, College of Life Science and Biotechnology, Yonsei University, Seoul 03722, Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Yujin",
+        "short_name": "Lee Y",
+        "identifiers": [
+          "0000-0003-0013-4749"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, College of Life Science and Biotechnology, Yonsei University, Seoul 03722, Korea."
+        ]
+      },
+      {
+        "full_name": "Lin, Yuxi",
+        "short_name": "Lin Y",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Bioconvergence Analysis, Korea Basic Science Institute (KBSI), Chungbuk 28119, Korea."
+        ]
+      },
+      {
+        "full_name": "Heo, Yunseok",
+        "short_name": "Heo Y",
+        "identifiers": [
+          "0000-0002-2233-4306"
+        ],
+        "affiliations": [
+          "Research Center for Bioconvergence Analysis, Korea Basic Science Institute (KBSI), Chungbuk 28119, Korea."
+        ]
+      },
+      {
+        "full_name": "Lee, Young-Ho",
+        "short_name": "Lee YH",
+        "identifiers": [],
+        "affiliations": [
+          "Research Center for Bioconvergence Analysis, Korea Basic Science Institute (KBSI), Chungbuk 28119, Korea.",
+          "Department of Bio-Analytical Science, University of Science and Technology (UST), Daejeon 34113, Korea.",
+          "Graduate School of Analytical Science and Technology (GRAST), Chungnam National University (CNU), Daejeon 34134, Korea."
+        ]
+      },
+      {
+        "full_name": "Song, Kiwon",
+        "short_name": "Song K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, College of Life Science and Biotechnology, Yonsei University, Seoul 03722, Korea."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2022 Jul 2",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/07/10 06:00",
+    "fetched_at": "2026-09-20 11:48:06"
+  },
+  "links": {
+    "cites": [
+      "37685957",
+      "37514520"
+    ],
+    "refs": [
+      "35269643",
+      "33069007",
+      "32867340",
+      "32483267",
+      "32302570",
+      "31439836",
+      "30351106",
+      "30099028",
+      "30045872",
+      "29860432",
+      "29654784",
+      "29425497",
+      "29395067",
+      "29373831",
+      "29129640",
+      "29065286",
+      "28935776",
+      "28516007",
+      "28225081",
+      "27374333",
+      "26777405",
+      "26727894",
+      "26544936",
+      "26526393",
+      "26412307",
+      "26406374",
+      "26317470",
+      "26238190",
+      "26015579",
+      "25747659",
+      "25391399",
+      "25361972",
+      "25288112",
+      "24848016",
+      "23901099",
+      "22763747",
+      "22649060",
+      "22579282",
+      "21680045",
+      "20404210",
+      "20154676",
+      "20087442",
+      "19589171",
+      "18157935",
+      "17984320",
+      "17928811",
+      "17429074",
+      "17418788",
+      "17324296",
+      "17210054",
+      "16325406",
+      "16179257",
+      "15955779",
+      "15703442",
+      "15361882",
+      "15334558",
+      "15020463",
+      "12824398",
+      "12032079",
+      "11704850",
+      "11093259",
+      "10779416",
+      "10761922",
+      "10747033",
+      "10525530"
+    ],
+    "similar": [
+      "35806385",
+      "35269643",
+      "34347506",
+      "30648970",
+      "20368989",
+      "22056521",
+      "28873979",
+      "20086104",
+      "29078371",
+      "34772789",
+      "28924037",
+      "20513766",
+      "24569876",
+      "34435633",
+      "37986933",
+      "36972455",
+      "27247266",
+      "28283059",
+      "36412795",
+      "35764627",
+      "34106046",
+      "29526694",
+      "34074792",
+      "35918061",
+      "34672913",
+      "32059599",
+      "20722039",
+      "28455591",
+      "22065998",
+      "32048997",
+      "30520303",
+      "31626750",
+      "34029402",
+      "34291921",
+      "30878482",
+      "36449075",
+      "32071154",
+      "37738977",
+      "34179096",
+      "29511089",
+      "35290420",
+      "32225071",
+      "23912807",
+      "32696384",
+      "32405004",
+      "23319050",
+      "20946828",
+      "30099026",
+      "30924287",
+      "34274326",
+      "31926930",
+      "32553192",
+      "27602576",
+      "32553117",
+      "30557374",
+      "33627133",
+      "33982369",
+      "34102212",
+      "36272410",
+      "26149687",
+      "18182159",
+      "17333250",
+      "31266957",
+      "33513942",
+      "33069007",
+      "18643965",
+      "32302571",
+      "22686455",
+      "18657234",
+      "21943185",
+      "23285234",
+      "32824743",
+      "23851565",
+      "26787465",
+      "30531905",
+      "31745569",
+      "31740956",
+      "32822449",
+      "19111192",
+      "11816027",
+      "32302572",
+      "19111193",
+      "36199703",
+      "35440550",
+      "37688556",
+      "36877681",
+      "38617336",
+      "39343006",
+      "32927263",
+      "37275520"
+    ],
+    "review": [
+      "35806385",
+      "34772789",
+      "31626750",
+      "34291921",
+      "30099026",
+      "30924287",
+      "33513942",
+      "33069007"
+    ],
+    "pmc": [
+      "9266425"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms23137380",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35806385/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.yeastgenome.org/reference/35806385",
+        "provider": "Saccharomyces Genome Database",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35806385",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

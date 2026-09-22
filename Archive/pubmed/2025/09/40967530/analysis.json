@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40967530",
+  "title": "Temperature and time induced assembly phase changes of engineered spidroin protein solutions.",
+  "authors": "Tolmachev, Dmitry; Tunn, Isabell; Harmat, Adam L; Mottonen, Nea B; Scacchi, Alberto; Linder, Markus B; Sammalkorpi, Maria",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2025-09-19",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合分子动力学模拟与光谱/显微实验，研究含中间IDR和折叠末端结构域的三嵌段蛛丝蛋白的温度与时间依赖组装相变，揭示熵效应、疏水相互作用及末端二聚化驱动的凝胶化机制，属于IDR介导的蛋白组装机制建模，对本课题有直接启发。",
+  "abstract": "Here, we explore the molecular level origins of the curious temperature and time dependent assembly phase response of silk-like protein materials. Combining molecular dynamics simulations, CD and FTIR spectroscopy, as well as optical microscopy, we examine the assembly phase response of model engineered tri-block protein constructs with a middle intrinsically disordered region and folded terminal domains. We show that, the assembly phase response over a broad temperature range between 20 and 80  degrees C arises from strong interprotein interactions. The phase transitions are governed by the interplay of changes in the entropy of the flexible glycine-rich regions and the hydrophobic interactions between the alpha-helices rich in alanine (Ala). Furthermore, we observe irreversible gelation at high temperatures and during aging (time-induced gelation). Thermal gelation rises via interactions between the Ala-rich regions and subsequent formation of beta-sheets that crosslink the protein network. On the other hand, the time-induced gel is formed with no notable secondary structure transitions of the middle block via percolation of the protein, which is sensitive to the dimerizing interactions of the terminal domains. Overall, the significance of this work is that we identify time as a separate design variable from the molecular level characteristics and solution conditions of the silk-like protein gels, and extract assembly guidelines for the gel formation and its characteristics.",
+  "abstract_zh": "在此，我们探讨丝素样蛋白材料奇特的时间与温度依赖性组装相响应的分子层面起源。结合分子动力学 (molecular dynamics) 模拟、CD和FTIR光谱，以及光学显微镜，我们研究了具有中间内在无序区域和折叠末端结构域的模式化三嵌段蛋白构建体的组装相响应。我们表明，在20至80摄氏度的宽温度范围内，组装相响应源于强烈的蛋白质间相互作用。相变受柔性甘氨酸富集区域熵变化与富含丙氨酸 (Ala) 的α-螺旋之间疏水相互作用的共同调控。此外，我们观察到在高温下和老化过程中（时间诱导凝胶化）发生不可逆凝胶化。热凝胶化通过Ala富集区域之间的相互作用及随后形成交联蛋白质网络的β-折叠而发生。另一方面，时间诱导凝胶的形成不涉及中间嵌段的显著二级结构转变，而是通过蛋白质的渗流实现，该过程对末端结构域的二聚化相互作用敏感。总体而言，本工作的意义在于，我们将时间识别为与丝素样蛋白凝胶的分子层面特征和溶液条件相独立的单独设计变量，并提取凝胶形成及其特性的组装指导原则。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40967530/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40967530/",
+  "paper_page_path": "papers/pubmed/40967530/index.html"
+}

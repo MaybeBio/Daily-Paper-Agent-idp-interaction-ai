@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.05.08.652869",
+  "title": "Adhesion-derived condensates control component availability to regulate adhesion dynamics",
+  "authors": "Dibus M; Enkavi G; Chastney M; Vattulainen I; Ivaska J",
+  "journal": "bioRxiv",
+  "published_date": "2025-05-09",
+  "window": {
+    "start": "2025-05-05",
+    "end": "2025-05-11"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究TNS1无序区域驱动的相分离凝聚体作为粘附蛋白储库调控粘附动态，对象为IDR介导的凝聚体且涉及蛋白互作，但方法以实验为主、无AI/物理模拟建模，故评7分。",
+  "abstract": "<h4>Summary</h4> Integrin adhesion complexes mediate cell-extracellular matrix (ECM) interactions and undergo dynamic remodelling to regulate cell adhesion and migration. Here, we demonstrate that tensin 1 (TNS1), a multidomain adhesion adaptor protein linking active integrins with the actin cytoskeleton, undergoes phase separation in cells. Endogenous TNS1 condensates are formed upon focal adhesion disassembly or limited integrin–ECM engagement in both 2D and 3D environments, acting as reservoirs for inactive adhesion proteins. Combining functional experimental approaches with phosphoproteomics, we identify the TNS1 intrinsically disordered region as the main driver of TNS1 condensation and demonstrate a negative regulatory role of phosphorylation on condensate assembly upon activation of stress-responsive kinases. Finally, we confirm the functional effects of phosphorylation-dependent TNS1 condensation on adhesion dynamics and cell migration. Together, our findings highlight TNS1 condensation as a regulatory mechanism controlling local availability of inactive adhesion proteins, with direct implications on adhesion dynamics and cell behaviour.",
+  "abstract_zh": "<h4>摘要</h4>整合素黏附复合物介导细胞与细胞外基质（ECM）的相互作用，并通过动态重塑来调节细胞黏附和迁移。在此，我们证明tensin 1（TNS1），一种将活性整合素与肌动蛋白细胞骨架连接的多结构域黏附衔接蛋白，在细胞中发生相分离（phase separation）。内源性TNS1凝聚体在黏附斑解体或整合素–ECM有限结合时形成，存在于2D和3D环境中，作为非活性黏附蛋白的储存库。结合功能性实验方法与磷酸化蛋白质组学，我们确定TNS1内在无序区域是TNS1凝聚的主要驱动因素，并证明应激响应激酶激活后磷酸化对凝聚体组装具有负调控作用。最后，我们确认了磷酸化依赖性TNS1凝聚对黏附动力学和细胞迁移的功能影响。综上，我们的发现突显了TNS1凝聚作为一种调控机制，控制非活性黏附蛋白的局部可用性，并对黏附动力学和细胞行为产生直接影响。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.05.08.652869",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.05.08.652869",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.05.08.652869/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39046235",
+  "title": "Wild-Type alpha-Synuclein Structure and Aggregation: A Comprehensive Coarse-Grained and All-Atom Molecular Dynamics Study.",
+  "authors": "Martins, Gabriel F; Galamba, Nuno",
+  "journal": "Journal of chemical information and modeling",
+  "published_date": "2024-07-24",
+  "window": {
+    "start": "2024-07-22",
+    "end": "2024-07-28"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究用粗粒化与全原子MD系统比较不同力场对α-突触核蛋白（IDP）单体结构、纤维稳定性及NACore肽段聚集自由能的描述，聚焦无序蛋白聚集/PPI机制建模，方法为物理模拟，对象与互作轴均命中，但未涉及AI且互作侧重聚集而非典型PPI复合物，故给8分。",
+  "abstract": "alpha-Synuclein (alpha-syn) is a 140 amino acid intrinsically disordered protein (IDP) and the primary component of cytotoxic oligomers implicated in the etiology of Parkinson's disease (PD). While IDPs lack a stable three-dimensional structure, they sample a heterogeneous ensemble of conformations that can, in principle, be assessed through molecular dynamics simulations. However, describing the structure and aggregation of large IDPs is challenging due to force field (FF) accuracy and sampling limitations. To cope with the latter, coarse-grained (CG) FFs emerge as a potential alternative at the expense of atomic detail loss. Whereas CG models can accurately describe the structure of the monomer, less is known about aggregation. The latter is key for assessing aggregation pathways and designing aggregation inhibitor drugs. Herein, we investigate the structure and dynamics of alpha-syn using different resolution CG (Martini3 and Sirah2) and all-atom (Amber99sb and Charmm36m) FFs to gain insight into the differences and resemblances between these models. The dependence of the magnitude of protein-water interactions and the putative need for enhanced sampling (replica exchange) methods in CG simulations are analyzed to distinguish between force field accuracy and sampling limitations. The stability of the CG models of an alpha-syn fibril was also investigated. Additionally, alpha-syn aggregation was studied through umbrella sampling for the CG models and CG/all-atom models for an 11-mer peptide (NACore) from an amyloidogenic domain of alpha-syn. Our results show that despite the alpha-syn structures of Martini3 and Sirah2 with enhanced protein-water interactions being similar, major differences exist concerning aggregation. The Martini3 fibril is not stable, and the binding free energy of alpha-syn and NACore is positive, opposite to Sirah2. Sirah2 peptides in a zwitterionic form, in turn, display termini interactions that are too strong, resulting in end-to-end orientation. Sirah2, with enhanced protein-water interactions and neutral termini, provides, however, a peptide aggregation free energy profile similar to that found with all-atom models. Overall, we find that Sirah2 with enhanced protein-water interactions is suitable for studying protein-protein and protein-drug aggregation.",
+  "abstract_zh": "α-突触核蛋白（alpha-syn）是一种由140个氨基酸组成的固有无序蛋白（IDP），并且是与帕金森病（PD）病因相关的细胞毒性寡聚体的主要成分。尽管IDP缺乏稳定的三维结构，它们会采样一组异质的构象集合，原则上可以通过分子动力学模拟来评估。然而，由于力场（FF）准确性和采样限制，描述大型IDP的结构和聚集具有挑战性。为应对后者，粗粒化（CG）力场成为潜在替代方案，但代价是原子细节的丢失。尽管CG模型能准确描述单体的结构，但对聚集的了解较少。后者对于评估聚集途径和设计聚集抑制剂药物至关重要。在此，我们使用不同分辨率的CG（Martini3和Sirah2）以及全原子（Amber99sb和Charmm36m）力场研究alpha-syn的结构和动力学，以深入了解这些模型之间的差异和相似之处。我们分析了蛋白质-水相互作用强度的依赖性以及CG模拟中增强采样（副本交换）方法的潜在需求，以区分力场准确性和采样限制。还研究了alpha-syn原纤维CG模型的稳定性。此外，通过伞形采样对CG模型以及来自alpha-syn淀粉样生成域的11-mer肽（NACore）的CG/全原子模型进行了alpha-syn聚集研究。我们的结果表明，尽管Martini3和Sirah2在增强蛋白质-水相互作用下的alpha-syn结构相似，但在聚集方面存在重大差异。Martini3原纤维不稳定，且alpha-syn和NACore的结合自由能为正，与Sirah2相反。Sirah2肽以两性离子形式存在时，其末端相互作用过强，导致端到端取向。然而，Sirah2在增强蛋白质-水相互作用和中性末端条件下，提供的肽聚集自由能谱与全原子模型相似。总体而言，我们发现增强蛋白质-水相互作用的Sirah2适用于研究蛋白质-蛋白质和蛋白质-药物聚集。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39046235/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39046235/",
+  "paper_page_path": "papers/pubmed/39046235/index.html"
+}

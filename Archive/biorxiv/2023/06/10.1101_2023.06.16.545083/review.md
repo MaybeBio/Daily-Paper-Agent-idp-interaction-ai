@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific content, methodological soundness, and claims as presented in the provided text; no external data or supplementary materials were available for verification
+- **Shared manuscript claim summary** The authors report that the C-terminal intrinsically disordered region (C-IDR) of the pioneer transcription factor Sox2 engages in dynamic electrostatic interactions with its folded DNA-binding domain (DBD), that DNA and nucleosome binding redistributes the conformational ensemble of the C-IDR without affecting DNA binding affinity, and that this redistribution differentially alters the accessibility of two activation domains (AD1 and AD2), as determined by integrating single-molecule FRET, NMR spectroscopy, and coarse-grained molecular dynamics simulations.
+- **Visible evidence base** Abstract; Introduction; Results sections (Sox2 C-IDR is disordered and dynamic; C-IDR dimensions are shaped by charged interactions with the DBD; DNA and nucleosome binding expands dimensions of C-IDR; Coarse-grained simulation reveals redistributed accessibility of activation domains); Discussion; Methods sections (protein expression, labelling, nucleosome reconstitution, single-molecule spectroscopy, FRET analysis, fluorescence correlation spectroscopy, fluorescence lifetime analysis, denaturant binding, NMR spectroscopy, simulations)
+- **Missing materials affecting confidence** Supplementary figures and tables (referenced as Fig. S1–S11, Tables 1–5) were not provided; specific FRET efficiency values, NMR chemical shift assignments, simulation parameters beyond those described, and raw data are not accessible; no information on replicate numbers for key experiments beyond what is stated
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and technically sophisticated integration of experimental and computational approaches to address a significant gap in transcription factor biology: the conformational behavior of intrinsically disordered activation domains in the context of full-length proteins and their DNA-bound states. The central finding, that DNA binding redistributes the ensemble of the C-IDR and differentially alters the accessibility of two activation domains, is potentially important and mechanistically interesting. The combination of smFRET, NMR, and coarse-grained simulations is well-suited to the question, and the authors are appropriately cautious in interpreting their simulation results as an indirect proxy for accessibility. However, the manuscript as presented has several technical concerns that need to be addressed before the case is fully established, particularly regarding the interpretation of FRET-derived distances, the quantitative treatment of NMR CSP data, and the extent to which the simulation model captures the relevant physics. The writing is generally clear, though some sections could be more accessible to a broad readership.
+- **Who would be interested in the results, and why** Researchers in the fields of transcription factor biology, intrinsically disordered proteins, structural biology, and biophysics would find this work of interest. The study addresses a fundamental question about how DNA binding modulates the conformational ensembles of disordered activation domains, which has implications for understanding transcriptional regulation, pioneer factor function, and the mechanistic basis of IDR-mediated interactions. The methodological integration of smFRET, NMR, and simulations also provides a template for studying similar systems. The findings may also be relevant to those studying post-translational modifications and their effects on transcription factor conformations.
+- **Major strengths** The study addresses a significant and timely question in transcription factor biology. The combination of multiple orthogonal techniques (smFRET, NMR, CD, simulations) provides complementary views of the system. The use of full-length Sox2 rather than isolated domains is a notable strength. The finding that DNA binding does not affect binding affinity despite large conformational changes is interesting and non-obvious. The simulation approach, with back-calculation of FRET efficiencies and validation against experimental data, is rigorous. The identification of differential AD1/AD2 accessibility upon DNA binding is a novel and potentially functional insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of FRET analysis
+  - **Claim pointer** The authors claim that the C-IDR expands from a compact state (R_RMS = 7.5 nm) to a more extended state (R_RMS = 9.2 nm) upon DNA binding, based on changes in mean FRET efficiency from 0.43 to 0.28.
+  - **Evidence pointer** Results section "DNA and nucleosome binding expands dimensions of C-IDR"; Figure 3c; Methods "Analysis of transfer efficiency histograms"
+  - **Concern** The conversion of mean FRET efficiency to R_RMS relies on the SAW-ν model, which assumes a specific form of the distance distribution. The authors do not provide a rigorous justification for this model choice for this specific system, nor do they discuss potential systematic errors in the conversion, such as the effect of dye linker dynamics, local dye environments, or the possibility of multiple coexisting conformational states. The reported change in R_RMS of 1.7 nm (from 7.5 to 9.2 nm) is substantial and the interpretation hinges on the accuracy of this conversion. Additionally, the authors do not report uncertainties on the derived R_RMS values, making it difficult to assess whether the observed change is statistically significant.
+  - **Why it matters** The central claim of the paper, that DNA binding redistributes the C-IDR ensemble, rests on the quantitative interpretation of FRET data. If the model-based conversion is flawed or the uncertainties are large, the conclusion may not be robust.
+  - **Resolution test** The authors should provide a more detailed validation of the SAW-ν model for this system, including a discussion of alternative models (e.g., Gaussian chain, worm-like chain) and a sensitivity analysis. They should also report uncertainties on the derived R_RMS values, ideally from bootstrapping or propagation of errors from the FRET efficiency fits. If possible, an independent validation of the distance change using an alternative method (e.g., pulsed EPR or small-angle X-ray scattering) would strengthen the claim.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretation of NMR CSP data
+  - **Claim pointer** The authors state that "the regions with the largest chemical shift perturbations (CSPs) overlapped with regions of the highest charge density, in the vicinity of the ADs" and use this to support the existence of interdomain interactions between the C-IDR and DBD.
+  - **Evidence pointer** Results section "C-IDR dimensions are shaped by charged interactions with the DBD"; Figure 2i; Methods "NMR spectroscopy"
+  - **Concern** The CSP analysis is presented qualitatively. The authors do not report the magnitude of CSPs, the threshold used to define "significant" perturbations, or how they distinguished specific interdomain interactions from non-specific effects (e.g., changes in ionic strength, pH, or local concentration). The statement that CSPs "overlap with regions of the highest charge density" is not quantified, and it is unclear whether this overlap is statistically significant or expected by chance given the sequence composition. Furthermore, the CSPs are measured by comparing full-length Sox2 to isolated domains, which may introduce artifacts due to differences in effective concentration, rotational correlation time, or sample conditions.
+  - **Why it matters** The NMR CSP data are used as evidence for the physical basis of the interdomain interactions that are central to the paper's model. If the interpretation is not rigorous, the mechanistic conclusion is weakened.
+  - **Resolution test** The authors should provide a quantitative CSP analysis, including a plot of CSP versus residue number with a clearly defined significance threshold. They should also discuss potential artifacts of comparing full-length and isolated domain constructs and, if possible, validate the interdomain interaction using a complementary approach (e.g., paramagnetic relaxation enhancement or cross-saturation experiments).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation model validation
+  - **Claim pointer** The authors claim that their coarse-grained simulation, with a single tuned parameter ε_pp, reproduces the experimentally measured FRET efficiencies for both free and DNA-bound Sox2, and that the resulting ensembles reveal differential AD1/AD2 accessibility.
+  - **Evidence pointer** Results section "Coarse-grained simulation reveals redistributed accessibility of activation domains"; Figure 4c–f; Methods "Simulations"
+  - **Concern** The simulation model is highly simplified, with each residue represented by a single bead and interactions between disordered regions described by a Lennard-Jones potential with a single tuned parameter. While the authors report good agreement with FRET efficiencies (concordance correlation coefficients of 0.94 and 0.96), it is unclear how sensitive this agreement is to the choice of ε_pp and whether the model is sufficiently detailed to capture the specific electrostatic interactions that the authors propose are important. The claim that the model reveals "differential accessibility" of AD1 and AD2 is based on contact lifetimes, but the definition of "accessibility" is indirect and not experimentally validated. The authors acknowledge this limitation in the Discussion, but the strength of the claim in the Results is not commensurate with the indirect nature of the proxy.
+  - **Why it matters** The simulation provides the structural interpretation of the experimental data and is used to make claims about AD accessibility that are not directly measurable. If the model is not adequately validated or the proxy for accessibility is not robust, the functional implications drawn from the simulations are speculative.
+  - **Resolution test** The authors should provide a more thorough validation of the simulation model, including a systematic exploration of the parameter space and a demonstration that the agreement with FRET data is not fortuitous. They should also consider testing the model's predictions against additional experimental observables (e.g., NMR chemical shifts or relaxation data) if available. The claim about AD accessibility should be tempered or supported by additional analysis (e.g., solvent-accessible surface area calculations or explicit binding simulations with coactivator peptides).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the findings
+  - **Claim pointer** The authors state in the Discussion that "these types of interdomain interactions may be very common among TFs" and that "this type of ensemble redistribution with expansion excursions on DNA may also be linked to condensate formation."
+  - **Evidence pointer** Discussion section
+  - **Concern** The generalizability claims are based on sequence analysis and AlphaFold predictions, but no direct experimental evidence is provided for other transcription factors. The authors do note that "further studies will reveal" whether these findings are general, but the framing in the Discussion goes beyond what is directly supported by the data. The claim about condensate formation is particularly speculative, as no experiments related to phase separation or condensate formation are presented.
+  - **Why it matters** The broader significance of the work depends on whether the findings are generalizable. Overstating the implications without direct evidence could mislead readers and overstate the impact.
+  - **Resolution test** The authors should either provide additional experimental or computational evidence supporting the generalizability claims (e.g., analysis of other TFs using the same approach) or temper the language in the Discussion to more clearly distinguish between what is directly demonstrated and what is speculative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure references
+  - **Affected element** Results section "Sox2 C-IDR is disordered and dynamic"
+  - **Evidence pointer** Figure 1a,b,f,g
+  - **Issue** The text refers to "Figure 1a" for domain architecture and predictions, but the specific predictions (e.g., secondary structure propensity) are not clearly described in the text. The CD data in Figure 1b are mentioned but not quantitatively described.
+  - **Required correction** Please provide a more explicit description of what is shown in each panel of Figure 1, including the specific predictions used and the quantitative features of the CD spectra.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Results sections reporting FRET efficiencies and binding affinities
+  - **Evidence pointer** Figures 2a, 3b, 3c; Supplementary Tables 2 and 4
+  - **Issue** The text reports mean FRET efficiencies and dissociation constants with uncertainties (e.g., 0.48±0.01 vs. 0.55±0.01), but the number of independent measurements and the statistical test used to assess significance are not stated.
+  - **Required correction** Please report the number of replicates, the type of error (e.g., standard deviation, standard error), and the statistical test used to compare conditions.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methods detail for nucleosome experiments
+  - **Affected element** Results section "DNA and nucleosome binding expands dimensions of C-IDR"
+  - **Evidence pointer** Methods "Nucleosome reconstitution"
+  - **Issue** The methods describe nucleosome reconstitution but do not specify how nucleosome binding was verified or how the concentration of nucleosomes was determined. The text states that nucleosome binding induces similar changes to DNA binding, but the experimental details for this comparison are not fully described.
+  - **Required correction** Please provide additional details on nucleosome quality control, concentration determination, and the specific conditions used for the nucleosome binding experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility of simulation data
+  - **Affected element** Methods "Simulations"
+  - **Evidence pointer** Methods section
+  - **Issue** The simulation methods are described, but it is not stated whether the simulation trajectories or analysis scripts are available in a public repository.
+  - **Required correction** Please state whether the simulation data and analysis code are available and, if so, where they can be accessed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Throughout
+  - **Evidence pointer** Abstract, Results, Discussion
+  - **Issue** The terms "activation domain" and "AD" are used, but the specific residues corresponding to AD1 and AD2 are not defined in the text. The reader is left to infer the boundaries from Figure 1a.
+  - **Required correction** Please explicitly define the residue ranges for AD1 and AD2 in the text.
+
+## Risk / unsupported claims
+- The claim that DNA binding leads to "variable exposure of two activation domains critical for transcription" is based on simulation-derived contact lifetimes, which are an indirect proxy for accessibility. This is acknowledged in the Discussion but the strength of the claim in the Results is not fully supported by direct experimental evidence.
+- The statement that "charged intramolecular interactions allowing for dynamic redistributions may be common in transcription factors" is presented as a general conclusion but is only directly demonstrated for Sox2. The supporting evidence from sequence analysis and AlphaFold predictions is not presented in detail.
+- The claim that nucleosome binding induces "similar, albeit not identical, conformational rearrangements" to DNA binding is based on a single FRET measurement and lacks the detailed characterization provided for the DNA-bound state.
+- The quantitative relationship between the observed FRET changes and the proposed "expansion" of the C-IDR relies on the SAW-ν model, and the authors do not provide a rigorous validation of this model for this specific system.
+- The statement that "the regions with the largest chemical shift perturbations (CSPs) overlapped with regions of the highest charge density" is not quantitatively supported, as no statistical analysis of the overlap is provided.
+- The claim that the C-IDR is "exquisitely sensitive" to salt in the physiological range is based on FRET measurements, but the biological relevance of this sensitivity is not experimentally demonstrated.
+- The generalizability of the findings to other Sox family members and other transcription factors is speculative and not directly tested.

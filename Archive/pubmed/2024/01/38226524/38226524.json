@@ -1,0 +1,262 @@
+{
+  "identity": {
+    "pmid": "38226524",
+    "doi": "10.1002/prot.26652",
+    "title": "Random, de novo, and conserved proteins: How structure and disorder predictors perform differently."
+  },
+  "content": {
+    "abstract": "Understanding the emergence and structural characteristics of de novo and random proteins is crucial for unraveling protein evolution and designing novel enzymes. However, experimental determination of their structures remains challenging. Recent advancements in protein structure prediction, particularly with AlphaFold2 (AF2), have expanded our knowledge of protein structures, but their applicability to de novo and random proteins is unclear. In this study, we investigate the structural predictions and confidence scores of AF2 and protein language model-based predictor ESMFold for de novo and conserved proteins from Drosophila and a dataset of comparable random proteins. We find that the structural predictions for de novo and random proteins differ significantly from conserved proteins. Interestingly, a positive correlation between disorder and confidence scores (pLDDT) is observed for de novo and random proteins, in contrast to the negative correlation observed for conserved proteins. Furthermore, the performance of structure predictors for de novo and random proteins is hampered by the lack of sequence identity. We also observe fluctuating median predicted disorder among different sequence length quartiles for random proteins, suggesting an influence of sequence length on disorder predictions. In conclusion, while structure predictors provide initial insights into the structural composition of de novo and random proteins, their accuracy and applicability to such proteins remain limited. Experimental determination of their structures is necessary for a comprehensive understanding. The positive correlation between disorder and pLDDT could imply a potential for conditional folding and transient binding interactions of de novo and random proteins.",
+    "keywords": [
+      "AlphaFold",
+      "ESMFold",
+      "de novo proteins",
+      "disorder",
+      "pLDDT",
+      "protein structure",
+      "random sequences",
+      "structure predictions"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Protein Folding",
+      "Conserved Sequence",
+      "Drosophila Proteins/chemistry/metabolism",
+      "Databases, Protein",
+      "Models, Molecular",
+      "Computational Biology/methods",
+      "Proteins/chemistry/metabolism",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Conformation",
+      "Amino Acid Sequence",
+      "Algorithms",
+      "Drosophila/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Middendorf, Lasse",
+        "Eicholt, Lars A"
+      ],
+      "short_names": [
+        "Middendorf L",
+        "Eicholt LA"
+      ],
+      "auids": [
+        "ORCID: 0009-0008-0709-4990",
+        "ORCID: 0000-0002-3985-3698"
+      ],
+      "affiliations": [
+        "Institute for Evolution and Biodiversity, University of Muenster, Muenster, Germany.",
+        "Institute for Evolution and Biodiversity, University of Muenster, Muenster, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Middendorf, Lasse",
+        "short_name": "Middendorf L",
+        "identifiers": [
+          "0009-0008-0709-4990"
+        ],
+        "affiliations": [
+          "Institute for Evolution and Biodiversity, University of Muenster, Muenster, Germany."
+        ]
+      },
+      {
+        "full_name": "Eicholt, Lars A",
+        "short_name": "Eicholt LA",
+        "identifiers": [
+          "0000-0002-3985-3698"
+        ],
+        "affiliations": [
+          "Institute for Evolution and Biodiversity, University of Muenster, Muenster, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proteins"
+    ],
+    "journal_abbrev": [
+      "Proteins"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/16 06:42",
+    "fetched_at": "2026-09-21 04:18:56"
+  },
+  "links": {
+    "cites": [
+      "42098939",
+      "41676321",
+      "41527363",
+      "41126639",
+      "41082583",
+      "40824055",
+      "40584895",
+      "39978337",
+      "39697677",
+      "39663928",
+      "39212966",
+      "38903115",
+      "38879874",
+      "38753069",
+      "38597156",
+      "38498284",
+      "38280868"
+    ],
+    "refs": [],
+    "similar": [
+      "38226524",
+      "37113259",
+      "39212966",
+      "18831774",
+      "40131945",
+      "41556605",
+      "37165539",
+      "41201924",
+      "38079339",
+      "25736992",
+      "41454828",
+      "38124369",
+      "28365882",
+      "40251890",
+      "41570036",
+      "38761500",
+      "39510344",
+      "41047732",
+      "24637808",
+      "41534519",
+      "40937679",
+      "26801222",
+      "12215415",
+      "25534081",
+      "22101336",
+      "28369666",
+      "32901090",
+      "41444215",
+      "31616935",
+      "40074747",
+      "41874397",
+      "15609306",
+      "33875885",
+      "37321965",
+      "36291675",
+      "41030071",
+      "8229093",
+      "41022992",
+      "30135358",
+      "20081223",
+      "30458007",
+      "35739160",
+      "37024625",
+      "34418423",
+      "17193317",
+      "12910457",
+      "32112804",
+      "41174312",
+      "31299122",
+      "39246251",
+      "32034199",
+      "37425675",
+      "23912807",
+      "42089695",
+      "25901595",
+      "41241904",
+      "41005302",
+      "31479556",
+      "27115638",
+      "37892124",
+      "23466039",
+      "40595555",
+      "26790343",
+      "17206849",
+      "39840793",
+      "11588250",
+      "33291838",
+      "14506847",
+      "38597156",
+      "39625988",
+      "35562983",
+      "14579334",
+      "38753069",
+      "38166858",
+      "20684774",
+      "39970826",
+      "39936575",
+      "20003388",
+      "28589442",
+      "40962101",
+      "18511466",
+      "28952717",
+      "38739602",
+      "19640978",
+      "41326402",
+      "38213902",
+      "34265844",
+      "21874190",
+      "39158131",
+      "39952928",
+      "29990433",
+      "21647374",
+      "38398585",
+      "26090958",
+      "41652158",
+      "41608648",
+      "12833546",
+      "17391014",
+      "38864690",
+      "41379425"
+    ],
+    "review": [
+      "38226524",
+      "38124369",
+      "38761500",
+      "31616935",
+      "8229093",
+      "41022992",
+      "34418423",
+      "32034199",
+      "23466039",
+      "33291838",
+      "39970826",
+      "39936575",
+      "28589442",
+      "40962101",
+      "21874190",
+      "38398585"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=38226524",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/prot.26652",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

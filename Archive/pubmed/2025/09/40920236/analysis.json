@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40920236",
+  "title": "Distribution and Relative Size of Protein Binding Domains Cooperatively Influence Phase Separation of Protein-RNA Mixtures.",
+  "authors": "Ji, Xubiao; Jiang, Huijun; Hou, Zhonghuai",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-09-08",
+  "window": {
+    "start": "2025-09-08",
+    "end": "2025-09-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用patchy-particle聚合物模型系统模拟蛋白结合域空间分布与尺寸对蛋白-RNA相分离的协同影响，聚焦多价PPI介导的LLPS机制，虽非AI/深度学习但物理模拟方法扎实，对象与互作机制高度契合。",
+  "abstract": "Multivalent protein-protein interactions play essential roles in mediating liquid-liquid phase separation (LLPS) that drives biomolecular condensate formation. Here, we systematically investigate how the spatial distribution and relative size of protein binding domains (PBDs) would influence LLPS in a mixture of spherical proteins and RNA single strands by using a patchy-particle polymer model, wherein each protein contains a fixed number of PBDs on the surface distributed closely or sparsely. Intriguingly, we find that LLPS behavior exhibits a nontrivial dependence on the cooperative interplay between PBD distribution and protein size: while sparsely distributed PBDs are more favorable to LLPS for small proteins, closely packed PBDs facilitate LLPS for larger counterparts. In the former case, large multilayer protein clusters can be formed around the RNA strand connected by sparsely distributed PBDs, while in the latter case, mainly bilayer dense clusters are favored by closely packed PBDs. Furthermore, we have performed extensive simulations to demonstrate that such observations depend on temperature and interaction strength. Our study, therefore, may shed some new light on the understanding of protein-RNA LLPS.",
+  "abstract_zh": "多价蛋白质-蛋白质相互作用在介导液-液相分离（liquid-liquid phase separation, LLPS）中发挥关键作用，该过程驱动生物分子凝聚体的形成。在此，我们通过使用斑块-颗粒聚合物模型，系统研究了蛋白质结合域（protein binding domains, PBDs）的空间分布和相对大小如何影响球形蛋白质与RNA单链混合物中的LLPS，其中每个蛋白质表面含有固定数量的PBDs，这些PBDs分布紧密或稀疏。有趣的是，我们发现LLPS行为对PBD分布与蛋白质大小之间的协同相互作用表现出非平凡依赖性：对于小蛋白质，稀疏分布的PBDs更有利于LLPS，而对于较大蛋白质，紧密排列的PBDs则促进LLPS。在前一种情况下，围绕RNA链可形成由稀疏分布PBDs连接的大型多层蛋白质簇，而在后一种情况下，紧密排列的PBDs主要有利于双层致密簇的形成。此外，我们进行了广泛模拟，以证明这些观察结果依赖于温度和相互作用强度。因此，我们的研究可能为理解蛋白质-RNA LLPS提供新的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40920236/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40920236/",
+  "paper_page_path": "papers/pubmed/40920236/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35228528",
+  "title": "Generation of functional oligopeptides that promote osteogenesis based on unsupervised deep learning of protein IDRs.",
+  "authors": "Cai, Mingxiang; Xiao, Baichuan; Jin, Fujun; Xu, Xiaopeng; Hua, Yuwei; Li, Junhui; Niu, Pingping; Liu, Meijing; Wu, Jiaqi; Yue, Rui; Zhang, Yong; Wang, Zuolin; Zhang, Yongbiao; Wang, Xiaogang; Sun, Yao",
+  "journal": "Bone research",
+  "published_date": "2022-03-02",
+  "window": {
+    "start": "2022-02-28",
+    "end": "2022-03-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用无监督深度学习从成骨蛋白IDR中生成促骨生成寡肽，并验证其通过结合整合素α5激活FAK信号，虽涉及IDR和AI生成，但核心是肽药物发现而非IDR介导的PPI机制建模，互作机制深度有限。",
+  "abstract": "Deep learning (DL) is currently revolutionizing peptide drug development due to both computational advances and the substantial recent expansion of digitized biological data. However, progress in oligopeptide drug development has been limited, likely due to the lack of suitable datasets and difficulty in identifying informative features to use as inputs for DL models. Here, we utilized an unsupervised deep learning model to learn a semantic pattern based on the intrinsically disordered regions of ~171 known osteogenic proteins. Subsequently, oligopeptides were generated from this semantic pattern based on Monte Carlo simulation, followed by in vivo functional characterization. A five amino acid oligopeptide (AIB5P) had strong bone-formation-promoting effects, as determined in multiple mouse models (e.g., osteoporosis, fracture, and osseointegration of implants). Mechanistically, we showed that AIB5P promotes osteogenesis by binding to the integrin alpha5 subunit and thereby activating FAK signaling. In summary, we successfully established an oligopeptide discovery strategy based on a DL model and demonstrated its utility from cytological screening to animal experimental verification.",
+  "abstract_zh": "深度学习（DL）正因计算进步及数字化生物数据近期的大幅扩展，而彻底改变肽类药物开发领域。然而，寡肽药物开发的进展一直有限，这很可能归因于缺乏合适的数据集，以及难以识别用作DL模型输入的信息性特征。在此，我们利用一种无监督深度学习模型，基于约171种已知成骨蛋白的内在无序区域学习语义模式。随后，通过蒙特卡洛模拟从该语义模式生成寡肽，并进行体内功能表征。一个五氨基酸寡肽（AIB5P）在多种小鼠模型（如骨质疏松、骨折及植入物骨整合）中展现出强效的促骨形成作用。机制上，我们证明AIB5P通过结合整合素α5亚基，从而激活FAK信号通路来促进成骨。总之，我们成功建立了一种基于DL模型的寡肽发现策略，并展示了其从细胞学筛选到动物实验验证的实用性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35228528/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35228528/",
+  "paper_page_path": "papers/pubmed/35228528/index.html"
+}

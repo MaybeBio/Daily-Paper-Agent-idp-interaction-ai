@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38363841",
+  "title": "Determinants of viscoelasticity and flow activation energy in biomolecular condensates.",
+  "authors": "Alshareedah, Ibraheem; Singh, Anurag; Yang, Sean; Ramachandran, Vysakh; Quinn, Alexander; Potoyan, Davit A; Banerjee, Priya R",
+  "journal": "Science advances",
+  "published_date": "2024-02-16",
+  "window": {
+    "start": "2024-02-12",
+    "end": "2024-02-18"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合微流变学与分子模拟，系统解析了生物分子凝聚体中粘弹性与流动活化能的物理决定因素，聚焦无序蛋白介导的多价互作（sticker motifs、结合能、链长）对网络弛豫与扩散的机制建模，虽未直接涉及AI，但物理模拟深入揭示了IDR互作机制，高度契合本课题。",
+  "abstract": "The form and function of biomolecular condensates are intimately linked to their material properties. Here, we integrate microrheology with molecular simulations to dissect the physical determinants of condensate fluid phase dynamics. By quantifying the timescales and energetics of network relaxation in a series of heterotypic viscoelastic condensates, we uncover distinctive roles of sticker motifs, binding energy, and chain length in dictating condensate dynamical properties. We find that the mechanical relaxation times of condensate-spanning networks are determined by both intermolecular interactions and chain length. We demonstrate, however, that the energy barrier for network reconfiguration, termed flow activation energy, is independent of chain length and only varies with the strengths of intermolecular interactions. Biomolecular diffusion in the dense phase depends on a complex interplay between viscoelasticity and flow activation energy. Our results illuminate distinctive roles of chain length and sequence-specific multivalent interactions underlying the complex material and transport properties of biomolecular condensates.",
+  "abstract_zh": "生物分子凝聚体的形态与功能与其材料性质密切相关。在此，我们将微流变学与分子模拟相结合，以解析凝聚体液相动力学的物理决定因素。通过量化一系列异型粘弹性凝聚体中网络松弛的时间尺度和能量学，我们揭示了粘附基序、结合能和链长在决定凝聚体动力学性质中的独特作用。我们发现，跨越凝聚体的网络的机械松弛时间由分子间相互作用和链长共同决定。然而，我们证明，网络重构的能量障碍，即流动活化能，与链长无关，仅随分子间相互作用的强度变化。稠密相中的生物分子扩散依赖于粘弹性与流动活化能之间的复杂相互作用。我们的结果阐明了链长和序列特异性多价相互作用在生物分子凝聚体复杂材料及传输性质中的独特作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38363841/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38363841/",
+  "paper_page_path": "papers/pubmed/38363841/index.html"
+}

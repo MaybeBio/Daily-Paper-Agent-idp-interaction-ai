@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2112.03623v1",
+  "title": "A silicon qubit platform for in situ single molecule structure determination",
+  "authors": "Viktor S. Perunicic; Muhammad Usman; Charles D. Hill; Lloyd C. L. Hollenberg",
+  "journal": "",
+  "published_date": "2021-12-07",
+  "window": {
+    "start": "2021-12-06",
+    "end": "2021-12-12"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出基于硅自旋量子比特的单分子成像平台，通过模拟实现原位原子级结构测定，特别针对无序蛋白等异质体系，虽非直接研究PPI机制，但其单分子结构解析方法对IDP构象与互作研究具启发价值。",
+  "abstract": "Imaging individual conformational instances of generic, inhomogeneous, transient or intrinsically disordered protein systems at the single molecule level in situ is one of the notable challenges in structural biology. Present techniques access averaged structural information by measuring over large ensembles of proteins in nearly uniform conformational states in synthetic environments. This poses significant implications for diagnostics and drug design which require a detailed understanding of subtle conformational changes, small molecule interactions and ligand dynamics. Here we tackle the problem by designing a single molecule imaging platform technology embracing the advantages silicon-based spin qubits offer in terms of quantum coherence and established fabrication pathways. We demonstrate through detailed simulation, that this platform enables scalable atomic-level structure-determination of individual molecular systems in native environments. The approach is particularly well suited to the high-value lipid-membrane context, and as such its experimental implementation could have far-reaching consequences for the understanding of membrane biology and drug development.",
+  "abstract_zh": "在单分子水平上原位成像一般性、非均质、瞬态或 intrinsically disordered 蛋白质系统的单个构象实例，是结构生物学中的显著挑战之一。现有技术通过在合成环境中测量近乎均匀构象状态的大蛋白质集合体，获取平均结构信息。这对诊断和药物设计具有重要意义，因为这些领域需要细致理解细微构象变化、小分子相互作用及配体动力学。在此，我们通过设计一种单分子成像平台技术来解决这一问题，该技术利用了硅基自旋量子比特在量子相干性和成熟制造路径方面的优势。我们通过详细模拟证明，该平台能够在天然环境中实现单个分子系统的可扩展原子级结构测定。该方法特别适用于高价值脂质膜环境，因此其实验实施可能对膜生物学理解和药物开发产生深远影响。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2112.03623v1",
+  "source_url": "https://arxiv.org/abs/2112.03623v1",
+  "paper_page_path": "papers/arxiv/2112.03623v1/index.html"
+}

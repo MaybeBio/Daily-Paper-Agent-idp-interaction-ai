@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use all-atom molecular dynamics simulations and well-tempered metadynamics to study dimer formation of model charged peptides with alternating charged and noncharged residues. They report that hydrophobicity, arginine-arginine interactions, and water release from solvation shells favor dimerization for positively charged peptides with lower flexibility, while water plays a crucial role for negatively charged peptides. Unbiased simulations of phenylalanine-containing peptides show temperature-dependent hydrophobic and cation-pi interactions driving aggregation only for positively charged systems. The authors conclude that negatively charged peptides remain in the dilute phase under various conditions and suggest utility for designing LLPS-controlling systems for therapeutic purposes.
+- **Visible evidence base** Abstract text only; no simulation details, free-energy surfaces, convergence metrics, force-field parameters, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation protocols, force-field validation, convergence assessments, error bars, sequence details, salt concentration specifics, and temperature values
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a relevant question in LLPS, namely how interaction types and external conditions modulate dimerization of charged peptides. The central claim that positively charged peptides favor dimerization under high salt while negatively charged peptides remain dispersed is interesting but currently rests on limited evidence. The abstract lacks quantitative results, methodological details, and statistical validation, making the case suggestive rather than established. The work may appeal to a specialized biophysics audience, but its broader significance for LLPS modulation is not yet demonstrated from the provided material.
+- **Who would be interested in the results, and why** Researchers in computational biophysics, protein chemistry, and LLPS biology would be interested because the study addresses molecular determinants of condensate formation, specifically the role of charge, hydrophobicity, and cation-pi interactions. Those designing peptide-based therapeutics or biomaterials could also find the conclusions relevant for controlling phase behavior.
+- **Major strengths** The study targets a mechanistically important question, namely how specific residue-level interactions govern LLPS propensity. The use of model peptides with systematic variation of hydrophobicity and charge is a reasonable reductionist approach. The combination of metadynamics for free-energy surfaces and unbiased simulations for aggregation behavior is methodologically appropriate for the stated goals.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that a combination of hydrophobicity, arginine-arginine interactions, or water release makes dimerization free energy more favorable for positively charged peptides with lower flexibility.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract provides no quantitative free-energy values, no comparison of magnitudes across peptide variants, and no statistical measures such as error bars or confidence intervals. The claim of relative favorability is therefore not supported by visible data.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess whether the reported differences are significant or within simulation noise. The central conclusion depends on these comparisons.
+  - **Resolution test** Provide free-energy differences with uncertainties for each peptide system, and show that the differences between positively and negatively charged peptides exceed the estimated error.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that simulations were performed under high salt concentration at two different temperatures using all-atom molecular dynamics and well-tempered metadynamics.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not specify the salt type or concentration, the exact temperatures, the force field, the water model, the simulation length, or the metadynamics parameters such as collective variables and bias factors. These details are essential for reproducibility and for judging whether the conditions are physiologically relevant.
+  - **Why it matters** LLPS behavior is highly sensitive to salt identity and concentration, temperature, and simulation setup. Without these details, the results cannot be reproduced or compared with other studies.
+  - **Resolution test** Include full simulation protocols in the main text or supplementary materials, and state the salt concentration and temperature values explicitly.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors claim that for negatively charged peptides, water plays a crucial role in governing the free-energy surface.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract does not describe what specific role water plays, how this was determined, or what evidence supports this claim. No metrics such as water residence times, solvation free energies, or coordination numbers are mentioned.
+  - **Why it matters** The claim is a key mechanistic finding, but without a defined observable or analysis, it remains an assertion rather than a demonstrated result.
+  - **Resolution test** Define the water-related observable used, present the corresponding data, and show how it correlates with the free-energy surface for negatively charged peptides.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability
+  - **Claim pointer** The authors conclude that negatively charged peptides are more likely to remain in the dilute phase under various conditions compared to positively charged systems.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The study examines a limited set of model peptides with alternating charged and noncharged residues. The abstract does not specify how many sequences were tested, nor does it address whether the conclusion extends beyond these specific sequences to other charge patterns, lengths, or residue types.
+  - **Why it matters** The conclusion is framed as a general trend, but the evidence base appears narrow. Overgeneralization could mislead design efforts for LLPS control.
+  - **Resolution test** Clarify the sequence space explored and discuss the range of conditions under which the conclusion holds, or temper the claim to the specific systems studied.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "model-charged peptides" in the title is vague. It is unclear whether this refers to peptides with alternating charges, a specific sequence design, or a general class.
+  - **Required correction** Define the term in the abstract or title, for example by specifying the alternating charge pattern.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Simulation conditions
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "high salt concentration" but does not state the salt type. Different salts can have distinct effects on LLPS.
+  - **Required correction** Specify the salt identity and concentration in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretability
+  - **Affected element** Cation-pi interactions
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that cation-pi interactions drive aggregation for positively charged peptides with phenylalanine, but it does not clarify which residues act as the cation source.
+  - **Required correction** Specify the cation donor, presumably arginine, and describe how the interaction was identified.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Applicability
+  - **Affected element** Therapeutic relevance
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The claim that findings will help design systems for therapeutic usage is not supported by any discussion of how the results translate to biological contexts or disease models.
+  - **Required correction** Add a brief statement on the limitations of model peptides and the steps needed to connect to therapeutic applications.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of quantitative free-energy data, simulation details, water-related analysis, and sequence scope prevents the core claims from being evaluated.
+- **Assessment against Nature-style criteria** Originality is moderate, as the study applies known simulation methods to a specific peptide design, but the mechanistic focus on charge asymmetry is a useful angle. Scientific importance is limited at this stage because the conclusions are not quantitatively established and the connection to real LLPS systems is not demonstrated. Interdisciplinary readership is possible, but the abstract is written for a specialized computational chemistry audience. Technical soundness cannot be fully assessed from the abstract alone, but the lack of methodological detail and statistical validation is a concern. Readability for nonspecialists is acceptable, though some terms such as "well-tempered metadynamics" and "free-energy surface" are used without explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The study has potential, but the abstract alone does not provide sufficient quantitative or methodological support for the central claims. A revised version with full data and protocols could be reconsidered.
+
+## Risk / unsupported claims
+- The claim that hydrophobicity, arginine-arginine interactions, or water release makes dimerization more favorable for positively charged peptides is unsupported because no quantitative free-energy data are provided.
+- The claim that water plays a crucial role for negatively charged peptides is unsupported because no water-related observable is defined or reported.
+- The claim that negatively charged peptides remain in the dilute phase under various conditions is unsupported because the range of conditions and sequences tested is not specified.
+- The claim that findings will be helpful for therapeutic design is unsupported by any translational evidence or discussion.

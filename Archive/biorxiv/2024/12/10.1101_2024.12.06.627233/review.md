@@ -1,0 +1,91 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, figure legends not fully provided)
+- **Assessment boundary** Scientific content, methodological soundness, claims vs. evidence, and presentation quality as presented in the provided text
+- **Shared manuscript claim summary** The authors use all-atom MD simulations to characterize the disordered interaction interface between TRIM5α PRYSPRY domains (rhesus, human, human R332P) and the HIV capsid, proposing that electrostatic repulsion between positively charged V1 loop residues (notably R332) and capsid residue R82 underlies weak HIV restriction by human TRIM5α, and that the R332P mutation improves restriction by removing this repulsion and stabilizing a turn conformation.
+- **Visible evidence base** Simulation trajectories (200+ µs total), NMR and crystal structures as templates, AlphaFold predictions, published NMR chemical shift and NOE data, published mutational data, and new experimental infection assays with capsid R82 mutants
+- **Missing materials affecting confidence** Figure panels referenced but not fully visible (Figures 2–6, S1–S15), simulation convergence metrics, force field validation details, full methods for clustering and contact analysis, statistical details for experimental replicates, and complete figure legends
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant and timely question in retrovirology and innate immunity: the structural basis for species-specific restriction of HIV by TRIM5α. The authors combine extensive MD simulations with targeted experimental validation to propose a mechanistic model involving electrostatic repulsion at the disordered V1 loop–capsid interface. The work is ambitious and the integration of simulation with experiment is commendable. However, several technical and interpretive concerns must be addressed before the central claims can be considered fully established. The reliance on a single simulation-derived complex model, limited sampling of a large and highly dynamic system, and the indirect nature of some experimental validations leave room for alternative interpretations.
+- **Who would be interested in the results, and why** Virologists studying HIV restriction and capsid-host interactions; structural biologists interested in fuzzy complexes and intrinsically disordered regions; computational biologists developing methods for simulating large, dynamic macromolecular assemblies; and researchers exploring TRIM5α-based gene therapy approaches for HIV.
+- **Major strengths** 1) The study addresses a previously intractable problem, the disordered TRIM5α–capsid interface, using state-of-the-art all-atom MD with substantial sampling. 2) The integration of simulation with new experimental infection data provides a direct test of the electrostatic repulsion hypothesis. 3) The identification of a specific, testable mechanism (R82–R332 repulsion) is a valuable contribution that can guide future mutagenesis and structural studies. 4) The authors are appropriately cautious about the limitations of their sampling and the probabilistic nature of their conclusions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of the complex model
+  - **Claim pointer** The authors claim to provide "a first view of the atomistic details of the HIV capsid-TRIM5α binding interface" based on simulations of a complex built from a coarse-grained model.
+  - **Evidence pointer** Methods section "Protein Model Construction", Figure 4
+  - **Concern** The initial complex structure is derived from a single arbitrary coarse-grained configuration from Yu et al., and only one of four tested PRYSPRY conformations avoided steric clashes. This introduces significant uncertainty about whether the simulated interface represents the physiologically relevant binding mode. The authors do not demonstrate that the chosen starting configuration is robust to alternative docking poses or that the interface converges to a similar ensemble from different starting points.
+  - **Why it matters** The central mechanistic claims, including the specific R82–R332 interaction, depend entirely on the validity of this single complex model. If the true binding mode differs, the proposed electrostatic mechanism may be incorrect or incomplete.
+  - **Resolution test** The authors should perform additional simulations starting from multiple distinct docking poses or use enhanced sampling methods to explore alternative binding orientations. They should also compare the predicted interface contacts with any available experimental data (e.g., cross-linking, mutagenesis) to validate the model.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Sampling convergence and statistical robustness
+  - **Claim pointer** The authors report differences in conformational ensembles (e.g., turn propensity, Rg distributions) between TRIM5α variants and conclude that the R332P mutation stabilizes a turn conformation.
+  - **Evidence pointer** Results sections "Conformational changes in huTRIM5α due to the R332P mutation", Figures 3, S6, S7
+  - **Concern** The manuscript does not provide convergence metrics (e.g., block averaging, autocorrelation times, or split-half analyses) to demonstrate that the 8 µs trajectories sufficiently sample the conformational space of the highly flexible V1–V3 loops. The reported differences in Rg distributions and turn probabilities are described as "slight" or "minor" with "large uncertainty," yet they are used to support a mechanistic hypothesis. It is unclear whether the observed differences are statistically robust or within the noise of the simulations.
+  - **Why it matters** The conclusion that the R332P mutation induces a specific conformational change (increased turn probability) is a key part of the proposed mechanism. If this difference is not statistically reliable, the mechanistic interpretation is weakened.
+  - **Resolution test** Provide quantitative convergence analysis (e.g., time-dependent block averaging of key observables, comparison of independent trajectory segments). Report effect sizes and confidence intervals for the key differences, and consider whether the observed differences survive stricter statistical thresholds.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental validation scope
+  - **Claim pointer** The authors state that "mutations that neutralized the charge increased wild-type human TRIM5α's ability to restrict HIV, whereas a charge-conserving R82K mutation did not" and use this to support the electrostatic repulsion model.
+  - **Evidence pointer** Results section "Gain-of-function mutation sites of TRIM5α interact with positively charged residues on the HIV capsid", Figure 6
+  - **Concern** The experimental validation is limited to capsid mutations at R82 and tests only the electrostatic hypothesis. The authors do not test the predicted role of the turn conformation (e.g., by mutating residues that would stabilize or destabilize the turn without changing charge). Additionally, the R82K mutant is described as "charge-conserving" but lysine differs from arginine in size and hydrogen-bonding geometry, which could confound the interpretation.
+  - **Why it matters** The manuscript proposes a dual mechanism (electrostatic relief and conformational change), but the experiments only directly test the electrostatic component. The conformational contribution remains speculative and untested.
+  - **Resolution test** Design additional experiments to separate electrostatic and conformational effects, such as testing mutations that alter turn propensity without changing charge, or using capsid mutations at other positions predicted to interact with the V1 loop. Include a more thorough characterization of the R82K mutant's properties.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the model
+  - **Claim pointer** The authors suggest that their model "provides a plausible explanation for the observed differences of rhTRIM5α and huTRIM5α in HIV restriction" and that the mechanism may be general.
+  - **Evidence pointer** Discussion section
+  - **Concern** The simulations focus on the PRYSPRY domain in isolation and a single trimer of hexamers. The authors do not address how avidity effects, higher-order TRIM5α assembly, or the context of the full TRIM5α protein (including the RING and B-box domains) might modulate the interface. The claim of generalizability is therefore not fully supported.
+  - **Why it matters** TRIM5α functions as a multimeric assembly, and avidity is known to be critical for restriction. A model based on a monomeric PRYSPRY domain may miss essential features of the physiological interaction.
+  - **Resolution test** Acknowledge this limitation more explicitly and discuss how the model might be extended to account for avidity and multimerization. If possible, perform simulations or analyses that incorporate multiple PRYSPRY domains or discuss how the observed contacts might be affected by the context of the full protein.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figures 2, 4, 5
+  - **Evidence pointer** Figure legends not fully provided
+  - **Issue** The manuscript references many supplementary figures and panels, but the provided text does not include full figure legends. It is difficult to assess the quality and clarity of the data presentation without seeing the figures and their legends.
+  - **Required correction** Ensure all figures and supplementary figures have complete, self-explanatory legends that clearly describe the data shown, the statistical tests used, and the meaning of all error bars and symbols.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Methods section "Analysis of Simulation Trajectories"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of the clustering analysis (DBSCAN) and the PCA is brief. The choice of features, the number of principal components retained, and the specific DBSCAN parameters (eps, min_samples) are not reported. This limits reproducibility.
+  - **Required correction** Provide full details of the PCA and clustering procedures, including the feature vector construction, the number of components used, and the DBSCAN parameter values. Consider providing a reproducibility script or notebook.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 6 and experimental methods
+  - **Evidence pointer** Results section, Methods section "HIV-1 production and infection"
+  - **Issue** The experimental data are described as coming from "at least three independent experiments," but the statistical analysis (e.g., error bars, significance tests) is not described in the provided text. It is unclear whether the fold-restriction values are reported as mean ± SEM or SD, and whether any statistical tests were applied.
+  - **Required correction** Clearly state the number of independent experiments, the error bar definition, and the statistical tests used in the figure legends and methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The manuscript cites several key studies but does not always clearly distinguish between established findings and the authors' new contributions. For example, the discussion of the R82 position being conserved and the importance of the V1 loop could benefit from more explicit attribution.
+  - **Required correction** Review the text to ensure that all statements are properly attributed to the original sources and that the novel contributions of this work are clearly highlighted.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (complex model validity) and R1-M2 (sampling convergence) are the most critical. Without addressing these, the central claims about the atomistic interface and the conformational effects of the R332P mutation are not fully supported. R1-M3 (experimental validation scope) is also important, as the current experiments do not fully test the proposed dual mechanism.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its attempt to provide an all-atom view of a disordered interaction interface that has been refractory to experimental characterization. The specific mechanistic hypothesis (electrostatic repulsion at R82–R332) is novel and testable.
+  - **Scientific importance** The question of how TRIM5α recognizes the HIV capsid and why human TRIM5α is ineffective is of high importance for understanding innate immunity and for potential therapeutic applications. The proposed mechanism, if validated, would be a significant advance.
+  - **Interdisciplinary readership** The topic bridges virology, structural biology, and computational biophysics, and the findings would be of interest to researchers in all three fields. The writing is generally accessible, though some simulation details may be challenging for non-specialists.
+  - **Technical soundness** The simulation methodology is state-of-the-art, but the concerns about model construction and sampling convergence are significant. The experimental validation is well-designed but limited in scope. Overall, the technical soundness is not yet fully established.
+  - **Readability for nonspecialists** The abstract and introduction are clear and accessible. The results and methods sections are more technical but generally understandable. The significance statement is well-written and effectively communicates the broader relevance.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important problem and presents a plausible and testable mechanism. However, the validity of the complex model and the statistical robustness of the conformational analysis must be demonstrated before the central claims can be accepted. The experimental validation, while supportive, needs to be extended to fully test the proposed mechanism.
+
+## Risk / unsupported claims
+- The claim that the simulations provide "a first view of the atomistic details of the HIV capsid-TRIM5α binding interface" is not fully supported given the reliance on a single, arbitrarily chosen initial complex structure.
+- The conclusion that the R332P mutation stabilizes a turn conformation is based on differences that are described as "slight" or with "large uncertainty," and the statistical robustness is not demonstrated.
+- The statement that the mechanism "can be phenocopied by neutralizing mutations at capsid residue R82" is supported by the experimental data, but the interpretation that this is due solely to electrostatic relief is not fully established, as the R82K control may not be perfectly charge-conserving.
+- The speculation that sequence differences outside the V1 loop (e.g., Y389) contribute to restriction differences is presented without direct experimental or simulation support.

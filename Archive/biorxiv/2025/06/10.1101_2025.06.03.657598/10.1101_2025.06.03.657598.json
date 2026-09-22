@@ -1,0 +1,265 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.03.657598",
+  "title": "Assembly and phospho-regulatory mechanisms of the budding yeast outer kinetochore KMN complex",
+  "doi": "10.1101/2025.06.03.657598",
+  "abstract": "During mitosis and meiosis kinetochores mediate interactions between chromosomes and spindle microtubules. Kinetochores are multi-megadalton protein complexes essential for chromosome segregation in all eukaryotes, however recent structural, functional, and evolutionary studies have revealed divergent mechanisms of kinetochore assembly. In this study, we use cryo-EM to understand the structural mechanisms by which the budding yeast microtubule-binding outer kinetochore KMN complex assembles, and how its interactions with the centromere-binding inner kinetochore are regulated. The ten-subunit KMN complex comprises three subcomplexes: Knl1c, Mis12c Mtw1c and Ndc80c. We show that α-helical motifs in the C-termini of the Mis12c Mtw1c subunits Dsn1, Mis12 Mtw1 and Nnf1 bind Knl1c and Ndc80c. At the opposite end of the Mis12c Mtw1c stalk, an N-terminal auto-inhibitory segment of Dsn1 (Dsn1 AI ) folds into two α-helices that engage the Mis12c Mtw1c head 1 domain, thereby occluding binding sites for the inner kinetochore subunits CENP-C Mif2 and CENP-U Ame1 , reducing their affinity for Mis12c Mtw1 . Our structure reveals how Aurora B Ipl1 phosphorylation of Dsn1 AI would release this auto-inhibition to substantially strengthen pre-existing connections between the inner and outer kinetochore. <h4>Summary</h4> Kinetochore-localised KMN complexes mediate chromosome segregation by attaching chromosomes to spindle microtubules. Cryo-EM, biochemical and genetic experiments reveal conserved underlying mechanisms of complex assembly, auto-inhibition and phospho-regulation that ensure precise control of KMN assembly onto centromeres to enable genome division.",
+  "authors": [
+    "Turner NN",
+    "Zhang Z",
+    "Yang J",
+    "Muir KW",
+    "McLaughlin SH",
+    "Morgan T",
+    "Barford D"
+  ],
+  "published_date": "2025-06-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657598",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.03.657598.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1031809",
+    "raw_record": {
+      "id": "PPR1031809",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1031809"
+        ]
+      },
+      "doi": "10.1101/2025.06.03.657598",
+      "title": "Assembly and phospho-regulatory mechanisms of the budding yeast outer kinetochore KMN complex",
+      "authorString": "Turner NN, Zhang Z, Yang J, Muir KW, McLaughlin SH, Morgan T, Barford D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Turner NN",
+            "lastName": "Turner",
+            "firstName": "Noah",
+            "initials": "NN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0007-4802-9047"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang Z",
+            "lastName": "Zhang",
+            "firstName": "Ziguo",
+            "initials": "Z",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7268-9631"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yang J",
+            "lastName": "Yang",
+            "firstName": "Jing",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0294-5679"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Muir KW",
+            "lastName": "Muir",
+            "firstName": "Kyle",
+            "initials": "KW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9135-6253"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McLaughlin SH",
+            "lastName": "McLaughlin",
+            "firstName": "Stephen",
+            "initials": "SH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morgan T",
+            "lastName": "Morgan",
+            "firstName": "Tomos",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barford D",
+            "lastName": "Barford",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Francis Crick Avenue , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9135-6253"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0294-5679"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7268-9631"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0007-4802-9047"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "During mitosis and meiosis kinetochores mediate interactions between chromosomes and spindle microtubules. Kinetochores are multi-megadalton protein complexes essential for chromosome segregation in all eukaryotes, however recent structural, functional, and evolutionary studies have revealed divergent mechanisms of kinetochore assembly. In this study, we use cryo-EM to understand the structural mechanisms by which the budding yeast microtubule-binding outer kinetochore KMN complex assembles, and how its interactions with the centromere-binding inner kinetochore are regulated. The ten-subunit KMN complex comprises three subcomplexes: Knl1c, Mis12c  Mtw1c and Ndc80c. We show that α-helical motifs in the C-termini of the Mis12c  Mtw1c subunits Dsn1, Mis12  Mtw1 and Nnf1 bind Knl1c and Ndc80c. At the opposite end of the Mis12c  Mtw1c stalk, an N-terminal auto-inhibitory segment of Dsn1 (Dsn1  AI ) folds into two α-helices that engage the Mis12c  Mtw1c head 1 domain, thereby occluding binding sites for the inner kinetochore subunits CENP-C  Mif2 and CENP-U  Ame1 , reducing their affinity for Mis12c  Mtw1 . Our structure reveals how Aurora B  Ipl1 phosphorylation of Dsn1  AI would release this auto-inhibition to substantially strengthen pre-existing connections between the inner and outer kinetochore.  <h4>Summary</h4>  Kinetochore-localised KMN complexes mediate chromosome segregation by attaching chromosomes to spindle microtubules. Cryo-EM, biochemical and genetic experiments reveal conserved underlying mechanisms of complex assembly, auto-inhibition and phospho-regulation that ensure precise control of KMN assembly onto centromeres to enable genome division.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/06/04/2025.06.03.657598.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.06.03.657598"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1031809"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1031809&type=FILE&fileName=EMS206244-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "41956986",
+            "reference": "The Journal of cell biology. \n    2026 May;225(5):e202506015",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS206244",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pxd",
+          "doi",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2025-06-07",
+      "firstPublicationDate": "2025-06-04",
+      "firstIndexDate": "2025-06-07",
+      "fullTextReceivedDate": "2026-02-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

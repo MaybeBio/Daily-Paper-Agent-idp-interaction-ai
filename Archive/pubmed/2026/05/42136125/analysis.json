@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42136125",
+  "title": "RBM45 Preferential Binding to m(6)A: Simulations Suggest Synergy of RRM3 and Other Domains.",
+  "authors": "Park, Raeyeon; Contreras, Lydia M; Tamamis, Phanourios",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2026-05-15",
+  "window": {
+    "start": "2026-05-11",
+    "end": "2026-05-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用MD模拟研究RBM45蛋白RRM3与其它结构域（含无序区域）协同优先结合m6A修饰RNA的机制，虽对象为RNA结合而非蛋白-蛋白互作，但无序区域协同调控结合界面的机制建模思路对本课题有可迁移启发。",
+  "abstract": "RNA-binding motif protein 45 (RBM45) is an RNA-binding protein crucial for brain development and plays a key role in RNA metabolism and disease. Its RNA recognition motif (RRM) domains can recognize GAC-containing motifs, with or without N6-methyladenosine (m(6)A) modification. While its RRM domains individually do not preferentially recognize m(6)A, RBM45 preferentially recognizes m(6)A motifs over unmodified motifs. In this study, we used molecular dynamics (MD) simulations to investigate the binding of a series of RNAs in complex with different RRM domains individually and in complex with RRM3 in the context of the full-length protein. Our study complies with previous experiments and provides in-depth biophysical insights into the binding of unmodified and m(6)A-modified GACG, GACU, and GACA RNA motifs in complex with all RRMs individually. While GACA and GACU bind unfavorably to the individual RRM3 domain, we suggest that they bind favorably to RRM3 in the context of the full-length protein. Importantly, in the context of the entire protein, we present for the first time how RRM3, in combination with additional residues in different RRM domains and linker domains, can synergistically cooperate for m(6)A preferential binding over adenine in the context of GACA and GACU motifs, uncovering the preferential binding of full-length RBM45 for m(6)A observed in previous experiments. The presence of the m(6)A methyl group provides further stability to the RNA, as well as strengthens the particular interactions between RNA and protein, while contributing to additional stabilization of the C-terminal domain with the linker domain between RRM2 and homo-oligomer assembly (HOA). Our simulations highlight the role of various other domains beyond RRMs (i.e., the C-terminal, HOA, and linkers between different RRMs) in the interaction of RBM45 with RNA, particularly m(6)A-modified RNA. Overall, our study elucidated how an RRM class of proteins can preferentially bind m(6)A in the context of its common motif written by methyltransferases. We consider that our study presents the first mechanistic insights into how an RRM domain binds directly and preferentially recognizes m(6)A over adenine in synergy with other domains, which include intrinsically disordered regions.",
+  "abstract_zh": "RNA结合基序蛋白45（RBM45）是一种对大脑发育至关重要的RNA结合蛋白，在RNA代谢和疾病中发挥关键作用。其RNA识别基序（RRM）结构域能够识别含有GAC的基序，无论是否存在N6-甲基腺苷（m(6)A）修饰。虽然其RRM结构域单独并不优先识别m(6)A，但RBM45对m(6)A基序的识别优先于未修饰基序。在本研究中，我们使用分子动力学（MD）模拟来研究一系列RNA与不同RRM结构域单独结合以及与全长蛋白背景下RRM3结合的情况。我们的研究符合先前的实验，并为未修饰和m(6)A修饰的GACG、GACU和GACA RNA基序与所有RRM结构域单独结合提供了深入的生物物理见解。虽然GACA和GACU与单个RRM3结构域的结合不利，但我们提出它们在全长蛋白背景下与RRM3结合是有利的。重要的是，在整个蛋白背景下，我们首次展示了RRM3如何与不同RRM结构域和连接结构域中的额外残基协同作用，在GACA和GACU基序背景下优先于腺嘌呤结合m(6)A，揭示了先前实验中观察到的全长RBM45对m(6)A的优先结合。m(6)A甲基基团的存在为RNA提供了进一步的稳定性，并增强了RNA与蛋白质之间的特定相互作用，同时有助于C端结构域与RRM2和同源寡聚体组装（HOA）之间连接结构域的额外稳定化。我们的模拟强调了除RRM外其他各种结构域（即C端、HOA以及不同RRM之间的连接子）在RBM45与RNA（特别是m(6)A修饰的RNA）相互作用中的作用。总体而言，我们的研究阐明了RRM类蛋白如何在其常见基序背景下优先结合m(6)A，该基序由甲基转移酶写入。我们认为，我们的研究首次提供了机制性见解，说明RRM结构域如何直接结合并优先识别m(6)A而非腺嘌呤，并与其他结构域（包括 intrinsically disordered regions）协同作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42136125/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42136125/",
+  "paper_page_path": "papers/pubmed/42136125/index.html"
+}

@@ -1,0 +1,332 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.29.518451",
+  "title": "Contrastive learning of protein representations with graph neural networks for structural and functional annotations",
+  "doi": "10.1101/2022.11.29.518451",
+  "abstract": "Although protein sequence data is growing at an ever-increasing rate, the protein universe is still sparsely annotated with functional and structural annotations. Computational approaches have become efficient solutions to infer annotations for unlabeled proteins by transferring knowledge from proteins with experimental annotations. Despite the increasing availability of protein structure data and the high coverage of high-quality predicted structures, e.g., by AlphaFold, many existing computational tools still only rely on sequence data to predict structural or functional annotations, including alignment algorithms such as BLAST and several sequence-based deep learning models. Here, we develop PenLight, a general deep learning framework for protein structural and functional annotations. PenLight uses a graph neural network (GNN) to integrate 3D protein structure data and protein language model representations. In addition, PenLight applies a contrastive learning strategy to train the GNN for learning protein representations that reflect similarities beyond sequence identity, such as semantic similarities in the function or structure space. We benchmarked PenLight on a structural classification task and a functional annotation task, where PenLight achieved higher prediction accuracy and coverage than state-of-the-art methods.",
+  "authors": [
+    "Jiaqi Luo",
+    "Yunan Luo"
+  ],
+  "published_date": "2022-12-02",
+  "updated_date": "2022-12-02T18:35:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.29.518451",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.29.518451.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:46:02Z",
+        "timestamp": 1768502762754,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            2
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 27,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            2
+          ]
+        ]
+      },
+      "abstract": "<jats:p>Although protein sequence data is growing at an ever-increasing rate, the protein universe is still sparsely annotated with functional and structural annotations. Computational approaches have become efficient solutions to infer annotations for unlabeled proteins by transferring knowledge from proteins with experimental annotations. Despite the increasing availability of protein structure data and the high coverage of high-quality predicted structures, e.g., by AlphaFold, many existing computational tools still only rely on sequence data to predict structural or functional annotations, including alignment algorithms such as BLAST and several sequence-based deep learning models. Here, we develop PenLight, a general deep learning framework for protein structural and functional annotations. PenLight uses a graph neural network (GNN) to integrate 3D protein structure data and protein language model representations. In addition, PenLight applies a contrastive learning strategy to train the GNN for learning protein representations that reflect similarities beyond sequence identity, such as semantic similarities in the function or structure space. We benchmarked PenLight on a structural classification task and a functional annotation task, where PenLight achieved higher prediction accuracy and coverage than state-of-the-art methods.</jats:p>",
+      "DOI": "10.1101/2022.11.29.518451",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            2
+          ]
+        ],
+        "date-time": "2022-12-02T18:35:12Z",
+        "timestamp": 1670006112000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 1,
+      "title": [
+        "Contrastive learning of protein representations with graph neural networks for structural and functional annotations"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Jiaqi",
+          "family": "Luo",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "given": "Yunan",
+          "family": "Luo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1006/jmbi.1990.9999"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/14.9.755"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/bti125"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "173",
+          "DOI": "10.1038/nmeth.1818",
+          "article-title": "Hhblits: lightning-fast iterative protein sequence searching by hmm-hmm alignment",
+          "volume": "9",
+          "year": "2012",
+          "journal-title": "Nature methods"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41586-018-0124-0"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.8",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. L. Bileschi , D. Belanger , D. H. Bryant , T. Sanderson , B. Carter , D. Sculley , A. Bateman , M. A. DePristo and L. J. Colwell , Using deep learning to annotate the protein universe, Nature Biotechnology, 1 (2022).",
+          "DOI": "10.1038/s41587-021-01179-w"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.9",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btx780"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.10",
+          "doi-asserted-by": "crossref",
+          "first-page": "660",
+          "DOI": "10.1093/bioinformatics/btx624",
+          "article-title": "Deepgo: predicting protein functions from sequence and interactions using a deep ontology-aware classifier",
+          "volume": "34",
+          "year": "2018",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.1821905116"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.12",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.13",
+          "first-page": "1",
+          "article-title": "Method of the year 2015",
+          "volume": "13",
+          "year": "2015",
+          "journal-title": "Nature Methods"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.14",
+          "first-page": "D437",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "Rcsb protein data bank: powerful new tools for exploring 3d structures of biological macromolecules for basic and applied research and education in fundamental biology, biomedicine, biotechnology, bioengineering and energy sciences"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/S41586-021-03819-2"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.16",
+          "unstructured": "T. Chen , S. Kornblith , M. Norouzi and G. Hinton , A simple framework for contrastive learning of visual representations, International conference on machine learning, 1597 (2020)."
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "M. Heinzinger , M. Littmann , I. Sillitoe , N. Bordin , C. Orengo and B. Rost , Contrastive learning on protein embeddings enlightens midnight zone, NAR Genomics and Bioinformatics 4 (2022).",
+          "DOI": "10.1093/nargab/lqac043"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.18",
+          "doi-asserted-by": "crossref",
+          "first-page": "D266",
+          "DOI": "10.1093/nar/gkaa1079",
+          "article-title": "Cath: increased structural coverage of functional space",
+          "volume": "49",
+          "year": "2021",
+          "journal-title": "NAR"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.19",
+          "first-page": "1",
+          "article-title": "Structure-based protein function prediction using graph convolutional networks",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.20",
+          "unstructured": "B. Jing , S. Eismann , P. Suriana , R. J. L. Townshend and R. Dror , Learning from protein structure with geometric vector perceptrons, International Conference on Learning Representations (2020)."
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.21",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Elnaggar et al., Prottrans: towards cracking the language of lifes code through self-supervised deep learning and high performance computing, IEEE TPAMI (2021).",
+          "DOI": "10.1101/2020.07.12.199554"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.22",
+          "first-page": "1",
+          "article-title": "Ecnet is an evolutionary context-integrated deep learning framework for protein engineering",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Nature communications"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.23",
+          "first-page": "20",
+          "article-title": "Graph attention networks",
+          "volume": "1050",
+          "year": "2017",
+          "journal-title": "stat"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.24",
+          "unstructured": "S. Brody , U. Alon and E. Yahav , How attentive are graph attention networks?, International Conference on Learning Representations (2021)."
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.25",
+          "unstructured": "A. Hermans , L. Beyer and B. Leibe , In defense of the triplet loss for person re-identification, arXiv preprint arXiv:1703.07737 (2017)."
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.26",
+          "doi-asserted-by": "crossref",
+          "unstructured": "T. Sanderson et al., Proteinfer: deep networks for protein functional inference, bioRxiv (2021).",
+          "DOI": "10.1101/2021.09.20.461077"
+        },
+        {
+          "key": "2022120502300446000_2022.11.29.518451v1.27",
+          "unstructured": "V. G. Satorras , E. Hoogeboom and M. Welling , E(n) equivariant graph neural networks, International conference on machine learning, 9323 (2021)."
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.11.29.518451",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:56:38Z",
+        "timestamp": 1768449398000
+      },
+      "score": 59.571,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.11.29.518451"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            2
+          ]
+        ]
+      },
+      "references-count": 27,
+      "URL": "https://doi.org/10.1101/2022.11.29.518451",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            2
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

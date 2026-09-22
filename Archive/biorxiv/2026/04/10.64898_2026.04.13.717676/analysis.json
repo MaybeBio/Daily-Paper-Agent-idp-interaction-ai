@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.04.13.717676",
+  "title": "Proteome-wide identification and modeling of interactions between transactivation domains and arginine-glycine-rich regions",
+  "authors": "Khanna Y; Hajdarević A; Pirchner J; Usluer S; Rakhimbekova A; Pritišanac I; von Bülow S; Lindorff-Larsen K; Madl T",
+  "journal": "bioRxiv",
+  "published_date": "2026-04-16",
+  "window": {
+    "start": "2026-04-13",
+    "end": "2026-04-19"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合蛋白质组互作图谱、粗粒化模拟(CALVADOS)与机器学习，系统建模了转录激活域(TAD)与RG/RGG无序区域间的静电驱动PPI机制，并预测验证了互作强度，高度契合无序蛋白互作机制建模课题。",
+  "abstract": "<h4>Summary</h4> Transcription factors (TFs) and RNA-binding proteins (RBPs) coordinate gene expression across transcriptional and post-transcriptional layers, yet the principles that govern their direct physical coupling, especially through intrinsically disordered regions, remain unclear. Here we combine proteome-scale interaction mapping, disordered-region annotation, coarse-grained simulations and sequence-based prediction to dissect a prevalent TF-RBP interface mediated by acidic/hydrophobic transactivation domains (TADs) and arginine-glycine-rich (RG/RGG) regions. Network analysis reveals a global enrichment of RBP partners among TF interactions and identifies TF and RBP hubs that bridge transcriptional regulation with RNA-centered pathways. Using a sequence grammar enriched in acidic and aromatic residues, we define 230 RG/RGG-binding TAD-like segments across 190 TFs and we map 1,008 compact RG/RGG regions across 823 RBPs based on proteome-wide motif spacing. Coarse-grained simulations (CALVADOS) of representative TAD-RGG pairs quantify interaction propensities and indicate that association is primarily driven by electrostatic complementarity and charge patterning, with sequence “stickiness” modulating interaction strength. Using a hybrid machine-learning model we predicted simulated interaction strengths from a compact, interpretable set of features and extrapolate these rules to the full combinatorial space, enabling systematic prioritization of candidate TF-RBP couplings. To validate these predictions experimentally, we used NMR titration experiments on a subset of TAD-RGG pairs spanning the predicted affinity range, which showed agreement between predicted affinities and NMR-derived dissociation constants. Together, our results support a predominantly electrostatic mode of association and establish a quantitative framework for identifying and prioritising TF-RBP partnerships, revealing how complementary sequence grammars within disordered regions couple transcriptional regulation to RNA processing and transport.",
+  "abstract_zh": "<h4>摘要</h4> 转录因子（TFs）和RNA结合蛋白（RBPs）在转录和转录后层面协调基因表达，然而调控它们直接物理偶联的原理，尤其是通过内在无序区域介导的偶联，仍不清楚。在此，我们结合蛋白质组规模的相互作用图谱、无序区域注释、粗粒化模拟和基于序列的预测，来剖析由酸性/疏水性反式激活结构域（TADs）和精氨酸-甘氨酸富集（RG/RGG）区域介导的普遍存在的TF-RBP界面。网络分析揭示了TF相互作用中RBP伙伴的全局富集，并识别出连接转录调控与RNA中心通路的TF和RBP枢纽。利用富含酸性和芳香族残基的序列语法，我们在190个TFs中定义了230个RG/RGG结合的TAD样片段，并基于蛋白质组范围的基序间距，在823个RBPs中绘制了1,008个紧凑的RG/RGG区域。代表性TAD-RGG对的粗粒化模拟（CALVADOS）量化了相互作用倾向，并表明结合主要由静电互补性和电荷模式驱动，其中序列“粘性”调节相互作用强度。使用混合机器学习模型，我们从一组紧凑且可解释的特征中预测了模拟的相互作用强度，并将这些规则外推到完整的组合空间，从而能够系统性地优先排序候选TF-RBP偶联。为了实验验证这些预测，我们使用NMR滴定实验对跨越预测亲和力范围的TAD-RGG对子集进行了测试，结果显示预测亲和力与NMR衍生的解离常数之间具有一致性。总之，我们的结果支持一种主要基于静电的结合模式，并建立了一个定量框架，用于识别和优先排序TF-RBP伙伴关系，揭示无序区域内互补的序列语法如何将转录调控与RNA加工和运输偶联起来。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.04.13.717676",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.04.13.717676",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.04.13.717676/index.html"
+}

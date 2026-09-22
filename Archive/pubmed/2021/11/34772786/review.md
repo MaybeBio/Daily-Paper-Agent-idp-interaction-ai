@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text (perspective/review article) including abstract, main text sections, and acknowledgments. No figures or supplementary materials were provided.
+- **Assessment boundary** The manuscript is a perspective article, not a primary research paper. The assessment focuses on the conceptual coherence, logical argumentation, and the validity of the claims made within the scope of a review/perspective. No new experimental data are presented.
+- **Shared manuscript claim summary** The authors propose a set of distinguishing features for biomolecular condensates, emphasizing a "fluid inside" environment defined by a physical boundary, and argue that nanometer-sized structures, including single long RNA molecules and ribonucleoprotein particles (RNPs), can be considered condensates if they meet these criteria. They further suggest that viewing RNAs and RNPs as condensates provides valuable insights into RNA metabolism and regulation.
+- **Visible evidence base** The manuscript cites a range of published literature, including molecular dynamics simulations (Rauscher and Pomès 2017; Wessén et al. 2021), in vitro phase separation studies, and cellular imaging work. The primary quantitative anchor for the size argument is the 6 nm diameter elastin-like peptide (ELP) condensate from simulations.
+- **Missing materials affecting confidence** Figures (including Fig. 1 referenced in the text) were not provided. The specific details of the cited simulations and experimental results are not fully described within the manuscript, limiting independent verification of the claims. No supplementary information was available.
+
+## Reviewer
+- **Overall assessment** This is a thought-provoking and timely perspective that addresses a critical gap in the condensate field: the definition and lower size limit of biomolecular condensates. The authors provide a clear and useful framework based on a "fluid inside" environment and a physical boundary, which helps distinguish condensates from other assemblies like dynamic hubs. The argument that single long RNAs or RNPs could be considered condensates is conceptually interesting and well-argued, drawing on polymer theory and simulation data. However, the manuscript's strength lies in its conceptual framework rather than in providing definitive evidence. The main weaknesses are the reliance on a single simulation study for the key size threshold, the speculative nature of the "single-molecule condensate" concept, and the lack of a detailed discussion of potential counterarguments or alternative interpretations. The perspective is well-written and accessible, but the logical leap from simulated multi-chain systems to single biological macromolecules requires more rigorous justification.
+- **Who would be interested in the results, and why** Researchers in the fields of phase separation, RNA biology, cell biology, and biophysics would be interested. Specifically, those studying membraneless organelles, RNA granules, transcriptional condensates, and the biophysical properties of RNPs would find the proposed framework and the discussion of sub-resolution condensates valuable. The manuscript offers a conceptual lens that could influence how experiments are designed and interpreted, particularly for those investigating the role of RNA in condensate formation and function.
+- **Major strengths** The manuscript provides a clear and operational definition of biomolecular condensates, which is a significant contribution to a field grappling with terminology. The distinction between condensates and dynamic hubs based on the presence of a "fluid inside" is a useful heuristic. The authors successfully integrate polymer physics concepts with biological observations to argue for the possibility of nanoscale condensates. The discussion of the RNA life cycle through a condensate lens is a compelling and unifying perspective that could generate new hypotheses.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Logical argumentation and evidence strength
+  - **Claim pointer** The manuscript uses the 6 nm diameter ELP condensate from simulations (Rauscher and Pomès 2017) to suggest a "lower bound on what size is needed to create such distinct environments" and to argue that single long RNAs, which can be larger than 6 nm, could be condensates.
+  - **Evidence pointer** Section "WHAT ARE THE SIZE REQUIREMENTS OF A CONDENSATE AND HOW MANY MOLECULES ARE NEEDED?", Fig. 1 (not provided)
+  - **Concern** The argument for the size threshold relies heavily on a single all-atom simulation of a specific 27-chain ELP system. The authors acknowledge limitations but then proceed to use this as a quantitative anchor. The leap from a multi-chain synthetic peptide condensate to a single, chemically heterogeneous RNA molecule or an RNP is not rigorously justified. The "fluid inside" concept for a single molecule is conceptually problematic, as a single molecule does not have an "inside" in the same sense as a multi-molecular assembly. The manuscript does not adequately address how a single RNA molecule would create a distinct internal solvent environment with a boundary defined by surface tension, which is a key part of their own definition.
+  - **Why it matters** This is the central thesis of the manuscript. If the size argument is not convincing, the entire premise that single RNAs or RNPs can be considered condensates is weakened. The distinction between a "collapsed globule" single chain and a true multi-molecular condensate is a fundamental one that needs to be addressed with more than a size comparison.
+  - **Resolution test** The authors should provide a more detailed and critical discussion of the differences between single-chain collapse and multi-chain phase separation. They should address the question of whether a single molecule can possess a "fluid inside" with a "physical boundary defined by surface tension" in a meaningful thermodynamic sense. A more nuanced argument, perhaps drawing on concepts of intramolecular phase separation or polymer brush theory, would strengthen the case.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental evidence and testability
+  - **Claim pointer** The manuscript argues that "RNPs and possibly some single long RNA molecules could be understood as condensates" and that this view provides a valuable context for interpreting experimental results.
+  - **Evidence pointer** Sections "CAN AN RNA OR AN RNP CONSTITUTE A CONDENSATE?" and "CAN CONDENSATE-LIKE PROPERTIES OF RNAs AND RNPs BE OBSERVED IN CELLS?"
+  - **Concern** The perspective is largely conceptual and does not provide a clear, testable experimental roadmap to distinguish a "single-molecule RNP condensate" from a "dynamic hub" or a simple RNP complex. The authors mention super-resolution techniques and cryo-ET but do not specify what experimental observations would confirm or refute their hypothesis. The claim that this view is "valuable" is not backed by concrete predictions that differ from existing models.
+  - **Why it matters** For a perspective to be impactful, it should generate testable hypotheses. Without a clear experimental strategy, the concept risks being unfalsifiable and therefore of limited scientific utility.
+  - **Resolution test** The authors should propose specific, measurable differences between their proposed "RNP condensate" state and alternative states (e.g., a stable complex or a dynamic hub). For example, what would be the predicted diffusion behavior, response to mutations, or sensitivity to solution conditions that would uniquely identify a single-molecule condensate? Providing such predictions would significantly enhance the manuscript's value.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Consideration of alternative interpretations
+  - **Claim pointer** The manuscript proposes that the "condensate lens" can clarify contradictory literature, using FMRP-mediated translational repression as an example.
+  - **Evidence pointer** Section "WHAT NEW INSIGHTS CAN WE GLEAN FROM CONSIDERING RNAs AND RNPs AS CONDENSATES?"
+  - **Concern** While the FMRP example is interesting, the manuscript presents the condensate model as a unifying explanation without thoroughly considering alternative, non-condensate-based mechanisms that could also explain the data. The argument that a condensed state "can provide clarity" is presented as a possibility, but the authors do not critically evaluate competing hypotheses or discuss how to differentiate between them. This selective presentation weakens the overall argument.
+  - **Why it matters** A balanced perspective should acknowledge and address the strengths and weaknesses of alternative models. The current text risks overstating the explanatory power of the condensate framework.
+  - **Resolution test** The authors should explicitly discuss alternative models for the FMRP data and other examples, and explain why the condensate model is superior or how it can be integrated with existing explanations. This would make the perspective more rigorous and persuasive.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and terminology
+  - **Affected element** Definition of "fluid inside"
+  - **Evidence pointer** Section "INTRODUCTION: KEY DISTINGUISHING FEATURES OF BIOMOLECULAR CONDENSATES"
+  - **Issue** The term "fluid inside" is introduced as a shorthand, but its physical meaning is not fully operationalized. It is unclear how one would measure or define this property for a nanometer-sized object.
+  - **Required correction** Provide a more precise definition, perhaps in terms of molecular dynamics, diffusion coefficients, or internal viscosity, and discuss how this could be assessed experimentally or computationally for small condensates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Readability and structure
+  - **Affected element** Figure 1
+  - **Evidence pointer** Section "WHAT ARE THE SIZE REQUIREMENTS OF A CONDENSATE AND HOW MANY MOLECULES ARE NEEDED?"
+  - **Issue** The manuscript references Fig. 1, but the figure was not provided. The text suggests it contains a schematic of the size comparison, which would be very helpful for the reader.
+  - **Required correction** Ensure the figure is included and that it clearly illustrates the size comparison between the ELP condensate, proteins, and RNA molecules.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Discussion of single-molecule condensates
+  - **Evidence pointer** Section "CAN AN RNA OR AN RNP CONSTITUTE A CONDENSATE?"
+  - **Issue** The concept of a single-molecule condensate is unusual and would benefit from a discussion of any related concepts in the literature, such as "intramolecular condensates" or "single-chain nanoparticles."
+  - **Required correction** Add a brief discussion of related concepts to contextualize the proposal and avoid the impression that it is entirely without precedent.
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the lack of a rigorous physical or thermodynamic argument for how a single RNA molecule or a small RNP can satisfy the authors' own definition of a condensate, particularly the requirement of a "fluid inside" and a "physical boundary defined by surface tension." The argument relies on a size comparison with a simulated multi-chain system, which is not a sufficient basis for the claim. The manuscript must address this conceptual gap to establish its case.
+- **Assessment against Nature-style criteria**
+  - **Originality** The manuscript offers a novel and potentially influential perspective by challenging the implicit size threshold for condensates and proposing that single molecules can be considered condensates. This is a fresh and original contribution to the field.
+  - **Scientific importance** The question of what constitutes a condensate is of fundamental importance to the field. The manuscript addresses a key conceptual gap and could influence how researchers define and study sub-resolution structures. The potential implications for RNA biology are significant.
+  - **Interdisciplinary readership** The topic is inherently interdisciplinary, bridging polymer physics, cell biology, and RNA biology. The manuscript is written in a way that should be accessible to researchers across these fields, though some familiarity with the condensate literature is assumed.
+  - **Technical soundness** The technical soundness is a major concern. The argument is built on a limited set of simulations and a conceptual leap that is not fully justified. The lack of a clear experimental roadmap further weakens the technical foundation.
+  - **Readability for nonspecialists** The manuscript is generally well-written and clear. The authors do a good job of explaining complex concepts. However, the abstract and introduction could be slightly more accessible to a broad audience, and the key argument about single-molecule condensates requires careful reading.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a valuable and original perspective, but the central claim regarding single-molecule condensates is not fully established from the provided evidence. The authors must address the conceptual gap between multi-chain simulations and single biological macromolecules, and provide a more rigorous and testable framework for their proposal.
+
+## Risk / unsupported claims
+- The claim that a single long RNA molecule can form a condensate with a "fluid inside" and a "physical boundary defined by surface tension" is unsupported by direct evidence and is a significant conceptual leap from the cited multi-chain simulations.
+- The use of the 6 nm ELP simulation as a definitive "lower bound" for condensate size is an overreach, as it is based on a single specific system and may not be generalizable.
+- The assertion that viewing RNAs and RNPs as condensates "can provide clarity" for contradictory literature, such as the FMRP example, is presented as a possibility but is not rigorously tested against alternative models.
+- The claim that the RNA life cycle can be understood as a series of condensate states is highly speculative and lacks direct experimental support.

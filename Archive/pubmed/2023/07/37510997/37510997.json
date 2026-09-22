@@ -1,0 +1,306 @@
+{
+  "identity": {
+    "pmid": "37510997",
+    "doi": "10.3390/ijms241411238",
+    "title": "Transition Networks Unveil Disorder-to-Order Transformations in Abeta Caused by Glycosaminoglycans or Lipids."
+  },
+  "content": {
+    "abstract": "The aggregation of amyloid-beta (Abeta) peptides, particularly of Abeta1-42, has been linked to the pathogenesis of Alzheimer's disease. In this study, we focus on the conformational change of Abeta1-42 in the presence of glycosaminoglycans (GAGs) and 1-palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC) lipids using molecular dynamics simulations. We analyze the conformational changes that occur in Abeta by extracting the key structural features that are then used to generate transition networks. Using the same three features per network highlights the transitions from intrinsically disordered states ubiquitous in Abeta1-42 in solution to more compact states arising from stable beta-hairpin formation when Abeta1-42 is in the vicinity of a GAG molecule, and even more compact states characterized by a alpha-helix or beta-sheet structures when Abeta1-42 interacts with a POPC lipid cluster. We show that the molecular mechanisms underlying these transitions from disorder to order are different for the Abeta1-42/GAG and Abeta1-42/POPC systems. While in the latter the hydrophobicity provided by the lipid tails facilitates the folding of Abeta1-42, in the case of GAG there are hardly any intermolecular Abeta1-42-GAG interactions. Instead, GAG removes sodium ions from the peptide, allowing stronger electrostatic interactions within the peptide that stabilize a beta-hairpin. Our results contribute to the growing knowledge of the role of GAGs and lipids in the conformational preferences of the Abeta peptide, which in turn influences its aggregation into toxic oligomers and amyloid fibrils.",
+    "keywords": [
+      "amyloid-beta",
+      "disorder-to-order transition",
+      "intrinsically disordered proteins",
+      "molecular dynamics simulations",
+      "transition networks"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Glycosaminoglycans",
+      "Amyloid beta-Peptides/chemistry",
+      "*Alzheimer Disease",
+      "Molecular Dynamics Simulation",
+      "Amyloid/chemistry",
+      "Peptide Fragments/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Schaffler, Moritz",
+        "Samantray, Suman",
+        "Strodel, Birgit"
+      ],
+      "short_names": [
+        "Schaffler M",
+        "Samantray S",
+        "Strodel B"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3361-9582",
+        "ORCID: 0000-0002-8734-7765"
+      ],
+      "affiliations": [
+        "Institute of Biological Information Processing, Structural Biochemistry (IBI-7), Forschungszentrum Julich, 52428 Julich, Germany.",
+        "Institute of Theoretical and Computational Chemistry, Heinrich Heine University Dusseldorf, 40225 Dusseldorf, Germany.",
+        "Institute of Biological Information Processing, Structural Biochemistry (IBI-7), Forschungszentrum Julich, 52428 Julich, Germany.",
+        "Institute of Biological Information Processing, Structural Biochemistry (IBI-7), Forschungszentrum Julich, 52428 Julich, Germany.",
+        "Institute of Theoretical and Computational Chemistry, Heinrich Heine University Dusseldorf, 40225 Dusseldorf, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Schäffler, Moritz",
+        "short_name": "Schäffler M",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Biological Information Processing, Structural Biochemistry (IBI-7), Forschungszentrum Jülich, 52428 Jülich, Germany.",
+          "Institute of Theoretical and Computational Chemistry, Heinrich Heine University Düsseldorf, 40225 Düsseldorf, Germany."
+        ]
+      },
+      {
+        "full_name": "Samantray, Suman",
+        "short_name": "Samantray S",
+        "identifiers": [
+          "0000-0003-3361-9582"
+        ],
+        "affiliations": [
+          "Institute of Biological Information Processing, Structural Biochemistry (IBI-7), Forschungszentrum Jülich, 52428 Jülich, Germany."
+        ]
+      },
+      {
+        "full_name": "Strodel, Birgit",
+        "short_name": "Strodel B",
+        "identifiers": [
+          "0000-0002-8734-7765"
+        ],
+        "affiliations": [
+          "Institute of Biological Information Processing, Structural Biochemistry (IBI-7), Forschungszentrum Jülich, 52428 Jülich, Germany.",
+          "Institute of Theoretical and Computational Chemistry, Heinrich Heine University Düsseldorf, 40225 Düsseldorf, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of molecular sciences"
+    ],
+    "journal_abbrev": [
+      "Int J Mol Sci"
+    ],
+    "pub_date": "2023 Jul 8",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/07/29 11:54",
+    "fetched_at": "2026-09-20 23:49:56"
+  },
+  "links": {
+    "cites": [
+      "42360363",
+      "41534833",
+      "41129692",
+      "40641247",
+      "37964477"
+    ],
+    "refs": [
+      "38217162",
+      "36947617",
+      "36705524",
+      "36697708",
+      "35934194",
+      "35688209",
+      "35178671",
+      "34784548",
+      "34768961",
+      "34656328",
+      "34607199",
+      "34358545",
+      "34040740",
+      "34027669",
+      "33578193",
+      "33543942",
+      "33269918",
+      "33233894",
+      "33174726",
+      "30689864",
+      "30115951",
+      "29947363",
+      "28582506",
+      "27819658",
+      "27179503",
+      "26780756",
+      "26578815",
+      "25999294",
+      "25648594",
+      "24401100",
+      "22300010",
+      "21815173",
+      "21760975",
+      "19162471",
+      "18351591",
+      "17905305",
+      "17657567",
+      "17212484",
+      "16690495",
+      "16089741",
+      "15313625",
+      "12964414",
+      "12878436",
+      "12128089",
+      "9895674",
+      "9878442",
+      "9693002",
+      "2682326",
+      "1566067"
+    ],
+    "similar": [
+      "37510997",
+      "23904252",
+      "24000923",
+      "34784548",
+      "31657431",
+      "30605312",
+      "35129859",
+      "28608875",
+      "27091578",
+      "34027669",
+      "29299557",
+      "36705524",
+      "23349038",
+      "29508987",
+      "35458686",
+      "25011560",
+      "39062488",
+      "27936589",
+      "25581460",
+      "23493873",
+      "30342351",
+      "11029577",
+      "20585030",
+      "31425755",
+      "28795459",
+      "25029558",
+      "39126645",
+      "28633568",
+      "34042019",
+      "35202955",
+      "25137638",
+      "34915817",
+      "20140095",
+      "32771514",
+      "38109338",
+      "29751013",
+      "12025818",
+      "20026079",
+      "26928943",
+      "29443891",
+      "29630553",
+      "32275992",
+      "30537813",
+      "37486638",
+      "29220175",
+      "27281497",
+      "26228450",
+      "10583407",
+      "24584938",
+      "26513486",
+      "34152264",
+      "27388669",
+      "33208229",
+      "23421682",
+      "25687761",
+      "23500806",
+      "37599504",
+      "21769359",
+      "26479553",
+      "31450543",
+      "36995989",
+      "20713699",
+      "38436541",
+      "27135646",
+      "34443456",
+      "23951128",
+      "33143872",
+      "32860260",
+      "16444756",
+      "28267577",
+      "30813725",
+      "32666627",
+      "26172152",
+      "26349542",
+      "22108168",
+      "28585804",
+      "29947363",
+      "27214008",
+      "35946429",
+      "29953467",
+      "26896721",
+      "22300010",
+      "33438527",
+      "25650940",
+      "31310506",
+      "29723530",
+      "21186801",
+      "30763064",
+      "30814252",
+      "24246047",
+      "30821624",
+      "29351720",
+      "9334394",
+      "26726739",
+      "10359075",
+      "21402079",
+      "25037228",
+      "15123427",
+      "26275931",
+      "39357407"
+    ],
+    "review": [
+      "37510997",
+      "29508987",
+      "35458686",
+      "38109338"
+    ],
+    "pmc": [
+      "10380057"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=ijms241411238",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/alzheimersdisease.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Alzheimer's Disease"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37510997/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37510997",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

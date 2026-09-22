@@ -1,0 +1,359 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.07.24.666361",
+  "title": "Disruption of the SAGA CORE triggers collateral degradation of KAT2A",
+  "doi": "10.1101/2025.07.24.666361",
+  "abstract": "<h4>SUMMARY</h4> The SAGA transcriptional co-activator complex regulates gene expression through histone acetylation at promoters, mediated by its histone acetyl transferase, KAT2A. While its structure and function have been extensively investigated, how the stability of individual subunits of SAGA, including KAT2A, is regulated, remains unclear. Here, using a fluorescence-based KAT2A stability reporter, we systematically dissect the molecular dependencies controlling KAT2A protein abundance. We identify the non-enzymatic SAGA CORE module subunits—TADA1, TAF5L, and TAF6L— as necessary for KAT2A stability, with loss of these subunits disrupting the integrity of SAGA, leading to non-chromatin-bound KAT2A that is degraded by the proteasome, consequently leading to reduced H3K9 acetylation. Proteomic profiling reveals progressive loss of CORE and HAT components upon acute disruption of the SAGA CORE, indicating that an intact CORE is required for the stability of numerous components of SAGA. Finally, a focused CRISPR screen of ubiquitin-proteasome system genes identifies the E3 ligase UBR5, a known regulator of orphan protein degradation, and the deubiquitinase OTUD5, as regulators of KAT2A degradation when the SAGA CORE is perturbed. Together, these findings reveal a dependency of KAT2A protein stability on SAGA CORE integrity and define an orphan quality control mechanism targeting unassembled KAT2A, revealing a potential vulnerability in SAGA-driven malignancies.",
+  "authors": [
+    "Batty P",
+    "Beneder H",
+    "Schätz C",
+    "Onea G",
+    "Zaczek M",
+    "Kutschat AP",
+    "Müller S",
+    "Superti-Furga G",
+    "Winter GE",
+    "Seruggia D"
+  ],
+  "published_date": "2025-07-25",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.07.24.666361",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.07.24.666361.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1056038",
+    "raw_record": {
+      "id": "PPR1056038",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1056038"
+        ]
+      },
+      "doi": "10.1101/2025.07.24.666361",
+      "title": "Disruption of the SAGA CORE triggers collateral degradation of KAT2A",
+      "authorString": "Batty P, Beneder H, Schätz C, Onea G, Zaczek M, Kutschat AP, Müller S, Superti-Furga G, Winter GE, Seruggia D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Batty P",
+            "lastName": "Batty",
+            "firstName": "Paul",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beneder H",
+            "lastName": "Beneder",
+            "firstName": "Hannah",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schätz C",
+            "lastName": "Schätz",
+            "firstName": "Caroline",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Onea G",
+            "lastName": "Onea",
+            "firstName": "Gabriel",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Department of Pediatrics and Adolescent Medicine, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zaczek M",
+            "lastName": "Zaczek",
+            "firstName": "Maciej",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kutschat AP",
+            "lastName": "Kutschat",
+            "firstName": "Ana",
+            "initials": "AP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Müller S",
+            "lastName": "Müller",
+            "firstName": "Sophie",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Superti-Furga G",
+            "lastName": "Superti-Furga",
+            "firstName": "Giulio",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": "Center for Physiology and Pharmacology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Winter GE",
+            "lastName": "Winter",
+            "firstName": "Georg",
+            "initials": "GE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Seruggia D",
+            "lastName": "Seruggia",
+            "firstName": "Davide",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5014-0499"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": ", , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5014-0499"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>SUMMARY</h4>  The SAGA transcriptional co-activator complex regulates gene expression through histone acetylation at promoters, mediated by its histone acetyl transferase, KAT2A. While its structure and function have been extensively investigated, how the stability of individual subunits of SAGA, including KAT2A, is regulated, remains unclear. Here, using a fluorescence-based KAT2A stability reporter, we systematically dissect the molecular dependencies controlling KAT2A protein abundance. We identify the non-enzymatic SAGA CORE module subunits—TADA1, TAF5L, and TAF6L— as necessary for KAT2A stability, with loss of these subunits disrupting the integrity of SAGA, leading to non-chromatin-bound KAT2A that is degraded by the proteasome, consequently leading to reduced H3K9 acetylation. Proteomic profiling reveals progressive loss of CORE and HAT components upon acute disruption of the SAGA CORE, indicating that an intact CORE is required for the stability of numerous components of SAGA. Finally, a focused CRISPR screen of ubiquitin-proteasome system genes identifies the E3 ligase UBR5, a known regulator of orphan protein degradation, and the deubiquitinase OTUD5, as regulators of KAT2A degradation when the SAGA CORE is perturbed. Together, these findings reveal a dependency of KAT2A protein stability on SAGA CORE integrity and define an orphan quality control mechanism targeting unassembled KAT2A, revealing a potential vulnerability in SAGA-driven malignancies.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Austrian Science Fund FWF",
+            "grantId": "P7909",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "acronym": "ERC_",
+            "grantId": "101061151",
+            "orderIn": 0
+          },
+          {
+            "agency": "Austrian Science Fund FWF",
+            "grantId": "P36069",
+            "orderIn": 0
+          },
+          {
+            "agency": "Austrian Science Fund FWF",
+            "grantId": "P36302",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "acronym": "ERC_",
+            "grantId": "947803",
+            "orderIn": 0
+          },
+          {
+            "agency": "Austrian Science Fund FWF",
+            "grantId": "P36746",
+            "orderIn": 0
+          },
+          {
+            "agency": "Austrian Science Fund FWF",
+            "grantId": "P5918723",
+            "orderIn": 0
+          },
+          {
+            "agency": "Vienna Science and Technology Fund",
+            "grantId": "LS21-015",
+            "orderIn": 0
+          },
+          {
+            "agency": "European Research Council",
+            "acronym": "ERC_",
+            "grantId": "851478",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/07/25/2025.07.24.666361.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.07.24.666361"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1056038"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1056038&type=FILE&fileName=EMS207602-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42009663",
+            "reference": "Nature communications. 2026 Apr;17(1):3410",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS207602",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2025-07-28",
+      "firstPublicationDate": "2025-07-25",
+      "firstIndexDate": "2025-07-28",
+      "fullTextReceivedDate": "2025-08-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

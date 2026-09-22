@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.05.626885",
+  "title": "Scalable emulation of protein equilibrium ensembles with generative deep learning",
+  "authors": "Sarah Lewis; Tim Hempel; José Jiménez Luna; Michael Gastegger; Yu Xie; Andrew Y. K. Foong; Victor García Satorras; Osama Abdin; Bastiaan S. Veeling; Iryna Zaporozhets; Yaoyi Chen; Soojung Yang; Arne Schneuing; Jigyasa Nigam; Federico Barbero; Vincent Stimper; Andrew Campbell; Jason Yim; Marten Lienen; Yu Shi; Shuxin Zheng; Hannes Schulz; Usman Munir; Ryota Tomioka; Cecilia Clementi; Frank Noé",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-05",
+  "window": {
+    "start": "2024-12-02",
+    "end": "2024-12-08"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用生成式深度学习模拟蛋白质平衡构象系综，虽非直接针对无序蛋白PPI，但其构象采样与自由能预测方法可迁移至IDR介导互作的机制建模。",
+  "abstract": "Following the sequence and structure revolutions, predicting the dynamical mechanisms of proteins that implement biological function remains an outstanding scientific challenge. Several experimental techniques and molecular dynamics (MD) simulations can, in principle, determine conformational states, binding configurations and their probabilities, but suffer from low throughput. Here we develop a Biomolecular Emulator (BioEmu), a generative deep learning system that can generate thousands of statistically independent samples from the protein structure ensemble per hour on a single graphics processing unit. By leveraging novel training methods and vast data of protein structures, over 200 milliseconds of MD simulation, and experimental protein stabilities, BioEmu's protein ensembles represent equilibrium in a range of challenging and practically relevant metrics. Qualitatively, BioEmu samples many functionally relevant conformational changes, ranging from formation of cryptic pockets, over unfolding of specific protein regions, to large-scale domain rearrangements. Quantitatively, BioEmu samples protein conformations with relative free energy errors around 1 kcal/mol, as validated against millisecond-timescale MD simulation and experimentally-measured protein stabilities. By simultaneously emulating structural ensembles and thermodynamic properties, BioEmu reveals mechanistic insights, such as the causes for fold destabilization of mutants, and can efficiently provide experimentally-testable hypotheses.",
+  "abstract_zh": "继序列和结构革命之后，预测执行生物功能的蛋白质动力学机制仍是一项突出的科学挑战。若干实验技术和分子动力学（molecular dynamics, MD）模拟原则上可以确定构象状态、结合构型及其概率，但受限于低通量。在此，我们开发了生物分子模拟器（Biomolecular Emulator, BioEmu），一种生成式深度学习系统，可在单个图形处理单元上每小时生成数千个来自蛋白质结构集合的统计独立样本。通过利用新颖的训练方法和大量蛋白质结构数据、超过200毫秒的MD模拟以及实验蛋白质稳定性，BioEmu的蛋白质集合在多种具有挑战性且实际相关的指标上代表平衡状态。定性上，BioEmu采样了许多功能相关的构象变化，范围从隐蔽口袋的形成、特定蛋白质区域的去折叠，到大规模结构域重排。定量上，BioEmu采样的蛋白质构象相对自由能误差约为1 kcal/mol，这已通过毫秒时间尺度的MD模拟和实验测量的蛋白质稳定性得到验证。通过同时模拟结构集合和热力学性质，BioEmu揭示了机制性见解，例如突变导致折叠去稳定化的原因，并能高效提供可实验检验的假设。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.05.626885",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.05.626885",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.05.626885/index.html"
+}

@@ -1,0 +1,302 @@
+{
+  "identity": {
+    "pmid": "40574787",
+    "doi": "10.1016/j.csbj.2025.06.004",
+    "title": "Adsorption of silica oligomers on biomolecules: Structural and dynamical insights for atom probe tomography via classic molecular dynamics simulations."
+  },
+  "content": {
+    "abstract": "Atom Probe Tomography (APT) is a spatially-resolved, mass-spectrometric technique, mostly employed in the characterization of metals and alloys. Recently, a novel APT-based protocol has been proposed to resolve the three-dimensional structures of biomolecules, involving the encapsulation of the substrate within an amorphous silica matrix followed by its ablation employing short laser pulses. A critical aspect of this technique lies in the interaction between the silica matrix and the biomolecular substrate, which must keep the native framework of the biomolecule while minimizing the mechanical stresses. Building on earlier works, here we characterize the adsorption of silica monomers and short oligomers onto biomolecular surfaces via classical Molecular Dynamics (MD) simulations. We observe significant differences in the behavior of the diverse silica species, with the dimers and trimers showing a higher affinity for the substrates. Additionally, unfolded protein domains exhibit an enhanced adsorption efficacy, likely on account of their inherent flexibility and availability of hydrogen-bonding moieties: This apparent affinity dampens their local fluctuations upon interaction with silica, significantly affecting their ensemble dynamics. These findings suggest APT as a suitable technique for the structural characterization of intrinsically disordered regions and the metastable conformational landscapes thereof.",
+    "keywords": [
+      "Atom probe tomography",
+      "Molecular dynamics",
+      "Orthosilicates",
+      "Protein encapsulation",
+      "Silica adsorption"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Novi Inverardi, Giovanni",
+        "Petrolli, Lorenzo",
+        "Carnovale, Francesco",
+        "Bartocci, Alessio",
+        "Taioli, Simone",
+        "Lattanzi, Gianluca"
+      ],
+      "short_names": [
+        "Novi Inverardi G",
+        "Petrolli L",
+        "Carnovale F",
+        "Bartocci A",
+        "Taioli S",
+        "Lattanzi G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, University of Trento, via Sommarive, 14, Trento, 38123, Italy.",
+        "INFN-TIFPA, Trento Institute for Fundamental Physics and Applications, via Sommarive, 14, Trento, 38123, Italy.",
+        "Department of Physics, University of Trento, via Sommarive, 14, Trento, 38123, Italy.",
+        "INFN-TIFPA, Trento Institute for Fundamental Physics and Applications, via Sommarive, 14, Trento, 38123, Italy.",
+        "Department of Physics, University of Trento, via Sommarive, 14, Trento, 38123, Italy.",
+        "INFN-TIFPA, Trento Institute for Fundamental Physics and Applications, via Sommarive, 14, Trento, 38123, Italy.",
+        "Department of Physics, University of Trento, via Sommarive, 14, Trento, 38123, Italy.",
+        "INFN-TIFPA, Trento Institute for Fundamental Physics and Applications, via Sommarive, 14, Trento, 38123, Italy.",
+        "European Center for Theoretical Studies in Nuclear Physics and Related Areas (ECT*), Bruno Kessler Foundation, Strada delle Tarabelle, 286, Trento, 38123, Italy.",
+        "Department of Physics, University of Trento, via Sommarive, 14, Trento, 38123, Italy.",
+        "INFN-TIFPA, Trento Institute for Fundamental Physics and Applications, via Sommarive, 14, Trento, 38123, Italy."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Novi Inverardi, Giovanni",
+        "short_name": "Novi Inverardi G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Trento, via Sommarive, 14, Trento, 38123, Italy.",
+          "INFN-TIFPA, Trento Institute for Fundamental Physics and Applications, via Sommarive, 14, Trento, 38123, Italy."
+        ]
+      },
+      {
+        "full_name": "Petrolli, Lorenzo",
+        "short_name": "Petrolli L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Trento, via Sommarive, 14, Trento, 38123, Italy.",
+          "INFN-TIFPA, Trento Institute for Fundamental Physics and Applications, via Sommarive, 14, Trento, 38123, Italy."
+        ]
+      },
+      {
+        "full_name": "Carnovale, Francesco",
+        "short_name": "Carnovale F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Trento, via Sommarive, 14, Trento, 38123, Italy.",
+          "INFN-TIFPA, Trento Institute for Fundamental Physics and Applications, via Sommarive, 14, Trento, 38123, Italy."
+        ]
+      },
+      {
+        "full_name": "Bartocci, Alessio",
+        "short_name": "Bartocci A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Trento, via Sommarive, 14, Trento, 38123, Italy.",
+          "INFN-TIFPA, Trento Institute for Fundamental Physics and Applications, via Sommarive, 14, Trento, 38123, Italy."
+        ]
+      },
+      {
+        "full_name": "Taioli, Simone",
+        "short_name": "Taioli S",
+        "identifiers": [],
+        "affiliations": [
+          "European Center for Theoretical Studies in Nuclear Physics and Related Areas (ECT*), Bruno Kessler Foundation, Strada delle Tarabelle, 286, Trento, 38123, Italy."
+        ]
+      },
+      {
+        "full_name": "Lattanzi, Gianluca",
+        "short_name": "Lattanzi G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, University of Trento, via Sommarive, 14, Trento, 38123, Italy.",
+          "INFN-TIFPA, Trento Institute for Fundamental Physics and Applications, via Sommarive, 14, Trento, 38123, Italy."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Computational and structural biotechnology journal"
+    ],
+    "journal_abbrev": [
+      "Comput Struct Biotechnol J"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/06/27 06:26",
+    "fetched_at": "2026-09-21 20:10:55"
+  },
+  "links": {
+    "cites": [
+      "40787343"
+    ],
+    "refs": [
+      "38722210",
+      "38525893",
+      "37357785",
+      "36235994",
+      "34939073",
+      "33103106",
+      "32015543",
+      "31234409",
+      "31058464",
+      "28799215",
+      "28646673",
+      "27794042",
+      "26574453",
+      "26400175",
+      "24419610",
+      "24248259",
+      "21963794",
+      "21500218",
+      "21369623",
+      "21335090",
+      "21276974",
+      "18593145",
+      "17212484",
+      "15694675",
+      "15264254",
+      "10884915",
+      "9654451",
+      "8744570",
+      "7588758",
+      "3041007",
+      "2234094"
+    ],
+    "similar": [
+      "40574787",
+      "38525893",
+      "35183092",
+      "40787343",
+      "23811057",
+      "23912807",
+      "30840442",
+      "31058464",
+      "20429542",
+      "16853725",
+      "33418804",
+      "25611782",
+      "16325840",
+      "22435500",
+      "39791802",
+      "40862470",
+      "17411171",
+      "34443909",
+      "32540722",
+      "38905154",
+      "33747706",
+      "29554493",
+      "41422758",
+      "28985626",
+      "39405985",
+      "28280683",
+      "36856266",
+      "41129692",
+      "32921047",
+      "27532769",
+      "30849879",
+      "40233005",
+      "40157698",
+      "39467445",
+      "35666952",
+      "37159941",
+      "36027680",
+      "28665581",
+      "31614817",
+      "34845619",
+      "39720332",
+      "29666391",
+      "24446368",
+      "32901618",
+      "33884260",
+      "32663028",
+      "28003858",
+      "31790254",
+      "40902487",
+      "23628202",
+      "33444030",
+      "28887490",
+      "19754142",
+      "39905788",
+      "31683063",
+      "37801982",
+      "32696368",
+      "29195275",
+      "37347172",
+      "26086173",
+      "37702562",
+      "29367063",
+      "29202010",
+      "27759396",
+      "33453925",
+      "33810688",
+      "31809054",
+      "25349413",
+      "20815591",
+      "29719201",
+      "36387274",
+      "38512660",
+      "25625937",
+      "36346589",
+      "25139750",
+      "28534299",
+      "10450163",
+      "36179319",
+      "30708285",
+      "19159109",
+      "15745006",
+      "38998689",
+      "18233784",
+      "38018910",
+      "32119546",
+      "31957449",
+      "24328428",
+      "34329980",
+      "27283467",
+      "25299058",
+      "17496028",
+      "26809106",
+      "40938784",
+      "35319045",
+      "40559352",
+      "17256521",
+      "40358598",
+      "40449653",
+      "34656328",
+      "25748692"
+    ],
+    "review": [
+      "40574787",
+      "30840442",
+      "28003858",
+      "37347172",
+      "25625937"
+    ],
+    "pmc": [
+      "12197878"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://air.unimi.it/handle/2434/1174977",
+        "provider": "Archivio Istituzionale della Ricerca Unimi - Access Free Full Text",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": "Full text from AIR - Univ. Milan"
+      },
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2001-0370(25)00219-3",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40574787/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

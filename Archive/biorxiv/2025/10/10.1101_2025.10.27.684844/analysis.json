@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.27.684844",
+  "title": "Determination of nucleotide-nucleotide and nucleotide-amino acid binding interactions from all-atom potential-of-mean-force calculations",
+  "authors": "Feito A; Pedraza E; Cuesta E; Castro A; Sanchez-Burgos I; Rey A; Collepardo-Guevara R; Tejedor AR; Espinosa JR",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-28",
+  "window": {
+    "start": "2025-10-27",
+    "end": "2025-11-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用全原子MD和PMF计算系统表征RNA核苷酸与蛋白氨基酸间的结合相互作用，为无序蛋白/RNA凝聚体中的PPI机制提供定量参数库，虽对象侧重核酸-氨基酸而非IDP-PPI，但机制建模思路对相分离互作研究有直接启发。",
+  "abstract": "Biomolecular condensates emerge from multivalent interactions between proteins and nucleic acids and are frequently modeled using coarse-grained molecular dynamics simulations. The parametrization of these models critically depends on atomistic data describing the underlying molecular interactions. In this work, we employ all-atom molecular dynamics simulations and potential-of-mean-force (PMF) calculations to investigate the interaction landscape between RNA nucleotides and protein amino acids. We begin by characterizing nucleotide–nucleotide binding modes through canonical base-pairing analysis, observing notable agreement in the predictions from both AMBER03ws and CHARMM36 force fields. Further rationalization of different nucleotide–nucleotide interaction modes involves the calculation of PMFs for ribose–ribose, phosphate–phosphate, and RNA tertiary interactions such as G-quadruplex formation. We also examine the effect of salt concentration on these interactions, finding a reduction on electrostatic self-repulsion for phosphate–phosphate binding upon increasing the ionic strength. Extending our analysis to amino acids, we first benchmark the performance of both AMBER03ws and a99SB-disp force fields for describing pairwise amino acid interactions, and then we evaluate different nucleotide–amino acid binding profiles. Our findings reveal a subset of amino acids—Lys and Arg (positively charged), Asp and Glu (negatively charged), and Gln, Ser, and Asn (polar residues)—that consistently engage with the nitrogenous bases of different nucleotides. Such binding is primarily mediated by hydrogen bonding and, in some cases, cation– π interactions. Furthermore, we identify strong π – π stacking interactions with aromatic residues and phosphate–Arg contacts as key contributors to condensate cohesion in RNA-protein condensates. Our comprehensive analysis provides a detailed library of nucleotide–amino acid interactions, offering quantitative insights to inform coarse-grained model parametrization and deepening our understanding of condensate self-assembly, nucleic acid recognition, and phase-separation regulation at submolecular scale.",
+  "abstract_zh": "生物分子凝聚体源于蛋白质与核酸之间的多价相互作用，通常采用粗粒化分子动力学 (coarse-grained molecular dynamics) 模拟进行建模。这些模型的参数化关键依赖于描述底层分子相互作用的原子级数据。在本工作中，我们采用全原子分子动力学 (all-atom molecular dynamics) 模拟和平均力势 (potential-of-mean-force, PMF) 计算，研究RNA核苷酸与蛋白质氨基酸之间的相互作用景观。我们首先通过经典碱基配对分析表征核苷酸-核苷酸结合模式，观察到AMBER03ws和CHARMM36力场预测结果具有显著一致性。对不同核苷酸-核苷酸相互作用模式的进一步合理化涉及核糖-核糖、磷酸-磷酸以及RNA三级相互作用（如G-四链体形成）的PMF计算。我们还考察了盐浓度对这些相互作用的影响，发现增加离子强度会降低磷酸-磷酸结合中的静电自排斥作用。将分析扩展到氨基酸，我们首先基准测试AMBER03ws和a99SB-disp两种力场在描述成对氨基酸相互作用方面的性能，然后评估不同的核苷酸-氨基酸结合谱。我们的发现揭示了一组氨基酸——Lys和Arg（带正电）、Asp和Glu（带负电）以及Gln、Ser和Asn（极性残基）——始终与不同核苷酸的含氮碱基发生结合。这种结合主要由氢键介导，在某些情况下还涉及阳离子-π (cation–π) 相互作用。此外，我们识别出与芳香族残基的强π–π堆叠相互作用以及磷酸-Arg接触是RNA-蛋白质凝聚体中凝聚体凝聚力的关键贡献因素。我们的综合分析提供了核苷酸-氨基酸相互作用的详细库，为粗粒化模型参数化提供定量见解，并加深了我们对亚分子尺度上凝聚体自组装、核酸识别和相分离 (phase separation) 调控的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.27.684844",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.27.684844",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.27.684844/index.html"
+}

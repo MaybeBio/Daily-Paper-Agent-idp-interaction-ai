@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.05.539648",
+  "title": "ZymePackNet: rotamer-sampling free graph neural network method for protein sidechain prediction",
+  "authors": "Abhishek Mukhopadhyay; Amit Kadan; Benjamin McMaster; J. Liam McWhirter; Surjit B. Dixit",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-06",
+  "window": {
+    "start": "2023-05-01",
+    "end": "2023-05-07"
+  },
+  "score": 4,
+  "one_liner_zh": "提出基于图神经网络的侧链预测方法ZymePackNet，虽涉及蛋白结构建模与物理相互作用，但对象为折叠蛋白侧链而非无序蛋白/IDR，且不涉及PPI或互作机制，仅方法上对AI建模有间接启发。",
+  "abstract": "Protein sidechain conformation prediction, or packing, is a key step in many in silico protein modeling and design tasks. Popular protein packing methods typically rely on approximated energy functions and complex algorithms to search dense rotamer libraries. Inspired by the recent success of deep learning in protein modeling tasks, we present ZymePackNet, a graph neural network based protein packing tool that does not require a rotamer library, scoring functions or a search algorithm. We train regression models using protein crystal structures represented as graphs, which are employed sequentially to “germinate” the sidechain starting from atoms anchoring the protein backbone to the sidechains’ termini, followed by an iterative refinement stage. ZymePackNet is fast and accurate compared to state-of-the-art protein packing methods. We validate our model on three native backbone datasets achieving a mean average error of 16.6°, 24.1°, 42.1°, and 53.0° for sidechain dihedral angles ( χ 1 to χ 4 ). ZymePackNet captures complex physical interactions such as π stacking without explicitly accounting for it in the model; such effects are currently lacking in the energy terms used in traditional packing tools. Contact abmukho@vt.edu Supplementary information Supplementary data are available at Bioinformatics online.",
+  "abstract_zh": "蛋白质侧链构象预测，或称堆积，是许多计算机模拟蛋白质建模与设计任务中的关键步骤。流行的蛋白质堆积方法通常依赖于近似的能量函数和复杂算法来搜索密集的旋转异构体库。受深度学习在蛋白质建模任务中近期成功的启发，我们提出了ZymePackNet，一种基于图神经网络的蛋白质堆积工具，它不需要旋转异构体库、评分函数或搜索算法。我们使用表示为图的蛋白质晶体结构训练回归模型，这些模型被顺序用于从锚定蛋白质主链的原子到侧链末端的“萌发”侧链，随后进行迭代精炼阶段。与最先进的蛋白质堆积方法相比，ZymePackNet既快速又准确。我们在三个天然主链数据集上验证了我们的模型，侧链二面角（χ1至χ4）的平均绝对误差分别为16.6°、24.1°、42.1°和53.0°。ZymePackNet能够捕捉诸如π堆积等复杂物理相互作用，而无需在模型中显式考虑；这些效应在传统堆积工具使用的能量项中目前是缺失的。联系方式：abmukho@vt.edu 补充信息：补充数据可在Bioinformatics在线获取。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.05.539648",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.05.539648",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.05.539648/index.html"
+}

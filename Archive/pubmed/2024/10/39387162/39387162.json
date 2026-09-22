@@ -1,0 +1,321 @@
+{
+  "identity": {
+    "pmid": "39387162",
+    "doi": "10.1021/acs.jpcb.4c03749",
+    "title": "Investigating Different Dynamic pHP1alpha States in Their KCl-Mediated Liquid-Liquid Phase Separation (LLPS) Using Solid-State NMR (SSNMR) and Molecular Dynamic (MD) Simulations."
+  },
+  "content": {
+    "abstract": "Chromatin phase separation is dynamically regulated by many factors, such as post-translational modifications and effector proteins, and plays a critical role in genomic activities. The liquid-liquid phase separation (LLPS) of chromatin and/or effector proteins has been observed both in vitro and in vivo. However, the underlying mechanisms are largely unknown, and elucidating the physicochemical properties of the phase-separated complexes remains technically challenging. In this study, we detected dynamic, viscous, and intermediate components within the phosphorylated heterochromatin protein 1alpha (pHP1alpha) phase-separated system by using modified solid-state NMR (SSNMR) pulse sequences. The basis of these sequences relies on the different time scale of motion detected by heteronuclear Overhauser effect (hetNOE), scalar coupling-based, and dipolar coupling-based transfer schemes in NMR. In comparison to commonly utilized scalar coupling-based methods for studying the dynamic components in phase-separated systems, hetNOE offers more direct insight into molecular dynamics. NMR signals from the three different states in the protein gel were selectively excited and individually studied. Combined with molecular dynamics (MD) simulations, our findings indicate that at low KCl concentration (30 mM), the protein gel displays reduced molecular motion. Conversely, an increase in molecular motion was observed at a high KCl concentration (150 mM), which we attribute to the resultant intermolecular electrostatic interactions regulated by KCl.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "*Potassium Chloride/chemistry",
+      "*Nuclear Magnetic Resonance, Biomolecular",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chin, Sze Yuet",
+        "Chen, Yinglu",
+        "Zhao, Lei",
+        "Liu, Xinyi",
+        "Chng, Choon-Peng",
+        "Soman, Aghil",
+        "Nordenskiold, Lars",
+        "Huang, Changjin",
+        "Shi, Xiangyan",
+        "Xue, Kai"
+      ],
+      "short_names": [
+        "Chin SY",
+        "Chen Y",
+        "Zhao L",
+        "Liu X",
+        "Chng CP",
+        "Soman A",
+        "Nordenskiold L",
+        "Huang C",
+        "Shi X",
+        "Xue K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3681-209X",
+        "ORCID: 0000-0002-1941-1200",
+        "ORCID: 0000-0001-7824-5516"
+      ],
+      "affiliations": [
+        "Centre of High Field NMR Spectroscopy and Imaging, Nanyang Technological University, 21 Nanyang Link, 637371 Singapore.",
+        "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province 518172, China.",
+        "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province 518172, China.",
+        "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province 518172, China.",
+        "School of Mechanical and Aerospace Engineering, Nanyang Technological University, 50 Nanyang Avenue, 637798 Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, 637551 Singapore.",
+        "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, 637551 Singapore.",
+        "School of Mechanical and Aerospace Engineering, Nanyang Technological University, 50 Nanyang Avenue, 637798 Singapore.",
+        "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province 518172, China.",
+        "Centre of High Field NMR Spectroscopy and Imaging, Nanyang Technological University, 21 Nanyang Link, 637371 Singapore.",
+        "School of Physical and Mathematical Science, Nanyang Technological University, 21 Nanyang Link, 637371 Singapore."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chin, Sze Yuet",
+        "short_name": "Chin SY",
+        "identifiers": [],
+        "affiliations": [
+          "Centre of High Field NMR Spectroscopy and Imaging, Nanyang Technological University, 21 Nanyang Link, 637371 Singapore."
+        ]
+      },
+      {
+        "full_name": "Chen, Yinglu",
+        "short_name": "Chen Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province 518172, China."
+        ]
+      },
+      {
+        "full_name": "Zhao, Lei",
+        "short_name": "Zhao L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province 518172, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Xinyi",
+        "short_name": "Liu X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province 518172, China."
+        ]
+      },
+      {
+        "full_name": "Chng, Choon-Peng",
+        "short_name": "Chng CP",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mechanical and Aerospace Engineering, Nanyang Technological University, 50 Nanyang Avenue, 637798 Singapore."
+        ]
+      },
+      {
+        "full_name": "Soman, Aghil",
+        "short_name": "Soman A",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, 637551 Singapore."
+        ]
+      },
+      {
+        "full_name": "Nordenskiöld, Lars",
+        "short_name": "Nordenskiöld L",
+        "identifiers": [
+          "0000-0002-3681-209X"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, Nanyang Technological University, 60 Nanyang Drive, 637551 Singapore."
+        ]
+      },
+      {
+        "full_name": "Huang, Changjin",
+        "short_name": "Huang C",
+        "identifiers": [
+          "0000-0002-1941-1200"
+        ],
+        "affiliations": [
+          "School of Mechanical and Aerospace Engineering, Nanyang Technological University, 50 Nanyang Avenue, 637798 Singapore."
+        ]
+      },
+      {
+        "full_name": "Shi, Xiangyan",
+        "short_name": "Shi X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biology, Shenzhen MSU-BIT University, Shenzhen, Guangdong Province 518172, China."
+        ]
+      },
+      {
+        "full_name": "Xue, Kai",
+        "short_name": "Xue K",
+        "identifiers": [
+          "0000-0001-7824-5516"
+        ],
+        "affiliations": [
+          "Centre of High Field NMR Spectroscopy and Imaging, Nanyang Technological University, 21 Nanyang Link, 637371 Singapore.",
+          "School of Physical and Mathematical Science, Nanyang Technological University, 21 Nanyang Link, 637371 Singapore."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2024 Oct 24",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/10 06:22",
+    "fetched_at": "2026-09-22 01:47:28"
+  },
+  "links": {
+    "cites": [
+      "41372631"
+    ],
+    "refs": [],
+    "similar": [
+      "39387162",
+      "39846510",
+      "41372631",
+      "40711461",
+      "40919591",
+      "30845353",
+      "31911439",
+      "39342654",
+      "38547652",
+      "39372747",
+      "39302099",
+      "41433062",
+      "20690692",
+      "26207171",
+      "33655754",
+      "36419510",
+      "38862770",
+      "28353338",
+      "40053704",
+      "29702226",
+      "40516596",
+      "39815790",
+      "40792356",
+      "35500664",
+      "25026099",
+      "39497416",
+      "34074792",
+      "37870432",
+      "39990825",
+      "33255213",
+      "31669793",
+      "42081454",
+      "41524628",
+      "41535729",
+      "31769684",
+      "41457474",
+      "40291420",
+      "38979955",
+      "36444977",
+      "38526948",
+      "38322526",
+      "41235230",
+      "41930927",
+      "38446061",
+      "36231107",
+      "40138713",
+      "24160761",
+      "41307542",
+      "40748104",
+      "39950408",
+      "16939274",
+      "39326869",
+      "40632496",
+      "37146977",
+      "30840442",
+      "23912807",
+      "40515902",
+      "41442811",
+      "39162498",
+      "38811080",
+      "39964249",
+      "40917475",
+      "41873070",
+      "38245749",
+      "36524527",
+      "35709363",
+      "31756090",
+      "39421885",
+      "35351518",
+      "33930266",
+      "40305655",
+      "23454579",
+      "41363845",
+      "40350613",
+      "41001641",
+      "34156864",
+      "38048471",
+      "40616404",
+      "36710442",
+      "38465679",
+      "37189373",
+      "40854822",
+      "41575805",
+      "41804277",
+      "25207671",
+      "41747393",
+      "41609052",
+      "34824218",
+      "40918042",
+      "37267850",
+      "32579946",
+      "40281357",
+      "25600810",
+      "33607084",
+      "28507126",
+      "36841957",
+      "40842365",
+      "38546977",
+      "33765580",
+      "40915256"
+    ],
+    "review": [
+      "39387162",
+      "40919591",
+      "31911439",
+      "38547652",
+      "33655754",
+      "28353338",
+      "29702226",
+      "39990825",
+      "38979955",
+      "24160761",
+      "41307542",
+      "30840442",
+      "41442811",
+      "38811080",
+      "39964249",
+      "40917475",
+      "41873070",
+      "38245749",
+      "36524527",
+      "40616404",
+      "36710442",
+      "40854822",
+      "41575805",
+      "40918042",
+      "37267850"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.4c03749",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.16.553512",
+  "title": "Coronaviruses Spike glycoprotein endodomains: the sequence and structure-based comprehensive study",
+  "doi": "10.1101/2023.08.16.553512",
+  "abstract": "The flexibility of proteins makes them available to interact with many biomolecules in the cell. Specifically, such interactions in viruses help them to perform more functions despite having a smaller genome. Therefore, these flexible regions can be exciting and essential targets to be explored for their role in pathogenicity and therapeutic developments as they achieve essential interactions. In the continuation with our previous study on disordered analysis of SARS-CoV-2 spike cytoplasmic tail (CTR), or endodomain, here we have explored the disordered potential endodomains of six other coronaviruses using multiple bioinformatics approaches and molecular dynamics simulations. Based on the comprehensive analysis of its sequence and structural composition, we report the varying disorder propensity in endodomains of spike proteins of coronaviruses. The observations of this study may help to understand the importance of spike glycoprotein endodomain and creating therapeutic interventions against them.",
+  "authors": [
+    "Kumar P",
+    "Bhardwaj A",
+    "Mukherjee B",
+    "Joshi R",
+    "Giri R"
+  ],
+  "published_date": "2023-08-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.16.553512",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.16.553512.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR705949",
+    "raw_record": {
+      "id": "PPR705949",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR705949"
+        ]
+      },
+      "doi": "10.1101/2023.08.16.553512",
+      "title": "Coronaviruses Spike glycoprotein endodomains: the sequence and structure-based comprehensive study",
+      "authorString": "Kumar P, Bhardwaj A, Mukherjee B, Joshi R, Giri R.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Kumar P",
+            "lastName": "Kumar",
+            "firstName": "Prateek",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7392-5045"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bhardwaj A",
+            "lastName": "Bhardwaj",
+            "firstName": "Aparna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mukherjee B",
+            "lastName": "Mukherjee",
+            "firstName": "Bodhidipra",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Joshi R",
+            "lastName": "Joshi",
+            "firstName": "Richa",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh 175005, India"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Giri R",
+            "lastName": "Giri",
+            "firstName": "Rajanish",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2046-836X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biosciences and Bioengineering, Indian Institute of Technology Mandi, VPO Kamand, Himachal Pradesh 175005, India"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7392-5045"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2046-836X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "The flexibility of proteins makes them available to interact with many biomolecules in the cell. Specifically, such interactions in viruses help them to perform more functions despite having a smaller genome. Therefore, these flexible regions can be exciting and essential targets to be explored for their role in pathogenicity and therapeutic developments as they achieve essential interactions. In the continuation with our previous study on disordered analysis of SARS-CoV-2 spike cytoplasmic tail (CTR), or endodomain, here we have explored the disordered potential endodomains of six other coronaviruses using multiple bioinformatics approaches and molecular dynamics simulations. Based on the comprehensive analysis of its sequence and structural composition, we report the varying disorder propensity in endodomains of spike proteins of coronaviruses. The observations of this study may help to understand the importance of spike glycoprotein endodomain and creating therapeutic interventions against them.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/08/16/2023.08.16.553512.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.16.553512"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR705949"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR705949&type=FILE&fileName=EMS186876-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37833239",
+            "reference": "Protein science : a publication of the Protein Society. 2023 Nov;32(11):e4804",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS186876",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-08-29",
+      "firstPublicationDate": "2023-08-16",
+      "firstIndexDate": "2023-08-31",
+      "fullTextReceivedDate": "2023-10-11",
+      "hasEvaluations": "N"
+    }
+  }
+}

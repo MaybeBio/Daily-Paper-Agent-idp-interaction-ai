@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42425424",
+  "title": "Atomistic mapping of the Sclerostin-LRP6 binding interface using molecular dynamics simulation and essential dynamics.",
+  "authors": "Babelian, Mohammad; Azghandi, Yalda; Mehrnejad, Faramarz; Naderi-Manesh, Hossein",
+  "journal": "Biochimica et biophysica acta. Proteins and proteomics",
+  "published_date": "2026-07-10",
+  "window": {
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究用原子级分子动力学模拟解析Sclerostin（含IDR）与LRP6复合物的结合界面，揭示双区域锚定-动态重塑的互作机制，对象、PPI机制与物理模拟方法齐备，对无序蛋白介导互作的机制建模有直接参考价值。",
+  "abstract": "This study investigates the molecular mechanism by which Sclerostin (SOST), a secreted cystine-knot protein with a structured core and functionally relevant highly flexible or intrinsically disordered regions (IDRs), inhibits the LRP6 co-receptor, a central component of canonical Wnt beta-catenin signaling that regulates bone homeostasis and represents a key therapeutic target in osteoporosis. Although previous structural and biochemical studies have suggested a multivalent mode of SOST engagement involving the LRP6 E1E2 region, the molecular determinants of high-affinity inhibition remain incompletely defined due to the construction of truncations and unresolved disordered segments. In this Investigation, we applied atomistic molecular dynamics (MD) simulations of the human SOST-LRP6 E1E2 ectodomain complex to examine its stability and residue-level interaction behavior in solution. The simulations indicate that SOST engages LRP6 through two coordinated regions. Specifically, the loop 2 region of SOST, particularly the conserved NAI motif, maintains stable interactions with the E1 domain, while the C-terminal region of SOST, including the previously described HNQS motif as well as additional downstream residues, interacts with the E2 domain. These extended interactions provide a mechanistic explanation for the higher binding affinity observed for full-length SOST compared with truncated variants. In contrast to prior structural studies, this work reveals an anchor-stabilized, chemically diverse interaction network in which persistent loop 2/E1 and C-terminal/E2 contacts maintain receptor engagement while surrounding contacts dynamically remodel, providing deeper insight into bone-related signaling mechanisms.",
+  "abstract_zh": "本研究探讨了Sclerostin（SOST）——一种具有结构化核心及功能相关高度柔性或内在无序区域（IDRs）的分泌性半胱氨酸结蛋白——抑制LRP6共受体的分子机制，后者是经典Wnt β-catenin信号传导的核心组成部分，该信号调节骨稳态，并代表骨质疏松症中的关键治疗靶点。尽管先前的结构和生化研究提示SOST参与涉及LRP6 E1E2区域的多价结合模式，但由于截短构建体及未解析的无序片段，高亲和力抑制的分子决定因素仍未完全明确。在本研究中，我们应用人SOST-LRP6 E1E2胞外域复合物的原子级分子动力学（molecular dynamics）模拟，以检查其在溶液中的稳定性及残基水平相互作用行为。模拟表明，SOST通过两个协调区域与LRP6结合。具体而言，SOST的loop 2区域，特别是保守的NAI基序，与E1域维持稳定相互作用，而SOST的C端区域，包括先前描述的HNQS基序及额外下游残基，与E2域相互作用。这些扩展的相互作用为全长SOST相比截短变体观察到的更高结合亲和力提供了机制性解释。与先前结构研究相反，本工作揭示了一种锚定稳定、化学多样化的相互作用网络，其中持续的loop 2/E1和C端/E2接触维持受体结合，而周围接触动态重塑，为骨相关信号机制提供了更深入的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42425424/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42425424/",
+  "paper_page_path": "papers/pubmed/42425424/index.html"
+}

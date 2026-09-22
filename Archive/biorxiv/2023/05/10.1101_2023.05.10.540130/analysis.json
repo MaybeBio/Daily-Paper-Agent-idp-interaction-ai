@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.10.540130",
+  "title": "Phosphorylated trimeric SOSS1 complex and RNA polymerase II trigger liquid-liquid phase separation at double-strand breaks",
+  "authors": "Long Q; Sebesta M; Sedova K; Haluza V; Alagia A; Liu Z; Stefl R; Gullerova M",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-10",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究SOSS1复合物与RNA聚合酶II在DNA双链断裂处通过磷酸化触发液-液相分离形成修复区室，涉及IDR介导的PPI与LLPS机制，但对象为DNA修复而非典型无序蛋白互作建模，方法以实验为主，AI/物理模拟贡献有限。",
+  "abstract": "The most toxic forms of DNA damage are double-strand breaks (DSBs). We have previously shown that RNA polymerase II (RNAPII), phosphorylated at tyrosine 1 (Y1P) on the C- terminal domain, transcribes RNA at DSBs to promote efficient DNA repair. However, it is still unknown how transcription is regulated at DSBs. Here, we show that the trimeric SOSS1 complex (hSSB1, INTS3, and c9orf80) binds to Y1P RNAPII in response to DNA damage, hSSB1 binds to R-loops, and formation of the SOSS1 complex is required for the coexistence of replication protein A (RPA) and hSSB1 at DSBs. The damage-activated tyrosine kinase c- Abl phosphorylates hSSB1 to enable its binding to Y1P RNAPII and its recruitment to DSBs. Finally, we show both in vitro and in vivo that the SOSS1 complex and RNAPII form dynamic repair compartments at DSBs via liquid-liquid phase separation (LLPS). The loss of the trimeric SOSS1 leads to impaired DNA repair, highlighting its biological importance in the RNA-dependent DNA damage response. <h4>Teaser</h4> Trimeric SOSS1 complex and transcription contribute to phase separation at double-strand DNA breaks.",
+  "abstract_zh": "最具毒性的DNA损伤形式是双链断裂（DSBs）。我们此前已表明，RNA聚合酶II（RNAPII）在C末端结构域的酪氨酸1位点磷酸化（Y1P）后，在DSBs处转录RNA以促进高效的DNA修复。然而，目前仍不清楚DSBs处的转录是如何被调控的。在此，我们展示了三聚体SOSS1复合物（hSSB1、INTS3和c9orf80）在响应DNA损伤时与Y1P RNAPII结合，hSSB1与R环结合，并且SOSS1复合物的形成是复制蛋白A（RPA）和hSSB1在DSBs处共存所必需的。损伤激活的酪氨酸激酶c-Abl磷酸化hSSB1，使其能够与Y1P RNAPII结合并招募至DSBs。最后，我们在体外和体内均表明，SOSS1复合物和RNAPII通过液-液相分离（LLPS）在DSBs处形成动态修复区室。三聚体SOSS1的缺失导致DNA修复受损，突显了其在RNA依赖性DNA损伤反应中的生物学重要性。<h4>摘要</h4> 三聚体SOSS1复合物和转录有助于双链DNA断裂处的相分离。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.10.540130",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.10.540130",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.10.540130/index.html"
+}

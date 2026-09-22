@@ -1,0 +1,314 @@
+{
+  "identity": {
+    "pmid": "41337470",
+    "doi": "10.1371/journal.pcbi.1013774",
+    "title": "BAGEL: Protein engineering via exploration of an energy landscape."
+  },
+  "content": {
+    "abstract": "Despite recent breakthroughs in deep learning methods for protein design, existing computational pipelines remain rigid, highly specific, and ill-suited for tasks requiring non-differentiable or multi-objective design goals. In this report, we introduce BAGEL, a modular, open-source framework for programmable protein engineering, enabling flexible exploration of sequence space through model-agnostic and gradient-free exploration of an energy landscape. BAGEL formalizes protein design as the sampling of an energy function, either to optimize (find a global optimum) or to explore a basin of interest (generate diverse candidates). This energy function is composed of user-defined terms capturing geometric constraints, sequence embedding similarities, or structural confidence metrics. BAGEL also natively supports multi-state optimization and advanced Monte Carlo techniques, providing researchers with a flexible alternative to fixed-backbone and inverse-folding paradigms common in current design workflows. Moreover, the package seamlessly integrates a wide range of publicly available deep learning protein models, allowing users to rapidly take full advantage of any future improvements in model accuracy and speed. We illustrate the versatility of BAGEL on four archetypal applications: designing de novo peptide binders, targeting intrinsically disordered epitopes, selectively binding to species-specific variants, and generating enzyme variants with conserved catalytic sites. By offering a modular, easy-to-use platform to define custom protein design objectives and optimization strategies, BAGEL aims to speed up the design of new proteins. Our goal with its release is to democratize protein design, abstracting the process as much as possible from technical implementation details and thereby making it more accessible to the broader scientific community, unlocking untapped potential for innovation in biotechnology and therapeutics.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Protein Engineering/methods",
+      "*Proteins/chemistry/genetics",
+      "*Software",
+      "Deep Learning",
+      "Computational Biology/methods",
+      "Monte Carlo Method",
+      "Models, Molecular"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lala, Jakub",
+        "Al-Saffar, Ayham",
+        "Angioletti-Uberti, Stefano"
+      ],
+      "short_names": [
+        "Lala J",
+        "Al-Saffar A",
+        "Angioletti-Uberti S"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5424-5260",
+        "ORCID: 0009-0007-9772-8610",
+        "ORCID: 0000-0003-2917-2415"
+      ],
+      "affiliations": [
+        "Department of Materials, Imperial College London, London, United Kingdom.",
+        "Department of Materials, Imperial College London, London, United Kingdom.",
+        "Department of Materials, Imperial College London, London, United Kingdom.",
+        "Nanograb Ltd., London, United Kingdom.",
+        "AminoAnalytica Ltd., London, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lála, Jakub",
+        "short_name": "Lála J",
+        "identifiers": [
+          "0000-0002-5424-5260"
+        ],
+        "affiliations": [
+          "Department of Materials, Imperial College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Al-Saffar, Ayham",
+        "short_name": "Al-Saffar A",
+        "identifiers": [
+          "0009-0007-9772-8610"
+        ],
+        "affiliations": [
+          "Department of Materials, Imperial College London, London, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Angioletti-Uberti, Stefano",
+        "short_name": "Angioletti-Uberti S",
+        "identifiers": [
+          "0000-0003-2917-2415"
+        ],
+        "affiliations": [
+          "Department of Materials, Imperial College London, London, United Kingdom.",
+          "Nanograb Ltd., London, United Kingdom.",
+          "AminoAnalytica Ltd., London, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 Dec",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/03 19:14",
+    "fetched_at": "2026-09-17 22:37:00"
+  },
+  "links": {
+    "cites": [
+      "42564542",
+      "41927461",
+      "41867703"
+    ],
+    "refs": [
+      "41345299",
+      "41342507",
+      "40866699",
+      "40691301",
+      "40667369",
+      "40638710",
+      "40568179",
+      "40294391",
+      "40262634",
+      "40166198",
+      "40155723",
+      "39990437",
+      "39818825",
+      "39605745",
+      "39443793",
+      "39322764",
+      "38898281",
+      "38718835",
+      "37968394",
+      "37433327",
+      "37197469",
+      "37072397",
+      "36927031",
+      "36918529",
+      "36702895",
+      "36344848",
+      "36213121",
+      "36192636",
+      "36108050",
+      "35900023",
+      "35789363",
+      "34853475",
+      "34503213",
+      "34282049",
+      "34265844",
+      "34220841",
+      "33876751",
+      "33503651",
+      "32939066",
+      "31729942",
+      "31706618",
+      "31269263",
+      "30285630",
+      "23986568",
+      "23488823",
+      "23162384",
+      "21514144",
+      "18287285",
+      "16392908",
+      "15847516",
+      "15476259",
+      "10032153",
+      "9183534",
+      "4760134",
+      "2028256",
+      "1853201"
+    ],
+    "similar": [
+      "41337470",
+      "42475469",
+      "23912807",
+      "41570866",
+      "41081718",
+      "42140310",
+      "41270120",
+      "41206951",
+      "42192491",
+      "22735950",
+      "30452434",
+      "39407556",
+      "42391398",
+      "41839238",
+      "31699898",
+      "41456696",
+      "29702641",
+      "40683605",
+      "28604768",
+      "41877581",
+      "41562285",
+      "28837553",
+      "42321544",
+      "40306261",
+      "29262162",
+      "42001978",
+      "42412847",
+      "10547293",
+      "42247461",
+      "42056544",
+      "23912941",
+      "27914063",
+      "39054322",
+      "34769173",
+      "42089695",
+      "27911735",
+      "41877480",
+      "27914058",
+      "19324680",
+      "30925867",
+      "15961500",
+      "31344278",
+      "38097100",
+      "41401395",
+      "42123499",
+      "32522662",
+      "40546234",
+      "33017412",
+      "27914045",
+      "41675592",
+      "42172287",
+      "27914044",
+      "40694144",
+      "39196930",
+      "38991035",
+      "36321557",
+      "27914051",
+      "39107888",
+      "40662823",
+      "20186860",
+      "41580967",
+      "22279426",
+      "41824966",
+      "27914056",
+      "42412784",
+      "38676939",
+      "41053403",
+      "39617781",
+      "19644177",
+      "40448386",
+      "42491247",
+      "27681371",
+      "41579411",
+      "15981249",
+      "33249652",
+      "41174313",
+      "39775201",
+      "40527958",
+      "23842814",
+      "33507980",
+      "19003998",
+      "24037756",
+      "40622483",
+      "18069664",
+      "27535545",
+      "39348412",
+      "40388205",
+      "41887012",
+      "40897171",
+      "41178755",
+      "26730484",
+      "41266037",
+      "27914053",
+      "39432683",
+      "21789164",
+      "41977286",
+      "32511232",
+      "27914062",
+      "42424392",
+      "25724101"
+    ],
+    "review": [
+      "41337470",
+      "41570866",
+      "39407556",
+      "41839238",
+      "31699898",
+      "41456696",
+      "40683605",
+      "42056544",
+      "34769173",
+      "27911735",
+      "19324680",
+      "38097100",
+      "42123499",
+      "27914045",
+      "27914044",
+      "40694144",
+      "36321557",
+      "38676939",
+      "42491247",
+      "41579411",
+      "41887012",
+      "40897171"
+    ],
+    "pmc": [
+      "12688157"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1013774",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41337470/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

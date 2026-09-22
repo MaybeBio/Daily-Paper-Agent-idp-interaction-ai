@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33653952",
+  "title": "Mesoscopic protein-rich clusters host the nucleation of mutant p53 amyloid fibrils.",
+  "authors": "Yang, David S; Saeedi, Arash; Davtyan, Aram; Fathi, Mohsen; Sherman, Michael B; Safari, Mohammad S; Klindziuk, Alena; Barton, Michelle C; Varadarajan, Navin; Kolomeisky, Anatoly B; Vekilov, Peter G",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2021-03-04",
+  "window": {
+    "start": "2021-03-01",
+    "end": "2021-03-07"
+  },
+  "score": 7,
+  "one_liner_zh": "该文结合细胞成像、光散射、电镜与分子模拟，揭示突变p53 R248Q形成介观蛋白富集簇并作为淀粉样纤维成核场所的机制，虽对象为部分无序的p53而非典型IDP，且互作轴较弱，但凝聚体介导成核的物理机制建模对本课题有启发。",
+  "abstract": "The protein p53 is a crucial tumor suppressor, often called \"the guardian of the genome\"; however, mutations transform p53 into a powerful cancer promoter. The oncogenic capacity of mutant p53 has been ascribed to enhanced propensity to fibrillize and recruit other cancer fighting proteins in the fibrils, yet the pathways of fibril nucleation and growth remain obscure. Here, we combine immunofluorescence three-dimensional confocal microscopy of human breast cancer cells with light scattering and transmission electron microscopy of solutions of the purified protein and molecular simulations to illuminate the mechanisms of phase transformations across multiple length scales, from cellular to molecular. We report that the p53 mutant R248Q (R, arginine; Q, glutamine) forms, both in cancer cells and in solutions, a condensate with unique properties, mesoscopic protein-rich clusters. The clusters dramatically diverge from other protein condensates. The cluster sizes are decoupled from the total cluster population volume and independent of the p53 concentration and the solution concentration at equilibrium with the clusters varies. We demonstrate that the clusters carry out a crucial biological function: they host and facilitate the nucleation of amyloid fibrils. We demonstrate that the p53 clusters are driven by structural destabilization of the core domain and not by interactions of its extensive unstructured region, in contradistinction to the dense liquids typical of disordered and partially disordered proteins. Two-step nucleation of mutant p53 amyloids suggests means to control fibrillization and the associated pathologies through modifying the cluster characteristics. Our findings exemplify interactions between distinct protein phases that activate complex physicochemical mechanisms operating in biological systems.",
+  "abstract_zh": "蛋白p53是一个关键的肿瘤抑制因子，常被称为“基因组守护者”；然而，突变将p53转化为强大的癌症促进因子。突变p53的致癌能力归因于其增强的原纤维化倾向以及在原纤维中招募其他抗癌蛋白的能力，但原纤维成核和生长的途径仍不清楚。在此，我们结合人乳腺癌细胞的免疫荧光三维共聚焦显微镜、纯化蛋白溶液的光散射和透射电子显微镜以及分子模拟，阐明从细胞到分子多个长度尺度上的相变机制。我们报告p53突变体R248Q（R，精氨酸；Q，谷氨酰胺）在癌细胞和溶液中均形成具有独特性质的凝聚体，即介观尺度的富蛋白簇。这些簇与其他蛋白凝聚体显著不同。簇的大小与总簇群体积解耦，独立于p53浓度，且与簇平衡的溶液浓度有所变化。我们证明这些簇执行关键的生物学功能：它们承载并促进淀粉样原纤维的成核。我们证明p53簇由核心域的结构失稳驱动，而非其广泛无序区域的相互作用，这与无序和部分无序蛋白典型的致密液体形成鲜明对比。突变p53淀粉样蛋白的两步成核提示通过修改簇特性来控制原纤维化及相关病理的途径。我们的发现例证了不同蛋白相之间的相互作用，这些相互作用激活了生物系统中运行的复杂物理化学机制。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33653952/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33653952/",
+  "paper_page_path": "papers/pubmed/33653952/index.html"
+}

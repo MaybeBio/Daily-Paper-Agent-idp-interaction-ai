@@ -1,0 +1,136 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2025.06.04.657965",
+  "title": "CGBack: Diffusion Model for Backmapping Large-Scale and Complex Coarse-Grained Molecular Systems",
+  "doi": "10.1101/2025.06.04.657965",
+  "abstract": "<h4>ABSTRACT</h4> Molecular dynamics simulations based on coarse-grained (CG) models are used to accelerate conformational dynamics of biomolecules and other chemical systems with reduced computational costs. CG models achieve it by discarding atomic information necessary for downstream structural analysis. Recovering the atomic detail from CG structures, i.e. backmapping, remains a fundamental challenge in multiscale modeling, especially for proteins and complex biomolecular assemblies. Recent machine learning methods have shown promise in reconstructing atomistic details, but most approaches only target simple systems at a small scale. In particular, conventional backmapping pipelines often fail to preserve stereochemistry, induce high-energy configurations, or require extensive minimization. Here we present CGBack, a backmapping framework that employs a denoising diffusion probabilistic model to reconstruct all-atom molecular structures from CG representations. CGBack consists of backmapping and refinement procedures and accurately recovers atomic coordinates across diverse protein systems from small to large scales. We show that CGBack is capable of accurately backmapping both single-chain and multi-chain molecular systems, including densely packed intrinsically disordered proteins in condensates. These results suggest that CGBack can be a powerful tool for multiscale molecular simulation pipelines. We anticipate that CGBack will enable more efficient workflows for protein modelling, as well as for other biomolecules across different CG models.",
+  "authors": [
+    "Ugarte La Torre D",
+    "Sugita Y"
+  ],
+  "published_date": "2025-06-08",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2025.06.04.657965",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2025.06.04.657965.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1032820",
+    "raw_record": {
+      "id": "PPR1032820",
+      "source": "PPR",
+      "doi": "10.1101/2025.06.04.657965",
+      "title": "CGBack: Diffusion Model for Backmapping Large-Scale and Complex Coarse-Grained Molecular Systems",
+      "authorString": "Ugarte La Torre D, Sugita Y.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ugarte La Torre D",
+            "lastName": "Ugarte La Torre",
+            "firstName": "Diego",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8391-8065"
+            }
+          },
+          {
+            "fullName": "Sugita Y",
+            "lastName": "Sugita",
+            "firstName": "Yuji",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9738-9216"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9738-9216"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8391-8065"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  Molecular dynamics simulations based on coarse-grained (CG) models are used to accelerate conformational dynamics of biomolecules and other chemical systems with reduced computational costs. CG models achieve it by discarding atomic information necessary for downstream structural analysis. Recovering the atomic detail from CG structures, i.e. backmapping, remains a fundamental challenge in multiscale modeling, especially for proteins and complex biomolecular assemblies. Recent machine learning methods have shown promise in reconstructing atomistic details, but most approaches only target simple systems at a small scale. In particular, conventional backmapping pipelines often fail to preserve stereochemistry, induce high-energy configurations, or require extensive minimization. Here we present CGBack, a backmapping framework that employs a denoising diffusion probabilistic model to reconstruct all-atom molecular structures from CG representations. CGBack consists of backmapping and refinement procedures and accurately recovers atomic coordinates across diverse protein systems from small to large scales. We show that CGBack is capable of accurately backmapping both single-chain and multi-chain molecular systems, including densely packed intrinsically disordered proteins in condensates. These results suggest that CGBack can be a powerful tool for multiscale molecular simulation pipelines. We anticipate that CGBack will enable more efficient workflows for protein modelling, as well as for other biomolecules across different CG models.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2025/06/08/2025.06.04.657965.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2025.06.04.657965"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40962313",
+            "reference": "Journal of chemical information and modeling. 2025 Oct;65(19):9974-9986",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2025-06-09",
+      "firstPublicationDate": "2025-06-08",
+      "firstIndexDate": "2025-06-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

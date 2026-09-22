@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40817583",
+  "title": "Unraveling the conformational landscape of amyloid precursor protein intracellular domain.",
+  "authors": "Mandal, Nabanita; Skepo, Marie",
+  "journal": "Biophysical journal",
+  "published_date": "2025-08-16",
+  "window": {
+    "start": "2025-08-11",
+    "end": "2025-08-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用MD模拟结合SAXS/CD/NMR研究AICD无序蛋白的构象系综与YENPTY基序的瞬态结构，虽聚焦单蛋白构象而非直接PPI，但其无序蛋白构象景观和瞬态稳定化机制对理解IDR介导互作具有可迁移启发。",
+  "abstract": "The amyloid precursor protein intracellular domain (AICD), a cleavage product of amyloid precursor protein implicated in Alzheimer disease and amyloid lateral sclerosis, is a functionally important but structurally elusive intrinsically disordered protein. In this study, we investigate the conformational ensemble of a 35-residue AICD segment encompassing the conserved YENPTY motif using molecular dynamics simulations, small-angle x-ray scattering, circular dichroism, and nuclear magnetic resonance data. Our results reveal that AICD fluctuates between compact and extended states, exhibiting dynamic secondary structure elements and heterogeneous solvent accessibility. Small-angle x-ray scattering and circular dichroism analyses support a partially compact, flexible ensemble, whereas time-lagged independent component analysis uncovers metastable conformational states. Residue-specific solvent accessibility and hydrogen bonding patterns highlight transient structural stabilization, particularly within the YENPTY motif. These findings highlight the structural plasticity of AICD and offer insights into its potential for interaction and regulatory roles in nuclear signaling and neurodegeneration.",
+  "abstract_zh": "淀粉样前体蛋白胞内结构域（AICD）是淀粉样前体蛋白的裂解产物，与阿尔茨海默病和肌萎缩侧索硬化症相关，是一种功能重要但结构 elusive 的固有无序蛋白。在本研究中，我们利用分子动力学 (molecular dynamics) 模拟、小角X射线散射 (small-angle x-ray scattering)、圆二色光谱 (circular dichroism) 和核磁共振 (nuclear magnetic resonance) 数据，研究了包含保守YENPTY基序的35残基AICD片段的构象系综。我们的结果表明，AICD在紧凑态和伸展态之间波动，表现出动态的二级结构元件和异质的溶剂可及性。小角X射线散射和圆二色光谱分析支持部分紧凑、柔性的系综，而时间滞后独立成分分析揭示了亚稳态构象状态。残基特异性溶剂可及性和氢键模式突出了瞬时结构稳定性，尤其是在YENPTY基序内。这些发现强调了AICD的结构可塑性，并为其在核信号传导和神经退行性疾病中的相互作用和调控角色提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40817583/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40817583/",
+  "paper_page_path": "papers/pubmed/40817583/index.html"
+}

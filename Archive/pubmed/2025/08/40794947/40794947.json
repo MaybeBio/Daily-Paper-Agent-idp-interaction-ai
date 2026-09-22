@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "40794947",
+    "doi": "10.1093/bib/bbaf393",
+    "title": "Prediction of liquid-phase separation proteins using Siamese network with feature fusion."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation (LLPS) is a common and important phenomenon where biomolecules form dynamic, membrane-less condensates through multivalent interactions, spontaneously separating into distinct concentration-dense and dilute phases. Research has shown that LLPS is associated with a wide range of cellular functional regulation. In this work, we establish a feature fusion framework based on a Siamese network for the prediction of LLPS proteins, which can integrate automatically extracted features from the protein itself and the protein-protein interaction (PPI) networks, and achieve good accuracy even in small sample sets. We used two representative graph embedding methods, Node2vec and DeepNF, to extract the embedding features of PPI networks and compared the impact of the two methods on model performance at different feature lengths. Our work provides a way for integrating multivalent interactions between proteins that drive LLPS, as well as a flexible framework for the fusion of different types of protein features, not only for LLPS prediction but also for other downstream prediction tasks. All relevant materials can be found at https://github.com/ispotato/SiameseNetwork_LLPS.",
+    "keywords": [
+      "PPI network embedding",
+      "deep learning",
+      "feature fusion",
+      "graph embedding",
+      "liquid-liquid phase separation"
+    ],
+    "mesh_terms": [
+      "*Proteins/chemistry/metabolism",
+      "*Protein Interaction Maps",
+      "*Computational Biology/methods",
+      "Algorithms",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yang, Ye-Hong",
+        "Liu, Qun",
+        "Liu, Jiang-Feng",
+        "Yang, Jun-Tao"
+      ],
+      "short_names": [
+        "Yang YH",
+        "Liu Q",
+        "Liu JF",
+        "Yang JT"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8526-6382"
+      ],
+      "affiliations": [
+        "School of Basic Medicine, Nanchang Medical College, No. 689, Hui Ren Da Dao, Xiaolan Economic Development Zone, Nanchang, 330006, China.",
+        "State Key Laboratory of Common Mechanism Research for Major Diseases, Department of Biochemistry and Molecular Biology, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences & Peking Union Medical College, No. 5, Dongdan 3, Dongcheng District Municipality of Beijing, Beijing, 100005, China.",
+        "School of Basic Medicine, Nanchang Medical College, No. 689, Hui Ren Da Dao, Xiaolan Economic Development Zone, Nanchang, 330006, China.",
+        "State Key Laboratory of Common Mechanism Research for Major Diseases, Department of Biochemistry and Molecular Biology, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences & Peking Union Medical College, No. 5, Dongdan 3, Dongcheng District Municipality of Beijing, Beijing, 100005, China.",
+        "School of Basic Medicine, Nanchang Medical College, No. 689, Hui Ren Da Dao, Xiaolan Economic Development Zone, Nanchang, 330006, China.",
+        "State Key Laboratory of Common Mechanism Research for Major Diseases, Department of Biochemistry and Molecular Biology, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences & Peking Union Medical College, No. 5, Dongdan 3, Dongcheng District Municipality of Beijing, Beijing, 100005, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yang, Ye-Hong",
+        "short_name": "Yang YH",
+        "identifiers": [
+          "0000-0001-8526-6382"
+        ],
+        "affiliations": [
+          "School of Basic Medicine, Nanchang Medical College, No. 689, Hui Ren Da Dao, Xiaolan Economic Development Zone, Nanchang, 330006, China.",
+          "State Key Laboratory of Common Mechanism Research for Major Diseases, Department of Biochemistry and Molecular Biology, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences & Peking Union Medical College, No. 5, Dongdan 3, Dongcheng District Municipality of Beijing, Beijing, 100005, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Qun",
+        "short_name": "Liu Q",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Nanchang Medical College, No. 689, Hui Ren Da Dao, Xiaolan Economic Development Zone, Nanchang, 330006, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Jiang-Feng",
+        "short_name": "Liu JF",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Common Mechanism Research for Major Diseases, Department of Biochemistry and Molecular Biology, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences & Peking Union Medical College, No. 5, Dongdan 3, Dongcheng District Municipality of Beijing, Beijing, 100005, China."
+        ]
+      },
+      {
+        "full_name": "Yang, Jun-Tao",
+        "short_name": "Yang JT",
+        "identifiers": [],
+        "affiliations": [
+          "School of Basic Medicine, Nanchang Medical College, No. 689, Hui Ren Da Dao, Xiaolan Economic Development Zone, Nanchang, 330006, China.",
+          "State Key Laboratory of Common Mechanism Research for Major Diseases, Department of Biochemistry and Molecular Biology, Institute of Basic Medical Sciences, Chinese Academy of Medical Sciences & Peking Union Medical College, No. 5, Dongdan 3, Dongcheng District Municipality of Beijing, Beijing, 100005, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Briefings in bioinformatics"
+    ],
+    "journal_abbrev": [
+      "Brief Bioinform"
+    ],
+    "pub_date": "2025 Jul 2",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/12 18:34",
+    "fetched_at": "2026-09-21 22:26:03"
+  },
+  "links": {
+    "cites": [
+      "42184109"
+    ],
+    "refs": [
+      "39435343",
+      "39434494",
+      "38875537",
+      "38531854",
+      "38459060",
+      "38279650",
+      "37609923",
+      "36927031",
+      "35489069",
+      "35168563",
+      "35025997",
+      "35020807",
+      "34232869",
+      "33854237",
+      "33827920",
+      "33610793",
+      "31995729",
+      "31691822",
+      "31612960",
+      "31584089",
+      "31543422",
+      "30682370",
+      "30476243",
+      "30449618",
+      "30045872",
+      "30017918",
+      "29961577",
+      "29868758",
+      "29602697",
+      "29424691",
+      "28935776",
+      "28225081",
+      "27853626",
+      "27320918",
+      "27051975",
+      "26474065",
+      "26186194",
+      "26015579",
+      "22398450",
+      "21763600",
+      "19460965",
+      "10592235"
+    ],
+    "similar": [
+      "40794947",
+      "38679191",
+      "40632496",
+      "39067723",
+      "38833802",
+      "41405960",
+      "38963311",
+      "39434494",
+      "34450380",
+      "39446541",
+      "40629388",
+      "39930351",
+      "34624295",
+      "41032018",
+      "38811080",
+      "40887198",
+      "38322526",
+      "37448360",
+      "41094395",
+      "38808958",
+      "41241351",
+      "34245238",
+      "35168563",
+      "40811188",
+      "38205268",
+      "38547652",
+      "38724906",
+      "38526948",
+      "41031876",
+      "41272974",
+      "38741045",
+      "31612960",
+      "38564358",
+      "40784875",
+      "35922751",
+      "39814560",
+      "40820243",
+      "37187525",
+      "38892007",
+      "40459710",
+      "40618698",
+      "31581089",
+      "37793205",
+      "37609923",
+      "39990825",
+      "34653224",
+      "41442811",
+      "40616404",
+      "38997894",
+      "40619812",
+      "37796176",
+      "38865861",
+      "31510705",
+      "33517364",
+      "39705832",
+      "38245749",
+      "36444977",
+      "39404784",
+      "38251748",
+      "38231854",
+      "33371891",
+      "39979996",
+      "32593761",
+      "40792356",
+      "39833115",
+      "40210917",
+      "41250174",
+      "36471564",
+      "40362328",
+      "38385873",
+      "29868758",
+      "41039633",
+      "38181611",
+      "35802394",
+      "40642070",
+      "40646517",
+      "40705403",
+      "31584634",
+      "40811253",
+      "40524427",
+      "31787076",
+      "40515902",
+      "40959076",
+      "38923590",
+      "40463193",
+      "39553733",
+      "31941785",
+      "32970681",
+      "34152838",
+      "33152665",
+      "32770210",
+      "39006762",
+      "38380794",
+      "41457474",
+      "40174317",
+      "38856171",
+      "39922493",
+      "39312678",
+      "40439464",
+      "35142991"
+    ],
+    "review": [
+      "40794947",
+      "38811080",
+      "38808958",
+      "38547652",
+      "40820243",
+      "39990825",
+      "41442811",
+      "40616404",
+      "39705832",
+      "38245749",
+      "35802394",
+      "40642070",
+      "39553733",
+      "39006762"
+    ],
+    "pmc": [
+      "12342145"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40794947/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://academic.oup.com/bib/article-lookup/doi/10.1093/bib/bbaf393",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

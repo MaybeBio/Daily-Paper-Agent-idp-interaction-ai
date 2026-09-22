@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no full text, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report that the deadenylase CNOT7 shows increased degradation activity in vitro in condensates formed by the C-terminal low complexity disordered region of CAPRIN1. They propose that this enhancement arises from concentration of enzyme and RNA in condensates, while catalytic efficiency decreases due to slower diffusion. They further report that the active/inactive equilibrium of CNOT7 is unchanged, and that molecular dynamics simulations identify CNOT7-CAPRIN1 interactions dependent on conserved CAPRIN1 sequence features.
+- **Visible evidence base** Abstract text only; no experimental details, numerical data, or methodological descriptions are available
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, kinetic model details, NMR spectroscopy data, molecular dynamics simulation parameters, and experimental protocols
+
+## Reviewer
+- **Overall assessment** The abstract presents a mechanistically ambitious study that aims to deconvolute competing effects governing enzyme activity in biomolecular condensates. The topic is timely and of broad interest to the fields of phase separation, RNA biology, and enzymology. However, the abstract alone provides insufficient detail to evaluate the rigor of the kinetic modeling, the quantitative basis for the diffusion hypothesis, or the significance of the simulation results. Several claims are stated without supporting numerical evidence, and the relationship between the in vitro condensate system and physiological relevance is not addressed. The study has potential, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and their role in regulating biochemical reactions, particularly those focused on RNA metabolism and mRNA turnover. Enzymologists interested in how crowded and phase-separated environments alter enzyme kinetics would also find this relevant. Additionally, the proposed conserved CAPRIN1 sequence features and evolutionary implications would interest those studying the biology of RNA granules across species.
+- **Major strengths** The study combines multiple orthogonal techniques, including enzymatic assays, kinetic modeling, microscopy, NMR spectroscopy, and molecular dynamics simulations, which is a comprehensive approach. The explicit attempt to deconvolute competing effects, rather than simply reporting enhanced activity, is a conceptual strength. The finding that concentration effects and catalytic efficiency changes oppose each other is a nuanced and potentially important insight.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative support
+  - **Claim pointer** The claim that enzyme and RNA are concentrated in condensates relative to buffer, which increases CNOT7 activity, while the equilibrium between CNOT7's active and inactive states remains unchanged
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that concentration of enzyme and RNA increases activity and that the active/inactive equilibrium is unchanged, but no quantitative data are provided. No partition coefficients, concentration ratios, activity fold-changes, or equilibrium constants are reported. The claim that the equilibrium is unchanged is particularly strong and requires direct experimental evidence, presumably from NMR spectroscopy, but no details are given.
+  - **Why it matters** The central mechanistic conclusion depends on quantitatively separating concentration effects from intrinsic catalytic changes. Without numerical values, the reader cannot assess whether the reported effects are of meaningful magnitude or whether the conclusions are robust to experimental variability.
+  - **Resolution test** Provide partition coefficients for CNOT7 and RNA in condensates versus buffer, measured activity rates with corresponding uncertainties, and a direct comparison of active/inactive state populations from NMR data with statistical significance.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic support
+  - **Claim pointer** The claim that a substantial decrease in catalytic efficiency is likely due to slower diffusion of CNOT7 and RNA within condensates, lessening the probability of enzyme-substrate complex formation
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The diffusion-based explanation is presented as the likely cause of reduced catalytic efficiency, but no diffusion measurements, fluorescence recovery after photobleaching data, or other mobility assessments are described in the abstract. The word "likely" indicates uncertainty, yet the claim is presented as a central component of the mechanistic model. Alternative explanations, such as substrate sequestration, enzyme conformational changes, or product inhibition, are not discussed.
+  - **Why it matters** The proposed mechanism hinges on diffusion limitations as the counterbalancing factor. If this is not directly measured or rigorously supported by the kinetic model, the mechanistic conclusion is speculative and the competing effects framework is weakened.
+  - **Resolution test** Provide direct measurements of CNOT7 and RNA mobility within condensates, or a kinetic model that quantitatively links diffusion coefficients to observed catalytic efficiency changes, with model fitting and validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Evolutionary claim
+  - **Claim pointer** The claim that molecular dynamics simulations reveal CNOT7-CAPRIN1 interactions relying on conserved CAPRIN1 sequence features, hinting at an evolutionarily conserved role for CAPRIN1 condensation
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract states that simulations reveal interactions dependent on conserved sequence features, but no details are given about the simulation methodology, the specific interactions identified, the conservation analysis performed, or the statistical significance of the findings. The leap from simulation results to an evolutionary claim is substantial and requires supporting evidence from sequence alignments or comparative analyses.
+  - **Why it matters** The evolutionary implication is a notable claim that extends the study's relevance beyond the specific system. If not rigorously supported, it may overstate the findings and mislead readers about the generality of the mechanism.
+  - **Resolution test** Provide details of the simulation system, the identified interaction interfaces, the conservation analysis methodology, and a clear statement of how the simulation results support the evolutionary interpretation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Contextualization
+  - **Affected element** Physiological relevance
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not address whether the in vitro condensate system recapitulates conditions found in cells, nor does it discuss the physiological relevance of the observed effects for mRNA turnover in vivo.
+  - **Required correction** Add a brief statement in the abstract or discussion addressing the relationship between the in vitro system and cellular conditions, or explicitly acknowledge the limitations of the in vitro approach.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "unique solvent milieu" is vague and could be more precisely defined. The abstract would benefit from specifying which properties of the condensate environment are considered relevant, such as crowding, reduced water activity, or altered dielectric constant.
+  - **Required correction** Replace or supplement "unique solvent milieu" with specific physicochemical properties that are measured or manipulated in the study.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Quantitative reporting
+  - **Affected element** Kinetic parameters
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract mentions "increased degradation activity" and "substantial decrease in catalytic efficiency" but does not report any kinetic parameters, such as kcat, Km, or kcat/Km, in either condition.
+  - **Required correction** Include representative kinetic parameters with uncertainties in the abstract or refer to specific figures where these values are presented.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central mechanistic claims require quantitative and direct experimental support that is not evident from the abstract. R1-M3 is not blocking but requires substantial additional evidence to support the evolutionary interpretation.
+- **Assessment against Nature-style criteria** Originality: The study addresses a timely question about how condensates modulate enzyme kinetics, and the explicit focus on competing effects is a fresh angle. Scientific importance: The topic is important for understanding mRNA turnover and the functional roles of condensates, but the significance will depend on the robustness of the quantitative analysis. Interdisciplinary readership: The combination of enzymology, biophysics, and simulations should appeal to a broad audience, but the abstract must be accessible to nonspecialists. Technical soundness: Cannot be assessed from the abstract alone; the kinetic modeling and simulation approaches require scrutiny. Readability for nonspecialists: The abstract is generally clear but uses specialized terms without sufficient context, and the mechanistic narrative would benefit from more explicit framing of the competing effects.
+- **Recommendation posture** Currently not established from the provided evidence. The study is potentially significant, and I would be supportive if the quantitative data and methodological details provided in the full manuscript address the blocking concerns.
+
+## Risk / unsupported claims
+- The claim that the active/inactive equilibrium of CNOT7 is unchanged in condensates is unsupported without direct NMR or other biophysical data.
+- The claim that slower diffusion is the cause of reduced catalytic efficiency is unsupported without mobility measurements or a validated kinetic model.
+- The evolutionary claim regarding conserved CAPRIN1 sequence features is unsupported without details of the conservation analysis.
+- The overall quantitative relationship between concentration effects and catalytic efficiency changes is not assessable without numerical data.

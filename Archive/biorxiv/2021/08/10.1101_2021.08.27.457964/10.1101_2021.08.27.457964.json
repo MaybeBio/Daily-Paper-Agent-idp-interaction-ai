@@ -1,0 +1,408 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.08.27.457964",
+  "title": "Structural dynamics of SARS-CoV-2 nucleocapsid protein induced by RNA binding",
+  "doi": "10.1101/2021.08.27.457964",
+  "abstract": "The nucleocapsid (N) protein of the SARS-CoV-2 virus, the causal agent of COVID-19, is a multifunction phosphoprotein that plays critical roles in the virus life cycle, including transcription and packaging of the viral RNA. To play such diverse roles, the N protein has two globular RNA-binding modules, the N-(NTD) and C-terminal (CTD) domains, which are connected by an intrinsically disordered region. Despite the wealth of structural data available for the isolated NTD and CTD, how these domains are arranged in the full-length protein and how the oligomerization of N influences its RNA-binding activity remains largely unclear. Herein, using experimental data from electron microscopy and biochemical/biophysical techniques combined with molecular modeling and molecular dynamics simulations, we showed that, in the absence of RNA, the N protein formed structurally dynamic dimers, with the NTD and CTD arranged in extended conformations. However, in the presence of RNA, the N protein assumed a more compact conformation where the NTD and CTD are packed together. We also provided an octameric model for the full-length N bound to RNA that was consistent with electron microscopy images of the N protein in the presence of RNA. Together, our results shed new light on the dynamics and higher-order oligomeric structure of this versatile protein.",
+  "authors": [
+    "Filho HVR",
+    "Jara GE",
+    "Batista FAH",
+    "Schleder GR",
+    "Tonoli CC",
+    "Soprano AS",
+    "Guimarães SL",
+    "Borges AC",
+    "Cassago A",
+    "Bajgelman MC",
+    "Marques RE",
+    "Trivella DBB",
+    "Franchini KG",
+    "Figueira ACM",
+    "Benedetti CE",
+    "de Oliveira PSL"
+  ],
+  "published_date": "2021-08-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.08.27.457964",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.08.27.457964.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR387985",
+    "raw_record": {
+      "id": "PPR387985",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR387985"
+        ]
+      },
+      "doi": "10.1101/2021.08.27.457964",
+      "title": "Structural dynamics of SARS-CoV-2 nucleocapsid protein induced by RNA binding",
+      "authorString": "Filho HVR, Jara GE, Batista FAH, Schleder GR, Tonoli CC, Soprano AS, Guimarães SL, Borges AC, Cassago A, Bajgelman MC, Marques RE, Trivella DBB, Franchini KG, Figueira ACM, Benedetti CE, de Oliveira PSL.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Filho HVR",
+            "lastName": "Filho",
+            "firstName": "Helder Veras Ribeiro",
+            "initials": "HVR",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jara GE",
+            "lastName": "Jara",
+            "firstName": "Gabriel Ernesto",
+            "initials": "GE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5831-1392"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Batista FAH",
+            "lastName": "Batista",
+            "firstName": "Fernanda Aparecida Heleno",
+            "initials": "FAH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schleder GR",
+            "lastName": "Schleder",
+            "firstName": "Gabriel Ravanhani",
+            "initials": "GR",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3129-8682"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Nanotechnology National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tonoli CC",
+            "lastName": "Tonoli",
+            "firstName": "Celisa Caldana",
+            "initials": "CC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Soprano AS",
+            "lastName": "Soprano",
+            "firstName": "Adriana Santos",
+            "initials": "AS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Guimarães SL",
+            "lastName": "Guimarães",
+            "firstName": "Samuel Leite",
+            "initials": "SL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Borges AC",
+            "lastName": "Borges",
+            "firstName": "Antonio Carlos",
+            "initials": "AC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0023-6403"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Nanotechnology National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cassago A",
+            "lastName": "Cassago",
+            "firstName": "Alexandre",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1032-4749"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Nanotechnology National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bajgelman MC",
+            "lastName": "Bajgelman",
+            "firstName": "Marcio Chaim",
+            "initials": "MC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3371-1143"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marques RE",
+            "lastName": "Marques",
+            "firstName": "Rafael Elias",
+            "initials": "RE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6949-0947"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Trivella DBB",
+            "lastName": "Trivella",
+            "firstName": "Daniela Barreto Barbosa",
+            "initials": "DBB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Franchini KG",
+            "lastName": "Franchini",
+            "firstName": "Kleber Gomes",
+            "initials": "KG",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Figueira ACM",
+            "lastName": "Figueira",
+            "firstName": "Ana Carolina Migliorini",
+            "initials": "ACM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Benedetti CE",
+            "lastName": "Benedetti",
+            "firstName": "Celso Eduardo",
+            "initials": "CE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Oliveira PSL",
+            "lastName": "de Oliveira",
+            "firstName": "Paulo Sergio Lopes",
+            "initials": "PSL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Brazilian Biosciences National Laboratory, Brazilian Center for Research in Energy and Materials (CNPEM), Campinas, SP, Brazil"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8471-207X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5831-1392"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6949-0947"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7505-2345"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0023-6403"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0783-8378"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1032-4749"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3129-8682"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3371-1143"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "recommended_reviews",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The nucleocapsid (N) protein of the SARS-CoV-2 virus, the causal agent of COVID-19, is a multifunction phosphoprotein that plays critical roles in the virus life cycle, including transcription and packaging of the viral RNA. To play such diverse roles, the N protein has two globular RNA-binding modules, the N-(NTD) and C-terminal (CTD) domains, which are connected by an intrinsically disordered region. Despite the wealth of structural data available for the isolated NTD and CTD, how these domains are arranged in the full-length protein and how the oligomerization of N influences its RNA-binding activity remains largely unclear. Herein, using experimental data from electron microscopy and biochemical/biophysical techniques combined with molecular modeling and molecular dynamics simulations, we showed that, in the absence of RNA, the N protein formed structurally dynamic dimers, with the NTD and CTD arranged in extended conformations. However, in the presence of RNA, the N protein assumed a more compact conformation where the NTD and CTD are packed together. We also provided an octameric model for the full-length N bound to RNA that was consistent with electron microscopy images of the N protein in the presence of RNA. Together, our results shed new light on the dynamics and higher-order oligomeric structure of this versatile protein.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2021.08.27.457964"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.08.27.457964"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR387985"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR387985&type=FILE&fileName=EMS134161-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS134161",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2021-09-07",
+      "firstPublicationDate": "2021-08-28",
+      "firstIndexDate": "2021-09-07",
+      "fullTextReceivedDate": "2022-02-24",
+      "hasEvaluations": "N"
+    }
+  }
+}

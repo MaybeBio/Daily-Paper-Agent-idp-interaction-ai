@@ -1,0 +1,270 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.03.596235",
+  "title": "Crystallographic fragment screening of CDK2-cyclin A: FragLites map sites of protein-protein interaction",
+  "doi": "10.1101/2024.06.03.596235",
+  "abstract": "Protein-protein interaction sites (PPIs) are potentially more selective therapeutic binding sites than protein substrate binding sites. PPIs include distinct regions frequently called “hotspots,” sites of key amino acid interactions. Prospective identification of these hotspots through X-ray crystallographic screening could assist in the identification of separation of function mutants for experimental validation, enhance confidence in AI-generated multiprotein complex predictions and accelerate development of selective chemical probes. To explore these applications, we utilize the FragLite library to examine the binding surfaces of CDK2-cyclin A. The many protein- and peptide-CDK2-cyclin A complexes that have been structurally characterised make this complex an appropriate test case. We show that FragLites comprehensively map both known sites of protein-protein interaction on CDK2-cyclin A and identify a possible uncharacterised site, providing a structural method toward directing mechanistic studies and providing starting points for chemical probe design.",
+  "authors": [
+    "Hope I",
+    "Noble MEM",
+    "Waring MJ",
+    "Noble EMM",
+    "Endicott JA",
+    "Tatum NJ"
+  ],
+  "published_date": "2024-06-03",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.03.596235",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.03.596235.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR861163",
+    "raw_record": {
+      "id": "PPR861163",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR861163"
+        ]
+      },
+      "doi": "10.1101/2024.06.03.596235",
+      "title": "Crystallographic fragment screening of CDK2-cyclin A: FragLites map sites of protein-protein interaction",
+      "authorString": "Hope I, Noble MEM, Waring MJ, Noble EMM, Endicott JA, Tatum NJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hope I",
+            "lastName": "Hope",
+            "firstName": "Ian",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8002-5026"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Newcastle University Centre for Cancer, Translational and Clinical Research Institute, Newcastle University, Paul O’Gorman Building, Newcastle upon Tyne, NE2 4HH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Noble MEM",
+            "lastName": "Noble",
+            "firstName": "Martin",
+            "initials": "MEM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Newcastle University Centre for Cancer, Translational and Clinical Research Institute, Newcastle University, Paul O’Gorman Building, Newcastle upon Tyne, NE2 4HH, UK"
+                },
+                {
+                  "affiliation": "Cancer Research Horizons Therapeutic Innovation, Newcastle Drug Discovery Group, Translational and Clinical Research Institute, Newcastle University, Paul O’Gorman Building, Newcastle upon Tyne, NE2 4HH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Waring MJ",
+            "lastName": "Waring",
+            "firstName": "Michael",
+            "initials": "MJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9110-8783"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Cancer Research Horizons Therapeutic Innovation, Newcastle Drug Discovery Group, Translational and Clinical Research Institute, Newcastle University, Paul O’Gorman Building, Newcastle upon Tyne, NE2 4HH, UK"
+                },
+                {
+                  "affiliation": "Chemistry, School of Natural and Environmental Sciences, Newcastle University, Bedson Building, Newcastle upon Tyne, NE1 7RU, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Noble EMM",
+            "lastName": "Noble",
+            "firstName": "Martin",
+            "initials": "EMM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3595-9807"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Newcastle University Centre for Cancer, Translational and Clinical Research Institute, Newcastle University, Paul O’Gorman Building, Newcastle upon Tyne, NE2 4HH, UK"
+                },
+                {
+                  "affiliation": "Cancer Research Horizons Therapeutic Innovation, Newcastle Drug Discovery Group, Translational and Clinical Research Institute, Newcastle University, Paul O’Gorman Building, Newcastle upon Tyne, NE2 4HH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Endicott JA",
+            "lastName": "Endicott",
+            "firstName": "Jane",
+            "initials": "JA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Newcastle University Centre for Cancer, Translational and Clinical Research Institute, Newcastle University, Paul O’Gorman Building, Newcastle upon Tyne, NE2 4HH, UK"
+                },
+                {
+                  "affiliation": "Cancer Research Horizons Therapeutic Innovation, Newcastle Drug Discovery Group, Translational and Clinical Research Institute, Newcastle University, Paul O’Gorman Building, Newcastle upon Tyne, NE2 4HH, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tatum NJ",
+            "lastName": "Tatum",
+            "firstName": "Natalie",
+            "initials": "NJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3878-9265"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Newcastle University Centre for Cancer, Translational and Clinical Research Institute, Newcastle University, Paul O’Gorman Building, Newcastle upon Tyne, NE2 4HH, UK"
+                },
+                {
+                  "affiliation": "Cancer Research Horizons Therapeutic Innovation, Newcastle Drug Discovery Group, Translational and Clinical Research Institute, Newcastle University, Paul O’Gorman Building, Newcastle upon Tyne, NE2 4HH, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3595-9807"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8002-5026"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9110-8783"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3878-9265"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4810-3351"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Protein-protein interaction sites (PPIs) are potentially more selective therapeutic binding sites than protein substrate binding sites. PPIs include distinct regions frequently called “hotspots,” sites of key amino acid interactions. Prospective identification of these hotspots through X-ray crystallographic screening could assist in the identification of separation of function mutants for experimental validation, enhance confidence in AI-generated multiprotein complex predictions and accelerate development of selective chemical probes. To explore these applications, we utilize the FragLite library to examine the binding surfaces of CDK2-cyclin A. The many protein- and peptide-CDK2-cyclin A complexes that have been structurally characterised make this complex an appropriate test case. We show that FragLites comprehensively map both known sites of protein-protein interaction on CDK2-cyclin A and identify a possible uncharacterised site, providing a structural method toward directing mechanistic studies and providing starting points for chemical probe design.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.06.03.596235"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.03.596235"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR861163"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR861163&type=FILE&fileName=EMS196704-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40816275",
+            "reference": "Structure (London, England : 1993). 2025 Nov;33(11):1971-1983.e3",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 1,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196704",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-06-05",
+      "firstPublicationDate": "2024-06-03",
+      "firstIndexDate": "2024-06-05",
+      "fullTextReceivedDate": "2024-06-17",
+      "hasEvaluations": "N"
+    }
+  }
+}

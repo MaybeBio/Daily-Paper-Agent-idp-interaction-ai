@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.09.18.677163",
+  "title": "Destabilization of Structured RNAs by OPC and TIP4PD Water Models",
+  "authors": "Krepl M; Mlynsky V; Banas P; Otyepka M; Sponer J",
+  "journal": "bioRxiv",
+  "published_date": "2025-09-19",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究通过MD模拟比较不同水模型对结构化RNA稳定性的影响，虽涉及RNA-蛋白质界面（L1 stalk）但对象非IDP/相分离，且未聚焦PPI机制建模，方法上属物理模拟但可迁移至IDP互作模拟的水模型选择。",
+  "abstract": "The four-point OPC water model has recently gained reputation as the preferred choice for molecular dynamics (MD) simulations of nucleic acids and even proteins, providing more realistic reproduction of bulk physical properties of water than the older three-point models. It has been shown to improve for example simulations of unstructured biomolecules such as RNA tetranucleotides or intrinsically disordered proteins. However, the performance for folded RNA structures was not specifically explored. In this study, we present extensive testing of the OPC water model on three different RNAs with highly intricate tertiary structures - the ribosomal L1 stalk RNA-protein protuberance, the mini tetraloop-tetraloop receptor (miniTTR-6) folded RNA, and the GAAA tetraloop-tetraloop receptor homodimer. The OPC performance is directly compared against SPC/E, TIP3P, OPC3, and TIP4P-EW water models along with the common OL3 AMBER RNA force field (FF). We found substantial effect of the water model on simulation behavior. For all three systems, we observe large-scale unfolding of the RNA, and even loss of the L1 stalk protein-RNA interface, when simulated with the OPC. In contrast, the simulations are entirely stable with the three-point water models. The underlying cause seems to be the higher affinity of the OPC waters to H-bond donor and acceptor groups of the RNA, disrupting the native solute-solute interactions. An identical issue can be observed also for the similar and widely used TIP4PD water model combined with the DES-Amber RNA FF. Our findings suggest that caution is warranted when using the four-point OPC and TIP4PD water models for simulations of structured RNAs. In combination with the current AMBER RNA FFs, the three-point water models may provide more realistic alternatives.",
+  "abstract_zh": "四点OPC水模型近年来作为核酸甚至蛋白质分子动力学（molecular dynamics, MD）模拟的首选模型而声名鹊起，相比旧的三点模型，它能更真实地再现水的整体物理性质。研究表明，它改善了例如RNA四核苷酸或固有无序蛋白等非结构化生物分子的模拟。然而，对于折叠RNA结构的性能并未被专门探讨。在本研究中，我们对OPC水模型在三种具有高度复杂三级结构的RNA上进行了广泛测试——核糖体L1柄RNA-蛋白质突起、迷你四环-四环受体（miniTTR-6）折叠RNA，以及GAAA四环-四环受体同源二聚体。OPC性能直接与SPC/E、TIP3P、OPC3和TIP4P-EW水模型以及常见的OL3 AMBER RNA力场（FF）进行了比较。我们发现水模型对模拟行为有显著影响。对于所有三个系统，当使用OPC模拟时，我们观察到RNA的大规模解折叠，甚至L1柄蛋白-RNA界面的丧失。相比之下，使用三点水模型的模拟完全稳定。根本原因似乎是OPC水对RNA的氢键供体和受体基团具有更高的亲和力，破坏了天然的溶质-溶质相互作用。类似的问题在使用相似且广泛使用的TIP4PD水模型与DES-Amber RNA力场结合时也能观察到。我们的发现表明，在模拟结构化RNA时，使用四点OPC和TIP4PD水模型需谨慎。结合当前的AMBER RNA力场，三点水模型可能提供更现实的替代方案。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.09.18.677163",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.09.18.677163",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.09.18.677163/index.html"
+}

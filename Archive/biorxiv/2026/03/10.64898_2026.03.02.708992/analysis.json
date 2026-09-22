@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.02.708992",
+  "title": "Myristoylation licenses disordered viral VP4 protein to anchor to and perforate the membrane through phase separation",
+  "authors": "Huang S; Deng F; Liu T; Li W; Wang P; Song J; Huang J; Zhang S; Liu J; Wang Y; Zhang M; Sun B",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-04",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究通过多尺度分子动力学模拟与共聚焦实验，揭示豆蔻酰化修饰通过驱动无序病毒蛋白VP4的液-液相分离形成膜上凝聚体，进而穿孔宿主细胞膜的机制，完美契合无序蛋白介导互作与相分离的机制建模主题。",
+  "abstract": "The VP4 protein of enteroviruses, such as Coxsackievirus B3, is a small, intrinsically disordered protein essential for perforating the host cell membrane during viral entry. A key feature of VP4 is its N-terminal myristoylation, which is required for infectivity in some enteroviruses but dispensable in others, suggesting a complex and context-dependent role that is not fully understood. The precise biophysical mechanisms by which this lipid anchor enables a disordered protein to breach a membrane remain unresolved. Here, using Coxsackievirus B3 VP4 as a model system and integrating multi-scale molecular dynamics simulations with confocal microscopy, we demonstrate that myristoylation is not a simple membrane tether but a multi-functional regulator that orchestrates VP4 activity through distinct, hierarchical roles. First, it provides the necessary hydrophobic anchor to recruit the disordered VP4 to the membrane interface. Second, the myristoyl group acts as a key molecular driver that promotes the liquid-liquid phase separation of VP4, leading to the formation of dynamic condensates on the membrane surface. These condensates actively remodel the membrane, generating substantial curvature that, in turn, lowers the free energy barrier for VP4 penetration. Furthermore, we find evidence that the myristoyl group plays a third role in stabilizing the final transmembrane pore. Our findings establish a novel paradigm where a single lipid modification empowers a disordered viral protein to form a functionally potent condensate that mechanically primes and physically breaches the target membrane, a mechanism that may explain the conditional myristoylation requirement across enteroviruses.",
+  "abstract_zh": "肠道病毒（如柯萨奇病毒B3）的VP4蛋白是一种小型、 intrinsically disordered protein（本质无序蛋白），在病毒进入宿主细胞时对穿孔宿主细胞膜至关重要。VP4的一个关键特征是其N端豆蔻酰化（myristoylation），这在某些肠道病毒中对感染性必不可少，但在其他病毒中则可有可无，表明其作用复杂且依赖环境，尚未完全阐明。这种脂质锚定如何使无序蛋白穿透膜的具体生物物理机制仍不清楚。在此，我们以柯萨奇病毒B3 VP4为模型系统，结合多尺度分子动力学（molecular dynamics）模拟与共聚焦显微镜，证明豆蔻酰化并非简单的膜系链，而是一种多功能调节因子，通过不同层次的作用协调VP4活性。首先，它提供必要的疏水锚定，将无序VP4招募至膜界面。其次，豆蔻酰基作为关键分子驱动因子，促进VP4的液-液相分离（liquid-liquid phase separation），在膜表面形成动态凝聚体。这些凝聚体主动重塑膜，产生显著曲率，进而降低VP4穿透的自由能屏障。此外，我们发现证据表明豆蔻酰基在稳定最终跨膜孔中发挥第三重作用。我们的发现建立了一种新范式：单一脂质修饰赋予无序病毒蛋白形成功能强效凝聚体的能力，该凝聚体机械性地预备并物理性突破靶膜，这一机制可能解释肠道病毒中豆蔻酰化需求的差异性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.02.708992",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.02.708992",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.02.708992/index.html"
+}

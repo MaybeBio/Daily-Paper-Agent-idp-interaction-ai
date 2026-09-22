@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, abstract, and references to supplementary materials
+- **Assessment boundary** Methodological soundness, scientific claims, software utility, and evidence quality as presented in the provided text
+- **Shared manuscript claim summary** The authors present multiSMD, a Python toolset for automating multidirectional steered molecular dynamics (SMD) simulations in NAMD and GROMACS. They claim it captures direction-dependent mechanical phenomena (e.g., anisotropic unbinding, ligand dissociation pathways, force-induced remodeling of disordered regions) that conventional single-direction SMD misses, and demonstrate its utility via three case studies, with the SARS-CoV-2 spike-ACE2 complex as the primary in-text example.
+- **Visible evidence base** Main text describing implementation, one detailed application (SARS-CoV-2 RBD-ACE2 with WT and mutant systems), and references to supplementary figures and analyses (Figure a-d, Supporting Figures S3-S4, supplementary case studies on Kir6.1/Kir6.2 and KNt-SUR2B)
+- **Missing materials affecting confidence** Supplementary figures and detailed methods, full case study results for ligand dissociation and intrinsically disordered regions, computational cost analysis details, and code documentation or test outputs
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially useful software tool for a niche but growing area of computational biophysics. The concept of automating multidirectional SMD is practical and addresses a real limitation of conventional approaches. However, the evidence provided in the main text is insufficient to fully validate the tool's claims. The primary case study is described qualitatively, with no quantitative force values, error bars, or statistical comparisons provided in the visible text. The supplementary materials, which contain critical validation data, are not accessible for review. The software's novelty relative to existing SMD tools and its broader applicability require clearer articulation. The manuscript is well-written and accessible, but the scientific case is currently incomplete from the provided evidence.
+- **Who would be interested in the results, and why** Computational biophysicists and molecular modelers studying protein-protein interactions, ligand binding/unbinding mechanisms, and mechanotransduction. Researchers using single-molecule force spectroscopy (AFM, optical tweezers) who seek computational predictions of direction-dependent mechanical stability to guide experimental design. Developers of MD analysis tools and those interested in high-throughput screening of mechanical properties of biomolecular systems.
+- **Major strengths** 1) Addresses a genuine methodological gap by automating multidirectional SMD, which is otherwise manually intensive and error-prone. 2) Supports two major MD engines (NAMD and GROMACS), increasing accessibility. 3) Includes integrated analysis scripts for force, distance, and hydrogen bond monitoring, reducing user burden. 4) The primary application to SARS-CoV-2 spike-ACE2 is timely and relevant. 5) Open-source availability on GitHub promotes reproducibility and community adoption.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "By systematically probing forces along multiple spatial vectors, multiSMD captures direction-dependent phenomena, such as changing energy barriers or structural resilience, that remain hidden in standard SMD."
+  - **Evidence pointer** Results and Discussion, Figure c-d; location not provided
+  - **Concern** The primary demonstration of the tool's utility relies on the SARS-CoV-2 spike-ACE2 case study, but the main text provides only qualitative descriptions. No numerical force values, standard deviations across replicas, or statistical tests comparing WT and mutant systems are presented. The claim that multiSMD "captures" direction-dependent phenomena is not quantitatively substantiated in the visible text.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess the magnitude of the observed anisotropy or the reliability of the results. The claim of capturing hidden phenomena requires demonstrable, reproducible data, not just qualitative trends.
+  - **Resolution test** Provide quantitative force values (e.g., peak forces, rupture forces) for each pulling direction, with means and standard deviations across the 5 replicas, and statistical comparisons (e.g., t-tests or ANOVA) between WT and mutant systems. If space is limited, move these data to the main text or ensure they are prominently featured in the supplementary materials with clear cross-referencing.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validation completeness
+  - **Claim pointer** "We demonstrate the utility of our approach through three distinct applications: (i) anisotropic unbinding in a protein–protein complex, (ii) search for ligand dissociation pathways dependent on the pulling direction, and (iii) force-induced remodeling of intrinsically disordered regions in proteins."
+  - **Evidence pointer** Results and Discussion, Supporting Information; location not provided
+  - **Concern** Two of the three claimed applications (ligand dissociation pathways and intrinsically disordered regions) are only mentioned as being in the Supporting Information. The main text does not summarize their findings, key results, or how they support the tool's utility. The reader cannot evaluate these claims without accessing the supplementary materials.
+  - **Why it matters** The manuscript's central claim of broad utility rests on all three case studies. If the supplementary results are weak or incomplete, the tool's demonstrated value is diminished. The main text should provide sufficient summary of each case to allow independent assessment.
+  - **Resolution test** Add a brief summary of each supplementary case study in the main text, including key quantitative findings (e.g., force ranges, directional preferences) and how they illustrate multiSMD's capabilities. Ensure the supplementary materials are complete and cross-referenced.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological rigor
+  - **Claim pointer** "Using microsecond long MD simulation of the complex, we were able to extract a structurally stable fragment of the complex interface."
+  - **Evidence pointer** Results and Discussion; location not provided
+  - **Concern** The procedure for extracting a "structurally stable fragment" from a microsecond-long MD simulation is not described in the main text. The criteria for stability, the method of extraction, and the validation that this fragment is representative of the full complex are unclear.
+  - **Why it matters** The choice of simulation system directly affects the validity of the SMD results. If the fragment is not representative, the measured forces may not reflect the true mechanical stability of the full complex. This is a critical methodological detail.
+  - **Resolution test** Describe the extraction procedure in the main text or methods, including the stability criteria (e.g., RMSD thresholds, contact maps) and how the fragment was validated. If this is in the supplementary materials, provide a clear summary in the main text.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Software validation
+  - **Claim pointer** "The multiSMD programs (multismd_mand.py and multismd_gromacs.py) are written in Python 3 and maintained on GitHub."
+  - **Evidence pointer** Implementation; location not provided
+  - **Concern** The manuscript does not describe any validation of the software itself, such as test cases, comparison against known results, or benchmarks against existing SMD tools. The correctness of the generated input files and the analysis scripts is not demonstrated.
+  - **Why it matters** For a software tool, validation is essential to establish trust. Users need to know that the generated inputs are correct and that the analysis produces reliable results. Without validation, the tool's outputs are unverified.
+  - **Resolution test** Include a validation section or supplementary material showing test cases (e.g., a simple system with known behavior), comparison of multiSMD-generated inputs with manually prepared inputs, and verification of analysis outputs against independent calculations.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure references
+  - **Evidence pointer** Implementation, Results and Discussion; location not provided
+  - **Issue** Figure references are incomplete (e.g., "Figure a", "Figure c,b", "Figure d"). The reader cannot identify which panels correspond to which content.
+  - **Required correction** Provide complete figure references with panel labels (e.g., Figure 1a, Figure 2c) and ensure all figures are properly numbered and cited in the text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Software versioning
+  - **Evidence pointer** Implementation; location not provided
+  - **Issue** The manuscript does not specify the version of multiSMD used for the case studies, nor the versions of NAMD, GROMACS, and MDAnalysis. This hampers reproducibility.
+  - **Required correction** Add a software availability section listing the exact versions of all software used, including multiSMD, NAMD, GROMACS, MDAnalysis, and Python.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Computational cost
+  - **Evidence pointer** Results and Discussion; location not provided
+  - **Issue** The statement "For a detailed cost analysis and optimization strategies, see the Supporting Information" is vague. The main text should provide at least a summary of the computational cost (e.g., wall-clock time per simulation, total core-hours) to give readers a sense of feasibility.
+  - **Required correction** Add a brief summary of computational costs in the main text, including typical simulation times and resource requirements, with details in the supplementary materials.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Code documentation
+  - **Evidence pointer** Implementation; location not provided
+  - **Issue** The manuscript does not describe the level of documentation or user support for the tool. A link to the GitHub repository is provided, but the quality of documentation is unknown.
+  - **Required correction** Include a statement about documentation, such as the presence of a README, usage examples, and API documentation, to assure potential users of the tool's usability.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence missing), R1-M2 (supplementary case studies not summarized), R1-M3 (fragment extraction method unclear), R1-M4 (software validation absent)
+- **Assessment against Nature-style criteria** Originality: Moderate. The concept of multidirectional SMD is not entirely new, but the automated toolset is a practical contribution. Scientific importance: Moderate. The tool addresses a real need in mechanobiology, but the demonstrated impact is limited by the incomplete evidence. Interdisciplinary readership: Limited. The manuscript is primarily of interest to computational biophysicists and MD practitioners, with less appeal to a broader biological or chemical audience. Technical soundness: Not fully established. The lack of quantitative data and software validation prevents a full assessment. Readability for nonspecialists: Good. The writing is clear and accessible, with appropriate context for the biological relevance of the work.
+- **Recommendation posture** Supportive if technical concerns are resolved. The tool has clear potential value, but the manuscript must provide quantitative evidence, summarize all case studies, clarify the methodological details, and include software validation to establish the claims.
+
+## Risk / unsupported claims
+- The claim that multiSMD "captures direction-dependent phenomena, such as changing energy barriers or structural resilience" is unsupported in the main text due to lack of quantitative data.
+- The claim of demonstrating utility through three applications is only partially supported, as two of the three are not summarized in the visible text.
+- The claim that the extracted fragment is "structurally stable" is unverifiable without a description of the stability criteria.
+- The claim that multiSMD "streamlines the exploration of nanomechanical anisotropy" is plausible but not validated by any software testing or benchmarking.
+- The statement that "mutations increased the mechanical resistance preferentially along specific pulling vectors" is not quantitatively supported in the main text.

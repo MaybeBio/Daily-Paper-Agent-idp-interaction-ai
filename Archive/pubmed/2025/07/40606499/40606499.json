@@ -1,0 +1,286 @@
+{
+  "identity": {
+    "pmid": "40606499",
+    "doi": "10.3389/fnhum.2025.1532395",
+    "title": "Advancing 1.5T MR imaging: toward achieving 3T quality through deep learning super-resolution techniques."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: A 3T MRI scanner delivers enhanced image quality and SNR, minimizing artifacts to provide superior high-resolution brain images compared to a 1.5T MRI. Thus, making it vitally important for diagnosing complex neurological conditions. However, its higher cost of acquisition and operation, increased sensitivity to image distortions, greater noise levels, and limited accessibility in many healthcare settings present notable challenges. These factors impact heterogeneity in MRI neuroimaging data on account of the uneven distribution of 1.5T and 3T MRI scanners across healthcare institutions. METHODS: In our study, we investigated the efficacy of three deep learning-based super-resolution techniques to enhance 1.5T MRI images, aiming to achieve quality analogous to 3T scans. These synthetic and \"upgraded\" 1.5T images were compared and assessed against their 3T counterparts using a range of image quality assessment metrics. Specifically, we employed metrics such as the Structural Similarity Index Measure (SSIM), Peak Signal-to-Noise Ratio (PSNR), Learned Perceptual Image Patch Similarity (LPIPS), and Intensity Differences in Pixels (IDP) to evaluate the similitude and visual quality of the enhanced images. RESULTS: According to our experimental results it has been exhibited that among the three evaluated deep learning-based super-resolution techniques, the Transformer Enhanced Generative Adversarial Network (TCGAN) significantly outperformed the others. To reduce pixel differences, enhance image sharpness, and preserve essential anatomical details TCGAN performed efficaciously. DISCUSSION: This approach presents TCGAN offers a cost-effective and widely accessible alternative for generating high-quality images without the need for expensive, high-field MRI scans and leads to inconsistencies and complicate data comparison and harmonization challenges across studies utilizing various scanners.",
+    "keywords": [
+      "Image harmonization",
+      "T1 weighted",
+      "image quality",
+      "super resolution",
+      "transformer enhanced GAN"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jannat, Sk Rahatul",
+        "Lynch, Kirsten",
+        "Fotouhi, Maryam",
+        "Cen, Steve",
+        "Choupan, Jeiran",
+        "Sheikh-Bahaei, Nasim",
+        "Pandey, Gaurav",
+        "Varghese, Bino A"
+      ],
+      "short_names": [
+        "Jannat SR",
+        "Lynch K",
+        "Fotouhi M",
+        "Cen S",
+        "Choupan J",
+        "Sheikh-Bahaei N",
+        "Pandey G",
+        "Varghese BA"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Radiology, University of Southern California, Los Angeles, CA, United States.",
+        "Department of Neurology, University of Southern California, Los Angeles, CA, United States.",
+        "Department of Radiology, University of Southern California, Los Angeles, CA, United States.",
+        "Department of Radiology, University of Southern California, Los Angeles, CA, United States.",
+        "Department of Neurology, University of Southern California, Los Angeles, CA, United States.",
+        "Department of Neurology, University of Southern California, Los Angeles, CA, United States.",
+        "Department of Radiology, University of Southern California, Los Angeles, CA, United States.",
+        "Department of Neurology, University of Southern California, Los Angeles, CA, United States.",
+        "Department of Genetics & Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, United States.",
+        "Department of Radiology, University of Southern California, Los Angeles, CA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jannat, Sk Rahatul",
+        "short_name": "Jannat SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Southern California, Los Angeles, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Lynch, Kirsten",
+        "short_name": "Lynch K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Southern California, Los Angeles, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Fotouhi, Maryam",
+        "short_name": "Fotouhi M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Southern California, Los Angeles, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Cen, Steve",
+        "short_name": "Cen S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Southern California, Los Angeles, CA, United States.",
+          "Department of Neurology, University of Southern California, Los Angeles, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Choupan, Jeiran",
+        "short_name": "Choupan J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, University of Southern California, Los Angeles, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Sheikh-Bahaei, Nasim",
+        "short_name": "Sheikh-Bahaei N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Southern California, Los Angeles, CA, United States.",
+          "Department of Neurology, University of Southern California, Los Angeles, CA, United States."
+        ]
+      },
+      {
+        "full_name": "Pandey, Gaurav",
+        "short_name": "Pandey G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Genetics & Genomic Sciences, Icahn School of Medicine at Mount Sinai, New York, NY, United States."
+        ]
+      },
+      {
+        "full_name": "Varghese, Bino A",
+        "short_name": "Varghese BA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Radiology, University of Southern California, Los Angeles, CA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in human neuroscience"
+    ],
+    "journal_abbrev": [
+      "Front Hum Neurosci"
+    ],
+    "pub_date": "2025",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/03 06:28",
+    "fetched_at": "2026-09-21 20:31:45"
+  },
+  "links": {
+    "cites": [
+      "42100556"
+    ],
+    "refs": [
+      "39729343",
+      "39039099",
+      "37798392",
+      "36733758",
+      "34705565",
+      "33552944",
+      "31821869",
+      "30105410",
+      "15376593"
+    ],
+    "similar": [
+      "40606499",
+      "35048390",
+      "38630982",
+      "36301699",
+      "38843963",
+      "41492035",
+      "39689310",
+      "41395855",
+      "39990792",
+      "35284270",
+      "40665524",
+      "35811127",
+      "40706823",
+      "38040835",
+      "40069254",
+      "37559435",
+      "40093364",
+      "40368253",
+      "40460850",
+      "37285848",
+      "39925981",
+      "38653336",
+      "40583513",
+      "39823753",
+      "39680317",
+      "37966121",
+      "35810067",
+      "39368440",
+      "35918450",
+      "40660837",
+      "34699953",
+      "39628873",
+      "36268062",
+      "39625126",
+      "29437269",
+      "34474407",
+      "39794660",
+      "29582464",
+      "41345328",
+      "41395853",
+      "33036913",
+      "40800451",
+      "38009583",
+      "40459830",
+      "31309585",
+      "41498976",
+      "34357697",
+      "41187827",
+      "41089510",
+      "38082859",
+      "40996343",
+      "41168216",
+      "38663411",
+      "34821395",
+      "35911635",
+      "39947682",
+      "14997868",
+      "31935666",
+      "39328298",
+      "39002269",
+      "33922811",
+      "41070253",
+      "41261041",
+      "38006648",
+      "33053202",
+      "31131901",
+      "39657055",
+      "17326081",
+      "39694785",
+      "36107021",
+      "39529790",
+      "41504300",
+      "36465830",
+      "38723320",
+      "32012292",
+      "29901223",
+      "41061726",
+      "35204619",
+      "30630834",
+      "28177548",
+      "34211738",
+      "34892048",
+      "31313397",
+      "39615654",
+      "34519954",
+      "37179946",
+      "33271400",
+      "38043123",
+      "38758489",
+      "36270417",
+      "40590063",
+      "31889314",
+      "32089583",
+      "41153703",
+      "39199763",
+      "37025152",
+      "36006430",
+      "32860322",
+      "40104864",
+      "37552487"
+    ],
+    "review": [
+      "40606499",
+      "14997868"
+    ],
+    "pmc": [
+      "12213716"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40606499/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/fnhum.2025.1532395",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42327162",
+  "title": "Controlling metal-carbonate phase, form, and function through de novo protein design.",
+  "authors": "Kwon, Paul S; Li, Xinqi; Yu, Le Tracy; Pyles, Harley; Lewis, Todd H; Weidle, Connor; Borst, Andrew J; Bodinger, Catherine C; Kang, Alex; Nguyen, Hannah; Mendoza, Johnny; Carr, Kenneth D; Coventry, Brian; Hsia, Yang; Molnar, Zsombor; Li, Dongsheng; Zhang, Bo; Cossairt, Brandi M; Zhang, Shuai; Bera, Asim K; De Yoreo, James; Baker, David",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-06-22",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用深度学习设计蛋白界面调控碳酸盐晶体多态与形貌，对象为蛋白-无机矿物复合材料而非无序蛋白/IDR介导的PPI，互作机制建模与无序蛋白相分离背景关联弱，仅方法上RFdiffusion2可迁移启发。",
+  "abstract": "Biomineralization enables living systems to construct hybrid materials by controlling the location, orientation, and polymorph of inorganic crystals with proteins and other biomolecules. Despite decades of study, the molecular principles underlying these processes remain difficult to harness in engineered materials, in part because native biomineralization proteins are often intrinsically disordered, heterogeneous, or insoluble. Here we show that de novo designed protein interfaces can be assembled into reconfigurable two-dimensional arrays which template calcite nanocrystals. By fine-tuning RFdiffusion2 on repeat protein scaffolds, we further enable the design of protein architectures which selectively form aragonite, a metastable polymorph of calcium carbonate, in nucleation conditions that otherwise result in a mixture of phases. Extending beyond inorganics found in biological systems, we show that lattice-matched protein designs template cobalt carbonate formation: a flat helical repeat protein interface promotes unconfined growth, whereas soluble D3 cage assemblies yield more homogenous cobalt carbonate nanocrystals confined to the interior of the cage. These protein-cage cobalt carbonate hybrid materials function as electrocatalysts for alkaline water splitting. Our results demonstrate the potential of deep learning-based methods to unlock the structural and functional activity of protein-mineral composites.",
+  "abstract_zh": "生物矿化使生命系统能够通过蛋白质及其他生物分子控制无机晶体的位置、取向和多晶型，从而构建杂化材料。尽管经过数十年的研究，这些过程背后的分子原理在工程材料中仍难以利用，部分原因在于天然生物矿化蛋白通常本质无序、异质或不溶。在此，我们展示了从头设计的蛋白质界面可组装成可重构的二维阵列，这些阵列能够模板化方解石纳米晶体。通过在重复蛋白支架上对RFdiffusion2进行精细调整，我们进一步实现了蛋白质架构的设计，这些架构在原本会导致相混合的成核条件下选择性形成文石（一种亚稳态的碳酸钙多晶型）。超越生物系统中发现的无机物，我们展示了晶格匹配的蛋白质设计能够模板化碳酸钴的形成：平坦的螺旋重复蛋白界面促进无约束生长，而可溶性D3笼状组装体则产生更均匀的碳酸钴纳米晶体，并限制在笼的内部。这些蛋白质笼-碳酸钴杂化材料可作为碱性水分解的电催化剂。我们的结果证明了基于深度学习的方法在解锁蛋白质-矿物复合物结构与功能活性方面的潜力。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42327162/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42327162/",
+  "paper_page_path": "papers/pubmed/42327162/index.html"
+}

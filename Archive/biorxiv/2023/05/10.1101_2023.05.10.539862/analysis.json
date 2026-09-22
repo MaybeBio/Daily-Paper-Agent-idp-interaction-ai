@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.10.539862",
+  "title": "Protein intrinsically disordered regions have a non-random, modular architecture",
+  "authors": "Brendan S. McConnell; Matthew W. Parker",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-10",
+  "window": {
+    "start": "2023-05-08",
+    "end": "2023-05-14"
+  },
+  "score": 5,
+  "one_liner_zh": "该文开发统计方法揭示无序蛋白区域呈非随机的模块化组成架构，虽聚焦IDP序列组织规律而非直接研究PPI或AI/物理建模，但对理解IDR功能模块及后续互作机制建模有启发。",
+  "abstract": "Motivation Protein sequences can be broadly categorized into two classes: those which adopt stable secondary structure and fold into a domain (i.e., globular proteins), and those that do not. The sequences belonging to this latter class are conformationally heterogeneous and are described as being intrinsically disordered. Decades of investigation into the structure and function of globular proteins has resulted in a suite of computational tools that enable their sub-classification by domain type, an approach that has revolutionized how we understand and predict protein functionality. Conversely, it is unknown if sequences of disordered protein regions are subject to broadly generalizable organizational principles that would enable their sub-classification. Results Here we report the development of a statistical approach that quantifies linear variance in amino acid composition across a sequence. With multiple examples we provide evidence that intrinsically disordered regions are organized into statistically non-random modules of unique compositional bias. Modularity is observed for both low and high complexity sequences and, in some cases, we find that modules are organized in repetitive patterns. These data demonstrate that disordered sequences are non-randomly organized into modular architectures and motivate future experiments to comprehensively classify module types and to determine the degree to which modules constitute functionally separable units analogous to the domains of globular proteins. Availability and implementation The source code, documentation, and data to reproduce all figures is freely available at https://github.com/MWPlabUTSW/Chi-Score-Analysis.git . The analysis is also available as a Google Colab Notebook ( https://colab.research.google.com/github/MWPlabUTSW/Chi-Score-Analysis/blob/main/ChiScore_Analysis.ipynb ).",
+  "abstract_zh": "动机 蛋白质序列可大致分为两类：一类采用稳定二级结构并折叠成结构域（即球状蛋白），另一类则不然。属于后一类的序列在构象上具有异质性，被描述为内在无序。数十年来对球状蛋白结构与功能的研究已产生一系列计算工具，使其能够按结构域类型进行亚分类，这种方法彻底改变了我们对蛋白质功能的理解与预测方式。相反，尚不清楚无序蛋白区域的序列是否受制于广泛可推广的组织原则，从而能够实现其亚分类。结果 本文报告了一种统计方法的发展，该方法量化序列中氨基酸组成的线性变异。通过多个示例，我们提供证据表明内在无序区域被组织成具有独特组成偏倚的统计非随机模块。模块性在低复杂度与高复杂度序列中均被观察到，在某些情况下，我们发现模块以重复模式组织。这些数据表明，无序序列非随机地组织成模块化架构，并激励未来实验以全面分类模块类型，并确定模块在多大程度上构成类似于球状蛋白结构域的功能可分离单元。可用性与实现 用于重现所有图形的源代码、文档和数据可在 https://github.com/MWPlabUTSW/Chi-Score-Analysis.git 免费获取。该分析也可作为 Google Colab 笔记本使用（ https://colab.research.google.com/github/MWPlabUTSW/Chi-Score-Analysis/blob/main/ChiScore_Analysis.ipynb ）。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.10.539862",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.10.539862",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.10.539862/index.html"
+}

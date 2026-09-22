@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.02.13.705735",
+  "title": "Cryo-EM of a Divergent Herpesvirus Reveals Structural Conservation and Novelty Including a Portal-Vertex Tegument Protein with Multiple Macrodomain-like Folds",
+  "authors": "Meir Ben Efraim A; Petrov F; McElwee M; Streetley J; Holm L; Grove J; Davison AJ; Rixon FJ; Bhella D",
+  "journal": "bioRxiv",
+  "published_date": "2026-02-13",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 4,
+  "one_liner_zh": "该研究用冷冻电镜和机器学习建模(ModelAngelo)解析了远缘疱疹病毒衣壳及病毒粒子结构，发现含多个macrodomain样折叠的门户顶点被膜蛋白，但对象为病毒衣壳/被膜蛋白而非无序蛋白介导的PPI，互作机制建模与IDP/相分离课题关联较弱。",
+  "abstract": "Ictalurid herpesvirus 1 (channel catfish virus) is an evolutionarily distant relative of human herpesviruses, from which it is thought to have diverged >400M years ago. Using cryogenic electron microscopy (cryo-EM) combined with symmetry-breaking and particle subtraction approaches, we determined structures of both the immature capsid and virion of IcHV-1. Due to limited genome annotation, we used the machine learning-based tool ModelAngelo for de novo model building, enabling unambiguous protein identification even at marginal resolutions. Notably, the IcHV-1 virion was found to have a substantial and elaborate portal-vertex associated tegument (PVAT) complex. Overall, we determined the identities and structures of ten IcHV-1 proteins: the major capsid protein; the triplex proteins; two novel virion-associated inner tegument proteins; the portal protein; and a further four PVAT proteins. Our findings reveal a high degree of fold conservation in the core capsid proteins when compared with those of human herpesviruses, but also considerable structural novelty, including for the first time in a herpesvirus, identification of a protein that has four putative macrodomains.",
+  "abstract_zh": "ictalurid疱疹病毒1型（channel catfish virus）是人类疱疹病毒的进化远亲，据推测两者在超过4亿年前发生分化。利用冷冻电子显微镜（cryo-EM）结合对称性破坏和颗粒减法方法，我们解析了IcHV-1未成熟衣壳和病毒粒子的结构。由于基因组注释有限，我们使用基于机器学习的工具ModelAngelo进行从头模型构建，即使在边缘分辨率下也能实现明确的蛋白质鉴定。值得注意的是，发现IcHV-1病毒粒子具有一个庞大且精细的、与门户顶点相关的被膜（PVAT）复合体。总体而言，我们确定了十种IcHV-1蛋白质的身份和结构：主要衣壳蛋白；三联体蛋白；两种新型病毒粒子相关内层被膜蛋白；门户蛋白；以及另外四种PVAT蛋白。我们的发现揭示了核心衣壳蛋白与人疱疹病毒相比在折叠结构上的高度保守性，但也显示出显著的结构新颖性，包括首次在疱疹病毒中鉴定出一种具有四个推定大结构域的蛋白质。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705735",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.02.13.705735",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.02.13.705735/index.html"
+}

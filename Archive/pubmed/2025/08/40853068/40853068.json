@@ -1,0 +1,352 @@
+{
+  "identity": {
+    "pmid": "40853068",
+    "doi": "10.1021/acs.jcim.5c01602",
+    "title": "Conformational Ensemble Dynamics of Intrinsically Disordered Full-Length alpha- and beta-Synuclein Monomers."
+  },
+  "content": {
+    "abstract": "Abnormal aggregation of alpha-synuclein (alphaS) into amyloid fibrils is a hallmark of neurodegenerative diseases such as Parkinson's disease. In contrast, its homologue beta-synuclein (betaS), colocalized at presynaptic terminals, resists amyloid formation and can even inhibit alphaS fibrillization. However, how sequence variations affect their structural dynamics remains poorly understood. To address this, we conducted 100 independent 1000 ns atomistic discrete molecular dynamics simulations for both alphaS and betaS monomers. Our results revealed that both proteins predominantly adopted intrinsically disordered conformations, punctuated by transient helices and beta-sheets. Both alphaS and betaS exhibited a conserved helical tendency in the first half of the N-terminal domain, while the latter half showed dynamic beta-sheet characteristics with alphaS displaying greater abundance. Notably, the nonamyloid component (NAC) region in alphaS horizontal line critical for its aggregation horizontal line frequently adopted dynamic beta-sheet structures, whereas the homologous region in betaS displayed a greater tendency toward dynamic helices. Despite being largely disordered, the C-terminal regions transiently interacted with beta-sheet-prone segments, potentially acting as dynamic caps that limit beta-sheet growth in both proteins. Free-energy landscape analysis indicated a clear enthalpy-entropy trade-off: structured conformations were stabilized by lower potential energy but penalized by reduced entropy, whereas disordered states, despite higher potential energy, were entropically favored. Importantly, potential energy reduction in alphaS was primarily associated with beta-sheet formation, while in betaS, it was mainly driven by helix formation. These findings offer mechanistic insights into the distinct conformational landscapes of alphaS and betaS and establish a thermodynamic framework for understanding how sequence differences modulate their structural properties and functional roles.",
+    "keywords": [],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry",
+      "*Molecular Dynamics Simulation",
+      "*beta-Synuclein/chemistry/metabolism",
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Humans",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lv, Zhongyue",
+        "Xu, Huan",
+        "Zhang, Ying",
+        "Tang, Huayuan",
+        "Ding, Feng",
+        "Huang, Fengjuan",
+        "Sun, Yunxiang"
+      ],
+      "short_names": [
+        "Lv Z",
+        "Xu H",
+        "Zhang Y",
+        "Tang H",
+        "Ding F",
+        "Huang F",
+        "Sun Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-1850-6336",
+        "ORCID: 0000-0001-9799-7131"
+      ],
+      "affiliations": [
+        "Department of Neurology, Ningbo Medical Center Lihuili Hospital, Ningbo University, Ningbo, Zhejiang 315040, China.",
+        "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+        "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+        "Department of Engineering Mechanics, Hohai University, Nanjing 211100, China.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States.",
+        "Department of Neurology, Ningbo Medical Center Lihuili Hospital, Ningbo University, Ningbo, Zhejiang 315040, China.",
+        "Ningbo Institute of Innovation for Combined Medicine and Engineering, the Affiliated LiHuiLi Hospital of Ningbo University, Ningbo 315211, China.",
+        "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+        "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lv, Zhongyue",
+        "short_name": "Lv Z",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Ningbo Medical Center Lihuili Hospital, Ningbo University, Ningbo, Zhejiang 315040, China."
+        ]
+      },
+      {
+        "full_name": "Xu, Huan",
+        "short_name": "Xu H",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Ying",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Tang, Huayuan",
+        "short_name": "Tang H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Engineering Mechanics, Hohai University, Nanjing 211100, China.",
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+        ]
+      },
+      {
+        "full_name": "Ding, Feng",
+        "short_name": "Ding F",
+        "identifiers": [
+          "0000-0003-1850-6336"
+        ],
+        "affiliations": [
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+        ]
+      },
+      {
+        "full_name": "Huang, Fengjuan",
+        "short_name": "Huang F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Neurology, Ningbo Medical Center Lihuili Hospital, Ningbo University, Ningbo, Zhejiang 315040, China.",
+          "Ningbo Institute of Innovation for Combined Medicine and Engineering, the Affiliated LiHuiLi Hospital of Ningbo University, Ningbo 315211, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Yunxiang",
+        "short_name": "Sun Y",
+        "identifiers": [
+          "0000-0001-9799-7131"
+        ],
+        "affiliations": [
+          "School of Physical Science and Technology, Ningbo University, Ningbo 315211, China.",
+          "Department of Physics and Astronomy, Clemson University, Clemson, South Carolina 29634, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Sep 8",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/25 12:46",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40509809",
+      "40384186",
+      "40133283",
+      "39824800",
+      "39778221",
+      "39761900",
+      "39609631",
+      "39504036",
+      "39384788",
+      "39141121",
+      "38921060",
+      "38905183",
+      "38834068",
+      "38745385",
+      "38164981",
+      "37964757",
+      "37489886",
+      "37253119",
+      "37246935",
+      "36809765",
+      "36513068",
+      "36456917",
+      "36357403",
+      "36278939",
+      "36098068",
+      "36069777",
+      "35901284",
+      "35787838",
+      "35122299",
+      "35044156",
+      "34015255",
+      "33990334",
+      "33936250",
+      "33119314",
+      "32499486",
+      "32112991",
+      "32015135",
+      "31532987",
+      "31188372",
+      "30933517",
+      "30917118",
+      "30908844",
+      "30502402",
+      "30290273",
+      "30214057",
+      "29969391",
+      "27808107",
+      "27573854",
+      "27018801",
+      "26972727",
+      "26638022",
+      "26446103",
+      "26352473",
+      "25389903",
+      "24623599",
+      "24080388",
+      "24010662",
+      "22670893",
+      "22280505",
+      "21462277",
+      "19481095",
+      "18672869",
+      "18611374",
+      "17538626",
+      "15615727",
+      "15169044",
+      "11286556",
+      "10223287",
+      "6667333"
+    ],
+    "similar": [
+      "40853068",
+      "23607785",
+      "27809690",
+      "26332674",
+      "28820253",
+      "17681539",
+      "23374074",
+      "26477939",
+      "34439733",
+      "39504036",
+      "40994307",
+      "28710275",
+      "36278939",
+      "34254125",
+      "33903234",
+      "19012742",
+      "25495902",
+      "29364151",
+      "29364143",
+      "37253119",
+      "31772376",
+      "33719460",
+      "30917651",
+      "29372732",
+      "23013868",
+      "35912724",
+      "37964757",
+      "28667699",
+      "41301496",
+      "33428933",
+      "33333378",
+      "39437152",
+      "35053291",
+      "35836937",
+      "31699336",
+      "32623047",
+      "29451381",
+      "23374072",
+      "36053833",
+      "29782835",
+      "34912851",
+      "31903719",
+      "27808107",
+      "23978162",
+      "37114769",
+      "32709107",
+      "31799519",
+      "40233005",
+      "28968082",
+      "30142698",
+      "23583776",
+      "40882443",
+      "25960149",
+      "39087984",
+      "39693390",
+      "29715424",
+      "29474083",
+      "25389903",
+      "26723627",
+      "22552968",
+      "33771571",
+      "20947801",
+      "36456917",
+      "38567991",
+      "35041853",
+      "36866721",
+      "32699326",
+      "29604892",
+      "28820063",
+      "31854188",
+      "19475665",
+      "34506119",
+      "40147456",
+      "26950519",
+      "34015255",
+      "30184304",
+      "28112214",
+      "28963338",
+      "34147836",
+      "21998035",
+      "31776941",
+      "10557341",
+      "25075858",
+      "38641462",
+      "32120928",
+      "37407638",
+      "21044603",
+      "30318002",
+      "19554627",
+      "32325870",
+      "34636232",
+      "33581430",
+      "30030380",
+      "30771181",
+      "34152264",
+      "30917118",
+      "35926717",
+      "17381514",
+      "38047768",
+      "40509809"
+    ],
+    "review": [
+      "40853068",
+      "29364151",
+      "35053291",
+      "30142698"
+    ],
+    "pmc": [
+      "12455491"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40853068/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-179",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01602",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

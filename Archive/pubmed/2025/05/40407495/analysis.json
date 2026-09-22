@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40407495",
+  "title": "Intrinsic Disorder and Phase Separation Coordinate Exocytosis, Motility, and Chromatin Remodeling in the Human Acrosomal Proteome.",
+  "authors": "Shukla, Shivam; Lastorka, Sean S; Uversky, Vladimir N",
+  "journal": "Proteomes",
+  "published_date": "2025-05-23",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过生物信息学预测分析人类顶体蛋白质组中无序蛋白与相分离倾向的关系，并构建PPI网络，虽以无序蛋白和相分离为对象且涉及互作网络，但方法以预测和网络分析为主，缺乏对互作机制的深度建模。",
+  "abstract": "Intrinsic disorder refers to protein regions that lack a fixed three-dimensional structure under physiological conditions, enabling conformational plasticity. This flexibility allows for diverse functions, including transient interactions, signaling, and phase separation via disorder-to-order transitions upon binding. Our study focused on investigating the role of intrinsic disorder and liquid-liquid phase separation (LLPS) in the human acrosome, a sperm-specific organelle essential for fertilization. Using computational prediction models, network analysis, Structural Classification of Proteins (SCOP) functional assessments, and Gene Ontology, we analyzed 250 proteins within the acrosomal proteome. Our bioinformatic analysis yielded 97 proteins with high levels (>30%) of structural disorder. Further analysis of functional enrichment identified associations between disordered regions overlapping with SCOP domains and critical acrosomal processes, including vesicle trafficking, membrane fusion, and enzymatic activation. Examples of disordered SCOP domains include the PLC-like phosphodiesterase domain, the t-SNARE domain, and the P-domain of calnexin/calreticulin. Protein-protein interaction networks revealed acrosomal proteins as hubs in tightly interconnected systems, emphasizing their functional importance. LLPS propensity modeling determined that over 30% of these proteins are high-probability LLPS drivers (>60%), underscoring their role in dynamic compartmentalization. Proteins such as myristoylated alanine-rich C-kinase substrate and nuclear transition protein 2 exhibited both high LLPS propensities and high levels of structural disorder. A significant relationship (p < 0.0001, R(2) = 0.649) was observed between the level of intrinsic disorder and LLPS propensity, showing the role of disorder in facilitating phase separation. Overall, these findings provide insights into how intrinsic disorder and LLPS contribute to the structural adaptability and functional precision required for fertilization, with implications for understanding disorders associated with the human acrosome reaction.",
+  "abstract_zh": "内在无序性是指在生理条件下蛋白质区域缺乏固定的三维结构，从而赋予构象可塑性。这种灵活性支持多种功能，包括瞬时相互作用、信号传导，以及通过结合时的无序-有序转变实现相分离 (phase separation)。我们的研究聚焦于探讨内在无序性和液-液相分离 (liquid-liquid phase separation, LLPS) 在人类顶体（一种对受精至关重要的精子特异性细胞器）中的作用。利用计算预测模型、网络分析、蛋白质结构分类 (Structural Classification of Proteins, SCOP) 功能评估和基因本体论，我们分析了顶体蛋白质组中的250种蛋白质。我们的生物信息学分析鉴定出97种具有高水平（>30%）结构无序性的蛋白质。进一步的功能富集分析确定了无序区域与SCOP结构域重叠及关键顶体过程（包括囊泡运输、膜融合和酶激活）之间的关联。无序SCOP结构域的实例包括PLC样磷酸二酯酶结构域、t-SNARE结构域，以及钙联蛋白/钙网蛋白的P结构域。蛋白质-蛋白质相互作用网络显示，顶体蛋白作为紧密互连系统中的枢纽，强调了其功能重要性。LLPS倾向性建模确定，这些蛋白质中超过30%是高概率（>60%）的LLPS驱动因子，突显了它们在动态区室化中的作用。诸如肉豆蔻酰化富丙氨酸C激酶底物和核过渡蛋白2等蛋白质同时表现出高LLPS倾向性和高水平的结构无序性。内在无序性水平与LLPS倾向性之间观察到显著关系（p < 0.0001, R(2) = 0.649），表明无序性在促进相分离中的作用。总体而言，这些发现提供了关于内在无序性和LLPS如何促进受精所需的结构适应性和功能精确性的见解，并对理解与人类顶体反应相关的疾病具有意义。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40407495/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40407495/",
+  "paper_page_path": "papers/pubmed/40407495/index.html"
+}

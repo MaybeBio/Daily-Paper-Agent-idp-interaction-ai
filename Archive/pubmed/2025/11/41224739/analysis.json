@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41224739",
+  "title": "A composite motif in calcimembrin/C16orf74 dictates multimeric dephosphorylation by calcineurin.",
+  "authors": "Bradburn, Devin A; Reis, Joana C; Moreno, R Yvette; Qayyum, Shariq; Viennet, Thibault; Arthanari, Haribabu; Cyert, Martha S",
+  "journal": "Nature communications",
+  "published_date": "2025-11-13",
+  "window": {
+    "start": "2025-11-10",
+    "end": "2025-11-16"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究无序微蛋白CLMB通过复合线性基序与钙调磷酸酶互作并介导多聚体去磷酸化的机制，含NMR结构解析，虽无AI/物理模拟方法，但对象为IDP且深入PPI机制建模，对本课题有启发。",
+  "abstract": "Calcineurin, the Ca(2+)/calmodulin-activated protein phosphatase, recognizes substrates and regulators via short linear motifs, PxIxIT and LxVP, which dock to distinct sites on calcineurin to determine enzyme distribution and catalysis, respectively. Calcimembrin/C16orf74 (CLMB), an intrinsically disordered microprotein whose expression correlates with poor cancer outcomes, targets calcineurin to membranes where it may promote oncogenesis by shaping calcineurin signaling. We show that CLMB associates with membranes via lipidation, i.e., N-myristoylation and reversible S-acylation. Furthermore, CLMB contains an unusual composite 'LxVPxIxIT' motif, that binds the PxIxIT-docking site on calcineurin with extraordinarily high affinity when phosphorylated, (33)LDVPDIIITPP(p)T(44). Calcineurin dephosphorylates CLMB to decrease this affinity, but Thr44 is protected from dephosphorylation when PxIxIT-bound. We propose that CLMB is dephosphorylated in multimeric complexes, where one PxIxIT-bound CLMB recruits calcineurin to membranes, allowing a second CLMB to engage via its LxVP motif to be dephosphorylated. In vivo and in vitro data, including nuclear magnetic resonance (NMR) analyses of CLMB-calcineurin complexes, support this model. Thus, CLMB with its composite motif imposes distinct properties to calcineurin signaling at membranes including sensitivity to CLMB:calcineurin ratios, CLMB phosphorylation and dynamic S-acylation.",
+  "abstract_zh": "钙调磷酸酶（calcineurin），即Ca(2+)/钙调蛋白激活的蛋白磷酸酶，通过短线性基序PxIxIT和LxVP识别底物和调节因子，这些基序分别对接至钙调磷酸酶上的不同位点，以决定酶的分布和催化作用。Calcimembrin/C16orf74（CLMB），一种 intrinsically disordered 微蛋白，其表达与不良癌症预后相关，将钙调磷酸酶靶向至膜上，可能通过塑造钙调磷酸酶信号传导促进肿瘤发生。我们证明CLMB通过脂化作用与膜结合，即N-肉豆蔻酰化和可逆的S-酰化。此外，CLMB含有一个不寻常的复合基序'LxVPxIxIT'，当磷酸化时，该基序以异常高的亲和力结合钙调磷酸酶上的PxIxIT对接位点，即(33)LDVPDIIITPP(p)T(44)。钙调磷酸酶使CLMB去磷酸化以降低此亲和力，但当PxIxIT结合时，Thr44免受去磷酸化作用。我们提出CLMB在多聚体复合物中被去磷酸化，其中一个PxIxIT结合的CLMB将钙调磷酸酶招募至膜上，允许第二个CLMB通过其LxVP基序接合而被去磷酸化。体内和体外数据，包括CLMB-钙调磷酸酶复合物的核磁共振（nuclear magnetic resonance, NMR）分析，支持这一模型。因此，具有复合基序的CLMB赋予膜上钙调磷酸酶信号传导独特性质，包括对CLMB:钙调磷酸酶比例、CLMB磷酸化和动态S-酰化的敏感性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41224739/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41224739/",
+  "paper_page_path": "papers/pubmed/41224739/index.html"
+}

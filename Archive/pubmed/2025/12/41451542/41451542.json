@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "41451542",
+    "doi": "10.1002/smll.202512779",
+    "title": "Direct Visualization of Lipid Raft Domains in Plasma Membranes via Cryo-Electron Tomography and In Situ Gold Nanoparticle Labeling."
+  },
+  "content": {
+    "abstract": "Since the proposal of the lipid raft model, it has serves as an explanation for lateral membrane inhomogeneity, supported by evidence that certain lipids preferentially interact, engage in collective behavior, and form large-scale lateral domains due to liquid-liquid phase separation. However, the existence and structural characteristics of these ordered domains in vivo remain uncertain due to the absence of direct observations. Here, we employ cryo-ET to investigate the structural characteristics of plasma membranes. We next engineer the raft-associated protein trLAT with MTn, which facilitates the in situ synthesis of gold nanoparticles (AuNPs). Cryo-ET analysis reveals that AuNPs label the outer leaflet of the membrane, enabling high-resolution visualization of MTn-trLAT-GFP in situ spatial distribution, and the AuNP markers localize predominantly within the thicker membrane regions, demonstrating that raft-like domains consistently correspond to thicker membrane regions. Molecular dynamics simulations reveal that glycosphingolipids increase local thickness by  approximately 0.6 nm relative to unsaturated lipids, driving preferential localization of palmitoylated MTn-trLAT-GFP to ordered domains in asymmetric membranes and synergistic stabilization with glycosphingolipid/PIP2. These findings provide direct structural insight into raft-like domains and advance understanding of membrane organization in vivo.",
+    "keywords": [
+      "cryo-electron tomography",
+      "gold nanoparticles",
+      "plasma membrane",
+      "raft domain"
+    ],
+    "mesh_terms": [
+      "*Gold/chemistry",
+      "*Membrane Microdomains/ultrastructure/chemistry/metabolism",
+      "*Metal Nanoparticles/chemistry/ultrastructure",
+      "*Cryoelectron Microscopy/methods",
+      "*Electron Microscope Tomography/methods",
+      "Molecular Dynamics Simulation",
+      "*Staining and Labeling"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Yaxuan",
+        "Cheng, Sihang",
+        "Wu, Junbo",
+        "Zou, Tianyi",
+        "Zhang, Minghan",
+        "Pan, Yangang",
+        "Zhang, Jinrui",
+        "Wang, Hongda"
+      ],
+      "short_names": [
+        "Zhang Y",
+        "Cheng S",
+        "Wu J",
+        "Zou T",
+        "Zhang M",
+        "Pan Y",
+        "Zhang J",
+        "Wang H"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+        "University of Science and Technology of China, Hefei, Anhui, P. R. China.",
+        "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+        "University of Science and Technology of China, Hefei, Anhui, P. R. China.",
+        "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+        "University of Science and Technology of China, Hefei, Anhui, P. R. China.",
+        "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+        "University of Science and Technology of China, Hefei, Anhui, P. R. China.",
+        "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+        "University of Science and Technology of China, Hefei, Anhui, P. R. China.",
+        "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+        "University of Science and Technology of China, Hefei, Anhui, P. R. China.",
+        "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+        "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+        "University of Science and Technology of China, Hefei, Anhui, P. R. China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Yaxuan",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+          "University of Science and Technology of China, Hefei, Anhui, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Cheng, Sihang",
+        "short_name": "Cheng S",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+          "University of Science and Technology of China, Hefei, Anhui, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wu, Junbo",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+          "University of Science and Technology of China, Hefei, Anhui, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zou, Tianyi",
+        "short_name": "Zou T",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+          "University of Science and Technology of China, Hefei, Anhui, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Minghan",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+          "University of Science and Technology of China, Hefei, Anhui, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Pan, Yangang",
+        "short_name": "Pan Y",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+          "University of Science and Technology of China, Hefei, Anhui, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jinrui",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hongda",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "Changchun Institute of Applied Chemistry, Chinese Academy of Sciences, Changchun, Jilin, P. R. China.",
+          "University of Science and Technology of China, Hefei, Anhui, P. R. China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Small (Weinheim an der Bergstrasse, Germany)"
+    ],
+    "journal_abbrev": [
+      "Small"
+    ],
+    "pub_date": "2026 Feb",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/26 07:40",
+    "fetched_at": "2026-09-17 23:16:21"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41451542",
+      "41284882",
+      "32432336",
+      "38971600",
+      "32759206",
+      "30078643",
+      "39330215",
+      "26861908",
+      "27339510",
+      "25299598",
+      "32759217",
+      "26241883",
+      "32022059",
+      "22450237",
+      "22239803",
+      "20478335",
+      "35809758",
+      "18987307",
+      "22822037",
+      "19073136",
+      "12655369",
+      "34843684",
+      "17045957",
+      "14699154",
+      "17360623",
+      "12648777",
+      "20365400",
+      "15376621",
+      "20025847",
+      "32271757",
+      "15149285",
+      "11308292",
+      "23592976",
+      "41315814",
+      "40318394",
+      "17319738",
+      "39636021",
+      "39495821",
+      "16905614",
+      "31259529",
+      "38171000",
+      "32297503",
+      "19708264",
+      "39162019",
+      "17766350",
+      "15128269",
+      "30421928",
+      "23583776",
+      "14661971",
+      "20647309",
+      "39048819",
+      "19129198",
+      "26468279",
+      "21081073",
+      "25954879",
+      "19805351",
+      "37745342",
+      "20158041",
+      "30403891",
+      "30654455",
+      "17481350",
+      "14673117",
+      "27119640",
+      "40848865",
+      "34032262",
+      "11535814",
+      "31760668",
+      "20496924",
+      "25677824",
+      "32966489",
+      "30943110",
+      "16271405",
+      "22066979",
+      "29089556",
+      "32813532",
+      "41130945",
+      "15322032",
+      "21709267",
+      "31770996",
+      "11222302",
+      "16214871",
+      "29694870",
+      "28276027",
+      "16565710",
+      "37086192",
+      "40341913",
+      "23121220",
+      "38689500",
+      "34324831",
+      "29609807",
+      "20414686",
+      "27276053",
+      "25921875",
+      "33421842",
+      "31386337",
+      "38064646",
+      "23150999",
+      "33230778",
+      "15034144",
+      "38634827"
+    ],
+    "review": [
+      "41451542",
+      "27339510",
+      "26241883",
+      "20478335",
+      "35809758",
+      "19073136",
+      "12648777",
+      "15376621",
+      "11308292",
+      "39636021",
+      "30403891",
+      "30654455",
+      "31760668",
+      "25677824",
+      "16271405",
+      "25921875",
+      "23150999"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1002/smll.202512779",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

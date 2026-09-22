@@ -1,0 +1,295 @@
+{
+  "identity": {
+    "pmid": "38895377",
+    "doi": "10.1101/2024.06.03.597245",
+    "title": "FusOn-pLM: A Fusion Oncoprotein-Specific Language Model via Focused Probabilistic Masking."
+  },
+  "content": {
+    "abstract": "Fusion oncoproteins, a class of chimeric proteins arising from chromosomal translocations, drive and sustain various cancers, particularly those impacting children. Unfortunately, due to their intrinsically disordered nature, large size, and lack of well-defined, druggable pockets, they have been historically challenging to target therapeutically: neither small molecule-based methods nor structure-based approaches for binder design are strong options for this class of molecules. Recently, protein language models (pLMs) have demonstrated success at representing protein sequences with information-rich embeddings, enabling downstream design applications from sequence alone. However, no current pLM has been trained on fusion oncoprotein sequences and thus may not produce optimal representations for these proteins. In this work, we introduce FusOn-pLM, a novel pLM that fine-tunes the state-of-the-art ESM-2 model on fusion oncoprotein sequences. We specifically introduce a novel masked language modeling (MLM) strategy, employing a binding-site probability predictor to focus masking on key amino acid residues, thereby generating more optimal fusion oncoprotein-aware embeddings. Our model improves performance on both fusion oncoprotein-specific benchmarks and disorder prediction tasks in comparison to baseline ESM-2 representations, as well as manually-constructed biophysical embeddings, motivating downstream usage of FusOn-pLM embeddings for therapeutic design tasks targeting these fusions. We have made our model publicly available to the community at https://huggingface.co/ChatterjeeLab/FusOn-pLM.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Vincoff, Sophia",
+        "Goel, Shrey",
+        "Kholina, Kseniia",
+        "Pulugurta, Rishab",
+        "Vure, Pranay",
+        "Chatterjee, Pranam"
+      ],
+      "short_names": [
+        "Vincoff S",
+        "Goel S",
+        "Kholina K",
+        "Pulugurta R",
+        "Vure P",
+        "Chatterjee P"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3957-8478"
+      ],
+      "affiliations": [
+        "Department of Biomedical Engineering, Duke University.",
+        "Department of Computer Science, Duke University.",
+        "Department of Biomedical Engineering, Duke University.",
+        "Department of Biomedical Engineering, Duke University.",
+        "Department of Biomedical Engineering, Duke University.",
+        "Department of Biomedical Engineering, Duke University.",
+        "Department of Computer Science, Duke University.",
+        "Department of Biostatistics and Bioinformatics, Duke University."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Vincoff, Sophia",
+        "short_name": "Vincoff S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University."
+        ]
+      },
+      {
+        "full_name": "Goel, Shrey",
+        "short_name": "Goel S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Duke University."
+        ]
+      },
+      {
+        "full_name": "Kholina, Kseniia",
+        "short_name": "Kholina K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University."
+        ]
+      },
+      {
+        "full_name": "Pulugurta, Rishab",
+        "short_name": "Pulugurta R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University."
+        ]
+      },
+      {
+        "full_name": "Vure, Pranay",
+        "short_name": "Vure P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University."
+        ]
+      },
+      {
+        "full_name": "Chatterjee, Pranam",
+        "short_name": "Chatterjee P",
+        "identifiers": [
+          "0000-0003-3957-8478"
+        ],
+        "affiliations": [
+          "Department of Biomedical Engineering, Duke University.",
+          "Department of Computer Science, Duke University.",
+          "Department of Biostatistics and Bioinformatics, Duke University."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jun 4",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/19 06:42",
+    "fetched_at": "2026-09-21 08:00:23"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40211004",
+      "38718835",
+      "38565561",
+      "38297184",
+      "37904585",
+      "37875551",
+      "37870473",
+      "37770423",
+      "37433327",
+      "36927031",
+      "36793594",
+      "36702895",
+      "36672331",
+      "36210722",
+      "35896542",
+      "35871889",
+      "35400524",
+      "34421403",
+      "34394960",
+      "34265844",
+      "34232869",
+      "33875885",
+      "33138914",
+      "29861296",
+      "29424691",
+      "29035372",
+      "25398439",
+      "24825614",
+      "24071849",
+      "19665070",
+      "19584866",
+      "18457914",
+      "17625570",
+      "1522903"
+    ],
+    "similar": [
+      "38895377",
+      "39920196",
+      "38464112",
+      "40170888",
+      "40116777",
+      "37609352",
+      "37873004",
+      "39665266",
+      "36892166",
+      "40235638",
+      "38662579",
+      "39110130",
+      "40333592",
+      "37725369",
+      "39164870",
+      "38866950",
+      "39237735",
+      "34967936",
+      "37745556",
+      "38281252",
+      "39921962",
+      "37958983",
+      "37211194",
+      "35443054",
+      "40067411",
+      "38303473",
+      "39988825",
+      "37604011",
+      "37745387",
+      "37690736",
+      "38674091",
+      "37577664",
+      "39605589",
+      "39174581",
+      "39467119",
+      "39900285",
+      "38501511",
+      "39098138",
+      "38310333",
+      "38062445",
+      "34232869",
+      "40279085",
+      "30217670",
+      "38656743",
+      "38778388",
+      "39795988",
+      "37964216",
+      "37866116",
+      "39985945",
+      "38175787",
+      "37722445",
+      "39179250",
+      "38900798",
+      "40235640",
+      "39276905",
+      "31847804",
+      "39159536",
+      "37992088",
+      "39456153",
+      "39230690",
+      "39212609",
+      "38626618",
+      "38926641",
+      "38812466",
+      "39570605",
+      "39246251",
+      "40315433",
+      "38712044",
+      "30807567",
+      "39121938",
+      "38222545",
+      "39827171",
+      "37783551",
+      "38483806",
+      "39131360",
+      "39091799",
+      "38778425",
+      "39131267",
+      "38083556",
+      "39559823",
+      "37827403",
+      "34284119",
+      "38175775",
+      "39447059",
+      "39361250",
+      "37883249",
+      "37875551",
+      "37995287",
+      "39910649",
+      "39500238",
+      "39878455",
+      "35702380",
+      "38327870",
+      "35020807",
+      "37815839",
+      "38775729",
+      "38555810",
+      "16609856",
+      "39900608",
+      "18831774"
+    ],
+    "review": [
+      "38895377",
+      "39921962",
+      "39985945"
+    ],
+    "pmc": [
+      "11185609"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38895377/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38895377",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.06.03.597245",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

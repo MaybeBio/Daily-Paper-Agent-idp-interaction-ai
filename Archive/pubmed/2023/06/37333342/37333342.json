@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "pmid": "37333342",
+    "doi": "10.1101/2023.06.11.544494",
+    "title": "Effects of linker length on phase separation: lessons from the Rubisco-EPYC1 system of the algal pyrenoid."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates are membraneless organelles formed via phase separation of macromolecules, typically consisting of bond-forming \"stickers\" connected by flexible \"linkers\". Linkers have diverse roles, such as occupying space and facilitating interactions. To understand how linker length relative to other lengths affects condensation, we focus on the pyrenoid, which enhances photosynthesis in green algae. Specifically, we apply coarse-grained simulations and analytical theory to the pyrenoid proteins of Chlamydomonas reinhardtii: the rigid holoenzyme Rubisco and its flexible partner EPYC1. Remarkably, halving EPYC1 linker lengths decreases critical concentrations by ten-fold. We attribute this difference to the molecular \"fit\" between EPYC1 and Rubisco. Varying Rubisco sticker locations reveals that the native sites yield the poorest fit, thus optimizing phase separation. Surprisingly, shorter linkers mediate a transition to a gas of rods as Rubisco stickers approach the poles. These findings illustrate how intrinsically disordered proteins affect phase separation through the interplay of molecular length scales.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "GrandPre, Trevor",
+        "Zhang, Yaojun",
+        "Pyo, Andrew G T",
+        "Weiner, Benjamin",
+        "Li, Je-Luen",
+        "Jonikas, Martin C",
+        "Wingreen, Ned S"
+      ],
+      "short_names": [
+        "GrandPre T",
+        "Zhang Y",
+        "Pyo AGT",
+        "Weiner B",
+        "Li JL",
+        "Jonikas MC",
+        "Wingreen NS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Physics, Princeton University, Princeton, NJ 08544, USA.",
+        "Center for the Physics of Biological Function, Princeton University, Princeton, NJ 08544, USA.",
+        "Princeton Center for Theoretical Science, Princeton University, Princeton, NJ 08544, USA.",
+        "Center for the Physics of Biological Function, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218, USA.",
+        "Department of Physics, Princeton University, Princeton, NJ 08544, USA.",
+        "Center for the Physics of Biological Function, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Physics, Princeton University, Princeton, NJ 08544, USA.",
+        "Center for the Physics of Biological Function, Princeton University, Princeton, NJ 08544, USA.",
+        "D. E. Shaw Research, LLC, New York, NY 10036, USA.",
+        "Howard Hughes Medical Institute, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Molecular Biology, Princeton University, Princeton, NJ 08544, USA.",
+        "Center for the Physics of Biological Function, Princeton University, Princeton, NJ 08544, USA.",
+        "Princeton Center for Theoretical Science, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Molecular Biology, Princeton University, Princeton, NJ 08544, USA.",
+        "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "GrandPre, Trevor",
+        "short_name": "GrandPre T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Princeton University, Princeton, NJ 08544, USA.",
+          "Center for the Physics of Biological Function, Princeton University, Princeton, NJ 08544, USA.",
+          "Princeton Center for Theoretical Science, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Yaojun",
+        "short_name": "Zhang Y",
+        "identifiers": [],
+        "affiliations": [
+          "Center for the Physics of Biological Function, Princeton University, Princeton, NJ 08544, USA.",
+          "Department of Physics and Astronomy, Johns Hopkins University, Baltimore, MD 21218, USA.",
+          "Department of Biophysics, Johns Hopkins University, Baltimore, MD 21218, USA."
+        ]
+      },
+      {
+        "full_name": "Pyo, Andrew G T",
+        "short_name": "Pyo AGT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Princeton University, Princeton, NJ 08544, USA.",
+          "Center for the Physics of Biological Function, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Weiner, Benjamin",
+        "short_name": "Weiner B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physics, Princeton University, Princeton, NJ 08544, USA.",
+          "Center for the Physics of Biological Function, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Je-Luen",
+        "short_name": "Li JL",
+        "identifiers": [],
+        "affiliations": [
+          "D. E. Shaw Research, LLC, New York, NY 10036, USA."
+        ]
+      },
+      {
+        "full_name": "Jonikas, Martin C",
+        "short_name": "Jonikas MC",
+        "identifiers": [],
+        "affiliations": [
+          "Howard Hughes Medical Institute, Princeton University, Princeton, NJ 08544, USA.",
+          "Department of Molecular Biology, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Wingreen, Ned S",
+        "short_name": "Wingreen NS",
+        "identifiers": [],
+        "affiliations": [
+          "Center for the Physics of Biological Function, Princeton University, Princeton, NJ 08544, USA.",
+          "Princeton Center for Theoretical Science, Princeton University, Princeton, NJ 08544, USA.",
+          "Department of Molecular Biology, Princeton University, Princeton, NJ 08544, USA.",
+          "Lewis-Sigler Institute for Integrative Genomics, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2023 Jun 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/19 06:42",
+    "fetched_at": "2026-09-20 22:55:19"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "37333342",
+      "33230314",
+      "31504763",
+      "27166422",
+      "31001862",
+      "37311001",
+      "30498228",
+      "33421532",
+      "28520898",
+      "36611062",
+      "39384944",
+      "35903998",
+      "23112177",
+      "32249430",
+      "39326491",
+      "30675061",
+      "37392525",
+      "28084636",
+      "28911055",
+      "31613970",
+      "33177094",
+      "9536077",
+      "29481573",
+      "37279536",
+      "30214453",
+      "29091028",
+      "28911054",
+      "12228443",
+      "12549006",
+      "33514317",
+      "32936641",
+      "30926670",
+      "28318030",
+      "12355262",
+      "38856270",
+      "24014091",
+      "32087632",
+      "36004748",
+      "33406825",
+      "33069007",
+      "35562982",
+      "34936552",
+      "33453922",
+      "19323825",
+      "33876938",
+      "33931502",
+      "36227468",
+      "34536913",
+      "16667352",
+      "32584357",
+      "29509422",
+      "32780204",
+      "9530871",
+      "30426925",
+      "35179885",
+      "32456986",
+      "22709623",
+      "33660589",
+      "23345319",
+      "21607658",
+      "36227469",
+      "37645312",
+      "25301535",
+      "31634364",
+      "23613007",
+      "25584625",
+      "31518611",
+      "39211136",
+      "34291921",
+      "32800925",
+      "37194953",
+      "16025343",
+      "32041908",
+      "35792648",
+      "34655689",
+      "37325682"
+    ],
+    "review": [
+      "37333342",
+      "31001862",
+      "33421532",
+      "37392525",
+      "28911054",
+      "33069007",
+      "34536913",
+      "29509422",
+      "35179885",
+      "32456986",
+      "23345319",
+      "34291921"
+    ],
+    "pmc": [
+      "10274861"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37333342/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37333342",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2023.06.11.544494",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41544898",
+  "title": "Intrinsically disordered proteins and liquid-liquid phase separation in drug discovery.",
+  "authors": "Deka, Nilakshi; Nag, Niharika; Tripathi, Timir",
+  "journal": "Drug discovery today",
+  "published_date": "2026-01-17",
+  "window": {
+    "start": "2026-01-12",
+    "end": "2026-01-18"
+  },
+  "score": 7,
+  "one_liner_zh": "综述IDP与液-液相分离在药物发现中的角色，涵盖多种治疗策略及AI/计算方法，但缺乏具体互作机制建模的深度。",
+  "abstract": "Intrinsically disordered proteins (IDPs) and their involvement in liquid-liquid phase separation (LLPS) have reshaped our understanding of how cells organize biochemical reactions in space and time. Unlike structured proteins, IDPs populate highly dynamic conformational ensembles that promote weak, multivalent interactions and enable the formation of biomolecular condensates (BCs). When these phase-separation processes become dysregulated, they often contribute to diseases, including cancer, neurodegeneration, viral infection, and certain metabolic disorders. This emerging biology presents both conceptual challenges and promising opportunities for drug discovery. Therapeutic strategies now extend beyond classical small molecules to include physicochemical modulators, post-translational modification mimetics, peptides, nanobodies, and targeted protein degradation tools such as PROTACs (proteolysis-targeting chimeras). In parallel, artificial intelligence and advanced computational methods are beginning to illuminate the complex conformational landscapes of IDPs and provide new ways to predict, screen, and optimize modulators of condensate behavior. However, major obstacles remain, including the intrinsic heterogeneity of disordered regions, context-dependent condensate properties, and variability across cell types and patients. Addressing these hurdles will require integrated advances in biosensors, high-throughput screening, quantitative imaging, and delivery technologies. Together, these developments are paving the way for a new generation of targeted therapies that exploit or correct the phase behavior of IDPs.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 及其在液-液相分离 (liquid-liquid phase separation, LLPS) 中的参与，重塑了我们对细胞如何在空间和时间上组织生化反应的理解。与结构化蛋白质不同，IDPs 占据高度动态的构象集合，促进弱多价相互作用，并促成生物分子凝聚体 (biomolecular condensates, BCs) 的形成。当这些相分离过程失调时，它们常导致疾病，包括癌症、神经退行性疾病、病毒感染及某些代谢紊乱。这一新兴生物学为药物发现带来了概念性挑战和前景广阔的机遇。治疗策略现已超越经典小分子，扩展到物理化学调节剂、翻译后修饰模拟物、肽、纳米抗体以及靶向蛋白降解工具，如PROTACs (proteolysis-targeting chimeras)。与此同时，人工智能和先进计算方法正开始揭示IDPs的复杂构象景观，并提供预测、筛选和优化凝聚体行为调节剂的新途径。然而，主要障碍依然存在，包括无序区域的固有异质性、依赖上下文的凝聚体特性，以及细胞类型和患者间的变异性。解决这些障碍需要生物传感器、高通量筛选、定量成像和递送技术的综合进展。这些发展共同为新一代靶向疗法铺平道路，这些疗法利用或纠正IDPs的相行为。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41544898/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41544898/",
+  "paper_page_path": "papers/pubmed/41544898/index.html"
+}

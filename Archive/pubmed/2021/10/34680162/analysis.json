@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34680162",
+  "title": "When Order Meets Disorder: Modeling and Function of the Protein Interface in Fuzzy Complexes.",
+  "authors": "Sacquin-Mora, Sophie; Prevost, Chantal",
+  "journal": "Biomolecules",
+  "published_date": "2021-10-24",
+  "window": {
+    "start": "2021-10-18",
+    "end": "2021-10-24"
+  },
+  "score": 9,
+  "one_liner_zh": "该综述聚焦有序蛋白与无序蛋白形成的模糊复合物界面，结合分子动力学等计算方法解析IDR介导的PPI调控机制，与课题高度契合。",
+  "abstract": "The degree of proteins structural organization ranges from highly structured, compact folding to intrinsic disorder, where each degree of self-organization corresponds to specific functions: well-organized structural motifs in enzymes offer a proper environment for precisely positioned functional groups to participate in catalytic reactions; at the other end of the self-organization spectrum, intrinsically disordered proteins act as binding hubs via the formation of multiple, transient and often non-specific interactions. This review focusses on cases where structurally organized proteins or domains associate with highly disordered protein chains, leading to the formation of interfaces with varying degrees of fuzziness. We present a review of the computational methods developed to provide us with information on such fuzzy interfaces, and how they integrate experimental information. The discussion focusses on two specific cases, microtubules and homologous recombination nucleoprotein filaments, where a network of intrinsically disordered tails exerts regulatory function in recruiting partner macromolecules, proteins or DNA and tuning the atomic level association. Notably, we show how computational approaches such as molecular dynamics simulations can bring new knowledge to help bridging the gap between experimental analysis, that mostly concerns ensemble properties, and the behavior of individual disordered protein chains that contribute to regulation functions.",
+  "abstract_zh": "蛋白质结构组织的程度范围从高度结构化、紧凑折叠到内在无序，其中每种自组织程度对应特定功能：酶中良好组织的结构基序为精确定位的功能基团提供适宜环境以参与催化反应；在自组织谱系的另一端，内在无序蛋白通过形成多重、短暂且通常非特异性的相互作用充当结合枢纽。本综述聚焦于结构组织化蛋白或结构域与高度无序蛋白链结合的情况，从而形成具有不同程度模糊性的界面。我们回顾了为获取此类模糊界面信息而开发的计算方法，以及这些方法如何整合实验信息。讨论集中于两个具体案例：微管和同源重组核蛋白丝，在这些案例中，内在无序尾部的网络在招募伴侣大分子、蛋白质或DNA并调节原子水平结合中发挥调控功能。值得注意的是，我们展示了分子动力学 (molecular dynamics) 等计算方法如何带来新知识，以帮助弥合主要涉及集合性质的实验分析与促成调控功能的单个无序蛋白链行为之间的差距。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34680162/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34680162/",
+  "paper_page_path": "papers/pubmed/34680162/index.html"
+}

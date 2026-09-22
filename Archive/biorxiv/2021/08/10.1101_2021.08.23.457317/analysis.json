@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.08.23.457317",
+  "title": "Exploring ensemble structures of Alzheimer’s amyloid β (1-42) monomer using linear regression for the MD simulation and NMR chemical shift",
+  "authors": "Yang W; Kim BS; Lin Y; Ito D; Kim JH; Lee Y; Yu W",
+  "journal": "bioRxiv",
+  "published_date": "2021-08-24",
+  "window": {
+    "start": "2021-08-23",
+    "end": "2021-08-29"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用线性回归整合MD模拟与NMR化学位移，解析Aβ单体（IDP）的结构系综，并初步关联早期分子缔合与成核机制，虽非直接PPI建模，但对象为IDP且方法可迁移至互作机制研究。",
+  "abstract": "Aggregation of intrinsically disordered amyloid β (Aβ) is a hallmark of Alzheimer’s disease. Although complex aggregation mechanisms have been increasingly revealed, structural ensembles of Aβ monomers with heterogeneous and transient properties still hamper detailed experimental accesses to early events of amyloidogenesis. We herein developed a new mathematical tool based on multiple linear regression to obtain the reasonable ensemble structures of Aβ monomer by using the solution nuclear magnetic resonance (NMR) and molecular dynamics simulation data. Our approach provided the best-fit ensemble to two-dimensional NMR chemical shifts, also consistent with circular dichroism and dynamic light scattering analyses. The major monomeric structures of Aβ including β-sheets in both terminal and central hydrophobic core regions and the minor partially-helical structures suggested initial structure-based explanation on possible mechanisms of early molecular association and nucleation for amyloid generation. A wide-spectrum application of the current approach was also indicated by showing a successful utilization for ensemble structures of folded proteins. We propose that multiple linear regression in combination to experimental results will be highly promising for studies on protein misfolding diseases and functions by providing a convincing template structure. <h4>Graphic abstract</h4>",
+  "abstract_zh": "固有无序淀粉样β（Aβ）的聚集是阿尔茨海默病的一个标志。尽管复杂的聚集机制已被日益揭示，但具有异质性和瞬态特性的Aβ单体的结构集合仍然阻碍了对淀粉样生成早期事件的详细实验探究。我们在此开发了一种基于多元线性回归的新数学工具，利用溶液核磁共振（NMR）和分子动力学模拟数据获得合理的Aβ单体集合结构。我们的方法提供了与二维NMR化学位移最佳拟合的集合，同时也与圆二色性和动态光散射分析结果一致。Aβ的主要单体结构包括在末端和中心疏水核心区域的β-折叠，以及次要的部分螺旋结构，这为淀粉样生成的早期分子关联和成核可能机制提供了基于结构的初步解释。通过成功应用于折叠蛋白的集合结构，也表明了当前方法的广泛适用性。我们提出，多元线性回归与实验结果相结合，通过提供令人信服的模板结构，将非常有希望用于蛋白质错误折叠疾病及其功能的研究。<h4>图形摘要</h4>",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.08.23.457317",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.08.23.457317",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.08.23.457317/index.html"
+}

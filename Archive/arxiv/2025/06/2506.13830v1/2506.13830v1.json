@@ -1,0 +1,35 @@
+{
+  "source": "arxiv",
+  "source_id": "2506.13830v1",
+  "title": "Seq2Bind Webserver for Decoding Binding Hotspots directly from Sequences using Fine-Tuned Protein Language Models",
+  "doi": "",
+  "abstract": "Decoding protein-protein interactions (PPIs) at the residue level is crucial for understanding cellular mechanisms and developing targeted therapeutics. We present Seq2Bind Webserver, a computational framework that leverages fine-tuned protein language models (PLMs) to determine binding affinity between proteins and identify critical binding residues directly from sequences, eliminating the structural requirements that limit most affinity prediction tools. We fine-tuned four architectures including ProtBERT, ProtT5, ESM2, and BiLSTM on the SKEMPI 2.0 dataset containing 5,387 protein pairs with experimental binding affinities. Through systematic alanine mutagenesis on each residue for 14 therapeutically relevant protein complexes, we evaluated each model's ability to identify interface residues. Performance was assessed using N-factor metrics, where N-factor=3 evaluates whether true residues appear within 3n top predictions for n interface residues. ESM2 achieved 49.5% accuracy at N-factor=3, with both ESM2 (37.2%) and ProtBERT (35.1%) outperforming structural docking method HADDOCK3 (32.1%) at N-factor=2. Our sequence-based approach enables rapid screening (minutes versus hours for docking), handles disordered proteins, and provides comparable accuracy, making Seq2Bind a valuable prior to steer blind docking protocols to identify putative binding residues from each protein for therapeutic targets. Seq2Bind Webserver is accessible at https://agrivax.onrender.com under StructF suite.",
+  "authors": [
+    "Xiang Ma",
+    "Supantha Dey",
+    "Vaishnavey SR",
+    "Casey Zelinski",
+    "Qi Li",
+    "Ratul Chowdhury"
+  ],
+  "published_date": "2025-06-16T02:32:30Z",
+  "updated_date": "2025-06-16T02:32:30Z",
+  "journal": "",
+  "category": "q-bio.QM",
+  "landing_url": "https://arxiv.org/abs/2506.13830v1",
+  "pdf_url": "https://arxiv.org/pdf/2506.13830v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "q-bio.QM"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2506.13830v1",
+    "raw_categories": [
+      "q-bio.QM"
+    ],
+    "journal_ref": ""
+  }
+}

@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full manuscript, figures, tables, or supplementary materials provided
+- **Shared manuscript claim summary** The authors present ProteoCast, a web server for predicting, validating, and interpreting missense variant effects using evolutionary constraint analysis and structural context. It offers a three-tier classification (impactful, mild, neutral), incorporates multiple sequence alignment quality controls, and uses a novel segmentation approach to identify functional linear peptides in disordered regions. Evaluation on 63,000 ClinVar variants reports 77% sensitivity and 87% specificity, with 85% accuracy on Drosophila lethal mutations. The tool identifies twice as many functional motifs in disordered regions compared to conservation-based methods, supports conformation-specific predictions, and is computationally efficient.
+- **Visible evidence base** Abstract text only; no methodological details, benchmark definitions, statistical analyses, or visualizations provided
+- **Missing materials affecting confidence** Full manuscript, methods section, benchmark dataset descriptions, statistical significance tests, comparison methodology, web server implementation details, and validation protocols
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially useful web server for variant effect prediction with an emphasis on transparency and disordered region analysis. However, the evidence provided is insufficient to evaluate the validity of the performance claims, the novelty of the segmentation approach, or the robustness of the benchmarking. Several claims lack methodological context and statistical support, and the abstract does not clarify how the tool compares to existing state-of-the-art methods beyond a single metric.
+- **Who would be interested in the results, and why** Clinical geneticists and molecular diagnosticians interpreting missense variants of uncertain significance; researchers studying intrinsically disordered regions and functional peptide motifs; computational biologists developing variant effect prediction tools; and experimental biologists seeking prioritization of mutations for validation studies.
+- **Major strengths** The focus on transparency and quality control of input alignments addresses a recognized limitation in existing black-box predictors. The three-tier classification scheme is clinically actionable. The novel segmentation approach for disordered regions targets an underexplored area. The web server format with interactive visualizations enhances accessibility for nonspecialists.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Evaluation on 63,000 ClinVar variants demonstrates 77% sensitivity and 87% specificity for pathogenicity prediction"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract reports sensitivity and specificity values but provides no information on the composition of the ClinVar dataset, how variants were selected, whether the dataset was filtered for redundancy or conflicting classifications, or how the thresholds for the three-tier classification were determined. No confidence intervals, cross-validation procedures, or comparison to baseline methods are given.
+  - **Why it matters** Without dataset details and statistical context, the reported performance metrics cannot be interpreted or compared to existing tools. ClinVar contains well-known biases, including overrepresentation of common variants and variable curation quality, which can inflate or deflate performance estimates.
+  - **Resolution test** Provide a detailed description of the ClinVar dataset preprocessing, including variant inclusion criteria, exclusion of conflicting or uncertain entries, and stratification by gene or variant type. Report confidence intervals and compare performance against at least one established predictor (e.g., PolyPhen-2, SIFT, CADD) on the same benchmark.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "ProteoCast successfully identifies twice as many functional motifs in intrinsically disordered regions compared to conservation-based phylogenetic methods"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract claims a two-fold improvement in motif identification but does not define what constitutes a "functional motif," how ground truth was established, which conservation-based methods were compared, or what dataset was used for this evaluation. No statistical significance is reported.
+  - **Why it matters** This is a central novelty claim of the manuscript. Without a clear definition of functional motifs and a rigorous benchmark with appropriate controls, the claim is not verifiable and may reflect differences in annotation criteria rather than genuine biological discovery.
+  - **Resolution test** Define the ground truth for functional motifs (e.g., experimentally validated peptides, known interaction sites), describe the comparison methods and datasets, and report statistical significance with appropriate multiple testing corrections.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Originality
+  - **Claim pointer** "ProteoCast employs a novel segmentation approach based on mutational sensitivity to identify functional linear peptides in disordered regions"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract asserts novelty of the segmentation approach but provides no methodological detail on how mutational sensitivity is computed, how segments are defined, or how this differs from existing methods for disordered region analysis (e.g., IUPred, MoRFpred, ANCHOR).
+  - **Why it matters** Novelty is a core criterion for publication impact. Without a clear description of the algorithm and its distinction from prior work, the claim of novelty cannot be assessed.
+  - **Resolution test** Provide a detailed algorithmic description in the methods, including mathematical formulations, parameter choices, and a comparison to existing disordered region prediction tools on standard benchmarks.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interdisciplinary readership
+  - **Claim pointer** "Predictions can be tuned to specific conformations, such as bound forms in protein complexes, for improved accuracy and interpretability"
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The abstract mentions conformation-specific tuning but does not explain how this is achieved, what structural inputs are required, or how accuracy improvement is quantified. This claim may be important for users interested in protein complexes but is currently vague.
+  - **Why it matters** For a web server aimed at a broad community, clarity on input requirements and expected benefits is essential. If the feature requires expert structural knowledge, it may not be accessible to the intended nonspecialist audience.
+  - **Resolution test** Describe the conformational tuning mechanism, specify required inputs, and provide an example or benchmark demonstrating improved performance in a complex context.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "democratises access" is promotional and not scientifically informative.
+  - **Required correction** Replace with a factual statement about accessibility, such as "provides free and open access to variant effect prediction for researchers without specialized computational expertise."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Performance metrics
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** Sensitivity and specificity are reported without a defined threshold or explanation of how the three-tier classification maps to binary pathogenic/benign calls.
+  - **Required correction** Clarify how the three tiers are converted to a binary classification for metric calculation, or report metrics separately for each tier.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Web server availability
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states the server is freely available but does not mention whether the source code is open, which is relevant for reproducibility.
+  - **Required correction** State whether the source code is available and under what license.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Computational efficiency claim
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** "Minutes per protein" is vague and does not specify hardware, protein size, or whether this includes alignment generation.
+  - **Required correction** Provide a benchmark with defined hardware and input specifications.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The performance claims and the central novelty claim are not supported by sufficient methodological detail or statistical evidence in the abstract. The conformational tuning claim (R1-M4) is not blocking but requires clarification.
+- **Assessment against Nature-style criteria** 
+  - Originality: The segmentation approach for disordered regions is potentially novel, but the abstract does not provide enough detail to distinguish it from existing methods. The overall concept of evolutionary constraint-based prediction is not new.
+  - Scientific importance: Variant interpretation and disordered region analysis are important problems with clinical relevance. However, the abstract does not demonstrate a substantial advance over existing tools.
+  - Interdisciplinary readership: The web server format and focus on accessibility are appealing, but the abstract lacks sufficient technical detail for computational readers and sufficient biological context for clinical readers.
+  - Technical soundness: The reported metrics lack statistical context, dataset descriptions, and comparisons to baselines. The novelty claim is not verifiable from the abstract.
+  - Readability for nonspecialists: The abstract is generally clear but includes promotional language and vague claims that reduce precision.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a promising tool, but the performance claims and novelty assertions require substantial additional detail and rigorous benchmarking to be evaluated. A full manuscript with methods, dataset descriptions, and statistical analyses is necessary before the case can be assessed.
+
+## Risk / unsupported claims
+- The 77% sensitivity and 87% specificity on ClinVar variants are unsupported without dataset composition and statistical context.
+- The two-fold improvement in functional motif identification in disordered regions is unsupported without a defined ground truth and comparison methodology.
+- The novelty of the segmentation approach is unverifiable from the abstract.
+- The claim of improved accuracy with conformation-specific tuning is unsupported.
+- The computational efficiency claim ("minutes per protein") is not quantified with hardware or input specifications.
+- The statement that performance is "maintained across species" is based on a single Drosophila dataset and lacks broader evidence.

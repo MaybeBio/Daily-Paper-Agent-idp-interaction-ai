@@ -1,0 +1,837 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.03.08.434433",
+  "title": "Systemic Tissue and Cellular Disruption from SARS-CoV-2 Infection revealed in COVID-19 Autopsies and Spatial Omics Tissue Maps",
+  "doi": "10.1101/2021.03.08.434433",
+  "abstract": "The Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) virus has infected over 115 million people and caused over 2.5 million deaths worldwide. Yet, the molecular mechanisms underlying the clinical manifestations of COVID-19, as well as what distinguishes them from common seasonal influenza virus and other lung injury states such as Acute Respiratory Distress Syndrome (ARDS), remains poorly understood. To address these challenges, we combined transcriptional profiling of 646 clinical nasopharyngeal swabs and 39 patient autopsy tissues, matched with spatial protein and expression profiling (GeoMx) across 357 tissue sections. These results define both body-wide and tissue-specific (heart, liver, lung, kidney, and lymph nodes) damage wrought by the SARS-CoV-2 infection, evident as a function of varying viral load (high vs. low) during the course of infection and specific, transcriptional dysregulation in splicing isoforms, T cell receptor expression, and cellular expression states. In particular, cardiac and lung tissues revealed the largest degree of splicing isoform switching and cell expression state loss. Overall, these findings reveal a systemic disruption of cellular and transcriptional pathways from COVID-19 across all tissues, which can inform subsequent studies to combat the mortality of COVID-19, as well to better understand the molecular dynamics of lethal SARS-CoV-2 infection and other viruses.",
+  "authors": [
+    "Park J",
+    "Foox J",
+    "Hether T",
+    "Danko D",
+    "Warren S",
+    "Kim Y",
+    "Reeves J",
+    "Butler DJ",
+    "Mozsary C",
+    "Rosiene J",
+    "Shaiber A",
+    "Afshinnekoo E",
+    "MacKay M",
+    "Bram Y",
+    "Chandar V",
+    "Geiger H",
+    "Craney A",
+    "Velu P",
+    "Melnick AM",
+    "Hajirasouliha I",
+    "Beheshti A",
+    "Taylor D",
+    "Saravia-Butler A",
+    "Singh U",
+    "Wurtele ES",
+    "Schisler J",
+    "Fennessey S",
+    "Corvelo A",
+    "Zody MC",
+    "Germer S",
+    "Salvatore S",
+    "Levy S",
+    "Wu S",
+    "Tatonetti N",
+    "Shapira S",
+    "Salvatore M",
+    "Loda M",
+    "Westblade LF",
+    "Cushing M",
+    "Rennert H",
+    "Kriegel AJ",
+    "Elemento O",
+    "Imielinski M",
+    "Borczuk AC",
+    "Meydan C",
+    "Schwartz RE",
+    "Mason CE"
+  ],
+  "published_date": "2021-03-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.03.08.434433",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.03.08.434433.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR294791",
+    "raw_record": {
+      "id": "PPR294791",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR294791"
+        ]
+      },
+      "doi": "10.1101/2021.03.08.434433",
+      "title": "Systemic Tissue and Cellular Disruption from SARS-CoV-2 Infection revealed in COVID-19 Autopsies and Spatial Omics Tissue Maps",
+      "authorString": "Park J, Foox J, Hether T, Danko D, Warren S, Kim Y, Reeves J, Butler DJ, Mozsary C, Rosiene J, Shaiber A, Afshinnekoo E, MacKay M, Bram Y, Chandar V, Geiger H, Craney A, Velu P, Melnick AM, Hajirasouliha I, Beheshti A, Taylor D, Saravia-Butler A, Singh U, Wurtele ES, Schisler J, Fennessey S, Corvelo A, Zody MC, Germer S, Salvatore S, Levy S, Wu S, Tatonetti N, Shapira S, Salvatore M, Loda M, Westblade LF, Cushing M, Rennert H, Kriegel AJ, Elemento O, Imielinski M, Borczuk AC, Meydan C, Schwartz RE, Mason CE.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Park J",
+            "lastName": "Park",
+            "firstName": "Jiwoon",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Foox J",
+            "lastName": "Foox",
+            "firstName": "Jonathan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hether T",
+            "lastName": "Hether",
+            "firstName": "Tyler",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "NanoString Technologies, Inc., Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Danko D",
+            "lastName": "Danko",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Tri-Institutional Computational Biology & Medicine Program, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Warren S",
+            "lastName": "Warren",
+            "firstName": "Sarah",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "NanoString Technologies, Inc., Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim Y",
+            "lastName": "Kim",
+            "firstName": "Youngmi",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "NanoString Technologies, Inc., Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Reeves J",
+            "lastName": "Reeves",
+            "firstName": "Jason",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "NanoString Technologies, Inc., Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Butler DJ",
+            "lastName": "Butler",
+            "firstName": "Daniel",
+            "initials": "DJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mozsary C",
+            "lastName": "Mozsary",
+            "firstName": "Christopher",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rosiene J",
+            "lastName": "Rosiene",
+            "firstName": "Joel",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New York Genome Center, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shaiber A",
+            "lastName": "Shaiber",
+            "firstName": "Alon",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New York Genome Center, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Afshinnekoo E",
+            "lastName": "Afshinnekoo",
+            "firstName": "Ebrahim",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "MacKay M",
+            "lastName": "MacKay",
+            "firstName": "Matthew",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bram Y",
+            "lastName": "Bram",
+            "firstName": "Yaron",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chandar V",
+            "lastName": "Chandar",
+            "firstName": "Vasuretha",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Geiger H",
+            "lastName": "Geiger",
+            "firstName": "Heather",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New York Genome Center, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Craney A",
+            "lastName": "Craney",
+            "firstName": "Arryn",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Velu P",
+            "lastName": "Velu",
+            "firstName": "Priya",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Melnick AM",
+            "lastName": "Melnick",
+            "firstName": "Ari",
+            "initials": "AM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hajirasouliha I",
+            "lastName": "Hajirasouliha",
+            "firstName": "Iman",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Englander Institute for Precision Medicine and the Meyer Cancer Center, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Beheshti A",
+            "lastName": "Beheshti",
+            "firstName": "Afshin",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "KBR, Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA, USA"
+                },
+                {
+                  "affiliation": "Stanley Center for Psychiatric Research, Broad Institute of MIT and Harvard, Cambridge, MA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Taylor D",
+            "lastName": "Taylor",
+            "firstName": "Deanne",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical and Health Informatics, The Children’s Hospital of Philadelphia, Philadelphia, PA, USA"
+                },
+                {
+                  "affiliation": "Department of Pediatrics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Saravia-Butler A",
+            "lastName": "Saravia-Butler",
+            "firstName": "Amanda",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Space Biosciences Division, NASA Ames Research Center, Moffett Field, CA, USA"
+                },
+                {
+                  "affiliation": "Logyx, LLC, Mountain View, CA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Singh U",
+            "lastName": "Singh",
+            "firstName": "Urminder",
+            "initials": "U",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics and Computational Biology Program, Center for Metabolic Biology, Department of Genetics, Development and Cell Biology Iowa State University, Ames, IA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wurtele ES",
+            "lastName": "Wurtele",
+            "firstName": "Eve Syrkin",
+            "initials": "ES",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Bioinformatics and Computational Biology Program, Center for Metabolic Biology, Department of Genetics, Development and Cell Biology Iowa State University, Ames, IA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schisler J",
+            "lastName": "Schisler",
+            "firstName": "Jonathan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "McAllister Heart Institute at The University of North Carolina at Chapel Hill, Chapel Hill, NC, USA"
+                },
+                {
+                  "affiliation": "Department of Pharmacology, and Department of Pathology and Lab Medicine at The University of North Carolina at Chapel Hill, Chapel Hill, NC, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fennessey S",
+            "lastName": "Fennessey",
+            "firstName": "Samantha",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New York Genome Center, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Corvelo A",
+            "lastName": "Corvelo",
+            "firstName": "André",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New York Genome Center, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zody MC",
+            "lastName": "Zody",
+            "firstName": "Michael",
+            "initials": "MC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New York Genome Center, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Germer S",
+            "lastName": "Germer",
+            "firstName": "Soren",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New York Genome Center, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Salvatore S",
+            "lastName": "Salvatore",
+            "firstName": "Steven",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Levy S",
+            "lastName": "Levy",
+            "firstName": "Shawn",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "HudsonAlpha Discovery Institute, Huntsville, AL, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu S",
+            "lastName": "Wu",
+            "firstName": "Shixiu",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Hangzhou Cancer Institute, Hangzhou Cancer Hospital, Hangzhou, China"
+                },
+                {
+                  "affiliation": "Department of Radiation Oncology, Hangzhou Cancer Hospital, Hangzhou, China"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tatonetti N",
+            "lastName": "Tatonetti",
+            "firstName": "Nicholas",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Informatics, Department of Systems Biology, Department of Medicine, Institute for Genomic Medicine, Columbia University, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shapira S",
+            "lastName": "Shapira",
+            "firstName": "Sagi",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Informatics, Department of Systems Biology, Department of Medicine, Institute for Genomic Medicine, Columbia University, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Salvatore M",
+            "lastName": "Salvatore",
+            "firstName": "Mirella",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Department of Population Health Sciences, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Loda M",
+            "lastName": "Loda",
+            "firstName": "Massimo",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Westblade LF",
+            "lastName": "Westblade",
+            "firstName": "Lars",
+            "initials": "LF",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Department of Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cushing M",
+            "lastName": "Cushing",
+            "firstName": "Melissa",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rennert H",
+            "lastName": "Rennert",
+            "firstName": "Hanna",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kriegel AJ",
+            "lastName": "Kriegel",
+            "firstName": "Alison",
+            "initials": "AJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Cardiovascular Center, Center of Systems Molecular Medicine, Medical College of Wisconsin, Milwaukee, WI, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Elemento O",
+            "lastName": "Elemento",
+            "firstName": "Olivier",
+            "initials": "O",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Tri-Institutional Computational Biology & Medicine Program, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Englander Institute for Precision Medicine and the Meyer Cancer Center, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Imielinski M",
+            "lastName": "Imielinski",
+            "firstName": "Marcin",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "New York Genome Center, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Borczuk AC",
+            "lastName": "Borczuk",
+            "firstName": "Alain",
+            "initials": "AC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Pathology and Laboratory Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meydan C",
+            "lastName": "Meydan",
+            "firstName": "Cem",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "NanoString Technologies, Inc., Seattle, WA, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Schwartz RE",
+            "lastName": "Schwartz",
+            "firstName": "Robert",
+            "initials": "RE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "Department of Medicine, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mason CE",
+            "lastName": "Mason",
+            "firstName": "Christopher",
+            "initials": "CE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Physiology, Biophysics and Systems Biology, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "The HRH Prince Alwaleed Bin Talal Bin Abdulaziz Alsaud Institute for Computational Biomedicine, Weill Cornell Medicine, New York, NY, USA"
+                },
+                {
+                  "affiliation": "New York Genome Center, New York, NY, USA"
+                },
+                {
+                  "affiliation": "The Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY, USA"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "recommended_reviews"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) virus has infected over 115 million people and caused over 2.5 million deaths worldwide. Yet, the molecular mechanisms underlying the clinical manifestations of COVID-19, as well as what distinguishes them from common seasonal influenza virus and other lung injury states such as Acute Respiratory Distress Syndrome (ARDS), remains poorly understood. To address these challenges, we combined transcriptional profiling of 646 clinical nasopharyngeal swabs and 39 patient autopsy tissues, matched with spatial protein and expression profiling (GeoMx) across 357 tissue sections. These results define both body-wide and tissue-specific (heart, liver, lung, kidney, and lymph nodes) damage wrought by the SARS-CoV-2 infection, evident as a function of varying viral load (high vs. low) during the course of infection and specific, transcriptional dysregulation in splicing isoforms, T cell receptor expression, and cellular expression states. In particular, cardiac and lung tissues revealed the largest degree of splicing isoform switching and cell expression state loss. Overall, these findings reveal a systemic disruption of cellular and transcriptional pathways from COVID-19 across all tissues, which can inform subsequent studies to combat the mortality of COVID-19, as well to better understand the molecular dynamics of lethal SARS-CoV-2 infection and other viruses.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/09/2021.03.08.434433.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.03.08.434433"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR294791"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.03.08.434433"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS118997",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2021-03-11",
+      "firstPublicationDate": "2021-03-09",
+      "firstIndexDate": "2021-03-11",
+      "fullTextReceivedDate": "2021-03-27",
+      "hasEvaluations": "N"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.02.22.579423",
+  "title": "A specific phosphorylation-dependent conformational switch of SARS-CoV-2 nucleoprotein inhibits RNA binding",
+  "authors": "Botova M; Camacho-Zarco AR; Tognetti J; Bessa LM; Guseva S; Mikkola E; Salvi N; Maurin D; Herrmann T; Blackledge M",
+  "journal": "bioRxiv",
+  "published_date": "2024-02-23",
+  "window": {
+    "start": "2024-02-19",
+    "end": "2024-02-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过时间分辨NMR揭示SARS-CoV-2核蛋白无序SR域磷酸化诱导的构象开关竞争性抑制RNA结合，虽无AI/物理模拟方法，但聚焦IDR介导的互作机制与构象调控，对无序蛋白PPI机制建模有直接启发。",
+  "abstract": "The nucleoprotein (N) of SARS-CoV-2 encapsidates the viral genome and is essential for viral function. The central disordered domain comprises a serine-arginine-rich domain (SR) that is hyperphosphorylated in infected cells. This modification is thought to regulate function of N, although mechanistic details remain unknown. We use time-resolved NMR to follow local and long-range structural changes occurring during hyperphosphorylation by the kinases SRPK1/GSK-3/CK1, thereby identifying a conformational switch that abolishes interaction with RNA. When 8 approximately uniformly-distributed sites are phosphorylated, the SR domain competitively binds the same interface as single-stranded RNA, resulting in RNA binding inhibition. Phosphorylation by PKA does not prevent RNA binding, indicating that the pattern resulting from the physiologically-relevant kinases is specific for inhibition. Long-range contacts between the RNA-binding, linker and dimerization domains are also abrogated, phenomena possibly related to genome packaging and unpackaging. This study provides insight into recruitment of specific host kinases to regulate viral function.",
+  "abstract_zh": "SARS-CoV-2的核蛋白（N）包裹病毒基因组，对病毒功能至关重要。其中央无序结构域包含一个丝氨酸-精氨酸富集结构域（SR），在感染细胞中被高度磷酸化。这种修饰被认为调节N蛋白的功能，尽管机制细节尚不清楚。我们利用时间分辨核磁共振（time-resolved NMR）追踪SRPK1/GSK-3/CK1激酶介导的超磷酸化过程中发生的局部和长程结构变化，从而识别出一个构象开关，该开关消除了与RNA的相互作用。当约8个均匀分布位点被磷酸化时，SR结构域竞争性结合与单链RNA相同的界面，导致RNA结合抑制。PKA磷酸化不阻止RNA结合，表明由生理相关激酶产生的磷酸化模式对抑制具有特异性。RNA结合域、连接域和二聚化域之间的长程接触也被消除，这些现象可能与基因组包装和去包装相关。本研究为招募特定宿主激酶以调节病毒功能提供了见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.02.22.579423",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.02.22.579423",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.02.22.579423/index.html"
+}

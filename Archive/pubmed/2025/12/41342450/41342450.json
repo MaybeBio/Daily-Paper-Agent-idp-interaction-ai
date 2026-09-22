@@ -1,0 +1,325 @@
+{
+  "identity": {
+    "pmid": "41342450",
+    "doi": "10.7554/eLife.104950",
+    "title": "Crossover in aromatic amino acid interaction strength between tyrosine and phenylalanine in biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates often form through the self-assembly of disordered proteins with low-complexity sequences. In these polypeptides, the aromatic amino acids phenylalanine and tyrosine act as key 'sticker' residues, driving the cohesion of dense phases. Recent studies on condensates suggest a hierarchy in sticker strength, with tyrosine being more adhesive than phenylalanine. This hierarchy aligns with experimental data on amino acids solubilities and potentials of mean force derived from atomistic simulations. However, it contradicts conventional chemical intuition based on hydrophobicity scales and pairwise contact statistics from experimental structures of proteins, which suggest that phenylalanine should be the stronger sticker. In this work, we use molecular dynamics simulations and quantum chemistry calculations to resolve this apparent discrepancy. Using simple model peptides and side-chain analogues, we demonstrate that the experimentally observed hierarchy arises from the lower free energy of transfer of tyrosine into the condensate, mediated by both stronger protein-protein interactions and solvation effects in the condensate environment. Notably, as the dielectric constant of the media surrounding the stickers approaches that of an apolar solvent, the trend reverses, and phenylalanine becomes the stronger sticker. These findings highlight the role of the chemical environment in modulating protein-protein interactions, providing a clear explanation for the crossover in sticker strength between tyrosine and phenylalanine in different media.",
+    "keywords": [
+      "biomolecular condensates",
+      "computational chemistry",
+      "intrinsically disordered proteins",
+      "liquid-liquid phase separation",
+      "molecular biophysics",
+      "molecular simulations",
+      "none",
+      "phase transitions",
+      "structural biology"
+    ],
+    "mesh_terms": [
+      "*Phenylalanine/chemistry/metabolism",
+      "*Tyrosine/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Biomolecular Condensates/chemistry/metabolism",
+      "*Amino Acids, Aromatic/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "De Sancho, David",
+        "Lopez, Xabier"
+      ],
+      "short_names": [
+        "De Sancho D",
+        "Lopez X"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8985-2685",
+        "ORCID: 0000-0002-2711-3588"
+      ],
+      "affiliations": [
+        "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Donostia / San Sebastian, Spain.",
+        "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Donostia / San Sebastian, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "De Sancho, David",
+        "short_name": "De Sancho D",
+        "identifiers": [
+          "0000-0002-8985-2685"
+        ],
+        "affiliations": [
+          "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Donostia / San Sebastian, Spain."
+        ]
+      },
+      {
+        "full_name": "Lopez, Xabier",
+        "short_name": "Lopez X",
+        "identifiers": [
+          "0000-0002-2711-3588"
+        ],
+        "affiliations": [
+          "Polimero eta Material Aurreratuak: Fisika, Kimika eta Teknologia, Kimika Fakultatea, UPV/EHU & Donostia International Physics Center (DIPC), Donostia / San Sebastian, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2025 Dec 4",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/12/04 13:38",
+    "fetched_at": "2026-09-17 22:37:00"
+  },
+  "links": {
+    "cites": [
+      "42261607",
+      "42192191",
+      "41997364",
+      "41542481",
+      "41351266",
+      "40781776",
+      "39677697"
+    ],
+    "refs": [
+      "40747072",
+      "40690668",
+      "40569578",
+      "39223472",
+      "38751116",
+      "38653686",
+      "38553587",
+      "38163950",
+      "38052212",
+      "37917924",
+      "37721444",
+      "37468629",
+      "36443315",
+      "36181270",
+      "35795820",
+      "35675815",
+      "34931046",
+      "34759379",
+      "34716273",
+      "34458687",
+      "34110175",
+      "34084371",
+      "33982350",
+      "33934416",
+      "33302617",
+      "33139563",
+      "32936641",
+      "32934220",
+      "32393642",
+      "32312191",
+      "32048997",
+      "32029630",
+      "32004090",
+      "30648154",
+      "30298390",
+      "29961577",
+      "29517898",
+      "29424691",
+      "29364893",
+      "28935776",
+      "28924037",
+      "28894006",
+      "28225081",
+      "27434695",
+      "27122231",
+      "27052117",
+      "26606367",
+      "26488642",
+      "25764013",
+      "25747659",
+      "25487359",
+      "24527900",
+      "21377472",
+      "20700831",
+      "20483340",
+      "20408171",
+      "19514729",
+      "19460965",
+      "19366259",
+      "18989472",
+      "18083189",
+      "17269814",
+      "17212484",
+      "15847538",
+      "15688450",
+      "15267980",
+      "14404936",
+      "12402364",
+      "12022848",
+      "11607062",
+      "11554795",
+      "11371433",
+      "9944570",
+      "8876187",
+      "8611495",
+      "8604144",
+      "7213619",
+      "7108955",
+      "5555568",
+      "2010920",
+      "1420991"
+    ],
+    "similar": [
+      "41342450",
+      "38824391",
+      "40690668",
+      "40136009",
+      "39636939",
+      "40877270",
+      "34784177",
+      "41027866",
+      "33139563",
+      "37470705",
+      "39486437",
+      "39866835",
+      "34785657",
+      "23912807",
+      "40028898",
+      "39320949",
+      "37043540",
+      "41481439",
+      "37468629",
+      "40455990",
+      "38591689",
+      "30512023",
+      "40009520",
+      "40521608",
+      "39674888",
+      "38832749",
+      "40203038",
+      "40954121",
+      "32004090",
+      "34090478",
+      "35179885",
+      "38804888",
+      "35727989",
+      "39987501",
+      "34767801",
+      "39827079",
+      "39928699",
+      "38383656",
+      "40172489",
+      "39390911",
+      "39677697",
+      "40614690",
+      "34862761",
+      "37408305",
+      "41187075",
+      "40420812",
+      "37194953",
+      "39196681",
+      "40782375",
+      "40748104",
+      "39042834",
+      "40801528",
+      "34916288",
+      "36702825",
+      "12012343",
+      "38363841",
+      "41292919",
+      "18426882",
+      "36397514",
+      "41279136",
+      "38987300",
+      "39356108",
+      "38252962",
+      "36181270",
+      "40848932",
+      "40069227",
+      "40867025",
+      "40094245",
+      "37735186",
+      "38751116",
+      "12022848",
+      "40058249",
+      "41337585",
+      "39134696",
+      "39826710",
+      "38076908",
+      "40195042",
+      "39326881",
+      "39591652",
+      "39319382",
+      "29511089",
+      "40682822",
+      "40985078",
+      "38936257",
+      "37586369",
+      "39947751",
+      "38885177",
+      "15913386",
+      "34716273",
+      "34890409",
+      "40074825",
+      "40108179",
+      "38360555",
+      "37489654",
+      "238939",
+      "36227469",
+      "40721018",
+      "34129784",
+      "37020020",
+      "40229261"
+    ],
+    "review": [
+      "41342450",
+      "32004090",
+      "35179885",
+      "34767801",
+      "39827079",
+      "40172489",
+      "40614690",
+      "40801528",
+      "40058249",
+      "39134696",
+      "40195042",
+      "39326881",
+      "38936257",
+      "39947751",
+      "38885177",
+      "38360555"
+    ],
+    "pmc": [
+      "12677899"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41342450/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.104950",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

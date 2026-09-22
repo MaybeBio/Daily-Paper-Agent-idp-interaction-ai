@@ -1,0 +1,296 @@
+{
+  "identity": {
+    "pmid": "37341654",
+    "doi": "10.1021/acs.jctc.3c00008",
+    "title": "Binding-and-Folding Recognition of an Intrinsically Disordered Protein Using Online Learning Molecular Dynamics."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins participate in many biological processes by folding upon binding to other proteins. However, coupled folding and binding processes are not well understood from an atomistic point of view. One of the main questions is whether folding occurs prior to or after binding. Here we use a novel, unbiased, high-throughput adaptive sampling approach to reconstruct the binding and folding between the disordered transactivation domain of c-Myb and the KIX domain of the CREB-binding protein. The reconstructed long-term dynamical process highlights the binding of a short stretch of amino acids on c-Myb as a folded alpha-helix. Leucine residues, especially Leu298-Leu302, establish initial native contacts that prime the binding and folding of the rest of the peptide, with a mixture of conformational selection on the N-terminal region with an induced fit of the C-terminal.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Dynamics Simulation",
+      "Protein Folding",
+      "*Education, Distance",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Herrera-Nieto, Pablo",
+        "Perez, Adria",
+        "De Fabritiis, Gianni"
+      ],
+      "short_names": [
+        "Herrera-Nieto P",
+        "Perez A",
+        "De Fabritiis G"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3954-1723",
+        "ORCID: 0000-0003-2637-1179",
+        "ORCID: 0000-0003-3913-4877"
+      ],
+      "affiliations": [
+        "Computational Science Laboratory, Universitat Pompeu Fabra, Barcelona Biomedical Research Park (PRBB), C Dr. Aiguader 88, 08003, Barcelona, Spain.",
+        "Computational Science Laboratory, Universitat Pompeu Fabra, Barcelona Biomedical Research Park (PRBB), C Dr. Aiguader 88, 08003, Barcelona, Spain.",
+        "Acellera Labs, C Dr Trueta 183, 08005, Barcelona, Spain.",
+        "Computational Science Laboratory, Universitat Pompeu Fabra, Barcelona Biomedical Research Park (PRBB), C Dr. Aiguader 88, 08003, Barcelona, Spain.",
+        "Acellera Ltd, Devonshire House 582, Stanmore Middlesex, HA7 1JS, United Kingdom.",
+        "Institucio Catalana de Recerca i Estudis Avancats (ICREA), Passeig Lluis Companys 23, 08010 Barcelona, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Herrera-Nieto, Pablo",
+        "short_name": "Herrera-Nieto P",
+        "identifiers": [
+          "0000-0002-3954-1723"
+        ],
+        "affiliations": [
+          "Computational Science Laboratory, Universitat Pompeu Fabra, Barcelona Biomedical Research Park (PRBB), C Dr. Aiguader 88, 08003, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Pérez, Adrià",
+        "short_name": "Pérez A",
+        "identifiers": [
+          "0000-0003-2637-1179"
+        ],
+        "affiliations": [
+          "Computational Science Laboratory, Universitat Pompeu Fabra, Barcelona Biomedical Research Park (PRBB), C Dr. Aiguader 88, 08003, Barcelona, Spain.",
+          "Acellera Labs, C Dr Trueta 183, 08005, Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "De Fabritiis, Gianni",
+        "short_name": "De Fabritiis G",
+        "identifiers": [
+          "0000-0003-3913-4877"
+        ],
+        "affiliations": [
+          "Computational Science Laboratory, Universitat Pompeu Fabra, Barcelona Biomedical Research Park (PRBB), C Dr. Aiguader 88, 08003, Barcelona, Spain.",
+          "Acellera Ltd, Devonshire House 582, Stanmore Middlesex, HA7 1JS, United Kingdom.",
+          "Institució Catalana de Recerca i Estudis Avançats (ICREA), Passeig Lluis Companys 23, 08010 Barcelona, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical theory and computation"
+    ],
+    "journal_abbrev": [
+      "J Chem Theory Comput"
+    ],
+    "pub_date": "2023 Jul 11",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/21 13:04",
+    "fetched_at": "2026-09-20 22:55:19"
+  },
+  "links": {
+    "cites": [
+      "40068541",
+      "39017837"
+    ],
+    "refs": [
+      "36084347",
+      "32539384",
+      "32323533",
+      "32053358",
+      "31482116",
+      "30134733",
+      "30127362",
+      "29890118",
+      "29466338",
+      "29062047",
+      "28937668",
+      "28834715",
+      "28042966",
+      "27532687",
+      "26949976",
+      "26912067",
+      "26609855",
+      "26580533",
+      "26195786",
+      "25897952",
+      "25400522",
+      "25092343",
+      "24278008",
+      "24043820",
+      "23980173",
+      "23882999",
+      "23875714",
+      "23822324",
+      "23026051",
+      "22034434",
+      "21646537",
+      "21548671",
+      "21539772",
+      "20199097",
+      "19887634",
+      "19278259",
+      "17522630",
+      "15738986",
+      "15019774",
+      "8875929"
+    ],
+    "similar": [
+      "37341654",
+      "26195786",
+      "26912067",
+      "32323533",
+      "28786199",
+      "29990433",
+      "23980173",
+      "38294935",
+      "26742101",
+      "25387963",
+      "32325001",
+      "27423742",
+      "30528464",
+      "23026051",
+      "33382616",
+      "30514761",
+      "34845619",
+      "30520528",
+      "25313042",
+      "29890118",
+      "21268115",
+      "28970487",
+      "35029261",
+      "25002472",
+      "31624293",
+      "33454008",
+      "33909430",
+      "24446368",
+      "31441158",
+      "25533957",
+      "32654182",
+      "32696371",
+      "34509724",
+      "32184088",
+      "29309620",
+      "17522630",
+      "25207671",
+      "21490720",
+      "29632904",
+      "9558319",
+      "29716994",
+      "28914483",
+      "24753318",
+      "29262364",
+      "32693598",
+      "26910732",
+      "27054660",
+      "24043820",
+      "21766125",
+      "28661120",
+      "33030249",
+      "33877595",
+      "27030593",
+      "30232260",
+      "24317797",
+      "28604862",
+      "31733244",
+      "24278008",
+      "33166133",
+      "25511246",
+      "24811666",
+      "35605677",
+      "27819658",
+      "32253236",
+      "33269926",
+      "19278259",
+      "26684000",
+      "29735687",
+      "30184304",
+      "29694866",
+      "34358545",
+      "31552948",
+      "34473923",
+      "31397874",
+      "24763499",
+      "25631540",
+      "31683980",
+      "26030674",
+      "25544254",
+      "29907037",
+      "30715849",
+      "28707474",
+      "37379390",
+      "33567297",
+      "33355572",
+      "25774711",
+      "33284914",
+      "27348048",
+      "26720267",
+      "27111521",
+      "30471695",
+      "35658083",
+      "37546728",
+      "32020911",
+      "28597880",
+      "31617035",
+      "23875714",
+      "38600130",
+      "38486495",
+      "28597298",
+      "23301700",
+      "38153340",
+      "30577777",
+      "38687180"
+    ],
+    "review": [
+      "37341654",
+      "31441158",
+      "32253236",
+      "34358545",
+      "31397874",
+      "25631540",
+      "25544254",
+      "33567297",
+      "33355572",
+      "26720267",
+      "32020911",
+      "31617035"
+    ],
+    "pmc": [
+      "10863933"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37341654/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37341654",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jctcce/article-lookup/doi/10.1021/acs.jctc.3c00008",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35428384",
+  "title": "Unraveling multi-state molecular dynamics in single-molecule FRET experiments. I. Theory of FRET-lines.",
+  "authors": "Barth, Anders; Opanasyuk, Oleg; Peulen, Thomas-Otavio; Felekyan, Suren; Kalinin, Stanislav; Sanabria, Hugo; Seidel, Claus A M",
+  "journal": "The Journal of chemical physics",
+  "published_date": "2022-04-17",
+  "window": {
+    "start": "2022-04-11",
+    "end": "2022-04-17"
+  },
+  "score": 5,
+  "one_liner_zh": "该文提出单分子FRET数据分析的FRET-lines理论框架，用于解析生物分子构象动态，虽涉及无序蛋白推断但无PPI互作机制，且方法为实验数据分析而非AI/物理模拟建模。",
+  "abstract": "Conformational dynamics of biomolecules are of fundamental importance for their function. Single-molecule studies of Forster Resonance Energy Transfer (smFRET) between a tethered donor and acceptor dye pair are a powerful tool to investigate the structure and dynamics of labeled molecules. However, capturing and quantifying conformational dynamics in intensity-based smFRET experiments remains challenging when the dynamics occur on the sub-millisecond timescale. The method of multiparameter fluorescence detection addresses this challenge by simultaneously registering fluorescence intensities and lifetimes of the donor and acceptor. Together, two FRET observables, the donor fluorescence lifetime tau(D) and the intensity-based FRET efficiency E, inform on the width of the FRET efficiency distribution as a characteristic fingerprint for conformational dynamics. We present a general framework for analyzing dynamics that relates average fluorescence lifetimes and intensities in two-dimensional burst frequency histograms. We present parametric relations of these observables for interpreting the location of FRET populations in E-tau(D) diagrams, called FRET-lines. To facilitate the analysis of complex exchange equilibria, FRET-lines serve as reference curves for a graphical interpretation of experimental data to (i) identify conformational states, (ii) resolve their dynamic connectivity, (iii) compare different kinetic models, and (iv) infer polymer properties of unfolded or intrinsically disordered proteins. For a simplified graphical analysis of complex kinetic networks, we derive a moment-based representation of the experimental data that decouples the motion of the fluorescence labels from the conformational dynamics of the biomolecule. Importantly, FRET-lines facilitate exploring complex dynamic models via easily computed experimental observables. We provide extensive computational tools to facilitate applying FRET-lines.",
+  "abstract_zh": "生物分子的构象动力学对其功能至关重要。通过系绳供体-受体染料对之间的单分子福斯特共振能量转移（smFRET）研究，是探究标记分子结构与动力学的有力工具。然而，在基于强度的smFRET实验中，当动力学发生在亚毫秒时间尺度时，捕捉并量化构象动力学仍具挑战性。多参数荧光检测方法通过同时记录供体和受体的荧光强度及寿命来应对这一挑战。结合两种FRET可观测变量，即供体荧光寿命tau(D)和基于强度的FRET效率E，可揭示FRET效率分布的宽度，作为构象动力学的特征指纹。我们提出了一个通用分析框架，用于关联二维脉冲频率直方图中的平均荧光寿命和强度。我们给出了这些可观测变量的参数关系，以解释E-tau(D)图中FRET群体的位置，称为FRET线。为促进复杂交换平衡的分析，FRET线作为参考曲线，用于实验数据的图形化解释，以实现：(i) 识别构象状态，(ii) 解析其动态连接性，(iii) 比较不同动力学模型，以及(iv) 推断未折叠或内在无序蛋白质的聚合物特性。为简化复杂动力学网络的图形分析，我们推导了实验数据的矩基表示，该表示将荧光标签的运动与生物分子的构象动力学解耦。重要的是，FRET线通过易于计算的实验可观测变量，便于探索复杂动态模型。我们提供了广泛的计算工具，以促进FRET线的应用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35428384/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35428384/",
+  "paper_page_path": "papers/pubmed/35428384/index.html"
+}

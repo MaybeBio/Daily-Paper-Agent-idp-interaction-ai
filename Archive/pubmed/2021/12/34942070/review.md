@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that microsecond-long molecular dynamics simulations of wild-type and deamidated Bcl-x(L) reveal deamidation-induced conformational changes, altered IDR motion and interaction patterns, and narrowing of the binding groove, which they interpret as allosteric effects underlying loss of antiapoptotic function.
+- **Visible evidence base** Abstract text only; no quantitative data, simulation details, or statistical analyses are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, simulation parameters, force field details, convergence criteria, analysis methods, and any validation or control simulations
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible computational study addressing a biologically relevant question, namely how deamidation of Bcl-x(L) may alter structure and dynamics. The use of microsecond-scale MD simulations is appropriate for exploring conformational changes in a system with an intrinsically disordered region. However, the abstract lacks quantitative detail, and the central claims regarding allosteric effects and functional implications are not supported by the evidence presented at this level. The study may be of interest to computational biophysicists and cancer biologists, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Computational biophysicists studying protein dynamics and post-translational modifications would find the methodological approach relevant. Cancer biologists interested in apoptotic regulation and Bcl-2 family proteins may also be interested, given the potential link between deamidation and loss of antiapoptotic function. The work could inform future experimental studies on Bcl-x(L) regulation.
+- **Major strengths** The study addresses a specific and biologically meaningful question. The use of microsecond-long MD simulations is a strength, as it allows exploration of slow conformational changes. The combination of PCA, clustering, and H-bond analyses is a reasonable multi-pronged approach to characterize conformational ensembles.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that deamidation induces allosteric effects leading to narrowing of the binding groove, and that this underlies loss of apoptotic function.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The abstract provides no quantitative data, such as binding groove width measurements, RMSD or RMSF values, or statistical comparisons between wild-type and deamidated systems. The claim of allosteric effects is presented as a conclusion without supporting numerical evidence.
+  - **Why it matters** Without quantitative evidence, the reader cannot assess the magnitude or significance of the reported conformational changes. The term "allosteric" implies a specific mechanistic interpretation that requires demonstration of correlated changes between distant sites, which is not shown.
+  - **Resolution test** Provide quantitative measures of binding groove dimensions over simulation time, with error bars and statistical tests comparing wild-type and deamidated systems. Demonstrate correlated motions between the IDR and the binding groove using dynamic cross-correlation or similar analyses.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Functional inference
+  - **Claim pointer** The abstract states that deamidation-induced changes are linked to loss of apoptotic function and cell death.
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** The study is purely computational and does not include any functional assays or experimental validation. The link between simulated conformational changes and biological function is inferred, not demonstrated.
+  - **Why it matters** The abstract's final claim about "deamidation-induced cell death" extends beyond the simulation data. Without experimental correlation, such as binding affinity measurements or cellular assays, the functional significance remains speculative.
+  - **Resolution test** Either temper the functional claims to reflect that they are hypotheses, or include experimental data that directly links the observed conformational changes to loss of function.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract reports microsecond-long MD simulations and specific analyses (PCA, clustering, H-bond analysis).
+  - **Evidence pointer** Abstract text; location not provided
+  - **Concern** No simulation details are provided, including force field, water model, temperature, pressure, salt concentration, number of replicas, or convergence assessment. The absence of these details prevents evaluation of the technical quality of the simulations.
+  - **Why it matters** MD simulation results are highly sensitive to these parameters. Without this information, the reliability of the reported conformational changes cannot be assessed, and the work cannot be reproduced.
+  - **Resolution test** Include full simulation parameters in the methods section, and provide evidence of convergence, such as block analysis or multiple independent runs.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The phrase "narrowing in the binding groove (BG)" is used without defining BG at first mention.
+  - **Required correction** Define the abbreviation BG at first use, or spell out "binding groove" throughout.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The term "essential dynamics" is used, which is a specific method. It is unclear whether this refers to the essential dynamics analysis or is used loosely.
+  - **Required correction** Clarify whether essential dynamics analysis was performed, and if so, describe it in the methods. If not, use a more general term such as "principal component analysis."
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Abstract background
+  - **Evidence pointer** Abstract text; location not provided
+  - **Issue** The abstract states that deamidation is a "pivotal switch" but does not cite or describe prior experimental evidence for this claim.
+  - **Required correction** Add a brief reference to prior work establishing the role of deamidation in Bcl-x(L) function, to contextualize the study.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The lack of quantitative evidence and the absence of functional validation mean the central claims are not established from the provided material. R1-M3, while not blocking, is a significant technical omission that must be addressed for reproducibility.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of deamidation effects on Bcl-x(L) dynamics is relatively specific, and the approach is not novel in methodology. The originality is moderate.
+  - Scientific importance: The topic is relevant to cancer biology and apoptosis, but the abstract does not demonstrate broad significance beyond a single protein system.
+  - Interdisciplinary readership: The work may appeal to computational chemists and structural biologists, but the abstract is unlikely to attract a broad interdisciplinary audience without clearer biological implications.
+  - Technical soundness: Cannot be fully assessed from the abstract. The lack of simulation details and quantitative results prevents evaluation of technical rigor.
+  - Readability for nonspecialists: The abstract is reasonably clear but uses specialized terms without sufficient explanation. It is accessible to a computational biology audience but not to a general scientific readership.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a plausible study, but the absence of quantitative data and functional validation means the central claims are unsupported. The authors should provide full simulation details, quantitative analyses, and either temper the functional claims or include experimental evidence.
+
+## Risk / unsupported claims
+- The claim that deamidation induces allosteric effects leading to binding groove narrowing is unsupported by quantitative evidence in the abstract.
+- The claim that deamidation-induced changes are linked to loss of apoptotic function and cell death is unsupported by any functional data.
+- The statement that the IDR plays "a very important role" in loss of function is presented as a conclusion but is not backed by comparative or quantitative analysis in the abstract.
+- The overall interpretation of "deamidation-induced cell death" extends beyond the simulation scope and is not assessable from the provided material.

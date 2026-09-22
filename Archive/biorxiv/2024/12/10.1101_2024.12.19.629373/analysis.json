@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.19.629373",
+  "title": "Disobind: a sequence-based, partner-dependent contact map and interface residue predictor for intrinsically disordered regions",
+  "authors": "Majila K; Ullanat V; Viswanath S",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-20",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 9,
+  "one_liner_zh": "该文开发了基于ProtT5语言模型的深度学习方法Disobind，针对无序蛋白/区域(IDR)与其伙伴蛋白的序列预测接触图和界面残基，直接聚焦IDR介导的PPI机制建模，并优于AlphaFold-multimer/3，高度契合本课题。",
+  "abstract": "<h4>Summary</h4> Intrinsically disordered proteins or regions (IDPs/IDRs) adopt diverse binding modes with different partners, from coupled-folding-and-binding, to fuzzy binding, to fully-disordered binding. Characterizing IDR interfaces is challenging experimentally and computationally. The state-of-the-art AlphaFold-multimer and AlphaFold3 can be used to predict IDR binding sites, although they are less accurate at their benchmarked confidence cutoffs. Here, we developed Disobind, a deep-learning method that predicts inter-protein contact maps and interface residues for an IDR and its partner, given their sequences. It uses sequence embeddings from the ProtT5 protein language model. Disobind outperforms state-of-the-art interface predictors for IDRs. It also outperforms AlphaFold-multimer and AlphaFold3 at multiple confidence cutoffs. Combining Disobind and AlphaFold-multimer predictions further improves the performance. In contrast to current methods, Disobind considers the context of the binding partner and does not depend on structures and multiple sequence alignments. Its predictions can be used to localize IDRs in large assemblies and characterize IDR-mediated interactions. A record of this paper’s transparent peer review process is included in the supplemental information.",
+  "abstract_zh": "<h4>摘要</h4> 内在无序蛋白质或区域（IDPs/IDRs）与不同伙伴采用多种结合模式，从偶联折叠结合，到模糊结合，再到完全无序结合。表征IDR界面在实验和计算上均具挑战性。最先进的AlphaFold-multimer和AlphaFold3可用于预测IDR结合位点，尽管其基准置信度阈值下的准确性较低。在此，我们开发了Disobind，一种深度学习方法，根据IDR及其伙伴的序列预测蛋白质间接触图和界面残基。它利用ProtT5蛋白质语言模型的序列嵌入。Disobind在IDR界面预测方面优于最先进的预测器。在多个置信度阈值下，它也优于AlphaFold-multimer和AlphaFold3。结合Disobind和AlphaFold-multimer的预测可进一步提升性能。与现有方法相比，Disobind考虑了结合伙伴的上下文，且不依赖结构和多序列比对。其预测可用于在大组装体中定位IDR，并表征IDR介导的相互作用。本论文透明同行评审过程的记录包含在补充信息中。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.19.629373",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.19.629373",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.19.629373/index.html"
+}

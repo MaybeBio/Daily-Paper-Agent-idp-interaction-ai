@@ -1,0 +1,209 @@
+{
+  "identity": {
+    "pmid": "37037120",
+    "doi": "10.1016/j.bpc.2023.107011",
+    "title": "Exploring the aggregation of amyloid-beta 42 through Monte Carlo simulations."
+  },
+  "content": {
+    "abstract": "Coarse-grained Monte Carlo simulations are performed for a disordered protein, amyloid-beta 42 to identify the interactions and understand the mechanism of its aggregation. A statistical potential is developed from a selected dataset of intrinsically disordered proteins, which accounts for the respective contributions of the bonded and non-bonded potentials. While, the bonded potential comprises the bond, bend, and dihedral constraints, the nonbonded interactions include van der Waals interactions, hydrogen bonds, and the two-body potential. The two-body potential captures the features of both hydrophobic and electrostatic interactions that brings the chains at a contact distance, while the repulsive van der Waals interactions prevent them from a collapse. Increased two-body hydrophobic interactions facilitate the formation of amorphous aggregates rather than the fibrillar ones. The formation of aggregates is validated from the interchain distances, and the total energy of the system. The aggregate is structurally characterized by the root-mean-square deviation, root-mean-square fluctuation and the radius of gyration. The aggregates are characterized by a decrease in SASA, an increase in the non-local interactions and a distinct free energy minimum relative to that of the monomeric state of amyloid-beta 42. The hydrophobic residues help in nucleation, while the charged residues help in oligomerization and aggregation.",
+    "keywords": [
+      "Aggregation propensity",
+      "Coarse grained C(alpha) chain backbone model",
+      "Intrinsically disordered proteins",
+      "Metropolis Monte Carlo simulations",
+      "Non-local contacts",
+      "PMF profile"
+    ],
+    "mesh_terms": [
+      "Monte Carlo Method",
+      "*Amyloid beta-Peptides",
+      "Peptide Fragments",
+      "*Intrinsically Disordered Proteins/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Dey, Priya",
+        "Biswas, Parbati"
+      ],
+      "short_names": [
+        "Dey P",
+        "Biswas P"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, University of Delhi, Delhi 110007, India.",
+        "Department of Chemistry, University of Delhi, Delhi 110007, India. Electronic address: pbiswas@chemistry.du.ac.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Dey, Priya",
+        "short_name": "Dey P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Delhi, Delhi 110007, India."
+        ]
+      },
+      {
+        "full_name": "Biswas, Parbati",
+        "short_name": "Biswas P",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Delhi, Delhi 110007, India. Electronic address: pbiswas@chemistry.du.ac.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical chemistry"
+    ],
+    "journal_abbrev": [
+      "Biophys Chem"
+    ],
+    "pub_date": "2023 Jun",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/04/11 06:00",
+    "fetched_at": "2026-09-20 21:13:04"
+  },
+  "links": {
+    "cites": [
+      "41768756",
+      "38681860",
+      "37458922"
+    ],
+    "refs": [],
+    "similar": [
+      "37037120",
+      "21589952",
+      "26914439",
+      "29573987",
+      "23440928",
+      "30529747",
+      "32717949",
+      "29734867",
+      "30730736",
+      "23912807",
+      "28915764",
+      "29548979",
+      "27150313",
+      "25375525",
+      "31470695",
+      "36179370",
+      "23214618",
+      "23071427",
+      "20709081",
+      "30865832",
+      "28241387",
+      "19057640",
+      "33174726",
+      "18479708",
+      "33806726",
+      "22674434",
+      "35167081",
+      "27698130",
+      "33727072",
+      "27844078",
+      "32828471",
+      "32732434",
+      "35836937",
+      "29953467",
+      "30605312",
+      "28292185",
+      "30892042",
+      "32436706",
+      "34968059",
+      "32036660",
+      "34598580",
+      "15268287",
+      "33687193",
+      "32696387",
+      "36641212",
+      "34152264",
+      "33215185",
+      "24368046",
+      "33024142",
+      "34161780",
+      "24123297",
+      "29972174",
+      "21174134",
+      "30443712",
+      "9857095",
+      "22502547",
+      "11948589",
+      "29031698",
+      "36468418",
+      "35167072",
+      "21674205",
+      "15638627",
+      "31903719",
+      "28539626",
+      "22280485",
+      "19817469",
+      "28641562",
+      "25381549",
+      "30003969",
+      "17068817",
+      "37318171",
+      "32703978",
+      "12481027",
+      "32007275",
+      "36310204",
+      "23414048",
+      "21769359",
+      "24028418",
+      "19751686",
+      "20073062",
+      "11606266",
+      "21625904",
+      "28938819",
+      "29630553",
+      "37734054",
+      "29715424",
+      "26237080",
+      "32579965",
+      "32623047",
+      "35134456",
+      "17691836",
+      "24182073",
+      "25093402",
+      "28603985",
+      "37079924",
+      "39234967",
+      "25400520",
+      "39283035",
+      "36902975",
+      "33401542",
+      "37735840"
+    ],
+    "review": [
+      "37037120",
+      "32828471",
+      "24368046"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301-4622(23)00062-5",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

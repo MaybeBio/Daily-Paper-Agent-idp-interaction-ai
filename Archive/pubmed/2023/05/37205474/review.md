@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, Research Square, 2023)
+- **Assessment boundary** Scientific content, methodology, data interpretation, and claims as presented in the provided text. No external validation or replication performed.
+- **Shared manuscript claim summary** The authors combine coarse-grained simulations and in vitro experiments to show that 1:1 mixtures of A1-LCD and FUS-LCD phase separate more readily than either alone, driven by complementary electrostatic interactions in addition to aromatic interactions. Tie-line analysis reveals stoichiometry-dependent contributions of homotypic versus heterotypic interactions. Simulations further predict non-random internal organization and interface properties in multicomponent condensates.
+- **Visible evidence base** Abstract, Introduction, Results, Discussion, Methods (partial), Data Availability statement. Figures referenced but not provided. Supplemental material referenced but not provided.
+- **Missing materials affecting confidence** Figures 1–9, Supplemental Figures S1–S2, Supplemental Tables S1–S2, full Methods details, experimental protocols, raw data, analysis code.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question in the field of biomolecular condensates: how mixtures of prion-like low-complexity domains (PLCDs) drive phase separation through the interplay of homotypic and heterotypic interactions. The combination of simulations and experiments is commendable, and the use of tie-line analysis to dissect interaction contributions is conceptually novel. However, the current manuscript has several technical and conceptual gaps that need to be addressed before the conclusions are fully supported. The lack of figures and supplemental material in the provided text limits a complete evaluation, but several concerns can be raised based on the text alone.
+- **Who would be interested in the results, and why** Researchers in the fields of phase separation, intrinsically disordered proteins, RNA-binding proteins, and biomolecular condensates. The findings have implications for understanding how multicomponent condensates form and organize, and how sequence features and stoichiometry can be tuned to control condensate properties. This is relevant for both basic biophysics and for understanding disease-associated mutations in PLCDs.
+- **Major strengths** 1) The study addresses a biologically and physically important question: how mixtures of PLCDs, rather than single components, drive phase separation. 2) The combination of coarse-grained simulations and in vitro experiments is powerful and appropriate. 3) The use of tie-line analysis to quantify homotypic versus heterotypic interaction contributions is conceptually novel and provides a quantitative framework. 4) The study generates testable predictions about internal organization and interface properties of multicomponent condensates.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "We find that 1:1 mixtures of the A1-LCD and FUS-LCD undergo phase separation more readily than either of the PLCDs on their own."
+  - **Evidence pointer** Figure 2B, Figure 3B; location not provided
+  - **Concern** The claim that 1:1 mixtures phase separate more readily than either component alone is central to the paper. However, the evidence for this is presented only as "binodals" in Figure 2B and a single comparison in Figure 3B. The text does not provide quantitative details on how the binodals were computed, what the error bars are, or how the "more readily" conclusion was statistically evaluated. Furthermore, the experimental measurement of csat for the mixture relies on a "novel analytical HPLC-based method" that is only briefly described. Without seeing the actual data and the method validation, it is difficult to assess the robustness of this key claim.
+  - **Why it matters** The central conclusion of the paper rests on this claim. If the enhanced phase separation of the mixture is not robustly demonstrated, the entire narrative of heterotypic interactions driving co-condensation is weakened.
+  - **Resolution test** Provide the actual binodal curves with error estimates, statistical analysis of the difference between mixture and single-component csat values, and a detailed validation of the HPLC method (e.g., recovery, precision, accuracy) for both single-component and mixture samples.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "The enhanced driving forces for phase separation of mixtures of A1-LCD and FUS-LCD arise partly from complementary electrostatic interactions between the two proteins."
+  - **Evidence pointer** Figure 2D, 2E, 3C, 3D; location not provided
+  - **Concern** The attribution of enhanced phase separation to complementary electrostatic interactions is based on a single mutant (A1-LCD + 12D) that introduces 12 aspartate residues. The text states that this variant has a "more convex shape" of the dilute arm, but the quantitative difference between the WT and mutant mixtures is not provided. Moreover, the interpretation that the effect is due to electrostatics is indirect. Other factors, such as changes in solvation, conformation, or specific sequence context, could also contribute. The salt-dependence experiment (Figure 3F) is a good idea, but the results are only described qualitatively.
+  - **Why it matters** The mechanistic interpretation is a key part of the paper's contribution. If the electrostatic mechanism is not rigorously established, the conclusions about how to engineer or predict mixture behavior are less secure.
+  - **Resolution test** Provide quantitative comparison of the dilute arm shapes (e.g., fitted parameters, statistical significance) for WT and mutant mixtures. Show that the effect of the 12D mutation is specifically due to charge, e.g., by showing that the effect is abolished at high salt or by using a neutral control mutation. Provide quantitative salt-dependence data with error bars and statistical analysis.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Tie line analysis shows that stoichiometric ratios of different components and their sequence-encoded interactions jointly contribute to the driving forces for condensate formation."
+  - **Evidence pointer** Figures 4, 5, 6; location not provided
+  - **Concern** The tie-line analysis is a central methodological innovation of the paper. However, the text does not provide sufficient detail on how the tie lines were computed from the simulation data, how the slopes were determined, and what the statistical uncertainties are. The interpretation of the slopes (greater than, less than, or equal to unity) is presented as a binary classification, but the significance of deviations from unity is not assessed. Furthermore, the experimental validation of the tie-line slopes (Figure 5D–F) is only briefly mentioned.
+  - **Why it matters** The tie-line analysis is used to draw conclusions about the relative strengths of homotypic versus heterotypic interactions. If the methodology is not transparent and the uncertainties are not quantified, the conclusions are not reliable.
+  - **Resolution test** Provide a detailed description of the tie-line computation, including the equations used, the fitting procedure, and the error analysis. Show the distribution of tie-line slopes across replicates and assess the statistical significance of deviations from unity. Provide a more detailed comparison of simulated and experimental tie-line slopes.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** "Simulations also show that the organization of PLCDs within condensates deviates from expectations based on random mixture models."
+  - **Evidence pointer** Figure 7, 8; location not provided
+  - **Concern** The claim about non-random organization is based on the crosslinking parameter Li−j. However, the text does not provide a clear definition of Li−j in the main text, and the details are relegated to the Supplemental Material. The interpretation of Li−j values is presented as a simple threshold (greater than or less than 1), but the statistical significance of deviations from 1 is not assessed. Moreover, the connection between Li−j and "organization" is not fully explained. Does Li−j > 1 mean clustering, demixing, or something else?
+  - **Why it matters** The claim about non-random organization is a key prediction of the paper. If the metric is not well-defined and the significance is not assessed, the prediction is not convincing.
+  - **Resolution test** Provide a clear definition of Li−j in the main text, with a physical interpretation. Show the distribution of Li−j values across replicates and assess the statistical significance of deviations from 1. Provide a visual representation of the organization (e.g., snapshots or density maps) to support the interpretation.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** "We also uncover rules for how interaction strengths and sequence lengths modulate conformational preferences of molecules at interfaces of condensates formed by mixtures of proteins."
+  - **Evidence pointer** Figure 9; location not provided
+  - **Concern** The rules for interface properties are based on simulations of homopolymers, not the actual PLCD sequences. The text states that "these homopolymeric systems have been shown to be reasonable facsimiles of PLCDs," but this is a strong assumption that needs to be justified. The transferability of rules derived from homopolymers to real, sequence-complex PLCDs is not obvious. Furthermore, the text does not provide quantitative details on how the interface thickness and chain expansion were measured.
+  - **Why it matters** The paper claims to uncover general rules, but if these rules are only demonstrated for simplified homopolymers, their relevance to real PLCDs is uncertain.
+  - **Resolution test** Justify the use of homopolymers as facsimiles of PLCDs, e.g., by showing that the key qualitative behaviors are preserved for a few representative PLCD sequences. Provide quantitative definitions of interface thickness and chain expansion, and show how they vary with interaction strength and sequence length.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, first paragraph
+  - **Issue** The introduction assumes familiarity with the concepts of "coupled associative and segregative phase transitions" and "PSCP" without sufficient explanation for a general reader.
+  - **Required correction** Provide a brief, accessible explanation of these concepts, perhaps with a simple analogy or schematic.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods, "Monte Carlo Simulations using LaSSI"
+  - **Issue** The description of the simulation model is brief. The text states that "the energetic model used is the same as that described by Farag et al., 55" but does not summarize the key features of the model. This makes it difficult for a reader to assess the model's limitations.
+  - **Required correction** Provide a brief summary of the model's key features, including the types of interactions considered, the parameterization, and any known limitations.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion, first paragraph
+  - **Issue** The discussion of implications for in vivo condensates is somewhat speculative and could be more tightly connected to the specific findings.
+  - **Required correction** Strengthen the connection between the specific findings (e.g., the role of electrostatics, the tie-line slopes) and the proposed implications for in vivo regulation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results, "Tie lines and their slopes..."
+  - **Evidence pointer** Results, section "Tie lines and their slopes help uncover..."
+  - **Issue** The concept of tie lines is introduced without a clear explanation of what they represent physically.
+  - **Required correction** Provide a brief, intuitive explanation of tie lines in the context of phase diagrams, perhaps with a simple diagram.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative evidence for enhanced phase separation), R1-M2 (mechanistic evidence for electrostatics), R1-M3 (methodological transparency for tie-line analysis), R1-M4 (definition and significance of Li−j), R1-M5 (transferability of homopolymer rules to real PLCDs).
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its application of tie-line analysis to dissect homotypic versus heterotypic contributions in PLCD mixtures. The combination of simulations and experiments is not entirely new, but the specific focus on mixtures and the quantitative framework are novel.
+  - **Scientific importance** The question of how mixtures of PLCDs drive phase separation is of high importance for understanding the formation and regulation of multicomponent condensates. The findings have implications for both basic biology and disease mechanisms.
+  - **Interdisciplinary readership** The work is likely to appeal to biophysicists, cell biologists, and biochemists interested in phase separation. The use of concepts from polymer physics and thermodynamics may be challenging for some readers but is appropriate for the topic.
+  - **Technical soundness** The technical soundness is currently not fully established due to the concerns raised above. The lack of quantitative details and statistical analysis for key claims is a significant issue.
+  - **Readability for nonspecialists** The manuscript is generally well-written but assumes familiarity with phase separation concepts. Some sections, particularly the tie-line analysis, could be made more accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and presents a potentially powerful analytical framework. However, the current evidence is not sufficient to fully support the central claims. The authors need to provide quantitative data with statistical analysis, more detailed methodological descriptions, and a clearer justification of the assumptions made.
+
+## Risk / unsupported claims
+- The claim that 1:1 mixtures phase separate more readily than either component alone is not quantitatively supported in the provided text.
+- The attribution of enhanced phase separation to complementary electrostatic interactions is not rigorously established.
+- The tie-line analysis methodology is not described in sufficient detail to be evaluated.
+- The claim about non-random organization based on Li−j is not supported by a clear definition or statistical analysis.
+- The transferability of rules derived from homopolymer simulations to real PLCDs is assumed but not justified.
+- The claim that "expression levels might be tuned to regulate the driving forces for condensate formation in vivo" is speculative and not directly supported by the data presented.

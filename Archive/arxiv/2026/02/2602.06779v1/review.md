@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, main theorems, proof sketches, and references.
+- **Assessment boundary** Mathematical validity, rigor, clarity, and significance of the results. The review is based solely on the provided manuscript text.
+- **Shared manuscript claim summary** The authors establish the existence of radially symmetric, nonconstant stationary solutions with a single internal transition layer for a general class of mass-conserving reaction-diffusion (MCRD) systems with bistable nonlinearity on an N-dimensional ball. The construction uses a matched asymptotic expansion that incorporates the global mass constraint, complemented by a spectral analysis of the linearized operator. The results are claimed to hold for arbitrary spatial dimension N and for a range of diffusion scaling parameters D.
+- **Visible evidence base** The manuscript provides a detailed outline of the proof, including the construction of approximate solutions via matched asymptotic expansions (Section 2), spectral analysis of the linearized operator (Section 3), and a contraction mapping argument with Lyapunov-Schmidt reduction (Section 4). Key lemmas and propositions are stated with proof sketches. The main theorem (Theorem 1.1) and its corollaries are stated with explicit error estimates.
+- **Missing materials affecting confidence** The manuscript is a preprint and appears to be a condensed version. Several technical proofs are only sketched or omitted (e.g., the inductive step for j ≥ 3 in Proposition 2.5, the full proof of Lemma 3.4, and the details of the contraction mapping argument in Section 4). The full statements of conditions (A1)-(A3) are not fully reproduced in the provided text. The stability analysis is deferred to future work, so the dynamical relevance of the constructed solutions is not established here.
+
+## Reviewer
+- **Overall assessment** This is a technically substantial paper that addresses a challenging and timely problem. The authors develop a rigorous framework for constructing transition-layer solutions in MCRD systems, which are of significant interest in biological and ecological modeling. The approach is novel in its systematic incorporation of the global mass constraint into a high-order matched asymptotic expansion, and the resulting error estimates are a valuable contribution. However, the manuscript as presented has several gaps in the proof details and would benefit from a more complete exposition. The significance of the result is clear, but the current form is not yet suitable for publication in a top-tier journal without substantial revision and expansion of the technical details.
+- **Who would be interested in the results, and why** Researchers in nonlinear PDEs, singular perturbation theory, and mathematical biology. The results provide a rigorous foundation for transition-layer patterns in MCRD systems, which are used to model cell polarity, biomolecular condensates, and ecological pattern formation. The methodological framework, particularly the handling of the nonlocal mass constraint, will be of interest to mathematicians working on related problems.
+- **Major strengths**
+  1. The problem is well-motivated and of broad scientific interest.
+  2. The approach is novel, particularly the integration of the mass constraint into the matched asymptotic expansion.
+  3. The results are general, covering arbitrary spatial dimension N and a range of D values.
+  4. The error estimates are quantitative and explicit, which is a strong feature.
+- **Major Concerns**
+  - **R1-M1**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The manuscript claims to establish the existence of solutions for all N ≥ 1 and D ≥ D₀, but the proof of the key spectral estimate (Lemma 3.4) is only sketched, and the inductive step for higher-order terms (Proposition 2.5, j ≥ 3) is omitted.
+    - **Evidence pointer** Section 3.3, Section 2.5, Proposition 2.5.
+    - **Concern** The proof of Lemma 3.4, which is crucial for the spectral gap, is not fully provided. The statement of the lemma is given, but the proof is deferred to a "similar argument" as in Lemma 3.5. Given the central role of this lemma in establishing the uniform spectral gap, the proof must be included in full. Similarly, the inductive construction of higher-order approximate solutions (j ≥ 3) is stated without proof, which is a significant gap for a paper claiming arbitrary-order accuracy.
+    - **Why it matters** Without a complete proof of the spectral gap, the validity of the contraction mapping argument in Section 4 is not established. The omitted inductive step is essential for the claimed high-order error estimates.
+    - **Resolution test** Provide complete proofs of Lemma 3.4 and the inductive step in Proposition 2.5. Alternatively, state clearly which parts are omitted and why they are routine.
+  - **R1-M2**
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The manuscript claims that the constructed solutions satisfy the mass constraint (1.5) and that the interface location R* is determined by the prescribed mass M. The proof of this is embedded in the construction of the approximate solutions and the contraction argument.
+    - **Evidence pointer** Section 2, Proposition 2.6, Section 4.
+    - **Concern** The mechanism by which the mass constraint determines R* is not fully transparent. The manuscript states that R* is defined by (1.10), but the derivation of this formula and its role in the contraction argument are not fully explained. It is unclear how the nonlocal term S^ε[u] is handled in the linearization and how the mass constraint is preserved under the perturbation.
+    - **Why it matters** The mass constraint is a defining feature of the system, and the paper's main contribution is to handle it rigorously. If the mechanism is not clearly explained, the reader cannot verify the validity of the main result.
+    - **Resolution test** Provide a more detailed explanation of how the mass constraint is enforced in the construction and how it determines R*. Clarify the role of the nonlocal term in the linearized operator and the contraction argument.
+  - **R1-M3**
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The manuscript claims that the results provide a "quantitative higher-dimensional theory of transition-layer patterns in MCRD systems" and a "rigorous justification for their use in modeling phase separation and pattern formation."
+    - **Evidence pointer** Abstract, Section 1.2.
+    - **Concern** While the existence result is significant, the manuscript does not address the stability of the constructed solutions. The authors state that stability will be carried out in forthcoming work. Without stability, the biological relevance of the solutions is not fully established, as unstable patterns are unlikely to be observed in practice.
+    - **Why it matters** The motivation for studying these systems is their ability to model pattern formation. If the constructed patterns are unstable, their relevance to real-world phenomena is questionable.
+    - **Resolution test** Include a discussion of the expected stability properties, or at least a conjecture based on the spectral analysis. If stability is not addressed, the claims of biological relevance should be tempered.
+- **Minor Comments**
+  - **R1-m1**
+    - **Severity** Minor
+    - **Axis** Readability
+    - **Affected element** Introduction, Section 1.1
+    - **Evidence pointer** Section 1.1
+    - **Issue** The introduction is dense and assumes significant familiarity with the subject. The connection between the general system (1.3) and the specific examples (e.g., the Mori et al. model) could be made more explicit.
+    - **Required correction** Add a brief explanation of how the general framework applies to the specific models mentioned, and clarify the role of the parameter D in the biological context.
+  - **R1-m2**
+    - **Severity** Minor
+    - **Axis** Technical soundness
+    - **Affected element** Section 2, equation (2.17)
+    - **Evidence pointer** Section 2, equation (2.17)
+    - **Issue** The reference to equation (2.17) for the one-dimensional case is unclear, as the equation is not explicitly displayed in the provided text.
+    - **Required correction** Ensure that all referenced equations are clearly displayed and numbered.
+  - **R1-m3**
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Section 3, Theorem 3.1
+    - **Evidence pointer** Section 3, Theorem 3.1
+    - **Issue** The statement of Theorem 3.1 is complex and would benefit from a brief summary of the main result before the formal statement.
+    - **Required correction** Add a short paragraph explaining the significance of Theorem 3.1 and how it fits into the overall proof strategy.
+- **Technical failings that need to be addressed before the case is established**
+  - R1-M1: Incomplete proof of Lemma 3.4 and the inductive step in Proposition 2.5.
+  - R1-M2: Unclear mechanism for how the mass constraint determines R* and is preserved in the perturbation.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is original in its approach to handling the mass constraint in a high-order matched asymptotic framework. The combination of techniques is novel.
+  - **Scientific importance** The problem is important, and the results are a significant step forward. However, the lack of stability analysis limits the immediate impact.
+  - **Interdisciplinary readership** The paper is primarily of interest to mathematicians. The biological motivation is clear, but the technical nature of the results will limit the readership to specialists.
+  - **Technical soundness** The overall strategy appears sound, but the incomplete proofs of key lemmas prevent a full assessment. The manuscript must be revised to include all necessary details.
+  - **Readability for nonspecialists** The paper is not accessible to nonspecialists. The introduction could be improved to provide more context and motivation.
+- **Recommendation posture** Supportive if technical concerns are resolved. The paper addresses a significant problem with a novel approach, but the incomplete proofs and lack of stability analysis prevent a positive recommendation in the current form. The authors should be encouraged to revise and resubmit with a more complete exposition.

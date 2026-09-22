@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35096966",
+  "title": "A Liquid State Perspective on Dynamics of Chromatin Compartments.",
+  "authors": "Laghmach, Rabia; Di Pierro, Michele; Potoyan, Davit",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2022-02-01",
+  "window": {
+    "start": "2022-01-31",
+    "end": "2022-02-06"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述从液相视角探讨染色质区室动态，聚焦相分离/液-液相分离介导的染色质组织与蛋白/RNA互作，并评述多尺度计算模型（聚合物模拟、非平衡耦合模拟、场论模型），虽对象为染色质而非典型IDP，但相分离与互作机制建模思路对本课题有直接启发。",
+  "abstract": "The interior of the eukaryotic cell nucleus has a crowded and heterogeneous environment packed with chromatin polymers, regulatory proteins, and RNA molecules. Chromatin polymer, assisted by epigenetic modifications, protein and RNA binders, forms multi-scale compartments which help regulate genes in response to cellular signals. Furthermore, chromatin compartments are dynamic and tend to evolve in size and composition in ways that are not fully understood. The latest super-resolution imaging experiments have revealed a much more dynamic and stochastic nature of chromatin compartments than was appreciated before. An emerging mechanism explaining chromatin compartmentalization dynamics is the phase separation of protein and nucleic acids into membraneless liquid condensates. Consequently, concepts and ideas from soft matter and polymer systems have been rapidly entering the lexicon of cell biology. In this respect, the role of computational models is crucial for establishing a rigorous and quantitative foundation for the new concepts and disentangling the complex interplay of forces that contribute to the emergent patterns of chromatin dynamics and organization. Several multi-scale models have emerged to address various aspects of chromatin dynamics, ranging from equilibrium polymer simulations, hybrid non-equilibrium simulations coupling protein binding and chromatin folding, and mesoscopic field-theoretic models. Here, we review these emerging theoretical paradigms and computational models with a particular focus on chromatin's phase separation and liquid-like properties as a basis for nuclear organization and dynamics.",
+  "abstract_zh": "真核细胞核内部是一个拥挤且异质的环境，充满了染色质聚合物、调控蛋白和RNA分子。染色质聚合物在表观遗传修饰、蛋白质和RNA结合因子的辅助下，形成多尺度区室，这些区室有助于响应细胞信号调控基因表达。此外，染色质区室是动态的，其大小和组成倾向于以尚未完全理解的方式演变。最新的超分辨成像实验揭示了染色质区室比以往认识到的更具动态性和随机性。解释染色质区室化动力学的一个新兴机制是蛋白质和核酸相分离 (phase separation) 形成无膜液体凝聚体。因此，软物质和聚合物系统的概念和思想正迅速进入细胞生物学的词汇中。在这方面，计算模型的作用至关重要，它为这些新概念建立严谨且定量的基础，并解析促成染色质动力学和组织涌现模式的复杂力相互作用。已出现多种多尺度模型来解决染色质动力学的各个方面，范围从平衡聚合物模拟、耦合蛋白质结合和染色质折叠的混合非平衡模拟，到介观场论模型。在此，我们回顾这些新兴的理论范式和计算模型，特别关注染色质的相分离和类液体特性，作为核组织和动力学的基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35096966/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35096966/",
+  "paper_page_path": "papers/pubmed/35096966/index.html"
+}

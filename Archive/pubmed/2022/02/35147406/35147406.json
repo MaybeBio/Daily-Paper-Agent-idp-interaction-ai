@@ -1,0 +1,270 @@
+{
+  "identity": {
+    "pmid": "35147406",
+    "doi": "10.1021/acschembio.2c00012",
+    "title": "Structure-Activity Relationships of Novel Tau Ligands: Passive Fibril Binders and Active Aggregation Inhibitors."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) are core components of many biological processes and are central players in several pathologies. Despite being important drug targets, attempts to design small-molecule ligands that would help understand and attenuate their behavior are frustrated by the structural diversity exhibited by these flexible proteins. To accommodate the dynamic nature of IDPs, we developed a procedure that efficiently identifies active small-molecule ligands for disordered proteins. By exploring the chemical space around these ligands, we refined their effect on aggregation and identified molecular features critical for activity and affinity. Notably, the discovery of this new family of disordered protein ligands was achieved more quickly and with less expense than conventional high-throughput screening (HTS) or docking alone would have allowed. The resulting ligands include tau aggregation inhibitors as well as at least one compound that binds fibrils potently but does not appear to perturb the extent of kinetics of aggregation.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Ligands",
+      "Structure-Activity Relationship",
+      "tau Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Baggett, David W",
+        "Nath, Abhinav"
+      ],
+      "short_names": [
+        "Baggett DW",
+        "Nath A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2895-2973"
+      ],
+      "affiliations": [
+        "Department of Medicinal Chemistry, University of Washington, 1959 Northeast Pacific Street, Box 357610, Seattle, Washington 98195, United States.",
+        "Department of Medicinal Chemistry, University of Washington, 1959 Northeast Pacific Street, Box 357610, Seattle, Washington 98195, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Baggett, David W",
+        "short_name": "Baggett DW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medicinal Chemistry, University of Washington, 1959 Northeast Pacific Street, Box 357610, Seattle, Washington 98195, United States."
+        ]
+      },
+      {
+        "full_name": "Nath, Abhinav",
+        "short_name": "Nath A",
+        "identifiers": [
+          "0000-0002-2895-2973"
+        ],
+        "affiliations": [
+          "Department of Medicinal Chemistry, University of Washington, 1959 Northeast Pacific Street, Box 357610, Seattle, Washington 98195, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ACS chemical biology"
+    ],
+    "journal_abbrev": [
+      "ACS Chem Biol"
+    ],
+    "pub_date": "2022 Mar 18",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/02/12 06:00",
+    "fetched_at": "2026-09-20 08:12:06"
+  },
+  "links": {
+    "cites": [
+      "41889760",
+      "41509380",
+      "40400346",
+      "38559297",
+      "38352474",
+      "37395272"
+    ],
+    "refs": [
+      "34588692",
+      "34128081",
+      "33723967",
+      "32603876",
+      "32032505",
+      "31699899",
+      "31088912",
+      "30720432",
+      "30371825",
+      "30276465",
+      "30247897",
+      "30158706",
+      "28772101",
+      "28678775",
+      "28280572",
+      "28054562",
+      "27615390",
+      "27597727",
+      "26631930",
+      "26507530",
+      "26400175",
+      "24551051",
+      "22743772",
+      "21982300",
+      "21742788",
+      "20598937",
+      "19499576",
+      "19215087",
+      "18952168",
+      "18573080",
+      "18382657",
+      "17876039",
+      "17032683",
+      "13679853",
+      "10805776",
+      "9665729",
+      "9190213",
+      "8068626",
+      "3098742",
+      "1639844"
+    ],
+    "similar": [
+      "35147406",
+      "36310204",
+      "35131537",
+      "30247897",
+      "26923286",
+      "25284680",
+      "29944336",
+      "24098099",
+      "30259679",
+      "30471705",
+      "30875980",
+      "23912807",
+      "32623047",
+      "32722166",
+      "21686180",
+      "27911791",
+      "34626492",
+      "25611056",
+      "26387110",
+      "29928798",
+      "32253236",
+      "30979035",
+      "24532081",
+      "31756456",
+      "35883018",
+      "28992347",
+      "32020911",
+      "28719185",
+      "31021441",
+      "28833749",
+      "29897236",
+      "34537237",
+      "24871565",
+      "30471704",
+      "17081491",
+      "32097611",
+      "32707418",
+      "26387101",
+      "30986567",
+      "32696388",
+      "29395045",
+      "29630971",
+      "35034725",
+      "32097582",
+      "38352474",
+      "32770092",
+      "27338491",
+      "25691742",
+      "29630333",
+      "30278223",
+      "27794210",
+      "25345588",
+      "31783644",
+      "32703978",
+      "32696379",
+      "23794453",
+      "34390736",
+      "16779670",
+      "32859072",
+      "32936312",
+      "30527137",
+      "35167081",
+      "35130691",
+      "35436286",
+      "34680086",
+      "27004461",
+      "32103094",
+      "25496281",
+      "19874263",
+      "28554553",
+      "34649422",
+      "32487732",
+      "30909517",
+      "26387104",
+      "29382046",
+      "30003969",
+      "33310020"
+    ],
+    "review": [
+      "35147406",
+      "30471705",
+      "30875980",
+      "21686180",
+      "26387110",
+      "32253236",
+      "30979035",
+      "24532081",
+      "28992347",
+      "32020911",
+      "31021441",
+      "28833749",
+      "32097611",
+      "26387101",
+      "30986567",
+      "32097582",
+      "27338491",
+      "30278223",
+      "27794210",
+      "23794453",
+      "34390736",
+      "16779670",
+      "30527137",
+      "27004461",
+      "19874263",
+      "28554553",
+      "30909517",
+      "26387104",
+      "29382046"
+    ],
+    "pmc": [
+      "9381419"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35147406/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35147406",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/acbcct/article-lookup/doi/10.1021/acschembio.2c00012",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

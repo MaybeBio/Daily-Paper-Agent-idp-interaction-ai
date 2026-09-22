@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35800891",
+  "title": "The C-Terminal Domain of Y-Box Binding Protein 1 Exhibits Structure-Specific Binding to Poly(ADP-Ribose), Which Regulates PARP1 Activity.",
+  "authors": "Naumenko, Konstantin N; Sukhanova, Mariya V; Hamon, Loic; Kurgina, Tatyana A; Anarbaev, Rashid O; Mangerich, Aswin; Pastre, David; Lavrik, Olga I",
+  "journal": "Frontiers in cell and developmental biology",
+  "published_date": "2022-07-09",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 7,
+  "one_liner_zh": "该文研究YB-1无序C端结构域与PAR的结构特异性结合及其对PARP1活性的调控，涉及无序蛋白介导的蛋白-核酸互作机制，但对象为PAR而非典型PPI，方法以实验为主，缺乏AI/物理模拟，故综合评7分。",
+  "abstract": "Y-box-binding protein 1 (YB-1) is a multifunctional protein involved in the regulation of gene expression. Recent studies showed that in addition to its role in the RNA and DNA metabolism, YB-1 is involved in the regulation of PARP1 activity, which catalyzes poly(ADP-ribose) [PAR] synthesis under genotoxic stress through auto-poly(ADP-ribosyl)ation or protein trans-poly(ADP-ribosyl)ation. Nonetheless, the exact mechanism by which YB-1 regulates PAR synthesis remains to be determined. YB-1 contains a disordered Ala/Pro-rich N-terminal domain, a cold shock domain, and an intrinsically disordered C-terminal domain (CTD) carrying four clusters of positively charged amino acid residues. Here, we examined the functional role of the disordered CTD of YB-1 in PAR binding and in the regulation of PARP1-driven PAR synthesis in vitro. We demonstrated that the rate of PARP1-dependent synthesis of PAR is higher in the presence of YB-1 and is tightly controlled by the interaction between YB-1 CTD and PAR. Moreover, YB-1 acts as an effective cofactor in the PAR synthesis catalyzed by the PARP1 point mutants that generate various PAR polymeric structures, namely, short hypo- or hyperbranched polymers. We showed that either a decrease in chain length or an increase in branching frequency of PAR affect its binding affinity for YB-1 and YB-1-mediated stimulation of PARP1 enzymatic activity. These results provide important insight into the mechanism underlying the regulation of PARP1 activity by PAR-binding proteins containing disordered regions with clusters of positively charged amino acid residues, suggesting that YB-1 CTD-like domains may be considered PAR \"readers\" just as other known PAR-binding modules.",
+  "abstract_zh": "Y-box结合蛋白1（YB-1）是一种多功能蛋白，参与基因表达的调控。近期研究表明，除了在RNA和DNA代谢中的作用外，YB-1还参与调控PARP1活性，后者在基因毒性应激下通过自身多聚ADP-核糖基化或蛋白质反式多聚ADP-核糖基化催化多聚ADP-核糖（PAR）合成。然而，YB-1调控PAR合成的确切机制仍有待确定。YB-1包含一个无序的Ala/Pro富集N端结构域、一个冷休克结构域，以及一个携带四个正电荷氨基酸残基簇的内在无序C端结构域（CTD）。在此，我们研究了YB-1无序CTD在PAR结合及体外调控PARP1驱动的PAR合成中的功能作用。我们证明，在YB-1存在时，PARP1依赖性PAR合成速率更高，并且受到YB-1 CTD与PAR之间相互作用的严格调控。此外，YB-1在由PARP1点突变体催化的PAR合成中作为有效辅因子，这些突变体产生各种PAR聚合结构，即短链低分支或高分支聚合物。我们显示，PAR链长度的减少或分支频率的增加均影响其与YB-1的结合亲和力以及YB-1介导的PARP1酶活性刺激。这些结果为含正电荷氨基酸残基簇无序区域的PAR结合蛋白调控PARP1活性的机制提供了重要见解，表明YB-1 CTD样结构域可能被视为PAR“阅读器”，类似于其他已知的PAR结合模块。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35800891/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35800891/",
+  "paper_page_path": "papers/pubmed/35800891/index.html"
+}

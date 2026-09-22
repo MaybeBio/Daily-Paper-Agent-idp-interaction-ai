@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, and materials and methods. Figures and supplementary materials referenced but not provided.
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided text. No assessment of figures, tables, or supplementary data that were not included.
+- **Shared manuscript claim summary** The authors propose that Nst1, a P-body-associated protein in Saccharomyces cerevisiae, contains a C-terminal aggregation-prone domain (APD) that drives self-condensation and a polyampholyte domain (PD) within an intrinsically disordered region that serves as a hub for recruiting other P-body components, such as Dcp2, Edh3, Dhh1, and Xrn1, independent of RNA influx.
+- **Visible evidence base** Text descriptions of fluorescence microscopy, colocalization analysis via van Steensel's cross-correlation function, 1,6-hexanediol and cycloheximide treatments, Western blotting, and sequence-based bioinformatic predictions. Figure legends and supplementary figures are referenced but not visible.
+- **Missing materials affecting confidence** All figures, supplementary figures, tables, and raw quantitative data are absent. Statistical details are only partially described in the text. The co-immunoprecipitation data are mentioned as "not shown" or in supplementary figures that were not provided.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant question in the field of biomolecular condensation, specifically the role of sequence elements in a P-body-associated protein in driving self-condensation and recruiting client components. The authors present a clear hypothesis and use a systematic deletion approach to dissect the contributions of the APD and PD. However, the conclusions are substantially weakened by the absence of quantitative data, figure panels, and statistical analyses that are referenced but not visible. The claim that the PD functions as a hub for interacting with P-body components is plausible but not fully established from the provided evidence, particularly given the failure to detect direct physical interactions via co-immunoprecipitation. The manuscript would benefit from additional biochemical or biophysical validation to support the proposed mechanism.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, P-body biology, intrinsically disordered regions, and scaffold-client relationships in membraneless organelles. The work may also interest those investigating the sequence determinants of protein condensation and the role of polyampholyte domains in multivalent interactions.
+- **Major strengths** The study addresses an important and timely question about the sequence determinants of biomolecular condensation. The use of multiple bioinformatic prediction tools to identify candidate domains is thorough. The systematic deletion approach is logical and allows for functional dissection of distinct sequence elements. The inclusion of cycloheximide treatment to distinguish RNA-dependent from RNA-independent condensation is a thoughtful experimental design. The observation that the PD is dispensable for self-condensation but required for recruiting Dcp2 and other P-body components is a potentially interesting finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The claim that the PD "functions as a hub domain interacting with other PB components" is central to the manuscript.
+  - **Evidence pointer** Section 2.4, Section 2.5, Section 2.6; Figures 4, 5, 6 (not visible); Supplemental Figure S3 (not visible)
+  - **Concern** The central claim that the PD serves as a hub for interacting with P-body components is based primarily on microscopy observations of reduced Dcp2, Edc3, Dhh1, and Xrn1 condensation upon PD deletion. However, the authors state that co-immunoprecipitation experiments failed to detect direct physical interactions between Nst1 or its mutants and Dcp2. This creates a significant gap between the functional phenotype (reduced client condensation) and the proposed molecular mechanism (direct or indirect interaction via the PD). Without biochemical evidence of binding or a more detailed mechanistic model, the claim that the PD is a "hub domain" is not fully supported.
+  - **Why it matters** The manuscript's main contribution is the identification of a specific sequence element responsible for recruiting P-body components. If the PD does not physically interact with these components, the mechanism by which it promotes their condensation remains unclear. The conclusion may be overstated relative to the evidence.
+  - **Resolution test** Provide biochemical evidence of interaction, such as improved co-immunoprecipitation conditions, pull-down assays with purified components, or crosslinking experiments. Alternatively, demonstrate that the PD is required for Nst1 to recruit clients in a reconstituted in vitro system. If direct interaction cannot be demonstrated, the claim should be revised to reflect that the PD is required for client condensation but the mechanism remains to be determined.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative data availability
+  - **Claim pointer** Multiple quantitative claims about the degree of condensation, colocalization, and statistical significance are made throughout the results.
+  - **Evidence pointer** Sections 2.2, 2.3, 2.4, 2.5, 2.6; Figures 2, 3, 4, 5, 6 (not visible); figure legends referenced but not provided
+  - **Concern** The manuscript relies heavily on quantitative image analysis, including van Steensel's cross-correlation function, pixel intensity measurements, and ratios of cells with puncta. However, none of the actual data, representative images, or statistical outputs are visible in the provided material. The reader cannot assess the magnitude of the reported effects, the variability between experiments, or the appropriateness of the statistical tests. The claim that PD deletion "significantly decreased" client condensation cannot be evaluated without the underlying data.
+  - **Why it matters** The conclusions depend on the robustness and reproducibility of the quantitative imaging data. Without access to the data, the strength of the reported phenotypes cannot be verified, and the possibility of subtle or variable effects cannot be excluded.
+  - **Resolution test** Provide the figures with representative images, quantitative plots with error bars and individual data points, and clear statistical annotations. Ensure that the number of biological replicates and cells analyzed per condition is stated. If the data are already in the figures, the review should be based on the complete manuscript.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic depth
+  - **Claim pointer** The claim that the APD is "crucial but insufficient" for self-condensation and that it functions "in a context-dependent manner."
+  - **Evidence pointer** Section 2.3, Figure 3 (not visible)
+  - **Concern** The authors demonstrate that deleting the APD abolishes self-condensation, but overexpressing the APD alone does not induce condensation. This is interpreted as the APD being necessary but not sufficient. However, the text does not explore why the APD is insufficient. Is the APD simply a weak oligomerization domain that requires additional interactions? Does it need to be presented in the context of the larger protein? The discussion of the mechanism is limited.
+  - **Why it matters** Understanding why the APD is insufficient would provide insight into the cooperative interactions required for condensation. The current treatment is descriptive rather than mechanistic.
+  - **Resolution test** Perform additional experiments to test whether the APD can drive condensation when fused to an oligomerization domain or when multimerized. Alternatively, test whether the APD contributes to condensation by promoting weak, multivalent interactions that require additional contacts from other regions of Nst1.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** The claim that the PD "provides a platform for interacting with P-body components" implies a general mechanism for client recruitment.
+  - **Evidence pointer** Section 2.6, Figure 6 (not visible)
+  - **Concern** The authors show that PD deletion reduces condensation of Dcp2, Edc3, Dhh1, and Xrn1. However, it is unclear whether the PD interacts with each of these components directly, whether it interacts with one component that then recruits the others, or whether the reduced condensation is an indirect consequence of altered Nst1 self-condensation dynamics. The text does not address the specificity of the PD-client interactions.
+  - **Why it matters** The proposed model of the PD as a "hub" suggests that it engages multiple clients. Without evidence for direct or specific interactions, the hub model remains speculative.
+  - **Resolution test** Test whether the PD is sufficient to recruit each client independently, for example by tethering the PD to a non-condensing scaffold and monitoring client recruitment. Alternatively, identify PD-binding partners through proteomic approaches.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 2.1, description of bioinformatic predictions
+  - **Evidence pointer** Figure 1 (not visible)
+  - **Issue** The text states that the PD was "predicted as coiled-coil (CC) helices" but also as an intrinsically disordered region. These predictions may seem contradictory to some readers. The relationship between predicted disorder and predicted coiled-coil structure is not explained.
+  - **Required correction** Clarify that regions can be disordered yet contain short structured elements, and that the coiled-coil prediction may reflect a tendency to form transient helices. Provide a brief explanation of how the predictions were reconciled.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.2, use of "liquid-like properties"
+  - **Evidence pointer** Figure 2A (not visible)
+  - **Issue** The term "liquid-like properties" is used based on 1,6-hexanediol sensitivity. While this is a common proxy, the text does not acknowledge the limitations of this approach, such as the possibility that 1,6-hexanediol affects other hydrophobic interactions unrelated to liquid-liquid phase separation.
+  - **Required correction** Add a sentence acknowledging that 1,6-hexanediol sensitivity is an indirect measure of liquid-like properties and that additional assays, such as fluorescence recovery after photobleaching, would strengthen the conclusion.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.3, discussion of co-immunoprecipitation
+  - **Evidence pointer** Section 3.3, Supplemental Figure S3 (not visible)
+  - **Issue** The authors state that co-immunoprecipitation failed to detect interactions but do not discuss possible reasons for this negative result, such as transient interactions, low affinity, or detergent sensitivity.
+  - **Required correction** Add a brief discussion of why the interactions may not have been detected biochemically and how this relates to the proposed model of weak, multivalent interactions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 4.5, statistical analysis
+  - **Evidence pointer** Section 4.5
+  - **Issue** The statistical methods section states that t-tests were used, but it is not clear whether these were one-tailed or two-tailed, and whether multiple comparisons were corrected for.
+  - **Required correction** Specify the type of t-test used and whether corrections for multiple comparisons were applied. Provide details on the number of independent experiments and cells analyzed.
+- **Technical failings that need to be addressed before the case is established** The absence of visible quantitative data and figures prevents verification of the central claims. The lack of biochemical evidence for PD-client interactions weakens the proposed hub model. The mechanistic explanation for why the APD is insufficient for self-condensation is underdeveloped.
+- **Assessment against Nature-style criteria** Originality: The work addresses a specific and relatively unexplored protein, Nst1, and its sequence determinants for condensation. The identification of a polyampholyte domain as a client-recruitment hub is a potentially novel contribution, though similar concepts have been proposed for other systems. Scientific importance: The findings are relevant to the broader field of biomolecular condensation and may inform understanding of scaffold-client relationships. However, the importance is moderate, as the study is largely descriptive and does not reveal a fundamentally new principle. Interdisciplinary readership: The topic is of interest to cell biologists, biophysicists, and biochemists studying phase separation. The methods are accessible, but the lack of quantitative data limits broader impact. Technical soundness: The experimental design is logical, but the inability to assess the data undermines confidence in the technical execution. The failure to detect biochemical interactions is a concern. Readability for nonspecialists: The manuscript is generally well-written and accessible, though some sections assume familiarity with phase separation concepts. Overall, the manuscript has potential but does not currently meet the standard of a high-impact general journal.
+- **Recommendation posture** Supportive if technical concerns are resolved. The central hypothesis is interesting and the experimental approach is reasonable, but the manuscript requires the inclusion of all quantitative data and figures, as well as additional evidence to support the proposed mechanism of PD-mediated client recruitment.
+
+## Risk / unsupported claims
+- The claim that the PD "functions as a hub domain interacting with other PB components" is not supported by direct biochemical evidence and is based solely on indirect microscopy observations.
+- The claim that the APD is "crucial but insufficient" for self-condensation is based on qualitative descriptions of microscopy data that are not visible.
+- The claim that PD-mediated client condensation is "independent of polysome RNA influx" is supported by cycloheximide experiments, but the data are not visible.
+- The statement that Nst1 "can intrinsically induce PB component condensations when overexpressed" is referenced to prior work but not demonstrated in this manuscript.
+- The bioinformatic predictions of domain boundaries and properties are presented as factual but are based on computational tools with inherent limitations that are not discussed.

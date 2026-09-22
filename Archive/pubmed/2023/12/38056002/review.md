@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, methods, and partial results description)
+- **Assessment boundary** Scientific claims, methodology, and evidence as presented in the provided text
+- **Shared manuscript claim summary** The authors report that liquid-liquid phase separation of the FUS low-complexity domain results in substantially slower hydration dynamics, as measured by 2D IR spectroscopy of amide I vibrations and supported by all-atom MD simulations.
+- **Visible evidence base** Abstract, Methods section (protein purification, sample preparation, FTIR, 2D IR, MD simulations, H-bond correlation function fitting, linear IR spectra calculation)
+- **Missing materials affecting confidence** Results section, figures, supplementary figures, detailed 2D IR data analysis, MD simulation trajectory details, error analysis, control experiments
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely question regarding the hydrogen-bonding environment within biomolecular condensates. The combination of 2D IR spectroscopy and MD simulations is appropriate and potentially powerful. However, the provided text lacks the core results section, making it impossible to evaluate the actual data, the quality of the fits, the statistical significance of the observed differences, or the robustness of the conclusions. The methods are described in reasonable detail, but several critical parameters and validation steps are missing. The central claim of substantially slowed hydration dynamics in condensates cannot be assessed from the supplied material.
+- **Who would be interested in the results, and why** Researchers in the fields of biomolecular condensates, phase separation, protein hydration dynamics, and 2D IR spectroscopy. The findings could have implications for understanding the physical chemistry of condensate interiors, including solvation properties, reaction kinetics, and molecular transport within these cellular compartments.
+- **Major strengths** The study addresses a fundamental and previously elusive question about the hydrogen-bonding environment in condensates. The combination of experimental 2D IR spectroscopy with all-atom MD simulations is a strong, complementary approach. The use of the FUS low-complexity domain is a well-chosen model system given its biological relevance. The methods section provides substantial detail on protein preparation and simulation setup.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The central claim that hydration dynamics are substantially slower in condensates than in homogeneous solution.
+  - **Evidence pointer** Results section (not provided), Figures (not provided)
+  - **Concern** The core experimental results, including the 2D IR spectra, the frequency-frequency correlation function (FFCF) decays, and the comparison between condensate and solution states, are not presented in the provided text. Without these data, the central claim cannot be evaluated.
+  - **Why it matters** The entire conclusion rests on the quantitative comparison of FFCF decay timescales between the two states. The reader cannot assess the magnitude of the reported slowing, the quality of the data, or the statistical significance of the difference.
+  - **Resolution test** Provide the full Results section with representative 2D IR spectra, FFCF decay curves for both condensate and solution, fitted time constants with uncertainties, and the number of independent measurements.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that MD simulations confirm longer water-protein hydrogen-bond lifetimes in condensates.
+  - **Evidence pointer** Methods section, "MD Simulations" and "Fit of the H-Bond Correlation Function"
+  - **Concern** The MD simulation production run is only 1 ns, which is extremely short for characterizing hydrogen-bond dynamics, especially for slower processes. The fitting of the H-bond correlation function to a triple exponential is described, but no values, uncertainties, or comparison between condensate and solution are provided. The categorization of proteins as "dispersed" or "condensed" is described but the resulting populations and their statistics are not given.
+  - **Why it matters** A 1 ns production run may be insufficient to capture the slower dynamics claimed to be relevant. Without the actual fitted parameters and their uncertainties, the simulation support for the experimental claim is unverifiable. The small number of "dispersed" proteins in a condensate simulation could lead to poor statistics.
+  - **Resolution test** Provide details on the length of the production run, the number of independent trajectories, the fitted H-bond correlation function parameters for both condensate and dispersed states, and the statistical analysis demonstrating a significant difference.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that 2D IR spectroscopy of amide I vibrations reports on hydration dynamics in the condensate.
+  - **Evidence pointer** Methods section, "2D IR Measurements" and "Calculation of Linear IR Spectra"
+  - **Concern** The manuscript does not describe how the 2D IR spectra were analyzed to extract the FFCF. The spectral calculation formalism is described for linear IR spectra, but the connection to the 2D IR observable and the FFCF extraction procedure is not detailed. The potential influence of spectral diffusion, vibrational coupling, and inhomogeneous broadening on the interpretation is not discussed.
+  - **Why it matters** The interpretation of the 2D IR data in terms of hydration dynamics relies on a well-established but non-trivial analysis procedure. Without this detail, the reader cannot assess whether the reported timescales are robustly extracted or whether alternative interpretations (e.g., changes in protein conformational dynamics) are excluded.
+  - **Resolution test** Provide a detailed description of the 2D IR data analysis, including the method for extracting the FFCF, the fitting procedure, and a discussion of potential artifacts or alternative contributions to the observed dynamics.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Sample Preparation for IR Measurements"
+  - **Evidence pointer** Methods section
+  - **Issue** The description of pH adjustment is unclear. The text states "the pH was adjusted by the addition of phosphate buffer (pD 5.5, 20 mM sodium phosphate, 150 mM NaCl) to a final pD value of 7.5." It is unclear how adding a pH 5.5 buffer results in a final pD of 7.5, and the final buffer composition is not specified.
+  - **Required correction** Clarify the buffer composition and the procedure for achieving the final pD of 7.5. Specify the final concentrations of all buffer components.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "MD Simulations"
+  - **Evidence pointer** Methods section
+  - **Issue** The force field for the initial coarse-grained (CG) simulation is mentioned as an "adaptation of the MARTINI CG model," but the specific version and any modifications are not described. The backmapping procedure is mentioned but not validated.
+  - **Required correction** Provide the specific MARTINI version and any modifications used. Describe the backmapping validation (e.g., structural overlap, energy minimization criteria).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods, "Fit of the H-Bond Correlation Function"
+  - **Evidence pointer** Methods section
+  - **Issue** The equation for the triple-exponential fit is mentioned but not shown in the provided text. The condition on the pre-exponential factors is also not shown.
+  - **Required correction** Include the full equation and the condition on the pre-exponential factors.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Calculation of Linear IR Spectra"
+  - **Evidence pointer** Methods section
+  - **Issue** The calibration of the spectral calculation is described as being done on an "LKa14 peptide," but no details are given about this peptide or the quality of the calibration.
+  - **Required correction** Provide a reference for the LKa14 peptide and describe the calibration quality (e.g., comparison to experimental spectra).
+
+## Risk / unsupported claims
+- The central claim of substantially slowed hydration dynamics in condensates is unsupported from the provided material, as the experimental results are not shown.
+- The claim that MD simulations confirm the experimental findings is unsupported, as no simulation results are provided.
+- The claim that altered hydrogen-bonding dynamics may contribute to unique solvation and reaction dynamics in condensates is speculative and not directly tested.
+- The assertion that the 2D IR measurements specifically probe hydration dynamics (as opposed to other dynamical processes) is not fully supported without a detailed analysis description.

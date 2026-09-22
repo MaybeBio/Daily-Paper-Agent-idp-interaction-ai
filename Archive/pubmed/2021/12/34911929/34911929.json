@@ -1,0 +1,478 @@
+{
+  "identity": {
+    "pmid": "34911929",
+    "doi": "10.1038/s41467-021-27433-y",
+    "title": "Capillary flow experiments for thermodynamic and kinetic characterization of protein liquid-liquid phase separation."
+  },
+  "content": {
+    "abstract": "Liquid-liquid phase separation or LLPS of proteins is a field of mounting importance and the value of quantitative kinetic and thermodynamic characterization of LLPS is increasingly recognized. We present a method, Capflex, which allows rapid and accurate quantification of key parameters for LLPS: Dilute phase concentration, relative droplet size distributions, and the kinetics of droplet formation and maturation into amyloid fibrils. The binding affinity between the polypeptide undergoing LLPS and LLPS-modulating compounds can also be determined. We apply Capflex to characterize the LLPS of Human DEAD-box helicase-4 and the coacervate system ssDNA/RP(3). Furthermore, we study LLPS and the aberrant liquid-to-solid phase transition of alpha-synuclein. We quantitatively measure the decrease in dilute phase concentration as the LLPS of alpha-synuclein is followed by the formation of Thioflavin-T positive amyloid aggregates. The high information content, throughput and the versatility of Capflex makes it a valuable tool for characterizing biomolecular LLPS.",
+    "keywords": [],
+    "mesh_terms": [
+      "Amyloid/chemistry",
+      "Benzothiazoles/chemistry",
+      "DEAD-box RNA Helicases/*chemistry",
+      "Kinetics",
+      "Peptides/*chemistry",
+      "Phase Transition",
+      "Thermodynamics",
+      "alpha-Synuclein/*chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Stender, Emil G P",
+        "Ray, Soumik",
+        "Norrild, Rasmus K",
+        "Larsen, Jacob Aunstrup",
+        "Petersen, Daniel",
+        "Farzadfard, Azad",
+        "Galvagnion, Celine",
+        "Jensen, Henrik",
+        "Buell, Alexander K"
+      ],
+      "short_names": [
+        "Stender EGP",
+        "Ray S",
+        "Norrild RK",
+        "Larsen JA",
+        "Petersen D",
+        "Farzadfard A",
+        "Galvagnion C",
+        "Jensen H",
+        "Buell AK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1933-5471",
+        "ORCID: 0000-0002-9120-2745",
+        "ORCID: 0000-0001-9753-3310",
+        "ORCID: 0000-0003-1161-3622"
+      ],
+      "affiliations": [
+        "Department of Biotechnology and Biomedicine, Technical University of Denmark, Soltofts Plads, Building 227, 2800, Kgs. Lyngby, Denmark.",
+        "Department of Biotechnology and Biomedicine, Technical University of Denmark, Soltofts Plads, Building 227, 2800, Kgs. Lyngby, Denmark.",
+        "Department of Biotechnology and Biomedicine, Technical University of Denmark, Soltofts Plads, Building 227, 2800, Kgs. Lyngby, Denmark.",
+        "Department of Biotechnology and Biomedicine, Technical University of Denmark, Soltofts Plads, Building 227, 2800, Kgs. Lyngby, Denmark.",
+        "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, Universitetsparken 2, 2100, Copenhagen, Denmark.",
+        "Department of Biotechnology and Biomedicine, Technical University of Denmark, Soltofts Plads, Building 227, 2800, Kgs. Lyngby, Denmark.",
+        "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, Universitetsparken 2, 2100, Copenhagen, Denmark.",
+        "FIDA Biosystems Aps, Generatorvej 6 A+B, 2860, Soborg, Denmark.",
+        "Department of Biotechnology and Biomedicine, Technical University of Denmark, Soltofts Plads, Building 227, 2800, Kgs. Lyngby, Denmark. alebu@dtu.dk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Stender, Emil G P",
+        "short_name": "Stender EGP",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Technical University of Denmark, Søltofts Plads, Building 227, 2800, Kgs. Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Ray, Soumik",
+        "short_name": "Ray S",
+        "identifiers": [
+          "0000-0002-1933-5471"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Technical University of Denmark, Søltofts Plads, Building 227, 2800, Kgs. Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Norrild, Rasmus K",
+        "short_name": "Norrild RK",
+        "identifiers": [
+          "0000-0002-9120-2745"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Technical University of Denmark, Søltofts Plads, Building 227, 2800, Kgs. Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Larsen, Jacob Aunstrup",
+        "short_name": "Larsen JA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Technical University of Denmark, Søltofts Plads, Building 227, 2800, Kgs. Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Petersen, Daniel",
+        "short_name": "Petersen D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, Universitetsparken 2, 2100, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Farzadfard, Azad",
+        "short_name": "Farzadfard A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Technical University of Denmark, Søltofts Plads, Building 227, 2800, Kgs. Lyngby, Denmark."
+        ]
+      },
+      {
+        "full_name": "Galvagnion, Céline",
+        "short_name": "Galvagnion C",
+        "identifiers": [
+          "0000-0001-9753-3310"
+        ],
+        "affiliations": [
+          "Department of Drug Design and Pharmacology, Faculty of Health and Medical Sciences, University of Copenhagen, Universitetsparken 2, 2100, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Jensen, Henrik",
+        "short_name": "Jensen H",
+        "identifiers": [],
+        "affiliations": [
+          "FIDA Biosystems Aps, Generatorvej 6 A+B, 2860, Søborg, Denmark."
+        ]
+      },
+      {
+        "full_name": "Buell, Alexander K",
+        "short_name": "Buell AK",
+        "identifiers": [
+          "0000-0003-1161-3622"
+        ],
+        "affiliations": [
+          "Department of Biotechnology and Biomedicine, Technical University of Denmark, Søltofts Plads, Building 227, 2800, Kgs. Lyngby, Denmark. alebu@dtu.dk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2021 Dec 15",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/12/17 06:00",
+    "fetched_at": "2026-09-20 07:07:30"
+  },
+  "links": {
+    "cites": [
+      "42627558",
+      "42425985",
+      "42350393",
+      "42225627",
+      "42103765",
+      "41851271",
+      "41732280",
+      "41671389",
+      "40916915",
+      "40671581",
+      "40493051",
+      "40178502",
+      "40060928",
+      "39985130",
+      "39923075",
+      "39592606",
+      "39556435",
+      "39333660",
+      "39206638",
+      "39134696",
+      "39037698",
+      "38441598",
+      "38347544",
+      "37907762",
+      "37794023",
+      "37749234",
+      "37337111",
+      "37180732",
+      "36802433",
+      "36277637",
+      "36269080",
+      "35445278"
+    ],
+    "refs": [
+      "34163831",
+      "33653957",
+      "33386842",
+      "33318217",
+      "33169001",
+      "33049210",
+      "32966943",
+      "32807882",
+      "32747754",
+      "32661370",
+      "32586227",
+      "32571937",
+      "32554597",
+      "32514159",
+      "32426609",
+      "32414928",
+      "32405004",
+      "32249573",
+      "31424918",
+      "31168090",
+      "30814253",
+      "30682370",
+      "30449618",
+      "29963162",
+      "29961577",
+      "29650702",
+      "29602697",
+      "29439243",
+      "29323488",
+      "29065286",
+      "29064502",
+      "28894006",
+      "28819146",
+      "28225081",
+      "27838525",
+      "27545621",
+      "27471966",
+      "27392146",
+      "27374333",
+      "27219701",
+      "27212236",
+      "27056844",
+      "26791895",
+      "26727894",
+      "26526393",
+      "26474065",
+      "26455390",
+      "26412307",
+      "26406374",
+      "26317470",
+      "25747659",
+      "25643172",
+      "25288112",
+      "24817693",
+      "24338013",
+      "23512413",
+      "22694188",
+      "22398450",
+      "21560019",
+      "20201527",
+      "19823716",
+      "19502427",
+      "19460965",
+      "18954910",
+      "18948503",
+      "17958398",
+      "6824758",
+      "786399"
+    ],
+    "similar": [
+      "34911929",
+      "34431665",
+      "39116032",
+      "38593269",
+      "38511533",
+      "35500664",
+      "33356290",
+      "35787838",
+      "33139563",
+      "30142878",
+      "36310218",
+      "36920190",
+      "37414583",
+      "34787417",
+      "33467854",
+      "35657723",
+      "36310217",
+      "32169484",
+      "33279579",
+      "36762833",
+      "35943083",
+      "34313292",
+      "36115020",
+      "38597222",
+      "31809698",
+      "33057154",
+      "35485974",
+      "34044018",
+      "39358890",
+      "34953857",
+      "31790267",
+      "38380794",
+      "30486688",
+      "32405004",
+      "37577712",
+      "36723049",
+      "36551199",
+      "35998851",
+      "33452693",
+      "38811080",
+      "37204199",
+      "36373662",
+      "34165838",
+      "16162499",
+      "36843414",
+      "37347214",
+      "32750740",
+      "32514159",
+      "30292393",
+      "36310222",
+      "29511089",
+      "30278239",
+      "34310938",
+      "34718734",
+      "31928729",
+      "33607084",
+      "35276458",
+      "33809541",
+      "26451401",
+      "34871547",
+      "33684117",
+      "36876423",
+      "33771571",
+      "25505181",
+      "33469149",
+      "30774334",
+      "31941785",
+      "39053405",
+      "39256186",
+      "34156864",
+      "30239196",
+      "26756795",
+      "33255444",
+      "31417259",
+      "31776941",
+      "37840355",
+      "33478213",
+      "37972831",
+      "32599698",
+      "30531905",
+      "35293386",
+      "33149109",
+      "36180409",
+      "31096048",
+      "17936783",
+      "17266278",
+      "36310223",
+      "33903234",
+      "24679215",
+      "38464093",
+      "39328748",
+      "37092470",
+      "34163831",
+      "30702291",
+      "21848289",
+      "33982369",
+      "35365630",
+      "33997868",
+      "30639428",
+      "36947002",
+      "33583140",
+      "31917988",
+      "37672734",
+      "36594499",
+      "35796975",
+      "32775538",
+      "38862770",
+      "32120928",
+      "29941606",
+      "39069878",
+      "39307116",
+      "38553587",
+      "38117593",
+      "37557974",
+      "34787433",
+      "38205268",
+      "34135122",
+      "37641002",
+      "36745512",
+      "38362440",
+      "34110175",
+      "38110976",
+      "36503242",
+      "36703474",
+      "38288754",
+      "36806460",
+      "37967197",
+      "37764485",
+      "37325682",
+      "38978442",
+      "37156204",
+      "37439740",
+      "37596729",
+      "37364418",
+      "36640113",
+      "33318217",
+      "38933916",
+      "39120944",
+      "30443328",
+      "31943581",
+      "36559054",
+      "37422221",
+      "33983381",
+      "34276791",
+      "38465963"
+    ],
+    "review": [
+      "34911929",
+      "35787838",
+      "37414583",
+      "32169484",
+      "38597222",
+      "35998851",
+      "38811080",
+      "36373662",
+      "31928729",
+      "37092470",
+      "33583140",
+      "39307116",
+      "37557974",
+      "38110976",
+      "36503242",
+      "36806460",
+      "37156204",
+      "37364418",
+      "37422221",
+      "34276791"
+    ],
+    "pmc": [
+      "8674230"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-021-27433-y",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34911929/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34911929",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.lens.org/lens/search/patent/list?q=reference_cited.npl.ids.pmid:34911929",
+        "provider": "The Lens - Patent Citations Database",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": "Cited by Patents in"
+      }
+    ],
+    "text_mined": []
+  }
+}

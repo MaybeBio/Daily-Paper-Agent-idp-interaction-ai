@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42310771",
+  "title": "Navigating the uncharted: AI-driven advances in protein structure, dynamics, interactions and ligand interactions for understudied families.",
+  "authors": "Singh, Shivani; Singh, Ruhani; Sharma, Sunita",
+  "journal": "BioData mining",
+  "published_date": "2026-06-18",
+  "window": {
+    "start": "2026-06-15",
+    "end": "2026-06-21"
+  },
+  "score": 7,
+  "one_liner_zh": "综述AI驱动的蛋白质结构、动力学、PPI及配体互作建模方法，并以孤儿GPCR和IDR为案例，展示对未充分研究蛋白家族的预测进展，虽为综述且非聚焦IDR互作机制，但方法迁移性强。",
+  "abstract": "The structural and functional characterization of lesser-known protein families remains a major challenge in modern computational biology. Recent breakthroughs in artificial intelligence (AI) and machine learning (ML) have rapidly advanced these fields. This is particularly evident in overcoming the limitations of traditional modelling approaches, such as classical homology modelling and ab initio folding methods. This review traces the evolution of conventional methods to cutting-edge deep learning frameworks, such as AlphaFold2, RoseTTAFold, and transformer-based architectures. We explore how these AI-driven tools achieve near-experimental accuracy in structure prediction, model protein dynamics, and intrinsic disorder. We also addressed computational approaches for protein-protein interactions (PPIs), central to cellular function and interface-targeted drug design, alongside protein-ligand interactions, including novel generative methods. Two representative case studies targeting orphan G-protein-coupled receptors and intrinsically disordered regions demonstrate the transformative potential of these techniques for previously intractable systems. Despite these advances, significant challenges remain, including the need for experimental validation, effective modelling of protein flexibility, and ethical considerations surrounding AI-generated data. We also compare classical and AI-based structural biology pipelines, summarize key tools (e.g. transformers, graph neural networks, and diffusion models), and offer best practice guidelines for computational modelling and data visualization. These developments provide unprecedented insights into the dark proteome regions of the protein universe, enabling the structural illumination of previously uncharacterized and understudied proteins where structure or function was unknown. This review aims to serve as a roadmap for researchers seeking to harness AI innovations to tackle some of the most challenging aspects of proteomics.",
+  "abstract_zh": "对较少为人所知的蛋白质家族进行结构和功能表征，仍是现代计算生物学中的重大挑战。人工智能（AI）和机器学习（ML）的最新突破已迅速推进这些领域的发展，这在克服传统建模方法（如经典同源建模和从头折叠方法）的局限性方面尤为显著。本综述追溯了从传统方法到尖端深度学习框架（如AlphaFold2、RoseTTAFold及基于Transformer的架构）的演变过程。我们探讨了这些AI驱动工具如何在结构预测中实现接近实验水平的精度，并模拟蛋白质动力学及内在无序性。我们还讨论了蛋白质-蛋白质相互作用（PPIs）的计算方法，这对细胞功能和界面靶向药物设计至关重要，同时涉及蛋白质-配体相互作用，包括新型生成方法。两个针对孤儿G蛋白偶联受体和内在无序区域的代表性案例研究，展示了这些技术对先前难以处理的系统所具有的变革潜力。尽管取得了这些进展，仍存在重大挑战，包括实验验证的需求、蛋白质柔性的有效建模，以及围绕AI生成数据的伦理考量。我们还比较了经典和基于AI的结构生物学流程，总结了关键工具（如Transformer、图神经网络和扩散模型），并为计算建模和数据可视化提供了最佳实践指南。这些发展为蛋白质宇宙中的暗蛋白质组区域提供了前所未有的见解，使得对先前未表征和研究不足、结构或功能未知的蛋白质进行结构阐明成为可能。本综述旨在为研究人员提供路线图，以利用AI创新应对蛋白质组学中最具挑战性的方面。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42310771/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42310771/",
+  "paper_page_path": "papers/pubmed/42310771/index.html"
+}

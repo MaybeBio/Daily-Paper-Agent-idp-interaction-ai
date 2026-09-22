@@ -1,0 +1,234 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.10.12.562014",
+  "title": "Understanding structural and functional diversity of ATP-PPases using protein domains and functional families in CATH database",
+  "doi": "10.1101/2023.10.12.562014",
+  "abstract": "<h4>Summary</h4> ATP-Pyrophosphatases (ATP-PPases) are the most primordial lineage of the large and diverse HUP ( H IGH-motif proteins, U niversal Stress Proteins, ATP- P yrophosphatase) superfamily. There are four different ATP-PPase substrate-specificity groups, and members of each group show considerable sequence variation across the domains of life despite sharing the same catalytic function. Over the past decade, there has been a >20-fold expansion in the number of ATP-PPase domain structures most recently from advances in protein structure prediction (e.g. Alphafold2). Using the enriched structural information, we have characterised the two most populated ATP-PPase substrate-specificity groups, the NAD-synthases (NAD) and GMP synthases (GMPS). We performed local structural and sequence comparisons between the NADS and GMPS from different domains of life and identified taxonomic-group specific structural functional motifs. As GMPS and NADS are potential drug targets of pathogenic microorganisms including Mycobacterium tuberculosis , structural motifs specific to bacterial GMPS and NADS provide new insights that may aid antibacterial-drug design.",
+  "authors": [
+    "Waman VP",
+    "Yin J",
+    "Sen N",
+    "Firdaus-Raih M",
+    "Lam SD",
+    "Orengo C"
+  ],
+  "published_date": "2023-10-16",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.10.12.562014",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.10.12.562014.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR743029",
+    "raw_record": {
+      "id": "PPR743029",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR743029"
+        ]
+      },
+      "doi": "10.1101/2023.10.12.562014",
+      "title": "Understanding structural and functional diversity of ATP-PPases using protein domains and functional families in CATH database",
+      "authorString": "Waman VP, Yin J, Sen N, Firdaus-Raih M, Lam SD, Orengo C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Waman VP",
+            "lastName": "Waman",
+            "firstName": "Vaishali",
+            "initials": "VP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural and Molecular Biology, University College London, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yin J",
+            "lastName": "Yin",
+            "firstName": "Jialin",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural and Molecular Biology, University College London, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sen N",
+            "lastName": "Sen",
+            "firstName": "Neeladri",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3324-5755"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural and Molecular Biology, University College London, London, United Kingdom"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Firdaus-Raih M",
+            "lastName": "Firdaus-Raih",
+            "firstName": "Mohd",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Applied Physics, Faculty of Science and Technology, Universiti Kebangsaan Malaysia, 43600 UKM Bangi, Malaysia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lam SD",
+            "lastName": "Lam",
+            "firstName": "Su Datt",
+            "initials": "SD",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4772-7656"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural and Molecular Biology, University College London, London, United Kingdom"
+                },
+                {
+                  "affiliation": "Department of Applied Physics, Faculty of Science and Technology, Universiti Kebangsaan Malaysia, 43600 UKM Bangi, Malaysia"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Orengo C",
+            "lastName": "Orengo",
+            "firstName": "Christine",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Structural and Molecular Biology, University College London, London, United Kingdom"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3324-5755"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4772-7656"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Summary</h4>  ATP-Pyrophosphatases (ATP-PPases) are the most primordial lineage of the large and diverse HUP (  H IGH-motif proteins,  U niversal Stress Proteins, ATP-  P yrophosphatase) superfamily. There are four different ATP-PPase substrate-specificity groups, and members of each group show considerable sequence variation across the domains of life despite sharing the same catalytic function. Over the past decade, there has been a >20-fold expansion in the number of ATP-PPase domain structures most recently from advances in protein structure prediction (e.g. Alphafold2). Using the enriched structural information, we have characterised the two most populated ATP-PPase substrate-specificity groups, the NAD-synthases (NAD) and GMP synthases (GMPS). We performed local structural and sequence comparisons between the NADS and GMPS from different domains of life and identified taxonomic-group specific structural functional motifs. As GMPS and NADS are potential drug targets of pathogenic microorganisms including  Mycobacterium tuberculosis , structural motifs specific to bacterial GMPS and NADS provide new insights that may aid antibacterial-drug design.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/V014722/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/10/16/2023.10.12.562014.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.10.12.562014"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR743029"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR743029&type=FILE&fileName=EMS189776-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS189776",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-10-19",
+      "firstPublicationDate": "2023-10-16",
+      "firstIndexDate": "2023-10-19",
+      "fullTextReceivedDate": "2023-11-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

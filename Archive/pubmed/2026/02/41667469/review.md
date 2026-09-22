@@ -1,0 +1,89 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends. Supplementary information referenced but not provided.
+- **Assessment boundary** Scientific validity of claims, methodological soundness, interpretation of results, and alignment with Nature-style criteria. Editorial and formatting issues are noted only where they affect scientific clarity.
+- **Shared manuscript claim summary** The authors report that oxygen is partially excluded from biomolecular condensates formed by a series of designed intrinsically disordered repeat proteins. They find that oxygen partitioning does not correlate with condensate hydrophobicity but instead inversely correlates with macromolecular (protein) density in the dense phase. This conclusion is supported by microelectrode measurements, phosphorescence lifetime imaging microscopy (PLIM), and Martini 3 coarse-grained molecular dynamics simulations.
+- **Visible evidence base** Main text figures 1–6, supplementary figures 1–22 (referenced, not provided), supplementary tables 1–3 (referenced, not provided), methods section, and figure legends.
+- **Missing materials affecting confidence** Supplementary figures and tables are not provided, including calibration curves for oxygen measurements, full dataset for PLIM lifetime distributions, source data for statistical analyses, and simulation convergence details. This limits full verification of several quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a timely and important question: how oxygen, a small nonpolar gas, partitions into biomolecular condensates. The authors combine experimental and computational approaches to reach a conclusion that challenges the prevailing hydrophobicity-centric view of small-molecule partitioning. The finding that macromolecular density dominates oxygen exclusion is potentially significant for understanding oxygen-dependent biochemistry in condensates. However, several technical concerns must be resolved before the case is fully established, particularly regarding the interpretation of PLIM data, the assumption of a constant quenching constant between phases, and the limited sequence diversity in the experimental series.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates and phase separation, particularly those interested in the physical chemistry of partitioning of small molecules and gases. Also relevant to investigators studying oxygen sensing, hypoxia, and redox biology in cellular subcompartments, as well as those developing models of condensate interior properties. The methodological advances in measuring gas concentrations in condensates will interest the biophysics and chemical biology communities.
+- **Major strengths** 1) The question is novel and important; gas partitioning into condensates has not been systematically addressed. 2) The combination of three independent approaches (microelectrode, PLIM, MD simulation) strengthens the central claim. 3) The use of a designed repeat-protein system allows systematic variation of sequence properties. 4) The authors identify a clear discrepancy with the prevailing hydrophobicity model and propose a testable alternative explanation based on macromolecular density. 5) The manuscript is generally clearly written and the figures are informative.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of oxygen quantification
+  - **Claim pointer** The authors claim that oxygen concentration in the dense phase can be accurately determined from PLIM data using the Stern-Volmer relationship, assuming that the quenching constant kq is identical in the dense and dilute phases.
+  - **Evidence pointer** Results section "Theoretical basis of extraction of dense phase oxygen concentrations from PLIM data"; Figure 3; Methods "Phosphorescence lifetime imaging microscopy (PLIM)"
+  - **Concern** The assumption that kq is the same in the dense and dilute phases is critical to the quantitative oxygen concentrations reported. The authors justify this by noting that oxygen is an efficient quencher and that collision frequency is diffusion-limited, but they do not provide direct experimental evidence that kq is unchanged in the condensed phase. The dense phase has a very high protein concentration (70–220 mg/mL), which could alter oxygen diffusivity, local viscosity, and the effective collision frequency. If kq differs between phases, the calculated [O2]dense values and the resulting partition coefficients would be systematically biased. The authors acknowledge this as a limitation in the Discussion, but the central quantitative claim depends on this assumption.
+  - **Why it matters** The quantitative values of [O2]dense and the partition coefficient Kp are central to the paper's conclusion. If the assumption of constant kq is incorrect, the reported oxygen concentrations could be off by a significant factor, potentially weakening or altering the reported anti-correlation with protein density.
+  - **Resolution test** Provide direct experimental validation of kq in the dense phase, for example by measuring the phosphorescence lifetime of the ruthenium dye in a protein solution at concentrations matching the dense phase, or by using an oxygen-insensitive reference dye to calibrate the system. Alternatively, use a complementary oxygen measurement method that does not rely on the kq assumption, such as electron paramagnetic resonance oximetry, to verify the PLIM-derived concentrations in at least one condensate system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Generalizability of the conclusion
+  - **Claim pointer** The authors conclude that "oxygen concentration is inversely related to condensate protein density" and suggest this is a general principle for oxygen partitioning into condensates.
+  - **Evidence pointer** Results sections "Contributions of phase behavior on Kp" and "Sequence contributions to oxygen partitioning"; Figures 4 and 5
+  - **Concern** The experimental series is limited to a single family of repeat proteins based on the GRGDSPYS/GRGDQPYQ motif. While the authors vary chain length and hydrophobicity, all constructs share the same overall architecture and charge distribution. The correlation between [O2]dense and [protein]dense is demonstrated across this limited series, but it is unclear whether this relationship holds for condensates with different chemical compositions, such as those formed by arginine-rich peptides, RNA-containing condensates, or condensates with significant electrostatic or aromatic interactions. The MD simulations use only one protein sequence. The claim that macromolecular density is the dominant factor "in the absence of interactions" is plausible but not established as a general principle from the data presented.
+  - **Why it matters** The paper's title and abstract make a general claim about biomolecular condensates. If the finding is specific to this repeat-protein system, the significance is considerably reduced. The authors do discuss this limitation, but the framing of the title and abstract overstates the generality.
+  - **Resolution test** Include at least one additional condensate system with a different chemical composition (e.g., a poly-arginine or poly-lysine-based system, or a system with RNA) to test whether the inverse correlation with protein density holds. Alternatively, soften the claim in the title and abstract to specify that the finding applies to the repeat-protein condensates studied.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical robustness and reproducibility
+  - **Claim pointer** The authors report Pearson correlation coefficients of −0.9440 (PLIM) and −0.8517 (electrode) between [O2]dense and [protein]dense, and −0.95 between PRODAN λmax and GRAVY score.
+  - **Evidence pointer** Figure 4f; Figure 5a; figure legends
+  - **Concern** The number of independent experiments and replicates is not clearly stated for several key measurements. The figure legends indicate n=1 for PLIM-derived oxygen concentrations (with >100 droplets per condition from a single experiment) and n=2 for protein density measurements. The correlation coefficients are calculated across a small number of data points (four chain lengths in Figure 4f; five variants in Figure 5c). With such small sample sizes, correlation coefficients are highly sensitive to individual data points, and confidence intervals are likely very wide. The authors do not report confidence intervals or p-values for these correlations.
+  - **Why it matters** The strength of the reported anti-correlation is a key piece of evidence for the central claim. Without proper statistical treatment, the reader cannot assess the reliability of this relationship.
+  - **Resolution test** Report the number of independent biological replicates for each measurement, provide confidence intervals for the correlation coefficients, and consider using a mixed-effects model that accounts for the hierarchical structure of the data (multiple droplets per experiment). If additional replicates are feasible, they should be performed to strengthen the statistical power.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** PLIM calibration
+  - **Evidence pointer** Methods "Phosphorescence lifetime imaging microscopy (PLIM)"
+  - **Issue** The calibration of the oxygen concentration from phosphorescence lifetimes is described only briefly. The authors state that a standard curve was generated in buffer, but the details of this calibration (temperature control, oxygen partial pressure range, number of calibration points) are not provided.
+  - **Required correction** Provide a more detailed description of the calibration procedure, including the range of oxygen concentrations tested, the number of calibration points, and the goodness of fit for the Stern-Volmer relationship.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation of simulation results
+  - **Affected element** MD simulation of oxygen partitioning
+  - **Evidence pointer** Results "Molecular dynamics simulations of oxygen partitioning"; Figure 6
+  - **Issue** The MD simulations show that oxygen is excluded from the condensate, but the authors do not report the simulated partition coefficient quantitatively. The radial distribution functions show modest differences between residue types, but the statistical significance of these differences is not assessed.
+  - **Required correction** Report the simulated partition coefficient (or free energy of transfer) and provide error estimates from the three replicate simulations. Assess whether the residue-specific differences in oxygen distribution are statistically significant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Presentation of data
+  - **Affected element** Figure 4c
+  - **Issue** The oxygen concentrations in Figure 4c are plotted against chain length, but the x-axis is not clearly labeled with the actual chain lengths. The reader must refer to the text to understand the relationship.
+  - **Required correction** Label the x-axis with the specific chain lengths (20, 30, 40, 60) or provide a clear legend indicating the correspondence.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Introduction and Discussion
+  - **Evidence pointer** Introduction, Discussion
+  - **Issue** The authors discuss the "prevailing theory of small-molecule partitioning" but do not cite several recent key papers on small-molecule partitioning into condensates, particularly those using systematic libraries and machine learning approaches beyond the ones mentioned.
+  - **Required correction** Ensure that the most relevant recent literature on small-molecule partitioning into condensates is cited, including studies that have examined gas or oxygen behavior in crowded or phase-separated environments.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction
+  - **Issue** The term "nanoscale oxygen gradient" is used in the abstract. Given that the condensates studied are micrometers in size, "nanoscale" may be misleading. The gradient across a single condensate would be on the micrometer scale.
+  - **Required correction** Consider revising to "microscale oxygen gradient" or "subcellular oxygen gradient" to accurately reflect the length scale.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (kq assumption) and R1-M2 (generalizability) are the primary technical concerns that must be addressed. The statistical robustness issue (R1-M3) is also important but may be addressable with additional analysis of existing data.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The question of gas partitioning into condensates is novel and has not been systematically addressed. The finding that macromolecular density, rather than hydrophobicity, dominates oxygen exclusion challenges the prevailing model and opens a new direction for research.
+  - **Scientific importance** High, if the finding is general. Oxygen is central to metabolism and redox biology, and the possibility that condensates create oxygen-depleted zones has broad implications for understanding cellular biochemistry. The methodological framework for measuring gas concentrations in condensates will be valuable to the community.
+  - **Interdisciplinary readership** Moderate to high. The topic bridges biophysics, cell biology, and biochemistry. The methods (PLIM, microelectrodes, MD simulation) are accessible to specialists but may require some effort for non-specialists. The writing is generally clear, but the theoretical section on Stern-Volmer analysis is dense.
+  - **Technical soundness** Currently not fully established. The central quantitative claim depends on an unvalidated assumption (constant kq), and the statistical power of the key correlations is limited. The MD simulations are appropriate but would benefit from more quantitative reporting.
+  - **Readability for nonspecialists** The abstract and introduction are accessible. The results section is reasonably clear, but the theoretical derivation in the "Theoretical basis" subsection is heavy. The discussion effectively contextualizes the findings.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding is potentially important and the experimental design is thoughtful. However, the kq assumption must be validated or its impact quantified, and the generality of the claim should be either demonstrated with additional systems or appropriately tempered. The statistical reporting should be improved. If these concerns are addressed, the manuscript would be suitable for publication in a high-impact venue.
+
+## Risk / unsupported claims
+- The claim that oxygen partitioning is "dominated by macromolecular density" is supported only within the limited repeat-protein series studied; the general applicability to other condensate types is not established.
+- The quantitative values of [O2]dense and Kp depend on the unvalidated assumption that the quenching constant kq is identical in the dense and dilute phases.
+- The statement that "biomolecular condensates can generate a nanoscale oxygen gradient" is speculative, as the length scale of the gradient is not directly measured and the term "nanoscale" is likely inaccurate for the condensate sizes studied.
+- The claim that the ruthenium dye partitions uniformly into all repeat condensates (Supplementary Figure 7) cannot be verified without the supplementary material.
+- The MD simulation results are described qualitatively; the simulated partition coefficient is not reported, limiting quantitative comparison with experiments.

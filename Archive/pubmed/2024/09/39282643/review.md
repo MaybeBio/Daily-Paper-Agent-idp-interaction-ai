@@ -1,0 +1,78 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, materials and methods, and supplementary figure references
+- **Assessment boundary** Scientific content, methodological rigor, data interpretation, and claims as presented in the manuscript
+- **Shared manuscript claim summary** The authors report that in full-length GRB2, the N-terminal SH3 domain binds SOS1 proline-rich motifs with 10–20 fold higher affinity than the C-terminal SH3 domain, that PRM binding induces conformational changes in the linker and SH2 domain, and that EGFR phosphopeptide binding to SH2 produces distal effects, collectively suggesting a role in LLPS formation.
+- **Visible evidence base** NMR chemical shift perturbation data, ITC measurements, docking simulations, and previously published structural data referenced in the text
+- **Missing materials affecting confidence** Supplementary figures (S1–S17) and tables (S1) are referenced but not provided; raw NMR spectra, ITC thermograms, and bootstrap analysis details are not fully accessible; no atomic coordinates or structural models are deposited
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic NMR-based investigation of full-length GRB2 interactions with SOS1 proline-rich motifs and an EGFR phosphopeptide. The work addresses an important gap by studying the full-length protein rather than isolated domains, and the finding of asymmetric SH3 domain affinities is potentially significant. However, several technical concerns regarding data analysis, model selection, and the interpretation of distal chemical shift perturbations need to be addressed before the central claims are fully established. The connection to LLPS remains speculative and is not directly tested.
+- **Who would be interested in the results, and why** Researchers studying signal transduction pathways involving RTK/RAS signaling, biophysicists interested in multidomain protein dynamics and allostery, and investigators working on liquid–liquid phase separation in cell signaling. The methodological approach combining NMR titration with multiple binding models may also interest method developers in the biomolecular NMR community.
+- **Major strengths** The use of full-length GRB2 rather than isolated domains is a clear advance over previous work. The systematic comparison of multiple binding models with bootstrap validation is commendable. The observation of distal effects in the SH2 domain upon SH3 binding and the asymmetric inter-domain interactions provides new insight into GRB2 allostery. The combination of NMR and ITC for cross-validation strengthens the affinity measurements.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data analysis and model selection
+  - **Claim pointer** The authors claim that the two-site independent binding model sufficiently explains the global dissociation constants and that there is minimal interference between the two SH3 binding sites.
+  - **Evidence pointer** Results section "Dissociation constants of the SOS1-derived PR peptides calculated from NMR chemical shift perturbation", Figures 3a and S10
+  - **Concern** The selection of the two-site independent model over the cooperative model is based on bootstrap residual errors, but the manuscript does not provide a statistical comparison (e.g., AIC or BIC values) between the models. The statement that residual errors were "sufficiently small" is qualitative. Additionally, the authors note that dimerisation was not included in the fitting models, yet they later discuss GRB2 dimerisation as a potential contributor to the observed effects. This omission could systematically bias the derived KD values.
+  - **Why it matters** The central quantitative claim of 10–20 fold affinity differences between NSH3 and CSH3 depends on the correctness of the chosen binding model. If the cooperative model or a model incorporating dimerisation fits the data comparably or better, the reported KD values and their interpretation could change substantially.
+  - **Resolution test** Provide quantitative model comparison statistics (AIC, BIC, or F-tests) for the independent versus cooperative models. Perform a sensitivity analysis by fitting the data with a model that includes GRB2 dimerisation equilibrium and report whether the KD values and their ratios remain within the stated ranges.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of distal chemical shift perturbations
+  - **Claim pointer** The authors state that PRM binding to SH3 domains affects the linker region and parts of the SH2 domain, and that EGFR phosphopeptide binding produces perturbations in regions distal from the known SH2 binding site, suggesting conformational changes and altered domain orientation.
+  - **Evidence pointer** Results sections "NMR titration experiments with different PRMs derived from SOS1" and "NMR titration experiments with a phosphorylated peptide derived from EGFR with and without the SOS1 PRMs", Figures 2 and 4
+  - **Concern** Chemical shift perturbations in regions distal from the binding site can arise from direct binding at a secondary site, allosteric conformational changes, or changes in oligomeric state. The manuscript does not distinguish between these possibilities. For the EGFR phosphopeptide, the authors note that the peptide is unlikely to reach the distal regions, but they do not test whether the observed perturbations could be explained by peptide-induced dimer dissociation or by a second, lower-affinity binding site on SH2. No relaxation dispersion, R1ρ, or other dynamics measurements are presented to support the conformational change interpretation.
+  - **Why it matters** The claim that local binding impacts the overall structure of GRB2, including domain orientation, is a key part of the proposed mechanism linking binding to LLPS. If the distal perturbations instead reflect oligomeric state changes or secondary binding events, the mechanistic model would need revision.
+  - **Resolution test** Perform concentration-dependent NMR experiments to assess whether the distal perturbations correlate with changes in oligomeric state. Use relaxation dispersion experiments to test for conformational exchange on the microsecond-to-millisecond timescale. Alternatively, mutate residues in the putative allosteric pathway and test whether distal perturbations are abolished.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Link to LLPS
+  - **Claim pointer** The authors suggest that the observed asymmetric SH3 affinities and inter-domain interactions "may contribute to LLPS formation" and propose a model in which GRB2 cross-links SOS1 molecules.
+  - **Evidence pointer** Discussion section, Figure 6
+  - **Concern** The connection between the solution-state NMR measurements and LLPS is entirely speculative. No LLPS experiments (e.g., turbidity assays, microscopy, or NMR in condensed phases) are presented. The proposed model in Figure 6 is not tested by any mutation or functional experiment. The authors acknowledge this limitation but still present the model prominently.
+  - **Why it matters** The title and framing of the manuscript suggest that the findings are relevant to LLPS, but the data presented do not directly address phase separation. Overinterpretation of the results could mislead readers about the strength of the evidence.
+  - **Resolution test** Either add LLPS experiments (e.g., turbidity or droplet formation assays with GRB2 and SOS1 constructs) to directly test the proposed model, or substantially temper the LLPS-related claims and clearly label the model as speculative.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Completeness of resonance assignments
+  - **Affected element** Results section "Backbone and side-chain resonance assignments"
+  - **Evidence pointer** Figures S2–S4
+  - **Issue** The manuscript states that 89.2% of backbone and 62.3% of all atom assignments were achieved, but does not specify which regions remain unassigned beyond noting the linkers. The incomplete assignments in the linker regions are attributed to dynamics or multiple conformers, but no direct evidence (e.g., relaxation data) is provided.
+  - **Required correction** Provide a summary of which residues are unassigned and, if possible, present relaxation or dynamics data supporting the interpretation of conformational exchange in the linkers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** ITC data completeness
+  - **Affected element** Results section "Dissociation constants of the SOS1-derived PR peptides calculated from NMR chemical shift perturbation", Table S1
+  - **Evidence pointer** Table S1, Figure S15
+  - **Issue** The ITC data for the six additional PRMs (S1, S2, S3, S6, S7, S8) are mentioned but the results are only summarised qualitatively. The manuscript states that S1, S3, and S7 showed weak binding, but no quantitative values or thermograms are shown in the main text.
+  - **Required correction** Include a supplementary table with all ITC-derived parameters (KD, ΔH, ΔS, stoichiometry) for all ten PRMs, and show representative thermograms for at least one strong and one weak binder.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Docking validation
+  - **Affected element** Results section "Individual dissociation constants for each residue and docking simulations of PRMs on NSH3 and CSH3", Figure 5
+  - **Evidence pointer** Figure 5
+  - **Issue** The docking simulations with AutoDock CrankPep are presented without any validation of the predicted poses. No comparison with experimental restraints (e.g., intermolecular NOEs, mutagenesis data) is provided, and the convergence of the docking runs is not discussed.
+  - **Required correction** Provide a measure of docking confidence (e.g., cluster analysis, scoring function values) and, if possible, validate at least one predicted binding mode with mutagenesis or intermolecular paramagnetic relaxation enhancement experiments.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Tables 1 and 2
+  - **Evidence pointer** Tables 1, 2, S1
+  - **Issue** The reported KD values are given with uncertainties, but the number of replicates and the propagation of errors from the bootstrap analysis are not clearly described. For the EGFR peptide KD with and without S4, the uncertainty is very large (1.8 ± 8.9 μM), which is not adequately discussed.
+  - **Required correction** Clarify the number of independent experiments, how uncertainties were propagated, and discuss the large uncertainty for the EGFR peptide KD in the presence of S4.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (model selection without quantitative comparison), R1-M2 (distal perturbations not mechanistically distinguished), and the lack of direct LLPS experiments (R1-M3) are the primary technical issues. The manuscript cannot be fully evaluated without access to the supplementary figures and tables.
+- **Assessment against Nature-style criteria** Originality: The use of full-length GRB2 is a meaningful advance over isolated domain studies, and the observation of asymmetric SH3 affinities is novel. However, the conceptual framework of allostery in multidomain proteins is well established. Scientific importance: The findings have potential relevance for understanding GRB2-mediated signaling and LLPS, but the direct significance is not yet demonstrated. Interdisciplinary readership: The work will appeal to structural biologists, biophysicists, and cell signaling researchers, but the LLPS connection broadens the appeal. Technical soundness: The NMR methodology is generally sound, but the model selection and interpretation of distal effects require strengthening. Readability for nonspecialists: The manuscript is clearly written but assumes familiarity with NMR methods and binding models; the LLPS discussion is accessible.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core NMR data and the observation of asymmetric SH3 domain affinities in full-length GRB2 are potentially valuable. However, the model selection issue (R1-M1) and the mechanistic interpretation of distal perturbations (R1-M2) must be addressed. The LLPS claims should be either experimentally supported or substantially moderated.
+
+## Risk / unsupported claims
+- The claim that PRM binding induces changes in domain orientation and dimerisation is not directly supported by the data presented; it is inferred from chemical shift perturbations.
+- The proposed model for LLPS formation involving GRB2 cross-linking of SOS1 is speculative and not tested experimentally.
+- The statement that the two-site independent binding model is sufficient relies on qualitative assessment of residuals without formal statistical model comparison.
+- The claim that the EGFR phosphopeptide binding produces conformational changes in the SH2 domain is not distinguished from alternative explanations such as oligomeric state changes.
+- The assertion that the linker regions may exist in multiple conformers is plausible but not directly demonstrated.

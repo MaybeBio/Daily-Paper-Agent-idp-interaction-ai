@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, materials and methods, results, discussion, and references cited within the text.
+- **Assessment boundary** The scientific validity of the study design, the interpretation of the results, and the conclusions drawn from the provided data. The review does not assess the editorial scope or suitability for a specific journal.
+- **Shared manuscript claim summary** The authors propose that a structure-based vaccine design approach, using a crystal structure of the 4D11 antibody fragment bound to a conserved epitope of the intrinsically disordered malaria antigen MSP2, can guide the immune response towards this epitope. They designed constrained peptide mimics, demonstrated their binding to 4D11, and showed that immunization of mice with these peptide-KLH conjugates generated antibodies that recognize the 4D11 epitope and native MSP2 on merozoites. A single point mutation (K209A) was shown to bias the antibody response away from a less accessible epitope and towards the 4D11 epitope.
+- **Visible evidence base** The manuscript includes data from surface plasmon resonance (SPR) binding assays, molecular dynamics (MD) simulations, ELISA-based antibody titre and specificity measurements, and merozoite ELISA. Figures and tables referenced include Figure 1, Figure 2, Figure 3, Figure 4, Figure 5, Figure 6, Table 1, Table 2, Table 3, and Supplementary Figures S1–S9.
+- **Missing materials affecting confidence** The manuscript does not provide raw SPR sensorgrams, MD simulation trajectory details, or individual mouse data points for antibody titres. The statistical analysis methods for comparing titres between groups are not fully described. The purity and characterization of the synthesized peptides are only referenced via supplementary figures, which are not included in the provided material.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a logical and well-structured approach to a significant problem in malaria vaccine development, namely the strain-specificity of immune responses to the polymorphic antigen MSP2. The use of structural information to design constrained peptide immunogens is a sound concept, and the data support the conclusion that the designed peptides can induce epitope-specific antibodies. However, the study is primarily descriptive and proof-of-concept in nature. The key claims regarding the ability of the K209A mutation to bias the immune response and the potential of the constrained peptides to elicit functional, parasite-inhibitory antibodies are only partially supported by the data. The lack of functional assays and the limited characterization of the antibody responses in terms of avidity, isotype, and parasite growth inhibition activity are notable gaps. The manuscript would be strengthened by a more detailed statistical analysis and a clearer discussion of the limitations of the mouse model used.
+- **Who would be interested in the results, and why** Researchers in the fields of malaria vaccinology, structural vaccinology, and peptide-based vaccine design would find these results of interest. The work provides a practical example of how structural data on antibody-epitope interactions can be used to design constrained peptide immunogens for a disordered antigen. The findings may also be relevant to those studying immune responses to intrinsically disordered proteins in other pathogens.
+- **Major strengths** The study addresses a clinically relevant problem with a rational design approach. The use of a crystal structure to inform peptide design is a clear strength. The inclusion of both linear and cyclic constrained peptides, along with the K209A mutant, provides a systematic exploration of the design space. The data showing that the K209A mutation can shift antibody specificity are compelling and offer a simple strategy for immunofocusing. The manuscript is generally well-written and the figures are clear.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for functional relevance
+  - **Claim pointer** The authors claim that the peptide-induced antibodies recognize native MSP2 on the merozoite surface, implying potential functional relevance.
+  - **Evidence pointer** Section 3.7, Figure 6
+  - **Concern** The merozoite ELISA demonstrates binding of the sera to whole merozoites, but this does not confirm that the antibodies recognize the correct epitope in the context of the native protein on the parasite surface, nor does it provide any evidence of functional activity. The assay is prone to non-specific binding and does not distinguish between antibodies targeting the desired epitope and those recognizing other components of the merozoite preparation. The claim that these antibodies could be protective is not supported by the data.
+  - **Why it matters** The central premise of the vaccine design is that guiding the immune response to a conserved, accessible epitope will lead to a more effective immune response. Without functional data, such as antibody-dependent cellular inhibition, complement-mediated lysis, or growth inhibition assays, the potential clinical utility of these immunogens remains speculative.
+  - **Resolution test** The authors should include functional assays, such as ADCI or growth inhibition assays, using the purified IgG from the immunized mice to demonstrate that the induced antibodies can inhibit parasite growth. Alternatively, they should temper their conclusions and clearly state that the functional relevance of the induced antibodies is unknown.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Statistical rigor and data presentation
+  - **Claim pointer** The authors state that the K209A mutation "successfully abolished 9H4-like responses and shifted antibody recognition towards the 4D11-specific epitope" and that the constrained peptides generated "comparable" antibody titres to the full-length MSP2.
+  - **Evidence pointer** Section 3.4, Section 3.6, Figure 4, Figure 5
+  - **Concern** The statistical analysis of the antibody titre data is not described. It is unclear if the differences in titres between groups (e.g., A1 vs. K209A, or L1 vs. C1) are statistically significant. The data in Figure 4 appear to show a wide spread, and the conclusion that titres are "comparable" is not supported by any statistical test. Similarly, the specificity data in Figure 5 are presented as pooled or individual responses without a clear quantitative analysis.
+  - **Why it matters** The conclusions regarding the effectiveness of the K209A mutation and the constrained peptides rely on a comparison of antibody responses. Without proper statistical analysis, it is impossible to determine if the observed differences are meaningful or due to chance.
+  - **Resolution test** The authors should provide a detailed description of the statistical tests used, including the number of mice per group, the variance, and the p-values for all relevant comparisons. The data in Figure 4 and Figure 5 should be presented with appropriate error bars and statistical annotations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Structural and biophysical characterization of designed peptides
+  - **Claim pointer** The authors claim that the designed peptides, particularly the cyclic ones, adopt conformations that mimic the 4D11-bound epitope structure, based on MD simulations.
+  - **Evidence pointer** Section 2.2, Section 3.2, Supplementary Figure S6
+  - **Concern** The MD simulations are used to support the design, but the manuscript does not provide a detailed analysis of the conformational ensembles sampled by the peptides. The RMSD values are mentioned, but it is unclear how these compare to the conformational flexibility of the unconstrained epitope. The simulations are only 100 ns, which may not be sufficient to sample the full conformational space of a flexible peptide. Furthermore, the simulations are not validated by any experimental structural data on the free peptides in solution.
+  - **Why it matters** The rationale for the design of the constrained peptides is that they will present the epitope in a conformation that is pre-organized for binding to 4D11-like antibodies. If the constraints do not actually stabilize the desired conformation, the design rationale is weakened.
+  - **Resolution test** The authors should provide a more detailed analysis of the MD simulations, including the distribution of conformations sampled and a comparison to the unconstrained peptide. Ideally, they would also provide experimental evidence, such as circular dichroism or NMR spectroscopy, to confirm that the cyclic peptides adopt a more rigid structure in solution.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of methods
+  - **Affected element** Section 2.1, Surface Plasmon Resonance
+  - **Evidence pointer** Section 2.1
+  - **Issue** The description of the SPR competition assay is brief. It is not clear how the Kd values were calculated from the competition data, and whether the data were fitted to a specific binding model.
+  - **Required correction** Provide more detail on the data analysis, including the model used for fitting and the number of experimental replicates.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness of data
+  - **Affected element** Section 3.1, Alanine Scans
+  - **Evidence pointer** Table 1
+  - **Issue** The alanine scan data for 9H4 are presented in Table 1, but the corresponding data for 4D11 are not shown in the same table, only referenced from previous work. This makes a direct comparison of the two epitopes difficult.
+  - **Required correction** Include the 4D11 alanine scan data in Table 1 or a supplementary table for direct comparison.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Section 3.5, Peptide-KLH Conjugates Induced Antibodies
+  - **Evidence pointer** Figure 5
+  - **Issue** The statement that the response to the dimeric peptides was "almost exclusively directed to the 4D11 epitope" is based on a lack of binding to peptides C and D. However, the peptide array uses overlapping 13-mer peptides, and it is possible that antibodies recognize epitopes that are not fully represented in the array.
+  - **Required correction** Acknowledge this limitation and consider using a more comprehensive peptide set or competition assays with the full-length protein to confirm the epitope specificity.
+- **Technical failings that need to be addressed before the case is established** The lack of functional assays to demonstrate the biological relevance of the induced antibodies is a major technical gap. The absence of a clear statistical framework for the immunological data is also a significant issue. The validation of the peptide conformations by experimental methods is missing.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The application of structural vaccinology to a disordered antigen like MSP2 is a relatively novel concept, and the specific use of a crystal structure of an antibody-epitope complex to design constrained peptide mimics is a creative approach. However, the general idea of using constrained peptides to focus immune responses is not new.
+  - **Scientific importance** The problem of strain-specific immunity is a major hurdle in malaria vaccine development. This work offers a potential strategy to overcome this, which is of high importance. However, the study is at an early proof-of-concept stage, and the clinical relevance is not yet established.
+  - **Interdisciplinary readership** The work bridges structural biology, immunology, and vaccinology. It would be of interest to a broad audience within these fields, but the technical detail may limit its appeal to a wider scientific readership.
+  - **Technical soundness** The study design is logical, and the methods are generally appropriate. However, the lack of functional data and the incomplete statistical analysis are significant weaknesses that undermine the strength of the conclusions.
+  - **Readability for nonspecialists** The manuscript is clearly written, but the methods and results sections are dense and may be challenging for readers without a background in structural biology or immunology. The abstract provides a good summary for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core concept is promising and the data provide a proof-of-principle. However, the manuscript is not currently established from the provided evidence due to the lack of functional validation and the incomplete statistical analysis.
+
+## Risk / unsupported claims
+- The claim that the peptide-induced antibodies could be protective against malaria is unsupported, as no functional assays were performed.
+- The claim that the cyclic peptides are more stable and better mimic the bound conformation is only weakly supported by MD simulations and lacks experimental validation.
+- The claim that the K209A mutation "successfully" biases the immune response is not supported by a statistical comparison of the antibody titres and specificities.
+- The statement that the constrained peptides present the epitope in a conformation "similar to that seen on the parasite surface" is speculative and not directly tested.

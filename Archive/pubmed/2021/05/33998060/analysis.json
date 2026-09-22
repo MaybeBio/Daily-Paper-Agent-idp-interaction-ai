@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33998060",
+  "title": "Conformation of myelin basic protein bound to phosphatidylinositol membrane characterized by vacuum-ultraviolet circular-dichroism spectroscopy and molecular-dynamics simulations.",
+  "authors": "Kumashiro, Munehiro; Izumi, Yudai; Matsuo, Koichi",
+  "journal": "Proteins",
+  "published_date": "2021-05-18",
+  "window": {
+    "start": "2021-05-17",
+    "end": "2021-05-23"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用VUVCD光谱和MD模拟研究髓鞘碱性蛋白(MBP)与磷脂酰肌醇膜结合时的构象及膜互作位点，对象为无序蛋白MBP且涉及膜结合机制，但互作对象是脂膜而非蛋白，方法含MD模拟，对IDP-膜界面机制建模有启发。",
+  "abstract": "The 18.5-kDa isoform of myelin basic protein (MBP) interacts with the membrane surface of the myelin sheath to construct its compact multilamellar structure. This study characterized the conformation of MBP in the membrane by measuring the vacuum-ultraviolet circular-dichroism (VUVCD) spectra of MBP in the bilayer liposome comprising the following essential lipid constituents of the myelin sheath: phosphatidylinositol (PI), phosphatidylinositol-4-phosphate (PIP), and phosphatidylinositol-4,5-bisphosphate (PIP2). The spectra of MBP exhibited the characteristic peaks of the helix structure in the presence of PI liposome, and the intensity increased markedly in the presence of PIP and PIP2 liposomes to show an isodichroic point. This suggests that the amount of the membrane-bound conformation of MBP enhanced due to the increased number of negative net charges on the liposome surfaces. Secondary-structure analysis revealed that MBP in the membrane comprised approximately 40% helix contents and eight helix segments. Molecular-dynamics (MD) simulations of the eight segments were conducted for 250 ns in the presence of PI membrane, which predicted two amphiphilic and three nonamphiphilic helices as the membrane-interaction sites. Further analysis of the distances of the amino-acid residues in each segment from the phosphate group suggested that the nonamphiphilic helices interact with the membrane surface electrostatically, while the amphiphilic ones invade the inside of the membrane to produce electrostatic and hydrophobic interactions. These results show that MBP can interact with the PI membrane via amphiphilic and nonamphiphilic helices under the control of a delicate balance between electrostatic and hydrophobic interactions.",
+  "abstract_zh": "髓鞘碱性蛋白（MBP）的18.5-kDa亚型与髓鞘膜表面相互作用，构建其致密的多层结构。本研究通过测量MBP在包含髓鞘基本脂质成分——磷脂酰肌醇（PI）、磷脂酰肌醇-4-磷酸（PIP）和磷脂酰肌醇-4,5-二磷酸（PIP2）——的双层脂质体中的真空紫外圆二色（VUVCD）光谱，表征了MBP在膜中的构象。在PI脂质体存在下，MBP的光谱显示出螺旋结构的特征峰，而在PIP和PIP2脂质体存在下，强度显著增加，并出现等二色点。这表明，由于脂质体表面负净电荷数量的增加，膜结合构象的MBP量得以增强。二级结构分析揭示，膜中的MBP包含约40%的螺旋含量和八个螺旋片段。在PI膜存在下，对这八个片段进行了250 ns的分子动力学（MD）模拟，预测出两个两亲性螺旋和三个非两亲性螺旋作为膜相互作用位点。进一步分析每个片段中氨基酸残基与磷酸基团的距离表明，非两亲性螺旋通过静电作用与膜表面相互作用，而两亲性螺旋则侵入膜内部，产生静电和疏水相互作用。这些结果表明，MBP能够在静电与疏水相互作用之间的微妙平衡控制下，通过两亲性和非两亲性螺旋与PI膜相互作用。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33998060/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33998060/",
+  "paper_page_path": "papers/pubmed/33998060/index.html"
+}

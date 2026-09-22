@@ -1,0 +1,255 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.06.09.598118",
+  "title": "Interplay of kinetochores and catalysts drives rapid assembly of the mitotic checkpoint complex",
+  "doi": "10.1101/2024.06.09.598118",
+  "abstract": "The spindle assembly checkpoint (SAC) makes mitotic exit contingent on completion of sister chromatid biorientation, but how this coordination is achieved in practice remains poorly understood. Kinetochores, megadalton chromosome attachment sites to spindle microtubules, contribute to SAC signaling. However, it is unclear whether kinetochores are mere docking sites for SAC proteins, or further contribute to co-orientation of SAC catalysts, including MAD1:MAD2 and BUB1:BUB3, to facilitate SAC signaling. Here, we combined biochemical reconstitutions of kinetochores and the SAC to address this question in vitro . We engineered recombinant kinetochore particles that recruit most SAC components and activate SAC signaling after induction with Rapamycin, and challenged them with a battery of impairing mutants. At approximately physiological concentrations of SAC catalysts, kinetochores were crucially required for rapid assembly of the mitotic checkpoint complex (MCC), the SAC effector. Our observations depict kinetochores as a cradle that catalyzes rapid MCC assembly by concentrating and co-orienting distinct SAC catalysts.",
+  "authors": [
+    "Sethi S",
+    "Piano V",
+    "Ghetti S",
+    "Cmentowski V",
+    "Stege P",
+    "Musacchio A"
+  ],
+  "published_date": "2024-06-09",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.06.09.598118",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.06.09.598118.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR864607",
+    "raw_record": {
+      "id": "PPR864607",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR864607"
+        ]
+      },
+      "doi": "10.1101/2024.06.09.598118",
+      "title": "Interplay of kinetochores and catalysts drives rapid assembly of the mitotic checkpoint complex",
+      "authorString": "Sethi S, Piano V, Ghetti S, Cmentowski V, Stege P, Musacchio A.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Sethi S",
+            "lastName": "Sethi",
+            "firstName": "Suruchi",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mechanistic Cell Biology, , Otto-Hahn-Straße 11 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Piano V",
+            "lastName": "Piano",
+            "firstName": "Valentina",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9539-561X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mechanistic Cell Biology, , Otto-Hahn-Straße 11 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ghetti S",
+            "lastName": "Ghetti",
+            "firstName": "Sabrina",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mechanistic Cell Biology, , Otto-Hahn-Straße 11 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cmentowski V",
+            "lastName": "Cmentowski",
+            "firstName": "Verena",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4194-8108"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mechanistic Cell Biology, , Otto-Hahn-Straße 11 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Stege P",
+            "lastName": "Stege",
+            "firstName": "Patricia",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mechanistic Cell Biology, , Otto-Hahn-Straße 11 , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Musacchio A",
+            "lastName": "Musacchio",
+            "firstName": "Andrea",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2362-8784"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Mechanistic Cell Biology, , Otto-Hahn-Straße 11 , ,"
+                },
+                {
+                  "affiliation": ", Jahnstrasse 29 , ,"
+                },
+                {
+                  "affiliation": "Centre for Medical Biotechnology, Faculty of Biology, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9539-561X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2362-8784"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4194-8108"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "The spindle assembly checkpoint (SAC) makes mitotic exit contingent on completion of sister chromatid biorientation, but how this coordination is achieved in practice remains poorly understood. Kinetochores, megadalton chromosome attachment sites to spindle microtubules, contribute to SAC signaling. However, it is unclear whether kinetochores are mere docking sites for SAC proteins, or further contribute to co-orientation of SAC catalysts, including MAD1:MAD2 and BUB1:BUB3, to facilitate SAC signaling. Here, we combined biochemical reconstitutions of kinetochores and the SAC to address this question  in vitro . We engineered recombinant kinetochore particles that recruit most SAC components and activate SAC signaling after induction with Rapamycin, and challenged them with a battery of impairing mutants. At approximately physiological concentrations of SAC catalysts, kinetochores were crucially required for rapid assembly of the mitotic checkpoint complex (MCC), the SAC effector. Our observations depict kinetochores as a cradle that catalyzes rapid MCC assembly by concentrating and co-orienting distinct SAC catalysts.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "951430",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.06.09.598118"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.06.09.598118"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR864607"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR864607&type=FILE&fileName=EMS196812-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "40410156",
+            "reference": "Nature communications. 2025 May;16(1):4823",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS196812",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2024-06-11",
+      "firstPublicationDate": "2024-06-09",
+      "firstIndexDate": "2024-06-11",
+      "fullTextReceivedDate": "2024-07-09",
+      "hasEvaluations": "N"
+    }
+  }
+}

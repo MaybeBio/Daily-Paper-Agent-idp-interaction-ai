@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, conclusion, methods summary) without figures, tables, or supplementary material
+- **Assessment boundary** Scientific claims, methodological soundness, and evidentiary support as presented in the provided text; no assessment of figures, tables, or supplementary data that were not supplied
+- **Shared manuscript claim summary** The authors use coarse-grained Martini3-IDP simulations to show that disordered client proteins adopt expanded conformations inside biomolecular condensates in a scaffold-specific manner. They report that scaffold sticker clustering alters client conformation, while increased scaffold chain length primarily slows client dynamics with minimal conformational effect. They further claim that client-condensate interaction maps are nonuniform, not solely encoded by primary sequence, and cooperatively shaped by emergent condensate structure.
+- **Visible evidence base** Text descriptions of simulation results, including radius of gyration, end-to-end distance, Flory scaling exponents, contact profiles, correlation coefficients, and interaction maps; references to Figures 1-5, Tables S1-S10, and Figures S1-S26 in the main text
+- **Missing materials affecting confidence** All figures, tables, and supplementary information; simulation parameter details beyond those summarized; convergence data; force field validation details; sequence information for scaffolds and clients
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and important question: whether biomolecular condensates actively remodel client protein conformations beyond passive concentration effects. The authors present a systematic simulation study across multiple condensate systems and client proteins, identifying scaffold chain length and sticker patterning as distinct determinants of client behavior. The central claims are plausible and potentially significant, but the provided text alone does not allow verification of the quantitative results, convergence criteria, or robustness of the contact analyses. The distinction between "conformational editing" and generic expansion effects requires stronger evidence, particularly given the acknowledged counterexamples. The manuscript would benefit from clearer articulation of the mechanistic model and more explicit treatment of alternative explanations.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensates, phase separation, and intrinsically disordered proteins would find these results directly relevant. The work also speaks to the broader biophysics community interested in polymer physics in crowded environments, and to cell biologists investigating how condensates modulate biochemical reactions. The potential therapeutic implications for targeting disordered proteins in condensates may attract interest from drug discovery researchers.
+- **Major strengths** The study addresses a gap in the field by systematically varying condensate properties and client sequences. The use of multiple scaffold systems spanning different sequence classes strengthens the generality of the claims. The distinction between chain length effects on dynamics versus sticker patterning effects on conformation is a useful conceptual separation. The authors acknowledge limitations, including counterexamples from experiments and the inability of the current model to capture secondary structure changes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Condensates function as sophisticated regulators of recruited disordered client conformation" and "client conformation outcomes are dictated by the specific condensate-client pair"
+  - **Evidence pointer** Figures 1D-E, 2, 3, 4; Tables S5-S6; location not provided in text
+  - **Concern** The central claim of condensate-specific conformational editing rests on comparisons of client conformations across nine condensate-client systems. However, the text does not provide quantitative effect sizes, statistical uncertainties, or explicit comparisons to bulk solution controls beyond stating that clients "expanded to varying extent." The claim that FUSLCD and mfp-3S condensates cause "slightly more pronounced extension" than WGR5 is presented without numerical support. The reader cannot assess whether these differences are meaningful or within simulation noise.
+  - **Why it matters** The conclusion that condensates act as "conformation editors" in a scaffold-specific manner requires demonstrating that differences between condensate environments exceed statistical uncertainty and are not artifacts of finite sampling or system size. Without effect sizes and error estimates, the central claim is not quantitatively established.
+  - **Resolution test** Provide numerical values for radius of gyration, end-to-end distance, and Flory exponents for all nine condensate-client systems and solution controls, with associated uncertainties. Demonstrate that differences between condensate environments are statistically significant and that convergence criteria are met for each system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** "This conformational remodeling is mediated by varied and nonuniform client-condensate interaction maps that are not solely encoded by primary sequence grammar but are cooperatively shaped by the emergent condensate architecture"
+  - **Evidence pointer** Figures 4-5, S11-S14; location not provided in text
+  - **Concern** The claim that condensate architecture, rather than primary sequence, shapes client-condensate interactions is based on comparisons between solution-state heterodimer interactions and in-condensate interactions. However, the text does not describe how "emergent condensate architecture" is defined or quantified. The attribution of interaction map changes to architecture rather than to local concentration, crowding, or multivalency effects is not justified mechanistically. The hypothesis about competing sticker clusters near residue 5 and the C-terminus is speculative and not directly tested.
+  - **Why it matters** The distinction between sequence-encoded and architecture-mediated interactions is a central conceptual contribution. If the mechanism is not clearly defined and tested, the claim risks being unfalsifiable or reducible to trivial concentration effects.
+  - **Resolution test** Define and quantify "emergent condensate architecture" (e.g., network connectivity, mesh size, local density fluctuations). Perform control simulations that isolate architecture from sequence effects, such as randomized-sequence scaffolds with identical composition or scaffolds with scrambled patterning. Show that architecture metrics predict client interaction maps beyond sequence-based predictions.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "Our findings highlight the role of condensate milieu as an active regulator in reprogramming disordered client protein conformation and suggest a comprehensive perspective in understanding client conformation remodeling"
+  - **Evidence pointer** Figures 1-5; location not provided in text
+  - **Concern** The study uses three scaffold proteins and three client proteins, all relatively short (12-163 residues for scaffolds, 24-36 residues for clients). The authors acknowledge this limitation but assert that "core conclusions should be general and could be largely extrapolated to longer IDPs." The justification for this extrapolation relies on Flory scaling analysis, but the text does not provide the scaling data or demonstrate that the competition mechanism operates identically across length scales. The counterexample of 4E-BP2 compacting in DDX4 condensates suggests that the observed expansion is not universal.
+  - **Why it matters** The significance of the work depends on its relevance to real biological condensates, which typically contain much larger proteins and more complex compositions. If the findings are specific to short peptides in simplified model condensates, the broader implications are limited.
+  - **Resolution test** Discuss explicitly the conditions under which expansion versus compaction is expected, based on the proposed mechanism. Provide scaling arguments or preliminary data for longer client proteins. Address how the 4E-BP2 counterexample fits the proposed framework.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Introduction paragraph 3
+  - **Issue** The phrase "conformation editors" is used prominently but is not defined precisely. The distinction between "editing" and generic environmental effects on conformation is unclear.
+  - **Required correction** Define what constitutes conformational editing versus passive environmental response, and state the operational criteria used to identify editing in the simulations.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Results section "Condensate Scaffold Chain Length Affects Client Dynamics"
+  - **Evidence pointer** Figures 2, S5-S9; location not provided in text
+  - **Issue** The text states that increased scaffold chain length "primarily slows client dynamics while leaving their sequence-specific intrachain contact patterns largely preserved," but the quantitative measures of dynamics (diffusion coefficients, relaxation times) are not reported in the text.
+  - **Required correction** Report the numerical values for dynamic quantities in the text or refer explicitly to the relevant tables and figures with quantitative summaries.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section "Nonuniform and Distinct Client-Condensate Interaction Maps"
+  - **Evidence pointer** Figure 4, Table S8; location not provided in text
+  - **Issue** The negative correlation between interchain interaction propensity and intrachain engagement is described as "intuitive," but the text does not discuss whether this correlation is trivially expected from mass balance or competition for backbone sites.
+  - **Required correction** Address whether the observed correlation could arise from a simple competitive occupancy model, and discuss what additional information the interaction maps provide beyond this baseline expectation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion paragraph 3
+  - **Issue** The discussion of therapeutic implications is brief and does not address the practical challenges of targeting conformations within condensates, such as drug accessibility or specificity.
+  - **Required correction** Expand the therapeutic discussion or temper the claim to match the level of evidence presented.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work addresses a relatively underexplored question with a systematic simulation approach. The specific focus on sticker patterning versus chain length as distinct determinants of client behavior is a useful conceptual contribution. However, the general idea that condensates can remodel client conformations has been suggested previously, and the authors acknowledge this.
+  - **Scientific importance** The question of whether condensates actively edit client conformations is important for understanding condensate function. The potential implications for drug targeting of disordered proteins are significant. However, the importance is somewhat tempered by the simplified model systems and the acknowledged counterexamples.
+  - **Interdisciplinary readership** The topic bridges biophysics, cell biology, and polymer physics. The findings could interest researchers in phase separation and drug discovery. The writing is generally accessible, though some simulation details may be opaque to non-specialists.
+  - **Technical soundness** The simulation methodology (Martini3-IDP) is appropriate for the questions asked, and the authors report convergence checks. However, the text alone does not allow verification of key quantitative results, and the mechanistic interpretation of architecture-mediated effects requires stronger evidence.
+  - **Readability for nonspecialists** The manuscript is generally well-written and the conceptual framing is clear. The abstract effectively communicates the main findings. Some results sections are dense with simulation details that may challenge non-specialist readers.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question with a systematic approach, and the core findings are plausible. However, the central claims require quantitative support that is not visible in the provided text, and the mechanistic interpretation needs clearer definition and testing. The authors should provide effect sizes, uncertainties, and explicit tests of the architecture-mediated mechanism before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that condensates act as "sophisticated regulators" of client conformation is not quantitatively supported in the provided text, as effect sizes and statistical comparisons are not reported.
+- The assertion that client-condensate interaction maps are "cooperatively shaped by the emergent condensate architecture" is not supported by a defined metric or direct test of architecture versus sequence effects.
+- The extrapolation of findings to longer IDPs is asserted but not demonstrated; the text acknowledges this limitation but does not provide sufficient justification for the claimed generality.
+- The statement that "the solvation-like term dominates for the selected condensates" is presented as a conclusion but the decomposition into crowding and solvation contributions is not described in the text.
+- The claim that "longer scaffolds promote subtle further expansion of clients" is presented without numerical values or statistical significance.
+- The therapeutic implications mentioned in the abstract and introduction are not developed or supported by the presented results.

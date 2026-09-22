@@ -1,0 +1,102 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Methods, results, and claims as presented in the provided text
+- **Shared manuscript claim summary** The authors present LLPhyScore, a machine-learning predictor for IDR-driven protein phase separation, trained on sequence-based biophysical features derived from PDB statistics, with interpretable feature contributions and strong predictive performance (AUROC 0.978).
+- **Visible evidence base** Abstract, Introduction, Methods (Sections 2.1, 2.2), Results and Discussion (Sections 3.1–3.9), Conclusions, Technical Methods (Sections 5.1–5.7), figure captions referenced in text
+- **Missing materials affecting confidence** Figures and supplementary files (Figures 1–13, Supplementary Tables S1–S8, Supplementary Files S1–S4) are referenced but not provided; no code or data availability verification possible; no detailed hyperparameter settings or convergence criteria for the genetic algorithm; no statistical significance tests for feature contributions.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in the phase separation field: developing a predictor that is both accurate and physically interpretable. The authors have assembled a substantial dataset of manually curated positive sequences and multiple negative sets, and the methodological framework is thoughtful, particularly in addressing the imperfect negative set issue. However, the manuscript as presented has significant gaps in validation, statistical rigor, and clarity of the training procedure that prevent full assessment of the claims. The central claim of interpretability is only partially supported, as the feature contributions are acknowledged to be interdependent and convoluted with residue-type preferences. The comparison with existing predictors is limited and the performance metrics are not consistently reported across all models. The manuscript would benefit from clearer presentation of the training procedure, more robust validation, and a more critical discussion of limitations.
+- **Who would be interested in the results, and why** Researchers studying protein phase separation, biomolecular condensates, and intrinsically disordered proteins would be the primary audience. Computational biologists developing predictors for protein properties would also be interested in the methodological approach, particularly the use of multiple negative sets and the feature-selection strategy. Experimental biologists studying specific phase-separating proteins could use LLPhyScore to generate hypotheses about driving forces. The interpretability aspect may appeal to those seeking mechanistic insights rather than black-box predictions.
+- **Major strengths** The manuscript addresses a clear gap in the field by developing a predictor with physical interpretability. The use of multiple negative training sets (PDB, human, human+PDB) is a thoughtful approach to a known problem. The manual curation of positive sequences from primary literature is a significant effort. The feature breakdown analysis (Section 3.6) provides a useful demonstration of the tool's interpretability. The analysis of PDB structures (Section 3.8) offers physical insights that go beyond simple prediction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim the final predictor achieves an AUROC of 0.978 and demonstrates strong predictive performance.
+  - **Evidence pointer** Section 3.1, Supplementary Figure S2, location not provided
+  - **Concern** The AUROC of 0.978 is reported for evaluation set 1, which includes the entire PDB proteome as negative set. However, the PDB was also used to derive the biophysical feature statistics. This creates a potential circularity: the feature values are derived from PDB structures, and the negative set is also from the PDB. The authors do not address this potential information leak. Additionally, the AUROC is reported without confidence intervals or statistical comparison to other predictors on the same evaluation sets.
+  - **Why it matters** If the feature statistics are derived from the same database used as negative set, the model may be artificially advantaged in distinguishing PDB sequences from positive sequences. This would inflate the reported performance and undermine the claim of generalizability. Without confidence intervals or statistical tests, the reader cannot assess the reliability of the reported AUROC.
+  - **Resolution test** Provide AUROC with confidence intervals via bootstrapping. Perform an ablation where feature statistics are derived from a PDB subset excluding sequences used in the negative set. Report performance on independent validation sets not used in any training or feature derivation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the 8-feature combination was chosen to avoid overtraining and that the 12- and 16-feature combinations did not demonstrate better performance.
+  - **Evidence pointer** Section 3.1, Supplementary Table S7, location not provided
+  - **Concern** The feature selection procedure is not described in sufficient detail. The authors state that features were ranked based on "final contribution" from competitive training, but the exact criterion for ranking and the threshold for inclusion are not specified. The comparison of 8-, 12-, and 16-feature combinations is mentioned but the results are only in supplementary materials. The authors do not report whether the feature selection was performed on the training set only or on the full dataset, which would affect the validity of the selection.
+  - **Why it matters** Feature selection performed on the full dataset can lead to overfitting and inflated performance estimates. Without clarity on this point, the reported AUROC may not reflect true generalization performance. The lack of detail on the selection criterion also prevents replication.
+  - **Resolution test** Clearly describe the feature selection procedure, including whether it was performed on training data only. Report performance of all feature combinations on held-out test sets. Provide the ranking scores for all 16 features.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that LLPhyScore enables a breakdown of the contribution from each physical feature to a sequence's phase-separation propensity, providing physical interpretability.
+  - **Evidence pointer** Sections 3.6, 3.8, Figures 10, 12, location not provided
+  - **Concern** The interpretability claim is only partially supported. The authors acknowledge that the features are highly interdependent and that the weights are convoluted with residue-type preferences. The feature breakdown in Section 3.6 shows clustering of sequences but does not demonstrate that the feature contributions are physically meaningful or validated against experimental data. The analysis in Section 3.8 is correlative and does not establish causal relationships between features and phase-separation behavior.
+  - **Why it matters** The interpretability is a key differentiator from other predictors like PSPredictor. If the feature contributions cannot be reliably interpreted, the tool's added value over black-box predictors is diminished. The field needs predictors that provide mechanistic insights, not just scores.
+  - **Resolution test** Validate feature contributions against experimental mutagenesis data where specific interactions are known to be important. Provide a clear framework for interpreting feature contributions that accounts for interdependence. Compare feature contributions for sequences with known distinct driving forces.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that the curated human proteome negative set was filtered using CRAPome scores, removing sequences with null or high values (top 20%).
+  - **Evidence pointer** Section 2.1, Section 5.3, location not provided
+  - **Concern** The CRAPome filtering is described briefly, but the rationale for the specific threshold (top 20%) is not provided. The authors do not report how many sequences were removed or the characteristics of the remaining set. The potential for false negatives in the human set is acknowledged, but the extent of this problem is not quantified.
+  - **Why it matters** The quality of the negative set directly affects the validity of the training and evaluation. If the negative set contains many false negatives, the model may be learning to distinguish phase-separating proteins from a biased sample. The lack of detail on the filtering procedure limits reproducibility.
+  - **Resolution test** Report the number of sequences removed at each filtering step. Provide a sensitivity analysis using different CRAPome thresholds. Discuss the potential impact of false negatives on model performance.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors compare LLyPhyScore with PSPredictor, PScore, catGRANULE, and FuzDrop.
+  - **Evidence pointer** Section 3.5, Figure 9, location not provided
+  - **Concern** The comparison with other predictors is limited. The authors report AUROC values but do not provide a comprehensive comparison across multiple metrics (e.g., precision-recall, F1, Matthews correlation coefficient). The comparison is only on evaluation sets constructed by the authors, and the performance of other predictors may be affected by the choice of thresholds or parameters. The authors do not report whether the other predictors were used with their default settings or optimized for the evaluation sets.
+  - **Why it matters** A fair and comprehensive comparison is essential to establish the advantage of LLyPhyScore over existing tools. Limited comparisons can be misleading and do not provide sufficient evidence for the claimed superiority.
+  - **Resolution test** Provide a more comprehensive comparison using multiple metrics and thresholds. Report the settings used for each predictor. Consider benchmarking on independent datasets used in previous studies.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Section 2.2, feature definitions
+  - **Evidence pointer** Section 2.2, location not provided
+  - **Issue** The description of the 16 biophysical features is dense and may be difficult for readers not deeply familiar with the phase separation literature to follow. The distinction between short-range and long-range for each interaction type is not always clearly motivated.
+  - **Required correction** Consider adding a summary table or schematic figure that clearly defines each feature, its physical basis, and the short-range/long-range distinction. Provide a brief intuitive explanation for why each feature is relevant to phase separation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 5.6, genetic algorithm
+  - **Evidence pointer** Section 5.6, location not provided
+  - **Issue** The description of the genetic algorithm is brief. The authors do not specify population size, number of generations, mutation rate, crossover rate, or convergence criteria. This limits reproducibility.
+  - **Required correction** Provide the full hyperparameter settings for the genetic algorithm, or reference a detailed description in the supplementary materials or code repository.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.8, physical insights
+  - **Evidence pointer** Section 3.8, Figure 12, location not provided
+  - **Concern** The analysis of PDB structures (Section 3.8) is interesting but the statistical significance of the observed trends is not reported. The authors state that certain features are associated with higher scores but do not provide effect sizes or confidence intervals.
+  - **Required correction** Add statistical tests (e.g., Mann-Whitney U, permutation tests) to support the claims about feature associations. Report effect sizes where appropriate.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract is dense and uses technical terms (e.g., "kinked beta-structures") without definition. The significance of the work for a broad audience could be clearer.
+  - **Required correction** Consider simplifying the abstract to make the key findings and implications accessible to a broader readership. Define or briefly explain technical terms.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Section 3.2, model comparison
+  - **Evidence pointer** Section 3.2, Figure 6, location not provided
+  - **Issue** The authors report AUROC values for the three models on two evaluation sets but do not report other metrics such as precision, recall, or F1. The choice of AUROC as the sole metric may not fully capture model performance, especially given the class imbalance in the evaluation sets.
+  - **Required correction** Report additional metrics (precision, recall, F1, Matthews correlation coefficient) for all models and evaluation sets.
+
+## Risk / unsupported claims
+- The claim of AUROC 0.978 as evidence of strong predictive performance is not fully supported due to potential circularity with PDB-derived features and lack of confidence intervals.
+- The claim of physical interpretability is only partially supported; the feature contributions are acknowledged to be interdependent and not validated against experimental data.
+- The claim that the 8-feature combination avoids overtraining is not fully supported without details on the feature selection procedure.
+- The claim that the curated human proteome is a better negative set than the PDB is not fully supported by the presented results, as the differences in AUROC are not tested for statistical significance.
+- The claim that LLyPhyScore can differentiate sequences based on driving forces (Section 3.6) is not validated with experimental data.
+- The comparison with other predictors is limited and does not establish clear superiority.
+- The physical insights in Section 3.8 are correlative and not causally established.

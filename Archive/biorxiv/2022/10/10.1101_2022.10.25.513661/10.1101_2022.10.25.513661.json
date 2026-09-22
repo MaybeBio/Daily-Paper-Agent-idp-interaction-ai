@@ -1,0 +1,457 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.25.513661",
+  "title": "The structure of pathogenic huntingtin exon-1 defines the bases of its aggregation propensity",
+  "doi": "10.1101/2022.10.25.513661",
+  "abstract": "Huntington’s Disease is a neurodegenerative disorder caused by a CAG expansion of the first exon of the HTT gene, resulting in an extended poly-glutamine (poly-Q) tract in the N-terminus of the protein huntingtin (httex1). The structural changes occurring to the poly-Q when increasing its length remain poorly understood mainly due to its intrinsic flexibility and the strong compositional bias of the protein. The systematic application of site-specific isotopic labeling has enabled residue-specific NMR investigations of the poly-Q tract of pathogenic httex1 variants with 46 and 66 consecutive glutamines. The integrative analysis of the data reveals that the poly-Q tract adopts long α-helical conformations stabilized by glutamine side-chain to backbone hydrogen bonds. 19 F-NMR of site-specifically incorporated fluoro-glutamines and molecular dynamics simulations demonstrate that the mechanism propagating α-helical conformations towards the poly-Q from the upstream N17 domain is independent of the poly-Q track length. Aggregation and atomic force microscopy experiments show that the presence of long and persistent α-helices in the poly-Q tract is a stronger signature in defining the aggregation kinetics and the structure of the resulting fibrils than the number of glutamines. The ensemble of our observations provides a structural perspective of the pathogenicity of expanded httex1 and paves the way to a deeper understanding of poly-Q related diseases.",
+  "authors": [
+    "Elena-Real CA",
+    "Sagar A",
+    "Urbanek A",
+    "Popovic M",
+    "Morató A",
+    "Estaña A",
+    "Fournet A",
+    "Lund XL",
+    "Shi Z",
+    "Costa L",
+    "Thureau A",
+    "Allemand F",
+    "Swenson RE",
+    "Milhiet P",
+    "Barducci A",
+    "Cortés J",
+    "Sinnaeve D",
+    "Sibille N",
+    "Bernadó P"
+  ],
+  "published_date": "2022-10-26",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.25.513661",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.25.513661.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR563284",
+    "raw_record": {
+      "id": "PPR563284",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR563284"
+        ]
+      },
+      "doi": "10.1101/2022.10.25.513661",
+      "title": "The structure of pathogenic huntingtin exon-1 defines the bases of its aggregation propensity",
+      "authorString": "Elena-Real CA, Sagar A, Urbanek A, Popovic M, Morató A, Estaña A, Fournet A, Lund XL, Shi Z, Costa L, Thureau A, Allemand F, Swenson RE, Milhiet P, Barducci A, Cortés J, Sinnaeve D, Sibille N, Bernadó P.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Elena-Real CA",
+            "lastName": "Elena-Real",
+            "firstName": "Carlos",
+            "initials": "CA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sagar A",
+            "lastName": "Sagar",
+            "firstName": "Amin",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6207-9557"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Urbanek A",
+            "lastName": "Urbanek",
+            "firstName": "Annika",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Popovic M",
+            "lastName": "Popovic",
+            "firstName": "Matija",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morató A",
+            "lastName": "Morató",
+            "firstName": "Anna",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Estaña A",
+            "lastName": "Estaña",
+            "firstName": "Alejandro",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                },
+                {
+                  "affiliation": "LAAS-CNRS, Université de Toulouse, CNRS, 31400 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fournet A",
+            "lastName": "Fournet",
+            "firstName": "Aurélie",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6401-6031"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lund XL",
+            "lastName": "Lund",
+            "firstName": "Xamuel",
+            "initials": "XL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6261-8952"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                },
+                {
+                  "affiliation": "Institut Laue Langevin, 38000 Grenoble, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shi Z",
+            "lastName": "Shi",
+            "firstName": "Zhen-Dan",
+            "initials": "Z",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Chemistry and Synthesis Center, National Heart, Lung, and Blood Institute, National Institutes of Health. Rockville, Maryland, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Costa L",
+            "lastName": "Costa",
+            "firstName": "Luca",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4527-0034"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Thureau A",
+            "lastName": "Thureau",
+            "firstName": "Aurélien",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Swing Beamline, Synchrotron SOLEIL, 91192 Gif sur Yvette, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Allemand F",
+            "lastName": "Allemand",
+            "firstName": "Frédéric",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Swenson RE",
+            "lastName": "Swenson",
+            "firstName": "Rolf",
+            "initials": "RE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "The Chemistry and Synthesis Center, National Heart, Lung, and Blood Institute, National Institutes of Health. Rockville, Maryland, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Milhiet P",
+            "lastName": "Milhiet",
+            "firstName": "Pierre-Emmanuel",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Barducci A",
+            "lastName": "Barducci",
+            "firstName": "Alessandro",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cortés J",
+            "lastName": "Cortés",
+            "firstName": "Juan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "LAAS-CNRS, Université de Toulouse, CNRS, 31400 Toulouse, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sinnaeve D",
+            "lastName": "Sinnaeve",
+            "firstName": "Davy",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Univ. Lille, INSERM, Institut Pasteur de Lille, CHU Lille, U1167 - RID-AGE - Risk Factors and Molecular Determinants of Aging-Related Diseases, 59000 Lille, France"
+                },
+                {
+                  "affiliation": "CNRS, ERL9002 - Integrative Structural Biology, 59000 Lille, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sibille N",
+            "lastName": "Sibille",
+            "firstName": "Nathalie",
+            "initials": "N",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8145-6795"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bernadó P",
+            "lastName": "Bernadó",
+            "firstName": "Pau",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre de Biologie Structurale (CBS), INSERM, CNRS, Université de Montpellier. 29, rue de Navacelles, 34090 Montpellier, France"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8145-6795"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4527-0034"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6207-9557"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6261-8952"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6401-6031"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "Huntington’s Disease is a neurodegenerative disorder caused by a CAG expansion of the first exon of the  HTT gene, resulting in an extended poly-glutamine (poly-Q) tract in the N-terminus of the protein huntingtin (httex1). The structural changes occurring to the poly-Q when increasing its length remain poorly understood mainly due to its intrinsic flexibility and the strong compositional bias of the protein. The systematic application of site-specific isotopic labeling has enabled residue-specific NMR investigations of the poly-Q tract of pathogenic httex1 variants with 46 and 66 consecutive glutamines. The integrative analysis of the data reveals that the poly-Q tract adopts long α-helical conformations stabilized by glutamine side-chain to backbone hydrogen bonds.  19 F-NMR of site-specifically incorporated fluoro-glutamines and molecular dynamics simulations demonstrate that the mechanism propagating α-helical conformations towards the poly-Q from the upstream N17 domain is independent of the poly-Q track length. Aggregation and atomic force microscopy experiments show that the presence of long and persistent α-helices in the poly-Q tract is a stronger signature in defining the aggregation kinetics and the structure of the resulting fibrils than the number of glutamines. The ensemble of our observations provides a structural perspective of the pathogenicity of expanded httex1 and paves the way to a deeper understanding of poly-Q related diseases.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "European Research Council",
+            "grantId": "648030",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/10/26/2022.10.25.513661.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.10.25.513661"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR563284"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR563284&type=FILE&fileName=EMS156305-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "36864173",
+            "reference": "Nature structural & molecular biology. 2023 Mar;30(3):309-320",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS156305",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2022-10-28",
+      "firstPublicationDate": "2022-10-26",
+      "firstIndexDate": "2022-10-28",
+      "fullTextReceivedDate": "2022-11-18",
+      "hasEvaluations": "N"
+    }
+  }
+}

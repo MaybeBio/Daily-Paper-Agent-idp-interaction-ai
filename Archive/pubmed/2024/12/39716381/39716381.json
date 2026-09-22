@@ -1,0 +1,273 @@
+{
+  "identity": {
+    "pmid": "39716381",
+    "doi": "10.1111/febs.17373",
+    "title": "Transglutaminase 2 is an RNA-binding protein: experimental verification and characterisation of a novel transglutaminase feature."
+  },
+  "content": {
+    "abstract": "Transglutaminase 2 (TG2) is a uniquely versatile protein with diverse catalytic activities, such as transglutaminase, protein disulfide isomerase, GTPase and protein kinase, and participates in several biological processes. According to information available in the RBP2GO database, TG2 can act as an RNA-binding protein (RBP). RBPs participate in posttranscriptional gene expression regulation, therefore influencing the function of RNA, whereas RNA molecules can also modulate the biological activity of RBPs. The present study aimed to confirm this novel characteristic of TG2 in human umbilical cord vein endothelial cells (HUVEC), which physiologically express TG2. First, UV cross-linked RNA-protein complexes were isolated from immortalised HUVECs using orthogonal organic phase separation. Compared with the RBP2GO database, mass spectrometry identified 392 potential RBPs, including TG2 and 20 previously undescribed, endothelium-related RBPs. Recombinant human TG2 was also pulled down by magnetic bead-immobilised total RNA from HUVEC. Complex formation between TG2 and a 43-mer RNA molecule with a secondary structure as well as a homo-oligomeric single-stranded poly(dG), but not poly(dA), could be observed in magnetic RNA-protein pull-down experiments. Experiments with TG2 inhibitors NC9 and GTPgammaS, which stabilise its open and closed conformation, respectively, revealed that the open conformation of the enzyme favoured RNA-binding. Biolayer interferometry revealed a high binding affinity between TG2 and RNA with a K(D) value of 88 nm. Based on modelling and site-directed mutagenesis studies, we propose that superficial residues on the catalytic core domain (173-177 amino acids), present in a hidden position in the closed TG2 conformation, are involved in RNA binding. The present study demonstrates the previously uncharacterised RNA-binding ability of TG2, opening new avenues for understanding its multifunctionality.",
+    "keywords": [
+      "RNA-binding",
+      "RNA-binding protein",
+      "endothelial cells",
+      "transglutaminase 2"
+    ],
+    "mesh_terms": [
+      "Humans",
+      "*Transglutaminases/metabolism/genetics/chemistry",
+      "Protein Glutamine gamma Glutamyltransferase 2",
+      "*GTP-Binding Proteins/metabolism/genetics/chemistry",
+      "Human Umbilical Vein Endothelial Cells/metabolism",
+      "*RNA-Binding Proteins/metabolism/genetics/chemistry",
+      "Protein Binding",
+      "RNA/metabolism/chemistry/genetics",
+      "Recombinant Proteins/metabolism/genetics/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Csaholczi, Bianka",
+        "Csuth, Anna Renata",
+        "Korponay-Szabo, Ilma Rita",
+        "Fesus, Laszlo",
+        "Kiraly, Robert"
+      ],
+      "short_names": [
+        "Csaholczi B",
+        "Csuth AR",
+        "Korponay-Szabo IR",
+        "Fesus L",
+        "Kiraly R"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3338-2362",
+        "ORCID: 0000-0002-1606-3132"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biology, Faculty of Medicine, University of Debrecen, Hungary.",
+        "Doctoral School of Molecular Cell and Immune Biology, University of Debrecen, Hungary.",
+        "Department of Biochemistry and Molecular Biology, Faculty of Medicine, University of Debrecen, Hungary.",
+        "Department of Pediatrics, Faculty of Medicine, University of Debrecen, Hungary.",
+        "Department of Biochemistry and Molecular Biology, Faculty of Medicine, University of Debrecen, Hungary.",
+        "Department of Biochemistry and Molecular Biology, Faculty of Medicine, University of Debrecen, Hungary."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Csaholczi, Bianka",
+        "short_name": "Csaholczi B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Faculty of Medicine, University of Debrecen, Hungary.",
+          "Doctoral School of Molecular Cell and Immune Biology, University of Debrecen, Hungary."
+        ]
+      },
+      {
+        "full_name": "Csuth, Anna Renáta",
+        "short_name": "Csuth AR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Faculty of Medicine, University of Debrecen, Hungary."
+        ]
+      },
+      {
+        "full_name": "Korponay-Szabó, Ilma Rita",
+        "short_name": "Korponay-Szabó IR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pediatrics, Faculty of Medicine, University of Debrecen, Hungary."
+        ]
+      },
+      {
+        "full_name": "Fésüs, László",
+        "short_name": "Fésüs L",
+        "identifiers": [
+          "0000-0002-3338-2362"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Faculty of Medicine, University of Debrecen, Hungary."
+        ]
+      },
+      {
+        "full_name": "Király, Róbert",
+        "short_name": "Király R",
+        "identifiers": [
+          "0000-0002-1606-3132"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biology, Faculty of Medicine, University of Debrecen, Hungary."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The FEBS journal"
+    ],
+    "journal_abbrev": [
+      "FEBS J"
+    ],
+    "pub_date": "2025 Feb",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/24 06:20",
+    "fetched_at": "2026-09-21 14:05:42"
+  },
+  "links": {
+    "cites": [
+      "39940781"
+    ],
+    "refs": [],
+    "similar": [
+      "39716381",
+      "41493300",
+      "29305423",
+      "27394141",
+      "27941875",
+      "30321187",
+      "19878304",
+      "22015769",
+      "22442151",
+      "23941696",
+      "39665157",
+      "15069073",
+      "28880274",
+      "15691824",
+      "39134806",
+      "22394545",
+      "30285580",
+      "18092889",
+      "27551108",
+      "11867764",
+      "20148342",
+      "21310073",
+      "21304968",
+      "31991788",
+      "21652693",
+      "25404341",
+      "38135164",
+      "24052076",
+      "39983822",
+      "20547769",
+      "26175493",
+      "25943306",
+      "26244572",
+      "14747475",
+      "32697952",
+      "38959038",
+      "22198767",
+      "31874171",
+      "16522628",
+      "27694984",
+      "22952912",
+      "17408647",
+      "27784785",
+      "26160175",
+      "24291354",
+      "22225906",
+      "17075129",
+      "26487698",
+      "34879432",
+      "29170410",
+      "40777010",
+      "21129482",
+      "29179065",
+      "21277850",
+      "22382775",
+      "22364871",
+      "26133787",
+      "18761350",
+      "20615646",
+      "35681474",
+      "20596752",
+      "33249864",
+      "25557247",
+      "23993960",
+      "21330459",
+      "29689097",
+      "27855535",
+      "37712623",
+      "18375543",
+      "26250429",
+      "25192068",
+      "27591334",
+      "23200849",
+      "24191290",
+      "38672511",
+      "27761756",
+      "23085038",
+      "34610184",
+      "22493284",
+      "27792935",
+      "30136165",
+      "18003922",
+      "32115900",
+      "31914588",
+      "27685605",
+      "18202319",
+      "20450932",
+      "29187283",
+      "19840940",
+      "28199387",
+      "27633721",
+      "31666191",
+      "41061294",
+      "28199195",
+      "27699491",
+      "39369875",
+      "34360011",
+      "17582505",
+      "17478427",
+      "40977502"
+    ],
+    "review": [
+      "39716381",
+      "22015769",
+      "20148342",
+      "25943306",
+      "31874171",
+      "22364871",
+      "35681474",
+      "37712623",
+      "30136165",
+      "29187283",
+      "28199195",
+      "34360011",
+      "17582505"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/39716381.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/febs.17373",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-3409",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

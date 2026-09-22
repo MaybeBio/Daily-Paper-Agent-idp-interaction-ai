@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, arXiv:2201.11581v1)
+- **Assessment boundary** Scientific content, methodological soundness, and claims as presented in the provided text. No external validation of code or experimental data was performed.
+- **Shared manuscript claim summary** The authors propose the use of Bethe-Peierls (cavity) methods to compute the partition function of lattice models of biomolecular condensates, claim quantitative improvement over regular solution (mean-field) models in binary and ternary systems, and demonstrate parameter inference from experimental coacervate data.
+- **Visible evidence base** Equations (1)-(10), Figures 1-5 (referenced but not shown), experimental methods description, and a GitHub repository link.
+- **Missing materials affecting confidence** Figures and their captions are not provided. Numerical simulation details (lattice size, number of runs, error bars) are absent. Experimental data points and error analysis are not shown. The GitHub repository was not inspected.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in the statistical physics of biomolecular condensates, proposing a cavity-method approach to go beyond classical mean-field descriptions. The binary and ternary analytical derivations are plausible and the qualitative claim that BP outperforms regular solution models is credible. However, the evidence base is incomplete: figures are not available, simulation details are sparse, and the experimental inference section lacks quantitative validation metrics. The core methodological contribution is sound in principle, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in biological physics, soft matter theory, and statistical mechanics of disordered systems. The work offers a tractable analytical route to phase diagrams of heterogeneous multicomponent mixtures, which is of direct interest to those studying phase separation in cells and in vitro coacervate systems. The inverse modeling aspect may appeal to experimental groups seeking to infer interaction parameters from imaging data.
+- **Major strengths** The use of cavity methods to compute partition functions from microscopic interactions is a principled alternative to postulating free energy landscapes. The binary case provides a closed-form spinodal formula that improves agreement with simulations. The ternary analysis correctly identifies three distinct phase-separation regimes, which is a useful classification. The computational cost advantage (hours vs milliseconds) is a compelling practical argument.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim quantitative agreement between BP theory and numerical simulations (binary and ternary systems).
+  - **Evidence pointer** Figures 2, 3, and 5 (location not provided)
+  - **Concern** The figures that would substantiate the quantitative agreement are not included in the provided material. Without seeing the data, the reader cannot assess the magnitude of the improvement over regular solution models, the error bars, or the range of parameters tested.
+  - **Why it matters** The central claim of the paper is that BP methods provide quantitatively better phase diagrams. This claim is unverifiable without the visual or numerical evidence.
+  - **Resolution test** Provide the figures with clear axis labels, error bars, and a direct comparison between BP, regular solution, and simulation results for at least two parameter sets per system.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological reproducibility
+  - **Claim pointer** The authors state that numerical simulations were performed via Monte Carlo Kawasaki scheme and that the inverse critical temperature was estimated from specific heat peaks and free energy concavity changes.
+  - **Evidence pointer** Section III.1 (location not provided)
+  - **Concern** Details on lattice sizes, number of Monte Carlo steps, equilibration criteria, and statistical averaging are missing. The free energy reconstruction from local density distributions via Gaussian convolution is described only qualitatively.
+  - **Why it matters** Without these details, the simulation results cannot be reproduced or independently verified, which undermines the quantitative claims.
+  - **Resolution test** Add a table or paragraph specifying lattice dimensions, number of independent runs, thermalization and sampling steps, and the exact procedure for free energy profile reconstruction.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Experimental inference validation
+  - **Claim pointer** The authors claim successful inference of model parameters reproducing the experimental phase diagram of poly-lysine and ADP, with a 3% error rate for associative de-mixing.
+  - **Evidence pointer** Section II.3 and Figure 4 (location not provided)
+  - **Concern** The experimental phase diagram is not shown, the inference procedure is described only at a high level, and the 3% versus 15% error rates are stated without context. It is unclear how many experimental points were used, how the classification threshold was set, and whether the inferred models are unique.
+  - **Why it matters** The inverse modeling claim is a key novelty of the paper. Without a clear description of the data and the inference pipeline, the reader cannot judge whether the approach is genuinely useful or merely overfits a small dataset.
+  - **Resolution test** Show the experimental phase diagram with overlaid model predictions, specify the number of experimental conditions, the inference algorithm's hyperparameters, and provide a sensitivity analysis of the inferred parameters.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Introduction, paragraph 2
+  - **Evidence pointer** Section I (location not provided)
+  - **Issue** The sentence "In recent years the VO model has been criticized in particular for not being sufficient in explaining the phenomenon of complex coacervation" is vague. It would help to specify the nature of the criticism and cite the relevant critiques.
+  - **Required correction** Add one or two sentences summarizing the specific shortcomings of the VO model and cite the critical papers.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Notation consistency
+  - **Affected element** Section II.1, equations (6)-(8)
+  - **Evidence pointer** Section II.1 (location not provided)
+  - **Issue** The parameter w is introduced as w = e^{βu} but its physical meaning is not discussed. The relationship between w and the spinodal branches w1,2 is not explained.
+  - **Required correction** Briefly define w in physical terms and explain why two branches arise.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Section III.2
+  - **Evidence pointer** Section III.2 (location not provided)
+  - **Issue** The experimental section mentions specific reagents and instruments but does not state the concentration ranges, buffer composition details, or the number of replicate wells.
+  - **Required correction** Add a short paragraph with concentration ranges, buffer composition, and replicate counts.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing figures), R1-M2 (insufficient simulation details), R1-M3 (incomplete experimental inference validation).
+- **Assessment against Nature-style criteria** Originality: the application of cavity methods to biomolecular condensates is a novel angle, though the underlying statistical mechanics is well established. Scientific importance: potentially high for the condensate community, but the impact depends on the quantitative evidence, which is currently incomplete. Interdisciplinary readership: the topic bridges physics and biology, but the presentation assumes familiarity with spin-glass methods, which may limit accessibility. Technical soundness: the analytical derivations appear plausible, but the numerical and experimental validation is not fully documented. Readability for nonspecialists: the introduction is accessible, but the results section becomes dense and would benefit from more explanatory text around the equations.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is promising and the analytical framework is a useful contribution, but the current submission does not provide sufficient evidence to fully establish the quantitative claims.
+
+## Risk / unsupported claims
+- The claim of quantitative agreement with simulations (binary and ternary) is unsupported without figures.
+- The claim that BP reproduces the experimental phase diagram with 3% error is unsupported without showing the data and the inference details.
+- The statement that "naive mean field approximations are proved inadequate" for ternary systems is only supported qualitatively and needs the missing figure evidence.
+- The computational cost comparison (hours vs ms) is stated without specifying the hardware or the simulation parameters, making it difficult to evaluate.

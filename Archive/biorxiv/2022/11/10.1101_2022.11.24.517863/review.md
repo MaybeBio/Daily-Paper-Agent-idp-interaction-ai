@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and body as provided)
+- **Assessment boundary** Scientific claims, methodological soundness, and interpretative validity based solely on the supplied text
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations to argue that WASP and N-WASP differ in their synergistic activation by Cdc42 and PIP2, specifically that Cdc42 prenylation is required for WASP but not N-WASP to maintain PIP2 binding to the basic region, and that this difference may underlie distinct functional roles.
+- **Visible evidence base** Abstract and narrative description of simulation results; no figures, tables, methods details, or quantitative data are provided in the supplied material.
+- **Missing materials affecting confidence** Simulation parameters, force field choices, system setup, convergence criteria, replica or trajectory details, quantitative binding free energies, error estimates, comparison to experimental data, and any statistical analysis. No figures or tables are available for verification.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and biologically relevant question about differential regulation of two homologous actin nucleation-promoting factors. The central claim, that Cdc42 prenylation is specifically required for WASP but not N-WASP to maintain PIP2 binding, is plausible and potentially significant. However, the provided text is a descriptive summary without methodological detail or quantitative evidence. The case is not established from the supplied material, and the conclusions cannot be independently evaluated.
+- **Who would be interested in the results, and why** Researchers studying actin cytoskeleton regulation, small GTPase signaling, membrane-protein interactions, and intrinsically disordered proteins. The work could also interest computational biophysicists focused on membrane-associated protein dynamics and those investigating isoform-specific signaling mechanisms.
+- **Major strengths** The question is well framed and mechanistically important. The proposed distinction between WASP and N-WASP activation is novel and could explain known functional divergence. The use of molecular dynamics to address a multi-regulator binding problem is appropriate in principle.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that molecular dynamics simulations characterize binding of WASP and N-WASP with PIP2 and Cdc42, and that Cdc42 prenylation restores PIP2 binding to the WASP basic region.
+  - **Evidence pointer** Abstract and narrative text; location not provided
+  - **Concern** No methodological details are given. The reader cannot assess force field accuracy, membrane model, simulation length, sampling convergence, or whether the simulations adequately capture prenylation effects. Without these, the simulation results are unverifiable.
+  - **Why it matters** Molecular dynamics results are only meaningful if the simulation setup is physically realistic and statistically converged. The claim of a prenylation-dependent mechanism hinges entirely on the reliability of the simulations.
+  - **Resolution test** Provide full methods including system construction, force field parameters, simulation time, number of replicas, convergence metrics, and free energy calculations. Show that the observed differences are robust to parameter variation.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors state that Cdc42 binding significantly compromises PIP2 binding to the basic region in WASP but not N-WASP, and that prenylation restores it.
+  - **Evidence pointer** Abstract and narrative text; location not provided
+  - **Concern** No quantitative data are presented. There are no binding free energies, contact probabilities, or occupancy measures. The qualitative statements cannot be evaluated for statistical significance or effect size.
+  - **Why it matters** The central mechanistic distinction is presented as a binary outcome. Without quantitative support, the claim is not established and could reflect simulation noise or arbitrary thresholds.
+  - **Resolution test** Provide quantitative metrics with error bars and statistical tests comparing WASP versus N-WASP under each condition (no Cdc42, Cdc42, prenylated Cdc42).
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors suggest that the observed distinction may contribute to different functional roles of WASP and N-WASP.
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The functional relevance is speculative and not connected to any experimental data or known phenotypes. The link from simulation to biology is asserted without evidence.
+  - **Why it matters** The broader significance of the work depends on this connection. Without experimental validation or literature-based support, the claim remains an untested hypothesis.
+  - **Resolution test** Cite experimental studies that support or contradict the proposed functional divergence, or design testable predictions that could be experimentally verified.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract uses terms like "basic region" and "WH1 domain" without defining them for a general reader.
+  - **Required correction** Briefly define these domains or provide a schematic reference in the abstract.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Simulation description
+  - **Evidence pointer** Narrative text; location not provided
+  - **Issue** The phrase "strongly associate" is vague and not quantified.
+  - **Required correction** Replace with specific measures such as residence times, binding free energies, or contact frequencies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Narrative text; location not provided
+  - **Issue** The claim that the distinction "may contribute to different functional roles" is not developed.
+  - **Required correction** Expand on which functional roles are known to differ and how the proposed mechanism could explain them.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of methods and quantitative data means the core claims are not verifiable. R1-M3 is non-blocking but requires strengthening for significance.
+- **Assessment against Nature-style criteria** Originality is high, as the proposed isoform-specific prenylation requirement is not a known concept. Scientific importance is potentially high for cytoskeleton and signaling fields, but the current evidence does not support the claim. Interdisciplinary readership is plausible, but the abstract assumes domain knowledge. Technical soundness is not assessable due to missing methods. Readability for nonspecialists is moderate but could be improved with definitions and clearer quantitative language.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript could become supportive if the authors provide full methodological detail, quantitative results with statistical rigor, and a more grounded discussion of functional implications.
+
+## Risk / unsupported claims
+- The claim that Cdc42 prenylation is specifically required for WASP but not N-WASP to maintain PIP2 binding is unsupported due to lack of quantitative data and methods.
+- The claim that the basic region in WASP, but not N-WASP, has compromised PIP2 binding upon Cdc42 binding is unsupported.
+- The claim that the observed distinction may contribute to different functional roles is speculative and not supported by any experimental or literature evidence.
+- Any statement about "strong association" or "restoration" of binding is unquantified and cannot be evaluated.

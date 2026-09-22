@@ -1,0 +1,323 @@
+{
+  "identity": {
+    "pmid": "40751677",
+    "doi": "10.1021/jacs.5c06625",
+    "title": "A Charge-Driven Strategy for Covalent Modification and Modulation of Biomolecular Condensates."
+  },
+  "content": {
+    "abstract": "Small-molecule modulation of biomolecular condensates has emerged as a novel and attractive therapeutic modality. Increasing evidence implicates dysregulated condensate formation in neurodegenerative diseases and cancer. However, the proteins that mediate condensate formation are typically difficult to drug directly with small molecules. Here, we present a charge-driven strategy and demonstrate its implementation on Ras GTPase-activating protein-binding protein 1 (G3BP1) to inhibit G3BP1-mediated stress granule (SG) formation. Small-molecule SG inhibitors were developed from the carbonylacrylic amide covalent functionality and were used to modify the folded domain of G3BP1 with surface charges, leading to an alteration of the conformational dynamics of intrinsically disordered regions. Cellular experiments using HeLa cells expressing cysteine-mutated G3BP1, together with structure-activity relationship studies, support the proposed charge-driven mechanism of action. Molecular dynamics simulations further suggest that the small-molecule G3BP1 modification promotes a shift toward more compact conformations, comparable to that induced by an  approximately 26% increase in IDR1-IDR3 interaction. Together, our findings establish a new strategy for the rational modulation of biomolecular condensates.",
+    "keywords": [],
+    "mesh_terms": [
+      "Humans",
+      "*RNA Recognition Motif Proteins/metabolism/chemistry/antagonists & inhibitors/genetics",
+      "*Poly-ADP-Ribose Binding Proteins/metabolism/chemistry/antagonists & inhibitors/genetics",
+      "HeLa Cells",
+      "Molecular Dynamics Simulation",
+      "*RNA Helicases/metabolism/chemistry/antagonists & inhibitors",
+      "*Biomolecular Condensates/metabolism/chemistry",
+      "*DNA Helicases/metabolism/chemistry",
+      "Stress Granules/metabolism/drug effects",
+      "Structure-Activity Relationship",
+      "*Small Molecule Libraries/chemistry/pharmacology"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chen, Zhewei",
+        "Liu, Lu",
+        "Cattin, Jerome",
+        "Knowles, Tuomas P J",
+        "Bernardes, Goncalo J L"
+      ],
+      "short_names": [
+        "Chen Z",
+        "Liu L",
+        "Cattin J",
+        "Knowles TPJ",
+        "Bernardes GJL"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7879-0140",
+        "ORCID: 0000-0001-6594-8917"
+      ],
+      "affiliations": [
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, U.K.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, U.K.",
+        "Transition Bio, Ltd., Cambridge CB2 8DU, U.K.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, U.K.",
+        "Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, U.K.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, U.K.",
+        "Translational Chemical Biology Group, Spanish National Cancer Research Centre (CNIO), C/Melchor Fernandez Almagro, 3, 28029 Madrid, Spain."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chen, Zhewei",
+        "short_name": "Chen Z",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, U.K."
+        ]
+      },
+      {
+        "full_name": "Liu, Lu",
+        "short_name": "Liu L",
+        "identifiers": [],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, U.K."
+        ]
+      },
+      {
+        "full_name": "Cattin, Jerome",
+        "short_name": "Cattin J",
+        "identifiers": [],
+        "affiliations": [
+          "Transition Bio, Ltd., Cambridge CB2 8DU, U.K."
+        ]
+      },
+      {
+        "full_name": "Knowles, Tuomas P J",
+        "short_name": "Knowles TPJ",
+        "identifiers": [
+          "0000-0002-7879-0140"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, U.K.",
+          "Cavendish Laboratory, Department of Physics, University of Cambridge, Cambridge CB3 0HE, U.K."
+        ]
+      },
+      {
+        "full_name": "Bernardes, Gonçalo J L",
+        "short_name": "Bernardes GJL",
+        "identifiers": [
+          "0000-0001-6594-8917"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge CB2 1EW, U.K.",
+          "Translational Chemical Biology Group, Spanish National Cancer Research Centre (CNIO), C/Melchor Fernández Almagro, 3, 28029 Madrid, Spain."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2025 Aug 13",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/03 03:43",
+    "fetched_at": "2026-09-21 21:42:33"
+  },
+  "links": {
+    "cites": [
+      "42414287",
+      "42220425",
+      "40943143"
+    ],
+    "refs": [
+      "40369342",
+      "39827079",
+      "39710983",
+      "39448844",
+      "39303698",
+      "38483823",
+      "38284934",
+      "38262618",
+      "37380771",
+      "37379327",
+      "37294104",
+      "37159397",
+      "37031812",
+      "36483537",
+      "35974095",
+      "35809564",
+      "35804044",
+      "34557680",
+      "34432948",
+      "34234347",
+      "33812316",
+      "33782607",
+      "33577679",
+      "33510441",
+      "33417833",
+      "33002410",
+      "32632317",
+      "32302571",
+      "32181542",
+      "31272829",
+      "31123369",
+      "30923191",
+      "30470819",
+      "30205049",
+      "28935776",
+      "28225081",
+      "28194255",
+      "27782215",
+      "27626386",
+      "23868113",
+      "22398450",
+      "21731610",
+      "21368180",
+      "19460965",
+      "18345031"
+    ],
+    "similar": [
+      "40751677",
+      "41263030",
+      "40306108",
+      "34517025",
+      "41131140",
+      "39621905",
+      "31481451",
+      "42450319",
+      "41591303",
+      "39673974",
+      "36692217",
+      "39708056",
+      "42383738",
+      "38262290",
+      "39637853",
+      "39079611",
+      "34287041",
+      "40548742",
+      "39387926",
+      "28972166",
+      "41501012",
+      "39408899",
+      "38778761",
+      "42215158",
+      "37059803",
+      "30510222",
+      "40762925",
+      "31704836",
+      "40214262",
+      "36279435",
+      "34739333",
+      "33131924",
+      "33945510",
+      "42262924",
+      "34779554",
+      "33547245",
+      "35798143",
+      "33133097",
+      "40145738",
+      "40473629",
+      "41571440",
+      "42167235",
+      "41586493",
+      "36534661",
+      "41067892",
+      "38821132",
+      "36350614",
+      "31500725",
+      "31941779",
+      "36806943",
+      "29463567",
+      "35240128",
+      "40230220",
+      "33349931",
+      "35150414",
+      "38039847",
+      "39515684",
+      "39007803",
+      "40107650",
+      "40376753",
+      "41197637",
+      "35176431",
+      "34526993",
+      "32302571",
+      "37159397",
+      "38284934",
+      "30944179",
+      "38734221",
+      "29717134",
+      "33941659",
+      "40733530",
+      "33497611",
+      "39546601",
+      "42488687",
+      "42214259",
+      "36394332",
+      "31462091",
+      "40603603",
+      "37161291",
+      "32692974",
+      "39120973",
+      "37516290",
+      "28523344",
+      "34967276",
+      "34843219",
+      "42515571",
+      "39729994",
+      "40858563",
+      "31956030",
+      "31560169",
+      "39510185",
+      "40692017",
+      "39356796",
+      "38126399",
+      "33199441",
+      "34432484",
+      "30006004",
+      "40355555",
+      "29626090",
+      "41597214"
+    ],
+    "review": [
+      "40751677",
+      "38778761",
+      "33349931",
+      "39515684",
+      "35176431"
+    ],
+    "pmc": [
+      "12356531"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40751677/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-OTUB1-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-374",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.5c06625",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

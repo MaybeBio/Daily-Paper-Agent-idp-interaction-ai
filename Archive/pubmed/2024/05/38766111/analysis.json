@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38766111",
+  "title": "The RNA-binding selectivity of the RGG/RG motifs of hnRNP U is abolished by elements within the intrinsically disordered region.",
+  "authors": "Kletzien, Otto A; Wuttke, Deborah S; Batey, Robert T",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2024-05-20",
+  "window": {
+    "start": "2024-05-20",
+    "end": "2024-05-26"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过荧光各向异性和EMSA实验研究hnRNP U无序C端RBD中RGG/RG基序的RNA结合选择性，揭示IDR调控RGG基序的G-四链体偏好性，虽聚焦RNA而非蛋白互作且无AI/物理模拟方法，但无序区域调控结合选择性的机制对IDR介导互作建模有启发。",
+  "abstract": "The abundant nuclear protein hnRNP U interacts with a broad array of RNAs along with DNA and protein to regulate nuclear chromatin architecture. The RNA-binding activity is achieved via a disordered ~100 residue C-terminal RNA-binding domain (RBD) containing two distinct RGG/RG motifs. Although the RNA-binding capabilities of RGG/RG motifs have been widely reported, less is known about hnRNP U's RNA-binding selectivity. Furthermore, while it is well established that hnRNP U binds numerous nuclear RNAs, it remains unknown whether it selectively recognizes sequence or structural motifs in target RNAs. To address this question, we performed equilibrium binding assays using fluorescence anisotropy (FA) and electrophoretic mobility shift assays (EMSAs) to quantitatively assess the ability of human hnRNP U RBD to interact with segments of cellular RNAs identified from eCLIP data. These RNAs often, but not exclusively, contain poly-uridine or 5'-AGGGAG sequence motifs. Detailed binding analysis of several target RNAs reveal that the hnRNP U RBD binds RNA in a promiscuous manner with high affinity for a broad range of structured RNAs, but with little preference for any distinct sequence motif. In contrast, the isolated RGG/RG of hnRNP U motif exhibits a strong preference for G-quadruplexes, similar to that observed for other RGG motif bearing peptides. These data reveal that the hnRNP U RBD attenuates the RNA binding selectivity of its core RGG motifs to achieve an extensive RNA interactome. We propose that a critical role of RGG/RG motifs in RNA biology is to alter binding affinity or selectivity of adjacent RNA-binding domains.",
+  "abstract_zh": "丰富的核蛋白hnRNP U与广泛的RNA以及DNA和蛋白质相互作用，以调控核染色质结构。其RNA结合活性通过一个约100个残基的无序C端RNA结合域（RBD）实现，该结构域包含两个不同的RGG/RG基序。尽管RGG/RG基序的RNA结合能力已被广泛报道，但关于hnRNP U的RNA结合选择性知之甚少。此外，虽然已明确hnRNP U结合多种核RNA，但仍不清楚它是否选择性识别靶RNA中的序列或结构基序。为解决此问题，我们使用荧光各向异性（FA）和电泳迁移率变动分析（EMSAs）进行了平衡结合实验，以定量评估人hnRNP U RBD与从eCLIP数据中鉴定的细胞RNA片段相互作用的能力。这些RNA通常（但并非 exclusively）含有聚尿苷或5'-AGGGAG序列基序。对几种靶RNA的详细结合分析表明，hnRNP U RBD以混杂方式结合RNA，对广泛的结构化RNA具有高亲和力，但对任何特定序列基序几乎没有偏好。相比之下，分离的hnRNP U RGG/RG基序对G-四链体表现出强烈偏好，类似于其他携带RGG基序的肽所观察到的现象。这些数据揭示，hnRNP U RBD减弱其核心RGG基序的RNA结合选择性，以实现广泛的RNA相互作用组。我们提出，RGG/RG基序在RNA生物学中的一个关键作用是改变相邻RNA结合域的结合亲和力或选择性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38766111/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38766111/",
+  "paper_page_path": "papers/pubmed/38766111/index.html"
+}

@@ -1,0 +1,483 @@
+{
+  "identity": {
+    "pmid": "38537638",
+    "doi": "10.1016/j.molcel.2024.03.002",
+    "title": "Molecular determinants and signaling effects of PKA RIalpha phase separation."
+  },
+  "content": {
+    "abstract": "Spatiotemporal regulation of intracellular signaling molecules, such as the 3',5'-cyclic adenosine monophosphate (cAMP)-dependent protein kinase (PKA), ensures proper cellular function. Liquid-liquid phase separation (LLPS) of the ubiquitous PKA regulatory subunit RIalpha promotes cAMP compartmentation and signaling specificity. However, the molecular determinants of RIalpha LLPS remain unclear. Here, we reveal that two separate dimerization interfaces, combined with the cAMP-induced unleashing of the PKA catalytic subunit (PKA-C) from the pseudosubstrate inhibitory sequence, drive RIalpha condensate formation in the cytosol of mammalian cells, which is antagonized by docking to A-kinase anchoring proteins. Strikingly, we find that the RIalpha pseudosubstrate region is critically involved in forming a non-canonical R:C complex, which recruits active PKA-C to RIalpha condensates to maintain low basal PKA activity in the cytosol. Our results suggest that RIalpha LLPS not only facilitates cAMP compartmentation but also spatially restrains active PKA-C, thus highlighting the functional versatility of biomolecular condensates in driving signaling specificity.",
+    "keywords": [
+      "biomolecular condensates",
+      "intrinsically disordered region",
+      "protein kinase",
+      "signaling compartmentation"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Cyclic AMP-Dependent Protein Kinase RIalpha Subunit/genetics/chemistry/metabolism",
+      "*Phase Separation",
+      "Signal Transduction",
+      "Cyclic AMP/metabolism",
+      "Cyclic AMP-Dependent Protein Kinases/metabolism",
+      "Mammals/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hardy, Julia C",
+        "Pool, Emily H",
+        "Bruystens, Jessica G H",
+        "Zhou, Xin",
+        "Li, Qingrong",
+        "Zhou, Daojia R",
+        "Palay, Max",
+        "Tan, Gerald",
+        "Chen, Lisa",
+        "Choi, Jaclyn L C",
+        "Lee, Ha Neul",
+        "Strack, Stefan",
+        "Wang, Dong",
+        "Taylor, Susan S",
+        "Mehta, Sohum",
+        "Zhang, Jin"
+      ],
+      "short_names": [
+        "Hardy JC",
+        "Pool EH",
+        "Bruystens JGH",
+        "Zhou X",
+        "Li Q",
+        "Zhou DR",
+        "Palay M",
+        "Tan G",
+        "Chen L",
+        "Choi JLC",
+        "Lee HN",
+        "Strack S",
+        "Wang D",
+        "Taylor SS",
+        "Mehta S",
+        "Zhang J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA; Shu Chien-Gene Lay Department of Bioengineering, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA; Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA; Shu Chien-Gene Lay Department of Bioengineering, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA; Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, University of Iowa, Iowa City, IA 52242, USA.",
+        "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA; Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA; Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA.",
+        "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA; Shu Chien-Gene Lay Department of Bioengineering, University of California, San Diego, La Jolla, CA 92093, USA; Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA; Moores Cancer Center, University of California, San Diego, La Jolla, CA 92093, USA. Electronic address: jzhang32@health.ucsd.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hardy, Julia C",
+        "short_name": "Hardy JC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA; Shu Chien-Gene Lay Department of Bioengineering, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Pool, Emily H",
+        "short_name": "Pool EH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA; Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Bruystens, Jessica G H",
+        "short_name": "Bruystens JGH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xin",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Li, Qingrong",
+        "short_name": "Li Q",
+        "identifiers": [],
+        "affiliations": [
+          "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Zhou, Daojia R",
+        "short_name": "Zhou DR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA; Shu Chien-Gene Lay Department of Bioengineering, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Palay, Max",
+        "short_name": "Palay M",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA; Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Tan, Gerald",
+        "short_name": "Tan G",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Chen, Lisa",
+        "short_name": "Chen L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Choi, Jaclyn L C",
+        "short_name": "Choi JLC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Lee, Ha Neul",
+        "short_name": "Lee HN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Strack, Stefan",
+        "short_name": "Strack S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of Iowa, Iowa City, IA 52242, USA."
+        ]
+      },
+      {
+        "full_name": "Wang, Dong",
+        "short_name": "Wang D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA; Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Taylor, Susan S",
+        "short_name": "Taylor SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA; Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Mehta, Sohum",
+        "short_name": "Mehta S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Zhang, Jin",
+        "short_name": "Zhang J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California, San Diego, La Jolla, CA 92093, USA; Shu Chien-Gene Lay Department of Bioengineering, University of California, San Diego, La Jolla, CA 92093, USA; Department of Chemistry and Biochemistry, University of California, San Diego, La Jolla, CA 92093, USA; Moores Cancer Center, University of California, San Diego, La Jolla, CA 92093, USA. Electronic address: jzhang32@health.ucsd.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Molecular cell"
+    ],
+    "journal_abbrev": [
+      "Mol Cell"
+    ],
+    "pub_date": "2024 Apr 18",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/28 00:44",
+    "fetched_at": "2026-09-21 06:10:59"
+  },
+  "links": {
+    "cites": [
+      "42589445",
+      "42460659",
+      "42220425",
+      "42180533",
+      "41542774",
+      "41411368",
+      "41388753",
+      "41372122",
+      "41363845",
+      "40849432",
+      "40791518",
+      "40705714",
+      "40609788",
+      "40601812",
+      "40512625",
+      "40475404",
+      "39986267",
+      "39362469",
+      "39326869",
+      "38517938"
+    ],
+    "refs": [
+      "35149762",
+      "34931046",
+      "34663687",
+      "34619090",
+      "34373114",
+      "34048569",
+      "34020947",
+      "34006641",
+      "33785595",
+      "33649598",
+      "33257668",
+      "33201801",
+      "33082006",
+      "32846158",
+      "32846156",
+      "32029630",
+      "32004090",
+      "31634364",
+      "31363049",
+      "31063128",
+      "30905674",
+      "29961577",
+      "29669941",
+      "29615473",
+      "29067766",
+      "28893983",
+      "28642438",
+      "28583991",
+      "28466587",
+      "28288122",
+      "28225081",
+      "28076807",
+      "27825928",
+      "27693258",
+      "27552079",
+      "27028580",
+      "26483685",
+      "26431673",
+      "25961504",
+      "25945066",
+      "25875503",
+      "25741943",
+      "24722252",
+      "24578576",
+      "24316401",
+      "24212646",
+      "23901099",
+      "23535202",
+      "23299847",
+      "23115245",
+      "22992589",
+      "22583753",
+      "21502359",
+      "21300294",
+      "20838685",
+      "20512974",
+      "20383002",
+      "20159461",
+      "18404204",
+      "18076763",
+      "17889648",
+      "17884635",
+      "17614255",
+      "16755626",
+      "16754666",
+      "16524697",
+      "15573134",
+      "15274925",
+      "15157095",
+      "15134437",
+      "12842910",
+      "11929880",
+      "11206066",
+      "10395071",
+      "7638597",
+      "6309796",
+      "4298072",
+      "2656713",
+      "2619996",
+      "2174038",
+      "1862342",
+      "1832337",
+      "218936"
+    ],
+    "similar": [
+      "38537638",
+      "38168176",
+      "32846158",
+      "40705714",
+      "25229150",
+      "40512625",
+      "32722762",
+      "26618408",
+      "24122441",
+      "31674811",
+      "27825928",
+      "29378851",
+      "39355927",
+      "15157095",
+      "15240549",
+      "11198926",
+      "28636912",
+      "31363049",
+      "25192685",
+      "20026299",
+      "40241376",
+      "20923972",
+      "25202018",
+      "15236976",
+      "16394142",
+      "8627334",
+      "20589829",
+      "17596845",
+      "30530493",
+      "15692043",
+      "40789540",
+      "28583991",
+      "14967031",
+      "38910447",
+      "33370777",
+      "20048145",
+      "16816331",
+      "10999726",
+      "25477193",
+      "41388753",
+      "27791125",
+      "38325743",
+      "34946890",
+      "20819953",
+      "19837668",
+      "9760254",
+      "17884635",
+      "24316401",
+      "9380760",
+      "23946424",
+      "37808519",
+      "16109722",
+      "20167947",
+      "12812976",
+      "34118011",
+      "16214430",
+      "34006641",
+      "26992826",
+      "17658893",
+      "9048592",
+      "25213315",
+      "12634056",
+      "9541468",
+      "28661131",
+      "11296260",
+      "19056362",
+      "19653278",
+      "10764601",
+      "20512974",
+      "40717469",
+      "12631623",
+      "11923596",
+      "26405036",
+      "23485729",
+      "15046986",
+      "17081990",
+      "18056771",
+      "12004056",
+      "35977512",
+      "10454535",
+      "11839683",
+      "9857038",
+      "12741833",
+      "10567247",
+      "26417071",
+      "16204369",
+      "21502359",
+      "17610895",
+      "18326045",
+      "34330820",
+      "9408263",
+      "17889648",
+      "11753685",
+      "17942118",
+      "26797121",
+      "40609788",
+      "19411621",
+      "15883165",
+      "41108566",
+      "30258407"
+    ],
+    "review": [
+      "38537638",
+      "16394142",
+      "16214430",
+      "40717469",
+      "23485729",
+      "34330820"
+    ],
+    "pmc": [
+      "11031308"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S1097-2765(24)00184-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38537638/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/38537638",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

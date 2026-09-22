@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.16.628790",
+  "title": "Capturing the Conformational Heterogeneity of HSPB1 Chaperone Oligomers at Atomic Resolution",
+  "authors": "Berkeley RF; Plonski AP; Phan T; Grohe K; Becker L; Wegner S; Herzik MA; Mittal J; Debelouchina GT",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-20",
+  "window": {
+    "start": "2024-12-16",
+    "end": "2024-12-22"
+  },
+  "score": 8,
+  "one_liner_zh": "该文结合MAS NMR与MD模拟，在原子分辨率下解析HSPB1寡聚体构象异质性及其与无序客户蛋白在凝聚体中的互作机制，对象、互作与方法三轴齐备且聚焦机制建模。",
+  "abstract": "Small heat shock proteins (sHSPs), including HSPB1, are essential regulators of cellular proteostasis that interact with unfolded and partially folded proteins to prevent aberrant misfolding and aggregation. These proteins fulfill a similar role in biological condensates, where they interact with intrinsically disordered proteins to modulate their liquid-liquid and liquid-to-solid phase transitions. Characterizing sHSP structure, dynamics, and client interactions is challenging due to their partially disordered nature, their tendency to form polydisperse oligomers, and their diverse range of clients. In this work, we leverage various biophysical methods, including fast 1 H-based magic angle spinning (MAS) NMR spectroscopy, molecular dynamics (MD) simulations and modeling, to shed new light on the structure and dynamics of HSPB1 oligomers. Using split-intein mediated segmental labeling, we provide unambiguous evidence that in the oligomer context the N-terminal domain (NTD) of HSPB1 is rigid and adopts an ensemble of heterogenous conformations, the α-crystallin domain (ACD) forms dimers and experiences multiple distinct local environments, while the C-terminal domain (CTD) remains highly dynamic. Our computational models suggest that the NTDs participate in extensive NTD-NTD and NTD-ACD interactions and are sequestered within the oligomer interior. We further demonstrate that HSPB1 higher order oligomers disassemble into smaller oligomeric species in the presence of a client protein and that an accessible NTD is essential for HSPB1 partitioning into condensates and interactions with client proteins. Our integrated approach provides a high-resolution view of the complex oligomeric landscape of HSPB1 and sheds light on the elusive network of interactions that underly HSPB1 function in biological condensates. <h4>Significance statement</h4> HSPB1 is a ubiquitous cellular chaperone that helps prevent the aberrant aggregation of intrinsically disordered proteins involved in biological condensates and neurodegenerative diseases. Despite its central role in this process, many aspects of HSPB1’s structure and interactions with clients are not well understood due to its tendency to form polydisperse oligomeric structures and to function in heterogeneous condensate environments. Here, we present an integrated approach that includes segmental labeling, fast MAS NMR spectroscopy, and computational tools to characterize the structure and dynamics of HSPB1 in its oligomeric form and within client condensates at high resolution. Our approach, which is applicable to other complex biological systems, highlights the important role of HSPB1’s N-terminal domain in oligomeric assembly and interactions with clients.",
+  "abstract_zh": "小热休克蛋白（sHSPs），包括HSPB1，是细胞蛋白质稳态的关键调节因子，它们与未折叠和部分折叠的蛋白质相互作用，以防止异常错误折叠和聚集。这些蛋白质在生物凝聚体中发挥类似作用，与固有无序蛋白质相互作用，调节其液-液相分离和液-固相转变。由于sHSPs的部分无序特性、形成多分散寡聚体的倾向以及其多样化的客户蛋白范围，表征其结构、动力学和客户蛋白相互作用具有挑战性。在本工作中，我们利用多种生物物理方法，包括基于快速1H的魔角旋转（MAS）核磁共振波谱、分子动力学（MD）模拟和建模，为HSPB1寡聚体的结构和动力学提供新的见解。通过使用分裂内含肽介导的片段标记，我们提供了明确证据表明，在寡聚体背景下，HSPB1的N端结构域（NTD）是刚性的，并采用异质性构象集合，α-晶状体蛋白结构域（ACD）形成二聚体并经历多种不同的局部环境，而C端结构域（CTD）保持高度动态。我们的计算模型表明，NTDs参与广泛的NTD-NTD和NTD-ACD相互作用，并被隔离在寡聚体内部。我们进一步证明，在客户蛋白存在下，HSPB1高阶寡聚体解聚为较小的寡聚体物种，且可及的NTD对于HSPB1分选进入凝聚体以及与客户蛋白的相互作用至关重要。我们的综合方法提供了HSPB1复杂寡聚体景观的高分辨率视图，并揭示了支撑HSPB1在生物凝聚体中功能的难以捉摸的相互作用网络。\n\n<h4>意义声明</h4> HSPB1是一种普遍存在的细胞伴侣蛋白，有助于防止参与生物凝聚体和神经退行性疾病的固有无序蛋白质的异常聚集。尽管其在此过程中发挥核心作用，但由于HSPB1倾向于形成多分散寡聚体结构并在异质性凝聚体环境中发挥作用，其结构的许多方面以及与客户蛋白的相互作用尚未被充分理解。在此，我们提出了一种综合方法，包括片段标记、快速MAS核磁共振波谱和计算工具，以高分辨率表征HSPB1在其寡聚体形式及客户蛋白凝聚体中的结构和动力学。我们的方法适用于其他复杂生物系统，强调了HSPB1的N端结构域在寡聚体组装和与客户蛋白相互作用中的重要作用。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.16.628790",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.16.628790",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.16.628790/index.html"
+}

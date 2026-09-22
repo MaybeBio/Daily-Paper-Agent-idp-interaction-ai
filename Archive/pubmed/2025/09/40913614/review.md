@@ -1,0 +1,111 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, methods, results, discussion, and conclusions. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and conclusions as presented in the manuscript. Assessment is limited to the provided text; figures and supplementary data are referenced but not directly examined.
+- **Shared manuscript claim summary** The authors report that SAMHD1, a dNTPase with established nucleic-acid-related functions, undergoes liquid-liquid phase separation (LLPS) in the presence of single-stranded DNA or RNA under macromolecular crowding conditions (9% PEG 2000). They demonstrate that condensates are liquid-like, require the SAM and C-terminal domains, are disrupted by A1-site ligands (GTP, dGTP, small-molecule inhibitors), and can form in cellulo upon microinjection into human cells. The authors propose that phase separation may regulate SAMHD1's cellular functions.
+- **Visible evidence base** Methods sections for protein expression, purification, labeling, fluorescence microscopy, light scattering, and activity assays. Results sections describing phase separation behavior, nucleic acid length dependence, concentration dependence, disruption by nucleotides, domain requirements, and cell studies. Figures S1-S8 and Table S1 are referenced but not provided.
+- **Missing materials affecting confidence** All figures (main and supplementary), supplementary methods, and the supporting information PDF. Without these, quantitative data, representative images, and statistical analyses cannot be independently verified. The microinjection data (Figure 8) and domain deletion data (Figure 9) are described qualitatively in text but cannot be assessed without the actual images and quantification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a novel observation that SAMHD1 can undergo liquid-liquid phase separation in the presence of single-stranded nucleic acids, with supporting evidence for liquid-like properties, domain requirements, and disruption by A1-site ligands. The work is potentially of interest to the nucleic acid metabolism and phase separation communities. However, the evidence base is incomplete as provided, and several claims require additional quantitative support and controls to be fully established. The mechanistic model proposed is plausible but speculative in parts, and the cellular relevance claim rests on a single microinjection experiment with acknowledged limitations.
+- **Who would be interested in the results, and why** Researchers studying SAMHD1 biology, including its roles in viral restriction, DNA repair, R-loop resolution, and nucleotide metabolism. The broader phase separation community interested in nucleic-acid-driven condensate formation and its regulation by small molecules. Investigators studying the intersection of nucleotide metabolism and biomolecular condensates may find the A1-site-mediated disassembly mechanism particularly relevant.
+- **Major strengths** The study addresses a previously unreported property of SAMHD1, namely its ability to undergo LLPS, which could have significant implications for understanding its multifunctional roles. The use of multiple complementary approaches (fluorescence microscopy, light scattering, domain deletions, phosphorylation mimic, small-molecule inhibitors) strengthens the conclusions. The observation that A1-site ligands disrupt condensates provides a potential regulatory mechanism linking nucleotide binding to phase behavior. The inclusion of cell-based microinjection experiments, despite limitations, attempts to bridge in vitro and cellular contexts.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The authors claim that SAMHD1 forms liquid-like condensates with ssDNA and ssRNA, characterized by fusion behavior, and that these condensates are disrupted by A1-site ligands.
+  - **Evidence pointer** Figures 2, 3, 5, 6, S2-S4, S8; location not provided for specific data points
+  - **Concern** The manuscript text describes results but the actual figures, which contain the primary data (microscopy images, quantification, light scattering traces), are not provided in the submitted material. Without access to these figures, the claims of liquid-like behavior, fusion, droplet size distributions, and disruption kinetics cannot be independently evaluated. The text alone is insufficient to assess the quality of the data, the rigor of the quantification, or the appropriateness of the statistical analyses.
+  - **Why it matters** The central claims of the paper rest entirely on the visual and quantitative data presented in the figures. The inability to examine these data prevents verification of the reported phenomena, the magnitude of the effects, and the robustness of the conclusions. This is a fundamental limitation that precludes a full scientific assessment.
+  - **Resolution test** Provide the complete set of figures with appropriate annotations, scale bars, and quantification. Include statistical analyses (e.g., error bars, number of replicates, significance tests) for all quantitative claims. Representative images should be shown for all conditions described.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Concentration dependence and stoichiometry
+  - **Claim pointer** The authors state that droplet formation depends on the molar ratio of DNA to protein and that excess DNA inhibits droplet formation, particularly for the 90-mer.
+  - **Evidence pointer** Figure 3, Figure 4; location not provided
+  - **Concern** The text describes concentration-dependent experiments but does not provide the actual titration data, the range of concentrations tested, or the quantitative relationship between DNA/protein ratio and droplet formation. The claim that excess DNA inhibits droplet formation is presented as a qualitative observation without supporting quantitative analysis. The interpretation that this reflects reduced protein density on longer DNA strands is plausible but not rigorously tested.
+  - **Why it matters** Understanding the stoichiometry and concentration dependence is critical for establishing the mechanism of phase separation and for distinguishing between specific nucleic-acid-mediated assembly versus nonspecific crowding effects. Without quantitative titration data, the model proposed in Figure 4E remains speculative.
+  - **Resolution test** Provide full titration curves showing droplet number, size, and total area as a function of DNA and protein concentrations. Include a phase diagram or equivalent quantitative representation. Statistical analysis should be provided to support claims of inhibition at high DNA concentrations.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Domain requirement evidence
+  - **Claim pointer** The authors claim that the SAM and C-terminal domains are required for liquid-like condensate formation, based on deletion mutant studies.
+  - **Evidence pointer** Figure 9; location not provided
+  - **Concern** The text states that Δ112 and Δ583-626 deletion mutants form smaller, solid-like condensates, but the actual images and characterization of these condensates are not provided. The distinction between "liquid-like" and "solid-like" is made without presenting the evidence (e.g., FRAP, fusion assays, or morphological criteria) used to make this determination. The statement that the SAM domain itself shows no phase separation is also not supported by visible data.
+  - **Why it matters** The domain requirement is a key mechanistic claim that links specific protein regions to phase separation behavior. If the evidence for altered condensate properties is not robust, the conclusion that SAM and CT domains are critical for LLPS is weakened.
+  - **Resolution test** Provide representative images of condensates formed by each mutant, with quantification of size, morphology, and any assays used to assess material properties (e.g., FRAP, fusion). Include appropriate controls to demonstrate that the mutants are properly folded and retain nucleic acid binding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Cellular relevance
+  - **Claim pointer** The authors state that microinjection of SAMHD1 and ssDNA into human cells results in costained nuclear puncta, supporting biological relevance.
+  - **Evidence pointer** Figure 8; location not provided
+  - **Concern** The microinjection experiments are described qualitatively, with the observation of costained puncta in approximately 50% of nuclei. However, the text acknowledges that puncta observed for DNA and SAMHD1 alone are difficult to interpret. The concentration of injected components, the time course of observation, and the specificity of the puncta (e.g., whether they represent true phase-separated condensates or aggregates) are not described in sufficient detail.
+  - **Why it matters** The claim of cellular relevance is important for the broader significance of the work. If the in cellulo evidence is weak or ambiguous, the physiological implications of the in vitro findings remain speculative.
+  - **Resolution test** Provide detailed methods for microinjection, including concentrations, injection volumes, and time points. Include quantitative analysis of puncta frequency, size, and colocalization. Address the nature of the puncta observed with individual components and provide evidence that the costained puncta represent liquid condensates rather than aggregates.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic interpretation
+  - **Claim pointer** The authors propose that A1-site ligands (GTP, dGTP, small-molecule inhibitors) disrupt condensates by binding to the A1 site and disassembling the nucleic-acid-bound oligomers.
+  - **Evidence pointer** Figure 5, Figure 6; location not provided
+  - **Concern** The disruption experiments show that nucleotides and inhibitors reduce droplet size and number, but the mechanism of disruption is not directly tested. The authors infer that A1-site occupancy causes disassembly, but alternative explanations (e.g., competitive displacement of nucleic acids, changes in ionic strength, or nonspecific effects of nucleotide addition) are not excluded. The observation that dATP also disrupts RNA-containing condensates, despite not being an A1-site ligand, is noted but not mechanistically resolved.
+  - **Why it matters** The proposed regulatory mechanism linking nucleotide binding to phase separation is a central claim of the paper. If the mechanism is not rigorously established, the broader implications for cellular regulation are weakened.
+  - **Resolution test** Perform experiments to directly test the mechanism, such as using A1-site mutants that cannot bind GTP, measuring nucleotide binding affinity in condensates, or using competition assays with non-hydrolyzable nucleotide analogs. Address the dATP effect on RNA condensates explicitly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Methods section, "Isolation of Total Cellular RNA from Hap1 Cells"
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The description of RNA isolation is brief and lacks details on RNA quality assessment, size distribution, and whether the RNA was used as a mixture or fractionated.
+  - **Required correction** Provide additional details on RNA isolation, including quality control measures (e.g., Bioanalyzer traces, OD260/280 ratios) and whether total RNA or a specific size fraction was used in phase separation experiments.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Results section, "NA Length Dependence of PS Condensates"
+  - **Evidence pointer** Figure 3; location not provided
+  - **Issue** The text states that the 10-mer ssDNA does not form condensates, but the threshold for "no condensates" is not defined. It is unclear whether this means zero droplets or below a detection limit.
+  - **Required correction** Define the detection limit for droplet formation and provide quantitative data for the 10-mer condition to support the claim of no condensate formation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section, "SAMHD1 PS Condensates Are Disrupted by Guanine Nucleotide Triphosphates"
+  - **Evidence pointer** Figure 5; location not provided
+  - **Issue** The text mentions small-molecule inhibitors 5a and 8 but does not describe their structures, selectivity, or binding affinities in this manuscript. The reader is referred to prior work, but this information is necessary to evaluate the specificity of the disruption effect.
+  - **Required correction** Provide a brief description of the inhibitors, including their chemical structures (or reference to structures in supplementary material) and their reported binding affinities for the A1 site.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Results section, "SAMHD1 and ssDNA Concentration Dependences of Droplet Formation"
+  - **Evidence pointer** Figure 4; location not provided
+  - **Issue** The text describes experiments with fixed ssDNA and varying SAMHD1, and fixed SAMHD1 and varying ssDNA, but the concentration ranges and the rationale for choosing these ranges are not stated.
+  - **Required correction** State the concentration ranges used in each experiment and provide a rationale for the chosen ranges based on previous binding affinity measurements.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Conclusions section
+  - **Evidence pointer** Conclusions; location not provided
+  - **Issue** The statement "the goal of studying phase separation of SAMHD1 in cellulo using in cellulo expressed SAMHD1 fusion proteins is contraindicated by our in vitro findings" is strong and may overstate the implications of the in vitro labeling artifacts for all possible fusion protein strategies.
+  - **Required correction** Soften this statement to acknowledge that the specific labeling approaches tested were problematic, but that other strategies (e.g., different fusion tags, internal labeling sites) may still be viable.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods section, "Reversible Exchange Kinetics of ssDNA between Bulk Solution and Droplets"
+  - **Evidence pointer** Methods section; location not provided
+  - **Issue** The method describes adding unlabeled DNA to labeled droplets and monitoring fluorescence loss, but the concentration of unlabeled DNA used for the exchange experiment is not stated.
+  - **Required correction** Provide the concentration of unlabeled DNA used in the exchange experiments and state whether this concentration was chosen to match the labeled DNA concentration or to achieve a specific molar ratio.
+- **Technical failings that need to be addressed before the case is established** The absence of all primary figure data prevents verification of the central claims. The distinction between liquid-like and solid-like condensates for the deletion mutants requires direct evidence (e.g., FRAP, fusion assays). The mechanism of nucleotide-mediated disruption is inferred but not directly tested. The cellular relevance claim rests on a single experiment with acknowledged interpretational difficulties. The dATP effect on RNA condensates is not mechanistically resolved.
+- **Assessment against Nature-style criteria** Originality: The observation that SAMHD1 undergoes nucleic-acid-dependent LLPS is novel and not previously reported. Scientific importance: The work has potential significance for understanding SAMHD1's multifunctional roles, but the broader impact depends on establishing cellular relevance, which is currently weak. Interdisciplinary readership: The topic bridges nucleic acid metabolism, enzymology, and phase separation biology, which could attract readers from multiple fields. Technical soundness: The experimental approaches are appropriate in principle, but the inability to examine the primary data and the lack of mechanistic depth in key areas (e.g., domain requirements, nucleotide disruption) limit the current assessment. Readability for nonspecialists: The manuscript is generally well-written and accessible, with clear explanations of the significance of the findings, though some sections assume familiarity with phase separation concepts.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation is novel and potentially significant, but the manuscript in its current form does not fully establish the mechanistic claims or the cellular relevance. The authors should provide the complete dataset, strengthen the mechanistic analysis, and address the ambiguities in the cellular experiments before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that SAMHD1 forms liquid-like condensates with liquid properties (fusion, rapid exchange) cannot be verified without the primary imaging and FRAP data.
+- The claim that the SAM and C-terminal domains are required for liquid-like condensate formation is not supported by visible data for the deletion mutants.
+- The claim that A1-site ligands disrupt condensates by a specific mechanism (occupancy of A1 site leading to disassembly) is inferred but not directly tested.
+- The claim of cellular relevance based on microinjection experiments is weakened by the acknowledged ambiguity of the control experiments and the lack of detailed quantitative data.
+- The statement that "NAs greatly facilitate the phase separation of SAMHD1 under modest crowding conditions" is presented as a general conclusion but is based on a limited set of conditions (9% PEG 2000) that may not be representative of cellular crowding.
+- The speculation regarding the role of phase separation in regulating SAMHD1's cellular functions, including the potential for differential regulation of DNA and RNA condensates, is not supported by direct experimental evidence.

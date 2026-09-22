@@ -1,0 +1,24 @@
+{
+  "source": "arxiv",
+  "id": "2312.01817v2",
+  "title": "A simulation method for the wetting dynamics of liquid droplets on deformable membranes",
+  "authors": "Marcel Mokbel; Dominic Mokbel; Susanne Liese; Christoph A. Weber; Sebastian Aland",
+  "journal": "",
+  "published_date": "2023-12-04",
+  "window": {
+    "start": "2023-12-04",
+    "end": "2023-12-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出一种模拟液滴在可变形膜上润湿动力学的连续介质数值方法，虽以生物分子凝聚体与膜互作为背景，但对象为液滴-膜而非无序蛋白介导的PPI，方法上属物理模拟且具机制建模潜力，可迁移启发有限。",
+  "abstract": "Biological cells utilize membranes and liquid-like droplets, known as biomolecular condensates, to structure their interior. The interaction of droplets and membranes, despite being involved in several key biological processes, is so far little understood. Here, we present a first numerical method to simulate the continuum dynamics of droplets interacting with deformable membranes via wetting. The method combines the advantages of the phase-field method for multi-phase flow simulation and the arbitrary Lagrangian-Eulerian (ALE) method for an explicit description of the elastic surface. The model is thermodynamically consistent, coupling bulk hydrodynamics with capillary forces, as well as bending, tension, and stretching of a thin membrane. The method is validated by comparing simulations for single droplets to theoretical results of shape equations, and its capabilities are illustrated in 2D and 3D axisymmetric scenarios.",
+  "abstract_zh": "生物细胞利用膜和液态样液滴（称为生物分子凝聚体）来构建其内部结构。尽管液滴与膜的相互作用涉及多个关键生物过程，但至今仍了解甚少。在此，我们提出了一种首个数值方法，用于模拟液滴通过润湿作用与可变形膜相互作用的连续介质动力学。该方法结合了相场法在多相流模拟中的优势，以及任意拉格朗日-欧拉（ALE）方法对弹性表面进行显式描述的特点。该模型在热力学上是一致的，将体相流体动力学与毛细力，以及薄膜的弯曲、张力和拉伸耦合起来。通过将单液滴模拟与形状方程的理论结果进行比较，验证了该方法的有效性，并在二维和三维轴对称场景中展示了其能力。",
+  "has_fulltext": true,
+  "fulltext_source": "ar5iv",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://arxiv.org/abs/2312.01817v2",
+  "source_url": "https://arxiv.org/abs/2312.01817v2",
+  "paper_page_path": "papers/arxiv/2312.01817v2/index.html"
+}

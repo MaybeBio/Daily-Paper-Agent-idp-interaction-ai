@@ -1,0 +1,100 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure/table references
+- **Assessment boundary** Scientific content, technical soundness, claims versus evidence, and suitability for a general multidisciplinary journal; no assessment of editorial fit or publication decision
+- **Shared manuscript claim summary** The authors report that mono-component tetrapeptides can form multiphasic condensates with a core-shell structure via liquid-liquid phase separation. They propose that strong homotypical π-π interactions, particularly involving tryptophan, drive core formation, while a liquid-like shell stabilizes the structure. They support this with experimental characterization and multiscale molecular dynamics simulations, and demonstrate dynamic control via redox chemistry.
+- **Visible evidence base** Main text figures 1–6, supplementary figures S1–S27, supplementary tables S1, supplementary movies 1–3, methods section
+- **Missing materials affecting confidence** Raw source data files not inspected; supplementary information content not fully provided; exact numerical values for some measurements (e.g., partition efficiencies, FRAP recovery rates) not available in the provided text; details of simulation convergence and error analysis not fully described
+
+## Reviewer
+- **Overall assessment** This manuscript presents a novel observation: mono-component tetrapeptides can form core-shell multiphasic condensates. The systematic peptide library approach, combined with spectroscopic characterization and multiscale simulations, provides a reasonable mechanistic framework. The work is potentially interesting to the biomolecular condensate and peptide self-assembly communities. However, several technical concerns need to be addressed, particularly regarding the structural characterization of the core, the quantitative interpretation of spectroscopic data, and the directness of the simulation evidence. The claim that this is the first report of mono-component short peptide multiphasic condensates is strong and requires careful verification of the literature search scope.
+- **Who would be interested in the results, and why** Researchers in biomolecular condensates and phase separation, peptide self-assembly, synthetic biology, and soft matter physics would find this work relevant. The demonstration that short peptides can form multiphasic structures expands the design space for synthetic condensates and may inform understanding of minimal requirements for sub-compartmentalization. The redox-controlled transformation between homogeneous and core-shell structures could be of interest for dynamic biomaterials applications.
+- **Major strengths** 1) The systematic peptide library design allows structure-property relationships to be established. 2) The combination of multiple experimental techniques (FTIR, Raman, CLSM, FRAP, FLIM, Cryo-FIB-SEM, Cryo-EM) with simulations is commendable. 3) The identification of tryptophan's role via homotypical π-π interactions is mechanistically plausible and well-supported by mutagenesis experiments. 4) The dynamic control via redox chemistry adds functional relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural characterization
+  - **Claim pointer** The authors claim that the inner core of multiphasic tetrapeptide condensates is "solid-like, consisting of ordered structures" based on Cryo-FIB-SEM and Cryo-EM.
+  - **Evidence pointer** Figure 4h, Figures S15–S17, Figure S20
+  - **Concern** The evidence for a solid-like, ordered core is not fully convincing. The Cryo-FIB-SEM images show differential sputtering rates between core and shell, which is indirect evidence for differences in material properties. The Cryo-EM images (Figure S20) are referenced but not shown in the provided text, and no diffraction patterns or high-resolution images demonstrating ordered molecular packing are presented. The claim of "ordered structures" requires more direct evidence, such as high-resolution Cryo-EM with Fourier transform analysis or X-ray/electron diffraction.
+  - **Why it matters** The solid-like, ordered nature of the core is central to the proposed mechanism and distinguishes this system from previously reported multiphasic condensates. If the core is merely a denser liquid or a gel with no long-range order, the mechanistic interpretation and the novelty claim would need to be revised.
+  - **Resolution test** Provide high-resolution Cryo-EM images of the core region with corresponding Fourier transforms or diffraction patterns showing periodic order. Alternatively, perform nanobeam electron diffraction on cryo-FIB-milled sections. If ordered structures cannot be demonstrated, revise the claim to "dense, less mobile phase" and discuss the implications.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Quantitative interpretation of spectroscopic data
+  - **Claim pointer** The authors state that FTIR and Raman spectroscopy reveal "increased association of the backbones and side chains" and that "hydrophobic interaction, π-π stacking, and hydrogen bonds drive the phase separation."
+  - **Evidence pointer** Figure 3a–d, Figure S8
+  - **Concern** The spectroscopic data are presented qualitatively. For FTIR, the shift of the amide I band from 1656 to 1645 cm⁻¹ is interpreted as increased backbone association, but no quantitative analysis (e.g., curve fitting, secondary structure assignment) is provided. For Raman, the intensity ratio I(1360)/I(1340) is used as a hydrophobicity marker, but the statistical significance of the changes and the correlation with condensate formation are not rigorously established. The claim that π-π stacking is a primary driving force would be strengthened by direct spectroscopic evidence, such as UV resonance Raman or solid-state NMR.
+  - **Why it matters** The mechanistic model relies on identifying specific non-covalent interactions. Without quantitative spectroscopic analysis, the relative contributions of hydrophobic, π-π, and hydrogen-bonding interactions remain speculative.
+  - **Resolution test** Provide quantitative curve fitting of FTIR amide I region with assignment of components. For Raman, report mean and standard deviation of I(1360)/I(1340) for solution versus condensate states across multiple independent measurements, with statistical testing. Consider additional experiments (e.g., concentration-dependent NMR chemical shifts, isotope-edited FTIR) to directly probe π-π stacking.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Simulation evidence and interpretation
+  - **Claim pointer** The authors use multiscale MD simulations to support the stability of the core-shell structure and the role of homotypical π-π interactions.
+  - **Evidence pointer** Figure 5c–j, Figures S21–S24
+  - **Concern** The simulation methodology has several limitations that are not fully addressed. First, the initial core structure is adapted from a fiber (PDB ID: 6X5I) formed by different peptides, and the relevance of this template to the tetrapeptides studied is unclear. Second, the simulations probe stability of a pre-formed core-shell configuration rather than spontaneous formation, which limits the conclusions about the driving forces. Third, the density profiles are presented for specific time windows, but convergence and error analysis are not described. Fourth, the comparison between acidic and basic conditions is used to infer the role of protonation, but the relationship between protonation state and π-π interaction strength is not directly simulated.
+  - **Why it matters** The simulations are used to support the mechanistic claim that strong homotypical π-π interactions determine core-shell formation. If the simulations are not adequately validated or if alternative interpretations are possible, this support is weakened.
+  - **Resolution test** Provide convergence analysis for density profiles (e.g., block averaging, multiple independent runs). Justify the choice of the 6X5I fiber template and discuss its relevance. Consider additional simulations that directly compare interaction energies between tryptophan-tryptophan pairs versus tyrosine-tyrosine pairs in the condensed phase. If spontaneous formation cannot be simulated, clearly state this limitation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Novelty claim
+  - **Claim pointer** The authors state that "multiphasic condensates derived from a single component of short peptides have not yet been reported."
+  - **Evidence pointer** Introduction, Discussion
+  - **Concern** The novelty claim is broad and difficult to verify from the provided text. The literature search scope is not described. There may be prior reports of multiphasic or core-shell structures formed by single-component short peptides or peptide derivatives, particularly in the context of peptide self-assembly into higher-order structures.
+  - **Why it matters** The novelty claim is a key selling point of the manuscript. If prior art exists, the significance of the work is diminished.
+  - **Resolution test** Provide a more comprehensive literature search, including keywords such as "core-shell," "multiphasic," "multilayered," "single-component peptide," "short peptide condensate," and "phase separation." Discuss any related prior work explicitly and clarify the distinction.
+  - **Concern ID** R1-M5
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability of the design principle
+  - **Claim pointer** The authors suggest that "the amino acid composition" can modulate condensate structure and that this provides "a general modular platform for constructing multiphasic condensates with a single component."
+  - **Evidence pointer** Figures 2, 5, 6
+  - **Concern** The demonstration of the design principle is limited to a small number of tetrapeptide sequences. While the authors show that tryptophan is important and that redox chemistry can trigger transformation, the generality of the platform is not established. It is unclear whether the core-shell structure can be achieved with other aromatic residues or with different peptide lengths, and whether the design rules extend beyond tetrapeptides.
+  - **Why it matters** The claim of a "general modular platform" implies broad applicability. If the design rules are specific to the sequences tested, the impact is more limited.
+  - **Resolution test** Test additional peptide sequences with varied aromatic residues, positions, and lengths. Demonstrate that the core-shell structure can be predictably engineered based on the proposed interaction hierarchy. If generality cannot be shown, temper the claim accordingly.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 2d
+  - **Evidence pointer** Figure 2d
+  - **Issue** The bright-field images in Figure 2d are described but the differences between peptide variants are not clearly visible in the provided text description. Scale bars are not mentioned.
+  - **Required correction** Add scale bars to all microscopy images and consider including higher-magnification insets to show the core-shell structure more clearly.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure 2e–g
+  - **Evidence pointer** Figure 2e–g
+  - **Issue** The pH-dependent turbidity data are presented as mean ± SD with n = 3, but the number of independent experiments and the statistical test used are not stated.
+  - **Required correction** Specify the number of independent biological/technical replicates and the statistical test used in the figure legend or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology consistency
+  - **Affected element** Abstract, Introduction, Results
+  - **Evidence pointer** Throughout
+  - **Issue** The terms "solid-like," "ordered structures," "gel-like," and "liquid-like" are used to describe the core and shell, but the operational definitions are not provided. The distinction between "solid-like" and "gel-like" is particularly unclear.
+  - **Required correction** Define the rheological or structural criteria used to classify the phases, or use more neutral terms such as "less mobile" and "more mobile" unless direct rheological measurements are provided.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methods detail
+  - **Affected element** Encapsulation efficiency
+  - **Evidence pointer** Methods, "Encapsulation efficiency of guests by condensates"
+  - **Issue** The calculation of encapsulation efficiency is described, but the choice of fluorophores and their concentrations relative to the peptide concentration are not justified. The potential for fluorophore-induced changes in phase behavior is not discussed.
+  - **Required correction** Provide a rationale for fluorophore selection and concentrations. Discuss whether the presence of fluorophores could alter the phase diagram or core-shell structure.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Simulation details
+  - **Affected element** MD simulation methods
+  - **Evidence pointer** Methods, "Multiscale molecular dynamics simulations"
+  - **Issue** The methods state that simulations were conducted in acidic and basic environments, but the specific protonation states of all ionizable groups are not fully described. The salt concentration and ionic strength are not specified.
+  - **Required correction** Provide complete details of protonation states, salt concentration, and ionic strength for all simulations. Justify the choice of conditions relative to the experimental setup.
+
+## Risk / unsupported claims
+- The claim that the inner core consists of "ordered structures" is not directly supported by the evidence presented; Cryo-EM images are referenced but not shown, and no diffraction analysis is provided.
+- The claim that "strong homotypical π-π interaction is the primary driving force" for core-shell formation is inferred from mutagenesis and simulation but lacks direct quantitative spectroscopic or thermodynamic evidence.
+- The claim that this is the first report of mono-component short peptide multiphasic condensates is difficult to verify without a described literature search strategy.
+- The "general modular platform" claim is not supported by sufficient sequence diversity to establish generality.
+- The simulation results are used to support mechanistic conclusions, but the limitations of the simulation approach (pre-formed core, template from different peptide, no convergence analysis) are not adequately acknowledged.

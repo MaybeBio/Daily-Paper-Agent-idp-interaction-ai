@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.09.14.613007",
+  "title": "A redox switch in p21–CDK feedback during G2 phase controls the proliferation-cell cycle exit decision",
+  "authors": "Vorhauser J; Roumeliotis TI; Coupe D; Leung JK; Yu L; Böhlig K; Zerjatke T; Glauche I; Nadler A; Choudhary JS; Mansfeld J",
+  "journal": "bioRxiv",
+  "published_date": "2024-09-16",
+  "window": {
+    "start": "2024-09-16",
+    "end": "2024-09-22"
+  },
+  "score": 4,
+  "one_liner_zh": "该文研究p21氧化还原修饰调控其与CDK互作及细胞周期命运，虽涉及PPI机制但对象非无序蛋白，且方法为实验蛋白质组学，无AI/物理模拟建模，与本课题关联较弱。",
+  "abstract": "<h4>SUMMARY</h4> Reactive oxygen species (ROS) influence cell proliferation and fate decisions by oxidizing cysteine residues (S-sulfenylation) of proteins, but specific targets and underlying regulatory mechanisms remain poorly defined. Here, we employ redox proteomics to identify cell cycle-coordinated S-sulfenylation events and investigate their functional role in proliferation control. Although ROS levels rise during cell cycle progression, overall oxidation of the proteome remains constant with dynamic S-sulfenylation restricted to a subset of cysteines. Among these, we identify a critical redox-sensitive cysteine residue (C41) in the cyclin-dependent kinase (CDK) inhibitor p21. C41 oxidation regulates the interaction of p21 with CDK2 and CDK4, controlling a double-negative feedback loop that determines p21 stability. When C41 remains reduced, p21’s half-life increases in G2 phase resulting in more p21 inheritance to daughter cells suppressing proliferation and promoting senescence after irradiation. Notably, we identify dynamic S-sulfenylation on further cell cycle regulators implying coordination of cell cycle and redox control.",
+  "abstract_zh": "<h4>摘要</h4> 活性氧（ROS）通过氧化蛋白质的半胱氨酸残基（S-亚磺酰化）影响细胞增殖和命运决定，但具体靶标及潜在调控机制仍不明确。在此，我们利用氧化还原蛋白质组学鉴定细胞周期协调的S-亚磺酰化事件，并研究其在增殖控制中的功能作用。尽管ROS水平在细胞周期进程中上升，但蛋白质组的整体氧化程度保持恒定，动态S-亚磺酰化仅限于半胱氨酸的一个子集。其中，我们识别出细胞周期蛋白依赖性激酶（CDK）抑制剂p21中一个关键的氧化还原敏感半胱氨酸残基（C41）。C41氧化调控p21与CDK2和CDK4的相互作用，控制一个决定p21稳定性的双负反馈环路。当C41保持还原状态时，p21在G2期的半衰期延长，导致更多p21遗传给子细胞，从而抑制增殖并促进照射后的衰老。值得注意的是，我们还在其他细胞周期调控因子中鉴定出动态S-亚磺酰化，暗示细胞周期与氧化还原控制的协调性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.09.14.613007",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.09.14.613007",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.09.14.613007/index.html"
+}

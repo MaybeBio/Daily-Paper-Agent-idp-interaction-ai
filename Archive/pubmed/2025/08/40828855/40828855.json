@@ -1,0 +1,299 @@
+{
+  "identity": {
+    "pmid": "40828855",
+    "doi": "10.1371/journal.pcbi.1013400",
+    "title": "Assessing variant effect predictors and disease mechanisms in intrinsically disordered proteins."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) are central to diverse cellular processes but present unique challenges for interpreting genetic variants implicated in human disease. Unlike structured protein domains, IDRs lack stable three-dimensional conformations and are often involved in regulation through transient interactions and post-translational modifications. These features can affect both the distribution of pathogenic variants and the performance of computational tools used to predict their effects. Here, we systematically assessed the distribution of pathogenic vs benign missense variants across disordered, intermediate, and structured protein regions in the human proteome. Pathogenic variants were notably depleted in IDRs yet were associated with distinct molecular mechanisms, particularly dominant gain- and loss-of-function effects. We evaluated 33 variant effect predictors (VEPs), revealing widespread reductions in sensitivity for pathogenic variants in IDRs, despite high AUROC scores driven by accurate benign variant predictions. We also observed substantial discordance among VEP classifications in disordered regions, underscoring the need for region-aware thresholds and disorder-informed prediction strategies. Incorporating features reflective of IDR biology, such as transient interaction motifs and modification sites, may enhance the accuracy and interpretability of future tools.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/genetics/chemistry/metabolism",
+      "Humans",
+      "Computational Biology/methods",
+      "Proteome/genetics",
+      "Genetic Variation/genetics",
+      "Protein Conformation",
+      "Genetic Predisposition to Disease/genetics",
+      "Mutation, Missense"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fawzy, Mohamed",
+        "Marsh, Joseph A"
+      ],
+      "short_names": [
+        "Fawzy M",
+        "Marsh JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-4132-0628"
+      ],
+      "affiliations": [
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom.",
+        "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fawzy, Mohamed",
+        "short_name": "Fawzy M",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Marsh, Joseph A",
+        "short_name": "Marsh JA",
+        "identifiers": [
+          "0000-0003-4132-0628"
+        ],
+        "affiliations": [
+          "MRC Human Genetics Unit, Institute of Genetics and Cancer, University of Edinburgh, Edinburgh, United Kingdom."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "PLoS computational biology"
+    ],
+    "journal_abbrev": [
+      "PLoS Comput Biol"
+    ],
+    "pub_date": "2025 Aug",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/19 18:29",
+    "fetched_at": "2026-09-21 22:45:27"
+  },
+  "links": {
+    "cites": [
+      "42538434",
+      "42430724",
+      "42057422",
+      "41883999",
+      "41751600",
+      "41394614",
+      "41278674",
+      "41114728",
+      "40998763",
+      "40462930"
+    ],
+    "refs": [
+      "40264194",
+      "40234898",
+      "40221640",
+      "39914051",
+      "39540428",
+      "39478110",
+      "39333476",
+      "39172982",
+      "38429437",
+      "38297118",
+      "37878721",
+      "37740110",
+      "37733863",
+      "37636282",
+      "37628652",
+      "37621223",
+      "37563329",
+      "37550700",
+      "36674958",
+      "36413997",
+      "36305763",
+      "36210722",
+      "35794153",
+      "35562983",
+      "35395171",
+      "34656334",
+      "34551312",
+      "34293799",
+      "34265844",
+      "33266184",
+      "32722039",
+      "32667917",
+      "32461654",
+      "32352516",
+      "31521229",
+      "31406981",
+      "30449618",
+      "27834926",
+      "26941008",
+      "25744437",
+      "25741868",
+      "25684150",
+      "25531225",
+      "24234437",
+      "23901099",
+      "23055912",
+      "22286216",
+      "19626706",
+      "18573080",
+      "16381945",
+      "15405679",
+      "12381310",
+      "12068308",
+      "11854316",
+      "11784292",
+      "11381529"
+    ],
+    "similar": [
+      "40828855",
+      "40221640",
+      "42538434",
+      "42150060",
+      "42507643",
+      "42057422",
+      "35275927",
+      "42475469",
+      "42585785",
+      "41378882",
+      "28934129",
+      "32722039",
+      "33866372",
+      "42503799",
+      "33909605",
+      "33248138",
+      "33719450",
+      "41033554",
+      "36674574",
+      "40944448",
+      "31207240",
+      "38297118",
+      "39093570",
+      "41337585",
+      "35094056",
+      "36908253",
+      "38941236",
+      "39333476",
+      "40530859",
+      "38701796",
+      "32553192",
+      "40462930",
+      "41534519",
+      "33806614",
+      "34825861",
+      "41232529",
+      "27062995",
+      "40133781",
+      "33243935",
+      "42275441",
+      "41512952",
+      "41751600",
+      "29550429",
+      "25391399",
+      "37634152",
+      "42306853",
+      "39914051",
+      "42598852",
+      "41080992",
+      "41276815",
+      "34418423",
+      "42681205",
+      "31441158",
+      "39478110",
+      "33567297",
+      "39446390",
+      "42635213",
+      "36959451",
+      "39987793",
+      "41343298",
+      "26790343",
+      "32696395",
+      "33799876",
+      "32503351",
+      "24727949",
+      "29791766",
+      "24930020",
+      "38220424",
+      "37657994",
+      "41883999",
+      "40650026",
+      "39009827",
+      "40100159",
+      "26307970",
+      "40867524",
+      "30096183",
+      "35883444",
+      "39576583",
+      "31521235",
+      "42295476",
+      "42647377",
+      "19660471",
+      "34390736",
+      "36291695",
+      "40645561",
+      "40138319",
+      "39933697",
+      "40844982",
+      "39614773",
+      "24668165",
+      "27787828",
+      "30878482",
+      "31425549",
+      "33191750",
+      "19594884",
+      "41053545",
+      "29042212",
+      "41174305",
+      "29626537",
+      "24587103"
+    ],
+    "review": [
+      "40828855",
+      "33248138",
+      "39093570",
+      "33243935",
+      "42306853",
+      "39914051",
+      "34418423",
+      "31441158",
+      "33567297",
+      "36959451",
+      "39987793",
+      "41343298",
+      "24930020",
+      "38220424",
+      "37657994",
+      "40650026",
+      "31521235",
+      "34390736"
+    ],
+    "pmc": [
+      "12377588"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1013400",
+        "provider": "Public Library of Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40828855/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

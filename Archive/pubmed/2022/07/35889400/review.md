@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and internal consistency of the provided manuscript only
+- **Shared manuscript claim summary** The manuscript speculates on how the chaperones RIC-3 and NACHO facilitate folding and assembly of α7 nicotinic acetylcholine receptors, integrating recent cryo-EM, NMR, and AlphaFold structural data with sequence analyses across species. It evaluates two existing models of RIC-3 action and proposes that the SAP motif may be a diagnostic feature of α7-like receptors.
+- **Visible evidence base** Full text including abstract, introduction, results and discussion sections, summary, and methods; figures referenced but not provided; no supplementary materials
+- **Missing materials affecting confidence** Figures 1–7 are cited but not included; no supplementary data, sequence alignments, or structural model files are available; no raw data or statistical analyses are presented
+
+## Reviewer
+- **Overall assessment** This is a thoughtful and well-written speculative review that integrates recent structural data with sequence analyses to address a genuinely important and unresolved question in membrane protein biology. The author is appropriately cautious in distinguishing established findings from speculation, and the focus on how intrinsically disordered chaperones with low sequence conservation can act across species is intellectually engaging. However, the manuscript has several technical weaknesses that need to be addressed before the case is fully established. The absence of figures makes it impossible to evaluate the central structural arguments. The sequence analysis is presented in a cursory manner without methodological detail, and the claim that the SAP motif may become a diagnostic feature for α7-like receptors is not adequately supported by the data shown. The evaluation of the two models is reasonable but would benefit from a more systematic and critical treatment. The manuscript is likely to be of interest to researchers in the nicotinic receptor and chaperone fields, and with revisions addressing the technical concerns, it could make a useful contribution.
+- **Who would be interested in the results, and why** Researchers studying nicotinic acetylcholine receptor biology, particularly those interested in receptor assembly, trafficking, and chaperone function. The manuscript would also be of interest to investigators working on membrane protein folding generally, and to those using AlphaFold predictions to generate hypotheses about protein-protein interactions. The discussion of RIC-3 and NACHO as model chaperones for multimeric transmembrane protein assembly could attract a broader readership in cell biology and protein science.
+- **Major strengths** The manuscript addresses a timely and important question with a clear focus. The author demonstrates command of the relevant literature and integrates recent structural data in a way that is accessible. The speculative nature of the review is handled honestly, with the author explicitly acknowledging uncertainty. The consideration of cross-species conservation and the identification of the SAP motif as a potentially important feature is a useful contribution. The discussion of the limitations of current models and the need for further experimental work is balanced and constructive.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The manuscript claims that AlphaFold2 predicted structures for RIC-3 and NACHO reveal structural features that inform how these chaperones interact with α7 nAChR subunits, and that the SAP motif is conserved from C. elegans to humans.
+  - **Evidence pointer** Section 2.1, Section 2.3, Figures 2, 4, and 5; location not provided
+  - **Concern** The central structural arguments of the manuscript rely heavily on figures that are not provided. The reader cannot evaluate the AlphaFold predictions, the structural alignments, the RMSD calculations, or the sequence comparisons that form the basis of the main claims. Without the figures, the technical basis for the conclusions is not verifiable. Additionally, the methods section describes the use of Matchmaker, BLAST, and Clustal Omega but does not provide parameters, thresholds, or details of how the analyses were performed, making it impossible to assess the robustness of the sequence and structure comparisons.
+  - **Why it matters** The manuscript's contribution depends on the validity and interpretability of the structural and sequence analyses. If the figures and methodological details are not available, the claims about the SAP motif conservation, the structural predictions for RIC-3 and NACHO, and the evaluation of the two models cannot be independently assessed. This undermines the scientific case the manuscript is trying to make.
+  - **Resolution test** Provide all figures with appropriate resolution and legends. Add a detailed description of the sequence analysis methods, including the exact sequences used, alignment parameters, and criteria for defining conservation. If possible, provide accession numbers for all sequences and structural models used, and make the AlphaFold prediction files available as supplementary material.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Support for claims
+  - **Claim pointer** The manuscript states that "a sampling of α7 sequences suggests the SAP motif is conserved from C. elegans to humans, but the latch sequence is only conserved in vertebrates" and later proposes that "the SAP motif may become a diagnostic feature for α7-like receptors."
+  - **Evidence pointer** Section 2.1, Figure 3; location not provided
+  - **Concern** The sequence analysis appears to be based on a limited and unspecified sampling of species. The manuscript does not state how many sequences were examined, how they were selected, or what criteria were used to define conservation. The claim that the SAP motif could be a diagnostic feature for α7-like receptors is a strong statement that would require a comprehensive phylogenetic analysis to support. The author does acknowledge the need for a more thorough examination, but the claim is still presented prominently.
+  - **Why it matters** The SAP motif claim is one of the more concrete and potentially useful contributions of the manuscript. If the underlying analysis is not rigorous or comprehensive, the claim could be misleading and could lead other researchers to rely on an insufficiently supported diagnostic feature.
+  - **Resolution test** Expand the sequence analysis to include a clearly defined and comprehensive set of α7 and non-α7 nicotinic receptor sequences across a broad range of species. Provide a phylogenetic tree or alignment figure showing the distribution of the SAP motif. State the criteria for defining conservation and discuss any exceptions or borderline cases.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Balance and critical evaluation
+  - **Claim pointer** The manuscript evaluates two models for how RIC-3 assists α7 receptor assembly: the "pull-together" model of Wang et al. and the model of Kweon et al. involving NACHO and early insertion steps.
+  - **Evidence pointer** Section 2.4, Figure 6; location not provided
+  - **Concern** The evaluation of the two models is somewhat uneven. The Wang model is described in some detail and critiqued, but the Kweon model is presented more descriptively without the same level of critical scrutiny. The author notes that the Kweon model is based on experiments in a specific cell type and may not generalize, but this point is not developed. A more systematic comparison of the predictions of each model against the available experimental data would strengthen the analysis.
+  - **Why it matters** The manuscript aims to evaluate the plausibility of existing hypotheses in light of new structural information. If the evaluation is not balanced and rigorous, the conclusions about which model is more plausible will not be well founded.
+  - **Resolution test** Provide a more systematic comparison of the two models, listing their key assumptions, predictions, and the experimental evidence for and against each. Discuss the limitations of each model more explicitly and identify specific experiments that could distinguish between them.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract is dense and could benefit from a clearer statement of the specific question being addressed and the main conclusion. The phrase "This review ponders" is informal and could be replaced with a more direct statement of the manuscript's purpose.
+  - **Required correction** Revise the abstract to state the specific question, the approach taken, and the main conclusions more directly. Replace informal language with more formal scientific phrasing.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods section
+  - **Evidence pointer** Section 4; location not provided
+  - **Issue** The methods section lists software tools but does not provide version numbers or specific parameters used for the analyses. This makes it difficult for others to reproduce the analyses.
+  - **Required correction** Add version numbers for all software tools and provide specific parameters or settings used for each analysis. If standard default parameters were used, state this explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of NACHO
+  - **Evidence pointer** Section 2.3; location not provided
+  - **Issue** The discussion of NACHO is relatively brief compared to RIC-3, despite NACHO being described as essential for α7 expression. The author notes that NACHO is highly conserved and folds like a tetraspanin, but does not explore the implications of this for its function.
+  - **Required correction** Expand the discussion of NACHO to include a more detailed consideration of its proposed mechanism of action and how its structural features might relate to its function. This would provide a more balanced treatment of the two chaperones.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.5.2
+  - **Evidence pointer** Section 2.5.2; location not provided
+  - **Issue** The term "putative TMD" is used to refer to the second transmembrane domain of RIC-3, but the basis for this designation is not clearly explained. It would be helpful to clarify whether this is the author's terminology or established in the literature.
+  - **Required correction** Clarify the terminology used for RIC-3 transmembrane domains and provide a brief explanation of why the second TMD is described as "putative."
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Referencing
+  - **Affected element** Section 2.6
+  - **Evidence pointer** Section 2.6; location not provided
+  - **Issue** The discussion of Ly6h and other Ly6/uPAR family members is interesting but would benefit from additional references to support the claims about the number of family members and their potential redundancy.
+  - **Required correction** Add appropriate references to support the statements about the Ly6/uPAR family size and the potential for redundancy in knockout studies.
+- **Technical failings that need to be addressed before the case is established** The absence of figures is the most significant technical failing, as the structural and sequence comparisons that form the core of the manuscript cannot be evaluated. The sequence analysis methodology is underdescribed, and the criteria for conservation are not stated. The RMSD calculations are presented without sufficient context for the reader to assess their significance. The manuscript would also benefit from a more rigorous and systematic comparison of the two models of RIC-3 function.
+- **Assessment against Nature-style criteria** Originality: The manuscript addresses a genuine gap in understanding and offers a novel synthesis of recent structural data with evolutionary analysis. The focus on intrinsically disordered chaperones and cross-species conservation is a fresh angle. Scientific importance: The question of how multimeric membrane proteins assemble is fundamental, and α7 nAChRs are an important therapeutic target. The manuscript contributes to this area, though it is largely speculative. Interdisciplinary readership: The topic sits at the intersection of structural biology, cell biology, and neuroscience, and the manuscript is written in a way that should be accessible to researchers in these fields. Technical soundness: The technical basis is currently compromised by the missing figures and underdescribed methods. The sequence analysis in particular needs to be more rigorous. Readability for nonspecialists: The manuscript is generally well written and accessible, though some sections assume familiarity with the nicotinic receptor field. The informal tone in places ("ponders") is not ideal for a Nature-style audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses an important question and offers a useful synthesis, but the missing figures and methodological details must be provided, and the sequence analysis needs to be strengthened, before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that the SAP motif may become a diagnostic feature for α7-like receptors is not adequately supported by the limited sequence sampling described.
+- The statement that AlphaFold predictions reveal structural features of RIC-3 and NACHO that inform their interactions with α7 subunits cannot be evaluated without the figures.
+- The claim that the latch helix is "currently unique among Cys-loop receptors" is presented as established but relies on the current state of structural knowledge, which could change.
+- The assertion that RIC-3 and NACHO act at different steps in the assembly process is presented as a conclusion, but the evidence for this is indirect and the manuscript acknowledges that the mechanism remains unclear.
+- The discussion of the "moonlighting" functions of intrinsically disordered proteins is speculative and not directly supported by data presented in the manuscript.

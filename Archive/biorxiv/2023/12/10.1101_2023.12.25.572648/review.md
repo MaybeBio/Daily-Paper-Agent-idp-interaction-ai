@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full manuscript, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors present Pair-EGRET, an edge-aggregated graph attention network that uses features from pre-trained transformer-like protein language models and a cross-attention mechanism on a k-nearest neighbor graph of protein three-dimensional structure, to predict protein-protein interaction (PPI) sites. They claim that extensive evaluation against diverse experimental data, multiple metrics, and case studies shows that Pair-EGRET outperforms other state-of-the-art methods, and that the learned cross-attention matrix provides interpretable insights. The tool is released as open source.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark details, dataset descriptions, or code verification possible from the supplied material
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, dataset specifications, baseline method details, statistical significance tests, case study descriptions, and code repository contents
+
+## Reviewer
+- **Overall assessment** The abstract describes a plausible and potentially useful computational approach for PPI site prediction, combining graph attention networks with protein language model embeddings and a cross-attention mechanism for pairwise protein inputs. The methodological concept is timely and aligns with current trends in structural bioinformatics. However, the abstract provides no quantitative evidence, no benchmark specifications, and no comparative statistics. The central claim of outperforming state-of-the-art methods is therefore unverifiable from the supplied material. The interpretability claim is also stated without demonstration. The work may be of interest to the computational biology community, but the case is not established from the abstract alone.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein function prediction, structural bioinformatics, and machine learning applications to biology. Researchers developing deep learning methods for biomolecular interaction prediction would find the architectural choices relevant. Experimental biologists studying protein interactions might also be interested if the tool proves reliable and accessible, though the abstract does not yet demonstrate practical utility for this audience.
+- **Major strengths** The methodological combination of graph attention networks, pre-trained protein language model features, and cross-attention for pairwise protein inputs is conceptually novel and well-motivated. The use of a k-nearest neighbor graph to represent three-dimensional structure is a reasonable and established strategy. The stated availability of open source code is a positive feature for reproducibility and community adoption. The explicit mention of interpretability through the cross-attention matrix is a valuable goal.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "our method outperforms other state-of-the-art methods for predicting PPI sites" based on "an extensive evaluation study using a diverse array of experimental data, evaluation metrics, and case studies."  
+  - **Evidence pointer** Abstract only; no section, figure, or table provided  
+  - **Concern** The abstract states that the method outperforms state-of-the-art methods but provides no numerical results, no list of compared methods, no dataset names, no evaluation metrics, and no statistical significance measures. Without any quantitative support, the performance claim cannot be assessed.  
+  - **Why it matters** The central contribution of a prediction method paper is demonstrated performance superiority. Without visible evidence, the claim is unsupported and the scientific value of the work cannot be evaluated.  
+  - **Resolution test** Provide in the full manuscript a benchmark table with performance metrics (for example, area under the receiver operating characteristic curve, precision, recall, F1 score) on standard PPI site datasets, with comparisons to at least three state-of-the-art methods and statistical significance tests.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The authors state that "Pair-EGRET works on a k-nearest neighbor graph, representing the three-dimensional structure of a protein, and utilizes the cross-attention mechanism for accurate identification of interfacial residues of a pair of proteins."  
+  - **Evidence pointer** Abstract only; no section, figure, or table provided  
+  - **Concern** The abstract does not specify how the k-nearest neighbor graph is constructed, what distance metric is used, how k is chosen, how protein language model features are extracted and integrated, or how the cross-attention mechanism operates on pairs of proteins. These details are essential for reproducibility.  
+  - **Why it matters** A computational method must be described with sufficient specificity for others to reimplement or apply it. The abstract-level description is too vague to allow independent verification or use.  
+  - **Resolution test** In the full manuscript, provide a detailed methods section with algorithmic pseudocode, hyperparameter values, feature extraction procedures, and graph construction parameters.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interpretability claim  
+  - **Claim pointer** The authors claim that "Pair-EGRET can provide interpretable insights from the learned cross-attention matrix."  
+  - **Evidence pointer** Abstract only; no section, figure, or table provided  
+  - **Concern** The abstract asserts interpretability but does not describe what kind of insights are obtained, how the cross-attention matrix is analyzed, or whether these insights are validated against known biological knowledge.  
+  - **Why it matters** Interpretability claims are meaningful only if demonstrated with concrete examples and biological validation. Without such demonstration, the claim is speculative.  
+  - **Resolution test** In the full manuscript, include a case study showing specific attention patterns that correspond to known interface residues or functional annotations, with visualizations and quantitative assessment of interpretability.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The authors state that the evaluation used "a diverse array of experimental data" and that the method outperforms state-of-the-art methods.  
+  - **Evidence pointer** Abstract only; no section, figure, or table provided  
+  - **Concern** The abstract does not specify the diversity of the datasets, whether they include different organisms, protein types, or interaction types, or whether the method generalizes across these categories.  
+  - **Why it matters** PPI site prediction methods often perform well on training distributions but poorly on unseen protein families. The claim of diversity is unverifiable without dataset descriptions.  
+  - **Resolution test** In the full manuscript, describe each dataset used, including organism, protein family distribution, and interaction type, and report performance stratified by these categories.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Method description  
+  - **Evidence pointer** Abstract  
+  - **Issue** The term "edge-aggregated graph attention network" is not defined or explained in the abstract.  
+  - **Required correction** Provide a brief explanation of what edge aggregation means in this context, either in the abstract or in the full manuscript introduction.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Code availability  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract states that the code is freely available at a GitHub URL, but no license information or usage instructions are mentioned.  
+  - **Required correction** Specify the open source license and provide basic usage documentation in the repository.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Benchmark rigor  
+  - **Affected element** Evaluation description  
+  - **Evidence pointer** Abstract  
+  - **Issue** The abstract mentions "a diverse array of experimental data, evaluation metrics, and case studies" but does not name any specific dataset or metric.  
+  - **Required correction** In the full manuscript, clearly name all datasets and metrics used, and justify their selection.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The performance claim requires quantitative evidence, and the method description requires sufficient detail for reproducibility. Without addressing these, the central case for the paper is not established.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The combination of graph attention networks with protein language model features and cross-attention for pairwise PPI site prediction appears novel, though the abstract does not allow full assessment of novelty relative to existing methods.  
+  - **Scientific importance** PPI site prediction is an important problem in structural bioinformatics, and improved computational methods would be valuable. The potential importance is real but not demonstrated.  
+  - **Interdisciplinary readership** The work is likely to appeal primarily to computational biologists and machine learning researchers. The abstract does not make a case for broader readership in experimental biology or other fields.  
+  - **Technical soundness** The abstract describes a reasonable architectural approach, but technical soundness cannot be evaluated without implementation details and validation results.  
+  - **Readability for nonspecialists** The abstract is written in accessible language for a technical audience, but terms such as "edge-aggregated graph attention network" and "k-nearest neighbor graph" may be challenging for nonspecialists. The abstract does not provide sufficient context for a general scientific audience.
+- **Recommendation posture** Currently not established from the provided evidence. The methodological idea is promising and the open source availability is commendable, but the abstract alone does not provide the quantitative evidence or methodological detail needed to support the central claims. A full manuscript with benchmark results, detailed methods, and validated interpretability analysis would be required to assess the work properly.
+
+## Risk / unsupported claims
+- The claim that Pair-EGRET outperforms other state-of-the-art methods is unsupported because no quantitative results are provided in the abstract.
+- The claim of "extensive evaluation study" is unverifiable without dataset descriptions, metric definitions, or statistical analyses.
+- The claim of interpretable insights from the cross-attention matrix is unsupported without demonstration or validation.
+- The generalizability implied by "diverse array of experimental data" is not assessable without dataset specifications.
+- The reproducibility of the method cannot be evaluated because the abstract lacks algorithmic and implementation details.

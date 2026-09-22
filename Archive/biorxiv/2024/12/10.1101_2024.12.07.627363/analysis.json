@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.12.07.627363",
+  "title": "Molecular mechanisms of GSK3 β -driven modulation of ABLIM1 and titin interactions in cardiac muscle",
+  "authors": "Sun B; Loftus A; Beh Goh Beh B; Hepburn A; Kirk JA; Kekenes-Huskey PM",
+  "journal": "bioRxiv",
+  "published_date": "2024-12-12",
+  "window": {
+    "start": "2024-12-09",
+    "end": "2024-12-15"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用多尺度建模与分子动力学模拟，研究ABLIM1无序区域磷酸化如何改变其构象并调控与titin的PPI，进而影响心肌收缩机制，对象、互作、方法三者齐备且聚焦IDR介导互作机制建模。",
+  "abstract": "1 The heart adapts to cardiac demand through various mechanisms, including chemical modifications of myofilament proteins responsible for cell contraction. Many of these modifications, such as phosphorylation, occur in unstructured, or intrinsically disordered, regions (IDRs) of proteins. Although often challenging to study, these IDRs are increasingly recognized as dynamic, tunable regulators of protein function. Given that cardiac dysfunction can involve changes in the post-translational modification (PTM) status of myofilament proteins, it is critical to assess how alterations within these disordered regions impact intact protein and myofilament behavior. We hypothesized that the function of ABLIM1, a myofilament protein containing an important IDR, is regulated by altering its IDR conformational ensemble through PTMs, primarily phosphorylation. We proposed that this conformational change would modulate its ability to bind to other myofilament proteins. To evaluate this hypothesis, we employed a multiscale modeling approach including molecular dynamics simulations. This was used to predict the conformational ensembles of ABLIM1 before and after phosphorylation, at sites known to be altered in a canine model of heart failure with reduced GSK3 β activity. We then used a state-based model of contraction to rationalize the physiological consequences of the molecular-scale predictions. Based on our data, we observed that local physicochemical alterations induced by phosphorylation in ABLIM1’s intrinsically disordered regions significantly affect its overall conformational ensemble properties. This ensemble change subsequently influences the ability of its LIM domains to interact with titin. Furthermore, using the contraction model, we show that a reduced ability to recruit myosin heads for cross-bridge formation, resulting from the modified LIM domain/titin interactions, provides a mechanism that elucidates previous findings of diminished length-dependent activation. These findings offer crucial molecular insights, reframing IDRs not merely as structural noise but as key, tunable elements that control protein interactions and ultimately impact mechanical behavior in the sarcomere. This work bridges molecular disorder and biomechanical function, providing a new lens to understand dynamic control and dysfunction in cardiomyocyte contraction.",
+  "abstract_zh": "1 心脏通过多种机制适应心脏需求，包括负责细胞收缩的肌丝蛋白的化学修饰。许多此类修饰，如磷酸化，发生在蛋白质的无结构或固有无序区域（IDRs）。尽管这些IDRs通常难以研究，但日益被认识到是蛋白质功能的动态、可调调节因子。鉴于心脏功能障碍可能涉及肌丝蛋白翻译后修饰（PTM）状态的改变，评估这些无序区域内的变化如何影响完整蛋白质和肌丝行为至关重要。我们假设ABLIM1（一种含有重要IDR的肌丝蛋白）的功能通过PTMs（主要是磷酸化）改变其IDR构象集合来调节。我们提出这种构象变化会调节其与其他肌丝蛋白结合的能力。为评估此假设，我们采用了多尺度建模方法，包括分子动力学模拟。这用于预测ABLIM1在磷酸化前后、在已知于GSK3β活性降低的犬心力衰竭模型中发生改变的位点处的构象集合。然后，我们使用基于状态的收缩模型来合理化分子尺度预测的生理后果。基于我们的数据，我们观察到ABLIM1固有无序区域中磷酸化诱导的局部物理化学改变显著影响其整体构象集合特性。这种集合变化随后影响其LIM结构域与肌联蛋白相互作用的能力。此外，使用收缩模型，我们表明，由于修饰的LIM结构域/肌联蛋白相互作用导致的肌球蛋白头募集能力降低，为交叉桥形成提供了机制，阐明了先前发现的长度依赖性激活减弱的发现。这些发现提供了关键的分子见解，将IDRs重新定义为不仅是结构噪声，而是控制蛋白质相互作用并最终影响肌节中机械行为的关键可调元素。这项工作弥合了分子无序与生物力学功能之间的鸿沟，为理解心肌细胞收缩的动态控制和功能障碍提供了新视角。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.12.07.627363",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.12.07.627363",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.12.07.627363/index.html"
+}

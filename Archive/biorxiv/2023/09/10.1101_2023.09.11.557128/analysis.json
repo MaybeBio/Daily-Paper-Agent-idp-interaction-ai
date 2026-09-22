@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.09.11.557128",
+  "title": "Modeling flexible protein structure with AlphaFold2 and cross-linking mass spectrometry",
+  "authors": "Manalastas-Cantos K; Adoni KR; Pfeifer M; Märtens B; Grünewald K; Thalassinos K; Topf M",
+  "journal": "bioRxiv",
+  "published_date": "2023-09-11",
+  "window": {
+    "start": "2023-09-11",
+    "end": "2023-09-17"
+  },
+  "score": 6,
+  "one_liner_zh": "该文结合AlphaFold2与交联质谱建模多构象蛋白结构，虽对象非IDP，但多构象/柔性蛋白建模思路对无序蛋白互作机制建模有可迁移启发。",
+  "abstract": "We propose a pipeline that combines AlphaFold2 (AF2) and crosslinking mass spectrometry (XL-MS) to model the structure of proteins with multiple conformations. The pipeline consists of two main steps: ensemble generation using AF2, and conformer selection using XL-MS data. For conformer selection, we developed two scores – the monolink probability score (MP) and the crosslink probability score (XLP), both of which are based on residue depth. We benchmarked MP and XLP on a large dataset of decoy protein structures, and showed that our scores outperform previously developed scores. We then tested our methodology on three proteins having an open and closed conformation in the Protein Data Bank: Complement component 3 (C3), luciferase, and glutamine-binding periplasmic protein (QBP), first generating ensembles using AF2, which were then screened for the open and closed conformations using experimental XL-MS data. In five out of six cases, the most accurate model within the AF2 ensembles – or a conformation within 1 Å of this model – was identified using crosslinks, as assessed through the XLP score. In the remaining case, only the monolinks (assessed through the MP score) successfully identified the open conformation of QBP. This serves as a compelling proof-of-concept for the effectiveness of monolinks. In contrast, the AF2 assessment score (pTM) was only able to identify the most accurate conformation in two out of six cases. Our results highlight the complementarity of AF2 with experimental methods like XL-MS, with the MP and XLP scores providing reliable metrics to assess the quality of the predicted models.",
+  "abstract_zh": "我们提出了一种结合AlphaFold2 (AF2) 与交联质谱 (XL-MS) 的流程，用于对具有多种构象的蛋白质结构进行建模。该流程包含两个主要步骤：使用AF2生成集合，以及利用XL-MS数据进行构象选择。在构象选择方面，我们开发了两种评分——单联概率评分 (MP) 和交联概率评分 (XLP)，两者均基于残基深度。我们在一个大型诱饵蛋白质结构数据集上对MP和XLP进行了基准测试，并显示我们的评分优于先前开发的评分。随后，我们在蛋白质数据银行中具有开放和闭合构象的三种蛋白质上测试了我们的方法：补体成分3 (C3)、荧光素酶和谷氨酰胺结合周质蛋白 (QBP)，首先使用AF2生成集合，然后利用实验XL-MS数据筛选开放和闭合构象。在六种情况中的五种中，通过XLP评分评估，AF2集合中最准确的模型——或与该模型相差1 Å以内的构象——被交联数据识别出来。在剩余一种情况中，仅通过MP评分评估的单联成功识别了QBP的开放构象。这为单联的有效性提供了一个有力的概念验证。相比之下，AF2评估评分 (pTM) 仅在六种情况中的两种中能够识别最准确的构象。我们的结果突显了AF2与XL-MS等实验方法的互补性，其中MP和XLP评分提供了可靠指标来评估预测模型的质量。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.09.11.557128",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.09.11.557128",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.09.11.557128/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2026.03.05.709844",
+  "title": "The physical origin of ageing at biomolecular condensate interfaces",
+  "authors": "Castro A; Luengo-Márquez J; Tejedor AR; Papp M; Papp M; Arosio P; Ocaña A; Collepardo-Guevara R; Sanchez-Burgos I; Espinosa JR",
+  "journal": "bioRxiv",
+  "published_date": "2026-03-07",
+  "window": {
+    "start": "2026-03-02",
+    "end": "2026-03-08"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟揭示生物分子凝聚体界面促进cross-β成核的序列无关物理机制，直接关联IDR/相分离中的PPI与老化机制建模，方法为物理模拟且具机制深度。",
+  "abstract": "The interface separating a biomolecular condensate from its surroundings is increasingly recognised as a unique physical and chemical environment that actively regulates condensate behaviour. It controls surface tension, molecular organisation and chemical reactivity, and is also where pathological ageing often begins, with several proteins nucleating cross-β-sheet fibrils preferentially at condensate surfaces. But does ageing emerge there because of protein-specific chemistry, or a more general physical mechanism? Using coarse-grained molecular dynamics simulations, we show that cross-β-sheet nucleation generically occurs preferentially at condensate interfaces across systems of increasing chemical complexity, from simple homopolymers to patterned amphiphilic sequences. In all systems studied, interface-driven ageing has a common physical origin and can be further modulated, but not driven, by protein sequence. Specifically, terminal domains at the condensate interface gain mobility while remaining densely packed and mutually aligned, creating favourable conditions for β-sheet nucleation. Ageing is amplified in amphiphilic sequences, where hydrophilic regions act as surfactants facing the dilute phase, while aggregation-prone hydrophobic domains cluster just beneath the surface, concentrating the nucleation there. This surfactant-like organisation lowers the interfacial free energy, which falls systematically as sequence asymmetry grows. By linking molecular interactions to mesoscale behaviour, these results cast the interface as a central regulator of ageing and reveal a sequence-independent physical mechanism for the liquid-to-solid transition underlying pathological aggregation in biomolecular condensates.",
+  "abstract_zh": "分隔生物分子凝聚体与其周围环境的界面，日益被认识到是一个独特的物理和化学环境，积极调控凝聚体的行为。它控制表面张力、分子组织和化学反应性，同时也是病理性老化常起始之处，多种蛋白质优先在凝聚体表面成核交叉β-折叠原纤维。但老化是否因蛋白质特异性化学作用，或更普遍的物理机制而在该处出现？利用粗粒化分子动力学模拟，我们表明，在从简单均聚物到图案化两亲性序列的化学复杂性递增系统中，交叉β-折叠成核普遍优先发生在凝聚体界面。在所有研究的系统中，界面驱动的老化具有共同的物理起源，并可由蛋白质序列进一步调节，但不能由其驱动。具体而言，凝聚体界面的末端结构域获得流动性，同时保持密集堆积和相互对齐，为β-折叠成核创造有利条件。老化在两亲性序列中被放大，其中亲水区域作为表面活性剂面向稀相，而易于聚集的疏水结构域聚集在表面正下方，将成核集中于此。这种类似表面活性剂的组织降低界面自由能，其随序列不对称性增加而系统性下降。通过将分子相互作用与介观行为联系起来，这些结果将界面定位为老化的核心调节器，并揭示了一种序列无关的物理机制，该机制驱动生物分子凝聚体中病理性聚集所基于的液-固转变。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2026.03.05.709844",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2026.03.05.709844",
+  "paper_page_path": "papers/biorxiv/10.64898_2026.03.05.709844/index.html"
+}

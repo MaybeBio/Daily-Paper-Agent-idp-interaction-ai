@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, workflow description, resource estimation methodology, results, and conclusion. Figures and tables referenced but not provided.
+- **Assessment boundary** Technical soundness of the quantum resource estimation workflow, validity of the stated resource numbers, appropriateness of the methodological choices, and the strength of the claims regarding utility and feasibility.
+- **Shared manuscript claim summary** The authors present a computational workflow combining QM/MM, fragment molecular orbital (FMO) theory, and quantum phase estimation (QPE) via double-factorized qubitization to estimate the quantum resources required for calculating the binding affinity of the amyloid beta (Aβ) peptide, specifically the AB16 minimal metal-binding domain, to metal ions such as copper. They report logical and physical resource estimates for 15 fragments across multiple basis sets, with the smallest practical system (His6 binding site with copper, 6-31g* basis) requiring 4728 logical qubits, 1.17e14 T gates, 7 million physical qubits, and a runtime of approximately 28 years. They further estimate the utility of solving this problem at $280 million based on NIH funding data.
+- **Visible evidence base** Text descriptions of the workflow, Hamiltonian decomposition, and resource estimation methodology. Numerical results quoted in text for the His6-copper system. References to Figures 1, 3, and 4, which are not provided in the supplied material.
+- **Missing materials affecting confidence** All figures (including the resource estimation plots in Fig. 4), the specific Hamiltonian equations (Eq. 1 and the double-factorization expression), the fragmentation scheme details, and the full numerical data for all 15 fragments across basis sets. Without these, the quantitative claims cannot be independently verified.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a timely and relevant question: what quantum resources would be required to perform chemically accurate calculations on a biologically important metalloprotein system. The workflow is logical and the choice of double-factorized qubitization is appropriate for the stated goal. However, the manuscript as presented has several significant gaps. The resource estimates are quoted for only one representative system in the text, with the full data relegated to a figure that is not available for review. The utility estimate based on NIH funding is methodologically questionable and appears to conflate research expenditure with the value of a computational solution. The conclusion that 28 years of runtime on 7 million physical qubits "points to the need to reduce overheads" is reasonable but the analysis does not explore any of the avenues for improvement it mentions. The manuscript would benefit from a more critical discussion of the limitations of the resource estimation model and the sensitivity of the results to key assumptions.
+- **Who would be interested in the results, and why** Researchers in quantum computing for quantum chemistry, particularly those working on resource estimation for fault-tolerant algorithms. The work provides a concrete data point for a biologically relevant system, which is useful for benchmarking algorithmic improvements. The quantum chemistry community studying metalloproteins and amyloid beta may also find the workflow description useful, though the resource numbers themselves are of less direct relevance to that audience.
+- **Major strengths** The choice of a biologically relevant and chemically challenging target system is well motivated. The workflow is clearly described at a conceptual level, and the use of FMO to fragment the protein is a sensible approach to make the problem tractable. The use of a standardized resource estimation tool (Azure Quantum Resource Estimator) with stated assumptions improves reproducibility. The authors are transparent about the scale of the resources required, which is valuable for the community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims specific resource estimates, e.g., "4728 logical qubits implementing 1.17e14 T gates" and "7 million physical qubits... runtime of 8.8e8s" for the His6-copper system in the 6-31g* basis.
+  - **Evidence pointer** Figure 4, location not provided
+  - **Concern** The quantitative results are presented in Figure 4, which is not included in the supplied material. The text provides only a single data point (His6-copper, 6-31g*). It is impossible to verify the scaling claims, the comparison across basis sets, or the behavior across the 15 fragments without the full figure data.
+  - **Why it matters** The central contribution of the manuscript is the resource estimate. Without access to the full data, the claims cannot be assessed for correctness, and the reader cannot determine whether the quoted numbers are representative or outliers.
+  - **Resolution test** Provide the full numerical data for all fragments and basis sets, either in a table or in the figure with accessible data. The reviewer should be able to reproduce the quoted numbers from the provided data.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological validity
+  - **Claim pointer** The manuscript states that the utility of solving the computational problem is "at least $280 million" based on NIH funding for projects mentioning 'amyloid beta' and 'computational'.
+  - **Evidence pointer** Section II, location not provided
+  - **Concern** The utility estimate is derived from total NIH research expenditure on projects that mention certain keywords. This conflates the total research investment in a field with the value of a specific computational capability. It does not account for the fact that most of this funding supports experimental work, nor does it establish a causal link between solving the binding affinity problem and the outcomes of those funded projects. The estimate appears to be an upper bound on the size of the research field, not a measure of the value of the proposed computation.
+  - **Why it matters** The utility argument is used to justify the importance of the work. If the estimate is not methodologically sound, the motivation for the resource expenditure is weakened.
+  - **Resolution test** Provide a more rigorous economic or scientific argument for the value of the computation, or reframe the claim as a statement about the scale of research interest rather than a quantitative utility estimate.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical completeness
+  - **Claim pointer** The manuscript states that "No active space is used; we directly correlate all electrons" and that the double-factorized qubitization algorithm is used.
+  - **Evidence pointer** Section III.1 and III.2, location not provided
+  - **Concern** The manuscript does not provide the explicit form of the Hamiltonian (Eq. 1) or the double-factorization decomposition, as these appear to be missing from the supplied text. The description of the algorithm is at a high level and does not include the specific details of how the walk operator is synthesized, how the one-body Hamiltonians are exponentiated, or how the Azure QRE was configured for this problem.
+  - **Why it matters** The resource estimates depend critically on the algorithmic implementation details. Without the explicit Hamiltonian and decomposition, the reader cannot assess whether the implementation is optimal or whether the resource counts are reasonable.
+  - **Resolution test** Provide the explicit Hamiltonian and double-factorization expressions, and describe the specific circuit construction used for the resource estimation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Assumption sensitivity
+  - **Claim pointer** The manuscript states that physical resource estimates use "a model consistent with error rates and gate times for optimistic superconducting qubits implementing a surface code with a total error budget of 1%."
+  - **Evidence pointer** Section IV, location not provided
+  - **Concern** The resource estimates are presented as single numbers without any sensitivity analysis. The choice of "optimistic" superconducting qubit parameters and a 1% error budget is stated but not justified. The runtime of 28 years is dominated by the T gate count and the assumed gate speed; small changes in the error model or the error budget could change the physical qubit count and runtime substantially.
+  - **Why it matters** The conclusion that the problem is currently intractable is robust, but the specific numbers are presented with a false sense of precision. A sensitivity analysis would help the reader understand which assumptions drive the resource requirements.
+  - **Resolution test** Provide a sensitivity analysis varying the key physical parameters (gate error rates, gate times, error budget) and show how the resource estimates change.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract and Introduction
+  - **Evidence pointer** Abstract, Section I
+  - **Issue** The abstract states the work provides "estimated quantum resources required, at both the logical and hardware level" but does not give any indication of the scale of these resources. A reader skimming the abstract would not know whether the answer is 100 qubits or 10 million.
+  - **Required correction** Include a representative resource number in the abstract, e.g., "requiring approximately 7 million physical qubits and a runtime of 28 years for the smallest practical system."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Consistency
+  - **Affected element** Section V
+  - **Evidence pointer** Section V, location not provided
+  - **Issue** The conclusion states the utility is "at least $91 million" while Section II states "$280 million." This is an internal inconsistency that is not explained.
+  - **Required correction** Reconcile the two numbers or explain the discrepancy.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Section III.2
+  - **Evidence pointer** Section III.2, location not provided
+  - **Issue** The description of the QPE algorithm is generic and does not specify the number of ancilla qubits used for phase estimation, the precision of the phase estimate, or how the initial state is prepared. These details affect the resource count.
+  - **Required correction** Provide the specific QPE parameters used in the resource estimation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section IV
+  - **Evidence pointer** Section IV, location not provided
+  - **Issue** The manuscript mentions that the fragmentation scheme results in 15 fragments but does not describe the fragmentation procedure or which fragments contain the metal ion.
+  - **Required correction** Briefly describe the fragmentation scheme and identify the metal-containing fragments.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Section II
+  - **Evidence pointer** Section II, location not provided
+  - **Issue** The discussion of the NIH funding data is presented as a single paragraph without a clear logical structure. The connection between research expenditure and the value of a computational solution is not made explicit.
+  - **Required correction** Restructure the paragraph to clearly state the argument: total research investment indicates the importance of the problem, but the value of a specific computational tool is not directly derivable from this number.
+- **Technical failings that need to be addressed before the case is established** The missing figures and equations prevent verification of the central quantitative claims. The utility estimate is not methodologically sound. The internal inconsistency between $91 million and $280 million must be resolved. The lack of sensitivity analysis on the physical resource estimates limits the interpretability of the results.
+- **Assessment against Nature-style criteria** Originality: The application of resource estimation to a specific, biologically relevant metalloprotein is a useful contribution, though the methodology itself is not novel. Scientific importance: The work addresses a question of interest to the quantum computing community, but the conclusions are largely negative (the problem is intractable with current or near-term technology), which limits its immediate impact. Interdisciplinary readership: The manuscript is written for a quantum computing audience and assumes familiarity with QPE, qubitization, and surface codes. It would not be accessible to a broader chemistry or biology readership without significant additional context. Technical soundness: The methodology is appropriate, but the missing data and lack of sensitivity analysis prevent a full assessment. Readability for nonspecialists: The manuscript is not written for nonspecialists; the introduction assumes knowledge of quantum computing concepts and the biological motivation is presented briefly.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core question is relevant and the workflow is sensible, but the manuscript in its current form does not provide sufficient evidence to fully assess the claims. The missing figures and equations must be provided, the utility estimate must be revised or reframed, and the internal inconsistency must be resolved.

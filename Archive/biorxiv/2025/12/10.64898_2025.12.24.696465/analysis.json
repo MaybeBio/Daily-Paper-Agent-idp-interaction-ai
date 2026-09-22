@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.24.696465",
+  "title": "Enzyme-driven phase separation of synthetic condensates enables self-organizing compartments and protective microenvironments",
+  "authors": "Ghosh A; Thatte A; Suraritdechachai S; Rattunde R; Weber CA; Tang TD",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-25",
+  "window": {
+    "start": "2025-12-22",
+    "end": "2025-12-28"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过体外转录与动力学建模研究酶驱动G3BP1无序蛋白相分离凝聚体对mRNA代谢的调控，虽聚焦单蛋白凝聚体而非PPI，但机制建模思路对IDR介导互作与相分离反馈调控有启发。",
+  "abstract": "Compartmentalization via phase separation is increasingly recognized as a dynamic regulator of cellular biochemistry, yet the consequences of coupling enzymatic reactions to compartmentalization remain poorly understood. We combine a minimal, cell-free expression system with kinetic modeling to show how coupling enzymatic activity to biomolecular condensates drives emergent self-regulation via droplet formation and dissolution. In-vitro mRNA transcription induces phase separation with an intrinsically disordered protein (mutant G3BP1), forming condensates that modulate transcription and degradation kinetics. Our kinetic model shows that phase separation reduces rate constants, with slower degradation within condensates than in the mRNA-protein-poor phase. This leads to more mRNA with a prolonged lifetime of mRNA relative to the case without condensates. Extending the model to sustained and oscillatory resource supply reveals that condensates elevate mean mRNA levels and buffer deviations from the mean compared to the non-condensate scenario. These findings provide a general mechanism of cross-regulation and feedback between phase separation and enzymatic networks, highlighting condensates as active regulators of biochemical flux rather than as passive organizers. <h4>GRAPHICAL ABSTRACT</h4>",
+  "abstract_zh": "通过相分离（phase separation）进行的区室化日益被认为是细胞生物化学的动态调节因子，然而将酶促反应与区室化耦合的后果仍知之甚少。我们结合一个最小化的无细胞表达系统与动力学建模，展示了酶活性与生物分子凝聚体（biomolecular condensates）的耦合如何通过液滴形成与溶解驱动涌现性自我调节。体外mRNA转录诱导与一种固有无序蛋白（突变型G3BP1）发生相分离，形成调节转录与降解动力学的凝聚体。我们的动力学模型表明，相分离降低了速率常数，凝聚体内的降解速度比mRNA-蛋白质贫相中更慢。这导致相对于无凝聚体情况，mRNA数量更多且寿命延长。将模型扩展至持续性和振荡性资源供应时发现，与非凝聚体情景相比，凝聚体提高了平均mRNA水平，并缓冲了与均值的偏差。这些发现提供了相分离与酶促网络之间交叉调节和反馈的一般机制，强调凝聚体是生化通量的主动调节因子，而非被动组织者。<h4>图形摘要</h4>",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.24.696465",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.24.696465",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.24.696465/index.html"
+}

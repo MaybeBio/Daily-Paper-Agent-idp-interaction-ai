@@ -1,0 +1,272 @@
+{
+  "identity": {
+    "pmid": "41037437",
+    "doi": "10.1021/acs.jcim.5c01742",
+    "title": "multiSMD - A Python Toolset for Multidirectional Steered Molecular Dynamics."
+  },
+  "content": {
+    "abstract": "Molecular forces govern all biological processes from cellular mechanics to molecular recognition events. Understanding the direction-dependence of these forces is particularly critical for elucidating fundamental interactions, such as protein-protein binding, ligand dissociation, and signal mechanotransduction. While steered molecular dynamics (SMD) simulations enable the study of force-induced transitions, conventional single-direction approaches may overlook anisotropic mechanical responses inherent to biomolecular systems. Therefore, probing the mechanical stability of molecular systems with respect to a director of an external force may provide critical information. Here, we present multiSMD, a Python-based tool that automates the setup and analysis of multidirectional SMD simulations in NAMD and GROMACS. By systematically probing forces along multiple spatial vectors, multiSMD captures direction-dependent phenomena, such as changing energy barriers or structural resilience, that remain hidden in standard SMD. We demonstrate the utility of our approach through three distinct applications: (i) anisotropic unbinding in a protein-protein complex, (ii) search for ligand dissociation pathways dependent on the pulling direction, and (iii) force-induced remodeling of intrinsically disordered regions in proteins. multiSMD streamlines the exploration of nanomechanical anisotropy in biomolecules, offering a computational framework to guide experiments (e.g., atomic force microscopy - AFM or optical tweezers) and uncover mechanistic properties inaccessible to single-axis methods.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Ligands",
+      "Proteins/chemistry/metabolism",
+      "*Software",
+      "*Programming Languages",
+      "Protein Binding"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Walczewska-Szewc, Katarzyna",
+        "Niklas, Beata",
+        "Szewc, Kamil",
+        "Nowak, Wieslaw"
+      ],
+      "short_names": [
+        "Walczewska-Szewc K",
+        "Niklas B",
+        "Szewc K",
+        "Nowak W"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-6422-6138"
+      ],
+      "affiliations": [
+        "Institute of Physics, Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University in Torun, ul. Grudziadzka 5, 87-100 Torun, Poland.",
+        "Department of Animal Physiology and Neurobiology, Faculty of Biological and Veterinary Sciences, Nicolaus Copernicus University, Lwowska 1, 87-100 Torun, Poland.",
+        "ESS Engineering Software Steyr GmbH, Berggasse 35, 4400 Steyr, Austria.",
+        "Institute of Physics, Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University in Torun, ul. Grudziadzka 5, 87-100 Torun, Poland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Walczewska-Szewc, Katarzyna",
+        "short_name": "Walczewska-Szewc K",
+        "identifiers": [
+          "0000-0001-6422-6138"
+        ],
+        "affiliations": [
+          "Institute of Physics, Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University in Toruń, ul. Grudziądzka 5, 87-100 Toruń, Poland."
+        ]
+      },
+      {
+        "full_name": "Niklas, Beata",
+        "short_name": "Niklas B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Animal Physiology and Neurobiology, Faculty of Biological and Veterinary Sciences, Nicolaus Copernicus University, Lwowska 1, 87-100 Toruń, Poland."
+        ]
+      },
+      {
+        "full_name": "Szewc, Kamil",
+        "short_name": "Szewc K",
+        "identifiers": [],
+        "affiliations": [
+          "ESS Engineering Software Steyr GmbH, Berggasse 35, 4400 Steyr, Austria."
+        ]
+      },
+      {
+        "full_name": "Nowak, Wiesław",
+        "short_name": "Nowak W",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, Faculty of Physics, Astronomy and Informatics, Nicolaus Copernicus University in Toruń, ul. Grudziądzka 5, 87-100 Toruń, Poland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of chemical information and modeling"
+    ],
+    "journal_abbrev": [
+      "J Chem Inf Model"
+    ],
+    "pub_date": "2025 Oct 27",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/02 18:27",
+    "fetched_at": "2026-09-17 20:40:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37433419",
+      "34531369",
+      "34228472",
+      "32598150",
+      "32463239",
+      "32225176",
+      "32015507",
+      "29742396",
+      "27309041",
+      "26580057",
+      "22577825",
+      "22443989",
+      "21500218",
+      "20462212",
+      "20382731",
+      "18511917",
+      "16628204",
+      "16220957",
+      "14507677",
+      "10966637",
+      "10382673",
+      "8744570"
+    ],
+    "similar": [
+      "41037437",
+      "30103417",
+      "30374867",
+      "26259544",
+      "18619976",
+      "37188657",
+      "26506335",
+      "36948207",
+      "40423669",
+      "29554493",
+      "15943012",
+      "39514863",
+      "17015017",
+      "35475517",
+      "11846569",
+      "24061853",
+      "23912807",
+      "35512104",
+      "29975531",
+      "39806146",
+      "24437446",
+      "28034750",
+      "24735465",
+      "37854635",
+      "34292743",
+      "38826272",
+      "41020411",
+      "37489036",
+      "22754402",
+      "40175039",
+      "40517744",
+      "41205240",
+      "28716648",
+      "24747422",
+      "28651183",
+      "33778935",
+      "19118521",
+      "29160067",
+      "21222470",
+      "31005084",
+      "18178658",
+      "37458574",
+      "32031801",
+      "16999548",
+      "32092258",
+      "32033273",
+      "38630447",
+      "27221618",
+      "40968093",
+      "39905731",
+      "29771510",
+      "22626004",
+      "28637405",
+      "18327929",
+      "39933881",
+      "32181776",
+      "19865530",
+      "16705863",
+      "39319845",
+      "25003283",
+      "24387356",
+      "19784361",
+      "31427067",
+      "21359274",
+      "29630379",
+      "19468335",
+      "31454236",
+      "26049804",
+      "33600596",
+      "26366131",
+      "29899954",
+      "30806943",
+      "33751434",
+      "39014286",
+      "27771988",
+      "28980073",
+      "20927369",
+      "37540828",
+      "34020035",
+      "32877187",
+      "23592974",
+      "23783571",
+      "19669741",
+      "33492970",
+      "22404934",
+      "39830120",
+      "34918516",
+      "38714683",
+      "26595261",
+      "39190764",
+      "40397673",
+      "16506783",
+      "22140490",
+      "21501475",
+      "20669937",
+      "31697501",
+      "31588961",
+      "30547565",
+      "30558883",
+      "16829559"
+    ],
+    "review": [
+      "41037437",
+      "17015017",
+      "29975531",
+      "40175039",
+      "28716648",
+      "24747422",
+      "29160067",
+      "28637405",
+      "19865530",
+      "33600596",
+      "19669741",
+      "39830120",
+      "31588961"
+    ],
+    "pmc": [
+      "12570128"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41037437/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-649",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jcisd8/article-lookup/doi/10.1021/acs.jcim.5c01742",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

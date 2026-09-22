@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36181270",
+  "title": "Phase separation in amino acid mixtures is governed by composition.",
+  "authors": "De Sancho, David",
+  "journal": "Biophysical journal",
+  "published_date": "2022-10-02",
+  "window": {
+    "start": "2022-09-26",
+    "end": "2022-10-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用原子级分子动力学模拟氨基酸混合物的相分离，验证‘stickers and spacers’模型，虽对象为氨基酸而非完整IDP，但为IDR介导的凝聚体互作机制提供了可迁移的物理建模思路。",
+  "abstract": "Macromolecular phase separation has recently come to immense prominence as it is central to the formation of membraneless organelles, leading to a new paradigm of cellular organization. This type of phase transition, often termed liquid-liquid phase separation (LLPS), is mediated by molecular interactions between biomolecules, including nucleic acids and both ordered and disordered proteins. In the latter case, the separation between protein-dense and -dilute phases is often interpreted using models adapted from polymer theory. Specifically, the \"stickers and spacers\" model proposes that the formation of condensate-spanning networks in protein solutions originates from the interplay between two classes of residues and that the main determinants for phase separation are multivalency and sequence patterning. The duality of roles of stickers (aromatics like Phe and Tyr) and spacers (Gly and polar residues) may apply more broadly in protein-like mixtures, and the presence of these two types of components alone may suffice for LLPS to take place. In order to explore this hypothesis, we use atomistic molecular dynamics simulations of capped amino acid residues as a minimal model system. We study the behavior of pure amino acids in water for three types of residues corresponding to the spacer and sticker categories and of their multicomponent mixtures. In agreement with previous observations, we find that the spacer-type amino acids fail to phase separate on their own, while the sticker is prone to aggregation. However, ternary amino acid mixtures involving both types of amino acids phase separate into two phases that retain intermediate degrees of compaction and greater fluidity than sticker-only condensates. Our results suggest that LLPS is an emergent property of amino acid mixtures determined by composition.",
+  "abstract_zh": "大分子相分离（macromolecular phase separation）近来因其对无膜细胞器形成的关键作用而备受瞩目，引领了细胞组织的新范式。这类相变通常称为液-液相分离（liquid-liquid phase separation, LLPS），由生物分子（包括核酸及有序和 disordered 蛋白质）之间的分子相互作用介导。在后一种情况下，蛋白质富集相与稀释相之间的分离常采用基于聚合物理论调整的模型进行解释。具体而言，“粘附子与间隔子”模型提出，蛋白质溶液中凝聚体跨越网络的形成源于两类残基之间的相互作用，而相分离的主要决定因素是多价性和序列模式。粘附子（如芳香族残基 Phe 和 Tyr）与间隔子（如 Gly 和极性残基）角色的双重性可能更广泛地适用于类蛋白质混合物，且仅存在这两类组分可能就足以触发 LLPS。为探索这一假设，我们使用封端氨基酸残基的全原子分子动力学（atomistic molecular dynamics）模拟作为最小模型系统。我们研究了纯氨基酸在水中对应于间隔子和粘附子类别的三种残基及其多组分混合物的行为。与先前观察一致，我们发现间隔子型氨基酸单独无法相分离，而粘附子型则易于聚集。然而，包含两类氨基酸的三元氨基酸混合物会相分离成两个相，这些相保持中等程度的压缩性，并比仅含粘附子的凝聚体具有更高流动性。我们的结果表明，LLPS 是氨基酸混合物的一种涌现特性，由组成决定。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36181270/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36181270/",
+  "paper_page_path": "papers/pubmed/36181270/index.html"
+}

@@ -1,0 +1,132 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.07.02.600619",
+  "title": "Poly(ADP-ribose) binding sites on collagen I fibrils for nucleating intrafibrillar bone mineral",
+  "doi": "10.1101/2024.07.02.600619",
+  "abstract": "Bone calcification is essential for vertebrate life. The mechanism by which mineral ions are transported into collagen fibrils to induce intrafibrillar mineral formation requires a calcium binding biopolymer that also has highly selective binding to the collagen fibril hole zones where intrafibrillar calcification begins, over other bone extracellular matrix components. Poly(ADP-ribose) has been shown to be a candidate biopolymer for this process and we show here that poly(ADP-ribose) has high affinity, highly conserved binding sites in the collagen type I C-terminal telopeptides. The discovery of these poly(ADP-ribose)-collagen binding sites gives new insights into the chemical mechanisms underlying bone calcification and possible mechanisms behind pathologies where there is dysfunctional bone calcification.",
+  "authors": [
+    "Zecca MA",
+    "Greer HF",
+    "Duer MJ"
+  ],
+  "published_date": "2024-07-04",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.07.02.600619",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.07.02.600619.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR876360",
+    "raw_record": {
+      "id": "PPR876360",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR876360"
+        ]
+      },
+      "doi": "10.1101/2024.07.02.600619",
+      "title": "Poly(ADP-ribose) binding sites on collagen I fibrils for nucleating intrafibrillar bone mineral",
+      "authorString": "Zecca MA, Greer HF, Duer MJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zecca MA",
+            "lastName": "Zecca",
+            "firstName": "Marco",
+            "initials": "MA"
+          },
+          {
+            "fullName": "Greer HF",
+            "lastName": "Greer",
+            "firstName": "Heather",
+            "initials": "HF"
+          },
+          {
+            "fullName": "Duer MJ",
+            "lastName": "Duer",
+            "firstName": "Melinda",
+            "initials": "MJ"
+          }
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "Bone calcification is essential for vertebrate life. The mechanism by which mineral ions are transported into collagen fibrils to induce intrafibrillar mineral formation requires a calcium binding biopolymer that also has highly selective binding to the collagen fibril hole zones where intrafibrillar calcification begins, over other bone extracellular matrix components. Poly(ADP-ribose) has been shown to be a candidate biopolymer for this process and we show here that poly(ADP-ribose) has high affinity, highly conserved binding sites in the collagen type I C-terminal telopeptides. The discovery of these poly(ADP-ribose)-collagen binding sites gives new insights into the chemical mechanisms underlying bone calcification and possible mechanisms behind pathologies where there is dysfunctional bone calcification.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.07.02.600619"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.07.02.600619"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR876360"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39977326",
+            "reference": "Proceedings of the National Academy of Sciences of the United States of America. 2025 Feb;122(8):e2414849122",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS197283",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2024-07-05",
+      "firstPublicationDate": "2024-07-04",
+      "firstIndexDate": "2024-07-05",
+      "fullTextReceivedDate": "2024-07-15",
+      "hasEvaluations": "N"
+    }
+  }
+}

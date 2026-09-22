@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40399324",
+  "title": "Wnt signalosome assembly is governed by conformational flexibility of Axin and by the AP2 clathrin adaptor.",
+  "authors": "Gammons, Melissa V; Franco-Echevarria, Elsa; Li, Tie-Mei; Rutherford, Trevor J; Renko, Miha; Batters, Christopher; Bienz, Mariann",
+  "journal": "Nature communications",
+  "published_date": "2025-05-22",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过NMR和突变实验揭示无序蛋白Axin的LIR区域与LRP6的PPPSPxS基序互作机制，并涉及信号体组装中的多价结合，虽以实验为主且无AI/物理模拟，但对象为IDR介导的PPI机制，对本课题有直接参考价值。",
+  "abstract": "Wnt signal transduction relies on the direct inhibition of GSK3 by phosphorylated PPPSPxS motifs within the cytoplasmic tail of the LRP6 co-receptor. How GSK3 is recruited to LRP6 remains unclear. Here, we use nuclear magnetic resonance spectroscopy to identify the membrane-proximal PPPSPxS motif and its flanking sequences as the primary binding site for both Axin and GSK3, and an intrinsically disordered segment of Axin as its LRP6-interacting region (LIR). Co-immunoprecipitation and CRISPR-engineered mutations in endogenous Axin indicate that its docking at LRP6 is antagonized by a phospho-dependent foldback within LIR and by a PRTxR motif that allows Axin and GSK3 to form a multi-pronged interaction which favors their detachment from LRP6. Crucially, signaling by LRP6 also depends on its binding to the AP2 clathrin adaptor. We propose that the Wnt-driven clustering of LRP6 within clathrin-coated locales allows the Axin-GSK complex to dock at adjacent LRP6 molecules, while also exposing it to co-targeted kinases that change its activity in Wnt signal transduction.",
+  "abstract_zh": "Wnt信号转导依赖于LRP6共受体胞质尾部磷酸化的PPPSPxS基序对GSK3的直接抑制。GSK3如何被招募至LRP6仍不清楚。在此，我们利用核磁共振波谱法鉴定出膜近端PPPSPxS基序及其侧翼序列为Axin和GSK3的主要结合位点，并鉴定出Axin的一个内在无序片段为其LRP6相互作用区域（LIR）。免疫共沉淀及CRISPR工程化改造内源性Axin的突变表明，其在LRP6上的对接受到LIR内磷酸化依赖性折返及一个PRTxR基序的拮抗，该基序使Axin和GSK3形成多管齐下的相互作用，有利于它们从LRP6上解离。关键的是，LRP6的信号传导还依赖于其与AP2网格蛋白适配体的结合。我们提出，Wnt驱动的LRP6在网格蛋白包被区域内的聚集使得Axin-GSK复合物能够对接至相邻的LRP6分子，同时使其暴露于共同靶向的激酶，这些激酶改变其在Wnt信号转导中的活性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40399324/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40399324/",
+  "paper_page_path": "papers/pubmed/40399324/index.html"
+}

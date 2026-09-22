@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.10.25.564023",
+  "title": "A machine learning-based approach to identify reliable gold standards for protein complex composition prediction",
+  "authors": "Pengcheng Yang; Youngwoo Lee; Daniel B. Szymanski; Jun Xie",
+  "journal": "bioRxiv",
+  "published_date": "2023-10-30",
+  "window": {
+    "start": "2023-10-30",
+    "end": "2023-11-05"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用机器学习从CFMS数据中识别蛋白复合物金标准，涉及蛋白复合物组成预测，但对象非无序蛋白/IDR，且不关注互作机制建模，仅提供基准数据集，与本课题关联较弱。",
+  "abstract": "Co-Fractionation Mass Spectrometry (CFMS) enables the discovery of protein complexes and the systems-level analyses of multimer dynamics that facilitate responses to environmental and developmental conditions. A major challenge in the CFMS analyses, and other omics approaches in general, is to conduct validation experiments at scale and develop precise methods to evaluate the performance of the analyses. For protein complex composition predictions, CORUM is commonly used as a source of known complexes; however, the subunit pools in cell extracts are very rarely in the assumed fully assembled states. Therefore, a fundamental conflict exists between the assumed multimerization of the CORUM “gold standards” and the CFMS experimental datasets to be evaluated. In this paper, we develop a machine learning-based “small world” data analysis method. This method uses size exclusion chromatography profiles of predicted CORUM complex subunits to identify relatively rare instances of fully assembled complexes, as well as bona fide stable CORUM subcomplexes. Our method involves a two-stage machine learning approach that is designed to leverage evolutionarily conserved sequences among CORUM subunits and integrate it with size exclusion chromatography profile data from CFMS experiments. The generated gold standards are evaluated by both statistical significance and size comparison between calculated and predicted complexes. We expect these gold standards to serve as improved benchmarks to assess the overall reliability of CFMS-based protein complex composition predictions.",
+  "abstract_zh": "共分离质谱法（Co-Fractionation Mass Spectrometry, CFMS）能够发现蛋白质复合物，并对促进环境与发育条件响应的多聚体动态进行系统级分析。CFMS分析及其他组学方法面临的一个主要挑战是如何大规模开展验证实验，并开发精确的方法来评估分析性能。对于蛋白质复合物组成预测，CORUM通常被用作已知复合物的来源；然而，细胞提取物中的亚基库极少处于假设的完全组装状态。因此，在CORUM“金标准”的假定多聚化状态与待评估的CFMS实验数据集之间存在根本性冲突。本文中，我们开发了一种基于机器学习的“小世界”数据分析方法。该方法利用预测的CORUM复合物亚基的尺寸排阻色谱图谱，来识别相对罕见的完全组装复合物实例，以及真正的稳定CORUM亚复合物。我们的方法采用两阶段机器学习策略，旨在利用CORUM亚基间进化保守的序列，并将其与CFMS实验中的尺寸排阻色谱图谱数据整合。生成的金标准通过统计显著性和计算复合物与预测复合物之间的尺寸比较进行评估。我们预期这些金标准可作为改进的基准，用于评估基于CFMS的蛋白质复合物组成预测的整体可靠性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.10.25.564023",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.10.25.564023",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.10.25.564023/index.html"
+}

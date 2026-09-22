@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36291695",
+  "title": "Functional Tuning of Intrinsically Disordered Regions in Human Proteins by Composition Bias.",
+  "authors": "Kastano, Kristina; Mier, Pablo; Dosztanyi, Zsuzsanna; Promponas, Vasilis J; Andrade-Navarro, Miguel A",
+  "journal": "Biomolecules",
+  "published_date": "2022-10-28",
+  "window": {
+    "start": "2022-10-24",
+    "end": "2022-10-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该文分析人类蛋白质组中无序区域与组成偏倚区域的关联，并探讨其在核蛋白和相分离蛋白中的富集及潜在互作意义，但主要基于序列统计而非AI/物理模拟方法，机制建模深度有限。",
+  "abstract": "Intrinsically disordered regions (IDRs) in protein sequences are flexible, have low structural constraints and as a result have faster rates of evolution. This lack of evolutionary conservation greatly limits the use of sequence homology for the classification and functional assessment of IDRs, as opposed to globular domains. The study of IDRs requires other properties for their classification and functional prediction. While composition bias is not a necessary property of IDRs, compositionally biased regions (CBRs) have been noted as frequent part of IDRs. We hypothesized that to characterize IDRs, it could be helpful to study their overlap with particular types of CBRs. Here, we evaluate this overlap in the human proteome. A total of 2/3 of residues in IDRs overlap CBRs. Considering CBRs enriched in one type of amino acid, we can distinguish CBRs that tend to be fully included within long IDRs (R, H, N, D, P, G), from those that partially overlap shorter IDRs (S, E, K, T), and others that tend to overlap IDR terminals (Q, A). CBRs overlap more often IDRs in nuclear proteins and in proteins involved in liquid-liquid phase separation (LLPS). Study of protein interaction networks reveals the enrichment of CBRs in IDRs by tandem repetition of short linear motifs (rich in S or P), and the existence of E-rich polar regions that could support specific protein interactions with non-specific interactions. Our results open ways to pin down the function of IDRs from their partial compositional biases.",
+  "abstract_zh": "蛋白质序列中的固有无序区域（IDRs）具有灵活性，结构约束较低，因此进化速率更快。这种缺乏进化保守性的特点极大地限制了序列同源性在IDR分类和功能评估中的应用，与球状结构域形成对比。IDR的研究需要其他特性来进行其分类和功能预测。虽然组成偏倚并非IDR的必要属性，但组成偏倚区域（CBRs）已被注意到是IDRs的常见组成部分。我们假设，为了表征IDRs，研究它们与特定类型CBRs的重叠可能有所帮助。在此，我们评估了人类蛋白质组中的这种重叠。IDRs中总共有2/3的残基与CBRs重叠。考虑到富含一种氨基酸类型的CBRs，我们可以区分倾向于完全包含在长IDRs内的CBRs（R、H、N、D、P、G），与部分重叠较短IDRs的CBRs（S、E、K、T），以及倾向于与IDR末端重叠的CBRs（Q、A）。CBRs在核蛋白和参与液-液相分离（LLPS）的蛋白质中更常与IDRs重叠。对蛋白质相互作用网络的研究揭示了通过短线性基序（富含S或P）的串联重复，CBRs在IDRs中的富集，以及存在富含E的极性区域，这些区域可能通过非特异性相互作用支持特定的蛋白质相互作用。我们的结果为从IDRs的部分组成偏倚中确定其功能开辟了途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36291695/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36291695/",
+  "paper_page_path": "papers/pubmed/36291695/index.html"
+}

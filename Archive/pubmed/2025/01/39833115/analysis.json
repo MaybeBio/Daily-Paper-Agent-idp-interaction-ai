@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39833115",
+  "title": "Supramolecular Switching of Liquid-Liquid Phase Separation for Orchestrating Enzyme Kinetics.",
+  "authors": "Wang, Deyi; Zhou, Lingying; Zhang, Xiaokun; Zhou, Zixiang; Huang, Zehuan; Gao, Ning",
+  "journal": "Angewandte Chemie (International ed. in English)",
+  "published_date": "2025-01-21",
+  "window": {
+    "start": "2025-01-20",
+    "end": "2025-01-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用超分子主客体化学可逆调控简化IDP模拟物的液-液相分离，并借此调节酶动力学，虽涉及LLPS与互作调控，但对象为设计小分子而非真实IDP/PPI，且方法为实验化学而非AI/物理模拟，机制建模深度有限。",
+  "abstract": "Dynamic liquid-liquid phase separation (LLPS) of intrinsically disordered proteins (IDPs) and associated assembly and disassembly of biomolecular condensates play crucial roles in cellular organization and metabolic networks. These processes are often regulated by supramolecular interactions. However, the complex and disordered structures of IDPs, coupled with their rapid conformational fluctuations, pose significant challenges for reconstructing supramolecularly-regulated dynamic LLPS systems and quantitatively illustrating variations in molecular interactions. Inspired by the structural feature of IDPs that facilitates LLPS, we designed a simplified phase-separating molecule, Nap-o-Nap, consisting of two naphthalene moieties linked by an ethylene glycol derivative. This compound exhibits LLPS under physiological conditions, forming coacervate microdroplets that undergo multiple cycles of disassembly and reassembly upon stoichiometric addition of Cucurbit[7]uril and Adamantane, respectively, based upon competitive host-guest interactions. Importantly, such reversible control offers a unique route to quantify entropically dominant nature (DeltaS=14.0 cal ⋅ mol(-1) ⋅ K(-1)) within the LLPS process, in which the binding affinity of host-guest interactions (DeltaG=-14.9 kcal ⋅ mol(-1)) surpass that of the LLPS of Nap-o-Nap (DeltaG=-2.1 kcal ⋅ mol(-1)), enabling the supramolecular regulation process. The supramolecularly switched LLPS, along with selective client recruitment and exclusion by resultant coacervates, provides a promising platform for either boosting or retarding enzymatic reactions, thereby orchestrating biological enzyme kinetics.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 的动态液-液相分离 (liquid-liquid phase separation, LLPS) 及相关的生物分子凝聚体的组装与解组装在细胞组织和代谢网络中发挥关键作用。这些过程通常受超分子相互作用调控。然而，IDPs 的复杂无序结构及其快速构象波动，为重建超分子调控的动态 LLPS 系统并定量阐明分子相互作用变化带来了重大挑战。受 IDPs 促进 LLPS 的结构特征启发，我们设计了一种简化的相分离分子 Nap-o-Nap，由两个萘部分通过乙二醇衍生物连接而成。该化合物在生理条件下表现出 LLPS，形成凝聚层微滴，这些微滴在分别按化学计量添加葫芦[7]脲 (Cucurbit[7]uril) 和金刚烷 (Adamantane) 时，基于竞争性主客体相互作用，经历多次解组装和再组装循环。重要的是，这种可逆控制提供了一种独特途径，用于量化 LLPS 过程中熵主导的性质 (DeltaS=14.0 cal ⋅ mol(-1) ⋅ K(-1))，其中主客体相互作用的结合亲和力 (DeltaG=-14.9 kcal ⋅ mol(-1)) 超过 Nap-o-Nap 的 LLPS (DeltaG=-2.1 kcal ⋅ mol(-1))，从而实现超分子调控过程。超分子开关的 LLPS，以及所得凝聚层对选择性客户招募和排斥，为促进或延缓酶促反应提供了有前景的平台，从而调控生物酶动力学。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39833115/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39833115/",
+  "paper_page_path": "papers/pubmed/39833115/index.html"
+}

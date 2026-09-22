@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.04.14.536982",
+  "title": "Discovery of novel multi-functional peptides by using protein language models and graph-based deep learning",
+  "authors": "Jiawei Luo; Kejuan Zhao; Junjie Chen; Caihua Yang; Fuchuan Qu; Ke Yan; Yang Zhang; Bin Liu",
+  "journal": "bioRxiv",
+  "published_date": "2023-04-17",
+  "window": {
+    "start": "2023-04-17",
+    "end": "2023-04-23"
+  },
+  "score": 4,
+  "one_liner_zh": "该文用蛋白语言模型和图注意力网络预测多功能肽（如抗菌/抗癌），对象为短肽而非无序蛋白/IDR，且聚焦功能预测而非PPI互作机制建模，方法可迁移性有限。",
+  "abstract": "Functional peptides are one kind of short protein fragments that have a wide range of beneficial functions for living organisms. The majority of previous research focused on mono-functional peptides, but a growing number of multi-functional peptides have been discovered. Although enormous experimental efforts endeavor to assay multi-functional peptides, only a small fraction of millions of known peptides have been explored. Effective and precise techniques for identifying multi-functional peptides can facilitate their discovery and mechanistic understanding. In this article, we presented a novel method, called iMFP-LG, for identifying multi-functional peptides based on protein language models (pLMs) and graph attention networks (GATs). Comparison results showed iMFP-LG significantly outperforms state-of-the-art methods on both multifunctional bioactive peptides and multi-functional therapeutic peptides datasets. The interpretability of iMFP-LG was also illustrated by visualizing attention patterns in pLMs and GATs. Regarding to the outstanding performance of iMFP-LG on the identification of multi-functional peptides, we employed iMFP-LG to screen novel candidate peptides with both ACP and AMP functions from millions of known peptides in the UniRef90. As a result, 8 candidate peptides were identified, and 1 candidate that exhibits significant antibacterial and anticancer effect was confirmed through molecular structure alignment and biological experiments. We anticipate iMFP-LG can assist in the discovery of multi-functional peptides and contribute to the advancement of peptide drug design. Availability and implementation The models and associated code are available at: https://github.com/chen-bioinfo/iMFP-LG . Supplementary information Supplementary data are available online.",
+  "abstract_zh": "功能性肽是一类对生物体具有广泛有益功能的短蛋白片段。以往研究大多集中于单功能肽，但越来越多的多功能肽已被发现。尽管大量实验努力尝试测定多功能肽，但数百万已知肽中仅有少数被探索。有效且精确的识别多功能肽的技术可以促进其发现及机制理解。本文中，我们提出了一种名为iMFP-LG的新方法，基于蛋白质语言模型（pLMs）和图注意力网络（GATs）来识别多功能肽。比较结果显示，iMFP-LG在多功能生物活性肽和多功能治疗性肽数据集上均显著优于现有最先进方法。通过可视化pLMs和GATs中的注意力模式，也展示了iMFP-LG的可解释性。鉴于iMFP-LG在多功能肽识别中的卓越性能，我们利用iMFP-LG从UniRef90中数百万已知肽中筛选出具有ACP和AMP双重功能的新型候选肽。结果，鉴定出8个候选肽，并通过分子结构比对和生物学实验确认了1个具有显著抗菌和抗癌效果的候选肽。我们预期iMFP-LG能辅助多功能肽的发现，并促进肽药物设计的进展。可用性与实现 模型及相关代码可在以下网址获取：https://github.com/chen-bioinfo/iMFP-LG 。补充信息 补充数据可在网上获取。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.04.14.536982",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.04.14.536982",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.04.14.536982/index.html"
+}

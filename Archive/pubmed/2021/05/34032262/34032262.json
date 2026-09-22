@@ -1,0 +1,236 @@
+{
+  "identity": {
+    "pmid": "34032262",
+    "doi": "10.1039/d1nr01563j",
+    "title": "Surface ligand rigidity modulates lipid raft affinity of ultra-small hydrophobic nanoparticles: insights from molecular dynamics simulations."
+  },
+  "content": {
+    "abstract": "Differential preferences between lipids and proteins drive the formation of dynamical nanoscale membrane domains (lipid rafts), which play key roles in the proper functioning of cells. On the other hand, due to the potent physicochemical properties of nanoparticles (NPs), they have been widely used in drug delivery, bio-imaging and regulating various essential biological processes of the cells. Hence, in this work, we aim to design ultra-small hydrophobic NPs with tunable raft affinity, which is supposed to partition into the hydrophobic region of lipid membranes and be able to regulate the dynamics of the lipid raft domains. A series of mus-scale coarse-grained molecular dynamics simulations and umbrella sampling free energy calculations were performed to investigate the role of surface ligand rigidity of ultra-small hydrophobicNPs in their raft affinity. Our results indicated that the preferred localization of NPs can be tuned by adjusting their surface ligand rigidity. Generally, rigid NPs tended to target the raft domain, while soft NPs preferred the interface of the raft and non-raft domains. The free energy analysis further indicated that the surface ligand rigidity of NPs can enhance their targeting to lipid raft domains. Besides, we found that these ultra-small NPs had no significant effects on the phase separation of the lipid membrane although they might cause some local interference to surrounding lipids. These results indicate that the targeting to the lipid raft domain can be achieved by the surface ligand rigidity of NPs, which provides helpful insights for further regulations of lipid raft-mediated biological processes.",
+    "keywords": [],
+    "mesh_terms": [
+      "Hydrophobic and Hydrophilic Interactions",
+      "Ligands",
+      "Membrane Microdomains",
+      "*Molecular Dynamics Simulation",
+      "*Nanoparticles"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Xiaoqian",
+        "Lin, Xubo"
+      ],
+      "short_names": [
+        "Lin X",
+        "Lin X"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Institute of Single Cell Engineering, Key Laboratory of Ministry of Education for Biomechanics and Mechanobiology, Beijing Advanced Innovation Center for Biomedical Engineering, School of Biological Science and Medical Engineering, Beihang University, Beijing 100191, China. linxbseu@buaa.edu.cn."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Xiaoqian",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Single Cell Engineering, Key Laboratory of Ministry of Education for Biomechanics and Mechanobiology, Beijing Advanced Innovation Center for Biomedical Engineering, School of Biological Science and Medical Engineering, Beihang University, Beijing 100191, China. linxbseu@buaa.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Lin, Xubo",
+        "short_name": "Lin X",
+        "identifiers": [],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nanoscale"
+    ],
+    "journal_abbrev": [
+      "Nanoscale"
+    ],
+    "pub_date": "2021 Jun 3",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/26 06:00",
+    "fetched_at": "2026-09-20 03:27:23"
+  },
+  "links": {
+    "cites": [
+      "41573751",
+      "38354368",
+      "37215569"
+    ],
+    "refs": [],
+    "similar": [
+      "34032262",
+      "34757373",
+      "32022059",
+      "30638009",
+      "29694870",
+      "30398246",
+      "28780125",
+      "38646798",
+      "22239803",
+      "29445792",
+      "31148024",
+      "31770996",
+      "24464138",
+      "29340405",
+      "31816323",
+      "14661971",
+      "22609866",
+      "38354368",
+      "25757187",
+      "27119640",
+      "29730243",
+      "26974016",
+      "31250627",
+      "28797162",
+      "25299598",
+      "20158041",
+      "28585042",
+      "22975010",
+      "25444976",
+      "30033287",
+      "29808987",
+      "32259453",
+      "27740657",
+      "19032046",
+      "25529120",
+      "32392064",
+      "15376621",
+      "26241883",
+      "20365400",
+      "30768108",
+      "34812629",
+      "38652138",
+      "32770501",
+      "23223270",
+      "28562045",
+      "20496924",
+      "31442945",
+      "14699154",
+      "17319738",
+      "31207252",
+      "31499808",
+      "26283128",
+      "37431896",
+      "32032370",
+      "25474252",
+      "24695573",
+      "33621066",
+      "21137995",
+      "28918189",
+      "20580915",
+      "25675048",
+      "18214387",
+      "24892900",
+      "38180048",
+      "38809819",
+      "35603431",
+      "32179374",
+      "31888335",
+      "26773462",
+      "15153431",
+      "37753922",
+      "21991934",
+      "29385304",
+      "28650048",
+      "27276053",
+      "32271757",
+      "26861908",
+      "25149801",
+      "37742069",
+      "32204392",
+      "31566375",
+      "26747763",
+      "27574865",
+      "28621369",
+      "12610149",
+      "31012268",
+      "20478335",
+      "31916561",
+      "34115507",
+      "29485168",
+      "32033487",
+      "30908057",
+      "20583817",
+      "12648777",
+      "30651415",
+      "22950802",
+      "34008687",
+      "34698497",
+      "30979183",
+      "34633195",
+      "36778479",
+      "36465108",
+      "38720633",
+      "36134276",
+      "35480645",
+      "35702934",
+      "33120231",
+      "35782961",
+      "36411252",
+      "37311219",
+      "39382132",
+      "30814004",
+      "34550677",
+      "36132950",
+      "35164220",
+      "33416062",
+      "36203878",
+      "28348305",
+      "30789180"
+    ],
+    "review": [
+      "34032262",
+      "22975010",
+      "25444976",
+      "15376621",
+      "26241883",
+      "32770501",
+      "38809819",
+      "15153431",
+      "20478335",
+      "20583817",
+      "12648777",
+      "30979183",
+      "33120231",
+      "30814004",
+      "36203878",
+      "28348305"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d1nr01563j",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/34032262",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

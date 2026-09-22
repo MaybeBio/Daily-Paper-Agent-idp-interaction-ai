@@ -1,0 +1,389 @@
+{
+  "identity": {
+    "pmid": "39398199",
+    "doi": "",
+    "title": "Material properties of biomolecular condensates emerge from nanoscale dynamics."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates form by phase separation of biological polymers and have important functions in the cell - functions that are inherently linked to their physical properties at different scales. A notable aspect of such membraneless organelles is that their viscoelastic properties can vary by orders of magnitude, but it has remained unclear how these pronounced differences are rooted in the nanoscale dynamics at the molecular level. Here we investigate a series of condensates formed by complex coacervation of highly charged disordered proteins and polypeptides that span about two orders of magnitude in bulk viscosity. We find that their viscosity is highly correlated with protein translational diffusion and nano- to microsecond chain dynamics. Remarkably, analytical relations from polymer physics can predict condensate viscosity from diffusivity and chain dynamics, and vice versa, even for more hydrophobic disordered proteins and for synthetic polyelectrolytes, indicating a mechanistic link across several decades of length- and timescales. Atomistic simulations reveal that the observed differences in friction - a key quantity underlying these relations - reflect differences in inter-residue contact lifetimes as a function of arginine content and salt concentration, leading to the vastly different dynamics among condensates. The rapid exchange of inter-residue contacts we observe may be a general mechanism for preventing dynamic arrest in compartments densely packed with polyelectrolytes, such as the cell nucleus.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Galvanetto, Nicola",
+        "Ivanovic, Milos T",
+        "Del Grosso, Simone A",
+        "Chowdhury, Aritra",
+        "Sottini, Andrea",
+        "Nettels, Daniel",
+        "Best, Robert B",
+        "Schuler, Benjamin"
+      ],
+      "short_names": [
+        "Galvanetto N",
+        "Ivanovic MT",
+        "Del Grosso SA",
+        "Chowdhury A",
+        "Sottini A",
+        "Nettels D",
+        "Best RB",
+        "Schuler B"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Physics, University of Zurich, Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA.",
+        "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+        "Department of Physics, University of Zurich, Zurich, Switzerland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Galvanetto, Nicola",
+        "short_name": "Galvanetto N",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+          "Department of Physics, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Ivanović, Miloš T",
+        "short_name": "Ivanović MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Del Grosso, Simone A",
+        "short_name": "Del Grosso SA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Chowdhury, Aritra",
+        "short_name": "Chowdhury A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Sottini, Andrea",
+        "short_name": "Sottini A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Nettels, Daniel",
+        "short_name": "Nettels D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland."
+        ]
+      },
+      {
+        "full_name": "Best, Robert B",
+        "short_name": "Best RB",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, MD, USA."
+        ]
+      },
+      {
+        "full_name": "Schuler, Benjamin",
+        "short_name": "Schuler B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry, University of Zurich, Zurich, Switzerland.",
+          "Department of Physics, University of Zurich, Zurich, Switzerland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "ArXiv"
+    ],
+    "journal_abbrev": [
+      "ArXiv"
+    ],
+    "pub_date": "2025 Jul 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/14 12:22",
+    "fetched_at": "2026-09-22 01:58:52"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "39866835",
+      "39486437",
+      "39464253",
+      "39225536",
+      "38885177",
+      "38637545",
+      "38553587",
+      "38503281",
+      "38429263",
+      "38424273",
+      "38181073",
+      "37968398",
+      "37796987",
+      "37749234",
+      "37735186",
+      "37549257",
+      "37468629",
+      "37194953",
+      "36747054",
+      "36513655",
+      "36443315",
+      "36397514",
+      "36240277",
+      "36175408",
+      "36163138",
+      "35119898",
+      "34992286",
+      "34887356",
+      "34785657",
+      "34654286",
+      "34645832",
+      "34636323",
+      "34541184",
+      "34536387",
+      "34081479",
+      "34035521",
+      "33982350",
+      "33597515",
+      "33453924",
+      "33303613",
+      "33302617",
+      "33184256",
+      "33169001",
+      "32942387",
+      "32934220",
+      "32822449",
+      "32482873",
+      "32338959",
+      "32312191",
+      "32290322",
+      "32134099",
+      "32029630",
+      "32004090",
+      "31543265",
+      "31270472",
+      "31001538",
+      "30950394",
+      "30682370",
+      "30389709",
+      "30384743",
+      "30171252",
+      "29972809",
+      "29961577",
+      "29719674",
+      "29677515",
+      "29604882",
+      "29466338",
+      "29424691",
+      "29064502",
+      "28636597",
+      "27713081",
+      "27633928",
+      "27566405",
+      "27145874",
+      "26919016",
+      "26899474",
+      "26831090",
+      "26317887",
+      "25586861",
+      "25400522",
+      "25288112",
+      "24128758",
+      "23083137",
+      "22984159",
+      "22492978",
+      "22398450",
+      "22058573",
+      "21979048",
+      "21539801",
+      "20639465",
+      "20434447",
+      "20408171",
+      "20095754",
+      "20080558",
+      "19739874",
+      "18752262",
+      "18506808",
+      "18232681",
+      "18196502",
+      "18055096",
+      "17358176",
+      "17301233",
+      "17269116",
+      "17212484",
+      "16957321",
+      "16392929",
+      "14764875",
+      "13165653",
+      "12684536",
+      "12554742",
+      "12237457",
+      "8552642",
+      "3367995"
+    ],
+    "similar": [
+      "39398199",
+      "40455990",
+      "41481439",
+      "37468629",
+      "40791470",
+      "41279444",
+      "38252962",
+      "37131735",
+      "37194953",
+      "23912807",
+      "33453924",
+      "38363841",
+      "33302617",
+      "37470705",
+      "34664748",
+      "38621751",
+      "38149872",
+      "39320949",
+      "34785657",
+      "34636323",
+      "36595668",
+      "37215004",
+      "39866835",
+      "37789618",
+      "39987501",
+      "39568893",
+      "36350032",
+      "39827079",
+      "38429263",
+      "32822449",
+      "40985078",
+      "32936641",
+      "36279601",
+      "30926670",
+      "33409284",
+      "40386802",
+      "32800925",
+      "39042834",
+      "37386790",
+      "40748104",
+      "32584357",
+      "35179885",
+      "31017394",
+      "40291420",
+      "35881789",
+      "40028898",
+      "39225535",
+      "39257779",
+      "40954121",
+      "37252985",
+      "40481268",
+      "39591652",
+      "40848932",
+      "39005320",
+      "39113361",
+      "39937084",
+      "38063842",
+      "34648259",
+      "39636939",
+      "36702825",
+      "40521608",
+      "40475453",
+      "39486437",
+      "40168179",
+      "33684296",
+      "37013374",
+      "40972943",
+      "33661634",
+      "34304571",
+      "38349628",
+      "39225536",
+      "40195042",
+      "31484749",
+      "37782826",
+      "37735186",
+      "40136009",
+      "33087563",
+      "36883003",
+      "40028356",
+      "39168125",
+      "36150962",
+      "37464880",
+      "36191226",
+      "39271032",
+      "38360555",
+      "33376791",
+      "39171763",
+      "35325654",
+      "32426986",
+      "35293386",
+      "39804953",
+      "33864415",
+      "40102453",
+      "38181073",
+      "33704061",
+      "36164646",
+      "30608810",
+      "37577555",
+      "35551426",
+      "37159305"
+    ],
+    "review": [
+      "39398199",
+      "38621751",
+      "36350032",
+      "39827079",
+      "36279601",
+      "33409284",
+      "32800925",
+      "35179885",
+      "33684296",
+      "40195042",
+      "36150962",
+      "37464880",
+      "39271032",
+      "38360555"
+    ],
+    "pmc": [
+      "11468658"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39398199/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

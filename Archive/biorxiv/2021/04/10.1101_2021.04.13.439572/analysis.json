@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.04.13.439572",
+  "title": "Proteome-scale amino-acid resolution footprinting of protein-binding sites in the intrinsically disordered regions of the human proteome",
+  "authors": "Caroline Benz; Muhammad Ali; Izabella Krystkowiak; Leandro Simonetti; Ahmed Sayadi; Filip Mihalic; Johanna Kliche; Eva Andersson; Per Jemth; Norman E. Davey; Ylva Ivarsson",
+  "journal": "bioRxiv",
+  "published_date": "2021-04-13",
+  "window": {
+    "start": "2021-04-12",
+    "end": "2021-04-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用ProP-PD肽库高通量筛选人类无序组中SLiM介导的PPI，并以氨基酸分辨率footprinting结合位点，虽为实验方法但直接针对IDR互作机制，对AI/物理建模有数据支撑价值。",
+  "abstract": "Specific protein-protein interactions are central to all processes that underlie cell physiology. Numerous studies using a wide range of experimental approaches have identified tens of thousands of human protein-protein interactions. However, many interactions remain to be discovered, and low affinity, conditional and cell type-specific interactions are likely to be disproportionately under-represented. Moreover, for most known protein-protein interactions the binding regions remain uncharacterized. We previously developed proteomic peptide phage display (ProP-PD), a method for simultaneous proteome-scale identification of short linear motif (SLiM)-mediated interactions and footprinting of the binding region with amino acid resolution. Here, we describe the second-generation human disorderome (HD2), an optimized ProP-PD library that tiles all disordered regions of the human proteome and allows the screening of ~1,000,000 overlapping peptides in a single binding assay. We define guidelines for how to process, filter and rank the results and provide PepTools, a toolkit for annotation and analysis of identified hits. We uncovered 2,161 interaction pairs for 35 known SLiM-binding domains and confirmed a subset of 38 interactions by biophysical or cell-based assays. Finally, we show how the amino acid resolution binding site information can be used to pinpoint functionally important disease mutations and phosphorylation events in intrinsically disordered regions of the human proteome. The HD2 ProP-PD library paired with PepTools represents a powerful pipeline for unbiased proteome-wide discovery of SLiM-based interactions.",
+  "abstract_zh": "特定的蛋白质-蛋白质相互作用是细胞生理学所有过程的核心。利用多种实验方法的大量研究已识别出数万种人类蛋白质-蛋白质相互作用。然而，许多相互作用仍有待发现，低亲和力、条件性和细胞类型特异性的相互作用可能被不成比例地低估。此外，对于大多数已知的蛋白质-蛋白质相互作用，其结合区域仍未得到表征。我们先前开发了蛋白质组肽噬菌体展示（ProP-PD）方法，用于同时进行蛋白质组规模的短线性基序（SLiM）介导的相互作用鉴定，并以氨基酸分辨率对结合区域进行足迹分析。在此，我们描述了第二代人类疾病组（HD2），这是一个优化的ProP-PD文库，覆盖了人类蛋白质组的所有无序区域，并允许在单一结合测定中筛选约1,000,000个重叠肽。我们定义了如何处理、过滤和排序结果的指南，并提供了PepTools，一个用于注释和分析已识别命中结果的工具包。我们为35个已知SLiM结合域发现了2,161个相互作用对，并通过生物物理或细胞基测定确认了38个相互作用的子集。最后，我们展示了如何利用氨基酸分辨率结合位点信息来精确定位人类蛋白质组内在无序区域中功能重要的疾病突变和磷酸化事件。HD2 ProP-PD文库与PepTools配对，代表了一个用于无偏蛋白质组范围发现基于SLiM相互作用的强大流程。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.04.13.439572",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.04.13.439572",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.04.13.439572/index.html"
+}

@@ -1,0 +1,281 @@
+{
+  "identity": {
+    "pmid": "37286963",
+    "doi": "10.1186/s12859-023-05340-x",
+    "title": "Rescuing biologically relevant consensus regions across replicated samples."
+  },
+  "content": {
+    "abstract": "BACKGROUND: Protein-DNA binding sites of ChIP-seq experiments are identified where the binding affinity is significant based on a given threshold. The choice of the threshold is a trade-off between conservative region identification and discarding weak, but true binding sites. RESULTS: We rescue weak binding sites using MSPC, which efficiently exploits replicates to lower the threshold required to identify a site while keeping a low false-positive rate, and we compare it to IDR, a widely used post-processing method for identifying highly reproducible peaks across replicates. We observe several master transcription regulators (e.g., SP1 and GATA3) and HDAC2-GATA1 regulatory networks on rescued regions in K562 cell line. CONCLUSIONS: We argue the biological relevance of weak binding sites and the information they add when rescued by MSPC. An implementation of the proposed extended MSPC methodology and the scripts to reproduce the performed analysis are freely available at https://genometric.github.io/MSPC/ ; MSPC is distributed as a command-line application and an R package available from Bioconductor ( https://doi.org/doi:10.18129/B9.bioc.rmspc ).",
+    "keywords": [
+      "Biological replicates",
+      "Consensus regions",
+      "Peak calling",
+      "Replicated samples",
+      "Technical replicates",
+      "Weak binding affinities"
+    ],
+    "mesh_terms": [
+      "Sequence Analysis, DNA/methods",
+      "*Software",
+      "Consensus",
+      "*Chromatin Immunoprecipitation Sequencing",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jalili, Vahid",
+        "Cremona, Marzia A",
+        "Palluzzi, Fernando"
+      ],
+      "short_names": [
+        "Jalili V",
+        "Cremona MA",
+        "Palluzzi F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Broad Institute of MIT and Harvard, Cambridge, MA, USA. jvahid@broadinstitute.org.",
+        "Department of Operations and Decision Systems, Universite Laval, Quebec, Canada. marzia.cremona@fsa.ulaval.ca.",
+        "CHU de Quebec - Universite Laval Research Center, Quebec, Canada. marzia.cremona@fsa.ulaval.ca.",
+        "Department of Brain and Behavioral Sciences, Universita di Pavia, Pavia, Italy. fernando.palluzzi@policlinicogemelli.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jalili, Vahid",
+        "short_name": "Jalili V",
+        "identifiers": [],
+        "affiliations": [
+          "Broad Institute of MIT and Harvard, Cambridge, MA, USA. jvahid@broadinstitute.org."
+        ]
+      },
+      {
+        "full_name": "Cremona, Marzia A",
+        "short_name": "Cremona MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Operations and Decision Systems, Université Laval, Quebec, Canada. marzia.cremona@fsa.ulaval.ca.",
+          "CHU de Québec - Université Laval Research Center, Quebec, Canada. marzia.cremona@fsa.ulaval.ca."
+        ]
+      },
+      {
+        "full_name": "Palluzzi, Fernando",
+        "short_name": "Palluzzi F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Brain and Behavioral Sciences, Università di Pavia, Pavia, Italy. fernando.palluzzi@policlinicogemelli.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "BMC bioinformatics"
+    ],
+    "journal_abbrev": [
+      "BMC Bioinformatics"
+    ],
+    "pub_date": "2023 Jun 7",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/06/08 01:08",
+    "fetched_at": "2026-09-20 22:36:22"
+  },
+  "links": {
+    "cites": [
+      "41153448",
+      "41097033",
+      "40666991"
+    ],
+    "refs": [
+      "33878366",
+      "33780170",
+      "33021671",
+      "32890394",
+      "32187374",
+      "31910827",
+      "31372637",
+      "30697231",
+      "30620009",
+      "30185787",
+      "30038397",
+      "29126249",
+      "29120462",
+      "29036329",
+      "28981893",
+      "28881977",
+      "28555414",
+      "27634469",
+      "27484474",
+      "27169896",
+      "27139377",
+      "27013647",
+      "26979602",
+      "26953528",
+      "26883634",
+      "26686465",
+      "26578583",
+      "26527727",
+      "26511446",
+      "26476454",
+      "25957351",
+      "25884684",
+      "25371479",
+      "25223640",
+      "25192742",
+      "24894502",
+      "24852250",
+      "24688750",
+      "24675896",
+      "24675637",
+      "24178187",
+      "24039558",
+      "24021381",
+      "23844871",
+      "23586463",
+      "23193258",
+      "22955619",
+      "21486936",
+      "21113027",
+      "20944595",
+      "20709693",
+      "20628599",
+      "20598134",
+      "19923429",
+      "19458158",
+      "18798982",
+      "12045153"
+    ],
+    "similar": [
+      "37286963",
+      "25957351",
+      "31347689",
+      "30824903",
+      "29684098",
+      "25765347",
+      "33878366",
+      "20459804",
+      "33999190",
+      "37208173",
+      "32187374",
+      "32991679",
+      "38114921",
+      "35809062",
+      "24894502",
+      "27814676",
+      "31899481",
+      "30897079",
+      "26578583",
+      "28981893",
+      "33320934",
+      "34672337",
+      "29800273",
+      "28506212",
+      "31324268",
+      "28169395",
+      "34404353",
+      "27993776",
+      "25785608",
+      "24267901",
+      "24564277",
+      "34734974",
+      "33858322",
+      "21245054",
+      "31465497",
+      "29522192",
+      "35240993",
+      "32822050",
+      "21471015",
+      "20089513",
+      "33879052",
+      "27650223",
+      "25957350",
+      "36702751",
+      "34292930",
+      "20017957",
+      "34965583",
+      "29028898",
+      "19061503",
+      "29528371",
+      "19553195",
+      "35258562",
+      "24428924",
+      "34273560",
+      "27993786",
+      "22009681",
+      "34284136",
+      "28203701",
+      "26117547",
+      "32213349",
+      "24688750",
+      "35413804",
+      "27288492",
+      "32429868",
+      "25970601",
+      "24852250",
+      "31070745",
+      "31942977",
+      "24979058",
+      "29025895",
+      "19906703",
+      "20827591",
+      "27634469",
+      "34019290",
+      "23266983",
+      "32321568",
+      "20823314",
+      "24564479",
+      "18684996",
+      "21554709",
+      "35193506",
+      "32170928",
+      "28369277",
+      "22130889",
+      "26040656",
+      "32404971",
+      "25024162",
+      "32207529",
+      "35199152"
+    ],
+    "review": [
+      "37286963"
+    ],
+    "pmc": [
+      "10246347"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-023-05340-x",
+        "provider": "BioMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/37286963/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/37286963",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

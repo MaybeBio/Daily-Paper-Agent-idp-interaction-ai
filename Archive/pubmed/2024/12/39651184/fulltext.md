@@ -1,0 +1,5 @@
+# Synergistic Multi-Pronged Interactions Mediate the Effective Inhibition of Alpha-Synuclein Aggregation by the Chaperone HtrA1
+
+
+## Significance Statement
+  PD and other synucleinopathies are marked by misfolding and aggregation of α-Syn, forming higher-order species that propagate aggregation in a prion-like manner. Understanding how chaperone proteins inhibit α-Syn aggregation and spread is essential for therapeutic development against neurodegeneration. Through an integrative approach of solution-based NMR, AFM, aggregation kinetics, and computational analysis, we reveal how a catalytically inactive variant of the chaperone HtrA1 effectively disrupts aggregation pathways. We find that the inactive Protease and PDZ domains of HtrA1 synergistically bind to key intrinsically disordered sites on both α-Syn monomers and fibrils, thereby effectively inhibiting both aggregation and templated seeding. Our work provides a natural and unique blueprint for designing inhibitors to prevent the formation and seeding of aggregates in neurodegenerative diseases.

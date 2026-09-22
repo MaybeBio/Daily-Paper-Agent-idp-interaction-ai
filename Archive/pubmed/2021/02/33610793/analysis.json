@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "33610793",
+  "title": "Computational Screening of Phase-separating Proteins.",
+  "authors": "Shen, Boyan; Chen, Zhaoming; Yu, Chunyu; Chen, Taoyu; Shi, Minglei; Li, Tingting",
+  "journal": "Genomics, proteomics & bioinformatics",
+  "published_date": "2021-02-22",
+  "window": {
+    "start": "2021-02-22",
+    "end": "2021-02-28"
+  },
+  "score": 6,
+  "one_liner_zh": "该文综述了基于序列的相分离蛋白预测工具，并强调整合PPI、PTM和IF图像等特征以改进预测，虽涉及IDR和PPI但缺乏具体AI/物理建模方法，属于综述性工作。",
+  "abstract": "Phase separation is an important mechanism that mediates the compartmentalization of proteins in cells. Proteins that can undergo phase separation in cells share certain typical sequence features, like intrinsically disordered regions (IDRs) and multiple modular domains. Sequence-based analysis tools are commonly used in the screening of these proteins. However, current phase separation predictors are mostly designed for IDR-containing proteins, thus inevitably overlook the phase-separating proteins with relatively low IDR content. Features other than amino acid sequence could provide crucial information for identifying possible phase-separating proteins: protein-protein interaction (PPI) networks show multivalent interactions that underlie phase separation process; post-translational modifications (PTMs) are crucial in the regulation of phase separation behavior; spherical structures revealed in immunofluorescence (IF)images indicate condensed droplets formed by phase-separating proteins, distinguishing these proteins from non-phase-separating proteins. Here, we summarize the sequence-based tools for predicting phase-separating proteins and highlight the importance of incorporating PPIs, PTMs, and IF images into phase separation prediction in future studies.",
+  "abstract_zh": "相分离 (phase separation) 是介导细胞内蛋白质区室化的重要机制。能够在细胞内发生相分离的蛋白质共享某些典型的序列特征，如 intrinsically disordered regions (IDRs) 和多个模块化结构域。基于序列的分析工具常用于筛选这些蛋白质。然而，当前的相分离预测器大多针对含IDR的蛋白质设计，因此不可避免地忽略了IDR含量相对较低的相分离蛋白质。氨基酸序列以外的特征可为识别可能的相分离蛋白质提供关键信息：蛋白质-蛋白质相互作用 (protein-protein interaction, PPI) 网络显示相分离过程所依赖的多价相互作用；翻译后修饰 (post-translational modifications, PTMs) 在相分离行为的调控中至关重要；免疫荧光 (immunofluorescence, IF) 图像中揭示的球形结构表明相分离蛋白质形成的凝聚液滴，从而将这些蛋白质与非相分离蛋白质区分开来。在此，我们总结了基于序列的相分离蛋白质预测工具，并强调在未来研究中将PPIs、PTMs和IF图像纳入相分离预测的重要性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/33610793/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/33610793/",
+  "paper_page_path": "papers/pubmed/33610793/index.html"
+}

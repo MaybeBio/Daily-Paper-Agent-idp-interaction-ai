@@ -1,0 +1,269 @@
+{
+  "identity": {
+    "pmid": "41648378",
+    "doi": "10.64898/2026.01.12.699095",
+    "title": "Biomolecular Condensates Dictate the Folding Landscape of Proteins."
+  },
+  "content": {
+    "abstract": "Protein structure is exquisitely sensitive to the surrounding chemical environment, and many proteins encounter complex environments within cells. Importantly, numerous proteins organize into biomolecular condensates-dense macromolecular assemblies with distinct physicochemical properties. This raises a fundamental question: how does condensation reshape protein structure and dynamics? Here, we investigate how protein folding landscapes are altered inside condensates, using the protein alpha -helix as a model folded domain. Atomistic simulations show that free energy surfaces within condensates differ markedly from those in dilute solution or in the presence of inert crowders. We then use Bayesian optimization to develop a chemically specific, near-atomistic model for quantification of alpha -helical folding and apply it to characterize diverse helices, including alpha -helical domains from the disease-associated proteins TDP43, Annexin A11, and the Androgen Receptor, within condensates of varying physicochemical properties. Our results support a framework in which multivalent interactions drive unfolding while crowding promotes folding, and protein conformational ensembles inside condensates emerge from this balance. Additionally, we show that folding transitions are kinetically frustrated inside condensates because they are coupled to the timescale of contact rearrangement with co-condensate proteins. As such, folding landscapes within condensates are dually sequence-dependent, informed by both the sequence of the folded domain and co-condensate proteins. Together, our work has implications for understanding condensate-mediated proteinopathies, targeting aberrant condensates, and designing condensates to program protein function across scales.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hess, Nathaniel",
+        "Joseph, Jerelle A"
+      ],
+      "short_names": [
+        "Hess N",
+        "Joseph JA"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8971-332X",
+        "ORCID: 0000-0003-4525-180X"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+        "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+        "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hess, Nathaniel",
+        "short_name": "Hess N",
+        "identifiers": [
+          "0000-0001-8971-332X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      },
+      {
+        "full_name": "Joseph, Jerelle A",
+        "short_name": "Joseph JA",
+        "identifiers": [
+          "0000-0003-4525-180X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, Princeton University, Princeton, NJ 08544, USA.",
+          "Omenn-Darling Bioengineering Institute, Princeton University, Princeton, NJ 08544, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2026 Jan 20",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/02/06 13:18",
+    "fetched_at": "2026-09-18 00:33:39"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40747072",
+      "40412392",
+      "39827079",
+      "39755715",
+      "39552041",
+      "39260416",
+      "38991204",
+      "38503281",
+      "38000367",
+      "37973891",
+      "37770698",
+      "36229685",
+      "35802394",
+      "34265844",
+      "34103467",
+      "33767388",
+      "33004511",
+      "32881101",
+      "31714766",
+      "31681941",
+      "31539493",
+      "29937223",
+      "29650702",
+      "28225081",
+      "28165082",
+      "27819658",
+      "27545621",
+      "26574453",
+      "26574340",
+      "26488642",
+      "25885484",
+      "24659241",
+      "22455930",
+      "22360139",
+      "21714551",
+      "21506571",
+      "21500218",
+      "20225890",
+      "19702302",
+      "19514729",
+      "19461947",
+      "19460965",
+      "18372902",
+      "17420290",
+      "12912846",
+      "7664049",
+      "6667333",
+      "1814498",
+      "1420991"
+    ],
+    "similar": [
+      "41648378",
+      "42701255",
+      "23912807",
+      "40766493",
+      "42475469",
+      "41169547",
+      "40098319",
+      "39486437",
+      "34487489",
+      "39937084",
+      "37194953",
+      "41118627",
+      "36164646",
+      "39172789",
+      "39568893",
+      "35293386",
+      "38429263",
+      "35727989",
+      "35926384",
+      "33934561",
+      "39605385",
+      "34090478",
+      "36883003",
+      "36993212",
+      "22253588",
+      "40857360",
+      "42230638",
+      "40985078",
+      "37470705",
+      "37043540",
+      "36004748",
+      "36847235",
+      "40203038",
+      "32914959",
+      "40747072",
+      "41481439",
+      "38987300",
+      "39138204",
+      "41991555",
+      "22070323",
+      "35179885",
+      "42081454",
+      "40196628",
+      "42276972",
+      "40291420",
+      "38915678",
+      "39070659",
+      "42065721",
+      "42244763",
+      "40954121",
+      "40672301",
+      "40468084",
+      "40848932",
+      "38260590",
+      "40093099",
+      "39412378",
+      "40791470",
+      "9062118",
+      "39636939",
+      "40521608",
+      "41409210",
+      "41088757",
+      "37131735",
+      "40603603",
+      "34298994",
+      "40962203",
+      "38566451",
+      "42314385",
+      "21386278",
+      "11735398",
+      "42531022",
+      "37215004",
+      "41969219",
+      "41342450",
+      "40455990",
+      "40661423",
+      "37386790",
+      "24837534",
+      "40074825",
+      "33307683",
+      "39763716",
+      "39928699",
+      "37894933",
+      "41318327",
+      "34266250",
+      "19072704",
+      "39134696",
+      "36416856",
+      "42055532",
+      "25257385",
+      "20130652",
+      "35796197",
+      "38637545",
+      "39610751",
+      "34706978",
+      "39185151",
+      "33672806",
+      "41191214",
+      "38824391",
+      "2329584"
+    ],
+    "review": [
+      "41648378",
+      "36164646",
+      "33934561",
+      "35179885",
+      "42276972",
+      "42065721",
+      "41409210",
+      "40962203",
+      "41318327",
+      "39134696",
+      "35796197",
+      "34706978"
+    ],
+    "pmc": [
+      "12871253"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41648378/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.64898/2026.01.12.699095",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

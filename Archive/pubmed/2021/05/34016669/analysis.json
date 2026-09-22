@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34016669",
+  "title": "The Emerging Role of the Innate Immune Response in Idiosyncratic Drug Reactions.",
+  "authors": "Sernoskie, Samantha Christine; Jee, Alison; Uetrecht, Jack Paul",
+  "journal": "Pharmacological reviews",
+  "published_date": "2021-05-22",
+  "window": {
+    "start": "2021-05-17",
+    "end": "2021-05-23"
+  },
+  "score": 0,
+  "one_liner_zh": "该综述讨论药物特异性不良反应中先天免疫应答的作用，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Idiosyncratic drug reactions (IDRs) range from relatively common, mild reactions to rarer, potentially life-threatening adverse effects that pose significant risks to both human health and successful drug discovery. Most frequently, IDRs target the liver, skin, and blood or bone marrow. Clinical data indicate that most IDRs are mediated by an adaptive immune response against drug-modified proteins, formed when chemically reactive species of a drug bind to self-proteins, making them appear foreign to the immune system. Although much emphasis has been placed on characterizing the clinical presentation of IDRs and noting implicated drugs, limited research has focused on the mechanisms preceding the manifestations of these severe responses. Therefore, we propose that to address the knowledge gap between drug administration and onset of a severe IDR, more research is required to understand IDR-initiating mechanisms; namely, the role of the innate immune response. In this review, we outline the immune processes involved from neoantigen formation to the result of the formation of the immunologic synapse and suggest that this framework be applied to IDR research. Using four drugs associated with severe IDRs as examples (amoxicillin, amodiaquine, clozapine, and nevirapine), we also summarize clinical and animal model data that are supportive of an early innate immune response. Finally, we discuss how understanding the early steps in innate immune activation in the development of an adaptive IDR will be fundamental in risk assessment during drug development. SIGNIFICANCE STATEMENT: Although there is some understanding that certain adaptive immune mechanisms are involved in the development of idiosyncratic drug reactions, the early phase of these immune responses remains largely uncharacterized. The presented framework refocuses the investigation of IDR pathogenesis from severe clinical manifestations to the initiating innate immune mechanisms that, in contrast, may be quite mild or clinically silent. A comprehensive understanding of these early influences on IDR onset is crucial for accurate risk prediction, IDR prevention, and therapeutic intervention.",
+  "abstract_zh": "特异质药物反应（IDRs）范围从相对常见、轻微的反应到较罕见、可能危及生命的不良反应，这些反应对人类健康及药物研发成功均构成重大风险。最常受累的靶器官为肝脏、皮肤及血液或骨髓。临床数据表明，大多数IDRs由针对药物修饰蛋白的适应性免疫反应介导，当药物的化学反应活性物种与自身蛋白结合时，使其对免疫系统呈现外来性。尽管大量研究聚焦于描述IDRs的临床表现及涉及药物，但针对这些严重反应表现前机制的有限研究仍显不足。因此，我们提出，为弥合药物给药与严重IDR发作之间的知识空白，需开展更多研究以理解IDR启动机制，即先天免疫反应的作用。在本综述中，我们概述了从新抗原形成到免疫突触形成所涉及的免疫过程，并建议将此框架应用于IDR研究。以四种与严重IDRs相关的药物为例（阿莫西林、阿莫地喹、氯氮平和奈韦拉平），我们还总结了支持早期先天免疫反应的临床及动物模型数据。最后，我们讨论了理解适应性IDR发展过程中先天免疫激活的早期步骤，对于药物开发期间的风险评估至关重要。意义声明：尽管对某些适应性免疫机制参与特异质药物反应发展已有一定认识，但这些免疫反应的早期阶段仍大多未被表征。所提出的框架将IDR发病机制的研究重点从严重临床表现转向启动性先天免疫机制，后者可能相当轻微或临床隐匿。全面理解这些对IDR发作的早期影响，对于准确风险预测、IDR预防及治疗干预至关重要。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34016669/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34016669/",
+  "paper_page_path": "papers/pubmed/34016669/index.html"
+}

@@ -1,0 +1,528 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.24.513521",
+  "title": "ISPRED-SEQ: Deep neural networks and embeddings for predicting interaction sites in protein sequences",
+  "doi": "10.1101/2022.10.24.513521",
+  "abstract": "The knowledge of protein-protein interaction sites (PPIs) is crucial for protein functional annotation. Here we address the problem focusing on the prediction of putative PPIs having as input protein sequences. The problem is important given the huge volume of sequences compared to experimental and/or computed protein structures. Taking advantage of recently developed protein language models and Deep Neural networks here we describe ISPRED-SEQ, which overpasses state-of-the-art predictors addressing the same problem. ISPRED-SEQ is freely available for testing at https://ispredws.biocomp.unibo.it .",
+  "authors": [
+    "Matteo Manfredi",
+    "Castrense Savojardo",
+    "Pier Luigi Martelli",
+    "Rita Casadio"
+  ],
+  "published_date": "2022-10-25",
+  "updated_date": "2022-10-27T02:50:12Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.24.513521",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.24.513521.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:54:29Z",
+        "timestamp": 1768503269596,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            25
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 41,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            25
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:p>\n                  The knowledge of protein-protein interaction sites (PPIs) is crucial for protein functional annotation. Here we address the problem focusing on the prediction of putative PPIs having as input protein sequences. The problem is important given the huge volume of sequences compared to experimental and/or computed protein structures. Taking advantage of recently developed protein language models and Deep Neural networks here we describe ISPRED-SEQ, which overpasses state-of-the-art predictors addressing the same problem. ISPRED-SEQ is freely available for testing at\n                  <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"https://ispredws.biocomp.unibo.it\">https://ispredws.biocomp.unibo.it</jats:ext-link>\n                  .\n                </jats:p>",
+      "DOI": "10.1101/2022.10.24.513521",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            27
+          ]
+        ],
+        "date-time": "2022-10-27T02:50:12Z",
+        "timestamp": 1666839012000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "ISPRED-SEQ: Deep neural networks and embeddings for predicting interaction sites in protein sequences"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "given": "Matteo",
+          "family": "Manfredi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7359-0633",
+          "authenticated-orcid": false,
+          "given": "Castrense",
+          "family": "Savojardo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-0274-5669",
+          "authenticated-orcid": false,
+          "given": "Pier Luigi",
+          "family": "Martelli",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-7462-7039",
+          "authenticated-orcid": false,
+          "given": "Rita",
+          "family": "Casadio",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.1",
+          "doi-asserted-by": "crossref",
+          "first-page": "102344",
+          "DOI": "10.1016/j.sbi.2022.102344",
+          "article-title": "Recent advances in predicting protein–protein interactions with the aid of artificial intelligence algorithms",
+          "volume": "73",
+          "year": "2022",
+          "journal-title": "Current Opinion in Structural Biology"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.2",
+          "doi-asserted-by": "crossref",
+          "unstructured": "R. Casadio , P.L. Martelli , C. Savojardo , Machine learning solutions for predicting protein - protein interactions, WIREs Comput Mol Sci. (2022). https://doi.org/10.1002/wcms.1618.",
+          "DOI": "10.1002/wcms.1618"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.3",
+          "doi-asserted-by": "crossref",
+          "first-page": "215",
+          "DOI": "10.1038/s41580-020-00303-z",
+          "article-title": "A framework for understanding the functions of biomolecular condensates across scales",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Nat Rev Mol Cell Biol"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-1465-4_18"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.5",
+          "doi-asserted-by": "crossref",
+          "first-page": "1656",
+          "DOI": "10.1093/bioinformatics/btx044",
+          "article-title": "ISPRED4: interaction sites PREDiction in protein structures with a refining grammar model",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/S0014-5793(03)00456-3"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.7",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btq302"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "201",
+          "DOI": "10.1016/j.neucom.2016.02.022",
+          "article-title": "Protein-protein Interaction Sites Prediction by Ensembling SVM and Sample-weighted Random Forests",
+          "volume": "193",
+          "year": "2016",
+          "journal-title": "Neurocomput"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.9",
+          "doi-asserted-by": "crossref",
+          "first-page": "1479",
+          "DOI": "10.1093/bioinformatics/btx005",
+          "article-title": "Seeing the trees through the forest: sequence-based homo- and heteromeric protein-protein interaction sites prediction using random forest",
+          "volume": "33",
+          "year": "2017",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz428"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.11",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btz324"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.12",
+          "doi-asserted-by": "crossref",
+          "first-page": "2428",
+          "DOI": "10.1016/j.jmb.2020.02.026",
+          "article-title": "ProNA2020 predicts protein–DNA, protein–RNA, and protein–protein binding proteins and residues from sequence",
+          "volume": "432",
+          "year": "2020",
+          "journal-title": "Journal of Molecular Biology"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.13",
+          "doi-asserted-by": "crossref",
+          "first-page": "1114",
+          "DOI": "10.1093/bioinformatics/btz699",
+          "article-title": "Protein–protein interaction site prediction through combining local and global features with deep neural networks",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.14",
+          "doi-asserted-by": "crossref",
+          "first-page": "896",
+          "DOI": "10.1093/bioinformatics/btaa750",
+          "article-title": "DELPHI: accurate deep ensemble model for protein interaction sites prediction",
+          "volume": "37",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.15",
+          "doi-asserted-by": "crossref",
+          "first-page": "2111",
+          "DOI": "10.1093/bioinformatics/btac071",
+          "article-title": "PIPENN: protein interface prediction from sequence with an ensemble of neural nets",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.16",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Rives , J. Meier , T. Sercu , S. Goyal , Z. Lin , J. Liu , D. Guo , M. Ott , C.L. Zitnick , J. Ma , R. Fergus , Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences, Proc Natl Acad Sci U S A. 118 (2021) e2016239118. https://doi.org/10.1073/pnas.2016239118.",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.17",
+          "doi-asserted-by": "crossref",
+          "unstructured": "A. Elnaggar , M. Heinzinger , C. Dallago , G. Rehawi , Y. Wang , L. Jones , T. Gibbs , T. Feher , C. Angerer , M. Steinegger , D. Bhowmik , B. Rost , ProtTrans: Towards Cracking the Language of Lifes Code Through Self-Supervised Deep Learning and High Performance Computing, IEEE Trans Pattern Anal Mach Intell. PP (2021). https://doi.org/10.1109/TPAMI.2021.3095381.",
+          "DOI": "10.1101/2020.07.12.199554"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-3220-8"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.19",
+          "doi-asserted-by": "crossref",
+          "first-page": "654",
+          "DOI": "10.1016/j.cels.2021.05.017",
+          "article-title": "Learning the protein language: Evolution, structure, and function",
+          "volume": "12",
+          "year": "2021",
+          "journal-title": "Cell Systems"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "vbab035",
+          "DOI": "10.1093/bioadv/vbab035",
+          "article-title": "Light attention predicts protein location from the language of life",
+          "volume": "1",
+          "year": "2021",
+          "journal-title": "Bioinformatics Advances"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "1160",
+          "DOI": "10.1038/s41598-020-80786-0",
+          "article-title": "Embeddings from deep learning transfer GO annotations beyond homology",
+          "volume": "11",
+          "year": "2021",
+          "journal-title": "Sci Rep"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "1023",
+          "DOI": "10.1038/s41587-021-01156-3",
+          "article-title": "SignalP 6.0 predicts all five types of signal peptides using protein language models",
+          "volume": "40",
+          "year": "2022",
+          "journal-title": "Nat Biotechnol"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.23",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbab578",
+          "DOI": "10.1093/bib/bbab578",
+          "article-title": "EGRET: edge aggregated graph attention networks and transfer learning improve protein–protein interaction site prediction",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.24",
+          "doi-asserted-by": "crossref",
+          "first-page": "1888",
+          "DOI": "10.1093/bioinformatics/btac053",
+          "article-title": "SPOT-Contact-LM: improving single-sequence-based prediction of protein contact map using a transformer language model",
+          "volume": "38",
+          "year": "2022",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "325",
+          "DOI": "10.1186/s12859-015-0758-y",
+          "article-title": "Sequence specificity between interacting and non-interacting homologs identifies interface residues – a homodimer and monomer use case",
+          "volume": "16",
+          "year": "2015",
+          "journal-title": "BMC Bioinformatics"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "821",
+          "DOI": "10.1093/bib/bbx022",
+          "article-title": "Review and comparative assessment of sequence-based predictors of protein-binding residues",
+          "volume": "19",
+          "year": "2018",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.27",
+          "doi-asserted-by": "crossref",
+          "first-page": "1250",
+          "DOI": "10.1093/bib/bbx168",
+          "article-title": "Comprehensive review and empirical analysis of hallmarks of DNA-, RNA- and protein-binding residues in protein chains",
+          "volume": "20",
+          "year": "2019",
+          "journal-title": "Briefings in Bioinformatics"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.28",
+          "first-page": "D482",
+          "article-title": "SIFTS: updated Structure Integration with Function",
+          "volume": "47",
+          "year": "2019",
+          "journal-title": "Taxonomy and Sequences resource allows 40-fold increase in coverage of structure-based annotations for proteins, Nucleic Acids Res"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.29",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/nbt.3988"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.30",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gks966"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.31",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.32",
+          "doi-asserted-by": "crossref",
+          "first-page": "86",
+          "DOI": "10.1016/j.neucom.2019.05.013",
+          "article-title": "Sequence-based prediction of protein-protein interaction sites by simplified long short-term memory network",
+          "volume": "357",
+          "year": "2019",
+          "journal-title": "Neurocomputing"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.33",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bib/bbp021"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.34",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu739"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.35",
+          "first-page": "140:5485",
+          "article-title": "Exploring the limits of transfer learning with a unified text-to-text transformer",
+          "volume": "21",
+          "year": "2020",
+          "journal-title": "J. Mach. Learn. Res"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.36",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41592-019-0437-4"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-3019-7"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.38",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkw1081"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.39",
+          "unstructured": "D.P. Kingma , J. Ba , Adam: A Method for Stochastic Optimization, ArXiv:1412.6980 [Cs]. (2017). http://arxiv.org/abs/1412.6980 (accessed October 19, 2020)."
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "746",
+          "DOI": "10.1109/TNB.2015.2475359",
+          "article-title": "A Cascade Random Forests Algorithm for Predicting Protein-Protein Interaction Sites",
+          "volume": "14",
+          "year": "2015",
+          "journal-title": "IEEE Trans Nanobioscience"
+        },
+        {
+          "key": "2022102800450703000_2022.10.24.513521v1.41",
+          "doi-asserted-by": "crossref",
+          "first-page": "47",
+          "DOI": "10.1016/j.jtbi.2014.01.028",
+          "article-title": "Sequence-based prediction of protein-protein interaction sites with L1-logreg classifier",
+          "volume": "348",
+          "year": "2014",
+          "journal-title": "J. Theor. Biol"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.10.24.513521",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:47:18Z",
+        "timestamp": 1768448838000
+      },
+      "score": 56.879078,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.10.24.513521"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            25
+          ]
+        ]
+      },
+      "references-count": 41,
+      "URL": "https://doi.org/10.1101/2022.10.24.513521",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1016/j.jmb.2023.167963",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            25
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

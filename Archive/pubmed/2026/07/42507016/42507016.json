@@ -1,0 +1,252 @@
+{
+  "identity": {
+    "pmid": "42507016",
+    "doi": "10.1007/s00249-026-01861-4",
+    "title": "Clustering of the T-cell receptor complex may facilitate T-cell activation by stretching of CD3zeta cytoplasmic tails."
+  },
+  "content": {
+    "abstract": "Motivated by experimental observations that T-cells can activate as a consequence of clustering of T-cell receptors, we hypothesize that steric confinement between the intracellular chains of the TCR could play a role. Using coarse-grained simulations, we show that steric interactions between TCRs are sufficient to induce appreciable stretch of the intracellular domains of CD3zeta chains. We propose a model, in which the difference in membrane distances between the phosphatase CD45 and the kinases lck and fyn is able to sense the clustering-induced CD3zeta stretch: we estimate a 1.5- to 2-fold increase in phosphorylation of immunoreceptor tyrosine-based activation motifs (ITAMs) at CD3zeta upon TCR clustering.",
+    "keywords": [
+      "Intrinsically disordered proteins",
+      "Polymer physics",
+      "Signaling",
+      "T-cell biophysics",
+      "T-cell receptor",
+      "Transmembrane proteins"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Siegl, Steven",
+        "Furthauer, Sebastian",
+        "Schutz, Gerhard J"
+      ],
+      "short_names": [
+        "Siegl S",
+        "Furthauer S",
+        "Schutz GJ"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9581-5963",
+        "ORCID: 0000-0003-1542-1089"
+      ],
+      "affiliations": [
+        "Institute of Applied Physics, TU Wien, Lehargasse 6, 1060, Vienna, Austria.",
+        "Institute of Applied Physics, TU Wien, Lehargasse 6, 1060, Vienna, Austria. fuerthauer@iap.tuwien.ac.at.",
+        "Institute of Applied Physics, TU Wien, Lehargasse 6, 1060, Vienna, Austria. schuetz@iap.tuwien.ac.at."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Siegl, Steven",
+        "short_name": "Siegl S",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Applied Physics, TU Wien, Lehargasse 6, 1060, Vienna, Austria."
+        ]
+      },
+      {
+        "full_name": "Fürthauer, Sebastian",
+        "short_name": "Fürthauer S",
+        "identifiers": [
+          "0000-0001-9581-5963"
+        ],
+        "affiliations": [
+          "Institute of Applied Physics, TU Wien, Lehargasse 6, 1060, Vienna, Austria. fuerthauer@iap.tuwien.ac.at."
+        ]
+      },
+      {
+        "full_name": "Schütz, Gerhard J",
+        "short_name": "Schütz GJ",
+        "identifiers": [
+          "0000-0003-1542-1089"
+        ],
+        "affiliations": [
+          "Institute of Applied Physics, TU Wien, Lehargasse 6, 1060, Vienna, Austria. schuetz@iap.tuwien.ac.at."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "European biophysics journal : EBJ"
+    ],
+    "journal_abbrev": [
+      "Eur Biophys J"
+    ],
+    "pub_date": "2026 Jul 27",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/07/27 12:36",
+    "fetched_at": "2026-09-18 05:15:05"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37100770",
+      "36831533",
+      "36476673",
+      "35985289",
+      "32429097",
+      "31530899",
+      "31461748",
+      "29662172",
+      "26441977",
+      "22566861",
+      "21127503",
+      "20452964",
+      "19013279",
+      "17176095",
+      "16860761",
+      "16855606",
+      "16273097",
+      "16216891",
+      "10398592",
+      "7694365",
+      "1833767"
+    ],
+    "similar": [
+      "42507016",
+      "28465009",
+      "10229830",
+      "10217203",
+      "1532148",
+      "21152094",
+      "22020291",
+      "11160319",
+      "37945821",
+      "8289790",
+      "28526413",
+      "15489916",
+      "11786178",
+      "38639990",
+      "41043394",
+      "25217164",
+      "10648627",
+      "23912807",
+      "40694042",
+      "9581568",
+      "25128530",
+      "34149695",
+      "29686683",
+      "9472038",
+      "8168490",
+      "23555234",
+      "9973379",
+      "38779683",
+      "11005864",
+      "30299655",
+      "9190928",
+      "38532423",
+      "15059847",
+      "8947048",
+      "9234701",
+      "38873603",
+      "10082557",
+      "38484791",
+      "34280187",
+      "15944285",
+      "33225946",
+      "7528772",
+      "12519755",
+      "9736612",
+      "11689561",
+      "9677430",
+      "37796108",
+      "8383678",
+      "33562083",
+      "15687496",
+      "9255758",
+      "23202272",
+      "11722641",
+      "14967045",
+      "8327490",
+      "1472476",
+      "39885989",
+      "10975797",
+      "9045636",
+      "12093866",
+      "35933027",
+      "24638062",
+      "10318863",
+      "29187853",
+      "41132090",
+      "1358625",
+      "8627172",
+      "9878110",
+      "12207342",
+      "8656061",
+      "1371471",
+      "9257837",
+      "1464315",
+      "30745330",
+      "41930278",
+      "11290597",
+      "36817444",
+      "18619676",
+      "9687533",
+      "8076596",
+      "34260912",
+      "24688028",
+      "19909352",
+      "10542295",
+      "29653982",
+      "8977276",
+      "8700169",
+      "7513706",
+      "37214965",
+      "1361757",
+      "10625683",
+      "9794375",
+      "8663450",
+      "29042512",
+      "8940006",
+      "17709503",
+      "24231767",
+      "8473339",
+      "11009097",
+      "7636203"
+    ],
+    "review": [
+      "42507016",
+      "15489916",
+      "41132090",
+      "30745330"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://dx.doi.org/10.1007/s00249-026-01861-4",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTPRC-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1792",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

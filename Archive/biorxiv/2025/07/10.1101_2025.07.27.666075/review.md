@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures or supplementary data
+- **Assessment boundary** Scientific claims, experimental logic, methodological adequacy, and interpretation as presented in the text; figure content not directly assessable
+- **Shared manuscript claim summary** The authors propose that centriolar satellites assemble via a hierarchical pathway in which PCM1 multimerization drives scaffold formation, followed by regulated, client-specific recruitment. They further claim that CS granules are internally organized into subdomains with distinct composition and dynamics, that microtubules modulate assembly, and that perturbing PCM1 multimerization impairs Hedgehog signaling.
+- **Visible evidence base** Text descriptions of cellular reconstitution, inducible dimerization, image analysis, U-ExM, SIM, FRAP, in vitro reconstitution, and biochemical assays; figure and table references cited but not viewable
+- **Missing materials affecting confidence** Figures, supplementary figures, tables, and source data are not provided; exact quantitative values, statistical outputs, and imaging data cannot be verified
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant gap in understanding centriolar satellite biogenesis. The authors combine cellular reconstitution, inducible dimerization, high-resolution imaging, and in vitro reconstitution to support a hierarchical assembly model. The conceptual framework is timely and the tools described could be valuable to the field. However, the strength of the conclusions depends heavily on quantitative imaging data and biochemical validations that are not visible in the provided text. Several claims, particularly regarding subdomain organization and client recruitment order, require scrutiny of the underlying data. The manuscript is well-structured and clearly written, but the evidentiary basis for some central claims cannot be fully evaluated from the text alone.
+- **Who would be interested in the results, and why** Cell biologists studying membrane-less organelles, centrosome and cilia biology, and protein self-assembly mechanisms would find this work relevant. The hierarchical assembly model and the demonstration of intrinsic PCM1 properties may also interest researchers working on phase separation and biomolecular condensates. Given the links to ciliopathies and neurodevelopmental disorders, the work could attract attention from the broader disease-oriented community.
+- **Major strengths** The combination of cellular and in vitro approaches is a clear strength, allowing the authors to distinguish intrinsic PCM1 properties from cellular contributions. The development of an inducible dimerization tool for reversible manipulation of CS properties is innovative and could enable future mechanistic studies. The use of multiple imaging modalities, including U-ExM and SIM, to probe internal organization is commendable. The hierarchical recruitment model provides a testable framework for understanding CS heterogeneity.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "CS assemble via a hierarchical pathway initiated by PCM1 scaffold formation followed by regulated client recruitment"
+  - **Evidence pointer** Results sections "Cellular reconstitution reveals PCM1 multimerization in granule assembly and regulation" and "Clients are recruited hierarchically to the PCM1 scaffold"; Figure 4
+  - **Concern** The claim of hierarchical client recruitment rests on Pearson correlation coefficients measured at discrete time points after induction. The text acknowledges that antibody detection efficiency may vary, yet the conclusion of a specific recruitment order is presented as a central finding. Without seeing the actual PCC values, statistical comparisons, and controls for antibody sensitivity, it is difficult to assess whether the observed differences reflect true temporal ordering or detection artifacts. The authors state that "CEP131 consistently showed the strongest correlation" at 30 min, but the magnitude of differences and their reproducibility across biological replicates are not reported in the text.
+  - **Why it matters** The hierarchical recruitment model is a core conceptual contribution of this work. If the recruitment order is not robustly established, the model loses predictive power and the claim of a "hierarchical pathway" becomes speculative.
+  - **Resolution test** Provide the full PCC dataset with statistical comparisons between time points and between clients, including controls for antibody efficiency (e.g., overexpression of epitope-tagged clients or use of multiple antibodies per client). Demonstrate that the recruitment order is consistent across independent replicates and is not an artifact of detection limits.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Internal validity
+  - **Claim pointer** "Perturbing PCM1 multimerization impaired ciliary signaling, underscoring its functional importance"
+  - **Evidence pointer** Results section "Manipulation of PCM1 multimerization deregulates CS properties and leads to signaling defects"; Figure 1K, 1L
+  - **Concern** The conclusion that induced dimerization impairs Hedgehog signaling is based on reduced ciliary SMO concentration after SAG stimulation. However, the text does not report whether cilia number or length were affected under the same conditions, nor whether SMO reduction reflects a signaling defect or a secondary effect of altered ciliary structure. The authors state that ciliogenesis and cilium length were comparable, but the data are not shown in the text. Additionally, the mechanism by which larger, fewer CS granules would impair SMO trafficking is not explained.
+  - **Why it matters** The link between CS granule properties and signaling function is a key translational aspect of the work. If the signaling defect is not directly attributable to altered CS function, the claim of functional importance is weakened.
+  - **Resolution test** Show that SMO reduction is specific to the dimerization condition and is rescued by washout, and that ciliary structure is unaffected under the exact conditions used for signaling assays. Provide a mechanistic explanation or additional data linking CS granule size/number to SMO trafficking.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability
+  - **Claim pointer** "Microtubules might promote scaffold assembly" and "nocodazole treatment compromised scaffold formation"
+  - **Evidence pointer** Results section "In vitro reconstitution reveals scaffold formation, client recruitment and microtubule interaction as intrinsic PCM1 properties"; Figure S8G, S8H
+  - **Concern** The conclusion that microtubules regulate CS assembly is based on nocodazole treatment showing fewer and smaller granules. However, nocodazole depolymerizes microtubules globally, which would disrupt many cellular processes, including intracellular transport and organelle positioning. The text does not rule out indirect effects. The in vitro data showing PCM1 granule binding to microtubules is suggestive but does not directly demonstrate that microtubules promote assembly.
+  - **Why it matters** The claim that microtubules provide a scaffolding function for CS assembly is presented as a mechanistic insight. If the effect is indirect, the conclusion is overstated.
+  - **Resolution test** Use more specific perturbations (e.g., taxol stabilization, kinesin/dynein inhibition, or microtubule-targeting drugs with different mechanisms) and show that the effect on CS assembly correlates with microtubule integrity rather than general cellular disruption. In vitro, demonstrate that microtubules enhance PCM1 granule formation in a concentration-dependent manner.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Throughout
+  - **Issue** The term "hierarchical pathway" is used to describe the assembly process, but the text does not clearly define what constitutes a hierarchy versus a simple sequence of events. The distinction between "hierarchical" and "sequential" is not articulated.
+  - **Required correction** Define the term explicitly, perhaps by specifying that hierarchy implies a dependency structure where earlier steps are prerequisites for later ones, and clarify how the data support this specific interpretation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "In vitro PCM1 granule reconstitution"
+  - **Issue** The text states that PCM1 granules were formed at concentrations of 0.5, 1, and 2 μM, but does not report the buffer conditions for the microtubule-binding experiments in detail. The switch from low-salt assay buffer to BRB80 buffer for microtubule experiments is mentioned but the rationale is not explained.
+  - **Required correction** Provide the full buffer composition for each condition and explain why different buffers were used for different experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figure legends
+  - **Evidence pointer** Not specified in text
+  - **Issue** The text mentions statistical significance levels and error bars but does not describe the number of independent experiments, cells analyzed, or technical replicates for most assays.
+  - **Required correction** Include detailed statistical information in figure legends, including n values, definition of error bars, and the specific statistical test used for each comparison.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion compares CS assembly to stress granules and other membrane-less organelles, but the comparison is brief and does not address potential differences in assembly mechanisms, such as the role of RNA or post-translational modifications in each system.
+  - **Required correction** Expand the comparison to highlight both similarities and differences, and discuss how the hierarchical model for CS might inform or be informed by studies of other organelles.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Plasmids"
+  - **Issue** The text mentions that primers are listed in Table S2, but the table is not provided. Additionally, the cloning strategy for the inducible dimerization construct is not described in detail.
+  - **Required correction** Provide the primer sequences and a clear description of the cloning strategy for the dimerization construct, including the linker sequence and the position of the FKBP domain.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of hierarchical recruitment and functional significance cannot be fully evaluated from the provided text. The lack of visible quantitative data and statistical details prevents verification of the reported effects.
+- **Assessment against Nature-style criteria** 
+  - Originality: The hierarchical assembly model and the inducible dimerization tool represent a novel contribution to the CS field. The concept of subdomain organization within CS granules is relatively unexplored and adds originality.
+  - Scientific importance: Understanding CS biogenesis has implications for cilia biology, neurodevelopment, and disease. The work addresses a fundamental question about how membrane-less organelles achieve specificity and plasticity.
+  - Interdisciplinary readership: The findings are primarily of interest to cell biologists and biochemists. The broader relevance to neuroscience and developmental biology is noted but not developed in the text.
+  - Technical soundness: The combination of cellular and in vitro approaches is appropriate, but the reliance on PCC measurements and the lack of visible controls for antibody efficiency weaken the technical foundation. The in vitro reconstitution is a strength but requires more detailed validation.
+  - Readability for nonspecialists: The manuscript is clearly written and logically organized. However, the heavy reliance on imaging terminology and the lack of a schematic model in the text may limit accessibility for readers outside the immediate field.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising and the tools are potentially valuable, but the current evidence base, as presented in the text, does not fully establish the hierarchical recruitment model or the specific link to Hedgehog signaling. Access to the full figures and data is essential for a definitive assessment.
+
+## Risk / unsupported claims
+- The claim that CS granules exhibit a "core–shell–patch" arrangement is based on U-ExM and SIM data that are not visible; the text describes three categories of client localization but does not provide quantitative support for this classification.
+- The statement that "PCM1 intrinsically assembles into granules through multimerization" is supported by in vitro data, but the text does not report whether the purified protein is monomeric before assembly or whether other factors are required for nucleation.
+- The claim that "microtubules might promote scaffold assembly" is presented as a hypothesis but is not clearly distinguished from the data showing nocodazole effects.
+- The assertion that "CS are highly heterogenous across cell types and states" is supported by literature citations but not by data in this manuscript.
+- The statement that "PCM1 and its clients occupy distinct subdomains with different compositions and dynamics" is a central claim, but the text does not provide quantitative measures of subdomain composition or dynamics beyond qualitative descriptions.

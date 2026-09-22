@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39366599",
+  "title": "Drude2019IDPC polarizable force field reveals structure-function relationship of insulin.",
+  "authors": "Cui, Xiaochen; Zheng, Zhuoqi; Rahman, Mueed Ur; Hong, Xiaokun; Ji, Xiaoyue; Li, Zhengxin; Chen, Hai-Feng",
+  "journal": "International journal of biological macromolecules",
+  "published_date": "2024-10-06",
+  "window": {
+    "start": "2024-09-30",
+    "end": "2024-10-06"
+  },
+  "score": 6,
+  "one_liner_zh": "该文开发并优化了Drude2019IDPC极化力场，并用MD和MSM模拟胰岛素突变体的构象差异，虽以IDP为对象且用物理模拟方法，但主要聚焦单蛋白构象而非PPI互作机制，故为中档。",
+  "abstract": "Intrinsically disordered proteins (IDPs) lack stable tertiary structures under physiological conditions, yet play key roles in biological processes and associated with human complex diseases. Their conformational characteristics and high content of charged residues make the use of polarizable force fields an advantageous for simulating IDPs. The Drude2019IDP polarizable force field, previously introduced, has demonstrated comprehensive enhancements and improvements in dipeptides, short peptides, and IDPs, achieving a balanced sampling between IDPs and structured proteins. However, the performance in simulating 5 dipeptides was found to be underestimate. Therefore, we individually performed reweighting and grid-based energy correction map (CMAP) optimization for these 5 dipeptides, resulting in the enhanced Drude2019IDPC force field. The performance of Drude2019IDPC was evaluated with 5 dipeptides, 5 disordered short peptides, and a representative IDP. The results demonstrated a marked improvement comparing with original Drude2019IDP. To further substantiate the capabilities of Drude2019IDPC, MD simulation and Markov state model (MSM) were applied to wild type and mutant for insulin, to elucidate the difference of conformational characteristics and transition path. The findings reveal that mutation can maintain the monomorphic characteristics, providing insights for engineered insulin development. These results indicate that Drude2019IDPC could be used to reveal the structure-function relationship for other proteins.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 在生理条件下缺乏稳定的三级结构，但在生物过程中扮演关键角色，并与人类复杂疾病相关。其构象特征和高含量的带电残基使得使用极化力场模拟IDPs具有优势。先前引入的Drude2019IDP极化力场在二肽、短肽和IDPs中展示了全面的增强和改进，实现了IDPs与结构化蛋白质之间的平衡采样。然而，在模拟5种二肽时发现其性能被低估。因此，我们针对这5种二肽分别进行了重新加权和基于网格的能量校正图（CMAP）优化，从而得到了增强的Drude2019IDPC力场。使用5种二肽、5种无序短肽和一个代表性IDP评估了Drude2019IDPC的性能。结果表明，与原始Drude2019IDP相比有显著改善。为进一步证实Drude2019IDPC的能力，将分子动力学（MD）模拟和马尔可夫状态模型（MSM）应用于野生型和突变型胰岛素，以阐明构象特征和转变路径的差异。研究发现，突变可以维持单态特征，为工程化胰岛素开发提供了见解。这些结果表明，Drude2019IDPC可用于揭示其他蛋白质的结构-功能关系。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39366599/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39366599/",
+  "paper_page_path": "papers/pubmed/39366599/index.html"
+}

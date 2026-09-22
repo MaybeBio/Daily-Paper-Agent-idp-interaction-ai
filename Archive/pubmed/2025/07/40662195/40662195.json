@@ -1,0 +1,322 @@
+{
+  "identity": {
+    "pmid": "40662195",
+    "doi": "10.1016/j.isci.2025.112852",
+    "title": "Controlled liquid-liquid phase separation via the simulation-guided, targeted engineering of the RNA-binding protein PARCL."
+  },
+  "content": {
+    "abstract": "The Phloem-Associated RNA-Chaperone-Like (PARCL) protein is a plant-specific RNA-binding protein (RBP) that is highly abundant in the phloem. PARCL has been observed to form large biomolecular condensates that move within the phloem stream, potentially being involved in RNA transport. Here, we present results on unraveling drivers for PARCL's phase separation. We used coarse-grained molecular dynamics simulations to compute a residue interaction map that identifies candidate residues involved in phase separation. Subsequent simulations with mutations of candidate residues resulted in disrupted condensation, supporting their involvement in phase separation. We performed in vitro and in vivo experiments to validate these predictions. To investigate the RNA-binding of PARCL, we added microRNA to the simulations and identified a short region of PARCL that consistently made contact with the miRNA in agreement with bioinformatics predictions and experiments. We discuss the implications of our findings in terms of model-guided engineering of biomolecular condensates.",
+    "keywords": [
+      "Bioengineering",
+      "Biomolecules",
+      "Biophysics",
+      "Computational bioinformatics",
+      "Molecular dynamics",
+      "Protein"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Veevers, Ruth",
+        "Ostendorp, Steffen",
+        "Ostendorp, Anna",
+        "Kehr, Julia",
+        "Morris, Richard J"
+      ],
+      "short_names": [
+        "Veevers R",
+        "Ostendorp S",
+        "Ostendorp A",
+        "Kehr J",
+        "Morris RJ"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Computational and Systems Biology, John Innes Centre, Norwich, UK.",
+        "Universitat Hamburg, Department of Biology, Institute of Plant Science and Microbiology, Hamburg, Germany.",
+        "Universitat Hamburg, Department of Biology, Institute of Plant Science and Microbiology, Hamburg, Germany.",
+        "Universitat Hamburg, Department of Biology, Institute of Plant Science and Microbiology, Hamburg, Germany.",
+        "Computational and Systems Biology, John Innes Centre, Norwich, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Veevers, Ruth",
+        "short_name": "Veevers R",
+        "identifiers": [],
+        "affiliations": [
+          "Computational and Systems Biology, John Innes Centre, Norwich, UK."
+        ]
+      },
+      {
+        "full_name": "Ostendorp, Steffen",
+        "short_name": "Ostendorp S",
+        "identifiers": [],
+        "affiliations": [
+          "Universität Hamburg, Department of Biology, Institute of Plant Science and Microbiology, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Ostendorp, Anna",
+        "short_name": "Ostendorp A",
+        "identifiers": [],
+        "affiliations": [
+          "Universität Hamburg, Department of Biology, Institute of Plant Science and Microbiology, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Kehr, Julia",
+        "short_name": "Kehr J",
+        "identifiers": [],
+        "affiliations": [
+          "Universität Hamburg, Department of Biology, Institute of Plant Science and Microbiology, Hamburg, Germany."
+        ]
+      },
+      {
+        "full_name": "Morris, Richard J",
+        "short_name": "Morris RJ",
+        "identifiers": [],
+        "affiliations": [
+          "Computational and Systems Biology, John Innes Centre, Norwich, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "iScience"
+    ],
+    "journal_abbrev": [
+      "iScience"
+    ],
+    "pub_date": "2025 Jul 18",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/15 06:27",
+    "fetched_at": "2026-09-21 21:02:36"
+  },
+  "links": {
+    "cites": [
+      "42196497"
+    ],
+    "refs": [
+      "40028356",
+      "39412378",
+      "38176097",
+      "36528065",
+      "36424481",
+      "36273579",
+      "36268634",
+      "35853451",
+      "35795820",
+      "35761089",
+      "35439658",
+      "35383281",
+      "34716273",
+      "34428231",
+      "34293799",
+      "34265844",
+      "34221333",
+      "34156864",
+      "34048569",
+      "33934416",
+      "33876938",
+      "33827920",
+      "33318217",
+      "33302617",
+      "33264400",
+      "33139563",
+      "33078839",
+      "32752662",
+      "32696384",
+      "32550421",
+      "32393642",
+      "32029630",
+      "31792412",
+      "31519910",
+      "30913985",
+      "30682370",
+      "29961577",
+      "29424691",
+      "29364893",
+      "27289443",
+      "26753008",
+      "26723608",
+      "26621095",
+      "26317470",
+      "25964651",
+      "25288112",
+      "25179628",
+      "24120937",
+      "23901099",
+      "21500218",
+      "19460965",
+      "17569554",
+      "8744570",
+      "4566650",
+      "1420991"
+    ],
+    "similar": [
+      "40662195",
+      "36273579",
+      "40009520",
+      "40781776",
+      "40782375",
+      "36227470",
+      "36883003",
+      "38446881",
+      "35108264",
+      "41169547",
+      "40588121",
+      "40172489",
+      "40028356",
+      "32393642",
+      "39605385",
+      "37194953",
+      "33982350",
+      "39983547",
+      "37408305",
+      "40305655",
+      "37961424",
+      "33704061",
+      "39937084",
+      "41268679",
+      "34144468",
+      "40291420",
+      "35727989",
+      "33453922",
+      "40970906",
+      "32936641",
+      "36607820",
+      "39071308",
+      "37486948",
+      "33496264",
+      "33307683",
+      "37993409",
+      "39225535",
+      "37705794",
+      "38160320",
+      "41187075",
+      "37720552",
+      "39319382",
+      "33629837",
+      "33672806",
+      "30926670",
+      "39804953",
+      "34784177",
+      "35501484",
+      "35895272",
+      "39591652",
+      "40748104",
+      "33081049",
+      "41480717",
+      "35378855",
+      "38862770",
+      "40557772",
+      "34772786",
+      "34716273",
+      "33930220",
+      "39366355",
+      "40626470",
+      "38175843",
+      "40408482",
+      "33300985",
+      "32632317",
+      "40195119",
+      "38979955",
+      "37252985",
+      "36106018",
+      "40381401",
+      "37276062",
+      "40058249",
+      "37065458",
+      "33264400",
+      "38419328",
+      "39148776",
+      "34352244",
+      "40664121",
+      "37325682",
+      "36227474",
+      "39386696",
+      "40615422",
+      "35795820",
+      "36993212",
+      "38656803",
+      "37386790",
+      "33571491",
+      "32482873",
+      "35054543",
+      "41129218",
+      "36028355",
+      "40954121",
+      "41342450",
+      "39801048",
+      "39807887",
+      "35293386",
+      "36175408",
+      "38260590",
+      "36524527",
+      "35495061"
+    ],
+    "review": [
+      "40662195",
+      "40172489",
+      "34144468",
+      "37720552",
+      "41480717",
+      "40557772",
+      "34772786",
+      "33930220",
+      "39366355",
+      "38175843",
+      "33300985",
+      "32632317",
+      "38979955",
+      "36106018",
+      "40381401",
+      "37276062",
+      "40058249",
+      "37065458",
+      "38419328",
+      "40664121",
+      "36028355"
+    ],
+    "pmc": [
+      "12256297"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S2589-0042(25)01113-7",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40662195/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40662195",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

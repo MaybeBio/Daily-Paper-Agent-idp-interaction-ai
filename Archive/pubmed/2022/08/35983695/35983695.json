@@ -1,0 +1,297 @@
+{
+  "identity": {
+    "pmid": "35983695",
+    "doi": "10.1080/17460441.2022.2114451",
+    "title": "Designing drugs when there is low data availability: one-shot learning and other approaches to face the issues of a long-term concern."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Modern drug discovery is generally accessed by useful information from previous large databases or uncovering novel data. The lack of biological and/or chemical data tends to slow the development of scientific research and innovation. Here, approaches that may help provide solutions to generate or obtain enough relevant data or improve/accelerate existing methods within the last five years were reviewed. AREAS COVERED: One-shot learning (OSL) approaches, structural modeling, molecular docking, scoring function space (SFS), molecular dynamics (MD), and quantum mechanics (QM) may be used to amplify the amount of available data to drug design and discovery campaigns, presenting methods, their perspectives, and discussions to be employed in the near future. EXPERT OPINION: Recent works have successfully used these techniques to solve a range of issues in the face of data scarcity, including complex problems such as the challenging scenario of drug design aimed at intrinsically disordered proteins and the evaluation of potential adverse effects in a clinical scenario. These examples show that it is possible to improve and kickstart research from scarce available data to design and discover new potential drugs.",
+    "keywords": [
+      "Drug discovery",
+      "drug design",
+      "machine learning",
+      "molecular docking",
+      "molecular dynamics",
+      "one-shot learning",
+      "quantum mechanics"
+    ],
+    "mesh_terms": [
+      "Drug Design",
+      "Drug Discovery/methods",
+      "Humans",
+      "*Intrinsically Disordered Proteins",
+      "Molecular Docking Simulation",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Verissimo, Gabriel C",
+        "Serafim, Mateus Sa M",
+        "Kronenberger, Thales",
+        "Ferreira, Rafaela S",
+        "Honorio, Kathia M",
+        "Maltarollo, Vinicius G"
+      ],
+      "short_names": [
+        "Verissimo GC",
+        "Serafim MSM",
+        "Kronenberger T",
+        "Ferreira RS",
+        "Honorio KM",
+        "Maltarollo VG"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Departamento de Produtos Farmaceuticos, Faculdade de Farmacia, Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, Brazil.",
+        "Departamento de Microbiologia, Instituto de Ciencias Biologicas, Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, Brazil.",
+        "Department of Medical Oncology and Pneumology, Internal Medicine VIII, University Hospital of Tubingen, Tubingen, Germany.",
+        "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, Kuopio, Finland.",
+        "Departamento de Bioquimica e Imunologia, Instituto de Ciencias Biologicas, Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, Brazil.",
+        "Escola de Artes, Ciencias e Humanidades, Universidade de Sao Paulo (USP), Sao Paulo, Brazil.",
+        "Centro de Ciencias Naturais e Humanas, Universidade Federal do ABC (UFABC), Santo Andre, Brazil.",
+        "Departamento de Produtos Farmaceuticos, Faculdade de Farmacia, Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, Brazil."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Veríssimo, Gabriel C",
+        "short_name": "Veríssimo GC",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Produtos Farmacêuticos, Faculdade de Farmácia, Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, Brazil."
+        ]
+      },
+      {
+        "full_name": "Serafim, Mateus Sá M",
+        "short_name": "Serafim MSM",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Microbiologia, Instituto de Ciências Biológicas, Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, Brazil."
+        ]
+      },
+      {
+        "full_name": "Kronenberger, Thales",
+        "short_name": "Kronenberger T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Medical Oncology and Pneumology, Internal Medicine VIII, University Hospital of Tübingen, Tübingen, Germany.",
+          "School of Pharmacy, Faculty of Health Sciences, University of Eastern Finland, Kuopio, Finland."
+        ]
+      },
+      {
+        "full_name": "Ferreira, Rafaela S",
+        "short_name": "Ferreira RS",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Bioquímica e Imunologia, Instituto de Ciências Biológicas, Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, Brazil."
+        ]
+      },
+      {
+        "full_name": "Honorio, Kathia M",
+        "short_name": "Honorio KM",
+        "identifiers": [],
+        "affiliations": [
+          "Escola de Artes, Ciências e Humanidades, Universidade de São Paulo (USP), São Paulo, Brazil.",
+          "Centro de Ciências Naturais e Humanas, Universidade Federal do ABC (UFABC), Santo André, Brazil."
+        ]
+      },
+      {
+        "full_name": "Maltarollo, Vinícius G",
+        "short_name": "Maltarollo VG",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Produtos Farmacêuticos, Faculdade de Farmácia, Universidade Federal de Minas Gerais (UFMG), Belo Horizonte, Brazil."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Expert opinion on drug discovery"
+    ],
+    "journal_abbrev": [
+      "Expert Opin Drug Discov"
+    ],
+    "pub_date": "2022 Sep",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/08/20 06:00",
+    "fetched_at": "2026-09-20 12:42:00"
+  },
+  "links": {
+    "cites": [
+      "39092736",
+      "38300851",
+      "37804393"
+    ],
+    "refs": [],
+    "similar": [
+      "35983695",
+      "26289577",
+      "26814169",
+      "25682781",
+      "33353444",
+      "29139324",
+      "27186904",
+      "26549326",
+      "35426249",
+      "32016902",
+      "32692273",
+      "29376444",
+      "26211671",
+      "34620049",
+      "28685695",
+      "17240921",
+      "23642085",
+      "27554357",
+      "30747069",
+      "21920322",
+      "33957833",
+      "23912807",
+      "30039423",
+      "30360721",
+      "32016900",
+      "29156382",
+      "26415842",
+      "29149726",
+      "27438821",
+      "28137222",
+      "31480998",
+      "30979035",
+      "26414598",
+      "36045539",
+      "30909105",
+      "35135446",
+      "33779453",
+      "30360733",
+      "29165360",
+      "32972264",
+      "32016899",
+      "33333976",
+      "26313123",
+      "32496540",
+      "29927068",
+      "29188563",
+      "33758923",
+      "35640229",
+      "32568020",
+      "29800865",
+      "34147204",
+      "29243483",
+      "34282519",
+      "34365938",
+      "22537178",
+      "29190087",
+      "27108593",
+      "32767944",
+      "35786336",
+      "32016884",
+      "28689054",
+      "25724101",
+      "30488731",
+      "26091813",
+      "32329098",
+      "22011048",
+      "35779437",
+      "19754142",
+      "33787225",
+      "31025886",
+      "29334340",
+      "24133970",
+      "26358617",
+      "32016890",
+      "23289945",
+      "33220433",
+      "33733530",
+      "32016901",
+      "32016897",
+      "25916860",
+      "28164720",
+      "32100577"
+    ],
+    "review": [
+      "35983695",
+      "26289577",
+      "26814169",
+      "29139324",
+      "27186904",
+      "26549326",
+      "35426249",
+      "32016902",
+      "32692273",
+      "29376444",
+      "26211671",
+      "34620049",
+      "28685695",
+      "17240921",
+      "23642085",
+      "27554357",
+      "30747069",
+      "21920322",
+      "33957833",
+      "32016900",
+      "26415842",
+      "29149726",
+      "27438821",
+      "31480998",
+      "30979035",
+      "26414598",
+      "36045539",
+      "30909105",
+      "35135446",
+      "33779453",
+      "30360733",
+      "29165360",
+      "32972264",
+      "32016899",
+      "26313123",
+      "29927068",
+      "35640229",
+      "32568020",
+      "29800865",
+      "34147204",
+      "22537178",
+      "27108593",
+      "32767944",
+      "35786336",
+      "32016884",
+      "28689054",
+      "30488731",
+      "32329098",
+      "35779437",
+      "33787225",
+      "31025886",
+      "24133970",
+      "26358617",
+      "32016890",
+      "23289945",
+      "33220433",
+      "32016901",
+      "32016897",
+      "28164720"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.tandfonline.com/doi/10.1080/17460441.2022.2114451?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

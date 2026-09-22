@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary material were provided
+- **Shared manuscript claim summary** The authors report atomistic simulations of wild-type alpha-synuclein and five familial mutants (A30P, E46K, H50Q, G51D, A53T) across varying ionic strengths. They claim that relative aggregation propensity rankings switch with ionic strength but stabilize beyond physiological concentration, that A53T and H50Q are consistently highly aggregation-prone, that electrostatic-driven decoupling between global and local motions occurs, and that aggregation-prone monomers share specific conformational and dynamical features. They further claim to have justified trends, validated physiological behavior with a dimer model, proposed a generic monomer-to-aggregate mechanism, and reconciled simulation results with experimental variability.
+- **Visible evidence base** Abstract text only; no methodological details, simulation parameters, force fields, analysis protocols, or quantitative results are available
+- **Missing materials affecting confidence** Full manuscript, methods section, all figures and tables, simulation validation details, statistical analyses, force field choices, sampling convergence criteria, and comparison to experimental data
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting computational study addressing a relevant question in the alpha-synuclein aggregation field. The claim that ionic strength modulates aggregation propensity rankings in a non-monotonic manner is novel and could have implications for interpreting conflicting experimental reports. However, the abstract alone provides insufficient evidence to evaluate the technical soundness of the simulations, the robustness of the conclusions, or the validity of the proposed mechanism. Several claims are stated with strong certainty but lack visible quantitative support. The work may be of interest to the protein aggregation and neurodegeneration communities, but the case is not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers studying alpha-synuclein aggregation and Parkinson's disease mechanisms, computational biophysicists working on intrinsically disordered proteins, and experimentalists seeking to reconcile solution-condition-dependent aggregation data. The proposed generic features of aggregation-prone monomeric states could also interest those developing therapeutic strategies targeting early aggregation events.
+- **Major strengths** The study addresses a clinically relevant question with direct bearing on familial PD mutants. The systematic variation of ionic strength is a useful approach to resolve contradictory experimental observations. The identification of consistent aggregation-prone features across mutants and conditions, if robust, would provide a unifying framework. The attempt to bridge simulation and experiment through reconciliation of variability is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that aggregation propensity rankings switch with increasing ionic strength but stabilize beyond physiological concentration, and that A53T and H50Q consistently remain highly aggregation-prone.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract provides no quantitative definition of "aggregation propensity" as computed from simulations. It is unclear whether this refers to free energies of dimerization, contact probabilities, conformational populations, or some composite score. Without this definition, the ranking claims cannot be evaluated or reproduced.
+  - **Why it matters** The central conclusion of the paper depends entirely on the validity and meaning of the aggregation propensity metric. If the metric is not physically grounded or is sensitive to arbitrary analysis choices, the rankings and their ionic-strength dependence would be uninterpretable.
+  - **Resolution test** Provide a clear operational definition of aggregation propensity, show its convergence with simulation time, and demonstrate that rankings are robust to reasonable variations in the metric definition and analysis parameters.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that aggregation-prone monomers preferentially populate semicompact ensembles with specific structural features, including an exposed and stiff N-terminus, a flexible yet compact C-terminus, and an NAC domain that is either under-protected and stiff or flexible and poorly hydrated.
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** No information is given about the force field, water model, salt treatment, simulation length, replica sampling method, or convergence criteria. For intrinsically disordered proteins, simulation results are notoriously sensitive to force field choice. The claim that these features are "generic" across mutants and conditions requires demonstration of force field independence or at least validation against experimental data.
+  - **Why it matters** Without evidence of sampling convergence and force field robustness, the structural and dynamical features attributed to aggregation-prone monomers could be simulation artifacts. The "generic" claim is strong and requires correspondingly strong evidence.
+  - **Resolution test** Report force field and water model, show convergence of ensemble properties, and ideally repeat key simulations with an alternative force field or compare to experimental observables such as chemical shifts, SAXS profiles, or FRET distances.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim-evidence alignment
+  - **Claim pointer** The authors claim to have "justified aggregation propensity trends across ionic strengths, validated physiological trends using a dimer model, suggested a generic monomer-to-aggregate mechanism, and reconciled simulations with experimental variability."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** These are four distinct and substantial claims, yet the abstract provides no specific results supporting any of them. No dimer simulation results, no comparison to specific experimental data, and no mechanistic model are described. The claims are stated as accomplished facts without visible evidence.
+  - **Why it matters** The abstract promises more than it demonstrates. If the full manuscript does not provide rigorous support for each of these claims, the paper would overstate its contributions. The "reconciliation with experimental variability" claim is particularly difficult to evaluate without knowing which experiments are being reconciled and how.
+  - **Resolution test** In the full manuscript, provide dedicated sections with quantitative results for each claim, including dimer simulation data, explicit comparisons to published experimental results, and a clearly articulated mechanistic model with testable predictions.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors claim that their findings reveal "generic features of aggregation-prone monomeric states" and that these features "may facilitate intermolecular encounters."
+  - **Evidence pointer** Abstract only; location not provided
+  - **Concern** The abstract does not explain how the identified monomeric features connect to actual aggregation outcomes. The leap from monomeric conformational properties to aggregation propensity is not trivial, and the abstract does not articulate the proposed mechanism linking subdiffusive dynamics, counterion binding, or N-terminal exposure to enhanced aggregation.
+  - **Why it matters** For the work to have broad impact, the mechanistic link between monomeric states and aggregation must be explicit and testable. Without this, the "generic features" claim remains descriptive rather than explanatory.
+  - **Resolution test** Provide a clear mechanistic model that explains how the identified monomeric features promote intermolecular encounters and aggregation, ideally with testable predictions that distinguish this model from alternatives.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "semicompact ensembles" is used without definition. It is unclear whether this refers to a specific range of radius of gyration, a particular structural class, or a qualitative description.
+  - **Required correction** Define "semicompact" quantitatively or with reference to established classifications of IDP conformational ensembles.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Mutant coverage
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract states that five mutants were studied but does not indicate whether all five were analyzed at all ionic strengths or whether some conditions were only sampled for a subset.
+  - **Required correction** Clarify the full factorial design or state explicitly which conditions were sampled for each variant.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation details
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** No information is given about the number of independent simulations, total simulation time per condition, or the statistical treatment of ensemble averages.
+  - **Required correction** Report these details in the methods and indicate how statistical uncertainties were estimated for the reported rankings and features.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation
+  - **Affected element** Experimental reconciliation
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The claim of reconciling simulations with experimental variability is vague. It is unclear which experimental contradictions are resolved and how.
+  - **Required correction** Specify the experimental observations that were previously contradictory and explain precisely how the simulation results resolve them.
+
+## Risk / unsupported claims
+- The claim that aggregation propensity rankings switch with ionic strength and stabilize beyond physiological concentration is unsupported without a defined metric and quantitative results.
+- The claim that A53T and H50Q are consistently highly aggregation-prone across conditions is unsupported without showing the full ranking data.
+- The claim of electrostatic-driven decoupling between global and local motions is unsupported without specific correlation analyses.
+- The claim that aggregation-prone monomers share specific structural and dynamical features is unsupported without ensemble comparisons and statistical testing.
+- The claim of validating physiological trends with a dimer model is unsupported without any dimer simulation results.
+- The claim of suggesting a generic monomer-to-aggregate mechanism is unsupported without a described mechanism.
+- The claim of reconciling simulations with experimental variability is unsupported without specific experimental comparisons.
+- All claims regarding force field dependence, sampling convergence, and statistical robustness are unevaluable from the abstract alone.

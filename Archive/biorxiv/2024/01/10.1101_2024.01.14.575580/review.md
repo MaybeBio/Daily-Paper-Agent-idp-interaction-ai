@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, and materials and methods
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency based solely on the provided manuscript text
+- **Shared manuscript claim summary** The authors propose that the *Streptococcus* phage protein paratox (Prx) is an intrinsically disordered protein (IDP) in dilute solution, that kosmotropic salts and osmolytes induce a folded but non-native state, that only binding to ComR induces the previously crystallized globular fold, and that the binding mechanism involves both conformational selection and induced fit
+- **Visible evidence base** Circular dichroism spectra, 1H-15N HSQC NMR spectra, fluorescence equilibrium denaturation data, stopped-flow kinetic traces, and chevron plot analysis
+- **Missing materials affecting confidence** Figures 1-7 are referenced but not provided; supplementary data for kinetic fitting parameters is not included; no raw data or statistical error analysis is shown; no sequence-level analysis of Prx disorder propensity is presented
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an interesting and timely question regarding the conformational behavior of a small phage-encoded quorum-sensing inhibitor. The combination of biophysical techniques is appropriate, and the observation that Prx is disordered in solution while adopting a defined fold upon binding ComR is potentially significant. However, the evidence as presented in the text is incomplete, several key figures are not available for inspection, and some claims extend beyond what the described data can support. The thermodynamic and kinetic analyses are presented with insufficient detail to fully evaluate their validity. The manuscript would benefit from additional controls, clearer presentation of fitting procedures, and a more cautious interpretation of the in vivo relevance of the solute-stabilized state.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those involved in bacterial signaling and phage-host interactions, would find this work relevant. The study also speaks to the broader question of how small proteins can adopt multiple conformational states and how binding partners select or induce specific folds. Those interested in quorum-sensing inhibition as an antimicrobial strategy may also find the mechanistic insights useful.
+- **Major strengths** The study combines multiple orthogonal biophysical methods to characterize Prx conformation, which strengthens the conclusion that Prx is disordered in dilute solution. The use of a tag-free construct is a thoughtful improvement over previous work. The demonstration that salt and osmolyte effects are Hofmeister-dominated rather than electrostatic is well reasoned. The proposal of a combined conformational selection and induced-fit mechanism is intellectually interesting and testable.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that Prx is intrinsically disordered in dilute solution based on CD and NMR data
+  - **Evidence pointer** Figures 2 and 3, location not provided
+  - **Concern** The CD spectrum in Figure 2A is described as showing that Prx lacks significant secondary structure at low salt, but no quantitative analysis such as deconvolution or mean residue ellipticity values is provided. The NMR HSQC in Figure 3A is described as showing low dispersion similar to denaturing conditions, but the actual spectra are not available for inspection. Without these figures or quantitative metrics, the claim of intrinsic disorder cannot be fully evaluated.
+  - **Why it matters** The central claim of the paper rests on the demonstration that Prx is disordered in solution. If the CD and NMR data are not clearly presented or quantified, the conclusion is not verifiable from the provided material.
+  - **Resolution test** Provide the actual spectra with clear labels, quantitative secondary structure estimates from CD deconvolution, and a measure of HSQC peak dispersion such as the range of 1H chemical shifts. Include a disorder prediction from sequence-based tools as supporting evidence.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Data availability
+  - **Claim pointer** The authors claim that the folding of Prx is well described by a two-state model based on fits to Eq-1 and chevron analysis
+  - **Evidence pointer** Figures 5 and 6, Table 1, location not provided
+  - **Concern** The fitting procedures for Eq-1 and the chevron plots are described only briefly. The values of lambda_F, lambda_U, Delta G, and m-values are stated but the uncertainties, the number of replicates, and the criteria for assessing fit quality are not reported. The chevron plot in Figure 6C is said to lack rollover, but the actual plot is not available. The extrapolation of rate constants to 0 M KF is presented without a clear description of the model used for extrapolation.
+  - **Why it matters** The two-state assumption underpins the thermodynamic and kinetic parameters reported. If the fits are not robust or the model is not justified, the derived parameters and the conclusions about Prx dynamics are unreliable.
+  - **Resolution test** Show the fits overlaid on the data, report residuals, provide confidence intervals for all fitted parameters, and justify the linear extrapolation to 0 M KF. Include a discussion of potential deviations from two-state behavior.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretive overreach
+  - **Claim pointer** The authors propose that the solute-stabilized fold is likely the predominant form of Prx in a solute-crowded bacterial cell
+  - **Evidence pointer** Discussion section, location not provided
+  - **Concern** The extrapolation from in vitro salt and osmolyte experiments to the in vivo crowded environment of a bacterial cell is speculative. The concentrations of kosmotropic salts used in this study are not stated, and the composition of the intracellular environment is far more complex than simple salt or osmolyte solutions. No data on Prx behavior in actual cell lysates or in the presence of physiological concentrations of macromolecular crowders are presented.
+  - **Why it matters** This claim extends the findings beyond the experimental system and could be misleading if taken as established. The in vivo relevance of the solute-stabilized state remains untested.
+  - **Resolution test** Either temper the claim to reflect speculation or provide additional experiments using physiologically relevant crowding agents or cell lysates to support the in vivo relevance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic evidence
+  - **Claim pointer** The authors suggest that Prx binds ComR by a combination of conformational selection and induced-fit mechanisms
+  - **Evidence pointer** Discussion section, location not provided
+  - **Concern** The kinetic and equilibrium data presented characterize the salt-induced folding of Prx, not the binding to ComR. No direct binding kinetics or equilibrium measurements are shown. The NMR spectrum of the Prx-DBD complex is mentioned but not described in detail. The proposed mechanism is plausible but is not directly tested by the experiments presented.
+  - **Why it matters** The mechanistic claim is a significant part of the paper's conceptual contribution. Without direct binding studies or kinetic evidence for the binding pathway, the mechanism remains speculative.
+  - **Resolution test** Perform stopped-flow or surface plasmon resonance experiments to measure binding kinetics and determine whether the binding rate is consistent with conformational selection or induced fit. Alternatively, use NMR titrations to map the binding interface and assess conformational changes upon binding.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that Prx blocks quorum sensing by directly binding the signal receptor and transcription factor ComR, but the distinction between the receptor and the transcription factor is unclear since ComR is both.
+  - **Required correction** Clarify that ComR is a single protein that serves as both the signal receptor and the transcription factor.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Nomenclature
+  - **Affected element** Results section
+  - **Evidence pointer** Section "Structure of Prx in solution", location not provided
+  - **Issue** The term "paratox" is used interchangeably with "Prx" throughout the text. While this is understandable, consistency in terminology would improve readability.
+  - **Required correction** Define the abbreviation Prx at first use and use it consistently thereafter, or use "paratox" throughout.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Table 1 and Table 2
+  - **Evidence pointer** Tables 1 and 2, location not provided
+  - **Issue** The tables are referenced but not shown. The text reports r-squared values but no standard errors or confidence intervals for the fitted parameters.
+  - **Required correction** Include the tables with full parameter estimates, standard errors, and sample sizes.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Methodological detail
+  - **Affected element** Materials and Methods, stopped-flow section
+  - **Evidence pointer** Section "Stopped-flow fluorescence kinetics", location not provided
+  - **Issue** The dead time of the instrument is stated as approximately 1 ms, but the fraction of the reaction lost during the dead time is not discussed. This could affect the accuracy of the derived rate constants.
+  - **Required correction** Discuss the potential impact of the dead time on the measured kinetics and how this was accounted for in the analysis.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Literature context
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction, location not provided
+  - **Issue** The introduction does not cite recent work on other IDPs in phage proteins or on the role of disorder in quorum-sensing regulators, which would help contextualize the novelty of the findings.
+  - **Required correction** Add relevant citations to recent studies on IDPs in bacterial and phage systems.
+- **Technical failings that need to be addressed before the case is established** The lack of access to the actual figures and tables prevents full evaluation of the data quality. The quantitative analysis of CD and NMR data is not presented in sufficient detail. The fitting procedures for thermodynamic and kinetic parameters need more transparency. The extrapolation of rate constants to 0 M KF requires justification. The in vivo relevance claim needs either tempering or additional experimental support.
+- **Assessment against Nature-style criteria** 
+  - Originality: The finding that a phage-encoded quorum-sensing inhibitor is an IDP is novel and adds to the growing appreciation of disorder in bacterial regulatory proteins. The specific system has not been characterized in this way before.
+  - Scientific importance: The work has potential implications for understanding how small phage proteins evolve multifunctionality and how IDPs participate in bacterial signaling. However, the importance is somewhat limited by the narrow focus on a single protein and the lack of direct functional experiments linking disorder to biological activity.
+  - Interdisciplinary readership: The study bridges virology, bacteriology, and biophysics, and would appeal to researchers in these fields. The broader IDP community may also find the system interesting.
+  - Technical soundness: The choice of techniques is appropriate, but the presentation of data and analysis is incomplete. The two-state model is asserted rather than rigorously tested. The lack of binding experiments weakens the mechanistic claims.
+  - Readability for nonspecialists: The manuscript is generally well written and accessible, though some sections assume familiarity with biophysical terminology. The abstract is clear and the logic of the study is easy to follow.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observation that Prx is an IDP is likely correct and interesting, but the manuscript needs to provide the actual data, more rigorous analysis, and a more cautious interpretation of the in vivo and mechanistic claims before the case is fully established.
+
+## Risk / unsupported claims
+- The claim that the solute-stabilized fold is the predominant form of Prx in vivo is unsupported by the data presented.
+- The claim that Prx binds ComR by a combination of conformational selection and induced fit is not directly tested and is therefore speculative.
+- The claim that the two-state model fully describes Prx folding is not rigorously established without more detailed fitting analysis and consideration of alternative models.
+- The statement that the salt-induced fold is similar to the His-tag-induced fold is based on overlapping HSQC peaks but the degree of similarity is not quantified.
+- The extrapolated rate constants in dilute buffer are presented without a clear description of the extrapolation model or its uncertainties.

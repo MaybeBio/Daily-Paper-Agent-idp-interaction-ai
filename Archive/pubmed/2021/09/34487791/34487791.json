@@ -1,0 +1,384 @@
+{
+  "identity": {
+    "pmid": "34487791",
+    "doi": "10.1016/j.jmb.2021.167229",
+    "title": "Intrinsic Disorder in Human RNA-Binding Proteins."
+  },
+  "content": {
+    "abstract": "Although RNA-binding proteins (RBPs) are known to be enriched in intrinsic disorder, no previous analysis focused on RBPs interacting with specific RNA types. We fill this gap with a comprehensive analysis of the putative disorder in RBPs binding to six common RNA types: messenger RNA (mRNA), transfer RNA (tRNA), small nuclear RNA (snRNA), non-coding RNA (ncRNA), ribosomal RNA (rRNA), and internal ribosome RNA (irRNA). We also analyze the amount of putative intrinsic disorder in the RNA-binding domains (RBDs) and non-RNA-binding-domain regions (non-RBD regions). Consistent with previous studies, we show that in comparison with human proteome, RBPs are significantly enriched in disorder. However, closer examination finds significant enrichment in predicted disorder for the mRNA-, rRNA- and snRNA-binding proteins, while the proteins that interact with ncRNA and irRNA are not enriched in disorder, and the tRNA-binding proteins are significantly depleted in disorder. We show a consistent pattern of significant disorder enrichment in the non-RBD regions coupled with low levels of disorder in RBDs, which suggests that disorder is relatively rarely utilized in the RNA-binding regions. Our analysis of the non-RBD regions suggests that disorder harbors posttranslational modification sites and is involved in the putative interactions with DNA. Importantly, we utilize experimental data from DisProt and independent data from Pfam to validate the above observations that rely on the disorder predictions. This study provides new insights into the distribution of disorder across proteins that bind different RNA types and the functional role of disorder in the regions where it is enriched.",
+    "keywords": [
+      "PTM",
+      "disordered proteins",
+      "intrinsic disorder",
+      "protein-DNA interactions",
+      "protein-RNA interactions"
+    ],
+    "mesh_terms": [
+      "Acetylation",
+      "Binding Sites",
+      "Gene Expression",
+      "Humans",
+      "Intrinsically Disordered Proteins/*chemistry/genetics/metabolism",
+      "Methylation",
+      "Phosphorylation",
+      "Protein Binding",
+      "Protein Processing, Post-Translational",
+      "Proteome/genetics/metabolism",
+      "RNA, Messenger/*chemistry/genetics/metabolism",
+      "RNA, Ribosomal/*chemistry/genetics/metabolism",
+      "RNA, Small Nuclear/*chemistry/genetics/metabolism",
+      "RNA, Transfer/*chemistry/genetics/metabolism",
+      "RNA, Untranslated/*chemistry/genetics/metabolism",
+      "RNA-Binding Proteins/*chemistry/genetics/metabolism",
+      "Ubiquitination"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhao, Bi",
+        "Katuwawala, Akila",
+        "Oldfield, Christopher J",
+        "Hu, Gang",
+        "Wu, Zhonghua",
+        "Uversky, Vladimir N",
+        "Kurgan, Lukasz"
+      ],
+      "short_names": [
+        "Zhao B",
+        "Katuwawala A",
+        "Oldfield CJ",
+        "Hu G",
+        "Wu Z",
+        "Uversky VN",
+        "Kurgan L"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA.",
+        "Department of Microbiology and Immunology, Virginia Commonwealth University, Richmond, VA 23284, USA.",
+        "School of Statistics and Data Science, LPMC and KLMDASR, Nankai University, Tianjin 300071, China.",
+        "School of Mathematical Sciences and LPMC, Nankai University, Tianjin 300071, China.",
+        "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA. Electronic address: lkurgan@vcu.edu."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhao, Bi",
+        "short_name": "Zhao B",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA."
+        ]
+      },
+      {
+        "full_name": "Katuwawala, Akila",
+        "short_name": "Katuwawala A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA."
+        ]
+      },
+      {
+        "full_name": "Oldfield, Christopher J",
+        "short_name": "Oldfield CJ",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Microbiology and Immunology, Virginia Commonwealth University, Richmond, VA 23284, USA."
+        ]
+      },
+      {
+        "full_name": "Hu, Gang",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Statistics and Data Science, LPMC and KLMDASR, Nankai University, Tianjin 300071, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Zhonghua",
+        "short_name": "Wu Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Mathematical Sciences and LPMC, Nankai University, Tianjin 300071, China."
+        ]
+      },
+      {
+        "full_name": "Uversky, Vladimir N",
+        "short_name": "Uversky VN",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Molecular Medicine and USF Health Byrd Alzheimer's Research Institute, Morsani College of Medicine, University of South Florida, Tampa, FL 33612, USA."
+        ]
+      },
+      {
+        "full_name": "Kurgan, Lukasz",
+        "short_name": "Kurgan L",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, VA 23284, USA. Electronic address: lkurgan@vcu.edu."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2021 Oct 15",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/09/07 06:00",
+    "fetched_at": "2026-09-20 05:18:02"
+  },
+  "links": {
+    "cites": [
+      "41784387",
+      "41689628",
+      "41068849",
+      "40946981",
+      "40728621",
+      "40728620",
+      "40728619",
+      "40537514",
+      "40332112",
+      "39885181",
+      "39833102",
+      "39811792",
+      "39576584",
+      "39576583",
+      "39576581",
+      "39459607",
+      "39397705",
+      "39337671",
+      "39201466",
+      "38783307",
+      "38705823",
+      "38698072",
+      "38405706",
+      "38361426",
+      "38213902",
+      "37933852",
+      "37740110",
+      "37140058",
+      "36851914",
+      "36659984",
+      "36629262",
+      "36528839",
+      "36060052",
+      "35883444",
+      "35615015",
+      "35481633",
+      "35438783"
+    ],
+    "refs": [],
+    "similar": [
+      "34487791",
+      "21212361",
+      "38917322",
+      "30096183",
+      "28934129",
+      "34871434",
+      "29257115",
+      "29806170",
+      "38531653",
+      "27453046",
+      "26712748",
+      "27814488",
+      "27768875",
+      "38705823",
+      "22344696",
+      "23942625",
+      "30262458",
+      "32285055",
+      "28045575",
+      "18716674",
+      "34905768",
+      "33866372",
+      "32798643",
+      "24003031",
+      "26953650",
+      "21087992",
+      "32466138",
+      "31212691",
+      "28145059",
+      "29198561",
+      "29438049",
+      "11283358",
+      "32170629",
+      "22482838",
+      "31547849",
+      "28002650",
+      "18959479",
+      "34389707",
+      "27037624",
+      "27881904",
+      "16962654",
+      "27936807",
+      "28334977",
+      "26253972",
+      "10497122",
+      "9211979",
+      "17894445",
+      "24754740",
+      "30503826",
+      "30261607",
+      "21233221",
+      "30400675",
+      "26572822",
+      "29339797",
+      "28350000",
+      "27729395",
+      "31606073",
+      "33291838",
+      "37002329",
+      "25280100",
+      "34246632",
+      "29080786",
+      "11463612",
+      "21967850",
+      "7599278",
+      "31104083",
+      "23019220",
+      "28554301",
+      "20739608",
+      "2432388",
+      "20387139",
+      "26675803",
+      "31889254",
+      "27048167",
+      "30528433",
+      "26455390",
+      "20418358",
+      "31260285",
+      "11341282",
+      "29843482",
+      "28381244",
+      "27062995",
+      "29563550",
+      "18247578",
+      "22099312",
+      "12904796",
+      "23636942",
+      "19854950",
+      "27510544",
+      "12110899",
+      "25511423",
+      "26109352",
+      "27647212",
+      "33352065",
+      "26675164",
+      "24752801",
+      "30058219",
+      "20844764",
+      "24123256",
+      "23274112",
+      "12907737",
+      "37144845",
+      "34850135",
+      "31815440",
+      "36574981",
+      "26404389",
+      "23364837",
+      "37851698",
+      "32131038",
+      "38456420",
+      "28869544",
+      "38286993",
+      "32997198",
+      "35772609",
+      "27956239",
+      "39353735",
+      "38969281",
+      "36107779",
+      "31028151",
+      "37060324",
+      "37561450",
+      "35427468",
+      "27229125",
+      "28644387",
+      "38374261",
+      "32961749",
+      "38458735",
+      "36498959",
+      "34176739",
+      "30607034",
+      "28231639",
+      "36805221",
+      "35055128",
+      "31642031",
+      "37305168",
+      "34819669",
+      "36659984",
+      "22012032",
+      "36808785"
+    ],
+    "review": [
+      "34487791",
+      "38531653",
+      "38705823",
+      "28045575",
+      "32170629",
+      "27881904",
+      "17894445",
+      "30503826",
+      "30261607",
+      "29339797",
+      "31606073",
+      "33291838",
+      "25280100",
+      "7599278",
+      "31104083",
+      "2432388",
+      "20387139",
+      "27048167",
+      "12110899",
+      "25511423",
+      "27647212",
+      "30058219",
+      "26404389",
+      "32131038",
+      "35772609",
+      "31028151",
+      "27229125",
+      "28644387",
+      "32961749",
+      "38458735",
+      "36498959",
+      "34176739",
+      "28231639",
+      "35055128"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(21)00462-9",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-1548",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

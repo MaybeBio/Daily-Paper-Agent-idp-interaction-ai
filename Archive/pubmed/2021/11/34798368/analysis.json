@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34798368",
+  "title": "Conformational insights into the C-terminal mutations of human rhodopsin in retinitispigmentosa.",
+  "authors": "Picarazzi, Francesca; Manetti, Fabrizio; Marigo, Valeria; Mori, Mattia",
+  "journal": "Journal of molecular graphics & modelling",
+  "published_date": "2021-11-20",
+  "window": {
+    "start": "2021-11-15",
+    "end": "2021-11-21"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用MD模拟研究视紫红质C端无序尾部突变对构象的影响，对象为IDR但非PPI，方法为物理模拟，机制建模有启发但互作轴缺失。",
+  "abstract": "Rhodopsin is a light-sensitive transmembrane receptor involved in the visual transduction cascade. Among the several rhodopsin mutations related to retinitis pigmentosa (RP), those affecting the C-terminal VAPA-COOH motif that is implicated in rhodopsin trafficking from the Golgi to the rod outer segment are notably associated with more aggressive RP forms. However, molecular reasons for defective rhodopsin signaling due to VAPA-COOH mutations, which might include steric hindrance, physicochemical features and structural determinants, are yet unknown, thus limiting further drug design approaches. In this work, clinically relevant rhodopsin mutations at the P347 site within the VAPA-COOH motif were investigated by molecular dynamics (MD) simulations and compared to the wild-type (WT) system. In agreement with experimental evidence, conformational fluctuations of the intrinsically disordered C-terminal tail of WT and mutant rhodopsin were found not to affect the overall structure of the transmembrane domain, including binding to the retinal cofactor. The WT VAPA-COOH motif adopts a unique conformation that is not found in pathological mutants, suggesting that structural features could better explain the pathogenicity of P347 rhodopsin mutants than physicochemical or steric determinants. These results were confirmed by MD simulations in both membrane-embedded full-length opsin and membrane-free C-terminal deca-peptides, these latter becoming very useful and small-size model systems for further investigations of rhodopsin C-terminal mutations. Structural details elucidated in this work might facilitate the understanding of the pathological mechanisms of this class of rhodopsin mutants, which will be instrumental to the development of new therapeutic strategies.",
+  "abstract_zh": "视紫红质（rhodopsin）是一种参与视觉传导级联反应的光敏跨膜受体。在与视网膜色素变性（retinitis pigmentosa, RP）相关的多种视紫红质突变中，影响C端VAPA-COOH基序（该基序参与视紫红质从高尔基体向视杆外节的转运）的突变与更具侵袭性的RP形式显著相关。然而，由于VAPA-COOH突变导致视紫红质信号传导缺陷的分子原因（可能包括空间位阻、理化特征和结构决定因素）尚不清楚，从而限制了进一步的药物设计方法。在本工作中，通过分子动力学（molecular dynamics, MD）模拟研究了VAPA-COOH基序内P347位点的临床相关视紫红质突变，并与野生型（wild-type, WT）系统进行了比较。与实验证据一致，WT和突变视紫红质的内在无序C端尾部的构象波动被发现不影响跨膜结构域的整体结构，包括与视黄醛辅因子的结合。WT VAPA-COOH基序采用一种在病理突变体中未发现的独特构象，表明结构特征可能比理化或空间决定因素更能解释P347视紫红质突变体的致病性。这些结果通过膜嵌入的全长视蛋白和无膜C端十肽的MD模拟得到证实，后者成为进一步研究视紫红质C端突变的有用且小尺寸的模型系统。本工作阐明的结构细节可能有助于理解此类视紫红质突变体的病理机制，这将为开发新的治疗策略提供支持。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34798368/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34798368/",
+  "paper_page_path": "papers/pubmed/34798368/index.html"
+}

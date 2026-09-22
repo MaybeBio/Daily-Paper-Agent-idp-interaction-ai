@@ -1,0 +1,77 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors report that a small molecule, previously evaluated in a clinical trial, selectively targets an intrinsically disordered region (IDR) of a transcription factor by binding to an oligomeric, partially structured state stabilized by aromatic interactions in regions with helical propensity. They further claim that this binding alters the conformational ensemble and condensation properties of the target, and that these findings provide a general framework for targeting IDRs with small molecules.
+- **Visible evidence base** Abstract text only; no experimental details, statistical analyses, or primary data are available
+- **Missing materials affecting confidence** Full manuscript, methods, figures, tables, supplementary information, and any supporting data; without these, the validity of the mechanistic and functional claims cannot be independently assessed
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting observation regarding a small molecule that targets an IDR through an oligomeric state, which would be of interest to the chemical biology and drug discovery communities. However, the claims are broad and mechanistically specific, and the abstract alone provides insufficient evidence to evaluate their validity. The central assertion that oligomerization enables selective targeting is plausible but not established from the supplied material. The clinical relevance of the compound is mentioned but not contextualized, and the link between conformational changes and condensation properties is stated without supporting data. The framework claim is ambitious and would require substantial evidence to be convincing.
+- **Who would be interested in the results, and why** Researchers in chemical biology, drug discovery, and biophysics, particularly those focused on intrinsically disordered proteins and transcription factors. The work may also interest groups studying liquid-liquid phase separation and its modulation by small molecules, as well as those developing therapeutic strategies for targets traditionally considered undruggable.
+- **Major strengths** The abstract addresses a timely and challenging problem, namely the druggability of IDRs. The focus on an oligomeric state as a potential target is conceptually interesting and may offer a new angle for drug design. The connection to condensation properties and transcription factor function adds a functional dimension that could broaden the impact beyond binding affinity.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The compound interacts selectively with an oligomeric form of the protein, more structured than the monomeric state, stabilized by aromatic interactions in regions with helical propensity.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract states that the compound targets an oligomeric state, but no data are presented to support the existence, stability, or relevance of this state under physiological conditions. The claim that aromatic interactions stabilize this state is specific and requires direct biophysical evidence, such as mutagenesis, NMR, or structural data, none of which are visible.  
+  - **Why it matters** The entire premise of the paper rests on the existence and druggability of this oligomeric state. Without evidence for its formation and selective binding, the central claim is unsupported.  
+  - **Resolution test** Provide experimental data showing the oligomeric state under relevant conditions, demonstrate selective binding to this state over the monomer, and show that aromatic residues are functionally required for stabilization and binding.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Functional relevance  
+  - **Claim pointer** The compound alters the network of interactions defining the conformational ensemble of its target, thus affecting its condensation properties, linked to its function as a transcription factor.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract claims a causal link between compound binding, changes in the conformational ensemble, and altered condensation properties. No data are shown to support this chain of events, and the functional consequence for transcription factor activity is implied but not demonstrated.  
+  - **Why it matters** The therapeutic relevance of the compound depends on a functional outcome. If condensation changes do not translate to a measurable biological effect, the significance of the findings is substantially reduced.  
+  - **Resolution test** Show quantitative data on condensation behavior in the presence and absence of the compound, and link these changes to a functional readout of transcription factor activity in a cellular or in vitro assay.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** These findings provide a framework for developing strategies to target intrinsically disordered regions with small molecules.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract generalizes from a single example to a broad framework. While this may be a reasonable aspiration, the evidence for a generalizable strategy is not presented. It is unclear whether the oligomeric state observed here is a common feature of IDRs or specific to this protein.  
+  - **Why it matters** Overgeneralization from a single case could mislead future drug discovery efforts. The framework claim requires either multiple examples or a clear mechanistic rationale supported by data.  
+  - **Resolution test** Provide evidence that the targeting strategy applies to at least one additional IDR-containing protein, or present a detailed mechanistic model that justifies generalizability.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Target protein identity  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not name the protein or the compound, which limits the reader's ability to contextualize the findings.  
+  - **Required correction** Specify the protein and compound names in the abstract.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Clinical trial reference  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract mentions that the compound was evaluated in a clinical trial but provides no context on the disease indication or outcome.  
+  - **Required correction** Add a brief statement on the clinical context to clarify the relevance.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** "More structured"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "more structured than the monomeric state" is vague and could refer to secondary structure, tertiary contacts, or overall compactness.  
+  - **Required correction** Define what is meant by "structured" in this context, ideally with reference to specific biophysical measurements.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The existence of the oligomeric state and the functional consequence of compound binding are not established from the abstract alone. Without these, the central claims of selective targeting and functional modulation remain unverified.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The idea of targeting an oligomeric state of an IDR is conceptually novel and could be of high interest. However, originality alone is insufficient without robust evidence.  
+  - **Scientific importance** The work addresses a significant challenge in drug discovery, namely the targeting of IDRs. If substantiated, the findings could have broad implications. The importance is high but conditional on evidence quality.  
+  - **Interdisciplinary readership** The topic bridges chemistry, biophysics, and cell biology, and would appeal to a broad audience. The abstract is written in a way that is accessible to nonspecialists, though some terms could be clarified.  
+  - **Technical soundness** Not assessable from the abstract. No methods or data are provided to evaluate the rigor of the experiments.  
+  - **Readability for nonspecialists** The abstract is generally clear, but the mechanistic claims are dense and would benefit from more explicit definitions of key terms.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis but lacks the data necessary to support the central claims. A full manuscript with detailed biophysical, biochemical, and functional data would be required to assess whether the case is convincing.
+
+## Risk / unsupported claims
+- The existence of a specific oligomeric state of the target protein is claimed but not demonstrated.
+- The selective interaction of the compound with this oligomeric state over the monomer is claimed but not shown.
+- The role of aromatic interactions in stabilizing the oligomeric state is asserted without evidence.
+- The causal link between compound binding, conformational ensemble changes, and altered condensation properties is stated but not supported.
+- The functional consequence for transcription factor activity is implied but not demonstrated.
+- The generalizability of the findings to a framework for targeting IDRs is not supported by the abstract alone.

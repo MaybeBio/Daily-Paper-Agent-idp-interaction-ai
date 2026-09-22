@@ -1,0 +1,92 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results and discussion, conclusion, methods, data availability, acknowledgments)
+- **Assessment boundary** Scientific content, methodological soundness, validity of claims, and presentation quality as presented in the provided manuscript text. No external data or code were accessed.
+- **Shared manuscript claim summary** The authors assess the distribution of pathogenic and benign missense variants across disordered, intermediate, and ordered protein regions in the human proteome, and evaluate the performance of 33 variant effect predictors (VEPs) in these structural contexts. They report that pathogenic variants are depleted in disordered regions, that VEPs show reduced sensitivity for pathogenic variants in disordered regions despite high AUROC values, and that VEPs exhibit substantial discordance in disordered regions. They propose region-specific thresholds as a potential improvement.
+- **Visible evidence base** Abstract, Introduction, Results and Discussion (sections on variant distribution, disease mechanisms, VEP performance, sensitivity/specificity, and discordance), Conclusion, Methods (structural classification, variant dataset, VEP performance assessment), Data availability statement, Acknowledgments
+- **Missing materials affecting confidence** Figures 1–5 and Supplementary Figures S1–S3 and Table S1 are referenced but not provided. Detailed numerical results (e.g., exact counts, confidence intervals, full statistical outputs) are not available. The full list of 33 VEPs and their categorization is not provided in the text. The literature-based classification of variants into LOF, GOF, and DN mechanisms is referenced but not described in sufficient detail.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses an important and timely question: how well do variant effect predictors perform in intrinsically disordered protein regions, and what mechanisms underlie pathogenic variants in these regions? The authors build on their prior work and provide a systematic analysis across the human proteome. The finding that pathogenic variants are depleted in disordered regions, and that VEP sensitivity is notably lower there, is potentially valuable for clinical variant interpretation. However, the manuscript as presented has several significant limitations. The results section is incomplete in the provided text, with key figures and supplementary materials not available for assessment. The methodological description, while clear in parts, lacks sufficient detail on several critical aspects, including the exact composition of the VEP set, the handling of variant overlap between ClinVar and gnomAD, and the statistical methods used. The claim that region-specific thresholds are beneficial is plausible but not fully supported by the data presented in the text. The discussion of disease mechanisms, while interesting, relies on a literature-based classification that is not described in sufficient detail to assess its validity. Overall, the manuscript presents a useful contribution, but the current evidence base is insufficient to fully establish the central claims.
+- **Who would be interested in the results, and why** Researchers and clinicians working on variant interpretation, particularly in the context of clinical genomics and rare disease diagnosis. Developers of variant effect predictors and computational tools for protein annotation would also find this relevant. Additionally, the broader community studying intrinsically disordered proteins and their role in disease would be interested in the mechanistic insights presented.
+- **Major strengths** The manuscript addresses a clinically relevant and understudied problem. The use of a conservative, pLDDT-based definition of disorder is a thoughtful methodological choice. The inclusion of a large number of VEPs (33) spanning different training strategies is a strength. The observation that high AUROC values in disordered regions are driven by benign variant classification, not pathogenic variant detection, is an important and potentially field-shaping insight. The proposal of region-specific thresholds is a practical and actionable suggestion.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims to systematically assess VEP performance across disordered, intermediate, and ordered regions, and to demonstrate reduced sensitivity in disordered regions.
+  - **Evidence pointer** Results and Discussion sections; Figures 3, 4, 5; Supplementary Figures S1–S3; Table S1
+  - **Concern** The results and discussion section is incomplete in the provided text. The key figures (Figures 1–5) and all supplementary materials are referenced but not provided. Without these, the central claims regarding variant distribution, VEP performance metrics, and inter-VEP agreement cannot be independently evaluated. The text provides some numerical values (e.g., percentages, P-values), but these are insufficient to assess the robustness of the findings.
+  - **Why it matters** The core conclusions of the manuscript rest on the data presented in these figures and tables. Without access to them, the validity of the claims cannot be verified. This is a fundamental issue that prevents a full assessment of the manuscript's contribution.
+  - **Resolution test** The authors should provide the full results section, including all figures and supplementary materials, so that the data supporting each claim can be examined.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological transparency
+  - **Claim pointer** The manuscript states that 33 VEPs were evaluated, categorized into clinical-trained, population-tuned, and population-free groups.
+  - **Evidence pointer** Methods section, "Assessing VEP performance and agreement"
+  - **Concern** The specific list of the 33 VEPs is not provided in the text. The categorization into clinical-trained, population-tuned, and population-free is mentioned, but the criteria for this categorization are not fully described. Furthermore, the threshold of 75% coverage for inclusion is stated, but the number of variants retained after applying this filter and the requirement for all VEPs to have scores for all retained variants is not quantified. This lack of detail makes it difficult to assess potential selection biases and the generalizability of the findings.
+  - **Why it matters** The composition of the VEP set and the filtering criteria directly influence the results. Without a clear list of VEPs and a detailed description of the filtering process, the reader cannot assess whether the set is representative or whether the results are sensitive to the specific choice of tools.
+  - **Resolution test** The authors should provide a complete list of the 33 VEPs, their versions, and their categorization. They should also report the number of variants retained at each filtering step and the overlap between ClinVar and gnomAD variants.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim support
+  - **Claim pointer** The manuscript claims that pathogenic variants in disordered regions of autosomal dominant genes are enriched for LOF mechanisms, particularly in transcription factors, and that this is a distinct mechanism compared to ordered regions.
+  - **Evidence pointer** Results and Discussion, "Distinct mechanisms underlie pathogenic variants in disordered regions"; Figure 2
+  - **Concern** The analysis of disease mechanisms relies on a "literature-based classification" of variants into LOF, GOF, and DN categories, referencing a previous study. However, the details of this classification, including its criteria, coverage, and potential limitations, are not described. The claim that LOF variants are enriched in disordered regions of AD genes is surprising and contradicts the authors' initial expectation. While the authors offer a plausible explanation involving transcription factors and haploinsufficiency, this is presented as a post-hoc interpretation. The statistical support for this enrichment (beyond the P-values for the AD vs AR comparison) is not provided.
+  - **Why it matters** The mechanistic interpretation is a key part of the manuscript's contribution. If the underlying variant classification is not transparent or robust, the conclusions drawn from it are weakened. The post-hoc nature of the explanation also raises concerns about potential over-interpretation.
+  - **Resolution test** The authors should provide a detailed description of the literature-based classification, including its sources, criteria, and any validation. They should also provide the statistical analysis supporting the enrichment of LOF variants in disordered regions of AD genes, and ideally, a pre-registered or independent validation of this finding.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological validity
+  - **Claim pointer** The manuscript proposes that region-specific thresholds for VEPs could improve sensitivity in disordered regions without substantially compromising specificity.
+  - **Evidence pointer** Results and Discussion, "VEPs show low sensitivity for pathogenic variants in disordered regions"; Figure 4; Table S1
+  - **Concern** The proposal of region-specific thresholds is based on the observation that sensitivity is lower in disordered regions. However, the manuscript does not provide a clear framework for how these thresholds would be derived or applied in practice. The "optimal threshold" is defined using the Youden J-statistic on the ROC curve, but the stability and generalizability of these thresholds across different datasets or clinical contexts are not discussed. The potential for overfitting to the specific dataset used is a concern.
+  - **Why it matters** The practical utility of the proposed solution depends on its robustness and applicability. Without a clear methodology for deriving and validating region-specific thresholds, the recommendation remains speculative.
+  - **Resolution test** The authors should provide a more detailed description of how region-specific thresholds would be calculated and validated, potentially using cross-validation or an independent dataset. They should also discuss the potential trade-offs and limitations of this approach.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that pathogenic variants are "notably depleted in IDPRs yet were associated with distinct molecular mechanisms." The phrase "yet" implies a contrast, but the logical connection between depletion and distinct mechanisms is not immediately clear.
+  - **Required correction** Consider rephrasing to clarify the relationship, e.g., "Pathogenic variants were notably depleted in IDPRs, and those that do occur are associated with distinct molecular mechanisms."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Results and Discussion, "VEPs show low sensitivity for pathogenic variants in disordered regions"
+  - **Evidence pointer** Results and Discussion, "VEPs show low sensitivity for pathogenic variants in disordered regions"
+  - **Issue** The sentence "This suggests that the sparse and subtle functional constraints characteristic of IDPRs lead to reduced model convergence and greater uncertainty in prediction" is somewhat vague. The terms "model convergence" and "uncertainty" are not precisely defined in this context.
+  - **Required correction** Clarify what is meant by "model convergence" (e.g., agreement between different VEPs) and "uncertainty" (e.g., confidence in individual predictions).
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Methods, "Missense variant dataset"
+  - **Evidence pointer** Methods, "Missense variant dataset"
+  - **Issue** The methods state that ClinVar variants from August 2022 were used, but the exact version or download date of gnomAD v2.1 is not specified. This is a minor issue but could affect reproducibility.
+  - **Required correction** Specify the exact version and download date of the gnomAD dataset used.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Results and Discussion, "VEPs show low sensitivity for pathogenic variants in disordered regions"
+  - **Evidence pointer** Results and Discussion, "VEPs show low sensitivity for pathogenic variants in disordered regions"
+  - **Issue** The sentence "Interestingly, while specificity is also affected, the impact appears to be relatively smaller than on sensitivity in disordered regions" contains a minor grammatical issue ("than on sensitivity" should be "than the impact on sensitivity").
+  - **Required correction** Rephrase for clarity, e.g., "Interestingly, while specificity is also affected, the impact appears to be relatively smaller than that on sensitivity in disordered regions."
+- **Technical failings that need to be addressed before the case is established** The primary technical failing is the incompleteness of the provided manuscript, which lacks all figures and supplementary materials. This prevents verification of the central claims. Additionally, the lack of a detailed list of VEPs and the insufficient description of the literature-based variant classification are significant gaps. The statistical methods for comparing performance across regions are not described in detail.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The manuscript addresses a relatively under-explored area, building on the authors' prior work. The specific focus on VEP performance in disordered regions and the mechanistic insights are novel contributions.
+  - **Scientific importance** The topic is of high importance for clinical variant interpretation and for understanding disease mechanisms. The findings could have practical implications for how VEPs are used and developed.
+  - **Interdisciplinary readership** The work is relevant to computational biology, genomics, clinical genetics, and protein science. The writing is generally accessible, but some sections may be challenging for non-specialists.
+  - **Technical soundness** The methodological approach is reasonable, but the lack of detail on several key aspects (VEP list, variant classification, statistical methods) and the absence of figures prevent a full assessment of technical soundness.
+  - **Readability for nonspecialists** The abstract and introduction are clear and accessible. The results and discussion sections are more technical and would benefit from clearer explanations of the key concepts and findings.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important question and presents potentially valuable findings, but the incomplete evidence base and several methodological gaps prevent a full assessment. The authors should provide the complete manuscript with all figures and supplementary materials, and address the specific concerns raised, before the case can be properly evaluated.
+
+## Risk / unsupported claims
+- The claim that "nearly all VEPs show the highest AUROC values in disordered regions" is not supported by the provided text, as Figure 3 is not available.
+- The claim that "VEPs show substantial discordance in disordered regions" is not supported by the provided text, as Figure 5 is not available.
+- The claim that "region-specific thresholds are likely useful" is a suggestion based on the presented analysis, but its practical utility is not demonstrated.
+- The claim that "pathogenic variants in disordered regions of AD genes are enriched for LOF mechanisms" is based on a literature-based classification that is not described in sufficient detail to assess its validity.
+- The claim that "pathogenic variants in IDPRs are associated with distinct molecular mechanisms, particularly dominant gain- and loss-of-function effects" is presented in the abstract but the supporting evidence is not fully described in the provided text.

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38812466",
+  "title": "MoRF_ESM: Prediction of MoRFs in disordered proteins based on a deep transformer protein language model.",
+  "authors": "Fang, Chun; He, Jiasheng; Yamana, Hayato",
+  "journal": "Journal of bioinformatics and computational biology",
+  "published_date": "2024-05-30",
+  "window": {
+    "start": "2024-05-27",
+    "end": "2024-06-02"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用ESM-2蛋白语言模型与TextCNN预测无序蛋白中的MoRF功能片段，对象为IDR且用深度学习方法，但聚焦序列预测而非PPI互作机制建模，故给7分。",
+  "abstract": "Molecular recognition features (MoRFs) are particular functional segments of disordered proteins, which play crucial roles in regulating the phase transition of membrane-less organelles and frequently serve as central sites in cellular interaction networks. As the association between disordered proteins and severe diseases continues to be discovered, identifying MoRFs has gained growing significance. Due to the limited number of experimentally validated MoRFs, the performance of existing MoRF's prediction algorithms is not good enough and still needs to be improved. In this research, we present a model named MoRF_ESM, which utilizes deep-learning protein representations to predict MoRFs in disordered proteins. This approach employs a pretrained ESM-2 protein language model to generate embedding representations of residues in the form of attention map matrices. These representations are combined with a self-learned TextCNN model for feature extraction and prediction. In addition, an averaging step was incorporated at the end of the MoRF_ESM model to refine the output and generate final prediction results. In comparison to other impressive methods on benchmark datasets, the MoRF_ESM approach demonstrates state-of-the-art performance, achieving [Formula: see text] higher AUC than other methods when tested on TEST1 and achieving [Formula: see text] higher AUC than other methods when tested on TEST2. These results imply that the combination of ESM-2 and TextCNN can effectively extract deep evolutionary features related to protein structure and function, along with capturing shallow pattern features located in protein sequences, and is well qualified for the prediction task of MoRFs. Given that ESM-2 is a highly versatile protein language model, the methodology proposed in this study can be readily applied to other tasks involving the classification of protein sequences.",
+  "abstract_zh": "分子识别特征（MoRFs）是无序蛋白中的特定功能片段，在调控无膜细胞器的相变中发挥关键作用，并常作为细胞相互作用网络中的核心位点。随着无序蛋白与严重疾病之间关联的不断发现，识别MoRFs的重要性日益增加。由于实验验证的MoRFs数量有限，现有MoRF预测算法的性能尚不理想，仍需改进。在本研究中，我们提出了一种名为MoRF_ESM的模型，利用深度学习蛋白质表示来预测无序蛋白中的MoRFs。该方法采用预训练的ESM-2蛋白质语言模型，以注意力图矩阵的形式生成残基的嵌入表示。这些表示与自学习的TextCNN模型相结合，用于特征提取和预测。此外，在MoRF_ESM模型的末端加入了一个平均步骤，以细化输出并生成最终预测结果。与基准数据集上的其他显著方法相比，MoRF_ESM方法展示了最先进的性能，在TEST1上测试时，其AUC比其他方法高出[公式：见原文]，在TEST2上测试时，其AUC比其他方法高出[公式：见原文]。这些结果表明，ESM-2与TextCNN的结合能有效提取与蛋白质结构和功能相关的深层进化特征，同时捕获蛋白质序列中的浅层模式特征，并完全胜任MoRFs的预测任务。鉴于ESM-2是一种高度通用的蛋白质语言模型，本研究所提出的方法可轻松应用于其他涉及蛋白质序列分类的任务。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38812466/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38812466/",
+  "paper_page_path": "papers/pubmed/38812466/index.html"
+}

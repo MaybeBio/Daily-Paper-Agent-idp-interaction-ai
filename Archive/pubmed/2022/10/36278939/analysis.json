@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36278939",
+  "title": "Molecular Insights into the Misfolding and Dimerization Dynamics of the Full-Length alpha-Synuclein from Atomistic Discrete Molecular Dynamics Simulations.",
+  "authors": "Zhang, Yu; Wang, Ying; Liu, Yuying; Wei, Guanghong; Ding, Feng; Sun, Yunxiang",
+  "journal": "ACS chemical neuroscience",
+  "published_date": "2022-10-25",
+  "window": {
+    "start": "2022-10-24",
+    "end": "2022-10-30"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用原子级离散分子动力学模拟研究全长α-突触核蛋白（天然无序蛋白）的单体错误折叠与二聚化动态，揭示N端尾部与NAC区形成链间β-折叠的早期聚集机制，属于IDP互作机制建模，方法为物理模拟，对象与互作轴均强，故评8分。",
+  "abstract": "The misfolding and pathological aggregation of alpha-synuclein forming insoluble amyloid deposits is associated with Parkinson's disease, the second most common neurodegenerative disease in the world population. Characterizing the self-assembly mechanism of alpha-synuclein is critical for discovering treatments against synucleinopathies. The intrinsically disordered property, high degrees of freedom, and macroscopic timescales of conformational conversion make its characterization extremely challenging in vitro and in silico. Here, we systematically investigated the dynamics of monomer misfolding and dimerization of the full-length alpha-synuclein using atomistic discrete molecular dynamics simulations. Our results suggested that both alpha-synuclein monomers and dimers mainly adopted unstructured formations with partial helices around the N-terminus (residues 8-32) and various beta-sheets spanning the residues 35-56 (N-terminal tail) and residues 61-95 (NAC region). The C-terminus mostly assumed an unstructured formation wrapping around the lateral surface and the elongation edge of the beta-sheet core formed by an N-terminal tail and NAC regions. Dimerization enhanced the beta-sheet formation along with a decrease in the unstructured content. The inter-peptide beta-sheets were mainly formed by the N-terminal tail and NACore (residues 68-78) regions, suggesting that these two regions played critical roles in the amyloid aggregation of alpha-synuclein. Interactions of the C-terminus with the N-terminal tail and the NAC region were significantly suppressed in the alpha-synuclein dimer, indicating that the interaction of the C-terminus with the N-terminal tail and NAC regions could prevent alpha-synuclein aggregation. These results on the structural ensembles and early aggregation dynamics of alpha-synuclein will help understand the nucleation and fibrillization of alpha-synuclein.",
+  "abstract_zh": "α-synuclein的错误折叠和病理性聚集形成不溶性淀粉样沉积，与帕金森病（全球人口中第二常见的神经退行性疾病）相关。表征α-synuclein的自组装机制对于发现针对突触核蛋白病的治疗方法至关重要。其 intrinsically disordered 特性、高自由度以及构象转换的宏观时间尺度，使其在体外和计算机模拟中的表征极具挑战性。在此，我们使用原子级离散分子动力学 (discrete molecular dynamics) 模拟，系统研究了全长α-synuclein的单体错误折叠和二聚化动力学。我们的结果表明，α-synuclein单体和二聚体主要采用无序构象，在N端（残基8-32）附近具有部分螺旋，并在残基35-56（N端尾部）和残基61-95（NAC区域）范围内形成多种β-折叠。C端大多呈无序构象，包裹在由N端尾部和NAC区域形成的β-折叠核心的侧面和延伸边缘上。二聚化增强了β-折叠的形成，同时降低了无序含量。肽间β-折叠主要由N端尾部和NACore（残基68-78）区域形成，表明这两个区域在α-synuclein的淀粉样聚集过程中起关键作用。在α-synuclein二聚体中，C端与N端尾部及NAC区域的相互作用显著受到抑制，提示C端与N端尾部及NAC区域的相互作用可能阻止α-synuclein聚集。这些关于α-synuclein结构集合和早期聚集动力学的结果，将有助于理解α-synuclein的成核和纤维化过程。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36278939/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36278939/",
+  "paper_page_path": "papers/pubmed/36278939/index.html"
+}

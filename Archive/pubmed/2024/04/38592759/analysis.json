@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38592759",
+  "title": "Interplay between charge distribution and DNA in shaping HP1 paralog phase separation and localization.",
+  "authors": "Phan, Tien M; Kim, Young C; Debelouchina, Galia T; Mittal, Jeetain",
+  "journal": "eLife",
+  "published_date": "2024-04-09",
+  "window": {
+    "start": "2024-04-08",
+    "end": "2024-04-14"
+  },
+  "score": 8,
+  "one_liner_zh": "该文用粗粒化模拟研究HP1旁系同源物（含无序区域）的电荷分布与DNA如何调控其相分离及共定位，聚焦无序蛋白介导的凝聚体形成机制，方法为物理模拟，与本课题高度相关。",
+  "abstract": "The heterochromatin protein 1 (HP1) family is a crucial component of heterochromatin with diverse functions in gene regulation, cell cycle control, and cell differentiation. In humans, there are three paralogs, HP1alpha, HP1beta, and HP1gamma, which exhibit remarkable similarities in their domain architecture and sequence properties. Nevertheless, these paralogs display distinct behaviors in liquid-liquid phase separation (LLPS), a process linked to heterochromatin formation. Here, we employ a coarse-grained simulation framework to uncover the sequence features responsible for the observed differences in LLPS. We highlight the significance of the net charge and charge patterning along the sequence in governing paralog LLPS propensities. We also show that both highly conserved folded and less-conserved disordered domains contribute to the observed differences. Furthermore, we explore the potential co-localization of different HP1 paralogs in multicomponent assemblies and the impact of DNA on this process. Importantly, our study reveals that DNA can significantly reshape the stability of a minimal condensate formed by HP1 paralogs due to competitive interactions of HP1alpha with HP1beta and HP1gamma versus DNA. In conclusion, our work highlights the physicochemical nature of interactions that govern the distinct phase-separation behaviors of HP1 paralogs and provides a molecular framework for understanding their role in chromatin organization.",
+  "abstract_zh": "异染色质蛋白1（HP1）家族是异染色质的关键组成部分，在基因调控、细胞周期控制和细胞分化中具有多种功能。在人类中，存在三个旁系同源物，即HP1alpha、HP1beta和HP1gamma，它们在结构域架构和序列特性上表现出显著相似性。然而，这些旁系同源物在液-液相分离（LLPS）中表现出不同行为，这一过程与异染色质形成相关。在此，我们采用粗粒化模拟框架来揭示导致观察到的LLPS差异的序列特征。我们强调了序列中净电荷和电荷分布模式在调控旁系同源物LLPS倾向中的重要性。我们还表明，高度保守的折叠结构域和保守性较低的无序结构域均对观察到的差异有所贡献。此外，我们探讨了不同HP1旁系同源物在多组分组装体中潜在共定位的可能性，以及DNA对此过程的影响。重要的是，我们的研究揭示，由于HP1alpha与HP1beta和HP1gamma之间相对于DNA的竞争性相互作用，DNA能显著重塑由HP1旁系同源物形成的最小凝聚体的稳定性。总之，我们的工作强调了调控HP1旁系同源物不同相分离行为的相互作用的物理化学本质，并为理解其在染色质组织中的作用提供了分子框架。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38592759/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38592759/",
+  "paper_page_path": "papers/pubmed/38592759/index.html"
+}

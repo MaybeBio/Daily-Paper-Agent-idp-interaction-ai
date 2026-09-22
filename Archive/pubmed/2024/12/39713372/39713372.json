@@ -1,0 +1,254 @@
+{
+  "identity": {
+    "pmid": "39713372",
+    "doi": "10.1101/2024.12.07.627363",
+    "title": "Molecular mechanisms of GSK3 beta -driven modulation of ABLIM1 and titin interactions in cardiac muscle."
+  },
+  "content": {
+    "abstract": "1 The heart adapts to cardiac demand through various mechanisms, including chemical modifications of myofilament proteins responsible for cell contraction. Many of these modifications, such as phosphorylation, occur in unstructured, or intrinsically disordered, regions (IDRs) of proteins. Although often challenging to study, these IDRs are increasingly recognized as dynamic, tunable regulators of protein function. Given that cardiac dysfunction can involve changes in the post-translational modification (PTM) status of myofilament proteins, it is critical to assess how alterations within these disordered regions impact intact protein and myofilament behavior. We hypothesized that the function of ABLIM1, a myofilament protein containing an important IDR, is regulated by altering its IDR conformational ensemble through PTMs, primarily phosphorylation. We proposed that this conformational change would modulate its ability to bind to other myofilament proteins. To evaluate this hypothesis, we employed a multiscale modeling approach including molecular dynamics simulations. This was used to predict the conformational ensembles of ABLIM1 before and after phosphorylation, at sites known to be altered in a canine model of heart failure with reduced GSK3 beta activity. We then used a state-based model of contraction to rationalize the physiological consequences of the molecular-scale predictions. Based on our data, we observed that local physicochemical alterations induced by phosphorylation in ABLIM1's intrinsically disordered regions significantly affect its overall conformational ensemble properties. This ensemble change subsequently influences the ability of its LIM domains to interact with titin. Furthermore, using the contraction model, we show that a reduced ability to recruit myosin heads for cross-bridge formation, resulting from the modified LIM domain/titin interactions, provides a mechanism that elucidates previous findings of diminished length-dependent activation. These findings offer crucial molecular insights, reframing IDRs not merely as structural noise but as key, tunable elements that control protein interactions and ultimately impact mechanical behavior in the sarcomere. This work bridges molecular disorder and biomechanical function, providing a new lens to understand dynamic control and dysfunction in cardiomyocyte contraction.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sun, Bin",
+        "Loftus, Alec",
+        "Beh Goh Beh, Brandon",
+        "Hepburn, Aalaythia",
+        "Kirk, Jonathan A",
+        "Kekenes-Huskey, Peter M"
+      ],
+      "short_names": [
+        "Sun B",
+        "Loftus A",
+        "Beh Goh Beh B",
+        "Hepburn A",
+        "Kirk JA",
+        "Kekenes-Huskey PM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-5192-2860",
+        "ORCID: 0000-0001-7286-3022"
+      ],
+      "affiliations": []
+    },
+    "xml": [
+      {
+        "full_name": "Sun, Bin",
+        "short_name": "Sun B",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Loftus, Alec",
+        "short_name": "Loftus A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Beh Goh Beh, Brandon",
+        "short_name": "Beh Goh Beh B",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Hepburn, Aalaythia",
+        "short_name": "Hepburn A",
+        "identifiers": [],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kirk, Jonathan A",
+        "short_name": "Kirk JA",
+        "identifiers": [
+          "0000-0002-5192-2860"
+        ],
+        "affiliations": []
+      },
+      {
+        "full_name": "Kekenes-Huskey, Peter M",
+        "short_name": "Kekenes-Huskey PM",
+        "identifiers": [
+          "0000-0001-7286-3022"
+        ],
+        "affiliations": []
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2025 May 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/23 12:22",
+    "fetched_at": "2026-09-21 14:05:42"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39713372",
+      "40856697",
+      "39539017",
+      "38915510",
+      "39283968",
+      "23912807",
+      "23213108",
+      "40068771",
+      "40574713",
+      "34765042",
+      "29626537",
+      "36628457",
+      "33267376",
+      "40073932",
+      "34557680",
+      "30523116",
+      "27524973",
+      "35168370",
+      "38474037",
+      "38705823",
+      "39093570",
+      "33076213",
+      "26453301",
+      "38712287",
+      "39745989",
+      "39453744",
+      "29226977",
+      "25373878",
+      "36987865",
+      "33666504",
+      "38942776",
+      "40846275",
+      "22951219",
+      "40631955",
+      "24969035",
+      "31724233",
+      "30989819",
+      "31441158",
+      "26858417",
+      "33719450",
+      "38940916",
+      "26792330",
+      "23129792",
+      "29550429",
+      "39653037",
+      "36711874",
+      "38365983",
+      "40042172",
+      "32824743",
+      "16205841",
+      "23246787",
+      "19140019",
+      "37155239",
+      "29275006",
+      "27807972",
+      "36645120",
+      "40403066",
+      "29722136",
+      "24115198",
+      "38297118",
+      "38941236",
+      "34825861",
+      "40530859",
+      "27133568",
+      "35502901",
+      "40889662",
+      "10747208",
+      "30138628",
+      "38284524",
+      "30700140",
+      "41378882",
+      "39186607",
+      "25477822",
+      "24486373",
+      "37657994",
+      "36824771",
+      "27140628",
+      "35317227",
+      "34179096",
+      "41276815",
+      "20037178",
+      "16860336",
+      "31999450",
+      "37463458",
+      "12695002",
+      "23085150",
+      "29544934",
+      "19679839",
+      "25122914",
+      "23764881",
+      "33182367",
+      "28924037",
+      "39297139",
+      "32696395",
+      "36908253",
+      "41394673",
+      "29760016",
+      "29763584",
+      "36555864",
+      "35882686"
+    ],
+    "review": [
+      "39713372",
+      "36628457",
+      "38705823",
+      "39093570",
+      "39745989",
+      "25373878",
+      "30989819",
+      "31441158",
+      "26792330",
+      "16205841",
+      "19140019",
+      "29722136",
+      "40889662",
+      "10747208",
+      "37657994",
+      "12695002",
+      "36555864"
+    ],
+    "pmc": [
+      "11661090"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39713372/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-957",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.12.07.627363",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "identity": {
+    "pmid": "39244126",
+    "doi": "10.1016/j.ijbiomac.2024.135298",
+    "title": "Phase separation of triton X-100 and bovine serum albumin mixture: Impacts of nature and composition of polyols on associated physicochemical parameters."
+  },
+  "content": {
+    "abstract": "Bovine serum albumin (BSA) is widely used in tissue engineering and pharmaceutical research. It is readily available as a byproduct of the cattle industry, and collected from blood. In this study, we conducted a physicochemical investigation of the phase separation in a mixture of Triton X-100 (TX-100) and BSA, influenced by various polyols, using the well-established cloud point (CP) determination method. The addition of polyols resulted in a significant reduction in CP values for the TX-100 + BSA mixture. The magnitudes of CP in the experimental system were highly varied with different polyols and followed the order of: [Formula: see text] Under identical conditions, the system exhibited maximum solubility in the xylose solution and minimum solubility in the maltose solution. The positive DeltaG(c)(0) values were acquired in all working medium imply the nonspontaneity of phase transition in the TX-100 + BSA system. At lower polyol contents, the negative values of standard enthalpy (∆H(c)(0)) and standard entropy (∆S(c)(0)) changes were observed, suggesting that electrostatic forces dominated as the driving force for clouding. At highest employed polyols concentration in some case, the positive values for ∆H(c)(0) and ∆S(c)(0) were achieved, which indicated that hydrophobic interactions likely dominate the phase partitioning of the amphiphile and protein mixture. Additionally, entropy-enthalpy compensation parameters were calculated and analyzed with a rational approach. Molecular docking analysis further demonstrated the presence of hydrogen bonds and hydrophobic interactions between TX-100 and BSA.",
+    "keywords": [
+      "Bovine serum albumin (BSA)",
+      "Cloud point",
+      "Interaction"
+    ],
+    "mesh_terms": [
+      "*Serum Albumin, Bovine/chemistry",
+      "*Octoxynol/chemistry",
+      "Animals",
+      "Cattle",
+      "*Polymers/chemistry",
+      "*Solubility",
+      "Thermodynamics",
+      "Chemical Phenomena",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Phase Transition",
+      "Phase Separation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akbor, Aysha Bente",
+        "Islam, Md Rafikul",
+        "Khan, Javed Masood",
+        "Alam, Md Masud",
+        "Shumon, Md Anamul Haque",
+        "Goni, Md Abdul",
+        "Rehman, Md Tabish",
+        "Hoque, Md Anamul",
+        "Islam, D M Shafiqul"
+      ],
+      "short_names": [
+        "Akbor AB",
+        "Islam MR",
+        "Khan JM",
+        "Alam MM",
+        "Shumon MAH",
+        "Goni MA",
+        "Rehman MT",
+        "Hoque MA",
+        "Islam DMS"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Chemistry, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh.",
+        "Department of Chemistry, Dhaka University of Engineering & Technology, Gazipur 1707, Bangladesh.",
+        "Department of Food Science and Nutrition, College of Food and Agricultural Sciences, King Saud University, Riyadh 11451, Saudi Arabia.",
+        "Department of Chemistry, Mawlana Bhashani Science and Technology University, Santosh, Tangail, Dhaka 1902, Bangladesh.",
+        "Department of Chemistry, Mawlana Bhashani Science and Technology University, Santosh, Tangail, Dhaka 1902, Bangladesh.",
+        "Department of Biological and Physical Sciences, South Carolina State University, Orangeburg, SC 29117, USA.",
+        "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh 11451, Saudi Arabia.",
+        "Department of Chemistry, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh. Electronic address: ahoque_ju@juniv.edu.",
+        "Department of Chemistry, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akbor, Aysha Bente",
+        "short_name": "Akbor AB",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Islam, Md Rafikul",
+        "short_name": "Islam MR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Dhaka University of Engineering & Technology, Gazipur 1707, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Khan, Javed Masood",
+        "short_name": "Khan JM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Food Science and Nutrition, College of Food and Agricultural Sciences, King Saud University, Riyadh 11451, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Alam, Md Masud",
+        "short_name": "Alam MM",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Mawlana Bhashani Science and Technology University, Santosh, Tangail, Dhaka 1902, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Shumon, Md Anamul Haque",
+        "short_name": "Shumon MAH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Mawlana Bhashani Science and Technology University, Santosh, Tangail, Dhaka 1902, Bangladesh."
+        ]
+      },
+      {
+        "full_name": "Goni, Md Abdul",
+        "short_name": "Goni MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biological and Physical Sciences, South Carolina State University, Orangeburg, SC 29117, USA."
+        ]
+      },
+      {
+        "full_name": "Rehman, Md Tabish",
+        "short_name": "Rehman MT",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacognosy, College of Pharmacy, King Saud University, Riyadh 11451, Saudi Arabia."
+        ]
+      },
+      {
+        "full_name": "Hoque, Md Anamul",
+        "short_name": "Hoque MA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh. Electronic address: ahoque_ju@juniv.edu."
+        ]
+      },
+      {
+        "full_name": "Islam, D M Shafiqul",
+        "short_name": "Islam DMS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Jahangirnagar University, Savar, Dhaka 1342, Bangladesh."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "International journal of biological macromolecules"
+    ],
+    "journal_abbrev": [
+      "Int J Biol Macromol"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/08 13:49",
+    "fetched_at": "2026-09-21 10:01:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39244126",
+      "38723814",
+      "36150566",
+      "37769770",
+      "30124142",
+      "29600590",
+      "16686525",
+      "23501728",
+      "29676099",
+      "39383907",
+      "23261625",
+      "21901752",
+      "26920314",
+      "28499172",
+      "19437713",
+      "29679689",
+      "18809481",
+      "26773261",
+      "28049370",
+      "24797501",
+      "25528194",
+      "28753530",
+      "28792461",
+      "24123897",
+      "33583923",
+      "26378511",
+      "31190435",
+      "18701343",
+      "39029202",
+      "23527100",
+      "34818732",
+      "24376141",
+      "17205742",
+      "27418394",
+      "27484332",
+      "27897092",
+      "22730061",
+      "31453744",
+      "29497866",
+      "18488985",
+      "29659061",
+      "21541939",
+      "38981287",
+      "27640606",
+      "22733490",
+      "26555641",
+      "19093579",
+      "32999146",
+      "25497588",
+      "24030872",
+      "36970841",
+      "38596890",
+      "28852787",
+      "27118686",
+      "20206002",
+      "26213064",
+      "31359724",
+      "29045929",
+      "24852109",
+      "25985127",
+      "23237845",
+      "19480002",
+      "29920814",
+      "32000060",
+      "11511035",
+      "21919506",
+      "17058958",
+      "26688207",
+      "17112044",
+      "30701606",
+      "29902757",
+      "28749443",
+      "23277393",
+      "24037907",
+      "17030362",
+      "32073347",
+      "31672377",
+      "31727520",
+      "10099540",
+      "17942262",
+      "39316707",
+      "12736459",
+      "28888191",
+      "18081088",
+      "28253382",
+      "17315914",
+      "24061159",
+      "17719269",
+      "32037956",
+      "37403263",
+      "29940179",
+      "29314579",
+      "24508873",
+      "28523598",
+      "38064964",
+      "26519916",
+      "25036860",
+      "17703351",
+      "20863713",
+      "22329240"
+    ],
+    "review": [
+      "39244126"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0141-8130(24)06105-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-660",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

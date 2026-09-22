@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35727975",
+  "title": "Affinity of disordered protein complexes is modulated by entropy-energy reinforcement.",
+  "authors": "Hazra, Milan Kumar; Levy, Yaakov",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2022-06-22",
+  "window": {
+    "start": "2022-06-20",
+    "end": "2022-06-26"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化模拟研究无序蛋白H1-ProTα模糊复合物的高亲和力结合，揭示焓熵协同及反离子熵主导的互作机制，直接契合无序蛋白PPI机制建模主题。",
+  "abstract": "The association between two intrinsically disordered proteins (IDPs) may produce a fuzzy complex characterized by a high binding affinity, similar to that found in the ultrastable complexes formed between two well-structured proteins. Here, using coarse-grained simulations, we quantified the biophysical forces driving the formation of such fuzzy complexes. We found that the high-affinity complex formed between the highly and oppositely charged H1 and ProTalpha proteins is sensitive to electrostatic interactions. We investigated 52 variants of the complex by swapping charges between the two oppositely charged proteins to produce sequences whose negatively or positively charged residue content was more homogeneous or heterogenous (i.e., polyelectrolytic or polyampholytic, having higher or lower absolute net charges, respectively) than the wild type. We also changed the distributions of oppositely charged residues within each participating sequence to produce variants in which the charges were segregated or well mixed. Both types of changes significantly affect binding affinity in fuzzy complexes, which is governed by both enthalpy and entropy. The formation of H1-ProTa is supported by an increase in configurational entropy and by entropy due to counterion release. The latter can be twice as large as the former, illustrating the dominance of counterion entropy in modulating the binding thermodynamics. Complexes formed between proteins with greater absolute net charges are more stable, both enthalpically and entropically, indicating that enthalpy and entropy have a mutually reinforcing effect. The sensitivity of the thermodynamics of the complex to net charge and the charge pattern within each of the binding constituents may provide a means to achieve binding specificity between IDPs.",
+  "abstract_zh": "两个本质上无序的蛋白质（IDPs）之间的结合可能产生一种模糊复合物，其特征是高结合亲和力，类似于两个结构良好的蛋白质之间形成的超稳定复合物。在此，我们利用粗粒化模拟，量化了驱动此类模糊复合物形成的生物物理力。我们发现，由高电荷且相反电荷的H1和ProTalpha蛋白形成的高亲和力复合物对静电相互作用敏感。我们通过在这两个相反电荷的蛋白质之间交换电荷，研究了该复合物的52种变体，以产生其负电荷或正电荷残基含量比野生型更均匀或更不均匀（即，分别为多电解质或多性两性电解质，具有更高或更低的绝对净电荷）的序列。我们还改变了每个参与序列中相反电荷残基的分布，以产生电荷分离或充分混合的变体。这两种类型的改变均显著影响模糊复合物中的结合亲和力，该亲和力由焓和熵共同控制。H1-ProTa的形成受到构象熵增加以及反离子释放引起的熵的支持。后者可能是前者的两倍，表明反离子熵在调节结合热力学中的主导作用。具有更大绝对净电荷的蛋白质之间形成的复合物在焓和熵方面均更稳定，表明焓和熵具有相互增强的效果。复合物热力学对净电荷及每个结合组分内电荷模式的敏感性可能为实现IDPs之间的结合特异性提供了一种途径。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35727975/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35727975/",
+  "paper_page_path": "papers/pubmed/35727975/index.html"
+}

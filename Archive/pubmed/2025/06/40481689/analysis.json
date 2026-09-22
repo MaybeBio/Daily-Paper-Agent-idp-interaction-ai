@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40481689",
+  "title": "Bioinformatics-Based Comparative Analysis of the Human Retina Proteome.",
+  "authors": "Kim, Colin K; Djulbegovic, Mak B; Broytman, David; Hadzijahic, Nedym; Antonietti, Michael; Gonzalez, David J Taylor; Uversky, Vladimir N; Yannuzzi, Nicolas A; Karp, Carol L",
+  "journal": "Proteomics. Clinical applications",
+  "published_date": "2025-06-08",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 5,
+  "one_liner_zh": "该研究用生物信息学工具比较视网膜蛋白质组的无序性、相分离倾向和突变致病性，虽以无序蛋白和LLPS为对象，但缺乏PPI互作机制和AI/物理模拟方法，仅作相关性分析，对本课题启发有限。",
+  "abstract": "INTRODUCTION: The human retina relies on a complex network of proteins, many of which exhibit intrinsic disorder and liquid-liquid phase separation (LLPS), enabling dynamic interactions for retinal function. Disruptions in these properties, along with missense mutations, have been linked to retinal diseases. This study aims to characterize and compare retinal proteins categorized by their expression specificity and tissue distribution using bioinformatics tools to explore relationships between intrinsic protein disorder, phase separation potential, and mutation pathogenicity. METHODS: We analyzed retinal proteins classified by the Human Protein Atlas (HPA) into two major groups based on gene expression specificity (degree of unique retinal expression) and gene expression distribution (extent of expression across tissues). We analyzed nine retinal proteomes categorized by gene expression specificity and distribution. Intrinsic protein disorder was assessed using per-residue and global disorder predictors from the Rapid Intrinsic Disorder Analysis Online (RIDAO) platform, LLPS potential was evaluated with ParSe v2, and missense mutation pathogenicity was predicted using AlphaMissense. RESULTS: Significant differences in per-residue intrinsic protein disorder were found within the specificity and distribution subgroups (p < 0.0001). In addition, global disorder predictions from the RIDAO platform demonstrated non-random distributions of protein species across the proteomes analyzed in both subgroups (p < 0.0001). Furthermore, proteins specifically elevated in the retina exhibited higher intrinsic disorder and greater phase separation propensity (ParSe v2, AUC up to 0.650), compared to those more broadly expressed. Lastly, AlphaMissense analysis showed significant variations in the average pathogenicity scores of missense mutations within subgroups (p < 0.0001). CONCLUSION: Our results show that intrinsic disorder, LLPS, and mutational tendencies are not evenly distributed among retinal proteomes. Our study demonstrates a link between intrinsic disorder, LLPS potential, and pathogenic vulnerability among retinal proteins, underscoring the unique structural and functional landscape of retinal proteomes. Proteins with higher specificity to the retina exhibit greater disorder and phase separation potential, highlighting their potential role in dynamic cellular processes that support retinal function. Conversely, proteins widely distributed across multiple tissues tend to be more ordered, suggesting a need for structural stability in their broader functional roles.",
+  "abstract_zh": "引言：人类视网膜依赖于一个复杂的蛋白质网络，其中许多蛋白质表现出内在无序性和液-液相分离（liquid-liquid phase separation, LLPS），从而实现视网膜功能所需的动态相互作用。这些特性的破坏以及错义突变与视网膜疾病相关联。本研究旨在利用生物信息学工具，对按表达特异性和组织分布分类的视网膜蛋白质进行表征和比较，以探索内在蛋白质无序性、相分离潜力和突变致病性之间的关系。方法：我们分析了由人类蛋白质图谱（Human Protein Atlas, HPA）根据基因表达特异性（视网膜独特表达程度）和基因表达分布（跨组织表达范围）分为两大组的视网膜蛋白质。我们分析了九个按基因表达特异性和分布分类的视网膜蛋白质组。内在蛋白质无序性通过快速内在无序性分析在线（Rapid Intrinsic Disorder Analysis Online, RIDAO）平台的逐残基和全局无序性预测器进行评估，LLPS潜力使用ParSe v2评估，错义突变致病性使用AlphaMissense预测。结果：在特异性和分布亚组内，逐残基内在蛋白质无序性存在显著差异（p < 0.0001）。此外，RIDAO平台的全局无序性预测显示，两个亚组中分析的蛋白质组内蛋白质种类的分布是非随机的（p < 0.0001）。进一步地，视网膜中特异性升高的蛋白质表现出更高的内在无序性和更大的相分离倾向（ParSe v2，AUC最高达0.650），与广泛表达的蛋白质相比。最后，AlphaMissense分析显示亚组内错义突变的平均致病性评分存在显著变化（p < 0.0001）。结论：我们的结果表明，内在无序性、LLPS和突变倾向在视网膜蛋白质组中并非均匀分布。我们的研究证明了视网膜蛋白质中内在无序性、LLPS潜力和致病脆弱性之间的联系，强调了视网膜蛋白质组独特的结构和功能景观。对视网膜具有更高特异性的蛋白质表现出更大的无序性和相分离潜力，突出了它们在支持视网膜功能的动态细胞过程中的潜在作用。相反，广泛分布于多个组织的蛋白质往往更有序，表明在其更广泛的功能角色中需要结构稳定性。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40481689/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40481689/",
+  "paper_page_path": "papers/pubmed/40481689/index.html"
+}

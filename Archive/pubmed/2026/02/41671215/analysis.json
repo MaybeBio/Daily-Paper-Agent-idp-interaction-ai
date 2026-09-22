@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41671215",
+  "title": "QuPepFold: A python package for hybrid quantum-classical protein folding simulations with CVaR-optimized VQE.",
+  "authors": "Uttarkar, Akshay; Niranjan, Vidya; Saxena, Amit; Kumar, Vinay",
+  "journal": "PloS one",
+  "published_date": "2026-02-11",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 7,
+  "one_liner_zh": "该文开发了混合量子-经典蛋白折叠模拟包QuPepFold，用CVaR优化的VQE采样无序肽段构象，虽聚焦IDR对象但未涉及PPI互作机制，方法新颖可迁移至IDR互作建模。",
+  "abstract": "BACKGROUND AND OBJECTIVE: Protein folding, and especially the conformational sampling of intrinsically disordered regions (IDRs), remains a formidable challenge for classical computation. We introduce QuPepFold, a modular Python package designed to democratize hybrid quantum-classical simulations of peptide folding, with the specific aim of enabling exploration of IDR ensembles for therapeutic targeting. METHODS: We compute ground-state energies using a variational quantum eigensolver (VQE) that has been tuned with a conditional value-at-risk (CVaR) objective. This CVaR approach focuses on the lowest-energy measurement results, which speeds convergence and helps the algorithm cope with noise. The software provides an interface suitable for biologists and is independent of any particular quantum hardware; it currently runs on Qiskit Aer, Braket's tensor-network simulator, and IonQ's Aria-1 device through the Amazon Braket service. RESULTS: In tests on short peptides up to ten amino acids long, the CVaR-optimized VQE reached the ground state roughly 30 percent faster than a standard VQE based on expectation values. When run on the IonQ Aria-1 quantum computer, it reproduced ground-state energies with over 90 percent fidelity. The agreement of results across simulators and physical devices indicates that the package yields consistent and transferable energies. CONCLUSIONS: QuPepFold offers an approachable yet extendable framework for integrating quantum techniques into peptide folding studies, particularly for sampling the ensembles of intrinsically disordered regions. By hiding the technical details of circuit construction and error mitigation, it lowers the barrier to using quantum computers in structural biology and opens opportunities for drug discovery against disordered proteins that have long been considered difficult to target.",
+  "abstract_zh": "背景与目标：蛋白质折叠，尤其是固有无序区域（IDRs）的构象采样，对经典计算而言仍是一项艰巨挑战。我们引入QuPepFold，一个模块化的Python包，旨在普及肽折叠的混合量子-经典模拟，其具体目标是实现对IDR ensembles的探索，以支持治疗靶向。方法：我们使用变分量子本征求解器（VQE）计算基态能量，该求解器通过条件风险价值（CVaR）目标进行了调优。这种CVaR方法聚焦于最低能量测量结果，从而加速收敛并帮助算法应对噪声。该软件提供了适合生物学家的界面，且不依赖于任何特定量子硬件；目前它可在Qiskit Aer、Braket的张量网络模拟器以及通过Amazon Braket服务的IonQ Aria-1设备上运行。结果：在对长达十个氨基酸的短肽测试中，CVaR优化的VQE比基于期望值的标准VQE快约30%达到基态。在IonQ Aria-1量子计算机上运行时，它复现了基态能量，保真度超过90%。模拟器与物理设备之间结果的一致性表明，该包能产生一致且可转移的能量。结论：QuPepFold为将量子技术整合到肽折叠研究中提供了一个易用且可扩展的框架，尤其适用于采样固有无序区域的ensembles。通过隐藏电路构建和误差缓解的技术细节，它降低了在结构生物学中使用量子计算机的门槛，并为针对长期以来被认为难以靶向的无序蛋白质的药物发现开辟了机会。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41671215/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41671215/",
+  "paper_page_path": "papers/pubmed/41671215/index.html"
+}

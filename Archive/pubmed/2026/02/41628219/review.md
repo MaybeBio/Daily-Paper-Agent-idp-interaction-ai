@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text (Abstract, Introduction, Materials and Methods, Results, Discussion, Supporting information note)
+- **Assessment boundary** Scientific claims, experimental design, data interpretation, and internal consistency as presented in the provided text. Figures and supplementary data are referenced but not directly available for inspection.
+- **Shared manuscript claim summary** The authors propose a bipartite molecular mechanism for tension-dependent recruitment of LATS1/2 to adherens junctions by LIMD1, involving direct binding of the first two LIM domains of LIMD1 to a conserved linear motif (LATS-LATCH) in the LATS N-terminus, plus a requirement for the N-terminal intrinsically disordered region (IDR) of LIMD1 for LATS1 junctional localization.
+- **Visible evidence base** Domain-mapping binding assays (Fig 1A-C), localization and recruitment assays in LIMD1-KO MCF10A cells (Figs 1D-F, 2, 3A-C), co-immunoprecipitation of LIM domain mutants (Fig 3D-G), AlphaFold modeling of the LIMD1-LATS2 complex (Fig 4B), deletion and point-mutation analyses of the LATS-LATCH (Figs 4D-E, 5A), and tension-dependence localization of the LATS2-LATCH (Fig 5B-C).
+- **Missing materials affecting confidence** Figures and supplementary figures (S2 Fig) are not available for direct inspection. Quantification details for the LATS1 junction-to-cytoplasm ratio (number of cells, replicates, statistical outputs) are not fully described. Western blot images and co-immunoprecipitation controls are not shown. AlphaFold confidence metrics (pLDDT, PAE) are referenced but not presented.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a significant open question in Hippo signaling: how mechanical strain at adherens junctions is transduced into LATS1/2 recruitment. The identification of a conserved linear motif (LATS-LATCH) in LATS1/2 that binds the LIM domains of LIMD1 is a potentially valuable contribution, and the combination of AlphaFold prediction with biochemical and cell-based validation is a commendable approach. However, several technical concerns, particularly regarding the interpretation of point mutants that affect both F-actin binding and LATS binding, and the unclear mechanistic role of the IDR, limit the strength of the conclusions as currently presented. The evidence for the bipartite model is suggestive but not fully conclusive.
+- **Who would be interested in the results, and why** Researchers studying the Hippo pathway, mechanotransduction, adherens junction biology, and LIM domain protein function. The identification of a specific LATS-LATCH motif may also be of interest to structural biologists and those studying protein-protein interactions in signaling. The potential link to liquid-liquid phase separation could attract interest from the broader cell biology community.
+- **Major strengths** 1) The study addresses a mechanistically important and unresolved question. 2) The use of AlphaFold to generate testable hypotheses is timely and well-integrated with experimental validation. 3) The domain-mapping approach is systematic, and the distinction between LIM domain requirements for localization versus LATS recruitment is informative. 4) The identification of a conserved LATS-LATCH motif provides a concrete molecular handle for future studies.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretation of mutant phenotypes
+  - **Claim pointer** The authors state that point mutations in LIM1 (F512A) and LIM2 (F575A) that disrupt F-actin strain-site binding also disrupt LATS1/2 binding, and interpret this as evidence that both LIM domains must engage strained F-actin to bind LATS1/2.
+  - **Evidence pointer** Results section, Fig 3A-G
+  - **Concern** The F512A and F575A mutations are shown to disrupt both binding to LATS1/2 in co-immunoprecipitation assays and recruitment of LATS1 to AJs. The authors acknowledge that these mutations could either perturb LIM domain structure or be directly involved in both binding interfaces. This ambiguity is critical: if the mutations globally destabilize the LIM domains, the conclusion that "both LIM1 and LIM2 must be engaged with strained F-actin to bind and recruit LATS1 to AJs" is not supported. The data as presented cannot distinguish between a specific role in F-actin binding versus a general structural defect.
+  - **Why it matters** The central mechanistic claim of the paper is that mechanical strain sensing via F-actin binding is coupled to LATS1/2 recruitment. If the mutations used to test this are structurally disruptive rather than specifically F-actin-binding-defective, the link between strain sensing and LATS binding is not established. This weakens the core model.
+  - **Resolution test** The authors should provide structural or biophysical evidence (e.g., circular dichroism, thermal stability assays, or NMR) demonstrating that the F512A and F575A mutants are properly folded. Alternatively, they could identify separation-of-function mutations that disrupt F-actin binding without affecting LATS binding, or vice versa. Without such data, the interpretation remains confounded.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Mechanistic role of the IDR
+  - **Claim pointer** The authors claim that the N-terminal IDR of LIMD1 is required for LATS1 recruitment to AJs, despite not directly binding LATS1/2, and speculate that it may promote liquid-liquid phase separation.
+  - **Evidence pointer** Results section, Fig 1D-F; Discussion
+  - **Concern** The finding that the IDR is required for LATS1 recruitment is presented as a key result, but no mechanistic data are provided to explain how the IDR functions. The phase separation hypothesis is purely speculative and not tested. The IDR deletion mutant (Δ1-94) still localizes to AJs and binds LATS1/2 in vitro, yet fails to recruit LATS1. This is an intriguing phenotype, but the manuscript does not explore alternative explanations (e.g., the IDR could affect LATS1 stability, trafficking, or release from the junction).
+  - **Why it matters** The IDR requirement is a central pillar of the proposed bipartite mechanism. Without any experimental evidence for the phase separation model or other mechanisms, the claim that the IDR is "critical" for recruitment is not mechanistically substantiated. The Discussion speculates but does not resolve this.
+  - **Resolution test** The authors should perform experiments to test the phase separation hypothesis directly (e.g., in vitro droplet formation assays with the IDR, or cellular assays with phase separation-disrupting mutations). Alternatively, they could test whether the IDR affects LATS1 dynamics (e.g., FRAP) or interactions with other junctional components. At minimum, the claim should be tempered to reflect the lack of mechanistic evidence.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalizability to LATS2
+  - **Claim pointer** The title and abstract state that the mechanism applies to both LATS1 and LATS2, but the functional recruitment assays were performed only for LATS1 due to difficulty detecting endogenous LATS2.
+  - **Evidence pointer** Results section, Fig 4-5; Abstract
+  - **Concern** The binding assays show that both LATS1 and LATS2 interact with LIMD1 through the LATS-LATCH, and the LATS2-LATCH is sufficient for binding and localization. However, the recruitment of endogenous LATS2 to AJs was not directly tested. The authors note that LATS2 is difficult to detect, but this leaves a gap in the evidence for the title claim regarding LATS2.
+  - **Why it matters** The title and abstract make a general claim about LATS1 and LATS2. If the mechanism is only directly demonstrated for LATS1, the claim is overstated. This is a matter of scientific precision.
+  - **Resolution test** The authors should either provide evidence for endogenous LATS2 recruitment (e.g., using a more sensitive detection method or a LATS2-specific antibody) or revise the title and abstract to reflect that the recruitment mechanism was directly demonstrated for LATS1, with LATS2 inferred from binding data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Quantification of LATS1 junction-to-cytoplasm ratio
+  - **Evidence pointer** Materials and Methods, "Quantification of LATS1 junction to cytoplasm ratio"
+  - **Issue** The methods describe the image analysis pipeline but do not specify the number of biological replicates, number of cells analyzed per condition, or how statistical significance was determined beyond mentioning one-way ANOVA.
+  - **Required correction** Provide details on sample sizes, replicates, and statistical outputs (e.g., p-values, error bars) in the figure legends or methods.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Figure availability
+  - **Affected element** All figures and supplementary figures
+  - **Evidence pointer** Location not provided
+  - **Issue** The manuscript text references figures extensively, but the figures themselves are not included in the provided material, making it impossible to assess the quality of the data or the validity of the quantification.
+  - **Required correction** Ensure figures and supplementary data are available for review, including Western blot images with molecular weight markers and appropriate loading controls.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** AlphaFold confidence
+  - **Affected element** AlphaFold modeling of LIMD1-LATS2 complex
+  - **Evidence pointer** Results section, Fig 4B
+  - **Issue** The manuscript states that AlphaFold predicted the interaction but does not report confidence metrics (e.g., pLDDT scores, predicted aligned error) for the modeled interface.
+  - **Required correction** Include confidence metrics or a supplementary figure showing the model quality to support the reliability of the prediction.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** "LATS-LATCH" motif
+  - **Evidence pointer** Results section, Fig 4C
+  - **Issue** The term "LATS-LATCH" is introduced, but the sequence conservation analysis is not shown in detail. It is unclear how "highly conserved" is defined and across which species.
+  - **Required correction** Provide a sequence alignment or conservation score to support the claim of high conservation.
+
+## Risk / unsupported claims
+- The claim that "both LIM1 and LIM2 must be engaged with strained F-actin to bind and recruit LATS1 to AJs" is not fully supported due to the confounding effects of the F512A and F575A mutations on LATS binding.
+- The speculation that the IDR promotes liquid-liquid phase separation to drive LATS1 recruitment is unsupported by any experimental evidence in this manuscript.
+- The title claim regarding regulation of both LATS1 and LATS2 is not fully supported for LATS2, as functional recruitment was only demonstrated for LATS1.
+- The statement that the LATS-LATCH is "highly conserved" is not substantiated with sequence data.

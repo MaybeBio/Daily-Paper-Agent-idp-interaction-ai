@@ -1,0 +1,109 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, materials and methods, conclusions) as provided by the user.
+- **Assessment boundary** Scientific content, methodological soundness, internal consistency, and support of claims by the presented evidence. No external literature verification or data re-analysis performed.
+- **Shared manuscript claim summary** The authors report that in DLBCL tissue samples, USP37 expression correlates positively with c-MYC in the ABC subtype but not the GCB subtype. They further report peptide array and alanine scan data identifying c-MYC regions (Leu176-Asp190, Pro245-Glu260) and specific residues mediating USP37 interaction, and computational models of c-MYC, USP37, and a designed peptidyl disruptor predicted to block the interaction.
+- **Visible evidence base** Figures 1–6 (referenced in text), Figure 7 (c-MYC model), Figure 8 (USP37 model), Figure 9 (docking results), Figure 10 (disruptor peptide docking). Statistical methods described in Section 4.8. No raw data, no supplementary files, no figure images, no statistical output tables were provided.
+- **Missing materials affecting confidence** Figure images and legends are not provided. Raw IHC quantification data, correlation coefficients with confidence intervals, peptide array and alanine scan raw data, model validation metrics (other than those stated), docking cluster statistics, and the peptide sequence are not available. The manuscript text alone is insufficient to independently verify several quantitative claims.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a clinically relevant question, namely whether specific deubiquitinases stabilize c-MYC in DLBCL subtypes, and proposes a novel peptidyl disruptor. The hypothesis is reasonable and the combination of tissue-based correlation with in silico interaction mapping is potentially interesting. However, the evidence as presented has substantial limitations. The statistical correlation is weak (r² values are low), the sample size is modest, and the computational pipeline, while described, lacks the depth of validation and transparency required to support the strong structural and therapeutic claims made. The manuscript is not currently suitable for publication in a high-impact venue; major revisions and additional experimental or computational validation are required.
+- **Who would be interested in the results, and why** Researchers in lymphoma biology, particularly those studying MYC regulation and post-translational modifications. The potential therapeutic angle (peptidyl disruptor) would interest drug discovery groups focused on protein-protein interaction inhibitors, especially for targets with intrinsically disordered regions. The methodological approach combining IHC correlation with peptide arrays and molecular modeling may interest a niche audience in structural bioinformatics.
+- **Major strengths** 1. The clinical question is relevant and under-explored in DLBCL. 2. The study design combines tissue-level correlation with mechanistic in silico mapping, which is a logical progression. 3. The authors acknowledge the structural challenges posed by intrinsically disordered regions and propose a peptidyl approach, which is a thoughtful consideration. 4. The use of multiple computational tools (I-TASSER, HADDOCK, PRODIGY) is appropriate for the task.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Statistical validity and interpretation
+  - **Claim pointer** The authors claim a statistically significant positive correlation between USP37 and c-MYC expression in the ABC subtype (Section 2.3), and use this as the primary evidence for a subtype-specific regulatory role.
+  - **Evidence pointer** Section 2.3, Figure 4A and 4B. Location not provided for figure images.
+  - **Concern** The reported r² values are very low (0.1616 for ABC USP37-c-MYC; 0.08387 for GCB USP36-c-MYC). An r² of 0.16 indicates that only 16% of the variance in one variable is explained by the other. While a p-value of 0.0184 suggests the correlation is unlikely to be due to chance, the biological significance of such a weak relationship is questionable. The authors do not report the Spearman rho (rank correlation coefficient) itself, only r². The interpretation that this weak correlation indicates a "role" in maintaining c-MYC turnover is an overstatement. Furthermore, the authors state they use p-value over r² as the indicator of significance, which is statistically problematic; p-values are influenced by sample size, and a small effect size with a modest sample can yield a significant p-value without meaningful association.
+  - **Why it matters** The entire premise of the paper, that USP37 specifically regulates c-MYC in ABC DLBCL, rests on this correlation. If the correlation is weak and not robustly demonstrated, the subsequent structural and therapeutic claims lose their foundation.
+  - **Resolution test** The authors must provide the Spearman rho values with 95% confidence intervals for all correlations. They should also perform a multivariate analysis to control for potential confounders (e.g., cell of origin, proliferation index). A sensitivity analysis, perhaps using a different IHC scoring method or a continuous variable approach, would strengthen the finding. The claim of "role" should be tempered to "association" unless functional validation is provided.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence for interaction mapping
+  - **Claim pointer** The authors claim that peptide array and alanine scan identified specific c-MYC regions (Leu176-Asp190, Pro245-Glu260) and residues (Tyr177, Gln179, Asp180, Cys188, Asp251, Glu253, Glu254, Glu255) that interact with USP37 (Sections 2.4 and 2.5).
+  - **Evidence pointer** Sections 2.4 and 2.5, Figure 5A–E. Location not provided for figure images.
+  - **Concern** The description of the peptide array and alanine scan methodology is insufficient. The authors state the array was "commercially synthesized" and probed with recombinant USP37, but do not provide the array format, peptide length, overlap, or the criteria for defining a "positive" hit. For the alanine scan, the threshold for "inhibition of interaction" is not defined. Without these details, the results cannot be reproduced or critically evaluated. Furthermore, the recombinant USP37 used (Ala101-His430, Section 4.5) is a truncated fragment. The authors do not discuss whether this fragment is catalytically active or whether the missing N-terminal and C-terminal regions could affect binding to c-MYC. The claim that the identified residues are "involved in the binding" is a direct interpretation of the alanine scan, but without knowing the experimental controls and replicates, this is not robust.
+  - **Why it matters** The interaction mapping is the core structural evidence for the proposed complex and the design of the disruptor peptide. If the mapping is unreliable, the peptide design is built on a weak foundation.
+  - **Resolution test** The authors must provide a detailed description of the peptide array and alanine scan protocols, including the exact sequences of the peptides, the concentration of USP37 used, the detection method, and the criteria for positive/negative calls. They should also justify the use of the truncated USP37 fragment and ideally validate the interaction using an orthogonal method, such as co-immunoprecipitation or a pull-down assay with full-length USP37.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Validity of computational models and docking
+  - **Claim pointer** The authors claim that molecular models of c-MYC and USP37 were constructed and validated, and that docking predicted a stable complex with a designed peptidyl disruptor that masks c-MYC residues involved in USP37 binding (Sections 2.7–2.10).
+  - **Evidence pointer** Sections 2.7–2.10, Figures 7–10. Location not provided for figure images.
+  - **Concern** The description of the modeling and docking is superficial. For the c-MYC model, the authors state it was built using I-TASSER and refined, but do not provide the template used, the sequence identity, or the final model quality metrics beyond a ProSA Z-score of −6.99. For USP37, the model is described as being built on the basis of homology to USP12 and USP46, but the sequence identity is not stated. The docking results are presented as a single predicted complex with a dissociation constant (1.9 × 10⁻⁸ Kda, which is also a unit error, likely meant to be M or nM) and free energy (−8.1 kJ, which is a very small value, likely meant to be kJ/mol). The authors do not report the number of docking clusters, the cluster size, or the variability of the solutions. The claim that the peptide "sits well within the cavity" is a qualitative statement without quantitative support. The lack of detail on the force field, scoring function, and convergence criteria makes the results impossible to assess.
+  - **Why it matters** The entire therapeutic proposition depends on the reliability of the structural models and the docking predictions. If the models are inaccurate or the docking is not robust, the proposed peptide is unlikely to work as described.
+  - **Resolution test** The authors must provide a detailed account of the modeling pipeline, including template selection, alignment, and model validation (e.g., Ramachandran plot statistics, QMEAN or similar scores). For docking, they must report the full statistics of the docking runs, including the number of clusters, the HADDOCK scores for the top clusters, and the structural variability within the top cluster. The units for energy and dissociation constants must be corrected and reported consistently. Ideally, the predicted complex should be validated by molecular dynamics simulations to assess stability.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Clinical and translational relevance
+  - **Claim pointer** The authors conclude that the findings "could further be exploited to develop therapeutic interventions against the ABC subtype of DLBCL" (Abstract) and that the peptide "could be used for the therapeutic management of the ABC subtype of DLBCL after empirical validation" (Conclusions).
+  - **Evidence pointer** Abstract, Section 5.
+  - **Concern** The leap from a weak correlation and in silico predictions to a therapeutic claim is substantial. The authors have not demonstrated that the peptide can enter cells, that it is stable, that it specifically disrupts the c-MYC-USP37 interaction in a cellular context, or that it has any effect on DLBCL cell viability. The claim is speculative and not supported by the data presented.
+  - **Why it matters** Overstating the translational potential of preliminary in silico work can mislead readers and is not appropriate for a rigorous scientific report.
+  - **Resolution test** The authors should temper the conclusions to reflect the preliminary nature of the work. They should explicitly state that the peptide is a computational hypothesis that requires extensive empirical validation, including cell-based assays and in vivo studies, before any therapeutic potential can be claimed.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness of methods
+  - **Affected element** Section 4.4 (Digital Imaging and Estimation)
+  - **Evidence pointer** Section 4.4
+  - **Issue** The formula for Optical Density score is referenced but not provided. The text states "the following formula" but the formula is missing from the provided text.
+  - **Required correction** Provide the formula for the OD score calculation.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Section 2.3
+  - **Evidence pointer** Section 2.3
+  - **Issue** The authors report p-values and r² values but do not report the Spearman rho correlation coefficient, which is the actual measure of association for a rank-based correlation. The r² value is not typically reported for Spearman correlations.
+  - **Required correction** Report the Spearman rho and its 95% confidence interval for each correlation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Unit consistency
+  - **Affected element** Section 2.9
+  - **Evidence pointer** Section 2.9
+  - **Issue** The dissociation constant is reported as "1.9 × 10⁻⁸ Kda" which is not a unit of concentration. It is likely meant to be M or nM. The free energy is reported as "−8.1 kJ" which is a unit of energy, not molar free energy (should be kJ/mol).
+  - **Required correction** Correct the units for the dissociation constant and free energy.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Section 2.10
+  - **Evidence pointer** Section 2.10
+  - **Issue** The term "peptidyl disruptor" is used, but the more standard term is "peptide" or "peptidomimetic." The authors should clarify if this is a linear peptide, a cyclic peptide, or a peptidomimetic.
+  - **Required correction** Clarify the chemical nature of the proposed disruptor.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Internal consistency
+  - **Affected element** Section 2.3 vs. Section 3
+  - **Evidence pointer** Section 2.3, Section 3
+  - **Issue** In Section 2.3, the authors report a negative correlation between c-MYC and USP36 in the GCB subtype (p = 0.0414; r² = 0.08387). In the Discussion, this is not explicitly addressed. The authors should discuss the potential significance of this negative correlation.
+  - **Required correction** Add a brief discussion of the negative correlation between c-MYC and USP36 in the GCB subtype.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Figure accessibility
+  - **Affected element** Figures 1–10
+  - **Evidence pointer** Figures 1–10
+  - **Issue** The figure images and legends are not provided in the manuscript text. The reader cannot assess the quality of the IHC staining, the peptide array results, or the structural models.
+  - **Required correction** Ensure that all figures are of high quality and that the legends are detailed enough to allow interpretation without the main text.
+
+## Risk / unsupported claims
+- The claim that USP37 "maintains" c-MYC turnover in ABC DLBCL is unsupported; the data only show a weak positive correlation, which does not establish causation or a maintenance role.
+- The claim that the designed peptide "could be used for therapeutic management" is unsupported; no experimental validation of the peptide's efficacy, specificity, or bioavailability is provided.
+- The claim that the c-MYC-USP37 complex model is "structurally plausible" is weakly supported; the model quality metrics are incomplete, and the docking results are not fully reported.
+- The claim that the identified c-MYC residues are "involved in the binding" with USP37 is based solely on alanine scan data without sufficient methodological detail or orthogonal validation.
+- The claim that the N-terminal region of c-MYC interacts with the C19 domain of USP37 is based on docking predictions that are not experimentally validated.
+- The statement that "both c-MYC and USP37 have shown large proportion of intrinsically disordered regions, minimizing their chances for full structure crystallization" is presented as a finding but is a prediction from computational tools, not an experimental observation.
+
+## Assessment against Nature-style criteria
+- **Originality** Moderate. The specific combination of c-MYC with USP37 in DLBCL is not widely studied, and the idea of a peptidyl disruptor for this interaction is somewhat novel. However, the general concept of MYC regulation by USP deubiquitinases is established, and the computational approach is not methodologically novel.
+- **Scientific importance** Moderate. If the correlation were robust and functionally validated, the finding could have clinical relevance for a subset of DLBCL. However, the weak statistical association and lack of functional data limit the current importance.
+- **Interdisciplinary readership** Limited. The work sits at the interface of clinical pathology and computational structural biology, but the depth in each area is insufficient to attract a broad interdisciplinary audience. The clinical correlation is weak, and the computational work is not sufficiently advanced or validated.
+- **Technical soundness** Weak. The statistical analysis is underpowered and the interpretation of correlation is problematic. The peptide array and alanine scan methods are under-described. The computational modeling and docking lack the detail and validation required for a rigorous structural claim. The unit errors in the docking results further undermine confidence.
+- **Readability for nonspecialists** Acceptable. The manuscript is generally well-written and the logic is easy to follow. However, the Discussion overreaches relative to the data, which could mislead a nonspecialist reader into overestimating the strength of the findings.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript has a potentially interesting hypothesis and a logical workflow, but the core claims are not supported by the data as presented. The weak correlation, the lack of methodological detail for the interaction mapping, and the insufficient validation of the computational models are major barriers. The authors would need to provide substantially more evidence, including functional validation of the USP37-c-MYC interaction in DLBCL cells, a more robust statistical analysis, and a more transparent and rigorous computational pipeline, before the case is established.

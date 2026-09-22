@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42345753",
+  "title": "Genome-Wide Characterization and Expression Profiling of Putative m(6)A Methylation Regulatory Proteins (Writers and Erasers) in Ginkgo biloba.",
+  "authors": "Ma, Yuke; Guo, Wenhui; Wang, Han; Zhang, Jingjing; Wei, Meixiang; Shi, Chaoyue; Ji, Kongshu; Yu, Qiong",
+  "journal": "Biology",
+  "published_date": "2026-06-25",
+  "window": {
+    "start": "2026-06-22",
+    "end": "2026-06-28"
+  },
+  "score": 2,
+  "one_liner_zh": "该文对银杏m(6)A甲基化调控蛋白进行全基因组鉴定与表达分析，虽涉及蛋白互作网络和相分离预测，但对象非无序蛋白/IDR，且无AI或物理模拟方法，与本课题关联微弱。",
+  "abstract": "m(6)A is an important RNA modification involved in post-transcriptional regulation in plants. However, putative m(6)A writers and erasers in G. biloba remain poorly characterized. In this study, a total of 17 candidate m(6)A regulatory genes, including 8 writers and 9 erasers, were identified through genome-wide analysis. Phylogenetic and structural analyses indicated that these proteins are generally conserved, with some members showing potential functional divergence. Promoter analysis revealed abundant hormone- and stress-responsive cis-elements, and expression profiling showed tissue-specific patterns and dynamic responses to ABA, MeJA, and NaCl treatments, with erasers exhibiting greater transcriptional responsiveness than writers. In addition, protein interaction network and phase separation predictions suggested potential roles in RNA methylation-related processes. These results provide a foundation for further functional studies of m(6)A regulation in G. biloba.",
+  "abstract_zh": "m(6)A是一种重要的RNA修饰，参与植物转录后调控。然而，银杏（G. biloba）中推定的m(6)A写入器和擦除器仍缺乏充分表征。本研究通过全基因组分析，共鉴定出17个候选m(6)A调控基因，包括8个写入器和9个擦除器。系统发育和结构分析表明，这些蛋白总体上是保守的，但部分成员显示出潜在的功能分化。启动子分析揭示了丰富的激素和胁迫响应顺式元件，表达谱分析显示了组织特异性模式以及对ABA、MeJA和NaCl处理的动态响应，其中擦除器比写入器表现出更高的转录响应性。此外，蛋白质相互作用网络和相分离 (phase separation) 预测提示其在RNA甲基化相关过程中的潜在作用。这些结果为银杏中m(6)A调控的进一步功能研究提供了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42345753/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42345753/",
+  "paper_page_path": "papers/pubmed/42345753/index.html"
+}

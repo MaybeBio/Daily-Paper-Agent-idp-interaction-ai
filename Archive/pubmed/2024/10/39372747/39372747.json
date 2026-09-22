@@ -1,0 +1,319 @@
+{
+  "identity": {
+    "pmid": "39372747",
+    "doi": "10.1101/2024.07.25.605144",
+    "title": "Conformations of a Low-Complexity Protein in Homogeneous and Phase-Separated Frozen Solutions."
+  },
+  "content": {
+    "abstract": "Solutions of the intrinsically disordered, low-complexity domain of the FUS protein (FUS-LC) undergo liquid-liquid phase separation (LLPS) below temperatures T(LLPS) in the 20-40 degrees  C range. To investigate whether local conformational distributions are detectably different in the homogeneous and phase-separated states of FUS-LC, we performed solid state nuclear magnetic resonance (ssNMR) measurements on solutions that were frozen on sub-millisecond time scales after equilibration at temperatures well above (50 degrees  C) or well below (4 degrees  C) T(LLPS). Measurements were performed at 25 K with signal enhancements from dynamic nuclear polarization. Crosspeak patterns in two-dimensional (2D) ssNMR spectra of rapidly frozen solutions in which FUS-LC was uniformly (15)N,(13)C-labeled were found to be nearly identical for the two states. Similar results were obtained for solutions in which FUS-LC was labeled only at Thr, Tyr, and Gly residues, as well as solutions of a FUS construct in which five specific residues were labeled by ligation of synthetic and recombinant fragments. These experiments show that local conformational distributions are nearly the same in the homogeneous and phase-separated solutions, despite the much greater protein concentrations and more abundant intermolecular interactions within phase-separated, protein-rich \"droplets\". Comparison of the experimental results with simulations of the sensitivity of 2D crosspeak patterns to an enhanced population of beta-strand-like conformations suggests that changes in conformational distributions are no larger than 5-10%. STATEMENT OF SIGNIFICANCE: Liquid-liquid phase separation (LLPS) in solutions of proteins with intrinsically disordered domains has attracted recent attention because of its relevance to multiple biological processes and its inherent interest from the standpoint of protein biophysics. The high protein concentrations and abundant intermolecular interactions within protein-rich, phase-separated \"droplets\" suggests that conformational distributions of intrinsically disordered proteins may differ in homogeneous and phase-separated solutions. To investigate whether detectable differences exist, we performed experiments on the low-complexity domain of the FUS protein (FUS-LC) in which FUS-LC solutions were first equilibrated at temperatures well above or well below their LLPS transition temperatures, then rapidly frozen and examined at very low temperatures by solid state nuclear magnetic resonance (ssNMR) spectroscopy. The ssNMR data for homogeneous and phase-separated frozen solutions of FUS-LC were found to be nearly identical, showing that LLPS is not accompanied by substantial changes in the local conformational distributions of this intrinsically disordered protein.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wilson, C Blake",
+        "Lee, Myungwoon",
+        "Yau, Wai-Ming",
+        "Tycko, Robert"
+      ],
+      "short_names": [
+        "Wilson CB",
+        "Lee M",
+        "Yau WM",
+        "Tycko R"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892.",
+        "current address: Department of Chemistry, Drexel University, Philadelphia, PA 19104.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892.",
+        "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wilson, C Blake",
+        "short_name": "Wilson CB",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892."
+        ]
+      },
+      {
+        "full_name": "Lee, Myungwoon",
+        "short_name": "Lee M",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892.",
+          "current address: Department of Chemistry, Drexel University, Philadelphia, PA 19104."
+        ]
+      },
+      {
+        "full_name": "Yau, Wai-Ming",
+        "short_name": "Yau WM",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892."
+        ]
+      },
+      {
+        "full_name": "Tycko, Robert",
+        "short_name": "Tycko R",
+        "identifiers": [],
+        "affiliations": [
+          "Laboratory of Chemical Physics, National Institute of Diabetes and Digestive and Kidney Diseases, National Institutes of Health, Bethesda, Maryland 20892."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jul 25",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/07 12:57",
+    "fetched_at": "2026-09-22 01:47:28"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "38553463",
+      "38467846",
+      "38335342",
+      "38279531",
+      "37749095",
+      "37735186",
+      "37604044",
+      "37468629",
+      "37146977",
+      "36893281",
+      "36638831",
+      "36499553",
+      "36350034",
+      "36040869",
+      "36018855",
+      "35986970",
+      "35866309",
+      "35771920",
+      "35617672",
+      "35025654",
+      "34931046",
+      "34787433",
+      "34759379",
+      "34670847",
+      "34619090",
+      "34516126",
+      "34301955",
+      "34074792",
+      "33978290",
+      "33896178",
+      "33712624",
+      "33686294",
+      "33607084",
+      "33452693",
+      "33311513",
+      "33302617",
+      "33280387",
+      "33279579",
+      "33144500",
+      "32796831",
+      "32603876",
+      "32312191",
+      "32270045",
+      "32029630",
+      "32003979",
+      "31911439",
+      "31898464",
+      "31895552",
+      "31790873",
+      "31439799",
+      "31387974",
+      "31341602",
+      "31270472",
+      "31050890",
+      "30845353",
+      "30791483",
+      "30279180",
+      "30217894",
+      "30127355",
+      "29642031",
+      "29602697",
+      "29358076",
+      "29303268",
+      "28942918",
+      "28894006",
+      "28716441",
+      "26920835",
+      "26544936",
+      "26526393",
+      "26455390",
+      "26406374",
+      "25531225",
+      "24232250",
+      "24034249",
+      "23728592",
+      "23456039",
+      "23238592",
+      "20628786",
+      "20483348",
+      "18930418",
+      "17143859",
+      "15718283",
+      "12626339",
+      "8744570",
+      "7881273",
+      "1960729"
+    ],
+    "similar": [
+      "39372747",
+      "39497416",
+      "31270472",
+      "35709363",
+      "33607084",
+      "31895552",
+      "36453011",
+      "28942918",
+      "33547841",
+      "33515602",
+      "37399327",
+      "33110735",
+      "31188823",
+      "26455390",
+      "29677513",
+      "28924037",
+      "41001641",
+      "33184287",
+      "31805282",
+      "37231298",
+      "35297101",
+      "39129227",
+      "36945688",
+      "34029402",
+      "35943083",
+      "38029395",
+      "37130459",
+      "38546977",
+      "41311968",
+      "35617672",
+      "34156864",
+      "36444977",
+      "29511089",
+      "33076213",
+      "40842365",
+      "41433062",
+      "40285725",
+      "34787417",
+      "38279531",
+      "40973004",
+      "38632300",
+      "38347806",
+      "32231288",
+      "39342654",
+      "30205960",
+      "34233002",
+      "28432364",
+      "41415473",
+      "37211763",
+      "34654750",
+      "26068174",
+      "38462838",
+      "35500664",
+      "31911439",
+      "40516596",
+      "39069878",
+      "30397184",
+      "35036880",
+      "33982369",
+      "37189373",
+      "36524527",
+      "40654645",
+      "39473462",
+      "35902591",
+      "36419510",
+      "28790177",
+      "29677515",
+      "33912586",
+      "40792356",
+      "38526948",
+      "35481633",
+      "40291420",
+      "29526694",
+      "33934416",
+      "23912807",
+      "31783713",
+      "33307683",
+      "20121096",
+      "31941785",
+      "33260713",
+      "34428231",
+      "34516126",
+      "30021151",
+      "39387162",
+      "34648275",
+      "34787433",
+      "29364893",
+      "38997630",
+      "32189162",
+      "37906538",
+      "33200826",
+      "37145883",
+      "31237369",
+      "28306503",
+      "33280387",
+      "26317470",
+      "18229962",
+      "37961424",
+      "36268634",
+      "33078839"
+    ],
+    "review": [
+      "39372747",
+      "37399327",
+      "33110735",
+      "38029395",
+      "31911439",
+      "36524527",
+      "33260713",
+      "32189162",
+      "31237369",
+      "36268634"
+    ],
+    "pmc": [
+      "11451737"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39372747/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.07.25.605144",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2025-m5m0p/v3",
+  "title": "NMR spin relaxation enables rigorous selection of realistic intrinsically disordered protein ensembles from molecular dynamics simulations",
+  "doi": "10.26434/chemrxiv-2025-m5m0p/v3",
+  "abstract": "Intrinsically disordered proteins (IDPs) are prevalent in eukaryotic proteomes and play a crucial role in biological processes, despite lacking a well-defined three-dimensional structure. However, characterizing their conformational ensembles remains challenging due to limitations of traditional structural biology techniques. Here, we present an automated Quality Evaluation Based Simulation Selection (QEBSS) protocol that integrates molecular dynamics simulations with NMR spin relaxation data to determine experimentally validated conformational ensembles of IDPs. We demonstrate that spin relaxation measurements provide more stringent discrimination between distinct IDP ensembles than chemical shift or small-angle X-ray scattering (SAXS) data. Applying QEBSS to four biologically diverse IDPs—alpha-synuclein, KRS1-72, ChiZ1-64, and ICL2—we reveal a spectrum of conformational behaviors ranging from near-random coil structures to compact, transiently ordered states. Alpha-synuclein exhibits minimal backbone correlations consistent with a random coil ensemble, KRS1-72 displays charge-driven transient looping, ChiZ1-64 shows moderate backbone ordering, while ICL2 adopts a relatively compact conformation with extensive intrachain contacts despite remaining intrinsically disordered. These experimentally validated ensembles provide insights into how conformational properties relate to biological function and establish high-resolution benchmark datasets for developing improved force fields and machine learning models for IDP prediction.",
+  "authors": [
+    "Cajsa Malm",
+    "Mykhailo Girych",
+    "Tobias Rindfleisch",
+    "Julianne Hoeflich",
+    "Batuhan Kav",
+    "O. H. Samuli Ollila"
+  ],
+  "published_date": "2026-03-20",
+  "updated_date": "2026-03-20T13:14:31Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2025-m5m0p/v3",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-m5m0p/v3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "3",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            14
+          ]
+        ],
+        "date-time": "2026-08-14T09:35:08Z",
+        "timestamp": 1786700108663,
+        "version": "build-2736575974"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            20
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>Intrinsically disordered proteins (IDPs) are prevalent in eukaryotic proteomes and play a crucial role in biological processes, despite lacking a well-defined three-dimensional structure. However, characterizing their conformational ensembles remains challenging due to limitations of traditional structural biology techniques. Here, we present an automated Quality Evaluation Based Simulation Selection (QEBSS) protocol that integrates molecular dynamics simulations with NMR spin relaxation data to determine experimentally validated conformational ensembles of IDPs. We demonstrate that spin relaxation measurements provide more stringent discrimination between distinct IDP ensembles than chemical shift or small-angle X-ray scattering (SAXS) data. Applying QEBSS to four biologically diverse IDPs—alpha-synuclein, KRS1-72, ChiZ1-64, and ICL2—we reveal a spectrum of conformational behaviors ranging from near-random coil structures to compact, transiently ordered states. Alpha-synuclein exhibits minimal backbone correlations consistent with a random coil ensemble, KRS1-72 displays charge-driven transient looping, ChiZ1-64 shows moderate backbone ordering, while ICL2 adopts a relatively compact conformation with extensive intrachain contacts despite remaining intrinsically disordered. These experimentally validated ensembles provide insights into how conformational properties relate to biological function and establish high-resolution benchmark datasets for developing improved force fields and machine learning models for IDP prediction.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2025-m5m0p/v3",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            20
+          ]
+        ],
+        "date-time": "2026-03-20T13:14:31Z",
+        "timestamp": 1774012471000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "NMR spin relaxation enables rigorous selection of realistic intrinsically disordered protein ensembles from molecular dynamics simulations"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Cajsa",
+          "family": "Malm",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "VTT Technical Research Centre of Finland",
+              "place": [
+                "Finland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mykhailo",
+          "family": "Girych",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "VTT Technical Research Centre of Finland",
+              "place": [
+                "Finland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tobias",
+          "family": "Rindfleisch",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Bergen"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Julianne",
+          "family": "Hoeflich",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Colorado"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Batuhan",
+          "family": "Kav",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Bergen"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8728-1006",
+          "authenticated-orcid": false,
+          "given": "O. H. Samuli",
+          "family": "Ollila",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "VTT Technical Research Centre of Finland",
+              "place": [
+                "Finland"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2025-m5m0p/v3",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            8,
+            14
+          ]
+        ],
+        "date-time": "2026-08-14T09:00:19Z",
+        "timestamp": 1786698019000
+      },
+      "score": 97.06986,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-m5m0p/v3"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            20
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2025-m5m0p/v3",
+      "relation": {
+        "is-preprint-of": [
+          {
+            "id-type": "doi",
+            "id": "10.1038/s42004-026-02155-8",
+            "asserted-by": "subject"
+          }
+        ]
+      },
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            20
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

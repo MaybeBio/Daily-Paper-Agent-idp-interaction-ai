@@ -1,0 +1,367 @@
+{
+  "identity": {
+    "pmid": "34368766",
+    "doi": "10.34133/2021/9756945",
+    "title": "Highly Dynamic Polynuclear Metal Cluster Revealed in a Single Metallothionein Molecule."
+  },
+  "content": {
+    "abstract": "Human metallothionein (MT) is a small-size yet efficient metal-binding protein, playing an essential role in metal homeostasis and heavy metal detoxification. MT contains two domains, each forming a polynuclear metal cluster with an exquisite hexatomic ring structure. The apoprotein is intrinsically disordered, which may strongly influence the clusters and the metal-thiolate (M-S) bonds, leading to a highly dynamic structure. However, these features are challenging to identify due to the transient nature of these species. The individual signal from dynamic conformations with different states of the cluster and M-S bond will be averaged and blurred in classic ensemble measurement. To circumvent these problems, we combined a single-molecule approach and multiscale molecular simulations to investigate the rupture mechanism and chemical stability of the metal cluster by a single MT molecule, focusing on the Zn(4)S(11) cluster in the alpha domain upon unfolding. Unusual multiple unfolding pathways and intermediates are observed for both domains, corresponding to different combinations of M-S bond rupture. None of the pathways is clearly preferred suggesting that unfolding proceeds from the distribution of protein conformational substates with similar M-S bond strengths. Simulations indicate that the metal cluster may rearrange, forming and breaking metal-thiolate bonds even when MT is folded independently of large protein backbone reconfiguration. Thus, a highly dynamic polynuclear metal cluster with multiple conformational states is revealed in MT, responsible for the binding promiscuity and diverse cellular functions of this metal-carrier protein.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Yuan, Guodong",
+        "Curtolo, Felipe",
+        "Deng, Yibing",
+        "Wu, Tao",
+        "Tian, Fang",
+        "Ma, Qun",
+        "Liu, Yutong",
+        "Zuo, Jinglin",
+        "Arantes, Guilherme Menegon",
+        "Zheng, Peng"
+      ],
+      "short_names": [
+        "Yuan G",
+        "Curtolo F",
+        "Deng Y",
+        "Wu T",
+        "Tian F",
+        "Ma Q",
+        "Liu Y",
+        "Zuo J",
+        "Arantes GM",
+        "Zheng P"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-8488-4277",
+        "ORCID: 0000-0002-4459-0968",
+        "ORCID: 0000-0003-0404-5508",
+        "ORCID: 0000-0002-4212-6328",
+        "ORCID: 0000-0001-5356-7703",
+        "ORCID: 0000-0003-4792-6364"
+      ],
+      "affiliations": [
+        "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China.",
+        "Department of Biochemistry, Instituto de Quimica, Universidade de Sao Paulo, Av. Prof. Lineu Prestes 748, 05508-900 Sao Paulo, SP, Brazil.",
+        "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China.",
+        "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China.",
+        "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China.",
+        "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China.",
+        "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China.",
+        "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China.",
+        "Department of Biochemistry, Instituto de Quimica, Universidade de Sao Paulo, Av. Prof. Lineu Prestes 748, 05508-900 Sao Paulo, SP, Brazil.",
+        "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Yuan, Guodong",
+        "short_name": "Yuan G",
+        "identifiers": [
+          "0000-0001-8488-4277"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Curtolo, Felipe",
+        "short_name": "Curtolo F",
+        "identifiers": [
+          "0000-0002-4459-0968"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Instituto de Química, Universidade de São Paulo, Av. Prof. Lineu Prestes 748, 05508-900 São Paulo, SP, Brazil."
+        ]
+      },
+      {
+        "full_name": "Deng, Yibing",
+        "short_name": "Deng Y",
+        "identifiers": [
+          "0000-0003-0404-5508"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Wu, Tao",
+        "short_name": "Wu T",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Tian, Fang",
+        "short_name": "Tian F",
+        "identifiers": [
+          "0000-0002-4212-6328"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Ma, Qun",
+        "short_name": "Ma Q",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Yutong",
+        "short_name": "Liu Y",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Zuo, Jinglin",
+        "short_name": "Zuo J",
+        "identifiers": [],
+        "affiliations": [
+          "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China."
+        ]
+      },
+      {
+        "full_name": "Arantes, Guilherme Menegon",
+        "short_name": "Arantes GM",
+        "identifiers": [
+          "0000-0001-5356-7703"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, Instituto de Química, Universidade de São Paulo, Av. Prof. Lineu Prestes 748, 05508-900 São Paulo, SP, Brazil."
+        ]
+      },
+      {
+        "full_name": "Zheng, Peng",
+        "short_name": "Zheng P",
+        "identifiers": [
+          "0000-0003-4792-6364"
+        ],
+        "affiliations": [
+          "State Key Laboratory of Coordination Chemistry, Chemistry and Biomedicine Innovation Center (ChemBIC), School of Chemistry and Chemical Engineering, Nanjing University, Nanjing, Jiangsu 210023, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Research (Washington, D.C.)"
+    ],
+    "journal_abbrev": [
+      "Research (Wash D C)"
+    ],
+    "pub_date": "2021",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/08/10 06:00",
+    "fetched_at": "2026-09-20 04:51:31"
+  },
+  "links": {
+    "cites": [
+      "42633296",
+      "40977118",
+      "39446023",
+      "36320890",
+      "36077234"
+    ],
+    "refs": [
+      "33856229",
+      "33619087",
+      "33480680",
+      "33257887",
+      "33172612",
+      "33079059",
+      "33048522",
+      "32554596",
+      "32286952",
+      "31633358",
+      "31625226",
+      "31464132",
+      "31433648",
+      "31403075",
+      "31324867",
+      "31235796",
+      "30936303",
+      "30890636",
+      "29386517",
+      "29182873",
+      "29114657",
+      "28538697",
+      "28254940",
+      "27248054",
+      "26636368",
+      "26620784",
+      "26235284",
+      "26108369",
+      "24918957",
+      "24758379",
+      "24479872",
+      "23780821",
+      "21476573",
+      "19675642",
+      "19587982",
+      "18852468",
+      "18511917",
+      "17237787",
+      "16908850",
+      "16413543",
+      "16240044",
+      "14733527",
+      "11560491",
+      "10097099",
+      "9892352",
+      "9235882",
+      "9148804",
+      "8799113",
+      "3994982",
+      "1438200",
+      "1409558"
+    ],
+    "similar": [
+      "34368766",
+      "11087412",
+      "10433724",
+      "30420986",
+      "31324867",
+      "7986666",
+      "12072966",
+      "18855021",
+      "12911326",
+      "8203284",
+      "22183579",
+      "16556599",
+      "17018871",
+      "24918957",
+      "30191219",
+      "3345754",
+      "29858425",
+      "2822462",
+      "3196709",
+      "8713064",
+      "29431781",
+      "30199219",
+      "12433427",
+      "7140998",
+      "7851390",
+      "1327773",
+      "12130647",
+      "3178730",
+      "24469686",
+      "6734551",
+      "11583581",
+      "28296007",
+      "3707924",
+      "16288454",
+      "16323040",
+      "4019449",
+      "15698955",
+      "18023887",
+      "19425569",
+      "8068648",
+      "7175523",
+      "30724942",
+      "2959511",
+      "11460757",
+      "8944772",
+      "9778374",
+      "33048522",
+      "9172640",
+      "27061576",
+      "2793845",
+      "29624115",
+      "4074725",
+      "8037768",
+      "30212202",
+      "17018867",
+      "15998019",
+      "6938956",
+      "12081484",
+      "9720304",
+      "26583802",
+      "15110755",
+      "19361445",
+      "32219259",
+      "19938825",
+      "29518586",
+      "11803035",
+      "22178664",
+      "10716192",
+      "8343519",
+      "9341226",
+      "11188527",
+      "22399135",
+      "26299797",
+      "8043573",
+      "11803036",
+      "10605938",
+      "11560491",
+      "2959502",
+      "12859185",
+      "2068093",
+      "8143737",
+      "9427845",
+      "16243847",
+      "8909290",
+      "31729507",
+      "16984198",
+      "17389590",
+      "18429853",
+      "6329671",
+      "21476573",
+      "12788066",
+      "10506163"
+    ],
+    "review": [
+      "34368766",
+      "8203284",
+      "17018871",
+      "2822462",
+      "29431781",
+      "24469686",
+      "28296007"
+    ],
+    "pmc": [
+      "8299258"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://spj.science.org/doi/10.34133/2021/9756945?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/34368766/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/34368766",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

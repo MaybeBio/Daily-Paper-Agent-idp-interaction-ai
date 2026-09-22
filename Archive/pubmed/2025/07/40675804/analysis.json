@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40675804",
+  "title": "PRMT1 oligomerization regulates RNA-binding protein cascade to promote pancreatic cancer.",
+  "authors": "Ru, Yanxia; Zhou, Xinyi; Wang, Xijiao; Sun, Wenxin; He, Yaohui; Hu, Guosheng; Li, Wenjuan; Hu, Die; Jiang, Meizhi; Su, Zhiming; Niu, Fengfeng; Chen, Gang; Zeng, Jinzhang; Sui, Sen-Fang; Liu, Wen; Li, Yaowang; Chen, Siming",
+  "journal": "Life science alliance",
+  "published_date": "2025-07-18",
+  "window": {
+    "start": "2025-07-14",
+    "end": "2025-07-20"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过冷冻电镜解析PRMT1寡聚体结构，揭示其寡聚化调控对含RGG无序基序RNA结合蛋白底物的结合与甲基化影响，涉及IDR底物与PPI机制，但方法以结构生物学为主，AI/物理模拟方法较弱。",
+  "abstract": "PRMT1 is the predominant type I protein arginine methyltransferase responsible for generating monomethylarginine and asymmetric dimethylarginine (MMA and ADMA) in various protein substrates. It regulates numerous biological processes, including RNA metabolism, mRNA splicing, DNA damage repair, and chromatin dynamics. The crystal structure of rat PRMT1 has been previously reported as a homodimer; however, higher-order oligomeric species of human PRMT1 have been observed in vivo, and their structural basis remains elusive. In this study, we present the cryo-EM structure of human PRMT1 in its oligomeric form, revealing novel interfaces crucial for PRMT1 self-assembly and normal function. PRMT1 shows a strong preference for intrinsically disordered RGG/RG motifs, which are commonly found in RNA-binding proteins, highlighting its critical role in regulating RNA metabolism. In vitro studies indicate that disrupting PRMT1 oligomerization impairs its binding affinity for RGG motif substrates, thereby reducing arginine methylation levels on these substrates. This finding emphasizes the essential role of the oligomeric state of PRMT1 in its function with RGG motif-containing RNA-binding proteins. In vivo, the loss of PRMT1 oligomerization leads to decreased global ADMA levels in pancreatic ductal adenocarcinoma (PDAC) cells and inhibits PDAC tumor growth. Collectively, we propose that PRMT1 oligomerization, rather than mere dimerization, is sufficient for PRMT1-driven PDAC tumor growth, offering novel insights into the potential therapeutic targeting of PRMT1 oligomeric forms in PDAC.",
+  "abstract_zh": "PRMT1是主要的I型蛋白质精氨酸甲基转移酶，负责在各种蛋白质底物中生成单甲基精氨酸和不对称二甲基精氨酸（MMA和ADMA）。它调控多种生物过程，包括RNA代谢、mRNA剪接、DNA损伤修复和染色质动力学。大鼠PRMT1的晶体结构此前已被报道为同源二聚体；然而，在体内观察到人PRMT1存在更高阶的寡聚形式，其结构基础仍不清楚。在本研究中，我们展示了人PRMT1寡聚形式的冷冻电镜结构，揭示了对于PRMT1自组装和正常功能至关重要的新型界面。PRMT1对 intrinsically disordered RGG/RG 基序表现出强烈偏好，这些基序常见于RNA结合蛋白中，突显了其在调控RNA代谢中的关键作用。体外研究表明，破坏PRMT1寡聚化会削弱其与RGG基序底物的结合亲和力，从而降低这些底物上的精氨酸甲基化水平。这一发现强调了PRMT1寡聚状态在与含RGG基序的RNA结合蛋白相互作用中的关键作用。在体内，PRMT1寡聚化的缺失导致胰腺导管腺癌（PDAC）细胞中整体ADMA水平降低，并抑制PDAC肿瘤生长。综合来看，我们提出PRMT1寡聚化，而非仅仅二聚化，足以驱动PRMT1介导的PDAC肿瘤生长，为在PDAC中潜在靶向PRMT1寡聚形式提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40675804/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40675804/",
+  "paper_page_path": "papers/pubmed/40675804/index.html"
+}

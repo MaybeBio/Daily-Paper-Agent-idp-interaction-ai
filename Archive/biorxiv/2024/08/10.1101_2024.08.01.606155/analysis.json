@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2024.08.01.606155",
+  "title": "Activation and regulation of a p38-MAPK by its downstream MAPKAP kinase through feedback phosphorylation and LLPS-driven condensate formation",
+  "authors": "Ray P; Mangal C; Rao TP; Nandi M; Haque A; Viswanath V; Mitra S; Raychaudhuri S; Ghosh-Roy A; Polley S",
+  "journal": "bioRxiv",
+  "published_date": "2024-08-01",
+  "window": {
+    "start": "2024-07-29",
+    "end": "2024-08-04"
+  },
+  "score": 9,
+  "one_liner_zh": "该文研究线虫p38-MAPK(PMK3)与其下游MAPKAPK(MAK2)通过反馈磷酸化互作，并利用LLPS凝聚体调控激酶稳定性与活性，涉及IDR介导的PPI及相分离机制，与课题高度契合。",
+  "abstract": "MAP kinases (MAPKs) represent a class of evolutionarily conserved stress and extracellular stimuli responsive signaling molecules. p38 group of MAPKs known to be activated by dual-specific upstream MAPK kinases and also by autophosphorylation. They activate MAPK activated protein kinases (MAPKAPKs) in a context dependent manner by specific phosphorylation, and together, they play crucial biological roles. One such pair is PMK3, p38α-MAPK and its cognate MAPKAPK, MAK2, downstream of DLK1 (MAPK kinase kinase) and MKK4 (MAPK kinase) in C. elegans . They are implicated in axonal regeneration, degeneration and synaptic pruning in response to neuronal injury. Here, we report that PMK3 and MAK2 engage in a feedback relationship, leading to phosphorylation-mediated activation of both kinases. Interaction of PMK3 with MAK2 through the canonical docking site leads to negligible de novo autophosphorylation of PMK3. Phosphorylation of both Thr and Tyr residues on the TxY-motif necessary for the full activation of PMK3 requires catalytic activity of MAK2 as confirmed by mass spectrometry. Distribution of phosphorylation sites on either kinase when incubated together, and presence of long intrinsically disordered regions in each kinase indicate that PMK3:MAK2 complex is conformationally plastic in nature. MAK2 increases bioavailability of aggregation-prone PMK3 by virtue of its ability to form LLPS-driven condensates in vitro, wherein they retain enzymatic activities and phosphorylate each other. Furthermore, experiments with transgenic C. elegans reveal that MAK2 controls stability of PMK3 and localization of PMK3 puncta in touch neuron. Our observations offer an unreported activation mechanism of a p38-MAPK by its downstream MAPKAPK. <h4>Significance Statement</h4> MAPK kinases are evolutionarily conserved, and are key players in stress response, cell survival, differentiation, metabolic processes and neuronal response to injury. MAPK pathways are primarily activated through unidirectional flow of phosphorylation-signal MAP3K to MAP2K to MAPK, and in some cases to a downstream MAPKAPK. We found that a C. elegans MAPK (PMK3) can also be activated by its downstream MAPKAPK (MAK2) through feedback phosphorylation that ensures robust activation of PMK3 by MAK2 without requiring the MAP2K. Furthermore, MAK2 increases bioavailability of activation-competent and active PMK3 by preventing its aggregation through LLPS-driven condensate formation in vitro and in the worm neuron. This feedback relationship might ensure rapid activation of such MAPK pathways in response to nervous system injury or stress.",
+  "abstract_zh": "MAP激酶（MAPKs）代表了一类进化上保守的应激及细胞外刺激响应信号分子。p38组MAPKs已知可被双特异性上游MAPK激酶激活，也可通过自身磷酸化激活。它们通过特异性磷酸化，以情境依赖方式激活MAPK激活蛋白激酶（MAPKAPKs），并共同发挥关键的生物学作用。其中一对是PMK3（p38α-MAPK）及其同源MAPKAPK，MAK2，位于线虫（C. elegans）中DLK1（MAPK激酶激酶）和MKK4（MAPK激酶）的下游。它们与神经元损伤后的轴突再生、变性和突触修剪有关。在此，我们报道PMK3和MAK2参与一种反馈关系，导致两种激酶通过磷酸化介导的激活。PMK3与MAK2通过经典对接位点的相互作用导致PMK3的新生自身磷酸化可忽略不计。PMK3完全激活所需的TxY基序上Thr和Tyr残基的磷酸化均需要MAK2的催化活性，这一点已通过质谱分析确认。当两种激酶共同孵育时，各自上的磷酸化位点分布以及每种激酶中长 intrinsically disordered regions（内在无序区域）的存在表明，PMK3:MAK2复合物在构象上具有可塑性。MAK2通过其在体外形成LLPS驱动的凝聚体（condensates）的能力，增加了易聚集的PMK3的生物利用度，在这些凝聚体中它们保留酶活性并相互磷酸化。此外，使用转基因线虫的实验揭示，MAK2控制PMK3的稳定性及PMK3 puncta在触觉神经元中的定位。我们的观察提供了一种由下游MAPKAPK激活p38-MAPK的未报道激活机制。\n\n<h4>意义声明</h4> MAPK激酶在进化上保守，是应激反应、细胞存活、分化、代谢过程及神经元损伤反应中的关键参与者。MAPK通路主要通过从MAP3K到MAP2K到MAPK，在某些情况下到下游MAPKAPK的单向磷酸化信号流激活。我们发现线虫中的一种MAPK（PMK3）也可由其下游MAPKAPK（MAK2）通过反馈磷酸化激活，这确保了PMK3在不需要MAP2K的情况下被MAK2稳健激活。此外，MAK2通过在体外及线虫神经元中通过LLPS驱动的凝聚体形成防止PMK3聚集，从而增加激活胜任且活性状态的PMK3的生物利用度。这种反馈关系可能确保此类MAPK通路在神经系统损伤或应激时快速激活。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2024.08.01.606155",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2024.08.01.606155",
+  "paper_page_path": "papers/biorxiv/10.1101_2024.08.01.606155/index.html"
+}

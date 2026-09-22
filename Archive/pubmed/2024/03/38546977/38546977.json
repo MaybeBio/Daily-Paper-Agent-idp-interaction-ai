@@ -1,0 +1,261 @@
+{
+  "identity": {
+    "pmid": "38546977",
+    "doi": "10.1021/acs.langmuir.4c00209",
+    "title": "Multiscale Computational Framework for the Liquid-Liquid Phase Separation of Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "The reversible assembly of intrinsically disordered proteins (IDPs) to form membraneless organelles (MLOs) is a fundamental process involved in the spatiotemporal regulation in living cells. MLOs formed via liquid-liquid phase separation (LLPS) serve as molecule-enhancing hubs to regulate cell functions. Owing to the complexity and dynamic nature of the protein assembly via a network of weak inter- and intra-molecular interactions, it is challenging to describe and predict the LLPS behavior. We have developed a multiscale computational model for IDPs, using the fused in sarcoma (FUS) protein and its variants as illustrative examples. To simplify the description of protein, FUS is represented as a linear chain of stickers interspaced by spacers, as inspired by the associative polymer theory. Low-complexity aromatic-rich kinked segments (LARKS) available in FUS were identified using LARKSdb and represented as \"stickers\". The pairwise potential energies of each pair of stickers and their beta-sheet-forming propensity were estimated via molecular docking and all atomistic molecular dynamics (AA-MD) simulations. Subsequently, FUS chains were randomly positioned in a cubic lattice as coarse-grained (CG) beads, with the bead assignment based on the Kuhn length estimation of stickers and spacers. Stochastic FUS movements were modeled by Monte Carlo (MC) simulations. In addition to the Metropolis algorithm, discretized pair potential distributions between stickers were considered in the move acceptance criteria. The chosen pair potential represents one of the possible binding energy states, with its probability determined by the frequency of the binding energy distribution histogram. The fluctuations of averaged radial distribution functions (RDFs) in successive MC trial move intervals of equilibrated lattice MC simulations were used to indicate the dynamic nature of assembly/disassembly of the protein chains. This multiscale computational framework provides an economical and efficient way of predicting and describing the LLPS behavior of IDPs.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "Molecular Docking Simulation",
+      "Phase Separation",
+      "Molecular Dynamics Simulation",
+      "Polymers/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Fernando, Kalindu S",
+        "Jahanmir, Ghodsiehsadat",
+        "Unarta, Ilona C",
+        "Chau, Ying"
+      ],
+      "short_names": [
+        "Fernando KS",
+        "Jahanmir G",
+        "Unarta IC",
+        "Chau Y"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3033-6907",
+        "ORCID: 0000-0003-3484-9697",
+        "ORCID: 0000-0003-1759-934X"
+      ],
+      "affiliations": [
+        "Department of Chemical and Biological Engineering, The Hong Kong University of Science & Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China.",
+        "Department of Chemical and Biological Engineering, The Hong Kong University of Science & Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China.",
+        "Department of Chemistry, University of Wisconsin horizontal line Madison, Madison, Wisconsin 53706, United States.",
+        "Department of Chemical and Biological Engineering, The Hong Kong University of Science & Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Fernando, Kalindu S",
+        "short_name": "Fernando KS",
+        "identifiers": [
+          "0000-0003-3033-6907"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, The Hong Kong University of Science & Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Jahanmir, Ghodsiehsadat",
+        "short_name": "Jahanmir G",
+        "identifiers": [
+          "0000-0003-3484-9697"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, The Hong Kong University of Science & Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China."
+        ]
+      },
+      {
+        "full_name": "Unarta, Ilona C",
+        "short_name": "Unarta IC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Wisconsin─Madison, Madison, Wisconsin 53706, United States."
+        ]
+      },
+      {
+        "full_name": "Chau, Ying",
+        "short_name": "Chau Y",
+        "identifiers": [
+          "0000-0003-1759-934X"
+        ],
+        "affiliations": [
+          "Department of Chemical and Biological Engineering, The Hong Kong University of Science & Technology, Clear Water Bay, Kowloon, Hong Kong SAR, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Langmuir : the ACS journal of surfaces and colloids"
+    ],
+    "journal_abbrev": [
+      "Langmuir"
+    ],
+    "pub_date": "2024 Apr 9",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/03/28 18:44",
+    "fetched_at": "2026-09-21 06:10:59"
+  },
+  "links": {
+    "cites": [
+      "41003226",
+      "40557772"
+    ],
+    "refs": [],
+    "similar": [
+      "38546977",
+      "33453922",
+      "37189373",
+      "37662293",
+      "29364893",
+      "38979955",
+      "38347806",
+      "35505868",
+      "34716273",
+      "33934416",
+      "36227468",
+      "39342654",
+      "33555894",
+      "33302617",
+      "33684117",
+      "35481633",
+      "38112495",
+      "33260713",
+      "34866377",
+      "33582133",
+      "36350034",
+      "33876938",
+      "35297101",
+      "37290157",
+      "38252962",
+      "29397728",
+      "31270472",
+      "33139563",
+      "39225535",
+      "30217894",
+      "35575335",
+      "32393642",
+      "36291650",
+      "33264400",
+      "38356260",
+      "36524527",
+      "28924037",
+      "29511089",
+      "29186229",
+      "23912807",
+      "36768473",
+      "35142991",
+      "35944496",
+      "35883530",
+      "32207864",
+      "39372747",
+      "33403854",
+      "36343363",
+      "33076213",
+      "37488093",
+      "31911439",
+      "36272811",
+      "37399327",
+      "36066390",
+      "38965780",
+      "35902591",
+      "38322526",
+      "38672516",
+      "34156864",
+      "36181270",
+      "37386790",
+      "31054969",
+      "32936641",
+      "36641212",
+      "37735186",
+      "34598580",
+      "35802394",
+      "37446185",
+      "32312191",
+      "37815389",
+      "32937111",
+      "34845619",
+      "31784535",
+      "34537246",
+      "32426986",
+      "34571015",
+      "26052838",
+      "35709363",
+      "36702825",
+      "33355572",
+      "37175815",
+      "38928405",
+      "36464283",
+      "33307683",
+      "31709918",
+      "38136675",
+      "31691822",
+      "36453011",
+      "32824618",
+      "34029402",
+      "34984754",
+      "32859072",
+      "29573987",
+      "39105804",
+      "29526694",
+      "33411518",
+      "33547841",
+      "35682883",
+      "29923722",
+      "38063081",
+      "37764358",
+      "30397688",
+      "38348795",
+      "37398035",
+      "32619404",
+      "34931046",
+      "37292850",
+      "38222029",
+      "38076908",
+      "36760519",
+      "35795820"
+    ],
+    "review": [
+      "38546977",
+      "38979955",
+      "33260713",
+      "36350034",
+      "36291650",
+      "36524527",
+      "35142991",
+      "37488093",
+      "31911439",
+      "37399327",
+      "38672516",
+      "31054969",
+      "35802394",
+      "32312191",
+      "33355572",
+      "37175815",
+      "36464283",
+      "31709918",
+      "32824618",
+      "37764358"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/langd5/article-lookup/doi/10.1021/acs.langmuir.4c00209",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

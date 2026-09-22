@@ -1,0 +1,172 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.07.25.550520",
+  "title": "Local Disordered Region Sampling (LDRS) for Ensemble Modeling of Proteins with Experimentally Undetermined or Low Confidence Prediction Segments",
+  "doi": "10.1101/2023.07.25.550520",
+  "abstract": "<h4>STRUCTURED ABSTRACT</h4> <h4>SUMMARY</h4> The Local Disordered Region Sampling (LDRS, pronounced loaders ) tool, developed for the IDPConformerGenerator platform (Teixeira et al . 2022), provides a method for generating all-atom conformations of intrinsically disordered regions (IDRs) at N- and C-termini of and in loops or linkers between folded regions of an existing protein structure. These disordered elements often lead to missing coordinates in experimental structures or low confidence in predicted structures. Requiring only a pre-existing PDB structure of the protein with missing coordinates or with predicted confidence scores and its full-length primary sequence, LDRS will automatically generate physically meaningful conformational ensembles of the missing flexible regions to complete the full-length protein. The capabilities of the LDRS tool of IDPConformerGenerator include modeling phosphorylation sites using enhanced Monte Carlo Side Chain Entropy (MC-SCE) (Bhowmick and Head-Gordon 2015), transmembrane proteins within an all-atom bilayer, and multi-chain complexes. The modeling capacity of LDRS capitalizes on the modularity, ability to be used as a library and via command-line, and computational speed of the IDPConformerGenerator platform. <h4>AVAILABILITY AND IMPLEMENTATION</h4> The LDRS module is part of the IDPConformerGenerator modeling suite, which can be downloaded from GitHub at https://github.com/julie-forman-kay-lab/IDPConformerGenerator . IDPConformerGenerator is written in Python and works on Linux, Microsoft Windows, and Mac OS versions that support DSSP. Users can utilize LDRS’s Python API for scripting the same way they can use any part of IDPConformerGenerator’s API, by importing functions from the ‘idpconfgen.ldrs_helper’ library. Otherwise, LDRS can be used as a command line interface application within IDPConformerGenerator. Full documentation is available within the command-line interface (CLI) as well as on IDPConformerGenerator’s official documentation pages ( https://idpconformergenerator.readthedocs.io/en/latest/ ). <h4>CONTACT</h4> For support with LDRS please contact Zi Hao (Nemo) Liu via nemo.liu@sickkids.ca or submit an issue in the IDPConformerGenerator repository on GitHub ( https://github.com/julie-forman-kay-lab/IDPConformerGenerator/issues ). <h4>SUPPLEMENTARY INFORMATION</h4> The supplementary information document contains, or links to, all the conformer ensembles generated for this publication, the generalized Python scripts using the LDRS Python API, figures of detailed methods, fractional secondary structure information, torsion angle sampling, and the time required to generate the different protein cases.",
+  "authors": [
+    "Liu ZH",
+    "Teixeira JM",
+    "Zhang O",
+    "Tsangaris TE",
+    "Li J",
+    "Gradinaru CC",
+    "Head-Gordon T",
+    "Forman-Kay JD"
+  ],
+  "published_date": "2023-07-27",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.07.25.550520",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.07.25.550520.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR698362",
+    "raw_record": {
+      "id": "PPR698362",
+      "source": "PPR",
+      "doi": "10.1101/2023.07.25.550520",
+      "title": "Local Disordered Region Sampling (LDRS) for Ensemble Modeling of Proteins with Experimentally Undetermined or Low Confidence Prediction Segments",
+      "authorString": "Liu ZH, Teixeira JM, Zhang O, Tsangaris TE, Li J, Gradinaru CC, Head-Gordon T, Forman-Kay JD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Liu ZH",
+            "lastName": "Liu",
+            "firstName": "Zi Hao",
+            "initials": "ZH"
+          },
+          {
+            "fullName": "Teixeira JM",
+            "lastName": "Teixeira",
+            "firstName": "João M.C.",
+            "initials": "JM"
+          },
+          {
+            "fullName": "Zhang O",
+            "lastName": "Zhang",
+            "firstName": "Oufan",
+            "initials": "O"
+          },
+          {
+            "fullName": "Tsangaris TE",
+            "lastName": "Tsangaris",
+            "firstName": "Thomas",
+            "initials": "TE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3683-1183"
+            }
+          },
+          {
+            "fullName": "Li J",
+            "lastName": "Li",
+            "firstName": "Jie",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4727-1786"
+            }
+          },
+          {
+            "fullName": "Gradinaru CC",
+            "lastName": "Gradinaru",
+            "firstName": "Claudiu",
+            "initials": "CC"
+          },
+          {
+            "fullName": "Head-Gordon T",
+            "lastName": "Head-Gordon",
+            "firstName": "Teresa",
+            "initials": "T"
+          },
+          {
+            "fullName": "Forman-Kay JD",
+            "lastName": "Forman-Kay",
+            "firstName": "Julie",
+            "initials": "JD"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4727-1786"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3683-1183"
+          }
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>STRUCTURED ABSTRACT</h4>  <h4>SUMMARY</h4>  The Local Disordered Region Sampling (LDRS, pronounced  loaders ) tool, developed for the IDPConformerGenerator platform (Teixeira  et al . 2022), provides a method for generating all-atom conformations of intrinsically disordered regions (IDRs) at N- and C-termini of and in loops or linkers between folded regions of an existing protein structure. These disordered elements often lead to missing coordinates in experimental structures or low confidence in predicted structures. Requiring only a pre-existing PDB structure of the protein with missing coordinates or with predicted confidence scores and its full-length primary sequence, LDRS will automatically generate physically meaningful conformational ensembles of the missing flexible regions to complete the full-length protein. The capabilities of the LDRS tool of IDPConformerGenerator include modeling phosphorylation sites using enhanced Monte Carlo Side Chain Entropy (MC-SCE) (Bhowmick and Head-Gordon 2015), transmembrane proteins within an all-atom bilayer, and multi-chain complexes. The modeling capacity of LDRS capitalizes on the modularity, ability to be used as a library and via command-line, and computational speed of the IDPConformerGenerator platform.  <h4>AVAILABILITY AND IMPLEMENTATION</h4>  The LDRS module is part of the IDPConformerGenerator modeling suite, which can be downloaded from GitHub at  https://github.com/julie-forman-kay-lab/IDPConformerGenerator . IDPConformerGenerator is written in Python and works on Linux, Microsoft Windows, and Mac OS versions that support DSSP. Users can utilize LDRS’s Python API for scripting the same way they can use any part of IDPConformerGenerator’s API, by importing functions from the ‘idpconfgen.ldrs_helper’ library. Otherwise, LDRS can be used as a command line interface application within IDPConformerGenerator. Full documentation is available within the command-line interface (CLI) as well as on IDPConformerGenerator’s official documentation pages (  https://idpconformergenerator.readthedocs.io/en/latest/ ).  <h4>CONTACT</h4>  For support with LDRS please contact Zi Hao (Nemo) Liu via  nemo.liu@sickkids.ca or submit an issue in the IDPConformerGenerator repository on GitHub (  https://github.com/julie-forman-kay-lab/IDPConformerGenerator/issues ).  <h4>SUPPLEMENTARY INFORMATION</h4>  The supplementary information document contains, or links to, all the conformer ensembles generated for this publication, the generalized Python scripts using the LDRS Python API, figures of detailed methods, fractional secondary structure information, torsion angle sampling, and the time required to generate the different protein cases.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/07/27/2023.07.25.550520.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.07.25.550520"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "38060268",
+            "reference": "Bioinformatics (Oxford, England). 2023 Dec;39(12):btad739",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2023-07-29",
+      "firstPublicationDate": "2023-07-27",
+      "firstIndexDate": "2023-07-29",
+      "hasEvaluations": "N"
+    }
+  }
+}

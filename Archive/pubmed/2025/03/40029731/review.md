@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors use molecular dynamics simulations and umbrella sampling to test whether small-molecule binders of the intrinsically disordered protein islet amyloid polypeptide (IAPP) act via conformational selection (stabilizing preexisting transient conformations) rather than conformational induction. They report that a two-state model (alpha-helix versus beta-sheet) predicts experimentally observed selectivity for two classes of IAPP binders, with foldamers showing incomplete agreement with conformational selection and sensitivity to sequence changes (rat versus human IAPP), whereas beta-breaking peptides conform to the model and are less sequence-sensitive.
+- **Visible evidence base** Abstract text only; no numerical data, simulation details, or experimental comparisons are provided
+- **Missing materials affecting confidence** Full methods, simulation parameters, force fields, umbrella sampling convergence criteria, binding affinity values, experimental selectivity data, structural details of the two conformations, and any statistical or error analysis
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting and potentially valuable contribution to the challenging problem of drugging intrinsically disordered proteins. The central question, whether ligands act by conformational selection or induction, is well posed and of broad relevance. However, the abstract alone provides insufficient detail to evaluate the technical rigor of the simulations, the robustness of the two-state model, or the strength of the experimental correlation. The claim that conformational selection "sometimes overrides sequence-level specificity" is intriguing but not adequately supported by the evidence summarized here. The work may be of interest to computational chemists and structural biologists, but the case is not fully established from the supplied material.
+- **Who would be interested in the results, and why** Computational biophysicists and medicinal chemists working on intrinsically disordered proteins, particularly those studying amyloidogenic peptides such as IAPP and those developing peptide-based or foldamer-based binders. The mechanistic distinction between conformational selection and induction has direct implications for rational drug design targeting disordered proteins, and the sequence-versus-conformation specificity question is relevant to cross-species translational studies.
+- **Major strengths** The study addresses a fundamental and unresolved mechanistic question in disordered protein ligand binding. The use of a two-state conformational model with umbrella sampling is a tractable and physically motivated approach. The comparison of two distinct classes of binders (foldamers versus beta-breaking peptides) provides a useful internal contrast. The inclusion of a sequence variant (rat IAPP) adds a dimension of biological relevance.
+- **Major Concerns** 
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "our two-state model of IAPP faithfully predicts the experimentally observed selectivity of two classes of IAPP binders."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract provides no quantitative details on how the two-state model was parameterized, how the umbrella sampling was performed, what free energy differences were computed, or how the predicted selectivities were compared to experimental data. Without these details, the claim of faithful prediction cannot be assessed. The term "faithfully" implies a level of agreement that is not documented.
+  - **Why it matters** The central conclusion of the paper rests on the accuracy of the computational predictions relative to experiment. If the comparison is qualitative or based on limited data, the claim may be overstated. The reader cannot judge whether the model is genuinely predictive or merely consistent with a small set of observations.
+  - **Resolution test** Provide quantitative binding free energies for each binder against each conformation, the corresponding experimental selectivity values, and a statistical or error analysis demonstrating the agreement. Specify the number of independent simulations, convergence criteria, and uncertainty estimates.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the binding preferences of foldamers designed for human IAPP were not fully accounted for by conformational selection, unlike those of beta-breaking peptides."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** The abstract does not explain what "not fully accounted for" means quantitatively. It is unclear whether the discrepancy is small, large, or within error. The mechanistic interpretation that foldamers may act partly via conformational induction is plausible but not substantiated by any numbers or statistical measures.
+  - **Why it matters** This is a key mechanistic distinction that differentiates the two binder classes. Without a clear quantitative threshold for what constitutes "fully accounted for," the claim is unfalsifiable from the provided information.
+  - **Resolution test** Report the magnitude of the discrepancy between predicted and observed selectivity for each binder class, with confidence intervals. Define a priori criteria for what would constitute full versus partial agreement with conformational selection.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors conclude that "conformational selection sometimes overrides sequence-level specificity."
+  - **Evidence pointer** Abstract; location not provided
+  - **Concern** This is a broad and potentially impactful conclusion, but the abstract provides only a single example (foldamers binding to rat versus human IAPP) to support it. The generality of the claim is unclear, and the abstract does not specify how many sequences or binders were tested.
+  - **Why it matters** If the claim is intended to be general, it requires broader evidence. If it is specific to this system, the wording should be tempered. Overgeneralization could mislead readers working on other disordered proteins.
+  - **Resolution test** Clarify the scope of the claim. If general, provide evidence from multiple systems or sequences. If system-specific, revise the wording to reflect the limited scope.
+- **Minor Comments** 
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The term "foldamers" is used without definition. Nonspecialist readers may not be familiar with this class of molecules.
+  - **Required correction** Add a brief parenthetical definition, for example "foldamers (synthetic oligomers with defined secondary structure)."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not state the biological or therapeutic significance of the findings beyond the general context of Type II Diabetes. The phrase "to inform therapeutic intervention" in the title is not elaborated in the abstract.
+  - **Required correction** Add one sentence connecting the mechanistic findings to potential therapeutic strategies, such as design principles for IAPP aggregation inhibitors.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Abstract text
+  - **Evidence pointer** Abstract; location not provided
+  - **Issue** The abstract does not specify the force field or simulation time scales used. These details are critical for reproducibility in molecular dynamics studies.
+  - **Required correction** Include the force field and total simulation time per system in the abstract or indicate that these are provided in the main text.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of predictive accuracy and mechanistic distinction cannot be evaluated without quantitative data. The absence of any numerical results in the abstract means the case is not established from the supplied material.
+- **Assessment against Nature-style criteria** 
+  - Originality: The question of conformational selection versus induction for disordered protein binders is not entirely new, but the specific application to IAPP with two distinct fixed conformations and two binder classes is a creative and useful approach. The originality is moderate.
+  - Scientific importance: The problem of drugging disordered proteins is of high importance, and a mechanistic understanding of how ligands engage these targets could have broad implications. However, the abstract does not demonstrate that the findings extend beyond this specific system.
+  - Interdisciplinary readership: The work bridges computational chemistry, biophysics, and medicinal chemistry. The abstract is accessible to these communities but may be less so to a broader biological audience.
+  - Technical soundness: Cannot be assessed from the abstract. The lack of methodological detail and quantitative results is a significant limitation.
+  - Readability for nonspecialists: The abstract is generally clear but uses specialized terms without definition. The logic is understandable, but the significance is not fully articulated.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and the work may be technically sound, but the abstract alone does not provide sufficient quantitative support for the main claims. I would be supportive if the full manuscript provides the missing simulation details, quantitative comparisons to experiment, and appropriate statistical analysis.
+
+## Risk / unsupported claims
+- The claim that the two-state model "faithfully predicts" experimental selectivity is unsupported without quantitative data.
+- The claim that foldamer binding is "not fully accounted for" by conformational selection is unsupported without a defined threshold or numerical discrepancy.
+- The claim that "conformational selection sometimes overrides sequence-level specificity" is a generalization that is not supported by the single example described.
+- The statement that fixed conformations "can provide a tractable target for developing disordered protein binders" is a reasonable inference but is presented as a conclusion without direct evidence of therapeutic utility.

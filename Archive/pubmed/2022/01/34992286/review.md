@@ -1,0 +1,82 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, supplementary material references, data availability statement)
+- **Assessment boundary** Scientific content, methodological soundness, logical coherence, and support of claims based solely on the provided manuscript text. No external data, figures, or supplementary files were available for inspection beyond what is described in the text.
+- **Shared manuscript claim summary** The authors propose that the intrinsically disordered protein prothymosin α (ProTα) displaces linker histone H1 from nucleosomes via a competitive substitution mechanism, enabled by the dynamic disorder of H1's tails when bound. They integrate single-molecule FRET experiments and coarse-grained simulations to support a model where ProTα invades the H1-nucleosome complex, reduces binding free energy, and accelerates H1 dissociation.
+- **Visible evidence base** Text descriptions of single-molecule FRET experiments (free diffusion and immobilized), kinetic analyses, nsFCS dynamics measurements, coarse-grained simulations, and free-energy calculations. Specific numerical values are cited for KD, salt dependence, and binding free energies.
+- **Missing materials affecting confidence** Figures, tables, supplementary information, and source data referenced in the text were not provided. Simulation parameters, detailed kinetic fitting procedures, and raw experimental traces are not accessible. This limits independent verification of quantitative claims.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and mechanistically novel hypothesis for how linker histone H1 can be rapidly displaced from nucleosomes despite ultra-high binding affinity, via a competitive substitution mechanism involving the disordered chaperone ProTα. The integration of single-molecule experiments with coarse-grained simulations is appropriate and the authors are careful to note limitations. However, the absence of key quantitative details and the reliance on extrapolation for physiological conditions leave some claims under-supported. The work is likely to be of significant interest to the chromatin and IDP communities, but the case would be strengthened by additional experimental validation and clearer presentation of simulation and kinetic analysis details.
+- **Who would be interested in the results, and why** Chromatin biologists studying histone dynamics and regulation; biophysicists and physical chemists interested in IDP interactions and polyelectrolyte behavior; researchers investigating the role of disordered proteins in nuclear processes such as transcription and phase separation. The proposed mechanism has broad implications for understanding how high-affinity complexes can be dynamically regulated in cells.
+- **Major strengths** 1) The identification of a specific, testable mechanism (competitive substitution) for H1 displacement is novel and addresses a long-standing paradox. 2) The combination of multiple experimental approaches (equilibrium and kinetic FRET, nsFCS) with simulations provides a multi-faceted view. 3) The authors are transparent about extrapolations and limitations, such as the inability to measure KD at physiological ionic strength directly. 4) The potential biological relevance is discussed with appropriate caution, citing in vivo evidence for ProTα's role.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence support for central claim  
+  - **Claim pointer** The authors claim that ProTα displaces H1 from the nucleosome via a competitive substitution mechanism, where ProTα invades the H1-nucleosome complex and accelerates H1 dissociation.  
+  - **Evidence pointer** Results section "ProTα efficiently displaces H1 from the nucleosome", Figures 3 and 5 (described in text)  
+  - **Concern** The central mechanistic claim relies on the interpretation of kinetic rate changes and simulation free-energy differences. While the increase in observed transition rate with ProTα concentration is consistent with the proposed mechanism, the text does not provide a quantitative kinetic model that explicitly tests alternative mechanisms (e.g., passive scavenging of free H1, allosteric effects on the nucleosome). The simulations show a reduction in binding free energy from −38 to −28 kBT, but the text does not explain how this translates quantitatively to the observed rate enhancement, nor does it rule out that ProTα acts by stabilizing a partially dissociated state rather than actively invading.  
+  - **Why it matters** The novelty of the paper hinges on the specific mechanism of competitive substitution. If the rate enhancement could be explained by simpler mechanisms, the conceptual advance would be diminished. A quantitative kinetic model that distinguishes between mechanisms is essential to support the claim.  
+  - **Resolution test** Provide a kinetic model that fits the observed ProTα-concentration-dependent rates and explicitly compares competitive substitution against alternative models (e.g., ProTα binding only to free H1). Show that the model with invasion of the ternary complex is statistically preferred. Additionally, demonstrate that the simulated free-energy change quantitatively predicts the observed rate enhancement using an appropriate rate theory (e.g., Kramers' theory).  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Extrapolation to physiological conditions  
+  - **Claim pointer** The authors state that at physiological ionic strength, H1 dissociation is too slow for regulation, and that ProTα accelerates dissociation by orders of magnitude, implying relevance in vivo.  
+  - **Evidence pointer** Results sections "Association kinetics of H1 on immobilized nucleosomes" and "ProTα efficiently displaces H1 from the nucleosome", Figure S3 (described in text)  
+  - **Concern** The KD and kinetic measurements were performed at salt concentrations of 220–410 mM, with extrapolation to lower, physiological ionic strength. The ProTα-induced rate enhancement is demonstrated at 340 mM salt. The text claims the effect "exceeds two orders of magnitude at near-physiological salt concentrations" but does not provide the actual data or the extrapolation method. The validity of this extrapolation is unclear, especially given the strong salt dependence of the interaction.  
+  - **Why it matters** The biological significance of the proposed mechanism depends on its efficacy at physiological ionic strength. If the effect diminishes at lower salt, the in vivo relevance would be questionable. The current evidence does not convincingly establish the magnitude of the effect under physiological conditions.  
+  - **Resolution test** Provide the actual data for the ProTα-dependent rate enhancement at lower salt concentrations (e.g., 165 mM or below), or clearly state the limitations of the extrapolation and provide a quantitative estimate of the uncertainty. If direct measurement is not feasible, use simulations to predict the effect at physiological ionic strength and validate against any available in vivo data.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Simulation model validation  
+  - **Claim pointer** The authors claim that their coarse-grained simulation model "captures the essential conformational and dynamic properties of the ensemble" and shows good agreement with 57 FRET distances.  
+  - **Evidence pointer** Results section "H1 is highly disordered and dynamic on the nucleosome", Figures 4c,d and S7 (described in text)  
+  - **Concern** The simulation model is adjusted via a single parameter to match FRET data, and the concordance correlation coefficient of 0.96 is cited. However, the text does not describe the sensitivity of the results to this parameter, the range of parameter values tested, or whether the model was validated against independent data (e.g., known structural features of the H1-nucleosome complex). The potential for overfitting is not addressed.  
+  - **Why it matters** The free-energy calculations that support the mechanistic claim depend on the accuracy of the simulation model. If the model is not robustly validated, the quantitative conclusions (e.g., −38 to −28 kBT) may be unreliable.  
+  - **Resolution test** Provide a sensitivity analysis showing how the predicted FRET efficiencies and free-energy differences vary with the interaction parameter. Validate the model against independent experimental data, such as known compaction of linker DNA or H1 tail dynamics from other techniques. Discuss the limitations of the coarse-grained approach in quantitative free-energy prediction.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity of presentation  
+  - **Affected element** Results section "ProTα efficiently displaces H1 from the nucleosome"  
+  - **Evidence pointer** Figure 3b (described in text)  
+  - **Issue** The text states that the rate increases from 0.3 s⁻¹ to 8 s⁻¹ when ProTα concentration is increased from 0 to 140 μM, but does not specify the salt concentration for these specific values, although the preceding sentence mentions 340 mM. Clarify whether these values are all at 340 mM.  
+  - **Required correction** Explicitly state the salt concentration for each reported rate value, or refer to a specific figure panel that contains this information.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness of methods  
+  - **Affected element** Results section "H1 is highly disordered and dynamic on the nucleosome"  
+  - **Evidence pointer** "Materials and Methods" (referenced but not provided)  
+  - **Issue** The text mentions "top-down" coarse-grained model and "umbrella sampling simulations" but does not provide sufficient detail in the main text to understand the simulation protocol, such as the number of simulations, convergence criteria, or error estimates.  
+  - **Required correction** Ensure the Materials and Methods section includes full details of the simulation setup, including system size, simulation length, number of umbrella sampling windows, and error analysis. If space is limited, refer to supplementary information with clear cross-referencing.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation of dynamics data  
+  - **Affected element** Results section "H1 is highly disordered and dynamic on the nucleosome"  
+  - **Evidence pointer** Figure 4a and S4 (described in text)  
+  - **Issue** The nsFCS data are interpreted as showing "pronounced long-range chain dynamics" on the 100-ns timescale, but the text does not discuss whether these dynamics are consistent with the timescales expected for the proposed invasion mechanism. The relationship between the observed fast dynamics and the much slower dissociation kinetics is not addressed.  
+  - **Required correction** Add a brief discussion connecting the observed fast dynamics to the proposed mechanism, explaining how rapid local fluctuations could facilitate ProTα invasion over longer timescales.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Biological relevance  
+  - **Affected element** Discussion section  
+  - **Evidence pointer** Discussion, first paragraph  
+  - **Issue** The discussion mentions in vivo evidence for ProTα's role, but the connection between the in vitro mechanism and in vivo function is speculative. The text could be strengthened by acknowledging alternative explanations for the in vivo observations.  
+  - **Required correction** Add a sentence acknowledging that the in vivo effects of ProTα could involve additional factors or mechanisms beyond direct competitive substitution.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative kinetic model distinguishing mechanisms), R1-M2 (data at physiological ionic strength), R1-M3 (simulation model validation and sensitivity analysis).
+- **Assessment against Nature-style criteria**  
+  - **Originality** High. The concept of competitive substitution via disordered protein invasion is a novel mechanistic proposal that has not been previously articulated for linker histone dynamics.  
+  - **Scientific importance** High. The work addresses a fundamental question in chromatin biology regarding how high-affinity H1-nucleosome interactions can be dynamically regulated, with implications for transcriptional control and chromatin structure.  
+  - **Interdisciplinary readership** Moderate to high. The work bridges biophysics, polymer physics, and chromatin biology, and should appeal to researchers in all three fields. However, the technical complexity may limit accessibility to a broader biological audience.  
+  - **Technical soundness** Generally sound, but with gaps. The experimental approaches are appropriate and well-controlled, but the quantitative support for the central mechanism is incomplete, and the simulation model requires further validation.  
+  - **Readability for nonspecialists** The abstract and introduction are clear and accessible. The results section becomes more technical, and the discussion does a good job of placing the work in a broader context. Some terms (e.g., "polyelectrolyte competition") may be unfamiliar to biologists, but they are adequately explained.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is novel and important, and the experimental data are suggestive. However, the central mechanistic claim requires a more rigorous quantitative test, and the physiological relevance needs to be established with data at lower ionic strength. If these concerns are addressed, the manuscript would be a strong contribution.
+
+## Risk / unsupported claims
+- The claim that ProTα accelerates H1 dissociation by "orders of magnitude" at near-physiological salt concentrations is not directly supported by data shown in the text; the extrapolation method is not described.
+- The quantitative relationship between the simulated binding free-energy change (−38 to −28 kBT) and the experimentally observed rate enhancement is not established.
+- The statement that the mechanism is "likely to be widespread in cellular regulation" is speculative and goes beyond the direct evidence presented.
+- The claim that the coarse-grained model "captures the essential conformational and dynamic properties" is based on agreement with FRET data, but the model's predictive power for free-energy differences is not independently validated.

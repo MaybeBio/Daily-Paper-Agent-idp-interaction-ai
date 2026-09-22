@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36227470",
+  "title": "Multiscale Modeling of Protein-RNA Condensation in and Out of Equilibrium.",
+  "authors": "Laghmach, Rabia; Malhotra, Isha; Potoyan, Davit A",
+  "journal": "Methods in molecular biology (Clifton, N.J.)",
+  "published_date": "2022-10-14",
+  "window": {
+    "start": "2022-10-10",
+    "end": "2022-10-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述系统总结了多尺度（原子/粗粒化/场论）模拟方法在蛋白-RNA凝聚体相分离机制建模中的应用，聚焦无序蛋白-RNA互作与相分离的平衡及非平衡机制，虽为综述但方法覆盖全面且与IDR-PPI机制建模高度相关。",
+  "abstract": "A vast number of intracellular membraneless bodies also known as biomolecular condensates form through a liquid-liquid phase separation (LLPS) of biomolecules. To date, phase separation has been identified as the main driving force for a membraneless organelles such as nucleoli, Cajal bodies, stress granules, and chromatin compartments. Recently, the protein-RNA condensation is receiving increased attention, because it is closely related to the biological function of cells such as transcription, translation, and RNA metabolism. Despite the multidisciplinary efforts put forth to study the biophysical properties of protein-RNA condensates, there are many fundamental unanswered questions regarding the mechanism of formation and regulation of protein-RNA condensates in eukaryotic cells. Major challenges in studying protein-RNA condensation stem from (i) the molecular heterogeneity and conformational flexibility of RNA and protein chains and (ii) the nonequilibrium nature of transcription and cellular environment. Computer simulations, bioinformatics, and mathematical models are uniquely positioned for shedding light on the microscopic nature of protein-RNA phase separation. To this end, there is an urgent need for innovative models with the right spatiotemporal resolution for confronting the experimental observables in a comprehensive and physics-based manner. In this chapter, we will summarize the currently emerging research efforts, which employ atomistic and coarse-grained molecular models and field theoretical models to understand equilibrium and nonequilibrium aspects of protein-RNA condensation.",
+  "abstract_zh": "大量细胞内无膜小体，亦称为生物分子凝聚体，通过生物分子的液-液相分离（liquid-liquid phase separation, LLPS）形成。迄今为止，相分离已被确定为核仁、Cajal小体、应激颗粒和染色质区室等无膜细胞器的主要驱动力。近年来，蛋白质-RNA凝聚因其与细胞生物学功能（如转录、翻译和RNA代谢）密切相关而受到越来越多的关注。尽管多学科努力致力于研究蛋白质-RNA凝聚体的生物物理特性，但在真核细胞中蛋白质-RNA凝聚体的形成和调控机制方面，仍有许多基本问题未得到解答。研究蛋白质-RNA凝聚的主要挑战源于（i）RNA和蛋白质链的分子异质性和构象灵活性，以及（ii）转录和细胞环境的非平衡性质。计算机模拟、生物信息学和数学模型在揭示蛋白质-RNA相分离的微观本质方面具有独特优势。为此，迫切需要具有适当时空分辨率的创新模型，以全面且基于物理学的方式对实验观测结果进行解释。在本章中，我们将总结当前新兴的研究工作，这些工作采用原子级和粗粒化分子模型以及场论模型来理解蛋白质-RNA凝聚的平衡和非平衡方面。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36227470/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36227470/",
+  "paper_page_path": "papers/pubmed/36227470/index.html"
+}

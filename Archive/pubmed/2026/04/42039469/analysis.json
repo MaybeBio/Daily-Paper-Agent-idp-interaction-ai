@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42039469",
+  "title": "FlyPredictome: A structural atlas of predicted protein-protein interactions in Drosophila.",
+  "authors": "Kim, Ah-Ram; Comjean, Aram; Veal, Austin; Rodiger, Jonathan; Han, Myeonghoon; Hu, Yanhui; Perrimon, Norbert",
+  "journal": "bioRxiv : the preprint server for biology",
+  "published_date": "2026-04-27",
+  "window": {
+    "start": "2026-04-27",
+    "end": "2026-05-03"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用AlphaFold-Multimer构建果蝇结构互作组，预测PPI界面并验证突变富集，虽非以IDP为对象，但涉及柔性/无序蛋白的置信度评估，对无序蛋白互作机制建模有方法迁移价值。",
+  "abstract": "Protein-protein interactions (PPIs) are fundamental to cellular function. Yet most Drosophila PPIs remain structurally uncharacterized despite the wealth of genetic and biochemical data available for this organism. Here we present FlyPredictome, a structural interactome based on 1.5 million pairwise AlphaFold-Multimer predictions. Using a local confidence metric that performs robustly for interactions involving flexible and disordered proteins, we systematically assess experimentally reported Drosophila PPIs and predict direct binding interfaces at residue-level resolution. Testing their functional relevance, we find that phenotype-associated missense mutations are enriched at predicted interaction interfaces. Building on these validated predictions, we construct an evidence-supported PPI network, revealing modular organization from signaling pathways to individual protein complexes. FlyPredictome is available as an open database, providing a structural foundation for interaction discovery in Drosophila.",
+  "abstract_zh": "蛋白质-蛋白质相互作用（PPIs）是细胞功能的基础。然而，尽管果蝇拥有丰富的遗传和生化数据，其大多数PPIs在结构上仍未得到表征。在此，我们提出FlyPredictome，一个基于150万对AlphaFold-Multimer预测的结构相互作用组。利用一种对涉及柔性及无序蛋白的相互作用表现稳健的局部置信度指标，我们系统评估了实验报道的果蝇PPIs，并在残基水平分辨率下预测直接结合界面。通过测试其功能相关性，我们发现与表型相关的错义突变富集于预测的相互作用界面上。基于这些验证过的预测，我们构建了一个有证据支持的PPI网络，揭示了从信号通路到单个蛋白质复合物的模块化组织。FlyPredictome作为一个开放数据库提供，为果蝇中的相互作用发现提供了结构基础。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42039469/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42039469/",
+  "paper_page_path": "papers/pubmed/42039469/index.html"
+}

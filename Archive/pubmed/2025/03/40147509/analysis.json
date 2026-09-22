@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40147509",
+  "title": "Identification of host specificity determinants in brome mosaic virus for rice infection.",
+  "authors": "Zhang, Yifan; Kaido, Masanori; Mine, Akira; Takano, Yoshitaka; Mise, Kazuyuki",
+  "journal": "Virus research",
+  "published_date": "2025-03-28",
+  "window": {
+    "start": "2025-03-24",
+    "end": "2025-03-30"
+  },
+  "score": 6,
+  "one_liner_zh": "该研究鉴定雀麦花叶病毒2a蛋白C端无序区域中决定水稻感染特异性的关键氨基酸，并通过酵母双杂交揭示其与宿主蛋白互作，涉及IDR介导的PPI机制，但方法以实验为主，AI/物理模拟贡献有限。",
+  "abstract": "Brome mosaic virus (BMV) is a tripartite positive-stranded RNA plant virus. The genomic RNA2 encodes the 2a protein, which has conserved RNA-dependent RNA polymerase motifs and is required for viral RNA replication. In this study, we have used two BMV strains, F and KU5, and identified two key amino acid residues, 776R and 784T, in the C-terminal non-conserved region of the 2a protein that are critical for systemic infection of BMV-F in rice. While KU5 strain was not able to systemically infect rice, the KU5 mutant strain with two codon changes for 776R and 784T in the 2a gene gained the ability to establish systemic infection in rice, which affects long-distance movement, but not replication or cell-to-cell movement. Through infection assays of KU5 synonymous mutant strains, we demonstrated that amino acids, rather than RNA sequences or secondary structures, are responsible for viral infectivity in rice. Computer predictions and yeast two-hybrid screening revealed that the C-terminal region of 2a functions as an intrinsically disordered region, capable of interacting with host proteins. These results provide molecular insights into the host specificity of BMV and advance our understanding of RNA virus evolution and host-pathogen interactions.",
+  "abstract_zh": "雀麦花叶病毒（Brome mosaic virus, BMV）是一种三分体正链RNA植物病毒。其基因组RNA2编码2a蛋白，该蛋白含有保守的RNA依赖性RNA聚合酶基序，是病毒RNA复制所必需的。在本研究中，我们使用了两个BMV株系F和KU5，并鉴定了2a蛋白C端非保守区域中的两个关键氨基酸残基776R和784T，它们对BMV-F在水稻中的系统性侵染至关重要。尽管KU5株系无法系统性侵染水稻，但通过将2a基因中的两个密码子改为编码776R和784T的KU5突变株系，获得了在水稻中建立系统性侵染的能力，这影响了长距离移动，但不影响复制或细胞间移动。通过对KU5同义突变株系的侵染实验，我们证明了是氨基酸而非RNA序列或二级结构决定了病毒在水稻中的侵染性。计算机预测和酵母双杂交筛选揭示，2a的C端区域作为内在无序区域发挥作用，能够与宿主蛋白相互作用。这些结果为BMV的宿主特异性提供了分子层面的见解，并增进了我们对RNA病毒进化及宿主-病原体相互作用的理解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40147509/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40147509/",
+  "paper_page_path": "papers/pubmed/40147509/index.html"
+}

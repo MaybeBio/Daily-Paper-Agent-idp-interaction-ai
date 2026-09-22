@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.07.06.499043",
+  "title": "An interpretable machine learning algorithm to predict disordered protein phase separation based on biophysical interactions",
+  "authors": "Hao Cai; Robert M. Vernon; Julie D. Forman-Kay",
+  "journal": "bioRxiv",
+  "published_date": "2022-07-06",
+  "window": {
+    "start": "2022-07-04",
+    "end": "2022-07-10"
+  },
+  "score": 8,
+  "one_liner_zh": "该文提出可解释的机器学习预测器LLPhyScore，基于多种生物物理相互作用特征预测IDR驱动的相分离，虽未直接建模PPI，但聚焦无序蛋白相分离机制且方法可迁移至互作预测。",
+  "abstract": "Protein phase separation is increasingly understood to be an important mechanism of biological organization and biomaterial formation. Intrinsically disordered protein regions (IDRs) are often significant drivers of protein phase separation. A number of protein phase separation prediction algorithms are available, with many specific for particular classes of proteins and others providing results that are not amenable to interpretation of contributing biophysical interactions. Here we describe LLPhyScore, a new predictor of IDR-driven phase separation, based on a broad set of physical interactions or features. LLPhyScore uses sequence-based statistics from the RCSB PDB database of folded structures for these interactions, and is trained on a manually curated set of phase separation driver proteins with different negative training sets including the PDB and human proteome. Competitive training for a variety of physical chemical interactions shows the greatest importance of solvent contacts, disorder, hydrogen bonds, pi-pi contacts, and kinked-beta structure, with electrostatics, cation-pi, and absence of helical secondary structure also contributing. LLPhyScore has strong phase separation prediction recall statistics and enables a quantitative breakdown of the contribution from each physical feature to a sequence’s phase separation propensity. The tool should be a valuable resource for guiding experiment and providing hypotheses for protein function in normal and pathological states, as well as for understanding how specificity emerges in defining individual biomolecular condensates. Graphical Abstract",
+  "abstract_zh": "蛋白质相分离（phase separation）日益被认为是生物组织和生物材料形成的重要机制。 intrinsically disordered protein regions (IDRs) 通常是蛋白质相分离的重要驱动因素。目前已有多种蛋白质相分离预测算法，其中许多针对特定类别的蛋白质，而其他算法提供的结果则难以解释所涉及的生物物理相互作用。在此，我们描述了LLPhyScore，一种基于广泛物理相互作用或特征的新型IDR驱动相分离预测器。LLPhyScore利用来自RCSB PDB折叠结构数据库的基于序列的统计数据进行这些相互作用分析，并在手动整理的相分离驱动蛋白数据集上进行训练，同时使用包括PDB和人类蛋白质组在内的不同负训练集。针对多种物理化学相互作用的竞争性训练显示，溶剂接触、无序性、氢键、π-π接触和扭结β结构最为重要，静电作用、阳离子-π相互作用及缺乏螺旋二级结构也有贡献。LLPhyScore具有强大的相分离预测召回率统计，并能定量分解每个物理特征对序列相分离倾向的贡献。该工具应成为指导实验、为正常及病理状态下蛋白质功能提供假设，以及理解个体生物分子凝聚体中特异性如何产生的宝贵资源。图形摘要",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.07.06.499043",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.07.06.499043",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.07.06.499043/index.html"
+}

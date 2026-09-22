@@ -1,0 +1,385 @@
+{
+  "identity": {
+    "pmid": "35047078",
+    "doi": "10.3762/bjoc.18.1",
+    "title": "Peptide stapling by late-stage Suzuki-Miyaura cross-coupling."
+  },
+  "content": {
+    "abstract": "The development of peptide stapling techniques to stabilise alpha-helical secondary structure motifs of peptides led to the design of modulators of protein-protein interactions, which had been considered undruggable for a long time. We disclose a novel approach towards peptide stapling utilising macrocyclisation by late-stage Suzuki-Miyaura cross-coupling of bromotryptophan-containing peptides of the catenin-binding domain of axin. Optimisation of the linker length in order to find a compromise between both sufficient linker rigidity and flexibility resulted in a peptide with an increased alpha-helicity and enhanced binding affinity to its native binding partner beta-catenin. An increased proteolytic stability against proteinase K has been demonstrated.",
+    "keywords": [
+      "Suzuki-Miyaura cross-coupling",
+      "accelerated molecular dynamics",
+      "halotryptophan",
+      "intrinsically disordered peptides",
+      "late-stage diversification",
+      "macrocyclisation",
+      "molecular dynamics",
+      "stapled peptides"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gruss, Hendrik",
+        "Feiner, Rebecca C",
+        "Mseya, Ridhiwan",
+        "Schroder, David C",
+        "Jewginski, Michal",
+        "Muller, Kristian M",
+        "Latajka, Rafal",
+        "Marion, Antoine",
+        "Sewald, Norbert"
+      ],
+      "short_names": [
+        "Gruss H",
+        "Feiner RC",
+        "Mseya R",
+        "Schroder DC",
+        "Jewginski M",
+        "Muller KM",
+        "Latajka R",
+        "Marion A",
+        "Sewald N"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7267-9663",
+        "ORCID: 0000-0002-8784-0875",
+        "ORCID: 0000-0001-7622-6370",
+        "ORCID: 0000-0003-4931-5452",
+        "ORCID: 0000-0002-7914-0625",
+        "ORCID: 0000-0002-8266-8957",
+        "ORCID: 0000-0002-0309-2655"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Bielefeld University, Universitatsstr. 25, 33615 Bielefeld, Germany.",
+        "Department of Technology, Bielefeld University, Universitatsstr. 25, 33615 Bielefeld, Germany.",
+        "Department of Chemistry, Middle East Technical University, 06800, Ankara, Turkey.",
+        "Department of Chemistry, Bielefeld University, Universitatsstr. 25, 33615 Bielefeld, Germany.",
+        "Department of Bioorganic Chemistry, Wroclaw University of Science and Technology, Wybrzeze Wyspianskiego 27, 50-370 Wroclaw, Poland.",
+        "Department of Technology, Bielefeld University, Universitatsstr. 25, 33615 Bielefeld, Germany.",
+        "Department of Bioorganic Chemistry, Wroclaw University of Science and Technology, Wybrzeze Wyspianskiego 27, 50-370 Wroclaw, Poland.",
+        "Department of Chemistry, Middle East Technical University, 06800, Ankara, Turkey.",
+        "Department of Chemistry, Bielefeld University, Universitatsstr. 25, 33615 Bielefeld, Germany."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gruß, Hendrik",
+        "short_name": "Gruß H",
+        "identifiers": [
+          "0000-0001-7267-9663"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Bielefeld University, Universitätsstr. 25, 33615 Bielefeld, Germany."
+        ]
+      },
+      {
+        "full_name": "Feiner, Rebecca C",
+        "short_name": "Feiner RC",
+        "identifiers": [
+          "0000-0002-8784-0875"
+        ],
+        "affiliations": [
+          "Department of Technology, Bielefeld University, Universitätsstr. 25, 33615 Bielefeld, Germany."
+        ]
+      },
+      {
+        "full_name": "Mseya, Ridhiwan",
+        "short_name": "Mseya R",
+        "identifiers": [
+          "0000-0001-7622-6370"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Middle East Technical University, 06800, Ankara, Turkey."
+        ]
+      },
+      {
+        "full_name": "Schröder, David C",
+        "short_name": "Schröder DC",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Bielefeld University, Universitätsstr. 25, 33615 Bielefeld, Germany."
+        ]
+      },
+      {
+        "full_name": "Jewgiński, Michał",
+        "short_name": "Jewgiński M",
+        "identifiers": [
+          "0000-0003-4931-5452"
+        ],
+        "affiliations": [
+          "Department of Bioorganic Chemistry, Wrocław University of Science and Technology, Wybrzeze Wyspianskiego 27, 50-370 Wrocław, Poland."
+        ]
+      },
+      {
+        "full_name": "Müller, Kristian M",
+        "short_name": "Müller KM",
+        "identifiers": [
+          "0000-0002-7914-0625"
+        ],
+        "affiliations": [
+          "Department of Technology, Bielefeld University, Universitätsstr. 25, 33615 Bielefeld, Germany."
+        ]
+      },
+      {
+        "full_name": "Latajka, Rafał",
+        "short_name": "Latajka R",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Bioorganic Chemistry, Wrocław University of Science and Technology, Wybrzeze Wyspianskiego 27, 50-370 Wrocław, Poland."
+        ]
+      },
+      {
+        "full_name": "Marion, Antoine",
+        "short_name": "Marion A",
+        "identifiers": [
+          "0000-0002-8266-8957"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Middle East Technical University, 06800, Ankara, Turkey."
+        ]
+      },
+      {
+        "full_name": "Sewald, Norbert",
+        "short_name": "Sewald N",
+        "identifiers": [
+          "0000-0002-0309-2655"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Bielefeld University, Universitätsstr. 25, 33615 Bielefeld, Germany."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Beilstein journal of organic chemistry"
+    ],
+    "journal_abbrev": [
+      "Beilstein J Org Chem"
+    ],
+    "pub_date": "2022",
+    "pub_year": "2022",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2022/01/21 06:00",
+    "fetched_at": "2026-09-20 07:47:03"
+  },
+  "links": {
+    "cites": [
+      "38427104",
+      "35565962"
+    ],
+    "refs": [
+      "33496351",
+      "33450121",
+      "33356253",
+      "32639079",
+      "32297686",
+      "31944488",
+      "31757166",
+      "31544296",
+      "31478590",
+      "31448259",
+      "31306009",
+      "31125453",
+      "30990310",
+      "30815918",
+      "30589179",
+      "30575393",
+      "30399206",
+      "30339297",
+      "29969532",
+      "29711420",
+      "29652495",
+      "29528113",
+      "29380622",
+      "29081961",
+      "28824821",
+      "28810740",
+      "28794415",
+      "28777001",
+      "28464370",
+      "28451322",
+      "28206688",
+      "28186380",
+      "27900857",
+      "27618794",
+      "26574453",
+      "26511579",
+      "26189498",
+      "26146008",
+      "26096263",
+      "26037620",
+      "25994485",
+      "25394328",
+      "25199043",
+      "25061441",
+      "24601557",
+      "24516861",
+      "23721224",
+      "23096995",
+      "23071338",
+      "22998171",
+      "22682243",
+      "22196480",
+      "21691623",
+      "21637196",
+      "21277201",
+      "20712319",
+      "20136113",
+      "20013969",
+      "16439525",
+      "15900323",
+      "15898781",
+      "15740134",
+      "15268227",
+      "15116359",
+      "14600025",
+      "12781462",
+      "12730379",
+      "11927265",
+      "10760254",
+      "3149952",
+      "1390666"
+    ],
+    "similar": [
+      "35047078",
+      "29163887",
+      "33356253",
+      "32639079",
+      "38196284",
+      "26189498",
+      "32232881",
+      "29122441",
+      "35039490",
+      "30731167",
+      "33019638",
+      "37130830",
+      "33283479",
+      "38191871",
+      "31586754",
+      "31893470",
+      "31423106",
+      "22196480",
+      "33310780",
+      "31773962",
+      "35866171",
+      "24217712",
+      "25199043",
+      "28355271",
+      "12889882",
+      "25848797",
+      "28876512",
+      "32794722",
+      "35541711",
+      "30450265",
+      "39362065",
+      "24418072",
+      "32912021",
+      "29519125",
+      "30604108",
+      "27498038",
+      "29997825",
+      "25966031",
+      "29598901",
+      "22526241",
+      "20331649",
+      "27178225",
+      "31658723",
+      "32220493",
+      "29292462",
+      "31467080",
+      "12879497",
+      "25763835",
+      "31657556",
+      "25459065",
+      "25030922",
+      "34510767",
+      "29864683",
+      "22518838",
+      "28345248",
+      "34745636",
+      "27356541",
+      "32022394",
+      "31328756",
+      "29528113",
+      "22803956",
+      "17350833",
+      "28303616",
+      "26683881",
+      "26600098",
+      "30627855",
+      "34022444",
+      "25758597",
+      "18272373",
+      "34069753",
+      "34785458",
+      "22804729",
+      "26564317",
+      "34311259",
+      "28921993",
+      "24974285",
+      "31728171",
+      "30344770",
+      "11597423",
+      "19928763",
+      "34795803",
+      "24533440",
+      "27900857",
+      "33587607",
+      "27647368",
+      "34458841",
+      "32667195",
+      "19852502",
+      "39167026",
+      "38075664",
+      "37604094",
+      "34938942",
+      "38575678",
+      "32914455",
+      "38362412"
+    ],
+    "review": [
+      "35047078",
+      "38191871",
+      "25199043",
+      "32794722",
+      "39362065",
+      "27178225",
+      "31658723",
+      "27356541",
+      "30344770",
+      "38575678",
+      "32914455"
+    ],
+    "pmc": [
+      "8744458"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/35047078/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/35047078",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

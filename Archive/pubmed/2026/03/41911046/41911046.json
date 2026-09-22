@@ -1,0 +1,298 @@
+{
+  "identity": {
+    "pmid": "41911046",
+    "doi": "10.1021/acs.jpcb.6c00591",
+    "title": "Physicochemical Principles Governing the Intrinsically Disordered Salivary Peptide Histatin 5: Ensemble Structure, Electrostatics, and Environmental Responsiveness."
+  },
+  "content": {
+    "abstract": "Histatin 5 (Hst5) is a histidine-rich intrinsically disordered protein (IDP) whose biological function arises from a highly heterogeneous conformational ensemble and environmental sensitivity. Unlike structured antimicrobial peptides that rely on persistent secondary motifs, Hst5 remains disordered across a wide range of conditions, enabling continuous adaptation to changes in pH, ionic strength, metal-ion concentration, macromolecular crowding, and interfaces such as membranes and mineral surfaces. Recent advances in small-angle X-ray scattering (SAXS), neutron-based methods, and surface-sensitive techniques, combined with computer simulations, have allowed quantitative characterization of Hst5's ensemble structure, thermodynamics, and interactions. This work synthesizes current understanding of how intrinsic disorder, charge regulation, histidine chemistry, and multiscale interactions govern Hst5 behavior. Beyond its biological relevance, Hst5 has emerged as a benchmark system for elucidating general physicochemical principles of IDPs and for testing integrative and machine-learning approaches that map sequence features to ensemble architecture.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Histatins/chemistry",
+      "Intrinsically Disordered Proteins",
+      "Amino Acid Sequence",
+      "Proline/chemistry",
+      "Static Electricity",
+      "Cations",
+      "Electrolytes",
+      "Membrane Lipids/chemistry",
+      "Models, Chemical",
+      "Humans",
+      "*Salivary Proteins and Peptides/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Svensson, Oskar",
+        "Lenton, Samuel",
+        "Skepo, Marie"
+      ],
+      "short_names": [
+        "Svensson O",
+        "Lenton S",
+        "Skepo M"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-0961-0078",
+        "ORCID: 0000-0002-8639-9993"
+      ],
+      "affiliations": [
+        "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden.",
+        "NanoLund, Lund University, Box 118, SE-221 00 Lund, Sweden.",
+        "Department of Pharmacy, Faculty of Health and Medical Sciences, University of Copenhagen, 2100 Copenhagen, Denmark.",
+        "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden.",
+        "NanoLund, Lund University, Box 118, SE-221 00 Lund, Sweden."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Svensson, Oskar",
+        "short_name": "Svensson O",
+        "identifiers": [
+          "0000-0003-0961-0078"
+        ],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden.",
+          "NanoLund, Lund University, Box 118, SE-221 00 Lund, Sweden."
+        ]
+      },
+      {
+        "full_name": "Lenton, Samuel",
+        "short_name": "Lenton S",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacy, Faculty of Health and Medical Sciences, University of Copenhagen, 2100 Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Skepö, Marie",
+        "short_name": "Skepö M",
+        "identifiers": [
+          "0000-0002-8639-9993"
+        ],
+        "affiliations": [
+          "Division of Computational Chemistry, Department of Chemistry, Science for Life Laboratory, Lund University, P.O. Box 124, SE-221 00 Lund, Sweden.",
+          "NanoLund, Lund University, Box 118, SE-221 00 Lund, Sweden."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2026 Apr 9",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Review"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/03/30 18:31",
+    "fetched_at": "2026-09-18 02:10:12"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "41327541",
+      "40651157",
+      "40646173",
+      "40600658",
+      "40128232",
+      "39740355",
+      "39412378",
+      "39103332",
+      "39056166",
+      "38993084",
+      "37957331",
+      "37645312",
+      "37433228",
+      "37339604",
+      "37227075",
+      "36934808",
+      "36518077",
+      "36265487",
+      "35377637",
+      "35129612",
+      "35044776",
+      "34716273",
+      "34627764",
+      "34524800",
+      "34303077",
+      "33810353",
+      "33730849",
+      "33574233",
+      "33337879",
+      "32212610",
+      "32036660",
+      "31714774",
+      "31052346",
+      "30865820",
+      "29573987",
+      "29548755",
+      "28586222",
+      "28259050",
+      "28160710",
+      "27243806",
+      "26914439",
+      "26898943",
+      "26809106",
+      "26575776",
+      "25703165",
+      "24706910",
+      "24606139",
+      "24123297",
+      "14691223",
+      "11226423",
+      "3286634"
+    ],
+    "similar": [
+      "41911046",
+      "24123297",
+      "39056166",
+      "31052346",
+      "26914439",
+      "23912807",
+      "42475469",
+      "38993084",
+      "33337879",
+      "30840442",
+      "40651157",
+      "40600658",
+      "30865820",
+      "33725442",
+      "27844185",
+      "35044776",
+      "27936491",
+      "33215185",
+      "42332380",
+      "11006580",
+      "31714774",
+      "28734076",
+      "11342034",
+      "41053403",
+      "41082321",
+      "29573987",
+      "33623120",
+      "32403216",
+      "41515407",
+      "28111343",
+      "26387105",
+      "41298246",
+      "36641212",
+      "26809106",
+      "26320411",
+      "39340152",
+      "30979035",
+      "25207671",
+      "29218556",
+      "31424463",
+      "30529747",
+      "40095314",
+      "31548393",
+      "33530506",
+      "41832603",
+      "36826226",
+      "27203736",
+      "39248414",
+      "36674958",
+      "30554840",
+      "24211251",
+      "25244701",
+      "41085093",
+      "32357776",
+      "32696361",
+      "30125451",
+      "29548755",
+      "37459524",
+      "20404210",
+      "33574233",
+      "32316569",
+      "42437078",
+      "30193467",
+      "28076807",
+      "9433185",
+      "10209284",
+      "30025858",
+      "30913885",
+      "32696362",
+      "32696367",
+      "1855975",
+      "37433228",
+      "32859072",
+      "39642200",
+      "35119946",
+      "10423240",
+      "26574339",
+      "42338018",
+      "25287424",
+      "32212610",
+      "32345021",
+      "21947276",
+      "31475155",
+      "38079339",
+      "14733612",
+      "38252962",
+      "31402649",
+      "23821606",
+      "42309023",
+      "32696370",
+      "25631161",
+      "31809054",
+      "36542701",
+      "41933762",
+      "28092832",
+      "26575776",
+      "18831774",
+      "12711380",
+      "30968464",
+      "24559993"
+    ],
+    "review": [
+      "41911046",
+      "30840442",
+      "32403216",
+      "26387105",
+      "26320411",
+      "30979035",
+      "29218556",
+      "33530506",
+      "42437078",
+      "35119946",
+      "25287424",
+      "21947276"
+    ],
+    "pmc": [
+      "13071868"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41911046/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.6c00591",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

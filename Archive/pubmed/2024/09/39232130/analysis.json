@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39232130",
+  "title": "Disordered regions in the IRE1alpha ER lumenal domain mediate its stress-induced clustering.",
+  "authors": "Kettel, Paulina; Marosits, Laura; Spinetti, Elena; Rechberger, Michael; Giannini, Caterina; Radler, Philipp; Niedermoser, Isabell; Fischer, Irmgard; Versteeg, Gijs A; Loose, Martin; Covino, Roberto; Karagoz, G Elif",
+  "journal": "The EMBO journal",
+  "published_date": "2024-09-05",
+  "window": {
+    "start": "2024-09-02",
+    "end": "2024-09-08"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过分子动力学模拟和突变实验揭示IRE1alpha腔内结构域中的无序区域通过弱多价相互作用驱动其形成生物分子凝聚体/簇，从而调控膜上蛋白组装与UPR信号，直接契合无序蛋白介导的PPI及相分离机制建模主题。",
+  "abstract": "Conserved signaling cascades monitor protein-folding homeostasis to ensure proper cellular function. One of the evolutionary conserved key players is IRE1, which maintains endoplasmic reticulum (ER) homeostasis through the unfolded protein response (UPR). Upon accumulation of misfolded proteins in the ER, IRE1 forms clusters on the ER membrane to initiate UPR signaling. What regulates IRE1 cluster formation is not fully understood. Here, we show that the ER lumenal domain (LD) of human IRE1alpha forms biomolecular condensates in vitro. IRE1alpha LD condensates were stabilized both by binding to unfolded polypeptides as well as by tethering to model membranes, suggesting their role in assembling IRE1alpha into signaling-competent stable clusters. Molecular dynamics simulations indicated that weak multivalent interactions drive IRE1alpha LD clustering. Mutagenesis experiments identified disordered regions in IRE1alpha LD to control its clustering in vitro and in cells. Importantly, dysregulated clustering of IRE1alpha mutants led to defects in IRE1alpha signaling. Our results revealed that disordered regions in IRE1alpha LD control its clustering and suggest their role as a common strategy in regulating protein assembly on membranes.",
+  "abstract_zh": "保守的信号级联反应监测蛋白质折叠稳态，以确保细胞功能正常。其中一个进化上保守的关键因子是IRE1，它通过未折叠蛋白反应（unfolded protein response, UPR）维持内质网（endoplasmic reticulum, ER）稳态。当错误折叠蛋白在内质网中积累时，IRE1在内质网膜上形成簇以启动UPR信号传导。调控IRE1簇形成的机制尚未完全阐明。在此，我们展示了人IRE1alpha的内质网腔结构域（lumenal domain, LD）在体外形成生物分子凝聚体。IRE1alpha LD凝聚体通过与未折叠多肽结合以及锚定到模型膜上均得到稳定，这表明它们在将IRE1alpha组装成信号能力强的稳定簇中发挥作用。分子动力学（molecular dynamics）模拟表明，弱多价相互作用驱动IRE1alpha LD聚集。突变实验鉴定出IRE1alpha LD中的无序区域控制其在体外和细胞内的聚集。重要的是，IRE1alpha突变体的失调聚集导致IRE1alpha信号传导缺陷。我们的结果揭示了IRE1alpha LD中的无序区域控制其聚集，并提示它们作为调控膜上蛋白质组装的通用策略的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39232130/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39232130/",
+  "paper_page_path": "papers/pubmed/39232130/index.html"
+}

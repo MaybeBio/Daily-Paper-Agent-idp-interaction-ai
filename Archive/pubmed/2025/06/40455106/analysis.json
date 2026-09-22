@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40455106",
+  "title": "AI-Assisted Native Proteomics: Delineating Ribosomal Protein Conformations Pre- and Post-Assembly.",
+  "authors": "Zhang, Wenjing; Sun, Chen; Xu, Zhang; Xu, Wei",
+  "journal": "Analytical chemistry",
+  "published_date": "2025-06-02",
+  "window": {
+    "start": "2025-06-02",
+    "end": "2025-06-08"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出AI辅助天然蛋白质组学方法，结合结构预测与质谱解析核糖体蛋白组装前后的构象，发现含IDR蛋白呈多构象态并影响药物结合，虽非直接PPI机制建模，但IDR构象与结合偏好研究对无序蛋白互作机制有启发。",
+  "abstract": "The simultaneous identification of proteins as well as their conformations in a biological system would greatly enhance our understanding of cellular mechanisms and disease. As an emerging technique, native proteomics analyzes proteins in their native states, facilitating the acquisition of protein stoichiometry, post-translational modifications (PTMs), and interactions with ligands. However, revealing protein conformations at the proteome scale remains a significant challenge. In this study, we propose an AI-assisted native proteomics method that integrates a protein structure prediction (PSP) module with top-down proteomics (TDP) and native mass spectrometry (nMS) to acquire both proteome identities and conformations. First, protein sequences are obtained using the TDP method, while the protein solvent-accessible surface area is measured by nMS. These data are integrated with the PSP module to acquire protein conformations under experimental conditions. This approach was applied to delineate the conformations of ribosomal proteins pre- and post-assembly. Results revealed that most ribosomal proteins with intrinsically disordered regions exhibit multiple conformational ensembles in the monomer state. Protein-drug interaction (PDI) experiments show that the preferred conformation during binding events may differ from its conformation within the complex, highlighting the importance of acquiring protein \"dark\" conformations during drug development. By enabling high-throughput proteome identification and conformational characterization, this method bridges the gap between structural biology and conventional proteomics technologies.",
+  "abstract_zh": "在生物体系中同时鉴定蛋白质及其构象，将极大地增进我们对细胞机制和疾病的理解。作为一种新兴技术，天然蛋白质组学（native proteomics）在蛋白质天然状态下进行分析，有助于获取蛋白质化学计量、翻译后修饰（PTMs）及与配体的相互作用。然而，在蛋白质组尺度上揭示蛋白质构象仍是一项重大挑战。在本研究中，我们提出了一种AI辅助的天然蛋白质组学方法，该方法将蛋白质结构预测（PSP）模块与自上而下蛋白质组学（TDP）和天然质谱（nMS）相结合，以同时获取蛋白质组身份和构象。首先，利用TDP方法获得蛋白质序列，同时通过nMS测量蛋白质溶剂可及表面积。这些数据与PSP模块整合，以获取实验条件下的蛋白质构象。该方法被应用于描绘核糖体蛋白在组装前和组装后的构象。结果表明，大多数具有内在无序区域的核糖体蛋白在单体状态下表现出多种构象集合。蛋白质-药物相互作用（PDI）实验显示，结合事件中的优选构象可能与其在复合物中的构象不同，这强调了在药物开发过程中获取蛋白质“暗”构象的重要性。通过实现高通量蛋白质组鉴定和构象表征，该方法弥合了结构生物学与传统蛋白质组学技术之间的差距。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40455106/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40455106/",
+  "paper_page_path": "papers/pubmed/40455106/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40386766",
+  "title": "Toward understanding biomolecular materials comprising intrinsically disordered proteins via simulation and experiment.",
+  "authors": "Wang, Bin; Zhang, Tianren; Shen, Sirui; Pochan, Darrin J; Saven, Jeffery G; Kiick, Kristi L",
+  "journal": "Molecular systems design & engineering",
+  "published_date": "2025-05-19",
+  "window": {
+    "start": "2025-05-19",
+    "end": "2025-05-25"
+  },
+  "score": 7,
+  "one_liner_zh": "该综述聚焦无序蛋白(IDP)的相变与组装行为，结合模拟与实验理解残基间相互作用，虽未直接研究特定PPI，但为IDP互作机制建模提供了可迁移的模拟方法框架。",
+  "abstract": "Intrinsically disordered proteins (IDPs) yield solutions with tunable phase transition behavior and have been widely applied in designing stimuli-responsive materials. Understanding interactions between amino acid residues of the IDP sequence is critical to designing new IDP-based materials with selective phase behavior, assembly, and mechanical properties. The lack of defined structure for this class of proteins complicates accurate prediction of their molecular-scale behavior. In this review, recent progress is presented in the development and application of simulation methods to describe the behavior of IDPs. Results for elastin-like polypeptides (ELPs) and resilin-like polypeptides (RLPs) are highlighted, focusing on studies that compare simulation results with experimental findings.",
+  "abstract_zh": "intrinsically disordered proteins (IDPs) 产生具有可调相变行为的溶液，并已被广泛应用于设计刺激响应材料。理解IDP序列中氨基酸残基之间的相互作用对于设计具有选择性相行为、组装和机械性能的新型IDP基材料至关重要。这类蛋白质缺乏明确结构，使得准确预测其分子尺度行为变得复杂。本综述介绍了模拟方法在描述IDP行为方面的发展和应用的近期进展。重点展示了弹性蛋白样多肽 (ELPs) 和 resilin样多肽 (RLPs) 的结果，特别关注将模拟结果与实验发现进行比较的研究。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40386766/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40386766/",
+  "paper_page_path": "papers/pubmed/40386766/index.html"
+}

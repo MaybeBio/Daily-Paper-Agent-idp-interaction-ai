@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.10.09.679381",
+  "title": "Palmitoylation of PSD95 flips the bilayer juxtaposed domain and drives cluster formation on membrane",
+  "authors": "Das P; Nair D; Srivastava A",
+  "journal": "bioRxiv",
+  "published_date": "2025-10-10",
+  "window": {
+    "start": "2025-10-06",
+    "end": "2025-10-12"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用多尺度分子动力学模拟研究棕榈酰化如何调控支架蛋白PSD95的构象、膜结合与自组装成簇，虽对象非典型IDP，但聚焦膜上蛋白互作与聚集机制建模，方法可迁移至IDR介导的PPI研究。",
+  "abstract": "Postsynaptic density protein 95 (PSD95) is a highly abundant scaffolding protein at excitatory synapses, where it organizes the molecular architecture of the postsynaptic density (PSD) by anchoring neurotransmitter receptors, ion channels, adhesion molecules, and signaling enzymes. Emerging evidence indicates that PSD95 forms transient “nanodomains” essential for the fidelity of synaptic transmission and plasticity, and disruptions in its clustering are linked to neuropsychiatric disorders. Palmitoylation, a reversible post-translational modification involving the covalent attachment of palmitate to Cysteine residues, has been implicated in the localization and clustering of the PSD95 at the plasma membrane, but its structural and mechanistic role remains unclear. Here, we use a multiscale molecular dynamics approach that combines all-atom and coarse-grained simulations to investigate how palmitoylation regulates PSD95 conformational dynamics, membrane association, and self-assembly. Our results show that palmitoylation promotes an open conformation in solution and stabilizes an extended assembly-primed state at the membrane. In the unmodified state, the PDZ1 domain remains distal while PDZ2 preferentially engages with the membrane; palmitoylation reverses this arrangement, anchoring PDZ1 to the membrane and enhancing clustering propensity. Membrane lipid composition further modulates this behavior, with negatively charged lipids influencing favorable domains orientation through electrostatic interactions. Finally, coarse-grained simulations reveal that palmitoylated PSD95 forms stable dimers on the membrane surface, whereas unmodified molecules fail to associate persistently. Together, these findings provide a mechanistic model for how palmitoylation facilitates the early stages of PSD95 clustering, offering nanoscale insights into synaptic organization that complement experimental observations. <h4>Significance Statement</h4> PSD95 is a key scaffolding protein that organizes synaptic components essential for neuronal communication. Its ability to cluster at the membrane is critical for postsynaptic architecture, yet the molecular determinants of this process remain unclear. Using multiscale molecular dynamics simulations we reveal how palmitoylation, a reversible lipid modification, acts as a molecular switch that anchors PSD95 to the membrane and reorients its domains to favor self-association. We further demonstrate that membrane lipid composition modulates these effects through electrostatic interactions. Our work offers a mechanistic model for the initial steps of PSD95 clustering, highlighting how post-translational modifications and membrane environment together regulate synaptic protein organization. These insights bridge molecular structure with synaptic function and are not easily accessible through current experimental methods. <h4>Graphical Abstract Image</h4>",
+  "abstract_zh": "突触后密度蛋白95（PSD95）是兴奋性突触中一种高度丰富的支架蛋白，它通过锚定神经递质受体、离子通道、黏附分子和信号酶，组织突触后密度（PSD）的分子架构。新出现的证据表明，PSD95形成瞬时的“纳米域”，这对突触传递和可塑性的保真度至关重要，而其聚集的破坏与神经精神疾病相关。棕榈酰化是一种可逆的翻译后修饰，涉及棕榈酸酯与半胱氨酸残基的共价连接，已被认为参与PSD95在质膜上的定位和聚集，但其结构和机制作用仍不清楚。在此，我们采用一种结合全原子和粗粒化模拟的多尺度分子动力学方法，研究棕榈酰化如何调控PSD95的构象动态、膜结合和自组装。我们的结果表明，棕榈酰化促进溶液中的开放构象，并稳定膜上延伸的组装启动状态。在未修饰状态下，PDZ1结构域保持远端位置，而PDZ2优先与膜结合；棕榈酰化逆转了这一排列，将PDZ1锚定到膜上并增强聚集倾向。膜脂质组成进一步调节这种行为，带负电的脂质通过静电相互作用影响有利的结构域取向。最后，粗粒化模拟揭示，棕榈酰化的PSD95在膜表面形成稳定的二聚体，而未修饰的分子则无法持续结合。综合这些发现，我们提出了一个机制模型，解释棕榈酰化如何促进PSD95聚集的早期阶段，为突触组织提供纳米尺度的见解，补充实验观察结果。\n\n<h4>意义声明</h4> PSD95是一种关键的支架蛋白，组织对神经元通信至关重要的突触组分。其在膜上聚集的能力对突触后结构至关重要，但这一过程的分子决定因素仍不清楚。利用多尺度分子动力学模拟，我们揭示了棕榈酰化（一种可逆的脂质修饰）如何作为分子开关，将PSD95锚定到膜上并重新定向其结构域以促进自结合。我们进一步证明，膜脂质组成通过静电相互作用调节这些效应。我们的工作为PSD95聚集的初始步骤提供了机制模型，强调翻译后修饰和膜环境如何共同调节突触蛋白组织。这些见解将分子结构与突触功能联系起来，且通过当前实验方法不易获得。\n\n<h4>图形摘要图像</h4>",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.10.09.679381",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.10.09.679381",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.10.09.679381/index.html"
+}

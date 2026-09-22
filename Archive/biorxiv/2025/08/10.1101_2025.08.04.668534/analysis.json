@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.08.04.668534",
+  "title": "DRUMBEAT: Temporally resolved interpretable machine learning model for characterizing state transitions in protein dynamics",
+  "authors": "Babgen Manookian; Elizaveta Mukhaleva; Grigoriy Gogoshin; Supriyo Bhattacharya; Nagarajan Vaidehi; Andrei S. Rodin; Sergio Branciamore",
+  "journal": "bioRxiv",
+  "published_date": "2025-08-04",
+  "window": {
+    "start": "2025-08-04",
+    "end": "2025-08-10"
+  },
+  "score": 6,
+  "one_liner_zh": "提出时间分辨可解释机器学习模型DRUMBEAT，用于解析MD轨迹中蛋白构象转变的时序事件，虽以WW域折叠为对象而非IDP/PPI，但其动态互作图建模思路对无序蛋白互作机制研究有可迁移启发。",
+  "abstract": "Conformational transitions are central to protein function, yet their mechanistic analysis remains challenging due to the multi-dimensionality and timescales underlying the molecular motions. While interpretable network models such as Bayesian networks have advanced the identification of key residue interactions in molecular dynamics (MD) data, they lack temporal resolution and cannot capture the sequence of events during transitions. Here, we introduce D ynamically R esolved U niversal M odel for B ay E si A n network T racking or DRUMBEAT, a machine learning approach that combines a universal graph topology with sliding-window rescoring to generate interpretable, time-resolved maps of cooperative events in MD trajectories. Applying DRUMBEAT to the benchmark Fip35 WW domain folding trajectories from DE Shaw Research Group, we recover both major folding pathways and critical residues previously highlighted by experiment. Importantly, DRUMBEAT provides new insight in two ways: (1) uncover unknown protein features important for transition, and (2) dissect the order and timing of conformational changes, revealing the precise sequence of residue contact closures during individual folding events. Robustness analysis demonstrates that both the universal graph and time-resolved results are highly consistent across multiple sampling replicates. These findings establish DRUMBEAT as a scalable and interpretable machine learning framework for dissecting the dynamics of protein folding and other conformational transitions, offering a generalizable tool for the mechanistic study of biomolecular dynamics.",
+  "abstract_zh": "构象转变是蛋白质功能的核心，然而由于其分子运动的多维性和时间尺度，其机制分析仍具挑战性。尽管可解释的网络模型（如贝叶斯网络）已推进了分子动力学（molecular dynamics, MD）数据中关键残基相互作用的识别，但它们缺乏时间分辨率，无法捕捉转变过程中的事件序列。在此，我们引入动态解析通用贝叶斯网络追踪模型（Dynamically Resolved Universal Model for BayEsian Network Tracking, DRUMBEAT），这是一种机器学习方法，结合通用图拓扑与滑动窗口重新评分，生成MD轨迹中协同事件的可解释、时间分辨图谱。将DRUMBEAT应用于DE Shaw Research Group的基准Fip35 WW结构域折叠轨迹，我们恢复了先前实验强调的主要折叠路径和关键残基。重要的是，DRUMBEAT以两种方式提供新见解：（1）揭示对转变重要的未知蛋白质特征，（2）解析构象变化的顺序和时序，揭示单个折叠事件中残基接触闭合的精确序列。鲁棒性分析表明，通用图和时间分辨结果在多个采样重复中高度一致。这些发现确立了DRUMBEAT作为可扩展且可解释的机器学习框架，用于解析蛋白质折叠及其他构象转变的动态，为生物分子动力学的机制研究提供了通用工具。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.08.04.668534",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.08.04.668534",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.08.04.668534/index.html"
+}

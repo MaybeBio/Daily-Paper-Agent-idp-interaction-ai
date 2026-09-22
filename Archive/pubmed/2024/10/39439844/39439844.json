@@ -1,0 +1,252 @@
+{
+  "identity": {
+    "pmid": "39439844",
+    "doi": "10.3389/frai.2024.1461137",
+    "title": "Navigating STEM careers with AI mentors: a new IDP journey."
+  },
+  "content": {
+    "abstract": "INTRODUCTION: Mentoring is crucial to the success of STEM higher education. The Individual Development Plan (IDP) is a common career development tool in STEM graduate education that facilitates structured mentor-mentee interactions and goal setting. This study examined the integration of AI mentors into the myIDP framework to provide real-time support and career insights. METHODS: Using Google Gemini as an AI mentor, this study developed and assessed AI prompts within the myIDP framework. Eighteen STEM graduate students, primarily from underrepresented groups, were trained to engage with the AI mentor. Their interactions, feedback, and comments were analyzed using sentiment and thematic analysis. RESULTS: Participants reported positive experiences with AI mentors, noting benefits, such as immediate responses, up-to-date information, access to multiple AI mentors, enhanced ownership of career development, and time savings. However, concerns about misinformation, bias, privacy, equity, and algorithmic influences have also been raised. The study identified two hybrid human-AI mentoring models-Sequential Integration and Concurrent Collaboration-that combine the unique strengths of human and AI mentors to enhance the mentoring process. DISCUSSION: This study underscores the potential of AI mentors to enhance IDP practices by providing timely feedback and career information, thereby empowering students in their STEM career development. The proposed human-AI mentoring models show promise in supporting underrepresented minorities, potentially broadening participation in STEM fields.",
+    "keywords": [
+      "STEM mentoring",
+      "career development",
+      "career planning",
+      "human-AI mentoring",
+      "individual development plan",
+      "large language model",
+      "mentorship",
+      "myIDP"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Chang, Chi-Ning",
+        "Hui, John",
+        "Justus-Smith, Cammie",
+        "Wang, Tzu-Wei"
+      ],
+      "short_names": [
+        "Chang CN",
+        "Hui J",
+        "Justus-Smith C",
+        "Wang TW"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Education, Virginia Commonwealth University, Richmond, VA, United States.",
+        "School of Education, Virginia Commonwealth University, Richmond, VA, United States.",
+        "School of Education, Virginia Commonwealth University, Richmond, VA, United States.",
+        "School of Education, Virginia Commonwealth University, Richmond, VA, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Chang, Chi-Ning",
+        "short_name": "Chang CN",
+        "identifiers": [],
+        "affiliations": [
+          "School of Education, Virginia Commonwealth University, Richmond, VA, United States."
+        ]
+      },
+      {
+        "full_name": "Hui, John",
+        "short_name": "Hui J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Education, Virginia Commonwealth University, Richmond, VA, United States."
+        ]
+      },
+      {
+        "full_name": "Justus-Smith, Cammie",
+        "short_name": "Justus-Smith C",
+        "identifiers": [],
+        "affiliations": [
+          "School of Education, Virginia Commonwealth University, Richmond, VA, United States."
+        ]
+      },
+      {
+        "full_name": "Wang, Tzu-Wei",
+        "short_name": "Wang TW",
+        "identifiers": [],
+        "affiliations": [
+          "School of Education, Virginia Commonwealth University, Richmond, VA, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Frontiers in artificial intelligence"
+    ],
+    "journal_abbrev": [
+      "Front Artif Intell"
+    ],
+    "pub_date": "2024",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/10/23 10:18",
+    "fetched_at": "2026-09-21 11:41:05"
+  },
+  "links": {
+    "cites": [
+      "40712711",
+      "39709398"
+    ],
+    "refs": [
+      "36589923",
+      "35083035",
+      "34337393",
+      "34337392",
+      "33997774",
+      "32850287",
+      "23600014",
+      "22800296"
+    ],
+    "similar": [
+      "39439844",
+      "27039092",
+      "35083035",
+      "28544766",
+      "30081899",
+      "37480411",
+      "31309744",
+      "26863468",
+      "20433727",
+      "37695662",
+      "28709464",
+      "32875579",
+      "31972672",
+      "39048986",
+      "30800890",
+      "34318506",
+      "27616578",
+      "37079705",
+      "36889896",
+      "33140271",
+      "16925622",
+      "29813008",
+      "39442364",
+      "34283791",
+      "33581895",
+      "34375642",
+      "35713493",
+      "27424003",
+      "37726955",
+      "25833825",
+      "38055855",
+      "33946228",
+      "33818917",
+      "34855824",
+      "37827028",
+      "34664346",
+      "30126568",
+      "29691796",
+      "27964812",
+      "34295135",
+      "26048460",
+      "33664009",
+      "35000537",
+      "37362050",
+      "35452264",
+      "36841663",
+      "27621025",
+      "18569651",
+      "35709418",
+      "35558549",
+      "36547016",
+      "35691892",
+      "35846432",
+      "33009269",
+      "23165266",
+      "38640406",
+      "35862583",
+      "38087923",
+      "28747354",
+      "39242999",
+      "36132540",
+      "25274417",
+      "23425983",
+      "18780679",
+      "36763282",
+      "32544185",
+      "25631971",
+      "37996820",
+      "34895663",
+      "37310981",
+      "38784110",
+      "34814780",
+      "34716779",
+      "34120869",
+      "37401222",
+      "24816424",
+      "37345850",
+      "36018133",
+      "35340444",
+      "34553195",
+      "37710951",
+      "15576528",
+      "25010230",
+      "30283847",
+      "36396486",
+      "39390484",
+      "33637478",
+      "35766623",
+      "30700392",
+      "38873396",
+      "28379081",
+      "34158048",
+      "28188283",
+      "38533725",
+      "34622852",
+      "36454628",
+      "22989620",
+      "32160079",
+      "34429277",
+      "31928037"
+    ],
+    "review": [
+      "39439844",
+      "20433727",
+      "32875579",
+      "36889896",
+      "39442364",
+      "33581895",
+      "34664346",
+      "29691796",
+      "36763282",
+      "34716779",
+      "37710951",
+      "15576528",
+      "38873396"
+    ],
+    "pmc": [
+      "11493768"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39439844/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.3389/frai.2024.1461137",
+        "provider": "Frontiers Media SA",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

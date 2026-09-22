@@ -1,0 +1,335 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.11.693633",
+  "title": "The N-terminal region of malaria vaccine candidate Plasmodium falciparum asparagine-rich merozoite antigen is immunodominant and targeted by polyreactive antibodies",
+  "doi": "10.64898/2025.12.11.693633",
+  "abstract": "<h4>ABSTRACT</h4> The development of malaria blood-stage vaccines has been hampered by sequence variation in many Plasmodium falciparum proteins involved in erythrocyte invasion. In the past few years, asparagine-rich merozoite antigen (PfARMA) has emerged as a potential vaccine candidate due to its low amino acid sequence diversity and the association between anti-PfARMA antibody levels and protection to malaria. Here, we used samples from P. falciparum -exposed individuals to study naturally acquired B cell and antibody responses to PfARMA. B cell responses to PfARMA were dominated by IgM + B cells that recognized the N-terminal intrinsically disordered region 1 (IDR1) of PfARMA. A human monoclonal antibody (hmAb) to IDR1 was non-neutralizing, while a second hmAb binding to the folded domain showed weak neutralizing activity. Both PfARMA-specific plasma IgM and IgG responses predominately targeted IDR1 and their levels increased with P. falciparum exposure. However, in contrast to previous reports, these antibody responses did not correlate with protection in age and exposure-matched children. Interestingly, approximately 30% of unexposed individuals had IgG that also targeted IDR1 and was polyreactive, binding to regions with high asparagine content. Finally, we determined that PfARMA is located in or near PfEBA-175 + micronemes. These data suggest that while IgG to the folded domain of PfARMA may inhibit parasite growth, antibody responses to PfARMA are primarily directed to IDR1 and may not directly contribute to protection against malaria.",
+  "authors": [
+    "Garza R",
+    "Marchioni JM",
+    "Honeycutt JD",
+    "Hurlburt NK",
+    "Torres C",
+    "Garcia A",
+    "Loranc E",
+    "Yemington E",
+    "Towers D",
+    "Ssewanyana I",
+    "Pancera M",
+    "Lavinder JJ",
+    "Jagannathan P",
+    "Greenhouse B",
+    "Bol S",
+    "Bunnik EM"
+  ],
+  "published_date": "2025-12-13",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693633",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.11.693633.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1231713",
+    "raw_record": {
+      "id": "PPR1231713",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1231713"
+        ]
+      },
+      "doi": "10.64898/2025.12.11.693633",
+      "title": "The N-terminal region of malaria vaccine candidate  <i>Plasmodium falciparum</i>  asparagine-rich merozoite antigen is immunodominant and targeted by polyreactive antibodies",
+      "authorString": "Garza R, Marchioni JM, Honeycutt JD, Hurlburt NK, Torres C, Garcia A, Loranc E, Yemington E, Towers D, Ssewanyana I, Pancera M, Lavinder JJ, Jagannathan P, Greenhouse B, Bol S, Bunnik EM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Garza R",
+            "lastName": "Garza",
+            "firstName": "Rolando",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Immunology & Molecular Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Marchioni JM",
+            "lastName": "Marchioni",
+            "firstName": "Jeffrey",
+            "initials": "JM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Engineering, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Honeycutt JD",
+            "lastName": "Honeycutt",
+            "firstName": "Jared",
+            "initials": "JD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hurlburt NK",
+            "lastName": "Hurlburt",
+            "firstName": "Nicholas",
+            "initials": "NK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Vaccine and Infectious Disease Division, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Torres C",
+            "lastName": "Torres",
+            "firstName": "Caroline",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Immunology & Molecular Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Garcia A",
+            "lastName": "Garcia",
+            "firstName": "Anakaren",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Immunology & Molecular Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Loranc E",
+            "lastName": "Loranc",
+            "firstName": "Eva",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Immunology & Molecular Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yemington E",
+            "lastName": "Yemington",
+            "firstName": "Emily",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Engineering, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Towers D",
+            "lastName": "Towers",
+            "firstName": "Dalton",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Engineering, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ssewanyana I",
+            "lastName": "Ssewanyana",
+            "firstName": "Isaac",
+            "initials": "I",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pancera M",
+            "lastName": "Pancera",
+            "firstName": "Marie",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Vaccine and Infectious Disease Division, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lavinder JJ",
+            "lastName": "Lavinder",
+            "firstName": "Jason",
+            "initials": "JJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Chemical Engineering, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jagannathan P",
+            "lastName": "Jagannathan",
+            "firstName": "Prasanna",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, Division of Infectious Diseases, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Greenhouse B",
+            "lastName": "Greenhouse",
+            "firstName": "Bryan",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Medicine, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bol S",
+            "lastName": "Bol",
+            "firstName": "Sebastiaan",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Immunology & Molecular Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bunnik EM",
+            "lastName": "Bunnik",
+            "firstName": "Evelien",
+            "initials": "EM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology, Immunology & Molecular Genetics, , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "<h4>ABSTRACT</h4>  The development of malaria blood-stage vaccines has been hampered by sequence variation in many  Plasmodium falciparum proteins involved in erythrocyte invasion. In the past few years, asparagine-rich merozoite antigen (PfARMA) has emerged as a potential vaccine candidate due to its low amino acid sequence diversity and the association between anti-PfARMA antibody levels and protection to malaria. Here, we used samples from  P. falciparum -exposed individuals to study naturally acquired B cell and antibody responses to PfARMA. B cell responses to PfARMA were dominated by IgM  + B cells that recognized the N-terminal intrinsically disordered region 1 (IDR1) of PfARMA. A human monoclonal antibody (hmAb) to IDR1 was non-neutralizing, while a second hmAb binding to the folded domain showed weak neutralizing activity. Both PfARMA-specific plasma IgM and IgG responses predominately targeted IDR1 and their levels increased with  P. falciparum exposure. However, in contrast to previous reports, these antibody responses did not correlate with protection in age and exposure-matched children. Interestingly, approximately 30% of unexposed individuals had IgG that also targeted IDR1 and was polyreactive, binding to regions with high asparagine content. Finally, we determined that PfARMA is located in or near PfEBA-175  + micronemes. These data suggest that while IgG to the folded domain of PfARMA may inhibit parasite growth, antibody responses to PfARMA are primarily directed to IDR1 and may not directly contribute to protection against malaria.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.11.693633"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1231713"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1231713&type=FILE&fileName=EMS214774-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42144948",
+            "reference": "Disease models & mechanisms. 2026 May;19(5):dmm052979",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214774",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-13",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-06-26",
+      "hasEvaluations": "N"
+    }
+  }
+}

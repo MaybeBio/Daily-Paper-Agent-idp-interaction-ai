@@ -1,0 +1,95 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce PhysDock, a physics-guided all-atom diffusion model for protein-ligand complex prediction. The model integrates all-atom diffusion with physical priors and two-phase physics guidance during denoising. The authors claim state-of-the-art performance in redocking benchmarks, superior performance in cross-docking assessments, and practical utility in cannabinoid receptor selectivity prediction and virtual screening for NTRK3 kinase.
+- **Visible evidence base** Abstract text only; no quantitative results, benchmark names, dataset descriptions, or methodological details are provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, benchmark definitions, dataset specifications, baseline comparisons, statistical analyses, and code or model availability statements
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting approach that combines all-atom diffusion with physics-based guidance for protein-ligand complex prediction. However, the claims of state-of-the-art performance and practical utility are not supported by any quantitative evidence in the provided material. The methodological novelty relative to existing diffusion-based docking models is not clearly articulated, and the described applications lack sufficient detail to assess their significance. The abstract reads as a high-level summary, but the absence of specific results, benchmark details, and comparisons prevents any meaningful evaluation of the work's validity or impact.
+- **Who would be interested in the results, and why** Computational structural biologists and researchers in structure-based drug discovery would be the primary audience. Those working on protein-ligand docking, molecular generation, and diffusion-based methods for biomolecular modeling would find the approach relevant. The claimed applications in cannabinoid receptor selectivity and kinase virtual screening could interest medicinal chemists, but the abstract does not provide enough detail to assess whether the findings are actionable for this group.
+- **Major strengths** The integration of all-atom diffusion with physics-based conditioning and guidance is a conceptually reasonable direction that addresses known limitations of purely data-driven approaches. The stated focus on ligand flexibility and protein precision-flexibility is relevant to realistic docking scenarios. The inclusion of practical applications beyond standard benchmarks, such as receptor selectivity and virtual screening, suggests an intention to demonstrate translational value.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "PhysDock demonstrates state-of-the-art performance in redocking benchmarks and excels in the more challenging cross-docking assessments."  
+  - **Evidence pointer** Abstract only; no benchmark names, metrics, or comparisons provided  
+  - **Concern** The claim of state-of-the-art performance is made without any quantitative data. No benchmark datasets are named, no metrics such as RMSD or docking success rates are reported, and no baseline methods are listed for comparison.  
+  - **Why it matters** State-of-the-art claims require direct comparison against established methods on standardized benchmarks. Without this information, the claim is unverifiable and cannot be assessed for validity.  
+  - **Resolution test** Provide specific benchmark names, evaluation metrics, success criteria, and a comparison table against at least several existing docking and diffusion-based methods.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "PhysDock resolves cannabinoid receptor selectivity across diverse molecules, achieving accuracy comparable to experiments."  
+  - **Evidence pointer** Abstract only; no experimental details, compound sets, or accuracy metrics provided  
+  - **Concern** The claim of resolving receptor selectivity with accuracy comparable to experiments is not supported by any data. No information is given about the number of compounds, the receptor subtypes studied, the experimental reference used, or the metric by which accuracy was measured.  
+  - **Why it matters** Selectivity prediction is a complex task with many potential failure modes. Without details on the test set and the comparison standard, the claim cannot be evaluated, and the phrase "comparable to experiments" is ambiguous and potentially misleading.  
+  - **Resolution test** Specify the compound library, receptor subtypes, experimental data source, and quantitative accuracy metrics with confidence intervals or statistical significance tests.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** "PhysDock distinguishes most drug candidates from weak binders in virtual screening of NTRK3 kinase, while uncovering novel candidates with structural insights."  
+  - **Evidence pointer** Abstract only; no screening details, enrichment metrics, or candidate validation provided  
+  - **Concern** The virtual screening claim lacks any quantitative support. No enrichment factor, ROC-AUC, or hit rate is reported, and the "novel candidates" are not described in terms of chemical identity or predicted binding mode.  
+  - **Why it matters** Virtual screening performance is highly dependent on the screening library, the decoy set, and the scoring function. Without these details and standard metrics, the claim of practical utility is not established.  
+  - **Resolution test** Provide the screening library composition, decoy generation method, enrichment or ROC curves, and a description of the novel candidates with structural rationale.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Methodological clarity  
+  - **Claim pointer** "Physical priors as diffusion conditioning, alongside two-phase physics guidance during the denoising diffusion to ensure physical plausibility."  
+  - **Evidence pointer** Abstract only; no methodological details provided  
+  - **Concern** The description of the physics guidance mechanism is too vague to understand what is novel. The abstract does not specify what physical priors are used, how they are encoded as conditioning, what the two phases of guidance are, or how they differ from existing physics-informed diffusion approaches.  
+  - **Why it matters** The methodological contribution is central to the paper's value. Without a clear description of the physics integration, the novelty relative to prior diffusion-based docking models cannot be assessed.  
+  - **Resolution test** Provide a detailed methods section describing the physical priors, the conditioning mechanism, the two-phase guidance procedure, and a comparison with prior physics-informed diffusion methods.  
+  - **Concern ID** R1-M5  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Novelty assessment  
+  - **Claim pointer** "A physics-guided diffusion model that uniquely integrates all-atom diffusion and physical priors."  
+  - **Evidence pointer** Abstract only; no related work discussion provided  
+  - **Concern** The claim of uniqueness is not substantiated. Several diffusion-based docking and binding site prediction models have been published in recent years, some of which incorporate physical constraints. The abstract does not explain how PhysDock differs from these existing approaches.  
+  - **Why it matters** The novelty claim is a key part of the contribution. Without a clear differentiation from prior work, the scientific advance is unclear.  
+  - **Resolution test** Include a related work section that explicitly compares PhysDock with existing diffusion-based docking models and articulates the specific advances.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, "protein precision-flexibility"  
+  - **Issue** The term "precision-flexibility" is not standard and is not defined in the abstract.  
+  - **Required correction** Define the term or use a more standard phrase such as "side-chain flexibility" or "backbone adjustments" with a brief explanation.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Reproducibility  
+  - **Affected element** Resource availability  
+  - **Evidence pointer** Abstract; no code or data availability statement  
+  - **Issue** No mention of code, model weights, or data availability.  
+  - **Required correction** Add a data and code availability statement in the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Application details  
+  - **Evidence pointer** Abstract, "cannabinoid receptor selectivity" and "NTRK3 kinase"  
+  - **Issue** The two application examples are mentioned without any context on why these targets were chosen or what the biological significance of the findings is.  
+  - **Required correction** Provide a brief rationale for target selection and a summary of the biological implications in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, and R1-M3 are blocking because the core performance and utility claims are entirely unsupported by quantitative evidence in the provided material. R1-M4 and R1-M5 are major but not blocking; they affect the assessment of novelty and methodological soundness but could be resolved with a complete manuscript.
+- **Assessment against Nature-style criteria**  
+  - Originality: The combination of all-atom diffusion with physics-based guidance is a plausible direction, but the abstract does not provide enough detail to establish originality relative to existing diffusion-based docking methods.  
+  - Scientific importance: Protein-ligand complex prediction is a central problem in structural biology and drug discovery, so the topic is important. However, the abstract does not demonstrate that the reported advances are substantial enough to shift practice.  
+  - Interdisciplinary readership: The work sits at the intersection of machine learning, structural biology, and medicinal chemistry. The abstract is written in a way that is accessible to a broad audience, but the lack of specific results limits its appeal.  
+  - Technical soundness: Cannot be assessed from the abstract alone. The methodological description is too vague to evaluate the validity of the approach.  
+  - Readability for nonspecialists: The abstract is generally readable, but terms such as "precision-flexibility" and "two-phase physics guidance" are not explained sufficiently for a nonspecialist audience.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract makes strong claims of state-of-the-art performance and practical utility, but none of these claims are supported by quantitative data in the provided material. A full manuscript with detailed methods, benchmark results, and comparisons is required before the case can be evaluated.
+
+## Risk / unsupported claims
+- The claim of state-of-the-art performance in redocking and cross-docking benchmarks is unsupported by any quantitative data.
+- The claim of achieving accuracy comparable to experiments in cannabinoid receptor selectivity is unsupported and ambiguous.
+- The claim of distinguishing most drug candidates from weak binders in NTRK3 virtual screening is unsupported by any enrichment or accuracy metrics.
+- The claim of "uncovering novel candidates with structural insights" is unsupported by any chemical or structural details.
+- The claim of "unique" integration of all-atom diffusion and physical priors is unverifiable without a related work comparison.
+- The methodological description of physics guidance is too vague to assess technical soundness.

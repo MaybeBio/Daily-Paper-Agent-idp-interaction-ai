@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.12.22.521634",
+  "title": "WUREN: Whole-modal fUsion Representation for protein interaction interfacE predictioN",
+  "authors": "Xiaodong Wang; Xiangrui Gao; Xuezhe Fan; Zhe Huai; Mengcheng Yao; Tianyuan Wang; Xiaolu Huang; Lipeng Lai",
+  "journal": "bioRxiv",
+  "published_date": "2022-12-23",
+  "window": {
+    "start": "2022-12-19",
+    "end": "2022-12-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文提出多模态融合模型WUREN，融合序列、图与结构特征预测蛋白互作界面，虽未聚焦无序蛋白/相分离，但PPI界面预测方法对IDR介导互作建模有可迁移启发。",
+  "abstract": "Proteins are one of the most important components in life, and the research on protein complex and the development of protein or antibody drugs relies on effective representation of proteins. Both experimental methods like cryo-electron microscopy and computational methods like molecular dynamic simulation suffer from high cost, long time investment and low throughput, and cannot be used in large-scale studies. Some examples of artificial intelligence for protein complex prediction tasks show that different representations of proteins have their own limitations. This paper constructs a multimodal model named WUREN (Whole-modal fUsion Representation for protein interaction interfacE predictioN), which effectively fuses sequence, graph, and structural features. WUREN has achieved state-of-the-art performance on both the antigen epitope prediction task and the protein-protein interaction interface prediction task, with AUC-PR reaching 0.462 and 0.516, respectively. Our results show that WUREN is a general and effective feature extraction model for protein complex, which can be used in the development of protein-based drugs. Furthermore, the general framework in WUREN can be potentially applied to model similar biologics to proteins, such as DNA and RNA.",
+  "abstract_zh": "蛋白质是生命体中最重要的组成部分之一，蛋白质复合物的研究以及蛋白质或抗体药物的开发依赖于对蛋白质的有效表征。实验方法如冷冻电子显微镜和计算方法如分子动力学模拟均面临成本高、时间投入大、通量低的问题，难以用于大规模研究。一些人工智能在蛋白质复合物预测任务中的实例表明，不同的蛋白质表征方式各有其局限性。本文构建了一个名为WUREN（全模态融合表示用于蛋白质相互作用界面预测）的多模态模型，该模型有效融合了序列、图结构和结构特征。WUREN在抗原表位预测任务和蛋白质-蛋白质相互作用界面预测任务上均达到了最先进的性能，AUC-PR分别达到0.462和0.516。我们的结果表明，WUREN是一种通用且有效的蛋白质复合物特征提取模型，可用于蛋白质药物的开发。此外，WUREN中的通用框架有望应用于模拟与蛋白质相似的生物制品，如DNA和RNA。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.12.22.521634",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.12.22.521634",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.12.22.521634/index.html"
+}

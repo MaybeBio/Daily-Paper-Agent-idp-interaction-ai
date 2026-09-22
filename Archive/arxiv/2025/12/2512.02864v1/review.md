@@ -1,0 +1,86 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, arXiv ID 2512.02864v1)
+- **Assessment boundary** Scientific content, methodology, evidence quality, and internal consistency of the provided manuscript only. No external literature verification or replication attempted.
+- **Shared manuscript claim summary** The authors report that the transcription factor NANOG forms self-limited micelle-like clusters via its intrinsically disordered tryptophan-rich domain, that these clusters expose DNA-binding domains, and that at high concentrations NANOG forms aging gels. In DNA solutions, NANOG clusters act as transient cross-linkers, modulating DNA rheology and forming microgel-like structures. The authors propose that this aging microgel behavior may represent a novel mechanism for regulating gene expression by stabilizing genome dynamics at key regulatory sites.
+- **Visible evidence base** Results sections with Figures 1-4 (figure panels described in text), methods descriptions embedded in Results, supplementary information referenced but not provided, references list.
+- **Missing materials affecting confidence** Supplementary Information (SI) is referenced multiple times (time-cure superposition analysis, simulation details, W10A simulation results) but not provided. Raw data, full experimental protocols, and statistical analysis details are not available. Figure files are not accessible.
+
+## Reviewer
+- **Overall assessment** This manuscript presents an intriguing and potentially significant finding: a transcription factor with an intrinsically disordered domain can form aging microgels that modulate DNA rheology. The combination of experimental and computational approaches is ambitious and the central hypothesis is novel. However, the evidence as presented has several gaps that prevent full evaluation. The claim of micelle-like cluster formation relies heavily on simulations with limited experimental validation. The rheology measurements, while suggestive, lack quantitative rigor in places. The biological relevance is speculative and not directly tested. The manuscript would benefit from clearer presentation of controls, quantitative comparisons, and a more cautious interpretation of the simulation results. The work is potentially important for understanding transcription factor behavior beyond classical DNA-binding paradigms, but the current evidence does not fully establish the proposed mechanism.
+- **Who would be interested in the results, and why** Researchers in biophysics, particularly those studying phase separation and viscoelastic properties of biomolecular condensates. Cell biologists studying transcription factor regulation and chromatin organization, especially in stem cell biology. The work may also interest the broader community investigating the material properties of nuclear compartments and how these properties influence gene regulation. The methodological combination of microrheology, cryo-EM, and simulations could be of interest to methodologists in these fields.
+- **Major strengths** The central finding that a transcription factor can form aging gels through its disordered domain is novel and potentially paradigm-shifting. The combination of multiple techniques (microrheology, cryo-EM, mass photometry, DLS, simulations) provides complementary perspectives. The use of two mutants (W10A and N51A) to dissect the contributions of oligomerization versus DNA binding is a well-designed approach. The observation that both WT and N51A age in DNA solutions while W10A does not is a clean result that supports the importance of oligomerization.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that NANOG forms self-limited micelle-like clusters with exposed DNA-binding domains, based on simulations and supported by cryo-EM and mass photometry.
+  - **Evidence pointer** Results section, Figure 2, "location not provided" for specific panel details
+  - **Concern** The simulation evidence for micelle-like cluster formation is presented as a key finding, but the details are insufficient to evaluate its robustness. The manuscript states that M=50 proteins were simulated at a density of 0.1 g/cm3, but does not provide information on the sensitivity of the results to system size, density, or force field parameters. The claim of "self-limited" clusters is central, yet the mechanism of self-limitation is not explained. The experimental support from cryo-EM is described as showing "blurry" objects with "significant local resolution variation," which is a weak validation of the specific micelle-like architecture proposed. Mass photometry identifies clusters of 22-25 monomers, but the relationship between this size and the simulation-predicted cluster size is not quantitatively compared.
+  - **Why it matters** The micelle-like cluster model is the structural basis for the proposed mechanism of DNA bridging and microgel formation. If this model is incorrect or not robustly supported, the entire mechanistic framework collapses. The self-limiting nature of the clusters is also critical for the biological interpretation, as it implies a controlled assembly process rather than uncontrolled aggregation.
+  - **Resolution test** Provide detailed simulation parameters, convergence tests, and system-size dependence. Show quantitative comparison between simulated cluster sizes and mass photometry measurements. Provide higher-resolution structural data or alternative experimental validation of the micelle-like architecture (e.g., small-angle scattering, cross-linking mass spectrometry).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that WT NANOG-DNA mixtures exhibit markedly enhanced viscoelasticity compared to mutants, attributed to simultaneous clustering and DNA binding enabling DNA bridging.
+  - **Evidence pointer** Results section, Figure 3, "location not provided"
+  - **Concern** The microrheology data presented in Figure 3 show a marked reduction in tracer mobility for WT NANOG at 7.9 micromolar concentration, but the comparison with mutants is described qualitatively. The manuscript states that W10A and N51A display "no significant change in MSDs over the explored concentration range," but the concentration range is not specified, and no statistical analysis is presented. The interpretation that WT's effect requires both clustering and DNA binding is reasonable, but the alternative explanation that WT simply has higher effective DNA-binding affinity or different binding kinetics is not addressed. The DNA concentration used (250 ng/microliter) is stated to be 10-fold above overlap concentration, but the rheological consequences of this regime are not discussed in detail.
+  - **Why it matters** The differential effect of WT versus mutants on DNA rheology is the key experimental result supporting the proposed mechanism. Without quantitative comparison and appropriate controls, the specificity of the effect cannot be established. The interpretation that clustering plus DNA binding is required for the rheological effect is a strong claim that needs more rigorous support.
+  - **Resolution test** Provide full MSD curves for all conditions with error bars and statistical comparisons. Show concentration-dependent effects for all three protein variants. Include a control with a DNA-binding protein that does not cluster, or a clustering protein that does not bind DNA, to demonstrate the requirement for both properties.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that NANOG may regulate gene expression by forming aging microgels that restrict and stabilize genome dynamics at key regulatory sites, potentially enabling mechanical memory in gene networks.
+  - **Evidence pointer** Conclusions section, "location not provided"
+  - **Concern** The leap from in vitro rheology measurements to a proposed biological mechanism is substantial and not supported by any direct evidence. The manuscript acknowledges that NANOG overexpression does not cause major genome reorganization, but then proposes that NANOG affects dynamics rather than organization. This is a testable hypothesis, but no experiments are presented to test it. The concentrations used in the rheology experiments (1 mM for gel formation, 7.9 micromolar for DNA mixtures) are far above typical nuclear concentrations of transcription factors, and the relevance of these concentrations to in vivo conditions is not discussed.
+  - **Why it matters** The biological significance of the findings is the primary motivation for the work. If the proposed mechanism cannot be connected to cellular function, the work remains a biophysical curiosity. The concentration mismatch between in vitro and in vivo conditions is a critical gap that needs to be addressed.
+  - **Resolution test** Provide estimates of nuclear NANOG concentrations and discuss whether the observed phenomena would occur at these concentrations. Present preliminary cellular experiments (e.g., fluorescence recovery after photobleaching, single-molecule tracking) that test whether NANOG affects chromatin dynamics in living cells.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** "location not provided"
+  - **Issue** The introduction assumes familiarity with the NANOG literature and the specific mutants used. A brief explanation of why W10A and N51A are informative mutants would help nonspecialist readers.
+  - **Required correction** Add one or two sentences explaining the functional significance of the tryptophan-rich domain and the homeodomain, and why mutating them is expected to disrupt oligomerization and DNA binding, respectively.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, gel formation experiments
+  - **Evidence pointer** Figure 1c, "location not provided"
+  - **Issue** The sol-gel transition is described as observed by eye ("noticed that both WT and N51A underwent a sol-gel transition"). This is subjective and not quantified.
+  - **Required correction** Provide a quantitative measure of gelation, such as tube inversion tests with time-lapse imaging, rheological measurements of storage and loss moduli, or at minimum a clear photograph with time stamps.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, DLS measurements
+  - **Evidence pointer** Figure 2h, "location not provided"
+  - **Issue** The DLS data are described as showing a shift towards larger hydrodynamic size with time, stopping after 96 hours. The interpretation of this as confirming "self-limiting nature" is not straightforward, as DLS measures an intensity-weighted size distribution that can be biased by large aggregates.
+  - **Required correction** Show the full size distributions at each time point, and discuss potential artifacts from a small number of large aggregates. Consider complementary techniques such as sedimentation velocity or fluorescence correlation spectroscopy.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interdisciplinary readership
+  - **Affected element** Results, microrheology methods
+  - **Evidence pointer** "location not provided"
+  - **Issue** The microrheology method is described briefly, but the choice of tracer particles, their size, and the potential for interactions with the protein or DNA are not discussed.
+  - **Required correction** Provide details on tracer particle type, size, surface chemistry, and any controls demonstrating that tracers do not interact with the components of the solution.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, simulations
+  - **Evidence pointer** "location not provided"
+  - **Issue** The manuscript states that simulations of the W10A mutant found no onset of clustering, but the details are in the SI, which is not provided.
+  - **Required correction** Include a brief description of the W10A simulation results in the main text, or at minimum state the key quantitative result (e.g., no clusters above a certain size observed over the simulation time).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (simulation robustness and experimental validation of micelle structure), R1-M2 (quantitative comparison of rheology data and controls), R1-M3 (biological relevance and concentration relevance). These are blocking because the central claims of the manuscript depend on them.
+- **Assessment against Nature-style criteria** Originality: High. The concept of a transcription factor forming aging microgels that modulate DNA rheology is novel and not anticipated by existing literature on phase separation or transcription factor clustering. Scientific importance: Potentially high, but not yet established. If the proposed mechanism operates in cells, it would represent a new paradigm for transcription factor function. However, the current evidence is entirely in vitro and the connection to cellular function is speculative. Interdisciplinary readership: The topic bridges biophysics, cell biology, and stem cell biology, which is well suited to a broad audience. Technical soundness: Mixed. The experimental design is thoughtful, but the quantitative rigor is insufficient in key areas (rheology comparisons, simulation validation). Readability for nonspecialists: The manuscript is generally well written, but assumes familiarity with rheology concepts and the NANOG system. The figures are described clearly, but the lack of figure files limits assessment.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is compelling and the preliminary evidence is suggestive, but the current manuscript does not fully establish the proposed mechanism. The authors should address the simulation robustness, provide quantitative rheology comparisons with appropriate controls, and either provide evidence for biological relevance or temper the biological claims.
+
+## Risk / unsupported claims
+- The claim that NANOG forms "macroscopic aging gels" at 1 mM concentration is supported only by visual observation and microrheology, but the microrheology data are not fully presented.
+- The claim that NANOG forms "self-limited micelle-like clusters" is primarily based on simulations, with cryo-EM and mass photometry providing only weak support (blurry objects, no quantitative comparison).
+- The claim that the aging process is "driven by WR re-configuration and exploration of a rugged free energy landscape" is speculative and not directly tested.
+- The claim that NANOG may "regulate gene expression in an unconventional way" by forming aging microgels is entirely speculative and not supported by any cellular data.
+- The statement that "time-cure superposition analysis does not agree with the one expected for simple Maxwell fluids" is unverifiable without the SI.
+- The biological relevance of the concentrations used (1 mM, 7.9 micromolar) to in vivo nuclear NANOG concentrations is not discussed.

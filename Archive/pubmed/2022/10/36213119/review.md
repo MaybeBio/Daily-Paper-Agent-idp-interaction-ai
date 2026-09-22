@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and claims as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors report an NMR and SAXS structural study of the N-terminal intrinsically disordered region (residues 1–249) of yeast eIF4G1, characterizing its conformational ensemble and mapping interactions with Pub1, Pab1, and RNA. They propose a "multi-docking station" model in which conserved BOX elements mediate distinct but overlapping binding events, and describe a two-key mechanism whereby Pub1 and Pab1 binding promotes BOX1-dependent self-assembly and micrometer-scale condensate formation.
+- **Visible evidence base** NMR spectroscopy (chemical shifts, relaxation, RDCs, PREs, NOEs), SAXS, structure calculations (Cyana), DLS, confocal fluorescence microscopy, and binding assays with peptide fragments
+- **Missing materials affecting confidence** Supplementary figures and tables referenced throughout (Figures S1–S10, Table S1) were not provided; full experimental details for some assays are only in the Supplementary Material; raw data files and validation statistics for the deposited structures (PDB 6Z29, PED00225, PED00226) were not accessible for verification
+
+## Reviewer
+- **Overall assessment** This manuscript presents a substantial body of biophysical data on an intrinsically disordered region of a key translation initiation factor. The combination of NMR, SAXS, and computational ensemble modeling is appropriate and generally well executed. The identification of multiple interaction sites and the proposed regulatory mechanism involving BOX1 self-assembly are interesting and potentially significant. However, several technical concerns and interpretive gaps need to be addressed before the central claims can be considered fully established. The evidence for some interaction sites relies on indirect observations, and the functional relevance of the observed condensate formation is not directly demonstrated.
+- **Who would be interested in the results, and why** Researchers studying translation initiation, RNA-binding proteins, intrinsically disordered proteins, and biomolecular condensates/stress granules. The work provides residue-level detail on how a central scaffolding protein coordinates multiple binding partners through a disordered region, which is relevant to understanding the molecular grammar of phase separation and the regulation of translation under stress.
+- **Major strengths** The study combines multiple complementary biophysical techniques to characterize a challenging IDP system. The residue-level mapping of interaction sites is thorough. The use of chimeric constructs to overcome weak binding is a creative and effective approach. The integration of experimental data with ensemble modeling is rigorous. The identification of a conserved YNNxxxY motif and its role in Pub1 recognition is a concrete and testable finding.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that the conformational ensemble of eIF4G1(1–249) shows "a dynamic network of fuzzy π-π and π-cation interactions involving arginine and aromatic residues" and that these interactions are "knowledge-based" restraints used in structure calculations.
+  - **Evidence pointer** Results section "eIF4G1 IDR conformational ensemble"; Methods section "Structure calculation of eIF4G11-249"
+  - **Concern** The inclusion of "knowledge-based" restraints for π-π and π-cation interactions is a significant methodological choice that could bias the resulting ensemble. The manuscript states that restraints were included "given the importance of these types of contacts for IDP interactions" but does not provide a rigorous justification for why these specific interactions were selected over other possible long-range contacts. The validation of the ensemble relies on back-calculation of PREs, but the PRE data were also used in the selection process, creating a circularity concern. The authors need to demonstrate that the ensemble is not an artifact of the imposed restraints.
+  - **Why it matters** If the ensemble is biased by the input restraints, the conclusions about the "fuzzy network" of interactions and the structural model of eIF4G1(1–249) would be compromised. This is a central claim of the paper.
+  - **Resolution test** Provide a control calculation without the knowledge-based restraints and show that the resulting ensemble has significantly worse agreement with experimental data. Alternatively, use an independent experimental observable (e.g., additional PRE sites, paramagnetic relaxation enhancement at different positions, or single-molecule FRET) to validate the ensemble. Show that the key features of the ensemble (e.g., BOX1-RNA1 contacts) are robust to the choice of restraint scheme.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** The authors state that "Pub1 and Pab1 induce BOX1-dependent aggregation" and that this is relevant to stress granule formation.
+  - **Evidence pointer** Results section "Pub1 and Pab1 induce BOX1-dependent aggregation"; Figures 5 and 6
+  - **Concern** The DLS and microscopy data show that certain protein combinations form large particles, but the connection to stress granules is speculative. The experiments use only the isolated IDR construct (eIF4G1(1–249)) and the RNA-binding domains of Pub1 and Pab1, not full-length proteins. The concentrations used (1–20 µM) may not reflect physiological conditions. The claim that this represents a "two-key mechanism" for stress granule nucleation is not directly supported by the data, which only show in vitro aggregation of truncated constructs.
+  - **Why it matters** The title and abstract emphasize the multi-docking station concept and its implications for stress granule formation. If the aggregation observed is an artifact of the truncated constructs or non-physiological conditions, the broader significance of the work is diminished.
+  - **Resolution test** Perform experiments with full-length proteins, or at least with constructs that include all relevant domains. Test whether the aggregation is reversible and whether it depends on the specific RNA-binding activity of Pub1 and Pab1. Provide a quantitative comparison of the observed particle sizes with those of known stress granules. If possible, perform a cellular assay (e.g., co-localization of eIF4G1, Pub1, and Pab1 in stress granules) to support the physiological relevance.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report that the Pab1 RRM12 domain interacts with eIF4G1 BOX2, a "conserved element of unknown function to date."
+  - **Evidence pointer** Results section "eIF4G1 interacts with Pab1 and Pub1 through multiple binding sites"; Figure 3
+  - **Concern** The evidence for the BOX2-Pab1 interaction is described as "weak" and based on "fewer changes" than the BOX3 interaction. The manuscript does not provide a quantitative analysis (e.g., binding affinities, dissociation constants) for this interaction. It is unclear whether the observed chemical shift changes are significant or within the noise of the experiment.
+  - **Why it matters** The claim that BOX2 is a novel Pab1 binding site is a specific and potentially important finding. If the interaction is too weak to be physiologically relevant, or if the observed changes are artifacts, this claim needs to be revised.
+  - **Resolution test** Provide a quantitative binding analysis (e.g., ITC, MST, or NMR titration with Kd determination) for the BOX2-Pab1 interaction. Show that the interaction is specific (e.g., by mutating key residues in BOX2 and showing loss of binding). Compare the affinity with that of the BOX3-Pab1 interaction to assess relative importance.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors state that "the RNA1 region interacts with RNA through a new RNA interaction motif."
+  - **Evidence pointer** Results section "eIF4G1 RNA recognition"; Figure 7
+  - **Concern** The RNA binding experiments are performed with poly(A) oligonucleotides of different lengths (A12, A14). The manuscript does not specify the exact RNA sequences used, the binding conditions (salt, temperature, pH), or whether the binding is specific to poly(A) or general to any RNA. The claim of a "new RNA interaction motif" requires a more detailed characterization, including mutagenesis to identify the key residues.
+  - **Why it matters** RNA binding is a central function of eIF4G1, and the identification of a new motif would be a significant contribution. However, without a clear definition of the motif and evidence of specificity, the claim is not fully supported.
+  - **Resolution test** Provide a sequence alignment of the proposed motif across eIF4G1 orthologs. Perform mutagenesis of the proposed motif residues and show loss of RNA binding. Test binding to a variety of RNA sequences (not just poly(A)) to demonstrate specificity. Provide quantitative binding data (Kd) for the RNA interaction.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states that eIF4G1 interacts with RNA-binding proteins "affecting its function in translation initiation and stress granules formation," but the functional impact is not directly tested in this manuscript.
+  - **Required correction** Rephrase to indicate that the study provides structural insights that may inform understanding of these processes, rather than directly demonstrating functional effects.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "Structure calculation of eIF4G11-249"
+  - **Issue** The description of the "greedy algorithm" for ensemble selection is brief and lacks details on the specific implementation, convergence criteria, and how the final ensemble size (500) was chosen.
+  - **Required correction** Provide a more detailed description of the algorithm, including pseudocode or a reference to a previously published implementation. Justify the choice of ensemble size.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Data presentation
+  - **Affected element** Figure 6
+  - **Evidence pointer** Results section "Pab1-Pub1-eIF4G1 form micrometer-size condensates"
+  - **Issue** The microscopy images show particles, but there is no quantitative analysis of particle size distribution, number, or morphology. The scale bar is mentioned but not visible in the text description.
+  - **Required correction** Provide quantitative image analysis (e.g., particle size histograms) and ensure scale bars are clearly indicated in the figure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of stress granule formation is largely speculative and does not cite recent work on the role of eIF4G in stress granules beyond the references in the introduction.
+  - **Required correction** Expand the discussion to include more recent literature on eIF4G and stress granules, and clearly distinguish between what is directly supported by the data and what is speculative.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical detail
+  - **Affected element** Methods
+  - **Evidence pointer** Methods section "NMR: Residual dipolar couplings and PRE measurements"
+  - **Issue** The PRE measurements are described, but the specific details of the spin label labeling efficiency, the concentration of the labeled protein, and the control experiments for non-specific labeling are not provided.
+  - **Required correction** Provide details on labeling efficiency and controls, or refer to a previously published protocol.
+- **Technical failings that need to be addressed before the case is established** The circularity concern regarding the use of knowledge-based restraints in ensemble generation and validation (R1-M1) is the most significant technical issue. The lack of quantitative binding data for the BOX2-Pab1 interaction (R1-M3) and the RNA interaction (R1-M4) also needs to be addressed. The functional relevance of the observed condensate formation (R1-M2) requires additional experimental support.
+- **Assessment against Nature-style criteria** 
+  - **Originality** The work is original in its comprehensive characterization of a specific IDR and its identification of multiple interaction sites. The "multi-docking station" concept is a useful framework, though not entirely novel in the context of IDP biology.
+  - **Scientific importance** The findings are of interest to the translation and stress granule fields, but the direct physiological relevance is not established. The work is more of a detailed biophysical characterization than a major conceptual advance.
+  - **Interdisciplinary readership** The work will primarily appeal to structural biologists, biophysicists, and researchers in the translation/RNA granule field. The methods and findings are less likely to attract a broad interdisciplinary audience.
+  - **Technical soundness** The NMR and SAXS experiments appear to be well executed, but the ensemble modeling approach has a potential circularity issue that needs to be resolved. The binding studies are not quantitative.
+  - **Readability for nonspecialists** The manuscript is clearly written but assumes significant background in NMR spectroscopy and IDP biology. The abstract is accessible, but the results section is dense.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript presents a substantial body of data and several interesting findings, but the central claims regarding the conformational ensemble and the regulatory mechanism require additional validation. The authors should address the circularity concern in the ensemble modeling, provide quantitative binding data, and temper the claims about stress granule relevance.
+
+## Risk / unsupported claims
+- The claim that eIF4G1(1–249) forms a "dynamic network of fuzzy π-π and π-cation interactions" is not fully supported due to the potential circularity in the ensemble generation and validation.
+- The claim that BOX2 is a novel Pab1 binding site is based on weak evidence and lacks quantitative support.
+- The claim that the observed condensate formation is relevant to stress granule nucleation is speculative and not directly supported by the data.
+- The claim of a "new RNA interaction motif" is not fully characterized; the motif sequence is not defined, and specificity is not demonstrated.
+- The functional significance of the interactions described is not tested experimentally; the manuscript only provides structural and biophysical data.

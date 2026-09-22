@@ -1,0 +1,422 @@
+{
+  "identity": {
+    "pmid": "40399324",
+    "doi": "10.1038/s41467-025-59984-9",
+    "title": "Wnt signalosome assembly is governed by conformational flexibility of Axin and by the AP2 clathrin adaptor."
+  },
+  "content": {
+    "abstract": "Wnt signal transduction relies on the direct inhibition of GSK3 by phosphorylated PPPSPxS motifs within the cytoplasmic tail of the LRP6 co-receptor. How GSK3 is recruited to LRP6 remains unclear. Here, we use nuclear magnetic resonance spectroscopy to identify the membrane-proximal PPPSPxS motif and its flanking sequences as the primary binding site for both Axin and GSK3, and an intrinsically disordered segment of Axin as its LRP6-interacting region (LIR). Co-immunoprecipitation and CRISPR-engineered mutations in endogenous Axin indicate that its docking at LRP6 is antagonized by a phospho-dependent foldback within LIR and by a PRTxR motif that allows Axin and GSK3 to form a multi-pronged interaction which favors their detachment from LRP6. Crucially, signaling by LRP6 also depends on its binding to the AP2 clathrin adaptor. We propose that the Wnt-driven clustering of LRP6 within clathrin-coated locales allows the Axin-GSK complex to dock at adjacent LRP6 molecules, while also exposing it to co-targeted kinases that change its activity in Wnt signal transduction.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Axin Protein/metabolism/chemistry/genetics",
+      "*Low Density Lipoprotein Receptor-Related Protein-6/metabolism/genetics/chemistry",
+      "Humans",
+      "*Wnt Signaling Pathway",
+      "Glycogen Synthase Kinase 3/metabolism",
+      "HEK293 Cells",
+      "Protein Binding",
+      "*Adaptor Protein Complex 2/metabolism",
+      "Phosphorylation",
+      "Binding Sites",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Gammons, Melissa V",
+        "Franco-Echevarria, Elsa",
+        "Li, Tie-Mei",
+        "Rutherford, Trevor J",
+        "Renko, Miha",
+        "Batters, Christopher",
+        "Bienz, Mariann"
+      ],
+      "short_names": [
+        "Gammons MV",
+        "Franco-Echevarria E",
+        "Li TM",
+        "Rutherford TJ",
+        "Renko M",
+        "Batters C",
+        "Bienz M"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9661-9331",
+        "ORCID: 0000-0001-7294-1668",
+        "ORCID: 0009-0007-4555-7901",
+        "ORCID: 0000-0002-7170-8706"
+      ],
+      "affiliations": [
+        "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK. mg2128@cam.ac.uk.",
+        "Department of Medical Genetics, Cambridge Institute for Medical Research, University of Cambridge, Cambridge, UK. mg2128@cam.ac.uk.",
+        "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK.",
+        "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK.",
+        "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK.",
+        "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK.",
+        "Department of Medical Genetics, Cambridge Institute for Medical Research, University of Cambridge, Cambridge, UK.",
+        "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK.",
+        "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK. mb2@mrc-lmb.cam.ac.uk."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Gammons, Melissa V",
+        "short_name": "Gammons MV",
+        "identifiers": [
+          "0000-0001-9661-9331"
+        ],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK. mg2128@cam.ac.uk.",
+          "Department of Medical Genetics, Cambridge Institute for Medical Research, University of Cambridge, Cambridge, UK. mg2128@cam.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Franco-Echevarría, Elsa",
+        "short_name": "Franco-Echevarría E",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Li, Tie-Mei",
+        "short_name": "Li TM",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Rutherford, Trevor J",
+        "short_name": "Rutherford TJ",
+        "identifiers": [
+          "0000-0001-7294-1668"
+        ],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Renko, Miha",
+        "short_name": "Renko M",
+        "identifiers": [],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK.",
+          "Department of Medical Genetics, Cambridge Institute for Medical Research, University of Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Batters, Christopher",
+        "short_name": "Batters C",
+        "identifiers": [
+          "0009-0007-4555-7901"
+        ],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK."
+        ]
+      },
+      {
+        "full_name": "Bienz, Mariann",
+        "short_name": "Bienz M",
+        "identifiers": [
+          "0000-0002-7170-8706"
+        ],
+        "affiliations": [
+          "MRC Laboratory of Molecular Biology, Francis Crick Avenue Cambridge, Cambridge, UK. mb2@mrc-lmb.cam.ac.uk."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 May 21",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/05/22 00:28",
+    "fetched_at": "2026-09-21 19:07:16"
+  },
+  "links": {
+    "cites": [
+      "42412914",
+      "42093562",
+      "41755877",
+      "41587072",
+      "41562620",
+      "41062289",
+      "41000769"
+    ],
+    "refs": [
+      "39494541",
+      "39223191",
+      "38720073",
+      "38718835",
+      "37548359",
+      "36631611",
+      "36370099",
+      "36213118",
+      "35998232",
+      "35487243",
+      "34432492",
+      "34265844",
+      "33025907",
+      "32822572",
+      "32601235",
+      "32320321",
+      "32297861",
+      "32283767",
+      "31822591",
+      "31636158",
+      "31519875",
+      "30605688",
+      "30125270",
+      "29905871",
+      "29153704",
+      "28913633",
+      "28851822",
+      "28575679",
+      "28546513",
+      "28546512",
+      "28377511",
+      "28296634",
+      "27744318",
+      "27692984",
+      "27431447",
+      "26637668",
+      "26403691",
+      "26306936",
+      "25891077",
+      "25505092",
+      "25502373",
+      "25435019",
+      "25239056",
+      "25143377",
+      "24642411",
+      "24510646",
+      "24186068",
+      "24114839",
+      "23793146",
+      "23579495",
+      "23413191",
+      "23404500",
+      "23400998",
+      "23188502",
+      "23169527",
+      "23000342",
+      "22895054",
+      "22575959",
+      "22411803",
+      "22363759",
+      "22135298",
+      "21887268",
+      "21525240",
+      "21245303",
+      "21190063",
+      "21145983",
+      "21087614",
+      "20947020",
+      "20823832",
+      "20663899",
+      "20603002",
+      "20388731",
+      "20383002",
+      "20077554",
+      "20059949",
+      "20053989",
+      "19884009",
+      "19809571",
+      "19745056",
+      "19706427",
+      "19561074",
+      "19293931",
+      "19107203",
+      "18509060",
+      "18362152",
+      "18077588",
+      "17569865",
+      "17529994",
+      "17318175",
+      "17303404",
+      "16341017",
+      "16341016",
+      "16227583",
+      "15985462",
+      "15473838",
+      "15452431",
+      "15262887",
+      "15151990",
+      "15084453",
+      "14731402",
+      "12699626",
+      "12554650",
+      "11877461",
+      "11877457",
+      "11779461",
+      "11707456",
+      "11336703",
+      "11247301",
+      "11057903",
+      "11029007",
+      "10581160",
+      "10421629",
+      "10196136",
+      "9812899",
+      "9748267",
+      "9482734",
+      "8918456"
+    ],
+    "similar": [
+      "40399324",
+      "21887268",
+      "19293931",
+      "23579495",
+      "18077588",
+      "23400998",
+      "22184111",
+      "18362152",
+      "22372892",
+      "18509060",
+      "16341017",
+      "23892894",
+      "27138857",
+      "19107203",
+      "25735981",
+      "23959799",
+      "24105937",
+      "17569865",
+      "28546513",
+      "29408853",
+      "21304492",
+      "16365045",
+      "23872074",
+      "25143377",
+      "28418856",
+      "22083140",
+      "30069874",
+      "25391905",
+      "30605688",
+      "29641560",
+      "22871567",
+      "19711366",
+      "31189665",
+      "22491013",
+      "33097721",
+      "22292947",
+      "19141611",
+      "25074807",
+      "20974802",
+      "22558232",
+      "26393419",
+      "22899650",
+      "22645652",
+      "25655048",
+      "28418862",
+      "27821587",
+      "23743195",
+      "20460648",
+      "36342472",
+      "36598937",
+      "17376403",
+      "24265322",
+      "36693320",
+      "40293036",
+      "23773994",
+      "17326769",
+      "24353057",
+      "19801552",
+      "31588233",
+      "32297861",
+      "24607787",
+      "25500543",
+      "34615853",
+      "10428961",
+      "24474204",
+      "9601644",
+      "27959917",
+      "37189394",
+      "25271056",
+      "21606194",
+      "22820499",
+      "21935433",
+      "10330403",
+      "32661084",
+      "20388731",
+      "31041506",
+      "22195040",
+      "30038030",
+      "10944533",
+      "24993527",
+      "10196136",
+      "24412065",
+      "28052259",
+      "24035388",
+      "16341016",
+      "27484226",
+      "31822591",
+      "25380820",
+      "23743975",
+      "22433869",
+      "22337886",
+      "11707456",
+      "30976847",
+      "12554650",
+      "16513652",
+      "39226374",
+      "20856934",
+      "10490650",
+      "19572019",
+      "9601641"
+    ],
+    "review": [
+      "40399324",
+      "24105937"
+    ],
+    "pmc": [
+      "12095580"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-59984-9",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40399324/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40399324",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-FABP4-1",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

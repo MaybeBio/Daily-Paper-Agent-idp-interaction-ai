@@ -1,0 +1,238 @@
+{
+  "identity": {
+    "pmid": "39885825",
+    "doi": "10.1021/acs.langmuir.4c04216",
+    "title": "ATP Binding and Inhibition of Intrinsically Disordered Protein Interactions."
+  },
+  "content": {
+    "abstract": "Recent studies have shown that ATP at high physiological concentrations (>5 mM) can inhibit liquid-liquid phase separation (LLPS) driven by interactions between intrinsically disordered proteins (IDPs). However, the mechanism underlying such inhibitory effect still remains elusive. Here, we used all-atom molecular dynamics simulation to study the interaction of ATP with two typical IDPs (i.e., FUS PLD and RGG domain of hnRNP G), and its impacts on IDP interactions. ATP exhibits a considerable tendency to bind to both IDPs and effectively inhibits their interactions. For the RGG domain, Arg residues are critical for both ATP binding and IDP interactions. The inhibitory effect of ATP is largely attributed to its competitive binding mode to Arg residues. Similar competitive binding of ATP is also observed in FUS PLD. Both ATP binding and the PLD interaction share the residues including Gln, Ser, and Tyr residues, while the competition is rather modest due to the abundance of these residues in the sequence. Interestingly, ATP undergoes considerable diffusion on the surface of PLD, which is an order of magnitude faster than the evolution of the contact area of PLDs. The temporal separation of these two processes remarkably promotes the inhibitory effect of ATP on PLD interaction. Given the representativeness of these two IDPs, competitive binding may serve as a general mechanism underlying ATP inhibition on IDP interactions at high physiological levels.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Adenosine Triphosphate/chemistry/metabolism",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Binding",
+      "*RNA-Binding Protein FUS/chemistry/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Lin, Shiyan",
+        "Hu, Guorong",
+        "Zhang, Moxin",
+        "Li, Jingyuan"
+      ],
+      "short_names": [
+        "Lin S",
+        "Hu G",
+        "Zhang M",
+        "Li J"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2926-1864"
+      ],
+      "affiliations": [
+        "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Yuhangtang Road 866, Hangzhou 310058, China.",
+        "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Yuhangtang Road 866, Hangzhou 310058, China.",
+        "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Yuhangtang Road 866, Hangzhou 310058, China.",
+        "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Yuhangtang Road 866, Hangzhou 310058, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Lin, Shiyan",
+        "short_name": "Lin S",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Yuhangtang Road 866, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Guorong",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Yuhangtang Road 866, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Zhang, Moxin",
+        "short_name": "Zhang M",
+        "identifiers": [],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Yuhangtang Road 866, Hangzhou 310058, China."
+        ]
+      },
+      {
+        "full_name": "Li, Jingyuan",
+        "short_name": "Li J",
+        "identifiers": [
+          "0000-0003-2926-1864"
+        ],
+        "affiliations": [
+          "Zhejiang Province Key Laboratory of Quantum Technology and Device, School of Physics, Zhejiang University, Yuhangtang Road 866, Hangzhou 310058, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Langmuir : the ACS journal of surfaces and colloids"
+    ],
+    "journal_abbrev": [
+      "Langmuir"
+    ],
+    "pub_date": "2025 Feb 11",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/01/31 06:17",
+    "fetched_at": "2026-09-21 15:11:46"
+  },
+  "links": {
+    "cites": [
+      "40849651"
+    ],
+    "refs": [],
+    "similar": [
+      "39885825",
+      "39354680",
+      "35297101",
+      "31188823",
+      "31240261",
+      "40792356",
+      "40516596",
+      "32393642",
+      "39495179",
+      "39163306",
+      "28924037",
+      "31270472",
+      "35713479",
+      "40360271",
+      "34112944",
+      "38672516",
+      "33991007",
+      "26742101",
+      "33355572",
+      "40128232",
+      "36711093",
+      "38029395",
+      "40693919",
+      "28575444",
+      "31441158",
+      "28493424",
+      "25207671",
+      "39947751",
+      "35481633",
+      "38916177",
+      "39225535",
+      "30205960",
+      "30813629",
+      "40574501",
+      "29276882",
+      "34018649",
+      "40842365",
+      "21541066",
+      "39807013",
+      "37211763",
+      "32824743",
+      "33184287",
+      "37399327",
+      "34338526",
+      "33945530",
+      "27844185",
+      "33684117",
+      "24317797",
+      "32621228",
+      "26455390",
+      "34845619",
+      "40748104",
+      "30366362",
+      "37458354",
+      "40028898",
+      "42332380",
+      "23912807",
+      "34246632",
+      "32020911",
+      "35944496",
+      "40185744",
+      "29990433",
+      "41433062",
+      "41174305",
+      "34504009",
+      "35709363",
+      "40543738",
+      "33302617",
+      "29961577",
+      "30413699",
+      "38118365",
+      "41535729",
+      "39740355",
+      "32403216",
+      "29382046",
+      "31709918",
+      "25544254",
+      "29614221",
+      "38462838",
+      "35762718",
+      "33454008",
+      "29511089",
+      "29716994",
+      "42106138",
+      "38987470",
+      "26195786",
+      "34029402",
+      "41055109",
+      "30813315",
+      "37890778",
+      "39486437",
+      "24278008",
+      "40068541",
+      "38546977",
+      "31791586",
+      "32925900",
+      "28786199",
+      "34656328",
+      "32696383",
+      "32696391"
+    ],
+    "review": [
+      "39885825",
+      "38672516",
+      "33355572",
+      "38029395",
+      "31441158",
+      "39947751",
+      "30813629",
+      "37399327",
+      "32020911",
+      "38118365",
+      "39740355",
+      "32403216",
+      "29382046",
+      "31709918",
+      "25544254"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/langd5/article-lookup/doi/10.1021/acs.langmuir.4c04216",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

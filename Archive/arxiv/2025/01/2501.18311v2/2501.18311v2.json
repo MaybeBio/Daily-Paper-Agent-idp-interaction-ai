@@ -1,0 +1,32 @@
+{
+  "source": "arxiv",
+  "source_id": "2501.18311v2",
+  "title": "Curvature-sensing and generation by membrane proteins: a review",
+  "doi": "10.1039/D5SM00101C",
+  "abstract": "Membrane proteins are crucial in regulating biomembrane shapes and controlling the dynamic changes in membrane morphology during essential cellular processes. These proteins can localize to regions with their preferred curvatures (curvature sensing) and induce localized membrane curvature. Thus, this review describes the recent theoretical development in membrane remodeling performed by membrane proteins. The mean-field theories of protein binding and the resulting membrane deformations are reviewed. The effects of hydrophobic insertions on the area-difference elasticity energy and that of intrinsically disordered protein domains on the membrane bending energy are discussed. For the crescent-shaped proteins, such as Bin/Amphiphysin/Rvs superfamily proteins, anisotropic protein bending energy and orientation-dependent excluded volume significantly contribute to curvature sensing and generation. Moreover, simulation studies of membrane deformations caused by protein binding are reviewed, including domain formation, budding, and tubulation.",
+  "authors": [
+    "Hiroshi Noguchi"
+  ],
+  "published_date": "2025-01-30T12:38:09Z",
+  "updated_date": "2025-04-28T08:55:52Z",
+  "journal": "Soft Matter 21, 3922-3940 (2025)",
+  "category": "cond-mat.soft, physics.bio-ph",
+  "landing_url": "https://arxiv.org/abs/2501.18311v2",
+  "pdf_url": "https://arxiv.org/pdf/2501.18311v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft",
+    "physics.bio-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2501.18311v2",
+    "raw_categories": [
+      "cond-mat.soft",
+      "physics.bio-ph"
+    ],
+    "journal_ref": "Soft Matter 21, 3922-3940 (2025)"
+  }
+}

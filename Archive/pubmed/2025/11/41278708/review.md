@@ -1,0 +1,101 @@
+## Review setup
+- **Input scope** Full manuscript text including abstract, introduction, results, discussion, methods, and supplementary figure legends
+- **Assessment boundary** Scientific content, technical soundness, logical coherence, and support of claims by presented evidence
+- **Shared manuscript claim summary** The authors propose a multistep mechanism for ULK1 complex recruitment to autophagic membranes, involving WIPI3 binding to a DHF motif in ATG13, direct membrane insertion by the ATG101 WF finger and C-terminal helix, and a ULK1 IDR motif that docks onto the ATG13:ATG101 HORMA dimer to position the kinase domain near the membrane.
+- **Visible evidence base** Biochemical pulldown assays, GUV and SUV membrane binding experiments, molecular dynamics simulations, AlphaFold2 structural predictions, cell-based autophagy and mitophagy assays, western blotting, and fluorescence microscopy
+- **Missing materials affecting confidence** Source data files, uncropped blots, full statistical details for all figures, exact replicate numbers for some experiments, and validation of antibody specificity
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a fundamental and long-standing question in autophagy: how the ULK1 complex is recruited to membranes in a PI3P-dependent manner. The authors present a compelling and multi-faceted approach combining structural prediction, biochemical reconstitution, molecular dynamics, and cell-based assays. The proposed stepwise recruitment model is conceptually important and largely well-supported by the presented data. However, several technical concerns regarding the rigor of the biochemical assays, the physiological relevance of the concentrations used, and the specificity of the observed interactions require clarification before the conclusions can be fully accepted.
+- **Who would be interested in the results, and why** Researchers in the autophagy field, particularly those studying the molecular mechanisms of autophagy initiation, ULK1 complex regulation, and PI3P signaling. The work also has broader relevance to those interested in membrane-protein interactions, intrinsically disordered protein regions, and the reconstitution of complex biological processes. The findings may inform therapeutic strategies targeting autophagy in Parkinson's disease and other neurodegenerative conditions.
+- **Major strengths** The study addresses a critical gap in understanding ULK1 recruitment with a well-designed, multi-technique approach. The identification of a specific DHF motif in ATG13 that binds WIPI3, distinct from the WIPI2 interaction site, provides mechanistic clarity. The combination of AlphaFold2 predictions with experimental validation is rigorous. The molecular dynamics simulations add a dynamic perspective that strengthens the structural model. The demonstration of functional relevance in both in vitro kinase assays and cell-based mitophagy assays is commendable.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of biochemical assays
+  - **Claim pointer** The claim that ATG13:ATG101 binds specifically to WIPI3 via the DHF motif, with the interaction being functionally important for ULK1 activity.
+  - **Evidence pointer** Figure 1f, 1g; Figure 4b, 4c
+  - **Concern** The GST pulldown assays used to demonstrate the ATG13-WIPI3 interaction rely on immobilized proteins at concentrations that may not reflect physiological conditions. The authors do not provide binding affinity measurements (e.g., Kd values) or competition experiments to demonstrate specificity. Furthermore, the membrane reconstitution assays use protein concentrations (3 nM ULK1, 30 nM FIP200/ATG13, 100 nM WIPI2/3) that appear arbitrary and may not represent in vivo stoichiometry. The dependence of ATG16L1 phosphorylation on WIPI3 concentration is shown, but no dose-response curve is provided to establish the physiological range.
+  - **Why it matters** Without quantitative binding data and physiologically relevant concentrations, the specificity and functional significance of the proposed interactions cannot be rigorously established. The conclusions depend critically on these interactions being specific and occurring at relevant concentrations.
+  - **Resolution test** Provide quantitative binding measurements (e.g., ITC, SPR, or fluorescence polarization) for the ATG13-WIPI3 interaction, including Kd values for wild-type and mutant proteins. Include competition experiments with unlabeled peptides or proteins. Perform membrane recruitment assays across a range of protein concentrations to establish dose-response relationships and demonstrate that the observed effects occur at physiologically relevant concentrations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for the stepwise recruitment model
+  - **Claim pointer** The central claim of a "multistep recruitment" pathway in which WIPI3 binding precedes and enables ATG101 WF finger membrane insertion, followed by ULK1 IDR-mediated kinase positioning.
+  - **Evidence pointer** Figures 2, 3, 4, 5
+  - **Concern** The temporal and spatial ordering of the proposed steps is not directly demonstrated. The GUV experiments show that WIPI3 and ATG13:ATG101 can co-localize on membranes, and the MD simulations show stable interactions, but no experiment directly tests whether WIPI3 binding is a prerequisite for ATG101 membrane insertion or whether the ULK1 IDR-HORMA interaction occurs before or after membrane binding. The model is presented as a linear pathway, but the data are largely consistent with parallel or cooperative binding events.
+  - **Why it matters** The title and abstract emphasize a "multistep" recruitment process, implying a specific temporal order. If the steps are not ordered but rather cooperative or independent, the conceptual advance is different and the model needs revision.
+  - **Resolution test** Design experiments to test the order of events, such as using mutants that block individual steps and examining whether downstream steps are affected. For example, test whether ATG13(HF|DD) prevents ATG101 WF finger membrane insertion in GUV assays, or whether the ULK1 IDR-HORMA interaction is required for membrane recruitment or only for kinase positioning. Time-resolved experiments or single-molecule approaches could directly visualize the sequence of binding events.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Physiological relevance of the mitophagy data
+  - **Claim pointer** The claim that the ULK1 IDR-HORMA interaction is important for BNIP3/NIX-dependent mitophagy, based on the ULK1-ADA mutant showing impaired mitophagy.
+  - **Evidence pointer** Figure 6
+  - **Concern** The mitophagy assays are performed in ARPE-19 cells with stable overexpression of ULK1 constructs. The authors do not demonstrate that the overexpressed ULK1-ADA mutant is expressed at levels comparable to endogenous ULK1, nor do they show that the mutant does not exert dominant-negative effects through mechanisms other than loss of the specific HORMA interaction. The specificity of the ADA mutation for disrupting only the HORMA interaction is not fully established; it could affect other ULK1 functions or interactions.
+  - **Why it matters** The cellular data are crucial for establishing the physiological relevance of the biochemical findings. If the ADA mutation has off-target effects or the overexpression system introduces artifacts, the conclusion that the HORMA interaction is important for mitophagy would be weakened.
+  - **Resolution test** Perform knockdown/rescue experiments with siRNA-resistant constructs to ensure that the observed phenotypes are due to the specific mutation. Verify that the ADA mutation does not affect ULK1 kinase activity directly or its interaction with other known binding partners. Include a control showing that the ADA mutant localizes normally to membranes in the absence of mitophagy induction.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative rigor of imaging data
+  - **Claim pointer** The claim that ATG13(HF|DD) shows reduced recruitment to omegasomes and that ULK1-ADA shows reduced puncta formation.
+  - **Evidence pointer** Figure 4d, 4e; Figure 6c
+  - **Concern** The imaging data are presented as representative images with quantification, but the authors do not provide details on the number of cells analyzed, the criteria for identifying puncta or omegasomes, or whether the analysis was blinded. The thresholding method described in the methods is semi-automated, but the manual cell outlining introduces potential bias. No information is provided on the colocalization analysis methodology.
+  - **Why it matters** Quantitative imaging data are prone to bias and variability. Without rigorous, blinded analysis with clear criteria, the reported differences between wild-type and mutant conditions may not be robust.
+  - **Resolution test** Provide detailed information on the number of cells and independent experiments, include blinded analysis, and provide a clear description of the image analysis pipeline. Consider using automated or unbiased approaches for puncta detection and colocalization quantification.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1a, 1b
+  - **Issue** The sequence logo in Figure 1a is difficult to interpret without clear labeling of the species and the residue numbering. The conservation analysis would benefit from a more detailed description in the legend.
+  - **Required correction** Add clear labels to the sequence logo indicating the species and the position of the DHF motif. Expand the figure legend to describe the conservation analysis methodology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** All figures with quantitative data
+  - **Evidence pointer** Figures 2, 4, 6
+  - **Issue** The statistical methods are described in the methods section, but individual figure panels do not consistently indicate which statistical test was used and what the error bars represent (SD vs SEM).
+  - **Required correction** Add statistical annotations to each figure panel, including the test used, the number of replicates, and the definition of error bars.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological detail for MD simulations
+  - **Affected element** Methods section
+  - **Evidence pointer** Methods, "Modeling and simulation" section
+  - **Issue** The description of the MD simulation setup lacks some technical details, such as the specific water model parameters, the equilibration protocol for the membrane, and the criteria for determining when the system reached equilibrium.
+  - **Required correction** Provide additional technical details in the methods or supplementary information to allow reproduction of the simulations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Discussion of alternative models
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion
+  - **Issue** The discussion does not adequately address alternative models for ULK1 recruitment, such as direct membrane binding by other ULK1 domains or the role of ATG9 in the process.
+  - **Required correction** Add a brief discussion of alternative or complementary mechanisms and how the proposed model fits with existing literature.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Data availability statement
+  - **Affected element** Data availability section
+  - **Evidence pointer** Data availability
+  - **Issue** The data availability statement is vague and does not specify where the source data for each figure can be accessed.
+  - **Required correction** Provide a more detailed data availability statement, including information on how to access the source data for each figure and any analysis scripts or simulation input files.
+
+## Risk / unsupported claims
+- The claim that the proposed mechanism represents a "unifying model" for ULK1 recruitment is not fully supported, as the authors do not test whether this mechanism applies to all autophagy-inducing conditions or cell types.
+- The statement that the ATG101 WF finger "plays a critical role in facilitating the efficient recruitment of ATG13:ATG101 to the membrane at the physiologically relevant concentration of 40–50 nM" is based on a single concentration point and lacks a full dose-response analysis.
+- The claim that the ULK1 IDR-HORMA interaction "reduces the volume available to explore by ~8-fold" is based on computational modeling with assumptions that are not experimentally validated.
+- The physiological relevance of the MD simulation timescales (1 μs) for capturing the full dynamics of membrane insertion is not discussed.
+- The authors state that "none of the findings described here depend on conformational metamorphosis," but this claim is not directly tested and relies on the assumption that the AlphaFold2 models represent the relevant conformations.
+
+## Assessment against Nature-style criteria
+- **Originality** High. The manuscript provides a novel mechanistic model for ULK1 recruitment that resolves a long-standing question in the field. The identification of a specific DHF motif in ATG13 and the demonstration of direct membrane binding by the ATG101 WF finger are original contributions.
+- **Scientific importance** High. Understanding how the ULK1 complex is recruited to membranes is fundamental to autophagy research. The proposed stepwise model has implications for how autophagy initiation is regulated and how defects in this process contribute to disease.
+- **Interdisciplinary readership** Moderate. The work will primarily interest autophagy and membrane biology researchers. The use of MD simulations and AlphaFold2 may attract computational biologists, but the overall topic is specialized.
+- **Technical soundness** Moderate. The multi-technique approach is commendable, but several technical concerns (quantitative binding data, physiological concentrations, imaging rigor) need to be addressed to fully support the conclusions.
+- **Readability for nonspecialists** Moderate. The manuscript is generally well-written, but the complexity of the model and the reliance on structural predictions may be challenging for readers outside the immediate field. The figures are informative but could benefit from clearer labeling and more detailed legends.
+
+## Recommendation posture
+Supportive if technical concerns are resolved. The manuscript addresses an important question with a compelling model and a multi-faceted experimental approach. However, the lack of quantitative binding data, the use of potentially non-physiological concentrations, and the absence of direct evidence for the temporal ordering of the proposed steps prevent full acceptance of the conclusions as presented. If the authors can address these concerns with additional experiments and provide more rigorous quantitative analyses, the manuscript would make a significant contribution to the field.

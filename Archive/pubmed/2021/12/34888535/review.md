@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (title, summary, introduction, results and discussion, experimental procedures) without supplementary materials, figures, or tables.
+- **Assessment boundary** Scientific claims, methodological soundness, and internal consistency of the presented results as described in the provided text. No assessment of supplementary data, figures, or tables beyond what is referenced.
+- **Shared manuscript claim summary** The authors present an integrative approach combining replica-exchange discrete molecular dynamics (rxDMD) simulations with label-based experiments (ensemble and single-molecule FRET, DEER) to probe the conformational heterogeneity of the intrinsically disordered protein SNAP-25. They report identification of helix-coil transitions in the N-terminal region, agreement between simulations and experiments, and propose this workflow as broadly applicable to IDP studies.
+- **Visible evidence base** Text descriptions of simulation results (Cv peaks, Rg distributions, secondary structure content), experimental FRET and DEER measurements, and comparisons between simulated and experimental distances. References to figures (1-6), tables (1, S1-S8), and supplementary figures (S1-S8) are present but the actual data are not provided.
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials are absent. This includes the primary data for Cv plots, Rg distributions, FRET histograms, DEER decays, distance distributions, and the AV screening results. Without these, quantitative verification of the claims is not possible.
+
+## Reviewer
+- **Overall assessment** The manuscript describes a technically ambitious integration of computational and experimental approaches to study an important IDP system. The conceptual framework is sound and the combination of rxDMD with multiple orthogonal experimental techniques is a strength. However, the absence of all primary data (figures, tables, supplementary) prevents verification of the central claims. Several statements regarding agreement between simulation and experiment are presented without quantitative detail, and the interpretation of some experimental results appears to require additional justification. The claim of capturing a "novel conformational switching behavior" is not fully supported by the evidence described in the text alone.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those interested in integrative structural biology approaches that combine molecular dynamics simulations with ensemble and single-molecule experimental techniques. The work is also relevant to the SNARE complex field, as understanding SNAP-25 conformational dynamics is important for synaptic transmission mechanisms. Methodologists developing integrative modeling workflows for IDPs would find the described approach of interest.
+- **Major strengths** The combination of multiple complementary techniques (rxDMD, smFRET in two modalities, ensemble TC-FRET, DEER) is a significant strength. The use of AV modeling to bridge simulation and experiment is appropriate. The focus on a biologically important IDP (SNAP-25) with clear relevance to neurotransmitter release adds significance. The authors acknowledge limitations of individual techniques and argue for the value of integration, which is a mature perspective.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The manuscript claims "agreements between simulations and experiments" and that the rxDMD ensemble shows "excellent agreement with prior ensemble experimental measurements" including Rg, RH, smFRET distances, and CD spectra.
+  - **Evidence pointer** Figures 2, 3, 4, 5, 6 and Tables 1, S1-S8 (location not provided)
+  - **Concern** All quantitative comparisons between simulation and experiment are described only in text. No actual data, error bars, statistical measures, or quantitative agreement metrics are visible. The claim of "excellent agreement" cannot be evaluated without the underlying data. For example, the statement that simulated and experimental distances are "within <6 Å" is presented without showing the distributions, uncertainties, or the method of comparison.
+  - **Why it matters** The central thesis of the paper is that the integrative approach yields a validated conformational ensemble. Without visible quantitative evidence of agreement, this claim is unverifiable and the foundation of the paper is weakened.
+  - **Resolution test** Provide the actual figures and tables with quantitative comparisons, including error estimates and statistical measures of agreement (e.g., reduced chi-square, RMSD between distributions).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Interpretive validity
+  - **Claim pointer** The authors state that for the 20/44 variant, the FRET data reveal "at least 2 states" and that DEER identifies "three different conformations or states" with peaks at ~2, ~4, and ~6 nm.
+  - **Evidence pointer** Figure 4, Table 1 (location not provided)
+  - **Concern** The interpretation of multiple states from FRET and DEER data is presented without discussion of potential artifacts. For DEER, the presence of a peak at ~2 nm for a doubly spin-labeled protein is unusually short and may indicate spin-label self-interaction or incomplete labeling. The assignment of the ~6 nm peak to a "NO FRET state" is speculative, as the relationship between DEER distance populations and FRET-detected states is not straightforward. The text does not address how the different timescales and physical principles of these techniques are reconciled.
+  - **Why it matters** The identification of distinct conformational states is a key result. If the interpretation is flawed, the conclusions about conformational switching are not supported.
+  - **Resolution test** Provide a detailed analysis of DEER data quality, including modulation depth, labeling efficiency, and validation of the distance distribution. Discuss how the DEER states correspond to FRET states and address potential artifacts.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological transparency
+  - **Claim pointer** The authors state that the WLC model with a single free parameter (stiffness κ) was used to model the 44/66 FRET data and that it "captures the spread of the FRET efficiency distribution."
+  - **Evidence pointer** Figure 5, Equations 2-3 in Supplemental information (location not provided)
+  - **Concern** The choice of the WLC model over discrete states is presented as a resolution to an apparent discrepancy between TC-FRET and MFD data. However, the text does not explain why the WLC model is physically appropriate for this specific region, how the chain length was estimated, or whether the model was tested against alternative models (e.g., a Gaussian chain or a model with excluded volume). The statistical comparison between the WLC model and the 2-state model is mentioned only via chi-square values without context.
+  - **Why it matters** The conclusion that the 44-66 region behaves as a worm-like chain is a specific structural claim. Without proper model validation and comparison, this conclusion is not established.
+  - **Resolution test** Provide a detailed description of the WLC model implementation, the fitting procedure, and a statistical comparison with alternative models. Show the fitted distributions and residuals.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Claim scope
+  - **Claim pointer** The authors claim "to our knowledge, this is the first demonstration of capturing a stochastic dynamic switching behavior of the native state of SNAP-25 on a much faster timescale from the combination of simulation with single-molecule experiments."
+  - **Evidence pointer** Discussion section (location not provided)
+  - **Concern** This novelty claim is broad and would require a thorough literature search to substantiate. The text does not provide a comparative discussion of prior work on SNAP-25 dynamics or on integrative studies of IDPs that may have captured similar phenomena. The claim of "first demonstration" is not adequately supported within the manuscript.
+  - **Why it matters** Novelty claims are important for establishing the significance of the work. An unsupported claim of priority could be inaccurate and detracts from the scientific contribution.
+  - **Resolution test** Provide a comprehensive literature review demonstrating that no prior study has captured similar switching behavior in SNAP-25 or comparable IDPs using similar integrative approaches.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Figure 1B workflow description
+  - **Evidence pointer** Figure 1B (location not provided)
+  - **Issue** The workflow description in the text is brief and does not clearly explain the iterative nature of the integrative modeling, particularly how experimental data are used to refine the simulation ensemble.
+  - **Required correction** Expand the description of the workflow to clarify the feedback loop between simulation and experiment.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of "limiting states"
+  - **Evidence pointer** Discussion section (location not provided)
+  - **Issue** The term "limiting states" is used but not defined. It is unclear whether this refers to the states identified by TC-FRET, the states in the WLC model, or something else.
+  - **Required correction** Define the term clearly upon first use and use it consistently.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Discussion of simulation limitations
+  - **Evidence pointer** Discussion section (location not provided)
+  - **Issue** The text mentions that the simulation uses an implicit solvent model but does not discuss the potential limitations of this choice for an IDP system where solvent interactions are critical.
+  - **Required correction** Add a brief discussion of the strengths and limitations of the implicit solvent model in the context of IDP simulations.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Simulation parameters
+  - **Evidence pointer** Experimental procedures section (location not provided)
+  - **Issue** The text refers to the Supplemental experimental procedures for simulation details but does not summarize key parameters (e.g., force field, simulation length, number of replicas) in the main text.
+  - **Required correction** Include a brief summary of key simulation parameters in the main text or ensure they are prominently presented in the supplemental material.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (absence of quantitative data for agreement claims) and R1-M2 (interpretation of multi-state data without addressing artifacts) are the most critical. Without the actual data, the central claims of the paper cannot be verified.
+- **Assessment against Nature-style criteria** Originality: The integrative approach combining rxDMD with multiple label-based techniques is not entirely novel, as similar strategies have been applied to other systems, but the specific application to SNAP-25 and the combination of techniques may offer some originality. Scientific importance: The study addresses an important question about IDP conformational dynamics in a biologically relevant protein, but the significance of the specific findings is difficult to assess without data. Interdisciplinary readership: The work bridges computational biophysics and experimental single-molecule biophysics, which could appeal to a broad readership. Technical soundness: The described methods are appropriate in principle, but the lack of visible data and the interpretive concerns prevent assessment of technical soundness. Readability for nonspecialists: The text is generally well-written and accessible, though some technical terms and concepts may be challenging for a general audience.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript describes a potentially valuable approach, but the absence of all primary data and the interpretive concerns regarding the multi-state analysis prevent verification of the central claims. The authors should be invited to resubmit with the full data and a revised interpretation.
+
+## Risk / unsupported claims
+- The claim of "excellent agreement" between simulation and experiment is unsupported without quantitative data.
+- The identification of "at least 2 states" for the 20/44 variant and "three different conformations" from DEER is not verifiable without the actual distance distributions and quality metrics.
+- The claim of being the "first demonstration" of capturing stochastic dynamic switching in SNAP-25 is unsupported by a comparative literature review.
+- The statement that the WLC model "captures the spread of the FRET efficiency distribution" is not verifiable without the fitted data and statistical comparison.
+- The assertion that the helical content in simulations is higher than previously reported due to the offset of coil contributions to [Θ]222 is plausible but not quantitatively demonstrated in the text.

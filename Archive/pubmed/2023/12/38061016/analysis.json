@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38061016",
+  "title": "Ultrafast Spectroscopy Reveals Slow Water Dynamics in Biocondensates.",
+  "authors": "Lorenz-Ochoa, Keegan A; Baiz, Carlos R",
+  "journal": "Journal of the American Chemical Society",
+  "published_date": "2023-12-07",
+  "window": {
+    "start": "2023-12-04",
+    "end": "2023-12-10"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用超快光谱和全原子MD研究生物凝聚体中的水氢键动力学，对象为IDR凝聚体且涉及互作环境，但聚焦水动力学而非PPI机制建模，方法有物理模拟但互作轴较弱。",
+  "abstract": "Cells achieve high spatiotemporal control over biochemical processes through compartmentalization to membrane-bound as well as membraneless organelles that assemble by liquid-liquid phase separation. Characterizing the balance of forces within these environments is essential to understanding their stability and function, and water is an integral part of the condensate, playing an important role in mediating electrostatic and hydrogen-bonding interactions. Here, we investigate the ultrafast, picosecond hydrogen-bond dynamics of a model biocondensate consisting of a peptide poly-l-arginine (Poly-R) and the nucleic acid adenosine monophosphate (AMP) using coherent two-dimensional infrared (2D IR) spectroscopy. We investigated three vibrational modes: the arginine side-chain C horizontal lineN stretches, an AMP ring mode, and the amide backbone carbonyl stretching modes. Dynamics slow considerably between the dilute phase and the condensate phase for each vibrational probe. For example, the arginine side-chain C horizontal lineN modes slow from 0.38 to 2.26 ps due to strong electrostatic interactions. All-atom molecular dynamics simulations provide an atomistic interpretation of the H-bond network disruption resulting from electrostatic contributions as well as collapse within the condensate. Simulations predict that a fraction of water molecules are highly constrained within the condensate, explaining the observed slowdown in the H-bond dynamics.",
+  "abstract_zh": "细胞通过区室化作用，在膜结合细胞器及由液-液相分离 (liquid-liquid phase separation) 组装的无膜细胞器中，实现对生化过程的高度时空控制。表征这些环境内部的力平衡对于理解其稳定性与功能至关重要，而水是凝聚体不可或缺的组成部分，在介导静电相互作用和氢键相互作用中扮演重要角色。本研究利用相干二维红外 (2D IR) 光谱技术，探究了由多肽聚-L-精氨酸 (Poly-R) 与核酸单磷酸腺苷 (AMP) 组成的模型生物凝聚体中的超快皮秒氢键动力学。我们考察了三种振动模式：精氨酸侧链C horizontal lineN伸缩振动、AMP环模式以及酰胺骨架羰基伸缩振动。从稀相到凝聚相，各振动探针的动力学均显著减慢。例如，由于强静电相互作用，精氨酸侧链C horizontal lineN模式从0.38皮秒减慢至2.26皮秒。全原子分子动力学 (molecular dynamics) 模拟提供了对静电贡献及凝聚体内塌缩所导致的氢键网络破坏的原子级解释。模拟预测，凝聚体内部分水分子受到高度约束，这解释了观察到的氢键动力学减慢现象。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38061016/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38061016/",
+  "paper_page_path": "papers/pubmed/38061016/index.html"
+}

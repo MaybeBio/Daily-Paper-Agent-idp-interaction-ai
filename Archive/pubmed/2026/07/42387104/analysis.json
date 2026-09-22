@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42387104",
+  "title": "Cross-ancestry pleiotropic analysis of imaging-derived phenotypes enhances risk stratification of depression.",
+  "authors": "Feng, Yu; Guo, Xiaonan; Huang, Peng; Jia, Ningning; Hu, Shaohua; Yang, Sheng",
+  "journal": "Molecular psychiatry",
+  "published_date": "2026-07-02",
+  "window": {
+    "start": "2026-06-29",
+    "end": "2026-07-05"
+  },
+  "score": 0,
+  "one_liner_zh": "该研究利用跨族裔GWAS和机器学习对抑郁症与脑影像表型进行多效性分析，不涉及无序蛋白、蛋白互作或AI/物理模拟方法，与本课题无关。",
+  "abstract": "Depression arises from dynamic interactions among genetic predisposition, brain alterations, and environmental stressors. Despite genome-wide association studies (GWAS) identifying risk loci, the mechanisms translating genetic variation into brain changes remain elusive. Imaging-derived phenotypes (IDPs) were the intermediate traits linking genetic architecture to neural circuit dysfunction. Here, we collected large-scale GWAS summary statistics of depression and IDPs across European (EUR; N = 1,293,933 and 33,224, respectively) and East Asian (EAS; N = 82,874 and 7058, respectively). In the multiple-trait analysis between depression and IDPs, we clarified their genetic correlation through MTAG, identified the pleiotropic single nucleotide variants (SNVs) and genes with functional insight, and established the causal relationship through Mendelian randomization via TwoSampleMR in EUR and EAS ancestry, respectively. To discern the heterogeneous genetic drivers, we selected independent SNVs from the multiple-trait analyses to perform unsupervised clustering. Six clusters delineated distinct biological pathways for metabolic regulation, neurotransmitter dynamics, and neuroimmune interactions, with tissue/cell type specificity through MAGMA. Finally, we dissected relationships between depression and polygenic risk score, IDPs, and modifiable lifestyle factors, and introduced a machine learning framework to refine risk stratification (N = 16,166). Our study advanced the understanding of the multiscale etiology of depression while providing dynamic depression risk stratification for precision prevention.",
+  "abstract_zh": "抑郁症源于遗传易感性、大脑改变与环境应激源之间的动态相互作用。尽管全基因组关联研究（GWAS）已识别出风险位点，但将遗传变异转化为大脑改变的机制仍不明确。影像衍生表型（IDPs）是连接遗传架构与神经回路功能障碍的中间性状。在此，我们收集了欧洲（EUR；N分别为1,293,933和33,224）和东亚（EAS；N分别为82,874和7058）人群中抑郁症和IDPs的大规模GWAS汇总统计。在抑郁症与IDPs的多性状分析中，我们通过MTAG阐明了它们的遗传相关性，识别了具有功能见解的多效性单核苷酸变异（SNVs）及基因，并分别通过EUR和EAS祖先的TwoSampleMR进行孟德尔随机化，确立了因果关系。为辨别异质性遗传驱动因素，我们从多性状分析中选取独立SNVs进行无监督聚类。六个聚类描绘了代谢调控、神经递质动力学和神经免疫相互作用的独特生物学通路，并通过MAGMA显示了组织/细胞类型特异性。最后，我们剖析了抑郁症与多基因风险评分、IDPs及可改变生活方式因素之间的关系，并引入机器学习框架以细化风险分层（N = 16,166）。我们的研究推进了对抑郁症多尺度病因学的理解，同时为精准预防提供了动态的抑郁症风险分层。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42387104/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42387104/",
+  "paper_page_path": "papers/pubmed/42387104/index.html"
+}

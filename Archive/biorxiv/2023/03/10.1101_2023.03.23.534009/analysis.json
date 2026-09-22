@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.03.23.534009",
+  "title": "Atomistic molecular simulations of A β -Zn conformational ensembles",
+  "authors": "Aduriz-Arrizabalaga J; Lopez X; De Sancho D",
+  "journal": "bioRxiv",
+  "published_date": "2023-03-25",
+  "window": {
+    "start": "2023-03-20",
+    "end": "2023-03-26"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用原子级分子动力学模拟结合贝叶斯/最大熵方法生成Aβ-锌离子复合物的构象系综，对象为无序蛋白Aβ，但互作对象是金属离子而非蛋白，方法上物理模拟扎实，对IDP-配体互作机制建模有启发。",
+  "abstract": "The amyloid-forming A β peptide is able to interact with metal cations to form very stable complexes that influence fibril formation and contribute to the onset of Alzheimer’s disease. Multiple structures of peptides derived from A β in complex with different metals have been resolved experimentally to provide an atomic-level description of the metal-protein interactions. However, A β is intrinsically disordered, and hence more amenable to an ensemble description. Molecular dynamics simulations can now reach the timescales needed to generate ensembles for this type of complexes. However, this requires accurate force fields both for the protein and the protein-metal interactions. Here we use state-of-the-art methods to generate force field parameters for the Zn(II) cations in a set of A β complexes and combine them with the Amber99SB ⋆ -ILDN optimized force field. Upon comparison of NMR experiments with the simulation results, further optimized with a Bayesian/Maximum entropy approach, we provide an accurate description of the molecular ensembles for most A β -metal complexes. We find that the resulting conformational ensembles are more heterogeneous than the NMR models deposited in the Protein Data Bank.",
+  "abstract_zh": "能够形成淀粉样蛋白的Aβ肽能够与金属阳离子相互作用，形成非常稳定的复合物，这些复合物影响纤维形成并促进阿尔茨海默病的发生。实验上已解析了源自Aβ的肽段与不同金属复合物的多种结构，以提供金属-蛋白质相互作用的原子级描述。然而，Aβ本质上是无序的，因此更适合用系综描述。分子动力学 (molecular dynamics) 模拟现在能够达到生成此类复合物系综所需的时间尺度。然而，这需要蛋白质及蛋白质-金属相互作用的精确力场。在此，我们使用最先进的方法为一组Aβ复合物中的Zn(II)阳离子生成力场参数，并将其与Amber99SB ⋆ -ILDN优化力场结合。通过将核磁共振 (NMR) 实验与模拟结果进行比较，并进一步采用贝叶斯/最大熵方法优化，我们为大多数Aβ-金属复合物提供了准确的分子系综描述。我们发现，所得构象系综比蛋白质数据银行 (Protein Data Bank) 中沉积的NMR模型更具异质性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.03.23.534009",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.03.23.534009",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.03.23.534009/index.html"
+}

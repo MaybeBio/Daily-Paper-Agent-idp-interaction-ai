@@ -1,0 +1,75 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no full-text methods, figures, or supplementary data were provided for evaluation
+- **Shared manuscript claim summary** The authors hypothesize that importins bind ribosome-associated nascent chains co-translationally. Using selective ribosome profiling in Saccharomyces cerevisiae, they report that a subset of importins associates with a broad range of nascent, often uncharacterized cargoes, including ribosomal proteins, chromatin remodelers, and RNA binding proteins that are aggregation prone in the cytosol. They further propose that importins act consecutively with other ribosome-associated chaperones, linking the nuclear import system to nascent chain folding and chaperoning.
+- **Visible evidence base** Abstract text only; no methods, figures, tables, or statistical details are available
+- **Missing materials affecting confidence** Full manuscript, experimental procedures, data analysis details, control experiments, quantification, and any validation of selective ribosome profiling results
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting hypothesis that connects co-translational chaperoning with the nuclear import system. However, the evidence base provided is insufficient to evaluate the technical rigor, the specificity of the observed associations, or the strength of the proposed mechanistic model. The claims are plausible but currently not established from the supplied material.
+- **Who would be interested in the results, and why** Researchers in protein homeostasis, ribosome-associated quality control, nuclear transport, and systems biology would find the results relevant. The proposed link between importins and nascent chain chaperoning could inform studies on protein aggregation diseases and nuclear import mechanisms.
+- **Major strengths** The hypothesis is novel and addresses an under-explored interface between translation and nuclear transport. The use of selective ribosome profiling to systematically survey all importins in a model organism is a potentially powerful approach. The identification of aggregation-prone cargo classes adds biological relevance.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that selective ribosome profiling systematically measured nascent chain association of all importins in Saccharomyces cerevisiae.  
+  - **Evidence pointer** Abstract only; methods and validation not provided  
+  - **Concern** The abstract does not describe how selective ribosome profiling was adapted to detect importin-nascent chain interactions, nor how specificity was ensured over background or non-specific RNA binding. No controls, replicates, or statistical thresholds are mentioned.  
+  - **Why it matters** Without technical details, the core measurement cannot be assessed for reliability, and the claim of systematic coverage may be overstated.  
+  - **Resolution test** Provide a detailed methods section, including library preparation, spike-in controls, replicate numbers, and criteria for defining significant association. Show that the signal is dependent on translation and not on mRNA abundance or non-specific binding.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Support for mechanistic model  
+  - **Claim pointer** The authors state that importins act consecutively with other ribosome-associated chaperones.  
+  - **Evidence pointer** Abstract only; no experimental data on order of action or functional interdependence  
+  - **Concern** The abstract provides no evidence for a sequential or cooperative mechanism. The claim appears inferential, possibly based on co-occurrence of binding, but no perturbation experiments (e.g., depletion of chaperones or importins) are described.  
+  - **Why it matters** The proposed model of consecutive action is a central conclusion, but without functional tests it remains speculative.  
+  - **Resolution test** Include experiments that disrupt one component and measure effects on the other, or provide kinetic or competition data that support a defined order of binding.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability and cargo specificity  
+  - **Claim pointer** The authors claim that a subset of importins binds a wide range of nascent, often uncharacterized cargoes, including aggregation-prone proteins.  
+  - **Evidence pointer** Abstract only; no list of cargoes or validation of aggregation propensity  
+  - **Concern** The abstract does not specify which importins were identified, how many cargoes were detected, or how aggregation propensity was determined. The term "uncharacterized" is vague and may include false positives.  
+  - **Why it matters** The biological significance depends on the identity and reliability of the cargo set. Without this, the claim of broad relevance is not testable.  
+  - **Resolution test** Provide a table of importin-cargo pairs with statistical support, and validate a subset of interactions using orthogonal methods (e.g., co-immunoprecipitation or in vitro binding).
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Definition of "co-translational"  
+  - **Evidence pointer** Abstract, first sentence  
+  - **Issue** The term "co-translational" is used but not defined in the context of the assay. It is unclear whether binding occurs during active translation or shortly after ribosome release.  
+  - **Required correction** Clarify the operational definition of co-translational binding and how the assay distinguishes it from post-translational association.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Cargo classes  
+  - **Evidence pointer** Abstract, sentence listing ribosomal proteins, chromatin remodelers, and RNA binding proteins  
+  - **Issue** The list of cargo classes is illustrative but not quantified. It is unclear if these represent the majority or a minor fraction of identified cargoes.  
+  - **Required correction** Provide quantitative breakdown of cargo categories and their enrichment relative to the total proteome.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** "Aggregation prone in the cytosol"  
+  - **Evidence pointer** Abstract, sentence on aggregation-prone cargoes  
+  - **Issue** The claim of aggregation propensity is not supported by direct measurements in the abstract. It may be inferred from prior literature or computational predictions.  
+  - **Required correction** Specify the source of aggregation propensity data or include experimental validation.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core measurement and the proposed mechanism are not supported by the provided evidence. R1-M3 is important but not fully blocking if the cargo list is provided in the full manuscript.
+- **Assessment against Nature-style criteria**  
+  - Originality: High. The hypothesis is novel and not a simple extension of existing work.  
+  - Scientific importance: Potentially high, as it links two major cellular systems, but the significance depends on the robustness of the data.  
+  - Interdisciplinary readership: Moderate to high, appealing to cell biologists, biochemists, and systems biologists.  
+  - Technical soundness: Not assessable from the abstract; the method description is insufficient.  
+  - Readability for nonspecialists: The abstract is concise and accessible, but the one-sentence summary is somewhat vague.  
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is promising, and the approach is appropriate, but the abstract alone does not provide sufficient technical detail or functional validation to support the central claims. A revised manuscript with full methods and additional experiments could change this assessment.
+
+## Risk / unsupported claims
+- The claim that importins bind nascent chains co-translationally is unsupported without method details and controls.
+- The claim that importins act consecutively with other ribosome-associated chaperones is unsupported without functional perturbation data.
+- The claim that identified cargoes are aggregation prone is unsupported without direct evidence or clear citation.
+- The general statement that the nuclear import system is "directly intertwined" with nascent chain folding is an interpretation that goes beyond the presented data.

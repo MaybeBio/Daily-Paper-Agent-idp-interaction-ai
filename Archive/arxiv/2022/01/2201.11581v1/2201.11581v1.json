@@ -1,0 +1,43 @@
+{
+  "source": "arxiv",
+  "source_id": "2201.11581v1",
+  "title": "Statistical mechanics of biomolecular condensates via cavity methods",
+  "doi": "",
+  "abstract": "Physical mechanisms of phase separation in living systems can play key physiological roles and have recently been the focus of intensive studies. The strongly heterogeneous and disordered nature of such phenomena in the biological domain poses difficult modeling challenges that require going beyond mean field approaches based on postulating a free energy landscape. The alternative pathway we take in this work is to tackle the full statistical mechanics problem of calculating the partition function in these systems, starting from microscopic interactions, by means of cavity methods. We illustrate the procedure first on the simple binary case, and we then apply it successfully to ternary systems, in which the naive mean field approximations are proved inadequate. We then demonstrate the agreement with lattice model simulations, to finally contrast our theory also with experiments of coacervate formation by associative de-mixing of nucleotides and poly-lysine in aqueous solution. In this way, different types of evidence are provided to support cavity methods as ideal tools for quantitative modeling of biomolecular condensation, giving an optimal balance between the accurate consideration of spatial aspects of the microscopic dynamics and the fast computational results rooted in their analytical tractability.",
+  "authors": [
+    "N. Lauber",
+    "O. Tichacek",
+    "R. Bose",
+    "C. Flamm",
+    "L. Leuzzi",
+    "T-Y Dora tang",
+    "K. Ruiz-Mirazo",
+    "D. De Martino"
+  ],
+  "published_date": "2022-01-27T15:35:59Z",
+  "updated_date": "2022-01-27T15:35:59Z",
+  "journal": "",
+  "category": "cond-mat.stat-mech, cond-mat.soft, q-bio.QM, q-bio.SC",
+  "landing_url": "https://arxiv.org/abs/2201.11581v1",
+  "pdf_url": "https://arxiv.org/pdf/2201.11581v1",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "1",
+  "keywords": [
+    "cond-mat.stat-mech",
+    "cond-mat.soft",
+    "q-bio.QM",
+    "q-bio.SC"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2201.11581v1",
+    "raw_categories": [
+      "cond-mat.stat-mech",
+      "cond-mat.soft",
+      "q-bio.QM",
+      "q-bio.SC"
+    ],
+    "journal_ref": ""
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "pmid": "39510344",
+    "doi": "10.1016/j.jmb.2024.168852",
+    "title": "Revealing Missing Protein-Ligand Interactions Using AlphaFold Predictions."
+  },
+  "content": {
+    "abstract": "Protein-ligand interactions represent an essential step to understand the bases of molecular recognition, an intense field of research in many scientific areas. Structural biology has played a central role in unveiling protein-ligand interactions, but current techniques are still not able to reliably describe the interactions of ligands with highly flexible regions. In this work, we explored the capacity of AlphaFold2 (AF2) to estimate the presence of interactions between ligands and residues belonging to disordered regions. As these interactions are missing in the crystallographic-derived structures, we called them \"ghost interactions\". Using a set of protein structures experimentally obtained after AF2 was trained, we found that the obtained models are good predictors of regions associated with order-disorder transitions. Additionally, we found that AF2 predicts residues making ghost interactions with ligands, which are mostly buried and show differential evolutionary conservation with the rest of the residues located in the flexible region. Our findings could fuel current areas of research that consider, given their biological relevance and their involvement in diseases, intrinsically disordered proteins as potentially valuable targets for drug development.",
+    "keywords": [
+      "alphafold",
+      "disorder",
+      "order-disorder transitions",
+      "predicted interactions",
+      "protein-ligand interactions"
+    ],
+    "mesh_terms": [
+      "Ligands",
+      "*Models, Molecular",
+      "*Protein Binding",
+      "*Proteins/chemistry/metabolism",
+      "Protein Conformation",
+      "Protein Folding",
+      "Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Computational Biology/methods",
+      "Crystallography, X-Ray",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Escobedo, Nahuel",
+        "Saldano, Tadeo",
+        "Mac Donagh, Juan",
+        "Sawicki, Luciana Rodriguez",
+        "Palopoli, Nicolas",
+        "Alberti, Sebastian Fernandez",
+        "Fornasari, Maria Silvina",
+        "Parisi, Gustavo"
+      ],
+      "short_names": [
+        "Escobedo N",
+        "Saldano T",
+        "Mac Donagh J",
+        "Sawicki LR",
+        "Palopoli N",
+        "Alberti SF",
+        "Fornasari MS",
+        "Parisi G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina; Departamento de Ciencias Basicas, Facultad de Agronomia, Universidad Nacional del Centro de la Provincia de Buenos Aires, Azul, Buenos Aires B7300, Argentina.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina. Electronic address: silvina333@gmail.com.",
+        "Departamento de Ciencia y Tecnologia, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina. Electronic address: gusparisi@gmail.com."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Escobedo, Nahuel",
+        "short_name": "Escobedo N",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina."
+        ]
+      },
+      {
+        "full_name": "Saldaño, Tadeo",
+        "short_name": "Saldaño T",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina; Departamento de Ciencias Básicas, Facultad de Agronomía, Universidad Nacional del Centro de la Provincia de Buenos Aires, Azul, Buenos Aires B7300, Argentina."
+        ]
+      },
+      {
+        "full_name": "Mac Donagh, Juan",
+        "short_name": "Mac Donagh J",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina."
+        ]
+      },
+      {
+        "full_name": "Sawicki, Luciana Rodriguez",
+        "short_name": "Sawicki LR",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina."
+        ]
+      },
+      {
+        "full_name": "Palopoli, Nicolas",
+        "short_name": "Palopoli N",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina."
+        ]
+      },
+      {
+        "full_name": "Alberti, Sebastian Fernandez",
+        "short_name": "Alberti SF",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina."
+        ]
+      },
+      {
+        "full_name": "Fornasari, Maria Silvina",
+        "short_name": "Fornasari MS",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina. Electronic address: silvina333@gmail.com."
+        ]
+      },
+      {
+        "full_name": "Parisi, Gustavo",
+        "short_name": "Parisi G",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Ciencia y Tecnología, Universidad Nacional de Quilmes, Bernal B1876BXD, Argentina. Electronic address: gusparisi@gmail.com."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2024 Dec 1",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/11/13 13:49",
+    "fetched_at": "2026-09-22 02:11:43"
+  },
+  "links": {
+    "cites": [
+      "41075100",
+      "40715235",
+      "39763873"
+    ],
+    "refs": [],
+    "similar": [
+      "39510344",
+      "33417598",
+      "39446390",
+      "38226524",
+      "40131945",
+      "39158131",
+      "41534519",
+      "31207240",
+      "39565312",
+      "35312477",
+      "39970826",
+      "18831774",
+      "39337622",
+      "24098099",
+      "29753880",
+      "26720267",
+      "23912807",
+      "28365882",
+      "32020911",
+      "29039919",
+      "40944448",
+      "28934129",
+      "16935303",
+      "24093637",
+      "17206849",
+      "26073257",
+      "29080786",
+      "27115638",
+      "32599863",
+      "33361159",
+      "37892124",
+      "24668165",
+      "38124369",
+      "41874397",
+      "12402356",
+      "25533957",
+      "39952928",
+      "36344848",
+      "39684679",
+      "26683124",
+      "38739602",
+      "41309611",
+      "39604735",
+      "23364837",
+      "38866950",
+      "39541981",
+      "34418423",
+      "17391016",
+      "33779503",
+      "25707321",
+      "28765603",
+      "26790343",
+      "41570036",
+      "32936312",
+      "21987472",
+      "41030071",
+      "35609776",
+      "39962390",
+      "27450808",
+      "28975675",
+      "25049402",
+      "29716994",
+      "32045581",
+      "36116541",
+      "23466039",
+      "40074747",
+      "22002096",
+      "32112804",
+      "40728616",
+      "22174268",
+      "25275445",
+      "39740355",
+      "38131311",
+      "39643640",
+      "28002650",
+      "40674483",
+      "9194176",
+      "31348608",
+      "35739160",
+      "29982297",
+      "38253327",
+      "38079339",
+      "41016010",
+      "30135358",
+      "38508305",
+      "31683063",
+      "42012336",
+      "23193202",
+      "19714771",
+      "23520021",
+      "30304684",
+      "33647291",
+      "23092444",
+      "30514761",
+      "41454828",
+      "31257108",
+      "24726865",
+      "26813336",
+      "32696381",
+      "34358545"
+    ],
+    "review": [
+      "39510344",
+      "39970826",
+      "29753880",
+      "26720267",
+      "32020911",
+      "26073257",
+      "33361159",
+      "38124369",
+      "34418423",
+      "32045581",
+      "23466039",
+      "39740355",
+      "29982297",
+      "23193202"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(24)00482-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

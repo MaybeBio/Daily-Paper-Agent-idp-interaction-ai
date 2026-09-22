@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40963550",
+  "title": "Simulations reveal a balance between protein-protein and protein-lipid interactions during condensation on membrane surfaces.",
+  "authors": "Zinga, Ketsia; Lee, Yohan; Pathak, Shireen; Patel, Nishi; Stachowiak, Jeanne; Ren, Pengyu",
+  "journal": "Chemical science",
+  "published_date": "2025-09-18",
+  "window": {
+    "start": "2025-09-15",
+    "end": "2025-09-21"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用粗粒化分子动力学模拟研究膜表面无序蛋白凝聚，揭示蛋白-蛋白与蛋白-脂质相互作用的平衡调控相分离机制，对象、互作与方法三者齐备且聚焦机制建模。",
+  "abstract": "Liquid-liquid phase separation of protein condensates occurs frequently on biological membranes, where it is involved in diverse physiological processes from cell-cell recognition to endocytosis. Several recent studies have suggested that binding to lipids promotes phase separation of proteins. However, relatively little is known about the underlying molecular mechanisms. Here we use coarse-grained molecular dynamics simulations, grounded by data from experiments, to investigate the condensation of intrinsically disordered proteins on membrane surfaces. Attaching polyampholytic intrinsically disordered proteins to membranes composed of lipids with neutral head groups resulted in spontaneous protein condensation and coarsening on membrane surfaces, in agreement with experimentally-derived phase diagrams. Introducing lipids with negatively charged head groups strengthened association of proteins with membranes. However, as the concentration of charged lipids increased, protein-lipid interactions began to compete with protein-protein interactions, driving protein condensates to disperse, as confirmed by experiments. Contrary to previous understanding, this work suggests that negatively charged membranes, which are found throughout the cell, can regulate protein condensation both positively and negatively, depending on the balance between protein-protein and protein-lipid interactions.",
+  "abstract_zh": "蛋白质凝聚体的液-液相分离经常发生在生物膜上，参与从细胞间识别到内吞作用等多种生理过程。近期几项研究表明，与脂质结合能促进蛋白质的相分离。然而，关于其潜在的分子机制知之甚少。在此，我们利用基于实验数据支持的粗粒化分子动力学模拟，研究 intrinsically disordered proteins（内在无序蛋白质）在膜表面的凝聚。将多聚两性电解质型内在无序蛋白质附着于由中性头基脂质组成的膜上，导致蛋白质在膜表面自发凝聚并粗化，这与实验得出的相图一致。引入带负电荷头基的脂质增强了蛋白质与膜的结合。然而，随着带电脂质浓度增加，蛋白质-脂质相互作用开始与蛋白质-蛋白质相互作用竞争，促使蛋白质凝聚体分散，这一点已通过实验证实。与以往理解相反，本研究表明，遍布细胞内的负电荷膜能双向调节蛋白质凝聚，其效果取决于蛋白质-蛋白质与蛋白质-脂质相互作用的平衡。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40963550/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40963550/",
+  "paper_page_path": "papers/pubmed/40963550/index.html"
+}

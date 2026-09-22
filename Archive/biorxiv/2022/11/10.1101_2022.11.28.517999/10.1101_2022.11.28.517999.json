@@ -1,0 +1,331 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.11.28.517999",
+  "title": "WITHDRAWN: Ultrastructural characterization of a viral RNA and G-protein containing, membranous organelle formed in respiratory syncytial virus infected cells",
+  "doi": "10.1101/2022.11.28.517999",
+  "abstract": "<h4>Withdrawal statement</h4> The authors have withdrawn their manuscript because since deposition of this preprint, they have become aware of the possibility that the findings reported may be an artefact. Carter et al. (J Struct Biol 2018 Jan;201(1):15-25. doi: 10.1016/j.jsb.2017.10.009) have reported that multilamellar bodies exhibit autofluorescence under cryogenic conditions. Thus, there is a possibility that stress induced by virus infection may stimulate formation of the features reported in this article, and autofluorescence, rather than specific labelling led them to identify the puncta as compartments containing RSV proteins or genomes. They are working to address these issues. Therefore, the authors do not wish this work to be cited as reference for the project. If you have any questions, please contact the corresponding author.",
+  "authors": [
+    "Vijayakrishnan S",
+    "Burns AM",
+    "Blanchard EL",
+    "Spink MC",
+    "Gilchrist JB",
+    "Howe A",
+    "Darrow MC",
+    "Harkiolaki M",
+    "Wu C",
+    "Dutch RE",
+    "Santangelo PJ",
+    "Fearns R",
+    "Bhella D"
+  ],
+  "published_date": "2022-11-28",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.11.28.517999",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.11.28.517999.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR576752",
+    "raw_record": {
+      "id": "PPR576752",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR576752"
+        ]
+      },
+      "doi": "10.1101/2022.11.28.517999",
+      "title": "WITHDRAWN: Ultrastructural characterization of a viral RNA and G-protein containing, membranous organelle formed in respiratory syncytial virus infected cells",
+      "authorString": "Vijayakrishnan S, Burns AM, Blanchard EL, Spink MC, Gilchrist JB, Howe A, Darrow MC, Harkiolaki M, Wu C, Dutch RE, Santangelo PJ, Fearns R, Bhella D.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Vijayakrishnan S",
+            "lastName": "Vijayakrishnan",
+            "firstName": "Swetha",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC-University of Glasgow Centre for Virus Research, Garscube campus, 464 Bearsden Road, Glasgow, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Burns AM",
+            "lastName": "Burns",
+            "firstName": "Andrew",
+            "initials": "AM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC-University of Glasgow Centre for Virus Research, Garscube campus, 464 Bearsden Road, Glasgow, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Blanchard EL",
+            "lastName": "Blanchard",
+            "firstName": "Emmeline",
+            "initials": "EL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Atlanta, Georgia, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Spink MC",
+            "lastName": "Spink",
+            "firstName": "Matthew",
+            "initials": "MC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Diamond Light source, Harwell Science and Innovation campus, Didcot, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gilchrist JB",
+            "lastName": "Gilchrist",
+            "firstName": "James",
+            "initials": "JB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Diamond Light source, Harwell Science and Innovation campus, Didcot, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Howe A",
+            "lastName": "Howe",
+            "firstName": "Andrew",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2187-7672"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Diamond Light source, Harwell Science and Innovation campus, Didcot, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Darrow MC",
+            "lastName": "Darrow",
+            "firstName": "Michelle",
+            "initials": "MC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6259-1684"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Diamond Light source, Harwell Science and Innovation campus, Didcot, UK"
+                },
+                {
+                  "affiliation": "Rosalind Franklin Institute, Harwell Science & Innovation Campus, Didcot, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Harkiolaki M",
+            "lastName": "Harkiolaki",
+            "firstName": "Maria",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8091-9057"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Diamond Light source, Harwell Science and Innovation campus, Didcot, UK"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wu C",
+            "lastName": "Wu",
+            "firstName": "Cheng-Yu",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Cellular Biochemistry, University of Kentucky, Lexington, Kentucky, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dutch RE",
+            "lastName": "Dutch",
+            "firstName": "Rebecca Ellis",
+            "initials": "RE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular and Cellular Biochemistry, University of Kentucky, Lexington, Kentucky, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Santangelo PJ",
+            "lastName": "Santangelo",
+            "firstName": "Philip",
+            "initials": "PJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Wallace H. Coulter Department of Biomedical Engineering, Georgia Institute of Technology and Emory University, Atlanta, Georgia, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fearns R",
+            "lastName": "Fearns",
+            "firstName": "Rachel",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology and National Emerging Infectious Diseases, Laboratories, Boston University Chobanian & Avedisian School of Medicine, Boston, Massachusetts, USA"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Bhella D",
+            "lastName": "Bhella",
+            "firstName": "David",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "MRC-University of Glasgow Centre for Virus Research, Garscube campus, 464 Bearsden Road, Glasgow, UK"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6259-1684"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8091-9057"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2187-7672"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2022",
+      "abstractText": "<h4>Withdrawal statement</h4>  The authors have withdrawn their manuscript because since deposition of this preprint, they have become aware of the possibility that the findings reported may be an artefact. Carter et al. (J Struct Biol 2018 Jan;201(1):15-25. doi: 10.1016/j.jsb.2017.10.009) have reported that multilamellar bodies exhibit autofluorescence under cryogenic conditions. Thus, there is a possibility that stress induced by virus infection may stimulate formation of the features reported in this article, and autofluorescence, rather than specific labelling led them to identify the puncta as compartments containing RSV proteins or genomes. They are working to address these issues. Therefore, the authors do not wish this work to be cited as reference for the project. If you have any questions, please contact the corresponding author.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint",
+          "Preprint-withdrawal"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2022
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2022/11/28/2022.11.28.517999.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2022.11.28.517999"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR576752"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR576752&type=FILE&fileName=EMS157792-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS157792",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2022-11-30",
+      "firstPublicationDate": "2022-11-28",
+      "firstIndexDate": "2022-11-30",
+      "fullTextReceivedDate": "2022-12-06",
+      "hasEvaluations": "N"
+    }
+  }
+}

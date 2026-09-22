@@ -1,0 +1,506 @@
+{
+  "source": "chemrxiv",
+  "source_id": "10.26434/chemrxiv-2023-xglb4-v3",
+  "title": "Understanding β-strand mediated protein-protein interactions using peptidomimetics: tuning binding affinity of intrinsically disordered sequences by covalent backbone modification",
+  "doi": "10.26434/chemrxiv-2023-xglb4-v3",
+  "abstract": "A significant challenge in chemical biology is to understand and modulate protein-protein interactions (PPIs). Given that many PPIs involve a folded protein domain and a peptide sequence that is intrinsically disordered in isolation, peptides represent powerful tools to understand PPIs and templates for PPI modulator development. Using the interaction between small ubiquitin-like modifiers (SUMO) and SUMO-interacting motifs (SIMs), here we show that N-methylation of the peptide backbone can effectively restrict accessible peptide conformations, predisposing them for protein recognition. Backbone N-methylation in appropriate locations results in faster target binding, and thus higher affinity, as shown by fluorescence anisotropy, relaxation-based NMR experiments, and computational analysis. We show that such higher affinities occur as a consequence of an increase in the energy of the unbound state, and a reduction in the entropic contribution to the binding and activation energies. Thus, backbone N-Methylation may represent a useful modification within the peptidomimetic toolbox to probe β-strand mediated coupled binding and folding interactions.",
+  "authors": [
+    "Emma Cawood",
+    "Emily Baker",
+    "Thomas Edwards",
+    "Derek Woolfson",
+    "Theodoros Karamanos",
+    "Wilson Andrew"
+  ],
+  "published_date": "2023-12-03",
+  "updated_date": "2023-12-03T23:39:51Z",
+  "journal": "ChemRxiv",
+  "category": "",
+  "landing_url": "https://doi.org/10.26434/chemrxiv-2023-xglb4-v3",
+  "pdf_url": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-xglb4-v3",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "3",
+  "keywords": [],
+  "extra": {
+    "publisher": "American Chemical Society (ACS)",
+    "prefix": "10.26434",
+    "type": "posted-content",
+    "group_title": "",
+    "raw_record": {
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            7,
+            30
+          ]
+        ],
+        "date-time": "2026-07-30T18:06:27Z",
+        "timestamp": 1785434787862,
+        "version": "3.56.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            3
+          ]
+        ]
+      },
+      "reference-count": 0,
+      "publisher": "American Chemical Society (ACS)",
+      "license": [
+        {
+          "start": {
+            "date-parts": [
+              [
+                2023,
+                12,
+                3
+              ]
+            ],
+            "date-time": "2023-12-03T00:00:00Z",
+            "timestamp": 1701561600000
+          },
+          "content-version": "unspecified",
+          "delay-in-days": 0,
+          "URL": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "funder": [
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "Engineering and Physical Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "EP/N013573/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/N013573/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "Engineering and Physical Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "EP/KO39292/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/KO39292/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000268",
+          "name": "Biotechnology and Biological Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "BB/V003577/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "BB/V003577/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000268",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000268",
+          "name": "Biotechnology and Biological Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "BB/L01386X/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "BB/L01386X/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000268",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100010269",
+          "name": "Wellcome Trust",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "223268/Z/21/Z"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "223268/Z/21/Z"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100010269",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "Engineering and Physical Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "EP/K039202/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/K039202/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/501100000266",
+          "name": "Engineering and Physical Sciences Research Council",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "EP/K03927X/1"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "EP/K03927X/1"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/501100000266",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100010269",
+          "name": "Wellcome Trust",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "1094950/Z/14/Z"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "1094950/Z/14/Z"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100010269",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        },
+        {
+          "DOI": "10.13039/100010269",
+          "name": "Wellcome Trust",
+          "doi-asserted-by": "publisher",
+          "award": [
+            "108466/Z/15/Z"
+          ],
+          "award-info": [
+            {
+              "award-number": [
+                "108466/Z/15/Z"
+              ]
+            }
+          ],
+          "id": [
+            {
+              "id": "10.13039/100010269",
+              "id-type": "DOI",
+              "asserted-by": "publisher"
+            }
+          ]
+        }
+      ],
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "abstract": "<jats:p>A significant challenge in chemical biology is to understand and modulate protein-protein interactions (PPIs). Given that many PPIs involve a folded protein domain and a peptide sequence that is intrinsically disordered in isolation, peptides represent powerful tools to understand PPIs and templates for PPI modulator development. Using the interaction between small ubiquitin-like modifiers (SUMO) and SUMO-interacting motifs (SIMs), here we show that N-methylation of the peptide backbone can effectively restrict accessible peptide conformations, predisposing them for protein recognition. Backbone N-methylation in appropriate locations results in faster target binding, and thus higher affinity, as shown by fluorescence anisotropy, relaxation-based NMR experiments, and computational analysis. We show that such higher affinities occur as a consequence of an increase in the energy of the unbound state, and a reduction in the entropic contribution to the binding and activation energies. Thus, backbone N-Methylation may represent a useful modification within the peptidomimetic toolbox to probe β-strand mediated coupled binding and folding interactions.</jats:p>",
+      "DOI": "10.26434/chemrxiv-2023-xglb4-v3",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            3
+          ]
+        ],
+        "date-time": "2023-12-03T23:39:51Z",
+        "timestamp": 1701646791000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Understanding β-strand mediated protein-protein interactions using peptidomimetics: tuning binding affinity of intrinsically disordered sequences by covalent backbone modification"
+      ],
+      "prefix": "10.26434",
+      "author": [
+        {
+          "given": "Emma",
+          "family": "Cawood",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/024mrxd33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Leeds",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emily",
+          "family": "Baker",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0524sp257",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Bristol",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Thomas",
+          "family": "Edwards",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/024mrxd33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Leeds",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Derek",
+          "family": "Woolfson",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/0524sp257",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Bristol",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Theodoros",
+          "family": "Karamanos",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/041kmwe10",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "Imperial College London",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9852-6366",
+          "authenticated-orcid": false,
+          "given": "Wilson",
+          "family": "Andrew",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "id": [
+                {
+                  "id": "https://ror.org/024mrxd33",
+                  "id-type": "ROR",
+                  "asserted-by": "publisher"
+                }
+              ],
+              "name": "University of Leeds",
+              "place": [
+                "United Kingdom"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "member": "316",
+      "link": [
+        {
+          "URL": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv-2023-xglb4-v3",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            5,
+            14
+          ]
+        ],
+        "date-time": "2026-05-14T10:19:37Z",
+        "timestamp": 1778753977000
+      },
+      "score": 108.6367,
+      "resource": {
+        "primary": {
+          "URL": "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2023-xglb4-v3"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            3
+          ]
+        ]
+      },
+      "references-count": 0,
+      "URL": "https://doi.org/10.26434/chemrxiv-2023-xglb4-v3",
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            12,
+            3
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36528065",
+  "title": "Intrinsically disordered regions that drive phase separation form a robustly distinct protein class.",
+  "authors": "Ibrahim, Ayyam Y; Khaodeuanepheng, Nathan P; Amarasekara, Dhanush L; Correia, John J; Lewis, Karen A; Fitzkee, Nicholas C; Hough, Loren E; Whitten, Steven T",
+  "journal": "The Journal of biological chemistry",
+  "published_date": "2022-12-18",
+  "window": {
+    "start": "2022-12-12",
+    "end": "2022-12-18"
+  },
+  "score": 7,
+  "one_liner_zh": "该文通过序列特征和氨基酸性质尺度区分驱动相分离的IDR并优化ParSe预测器，虽聚焦IDR分类与预测而非具体PPI机制建模，但方法可迁移至IDR介导互作研究。",
+  "abstract": "Protein phase separation is thought to be a primary driving force for the formation of membrane-less organelles, which control a wide range of biological functions from stress response to ribosome biogenesis. Among phase-separating (PS) proteins, many have intrinsically disordered regions (IDRs) that are needed for phase separation to occur. Accurate identification of IDRs that drive phase separation is important for testing the underlying mechanisms of phase separation, identifying biological processes that rely on phase separation, and designing sequences that modulate phase separation. To identify IDRs that drive phase separation, we first curated datasets of folded, ID, and PS ID sequences. We then used these sequence sets to examine how broadly existing amino acid property scales can be used to distinguish between the three classes of protein regions. We found that there are robust property differences between the classes and, consequently, that numerous combinations of amino acid property scales can be used to make robust predictions of protein phase separation. This result indicates that multiple, redundant mechanisms contribute to the formation of phase-separated droplets from IDRs. The top-performing scales were used to further optimize our previously developed predictor of PS IDRs, ParSe. We then modified ParSe to account for interactions between amino acids and obtained reasonable predictive power for mutations that have been designed to test the role of amino acid interactions in driving protein phase separation. Collectively, our findings provide further insight into the classification of IDRs and the elements involved in protein phase separation.",
+  "abstract_zh": "蛋白质相分离 (phase separation) 被认为是形成无膜细胞器的主要驱动力，这些细胞器控制着从应激反应到核糖体生物发生等一系列广泛的生物功能。在相分离蛋白 (phase-separating, PS) 中，许多含有内在无序区域 (intrinsically disordered regions, IDRs)，这些区域是相分离发生所必需的。准确识别驱动相分离的IDRs，对于检验相分离的潜在机制、识别依赖相分离的生物过程以及设计调节相分离的序列具有重要意义。为了识别驱动相分离的IDRs，我们首先整理了折叠、ID和PS ID序列的数据集。然后，我们利用这些序列集来检验现有氨基酸性质标度在多大程度上可用于区分这三类蛋白质区域。我们发现这些类别之间存在稳健的性质差异，因此，多种氨基酸性质标度的组合可用于对蛋白质相分离进行稳健预测。这一结果表明，多种冗余机制共同促进了由IDRs形成相分离液滴的过程。表现最佳的标度被用于进一步优化我们先前开发的PS IDRs预测器ParSe。随后，我们对ParSe进行了修改，以考虑氨基酸之间的相互作用，并在针对设计用于测试氨基酸相互作用在驱动蛋白质相分离中作用的突变中获得了合理的预测能力。总体而言，我们的发现为IDRs的分类及参与蛋白质相分离的元件提供了更深入的见解。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36528065/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36528065/",
+  "paper_page_path": "papers/pubmed/36528065/index.html"
+}

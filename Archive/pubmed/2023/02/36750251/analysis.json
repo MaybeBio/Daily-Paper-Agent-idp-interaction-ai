@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36750251",
+  "title": "Interaction Dynamics of Intrinsically Disordered Proteins from Single-Molecule Spectroscopy.",
+  "authors": "Chowdhury, Aritra; Nettels, Daniel; Schuler, Benjamin",
+  "journal": "Annual review of biophysics",
+  "published_date": "2023-02-08",
+  "window": {
+    "start": "2023-02-06",
+    "end": "2023-02-12"
+  },
+  "score": 6,
+  "one_liner_zh": "综述单分子光谱技术研究无序蛋白互作动态与机制（如飞镖机制、遭遇复合物），对象与互作轴强，但方法轴为实验技术而非AI/物理模拟，故评6分。",
+  "abstract": "Many proteins contain large structurally disordered regions or are entirely disordered under physiological conditions. The functions of these intrinsically disordered proteins (IDPs) often involve interactions with other biomolecules. An important emerging effort has thus been to identify the molecular mechanisms of IDP interactions and how they differ from the textbook notions of biomolecular binding for folded proteins. In this review, we summarize how the versatile tool kit of single-molecule fluorescence spectroscopy can aid the investigation of these conformationally heterogeneous and highly dynamic molecular systems. We discuss the experimental observables that can be employed and how they enable IDP complexes to be probed on timescales from nanoseconds to hours. Key insights include the diverse structural and dynamic properties of bound IDPs and the kinetic mechanisms facilitated by disorder, such as fly-casting; disorder-mediated encounter complexes; and competitive substitution via ternary complexes, which enables rapid dissociation even for high-affinity complexes. We also discuss emerging links to aggregation, liquid-liquid phase separation, and cellular processes, as well as current technical advances to further expand the scope of single-molecule spectroscopy.",
+  "abstract_zh": "许多蛋白质含有大的结构无序区域，或在生理条件下完全无序。这些固有无序蛋白（IDPs）的功能通常涉及与其他生物分子的相互作用。因此，一个重要的新兴研究方向是识别IDP相互作用的分子机制，以及它们如何不同于折叠蛋白生物分子结合的教科书概念。在本综述中，我们总结了单分子荧光光谱的多功能工具包如何有助于研究这些构象异质且高度动态的分子系统。我们讨论了可采用的实验观测变量，以及它们如何使IDP复合物在从纳秒到小时的时间尺度上被探测。关键见解包括结合IDP的多样结构和动态特性，以及由无序性促进的动力学机制，如飞钓（fly-casting）；无序介导的遭遇复合物；以及通过三元复合物进行的竞争性替换，这即使对高亲和力复合物也能实现快速解离。我们还讨论了与聚集、液-液相分离和细胞过程的新兴联系，以及当前进一步扩展单分子光谱应用范围的技术进展。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36750251/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36750251/",
+  "paper_page_path": "papers/pubmed/36750251/index.html"
+}

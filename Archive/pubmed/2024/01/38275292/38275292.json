@@ -1,0 +1,339 @@
+{
+  "identity": {
+    "pmid": "38275292",
+    "doi": "10.7554/eLife.88221",
+    "title": "Intrinsic protein disorder is insufficient to drive subnuclear clustering in embryonic transcription factors."
+  },
+  "content": {
+    "abstract": "Modern microscopy has revealed that core nuclear functions, including transcription, replication, and heterochromatin formation, occur in spatially restricted clusters. Previous work from our lab has shown that subnuclear high-concentration clusters of transcription factors may play a role in regulating RNA synthesis in the early Drosophila embryo. A nearly ubiquitous feature of eukaryotic transcription factors is that they contain intrinsically disordered regions (IDRs) that often arise from low complexity amino acid sequences within the protein. It has been proposed that IDRs within transcription factors drive co-localization of transcriptional machinery and target genes into high-concentration clusters within nuclei. Here, we test that hypothesis directly, by conducting a broad survey of the subnuclear localization of IDRs derived from transcription factors. Using a novel algorithm to identify IDRs in the Drosophila proteome, we generated a library of IDRs from transcription factors expressed in the early Drosophila embryo. We used this library to perform a high-throughput imaging screen in Drosophila Schneider-2 (S2) cells. We found that while subnuclear clustering does not occur when the majority of IDRs are expressed alone, it is frequently seen in full-length transcription factors. These results are consistent in live Drosophila embryos, suggesting that IDRs are insufficient to drive the subnuclear clustering behavior of transcription factors. Furthermore, the clustering of transcription factors in living embryos was unaffected by the deletion of IDR sequences. Our results demonstrate that IDRs are unlikely to be the primary molecular drivers of the clustering observed during transcription, suggesting a more complex and nuanced role for these disordered protein sequences.",
+    "keywords": [
+      "D. melanogaster",
+      "chromosomes",
+      "confocal microscopy",
+      "gene expression",
+      "protein disorder",
+      "protein structure prediction",
+      "transcription factors"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Transcription Factors/genetics",
+      "Protein Conformation",
+      "Proteome",
+      "Amino Acid Sequence",
+      "Drosophila/metabolism",
+      "*Intrinsically Disordered Proteins/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Hannon, Colleen E",
+        "Eisen, Michael B"
+      ],
+      "short_names": [
+        "Hannon CE",
+        "Eisen MB"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-4402-8107",
+        "ORCID: 0000-0002-7528-738X"
+      ],
+      "affiliations": [
+        "Howard Hughes Medical Institute, University of California, Berkeley, United States.",
+        "Howard Hughes Medical Institute, University of California, Berkeley, United States."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Hannon, Colleen E",
+        "short_name": "Hannon CE",
+        "identifiers": [
+          "0000-0002-4402-8107"
+        ],
+        "affiliations": [
+          "Howard Hughes Medical Institute, University of California, Berkeley, United States."
+        ]
+      },
+      {
+        "full_name": "Eisen, Michael B",
+        "short_name": "Eisen MB",
+        "identifiers": [
+          "0000-0002-7528-738X"
+        ],
+        "affiliations": [
+          "Howard Hughes Medical Institute, University of California, Berkeley, United States."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "eLife"
+    ],
+    "journal_abbrev": [
+      "Elife"
+    ],
+    "pub_date": "2024 Jan 26",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/26 12:45",
+    "fetched_at": "2026-09-21 04:29:42"
+  },
+  "links": {
+    "cites": [
+      "41839911",
+      "40951301",
+      "40650976",
+      "39937680",
+      "39888268",
+      "39164967",
+      "39022733",
+      "39006906",
+      "38915503",
+      "38727722",
+      "37349773"
+    ],
+    "refs": [
+      "36265487",
+      "35934050",
+      "35605677",
+      "35537448",
+      "35483357",
+      "34557680",
+      "33875885",
+      "33561389",
+      "33219682",
+      "33156333",
+      "32929202",
+      "32766749",
+      "32237272",
+      "31594803",
+      "31560342",
+      "30988205",
+      "30657889",
+      "30589412",
+      "30449618",
+      "30420502",
+      "30357350",
+      "29930094",
+      "29930091",
+      "29930090",
+      "29860432",
+      "28982761",
+      "28701416",
+      "28636597",
+      "28110180",
+      "27798851",
+      "27793971",
+      "27610567",
+      "27293191",
+      "27280787",
+      "26776729",
+      "26763984",
+      "26015579",
+      "25747659",
+      "25639854",
+      "25538246",
+      "25537195",
+      "25300481",
+      "25294944",
+      "24670639",
+      "24271386",
+      "24267890",
+      "24139738",
+      "23828889",
+      "23085320",
+      "22661649",
+      "22174267",
+      "22169023",
+      "21873635",
+      "21576393",
+      "21346796",
+      "20627963",
+      "19481089",
+      "19304878",
+      "18927579",
+      "18653470",
+      "17676063",
+      "17645804",
+      "16876822",
+      "16734424",
+      "16697407",
+      "15896740",
+      "15769473",
+      "11063696",
+      "10393112",
+      "9786894",
+      "9600884",
+      "3907859",
+      "3080805",
+      "3059495",
+      "2493990",
+      "2247079",
+      "1851121",
+      "1657403"
+    ],
+    "similar": [
+      "38275292",
+      "38662765",
+      "30878482",
+      "35094056",
+      "33248138",
+      "38297118",
+      "35883444",
+      "33627133",
+      "37207625",
+      "33866372",
+      "36008992",
+      "36291695",
+      "33243935",
+      "36908253",
+      "29759983",
+      "27062995",
+      "34303077",
+      "33616531",
+      "35767567",
+      "34179096",
+      "26699268",
+      "28167781",
+      "32553192",
+      "31441158",
+      "30802457",
+      "29626537",
+      "27807972",
+      "38297184",
+      "24727949",
+      "33806614",
+      "26149687",
+      "29763584",
+      "37657994",
+      "25752799",
+      "27718363",
+      "38220424",
+      "34418423",
+      "24532081",
+      "38579676",
+      "33191750",
+      "34951585",
+      "35275927",
+      "33719450",
+      "36959451",
+      "21647374",
+      "32824743",
+      "33406091",
+      "31889261",
+      "25286318",
+      "26256058",
+      "28924037",
+      "30841624",
+      "26307970",
+      "38459060",
+      "32128405",
+      "36528065",
+      "34656334",
+      "36648282",
+      "23142703",
+      "37986812",
+      "33567297",
+      "37961106",
+      "31521235",
+      "35290420",
+      "25391399",
+      "29550429",
+      "31724233",
+      "28934129",
+      "31756456",
+      "33036302",
+      "36851914",
+      "15345045",
+      "31804089",
+      "26314865",
+      "33078839",
+      "34871434",
+      "34506483",
+      "27881680",
+      "27787828",
+      "29714690",
+      "34012049",
+      "34390736",
+      "32503351",
+      "29930091",
+      "29066345",
+      "36272675",
+      "27647212",
+      "32696354",
+      "34656333",
+      "33561389"
+    ],
+    "review": [
+      "38275292",
+      "33248138",
+      "33243935",
+      "34303077",
+      "31441158",
+      "37657994",
+      "25752799",
+      "38220424",
+      "34418423",
+      "24532081",
+      "36959451",
+      "34656334",
+      "36648282",
+      "33567297",
+      "31521235",
+      "36851914",
+      "33078839",
+      "34390736"
+    ],
+    "pmc": [
+      "10945700"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "http://flybase.org/cgi-bin/uniq.html?db=fbrf&field=pubmed_id&context=38275292",
+        "provider": "FlyBase",
+        "category": "Molecular Biology Databases",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38275292/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38275292",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/CPTAC-972",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.7554/eLife.88221",
+        "provider": "eLife Sciences Publications, Ltd",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

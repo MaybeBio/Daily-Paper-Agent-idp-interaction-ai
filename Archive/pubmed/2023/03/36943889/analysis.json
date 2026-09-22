@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "36943889",
+  "title": "Mechanomemory in protein diffusivity of chromatin and nucleoplasm after force cessation.",
+  "authors": "Rashid, Fazlur; Liu, Wenjie; Wang, Qianchun; Ji, Baohua; Irudayaraj, Joseph; Wang, Ning",
+  "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+  "published_date": "2023-03-22",
+  "window": {
+    "start": "2023-03-20",
+    "end": "2023-03-26"
+  },
+  "score": 5,
+  "one_liner_zh": "该文用单分子成像与蛋白分子动力学模拟研究力学撤除后染色质及核质蛋白扩散的机械记忆，涉及相分离解聚，但对象非IDP且PPI机制非核心，方法可迁移性有限。",
+  "abstract": "It is known that external mechanical forces can regulate structures and functions of living cells and tissues in physiology and diseases. However, after cessation of the force, how structures are altered in response to the dynamics of the chromatin and molecules in the nucleoplasm remains elusive. Here, using single-molecule imaging approaches, we show that exogenous local forces via integrins applied for 2 to 10 min decondensed the chromatin and increased chromatin and nucleoplasm protein mobility inside the nucleus, leading to elevated diffusivity of single protein molecules in the nucleoplasm, tens of minutes after the cessation of force. Diffusion experiments with fluorescence correlation spectroscopy in live single cells show that the mechanomemory in chromatin and nucleoplasm protein diffusivity was regulated by nuclear pore complexes. Protein molecular dynamics simulation recapitulated the experimental findings in live cells and showed that nucleoplasm protein diffusivity was regulated by the number of nuclear pore complexes. The mechanomemory in elevated protein diffusivity of the nucleoplasm after force cessation represents a physical process that reverses protein-protein condensation in phase separation via unjamming of the chromatin. Our findings of mechanomemory in chromatin and nucleoplasm protein diffusivity suggest that the effect of force on the nucleus remains tens of minutes after force cessation and thus is more far-reaching than previously anticipated.",
+  "abstract_zh": "已知外部机械力可调控生理及疾病状态下活细胞与组织的结构与功能。然而，力停止后，结构如何响应染色质及核浆内分子动态变化仍不明确。本研究采用单分子成像技术，发现通过整合素施加的外源局部力作用2至10分钟，可使染色质去凝聚，并增加核内染色质及核浆蛋白的流动性，导致力停止后数十分钟内核浆中单个蛋白分子的扩散性升高。活体单细胞荧光相关光谱扩散实验表明，染色质及核浆蛋白扩散性的机械记忆受核孔复合体调控。蛋白分子动力学模拟复现了活细胞中的实验结果，并显示核浆蛋白扩散性受核孔复合体数量调节。力停止后核浆蛋白扩散性升高的机械记忆代表一种物理过程，通过染色质解堵塞逆转相分离中的蛋白-蛋白凝聚。我们对染色质及核浆蛋白扩散性机械记忆的发现表明，力对细胞核的影响在力停止后持续数十分钟，因此其作用比先前预期更为深远。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/36943889/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/36943889/",
+  "paper_page_path": "papers/pubmed/36943889/index.html"
+}

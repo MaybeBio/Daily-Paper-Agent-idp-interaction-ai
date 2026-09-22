@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as presented in the abstract; no evaluation of full methodology, figures, or supplementary data
+- **Shared manuscript claim summary** The authors report that the intrinsically disordered transactivation domain (TAD) of N-MYC binds directly to the DNA-binding domain of TFIIIC5, a component of the TFIIIC complex. Two N-MYC TAD sequences mediate this interaction, with AlphaFold modelling predicting a binding mode overlapping the intramolecular acidic plug site of TFIIIC5. Removal of the acidic plug enhances N-MYC binding. The same N-MYC motifs also bind Aurora-A kinase, which competes with N-MYC for TFIIIC binding during S-phase. The authors propose this interaction mechanism underpins the mutual censoring function between N-MYC and TFIIIC.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, experimental methods, NMR and HDX-MS data, AlphaFold model details, pull-down and biophysical assay results, statistical analyses, and any structural coordinates
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting mechanistic finding regarding the N-MYC:TFIIIC5 interaction, with implications for understanding how oncogenic transcription factors interface with RNA Polymerase III machinery. The integrated biophysical approach is appropriate in principle, and the identification of a competition mechanism involving Aurora-A adds functional relevance. However, the abstract alone provides insufficient detail to evaluate the robustness of the key claims. The AlphaFold prediction is presented as a central element, yet its validation status is unclear. The claim that the same N-MYC motifs bind both TFIIIC5 and Aurora-A requires supporting quantitative data that are not visible here. The biological significance, particularly the "mutual censoring function," is asserted rather than demonstrated. The work is likely of interest to structural biologists and cancer researchers, but the evidence base as presented is too limited to establish the case.
+- **Who would be interested in the results, and why** Structural biologists studying intrinsically disordered protein interactions and transcription factor complexes would find the N-MYC TAD binding mode of interest. Cancer researchers focused on MYC-driven tumors, particularly neuroblastoma, would value insights into N-MYC regulatory interactions. Researchers studying RNA Polymerase III transcription and TFIIIC function would also be engaged, as the work suggests a non-canonical regulatory role for TFIIIC5 beyond DNA binding.
+- **Major strengths** The study addresses a biologically relevant and under-explored interaction between an oncogenic transcription factor and a core Pol III assembly factor. The use of multiple orthogonal biophysical methods (NMR, HDX-MS, pull-downs, biophysical assays) is a sound integrated strategy for studying a disordered protein interaction. The identification of a specific competition mechanism involving Aurora-A provides a testable model with cell-cycle relevance. The AlphaFold prediction offers a structural hypothesis that can be experimentally interrogated.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "two sequences in the transactivation domain of N-myc bind to the DNA binding interface of TFIIIC5" and that this interaction mechanism is "elucidated."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that two N-MYC TAD sequences bind the TFIIIC5 DNA-binding interface, but no quantitative binding data, affinity measurements, or mutagenesis validation are presented. The claim that the interaction is "elucidated" implies a level of mechanistic detail that cannot be assessed from the abstract alone.  
+  - **Why it matters** Without quantitative binding parameters and validation that the identified sequences are necessary and sufficient for the interaction, the core mechanistic claim remains unsubstantiated. The field requires clear evidence that the proposed binding mode is not an artifact of a single method.  
+  - **Resolution test** Provide binding affinities for both N-MYC motifs against TFIIIC5, mutagenesis data showing loss of binding when the motifs are disrupted, and validation that the DNA-binding interface is indeed the contact surface.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Model validation  
+  - **Claim pointer** The authors state that "AlphaFold modelling predicts a high-confidence binding mode for the higher affinity N-myc motif that overlaps with the predicted intramolecular binding site of the C-terminal acidic plug of TFIIIC5."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The AlphaFold prediction is presented as a key structural finding, but the abstract does not indicate whether this prediction was experimentally validated. The overlap with the acidic plug site is used to support a functional model, yet no data are shown to confirm that the predicted interface is real in solution.  
+  - **Why it matters** AlphaFold predictions, while powerful, are not substitutes for experimental structural validation. If the predicted binding mode is incorrect, the proposed competition mechanism and the functional model would be undermined.  
+  - **Resolution test** Provide experimental validation of the predicted interface, such as mutagenesis of predicted contact residues, cross-linking mass spectrometry, or a co-crystal or cryo-EM structure.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Functional relevance  
+  - **Claim pointer** The authors claim that "the same two motifs in N-myc also interact with Aurora-A kinase, which competes with N-myc for TFIIIC binding during S-phase" and that this "provides a basis for their mutual censoring function and regulation."  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The competition model between Aurora-A and TFIIIC5 for N-MYC binding is stated without presenting any competition assay data. The "mutual censoring function" is referenced from prior work, but the abstract does not demonstrate how the proposed mechanism explains this function.  
+  - **Why it matters** The biological significance of the interaction rests on this competition model. Without direct evidence of competition, the cell-cycle regulatory claim is speculative.  
+  - **Resolution test** Provide competition binding assays showing that Aurora-A displaces TFIIIC5 from N-MYC, and cellular data demonstrating that the competition is relevant in S-phase.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Specificity  
+  - **Claim pointer** The authors state that "we identified the DNA binding domain of TFIIIC5 as a key binding site for N-myc" and that TFIIIC5 is "at most a secondary binding site for DNA" based on prior structural studies.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract does not clarify whether N-MYC binding to the TFIIIC5 DNA-binding domain affects TFIIIC5 DNA-binding activity. The functional consequence of the interaction on TFIIIC function is not addressed.  
+  - **Why it matters** If N-MYC binding does not modulate DNA binding or TFIIIC activity, the biological relevance of the interaction is unclear. The "mutual censoring" model implies a functional outcome that is not demonstrated.  
+  - **Resolution test** Provide data showing whether N-MYC binding competes with DNA for TFIIIC5, and whether this affects TFIIIC chromatin association or Pol III transcription.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract terminology  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "mutual censoring function" is used without definition or context. Readers unfamiliar with the prior work may not understand what is being censored or how.  
+  - **Required correction** Define the term or rephrase to describe the functional outcome more explicitly.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Methodological detail  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract lists "NMR, HDX mass spectrometry, pull-downs and biophysical assays" but does not indicate which method provided which piece of evidence. This makes it difficult to assess the weight of each line of evidence.  
+  - **Required correction** Briefly indicate which key finding is supported by which method.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Specificity  
+  - **Affected element** Sequence identification  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract refers to "two sequences in the transactivation domain" but does not provide their identities, lengths, or conservation. This limits the utility of the finding for other researchers.  
+  - **Required correction** Include sequence identifiers or a brief description of the motifs.  
+  - **Concern ID** R1-m4  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Acidic plug removal  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The statement that removal of the acidic plug "enhances the binding of N-myc" is presented without context on whether this is a physiologically relevant regulatory mechanism or an in vitro observation.  
+  - **Required correction** Clarify whether acidic plug removal occurs naturally or is a construct used to test the model.  
+
+## Risk / unsupported claims
+- The claim that the N-MYC:TFIIIC5 interaction mechanism is "elucidated" is not supported by the abstract alone; the evidence base is insufficient to establish the mechanistic model.
+- The AlphaFold-predicted binding mode is presented as a finding without experimental validation, making the structural model unverified.
+- The competition between Aurora-A and TFIIIC5 for N-MYC binding is asserted without direct competition data.
+- The "mutual censoring function" is referenced as a prior finding, but the abstract does not demonstrate how the proposed mechanism explains this function.
+- The functional consequence of N-MYC binding to the TFIIIC5 DNA-binding domain on TFIIIC activity is not addressed, leaving the biological significance of the interaction unclear.

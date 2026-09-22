@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35310482",
+  "title": "The importance of the compact disordered state in the fuzzy interactions between intrinsically disordered proteins.",
+  "authors": "Wang, Dan; Wu, Shaowen; Wang, Dongdong; Song, Xingyu; Yang, Maohua; Zhang, Wolun; Huang, Shaohui; Weng, Jingwei; Liu, Zhijun; Wang, Wenning",
+  "journal": "Chemical science",
+  "published_date": "2022-03-22",
+  "window": {
+    "start": "2022-03-21",
+    "end": "2022-03-27"
+  },
+  "score": 9,
+  "one_liner_zh": "该文结合MD模拟与实验，揭示4.1G-CTD的紧凑无序态及其betaA/betaB基序堆积在介导与NuMA的模糊互作中的关键机制，属于无序蛋白PPI机制建模的高相关研究。",
+  "abstract": "The intrinsically disordered C-terminal domain (CTD) of protein 4.1G is able to specifically bind a 26-residue intrinsically disordered region of NuMA, forming a dynamic fuzzy complex. As one of a few cases of extremely fuzzy interactions between two intrinsically disordered proteins/regions (IDPs/IDRs) without induced folding, the principle of the binding is unknown. Here, we combined experimental and computational methods to explore the detailed mechanism of the interaction between 4.1G-CTD and NuMA. MD simulations suggest that the kinetic hub states in the structure ensemble of 4.1G-CTD are favorable in the fuzzy complex. The feature of these hub states is that the binding 'hot spot' motifs betaA and betaB exhibit beta strand propensities and are well packed to each other. The binding between 4.1G-CTD and NuMA is disrupted at low pH, which changes the intramolecular packing of 4.1G-CTD and weakens the packing between betaA and betaB motifs. Low pH conditions also lead to increased hydrodynamic radius and acceleration of backbone dynamics of 4.1G-CTD. All these results underscore the importance of tertiary structural arrangements and overall compactness of 4.1G-CTD in its binding to NuMA, i.e. the compact disordered state of 4.1G-CTD is crucial for binding. Different from the short linear motifs (SLiMs) that are often found to mediate IDP interactions, 4.1G-CTD functions as an intrinsically disordered domain (IDD), which is a functional and structural unit similar to conventional protein domains. This work sheds light on the molecular recognition mechanism of IDPs/IDRs and expands the conventional structure-function paradigm in protein biochemistry.",
+  "abstract_zh": "蛋白4.1G的固有无序C末端结构域（CTD）能够特异性地结合NuMA中一段由26个残基组成的固有无序区域，形成动态模糊复合物。作为少数几种在无诱导折叠情况下两个固有无序蛋白/区域（IDPs/IDRs）之间发生极端模糊相互作用的案例之一，其结合原理尚不明确。本研究结合实验与计算方法，深入探讨了4.1G-CTD与NuMA之间相互作用的详细机制。分子动力学（MD）模拟表明，4.1G-CTD结构集合中的动力学枢纽状态在模糊复合物中是有利的。这些枢纽状态的特征在于结合“热点”基序βA和βB表现出β链倾向性，并彼此紧密堆积。4.1G-CTD与NuMA之间的结合在低pH条件下被破坏，这改变了4.1G-CTD的分子内堆积，并削弱了βA与βB基序之间的堆积。低pH条件还导致4.1G-CTD的水动力学半径增加及骨架动力学加速。所有结果强调了4.1G-CTD的三级结构排列和整体紧凑性在其与NuMA结合中的重要性，即4.1G-CTD的紧凑无序状态对结合至关重要。与通常介导IDP相互作用的短线性基序（SLiMs）不同，4.1G-CTD作为固有无序结构域（IDD）发挥作用，其类似于传统蛋白结构域的功能和结构单元。本研究揭示了IDPs/IDRs的分子识别机制，并扩展了蛋白质生物化学中的传统结构-功能范式。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35310482/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35310482/",
+  "paper_page_path": "papers/pubmed/35310482/index.html"
+}

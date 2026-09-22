@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42647377",
+  "title": "A Propeller with a Flexible Twist: A Computational Analysis of Intrinsically Disordered Regions in PIEZO Gating and PIEZO-Associated Channelopathies.",
+  "authors": "Shukla, Shivam; Elzy, Mason; Shrestha, Abiral; Uversky, Vladimir N",
+  "journal": "Proteomes",
+  "published_date": "2026-08-26",
+  "window": {
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用机器学习/神经网络等预测器分析PIEZO通道蛋白的IDR、相分离倾向及疾病突变，虽对象为膜蛋白而非典型IDP-PPI，但聚焦IDR介导的调控与结合位点机制建模，对本课题有方法迁移价值。",
+  "abstract": "BACKGROUND: Mechanosensitive ion channels PIEZO1 and PIEZO2 are key mediators of mechanotransduction, which converts physical forces into cellular signals involved in proprioception, touch, vascular function, and other physiological processes. Mutations in human PIEZO proteins are linked to various diseases, such as hereditary xerocytosis, lymphatic dysplasia, and proprioceptive dysfunction. However, the role of intrinsic disorder in the regulation of these proteins and their susceptibility for disease-associated mutations remains unclear. METHODS: We analyzed canonical human PIEZO1 and PIEZO2 protein sequences using machine learning, neural network, and energy-based disorder predictors, together with the prediction of disorder-mediated binding regions, phase separation propensity, interaction networks, evolutionary conservation, clinically annotated human variants, and peptide structural modeling. RESULTS: Both proteins showed moderate intrinsic disorder, with PIEZO2 having slightly greater disorder propensity and higher predicted phase separation potential. Intrinsically disordered regions frequently overlapped binding-prone segments and post-translational modification sites, supporting regulatory functions. Evolutionary comparisons showed strong conservation of PIEZO proteins, while selected disordered regions retained disorder propensity despite greater sequence variability. Disease-causing variants mainly affected the ordered regions of both proteins, whereas disordered regions contained proportionally more benign variants and relatively few pathogenic mutations. The modeling of mutations within disordered hotspots showed altered local conformational tendencies, indicating that some disease variants may disrupt dynamic interaction interfaces rather than global structure. Interaction network analysis linked both proteins to enriched mechanotransduction, ion transport, and cytoskeletal pathways. CONCLUSIONS: Overall, our findings identify intrinsic disorder as an underappreciated feature of PIEZO channel biology and provide a framework for interpreting PIEZO-associated channelopathies. PIEZO proteins also perfectly illustrate the proteoform concept, where one gene yields a highly diverse kit of mechanosensitive molecular tools. While humans only have two primary PIEZO genes (PIEZO1 and PIEZO2), the body generates a vast array of functional variations.",
+  "abstract_zh": "背景：机械敏感离子通道PIEZO1和PIEZO2是机械转导的关键介质，该过程将物理力转化为涉及本体感觉、触觉、血管功能及其他生理过程的细胞信号。人类PIEZO蛋白的突变与多种疾病相关，如遗传性干瘪红细胞增多症、淋巴发育不良和本体感觉功能障碍。然而，内在无序性在这些蛋白调控及其对疾病相关突变易感性中的作用仍不清楚。方法：我们使用机器学习、神经网络和基于能量的无序预测器分析了典型人类PIEZO1和PIEZO2蛋白序列，同时预测了无序介导的结合区域、相分离倾向、相互作用网络、进化保守性、临床注释的人类变异及肽结构建模。结果：两种蛋白均表现出中等程度的内在无序性，其中PIEZO2具有略高的无序倾向和更高的预测相分离潜力。内在无序区域频繁与结合倾向片段和翻译后修饰位点重叠，支持其调控功能。进化比较显示PIEZO蛋白高度保守，而选定的无序区域尽管序列变异性较大，仍保留无序倾向。致病性变异主要影响两种蛋白的有序区域，而无序区域则含有比例更高的良性变异和相对较少的致病突变。无序热点内突变的建模显示局部构象倾向改变，表明某些疾病变异可能破坏动态相互作用界面而非整体结构。相互作用网络分析将两种蛋白与富集的机械转导、离子转运和细胞骨架通路相关联。结论：总体而言，我们的发现将内在无序性识别为PIEZO通道生物学中一个被低估的特征，并为解释PIEZO相关通道病提供了框架。PIEZO蛋白也完美诠释了蛋白形式概念，即一个基因产生高度多样化的机械敏感分子工具套件。尽管人类仅有两种主要PIEZO基因（PIEZO1和PIEZO2），但身体生成了大量功能变异。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42647377/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42647377/",
+  "paper_page_path": "papers/pubmed/42647377/index.html"
+}

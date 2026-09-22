@@ -1,0 +1,118 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.05.691730",
+  "title": "AlphaFold3 and Intrinsically Disordered Proteins: Reliable Monomer Prediction, Unpredictable Multimer Performance",
+  "doi": "10.64898/2025.12.05.691730",
+  "abstract": "AlphaFold3 represents a major advance in protein structure prediction, yet its performance on intrinsically disordered proteins remains uncharacterized. We present the first systematic evaluation of AF3 on disordered systems, revealing a striking dichotomy. For monomers, AF3’s pLDDT scores reliably predict disorder (MCC: 0.693), matching AlphaFold2 and rivaling dedicated predictors. This consistency across fundamentally different architectures confirms that disorder prediction emerges from training data, not model design. For multimers, the picture grows complex. Despite comparable aggregate performance (mean DockQ: 0.563 vs 0.571), AF3 and AF2 achieve these results through fundamentally different mechanisms. Conventional structural features explain 58% of AF2’s variance but only 42% of AF3’s. Users cannot predict when AF3 will succeed or fail from interface properties alone. On disorder-to-order transitions (MFIB benchmark), both models perform equally well, successfully predicting final folded states. Yet seed variance analysis reveals AF3’s failures are deterministic: the model converges to identical structures across independent runs, whether correct or incorrect, indicating rigid structural priors override available information. Our findings establish AF3 as reliable for the prediction of monomer disorder but unpredictable for multimers. Architectural innovation alone cannot overcome training data bias. Progress demands disorder-enriched datasets and ensemble sampling, not merely novel architectures.",
+  "authors": [
+    "Dao TM",
+    "Ghent S",
+    "Uversky VN",
+    "Rahman T"
+  ],
+  "published_date": "2025-12-10",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.05.691730",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.05.691730.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1232050",
+    "raw_record": {
+      "id": "PPR1232050",
+      "source": "PPR",
+      "doi": "10.64898/2025.12.05.691730",
+      "title": "AlphaFold3 and Intrinsically Disordered Proteins: Reliable Monomer Prediction, Unpredictable Multimer Performance",
+      "authorString": "Dao TM, Ghent S, Uversky VN, Rahman T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Dao TM",
+            "lastName": "Dao",
+            "firstName": "Tuan Minh",
+            "initials": "TM"
+          },
+          {
+            "fullName": "Ghent S",
+            "lastName": "Ghent",
+            "firstName": "Sebastien",
+            "initials": "S"
+          },
+          {
+            "fullName": "Uversky VN",
+            "lastName": "Uversky",
+            "firstName": "Vladimir",
+            "initials": "VN"
+          },
+          {
+            "fullName": "Rahman T",
+            "lastName": "Rahman",
+            "firstName": "Taseef",
+            "initials": "T",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8224-4401"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8224-4401"
+          }
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "AlphaFold3 represents a major advance in protein structure prediction, yet its performance on intrinsically disordered proteins remains uncharacterized. We present the first systematic evaluation of AF3 on disordered systems, revealing a striking dichotomy. For monomers, AF3’s pLDDT scores reliably predict disorder (MCC: 0.693), matching AlphaFold2 and rivaling dedicated predictors. This consistency across fundamentally different architectures confirms that disorder prediction emerges from training data, not model design. For multimers, the picture grows complex. Despite comparable aggregate performance (mean DockQ: 0.563 vs 0.571), AF3 and AF2 achieve these results through fundamentally different mechanisms. Conventional structural features explain 58% of AF2’s variance but only 42% of AF3’s. Users cannot predict when AF3 will succeed or fail from interface properties alone. On disorder-to-order transitions (MFIB benchmark), both models perform equally well, successfully predicting final folded states. Yet seed variance analysis reveals AF3’s failures are deterministic: the model converges to identical structures across independent runs, whether correct or incorrect, indicating rigid structural priors override available information. Our findings establish AF3 as reliable for the prediction of monomer disorder but unpredictable for multimers. Architectural innovation alone cannot overcome training data bias. Progress demands disorder-enriched datasets and ensemble sampling, not merely novel architectures.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.05.691730"
+          }
+        ]
+      },
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 2,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "N",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "N",
+      "license": "cc by-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-10",
+      "firstIndexDate": "2026-05-19",
+      "hasEvaluations": "N"
+    }
+  }
+}

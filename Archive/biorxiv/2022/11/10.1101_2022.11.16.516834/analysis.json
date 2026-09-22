@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.11.16.516834",
+  "title": "Repulsive interaction and secondary structure of highly charged proteins in regulating biomolecular condensation",
+  "authors": "Tan C; Niitsu A; Sugita Y",
+  "journal": "bioRxiv",
+  "published_date": "2022-11-17",
+  "window": {
+    "start": "2022-11-14",
+    "end": "2022-11-20"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用多尺度MD模拟研究高度带电无序蛋白Hero11与TDP-43 C端互作调控凝聚体形成的三种机制，直接命中无序蛋白PPI与相分离的机制建模，方法为物理模拟，深度揭示互作机制。",
+  "abstract": "Biomolecular condensation is involved in various cellular processes both functional and dysfunctional. Regulation of the condensation is thus crucial to avoid pathological protein aggregation and to maintain stable cellular environments. Recently, a class of highly charged intrinsically disordered proteins (IDPs), which are called the heat-resistant obscure (Hero) proteins, are shown to protect other client proteins from pathological aggregation. Besides the potential importance of this function, molecular mechanisms for how Hero proteins can protect other proteins from aggregation are not still known. Here we perform multiscale molecular dynamics (MD) simulations of Hero11, one of the Hero proteins, and the C-terminal region of TDP-43, as a target protein of Hero11, at various conditions to examine how they interact with each other. Based on the simulation results, three possible mechanisms have been proposed: (i) TDP-43 and Hero11 in dense phase reduces contacts with each other and shows faster diffusion due to the repulsive Hero11-Hero11 interactions, (ii) the amount of TDP-43 in dilute phase increases and their sizes become greater upon the attractive Hero11-TDP-43 interactions, and (iii) Hero-11 on the surface of small TDP-43 condensates avoids their fusions with the repulsive interactions. We also examine possible Hero-11 structures in atomistic and coarse-grained MD simulations and found disordered Hero-11 tend to assemble on the surface of the condensates, avoiding the droplet fusion effectively. The proposed mechanisms give us new insight into the regulation of biomolecular condensation in the cells and other conditions.",
+  "abstract_zh": "生物分子凝聚（biomolecular condensation）参与多种功能性和功能失调的细胞过程。因此，对凝聚的调控对于避免病理性蛋白质聚集及维持稳定的细胞环境至关重要。近期，一类高度带电的内在无序蛋白质（intrinsically disordered proteins, IDPs），称为耐热隐蛋白（heat-resistant obscure, Hero）被发现能保护其他客户蛋白免受病理性聚集。尽管此功能具有潜在重要性，但Hero蛋白如何保护其他蛋白免于聚集的分子机制尚不清楚。在此，我们通过多尺度分子动力学（molecular dynamics, MD）模拟，在不同条件下研究Hero11（Hero蛋白之一）与其靶蛋白TDP-43的C端区域之间的相互作用。基于模拟结果，提出了三种可能的机制：（i）在稠密相中，TDP-43与Hero11因Hero11-Hero11间的排斥相互作用而减少接触并表现出更快的扩散；（ii）在稀相中，TDP-43的量增加，且其尺寸在Hero11-TDP-43吸引性相互作用下变大；（iii）Hero11在小TDP-43凝聚体表面通过排斥性相互作用避免其融合。我们还通过原子级和粗粒化MD模拟考察了可能的Hero11结构，发现无序的Hero11倾向于在凝聚体表面组装，有效阻止液滴融合。所提出的机制为细胞及其他条件下生物分子凝聚的调控提供了新见解。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.11.16.516834",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.11.16.516834",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.11.16.516834/index.html"
+}

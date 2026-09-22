@@ -1,0 +1,421 @@
+{
+  "identity": {
+    "pmid": "40877270",
+    "doi": "10.1038/s41467-025-62686-x",
+    "title": "Charged peptides enriched in aromatic residues decelerate condensate ageing driven by cross-beta-sheet formation."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates play wide-ranging roles in cellular compartmentalization and biological processes. However, their transition from a functional liquid-like phase into a solid-like state-usually termed as condensate ageing-represents a hallmark associated with the onset of multiple neurodegenerative diseases. In this study, we design a computational pipeline to explore potential candidates, in the form of small peptides, to regulate ageing kinetics in biomolecular condensates. By combining equilibrium and non-equilibrium simulations of a sequence-dependent residue-resolution force field, we investigate the impact of peptide insertion-with different composition, patterning, and net charge-in the condensate phase diagram and ageing kinetics of archetypal proteins driving condensate ageing: TDP-43 and FUS. We reveal that small peptides composed of a specific balance of aromatic and charged residues can substantially decelerate ageing over an order of magnitude. The mechanism is controlled through condensate density reduction induced by peptide self-repulsive electrostatic interactions that specifically target protein regions prone to form cross-beta-sheet fibrils. Our work proposes an efficient computational framework to rapidly scan the impact of small molecule insertion in condensate ageing and develop novel pathways for controlling phase transitions relevant to disease prevention.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Peptides/chemistry/metabolism",
+      "Protein Conformation, beta-Strand",
+      "Humans",
+      "Static Electricity",
+      "Kinetics",
+      "DNA-Binding Proteins/chemistry/metabolism",
+      "*Biomolecular Condensates/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Amino Acids, Aromatic/chemistry"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Sanchez-Burgos, Ignacio",
+        "Tejedor, Andres R",
+        "Castro, Alejandro",
+        "Feito, Alejandro",
+        "Collepardo-Guevara, Rosana",
+        "Espinosa, Jorge R"
+      ],
+      "short_names": [
+        "Sanchez-Burgos I",
+        "Tejedor AR",
+        "Castro A",
+        "Feito A",
+        "Collepardo-Guevara R",
+        "Espinosa JR"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-1160-3945",
+        "ORCID: 0000-0002-9437-6169",
+        "ORCID: 0009-0000-1282-7580",
+        "ORCID: 0000-0003-1781-7351",
+        "ORCID: 0000-0001-9530-2658"
+      ],
+      "affiliations": [
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+        "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040, Madrid, Spain.",
+        "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040, Madrid, Spain.",
+        "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040, Madrid, Spain.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK. rc597@cam.ac.uk.",
+        "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK. rc597@cam.ac.uk.",
+        "Department of Genetics, University of Cambridge, Cambridge, CB2 3EH, UK. rc597@cam.ac.uk.",
+        "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK. jorgerene@ucm.es.",
+        "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040, Madrid, Spain. jorgerene@ucm.es."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Sanchez-Burgos, Ignacio",
+        "short_name": "Sanchez-Burgos I",
+        "identifiers": [
+          "0000-0002-1160-3945"
+        ],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK."
+        ]
+      },
+      {
+        "full_name": "Tejedor, Andres R",
+        "short_name": "Tejedor AR",
+        "identifiers": [
+          "0000-0002-9437-6169"
+        ],
+        "affiliations": [
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK.",
+          "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Castro, Alejandro",
+        "short_name": "Castro A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Feito, Alejandro",
+        "short_name": "Feito A",
+        "identifiers": [
+          "0009-0000-1282-7580"
+        ],
+        "affiliations": [
+          "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040, Madrid, Spain."
+        ]
+      },
+      {
+        "full_name": "Collepardo-Guevara, Rosana",
+        "short_name": "Collepardo-Guevara R",
+        "identifiers": [
+          "0000-0003-1781-7351"
+        ],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK. rc597@cam.ac.uk.",
+          "Yusuf Hamied Department of Chemistry, University of Cambridge, Lensfield Road, Cambridge, CB2 1EW, UK. rc597@cam.ac.uk.",
+          "Department of Genetics, University of Cambridge, Cambridge, CB2 3EH, UK. rc597@cam.ac.uk."
+        ]
+      },
+      {
+        "full_name": "Espinosa, Jorge R",
+        "short_name": "Espinosa JR",
+        "identifiers": [
+          "0000-0001-9530-2658"
+        ],
+        "affiliations": [
+          "Maxwell Centre, Cavendish Laboratory, Department of Physics, University of Cambridge, J J Thomson Avenue, Cambridge, CB3 0HE, UK. jorgerene@ucm.es.",
+          "Department of Physical-Chemistry, Universidad Complutense de Madrid, Av. Complutense s/n, 28040, Madrid, Spain. jorgerene@ucm.es."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Nature communications"
+    ],
+    "journal_abbrev": [
+      "Nat Commun"
+    ],
+    "pub_date": "2025 Aug 28",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/08/30 04:46",
+    "fetched_at": "2026-09-21 23:03:48"
+  },
+  "links": {
+    "cites": [
+      "41868013",
+      "41591303",
+      "41481439",
+      "41259415",
+      "40791470"
+    ],
+    "refs": [
+      "40307210",
+      "40028356",
+      "39591966",
+      "39534915",
+      "39464253",
+      "39412378",
+      "39258841",
+      "39222387",
+      "38804888",
+      "38714700",
+      "38467846",
+      "37749234",
+      "37701726",
+      "37645312",
+      "37549257",
+      "37386790",
+      "37348448",
+      "37267850",
+      "37194953",
+      "37134270",
+      "36937592",
+      "36883003",
+      "36374974",
+      "36343363",
+      "36246407",
+      "36175408",
+      "35962177",
+      "35795820",
+      "35727989",
+      "35689166",
+      "35543798",
+      "35320624",
+      "35293386",
+      "35187086",
+      "35108264",
+      "35075293",
+      "34931046",
+      "34862761",
+      "34762868",
+      "34716273",
+      "34560101",
+      "34315935",
+      "34221333",
+      "34172723",
+      "34165838",
+      "33672806",
+      "33627639",
+      "33597515",
+      "33583140",
+      "33571491",
+      "33545530",
+      "33510441",
+      "33446423",
+      "33357437",
+      "33303613",
+      "33148639",
+      "33049245",
+      "32936641",
+      "32909564",
+      "32828466",
+      "32662769",
+      "32482873",
+      "32302571",
+      "32169484",
+      "31928729",
+      "31917988",
+      "31809054",
+      "31618757",
+      "31606941",
+      "31603660",
+      "31481451",
+      "31437398",
+      "31430179",
+      "31296649",
+      "31272829",
+      "31270472",
+      "31080406",
+      "30925840",
+      "30923191",
+      "30237470",
+      "29961577",
+      "29786080",
+      "29735687",
+      "29650702",
+      "29511089",
+      "29483575",
+      "29472250",
+      "29439243",
+      "29425497",
+      "29364893",
+      "29227635",
+      "29070863",
+      "28970886",
+      "28935776",
+      "28556382",
+      "28225081",
+      "28011763",
+      "27737778",
+      "27601476",
+      "27549118",
+      "27212236",
+      "27033831",
+      "26933687",
+      "26836305",
+      "26741409",
+      "26406374",
+      "26317470",
+      "25702583",
+      "25488811",
+      "25453085",
+      "24840975",
+      "24560688",
+      "24489597",
+      "23559573",
+      "22703643",
+      "22406275",
+      "21842955",
+      "19965854",
+      "19460965",
+      "18372902",
+      "18288693",
+      "17623039",
+      "11606569",
+      "7545739"
+    ],
+    "similar": [
+      "40877270",
+      "41342450",
+      "40954121",
+      "33706107",
+      "34784177",
+      "35727989",
+      "34862761",
+      "39591652",
+      "37386790",
+      "41481439",
+      "40985078",
+      "41027866",
+      "38347806",
+      "35293386",
+      "40721018",
+      "41034691",
+      "38804888",
+      "37837191",
+      "29511089",
+      "21568346",
+      "36175408",
+      "38751116",
+      "39636939",
+      "34560580",
+      "37194953",
+      "40768359",
+      "33597515",
+      "37549257",
+      "40468084",
+      "33934561",
+      "38987300",
+      "40531332",
+      "37721444",
+      "40172489",
+      "40899329",
+      "40790117",
+      "36993212",
+      "34648275",
+      "40164149",
+      "39486437",
+      "39937084",
+      "41118627",
+      "39826710",
+      "39496836",
+      "36883003",
+      "40690668",
+      "34090478",
+      "40113768",
+      "39433596",
+      "40521608",
+      "35001622",
+      "38971830",
+      "40203038",
+      "38832749",
+      "41060763",
+      "40708482",
+      "40653653",
+      "40290937",
+      "38670952",
+      "38381071",
+      "39804953",
+      "39824169",
+      "40972943",
+      "40420812",
+      "40751677",
+      "38958608",
+      "39482532",
+      "39929988",
+      "40136009",
+      "39201466",
+      "38848869",
+      "39366355",
+      "34767801",
+      "40441156",
+      "40629499",
+      "39271915",
+      "41452986",
+      "40184654",
+      "40970906",
+      "40028898",
+      "38383656",
+      "38416758",
+      "40455990",
+      "34772789",
+      "40616404",
+      "38885177",
+      "37043540",
+      "39575590",
+      "40880224",
+      "37684240",
+      "39620362",
+      "39134696",
+      "39260373",
+      "40539959",
+      "34890409",
+      "41187075",
+      "40229261",
+      "39303698",
+      "32426986",
+      "34528415"
+    ],
+    "review": [
+      "40877270",
+      "33934561",
+      "40172489",
+      "39433596",
+      "39824169",
+      "38958608",
+      "39482532",
+      "39366355",
+      "34767801",
+      "34772789",
+      "40616404",
+      "38885177",
+      "39134696",
+      "39303698"
+    ],
+    "pmc": [
+      "12394719"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1038/s41467-025-62686-x",
+        "provider": "Nature Publishing Group",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40877270/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

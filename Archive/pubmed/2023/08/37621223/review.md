@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions presented in the abstract
+- **Shared manuscript claim summary** The abstract reports results from the second round of the Critical Assessment of protein Intrinsic Disorder prediction (CAID2) challenge, evaluating predictor performance across multiple benchmarks using DisProt annotations. It states that method performance varies across benchmarks, that AlphaFold2-based methods detect absence of order better than DisProt-defined disorder regions, and that CAID resources are available through a prediction portal and OpenEBench.
+- **Visible evidence base** Abstract text only; no figures, tables, methods, or supplementary materials provided
+- **Missing materials affecting confidence** Full manuscript, benchmark definitions, performance metrics, statistical analyses, predictor lists, DisProt version and annotation criteria, and portal/OpenEBench implementation details
+
+## Reviewer
+- **Overall assessment** The abstract presents a high-level summary of a community challenge that is likely of interest to the protein bioinformatics community. However, the abstract alone provides insufficient detail to evaluate the rigor of the benchmarking methodology, the statistical significance of performance differences, or the validity of the specific claims about AlphaFold2-based methods. The conclusions are plausible but not verifiable from the supplied material.
+- **Who would be interested in the results, and why** Researchers developing or applying protein disorder prediction tools, computational biologists working on intrinsically disordered proteins, and bioinformaticians interested in community benchmarking efforts. The results inform tool selection and highlight methodological gaps, which is directly relevant to those integrating prediction into structural and functional studies.
+- **Major strengths** The abstract addresses a timely and important topic, namely the systematic evaluation of disorder predictors in a community setting. The emphasis on context-dependent disorder and the distinction between detecting order absence versus disorder presence is conceptually valuable. The commitment to open access through a prediction portal and OpenEBench integration is a practical strength for the community.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "CAID2 challenge demonstrated varying performance of different prediction methods across different benchmarks."
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract does not provide any quantitative data, such as performance metrics, benchmark descriptions, or statistical comparisons, to support the claim of varying performance. Without these details, the claim is an assertion rather than a demonstrated result.
+  - **Why it matters** The central purpose of a benchmarking challenge is to provide evidence-based comparisons. The absence of any numerical or statistical support in the abstract prevents readers from assessing the reliability and magnitude of the reported performance differences.
+  - **Resolution test** Provide specific performance metrics (e.g., AUC, Matthews correlation coefficient) for each benchmark and predictor, along with confidence intervals or significance tests, in the full manuscript and ideally summarized in the abstract.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract claims that "Methods based on AlphaFold2 seem to be good ID predictors but they are better at detecting absence of order rather than ID regions as defined in DisProt."
+  - **Evidence pointer** Location not provided
+  - **Concern** This is a specific and potentially impactful claim, but the abstract provides no data on how this conclusion was reached, such as which AlphaFold2-based methods were tested, what metrics were used, or how "absence of order" was defined and measured.
+  - **Why it matters** This claim could influence tool selection and future method development. If not rigorously supported, it may mislead researchers. The distinction between order absence and disorder presence is subtle and requires careful operational definitions.
+  - **Resolution test** Include a detailed analysis in the full manuscript showing comparative performance of AlphaFold2-based methods against other predictors for both disorder detection and order absence detection, with clear definitions and statistical validation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract states that "The CAID2 predictors can be freely used through the CAID Prediction Portal, and CAID has been integrated into OpenEBench."
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract does not describe the scope of the portal, the number of predictors available, the input/output formats, or the validation status of the OpenEBench integration. This limits the reproducibility and practical usability of the claimed resources.
+  - **Why it matters** For a community resource, clear documentation of availability and functionality is essential. Without it, readers cannot determine whether the tools are accessible and reliable for their own use.
+  - **Resolution test** Provide a description of the portal's features, a list of included predictors, and details on OpenEBench integration in the full manuscript, with URLs and access instructions.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Definition of disorder
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract describes ID as a "continuum between fully disordered states and folded states with long dynamic regions," but does not clarify how this continuum was operationalized in the challenge benchmarks.
+  - **Required correction** Add a brief statement in the abstract or full manuscript on how the continuum was discretized for prediction and evaluation purposes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Benchmark description
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract mentions "different benchmarks" but does not specify their nature, number, or criteria for inclusion.
+  - **Required correction** Include a summary of benchmark types and their sources in the abstract or full manuscript.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Comparison to CAID round 1
+  - **Evidence pointer** Abstract text
+  - **Issue** The abstract does not reference the first CAID round, which would help readers understand what is new or improved in round 2.
+  - **Required correction** Add a sentence comparing key findings or methodological changes relative to CAID round 1.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of performance variation and AlphaFold2 behavior are not supported by any quantitative evidence in the supplied material. R1-M3 is non-blocking but requires clarification for reproducibility.
+- **Assessment against Nature-style criteria** Originality is moderate, as benchmarking challenges are valuable but not conceptually novel. Scientific importance is high for the disorder prediction community, but the abstract does not demonstrate broader impact beyond this niche. Interdisciplinary readership is limited, as the content is specialized to computational biology. Technical soundness cannot be assessed from the abstract alone, and the lack of data is a significant concern. Readability for nonspecialists is adequate, but the abstract assumes familiarity with disorder prediction and DisProt.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible conclusions, but the absence of quantitative support and methodological detail means the case is not yet made. A revised version with data-backed claims and clearer resource descriptions would be supportive.
+
+## Risk / unsupported claims
+- The claim of varying performance across benchmarks is unsupported without metrics or statistical analysis.
+- The claim about AlphaFold2-based methods being better at detecting absence of order is unsupported without comparative data and definitions.
+- The availability and functionality of the CAID Prediction Portal and OpenEBench integration are unverifiable from the abstract.
+- The general statement that "researchers may need to balance performance with execution time" is plausible but not evidenced in the abstract.

@@ -1,0 +1,448 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2024.08.14.607909",
+  "title": "The structural organisation of pentraxin-3 and its interactions with heavy chains of inter-α-inhibitor regulate crosslinking of the hyaluronan matrix",
+  "doi": "10.1101/2024.08.14.607909",
+  "abstract": "<h4>ABSTRACT</h4> Pentraxin-3 (PTX3) is an octameric protein, comprised of eight identical protomers, that has diverse functions in reproductive biology, innate immunity and cancer. PTX3 interacts with the large polysaccharide hyaluronan (HA) to which heavy chains (HCs) of the inter-α-inhibitor (IαI) family of proteoglycans are covalently attached, playing a key role in the (non-covalent) crosslinking of HC•HA complexes. These interactions stabilise the cumulus matrix, essential for ovulation and fertilisation in mammals, and are also implicated in the formation of pathogenic matrices in the context of viral lung infections. To better understand the physiological and pathological roles of PTX3 we have analysed how its quaternary structure underpins HA crosslinking via its interactions with HCs. A combination of X-ray crystallography, cryo-electron microscopy (cryo-EM) and AlphaFold predictive modelling revealed that the C-terminal pentraxin domains of the PTX3 octamer are arranged in a central cube, with two long extensions on either side, each formed from four protomers assembled into tetrameric coiled-coil regions, essentially as described by (Noone et al ., 2022; doi:10.1073/pnas.2208144119). From crystallography and cryo-EM data, we identified a network of inter-protomer salt bridges that facilitate the assembly of the octamer. Small angle X-ray scattering (SAXS) validated our model for the octameric protein, including the analysis of two PTX3 constructs: a tetrameric ‘Half-PTX3’ and a construct missing the 24 N-terminal residues (Δ1-24-PTX3). SAXS determined a length of ∼520 Å for PTX3 and, combined with 3D variability analysis of cryo-EM data, defined the flexibility of the N-terminal extensions. Biophysical analyses revealed that the prototypical heavy chain HC1 does not interact with PTX3 at pH 7.4, consistent with our previous studies showing that, at this pH, PTX3 only associates with HC•HA complexes if they are formed in its presence. However, PTX3 binds to HC1 at acidic pH, and can also be incorporated into pre-formed HC•HA complexes under these conditions. This provides a novel mechanism for the regulation of PTX3-mediated HA crosslinking (e.g., during inflammation), likely mediated by a pH-dependent conformational change in HC1. The PTX3 octamer was found to associate simultaneously with up to eight HC1 molecules and, thus, has the potential to form a major crosslinking node within HC•HA matrices, i.e., where the physical and biochemical properties of resulting matrices could be tuned by the HC/PTX3 composition.",
+  "authors": [
+    "Shah A",
+    "Zhang X",
+    "Snee M",
+    "Lockhart-Cairns MP",
+    "Levy CW",
+    "Jowitt TA",
+    "Birchenough HL",
+    "Dean L",
+    "Collins R",
+    "Dodd RJ",
+    "Roberts ARE",
+    "Enghild JJ",
+    "Mantovani A",
+    "Fontana J",
+    "Baldock C",
+    "Inforzato A",
+    "Richter RP",
+    "Day AJ"
+  ],
+  "published_date": "2024-08-14",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2024.08.14.607909",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2024.08.14.607909.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR896210",
+    "raw_record": {
+      "id": "PPR896210",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR896210"
+        ]
+      },
+      "doi": "10.1101/2024.08.14.607909",
+      "title": "The structural organisation of pentraxin-3 and its interactions with heavy chains of inter-α-inhibitor regulate crosslinking of the hyaluronan matrix",
+      "authorString": "Shah A, Zhang X, Snee M, Lockhart-Cairns MP, Levy CW, Jowitt TA, Birchenough HL, Dean L, Collins R, Dodd RJ, Roberts ARE, Enghild JJ, Mantovani A, Fontana J, Baldock C, Inforzato A, Richter RP, Day AJ.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Shah A",
+            "lastName": "Shah",
+            "firstName": "Anokhi",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cell-Matrix Biology and Regenerative Medicine, School of Biological Sciences, Faculty of Biology, Medicine and Health, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang X",
+            "lastName": "Zhang",
+            "firstName": "Xiaoli",
+            "initials": "X",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biomedical Sciences, Faculty of Biological Sciences, School of Physics and Astronomy, Faculty of Engineering and Physical Sciences, Astbury Centre for Structural Molecular Biology, and Bragg Centre for Materials Research, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Snee M",
+            "lastName": "Snee",
+            "firstName": "Matthew",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cell-Matrix Biology and Regenerative Medicine, School of Biological Sciences, Faculty of Biology, Medicine and Health, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lockhart-Cairns MP",
+            "lastName": "Lockhart-Cairns",
+            "firstName": "Michael",
+            "initials": "MP",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cell-Matrix Biology and Regenerative Medicine, School of Biological Sciences, Faculty of Biology, Medicine and Health, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Levy CW",
+            "lastName": "Levy",
+            "firstName": "Colin",
+            "initials": "CW",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Manchester Institute of Biotechnology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jowitt TA",
+            "lastName": "Jowitt",
+            "firstName": "Thomas",
+            "initials": "TA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cell-Matrix Biology and Regenerative Medicine, School of Biological Sciences, Faculty of Biology, Medicine and Health, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Birchenough HL",
+            "lastName": "Birchenough",
+            "firstName": "Holly",
+            "initials": "HL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cell-Matrix Biology and Regenerative Medicine, School of Biological Sciences, Faculty of Biology, Medicine and Health, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dean L",
+            "lastName": "Dean",
+            "firstName": "Louisa",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cell-Matrix Biology and Regenerative Medicine, School of Biological Sciences, Faculty of Biology, Medicine and Health, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Collins R",
+            "lastName": "Collins",
+            "firstName": "Richard",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cell-Matrix Biology and Regenerative Medicine, School of Biological Sciences, Faculty of Biology, Medicine and Health, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dodd RJ",
+            "lastName": "Dodd",
+            "firstName": "Rebecca",
+            "initials": "RJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cell-Matrix Biology and Regenerative Medicine, School of Biological Sciences, Faculty of Biology, Medicine and Health, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Roberts ARE",
+            "lastName": "Roberts",
+            "firstName": "Abigail",
+            "initials": "ARE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biomedical Sciences, Faculty of Biological Sciences, School of Physics and Astronomy, Faculty of Engineering and Physical Sciences, Astbury Centre for Structural Molecular Biology, and Bragg Centre for Materials Research, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Enghild JJ",
+            "lastName": "Enghild",
+            "firstName": "Jan",
+            "initials": "JJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Molecular Biology and Genetics, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mantovani A",
+            "lastName": "Mantovani",
+            "firstName": "Alberto",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Sciences, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                },
+                {
+                  "affiliation": "Centre for Experimental Medicine and Rheumatology, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fontana J",
+            "lastName": "Fontana",
+            "firstName": "Juan",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Molecular and Cellular Biology, Faculty of Biological Sciences and Astbury Centre for Structural Molecular Biology, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Baldock C",
+            "lastName": "Baldock",
+            "firstName": "Clair",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cell-Matrix Biology and Regenerative Medicine, School of Biological Sciences, Faculty of Biology, Medicine and Health, , , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Inforzato A",
+            "lastName": "Inforzato",
+            "firstName": "Antonio",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8110-0027"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Biomedical Sciences, , ,"
+                },
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Richter RP",
+            "lastName": "Richter",
+            "firstName": "Ralf",
+            "initials": "RP",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-3071-2837"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "School of Biomedical Sciences, Faculty of Biological Sciences, School of Physics and Astronomy, Faculty of Engineering and Physical Sciences, Astbury Centre for Structural Molecular Biology, and Bragg Centre for Materials Research, , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Day AJ",
+            "lastName": "Day",
+            "firstName": "Anthony",
+            "initials": "AJ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", Division of Cell-Matrix Biology and Regenerative Medicine, School of Biological Sciences, Faculty of Biology, Medicine and Health, , , ,"
+                },
+                {
+                  "affiliation": "Lydia Becker Institute of Immunology and Inflammation, , , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8110-0027"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-3071-2837"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2024",
+      "abstractText": "<h4>ABSTRACT</h4>  Pentraxin-3 (PTX3) is an octameric protein, comprised of eight identical protomers, that has diverse functions in reproductive biology, innate immunity and cancer. PTX3 interacts with the large polysaccharide hyaluronan (HA) to which heavy chains (HCs) of the inter-α-inhibitor (IαI) family of proteoglycans are covalently attached, playing a key role in the (non-covalent) crosslinking of HC•HA complexes. These interactions stabilise the cumulus matrix, essential for ovulation and fertilisation in mammals, and are also implicated in the formation of pathogenic matrices in the context of viral lung infections. To better understand the physiological and pathological roles of PTX3 we have analysed how its quaternary structure underpins HA crosslinking via its interactions with HCs. A combination of X-ray crystallography, cryo-electron microscopy (cryo-EM) and AlphaFold predictive modelling revealed that the C-terminal pentraxin domains of the PTX3 octamer are arranged in a central cube, with two long extensions on either side, each formed from four protomers assembled into tetrameric coiled-coil regions, essentially as described by (Noone  et al ., 2022; doi:10.1073/pnas.2208144119). From crystallography and cryo-EM data, we identified a network of inter-protomer salt bridges that facilitate the assembly of the octamer. Small angle X-ray scattering (SAXS) validated our model for the octameric protein, including the analysis of two PTX3 constructs: a tetrameric ‘Half-PTX3’ and a construct missing the 24 N-terminal residues (Δ1-24-PTX3). SAXS determined a length of ∼520 Å for PTX3 and, combined with 3D variability analysis of cryo-EM data, defined the flexibility of the N-terminal extensions. Biophysical analyses revealed that the prototypical heavy chain HC1 does not interact with PTX3 at pH 7.4, consistent with our previous studies showing that, at this pH, PTX3 only associates with HC•HA complexes if they are formed in its presence. However, PTX3 binds to HC1 at acidic pH, and can also be incorporated into pre-formed HC•HA complexes under these conditions. This provides a novel mechanism for the regulation of PTX3-mediated HA crosslinking (e.g., during inflammation), likely mediated by a pH-dependent conformational change in HC1. The PTX3 octamer was found to associate simultaneously with up to eight HC1 molecules and, thus, has the potential to form a major crosslinking node within HC•HA matrices, i.e., where the physical and biochemical properties of resulting matrices could be tuned by the HC/PTX3 composition.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2024
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T017643/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T001542/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "090932/Z/09/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "108466/Z/15/Z",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/T001631/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/V008099/1",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "doi",
+            "site": "Unpaywall",
+            "url": "https://doi.org/10.1101/2024.08.14.607909"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2024.08.14.607909"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR896210"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR896210&type=FILE&fileName=EMS198123-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39814214",
+            "reference": "Matrix biology : journal of the International Society for Matrix Biology. 2025 Apr;136:52-68",
+            "type": "Preprint of",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS198123",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "uniprot",
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2024-08-17",
+      "firstPublicationDate": "2024-08-14",
+      "firstIndexDate": "2024-08-17",
+      "fullTextReceivedDate": "2024-08-21",
+      "hasEvaluations": "N"
+    }
+  }
+}

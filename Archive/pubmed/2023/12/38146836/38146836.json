@@ -1,0 +1,246 @@
+{
+  "identity": {
+    "pmid": "38146836",
+    "doi": "10.1021/jacs.3c10847",
+    "title": "Quantitative Ensemble Interpretation of Membrane Paramagnetic Relaxation Enhancement (mPRE) for Studying Membrane-Associated Intrinsically Disordered Proteins."
+  },
+  "content": {
+    "abstract": "An understanding of the functional role played by a membrane-associated intrinsically disordered protein (IDP) requires characterization of its heterogeneous conformations as well as its poses relative to the membranes, which is of great interest but technically challenging. Here, we explore the membrane paramagnetic relaxation enhancement (mPRE) for constructing ensembles of IDPs that dynamically associate with membrane mimetics incorporating spin-labeled lipids. To accurately interpret the mPRE Gamma(2) rates, both the dynamics of IDPs and spin probe molecules are taken into account, with the latter described by a weighted three-dimensional (3D) grid model built based on all-atom simulations. The IDP internal conformations, orientations, and immersion depths in lipid bilayers are comprehensively optimized in the Gamma(2)-based ensemble modeling. Our approach is tested and validated on the example of POPG bicelle-bound disordered cytoplasmic domain of CD3epsilon (CD3epsilon(CD)), a component of the T-cell receptor (TCR) complex. The mPRE-derived CD3epsilon(CD) ensemble provides new insights into the IDP-membrane fuzzy association, in particular for the tyrosine-based signaling motif that plays a critical role in TCR signaling. The comparative analysis of the ensembles for wild-type CD3epsilon(CD) and mutants that mimic the mono- and dual-phosphorylation effects suggests a delicate membrane regulatory mechanism for activation and inhibition of the TCR activity.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/metabolism",
+      "Protein Conformation",
+      "Spin Labels",
+      "Receptors, Antigen, T-Cell",
+      "Molecular Dynamics Simulation"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Jin, Hong",
+        "Liu, Dan",
+        "Ni, Yu",
+        "Wang, Hui",
+        "Long, Dong"
+      ],
+      "short_names": [
+        "Jin H",
+        "Liu D",
+        "Ni Y",
+        "Wang H",
+        "Long D"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-0705-5499"
+      ],
+      "affiliations": [
+        "MOE Key Laboratory for Cellular Dynamics, School of Life Sciences, University of Science and Technology of China, Hefei 230027, China.",
+        "MOE Key Laboratory for Cellular Dynamics, School of Life Sciences, University of Science and Technology of China, Hefei 230027, China.",
+        "MOE Key Laboratory for Cellular Dynamics, School of Life Sciences, University of Science and Technology of China, Hefei 230027, China.",
+        "MOE Key Laboratory for Cellular Dynamics, School of Life Sciences, University of Science and Technology of China, Hefei 230027, China.",
+        "MOE Key Laboratory for Cellular Dynamics, School of Life Sciences, University of Science and Technology of China, Hefei 230027, China.",
+        "Department of Chemistry, University of Science and Technology of China, Hefei 230026, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Jin, Hong",
+        "short_name": "Jin H",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Cellular Dynamics, School of Life Sciences, University of Science and Technology of China, Hefei 230027, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Dan",
+        "short_name": "Liu D",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Cellular Dynamics, School of Life Sciences, University of Science and Technology of China, Hefei 230027, China."
+        ]
+      },
+      {
+        "full_name": "Ni, Yu",
+        "short_name": "Ni Y",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Cellular Dynamics, School of Life Sciences, University of Science and Technology of China, Hefei 230027, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Hui",
+        "short_name": "Wang H",
+        "identifiers": [],
+        "affiliations": [
+          "MOE Key Laboratory for Cellular Dynamics, School of Life Sciences, University of Science and Technology of China, Hefei 230027, China."
+        ]
+      },
+      {
+        "full_name": "Long, Dong",
+        "short_name": "Long D",
+        "identifiers": [
+          "0000-0002-0705-5499"
+        ],
+        "affiliations": [
+          "MOE Key Laboratory for Cellular Dynamics, School of Life Sciences, University of Science and Technology of China, Hefei 230027, China.",
+          "Department of Chemistry, University of Science and Technology of China, Hefei 230026, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of the American Chemical Society"
+    ],
+    "journal_abbrev": [
+      "J Am Chem Soc"
+    ],
+    "pub_date": "2024 Jan 10",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/12/26 12:42",
+    "fetched_at": "2026-09-21 03:47:12"
+  },
+  "links": {
+    "cites": [
+      "42026204",
+      "41959284",
+      "40575305",
+      "39952269",
+      "39528837",
+      "38419331"
+    ],
+    "refs": [],
+    "similar": [
+      "38146836",
+      "34504009",
+      "28877484",
+      "34656328",
+      "27844185",
+      "37338049",
+      "30979035",
+      "30840442",
+      "33945530",
+      "31809054",
+      "36084124",
+      "26735936",
+      "25992726",
+      "33623120",
+      "34845619",
+      "29733855",
+      "31548393",
+      "36641212",
+      "38512660",
+      "27159632",
+      "38739602",
+      "33355572",
+      "32403216",
+      "32696378",
+      "35377637",
+      "33382616",
+      "26387102",
+      "32579908",
+      "31375817",
+      "38018910",
+      "30125451",
+      "29990433",
+      "26453204",
+      "29276882",
+      "32145192",
+      "30413085",
+      "32859072",
+      "37108059",
+      "32840111",
+      "25897952",
+      "26195786",
+      "31441158",
+      "35129612",
+      "28734076",
+      "35034725",
+      "29573987",
+      "30230839",
+      "30204435",
+      "32227937",
+      "38275091",
+      "26994550",
+      "29812937",
+      "32816485",
+      "32929427",
+      "28493424",
+      "33581430",
+      "32323533",
+      "28259050",
+      "29182244",
+      "25331250",
+      "26742101",
+      "35944496",
+      "33054197",
+      "36934808",
+      "38053335",
+      "38713459",
+      "35119946",
+      "28914483",
+      "32357776",
+      "28834051",
+      "30933517",
+      "33591749",
+      "32393642",
+      "38177684",
+      "34641515",
+      "30471688",
+      "28337984",
+      "37442414",
+      "26574339",
+      "23794453",
+      "33337879",
+      "32925900",
+      "25919886",
+      "30708285",
+      "30091924",
+      "24008243",
+      "33030907",
+      "30813315",
+      "37116086",
+      "21943426",
+      "37838830"
+    ],
+    "review": [
+      "38146836",
+      "30979035",
+      "30840442",
+      "33355572",
+      "32403216",
+      "26387102",
+      "30413085",
+      "31441158",
+      "35129612",
+      "28259050",
+      "35119946",
+      "33591749",
+      "23794453",
+      "24008243"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pubs.acs.org/jacsat/article-lookup/doi/10.1021/jacs.3c10847",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

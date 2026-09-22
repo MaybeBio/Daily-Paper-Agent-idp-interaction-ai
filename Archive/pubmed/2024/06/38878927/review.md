@@ -1,0 +1,69 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that PADI4 and RING1B associate in the nucleus and cytosol of several cancer cell lines, that this association is disrupted by the PADI4 inhibitor GSK484, that both N-terminal (residues 1-221) and C-terminal (residues 228-336) fragments of RING1B bind PADI4 in vitro with low micromolar affinity, and that docking simulations support binding at the PADI4 active site. The authors suggest functional and therapeutic implications involving citrullination of RING1B and cancer treatment.
+- **Visible evidence base** Immunofluorescence, proximity ligation assays, protein-protein docking simulations, isothermal titration calorimetry, NMR, and fluorescence-based binding measurements, all as described in the abstract only
+- **Missing materials affecting confidence** Full methods, quantitative binding data, statistical analyses, representative images, docking scores, NMR spectra, ITC thermograms, cell line identities, and any controls or replicates
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting protein-protein interaction with relevance to cancer epigenetics, but the evidence as summarized is insufficient to establish the central claims. The cellular colocalization data are descriptive, the inhibitor sensitivity result is presented without quantitative detail, and the in vitro binding data are reported only as a range without experimental context. The docking simulation is mentioned as confirmatory but no scores or validation are provided. The functional and therapeutic implications are speculative and not supported by direct evidence in the abstract.
+- **Who would be interested in the results, and why** Researchers studying Polycomb group proteins, histone modification, citrullination, and cancer epigenetics would find the potential PADI4-RING1B link of interest. Those working on PADI4 inhibitors as therapeutic agents might also follow this work, though the translational relevance is not yet established.
+- **Major strengths** The combination of cellular and biophysical approaches is appropriate for studying a protein-protein interaction. The use of multiple orthogonal methods (immunofluorescence, PLA, ITC, NMR, fluorescence, docking) is commendable. The identification of two independent binding regions on RING1B adds specificity to the proposed interaction.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that PADI4 and RING1B associate in the nucleus and cytosol of several cancer cell lines.
+  - **Evidence pointer** Immunofluorescence and proximity ligation assays, location not provided
+  - **Concern** The abstract states that colocalization and proximity were observed, but provides no quantitative measures, no controls (for example, negative cell lines, knockdown or knockout conditions), and no statistical assessment. The phrase "several cancer cell lines" is vague and does not specify which lines were used or how many.
+  - **Why it matters** Colocalization by immunofluorescence is a weak basis for claiming a physical interaction, and PLA without appropriate controls can produce false positives. Without quantitative data and controls, the cellular interaction claim is not established.
+  - **Resolution test** Provide representative images with quantified colocalization coefficients, PLA signal quantification with appropriate positive and negative controls, and a clear list of cell lines tested with replicate numbers.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that GSK484 hampers binding, suggesting that RING1B binds to the active site of PADI4.
+  - **Evidence pointer** Immunofluorescence, PLA, ITC, NMR, and docking simulations, location not provided
+  - **Concern** The inhibitor effect is described qualitatively as "hampered" without dose-response data, IC50 values, or statistical comparison. The docking simulation is stated as confirmation but no scores, models, or validation are presented. The inference from inhibitor sensitivity to active-site binding is indirect and requires structural or mutational support.
+  - **Why it matters** The active-site binding claim is mechanistically important and has therapeutic implications. Without quantitative inhibitor data and credible docking validation, the claim is speculative.
+  - **Resolution test** Provide dose-response curves for GSK484 in cellular and in vitro assays, docking scores with confidence metrics, and ideally mutagenesis of predicted contact residues to test the binding model.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that both N-terminal and C-terminal fragments of RING1B bind PADI4 with dissociation constants in the low micromolar range (approximately 2-10 micromolar).
+  - **Evidence pointer** Fluorescence and ITC, location not provided
+  - **Concern** The dissociation constants are reported only as a range across two fragments and two methods. No individual values, errors, fitting models, or stoichiometries are given. The abstract does not clarify whether both methods were applied to both fragments or whether the range reflects method or fragment differences.
+  - **Why it matters** Quantitative binding parameters are central to the claim of a specific interaction. Without detailed values and method-specific results, the affinity claim cannot be evaluated.
+  - **Resolution test** Report individual Kd values with standard errors for each fragment and each method, including fitting models and stoichiometry, in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Cell line description
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "several cancer cell lines" is imprecise.
+  - **Required correction** Specify the cell lines used and their tissue origins.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Functional implications
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The statement that the interaction "might imply citrullination" and has "potential therapeutic relevance" is speculative and not tied to any data in the abstract.
+  - **Required correction** Either remove these claims or support them with direct experimental evidence, such as citrullination assays or functional studies.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Methodological transparency
+  - **Affected element** Docking simulation
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The docking simulation is mentioned without any methodological detail or validation.
+  - **Required correction** Provide the docking software, scoring function, and validation approach in the full manuscript.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The cellular interaction claim lacks quantitative and controlled evidence, the active-site binding claim relies on an indirect inhibitor effect and unvalidated docking, and the binding affinity data are reported without sufficient detail for evaluation.
+- **Assessment against Nature-style criteria** Originality: the PADI4-RING1B interaction is a novel claim, but novelty alone is insufficient. Scientific importance: the potential link between citrullination and Polycomb repression is interesting, but the abstract does not demonstrate functional significance. Interdisciplinary readership: the topic bridges epigenetics, enzymology, and cancer biology, which could appeal to a broad audience if the evidence were stronger. Technical soundness: the use of multiple biophysical methods is appropriate, but the lack of quantitative detail and controls undermines confidence. Readability for nonspecialists: the abstract is reasonably clear, though some terms (for example, PcGs, monoubiquitylation) assume background knowledge.
+
+## Risk / unsupported claims
+- The claim that PADI4 and RING1B associate in the nucleus and cytosol is unsupported without quantitative data and controls.
+- The claim that RING1B binds to the active site of PADI4 is unsupported without validated docking or mutagenesis.
+- The claim that the interaction might lead to citrullination of RING1B and therapeutic relevance is speculative and not supported by any data in the abstract.
+- The reported dissociation constant range (approximately 2-10 micromolar) is not evaluable without individual values and method details.

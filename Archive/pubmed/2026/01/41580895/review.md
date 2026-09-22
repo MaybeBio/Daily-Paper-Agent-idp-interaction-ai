@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, methods, or supplementary material provided
+- **Shared manuscript claim summary** The authors use all-atom and coarse-grained molecular dynamics simulations with enhanced sampling to study how the N-terminal intrinsically disordered region (IDR) of the peptidoglycan-associated lipoprotein (Pal) in Gram-negative bacteria modulates lipoprotein transport from the inner membrane (IM) to the outer membrane (OM). They report that the IDR minimally affects the ordered C-terminal domain (CTD) conformation but significantly alters transport energetics. Specifically, full-length Pal requires more energy to approach the OM when the CTD is fully ordered or fully disordered, but less energy when the CTD is partially folded. The IDR transiently interacts with both the CTD and membrane, facilitating detachment from the IM and eventual anchoring to the OM, a process described as time-consuming but energetically favorable.
+- **Visible evidence base** Abstract text only; no simulation details, system setup, force field parameters, convergence criteria, or quantitative results are provided
+- **Missing materials affecting confidence** Full manuscript, all figures, simulation methodology, enhanced sampling protocols, error analysis, comparison with experimental data beyond the cited retention observation, and any statistical validation
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible mechanistic hypothesis for IDR-mediated lipoprotein transport, supported by simulation-based observations. However, the evidence base is entirely qualitative at this stage. No quantitative data, convergence metrics, or methodological details are visible, which prevents independent evaluation of the central claims. The conceptual framework is interesting and potentially relevant to the membrane protein transport community, but the case is not established from the supplied material alone.
+- **Who would be interested in the results, and why** Researchers studying lipoprotein sorting and transport in Gram-negative bacteria, particularly those focused on the Lol pathway and the role of disordered regions in membrane protein trafficking. Computational biophysicists interested in IDR-membrane interactions and enhanced sampling methods would also find the approach relevant. The work could inform experimental design for mutagenesis studies targeting the IDR.
+- **Major strengths** The study addresses a mechanistically under-explored question, namely how an IDR modulates transport energetics rather than simply affecting structure. The use of multiple simulation resolutions and enhanced sampling is appropriate for capturing both conformational and energetic features. The proposed mechanism, where transient IDR interactions reduce detachment resistance, is physically plausible and offers a testable hypothesis.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that full-length Pal requires greater energy to approach the OM when the CTD is ordered or fully disordered, but less energy when partially folded, is presented as a quantitative finding.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No quantitative free energy values, error bars, or convergence assessments are reported. The abstract states energetic differences without any numerical support, making it impossible to assess the magnitude or statistical significance of the reported effects.
+  - **Why it matters** The central conclusion rests on comparative energetics across three CTD states. Without quantitative data and uncertainty estimates, the claim cannot be distinguished from simulation noise or insufficient sampling.
+  - **Resolution test** Provide free energy profiles or barrier heights with associated uncertainties for each CTD state, along with convergence metrics for the enhanced sampling runs.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the IDR transiently interacts with both the CTD and the membrane, exhibiting flexibility and lower resistance to conformational changes, thereby facilitating detachment from the IM.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** The interaction contact analyses are mentioned but no details are given on how contacts were defined, how transience was quantified, or how resistance to conformational changes was measured. The causal link between transient interactions and facilitated detachment is asserted rather than demonstrated.
+  - **Why it matters** The proposed mechanism depends on a specific temporal and spatial pattern of IDR interactions. Without operational definitions and quantitative measures, the mechanism remains speculative.
+  - **Resolution test** Define contact criteria, report contact lifetimes and occupancies, and show how these correlate with detachment free energy barriers in a statistically robust manner.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility
+  - **Claim pointer** The study uses all-atom and coarse-grained molecular dynamics simulations with enhanced sampling techniques.
+  - **Evidence pointer** Abstract, location not provided
+  - **Concern** No simulation parameters are provided, including force field versions, water models, salt concentrations, temperature coupling, system sizes, simulation lengths, or the specific enhanced sampling method used. The coarse-grained model is not identified.
+  - **Why it matters** Reproducibility is a core requirement for computational studies. Without these details, the results cannot be replicated or independently verified.
+  - **Resolution test** Include a full methods section with all simulation parameters, software versions, and analysis protocols.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "trade time for force reduction" in the title is not defined or explained in the abstract. The relationship between time and force is unclear.
+  - **Required correction** Define the trade-off explicitly in the abstract or revise the title to reflect the actual mechanistic finding.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Experimental comparison
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract states that the findings align with experimental observation, but only one experimental result is cited, namely that IDR deletion enhances IM retention. No quantitative comparison is made.
+  - **Required correction** Specify which experimental observables are compared and provide quantitative agreement metrics.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Generalizability
+  - **Affected element** Model choice
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The study uses Pal as an example model, but the abstract does not discuss whether the findings are expected to generalize to other lipoproteins with N-terminal IDRs.
+  - **Required correction** Add a brief statement on the expected generality or limitations of the mechanism across the lipoprotein family.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The absence of quantitative energetics, operational definitions for interaction analyses, and simulation methodology details collectively prevent validation of the central claims.
+- **Assessment against Nature-style criteria** Originality is moderate, as the application of IDR-mediated energetics to lipoprotein transport is relatively novel, though the general concept of IDRs modulating membrane interactions is established. Scientific importance is potentially high for the bacterial cell envelope field, but the current evidence is insufficient to establish significance. Interdisciplinary readership is limited, as the work is primarily of interest to biophysicists and bacteriologists. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is acceptable, though the title is somewhat cryptic.
+- **Recommendation posture** Currently not established from the provided evidence. The hypothesis is interesting and the simulation approach is appropriate, but the abstract lacks the quantitative and methodological detail required to support the claims. A full manuscript with complete methods and results would be needed for a supportive assessment.
+
+## Risk / unsupported claims
+- The claim that full-length Pal requires greater or lesser energy to approach the OM depending on CTD state is unsupported without quantitative free energy data.
+- The claim that the IDR facilitates detachment from the IM through transient interactions is unsupported without operational definitions and quantitative contact analyses.
+- The claim that the process is "time-consuming but energetically favorable" is not supported by any kinetic or thermodynamic data in the abstract.
+- The alignment with experimental observation is asserted but not quantitatively demonstrated.

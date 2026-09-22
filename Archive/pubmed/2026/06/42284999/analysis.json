@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42284999",
+  "title": "Nanoscale interrogation of alpha-Synuclein oligomers: Bridging biophysics, interface science, and neurobiology.",
+  "authors": "Goncerz, Magdalena; Rubis, Blazej; Szukalska, Marta; Toton, Ewa; Nehra, Monika; Malesza, Ida; Sujka-Kordowska, Patrycja; Jachimska, Barbara; Florek, Ewa; Madry, Edyta; Kumar, Sandeep; Kujawska, Malgorzata",
+  "journal": "Advances in colloid and interface science",
+  "published_date": "2026-06-13",
+  "window": {
+    "start": "2026-06-08",
+    "end": "2026-06-14"
+  },
+  "score": 6,
+  "one_liner_zh": "综述α-突触核蛋白（IDP）寡聚体的生物物理表征、膜界面互作与神经毒性机制，提及未来需结合AI算法，但当前无具体PPI机制建模或AI/物理模拟方法贡献。",
+  "abstract": "alpha-Synuclein (alpha-syn) is an intrinsically disordered presynaptic protein. In synucleinopathies, it undergoes a structural transition into beta-sheet-rich conformers that promote the formation of amyloid fibrils and pathological inclusions. Although fibrillar aggregates have been studied extensively, soluble oligomers, which may have the greatest neurotoxic potential, remain poorly understood because of their transient nature and structural heterogeneity. This review critically examines alpha-syn oligomeric species, with particular emphasis on advanced biophysical and surface characterization techniques and neurobiological models to elucidate oligomer formation, membrane interactions, and toxic mechanisms. Recent advances in spectroscopy, high-resolution microscopy, and mass spectrometry have significantly expanded the ability to characterize alpha-syn oligomers and their aggregation pathways. Nanopore-based and single-molecule approaches enable the investigation of transient and structurally heterogeneous oligomeric species at the level of individual particles. Interface science has further clarified direct interactions between oligomers and lipid membranes, providing mechanistic insight into neurotoxicity and the lipid-dependent modulation of alpha-syn conformation and stability. Neurobiological models have revealed multi-organelle disruption, prion-like propagation, and disease subtype-specific seeding. However, no single approach fully captures oligomer pathogenicity, which emerges from the interplay of structure, interfacial behavior, and cellular vulnerability. However, existing frameworks do not adequately address this complexity. Additional barriers include poor reproducibility and limited sensitivity across approaches. Future work should integrate these technologies with standardized biological protocols, advanced artificial intelligence algorithms, and biocompatible nanomaterials. Such an interdisciplinary approach could enable the development of multiscale platforms for real-time studies of alpha-syn soluble conformers, with clinical utility in the management of synucleinopathies.",
+  "abstract_zh": "α-突触核蛋白（alpha-syn）是一种本质上无序的突触前蛋白。在突触核蛋白病中，它经历结构转变，形成富含β-折叠的构象体，促进淀粉样纤维和病理包涵体的形成。尽管纤维状聚集体已被广泛研究，但可能具有最大神经毒性潜力的可溶性寡聚体，因其瞬时性和结构异质性，仍了解甚少。本综述严格审视alpha-syn寡聚体种类，特别强调先进的生物物理和表面表征技术以及神经生物学模型，以阐明寡聚体形成、膜相互作用和毒性机制。光谱学、高分辨率显微镜和质谱法的最新进展显著扩展了表征alpha-syn寡聚体及其聚集途径的能力。基于纳米孔和单分子方法能够在单个颗粒水平上研究瞬时性和结构异质性的寡聚体种类。界面科学进一步阐明了寡聚体与脂质膜之间的直接相互作用，为神经毒性以及脂质依赖性调节alpha-syn构象和稳定性提供了机制性见解。神经生物学模型揭示了多细胞器破坏、类朊病毒传播和疾病亚型特异性播种。然而，没有单一方法能完全捕捉寡聚体致病性，这种致病性源于结构、界面行为和细胞脆弱性的相互作用。然而，现有框架未能充分应对这一复杂性。其他障碍包括跨方法的可重复性差和灵敏度有限。未来工作应将这些技术与标准化生物学方案、先进人工智能算法和生物相容性纳米材料相结合。这种跨学科方法可能促进多尺度平台的开发，用于alpha-syn可溶性构象体的实时研究，并在突触核蛋白病管理中具有临床实用性。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42284999/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42284999/",
+  "paper_page_path": "papers/pubmed/42284999/index.html"
+}

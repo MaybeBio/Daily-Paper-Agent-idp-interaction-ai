@@ -1,0 +1,318 @@
+{
+  "identity": {
+    "pmid": "42223083",
+    "doi": "10.1021/acs.jpclett.6c00916",
+    "title": "Coarse-Grained Simulations Reveal Salt- and Length-Dependent Condensation of G4C2 RNA Repeats."
+  },
+  "content": {
+    "abstract": "RNA-RNA interactions drive the formation of biomolecular condensates via liquid-liquid phase separation (LLPS), but their underlying molecular mechanisms remain poorly understood. Here, we employ Martini 3 coarse-grained molecular simulations to investigate phase transitions of G4C2 RNA repeats horizontal line sequences implicated in neurodegenerative disorders such as ALS and FTD horizontal line across varying salt concentrations. The model captures salt-dependent transitions from dispersed to condensed-like states and suggests that dominant interaction patterns, including Watson-Crick-like and G-G contacts, shift with ionic strength. Notably, longer RNA sequences maintain phase-separated states at salt concentrations that dissolve shorter ones, in line with experimental observations. Our findings demonstrate the ability of the Martini coarse-grained model to reproduce key biophysical features of RNA LLPS, including sequence-length dependence and interaction specificity. This work provides molecular-level insight into RNA-driven phase separation and reveals how sequence composition and ionic strength govern the emergence and stability of RNA-rich assemblies.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Molecular Dynamics Simulation",
+      "Nucleic Acid Conformation",
+      "Osmolar Concentration",
+      "Phase Separation",
+      "*RNA/chemistry",
+      "Salts/chemistry",
+      "*G-Quadruplexes"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhang, Qin",
+        "Valerio, Mariana",
+        "Grunewald, Linus",
+        "Borges-Araujo, Luis",
+        "Grunewald, Fabian",
+        "Wang, Shaomeng",
+        "Marrink, Siewert J",
+        "Gong, Yubin",
+        "Souza, Paulo C T"
+      ],
+      "short_names": [
+        "Zhang Q",
+        "Valerio M",
+        "Grunewald L",
+        "Borges-Araujo L",
+        "Grunewald F",
+        "Wang S",
+        "Marrink SJ",
+        "Gong Y",
+        "Souza PCT"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-9785-9329",
+        "ORCID: 0000-0001-7340-0134",
+        "ORCID: 0000-0003-3004-7750",
+        "ORCID: 0000-0001-6979-1363",
+        "ORCID: 0000-0001-8423-5277",
+        "ORCID: 0000-0003-3014-1309",
+        "ORCID: 0000-0003-0660-1301"
+      ],
+      "affiliations": [
+        "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, Sichuan, China.",
+        "Laboratoire de Biologie et Modelisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Universite Claude Bernard Lyon 1, Ecole Normale Superieure de Lyon, 46 Allee d'Italie, 69364 Lyon, France.",
+        "Centre Blaise Pascal de Simulation et de Modelisation Numerique, Ecole Normale Superieure de Lyon, 46 Allee d'Italie, 69364 Lyon, France.",
+        "Laboratoire de Biologie et Modelisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Universite Claude Bernard Lyon 1, Ecole Normale Superieure de Lyon, 46 Allee d'Italie, 69364 Lyon, France.",
+        "Centre Blaise Pascal de Simulation et de Modelisation Numerique, Ecole Normale Superieure de Lyon, 46 Allee d'Italie, 69364 Lyon, France.",
+        "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Nijenborgh 7, 9747 AG Groningen, The Netherlands.",
+        "Laboratoire de Biologie et Modelisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Universite Claude Bernard Lyon 1, Ecole Normale Superieure de Lyon, 46 Allee d'Italie, 69364 Lyon, France.",
+        "Centre Blaise Pascal de Simulation et de Modelisation Numerique, Ecole Normale Superieure de Lyon, 46 Allee d'Italie, 69364 Lyon, France.",
+        "Heidelberg Institute for Theoretical Studies (HITS), Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany.",
+        "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, Sichuan, China.",
+        "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Nijenborgh 7, 9747 AG Groningen, The Netherlands.",
+        "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, Sichuan, China.",
+        "Laboratoire de Biologie et Modelisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Universite Claude Bernard Lyon 1, Ecole Normale Superieure de Lyon, 46 Allee d'Italie, 69364 Lyon, France.",
+        "Centre Blaise Pascal de Simulation et de Modelisation Numerique, Ecole Normale Superieure de Lyon, 46 Allee d'Italie, 69364 Lyon, France."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhang, Qin",
+        "short_name": "Zhang Q",
+        "identifiers": [
+          "0000-0001-9785-9329"
+        ],
+        "affiliations": [
+          "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, Sichuan, China.",
+          "Laboratoire de Biologie et Modélisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Université Claude Bernard Lyon 1, Ecole Normale Supérieure de Lyon, 46 Allée d'Italie, 69364 Lyon, France.",
+          "Centre Blaise Pascal de Simulation et de Modélisation Numérique, Ecole Normale Supérieure de Lyon, 46 Allée d'Italie, 69364 Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Valério, Mariana",
+        "short_name": "Valério M",
+        "identifiers": [
+          "0000-0001-7340-0134"
+        ],
+        "affiliations": [
+          "Laboratoire de Biologie et Modélisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Université Claude Bernard Lyon 1, Ecole Normale Supérieure de Lyon, 46 Allée d'Italie, 69364 Lyon, France.",
+          "Centre Blaise Pascal de Simulation et de Modélisation Numérique, Ecole Normale Supérieure de Lyon, 46 Allée d'Italie, 69364 Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Grünewald, Linus",
+        "short_name": "Grünewald L",
+        "identifiers": [],
+        "affiliations": [
+          "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Nijenborgh 7, 9747 AG Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Borges-Araújo, Luís",
+        "short_name": "Borges-Araújo L",
+        "identifiers": [
+          "0000-0003-3004-7750"
+        ],
+        "affiliations": [
+          "Laboratoire de Biologie et Modélisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Université Claude Bernard Lyon 1, Ecole Normale Supérieure de Lyon, 46 Allée d'Italie, 69364 Lyon, France.",
+          "Centre Blaise Pascal de Simulation et de Modélisation Numérique, Ecole Normale Supérieure de Lyon, 46 Allée d'Italie, 69364 Lyon, France."
+        ]
+      },
+      {
+        "full_name": "Grünewald, Fabian",
+        "short_name": "Grünewald F",
+        "identifiers": [
+          "0000-0001-6979-1363"
+        ],
+        "affiliations": [
+          "Heidelberg Institute for Theoretical Studies (HITS), Schloss-Wolfsbrunnenweg 35, 69118 Heidelberg, Germany."
+        ]
+      },
+      {
+        "full_name": "Wang, Shaomeng",
+        "short_name": "Wang S",
+        "identifiers": [],
+        "affiliations": [
+          "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Marrink, Siewert J",
+        "short_name": "Marrink SJ",
+        "identifiers": [
+          "0000-0001-8423-5277"
+        ],
+        "affiliations": [
+          "Groningen Biomolecular Sciences and Biotechnology Institute, University of Groningen, Nijenborgh 7, 9747 AG Groningen, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Gong, Yubin",
+        "short_name": "Gong Y",
+        "identifiers": [
+          "0000-0003-3014-1309"
+        ],
+        "affiliations": [
+          "School of Electronic Science and Engineering, University of Electronic Science and Technology of China, Chengdu 611731, Sichuan, China."
+        ]
+      },
+      {
+        "full_name": "Souza, Paulo C T",
+        "short_name": "Souza PCT",
+        "identifiers": [
+          "0000-0003-0660-1301"
+        ],
+        "affiliations": [
+          "Laboratoire de Biologie et Modélisation de la Cellule, CNRS, UMR 5239, Inserm, U1293, Université Claude Bernard Lyon 1, Ecole Normale Supérieure de Lyon, 46 Allée d'Italie, 69364 Lyon, France.",
+          "Centre Blaise Pascal de Simulation et de Modélisation Numérique, Ecole Normale Supérieure de Lyon, 46 Allée d'Italie, 69364 Lyon, France."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry letters"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem Lett"
+    ],
+    "pub_date": "2026 Jun 11",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/06/01 12:39",
+    "fetched_at": "2026-09-18 03:49:31"
+  },
+  "links": {
+    "cites": [
+      "42280206"
+    ],
+    "refs": [],
+    "similar": [
+      "42223083",
+      "42280206",
+      "41804277",
+      "39605385",
+      "38862770",
+      "40009520",
+      "42283756",
+      "41129218",
+      "39505326",
+      "41575805",
+      "35501484",
+      "39807887",
+      "41609052",
+      "37986217",
+      "38160320",
+      "35108264",
+      "37043540",
+      "36883003",
+      "41930927",
+      "33307683",
+      "29262335",
+      "40753455",
+      "40278867",
+      "41535729",
+      "38029395",
+      "41524628",
+      "40781776",
+      "39466031",
+      "41909144",
+      "40970906",
+      "33453922",
+      "38092738",
+      "40102453",
+      "37194953",
+      "42159288",
+      "39319382",
+      "33496264",
+      "37705794",
+      "40150989",
+      "31800202",
+      "35727989",
+      "35378855",
+      "26979708",
+      "37325682",
+      "41017414",
+      "25217954",
+      "40305655",
+      "41965924",
+      "37853696",
+      "41433062",
+      "35944496",
+      "39957101",
+      "24547945",
+      "34762868",
+      "41187075",
+      "37276412",
+      "33926081",
+      "41891879",
+      "33139563",
+      "39568948",
+      "37721444",
+      "40766493",
+      "39421885",
+      "41279901",
+      "39302099",
+      "41602950",
+      "39148776",
+      "30950394",
+      "34001913",
+      "39225535",
+      "40664121",
+      "41457474",
+      "37720552",
+      "26093573",
+      "31722410",
+      "39865610",
+      "40842365",
+      "40534071",
+      "38260590",
+      "41088757",
+      "42169413",
+      "40028898",
+      "40516596",
+      "32482873",
+      "23157550",
+      "27767303",
+      "33076213",
+      "34624313",
+      "32393642",
+      "27526680",
+      "40291420",
+      "21999672",
+      "40172489",
+      "30448398",
+      "35795820",
+      "40053704",
+      "25706623",
+      "36227470",
+      "32949490",
+      "38446881"
+    ],
+    "review": [
+      "42223083",
+      "41575805",
+      "38029395",
+      "40664121",
+      "37720552"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-2678",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpclcd/article-lookup/doi/10.1021/acs.jpclett.6c00916",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

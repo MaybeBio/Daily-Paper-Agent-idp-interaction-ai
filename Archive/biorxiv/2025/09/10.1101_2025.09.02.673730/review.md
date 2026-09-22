@@ -1,0 +1,93 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, main text, results, methods, discussion) without figures, tables, extended data, or supplementary materials
+- **Assessment boundary** Scientific claims and technical soundness based solely on the provided text; experimental data presented in figures and supplementary materials were not accessible for verification
+- **Shared manuscript claim summary** The authors claim that a 284-amino acid intrinsically disordered domain (amino acids 61-345) of the human protein CKAP2 is sufficient to catalyze both microtubule polymerization and depolymerization, and that this constitutes the first demonstration of enzymatic activity within an intrinsically disordered protein domain
+- **Visible evidence base** Text descriptions of circular dichroism spectroscopy, mass photometry, in vitro microtubule dynamics assays, cell-based localization experiments, and AlphaFold3 structural predictions; all quantitative data reside in figures and supplementary materials not provided
+- **Missing materials affecting confidence** All figures, extended data figures, supplementary videos, supplementary tables, and quantitative numerical results; without these, the magnitude and statistical robustness of the reported effects cannot be independently assessed
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a question of substantial conceptual interest, namely whether enzymatic catalysis can occur within a protein domain that lacks a stable folded structure. The authors present a provocative claim supported by a combination of structural prediction, biophysical characterization, and functional reconstitution. However, the text as provided contains several logical gaps and unsupported assertions that prevent the central claim from being fully established. The most significant issue is the definition of catalysis itself: the authors demonstrate that the disordered domain promotes both polymerization and depolymerization, but the text does not provide evidence that this occurs through a reduction in activation energy rather than through a stoichiometric or stabilizing mechanism. The claim of transition-state stabilization is presented as a proposal rather than a tested hypothesis, and the evidence ruling out alternative mechanisms is not described in sufficient detail. The manuscript would benefit from a more rigorous operational definition of enzymatic activity in this context and from explicit consideration of whether the observed rate enhancements meet established criteria for catalysis.
+- **Who would be interested in the results, and why** Researchers studying microtubule dynamics and microtubule-associated proteins would find the functional characterization of CKAP2 of direct relevance. The broader community investigating intrinsically disordered proteins would be interested in the conceptual claim that disordered domains can exhibit catalytic activity, as this challenges a long-standing assumption in the field. Structural biologists and enzymologists interested in the determinants of catalytic activity may also find the work thought-provoking, though they are likely to demand stronger evidence for the catalytic mechanism.
+- **Major strengths** The manuscript addresses a conceptually important question with clear potential to challenge existing paradigms. The combination of structural prediction, biophysical validation, and functional reconstitution represents a reasonable multi-pronged approach. The use of mass photometry to rule out high-affinity tubulin binding is an appropriate technique for this question. The authors are appropriately cautious in some places, acknowledging that the disordered domain does not fold upon binding based on predictive modeling. The finding that a single domain recapitulates both polymerization-promoting and depolymerization-promoting activities is interesting and potentially significant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Definition of catalysis and mechanistic evidence
+  - **Claim pointer** The authors claim that CKAP2 and its disordered domain "catalyze" both microtubule polymerization and depolymerization and that they function as "bona fide enzymes" with a "transition-state-based catalytic mechanism"
+  - **Evidence pointer** Results sections "The CKAP2 IDR is an Enzyme" and Discussion; specific quantitative data in Figure 2f-h and Extended Data Figure 2a (not provided)
+  - **Concern** The text does not establish that the observed rate enhancements meet the operational criteria for catalysis. The authors argue that because the disordered domain accelerates depolymerization in the absence of free tubulin, this constitutes catalysis of the reverse reaction. However, the text does not demonstrate that the protein is regenerated unchanged after each catalytic cycle, that the rate enhancement is saturable and follows Michaelis-Menten kinetics, or that the effect is due to transition-state stabilization rather than to a thermodynamic stabilization of a particular microtubule state. The claim that the mechanism is "transition-state-based" is presented as a proposal in the Discussion, not as a conclusion supported by experimental evidence. The text also does not address whether the protein acts substoichiometrically, which is a standard criterion for catalytic activity.
+  - **Why it matters** The central claim of the manuscript, and its significance for the field, depends entirely on whether the observed activity constitutes genuine catalysis. If the disordered domain acts stoichiometrically, for example by binding to microtubule ends and stabilizing them against depolymerization, or by sequestering tubulin dimers, then the phenomenon would be interesting but would not challenge the paradigm that enzymatic activity requires a folded active site. The distinction between catalytic and stoichiometric mechanisms is therefore not a semantic quibble but is central to the paper's thesis.
+  - **Resolution test** The authors should provide evidence that the disordered domain acts substoichiometrically, that it is not consumed or modified during the reaction, and that the rate enhancement saturates with increasing protein concentration. Ideally, they should measure the rate of polymerization and depolymerization as a function of CKAP2 concentration and demonstrate that the enhancement is catalytic rather than stoichiometric. They should also address whether the protein can undergo multiple rounds of catalysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Alternative mechanisms not excluded
+  - **Claim pointer** The authors claim that CKAP2 "does not function as a 'tubulin antenna' like TOG domain polymerases" and that it instead "targets the microtubule end, where it stabilizes the transition state of an incoming tubulin dimer"
+  - **Evidence pointer** Discussion section; mass photometry results described in Figure 1i and Extended Data Figure 1b (not provided)
+  - **Concern** The text rules out high-affinity binding to free tubulin based on mass photometry, but this does not exclude other non-catalytic mechanisms. For example, the disordered domain could act by binding to the microtubule lattice and reducing its mechanical stability, or by competing with microtubule-stabilizing factors. The text also does not address whether the observed depolymerization activity could be an artifact of the assay conditions, such as the absence of GTP or the presence of the disordered domain at high concentrations. The claim that the domain "targets the microtubule end" is not supported by direct evidence in the text; the authors do not describe experiments that localize the domain to microtubule ends.
+  - **Why it matters** The proposed mechanism of transition-state stabilization is specific and testable, but the text does not provide evidence that discriminates between this mechanism and several plausible alternatives. Without such discrimination, the mechanistic claim is not established, and the broader significance of the work is weakened.
+  - **Resolution test** The authors should perform experiments that directly test the proposed mechanism, such as measuring the effect of the disordered domain on the kinetics of tubulin addition and loss at microtubule ends, or using single-molecule imaging to localize the domain during polymerization and depolymerization. They should also test whether the domain affects the critical concentration of tubulin polymerization, which would distinguish between catalytic and stoichiometric mechanisms.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural characterization of the disordered domain
+  - **Claim pointer** The authors claim that the domain (amino acids 61-345) is "intrinsically disordered" based on circular dichroism spectroscopy showing approximately 5% alpha-helix and 2% beta-sheet content
+  - **Evidence pointer** Results section "The CKAP2 IDR contains all core functionality"; CD data in Figure 2a (not provided)
+  - **Concern** The CD spectroscopy was performed on the isolated disordered domain in solution, but the text does not address whether the domain might adopt structure under the conditions of the functional assays, which include the presence of microtubules, tubulin, and other components. The authors state that predictive modeling suggests the domain does not fold upon binding, but this is based on AlphaFold3 and AlphaFold-Multimer predictions, which are not experimental evidence. The text also does not report the temperature, ionic strength, or other solution conditions of the CD experiment, which could affect the secondary structure content.
+  - **Why it matters** The claim that this is the first demonstration of enzymatic activity in an intrinsically disordered domain depends on the domain being genuinely disordered under the conditions where activity is observed. If the domain acquires structure upon binding to microtubules or tubulin, the claim would need to be qualified. The current evidence is insufficient to establish that the domain remains disordered in its functional state.
+  - **Resolution test** The authors should perform structural characterization of the disordered domain under conditions that mimic the functional assays, such as in the presence of microtubules or tubulin. Techniques such as NMR spectroscopy, small-angle X-ray scattering, or hydrogen-deuterium exchange could provide more definitive evidence about the conformational state of the domain during catalysis.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative data and statistical analysis not accessible
+  - **Claim pointer** The authors report specific quantitative effects, including a doubling of polymerization rate at 250 nM, a doubling of depolymerization rate at 5 nM, and a 50% reduction in catastrophe frequency at 250 nM
+  - **Evidence pointer** Figure 2d, 2e, 2h and Extended Data Figure 2a (not provided)
+  - **Concern** The text describes these effects but does not provide the underlying data, including the number of independent experiments, the variability between experiments, or the statistical significance of the observed differences. The methods section states that "all in vitro experiment details are summarized in Supplementary Table 2," but this table was not provided. Without access to the quantitative data, the robustness of the reported effects cannot be assessed.
+  - **Why it matters** The strength of the central claim depends on the reliability and reproducibility of the functional data. If the reported effects are small relative to experimental variability, or if they are based on a limited number of observations, the conclusions would be correspondingly weakened.
+  - **Resolution test** The authors should provide the quantitative data, including the number of replicates, the statistical tests used, and the effect sizes with confidence intervals. The manuscript would be strengthened by including this information in the main text or in accessible supplementary materials.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of domain boundaries
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract; Results section "The CKAP2 IDR contains all core functionality"
+  - **Issue** The abstract states that a "284-amino acid intrinsically disordered domain" is sufficient for activity, while the Results section identifies the disordered domain as amino acids 61-345, which is 285 amino acids. This discrepancy should be resolved.
+  - **Required correction** Verify the exact boundaries of the disordered domain and ensure consistency between the abstract and the main text.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology precision
+  - **Affected element** Results section "The CKAP2 IDR is an Enzyme"
+  - **Evidence pointer** "A defining property of enzymes is their ability to catalyze the reverse reaction in the absence of a substrate 6, 17, 19"
+  - **Issue** This statement is not a standard definition of enzymatic activity. Many enzymes do not catalyze the reverse reaction of their forward reaction, and the ability to catalyze a reverse reaction in the absence of substrate is not a general criterion for enzyme classification. The cited references may support this specific claim, but the statement as written is likely to confuse readers.
+  - **Required correction** Rephrase to clarify that the ability to accelerate both forward and reverse reactions is consistent with a catalytic mechanism that lowers the activation energy for both directions, rather than presenting this as a defining property of enzymes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Missing methodological detail
+  - **Affected element** Methods section "Circular Dichroism"
+  - **Evidence pointer** "Two measurements were performed to demonstrate reproducibility"
+  - **Issue** Two measurements is a very small number for establishing reproducibility, particularly for a claim that depends on the absence of secondary structure. The text does not state whether these were independent preparations or repeated scans of the same sample.
+  - **Required correction** Clarify the number of independent protein preparations and the number of technical replicates. If only two measurements were performed, this should be acknowledged as a limitation.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Overstatement in Discussion
+  - **Affected element** Discussion section
+  - **Evidence pointer** "our study offers the first direct evidence of enzymatic activity within an intrinsically disordered protein domain"
+  - **Issue** The claim of "first direct evidence" is strong and depends on the definition of both "enzymatic activity" and "intrinsically disordered protein domain." Given the concerns raised in R1-M1 about whether the observed activity meets criteria for catalysis, this claim may be premature.
+  - **Required correction** Soften the claim or provide a more explicit justification for why this constitutes the first direct evidence, including a discussion of prior work on catalytic activity in disordered regions.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Incomplete citation context
+  - **Affected element** Discussion section
+  - **Evidence pointer** "AlphaFold-Multimer, which achieves approximately 76% accuracy in modelling IDR interactions 30, 31"
+  - **Issue** The 76% accuracy figure is presented without context regarding what metric this refers to and how it was measured. This could be misleading without additional explanation.
+  - **Required correction** Provide context for the accuracy metric or remove the specific percentage if it is not essential to the argument.
+
+## Risk / unsupported claims
+- The claim that the disordered domain "catalyzes" both polymerization and depolymerization is not supported by evidence that the protein acts substoichiometrically or that it is regenerated after each reaction cycle; the text does not provide data ruling out stoichiometric mechanisms
+- The claim of a "transition-state-based catalytic mechanism" is presented as a proposal in the Discussion, not as a conclusion supported by experimental evidence
+- The claim that the disordered domain "remains disordered" upon binding to tubulin or microtubules is based on predictive modeling (AlphaFold3, AlphaFold-Multimer) rather than experimental evidence
+- The claim that this is the "first direct evidence of enzymatic activity within an intrinsically disordered protein domain" is not fully supported given the unresolved questions about whether the observed activity constitutes genuine catalysis
+- The statement that "reagent concentration is not part of the mechanism by which CKAP2 operates" is asserted without supporting evidence
+- The claim that phosphorylation of a serine residue "will substantially weaken microtubule binding and polymerization activity" is presented as a prediction without experimental validation
+- The quantitative effects reported (doubling of polymerization rate, doubling of depolymerization rate, 50% reduction in catastrophe frequency) cannot be evaluated without access to the underlying data in the figures and supplementary materials

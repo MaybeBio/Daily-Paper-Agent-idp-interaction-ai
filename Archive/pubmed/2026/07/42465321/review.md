@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods, data availability, acknowledgments)
+- **Assessment boundary** Scientific content, technical soundness, and clarity of the proposed reaction-diffusion model for client exchange dynamics in biomolecular condensates
+- **Shared manuscript claim summary** The authors develop a reaction-diffusion model describing client molecule exchange in scaffold-driven biomolecular condensates, where clients switch between scaffold-bound and unbound states. They identify three kinetic regimes (slow, intermediate, and fast conversion) and propose a unifying interpolation for recovery timescales, validated by numerical simulations.
+- **Visible evidence base** Analytical derivations (Eqs. 1-27), numerical simulation methods (MATLAB pdepe), representative simulation results (Figs. 2-3), parameter table (Table I)
+- **Missing materials affecting confidence** Figures and Table I are referenced but not provided in the submitted text. Experimental validation data are absent. Repository link for code is not accessible in the provided material.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a conceptually interesting theoretical framework for understanding client exchange in multicomponent condensates, extending prior work on scaffold dynamics. The three-regime classification and the proposed interpolation formulas are potentially useful for interpreting full-FRAP experiments. However, the manuscript is purely theoretical and simulation-based, with no experimental validation. The analytical derivations are plausible but several steps are not fully shown, and the numerical validation is limited to a narrow parameter set. The connection to experimental observables, particularly how to apply this framework to real biological condensates, is underdeveloped. The writing is generally clear but some technical details require clarification.
+- **Who would be interested in the results, and why** Researchers studying biomolecular condensate dynamics, particularly those using FRAP or single-molecule tracking to measure exchange kinetics. The framework could help interpret component-specific recovery timescales in multicellular systems. The work may also interest theorists developing reaction-diffusion models for phase-separated systems.
+- **Major strengths** 1) Addresses an important and understudied problem: client-specific exchange dynamics in multicomponent condensates. 2) Provides a clear physical picture with two coupled transport pathways. 3) The three-regime classification is intuitive and potentially useful for experimental interpretation. 4) The interpolation formulas (Eqs. 26-27) offer a practical tool for predicting recovery timescales across regimes.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the interpolation formulas (Eqs. 26-27) "quantitatively capture the apparent recovery timescales extracted from numerical simulations across condensate sizes" (Abstract and Results).
+  - **Evidence pointer** Results section, Numerical simulations subsection; Figs. 2-3 (not provided)
+  - **Concern** The validation of the interpolation formulas relies entirely on numerical simulations with a single set of parameters (Table I, not provided). The authors state that parameters were chosen "such that the relevant timescales are well separated," but no sensitivity analysis is shown. It is unclear whether the interpolation holds for arbitrary parameter combinations, particularly when timescales are not well separated or when the assumption of spatially uniform koff is relaxed. Without a systematic parameter sweep or error analysis, the claim of quantitative capture is not established.
+  - **Why it matters** The central contribution of the paper is the unifying description. If the interpolation only works for a narrow parameter range, its practical utility for interpreting experimental data is severely limited.
+  - **Resolution test** Provide a systematic parameter sweep (e.g., varying R, koff, diffusion coefficients, binding affinities) and show that the interpolation formulas remain accurate across a wide range of conditions. Include error bars or confidence intervals for the fitted timescales.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Scientific importance
+  - **Claim pointer** The claim that the framework "provides a framework for interpreting component-specific exchange dynamics" and "highlight client size, client-scaffold binding, and condensate porosity as key regulators of client turnover" (Abstract).
+  - **Evidence pointer** Discussion section
+  - **Concern** The manuscript is purely theoretical. No experimental data are presented to demonstrate that the predicted regimes are actually observed in real condensates. The connection to experimental observables is vague. For example, how would one determine whether a given client in a specific condensate falls into the slow, intermediate, or fast conversion regime? What experimental measurements would be needed to extract the model parameters? The discussion mentions implications but does not provide concrete, testable predictions that could be verified experimentally.
+  - **Why it matters** For a theory paper to be impactful, it must offer clear guidance for experimental design or interpretation. Without this, the framework remains an abstract exercise with limited practical value.
+  - **Resolution test** Add a section or paragraph in the Discussion that explicitly translates model parameters into experimentally measurable quantities (e.g., FRAP recovery half-time, binding residence time from single-molecule tracking) and provides specific predictions that could be tested in a model condensate system.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The derivation of the conversion-limited timescale τc in Eq. (20) and the interpolation formulas in Eqs. (26-27).
+  - **Evidence pointer** Results section, Intermediate conversion and Unifying description subsections
+  - **Concern** The derivation of τc is presented in a single line (Eq. 20) without a clear step-by-step derivation. The physical interpretation of the average ⟨⋯⟩b is not fully explained. Similarly, the interpolation formulas (Eqs. 26-27) are stated without justification for their specific functional form. Why these particular interpolation schemes rather than others? The authors should provide a more detailed derivation or at least a heuristic argument for why these forms are expected to be accurate.
+  - **Why it matters** The theoretical framework is the core of the paper. If the derivations are not transparent, readers cannot assess their validity or extend them to more complex scenarios.
+  - **Resolution test** Expand the derivation of τc, showing the steps from the reaction-diffusion equations to the final expression. Provide a justification for the interpolation forms, possibly by showing they are exact in limiting cases and reduce to known results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction, first paragraph
+  - **Evidence pointer** Introduction, paragraph 1
+  - **Issue** The introduction assumes familiarity with condensate terminology (e.g., "scaffold," "client") without defining these terms for a broader audience.
+  - **Required correction** Briefly define "scaffold" and "client" molecules in the introduction, perhaps with a sentence explaining their roles in condensate formation and function.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, numerical details
+  - **Evidence pointer** Methods section, Numerical details subsection
+  - **Issue** The choice of simulation time T=3τslow is not justified. It is unclear whether this is sufficient for the recovery to reach completion in all regimes, particularly in the slow-conversion regime where τslow can be very large.
+  - **Required correction** Justify the choice of T or show that the recovery curves have converged to their asymptotic values within this time window.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Results, Numerical simulations subsection
+  - **Evidence pointer** Results section, Numerical simulations subsection
+  - **Issue** The fitting procedure for large condensates fixes A=0.5, but the authors note that the fitted amplitude can vary due to parameter degeneracy. It is unclear whether fixing A=0.5 is always appropriate, especially if the true amplitude deviates from 0.5 in some regimes.
+  - **Required correction** Discuss the validity of fixing A=0.5 and, if possible, show that the fitted timescales are insensitive to this choice within a reasonable range of A.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Discussion, implications for condensate function
+  - **Evidence pointer** Discussion section, paragraph 2
+  - **Issue** The discussion of size-dependent exchange and its implications for condensate function is interesting but somewhat speculative. The authors mention "active cellular processes" without elaborating on how these might be incorporated into the model.
+  - **Required correction** Briefly elaborate on how active processes could be added to the model or how the current framework might be extended to account for them.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (validation of interpolation formulas), R1-M2 (lack of experimental connection), R1-M3 (incomplete derivations)
+- **Assessment against Nature-style criteria** 
+  - Originality: The work extends prior scaffold-exchange models to clients, which is a natural but underexplored direction. The three-regime classification is a useful conceptual contribution, though not radically novel.
+  - Scientific importance: The problem of client-specific exchange is relevant to understanding condensate function, but the purely theoretical nature limits immediate impact. The framework could be important if it leads to testable predictions.
+  - Interdisciplinary readership: The topic bridges biophysics, cell biology, and soft matter physics. However, the presentation is heavily mathematical and may not be accessible to experimental biologists without additional context.
+  - Technical soundness: The model equations are plausible, but the derivations are incomplete in places, and the numerical validation is limited. The interpolation formulas require more rigorous testing.
+  - Readability for nonspecialists: The writing is generally clear, but the introduction and discussion could be more accessible. Some technical terms are used without definition.
+- **Recommendation posture** Supportive if technical concerns are resolved. The conceptual framework is promising, but the manuscript needs (1) a more thorough validation of the interpolation formulas, (2) a clearer connection to experimental observables, and (3) more transparent derivations. If these issues are addressed, the work could be a valuable contribution to the field.
+
+## Risk / unsupported claims
+- The claim that the interpolation formulas "quantitatively capture" simulation results is not fully supported without a systematic parameter sweep.
+- The claim that the framework "highlights client size, client-scaffold binding, and condensate porosity as key regulators" is plausible but not directly demonstrated; these parameters are not systematically varied in the simulations.
+- The statement that "small molecules can enter condensates through the pore space and exchange rapidly" is speculative and not directly tested in the model.
+- The assertion that "the same condensate can behave as a rapidly accessible medium for small molecules while acting as a slow-retention compartment for larger molecules" is an extrapolation beyond the model's scope.
+- The numerical simulation results (Figs. 2-3) and parameter values (Table I) cannot be independently assessed as they are not provided in the submitted material.

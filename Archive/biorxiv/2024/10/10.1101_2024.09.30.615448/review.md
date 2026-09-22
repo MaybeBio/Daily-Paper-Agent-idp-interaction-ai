@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to figures, methods, or supplementary data
+- **Shared manuscript claim summary** The authors report that Eps15 EH domains bind promiscuously to multiple phenylalanine-containing motifs in Dab2, including but not limited to the canonical NPF motif. This promiscuity allows Eps15 to bind its own IDR, which lacks NPF motifs, leading to a proposed autoinhibitory state that promotes liquid-liquid phase separation. Despite competition for the same binding sites, Eps15 IDR and Dab2 can bind EH123 simultaneously, forming a dynamic network that recruits Dab2 into Eps15 condensates. The work is framed as providing molecular insights into early clathrin-mediated endocytosis.
+- **Visible evidence base** NMR spectroscopy data (specific experiments, assignments, and quantitative analyses not described in the abstract)
+- **Missing materials affecting confidence** Full methods, NMR spectra and assignments, binding affinity measurements, phase separation assays, control experiments, and any structural or dynamic models
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting and novel mechanism for Eps15 function, with implications for understanding multivalent interactions in endocytosis. However, the claims are broad and mechanistically detailed, while the visible evidence is limited to a single technique mentioned without specifics. Several key assertions, particularly regarding autoinhibition, phase separation, and simultaneous binding, are not sufficiently supported by the information provided. The work may be of interest to specialists in membrane trafficking and protein interaction networks, but the current abstract does not establish the case convincingly.
+- **Who would be interested in the results, and why** Researchers studying clathrin-mediated endocytosis, intrinsically disordered proteins, multivalent interactions, and phase separation. The proposed mechanism of promiscuous EH domain binding and its link to condensate formation would appeal to those interested in how weak, dynamic interactions organize cellular processes.
+- **Major strengths** The study addresses a relevant and under-explored aspect of Eps15 function, namely the specificity and promiscuity of EH domain interactions beyond canonical NPF motifs. The proposed link between autoinhibition and phase separation is conceptually interesting and could have broad implications. The use of NMR is appropriate for studying weak, dynamic interactions involving IDRs.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "The EH domains exhibit binding promiscuity, recognizing not only the NPF motif of Dab2 but also other phenylalanine containing motifs."
+  - **Evidence pointer** NMR spectroscopy, location not provided
+  - **Concern** The abstract states that EH domains bind multiple phenylalanine-containing motifs, but no quantitative data (e.g., affinities, stoichiometries, or specificity controls) are provided. It is unclear whether these additional interactions are physiologically relevant or merely weak, nonspecific contacts observed under NMR conditions.
+  - **Why it matters** The central novelty of the paper rests on this promiscuity. Without evidence that these interactions are specific and functionally significant, the subsequent claims about autoinhibition and network formation lack a solid foundation.
+  - **Resolution test** Provide binding affinities for each motif, competition experiments with mutated motifs, and a clear demonstration that the promiscuous interactions occur at physiologically relevant concentrations.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Claim support
+  - **Claim pointer** "This promiscuity enables interactions with Eps15’s own IDR (Eps15 IDR), which lacks NPF motifs, suggesting an self-inhibitory state that promotes liquid-liquid phase separation."
+  - **Evidence pointer** NMR spectroscopy, location not provided
+  - **Concern** The abstract proposes an autoinhibitory state based on Eps15 IDR binding to its own EH domains, but no direct evidence (e.g., intramolecular vs. intermolecular binding, effect on Eps15 function) is described. The link to phase separation is asserted without showing that the autoinhibited state is required for or enhances condensate formation.
+  - **Why it matters** The autoinhibition model is a key conceptual advance, but it is speculative without functional assays. The phase separation claim is particularly important because it implies a cellular mechanism that is not demonstrated.
+  - **Resolution test** Show that Eps15 IDR binding to EH domains is intramolecular, that disrupting this interaction alters Eps15 activity, and that phase separation is dependent on the autoinhibited state using controlled in vitro and cellular assays.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "Despite competing for the same EH domain binding sites, Eps15 IDR and Dab2₃₂₀₋₄₉₅ can bind EH123 simultaneously, forming a highly dynamic interaction network that facilitates the recruitment of Dab2₃₂₀₋₄₉₅ into Eps15 condensates."
+  - **Evidence pointer** NMR spectroscopy, location not provided
+  - **Concern** The claim of simultaneous binding is central to the proposed network model, but the abstract does not describe how this was established. NMR can detect simultaneous binding, but the details (e.g., which sites are occupied, exchange rates, and whether the complex is ternary or involves multiple EH domains) are absent. The recruitment into condensates is stated without any imaging or biochemical fractionation data.
+  - **Why it matters** The simultaneous binding model is the basis for the proposed interaction network. If the evidence is indirect or ambiguous, the model may be overinterpreted. The condensate recruitment claim extends the findings to a cellular context that is not supported by the described methods.
+  - **Resolution test** Provide clear NMR evidence for a ternary complex with defined stoichiometry, and show condensate recruitment using fluorescence microscopy or a comparable assay with appropriate controls.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract wording
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The phrase "an self-inhibitory state" contains a grammatical error ("an" should be "a").
+  - **Required correction** Correct the grammar to "a self-inhibitory state."
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract context
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The abstract does not state the number of EH domains in Eps15 or how many are involved in the described interactions, which is relevant for understanding the multivalency claim.
+  - **Required correction** Specify the number of EH domains and which ones are used in the experiments.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Abstract terminology
+  - **Evidence pointer** Abstract, location not provided
+  - **Issue** The term "interaction network" is used without defining its scale or nature (e.g., binary vs. higher-order complexes).
+  - **Required correction** Clarify what is meant by "network" in this context, possibly with a schematic or explicit description of the proposed complexes.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative binding data, direct evidence for autoinhibition, and demonstration of simultaneous binding and condensate recruitment. These are essential to support the proposed mechanism.
+- **Assessment against Nature-style criteria** Originality: The concept of EH domain promiscuity and its link to autoinhibition and phase separation is novel and potentially significant. Scientific importance: If established, the findings would advance understanding of endocytic protein interactions and IDR-mediated processes. Interdisciplinary readership: The topic is relevant to cell biology, biophysics, and protein chemistry, but the abstract is too specialized for a broad audience. Technical soundness: The use of NMR is appropriate, but the abstract does not provide enough detail to assess the rigor of the experiments. Readability for nonspecialists: The abstract is dense and assumes familiarity with endocytosis and NMR, limiting accessibility.
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the key claims are not supported by the visible data. The authors should provide detailed experimental evidence, including quantitative binding data, direct tests of autoinhibition, and clear demonstrations of simultaneous binding and condensate recruitment, before the case can be considered.
+
+## Risk / unsupported claims
+- The claim of binding promiscuity beyond NPF motifs is unsupported without quantitative binding data and specificity controls.
+- The proposed autoinhibitory state is speculative, as no direct evidence for intramolecular binding or functional consequences is provided.
+- The link between autoinhibition and phase separation is asserted without experimental demonstration.
+- The simultaneous binding of Eps15 IDR and Dab2 to EH123 is not evidenced in the abstract.
+- The recruitment of Dab2 into Eps15 condensates is stated without supporting imaging or biochemical data.

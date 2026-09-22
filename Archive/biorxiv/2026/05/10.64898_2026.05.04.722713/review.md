@@ -1,0 +1,87 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) as provided
+- **Assessment boundary** Scientific validity, technical soundness, clarity, and support of claims based solely on the supplied text
+- **Shared manuscript claim summary** The authors present SLiMNet, a deep learning model using ESM2 protein language model embeddings and a siamese/contrastive learning framework, to predict functional similarity between pairs of short linear motifs (SLiMs) derived from intrinsically disordered regions. They report generalization on held-out motif classes, correlation with experimental cyclin binding data, and construction of atlases of putative SLiM pairs from human IDRs.
+- **Visible evidence base** Abstract, Introduction, Results sections (narrative only), Discussion, Methods (training details, loss function, data splitting, enrichment analysis)
+- **Missing materials affecting confidence** All figures and tables referenced (Figures 1-9, Supplementary Figures A1, Tables 1-2, Supplementary Tables A1-A2) are not provided. No quantitative performance metrics beyond those stated in text. No model architecture diagram, training curves, or hyperparameter sensitivity analyses. No code or data availability beyond "upon request."
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important problem in SLiM biology: functional annotation of putative motifs. The core idea of using pLLM embeddings with a contrastive siamese framework is timely and potentially useful. However, the evidence presented in the text alone is insufficient to fully evaluate the claims. Several key results are described qualitatively without supporting quantitative data, and critical methodological details are missing. The most compelling validation, the cyclin binding correlation, is presented with a single example figure and a modest Spearman correlation that is not statistically compared to baselines in the text. The atlas generation is a useful resource contribution, but the biological validation is limited to two case studies. The manuscript would benefit from clearer benchmarking against existing methods and more rigorous statistical reporting.
+- **Who would be interested in the results, and why** Researchers in SLiM biology, intrinsically disordered protein function, and computational motif discovery would be the primary audience. The atlases of putative SLiM pairs could serve as a resource for experimental validation. The methodological approach of applying pLLM embeddings to motif comparison may also interest computational biologists working on protein function prediction beyond SLiMs.
+- **Major strengths** The problem addressed is significant and timely. The use of pLLM embeddings is a modern and potentially powerful approach. The authors provide multiple validation angles (held-out test set, cyclin binding data, case studies, atlas resources). The inclusion of orphan motifs is a thoughtful addition that addresses a specific community need.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "SLiMNet can detect pairs with shared function vs. those without in a non-redundant hold-out test set derived from MoMaP" with AUCROC 0.81 and AP 0.71
+  - **Evidence pointer** Results section "SLiMNet can detect pairs with shared function...", Figure 2 (not provided)
+  - **Concern** The performance metrics are reported without confidence intervals, baselines, or statistical significance testing. It is unclear how these numbers compare to simpler baselines such as sequence identity, k-mer composition, or existing alignment-based methods like FaSTPACE or PairK. Without such comparisons, the added value of the deep learning approach is not established.
+  - **Why it matters** The central claim of the paper is that SLiMNet provides improved detection of functional similarity. Without baseline comparisons, the reader cannot assess whether the complexity of the model is justified.
+  - **Resolution test** Provide performance of at least one baseline method (e.g., sequence identity threshold, FaSTPACE, or a simple embedding distance) on the same test set, with confidence intervals and statistical tests for differences.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "SLiMNet similarity scores of wild-type cyclin binding motifs and mutants correlate well with experimental binding data" with Spearman rho of 0.44
+  - **Evidence pointer** Results section "SLiMNet can detect novel cyclin binders...", Figure 5 (not provided)
+  - **Concern** The correlation of 0.44 is described as "moderately strong" and "correlate well," but the text also states the PSSM performs better (rho 0.77). The comparison is not statistically evaluated, and the selection of "top 100 highest scoring pairs" introduces a potential selection bias that is not discussed. The claim of "correlate well" is not well supported by the reported value, especially when a simpler method performs better.
+  - **Why it matters** This is the only direct quantitative link between model scores and experimental binding affinity. If the model cannot reliably rank mutants by affinity, its utility for predicting functional effects is questionable.
+  - **Resolution test** Report correlations for all pairs, not just top 100. Provide statistical comparison between SLiMNet and PSSM correlations (e.g., bootstrap or permutation test). Discuss the selection bias and its implications.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Reproducibility and data availability
+  - **Claim pointer** "All code and data (including all raw data and the entire top 100000 selections for Top 100K libraries) are available upon request to the corresponding author."
+  - **Evidence pointer** Code and data availability section
+  - **Concern** Availability "upon request" is not consistent with modern standards for reproducibility, especially for a resource paper. The atlases are a major claimed contribution, and the community cannot fully benefit if the data are not deposited in a public repository. Additionally, the model weights and training code are not provided in a usable form.
+  - **Why it matters** The paper claims to provide community resources. Without public access, the resources cannot be used or verified, undermining a core contribution.
+  - **Resolution test** Deposit code, model weights, and all atlas data in a public repository (e.g., Zenodo, Figshare, or a dedicated database) and provide a stable DOI or accession number.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance and validation
+  - **Claim pointer** "SLiMNet can detect novel cyclin binders that do not contain known cyclin binding motifs" and the case studies for PRMT1 methylation and nuclear localization motifs
+  - **Evidence pointer** Results sections on cyclin binders, atlas applications, Figures 3, 4, 6, 8, 9, Tables 1-2 (not provided)
+  - **Concern** The biological validation is limited to two case studies, and the text does not provide sufficient detail on how these were selected, whether they were pre-registered hypotheses, or how many similar cases were examined but not reported. The claim of "capturing" a new nuclear localization motif and a PRMT1 methylation motif is based on literature support, but the strength of this evidence is not critically assessed.
+  - **Why it matters** The atlas is a large-scale resource, and the case studies are meant to demonstrate its utility. If the selection criteria are not transparent, the reader cannot judge whether these are representative successes or cherry-picked examples.
+  - **Resolution test** Provide a systematic evaluation of the atlas, e.g., enrichment of known motif classes in top-scoring pairs, or a blinded validation protocol. Clearly state the selection criteria for case studies and report any negative or ambiguous results.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and completeness
+  - **Affected element** Abstract and Results
+  - **Evidence pointer** Abstract, Results sections
+  - **Issue** The abstract states "SLiMNet uses uses protein large language model embeddings" with a duplicated word. The Results section also contains grammatical errors, e.g., "for to help with hypothesis generation" and "against against all MoLoP instances."
+  - **Required correction** Proofread the manuscript for typographical and grammatical errors.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Methods, training details
+  - **Evidence pointer** Methods section "Training details"
+  - **Issue** The description of the model architecture is incomplete. The text states "The input data contains 2560 features, and the hidden layers contain 640, and 320 hidden neurons, respectively. These values correspond to roughly and the number of input features." The last sentence is incomplete and unclear. The activation function is not specified.
+  - **Required correction** Complete the description of the architecture, including activation functions, and clarify the relationship between input features and hidden layer sizes.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Methods, dataset splitting
+  - **Evidence pointer** Methods section "dataset splitting and redundancy reduction"
+  - **Issue** The clustering threshold is stated as 30% sequence identity, but the clustering algorithm parameters and the exact procedure for ensuring no overlap between train and test sets are not fully described. The text mentions "no cluster overlap at 30% sequence identity" but does not specify how clusters were defined or how the 80/10/10 split was performed within clusters.
+  - **Required correction** Provide a more detailed description of the clustering and splitting procedure, including software parameters and a flowchart if necessary.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of limitations is brief. The authors do not discuss potential biases in the training data, the choice of 16-mer length, or the generalizability of the model to motifs outside the training distribution.
+  - **Required correction** Expand the discussion of limitations and future work.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction assumes familiarity with SLiM biology and pLLMs. A brief explanation of why pLLM embeddings might be superior to sequence-based features for SLiM comparison would help nonspecialist readers.
+  - **Required correction** Add a short paragraph explaining the rationale for using pLLM embeddings in this context.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (lack of baselines and statistical rigor), R1-M2 (selection bias and incomplete correlation analysis), R1-M3 (data and code not publicly available)
+- **Assessment against Nature-style criteria** Originality: The application of pLLM embeddings to SLiM functional comparison is a novel combination, though the individual components (siamese networks, contrastive learning, pLLMs) are established. Scientific importance: The problem of SLiM functional annotation is important, and the atlases could be valuable resources. However, the importance is not fully demonstrated without stronger validation. Interdisciplinary readership: The work bridges computational biology and molecular biology, but the presentation is likely too technical for a general biology audience and not sufficiently benchmarked for a computational audience. Technical soundness: The core idea is plausible, but the evidence presented is insufficient to establish technical soundness. Key comparisons and statistical analyses are missing. Readability for nonspecialists: The manuscript is generally readable but contains jargon and incomplete descriptions that hinder comprehension.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses a relevant problem with a plausible approach, but the evidence presented in the text is insufficient to support the claims. Major revisions are required, including baseline comparisons, more rigorous statistical analysis, public data and code deposition, and a more transparent validation protocol. I would be supportive if these technical concerns are resolved.

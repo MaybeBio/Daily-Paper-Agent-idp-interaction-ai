@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41807045",
+  "title": "Can the Stand-Alone Cervical Interfacet Fusion Achieve Spinal Stability? A Comprehensive Finite Element Analysis.",
+  "authors": "Ciriello, Luca; Rotondi, Margherita; Sciarrone, Giuseppe J; Villa, Tomaso",
+  "journal": "International journal of spine surgery",
+  "published_date": "2026-03-11",
+  "window": {
+    "start": "2026-03-09",
+    "end": "2026-03-15"
+  },
+  "score": 0,
+  "one_liner_zh": "该文用有限元分析评估颈椎界面融合器单独使用与联合前路椎间盘融合器的生物力学稳定性，对象为脊柱手术器械而非无序蛋白/IDR/相分离，无PPI机制建模，亦无AI或分子模拟方法，与本课题无关。",
+  "abstract": "BACKGROUND: Degenerative pathologies of the cervical spine often involve facet and disc degeneration, leading to biomechanical instability of the cervical spine. A promising surgical solution is a cervical interfacet fusion system (CIFS), typically combined with an anterior disc cage to promote bone fusion and restore stability. However, the necessity of the anterior disc cage remains controversial because it increases surgical time, cost, and risk. The aim of this study was to evaluate the biomechanical performance of CIFS alone compared with its combination with an anterior disc cage using a C2-C7 finite element model. METHODS: The model was validated against literature data in terms of range of motion (RoM) and used to simulate 3 surgical scenarios: (i) anterior disc cage alone, (ii) CIFS alone, and (iii) CIFS combined with an anterior disc cage. Simulations were performed with C4-C5, C5-C6, and C4-C6 treated levels under flexion, extension, axial rotation, and lateral bending. RESULTS: Models (i) and (iii) eliminated motion at the treated levels but induced hypermobility and increased intradiscal pressure (IDP) at adjacent levels. Conversely, model (ii) preserved residual motion at the treated levels, providing mobility with RoM values within the average range of a healthy population and reducing intradiscal pressure at both the treated and adjacent levels, potentially protecting adjacent discs. However, model (ii) has a higher risk of pseudarthrosis due to the residual motion. CLINICAL RELEVANCE: This study highlights how a CIFS in cervical spine surgery is a cost-effective alternative that preserves mobility but requires careful patient selection to minimize risks such as pseudarthrosis and adjacent segment degeneration while emphasizing the need for postoperative muscle rehabilitation. CONCLUSIONS: These results suggest that CIFS alone may provide a treatment that is both cost-effective and capable of preserving mobility with RoM values within the average range of a healthy population, especially with appropriate patient selection and muscle rehabilitation.",
+  "abstract_zh": "背景：颈椎退行性病变常涉及关节突关节和椎间盘退变，导致颈椎生物力学不稳定。一种有前景的手术方案是颈椎关节突间融合系统（CIFS），通常与前路椎间盘融合器联合使用，以促进骨融合并恢复稳定性。然而，前路椎间盘融合器的必要性仍存在争议，因为它增加了手术时间、成本和风险。本研究旨在利用C2-C7有限元模型，评估单独使用CIFS与其联合前路椎间盘融合器相比的生物力学性能。方法：模型在活动范围（RoM）方面与文献数据进行了验证，并用于模拟3种手术场景：（i）仅前路椎间盘融合器，（ii）仅CIFS，以及（iii）CIFS联合前路椎间盘融合器。模拟在C4-C5、C5-C6和C4-C6治疗节段下，于屈曲、伸展、轴向旋转和侧弯工况中进行。结果：模型（i）和（iii）消除了治疗节段的运动，但诱导了邻近节段的过度活动并增加了椎间盘内压（IDP）。相反，模型（ii）保留了治疗节段的残余运动，提供了RoM值在健康人群平均范围内的活动性，并降低了治疗节段和邻近节段的椎间盘内压，可能保护邻近椎间盘。然而，模型（ii）因残余运动而具有较高的假关节形成风险。临床意义：本研究强调，在颈椎手术中，CIFS是一种经济有效的替代方案，可保留活动性，但需要谨慎选择患者以最小化假关节形成和邻近节段退变等风险，同时强调术后肌肉康复的必要性。结论：这些结果表明，单独使用CIFS可能提供一种既经济有效又能保留活动性的治疗方式，其RoM值在健康人群平均范围内，尤其是在适当患者选择和肌肉康复的情况下。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41807045/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41807045/",
+  "paper_page_path": "papers/pubmed/41807045/index.html"
+}

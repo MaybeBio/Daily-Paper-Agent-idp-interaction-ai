@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "41673446",
+  "title": "STI1 domain engages transient helices to mediate Dsk2 phase separation and proteasome condensation.",
+  "authors": "Acharya, Nirbhik; Daniel, Emily A; Dao, Thuy P; Niblo, Jessica K; Mulvey, Erin O; Sukenik, Shahar; Kraut, Daniel A; Roelofs, Jeroen; Castaneda, Carlos A",
+  "journal": "The EMBO journal",
+  "published_date": "2026-02-12",
+  "window": {
+    "start": "2026-02-09",
+    "end": "2026-02-15"
+  },
+  "score": 9,
+  "one_liner_zh": "该研究通过NMR和计算模拟揭示Dsk2的STI1结构域与IDR内瞬时螺旋的相互作用驱动相分离和蛋白酶体凝聚体形成，直接聚焦无序蛋白介导的PPI机制建模，与课题高度契合。",
+  "abstract": "Ubiquitin-binding shuttle proteins are important components of stress-induced biomolecular condensates in cells. Yeast Dsk2 scaffolds proteasome-containing condensates via multivalent interactions with proteasomes and polyubiquitinated substrates under stress conditions. Here, we identify the chaperone-binding STI1 domain as the main driver of Dsk2 self-association and phase separation. Using nuclear magnetic resonance (NMR) spectroscopy and computational simulations, we find that the STI1 domain interacts with three transient amphipathic helices within the intrinsically disordered regions of Dsk2. Removal of either the STI1 domain or these helices significantly reduces Dsk2's propensity to form condensates. In vivo, perturbing STI1-helix interactions, specifically removal of the transient helices, reduces the formation of azide stress-induced Dsk2/proteasome condensates, in line with our in vitro results. Modeling of Dsk2 STI1-helix interactions reveals a binding mode reminiscent of chaperone STI1/DP2 domains interacting with client helices. Our findings support a model whereby STI1-helix interactions important for Dsk2 condensate formation can be replaced by STI1-client interactions for downstream chaperone or other protein quality control outcomes.",
+  "abstract_zh": "泛素结合穿梭蛋白是细胞中应激诱导的生物分子凝聚体的重要组成部分。在应激条件下，酵母Dsk2通过多价相互作用与蛋白酶体和多聚泛素化底物结合，支架蛋白酶体包含的凝聚体。在此，我们识别出伴侣结合STI1结构域是Dsk2自结合和相分离的主要驱动因素。利用核磁共振（NMR）波谱和计算模拟，我们发现STI1结构域与Dsk2内在无序区域内的三个瞬时两亲性螺旋相互作用。去除STI1结构域或这些螺旋均显著降低Dsk2形成凝聚体的倾向。在体内，干扰STI1-螺旋相互作用，特别是去除瞬时螺旋，会减少叠氮化物应激诱导的Dsk2/蛋白酶体凝聚体的形成，这与我们的体外结果一致。对Dsk2 STI1-螺旋相互作用的建模揭示了一种类似于伴侣STI1/DP2结构域与客户螺旋相互作用的结合模式。我们的发现支持一个模型，即对Dsk2凝聚体形成重要的STI1-螺旋相互作用可被STI1-客户相互作用所替代，以用于下游伴侣或其他蛋白质质量控制结果。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/41673446/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/41673446/",
+  "paper_page_path": "papers/pubmed/41673446/index.html"
+}

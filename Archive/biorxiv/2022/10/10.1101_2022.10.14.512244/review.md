@@ -1,0 +1,90 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, and figure legends as provided.
+- **Assessment boundary** The scientific claims, experimental design, data interpretation, and presentation quality of the manuscript as submitted to bioRxiv. No assessment of editorial fit for a specific journal is made.
+- **Shared manuscript claim summary** The authors identify the soluble N-termini of three Arabidopsis mechanosensitive ion channels (MSL8, MSL9, MSL10) as intrinsically disordered regions (IDRs) using bioinformatic prediction and circular dichroism (CD) spectroscopy. They report that these IDRs exhibit distinct biophysical behaviors, including secondary structure induction by trifluoroethanol (TFE), aggregation under thermal stress, and differential condensate formation in response to salt, temperature, and molecular crowding.
+- **Visible evidence base** Abstract, full text of Introduction, Results, Discussion, Methods, and figure legends for Figures 1-5 and Supplementary Figures S1-S4 as described in the text.
+- **Missing materials affecting confidence** Raw CD spectra, statistical analyses of replicate experiments, full phase diagrams for condensate formation, negative control data for condensate imaging, and detailed purification yields or quality metrics for all proteins. Figure panels are referenced but not directly viewable in this text-only format.
+
+## Reviewer
+- **Overall assessment** This manuscript presents a systematic and largely well-executed characterization of the N-terminal domains of three MSL channels as intrinsically disordered regions. The combination of multiple disorder predictors, evolutionary analysis, and in vitro biophysical experiments is appropriate and strengthens the central claim. The finding that these homologous IDRs exhibit distinct environmental responses is interesting and potentially significant for understanding how disordered regions contribute to mechanosensitive channel function. However, several technical concerns, particularly regarding the interpretation of CD data, the lack of quantitative analysis for condensate formation, and the absence of key controls, limit the strength of the conclusions as currently presented.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, particularly those involved in plant stress responses and membrane-associated signaling. The work also appeals to the mechanosensitive channel community, as it provides the first detailed biophysical characterization of the soluble N-termini of MSL channels, which may inform future studies on channel regulation. The evolutionary conservation of disorder across angiosperm orthologs is of interest to evolutionary biologists studying IDR function.
+- **Major strengths** The study addresses a relatively underexplored area, namely IDRs in membrane proteins, and provides a clear and logical progression from sequence-based prediction to experimental validation. The use of multiple complementary bioinformatic tools and the inclusion of ortholog analysis are commendable. The CD spectroscopy data for MSL10 N are generally convincing for the claim of intrinsic disorder. The observation of differential condensate formation among the three IDRs is a novel and potentially important finding that opens new avenues for investigation.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that MSL10 N undergoes structural changes and aggregation in response to temperature and molecular crowding is based on CD spectroscopy.
+  - **Evidence pointer** Figure 2B, Figure 2E, Figure 2F, Methods section "Far-UV circular dichroism sample preparation and measurements"
+  - **Concern** The interpretation of CD spectra changes, particularly the reduction in the negative peak at 202 nm with increasing temperature, is attributed to "soluble aggregate formation via homotypic interactions" citing a 1968 reference. This interpretation is not directly supported by the data presented. Changes in CD signal at high temperature could also result from protein unfolding, precipitation, or non-specific aggregation that is not homotypic. The authors do not provide orthogonal evidence, such as size-exclusion chromatography, dynamic light scattering, or sedimentation assays, to confirm the nature of the aggregates. Similarly, the near-zero absorbance at 30% PEG 400 and the appearance of a minimum at 232 nm at 40% PEG 400 are interpreted as aggregation, but alternative explanations, such as protein precipitation or artifacts from the high concentration of PEG, are not ruled out.
+  - **Why it matters** The central claim that MSL10 N is environmentally sensitive and forms aggregates is a key part of the manuscript's message. If the CD changes are due to non-specific precipitation or artifacts, the conclusion that this IDR has specific homotypic interaction propensities is weakened. This concern directly affects the interpretation of the biophysical properties of MSL10 N and the comparison with MSL8 N and MSL9 N.
+  - **Resolution test** The authors should provide orthogonal biophysical data, such as dynamic light scattering (DLS), size-exclusion chromatography (SEC), or sedimentation velocity analytical ultracentrifugation, to demonstrate that the species formed at high temperature or with PEG are soluble aggregates. Additionally, a control experiment with a known non-aggregating disordered protein under the same conditions would help validate the specificity of the observed behavior.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that MSL8 N , MSL9 N , and MSL10 N have "sharply differing propensities for condensate formation" is based on fluorescence microscopy imaging.
+  - **Evidence pointer** Figure 4B-E, Figure 5B-D, Methods section "Sample preparation and microscopy for in vitro condensate imaging for MSL9 and MSL10" and "MSL8 N in vitro condensate imaging"
+  - **Concern** The assessment of condensate formation appears to be purely qualitative, based on visual inspection of microscopy images. No quantitative metrics, such as turbidity measurements, number of droplets per field of view, droplet size distribution, or a defined threshold for what constitutes a condensate, are provided. The phase diagram for MSL9 N (Figure 4C) is described as having an "approximate phase boundary," but the criteria for determining this boundary are not stated. Furthermore, the images are described as "adjusted" for brightness and contrast, which could introduce bias. The lack of quantification makes it difficult to assess the robustness and significance of the reported differences in condensate propensity.
+  - **Why it matters** The differential condensate formation is a major novel finding of the paper. Without quantitative analysis, the claim that these IDRs have "sharply differing" propensities is not rigorously supported. This weakens the overall impact of the study and makes it difficult for others to reproduce or build upon the findings.
+  - **Resolution test** The authors should provide quantitative data, such as a turbidity assay (OD340 or OD600) across a range of protein and salt concentrations, or automated image analysis to count and size droplets. A clear definition of a "condensate" (e.g., size threshold, circularity) should be provided. The phase diagram should be constructed from these quantitative data with error bars and a clear description of the fitting method.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The claim that the N-termini of MSL8, MSL9, and MSL10 are intrinsically disordered is based on bioinformatic prediction and CD spectroscopy of MSL10 N only.
+  - **Evidence pointer** Figure 1B-D, Figure 2A-B, Methods section "Computational analyses"
+  - **Concern** The experimental validation of disorder is performed only for MSL10 N . The disorder of MSL8 N and MSL9 N is inferred solely from sequence-based predictions. While this is a common approach, the manuscript would be strengthened by providing experimental evidence, such as CD spectra or size-exclusion chromatography, for at least one of the other two N-termini. This is particularly relevant given that the authors report distinct biophysical behaviors for all three, implying that their structural properties may also differ.
+  - **Why it matters** The title and abstract make a general claim about all three N-termini being IDRs. If the biophysical properties of MSL8 N and MSL9 N differ significantly from MSL10 N , the general claim is weakened. Providing experimental validation for at least one additional N-terminus would significantly strengthen the paper.
+  - **Resolution test** The authors should provide CD spectra for MSL8 N and/or MSL9 N , or at least for one of them, to confirm their disordered nature. If this is not feasible, the claims in the title and abstract should be moderated to reflect that experimental validation was performed only for MSL10 N .
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Figure 1B
+  - **Evidence pointer** Figure 1B
+  - **Issue** The amino acid composition analysis is presented as a bar chart, but the statistical significance of the differences between the N-termini and the comparison set is not indicated. It is unclear if the enrichments and depletions described in the text are statistically significant.
+  - **Required correction** Add statistical analysis (e.g., a chi-squared test or a composition bias z-score) to support the claim that the N-termini are significantly enriched or depleted in specific residues.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Figure 2D
+  - **Evidence pointer** Figure 2D
+  - **Issue** The ratio of [θ]222/[θ]208 is used to distinguish between isolated helices and coiled-coils. The threshold of 0.9 is cited, but the source of this threshold is not provided in the text. It would be helpful to cite the original reference for this criterion.
+  - **Required correction** Provide a citation for the use of the [θ]222/[θ]208 ratio as a diagnostic for coiled-coil vs. isolated helix formation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Figure 3B
+  - **Evidence pointer** Figure 3B
+  - **Issue** The SDS-PAGE gel shows that the three MSL10 N variants run at different apparent molecular weights. The authors suggest this may be due to changes in net charge. This is plausible, but it would be useful to confirm the identity of the bands, for example by mass spectrometry, to rule out degradation or other modifications.
+  - **Required correction** Include a statement acknowledging this possibility and, if available, provide mass spectrometry data to confirm the identity of the purified proteins.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Methods section "MSL8 N expression and purification"
+  - **Evidence pointer** Methods section "MSL8 N expression and purification"
+  - **Issue** The method for the "insoluble preparation" of MSL8 N is described in a single sentence. More detail is needed for reproducibility, including the composition of the solubilization buffer, the refolding procedure, and the final buffer conditions.
+  - **Required correction** Expand the methods section to provide a step-by-step protocol for the purification of MSL8 N from inclusion bodies.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity and presentation
+  - **Affected element** Discussion section
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the potential in vivo relevance of the observed condensate formation is speculative and does not fully consider alternative explanations, such as non-specific aggregation or the effects of the His-tag on the biophysical properties of the N-termini.
+  - **Required correction** Add a paragraph acknowledging the limitations of the in vitro system, including the use of His-tagged proteins and the absence of cellular context, and discuss how these factors might influence the interpretation of the results.
+- **Technical failings that need to be addressed before the case is established** The lack of quantitative analysis for condensate formation (R1-M2) and the insufficient orthogonal validation of aggregation in CD experiments (R1-M1) are the most significant technical issues. These need to be addressed to firmly establish the claim that the N-termini have distinct and specific biophysical behaviors. The lack of experimental validation of disorder for MSL8 N and MSL9 N (R1-M3) is also a notable gap.
+- **Assessment against Nature-style criteria**
+  - **Originality** The work is original in its focus on the N-termini of MSL channels as IDRs and in its comparative analysis of three homologous IDRs. The finding of differential condensate formation is novel.
+  - **Scientific importance** The study contributes to the growing understanding of IDRs in membrane proteins and their potential role in environmental sensing. The identification of distinct biophysical properties in homologous IDRs is of general interest to the IDP field. However, the direct physiological relevance of these in vitro observations is not established, which limits the immediate importance.
+  - **Interdisciplinary readership** The topic is of interest to biophysicists, plant biologists, and cell biologists. The methods used are standard in the biophysics community, but the presentation is accessible to a broader biological audience.
+  - **Technical soundness** The bioinformatic analysis is sound. The CD experiments are performed correctly, but the interpretation of some results, particularly regarding aggregation, is not fully supported. The condensate imaging experiments lack quantitative rigor.
+  - **Readability for nonspecialists** The manuscript is generally well-written and logically structured. The key concepts are explained clearly. However, some sections, such as the description of the CD data analysis, may be challenging for readers without a biophysics background.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core finding that the MSL N-termini are IDRs is well-supported for MSL10 N and plausible for the others. The differential environmental responses are interesting but require more rigorous quantitative analysis to be fully convincing. The manuscript would be significantly strengthened by addressing the concerns regarding aggregation validation and condensate quantification.
+
+## Risk / unsupported claims
+- The claim that MSL10 N forms "soluble aggregates" at high temperatures is not directly supported by the CD data alone and requires orthogonal evidence.
+- The claim that MSL8 N , MSL9 N , and MSL10 N have "sharply differing propensities for condensate formation" is not quantitatively supported.
+- The claim that the observed condensate formation is due to liquid-liquid phase separation for MSL9 N is supported by the reversibility test, but the spherical morphology alone is not sufficient evidence. The authors should be cautious in over-interpreting this as LLPS without further characterization.
+- The evolutionary conservation of disorder is inferred from prediction algorithms, which is reasonable but not experimentally validated.
+- The potential in vivo relevance of the observed in vitro behaviors is speculative and not supported by any in vivo data.

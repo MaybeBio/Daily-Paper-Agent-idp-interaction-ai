@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "35923464",
+  "title": "Integrative Conformational Ensembles of Sic1 Using Different Initial Pools and Optimization Methods.",
+  "authors": "Gomes, Gregory-Neal W; Namini, Ashley; Gradinaru, Claudiu C",
+  "journal": "Frontiers in molecular biosciences",
+  "published_date": "2022-08-05",
+  "window": {
+    "start": "2022-08-01",
+    "end": "2022-08-07"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用MD和统计采样生成初始系综，结合ENSEMBLE和贝叶斯最大熵方法优化无序蛋白Sic1的构象系综，虽聚焦单蛋白构象而非直接PPI，但系综建模方法对IDR介导互作的机制研究有可迁移启发。",
+  "abstract": "Intrinsically disordered proteins play key roles in regulatory protein interactions, but their detailed structural characterization remains challenging. Here we calculate and compare conformational ensembles for the disordered protein Sic1 from yeast, starting from initial ensembles that were generated either by statistical sampling of the conformational landscape, or by molecular dynamics simulations. Two popular, yet contrasting optimization methods were used, ENSEMBLE and Bayesian Maximum Entropy, to achieve agreement with experimental data from nuclear magnetic resonance, small-angle X-ray scattering and single-molecule Forster resonance energy transfer. The comparative analysis of the optimized ensembles, including secondary structure propensity, inter-residue contact maps, and the distributions of hydrogen bond and pi interactions, revealed the importance of the physics-based generation of initial ensembles. The analysis also provides insights into designing new experiments that report on the least restrained features among the optimized ensembles. Overall, differences between ensembles optimized from different priors were greater than when using the same prior with different optimization methods. Generating increasingly accurate, reliable and experimentally validated ensembles for disordered proteins is an important step towards a mechanistic understanding of their biological function and involvement in various diseases.",
+  "abstract_zh": "intrinsically disordered proteins（本质无序蛋白）在调控性蛋白质相互作用中扮演关键角色，但其详细的结构表征仍具挑战性。在此，我们计算并比较了来自酵母的无序蛋白Sic1的构象系综，初始系综分别通过构象景观的统计采样或分子动力学模拟生成。我们采用了两种流行但对比鲜明的优化方法，即ENSEMBLE和贝叶斯最大熵（Bayesian Maximum Entropy），以实现与核磁共振、小角X射线散射和单分子福斯特共振能量转移实验数据的一致性。对优化系综的比较分析，包括二级结构倾向性、残基间接触图以及氢键和π相互作用的分布，揭示了基于物理的初始系综生成的重要性。该分析还为设计新实验提供了见解，这些实验报告了优化系综中约束最少特征的信息。总体而言，从不同先验优化得到的系综之间的差异大于使用相同先验但不同优化方法时的差异。为无序蛋白生成日益准确、可靠且经实验验证的系综，是迈向对其生物学功能及多种疾病参与机制理解的重要一步。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/35923464/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35923464/",
+  "paper_page_path": "papers/pubmed/35923464/index.html"
+}

@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "33799704",
+    "doi": "10.3390/genes12030399",
+    "title": "Deciphering the Role of Residues Involved in Disorder-To-Order Transition Regions in Archaeal tRNA Methyltransferase 5."
+  },
+  "content": {
+    "abstract": "tRNA methyltransferase 5 (Trm5) enzyme is an S-adenosyl methionine (AdoMet)-dependent methyltransferase which methylates the G37 nucleotide at the N(1) atom of the tRNA. The free form of Trm5 enzyme has three intrinsically disordered regions, which are highly flexible and lack stable three-dimensional structures. These regions gain ordered structures upon the complex formation with tRNA, also called disorder-to-order transition (DOT) regions. In this study, we performed molecular dynamics (MD) simulations of archaeal Trm5 in free and complex forms and observed that the DOT residues are highly flexible in free proteins and become stable in complex structures. The energetic contributions show that DOT residues are important for stabilising the complex. The DOT1 and DOT2 are mainly observed to be important for stabilising the complex, while DOT3 is present near the active site to coordinate the interactions between methyl-donating ligands and G37 nucleotides. In addition, mutational studies on the Trm5 complex showed that the wild type is more stable than the G37A tRNA mutant complex. The loss of productive interactions upon G37A mutation drives the AdoMet ligand away from the 37th nucleotide, and Arg145 in DOT3 plays a crucial role in stabilising the ligand, as well as the G37 nucleotide, in the wild-type complex. Further, the overall energetic contribution calculated using MMPBSA corroborates that the wild-type complex has a better affinity between Trm5 and tRNA. Overall, our study reveals that targeting DOT regions for binding could improve the inhibition of Trm5.",
+    "keywords": [
+      "Trm5/aTrm5",
+      "disorder-to-order transition",
+      "disordered regions",
+      "molecular dynamics simulations",
+      "protein-RNA complexes",
+      "tRNA methyltransferase"
+    ],
+    "mesh_terms": [
+      "Amino Acid Substitution",
+      "Archaea/*enzymology/genetics",
+      "Archaeal Proteins/*chemistry/genetics",
+      "*Molecular Dynamics Simulation",
+      "Mutation, Missense",
+      "RNA, Transfer/chemistry/genetics",
+      "tRNA Methyltransferases/*chemistry/genetics"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Srivastava, Ambuj",
+        "Yesudhas, Dhanusha",
+        "Ahmad, Shandar",
+        "Gromiha, M Michael"
+      ],
+      "short_names": [
+        "Srivastava A",
+        "Yesudhas D",
+        "Ahmad S",
+        "Gromiha MM"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7287-305X",
+        "ORCID: 0000-0002-1776-4096"
+      ],
+      "affiliations": [
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036, India.",
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036, India.",
+        "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi 110067, India.",
+        "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036, India."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Srivastava, Ambuj",
+        "short_name": "Srivastava A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036, India."
+        ]
+      },
+      {
+        "full_name": "Yesudhas, Dhanusha",
+        "short_name": "Yesudhas D",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036, India."
+        ]
+      },
+      {
+        "full_name": "Ahmad, Shandar",
+        "short_name": "Ahmad S",
+        "identifiers": [
+          "0000-0002-7287-305X"
+        ],
+        "affiliations": [
+          "School of Computational and Integrative Sciences, Jawaharlal Nehru University, New Delhi 110067, India."
+        ]
+      },
+      {
+        "full_name": "Gromiha, M Michael",
+        "short_name": "Gromiha MM",
+        "identifiers": [
+          "0000-0002-1776-4096"
+        ],
+        "affiliations": [
+          "Department of Biotechnology, Bhupat and Jyoti Mehta School of Biosciences, Indian Institute of Technology Madras, Chennai 600036, India."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Genes"
+    ],
+    "journal_abbrev": [
+      "Genes (Basel)"
+    ],
+    "pub_date": "2021 Mar 11",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/04/04 06:00",
+    "fetched_at": "2026-09-20 02:22:30"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "32323533",
+      "32057853",
+      "31756231",
+      "31442049",
+      "31399541",
+      "31282680",
+      "30687389",
+      "30357411",
+      "28335556",
+      "26851275",
+      "26583988",
+      "26183229",
+      "25835573",
+      "24904644",
+      "24054183",
+      "23887145",
+      "22847817",
+      "22362751",
+      "21602303",
+      "19749755",
+      "18428767",
+      "18384044",
+      "17868690",
+      "17652090",
+      "17121543",
+      "17075131",
+      "16981200",
+      "16768442",
+      "15264254",
+      "15248782",
+      "12773376",
+      "8744570"
+    ],
+    "similar": [
+      "33799704",
+      "23887145",
+      "18384044",
+      "20980671",
+      "16768442",
+      "15248782",
+      "22847817",
+      "28335556",
+      "17652090",
+      "21602303",
+      "20452364",
+      "26253967",
+      "28601227",
+      "30704107",
+      "17868690",
+      "16963456",
+      "28911863",
+      "18029742",
+      "26183229",
+      "20483913",
+      "19749755",
+      "32057853",
+      "12773376",
+      "28743072",
+      "27571175",
+      "11226173",
+      "16434050",
+      "30541086",
+      "27325738",
+      "18262540",
+      "16687654",
+      "15850396",
+      "15165845",
+      "23520175",
+      "17150753",
+      "15637073",
+      "33915233",
+      "27629654",
+      "14583191",
+      "25217588",
+      "18076049",
+      "26673726",
+      "15987815",
+      "20600111",
+      "18069966",
+      "17673084",
+      "25546389",
+      "30931478",
+      "16164996",
+      "17150909",
+      "21846722",
+      "23981144",
+      "16848900",
+      "26202969",
+      "18068186",
+      "17121543",
+      "25629788",
+      "10779558",
+      "30298375",
+      "31175551",
+      "25219964",
+      "15210688",
+      "26470919",
+      "17475914",
+      "28911116",
+      "11684083",
+      "12499565",
+      "15937113",
+      "31405913",
+      "31399541",
+      "16005430",
+      "29069453",
+      "33035335",
+      "9409623",
+      "1754383",
+      "12762017",
+      "18164779",
+      "17881823",
+      "25593312",
+      "18832079",
+      "31586407",
+      "33779503",
+      "29214216",
+      "33276555"
+    ],
+    "review": [
+      "33799704",
+      "28335556",
+      "28601227",
+      "17673084",
+      "25629788",
+      "12762017"
+    ],
+    "pmc": [
+      "8000304"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=genes12030399",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33799704/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33799704",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://scite.ai/reports/33799704",
+        "provider": "scite Smart Citations",
+        "category": "Other Literature Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

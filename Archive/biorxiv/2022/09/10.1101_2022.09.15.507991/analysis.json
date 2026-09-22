@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2022.09.15.507991",
+  "title": "A hybrid structure determination approach to investigate the druggability of the nucleocapsid protein of SARS-CoV-2",
+  "authors": "Padroni G; Bikaki M; Novakovic M; Wolter AC; Rüdisser SH; Gossert AD; Leitner A; Allain FH",
+  "journal": "bioRxiv",
+  "published_date": "2022-09-15",
+  "window": {
+    "start": "2022-09-12",
+    "end": "2022-09-18"
+  },
+  "score": 5,
+  "one_liner_zh": "该文结合NMR与质谱确定SARS-CoV-2核衣壳蛋白的RNA结合界面并进行片段筛选，虽涉及无序蛋白N蛋白的互作界面，但对象为蛋白-RNA而非PPI，且方法为实验为主、无AI/物理模拟建模，故综合评分为5。",
+  "abstract": "<h4>ABSTRACT</h4> <h4>Abstract Figure</h4> The ongoing pandemic caused by SARS-CoV-2 has called for concerted efforts to generate new insights into the biology of betacoronaviruses to inform drug screening and development. Here, we establish a workflow to determine the RNA recognition and druggability of the nucleocapsid N-protein of SARS-CoV-2, a highly abundant protein crucial for the viral life cycle. We use a synergistic method that combines NMR spectroscopy and protein-RNA cross-linking coupled to mass spectrometry to quickly determine the RNA binding of two RNA recognition domains of the N-protein. Finally, we explore the druggability of these domains by performing an NMR fragment screening. This workflow identified small molecule chemotypes that bind to RNA binding interfaces and that have promising properties for further drug development.",
+  "abstract_zh": "<h4>摘要</h4> <h4>摘要图</h4> 由SARS-CoV-2引起的持续大流行要求协同努力，以获取关于β冠状病毒生物学的新见解，从而为药物筛选和开发提供信息。在此，我们建立了一种工作流程，用于确定SARS-CoV-2核衣壳N蛋白的RNA识别和可药性，该蛋白是病毒生命周期中至关重要的高丰度蛋白。我们采用了一种协同方法，结合核磁共振波谱 (NMR spectroscopy) 和蛋白质-RNA交联偶联质谱 (protein-RNA cross-linking coupled to mass spectrometry)，以快速确定N蛋白两个RNA识别结构域的RNA结合特性。最后，我们通过进行NMR片段筛选 (NMR fragment screening) 来探索这些结构域的可药性。该工作流程识别出与RNA结合界面结合的小分子化学型，这些化学型具有进一步药物开发的良好特性。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2022.09.15.507991",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2022.09.15.507991",
+  "paper_page_path": "papers/biorxiv/10.1101_2022.09.15.507991/index.html"
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39271915",
+  "title": "Small-molecule properties define partitioning into biomolecular condensates.",
+  "authors": "Ambadi Thody, Sabareesan; Clements, Hanna D; Baniasadi, Hamid; Lyon, Andrew S; Sigman, Matthew S; Rosen, Michael K",
+  "journal": "Nature chemistry",
+  "published_date": "2024-09-14",
+  "window": {
+    "start": "2024-09-09",
+    "end": "2024-09-15"
+  },
+  "score": 5,
+  "one_liner_zh": "该文通过实验量化小分子在生物分子凝聚体中的分配，并用机器学习基于理化性质预测分配行为，虽涉及相分离和AI方法，但对象为小分子而非无序蛋白PPI，机制建模聚焦于疏水环境而非互作界面，可迁移性有限。",
+  "abstract": "Biomolecular condensates regulate cellular function by compartmentalizing molecules without a surrounding membrane. Condensate function arises from the specific exclusion or enrichment of molecules. Thus, understanding condensate composition is critical to characterizing condensate function. Whereas principles defining macromolecular composition have been described, understanding of small-molecule composition remains limited. Here we quantified the partitioning of ~1,700 biologically relevant small molecules into condensates composed of different macromolecules. Partitioning varied nearly a million-fold across compounds but was correlated among condensates, indicating that disparate condensates are physically similar. For one system, the enriched compounds did not generally bind macromolecules with high affinity under conditions where condensates do not form, suggesting that partitioning is not governed by site-specific interactions. Correspondingly, a machine learning model accurately predicts partitioning using only computed physicochemical features of the compounds, chiefly those related to solubility and hydrophobicity. These results suggest that a hydrophobic environment emerges upon condensate formation, driving the enrichment and exclusion of small molecules.",
+  "abstract_zh": "生物分子凝聚体通过在没有周围膜的情况下区隔化分子来调节细胞功能。凝聚体的功能源于对分子的特异性排除或富集。因此，理解凝聚体的组成对于表征其功能至关重要。尽管定义大分子组成的原理已被描述，但对小分子组成的理解仍然有限。在此，我们量化了约1,700种生物学相关小分子在不同大分子组成的凝聚体中的分配情况。分配比例在化合物间变化近百万倍，但在不同凝聚体间具有相关性，表明不同凝聚体在物理上具有相似性。对于某一系统，在凝聚体不形成的条件下，富集的化合物通常并不与大分子高亲和力结合，这表明分配并非由位点特异性相互作用所主导。相应地，一个机器学习模型仅利用化合物的计算物理化学特征（主要与溶解性和疏水性相关）即可准确预测分配行为。这些结果表明，凝聚体形成时会产生疏水环境，从而驱动小分子的富集和排除。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39271915/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39271915/",
+  "paper_page_path": "papers/pubmed/39271915/index.html"
+}

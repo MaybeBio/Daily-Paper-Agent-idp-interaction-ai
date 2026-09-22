@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "38116756",
+  "title": "Prediction of interface between regions of varying degrees of order or disorderness in intrinsically disordered proteins from dihedral angles.",
+  "authors": "Sharma, Babli; Mattaparthi, Venkata Satish Kumar",
+  "journal": "Journal of biomolecular structure & dynamics",
+  "published_date": "2023-12-20",
+  "window": {
+    "start": "2023-12-18",
+    "end": "2023-12-24"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用MD模拟分析IDP二面角变化，预测蛋白内有序/无序区域间的界面，虽涉及IDP和物理模拟，但未聚焦PPI或互作机制建模，方法可迁移但对象轴偏弱。",
+  "abstract": "Intrinsically disordered proteins (IDPs) are proteins that do not form uniquely defined three-dimensional (3-D) structures. Experimental research on IDPs is difficult since they go against the traditional protein structure-function paradigm. Although there are several predictors of disorder based on amino acid sequences, but very limited based on the 3-D structures of proteins. Dihedral angles have a significant role in predicting protein structure because they establish a protein's backbone, which, coupled with its side chain, establishes its overall shape. Here, we have carried out atomistic Molecular Dynamics (MD) simulations on four different proteins: one ordered protein (Monellin), two partially disordered proteins (p53-TAD and Amyloid beta (Abeta(1-42)) peptide), and one completely disordered protein (Histatin 5). The MD simulation trajectories for the corresponding four proteins were used to conduct dihedral angle (varphi and ѱ) analysis. Then, the average dihedral angles for each of the residues were calculated and plotted against the residue index. We noticed steep rises or falls in the average varphi value at certain locations in the plot. These sudden shifts in the average varphi value reflect the interface between regions of varying degrees of order or disorderness in intrinsically disordered proteins. Using this method, the probable conformer of a protein with a higher degree of disorder can be found among the ensembles of structures sampled during the MD simulations. The results of our study offer new understandings on precisely identifying regions of various degrees of disorder in intrinsically disordered proteins.",
+  "abstract_zh": "固有无序蛋白（IDPs）是指不形成唯一定义的三维（3-D）结构的蛋白质。由于IDPs违背了传统的蛋白质结构-功能范式，其实验研究较为困难。尽管已有多种基于氨基酸序列的无序性预测工具，但基于蛋白质3-D结构的预测工具非常有限。二面角在预测蛋白质结构中扮演重要角色，因为它们确立了蛋白质的主链，主链与侧链共同决定其整体形状。在此，我们对四种不同蛋白质进行了原子级分子动力学（MD）模拟：一种有序蛋白（Monellin）、两种部分无序蛋白（p53-TAD和淀粉样β（Abeta(1-42)）肽），以及一种完全无序蛋白（Histatin 5）。利用相应四种蛋白质的MD模拟轨迹进行了二面角（varphi和ѱ）分析。随后，计算了每个残基的平均二面角，并将其对残基索引作图。我们注意到在图中某些位置，平均varphi值出现急剧上升或下降。这些平均varphi值的突然变化反映了固有无序蛋白中不同有序或无序程度区域之间的界面。利用此方法，可以在MD模拟采样的结构集合中找到具有较高无序程度的蛋白质的可能构象。我们的研究结果为精确识别固有无序蛋白中不同无序程度区域提供了新的见解。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/38116756/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/38116756/",
+  "paper_page_path": "papers/pubmed/38116756/index.html"
+}

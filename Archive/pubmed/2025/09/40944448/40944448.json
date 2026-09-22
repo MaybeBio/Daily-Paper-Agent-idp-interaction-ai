@@ -1,0 +1,250 @@
+{
+  "identity": {
+    "pmid": "40944448",
+    "doi": "10.1002/pro.70298",
+    "title": "Comparative assessment of binding residue predictions in intrinsically disordered regions."
+  },
+  "content": {
+    "abstract": "Dozens of impactful methods that predict intrinsically disordered regions (IDRs) in protein sequences that interact with proteins and/or nucleic acids were developed. Their training and assessment rely on the IDR-level binding annotations, while the equivalent structure-trained methods predict more granular annotations of binding amino acids (AA). We compiled a new benchmark dataset that annotates binding AA in IDRs and applied it to complete a first-of-its-kind assessment of predictions of the disordered binding residues. We evaluated a representative collection of 14 methods, used several hundred low-similarity test proteins, and focused on the challenging task of differentiating these binding residues from other disordered AA and considering ligand type-specific predictions (protein-protein vs. protein-nucleic acid interactions). We found that current methods struggle to accurately predict binding IDRs among disordered residues; however, better-than-random tools predict disordered binding residues significantly better than binding IDRs. We identified at least one relatively accurate tool for predicting disordered protein-binding and disordered nucleic acid-binding AA. Analysis of cross-predictions between interactions with protein and nucleic acids revealed that most methods are ligand-type-agnostic. Only two predictors of the nucleic acid-binding IDRs and two predictors of the protein-binding IDRs can be considered as ligand-type-specific. We also discussed several potential future directions that would move this field forward by producing more accurate methods that target the prediction of binding residues, reduce cross-predictions, and cover a broader range of ligand types.",
+    "keywords": [
+      "assessment",
+      "binding residue",
+      "cross-prediction",
+      "disordered binding region",
+      "intrinsically disordered region",
+      "prediction",
+      "protein-nucleic acid interaction",
+      "protein-protein interaction"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Protein Binding",
+      "Databases, Protein",
+      "*Computational Biology/methods",
+      "*Nucleic Acids/chemistry/metabolism",
+      "Binding Sites"
+    ],
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Basu, Sushmita",
+        "Kurgan, Lukasz"
+      ],
+      "short_names": [
+        "Basu S",
+        "Kurgan L"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-9182-1191",
+        "ORCID: 0000-0002-7749-0314"
+      ],
+      "affiliations": [
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, Virginia, USA.",
+        "Department of Computer Science, Virginia Commonwealth University, Richmond, Virginia, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Basu, Sushmita",
+        "short_name": "Basu S",
+        "identifiers": [
+          "0000-0002-9182-1191"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, Virginia, USA."
+        ]
+      },
+      {
+        "full_name": "Kurgan, Lukasz",
+        "short_name": "Kurgan L",
+        "identifiers": [
+          "0000-0002-7749-0314"
+        ],
+        "affiliations": [
+          "Department of Computer Science, Virginia Commonwealth University, Richmond, Virginia, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Oct",
+    "pub_year": "2025",
+    "pub_types": [
+      "Comparative Study",
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't",
+      "Research Support, U.S. Gov't, Non-P.H.S."
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/09/13 06:34",
+    "fetched_at": "2026-09-17 20:00:51"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40944448",
+      "39811792",
+      "33291838",
+      "34905768",
+      "42598852",
+      "36458437",
+      "41534519",
+      "40631955",
+      "40867524",
+      "39032884",
+      "28334258",
+      "40544633",
+      "31521235",
+      "38048333",
+      "32860044",
+      "25391399",
+      "39833102",
+      "27787828",
+      "39446390",
+      "42681205",
+      "31207240",
+      "31797595",
+      "42585785",
+      "31870849",
+      "38540707",
+      "42150060",
+      "26109352",
+      "36851914",
+      "36008992",
+      "34415020",
+      "37709009",
+      "28381244",
+      "36833360",
+      "36908253",
+      "40650026",
+      "39433833",
+      "36519304",
+      "30135358",
+      "35883444",
+      "38166858",
+      "41702402",
+      "31797594",
+      "42635213",
+      "39763873",
+      "28369666",
+      "38866950",
+      "32535960",
+      "31616935",
+      "40133781",
+      "34626492",
+      "36621533",
+      "38079339",
+      "38701796",
+      "29042212",
+      "31889261",
+      "41174305",
+      "40133785",
+      "29253082",
+      "40828855",
+      "40403066",
+      "34487138",
+      "41570036",
+      "36291695",
+      "39576583",
+      "40133791",
+      "27179590",
+      "31441158",
+      "33875885",
+      "33087759",
+      "35098694",
+      "36959451",
+      "29066345",
+      "34418423",
+      "28589442",
+      "32553192",
+      "26198229",
+      "39614773",
+      "30841624",
+      "30099775",
+      "32112084",
+      "30878482",
+      "30657889",
+      "26297830",
+      "26090958",
+      "36272675",
+      "31175370",
+      "40441416",
+      "28365882",
+      "34830151",
+      "31756456",
+      "25424537",
+      "25935161",
+      "34825861",
+      "42032810",
+      "28394890",
+      "36629262",
+      "28934129",
+      "32722039",
+      "32702119",
+      "40693919"
+    ],
+    "review": [
+      "40944448",
+      "39811792",
+      "33291838",
+      "28334258",
+      "40544633",
+      "31521235",
+      "39833102",
+      "36851914",
+      "36833360",
+      "40650026",
+      "31616935",
+      "29253082",
+      "31441158",
+      "35098694",
+      "36959451",
+      "34418423",
+      "28589442",
+      "30657889"
+    ],
+    "pmc": [
+      "12432414"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/40944448.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40944448/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/pro.70298",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

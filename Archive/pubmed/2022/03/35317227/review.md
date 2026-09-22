@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, conclusions, methods, and figure legends. Supplementary material referenced but not provided.
+- **Assessment boundary** Scientific soundness, methodological rigor, internal consistency, and support of claims by the presented evidence. No assessment of editorial fit or journal policy.
+- **Shared manuscript claim summary** The authors propose that phosphorylation of Ser282 and Ser285 in the intrinsically disordered SRR of Ets-1 inhibits DNA binding via two mechanisms: a steric mechanism involving direct electrostatic interactions between phosphoserines and the DNA-binding interface, and an allosteric mechanism involving phosphorylation-enhanced hydrophobic/aromatic residue clustering that destabilizes the Ets-1 core domain, particularly helix H3. These conclusions are supported by enhanced-sampling molecular dynamics simulations and EMSA experiments on designed mutants.
+- **Visible evidence base** Main text figures (Figs. 2–8), methods section, and in-text references to supplementary figures (Figs. S1–S12). Supplementary data not provided.
+- **Missing materials affecting confidence** Supplementary figures (S1–S12), including convergence tests, additional free energy surfaces, DCC matrices, EMSA gels, and CD spectra. Raw simulation trajectories, force field parameters, and analysis scripts not provided. Experimental details for EMSA quantification are incomplete.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a mechanistically important question: how phosphorylation of an intrinsically disordered region (SRR) auto-inhibits the DNA-binding activity of the transcription factor Ets-1. The combination of enhanced-sampling simulations and targeted mutagenesis experiments is appropriate and potentially powerful. The central claim that both steric and allosteric mechanisms contribute is plausible and partially supported by the data presented. However, several technical concerns reduce confidence in the quantitative and mechanistic conclusions. The simulation methodology, while state-of-the-art, requires more rigorous validation of convergence and force field suitability. The experimental validation is limited to EMSA and CD, and the link between the simulated states and the observed loss of DNA binding is inferred rather than directly demonstrated. The manuscript would be strengthened by additional experimental probes of structure and dynamics, and by more detailed analysis of the simulation ensembles.
+- **Who would be interested in the results, and why** Researchers studying transcription factor regulation, intrinsically disordered proteins, phosphorylation signaling, and the molecular basis of auto-inhibition. The work is also relevant to those developing computational approaches for studying IDP-mediated interactions and to drug discovery efforts targeting Ets-family transcription factors in cancer.
+- **Major strengths** The study combines advanced enhanced-sampling simulations (PTMetaD-WTE, BE-MetaD) with experimental validation, which is a strong approach for studying IDP-mediated regulation. The identification of two distinct mechanisms (steric and allosteric) provides a more complete picture than previous models. The simulation results are compared against experimental chemical shifts, lending credibility to the ensembles. The EMSA experiments with designed hydrophobic mutants directly test the predicted importance of hydrophobic interactions.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of simulation methodology
+  - **Claim pointer** The authors claim that the PTMetaD-WTE simulations accurately describe the conformational space of free SRR and pSRR, based on agreement with experimental chemical shifts.
+  - **Evidence pointer** Results section "The effects of phosphorylation on free SRR", Fig. S2, Methods section "The parallel tempering metadynamics combined with well-tempered ensemble (PTMetaD-WTE)"
+  - **Concern** The validation of the simulated ensembles relies solely on comparison of secondary chemical shifts. This is a necessary but insufficient test. The RMSE values (0.67–0.73 ppm for N, 0.11–0.12 ppm for HN) are reported as "close to the system errors of the chemical shift calculating tool," but this does not establish that the ensembles are correct. Chemical shifts are ensemble-averaged properties and can be insensitive to incorrect populations of distinct conformational states. The authors do not report other validation metrics, such as comparison of scalar couplings, NOE-derived distances, or small-angle X-ray scattering (SAXS) profiles. Furthermore, the force field (CHARMM36m) and water model (TIP3P) are appropriate for IDPs, but the simulation length (300 ns per replica) may be insufficient for full convergence of IDP conformational ensembles, which often require microsecond or longer timescales. The convergence tests referenced in Fig. S12 are not provided, so the adequacy of sampling cannot be assessed.
+  - **Why it matters** The central conclusions about the mechanisms of auto-inhibition depend on the reliability of the simulated ensembles. If the ensembles are not converged or are biased by force field artifacts, the identified interactions and mechanisms may be incorrect.
+  - **Resolution test** Provide the convergence tests (Fig. S12) and additional validation of the ensembles against independent experimental data. Show that the free energy surfaces are stable over time and that the populations of key states are converged. Consider longer simulations or additional replicas to ensure robust sampling.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Support for mechanistic claims
+  - **Claim pointer** The authors claim that the pSRR binding to the Ets-1 core domain induces unfolding of helix H3 via an allosteric mechanism, and that this contributes to inhibition of DNA binding.
+  - **Evidence pointer** Results section "The allosteric regulation on Ets-1 by pSRR", Figs. 3–5
+  - **Concern** The free energy landscape (Fig. 3A) shows two states, a and b, with state b characterized by pSRR binding to the IM interface and reduced internal contacts. The authors interpret the reduced helicity of H3 in state b (Fig. 5A) as evidence of allosteric unfolding. However, the population of state b is not clearly stated, and the free energy difference between states a and b is reported as "larger than 1 KBT," which is a small difference. The representative structure of state b (Fig. 3B) is shown, but it is unclear how representative it is of the entire state. The claim that H3 unfolding is caused by allosteric communication between the IM interface and H3 is inferred from correlations, but no direct evidence of a communication pathway is provided. The DCC analysis (Fig. 7) shows differences between the phosphorylated and unphosphorylated systems, but the relationship between these dynamic correlations and the specific allosteric mechanism is not established. The EMSA experiments (Fig. 8) show that mutations of hydrophobic residues in the IM interface (L337, W338) and in H3 (L393, Y396) abolish DNA binding, which is consistent with the importance of these residues, but does not directly demonstrate the allosteric mechanism.
+  - **Why it matters** The claim of a specific allosteric mechanism is a key novelty of the paper. If the evidence is only correlative, the mechanism remains speculative. The small free energy difference between states a and b also raises questions about the physiological relevance of state b.
+  - **Resolution test** Provide a more quantitative analysis of the populations of states a and b, and demonstrate that the unfolding of H3 in state b is specifically due to allosteric communication from the IM interface, e.g., by mutating key residues in the simulations and showing loss of allosteric effect. Consider experimental validation of H3 unfolding, e.g., by NMR or hydrogen-deuterium exchange.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Experimental validation
+  - **Claim pointer** The authors claim that the EMSA experiments demonstrate the crucial roles of hydrophobic interactions in the binding affinity of Ets-1 mutants with dsDNA.
+  - **Evidence pointer** Results section "EMSA experiments on Ets-1 and dsDNA binding", Fig. 8, Fig. S7
+  - **Concern** The EMSA experiments show that all four mutants (MT1–MT4) fail to bind DNA, even at high protein concentrations. This is a strong result, but the interpretation is limited. The authors state that the mutations do not alter the overall secondary structure based on CD (Fig. S8), but CD is a low-resolution technique and may not detect local structural changes. The mutations are in the core domain, not in the SRR, and the authors do not test whether the mutants still bind the SRR/pSRR. The EMSA experiments are performed with the core domain (ΔN301) only, not with the full-length protein or with the SRR present. This means the experiments do not directly test the auto-inhibitory mechanism proposed in the simulations. The authors should clarify whether the ΔN301 construct includes the SRR or not. If not, the relevance of the EMSA results to the auto-inhibition mechanism is indirect.
+  - **Why it matters** The EMSA experiments are the primary experimental support for the computational predictions. If the experimental system does not recapitulate the auto-inhibitory context, the conclusions are weakened.
+  - **Resolution test** Clarify the constructs used in the EMSA experiments. If the SRR is not present, repeat the experiments with constructs that include the SRR, or with the phosphorylated SRR peptide added in trans. Provide quantitative analysis of the EMSA data (e.g., binding curves and dissociation constants).
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility and completeness of methods
+  - **Claim pointer** The authors claim that the BE-MetaD simulations were used to study the interactions between SRRs and the Ets-1 core domain, and that the results are converged.
+  - **Evidence pointer** Methods section "Bias-exchange metadynamics (BE-MetaD)", Fig. S12
+  - **Concern** The methods section describes the BE-MetaD setup but lacks critical details. The number of replicas is stated as four, but the total simulation time per replica is not clearly given (only "500 ns, 400 ns and 400 ns production simulation were performed for each replica of the ΔN2792P, ΔN279, ΔN279-MT, respectively"). The convergence tests are referenced to Fig. S12, which is not provided. The choice of collective variables (CVs) is described, but the rationale for these specific CVs and the validation of their adequacy for describing the binding process are not discussed. The free energy landscapes are presented as 2D projections, but the underlying high-dimensional free energy surface may not be well-represented by these projections. The reweighting procedure (Eq. 2) is described, but the statistical uncertainty of the free energies is not reported.
+  - **Why it matters** The reproducibility of the simulations is essential for the credibility of the results. Without detailed methods and convergence analysis, the computational findings cannot be independently verified.
+  - **Resolution test** Provide complete simulation details, including the number of replicas, total simulation time, exchange rates, and convergence metrics. Report statistical uncertainties on the free energies. Make the convergence tests (Fig. S12) available.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Fig. 3
+  - **Evidence pointer** Results section "The regulation on Ets-1 core domain by the pSRR binding", Fig. 3
+  - **Issue** The free energy landscape in Fig. 3A is difficult to interpret without color scale labels. The axes are labeled, but the units and ranges are not clear. The representative structures in Fig. 3B are shown without clear labels for the secondary structure elements.
+  - **Required correction** Add a color bar with energy units to Fig. 3A. Label the secondary structure elements in Fig. 3B and indicate the position of the SRR/pSRR.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Fig. 8
+  - **Evidence pointer** Results section "EMSA experiments on Ets-1 and dsDNA binding", Fig. 8
+  - **Issue** The EMSA results are shown as representative gels, but no quantification or statistical analysis is provided. It is unclear how many independent replicates were performed.
+  - **Required correction** Provide quantification of the EMSA gels (e.g., fraction of bound DNA) with error bars and statistical tests. State the number of independent replicates.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Interpretation of results
+  - **Affected element** Discussion section "The autoinhibition mechanism of phosphorylation"
+  - **Evidence pointer** Discussion section
+  - **Issue** The authors state that "more than 80% structures obey the steric mechanism," but this percentage is not clearly derived from the data presented. It is unclear whether this refers to the population of state a or to a subset of conformations within state a.
+  - **Required correction** Clarify the definition of "structures obey the steric mechanism" and provide the quantitative basis for the 80% figure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Completeness of references
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction cites several key papers on Ets-1 regulation, but the discussion of alternative models (e.g., the "fuzzy complex" model) is brief. A more thorough comparison with existing models would strengthen the context.
+  - **Required correction** Expand the discussion of alternative models and how the present work distinguishes between them.
+
+## Risk / unsupported claims
+- The claim that the simulated ensembles accurately represent the conformational space of SRR and pSRR is only weakly supported by chemical shift comparison; additional validation is needed.
+- The claim that state b represents a physiologically relevant conformation is not supported by population estimates or free energy differences.
+- The claim that the allosteric mechanism involves a specific communication pathway between the IM interface and H3 is inferred from correlations and not directly demonstrated.
+- The claim that the EMSA experiments demonstrate the importance of hydrophobic interactions in the auto-inhibitory mechanism is indirect, as the experiments were performed with the core domain only, without the SRR.
+- The claim that the phosphorylation-induced hydrophobic clustering is a general feature of IDP regulation is speculative and not supported by comparative analysis with other IDP systems.
+- The statement that the work "would great help the developing of inhibitor drugs for the cancer therapy" is an overstatement not supported by the data presented.

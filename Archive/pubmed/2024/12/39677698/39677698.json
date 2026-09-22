@@ -1,0 +1,427 @@
+{
+  "identity": {
+    "pmid": "39677698",
+    "doi": "10.1101/2024.12.01.626131",
+    "title": "Quantitative Spatial Analysis of Chromatin Biomolecular Condensates using Cryo-Electron Tomography."
+  },
+  "content": {
+    "abstract": "Phase separation is an important mechanism to generate certain biomolecular condensates and organize the cell interior. Condensate formation and function remain incompletely understood due to difficulties in visualizing the condensate interior at high resolution. Here we analyzed the structure of biochemically reconstituted chromatin condensates through cryo-electron tomography. We found that traditional blotting methods of sample preparation were inadequate, and high-pressure freezing plus focused ion beam milling was essential to maintain condensate integrity. To identify densely packed molecules within the condensate, we integrated deep learning-based segmentation with novel context-aware template matching. Our approaches were developed on chromatin condensates, and were also effective on condensed regions of in situ native chromatin. Using these methods, we determined the average structure of nucleosomes to 6.1 and 12 A resolution in reconstituted and native systems, respectively, and found that nucleosomes form heterogeneous interaction networks in both cases. Our methods should be applicable to diverse biochemically reconstituted biomolecular condensates and to some condensates in cells.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Zhou, Huabin",
+        "Hutchings, Joshua",
+        "Shiozaki, Momoko",
+        "Zhao, Xiaowei",
+        "Doolittle, Lynda K",
+        "Yang, Shixin",
+        "Yan, Rui",
+        "Jean, Nikki",
+        "Riggi, Margot",
+        "Yu, Zhiheng",
+        "Villa, Elizabeth",
+        "Rosen, Michael K"
+      ],
+      "short_names": [
+        "Zhou H",
+        "Hutchings J",
+        "Shiozaki M",
+        "Zhao X",
+        "Doolittle LK",
+        "Yang S",
+        "Yan R",
+        "Jean N",
+        "Riggi M",
+        "Yu Z",
+        "Villa E",
+        "Rosen MK"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-7788-0806",
+        "ORCID: 0000-0003-4677-9809",
+        "ORCID: 0000-0002-0775-7917"
+      ],
+      "affiliations": [
+        "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, 75390, USA.",
+        "School of Biological Sciences, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA.",
+        "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA.",
+        "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, 75390, USA.",
+        "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA.",
+        "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA.",
+        "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA.",
+        "Max Planck Institute for Biochemistry, Martinsried/Munich D-82152, Germany.",
+        "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA.",
+        "School of Biological Sciences, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Howard Hughes Medical Institute, University of California San Diego, La Jolla, CA 92093, USA.",
+        "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, 75390, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Zhou, Huabin",
+        "short_name": "Zhou H",
+        "identifiers": [
+          "0000-0002-7788-0806"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Hutchings, Joshua",
+        "short_name": "Hutchings J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Biological Sciences, University of California San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Shiozaki, Momoko",
+        "short_name": "Shiozaki M",
+        "identifiers": [],
+        "affiliations": [
+          "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Zhao, Xiaowei",
+        "short_name": "Zhao X",
+        "identifiers": [],
+        "affiliations": [
+          "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Doolittle, Lynda K",
+        "short_name": "Doolittle LK",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, 75390, USA."
+        ]
+      },
+      {
+        "full_name": "Yang, Shixin",
+        "short_name": "Yang S",
+        "identifiers": [],
+        "affiliations": [
+          "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Yan, Rui",
+        "short_name": "Yan R",
+        "identifiers": [],
+        "affiliations": [
+          "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Jean, Nikki",
+        "short_name": "Jean N",
+        "identifiers": [],
+        "affiliations": [
+          "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Riggi, Margot",
+        "short_name": "Riggi M",
+        "identifiers": [],
+        "affiliations": [
+          "Max Planck Institute for Biochemistry, Martinsried/Munich D-82152, Germany."
+        ]
+      },
+      {
+        "full_name": "Yu, Zhiheng",
+        "short_name": "Yu Z",
+        "identifiers": [],
+        "affiliations": [
+          "Janelia Research Campus, Howard Hughes Medical Institute, Ashburn, VA, USA."
+        ]
+      },
+      {
+        "full_name": "Villa, Elizabeth",
+        "short_name": "Villa E",
+        "identifiers": [
+          "0000-0003-4677-9809"
+        ],
+        "affiliations": [
+          "School of Biological Sciences, University of California San Diego, La Jolla, CA 92093, USA.",
+          "Howard Hughes Medical Institute, University of California San Diego, La Jolla, CA 92093, USA."
+        ]
+      },
+      {
+        "full_name": "Rosen, Michael K",
+        "short_name": "Rosen MK",
+        "identifiers": [
+          "0000-0002-0775-7917"
+        ],
+        "affiliations": [
+          "Department of Biophysics, Howard Hughes Medical Institute, UT Southwestern Medical Center, Dallas, TX, 75390, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Dec 31",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/12/16 17:25",
+    "fetched_at": "2026-09-21 13:47:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "40386802",
+      "39271915",
+      "39260373",
+      "39138293",
+      "38832749",
+      "38782890",
+      "38773325",
+      "38734767",
+      "38649740",
+      "38606666",
+      "38503281",
+      "38110637",
+      "37816746",
+      "37774136",
+      "37683647",
+      "37549257",
+      "37503920",
+      "37243597",
+      "37216561",
+      "37159298",
+      "37116470",
+      "37094140",
+      "36972455",
+      "36746945",
+      "36742017",
+      "36618877",
+      "36513655",
+      "36468689",
+      "36456783",
+      "36309499",
+      "36251681",
+      "36227480",
+      "35974095",
+      "35922507",
+      "35907400",
+      "35675815",
+      "35601683",
+      "35387991",
+      "35338361",
+      "35325593",
+      "35149762",
+      "35049497",
+      "34772789",
+      "34675434",
+      "34303931",
+      "33583147",
+      "33542511",
+      "33335017",
+      "33303613",
+      "33263279",
+      "33169001",
+      "33004511",
+      "32967822",
+      "32513734",
+      "32311333",
+      "32123395",
+      "31611690",
+      "31591575",
+      "31562475",
+      "31543265",
+      "31086343",
+      "30991239",
+      "30804214",
+      "30250056",
+      "30053160",
+      "29930091",
+      "29809143",
+      "28935776",
+      "28890085",
+      "28751582",
+      "28575670",
+      "28475873",
+      "28225081",
+      "28146510",
+      "27444392",
+      "27056844",
+      "25768910",
+      "22398450",
+      "22245546",
+      "22193517",
+      "19838170",
+      "9305837",
+      "4818482",
+      "2308168"
+    ],
+    "similar": [
+      "39677698",
+      "40327693",
+      "36227480",
+      "30514760",
+      "35907400",
+      "39856105",
+      "38257239",
+      "38987300",
+      "38191942",
+      "39171763",
+      "32557536",
+      "36150962",
+      "37470705",
+      "39138204",
+      "36191226",
+      "36412795",
+      "40108179",
+      "37961422",
+      "38766065",
+      "37293933",
+      "36993212",
+      "35832192",
+      "36227474",
+      "39168125",
+      "40290937",
+      "36883003",
+      "39827079",
+      "37586369",
+      "37094140",
+      "37019112",
+      "35881789",
+      "34404453",
+      "32487073",
+      "37791635",
+      "39271032",
+      "39937084",
+      "37156794",
+      "37162152",
+      "37131735",
+      "38489385",
+      "36227487",
+      "37894933",
+      "37546704",
+      "39303698",
+      "38405951",
+      "34772789",
+      "36028355",
+      "39620362",
+      "31268421",
+      "39868336",
+      "31540706",
+      "38622124",
+      "36993636",
+      "37066349",
+      "37343188",
+      "38656803",
+      "37239436",
+      "35243657",
+      "37252985",
+      "39184067",
+      "35001622",
+      "37770446",
+      "40196628",
+      "40136009",
+      "37770422",
+      "39591652",
+      "33579564",
+      "37772963",
+      "38722189",
+      "38360555",
+      "37770698",
+      "36269080",
+      "40195119",
+      "36875159",
+      "38784009",
+      "38781207",
+      "37549257",
+      "37925283",
+      "34090478",
+      "38101414",
+      "35974095",
+      "34129784",
+      "38643237",
+      "36106018",
+      "34865286",
+      "38499848",
+      "39976773",
+      "34767801",
+      "37216561",
+      "37904914",
+      "37503034",
+      "39433596",
+      "39987501",
+      "37782826",
+      "39498261",
+      "39314395",
+      "39005320",
+      "33453934",
+      "39534915",
+      "37380708"
+    ],
+    "review": [
+      "39677698",
+      "36150962",
+      "35832192",
+      "39827079",
+      "39271032",
+      "39303698",
+      "34772789",
+      "36028355",
+      "37239436",
+      "33579564",
+      "37772963",
+      "38360555",
+      "36269080",
+      "36875159",
+      "37925283",
+      "35974095",
+      "34129784",
+      "36106018",
+      "34865286",
+      "39976773",
+      "34767801",
+      "39433596"
+    ],
+    "pmc": [
+      "11642791"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39677698/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.12.01.626131",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

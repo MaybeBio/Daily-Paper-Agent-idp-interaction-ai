@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text
+- **Assessment boundary** Scientific content, technical soundness, and interpretation of results as presented in the provided manuscript
+- **Shared manuscript claim summary** The authors characterize the membrane interactions of the N-terminal domains of human PEX5 and PEX14 using NMR spectroscopy, isothermal titration calorimetry, and flotation assays. They report that the PEX5 NTD contains multiple amphipathic α-helical regions that interact with membrane-mimicking bicelles, that the PEX14 NTD weakly binds membranes via a surface partially overlapping its PEX5-binding site, and that the PEX5-PEX14 interaction affinity is largely unaffected by the presence of membranes due to enthalpy-entropy compensation.
+- **Visible evidence base** NMR chemical shift assignments, secondary chemical shifts, heteronuclear NOE data, chemical shift perturbation titrations, ITC thermograms and fitted parameters, CD spectra, flotation assay results, sequence conservation analysis
+- **Missing materials affecting confidence** Supplementary figures and tables referenced but not provided; raw NMR spectra not available; ITC raw thermograms not shown; details of NMR assignment completeness and validation statistics not provided; no structural coordinates deposited
+
+## Reviewer
+- **Overall assessment** This manuscript presents a biophysical characterization of membrane interactions of the PEX5 and PEX14 N-terminal domains, addressing a relevant question in peroxisomal protein import. The work combines multiple complementary techniques and provides new information about the membrane-binding properties of these proteins. However, several technical aspects require clarification and additional controls to fully support the conclusions, particularly regarding the quantitative interpretation of NMR titration data, the relevance of the membrane mimics used, and the interpretation of the ITC results in the presence of bicelles.
+- **Who would be interested in the results, and why** Researchers studying peroxisome biogenesis and protein translocation mechanisms, as well as those interested in membrane-protein interactions of intrinsically disordered proteins. The findings may also be relevant to those studying amphipathic helix-mediated membrane binding and the role of weak multivalent interactions in cellular processes.
+- **Major strengths** The study addresses an important and understudied aspect of peroxisomal protein import, namely the membrane interactions of the translocon components. The combination of NMR, ITC, CD, and flotation assays provides a multi-pronged approach. The identification of multiple conserved amphipathic helical regions in the PEX5 NTD and their membrane-binding properties is novel. The finding that the PEX5-PEX14 interaction is maintained in the presence of membranes with enthalpy-entropy compensation is interesting and potentially significant.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors report apparent dissociation constants (KDapp) for PEX5 NTD subregions binding to bicelles, with values of 196 ± 16 μM, 82 ± 13 μM, and 20 ± 7 μM for residues 1–113, 110–230, and 228–315, respectively.
+  - **Evidence pointer** Results section "PEX5 NTD Interacts With Membranes", Table 1, Figures 2C,D
+  - **Concern** The KDapp values are derived from chemical shift perturbations (CSPs) fitted to a one-site binding model. However, the manuscript does not provide details on how many residues were used for each fit, whether the fits were global or per-residue, and what the quality of the fits was. Moreover, the CSPs are described as "large" and accompanied by "substantial line broadening," which can complicate quantitative analysis. The manuscript also does not clarify whether the reported errors are from the fit or from replicate measurements. Without these details, the reliability of the reported KDapp values cannot be assessed.
+  - **Why it matters** The quantitative comparison of membrane affinities across the three PEX5 subregions is a central result of the paper, used to conclude that the C-terminal region (228–315) has the strongest membrane interaction. If the fitting methodology is not robust, this conclusion may not be well supported.
+  - **Resolution test** Provide details on the fitting procedure, including the number of residues used, whether fits were global or local, the goodness-of-fit parameters, and how errors were estimated. Show representative fits for individual residues. If possible, validate the KDapp values with an independent method or at least demonstrate that the CSPs are in the fast-exchange regime on the NMR timescale.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim** The authors state that "the interaction between the PEX5 and PEX14 NTDs is largely unaffected by the presence of the membrane" based on ITC experiments in the absence and presence of bicelles.
+  - **Evidence pointer** Results section "PEX5 PEX14 Interaction in the Presence of Lipids", Figure 5, Table 2
+  - **Concern** The ITC experiments in the presence of bicelles are technically challenging. The manuscript does not provide details on how the heat of bicelle dilution was accounted for, whether the PEX5 and PEX14 proteins interact with the bicelles themselves under the ITC conditions (which would complicate the interpretation), and whether the fitted stoichiometry (n) was fixed or allowed to float. The reported KD values of 147 nM and 260 nM in the absence and presence of bicelles, respectively, are stated to be "in the same range," but the manuscript does not report the confidence intervals or whether the difference is statistically significant. Furthermore, the interpretation of the enthalpy-entropy compensation is speculative without additional experiments (e.g., temperature-dependent ITC or structural data).
+  - **Why it matters** The conclusion that membrane presence does not significantly affect the PEX5-PEX14 interaction is a key finding of the paper. If the ITC experiments in the presence of bicelles are not properly controlled, this conclusion may be premature.
+  - **Resolution test** Provide details on the ITC data processing, including how bicelle dilution heats were subtracted, whether protein-bicelle interactions were independently characterized under the ITC conditions, and the fitted stoichiometry values. Report confidence intervals for the KD values and perform a statistical comparison. Consider performing ITC at multiple temperatures to support the enthalpy-entropy compensation interpretation.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim** The authors propose that the weak membrane interactions of the PEX14 NTD may provide a "proof-reading mechanism to avoid random binding events with unspecific targets from the cytosolic compartment."
+  - **Evidence pointer** Conclusion section
+  - **Concern** This functional hypothesis is speculative and not directly tested by any experiment in the manuscript. While such speculation can be valuable in a discussion, it is presented in the conclusion without appropriate hedging or acknowledgment of alternative interpretations. The physiological relevance of the observed weak membrane interactions remains unclear, particularly given the use of non-native membrane mimics.
+  - **Why it matters** The broader significance of the findings for understanding peroxisomal protein import depends on the physiological relevance of the observed interactions. Overstating the functional implications without direct evidence may mislead readers.
+  - **Resolution test** Soften the language in the conclusion, clearly label this as a hypothesis, and discuss alternative interpretations. If possible, perform experiments with more physiologically relevant membrane compositions or with full-length PEX14 in a membrane environment to strengthen the claims.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim** The authors use flotation assays to validate that DMPC liposomes are a relevant proxy for peroxisomal membranes, showing similar PEX5 association with DMPC and DOPE/DOPC liposomes.
+  - **Evidence pointer** Results section "PEX5 NTD Interacts With Membranes", Supplementary Figure 2
+  - **Concern** The flotation assays are only shown in supplementary material and the description in the main text is brief. The manuscript does not provide quantitative analysis of the flotation results (e.g., percentage of protein associated with liposomes), and it is unclear whether the experiments were performed with sufficient replicates to support the conclusion of comparable behavior. Additionally, the peroxisomal membrane contains other lipids (e.g., phosphatidylserine, phosphatidylinositol, cholesterol) that are not represented in either liposome composition.
+  - **Why it matters** The validity of using DMPC bicelles as a membrane mimic is central to the interpretation of all NMR experiments. If the flotation validation is not robust, the relevance of the NMR findings to native peroxisomal membranes is weakened.
+  - **Resolution test** Provide quantitative analysis of the flotation assays, including the fraction of protein in each fraction, with error bars from replicate experiments. Discuss the limitations of the lipid compositions used and their relevance to peroxisomal membranes.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction
+  - **Evidence pointer** Introduction section
+  - **Issue** The introduction assumes significant background knowledge of peroxisomal protein import. A brief explanation of why PEX5 and PEX14 are essential for peroxisome function and what "translocon" means in this context would improve accessibility.
+  - **Required correction** Add one or two sentences explaining the biological context and the role of the translocon in peroxisome biology.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** NMR spectroscopy methods
+  - **Evidence pointer** Methods section "NMR Spectroscopy"
+  - **Issue** The manuscript states that KD values were fitted to "a one-site specific binding model" but does not specify whether the protein concentration was held constant and whether the bicelle concentration was treated as the ligand concentration. The relationship between DMPC concentration and the number of binding sites per bicelle is not discussed.
+  - **Required correction** Clarify the fitting model, including how the ligand concentration was defined and whether the number of binding sites per bicelle was considered.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** ITC methods
+  - **Evidence pointer** Methods section "Isothermal Titration Calorimetry (ITC)"
+  - **Issue** The ITC methods state that the PEX14 concentration was corrected with the fit due to uncertainty in the extinction coefficient, but the rationale for this correction and its impact on the fitted parameters is not explained.
+  - **Required correction** Provide a brief explanation of why the concentration correction was necessary and how it was implemented in the fitting procedure.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion
+  - **Evidence pointer** Discussion section
+  - **Issue** The discussion of the potential competition between membrane binding and PEX5-PEX14 interaction is interesting but would benefit from a more explicit statement of the limitations of the in vitro system used.
+  - **Required correction** Add a sentence acknowledging that the in vitro conditions may not fully recapitulate the complex environment of the peroxisomal membrane and that in vivo validation would be needed.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results section "PEX5 NTD Interacts With Membranes"
+  - **Evidence pointer** Results section, Figures 1D,E
+  - **Issue** The description of the NMR titration experiments is dense and may be difficult to follow for readers not specialized in NMR spectroscopy. The distinction between chemical shift perturbations and line broadening effects could be explained more clearly.
+  - **Required correction** Briefly explain what chemical shift perturbations and line broadening indicate in terms of binding interactions, and what the limitations of each observable are.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (quantitative NMR analysis), R1-M2 (ITC in the presence of bicelles)
+- **Assessment against Nature-style criteria** 
+  - Originality: The work provides new information about the membrane interactions of PEX5 and PEX14 NTDs, which has not been previously characterized in detail. The identification of multiple amphipathic helical regions in the PEX5 NTD is novel. However, the overall conceptual advance is incremental, building on prior knowledge of PEX5-PEX14 interactions.
+  - Scientific importance: The findings are relevant to understanding the early steps of peroxisomal protein import, a process of fundamental cell biological importance. However, the physiological significance of the observed weak membrane interactions remains uncertain, limiting the immediate impact.
+  - Interdisciplinary readership: The topic is of interest to cell biologists, biochemists, and structural biologists. The methods used are specialized, and the presentation may not be fully accessible to a broad interdisciplinary audience.
+  - Technical soundness: The combination of techniques is appropriate, but several technical aspects require clarification and additional controls, particularly the quantitative NMR analysis and the ITC experiments in the presence of bicelles.
+  - Readability for nonspecialists: The manuscript is generally well-written but assumes significant background knowledge. Some sections, particularly the NMR results, are dense and may be challenging for nonspecialists.
+- **Recommendation posture** Supportive if technical concerns are resolved. The manuscript addresses a relevant question and provides novel observations, but the quantitative interpretations and the physiological relevance of the findings need to be strengthened before the conclusions are fully supported.
+
+## Risk / unsupported claims
+- The claim that the PEX5-PEX14 interaction is "largely unaffected" by the presence of membranes is not fully supported due to potential issues with the ITC analysis in the presence of bicelles.
+- The proposed "proof-reading mechanism" for PEX14 NTD membrane interactions is speculative and not directly tested.
+- The statement that the identified amphipathic helices "could mediate protein-protein and/or membrane interaction" is presented as a conclusion but is not directly tested.
+- The relevance of the DMPC-based bicelle system to native peroxisomal membranes is not fully established, despite the flotation control experiments.
+- The completeness and quality of the NMR resonance assignments are not documented, which limits the assessment of the CSP analysis.

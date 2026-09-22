@@ -1,0 +1,94 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, results, discussion, methods) without figures, tables, or supplementary materials
+- **Assessment boundary** Scientific claims, methodological soundness, and reproducibility as presented in the provided text
+- **Shared manuscript claim summary** The authors present GSALIDP, a GraphSAGE-LSTM network, to predict interaction sites and contact residue pairs in intrinsically disordered proteins (IDPs) by modeling multiple conformations as a dynamic graph. They claim performance on par with or better than conventional PPI prediction methods for structural proteins, and identify frustration-related and geometric features as key predictors.
+- **Visible evidence base** Text descriptions of methods and results; references to Figures 2, 3, 4; Tables 1 and 2; Supplementary Figures 2 and 3; Supplementary Table 2
+- **Missing materials affecting confidence** All figures, tables, and supplementary materials; quantitative performance values; dataset details; baseline model comparisons; statistical significance tests
+
+## Reviewer
+- **Overall assessment** The manuscript addresses an important and timely problem, namely the prediction of IDP-involved interactions, which is largely unexplored by existing PPI prediction tools. The dynamic graph formulation is conceptually appropriate for capturing conformational flexibility. However, the current text provides insufficient quantitative evidence to evaluate the central claims. Key performance metrics, baseline comparisons, and dataset characteristics are referenced but not presented in the visible text. The interpretability analysis is suggestive but lacks rigorous validation. The work is potentially valuable, but the case is not fully established from the provided material.
+- **Who would be interested in the results, and why** Researchers in computational biology, specifically those working on protein-protein interaction prediction, intrinsically disordered proteins, and machine learning applications to structural biology. The dynamic graph approach may also interest method developers in graph neural networks and temporal modeling. The identification of frustration and backbone exposure as predictive features could inform experimental studies of IDP binding mechanisms.
+- **Major strengths** The problem is well-motivated and addresses a genuine gap in PPI prediction. The dynamic graph formulation is a sensible and novel adaptation of existing architectures to IDP-specific challenges. The use of all-atom MD simulations to generate training data is rigorous. The interpretability analysis, while preliminary, connects model predictions to physically meaningful features.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** "GSALIDP can effectively predict the interaction sites of IDP and the contact residue pairs between IDPs" and "Its performance in predicting dynamic IDP interaction is on par with or even better than the other models' prediction of the conventional PPI"
+  - **Evidence pointer** Results sections "Performance of GSALIDP in predicting the interaction sites of IDP" and "Performance of GSALIDP in predicting the contact residue pairs between IDPs"; Tables 1 and 2; Figure 3
+  - **Concern** The central performance claims are made without any quantitative values in the visible text. No AUROC, AUPRC, F1, or MCC numbers are provided. The comparison to conventional PPI prediction methods is asserted but no baseline results are shown. The reader cannot assess whether the reported performance is statistically meaningful or practically useful.
+  - **Why it matters** The primary contribution of this work is a predictive model. Without quantitative evidence, the core claim cannot be evaluated. The comparison to existing methods is essential to establish novelty and utility.
+  - **Resolution test** Provide the actual performance metrics for GSALIDP on the test set, including confidence intervals or standard deviations. Include results from at least one baseline method (e.g., a static graph model or sequence-based predictor) under the same evaluation protocol.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Dataset adequacy
+  - **Claim pointer** "17 independent trajectories with a cumulative length of 18 μs are used" and "34 stable interaction events are obtained"
+  - **Evidence pointer** Results section "Obtaining the conformation of IDPs from MD simulations"
+  - **Concern** The dataset is extremely small. Only 34 interaction events are used, with a 6:1 train-test split, yielding approximately 29 training and 5 test events. For contact residue pair prediction, the number of positive pairs is not stated. This sample size raises serious concerns about overfitting and the generalizability of the reported results. The leave-one-out cross-validation on 29 training samples is unlikely to provide stable hyperparameter selection.
+  - **Why it matters** Machine learning models, especially those with the complexity of GraphSAGE-LSTM, require sufficient data to learn meaningful patterns. With such a small dataset, the reported performance may be highly dependent on the specific training-test split and may not reflect true predictive ability on new IDP systems.
+  - **Resolution test** Report the number of residues, positive and negative interaction sites, and positive and negative contact pairs in the dataset. Provide evidence that the model's performance is stable across different random splits. If possible, validate on an independent IDP system not used in training.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Interpretability validation
+  - **Claim pointer** "the mechanism of these interactions and the relevance with residue frustration are discussed through the interpretability analysis of our model"
+  - **Evidence pointer** Results section "Interpretations of our model"; Table 2; Figure 4
+  - **Concern** The sensitivity analysis identifies RHFD and ICA as important features, and the authors propose a mechanistic interpretation. However, the analysis is purely correlational. The claim that "local energy conflicts within IDP monomer can be reduced by the interactions with other IDP" is supported only by a comparison of average RHFD values (0.131 vs 0.076) without statistical testing or consideration of confounding factors. The causal link between feature importance and biological mechanism is not established.
+  - **Why it matters** The interpretability analysis is presented as a key contribution that provides biological insight. If the mechanistic claims are not rigorously supported, they may mislead readers and overstate the biological significance of the findings.
+  - **Resolution test** Perform statistical tests (e.g., permutation tests or bootstrapping) on the RHFD comparison. Discuss alternative explanations for the observed correlations. Consider validating the mechanistic hypothesis with additional simulations or experimental data.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Methodological clarity
+  - **Claim pointer** "the computations of its input gate, forget gate, cell state, and output gate are replaced by GraphSAGE networks"
+  - **Evidence pointer** Methods section "The GraphSAGE-LSTM Network"
+  - **Concern** The description of the GraphSAGE-LSTM architecture is incomplete. The equations for the input, forget, and output gates are referenced but not shown. The exact way GraphSAGE is integrated into the LSTM framework is unclear. For instance, how are the graph convolutions applied to the hidden state and cell state? What is the aggregation function? How is the adjacency matrix updated across the 16 conformations?
+  - **Why it matters** Reproducibility is a core requirement for computational methods. Without a complete architectural description, other researchers cannot implement or build upon this work.
+  - **Resolution test** Provide the full equations for the GraphSAGE-LSTM cell, including the dimensions of all tensors and the exact operations performed. Include a pseudocode algorithm or a link to the code with clear documentation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract states "GSALIDP can effectively predict the interaction sites of IDP and the contact residue pairs between IDPs" without any quantitative context. This is too vague for a broad readership.
+  - **Required correction** Include one or two key performance numbers (e.g., AUROC) in the abstract to give readers a concrete sense of the model's capability.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Results section "Obtaining the conformation of IDPs from MD simulations"
+  - **Evidence pointer** Location not provided
+  - **Issue** The criteria for defining "stable interaction events" (contact for more than 30 ns and heavy atom contact number > 200) are stated, but the rationale for these thresholds is not explained.
+  - **Required correction** Justify the choice of thresholds or cite prior work using similar criteria.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Comparison fairness
+  - **Affected element** Results sections on performance
+  - **Evidence pointer** Location not provided
+  - **Issue** The comparison to conventional PPI prediction methods is made without specifying which methods were used, their training data, or their evaluation protocols. This makes the comparison difficult to interpret.
+  - **Required correction** Clearly list the baseline methods, their sources, and any adaptations made for this comparison. Ensure that evaluation protocols are identical across methods.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Statistical rigor
+  - **Affected element** Interpretability analysis
+  - **Evidence pointer** Figure 4
+  - **Issue** The claim that "more than 61% of interaction sites with high RHFD or high ICA" is presented without a baseline or expected value. It is unclear whether this proportion is significantly different from chance.
+  - **Required correction** Provide a null expectation (e.g., the proportion of all residues with high RHFD or high ICA) and a statistical test for enrichment.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Accessibility
+  - **Affected element** Methods section "Features of the residue"
+  - **Evidence pointer** Location not provided
+  - **Issue** The description of features is brief and relies heavily on references. For a general readership, a brief explanation of each feature and its biological relevance would be helpful.
+  - **Required correction** Add a short paragraph summarizing each feature category and why it is relevant to IDP interactions.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (missing quantitative performance data), R1-M2 (insufficient dataset size and lack of robustness analysis), R1-M4 (incomplete architectural description)
+- **Assessment against Nature-style criteria** Originality: The dynamic graph approach to IDP interaction prediction is conceptually novel and addresses a genuine gap. Scientific importance: IDP interactions are biologically significant and poorly understood; a reliable predictor would be valuable. However, the importance is not yet demonstrated due to missing evidence. Interdisciplinary readership: The topic bridges machine learning, biophysics, and cell biology, which is appropriate for a broad audience. Technical soundness: The methodological framework is reasonable, but the current text does not provide enough detail or evidence to assess technical rigor. Readability for nonspecialists: The manuscript is generally well-written and accessible, but the results sections rely on figures and tables that are not visible, making the narrative difficult to follow.
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript addresses an important problem with a plausible approach, but the central claims are not supported by quantitative data in the visible text. Major revisions are required to provide performance metrics, baseline comparisons, dataset details, and a complete architectural description. If these are provided and the results are robust, the work could be of significant interest.
+
+## Risk / unsupported claims
+- The claim that GSALIDP's performance is "on par with or even better than" conventional PPI methods is unsupported without baseline results.
+- The claim that this is "the first model to extend the protein interaction prediction to IDP-involved interactions" is not verifiable from the provided text and would require a thorough literature search.
+- The mechanistic interpretation linking RHFD and ICA to IDP interaction propensity is speculative and not statistically validated.
+- The generalizability of the model beyond the single IDP system (LAF-1 RGG domain) is asserted but not tested.
+- The statement that "there are more than 61% of interaction sites with high RHFD or high ICA" lacks a statistical baseline for comparison.

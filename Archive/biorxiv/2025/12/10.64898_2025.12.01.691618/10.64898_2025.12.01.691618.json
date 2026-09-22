@@ -1,0 +1,268 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.64898/2025.12.01.691618",
+  "title": "Structural mechanisms of drebrin-mediated F-actin network modulation",
+  "doi": "10.64898/2025.12.01.691618",
+  "abstract": "Drebrin modulates F-actin networks and links them to other intracellular components, regulating crucial processes including neuritogenesis, synaptic plasticity, virus internalisation and cancer invasion. Using single-particle cryo-EM we characterise drebrin’s interaction with F-actin through two separate conserved actin binding domains (ABD1 and ABD2), revealing structural bases for its F-actin-modulating properties. We describe a multimodal interaction where drebrin’s ABD1 can adopt two conformations and a long flexible loop connecting to ABD2 allows the two ABDs to occupy multiple relative positions along F-actin. Despite harbouring two separated ABDs, we find that drebrin is not a strong direct F-actin bundler. Drebrin’s ABDs bind across multiple actin protomers and their subdomains and modify the longitudinal inter-protomer interface, explaining their F-actin stabilising properties. Furthermore, we show drebrin’s binding site on F-actin is shared with other critical actin-binding and regulatory proteins, explaining their competitive displacement.",
+  "authors": [
+    "Zhao W",
+    "Abis G",
+    "Oozeer F",
+    "Mulvaney T",
+    "Nagar N",
+    "Topf M",
+    "Gordon-Weeks P",
+    "Conte M",
+    "Atherton J"
+  ],
+  "published_date": "2025-12-02",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.64898/2025.12.01.691618",
+  "pdf_url": "https://www.biorxiv.org/content/10.64898/2025.12.01.691618.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR1232870",
+    "raw_record": {
+      "id": "PPR1232870",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1232870"
+        ]
+      },
+      "doi": "10.64898/2025.12.01.691618",
+      "title": "Structural mechanisms of drebrin-mediated F-actin network modulation",
+      "authorString": "Zhao W, Abis G, Oozeer F, Mulvaney T, Nagar N, Topf M, Gordon-Weeks P, Conte M, Atherton J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhao W",
+            "lastName": "Zhao",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Randall Centre for Cell and Molecular Biophysics, - New Hunt’s House, Guy’s Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abis G",
+            "lastName": "Abis",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Randall Centre for Cell and Molecular Biophysics, - New Hunt’s House, Guy’s Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Oozeer F",
+            "lastName": "Oozeer",
+            "initials": "F",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Developmental Neurobiology, - New Hunt’s House, Guy’s Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mulvaney T",
+            "lastName": "Mulvaney",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nagar N",
+            "lastName": "Nagar",
+            "initials": "N",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Topf M",
+            "lastName": "Topf",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": ", ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Gordon-Weeks P",
+            "lastName": "Gordon-Weeks",
+            "firstName": "PR",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4738-4246"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Centre for Developmental Neurobiology, - New Hunt’s House, Guy’s Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Conte M",
+            "lastName": "Conte",
+            "firstName": "MR",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Randall Centre for Cell and Molecular Biophysics, - New Hunt’s House, Guy’s Campus , ,"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Atherton J",
+            "lastName": "Atherton",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Randall Centre for Cell and Molecular Biophysics, - New Hunt’s House, Guy’s Campus , ,"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4738-4246"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2025",
+      "abstractText": "Drebrin modulates F-actin networks and links them to other intracellular components, regulating crucial processes including neuritogenesis, synaptic plasticity, virus internalisation and cancer invasion. Using single-particle cryo-EM we characterise drebrin’s interaction with F-actin through two separate conserved actin binding domains (ABD1 and ABD2), revealing structural bases for its F-actin-modulating properties. We describe a multimodal interaction where drebrin’s ABD1 can adopt two conformations and a long flexible loop connecting to ABD2 allows the two ABDs to occupy multiple relative positions along F-actin. Despite harbouring two separated ABDs, we find that drebrin is not a strong direct F-actin bundler. Drebrin’s ABDs bind across multiple actin protomers and their subdomains and modify the longitudinal inter-protomer interface, explaining their F-actin stabilising properties. Furthermore, we show drebrin’s binding site on F-actin is shared with other critical actin-binding and regulatory proteins, explaining their competitive displacement.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Biotechnology and Biological Sciences Research Council",
+            "grantId": "BB/V006568/1",
+            "orderIn": 0
+          },
+          {
+            "agency": "Wellcome Trust",
+            "grantId": "206175/Z/17/Z",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.64898/2025.12.01.691618"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR1232870"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR1232870&type=FILE&fileName=EMS214892-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "42337253",
+            "reference": "Nature communications. \n    2026 Jun;:",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS214892",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb",
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2026-05-19",
+      "firstPublicationDate": "2025-12-02",
+      "firstIndexDate": "2026-05-19",
+      "fullTextReceivedDate": "2026-07-14",
+      "hasEvaluations": "N"
+    }
+  }
+}

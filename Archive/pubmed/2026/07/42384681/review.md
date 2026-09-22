@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (main text only; supplementary figures and notes referenced but not provided)
+- **Assessment boundary** Scientific claims, model formulation, results as presented in the main text; supplementary materials not independently verified
+- **Shared manuscript claim summary** The authors propose that multicomponent surface condensates, modeled via mean-field Flory–Huggins theory with exchangeable species, can act as classifiers that map surface input compositions to distinct output species via phase separation. They demonstrate linear classification with input–output mixtures, show that hidden species expand capacity to nonlinear decision boundaries through the formation of multiple "encrypted" phases, demonstrate adaptability by retuning reservoir chemical potentials, and validate mean-field predictions in 3D lattice Monte Carlo simulations.
+- **Visible evidence base** Main text figures (Figs. 1–7), equations (Eqs. 1–13), in-text references to SI Appendix figures and notes
+- **Missing materials affecting confidence** SI Appendix (all supplementary notes and figures), code repository contents, training hyperparameters, full parameter sets for trained models, detailed lattice simulation parameters
+
+## Reviewer
+- **Overall assessment** This manuscript presents a conceptually interesting and timely framework linking phase separation physics to decision-making and classification. The core idea, that multicomponent condensates can be "trained" to perform classification tasks, is novel and likely to stimulate further work at the interface of physical chemistry, biophysics, and machine learning. The model is clearly formulated and the results are presented in a logical progression from simple to complex tasks. However, several technical concerns limit the strength of the claims as currently presented. The analytical results are only sketched in the main text, the saturation behavior with hidden species is not fully explained, the comparison with prior work (ref. 42) is not quantitatively developed, and the biological relevance claims require more careful framing. The manuscript would benefit from additional analysis and clarification before the case is fully established.
+- **Who would be interested in the results, and why** Researchers in biological phase separation and condensate biology, particularly those interested in gene regulation and signaling; theorists working on biomolecular computation and information processing; and the emerging community at the interface of soft matter physics and machine learning. The demonstration that condensates can perform classification tasks and that hidden species enable modular, adaptable representations will be of broad interest to these communities.
+- **Major strengths** 1) The conceptual framing of condensates as computational elements rather than passive concentrators is fresh and timely. 2) The model is minimal and tractable, with clear physical assumptions stated. 3) The progression from linear to nonlinear classification tasks is pedagogically effective. 4) The demonstration of adaptability via reservoir tuning without changing interactions is an elegant and biologically plausible result. 5) The validation in 3D lattice simulations strengthens the generality of the mean-field results.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "our theory predicts that liquids with only input and output species can only typically encode linear decision boundaries in input space" and that the addition of hidden species enables nonlinear boundaries.
+  - **Evidence pointer** Results section "Hidden Species Expand Capacity for Nonlinear Complex Decisions"; SI Appendix, Supplementary Note 3 (not provided)
+  - **Concern** The analytical argument for the linear-boundary limitation and the mechanism by which hidden species overcome this limitation is only briefly described in the main text. The key claim that hidden species expand expressivity rests on the SI Appendix note, which was not available for review. Without a clear statement of the assumptions and derivation, the reader cannot assess the generality of this result. Is the linear-boundary result a rigorous theorem or a heuristic observation? What specific properties of hidden species enable nonlinear boundaries, and are there conditions under which this fails?
+  - **Why it matters** This is the central theoretical contribution of the paper. If the analytical framework is not clearly established, the subsequent numerical results lack a firm foundation.
+  - **Resolution test** Provide the full derivation in the main text or a clearly summarized version in the SI that is accessible to the reader. State the assumptions explicitly and discuss the conditions under which the linear-boundary result holds or fails.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "classification power eventually saturates with more hidden nodes" and suggest this "could arise from a limitation in our optimization formulation" or "a more fundamental limit" from competing physical constraints.
+  - **Evidence pointer** Results section "Hidden Species Expand Capacity by Encoding Multiple Modular, Encrypted Phases"; Fig. 4A
+  - **Concern** The saturation behavior is presented as an empirical observation without a clear mechanistic explanation. The two proposed explanations (optimization limitation vs. fundamental physical limit) are not distinguished. This distinction matters for the broader claim that condensates are useful computational elements: if the saturation is a fundamental physical limit, it constrains what is achievable; if it is an optimization artifact, better training might overcome it.
+  - **Why it matters** The saturation behavior directly impacts the practical utility and biological relevance of the proposed framework. A clear understanding of its origin would strengthen the paper's conclusions.
+  - **Resolution test** Perform additional experiments to distinguish the two hypotheses, such as varying the optimization algorithm, increasing training epochs, or systematically varying the number of hidden species and measuring the loss landscape structure. Alternatively, provide a theoretical argument for why saturation is expected from the physics.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Technical soundness
+  - **Claim pointer** The authors claim that "changing the potential of a few key hidden species is sufficient to finetune the same molecular mixture to perform distinct tasks" and that "liquids with randomly chosen and fixed interactions χ contain the ability to model both linear and nonlinear decision boundaries."
+  - **Evidence pointer** Results section "Changing Reservoir Composition of Hidden-Species Drives Solution of New Classification Tasks"; Fig. 5
+  - **Concern** The mechanism by which reservoir tuning alone can repurpose a trained network is not explained. How are the "key" hidden species identified? Is there a systematic procedure for choosing which chemical potentials to adjust, or is this done by trial and error? For the random-interaction case, the performance decreases with task complexity, but the reasons for this decrease are not analyzed. The comparison with the Elowitz work (refs. 4, 58) is mentioned but not developed quantitatively.
+  - **Why it matters** The adaptability claim is a key selling point of the framework. Without a clear understanding of how and why reservoir tuning works, the practical implications are unclear.
+  - **Resolution test** Provide a systematic analysis of the reservoir-tuning procedure, including how key species are identified and how the number of tunable species affects performance. Discuss the limits of this approach and compare more explicitly with the Elowitz framework.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Scientific importance
+  - **Claim pointer** The authors state that "lattice liquids broadly encode similar classification boundaries as their mean-field counterparts" but with "more continuous variation" near decision manifolds.
+  - **Evidence pointer** Results section "Mean-Field Solutions Translate to Successful Classifiers in 3D Lattice Liquids"; Fig. 7
+  - **Concern** The comparison between mean-field and lattice results is qualitative. The authors note differences (blurring near boundaries, lower asymptotic performance) but do not quantify the agreement or systematically explore the parameter regimes where the mean-field predictions hold. The rescaling of interactions to account for coordination number is mentioned but not justified in detail.
+  - **Why it matters** The claim that mean-field designs transfer to more realistic models is important for the experimental relevance of the work. A more quantitative comparison would strengthen this claim.
+  - **Resolution test** Provide quantitative metrics for the agreement between mean-field and lattice results (e.g., classification accuracy as a function of system size, temperature, or interaction strength). Discuss the conditions under which the mean-field approximation is expected to break down.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Introduction and model formulation
+  - **Evidence pointer** Fig. 1; Eqs. 1–8
+  - **Issue** The connection between the biological motivation (e.g., gene regulation) and the abstract classification framework could be made more explicit. The reader is told that condensates can "discriminate between subtly different surfaces" but the mapping from biological inputs (e.g., transcription factor concentrations) to model inputs (volume fractions) is not discussed in detail.
+  - **Required correction** Add a brief paragraph or figure panel explicitly mapping biological scenarios to the model variables, clarifying what "input," "output," and "hidden" species correspond to in a concrete biological example.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Model formulation
+  - **Evidence pointer** Eq. 8 and surrounding text
+  - **Issue** The dynamical model in Eq. 8 is described as "near-equilibrium relaxation" but the choice of mobility matrix D and the timescale separation between species are not discussed. The assumption that solvent dynamics are much faster than solutes is stated but not justified.
+  - **Required correction** Briefly justify the choice of mobility matrix and discuss the timescale assumptions. If the steady state is independent of D, state this explicitly.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Technical soundness
+  - **Affected element** Training procedure
+  - **Evidence pointer** Eqs. 9–13; Fig. 2B
+  - **Issue** The training procedure is described but several details are missing: the number of training epochs, the learning rate schedule, the initialization of χ and μ, and the choice of batch size. The authors state that "several thousand training epochs" were used, but this is vague.
+  - **Required correction** Provide the full training hyperparameters in the SI or as a table in the main text.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Readability for nonspecialists
+  - **Affected element** Results section on encrypted phases
+  - **Evidence pointer** Fig. 4B; text describing "encrypted" phases
+  - **Issue** The term "encrypted" is evocative but not defined precisely. The relationship between "encrypted phases" and the more standard concept of coexisting phases in multicomponent mixtures is not clarified.
+  - **Required correction** Define "encrypted" in operational terms (e.g., phases that differ in hidden species composition but not in output species composition) and relate it to the standard phase behavior of multicomponent mixtures.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Scientific importance
+  - **Affected element** Discussion of biological relevance
+  - **Evidence pointer** Discussion section
+  - **Issue** The biological implications are discussed in general terms, but the authors do not address potential criticisms, such as whether the timescales of phase separation are compatible with the timescales of gene regulation, or whether the required number of species is realistic in a cellular context.
+  - **Required correction** Add a brief discussion of the feasibility of the proposed mechanism in living cells, addressing timescales, concentrations, and the number of distinct molecular species required.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (analytical foundation for linear-boundary limitation and hidden-species mechanism) is the most critical. The main text relies heavily on SI Appendix, Supplementary Note 3 for the theoretical framework, but this material was not available for review. Without a clear statement of the analytical results, the central claim of the paper is not fully supported by the visible evidence.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The framing of condensates as computational elements performing classification is a novel contribution that extends prior work on condensate physics and biological computation.
+  - **Scientific importance** Moderate to high. The results suggest a new role for phase separation in cellular information processing, which could have broad implications for gene regulation and signaling. However, the biological relevance is not yet demonstrated experimentally, and the saturation behavior limits the practical scope.
+  - **Interdisciplinary readership** High. The work bridges soft matter physics, biophysics, and machine learning, and should appeal to readers across these fields.
+  - **Technical soundness** Moderate. The model is clearly formulated and the numerical methods are appropriate, but the analytical results are not fully presented in the main text, and the comparison with prior work is not quantitative.
+  - **Readability for nonspecialists** Good. The paper is generally well written and the figures are clear. However, some concepts (e.g., "encrypted phases," the mapping from biology to model variables) could be explained more explicitly for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core idea is novel and the results are potentially important, but the analytical foundation needs to be more clearly presented, and the saturation behavior and lattice-model comparison need additional analysis. If these issues are addressed, the paper would be a strong contribution to the field.
+
+## Risk / unsupported claims
+- The claim that "liquids with only input and output species can only typically encode linear decision boundaries" is not fully supported in the main text; the analytical derivation is in the SI Appendix, which was not provided.
+- The claim that "hidden species improve expressivity through encoding novel phases" is supported by numerical results but the mechanism is not explained in the main text.
+- The claim that "changing the potential of a few key hidden species is sufficient to finetune the same molecular mixture to perform distinct tasks" is demonstrated for specific cases but the general procedure for identifying key species is not described.
+- The claim that "lattice liquids broadly encode similar classification boundaries as their mean-field counterparts" is based on qualitative comparison; quantitative metrics are not provided.
+- The biological relevance claims (e.g., gene regulation) are speculative and not experimentally validated; they should be framed as hypotheses rather than conclusions.

@@ -1,0 +1,34 @@
+{
+  "source": "arxiv",
+  "source_id": "2508.14800v2",
+  "title": "Equipartition and the temperature of maximum density of TIP4/2005 water",
+  "doi": "",
+  "abstract": "We simulate TIP4P/2005 water in the temperature range of 257 K to 318 K with time-steps $δ=$ 0.25, 0.50, 2.00, and 4.00 fs. The density-temperature behavior obtained using 0.25 or 0.50 fs are in excellent agreement with each other but differ from those obtained using time-steps that have been shown earlier to lead to a breakdown of equipartition. The temperature of maximum density (TMD) is 277.15 K with $δt = 0.25\\;\\mathrm{or}\\; 0.50$ fs, but is shifted to progressively lower values for longer time-steps, a trend that holds for different thermostat/barostat combinations. Enhancing the water-water dispersion interaction, as has been recommended for simulating disordered proteins in TIP4P/2005, degrades the description of the liquid-vapor phase envelope. A key takeaway from this study is that using sufficiently short time-steps ($\\leq 0.5$ fs) to preserve equipartition is essential for obtaining meaningful liquid water properties and for producing reliable data to parametrize biomolecular simulation models, as correct-ensemble sampling is fundamental to ensure reproducibility across codes and simulation alogrithms.",
+  "authors": [
+    "Dilipkumar N. Asthagiri",
+    "Thiago Pinheiro dos Santos",
+    "Thomas L. Beck"
+  ],
+  "published_date": "2025-08-20T15:51:57Z",
+  "updated_date": "2025-10-18T19:45:26Z",
+  "journal": "",
+  "category": "cond-mat.soft, physics.chem-ph",
+  "landing_url": "https://arxiv.org/abs/2508.14800v2",
+  "pdf_url": "https://arxiv.org/pdf/2508.14800v2",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(all:\"intrinsically disordered protein\"  OR all:\"intrinsically disordered region\"  OR all:\"intrinsically disordered\"  OR all:\"disordered protein\"  OR all:\"natively unfolded\" OR all:\"unstructured protein\"  OR all:\"biomolecular condensate\") AND  (all:\"protein-protein interaction\"  OR all:interaction  OR all:interact OR all:bind OR all:complex OR all:partner  OR all:interface) AND  (all:\"deep learning\"  OR all:\"machine learning\"  OR all:\"neural network\" OR all:\"graph neural network\"  OR all:\"language model\" OR all:transformer  OR all:\"diffusion model\"  OR all:generative  OR all:\"flow matching\" OR all:\"molecular dynamics\"  OR all:simulation  OR all:docking  OR all:\"binding affinity\" OR all:prediction OR all:alphafold  OR all:esmfold  OR all:rosetta)\n",
+  "version": "2",
+  "keywords": [
+    "cond-mat.soft",
+    "physics.chem-ph"
+  ],
+  "extra": {
+    "entry_id": "http://arxiv.org/abs/2508.14800v2",
+    "raw_categories": [
+      "cond-mat.soft",
+      "physics.chem-ph"
+    ],
+    "journal_ref": ""
+  }
+}

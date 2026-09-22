@@ -1,0 +1,115 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract, introduction, methods, results, discussion, references)
+- **Assessment boundary** Scientific and technical evaluation of the claims, methodology, and evidence presented in the manuscript
+- **Shared manuscript claim summary** The authors present a dual-head deep learning architecture ("Twin Peaks") that predicts protein-protein binding affinity (ΔG) and mutation-induced binding affinity changes (ΔΔG) using only protein sequence information, without requiring structural data. The model uses ESM3 embeddings, a mutation-aware Sliced Wasserstein Embedding pooling layer, a mutation-specific cross-attention mechanism, and two prediction heads sharing a representation network. The authors report validation Pearson correlations of 0.638 for ΔG and 0.485 for ΔΔG, and claim superior generalization on standardized benchmarks compared to structure-based methods, particularly for viral proteins.
+- **Visible evidence base** Abstract, introduction, methods description (partial, with some equations missing), experimental setup, results tables (referenced but not shown), ablation study summary, discussion
+- **Missing materials affecting confidence** Actual tables (Tables 1, 2, 3) with numerical results are referenced but not provided in the text. Figure 1 (architecture diagram) is referenced but not shown. Several equations in Section 3.1 and 3.2 are missing from the text. Dataset construction details are partially described but the exact filtering criteria are not fully specified. Baseline comparison methodology is not described in detail.
+
+## Reviewer
+- **Overall assessment** The manuscript addresses a relevant problem in computational biology: predicting protein-protein binding affinity and mutation effects from sequence alone. The dual-head architecture concept is sensible and the motivation for structure-free prediction is well articulated, particularly for viral proteins and intrinsically disordered proteins. However, the manuscript as presented has significant gaps in evidence reporting. The key results tables are not visible, several methodological equations are missing, and the reported validation metrics are modest (Pearson 0.485 for ΔΔG). The claim of "superior generalization" on standardized benchmarks cannot be assessed without seeing the comparison data. The held-out set performance (Pearson 0.299) is notably lower than the validation performance, raising questions about generalization that are only partially addressed by the authors' explanation regarding combined-chain representations. The work is potentially interesting but the current presentation does not establish the case convincingly.
+- **Who would be interested in the results, and why** Computational biologists working on protein-protein interaction prediction, researchers in immunoinformatics and vaccine design who need structure-free tools for viral proteins, protein engineers interested in mutation effect prediction, and developers of deep learning methods for biological sequence analysis would find this work relevant. The potential to screen mutations rapidly without structural data has practical appeal for emerging pathogen monitoring.
+- **Major strengths** The problem is well motivated, particularly the argument about viral proteins being underrepresented in structure prediction training data. The dual-head architecture that jointly predicts ΔG and ΔΔG from a shared representation is a reasonable design choice that could reduce methodological inconsistency. The mutation-aware attention mechanism is a thoughtful contribution. The use of ESM3 embeddings is current and appropriate. The domain-based splitting strategy (ECOD family-level) is a rigorous approach to preventing data leakage.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence completeness
+  - **Claim pointer** The manuscript claims specific performance metrics (validation Pearson 0.638 for ΔG, 0.485 for ΔΔG; held-out Pearson 0.299; benchmark Pearson 0.800 for ΔG and 0.496 for ΔΔG) but the tables containing these results are not visible in the provided material.
+  - **Evidence pointer** Tables 1, 2, 3 (referenced in text, not provided)
+  - **Concern** The core quantitative results of the paper are presented only as references to tables that are not included in the provided manuscript text. Without the actual numerical data, including confidence intervals, sample sizes, and baseline comparisons, the performance claims cannot be evaluated. The discrepancy between validation performance (0.485) and held-out performance (0.299) for ΔΔG is substantial and requires detailed examination of the results tables to understand.
+  - **Why it matters** The central claim of the paper is that Twin Peaks achieves competitive or superior performance compared to existing methods. This claim rests entirely on the numerical results in the missing tables. Without these data, the scientific case is not established.
+  - **Resolution test** Provide the full tables with all numerical results, including per-method comparisons, standard deviations or confidence intervals, and clearly state the evaluation protocol for each benchmark.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Methodological completeness
+  - **Claim pointer** The methods section describes several key components (problem formulation equations, SWE pooling equations, cross-attention mechanism equations) but the actual equations are missing from the text.
+  - **Evidence pointer** Section 3.1, Section 3.2 (equations referenced but not shown)
+  - **Concern** The mathematical formulations for the prediction tasks, the mutation-aware weighting mechanism, and the cross-attention bias are described in words but the actual equations are absent. This makes it impossible to reproduce the method or fully understand the architectural details. For a methods-focused paper, this is a critical omission.
+  - **Why it matters** Reproducibility is a core requirement for computational methods papers. Without the precise mathematical definitions, other researchers cannot implement or build upon the proposed architecture.
+  - **Resolution test** Include all equations in full, with clear notation and dimension specifications for every tensor and parameter.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalization claim
+  - **Claim pointer** The authors state that Twin Peaks "demonstrated superior generalization on standardized benchmarks compared to other structure and sequence-based approaches" and "outperforms structure-based methods" on viral protein data.
+  - **Evidence pointer** Section 5.2, Table 2 (not provided)
+  - **Concern** The claim of superior generalization is made despite the held-out set performance being substantially lower than validation performance. The authors attribute this to combined-chain representations in 70% of held-out complexes, but this explanation is not quantified or tested. Additionally, the comparison to other methods is not visible, so it is unclear which baselines were used, whether they were retrained, and what the evaluation protocol was.
+  - **Why it matters** The generalization claim is a key differentiator for this work. If the model does not generalize well to truly novel protein families, its practical utility is limited. The current evidence is insufficient to support the claim.
+  - **Resolution test** Provide the full benchmark comparison table with all baseline methods, their configurations, and the evaluation protocol. Additionally, perform an analysis of held-out performance stratified by whether complexes contain combined chains, to test the authors' explanation.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Baseline comparison rigor
+  - **Claim pointer** The manuscript claims competitive or superior performance compared to structure-based methods like Prodigy, FoldX, and MutaBind2, and sequence-based methods like DDGemb.
+  - **Evidence pointer** Section 2.1, Section 2.2, Section 5.2
+  - **Concern** The comparison methodology is not described. It is unclear whether the baseline methods were run with their default parameters, whether the same train-test splits were used, and whether the baselines were given the same data. For structure-based methods, it is unclear what structures were used (experimental or predicted) and how missing structures were handled.
+  - **Why it matters** Fair benchmarking is essential for validating the claim of superiority. Without a clear description of the comparison protocol, the reported improvements could be due to favorable evaluation conditions rather than genuine methodological advances.
+  - **Resolution test** Describe the full evaluation protocol for all baselines, including parameter settings, data preparation, and any preprocessing steps. Consider using established benchmark suites with standardized protocols.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 3.2, description of ESM3 embedding dimension
+  - **Evidence pointer** Section 3.2
+  - **Issue** The embedding dimension is stated as d = 1152, but it is unclear whether this is the raw ESM3 output dimension or a projected dimension. ESM3 models have different output sizes depending on the variant used.
+  - **Required correction** Specify which ESM3 model variant was used and whether any dimensionality reduction was applied before the SWE pooling layer.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 4.1, dataset description
+  - **Evidence pointer** Section 4.1
+  - **Issue** The dataset description states 8,653 total samples with 6,732 training, 856 validation, and 1,065 held-out, but these numbers sum to 8,653. However, the text also states that SKEMBI contributed 4,681 training samples and 746 validation samples, with PDBbind providing the remainder. It is unclear how the two datasets were combined and whether there is overlap between them.
+  - **Required correction** Clarify the data merging process, including how duplicate complexes across SKEMPI and PDBbind were handled, and provide a breakdown of sample counts per dataset for each split.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 4.1, COVID dataset description
+  - **Evidence pointer** Section 4.1
+  - **Issue** The COVID dataset is described as containing mutations "Q493R, S477N, E484K, N501Y" but the total number of mutations and the source of the deep mutational scanning data are not specified.
+  - **Required correction** Provide the full dataset size, the range of ΔΔG values, and the citation for the deep mutational scanning experiment.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Presentation
+  - **Affected element** Section 5.1, hyperparameter optimization description
+  - **Evidence pointer** Section 5.1
+  - **Issue** The hyperparameter optimization is described but the search space is not fully specified. It is unclear how many configurations were tested and what the selection criterion was (e.g., best validation loss vs. best correlation).
+  - **Required correction** Provide the full hyperparameter search space, the number of trials, and the model selection criterion.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Technical accuracy
+  - **Affected element** Section 3.2, description of cross-attention
+  - **Evidence pointer** Section 3.2
+  - **Issue** The text states that the cross-attention mechanism processes "paired protein sequences directly" but does not clarify how the two sequences are paired or whether the attention is bidirectional between chains.
+  - **Required correction** Clarify the exact cross-attention formulation, including how queries, keys, and values are derived from the two chains.
+  - **Concern ID** R1-m6
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Section 3.3, loss function
+  - **Evidence pointer** Section 3.3
+  - **Issue** The loss function is described as a weighted combination of MSE losses but the exact formula is not shown. The adaptive scaling for samples without wild-type data is described but not formalized.
+  - **Required correction** Provide the full loss function equations, including the adaptive scaling mechanism.
+  - **Concern ID** R1-m7
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Section 5.3, ablation study
+  - **Evidence pointer** Section 5.3
+  - **Issue** The ablation study results are described qualitatively but the actual numbers are not provided. The statement that "disabling the dual-head architecture improved ΔΔG correlation but significantly reduced ΔG performance" is surprising and requires numerical support.
+  - **Required correction** Provide the full ablation table with all numerical results.
+
+## Technical failings that need to be addressed before the case is established
+- Missing equations in Sections 3.1 and 3.2 that define the core methodology
+- Missing tables (Tables 1, 2, 3) that contain the primary results
+- Incomplete description of the baseline comparison methodology
+- Lack of statistical significance testing or confidence intervals for reported correlations
+- The held-out performance drop (0.299 vs. 0.485 for ΔΔG) is not adequately explained or analyzed
+
+## Assessment against Nature-style criteria
+- **Originality** Moderate. The dual-head architecture for simultaneous ΔG and ΔΔG prediction is a reasonable contribution, and the mutation-aware attention mechanism has some novelty. However, the individual components (ESM embeddings, cross-attention, SWE pooling) are all established techniques. The combination is new but not transformative.
+- **Scientific importance** Moderate. Structure-free prediction of binding affinity and mutation effects is a useful capability, particularly for viral proteins. However, the modest performance metrics (ΔΔG Pearson 0.485 on validation, 0.299 on held-out) suggest that the method is not yet at the level where it could replace experimental measurements or provide reliable predictions for critical applications like vaccine design.
+- **Interdisciplinary readership** Limited. The work is primarily of interest to computational biologists and machine learning researchers working on protein interactions. The potential applications to immunoinformatics are mentioned but not demonstrated in a way that would attract a broader biological or clinical audience.
+- **Technical soundness** Cannot be fully assessed due to missing equations and tables. The described architecture is plausible, and the ECOD-based splitting is a strength. However, the lack of visible results and the unexplained performance gap between validation and held-out sets are concerns.
+- **Readability for nonspecialists** The manuscript is written in a way that is accessible to computational biologists but would be challenging for experimental biologists or clinicians. The motivation is clear, but the methods section assumes familiarity with deep learning terminology and protein biophysics concepts.
+
+## Recommendation posture
+Currently not established from the provided evidence. The manuscript has a reasonable motivation and a plausible architecture, but the missing equations and tables prevent evaluation of the core claims. The authors should provide the complete methods with all equations, the full results tables, and a detailed description of the baseline comparison protocol. Additionally, the held-out performance gap needs to be analyzed and explained more rigorously. If these issues are addressed and the results support the claims, the work could be of interest to the computational biology community, though the modest performance metrics may limit its broader impact.

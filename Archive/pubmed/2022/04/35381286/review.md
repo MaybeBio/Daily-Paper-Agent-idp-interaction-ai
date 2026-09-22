@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no access to full text, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report that 14-3-3zeta is recruited into tau liquid droplets formed by liquid-liquid phase separation (LLPS) and regulates tau LLPS in vitro. They claim that 14-3-3zeta alters droplet amount and size without affecting tau mobility inside droplets, and that regulation occurs via electrostatic and hydrophobic interactions involving the proline-rich domain and microtubule-binding domain of tau. They further claim that the disordered C-terminal tail of 14-3-3zeta, rather than its amphipathic binding groove, is the key region mediating this effect.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or methodological descriptions provided
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, experimental protocols, statistical analyses, molecular dynamics simulation parameters and results, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract presents a potentially interesting finding that 14-3-3zeta modulates tau LLPS through a previously underappreciated region of the protein. However, the evidence base is limited to a summary of results without quantitative detail or methodological transparency. The mechanistic claims, particularly the role of the C-terminal tail and the molecular dynamics simulation component, cannot be adequately evaluated from the abstract alone. The work may be of interest to researchers studying tau pathology and LLPS, but the current presentation does not establish the case with sufficient rigor.
+- **Who would be interested in the results, and why** Researchers in neurodegeneration, particularly those studying tau aggregation and Alzheimer's disease, would be interested in the potential role of 14-3-3 proteins in modulating tau phase behavior. Additionally, investigators working on LLPS mechanisms and protein-protein interactions in cellular physiology would find the proposed regulatory mechanism relevant.
+- **Major strengths** The study addresses a timely and important question regarding the regulation of tau LLPS by a ubiquitous binding partner. The identification of a specific region of 14-3-3zeta, the C-terminal tail, as functionally important is a novel and potentially significant contribution. The combination of in vitro assays with molecular dynamics simulation suggests a multi-pronged approach.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that 14-3-3zeta regulates tau LLPS via electrostatic and hydrophobic interactions with the proline-rich domain and microtubule-binding domain of tau.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract states that mechanistic studies reveal these interactions, but no experimental evidence is presented to support the specific roles of electrostatic versus hydrophobic forces, nor the involvement of the two tau domains. Without details on mutagenesis, binding assays, or simulation validation, this claim is unsupported.  
+  - **Why it matters** The mechanistic basis is the central contribution of the study. If the evidence is not robust, the conclusion that 14-3-3zeta regulates tau LLPS through these specific interactions is not established.  
+  - **Resolution test** Provide experimental data such as domain deletion or point mutation experiments, binding affinity measurements, and simulation results that directly test the contribution of each interaction type and tau domain.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that the disordered C-terminal tail of 14-3-3zeta, rather than the amphipathic binding groove, plays a key role in regulating tau LLPS.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** This is a surprising claim that contradicts the well-established function of the amphipathic binding groove in 14-3-3 protein interactions. The abstract provides no data on how this conclusion was reached, such as truncation constructs, competitive inhibition, or comparative assays.  
+  - **Why it matters** If true, this finding would challenge current understanding of 14-3-3 function. However, the claim requires strong evidence to overcome prior expectations, and none is visible.  
+  - **Resolution test** Show data from experiments using 14-3-3zeta variants lacking the C-terminal tail or with mutations in the binding groove, demonstrating differential effects on tau LLPS.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that molecular dynamics simulation was used to reveal the mechanism of 14-3-3zeta regulated tau phase separation.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract mentions molecular dynamics simulation but provides no details on the simulation system, force field, timescale, or how simulation results were correlated with experimental observations. The role of simulation in supporting the mechanistic claims is unclear.  
+  - **Why it matters** Simulation results can be highly sensitive to setup and analysis choices. Without transparency, the contribution of the simulation to the conclusions cannot be assessed.  
+  - **Resolution test** Describe simulation methods in the full text, including system construction, equilibration, production runs, and analysis, and show how simulation predictions were validated experimentally.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Quantitative reporting  
+  - **Claim pointer** The authors claim that the amount and size of droplets can vary significantly in the presence of 14-3-3zeta, while tau mobility inside droplets is not affected.  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Concern** The abstract reports qualitative changes in droplet amount and size but provides no quantitative measures, such as concentration dependence, droplet size distributions, or fluorescence recovery after photobleaching (FRAP) data for mobility.  
+  - **Why it matters** Quantitative data are essential to establish the magnitude and significance of the observed effects, which is critical for a mechanistic study.  
+  - **Resolution test** Include quantitative measurements with statistical analysis in the full text, such as droplet counts, size histograms, and FRAP recovery curves.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "regulates tau LLPS by electrostatic interactions and hydrophobic interactions" is vague regarding whether these interactions are between 14-3-3zeta and tau or within tau itself.  
+  - **Required correction** Specify the interacting partners and clarify the direction of the interactions.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Background statement  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract states that tau assembles into amyloid filaments under pathological conditions, but does not connect this to the relevance of LLPS in pathology, which would strengthen the motivation.  
+  - **Required correction** Add a sentence linking tau LLPS to potential pathological aggregation to enhance the significance of the study.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "recruited"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "recruited" implies a specific mechanism that may not be supported by the data described.  
+  - **Required correction** Use a more neutral term such as "localized" or "partitioned" unless recruitment is directly demonstrated.  
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The lack of quantitative data, absence of methodological detail for the mechanistic and simulation claims, and the surprising nature of the C-terminal tail finding mean that the central conclusions are not currently supported by the visible evidence.
+- **Assessment against Nature-style criteria**  
+  - Originality: The finding that the C-terminal tail of 14-3-3zeta, rather than the binding groove, mediates tau LLPS regulation is potentially original and could challenge existing paradigms. However, originality is not fully assessable without full context.  
+  - Scientific importance: The topic is of high importance given the role of tau in neurodegeneration and the emerging significance of LLPS. The potential link between 14-3-3 proteins and tau phase behavior could have broad implications.  
+  - Interdisciplinary readership: The work bridges biophysics, cell biology, and neurobiology, which could attract a broad audience. However, the abstract does not clearly articulate the broader relevance beyond tau and 14-3-3.  
+  - Technical soundness: Not assessable from the abstract. The lack of methodological detail for both experiments and simulation prevents evaluation of technical rigor.  
+  - Readability for nonspecialists: The abstract is generally readable but uses specialized terms without sufficient context, which may limit accessibility.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents an interesting hypothesis, but the lack of quantitative data, methodological transparency, and direct evidence for the mechanistic claims means that the case is not made. The authors should provide the full manuscript with detailed experimental and simulation methods to allow proper evaluation.
+
+## Risk / unsupported claims
+- The claim that 14-3-3zeta regulates tau LLPS via electrostatic and hydrophobic interactions with specific tau domains is unsupported without experimental evidence.
+- The claim that the disordered C-terminal tail of 14-3-3zeta plays a key role is unsupported and surprising, requiring strong evidence.
+- The role of molecular dynamics simulation in revealing the mechanism is unassessable due to lack of methodological detail.
+- The statement that tau mobility inside droplets is not affected is unquantified and cannot be evaluated.
+- The general claim that 14-3-3 proteins may regulate LLPS of their binding partners is speculative and not directly supported by the data presented.

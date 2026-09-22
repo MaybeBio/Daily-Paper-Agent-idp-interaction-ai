@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34285781",
+  "title": "The diversity of molecular interactions involving intrinsically disordered proteins: A molecular modeling perspective.",
+  "authors": "Clerc, Ilinka; Sagar, Amin; Barducci, Alessandro; Sibille, Nathalie; Bernado, Pau; Cortes, Juan",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2021-07-22",
+  "window": {
+    "start": "2021-07-19",
+    "end": "2021-07-25"
+  },
+  "score": 8,
+  "one_liner_zh": "该综述从分子建模视角系统梳理了无序蛋白/IDR参与的多类型分子互作架构（含相分离凝聚体）及对应的全原子/粗粒化计算策略，虽为综述但对象、互作、方法三者齐备且聚焦机制建模，对本课题有直接参考价值。",
+  "abstract": "Intrinsically Disordered Proteins and Regions (IDPs/IDRs) are key components of a multitude of biological processes. Conformational malleability enables IDPs/IDRs to perform very specialized functions that cannot be accomplished by globular proteins. The functional role for most of these proteins is related to the recognition of other biomolecules to regulate biological processes or as a part of signaling pathways. Depending on the extent of disorder, the number of interacting sites and the type of partner, very different architectures for the resulting assemblies are possible. More recently, molecular condensates with liquid-like properties composed of multiple copies of IDPs and nucleic acids have been proven to regulate key processes in eukaryotic cells. The structural and kinetic details of disordered biomolecular complexes are difficult to unveil experimentally due to their inherent conformational heterogeneity. Computational approaches, alone or in combination with experimental data, have emerged as unavoidable tools to understand the functional mechanisms of this elusive type of assemblies. The level of description used, all-atom or coarse-grained, strongly depends on the size of the molecular systems and on the timescale of the investigated mechanism. In this mini-review, we describe the most relevant architectures found for molecular interactions involving IDPs/IDRs and the computational strategies applied for their investigation.",
+  "abstract_zh": "固有无序蛋白质及区域（IDPs/IDRs）是众多生物过程中的关键组成部分。构象可塑性使IDPs/IDRs能够执行球状蛋白质无法完成的特殊功能。这些蛋白质大多通过与其它生物分子识别来调节生物过程或作为信号通路的一部分发挥作用。根据无序程度、相互作用位点数量及伙伴类型的不同，所形成的组装体可能呈现截然不同的结构。近期研究表明，由多个IDPs和核酸组成的具有液体性质的分子凝聚体在真核细胞中调控关键过程。由于无序生物分子复合物固有的构象异质性，其实验结构及动力学细节难以揭示。计算方法，单独或与实验数据结合，已成为理解这类难以捉摸组装体功能机制不可或缺的工具。所采用的描述水平，无论是全原子还是粗粒化，强烈依赖于分子系统的大小及所研究机制的时间尺度。在本篇小型综述中，我们概述了涉及IDPs/IDRs的分子相互作用中最相关的结构类型及其研究所采用的计算策略。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34285781/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34285781/",
+  "paper_page_path": "papers/pubmed/34285781/index.html"
+}

@@ -1,0 +1,392 @@
+{
+  "identity": {
+    "pmid": "38247186",
+    "doi": "10.1002/smll.202305684",
+    "title": "Protein Binding Leads to Reduced Stability and Solvated Disorder in the Polystyrene Nanoparticle Corona."
+  },
+  "content": {
+    "abstract": "Understanding the conformation of proteins in the nanoparticle corona has important implications in how organisms respond to nanoparticle-based drugs. These proteins coat the nanoparticle surface, and their properties will influence the nanoparticle's interaction with cell targets and the immune system. While some coronas are thought to be disordered, two key unanswered questions are the degree of disorder and solvent accessibility. Here, a model is developed for protein corona disorder in polystyrene nanoparticles of varying size. For two different proteins, it is found that binding affinity decreases as nanoparticle size increases. The stoichiometry of binding, along with changes in the hydrodynamic size, supports a highly solvated, disordered protein corona anchored at a small number of attachment sites. The scaling of the stoichiometry versus nanoparticle size is consistent with disordered polymer dimensions. Moreover, it is found that proteins are destabilized less in the presence of larger nanoparticles, and hydrophobic exposure decreases at lower curvatures. The observations hold for proteins on flat polystyrene surfaces, which have the lowest hydrophobic exposure. The model provides an explanation for previous observations of increased amyloid fibrillation rates in the presence of larger nanoparticles, and it may rationalize how cell receptors can recognize protein disorder in therapeutic nanoparticles.",
+    "keywords": [
+      "interactions",
+      "nanoparticle",
+      "protein corona",
+      "structure"
+    ],
+    "mesh_terms": [
+      "*Polystyrenes/chemistry",
+      "*Nanoparticles/chemistry",
+      "*Protein Binding",
+      "*Protein Corona/chemistry",
+      "Solvents/chemistry",
+      "Hydrophobic and Hydrophilic Interactions",
+      "Particle Size"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Somarathne, Radha P",
+        "Amarasekara, Dhanush L",
+        "Kariyawasam, Chathuri S",
+        "Robertson, Harley A",
+        "Mayatt, Railey",
+        "Gwaltney, Steven R",
+        "Fitzkee, Nicholas C"
+      ],
+      "short_names": [
+        "Somarathne RP",
+        "Amarasekara DL",
+        "Kariyawasam CS",
+        "Robertson HA",
+        "Mayatt R",
+        "Gwaltney SR",
+        "Fitzkee NC"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-3320-4336",
+        "ORCID: 0000-0001-5143-1722",
+        "ORCID: 0000-0002-9702-3756",
+        "ORCID: 0009-0000-1483-272X",
+        "ORCID: 0009-0009-6162-6617",
+        "ORCID: 0000-0002-8993-2140"
+      ],
+      "affiliations": [
+        "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA.",
+        "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA.",
+        "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA.",
+        "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA.",
+        "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA.",
+        "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA.",
+        "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Somarathne, Radha P",
+        "short_name": "Somarathne RP",
+        "identifiers": [
+          "0000-0003-3320-4336"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA."
+        ]
+      },
+      {
+        "full_name": "Amarasekara, Dhanush L",
+        "short_name": "Amarasekara DL",
+        "identifiers": [
+          "0000-0001-5143-1722"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA."
+        ]
+      },
+      {
+        "full_name": "Kariyawasam, Chathuri S",
+        "short_name": "Kariyawasam CS",
+        "identifiers": [
+          "0000-0002-9702-3756"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA."
+        ]
+      },
+      {
+        "full_name": "Robertson, Harley A",
+        "short_name": "Robertson HA",
+        "identifiers": [
+          "0009-0000-1483-272X"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA."
+        ]
+      },
+      {
+        "full_name": "Mayatt, Railey",
+        "short_name": "Mayatt R",
+        "identifiers": [
+          "0009-0009-6162-6617"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA."
+        ]
+      },
+      {
+        "full_name": "Gwaltney, Steven R",
+        "short_name": "Gwaltney SR",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA."
+        ]
+      },
+      {
+        "full_name": "Fitzkee, Nicholas C",
+        "short_name": "Fitzkee NC",
+        "identifiers": [
+          "0000-0002-8993-2140"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Mississippi State University, Mississippi State, MS, 39762, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Small (Weinheim an der Bergstrasse, Germany)"
+    ],
+    "journal_abbrev": [
+      "Small"
+    ],
+    "pub_date": "2024 Jun",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/01/22 06:43",
+    "fetched_at": "2026-09-21 04:29:42"
+  },
+  "links": {
+    "cites": [
+      "42065217",
+      "41594654",
+      "41357964",
+      "41177903",
+      "41100918",
+      "38174900",
+      "37693402"
+    ],
+    "refs": [
+      "36437251",
+      "35981471",
+      "35687044",
+      "35686613",
+      "34813642",
+      "34641335",
+      "34483968",
+      "34432422",
+      "34093472",
+      "33797913",
+      "33495475",
+      "33260436",
+      "33204856",
+      "33171781",
+      "32962378",
+      "32704150",
+      "32541900",
+      "32293877",
+      "32078303",
+      "31714766",
+      "31173836",
+      "30480448",
+      "30240067",
+      "28348716",
+      "28337243",
+      "28024351",
+      "27992410",
+      "27822335",
+      "27783498",
+      "26851677",
+      "26794349",
+      "26794348",
+      "26324751",
+      "25671136",
+      "25599336",
+      "25524420",
+      "24820873",
+      "24779411",
+      "24573329",
+      "24397260",
+      "24338946",
+      "24215427",
+      "24056949",
+      "23859073",
+      "23463168",
+      "23262283",
+      "23237704",
+      "23212421",
+      "22989142",
+      "22984159",
+      "22913793",
+      "22778827",
+      "22721453",
+      "22621430",
+      "22609916",
+      "22485638",
+      "22356488",
+      "22168533",
+      "22004760",
+      "21970466",
+      "21949717",
+      "21705074",
+      "21384550",
+      "21344890",
+      "21341776",
+      "20815007",
+      "20300605",
+      "18809927",
+      "18351591",
+      "17602699",
+      "17559285",
+      "17406547",
+      "17267609",
+      "16766617",
+      "16551101",
+      "16526745",
+      "16042386",
+      "15980491",
+      "15314216",
+      "15314214",
+      "12379842",
+      "11013396",
+      "10600103",
+      "9792743",
+      "8744570",
+      "8535251"
+    ],
+    "similar": [
+      "38247186",
+      "37461509",
+      "33054178",
+      "31021510",
+      "30821961",
+      "29650368",
+      "29066063",
+      "33356335",
+      "27648757",
+      "32821101",
+      "27438349",
+      "18809927",
+      "32913217",
+      "33003950",
+      "36707930",
+      "31980686",
+      "36994581",
+      "36194482",
+      "38224098",
+      "27040442",
+      "27770966",
+      "30219059",
+      "32907583",
+      "31576128",
+      "17267609",
+      "24056901",
+      "29954482",
+      "29453539",
+      "38163549",
+      "33587585",
+      "32022403",
+      "37013898",
+      "28131092",
+      "25014679",
+      "33578167",
+      "30480448",
+      "32948094",
+      "34554750",
+      "27027807",
+      "39864068",
+      "34817983",
+      "31063872",
+      "25599105",
+      "26556312",
+      "33340622",
+      "38783808",
+      "26804616",
+      "33765771",
+      "39591792",
+      "25590257",
+      "26873405",
+      "26209261",
+      "39511193",
+      "33594396",
+      "31004667",
+      "39284320",
+      "32486649",
+      "39082088",
+      "30802594",
+      "37802067",
+      "26218117",
+      "33112593",
+      "31525954",
+      "29621630",
+      "31082511",
+      "35931108",
+      "29096441",
+      "38174900",
+      "23921560",
+      "38741563",
+      "34716644",
+      "32250017",
+      "35981471",
+      "35732233",
+      "26324751",
+      "39805033",
+      "32758605",
+      "38000573",
+      "26984182",
+      "25005681",
+      "28112950",
+      "23692163",
+      "38743506",
+      "33081296",
+      "29926047",
+      "35584036",
+      "31782458",
+      "22356488",
+      "27465202",
+      "26643610",
+      "32495039",
+      "34354203",
+      "23741371",
+      "30799918",
+      "26364560",
+      "39718345",
+      "34859798",
+      "26575243",
+      "33947090",
+      "28186214"
+    ],
+    "review": [
+      "38247186",
+      "29066063",
+      "32821101",
+      "27438349",
+      "27770966",
+      "29954482",
+      "29453539",
+      "33340622",
+      "38783808",
+      "26873405",
+      "30802594",
+      "34716644",
+      "33081296",
+      "32495039"
+    ],
+    "pmc": [
+      "11209821"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38247186/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/smll.202305684",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,83 @@
+## Review setup
+
+- **Input scope** Full preprint text including abstract, main text narrative, and abstract figure description
+- **Assessment boundary** Scientific claims, experimental evidence as reported, and internal consistency of the presented model
+- **Shared manuscript claim summary** The authors report that the major neuronal isoform of CDKL5 contains a C-terminal PDZ domain-binding motif that mediates interactions with PSD-95 and SHANK PDZ domains, recruiting CDKL5 to the postsynaptic density. They further report a direct interaction between the CDKL5 N-terminal kinase domain and the R8 rod domain of talin, and propose a mechanical model whereby talin conformational changes spatially regulate CDKL5 kinase activity within the synapse.
+- **Visible evidence base** Abstract text, abstract figure description, and reference to Supplementary Movie 1. No figures, tables, methods, or experimental data sections were provided in the supplied material.
+- **Missing materials affecting confidence** All primary experimental data, including biochemical binding assays, cell-based localisation studies, spine morphology analyses, structural models, and any quantitative measurements. Methods section, figure panels, statistical analyses, and supplementary information beyond the movie reference are absent.
+
+## Reviewer
+
+- **Overall assessment** The manuscript addresses an important and timely question regarding the molecular mechanisms of CDKL5 targeting to synapses, which is directly relevant to understanding CDD pathogenesis. The proposed model is conceptually interesting and potentially impactful. However, the supplied material contains no primary experimental evidence, making it impossible to evaluate the validity of the central claims. The manuscript cannot be assessed for technical soundness, and the case for the proposed mechanical regulation model is not established from the provided evidence.
+- **Who would be interested in the results, and why** Researchers studying CDKL5 deficiency disorder, synaptic scaffold proteins, PDZ domain-mediated protein organisation at the postsynaptic density, mechanotransduction in neurons, and the molecular basis of epileptic encephalopathies. The proposed link between mechanical signalling and kinase spatial regulation would also interest the broader mechanobiology community.
+- **Major strengths** The identification of a PDZ-binding motif in the major neuronal CDKL5 isoform provides a plausible molecular explanation for synaptic targeting that has been missing from the field. The proposed mechanical model linking talin conformational dynamics to CDKL5 kinase positioning is conceptually novel and generates testable predictions. The authors appropriately flag concerns about prior studies using C-terminally tagged or non-PDZ-binding CDKL5 isoforms, which is a valuable contribution to the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that the C-terminal PDZ-binding motif of CDKL5 mediates interactions with PSD-95 and SHANK PDZ domains, facilitating recruitment to the postsynaptic density.
+  - **Evidence pointer** Location not provided
+  - **Concern** No experimental data are presented to support the claimed interactions. There are no binding assays, affinity measurements, mutagenesis controls, or structural data demonstrating that the CDKL5 C-terminal motif binds to PSD-95 or SHANK PDZ domains.
+  - **Why it matters** This is the foundational claim of the manuscript. Without direct biochemical evidence for the interaction and its specificity, the entire model of CDKL5 synaptic anchoring via PDZ domains is unsupported.
+  - **Resolution test** Provide pull-down or co-immunoprecipitation data with purified proteins, isothermal titration calorimetry or surface plasmon resonance binding data with quantitative affinities, and mutagenesis of the PDZ-binding motif showing loss of interaction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that disruption of the CDKL5 PDZ-binding motif results in mislocalisation and impaired spine formation.
+  - **Evidence pointer** Location not provided
+  - **Concern** No cell-based or in vivo data are presented showing localisation changes or spine morphology phenotypes upon disruption of the PDZ-binding motif.
+  - **Why it matters** This claim directly links the molecular interaction to a functional synaptic phenotype, which is essential for establishing the pathophysiological relevance of the proposed mechanism.
+  - **Resolution test** Provide imaging data from cultured neurons or in vivo systems comparing wild-type CDKL5 with PDZ-binding motif mutants, including quantification of synaptic localisation and spine density or morphology.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The authors claim that CDKL5 directly interacts with talin via the N-terminal kinase domain of CDKL5 and the R8 rod domain of talin.
+  - **Evidence pointer** Location not provided
+  - **Concern** No biochemical or structural evidence is presented for the CDKL5-talin interaction. The specific assignment of the interaction to the kinase domain and R8 domain is not supported by any shown data.
+  - **Why it matters** This interaction is the basis for the proposed mechanical regulation model. Without evidence for direct binding and domain mapping, the model lacks a molecular foundation.
+  - **Resolution test** Provide binding assays with purified CDKL5 kinase domain and talin R8 domain, domain truncation or mutation mapping, and ideally a structural model or co-crystal structure.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Model validity
+  - **Claim pointer** The authors propose that talin force-dependent binary switch domain unfolding moves the CDKL5-binding site on R8 up and down within the synapse, thereby spatially regulating CDKL5 kinase activity.
+  - **Evidence pointer** Location not provided
+  - **Concern** The mechanical model is presented as a speculative proposal without supporting experimental evidence. No data are shown demonstrating that talin conformational changes affect CDKL5 localisation or activity, nor that such mechanical regulation occurs in the synaptic context.
+  - **Why it matters** This is the central conceptual advance of the manuscript. A speculative model can be valuable, but it must be clearly framed as a hypothesis with supporting evidence or at minimum a rigorous biophysical basis. The current presentation does not distinguish between established findings and speculation.
+  - **Resolution test** Provide experimental evidence linking talin conformational states to CDKL5 binding or activity, such as force-dependent binding assays, FRET-based conformational sensors in neurons, or functional assays under mechanical perturbation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Model description
+  - **Evidence pointer** Abstract figure description
+  - **Issue** The description of the model states that the kinase domain is restricted to a blue semi-circle with a tether radius greater than 200 nm, but the basis for this distance estimate is not explained.
+  - **Required correction** Provide the rationale or reference for the tether length estimate, or clearly state it as an assumption.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Terminology
+  - **Affected element** Use of the term "re-entry circuits"
+  - **Evidence pointer** Abstract figure description
+  - **Issue** The term "re-entry circuits" is used without definition or citation, and the proposed link between loss of CDKL5 localisation and re-entry circuits leading to epilepsy is not elaborated.
+  - **Required correction** Define the term and provide supporting references or a more detailed mechanistic explanation.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Isoform discussion
+  - **Evidence pointer** Abstract text
+  - **Issue** The authors state that the major neuronal isoform contains the PDZ-binding motif and caution against using non-PDZ-binding isoforms, but the specific isoform identities and their expression patterns are not described.
+  - **Required correction** Specify the isoform names or accession numbers and provide expression data or references.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3, R1-M4. The absence of any primary experimental data means that none of the central claims can be evaluated. The manuscript as supplied is an extended abstract with a speculative model, not a complete research report.
+- **Assessment against Nature-style criteria** Originality is high, as the proposed PDZ-mediated anchoring and mechanical regulation of CDKL5 are novel concepts. Scientific importance is substantial given the prevalence of CDD and the unresolved questions about CDKL5 function. Interdisciplinary readership is plausible, spanning neuroscience, cell biology, and mechanobiology. Technical soundness cannot be assessed due to the absence of data. Readability for nonspecialists is reasonable, with clear prose and a helpful graphical abstract description, though the model presentation could benefit from clearer separation of established findings versus hypotheses.
+
+## Risk / unsupported claims
+
+- The claim that CDKL5 binds to PSD-95 and SHANK PDZ domains is unsupported by any presented evidence.
+- The claim that disruption of the PDZ-binding motif causes mislocalisation and impaired spine formation is unsupported.
+- The claim that CDKL5 directly interacts with talin via the kinase domain and R8 domain is unsupported.
+- The mechanical regulation model proposing that talin conformational changes spatially control CDKL5 kinase activity is entirely speculative and not supported by data.
+- The statement that loss of CDKL5 localisation results in re-entry circuits and epilepsy is an unsupported causal claim.
+- The recommendation to re-evaluate prior studies using C-terminally tagged or non-PDZ-binding isoforms is reasonable but depends on the validity of the PDZ-binding claim, which is not established here.

@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Full manuscript text (abstract and body as provided)
+- **Assessment boundary** Scientific claims, experimental evidence, and interpretation presented in the supplied material
+- **Shared manuscript claim summary** The authors report that JPT2, a predicted intrinsically disordered NAADP-binding protein, undergoes liquid-liquid phase separation under low Na+ or molecular crowding conditions, forming condensates that recruit LSM12, a fluorescent NAADP analog, and tubulin, and interact with microtubules and lysosomes, suggesting a role in NAADP-evoked Ca2+ signaling.
+- **Visible evidence base** Abstract and full text describing circular dichroism, NMR spectroscopy, phase separation assays, fluorescence microscopy, and biochemical interaction experiments
+- **Missing materials affecting confidence** No figures, tables, experimental protocols, statistical details, or raw data are provided; only the narrative text is available for review
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting observation that JPT2, an intrinsically disordered NAADP-binding protein, can undergo phase separation and recruit signaling components. However, the provided text lacks the experimental detail and quantitative data necessary to evaluate the robustness of the claims. The central conclusion that these condensates dictate NAADP sensitivity and targeting is speculative and not supported by functional experiments in the visible material. The work may appeal to researchers in Ca2+ signaling and biomolecular condensates, but the evidence base as presented is insufficient to establish the case.
+- **Who would be interested in the results, and why** Researchers studying NAADP signaling, two-pore channels, endolysosomal Ca2+ homeostasis, and the emerging field of biomolecular condensates in cell signaling. The potential link between phase separation and second messenger signaling could attract interest from cell biologists and biophysicists, but the current evidence is too preliminary to draw broad attention.
+- **Major strengths** The study addresses a novel question by linking an intrinsically disordered NAADP-binding protein to phase separation, which is a timely and underexplored area. The use of multiple orthogonal approaches to demonstrate phase separation is commendable. The recruitment of LSM12, a fluorescent NAADP analog, and tubulin into condensates provides a plausible mechanism for compartmentalizing signaling components.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that JPT2 undergoes phase separation under low Na+ or molecular crowding conditions, as demonstrated by multiple orthogonal approaches.  
+  - **Evidence pointer** Text describing circular dichroism, NMR, and phase separation assays; figures not provided  
+  - **Concern** The text states that phase separation was demonstrated by multiple approaches, but no quantitative data, such as turbidity measurements, droplet size distributions, or concentration thresholds, are presented. Without these, it is impossible to assess whether the observed behavior is bona fide phase separation or aggregation.  
+  - **Why it matters** Phase separation is a biophysically defined phenomenon requiring specific criteria, such as reversibility, concentration dependence, and fusion events. The absence of quantitative evidence undermines the central claim.  
+  - **Resolution test** Provide turbidity curves, fluorescence recovery after photobleaching (FRAP) data, and droplet fusion assays with statistical analysis to confirm liquid-like behavior and phase separation boundaries.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Scientific importance  
+  - **Claim pointer** The authors speculate that these signaling condensates dictate cellular NAADP sensitivity, desensitization, and targeting to TPCs at membrane contact sites.  
+  - **Evidence pointer** Text in the final paragraph; no functional data provided  
+  - **Concern** The functional relevance of JPT2 condensates to NAADP-evoked Ca2+ release is not tested. No experiments show that condensate formation alters NAADP sensitivity, Ca2+ release kinetics, or TPC activity. The speculation is unsupported.  
+  - **Why it matters** The title and abstract imply a role in NAADP signaling, but without functional assays, the significance of the phase separation observation remains unclear.  
+  - **Resolution test** Perform Ca2+ imaging or electrophysiological recordings in cells or reconstituted systems where JPT2 condensate formation is manipulated, and correlate with NAADP responses.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** JPT2 condensates interacted with polymerized microtubules and lysosomes isolated from human cell lines.  
+  - **Evidence pointer** Text describing interaction experiments; figures not provided  
+  - **Concern** The nature of the interaction with microtubules and lysosomes is unclear. It is not specified whether this is specific binding, entrapment, or an artifact of the isolation procedure. No controls, such as competition with unlabeled proteins or disruption of condensates, are described.  
+  - **Why it matters** The claim of interaction with cellular structures is central to the proposed model of NAADP targeting, but the evidence is too vague to evaluate.  
+  - **Resolution test** Include negative controls, quantitative binding assays, and imaging of condensates with labeled microtubules and lysosomes in situ.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Interdisciplinary readership  
+  - **Claim pointer** The authors state that JPT2 is predicted to be intrinsically disordered, a feature confirmed by circular dichroism and NMR spectroscopy.  
+  - **Evidence pointer** Text describing spectroscopy; spectra not provided  
+  - **Concern** The confirmation of intrinsic disorder is mentioned but not substantiated with spectral data or analysis. For a nonspecialist reader, it is unclear how the data support the conclusion.  
+  - **Why it matters** The disordered nature of JPT2 is a key premise for the phase separation hypothesis, and the evidence should be transparent.  
+  - **Resolution test** Show representative CD spectra and NMR chemical shift or relaxation data with assignments and disorder predictions.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Readability for nonspecialists  
+  - **Affected element** Abstract  
+  - **Evidence pointer** Abstract text  
+  - **Issue** The abstract uses terms like "molecular crowding" and "condensates" without brief definitions, which may hinder readers outside the phase separation field.  
+  - **Required correction** Add a short explanatory phrase, such as "molecular crowding (e.g., high concentrations of inert polymers)" and "condensates (liquid-like droplets formed by phase separation)".  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Technical soundness  
+  - **Affected element** Methods description  
+  - **Evidence pointer** Text describing recombinant protein purification  
+  - **Issue** The text mentions "recombinant, purified" proteins but does not specify the expression system, purification tags, or buffer conditions, which are critical for reproducibility.  
+  - **Required correction** Provide a detailed methods section with expression constructs, purification steps, and final buffer composition.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Scientific importance  
+  - **Affected element** Discussion of desensitization  
+  - **Evidence pointer** Final paragraph  
+  - **Issue** The speculation about desensitization is not connected to any known mechanism of NAADP response attenuation.  
+  - **Required correction** Briefly cite or discuss known desensitization mechanisms and how condensates might fit into that framework.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the core claims of phase separation and functional relevance are not supported by the provided evidence. R1-M3 and R1-M4 also require substantial additional data to be convincing.
+- **Assessment against Nature-style criteria**  
+  - Originality: The idea of phase separation in NAADP signaling is novel and potentially original, but the execution is incomplete.  
+  - Scientific importance: The potential to link condensates to Ca2+ signaling is important, but the functional evidence is absent, so the importance is not yet demonstrated.  
+  - Interdisciplinary readership: The topic bridges cell signaling and biophysics, but the text is not accessible enough for nonspecialists without more context.  
+  - Technical soundness: The lack of quantitative data and controls is a major weakness that prevents validation.  
+  - Readability for nonspecialists: The text is generally clear but uses jargon without explanation.  
+- **Recommendation posture** Currently not established from the provided evidence. The manuscript has potential, but the claims require substantial additional experimental data, particularly quantitative phase separation assays and functional Ca2+ signaling experiments, before it can be considered for publication.
+
+## Risk / unsupported claims
+- The claim that JPT2 condensates "dictate cellular NAADP sensitivity, desensitization, and targeting" is unsupported by any functional data.
+- The claim that JPT2 is intrinsically disordered is not verifiable without spectral data.
+- The interaction of condensates with microtubules and lysosomes is described without controls or quantitative measures.
+- The physiological relevance of the phase separation under low Na+ or crowding conditions is not established, as these conditions may not reflect cellular environments.

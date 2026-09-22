@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37037825",
+  "title": "Function and dynamics of the intrinsically disordered carboxyl terminus of beta2 adrenergic receptor.",
+  "authors": "Heng, Jie; Hu, Yunfei; Perez-Hernandez, Guillermo; Inoue, Asuka; Zhao, Jiawei; Ma, Xiuyan; Sun, Xiaoou; Kawakami, Kouki; Ikuta, Tatsuya; Ding, Jienv; Yang, Yujie; Zhang, Lujia; Peng, Sijia; Niu, Xiaogang; Li, Hongwei; Guixa-Gonzalez, Ramon; Jin, Changwen; Hildebrand, Peter W; Chen, Chunlai; Kobilka, Brian K",
+  "journal": "Nature communications",
+  "published_date": "2023-04-11",
+  "window": {
+    "start": "2023-04-10",
+    "end": "2023-04-16"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究结合单分子FRET、NMR和分子动力学模拟，揭示β2肾上腺素受体无序羧基末端与受体胞内正电荷表面互作的自抑制机制，属于IDR介导的蛋白互作机制建模，虽非相分离背景但方法可迁移。",
+  "abstract": "Advances in structural biology have provided important mechanistic insights into signaling by the transmembrane core of G-protein coupled receptors (GPCRs); however, much less is known about intrinsically disordered regions such as the carboxyl terminus (CT), which is highly flexible and not visible in GPCR structures. The beta(2) adrenergic receptor's (beta(2)AR) 71 amino acid CT is a substrate for GPCR kinases and binds beta-arrestins to regulate signaling. Here we show that the beta(2)AR CT directly inhibits basal and agonist-stimulated signaling in cell lines lacking beta-arrestins. Combining single-molecule fluorescence resonance energy transfer (FRET), NMR spectroscopy, and molecular dynamics simulations, we reveal that the negatively charged beta(2)AR-CT serves as an autoinhibitory factor via interacting with the positively charged cytoplasmic surface of the receptor to limit access to G-proteins. The stability of this interaction is influenced by agonists and allosteric modulators, emphasizing that the CT plays important role in allosterically regulating GPCR activation.",
+  "abstract_zh": "结构生物学的进展为G蛋白偶联受体（GPCRs）跨膜核心的信号传导提供了重要的机制性见解；然而，对于诸如羧基末端（CT）这样的固有无序区域，其高度柔性且在GPCR结构中不可见，了解甚少。β(2)肾上腺素能受体（beta(2)AR）的71个氨基酸CT是GPCR激酶的底物，并结合β-arrestins以调节信号传导。在此，我们展示beta(2)AR CT在缺乏β-arrestins的细胞系中直接抑制基础和激动剂刺激的信号传导。结合单分子荧光共振能量转移（FRET）、核磁共振波谱（NMR spectroscopy）和分子动力学模拟，我们揭示带负电的beta(2)AR-CT通过与受体带正电的细胞质表面相互作用，作为自抑制因子，限制G蛋白的接近。该相互作用的稳定性受激动剂和变构调节剂的影响，强调CT在变构调节GPCR激活中发挥重要作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37037825/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37037825/",
+  "paper_page_path": "papers/pubmed/37037825/index.html"
+}

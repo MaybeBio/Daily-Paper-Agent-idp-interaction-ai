@@ -1,0 +1,210 @@
+{
+  "identity": {
+    "pmid": "40133791",
+    "doi": "10.1016/j.jmb.2025.169018",
+    "title": "PUNCH: An Interactive Web Server for Predicting Intrinsically Disordered Regions in Protein Sequences."
+  },
+  "content": {
+    "abstract": "PUNCH is a freely accessible web server designed for the rapid and accurate prediction of intrinsically disordered regions (IDRs) in protein sequences. Built on a high-performance computational framework, PUNCH web server which built on PUNCH2-Light predictor, combines speed with predictive accuracy, offering users a streamlined interface for generating predictions from sequence input. Validated against the CAID2 benchmarking datasets, PUNCH web server demonstrates competitive performance in detecting IDRs across diverse protein sequences. Notably, it excels in the Disorder_PDB dataset and provides reliable results for the Disorder_NOX dataset, addressing the challenges of predicting disordered regions with low sequence similarity. The server is available at https://alienlabs.ucd.ie/punch2/, with extensive documentation and downloadable example datasets to support researchers in structural biology and bioinformatics.",
+    "keywords": [
+      "bioinformatics",
+      "convolutional neural network",
+      "intrinsically disordered regions",
+      "protein prediction",
+      "web server"
+    ],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry",
+      "*Software",
+      "*Computational Biology/methods",
+      "Internet",
+      "Sequence Analysis, Protein/methods",
+      "Databases, Protein",
+      "Amino Acid Sequence",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Meng, Di",
+        "Pollastri, Gianluca"
+      ],
+      "short_names": [
+        "Meng D",
+        "Pollastri G"
+      ],
+      "auids": [],
+      "affiliations": [
+        "School of Computer Science, University College Dublin, Ireland. Electronic address: di.meng@ucdconnect.ie.",
+        "School of Computer Science, University College Dublin, Ireland."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Meng, Di",
+        "short_name": "Meng D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, University College Dublin, Ireland. Electronic address: di.meng@ucdconnect.ie."
+        ]
+      },
+      {
+        "full_name": "Pollastri, Gianluca",
+        "short_name": "Pollastri G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Computer Science, University College Dublin, Ireland."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Journal of molecular biology"
+    ],
+    "journal_abbrev": [
+      "J Mol Biol"
+    ],
+    "pub_date": "2025 Aug 1",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/26 13:06",
+    "fetched_at": "2026-09-21 17:08:33"
+  },
+  "links": {
+    "cites": [
+      "40524125",
+      "40242292"
+    ],
+    "refs": [],
+    "similar": [
+      "40133791",
+      "40138319",
+      "39576584",
+      "39237195",
+      "39576583",
+      "40133775",
+      "19717576",
+      "40054813",
+      "35469832",
+      "32535960",
+      "34048569",
+      "31870849",
+      "16844983",
+      "40133781",
+      "34830151",
+      "38747347",
+      "24573479",
+      "28369666",
+      "27787828",
+      "30395465",
+      "24573480",
+      "34864847",
+      "26090958",
+      "27115638",
+      "32702119",
+      "32696351",
+      "38166858",
+      "29360926",
+      "30866736",
+      "31616935",
+      "17567614",
+      "32112084",
+      "32621220",
+      "30099775",
+      "29076577",
+      "39571839",
+      "36008992",
+      "31207240",
+      "24203321",
+      "15955779",
+      "34827596",
+      "25637562",
+      "33875885",
+      "29228892",
+      "34418423",
+      "32173600",
+      "29860432",
+      "31889261",
+      "40347452",
+      "38540707",
+      "36458437",
+      "38048333",
+      "38892222",
+      "36315580",
+      "36959451",
+      "17452345",
+      "20003388",
+      "30298407",
+      "38079339",
+      "36272675",
+      "30135358",
+      "16618368",
+      "35883444",
+      "40254833",
+      "29361894",
+      "39575640",
+      "26230689",
+      "17021161",
+      "17478501",
+      "30717652",
+      "25391399",
+      "36005688",
+      "31073595",
+      "19538753",
+      "39718444",
+      "24799431",
+      "30052052",
+      "17553833",
+      "32696352",
+      "39237207",
+      "30324701",
+      "18215316",
+      "33291838",
+      "37883249",
+      "32696395",
+      "17488847",
+      "17526524",
+      "39246251",
+      "20730460",
+      "32696355",
+      "37740110",
+      "39708500",
+      "38701796",
+      "20003426",
+      "32823616",
+      "15980554",
+      "29042212",
+      "28057683",
+      "40100159",
+      "28365882"
+    ],
+    "review": [
+      "40133791",
+      "31616935",
+      "34418423",
+      "36959451",
+      "33291838"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0022-2836(25)00084-1",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

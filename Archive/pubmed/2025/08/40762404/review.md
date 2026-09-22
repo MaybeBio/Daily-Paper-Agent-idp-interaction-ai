@@ -1,0 +1,76 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and conclusions as stated in the abstract; no access to methods, figures, tables, or supplementary materials
+- **Shared manuscript claim summary** The authors report their participation in CASP16 across protein domains, protein multimers, and RNA monomers, achieving official rankings of first, second, and fourth (top for server groups), respectively. They attribute these results to optimized input strategies applied to state-of-the-art predictors, including removal of intrinsically disordered regions for protein domains, and optimized secondary structure input for RNA prediction. They state that protein domain prediction has reached high accuracy, while multimer and RNA prediction remain challenging.
+- **Visible evidence base** Abstract text only; no quantitative performance metrics, no methodological details, no comparison tables, no statistical analyses
+- **Missing materials affecting confidence** Full manuscript, methods section, CASP16 official ranking details, performance metrics (e.g., GDT-TS, lDDT, TM-score), definition of "high quality" for multimers, details of input optimization procedures, baseline comparisons, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a concise summary of CASP16 participation with notable official rankings. The central hypothesis, that optimized inputs to existing predictors can yield accurate predictions, is plausible and of interest to the structural biology community. However, the abstract provides insufficient quantitative evidence to evaluate the robustness of the claims. Key terms such as "high quality" are undefined, and no performance metrics are reported. The claim that fewer than 25% of multimers were predicted with high quality is presented without supporting data or a clear threshold. The scientific contribution, while potentially valuable, cannot be fully assessed from the abstract alone.
+- **Who would be interested in the results, and why** Computational structural biologists, developers of protein and RNA structure prediction methods, and researchers participating in community-wide benchmarking efforts such as CASP. The results are relevant to those seeking practical strategies for improving prediction accuracy through input engineering rather than architectural innovation, and to those tracking the current state of the art in protein domain, multimer, and RNA structure prediction.
+- **Major strengths** The work addresses a timely and important problem in biomolecular structure prediction. The participation across three distinct categories demonstrates breadth. The hypothesis-driven approach, focusing on input optimization rather than new model development, is pragmatic and potentially widely applicable. The reported rankings, if accurate, indicate competitive performance against international groups.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim official rankings of first, second, and fourth for protein domains, protein multimers, and RNA monomers, respectively, and that protein domain prediction achieved high accuracy.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract provides no quantitative performance metrics, such as GDT-TS, lDDT, TM-score, or any CASP16 official scores, to substantiate the claimed rankings or the statement that protein domain prediction achieved high accuracy. The term "high quality" is used without definition or threshold.  
+  - **Why it matters** Without quantitative evidence, the reader cannot verify the magnitude of the reported success, compare it to prior CASP rounds, or assess whether the claimed accuracy is statistically meaningful. The core claim of the manuscript rests on these rankings and accuracy statements.  
+  - **Resolution test** Provide official CASP16 scores or derived metrics for each category, define the threshold for "high quality" (e.g., GDT-TS above a specific value), and report the number of targets and the distribution of scores.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Methodological transparency  
+  - **Claim pointer** The authors state that removing intrinsically disordered regions from input sequences yielded accurate models for protein domains, and that optimizing secondary structure input for trRosettaRNA2 improved RNA prediction over AlphaFold3.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The abstract does not describe how the input optimizations were implemented, how they were validated, or how the comparisons to AlphaFold3 were conducted. No details are given on the datasets, the specific predictors used, or the criteria for selecting targets.  
+  - **Why it matters** The central hypothesis is that input optimization is the key to improved accuracy. Without methodological detail, the reader cannot evaluate whether the observed results are attributable to the proposed approach or to other factors, such as target selection or predictor configuration. This limits the reproducibility and generalizability of the findings.  
+  - **Resolution test** Describe the input optimization procedures in sufficient detail, report the validation protocol, and specify the comparison conditions for AlphaFold3, including any hyperparameter settings and target selection criteria.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Claim precision  
+  - **Claim pointer** The authors state that fewer than 25% of protein multimers were predicted with high quality.  
+  - **Evidence pointer** Abstract only; location not provided  
+  - **Concern** The threshold for "high quality" is not defined, and no supporting data are provided. It is unclear whether this percentage refers to all multimer targets, a subset, or a specific metric.  
+  - **Why it matters** This statement is presented as a key finding regarding the current limitations of multimer prediction. Without a clear definition and supporting data, the claim is not interpretable and cannot be compared to other studies or CASP rounds.  
+  - **Resolution test** Define the quality threshold, report the number of multimer targets, and provide the distribution of prediction scores.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The phrase "top for server groups" is ambiguous. It is unclear whether this applies to all three categories or only to RNA monomers.  
+  - **Required correction** Clarify which categories achieved top server group ranking and specify the comparison basis.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Abstract scope  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The abstract does not mention any limitations of the study or potential sources of bias, such as target selection or predictor version differences.  
+  - **Required correction** Add a brief statement acknowledging limitations or refer to a limitations section in the full manuscript.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Terminology  
+  - **Affected element** Use of "state-of-the-art"  
+  - **Evidence pointer** Abstract; location not provided  
+  - **Issue** The term "state-of-the-art" is used to describe the predictors, but no justification or citation is provided in the abstract.  
+  - **Required correction** Provide citations or a brief justification for why these predictors are considered state-of-the-art at the time of the study.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking. The absence of quantitative performance data and methodological detail prevents verification of the central claims. The case for input optimization as a successful strategy is not established from the abstract alone.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The approach of optimizing inputs to existing predictors is not entirely novel, but its systematic application across three CASP categories may offer a useful contribution. The originality cannot be fully assessed without the full manuscript.  
+  - **Scientific importance** The results are relevant to the structural biology community and to the ongoing development of prediction methods. The reported rankings suggest competitive performance, but the importance of the findings depends on the robustness of the evidence, which is not visible in the abstract.  
+  - **Interdisciplinary readership** The topic is of interest to computational biologists, structural biologists, and bioinformaticians. The abstract is written in a way that is accessible to these groups, though some terms may require domain knowledge.  
+  - **Technical soundness** Not assessable from the abstract. The lack of methodological detail and quantitative metrics precludes evaluation of technical rigor.  
+  - **Readability for nonspecialists** The abstract is concise and generally clear, but terms such as "intrinsically disordered regions" and "secondary structure input" may be unfamiliar to nonspecialists. The abstract does not provide sufficient context for a broad audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents plausible claims and notable rankings, but the absence of quantitative data and methodological detail prevents verification. The manuscript may become supportive if the full text provides the necessary evidence and addresses the blocking concerns.
+
+## Risk / unsupported claims
+- The claimed official rankings of first, second, and fourth across categories are unverifiable from the abstract alone.
+- The statement that protein domain prediction achieved "high accuracy" is unsupported without defined metrics or thresholds.
+- The claim that fewer than 25% of multimers were predicted with high quality is unsupported without a definition of "high quality" and supporting data.
+- The assertion that optimized secondary structure input for trRosettaRNA2 outperformed AlphaFold3 is unsupported without comparison details and performance metrics.
+- The hypothesis that input optimization is the key to accurate prediction is plausible but not established from the abstract.

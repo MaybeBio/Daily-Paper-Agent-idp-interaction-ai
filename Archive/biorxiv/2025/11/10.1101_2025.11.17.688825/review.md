@@ -1,0 +1,70 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence as presented in the abstract; no figures, tables, methods, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors report a molecular glue-based PROTAC (MG PROTAC) strategy that conjugates a 14-3-3 molecular glue stabilizer to a VHL-recruiting ligand, enabling capture and ubiquitination of the 14-3-3/ERα complex. They claim linker-dependent cooperativity, cellular permeability and ubiquitination efficiency effects, cryo-EM evidence for de novo VHL–14-3-3ζ contacts, molecular dynamics rationalization of cooperativity, and selective ubiquitination of distinct complex subunits via linker fine-tuning.
+- **Visible evidence base** Abstract text only; no experimental details, quantitative data, or methodological descriptions
+- **Missing materials affecting confidence** Full manuscript, all figures and tables, methods section, supplementary information, statistical analyses, and raw data
+
+## Reviewer
+- **Overall assessment** The abstract presents a conceptually interesting approach that merges molecular glue and PROTAC principles to target a challenging protein complex. However, the claims are broad and mechanistic, and the abstract alone provides insufficient evidence to evaluate technical soundness, reproducibility, or the strength of the structural and functional conclusions. The work could be of interest to the targeted protein degradation and chemical biology communities, but the current evidence base does not establish the case.
+- **Who would be interested in the results, and why** Researchers in targeted protein degradation, molecular glue discovery, structural biology of protein complexes, and drug discovery for nuclear receptors would find the approach relevant. The potential to drug a disordered domain via a composite interface could attract those working on previously intractable targets.
+- **Major strengths** The conceptual integration of molecular glue and PROTAC mechanisms is novel and timely. The focus on a partially disordered protein region (F-domain of ERα) addresses a recognized gap in druggability. The use of multiple orthogonal techniques (biophysics, cryo-EM, MD simulations, cellular assays) suggests a comprehensive approach, if the data are robust.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** "Biophysical characterization revealed distinct linker-dependent cooperativities across the MG PROTAC series, which influenced both cellular permeability and ubiquitination efficiency."
+  - **Evidence pointer** Location not provided
+  - **Concern** The abstract claims a direct relationship between linker-dependent cooperativity and both permeability and ubiquitination efficiency, but no quantitative data, assay conditions, or statistical measures are presented. It is unclear how cooperativity was measured, what range of values was observed, and whether the effects on permeability and ubiquitination are causally linked or merely correlative.
+  - **Why it matters** This is a central claim that links the design principle to functional outcomes. Without supporting data, the reader cannot assess whether the observed effects are robust, specific, or generalizable.
+  - **Resolution test** Provide quantitative cooperativity values (e.g., from ITC or fluorescence anisotropy), permeability measurements (e.g., PAMPA or Caco-2), and ubiquitination assays with appropriate controls and replicates, along with statistical analysis.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Structural evidence
+  - **Claim pointer** "Cryo-EM of the most cooperative MG PROTAC uncovers de novo VHL–14-3-3ζ contacts"
+  - **Evidence pointer** Location not provided
+  - **Concern** The claim of de novo contacts is structurally specific, but no resolution, model validation metrics, or comparison to known structures are provided. It is unclear whether these contacts are stable, functionally relevant, or an artifact of the specific construct or cryo-EM conditions.
+  - **Why it matters** This is a key mechanistic finding that underpins the proposed cooperative mechanism. Without structural validation details, the claim cannot be independently assessed.
+  - **Resolution test** Provide cryo-EM maps and models with resolution, Fourier shell correlation curves, local resolution estimates, and validation statistics. Show that the VHL–14-3-3ζ contacts are consistent across independent reconstructions and are not present in control samples.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Selectivity claim
+  - **Claim pointer** "Strikingly, fine-tuning linker design enables selective ubiquitination of distinct complex subunits."
+  - **Evidence pointer** Location not provided
+  - **Concern** The claim of selective ubiquitination of distinct subunits is striking but lacks mechanistic detail. It is unclear which subunits are targeted, how selectivity is achieved, and whether this is a general phenomenon or specific to one linker. No data on ubiquitination site mapping or subunit-specific assays are described.
+  - **Why it matters** This claim has significant implications for designing degraders with tailored specificity. Without evidence, it remains speculative and could mislead future design efforts.
+  - **Resolution test** Provide subunit-specific ubiquitination assays (e.g., using tagged subunits, immunoprecipitation, or mass spectrometry), demonstrate selectivity across multiple linkers, and show that selectivity is reproducible and not due to differential expression or stability.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Terminology
+  - **Evidence pointer** Abstract
+  - **Issue** The term "MG PROTACs" is used without a clear definition of how it differs from existing PROTAC or molecular glue concepts. The abstract implies a hybrid but does not specify the design rationale or the exact chemical linkage.
+  - **Required correction** Define the term explicitly and clarify the design logic, including a schematic or description of the chemical conjugation strategy.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Reproducibility
+  - **Affected element** Experimental context
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract does not mention the cell lines, concentrations, or time points used for ubiquitination and permeability assays, which are essential for reproducibility.
+  - **Required correction** Include key experimental conditions in the abstract or refer to specific methods sections with sufficient detail.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Scope
+  - **Affected element** Generalizability
+  - **Evidence pointer** Abstract
+  - **Issue** The abstract claims to "expand the scope of drug discovery to previously intractable protein complexes," but only one complex (14-3-3/ERα) is studied. This generalization is premature without evidence of applicability to other complexes.
+  - **Required correction** Soften the claim or provide preliminary data on at least one additional complex to support generalizability.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. The abstract lacks quantitative data, structural validation, and mechanistic evidence for selectivity. These are essential to support the central claims.
+- **Assessment against Nature-style criteria** Originality is high, as the combination of molecular glue and PROTAC principles is novel. Scientific importance is potentially high for targeted protein degradation, but the current evidence does not establish the significance. Interdisciplinary readership is plausible, given the blend of chemistry, structural biology, and cell biology. Technical soundness cannot be assessed from the abstract alone. Readability for nonspecialists is adequate, though the abstract assumes familiarity with PROTAC and molecular glue concepts.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual advance is promising, but the abstract alone does not provide sufficient data to support the mechanistic and functional claims. A full manuscript with rigorous experimental detail is required for a fair assessment.
+
+## Risk / unsupported claims
+- The claim that linker-dependent cooperativity directly influences permeability and ubiquitination efficiency is unsupported without quantitative data.
+- The cryo-EM claim of de novo VHL–14-3-3ζ contacts is unverifiable without structural details.
+- The claim of selective ubiquitination of distinct subunits is unsupported without subunit-specific assays.
+- The generalizability claim to "previously intractable protein complexes" is not supported by the single example provided.

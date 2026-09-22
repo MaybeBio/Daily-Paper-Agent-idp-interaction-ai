@@ -1,0 +1,279 @@
+{
+  "identity": {
+    "pmid": "33926076",
+    "doi": "10.3390/biom11050642",
+    "title": "The 'Shape-Shifter' Peptide from the Disulphide Isomerase PmScsC Shows Context-Dependent Conformational Preferences."
+  },
+  "content": {
+    "abstract": "Multiple crystal structures of the homo-trimeric protein disulphide isomerase PmScsC reveal that the peptide which links the trimerization stalk and catalytic domain can adopt helical, beta-strand and loop conformations. This region has been called a 'shape-shifter' peptide. Characterisation of this peptide using NMR experiments and MD simulations has shown that it is essentially disordered in solution. Analysis of the PmScsC crystal structures identifies the role of intermolecular contacts, within an assembly of protein molecules, in stabilising the different linker peptide conformations. These context-dependent conformational properties may be important functionally, allowing for the binding and disulphide shuffling of a variety of protein substrates to PmScsC. They also have a relevance for our understanding of protein aggregation and misfolding showing how intermolecular quaternary interactions can lead to beta-sheet formation by a sequence that in other contexts adopts a helical structure. This 'shape-shifting' peptide region within PmScsC is reminiscent of one-to-many molecular recognition features (MoRFs) found in intrinsically disordered proteins which are able to adopt different conformations when they fold upon binding to their protein partners.",
+    "keywords": [
+      "MD simulation",
+      "NMR spectroscopy",
+      "X-ray crystallography",
+      "chameleon sequence",
+      "intrinsically disordered protein",
+      "molecular recognition features",
+      "protein dynamics",
+      "protein folding",
+      "protein misfolding"
+    ],
+    "mesh_terms": [
+      "Amino Acid Sequence",
+      "Bacterial Proteins/metabolism/ultrastructure",
+      "Catalytic Domain",
+      "Intrinsically Disordered Proteins/chemistry/ultrastructure",
+      "Magnetic Resonance Spectroscopy",
+      "Molecular Dynamics Simulation",
+      "Peptides",
+      "Protein Disulfide-Isomerases/*chemistry/metabolism/*ultrastructure",
+      "Protein Domains",
+      "Proteus mirabilis/enzymology/metabolism"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Smith, Lorna J",
+        "Green, Chloe W",
+        "Redfield, Christina"
+      ],
+      "short_names": [
+        "Smith LJ",
+        "Green CW",
+        "Redfield C"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5040-9267",
+        "ORCID: 0000-0001-7297-7708"
+      ],
+      "affiliations": [
+        "Department of Chemistry, University of Oxford, Oxford OX1 3QR, UK.",
+        "Department of Chemistry, University of Oxford, Oxford OX1 3QR, UK.",
+        "Department of Biochemistry, University of Oxford, Oxford OX1 3QU, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Smith, Lorna J",
+        "short_name": "Smith LJ",
+        "identifiers": [
+          "0000-0001-5040-9267"
+        ],
+        "affiliations": [
+          "Department of Chemistry, University of Oxford, Oxford OX1 3QR, UK."
+        ]
+      },
+      {
+        "full_name": "Green, Chloe W",
+        "short_name": "Green CW",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, University of Oxford, Oxford OX1 3QR, UK."
+        ]
+      },
+      {
+        "full_name": "Redfield, Christina",
+        "short_name": "Redfield C",
+        "identifiers": [
+          "0000-0001-7297-7708"
+        ],
+        "affiliations": [
+          "Department of Biochemistry, University of Oxford, Oxford OX1 3QU, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biomolecules"
+    ],
+    "journal_abbrev": [
+      "Biomolecules"
+    ],
+    "pub_date": "2021 Apr 26",
+    "pub_year": "2021",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2021/05/01 06:00",
+    "fetched_at": "2026-09-20 02:51:16"
+  },
+  "links": {
+    "cites": [
+      "35234148"
+    ],
+    "refs": [
+      "33146424",
+      "30950400",
+      "30950399",
+      "30912488",
+      "29708963",
+      "28722010",
+      "26920059",
+      "25970262",
+      "24606139",
+      "23233352",
+      "21533652",
+      "21432934",
+      "20117254",
+      "19841628",
+      "18366598",
+      "17681537",
+      "17376876",
+      "17299764",
+      "17088319",
+      "17014083",
+      "15815974",
+      "14960595",
+      "11334888",
+      "11242064",
+      "10637222",
+      "10384688",
+      "10097081",
+      "10024015",
+      "9398523",
+      "8520220",
+      "7664054",
+      "6422466",
+      "3145979",
+      "1939171",
+      "1606151",
+      "1585175"
+    ],
+    "similar": [
+      "33926076",
+      "28722010",
+      "29491145",
+      "30950400",
+      "35234148",
+      "32323533",
+      "27001160",
+      "32184088",
+      "33030907",
+      "35026386",
+      "22505402",
+      "28597880",
+      "18985675",
+      "25207671",
+      "10700276",
+      "30840442",
+      "33122085",
+      "33707747",
+      "26735936",
+      "33466919",
+      "17372350",
+      "27423742",
+      "26272828",
+      "28355271",
+      "32074499",
+      "32316569",
+      "24159811",
+      "26030674",
+      "27288992",
+      "26651072",
+      "30865832",
+      "32585849",
+      "31356683",
+      "31449839",
+      "28623339",
+      "14684740",
+      "19187238",
+      "33068756",
+      "23376096",
+      "28919531",
+      "29490247",
+      "30878202",
+      "15643448",
+      "26195786",
+      "32929427",
+      "12596268",
+      "25773700",
+      "8568894",
+      "22506277",
+      "16905107",
+      "32933064",
+      "16930136",
+      "12079389",
+      "11427046",
+      "10383197",
+      "25380651",
+      "1613791",
+      "26742101",
+      "32458972",
+      "33577583",
+      "34201262",
+      "24603188",
+      "32097611",
+      "25747872",
+      "24671380",
+      "33030249",
+      "16413482",
+      "33382616",
+      "33573010",
+      "30134683",
+      "27975243",
+      "20695532",
+      "26498066",
+      "19446521",
+      "27844185",
+      "24027208",
+      "26931396",
+      "26910732",
+      "29235155",
+      "33454008",
+      "27030593",
+      "16940051",
+      "33401765",
+      "25387963",
+      "30259679",
+      "35409257",
+      "36209362",
+      "24796794",
+      "36988562",
+      "38966365",
+      "36594419"
+    ],
+    "review": [
+      "33926076",
+      "30840442",
+      "15643448",
+      "16930136",
+      "32097611"
+    ],
+    "pmc": [
+      "8146718"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.mdpi.com/resolver?pii=biom11050642",
+        "provider": "MDPI",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/33926076/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/33926076",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

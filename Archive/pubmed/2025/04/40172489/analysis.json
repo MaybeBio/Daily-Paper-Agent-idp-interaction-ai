@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40172489",
+  "title": "Toward Predictive Coarse-Grained Simulations of Biomolecular Condensates.",
+  "authors": "Liu, Shuming; Wang, Cong; Zhang, Bin",
+  "journal": "Biochemistry",
+  "published_date": "2025-04-02",
+  "window": {
+    "start": "2025-03-31",
+    "end": "2025-04-06"
+  },
+  "score": 7,
+  "one_liner_zh": "综述粗粒化模拟预测生物分子凝聚体相行为，聚焦1BPA蛋白模型与OpenABC工具，虽非直接PPI机制建模，但为IDR介导的凝聚体互作模拟提供可迁移的方法框架与力场评估。",
+  "abstract": "Phase separation is a fundamental process that enables cellular organization by forming biomolecular condensates. These assemblies regulate diverse functions by creating distinct environments, influencing reaction kinetics, and facilitating processes such as genome organization, signal transduction, and RNA metabolism. Recent studies highlight the complexity of condensate properties, shaped by intrinsic molecular features and external factors such as temperature and pH. Molecular simulations serve as an effective approach to establishing a comprehensive framework for analyzing these influences, offering high-resolution insights into condensate stability, dynamics, and material properties. This review evaluates recent advancements in biomolecular condensate simulations, with a particular focus on coarse-grained 1-bead-per-amino-acid (1BPA) protein models, and emphasizes OpenABC, a tool designed to simplify and streamline condensate simulations. OpenABC supports the implementation of various coarse-grained force fields, enabling their performance evaluation. Our benchmarking identifies inconsistencies in phase behavior predictions across force fields, even though these models accurately capture single-chain statistics. This finding underscores the need for enhanced force field accuracy, achievable through enriched training data sets, many-body potentials, and advanced optimization techniques. Such refinements could significantly improve the predictive capacity of coarse-grained models, bridging molecular details with emergent condensate behaviors.",
+  "abstract_zh": "相分离 (phase separation) 是通过形成生物分子凝聚体 (biomolecular condensates) 实现细胞组织化的基本过程。这些组装体通过创造独特环境、影响反应动力学，并促进基因组组织、信号转导和RNA代谢等过程，来调控多种功能。近期研究强调了凝聚体性质的复杂性，这些性质由内在分子特征和温度、pH等外部因素共同塑造。分子模拟 (molecular simulations) 是建立综合分析这些影响的框架的有效方法，可为凝聚体稳定性、动力学和材料性质提供高分辨率见解。本综述评估了生物分子凝聚体模拟的最新进展，特别关注粗粒化单珠每氨基酸 (1-bead-per-amino-acid, 1BPA) 蛋白质模型，并重点介绍OpenABC——一种旨在简化和优化凝聚体模拟的工具。OpenABC支持多种粗粒化力场的实现，使其性能评估成为可能。我们的基准测试发现，尽管这些模型能准确捕捉单链统计特性，但不同力场在相行为预测上存在不一致性。这一发现强调了提高力场准确性的必要性，可通过丰富训练数据集、多体势和先进优化技术来实现。这些改进有望显著提升粗粒化模型的预测能力，桥接分子细节与涌现的凝聚体行为。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40172489/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40172489/",
+  "paper_page_path": "papers/pubmed/40172489/index.html"
+}

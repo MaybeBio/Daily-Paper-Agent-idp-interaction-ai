@@ -1,0 +1,225 @@
+{
+  "identity": {
+    "pmid": "40106150",
+    "doi": "10.1007/7651_2025_617",
+    "title": "Deep Learning-Driven Computational Approaches for Studying Intrinsically Disordered Regions in S100-A9."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered regions (IDRs) are flexible protein regions and lack a fixed three-dimensional structure, which makes them difficult to study using traditional structural methods. However, artificial intelligence can be helpful in predicting, analyzing, and modeling these regions. This chapter provides a simple protocol for a preliminary-level approach to identifying protein IDRs. By reporting on the S100-A9 protein as a case study example, characterization of the IDRs of this molecule could provide further details on the complex molecular interactions involved in psoriasis, particularly those related to inflammation, immune dysregulation, and keratinocyte behavior.",
+    "keywords": [
+      "Artificial Intelligence",
+      "Deep Learning",
+      "Intrinsically Disordered Regions (IDRs)",
+      "S100-A9"
+    ],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Distefano, Gionathan L",
+        "D'Amico, Fabio"
+      ],
+      "short_names": [
+        "Distefano GL",
+        "D'Amico F"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Department of Mathematics and Computer Science, University of Catania, Catania, Italy.",
+        "Department of Biomedical and Biotechnological Sciences, University of Catania, Catania, Italy. f.damico@unict.it."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Distefano, Gionathan L",
+        "short_name": "Distefano GL",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Mathematics and Computer Science, University of Catania, Catania, Italy."
+        ]
+      },
+      {
+        "full_name": "D'Amico, Fabio",
+        "short_name": "D'Amico F",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biomedical and Biotechnological Sciences, University of Catania, Catania, Italy. f.damico@unict.it."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Methods in molecular biology (Clifton, N.J.)"
+    ],
+    "journal_abbrev": [
+      "Methods Mol Biol"
+    ],
+    "pub_date": "2025 Mar 20",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/03/19 18:23",
+    "fetched_at": "2026-09-21 16:45:24"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "40106150",
+      "36959451",
+      "38275091",
+      "36008992",
+      "38987470",
+      "38297184",
+      "39032884",
+      "34418423",
+      "36908253",
+      "36291695",
+      "36833360",
+      "27179590",
+      "31441158",
+      "40221640",
+      "39253485",
+      "39093570",
+      "31303975",
+      "36851914",
+      "35275927",
+      "35139468",
+      "36272675",
+      "35102880",
+      "39072126",
+      "33191750",
+      "31756456",
+      "39071267",
+      "35767567",
+      "32824743",
+      "30518031",
+      "38297118",
+      "37646172",
+      "38547606",
+      "33866372",
+      "40244295",
+      "31908009",
+      "38284524",
+      "39763873",
+      "34390736",
+      "31797595",
+      "39279844",
+      "37329857",
+      "40133781",
+      "31207240",
+      "39433443",
+      "34179096",
+      "37736816",
+      "37878721",
+      "33248138",
+      "24027208",
+      "35098694",
+      "23142703",
+      "31709918",
+      "33078839",
+      "39576583",
+      "34285781",
+      "33831596",
+      "40254833",
+      "36133101",
+      "35898309",
+      "33806614",
+      "20522251",
+      "39600309",
+      "33567297",
+      "35883444",
+      "31521235",
+      "38220424",
+      "39446390",
+      "37657994",
+      "27881680",
+      "35487971",
+      "33691011",
+      "33036302",
+      "33779503",
+      "23153654",
+      "31175370",
+      "26149687",
+      "38194282",
+      "38941236",
+      "36528065",
+      "34905768",
+      "31889261",
+      "34825861",
+      "24532081",
+      "37633550",
+      "39740355",
+      "29066345",
+      "33267376",
+      "40133791",
+      "29763584",
+      "21647374",
+      "34830151",
+      "28004021",
+      "34710373",
+      "32756939",
+      "19594884",
+      "36131545",
+      "36210722",
+      "30618266",
+      "38459060",
+      "35436286"
+    ],
+    "review": [
+      "40106150",
+      "36959451",
+      "34418423",
+      "36833360",
+      "31441158",
+      "39093570",
+      "31303975",
+      "36851914",
+      "35139468",
+      "35102880",
+      "34390736",
+      "37329857",
+      "33248138",
+      "24027208",
+      "35098694",
+      "31709918",
+      "33078839",
+      "34285781",
+      "36133101",
+      "39600309",
+      "33567297",
+      "31521235",
+      "38220424",
+      "37657994",
+      "24532081",
+      "39740355"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1007/7651_2025_617",
+        "provider": "Springer",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://assays.cancer.gov/non-CPTAC-1155",
+        "provider": "NCI CPTAC Assay Portal",
+        "category": "Miscellaneous",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

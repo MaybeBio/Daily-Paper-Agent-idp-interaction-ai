@@ -1,0 +1,233 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2023.08.30.555488",
+  "title": "The early communication stages between serine proteases and enterovirus capsids in the race for viral disintegration",
+  "doi": "10.1101/2023.08.30.555488",
+  "abstract": "<h4>Summary</h4> Enteroviruses are human pathogens known to challenge water safety 1,2 . Among the microbial stressors found in water, bacterial serine proteases contribute to the control of enterovirus persistence 3 . However, the structural interactions accounting for the susceptibility of enteroviruses to proteases remains unexplained. Here, we describe the molecular mechanisms involved in the recruitment of serine proteases to viral capsids. Among the virus types used, coxsackievirus A9 (CVA9), but not CVB5 and echovirus 11 (E11), was inactivated by Subtilisin A in a host-independent manner, while Bovine Pancreatic Trypsin (BPT) only reduced CVA9 infectivity in a host-dependent manner. Predictive interaction models of each protease with capsid protomers indicate the main targets as internal disordered protein (IDP) segments exposed either on the 5-fold vertex (DE loop VP1) or at the 5/2-fold intersection (C-terminal end VP1) of viral capsids. We further show that a functional binding protease/capsid depends on both the strength and the evolution over time of protease-VP1 complexes, and lastly on the local adaptation of proteases on surrounding viral regions. Finally, we identified three residues on CVA9 capsid that trigger cleavage by Subtilisin A, one of which acts as a sensor residue contributing to enzyme recognition on the DE loop. Overall, this study describes an important biological mechanism involved in enteroviruses biocontrol.",
+  "authors": [
+    "Corre M",
+    "Rey B",
+    "David SC",
+    "Torii S",
+    "Chiappe D",
+    "Kohn T"
+  ],
+  "published_date": "2023-08-30",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2023.08.30.555488",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2023.08.30.555488.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR716935",
+    "raw_record": {
+      "id": "PPR716935",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR716935"
+        ]
+      },
+      "doi": "10.1101/2023.08.30.555488",
+      "title": "The early communication stages between serine proteases and enterovirus capsids in the race for viral disintegration",
+      "authorString": "Corre M, Rey B, David SC, Torii S, Chiappe D, Kohn T.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Corre M",
+            "lastName": "Corre",
+            "firstName": "Marie-Hélène",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Environmental Chemistry, Environmental Engineering Institute (IIE), School of Architecture, Civil and Environmental Engineering (ENAC), Ecole Polytechnique Fédérale de Lausanne (EPFL), 1015-CH Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rey B",
+            "lastName": "Rey",
+            "firstName": "Benjamin",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Environmental Chemistry, Environmental Engineering Institute (IIE), School of Architecture, Civil and Environmental Engineering (ENAC), Ecole Polytechnique Fédérale de Lausanne (EPFL), 1015-CH Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "David SC",
+            "lastName": "David",
+            "firstName": "Shannon",
+            "initials": "SC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Environmental Chemistry, Environmental Engineering Institute (IIE), School of Architecture, Civil and Environmental Engineering (ENAC), Ecole Polytechnique Fédérale de Lausanne (EPFL), 1015-CH Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Torii S",
+            "lastName": "Torii",
+            "firstName": "Shotaro",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6655-7440"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Environmental Chemistry, Environmental Engineering Institute (IIE), School of Architecture, Civil and Environmental Engineering (ENAC), Ecole Polytechnique Fédérale de Lausanne (EPFL), 1015-CH Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chiappe D",
+            "lastName": "Chiappe",
+            "firstName": "Diego",
+            "initials": "D",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Proteomics Core Facility, School of Life Sciences, Ecole Polytechnique Fédérale de Lausanne (EPFL), 1015-CH Lausanne, Switzerland"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kohn T",
+            "lastName": "Kohn",
+            "firstName": "Tamar",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Environmental Chemistry, Environmental Engineering Institute (IIE), School of Architecture, Civil and Environmental Engineering (ENAC), Ecole Polytechnique Fédérale de Lausanne (EPFL), 1015-CH Lausanne, Switzerland"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6655-7440"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2023",
+      "abstractText": "<h4>Summary</h4>  Enteroviruses are human pathogens known to challenge water safety  1,2 . Among the microbial stressors found in water, bacterial serine proteases contribute to the control of enterovirus persistence  3 . However, the structural interactions accounting for the susceptibility of enteroviruses to proteases remains unexplained. Here, we describe the molecular mechanisms involved in the recruitment of serine proteases to viral capsids. Among the virus types used, coxsackievirus A9 (CVA9), but not CVB5 and echovirus 11 (E11), was inactivated by Subtilisin A in a host-independent manner, while Bovine Pancreatic Trypsin (BPT) only reduced CVA9 infectivity in a host-dependent manner. Predictive interaction models of each protease with capsid protomers indicate the main targets as internal disordered protein (IDP) segments exposed either on the 5-fold vertex (DE loop VP1) or at the 5/2-fold intersection (C-terminal end VP1) of viral capsids. We further show that a functional binding protease/capsid depends on both the strength and the evolution over time of protease-VP1 complexes, and lastly on the local adaptation of proteases on surrounding viral regions. Finally, we identified three residues on CVA9 capsid that trigger cleavage by Subtilisin A, one of which acts as a sensor residue contributing to enzyme recognition on the DE loop. Overall, this study describes an important biological mechanism involved in enteroviruses biocontrol.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2023
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Swiss National Science Foundation",
+            "grantId": "182468",
+            "orderIn": 0
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/06/2023.08.30.555488.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2023.08.30.555488"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR716935"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR716935&type=FILE&fileName=EMS187295-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "39122806",
+            "reference": "Communications biology. \n    2024 Aug;7(1):969",
+            "type": "Preprint of",
+            "note": "Link created based on a title-first author match",
+            "orderIn": 10001
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS187295",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2023-09-02",
+      "firstPublicationDate": "2023-08-30",
+      "firstIndexDate": "2023-09-02",
+      "fullTextReceivedDate": "2024-01-05",
+      "hasEvaluations": "N"
+    }
+  }
+}

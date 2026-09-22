@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.64898/2025.12.09.693212",
+  "title": "Binding Kinetics Oppositely Regulates type II Topoisomerase Relaxation and Decatenation Activities",
+  "authors": "Battaglia C; Conforto F; Gutiérrez Fosado YA; Newton M; Cutts E; Michieletto D; Valdés A",
+  "journal": "bioRxiv",
+  "published_date": "2025-12-11",
+  "window": {
+    "start": "2025-12-08",
+    "end": "2025-12-14"
+  },
+  "score": 4,
+  "one_liner_zh": "该文通过单分子实验和分子动力学模拟研究拓扑异构酶II结合动力学对DNA解连环与松弛活性的相反调控，对象为酶-DNA互作而非无序蛋白/IDR/相分离，但MD模拟解析结合-扩散机制对互作机制建模有一定可迁移启发。",
+  "abstract": "Type II Topoisomerases (topo II) are critical to simplify genome topology during transcription and replication. They identify topological problems and resolve them by passing a double-stranded DNA segment through a transient break in another segment. The precise mechanisms underpinning topo IIs ability to maintain a topologically simple genome are not fully understood. Here, we investigate how binding kinetics affects the resolution of two distinct forms of topological entanglement: decatenation and torsional relaxation. First, by single-molecule measurements, we quantify how monovalent cation concentration affects the dissociation rate of topo II from DNA. Second, we discover that increasing dissociation rates accelerate decatenation while slowing down relaxation catalytic activities. Finally, by using molecular dynamics simulations, we uncover that this opposite behaviour is due to a trade-off between search of target through facilitated diffusion and processivity of the enzyme in catenated versus super-coiled DNA. Thus, our findings reveal that a modulation of topo II binding kinetics can oppositely regulate its topological simplification activity, and in turn can have a significant impact in vivo .",
+  "abstract_zh": "II型拓扑异构酶（topo II）对于转录和复制过程中简化基因组拓扑结构至关重要。它们识别拓扑问题，并通过将一段双链DNA穿过另一段中的瞬时断裂来解决这些问题。支撑topo II维持拓扑简单基因组能力的具体机制尚未完全明了。在此，我们研究了结合动力学如何影响两种不同形式的拓扑缠结的解决：去连环化和扭转松弛。首先，通过单分子测量，我们量化了单价阳离子浓度如何影响topo II从DNA上的解离速率。其次，我们发现增加解离速率会加速去连环化，同时减慢松弛催化活性。最后，利用分子动力学模拟，我们揭示这种相反行为源于在连环化与超螺旋DNA中，通过促进扩散寻找靶标与酶持续合成能力之间的权衡。因此，我们的发现表明，调节topo II结合动力学可以相反地调控其拓扑简化活性，并进而对体内产生显著影响。",
+  "has_fulltext": false,
+  "fulltext_source": "abstract",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693212",
+  "source_url": "https://www.biorxiv.org/content/10.64898/2025.12.09.693212",
+  "paper_page_path": "papers/biorxiv/10.64898_2025.12.09.693212/index.html"
+}

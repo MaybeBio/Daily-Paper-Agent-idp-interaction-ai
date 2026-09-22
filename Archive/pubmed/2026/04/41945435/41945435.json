@@ -1,0 +1,377 @@
+{
+  "identity": {
+    "pmid": "41945435",
+    "doi": "10.1073/pnas.2522686123",
+    "title": "Elucidation of the aragonite nanofiber formation mechanism of LICP contained in the hinge ligament of Pinctada fucata."
+  },
+  "content": {
+    "abstract": "The hinge ligament of bivalves exhibits remarkable flexibility and compressive strength due to its composite structure of aragonite nanofibers embedded in an organic matrix. While these nanofibers are crucial for shell mechanics, the molecular mechanisms underlying their formation remain unclear. We investigated the function of a 10-residue intracrystalline peptide, ligament intracrystalline peptide (LICP), in regulating aragonite crystal growth. Using a solution-state NMR technique optimized for biomineral systems with dispersive calcium carbonate particles, we showed that LICP adopted a planar, elongated conformation in binding to aragonite. This structure features a coplanar arrangement of carboxyl and aromatic side chains-particularly tyrosines-that enables selective interaction with the aragonite 110. Saturation transfer difference NMR and dose-dependent structural analyses confirmed that this conformational change is triggered by solid-phase contact, rather than free calcium ions. Molecular dynamics simulations revealed enhanced binding stability of LICP to the 110 surface through multiple carboxyl and aromatic residues. Furthermore, in vitro crystallization assays showed that LICP promoted elongation of aragonite crystals along the c-axis, consistent with its selective surface binding. These findings demonstrated that conformational plasticity in short, disordered peptides enabled specific recognition of crystal faces and directed modulation of mineral growth. LICP serves as a minimal yet powerful model for exploring protein-mineral interfaces, offering broader insights into the structural principles by which intrinsically disordered peptides function in solid-phase biological systems.",
+    "keywords": [
+      "aragonite nanofiber",
+      "biomineralization",
+      "protein-mineral interface",
+      "solution NMR spectroscopy"
+    ],
+    "mesh_terms": [
+      "Animals",
+      "*Pinctada/chemistry/metabolism",
+      "*Nanofibers/chemistry",
+      "*Calcium Carbonate/chemistry/metabolism",
+      "*Ligaments/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "*Peptides/chemistry/metabolism",
+      "Magnetic Resonance Spectroscopy",
+      "Crystallization"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Futagawa, Kei",
+        "Namikawa, Yuto",
+        "Morioka, Taichi",
+        "Meguro, Haruki",
+        "Shida, Akira",
+        "Nagano, Yuki",
+        "Furihata, Kazuo",
+        "Watanabe, Hiroyuki",
+        "Nudelman, Fabio",
+        "Okumura, Taiga",
+        "Kogure, Toshihiro",
+        "Ikeya, Teppei",
+        "Ito, Yutaka",
+        "Katayama, Hidekazu",
+        "Nagata, Koji",
+        "Suzuki, Michio"
+      ],
+      "short_names": [
+        "Futagawa K",
+        "Namikawa Y",
+        "Morioka T",
+        "Meguro H",
+        "Shida A",
+        "Nagano Y",
+        "Furihata K",
+        "Watanabe H",
+        "Nudelman F",
+        "Okumura T",
+        "Kogure T",
+        "Ikeya T",
+        "Ito Y",
+        "Katayama H",
+        "Nagata K",
+        "Suzuki M"
+      ],
+      "auids": [
+        "ORCID: 0009-0004-4981-6657",
+        "ORCID: 0000-0003-4312-636X",
+        "ORCID: 0000-0001-7464-4309",
+        "ORCID: 0000-0002-1030-4660",
+        "ORCID: 0000-0003-3367-9147",
+        "ORCID: 0000-0001-6150-8957"
+      ],
+      "affiliations": [
+        "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan.",
+        "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan.",
+        "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan.",
+        "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan.",
+        "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan.",
+        "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan.",
+        "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan.",
+        "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan.",
+        "School of Chemistry, University of Edinburgh, Joseph Black Building, David Brewster Road, Edinburgh EH9 3FJ, United Kingdom.",
+        "Department of Earth Sciences, School of Education, Faculty of Education and Integrated Arts and Sciences, Waseda University, Shinjuku-ku, Tokyo 169-8050, Japan.",
+        "Department of Earth and Planetary Science, Graduate School of Science, University of Tokyo, Bunkyo-ku, Tokyo 113-0033, Japan.",
+        "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University, Hachioji, Tokyo 192-0397, Japan.",
+        "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University, Hachioji, Tokyo 192-0397, Japan.",
+        "Liberal Arts Center, Teikyo University, Utsunomiya, Tochigi 320-8551, Japan.",
+        "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan.",
+        "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Futagawa, Kei",
+        "short_name": "Futagawa K",
+        "identifiers": [
+          "0009-0004-4981-6657"
+        ],
+        "affiliations": [
+          "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan."
+        ]
+      },
+      {
+        "full_name": "Namikawa, Yuto",
+        "short_name": "Namikawa Y",
+        "identifiers": [
+          "0000-0003-4312-636X"
+        ],
+        "affiliations": [
+          "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan."
+        ]
+      },
+      {
+        "full_name": "Morioka, Taichi",
+        "short_name": "Morioka T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan."
+        ]
+      },
+      {
+        "full_name": "Meguro, Haruki",
+        "short_name": "Meguro H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan."
+        ]
+      },
+      {
+        "full_name": "Shida, Akira",
+        "short_name": "Shida A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan."
+        ]
+      },
+      {
+        "full_name": "Nagano, Yuki",
+        "short_name": "Nagano Y",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan."
+        ]
+      },
+      {
+        "full_name": "Furihata, Kazuo",
+        "short_name": "Furihata K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan."
+        ]
+      },
+      {
+        "full_name": "Watanabe, Hiroyuki",
+        "short_name": "Watanabe H",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan."
+        ]
+      },
+      {
+        "full_name": "Nudelman, Fabio",
+        "short_name": "Nudelman F",
+        "identifiers": [
+          "0000-0001-7464-4309"
+        ],
+        "affiliations": [
+          "School of Chemistry, University of Edinburgh, Joseph Black Building, David Brewster Road, Edinburgh EH9 3FJ, United Kingdom."
+        ]
+      },
+      {
+        "full_name": "Okumura, Taiga",
+        "short_name": "Okumura T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Earth Sciences, School of Education, Faculty of Education and Integrated Arts and Sciences, Waseda University, Shinjuku-ku, Tokyo 169-8050, Japan."
+        ]
+      },
+      {
+        "full_name": "Kogure, Toshihiro",
+        "short_name": "Kogure T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Earth and Planetary Science, Graduate School of Science, University of Tokyo, Bunkyo-ku, Tokyo 113-0033, Japan."
+        ]
+      },
+      {
+        "full_name": "Ikeya, Teppei",
+        "short_name": "Ikeya T",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University, Hachioji, Tokyo 192-0397, Japan."
+        ]
+      },
+      {
+        "full_name": "Ito, Yutaka",
+        "short_name": "Ito Y",
+        "identifiers": [
+          "0000-0002-1030-4660"
+        ],
+        "affiliations": [
+          "Department of Chemistry, Graduate School of Science, Tokyo Metropolitan University, Hachioji, Tokyo 192-0397, Japan."
+        ]
+      },
+      {
+        "full_name": "Katayama, Hidekazu",
+        "short_name": "Katayama H",
+        "identifiers": [
+          "0000-0003-3367-9147"
+        ],
+        "affiliations": [
+          "Liberal Arts Center, Teikyo University, Utsunomiya, Tochigi 320-8551, Japan."
+        ]
+      },
+      {
+        "full_name": "Nagata, Koji",
+        "short_name": "Nagata K",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan."
+        ]
+      },
+      {
+        "full_name": "Suzuki, Michio",
+        "short_name": "Suzuki M",
+        "identifiers": [
+          "0000-0001-6150-8957"
+        ],
+        "affiliations": [
+          "Department of Applied Biological Chemistry, Graduate School of Agricultural and Life Sciences, The University of Tokyo, Tokyo 113-8657, Japan."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Proceedings of the National Academy of Sciences of the United States of America"
+    ],
+    "journal_abbrev": [
+      "Proc Natl Acad Sci U S A"
+    ],
+    "pub_date": "2026 Apr 14",
+    "pub_year": "2026",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2026/04/07 18:32",
+    "fetched_at": "2026-09-18 02:21:26"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "41945435",
+      "25315163",
+      "41134001",
+      "27484975",
+      "31604125",
+      "28760695",
+      "40879455",
+      "19328543",
+      "38606767",
+      "24302723",
+      "32289403",
+      "19679771",
+      "24720254",
+      "41123418",
+      "20397648",
+      "30282805",
+      "23776687",
+      "33862321",
+      "39732219",
+      "16972140",
+      "33110152",
+      "19902130",
+      "22558208",
+      "23932180",
+      "40694334",
+      "19233851",
+      "36346258",
+      "39879641",
+      "32191756",
+      "26161976",
+      "15222016",
+      "30125693",
+      "14629554",
+      "42475469",
+      "28782039",
+      "33689053",
+      "26258941",
+      "17619219",
+      "39647593",
+      "17558025",
+      "21932217",
+      "29420020",
+      "23865482",
+      "41819392",
+      "35499596",
+      "23060620",
+      "14648763",
+      "22744724",
+      "27072850",
+      "23163540",
+      "26675363",
+      "39206560",
+      "21747964",
+      "18242173",
+      "26079887",
+      "29428728",
+      "29620882",
+      "31417166",
+      "28729529",
+      "11427046",
+      "26327454",
+      "34793903",
+      "17692465",
+      "25380651",
+      "26194158",
+      "30989236",
+      "17929965",
+      "10580124",
+      "27552287",
+      "26923245",
+      "22416139",
+      "20443689",
+      "2335528",
+      "25405357",
+      "16768425",
+      "10490692",
+      "24006084",
+      "19159266",
+      "41806612",
+      "33214608",
+      "28572387",
+      "17381152",
+      "10646937",
+      "19581305",
+      "29545643",
+      "33137413",
+      "36240891",
+      "30967473",
+      "38705929",
+      "19257685",
+      "12486808",
+      "24849383",
+      "18383500",
+      "27909912",
+      "36690224",
+      "17617722",
+      "28649833",
+      "23176816",
+      "19904951",
+      "17254533"
+    ],
+    "review": [
+      "41945435",
+      "41134001"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.pnas.org/doi/10.1073/pnas.2522686123?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

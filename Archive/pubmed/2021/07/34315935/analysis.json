@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "34315935",
+  "title": "Size conservation emerges spontaneously in biomolecular condensates formed by scaffolds and surfactant clients.",
+  "authors": "Sanchez-Burgos, Ignacio; Joseph, Jerelle A; Collepardo-Guevara, Rosana; Espinosa, Jorge R",
+  "journal": "Scientific reports",
+  "published_date": "2021-07-29",
+  "window": {
+    "start": "2021-07-26",
+    "end": "2021-08-01"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用最小蛋白模型模拟支架蛋白与表面活性剂客户蛋白的相分离，揭示多液滴尺寸守恒的涌现机制，虽未用AI/深度学习，但以物理模拟研究IDR相关凝聚体中的PPI与界面机制，对无序蛋白互作机制建模有直接启发。",
+  "abstract": "Biomolecular condensates are liquid-like membraneless compartments that contribute to the spatiotemporal organization of proteins, RNA, and other biomolecules inside cells. Some membraneless compartments, such as nucleoli, are dispersed as different condensates that do not grow beyond a certain size, or do not present coalescence over time. In this work, using a minimal protein model, we show that phase separation of binary mixtures of scaffolds and low-valency clients that can act as surfactants-i.e., that significantly reduce the droplet surface tension-can yield either a single drop or multiple droplets that conserve their sizes on long timescales (herein 'multidroplet size-conserved' scenario'), depending on the scaffold to client ratio. Our simulations demonstrate that protein connectivity and condensate surface tension regulate the balance between these two scenarios. The multidroplet size-conserved scenario spontaneously arises at increasing surfactant-to-scaffold concentrations, when the interfacial penalty for creating small liquid droplets is sufficiently reduced by the surfactant proteins that are preferentially located at the interface. In contrast, low surfactant-to-scaffold concentrations enable continuous growth and fusion of droplets without restrictions. Overall, our work proposes one thermodynamic mechanism to help rationalize how size-conserved coexisting condensates can persist inside cells-shedding light on the roles of protein connectivity, binding affinity, and droplet composition in this process.",
+  "abstract_zh": "生物分子凝聚体（biomolecular condensates）是类液体的无膜区室，有助于细胞内蛋白质、RNA及其他生物分子的时空组织。某些无膜区室，如核仁（nucleoli），以不同凝聚体的形式分散存在，这些凝聚体不会超过特定尺寸生长，或随时间推移不发生融合。在本工作中，利用最小蛋白质模型，我们展示了支架蛋白（scaffolds）与低价客户端蛋白（low-valency clients）的二元混合物发生相分离（phase separation）时，若客户端蛋白能充当表面活性剂——即显著降低液滴表面张力——则根据支架与客户端比例，可产生单一液滴或多个在长时间尺度上保持尺寸不变的液滴（此处称为“多液滴尺寸守恒”情景）。我们的模拟表明，蛋白质连接性和凝聚体表面张力调控这两种情景之间的平衡。多液滴尺寸守恒情景在表面活性剂与支架浓度比增加时自发出现，此时优先定位于界面的表面活性剂蛋白充分降低了形成小液滴的界面代价。相反，低表面活性剂与支架浓度比则允许液滴无限制地持续生长和融合。总体而言，我们的工作提出了一种热力学机制，有助于解释尺寸守恒的共存凝聚体如何在细胞内持续存在——揭示了蛋白质连接性、结合亲和力及液滴组成在此过程中的作用。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/34315935/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/34315935/",
+  "paper_page_path": "papers/pubmed/34315935/index.html"
+}

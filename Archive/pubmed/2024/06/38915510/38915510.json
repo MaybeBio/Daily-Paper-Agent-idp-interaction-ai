@@ -1,0 +1,347 @@
+{
+  "identity": {
+    "pmid": "38915510",
+    "doi": "10.1101/2024.06.10.598315",
+    "title": "Phosphorylation of disordered proteins tunes local and global intramolecular interactions."
+  },
+  "content": {
+    "abstract": "Protein post-translational modifications, such as phosphorylation, are important regulatory signals for diverse cellular functions. In particular, intrinsically disordered protein regions (IDRs) are subject to phosphorylation as a means to modulate their interactions and functions. Toward understanding the relationship between phosphorylation in IDRs and specific functional outcomes, we must consider how phosphorylation affects the IDR conformational ensemble. Various experimental techniques are suited to interrogate the features of IDR ensembles; molecular simulations can provide complementary insights and even illuminate ensemble features that may be experimentally inaccessible. Therefore, we sought to expand the tools available to study phosphorylated IDRs by all-atom Monte Carlo simulations. To this end, we implemented parameters for phosphoserine (pSer) and phosphothreonine (pThr) into the OPLS version of the continuum solvent model, ABSINTH, and assessed their performance in all-atom simulations compared to published findings. We simulated short (< 20 residues) and long (> 80 residues) phospho-IDRs that, collectively, survey both local and global phosphorylation-induced changes to the ensemble. Our simulations of four well-studied phospho-IDRs show near-quantitative agreement with published findings for these systems via metrics including changes to radius of gyration, transient helicity, and persistence length. We also leveraged the inherent advantage of sequence control in molecular simulations to explore the conformational effects of diverse combinations of phospho-sites in two multi-phosphorylated IDRs. Our results support and expand on prior observations that connect phosphorylation to changes in the IDR conformational ensemble. Herein, we describe phosphorylation as a means to alter sequence chemistry, net charge and charge patterning, and intramolecular interactions, which can collectively modulate the local and global IDR ensemble features.",
+    "keywords": [],
+    "mesh_terms": [],
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Usher, Emery T",
+        "Fossat, Martin J",
+        "Holehouse, Alex S"
+      ],
+      "short_names": [
+        "Usher ET",
+        "Fossat MJ",
+        "Holehouse AS"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-8303-9992",
+        "ORCID: 0000-0003-3078-2886",
+        "ORCID: 0000-0002-4155-5729"
+      ],
+      "affiliations": [
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA.",
+        "Department of Biological Physics, Max Planck Institute of Immunobiology and Epigenetics, Freiburg im Breisgau, Germany.",
+        "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+        "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Usher, Emery T",
+        "short_name": "Usher ET",
+        "identifiers": [
+          "0000-0002-8303-9992"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      },
+      {
+        "full_name": "Fossat, Martin J",
+        "short_name": "Fossat MJ",
+        "identifiers": [
+          "0000-0003-3078-2886"
+        ],
+        "affiliations": [
+          "Department of Biological Physics, Max Planck Institute of Immunobiology and Epigenetics, Freiburg im Breisgau, Germany."
+        ]
+      },
+      {
+        "full_name": "Holehouse, Alex S",
+        "short_name": "Holehouse AS",
+        "identifiers": [
+          "0000-0002-4155-5729"
+        ],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biophysics, Washington University School of Medicine, St. Louis, MO, USA.",
+          "Center for Biomolecular Condensates (CBC), Washington University in St. Louis, St. Louis, MO, USA."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "bioRxiv : the preprint server for biology"
+    ],
+    "journal_abbrev": [
+      "bioRxiv"
+    ],
+    "pub_date": "2024 Jun 12",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article",
+      "Preprint"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/06/25 06:42",
+    "fetched_at": "2026-09-21 08:10:44"
+  },
+  "links": {
+    "cites": [],
+    "refs": [
+      "37980572",
+      "37905972",
+      "37813838",
+      "37595155",
+      "37540173",
+      "37463458",
+      "36800279",
+      "36703366",
+      "36599672",
+      "36550025",
+      "36416865",
+      "36350035",
+      "35513709",
+      "35321476",
+      "35112738",
+      "34826385",
+      "34817999",
+      "34648313",
+      "34576338",
+      "34461937",
+      "33945530",
+      "33909430",
+      "33877835",
+      "33179922",
+      "32900925",
+      "32897071",
+      "32881101",
+      "32840111",
+      "32050065",
+      "31953410",
+      "31921850",
+      "31914313",
+      "31362509",
+      "31167941",
+      "30982746",
+      "30813315",
+      "30633502",
+      "30525611",
+      "30471706",
+      "30468703",
+      "29735687",
+      "29557644",
+      "29078291",
+      "28805390",
+      "28790177",
+      "28716919",
+      "28656226",
+      "28611216",
+      "28554535",
+      "28497798",
+      "28497792",
+      "28444340",
+      "28346509",
+      "28297648",
+      "28289210",
+      "27988422",
+      "27807972",
+      "27551949",
+      "27239037",
+      "27140628",
+      "27094800",
+      "26851279",
+      "26789759",
+      "26574339",
+      "26488642",
+      "26327565",
+      "26320411",
+      "26242913",
+      "26165593",
+      "25631161",
+      "25533957",
+      "25374899",
+      "25348080",
+      "25239571",
+      "24559475",
+      "24559171",
+      "22897252",
+      "20942500",
+      "20428473",
+      "18506808",
+      "18343814",
+      "16863191",
+      "16240095",
+      "14960716",
+      "11827536",
+      "9990840",
+      "9514257",
+      "8744570",
+      "8430094",
+      "8107853",
+      "6667333"
+    ],
+    "similar": [
+      "38915510",
+      "39539017",
+      "34557680",
+      "33267376",
+      "27807972",
+      "27140628",
+      "31724233",
+      "39713372",
+      "31999450",
+      "40042172",
+      "40856697",
+      "37905972",
+      "36824878",
+      "40530859",
+      "37463458",
+      "38297118",
+      "38712287",
+      "36987865",
+      "38297184",
+      "38915483",
+      "36711874",
+      "31797596",
+      "37657994",
+      "34883116",
+      "37595014",
+      "33076213",
+      "33406091",
+      "41378882",
+      "37155239",
+      "39453744",
+      "39253485",
+      "39933697",
+      "39093570",
+      "30193467",
+      "30878482",
+      "38942776",
+      "36674958",
+      "29309620",
+      "41276815",
+      "39653037",
+      "29763584",
+      "39589885",
+      "38705823",
+      "40034137",
+      "37986812",
+      "31441158",
+      "31362509",
+      "33191750",
+      "34681718",
+      "38365983",
+      "37961106",
+      "40317235",
+      "32357776",
+      "31303975",
+      "40631955",
+      "29722136",
+      "23912807",
+      "34825861",
+      "32824743",
+      "38284524",
+      "33976270",
+      "38662765",
+      "33248138",
+      "35882686",
+      "39186607",
+      "26242913",
+      "34576338",
+      "39600309",
+      "31003202",
+      "29078291",
+      "37546943",
+      "40997106",
+      "24115198",
+      "39190324",
+      "40574713",
+      "34179096",
+      "29626537",
+      "34100859",
+      "39446390",
+      "31678340",
+      "37125110",
+      "33243935",
+      "39914051",
+      "36291695",
+      "41394673",
+      "36272675",
+      "35767567",
+      "28924037",
+      "36824771",
+      "36851914",
+      "40889662",
+      "30802457",
+      "33719450",
+      "32696354",
+      "40654645",
+      "26548662",
+      "31241933",
+      "31709918",
+      "40842365",
+      "36648282"
+    ],
+    "review": [
+      "38915510",
+      "37657994",
+      "39093570",
+      "38705823",
+      "31441158",
+      "31303975",
+      "29722136",
+      "33248138",
+      "35882686",
+      "39600309",
+      "31003202",
+      "34100859",
+      "31678340",
+      "33243935",
+      "39914051",
+      "36851914",
+      "40889662",
+      "31709918"
+    ],
+    "pmc": [
+      "11195077"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/38915510/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/38915510",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://antibodies.cancer.gov/detail/CPTC-PTHrP-2",
+        "provider": "NCI CPTC Antibody Characterization Program",
+        "category": "Research Materials",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1101/2024.06.10.598315",
+        "provider": "Cold Spring Harbor Laboratory",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

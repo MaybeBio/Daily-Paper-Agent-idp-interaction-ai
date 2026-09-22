@@ -1,0 +1,253 @@
+{
+  "identity": {
+    "pmid": "37190858",
+    "doi": "10.1039/d3sm00131h",
+    "title": "Membrane curvature sensing by model biomolecular condensates."
+  },
+  "content": {
+    "abstract": "Biomolecular condensates (BCs) are fluid droplets that form in biological cells by liquid-liquid phase separation. Their major components are intrinsically disordered proteins. Vast attention has been given in recent years to BCs inside the cytosol and nucleus. BCs at the cell membrane have not been studied to the same extent so far. However, recent studies provide increasingly more examples of interfaces between BCs and membranes which function as platforms for diverse biomolecular processes. Galectin-3, for example, is known to mediate clathrin-independent endocytosis and has been recently shown to undergo liquid-liquid phase separation, but the function of BCs of galectin-3 in endocytic pit formation is unknown. Here, we use dissipative particle dynamics simulations to study a generic coarse-grained model for BCs interacting with lipid membranes. In analogy to galectin-3, we consider polymers comprising two segments - one of them mediates multivalent attractive interactions between the polymers, and the other one has affinity for association with specific lipid head groups. When these polymers are brought into contact with a multi-component membrane, they spontaneously assemble into droplets and, simultaneously, induce lateral separation of lipids within the membrane. Interestingly, we find that if the membrane is bent, the polymer droplets localize at membrane regions curved inward. Although the polymers have no particular shape or intrinsic curvature, they appear to sense membrane curvature when clustered at the membrane. Our results indicate toward a generic mechanism of membrane curvature sensing by BCs involved in such processes as endocytosis.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Biomolecular Condensates",
+      "*Galectin 3/metabolism",
+      "Cell Membrane/metabolism",
+      "Lipids"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Anila, Midhun Mohan",
+        "Ghosh, Rikhia",
+        "Rozycki, Bartosz"
+      ],
+      "short_names": [
+        "Anila MM",
+        "Ghosh R",
+        "Rozycki B"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-5938-7308"
+      ],
+      "affiliations": [
+        "Institute of Physics, Polish Academy of Sciences, Al. Lotnikow 32/46, 02-668 Warsaw, Poland. rozycki@ifpan.edu.pl.",
+        "Icahn School of Medicine at Mount Sinai, 1 Gustave L. Levy Pl, New York, NY 10029, USA.",
+        "Institute of Physics, Polish Academy of Sciences, Al. Lotnikow 32/46, 02-668 Warsaw, Poland. rozycki@ifpan.edu.pl."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Anila, Midhun Mohan",
+        "short_name": "Anila MM",
+        "identifiers": [],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Al. Lotnikow 32/46, 02-668 Warsaw, Poland. rozycki@ifpan.edu.pl."
+        ]
+      },
+      {
+        "full_name": "Ghosh, Rikhia",
+        "short_name": "Ghosh R",
+        "identifiers": [],
+        "affiliations": [
+          "Icahn School of Medicine at Mount Sinai, 1 Gustave L. Levy Pl, New York, NY 10029, USA."
+        ]
+      },
+      {
+        "full_name": "Różycki, Bartosz",
+        "short_name": "Różycki B",
+        "identifiers": [
+          "0000-0001-5938-7308"
+        ],
+        "affiliations": [
+          "Institute of Physics, Polish Academy of Sciences, Al. Lotnikow 32/46, 02-668 Warsaw, Poland. rozycki@ifpan.edu.pl."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Soft matter"
+    ],
+    "journal_abbrev": [
+      "Soft Matter"
+    ],
+    "pub_date": "2023 May 24",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/05/16 06:42",
+    "fetched_at": "2026-09-20 22:07:46"
+  },
+  "links": {
+    "cites": [
+      "42450059",
+      "41924571",
+      "40963550",
+      "39660892",
+      "38930833",
+      "38928405",
+      "38508884"
+    ],
+    "refs": [],
+    "similar": [
+      "37190858",
+      "38971606",
+      "33397597",
+      "38407041",
+      "37159305",
+      "38360555",
+      "34664748",
+      "37344557",
+      "23912807",
+      "35179885",
+      "38508884",
+      "32584357",
+      "31604601",
+      "37352127",
+      "36642341",
+      "37194953",
+      "36004748",
+      "33300799",
+      "37770422",
+      "38936257",
+      "39071308",
+      "36350034",
+      "35054543",
+      "35451616",
+      "37172364",
+      "37770446",
+      "31180661",
+      "29581232",
+      "34598583",
+      "37489654",
+      "35394774",
+      "36227468",
+      "25837255",
+      "33704061",
+      "36837726",
+      "38582523",
+      "34552246",
+      "32144274",
+      "34487789",
+      "24417311",
+      "30177505",
+      "25840649",
+      "33524373",
+      "37003559",
+      "38049424",
+      "37721444",
+      "35279562",
+      "35320537",
+      "36847235",
+      "37475548",
+      "34327010",
+      "38579181",
+      "36227469",
+      "36028355",
+      "35001622",
+      "35171683",
+      "36071192",
+      "34346674",
+      "32571937",
+      "16248982",
+      "19280016",
+      "33069007",
+      "33453922",
+      "37856873",
+      "38383403",
+      "36439121",
+      "28893908",
+      "36524527",
+      "37018196",
+      "36758221",
+      "34606793",
+      "35597639",
+      "35325654",
+      "34772786",
+      "34380923",
+      "31797598",
+      "29509422",
+      "34890409",
+      "19931628",
+      "37217523",
+      "30297718",
+      "34303933",
+      "36150962",
+      "35399121",
+      "31682868",
+      "34600419",
+      "36879427",
+      "37993409",
+      "37418523",
+      "35198903",
+      "37325682",
+      "38322995",
+      "38612940",
+      "35643628",
+      "36671536",
+      "38961263",
+      "38697653",
+      "36993242",
+      "35867744",
+      "38483514",
+      "39282261",
+      "27528656",
+      "38160256"
+    ],
+    "review": [
+      "37190858",
+      "38360555",
+      "37344557",
+      "35179885",
+      "38508884",
+      "31604601",
+      "36642341",
+      "38936257",
+      "36350034",
+      "35451616",
+      "37172364",
+      "36837726",
+      "34487789",
+      "30177505",
+      "37003559",
+      "35279562",
+      "37475548",
+      "36028355",
+      "36071192",
+      "33069007",
+      "38383403",
+      "36439121",
+      "36524527",
+      "34772786",
+      "29509422",
+      "19931628",
+      "34303933",
+      "36150962",
+      "31682868",
+      "34600419",
+      "36879427",
+      "38612940",
+      "36671536",
+      "38697653",
+      "27528656"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.1039/d3sm00131h",
+        "provider": "Royal Society of Chemistry",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39811792",
+  "title": "Evaluation of predictions of disordered binding regions in the CAID2 experiment.",
+  "authors": "Zhang, Fuhao; Kurgan, Lukasz",
+  "journal": "Computational and structural biotechnology journal",
+  "published_date": "2025-01-15",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 6,
+  "one_liner_zh": "该文系统评估了CAID2实验中32个预测器对无序结合区域(IDR)的预测性能，扩展了场景并分析不同配体类型下的区分能力，属于无序蛋白结合预测的基准评估，但未涉及互作机制建模或AI/物理模拟方法本身。",
+  "abstract": "A large portion of the Intrinsically Disordered Regions (IDRs) in protein sequences interact with proteins, nucleic acids, and other types of ligands. Correspondingly, dozens of sequence-based predictors of binding IDRs were developed. A recently completed second community-based Critical Assessments of protein Intrinsic Disorder prediction (CAID2) evaluated 32 predictors of binding IDRs. However, CAID2 considered a rather narrow scenario by testing on 78 proteins with binding IDRs and not differentiating between different ligands, in spite that virtually all predictors target IDRs that interact with specific types of ligands. In that scenario, several intrinsic disorder predictors predict binding IDRs with accuracy equivalent to the best predictors of binding IDRs since large majority of IDRs in the 78 test proteins are binding. We substantially extended the CAID2's evaluation by using the entire CAID2 dataset of 348 proteins and considering several arguably more practical scenarios. We assessed whether predictors accurately differentiate binding IDRs from other types of IDRs and how they perform when predicting IDRs that interact with different ligand types. We found that intrinsic disorder predictors cannot accurately identify binding IDRs among other disordered regions, majority of the predictors of binding IDRs are ligand type agnostic (i.e., they cross predict binding in IDRs that interact with ligands that they do not cover), and only a handful of predictors of binding IDRs perform relatively well and generate reasonably low amounts of cross predictions. We also suggest a number of future research directions that would move this active field of research forward.",
+  "abstract_zh": "蛋白质序列中大部分内在无序区域（IDRs）与蛋白质、核酸及其他类型配体相互作用。相应地，已开发出数十种基于序列的结合性IDR预测器。最近完成的第二轮社区性蛋白质内在无序预测关键评估（CAID2）对32种结合性IDR预测器进行了评估。然而，CAID2仅针对78种含结合性IDR的蛋白质进行测试，且未区分不同配体，尽管几乎所有预测器都针对与特定类型配体相互作用的IDR，这构成了一个较为狭窄的测试场景。在该场景下，由于78种测试蛋白质中绝大多数IDR均为结合性，若干内在无序预测器预测结合性IDR的准确度与最佳结合性IDR预测器相当。我们通过使用整个CAID2数据集（包含348种蛋白质）并考虑若干更具实际应用价值的场景，大幅扩展了CAID2的评估范围。我们评估了预测器能否准确区分结合性IDR与其他类型IDR，以及它们在预测与不同配体类型相互作用的IDR时的表现。我们发现，内在无序预测器无法在其他无序区域中准确识别结合性IDR，大多数结合性IDR预测器对配体类型不敏感（即，它们会交叉预测那些与未覆盖配体相互作用的IDR中的结合性），仅有少数结合性IDR预测器表现相对较好，并产生合理较低的交叉预测量。我们还提出了若干未来研究方向，以推动这一活跃研究领域的发展。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39811792/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39811792/",
+  "paper_page_path": "papers/pubmed/39811792/index.html"
+}

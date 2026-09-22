@@ -1,0 +1,464 @@
+{
+  "identity": {
+    "pmid": "39196930",
+    "doi": "10.1126/sciadv.adm9926",
+    "title": "Design of intrinsically disordered protein variants with diverse structural properties."
+  },
+  "content": {
+    "abstract": "Intrinsically disordered proteins (IDPs) perform a broad range of functions in biology, suggesting that the ability to design IDPs could help expand the repertoire of proteins with novel functions. Computational design of IDPs with specific conformational properties has, however, been difficult because of their substantial dynamics and structural complexity. We describe a general algorithm for designing IDPs with specific structural properties. We demonstrate the power of the algorithm by generating variants of naturally occurring IDPs that differ in compaction, long-range contacts, and propensity to phase separate. We experimentally tested and validated our designs and analyzed the sequence features that determine conformations. We show how our results are captured by a machine learning model, enabling us to speed up the algorithm. Our work expands the toolbox for computational protein design and will facilitate the design of proteins whose functions exploit the many properties afforded by protein disorder.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Intrinsically Disordered Proteins/chemistry/metabolism/genetics",
+      "*Algorithms",
+      "*Protein Conformation",
+      "Models, Molecular",
+      "Machine Learning",
+      "Computational Biology/methods",
+      "Protein Engineering/methods"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Pesce, Francesco",
+        "Bremer, Anne",
+        "Tesei, Giulio",
+        "Hopkins, Jesse B",
+        "Grace, Christy R",
+        "Mittag, Tanja",
+        "Lindorff-Larsen, Kresten"
+      ],
+      "short_names": [
+        "Pesce F",
+        "Bremer A",
+        "Tesei G",
+        "Hopkins JB",
+        "Grace CR",
+        "Mittag T",
+        "Lindorff-Larsen K"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-3403-2524",
+        "ORCID: 0000-0002-2525-1813",
+        "ORCID: 0000-0003-4339-4460",
+        "ORCID: 0000-0001-8554-8072",
+        "ORCID: 0000-0002-1600-5610",
+        "ORCID: 0000-0002-1827-3811",
+        "ORCID: 0000-0002-4750-6039"
+      ],
+      "affiliations": [
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark.",
+        "BioCAT, Department of Physics, Illinois Institute of Technology, Chicago, IL 60616, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA.",
+        "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA.",
+        "Structural Biology and NMR Laboratory, The Linderstrom-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Pesce, Francesco",
+        "short_name": "Pesce F",
+        "identifiers": [
+          "0000-0002-3403-2524"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Bremer, Anne",
+        "short_name": "Bremer A",
+        "identifiers": [
+          "0000-0002-2525-1813"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Tesei, Giulio",
+        "short_name": "Tesei G",
+        "identifiers": [
+          "0000-0003-4339-4460"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      },
+      {
+        "full_name": "Hopkins, Jesse B",
+        "short_name": "Hopkins JB",
+        "identifiers": [
+          "0000-0001-8554-8072"
+        ],
+        "affiliations": [
+          "BioCAT, Department of Physics, Illinois Institute of Technology, Chicago, IL 60616, USA."
+        ]
+      },
+      {
+        "full_name": "Grace, Christy R",
+        "short_name": "Grace CR",
+        "identifiers": [
+          "0000-0002-1600-5610"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Mittag, Tanja",
+        "short_name": "Mittag T",
+        "identifiers": [
+          "0000-0002-1827-3811"
+        ],
+        "affiliations": [
+          "Department of Structural Biology, St. Jude Children's Research Hospital, Memphis, TN 38105, USA."
+        ]
+      },
+      {
+        "full_name": "Lindorff-Larsen, Kresten",
+        "short_name": "Lindorff-Larsen K",
+        "identifiers": [
+          "0000-0002-4750-6039"
+        ],
+        "affiliations": [
+          "Structural Biology and NMR Laboratory, The Linderstrøm-Lang Centre for Protein Science, Department of Biology, University of Copenhagen, Copenhagen, Denmark."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Science advances"
+    ],
+    "journal_abbrev": [
+      "Sci Adv"
+    ],
+    "pub_date": "2024 Aug 30",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/08/29 08:03",
+    "fetched_at": "2026-09-22 01:40:56"
+  },
+  "links": {
+    "cites": [
+      "42573943",
+      "42538434",
+      "42527600",
+      "42523558",
+      "42425985",
+      "42418518",
+      "42239067",
+      "42182488",
+      "42143038",
+      "42063620",
+      "42041496",
+      "41993527",
+      "41944598",
+      "41898525",
+      "41889842",
+      "41803440",
+      "41756940",
+      "41708867",
+      "41688822",
+      "41452431",
+      "41221473",
+      "41001635",
+      "40690668",
+      "40671581",
+      "40524024",
+      "40524003",
+      "40449653",
+      "40386766",
+      "40131954",
+      "39944881",
+      "39914051",
+      "39677697",
+      "38361073",
+      "37986812",
+      "37961106"
+    ],
+    "refs": [
+      "38431892",
+      "38413010",
+      "38362050",
+      "38297184",
+      "38297118",
+      "38222029",
+      "37957331",
+      "37645312",
+      "37165539",
+      "36930719",
+      "36927031",
+      "36762858",
+      "36602579",
+      "36518077",
+      "36215496",
+      "35795820",
+      "35675815",
+      "35129612",
+      "34931046",
+      "34863777",
+      "34784177",
+      "34716273",
+      "34627764",
+      "34428231",
+      "34390736",
+      "34298061",
+      "34282049",
+      "34265844",
+      "33934416",
+      "33876938",
+      "33744284",
+      "33545530",
+      "33453925",
+      "33305318",
+      "32696384",
+      "32696370",
+      "32696363",
+      "32393642",
+      "32227994",
+      "32145944",
+      "32048997",
+      "32029630",
+      "32004090",
+      "31576635",
+      "31375817",
+      "30905771",
+      "30823702",
+      "30471688",
+      "30217894",
+      "30019371",
+      "29961577",
+      "29739979",
+      "29683665",
+      "29548755",
+      "29168376",
+      "29078291",
+      "29026044",
+      "29021737",
+      "28876235",
+      "28483149",
+      "28471369",
+      "28225081",
+      "28076807",
+      "27917826",
+      "27807972",
+      "27503953",
+      "27392146",
+      "27140628",
+      "26328871",
+      "25863585",
+      "25531225",
+      "24773235",
+      "24010708",
+      "23901099",
+      "23076520",
+      "23060610",
+      "22924672",
+      "21918772",
+      "21909575",
+      "21771306",
+      "21514145",
+      "20639465",
+      "20483348",
+      "20404210",
+      "19045004",
+      "18822297",
+      "18506808",
+      "18054235",
+      "17827232",
+      "17250999",
+      "16734424",
+      "16731699",
+      "16301309",
+      "11829506",
+      "11025552",
+      "10908673",
+      "8309926"
+    ],
+    "similar": [
+      "39196930",
+      "37961110",
+      "34390736",
+      "32696367",
+      "31425549",
+      "38097100",
+      "27503953",
+      "40081192",
+      "31756456",
+      "33230318",
+      "39555603",
+      "30471705",
+      "34626492",
+      "29982297",
+      "38987470",
+      "31441158",
+      "33310020",
+      "38296708",
+      "38275091",
+      "41174305",
+      "24098099",
+      "29042212",
+      "36257361",
+      "24532081",
+      "30066087",
+      "25496281",
+      "32579908",
+      "30135358",
+      "24010708",
+      "31375817",
+      "27794210",
+      "40068541",
+      "24008243",
+      "31021441",
+      "30471693",
+      "32859072",
+      "26387101",
+      "33355572",
+      "28369666",
+      "36674958",
+      "31356778",
+      "33945530",
+      "26851284",
+      "40172236",
+      "38297118",
+      "32020911",
+      "31809054",
+      "40674483",
+      "38781245",
+      "30733475",
+      "31739058",
+      "30554840",
+      "34032235",
+      "39475380",
+      "39807013",
+      "30025858",
+      "39642200",
+      "39740709",
+      "34863777",
+      "27844185",
+      "30527137",
+      "32161300",
+      "38657047",
+      "32503351",
+      "28076807",
+      "25863585",
+      "37905972",
+      "37026598",
+      "26513658",
+      "26727467",
+      "37219402",
+      "27004461",
+      "25331250",
+      "32103094",
+      "30657889",
+      "40095314",
+      "41082321",
+      "30708285",
+      "39576583",
+      "24656082",
+      "29080786",
+      "26387102",
+      "30979035",
+      "29808548",
+      "25611056",
+      "26426014",
+      "20483348",
+      "26387104",
+      "33248138",
+      "35883018",
+      "27988422",
+      "35129612",
+      "37108059",
+      "31552948",
+      "31794728",
+      "31756104",
+      "30813315",
+      "37452752",
+      "26549326",
+      "30124042"
+    ],
+    "review": [
+      "39196930",
+      "34390736",
+      "38097100",
+      "40081192",
+      "39555603",
+      "30471705",
+      "29982297",
+      "31441158",
+      "38296708",
+      "36257361",
+      "24532081",
+      "30066087",
+      "27794210",
+      "40068541",
+      "24008243",
+      "31021441",
+      "26387101",
+      "33355572",
+      "31356778",
+      "32020911",
+      "39740709",
+      "30527137",
+      "25863585",
+      "37219402",
+      "27004461",
+      "30657889",
+      "24656082",
+      "26387102",
+      "30979035",
+      "26426014",
+      "26387104",
+      "33248138",
+      "27988422",
+      "35129612",
+      "26549326"
+    ],
+    "pmc": [
+      "11352843"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https:///www.science.org/doi/10.1126/sciadv.adm9926?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub  0pubmed",
+        "provider": "Atypon",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://www.ovid.com/39196930.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/39196930/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/39196930",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

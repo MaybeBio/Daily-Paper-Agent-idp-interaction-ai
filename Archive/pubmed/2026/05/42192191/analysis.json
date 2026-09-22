@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "42192191",
+  "title": "Molecular determinants of arginine versus lysine cation-pi interactions in biomolecular condensates.",
+  "authors": "Armentia, Lydia; Lopez, Xabier; De Sancho, David",
+  "journal": "Communications chemistry",
+  "published_date": "2026-05-27",
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-05-31"
+  },
+  "score": 9,
+  "one_liner_zh": "该文通过分子动力学模拟和量子化学计算，揭示精氨酸与赖氨酸在生物分子凝聚体中阳离子-π相互作用的分子决定因素，直接聚焦IDR相分离中的PPI机制建模，方法扎实且机制深入。",
+  "abstract": "Biomolecular condensates formed by intrinsically disordered regions of proteins are primarily stabilised by amino acid \"stickers\" that crosslink polypeptide chains. While aromatic and positively charged residues both act as \"stickers\", their interaction mechanisms differ. Quantifying these differences is essential since they determine the fate of multicomponent mixtures. Here, we show that the two main positively charged stickers, arginine (Arg) and lysine (Lys), exhibit a consistent hierarchy where Arg promotes phase separation more effectively than Lys. Using molecular dynamics simulations and quantum chemical calculations, we find that, unlike aromatic residues, Arg and Lys consistently maintain this hierarchy across diverse molecular environments. While cation-pi interactions are important, the primary factor driving this difference is the higher dehydration penalty of Lys. In contrast, the preferred aromatic partner for these cations depends on the dielectric environment. These results explain at a molecular level the distinct contributions of Arg and Lys to condensate stability.",
+  "abstract_zh": "由蛋白质内在无序区域形成的生物分子凝聚体主要通过氨基酸“粘附点”（stickers）交联多肽链而稳定。尽管芳香族残基和带正电荷残基均充当“粘附点”，但它们的相互作用机制不同。量化这些差异至关重要，因为它们决定多组分混合物的命运。在此，我们表明两种主要的带正电荷粘附点——精氨酸（Arg）和赖氨酸（Lys）——表现出一致的层级关系，其中Arg比Lys更有效地促进相分离。利用分子动力学 (molecular dynamics) 模拟和量子化学计算，我们发现，与芳香族残基不同，Arg和Lys在不同分子环境中始终维持这一层级关系。虽然阳离子-π相互作用很重要，但驱动这一差异的主要因素是Lys更高的脱水惩罚。相比之下，这些阳离子偏好的芳香族伙伴取决于介电环境。这些结果在分子水平上解释了Arg和Lys对凝聚体稳定性的不同贡献。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42192191/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/42192191/",
+  "paper_page_path": "papers/pubmed/42192191/index.html"
+}

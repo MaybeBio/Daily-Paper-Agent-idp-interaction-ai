@@ -1,0 +1,206 @@
+{
+  "identity": {
+    "pmid": "39232485",
+    "doi": "10.1016/j.bpc.2024.107319",
+    "title": "Simulating the anti-aggregative effect of fasudil in early dimerisation process of alpha-synuclein."
+  },
+  "content": {
+    "abstract": "The aggregation of the protein alpha-synuclein into amyloid deposits is associated with multiple neurological disorders, including Parkinson's disease. Soluble amyloid oligomers are reported to exhibit higher toxicity than insoluble amyloid fibrils, with dimers being the smallest toxic oligomer. Small molecule drugs, such as fasudil, have shown potential in targeting alpha-synuclein aggregation and reducing its toxicity. In this study, we use atomistic molecular dynamics simulations to demonstrate how fasudil affects the earliest stage of aggregation, namely dimerization. Our results show that the presence of fasudil reduces the propensity for intermolecular contact formation between protein chains. Consistent with previous reports, our analysis confirms that fasudil predominantly interacts with the negatively charged C-terminal region of alpha-synuclein. However, we also observe transient interactions with residues in the charged N-terminal and hydrophobic NAC regions. Our simulations indicate that while fasudil prominently interacts with the C-terminal region, it is the transient interactions with residues in the N-terminal and NAC regions that effectively block the formation of intermolecular contacts between protein chains and prevent early dimerization of this disordered protein.",
+    "keywords": [
+      "Alpha-synuclein",
+      "Intrinsically disordered protein",
+      "Oligomerization",
+      "Small-molecule"
+    ],
+    "mesh_terms": [
+      "*alpha-Synuclein/chemistry/metabolism",
+      "*1-(5-Isoquinolinesulfonyl)-2-Methylpiperazine/analogs & derivatives/pharmacology/chemistry",
+      "*Molecular Dynamics Simulation",
+      "Humans",
+      "*Protein Multimerization/drug effects",
+      "Protein Aggregates/drug effects"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Menon, Sneha",
+        "Mondal, Jagannath"
+      ],
+      "short_names": [
+        "Menon S",
+        "Mondal J"
+      ],
+      "auids": [],
+      "affiliations": [
+        "Tata Institute of Fundamental Research Hyderabad, 36/P Gopanapalli village, Serilingampally Mandal, Hyderabad, Telangana 500046, India.",
+        "Tata Institute of Fundamental Research Hyderabad, 36/P Gopanapalli village, Serilingampally Mandal, Hyderabad, Telangana 500046, India. Electronic address: jmondal@tifrh.res.in."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Menon, Sneha",
+        "short_name": "Menon S",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad, 36/P Gopanapalli village, Serilingampally Mandal, Hyderabad, Telangana 500046, India."
+        ]
+      },
+      {
+        "full_name": "Mondal, Jagannath",
+        "short_name": "Mondal J",
+        "identifiers": [],
+        "affiliations": [
+          "Tata Institute of Fundamental Research Hyderabad, 36/P Gopanapalli village, Serilingampally Mandal, Hyderabad, Telangana 500046, India. Electronic address: jmondal@tifrh.res.in."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biophysical chemistry"
+    ],
+    "journal_abbrev": [
+      "Biophys Chem"
+    ],
+    "pub_date": "2024 Nov",
+    "pub_year": "2024",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2024/09/05 00:50",
+    "fetched_at": "2026-09-21 10:01:38"
+  },
+  "links": {
+    "cites": [],
+    "refs": [],
+    "similar": [
+      "39232485",
+      "27101974",
+      "36278939",
+      "35836937",
+      "29704492",
+      "34019875",
+      "35130691",
+      "29364151",
+      "31477241",
+      "30741954",
+      "19576220",
+      "22573613",
+      "25869255",
+      "28096355",
+      "33345970",
+      "33649211",
+      "31306510",
+      "33625841",
+      "29286644",
+      "25143382",
+      "25389903",
+      "31903719",
+      "25296841",
+      "39150403",
+      "26193124",
+      "31939603",
+      "30769283",
+      "20620148",
+      "35041853",
+      "26683082",
+      "29715424",
+      "26119103",
+      "24010662",
+      "24374342",
+      "26723627",
+      "38700150",
+      "30810027",
+      "38663121",
+      "36373662",
+      "22073131",
+      "38683963",
+      "29364143",
+      "33444530",
+      "25985292",
+      "31132261",
+      "39084146",
+      "26479553",
+      "30197194",
+      "29372732",
+      "38687053",
+      "38583832",
+      "24284367",
+      "29233215",
+      "32120928",
+      "23339399",
+      "27809690",
+      "25533189",
+      "38272228",
+      "23607785",
+      "31142553",
+      "23272053",
+      "31685848",
+      "28460628",
+      "33997868",
+      "26477939",
+      "31111370",
+      "27808107",
+      "25666040",
+      "32203628",
+      "32982240",
+      "24527756",
+      "29959225",
+      "38063360",
+      "20858207",
+      "34199427",
+      "25679387",
+      "34636232",
+      "29417650",
+      "38927031",
+      "29615762",
+      "30964656",
+      "37741548",
+      "31575115",
+      "22274962",
+      "37431676",
+      "19895818",
+      "29601727",
+      "23374074",
+      "29924502",
+      "35011320",
+      "28939194",
+      "26601760",
+      "30655291",
+      "30771171",
+      "31096048",
+      "19475665",
+      "25830974",
+      "18423664",
+      "20359221",
+      "30917654",
+      "28650719",
+      "39404233"
+    ],
+    "review": [
+      "39232485",
+      "29364151",
+      "36373662",
+      "38063360",
+      "29924502"
+    ],
+    "pmc": [],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/S0301-4622(24)00148-0",
+        "provider": "Elsevier Science",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "37838830",
+  "title": "Water molecule ordering on the surface of an intrinsically disordered protein.",
+  "authors": "Vural, Derya; Shrestha, Utsab R; Petridis, Loukas; Smith, Jeremy C",
+  "journal": "Biophysical journal",
+  "published_date": "2023-10-15",
+  "window": {
+    "start": "2023-10-09",
+    "end": "2023-10-15"
+  },
+  "score": 6,
+  "one_liner_zh": "该文用分子动力学模拟比较折叠蛋白与无序蛋白表面水分子有序性，虽聚焦水化层而非PPI，但为IDP表面物理化学环境建模提供可迁移的模拟方法。",
+  "abstract": "The dynamics and local structure of the hydration water on surfaces of folded proteins have been extensively investigated. However, our knowledge of the hydration of intrinsically disordered proteins (IDPs) is more limited. Here, we compare the local structure of water molecules hydrating a globular protein, lysozyme, and the intrinsically disordered N-terminal of c-Src kinase (SH4UD) using molecular dynamics simulation. The radial distributions from the protein surface of the first and the second hydration shells are similar for the folded protein and the IDP. However, water molecules in the first hydration shell of both the folded protein and the IDP are perturbed from the bulk. This perturbation involves a loss of tetrahedrality, which is, however, significantly more marked for the folded protein than the IDP. This difference arises from an increase in the first hydration shell of the IDP of the fraction of hydration water molecules interacting with oxygen. The water ordering is independent of the compactness of the IDP. In contrast, the lifetimes of water molecules in the first hydration shell increase with IDP compactness, indicating a significant impact of IDP configuration on water surface pocket kinetics, which here is linked to differential pocket volumes and polarities.",
+  "abstract_zh": "折叠蛋白表面的水合水动力学和局部结构已被广泛研究。然而，我们对 intrinsically disordered proteins (IDPs) 水合作用的认识较为有限。在此，我们利用分子动力学模拟比较了球状蛋白溶菌酶和c-Src激酶的内在无序N端（SH4UD）水合水分子的局部结构。第一和第二水合壳层从蛋白质表面出发的径向分布对于折叠蛋白和IDP相似。然而，折叠蛋白和IDP第一水合壳层中的水分子均受到扰动，偏离了体相水。这种扰动涉及四面体结构的丧失，但折叠蛋白的效应显著强于IDP。这一差异源于IDP第一水合壳层中与氧相互作用的水分子比例增加。水分子有序性与IDP的紧凑性无关。相反，第一水合壳层中水分子的寿命随IDP紧凑性增加而延长，表明IDP构象对水表面口袋动力学有显著影响，这在此处与差异性的口袋体积和极性相关。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/37838830/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/37838830/",
+  "paper_page_path": "papers/pubmed/37838830/index.html"
+}

@@ -1,0 +1,196 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2021.03.12.435186",
+  "title": "SARS-CoV-2 Nsp8 N-terminal domain dimerizes and harbors autonomously folded elements",
+  "doi": "10.1101/2021.03.12.435186",
+  "abstract": "The SARS-CoV-2 Nsp8 protein is a critical component of the RNA replicase, as its N-terminal domain (NTD) anchors Nsp12, the RNA, and Nsp13. Whereas its C-terminal domain (CTD) structure is well resolved, there is an open debate regarding the conformation adopted by the NTD as it is predicted as disordered but found in a variety of complex-dependent conformations or missing from many other structures. Using NMR spectroscopy, we show that the SARS CoV-2 Nsp8 NTD features both well folded secondary structure and disordered segments. Our results suggest that while part of this domain corresponding to two long α-helices forms autonomously, the folding of other segments would require interaction with other replicase components. When isolated, the α-helix population progressively declines towards the C-termini, and dynamics measurements indicate that the Nsp8 NTD behaves as a dimer under our conditions.",
+  "authors": [
+    "Treviño MÁ",
+    "Pantoja-Uceda D",
+    "Laurents DV",
+    "Mompeán M"
+  ],
+  "published_date": "2021-03-15",
+  "updated_date": "",
+  "journal": "bioRxiv",
+  "category": "",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2021.03.12.435186",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2021.03.12.435186.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [],
+  "extra": {
+    "provider": "europepmc",
+    "epmc_id": "PPR297046",
+    "raw_record": {
+      "id": "PPR297046",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR297046"
+        ]
+      },
+      "doi": "10.1101/2021.03.12.435186",
+      "title": "SARS-CoV-2 Nsp8 N-terminal domain dimerizes and harbors autonomously folded elements",
+      "authorString": "Treviño MÁ, Pantoja-Uceda D, Laurents DV, Mompeán M.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Treviño MÁ",
+            "lastName": "Treviño",
+            "firstName": "Miguel",
+            "initials": "MÁ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "“Rocasolano” Institute for Physical Chemistry, Spanish National Research Council, Serrano 119, Madrid 28006, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pantoja-Uceda D",
+            "lastName": "Pantoja-Uceda",
+            "firstName": "David",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4390-6972"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "“Rocasolano” Institute for Physical Chemistry, Spanish National Research Council, Serrano 119, Madrid 28006, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Laurents DV",
+            "lastName": "Laurents",
+            "firstName": "Douglas",
+            "initials": "DV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4187-165X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "“Rocasolano” Institute for Physical Chemistry, Spanish National Research Council, Serrano 119, Madrid 28006, Spain"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mompeán M",
+            "lastName": "Mompeán",
+            "firstName": "Miguel",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "“Rocasolano” Institute for Physical Chemistry, Spanish National Research Council, Serrano 119, Madrid 28006, Spain"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4187-165X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5608-3648"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4390-6972"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "pubYear": "2021",
+      "abstractText": "The SARS-CoV-2 Nsp8 protein is a critical component of the RNA replicase, as its N-terminal domain (NTD) anchors Nsp12, the RNA, and Nsp13. Whereas its C-terminal domain (CTD) structure is well resolved, there is an open debate regarding the conformation adopted by the NTD as it is predicted as disordered but found in a variety of complex-dependent conformations or missing from many other structures. Using NMR spectroscopy, we show that the SARS CoV-2 Nsp8 NTD features both well folded secondary structure and disordered segments. Our results suggest that while part of this domain corresponding to two long α-helices forms autonomously, the folding of other segments would require interaction with other replicase components. When isolated, the α-helix population progressively declines towards the C-termini, and dynamics measurements indicate that the Nsp8 NTD behaves as a dimer under our conditions.",
+      "pubTypeList": {
+        "pubType": [
+          "Preprint"
+        ]
+      },
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2021
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.biorxiv.org/content/biorxiv/early/2021/03/15/2021.03.12.435186.full.pdf"
+          },
+          {
+            "availability": "Free",
+            "availabilityCode": "F",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1101/2021.03.12.435186"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/article/PPR/PPR297046"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/api/fulltextRepo?pprId=PPR297046&type=FILE&fileName=EMS119920-pdf.pdf&mimeType=application/pdf"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "Y",
+      "nihAuthMan": "N",
+      "manuscriptId": "EMS119920",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pdb"
+        ]
+      },
+      "dateOfCreation": "2021-03-16",
+      "firstPublicationDate": "2021-03-15",
+      "firstIndexDate": "2021-03-16",
+      "fullTextReceivedDate": "2021-03-30",
+      "hasEvaluations": "N"
+    }
+  }
+}

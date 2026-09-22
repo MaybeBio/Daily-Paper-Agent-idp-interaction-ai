@@ -1,0 +1,99 @@
+## Review setup
+- **Input scope** Full manuscript text (preprint, bioRxiv)
+- **Assessment boundary** Scientific claims, experimental logic, and technical soundness as presented in the provided text; no supplementary figures or data files were available for inspection
+- **Shared manuscript claim summary** The authors propose that a protein condensation network involving Whi3 and processing bodies (P-bodies) integrates internal and external information to contextualise cell fate decisions in budding yeast. Specifically, they claim that Whi3 condensation, promoted by age-dependent P-bodies, is necessary and sufficient for senescence entry in old cells, and that the same network primes old cells to rapidly escape pheromone-induced arrest. They further propose that this network operates by repressing translation of Whi3 target mRNAs, notably CLN3.
+- **Visible evidence base** Results sections describing time-lapse microscopy, microfluidics-based ageing assays, optogenetic condensation experiments, fluorescence-based Cln3 reporter assays, and pheromone-switching experiments; figures referenced as Figures 1–7 and S1–S7; methods sections for strain construction, microfluidics, optogenetics, and image analysis
+- **Missing materials affecting confidence** Supplementary figures and data files; exact numerical values for effect sizes, statistical test outputs, and sample sizes per experiment; details of image quantification pipelines beyond brief descriptions; raw data for lifespan and division-time distributions; details of the Cln3 reporter calibration and validation
+
+## Reviewer
+- **Overall assessment** This manuscript presents a compelling and conceptually novel framework linking biomolecular condensation to cell fate decision-making in ageing yeast. The combination of genetics, live-cell imaging, and optogenetics is powerful, and the central claim that Whi3 condensation within P-bodies contextualises both senescence entry and pheromone escape is well supported by the presented logic. However, several technical and interpretive gaps remain, particularly around the specificity of the optogenetic effects, the quantitative relationship between P-body abundance and Whi3 function, and the mechanistic link between Whi3 condensation and CLN3 repression. These issues do not invalidate the core hypothesis but require resolution before the case is fully established.
+- **Who would be interested in the results, and why** Researchers studying cell fate decisions, ageing biology, biomolecular condensates, RNA-binding proteins, and prion-like domains. The work bridges yeast cell biology with broader questions about how cells integrate conflicting signals, and the proposed condensation network concept will likely stimulate interest in both the condensate and ageing communities. The optogenetic approach to control condensation in vivo is also of methodological interest.
+- **Major strengths** The study addresses a fundamental and unresolved question: how cells integrate diverse signals to make fate decisions. The use of single-cell time-lapse analysis over full lifespans is rigorous. The optogenetic system provides a causal, reversible tool to test the sufficiency of Whi3 condensation. The identification of P-bodies as an age-dependent platform that enables Whi3 function is a novel and important finding. The pheromone-escape experiments elegantly resolve an apparent paradox and reveal an age-dependent priming mechanism.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of optogenetic sufficiency claim
+  - **Claim pointer** The authors claim that optoWhi3 condensation is sufficient to drive senescence entry and shorten lifespan in young cells (Figures 3C, 3I).
+  - **Evidence pointer** Results section "Optogenetic Whi3 condensation reconstitutes cell division slowdown and senescence entry"; Figures 3B, 3C, 3I; Methods "Optogenetics"
+  - **Concern** The sufficiency claim rests on the assumption that the light-induced Cry2olig-mediated condensation of Whi3 phenocopies the endogenous age-dependent condensation. However, the manuscript does not provide evidence that the optoWhi3 condensates have the same composition, dynamics, or subcellular localization as endogenous Whi3 puncta in old cells. Specifically, it is unclear whether optoWhi3 condensates recruit the same mRNA targets or P-body components. Without this validation, the observed effects on cell cycle and lifespan could be due to a non-specific gain-of-function (e.g., sequestration of other factors) rather than reconstitution of the endogenous mechanism.
+  - **Why it matters** The sufficiency claim is central to the paper's thesis. If the optogenetic condensates do not faithfully mimic endogenous Whi3 condensation, the conclusion that Whi3 condensation drives senescence entry is weakened.
+  - **Resolution test** Provide co-localisation data of optoWhi3 condensates with P-body markers and Whi3 target mRNAs in young cells. Show that the transcriptome-wide translational repression pattern induced by optoWhi3 condensation matches that observed in old cells. Demonstrate that the effects of optoWhi3 are dependent on the presence of Whi3 target mRNAs (e.g., by mutating binding sites in CLN3).
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Quantitative link between P-body abundance and Whi3 function
+  - **Claim pointer** The authors propose that P-bodies provide the context for Whi3 to promote senescence entry, and that the extent of P-body formation correlates with the extent of the phenotype (Figures 5, 6).
+  - **Evidence pointer** Results sections "Whi3 is enriched in P-bodies" and "P-bodies promote cell division slowdown and senescence entry"; Figures 4, 5, 6
+  - **Concern** The manuscript shows that P-body disruption reduces Whi3's ability to promote senescence, but the quantitative relationship is not established. It is unclear whether a threshold level of P-bodies is required, or whether the effect is graded. The correlation between P-body abundance and division time (Figure S4D) is strong, but the causal link is not dissected. For example, does partial P-body disruption proportionally reduce Whi3's effect, or is there a switch-like behaviour? The data in Figure 6A suggest a graded effect, but this is not quantified or statistically tested.
+  - **Why it matters** The proposed model implies a quantitative, tunable integration of information by the condensation network. Without a clear dose-response relationship, the model remains qualitative.
+  - **Resolution test** Perform a systematic titration of P-body abundance (e.g., using inducible P-body assembly or partial depletion of P-body components) and measure the corresponding effect on Whi3-dependent senescence entry. Fit a quantitative model to the data.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Mechanistic link between Whi3 condensation and CLN3 repression
+  - **Claim pointer** The authors state that Whi3 condensation promotes senescence entry by repressing translation of CLN3 and possibly other targets (Figures 1, 3, 7E).
+  - **Evidence pointer** Results sections "Whi3 promotes senescence entry" and "Optogenetic Whi3 condensation reconstitutes cell division slowdown and senescence entry"; Figures 1E, 3E, 3H; Discussion
+  - **Concern** The evidence that CLN3 repression is the key downstream event is indirect. The CLN3 mGCAU mutant shows a partial phenocopy of whi3Δ, but the effect is incomplete (40% vs 76% failure to enter senescence). This suggests that other Whi3 targets are involved, but these are not identified or tested. Furthermore, the manuscript does not directly demonstrate that Whi3 condensation leads to CLN3 mRNA localisation to P-bodies or that CLN3 translation is repressed within these condensates.
+  - **Why it matters** The specificity of the mechanism is crucial. If the effect is mediated by many targets, the model is less parsimonious. If CLN3 is the main target, the partial phenocopy needs explanation.
+  - **Resolution test** Perform RNA fluorescence in situ hybridisation (FISH) for CLN3 mRNA in old cells and in optoWhi3-induced condensates. Use a CLN3 reporter with a destabilised fluorescent protein to directly measure translation rate in single cells. Test whether overexpression of CLN3 (or other targets) rescues the senescence entry defect in whi3Δ cells.
+  - **Concern ID** R1-M4
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Generalisability of the condensation network model
+  - **Claim pointer** The authors generalise their findings to propose that a "protein condensation network" integrates information for multiple cell fate decisions, and that this may be relevant to other organisms (Discussion).
+  - **Evidence pointer** Discussion section
+  - **Concern** The evidence for a network, as opposed to a linear pathway, is limited. The manuscript shows that Whi3 and P-bodies are involved in two decisions (senescence and pheromone escape), but it does not demonstrate that these are part of a broader network that integrates multiple signals. The claim that P-bodies "contextualise many decisions" is speculative and not directly tested.
+  - **Why it matters** The broader conceptual claim is a key selling point of the paper. If the evidence only supports a role in two specific decisions, the title and framing may overstate the findings.
+  - **Resolution test** Provide evidence that the same network components are involved in other decisions (e.g., response to nutrient stress, DNA damage). Alternatively, temper the claims in the Discussion to match the data.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of figure presentation
+  - **Affected element** Figures 1A, 1B, 3C
+  - **Evidence pointer** Results sections "Whi3 promotes senescence entry" and "Optogenetic Whi3 condensation reconstitutes cell division slowdown and senescence entry"
+  - **Issue** The division time plots appear to show individual cell traces, but it is unclear how many cells were analysed per condition and whether the traces are representative. The y-axis label is not specified.
+  - **Required correction** Add a clear description of the number of cells analysed, the statistical test used to compare distributions, and the meaning of the y-axis (e.g., division time in minutes).
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Figures 1C, 1D, 2E, 5E, 5I
+  - **Evidence pointer** Results sections "Whi3 promotes senescence entry" and "P-bodies promote cell division slowdown and senescence entry"
+  - **Issue** The text reports percentages and p-values but does not consistently state the sample size (n) for each condition or the type of statistical test used.
+  - **Required correction** Provide n and the specific statistical test for each comparison in the figure legends or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Definition of senescence
+  - **Affected element** Figure 1C, Methods "Senescence entry analysis"
+  - **Evidence pointer** Results section "Whi3 promotes senescence entry"
+  - **Issue** The definition of senescence as three or more consecutive divisions ≥90 minutes is arbitrary and may not capture all senescent states. The authors cite Fehrmann et al. but do not discuss the sensitivity of their conclusions to this threshold.
+  - **Required correction** Perform a sensitivity analysis with different thresholds (e.g., 2 or 4 consecutive slow divisions) and report whether the conclusions hold.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Control for light exposure effects
+  - **Affected element** Figure 3, Methods "Optogenetics"
+  - **Evidence pointer** Results section "Optogenetic Whi3 condensation reconstitutes cell division slowdown and senescence entry"
+  - **Issue** The manuscript does not report a control where cells expressing Cry2olig-tagged Whi3 are exposed to light but the Cry2 domain is mutated to prevent oligomerisation. This would control for non-specific effects of light exposure or the tag itself.
+  - **Required correction** Include a control with a non-oligomerising Cry2 mutant or a dark control where the light is not applied.
+  - **Concern ID** R1-m5
+  - **Severity** Minor
+  - **Axis** Clarity of the model
+  - **Affected element** Figure 7E
+  - **Evidence pointer** Discussion section
+  - **Issue** The model figure is described in the text but not shown in the provided material. The description is somewhat abstract and would benefit from a clear schematic.
+  - **Required correction** Ensure the model figure is included and clearly labelled, with a legend explaining the proposed logic gates (IF, AND).
+- **Technical failings that need to be addressed before the case is established** R1-M1 (optogenetic specificity) is the most critical. Without validation that optoWhi3 condensates recapitulate endogenous Whi3 condensates, the sufficiency claim is not fully supported. R1-M3 (mechanistic link to CLN3) also requires direct evidence. The other concerns are important but not blocking.
+- **Assessment against Nature-style criteria** 
+  - **Originality** High. The concept of a condensation network that integrates information for cell fate decisions is novel and goes beyond previous work on individual condensates.
+  - **Scientific importance** High. The findings have implications for understanding ageing, cell fate decisions, and the function of biomolecular condensates. The proposed mechanism may be conserved.
+  - **Interdisciplinary readership** Moderate to high. The work will appeal to cell biologists, biophysicists studying condensates, and ageing researchers. The conceptual framework may also interest systems biologists.
+  - **Technical soundness** Generally strong, but with gaps in the optogenetic validation and the quantitative link between P-body abundance and phenotype. The imaging and microfluidics are state-of-the-art.
+  - **Readability for nonspecialists** The manuscript is well-written and the logic is clear. However, the abstract and introduction assume familiarity with yeast biology and condensate terminology. Some terms (e.g., "mnemon") are not defined for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core hypothesis is compelling and the data are largely consistent with the model. However, the sufficiency claim requires stronger validation, and the mechanistic link to CLN3 needs direct evidence. If these are addressed, the paper would be a strong candidate for publication in a high-impact journal.
+
+## Risk / unsupported claims
+- The claim that Whi3 condensation is "sufficient" for senescence entry is not fully supported without validation that optoWhi3 condensates phenocopy endogenous condensates.
+- The claim that P-bodies "contextualise many decisions" is speculative and not directly tested beyond the two examples shown.
+- The statement that "senescence is likely an adaptive response" is an interpretation that is not directly tested.
+- The claim that the network "integrates information" implies a quantitative computation that is not demonstrated.
+- The generalisation to other organisms is speculative and not supported by data presented here.

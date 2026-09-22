@@ -1,0 +1,477 @@
+{
+  "identity": {
+    "pmid": "40675804",
+    "doi": "10.26508/lsa.202503202",
+    "title": "PRMT1 oligomerization regulates RNA-binding protein cascade to promote pancreatic cancer."
+  },
+  "content": {
+    "abstract": "PRMT1 is the predominant type I protein arginine methyltransferase responsible for generating monomethylarginine and asymmetric dimethylarginine (MMA and ADMA) in various protein substrates. It regulates numerous biological processes, including RNA metabolism, mRNA splicing, DNA damage repair, and chromatin dynamics. The crystal structure of rat PRMT1 has been previously reported as a homodimer; however, higher-order oligomeric species of human PRMT1 have been observed in vivo, and their structural basis remains elusive. In this study, we present the cryo-EM structure of human PRMT1 in its oligomeric form, revealing novel interfaces crucial for PRMT1 self-assembly and normal function. PRMT1 shows a strong preference for intrinsically disordered RGG/RG motifs, which are commonly found in RNA-binding proteins, highlighting its critical role in regulating RNA metabolism. In vitro studies indicate that disrupting PRMT1 oligomerization impairs its binding affinity for RGG motif substrates, thereby reducing arginine methylation levels on these substrates. This finding emphasizes the essential role of the oligomeric state of PRMT1 in its function with RGG motif-containing RNA-binding proteins. In vivo, the loss of PRMT1 oligomerization leads to decreased global ADMA levels in pancreatic ductal adenocarcinoma (PDAC) cells and inhibits PDAC tumor growth. Collectively, we propose that PRMT1 oligomerization, rather than mere dimerization, is sufficient for PRMT1-driven PDAC tumor growth, offering novel insights into the potential therapeutic targeting of PRMT1 oligomeric forms in PDAC.",
+    "keywords": [],
+    "mesh_terms": [
+      "*Protein-Arginine N-Methyltransferases/metabolism/chemistry/genetics",
+      "Humans",
+      "*Pancreatic Neoplasms/metabolism/genetics/pathology",
+      "Animals",
+      "*RNA-Binding Proteins/metabolism",
+      "Arginine/metabolism/analogs & derivatives",
+      "Protein Multimerization",
+      "*Repressor Proteins/metabolism/chemistry/genetics",
+      "Cell Line, Tumor",
+      "Mice",
+      "Protein Binding",
+      "Methylation",
+      "Carcinoma, Pancreatic Ductal/metabolism/genetics/pathology",
+      "Cryoelectron Microscopy",
+      "Rats"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Ru, Yanxia",
+        "Zhou, Xinyi",
+        "Wang, Xijiao",
+        "Sun, Wenxin",
+        "He, Yaohui",
+        "Hu, Guosheng",
+        "Li, Wenjuan",
+        "Hu, Die",
+        "Jiang, Meizhi",
+        "Su, Zhiming",
+        "Niu, Fengfeng",
+        "Chen, Gang",
+        "Zeng, Jinzhang",
+        "Sui, Sen-Fang",
+        "Liu, Wen",
+        "Li, Yaowang",
+        "Chen, Siming"
+      ],
+      "short_names": [
+        "Ru Y",
+        "Zhou X",
+        "Wang X",
+        "Sun W",
+        "He Y",
+        "Hu G",
+        "Li W",
+        "Hu D",
+        "Jiang M",
+        "Su Z",
+        "Niu F",
+        "Chen G",
+        "Zeng J",
+        "Sui SF",
+        "Liu W",
+        "Li Y",
+        "Chen S"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2006-5971",
+        "ORCID: 0009-0004-3495-9284"
+      ],
+      "affiliations": [
+        "School of Life Sciences, Southern University of Science and Technology, Shenzhen, China.",
+        "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China.",
+        "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China.",
+        "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China.",
+        "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China.",
+        "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China.",
+        "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China.",
+        "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China.",
+        "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China.",
+        "School of Life Sciences, Southern University of Science and Technology, Shenzhen, China.",
+        "School of Life Sciences, Southern University of Science and Technology, Shenzhen, China.",
+        "The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China.",
+        "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China.",
+        "School of Life Sciences, Southern University of Science and Technology, Shenzhen, China simingchen@xmu.edu.cn.",
+        "Beijing Frontier Research Center for Biological Structures, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, China.",
+        "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China liyw@sustech.edu.cn.",
+        "School of Life Sciences, Southern University of Science and Technology, Shenzhen, China w2liu@xmu.edu.cn.",
+        "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China suisf@mail.tsinghua.edu.cn.",
+        "Shenzhen Research Institute of Xiamen University, Shenzhen, China."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Ru, Yanxia",
+        "short_name": "Ru Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Southern University of Science and Technology, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Zhou, Xinyi",
+        "short_name": "Zhou X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Wang, Xijiao",
+        "short_name": "Wang X",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Sun, Wenxin",
+        "short_name": "Sun W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "He, Yaohui",
+        "short_name": "He Y",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Guosheng",
+        "short_name": "Hu G",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Li, Wenjuan",
+        "short_name": "Li W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Hu, Die",
+        "short_name": "Hu D",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Jiang, Meizhi",
+        "short_name": "Jiang M",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Su, Zhiming",
+        "short_name": "Su Z",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Southern University of Science and Technology, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Niu, Fengfeng",
+        "short_name": "Niu F",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Southern University of Science and Technology, Shenzhen, China."
+        ]
+      },
+      {
+        "full_name": "Chen, Gang",
+        "short_name": "Chen G",
+        "identifiers": [],
+        "affiliations": [
+          "The First Affiliated Hospital of Wenzhou Medical University, Wenzhou, China."
+        ]
+      },
+      {
+        "full_name": "Zeng, Jinzhang",
+        "short_name": "Zeng J",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China."
+        ]
+      },
+      {
+        "full_name": "Sui, Sen-Fang",
+        "short_name": "Sui SF",
+        "identifiers": [],
+        "affiliations": [
+          "School of Life Sciences, Southern University of Science and Technology, Shenzhen, China simingchen@xmu.edu.cn.",
+          "Beijing Frontier Research Center for Biological Structures, Beijing Advanced Innovation Center for Structural Biology, School of Life Sciences, Tsinghua University, Beijing, China."
+        ]
+      },
+      {
+        "full_name": "Liu, Wen",
+        "short_name": "Liu W",
+        "identifiers": [],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China liyw@sustech.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Li, Yaowang",
+        "short_name": "Li Y",
+        "identifiers": [
+          "0000-0003-2006-5971"
+        ],
+        "affiliations": [
+          "School of Life Sciences, Southern University of Science and Technology, Shenzhen, China w2liu@xmu.edu.cn."
+        ]
+      },
+      {
+        "full_name": "Chen, Siming",
+        "short_name": "Chen S",
+        "identifiers": [
+          "0009-0004-3495-9284"
+        ],
+        "affiliations": [
+          "School of Pharmaceutical Sciences, Fujian Provincial Key Laboratory of Innovative Drug Target Research, Xiamen University, Xiamen, China suisf@mail.tsinghua.edu.cn.",
+          "Shenzhen Research Institute of Xiamen University, Shenzhen, China."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Life science alliance"
+    ],
+    "journal_abbrev": [
+      "Life Sci Alliance"
+    ],
+    "pub_date": "2025 Sep",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/18 01:37",
+    "fetched_at": "2026-09-21 21:02:36"
+  },
+  "links": {
+    "cites": [
+      "42639951",
+      "42488687"
+    ],
+    "refs": [
+      "39491649",
+      "39097054",
+      "39022984",
+      "38691454",
+      "38460517",
+      "38402202",
+      "37938975",
+      "37673892",
+      "37620312",
+      "37269817",
+      "36329008",
+      "36256816",
+      "35661420",
+      "35101980",
+      "34759379",
+      "34738012",
+      "34688662",
+      "34557518",
+      "34330913",
+      "34145242",
+      "33853662",
+      "33782401",
+      "33459381",
+      "33060581",
+      "31976831",
+      "31959557",
+      "31350521",
+      "31267554",
+      "31230909",
+      "31086343",
+      "31035352",
+      "29913160",
+      "28943242",
+      "28575444",
+      "28250466",
+      "28061334",
+      "27979648",
+      "27048167",
+      "26876602",
+      "26529540",
+      "26278980",
+      "25911106",
+      "25104022",
+      "23746349",
+      "23620769",
+      "23235912",
+      "23000701",
+      "22767211",
+      "22761790",
+      "21986201",
+      "21965298",
+      "21736313",
+      "19858291",
+      "19150423",
+      "17882262",
+      "15837430",
+      "14583623",
+      "12737817",
+      "12523648",
+      "11835310",
+      "11532944",
+      "11101900",
+      "10848611",
+      "10713084",
+      "1628625"
+    ],
+    "similar": [
+      "40675804",
+      "31520395",
+      "34330913",
+      "39491649",
+      "38460517",
+      "31451547",
+      "22442049",
+      "39022984",
+      "34688662",
+      "27840030",
+      "32699135",
+      "28857308",
+      "38691454",
+      "31015230",
+      "37269817",
+      "28656289",
+      "23419748",
+      "27545444",
+      "16879614",
+      "19289494",
+      "38326807",
+      "39760222",
+      "17264152",
+      "38709899",
+      "30563898",
+      "17426288",
+      "33999432",
+      "18700728",
+      "29193371",
+      "40398714",
+      "40401713",
+      "20064924",
+      "39698834",
+      "19124016",
+      "41188812",
+      "40884268",
+      "21851090",
+      "39146246",
+      "10749851",
+      "28143887",
+      "41668296",
+      "34710370",
+      "33853662",
+      "26020839",
+      "15737635",
+      "9642256",
+      "39097054",
+      "31217189",
+      "40270464",
+      "37859611",
+      "16198009",
+      "22917032",
+      "24478314",
+      "37922507",
+      "16159886",
+      "22095282",
+      "27834681",
+      "26575292",
+      "37673892",
+      "33459381",
+      "33420374",
+      "34551290",
+      "24583552",
+      "37657666",
+      "12183049",
+      "25874535",
+      "30194893",
+      "36394342",
+      "34416910",
+      "22697391",
+      "40001488",
+      "10224081",
+      "19158082",
+      "29908641",
+      "39367565",
+      "40173041",
+      "28652407",
+      "41301411",
+      "19913501",
+      "37938975",
+      "19405910",
+      "26381755",
+      "32583741",
+      "21965298",
+      "25605962",
+      "26503212",
+      "16294045",
+      "25847239",
+      "34260915",
+      "27169995",
+      "26762411",
+      "26460953",
+      "20473859",
+      "39300069",
+      "26221041",
+      "32011657",
+      "19596784",
+      "39079611",
+      "31995759",
+      "30814496"
+    ],
+    "review": [
+      "40675804",
+      "38326807",
+      "37922507",
+      "24583552"
+    ],
+    "pmc": [
+      "12272085"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://doi.org/10.26508/lsa.202503202",
+        "provider": "HighWire",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://medlineplus.gov/pancreaticcancer.html",
+        "provider": "MedlinePlus Health Information",
+        "category": "Medical",
+        "attribute": "free resource",
+        "linkname": "Pancreatic Cancer"
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40675804/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://addgene.org/browse/pubmed/40675804",
+        "provider": "Addgene Non-profit plasmid repository",
+        "category": "Research Materials",
+        "attribute": "subscription/membership/fee required",
+        "linkname": "Get Article's Plasmids - Addgene"
+      }
+    ],
+    "text_mined": []
+  }
+}

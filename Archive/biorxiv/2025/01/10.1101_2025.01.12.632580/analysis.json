@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2025.01.12.632580",
+  "title": "Rationale design of peptide inhibitors for α -Synuclein liquid condensates and fibrillar aggregates using multiscale modelling approach",
+  "authors": "Ekambaram S; Prajapati S; Srivastava A",
+  "journal": "bioRxiv",
+  "published_date": "2025-01-14",
+  "window": {
+    "start": "2025-01-13",
+    "end": "2025-01-19"
+  },
+  "score": 9,
+  "one_liner_zh": "该文用多尺度建模（全原子MD、对接、粗粒化模拟）设计α-Synuclein无序蛋白的肽抑制剂，针对其单体、纤维和液滴凝聚体，并揭示动态穿梭结合机制，与无序蛋白介导互作机制建模高度契合。",
+  "abstract": "α -Synuclein is an intrinsically disordered protein (IDP) whose aggregation is implicated in Parkinson’s disorder. Herein, we computationally design a α -Synuclein derived potential peptide inhibitor against the protein’s monomeric, fibrillar and liquid condensate forms using multi-scale molecular modelling approaches. Since the conventional structure-based design paradigm often is not applicable to these highly labile IDPs, we first develop a pipeline to generate an exhaustive library of small candidate peptides from an available repository of α -Synuclein 70 µ s all-atom molecular dynamics (AAMD) trajectory data. We then use high throughput screening techniques such as PATCHDOCK and HPEPDOCK as well as AAMD simulations to arrive at a single candidate peptide. AAMD simulations data show that α -Synuclein bound peptide chain leads to an expanded conformational ensemble for the chain and also reduces the β -sheet propensity of the protein’s fibrillar amylogenic aggregates. Coarse-grained simulations using HPS-Cation forcefield with 100 chains of α -Synuclein and varying levels of candidate peptides shows decreased density and increased apparent critical temperature of the condensate system. Our detailed molecular interactions analyses show that peptides bind to the α -Synucleins through the “dynamic shuttling mechanism” where interaction are frequently made and broken around a given set of structurally proximal residues, which likely softens the dynamic interaction network in the condensates. Together, we could illustrate the inhibitory effect of the final designed peptide against distinct forms of α -Synuclein monomer and aggregates. Our work provides a multiscale simulation based prescription towards the futuristic development of therapeutic strategies against the disordered proteins.",
+  "abstract_zh": "α-Synuclein是一种 intrinsically disordered protein (IDP)，其聚集与帕金森病相关。在此，我们通过多尺度分子建模方法，计算设计了一种源自α-Synuclein的潜在肽抑制剂，针对该蛋白的单体、纤维状及液体凝聚体形式。由于传统的基于结构的设计范式通常不适用于这些高度不稳定的IDPs，我们首先开发了一个流程，从可用的α-Synuclein 70微秒全原子分子动力学（AAMD）轨迹数据存储库中生成一个详尽的小候选肽库。随后，我们使用高通量筛选技术，如PATCHDOCK和HPEPDOCK，以及AAMD模拟，最终确定一个候选肽。AAMD模拟数据显示，与α-Synuclein结合的肽链导致链的构象集合扩展，并降低了蛋白纤维状淀粉样聚集体的β-折叠倾向。使用HPS-Cation力场对100条α-Synuclein链及不同水平候选肽进行的粗粒化模拟显示，凝聚体系统的密度降低，表观临界温度升高。我们的详细分子相互作用分析表明，肽通过“动态穿梭机制”与α-Synuclein结合，其中相互作用在一组结构上邻近的残基周围频繁形成和断裂，这可能软化了凝聚体中的动态相互作用网络。综合来看，我们展示了最终设计肽对α-Synuclein单体和聚集体的不同形式的抑制效果。我们的工作提供了一种基于多尺度模拟的方案，为未来针对无序蛋白的治疗策略开发奠定了基础。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://www.biorxiv.org/content/10.1101/2025.01.12.632580",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2025.01.12.632580",
+  "paper_page_path": "papers/biorxiv/10.1101_2025.01.12.632580/index.html"
+}

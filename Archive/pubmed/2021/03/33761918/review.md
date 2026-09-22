@@ -1,0 +1,83 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, methods, results, discussion, conclusion, and supplementary information descriptions.
+- **Assessment boundary** Scientific validity, technical soundness, and support of claims based solely on the provided manuscript content. No external literature or unpublished data were consulted.
+- **Shared manuscript claim summary** The authors report the identification and biophysical characterization of a CP12 protein from the marine diatom *Thalassiosira pseudonana*. They claim that this protein is constitutively expressed, exhibits features of intrinsically disordered proteins, forms a non-covalent dimer, and possesses a dynamic, extended structure with a putative coiled-coil domain, distinguishing it from previously characterized CP12 proteins.
+- **Visible evidence base** Western blot data (Fig. 1), sequence alignment (Fig. 2), in silico disorder predictions (Fig. 3), native ESI-MS (Fig. 4a), SEC (Fig. 4b), DOSY-NMR (Fig. 5a), 1H-15N fHSQC spectra (Fig. 5b, c), SEC-SAXS data (Fig. 6), CD spectra (Fig. 7), and supplementary figures and tables as described.
+- **Missing materials affecting confidence** Raw data files, detailed SEC-SAXS data processing parameters, NMR assignment details, statistical analysis of replicates, and full supplementary figures and tables were not provided. The manuscript text references figures but does not include the actual figure images, limiting visual verification.
+
+## Reviewer
+- **Overall assessment** The manuscript presents a potentially interesting characterization of a diatom CP12 protein with unusual structural features. The combination of biophysical techniques is appropriate and the data, as described, appear to support the main claims of dimerization, disorder, and extended conformation. However, several technical details and interpretive leaps, particularly regarding the coiled-coil assignment and the functional implications, require clarification and additional evidence. The claim of a "new type" of CP12 is not fully established given the limited comparative analysis.
+- **Who would be interested in the results, and why** Researchers studying intrinsically disordered proteins, chloroplast redox regulation, the Calvin-Benson-Bassham cycle, and the evolutionary diversity of photosynthetic metabolism, particularly in diatoms and other stramenopiles. The work may also interest those investigating protein structure-function relationships in dynamic, multi-domain assemblies.
+- **Major strengths** The study employs a multi-technique approach (MS, SEC, NMR, SAXS, CD) to characterize a protein from an ecologically important but understudied organism group. The combination of in silico predictions with experimental validation is commendable. The observation of a stable dimer in a disordered protein is notable and potentially significant.
+- **Major Concerns**
+    - **Concern ID** R1-M1
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Technical soundness
+    - **Claim pointer** The authors claim that SEC-SAXS data support a model of an "elongated cylinder with kinks" and that a coiled-coil domain can be accommodated within this envelope.
+    - **Evidence pointer** Results section, "SEC-SAXS" subsection; Fig. 6
+    - **Concern** The description of the SAXS data analysis is insufficient. The manuscript states that the molecular mass was inferred from forward scattering intensity and that the envelope was determined using DAMMIF and GASBOR, but it does not provide key quality metrics such as the Rg from Guinier analysis, the excluded volume, the Porod volume, or the goodness-of-fit (chi-squared) for the final models. The "kinks" in the envelope are mentioned but not quantitatively defined or compared against alternative models (e.g., a simple elongated ellipsoid or a two-domain model). The fit of the coiled-coil model into the envelope is described as "manual" without a quantitative assessment of how well the model explains the scattering data.
+    - **Why it matters** The central structural claim of the paper, that this CP12 forms a unique elongated dimer with a central coiled-coil, rests heavily on the SAXS data. Without rigorous model validation and reporting of standard SAXS quality metrics, the derived shape and the placement of the coiled-coil domain are not convincingly established. This is a critical technical deficiency that undermines the main novelty claim.
+    - **Resolution test** The authors should provide a comprehensive SAXS data analysis table including Rg, I(0), Porod volume, molecular mass estimates from different methods, and chi-squared values for the DAMMIF, GASBOR, and any atomic model fits. They should also show a superposition of the calculated scattering curve from the final model onto the experimental data. An alternative analysis using an ensemble optimization method (EOM) or similar to account for flexibility should be considered to support the "dynamic" claim.
+    - **Concern ID** R1-M2
+    - **Severity** Major
+    - **Blocking** Yes
+    - **Axis** Claim support
+    - **Claim pointer** The authors state that "unlike other known CP12 proteins that are monomers, this protein is a dimer" and that this dimerization is a distinguishing feature.
+    - **Evidence pointer** Results section, "Oligomeric state of CP12" subsection; Fig. 4
+    - **Concern** The evidence for a stable, solution-phase dimer is not fully conclusive. Native ESI-MS can sometimes preserve non-specific gas-phase dimers, and the manuscript acknowledges partial dissociation during ionization. While SEC shows a single peak, the apparent molecular mass of 93 kDa is much larger than the theoretical dimer mass of 35.3 kDa, which is attributed to an extended shape. This is plausible but not definitive. The claim that this is a "new type" of CP12 relies on the dimer being a stable, biologically relevant species. The authors do not rule out concentration-dependent oligomerization or the influence of the His-tag in the SAXS experiments (which were performed with His-tagged protein).
+    - **Why it matters** The dimeric state is a key differentiator from other CP12 proteins and is central to the proposed structural model. If the dimer is an artifact of the experimental conditions or a low-affinity interaction, the novelty of the findings is significantly reduced.
+    - **Resolution test** The authors should perform a concentration-dependent study using SEC or analytical ultracentrifugation to demonstrate that the dimer is stable across a range of concentrations. They should also repeat the SAXS analysis with the untagged protein to rule out any contribution from the His-tag to the observed shape or oligomeric state. A discussion of the potential biological relevance of the dimer, perhaps with reference to the concentration of CP12 in the chloroplast, would strengthen the claim.
+    - **Concern ID** R1-M3
+    - **Severity** Major
+    - **Blocking** No
+    - **Axis** Scientific importance
+    - **Claim pointer** The authors conclude that the structural properties "suggest that it is not an alien as regard to other CP12s and might therefore have one-to-many functions" and that it "raises questions about the role of this protein in addition to the well-established regulation of the CBB cycle."
+    - **Evidence pointer** Discussion section; Conclusion section
+    - **Concern** The functional implications of the structural findings are highly speculative. The manuscript does not provide any direct functional data, such as binding studies with GAPDH, FNR, or other potential partners, nor does it test the effect of the observed structural features on activity. The link between the "flexible" structure and a "one-to-many" function is asserted but not explored. The statement that the protein is "not specific to carbon metabolism" is based on expression data under various stresses, but this is a correlation, not a demonstration of function.
+    - **Why it matters** For a Nature-style audience, the significance of a structural characterization is greatly enhanced by functional context. Without any functional experiments or at least a more rigorous discussion of how the structural features might dictate function, the paper remains a descriptive biophysical study. The importance of the work to a broad readership is therefore limited.
+    - **Resolution test** The authors should either include preliminary functional data (e.g., interaction studies, activity assays) or temper the conclusions to more accurately reflect the descriptive nature of the study. A more focused discussion on how the dimeric, extended structure could specifically alter interactions with known CP12 partners, compared to monomeric CP12s, would be valuable.
+- **Minor Comments**
+    - **Concern ID** R1-m1
+    - **Severity** Minor
+    - **Axis** Clarity
+    - **Affected element** Abstract and Introduction
+    - **Evidence pointer** Abstract; Introduction section
+    - **Issue** The abstract and introduction state that CP12 is "an actor of the redox signaling pathway" and is "involved in the regulation of the Calvin Benson Bassham (CBB) cycle." However, the manuscript does not investigate this function. The framing is slightly misleading.
+    - **Required correction** Rephrase the opening to clarify that the manuscript focuses on structural characterization, and that the functional role is the context for the study, not its subject.
+    - **Concern ID** R1-m2
+    - **Severity** Minor
+    - **Axis** Technical detail
+    - **Affected element** Methods section, "Nuclear magnetic resonance (NMR)" subsection
+    - **Evidence pointer** Methods section
+    - **Issue** The NMR section mentions "fast 1H-15N heteronuclear single quantum correlation (fHSQC)" and DOSY experiments but does not provide key acquisition parameters such as the number of scans for DOSY, the diffusion delay range, or the temperature calibration. The statement that "34 resonances present narrow linewidths" is made without a clear explanation of how this number was determined or what fraction of the total expected resonances this represents.
+    - **Required correction** Provide more detailed NMR acquisition and processing parameters. Clarify the expected number of backbone amide resonances for the protein and discuss the significance of observing only 34.
+    - **Concern ID** R1-m3
+    - **Severity** Minor
+    - **Axis** Data presentation
+    - **Affected element** Results section, "Expression of a CP12 protein in T. pseudonana" subsection; Fig. 1
+    - **Evidence pointer** Fig. 1
+    - **Issue** The western blot in Fig. 1 is described as showing constitutive expression, but no loading controls (e.g., Coomassie-stained gel or a housekeeping protein) are mentioned. This makes it difficult to assess whether the consistent signal is due to equal loading or true constitutive expression.
+    - **Required correction** Include a loading control for the western blot experiments or state that equal protein loading was verified by a specific method.
+    - **Concern ID** R1-m4
+    - **Severity** Minor
+    - **Axis** Interpretation
+    - **Affected element** Results section, "Secondary structure of CP12" subsection; Fig. 7
+    - **Evidence pointer** Fig. 7
+    - **Issue** The CD data is interpreted as showing a "high content of α-helices" and the presence of a coiled-coil. While the increase in helicity upon TFE addition is shown, the interpretation of the isosbestic point as evidence for a two-state transition is an oversimplification, as TFE can induce non-cooperative structural changes in disordered proteins.
+    - **Required correction** Soften the interpretation of the TFE titration data. Acknowledge that TFE is a helix-inducing solvent and that the isosbestic point is consistent with, but not proof of, a two-state equilibrium.
+- **Technical failings that need to be addressed before the case is established** R1-M1 (SAXS model validation) and R1-M2 (dimer stability) are the primary technical issues. The lack of functional data (R1-M3) is a significant weakness but may not be a technical failing if the paper is positioned as a purely structural study.
+- **Assessment against Nature-style criteria**
+    - **Originality** Moderate. The application of a biophysical toolkit to a diatom CP12 is novel, and the observation of a dimer is a new finding for this protein family. However, the overall concept of disordered CP12 proteins is established.
+    - **Scientific importance** Limited. The study is descriptive and does not yet connect the structural novelty to a clear functional or evolutionary insight that would be of broad significance. The importance is largely confined to the CP12 and IDP subfields.
+    - **Interdisciplinary readership** Narrow. The techniques used are specialized, and the topic is specific. The paper is unlikely to appeal to a broad readership beyond structural biologists and photosynthesis researchers.
+    - **Technical soundness** Currently not fully established. The main structural claims require more rigorous data analysis and presentation, particularly for the SAXS and oligomerization studies.
+    - **Readability for nonspecialists** The manuscript is generally well-written and the logic is clear, but the methods and results sections assume a high level of familiarity with biophysical techniques. The broader significance is not well-articulated for a general audience.
+- **Recommendation posture** Supportive if technical concerns are resolved. The core observations are potentially interesting, but the manuscript requires substantial revision to strengthen the SAXS analysis, provide more robust evidence for the dimer, and either add functional data or significantly reframe the conclusions to match the descriptive scope. The current evidence does not fully establish the claim of a "new type" of CP12 protein.
+
+## Risk / unsupported claims
+- The claim that the protein is a "new type" of CP12 is not fully supported without a more comprehensive phylogenetic and structural comparison to other CP12s, including those from other diatoms.
+- The functional speculation regarding "one-to-many functions" and a role beyond carbon metabolism is unsupported by direct experimental evidence.
+- The statement that the protein is "constitutively expressed" is based on a single western blot without a loading control, making the claim weak.
+- The interpretation of the SAXS envelope as containing a specific coiled-coil domain is not quantitatively validated.
+- The claim that the protein's dynamic properties are "related to this function" (stress response) is speculative and not tested.

@@ -1,0 +1,71 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no methods, figures, tables, or supplementary materials were provided
+- **Shared manuscript claim summary** The authors introduce ESMDisPred, a structure-aware disorder predictor combining ESM2 protein language model embeddings with PDB-derived structural information, enhanced by feature engineering and a hybrid CNN-Transformer architecture. They report state-of-the-art performance on CAID3 benchmarks with ROC-AUC 0.895, AP 0.778, and max F1 0.759, outperforming recent methods.
+- **Visible evidence base** Abstract text only; no numerical comparisons, baseline descriptions, dataset details, or architectural specifics beyond those stated in the abstract
+- **Missing materials affecting confidence** Full manuscript, methods section, benchmark configuration details, baseline method list, statistical significance tests, ablation studies, and any figures or tables
+
+## Reviewer
+- **Overall assessment** The abstract presents a plausible and potentially valuable approach to intrinsically disordered protein prediction, leveraging the established strengths of ESM2 embeddings and structural information. However, the evidence provided in the abstract is insufficient to evaluate the validity of the performance claims, the novelty of the architecture relative to existing methods, or the robustness of the benchmark results. The reported metrics are presented without context regarding baseline performance, variance, or statistical significance, which limits the ability to assess whether the claimed improvements are meaningful.
+- **Who would be interested in the results, and why** Computational biologists and bioinformaticians working on protein structure and function prediction, particularly those focused on intrinsically disordered proteins and regions. Researchers developing deep learning methods for biological sequence analysis would also be interested in the hybrid CNN-Transformer architecture and the integration of language model embeddings with structural features. The potential applications in drug discovery and disease research may attract a broader structural biology audience.
+- **Major strengths** The integration of ESM2 embeddings with explicit structural information from PDB is a sensible and timely direction, given the demonstrated utility of protein language models in related tasks. The hybrid CNN-Transformer design is a reasonable architectural choice for capturing both local motifs and long-range dependencies. The reported performance on CAID3 benchmarks, if reproducible and statistically robust, would represent a meaningful contribution to the field.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Evidence sufficiency
+  - **Claim pointer** The abstract claims that ESMDisPred achieves "state-of-the-art prediction accuracy" and "outperforms recent methods" on CAID3 benchmarks.
+  - **Evidence pointer** Abstract, performance metrics section; location not provided
+  - **Concern** The abstract reports ROC-AUC 0.895, AP 0.778, and max F1 0.759 but provides no comparison values for any baseline or recent method. Without knowing the performance of competing approaches on the same benchmarks, the claim of outperforming recent methods cannot be evaluated.
+  - **Why it matters** The central contribution of the work is the claimed improvement over existing methods. If the comparison is not presented with appropriate context, including the specific methods compared, the evaluation protocol, and statistical significance, the claim is unsupported and the practical value of the method remains unclear.
+  - **Resolution test** Provide a table or figure in the full manuscript comparing ESMDisPred against at least the top-performing recent methods on CAID3 benchmarks, including standard deviations or confidence intervals, and state whether differences are statistically significant.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness
+  - **Claim pointer** The abstract states that the model "integrates sequence embeddings with structural information from the Protein Data Bank (PDB)" and that this integration is important for improved prediction.
+  - **Evidence pointer** Abstract, methods description; location not provided
+  - **Concern** The abstract does not specify how structural information is derived or incorporated. It is unclear whether the model uses experimentally determined structures, predicted structures, or some derived representation such as secondary structure or solvent accessibility. The potential for information leakage between training and test sets when using PDB structures is a critical concern that is not addressed.
+  - **Why it matters** The use of structural information in disorder prediction is methodologically delicate because disordered regions are often absent from PDB structures, and the choice of structural representation can substantially affect performance. If the structural features are not carefully defined and validated, the reported improvements may be artifactual.
+  - **Resolution test** Describe in the methods section the exact structural features used, how they are computed, and how the authors ensured that no test-set structural information leaks into training. Include an ablation study showing the contribution of structural features versus sequence-only embeddings.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Reproducibility
+  - **Claim pointer** The abstract describes a "hybrid CNN-Transformer architecture" and "feature engineering strategies, including terminal residue encoding, statistical summarization, and sliding-window analysis."
+  - **Evidence pointer** Abstract, architecture description; location not provided
+  - **Concern** The abstract provides insufficient detail on the architecture, hyperparameters, training procedure, and feature engineering to allow replication. Key parameters such as the number of layers, embedding dimensions, window sizes, and training data splits are not mentioned.
+  - **Why it matters** Reproducibility is a core requirement for computational biology methods. Without adequate methodological detail, other researchers cannot build upon or independently verify the approach, which limits the scientific impact of the work.
+  - **Resolution test** Provide a complete methods section with architecture diagrams, hyperparameter tables, training details, and code availability statement in the full manuscript.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity
+  - **Affected element** Abstract, performance metrics
+  - **Evidence pointer** Abstract, performance metrics section; location not provided
+  - **Issue** The abstract reports "max F1 of 0.759" without specifying the threshold at which this maximum is achieved or whether this is a standard reporting practice for the CAID3 benchmark.
+  - **Required correction** Clarify the threshold selection procedure for max F1 and state whether this metric is consistent with CAID3 evaluation conventions.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Completeness
+  - **Affected element** Abstract, benchmark description
+  - **Evidence pointer** Abstract, CAID3 benchmarks mention; location not provided
+  - **Issue** The abstract does not specify which CAID3 benchmark datasets were used, such as the independent test set or specific target categories, nor the number of proteins evaluated.
+  - **Required correction** Specify the exact CAID3 datasets used and the number of test proteins in the abstract or methods.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Context
+  - **Affected element** Abstract, related work
+  - **Evidence pointer** Abstract, introduction; location not provided
+  - **Issue** The abstract does not mention any specific prior disorder prediction methods, making it difficult to contextualize the claimed improvement.
+  - **Required correction** Name at least two or three recent disorder predictors in the abstract or introduction and state their reported performance for comparison.
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are the primary technical concerns. The lack of comparative performance data and the unclear handling of structural information are the most significant issues that must be resolved before the claims can be considered established. R1-M3, while important for reproducibility, is secondary to the validity of the core claims.
+- **Assessment against Nature-style criteria** Originality: The combination of ESM2 embeddings with structural information for disorder prediction is a reasonable incremental contribution, but the abstract does not demonstrate a fundamentally new concept or approach. Scientific importance: Accurate disorder prediction is of genuine importance to the structural biology and protein science communities, and improvements in this area would be valuable. Interdisciplinary readership: The work is primarily of interest to computational biologists and bioinformaticians; the abstract does not clearly articulate broader implications for experimental biologists or clinicians. Technical soundness: Cannot be adequately assessed from the abstract alone; the missing comparative data and unclear structural feature definition are significant gaps. Readability for nonspecialists: The abstract is generally clear and accessible, though some terms such as "statistical summarization" and "terminal residue encoding" could benefit from brief explanation.
+- **Recommendation posture** Currently not established from the provided evidence. The approach is plausible and the direction is promising, but the abstract alone does not provide sufficient evidence to support the claims of state-of-the-art performance or the importance of structural information integration. The manuscript would need to be reviewed in full, with particular attention to the comparative evaluation and the methodological handling of structural features.
+
+## Risk / unsupported claims
+- The claim of "state-of-the-art prediction accuracy" is unsupported without comparative baseline data.
+- The claim that the model "outperforms recent methods" is unsupported without specifying which methods were compared and their performance values.
+- The assertion that "integrating protein language model embeddings with explicit structural information" is important for improved prediction is not supported by any ablation or controlled comparison in the abstract.
+- The reported performance metrics (ROC-AUC 0.895, AP 0.778, max F1 0.759) cannot be evaluated for significance without variance estimates or statistical tests.
+- The general statement that IDPs "contribute to diseases such as cancer and neurodegenerative disorders" is a broad claim that, while likely accurate, is presented without citation or specific evidence in the abstract.

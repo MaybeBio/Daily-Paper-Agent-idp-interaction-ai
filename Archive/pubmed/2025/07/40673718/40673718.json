@@ -1,0 +1,324 @@
+{
+  "identity": {
+    "pmid": "40673718",
+    "doi": "10.1021/acs.jpcb.5c03257",
+    "title": "Phosphorylation-Regulated Conformational Diversity and Topological Dynamics of an Intrinsically Disordered Nuclear Receptor."
+  },
+  "content": {
+    "abstract": "Site-specific phosphorylation of disordered proteins is often considered a marker of protein activity, yet it remains unclear how phosphorylation alters the conformational dynamics of disordered protein chains, such as those in the nuclear receptor superfamily. In the case of the disordered human glucocorticoid receptor N-terminal domain (GR NTD), a negatively charged region known as core activation function 1 (AF1c) features three phosphorylation sites, regulating its function and intracellular localization. Deletion of this sequence dramatically reduces the GR transcriptional activation ability in cell experiments. By developing a circuit topology-based fold analysis approach, combined with atomistic simulations, we reveal that site-specific phosphorylation facilitates the formation of nonlocal contacts, leading to the emergence of disordered compact topologies with significant entanglement, which are distinct from solvent-exposed topologies. While we observe that the topological buildup of solvent-exposed states is similar across different phosphovariants, it depends on the exact phosphorylation site for the disordered topologically compact states. This study thus reveals the complex regulatory role of the GR phosphorylation and introduces a unique analysis framework that can be broadly applied to studying the topological dynamics of disordered proteins.",
+    "keywords": [],
+    "mesh_terms": [
+      "Phosphorylation",
+      "Humans",
+      "*Receptors, Glucocorticoid/chemistry/metabolism/genetics",
+      "*Intrinsically Disordered Proteins/chemistry/metabolism",
+      "Molecular Dynamics Simulation",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Akulov, Vasily",
+        "Jimenez Panizo, Alba",
+        "Estebanez-Perpina, Eva",
+        "van Noort, John",
+        "Mashaghi, Alireza"
+      ],
+      "short_names": [
+        "Akulov V",
+        "Jimenez Panizo A",
+        "Estebanez-Perpina E",
+        "van Noort J",
+        "Mashaghi A"
+      ],
+      "auids": [
+        "ORCID: 0000-0002-2157-1211"
+      ],
+      "affiliations": [
+        "Medical Systems Biophysics and Bioengineering, Division of Systems Pharmacology and Pharmacy, Leiden Academic Centre for Drug Research, Leiden University, 2333 CC Leiden, The Netherlands.",
+        "Leiden Institute of Physics, Leiden University, 2300 RA Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, 2333 CC Leiden, The Netherlands.",
+        "Department of Biochemistry and Molecular Biomedicine, Institute of Biomedicine (IBUB) of the University of Barcelona (UB), 08014 Barcelona, Spain.",
+        "Department of Biochemistry and Molecular Biomedicine, Institute of Biomedicine (IBUB) of the University of Barcelona (UB), 08014 Barcelona, Spain.",
+        "Leiden Institute of Physics, Leiden University, 2300 RA Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, 2333 CC Leiden, The Netherlands.",
+        "Medical Systems Biophysics and Bioengineering, Division of Systems Pharmacology and Pharmacy, Leiden Academic Centre for Drug Research, Leiden University, 2333 CC Leiden, The Netherlands.",
+        "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, 2333 CC Leiden, The Netherlands."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Akulov, Vasily",
+        "short_name": "Akulov V",
+        "identifiers": [],
+        "affiliations": [
+          "Medical Systems Biophysics and Bioengineering, Division of Systems Pharmacology and Pharmacy, Leiden Academic Centre for Drug Research, Leiden University, 2333 CC Leiden, The Netherlands.",
+          "Leiden Institute of Physics, Leiden University, 2300 RA Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, 2333 CC Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Jiménez Panizo, Alba",
+        "short_name": "Jiménez Panizo A",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biomedicine, Institute of Biomedicine (IBUB) of the University of Barcelona (UB), 08014 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "Estébanez-Perpiñá, Eva",
+        "short_name": "Estébanez-Perpiñá E",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Biochemistry and Molecular Biomedicine, Institute of Biomedicine (IBUB) of the University of Barcelona (UB), 08014 Barcelona, Spain."
+        ]
+      },
+      {
+        "full_name": "van Noort, John",
+        "short_name": "van Noort J",
+        "identifiers": [],
+        "affiliations": [
+          "Leiden Institute of Physics, Leiden University, 2300 RA Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, 2333 CC Leiden, The Netherlands."
+        ]
+      },
+      {
+        "full_name": "Mashaghi, Alireza",
+        "short_name": "Mashaghi A",
+        "identifiers": [
+          "0000-0002-2157-1211"
+        ],
+        "affiliations": [
+          "Medical Systems Biophysics and Bioengineering, Division of Systems Pharmacology and Pharmacy, Leiden Academic Centre for Drug Research, Leiden University, 2333 CC Leiden, The Netherlands.",
+          "Centre for Interdisciplinary Genome Research, Faculty of Science, Leiden University, 2333 CC Leiden, The Netherlands."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "The journal of physical chemistry. B"
+    ],
+    "journal_abbrev": [
+      "J Phys Chem B"
+    ],
+    "pub_date": "2025 Jul 31",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/07/17 12:31",
+    "fetched_at": "2026-09-21 21:02:36"
+  },
+  "links": {
+    "cites": [
+      "42147780",
+      "41693150"
+    ],
+    "refs": [
+      "38297118",
+      "37026598",
+      "36750251",
+      "36550025",
+      "36302916",
+      "36187158",
+      "35637307",
+      "35310482",
+      "34681718",
+      "34545868",
+      "34265844",
+      "32939066",
+      "32896769",
+      "32607431",
+      "32116592",
+      "32015543",
+      "31914313",
+      "31363226",
+      "30862072",
+      "29735687",
+      "29133811",
+      "28946939",
+      "28053348",
+      "26980304",
+      "26574340",
+      "26488642",
+      "26402567",
+      "24937701",
+      "24773235",
+      "23953592",
+      "23901099",
+      "23264757",
+      "23104376",
+      "22984159",
+      "22505320",
+      "22438791",
+      "22433123",
+      "22003412",
+      "21760925",
+      "21604143",
+      "21500218",
+      "21234644",
+      "20628786",
+      "20483348",
+      "20117254",
+      "19841061",
+      "18483179",
+      "17185395",
+      "16469772",
+      "15817653",
+      "15701032",
+      "15265775",
+      "14960716",
+      "12000743",
+      "8744570",
+      "8127854",
+      "7878043",
+      "7615559",
+      "6667333",
+      "1310148"
+    ],
+    "similar": [
+      "40673718",
+      "27425791",
+      "30862072",
+      "29550429",
+      "30471699",
+      "33561389",
+      "23132854",
+      "34681718",
+      "19841061",
+      "22669939",
+      "34883116",
+      "26735936",
+      "34576338",
+      "33945530",
+      "22003412",
+      "32654182",
+      "25017730",
+      "31136713",
+      "37026598",
+      "26742101",
+      "35634773",
+      "27807972",
+      "34509724",
+      "30071273",
+      "40446154",
+      "29944921",
+      "29133811",
+      "33030907",
+      "36131545",
+      "29022880",
+      "25814479",
+      "36402223",
+      "24671380",
+      "40101966",
+      "40788873",
+      "39807013",
+      "40068541",
+      "35029261",
+      "32933064",
+      "39093570",
+      "25533957",
+      "31241933",
+      "25871264",
+      "30813315",
+      "33167839",
+      "29719201",
+      "18483179",
+      "18946767",
+      "33617899",
+      "28289210",
+      "12691744",
+      "25897952",
+      "39665260",
+      "39186607",
+      "32168597",
+      "25625937",
+      "26562397",
+      "10369775",
+      "25863585",
+      "39555603",
+      "40029731",
+      "21501657",
+      "29557644",
+      "31548393",
+      "26195786",
+      "37905972",
+      "30304684",
+      "30823702",
+      "31391291",
+      "39056166",
+      "29990433",
+      "31512287",
+      "33871257",
+      "27844185",
+      "28834051",
+      "32929427",
+      "31259246",
+      "28597298",
+      "25511704",
+      "25855872",
+      "33310020",
+      "25207671",
+      "21760925",
+      "34680048",
+      "31487161",
+      "39993015",
+      "30840442",
+      "31689103",
+      "25031324",
+      "36232586",
+      "31951234",
+      "17185395",
+      "25387963",
+      "30865820",
+      "23912807",
+      "30184304",
+      "40853068",
+      "29791766",
+      "33909430",
+      "24333369"
+    ],
+    "review": [
+      "40673718",
+      "30862072",
+      "25814479",
+      "40068541",
+      "39093570",
+      "33167839",
+      "25625937",
+      "25863585",
+      "39555603",
+      "21501657",
+      "28597298",
+      "34680048"
+    ],
+    "pmc": [
+      "12319912"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/40673718/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://pubs.acs.org/jpcbfk/article-lookup/doi/10.1021/acs.jpcb.5c03257",
+        "provider": "Silverchair Information Systems",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

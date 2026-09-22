@@ -1,0 +1,74 @@
+## Review setup
+- **Input scope** Full manuscript text, including abstract, introduction, results, discussion, methods, figure legends, and data availability statements.
+- **Assessment boundary** Scientific validity, technical soundness, and interpretation of the presented data. No assessment of editorial fit or publication venue.
+- **Shared manuscript claim summary** The authors propose that the HPV L2 protein exists within the capsid as an ensemble of related, compact conformations associated with the inner surface of L1 pentamers, with a finger-like projection extending into the central pore, and that the C-terminus of multiple L2 molecules is exposed on the capsid surface, poised for membrane insertion during virus entry.
+- **Visible evidence base** Cryo-EM reconstructions of HPV16 pseudovirus capsids with and without L2, mass spectrometry, AlphaFold3 predictions, molecular dynamics simulations, split luciferase assays, immunoprecipitation, immunogold electron microscopy, and neutralization assays.
+- **Missing materials affecting confidence** No representative micrographs, Fourier shell correlation curves, or local resolution maps for the cryo-EM reconstructions are shown. No validation metrics for AlphaFold3 models are provided. No statistical details for quantitative assays are given. No raw data or analysis scripts are provided.
+
+## Reviewer
+- **Overall assessment** This manuscript addresses a long-standing question in papillomavirus biology, namely the organization of the L2 protein within the capsid. The combination of cryo-EM, computational modeling, and biochemical assays is appropriate and potentially powerful. However, the central structural claims rest on low-resolution density assignment and unvalidated computational predictions. The biochemical data supporting surface exposure of the L2 C-terminus are more convincing but do not fully establish the proposed mechanism of emergence. The manuscript is technically ambitious but currently overinterprets the evidence in several places.
+- **Who would be interested in the results, and why** Virologists studying papillomavirus entry and capsid dynamics, structural biologists interested in intrinsically disordered proteins within large assemblies, and researchers developing antiviral strategies targeting HPV entry. The proposed model of a disordered protein adopting an ensemble of compact conformations constrained by a rigid scaffold may also interest the broader protein biophysics community.
+- **Major strengths** The study tackles a difficult and important problem using a multi-pronged approach. The cryo-EM analysis of L2-containing versus L2-lacking capsids is a sensible strategy. The biochemical validation of C-terminal exposure on intact capsids is compelling and well-controlled. The evolutionary conservation argument adds biological relevance.
+- **Major Concerns**
+  - **Concern ID** R1-M1
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Technical soundness of structural assignment
+  - **Claim pointer** The authors claim that the cryo-EM density attributed to L2 represents the protein in its native conformation within the capsid.
+  - **Evidence pointer** Results section "Cryo-EM analysis of HPV16 capsids reveals the L2 protein associated with the inner surface of the L1 pentamer"; Figures 1E, 1F, S2B
+  - **Concern** The L2 density is resolved at approximately 8 Å, which is insufficient to assign secondary structure or register specific amino acids. The assignment of this density to L2 relies on difference mapping between L1-only and L1/L2 capsids, but the authors do not provide quantitative measures of the significance of this difference, such as a difference map with appropriate thresholding or a statistical comparison of densities. The amorphous nature of the density and its weaker signal compared to L1 raise the possibility that it represents a flexible region of L1 or a mixture of L2 conformations that cannot be meaningfully interpreted as a single ensemble.
+  - **Why it matters** The central claim of the paper, that L2 adopts a specific ensemble of compact conformations, depends entirely on the correct assignment and interpretation of this low-resolution density. Without higher-resolution data or independent validation, the structural model remains speculative.
+  - **Resolution test** Provide a statistically thresholded difference map between L1-only and L1/L2 reconstructions, with clear criteria for significance. Show local resolution estimates for the L2 density. If possible, perform focused classification to determine whether the L2 density represents a single conformation or multiple distinct states. Alternatively, validate the assignment by labeling L2 with a specific tag and localizing it in the reconstruction.
+  - **Concern ID** R1-M2
+  - **Severity** Major
+  - **Blocking** Yes
+  - **Axis** Overinterpretation of computational predictions
+  - **Claim pointer** The authors state that AlphaFold3 predictions "accurately reflect the conformations of L2 in the capsid" based on alignment with the cryo-EM density.
+  - **Evidence pointer** Results section "AlphaFold3 models of HPV16 L2 associated with an L1 pentamer align well to the cryo-EM structures of the capsomer"; Discussion
+  - **Concern** AlphaFold3 is not designed to predict conformational ensembles or the effects of a large macromolecular scaffold on disordered protein conformations. The authors generated 100 models and found that most align with the cryo-EM density, but this is a weak test. The density is at 8 Å resolution and the models are low-confidence, so the alignment could be coincidental. The authors do not provide quantitative metrics for the fit, such as cross-correlation coefficients or a comparison against a null model. The claim that the predictions "accurately reflect" the conformations is not supported by the evidence.
+  - **Why it matters** The paper uses the AlphaFold3 models to make specific claims about the structure of L2, including the location of the finger and the orientation of folded domains. If the models are not reliable, these claims are unfounded.
+  - **Resolution test** Provide quantitative measures of the fit between AlphaFold3 models and the cryo-EM density, including cross-correlation coefficients and a comparison to models with randomized or scrambled sequences. Discuss the limitations of AlphaFold3 for disordered proteins and justify why the predictions are expected to be accurate in this context. Consider using molecular dynamics simulations starting from multiple different initial conformations to test whether the ensemble converges.
+  - **Concern ID** R1-M3
+  - **Severity** Major
+  - **Blocking** No
+  - **Axis** Incomplete validation of surface exposure
+  - **Claim pointer** The authors claim that the C-terminus of multiple L2 molecules is exposed on the surface of each capsid based on immunogold labeling and split luciferase assays.
+  - **Evidence pointer** Results section "The C-terminus of multiple L2 molecules is preferentially exposed on the surface of each capsid"; Figures 5C, 5D, 6A, 6B, S11
+  - **Concern** The immunogold data show an average of 5-7 gold particles per capsid, but the authors do not report the distribution of gold particles across individual capsids. If some capsids have many particles and others have none, the interpretation of "multiple L2 molecules exposed on each capsid" would be misleading. The split luciferase assay is semi-quantitative and does not directly measure the number of exposed C-termini. The authors also do not rule out the possibility that the observed exposure is an artifact of capsid damage or partial disassembly during purification or sample preparation.
+  - **Why it matters** The claim that multiple L2 C-termini are exposed is important for the proposed model of L2 emergence. If only a small fraction of capsids have exposed C-termini, or if the exposure is an artifact, the model would need to be revised.
+  - **Resolution test** Provide a histogram of gold particle counts per capsid for both tagged and untagged samples. Perform a statistical comparison of the distribution. Use a more quantitative assay, such as a proximity ligation assay or a carefully calibrated enzyme-linked immunosorbent assay, to estimate the number of exposed C-termini per capsid. Include a control where capsids are deliberately damaged to assess the effect of sample preparation.
+- **Minor Comments**
+  - **Concern ID** R1-m1
+  - **Severity** Minor
+  - **Axis** Clarity of presentation
+  - **Affected element** Figure 1
+  - **Evidence pointer** Figure 1A, 1B
+  - **Issue** The authors state that the capsids display "minor heterogeneity in the shape," but the figure panels are not annotated to indicate which features correspond to this heterogeneity. The reader cannot independently assess this claim.
+  - **Required correction** Add annotations or a supplementary figure showing representative examples of the observed heterogeneity, with a description of the criteria used to classify shapes.
+  - **Concern ID** R1-m2
+  - **Severity** Minor
+  - **Axis** Statistical reporting
+  - **Affected element** Mass spectrometry analysis
+  - **Evidence pointer** Results section "Cryo-EM analysis of HPV16 capsids reveals the L2 protein associated with the inner surface of the L1 pentamer"; Figure S4
+  - **Issue** The mass spectrometry data are presented as relative abundances, but no error bars or replicate information are provided. It is unclear whether the observed differences between L1/L2 and L1-only samples are statistically significant.
+  - **Required correction** Report the number of replicates, the variability between replicates, and the statistical significance of the differences in protein abundance.
+  - **Concern ID** R1-m3
+  - **Severity** Minor
+  - **Axis** Completeness of methods
+  - **Affected element** Molecular dynamics simulations
+  - **Evidence pointer** Methods section "Molecular dynamics"
+  - **Issue** The methods state that simulations were run for at least 500 ns with two replicates, but no convergence criteria are reported. It is unclear whether the simulations reached equilibrium and whether the results are robust to the choice of initial conditions.
+  - **Required correction** Report the root-mean-square deviation of the system over time, the convergence of relevant observables, and the results of any additional replicates or starting conditions.
+  - **Concern ID** R1-m4
+  - **Severity** Minor
+  - **Axis** Interpretation of neutralization data
+  - **Affected element** Results section "The C-terminus of multiple L2 molecules is preferentially exposed on the surface of each capsid"; Figure S11B
+  - **Issue** The neutralization data are presented as a single time point, and the authors do not report the multiplicity of infection or the percentage of cells infected in the absence of antibody. The interpretation of "neutralization" is therefore incomplete.
+  - **Required correction** Provide dose-response curves, the percentage of infected cells in the absence of antibody, and the statistical significance of the observed neutralization.
+
+## Risk / unsupported claims
+- The claim that AlphaFold3 predictions "accurately reflect the conformations of L2 in the capsid" is unsupported given the low resolution of the cryo-EM density and the known limitations of AlphaFold3 for disordered proteins.
+- The claim that "the C-terminus of multiple L2 molecules is exposed on the surface of each capsid" is not fully supported by the data, as the distribution of gold particles across capsids is not reported and the possibility of sample preparation artifacts is not excluded.
+- The claim that the acidic outer segment of the pore impedes passage of the C-terminus and that endosomal acidification facilitates emergence is speculative and not directly tested.
+- The claim that the ensemble of L2 conformations is "poised to exit the virus particle" implies a functional readiness that is not demonstrated by the structural data alone.
+- The stoichiometry of L2 per capsid is estimated from mass spectrometry but not independently validated, and the authors do not discuss the discrepancy between the estimated 6-fold molar excess of L1 over L2 and the expected 5-fold excess.

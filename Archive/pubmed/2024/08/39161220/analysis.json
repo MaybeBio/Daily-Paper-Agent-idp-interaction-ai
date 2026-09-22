@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "39161220",
+  "title": "Target-specific requirements for RNA interference can arise through restricted RNA amplification despite the lack of specialized pathways.",
+  "authors": "Knudsen-Palmer, Daphne R; Raman, Pravrutha; Ettefa, Farida; De Ravin, Laura; Jose, Antony M",
+  "journal": "eLife",
+  "published_date": "2024-08-20",
+  "window": {
+    "start": "2024-08-19",
+    "end": "2024-08-25"
+  },
+  "score": 6,
+  "one_liner_zh": "该文通过定量模型和模拟研究RNAi中基因选择性沉默的机制，涉及无序蛋白MUT-16在RNA扩增网络中的作用，但核心是RNAi通路而非PPI互作机制建模，方法上以定量模型为主而非AI/物理模拟，故为中档。",
+  "abstract": "Since double-stranded RNA (dsRNA) is effective for silencing a wide variety of genes, all genes are typically considered equivalent targets for such RNA interference (RNAi). Yet, loss of some regulators of RNAi in the nematode Caenorhabditis elegans can selectively impair the silencing of some genes. Here, we show that such selective requirements can be explained by an intersecting network of regulators acting on genes with differences in their RNA metabolism. In this network, the Maelstrom domain-containing protein RDE-10, the intrinsically disordered protein MUT-16, and the Argonaute protein NRDE-3 work together so that any two are required for silencing one somatic gene, but each is singly required for silencing another somatic gene, where only the requirement for NRDE-3 can be overcome by enhanced dsRNA processing. Quantitative models and their exploratory simulations led us to find that (1) changing cis-regulatory elements of the target gene can reduce the dependence on NRDE-3, (2) animals can recover from silencing in non-dividing cells, and (3) cleavage and tailing of mRNAs with UG dinucleotides, which makes them templates for amplifying small RNAs, are enriched within 'pUG zones' matching the dsRNA. Similar crosstalk between pathways and restricted amplification could result in apparently selective silencing by endogenous RNAs.",
+  "abstract_zh": "由于双链RNA（dsRNA）能有效沉默多种基因，通常认为所有基因都是这类RNA干扰（RNAi）的等效靶标。然而，在秀丽隐杆线虫（Caenorhabditis elegans）中，某些RNAi调控因子的缺失可能选择性地损害部分基因的沉默。在此，我们表明这种选择性需求可以通过一个由调控因子组成的交叉网络来解释，这些因子作用于RNA代谢存在差异的基因。在该网络中，含Maelstrom结构域的蛋白RDE-10、固有无序蛋白MUT-16和Argonaute蛋白NRDE-3协同作用，使得其中任意两个因子对于沉默一个体细胞基因是必需的，但每个因子单独对于沉默另一个体细胞基因也是必需的，其中只有对NRDE-3的需求可以通过增强dsRNA加工来克服。定量模型及其探索性模拟使我们发现：（1）改变靶基因的顺式调控元件可降低对NRDE-3的依赖性；（2）动物可以在非分裂细胞中从沉默状态恢复；（3）带有UG二核苷酸的mRNA切割和加尾（使其成为扩增小RNA的模板）富集在与dsRNA匹配的“pUG区域”内。通路之间的类似串扰和受限扩增可能导致内源性RNA产生表观上的选择性沉默。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/39161220/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/39161220/",
+  "paper_page_path": "papers/pubmed/39161220/index.html"
+}

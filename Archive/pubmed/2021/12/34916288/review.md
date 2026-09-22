@@ -1,0 +1,85 @@
+## Review setup
+- **Input scope** Abstract and Significance section only
+- **Assessment boundary** Claims and evidence presented in the supplied text, not the full manuscript
+- **Shared manuscript claim summary** The authors report that engineered amphiphilic proteins coassemble with phase-separating systems to form multiphasic condensates, localize to condensate surfaces as surfactant-like films, and in some configurations modulate condensate size, suggesting a role for protein amphiphiles in membraneless organelle structure and function.
+- **Visible evidence base** Abstract and Significance section; no figures, tables, methods, or quantitative data provided
+- **Missing materials affecting confidence** Full text, experimental methods, quantitative measurements, imaging data, statistical analyses, and any control experiments
+
+## Reviewer
+- **Overall assessment** The manuscript addresses two timely and important questions in the field of biomolecular condensates, namely the mechanisms of multiphasic assembly and size control. The concept of protein amphiphiles acting as biomolecular surfactants is conceptually novel and potentially impactful. However, the supplied abstract and Significance section provide only qualitative claims without quantitative evidence, experimental details, or controls. The core conclusions, particularly the surfactant mechanism and size control, cannot be evaluated from the provided material. The work is promising but currently not established from the evidence base supplied.
+- **Who would be interested in the results, and why** Researchers studying liquid-liquid phase separation, membraneless organelles, and biomolecular condensates, especially those interested in multiphasic architectures such as P granules and nucleoli. The surfactant concept may also appeal to biophysicists and bioengineers working on synthetic condensates or protein design. The potential link to size regulation of condensates broadens relevance to cell biology and intracellular organization.
+- **Major strengths** The conceptual framing is original, proposing a surfactant-like role for amphiphilic proteins in condensate organization. The work addresses two outstanding questions in the field, namely multiphasic assembly and size control, which are of high interest. The observation of diverse morphologies, including enveloping films and multiphasic structures, suggests a rich phenomenological landscape that could inspire further studies.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that amphiphilic proteins "localize to the surface of condensates" and act as "biomolecular surfactants" based on observed surfactant-like films.  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract states that amphiphilic proteins localize to condensate surfaces and form surfactant-like films, but no quantitative or imaging data are provided to substantiate this localization or the film morphology. The term "surfactant" implies a specific interfacial behavior, such as reduction of interfacial tension or surface activity, which is not demonstrated.  
+  - **Why it matters** The surfactant mechanism is the central conceptual claim of the manuscript. Without direct evidence of surface localization and interfacial activity, the claim remains speculative and could be an artifact of the experimental system or imaging conditions.  
+  - **Resolution test** Provide fluorescence or electron microscopy images showing protein localization at the condensate interface, along with quantitative measurements of interfacial tension or surface activity (e.g., pendant drop or micropipette assays) comparing systems with and without amphiphilic proteins.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Evidence sufficiency  
+  - **Claim pointer** The authors claim that "in some configurations, these surfactant-like proteins influence condensate size."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The claim of size control is presented without any quantitative data, such as size distributions, time-dependent growth measurements, or statistical comparisons. The phrase "in some configurations" is vague and does not specify the conditions under which size modulation occurs.  
+  - **Why it matters** Size control is a key functional implication of the surfactant hypothesis. Without quantitative evidence, the claim is not testable and could be a secondary effect of other factors, such as protein concentration or ionic strength.  
+  - **Resolution test** Provide size distribution data (e.g., mean radius or volume) for condensates with and without amphiphilic proteins under controlled conditions, including statistical analysis and time-course measurements to demonstrate a causal effect on growth or steady-state size.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Reproducibility and controls  
+  - **Claim pointer** The authors report "diverse assemblies, including condensates enveloped by surfactant-like films, as well as complex multiphasic morphologies."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The diversity of morphologies is described qualitatively, but no information is provided on the experimental conditions, protein sequences, or control experiments that would establish reproducibility and rule out artifacts (e.g., aggregation, non-specific binding, or imaging artifacts).  
+  - **Why it matters** Without controls and detailed methods, the observed morphologies could be non-specific or system-dependent, undermining the generalizability of the surfactant concept.  
+  - **Resolution test** Include control experiments with non-amphiphilic proteins or mutated variants, systematic variation of protein concentration and mixing ratios, and reproducibility across multiple replicates. Provide representative images and quantification of morphology frequency.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Generalizability  
+  - **Claim pointer** The authors suggest "an important role of protein amphiphiles in establishing membraneless organelle structure and function."  
+  - **Evidence pointer** Significance section, location not provided  
+  - **Concern** The claim extends the findings to natural membraneless organelles, but the study uses engineered amphiphilic proteins, and no evidence is provided that endogenous proteins with similar amphiphilic properties exist or function in native systems.  
+  - **Why it matters** The broader relevance to biology depends on whether the surfactant mechanism operates in vivo. Without evidence from endogenous systems or bioinformatic analysis, the claim is speculative.  
+  - **Resolution test** Provide evidence of amphiphilic proteins in natural condensates (e.g., bioinformatic identification, localization studies in cells, or functional perturbation experiments) or temper the claim to focus on the synthetic system.
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Terminology  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The term "biomolecular surfactants" is used without definition or operational criteria.  
+  - **Required correction** Define what constitutes a surfactant in this context and specify the measurable criteria used to classify the proteins as such.  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Experimental details  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not specify the protein sequences, the phase-separating system used, or the range of conditions tested.  
+  - **Required correction** Include key experimental details in the abstract or refer to specific methods sections in the full text.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Interpretation  
+  - **Affected element** Mechanistic claim  
+  - **Evidence pointer** Significance section, location not provided  
+  - **Issue** The phrase "coassemble into multiphasic condensates" implies a specific assembly mechanism, but the abstract does not clarify whether the amphiphilic proteins are incorporated into the condensate bulk or only at the interface.  
+  - **Required correction** Clarify the spatial distribution of the amphiphilic proteins within the condensates and distinguish between surface localization and bulk incorporation.
+- **Technical failings that need to be addressed before the case is established** R1-M1, R1-M2, R1-M3. These concerns are blocking because the core claims of surface localization, surfactant activity, and size control are not supported by quantitative or controlled evidence in the supplied material.
+- **Assessment against Nature-style criteria**  
+  - **Originality** High. The surfactant concept for protein amphiphiles in condensates is novel and not a simple extension of existing models.  
+  - **Scientific importance** Potentially high, as it addresses fundamental questions in condensate biology, but the importance is contingent on the validity of the surfactant mechanism and its relevance to native systems.  
+  - **Interdisciplinary readership** Moderate to high. The work bridges protein biophysics, cell biology, and soft matter physics, which could attract a broad audience if the evidence is compelling.  
+  - **Technical soundness** Not assessable from the supplied material. No methods, data, or controls are provided.  
+  - **Readability for nonspecialists** The abstract is accessible and clearly frames the questions, but the lack of quantitative details limits comprehension of the evidence base.
+- **Recommendation posture** Currently not established from the provided evidence. The conceptual framework is promising and original, but the abstract and Significance section alone do not provide sufficient evidence to support the core claims. A full review of the complete manuscript with experimental data is necessary to assess technical soundness and impact.
+
+## Risk / unsupported claims
+- The claim that amphiphilic proteins act as biomolecular surfactants is unsupported without direct interfacial activity measurements.
+- The claim that these proteins influence condensate size is unsupported without quantitative size data and statistical analysis.
+- The claim of diverse multiphasic morphologies is unsupported without imaging data and control experiments.
+- The suggestion of a role in natural membraneless organelle function is speculative and not supported by evidence from endogenous systems.
+- The generalizability of the findings beyond the specific engineered system is not assessable from the supplied material.

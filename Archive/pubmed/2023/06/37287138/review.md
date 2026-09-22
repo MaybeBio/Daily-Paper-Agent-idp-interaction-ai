@@ -1,0 +1,84 @@
+## Review setup
+- **Input scope** Abstract only
+- **Assessment boundary** Claims and evidence presented in the abstract; no access to full methods, figures, tables, or supplementary data
+- **Shared manuscript claim summary** The authors evaluate eleven sequence-based predictors of phase-separating proteins (PSPs) using negative test sets derived from folded proteins, the human proteome, and experimentally verified non-PSPs under near physiological conditions, based on the LLPSDB v2.0 database. They report that FuzDrop, DeePhase, and PSPredictor perform better on folded proteins, LLPhyScore performs better on the human proteome, and none accurately identify non-PSPs. They also report weak correlation between predictor scores and experimentally measured saturation concentrations for protein A1-LCD and mutants, concluding that current predictors do not consistently reflect LLPS propensity.
+- **Visible evidence base** Abstract text only; no methods, datasets, performance metrics, statistical analyses, or figures provided
+- **Missing materials affecting confidence** Full manuscript, detailed methodology, dataset composition and filtering criteria, predictor versions and parameters, performance metrics (e.g., AUC, precision, recall), statistical significance tests, correlation coefficients and plots, and any supplementary information
+
+## Reviewer
+- **Overall assessment** The abstract addresses a timely and practically important question in the field of biomolecular condensates, namely the comparative evaluation of sequence-based PSP predictors. The choice of multiple negative test sets and the use of an updated database are sensible. However, the abstract provides insufficient methodological detail and quantitative evidence to assess the robustness of the conclusions. The claim that no predictor accurately identifies non-PSPs is strong and would require careful definition of accuracy thresholds and dataset construction. The correlation analysis with A1-LCD is intriguing but underreported. Overall, the work has potential value, but the current evidence base is too limited to establish the case.
+- **Who would be interested in the results, and why** Researchers developing or applying computational tools for predicting phase-separating proteins, including those studying biomolecular condensates, LLPS-related disease mechanisms, and protein biophysics. The comparative benchmarking would also interest bioinformaticians and computational biologists seeking guidance on tool selection for proteome-wide screens.
+- **Major strengths** The study addresses a practical gap by comparing multiple predictors on standardized negative sets. The use of experimentally verified non-PSPs and the human proteome as test sets is more realistic than many existing benchmarks. The inclusion of a correlation analysis with saturation concentrations links prediction scores to a biophysical readout, which is a valuable step beyond binary classification.
+- **Major Concerns**  
+  - **Concern ID** R1-M1  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors claim that "none of the predictors could accurately identify experimentally verified non-PSPs."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The abstract does not define what constitutes "accurate identification" of non-PSPs. No thresholds, performance metrics, or statistical comparisons are provided. Without a clear operational definition, this claim is not falsifiable from the supplied material.  
+  - **Why it matters** This is a central conclusion of the study. If the definition of accuracy is arbitrary or overly stringent, the claim may be misleading. The absence of quantitative support prevents readers from judging the severity of the failure.  
+  - **Resolution test** Provide explicit performance metrics (e.g., specificity, false positive rate, AUC) for each predictor on the non-PSP set, with confidence intervals and comparison to a null model.  
+  - **Concern ID** R1-M2  
+  - **Severity** Major  
+  - **Blocking** Yes  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that "the correlation between predicted scores and experimentally measured saturation concentrations of protein A1-LCD and its mutants suggests that these predictors could not consistently predict the protein LLPS propensity rationally."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** No correlation coefficients, sample sizes, or statistical significance values are reported. The phrase "could not consistently predict" is vague and does not indicate the magnitude or direction of the relationship.  
+  - **Why it matters** This analysis is presented as a key validation of predictor utility. Without quantitative results, the reader cannot assess whether the correlation is weak, absent, or inconsistent across predictors.  
+  - **Resolution test** Report Pearson or Spearman correlation coefficients with p-values for each predictor, along with scatter plots and sample sizes.  
+  - **Concern ID** R1-M3  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Reproducibility  
+  - **Claim pointer** The evaluation is based on "negative testing datasets, including folded proteins, the human proteome, and non-PSPs under near physiological conditions."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The construction of these negative sets is not described. For example, how were folded proteins selected, how was the human proteome filtered to avoid known PSPs, and what criteria defined "near physiological conditions"?  
+  - **Why it matters** The validity of any benchmark depends on the quality and composition of the test sets. If the negative sets contain hidden positives or are biased, the conclusions are compromised.  
+  - **Resolution test** Provide detailed descriptions of dataset construction, including source databases, filtering criteria, and any manual curation steps.  
+  - **Concern ID** R1-M4  
+  - **Severity** Major  
+  - **Blocking** No  
+  - **Axis** Technical soundness  
+  - **Claim pointer** The authors state that "the new generation predictors FuzDrop, DeePhase and PSPredictor perform better on folded proteins as a negative test set, while LLPhyScore outperforms other tools on the human proteome."  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Concern** The term "perform better" is not quantified. No metrics are given for any predictor on any test set, so the relative ranking cannot be verified.  
+  - **Why it matters** This is the primary comparative result of the study. Without quantitative performance data, the ranking is unsupported.  
+  - **Resolution test** Provide a table of performance metrics (e.g., AUC, accuracy, specificity) for all predictors on all test sets, with statistical comparisons.  
+- **Minor Comments**  
+  - **Concern ID** R1-m1  
+  - **Severity** Minor  
+  - **Axis** Clarity  
+  - **Affected element** Abstract wording  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The phrase "due to they were built" is grammatically incorrect.  
+  - **Required correction** Revise to "due to their being built" or "because they were built."  
+  - **Concern ID** R1-m2  
+  - **Severity** Minor  
+  - **Axis** Completeness  
+  - **Affected element** Predictor selection  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract does not list the eleven predictors evaluated, nor the criteria for their selection.  
+  - **Required correction** Include the full list of predictors and a brief justification for their inclusion.  
+  - **Concern ID** R1-m3  
+  - **Severity** Minor  
+  - **Axis** Context  
+  - **Affected element** Background  
+  - **Evidence pointer** Abstract, location not provided  
+  - **Issue** The abstract mentions "several related databases released" but does not specify which ones, beyond LLPSDB v2.0.  
+  - **Required correction** Name the other databases or remove the general reference.  
+- **Technical failings that need to be addressed before the case is established** R1-M1 and R1-M2 are blocking because the central claims of predictor failure and inconsistent correlation are not quantitatively supported. R1-M3 and R1-M4 are also critical because the benchmark design and comparative results are not verifiable from the abstract.
+- **Assessment against Nature-style criteria**  
+  - **Originality** The comparative evaluation of multiple PSP predictors on standardized negative sets is not entirely novel, but the inclusion of experimentally verified non-PSPs and the correlation with saturation concentrations adds a useful angle. The originality is moderate.  
+  - **Scientific importance** The topic is relevant to a growing community studying LLPS and condensate biology. Reliable predictor benchmarking has practical value, but the importance is incremental rather than transformative.  
+  - **Interdisciplinary readership** The work would appeal to computational biologists, biophysicists, and cell biologists. The abstract is accessible to nonspecialists, though technical terms such as "saturation concentrations" and "A1-LCD" are not explained.  
+  - **Technical soundness** Not assessable from the abstract. The lack of quantitative metrics and dataset descriptions prevents evaluation of methodological rigor.  
+  - **Readability for nonspecialists** The abstract is generally clear but uses field-specific jargon without definition. The flow is logical, but the unsupported claims reduce readability for a broad audience.  
+- **Recommendation posture** Currently not established from the provided evidence. The abstract presents a reasonable study design but lacks the quantitative detail needed to support the main conclusions. If the full manuscript provides robust metrics, dataset descriptions, and statistical analyses, the work could be considered supportive. As presented, the case is not made.
+
+## Risk / unsupported claims
+- The claim that "none of the predictors could accurately identify experimentally verified non-PSPs" is unsupported without defined accuracy thresholds and performance metrics.
+- The claim that predictors "could not consistently predict the protein LLPS propensity rationally" is unsupported without correlation coefficients and significance tests.
+- The relative ranking of predictors (FuzDrop, DeePhase, PSPredictor, LLPhyScore) is unsupported without quantitative performance data.
+- The statement that the evaluation was conducted "under near physiological conditions" is unverifiable without details on buffer conditions or experimental setup.

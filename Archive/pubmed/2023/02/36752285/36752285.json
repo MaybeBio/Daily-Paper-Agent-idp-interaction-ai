@@ -1,0 +1,266 @@
+{
+  "identity": {
+    "pmid": "36752285",
+    "doi": "10.1002/bip.23530",
+    "title": "Chasing long-range evolutionary couplings in the AlphaFold era."
+  },
+  "content": {
+    "abstract": "Coevolution between protein residues is normally interpreted as direct contact. However, the evolutionary record of a protein sequence contains rich information that may include long-range functional couplings, couplings that report on homo-oligomeric states or even conformational changes. Due to the complexity of the sequence space and the lack of structural information on various members of a protein family, it has been difficult to effectively mine the additional information encoded in a multiple sequence alignment (MSA). Here, taking advantage of the recent release of the AlphaFold (AF) database we attempt to identify coevolutionary couplings that cannot be explained simply by spatial proximity. We propose a simple computational method that performs direct coupling analysis on a MSA and searches for couplings that are not satisfied in any of the AF models of members of the identified protein family. Application of this method on 2012 protein families suggests that ~12% of the total identified coevolving residue pairs are spatially distant and more likely to be disordered than their contacting counterparts. We expect that this analysis will help improve the quality of coevolutionary distance restraints used for structure determination and will be useful in identifying potentially functional/allosteric cross-talk between distant residues.",
+    "keywords": [
+      "AlphaFold",
+      "coevolution",
+      "computational biology",
+      "intrinsically disordered proteins",
+      "protein structure"
+    ],
+    "mesh_terms": [
+      "*Evolution, Molecular",
+      "*Proteins/chemistry",
+      "Amino Acid Sequence",
+      "Protein Conformation"
+    ],
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Karamanos, Theodoros K"
+      ],
+      "short_names": [
+        "Karamanos TK"
+      ],
+      "auids": [
+        "ORCID: 0000-0003-2297-540X"
+      ],
+      "affiliations": [
+        "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, London, UK."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Karamanos, Theodoros K",
+        "short_name": "Karamanos TK",
+        "identifiers": [
+          "0000-0003-2297-540X"
+        ],
+        "affiliations": [
+          "Department of Life Sciences, Faculty of Natural Sciences, Imperial College London, London, UK."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Biopolymers"
+    ],
+    "journal_abbrev": [
+      "Biopolymers"
+    ],
+    "pub_date": "2023 Mar",
+    "pub_year": "2023",
+    "pub_types": [
+      "Journal Article"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2023/02/09 06:00",
+    "fetched_at": "2026-09-20 19:05:35"
+  },
+  "links": {
+    "cites": [
+      "40427736",
+      "39935356",
+      "39869148",
+      "39234301",
+      "38774441",
+      "38117138",
+      "37878721",
+      "37776602"
+    ],
+    "refs": [
+      "36344848",
+      "35729039",
+      "35703323",
+      "35282867",
+      "35247211",
+      "35044800",
+      "34518097",
+      "34265844",
+      "33253560",
+      "33199640",
+      "33125078",
+      "33087759",
+      "31942072",
+      "31835059",
+      "31591220",
+      "31296772",
+      "30445541",
+      "30395601",
+      "30366362",
+      "29290615",
+      "29101847",
+      "28784799",
+      "28289198",
+      "26371555",
+      "26354441",
+      "26303588",
+      "25710841",
+      "25064567",
+      "24842992",
+      "24009338",
+      "23410359",
+      "22814391",
+      "22579045",
+      "22423358",
+      "22198341",
+      "22106262",
+      "22101153",
+      "20946840",
+      "20651708",
+      "20011105",
+      "19116270",
+      "18269247",
+      "15288790",
+      "14706845",
+      "12483203",
+      "8208723"
+    ],
+    "similar": [
+      "36752285",
+      "28784799",
+      "34029316",
+      "18402697",
+      "26956673",
+      "19274093",
+      "28289198",
+      "22174270",
+      "27825220",
+      "22685552",
+      "30632747",
+      "29183970",
+      "17983264",
+      "22279560",
+      "26223372",
+      "28980349",
+      "22163331",
+      "22684088",
+      "21413097",
+      "24510270",
+      "10074416",
+      "30298393",
+      "27729520",
+      "30366362",
+      "23091608",
+      "24009338",
+      "30617828",
+      "26338201",
+      "34112081",
+      "28095400",
+      "22052502",
+      "23342110",
+      "35296230",
+      "34626492",
+      "24170408",
+      "21470969",
+      "23912807",
+      "17955155",
+      "25697822",
+      "27965389",
+      "29351669",
+      "36539305",
+      "30020551",
+      "36799896",
+      "35670671",
+      "28799172",
+      "27844185",
+      "16547113",
+      "26121406",
+      "33465067",
+      "23138306",
+      "20949088",
+      "31492097",
+      "8609628",
+      "35349721",
+      "21942934",
+      "36563190",
+      "31640027",
+      "19276150",
+      "21966264",
+      "31838147",
+      "28166227",
+      "8743695",
+      "15882054",
+      "35037015",
+      "25545075",
+      "24297889",
+      "15364576",
+      "15645442",
+      "20066038",
+      "35039514",
+      "26503808",
+      "19639636",
+      "25584517",
+      "19165315",
+      "32374885",
+      "19730672",
+      "23139761",
+      "30395601",
+      "16177782",
+      "19923193",
+      "22978315",
+      "31693112",
+      "30422978",
+      "18057019",
+      "25749052",
+      "25255213",
+      "31396912",
+      "34418423",
+      "31665817",
+      "23720362",
+      "29347718",
+      "31583631",
+      "15296518",
+      "36943132",
+      "38110247",
+      "36108094",
+      "32002010"
+    ],
+    "review": [
+      "36752285",
+      "30617828",
+      "25749052",
+      "34418423",
+      "38110247"
+    ],
+    "pmc": [
+      "10909459"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/36752285/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://europepmc.org/abstract/MED/36752285",
+        "provider": "Europe PMC",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/bip.23530",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

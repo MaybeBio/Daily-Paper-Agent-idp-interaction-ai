@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40713938",
+  "title": "Exploration of the interaction between dynein intermediate chain and dynactin p150(Glued) reveals a novel binding Interface.",
+  "authors": "Di Nicola, A J; Romig, Bryn L; Davis, Stella M; Cleary, Paul H; Yung, Claire H; Marsan, Daniel R; Merkt, Anna C; Loening, Nikolaus M",
+  "journal": "Protein science : a publication of the Protein Society",
+  "published_date": "2025-07-28",
+  "window": {
+    "start": "2025-07-28",
+    "end": "2025-08-03"
+  },
+  "score": 8,
+  "one_liner_zh": "该研究通过分子间顺磁弛豫增强实验，结合AlphaFold预测，解析了动力蛋白中间链与dynactin p150亚基间动态无序介导的新型结合界面，直接涉及IDR-PPI机制建模，对无序蛋白互作预测具有重要启发。",
+  "abstract": "Cytoplasmic dynein is a motor protein that plays a role in a number of cellular processes including retrograde transport. In many cases, dynein needs to interact with another protein, dynactin, to be fully active. An important step in the assembly of the dynein/dynactin complex is the interaction between the N-terminal portion of the intermediate chain (IC) subunit of dynein and the coiled-coil 1B (CC1B) region of the p150(Glued) subunit of dynactin. Despite evidence for this interaction from binding studies, the exact location of where these proteins bind has remained elusive due to the dynamic nature of the interaction and the presence of intrinsically disordered regions in IC. By using intermolecular paramagnetic relaxation enhancements, we have been able to constrain the location of IC binding on p150(Glued) to a position that is different from what has recently been hypothesized in a model of the dynein/dynactin complex based on cryo-electron microscopy (cryo-EM) data and AlphaFold predictions. In addition, although phosphorylation is important for regulating dynein/dynactin interactions, we show that a phosphomimetic mutation of IC is not sufficient to alter binding with p150(Glued).",
+  "abstract_zh": "细胞质动力蛋白（cytoplasmic dynein）是一种马达蛋白，在包括逆行运输在内的多种细胞过程中发挥作用。在许多情况下，动力蛋白需要与另一种蛋白质——动力蛋白激活蛋白（dynactin）相互作用，才能完全激活。动力蛋白/动力蛋白激活蛋白复合物组装中的一个重要步骤是动力蛋白中间链（IC）亚基的N端部分与动力蛋白激活蛋白p150(Glued)亚基的卷曲螺旋1B（CC1B）区域之间的相互作用。尽管结合研究提供了这种相互作用的证据，但由于相互作用的动态性质以及IC中存在 intrinsically disordered regions（内在无序区域），这些蛋白质结合的确切位置仍然难以确定。通过使用分子间顺磁弛豫增强技术，我们能够将IC在p150(Glued)上的结合位置限制在一个不同于最近基于冷冻电子显微镜（cryo-EM）数据和AlphaFold预测的动力学蛋白/动力蛋白激活蛋白复合物模型中所假设的位置。此外，尽管磷酸化对调节动力蛋白/动力蛋白激活蛋白相互作用很重要，但我们表明，IC的磷酸化模拟突变不足以改变与p150(Glued)的结合。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40713938/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40713938/",
+  "paper_page_path": "papers/pubmed/40713938/index.html"
+}

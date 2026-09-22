@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.12.10.472151",
+  "title": "Quantification of nuclear transport inhibition by SARS-CoV-2 ORF6 using a broadly applicable live-cell dose-response pipeline",
+  "authors": "Yoo TY; Mitchison T",
+  "journal": "bioRxiv",
+  "published_date": "2021-12-13",
+  "window": {
+    "start": "2021-12-13",
+    "end": "2021-12-19"
+  },
+  "score": 4,
+  "one_liner_zh": "该文定量研究SARS-CoV-2 ORF6抑制核转运的机制，涉及NUP98结合与多价交联，但对象非无序蛋白/相分离，且方法为活细胞剂量-响应实验，无AI或物理模拟建模，对IDR-PPI机制建模启发有限。",
+  "abstract": "<h4>Summary</h4> SARS coronavirus ORF6 inhibits the classical nuclear import pathway to antagonize host antiviral responses. Several models were proposed to explain its inhibitory function, but quantitative measurement is needed for model evaluation and refinement. We report a broadly applicable live-cell method for calibrated dose-response characterization of the nuclear transport alteration by a protein of interest. Using this method, we found that SARS-CoV-2 ORF6 is ~15 times more potent than SARS-CoV-1 ORF6 in inhibiting bidirectional nuclear transport, due to differences in the NUP98-binding C-terminal region that is required for the inhibition. The N-terminal region promotes membrane binding and was required for activity, but could be replaced by constructs which forced oligomerization in solution. Based on these data, we propose that the hydrophobic N-terminal region drives oligomerization of ORF6 to multivalently cross-link the FG domains of NUP98 at the nuclear pore complex, and this multivalent binding inhibits bidirectional transport.",
+  "abstract_zh": "<h4>摘要</h4> SARS冠状病毒ORF6抑制经典核输入途径以拮抗宿主抗病毒反应。已有多种模型被提出以解释其抑制功能，但定量测量对于模型评估和细化是必要的。我们报告了一种广泛适用的活细胞方法，用于对目标蛋白引起的核转运改变进行校准剂量-反应表征。利用该方法，我们发现SARS-CoV-2 ORF6在抑制双向核转运方面的效力约为SARS-CoV-1 ORF6的15倍，这归因于NUP98结合C端区域的差异，该区域是抑制功能所必需的。N端区域促进膜结合且为活性所需，但可被强制在溶液中寡聚化的构建体所替代。基于这些数据，我们提出疏水性N端区域驱动ORF6寡聚化，以多价交联核孔复合体处NUP98的FG结构域，而这种多价结合抑制了双向转运。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.12.10.472151",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.12.10.472151",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.12.10.472151/index.html"
+}

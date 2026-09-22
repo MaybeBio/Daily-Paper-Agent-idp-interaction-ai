@@ -1,0 +1,550 @@
+{
+  "source": "biorxiv",
+  "source_id": "10.1101/2022.10.15.512345",
+  "title": "Fast and Accurate Prediction of Intrinsically Disordered Protein by Protein Language Model",
+  "doi": "10.1101/2022.10.15.512345",
+  "abstract": "Motivation Intrinsically disordered proteins (IDPs) play a vital role in various biological processes and have attracted increasing attention in the last decades. Predicting IDPs from primary structures of proteins provides a very useful tool for protein analysis. However, most of the existing prediction methods heavily rely on multiple sequence alignments (MSAs) of homologous sequences which are formed by evolution over billions of years. Obtaining such information requires searching against the whole protein databases to find similar sequences and since this process becomes increasingly time-consuming, especially in large-scale practical applications, the alternative method is needed. Results In this paper, we proposed a novel IDP prediction method named IDP-PLM, based on the protein language model (PLM). The method does not rely on MSAs or MSA-based profiles but leverages only the protein sequences, thereby achieving state-of-the-art performance even compared with predictors using protein profiles. The proposed IDP-PLM is composed of stacked predictors designed for several different protein-related tasks: secondary structure prediction, linker prediction, and binding predictions. In addition, predictors for the single task also achieved the highest accuracy. All these are based on PLMs thus making IDP-PLM not rely on MSA-based profiles. The ablation study reveals that all these stacked predictors contribute positively to the IDP prediction performance of IDP-PLM. Availability The method is available at http://github.com/xu-shi-jie . Contact akira.onoda@ees.hokudai.ac.jp Supplementary information Supplementary data are available at Bioinformatics online.",
+  "authors": [
+    "Shijie Xu",
+    "Akira Onoda"
+  ],
+  "published_date": "2022-10-18",
+  "updated_date": "2022-10-18T13:20:14Z",
+  "journal": "bioRxiv",
+  "category": "Bioinformatics",
+  "landing_url": "https://www.biorxiv.org/content/10.1101/2022.10.15.512345",
+  "pdf_url": "https://www.biorxiv.org/content/10.1101/2022.10.15.512345.full.pdf",
+  "pdf_path": "",
+  "pdf_downloaded": false,
+  "query": "(\"intrinsically disordered protein\" OR \"intrinsically disordered region\" OR \"intrinsically disordered\" OR \"disordered protein\" OR \"natively unfolded\" OR \"unstructured protein\" OR \"biomolecular condensate\") AND (\"protein-protein interaction\" OR interaction OR interact OR bind OR complex OR partner OR interface) AND (\"deep learning\" OR \"machine learning\" OR \"neural network\" OR \"graph neural network\" OR \"language model\" OR transformer OR \"diffusion model\" OR generative OR \"flow matching\" OR \"molecular dynamics\" OR simulation OR docking OR \"binding affinity\" OR prediction OR alphafold OR esmfold OR rosetta)",
+  "version": "",
+  "keywords": [
+    "Bioinformatics"
+  ],
+  "extra": {
+    "publisher": "openRxiv",
+    "prefix": "10.64898",
+    "type": "posted-content",
+    "group_title": "Bioinformatics",
+    "raw_record": {
+      "institution": [
+        {
+          "name": "bioRxiv"
+        }
+      ],
+      "indexed": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T18:53:50Z",
+        "timestamp": 1768503230496,
+        "version": "3.49.0"
+      },
+      "posted": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            18
+          ]
+        ]
+      },
+      "group-title": "Bioinformatics",
+      "reference-count": 58,
+      "publisher": "openRxiv",
+      "content-domain": {
+        "domain": [],
+        "crossmark-restriction": false
+      },
+      "accepted": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            18
+          ]
+        ]
+      },
+      "abstract": "<jats:title>Abstract</jats:title>\n                <jats:sec>\n                  <jats:title>Motivation</jats:title>\n                  <jats:p>Intrinsically disordered proteins (IDPs) play a vital role in various biological processes and have attracted increasing attention in the last decades. Predicting IDPs from primary structures of proteins provides a very useful tool for protein analysis. However, most of the existing prediction methods heavily rely on multiple sequence alignments (MSAs) of homologous sequences which are formed by evolution over billions of years. Obtaining such information requires searching against the whole protein databases to find similar sequences and since this process becomes increasingly time-consuming, especially in large-scale practical applications, the alternative method is needed.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Results</jats:title>\n                  <jats:p>In this paper, we proposed a novel IDP prediction method named IDP-PLM, based on the protein language model (PLM). The method does not rely on MSAs or MSA-based profiles but leverages only the protein sequences, thereby achieving state-of-the-art performance even compared with predictors using protein profiles. The proposed IDP-PLM is composed of stacked predictors designed for several different protein-related tasks: secondary structure prediction, linker prediction, and binding predictions. In addition, predictors for the single task also achieved the highest accuracy. All these are based on PLMs thus making IDP-PLM not rely on MSA-based profiles. The ablation study reveals that all these stacked predictors contribute positively to the IDP prediction performance of IDP-PLM.</jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Availability</jats:title>\n                  <jats:p>\n                    The method is available at\n                    <jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" ext-link-type=\"uri\" xlink:href=\"http://github.com/xu-shi-jie\">http://github.com/xu-shi-jie</jats:ext-link>\n                    .\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Contact</jats:title>\n                  <jats:p>\n                    <jats:email>akira.onoda@ees.hokudai.ac.jp</jats:email>\n                  </jats:p>\n                </jats:sec>\n                <jats:sec>\n                  <jats:title>Supplementary information</jats:title>\n                  <jats:p>\n                    Supplementary data are available at\n                    <jats:italic>Bioinformatics</jats:italic>\n                    online.\n                  </jats:p>\n                </jats:sec>",
+      "DOI": "10.1101/2022.10.15.512345",
+      "type": "posted-content",
+      "created": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            18
+          ]
+        ],
+        "date-time": "2022-10-18T13:20:14Z",
+        "timestamp": 1666099214000
+      },
+      "source": "Crossref",
+      "is-referenced-by-count": 0,
+      "title": [
+        "Fast and Accurate Prediction of Intrinsically Disordered Protein by Protein Language Model"
+      ],
+      "prefix": "10.64898",
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0001-6974-353X",
+          "authenticated-orcid": false,
+          "given": "Shijie",
+          "family": "Xu",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5791-4386",
+          "authenticated-orcid": false,
+          "given": "Akira",
+          "family": "Onoda",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "role": "author",
+              "vocabulary": "crossref"
+            }
+          ]
+        }
+      ],
+      "member": "54368",
+      "reference": [
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.1",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/25.17.3389"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.2",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1517/17460441.2016.1107041"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.3",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-019-40055-1"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.4",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkg095"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.5",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/pro.3064"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.6",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s10618-005-0001-y"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.7",
+          "doi-asserted-by": "crossref",
+          "first-page": "145",
+          "DOI": "10.1016/bs.pmbts.2019.05.007",
+          "article-title": "Intrinsically disordered proteins in various hypotheses on the pathogenesis of Alzheimer’s and Parkinson’s diseases",
+          "volume": "166",
+          "year": "2019",
+          "journal-title": "Prog. Mol. Biol. Transl. Sci."
+        },
+        {
+          "issue": "4",
+          "key": "2022102004300429000_2022.10.15.512345v1.8",
+          "doi-asserted-by": "crossref",
+          "first-page": "508",
+          "DOI": "10.1002/(SICI)1097-0134(19990301)34:4<508::AID-PROT10>3.0.CO;2-4",
+          "article-title": "Evaluation and improvement of multiple sequence methods for protein secondary structure prediction",
+          "volume": "34",
+          "year": "1999",
+          "journal-title": "Proteins Struct. Funct. Bioinforma."
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.9",
+          "unstructured": "Devlin, J. et al. (2018). Bert: Pre-training of deep bidirectional transformers for language understanding. arXiv Prepr. arXiv1810.04805."
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.10",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/14.9.755"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.11",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Elnaggar, A. et al. (2020). ProtTrans: towards cracking the language of Life’s code through self-supervised deep learning and high performance computing. arXiv Prepr. arXiv2007.06225.",
+          "DOI": "10.1101/2020.07.12.199554"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.12",
+          "unstructured": "Glorot, X. , Bordes, A. and Bengio, Y. (2011). Deep sparse rectifier neural networks. In Proceedings of the fourteenth international conference on artificial intelligence and statistics, pages 315–323. JMLR Workshop and Conference Proceedings."
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.13",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw678"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.14",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1186/s12859-019-2669-9"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.15",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1162/neco.1997.9.8.1735"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.16",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41467-020-20241-w"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.17",
+          "doi-asserted-by": "crossref",
+          "first-page": "3198",
+          "DOI": "10.1016/j.csbj.2021.05.039",
+          "article-title": "Representation learning applications in biological sequence analysis",
+          "volume": "19",
+          "year": "2021",
+          "journal-title": "Comput. Struct. Biotechnol. J."
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.18",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1016/0003-9861(58)90199-1"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.19",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu744"
+        },
+        {
+          "issue": "1",
+          "key": "2022102004300429000_2022.10.15.512345v1.20",
+          "doi-asserted-by": "crossref",
+          "first-page": "115",
+          "DOI": "10.1093/bioinformatics/btab640",
+          "article-title": "Disolippred: accurate prediction of disordered lipid-binding residues in protein sequences with deep recurrent networks and transfer learning",
+          "volume": "38",
+          "year": "2021",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "issue": "6",
+          "key": "2022102004300429000_2022.10.15.512345v1.21",
+          "doi-asserted-by": "crossref",
+          "first-page": "520",
+          "DOI": "10.1002/prot.25674",
+          "article-title": "NetSurfP-2.0: Improved prediction of protein structural features by integrated deep learning",
+          "volume": "87",
+          "year": "2019",
+          "journal-title": "Proteins Struct. Funct. Bioinforma."
+        },
+        {
+          "issue": "11",
+          "key": "2022102004300429000_2022.10.15.512345v1.22",
+          "doi-asserted-by": "crossref",
+          "first-page": "2278",
+          "DOI": "10.1109/5.726791",
+          "article-title": "Gradient-based learning applied to document recognition",
+          "volume": "86",
+          "year": "1998",
+          "journal-title": "Proc. IEEE"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.23",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin, T.Y. et al. (2017). Focal loss for dense object detection. In Proc. IEEE Int. Conf. Comput. Vis., pages 2980–2988.",
+          "DOI": "10.1109/ICCV.2017.324"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.24",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Lin, Z. et al. (2022). Language models of protein sequences at the scale of evolution enable accurate structure prediction. bioRxiv.",
+          "DOI": "10.1101/2022.07.20.500902"
+        },
+        {
+          "issue": "9",
+          "key": "2022102004300429000_2022.10.15.512345v1.25",
+          "doi-asserted-by": "crossref",
+          "first-page": "2483",
+          "DOI": "10.3390/ijms19092483",
+          "article-title": "IDP–CRF: intrinsically disordered protein/region identification based on conditional random fields",
+          "volume": "19",
+          "year": "2018",
+          "journal-title": "Int. J. Mol. Sci."
+        },
+        {
+          "issue": "2",
+          "key": "2022102004300429000_2022.10.15.512345v1.26",
+          "doi-asserted-by": "crossref",
+          "first-page": "2000",
+          "DOI": "10.1093/bib/bbaa018",
+          "article-title": "RFPR-IDP: reduce the false positive rates for intrinsically disordered protein and region prediction by incorporating both fully ordered proteins and disordered proteins",
+          "volume": "22",
+          "year": "2021",
+          "journal-title": "Brief. Bioinform."
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.27",
+          "unstructured": "Loshchilov, I. and Hutter, F. (2017). Decoupled weight decay regularization. arXiv Prepr. arXiv1711.05101."
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.28",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw280"
+        },
+        {
+          "issue": "5",
+          "key": "2022102004300429000_2022.10.15.512345v1.29",
+          "doi-asserted-by": "crossref",
+          "first-page": "472",
+          "DOI": "10.1038/s41592-021-01117-3",
+          "article-title": "Critical assessment of protein intrinsic disorder prediction",
+          "volume": "18",
+          "year": "2021",
+          "journal-title": "Nat. Methods"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.30",
+          "unstructured": "NVIDIA, Vingelmann, P. and Fitzek, F.H.P. (2020). CUDA, release: 10.2.89."
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.31",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Oldfield, C.J. , Peng, Z. and Kurgan, L. (2020). Disordered RNA-binding region prediction with DisoRDPbind. In RNA Chaperones, pages 225–239. Springer.",
+          "DOI": "10.1007/978-1-0716-0231-7_14"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.32",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Pang, Y. and Liu, B. (2022). TransDFL: Identification of Disordered Flexible Linkers in Proteins by Transfer Learning. bioRxiv.",
+          "DOI": "10.1101/2022.06.03.494673"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.33",
+          "unstructured": "Papastratis, I. (2022). Intrinsically disordered protein prediction for genomes and metagenomes. Ph.D. thesis."
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.34",
+          "unstructured": "Paszke, A. et al. (2019). PyTorch: An imperative style, high-performance deep learning library. Adv. Neural Inf. Process. Syst., 32."
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.35",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/s00018-014-1661-9"
+        },
+        {
+          "issue": "Supplement_2",
+          "key": "2022102004300429000_2022.10.15.512345v1.36",
+          "first-page": "I754",
+          "article-title": "APOD: Accurate sequence-based predictor of disordered flexible linkers",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.37",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.2174/138920312799277938"
+        },
+        {
+          "issue": "2",
+          "key": "2022102004300429000_2022.10.15.512345v1.38",
+          "doi-asserted-by": "crossref",
+          "first-page": "8",
+          "DOI": "10.3390/ht8020008",
+          "article-title": "Dark proteome database: studies on dark proteins",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "High-throughput"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.39",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1058"
+        },
+        {
+          "issue": "D1",
+          "key": "2022102004300429000_2022.10.15.512345v1.40",
+          "doi-asserted-by": "crossref",
+          "first-page": "D480",
+          "DOI": "10.1093/nar/gkab1082",
+          "article-title": "DisProt in 2022: Improved quality and accessibility of protein intrinsic disorder annotation",
+          "volume": "50",
+          "year": "2022",
+          "journal-title": "Nucleic Acids Res."
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.41",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1002/jcb.23252"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.42",
+          "first-page": "1",
+          "article-title": "Evaluating protein transfer learning with TAPE",
+          "volume": "32",
+          "year": "2019",
+          "journal-title": "Adv. Neural Inf. Process. Syst."
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.43",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rao, R. et al. (2020). Transformer protein language models are unsupervised structure learners. Biorxiv.",
+          "DOI": "10.1101/2020.12.15.422761"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.44",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rives, A. et al. (2021). Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences. Proc. Natl. Acad. Sci. U. S. A., 118(15).",
+          "DOI": "10.1073/pnas.2016239118"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.45",
+          "doi-asserted-by": "crossref",
+          "unstructured": "Rumelhart, D.E. , Hinton, G.E. and Williams, R.J. (1985). Learning internal representations by error propagation. Technical report, California Univ San Diego La Jolla Inst for Cognitive Science.",
+          "DOI": "10.21236/ADA164453"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.46",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btu500"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.47",
+          "unstructured": "Tamiola, K. et al. (2022). ADOPT: intrinsic protein disorder prediction through deep bidirectional transformers. bioRxiv."
+        },
+        {
+          "issue": "21",
+          "key": "2022102004300429000_2022.10.15.512345v1.48",
+          "first-page": "5177",
+          "article-title": "IDP-Seq2Seq: Identification of intrinsically disordered regions based on sequence to sequence learning",
+          "volume": "36",
+          "year": "2020",
+          "journal-title": "Bioinformatics"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.49",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/nar/gkaa1100"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.50",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.48550/arxiv.1706.03762"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.51",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btr682"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.52",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1093/bioinformatics/btw446"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.53",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1038/s41598-016-0001-8"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.54",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/07391102.2012.675145"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.55",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1007/978-1-4939-6406-2_6"
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.56",
+          "doi-asserted-by": "crossref",
+          "first-page": "e46883",
+          "DOI": "10.7554/eLife.46883",
+          "article-title": "Proteome-wide signatures of function in highly diverged intrinsically disordered regions",
+          "volume": "8",
+          "year": "2019",
+          "journal-title": "Elife"
+        },
+        {
+          "issue": "1",
+          "key": "2022102004300429000_2022.10.15.512345v1.57",
+          "doi-asserted-by": "crossref",
+          "first-page": "bbab521",
+          "DOI": "10.1093/bib/bbab521",
+          "article-title": "DeepDISOBind: accurate prediction of RNA-, DNA-and protein-binding intrinsically disordered residues with deep multi-task learning",
+          "volume": "23",
+          "year": "2022",
+          "journal-title": "Brief. Bioinform."
+        },
+        {
+          "key": "2022102004300429000_2022.10.15.512345v1.58",
+          "doi-asserted-by": "publisher",
+          "DOI": "10.1080/073911012010525022"
+        }
+      ],
+      "link": [
+        {
+          "URL": "https://syndication.highwire.org/content/doi/10.1101/2022.10.15.512345",
+          "content-type": "unspecified",
+          "content-version": "vor",
+          "intended-application": "similarity-checking"
+        }
+      ],
+      "deposited": {
+        "date-parts": [
+          [
+            2026,
+            1,
+            15
+          ]
+        ],
+        "date-time": "2026-01-15T03:45:11Z",
+        "timestamp": 1768448711000
+      },
+      "score": 136.08559,
+      "resource": {
+        "primary": {
+          "URL": "http://biorxiv.org/lookup/doi/10.1101/2022.10.15.512345"
+        }
+      },
+      "issued": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            18
+          ]
+        ]
+      },
+      "references-count": 58,
+      "URL": "https://doi.org/10.1101/2022.10.15.512345",
+      "published": {
+        "date-parts": [
+          [
+            2022,
+            10,
+            18
+          ]
+        ]
+      },
+      "subtype": "preprint"
+    }
+  }
+}

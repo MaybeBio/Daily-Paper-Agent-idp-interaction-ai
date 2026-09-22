@@ -1,0 +1,24 @@
+{
+  "source": "pubmed",
+  "id": "40053704",
+  "title": "Growth of Clusters toward Liquid-Liquid Phase Separation of Monoclonal Antibodies as Characterized by Small-Angle X-ray Scattering and Molecular Dynamics Simulation.",
+  "authors": "Kimball, William D; Lanzaro, Alfredo; Hurd, Christian; Jhaveri, Neel; Huang, Jintian; Lewandowski, Joshua; Qian, Ken K; Woldeyes, Mahlet A; Majumdar, Ranajoy; Witek, Marta A; Feng, Jiangyan; Gillilan, Richard E; Huang, Qingqiu; Marras, Alexander E; Truskett, Thomas M; Johnston, Keith P",
+  "journal": "The journal of physical chemistry. B",
+  "published_date": "2025-03-07",
+  "window": {
+    "start": "2025-03-03",
+    "end": "2025-03-09"
+  },
+  "score": 7,
+  "one_liner_zh": "该文用SAXS结合粗粒化分子动力学模拟研究单克隆抗体在接近液-液相分离时的团簇生长与短程吸引作用，虽对象为折叠蛋白而非无序蛋白，但其凝聚体形成机制与聚类表征方法对IDR介导的相分离PPI建模有可迁移启发。",
+  "abstract": "In concentrated protein solutions, short-range attractions (SRAs) contribute to liquid-liquid phase separation (LLPS) as a function of temperature and salinity, particularly when the charge and thus long-range repulsions are low near the isoelectric point pI. Herein, we study how SRA and solution morphology vary with the approach to LLPS from increased SRA for two monoclonal antibodies (mAbs) as salt concentration is reduced near the pI. These properties are quantified using small-angle X-ray scattering (SAXS) interpreted via coarse-grained (CG) molecular dynamics (MD) simulations and compared with less descriptive properties from static and dynamic light scattering. Experimental structure factors are fit with a library of MD simulations for a CG 12-bead mAb model to determine the SRA strength (K) and cluster size distributions. Proximity to LLPS and clustering characteristics in mAb solutions are impacted by both net charge, which are modified by pH, and the strength of anisotropic electrostatic SRA (charge-charge, charge-dipole, hydrogen bonding, etc.), which are screened and weakened by added salts. The trends in LLPS are consistent with the reduced diffusion interaction parameter kD/B(22)(ex) for dilute solutions. However, greater insight is provided with SAXS along with CG-MD simulations; in particular, the growth of clusters is observed with the approach to LLPS with decreasing salinity over a wide range of concentrations.",
+  "abstract_zh": "在浓缩蛋白质溶液中，短程吸引力（SRAs）随温度和盐度变化促成液-液相分离（LLPS），尤其是在等电点pI附近电荷及由此产生的长程排斥力较低时。本文研究了两种单克隆抗体（mAbs）在接近pI时盐浓度降低、SRA增强从而趋近LLPS的过程中，SRA和溶液形态如何变化。这些性质通过小角X射线散射（SAXS）量化，并借助粗粒化（CG）分子动力学（MD）模拟进行解释，同时与静态和动态光散射提供的较少描述性性质进行比较。实验结构因子与CG 12珠mAb模型的MD模拟库进行拟合，以确定SRA强度（K）和簇大小分布。mAb溶液中接近LLPS的程度及聚集特征受净电荷（受pH调节）和各向异性静电SRA（如电荷-电荷、电荷-偶极、氢键等）强度的影响，后者被添加的盐屏蔽和削弱。LLPS的趋势与稀溶液中减少的扩散相互作用参数kD/B(22)(ex)一致。然而，SAXS结合CG-MD模拟提供了更深入的见解；特别是，在宽浓度范围内，随着盐度降低而趋近LLPS时，观察到簇的生长。",
+  "has_fulltext": true,
+  "fulltext_source": "pmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "paper-card.md",
+  "review_path": "review.md",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/40053704/",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/40053704/",
+  "paper_page_path": "papers/pubmed/40053704/index.html"
+}

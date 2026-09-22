@@ -1,0 +1,351 @@
+{
+  "identity": {
+    "pmid": "41108566",
+    "doi": "10.1002/pro.70332",
+    "title": "N3A motifs in RIbeta mediate allosteric crosstalk between cAMP and ATP in PKA activation."
+  },
+  "content": {
+    "abstract": "The RIbeta subunit of cAMP-dependent protein kinase (PKA) is highly expressed in the brain, yet it remains the least studied of the PKA regulatory subunits (R). As pathologic variants of its gene are increasingly implicated in neurodevelopmental disorders, neurodegeneration, and cancer, gaining more information about the structure/function of RIbeta, and how it differs from RIalpha, has become increasingly important. We previously reported the structure of the RIbeta(2)C(2) holoenzyme, which revealed a novel conformation where ATP binding was stabilized by a head-to-head anti-parallel packing of the C-tail wrapped around the N-lobe of the catalytic subunit (C). Although visible, the Dimerization/Docking Domain was poorly folded and reduced. Since RIbeta is oxidized in brain tissues, we asked if oxidation or binding of an A Kinase Anchoring Protein (AKAP) would affect the holoenzyme structure. Oxidation or addition of an AKAP peptide to crystals led to the release of nucleotide. To capture this at higher resolution we crystallized RIbeta(2)C(2) in the presence of an AKAP peptide. This new structure represents an RIbeta:C heterodimer. Density for the D/D domain was missing; ATP was absent, the kinase adopted an open conformation, and the C-terminus of the RIbeta subunit was no longer resolved. Because the crosstalk between ATP and cAMP in the R:C complex appears to be mediated by the two N3A motifs (N3A(A) and N3A(B)) as well as by the linker, which in free RIbeta is intrinsically disordered, we describe the conserved features of these two motifs as well as the linker and show how each contributes in a unique but coordinated way to allosteric activation of RIbeta holoenzymes by cAMP. A key difference in our RIbeta:C structure is the rotation of the side chain of W260 at the N-terminus of the alphaA Helix in N3A(B). W260, at the R:C interface in the holoenzyme, is also the capping residue for cAMP bound to CNB-A, so we may have actually captured the first step in cAMP activation.",
+    "keywords": [
+      "PKA",
+      "PRKAR1B",
+      "heterodimer structure",
+      "holoenzyme"
+    ],
+    "mesh_terms": [
+      "*Adenosine Triphosphate/metabolism/chemistry",
+      "*Cyclic AMP/metabolism/chemistry",
+      "*Cyclic AMP-Dependent Protein Kinase RIIbeta Subunit/chemistry/metabolism/genetics",
+      "Allosteric Regulation",
+      "Humans",
+      "Amino Acid Motifs",
+      "*Cyclic AMP-Dependent Protein Kinases/metabolism/chemistry",
+      "Models, Molecular",
+      "A Kinase Anchor Proteins/chemistry/metabolism",
+      "Enzyme Activation",
+      "Animals",
+      "Crystallography, X-Ray"
+    ],
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "contributors": {
+    "medline": {
+      "full_names": [
+        "Wu, Jian",
+        "Bruystens, Jessica G H",
+        "Sahoo, Puspashree",
+        "Bubis, Jose",
+        "Maillard, Rodrigo A",
+        "Taylor, Susan S",
+        "Ilouz, Ronit"
+      ],
+      "short_names": [
+        "Wu J",
+        "Bruystens JGH",
+        "Sahoo P",
+        "Bubis J",
+        "Maillard RA",
+        "Taylor SS",
+        "Ilouz R"
+      ],
+      "auids": [
+        "ORCID: 0000-0001-7850-4143"
+      ],
+      "affiliations": [
+        "Department of Pharmacology, University of California at San Diego, San Diego, California, USA.",
+        "Department of Pharmacology, University of California at San Diego, San Diego, California, USA.",
+        "The Azrieli Faculty of Medicine, Bar Ilan University, Safed, Israel.",
+        "Departamento de Biologia, Universidad Simon Bolivar, Caracas, Venezuela.",
+        "Direccion de Salud, Fundacion Estudios Avanzados IDEA, Caracas, Venezuela.",
+        "Department of Chemistry, Georgetown University, Washington, DC, USA.",
+        "Institute for Soft Matter Synthesis and Metrology, Georgetown University, Washington, DC, USA.",
+        "Department of Pharmacology, University of California at San Diego, San Diego, California, USA.",
+        "Department of Biochemistry and Molecular Biophysics, University of California at San Diego, San Diego, California, USA.",
+        "The Azrieli Faculty of Medicine, Bar Ilan University, Safed, Israel.",
+        "The Leslie & Susan Goldschmied (Gonda) Multidisciplinary Brain Research Center, Bar-Ilan University, Ramat-Gan, Israel."
+      ]
+    },
+    "xml": [
+      {
+        "full_name": "Wu, Jian",
+        "short_name": "Wu J",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California at San Diego, San Diego, California, USA."
+        ]
+      },
+      {
+        "full_name": "Bruystens, Jessica G H",
+        "short_name": "Bruystens JGH",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California at San Diego, San Diego, California, USA."
+        ]
+      },
+      {
+        "full_name": "Sahoo, Puspashree",
+        "short_name": "Sahoo P",
+        "identifiers": [],
+        "affiliations": [
+          "The Azrieli Faculty of Medicine, Bar Ilan University, Safed, Israel."
+        ]
+      },
+      {
+        "full_name": "Bubis, José",
+        "short_name": "Bubis J",
+        "identifiers": [],
+        "affiliations": [
+          "Departamento de Biología, Universidad Simón Bolívar, Caracas, Venezuela.",
+          "Dirección de Salud, Fundación Estudios Avanzados IDEA, Caracas, Venezuela."
+        ]
+      },
+      {
+        "full_name": "Maillard, Rodrigo A",
+        "short_name": "Maillard RA",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Chemistry, Georgetown University, Washington, DC, USA.",
+          "Institute for Soft Matter Synthesis and Metrology, Georgetown University, Washington, DC, USA."
+        ]
+      },
+      {
+        "full_name": "Taylor, Susan S",
+        "short_name": "Taylor SS",
+        "identifiers": [],
+        "affiliations": [
+          "Department of Pharmacology, University of California at San Diego, San Diego, California, USA.",
+          "Department of Biochemistry and Molecular Biophysics, University of California at San Diego, San Diego, California, USA."
+        ]
+      },
+      {
+        "full_name": "Ilouz, Ronit",
+        "short_name": "Ilouz R",
+        "identifiers": [
+          "0000-0001-7850-4143"
+        ],
+        "affiliations": [
+          "The Azrieli Faculty of Medicine, Bar Ilan University, Safed, Israel.",
+          "The Leslie & Susan Goldschmied (Gonda) Multidisciplinary Brain Research Center, Bar-Ilan University, Ramat-Gan, Israel."
+        ]
+      }
+    ]
+  },
+  "source": {
+    "journal_title": [
+      "Protein science : a publication of the Protein Society"
+    ],
+    "journal_abbrev": [
+      "Protein Sci"
+    ],
+    "pub_date": "2025 Nov",
+    "pub_year": "2025",
+    "pub_types": [
+      "Journal Article",
+      "Research Support, N.I.H., Extramural",
+      "Research Support, Non-U.S. Gov't"
+    ]
+  },
+  "metadata": {
+    "entrez_date": "2025/10/18 12:30",
+    "fetched_at": "2026-09-17 21:10:01"
+  },
+  "links": {
+    "cites": [
+      "42062663"
+    ],
+    "refs": [
+      "40244081",
+      "38743596",
+      "37150322",
+      "36855225",
+      "33833410",
+      "31674811",
+      "31588918",
+      "31484930",
+      "31363049",
+      "30905674",
+      "28079521",
+      "27754618",
+      "27357676",
+      "27028580",
+      "26618408",
+      "25202018",
+      "24316401",
+      "23524293",
+      "23115245",
+      "22992589",
+      "22797896",
+      "22323819",
+      "21300294",
+      "20159461",
+      "19748511",
+      "18076763",
+      "17932298",
+      "17889648",
+      "17081990",
+      "16754666",
+      "15950870",
+      "15692043",
+      "15618393",
+      "15299527",
+      "11734894",
+      "11106480",
+      "10899163",
+      "10320366",
+      "10074940",
+      "9353302",
+      "9065479",
+      "7638597",
+      "6323450",
+      "6261152",
+      "4367815",
+      "4324558",
+      "4324557",
+      "4298072",
+      "3667618",
+      "2619996"
+    ],
+    "similar": [
+      "41108566",
+      "31363049",
+      "41388753",
+      "25112875",
+      "33370777",
+      "40244081",
+      "22323819",
+      "12634056",
+      "15236976",
+      "14967031",
+      "27825928",
+      "19748511",
+      "10567247",
+      "17932298",
+      "26618408",
+      "17889648",
+      "20819953",
+      "27028580",
+      "38910447",
+      "22797896",
+      "21300294",
+      "8627334",
+      "15046986",
+      "14625280",
+      "10764601",
+      "25097019",
+      "20923972",
+      "15157095",
+      "15692043",
+      "40512625",
+      "15878851",
+      "16109722",
+      "15274925",
+      "15134437",
+      "29449124",
+      "26278174",
+      "32722762",
+      "12896975",
+      "40241376",
+      "25202018",
+      "9048592",
+      "17081990",
+      "12614615",
+      "34330820",
+      "7925653",
+      "8003514",
+      "25348485",
+      "23978166",
+      "21081668",
+      "11342137",
+      "26158466",
+      "25783885",
+      "28893983",
+      "17942118",
+      "27848106",
+      "17596845",
+      "31484930",
+      "20512974",
+      "11320118",
+      "26207888",
+      "16407073",
+      "18625701",
+      "27102985",
+      "8910352",
+      "23362281",
+      "9109651",
+      "30905674",
+      "12930997",
+      "8119290",
+      "32592188",
+      "38913408",
+      "27129434",
+      "17081989",
+      "11278869",
+      "17973384",
+      "19837668",
+      "20394097",
+      "16728394",
+      "12373096",
+      "28661131",
+      "9326583",
+      "17658893",
+      "25477193",
+      "28583991",
+      "17996741",
+      "18326045",
+      "2156855",
+      "34006641",
+      "27791125",
+      "22617327",
+      "16214430",
+      "23535202",
+      "16322564",
+      "9804812",
+      "10514522",
+      "29367252",
+      "8608131",
+      "30258407",
+      "12457232",
+      "9434747"
+    ],
+    "review": [
+      "41108566",
+      "34330820",
+      "26207888",
+      "17996741",
+      "16214430",
+      "23535202"
+    ],
+    "pmc": [
+      "12535202"
+    ],
+    "entrez": {},
+    "external": [
+      {
+        "url": "https://www.ovid.com/41108566.pmid",
+        "provider": "Ovid Technologies, Inc.",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      },
+      {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/pmid/41108566/",
+        "provider": "PubMed Central",
+        "category": "Full Text Sources",
+        "attribute": "free resource",
+        "linkname": ""
+      },
+      {
+        "url": "https://doi.org/10.1002/pro.70332",
+        "provider": "Wiley",
+        "category": "Full Text Sources",
+        "attribute": "subscription/membership/fee required",
+        "linkname": ""
+      }
+    ],
+    "text_mined": []
+  }
+}

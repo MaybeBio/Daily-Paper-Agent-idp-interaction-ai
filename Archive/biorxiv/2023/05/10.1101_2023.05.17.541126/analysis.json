@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2023.05.17.541126",
+  "title": "mRNA display reveals a class of high-affinity bromodomain-binding motifs that are not found in the human proteome",
+  "authors": "Low JKK; Patel K; Solomon P; Norman A; Pachl P; Jones N; Payne RJ; Passioura T; Suga H; Walport LJ; Mackay JP",
+  "journal": "bioRxiv",
+  "published_date": "2023-05-17",
+  "window": {
+    "start": "2023-05-15",
+    "end": "2023-05-21"
+  },
+  "score": 3,
+  "one_liner_zh": "该研究用mRNA展示筛选高亲和溴结构域结合肽并解析晶体结构，但对象为折叠结构域与合成肽，非无序蛋白/IDR，且无AI或物理模拟方法，仅对PPI机制有间接参考价值。",
+  "abstract": "<h4>ABSTRACT</h4> Bromodomains regulate gene expression by recognizing protein motifs containing acetyllysine. Although originally characterized as histone-binding proteins, it has since become clear that these domains interact with other acetylated proteins, perhaps most prominently transcription factors. The likely transient nature and low stoichiometry of such modifications, however, has made it challenging to fully define the interactome of any given bromodomain. To begin to address this knowledge gap in an unbiased manner, we carried out mRNA display screens against a bromodomain – the N -terminal bromodomain of BRD3 – using peptide libraries that contained either one or two acetyllysine residues. We discovered peptides with very strong consensus sequences and with affinities that are significantly higher than typical bromodomain-peptide interactions. X-ray crystal structures also revealed modes of binding that have not been seen with natural ligands. Intriguingly, however, our selected sequences are not found in the human proteome, perhaps suggesting that strong binders to bromodomains might have been selected against.",
+  "abstract_zh": "<h4>摘要</h4> 溴结构域（bromodomains）通过识别含有乙酰赖氨酸的蛋白质基序来调控基因表达。尽管最初被定性为组蛋白结合蛋白，但现已明确这些结构域也与其他乙酰化蛋白质相互作用，其中可能最显著的是转录因子。然而，这类修饰可能具有瞬时性和低化学计量比，使得全面定义任一溴结构域的相互作用组颇具挑战。为以无偏方式填补这一知识空白，我们针对一个溴结构域——BRD3的N端溴结构域——进行了mRNA展示筛选，使用了含有一个或两个乙酰赖氨酸残基的肽库。我们发现了具有极强共有序列的肽段，其亲和力显著高于典型的溴结构域-肽相互作用。X射线晶体结构还揭示了与天然配体未见过的结合模式。然而，有趣的是，我们选出的序列并未在人类蛋白质组中发现，这可能表明针对溴结构域的强结合物可能已被自然选择淘汰。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2023.05.17.541126",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2023.05.17.541126",
+  "paper_page_path": "papers/biorxiv/10.1101_2023.05.17.541126/index.html"
+}

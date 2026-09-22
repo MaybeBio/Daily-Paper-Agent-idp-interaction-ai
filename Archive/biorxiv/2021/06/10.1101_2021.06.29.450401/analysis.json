@@ -1,0 +1,24 @@
+{
+  "source": "biorxiv",
+  "id": "10.1101/2021.06.29.450401",
+  "title": "Deep learning model for the prediction and classification of protein toxins across all domains of life",
+  "authors": "Javier Caceres-Delpiano; Roberto Ibañez; Simon Correa; Michael P. Dunne; Pedro Retamal; Leonardo Álvarez",
+  "journal": "bioRxiv",
+  "published_date": "2021-06-30",
+  "window": {
+    "start": "2021-06-28",
+    "end": "2021-07-04"
+  },
+  "score": 2,
+  "one_liner_zh": "该文用CNN深度学习模型预测和分类跨物种蛋白毒素，对象为毒素蛋白而非无序蛋白/IDR，且不涉及PPI或互作机制建模，与本课题关联微弱。",
+  "abstract": "Toxins are widely produced by different organisms to disrupt the physiology of other organisms, and support their own existence. Their study is useful to understand protein evolution, environmental adaptation and survival competition. In-silico predictions of toxic proteins can support empirical frameworks, and help in the safety measurements needed for various industrial related processes. Some in-silico methods are slow, hard to implement or lack taxa representation in their training datasets. Here we present a deep learning model to classify protein toxins, through the use of Convolutional Neural Networks (ConvTOX). ConvTOX is able to accurately identify toxic proteins across the domains of life, with accuracies over 80% for animal and plant toxins, and over 50% for bacterial toxins. Moreover, ConvTOX is able to generalize the identification of differences among toxin types, such as neurotoxins and myotoxins, and to accurately identify structural similarities between different protein toxins. ConvTOX overcomes limitations from previous models by being able to predict toxin proteins from across all domains of life, and by not being limited to only short toxin peptides. Limitations are still clear in terms of lower accuracies for specific phylogenetic groups (such as bacterial toxins), but still this works presents itself as a one step forward for the universal use, classification and study of toxic proteins.",
+  "abstract_zh": "毒素被不同生物广泛产生，以干扰其他生物的生理功能，并支持自身的生存。对其研究有助于理解蛋白质进化、环境适应和生存竞争。计算机模拟预测毒性蛋白质可以支持实验框架，并有助于各种工业相关过程所需的安全措施。一些计算机模拟方法速度慢、难以实施，或在训练数据集中缺乏分类群代表性。在此，我们提出一种深度学习模型，通过卷积神经网络（ConvTOX）对蛋白质毒素进行分类。ConvTOX能够准确识别生命各域中的毒性蛋白质，对动物和植物毒素的准确率超过80%，对细菌毒素的准确率超过50%。此外，ConvTOX能够泛化识别不同毒素类型之间的差异，如神经毒素和肌毒素，并准确识别不同蛋白质毒素之间的结构相似性。ConvTOX克服了以往模型的局限性，能够预测来自所有生命域的毒素蛋白质，且不限于短毒素肽。对于特定系统发育群体（如细菌毒素）的准确率较低，局限性仍然明显，但这项工作仍代表了向毒性蛋白质的普遍使用、分类和研究迈出的一步。",
+  "has_fulltext": true,
+  "fulltext_source": "europepmc",
+  "fulltext_path": "fulltext.md",
+  "paper_card_path": "",
+  "review_path": "",
+  "url": "https://www.biorxiv.org/content/10.1101/2021.06.29.450401",
+  "source_url": "https://www.biorxiv.org/content/10.1101/2021.06.29.450401",
+  "paper_page_path": "papers/biorxiv/10.1101_2021.06.29.450401/index.html"
+}
